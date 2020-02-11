@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f7f59e2341d7b68b8b28869efc5bfb04cd5ba14
+source-git-commit: c7521a076418d8f162d241cd883d10b1ed543d35
 
 ---
 
@@ -25,6 +25,10 @@ Adobe Campaign Classic 설명서의 모든 최신 업데이트에 대해 알아�
 이 페이지에는 Adobe Campaign Classic의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
 Adobe Campaign Classic 릴리스 [노트를 참조할 수도 있습니다](../../rn/using/latest-release.md).
+
+## 2020년 2월 {#february-2020}
+
+이제 세 개의 이메일 공급자(Gmail, Outlook 및 Mail.ru)가 지원하는 이메일용 AMP는 AMP를 사용하여 대화형 컨텐츠를 정의하는 방법을 설명하는 섹션이 업데이트되었습니다. [자세한 내용](../../delivery/using/defining-interactive-content.md)
 
 ## 2020년 1월 {#january-2020}
 
