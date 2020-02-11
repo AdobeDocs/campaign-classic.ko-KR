@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc248ef0eacb802b49295cbb1104a1d866bd355e
+source-git-commit: 1815f9fc6063ec86d6c12ef492396e5afb82b3e1
 
 ---
 
@@ -22,18 +22,17 @@ source-git-commit: bc248ef0eacb802b49295cbb1104a1d866bd355e
 
 Adobe Campaign을 사용하면 특정 조건에서 동적 이메일을 [보낼 수](https://amp.dev/about/email/) 있는 새로운 대화형 AMP 이메일 형식을 사용할 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* 이 기능은 Adobe Campaign의 베타 기능입니다.
->* AMP for Email은 개발자가 다이내믹하고 인터랙티브한 이메일을 만들 수 있는 새로운 오픈 소스 포맷입니다. 현재 두 개의 이메일 공급자가 지원합니다.Gmail 및 Outlook.
->
->
-따라서 다음 작업만 수행할 수 있습니다.
->* AMP 이메일을 특정 Gmail 또는 Outlook 주소로 적절하게 구성된 것을 테스트합니다.
->* Google에 등록하고 Microsoft에 등록한 후 모든 Outlook 주소에 AMP 이메일을 전달할 수 있습니다.
->
->
-AMP [이메일](#targeting-amp-email)타깃팅을 참조하십시오.
+>* AMP for Email은 개발자가 다이내믹하고 인터랙티브한 이메일을 만들 수 있는 새로운 오픈 소스 포맷입니다. 현재 몇 개의 이메일 공급자가 지원합니다.Gmail, Outlook 및 Mail.ru.
+
+
+현재, 다음 작업만 수행할 수 있습니다.
+* 적절하게 구성된 특정 주소에 AMP 이메일 전달을 테스트합니다.
+* 해당 공급자에 등록한 후 AMP 이메일을 Gmail, Outlook 또는 Mail.ru 주소로 전달할 수 있습니다.
+
+AMP 이메일 테스트 및 전송에 대한 자세한 내용은 AMP [이메일](#targeting-amp-email)타깃팅을 참조하십시오.
 
 이 기능은 Adobe Campaign의 전용 패키지를 통해 사용할 수 있습니다. 이 패키지를 사용하려면 이 패키지를 설치해야 합니다. 완료되면 패키지를 고려하기 위해 서버를 다시 시작합니다.
 
@@ -59,21 +58,17 @@ AMP for Email은 기존 이메일과 호환됩니다. AMP 버전의 메시지는
 Adobe Campaign을 사용하여 AMP 이메일을 성공적으로 테스트 및 전송하려면 아래 단계를 따르십시오.
 1. 패키지를 **[!UICONTROL AMP support (Beta)]** 설치합니다. Campaign [표준 패키지](../../installation/using/installing-campaign-standard-packages.md)설치를 참조하십시오.
 1. Adobe Campaign에서 이메일을 만들고 AMP 컨텐츠를 작성합니다. Adobe [Campaign을 사용하여 AMP 이메일 컨텐츠 제작을 참조하십시오](#build-amp-email-content).
-1. AMP 형식을 지원하는 이메일 제공업체의 모든 제공 요구 사항을 따라야 합니다.
+1. AMP 형식을 지원하는 이메일 제공업체의 모든 제공 요구 사항을 따라야 합니다. 이메일 [배달 요구 사항은](#amp-for-email-delivery-requirements)AMP를 참조하십시오.
 
    >[!NOTE]
    >
-   >AMP for Email은 테스트 목적으로 베타 기능으로 사용할 수 있습니다. 현재 두 개의 이메일 제공업체만 이 형식(Gmail 및 Outlook)을 테스트합니다.
+   >AMP for Email은 테스트 목적으로 베타 기능으로 사용할 수 있습니다. 현재 이 형식 테스트를 지원하는 이메일 공급자는 소수뿐입니다.
 
-   이메일 [배달 요구 사항은](#amp-for-email-delivery-requirements)AMP를 참조하십시오.
-
-1. 대상을 정의할 때 AMP 형식을 표시할 수 있는 수신자를 선택해야 합니다.
+1. 대상을 정의할 때 AMP 형식을 표시할 수 있는 수신자를 선택해야 합니다. AMP [이메일](#targeting-amp-email)타깃팅을 참조하십시오.
 
    >[!NOTE]
    >
    >현재 AMP 이메일 배달을 적절히 구성하거나 AMP 베타 프로그램에 참여하는 이메일 제공업체를 통해 등록한 후에만 테스트할 수 있습니다.
-
-   AMP [이메일](#targeting-amp-email)타깃팅을 참조하십시오.
 
 1. 평소대로 이메일을 보내십시오. AMP [이메일](#sending-amp-email)전송을 참조하십시오.
 
@@ -81,7 +76,7 @@ Adobe Campaign을 사용하여 AMP 이메일을 성공적으로 테스트 및 �
 
 AMP 형식을 사용하여 이메일을 작성하려면 아래 단계를 따르십시오.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >AMP 개발자 설명서에 [](https://amp.dev/documentation/guides-and-tutorials/learn/email_fundamentals/?format=email)나와 있는 이메일 요구 사항 및 사양에 대한 AMP를 따라야 합니다. AMP에서 이메일 [모범 사례를](https://amp.dev/documentation/guides-and-tutorials/develop/amp_email_best_practices/?format=email)참조할 수도 있습니다.
 
@@ -141,7 +136,7 @@ AMP 형식을 사용하여 이메일을 작성하려면 아래 단계를 따르�
 
 1. 또는 **[!UICONTROL HTML content]** **[!UICONTROL Text content]** 탭으로 전환하고 이러한 두 형식 중 적어도 하나에 대한 내용을 정의합니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >이메일에 AMP 컨텐츠 외에 HTML 또는 일반 텍스트 버전이 포함되어 있지 않으면 보낼 수 없습니다.
 
@@ -149,12 +144,12 @@ AMP 형식을 사용하여 이메일을 작성하려면 아래 단계를 따르�
 
 Adobe Campaign에서 AMP 컨텐츠를 작성할 때 수신자의 이메일 공급자에 따라 제공되는 동적 이메일의 조건을 준수해야 합니다.
 
-현재 두 개의 이메일 공급자가 이 형식을 테스트하는 것을 지원합니다.Gmail 및 Outlook.
+현재 세 개의 이메일 공급자가 이 형식을 테스트하는 것을 지원합니다.Gmail, Outlook 및 Mail.ru.
 
-Gmail 계정에서 AMP 포맷으로 전달하는 것을 테스트하는 데 필요한 모든 단계 및 사양은 해당 Gmail 개발자 설명서 [및](https://developers.google.com/gmail/ampemail?) Outlook 개발자 문서에 [자세히 설명되어](https://docs.microsoft.com/en-gb/outlook/amphtml/)있습니다.
+Gmail 계정에서 AMP 포맷으로 배달을 테스트하는 데 필요한 모든 단계 및 사양은 해당 Gmail, [Outlook](https://developers.google.com/gmail/ampemail?)및 [Mail.ru ](https://docs.microsoft.com/en-gb/outlook/amphtml/) 개발자 [문서에](https://postmaster.mail.ru/amp) 자세히 설명되어 있습니다.
 
 특히 다음 요구 사항을 충족해야 합니다.
-* Gmail 및 Outlook에 대한 AMP 보안 요구 [사항을](https://developers.google.com/gmail/ampemail/security-requirements) [따르십시오](https://docs.microsoft.com/en-gb/outlook/amphtml/security-requirements).
+* Gmail, Outlook 및 Mail [.ru](https://developers.google.com/gmail/ampemail/security-requirements)관련 AMP 보안 [요구](https://docs.microsoft.com/en-gb/outlook/amphtml/security-requirements) 사항을 [따르십시오](https://postmaster.mail.ru/amp/?lang=en#howto).
 * AMP MIME 부분에 [유효한 AMP 문서가](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email)있어야 합니다.
 * AMP MIME 부분은 100KB 미만이어야 합니다.
 
@@ -173,18 +168,19 @@ Adobe Campaign에서 선택한 이메일 주소로 동적 메시지 전송을 �
 
 >[!NOTE]
 >
->현재 Gmail 및 Outlook만 AMP 형식 테스트를 지원합니다.
+>현재 Gmail, Outlook 및 Mail.ru만 AMP 형식 테스트를 지원합니다.
 
-그러기 전에 Adobe Campaign에서 타깃팅하는 Gmail 및 Outlook 계정에 대해 전달하는 데 사용하는 보낸 사람 주소를 허용 목록에 포함해야 합니다.
+Gmail 및 Outlook의 경우, 먼저 타깃팅하는 Gmail 및 Outlook 계정에 대해 Adobe Campaign에서 전달하는 데 사용하는 보낸 사람 주소를 허용 목록에 포함해야 합니다.
 
 이렇게 하려면:
 1. 관련 이메일 공급자에 대해 동적 이메일 활성화 옵션이 선택되어 있는지 확인합니다.
 1. 배달 필드에 표시된 보낸 사람 주소를 복사하여 이메일 공급자 계정 설정의 해당 섹션에 붙여 넣습니다 **[!UICONTROL From]** .
 
-자세한 내용은 Gmail 개발자 [설명서](https://developers.google.com/gmail/ampemail/testing-dynamic-email) 및 [Outlook 개발자 설명서를](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#individual-mailbox-registration)참조하십시오.
-
+자세한 내용은 Gmail 및 [Outlook](https://developers.google.com/gmail/ampemail/testing-dynamic-email) 개발자 [설명서를](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#individual-mailbox-registration) 참조하십시오.
 
 ![](assets/amp_from_field.png)
+
+AMP 이메일을 Mail.ru 주소로 보내는 것을 테스트하려면 Mail.ru 개발자 문서의 [단계를 따르십시오(사용자](https://postmaster.mail.ru/amp/?lang=en#howto) 섹션인&#x200B;**경우** ).
 
 ### 이메일 공급자에 등록하여 AMP 이메일 전달 {#delivering-amp-emails-by-registering}
 
@@ -192,19 +188,19 @@ AMP 베타 프로그램에 참여하는 이메일 공급자에 등록하여 보�
 
 >[!NOTE]
 >
->현재 Gmail 및 Outlook만 AMP 형식을 지원합니다.
+>현재 Gmail, Outlook 및 Mail.ru만 AMP 형식을 지원합니다.
 
-몇 개의 주소로 테스트하고 나면 AMP 이메일을 Gmail 또는 Outlook 주소로 보낼 수 있습니다. 이를 위해서는 Google 또는 Microsoft에 정중하게 등록하고 답변을 기다리셔야 합니다.
+몇 개의 주소로 테스트하고 나면 AMP 이메일을 Gmail 또는 Outlook 주소로 보낼 수 있습니다. 이를 위해서는 Google 또는 Microsoft에 정중하게 등록하고 답변을 기다리셔야 합니다. Gmail 및 Outlook [개발자](https://developers.google.com/gmail/ampemail/register) 문서에 나와 [있는](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#global-registration) 절차를 따르십시오. 등록이 완료되면 공인 발송자가 됩니다.
 
-Gmail 개발자 설명서 [및](https://developers.google.com/gmail/ampemail/register) Outlook 개발자 설명서에 [나와](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#global-registration)있는 단계를 따르십시오. 등록이 완료되면 공인 발송자가 됩니다.
+AMP 이메일을 Mail.ru 주소로 보내려면 Mail.ru 개발자 설명서에 [나와 있는 요구 사항과 단계를 따르십시오(](https://postmaster.mail.ru/amp/?lang=en#howto) 이메일 발신자&#x200B;**섹션인 경우** ).
 
 ## AMP 이메일 보내기 {#sending-amp-email}
 
 AMP 컨텐츠와 폴백이 준비되고 호환 타겟을 정의한 후에는 평소대로 이메일을 보낼 수 있습니다.
 
-현재 Gmail 및 Outlook만 특정 조건에서 AMP 형식을 지원합니다. 다른 이메일 공급자의 주소를 타게팅할 수 있지만 이 이메일 주소는 HTML 또는 일반 텍스트 버전을 받게 됩니다.
+현재 Gmail, Outlook 및 Mail.ru만 특정 조건에서 AMP 형식을 지원합니다. 다른 이메일 공급자의 주소를 타게팅할 수 있지만 이 이메일 주소는 HTML 또는 일반 텍스트 버전을 받게 됩니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >이메일에 AMP 컨텐츠 외에 HTML 또는 일반 텍스트 버전이 포함되어 있지 않으면 보낼 수 없습니다.
 
