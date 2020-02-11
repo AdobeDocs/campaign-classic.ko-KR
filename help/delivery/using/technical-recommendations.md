@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3a4eb0cf49b81d720fa3925d48cd250e0c3fde32
+source-git-commit: 0291f464c2b4db51e1e56cefe83aa9e751e680a9
 
 ---
 
@@ -78,7 +78,7 @@ DKIM은 DomainKeys, Yahoo! 및 Cisco Identified Internet Mail 인증 원칙을 �
 
 DKIM이 DomainKeys **인증을** 대체했습니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 향상된 MTA를 통해 DKIM 이메일 인증 서명을 수행합니다. 기본 캠페인 MTA의 DKIM 서명은 향상된 MTA 업그레이드의 일부로 **[!UICONTROL Domain management]** 표 내에서 꺼집니다.
 >
