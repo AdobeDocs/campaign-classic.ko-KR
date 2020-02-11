@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ce2a1a55e244180a4e62d6f3b5a5ed5bb8aff6e
+source-git-commit: 0291f464c2b4db51e1e56cefe83aa9e751e680a9
 
 ---
 
@@ -28,10 +28,11 @@ source-git-commit: 2ce2a1a55e244180a4e62d6f3b5a5ed5bb8aff6e
 
 >[!NOTE]
 >
->Adobe Campaign 플랫폼에서 메시지를 효율적으로 전송하고 수신하는 데 관련된 모든 기술 권장 사항은 전달 **기술** 노트에서 확인할 수 있습니다.
->
->일부 구성은 Adobe가 호스팅하는 배포를 위해서만 수행할 수 있습니다. 예를 들어 서버 및 인스턴스 구성 파일에 액세스하려면 다른 배포에 대한 자세한 내용은 호스팅 모델 [섹션](../../installation/using/hosting-models.md) 또는 [이 문서를](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)참조하십시오.\
->제공 능력과 관련된 개념과 모범 사례를 설명하는 [시작 안내서를](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 참조하십시오.
+>일부 구성은 Adobe가 호스팅하는 배포를 위해서만 수행할 수 있습니다. 예를 들어 서버 및 인스턴스 구성 파일에 액세스하려면 다른 배포에 대한 자세한 내용은 호스팅 모델 [섹션](../../installation/using/hosting-models.md) 또는 [이 문서를](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)참조하십시오.
+
+제공 능력과 관련된 개념과 우수 사례에 대한 자세한 내용은 이 [섹션을](../../delivery/using/about-deliverability.md)참조하십시오.
+
+Adobe Campaign 플랫폼이 메시지를 효율적으로 전송하고 수신하는 것과 관련된 모든 기술 권장 사항은 이 [섹션에](../../delivery/using/technical-recommendations.md)있습니다.
 
 ## 운영 원칙 {#operating-principle}
 
@@ -139,7 +140,7 @@ mta **모듈은** 해당 하위 모듈에 메시지를 **배포합니다** . 각
 
 MX 규칙(Mail Xchanger)은 송신 서버와 수신 서버 간의 통신을 관리하는 규칙입니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 더 이상 **[!UICONTROL MX management]** 배달 처리량 규칙이 사용되지 않습니다. Enhanced MTA는 고유한 MX 규칙을 사용하여 사용자의 이전 이메일 명성에 따라 도메인별로 처리량을 사용자 정의하고 이메일을 전송하는 도메인에서 오는 실시간 피드백을 제공합니다.
 >
