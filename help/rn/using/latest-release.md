@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0237aafd79753db1bc1ca54853b7c51b65492eb2
+source-git-commit: e091bab4032a0fe8292ea65100627fefab2a5e30
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 0237aafd79753db1bc1ca54853b7c51b65492eb2
 
 안정적인 [마지막 빌드](../../rn/using/release--19-1.md#release-19-1-4-build-9032) (GA)를 보려면 **** 여기를 클릭하십시오.
 
-## ![](assets/blue2.png) 릴리스 19.2.3 - 빌드 9081 {#release-19-2-3-build-9081}
+## ![](assets/blue-2.png) 릴리스 19.2.3 - 빌드 9081 {#release-19-2-3-build-9081}
 
 _2020년 2월 07일_
 
@@ -50,7 +50,7 @@ _2020년 2월 07일_
 * Windows 서버에서 사용자 연결이 실패하는 SSL 인증 구현으로 인한 회귀 문제를 해결했습니다. (NEO 파섹)
 * 정보 메뉴에 잘못된 버전 태그 번호가 표시되는 문제를 **수정했습니다** .
 
-## ![](assets/orange2.png) 릴리스 19.2 - 빌드 9080 {#release-19-2-build-9080}
+## ![](assets/orange-2.png) 릴리스 19.2 - 빌드 9080 {#release-19-2-build-9080}
 
 _2019년 12월 02일_
 
