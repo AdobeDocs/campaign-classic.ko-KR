@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03cba38dc2c9e10396feddc38cca6a6073e932d5
+source-git-commit: 37946a63a0cd0312de31b26dd4d115895d959638
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 03cba38dc2c9e10396feddc38cca6a6073e932d5
 
 안정적인 [마지막 빌드](../../rn/using/release--19-1.md#release-19-1-4-build-9032) (GA)를 보려면 **** 여기를 클릭하십시오.
 
-## ![](assets/orange2.png) 릴리스 19.2.2 - 빌드 9081 {#release-19-2-2-build-9081}
+## ![](assets/orange2.png) 릴리스 19.2.3 - 빌드 9081 {#release-19-2-2-build-9081}
 
 2020년 2월 7일_
 
