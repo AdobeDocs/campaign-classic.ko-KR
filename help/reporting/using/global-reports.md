@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+source-git-commit: c4e6a9273c920c9d125ec3fb18a0628109475a4e
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 ![](assets/s_ncs_user_report_global_list.png)
 
->[!CAUTION]
+>[!NOTE]
 >
 >이 섹션에는 게재에 연결된 보고서만 표시됩니다.
 
@@ -104,7 +104,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
    >
    >이 지표는 모바일 채널의 전달에만 적용됩니다. For more on this, refer to [this section](../../delivery/using/sms-channel.md).
 
-   You can open up each line of the value table by clicking the [+] symbol. 각 오류 유형에 대해 도메인별 오류 메시지 분류를 표시할 수 있습니다.
+   기호를 클릭하여 값 테이블의 각 행을 열 수 `[+]` 있습니다. 각 오류 유형에 대해 도메인별 오류 메시지 분류를 표시할 수 있습니다.
 
    ![](assets/s_ncs_user_errors_report_detail.png)
 
