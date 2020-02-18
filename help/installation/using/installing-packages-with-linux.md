@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ad1a83d40f5a841b01aaeb17fe271b44f2480dd
+source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
 
 ---
 
@@ -30,9 +30,7 @@ Linux 32비트 플랫폼의 경우 Adobe Campaign 32비트를 설치합니다. L
 
 * 파일을 /usr/local/ **neolane에 복사**
 * Adobe Campaign Linux 계정(및 관련 그룹)을 만듭니다. 이 계정은 **/usr/local/neolane을** 홈 디렉토리로 만듭니다.
-* 시작할 때 사용할 자동 스크립트 **/etc/init.d** /nlserver6 만들기
-
-이 패키지는 GCC 4를 사용하여 컴파일됩니다. 이는 설치 플랫폼에서 항상 사용할 수 없는 특정 버전의 라이브러리와의 종속성을 의미합니다.
+* 시작 시 사용할 수 **있는 자동 스크립트 /etc/init.d/nlserver6** 또는 시스템 단위(20.1부터)를 만듭니다.
 
 >[!NOTE]
 >
@@ -76,72 +74,7 @@ CentOS를 사용하는 경우 bc.x86_64 패키지를 설치해야 합니다.root
 yum install bc.x86_64
 ```
 
-**SLES 11 SP2에서 설치하는 예:**
-
-* 비활성화 **[!UICONTROL libboost_regex]** :
-
-   ```
-   zypper remove libboost_regex1_36_0
-   ```
-
-* Oracle Java 또는 OpenJDK 설치(자세한 내용은 Java Development Kit [- JDK 참조](../../installation/using/application-server.md#java-development-kit---jdk)):
-
-   ```
-   ./jdk-6uxx-linux-x64-rpm.bin
-   ```
-
-* OpenSSL 1.0을 설치합니다. 자세한 내용은 라이브러리를 [참조하십시오](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries).
-
-   ```
-   yast -i libopenssl1_0_0-1.0.0c-18.42.1.x86_64.rpm
-   ```
-
-   OpenSSL 라이브러리의 파일을 가리키는 별칭을 만들어야 합니다.
-
-   ```
-   ln -s /lib64/libssl.so.1.0.0 /lib64/libssl.so.10
-   ln -s /lib64/libcrypto.so.1.0.0 /lib64/libcrypto.so.10
-   ```
-
-* Libicu 4.2를 설치합니다(자세한 내용은 라이브러리 [참조](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries)).
-
-   ```
-   yast -i libicu-4.2-7.3.1.x86_64.rpm
-   ```
-
-* Adobe Campaign 서버 패키지를 설치합니다.
-
-   ```
-   yast -i nlserver6-v7-xxx-x.x86_64.rpm
-   ```
-
 ## APT(Debian) 기반 배포 {#distribution-based-on-apt--debian-}
-
-### In Debian 32비트 {#in-debian-32-bits}
-
-Debian 32비트 운영 체제에 Adobe Campaign 32비트를 설치하려면 다음 단계를 수행하십시오.
-
-1. 먼저 두 개의 Adobe Campaign 패키지를 구해야 합니다.
-
-   * **nlserver6-v7-XXXX-linux-2.6-intel.deb** for v7
-   * **v6.1용 nlserver6-XXXX-linux-2.6-intel** .deb
-   **XXXX는** Adobe Campaign 빌드 번호입니다.
-
-   >[!CAUTION]
-   >
-   >이 섹션의 명령 샘플에서 Adobe Campaign 버전에 대한 올바른 파일 이름을 사용해야 합니다.
-
-1. 설치하려면 **루트로** 연결하고 다음 명령을 실행합니다(여기서 XXXX는 **Adobe Campaign** 빌드 번호).
-
-   ```
-   dpkg -i nlserver6-v7-XXXX-linux-2.6-intel.deb
-   ```
-
-   종속 항목이 없는 경우 다음 명령을 실행하십시오.
-
-   ```
-   apt-get install -f
-   ```
 
 ### In Debian 64비트 {#in-debian-64-bits}
 
@@ -163,15 +96,21 @@ Debian 64비트 운영 체제에 Adobe Campaign 64비트를 설치하려면 다�
    dpkg -i nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
 
-**Debian 7/8 세부 사항**
-
-Debian 7 운영 체제에 Adobe Campaign을 설치할 때 다음 사항을 고려하십시오.
-
-* OpenSSL은 미리 설치해야 합니다.
-* 다음 명령을 사용하여 libicu48(Debigun 7), libicu52(Debiguan 8) 또는 libicu57(Debiguan 9), libprobuf9(Debian8) 및 libc-ares2를 설치합니다.
+   종속 항목이 없는 경우 다음 명령을 실행하십시오.
 
    ```
-   aptitude install libicu48 (Debian 7) libicu52 (Debian 8) libicu57 (Debian 9)
+   apt-get install -f
+   ```
+
+**Debian 8/9 세부 사항**
+
+Debian 8/9 운영 체제에 Adobe Campaign을 설치할 때 다음 사항을 고려하십시오.
+
+* OpenSSL은 미리 설치해야 합니다.
+* libicu52(Debian 8) 또는 libicu57(Debian 9), libprobuf9(Debian8) 및 libc-ares2를 다음 명령과 함께 설치합니다.
+
+   ```
+   aptitude install libicu52 (Debian 8) libicu57 (Debian 9)
    ```
 
    ```
@@ -179,13 +118,13 @@ Debian 7 운영 체제에 Adobe Campaign을 설치할 때 다음 사항을 고�
    ```
 
    ```
-   aptitude install libprotobuf9 (only Debian 7/8)
+   aptitude install libprotobuf9 (only Debian 8)
    ```
 
 * 다음 명령을 사용하여 JDK7을 설치합니다.
 
    ```
-   aptitude install openjdk-7-jdk (Debian 7/8)
+   aptitude install openjdk-7-jdk (Debian 8)
    ```
 
    ```
@@ -309,6 +248,13 @@ export neolane_LANG=fra
 /etc/init.d/nlserver6 start
 ```
 
+20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다.
+
+```
+systemctl stop nlserver
+systemctl start nlserver
+```
+
 ### Linux의 Oracle 클라이언트 {#oracle-client-in-linux}
 
 Adobe Campaign과 함께 Oracle을 사용하는 경우 Linux에서 Oracle 클라이언트 레이어를 구성해야 합니다.
@@ -340,7 +286,7 @@ Adobe Campaign과 함께 Oracle을 사용하는 경우 Linux에서 Oracle 클라
    ln -s libclntsh.so.10.1 libclntsh.so
    ```
 
-문제가 발생하면 Oracle 설치 설명서에 [](http://www.oracle.com/pls/db112/portal.portal_db?selected=11) 나열된 패키지가 올바르게 설치되었는지 확인합니다.
+문제가 발생하면 Oracle 설치 설명서에 [](https://www.oracle.com/pls/db112/portal.portal_db?selected=11) 나열된 패키지가 올바르게 설치되었는지 확인합니다.
 
 ## 설치 검사 {#installation-checks}
 
