@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
 
 # 스키마 확장{#extending-a-schema}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >일부 내장 스키마는 확장되지 않아야 합니다.주로 다음 설정이 정의된 설정입니다.\
 >**dataSource=&quot;file&quot;** 및 **mappingType=&quot;xmlFile&quot;**.\
@@ -38,7 +38,7 @@ source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
 
    확장 스키마에는 자체 스키마가 없습니다.소스 스키마에서 생성된 스키마가 확장 스키마의 필드로 채워집니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >응용 프로그램의 내장 스키마를 수정할 수 없으며 스키마 확장 메커니즘을 수정할 수 없습니다. 그렇지 않으면, 수정된 스키마가 향후 애플리케이션 업그레이드 시 업데이트되지 않습니다. 이로 인해 Adobe Campaign을 사용할 때 오류가 발생할 수 있습니다.
 
@@ -66,7 +66,7 @@ source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
 
    필드의 **containsTo** 속성이 선언된 스키마를 채웁니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >수정 사항을 고려하려면 스키마를 다시 생성해야 합니다. 자세한 내용은 스키마 [재생성](../../configuration/using/regenerating-schemas.md) 섹션을 참조하십시오.\
 >수정 내용이 데이터베이스 구조에 영향을 주는 경우 업데이트를 실행해야 합니다. 자세한 내용은 데이터베이스 구조 [업데이트](../../configuration/using/updating-the-database-structure.md) 섹션을 참조하십시오.
