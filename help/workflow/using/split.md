@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 463d2d60e8776fc0414fdb8c91dbf257e119d823
+source-git-commit: afe286211c21f4fc178ffb5f9f30baed96ebfeab
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 463d2d60e8776fc0414fdb8c91dbf257e119d823
 
    이 프로세스는 쿼리 **유형 활동에 대해**&#x200B;동일합니다.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >최대 2개의 외부 데이터베이스(FDA)로 데이터를 필터링할 수 있습니다.
 
@@ -59,7 +59,7 @@ source-git-commit: 463d2d60e8776fc0414fdb8c91dbf257e119d823
 
    ![](assets/s_user_segmentation_partage_add.png)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >이 **[!UICONTROL Enable overlapping of output populations]** 옵션을 선택하지 않으면 하위 세트가 탭의 순서로 생성됩니다. 이 창의 오른쪽 상단에 있는 화살표를 사용하여 이동합니다. 예를 들어 첫 번째 하위 세트가 초기 모집단의 70%를 복구하는 경우 다음 하위 세트는 나머지 30%에만 선택 기준을 적용합니다.
 
@@ -135,7 +135,7 @@ source-git-commit: 463d2d60e8776fc0414fdb8c91dbf257e119d823
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이 기능을 사용하려면 캠페인 옵션인 분산 마케팅 모듈을 구입해야 합니다. 사용권 계약을 확인하십시오.
 
@@ -200,7 +200,7 @@ source-git-commit: 463d2d60e8776fc0414fdb8c91dbf257e119d823
 
       로컬 승인 없이 데이터 그룹화가 간단하게 제한되는 경우 **[!UICONTROL Group or operator]** 필드에 입력할 필요가 없습니다.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >연산자에게 적절한 권한이 할당되었는지 확인합니다.
 
