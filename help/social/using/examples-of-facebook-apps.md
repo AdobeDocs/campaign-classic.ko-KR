@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f03e1fbb94bbd5b00fa0094a0b5e9be45629ec7
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 7f03e1fbb94bbd5b00fa0094a0b5e9be45629ec7
 
 ![](assets/social_webapp_fb_000.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Facebook 애플리케이션 [](../../social/using/creating-a-facebook-application.md)만들기에 설명된 구성 단계를 따르십시오.
 
@@ -44,7 +44,7 @@ source-git-commit: 7f03e1fbb94bbd5b00fa0094a0b5e9be45629ec7
 * Facebook 애플리케이션에 설정을 전달하는 방법입니다. Facebook [애플리케이션에 설정을 전달하는 방법을 참조하십시오](#how-to-forward-settings-to-a-facebook-application-).
 * 팬 데이터를 얻는 방법 팬 [데이터를 얻는 방법을 참조하십시오](#how-to-acquire-fan-data-).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이러한 간단한 사용 사례는 Facebook 유형 웹 애플리케이션의 기능을 설명하기 위한 예로 제공됩니다.
 
@@ -97,7 +97,7 @@ App01 애플리케이션의 탭이 **Facebook** 페이지에 표시되는지 확
 
 ## Facebook 애플리케이션에 설정을 전달하는 방법 {#how-to-forward-settings-to-a-facebook-application-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Facebook 애플리케이션 [](../../social/using/creating-a-facebook-application.md)만들기에 설명된 구성 단계를 따르십시오.
 
