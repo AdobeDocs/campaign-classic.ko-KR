@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 681e6ec5fc9ed8c7e46af04f0ed62927b30e1b2e
+source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 681e6ec5fc9ed8c7e46af04f0ed62927b30e1b2e
 직관적인 단계별 가이드를 통해 Adobe Campaign을 시작합니다.
 
 * [Adobe Experience Manager를 사용하여 이메일 컨텐츠 편집](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html):adobe Campaign과 Adobe Experience Manager 간의 통합을 시작하기 위한 기본 사항을 살펴보십시오.
-* [일반 데이터 보호 규정](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html):adobe Campaign Classic에서 제공하는 내용을 살펴보십시오.
+* [개인 정보 관리](https://helpx.adobe.com/campaign/kb/acc-privacy.html):adobe Campaign Classic에서 제공하는 내용을 살펴보십시오.
 * [이메일에](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/target.html)동적 컨텐츠 통합:campaign Classic과 Target Standard 간의 통합을 시작하기 위한 기본 사항을 살펴보십시오.
 * [전달](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html)관리:전달 전송과 관련된 개념과 모범 사례뿐만 아니라 Adobe Campaign Classic에서 게재 전송을 최적화하기 위해 제공하는 도구에 대해 알아보십시오.
 * [전달 모범 사례](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html):adobe Campaign Classic의 전달 디자인 및 전송과 관련된 모범 사례에 대해 알아보십시오.
