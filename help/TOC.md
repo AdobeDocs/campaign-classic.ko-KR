@@ -5,7 +5,7 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
+source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ---
 
@@ -17,6 +17,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/using/latest-release.md)
    + 이전 릴리스 {#previous-releases}
+      + [릴리스 19.2](rn/using/release--19-2.md)
       + [릴리스 19.1](rn/using/release--19-1.md)
       + [릴리스 18.10](rn/using/release--18-10.md)
       + [릴리스 18.6](rn/using/release--18-6.md)
@@ -64,9 +65,17 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [데이터 패키지 작업](platform/using/working-with-data-packages.md)
       + [열거형 관리](platform/using/managing-enumerations.md)
       + [외부 계정](platform/using/external-accounts.md)
+   + 외부 데이터베이스 액세스(FDA){#accessing-external-database}
+      + [FDA 정보](platform/using/about-fda.md)
+      + [데이터베이스 유형별 특정 구성](platform/using/specific-configuration-database.md)
+      + [원격 데이터베이스 액세스 권한](platform/using/remote-database-access-rights.md)
+      + [데이터베이스에 연결](platform/using/connecting-to-database.md)
+      + [데이터 스키마 만들기](platform/using/creating-data-schema.md)
+      + [데이터 매핑 정의](platform/using/defining-data-mapping.md)
+      + [추가 옵션](platform/using/additional-options.md)
+      + [워크플로우에서 외부 데이터베이스의 데이터 사용](platform/using/data-external-database-workflow.md)
    + 커넥터 {#connectors}
       + [커넥터 정보](platform/using/about-connectors.md)
-      + [외부 데이터베이스 액세스](platform/using/accessing-an-external-database.md)
       + [CRM 커넥터](platform/using/crm-connectors.md)
       + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector.md)
 + 메시지 보내기 {#sending-messages}
@@ -92,7 +101,8 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [LINE 채널](delivery/using/line-channel.md)
    + 푸시 알림 전송 {#sending-push-notifications}
       + [모바일 앱 채널 정보](delivery/using/about-mobile-app-channel.md)
-      + [모바일 앱 채널 설정](delivery/using/setting-up-mobile-app-channel.md)
+      + [모바일 애플리케이션에 Campaign SDK 통합](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+      + [Adobe Campaign에서 모바일 애플리케이션 구성](delivery/using/configuring-the-mobile-application.md)
       + [알림 만들기](delivery/using/creating-notifications.md)
       + [문제 해결](delivery/using/troubleshooting.md)
    + 다이렉트 메일 보내기 {#sending-direct-mail}
@@ -213,7 +223,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
    + 모집단 분석 {#analyzing-populations}
       + [설명 분석 정보](reporting/using/about-descriptive-analysis.md)
       + [설명 분석 마법사 사용](reporting/using/using-the-descriptive-analysis-wizard.md)
-      + [분석 보고서 사용](reporting/using/processing-a-report.md)
+      + [보고서 처리](reporting/using/processing-a-report.md)
       + [활용 사례](reporting/using/use-cases.md)
    + 새 보고서 만들기 {#creating-new-reports}
       + [캠페인에서 보고서 작성 정보](reporting/using/about-reports-creation-in-campaign.md)
@@ -427,7 +437,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [마케팅 리소스(MRM)](workflow/using/marketing-resources--mrm-.md)
       + [소셜 마케팅](workflow/using/social-marketing.md)
       + [Adobe Experience Cloud 솔루션과 통합](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-      + [개인 정보 보호 규정(GDPR)](workflow/using/general-data-protection-regulation--gdpr-.md)
+      + [개인 정보 보호 규정](workflow/using/general-data-protection-regulation--gdpr-.md)
       + [중간 출처로 이전](workflow/using/transfer-to-mid-sourcing.md)
       + [중간 소싱 플랫폼](workflow/using/mid-sourcing-platform.md)
 + 오퍼 관리 {#managing-offers}
