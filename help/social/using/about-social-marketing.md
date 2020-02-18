@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dcefad5aade740c8f5e5a7a7f6602b4ee0bf5f8d
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: dcefad5aade740c8f5e5a7a7f6602b4ee0bf5f8d
 
    Adobe Campaign Social Marketing을 사용하면 Facebook을 통해 손쉽게 새로운 연락처를 확보할 수 있습니다.사용자에게 연락하여 프로필 정보를 공유하고 싶은지 묻습니다. 고객이 수락하면 Adobe Campaign은 데이터를 자동으로 복구하므로 타깃팅 캠페인을 수행하고 가능한 경우 크로스채널 전략을 구현할 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Facebook과 Twitter는 화면과 프로세스를 정기적으로 변경합니다. 이 문서는 그에 따라 업데이트됩니다.
 >
