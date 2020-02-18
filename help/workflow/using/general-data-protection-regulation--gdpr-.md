@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: aa941e4f8803f65ce9d5f7567206b1fcc20a6dc6
 
 ---
 
 
-# 개인 정보 보호 규정(GDPR){#general-data-protection-regulation-gdpr}
+# 개인 정보 보호 규정{#general-data-protection-regulation-gdpr}
 
-아래에 설명된 워크플로우는 기본적으로 GDPR( **General Data Protection Regulation)** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션을](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html)참조하십시오.
+아래에 설명된 워크플로우는 기본적으로 개인 정보 보호 **규정** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/acc-privacy.html)참조하십시오.
 
 <table> 
  <tbody> 
