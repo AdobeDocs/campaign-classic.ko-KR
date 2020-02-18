@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58b69ae83d0ff2bece26cb3ff0604cd92e3c20f4
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -90,7 +90,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 xpath **속성은** 색인화할 스키마에서 필드를 가리킵니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >인덱스에서 제공하는 SQL 쿼리 읽기 성능 향상도 레코드 쓰기에 대한 성능 히트와 함께 제공된다는 점을 기억해야 합니다. 따라서 지수는 주의해서 사용해야 한다.
 
@@ -112,7 +112,7 @@ xpath **속성은** 색인화할 스키마에서 필드를 가리킵니다.
 
 이 예에서는 **@autok** 속성이 &quot;id&quot;라는 기본 기본 키를 만들도록 하는 대신 자체 &quot;houseinId&quot; 기본 키를 지정합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >새 스키마를 만들거나 스키마 확장 중에 전체 스키마에 대해 동일한 기본 키 시퀀스 값(@pkSequence)을 유지해야 합니다.
 
@@ -171,7 +171,7 @@ SQL 필드에 저장되고 **@dataPolicy 특성이 있는 XML 필드의** 예입
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >대부분의 속성은 데이터베이스의 물리적 필드에 1-1 카디널리티에 따라 연결되어 있지만 XML 필드나 계산된 필드의 경우에는 그렇지 않습니다.\
 >XML 필드는 표의 메모 필드(&quot;mData&quot;)에 저장됩니다.\
