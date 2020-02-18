@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
+source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
 
 ---
 
@@ -108,6 +108,10 @@ Adobe Campaign 서비스를 중지하려면 다음 명령 중 하나를 사용�
       /etc/init.d/nlserver6 stop
       ```
 
+      >[!NOTE]
+      >
+      >20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl stop nlserver**
+
    * Windows:
 
       ```
@@ -127,6 +131,11 @@ Adobe Campaign 서비스를 중지하려면 다음 명령 중 하나를 사용�
 * 루트 또는 관리자 액세스 권한이 있는 경우:
 
    * Linux:/etc/init.d/nlserver6 시작
+
+      >[!NOTE]
+      >
+      >20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
+
    * Windows:net start nlserver6
 
 * 그렇지 않으면 Adobe Campaign 계정에서 다음을 수행합니다. **nlserver watchdog -svc -noconsole**
