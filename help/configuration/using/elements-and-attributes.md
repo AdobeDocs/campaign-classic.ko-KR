@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9b3508fee3b441752648258b1bc9d5d2b919791
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -171,7 +171,7 @@ _operation (string), advanced (boolean), applicableIf (string), autoIncrement (b
 * **userEnum(문자열)**:는 &quot;open&quot; 열거형의 내부 이름을 받습니다. 열거형의 값은 인터페이스에서 사용자가 정의할 수 있습니다.
 * **visibleIf(문자열)**:xtk 표현식 형식으로 조건을 정의하여 속성을 표시하거나 숨깁니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >이 속성은 숨겨지지만 해당 데이터에 여전히 액세스할 수 있습니다.
 
