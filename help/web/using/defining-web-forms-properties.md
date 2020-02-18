@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
 
@@ -141,7 +141,7 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 * **피청구인의 출처를** 지정하는 출처.
 * **_uuid** 발행물 및 오류 추적 전에 양식 보기를 활성화합니다. 이 매개 변수는 내부용(만들기 및 디버그)입니다.이 URL 파섹 원점은 **[!UICONTROL Adobe Campaign]** 값으로 강제됩니다.
 
-   이 매개 변수는 **_preview** 매개 변수 및/또는 ** _debug**와 함께 사용됩니다.
+   이 매개 변수는 **_preview** 매개 변수 및/또는 **_debug와**&#x200B;함께 사용됩니다.
 
    **마지막으로 저장한 버전을 표시하는 미리 보기** (_P) 이 매개 변수는 테스트 단계에서만 사용해야 합니다.
 
