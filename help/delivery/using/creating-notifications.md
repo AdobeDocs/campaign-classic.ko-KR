@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6d503847787f2a8e0c4efdef0fa2f5769ea6035b
+source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: 6d503847787f2a8e0c4efdef0fa2f5769ea6035b
    >자동 **푸시** 모드는 iOS 7에서 사용할 수 있습니다. 이를 통해 모바일 애플리케이션에 &quot;자동&quot; 알림을 전송할 수 있습니다. 사용자가 알림의 도착을 알지 못합니다. 응용 프로그램으로 바로 전송됩니다.
 
 1. 필드에 알림에 표시할 제목의 레이블을 **[!UICONTROL Title]** 입력합니다. 알림 센터에서 사용할 수 있는 알림 목록에만 표시됩니다. 이 필드를 사용하면 iOS 알림 페이로드의 **제목** 매개 변수 값을 정의할 수 있습니다.
-1. HTTP/2 커넥터를 사용하는 경우 자막(iOS 알림 페이로드의 **자막** 매개 변수 값)을 추가할 수 있습니다. 커넥터 [섹션을 참조하십시오](../../delivery/using/setting-up-mobile-app-channel.md#connectors) .
+1. HTTP/2 커넥터를 사용하는 경우 자막(iOS 알림 페이로드의 **자막** 매개 변수 값)을 추가할 수 있습니다. Adobe Campaign [에서 모바일 애플리케이션 구성 섹션을](../../delivery/using/configuring-the-mobile-application.md) 참조하십시오.
 1. 그런 다음 선택한 알림 유형을 기준으로 **[!UICONTROL Message]** 및 를 **[!UICONTROL Value of the badge]** 입력합니다.
 
    ![](assets/nmac_delivery_ios_5.png)
@@ -77,13 +77,13 @@ source-git-commit: 6d503847787f2a8e0c4efdef0fa2f5769ea6035b
 
    >[!NOTE]
    >
-   >사운드는 애플리케이션에 포함되고 서비스가 생성될 때 정의해야 합니다. 애플리케이션 [사운드를](../../delivery/using/setting-up-mobile-app-channel.md#application-sounds)참조하십시오.
+   >사운드는 애플리케이션에 포함되고 서비스가 생성될 때 정의해야 합니다. iOS [외부 계정](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios)구성을 참조하십시오.
 
 1. 필드에 각 변수의 값을 **[!UICONTROL Application variables]** 입력합니다. 애플리케이션 변수를 사용하여 알림 동작을 정의할 수 있습니다.예를 들어 사용자가 알림을 활성화할 때 표시할 특정 애플리케이션 화면을 구성할 수 있습니다.
 
    >[!NOTE]
    >
-   >응용 프로그램 변수는 모바일 응용 프로그램의 코드에 정의되어야 하며 서비스를 만드는 동안 입력해야 합니다. 자세한 내용은 다음을 참조하십시오.일반 [정보](../../delivery/using/setting-up-mobile-app-channel.md#general-information).
+   >응용 프로그램 변수는 모바일 응용 프로그램의 코드에 정의되어야 하며 서비스를 만드는 동안 입력해야 합니다. 자세한 내용은 다음을 참조하십시오.Adobe [Campaign에서 모바일 애플리케이션 구성](../../delivery/using/configuring-the-mobile-application.md).
 
 1. 알림이 구성되면 **[!UICONTROL Preview]** 탭을 클릭하여 알림을 미리 봅니다.
 
@@ -129,7 +129,7 @@ source-git-commit: 6d503847787f2a8e0c4efdef0fa2f5769ea6035b
 
    >[!NOTE]
    >
-   >응용 프로그램 변수는 모바일 응용 프로그램의 코드에 정의되어야 하며 서비스를 만드는 동안 입력해야 합니다. 자세한 내용은 다음을 참조하십시오.일반 [정보](../../delivery/using/setting-up-mobile-app-channel.md#general-information).
+   >응용 프로그램 변수는 모바일 응용 프로그램의 코드에 정의되어야 하며 서비스를 만드는 동안 입력해야 합니다. 자세한 내용은 다음을 참조하십시오.Adobe [Campaign에서 모바일 애플리케이션 구성](../../delivery/using/configuring-the-mobile-application.md).
 
 1. 알림이 구성되면 **[!UICONTROL Preview]** 탭을 클릭하여 알림을 미리 봅니다.
 
