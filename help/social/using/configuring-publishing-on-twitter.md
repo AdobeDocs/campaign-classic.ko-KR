@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -90,7 +90,7 @@ Adobe Campaign이 Twitter 계정으로 트윗을 전송하려면 Twitter 계정�
 
    ![](assets/social_twitter_service_009.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >서비스의 **[!UICONTROL Internal name]** 이름은 Twitter 계정의 이름과 동일해야 합니다. 입력 오류가 없는지 확인하려면 아래 단계를 수행하십시오.
 
@@ -124,7 +124,7 @@ Adobe Campaign이 Twitter 계정으로 트윗을 전송하려면 Twitter 계정�
 
 ## Twitter 계정 동기화 {#synchronizing-twitter-accounts}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >워크플로우가 Twitter 가입자 목록을 복구하려면 계정에 연결된 서비스의 편집 섹션에서 **[!UICONTROL Twitter account synchronization]** 상자를 선택해야 합니다. 자세한 내용은 Adobe Campaign에 [대한 쓰기 액세스 권한 위임을 참조하십시오](#delegating-write-access-to-adobe-campaign).
 
