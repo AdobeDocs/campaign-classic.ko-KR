@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 93a19c765e8d3de0fcbc29e27202fcbd2da6d32f
+source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
 
 ---
 
@@ -221,8 +221,8 @@ source-git-commit: 93a19c765e8d3de0fcbc29e27202fcbd2da6d32f
    <td> 이메일 주소의 유효한 문자<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span><br /> </td> 
-   <td> 동기화 워크플로가 실행될 때마다 복구된 브로드캐스트 수를 제한하도록 최대 기간(시간 단위)을 지정할 수 있습니다. 이 <a href="../../platform/using/accessing-an-external-database.md#cloud-messaging---fda-synchronization">섹션을</a>참조하십시오.<br /> </td> 
+   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span><br /> </td>
+   <td> 동기화 워크플로가 실행될 때마다 복구된 브로드캐스트 수를 제한하도록 최대 기간(시간 단위)을 지정할 수 있습니다.</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span><br /> </td> 
