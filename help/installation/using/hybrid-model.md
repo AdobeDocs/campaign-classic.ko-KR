@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
 * 패키지 설치:이 [섹션을](../../installation/using/installing-campaign-standard-packages.md)참조하십시오.
 * 제공 가능성:mx [규칙](../../installation/using/email-deliverability.md#mx-configuration) 및 [이메일 형식](../../installation/using/email-deliverability.md#managing-email-formats)구성 제공 툴과 모범 사례에 대한 자세한 내용은 [시작 가이드](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 및 [자세한 설명서를](../../delivery/using/about-deliverability.md)참조하십시오.
 * 캠페인 옵션 구성:이 [섹션을](../../installation/using/configuring-campaign-options.md)참조하십시오.
-* 외부 데이터베이스(FDA) 구성:이 [섹션을](../../platform/using/accessing-an-external-database.md)참조하십시오.
+* 외부 데이터베이스(FDA) 구성:이 [섹션을](../../platform/using/about-fda.md)참조하십시오.
 * CRM 커넥터 구성:이 [섹션을](../../platform/using/crm-connectors.md)참조하십시오.
 * 중간 소싱 배포 원칙에 대한 자세한 내용은 이 [섹션을](../../installation/using/mid-sourcing-deployment.md)참조하십시오.
 
