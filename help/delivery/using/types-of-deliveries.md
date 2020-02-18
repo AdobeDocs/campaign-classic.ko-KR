@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 194d2263de0bf98afa0efc7e2e0b4ca433c95b6d
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -30,7 +30,7 @@ Campaign에는 다음 세 가지 유형의 배달 개체가 있습니다.
 
 배달 목록 또는 배달 활동을 통해 워크플로우 내에서 배달 기능을 만들 [수](../../workflow/using/delivery.md) 있습니다.
 
-또한 워크플로우는 사용할 채널의 유형에 따라 특정 배달 활동을 제공합니다. For more on these activites, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
+또한 워크플로우는 사용할 채널의 유형에 따라 특정 배달 활동을 제공합니다. For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
 
 ## 반복 전달 {#recurring-delivery}
 
