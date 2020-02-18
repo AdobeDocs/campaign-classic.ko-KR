@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
 
@@ -64,7 +64,7 @@ HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력
 ![](assets/s_ncs_admin_survey_add_link.png)
 
 * 양식 **[!UICONTROL Label]** 페이지에 표시될 하이퍼텍스트 링크의 컨텐츠입니다.
-* 는 **[!UICONTROL URL]** 원하는 주소(예:https://www.adobe.com [웹](https://www.adobe.com) 사이트 또는 [mailto:info@adobe.com](mailto:info@adobe.com) 메시지 보내기
+* 는 **[!UICONTROL URL]** 원하는 주소(예:https://www.adobe.com [웹](https://www.adobe.com) 사이트 또는 [info@adobe.com](mailto:info@adobe.com) 메시지 보내기
 * 이 **[!UICONTROL Window]** 필드를 사용하면 사이트의 경우 링크에 대한 표시 모드를 선택할 수 있습니다. 링크를 새 창, 현재 창 또는 다른 창에서 열도록 결정할 수 있습니다.
 * 아래와 같이 도구 설명을 추가할 수 있습니다.
 
