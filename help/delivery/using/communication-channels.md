@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign은 다음과 같은 전달 채널을 제공합니다.
 1. **이메일 채널**:이메일 전달을 사용하면 개인화된 이메일을 타겟 모집단으로 보낼 수 있습니다. 이메일 [채널](../../delivery/using/about-email-channel.md)정보를 참조하십시오.
 1. **DM 채널**:직접 메일 배달을 사용하면 대상 모집단에서 데이터가 포함된 추출 파일을 생성할 수 있습니다. DM [채널](../../delivery/using/about-direct-mail-channel.md)정보를 참조하십시오.
 1. **모바일 채널**:모바일 채널을 통해 개인화된 SMS 또는 LINE 메시지를 타겟 모집단으로 보낼 수 있습니다. SMS [채널을](../../delivery/using/sms-channel.md)참조하십시오.
-1. **모바일 애플리케이션 채널**:모바일 앱 전달을 통해 iOs 및 Android 시스템으로 알림을 전송할 수 있습니다. 모바일 앱 [채널](../../delivery/using/about-mobile-app-channel.md) 장을 참조하십시오.
+1. **모바일 애플리케이션 채널**:모바일 앱 전달을 통해 iOS 및 Android 시스템으로 알림을 전송할 수 있습니다. 모바일 앱 [채널](../../delivery/using/about-mobile-app-channel.md) 장을 참조하십시오.
 
    다른 채널은 [이 페이지에](../../delivery/using/other-channels.md)설명되어 있습니다.
 
