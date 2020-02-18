@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14690ab1435f291679e643ee4240ae9df7e86356
+source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 ---
 
@@ -111,7 +111,7 @@ source-git-commit: 14690ab1435f291679e643ee4240ae9df7e86356
     <ul> 
      <li> <p>액세스 권한:데이터 주체가 Adobe Campaign에 저장된 데이터를 포함하여 데이터 관리자가 캡처한 개인 데이터의 사본을 수신할 수 있도록 허용합니다.</p> </li> 
      <li> <p>삭제할 권한:데이터 주체가 데이터 관리자에 의해 캡처한 개인 데이터를 삭제하도록 권한을 부여하며, 여기에는 Adobe Campaign에 저장된 데이터가 포함됩니다.</p> </li> 
-    </ul> 자세한 내용은 <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html">자세한 설명서를</a>참조하십시오.<br /> </td> 
+    </ul> 자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 활성 프로필<br /> </td> 
@@ -119,7 +119,7 @@ source-git-commit: 14690ab1435f291679e643ee4240ae9df7e86356
   </tr> 
   <tr> 
    <td> 향상된 Android 푸시 커넥터<br /> </td> 
-   <td> <p>Android 커넥터는 높은 처리량을 지원하도록 향상되었습니다. </p> <p>자세한 내용은 <a href="../../delivery/using/setting-up-mobile-app-channel.md#android-connectors">자세한 설명서를</a>참조하십시오.</p> </td> 
+   <td> <p>Android 커넥터는 높은 처리량을 지원하도록 향상되었습니다. </p> <p>자세한 내용은 <a href="../../delivery/using/configuring-the-mobile-application.md">자세한 설명서를</a>참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,7 +141,7 @@ source-git-commit: 14690ab1435f291679e643ee4240ae9df7e86356
 * 명령줄을 사용하여 패키지를 가져올 때 새로운 모드를 사용할 수 있으므로 순환 종속성을 허용할 수 있습니다(큰 패키지에는 권장되지 않음). 자세한 내용은 &#39;기술 발전&#39; 섹션을 참조하십시오. (NEO 파섹)
 * Teradata에서 대량의 데이터 로딩에 대한 성능이 개선되었으며 로그에서 처리된 데이터의 올바른 값을 표시하지 못하는 문제를 해결했습니다. (NEO 파섹)
 * 이제 Audience Manager에서 대상을 가져오는 작업이 분할 파일에서 작동합니다. 이전에는 importSharedAudience 기술 워크플로우에서 세그먼트의 마지막 파일만 가져왔습니다. (NEO 파섹)
-* Windows에서 캠페인 서버의 기본 설치 경로가 변경되었습니다. 64비트 버전 설정을 시작할 때 기본 설치 경로는 다음과 같습니다.C: **Program FilesAdobeAdobe Campaign Classic v7** 대신 **C:Program Files (x86)AdobeAdobe Campaign Classic v7**
+* Windows에서 캠페인 서버의 기본 설치 경로가 변경되었습니다. 64비트 버전 설정을 시작할 때 기본 설치 경로는 다음과 같습니다.C:\Program Files **대신** **C:\Program Files\Adobe\Adobe Campaign Classic v7(x86)\Adobe\Adobe Campaign Classic v7**
 * 기본 MX 규칙이 더 많은 도메인을 포함하고 처리량을 최적화하도록 개선되었습니다.
 * 배포 마법사 SOAP 호출에 대한 액세스 제한 사항을 적용했습니다(xtk:serverOptions#SaveOptions).
 * weka.jar 오래된 라이브러리가 제거되었고 보안 최적화를 위해 OpenSSL 라이브러리가 업데이트되었습니다.
