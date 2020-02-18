@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -33,8 +33,7 @@ source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
 >[!NOTE]
 >
 >모든 스키마를 강제로 재생성해야 하는 경우, 예를 들어 역방향 링크에서 특정 종속성 문제를 해결하기 위해 Adobe Campaign 애플리케이션 서버에서 다음 명령을 실행할 수 있습니다.
-
+>
 >**nlserver config -postupgrade -instance:&#39;&lt;instance_name>&#39; -force**
-
+>
 >그런 다음 Adobe Campaign 응용 프로그램 서버를 다시 시작하고 클라이언트 콘솔에 연결 끊기/다시 연결해야 합니다.
-
