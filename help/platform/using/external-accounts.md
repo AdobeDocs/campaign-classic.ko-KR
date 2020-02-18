@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6ae45cbd87fc0152fc654202e03501fc8d2abd06
+source-git-commit: e7df1f73dd454f826096ce4d5fe430e10fe407ad
 
 ---
 
@@ -113,8 +113,8 @@ POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일�
 * [에이전시](../../delivery/using/other-channels.md)
 * [Facebook](../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign)
 * [Twitter](../../social/using/configuring-publishing-on-twitter.md)
-* [iOS 채널](../../delivery/using/setting-up-mobile-app-channel.md#ios-connectors)
-* [Android 채널](../../delivery/using/setting-up-mobile-app-channel.md#android-connectors)
+* [iOS 채널](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-ios)
+* [Android 채널](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-android)
 
 ## FTP 외부 계정 {#ftp-external-account}
 
@@ -154,10 +154,9 @@ Adobe Campaign은 외부 애플리케이션과 통신하고 데이터베이스 �
 
 다음 연결 유형을 구성할 수 있습니다.
 
-* Oracle. 자세한 내용은 이 [페이지를](../../platform/using/accessing-an-external-database.md#configure-access-to-oracle)참조하십시오.
-* MySQL. MYSQL에 대한 액세스를 구성하려면 이 [페이지를](../../platform/using/accessing-an-external-database.md#configure-access-to-mysql)참조하십시오.
-* 네테자 자세한 내용은 이 [페이지를](../../platform/using/accessing-an-external-database.md#configure-access-to-netezza)참조하십시오.
-* SAP HANA. 자세한 내용은 이 [페이지를](../../platform/using/accessing-an-external-database.md#configure-access-to-sap-hanaa)참조하십시오.
+* Oracle. 자세한 내용은 이 [페이지를](../../platform/using/specific-configuration-database.md#configure-access-to-oracle)참조하십시오.
+* 네테자 자세한 내용은 이 [페이지를](../../platform/using/specific-configuration-database.md#configure-access-to-netezza)참조하십시오.
+* SAP HANA. 자세한 내용은 이 [페이지를](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hana)참조하십시오.
 * InfiniDB
 * Microsoft SQL Server
 * AsterData
@@ -168,9 +167,33 @@ Adobe Campaign은 외부 애플리케이션과 통신하고 데이터베이스 �
 * ODBC(Sybase ASE, Sybase IQ)
 * 원격 데이터베이스에 대한 HTTP 릴레이
 
+### Snowflake 외부 계정 {#snowflake-external-account}
+
+Snowflake **외부 계정을** 사용하면 Campaign 인스턴스를 Snowflake 외부 데이터베이스에 연결할 수 있습니다. Snowflake를 사용하여 Campaign Classic을 구성하는 방법에 대한 자세한 내용은 이 [페이지를](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)참조하십시오.
+
+이 외부 계정이 Adobe Campaign에서 작동하도록 구성하려면 다음 세부 정보를 제공해야 합니다.
+
+* **[!UICONTROL Server]**
+
+       Snowflake 서버의 URL.
+   
+* **[!UICONTROL Account]**
+
+       사용자의 이름입니다.
+   
+* **[!UICONTROL Password]**
+
+       사용자 계정 암호.
+   
+* **[!UICONTROL Database]**
+
+       데이터베이스의 이름입니다.
+   
+![](assets/snowflake.png)
+
 ### Teradata 외부 계정 {#teradata-external-account}
 
-Teradata **외부** 계정을 사용하면 Campaign 인스턴스를 Teradata 외부 데이터베이스에 연결할 수 있습니다. Teradata를 사용하여 Campaign Classic을 구성하는 방법에 대한 자세한 내용은 이 [페이지](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) 또는 이 [섹션을](../../platform/using/accessing-an-external-database.md#configure-access-to-teradata)참조하십시오.
+Teradata **외부** 계정을 사용하면 Campaign 인스턴스를 Teradata 외부 데이터베이스에 연결할 수 있습니다. Teradata를 사용하여 Campaign Classic을 구성하는 방법에 대한 자세한 내용은 이 [페이지](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) 또는 이 [섹션을](../../platform/using/specific-configuration-database.md#configure-access-to-teradata)참조하십시오.
 
 ![](assets/ext_account_19.png)
 
@@ -198,11 +221,11 @@ Teradata **외부** 계정을 사용하면 Campaign 인스턴스를 Teradata 외
 
 * **[!UICONTROL Options]**
 
-   Teradata를 통해 전달할 옵션
+   Teradata를 통해 전달할 옵션입니다.
 
 * **[!UICONTROL Timezone]**
 
-   Teradata에서 설정된 표준 시간대
+   Teradata에서 설정된 표준 시간대.
 
 ![](assets/ext_account_20.png)
 
@@ -294,7 +317,7 @@ Adobe ID를 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL 
 
 * **[!UICONTROL Callback server]**
 
-   Adobe Campaign 인스턴스의 URL에 액세스
+   Adobe Campaign 인스턴스의 URL에 액세스합니다.
 
 * **[!UICONTROL IMS organization ID]**
 
@@ -408,7 +431,7 @@ Amazon Simple Storage Service(S3) 커넥터를 사용하여 데이터를 Adobe C
 
 ## Hadoop 외부 계정 {#hadoop-external-account}
 
-이 연결이 활성 상태인 경우 **[!UICONTROL Hadoop]** 외부 계정은 공유 외부 데이터베이스에 연결할 수 있도록 합니다. 이때 Adobe Campaign을 통해 데이터베이스에 액세스할 수 있습니다. Hadoop에 대한 액세스를 구성하는 방법에 대한 자세한 내용은 이 [섹션을](../../platform/using/accessing-an-external-database.md#configure-access-to-hadoop)참조하십시오.
+이 연결이 활성 상태인 경우 **[!UICONTROL Hadoop]** 외부 계정은 공유 외부 데이터베이스에 연결할 수 있도록 합니다. 이때 Adobe Campaign을 통해 데이터베이스에 액세스할 수 있습니다. Hadoop에 대한 액세스를 구성하는 방법에 대한 자세한 내용은 이 [섹션을](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop)참조하십시오.
 
 ![](assets/ext_account_16.png)
 
