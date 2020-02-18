@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ee1912e0de2841867d0ffb5420cc9810aa1083e
+source-git-commit: 7aa381654805798fcdd24f588160bed15e037a2b
 
 ---
 
@@ -59,7 +59,7 @@ Campaign을 사용하면 마케팅 캠페인의 기본 단계에 대한 승인 �
 
 Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위해 FDA(Federated Data Access) 옵션을 제공합니다.adobe Campaign 데이터 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.
 
-[자세한](../../platform/using/accessing-an-external-database.md)내용을 보려면 여기를 클릭하십시오.
+[자세한](../../platform/using/connecting-to-database.md)내용을 보려면 여기를 클릭하십시오.
 
 ## Campaign을 연결할 수 있는 외부 데이터베이스는 무엇입니까? {#which-external-databases-can-i-connect-campaign-to-}
 
