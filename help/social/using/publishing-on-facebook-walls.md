@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign을 페이지 담벼락에 게시하려면 Facebook 애플리케�
 1. 페이지를 관리하는 데 사용하는 Facebook 계정에 로그온합니다.
 1. 브라우저에 다음 주소를 입력합니다.https://developers.facebook.com/apps [](https://developers.facebook.com/apps).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >보유하고 있는 계정의 유형에 따라 하나 이상의 인증이 필요할 수 있습니다.
    >
@@ -87,7 +87,7 @@ Adobe Campaign을 페이지 담벼락에 게시하려면 Facebook 애플리케�
 
 이 단계를 수행하려면 Adobe Campaign 콘솔과 페이지 관리에 사용하는 Facebook 계정에 로그인한 인터넷 브라우저에 액세스할 수 있어야 합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이 구성을 수행하려면 Adobe Campaign 운영자에게 관리 권한이 있어야 합니다.
 
@@ -107,7 +107,7 @@ Adobe Campaign을 페이지 담벼락에 게시하려면 Facebook 애플리케�
 
    ![](assets/social_facebook_external_account_006.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >어떤 경우에도 안전하지 않은 URL을 사용해서는 안 됩니다.
 
