@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -31,4 +31,4 @@ Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보
 * 강화
 * 데이터 로드
 
-FDA 옵션 사용은 Adobe Campaign 라이선스에 따라 다릅니다. 이 옵션을 구성하는 방법과 이 옵션을 사용하는 데 연결된 우수 사례 및 제한 사항은 이 [섹션에](../../platform/using/accessing-an-external-database.md)자세히 설명되어 있습니다.
+FDA 옵션 사용은 Adobe Campaign 라이선스에 따라 다릅니다. 이 옵션을 구성하는 방법과 이 옵션을 사용하는 데 연결된 우수 사례 및 제한 사항은 이 [섹션에](../../platform/using/about-fda.md)자세히 설명되어 있습니다.
