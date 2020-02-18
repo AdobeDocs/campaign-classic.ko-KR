@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dcefad5aade740c8f5e5a7a7f6602b4ee0bf5f8d
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: dcefad5aade740c8f5e5a7a7f6602b4ee0bf5f8d
 
 Social Marketing을 사용하면 받는 사람 프로필과 달리 다양한 Facebook 페이지 및 Twitter 계정에 배달을 보낼 수 있습니다. Facebook에서 게재 컨텐츠는 페이지 담벼락에 있는 발행물 형태로 표시되며 모든 페이지 팬의 뉴스 피드에 표시됩니다. Twitter에서 게재 컨텐츠는 트윗으로 표시되며 계정 팔로워의 홈 페이지에 표시됩니다. 수집하는 계정 팔로우어에게 쪽지를 보낼 수도 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adobe Campaign은 메시지 전달과 관련하여 Facebook 및 Twitter가 전달하는 서비스 약관을 준수하도록 요청합니다.
 >
