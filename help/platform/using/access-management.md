@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3946d97e786423bf831d17e486186660db403709
+source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를](
 
 >[!NOTE]
 >
->이 **[!UICONTROL Session timeout]** 필드를 사용하면 FDA 세션 시간 초과 전에 지연을 조정할 수 있습니다. 자세한 내용은 통합 데이터 [액세스 정보를 참조하십시오](../../platform/using/accessing-an-external-database.md#about-federated-data-access).
+>이 **[!UICONTROL Session timeout]** 필드를 사용하면 FDA 세션 시간 초과 전에 지연을 조정할 수 있습니다. 자세한 내용은 통합 데이터 [액세스 정보를 참조하십시오](../../platform/using/about-fda.md).
 
 ### 연산자의 표준 시간대 {#time-zone-of-the-operator}
 
