@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: abddb3cdfcee9e41cab2e7e662d5bfd5d53d6f7e
+source-git-commit: a37daa8e31afd3d2ab7d5b70bd8ae02c59ce9ee0
 
 ---
 
@@ -64,12 +64,6 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버의 시�
    ```
 
 1. /etc/ **apache2/mods-available** **** 파일에 nlsrv.load를 만들고 다음 컨텐츠를 삽입합니다.
-
-   디베이안 7에서:
-
-   ```
-   LoadModule requesthandler22_module /usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so
-   ```
 
    디베이안 8에서:
 
@@ -147,63 +141,47 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버의 시�
    userdir
    ```
 
-비활성화된 모듈에 연결된 기능에 주석을 답니다.
-
-    &quot;
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    DirectoryIndexIndexOptionsAddIconByEncodingAddIconByTypeAddIconDefaultIconReadmeNameIndexIgnoreLanguagePriorityForceLanguagePriority
-    &quot;
-
-1. 폴더에 Adobe Campaign 특정 구성 파일을 `/etc/httpd/conf.d/` 만듭니다.
-
-예를 `CampaignApache.conf`들면 다음과 같습니다.
-
-1. RHEL **6의**&#x200B;경우 파일에 다음 지침을 추가합니다.
+   비활성화된 모듈에 연결된 기능에 주석을 답니다.
 
    ```
-   LoadModule requesthandler22_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
+   DirectoryIndex
+   IndexOptions    
+   AddIconByEncoding    
+   AddIconByType    
+   AddIcon    
+   DefaultIcon    
+   ReadmeName    
+   HeaderName    
+   IndexIgnore    
+   LanguagePriority    
+   ForceLanguagePriority
+   ```
+
+1. 폴더에 Adobe Campaign 특정 구성 파일을 `/etc/httpd/conf.d/` 만듭니다. 예 `CampaignApache.conf`
+
+1. RHEL **7의**&#x200B;경우 파일에 다음 지침을 추가합니다.
+
+   ```
+   LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
    Include /usr/local/neolane/nl6/tomcat-7/conf/apache_neolane.conf
    ```
 
-RHEL **7의**&#x200B;경우 파일에 다음 지침을 추가합니다.
+1. RHEL **7의**&#x200B;경우:
 
-LoadModule requestThandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.soInclude /usr/local/neolane/nl6/tomcat-7/conf/apache_neolane.conf
+   다음 콘텐트와 함께 `/etc/systemd/system/httpd.service` 파일을 추가합니다.
 
-1. RHEL **6의**&#x200B;경우:
+   ```
+   .include /usr/lib/systemd/system/httpd.service
+   
+   [Service]
+   Environment=USERPATH=/usr/local/neolane LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib
+   ```
 
-다음 지침을 `/etc/sysconfig/httpd` 파일에 추가합니다.
+   시스템에서 사용하는 모듈을 업데이트합니다.
 
-    &quot;
-    #Neolane/Adobe
-    Campaign Configurationif [ &quot;$LD_LIBRARY_PATH&quot; != &quot;&quot; ];그런 다음 LD_LIBRARY_PATH=&quot;/usr/local/neolane/nl6/lib:$LD_LIBRARY_PATH&quot;;else export LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib;USERPATH
-    파일 내보내기=/usr/local/neolane
-    &quot;
-
-RHEL **7의**&#x200B;경우:
-
-다음 콘텐트와 함께 `/etc/systemd/system/httpd.service` 파일을 추가합니다.
-
-    &quot;
-    .include /usr/lib/systemd/system/httpd.service
-    
-    [Service]
-    Environment=USERPATH=/usr/local/neolane LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib
-    &quot;
-
-시스템에서 사용하는 모듈을 업데이트합니다.
-
-    &quot;
-    systemctl daemon-reload
-    &quot;
+   ```
+   systemctl daemon-reload
+   ```
 
 1. 그런 다음 명령을 실행하여 Adobe Campaign 연산자를 Apache 연산자 그룹에 추가하거나 그 반대로 추가합니다.
 
@@ -211,23 +189,17 @@ RHEL **7의**&#x200B;경우:
    usermod -a -G neolane apache
    usermod -a -G apache neolane
    ```
-사용할 그룹 이름은 Apache 구성 방법에 따라 다릅니다.
+
+   사용할 그룹 이름은 Apache 구성 방법에 따라 다릅니다.
 
 1. Apache 및 Adobe Campaign 서버를 실행합니다.
 
-RHEL6:
+   RHEL7의 경우:
 
-    &quot;
-    /etc/init.d/httpd start
-    /etc/init.d/nlserver start
-    &quot;
-
-RHEL7의 경우:
-
-    &quot;
-    systemctl start
-    httpdsystemctl start nlserver
-    &quot;
+   ```
+   systemctl start httpd
+   systemctl start nlserver
+   ```
 
 ## 웹 서버 시작 및 구성 테스트{#launching-the-web-server-and-testing-the-configuration}
 
@@ -277,4 +249,4 @@ GET /r/test
 Connection closed by foreign host.
 ````
 
-웹 브라우저에서 URL을 요청할 수도 [`http://<computer>`](http://machine/r/test) 있습니다.
+웹 브라우저에서 URL을 요청할 수도 [`https://<computer>`](https://machine/r/test) 있습니다.
