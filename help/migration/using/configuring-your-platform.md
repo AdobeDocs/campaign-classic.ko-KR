@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+source-git-commit: 40391fbea53757decb48fd937f5e74e8ba6fb207
 
 ---
 
@@ -45,8 +45,6 @@ Adobe Campaign v7로 마이그레이션할 때 다음 요소를 구성해야 합
    &quot;다중 시간대&quot; 모드를 사용하려면 시간대 [섹션을](../../migration/using/general-configurations.md#time-zones) 참조하십시오.
 
    Oracle을 데이터베이스로 사용하는 경우 Oracle 표준 시간대 파일이 응용 프로그램 서버와 데이터베이스 서버 간에 제대로 동기화되었는지 확인합니다. 자세한 내용은 Oracle [섹션을 참조하십시오](../../migration/using/general-configurations.md#oracle) .
-
-   또한 v.5.11 플랫폼에서 마이그레이션하는 동안 MySQL에서 추가 구성을 수행해야 합니다. 자세한 내용은 MySQL [섹션을 참조하십시오](../../migration/using/specific-configurations-in-v5-11.md#mysql) .
 
 * 보안 영역
 
