@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed5390b4f620c3cddaf9b856f3354dc5f06f4d98
+source-git-commit: 33bf5c5a08613cf88eaace91b85a76157cac7ba1
 
 ---
 
@@ -24,13 +24,21 @@ source-git-commit: ed5390b4f620c3cddaf9b856f3354dc5f06f4d98
 
 ## 개인 정보 및 동의 정보 {#about-privacy-and-consent}
 
-Adobe Campaign은 개인 정보를 비롯한 매우 많은 양의 데이터를 수집 및 처리하기 위한 강력한 도구입니다. Adobe는 Adobe Campaign의 모든 사용자가 법률(DPA, CAN-SPAM, European Directive on Privacy and Electronic Communications, European GDPR 등)을 준수하고, 개인 정보를 책임감 있고 윤리적으로 사용하고, 요청되지 않은 이메일, 푸시 알림 및 SMS 메시지(&quot;스팸&quot;)를 발송하지 않도록 권장하고 있습니다. Adobe는 고객 라이프타임 가치 및 충성도 향상을 위한 허가 마케팅의 원칙을 강력하게 신뢰하며, 따라서 Adobe Campaign을 사용하여 요청되지 않은 메시지를 전송하는 것을 엄격히 금지합니다.
+Adobe Campaign은 개인 정보를 비롯한 매우 많은 양의 데이터를 수집 및 처리하기 위한 강력한 도구입니다. Adobe Campaign의 모든 사용자는 법률(DPA, CAN-SPAM, European Directive on Privacy and Electronic Communications, European GDPR, CCPA 등)을 준수하고, 개인 정보를 책임감 있고 윤리적으로 사용하고, 요청되지 않은 이메일, 푸시 알림 및 SMS 메시지(&quot;스팸&quot;)를 보내지 않도록 권장하고 있습니다. Adobe는 고객 라이프타임 가치 및 충성도 향상을 위한 허가 마케팅의 원칙을 강력하게 신뢰하며, 따라서 Adobe Campaign을 사용하여 요청되지 않은 메시지를 전송하는 것을 엄격히 금지합니다.
 
 자세한 내용은 Adobe Experience [Cloud 개인 정보를](https://www.adobe.com/privacy/marketing-cloud.html)참조하십시오.
 
-Adobe Campaign은 Adobe 서비스를 사용할 때 GDPR 준수를 지원하는 툴 및 기능, 모범 사례 등을 제공합니다. 이 [문서를](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html)참조하십시오.
-
 보안 및 개인 정보 [확인 목록을](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html) 통해 보안 및 개인 정보 보호에 대한 주요 요소를 확인할 수 있습니다.
+
+## 개인 정보 관리 {#privacy-management}
+
+GDPR(General Data Protection Regulation)은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 개인 정보 보호 법입니다. GDPR은 EU에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.
+
+CPA(California Consumer Privacy Act)는 캘리포니아 거주자들에게 개인 정보와 관련하여 새로운 권리를 제공하고 캘리포니아에서 사업을 수행하는 특정 업체에 데이터 보호 책임을 부과합니다.
+
+동의 관리, 데이터 유지 설정 및 권한 관리 이외에도 Adobe는 데이터 프로세서로서의 역할에 따라 특정 개인 정보 보호 요청에 대해 데이터 컨트롤러로 사용자의 준비 태세를 용이하게 하는 추가 기능을 제공합니다.
+
+이 [문서에서는](https://helpx.adobe.com/campaign/kb/acc-privacy.html)Adobe Campaign을 통해 다양한 개인 정보 보호 키 기능을 관리하는 방법을 알아봅니다.액세스 권한, 잊혀질 권리, 동의, 데이터 유지 및 사용자 역할. 또한 Adobe 서비스를 사용할 때 귀하의 개인정보 보호 규정 준수를 돕기 위해 최선의 방법을 찾을 수 있습니다.
 
 ## 쿠키 및 추적 기능 {#cookies-and-tracking-capabilities}
 
