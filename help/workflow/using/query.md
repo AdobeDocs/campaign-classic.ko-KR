@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab2c133aaa2f754e56fe8fdfc76d10526d4d1ce2
+source-git-commit: f8cf2f72dcf2ab48a42faf7931ca831b6431548d
 
 ---
 
@@ -25,10 +25,11 @@ source-git-commit: ab2c133aaa2f754e56fe8fdfc76d10526d4d1ce2
 ## 쿼리 만들기 {#creating-a-query}
 
 쿼리를 사용하면 기준에 따라 대상을 선택할 수 있습니다. 세그먼트 코드를 쿼리 결과에 연결하고 추가 데이터를 삽입할 수 있습니다.
+쿼리 샘플에 대한 자세한 내용은 [이 섹션을](../../workflow/using/querying-recipient-table.md)참조하십시오.
 
 >[!NOTE]
 >
->쿼리 샘플은 [이 섹션에](../../workflow/using/querying-recipient-table.md)있습니다.
+>Oracle 사용 시 쿼리 활동은 CLOB 필드와 호환되지 않습니다.
 
 ![](assets/s_user_segmentation_wizard_9.png)
 
@@ -112,7 +113,7 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면:
 
    * 컬렉션의 단일 요소가 이 컬렉션에 대한 필터링 조건과 일치하는 경우 **[!UICONTROL Single row]** **[!UICONTROL Data collected]** 필드에서 선택합니다.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >이 모드는 컬렉션 요소에 대한 직접적인 시점 덕분에 생성된 SQL 쿼리를 최적화합니다.
       >
