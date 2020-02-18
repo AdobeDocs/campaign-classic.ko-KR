@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: aa0eb7acfb5d3b622475544735aed37d6beea892
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 이 상호 작용을 설정하려면 다음을 수행합니다.
 
-1. [익명의 환경을](#creating-an-anonymous-environment)만듭니다.
-1. [익명 오퍼 공간을](#creating-anonymous-offer-spaces)만듭니다.
-1. [오퍼 카테고리 및 테마 만들기.](#creating-an-offer-category-and-a-theme).
-1. [익명 오퍼 만들기.](#creating-anonymous-offers)..
-1. [웹 사이트에서](#configure-the-web-offer-space-on-the-website)웹 오퍼 공간을 구성합니다.
+1. [익명의 환경 만들기](#creating-an-anonymous-environment)
+1. [익명 오퍼 공간 만들기](#creating-anonymous-offer-spaces)
+1. [오퍼 카테고리 및 테마 만들기](#creating-an-offer-category-and-a-theme)
+1. [익명의 오퍼 만들기](#creating-anonymous-offers)
+1. [웹 사이트에서 웹 오퍼 공간 구성](#configure-the-web-offer-space-on-the-website)
 
 ### 익명 환경 만들기 {#creating-an-anonymous-environment}
 
@@ -64,7 +64,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
    * 제목
    * HTML 컨텐츠
    * 이미지 URL
-   * 대상 URL.
+   * 대상 URL
    ![](assets/offer_inbound_anonymous_example_030.png)
 
 1. 다음과 같이 HTML 렌더링 함수를 편집합니다.
