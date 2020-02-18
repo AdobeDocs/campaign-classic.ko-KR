@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -100,7 +100,7 @@ source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
 >
 >배달 **[!UICONTROL Tweet]** 템플릿에서 추적은 기본적으로 활성화되어 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >트윗을 분석하는 로봇과 실제로 클릭하는 사용자의 차이는 파악할 수 없습니다.
 
@@ -134,7 +134,7 @@ source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
 
 ![](assets/social_twitter_visitors_001.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >워크플로우가 Twitter 팔로우어 목록을 복구하려면 계정에 연결된 서비스의 편집 화면에서 **[!UICONTROL Synchronize Twitter accounts]** 상자를 선택해야 합니다. 자세한 내용은 다음을 참조하십시오.Adobe [Campaign에 대한 쓰기 액세스 권한 위임](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign).
 
@@ -181,7 +181,7 @@ source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
 
    * 모든 계정 팔로우어에 쪽지를 **[!UICONTROL Twitter subscribers]** 보내려면 선택합니다.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >하루에 250개 이상의 메시지를 보낼 수 없습니다. Twitter 계정에 팔로워가 250명이 넘는 경우 파도로 전달하는 것이 좋습니다. 이 프로세스에는 이메일 게재와 동일한 프로세스가 포함됩니다. 이 [섹션을](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)참조하십시오.
 
