@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+source-git-commit: ac3a0ca00591943d79563e9fd4d85d71fa0ba81a
 
 ---
 
@@ -26,9 +26,9 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 Adobe Target에서 미리 다음 작업을 수행해야 합니다.
 
-* 사용할 이미지의 URL을 지정해야 하는 하나 이상의 [리디렉션 오퍼를](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Redirect_Offer.html)만듭니다.
+* 사용할 이미지의 URL을 지정해야 하는 하나 이상의 [리디렉션 오퍼를](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html)만듭니다.
 * 하나 또는 여러 [대상을](https://marketing.adobe.com/resources/help/en_US/target/target/t_create-audience.html)만들어 활동 대상을 정의합니다.
-* 양식 [기반 경험 작성기](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_an_A_B_Test.html) 활동을 만듭니다. 이 활동은 rawbox를 선택하고 생성된 리디렉션 오퍼의 수에 따라 여러 경험을 지정해야 합니다. 각 경험에 대해 생성된 리디렉션 오퍼 중 하나를 선택해야 합니다.
+* 양식 [기반 경험 작성기](https://docs.adobe.com/content/help/en/target/using/activities/abtest/create/test-create-ab.html) 활동을 만듭니다. 이 활동은 rawbox를 선택하고 생성된 리디렉션 오퍼의 수에 따라 여러 경험을 지정해야 합니다. 각 경험에 대해 생성된 리디렉션 오퍼 중 하나를 선택해야 합니다.
 
    이러한 경험을 지정하려면 Adobe Campaign의 정보를 사용하여 세그먼트를 만듭니다. 오퍼의 선택 규칙에서 Adobe Campaign의 데이터를 사용하려면 Adobe Target의 rawbox에 데이터를 지정해야 합니다.
 
