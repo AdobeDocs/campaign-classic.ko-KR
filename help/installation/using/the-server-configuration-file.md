@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9d7cbe5f2407deb8fd2e00a60bf9e3789101e6ff
+source-git-commit: 09fa3751d94fd71a68470174dd0b4a48d94d3f44
 
 ---
 
@@ -1555,6 +1555,12 @@ inMail **> msgDump** 노드에서 다음 매개 변수를 구성합니다. 처�
    <td> 정의되지 않은 경우 최신 버전이 사용됩니다. <br /> </td> 
   </tr> 
   <tr> 
+   <td> useMomum<br /> </td> 
+   <td> "true"로 설정된 경우 인스턴스가 향상된 MTA를 <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html" target="_blank">사용합니다</a>.<br /> </td> 
+   <td> 부울<br /> </td> 
+   <td> <br /> </td>b 
+  </tr>
+  <tr> 
    <td> verifyMode<br /> </td> 
    <td> 확인 모드:확인 모드(메시지의 물리적 전송 금지;시뮬레이션 및 테스트에 사용됨).<br /> </td> 
    <td> 부울<br /> </td> 
@@ -1571,7 +1577,7 @@ inMail **> msgDump** 노드에서 다음 매개 변수를 구성합니다. 처�
    <td> X-메일러 필드:값이 SMTP 메일 헤더에서 'X-Meyer'입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'nlserver, 빌드 $(PRODUCT_VERSION)'<br /> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
