@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -26,10 +26,10 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 Linux의 마이그레이션 단계는 다음과 같습니다.
 
-1. 서비스 중지:서비스 [중지](#service-stop)보기,
+1. 서비스 중지:서비스 [중지를](#service-stop)참조하십시오.
 1. 데이터베이스를 저장합니다.데이터베이스 [및 기존 설치](#back-up-the-database-and-the-existing-installation)백업을 참조하십시오.
-1. 이전 Adobe Campaign 버전 패키지 제거:adobe [Campaign 이전 버전 패키지](#uninstalling-adobe-campaign-previous-version-packages)제거,
-1. 플랫폼 마이그레이션:adobe [Campaign v7](#deploying-adobe-campaign-v7)배포를 참조하십시오.
+1. 이전 Adobe Campaign 버전 패키지 제거:adobe [Campaign 이전 버전 패키지](#uninstalling-adobe-campaign-previous-version-packages)제거를 참조하십시오.
+1. 플랫폼 마이그레이션:adobe [Campaign v7 배포를 참조하십시오](#deploying-adobe-campaign-v7).
 1. 서비스 다시 시작:서비스 [재시작을](#re-starting-services)참조하십시오.
 
 ## 서비스 중지 {#service-stop}
@@ -90,7 +90,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
    mv nl5 nl5.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >예방 차원에서, **nl5.back** 폴더를 압축한 후 서버 이외의 보안 위치에 저장하는 것이 좋습니다.
 
@@ -125,7 +125,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
    mv nl6 nl6.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >예방 차원에서, **nl6.back** 폴더를 압축한 후 서버 이외의 보안 위치에 저장하는 것이 좋습니다.
 
@@ -160,7 +160,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
    mv nl6 nl6.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >예방 차원에서, **nl6.back** 폴더를 압축한 후 서버 이외의 보안 위치에 저장하는 것이 좋습니다.
 
@@ -264,15 +264,15 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
    * 디베이어 ****:
 
       ```
-      dpkg -i nlserver6-v7-XXXX-linux-2.6-intel.deb
+      dpkg -i nlserver6-XXXX-linux-2.6-intel.deb
       ```
 
    * Red **Hat**:
 
       ```
-      rpm -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
+      rpm -Uvh nlserver6-XXXX-0.x86_64.rpm
       ```
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >다음 단계로 진행하기 전에 패키지를 성공적으로 설치해야 합니다.
 
@@ -308,13 +308,13 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
 1. 루트로 **로그인하고** 다음 명령을 사용하여 인스턴스를 준비합니다.
 
    ```
-   /etc/init.d/nlserver6-v7 start   
-   Starting nlserver6-v7: [  OK  ]
+   /etc/init.d/nlserver6 start   
+   Starting nlserver6: [  OK  ]
    ```
 
    ```
-   /etc/init.d/nlserver6-v7 stop
-   Stopping nlserver6-v7: [  OK  ]
+   /etc/init.d/nlserver6 stop
+   Stopping nlserver6: [  OK  ]
    ```
 
    >[!NOTE]
@@ -323,7 +323,7 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
 
 1. nl5. **back** 백업 폴더로 이동하여 각 인스턴스의 구성 파일과 하위 폴더를 복사(덮어쓰기)합니다. neolane으로 **로그인하고** 다음 명령을 실행합니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >아래의 첫 번째 명령에 대해서는 **config-default.xml** 파일을 복사하지 마십시오.
 
@@ -348,7 +348,7 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
    <trackinglogd autoStart="true"/>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >추적 **로그** 서비스가 추적 서버에서 시작되지 않으면 추적 정보가 전달되지 않습니다.
 
@@ -365,7 +365,7 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
    nlserver config -timezone:<time zone> -postupgrade -instance:<instance name>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >사후 업그레이드 시 참조할 표준 시간대를 지정해야 합니다( **-timezone** 옵션 사용). 이 경우 유럽/파리 시간대 **시간대를 사용합니다.&quot;유럽/파리&quot;**.
 
@@ -373,7 +373,7 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
    >
    >&quot;다중 시간대&quot;로 업그레이드할 것을 적극 권장합니다. 시간대 옵션에 대한 자세한 내용은 시간대 [섹션을](../../migration/using/general-configurations.md#time-zones) 참조하십시오.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adobe Campaign 서비스를 아직 시작하지 마십시오.변경 사항은 Apache에서 계속 수행해야 합니다.
 
@@ -391,15 +391,15 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
    * 디베이어 ****:
 
       ```
-      dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+      dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
    * Red **Hat**:
 
       ```
-      rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
+      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >다음 단계로 진행하기 전에 패키지를 성공적으로 설치해야 합니다.
 
@@ -423,7 +423,7 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
    <trackinglogd autoStart="true"/>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >추적 **로그** 서비스가 추적 서버에서 시작되지 않으면 추적 정보가 전달되지 않습니다.
 
@@ -469,15 +469,15 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
    * 디베이어 ****:
 
       ```
-      dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+      dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
    * Red **Hat**:
 
       ```
-      rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
+      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >다음 단계로 진행하기 전에 패키지를 성공적으로 설치해야 합니다.
 
@@ -563,13 +563,6 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
    * Red **Hat**:
 
       사용자/usr/local/local/conf **디렉토리로 이동하여** http.conf **파일을 편집하고** nl5 **를** nl6 **** 로 바꿉니다.
-
-      RHEL **6/Debian 7**:
-
-      ```
-      LoadModule requesthandler22_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
-      Include /usr/local/neolane/nl6/tomcat-6/conf/apache_neolane.conf
-      ```
 
       RHEL **7/Debian 8**:
 
