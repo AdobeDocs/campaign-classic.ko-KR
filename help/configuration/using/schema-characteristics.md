@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 * 테이블 및 열 이름은 명시적으로 지정해야 합니다.
 * 인덱스를 선언해야 합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >쓸모없는 경우에도 표준 수신자 테이블의 필드를 삭제하지 마십시오. 이로 인해 Adobe Campaign 데이터베이스에 동작 오류가 발생할 수 있습니다.
 
