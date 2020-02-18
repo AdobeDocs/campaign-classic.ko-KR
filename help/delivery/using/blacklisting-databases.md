@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62553344f557206443fa2de0499df42d8b771e21
+source-git-commit: ac3a0ca00591943d79563e9fd4d85d71fa0ba81a
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 62553344f557206443fa2de0499df42d8b771e21
 * 보낸 사람 도메인별:스팸 또는 잘못 구성된 보낸 사람 도메인(바운스 메일 주소의 전체 도메인)을 나열합니다.
 * 웹 도메인별:링크 URL에 있는 도메인(등록자와 함께 등록된 고급 도메인)과 스팸 컨텐츠에 포함된 이미지를 나열합니다. Adobe Campaign에서 고려할 도메인은 일반적으로 추적에 사용되는 주소입니다.
 
-다음은 가장 널리 사용되는 RBL의 목록입니다. 보다 포괄적인 목록은 https://www.declude.com/Articles.asp?ID=97 또는 https://www.dnsstuff.com/ [를](https://www.declude.com/Articles.asp?ID=97) 참조할 수 있습니다(&quot;IP 도구 [&quot;](https://www.dnsstuff.com/) 섹션, &quot;스팸 데이터베이스 조회&quot; 양식).
+다음은 가장 널리 사용되는 RBL의 목록입니다. 보다 포괄적인 목록을 보려면 https://www.dnsstuff.com/(&quot;Spam Blacklist [Lookup](https://tools.dnsstuff.com/) &quot; 양식)을 참조하십시오.
 
 * **스팜하우스**
 
