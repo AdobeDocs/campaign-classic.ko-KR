@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -77,7 +77,7 @@ nms: **seedMember** 스키마와 즉시 제공되는 연결된 양식은 고객 
    >
    >nms: **seedMember** 스키마의 확장은 캠페인 구조와 Adobe Campaign의 전달을 준수해야 합니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >
    >    
