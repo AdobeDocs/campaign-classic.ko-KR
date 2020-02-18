@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9b3508fee3b441752648258b1bc9d5d2b919791
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -392,7 +392,7 @@ groupBy 속성을 그룹화할 **필드에** 직접 추가하여 쿼리를 단�
 
 매개 변수를 바인딩하지 않으려면 &quot;noSqlBind&quot; 특성을 값 &#39;true&#39;로 채워야 합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >쿼리에 &quot;order-by&quot; 또는 &quot;group-by&quot; 지침이 포함된 경우 데이터베이스 엔진은 값을 &quot;바인딩&quot;할 수 없습니다. 쿼리의 &quot;select&quot; 및/또는 &quot;where&quot; 지침에 @noSqlBind=&quot;true&quot; 속성을 배치해야 합니다.
 
