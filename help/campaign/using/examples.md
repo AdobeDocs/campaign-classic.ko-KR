@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -29,8 +29,6 @@ By **양식** 유형 웹 인터페이스는 웹 애플리케이션을 **사용�
 >[!NOTE]
 >
 >API는 계약에 따라 액세스 권한이 부여된 전용 문서에 자세히 설명되어 있습니다. API를 [참조하십시오](../../configuration/using/about-web-services.md).
-
->[!NOTE]
 >
 >이 예제에서 사용되는 웹 응용 프로그램은 Adobe Campaign과 함께 즉시 사용 가능한 웹 앱이 아닙니다. 캠페인에서 양식을 사용하려면 전용 웹 응용 프로그램을 만들어야 합니다.
 
@@ -159,7 +157,7 @@ By **양식** 유형 웹 인터페이스는 웹 애플리케이션을 **사용�
 
    * 알림에서 로컬 엔티티로 전송될 메시지 컨텐츠,
    * 승인 알림
-   * 캠페인의 예상 처리
+   * 캠페인의 예상 처리.
    ![](assets/mkg_dist_use_case_target_valid7.png)
 
 1. 기록을 저장합니다.
