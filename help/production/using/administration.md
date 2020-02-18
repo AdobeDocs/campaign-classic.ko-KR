@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 779d9162b7296339a796512838612ede1186ddcc
+source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 ---
 
@@ -37,6 +37,10 @@ Adobe Campaign을 설치하면 컴퓨터가 자동으로 구성되므로 부팅 
 
    * **/etc/init.d/nlserver6 시작**
    * **/etc/init.d/nlserver6 중지**
+
+>[!NOTE]
+>
+>20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver** / **systemctl stop nlserver**
 
 다음은 Linux(Adobe Campaign)에서 액세스할 수 있는 일반적인 관리 **명령 목록입니다**.
 
@@ -76,24 +80,22 @@ Adobe Campaign을 설치하면 컴퓨터가 자동으로 구성되므로 부팅 
    **nlserver 웹 다시 시작**
 
    >[!NOTE]
-
-   >* 인스턴스를 지정하지 않으면 &quot;default&quot; 인스턴스가 사용됩니다.
-   >    
-   >    
+   > 
+   >    * 인스턴스를 지정하지 않으면 &quot;default&quot; 인스턴스가 사용됩니다.
    >    * 긴급한 경우 **즉시** 옵션을 사용하여 프로세스를 즉시 중지합니다(Unix 명령 **kill -9**&#x200B;준수와 동일).
-   * noconsole **** 옵션을 사용하여 시작한 모듈이 콘솔에 아무 것도 표시되지 않도록 합니다. 로그가 **syslogd 모듈을 통해 디스크에 기록됩니다** .
-   * 자세한 **정보** 옵션을 사용하여 프로세스 작업에 대한 추가 정보를 표시합니다.
-
-
+   >    * noconsole **** 옵션을 사용하여 시작한 모듈이 콘솔에 아무 것도 표시되지 않도록 합니다. 로그가 **syslogd 모듈을 통해 디스크에 기록됩니다** .
+   >    * 자세한 **정보** 옵션을 사용하여 프로세스 작업에 대한 추가 정보를 표시합니다.
+      >    
+      >      
       예:
-
-
+      >    
+      >      
       **nlserver에서 웹 다시 시작 -verbose**
-
-
+      >    
+      >      
       **nlserver start mta@myinstance -verbose**
-
-
+      >    
+      >      
       이 옵션은 추가 로그를 추가합니다. 로그를 오버로딩하지 않도록 원하는 정보를 찾은 후 **세부 정보** 옵션 없이 프로세스를 다시 시작하는 것이 좋습니다.
 
 
@@ -110,5 +112,6 @@ Adobe Campaign을 설치하면 컴퓨터가 자동으로 구성되므로 부팅 
    **nlserver config -reload**
 
    >[!NOTE]
-   일부 구성 변경 사항은 동적으로 고려되지 않습니다.Adobe Campaign을 종료한 다음 다시 시작해야 합니다.
+   >
+   >일부 구성 변경 사항은 동적으로 고려되지 않습니다.Adobe Campaign을 종료한 다음 다시 시작해야 합니다.
 
