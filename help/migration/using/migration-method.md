@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4437d2ea4e4044245a2b9a5a870267cd1f1c0bc9
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 4437d2ea4e4044245a2b9a5a870267cd1f1c0bc9
 
 v6.02에서 &quot;multi timezone&quot; 모드는 PostgreSQL 데이터베이스 엔진에만 사용할 수 있었습니다. 이제 데이터베이스 엔진 유형에 상관없이 제공됩니다. 기본 시간대를 &quot;다중 시간대&quot; 기준으로 변경하는 것이 좋습니다. 자세한 내용은 시간대 [섹션을](../../migration/using/general-configurations.md#time-zones) 참조하십시오.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adobe Campaign 5.11 및 6.02에서 지원되는 일부 소프트웨어 버전은 더 이상 Adobe Campaign v7에서 지원되지 않습니다.
 >
