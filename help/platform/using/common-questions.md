@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f46b499e4b81cf500baa84cf683a6e0273f802a7
+source-git-commit: 9a1db0fbced3550621c5520656a34344128ee13f
 
 ---
 
@@ -74,58 +74,3 @@ Adobe는 이메일 전달을 위해 DNS(Domain Name System)를 고려하며, 이
 
 [자세한](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)내용을 보려면 여기를 클릭하십시오.
 
-관리 사용자는 캠페인 제어판을 통해 Adobe에 대한 전체 도메인 위임을 설정할 수 있습니다. [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)보기
-
-## 10.수신자의 받은 편지함에서 이메일을 받는 방법 {#how-to-get-emails-in-the-recipient-s-inbox-}
-
-자세한 [내용 이메일 전달 기능을](https://helpx.adobe.com/campaign/kb/acc-deliverability.html) 설정하여 이메일 전송을 최적화할 수 있는 툴뿐만 아니라 전달 능력과 관련된 개념과 모범 사례를 살펴볼 수 있습니다.
-
-## 더 보기 {#more-faq}
-
-특정 주제에 대한 더 일반적인 질문을 읽어보십시오.
-
-<table>
-<tr>
-<td>
-        <a href="../../platform/using/faq-key-concepts.md"><img alt="조건" src="assets/icon_start.png"/></a>
-        <div><a href="../../platform/using/faq-key-concepts.md"><strong>주요 개념</strong></a></div>
-        <em>글로벌 FAQ</em>
-    </td>
-    <td>
-        <a href="../../platform/using/faq-audiences.md"><img alt="조건" src="assets/icon_audience.png"/></a>
-        <div><a href="../../platform/using/faq-audiences.md"><strong>수신자</strong></a></div>
-        <em>대상 FAQ</em>
-    </td>
-    <td>
-        <a href="../../platform/using/faq-designing.md"><img alt="조건" src="assets/icon_content.png"/></a>
-        <div><a href="../../platform/using/faq-designing.md"><strong>디자인</strong></a></div>
-        <em>메시지 디자인 FAQ</em>
-    </td>
-    <td>
-        <a href="../../platform/using/faq-messages.md"><img alt="조건" src="assets/icon_delivery.png"/></a>
-        <div><a href="../../platform/using/faq-messages.md"><strong>보내기</strong></a></div>
-        <br/><em>메시지 테스트 및 보내기 FAQ</em>
-    </td>
-</tr>
-<tr>
-    <td>
-        <a href="../../platform/using/faq-workflows.md"><img alt="조건" src="assets/icon_process.png"/></a>
-        <div><a href="../../platform/using/faq-workflows.md"><strong>워크플로우</strong></a></div>
-        <em>프로세스 자동화 FAQ</em>
-    </td>
-    <td>
-        <a href="../../platform/using/faq-reporting.md"><img alt="조건" src="assets/icon_report.png"/></a>
-        <div><a href="../../platform/using/faq-reporting.md"><strong>보고</strong></a></div>
-        <em>캠페인 보고서 FAQ</em>
-    </td>
-    <td>
-        <a href="../../platform/using/faq-campaign-config.md"><img alt="조건" src="assets/icon_config.png"/></a>
-        <div><a href="../../platform/using/faq-campaign-config.md"><strong>구성</strong></a></div>
-        <em>인스턴스 설정 FAQ</em>
-    </td>
-    <td>
-        <a href="../../platform/using/faq-developers.md"><img alt="조건" src="assets/icon_server.png"/></a>
-        <div><a href="../../platform/using/faq-developers.md"><strong>개발</strong></a></div>
-        <br/><em>개발자 FAQ</em>
-    </td>
-    </tr></table>
