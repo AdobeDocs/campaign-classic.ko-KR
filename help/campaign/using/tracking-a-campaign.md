@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 중앙 연산자는 순서를 편집할 수 있습니다. 다음 두 가지 방법으로 이 작업을 수행할 수 있습니다.
 
-1. 연산자는 주문 이름을 클릭하여 편집할 수 있습니다.주문 세부 사항이 표시됩니다.
+1. 연산자는 주문 이름을 클릭하여 편집할 수 있습니다.주문 세부 정보가 표시됩니다.
 
    ![](assets/mkg_dist_catalog_op_command_edit1.png)
 
