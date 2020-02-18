@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+source-git-commit: 4a71d93e7e3284eaeb36b3536204474947d695f5
 
 ---
 
@@ -36,7 +36,11 @@ Adobe Campaign에서 이메일 또는 랜딩 페이지를 편집하는 동안 AE
 * Adobe Experience Manager **게시** 인스턴스입니다.
 * Adobe Campaign 인스턴스.
 
-Adobe Campaign은 Adobe Experience Manager 6.1, 6.2, 6.3 및 6.4와 호환됩니다.다음 섹션에서는 통합에 대한 개요를 제공합니다.
+Adobe Campaign은 Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 및 6.5와 호환됩니다.다음 섹션에서는 통합에 대한 개요를 제공합니다.
+
+>[!NOTE]
+>
+>Adobe Campaign Classic 템플릿은 Adobe Experience Manager 6.5에서 더 이상 사용할 수 없습니다.
 
 자세한 내용은 Adobe Experience Manager 버전에 제공된 설명서를 참조하십시오.
 
@@ -44,4 +48,4 @@ Adobe Campaign은 Adobe Experience Manager 6.1, 6.2, 6.3 및 6.4와 호환됩니
 * [Adobe Experience Manager 6.2의 경우 여기를 클릭하십시오.](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/campaign/campaignonpremise.html)
 * [Adobe Experience Manager 6.3을 보려면 여기를 클릭하십시오.](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/campaignonpremise.html)
 * [Adobe Experience Manager 6.4의 경우 여기를 클릭하십시오.](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html)
-
+* [Adobe Experience Manager 6.5를 이용하려면 여기를 클릭하십시오.](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html)
