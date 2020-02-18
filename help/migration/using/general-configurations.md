@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -37,7 +37,7 @@ v6.02에서 &quot;복수 시간대&quot; 모드는 PostgreSQL 데이터베이스
 
 TIMEZONE을 사용하는 TIMESTAMP 모드를 사용하려면 **-userTimestamptz:1** 옵션을 업그레이드 후 명령줄에 추가해야 합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >호환되지 않는 **데이터베이스 엔진과 함께 -usetimestamptz:1** 매개 변수를 사용하는 경우 데이터베이스가 손상되며 데이터베이스 백업을 복원하고 위의 명령을 다시 실행해야 합니다.
 
@@ -87,7 +87,7 @@ TIMEZONE을 사용하는 TIMESTAMP 모드를 사용하려면 **-userTimestamptz:
 
 ### 보안 영역 {#security-zones}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >보안상의 이유로 Adobe Campaign 플랫폼에 더 이상 기본적으로 액세스할 수 없습니다.보안 영역을 구성해야 하므로 연산자 IP 주소를 수집해야 합니다.
 
@@ -107,7 +107,7 @@ v7에서 **내부** 및 **관리자** 연산자 연결은 암호로 보호되어
 nlserver config -internalpassword
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >모든 추적 서버에 대해 **내부** 암호가 동일해야 합니다. 자세한 내용은 [이 섹션](../../installation/using/campaign-server-configuration.md#internal-identifier) 및 [이 섹션을](../../platform/using/access-management.md#about-permissions)참조하십시오.
 
@@ -170,7 +170,7 @@ v5에서 **세션 토큰** 매개 변수는 두 클라이언트측 모두에서 
 /nl/jsp/logon.jsp?login=<trusted login>&action=submit&target=/view/recipientOverview
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >신뢰할 수 있는 IP 마스크와 연결된 연산자를 사용하는 경우 최소 권한이 있는지, 그리고 sessionTokenOnly **모드의 보안 영역에 있는지 확인하십시오** .
 
@@ -178,7 +178,7 @@ v5에서 **세션 토큰** 매개 변수는 두 클라이언트측 모두에서 
 
 알 수 없는 SQL 함수 호출이 더 이상 서버로 자연스럽게 전송되지 않습니다. 현재 모든 SQL 함수를 **xtk:funcList** 스키마에 추가해야 합니다(자세한 내용은 [이 섹션을](../../configuration/using/adding-additional-sql-functions.md)참조하십시오). 마이그레이션할 때 업그레이드 후 업그레이드 시 선언되지 않은 이전 SQL 함수와 호환성을 유지할 수 있는 옵션이 추가됩니다. 이러한 함수를 계속 사용하려면 XtkPassUnknownSQLFunitsToRDBMS **** 옵션이 실제로 **[!UICONTROL Administration > Platform > Options]** 노드 수준에서 정의되어 있는지 확인하십시오.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >보안 위험 때문에 이 옵션을 사용하지 않는 것이 좋습니다.
 
@@ -460,7 +460,7 @@ Aggregate function(collection)
 * **[!UICONTROL Accept the new version]**:사용자가 Adobe Campaign과 함께 제공된 리소스를 변경하지 않은 경우 권장합니다.
 * **[!UICONTROL Keep the current version]**:은 업데이트가 거부됨을 의미합니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    이 해상도 모드를 선택하면 새 버전에서 패치가 손실될 위험이 있습니다. 따라서 이 옵션은 전문가 연산자만 사용하거나 예약하지 않는 것이 좋습니다.
 
 충돌을 수동으로 해결하도록 선택한 경우 다음과 같이 진행하십시오.
@@ -506,7 +506,7 @@ $(XTK_INSTALL_DIR)/tomcat-7/lib/el-api.jar
 
 v7에서 오퍼 컨텐츠가 이동되었습니다. v6.02에서 컨텐츠는 각 표현 스키마에 있었습니다(**nms:emailOfferView**). v7에서 컨텐츠는 이제 오퍼 스키마에 있습니다. 업그레이드 후 콘텐츠가 인터페이스에 표시되지 않으므로 업그레이드 후 오퍼 컨텐츠를 다시 만들거나 컨텐츠를 표현 스키마에서 오퍼 스키마로 자동으로 이동하는 스크립트를 개발해야 합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 구성된 오퍼를 사용하는 일부 배달이 마이그레이션 후 전송되도록 한 경우, v7에서 이러한 모든 제공을 삭제하고 다시 생성해야 합니다. 이렇게 할 수 없는 경우 &quot;호환성 모드&quot;가 제공됩니다. 이 모드는 Interaction v7의 모든 새로운 기능을 사용하지 않으므로 권장되지 않습니다. 이것은 실제 6.1 마이그레이션 전에 진행 중인 캠페인을 완료할 수 있는 전환 모드입니다. 이 모드에 대한 자세한 내용은 Adobe에 문의하십시오.
 
 이동 스크립트(interactionTo610_**full_XX.js**)의 예는 Adobe Campaign v7 폴더 **내의 마이그레이션** 폴더에서 사용할 수 있습니다. 이 파일은 오퍼당 하나의 이메일 표현을 사용하는 클라이언트에 대한 스크립트( **[!UICONTROL htmlSource]** 및 **[!UICONTROL textSource]** 필드)의 예를 보여줍니다. NmsEmailOfferView **테이블에 있던** 컨텐츠가 오퍼 테이블로 이동되었습니다.
