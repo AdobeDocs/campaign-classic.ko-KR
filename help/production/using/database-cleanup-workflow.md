@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5813af76e3cad16d9094a19509dcb855e36c01f
+source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ---
 
@@ -152,13 +152,13 @@ source-git-commit: d5813af76e3cad16d9094a19509dcb855e36c01f
 
       여기서 **$(l)** 은 배달의 식별자입니다.
 
-   * 배달 로그 테이블(**NmsBroadlogXxx**)에서 대량 삭제가 10,000개의 레코드로 일괄 실행됩니다.
-   * 오퍼 제안 표(**NmsProvisionXxx**)에서는 대량 삭제가 10,000개의 레코드로 일괄적으로 실행됩니다.
-   * 추적 로그 테이블(**NmsTrackinglogXxx**)에서 대량 삭제가 5,000개의 레코드로 일괄 실행됩니다.
-   * 배달 조각 테이블(**NmsDeliveryPart**)에서 대량 삭제가 5,000개의 레코드 배치로 실행됩니다. 이 표에는 제공할 나머지 메시지에 대한 개인화 정보가 포함되어 있습니다.
-   * 미러 페이지 데이터 조각 테이블(**NmsMirrorPageInfo**)에서 대량 삭제가 5,000개의 레코드로 일괄적으로 실행됩니다. 이 표에는 미러 페이지 생성에 사용되는 모든 메시지에 대한 개인화 정보가 수록되어 있습니다.
-   * 미러 페이지 검색 테이블(**NmsMirrorPageSearch**)에서 대량 삭제가 5,000개의 레코드로 일괄 실행됩니다. 이 표는 NmsMirrorPageInfo 테이블에 저장된 개인화 정보에 대한 액세스를 제공하는 검색 **색인입니다** .
-   * 일괄 처리 로그 테이블(**XtkJobLog**)에서 대량 삭제가 5,000개의 레코드로 일괄 실행됩니다. 이 표에는 삭제할 배달 로그가 포함되어 있습니다.
+   * 배달 로그 테이블(**NmsBroadlogXxx**)에서 대량 삭제가 20,000개의 레코드로 일괄 실행됩니다.
+   * 오퍼 제안 표(**NmsProvisionXxx**)에서는 대량 삭제가 20,000개의 레코드로 일괄 실행됩니다.
+   * 추적 로그 테이블(**NmsTrackinglogXxx**)에서 대량 삭제가 20,000개의 레코드로 일괄 실행됩니다.
+   * 배달 조각 테이블(**NmsDeliveryPart**)에서 대량 삭제가 500,000개의 레코드로 일괄 실행됩니다. 이 표에는 제공할 나머지 메시지에 대한 개인화 정보가 포함되어 있습니다.
+   * 미러 페이지 데이터 조각 테이블(**NmsMirrorPageInfo**)에서 만료된 배달 부품 및 완료 또는 취소된 부품의 경우 대량 삭제가 20,000개의 레코드로 일괄적으로 실행됩니다. 이 표에는 미러 페이지 생성에 사용되는 모든 메시지에 대한 개인화 정보가 수록되어 있습니다.
+   * 미러 페이지 검색 테이블(**NmsMirrorPageSearch**)에서 대량 삭제가 20,000개의 레코드로 일괄 실행됩니다. 이 표는 NmsMirrorPageInfo 테이블에 저장된 개인화 정보에 대한 액세스를 제공하는 검색 **색인입니다** .
+   * 일괄 처리 로그 테이블(**XtkJobLog**)에서 대량 삭제가 20,000개의 레코드로 일괄 실행됩니다. 이 표에는 삭제할 배달 로그가 포함되어 있습니다.
    * 배달 URL 추적 테이블(**NmsTrackingUrl**)에서 다음 쿼리가 사용됩니다.
 
       ```
@@ -576,6 +576,26 @@ DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FRO
    DROP TABLE wkSimu_456831_aggr
    ```
 
+### 감사 추적 정리 {#cleanup-of-audit-trail}
+
+다음 쿼리가 사용됩니다.
+
+```
+DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
+```
+
+여기서 **$(tsDate)** 는 XtkCleanup_AuditTrailPurgeDelay 옵션에 대해 정의된 기간이 **적용되는** 현재 서버 날짜입니다.
+
+### Nmsaddress 정리 {#cleanup-of-nmsaddress}
+
+다음 쿼리가 사용됩니다.
+
+```
+DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WHERE iStatus=STATUS_QUARANTINE AND tsLastModified < $(NmsCleanup_AppSubscriptionRcpPurgeDelay + 5d) AND iType IN (MESSAGETYPE_IOS, MESSAGETYPE_ANDROID ) LIMIT 5000)
+```
+
+이 쿼리는 iOS 및 Android와 관련된 모든 항목을 삭제합니다.
+
 ### 통계 업데이트 및 스토리지 최적화 {#statistics-update}
 
 XtkCleanup **_NoStats** 옵션을 사용하면 정리 워크플로의 저장소 최적화 단계의 동작을 제어할 수 있습니다.
@@ -590,13 +610,15 @@ XtkCleanup_ **NoStats** 옵션이 없거나 값이 0인 경우 PostgreSQL의 세
 
 이 작업은 삭제된 서비스 또는 모바일 애플리케이션과 관련된 모든 가입을 삭제합니다.
 
-1. 브로드로그 스키마 목록을 복구하려면 다음 쿼리가 사용됩니다.
+브로드로그 스키마 목록을 복구하려면 다음 쿼리가 사용됩니다.
 
-   ```
-   SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL
-   ```
+```
+SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL
+```
 
-1. 그런 다음 작업은 appSubscription 링크에 연결된 테이블의 이름을 **복구한** 후 해당 표를 삭제합니다.
+그런 다음 작업은 appSubscription 링크에 연결된 테이블의 이름을 **복구한** 후 해당 표를 삭제합니다.
+
+또한 이 정리 워크플로우는 NmsCleanup_AppSubscriptionRcpPurgeDelay 옵션에 설정된 시간 이후에 업데이트되지 않은 **비활성화 = 1인 모든 항목을 삭제합니다** .
 
 ### 세션 정보 정리 {#cleansing-session-information}
 
@@ -613,13 +635,3 @@ XtkCleanup_ **NoStats** 옵션이 없거나 값이 0인 경우 PostgreSQL의 세
 ### 정화 반응 {#cleansing-reactions}
 
 이 작업은 가설이 삭제된 **반응(표 NmsRemaMatchRcp**)을 지웁니다.
-
-### 감사 추적 정리 {#cleanup-of-audit-trail}
-
-다음 쿼리가 사용됩니다.
-
-```
-DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
-```
-
-여기서 **$(tsDate)** 는 XtkCleanup_AuditTrailPurgeDelay 옵션에 대해 정의된 기간이 **적용되는** 현재 서버 날짜입니다.
