@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
 
@@ -135,13 +135,14 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 >각 유형의 링크에 대해 열기 모드를 구성할 수 있습니다.타겟 드롭다운 목록에서 타겟 **창을** 선택합니다. 이 값은 HTML **`<target>`** 태그에 해당합니다.
 >
 >사용 가능한 **타겟** 목록은 다음과 같습니다.
-
+>
 >* 기타(IFrame)
 >* 위쪽 창(_top)
-* 상위 창(_parent)
-* 새 창(_Blank)
-* 현재 창(_self)
-* 기본 브라우저 동작
+>* 상위 창(_parent)
+>* 새 창(_Blank)
+>* 현재 창(_self)
+>* 기본 브라우저 동작
+>
 
 
 
@@ -170,7 +171,8 @@ URL 필드에 문제의 링크 주소를 **입력합니다** . URL 필드는 다
 ![](assets/dce_toolbar_imgblock_action.png)
 
 >[!NOTE]
-사용 가능한 작업은 단추에 [작업](#adding-an-action-to-a-button) 추가 섹션에서 자세히 설명합니다.
+>
+>사용 가능한 작업은 단추에 [작업](#adding-an-action-to-a-button) 추가 섹션에서 자세히 설명합니다.
 
 ### 링크 삭제 {#delete-a-link}
 
@@ -180,7 +182,8 @@ URL 필드에 문제의 링크 주소를 **입력합니다** . URL 필드는 다
 * **[!UICONTROL Break the link]** 확인 후 링크 및 모든 관련 매개 변수를 삭제할 수 있습니다.
 
 >[!NOTE]
-링크를 삭제해도 컨텐츠는 그대로 유지됩니다.
+>
+>링크를 삭제해도 컨텐츠는 그대로 유지됩니다.
 
 ## 글꼴 속성 변경 {#changing-font-attributes}
 
@@ -202,8 +205,10 @@ URL 필드에 문제의 링크 주소를 **입력합니다** . URL 필드는 다
 * **텍스트 색상** 아이콘 변경:선택한 블록의 텍스트 색상을 변경하거나 선택한 텍스트만 변경할 수 있습니다(`<span style="color: #CODE">`).
 
 >[!NOTE]
-* **삭제** 아이콘:블록과 모든 해당 컨텐츠를 삭제합니다.
-
+>
+>* **삭제** 아이콘:블록과 모든 해당 컨텐츠를 삭제합니다.
+   >
+   >
 * **복제** 아이콘:블록과 관련된 모든 스타일과 함께 블록을 복제합니다.
 
 
@@ -223,7 +228,8 @@ DCE와 호환하려면 **&quot;Flash&quot; 유형 애니메이션을** HTML 페�
 ```
 
 >[!CAUTION]
-HTML 페이지의 **스크립트** 태그로 외부 파일을 호출해서는 안 됩니다. 이러한 파일은 Adobe Campaign 서버로 가져오지 않습니다.
+>
+>HTML 페이지의 **스크립트** 태그로 외부 파일을 호출해서는 안 됩니다. 이러한 파일은 Adobe Campaign 서버로 가져오지 않습니다.
 
 ### 이미지 추가/삭제/복제 {#adding---deleting---duplicating-an-image}
 
@@ -240,7 +246,8 @@ HTML 페이지의 **스크립트** 태그로 외부 파일을 호출해서는 �
 [ **복제** ] 아이콘은 ![]() 태그와 해당 컨텐츠를 복제합니다.
 
 >[!CAUTION]
-이미지를 복제하면 새 이미지와 관련된 식별자가 삭제됩니다.
+>
+>이미지를 복제하면 새 이미지와 관련된 식별자가 삭제됩니다.
 
 ### 이미지 속성 편집 {#editing-image-properties}
 
