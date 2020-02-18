@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -46,7 +46,7 @@ Nlserver javascript -instance:[instance_name] -file [installation_path]/datakit/
 
 ## 사용자 친화성:홈 페이지 및 탐색 {#user-friendliness--home-page-and-navigation}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >v6.02 개요 형식의 웹 응용 프로그램을 계속 사용하려면 업그레이드 후 업그레이드 전에 다른 보안 영역에서 **allowSQLInjection** 옵션을 활성화해야 합니다. 웹 [애플리케이션을](#web-applications)참조하십시오.
 
