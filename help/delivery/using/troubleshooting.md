@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
 
 ---
 
@@ -37,4 +37,4 @@ HTTP/2 커넥터:다음 서버와의 통신을 허용해야 합니다.
 
 >[!NOTE]
 >
->두 커넥터에 대한 자세한 내용은 커넥터를 [참조하십시오](../../delivery/using/setting-up-mobile-app-channel.md#connectors).
+>두 커넥터에 대한 자세한 내용은 Adobe Campaign에서 [모바일 애플리케이션 구성을 참조하십시오](../../delivery/using/configuring-the-mobile-application.md).
