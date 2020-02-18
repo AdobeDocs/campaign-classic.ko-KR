@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 ---
 
@@ -34,6 +34,6 @@ Apache 사용자가 제공된 **apache_neolane.conf를 사용할 경우 영향�
 
 IIS 사용자(Windows의 경우)의 경우 빌드 업데이트 후 콘솔에 몇 가지 아이콘이 누락된 것으로 나타납니다. 추가 IIS 업데이트 단계는 다음과 같습니다.
 
-1. 빌드 업데이트 후 Campaign 설치 디렉토리에 있는 **iis_neolane_setup.vbs** 를 두 번 클릭합니다. 기본 경로는 C:Program Files (x86)AdobeAdobe Campaign v7tomcat-7conf입니다.
+1. 빌드 업데이트 후 Campaign 설치 디렉토리에 있는 **iis_neolane_setup.vbs** 를 두 번 클릭합니다. 기본 경로는 C:\Program Files (x86)\Adobe\Adobe Campaign v7\tomcat-7\conf입니다.
 1. 이전 단계에서 업데이트된 IIS 사이트를 다시 시작합니다.
 
