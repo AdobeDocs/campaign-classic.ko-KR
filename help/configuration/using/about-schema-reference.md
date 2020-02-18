@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5130802f3723311bcd09e21fc405d298923dd20e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -79,7 +79,7 @@ Campaign 기본 제공 테이블 및 상호 작용에 대한 자세한 내용은
 
 네임스페이스를 사용하면 관심 영역별로 스키마 집합을 그룹화할 수 있습니다. 예를 들어 **1** 차 네임스페이스는 고객별 구성(**고객**)에 사용됩니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >표준으로서, 네임스페이스의 이름은 간결해야 하며 XML 이름 지정 규칙에 따라 인증된 문자만 포함해야 합니다.
 >
