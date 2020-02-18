@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign 애플리케이션 서버는 점차 다양해지고 복잡해지�
 
 Adobe Campaign API는 애플리케이션 내의 JavaScript와 애플리케이션 외부의 SOAP에서 사용됩니다. 이들은 농축될 수 있는 일반 함수의 라이브러리를 구성합니다. 자세한 내용은 SOAP [메서드](../../configuration/using/implementing-soap-methods.md)구현을 참조하십시오.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >공인 엔진 호출 수는 라이선스 계약에 따라 다릅니다. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).\
 >전체 설명을 포함한 모든 API 목록은 [이 전용 설명서에서](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)확인할 수 있습니다.
@@ -154,7 +154,7 @@ SOAP 메시지 본문에 있는 `<soap-env:fault>` 요소는 웹 서비스를 �
 
 요소가 확인되면 서비스 호출의 성공 또는 실패가 `<faultcode>` 식별됩니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >모든 Adobe Campaign 웹 서비스가 오류를 처리합니다. 따라서 반환된 오류를 처리하기 위해 각 호출을 테스트하는 것이 좋습니다.
 
