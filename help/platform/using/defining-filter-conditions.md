@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
+source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
 
 ---
 
@@ -267,7 +267,7 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 >* 사이드 아이콘 막대 위에 있는 **[!UICONTROL Add]** 단추를 사용하여 표현식을 편집할 출력 열을 추가합니다. 표현식 편집에 대한 자세한 내용은 표현식 [작성을 참조하십시오](#building-expressions).
 >* 빨간색 &#39;x&#39;(삭제)를 클릭하여 출력 열을&#x200B;**삭제합니다**.
 >* 화살표를 사용하여 출력 열의 순서를 변경합니다.
->* 이 **[!UICONTROL Distribution of values]** 기능은 선택한 필드의 값(예: 수신자 도시, 수신자 언어 등에 연결된 배포)을 배포하는 방법을 보여 줍니다.
+>* 이 **[!UICONTROL Distribution of values]** 방법은 선택한 필드의 값(예: 수신자 도시, 수신자 언어 등에 연결된 배포)을 보는 방법입니다.
 
 
 ## 계산된 필드 만들기 {#creating-calculated-fields}
