@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
+source-git-commit: c25e2a4f2280cdcc61e0522f8235149410b5dacf
 
 ---
 
@@ -32,13 +32,12 @@ Adobe Campaign의 다른 구성 요소와의 연결을 사용할 수 있는 한 
 
 기본 클라이언트는 Adobe Campaign 애플리케이션 서버에 설치되어 있어야 합니다.
 
-ODBC 드라이버 구성 패널, SQL Native Client(Microsoft SQL Server 2005 **클라이언트** ) 또는 SQL Server **Native Client 10.0** (Microsoft SQL Server 2008 및 2008 R2 클라이언트), 또는 **SQL Server Native Client 11.0** (Microsoft SQL Server 2012 클라이언트용)
+ODBC 드라이버 구성 패널에서 SQL Server Native Client 10.0 **(Microsoft SQL Server 2008 및 2008 R2 클라이언트의** 경우) 또는 SQL Server **Native Client 11.0** (Microsoft SQL Server 20의 경우)을 통해 서버의 기본 클라이언트를 확인할 수 있습니다. 2014, 2016 및 2017 클라이언트).
 
 다음 액세스 DLL이 있어야 합니다.
 
-* **microsoft SQL Server** 2005 클라이언트,
 * **microsoft SQL Server** 2008 및 2008 R2 클라이언트용 sqlncli10.dll,
-* **microsoft SQL Server 2012** 클라이언트용 sqlncli11.dll
+* **microsoft SQL Server 2012, 2014, 2016 및 2017 클라이언트에 대한 sqlncli11.dll** .
 
    액세스 DLL은 Microsoft 웹 사이트에서 찾을 수 있습니다.
 
