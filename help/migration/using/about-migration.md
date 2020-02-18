@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -28,11 +28,10 @@ source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
 
 마이그레이션이 원활하고 오류 없이 실행되는지 확인하려면 개발 환경에서 미리 테스트해야 합니다. 프로덕션 환경 마이그레이션은 마이그레이션된 개발 환경이 완전히 승인된 경우에만 수행해야 합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >마이그레이션을 시작하기 전에 이 안내서를 **전체적으로**&#x200B;읽어야 합니다.
 
 >[!NOTE]
 >
 >Adobe Campaign v7의 새로운 기능 및 개선 사항은 [이 페이지에서](https://docs.campaign.adobe.com/doc/AC/en/RN.html)자세히 설명합니다.
-
