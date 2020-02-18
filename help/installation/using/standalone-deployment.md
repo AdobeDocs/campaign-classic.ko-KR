@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
+source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
 
 ---
 
@@ -181,7 +181,7 @@ source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
    * Linux의 경우:Linux [용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-linux.md)
    * Windows의 경우:Windows [용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. 웹 사이트를 시작하고 URL을 사용하여 리디렉션을 테스트합니다.https://tracking.campaign.net/r/test [](https://tracking.campaign.net/r/test).
+1. 웹 사이트를 시작하고 URL을 사용하여 리디렉션을 테스트합니다.https://tracking.campaign.net/r/test.
 
    브라우저에 다음 메시지가 표시되어야 합니다.
 
@@ -196,6 +196,10 @@ source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
 
 1. Adobe Campaign 서버(Windows에서&#x200B;**net start nlserver6** , **/etc/init.d/nlserver6 start** in Linux)를 시작하고 명령 **nlserver dump** 를 한 번 더 실행하여 활성화된 모든 모듈이 있는지 확인합니다.
 
+   >[!NOTE]
+   >
+   >20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
+
    ```
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    syslogd@default (7611) - 9.2 MB
@@ -209,7 +213,7 @@ source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
 
    또한 컴퓨터에 설치된 Adobe Campaign 서버의 버전 및 빌드 번호를 알 수 있습니다.
 
-1. URL을 **사용하여 Nlserver 웹** 모듈을 테스트합니다. [https://console.campaign.net/nl/jsp/logon.jsp](https://tracking.campaign.net/r/test)
+1. URL을 **사용하여 Nlserver 웹** 모듈을 테스트합니다.https://console.campaign.net/nl/jsp/logon.jsp
 
    이 URL을 사용하면 클라이언트 설정 프로그램의 다운로드 페이지에 액세스할 수 있습니다.
 
@@ -222,7 +226,7 @@ source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
    * Linux의 경우:Linux [용 클라이언트 콘솔 가용성](../../installation/using/client-console-availability-for-linux.md)
    * Windows의 경우:Windows [용 클라이언트 콘솔 가용성](../../installation/using/client-console-availability-for-windows.md)
 
-1. Adobe Campaign 클라이언트 콘솔을 시작(이전 다운로드 페이지에서 또는 Windows 설치의 경우 서버에서 직접 실행)하고 서버 연결 URL을 [https://console.campaign.net](https://console.campaign.net) 으로 설정하고 **내부** 로그인을 사용하여 연결합니다.
+1. Adobe Campaign 클라이언트 콘솔을 시작(이전 다운로드 페이지에서 또는 Windows 설치의 경우 서버에서 직접 실행)하고, 서버 연결 URL을 https://console.campaign.net으로 설정하고 **내부** 로그인을 사용하여 연결합니다.
 
    인스턴스 [만들기 및 로그온](../../installation/using/creating-an-instance-and-logging-on.md) 및 내부 식별자를 [참조하십시오](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
