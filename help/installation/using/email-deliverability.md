@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0291f464c2b4db51e1e56cefe83aa9e751e680a9
+source-git-commit: 21d808695bfde2fb3220964c066558ad30952443
 
 ---
 
@@ -28,7 +28,8 @@ source-git-commit: 0291f464c2b4db51e1e56cefe83aa9e751e680a9
 
 >[!NOTE]
 >
->일부 구성은 Adobe가 호스팅하는 배포를 위해서만 수행할 수 있습니다. 예를 들어 서버 및 인스턴스 구성 파일에 액세스하려면 다른 배포에 대한 자세한 내용은 호스팅 모델 [섹션](../../installation/using/hosting-models.md) 또는 [이 문서를](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)참조하십시오.
+>일부 구성은 Adobe가 호스팅하는 배포를 위해서만 수행할 수 있습니다. 예를 들어 서버 및 인스턴스 구성 파일에 액세스하려면 다른 배포에 대한 자세한 내용은 호스팅 모델 [섹션](../../installation/using/hosting-models.md) 또는 [이 문서를](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)참조하십시오.\
+>제공 능력과 관련된 개념과 모범 사례를 설명하는 [시작 안내서를](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 참조하십시오.
 
 제공 능력과 관련된 개념과 우수 사례에 대한 자세한 내용은 이 [섹션을](../../delivery/using/about-deliverability.md)참조하십시오.
 
@@ -379,19 +380,24 @@ Adobe Campaign 플랫폼(데이터베이스 포함)을 구성하는 모든 서�
 
 * **주소**:이것은 사용할 MTA 호스트 시스템의 IP 주소입니다.
 * **heloHost**:이 식별자는 SMTP 서버에서 볼 수 있는 IP 주소를 나타냅니다.
+
 * **publicId**:이 정보는 NAT 라우터 뒤에 있는 여러 Adobe Campaign **태그가** IP 주소를 공유할 때 유용합니다. 통계 서버는 이 식별자를 사용하여 이 시작점과 대상 서버 사이의 연결을 기억하고 통계를 전송합니다.
 * **두께**:주소의 사용 상대 빈도를 정의할 수 있습니다. 기본적으로 모든 주소의 가중치는 1입니다.
 
-   앞의 예에서 일반적인 조건에서 주소는 다음과 같이 배포됩니다.
+>[!NOTE]
+>
+>serverConf.xml 파일에서 하나의 IP가 고유 식별자(public_id)가 있는 단일 도움말 호스트에 해당하는지 확인해야 합니다. 여러 도움말 호스트에 매핑할 수 없으므로 배달 제한 문제가 발생할 수 있습니다.
 
-   * &quot;1&quot;: 5 / (5+5+1) = 45%
-   * &quot;2&quot;: 5 / (5+5+1) = 45%
-   * &quot;3&quot;: 1 / (5+5+1) = 10%
-   예를 들어, 지정된 MX에 첫 번째 주소를 사용할 수 없는 경우 다음과 같이 메시지가 전송됩니다.
+앞의 예에서 일반적인 조건에서 주소는 다음과 같이 배포됩니다.
 
-   * &quot;2&quot;: 5 / (5+1) = 83%
-   * &quot;3&quot;: 1 / (5+1) = 17%
+    * &quot;1&quot;: 5 / (5+5+1) = 45%
+    * &quot;2&quot;: 5 / (5+5+1) = 45%
+    * &quot;3&quot;: 1 / (5+5+1) = 10%
 
+예를 들어, 지정된 MX에 첫 번째 주소를 사용할 수 없는 경우 다음과 같이 메시지가 전송됩니다.
+
+    * &quot;2&quot;: 5 / (5+1) = 83%
+    * &quot;3&quot;: 1 / (5+1) = 17%
 
 * **includeDomain**:특정 도메인에 속하는 이메일에 대해 이 IP 주소를 예약할 수 있습니다. 하나 이상의 와일드카드(&#39;*&#39;)를 포함할 수 있는 마스크 목록입니다. 속성을 지정하지 않으면 모든 도메인이 이 IP 주소를 사용할 수 있습니다.
 
