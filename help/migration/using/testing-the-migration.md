@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f8a13e3788b99ff4214e00dec1f88fdef0cb964
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: 4f8a13e3788b99ff4214e00dec1f88fdef0cb964
 
 1. 개발 환경의 마이그레이션이 성공하면 프로덕션 환경을 마이그레이션할 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >데이터 구조의 변경 사항으로 인해 v5 플랫폼과 v7 플랫폼 간에는 데이터 패키지를 가져오거나 내보낼 수 없습니다.
 
