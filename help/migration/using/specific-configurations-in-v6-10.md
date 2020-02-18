@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 305906f001203f1922266ab370fcc942458f9e8d
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 305906f001203f1922266ab370fcc942458f9e8d
 
 6.10 플랫폼에서 마이그레이션하는 중이며 클라이언트 콘솔이 8104 빌드보다 오래된 경우 업데이트해야 합니다. 마이그레이션하기 전에 이 작업을 수행하지 않으면 다시 연결할 때 클라이언트 콘솔을 업데이트하라는 메시지가 표시됩니다. 클릭 **[!UICONTROL Yes]**.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >업데이트를 거부하면 연결할 수 없습니다.
 
