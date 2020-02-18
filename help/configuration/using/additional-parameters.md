@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Campaign 플랫폼은 표준으로 두 개의 TRANSACTION 유형 웹 추�
 
 서버 구성에서 웹 추적 매개 변수에 사용할 최대 문자 수를 정의할 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >고려해야 할 최대 문자 수를 늘리면 플랫폼의 웹 추적 성능에 영향을 줄 수 있습니다.
 
@@ -76,15 +76,25 @@ webTrackingParamSize="64"/>
 
 * 리디렉션 모듈(Apache, IIS 등)을 호스팅하는 웹 서버를 중지합니다.
 * Adobe Campaign 서버를 중지합니다.Windows의 **net stop nlserver6** , **/etc/init.d/nlserver6 stop** in Linux,
+
+   >[!NOTE]
+   >
+   >20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl stop nlserver**
+
 * Linux에서 ipcrm **명령을 사용하여 공유 메모리** 세그먼트를 삭제합니다.
 * Adobe Campaign 서버를 다시 시작합니다.Windows의 **net start nlserver6** , **/etc/init.d/nlserver6** , Linux에서 시작
+
+   >[!NOTE]
+   >
+   >20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
+
 * 웹 서버를 다시 시작합니다.
 
 **예**:Linux에서 구성을 고려합니다.
 
 ```
-adobe@selma:~$ /etc/init.d/nlserver6 stop
-adobe@selma:~$ /etc/init.d/apache stop
+adobe@selma:~$ systemctl stop nlserver
+adobe@selma:~$ systemctl stop apache2
 adobe@selma:~$ ipcs shm
 
 ------ Shared Memory Segments --------
@@ -100,8 +110,8 @@ key        msqid      owner      perms      used-bytes   messages
 
 adobe@selma:~$ ipcrm shm 2097153                             
 1 resource(s) deleted
-adobe@selma:~$ /etc/init.d/nlserver6 start
-adobe@selma:~$ /etc/init.d/apache start
+adobe@selma:~$ systemctl start nlserver
+adobe@selma:~$ systemctl start apache2
 ```
 
 >[!NOTE]
