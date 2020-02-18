@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
 워크플로우 [자동화](../../workflow/using/executing-a-workflow.md#architecture) 안내서에는 워크플로우 모듈의 작동 방식에 대한 자세한 설명이 포함되어 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >동일한 캠페인에서 28개 이상의 워크플로우를 설정할 수 없습니다. 이 제한을 지나면 인터페이스에 추가 워크플로우가 표시되지 않고 오류가 발생할 수 있습니다.
 
@@ -233,7 +233,7 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
    ![](assets/s_ncs_user_edit_op_target_del.png)
 
 1. 탭을 **[!UICONTROL Control group]** 클릭한 다음 **[!UICONTROL Enable and edit control group configuration]**&#x200B;선택합니다.
-1. 제어 그룹을 **[!UICONTROL Edit...]** 구성하려면 클릭하십시오.
+1. 을 **[!UICONTROL Edit...]** 클릭하여 제어 그룹을 구성합니다.
 
 구성 절차는 기본 대상에서 [제어 그룹 추출](#extracting-the-control-group-from-the-main-target) 및 [모집단](#adding-a-population)추가에서 제공됩니다.
 
@@ -353,7 +353,7 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
 다양한 문서를 캠페인에 연결할 수 있습니다.보고서, 사진, 웹 페이지, 다이어그램 등 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 사용할 수 있습니다. 문서와 캠페인을 연결하려면 문서 [추가를 참조하십시오](#adding-documents).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이 모드는 작은 문서용으로 예약되어 있습니다.
 
