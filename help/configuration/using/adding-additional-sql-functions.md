@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Campaign 콘솔에서 아직 제공되지 않는 최신 데이터베이스
 
 이러한 함수가 추가되면 미리 정의된 다른 함수와 마찬가지로 표현식 편집기에 나타납니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >콘솔의 SQL 함수 호출은 더 이상 자연스럽게 서버로 전송되지 않습니다. 따라서 여기에 설명된 메커니즘은 계획되지 않은 **SQL 함수 서버에서 호출하는** 유일한 방법이 됩니다.
 
@@ -40,7 +40,7 @@ Adobe Campaign 콘솔에서 아직 제공되지 않는 최신 데이터베이스
 
 콘솔에서 설치하려면 메뉴에서 도구/ **고급/가져오기 패키지** 옵션을 선택한 다음 **[!UICONTROL Install from file]** 을 선택하고 가져오기 마법사의 지침을 따릅니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >경고:가져온 함수 목록이 함수 편집기에 바로 표시되더라도 Adobe Campaign을 다시 시작해야 사용할 수 있습니다.
 
@@ -92,7 +92,7 @@ Adobe Campaign 콘솔에서 아직 제공되지 않는 최신 데이터베이스
      name="window"          ( label="Windowing functions" )
    ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >@label 속성을 완료해야 합니다.사용 가능한 함수 목록에 표시될 이름입니다. 아무 것도 입력하지 않으면 그룹에 이름이 없습니다. 그러나 기존 이름 이외의 이름을 입력하면 전체 그룹 이름이 변경됩니다.
 
