@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 954018e1016fc924064bd795066f80704499f6a7
 
 ---
 
@@ -417,7 +417,7 @@ wfserver@prod
 
 #### /nl/jsp/monitor.jsp {#nl-jsp-monitor-jsp}
 
-운영자가 웹 페이지를 통해 Adobe Campaign 서버에 액세스할 수 있는지 확인하는 테스트입니다.클라이언트 콘솔 메뉴를 통해 액세스한 것과 동일한 웹 페이지. 감시 도구(Tivoli, Nagios 등)에 포함하는 것이 좋습니다.
+운영자가 웹 페이지를 통해 Adobe Campaign 서버에 액세스할 수 있는지 확인하는 테스트입니다.클라이언트 콘솔 메뉴를 통해 액세스한 것과 동일한 웹 페이지. 감시 도구(Tivoli, Nagios 등)에서 이 페이지를 호출할 수 있습니다.
 
 ![](assets/ncs_monitoring_web.png)
 
