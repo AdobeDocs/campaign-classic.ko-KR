@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -304,7 +304,7 @@ XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정하�
 
 ACC 18.10에서 **XtkNewId** 는 더 이상 기본 스키마에서 시퀀스의 기본값이 아닙니다. 이제 스키마를 만들거나 전용 시퀀스로 기존 스키마를 확장할 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >새 스키마를 만들거나 스키마 확장 중에 전체 스키마에 대해 동일한 기본 키 시퀀스 값(@pkSequence)을 유지해야 합니다.
 
@@ -346,7 +346,7 @@ ACC 18.10에서 **XtkNewId** 는 더 이상 기본 스키마에서 시퀀스의 
 
 키 및 해당 인덱스의 정의 외에도 자동 생성된 기본 키를 포함하기 위해 확장 스키마에 &quot;id&quot;라는 숫자 필드가 추가되었습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >기본 키가 0으로 설정된 레코드는 테이블을 만들 때 자동으로 삽입됩니다. 이 레코드는 볼륨 테이블에 적용되지 않는 외부 조인을 피하는 데 사용됩니다. 기본적으로 모든 외래 키는 값 0으로 초기화되므로 데이터 항목이 채워지지 않을 때 조인에서 항상 결과를 반환할 수 있습니다.
 
@@ -373,7 +373,7 @@ ACC 18.10에서 **XtkNewId** 는 더 이상 기본 스키마에서 시퀀스의 
 * ![](assets/join_fda_11.png) :카디널리티 1-1
 * ![](assets/join_fda_1m.png) :카디널리티 1-N
 
-FDA 표에 대한 자세한 내용은 외부 [데이터베이스](../../platform/using/accessing-an-external-database.md)액세스를 참조하십시오.
+FDA 표에 대한 자세한 내용은 외부 [데이터베이스](../../platform/using/about-fda.md)액세스를 참조하십시오.
 
 주 요소를 통해 연결된 테이블의 외래 키가 포함된 스키마에서 링크가 선언되어야 합니다.
 
