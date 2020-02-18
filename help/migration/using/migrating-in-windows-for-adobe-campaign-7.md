@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 Windows의 경우 마이그레이션 단계는 다음과 같습니다.
 
-1. 서비스 중지:서비스 [중지](#service-stop)참조,
+1. 서비스 중지:서비스 [중지를](#service-stop)참조하십시오.
 1. 데이터베이스 백업:데이터베이스 [및 현재 설치](#back-up-the-database-and-the-current-installation)백업을 참조하십시오.
-1. 플랫폼 마이그레이션:adobe [Campaign v7](#deploying-adobe-campaign-v7)배포를 참조하십시오.
+1. 플랫폼 마이그레이션:adobe [Campaign v7 배포를 참조하십시오](#deploying-adobe-campaign-v7).
 1. 리디렉션 서버(IIS) 마이그레이션:리디렉션 [서버(IIS)](#migrating-the-redirection-server--iis-)마이그레이션을 참조하십시오.
-1. 서비스 다시 시작:서비스 [재시작을](#re-starting-the-services)참조하십시오.
+1. 서비스 다시 시작:서비스 [다시 시작을 참조하십시오](#re-starting-the-services).
 1. 이전 Adobe Campaign 버전 삭제 및 정리:adobe [Campaign 이전 버전](#deleting-and-cleansing-adobe-campaign-previous-version)삭제 및 삭제를 참조하십시오.
 
 ## 서비스 중지 {#service-stop}
@@ -101,7 +101,7 @@ Windows의 경우 마이그레이션 단계는 다음과 같습니다.
    ren "Neolane v5" "Neolane v5.back"
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >예방 차원에서 Neolane v5.back **폴더를 압축** 해제하고 서버가 아닌 다른 곳에 저장하는 것이 좋습니다.
 
@@ -141,7 +141,7 @@ Windows의 경우 마이그레이션 단계는 다음과 같습니다.
    ren "Neolane v6" "Neolane v6.back"
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >예방 차원에서 Neolane v6.back **폴더를 압축** 해제하고 서버가 아닌 다른 곳에 저장하는 것이 좋습니다.
 
@@ -181,7 +181,7 @@ Windows의 경우 마이그레이션 단계는 다음과 같습니다.
    ren "Adobe Campaign v6" "Adobe Campaign v6.back"
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >예방 차원에서 Adobe Campaign v6.back **** 폴더를 압축한 다음 서버 이외의 안전한 위치에 저장하는 것이 좋습니다.
 
@@ -246,7 +246,7 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
    copy "Adobe Campaign v6.back"/var/* "Adobe Campaign v7"/var/
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >위의 첫 번째 명령에 대해서는 **config-default.xml** 파일을 복사하지 마십시오.
 
@@ -268,7 +268,7 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
    nlserver config -postupgrade -instance:<instance name>
    ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adobe Campaign 서비스를 아직 시작하지 마십시오.IIS에서 일부 변경을 수행해야 합니다.
 
