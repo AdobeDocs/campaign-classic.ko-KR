@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -55,7 +55,7 @@ tagid **매개 변수 값에 정보를 추가하여 웹 추적 URL을 신속하�
 tagid=<identifier>|<type>|<foldername>
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >tagid 매개 변수가 URL 매개 변수로 사용될 때 **tagid** 매개 변수의 값을 인코딩해야 합니다.
 
