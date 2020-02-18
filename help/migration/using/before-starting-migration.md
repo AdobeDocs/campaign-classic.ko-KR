@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -77,7 +77,7 @@ v7에서 **내부** 및 **관리자** 연산자 연결은 암호로 보호되어
 nlserver config -internalpassword
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >모든 추적 서버에 대해 **내부** 암호가 동일해야 합니다. 자세한 내용은 내부 식별자 [및](../../installation/using/campaign-server-configuration.md#internal-identifier) 권한 [섹션을](../../platform/using/access-management.md#about-permissions) 참조하십시오.
 
