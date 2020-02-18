@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -49,7 +49,7 @@ nms:recipient **** 스키마 수신자 테이블을 확장하려면 다음 절�
 
    이 예에서, 인덱스 필드(**정확도**)가 추가되고, 위치 **요소(** nms:recipient **스키마에 이미 존재함)가 열거된 필드(******&#x200B;영역)로 보완됩니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >확장 스키마를 참조하려면 **extendedSchema** 속성을 추가해야 합니다.
 
