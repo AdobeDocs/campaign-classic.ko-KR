@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -78,11 +78,11 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
    ![](assets/simu_campaign_opti_edit_scope_save.png)
 
-   필요한 경우 **[!UICONTROL Edit the dynamic condition...]** 링크를 통해 동적 조건을 사용할 수 있습니다
+   필요한 경우 **[!UICONTROL Edit the dynamic condition...]** 링크를 통해 동적 조건을 사용할 수 있습니다.
 
    이 구성을 **[!UICONTROL Save]** 승인하려면 클릭하십시오.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >타겟이 계산된 게재만 시뮬레이션을 계산할 때 고려됩니다(상태:Target **ready** 또는 **Ready to deliver**).
 
@@ -215,13 +215,13 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
    * **[!UICONTROL Generate target overlap statistics]** 시뮬레이션 보고서에서 모든 중복 통계를 복구할 수 있습니다. 중복은 한 시뮬레이션 내에서 두 개 이상의 게재에서 대상화된 수신자입니다.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >이 옵션을 선택하면 시뮬레이션 실행 시간이 크게 늘어납니다.
 
    * **[!UICONTROL Keep the simulation work table]** 시뮬레이션 추적을 유지할 수 있습니다.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >이러한 테이블을 자동으로 저장하려면 상당한 스토리지 용량이 필요합니다.데이터베이스가 충분히 큰지 확인하십시오.
 
