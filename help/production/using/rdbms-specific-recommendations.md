@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9662e88578747a519df2e68e5a7d7987cc3ffdd4
+source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 ---
 
@@ -368,7 +368,7 @@ Oracle 버전에 가장 적합한 절차에 대해서는 데이터베이스 관�
 
 >[!NOTE]
 >
->Microsoft SQL Server의 경우 이 [페이지에](http://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html)설명된 유지 관리 계획을 사용할 수 있습니다.
+>Microsoft SQL Server의 경우 이 [페이지에](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html)설명된 유지 관리 계획을 사용할 수 있습니다.
 
 아래 예는 Microsoft SQL Server 2005와 관련이 있습니다. 다른 버전을 사용하는 경우 데이터베이스 관리자에게 문의하여 유지 관리 절차에 대해 알아보십시오.
 
