@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: af768da6ee8cc0ca2ea1f24f297239b974c113a5
+source-git-commit: b2222b2997105801164f930428c7b05ae7d11336
 
 ---
 
@@ -86,7 +86,7 @@ Adobe에서는 **[!UICONTROL Internal name]** :보고서 액세스 URL에 사용
 
 ## 추가 설정 정의 {#defining-additional-settings}
 
-이 **[!UICONTROL Settings]** 탭에서는 보고서에 대한 추가 설정을 만들 수 있습니다.이러한 설정은 호출 중에 URL로 전달됩니다.
+이 **[!UICONTROL Parameters]** 탭에서는 보고서에 대한 추가 설정을 만들 수 있습니다.이러한 설정은 호출 중에 URL로 전달됩니다.
 
 웹 양식 속성은 [이 페이지에](../../web/using/about-web-forms.md)자세히 설명되어 있습니다.
 
@@ -110,6 +110,14 @@ Adobe에서는 **[!UICONTROL Internal name]** :보고서 액세스 URL에 사용
    데이터는 엔티티 수준에서 직접 복구됩니다. **ctx/recipient/@account**.
 
    이 **[!UICONTROL Variable]** 옵션을 사용하면 URL의 매개 변수로 전달되고 필터에 사용할 수 있는 변수를 만들거나 선택할 수 있습니다.
+
+를 **[!UICONTROL Response HTTP headers]** 사용하면 iframe을 사용하여 HTML 페이지에 보고서의 페이지를 포함할 때 클릭재킹을 방지할 수 있습니다. 클릭재킹을 방지하려면 다음 **[!UICONTROL X-Frame-options header]** 동작을 선택할 수 있습니다.
+
+* **[!UICONTROL None]**:보고서는 **[!UICONTROL X-Frame-options header]**&#x200B;없습니다.
+* **[!UICONTROL Same as origin]**:새 보고서 및 재게시된 보고서에 대해 기본적으로 설정됩니다. 호스트 이름은 보고서의 URL과 같습니다.
+* **[!UICONTROL Deny]**:iframe을 사용하여 HTML 페이지에 보고서를 포함할 수 없습니다.
+
+![](assets/s_ncs_advuser_report_properties_09c.png)
 
 ## 변수 추가 {#adding-variables}
 
