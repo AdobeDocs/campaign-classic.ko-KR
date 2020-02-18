@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 703fa6e5d5e6f1c8c512bd65ebadad724f02ded3
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign v5.11 홈 페이지를 더 이상 사용할 수 없습니다.
 
 ## MySQL {#mysql}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >MySQL은 이 엔진을 사용하여 버전 6.02 또는 5.11에서 마이그레이션할 때 v7에서만 기본 데이터베이스 엔진으로 지원됩니다.
 
