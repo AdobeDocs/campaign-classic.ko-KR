@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b3ab02d1fd90c3f14314508a8fa7d99df82436c
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -105,7 +105,7 @@ source-git-commit: 8b3ab02d1fd90c3f14314508a8fa7d99df82436c
 
    ![](assets/mapping_diffusion_wizard_3.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Adobe Campaign은 타깃팅 스키마로 알고 있는 여러 수신자 스키마를 지원하지 않습니다. 동일한 브로드로그 및/또는 추적 로그 스키마에 연결되어 있습니다. 그렇지 않으면 나중에 데이터 조정에서 예외 항목이 발생할 수 있습니다. 자세한 내용은 권장 사항 및 제한 [사항](../../configuration/using/about-custom-recipient-table.md) 페이지를 참조하십시오.
 
