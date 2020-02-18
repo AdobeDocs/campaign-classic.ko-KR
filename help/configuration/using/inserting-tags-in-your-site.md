@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
 
 이 메서드는 추적할 웹 페이지의 HTML 소스 코드에 HTML **`<img>`** 태그를 삽입하여 리디렉션 서버로 HTTP 호출을 전송하는 것으로 구성됩니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이 방법은 웹 브라우저가 보낸 쿠키를 사용하여 받는 사람을 식별하며, 100% 신뢰할 수 없습니다.
 
