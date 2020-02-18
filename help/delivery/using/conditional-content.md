@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -81,7 +81,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ## 다국어 이메일 제작 {#creating-multilingual-email}
 
-아래 예에서는 다국어 이메일을 만드는 방법을 알아봅니다. 받는 사람의 기본 언어에 따라 컨텐츠가 한 언어 또는 다른 언어로 표시됩니다.
+아래 예에서는 다국어 이메일을 만드는 방법을 알아봅니다. 컨텐츠는 받는 사람의 기본 언어에 따라 한 언어 또는 다른 언어로 표시됩니다.
 
 1. 이메일을 만들고 타겟 모집단을 선택합니다. 이 예에서는 한 버전 또는 다른 버전을 표시하는 조건이 **수신자** 프로필의 언어 값을 기반으로 합니다. 이 예에서 이러한 값은 EN, **FR**, **ES**&#x200B;로 **설정됩니다**.
 1. 이메일 HTML 내용에서 **[!UICONTROL Source]** 탭을 클릭하고 다음 코드를 붙여 넣습니다.
