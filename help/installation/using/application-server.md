@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
 
 ---
 
@@ -52,16 +52,10 @@ Java JDK 파섹https://www.oracle.com/technetwork/java/javase/downloads/index.ht
 
 Linux 환경에서 JDSL을 설치하려면 패키지 관리자를 사용하는 것이 좋습니다.
 
-Debian 7 및 8에서는 다음 명령을 사용합니다.
+Debian 8 및 9에서는 다음 명령을 사용합니다.
 
 ```
-aptitude install openjdk-7-jdk
-```
-
-RHEL 6의 경우 다음 명령을 사용합니다.
-
-```
-yum install java-1.8.0-openjdk
+aptitude install openjdk-8-jdk
 ```
 
 RHEL 7의 경우 다음 명령을 사용합니다.
@@ -73,10 +67,6 @@ yum install java-1.8.0-openjdk
 ## OpenSSL {#openssl}
 
 Linux에서는 OpenSSL을 설치해야 합니다. Adobe Campaign에서 지원하는 버전은 **OpenSSL 1.0.1** 및 **OpenSSL 0.9.8입니다**. 하위 버전 0.9.8g ~ 0.9.8o가 허용됩니다.
-
->[!NOTE]
->
->RHEL 6 및 CentOS 6의 경우 openSSL 1.0이 필요합니다.
 
 ## 보고서 내보내기 {#exporting-reports}
 
@@ -92,7 +82,7 @@ SpamCharacter를 사용하면 수신에 사용되는 스팸 방지 도구에서 
 
 SpamCharacter에서 원하지 않는 이메일의 자격은 필터링 및 점수 규칙에 전적으로 따라 결정됩니다. 따라서 SpamCharacter 설치 및 Adobe Campaign과의 통합이 완전히 기능하고 보내기 전에 게시에 할당된 점수의 연관성을 보장하기 위해 이러한 규칙을 하루에 최소 한 번 업데이트해야 합니다. 이 업데이트는 SpamCharacter를 호스팅하는 서버 관리자의 책임입니다.
 
-지원되는 최소 버전은 다음과 같습니다. **3.2.5** 및 **3.3.2**.
+지원되는 최소 버전은 다음과 같습니다. **3.4**
 
 SpamAssist는 HTTP 인터넷 액세스(tcp/80)가 필요합니다.
 
