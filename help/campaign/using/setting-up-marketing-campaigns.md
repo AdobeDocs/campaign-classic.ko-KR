@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -148,14 +148,14 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 실행 일정의 구성 모드는 워크플로우의 **[!UICONTROL Scheduler]** 객체와 일치합니다. For more on this, refer to [this section](../../workflow/using/executing-a-workflow.md#architecture).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >데이터베이스 오버로드를 방지하려면 실행 일정 구성을 신중하게 수행해야 합니다. 반복되는 캠페인은 지정된 일정에 따라 템플릿의 워크플로우를 복제합니다. 너무 빈번한 워크플로우 작성을 구현하면 데이터베이스 작업이 방해될 수 있습니다.
 
 1. 지정된 기간 동안 해당 워크플로우를 만들려면 **[!UICONTROL Create in advance for]** 필드에 값을 지정합니다.
 1. 타깃팅 매개 변수와 하나 이상의 일반 전달을 사용하여 이 템플릿을 기반으로 하는 캠페인에 사용할 워크플로우 템플릿을 만듭니다.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >이 워크플로우는 반복되는 워크플로우 템플릿으로 저장해야 합니다. 이렇게 하려면 워크플로우 속성을 편집하고 **[!UICONTROL Recurring workflow template]** **[!UICONTROL Execution]** 탭에서 옵션을 선택합니다.
 
@@ -174,7 +174,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
    각 라인에 대해 다음 추가 옵션을 추가할 수 있습니다.
 
-   * **[!UICONTROL To be approved]** :워크플로우에서 전달 승인 요청을 강제 수행할 수 있습니다.
+   * **[!UICONTROL To be approved]** :워크플로우에서 배달 승인 요청을 강제 수행할 수 있습니다.
    * **[!UICONTROL To be started]** :시작 날짜에 도달하면 워크플로우를 시작할 수 있습니다.
    이 **[!UICONTROL Create in advance for]** 필드를 사용하면 입력한 기간을 포함하는 모든 워크플로우를 만들 수 있습니다.
 
@@ -211,7 +211,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 1. 템플릿의 속성을 입력합니다.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >템플릿을 할당받은 연산자는 선택한 프로그램에서 캠페인을 만들 수 있는 적절한 권한을 가져야 합니다.
 
@@ -227,7 +227,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
    ![](assets/s_ncs_user_op_template_period_planning_add.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >주기 캠페인 템플릿은 위에 정의된 일정에 따라 새 캠페인을 만듭니다. 따라서 Adobe Campaign 데이터베이스가 오버로드되지 않도록 주의하여 완료해야 합니다.
 
