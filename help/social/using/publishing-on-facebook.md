@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -78,7 +78,7 @@ source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
 * **[!UICONTROL Cities]**
 * **[!UICONTROL Languages]**
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이 기능을 주의해서 사용하십시오. 배달 보고서에서, **[!UICONTROL Number of fans]** 표시기는 이러한 Facebook 필터를 고려하지 않습니다.
 >
@@ -115,7 +115,7 @@ source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
 
 다양한 필드를 입력합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >모든 URL은 **&quot;http://&quot;** 또는 **&quot;https://&quot;로 시작해야 합니다**.
 
@@ -136,7 +136,7 @@ source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
 
 1. 발행물 왼쪽에 표시될 이미지의 URL을 **[!UICONTROL Image]** 필드에 입력합니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Facebook에서 이미지를 업로드하려면 공개 인터넷 사이트에서 이미지를 호스팅해야 합니다.
 
