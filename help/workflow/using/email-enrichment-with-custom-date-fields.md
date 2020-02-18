@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: 1c4b5b7c44bbc74f56d3c70b93b131bba4d78c6f
 
 ---
 
@@ -126,4 +126,4 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
    ![](assets/uc_enrichment_20.png)
 
-이제 이메일이 준비되었습니다. 교정본을 전송하고 배달 여부를 확인하여 생일 이메일을 보낼 수 있습니다.
+이제 이메일이 준비되었습니다. 교정쇄를 전송하고 배달한 내용을 확인하여 생일 이메일을 보낼 수 있습니다.
