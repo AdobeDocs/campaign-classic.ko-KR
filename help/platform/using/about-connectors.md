@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed5390b4f620c3cddaf9b856f3354dc5f06f4d98
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign은 외부 애플리케이션과 통신하고, 데이터베이스 
 
 이러한 커넥터는 다음과 같습니다.
 
-* FDA 커넥터(**Federated Data** Access)를 사용하면 캠페인 데이터에 영향을 주지 않고 Campaign을 하나 이상의 외부 데이터베이스에 연결하고 이러한 데이터베이스에 저장된 정보를 처리할 수 있습니다. [자세한 내용](../../platform/using/accessing-an-external-database.md).
+* FDA 커넥터(**Federated Data** Access)를 사용하면 캠페인 데이터에 영향을 주지 않고 Campaign을 하나 이상의 외부 데이터베이스에 연결하고 이러한 데이터베이스에 저장된 정보를 처리할 수 있습니다. [자세한 내용](../../platform/using/about-fda.md).
 * CRM 커넥터를 사용하면 전용 워크플로우 활동을 사용하여 Adobe Campaign과 CRM 솔루션 간에 데이터를 교환할 수 있습니다. [자세한 내용](../../platform/using/crm-connectors.md).
 * Analytics 데이터 커넥터(Adobe **Genesis**)를 사용하면 Adobe Campaign과 Adobe Analytics 간에 데이터를 공유할 수 있습니다. [자세한 내용](../../platform/using/adobe-analytics-data-connector.md).
 
