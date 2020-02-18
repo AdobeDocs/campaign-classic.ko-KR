@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
 
 ---
 
@@ -64,11 +64,10 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 1. 받는 사람이 한 번에 너무 많은 배달을 받지 않도록 **[!UICONTROL Wait]** 활동을 추가하고 구성합니다.
 1. iOS 또는 Android 모바일 애플리케이션의 가입자를 나누는 **[!UICONTROL Split]** 활동을 추가합니다.
 
-   각 운영 체제에 대한 서비스를 선택합니다. 서비스 생성에 대한 자세한 내용은 이 [페이지를](../../delivery/using/setting-up-mobile-app-channel.md#creating-the-service-and-collecting-subscriptions)참조하십시오.
+   각 운영 체제에 대한 서비스를 선택합니다. 서비스 생성에 대한 자세한 내용은 이 [페이지를](../../delivery/using/configuring-the-mobile-application.md)참조하십시오.
 
    ![](assets/cross_channel_delivery_4.png)
 
 1. 각 운영 체제에 대한 모바일 애플리케이션 제공을 선택하고 구성합니다.
 
    ![](assets/cross_channel_delivery_5.png)
-
