@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e04eb83a7c2e29f8d3ea6458dd3f0e780dfb9c3
+source-git-commit: 202f571f5c348ca4ab617821cd1ec24cefa8c504
 
 ---
 
@@ -259,26 +259,23 @@ instance.vars.isRunning = false
 
 ## 상태에 따라 워크플로우 필터링{#filtering-workflows-status}
 
-Campaign Classic 인터페이스를 사용하면 사전 정의된&#x200B;**보기를**&#x200B;사용하여 인스턴스에 있는 모든 워크플로우의 실행 상태를 모니터링할 수 있습니다. 이러한 보기에 액세스하려면 관리/**감사**/**워크플로우**&#x200B;상태&#x200B;**노드를**&#x200B;엽니다.
+Campaign Classic 인터페이스를 사용하면 사전 정의된&#x200B;**보기를**&#x200B;사용하여 인스턴스에 있는 모든 워크플로우의 실행 상태를 모니터링할 수 있습니다. 이러한 뷰에 액세스하려면&#x200B;**[!UICONTROL Administration]**/**[!UICONTROL Audit]**/**[!UICONTROL Workflows Status]**&#x200B;노드를 엽니다.
 
 다음 보기를 사용할 수 있습니다.
 
-* **실행**: 실행 중인 모든 워크플로우를 나열합니다.
-* **일시 중지됨**: 일시 중지된 모든 워크플로우를 나열합니다.
-* **실패**: 실패한 모든 워크플로우를 나열합니다.
-
-<!--Start Pending: lists all workflows that are waiting to be started by the operationMgt process.-->
+* **[!UICONTROL Running]**: list all running workflows.
+* **[!UICONTROL Paused]**: lists all paused workflows.
+* **[!UICONTROL Failed]**: list all failed workflows.
+* **[!UICONTROL Start Pending]**: list all workflows that are waiting to be started by the operationMgt process. 이 보기는 마케팅 캠페인&#x200B;**패키지만 사용할 수 있습니다(Campaign 표준**&#x200B;패키지 [](../../installation/using/installing-campaign-standard-packages.md)설치 참조).
 
 ![](assets/workflow-monitoring-views.png)
 
-<!--The Start Pending view is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
-
-기본적으로 이러한 보기는 감사&#x200B;**폴더에서 액세스할 수**&#x200B;있습니다. 하지만 폴더 트리에서 원하는 위치에 다시 만들 수 있습니다. 이렇게 하면 관리 권한이 없는 표준 사용자가 사용할 수 있습니다.
+기본적으로 이러한 보기는&#x200B;**[!UICONTROL Audit]**&#x200B;폴더에서 액세스할 수 있습니다. 하지만 폴더 트리에서 원하는 위치에 다시 만들 수 있습니다. 이렇게 하면 관리 권한이 없는 표준 사용자가 사용할 수 있습니다.
 
 이렇게 하려면:
 
 1. 보기를 추가할 폴더를 마우스 오른쪽 단추로 클릭합니다.
-1. 새 **폴더**&#x200B;추가/**관리에서**&#x200B;추가할 보기를 선택합니다.
+1. / **[!UICONTROL Add new folder]**&#x200B;에서&#x200B;**[!UICONTROL Administration]**&#x200B;추가할 보기를 선택합니다.
 1. 폴더가 트리에 추가되면 원래 폴더가 무엇이든지 모든 워크플로우를 표시하도록 해당 폴더를 보기로 구성해야 합니다.보기를 구성하는 방법에 대한 자세한 내용은 [이 섹션을](../../platform/using/access-management.md#adding-folders-and-creating-views)참조하십시오.
 
 또한 이러한 보기에 따라 워크플로우 목록을 실행 상태에 따라 필터링할 수 있도록 필터 폴더를 설정할 수 있습니다. 이렇게 하려면:
@@ -293,6 +290,3 @@ Campaign Classic 인터페이스를 사용하면 사전 정의된&#x200B;**보�
 
 * [고급 필터 만들기](../../platform/using/creating-filters.md#creating-an-advanced-filter)
 * [필터 저장](../../platform/using/creating-filters.md#saving-a-filter)
-
-<!-- need to check if pending status filter will be implemented or not in january release, note, Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the operationMgt process only.This filter is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
-
