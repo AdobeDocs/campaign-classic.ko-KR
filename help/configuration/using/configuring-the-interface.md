@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Campaign은 &quot;Nms_DefaultRcpSchema&quot; 전역 변수를 사용하여
 
 새 양식을 만들면 외부 수신자 테이블의 데이터를 보고 편집할 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >양식의 이름은 해당 폼의 스키마 이름과 동일해야 합니다.
 
