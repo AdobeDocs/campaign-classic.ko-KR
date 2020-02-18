@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 463d2d60e8776fc0414fdb8c91dbf257e119d823
+source-git-commit: 80b500653f5cfe216b32db045974b18d85838d9a
 
 ---
 
@@ -74,11 +74,11 @@ logInfo("Start date: " + task.creationDate)
 
 ### 인스턴스 변수 {#instance-variables}
 
-인스턴스 변수(**[!UICONTROL instance.vars.xxx]**)는 전역 변수와 비교할 수 있습니다.모든 활동에 의해 공유됩니다.
+인스턴스 변수(**[!UICONTROL instance.vars.xxx]**)는 전역 변수와 비교할 수 있습니다. 모든 활동에 의해 공유됩니다.
 
 ### 작업 변수 {#task-variables}
 
-작업 변수(**[!UICONTROL task.vars.xxx]**)는 로컬 변수와 비교할 수 있습니다.현재 작업에서만 사용됩니다. 이러한 변수는 지속적인 활동에 의해 데이터를 유지하는 데 사용되며, 경우에 따라 동일한 활동의 다른 스크립트 간에 데이터를 교환하는 데 사용됩니다.
+작업 변수(**[!UICONTROL task.vars.xxx]**)는 로컬 변수와 비교할 수 있습니다. 현재 작업에서만 사용됩니다. 이러한 변수는 지속적인 활동에 의해 데이터를 유지하는 데 사용되며, 경우에 따라 동일한 활동의 다른 스크립트 간에 데이터를 교환하는 데 사용됩니다.
 
 ### 이벤트 변수 {#event-variables}
 
