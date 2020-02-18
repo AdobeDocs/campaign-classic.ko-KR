@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a11a73b0679c0a65dc10f71869bf2a6c6efc008
+source-git-commit: 7c57fb0f2d9867b5ea96185c1984e0b1baeb056a
 
 ---
 
@@ -116,7 +116,7 @@ PushEvents 사용 예:
 
 필수 요소 **`<rtevent>`** 및 **`<batchevent>`** 요소의 특성은 @type 및 @email입니다. @type의 값은 실행 인스턴스를 구성할 때 정의된 항목별 목록 값과 같아야 합니다. 이 값을 사용하면 배달 중에 이벤트 컨텐츠에 연결할 템플릿을 정의할 수 있습니다.
 
-`<rtevent>  configuration example: </rtevent>`
+`<rtevent> configuration example:`
 
 ```
 <rtEvent type="order_confirmation" email="john.doe@domain.com" origin="eCommerce" wishedChannel="0" externalId="1242" mobilePhone="+33620202020"> 
