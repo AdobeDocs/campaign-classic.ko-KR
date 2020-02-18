@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ad1a83d40f5a841b01aaeb17fe271b44f2480dd
+source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
 
 ---
 
@@ -53,15 +53,13 @@ Linux에서 Adobe Campaign을 설치하려면 필요한 라이브러리가 있�
 
 * OpenSSL의 **버전은 0.9.8** 또는 **1.0** 이어야합니다.
 
-   RHEL 7 및 CentOS 6 배포의 경우 OpenSSL 버전 1.0이 필요합니다.
+   RHEL 7 배포의 경우 OpenSSL 버전 1.0이 필요합니다.
 
 * Adobe Campaign을 사용하려면 **라이브러리** 라이브러리가 설치되어 있어야 합니다.
 
    다음 버전의 **libicu** (32비트 또는 64비트)가 지원됩니다.
 
-   * RHEL 6, SLES, CentOS 6:libicu4.2
    * RHEL 7, CentOS 7:libicu50
-   * 데비안 7:libicu48
    * 데비안 8:libicu52
    * 데비안 9:libicu57
    Adobe Campaign을 사용하려면 libc-ares 라이브러리가 설치되어 있어야 합니다. RHEL/CentOS에서 다음 명령을 실행합니다.
