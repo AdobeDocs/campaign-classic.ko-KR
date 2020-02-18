@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -68,4 +68,4 @@ source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
 
 통합 **데이터 액세스 - FDA** 옵션을 사용하면 외부 데이터베이스에 저장된 데이터에 액세스할 수 있습니다.
 
-외부 데이터베이스의 데이터에 액세스하기 위해 스키마에 대해 수행되는 구성은 [이 페이지에서](../../platform/using/accessing-an-external-database.md#creating-the-data-schema)자세히 설명합니다.
+외부 데이터베이스의 데이터에 액세스하기 위해 스키마에 대해 수행되는 구성은 [이 페이지에서](../../platform/using/creating-data-schema.md)자세히 설명합니다.
