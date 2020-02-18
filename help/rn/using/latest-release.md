@@ -1,6 +1,6 @@
 ---
 title: 최신 릴리스
-description: Campaign Classic 19.2 릴리스 노트
+description: 최신 릴리스
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -13,14 +13,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e091bab4032a0fe8292ea65100627fefab2a5e30
+source-git-commit: 78c94268723e172b4a4e3c3a965877978b075b82
 
 ---
 
 
 # 최신 릴리스{#latest-release}
 
-[업그레이드](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) 빌드| [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스](../../rn/using/release--19-1.md) | [더 이상 사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[업그레이드](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) 빌드| [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스](../../rn/using/release--19-2.md) | [더 이상 사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
@@ -41,34 +41,23 @@ source-git-commit: e091bab4032a0fe8292ea65100627fefab2a5e30
 
 안정적인 [마지막 빌드](../../rn/using/release--19-1.md#release-19-1-4-build-9032) (GA)를 보려면 **** 여기를 클릭하십시오.
 
-## ![](assets/blue-2.png) 릴리스 19.2.3 - 빌드 9081 {#release-19-2-3-build-9081}
+## ![](assets/blue-2.png) 릴리스 20.1 - 빌드 9122 {#release-20-1-build-XXXX}
 
-_2020년 2월 07일_
-
-**향상된 기능**
-
-* Windows 서버에서 사용자 연결이 실패하는 SSL 인증 구현으로 인한 회귀 문제를 해결했습니다. (NEO 파섹)
-* 정보 메뉴에 잘못된 버전 태그 번호가 표시되는 문제를 **수정했습니다** .
-
-## ![](assets/orange-2.png) 릴리스 19.2 - 빌드 9080 {#release-19-2-build-9080}
-
-_2019년 12월 02일_
+_2020년 2월 17일_
 
 **새로운 기능**
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>CPA(California Consumer Privacy Act)</strong><br /> </th> 
+   <th> <strong>Snowflake FDA Connector</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>CCPA는 2020년 1월 1일부터 시행된 데이터 보호 요구 사항을 통합하고 현대화한 캘리포니아 주의 새로운 개인 정보 보호 법입니다. CCPA는 캘리포니아에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p>
-    <p> Adobe Campaign은 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 외에도 CPA에 대한 준비 사항을 용이하게 합니다.</p>
-    <ul>
-      <li>액세스 권한 및 삭제 권한:gdpr에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">자세한 내용</a></li>
-      <li>소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다. 이를 위해 프로파일 테이블을 확장하고 CPA에 대한 <strong>옵트아웃 필드를 추가해야 합니다</strong> . <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">자세한 내용</a></li></td> 
+   <td> <p>Snowflake는 스토리지 및 컴퓨팅 수준에서 확장할 수 있도록 구축된 완전히 관리되는 클라우드 데이터 웨어하우스입니다. 이제 Adobe Campaign은 이 새로운 커넥터를 통해 Snowflake의 강력한 기능을 활용하여 빅데이터 세그멘테이션을 수행할 수 있습니다. 이 커넥터는 Adobe에서 호스팅하는 모든 고객에게 제공됩니다.</p>
+    <p>자세한 내용은 <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">자세한 설명서를</a>참조하십시오.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,110 +65,146 @@ _2019년 12월 02일_
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>워크플로우 라이브 모니터링</strong><br /> </th> 
+   <th> <strong>Hadoop FDA 커넥터 개선 사항</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>이제 미리 정의된 보기를 사용하여 인스턴스에 있는 모든 워크플로우의 실행 상태를 모니터링할 수 있습니다.</p>
-   <p>자세한 내용은 <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">자세한 설명서를</a>참조하십시오.</p></td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>AMP를 사용한 인터랙티브한 컨텐츠 제작</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-<td> <p>Adobe Campaign을 사용하면 인터랙티브한 새로운 이메일 <a href="https://amp.dev/about/email/">AMP</a> 포맷을 사용해 볼 수 있습니다. 이를 통해 마케터는 메시지 내에 AMP 구성 요소를 포함시켜 메시지 자체에서 직접 실행 가능한 풍부하고 다이내믹하고 인터랙티브한 컨텐츠로 이메일 경험을 향상시킬 수 있습니다.</p>
-   <p> 이 기능은 공개 베타로 제공됩니다.</p>
-   <p> 자세한 내용은 <a href="../../delivery/using/defining-interactive-content.md">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">자습서 비디오를</a>참조하십시오.</p><br /></td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>TLS(보안 SMS 메시지)</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-<td> <p>보안 SMS는 이제 확장 일반 SMPP 커넥터를 통해 지원됩니다. 이렇게 하면 공급자에 대한 암호화된 연결을 사용할 수 있습니다.</p> <p><strong>경고</strong> 이 기능을 사용하려면 모든 서버에 최신 인증서가 필요합니다. 인증서가 잘못되거나 해지되거나 만료된 경우 전체 SMS 전송 기능에 영향을 주는 오류가 발생합니다.</p><p>자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html">자세한 설명서를</a>참조하십시오. </p> </td> 
+   <td> <p>Hadoop FDA Connector가 Hadoop 3.0 및 Cloudera을 지원하도록 개선되었습니다.</p>
+    <p>자세한 내용은 <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">자세한 설명서를</a>참조하십시오.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
 **향상된 보안 기능**
 
-* 입력 데이터 유효성 검사 및 출력 인코딩 - 캠페인 인터페이스의 저장된 사이트 간 스크립팅 취약점을 수정했습니다. (NEO 파섹)
-* 로그인 제한 정책을 강화하여 권한이 없는 데이터에 액세스할 수 있는 프로필 권한 부여의 보안 문제를 수정했습니다. (NEO 파섹)
+* 클릭재킹으로부터 보호하기 위해 보고서 구성의 보안을 개선했습니다. 이는 새 보고서에 적용됩니다. 이전 보고서의 경우 변경 사항을 적용하려면 다시 게시해야 합니다. (NEO 파섹)
+
+* cryptString의 작은 메모리 문제를 해결합니다. (NEO 파섹)
+
+* 내부 IP 노출 문제를 해결하기 위해 모니터 JSP가 개선되었습니다. (NEO 파섹)
+
+* 관리자가 아닌 사용자에게 스택 추적 정보를 표시할 수 있는 문제를 해결했습니다. (NEO 파섹)
+
+* 이전 세션에서 캐시된 데이터 관리를 개선했습니다. (NEO 파섹)
+
+* logins.log 파일이 IMS를 통한 성공적인 로그인 시도를 기록하지 못했던 문제를 수정했습니다. (NEO 파섹)
 
 **향상된 기능**
 
-* 푸시 알림에 대한 메모리 소비 최적화.
-* 성능 및 스토리지 최적화를 위해 **logins.log** 파일의 처리가 향상되었습니다. 이제 파일이 여러 파일로 분할되어 하루에 하나씩 최대 365개의 파일이 유지됩니다. [자세한 내용](../../production/using/log-files.md)
-* 이제 암호 자격 증명(암호 + 사용자 이름) 또는 인증서(개인 키)를 사용하여 Microsoft Dynamics CRM 외부 계정을 구성할 수 있습니다. [자세한 내용](../../platform/using/external-accounts.md#microsoft-dynamics-crm-external-account)
-* 안정성을 개선하기 위해 일부 개선 사항이 Hadoop FDA 커넥터에 추가되었습니다.
-* 서버에 공개 리소스를 업로드하기 전에 디스크 공간을 확인하기 위해 특정 보증인이 추가되었습니다.
-* 새 [캠페인](../../installation/using/configuring-campaign-options.md) 옵션이 추가되었습니다.
-   * WdbcKillSession **Policy** 구성 옵션을 사용하면 모든 워크플로 및 PostgreSQL 데이터베이스 쿼리에 **대한** 무조건부 중지 비헤이비어에 영향을 줄 수 있습니다.
-   * NmsOperation_ **DeliveryPreparationWindow** 옵션을 사용하면 일관성이 없는 상태로 배달이 실행 중인 배달 수에서 제외되는 일 수를 정의할 수 있습니다.
-   * WdbcOptions **_TempDbName** 옵션을 사용하면 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 백업 및 복제를 최적화합니다. [자세한 내용](../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)
-   * XtkCleanup **_NoStats** 옵션은 PostgreSQL이 데이터베이스 정리 워크플로의 저장 영역 최적화 단계의 동작을 더 잘 제어하도록 개선되었습니다. [자세한 내용](../../production/using/database-cleanup-workflow.md#statistics-update)
-* 계정 잠금 메커니즘이 **logon()** API에 추가되었습니다. 지정된 기간 동안 연속해서 실패한 특정 수의 로그인 시도 이후 추가적인 로그인 시도를 방지합니다.
-* 전달 **속성에서 새로운 최대 개인화 실행 시간** 옵션을 사용하면 개인화 단계가 너무 오래 실행되지 않도록 개인화 실행 시간에 대한 시간 초과 기간을 정의할 수 있습니다. [자세한 내용](../../delivery/using/personalization-fields.md#timing-out-personalization)
-* SFTP 연결에 프록시 구성을 사용할 수 있도록 **ftp 프로토콜** 옵션이 추가되었습니다. [자세한 내용](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)
-* 온-프레미스 환경을 위한 SFTP 외부 서버에 대한 프록시 액세스 새로운 지원.
-* 캠페인 인스턴스와 호환되지 않는 패키지를 설치하지 못하도록 특정 보증인이 추가되었습니다. [자세한 내용](../../installation/using/installing-campaign-standard-packages.md)
+* iOS 13은 이제 HTTP2 커넥터에서 지원됩니다.
 
-_사용되지 않는 시스템_
+* 푸시 알림 기능(nms:address 및 nms:appSubscriptionRcp)에서 사용하는 표의 정리 및 격리 관리가 개선되었습니다. iOS(HTTP2 커넥터 전용)의 경우 이제 비활성화된 토큰은 Android의 경우와 동일하게 처리됩니다. 이제 NmsAppSubscriptionRcp 테이블에서 disable 플래그가 설정됩니다. [자세한 내용](../../production/using/database-cleanup-workflow.md#subscription-cleanup--nmac-)
 
-다음 시스템은 이제 Campaign Classic 구현에서 [더 이상 사용되지](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) 않습니다.
-* Apache 2.2
-* Centos 6
+* JavaScript 코드 및 **고급 JavaScript 코드** 워크플로우 활동에 시간 초과 **기간을 정의하는 새로운 옵션이 추가되었습니다** . 이렇게 하면 javascript 실행 단계가 너무 오랫동안 실행되지 않습니다. 제한 시간이 경과하면 워크플로우가 중지됩니다. 기본 제한 시간은 1시간입니다. [자세한 내용](../../workflow/using/sql-code-and-javascript-code.md)
 
-최신 캠페인 호환성 매트릭스에 나열된 시스템의 지원 버전을 사용하고 있는지 확인하십시오. [자세한 내용](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+* 이제 mid-sourcing 서버에서 일치하는 관련성이 없으면 배달 분석이 중지되고 해당 오류 메시지가 표시됩니다.
 
-_Campaign Mobile SDK_
+* 이제 게시물에 대한 데이터베이스 장애 조치(failover)가 지원됩니다.데이터베이스 서버가 충돌하고 다시 시작하면 Campaign이 자동으로 다시 연결됩니다.
 
-이제 iOS SDK의 빌드 1.0.26을 사용할 수 있습니다. 이 새로운 빌드에서 iOS 13에 대한 지원이 추가되었습니다. 이 새 버전은 이제 알림 우선 순위 및 iOS 13 푸시 알림에 대한 새로운 등록 토큰 관리 프로세스를 지원합니다. 이전 버전의 SDK에서 애플리케이션을 실행하는 경우 새로운 SDK를 사용하여 애플리케이션을 다시 컴파일해야 합니다. SDK를 받으려면 Adobe 고객 지원 센터에 문의하십시오.
+* [ **시작 보류** 중] 보기가 [관리] > [감사] > [워크플로우 상태] 노드에 추가되었습니다. 이렇게 하면 작업 관리 **프로세스에 의해 시작되기를 기다리는 인스턴스의 모든 워크플로우를 모니터링할 수** 있습니다. 이 보기는 마케팅 캠페인 패키지와 함께 제공됩니다. [자세한 내용](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+
+**기타 변경 사항**
+
+* Linux의 경우, 이제 Nlserver 서비스 시작 시 /etc/init.d/nlserver6 스크립트 대신 시스템 장치를 사용합니다. 20.1 패키지를 설치하면 새 시작 구성표로 마이그레이션됩니다. /etc/init.d/nlserver6는 여전히 제공되지만, nlserver 서비스와 상호 작용(시작, 다시 시작, 중지 등)하려면 systemctl 명령을 직접 사용하는 것이 좋습니다.
+
+* 가장 많이 사용되는 사용자 정의 테이블이 xtkNewId **시퀀스에서** 전용 시퀀스로 이동되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+
+* 불필요한 데이터베이스 연결의 영향을 받을 수 있는 쿼리 성능이 개선되었습니다.
+
+* 데이터베이스 업데이트 마법사의 성능을 개선했습니다.
+
+* 데이터베이스 레코드 관리가 향상되었습니다.
+
+* 연결 풀의 견고성이 개선되어 예기치 않은 연결 오류가 너무 자주 발생하지 않을 수 있습니다.
+
+* 소프트 오류가 발생하는 경우 격리에 주소를 보내는 이메일 주소 유효성 검사 규칙이 향상되었습니다. [자세한 내용](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
+
+* Debian의 경우 Campaign은 이제 시스템 PCRE 라이브러리를 사용할 수 있을 때 사용합니다.
+
+* 이제 Campaign에서 최신 시스템 ODBC 라이브러리를 사용할 수 있습니다.
+
+* 리치 이미지를 로드하기 위한 연결을 열 때 LINE 서블릿에 시간 초과가 추가되었습니다. 이미지를 로드하는 데 시간이 너무 오래 걸리는 경우 서블릿이 연결을 중지하여 병목 현상을 방지합니다.
 
 **패치**
 
-* RDBMS(데이터 로드) **** 워크플로우 활동에서 빈 연결된 테이블을 추가할 때 발생하는 콘솔 충돌을 수정했습니다. (NEO 파섹
-* Mid-Sourcing 서버에서 특정 메시지가 처리되지 않는 문제를 해결했습니다. (NEO 파섹)
-* Teradata에서 쿼리 밴딩 옵션을 사용할 때 데이터베이스 정리 워크플로우의 문제를 해결했습니다. (NEO 파섹)
-* ne.jp 도메인을 비롯한 유형 규칙이 배달 분석에 영향을 주는 문제를 수정했습니다. (NEO 파섹)
-* 보다 제한적인 인증서 정책에 암시된 TLS 업데이트에 대한 SMS와 관련된 문제를 수정했습니다. 이러한 업데이트는 오래된 인증서의 경우 마케팅과 미드소싱 서버 간 연결에 실패할 수 있습니다. (NEO 파섹)
-* 중간 소싱 환경의 외부 계정에서 저장소 **인증이 있는 연결** 테스트 단추를 사용할 때 발생하는 문제를 수정했습니다. (NEO 파섹)
-* FDA Hadoop 연결과 함께 날짜 함수를 사용하는 쿼리에 대한 문제를 수정했습니다. (NEO 파섹)
-* 이메일 편집기에서 이미지를 교체할 때 발생하는 문제가 해결되었습니다. (NEO 파섹)
-* 삭제되었거나 다른 위치로 이동한 폴더에 대한 업그레이드 후 오류가 발생할 수 있는 문제를 수정했습니다. (NEO 파섹)
-* LINE 메시지에서 장치 화면 크기당 **이미지** 정의 옵션을 사용할 때 이미지 표시 문제를 해결했습니다. (NEO 파섹)
-* 배달 **중 중복 주소 제외 옵션을** 선택 해제하면 배달 준비 문제가 해결되었습니다. (NEO 파섹)
-* 전송 **후 소스 파일 삭제 옵션을 사용하여 파일을 다운로드할 때 공백 문자를 포함하는** 이름으로 파일 전송 **** 작업을 사용할 때 발생하는 문제가 해결되었습니다. (NEO 파섹)
-* 메모리 문제로 이어질 수 있는 Tomcat 캐시 정리 문제를 수정했습니다. (NEO 파섹)
-* Microsoft SQL 2017 **에서 실행 인스턴스** 내장 패키지와 함께 오퍼 엔진 제어를 설치할 때 발생하는 문제를 수정했습니다. (NEO 파섹)
-* 텍스트 컨텐츠 **** 탭에서 이메일의 추적된 URL의 확인을 취소할 때 발생하는 콘솔 충돌이 해결되었습니다. (NEO 파섹)
-* 중국어 보낸 사람 이름에 대한 인코딩 문제를 수정했습니다. (NEO 파섹)
-* 탐색기에서 설문 조사 응답 데이터를 표시할 때 발생할 수 있는 오류를 수정했습니다. (NEO 파섹)
-* 배달 로그 분류와 격리 테이블 간 불일치가 발생할 수 있는 문제를 수정했습니다. (NEO 파섹)
-* 이메일에 포함되지 않은 DKIM 키 관련 문제를 수정했습니다. (NEO 파섹)
-* API 호출 컨텍스트에서 잘못된 세션 토큰을 사용하여 이벤트를 트리거하는 경우 잘못된 오류 코드를 표시하던 문제를 수정했습니다. 오류 코드는 &#39;HTTP 403 금지&#39; 대신 &#39;HTTP 200 OK&#39;였습니다. (NEO 파섹)
-* 웹 액세스를 통해 배달 보고서를 표시할 때 발생하는 문제를 수정했습니다. (NEO 파섹)
-* Adobe Campaign에 로그인할 때 IMS 인증 문제가 해결되었습니다. (NEO 파섹)
-* 격리된 이메일이 개인 정보 관리 프로세스에서 삭제되지 않는 문제를 해결했습니다. (NEO 파섹)
-* SQL 데이터베이스를 사용하여 9031로 업그레이드한 후 처리량 문제가 해결되었습니다. (NEO 파섹
-* Salesforce의 CRM 커넥터에 영향을 주는 문제를 수정했습니다. (NEO 파섹)
-* 외부 SFTP 파섹 (NEO 파섹)
-* 예측 모델에 액세스할 때 발생하는 문제를 수정했습니다. (NEO 파섹)
-* Hadoop FDA 데이터베이스를 사용한 **분할** 워크플로우 작업의 임의 샘플링에 영향을 주는 문제를 수정했습니다. (NEO 파섹)
+* Hadoop 커넥터를 사용할 때 계정 키 암호화 문제가 해결되었습니다.
 
+* Windows 서버에서 사용자 연결이 실패하는 SSL 인증 구현으로 인한 회귀 문제를 해결했습니다. (NEO 파섹)
+
+* 부정적인 워크플로우 ID의 경우 증분 쿼리 활동 문제를 수정했습니다. (NEO 파섹)
+
+* Netezza FDA 커넥터를 통해 쿼리를 실행할 때 발생하는 인코딩 문제를 해결했습니다. (NEO 파섹)
+
+* 웹 다운로드 워크플로우 이벤트 활동에서 POST 메서드를 사용할 때 오류가 **발생하는** 문제를 해결했습니다.
+
+* 오퍼 제안 생성과 관련된 문제를 수정했습니다. (NEO 파섹)
+
+* 획득 웹 양식 템플릿을 사용할 때 바닥글 표시 문제가 해결되었습니다.
+
+* 연속 게재 컨텐츠에서 URL을 구문 분석할 때 충돌이 발생할 수 있는 문제를 수정했습니다. (NEO 파섹)
+
+* 새 캠페인을 만들 때 시작 **및** 종료 **필드가** 계산되지 않는 문제를 해결했습니다.
+
+* URL을 사용할 **때 파일 다운로드** 워크플로우 활동 문제를 수정했습니다.
+
+* 보고서의 쿼리 활동에서 가져온 목록을 미리 볼 때 발생하는 문제를 수정했습니다. (NEO 파섹)
+
+* 이메일 편집기에서 Powered by Campaign **개인화 블록을 선택할 때** 오래된 이미지가 표시되는 문제를 해결했습니다.
+
+* 클라이언트와 서버 간의 네트워크 통신이 개선되었습니다.
+
+* 동일한 캠페인에서 너무 많은 워크플로우가 만들어지던 문제를 수정했습니다. 이제 28개 이상의 워크플로우를 만들 수 없습니다. 경고가 표시됩니다.
+
+* 조합 워크플로우 활동에서 열 **선택** 조정 옵션을 사용할 때 **발생하는 문제를** 수정했습니다.
+
+* 워크플로우에서 손상된 농축 목록을 사용할 때 발생할 수 있는 콘솔 충돌 문제가 수정되었습니다. (NEO 파섹)
+
+* 워크플로우에서 발생할 수 있는 다양한 콘솔 충돌 문제가 해결되었습니다(NEO-18010, NEO-18032).
+
+* 외부 신호 **** 워크플로우 활동이 비활성화되었을 때에도 실행될 수 있었던 문제를 수정했습니다. (NEO 파섹)
+
+* 새 스키마를 만들 때 발생하는 문제를 수정했습니다.
+
+* SMS 메시지를 보낼 때 발생하는 추적 문제를 수정했습니다. (NEO 파섹)
+
+* 게재 표시기에 잘못된 타깃팅된 대상 번호가 표시되던 문제를 수정했습니다.
+
+* 워크플로우 활동을 통해 설명 보고서를 생성할 때 잘못된 백분율을 표시하는 문제를 해결했습니다. (NEO 파섹)
+
+* 시간 보기 매개 변수 시 배달 처리량 보고서가 다른 숫자를 표시하는 문제를 해결했습니다. (NEO 파섹)
+
+* 추적 워크플로에서 트랜잭션 메시지 추적 표시기가 업데이트되지 않는 문제를 해결했습니다. (NEO 파섹)
+
+* SOAP를 통해 오퍼를 요청할 때 웹 프로세스가 중단되고 다시 시작되는 회귀 문제를 해결했습니다. (NEO 파섹)
+
+* 업로드 디렉터리가 원격 공유 위치인 경우 공개 리소스에 데이터를 업로드할 수 없는 문제를 해결했습니다. (NEO 파섹)
+
+* Adobe Experience Cloud **기술 워크플로우에서 대상** 가져오기가 지속적으로 실패하는 문제를 해결했습니다. (NEO 파섹)
+
+* Experience Manager에서 가져온 템플릿을 사용할 때 배달이 전송되지 않던 문제를 수정했습니다. (NEO 파섹)
+
+* 9032를 빌드하도록 업그레이드하고 SSL 프로토콜을 통해 인스턴스가 FTP 서버에 연결되지 않는 문제가 해결되었습니다. (NEO 파섹)
+
+* FDA 스키마를 타깃팅 차원으로 사용하는 워크플로우에서 데이터 업데이트 **활동을 사용하여 대량의 데이터를** 삭제, 삽입 또는 업데이트할 때 발생하는 문제를 수정했습니다. (NEO 파섹)
+
+* 태그 외부에서 &#39;if&#39; 문을 사용할 때 이메일이 전송되지 않던 문제를 `body` 수정했습니다.
+
+* 전송된 메시지의 배달 로그에서 미러 페이지를 표시하려고 할 때 발생하는 문제를 수정했습니다. (NEO 파섹)
+
+* 배달에서 HTML 가져오기를 클릭한 **후 텍스트 컨텐츠** 탭에 페이지 **개인화 블록을 미러링하는** 링크가 표시되지 않는 **** 문제를 해결했습니다. (NEO 파섹)
+
+* 만료된 미러 페이지에 대한 링크를 클릭할 때 표시되는 오류 메시지입니다. (NEO 파섹)
+
+* 데이터 배포 **** 생성 화면에서 일부 단추를 사용할 수 없는 문제를 해결했습니다.
+
+* 아시아/콜카타가 있는 인스턴스에서 배달 활동을 시간대로 예약할 때 발생하는 문제를 수정했습니다. (NEO 파섹)
+
+* 이제 게시에 친화성 구성 문제가 있을 때 오류가 표시됩니다.
+
+* 정보 메뉴에 잘못된 버전 태그 번호가 표시되는 문제를 **수정했습니다** .
+
+* 워크플로우의 반복 게재 속성에서 라우팅 계정을 업데이트하려고 할 때 발생하는 문제를 수정했습니다. (NEO 파섹)
+
+* 리디렉션 모듈을 통해 인스턴스에 연결할 때 발생하던 문제를 수정했습니다. 이로 인해 연결이 닫히면 제대로 정리되지 않습니다.
