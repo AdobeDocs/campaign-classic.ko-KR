@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f5062117b5cefbdd2570018f6803f114c14a3fae
+source-git-commit: a37daa8e31afd3d2ab7d5b70bd8ae02c59ce9ee0
 
 ---
 
@@ -210,7 +210,7 @@ source-git-commit: f5062117b5cefbdd2570018f6803f114c14a3fae
    <td> 받은 편지함 렌더링(IR)<br /> </td> 
    <td> 수신될 수 있는 다양한 컨텍스트에서 메시지를 미리 보고 주요 데스크톱 및 응용 프로그램의 호환성을 확인할 수 있습니다. 리트머스 계정이 필요합니다.<br /> </td> 
    <td> 마케팅<br /> </td> 
-   <td> 선택 사항, <a href="../../delivery/using/about-deliverability.md#inbox-rendering">자세한 내용</a> </td> 
+   <td> 선택 사항, <a href="../../delivery/using/inbox-rendering.md">자세한 내용</a> </td> 
   </tr> 
   <tr> 
    <td> 중앙/로컬 마케팅(분산 마케팅)<br /> </td> 
@@ -250,9 +250,9 @@ source-git-commit: f5062117b5cefbdd2570018f6803f114c14a3fae
   </tr> 
   <tr> 
    <td> 개인 정보 보호 규정<br /> </td> 
-   <td> Campaign Classic에서 프로젝트가 GDPR을 준수하는 데 도움이 되는 추가 기능을 포함합니다.<br /> </td> 
+   <td> Campaign Classic에서 개인 정보 보호를 준수하는 추가 기능을 포함합니다.<br /> </td> 
    <td> 모두</td> 
-   <td> <a href="https://helpx.adobe.com/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html">자세한 내용</a> </td> 
+   <td> <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">자세한 내용</a> </td> 
   </tr> 
   <tr> 
    <td> 중간 출처로 이전 <br /> </td> 
