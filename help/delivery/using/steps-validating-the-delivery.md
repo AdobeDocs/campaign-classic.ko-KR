@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62e6537ba306956cac3bf6e1dd18567bc1414917
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -82,7 +82,7 @@ source-git-commit: 62e6537ba306956cac3bf6e1dd18567bc1414917
 
 * **[!UICONTROL Label and code of the delivery]** :화면의 이 섹션에 대한 옵션은 배달 분석 단계 동안 이러한 필드의 값을 계산하는 데 사용됩니다. 이 **[!UICONTROL Calculate the execution folder during the delivery analysis]** 필드는 분석 단계 동안 이 배달 작업을 포함할 폴더의 이름을 계산합니다.
 * **[!UICONTROL Approval mode]** :이 필드를 사용하면 배달 승인 유형을 선택할 수 있습니다. 승인 모드는 유형 지정 [프로세스를 통해 제공됩니다](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
-* **[!UICONTROL Prepare the personalization data with a workflow]** :이 옵션을 사용하면 자동 워크플로우에서 전달에 포함된 개인화 데이터를 준비할 수 있습니다. 특히 개인화 데이터가 FDA를 통해 외부 표를 통해 제공되는 경우, 많은 데이터를 처리할 때 전달 분석 성능을 크게 향상시킬 수 있습니다. 외부 데이터베이스 [액세스(FDA)](../../platform/using/accessing-an-external-database.md#optimizing-email-personalization-with-external-data) 섹션을 참조하십시오.
+* **[!UICONTROL Prepare the personalization data with a workflow]** :이 옵션을 사용하면 자동 워크플로우에서 전달에 포함된 개인화 데이터를 준비할 수 있습니다. 특히 개인화 데이터가 FDA를 통해 외부 표를 통해 제공되는 경우, 많은 데이터를 처리할 때 전달 분석 성능을 크게 향상시킬 수 있습니다. 외부 데이터베이스 [액세스(FDA)](../../platform/using/additional-options.md#optimizing-email-personalization-with-external-data) 섹션을 참조하십시오.
 * **[!UICONTROL Start job in a detached process]** :이 옵션을 사용하면 별도의 프로세스에서 배달 분석을 시작할 수 있습니다. 분석 함수는 기본적으로 Adobe Campaign 애플리케이션 서버 프로세스(웹 클라이언트 서버)를 사용합니다. 이 옵션을 선택하면 응용 프로그램 서버 오류가 발생하는 경우에도 분석이 완료되도록 합니다.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** :이 옵션은 분석 단계 동안 배달 저널에 SQL 쿼리 로그를 추가합니다.
 * **[!UICONTROL Ignore personalization scripts during sending]** :이 옵션을 사용하면 HTML 컨텐츠에 있는 JavaScript 지시문의 해석을 우회할 수 있습니다. 배달된 컨텐츠에 그대로 표시됩니다. 이러한 지시어는 **&lt;%=** 태그)와 함께 도입됩니다.
