@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9b3508fee3b441752648258b1bc9d5d2b919791
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -123,7 +123,7 @@ source-git-commit: f9b3508fee3b441752648258b1bc9d5d2b919791
 
 * 각 **`<element>`** 및 **`<attribute>`** 은 **name** 속성을 통해 이름으로 식별되어야 합니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >요소의 이름은 간결해야 하며, 특히 영어로 작성되어야 하며, XML 이름 지정 규칙에 따라 승인된 문자만 포함해야 합니다.
 
