@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 12f4237c34560257901ae210d4e22a7d152a795d
+source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 
 ---
 
@@ -128,7 +128,7 @@ source-git-commit: 12f4237c34560257901ae210d4e22a7d152a795d
      <li> <p>iOS에서 자동 알림 추적 </p> </li> 
      <li> <p>iOS의 등록 호출에 대한 피드백 구현</p> </li> 
      <li> <p>iOS 전달 준비 속도 향상</p> </li> 
-    </ul> <p>Google의 GCM 감가 상각의 일부로 Android V2 커넥터는 이제 FCM 서버에만 연결을 허용합니다.</p><p>자세한 내용은 <a href="../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application">자세한 설명서를</a>참조하십시오. FCM으로의 수동 업그레이드는 이 <a href="https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html">문서에</a>자세히 설명되어 있습니다. </p> </td> 
+    </ul> <p>Google의 GCM 감가 상각의 일부로 Android V2 커넥터는 이제 FCM 서버에만 연결을 허용합니다.</p><p>자세한 내용은 <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">자세한 설명서를</a>참조하십시오. FCM으로의 수동 업그레이드는 이 <a href="https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html">문서에</a>자세히 설명되어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td> SQL 데이터 관리 활동<br /> </td> 
