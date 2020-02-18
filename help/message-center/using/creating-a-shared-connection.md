@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ---
 
@@ -75,11 +75,15 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
    데이터 수집은 HTTP/HTTPS 액세스를 사용하는 웹 서비스나 FDA(Federated Data Access) 모듈을 통해 이루어집니다.
 
+   >[!NOTE]
+   >
+   >HTTP를 통해 FDA를 사용하는 경우 Postgres 데이터베이스를 사용하는 예외 인스턴스만 지원됩니다. MSSQL 또는 Oracle 데이터베이스는 지원되지 않습니다.
+
    두 번째 방법은 제어 인스턴스가 실행 인스턴스의 데이터베이스에 직접 액세스하는 경우 권장됩니다. 그렇지 않은 경우 웹 서비스 액세스를 선택합니다. 지정할 FDA 계정은 제어 인스턴스에서 만든 다양한 실행 인스턴스의 데이터베이스에 대한 연결과 일치합니다.
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   Federated Data Access(FDA)에 대한 자세한 내용은 [외부 데이터베이스](../../platform/using/accessing-an-external-database.md)액세스를 참조하십시오.
+   Federated Data Access(FDA)에 대한 자세한 내용은 [외부 데이터베이스](../../platform/using/about-fda.md)액세스를 참조하십시오.
 
 1. 을 **[!UICONTROL Test the connection]** 클릭하여 제어 인스턴스와 실행 인스턴스가 연결되어 있는지 확인합니다.
 
