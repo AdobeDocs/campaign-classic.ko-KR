@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
+source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
 
 ---
 
@@ -178,6 +178,11 @@ source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
    * Windows의 경우:Windows [용 클라이언트 콘솔](../../installation/using/client-console-availability-for-windows.md)가용성
 
 1. Adobe Campaign 서버(Windows에서&#x200B;**net start nlserver6** , **/etc/init.d/nlserver6 start** in Linux)를 시작하고 명령 **nlserver dump** 를 한 번 더 실행하여 활성화된 모든 모듈이 있는지 확인합니다.
+
+   >[!NOTE]
+   >
+   >20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
+
 
    ```
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
