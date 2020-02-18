@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 31f30db6eaf1fee43f9f757124e3fa8ed1d0075f
 
 ---
 
@@ -95,7 +95,7 @@ AEM 외부 계정을 구성하려면 아래 단계를 따르십시오.
 
 ### AEM 리소스 필터링 구성 {#configure-aem-resources-filtering}
 
-**AEMResourceTypeFilter **옵션은 Adobe Campaign에서 사용할 수 있는 Experience Manager 리소스 유형을 필터링하는 데 사용됩니다. 이를 통해 Adobe Campaign은 Adobe Campaign에서만 사용하도록 특별히 설계된 Experience Manager 컨텐츠를 검색할 수 있습니다.
+AEMResourceType **Filter** 옵션은 Adobe Campaign에서 사용할 수 있는 Experience Manager 리소스 유형을 필터링하는 데 사용됩니다. 이를 통해 Adobe Campaign은 Adobe Campaign에서만 사용하도록 특별히 설계된 Experience Manager 컨텐츠를 검색할 수 있습니다.
 
 옵션이 구성되어 있는지 확인하려면 **[!UICONTROL AEMResourceTypeFilter]** 다음을 수행하십시오.
 
@@ -122,7 +122,7 @@ AEM 외부 계정을 구성하려면 아래 단계를 따르십시오.
 
 1. AEM 작성 인스턴스에서 AEM 게시 인스턴스로 복제할 **복제를** 구성합니다.
 
-   복제를 구성하는 방법에 대한 자세한 내용은 Adobe Experience Manager [설명서를](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/replication.html)참조하십시오.
+   복제를 구성하는 방법에 대한 자세한 내용은 Adobe Experience Manager [설명서를](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/replication.html)참조하십시오.
 
 1. 제작 인스턴스에 통합 **FeaturePack** 을 설치한 다음 게시 인스턴스에 설치를 복제합니다. (AEM 버전 5.6.1 및 6.0에만 해당).
 
@@ -130,9 +130,9 @@ AEM 외부 계정을 구성하려면 아래 단계를 따르십시오.
 
 1. 전용 클라우드 서비스를 구성하여 Adobe Experience Manager를 Adobe Campaign에 **연결합니다**.
 
-   클라우드 서비스를 통해 두 솔루션을 연결하는 방법에 대한 자세한 내용은 Adobe Experience Manager [설명서를](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) 참조하십시오.
+   클라우드 서비스를 통해 두 솔루션을 연결하는 방법에 대한 자세한 내용은 Adobe Experience Manager [설명서를](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) 참조하십시오.
 
 1. Externalizer **서비스를**&#x200B;구성합니다.
 
-   구성 방법에 대한 자세한 내용은 Adobe Experience Manager [설명서를](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/externalizer.html)참조하십시오.
+   구성 방법에 대한 자세한 내용은 Adobe Experience Manager [설명서를](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/externalizer.html)참조하십시오.
 
