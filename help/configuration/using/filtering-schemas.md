@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -103,7 +103,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 * xtk:문자열
 * xtk:xslt
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >xtk:sessionInfo **스키마에 대한** READ 및 WRITE 권한은 Adobe Campaign 인스턴스의 내부 계정에서만 액세스할 수 있습니다.
 
