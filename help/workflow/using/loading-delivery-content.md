@@ -32,7 +32,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
    ![](assets/delivery_loadcontent_filetransfertexamples3.png)
 
-1. > > **[!UICONTROL Profiles and Targets]** 와 같이 새 워크플로우를 **[!UICONTROL Jobs]** 만듭니다 **[!UICONTROL Targeting workflows]**.
+1. **[!UICONTROL Profiles and Targets]** 와 같이 새 워크플로우를 **[!UICONTROL Jobs]** 만듭니다 **[!UICONTROL Targeting workflows]**.
 1. 워크플로우에 **[!UICONTROL File transfer]** 활동을 추가하고
 
    * S3 또는 (S)FTP 서버에 연결하는 데 사용할 외부 계정.
