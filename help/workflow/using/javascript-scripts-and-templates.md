@@ -128,29 +128,29 @@ AND **조인** 유형 활동의 경우 변수가 병합되지만 동일한 변�
 
 1. 앞의 예제에서 워크플로우를 수행하고 JavaScript 코드 **활동의 스크립트를** 다음 스크립트로 바꿉니다.
 
-   ```
-   instance.vars.foo = "bar1"
-   vars.foo = "bar2"
-   task.vars.foo = "bar3"
-   ```
+    ```
+    instance.vars.foo = "bar1"
+    vars.foo = "bar2"
+    task.vars.foo = "bar3"
+    ```
 
 1. 종료 활동의 초기화 스크립트에 다음 스크립트를 **추가합니다** .
 
-   ```
-   logInfo("instance.vars.foo = " + instance.vars.foo)
-   logInfo("vars.foo = " + vars.foo)
-   logInfo("task.vars.foo = " + task.vars.foo)
-   ```
+    ```
+    logInfo("instance.vars.foo = " + instance.vars.foo)
+    logInfo("vars.foo = " + vars.foo)
+    logInfo("task.vars.foo = " + task.vars.foo)
+    ```
 
 1. 워크플로우를 시작한 다음 로그를 확인합니다.
 
-   ```
-   Workflow finished
-   task.vars.foo = undefined
-   vars.foo = bar2
-   instance.vars.foo = bar1
-   Starting workflow (operator 'admin')
-   ```
+    ```
+    Workflow finished
+    task.vars.foo = undefined
+    vars.foo = bar2
+    instance.vars.foo = bar1
+    Starting workflow (operator 'admin')
+    ```
 
 이 예에서는 JavaScript 코드 **다음의 활동이** 인스턴스 변수 및 이벤트 변수에 액세스하지만, 작업 변수는 외부에서(&#39;undefined&#39;)에 액세스할 수 없음을 보여줍니다.
 
