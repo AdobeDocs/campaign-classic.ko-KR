@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+source-git-commit: 4c4e2cfaa9603c42e5e97de1e13318f8541921ca
 
 ---
 
@@ -92,11 +92,11 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 일부 지표 또는 상태가 잘못되었거나 최신 상태가 아닐 수 있습니다. 이 문제는 다음 솔루션으로 해결될 수 있습니다.
 
 * 배달 상태가 잘못된 경우, 이 배달에 필요한 모든 승인이 완료되었는지 또는 **[!UICONTROL operationMgt]** 및 **[!UICONTROL deliveryMgt]** 워크플로우가 오류 없이 실행되는지 확인하십시오. 이것은 전송 인스턴스에서 구성되지 않은 친화성을 사용하여 배달이 원인일 수도 있습니다.
-* 배달 표시기가 여전히 0이고 중간 소싱 구성인 경우 **[!UICONTROL Mid-sourcing (delivery counters)]** 기술 워크플로우를 확인하십시오. 상태가 아닐 경우 시작합니다 **[!UICONTROL Started]**. 그런 다음 Adobe Campaign 탐색기에서 관련 전달을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**&#x200B;을 선택하여 지표를 다시 계산할 수 있습니다. 추적 표시기에 대한 자세한 내용은 이 [섹션을](../../reporting/using/reports-on-deliveries.md#tracking-indicators)참조하십시오.
-* 배달 카운터가 게재와 일치하지 않는 경우 Adobe Campaign 탐색기에서 관련 전달을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]** > 을 선택하여 다시 동기화하여 지표를 **[!UICONTROL Recompute delivery and tracking indicators]** 재계산해 보십시오. 추적 표시기에 대한 자세한 내용은 이 [섹션을](../../reporting/using/reports-on-deliveries.md#tracking-indicators)참조하십시오.
+* 배달 표시기가 여전히 0이고 중간 소싱 구성인 경우 **[!UICONTROL Mid-sourcing (delivery counters)]** 기술 워크플로우를 확인하십시오. 상태가 아닐 경우 시작합니다 **[!UICONTROL Started]**. 그런 다음 Adobe Campaign 탐색기에서 관련 전달을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**&#x200B;을 선택하여 지표를 다시 계산할 수 있습니다. 추적 표시기에 대한 자세한 내용은 이 [섹션을](../../reporting/using/delivery-reports.md#tracking-indicators)참조하십시오.
+* 배달 카운터가 게재와 일치하지 않는 경우 Adobe Campaign 탐색기에서 관련 전달을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]** > 을 선택하여 다시 동기화하여 지표를 **[!UICONTROL Recompute delivery and tracking indicators]** 재계산해 보십시오. 추적 표시기에 대한 자세한 내용은 이 [섹션을](../../reporting/using/delivery-reports.md#tracking-indicators)참조하십시오.
 * 중간 소싱 배포에 대한 배달 카운터가 최신 버전이 아닌 경우 **[!UICONTROL Mid-Sourcing (Delivery counters)]** 기술 워크플로우가 실행 중인지 확인하십시오. 자세한 내용은 이 [페이지를](../../installation/using/mid-sourcing-deployment.md)참조하십시오.
 
-배달 대시보드를 통해 다른 보고서로 배달을 추적할 수도 있습니다. For more on this, refer to this [section](../../reporting/using/reports-on-deliveries.md#accessing-existing-reports).
+배달 대시보드를 통해 다른 보고서로 배달을 추적할 수도 있습니다. For more on this, refer to this [section](../../reporting/using/delivery-reports.md).
 
 ## 성능 문제 {#performance-issues}
 
@@ -118,7 +118,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 * 배달이 너무 커서 빠르게 처리할 수 없을 수도 있고, JavaScript 개인화가 높거나 배달 무게가 60KB 이상인 경우 이러한 문제가 발생할 수 있습니다. 콘텐츠 가이드라인에 대한 자세한 내용은 [Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) 게재 모범 사례를 참조하십시오.
 * Adobe Campaign MTA 내에서 스로틀링이 발생했을 수 있습니다. 이 문제는 다음과 같습니다.
 
-   * 보류 중인 메시지(**[!UICONTROL quotas met]** 메시지):캠페인에 정의된 선언적 MX 규칙으로 선언된 할당량이 충족되었습니다. 이 메시지에 대한 자세한 내용은 [이 페이지를](../../delivery/using/technical-recommendations.md#quota-met)참조하십시오. MX 규칙에 대한 자세한 내용은 [이 페이지를](../../delivery/using/technical-recommendations.md#mx-rules)참조하십시오.
+   * 보류 중인 메시지(**[!UICONTROL quotas met]** 메시지):캠페인에 정의된 선언적 MX 규칙으로 선언된 할당량이 충족되었습니다. 이 메시지에 대한 자세한 내용은 [이 페이지를](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ)참조하십시오. MX 규칙에 대한 자세한 내용은 [이 페이지를](../../delivery/using/technical-recommendations.md#mx-rules)참조하십시오.
    * 보류 중인 메시지(**[!UICONTROL dynamic flow control]** 메시지):캠페인 MTA가 지정된 ISP에 대한 메시지를 전달하려고 할 때 오류가 발생하여 오류 밀도가 너무 커서 잠재적인 블랙리스트가 발생했습니다.
 
 * 시스템 문제로 인해 서버가 상호 작용할 수 없습니다.이렇게 하면 전체 전송 프로세스가 느려질 수 있습니다. 예를 들어 개인화 데이터를 가져오는 과정에서 Campaign에 영향을 줄 수 있는 메모리 또는 리소스 문제가 없는지 서버를 확인하십시오.
