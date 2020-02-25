@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ![](assets/edit_test.png)
 
-워크플로 JavaScript를 통해 액세스할 수 있는 응용 프로그램 서버의 모든 추가 JavaScript 함수 및 SOAP 메서드에 대한 자세한 내용은 JSAPI [설명서를](http://docs.campaign.adobe.com/doc/AC/en/jsapi/p-1.html)참조하십시오.
+워크플로 JavaScript를 통해 액세스할 수 있는 응용 프로그램 서버의 모든 추가 JavaScript 함수 및 SOAP 메서드에 대한 자세한 내용은 JSAPI [설명서를](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)참조하십시오.
 
 이 편집기에서 직접 변수를 삽입할 수도 있습니다.
 
