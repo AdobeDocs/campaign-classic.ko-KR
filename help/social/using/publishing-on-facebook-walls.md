@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
+source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign에서 발행물을 Facebook 담벼락에 보낼 수 있으려면 
 
 ## 테스트 Facebook 페이지 만들기 {#creating-a-test-facebook-page}
 
-게시 교정본을 제공하기 위해 비공개 Facebook 페이지를 만드는 것이 좋습니다(자세한 내용은 [증명](#sending-the-proof)보내기 참조).
+게시 교정본을 제공하기 위해 비공개 Facebook 페이지를 만드는 것이 좋습니다(자세한 내용은 [증명](../../social/using/publishing-on-facebook.md#sending-the-proof)보내기를 참조하십시오.).
 
 1. 페이지를 관리하는 데 사용하는 Facebook 계정에 로그온합니다.
 1. 새 Facebook 페이지를 만듭니다.
