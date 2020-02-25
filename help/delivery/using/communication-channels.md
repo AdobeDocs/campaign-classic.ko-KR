@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
 
 ---
 
 
 # 소통 채널{#communication-channels}
 
-Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및 DM을 비롯한 크로스 채널 캠페인을 전송할 수 있으며 다양한 전용 [보고서를](../../reporting/using/reports-on-deliveries.md#accessing-existing-reports)사용하여 캠페인 효과를 측정할 수 있습니다. 이러한 메시지는 배송을 통해 설계 및 전송되며 수신자별로 개인화할 수 있습니다.
+Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및 DM을 비롯한 크로스 채널 캠페인을 전송할 수 있으며 다양한 전용 [보고서를](../../reporting/using/delivery-reports.md)사용하여 캠페인 효과를 측정할 수 있습니다. 이러한 메시지는 배송을 통해 설계 및 전송되며 수신자별로 개인화할 수 있습니다.
 
 핵심 기능에는 메시지 타깃팅, 정의 및 개인화, 커뮤니케이션 실행 및 관련 운영 보고서가 포함됩니다. 기본 기능 액세스 포인트는 배달 마법사입니다. 이 액세스 포인트는 Adobe Campaign의 몇 가지 기능으로 이어집니다.
 
