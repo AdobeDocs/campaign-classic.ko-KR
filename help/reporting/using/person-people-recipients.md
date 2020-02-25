@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+source-git-commit: 18309c190c351cc57f7af24f48b2a772c1840319
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 >[!NOTE]
 >
->이러한 표시기는 **[!UICONTROL Tracking indicators]** 보고서에서 사용됩니다. 자세한 내용은 추적 [표시기를](#tracking-indicators)참조하십시오.
+>이러한 표시기는 **[!UICONTROL Tracking indicators]** 보고서에서 사용됩니다. 자세한 내용은 추적 [표시기를](../../reporting/using/delivery-reports.md#tracking-indicators)참조하십시오.
 
 배달에는 세 개의 링크가 추가됩니다. 수신자 4명에게 전송됩니다.
 
