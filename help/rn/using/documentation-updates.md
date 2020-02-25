@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc6f0f2989977c5a199dbfd413c6a2bac4628545
+source-git-commit: 230ff1a8453cf512b7da828cdcdd49edca59331c
 
 ---
 
@@ -25,6 +25,20 @@ Adobe Campaign Classic 설명서의 모든 최신 업데이트에 대해 알아�
 이 페이지에는 Adobe Campaign Classic의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
 Adobe Campaign Classic 릴리스 [노트를 참조할 수도 있습니다](../../rn/using/latest-release.md).
+
+## 2020년 2월 {#february-2020}
+
+이제 Adobe Campaign 데이터 모델을 디자인하는 동안 모범 사례와 주요 권장 사항을 설명하는 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md)
+
+&quot;이메일 배달 기능&quot; 섹션의 이름이 &quot;기술 이메일 구성&quot;으로 변경되었습니다. [자세한 내용](../../installation/using/email-deliverability.md)
+
+&quot;할당량이 충족됨&quot; 오류 메시지에 대한 자세한 내용이 나와 있는 제공 FAQ 문서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ)
+
+이제 세 개의 이메일 공급자(Gmail, Outlook 및 Mail.ru)가 지원하는 이메일용 AMP는 AMP를 사용하여 대화형 컨텐츠를 정의하는 방법을 설명하는 섹션이 업데이트되었습니다. [자세한 내용](../../delivery/using/defining-interactive-content.md)
+
+이메일 보관 섹션이 명확해졌습니다. [자세한 내용](../../installation/using/email-archiving.md#recommendations-and-limitations)
+
+
 
 ## 20.1 - 17/02/2020{#release-20-1}
 
@@ -67,12 +81,6 @@ Campaign **Classic 기능 매트릭스** 페이지가 업데이트되었습니�
 소프트 오류가 발생하는 경우 격리에 주소를 보내기 위해 향상된 이메일 주소 유효성 검사 규칙을 자세히 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
 인스턴스가 향상된 MTA를 사용하고 있는지 여부를 나타내는 구성 파일의 매개 변수가 이제 문서화되어 있습니다. [자세한 내용](../../installation/using/the-server-configuration-file.md#mta)
-
-## 2020년 2월 {#february-2020}
-
-이제 세 개의 이메일 공급자(Gmail, Outlook 및 Mail.ru)가 지원하는 이메일용 AMP는 AMP를 사용하여 대화형 컨텐츠를 정의하는 방법을 설명하는 섹션이 업데이트되었습니다. [자세한 내용](../../delivery/using/defining-interactive-content.md)
-
-이메일 보관 섹션이 명확해졌습니다. [자세한 내용](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
 ## 2020년 1월 {#january-2020}
 
