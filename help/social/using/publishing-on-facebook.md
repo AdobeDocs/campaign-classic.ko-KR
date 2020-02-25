@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -159,7 +159,7 @@ source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 1. 필드에 페이지 이름 아래에 표시될 텍스트를 **[!UICONTROL Status]** 입력합니다.
 1. 필드에 발행물 제목을 **[!UICONTROL Name]** 입력합니다.
-1. 필드에 YouTube 비디오 코드를 **[!UICONTROL Video code]** 입력합니다. 예를 들어 &#39;http://www.youtube.com/watch?v=abc123456&#39;&#39; 링크의 경우 비디오 코드는 &#39;abc123456&#39;입니다.
+1. 필드에 YouTube 비디오 코드를 **[!UICONTROL Video code]** 입력합니다. 예를 들어 &#39;https://www.youtube.com/watch?v=abc123456&#39;&#39; 링크의 경우 비디오 코드는 &#39;abc123456&#39;입니다.
 1. 발행물 끝에 표시될 텍스트를 **[!UICONTROL Caption]** 필드에 입력합니다.
 1. 필드로 이동하여 제목 아래에 표시할 텍스트를 입력합니다 **[!UICONTROL Description]** .
 
