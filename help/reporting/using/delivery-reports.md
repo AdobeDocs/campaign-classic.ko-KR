@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+source-git-commit: b74ea9a6b079bbe88ed17a79e532bd8ce6ce13ae
 
 ---
 
@@ -35,19 +35,19 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
    기본적으로 다음 보고서를 사용할 수 있습니다.
 
-   * **[!UICONTROL Delivery throughput]** :전달 [처리량을 참조하십시오](#delivery-throughput).
-   * **[!UICONTROL Sharing to social networks]** :소셜 [네트워크에](#sharing-to-social-networks)공유를 참조하십시오.
-   * **[!UICONTROL Statistics on sharing activities]** :공유 [활동에](#statistics-on-sharing-activities)대한 통계를 참조하십시오.
+   * **[!UICONTROL Delivery throughput]** :전달 [처리량을 참조하십시오](../../reporting/using/global-reports.md#delivery-throughput).
+   * **[!UICONTROL Sharing to social networks]** :소셜 [네트워크에](../../reporting/using/global-reports.md#sharing-to-social-networks)공유를 참조하십시오.
+   * **[!UICONTROL Statistics on sharing activities]** :공유 [활동에](../../reporting/using/global-reports.md#statistics-on-sharing-activities)대한 통계를 참조하십시오.
    * **[!UICONTROL Hot clicks]** :핫 [클릭](#hot-clicks)참조
    * **[!UICONTROL Tracking statistics]** :추적 [통계 참조](#tracking-statistics)
    * **[!UICONTROL URLs and click streams]** :url을 [참조하고 스트림을](#urls-and-click-streams)클릭합니다.
    * **[!UICONTROL Tracking indicators]** :추적 [표시기를](#tracking-indicators)참조하십시오.
-   * **[!UICONTROL Non-deliverables and bounces]** :비 [산출물 및 바운스를 참조하십시오](#non-deliverables-and-bounces).
-   * **[!UICONTROL User activities]** :사용자 [활동을](#user-activities)참조하십시오.
+   * **[!UICONTROL Non-deliverables and bounces]** :비 [산출물 및 바운스를 참조하십시오](../../reporting/using/global-reports.md#non-deliverables-and-bounces).
+   * **[!UICONTROL User activities]** :사용자 [활동을](../../reporting/using/global-reports.md#user-activities)참조하십시오.
    * **[!UICONTROL Delivery summary]** :배달 [요약을 참조하십시오](#delivery-summary).
-   * **[!UICONTROL Subscription tracking]** :구독 [추적을](#subscription-tracking)참조하십시오.
-   * **[!UICONTROL Delivery statistics]** :게재 [통계를](#delivery-statistics)참조하십시오.
-   * **[!UICONTROL Breakdown of opens]** :의 [분류를](#breakdown-of-opens)참조하십시오.
+   * **[!UICONTROL Subscription tracking]** :구독 [추적을](../../reporting/using/global-reports.md#subscription-tracking)참조하십시오.
+   * **[!UICONTROL Delivery statistics]** :게재 [통계를](../../reporting/using/global-reports.md#delivery-statistics)참조하십시오.
+   * **[!UICONTROL Breakdown of opens]** :의 [분류를](../../reporting/using/global-reports.md#breakdown-of-opens)참조하십시오.
 
 ## 지표 추적 {#tracking-indicators}
 
@@ -55,7 +55,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 >[!NOTE]
 >
->텍스트 형식의 이메일에 연결된 오류 여백으로 인해 메시지 열기를 기반으로 계산되는 값은 항상 예측됩니다. 지표들은 이 오차를 고려한다 **[!UICONTROL Distinct opens/Sum of opens for the population reached]** . 열림 추적에 대한 자세한 내용은 추적 [열기를](#tracking-opens-)참조하십시오.
+>텍스트 형식의 이메일에 연결된 오류 여백으로 인해 메시지 열기를 기반으로 계산되는 값은 항상 예측됩니다. 지표들은 이 오차를 고려한다 **[!UICONTROL Distinct opens/Sum of opens for the population reached]** . 열림 추적에 대한 자세한 내용은 추적 [열기를](../../reporting/using/indicator-calculation.md#tracking-opens-)참조하십시오.
 
 ![](assets/s_ncs_user_tracking_synth_report.png)
 
@@ -78,7 +78,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
    >[!NOTE]
    >
-   >개별 사용자와 타깃팅된 수신자 간의 차이에 대한 자세한 내용은 타깃팅된 개인/ [수신자를](#targeted-persons---recipients)참조하십시오.
+   >개별 사용자와 타깃팅된 수신자 간의 차이에 대한 자세한 내용은 타깃팅된 개인/ [수신자를](../../reporting/using/indicator-calculation.md#targeted-persons---recipients)참조하십시오.
 
 **[!UICONTROL 3. Open and click-through rate]**
 
@@ -121,7 +121,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 **[!UICONTROL 6. Sharing activities to email and social networks]**
 
-이 섹션에는 각 소셜 네트워크에서 공유된 메시지 수가 표시됩니다. 자세한 내용은 소셜 네트워크에 [공유를 참조하십시오](#sharing-to-social-networks).
+이 섹션에는 각 소셜 네트워크에서 공유된 메시지 수가 표시됩니다. 자세한 내용은 소셜 네트워크에 [공유를 참조하십시오](../../reporting/using/global-reports.md#sharing-to-social-networks).
 
 ## URL 및 클릭 스트림 {#urls-and-click-streams}
 
@@ -137,7 +137,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
    >[!NOTE]
    >
-   >열림 추적에 대한 자세한 내용은 추적 [열기를](#tracking-opens-)참조하십시오.
+   >열림 추적에 대한 자세한 내용은 추적 [열기를](../../reporting/using/indicator-calculation.md#tracking-opens-)참조하십시오.
 
 * **[!UICONTROL Distinct clicks]** :배달에서 한 번 이상(가입 해지 링크 및 미러 페이지 제외) 클릭한 별개의 사람 수입니다. 표시된 비율은 성공적으로 배달된 메시지 수를 기준으로 계산됩니다.
 * **[!UICONTROL Cumulated clicks]** :대상화된 수신자의 총 클릭 수(가입 해지 링크 및 미러 페이지 제외). 표시된 비율은 성공적으로 전달된 메시지 수를 기준으로 계산됩니다.
@@ -199,6 +199,6 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 이 보고서는 배달을 최대한 효율적으로 하는 데 필요한 시간을 표시하는 값 및 파레토 차트를 제공합니다. 다음 지표가 사용됩니다.
 
-* **[!UICONTROL Opens]** :연 총 메시지 수의 비율에 도달하는 데 필요한 시간을 예상합니다. 텍스트 형식의 이메일은 고려되지 않습니다. 열림 추적에 대한 자세한 내용은 추적 [열기를](#tracking-opens-)참조하십시오.
+* **[!UICONTROL Opens]** :연 총 메시지 수의 비율에 도달하는 데 필요한 시간을 예상합니다. 텍스트 형식의 이메일은 고려되지 않습니다. 열림 추적에 대한 자세한 내용은 추적 [열기를](../../reporting/using/indicator-calculation.md#tracking-opens-)참조하십시오.
 * **[!UICONTROL Clicks]** :기록된 총 클릭 수의 비율에 도달하는 데 필요한 시간의 예상 옵트아웃 링크를 클릭해도 미러 페이지가 고려되지 않습니다.
 * **[!UICONTROL Transactions]** :메시지 수신 후 총 트랜잭션 수의 백분율을 달성하는 데 필요한 시간입니다. 트랜잭션을 고려하려면 트랜잭션 유형 웹 추적 태그를 일치하는 웹 페이지에 삽입해야 합니다. 웹 추적 구성은 [이 섹션에](../../configuration/using/about-web-tracking.md)설명되어 있습니다.
