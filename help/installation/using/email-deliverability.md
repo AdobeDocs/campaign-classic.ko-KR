@@ -15,25 +15,24 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21d808695bfde2fb3220964c066558ad30952443
+source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
 
 ---
 
 
-# 이메일 전달{#email-deliverability}
+# 기술 이메일 구성{#email-deliverability}
 
 ## 개요 {#overview}
 
-다음 섹션에서는 메시지를 전달할 때 Adobe Campaign 인스턴스의 출력을 제어하는 데 필요한 구성에 대한 개요를 제공합니다.
+다음 섹션에서는 이메일을 전달할 때 Adobe Campaign 인스턴스의 출력을 제어하는 데 필요한 구성에 대한 개요를 제공합니다.
 
 >[!NOTE]
 >
->일부 구성은 Adobe가 호스팅하는 배포를 위해서만 수행할 수 있습니다. 예를 들어 서버 및 인스턴스 구성 파일에 액세스하려면 다른 배포에 대한 자세한 내용은 호스팅 모델 [섹션](../../installation/using/hosting-models.md) 또는 [이 문서를](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)참조하십시오.\
->제공 능력과 관련된 개념과 모범 사례를 설명하는 [시작 안내서를](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 참조하십시오.
+>일부 구성은 Adobe가 호스팅하는 배포에만 수행할 수 있습니다. 예를 들어 서버 및 인스턴스 구성 파일에 액세스할 수 있습니다. 다른 배포에 대한 자세한 내용은 호스팅 모델 [섹션](../../installation/using/hosting-models.md) 또는 [이 문서를](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)참조하십시오.
 
 제공 능력과 관련된 개념과 우수 사례에 대한 자세한 내용은 이 [섹션을](../../delivery/using/about-deliverability.md)참조하십시오.
 
-Adobe Campaign 플랫폼이 메시지를 효율적으로 전송하고 수신하는 것과 관련된 모든 기술 권장 사항은 이 [섹션에](../../delivery/using/technical-recommendations.md)있습니다.
+Adobe Campaign 플랫폼을 통한 효율적인 이메일 전송 및 수신과 관련된 모든 기술 권장 사항은 이 [섹션에](../../delivery/using/technical-recommendations.md)있습니다.
 
 ## 운영 원칙 {#operating-principle}
 
