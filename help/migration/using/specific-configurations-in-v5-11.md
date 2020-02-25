@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -71,7 +71,7 @@ mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
 
 >[!NOTE]
 >
->자세한 내용은 http://dev.mysql.com/doc/refman/5.5/en/time-zone-support.html [페이지를 참조하십시오](http://dev.mysql.com/doc/refman/5.5/en/time-zone-support.html) .
+>자세한 내용은 https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.html [페이지를 참조하십시오](https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.html) .
 
 데이터베이스 구조를 수정한 경우(예: 특정 인덱스 생성, SQL 뷰 생성 등) 구성 중에 마이그레이션 시 특정 주의 사항을 수행해야 합니다. 실제로 마이그레이션 절차와의 비호환성으로 인해 특정 수정 사항이 생성될 수 있습니다. 예를 들어 타임스탬프 필드가 포함된 SQL **뷰를** 만드는 것은 **usetimestamptz** 옵션과 호환되지않습니다. 따라서 아래 권장 사항을 따르시기 바랍니다.
 
