@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -38,7 +38,7 @@ Campaign에는 다음 세 가지 유형의 배달 개체가 있습니다.
 
 예를 들어, 이 유형의 활동을 한 달에 한 번 실행하는 경우 1년 후에 12개의 게재로 끝납니다.
 
-반복 배달은 반복 배달 활동을 통해 워크플로우 내에서 [생성됩니다](../../workflow/using/recurring-delivery.md). 사용 중인 이 활동의 예는 다음 섹션에 나와 있습니다.타깃팅 [워크플로우에서](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-recurring-delivery-in-a-targeting-workflow)반복 게재 만들기.
+반복 배달은 반복 배달 활동을 통해 워크플로우 내에서 [생성됩니다](../../workflow/using/recurring-delivery.md). 사용 중인 이 활동의 예는 다음 섹션에 나와 있습니다.타깃팅 [워크플로우에서](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)반복 게재 만들기.
 
 ## 지속적인 전달 {#continuous-delivery}
 
