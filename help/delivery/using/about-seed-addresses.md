@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
+source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
 
 한 때 그것들을 사용하는 주된 이유는 **귀하의 메일링 목록 보호입니다**. 메일링 목록에 시드 주소를 삽입하면 서드 파티가 사용 중인지 확인할 수 있습니다. 시드 주소에 포함된 주소 때문에 메일링 목록에 전송된 배달이 수신됩니다.
 
-또한 시드 주소를 사용하면 교정을 위해 교정을 전송하기 전에 게재 개인화 및 렌더링을 **미리 보고 테스트할** 수 있습니다( [시드 주소를 증명으로](../../delivery/using/steps-validating-the-delivery.md#using-seed-addresses-as-proof)사용 참조).
+또한 시드 주소를 사용하면 교정을 위해 교정을 전송하기 전에 게재 개인화 및 렌더링을 **미리 보고 테스트할** 수 있습니다( [시드 주소를 증명으로](../../delivery/using/steps-defining-the-target-population.md#using-seed-addresses-as-proof)사용 참조).
 
 시드 주소 기능은 다음과 같은 이점을 제공합니다.
 
