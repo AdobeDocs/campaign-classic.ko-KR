@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4969c5e56f1911b3abfd770ca4f8f5ed25784a52
+source-git-commit: cb081f893b7da13cda5892409b063b8781e93b2a
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 4969c5e56f1911b3abfd770ca4f8f5ed25784a52
 
 >[!CAUTION]
 >
->Adobe Campaign 사용자는 외부 데이터베이스의 데이터를 처리하기 위해 외부 데이터베이스 및 Adobe Campaign 애플리케이션 서버에 대한 특정 권한이 필요합니다. 자세한 내용은 원격 데이터베이스 [액세스 권한](#remote-database-access-rights) 섹션을 참조하십시오.
+>Adobe Campaign 사용자는 외부 데이터베이스의 데이터를 처리하기 위해 외부 데이터베이스 및 Adobe Campaign 애플리케이션 서버에 대한 특정 권한이 필요합니다. 자세한 내용은 원격 데이터베이스 [액세스 권한](../../platform/using/remote-database-access-rights.md) 섹션을 참조하십시오.
 >
 >오류를 방지하려면 원격 공유 데이터에 액세스하는 연산자는 별도의 공간에서 작업해야 합니다.
 
@@ -38,7 +38,7 @@ source-git-commit: 4969c5e56f1911b3abfd770ca4f8f5ed25784a52
 1. 단추를 클릭하고 **[!UICONTROL New]** **[!UICONTROL External database]** 유형을 선택합니다.
 1. 외부 데이터베이스의 **[!UICONTROL Connection]** 매개 변수를 정의합니다.
 
-   ODBC **형식 데이터베이스에** 연결하려면 **[!UICONTROL Server]** 필드에 서버 이름이 아닌 ODBC 데이터 원본의 이름이 있어야 합니다. 또한 사용된 데이터베이스에 따라 특정 추가 구성이 필요할 수 있습니다. 데이터베이스 유형별 [특정 구성](#specific-configurations-by-database-type) 섹션을 참조하십시오.
+   ODBC **형식 데이터베이스에** 연결하려면 **[!UICONTROL Server]** 필드에 서버 이름이 아닌 ODBC 데이터 원본의 이름이 있어야 합니다. 또한 사용된 데이터베이스에 따라 특정 추가 구성이 필요할 수 있습니다. 데이터베이스 유형별 [특정 구성](../../platform/using/specific-configuration-database.md) 섹션을 참조하십시오.
 
 1. 매개 변수가 입력되면 **[!UICONTROL Test the connection]** 단추를 클릭하여 승인합니다.
 
