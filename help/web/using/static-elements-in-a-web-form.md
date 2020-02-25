@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
    >[!NOTE]
    >
-   >서버측에서 스크립트는 Campaign JSAPI 설명서에 [정의된 함수를 사용할 수](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)있습니다.
+   >서버측에서 스크립트는 Campaign JSAPI 설명서에 [정의된 함수를 사용할 수](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)있습니다.
 
 ## HTML 컨텐츠 삽입 {#inserting-html-content}
 
