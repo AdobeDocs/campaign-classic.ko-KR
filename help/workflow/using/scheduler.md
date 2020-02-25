@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7c4e4c7d7433f782f810fdc2ecdeeedacd72b6c6
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -52,6 +52,6 @@ source-git-commit: 7c4e4c7d7433f782f810fdc2ecdeeedacd72b6c6
 
    ![](assets/s_user_segmentation_scheduler5.png)
 
-스케줄러 활동을 사용하면 워크플로우가 동시에 실행되도록 할 수 있습니다. 예를 들어 스케줄러가 매시간마다 워크플로우 실행을 트리거하도록 할 수 있지만, 전체 워크플로우의 실행은 한 시간 이상 걸립니다. 워크플로우가 이미 실행 중인 경우 실행을 건너뛸 수 있습니다. 워크플로우의 동시 실행을 방지하는 방법에 대한 자세한 내용은 [이 페이지를](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-execution)참조하십시오.
+스케줄러 활동을 사용하면 워크플로우가 동시에 실행되도록 할 수 있습니다. 예를 들어 스케줄러가 매시간마다 워크플로우 실행을 트리거하도록 할 수 있지만, 전체 워크플로우의 실행은 한 시간 이상 걸립니다. 워크플로우가 이미 실행 중인 경우 실행을 건너뛸 수 있습니다. 워크플로우의 동시 실행을 방지하는 방법에 대한 자세한 내용은 [이 페이지를](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)참조하십시오.
 
 워크플로우가 가져오기와 같은 장기 작업을 실행하는 경우 또는 잠시 동안 wfserver 모듈이 중지된 경우 몇 시간 후에 전환을 활성화할 수도 있습니다. 이 경우 스케줄러가 활성화한 작업의 실행을 특정 시간 범위로 제한해야 할 수 있습니다.
