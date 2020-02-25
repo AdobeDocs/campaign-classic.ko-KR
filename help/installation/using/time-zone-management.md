@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7c2b5ce9afa45b472f161d6d62517513888e062e
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -103,5 +103,5 @@ Adobe Campaign 데이터베이스에 액세스하는 외부 도구와의 호환�
 * 유럽/런던,
 * 미국/뉴욕 등
 
-   이러한 값은 tz(Olson) 데이터베이스에서 가져옵니다. 자세한 내용은 http://en.wikipedia.org/wiki/List_of_tz_database_time_zones을 [참조하십시오](http://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
+   이러한 값은 tz(Olson) 데이터베이스에서 가져옵니다. 자세한 내용은 https://en.wikipedia.org/wiki/List_of_tz_database_time_zones을 [참조하십시오](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 
