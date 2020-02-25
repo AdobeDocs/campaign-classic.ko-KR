@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b836ca3179b85877ec917a3bf28c94dbbac7772
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 8b836ca3179b85877ec917a3bf28c94dbbac7772
 
 이 활동에 대한 구성 프로세스는 사용 가능한 옵션 측면에서 배달 템플릿을 만드는 프로세스와 유사합니다. For more on this, refer to this [section](../../delivery/using/about-templates.md).
 
-사용 중인 활동에 대한 예는 이 [섹션을](../../campaign/using/marketing-campaign-deliveries.md#creating-a-recurring-delivery-in-a-targeting-workflow)참조하십시오.
+사용 중인 활동에 대한 예는 이 [섹션을](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)참조하십시오.
 
 >[!NOTE]
 >
