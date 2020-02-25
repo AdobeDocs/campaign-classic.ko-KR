@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7aa381654805798fcdd24f588160bed15e037a2b
+source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign의 전달 기능 및 고급 캠페인 관리 기능과 사용자 
 
 ## 이메일 전달 기능을 구성하는 방법 {#how-to-configure-email-deliverability-}
 
-전달 [시작 안내서](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html)외에도 이메일 전달 기능 구성에 대한 섹션을 참조하여 Campaign 제공 기능을 최대화하도록 인스턴스를 구성하는 방법을 알아보십시오.
+전달 [시작 안내서](https://docs.adobe.com/content/help/en/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)외에도 이메일 전달 기능 구성에 대한 섹션을 참조하여 Campaign 제공 기능을 최대화하도록 인스턴스를 구성하는 방법을 알아보십시오.
 
 [자세한](../../installation/using/email-deliverability.md)내용을 보려면 여기를 클릭하십시오.
 
