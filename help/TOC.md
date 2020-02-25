@@ -5,7 +5,7 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
+source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
 
 ---
 
@@ -584,7 +584,7 @@ source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
    + 추가 구성 {#additional-configurations}
       + [캠페인 서버 구성](installation/using/configuring-campaign-server.md)
       + [LDAP를 통해 연결](installation/using/connecting-through-ldap.md)
-      + [이메일 전달](installation/using/email-deliverability.md)
+      + [기술 이메일 구성](installation/using/email-deliverability.md)
       + [이메일 보관](installation/using/email-archiving.md)
       + [시간대 관리](installation/using/time-zone-management.md)
       + [SpamAsser 구성](installation/using/configuring-spamassassin.md)
