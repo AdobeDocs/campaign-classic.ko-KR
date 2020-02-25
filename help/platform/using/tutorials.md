@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -56,4 +56,4 @@ source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
 * [이메일로](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html)시드 및 교정본 관리:adobe Campaign에서 기존 이메일에 시드와 교정을 추가하는 방법을 살펴볼 수 있습니다.
 * [Adobe Campaign 및 Microsoft Dynamics 365 통합](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/integrating/dynamics365-integration.html):crm 커넥터 기능을 통해 Adobe Campaign 및 Microsoft Dynamics를 연결하고 동기화하는 방법을 알아봅니다.
 
-이 짧은 비디오와 자세한 비디오 외에도 Adobe 웹 사이트에서 [교육 과정과](https://training.adobe.com/training/courses.html) [프레젠테이션 비디오를](https://www.adobe.com/training/video.html) 찾을 수 있습니다.
+이 짧은 비디오와 자세한 비디오 외에도 Adobe 웹 사이트에서 [교육 과정과](https://learning.adobe.com/catalog.html) [프레젠테이션 비디오를](https://www.adobe.com/training/video.html) 찾을 수 있습니다.
