@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71662675e347e5f5b289afa03e2898e6ce0ecaa9
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 71662675e347e5f5b289afa03e2898e6ce0ecaa9
 
 워크플로우 활동은 범주별로 그룹화됩니다. 동시에 4개의 탭을 사용할 수 있습니다.
 
-캠페인 워크플로우에서 **[!UICONTROL Events]** 탭이 탭으로 바뀝니다 **[!UICONTROL Deliveries]** . 이 탭의 활동은 작업 [활동](#action-activities) 섹션에 자세히 설명되어 있습니다.
+캠페인 워크플로우에서 **[!UICONTROL Events]** 탭이 탭으로 바뀝니다 **[!UICONTROL Deliveries]** . 이 탭의 활동은 작업 [활동](../../workflow/using/about-action-activities.md) 섹션에 자세히 설명되어 있습니다.
 
 ![](assets/wf-activity-tabs.png)
 
