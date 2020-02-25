@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
+source-git-commit: 47fd157e369ddf6c67f0b2b467799cecc6e5a822
 
 ---
 
@@ -169,7 +169,6 @@ Adobe Campaign에서 액세스할 수 있게 하려는 외부 데이터베이스
    /etc/init.d/nlserver6 stop
    /etc/init.d/nlserver6 start
    ```
-
 1. Campaign Classic에서 Snowflake 외부 계정을 구성합니다. 메뉴에서 **[!UICONTROL Explorer]**&#x200B;메뉴를 **[!UICONTROL Administration]** 펼쳐라.
 
 1. 메뉴를 펼치고 **[!UICONTROL Platform]** 클릭합니다 **[!UICONTROL External accounts]**.
@@ -393,7 +392,7 @@ FDA에서 Hadoop 외부 데이터베이스를 구성하는 방법에 대한 자�
    User/Password: admin/<your password here>
    ```
 
-1. 공유 연결 [](#creating-a-shared-connection) 만들기 섹션에 설명된 대로 Hadoop 외부 계정을 만듭니다.
+1. 공유 연결 [](../../message-center/using/creating-a-shared-connection.md) 만들기 섹션에 설명된 대로 Hadoop 외부 계정을 만듭니다.
 
 ### Linux용 {#for-linux}
 
@@ -448,7 +447,7 @@ FDA에서 Hadoop 외부 데이터베이스를 구성하는 방법에 대한 자�
    >
    >여기서 **UseNativeQuery** 매개 변수는 매우 중요합니다. 캠페인은 하이브를 인식하므로 UseNativeQuery가 설정되지 않으면 제대로 작동하지 않습니다. 일반적으로 드라이버 또는 하이브 SQL 커넥터는 쿼리를 다시 작성하고 열 순서를 변경합니다.
 
-   인증 설정은 하이브/Hadoop 구성에 따라 다릅니다. 예를 들어 HD Insight의 경우 [여기에](http://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm)설명된 대로 사용자/암호 인증에는 AuthTech=6을 사용합니다.
+   인증 설정은 하이브/Hadoop 구성에 따라 다릅니다. 예를 들어 HD Insight의 경우 [여기에](https://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm)설명된 대로 사용자/암호 인증에는 AuthTech=6을 사용합니다.
 
 1. 변수를 내보냅니다.
 
@@ -480,7 +479,7 @@ FDA에서 Hadoop 외부 데이터베이스를 구성하는 방법에 대한 자�
    isql vorac -v
    ```
 
-1. 공유 연결 [](#creating-a-shared-connection) 만들기 섹션에 설명된 대로 Hadoop 외부 계정을 만듭니다.
+1. 공유 연결 [](../../message-center/using/creating-a-shared-connection.md) 만들기 섹션에 설명된 대로 Hadoop 외부 계정을 만듭니다.
 
 ## Netezza 액세스 구성 {#configure-access-to-netezza}
 
@@ -529,7 +528,7 @@ FDA에서 Netezza 외부 데이터베이스에 연결하려면 Adobe Campaign �
    * **ODBCINI**:odbc.ini 파일의 위치(예: /etc/odbc.ini).
    * **NZ_ODBC_INI_PATH**:odbc.ini 파일의 위치입니다. 또한 Netezza는 odbc.ini 파일을 사용하기 위해 이 두 번째 변수를 필요로 합니다.
 
-1. 공유 연결 [](#creating-a-shared-connection) 만들기 섹션에 설명된 대로 Netezza 외부 계정을 만듭니다.
+1. 공유 연결 [](../../message-center/using/creating-a-shared-connection.md) 만들기 섹션에 설명된 대로 Netezza 외부 계정을 만듭니다.
 
 >[!NOTE]
 >
@@ -625,7 +624,7 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
    * customer.sh 파일을 사용하여 경로를 선언하는 경우:ld_LIBRARY_PATH 변수에 대해 /opt/sybase/IQ-16_0/lib64 경로를 추가합니다.
    * 그렇지 않은 경우 Unix 명령을 사용합니다.
 
-1. 공유 연결 [](#creating-a-shared-connection) 만들기 섹션에 설명된 대로 새 FDA 외부 계정을 만듭니다. Sybase IQ의 경우 서버 이름은 5단계에서 정의된 ODBC 연결(`<server_alias>`)에 해당합니다. 서버 이름이 반드시 필요한 것은 아닙니다.
+1. 공유 연결 [](../../message-center/using/creating-a-shared-connection.md) 만들기 섹션에 설명된 대로 새 FDA 외부 계정을 만듭니다. Sybase IQ의 경우 서버 이름은 5단계에서 정의된 ODBC 연결(`<server_alias>`)에 해당합니다. 서버 이름이 반드시 필요한 것은 아닙니다.
 
 >[!NOTE]
 >
@@ -635,7 +634,7 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
 
 FDA에서 Teradata 외부 데이터베이스에 연결하려면 Adobe Campaign 서버에 특정 추가 구성이 필요합니다. Teradata 데이터베이스를 구성하는 방법에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html)참조하십시오.
 
-1. Teradata [용 ODBC 드라이버를 설치합니다](http://downloads.teradata.com/download/connectivity/odbc-driver/linux).
+1. Teradata [용 ODBC 드라이버를 설치합니다](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
 
    Red Hat(또는 CentOS)/Suse에 다음 순서로 설치할 수 있는 세 개의 패키지로 구성됩니다.
 
@@ -712,4 +711,4 @@ FDA에서 SAP HANA 외부 데이터베이스에 연결하려면 Adobe Campaign �
    * **LD_LIBRARY_PATH**:여기에는 기본적으로 SAP Hana 클라이언트(/usr/sap/hdbclient/libodbcHDB.so)에 대한 링크가 포함되어야 합니다.
    * **ODBCINI**:odbc.ini 파일의 위치(예: /etc/odbc.ini).
 
-1. 공유 연결 [](#creating-a-shared-connection) 만들기 섹션에 설명된 대로 SAP 하나 외부 계정을 만듭니다.
+1. 공유 연결 [](../../message-center/using/creating-a-shared-connection.md) 만들기 섹션에 설명된 대로 SAP 하나 외부 계정을 만듭니다.
