@@ -16,7 +16,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -29,7 +29,7 @@ DCE 편집 창은 세 개의 서로 다른 섹션으로 분류됩니다. 이러�
 
 ![](assets/dce_decoupe_window_nb.png)
 
-1. 상단 **섹션은** 사용자에게 보내는 메시지의 표시 영역입니다. 이러한 메시지는 웹 애플리케이션 상태 또는 작성 중인 전달의 상태와 컨텐츠와 관련된 경고 및 오류 메시지를 나타냅니다. 자세한 내용은 HTML [컨텐츠 상태를](#html-content-statuses)참조하십시오.
+1. 상단 **섹션은** 사용자에게 보내는 메시지의 표시 영역입니다. 이러한 메시지는 웹 애플리케이션 상태 또는 작성 중인 전달의 상태와 컨텐츠와 관련된 경고 및 오류 메시지를 나타냅니다. 자세한 내용은 HTML [컨텐츠 상태를](../../web/using/content-editing-best-practices.md#html-content-statuses)참조하십시오.
 1. 창 **왼쪽에** 있는 섹션은 컨텐츠 편집 영역입니다. 이 영역에서 사용자는 팝업 도구 모음을 사용하여 컨텐츠와 직접 상호 작용할 수 있습니다.이미지에 링크 삽입, 글꼴 변경, 필드 삭제 등 자세한 내용은 양식 [편집을](../../web/using/editing-content.md#editing-forms)참조하십시오.
 1. 창 **오른쪽의** 섹션은 컨트롤 패널 영역입니다. 이 영역은 편집기에 대한 다양한 옵션, 특히 페이지 머리글 및 블록의 일반 옵션 구성과 관련된 옵션을 그룹화합니다.테두리를 추가하고, 데이터베이스 필드를 입력 영역에 연결하고, 웹 페이지 속성에 액세스하는 등의 작업을 수행합니다. 자세한 내용은 전역 옵션 및 [컨텐츠](#global-options) 편집 [섹션을](../../web/using/editing-content.md) 참조하십시오.
 
