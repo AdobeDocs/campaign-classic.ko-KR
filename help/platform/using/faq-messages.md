@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 994ec35e37a1c26e83a8dd2ae31f6594cadd4c45
+source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
 
 ---
 
@@ -106,7 +106,7 @@ Campaign Classic을 사용하면 개인화된 첨부 파일을 이메일에 추�
 
 Adobe Campaign에는 게재를 모니터링하고 메시지를 추적하는 보고서 세트가 포함되어 있습니다.
 
-[내장된 보고서에](../../reporting/using/reports-on-deliveries.md#delivery-reports)대한 자세한 내용을 보려면 여기를 클릭하십시오.
+[내장된 보고서에](../../reporting/using/delivery-reports.md)대한 자세한 내용을 보려면 여기를 클릭하십시오.
 
 ### Adobe Campaign은 검역 주소를 어떻게 검증 및 관리합니까? {#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
 
