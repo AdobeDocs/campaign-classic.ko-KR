@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -63,7 +63,7 @@ LAN의 응용 프로그램 서버는 최종 사용자를 지원하며 모든 반
 
 ### 응용 프로그램 서버 설치 {#installing-the-application-server}
 
-Adobe Campaign 응용 프로그램 서버에서 독립 실행형 인스턴스를 설치하는 단계를 따라 데이터베이스를 만듭니다(12단계). 설치 [및 구성(단일 시스템)을 참조하십시오](#installing-and-configuring--single-machine-).
+Adobe Campaign 응용 프로그램 서버에서 독립 실행형 인스턴스를 설치하는 단계를 따라 데이터베이스를 만듭니다(12단계). 설치 [및 구성(단일 시스템)을 참조하십시오](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
 컴퓨터가 추적 서버가 아니므로 웹 서버와의 통합을 고려하지 마십시오.
 
