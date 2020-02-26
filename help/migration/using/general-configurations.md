@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -61,7 +61,7 @@ TIMEZONE을 사용하는 TIMESTAMP 모드를 사용하려면 **-userTimestamptz:
 
 1. 표준 시간대 파일이 두 서버 모두에서 동일한지 확인합니다.
 
-자세한 내용은 다음을 참조하십시오.https://download.oracle.com/docs/cd/E11882_01/server.112/e10729/ch4datetime.htm [](http://download.oracle.com/docs/cd/E11882_01/server.112/e10729/ch4datetime.htm).
+자세한 내용은 다음을 참조하십시오.https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004 [](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004).
 
 클라이언트와 서버 간의 표준 시간대 맞춤이 잘못되면 일부 시차가 발생할 수 있습니다. 따라서 클라이언트와 서버 측에서 동일한 버전의 Oracle 라이브러리를 사용하는 것이 좋습니다. 두 시간대는 동일해야 합니다.
 
