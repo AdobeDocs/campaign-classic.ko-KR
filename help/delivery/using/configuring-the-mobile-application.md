@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+source-git-commit: a358da7c499b5ee780563b4aef0eb2f4463186cf
 
 ---
 
@@ -125,7 +125,7 @@ iOS의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
 
 1. 을 **[!UICONTROL Next]** 클릭하여 개발 응용 프로그램 구성을 시작합니다.
 
-1. Adobe Campaign과 SDK를 통해 애플리케이션 코드에 동일한 것이 **[!UICONTROL Integration key]** 정의되어 있는지 확인합니다. 자세한 내용은 다음을 참조하십시오.Campaign [SDK를 모바일 애플리케이션에](#integrating-campaign-sdk-into-the-mobile-application)통합합니다. 각 응용 프로그램에만 적용되는 이 통합 키를 사용하면 모바일 응용 프로그램을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
+1. Adobe Campaign과 SDK를 통해 애플리케이션 코드에 동일한 것이 **[!UICONTROL Integration key]** 정의되어 있는지 확인합니다. 자세한 내용은 다음을 참조하십시오.Campaign [SDK를 모바일 애플리케이션에](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)통합합니다. 각 응용 프로그램에만 적용되는 이 통합 키를 사용하면 모바일 응용 프로그램을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
 
    >[!NOTE]
    >
@@ -256,7 +256,7 @@ Android의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
 
 1. a를 **[!UICONTROL Label]**&#x200B;입력합니다.
 
-1. Adobe Campaign과 SDK를 통해 애플리케이션 코드에 동일한 것이 **[!UICONTROL Integration key]** 정의되어 있는지 확인합니다. 자세한 내용은 다음을 참조하십시오.Campaign [SDK를 모바일 애플리케이션에](#integrating-campaign-sdk-into-the-mobile-application)통합합니다.
+1. Adobe Campaign과 SDK를 통해 애플리케이션 코드에 동일한 것이 **[!UICONTROL Integration key]** 정의되어 있는지 확인합니다. 자세한 내용은 다음을 참조하십시오.Campaign [SDK를 모바일 애플리케이션에](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)통합합니다.
 
    >[!NOTE]
    >
@@ -280,7 +280,7 @@ Android의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
 1. 탭에서 매핑을 **[!UICONTROL Subscription parameters]** 정의합니다.
    >[!CAUTION]
    >
-   >탭의 구성 이름이 모바일 애플리케이션 코드의 구성 이름과 동일한지 **[!UICONTROL Subscription parameters]** 확인하십시오. 모바일 애플리케이션에 [Campaign SDK](#integrating-campaign-sdk-into-the-mobile-application) 통합 섹션을 참조하십시오.
+   >탭의 구성 이름이 모바일 애플리케이션 코드의 구성 이름과 동일한지 **[!UICONTROL Subscription parameters]** 확인하십시오. 모바일 애플리케이션에 [Campaign SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) 통합 섹션을 참조하십시오.
 
 ### 4단계:Android 리치 알림 만들기 {#creating-android-delivery}
 
