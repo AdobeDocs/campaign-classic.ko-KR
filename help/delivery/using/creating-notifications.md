@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
+source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
    >
    >**[!UICONTROL Badge]** 및 **[!UICONTROL Alert and badge]** 문자 알림을 통해 배지 값(모바일 애플리케이션 로고 위의 숫자)을 수정할 수 있습니다. 배지를 새로 고치려면 0을 값으로 입력해야 합니다. 필드가 비어 있으면 배지 값이 변경되지 않습니다.
 
-1. 을 **[!UICONTROL Action button]** 사용하면 경고 알림(페이로드의&#x200B;**action_loc_key** 필드)에 나타나는 작업 단추에 대한 레이블을 정의할 수 있습니다. iOS 응용 프로그램이 지역화할 수 있는 문자열(**Localizable.strings**)을 관리하는 경우 이 필드에 해당 키를 입력합니다. 응용 프로그램에서 현지화 가능한 텍스트를 관리하지 않는 경우 작업 단추에 표시할 레이블을 입력합니다. 현지화 가능한 문자열에 대한 자세한 내용은 Apple [설명서를](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.md#//apple_ref/doc/uid/TP40008194-CH10-SW1) 참조하십시오.
+1. 을 **[!UICONTROL Action button]** 사용하면 경고 알림(페이로드의&#x200B;**action_loc_key** 필드)에 나타나는 작업 단추에 대한 레이블을 정의할 수 있습니다. iOS 응용 프로그램이 지역화할 수 있는 문자열(**Localizable.strings**)을 관리하는 경우 이 필드에 해당 키를 입력합니다. 응용 프로그램에서 현지화 가능한 텍스트를 관리하지 않는 경우 작업 단추에 표시할 레이블을 입력합니다. 현지화 가능한 문자열에 대한 자세한 내용은 Apple [설명서를](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1) 참조하십시오.
 1. 알림을 받을 때 모바일 터미널에서 재생할 사운드를 **[!UICONTROL Play a sound]** 필드에서 선택합니다.
 
    >[!NOTE]
