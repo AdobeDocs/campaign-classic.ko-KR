@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4e6a9273c920c9d125ec3fb18a0628109475a4e
+source-git-commit: 18309c190c351cc57f7af24f48b2a772c1840319
 
 ---
 
@@ -39,12 +39,12 @@ source-git-commit: c4e6a9273c920c9d125ec3fb18a0628109475a4e
 * **[!UICONTROL Sharing to social networks]** :소셜 [네트워크에](#sharing-to-social-networks)공유를 참조하십시오.
 * **[!UICONTROL Statistics on sharing activities]** :공유 [활동에](#statistics-on-sharing-activities)대한 통계를 참조하십시오.
 * **[!UICONTROL Operating systems]** :운영 [체제를](#operating-systems)참조하십시오.
-* **[!UICONTROL URLs and click streams]** :url을 [참조하고 스트림을](#urls-and-click-streams)클릭합니다.
-* **[!UICONTROL Tracking indicators]** :추적 [표시기를](#tracking-indicators)참조하십시오.
+* **[!UICONTROL URLs and click streams]** :url을 [참조하고 스트림을](../../reporting/using/delivery-reports.md#urls-and-click-streams)클릭합니다.
+* **[!UICONTROL Tracking indicators]** :추적 [표시기를](../../reporting/using/delivery-reports.md#tracking-indicators)참조하십시오.
 * **[!UICONTROL Non-deliverables and bounces]** :비 [산출물 및 바운스를 참조하십시오](#non-deliverables-and-bounces).
 * **[!UICONTROL User activities]** :사용자 [활동을](#user-activities)참조하십시오.
 * **[!UICONTROL Subscription tracking]** :구독 [추적을](#subscription-tracking)참조하십시오.
-* **[!UICONTROL Delivery summary]** :배달 [요약을 참조하십시오](#delivery-summary).
+* **[!UICONTROL Delivery summary]** :배달 [요약을 참조하십시오](../../reporting/using/delivery-reports.md#delivery-summary).
 * **[!UICONTROL Delivery statistics]** :게재 [통계를](#delivery-statistics)참조하십시오.
 * **[!UICONTROL Breakdown of opens]** :의 [분류를](#breakdown-of-opens)참조하십시오.
 
@@ -64,7 +64,7 @@ source-git-commit: c4e6a9273c920c9d125ec3fb18a0628109475a4e
 
 다음 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL Opens]** :연 총 메시지 수입니다. 텍스트 형식의 이메일은 고려되지 않습니다. 열림 추적에 대한 자세한 내용은 추적 [열기를](#tracking-opens-)참조하십시오.
+* **[!UICONTROL Opens]** :연 총 메시지 수입니다. 텍스트 형식의 이메일은 고려되지 않습니다. 열림 추적에 대한 자세한 내용은 추적 [열기를](../../reporting/using/indicator-calculation.md#tracking-opens-)참조하십시오.
 * **[!UICONTROL Clicks]** :배달에서 링크에 대한 총 클릭 수입니다. 구독 취소 링크 및 미러 페이지의 클릭은 고려되지 않습니다.
 * **[!UICONTROL Transactions]** :메시지를 받은 후의 총 트랜잭션 수입니다. 트랜잭션을 고려하려면 트랜잭션 유형 웹 추적 태그를 일치하는 웹 페이지에 삽입해야 합니다. 웹 추적 구성은 [이 섹션에](../../configuration/using/about-web-tracking.md)설명되어 있습니다.
 
@@ -302,7 +302,7 @@ You can open up each line of the value table by clicking the [+] symbol. 각 도
 
 이 보고서는 해당 기간 동안 운영 체제, 장치 및 브라우저별 열기 분류를 보여줍니다. 각 범주에 대해 두 개의 차트가 사용됩니다. 첫 번째 옵션은 컴퓨터 및 모바일 장치에서 여는 것과 관련된 통계를 표시합니다. 두 번째는 모바일 장치에서 열리는 경우에만 관련된 통계를 표시합니다.
 
-연 수는 열린 총 메시지 수에 해당합니다. 텍스트 형식 이메일은 카운트되지 않습니다. 추적이 열리면 추적 열기 [섹션을 참조하십시오](#tracking-opens-) .
+연 수는 열린 총 메시지 수에 해당합니다. 텍스트 형식 이메일은 카운트되지 않습니다. 추적이 열리면 추적 열기 [섹션을 참조하십시오](../../reporting/using/indicator-calculation.md#tracking-opens-) .
 
 ![](assets/dlv_useragent_report.png)
 
