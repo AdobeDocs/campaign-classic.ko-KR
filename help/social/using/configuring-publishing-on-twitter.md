@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign이 Twitter 계정으로 트윗을 전송하려면 해당 계정�
 
 먼저 하나 이상의 Twitter 계정을 만들어 트윗을 보낼 수 있습니다.
 
-Twitter 계정을 만들려면 http://twitter.com으로 [이동하십시오](http://twitter.com).
+Twitter 계정을 만들려면 https://twitter.com으로 [이동하십시오](https://twitter.com).
 
 ## Twitter에서 테스트 계정 만들기 {#creating-a-test-account-on-twitter}
 
