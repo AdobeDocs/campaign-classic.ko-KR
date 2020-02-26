@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 994ec35e37a1c26e83a8dd2ae31f6594cadd4c45
+source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
 
 ---
 
@@ -106,7 +106,7 @@ Adobe Campaign 디지털 콘텐츠 편집기를 사용하여 랜딩 페이지를
 
 ## 배송을 추적하려면 어떻게 해야 합니까? {#how-can-i-track-deliveries-}
 
-전용 [배달 보고서를](../../reporting/using/reports-on-deliveries.md#delivery-reports) 통해 Campaign Classic으로 전송된 배달을 추적한 다음 배달을 모니터링할 수 있습니다.
+전용 [배달 보고서를](../../reporting/using/delivery-reports.md) 통해 Campaign Classic으로 전송된 배달을 추적한 다음 배달을 모니터링할 수 있습니다.
 
 이 [페이지에서](https://helpx.adobe.com/campaign/kb/acc-tracking.html)Campaign의 추적 관리에 대해 자세히 알아보십시오.
 
