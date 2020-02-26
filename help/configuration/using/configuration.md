@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -96,7 +96,7 @@ XML 문서에는 문서 이름 및 네임스페이스를 지정하는 **`<navtre
 
 명령 구분 기호를 사용하면 명령 간 분리 막대를 표시할 수 있습니다. 명령 레이블에 포함된 **&#39;-&#39;** 값으로 식별됩니다.
 
-입력 매개 변수가 있는 **`<soapcall>`** 태그의 선택 사항은 실행할 SOAP 메서드 호출을 정의합니다. SOAP API에 대한 자세한 내용은 Campaign JSAPI [설명서를 참조하십시오](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html).
+입력 매개 변수가 있는 **`<soapcall>`** 태그의 선택 사항은 실행할 SOAP 메서드 호출을 정의합니다. SOAP API에 대한 자세한 내용은 Campaign JSAPI [설명서를 참조하십시오](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
 양식 컨텍스트는 **`<enter>`** 태그에서 초기화 시 업데이트할 수 있습니다. 이 태그에 대한 자세한 내용은 입력 양식에 대한 설명서를 참조하십시오.
 
@@ -269,7 +269,7 @@ XML 문서에는 문서 이름 및 네임스페이스를 지정하는 **`<navtre
 
 명령 구분 기호를 사용하면 명령 간 분리 막대를 표시할 수 있습니다. 명령 레이블에 포함된 **&#39;-&#39;** 값으로 식별됩니다.
 
-입력 매개 변수가 있는 **`<soapcall>`** 태그의 선택 사항은 실행할 SOAP 메서드 호출을 정의합니다. SOAP API에 대한 자세한 내용은 Campaign JSAPI [설명서를 참조하십시오](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html).
+입력 매개 변수가 있는 **`<soapcall>`** 태그의 선택 사항은 실행할 SOAP 메서드 호출을 정의합니다. SOAP API에 대한 자세한 내용은 Campaign JSAPI [설명서를 참조하십시오](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
 양식 컨텍스트는 **`<enter>`** 태그를 통해 초기화 시 업데이트할 수 있습니다. 이 태그에 대한 자세한 내용은 입력 양식 설명서를 참조하십시오.
 
