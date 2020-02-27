@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 47fd157e369ddf6c67f0b2b467799cecc6e5a822
+source-git-commit: f081df28691acf45dcc62757466d15d39753fa85
 
 ---
 
@@ -165,10 +165,10 @@ Adobe Campaign에서 액세스할 수 있게 하려는 외부 데이터베이스
 
 1. ODBC 드라이버를 다운로드하고 설치한 후 Campaign Classic을 다시 시작해야 합니다. 이렇게 하려면 다음 명령을 실행합니다.
 
-     ```
-    /etc/init.d/nlserver6 stop
-    /etc/init.d/nlserver6 start
-     ```
+   ```
+   /etc/init.d/nlserver6 stop
+   /etc/init.d/nlserver6 start
+   ```
 
 1. Campaign Classic에서 Snowflake 외부 계정을 구성합니다. 메뉴에서 **[!UICONTROL Explorer]**&#x200B;메뉴를 **[!UICONTROL Administration]** 펼쳐라.
 
