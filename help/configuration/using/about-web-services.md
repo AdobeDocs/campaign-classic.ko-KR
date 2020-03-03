@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: a047e4af6e31c54fa2444943a18da5913e115c09
 
 ---
 
@@ -180,6 +180,6 @@ catch (SoapException e)
 
 서버 URL은 다음과 같습니다.
 
-[https://`<server>`/nl/jsp/soaprouter.jsp&#39;](https://XXXX//nl/jsp/soaprouter.jsp)
+https://serverName/nl/jsp/soaprouter.jsp
 
 Adobe **`<server>`** Campaign 애플리케이션 서버(**nlserver 웹**)와 함께
