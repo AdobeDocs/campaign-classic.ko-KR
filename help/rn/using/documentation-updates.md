@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 230ff1a8453cf512b7da828cdcdd49edca59331c
+source-git-commit: 7082ff9c8ce18f12734831bc4f00c9a1b71376b3
 
 ---
 
@@ -25,6 +25,10 @@ Adobe Campaign Classic 설명서의 모든 최신 업데이트에 대해 알아�
 이 페이지에는 Adobe Campaign Classic의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
 Adobe Campaign Classic 릴리스 [노트를 참조할 수도 있습니다](../../rn/using/latest-release.md).
+
+## 2020년 3월 {#march-2020}
+
+데이터 모델 우수 사례 페이지는 시퀀스, 성능, [큰 테이블](../../configuration/using/data-model-best-practices.md#sequences)등 [새로운](../../configuration/using/data-model-best-practices.md#performance) 섹션으로 [](../../configuration/using/data-model-best-practices.md#large-tables)업데이트되었습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md)
 
 ## 2020년 2월 {#february-2020}
 
