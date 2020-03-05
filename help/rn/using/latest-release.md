@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d94ded3b87244a7cd51a15c1ebe409c9fdfcd843
+source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 
 ---
 
@@ -31,17 +31,17 @@ source-git-commit: d94ded3b87244a7cd51a15c1ebe409c9fdfcd843
    <td><img src="assets/red3.png"/><strong>가치 하락</strong></td> 
   </tr> 
    <tr> 
-   <td>최신 안정적인 빌드를 사용할 수 있습니다. <br>프로덕션에서 인증 강화 </td>
-   <td>Adobe에서 인증한 빌드. <br>프로덕션 확인 대기 중입니다. </td>
-   <td>버그 수정을 통해 새로운 빌드를 사용할 수 있습니다. <br>업데이트가 필요합니다. </td>
-   <td>알려진 회귀 포함 <br>업데이트는 필수입니다. </td>
+   <td>최신 안정적인 빌드를 사용할 수 있습니다. 프로덕션에서 인증 강화<br> </td>
+   <td>Adobe에서 인증한 빌드. 프로덕션 확인 대기 중입니다.<br> </td>
+   <td>버그 수정을 통해 새로운 빌드를 사용할 수 있습니다. 업데이트가 필요합니다.<br> </td>
+   <td>알려진 회귀 포함 업데이트는 필수입니다.<br> </td>
   </tr> 
  </tbody> 
 </table>
 
-안정적인 [마지막 빌드](../../rn/using/release--19-1.md#release-19-1-4-build-9032) (GA)를 보려면 **** 여기를 클릭하십시오.
+마지막 **안정적인 빌드는** 9032(205c981c3)입니다. 여기를 [클릭하십시오.](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/blue-2.png) 릴리스 20.1 - 빌드 9122 {#release-20-1-build-XXXX}
+## ![](assets/blue_2.png) 릴리스 20.1 - 빌드 9122 {#release-20-1-build-9122}
 
 _2020년 2월 17일_
 
@@ -97,7 +97,7 @@ _2020년 2월 17일_
 
 * 푸시 알림 기능(nms:address 및 nms:appSubscriptionRcp)에서 사용하는 표의 정리 및 격리 관리가 개선되었습니다. iOS(HTTP2 커넥터 전용)의 경우 이제 비활성화된 토큰은 Android의 경우와 동일하게 처리됩니다. 이제 NmsAppSubscriptionRcp 테이블에서 disable 플래그가 설정됩니다. [자세한 내용](../../production/using/database-cleanup-workflow.md#subscription-cleanup--nmac-)
 
-* JavaScript 코드 및 **고급 JavaScript 코드** 워크플로우 활동에 시간 초과 **기간을 정의하는 새로운 옵션이 추가되었습니다** . 이렇게 하면 javascript 실행 단계가 너무 오랫동안 실행되지 않습니다. 제한 시간이 경과하면 워크플로우가 중지됩니다. 기본 제한 시간은 1시간입니다. [자세한 내용](../../workflow/using/sql-code-and-javascript-code.md)
+* JavaScript 코드 **및 고급 JavaScript 코드****** 워크플로우 활동에 제한 시간을 정의하는 새로운 옵션이 추가되었습니다. 이렇게 하면 javascript 실행 단계가 너무 오랫동안 실행되지 않습니다. 제한 시간이 경과하면 워크플로우가 중지됩니다. 기본 제한 시간은 1시간입니다. [자세한 내용](../../workflow/using/sql-code-and-javascript-code.md)
 
 * 이제 mid-sourcing 서버에서 일치하는 관련성이 없으면 배달 분석이 중지되고 해당 오류 메시지가 표시됩니다.
 
