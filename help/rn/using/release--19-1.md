@@ -15,20 +15,41 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba5496a008a28a29fc8e2032f31355a7c34f3ef8
+source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 
 ---
 
 
 # 릴리스 19.1{#release-19-1}
 
-## 릴리스 19.1.6 - 빌드 9035 {#release-19-1-6-build-9035}
+[업그레이드](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) 빌드| [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스](../../rn/using/release--19-1.md) | [더 이상 사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td><img src="assets/green3.png"/><strong>일반 가용성</strong></td>
+   <td><img src="assets/blue3.png"/><strong>릴리스 후보</strong></td> 
+   <td><img src="assets/orange3.png"/><strong>더 이상 사용할 수 없음</strong></td> 
+   <td><img src="assets/red3.png"/><strong>가치 하락</strong></td> 
+  </tr> 
+   <tr> 
+   <td>최신 안정적인 빌드를 사용할 수 있습니다. 프로덕션에서 인증 강화<br> </td>
+   <td>Adobe에서 인증한 빌드. 프로덕션 확인 대기 중입니다.<br> </td>
+   <td>버그 수정을 통해 새로운 빌드를 사용할 수 있습니다. 업데이트가 필요합니다.<br> </td>
+   <td>알려진 회귀 포함 업데이트는 필수입니다.<br> </td>
+  </tr> 
+ </tbody> 
+</table>
+
+마지막 **안정적인 빌드는** 9032(205c981c3)입니다. 여기를 [클릭하십시오.](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+
+## ![](assets/orange_2.png) 릴리스 19.1.6 - 빌드 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
 >이 빌드는 온-프레미스 설치용입니다. 하이브리드 배포의 경우 호스팅된 인스턴스는 9032 빌드를 계속 실행합니다. 9032와 호환되지 않으므로 마케팅 인스턴스를 9035 빌드로 업그레이드하지 마십시오.
 
-2019년 10월 3일
+_2019년 10월 3일_
 
 **향상된 기능**
 
@@ -38,13 +59,9 @@ source-git-commit: ba5496a008a28a29fc8e2032f31355a7c34f3ef8
 * Mid-Sourcing 서버에서 특정 메시지가 처리되지 않는 문제를 해결했습니다. (NEO 파섹)
 * SQL 데이터 관리 작업의 전체 사용을 방해하는 문제를 수정했습니다(right라는 &quot;SQL 데이터 관리&quot;가 누락됨).
 
-## 릴리스 19.1.5 - 빌드 9033{#release-19-1-5-build-9033}
+## ![](assets/orange_2.png) 릴리스 19.1.5 - 빌드 9033{#release-19-1-5-build-9033}
 
-2019년 8월 13일
-
->[!CAUTION]
->
->이 건물은 회수되었습니다. 최신 빌드로 [업그레이드하거나](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) 기술 지원에 [](https://support.neolane.net/)문의하십시오.
+_2019년 8월 13일_
 
 **향상된 기능**
 
@@ -57,43 +74,31 @@ source-git-commit: ba5496a008a28a29fc8e2032f31355a7c34f3ef8
 
 ## 릴리스 19.1.4 - 빌드 9032{#release-19-1-4-build-9032}
 
-**2019년 12월 17일**:다음 수정 사항이 포함된 새 빌드(9032-9d34fb17e)를 참조하십시오.
+![](assets/green_2.png) 2020 **년 3월 5일**:다음 수정 사항이 포함된 새 빌드(9032-...205c981c3)를 참조하십시오.
+
+* SSL을 통해 FTP를 사용하는 외부 계정 문제를 수정했습니다. (NEO 파섹)
+
+![](assets/orange_2.png) 2019 **년 12월 17일**:다음 수정 사항이 포함된 새 빌드(9032-...9d34fb17e):
 
 * 다음 통신 채널에 대한 추적 문제를 수정했습니다.모바일(SMS, MMS), 푸시(iOS, Android) 및 소셜 네트워크(Facebook, Twitter).
 (NEO 파섹)
 
-**2019년 12월 11일**:다음과 같은 수정 사항이 포함된 새 빌드(9032-e28b428b7)가 포함되어 있습니다.
-
->[!CAUTION]
->
->이 건물은 회수되었습니다. 최신 빌드로 [업그레이드하거나](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) 기술 지원에 [](https://support.neolane.net/)문의하십시오.
+![](assets/orange_2.png) 2019 **년 12월 11일**:새 빌드(9032-...e28b428b7). 다음 수정 사항이 포함되어 있습니다.
 
 * MSSQL 데이터베이스를 사용하여 메시지를 전송할 때 성능 문제가 해결되었습니다. (NEO 파섹
 
-**2019년 11월 20일**:다음 수정 사항이 포함된 새 빌드(9032-3468c7bb5)를 참조하십시오.
-
->[!CAUTION]
->
->이 건물은 회수되었습니다. 최신 빌드로 [업그레이드하거나](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) 기술 지원에 [](https://support.neolane.net/)문의하십시오.
+![](assets/orange_2.png) 2019 **년 11월 20일**:다음 수정 사항이 포함된 새 빌드(9032-...3468c7bb5)를 참조하십시오.
 
 * IMS 인증을 통한 로그인 문제가 해결되었습니다. (NEO 파섹)
 * 여러 게시에 누적 보고서를 표시할 때 발생하는 문제를 수정했습니다. (NEO 파섹)
 * 웹 서버 충돌을 차단하거나 차단할 수 있는 문제를 수정했습니다.
 
-**2019년 9월 19일**:다음 수정 사항이 포함된 새 빌드(9032-cee805c93):
-
->[!CAUTION]
->
->이 건물은 회수되었습니다. 최신 빌드로 [업그레이드하거나](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) 기술 지원에 [](https://support.neolane.net/)문의하십시오.
+![](assets/orange_2.png) 2019 **년 9월 19일**:새 빌드(9032-...cee805c93). 다음 수정 사항이 포함되어 있습니다.
 
 * Salesforce용 CRM 커넥터를 사용할 때 발생하는 문제가 해결되었습니다. (NEO 파섹)
 * 트랜잭션 메시지를 보낼 때 성능 문제가 발생할 수 있는 색인 문제를 수정했습니다.
 
-**2019년 8월 13일**:다음 수정 사항이 포함된 초기 19.1.4 빌드:
-
->[!CAUTION]
->
->이 건물은 회수되었습니다. 최신 빌드로 [업그레이드하거나](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) 기술 지원에 [](https://support.neolane.net/)문의하십시오.
+![](assets/orange_2.png) 2019 **년 8월 13일**:다음 수정 사항이 포함된 초기 19.1.4 빌드:
 
 * 마법사 구성 중에 원하지 않는 오류 메시지를 생성하는 스케줄러 작업 문제를 수정했습니다. NEO 파섹 (NEO 파섹)
 * 테스트 활동이 두 번 실행될 때 워크플로가 중지될 수 있는 NEO-12727에 의해 발생하는 회귀 문제를 수정했습니다. (NEO 파섹)
@@ -101,13 +106,9 @@ source-git-commit: ba5496a008a28a29fc8e2032f31355a7c34f3ef8
 * 더 이상 이메일에 포함되지 않아 배달 문제가 발생하는 DKIM 키 문제를 수정했습니다. (NEO 파섹)
 * 워크플로우 예약과 관련된 다양한 문제를 수정했습니다. 워크플로우는 스케줄러 구성을 고려하지 않고 하루에 한 번 실행되도록 예약되었습니다. (NEO 파섹 16619, NEO 파섹 16426)
 
-## 릴리스 19.1.2 - 빌드 9029{#release-19-1-2-build-9029}
+## ![](assets/orange_2.png) 릴리스 19.1.2 - 빌드 9029{#release-19-1-2-build-9029}
 
-2019년 6월 21일
-
->[!CAUTION]
->
->이 건물은 회수되었습니다. 최신 빌드로 [업그레이드하거나](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) 기술 지원에 [](https://support.neolane.net/)문의하십시오.
+_2019년 6월 21일_
 
 **향상된 보안 기능**
 
@@ -121,13 +122,9 @@ source-git-commit: ba5496a008a28a29fc8e2032f31355a7c34f3ef8
 * 이제 가져오기 작업 과정 동안 Microsoft Dynamics에서 만든 더미 레코드를 삭제할 수 있습니다.
 * 내부 계정을 사용할 때 보안 영역 패키지를 실행하기 위한 권한이 개선되었습니다.
 
-## 릴리스 19.1 - 빌드 9026{#release-19-1-build-9026}
+## ![](assets/orange_2.png) 릴리스 19.1 - 빌드 9026{#release-19-1-build-9026}
 
-2019년 5월 30일
-
->[!CAUTION]
->
->이 건물은 회수되었습니다. 최신 빌드로 [업그레이드하거나](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) 기술 지원에 [](https://support.neolane.net/)문의하십시오.
+_2019년 5월 30일_
 
 **새로운 기능**
 
