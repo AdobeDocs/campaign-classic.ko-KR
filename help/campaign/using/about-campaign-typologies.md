@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 44d8ba19f2e79d30229239312e6a5148d247fb28
 
 ---
 
 
 # 캠페인 유형 정보{#about-campaign-typologies}
 
-캠페인 최적화는 게재 전송을 제어, 필터링 및 모니터링할 수 있는 Adobe Campaign 모듈입니다. 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제약 조건 규칙을 적용하여 다양한 조합을 테스트할 수 있습니다. 따라서 전송된 메시지는 회사 커뮤니케이션 정책에 따라 고객의 요구와 기대를 가장 잘 충족할 수 있습니다.
+캠페인 최적화는 게재 전송을 제어, 필터링 및 모니터링할 수 있는 Adobe Campaign 모듈입니다. 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제약 조건 규칙을 적용하여 다양한 조합을 테스트할 수 있습니다. 따라서 전송된 메시지는 고객 및 회사 커뮤니케이션 정책의 요구 및 기대를 충족시킵니다.
 
 >[!NOTE]
 >
