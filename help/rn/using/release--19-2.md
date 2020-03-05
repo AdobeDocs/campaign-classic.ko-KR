@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 410fd89cd030ac3d4644e6aa025ed5f03adb788f
+source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 
 ---
 
@@ -33,17 +33,17 @@ source-git-commit: 410fd89cd030ac3d4644e6aa025ed5f03adb788f
    <td><img src="assets/red3.png"/><strong>가치 하락</strong></td> 
   </tr> 
    <tr> 
-   <td>최신 안정적인 빌드를 사용할 수 있습니다. <br>프로덕션에서 인증 강화 </td>
-   <td>Adobe에서 인증한 빌드. <br>프로덕션 확인 대기 중입니다. </td>
-   <td>버그 수정을 통해 새로운 빌드를 사용할 수 있습니다. <br>업데이트가 필요합니다. </td>
-   <td>알려진 회귀 포함 <br>업데이트는 필수입니다. </td>
+   <td>최신 안정적인 빌드를 사용할 수 있습니다. 프로덕션에서 인증 강화<br> </td>
+   <td>Adobe에서 인증한 빌드. 프로덕션 확인 대기 중입니다.<br> </td>
+   <td>버그 수정을 통해 새로운 빌드를 사용할 수 있습니다. 업데이트가 필요합니다.<br> </td>
+   <td>알려진 회귀 포함 업데이트는 필수입니다.<br> </td>
   </tr> 
  </tbody> 
 </table>
 
-안정적인 [마지막 빌드](../../rn/using/release--19-1.md#release-19-1-4-build-9032) (GA)를 보려면 **** 여기를 클릭하십시오.
+마지막 **안정적인 빌드는** 9032(205c981c3)입니다. 여기를 [클릭하십시오.](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/blue-2.png) 릴리스 19.2.3 - 빌드 9081 {#release-19-2-3-build-9081}
+## ![](assets/blue_2.png) 릴리스 19.2.3 - 빌드 9081 {#release-19-2-3-build-9081}
 
 _2020년 2월 07일_
 
@@ -52,7 +52,7 @@ _2020년 2월 07일_
 * Windows 서버에서 사용자 연결이 실패하는 SSL 인증 구현으로 인한 회귀 문제를 해결했습니다. (NEO 파섹)
 * 정보 메뉴에 잘못된 버전 태그 번호가 표시되는 문제를 **수정했습니다** .
 
-## ![](assets/orange-2.png) 릴리스 19.2 - 빌드 9080 {#release-19-2-build-9080}
+## ![](assets/orange_2.png) 릴리스 19.2 - 빌드 9080 {#release-19-2-build-9080}
 
 _2019년 12월 02일_
 
@@ -67,7 +67,7 @@ _2019년 12월 02일_
  <tbody> 
   <tr> 
    <td> <p>CCPA는 2020년 1월 1일부터 시행된 데이터 보호 요구 사항을 통합하고 현대화한 캘리포니아 주의 새로운 개인 정보 보호 법입니다. CCPA는 캘리포니아에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p>
-    <p> Adobe Campaign은 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 외에도 CPA에 대한 준비 사항을 용이하게 합니다.</p>
+    <p>Adobe Campaign은 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 외에도 CPA에 대한 준비 사항을 용이하게 합니다.</p>
     <ul>
       <li>액세스 권한 및 삭제 권한:gdpr에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">자세한 내용</a></li>
       <li>소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다. 이를 위해 프로파일 테이블을 확장하고 CPA에 대한 <strong>옵트아웃 필드를 추가해야 합니다</strong> . <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">자세한 내용</a></li></td> 
@@ -99,8 +99,8 @@ _2019년 12월 02일_
  <tbody> 
   <tr> 
 <td> <p>Adobe Campaign을 사용하면 인터랙티브한 새로운 이메일 <a href="https://amp.dev/about/email/">AMP</a> 포맷을 사용해 볼 수 있습니다. 이를 통해 마케터는 메시지 내에 AMP 구성 요소를 포함시켜 메시지 자체에서 직접 실행 가능한 풍부하고 다이내믹하고 인터랙티브한 컨텐츠로 이메일 경험을 향상시킬 수 있습니다.</p>
-   <p> 이 기능은 공개 베타로 제공됩니다.</p>
-   <p> 자세한 내용은 <a href="../../delivery/using/defining-interactive-content.md">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">자습서 비디오를</a>참조하십시오.</p><br /></td> 
+   <p>이 기능은 공개 베타로 제공됩니다.</p>
+   <p>자세한 내용은 <a href="../../delivery/using/defining-interactive-content.md">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">자습서 비디오를</a>참조하십시오.</p><br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -169,7 +169,7 @@ _Campaign Mobile SDK_
 * 배달 **중 중복 주소 제외 옵션을** 선택 해제하면 배달 준비 문제가 해결되었습니다. (NEO 파섹)
 * 전송 **후 소스 파일 삭제 옵션을 사용하여 파일을 다운로드할 때 공백 문자를 포함하는** 이름으로 파일 전송 **** 작업을 사용할 때 발생하는 문제가 해결되었습니다. (NEO 파섹)
 * 메모리 문제로 이어질 수 있는 Tomcat 캐시 정리 문제를 수정했습니다. (NEO 파섹)
-* Microsoft SQL 2017 **에서 실행 인스턴스** 내장 패키지와 함께 오퍼 엔진 제어를 설치할 때 발생하는 문제를 수정했습니다. (NEO 파섹)
+* Microsoft SQL 2017 **에서 실행되는 기존 제어 인스턴스에 실행 인스턴스** 내장 패키지와 함께 오퍼 엔진 제어를 설치하는 문제를 수정했습니다. (NEO 파섹)
 * 텍스트 컨텐츠 **** 탭에서 이메일의 추적된 URL의 확인을 취소할 때 발생하는 콘솔 충돌이 해결되었습니다. (NEO 파섹)
 * 중국어 보낸 사람 이름에 대한 인코딩 문제를 수정했습니다. (NEO 파섹)
 * 탐색기에서 설문 조사 응답 데이터를 표시할 때 발생할 수 있는 오류를 수정했습니다. (NEO 파섹)
