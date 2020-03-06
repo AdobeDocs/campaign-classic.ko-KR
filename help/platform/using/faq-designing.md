@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ee1912e0de2841867d0ffb5420cc9810aa1083e
+source-git-commit: 2ca8fb051dce9abfcb8987c4d4527d997b480f96
 
 ---
 
@@ -44,10 +44,6 @@ Adobe Campaign을 사용하여 옴니채널 메시지를 디자인하는 주요 
 ## Campaign DCE를 사용하여 이메일 컨텐츠를 만드는 방법? {#how-to-use-campaign-dce-to-create-an-email-content-}
 
 [Campaign 디지털 컨텐츠 편집기를](../../web/using/use-case--creating-an-email-delivery.md)사용하여 이메일 디자인:예를 통해 Campaign DCE를 사용하여 이메일을 디자인하는 방법을 알아봅니다.
-
-## 이메일에 바코드를 추가하려면 어떻게 해야 합니까? {#how-can-i-add-a-barcode-in-an-email-}
-
-개인화된 이메일을 통해 바코드를 [손쉽게](../../delivery/using/inserting-a-barcode-in-an-email.md) 추가하는 방법을 살펴볼 수 있습니다.
 
 ## Campaign에서 구독 기반 뉴스레터를 만들려면 어떻게 해야 합니까? {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 
