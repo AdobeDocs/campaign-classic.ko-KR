@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
+source-git-commit: defbe3793be531eeb5c7aab913607ff094a624c7
 
 ---
 
@@ -40,6 +40,10 @@ source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 </table>
 
 마지막 **안정적인 빌드는** 9032(205c981c3)입니다. 여기를 [클릭하십시오.](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+
+## 릴리스 20.1.2 - 빌드 9123 {#release-20-1-2-build-9123}
+
+* Red Hat 7 서버에 버전을 배포하지 못했던 문제를 수정했습니다. (NEO 파섹)
 
 ## ![](assets/blue_2.png) 릴리스 20.1 - 빌드 9122 {#release-20-1-build-9122}
 
