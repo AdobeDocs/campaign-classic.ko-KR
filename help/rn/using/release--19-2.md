@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
+source-git-commit: 1d08730421c598873e272f305a819e3fb4509d90
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 
 마지막 **안정적인 빌드는** 9032(205c981c3)입니다. 여기를 [클릭하십시오.](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/blue_2.png) 릴리스 19.2.3 - 빌드 9081 {#release-19-2-3-build-9081}
+## ![](assets/orange_2.png) 릴리스 19.2.3 - 빌드 9081 {#release-19-2-3-build-9081}
 
 _2020년 2월 07일_
 
