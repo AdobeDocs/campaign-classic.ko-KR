@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7c57fb0f2d9867b5ea96185c1984e0b1baeb056a
+source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 7c57fb0f2d9867b5ea96185c1984e0b1baeb056a
 
 ## 트랜잭션 메시징 데이터 모델 정보 {#about-transactional-messaging-datamodel}
 
-트랜잭션 메시지는 캠페인 데이터 모델을 사용하며 두 개의 별도 테이블을 사용합니다. 이러한 표, **NmsRtEvent** 및 **NmsBatchEvent**&#x200B;에는 동일한 필드가 포함되어 있으므로 한 번에 실시간 이벤트를 관리하고 다른 한 손에서는 이벤트를 일괄 처리할 수 있습니다.
+트랜잭션 메시지는 Adobe Campaign 데이터 모델을 사용하며 두 개의 별도 테이블을 사용합니다. 이러한 [표](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** 및 **NmsBatchEvent**&#x200B;에는 동일한 필드가 포함되어 있으므로 한 번에 실시간 이벤트를 관리하고 다른 한 번에 이벤트를 일괄 처리할 수 있습니다.
 
 ## SOAP 메서드 {#soap-methods}
 
@@ -130,7 +130,7 @@ PushEvents 사용 예:
 
 >[!NOTE]
 >
->허가된 모든 속성에 대한 자세한 설명과 해당 값은 **nms:rtEvent** 및 **nms:BatchEvent 데이터** 스키마에서 확인할 수 있습니다.
+>허가된 모든 속성에 대한 자세한 설명과 해당 값은 **nms:rtEvent** 및 **nms:BatchEvent** 데이터스키마에서 확인할 수 있습니다.
 
 이 **`<ctx>`** 요소에는 메시지 데이터가 포함됩니다. XML 컨텐츠가 열려 있으므로 전달할 컨텐츠에 따라 구성할 수 있습니다.
 
