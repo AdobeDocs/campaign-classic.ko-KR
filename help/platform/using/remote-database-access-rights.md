@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d2758b5e81d1720a4f01a610e51c4a33995d88d1
+source-git-commit: ae44e38e9d05478e8ebfacb1e063cdfd5d7ff30c
 
 ---
 
@@ -52,4 +52,4 @@ source-git-commit: d2758b5e81d1720a4f01a610e51c4a33995d88d1
 
 >[!NOTE]
 >
->데이터베이스 관리자는 이러한 권한을 각 데이터베이스 엔진과 관련된 권한과 일치시켜야 합니다. 자세한 내용은 RDBMS [특정 권한을](https://docs.campaign.adobe.com/doc/AC6.1/en/technicalResources/technicalResources.html)참조하십시오.
+>데이터베이스 관리자는 이러한 권한을 각 데이터베이스 엔진과 관련된 권한과 일치시켜야 합니다. 자세한 내용은 RDBMS [특정 권한을](https://docs.adobe.com/content/help/en/campaign-classic/using/assets/fda_rdbms_rights.pdf)참조하십시오.
