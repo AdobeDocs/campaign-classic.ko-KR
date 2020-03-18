@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
+source-git-commit: becdffadaaaa40359b61a6ad786b9fd8ebecc6e9
 
 ---
 
@@ -69,6 +69,10 @@ Adobe Analytics와 Adobe Campaign 통합의 구현에 대한 자세한 내용은
 
 1. 탭에서 **[!UICONTROL Admin]** 을 선택합니다 **[!UICONTROL Data Connectors]**.
 
+   메뉴에 액세스하려면 다음 Analytics 도구 권한이 있어야 합니다. **[!UICONTROL Data Connectors]** 자세한 내용은 이 [페이지를 참조하십시오.](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)
+   * 통합(만들기)
+   * 통합(업데이트)
+   * 통합(삭제)
    ![](assets/adobe_genesis_install_002.png)
 
 1. 파트너 목록에서 를 선택합니다 **[!UICONTROL Neolane - Enterprise Marketing Platform]**.
@@ -87,6 +91,7 @@ Adobe Analytics와 Adobe Campaign 통합의 구현에 대한 자세한 내용은
    ![](assets/adobe_genesis_install_005.png)
 
 1. 내부 캠페인 이름(cid) 및 iNmsBroadlog(입찰) 테이블 ID와 같이 이메일 캠페인의 영향을 측정하는 데 필요한 식별자를 지정합니다. 수집할 이벤트에 대한 지표도 지정해야 합니다.
+Numeric **[!UICONTROL Events]** 유형인지 확인하십시오. 그렇지 않으면 드롭다운 메뉴에 나타나지 않습니다.
 
    ![](assets/adobe_genesis_install_006.png)
 
