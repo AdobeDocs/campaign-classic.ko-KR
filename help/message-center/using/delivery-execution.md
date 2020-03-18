@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
+source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
 >
 >MTA는 다른 배달보다 트랜잭션 메시지 처리를 우선합니다.
 
-실행 인스턴스에서, 농축 단계가 완료되고 배달 템플릿이 이벤트에 연결되면 배달이 전송됩니다. 모든 배달은 **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]** 폴더에 그룹화됩니다.
+실행 인스턴스에서 농축된 단계가 완료되고 전달 템플릿이 이벤트에 연결되면 배달이 전송됩니다. 모든 배달은 **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]** 폴더에 그룹화됩니다.
 
 ![](assets/messagecenter_deliveries_execinstances_001.png)
 
