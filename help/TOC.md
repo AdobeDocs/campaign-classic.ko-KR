@@ -5,7 +5,7 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
+source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
 
 ---
 
@@ -645,9 +645,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
 + Campaign Classic 구성 {#configuring-campaign-classic}
    + 데이터 모델 {#data-model}
       + [데이터 모델 정보](configuration/using/about-data-model.md)
-      + [기본 수신자 테이블 사용](configuration/using/default-recipient-table.md)
-      + [데이터 모델 확장](configuration/using/extending-data-model.md)
-      + [사용자 지정 수신자 테이블 사용](configuration/using/custom-recipient-table.md)
+      + [데이터 모델 설명](configuration/using/data-model-description.md)
       + [모범 사례](configuration/using/data-model-best-practices.md)
    + 스키마 참조 {#schema-reference}
       + [스키마 참조 정보](configuration/using/about-schema-reference.md)
