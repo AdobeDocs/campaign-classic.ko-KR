@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16e7266a101b4abea3271c32fcc403e7d7fbaa2d
+source-git-commit: 527d2dd2296d18c8ca26745b9f87d65c6fdf480a
 
 ---
 
@@ -129,7 +129,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격(바운스 메
 하드 오류와 대조적으로, 소프트 오류는 즉시 격리 주소를 보내지 않고 대신 오류 카운터를 증가시킵니다.
 
 * 오류 카운터가 제한 임계값에 도달하면 주소가 격리됩니다.
-* 기본 구성에서 임계값은 5개의 오류로 설정되며, 최소 24시간 간격으로 발생하는 경우 두 개의 오류가 중요합니다. 6번째 오류 시 주소가 격리됩니다.
+* 기본 구성에서 임계값은 5개의 오류로 설정되며, 최소 24시간 간격으로 발생하는 경우 두 개의 오류가 중요합니다. 주소가 다섯 번째 오류 발생 시 격리됩니다.
 * 오류 카운터 임계값을 수정할 수 있습니다. 자세한 내용은 배달 임시 실패 [후 재시도를](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)참조하십시오.
 
 마지막 중요한 오류가 10일 이전에 발생한 경우 오류 카운터가 다시 초기화됩니다. 그런 다음 주소 상태가 **유효로** 변경되고 데이터베이스 정리 **워크플로에 의해 격리 목록에서** 삭제됩니다.
@@ -260,7 +260,7 @@ AppSubscriptionRcp 테이블을 업데이트하는 **[!UICONTROL mobileAppOptOut
 
 >[!NOTE]
 Baidu 커넥터를 사용하는 고객의 경우 다음과 같은 다양한 유형의 오류가 발생합니다.
-* 배달 시작 시 연결 문제:실패 유형 **[!UICONTROL Undefined]**, 실패 이유, **[!UICONTROL Unreachable]**&#x200B;재시도가 수행됩니다.
+* 배달 시작 시 연결 문제:실패 유형, **[!UICONTROL Undefined]**&#x200B;실패 이유, **[!UICONTROL Unreachable]**&#x200B;재시도가 수행됩니다.
 * 배달 중 연결이 끊겼습니다.소프트 오류, 실패 이유, **[!UICONTROL Refused]**&#x200B;재시도가 수행됩니다.
 * 전송 중 Baidu가 반환하는 동기 오류:하드 오류, 실패 이유, **[!UICONTROL Refused]**&#x200B;재시도가 수행되지 않습니다.
 
@@ -351,7 +351,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
 
 **표준 커넥터의 경우**
 
-SMS 메시지의 격리 메커니즘은 전체적으로 일반적인 프로세스와 동일합니다. 검역을 [참조하십시오](#about-quarantines). SMS에 대한 설명은 아래에 나와 있습니다.
+SMS 메시지에 대한 격리 메커니즘은 전체적으로 일반적인 프로세스와 동일합니다. 검역을 [참조하십시오](#about-quarantines). SMS에 대한 설명은 아래에 나와 있습니다.
 
 >[!NOTE]
 이 **[!UICONTROL Delivery log qualification]** 테이블은 확장 일반 SMPP **커넥터에 적용되지 않습니다** .
@@ -432,13 +432,13 @@ SR Generic DELIVRD 000|#MESSAGE#
 
    ![](assets/tech_quarant_error_regex.png)
 
-   **기본적으로 regex는**&#x200B;통계를 추출합니다.필드를 참조하십시오. **** ****
+   기본적으로 regex는 **통계를 추출합니다.** 필드를 참조하십시오. **** ****
 
 * 오류 메시지의 네 번째 부분(**이** 예에서는 000)은 SMS 외부 계정에 정의된 오류 코드 추출 규칙을 사용하여 SR에서 추출된 오류 코드에 해당합니다.
 
    이 참조는 외부 계정의 **[!UICONTROL SMSC specificities]** 탭에 지정됩니다. 이 [페이지를](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)참조하십시오.
 
-   **기본적으로 regex는**&#x200B;오류를 추출합니다.필드를 참조하십시오. **** ****
+   기본적으로 regex는 **오류를 추출합니다.** 필드를 참조하십시오. **** ****
 
 * 파이프 기호(|) 다음에 오는 모든 내용은 **[!UICONTROL First text]** 표의 **[!UICONTROL Delivery log qualification]** 열에만 표시됩니다. 이 컨텐츠는 메시지가 표준화된 **#MESSAGE#** 로 대체됩니다. 이 프로세스에서는 유사한 오류에 대해 여러 항목을 사용하지 않고 이메일과 동일합니다. 자세한 내용은 바운스 [메일 자격을](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)참조하십시오.
 
