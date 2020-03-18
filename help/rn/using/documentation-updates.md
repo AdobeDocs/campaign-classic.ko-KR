@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7082ff9c8ce18f12734831bc4f00c9a1b71376b3
+source-git-commit: 2de7987a0e5089a9023c0cf3b4c6c61a758a5e5f
 
 ---
 
@@ -29,6 +29,8 @@ Adobe Campaign Classic 릴리스 [노트를 참조할 수도 있습니다](../..
 ## 2020년 3월 {#march-2020}
 
 데이터 모델 우수 사례 페이지는 시퀀스, 성능, [큰 테이블](../../configuration/using/data-model-best-practices.md#sequences)등 [새로운](../../configuration/using/data-model-best-practices.md#performance) 섹션으로 [](../../configuration/using/data-model-best-practices.md#large-tables)업데이트되었습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md)
+
+이제 Adobe Campaign의 사전 정의된 데이터 모델과 기본 표 상호 작용을 설명하는 새 섹션을 사용할 수 있습니다. [자세한 내용](../../configuration/using/data-model-description.md)
 
 ## 2020년 2월 {#february-2020}
 
@@ -82,7 +84,7 @@ Campaign **Classic 기능 매트릭스** 페이지가 업데이트되었습니�
 
 워크플로에서 쿼리 활동을 사용할 때 제한이 추가되었습니다. [자세한 내용](../../workflow/using/query.md)보기
 
-소프트 오류가 발생하는 경우 격리에 주소를 보내기 위해 향상된 이메일 주소 유효성 검사 규칙을 자세히 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
+소프트 오류 시 격리할 주소를 발송하기 위해 향상된 이메일 주소 확인 규칙에 대한 세부 정보에 새로운 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
 인스턴스가 향상된 MTA를 사용하고 있는지 여부를 나타내는 구성 파일의 매개 변수가 이제 문서화되어 있습니다. [자세한 내용](../../installation/using/the-server-configuration-file.md#mta)
 
@@ -255,7 +257,7 @@ Campaign Classic에서 사용할 수 있는 다른 외부 계정에 대한 정�
 공유 대상 통합에 대한 설명서를 업데이트했습니다.
 [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/ITG_Audience_sharing_Configuring_shared_audiences_integration_in_Adobe_Campaign.html)
 
-다음 기술 노트가 업데이트되었습니다.SMS [커넥터 프로토콜 및 설정](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) 및 [시퀀스 자동 생성](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
+다음 기술 정보가 업데이트되었습니다.SMS [커넥터 프로토콜 및 설정](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) 및 [시퀀스 자동 생성](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
 기술 워크플로우 섹션이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Technical_workflows_About_technical_workflows.html)
 
