@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c2c53041d8a19a491b8ec4da12a8a0ced25cf9a
+source-git-commit: ceb5b2fdcd0dfca28412534ed3417367026f71d0
 
 ---
 
@@ -31,7 +31,6 @@ source-git-commit: 1c2c53041d8a19a491b8ec4da12a8a0ced25cf9a
 트랜잭션 메시징 이벤트를 처리하려면 다음 단계를 적용해야 합니다.
 
 1. 이벤트 컬렉션,
-1. 메시지 템플릿으로 전송되기 전에 이벤트 데이터 수집(Campaign 트랜잭션 메시지 모듈에 사용할 수 있는 데이터 수집 옵션을 취득한 경우),
 1. 메시지 템플릿으로 이벤트 전송,
 1. 개인화 데이터를 통한 이벤트 향상,
 1. 배달 실행,
