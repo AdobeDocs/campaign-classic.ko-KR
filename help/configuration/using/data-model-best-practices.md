@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad3aedeb18cfce809f959ccb62cb27928877c9d2
+source-git-commit: 1336bf7ab9cce7f2ffe7d4ffa5e119851e946885
 
 ---
 
@@ -46,11 +46,11 @@ Adobe Campaign Standard는 강력한 크로스 채널 캠페인 관리 시스템
 
 각 테이블에 대한 설명에 액세스하려면 **[!UICONTROL Admin > Configuration > Data schemas]**&#x200B;목록에서 리소스를 선택하고 **[!UICONTROL Documentation]** 탭을 클릭합니다.
 
-Adobe Campaign 기본 데이터 모델이 이 [문서에](https://final-docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html)표시됩니다.
+Adobe Campaign 기본 데이터 모델이 이 [문서에](../../configuration/using/data-model-description.md)표시됩니다.
 
 >[!NOTE]
 >
->Adobe Campaign Classic에서는 사용자 지정 고객 테이블을 만들 수 있습니다. 그러나 대부분의 경우 이미 사전 빌드된 추가 테이블과 [기능이 있는 표준 수신자 테이블을](../../configuration/using/default-recipient-table.md) 활용하는 것이 좋습니다.
+>Adobe Campaign Classic에서는 사용자 지정 고객 테이블을 만들 수 있습니다. 그러나 대부분의 경우 이미 사전 빌드된 추가 테이블과 [기능이 있는 표준 수신자 테이블을](../../configuration/using/about-data-model.md#default-recipient-table) 활용하는 것이 좋습니다.
 
 ### Adobe Campaign용 데이터 {#data-for-campaign}
 
@@ -109,7 +109,7 @@ Adobe Campaign 리소스에는 세 개의 식별자가 있으며 추가 식별�
 
 | 식별자 | 설명 | 모범 사례 |
 |--- |--- |--- |
-| ID | <ul><li>id는 Adobe Campaign 테이블의 실제 기본 키입니다. 기본 테이블의 경우 시퀀스에서 생성된 32비트 번호입니다</li><li>이 식별자는 일반적으로 특정 Adobe Campaign 인스턴스에 고유합니다. </li><li>자동 생성된 ID는 스키마 정의에 표시될 수 있습니다. autopk=&quot; *true&quot;* 속성을 검색합니다.</li></ul> | <ul><li>자동 생성된 식별자는 워크플로우 또는 패키지 정의에서 참조로 사용해서는 안 됩니다.</li><li>ID가 항상 증가한다는 가정에는 전혀 포함되지 않습니다.</li><li>기본 테이블의 id는 32비트 번호이며 이 유형은 변경할 수 없습니다. 이 번호는 같은 이름의 섹션에서 다루는 &quot;시퀀스&quot;에서 가져옵니다.</li></ul> |
+| ID | <ul><li>id는 Adobe Campaign 테이블의 실제 기본 키입니다. 기본 테이블의 경우 시퀀스에서 생성된 32비트 번호입니다</li><li>이 식별자는 일반적으로 특정 Adobe Campaign 인스턴스에 고유합니다. </li><li>자동 생성된 ID는 스키마 정의에 표시될 수 있습니다. autopk=&quot; *true&quot;* 속성을 검색합니다.</li></ul> | <ul><li>자동 생성된 식별자는 워크플로우 또는 패키지 정의에서 참조로 사용해서는 안 됩니다.</li><li>ID가 항상 증가한다는 가정에서는 할 필요가 없습니다.</li><li>기본 테이블의 id는 32비트 번호이며 이 유형은 변경할 수 없습니다. 이 번호는 같은 이름의 섹션에서 다루는 &quot;시퀀스&quot;에서 가져옵니다.</li></ul> |
 | 이름(또는 내부 이름) | <ul><li>이 정보는 테이블에 있는 레코드의 고유 식별자입니다. 이 값은 일반적으로 생성된 이름으로 수동으로 업데이트할 수 있습니다.</li><li>이 식별자는 다른 Adobe Campaign 인스턴스에 배포할 때 값을 유지하며 비워 둘 수 없습니다.</li></ul> | <ul><li>개체가 환경에서 다른 개체로 배포되도록 하는 경우 Adobe Campaign에서 생성된 레코드 이름의 이름을 변경합니다.</li><li>개체에 namespace 속성(*스키마* 등)이 있는 경우 이 공통 네임스페이스는 만들어진 모든 사용자 정의 개체에 적용됩니다. 일부 예약된 네임스페이스는 사용할 수 없습니다.nms *,* xtk **.</li><li>객체에 네임스페이스(예:*워크플로* 또는 *배달* )가 없는 경우 이 네임스페이스 개념은 내부 이름 개체의 접두사로 추가됩니다.namespace *MyObjectName*.</li><li>공백 &quot;&quot;, 세미열 &quot;:&quot; 또는 하이픈 &quot;-&quot;과 같은 특수 문자는 사용하지 마십시오. 이러한 모든 문자는 밑줄 &quot;_&quot;(허용되는 문자)로 대체됩니다. 예를 들어 &quot;abc-def&quot; 및 &quot;abc:def&quot;는 &quot;abc_def&quot;로 저장되고 서로를 덮어씁니다.</li></ul> |
 | 레이블 | <ul><li>레이블은 Adobe Campaign에서 개체 또는 레코드의 비즈니스 식별자입니다.</li><li>이 개체는 공백과 특수 문자를 허용합니다.</li><li>그렇다고 기록의 고유성을 보장하지 않는다.</li></ul> | <ul><li>개체 레이블의 구조를 결정하는 것이 좋습니다.</li><li>Adobe Campaign 사용자의 레코드 또는 개체를 식별하기 위한 가장 사용자 친화적인 솔루션입니다.</li></ul> |
 
