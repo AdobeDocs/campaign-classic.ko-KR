@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
+source-git-commit: ba750d51d31d7783a3fdc5ef6b0bcf4a863c69d4
 
 ---
 
@@ -183,7 +183,7 @@ source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
 
 ## 배달 임시 실패 후 다시 시도 {#retries-after-a-delivery-temporary-failure}
 
-소프트 또는 무시됨 **오류로 인해** 메시지가 **** 일시적으로 실패하면 배달 기간 동안 재시도가 수행됩니다.
+소프트 또는 무시된 **오류로 인해** 메시지가 **** 실패할 경우 배달 기간 동안 재시도가 수행됩니다.
 
 >[!NOTE]
 >
@@ -242,11 +242,15 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 컨텐츠(예: ID, 날
 
 ![](assets/deliverability_qualif_status.png)
 
->[!NOTE]
->
->호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 **[!UICONTROL Delivery log qualification]** 테이블의 바운스 자격 조건은 더 이상 사용되지 않습니다. 향상된 MTA는 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 전송합니다.
->
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
+호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우
+
+* 테이블의 바운스 자격 조건은 더 이상 동기 배달 실패 오류 메시지에 사용되지 않습니다. **[!UICONTROL Delivery log qualification]** 향상된 MTA는 바운스 유형 및 자격을 결정하며 해당 정보를 Campaign으로 다시 전송합니다.
+
+* 비동기 바운스는 여전히 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에서 자격을 갖습니다. 자세한 내용은 이메일 [관리 규칙을](#email-management-rules)참조하십시오.
+
+* Webhooks/EFS 없이 향상된 **MTA를 사용하는**&#x200B;인스턴스의 경우, **[!UICONTROL Inbound email]** 규칙을 사용하여 비동기 바운스 이메일과 동일한 이메일 주소를 사용하여 향상된 MTA에서 들어오는 동기 바운스 이메일을 처리합니다.
+
+Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
 
 ### 이메일 관리 규칙 {#email-management-rules}
 
@@ -264,33 +268,53 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 컨텐츠(예: ID, 날
 
 * **인바운드 이메일**
 
-   이메일이 실패하면 원격 서버는 플랫폼 매개 변수에 지정된 주소로 바운스 메시지를 반환합니다. Adobe Campaign은 각 바운스 메일의 컨텐츠를 규칙 목록의 문자열에 대해 비교한 다음 세 가지 오류 유형 중 하나를 할당합니다.
+   이메일이 실패하면 원격 서버는 플랫폼 매개 변수에 지정된 주소로 바운스 메시지를 반환합니다.
+
+   Adobe Campaign은 각 바운스 메일의 컨텐츠를 규칙 목록의 문자열에 대해 비교한 다음 세 가지 오류 유형 중 하나를 할당합니다.
 
    사용자는 자신의 규칙을 만들 수 있습니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >패키지를 가져올 때 전달 가능 **** 워크플로우를 위해 새로 고침을 통해 데이터를 업데이트할 때 사용자가 만든 규칙을 덮어씁니다.
 
+   바운스 메일 자격에 대한 자세한 내용은 [이 섹션을](#bounce-mail-qualification)참조하십시오.
+
+   >[!NOTE]
+   >
+   >호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 동기 배달 실패 오류 메시지에 더 이상 **[!UICONTROL Inbound email]** 규칙이 사용되지 않습니다. 자세한 내용은 [이 섹션을](#bounce-mail-qualification)참조하십시오.
+   >
+   >Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
+
 * **도메인 관리**
 
-   도메인 관리 규칙은 특정 도메인에 대한 나가는 이메일의 흐름을 제어하는 데 사용됩니다. 바운스 메시지를 샘플링하고 해당되는 경우 블록 전송을 수행합니다. Adobe Campaign 메시지 서버는 도메인과 관련된 규칙을 적용한 다음 규칙 목록에 별표로 표시되는 일반 사례에 대한 규칙을 적용합니다. Hotmail 및 MSN 도메인에 대한 규칙은 기본적으로 Adobe Campaign에서 사용할 수 있습니다.
+   Adobe Campaign 메시지 서버는 도메인과 관련된 규칙을 적용한 다음 규칙 목록에 별표로 표시되는 일반 사례에 대한 규칙을 적용합니다.
+
+   Hotmail 및 MSN 도메인에 대한 규칙은 기본적으로 Adobe Campaign에서 사용할 수 있습니다.
 
    규칙 구성에 액세스하려면 **[!UICONTROL Detail]** 아이콘을 클릭합니다.
 
    ![](assets/tech_quarant_domain_rules_02.png)
 
-   도메인 관리 규칙을 구성하려면 임계값을 설정하고 특정 SMTP 매개 변수를 선택하면 됩니다. 임계값은 **** 특정 도메인에 대한 모든 메시지가 차단되는 오류 백분율로 계산되는 한계입니다.
-
-   예를 들어, 일반적으로 최소 300개의 메시지의 경우 오류 비율이 90%에 도달하면 이메일 전송이 3시간 동안 차단됩니다.
-
    SMTP **매개 변수는** 차단 규칙에 적용된 필터 역할을 합니다.
 
    * 특정 식별 표준 및 암호화 키를 활성화하여 발신자 ID, 도메인 키, **DKIM**, **S/MIME**&#x200B;등과 같은 **도메인 이름을**&#x200B;확인할 **수**&#x200B;있습니다.
-   * **SMTP 릴레이**:특정 도메인에 대한 릴레이 서버의 IP 주소와 포트를 구성할 수 있습니다.
+   * **SMTP 릴레이**:특정 도메인에 대한 릴레이 서버의 IP 주소와 포트를 구성할 수 있습니다. 자세한 내용은 [이 섹션을](../../installation/using/configuring-campaign-server.md#smtp-relay)참조하십시오.
+   메시지가 Outlook에 다른 도메인 이름으로 표시되는 **[!UICONTROL on behalf of]** 경우, Microsoft의 **기존 전자 메일 인증 표준인 보낸 사람 ID를**&#x200B;사용하여 전자 메일에 서명하지 않도록 하십시오. 이 **[!UICONTROL Sender ID]** 옵션이 활성화되어 있으면 해당 상자의 선택을 취소하고 Adobe Campaign 지원에 문의하십시오. 배달은 영향을 받지 않습니다.
+
+   >[!NOTE]
+   >
+   >호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 **[!UICONTROL Domain management]** 규칙이 더 이상 사용되지 않습니다. **DKIM(DomainKeys Identified Mail)** 이메일 인증 서명은 모든 도메인의 모든 메시지에 대해 향상된 MTA를 통해 수행됩니다. 향상된 MTA 수준에서 **별도로**&#x200B;지정하지 않는 한 **발신자 ID**, **도메인** 키또는 S/MIME으로서명하지 않습니다.
+   >
+   >Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
 
 * **MX 관리**
 
+   * MX 관리 규칙은 특정 도메인에 대한 나가는 이메일의 흐름을 제어하는 데 사용됩니다. 바운스 메시지를 샘플링하고 해당되는 경우 블록 전송을 수행합니다.
+
+   * Adobe Campaign 메시지 서버는 도메인과 관련된 규칙을 적용한 다음 규칙 목록에 별표로 표시되는 일반 사례에 대한 규칙을 적용합니다.
+
+   * MX 관리 규칙을 구성하려면 임계값을 설정하고 특정 SMTP 매개 변수를 선택하면 됩니다. 임계값은 **** 특정 도메인에 대한 모든 메시지가 차단되는 오류 백분율로 계산되는 한계입니다. 예를 들어, 일반적으로 최소 300개의 메시지의 경우 오류 비율이 90%에 도달하면 이메일 전송이 3시간 동안 차단됩니다.
    For more on MX management, refer to [this section](../../installation/using/email-deliverability.md#mx-configuration).
 
    >[!NOTE]
@@ -299,7 +323,7 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 컨텐츠(예: ID, 날
    >
    >Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* 매개 변수가 변경된 경우 배달 서버(MTA)를 다시 시작해야 합니다.
 >* 관리 규칙을 수정하거나 만드는 것은 전문가 사용자만을 위한 것입니다.
