@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
+source-git-commit: 92f4047628eca0fc1d71aded0329720c094463bd
 
 ---
 
@@ -287,26 +287,45 @@ Adobe Campaign은 기본적으로 프로파일이 구성된 기술 운영자를 
 
 이러한 권한은 다음과 같습니다.
 
-* 관리:콘솔의 모든 폴더에 대한 일반 관리가 제대로 적용되었습니다.
-* 승인 관리:검토자 할당 권한
-* 중앙:중앙 관리(분산 마케팅)에 대한 권한
-* 폴더 삭제:폴더를 삭제할 수 있습니다.
-* 폴더 편집:폴더 속성을 변경할 권한:이름, 레이블, 연결된 이미지 등
-* 내보내기:데이터를 내보낼 수 있습니다.
-* 파일 액세스:스크립트를 통해 파일을 읽고 쓸 수 있습니다.
-* 가져오기:범용 데이터 가져오기에 적합한
-* 폴더 삽입:폴더를 삽입할 수 있습니다.
-* 로컬:로컬 관리에 대한 권한(분산 마케팅).
-* 병합:레코드를 병합하는 권한
-* 배달 준비:전달 분석을 작성, 편집 및 시작할 수 있습니다.
-* 개인정보 보호 데이터 권한:개인 정보 데이터를 수집 및 삭제할 권리 자세한 내용은 이 [페이지를](https://helpx.adobe.com/campaign/kb/acc-privacy.html)참조하십시오.
-* 프로그램 실행:외부 프로그램을 실행할 권한
-* 수신자 가져오기:수신자를 가져올 수 있는 권한
-* SQL 스크립트 실행:데이터베이스에서 SQL 스크립트를 실행할 수 있습니다.
-* 배달 시작:이전에 분석된 게재를 승인할 권한.
-* SQL 데이터 관리 활동 사용:작업 테이블을 만들고 채우려면 SQL 데이터 관리 작업을 사용하여 고유한 SQL 스크립트를 작성할 수 있습니다( [이 섹션](../../workflow/using/sql-data-management.md)참조).
-* 워크플로우:워크플로우 사용 권한
-* 웹 앱:웹 애플리케이션 사용 권한
+* **[!UICONTROL ADMINISTRATION]**:권한이 **[!UICONTROL ADMINISTRATION]** 있는 연산자는 인스턴스에 대한 전체 액세스 권한을 갖습니다. 관리 사용자는 워크플로우, 전달, 스크립트 등과 같은 모든 객체를 실행/생성/편집/삭제할 수 있습니다.
+
+* **[!UICONTROL APPROVAL ADMINISTRATION]**:워크플로우 및 배달 내에서 여러 승인 단계를 설정하여 현재 상태가 지정된 연산자 또는 그룹에서 승인되었는지 확인할 수 있습니다. 권한이 있는 사용자는 승인 단계를 설정하고 이러한 단계를 승인해야 하는 운영자 또는 운영자 그룹을 할당할 수도 **[!UICONTROL APPROVAL ADMINISTRATION]** 있습니다.
+
+* **[!UICONTROL CENTRAL]**:중앙 관리(분산 마케팅)에 대한 권한
+
+* **[!UICONTROL DELETE FOLDER]**:폴더를 삭제할 수 있습니다. 이 권한을 사용하면 탐색기 보기에서 폴더를 삭제할 수 있습니다.
+
+* **[!UICONTROL EDIT FOLDERS]**:내부 이름, 레이블, 연결된 이미지, 하위 폴더 순서 등과 같은 폴더 속성을 변경할 수 있는 권한
+
+* **[!UICONTROL EXPORT]**:사용자는 **[!UICONTROL EXPORT]** 워크플로우 활동을 사용하여 Adobe Campaign 인스턴스의 데이터를 서버 또는 로컬 시스템의 파일로 내보낼 수 있습니다.
+
+* **[!UICONTROL FILES ACCESS]**:워크플로우에서 서버 파일을 읽고 쓸 수 있는 스크립트를 통해 파일을 읽고 쓸 수 있습니다. **[!UICONTROL JavaScript]**
+
+* **[!UICONTROL IMPORT]**:범용 데이터 가져오기에 적합한 **[!UICONTROL IMPORT]** 데이터를 다른 테이블로 가져올 수 있지만 **[!UICONTROL RECIPIENT IMPORT]** 권한이 있으면 수신자 테이블으로만 가져올 수 있습니다.
+
+* **[!UICONTROL INSERT FOLDERS]**:폴더를 삽입할 수 있습니다. 권한이 있는 사용자는 탐색기 보기의 폴더 트리에서 새 폴더를 만들 수 있습니다. **[!UICONTROL INSERT FOLDERS]**
+
+* **[!UICONTROL LOCAL]**:로컬 관리에 대한 권한(분산 마케팅).
+
+* **[!UICONTROL MERGE]**:선택한 레코드를 하나로 병합할 수 있습니다. 수신자가 중복으로 존재하는 경우, 사용자는 **[!UICONTROL MERGE]** 권한을 통해 중복 항목을 선택하여 기본 수신자에게 병합할 수 있습니다.
+
+* **[!UICONTROL PREPARE DELIVERIES]**:전달을 생성, 편집 및 저장할 수 있습니다. 또한 **[!UICONTROL PREPARE DELIVERIES]** 권한이 있는 사용자는 전달 분석 프로세스를 시작할 수 있습니다.
+
+* **[!UICONTROL PRIVACY DATA RIGHT]**:개인 정보 데이터를 수집 및 삭제할 권리 자세한 내용은 이 [페이지를](https://helpx.adobe.com/campaign/kb/acc-privacy.html)참조하십시오.
+
+* **[!UICONTROL PROGRAM EXECUTION]**:다양한 프로그래밍 언어로 명령을 실행할 수 있습니다.
+
+* **[!UICONTROL RECIPIENT IMPORT]**:수신자를 가져올 수 있는 권한 권한이 있는 사용자는 로컬 파일을 수신자 테이블로 가져올 수 **[!UICONTROL RECIPIENT IMPORT]** 있습니다.
+
+* **[!UICONTROL SQL SCRIPT EXECUTION]** 데이터베이스에서 직접 SQL 명령을 실행할 수 있습니다.
+
+* **[!UICONTROL START DELIVERIES]**:이전에 분석된 게재를 승인할 권한. 배달 분석 후, 배달은 다양한 승인 단계에서 일시 중지되며 다시 시작하려면 승인을 받아야 합니다. 권한이 있는 사용자는 **[!UICONTROL START DELIVERIES]** 배달을 승인할 수 있습니다.
+
+* **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**:작업 테이블을 만들고 채우려면 SQL 데이터 관리 작업을 사용하여 고유한 SQL 스크립트를 작성할 수 있습니다( [이 섹션](../../workflow/using/sql-data-management.md)참조).
+
+* **[!UICONTROL WORKFLOW]**:워크플로우 실행 권한 이 권한이 없으면 사용자는 워크플로우를 시작, 중지 또는 다시 시작할 수 없습니다.
+
+* **[!UICONTROL WEBAPP]**:웹 애플리케이션 사용 권한
 
 >[!NOTE]
 >
@@ -320,7 +339,7 @@ Adobe Campaign 액세스 권한 매트릭스는 [여기에서](/help/platform/us
 
 ## 폴더 액세스 관리 {#folder-access-management}
 
-트리의 각 폴더에 연결된 액세스 권한이 읽기, 쓰기 및 삭제됩니다. 파일에 액세스하려면 연산자 또는 연산자 그룹이 파일에 대한 읽기 액세스 권한을 가져야 합니다.
+트리의 각 폴더에는 첨부된 액세스 권한이 읽기, 쓰기 및 삭제됩니다. 파일에 액세스하려면 연산자 또는 연산자 그룹이 파일에 대한 읽기 권한을 가져야 합니다.
 
 ### 폴더에 대한 권한 편집 {#edit-permissions-on-a-folder}
 
