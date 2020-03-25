@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7eef2b9bdee51d6684d4dff5b08f50ec79a33af6
+source-git-commit: b0cd40d4616f7b55a1d655a1717b9c7ce8d8b6c6
 
 ---
 
@@ -40,4 +40,3 @@ Adobe Target에서 여러 유형의 데이터를 활용할 수 있습니다.
 >[!NOTE]
 >
 >또한 Adobe Target 도움말 페이지에서 Adobe Campaign과 Adobe Target 간의 통합에 대한 정보를 [확인할 수](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)있습니다.
-
