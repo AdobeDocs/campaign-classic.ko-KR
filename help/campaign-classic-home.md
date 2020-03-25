@@ -5,7 +5,7 @@ solution: Campaign Classic
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 08f697afc1630f275188dc86ca39d7841f922ed9
+source-git-commit: d674d8a0cabb72a8a344019de688ad7027cb3e8d
 
 ---
 
@@ -23,8 +23,6 @@ source-git-commit: 08f697afc1630f275188dc86ca39d7841f922ed9
 * **[유지 관리 안내캠페인](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>인스턴스 및 프로세스를 모니터링하는 방법 학습
 
 * **[AMP를 사용한 인터랙티브한 컨텐츠](delivery/using/defining-interactive-content.md)**<br/>새로운 이메일[포맷용 AMP를 사용하여 다이내믹한 이메일을 전송하는 방법](https://amp.dev/about/email/)학습
-
-* **[제어판](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)**<br/>설정을 관리하고 캠페인 인스턴스의 사용을 추적하는 방법을 알아봅니다.
 
 [업데이트를 더 보려면 여기를 클릭하십시오.](/help/rn/using/documentation-updates.md)
 
@@ -71,15 +69,13 @@ source-git-commit: 08f697afc1630f275188dc86ca39d7841f922ed9
 </tr>
 </table>
 
-
 ## 추가 자료
 
-* [릴리스 정보](/help/rn/using/latest-release.md)
-
-* [사용법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
-
-* [호환성 매트릭스](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
-
-* [구현 안내서](https://helpx.adobe.com/campaign/kb/acc-implementation.html)
-
-* [기술 정보](https://helpx.adobe.com/campaign/kb/article-list.html)
+<table>
+<tr>
+  <td valign="top"><strong>유용한 페이지</strong>* [릴리스 노트](/help/rn/using/latest-release.md) * [사용 방법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) * [호환성 매트릭스](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) * [Campaign Classic 시작하기](../../platform/using/about-adobe-campaign-classic.md) * [Gold Standard 업그레이드](https://helpx.adobe.com/campaign/kb/gold-standard.html) * [사용되지 않음 및 제거된 기능](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) * [제어판 설명서](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+  </td>
+  <td valign="top"><strong>개발자를</strong>위한 리소스 * [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) * [Campaign Classic 데이터 모델](../../configuration/using/about-data-model.md) * [JSAPI 설명서](../../configuration/using/about-web-services.md) * [구현 안내서](https://helpx.adobe.com/campaign/kb/acc-implementation.html) * [추적 안내서](https://helpx.adobe.com/campaign/kb/acc-tracking.html) * [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html) * [기술 정보](https://helpx.adobe.com/campaign/kb/article-list.html)
+  </td>
+</tr>
+</table>
