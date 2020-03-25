@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: becdffadaaaa40359b61a6ad786b9fd8ebecc6e9
+source-git-commit: cda7ae757a6de0e8cd6227faa2b731e9f392791b
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Analytics와 Adobe Campaign 통합의 구현에 대한 자세한 내용은
    * 통합(삭제)
    ![](assets/adobe_genesis_install_002.png)
 
-1. 파트너 목록에서 를 선택합니다 **[!UICONTROL Neolane - Enterprise Marketing Platform]**.
+1. 파트너 목록에서 를 선택합니다 **[!UICONTROL Adobe Campaign Classic]**.
 
    ![](assets/adobe_genesis_install_014.png)
 
