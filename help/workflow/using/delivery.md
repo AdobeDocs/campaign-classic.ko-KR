@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
       ![](assets/specified_transition_option_exemple.png)
 
-   * 해당 배달을 직접 선택합니다. 이렇게 하려면 **[!UICONTROL Explicit]** 옵션을 선택하고 **[!UICONTROL Delivery]** 필드의 드롭다운 목록에서 배달을 선택합니다.
+   * 해당 배달을 직접 선택합니다. 이렇게 하려면 **[!UICONTROL Explicit]** 옵션을 선택하고 필드의 드롭다운 목록에서 배달을 선택합니다 **[!UICONTROL Delivery]** .
 
       이 목록에는 기본적으로 배달 폴더에 포함된 완료되지 않은 **배달이** 표시됩니다. 다른 캠페인에 액세스하려면 **[!UICONTROL Select link]** 아이콘을 클릭합니다.
 
@@ -52,7 +52,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
       배달 작업을 선택한 후 **[!UICONTROL Edit link]** 아이콘을 클릭하여 컨텐츠를 표시할 수 있습니다.
 
-   * 전달을 계산하는 스크립트를 만듭니다. 이렇게 하려면 **[!UICONTROL Calculated by a script]** 옵션을 선택하고 스크립트를 입력합니다. 이 **[!UICONTROL Edit...]** 옵션을 클릭하여 입력 창을 열 수 있습니다. 다음 예제에서는 배달 식별자를 복구합니다.
+   * 전달을 계산하는 스크립트를 만듭니다. 이렇게 하려면 **[!UICONTROL Computed by a script]** 옵션을 선택하고 스크립트를 입력합니다. 이 **[!UICONTROL Edit...]** 옵션을 클릭하여 입력 창을 열 수 있습니다. 다음 예제에서는 배달 식별자를 복구합니다.
 
       ![](assets/diffusion_edit_3.png)
 
@@ -165,7 +165,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 * 스키마
 * recCount
 
-이 세 개의 값 집합은 배달로 인해 발생한 대상을 식별합니다. **[!UICONTROL tableName]** 은 대상의 식별자를 기억하는 테이블의 이름이며, **[!UICONTROL schema]** 모집단(일반적으로 nms:recipient)의 스키마이며, **[!UICONTROL recCount]** 표의 요소 수입니다.
+이 세 개의 값 집합은 배달로 인해 발생한 대상을 식별합니다. **[!UICONTROL tableName]** 는 대상의 식별자를 기억하는 테이블의 이름이며, **[!UICONTROL schema]** 모집단(일반적으로 nms:recipient)의 스키마이며, **[!UICONTROL recCount]** 표의 요소 수입니다.
 
 보수와 연결된 전환에는 동일한 매개 변수가 있습니다.
 
