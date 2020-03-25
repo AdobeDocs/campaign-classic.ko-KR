@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2de7987a0e5089a9023c0cf3b4c6c61a758a5e5f
+source-git-commit: 295dcd0ac302194df5e202ccabb579f006ed5651
 
 ---
 
@@ -32,6 +32,14 @@ Adobe Campaign Classic 릴리스 [노트를 참조할 수도 있습니다](../..
 
 이제 Adobe Campaign의 사전 정의된 데이터 모델과 기본 표 상호 작용을 설명하는 새 섹션을 사용할 수 있습니다. [자세한 내용](../../configuration/using/data-model-description.md)
 
+설명서 홈 페이지에 추가 리소스가 추가되었습니다. [자세한 내용](../../campaign-classic-home.md)
+
+Adobe Target의 동적 오퍼를 Adobe Campaign의 이메일에 통합하는 방법에 대한 사용 사례가 추가되었습니다. [자세한 내용](../../integrations/using/inserting-a-dynamic-image.md)
+
+이제 Adobe Campaign에서 사용할 수 있는 다양한 언어에 대한 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../platform/using/adobe-campaign-workspace.md#languages)
+
+액세스 관리 페이지가 명명된 권한에 대한 자세한 정보로 업데이트되었습니다. [자세한 내용](../../platform/using/access-management.md#named-rights)
+
 ## 2020년 2월 {#february-2020}
 
 이제 Adobe Campaign 데이터 모델을 디자인하는 동안 모범 사례와 주요 권장 사항을 설명하는 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md)
@@ -43,8 +51,6 @@ Adobe Campaign Classic 릴리스 [노트를 참조할 수도 있습니다](../..
 이제 세 개의 이메일 공급자(Gmail, Outlook 및 Mail.ru)가 지원하는 이메일용 AMP는 AMP를 사용하여 대화형 컨텐츠를 정의하는 방법을 설명하는 섹션이 업데이트되었습니다. [자세한 내용](../../delivery/using/defining-interactive-content.md)
 
 이메일 보관 섹션이 명확해졌습니다. [자세한 내용](../../installation/using/email-archiving.md#recommendations-and-limitations)
-
-
 
 ## 20.1 - 17/02/2020{#release-20-1}
 
