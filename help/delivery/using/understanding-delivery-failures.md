@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba750d51d31d7783a3fdc5ef6b0bcf4a863c69d4
+source-git-commit: 5e34e49d66f5d943951cd5d9a11d45df9af544ba
 
 ---
 
@@ -300,7 +300,7 @@ Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https
 
    * 특정 식별 표준 및 암호화 키를 활성화하여 발신자 ID, 도메인 키, **DKIM**, **S/MIME**&#x200B;등과 같은 **도메인 이름을**&#x200B;확인할 **수**&#x200B;있습니다.
    * **SMTP 릴레이**:특정 도메인에 대한 릴레이 서버의 IP 주소와 포트를 구성할 수 있습니다. 자세한 내용은 [이 섹션을](../../installation/using/configuring-campaign-server.md#smtp-relay)참조하십시오.
-   메시지가 Outlook에 다른 도메인 이름으로 표시되는 **[!UICONTROL on behalf of]** 경우, Microsoft의 **기존 전자 메일 인증 표준인 보낸 사람 ID를**&#x200B;사용하여 전자 메일에 서명하지 않도록 하십시오. 이 **[!UICONTROL Sender ID]** 옵션이 활성화되어 있으면 해당 상자의 선택을 취소하고 Adobe Campaign 지원에 문의하십시오. 배달은 영향을 받지 않습니다.
+   보낸 사람 주소로 메시지가 Outlook **[!UICONTROL on behalf of]** 에 표시되는 경우, Microsoft의 오래된 독점 이메일 인증 표준인 보낸 사람 **ID로**&#x200B;이메일에 서명하지 않도록 하십시오. 이 **[!UICONTROL Sender ID]** 옵션이 활성화되어 있으면 해당 상자의 선택을 취소하고 Adobe Campaign 지원에 문의하십시오. 배달은 영향을 받지 않습니다.
 
    >[!NOTE]
    >
