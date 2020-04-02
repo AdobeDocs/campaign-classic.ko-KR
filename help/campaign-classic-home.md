@@ -5,7 +5,7 @@ solution: Campaign Classic
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 234fffd42829a37a705a9472fe23053c8b8ab03d
+source-git-commit: 53e250cb24d5386e6e9e5d85b52d5eb689b2914c
 
 ---
 
@@ -75,7 +75,7 @@ source-git-commit: 234fffd42829a37a705a9472fe23053c8b8ab03d
 |---|---|
 | [릴리스 정보](/help/rn/using/latest-release.md) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [사용법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [Campaign Classic 데이터 모델](configuration/using/about-data-model.md) |
-| [호환성 매트릭스](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) | [JSAPI 설명서](configuration/using/about-web-services.md) |
+| [호환성 매트릭스](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) | [JSAPI 설명서](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Campaign Classic 시작하기](platform/using/about-adobe-campaign-classic.md) | [구현 안내서](https://helpx.adobe.com/campaign/kb/acc-implementation.html) |
 | [Gold Standard 업그레이드](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [추적 안내서](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
 | [사용 중단되거나 제거된 기능](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) | [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html) |
