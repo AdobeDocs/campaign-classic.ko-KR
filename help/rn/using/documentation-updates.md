@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 295dcd0ac302194df5e202ccabb579f006ed5651
+source-git-commit: 11aab98507be594bde79e21c9a5e8ae0b2e8fe36
 
 ---
 
@@ -25,6 +25,16 @@ Adobe Campaign Classic 설명서의 모든 최신 업데이트에 대해 알아�
 이 페이지에는 Adobe Campaign Classic의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
 Adobe Campaign Classic 릴리스 [노트를 참조할 수도 있습니다](../../rn/using/latest-release.md).
+
+## 2020년 4월 {#april-2020}
+
+FDA 권한 테이블은 외부 데이터베이스 액세스(FDA) 문서로 이동되었습니다. [자세한 내용](../../platform/using/remote-database-access-rights.md)
+
+FAQ 파섹 [자세한 내용](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)
+
+데이터 모델 우수 사례 섹션이 색인에 대한 추가 정보로 개선되었습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md#indexes)
+
+사전 정의된 Adobe Campaign 데이터 모델을 설명하는 섹션이 각 기본 표에 대한 자세한 내용과 관련 모듈에 대한 링크를 포함하여 업데이트되었습니다. [자세한 내용](../../configuration/using/data-model-description.md)
 
 ## 2020년 3월 {#march-2020}
 
