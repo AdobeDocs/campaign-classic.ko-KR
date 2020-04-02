@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a37daa8e31afd3d2ab7d5b70bd8ae02c59ce9ee0
+source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
 
 ---
 
@@ -108,7 +108,7 @@ source-git-commit: a37daa8e31afd3d2ab7d5b70bd8ae02c59ce9ee0
    <td> 소셜 네트워크(소셜 마케팅) <br /> </td> 
    <td> Adobe Campaign을 Twitter 및 Facebook과 동기화합니다.<br /> </td> 
    <td> 모두</td> 
-   <td> <a href="../../social/using/starting-workflows.md">자세한 내용</a> </td> 
+   <td> <a href="../../social/using/about-social-marketing.md">자세한 내용</a> </td> 
   </tr> 
   <tr> 
    <td> 트랜잭션 메시지 제어(메시지 센터 - 제어)<br /> </td> 
@@ -171,7 +171,7 @@ source-git-commit: a37daa8e31afd3d2ab7d5b70bd8ae02c59ce9ee0
    <td> 선택 사항, <a href="../../web/using/about-surveys.md">자세한 내용</a> </td> 
   </tr> 
   <tr> 
-   <td> 마케팅 분석<br /> </td> 
+   <td> Marketing Analytics<br /> </td> 
    <td> 데이터를 분석 및 측정하고, 통계를 계산하며, 보고서 작성 및 계산을 단순화 및 최적화할 수 있습니다. 또한 보고서를 만들고 타겟 모집단을 만들 수도 있습니다. <br /> </td> 
    <td> 마케팅<br /> </td> 
    <td> 선택 사항, <a href="../../reporting/using/about-cubes.md">자세한 내용</a> </td> 
