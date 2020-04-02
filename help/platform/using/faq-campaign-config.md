@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
+source-git-commit: c5a9823b2feb6e2f721a2ad15dc08c1abe672054
 
 ---
 
@@ -78,3 +78,35 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 이러한 커넥터를 사용하면 빠르고 손쉽게 데이터를 통합할 수 있습니다.Adobe Campaign은 CRM에서 사용할 수 있는 표를 수집하고 선택하는 전용 마법사를 제공합니다. 이렇게 하면 두 가지 방향 동기화를 통해 데이터가 시스템 전체에서 항상 최신 상태로 유지되는지 확인할 수 있습니다.
 
 CRM [도구를 Adobe Campaign과 동기화하는 방법을 알아보려면 CRM 커넥터](../../platform/using/crm-connectors.md) 구성을 참조하십시오. Adobe Campaign 및 Microsoft Dynamics [365 통합에](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html)대한 이 활용 사례 비디오를 시청하십시오.
+
+## 컴퓨터별 또는 사용자별 문제인 경우 소프트 캐시 지우기를 수행하는 방법 {#perform-soft-cache-clear}
+
+새 로고가 올바로 반영되고 시스템별/사용자별 데이터를 성공적으로 내보낼 수 있는 등의 문제가 있는 경우 Windows(Windows 7, Windows XP, Windows 10)에서 소프트 캐시 지우기를 수행해야 할 수 있습니다.
+
+로그인하고 나면 **[!UICONTROL File]** > **[!UICONTROL Clear the local cache]**&#x200B;로 이동합니다. 그런 다음 로그아웃한 후 다시 로그인합니다.
+
+![](assets/faq_soft_cache.png)
+
+그래도 문제가 해결되지 않으면 아래 단계를 수행하여 하드 캐시를 지우십시오.
+
+## 시스템 특정 또는 사용자별 문제가 있을 때 하드 캐시 지우기를 수행하는 방법 {#perform-hard-cache-clear}
+
+새 로고가 올바로 반영되고 시스템별/사용자별 데이터를 성공적으로 내보낼 수 있는 등의 문제가 있는 경우 Windows(Windows 7, Windows XP, Windows 10)에서 하드 캐시 지우기를 수행해야 할 수 있습니다.
+
+1. 클라이언트 콘솔에서 **[!UICONTROL File]** > **[!UICONTROL Clear the local cache]**&#x200B;을 선택합니다.
+
+1. 클라이언트 콘솔(리치 클라이언트)을 로그아웃하고 닫습니다.
+
+1. 운영 체제 버전에 따라 다음 위치로 이동합니다.
+
+   * Windows 7:C:\Users\&lt; 사용자 이름 > \AppData\Roaming\Neolane\NL_5\
+   * Windows XP:C:\Documents and Settings\&lt; 사용자 이름 >\Application Data\Neolane\NL_5
+   여기서는 nlclient-config-&lt; 영숫자 값 >.xml이라는 많은 xml 파일을 볼 수 있습니다.
+
+1. 이러한 xml 파일 및 관련 폴더를 삭제합니다.
+
+   >[!CAUTION]
+   >
+   >nlclient_cnx.xml 파일을 삭제하지 마십시오.
+
+1. 클라이언트 콘솔에 로그인합니다.
