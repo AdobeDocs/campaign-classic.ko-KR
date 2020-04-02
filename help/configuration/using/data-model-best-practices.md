@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1336bf7ab9cce7f2ffe7d4ffa5e119851e946885
+source-git-commit: 239272386b709f81d1e6898a68b9b3552ddeb9b7
 
 ---
 
@@ -107,7 +107,7 @@ Adobe Campaign 리소스에는 세 개의 식별자가 있으며 추가 식별�
 
 다음 표에서는 이러한 식별자 및 해당 용도를 설명합니다.
 
-| 식별자 | 설명 | 모범 사례 |
+| 식별자 | 설명 | 권장사항 |
 |--- |--- |--- |
 | ID | <ul><li>id는 Adobe Campaign 테이블의 실제 기본 키입니다. 기본 테이블의 경우 시퀀스에서 생성된 32비트 번호입니다</li><li>이 식별자는 일반적으로 특정 Adobe Campaign 인스턴스에 고유합니다. </li><li>자동 생성된 ID는 스키마 정의에 표시될 수 있습니다. autopk=&quot; *true&quot;* 속성을 검색합니다.</li></ul> | <ul><li>자동 생성된 식별자는 워크플로우 또는 패키지 정의에서 참조로 사용해서는 안 됩니다.</li><li>ID가 항상 증가한다는 가정에서는 할 필요가 없습니다.</li><li>기본 테이블의 id는 32비트 번호이며 이 유형은 변경할 수 없습니다. 이 번호는 같은 이름의 섹션에서 다루는 &quot;시퀀스&quot;에서 가져옵니다.</li></ul> |
 | 이름(또는 내부 이름) | <ul><li>이 정보는 테이블에 있는 레코드의 고유 식별자입니다. 이 값은 일반적으로 생성된 이름으로 수동으로 업데이트할 수 있습니다.</li><li>이 식별자는 다른 Adobe Campaign 인스턴스에 배포할 때 값을 유지하며 비워 둘 수 없습니다.</li></ul> | <ul><li>개체가 환경에서 다른 개체로 배포되도록 하는 경우 Adobe Campaign에서 생성된 레코드 이름의 이름을 변경합니다.</li><li>개체에 namespace 속성(*스키마* 등)이 있는 경우 이 공통 네임스페이스는 만들어진 모든 사용자 정의 개체에 적용됩니다. 일부 예약된 네임스페이스는 사용할 수 없습니다.nms *,* xtk **.</li><li>객체에 네임스페이스(예:*워크플로* 또는 *배달* )가 없는 경우 이 네임스페이스 개념은 내부 이름 개체의 접두사로 추가됩니다.namespace *MyObjectName*.</li><li>공백 &quot;&quot;, 세미열 &quot;:&quot; 또는 하이픈 &quot;-&quot;과 같은 특수 문자는 사용하지 마십시오. 이러한 모든 문자는 밑줄 &quot;_&quot;(허용되는 문자)로 대체됩니다. 예를 들어 &quot;abc-def&quot; 및 &quot;abc:def&quot;는 &quot;abc_def&quot;로 저장되고 서로를 덮어씁니다.</li></ul> |
@@ -171,6 +171,41 @@ Adobe Campaign 기본 키는 모든 기본 테이블에 대해 자동으로 생�
 * 기본 테이블에서 기본 색인을 제거하지 마십시오.
 
 <!--When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
+
+### 예
+
+색인을 관리하는 것은 매우 복잡해질 수 있으므로 색인의 작동 방식을 이해하는 것이 중요합니다. 이러한 복잡성을 설명하기 위해 이름과 성을 필터링하여 받는 사람을 검색하는 것과 같은 기본적인 예를 살펴보겠습니다. 이렇게 하려면:
+1. 데이터베이스의 모든 수신자가 나열된 폴더로 이동합니다. 자세한 내용은 프로필 [관리를](../../platform/using/managing-profiles.md)참조하십시오.
+1. 필드를 마우스 오른쪽 단추로 **[!UICONTROL First name]** 클릭합니다.
+1. 을 **[!UICONTROL Filter on this field]**&#x200B;선택합니다.
+
+   ![](assets/data-model-index-example.png)
+
+1. 필드에 대해 이 작업을 반복합니다 **[!UICONTROL Last name]** .
+
+두 개의 해당 필터가 화면 상단에 추가됩니다.
+
+![](assets/data-model-index-search.png)
+
+이제 다양한 필터 조건에 따라 **[!UICONTROL First name]** 및 **[!UICONTROL Last name]** 필드에 대한 검색 필터링을 수행할 수 있습니다.
+
+이제 이러한 필터에 대한 검색 속도를 높이기 위해 색인을 추가할 수 있습니다. 하지만 어떤 색인을 사용해야 하는가?
+
+>[!NOTE]
+>
+>이 예는 PostgreSQL 데이터베이스를 사용하는 호스팅 고객에게 적용됩니다.
+
+다음 표는 아래 설명된 세 개의 인덱스가 첫 번째 열에 표시된 액세스 패턴에 따라 사용되거나 사용되지 않는 경우를 보여줍니다.
+
+| 검색 기준 | 색인 1(이름 + 성) | 색인 2(이름만) | 색인 3(성만 해당) | 댓글 |
+|--- |--- |--- |--- |--- |
+| 이름은 &quot;Johnny&quot;입니다. | 사용됨 | 사용됨 | 사용되지 않음 | 이름이 인덱스 1의 첫 번째 위치에 있으므로, 어쨌든 사용됩니다.성에는 기준을 추가할 필요가 없습니다. |
+| 이름은 &quot;Johnny&quot;이고 성은 &quot;Smith&quot;입니다. | 사용됨 | 사용되지 않음 | 사용되지 않음 | 동일한 쿼리에서 두 속성이 모두 검색되므로 두 속성을 모두 결합하는 색인만 사용됩니다. |
+| 성은 &quot;Smith&quot;와 같습니다. | 사용되지 않음 | 사용되지 않음 | 사용됨 | 인덱스의 속성 순서를 고려합니다. 이 순서와 일치하지 않는 경우 색인을 사용하지 않을 수 있습니다. |
+| 이름은 &quot;Joh&quot;로 시작합니다. | 사용됨 | 사용됨 | 사용되지 않음 | &quot;왼쪽 검색&quot;을 사용하면 색인이 활성화됩니다. |
+| 이름은 &quot;nny&quot;로 끝납니다. | 사용되지 않음 | 사용되지 않음 | 사용되지 않음 | &quot;Right search&quot;를 사용하면 색인이 비활성화되고 전체 검색이 수행됩니다. 일부 특정 인덱스 유형은 이 사용 사례를 처리할 수 있지만 Adobe Campaign에서는 기본적으로 사용할 수 없습니다. |
+| 이름에 &quot;John&quot;이 포함됨 | 사용되지 않음 | 사용되지 않음 | 사용되지 않음 | 이것은 &quot;left&quot; 및 &quot;right&quot; 검색의 조합입니다. 후기 때문에 색인을 비활성화하고 전체 스캔을 수행합니다. |
+| 이름은 &quot;john&quot;과 같습니다. | 사용되지 않음 | 사용되지 않음 | 사용되지 않음 | 색인은 대소문자를 구분합니다. 대/소문자를 구분하지 않도록 하려면 &quot;upper(firstname)&quot;와 같은 SQL 함수를 포함하는 특정 인덱스를 만들어야 합니다. &quot;unaccent(firstname)&quot;와 같은 다른 데이터 변환도 동일하게 수행해야 합니다. |
 
 ## 링크 및 카디널리티 {#links-and-cardinality}
 
