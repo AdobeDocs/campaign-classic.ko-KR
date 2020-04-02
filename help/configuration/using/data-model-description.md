@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 828c95aaa4b1d0d9507129edb164ddf978c363c1
+source-git-commit: 707e16e9e493e175c70af606bf4568a9127cedb2
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign은 함께 연결된 테이블을 포함하는 관계형 데이터
 
 ![](assets/data-model_simplified-diagram.png)
 
-사전 정의된 Adobe Campaign 데이터 모델에는 다음 기본 테이블이 포함되어 있습니다.
+사전 정의된 Adobe Campaign 데이터 모델에는 아래에 나열된 기본 테이블이 포함되어 있습니다.
 
 ### NmsRecipient {#NmsRecipient}
 
@@ -108,11 +108,15 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 
 ## 전달 및 추적 {#delivery-and-tracking}
 
+이 테이블 세트는 배달 **모듈에 연결되어** 메시지를 전송할 때 발생하는 전달 및 최종 문제를 모니터링할 수 있습니다. 자세한 내용은 배달 [모니터링을](../../delivery/using/monitoring-a-delivery.md)참조하십시오. 추적에 대한 자세한 내용은 추적 [메시지를](../../delivery/using/about-message-tracking.md)참조하십시오.
+
 ![](assets/data-model_delivery.png)
 
 **NmsBroadLogMsg**:이 표에서는 nms:broadLogMsg **스키마와** 일치합니다. 배달 로그 테이블의 확장입니다.
 
 ## 캠페인 관리 {#campaign-management}
+
+이 표 세트는 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, **실행 및 분석할 수 있는 마케팅 캠페인** 모듈에 연결됩니다. 자세한 내용은 마케팅 [캠페인](../../campaign/using/designing-marketing-campaigns.md)정보를 참조하십시오.
 
 ![](assets/data-model_campaign.png)
 
@@ -128,6 +132,8 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 
 ## 커뮤니케이션 일관성 {#communication-consistency}
 
+이 테이블 세트는 게재 전송을 제어, **필터링** 및 모니터링할 수 있는 캠페인 최적화 모듈에 연결됩니다. 자세한 내용은 캠페인 유형 [정보를 참조하십시오](../../campaign/using/about-campaign-typologies.md).
+
 ![](assets/data-model_typology.png)
 
 * **NmsTypicalRule**:이 테이블은 nms: **typicalRule 스키마와** 일치합니다. 유형 유형에 따라 게재에 적용되는 규칙을 포함합니다.
@@ -137,6 +143,8 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 * **NmsVolumeUsed**:이 표에서는 nms:volumeUsed **스키마와** 일치합니다. 여기에는 용량 규칙의 모든 소비 라인이 포함됩니다.
 
 ## 응답 관리 {#response-management}
+
+이 표 세트는 마케팅 캠페인의 성공과 **수익성을 측정하거나 모든 커뮤니케이션 채널에 대한 제안을** 제공할 수 있는 응답 관리자 모듈과 연결됩니다. 자세한 내용은 응답 [관리자](../../campaign/using/about-response-manager.md)정보를 참조하십시오.
 
 ![](assets/data-model_response.png)
 
@@ -196,6 +204,8 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 
 ## 시뮬레이션 및 전달 {#simulation-and-delivery}
 
+이 표 세트는 시뮬레이션 **모듈과 연결되어** 있으므로, 제안을 수신자에게 보내기 전에 카테고리 또는 환경에 속하는 오퍼의 배포를 테스트할 수 있습니다. 자세한 내용은 오퍼 [시뮬레이션](../../interaction/using/about-offers-simulation.md)정보를 참조하십시오.
+
 ![](assets/data-model_simulation.png)
 
 * **NmsSimulation**:이 테이블은 nms: **simulation** 스키마와 일치합니다. 지정된 모집단에서 전달 또는 오퍼 집합에 대한 시뮬레이션을 나타냅니다.
@@ -203,6 +213,8 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 * **NmsOfferSimulationRel**:이 표에서는 nms:offerSimulationRel **스키마와** 일치합니다. 시뮬레이션을 오퍼와 연결할 수 있습니다.
 
 ## 상호 작용 모듈 {#interaction-module}
+
+이 표 세트는 **상호 작용** 모듈과 연결되어 있으므로, 지정된 담당자와 상호 작용 중에 한 개 또는 여러 개의 적용된 오퍼로 만들어 실시간으로 응답할 수 있습니다. 자세한 내용은 상호 작용 [및 오퍼 관리를](../../interaction/using/interaction-and-offer-management.md)참조하십시오.
 
 * **NmsOffer**:이 테이블은 **nms:offer** 스키마와 일치합니다. 여기에는 각 마케팅 오퍼의 정의가 포함됩니다.
 * **NmsProvisionRcp**:이 표에서는 nms:provisionRcp **스키마와** 일치합니다. 여기에는 각 개인에게 전송된 마케팅 프로필의 크로스 채널 로그가 포함되어 있습니다. 기록은 제안을 준비하거나 효과적으로 개인에게 제출될 때 생성됩니다.
@@ -213,6 +225,8 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 * **NmsOfferEnv**:이 테이블은 **nms:offerEnv와 일치합니다**. 오퍼 환경을 포함합니다.
 
 ## 메시지 센터 모듈 {#message-center-module}
+
+다음 표는 사용자에게 전송되고 정보 시스템에서 트리거된 **이벤트에서 생성되는 개별 및 고유한 커뮤니케이션을 관리할 수 있는 트랜잭션 메시징** (메시지 센터) 모듈에 연결되어 있습니다. 자세한 내용은 트랜잭션 [메시지](../../message-center/using/about-transactional-messaging.md)정보를 참조하십시오.
 
 ### NmsRtEvent {#NmsRtEvent}
 
@@ -226,15 +240,19 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 
 이 표에서는 nms:batchEvent **스키마와** 일치합니다. 여기에는 일괄 처리별 이벤트 정의가 포함됩니다.
 
-## Microsites Module {#microsites-module}
+<!--## Microsites Module {#microsites-module}
+
+This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](../../web/using/about-web-applications.md).
 
 ![](assets/data-model_microsites.png)
 
-* **NmsTrackingUrl**:이 테이블은 nms:trackingUrl **스키마와** 일치합니다.
+* **NmsTrackingUrl**: This table matches the **nms:trackingUrl** schema.
 
-* **NmsPurl**:이 테이블은 **nms:purl** 스키마와 일치합니다.
+* **NmsPurl**: This table matches the **nms:purl** schema.-->
 
 ## NMAC 모듈 {#nmac-module}
+
+이 표 세트는 모바일 앱 채널에 연결되어 **있으므로**&#x200B;앱을 통해 개인화된 알림을 iOS 및 Android 터미널에 보낼 수 있습니다. 자세한 내용은 모바일 앱 [채널](../../delivery/using/about-mobile-app-channel.md)정보를 참조하십시오.
 
 * **NmsMobileApp**:이 표에서는 nms:mobileApp **스키마와** 일치합니다. 여기에는 Adobe Campaign에 정의된 모바일 애플리케이션이 포함되어 있습니다.
 * **NmsAppSubscription**:이 표에서는 nms:appSubscription **스키마와** 일치합니다. 여기에는 하나 이상의 응용 프로그램에 대한 구독자 정보가 포함되어 있습니다.
@@ -244,6 +262,8 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 * **NmsBroadLogAppSubRcp**:이 표에서는 nms:broadLogAppSubRcp **스키마와** 일치합니다.
 
 ## 소셜 마케팅 모듈 {#social-marketing-module}
+
+이 표는 Facebook 및 Twitter를 통해 **고객 및 잠재 고객과 상호 작용할 수 있는 소셜 네트워크** 관리 모듈과 연결되어 있습니다. 자세한 내용은 소셜 [마케팅](../../social/using/about-social-marketing.md)정보를 참조하십시오.
 
 ![](assets/data-model_social.png)
 
