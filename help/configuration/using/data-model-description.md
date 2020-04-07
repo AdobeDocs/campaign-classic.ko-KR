@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 707e16e9e493e175c70af606bf4568a9127cedb2
+source-git-commit: 4406e11e33e14136ea43fc3cc5a92e0d1c466100
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign은 사전 정의된 데이터 모델과 함께 제공됩니다. �
 
 ## 기본 테이블에 대한 설명 {#description-main-tables}
 
-Adobe Campaign은 함께 연결된 테이블을 포함하는 관계형 데이터베이스에 의존합니다.
+Adobe Campaign은 함께 연결된 테이블이 포함된 관계형 데이터베이스를 사용합니다.
 
 다음 다이어그램은 Adobe Campaign 데이터 모델의 기본 비즈니스 테이블 간의 조인과 각 필드에 대한 기본 필드를 보여줍니다.
 
@@ -73,6 +73,8 @@ NmsRcpGrpRel 관계 테이블은 iRecipientId 및 iGroupId 연결된 테이블�
 ### NmsService {#NmsService}
 
 이 테이블은 **nms:service** 스키마와 일치합니다.
+
+Adobe Campaign에서 정보 서비스(주제)에 대한 구독을 만들고 관리할 수 있습니다. NmsService 테이블은 수신자가 가입하도록 제공하는 정보 서비스(주제)의 정의(예: 뉴스레터)를 저장합니다.
 
 서비스는 더 많은 정보를 배포하고 양식을 통해 구독 및 구독 취소를 손쉽게 관리할 수 있다는 점을 제외하면 그룹(정적 수신자 그룹)과 유사한 개체입니다.
 
