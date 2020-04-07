@@ -1,11 +1,11 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Classic Help
+user-guide-title: Adobe Campaign Classic 도움말
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
+source-git-commit: ce5513c2af9b522919c038e25557634b11e8e3cb
 
 ---
 
@@ -224,7 +224,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [설명 분석 정보](reporting/using/about-descriptive-analysis.md)
       + [설명 분석 마법사 사용](reporting/using/using-the-descriptive-analysis-wizard.md)
       + [보고서 처리](reporting/using/processing-a-report.md)
-      + [활용 사례](reporting/using/use-cases.md)
+      + [사용 사례](reporting/using/use-cases.md)
    + 새 보고서 만들기 {#creating-new-reports}
       + [캠페인에서 보고서 작성 정보](reporting/using/about-reports-creation-in-campaign.md)
       + [새 보고서 만들기](reporting/using/creating-a-new-report.md)
@@ -361,7 +361,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [경고](workflow/using/alert.md)
       + [작업](workflow/using/task.md)
    + 작업 활동 {#action-activities}
-      + [작업 활동 정보](workflow/using/about-action-activities.md)
+      + [작업 활동](workflow/using/about-action-activities.md)
       + [게재](workflow/using/delivery.md)
       + [전달 제어](workflow/using/delivery-control.md)
       + [지속적인 전달](workflow/using/continuous-delivery.md)
@@ -384,18 +384,23 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [웹 다운로드](workflow/using/web-download.md)
       + [인바운드 이메일](workflow/using/inbound-emails.md)
       + [인바운드 SMS](workflow/using/inbound-sms.md)
-   + 활용 사례 {#use-cases}
-      + [로컬 승인 활동 사용](workflow/using/using-the-local-approval-activity.md)
-      + [목록으로 보고서 보내기](workflow/using/sending-a-report-to-a-list.md)
-      + [워크플로우 감독](workflow/using/supervising-workflows.md)
-      + [데이터 업데이트 조정](workflow/using/coordinating-data-updates.md)
-      + [요약 목록 만들기](workflow/using/creating-a-summary-list.md)
-      + [데이터 강화](workflow/using/enriching-data.md)
-      + [A/B 테스트](workflow/using/a-b-testing.md)
-      + [집계 사용](workflow/using/using-aggregates.md)
-      + [생일 이메일 보내기](workflow/using/sending-a-birthday-email.md)
-      + [배달 컨텐츠 로드](workflow/using/loading-delivery-content.md)
-      + [크로스 채널 전달 워크플로우](workflow/using/cross-channel-delivery-workflow.md)
+   + 사용 사례 {#use-cases}
+      + 배달 {#deliveries}
+         + [로컬 승인 활동 사용](workflow/using/using-the-local-approval-activity.md)
+         + [A/B 테스트](workflow/using/a-b-testing.md)
+         + [생일 이메일 보내기](workflow/using/sending-a-birthday-email.md)
+         + [배달 컨텐츠 로드](workflow/using/loading-delivery-content.md)
+         + [크로스 채널 전달 워크플로우](workflow/using/cross-channel-delivery-workflow.md)
+         + [사용자 정의 날짜 필드를 통한 이메일 향상](workflow/using/email-enrichment-with-custom-date-fields.md)
+      + 모니터링 {#monitoring}
+         + [목록으로 보고서 보내기](workflow/using/sending-a-report-to-a-list.md)
+         + [워크플로우 감독](workflow/using/supervising-workflows.md)
+         + [운영자에게 개인화된 경고 보내기](workflow/using/sending-personalized-alerts-to-operators.md)
+      + 데이터 관리 {#data-management}
+         + [데이터 업데이트 조정](workflow/using/coordinating-data-updates.md)
+         + [요약 목록 만들기](workflow/using/creating-a-summary-list.md)
+         + [데이터 강화](workflow/using/enriching-data.md)
+         + [집계 사용](workflow/using/using-aggregates.md)
       + 쿼리 디자인 {#designing-queries}
          + [수신자 테이블 쿼리](workflow/using/querying-recipient-table.md)
          + [배달 정보 쿼리](workflow/using/querying-delivery-information.md)
@@ -405,8 +410,6 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
          + [열거형 유형 계산 필드 추가](workflow/using/adding-enumeration-type-calculated-field.md)
          + [필터 만들기](workflow/using/creating-a-filter.md)
          + [중복 받는 사람 필터링](workflow/using/filtering-duplicated-recipients.md)
-      + [운영자에게 개인화된 경고 보내기](workflow/using/sending-personalized-alerts-to-operators.md)
-      + [사용자 정의 날짜 필드를 통한 이메일 향상](workflow/using/email-enrichment-with-custom-date-fields.md)
    + 모니터링 워크플로우 {#monitoring-workflows}
       + [워크플로우 실행 모니터링](workflow/using/monitoring-workflow-execution.md)
       + [기술 워크플로우 모니터링](workflow/using/monitoring-technical-workflows.md)
@@ -646,7 +649,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
    + 데이터 모델 {#data-model}
       + [데이터 모델 정보](configuration/using/about-data-model.md)
       + [데이터 모델 설명](configuration/using/data-model-description.md)
-      + [모범 사례](configuration/using/data-model-best-practices.md)
+      + [권장사항](configuration/using/data-model-best-practices.md)
    + 스키마 참조 {#schema-reference}
       + [스키마 참조 정보](configuration/using/about-schema-reference.md)
       + [스키마 구조](configuration/using/schema-structure.md)
