@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 11aab98507be594bde79e21c9a5e8ae0b2e8fe36
+source-git-commit: 75f195a11170b4213f930deed886f8bf5b0817bc
 
 ---
 
@@ -35,6 +35,10 @@ FAQ 파섹 [자세한 내용](../../platform/using/faq-campaign-config.md#perfor
 데이터 모델 우수 사례 섹션이 색인에 대한 추가 정보로 개선되었습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md#indexes)
 
 사전 정의된 Adobe Campaign 데이터 모델을 설명하는 섹션이 각 기본 표에 대한 자세한 내용과 관련 모듈에 대한 링크를 포함하여 업데이트되었습니다. [자세한 내용](../../configuration/using/data-model-description.md)
+
+&quot;워크플로우 자동화&quot; 안내서의 사용 사례가 테마 섹션으로 재구성되었습니다. [자세한 내용](../../workflow/using/using-the-local-approval-activity.md)
+
+바운스 [메일 자격](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) 및 [이메일 관리 규칙](../../delivery/using/understanding-delivery-failures.md#email-management-rules) 섹션이 업데이트된 정보로 향상되었습니다.
 
 ## 2020년 3월 {#march-2020}
 
@@ -174,9 +178,9 @@ Multiplexing the mid-sourcing server [and Supporting](../../installation/using/m
 
 개인화 필드 컨텐츠가 1024자를 초과할 수 없도록 하는 정보가 추가되었습니다. [자세한 내용](../../delivery/using/personalization-fields.md)
 
-Control Panel 문서는 새로운 협업 설명서 세트에 통합되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Control Panel 문서는 새로운 협업 설명서 세트에 통합되었습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 
-배포 우수 사례 시작 안내서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+배포 우수 사례 시작 안내서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
 
 ## 2019년 10월 {#october-2019}
 
@@ -188,7 +192,7 @@ Campaign Classic에서 추적을 위해 새 문제 해결 페이지가 추가되
 
 Adobe Analytics 데이터 커넥터에 대한 우수 사례 페이지가 새로 추가되었습니다. [Adobe Analytics 데이터 커넥터에 대한 자세한 내용](../../platform/using/adobe-analytics-data-connector.md)
 
-시작 안내서가 이동되고 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+시작 안내서가 이동되고 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
 
 동일한 공급자 계정의 확장 일반 SMPP 커넥터를 사용하는 여러 외부 계정을 사용하는 경우 문제가 발생하지 않도록 SMS 채널 문서에 권장 사항이 추가되었습니다. [자세한 내용](../../delivery/using/sms-channel.md#automatic-reply)
 
@@ -210,7 +214,7 @@ Adobe Campaign Classic의 추적을 위한 일반 가이드라인에 대한 새 
 
 **릴리스에 포함된 새로운 기능**
 
-제어판 - [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+제어판 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 
 감사 추적 - [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html)
 
