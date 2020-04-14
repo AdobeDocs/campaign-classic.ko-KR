@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 0a4272ae13b469c7c17b8c3afa9748cbfbcf07ff
 
 ---
 
@@ -26,12 +26,12 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 IMS와 통합을 사용하려면:
 
-* Adobe Marketing Cloud 조직 및 IMS ID가 있어야 합니다(Adobe Marketing Cloud에 처음 연결할 때 제공).
-* Marketing Cloud에서 사용자를 추가해야 합니다. 자세한 내용은 다음 페이지를 참조하십시오.https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html [](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+* Adobe Experience Cloud 조직 및 IMS ID가 있어야 합니다(Adobe Experience Cloud에 처음 연결할 때 제공).
+* Experience Cloud에서 사용자를 추가해야 합니다. For more on this, refer to [this page](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 >[!NOTE]
 >
->사용자가 Adobe Campaign과 동기화할 Adobe Marketing Cloud 그룹에 연결되어 있는지 확인합니다. 외부 [계정](#configuring-the-external-account)구성을 참조하십시오.
+>사용자가 Adobe Campaign과 동기화할 Adobe Experience Cloud 그룹에 연결되어 있는지 확인합니다. 외부 [계정](#configuring-the-external-account)구성을 참조하십시오.
 
 ## 콘솔 업데이트 {#updating-the-console}
 
@@ -55,7 +55,7 @@ IMS와 통합을 사용하려면:
 
 다음 정보를 입력합니다.
 
-* 사용된 IMS 서버에 대한 연결 정보(ID 및 암호). 이 정보는 Adobe 지원으로 제공됩니다. 자세한 내용은 Adobe Experience Cloud [관리자를 위한 FAQ를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/mcloud/faq.html).
+* 사용된 IMS 서버에 대한 연결 정보(ID 및 암호). 이 정보는 Adobe 지원으로 제공됩니다. 자세한 내용은 Adobe Experience Cloud [관리자를 위한 FAQ를 참조하십시오](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html).
 
    주소는 **[!UICONTROL Callback server]** https ****&#x200B;로 지정해야 합니다. 이 필드는 Adobe Campaign 인스턴스의 액세스 URL에 해당합니다.
 
