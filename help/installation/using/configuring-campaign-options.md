@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
+source-git-commit: 05831dbcf2450600a9f2f91f87c4440d7e599c9d
 
 ---
 
@@ -202,7 +202,7 @@ source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
   </tr>
     <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span><br /> </td> 
-   <td><p>이 옵션은 실행 중인 배달 수를 계산할 <span class="uicontrol"><a href="../../workflow/using/campaign.md">때</a></span> operationMgt 기술 워크플로우에서 사용됩니다.</p>일관성 없는 상태의 배달이 실행 중인 배달 수에서 제외되는 위의 일 수를 정의할 수 있습니다.</p><p>기본적으로 이 값은 "7"로 설정되며, 즉, 7일 이전의 일관성 없는 배달이 제외됩니다.</p></td> 
+   <td><p>이 옵션은 실행 중인 배달 수를 계산할 <span class="uicontrol"><a href="../../workflow/using/campaign.md">때</a></span> operationMgt 기술 워크플로우에서 사용됩니다.</p>일관성 없는 상태의 배달이 실행 중인 배달 수에서 제외되는 위의 일 수를 정의할 수 있습니다.</p><p>기본적으로 이 값은 "7"로 설정되어 있으므로, 7일 이전의 일관성 없는 배달이 제외됩니다.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span><br /> </td> 
@@ -440,8 +440,8 @@ source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
    <td> <span class="uicontrol">MC_EncompliantCustomJs</span><br /> </td> 
    <td> 이벤트 강화를 위해 개인화된 JavaScript 라이브러리 다음 두 함수의 구현을 포함해야 합니다.<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol"></span> dealliesRtEvents(aiEventId);:데이터베이스의 이벤트를 강화하고 저장합니다(여기서 aiEventId <span class="uicontrol">는</span> 처리된 실시간 이벤트 테이블에 해당합니다).</p> </li> 
-     <li> <p> <span class="uicontrol"></span> ellightroomBatchEvents(aiEventId);:데이터베이스의 이벤트를 강화하고 저장합니다. 여기서 aiEventId <span class="uicontrol">는</span> 처리된 배치 이벤트의 ID 테이블에 해당합니다.</p> </li> 
+     <li> <p> <span class="uicontrol">dealliesRtEvents(aiEventId);</span> :데이터베이스의 이벤트를 강화하고 저장합니다(여기서 aiEventId <span class="uicontrol">는</span> 처리된 실시간 이벤트 테이블에 해당합니다).</p> </li> 
+     <li> <p> <span class="uicontrol">ellightroomBatchEvents(aiEventId);</span> :데이터베이스의 이벤트를 강화하고 저장합니다. 여기서 aiEventId <span class="uicontrol">는</span> 처리된 배치 이벤트의 ID 테이블에 해당합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -452,8 +452,8 @@ source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
    <td> <span class="uicontrol">MC_RoutingCustomJs</span><br /> </td> 
    <td> 라우팅 이벤트에 맞게 개인화된 JavaScript 라이브러리 다음 두 함수의 구현을 포함해야 합니다.<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol"></span> dispatchRtEvent(iEventId);:실시간 이벤트를 처리하기 위해 선택한 트랜잭션 메시지의 내부 이름을 반환합니다(여기서 iEventId <span class="uicontrol">는</span> 처리된 실시간 이벤트의 ID에 해당합니다).</p> </li> 
-     <li> <p> <span class="uicontrol"></span> dispatchBatchEvent(iEventId);:배치 이벤트를 처리하기 위해 선택한 트랜잭션 메시지의 내부 이름을 반환합니다(여기서 iEventId <span class="uicontrol">는</span> 처리된 배치 이벤트의 ID에 해당합니다).</p> </li> 
+     <li> <p> <span class="uicontrol">dispatchRtEvent(iEventId);</span> :실시간 이벤트를 처리하기 위해 선택한 트랜잭션 메시지의 내부 이름을 반환합니다(여기서 iEventId <span class="uicontrol">는</span> 처리된 실시간 이벤트의 ID에 해당합니다).</p> </li> 
+     <li> <p> <span class="uicontrol">dispatchBatchEvent(iEventId);</span> :배치 이벤트를 처리하기 위해 선택한 트랜잭션 메시지의 내부 이름을 반환합니다(여기서 iEventId <span class="uicontrol">는</span> 처리된 배치 이벤트의 ID에 해당합니다).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -635,7 +635,7 @@ source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span><br /> </td> 
-   <td> Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 백업 및 복제를 최적화합니다. <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)">자세한 내용</a> 보기 <br /> </td> 
+   <td> 백업 및 복제를 최적화하기 위해 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 이 옵션은 임시 데이터베이스의 이름에 해당합니다.작업 테이블이 지정된 경우 이 데이터베이스에 기록됩니다. 예:'tempdb.dbo' (마침표는 마침표로 끝나야 합니다.)</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">자세한 내용</a> 보기 <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span><br /> </td> 
@@ -670,7 +670,7 @@ source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
    <td> <span class="uicontrol">NlMigration_KeepFolderStructure</span><br /> </td> 
    <td> 마이그레이션 중에는 트리 구조가 새 버전 표준에 따라 자동으로 재구성됩니다.<br /> 이 옵션을 사용하면 탐색 트리의 자동 마이그레이션을 비활성화할 수 있습니다. 이 기능을 사용하는 경우 마이그레이션 후 오래된 폴더를 삭제하고 새 폴더를 추가하고 필요한 모든 검사를 실행해야 합니다.<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol"></span> 데이터 유형:정수</p> </li> 
+     <li> <p> <span class="uicontrol">데이터 유형:</span> 정수</p> </li> 
      <li> <p> <span class="uicontrol">값(텍스트)</span> :1 </p> </li> 
     </ul> 이 옵션은 기본 탐색 트리가 너무 많은 변경을 거친 경우에만 사용해야 합니다.<br /> 자세한 내용은 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">이 섹션을</a>참조하십시오.<br /> </td> 
   </tr> 
@@ -680,7 +680,7 @@ source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
   </tr> 
   <tr> 
    <td> <span class="uicontrol">PostUpgradeLastError</span><br /> </td> 
-   <td> <br /> 아래 구문에 따라 Postupgrade에서 발생한 오류에 대한 정보:{ <strong>{빌드 번호}:{mode:pre/post/...}:{The 'lessThan'/'greaterOrEquelThan' where error occurred + sub-step}</strong> </td> 
+   <td> 아래 구문에 따라 Postupgrade에서 발생한 오류에 대한 정보:<br /> { <strong>{빌드 번호}:{mode:pre/post/...}:{The 'lessThan'/'greaterOrEquelThan' where error occurred + sub-step}</strong> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkCleanup_NoStats</span><br /> </td> 
