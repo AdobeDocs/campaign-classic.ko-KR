@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1afd6ad61db2062ee804c8a2add56a21578ef19
+source-git-commit: ad4a40053b25bbf8de81e074e135ef4944f0b427
 
 ---
 
@@ -30,4 +30,14 @@ source-git-commit: c1afd6ad61db2062ee804c8a2add56a21578ef19
 
 상호 작용을 통해 오퍼 카탈로그를 만들고 관리할 수 있으며, 오퍼에 연결된 자격 조건 규칙과 애플리케이션 테마를 구성할 수 있습니다. 선택한 채널에 따라 다양한 렌더링 기능을 통해 제안 컨텐츠를 개인화할 수 있습니다. 마지막으로 시뮬레이션 모듈을 사용하여 오퍼 프레젠테이션의 효과를 계산할 수 있습니다.
 
-Campaign Interaction에 사용된 상호 작용 기능과 용어를 숙지하려면 다음 비디오를 시청하십시오.Adobe [Campaign 상호 작용 개요](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com).
+![](assets/Offermgt2.png)
+
+Campaign Interaction에 사용된 상호 작용 기능과 용어를 숙지하려면 다음 비디오를 시청하십시오.Adobe [Campaign 상호 작용 개요](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
+
+## 관련 항목
+
+| 유용한 페이지 | 추가 리소스 |
+|---|---|
+| [상호 작용 구현 단계](../../interaction/using/implementation-steps.md) | [오퍼 배포 테스트](../../interaction/using/about-offers-simulation.md) |
+| [라이브/디자인 환경](../../interaction/using/live-design-environments.md) | [이메일에 오퍼 추가](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
+| [오퍼 공간 만들기](../../interaction/using/creating-offer-spaces.md) | [사용 사례:웹 사이트에서 오퍼 추가](../../interaction/using/offers-on-an-inbound-channel.md) |
