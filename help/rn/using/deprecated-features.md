@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10419ee0fb466bddd05ab67087ccdbfdda1e48c8
+source-git-commit: 79f8cc179fcbf9d537a1cc889b268a43202d7369
 
 ---
 
@@ -52,8 +52,8 @@ Campaign Classic 기능의 임박한 제거/대체를 알리기 위해 다음 �
    <tr> 
    <td>Javascript SDK 보안<br></td>
    <td>decryptString<br></td>
-   <td><p>보안상의 이유로, 암호 해독 문자열 API는 더 이상 새 설치에 기본적으로 사용할 수 없습니다.</p> 
-   <p>18.6 이상으로 업그레이드 후 컨텍스트에서 이 API는 더 이상 활성화되지 않으며 암호 해독 함수로 대체되었습니다.</p><br> </td>
+   <td><p>보안상의 이유로 <em>암호 해독문자열</em> API는 더 이상 새 설치에 기본적으로 사용할 수 없습니다.</p> 
+   <p>18.6 이상으로 업그레이드 후 컨텍스트에서 이 API는 더 이상 활성화되지 않으며 <em>암호 해독 함수로 대체되었습니다</em> .</p><br> </td>
   </tr> 
  </tbody> 
 </table>
@@ -125,7 +125,7 @@ Campaign Classic 기능의 임박한 제거/대체를 알리기 위해 다음 �
    <tr> 
    <td>캠페인 API 설명서 - jsapi.chm 파일<br></td>
    <td>이제 전용 페이지에서 Campaign Classic API를 사용할 수 있습니다. jsapi.chm 파일을 사용하는 경우 이제 <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">새로운 온라인 버전을</a>참조해야 합니다.</td>
-   <td>&lt;19.1</td>
+   <td>19.1</td>
   </tr> 
   <tr> 
    <td>캠페인 통합 운영 - 예측 마케팅</td>
