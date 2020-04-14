@@ -5,7 +5,7 @@ solution: Campaign Classic
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 53e250cb24d5386e6e9e5d85b52d5eb689b2914c
+source-git-commit: ffaa4d4442448f9d30c4a1ef41b8bd73363088e0
 
 ---
 
@@ -16,11 +16,9 @@ source-git-commit: 53e250cb24d5386e6e9e5d85b52d5eb689b2914c
 
 ## 새로운 기능
 
-* **[개인 정보 관리](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Adobe Campaign을 통해 개인 정보 보호 규정을 준수하는 방법을 살펴볼 수 있습니다.
+* **[개인 정보](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/>&#x200B;보호 규정 준수 Adobe Campaign을 통해 개인 정보 보호 규정을 준수하는 방법 학습
 
-* **[추적 안내](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>Campaign의 추적 기능 이해
-
-* **[유지 관리 안내캠페인](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>인스턴스 및 프로세스를 모니터링하는 방법 학습
+* **[추적 기능](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/> Campaign의 추적 기능 이해
 
 * **[AMP를 사용한 인터랙티브한 컨텐츠](delivery/using/defining-interactive-content.md)**<br/>새로운 이메일[포맷용 AMP를 사용하여 다이내믹한 이메일을 전송하는 방법](https://amp.dev/about/email/)학습
 
@@ -74,9 +72,9 @@ source-git-commit: 53e250cb24d5386e6e9e5d85b52d5eb689b2914c
 | 유용한 페이지 | 개발자를 위한 자료 |
 |---|---|
 | [릴리스 정보](/help/rn/using/latest-release.md) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [사용법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [Campaign Classic 데이터 모델](configuration/using/about-data-model.md) |
-| [호환성 매트릭스](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) | [JSAPI 설명서](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
+| [사용법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [캠페인 데이터 모델](configuration/using/about-data-model.md) |
+| [호환성 매트릭스](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) | [캠페인 JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Campaign Classic 시작하기](platform/using/about-adobe-campaign-classic.md) | [구현 안내서](https://helpx.adobe.com/campaign/kb/acc-implementation.html) |
 | [Gold Standard 업그레이드](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [추적 안내서](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
 | [사용 중단되거나 제거된 기능](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) | [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html) |
-| [제어판 설명서](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [기술 정보](https://helpx.adobe.com/campaign/kb/article-list.html) |
+| [캠페인 제어판](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) | [모니터링 우수 사례](https://helpx.adobe.com/campaign/kb/acc-maintenance.html) |
