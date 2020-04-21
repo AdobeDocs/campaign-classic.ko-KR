@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -184,7 +184,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 >
 >호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우, 게재의 재시도 설정은 더 이상 Campaign에서 사용되지 않습니다. 소프트 바운스 재시도와 그 사이의 시간은 메시지의 이메일 도메인에서 돌아오는 바운스 응답 유형 및 심각도에 따라 향상된 MTA에 의해 결정됩니다.
 >
->모든 영향은 Adobe Campaign 향상된 [MTA 문서에 자세히](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 설명되어 있습니다.
+>모든 영향은 Adobe Campaign 향상된 [MTA 문서에 자세히](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) 설명되어 있습니다.
 
 
 ## 유효 기간 정의 {#defining-validity-period}
@@ -205,4 +205,4 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 >
 >호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 캠페인 전달의 **[!UICONTROL Delivery duration]** 설정은 **3.5** 일 이내로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다.
 >
->모든 영향은 Adobe Campaign 향상된 [MTA 문서에 자세히](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 설명되어 있습니다.
+>모든 영향은 Adobe Campaign 향상된 [MTA 문서에 자세히](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) 설명되어 있습니다.
