@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -38,4 +38,4 @@ source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 
 >[!NOTE]
 >
->호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 전달 능력, 처리량 및 바운스 처리를 개선하기 위해 모든 트랜잭션 메시지를 Adobe Campaign 향상된 MTA와 함께 전송할 수도 있습니다. 모든 영향은 표준 마케팅 메시지와 동일하며 Adobe Campaign 향상된 MTA [문서에 자세히 설명되어](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 있습니다.
+>호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 전달 능력, 처리량 및 바운스 처리를 개선하기 위해 모든 트랜잭션 메시지를 Adobe Campaign 향상된 MTA와 함께 전송할 수도 있습니다. 모든 영향은 표준 마케팅 메시지와 동일하며 Adobe Campaign 향상된 MTA [문서에 자세히 설명되어](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) 있습니다.
