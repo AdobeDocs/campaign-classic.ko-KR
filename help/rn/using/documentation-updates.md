@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 75f195a11170b4213f930deed886f8bf5b0817bc
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -39,6 +39,8 @@ FAQ 파섹 [자세한 내용](../../platform/using/faq-campaign-config.md#perfor
 &quot;워크플로우 자동화&quot; 안내서의 사용 사례가 테마 섹션으로 재구성되었습니다. [자세한 내용](../../workflow/using/using-the-local-approval-activity.md)
 
 바운스 [메일 자격](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) 및 [이메일 관리 규칙](../../delivery/using/understanding-delivery-failures.md#email-management-rules) 섹션이 업데이트된 정보로 향상되었습니다.
+
+Adobe Campaign 향상된 MTA 아티클이 업데이트되었습니다. 이제 Campaign Classic에만 적용됩니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-acc-campaign-enhanced-mta.html)
 
 ## 2020년 3월 {#march-2020}
 
@@ -114,7 +116,7 @@ Campaign **Classic 기능 매트릭스** 페이지가 업데이트되었습니�
 
 이제 Adobe Campaign Classic 데이터 모델의 기본 사항과 각 테이블의 설명에 액세스하는 방법을 설명하는 새 섹션을 사용할 수 있습니다. [자세한 내용](../../configuration/using/about-data-model.md)
 
-Adobe Campaign 향상된 MTA 아티클이 모든 메시지에 필요한 향상된 MTA 헤더를 추가하지 않는 인스턴스에 특정 Typical 패키지를 설치하는 방법에 대한 자세한 정보로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html#impacts)
+Adobe Campaign 향상된 MTA 아티클이 모든 메시지에 필요한 향상된 MTA 헤더를 추가하지 않는 인스턴스에 특정 Typical 패키지를 설치하는 방법에 대한 자세한 정보로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html#impacts)
 
 쿼리 디자인과 관련된 사용 사례가 별도의 섹션으로 재구성되었습니다. [자세한 내용](../../workflow/using/querying-recipient-table.md)
 
@@ -152,7 +154,7 @@ TLS(보안 SMS 메시지) - [자세한 내용](https://helpx.adobe.com/campaign/
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-이제 Adobe Campaign 향상된 MTA 설명서를 사용할 수 있습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+이제 Adobe Campaign 향상된 MTA 설명서를 사용할 수 있습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 캠페인 내에서 &quot;가능한 한 빨리 시작&quot; 상태를 유지하는 워크플로우 문제 해결 방법에 대한 새 섹션이 추가되었습니다. 자세한[내용 보기](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
