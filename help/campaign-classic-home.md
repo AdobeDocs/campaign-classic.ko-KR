@@ -5,7 +5,7 @@ solution: Campaign Classic
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: ffaa4d4442448f9d30c4a1ef41b8bd73363088e0
+source-git-commit: 12c38d8ccf198b59ce93ee4155940612637b2856
 
 ---
 
@@ -15,6 +15,8 @@ source-git-commit: ffaa4d4442448f9d30c4a1ef41b8bd73363088e0
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg)
 
 ## 새로운 기능
+
+* **[지원](https://helpx.adobe.com/campaign/kb/ac-support.html)**</br>&#x200B;액세스 FAQ, 모범 사례, 도움말 리소스, 캠페인 전문가 및 고객 지원 팀과 연결
 
 * **[개인 정보](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/>&#x200B;보호 규정 준수 Adobe Campaign을 통해 개인 정보 보호 규정을 준수하는 방법 학습
 
