@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0932d0836c53b8dea715f471f9319603140c9950
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -255,7 +255,7 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 컨텐츠(예: ID, 날
 * Webhooks/EFS 없이 향상된 **MTA를 사용하는**&#x200B;인스턴스의 경우, **[!UICONTROL Inbound email]** 규칙을 사용하여 비동기 바운스 이메일과 동일한 이메일 주소를 사용하여 향상된 MTA에서 들어오는 동기 바운스 이메일을 처리합니다.
 >
 >
-Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
+Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)참조하십시오.
 
 ### 이메일 관리 규칙 {#email-management-rules}
 
@@ -291,7 +291,7 @@ Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https
 >
 >호스팅 또는 하이브리드 설치의 경우, 향상된 MTA로 업그레이드한 경우, 인스턴스에 Webhook/EFS **기능이 있는** 경우, 동기 배달 실패 오류 메시지에 더 이상 **[!UICONTROL Inbound email]** 규칙이 사용되지 않습니다. 자세한 내용은 [이 섹션을](#bounce-mail-qualification)참조하십시오.
 >
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
+>Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)참조하십시오.
 
 #### 도메인 관리 {#domain-management}
 
@@ -308,7 +308,7 @@ Adobe Campaign 메시지 서버는 모든 도메인에 단일 **도메인 관리
 >
 >호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 **[!UICONTROL Domain management]** 규칙이 더 이상 사용되지 않습니다. **DKIM(DomainKeys Identified Mail)** 이메일 인증 서명은 모든 도메인의 모든 메시지에 대해 향상된 MTA를 통해 수행됩니다. 향상된 MTA 수준에서 **별도로**&#x200B;지정하지 않는 한 **발신자 ID**, **도메인** 키또는 S/MIME으로서명하지 않습니다.
 >
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
+>Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)참조하십시오.
 
 #### MX 관리 {#mx-management}
 
@@ -324,4 +324,4 @@ For more on MX management, refer to [this section](../../installation/using/emai
 >
 >호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 더 이상 **[!UICONTROL MX management]** 배달 처리량 규칙이 사용되지 않습니다. Enhanced MTA는 고유한 MX 규칙을 사용하여 사용자의 이전 이메일 명성에 따라 도메인별로 처리량을 사용자 정의하고 이메일을 전송하는 도메인에서 오는 실시간 피드백을 제공합니다.
 >
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
+>Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)참조하십시오.
