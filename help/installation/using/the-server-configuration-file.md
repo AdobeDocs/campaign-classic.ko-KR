@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09fa3751d94fd71a68470174dd0b4a48d94d3f44
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -54,7 +54,7 @@ Adobe Campaign의 전체 구성은 **설치 디렉토리의** conf **디렉토�
 * [상호 작용](#interactiond)
 * [mta](#mta)
 * [nmac](#nmac)
-* [삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐익살](#pipelined)
+* [삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐익살](#pipelined)
 * [수리](#repair)
 * [securityZone](#securityzone)
 * [sms](#sms)
@@ -517,7 +517,7 @@ dataStore **> dataSource > 풀** 노드에서 연결된 연결 풀의 매개 변
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td> 도메인 이름:기본 도메인 이름. SMTP HELO 명령에 사용됩니다. 기본적으로 는 Windows에서 선언된 첫 번째 네트워크 인터페이스의 네트워크 매개 변수를 사용합니다.Linux(도메인 또는 검색 항목)에서 file/etc/resolv.conf를 구문 분석합니다. <br /> </td> 
+   <td> 도메인 이름:기본 도메인 이름. SMTP HELO 명령에 사용됩니다. 기본적으로 는 Windows에서 선언된 첫 번째 네트워크 인터페이스의 네트워크 매개 변수를 사용합니다.Linux(도메인 또는 검색 항목)에서 file/etc/resolv.conf을 구문 분석합니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1099,7 +1099,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 날짜입니다. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1260,7 +1260,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 날짜입니다. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1374,7 +1374,7 @@ inMail **> msgDump** 노드에서 다음 매개 변수를 구성합니다. 처�
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 날짜입니다. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1511,7 +1511,7 @@ inMail **> msgDump** 노드에서 다음 매개 변수를 구성합니다. 처�
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 날짜입니다. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1556,7 +1556,7 @@ inMail **> msgDump** 노드에서 다음 매개 변수를 구성합니다. 처�
   </tr> 
   <tr> 
    <td> useMomum<br /> </td> 
-   <td> "true"로 설정된 경우 인스턴스가 향상된 MTA를 <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html" target="_blank">사용합니다</a>.<br /> </td> 
+   <td> "true"로 설정된 경우 인스턴스가 향상된 MTA를 <a href="https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html" target="_blank">사용합니다</a>.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> <br /> </td>b 
   </tr>
@@ -1950,7 +1950,7 @@ mta > **child > smtp > IP** 노드에서 다음 매개 변수를 구성합니다
  </tbody> 
 </table>
 
-## 삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐익살 {#pipelined}
+## 삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐삐익살 {#pipelined}
 
 다음은 **파이프라인** 노드의 다른 매개 변수입니다. 이것은 파이프라인 서비스에 대한 이벤트 처리 모듈의 구성입니다.
 
@@ -2056,7 +2056,7 @@ mta > **child > smtp > IP** 노드에서 다음 매개 변수를 구성합니다
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 날짜입니다. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2327,7 +2327,7 @@ mta > **child > smtp > IP** 노드에서 다음 매개 변수를 구성합니다
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 날짜입니다. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2433,7 +2433,7 @@ mta > **child > smtp > IP** 노드에서 다음 매개 변수를 구성합니다
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 날짜입니다. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2504,7 +2504,7 @@ mta > **child > smtp > IP** 노드에서 다음 매개 변수를 구성합니다
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 날짜입니다. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2599,7 +2599,7 @@ mta > **child > smtp > IP** 노드에서 다음 매개 변수를 구성합니다
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 날짜입니다. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2694,7 +2694,7 @@ mta > **child > smtp > IP** 노드에서 다음 매개 변수를 구성합니다
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 날짜입니다. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2809,7 +2809,7 @@ mta > **child > smtp > IP** 노드에서 다음 매개 변수를 구성합니다
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 날짜입니다. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -3383,7 +3383,7 @@ mta > **child > smtp > IP** 노드에서 다음 매개 변수를 구성합니다
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 날짜입니다. 자동 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">프로세스 다시 시작을</a>참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
