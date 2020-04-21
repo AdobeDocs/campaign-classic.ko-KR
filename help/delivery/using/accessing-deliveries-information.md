@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -90,4 +90,4 @@ source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
 >
 >호스팅 또는 하이브리드 설치의 경우, 향상된 MTA로 업그레이드한 경우, **[!UICONTROL Delivery throughput]** 페이지가 이메일 수신자에 대한 처리량을 더 이상 표시하지 않습니다. Adobe Campaign에서 Enhanced MTA로 메시지 전달에 대한 처리량 속도를 표시합니다.
 >
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
+>Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)참조하십시오.
