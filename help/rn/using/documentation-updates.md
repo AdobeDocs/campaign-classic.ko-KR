@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
+source-git-commit: c8910fdfd07bd835d456baca29710ea927ad20e5
 
 ---
 
@@ -40,7 +40,7 @@ FAQ 파섹 [자세한 내용](../../platform/using/faq-campaign-config.md#perfor
 
 바운스 [메일 자격](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) 및 [이메일 관리 규칙](../../delivery/using/understanding-delivery-failures.md#email-management-rules) 섹션이 업데이트된 정보로 향상되었습니다.
 
-Adobe Campaign 향상된 MTA 아티클이 업데이트되었습니다. 이제 Campaign Classic에만 적용됩니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-acc-campaign-enhanced-mta.html)
+Adobe Campaign 향상된 MTA 아티클이 업데이트되었습니다. 이제 Campaign Classic에만 적용됩니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 ## 2020년 3월 {#march-2020}
 
