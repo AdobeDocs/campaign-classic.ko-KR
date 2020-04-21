@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -144,7 +144,7 @@ MX 규칙(Mail Xchanger)은 송신 서버와 수신 서버 간의 통신을 관�
 >
 >호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 더 이상 **[!UICONTROL MX management]** 배달 처리량 규칙이 사용되지 않습니다. Enhanced MTA는 고유한 MX 규칙을 사용하여 사용자의 이전 이메일 명성에 따라 도메인별로 처리량을 사용자 정의하고 이메일을 전송하는 도메인에서 오는 실시간 피드백을 제공합니다.
 >
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
+>Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)참조하십시오.
 
 이러한 규칙은 클라이언트 인스턴스를 정기적으로 제공하기 위해 매일 아침 6AM(서버 시간)에 자동으로 다시 로드됩니다.
 
@@ -163,7 +163,7 @@ user:~ user$ host -t mx yahoo.com
                 yahoo.com mail is handled by 1 mta7.am0.yahoodns.net.
 ```
 
-yahoo.com의 MX 기록에 따르면 yahoo.com은 3개의 메일 교환기를 가지고 있다고 합니다. 피어 메일 교환기를 연결하려면 MTA가 DNS에서 IP 주소를 요청합니다.
+yahoo.com에 대한 MX 기록은 yahoo.com이 3개의 메일 교환기를 가지고 있다고 우리에게 말합니다. 피어 메일 교환기를 연결하려면 MTA가 DNS에서 IP 주소를 요청합니다.
 
 ```
 user:~ user$ host -t a mta5.am0.yahoodns.net
@@ -277,7 +277,7 @@ MX 규칙에 연결된 모든 도메인이 **[!UICONTROL MX management]** 문서
 
    ![](assets/s_ncs_install_mta_ips.png)
 
-* **[!UICONTROL Shared]**:이 MX 규칙의 속성 범위를 정의합니다. 이 확인란을 선택하면 모든 매개 변수가 인스턴스에서 사용 가능한 모든 IP에서 공유됩니다. 이 확인란을 선택하지 않으면 MX 규칙이 각 IP에 대해 정의됩니다. 최대 메시지 수에 사용 가능한 IP 수를 곱합니다.
+* **[!UICONTROL Shared]**:이 MX 규칙의 속성 범위를 정의합니다. 이 확인란을 선택하면 모든 매개 변수가 인스턴스에서 사용할 수 있는 모든 IP에서 공유됩니다. 이 확인란을 선택하지 않으면 MX 규칙이 각 IP에 대해 정의됩니다. 최대 메시지 수에 사용 가능한 IP 수를 곱합니다.
 * **[!UICONTROL Maximum number of connections]**:보낸 사람의 도메인에 대한 동시 연결의 최대 수입니다.
 * **[!UICONTROL Maximum number of messages]**:연결 시 전송할 수 있는 최대 메시지 수입니다. 메시지가 이 수를 초과하면 연결이 닫히고 새 메시지가 열립니다.
 * **[!UICONTROL Messages per hour]**:보낸 사람의 도메인으로 1시간 내에 보낼 수 있는 최대 메시지 수입니다.
