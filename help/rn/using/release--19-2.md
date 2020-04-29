@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1d08730421c598873e272f305a819e3fb4509d90
+source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
 
 ---
 
@@ -27,10 +27,10 @@ source-git-commit: 1d08730421c598873e272f305a819e3fb4509d90
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green3.png"/><strong>일반 가용성</strong></td>
-   <td><img src="assets/blue3.png"/><strong>릴리스 후보</strong></td> 
-   <td><img src="assets/orange3.png"/><strong>더 이상 사용할 수 없음</strong></td> 
-   <td><img src="assets/red3.png"/><strong>가치 하락</strong></td> 
+   <td><img src="assets/do-not-localize/green3.png"/><strong>일반 가용성</strong></td>
+   <td><img src="assets/do-not-localize/blue3.png"/><strong>릴리스 후보</strong></td> 
+   <td><img src="assets/do-not-localize/orange3.png"/><strong>더 이상 사용할 수 없음</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>가치 하락</strong></td> 
   </tr> 
    <tr> 
    <td>최신 안정적인 빌드를 사용할 수 있습니다. 프로덕션에서 인증 강화<br> </td>
@@ -41,9 +41,9 @@ source-git-commit: 1d08730421c598873e272f305a819e3fb4509d90
  </tbody> 
 </table>
 
-마지막 **안정적인 빌드는** 9032(205c981c3)입니다. 여기를 [클릭하십시오.](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+마지막 **안정적인 빌드는** 9032(3a9dc9c)입니다. 여기를 [클릭하십시오.](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/orange_2.png) 릴리스 19.2.3 - 빌드 9081 {#release-19-2-3-build-9081}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 19.2.3 - 빌드 9081 {#release-19-2-3-build-9081}
 
 _2020년 2월 07일_
 
@@ -52,11 +52,11 @@ _2020년 2월 07일_
 * Windows 서버에서 사용자 연결이 실패하는 SSL 인증 구현으로 인한 회귀 문제를 해결했습니다. (NEO 파섹)
 * 정보 메뉴에 잘못된 버전 태그 번호가 표시되는 문제를 **수정했습니다** .
 
-## ![](assets/orange_2.png) 릴리스 19.2 - 빌드 9080 {#release-19-2-build-9080}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 19.2 - 빌드 9080 {#release-19-2-build-9080}
 
 _2019년 12월 02일_
 
-**새로운 기능**
+**새로운 기능?**
 
 <table> 
  <thead> 
