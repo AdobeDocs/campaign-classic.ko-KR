@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8d6e3118dc498096283d54713725071e0906aba3
+source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
 
 ---
 
@@ -25,10 +25,10 @@ source-git-commit: 8d6e3118dc498096283d54713725071e0906aba3
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green3.png"/><strong>일반 가용성</strong></td>
-   <td><img src="assets/blue3.png"/><strong>릴리스 후보</strong></td> 
-   <td><img src="assets/orange3.png"/><strong>더 이상 사용할 수 없음</strong></td> 
-   <td><img src="assets/red3.png"/><strong>가치 하락</strong></td> 
+   <td><img src="assets/do-not-localize/green3.png"/><strong>일반 가용성</strong></td>
+   <td><img src="assets/do-not-localize/blue3.png"/><strong>릴리스 후보</strong></td> 
+   <td><img src="assets/do-not-localize/orange3.png"/><strong>더 이상 사용할 수 없음</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>가치 하락</strong></td> 
   </tr> 
    <tr> 
    <td>최신 안정적인 빌드를 사용할 수 있습니다. 프로덕션에서 인증 강화<br> </td>
@@ -39,19 +39,19 @@ source-git-commit: 8d6e3118dc498096283d54713725071e0906aba3
  </tbody> 
 </table>
 
-마지막 **안정적인 빌드는** 9032(205c981c3)입니다. 여기를 [클릭하십시오.](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+마지막 **안정적인 빌드는** 9032(3a9dc9c)입니다. 여기를 [클릭하십시오.](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/blue_2.png) 릴리스 20.1.2 - 빌드 9123 {#release-20-1-2-build-9123}
+## ![](assets/do-not-localize/blue_2.png) 릴리스 20.1.2 - 빌드 9123 {#release-20-1-2-build-9123}
 
 _2020년 3월 13일_
 
 * Red Hat 7 서버에 버전을 배포하지 못했던 문제를 수정했습니다. (NEO 파섹)
 
-## ![](assets/orange_2.png) 릴리스 20.1 - 빌드 9122 {#release-20-1-build-9122}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1 - 빌드 9122 {#release-20-1-build-9122}
 
 _2020년 2월 17일_
 
-**새로운 기능**
+**새로운 기능?**
 
 <table> 
  <thead> 
