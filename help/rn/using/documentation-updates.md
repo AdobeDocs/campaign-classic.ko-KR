@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c8910fdfd07bd835d456baca29710ea927ad20e5
+source-git-commit: 0b3622bb0ac95eff61e2d96332e67623dffa68be
 
 ---
 
@@ -134,7 +134,7 @@ Adobe Campaign 향상된 MTA 아티클이 모든 메시지에 필요한 향상�
 
 &quot;WdbcOptions_TempDbName&quot; 옵션이 캠페인 옵션 목록에 추가되었습니다. [자세한 내용](../../installation/using/configuring-campaign-options.md)
 
-FDA 매트릭스 페이지는 [여기서](/help/rn/using/assets/fda_rdbms_rights.pdf)옮겨졌습니다.
+FDA 매트릭스 페이지는 [여기서](../../platform/using/remote-database-access-rights.md)옮겨졌습니다.
 
 액세스 권한 매트릭스 페이지가 [여기로](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf)이동되었습니다.
 
