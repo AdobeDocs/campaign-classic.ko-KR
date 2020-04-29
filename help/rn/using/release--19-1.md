@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62f63a47fae9bddf2303bbed18f1aadab4717245
+source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
 
 ---
 
@@ -27,10 +27,10 @@ source-git-commit: 62f63a47fae9bddf2303bbed18f1aadab4717245
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green3.png"/><strong>일반 가용성</strong></td>
-   <td><img src="assets/blue3.png"/><strong>릴리스 후보</strong></td> 
-   <td><img src="assets/orange3.png"/><strong>더 이상 사용할 수 없음</strong></td> 
-   <td><img src="assets/red3.png"/><strong>가치 하락</strong></td> 
+   <td><img src="assets/do-not-localize/green3.png"/><strong>일반 가용성</strong></td>
+   <td><img src="assets/do-not-localize/blue3.png"/><strong>릴리스 후보</strong></td> 
+   <td><img src="assets/do-not-localize/orange3.png"/><strong>더 이상 사용할 수 없음</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>가치 하락</strong></td> 
   </tr> 
    <tr> 
    <td>최신 안정적인 빌드를 사용할 수 있습니다. 프로덕션에서 인증 강화<br> </td>
@@ -41,9 +41,9 @@ source-git-commit: 62f63a47fae9bddf2303bbed18f1aadab4717245
  </tbody> 
 </table>
 
-마지막 **안정적인 빌드는** 9032(205c981c3)입니다. 여기를 [클릭하십시오.](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+마지막 **안정적인 빌드는** 9032(3a9dc9c)입니다. 여기를 [클릭하십시오.](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/orange_2.png) 릴리스 19.1.6 - 빌드 9035 {#release-19-1-6-build-9035}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 19.1.6 - 빌드 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
@@ -59,7 +59,7 @@ _2019년 10월 3일_
 * Mid-Sourcing 서버에서 특정 메시지가 처리되지 않는 문제를 해결했습니다. (NEO 파섹)
 * SQL 데이터 관리 작업의 전체 사용을 방해하는 문제를 수정했습니다(right라는 &quot;SQL 데이터 관리&quot;가 누락됨).
 
-## ![](assets/orange_2.png) 릴리스 19.1.5 - 빌드 9033{#release-19-1-5-build-9033}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 19.1.5 - 빌드 9033{#release-19-1-5-build-9033}
 
 _2019년 8월 13일_
 
@@ -74,31 +74,35 @@ _2019년 8월 13일_
 
 ## 릴리스 19.1.4 - 빌드 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) 2020 **년 3월 5일**:다음 수정 사항이 포함된 새 빌드(9032-...205c981c3)를 참조하십시오.
+![](assets/do-not-localize/green_2.png) 2020 **년 4월 29일**:다음 수정 사항이 포함된 새 빌드(9032@3a9dc9c):
+
+* 이메일의 링크 추적 보안이 개선되었습니다. 모든 고객에 대해 기본적으로 활성화됩니다. 고객 지원 센터에 연락하여 활성화할 수 있는 향상된 추가 보안 기능을 사용할 수 있습니다. 호스팅되지 않은 고객이 이 기능을 사용할 수 있도록 하는 기능 및 단계에 대한 자세한 내용은 보안 및 개인 정보 [확인 목록에서 확인할 수 있습니다](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
+* 라인 전달에 이미지가 표시되지 않는 문제를 해결했습니다. (NEO 파섹)
+
+![](assets/do-not-localize/orange_2.png) 2020 **년 3월 5일**:다음 수정 사항이 포함된 새 빌드(9032@19f73c5):
 
 * SSL을 통해 FTP를 사용하는 외부 계정 문제를 수정했습니다. (NEO 파섹)
 
-![](assets/orange_2.png) 2019 **년 12월 17일**:다음 수정 사항이 포함된 새 빌드(9032-...9d34fb17e):
+![](assets/do-not-localize/orange_2.png) 2019 **년 12월 17일**:다음 수정 사항이 포함된 새 빌드(9032@d6b8062):
 
-* 다음 통신 채널에 대한 추적 문제를 수정했습니다.모바일(SMS, MMS), 푸시(iOS, Android) 및 소셜 네트워크(Facebook, Twitter).
-(NEO 파섹)
+* 다음 통신 채널에 대한 추적 문제를 수정했습니다.모바일(SMS, MMS), 푸시(iOS, Android) 및 소셜 네트워크(Facebook, Twitter). (NEO 파섹)
 
-![](assets/orange_2.png) 2019 **년 12월 11일**:새 빌드(9032-...e28b428b7). 다음 수정 사항이 포함되어 있습니다.
+![](assets/do-not-localize/orange_2.png) 2019 **년 12월 11일**:다음 수정 사항이 포함된 새 빌드(9032@bc4a935):
 
 * MSSQL 데이터베이스를 사용하여 메시지를 전송할 때 성능 문제가 해결되었습니다. (NEO 파섹
 
-![](assets/orange_2.png) 2019 **년 11월 20일**:다음 수정 사항이 포함된 새 빌드(9032-...3468c7bb5)를 참조하십시오.
+![](assets/do-not-localize/orange_2.png) 2019 **년 11월 20일**:다음 수정 사항이 포함된 새 빌드(9032@3468c7b):
 
 * IMS 인증을 통한 로그인 문제가 해결되었습니다. (NEO 파섹)
 * 여러 게시에 누적 보고서를 표시할 때 발생하는 문제를 수정했습니다. (NEO 파섹)
 * 웹 서버 충돌을 차단하거나 차단할 수 있는 문제를 수정했습니다.
 
-![](assets/orange_2.png) 2019 **년 9월 19일**:새 빌드(9032-...cee805c93). 다음 수정 사항이 포함되어 있습니다.
+![](assets/do-not-localize/orange_2.png) 2019 **년 9월 19일**:다음 수정 사항이 포함된 새 빌드(9032@cee805c):
 
 * Salesforce용 CRM 커넥터를 사용할 때 발생하는 문제가 해결되었습니다. (NEO 파섹)
 * 트랜잭션 메시지를 보낼 때 성능 문제가 발생할 수 있는 색인 문제를 수정했습니다.
 
-![](assets/orange_2.png) 2019 **년 8월 13일**:다음 수정 사항이 포함된 초기 19.1.4 빌드:
+![](assets/do-not-localize/orange_2.png) 2019 **년 8월 13일**:다음 수정 사항이 포함된 초기 19.1.4 빌드:
 
 * 마법사 구성 중에 원하지 않는 오류 메시지를 생성하는 스케줄러 작업 문제를 수정했습니다. NEO 파섹 (NEO 파섹)
 * 테스트 활동이 두 번 실행될 때 워크플로가 중지될 수 있는 NEO-12727에 의해 발생하는 회귀 문제를 수정했습니다. (NEO 파섹)
@@ -106,7 +110,7 @@ _2019년 8월 13일_
 * 더 이상 이메일에 포함되지 않아 배달 문제가 발생하는 DKIM 키 문제를 수정했습니다. (NEO 파섹)
 * 워크플로우 예약과 관련된 다양한 문제를 수정했습니다. 워크플로우는 스케줄러 구성을 고려하지 않고 하루에 한 번 실행되도록 예약되었습니다. (NEO 파섹 16619, NEO 파섹 16426)
 
-## ![](assets/orange_2.png) 릴리스 19.1.2 - 빌드 9029{#release-19-1-2-build-9029}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 19.1.2 - 빌드 9029{#release-19-1-2-build-9029}
 
 _2019년 6월 21일_
 
@@ -122,7 +126,7 @@ _2019년 6월 21일_
 * 이제 가져오기 작업 과정 동안 Microsoft Dynamics에서 만든 더미 레코드를 삭제할 수 있습니다.
 * 내부 계정을 사용할 때 보안 영역 패키지를 실행하기 위한 권한이 개선되었습니다.
 
-## ![](assets/orange_2.png) 릴리스 19.1 - 빌드 9026{#release-19-1-build-9026}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 19.1 - 빌드 9026{#release-19-1-build-9026}
 
 _2019년 5월 30일_
 
@@ -138,7 +142,7 @@ _2019년 5월 30일_
  <tbody> 
   <tr> 
    <td> 컨트롤 패널<br /> </td> 
-   <td> <p>관리 사용자로서의 작업의 효율성을 높이려면 저장소 모니터링, 화이트리스트 IP 주소, 각 인스턴스에 대한 SSH 키 설치를 통해 SFTP 서버의 설정을 관리합니다. 제어판은 현재 AWS에서 호스팅된 고객에게만 제공됩니다(지금 Experience Cloud를 통해<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">로그인</a>).</p> <p>자세한 내용은 <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">방법 비디오를</a>참조하십시오. </p><p>참고:제어판에 액세스하려면 최신 캠페인 빌드로 업그레이드할 필요가 없습니다.</p> </td> 
+   <td> <p>관리 사용자로서의 작업의 효율성을 높이려면 저장소 모니터링, 화이트리스트 IP 주소, 각 인스턴스에 대한 SSH 키 설치를 통해 SFTP 서버의 설정을 관리합니다. 제어판은 현재 AWS에서 호스팅된 고객에게만 제공됩니다(지금 Experience Cloud를 통해<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">로그인</a>).</p> <p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">방법 비디오를</a>참조하십시오. </p><p>참고:제어판에 액세스하려면 최신 캠페인 빌드로 업그레이드할 필요가 없습니다.</p> </td> 
   </tr> 
     <tr> 
    <td> 감사 추적<br /> </td> 
