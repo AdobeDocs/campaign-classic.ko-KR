@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7df1f73dd454f826096ce4d5fe430e10fe407ad
+source-git-commit: 090ec1f9b30c8548075493757b814a8bb40bea30
 
 ---
 
@@ -142,7 +142,7 @@ FTP 외부 계정을 사용하면 Adobe Campaign 외부의 서버에 대한 액�
 
 * **[!UICONTROL Encryption]**
 
-   또는 **[!UICONTROL None]** 사이에 선택한 암호화 **[!UICONTROL SSL]**&#x200B;유형.
+   또는 사이에 선택한 암호화 **[!UICONTROL None]** 유형 **[!UICONTROL SSL]**.
 
 이러한 자격 증명을 찾을 위치를 알려면 이 [페이지를](https://help.dreamhost.com/hc/en-us/articles/115000675027-FTP-overview-and-credentials)참조하십시오.
 
@@ -423,7 +423,7 @@ Amazon Simple Storage Service(S3) 커넥터를 사용하여 데이터를 Adobe C
 
 * **[!UICONTROL Encryption]**
 
-   또는 **[!UICONTROL None]** 사이에 선택한 암호화 **[!UICONTROL SSL]**&#x200B;유형.
+   또는 사이에 선택한 암호화 **[!UICONTROL None]** 유형 **[!UICONTROL SSL]**.
 
 * **[!UICONTROL Access key]**
 
@@ -511,7 +511,6 @@ Microsoft Dynamics의 개발자 리소스 대시보드에서 찾을 수 있는 �
 
 * **[!UICONTROL Custom Key identifier]**
 
-
 * **[!UICONTROL Key ID]**
 
 * **[!UICONTROL Client identifier]**
@@ -564,11 +563,11 @@ Salesforce CRM 외부 계정이 Adobe Campaign과 연동되도록 구성하려�
 
 * **[!UICONTROL Client identifier]**
 
-   클라이언트 식별자를 찾을 위치를 알려면 이 [페이지를](https://help.salesforce.com/articleView?id=000205876&type=1)참조하십시오.
+   클라이언트 식별자를 찾을 위치를 알려면 이 [페이지를](https://help.salesforce.com/articleView?id=000205876&amp;type=1)참조하십시오.
 
 * **[!UICONTROL Security token]**
 
-   보안 토큰을 찾을 위치를 알려면 이 [페이지를](https://help.salesforce.com/articleView?id=000205876&type=1)참조하십시오.
+   보안 토큰을 찾을 위치를 알려면 이 [페이지를](https://help.salesforce.com/articleView?id=000205876&amp;type=1)참조하십시오.
 
 * **[!UICONTROL API version]**
 
