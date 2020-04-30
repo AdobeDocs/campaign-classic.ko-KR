@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f081df28691acf45dcc62757466d15d39753fa85
+source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
 
 ---
 
@@ -148,14 +148,13 @@ Adobe Campaign에서 액세스할 수 있게 하려는 외부 데이터베이스
 
 >[!NOTE]
 >
->Snowflake 커넥터는 호스팅 및 온-프레미스 배포에 사용할 수 있습니다. 자세한 내용은 이 [페이지를](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)참조하십시오.
+>[!DNL Snowflake] 커넥터는 호스팅 및 온-프레미스 배포에 사용할 수 있습니다. For more on this, refer to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ![](assets/snowflake_3.png)
 
 ### CentOS의 Snowflake {#snowflake-centos}
 
-1. Snowflake용 ODBC 드라이버를 다운로드합니다. Snowflake의 운전자들은 [여기](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm)있습니다.
-
+1. 에 대한 ODBC 드라이버를 [!DNL Snowflake]다운로드합니다. [다운로드를 시작하려면 여기를](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) 클릭하십시오.
 1. 그런 다음 다음 명령을 사용하여 CentOs에 ODBC 드라이버를 설치해야 합니다.
 
    ```
@@ -170,48 +169,38 @@ Adobe Campaign에서 액세스할 수 있게 하려는 외부 데이터베이스
    /etc/init.d/nlserver6 start
    ```
 
-1. Campaign Classic에서 Snowflake 외부 계정을 구성합니다. 메뉴에서 **[!UICONTROL Explorer]**&#x200B;메뉴를 **[!UICONTROL Administration]** 펼쳐라.
+1. 그런 다음 Campaign Classic에서 [!DNL Snowflake] 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /를 **[!UICONTROL Platform]** **[!UICONTROL External accounts]**&#x200B;클릭합니다.
 
-1. 메뉴를 펼치고 **[!UICONTROL Platform]** 클릭합니다 **[!UICONTROL External accounts]**.
+1. 기본 제공 **[!UICONTROL Snowflake]** 외부 계정을 선택합니다.
 
-1. 즉시 사용 가능한 **[!UICONTROL Snowflake]** 외부 계정을 선택합니다.
+1. 외부 계정을 **[!UICONTROL Snowflake]** 구성하려면 다음을 지정해야 합니다.
 
-1. 외부 계정을 구성하려면 다음을 **[!UICONTROL Snowflake]** 수행하십시오.
+   * **[!UICONTROL Server]**:서버의 URL [!DNL Snowflake]
 
-   * **[!UICONTROL Server]**
+   * **[!UICONTROL Account]**:사용자 이름
 
-      Snowflake 서버의 URL.
+   * **[!UICONTROL Password]**:사용자 계정 암호
 
-   * **[!UICONTROL Account]**
-
-      사용자의 이름입니다.
-
-   * **[!UICONTROL Password]**
-
-      사용자 계정 암호.
-
-   * **[!UICONTROL Database]**
-
-      데이터베이스의 이름입니다.
+   * **[!UICONTROL Database]**:데이터베이스 이름
    ![](assets/snowflake.png)
 
-1. 탭을 **[!UICONTROL Parameters]** 클릭한 다음 **[!UICONTROL Deploy function]** 단추를 클릭하여 함수를 만듭니다.
+1. 탭을 **[!UICONTROL Parameters]** 클릭한 다음 **[!UICONTROL Deploy functions]** 단추를 클릭하여 함수를 만듭니다.
 
    ![](assets/snowflake_2.png)
 
 커넥터는 다음 옵션을 지원합니다.
 
-| 옵션 | 값 | 설명 |
-|---|---|---|
-| 작업 스키마 |  | 작업 테이블에 사용할 데이터베이스 스키마 |
-| warehouse |  | 사용할 기본 웨어하우스의 이름입니다. 이 값은 사용자의 기본값을 덮어씁니다. |
-| 시간대 이름 |  | 기본적으로 비어 있으면 Campaign Classic 앱 서버의 시스템 시간대가 사용됩니다. 이 옵션을 사용하여 TIMEZONE 세션 매개 변수를 강제 적용할 수 있습니다. <br>자세한 내용은 이 [페이지를](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)참조하십시오. |
-| WeekStart | 0, 1-7 | 기본적으로 0으로 설정됩니다. (WEEK_START 세션 매개 변수) <br>자세한 내용은 이 [페이지를](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start)참조하십시오. |
-| UseCachedResult | TRUE/FALSE | 기본적으로 TRUE로 설정됩니다. 이 옵션을 사용하여 Snowflake 캐시된 결과(USE_CACHED_RESULTS 세션 매개 변수) <br>를 비활성화할 수 있습니다. 자세한 내용은 이 [페이지를](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)참조하십시오. |
+| 옵션 | 설명 |
+|---|---|
+| 작업 스키마 | 작업 테이블에 사용할 데이터베이스 스키마 |
+| warehouse | 사용할 기본 웨어하우스의 이름입니다. 이 값은 사용자의 기본값을 덮어씁니다. |
+| 시간대 이름 | 기본적으로 비어 있으면 Campaign Classic 앱 서버의 시스템 시간대가 사용됩니다. 이 옵션을 사용하여 TIMEZONE 세션 매개 변수를 강제 적용할 수 있습니다. <br>자세한 내용은 [이 페이지를](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)참조하십시오. |
+| WeekStart | WEEK_START 세션 매개 변수. 기본적으로 0으로 설정됩니다. <br>자세한 내용은 [이 페이지를](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)참조하십시오. |
+| UseCachedResult | USE_CACHED_RESULTS 세션 매개 변수. 기본적으로 TRUE로 설정됩니다. 이 옵션을 사용하여 Snowflake 캐시된 결과를 비활성화할 수 있습니다. <br>자세한 내용은 [이 페이지를](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)참조하십시오. |
 
 ### 데비안의 눈송이 {#snowflake-debian}
 
-1. Snowflake용 ODBC 드라이버를 다운로드합니다. Snowflake의 운전자들은 [여기](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html)있습니다.
+1. 에 대한 ODBC 드라이버를 [!DNL Snowflake]다운로드합니다. [여기를](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) 클릭하여 다운로드를 시작합니다.
 
 1. 그런 다음 다음 다음 명령을 사용하여 Debian에 ODBC 드라이버를 설치해야 합니다.
 
@@ -227,97 +216,77 @@ Adobe Campaign에서 액세스할 수 있게 하려는 외부 데이터베이스
    systemctl start nlserver.service
    ```
 
-1. Campaign Classic에서 Snowflake 외부 계정을 구성합니다. 메뉴에서 **[!UICONTROL Explorer]**&#x200B;메뉴를 **[!UICONTROL Administration]** 펼쳐라.
+1. 그런 다음 Campaign Classic에서 [!DNL Snowflake] 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /를 **[!UICONTROL Platform]** **[!UICONTROL External accounts]**&#x200B;클릭합니다.
 
-1. 메뉴를 펼치고 **[!UICONTROL Platform]** 클릭합니다 **[!UICONTROL External accounts]**.
+1. 기본 제공 **[!UICONTROL Snowflake]** 외부 계정을 선택합니다.
 
-1. 즉시 사용 가능한 **[!UICONTROL Snowflake]** 외부 계정을 선택합니다.
+1. 외부 계정을 구성하려면 다음을 **[!UICONTROL Snowflake]** 지정해야 합니다.
 
-1. 외부 계정을 구성하려면 다음을 **[!UICONTROL Snowflake]** 수행하십시오.
+   * **[!UICONTROL Server]**:서버의 URL [!DNL Snowflake]
 
-   * **[!UICONTROL Server]**
+   * **[!UICONTROL Account]**:사용자 이름
 
-      Snowflake 서버의 URL.
+   * **[!UICONTROL Password]**:사용자 계정 암호
 
-   * **[!UICONTROL Account]**
-
-      사용자의 이름입니다.
-
-   * **[!UICONTROL Password]**
-
-      사용자 계정 암호.
-
-   * **[!UICONTROL Database]**
-
-      데이터베이스 이름
+   * **[!UICONTROL Database]**:데이터베이스 이름
    ![](assets/snowflake.png)
 
-1. 탭을 **[!UICONTROL Parameters]** 클릭한 다음 **[!UICONTROL Deploy function]** 단추를 클릭하여 함수를 만듭니다.
+1. 탭을 **[!UICONTROL Parameters]** 클릭한 다음 **[!UICONTROL Deploy functions]** 단추를 클릭하여 함수를 만듭니다.
 
    ![](assets/snowflake_2.png)
 
 커넥터는 다음 옵션을 지원합니다.
 
-| 옵션 | 값 | 설명 |
-|---|---|---|
-| 작업 스키마 |   | 작업 테이블에 사용할 데이터베이스 스키마 |
-| warehouse |   | 사용할 기본 웨어하우스의 이름입니다. 이 값은 사용자의 기본값을 덮어씁니다. |
-| 시간대 이름 |   | 기본적으로 비어 있으면 Campaign Classic 앱 서버의 시스템 시간대가 사용됩니다. 이 옵션을 사용하여 TIMEZONE 세션 매개 변수를 강제 적용할 수 있습니다. <br>자세한 내용은 이 [페이지를](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)참조하십시오. |
-| WeekStart | 0, 1-7 | 기본적으로 0으로 설정됩니다. (WEEK_START 세션 매개 변수) <br>자세한 내용은 이 [페이지를](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start)참조하십시오. |
-| UseCachedResult | TRUE/FALSE | 기본적으로 TRUE로 설정됩니다. 이 옵션을 사용하여 Snowflake 캐시된 결과(USE_CACHED_RESULTS 세션 매개 변수) <br>를 비활성화할 수 있습니다. 자세한 내용은 이 [페이지를](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)참조하십시오. |
+| 옵션 | 설명 |
+|---|---|
+| 작업 스키마 | 작업 테이블에 사용할 데이터베이스 스키마 |
+| warehouse | 사용할 기본 웨어하우스의 이름입니다. 이 값은 사용자의 기본값을 덮어씁니다. |
+| 시간대 이름 | 기본적으로 비어 있으면 Campaign Classic 앱 서버의 시스템 시간대가 사용됩니다. 이 옵션을 사용하여 TIMEZONE 세션 매개 변수를 강제 적용할 수 있습니다. <br>자세한 내용은 [이 페이지를](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)참조하십시오. |
+| WeekStart | WEEK_START 세션 매개 변수. 기본적으로 0으로 설정됩니다.  <br>자세한 내용은 [이 페이지를](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start)참조하십시오. |
+| UseCachedResult | USE_CACHED_RESULTS 세션 매개 변수. 기본적으로 TRUE로 설정됩니다. 이 옵션을 사용하여 Snowflake 캐시된 결과를 비활성화할 수 있습니다. <br>자세한 내용은 [이 페이지를](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)참조하십시오. |
 
 ### Windows 기반의 Snowflake {#snowflake-windows}
 
-1. Windows용 [ODBC 드라이버를 다운로드합니다](https://docs.snowflake.net/manuals/user-guide/odbc-download.html). 드라이버를 설치하려면 관리자 수준 권한이 필요합니다. 자세한 내용은 이 [페이지를 참조하십시오.](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)
+1. Windows용 [ODBC 드라이버를 다운로드합니다](https://docs.snowflake.net/manuals/user-guide/odbc-download.html). 드라이버를 설치하려면 관리자 수준 권한이 필요합니다. For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)
 
-1. ODBC 드라이버를 구성합니다. 자세한 내용은 이 [페이지를 참조하십시오.](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
+1. ODBC 드라이버를 구성합니다. For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
 
-1. ODBC 드라이버가 설치 및 구성되면 Campaign Classic에서 Snowflake 외부 계정을 구성해야 합니다. 메뉴에서 **[!UICONTROL Explorer]**&#x200B;메뉴를 **[!UICONTROL Administration]** 펼쳐라.
+1. 그런 다음 Campaign Classic에서 [!DNL Snowflake] 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /를 **[!UICONTROL Platform]** **[!UICONTROL External accounts]**&#x200B;클릭합니다.
 
-1. 메뉴를 펼치고 **[!UICONTROL Platform]** 클릭합니다 **[!UICONTROL External accounts]**.
+1. 기본 제공 **[!UICONTROL Snowflake]** 외부 계정을 선택합니다.
 
-1. 즉시 사용 가능한 **[!UICONTROL Snowflake]** 외부 계정을 선택합니다.
+1. 외부 계정을 구성하려면 다음을 **[!UICONTROL Snowflake]** 지정해야 합니다.
 
-1. 외부 계정을 구성하려면 다음을 **[!UICONTROL Snowflake]** 수행하십시오.
+   * **[!UICONTROL Server]**:서버의 URL [!DNL Snowflake]
 
-   * **[!UICONTROL Server]**
+   * **[!UICONTROL Account]**:사용자 이름
 
-      Snowflake 서버의 URL.
+   * **[!UICONTROL Password]**:사용자 계정 암호
 
-   * **[!UICONTROL Account]**
-
-      사용자의 이름입니다.
-
-   * **[!UICONTROL Password]**
-
-      사용자 계정 암호.
-
-   * **[!UICONTROL Database]**
-
-      데이터베이스 이름
+   * **[!UICONTROL Database]**:데이터베이스 이름
    ![](assets/snowflake.png)
 
-1. 탭을 **[!UICONTROL Parameters]** 클릭한 다음 **[!UICONTROL Deploy function]** 단추를 클릭하여 함수를 만듭니다.
+1. 탭을 **[!UICONTROL Parameters]** 클릭한 다음 **[!UICONTROL Deploy functions]** 단추를 클릭하여 함수를 만듭니다.
 
    ![](assets/snowflake_2.png)
 
 커넥터는 다음 옵션을 지원합니다.
 
-| 옵션 | 값 | 설명 |
+| 옵션 | 설명 |
 |---|---|---|
-| 작업 스키마 |   | 작업 테이블에 사용할 데이터베이스 스키마 |
-| warehouse |   | 사용할 기본 웨어하우스의 이름입니다. 이 값은 사용자의 기본값을 덮어씁니다. |
-| 시간대 이름 |   | 기본적으로 비어 있으면 Campaign Classic 앱 서버의 시스템 시간대가 사용됩니다. 이 옵션을 사용하여 TIMEZONE 세션 매개 변수를 강제 적용할 수 있습니다. <br>자세한 내용은 이 [페이지를](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)참조하십시오. |
-| WeekStart | 0, 1-7 | 기본적으로 0으로 설정됩니다. (WEEK_START 세션 매개 변수) <br>자세한 내용은 이 [페이지를](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start)참조하십시오. |
-| UseCachedResult | TRUE/FALSE | 기본적으로 TRUE로 설정됩니다. 이 옵션을 사용하여 Snowflake 캐시된 결과(USE_CACHED_RESULTS 세션 매개 변수) <br>를 비활성화할 수 있습니다. 자세한 내용은 이 [페이지를](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)참조하십시오. |
+| 작업 스키마 | 작업 테이블에 사용할 데이터베이스 스키마 |
+| warehouse | 사용할 기본 웨어하우스의 이름입니다. 이 값은 사용자의 기본값을 덮어씁니다. |
+| 시간대 이름 | 기본적으로 비어 있으면 Campaign Classic 앱 서버의 시스템 시간대가 사용됩니다. 이 옵션을 사용하여 TIMEZONE 세션 매개 변수를 강제 적용할 수 있습니다. <br>자세한 내용은 [이 페이지를](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)참조하십시오. |
+| WeekStart | WEEK_START 세션 매개 변수. 기본적으로 0으로 설정됩니다. <br>자세한 내용은 [이 페이지를](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start)참조하십시오. |
+| UseCachedResult | 기본적으로 TRUE로 설정됩니다. 이 옵션을 사용하여 Snowflake 캐시된 결과(USE_CACHED_RESULTS 세션 매개 변수) <br>를 비활성화할 수 있습니다. 자세한 내용은 [이 페이지를](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)참조하십시오. |
 
 ## Hadoop 3.0에 대한 액세스 구성 {#configure-access-to-hadoop-3}
 
 FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서버에서 다음 구성이 필요합니다. 이 구성은 Windows 및 Linux에서 모두 사용할 수 있습니다.
 
-1. OS 버전에 따라 Hadoop용 ODBC 드라이버를 다운로드합니다. 드라이버는 이 [페이지에서](https://www.cloudera.com/downloads.html)찾을 수 있습니다.
+1. OS 버전에 따라 Hadoop용 ODBC 드라이버를 다운로드합니다. 드라이버는 [이 페이지에서](https://www.cloudera.com/downloads.html)찾을 수 있습니다.
 
-1. 그런 다음 ODBC 드라이버를 설치하고 하이브 연결에 대한 DSN을 만들어야 합니다. 지침은 [여기에서 찾을 수 있습니다.](https://docs.cloudera.com/documentation/other/connectors/hive-odbc/2-6-5/Cloudera-ODBC-Driver-for-Apache-Hive-Install-Guide.pdf)
+1. 그런 다음 ODBC 드라이버를 설치하고 하이브 연결에 대한 DSN을 만들어야 합니다. 지침은 [이 페이지에 있습니다.](https://docs.cloudera.com/documentation/other/connectors/hive-odbc/2-6-5/Cloudera-ODBC-Driver-for-Apache-Hive-Install-Guide.pdf)
 
 1. ODBC 드라이버를 다운로드하고 설치한 후 Campaign Classic을 다시 시작해야 합니다. 이렇게 하려면 다음 명령을 실행합니다.
 
@@ -326,37 +295,23 @@ FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서
    systemctl start nlserver.service
    ```
 
-1. Campaign Classic에서 Campaign Classic에서 Hadoop 외부 계정을 구성합니다. 메뉴에서 **[!UICONTROL Explorer]**&#x200B;메뉴를 **[!UICONTROL Administration]** 펼쳐라.
-
-1. 메뉴를 펼치고 **[!UICONTROL Platform]** 클릭합니다 **[!UICONTROL External accounts]**.
+1. Campaign Classic에서 Snowflake 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /를 **[!UICONTROL Platform]** **[!UICONTROL External accounts]**&#x200B;클릭합니다.
 
 1. 을 **[!UICONTROL Create]** 클릭하고 계정 **[!UICONTROL External database]** 유형으로 선택합니다.
 
-1. 외부 계정을 구성하려면 다음을 **[!UICONTROL  Hadoop]** 수행하십시오.
+1. 외부 계정을 구성하려면 다음을 지정해야 **[!UICONTROL  Hadoop]** 합니다.
 
-   * **[!UICONTROL Type]**
+   * **[!UICONTROL Type]**:ODBC(Sybase ASE, Sybase IQ)
 
-      ODBC(Sybase ASE, Sybase IQ)
+   * **[!UICONTROL Server]**:DNS 이름
 
-   * **[!UICONTROL Server]**
+   * **[!UICONTROL Account]**:사용자 이름
 
-      DNS의 이름입니다.
+   * **[!UICONTROL Password]**:사용자 계정 암호
 
-   * **[!UICONTROL Account]**
+   * **[!UICONTROL Database]**:DSN 파섹 DSN에 지정된 경우 비워 둘 수 있습니다.
 
-      사용자의 이름입니다.
-
-   * **[!UICONTROL Password]**
-
-      사용자 계정 암호.
-
-   * **[!UICONTROL Database]**
-
-      DSN 파섹 DSN에 지정된 경우 비워 둘 수 있습니다.
-
-   * **[!UICONTROL Time zone]**
-
-      서버 표준 시간대
+   * **[!UICONTROL Time zone]**:서버 표준 시간대
    ![](assets/hadoop3.png)
 
 커넥터는 다음과 같은 ODBC 옵션을 지원합니다.
@@ -370,14 +325,12 @@ FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서
 
 | 이름 | 값 | 설명 |
 |---|---|---|
-| bulkKey | Azure Blob 또는 DataLake 액세스 키 | wasb:// 또는 wasbs:// 벌크 로더의 경우(예: 벌크 로드 도구가 wasb:// 또는 wasbs://로 시작하는 경우). <br>벌크 로드를 위한 Blob 또는 DataLake 버킷의 액세스 키입니다. |
-| hdfsPort | 기본적으로 8020으로 <br>설정된 포트 번호 | HDFS 벌크 로드의 경우(예: 벌크 로드 도구가 webhdfs:// 또는 webhdfss://로 시작하는 경우) |
+| bulkKey | Azure Blob 또는 DataLake 액세스 키 | wasb:// 또는 wasbs:// 벌크 로더의 경우(예: 벌크 로드 도구가 wasb:// 또는 wasbs://으로 시작하는 경우). <br>벌크 로드를 위한 Blob 또는 DataLake 버킷의 액세스 키입니다. |
+| hdfsPort | 기본적으로 8020으로 <br>설정된 포트 번호 | HDFS 벌크 로드의 경우(예: 벌크 로드 도구가 webhdfs:// 또는 webhdfss://으로 시작하는 경우) |
 | 버킷 수 | 20 | 클러스터형 테이블을 만들 때의 버킷 수입니다. |
 | fileFormat | 쪽모이 세공 | 작업 표의 기본 파일 형식입니다. |
 
 ## Hadoop 2.1에 대한 액세스 구성 {#configure-access-to-hadoop}
-
-FDA에서 Hadoop 외부 데이터베이스를 구성하는 방법에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/access-hadoop-2.html)참조하십시오.
 
 ### Windows용 {#for-windows}
 
@@ -393,7 +346,7 @@ FDA에서 Hadoop 외부 데이터베이스를 구성하는 방법에 대한 자�
    User/Password: admin/<your password here>
    ```
 
-1. 공유 연결 [](../../message-center/using/creating-a-shared-connection.md) 만들기 섹션에 설명된 대로 Hadoop 외부 계정을 만듭니다.
+1. Hadoop 외부 계정을 만듭니다( [이 페이지](../../platform/using/external-accounts.md#hadoop-external-account) 섹션에 자세히 설명되어 있음).
 
 ### Linux용 {#for-linux}
 
@@ -480,7 +433,7 @@ FDA에서 Hadoop 외부 데이터베이스를 구성하는 방법에 대한 자�
    isql vorac -v
    ```
 
-1. 공유 연결 [](../../message-center/using/creating-a-shared-connection.md) 만들기 섹션에 설명된 대로 Hadoop 외부 계정을 만듭니다.
+1. Hadoop 외부 계정을 만듭니다( [이 페이지](../../platform/using/external-accounts.md#hadoop-external-account) 섹션에 자세히 설명되어 있음).
 
 ## Netezza 액세스 구성 {#configure-access-to-netezza}
 
@@ -529,7 +482,21 @@ FDA에서 Netezza 외부 데이터베이스에 연결하려면 Adobe Campaign �
    * **ODBCINI**:odbc.ini 파일의 위치(예: /etc/odbc.ini).
    * **NZ_ODBC_INI_PATH**:odbc.ini 파일의 위치입니다. 또한 Netezza는 odbc.ini 파일을 사용하기 위해 이 두 번째 변수를 필요로 합니다.
 
-1. 공유 연결 [](../../message-center/using/creating-a-shared-connection.md) 만들기 섹션에 설명된 대로 Netezza 외부 계정을 만듭니다.
+1. 그런 다음 Campaign Classic에서 Netezza 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /를 **[!UICONTROL Platform]** **[!UICONTROL External accounts]**&#x200B;클릭합니다.
+
+1. 을 **[!UICONTROL New]** 클릭하고 **[!UICONTROL External database]** 로 선택합니다 **[!UICONTROL Type]**.
+
+1. 외부 계정을 구성하려면 다음을 **[!UICONTROL Netezza]** 지정해야 합니다.
+
+   * **[!UICONTROL Type]**:네테차
+
+   * **[!UICONTROL Server]**:Netezza 서버의 URL
+
+   * **[!UICONTROL Account]**:사용자 이름
+
+   * **[!UICONTROL Password]**:사용자 계정 암호
+
+   * **[!UICONTROL Database]**:데이터베이스 이름
 
 >[!NOTE]
 >
@@ -593,7 +560,7 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
 1. 통합 패키지가 서버에 있는지 확인합니다.
 1. iq_odbc **를 설치합니다**. 설치가 끝날 때 오류가 발생할 수 있습니다. 이 오류는 무시될 수 있습니다.
 1. iq_ **client_common**&#x200B;설치 설치가 끝날 때 Java 오류가 발생할 수 있습니다. 이 오류는 무시될 수 있습니다.
-1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다./etc/odbc.ini일반 매개 변수 및 드라이버 선언용 /etc/odbcinst.ini를 참조하십시오.
+1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다./etc/odbc.ini일반 매개 변수 및 드라이버 선언용 /etc/odbcinst.ini을 참조하십시오.
 
    * **/etc/odbc.ini** (문자와 같은 `<server_alias>` 값 대신 자체):
 
@@ -625,7 +592,21 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
    * customer.sh 파일을 사용하여 경로를 선언하는 경우:ld_LIBRARY_PATH 변수에 대해 /opt/sybase/IQ-16_0/lib64 경로를 추가합니다.
    * 그렇지 않은 경우 Unix 명령을 사용합니다.
 
-1. 공유 연결 [](../../message-center/using/creating-a-shared-connection.md) 만들기 섹션에 설명된 대로 새 FDA 외부 계정을 만듭니다. Sybase IQ의 경우 서버 이름은 5단계에서 정의된 ODBC 연결(`<server_alias>`)에 해당합니다. 서버 이름이 반드시 필요한 것은 아닙니다.
+1. Campaign Classic에서 Sybase IQ 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /를 **[!UICONTROL Platform]** **[!UICONTROL External accounts]**&#x200B;클릭합니다.
+
+1. 을 **[!UICONTROL New]** 클릭하고 **[!UICONTROL External database]** 로 선택합니다 **[!UICONTROL Type]**.
+
+1. 외부 계정을 구성하려면 다음을 **[!UICONTROL Sybase IQ]** 지정해야 합니다.
+
+   * **[!UICONTROL Type]**:ODBC(Sybase ASE, Sybase IQ)
+
+   * **[!UICONTROL Server]**:5단계에서 정의된 ODBC 연결(`<server_alias>`)에 해당합니다. 반드시 서버 이름이 될 필요는 없습니다.
+
+   * **[!UICONTROL Account]**:사용자 이름
+
+   * **[!UICONTROL Password]**:사용자 계정 암호
+
+   * **[!UICONTROL Database]**:데이터베이스 이름
 
 >[!NOTE]
 >
@@ -674,6 +655,22 @@ FDA에서 Teradata 외부 데이터베이스에 연결하려면 Adobe Campaign �
    * **ODBCINI**:odbc.ini 파일의 위치(예: /etc/odbc.ini).
    * **NLSPATH**:opermsgs.cat 파일의 위치(/opt/teradata/client/15.10/msg/opermsgs.cat)
 
+1. Campaign Classic에서 Teradata 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /를 **[!UICONTROL Platform]** **[!UICONTROL External accounts]**&#x200B;클릭합니다.
+
+1. 을 **[!UICONTROL New]** 클릭하고 **[!UICONTROL External database]** 로 선택합니다 **[!UICONTROL Type]**.
+
+1. 외부 계정을 구성하려면 다음을 **[!UICONTROL Teradata]** 지정해야 합니다.
+
+   * **[!UICONTROL Type]**:Teradata
+
+   * **[!UICONTROL Server]**:Teradata 서버의 URL
+
+   * **[!UICONTROL Account]**:사용자 이름
+
+   * **[!UICONTROL Password]**:사용자 계정 암호
+
+   * **[!UICONTROL Database]**:데이터베이스 이름
+
 ## SAP HANA에 대한 액세스 구성 {#configure-access-to-sap-hana}
 
 FDA에서 SAP HANA 외부 데이터베이스에 연결하려면 Adobe Campaign 서버에 특정 추가 구성이 필요합니다.
@@ -683,7 +680,7 @@ FDA에서 SAP HANA 외부 데이터베이스에 연결하려면 Adobe Campaign �
    * **linux용 hdb_client_linux.tgz** . 압축을 푼 후 hdbinst 명령을 실행하고 지침에 따라 드라이버 설치를 완료하십시오.
    * **Windows용 hdb_client_windows.zip** . 파일의 압축을 풀고 실행 파일을 시작합니다. **hdbinst.exe**. 마법사 지침에 따라 드라이버 설치를 완료합니다.
 
-1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다./etc/odbc.ini를 참조하십시오.
+1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다./etc/odbc.ini을 참조하십시오.
 
    * **/etc/odbc.ini**
 
@@ -712,4 +709,16 @@ FDA에서 SAP HANA 외부 데이터베이스에 연결하려면 Adobe Campaign �
    * **LD_LIBRARY_PATH**:여기에는 기본적으로 SAP Hana 클라이언트(/usr/sap/hdbclient/libodbcHDB.so)에 대한 링크가 포함되어야 합니다.
    * **ODBCINI**:odbc.ini 파일의 위치(예: /etc/odbc.ini).
 
-1. 공유 연결 [](../../message-center/using/creating-a-shared-connection.md) 만들기 섹션에 설명된 대로 SAP 하나 외부 계정을 만듭니다.
+1. Campaign Classic에서 SAP 하나 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /를 **[!UICONTROL Platform]** **[!UICONTROL External accounts]**&#x200B;클릭합니다.
+
+1. 을 **[!UICONTROL New]** 클릭하고 **[!UICONTROL External database]** 로 선택합니다 **[!UICONTROL Type]**.
+
+1. 외부 계정을 구성하려면 다음을 **[!UICONTROL SAP Hana]** 지정해야 합니다.
+
+   * **[!UICONTROL Type]**:SAP 하나
+
+   * **[!UICONTROL Server]**:SAP 하나 서버의 URL
+
+   * **[!UICONTROL Account]**:사용자 이름
+
+   * **[!UICONTROL Password]**:사용자 계정 암호
