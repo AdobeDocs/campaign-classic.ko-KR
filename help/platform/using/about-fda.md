@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 47fd157e369ddf6c67f0b2b467799cecc6e5a822
+source-git-commit: 9d22af2a2e25cb0dd83759096139996372f60c33
 
 ---
 
@@ -32,7 +32,6 @@ Adobe Campaign은 하나 이상의 **외부 데이터베이스에 저장된** �
 
 FDA 옵션을 사용하면 데이터 모델을 서드파티 데이터베이스로 확장할 수 있습니다. 타깃팅된 테이블의 구조를 자동으로 감지하고 SQL 소스의 데이터를 사용합니다.
 
-
 이 기능을 사용하려면 다음을 수행해야 합니다.
 
 1. Adobe Campaign FDA 모듈과 호환되는 외부 데이터베이스가 있어야 합니다. 데이터베이스 시스템 및 호환 버전 목록은 [호환성 매트릭스에](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)자세히 설명되어 있습니다. 또한 사용자는 Adobe Campaign 및 외부 데이터베이스에서 [필요한 권한을](../../platform/using/remote-database-access-rights.md) 가져야 합니다.
@@ -41,7 +40,7 @@ FDA 옵션을 사용하면 데이터 모델을 서드파티 데이터베이스�
 1. [Adobe Campaign에서 외부 데이터베이스의 스키마를](../../platform/using/creating-data-schema.md) 만듭니다. 이를 통해 외부 데이터베이스의 데이터 구조를 인식할 수 있습니다.
 1. 마지막으로 [전달의 수신자가 외부 데이터베이스에서 오는 경우 이전에 생성된 스키마에서 새 대상 매핑을](../../platform/using/defining-data-mapping.md) 만듭니다. 이것은 특히 납품을 개인화하는 것과 관련하여 특정한 제한 사항을 나타낸다.
 
-데이터 스키마가 만들어지면 Adobe Campaign 워크플로우에서 데이터를 처리할 수 있습니다. For more on this, refer to [this section](../../workflow/using/executing-a-workflow.md#architecture).
+데이터 스키마가 만들어지면 Adobe Campaign 워크플로우에서 데이터를 처리할 수 있습니다. For more on this, refer to [this section](../../workflow/using/accessing-an-external-database--fda-.md).
 
 ## 모범 사례 및 추천 {#best-practices-and-recommendations}
 
