@@ -5,7 +5,7 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: ffaa4d4442448f9d30c4a1ef41b8bd73363088e0
+source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
 
 ---
 
@@ -286,34 +286,34 @@ source-git-commit: ffaa4d4442448f9d30c4a1ef41b8bd73363088e0
 + Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [Campaign 통합 기본 정보](integrations/using/about-campaign-integrations.md)
    + 대상 공유 {#audience-sharing}
-      + [Adobe Experience Cloud와 고객 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [[!DNL Adobe Experience Cloud]와 대상 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
-      + [Adobe Campaign에서 공유 대상 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [[!DNL Adobe Campaign]에서 공유 대상 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [문제 해결](integrations/using/troubleshooting.md)
       + [대상 가져오기 및 내보내기](integrations/using/importing-and-exporting-audiences.md)
    + 자산 공유 {#asset-sharing}
-      + [Adobe Experience Cloud와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [자산에 대한 액세스 구성](integrations/using/configuring-access-to-assets.md)
+      + [[!DNL Adobe Experience Cloud]와 자산 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [[!DNL 자산]에 대한 액세스 구성](integrations/using/configuring-access-to-assets.md)
       + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [Adobe Experience Manager 정보](integrations/using/about-adobe-experience-manager.md)
+      + [[!DNL Adobe Experience Manager] 정보](integrations/using/about-adobe-experience-manager.md)
       + [통합 구성](integrations/using/configuring-the-integration.md)
-      + [Experience Manager 뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [[!DNL Experience Manager] 뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [Adobe Target과 통합](integrations/using/integrating-with-adobe-target.md)
-      + [Adobe Target과 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [[!DNL Adobe Target]과 통합](integrations/using/integrating-with-adobe-target.md)
+      + [[!DNL Adobe Target]과(와) 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [동적 이미지 삽입](integrations/using/inserting-a-dynamic-image.md)
    + Adobe ID를 통해 연결 {#connecting-via-an-adobe-id}
-      + [Adobe ID 정보](integrations/using/about-adobe-id.md)
-      + [IMS 구성.](integrations/using/configuring-ims.md)
-      + [IMS 구현.](integrations/using/implementing-ims.md)
+      + [[!DNL Adobe ID] 정보](integrations/using/about-adobe-id.md)
+      + [[!DNL IMS] 구성](integrations/using/configuring-ims.md)
+      + [[!DNL IMS] 구현](integrations/using/implementing-ims.md)
       + [IMS 문제 해결](integrations/using/ims-troubleshooting.md)
    + ACS 커넥터 {#acs-connector}
-      + [ACS 커넥터 원칙 및 데이터 주기](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [[!DNL ACS 커넥터] 원칙 및 데이터 주기](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [프로파일 동기화](integrations/using/synchronizing-profiles.md)
       + [대상 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
-      + [ACS 커넥터 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
+      + [[!DNL ACS 커넥터 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
 + 워크플로우로 자동화 {#automating-with-workflows}
    + 소개 {#introduction}
       + [워크플로우 정보](workflow/using/about-workflows.md)
