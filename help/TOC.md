@@ -5,7 +5,10 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
+source-git-commit: 2ba9efa49f26559786641ff5e1caa9c481f770b2
+workflow-type: tm+mt
+source-wordcount: '2077'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [릴리스 18.4](rn/using/release--18-4.md)
    + [더 이상 사용되지 않는 기능](rn/using/deprecated-features.md)
 + Getting Started {#getting-started}
-   + Adobe Campaign 시작하기 {#starting-with-adobe-campaign}
+   + Adobe Campaign 시작 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic 정보](platform/using/about-adobe-campaign-classic.md)
       + [개인 정보 및 권장 사항](platform/using/privacy-and-recommendations.md)
       + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
@@ -59,7 +62,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [사용 사례](platform/using/use-case.md)
    + 쿼리 만들기 {#creating-queries}
       + [캠페인의 쿼리 정보](platform/using/about-queries-in-campaign.md)
-      + [쿼리를 만드는 절차](platform/using/steps-to-create-a-query.md)
+      + [쿼리를 만드는 단계](platform/using/steps-to-create-a-query.md)
       + [필터 조건 정의](platform/using/defining-filter-conditions.md)
    + 관리 기본 사항 {#administration-basics}
       + [액세스 관리](platform/using/access-management.md)
@@ -79,25 +82,25 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [커넥터 정보](platform/using/about-connectors.md)
       + [CRM 커넥터](platform/using/crm-connectors.md)
       + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector.md)
-+ 메시지 보내기 {#sending-messages}
-   + 게재 및 채널 정보 {#about-deliveries-and-channels}
++ 메시지 전송 {#sending-messages}
+   + 배달 및 채널 정보 {#about-deliveries-and-channels}
       + [소통 채널](delivery/using/communication-channels.md)
       + [배달 정보 액세스](delivery/using/accessing-deliveries-information.md)
       + [배달 유형](delivery/using/types-of-deliveries.md)
    + 배달을 만들 때의 주요 단계 {#key-steps-when-creating-a-delivery}
       + [배달 만들기 정보 ](delivery/using/steps-about-delivery-creation-steps.md)
       + [배달 만들기 및 식별](delivery/using/steps-create-and-identify-the-delivery.md)
-      + [타겟 모집단 정의](delivery/using/steps-defining-the-target-population.md)
+      + [대상 모집단 정의](delivery/using/steps-defining-the-target-population.md)
       + [배달 유효성 확인](delivery/using/steps-validating-the-delivery.md)
-      + [배달 보내기](delivery/using/steps-sending-the-delivery.md)
-   + 이메일 보내기 {#sending-emails}
+      + [배달 전송](delivery/using/steps-sending-the-delivery.md)
+   + 이메일 전송 {#sending-emails}
       + [이메일 채널 정보](delivery/using/about-email-channel.md)
       + [이메일 배달 만들기](delivery/using/creating-an-email-delivery.md)
       + [이메일 컨텐츠 정의](delivery/using/defining-the-email-content.md)
       + [인터랙티브한 컨텐츠 정의](delivery/using/defining-interactive-content.md)
-      + [메시지 보내기](delivery/using/sending-messages.md)
+      + [메시지 전송](delivery/using/sending-messages.md)
       + [파일 첨부](delivery/using/attaching-files.md)
-   + 모바일에서 메시지 보내기 {#sending-messages-on-mobiles}
+   + 모바일에 메시지 보내기 {#sending-messages-on-mobiles}
       + [SMS 채널](delivery/using/sms-channel.md)
       + [LINE 채널](delivery/using/line-channel.md)
    + 푸시 알림 전송 {#sending-push-notifications}
@@ -129,12 +132,12 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [시드 주소 만들기](delivery/using/creating-seed-addresses.md)
       + [시드 주소 추가](delivery/using/adding-seed-addresses.md)
       + [외부 수신자 테이블 사용](delivery/using/using-an-external-recipient-table.md)
-      + [사용 사례:기준의 시드 주소 선택](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
-      + [사용 사례:필드 대체 구성](delivery/using/use-case--configuring-the-field-substitution.md)
+      + [사용 사례: 기준 시드 주소 선택](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+      + [사용 사례: 필드 대체 구성](delivery/using/use-case--configuring-the-field-substitution.md)
    + 구독 및 참조 {#subscriptions-and-referrals}
       + [서비스 및 구독 정보](delivery/using/about-services-and-subscriptions.md)
       + [구독 관리](delivery/using/managing-subscriptions.md)
-      + [바이러스 및 소셜 마케팅](delivery/using/viral-and-social-marketing.md)
+      + [입소문 및 소셜 마케팅](delivery/using/viral-and-social-marketing.md)
    + 배달 모니터링 {#monitoring-deliveries}
       + [게재 모니터링](delivery/using/monitoring-a-delivery.md)
       + [게재 실패 이해](delivery/using/understanding-delivery-failures.md)
@@ -144,30 +147,31 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [추적된 링크를 구성하는 방법](delivery/using/how-to-configure-tracked-links.md)
       + [URL 추적 개인화](delivery/using/personalizing-url-tracking.md)
       + [추적 로그 액세스](delivery/using/accessing-the-tracking-logs.md)
-      + [테스트 추적](delivery/using/testing-tracking.md)
-   + 전달 가능성 관리 {#deliverability-management}
+      + [추적 테스트](delivery/using/testing-tracking.md)
+   + 전달 능력 관리 {#deliverability-management}
       + [게재 기능 기본 정보](delivery/using/about-deliverability.md)
       + [확인할 주요 사항](delivery/using/deliverability-key-points.md)
       + [새 플랫폼 시작](delivery/using/starting-new-platform.md)
       + [메시지 내용 제어](delivery/using/control-message-content.md)
       + [평판 향상](delivery/using/improve-reputation.md)
-      + [재참여 우수 사례](delivery/using/re-engagement-best-practices.md)
       + [기술 추천](delivery/using/technical-recommendations.md)
-      + [기술 모니터링](delivery/using/technical-monitoring.md)
+      + [게재 기능 모니터링](delivery/using/monitoring-deliverability.md)
       + [받은 편지함 렌더링](delivery/using/inbox-rendering.md)
-      + [SpamAsser](delivery/using/spamassassin.md)
+      + [스팸자퍼](delivery/using/spamassassin.md)
+      + [재참여 우수 사례](delivery/using/re-engagement-best-practices.md)
       + [블랙리스트 데이터베이스](delivery/using/blacklisting-databases.md)
+      + [문제 해결](delivery/using/deliverability-faq.md)
    + 컨텐츠 관리 모듈 {#content-management}
       + [컨텐츠 관리 정보](delivery/using/about-content-management.md)
       + [콘텐츠 관리자 리소스 및 원칙](delivery/using/content-manager-resources-and-principles.md)
-      + [사용 사례:콘텐츠 관리 만들기](delivery/using/use-case--creating-content-management.md)
+      + [사용 사례: 콘텐츠 관리 만들기](delivery/using/use-case--creating-content-management.md)
       + [데이터 스키마](delivery/using/data-schemas.md)
       + [입력 양식](delivery/using/input-forms.md)
-      + [서식 지정](delivery/using/formatting.md)
+      + [서식](delivery/using/formatting.md)
       + [발행물 템플릿](delivery/using/publication-templates.md)
       + [컨텐츠 템플릿 사용](delivery/using/using-a-content-template.md)
       + [컨텐츠 강화](delivery/using/enriching-content.md)
-      + [워크플로우를 통해 자동화](delivery/using/automating-via-workflows.md)
+      + [워크플로우를 통한 자동화](delivery/using/automating-via-workflows.md)
 + 캠페인 통합 관리 {#orchestrating-campaigns}
    + 마케팅 캠페인 정보 {#about-marketing-campaigns}
       + [마케팅 캠페인 디자인](campaign/using/designing-marketing-campaigns.md)
@@ -200,7 +204,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [캠페인 패키지 게시](campaign/using/publishing-the-campaign-package.md)
       + [캠페인 액세스](campaign/using/accessing-campaigns.md)
       + [캠페인 추적](campaign/using/tracking-a-campaign.md)
-      + [예](campaign/using/examples.md)
+      + [예제](campaign/using/examples.md)
    + 응답 관리자 {#response-manager}
       + [응답 관리자 정보](campaign/using/about-response-manager.md)
       + [구성](campaign/using/configuration.md)
@@ -210,8 +214,8 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
 + 보고 {#reporting}
    + Adobe Campaign에서 보고 {#reporting-in-adobe-campaign}
       + [보고 시작하기](reporting/using/about-adobe-campaign-reporting-tools.md)
-      + [보고를 위한 모범 사례](reporting/using/best-practices.md)
-   + 기본 제공 보고서 액세스 {#accessing-built-in-reports}
+      + [보고 모범 사례](reporting/using/best-practices.md)
+   + 내장 보고서 액세스 {#accessing-built-in-reports}
       + [캠페인 기본 제공 보고서 정보](reporting/using/about-campaign-built-in-reports.md)
       + [보고서 목록](reporting/using/list-of-reports.md)
    + 배달 보고서{#reports-on-deliveries}
@@ -227,7 +231,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [보고서 처리](reporting/using/processing-a-report.md)
       + [사용 사례](reporting/using/use-cases.md)
    + 새 보고서 만들기 {#creating-new-reports}
-      + [캠페인에서 보고서 작성 정보](reporting/using/about-reports-creation-in-campaign.md)
+      + [캠페인에서 보고서 만들기 정보](reporting/using/about-reports-creation-in-campaign.md)
       + [새 보고서 만들기](reporting/using/creating-a-new-report.md)
       + [데이터를 수집하여 분석](reporting/using/collecting-data-to-analyze.md)
       + [컨텍스트 사용](reporting/using/using-the-context.md)
@@ -242,15 +246,15 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
    + 큐브를 사용하여 보고서 디자인 {#designing-reports-with-cubes}
       + [큐브 정보](reporting/using/about-cubes.md)
       + [표시기 만들기](reporting/using/creating-indicators.md)
-      + [육면체를 사용하여 데이터 탐색](reporting/using/using-cubes-to-explore-data.md)
+      + [큐브를 사용하여 데이터 탐색](reporting/using/using-cubes-to-explore-data.md)
       + [개념 및 방법론](reporting/using/concepts-and-methodology.md)
-      + [사용 사례:온라인 설문 조사에 대한 답변 보고서 표시](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
+      + [사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + 웹 컨텐츠 디자인 {#designing-content}
    + 웹 애플리케이션 {#web-applications}
-      + [웹 애플리케이션 정보](web/using/about-web-applications.md)
+      + [웹 응용 프로그램 정보](web/using/about-web-applications.md)
       + [새 웹 응용 프로그램 만들기](web/using/creating-a-new-web-application.md)
       + [웹 애플리케이션 디자인](web/using/designing-a-web-application.md)
-      + [활용 사례:개요 만들기](web/using/use-cases--creating-overviews.md)
+      + [활용 사례: 개요 만들기](web/using/use-cases--creating-overviews.md)
       + [웹 애플리케이션 번역](web/using/translating-a-web-application.md)
       + [웹 애플리케이션 추적](web/using/tracking-a-web-application.md)
       + [웹 애플리케이션 추적 옵트아웃](web/using/web-application-tracking-opt-out.md)
@@ -259,9 +263,9 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [템플릿 관리](web/using/template-management.md)
       + [컨텐츠 편집기 인터페이스](web/using/content-editor-interface.md)
       + [컨텐츠 편집](web/using/editing-content.md)
-      + [컨텐츠 편집 우수 사례](web/using/content-editing-best-practices.md)
+      + [컨텐츠 편집 모범 사례](web/using/content-editing-best-practices.md)
       + [랜딩 페이지 만들기](web/using/creating-a-landing-page.md)
-      + [사용 사례:이메일 배달 만들기](web/using/use-case--creating-an-email-delivery.md)
+      + [사용 사례: 이메일 배달 만들기](web/using/use-case--creating-an-email-delivery.md)
    + 웹 양식 {#web-forms}
       + [웹 양식 정보](web/using/about-web-forms.md)
       + [웹 양식 템플릿 사용](web/using/using-a-web-form-template.md)
@@ -274,7 +278,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [웹 양식 게시](web/using/publishing-a-web-form.md)
       + [웹 양식 속성 정의](web/using/defining-web-forms-properties.md)
       + [웹 양식 번역](web/using/translating-a-web-form.md)
-      + [활용 사례:웹 양식](web/using/use-cases--web-forms.md)
+      + [활용 사례: 웹 양식](web/using/use-cases--web-forms.md)
    + 온라인 설문 조사 {#online-surveys}
       + [설문 조사 정보](web/using/about-surveys.md)
       + [설문 조사 시작하기](web/using/getting-started-with-surveys.md)
@@ -282,10 +286,10 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [대답 관리](web/using/managing-answers.md)
       + [수집된 데이터 게시, 추적 및 사용](web/using/publish--track-and-use-collected-data.md)
       + [설문 조사 구성](web/using/configuring-surveys.md)
-      + [사용 사례:친구 양식 참조](web/using/use-case--creating-a-refer-a-friend-form.md)
+      + [사용 사례: 친구 양식 참조 만들기](web/using/use-case--creating-a-refer-a-friend-form.md)
 + Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [Campaign 통합 기본 정보](integrations/using/about-campaign-integrations.md)
-   + 대상 공유 {#audience-sharing}
+   + 고객 공유 {#audience-sharing}
       + [[!DNL Adobe Experience Cloud]와 대상 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
       + [[!DNL Adobe Campaign]에서 공유 대상 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
@@ -301,7 +305,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [[!DNL Experience Manager] 뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [[!DNL Adobe Target]과 통합](integrations/using/integrating-with-adobe-target.md)
-      + [[!DNL Adobe Target]과(와) 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [[!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [동적 이미지 삽입](integrations/using/inserting-a-dynamic-image.md)
    + Adobe ID를 통해 연결 {#connecting-via-an-adobe-id}
       + [[!DNL Adobe ID] 정보](integrations/using/about-adobe-id.md)
@@ -310,10 +314,10 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [IMS 문제 해결](integrations/using/ims-troubleshooting.md)
    + ACS 커넥터 {#acs-connector}
       + [[!DNL ACS 커넥터] 원칙 및 데이터 주기](integrations/using/acs-connector-principles-and-data-cycle.md)
-      + [프로파일 동기화](integrations/using/synchronizing-profiles.md)
+      + [프로필 동기화](integrations/using/synchronizing-profiles.md)
       + [대상 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
-      + [[!DNL ACS 커넥터] 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
+      + [[!DNL ACS 커넥터 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
 + 워크플로우로 자동화 {#automating-with-workflows}
    + 소개 {#introduction}
       + [워크플로우 정보](workflow/using/about-workflows.md)
@@ -356,7 +360,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [대기](workflow/using/wait.md)
       + [시간 제한](workflow/using/time-constraint.md)
       + [하위 워크플로우](workflow/using/sub-workflow.md)
-      + [이동(시작 지점 및 종료 지점)](workflow/using/jump--start-point-and-end-point-.md)
+      + [이동(시작점 및 끝점)](workflow/using/jump--start-point-and-end-point-.md)
       + [외부 신호](workflow/using/external-signal.md)
       + [승인](workflow/using/approval.md)
       + [경고](workflow/using/alert.md)
@@ -372,7 +376,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [데이터 로드(RDBMS)](workflow/using/data-loading--rdbms-.md)
       + [로드 중(SOAP)](workflow/using/loading--soap-.md)
       + [데이터 로드(파일)](workflow/using/data-loading--file-.md)
-      + [컨텐츠 관리](workflow/using/content-management.md)
+      + [콘텐츠 관리](workflow/using/content-management.md)
       + [데이터 추출(파일)](workflow/using/extraction--file-.md)
       + [SQL 코드 및 JavaScript 코드](workflow/using/sql-code-and-javascript-code.md)
       + [SQL 데이터 관리](workflow/using/sql-data-management.md)
@@ -391,27 +395,27 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
          + [A/B 테스트](workflow/using/a-b-testing.md)
          + [생일 이메일 보내기](workflow/using/sending-a-birthday-email.md)
          + [배달 컨텐츠 로드](workflow/using/loading-delivery-content.md)
-         + [크로스 채널 전달 워크플로우](workflow/using/cross-channel-delivery-workflow.md)
-         + [사용자 정의 날짜 필드를 통한 이메일 향상](workflow/using/email-enrichment-with-custom-date-fields.md)
+         + [크로스채널 전달 워크플로우](workflow/using/cross-channel-delivery-workflow.md)
+         + [맞춤형 날짜 필드를 사용한 이메일 향상](workflow/using/email-enrichment-with-custom-date-fields.md)
       + 모니터링 {#monitoring}
-         + [목록으로 보고서 보내기](workflow/using/sending-a-report-to-a-list.md)
+         + [목록으로 보고서 전송](workflow/using/sending-a-report-to-a-list.md)
          + [워크플로우 감독](workflow/using/supervising-workflows.md)
-         + [운영자에게 개인화된 경고 보내기](workflow/using/sending-personalized-alerts-to-operators.md)
+         + [운영자에게 개인화된 경고 전송](workflow/using/sending-personalized-alerts-to-operators.md)
       + 데이터 관리 {#data-management}
          + [데이터 업데이트 조정](workflow/using/coordinating-data-updates.md)
          + [요약 목록 만들기](workflow/using/creating-a-summary-list.md)
-         + [데이터 강화](workflow/using/enriching-data.md)
+         + [데이터 농축](workflow/using/enriching-data.md)
          + [집계 사용](workflow/using/using-aggregates.md)
       + 쿼리 디자인 {#designing-queries}
-         + [수신자 테이블 쿼리](workflow/using/querying-recipient-table.md)
+         + [받는 사람 테이블을 쿼리하는 중](workflow/using/querying-recipient-table.md)
          + [배달 정보 쿼리](workflow/using/querying-delivery-information.md)
          + [집계 컴퓨팅 수행](workflow/using/performing-aggregate-computing.md)
-         + [그룹화 관리를 사용하여 쿼리](workflow/using/querying-using-grouping-management.md)
+         + [그룹 관리를 사용하여 쿼리](workflow/using/querying-using-grouping-management.md)
          + [다대다 관계를 사용하여 쿼리](workflow/using/querying-using-many-to-many-relationship.md)
          + [열거형 유형 계산 필드 추가](workflow/using/adding-enumeration-type-calculated-field.md)
          + [필터 만들기](workflow/using/creating-a-filter.md)
          + [중복 받는 사람 필터링](workflow/using/filtering-duplicated-recipients.md)
-   + 모니터링 워크플로우 {#monitoring-workflows}
+   + 워크플로우 모니터링 {#monitoring-workflows}
       + [워크플로우 실행 모니터링](workflow/using/monitoring-workflow-execution.md)
       + [기술 워크플로우 모니터링](workflow/using/monitoring-technical-workflows.md)
       + [Workflow HeatMap](workflow/using/heatmap.md)
@@ -430,7 +434,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [캠페인](workflow/using/campaign.md)
       + [웹 분석](workflow/using/web-analytics.md)
       + [분산 마케팅](workflow/using/distributed-marketing.md)
-      + [전달 가능 모니터링](workflow/using/email-deliverability.md)
+      + [전달 능력 모니터링](workflow/using/email-deliverability.md)
       + [받은 편지함 렌더링](workflow/using/inbox-rendering.md)
       + [인터랙션](workflow/using/interaction.md)
       + [오퍼 엔진 제어](workflow/using/control-of-offer-engine.md)
@@ -442,12 +446,12 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [소셜 마케팅](workflow/using/social-marketing.md)
       + [Adobe Experience Cloud 솔루션과 통합](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
       + [개인 정보 보호 규정](workflow/using/general-data-protection-regulation--gdpr-.md)
-      + [중간 출처로 이전](workflow/using/transfer-to-mid-sourcing.md)
+      + [중간 출처로 전송](workflow/using/transfer-to-mid-sourcing.md)
       + [중간 소싱 플랫폼](workflow/using/mid-sourcing-platform.md)
 + 오퍼 관리 {#managing-offers}
    + 상호 작용 개요 {#interaction-overview}
-      + [상호 작용 및 오퍼 관리](interaction/using/interaction-and-offer-management.md)
-      + [용어 설명](interaction/using/glossary.md)
+      + [상호 작용 및 제안 관리](interaction/using/interaction-and-offer-management.md)
+      + [용어집](interaction/using/glossary.md)
       + [인터랙션 모범 사례](interaction/using/interaction-best-practices.md)
    + 일반 작업 {#general-operation}
       + [구현 단계](interaction/using/implementation-steps.md)
@@ -457,7 +461,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [연산자 프로필](interaction/using/operator-profiles.md)
       + [라이브/디자인 환경](interaction/using/live-design-environments.md)
       + [오퍼 공간 만들기](interaction/using/creating-offer-spaces.md)
-      + [미리 정의된 필터 만들기](interaction/using/creating-predefined-filters.md)
+      + [사전 정의된 필터 만들기](interaction/using/creating-predefined-filters.md)
    + 오퍼 카탈로그 관리 {#managing-an-offer-catalog}
       + [오퍼 카탈로그 개요](interaction/using/offer-catalog-overview.md)
       + [오퍼 카테고리 만들기](interaction/using/creating-offer-categories.md)
@@ -493,7 +497,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [데이터 버퍼 영역](interaction/using/data-buffer-zone.md)
    + 사례 연구 {#case-study}
       + [프레젠테이션 규칙](interaction/using/presentation-rules.md)
-      + [인바운드 채널의 오퍼](interaction/using/offers-on-an-inbound-channel.md)
+      + [인바운드 채널에 대한 오퍼](interaction/using/offers-on-an-inbound-channel.md)
       + [아웃바운드 채널의 오퍼](interaction/using/offers-on-an-outbound-channel.md)
 + Transactional Messaging {#transactional-messaging}
    + 소개 {#introduction}
@@ -515,12 +519,12 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [트랜잭션 메시지의 시드 주소 관리](message-center/using/managing-seed-addresses-in-transactional-messages.md)
       + [개인화 데이터](message-center/using/personalization-data.md)
       + [트랜잭션 메시지 미리 보기](message-center/using/transactional-message-preview.md)
-      + [증명 보내기](message-center/using/sending-a-proof.md)
+      + [증명 전송](message-center/using/sending-a-proof.md)
       + [템플릿 게시](message-center/using/template-publication.md)
    + 이벤트 처리 {#event-processing}
       + [이벤트 처리 정보](message-center/using/about-event-processing.md)
       + [이벤트 컬렉션](message-center/using/event-collection.md)
-      + [템플릿 라우팅](message-center/using/routing-towards-a-template.md)
+      + [템플릿을 향해 라우팅](message-center/using/routing-towards-a-template.md)
       + [배달 실행](message-center/using/delivery-execution.md)
    + 보고서 {#reports}
       + [트랜잭션 메시징 보고서 정보](message-center/using/about-transactional-messaging-reports.md)
@@ -538,7 +542,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [Facebook 담벼락에 게시](social/using/publishing-on-facebook-walls.md)
       + [Facebook 애플리케이션 만들기](social/using/creating-a-facebook-application.md)
       + [Twitter에서 게시 구성](social/using/configuring-publishing-on-twitter.md)
-   + Facebook/Twitter에서 게시 {#publishing-on-facebook-twitter}
+   + Facebook/Twitter에 게시 {#publishing-on-facebook-twitter}
       + [개요](social/using/overview.md)
       + [Facebook에 게시](social/using/publishing-on-facebook.md)
       + [Twitter에서 게시](social/using/publishing-on-twitter.md)
@@ -554,29 +558,29 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [하이브리드 및 호스팅 모델 정보](installation/using/about-hybrid-and-hosted-models.md)
       + [하이브리드 모델](installation/using/hybrid-model.md)
       + [호스팅 모델](installation/using/hosted-model.md)
-   + 사전 요구 사항 및 권장 사항 {#prerequisites-and-recommendations-}
+   + 사전 요구 사항 및 권장 사항  {#prerequisites-and-recommendations-}
       + [시작하기 전](installation/using/before-starting.md)
       + [데이터베이스](installation/using/database.md)
-      + [애플리케이션 서버](installation/using/application-server.md)
+      + [응용 프로그램 서버](installation/using/application-server.md)
       + [메시징 서버](installation/using/messaging-server.md)
       + [네트워크 구성](installation/using/network-configuration.md)
-   + 배포 유형 {#deployment-types-}
+   + 배포 유형  {#deployment-types-}
       + [배포 유형 정보](installation/using/about-deployment-types.md)
-      + [독립 실행형 배포](installation/using/standalone-deployment.md)
+      + [독립형 배포](installation/using/standalone-deployment.md)
       + [표준 배포](installation/using/standard-deployment.md)
       + [기업 배포](installation/using/enterprise-deployment.md)
       + [중간 소싱 배포](installation/using/mid-sourcing-deployment.md)
-      + [Power Bourter 및 Power Cluster](installation/using/power-booster-and-power-cluster.md)
-   + Windows에서 캠페인 설치 {#installing-campaign-in-windows-}
-      + [Windows에서 Campaign 설치 사전 요구 사항](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+      + [전원 부스터 및 전원 클러스터](installation/using/power-booster-and-power-cluster.md)
+   + Windows에서 캠페인 설치  {#installing-campaign-in-windows-}
+      + [Windows에서 캠페인 설치 사전 요구 사항](installation/using/prerequisites-of-campaign-installation-in-windows.md)
       + [서버 설치](installation/using/installing-the-server.md)
       + [Windows용 웹 서버에 통합](installation/using/integration-into-a-web-server-for-windows.md)
       + [Windows용 클라이언트 콘솔 가용성](installation/using/client-console-availability-for-windows.md)
       + [클라이언트 콘솔 설치](installation/using/installing-the-client-console.md)
-   + Linux에서 캠페인 설치 {#installing-campaign-in-linux-}
+   + Linux에서 캠페인 설치  {#installing-campaign-in-linux-}
       + [Linux에서 캠페인 설치 사전 요구 사항](installation/using/prerequisites-of-campaign-installation-in-linux.md)
       + [Linux를 사용하여 패키지 설치](installation/using/installing-packages-with-linux.md)
-      + [Linux용 웹 서버에 통합](installation/using/integration-into-a-web-server-for-linux.md)
+      + [Linux용 웹 서버와 통합](installation/using/integration-into-a-web-server-for-linux.md)
       + [Linux용 클라이언트 콘솔 가용성](installation/using/client-console-availability-for-linux.md)
    + 초기 구성 {#initial-configuration}
       + [초기 구성 정보](installation/using/about-initial-configuration.md)
@@ -591,7 +595,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [기술 이메일 구성](installation/using/email-deliverability.md)
       + [이메일 보관](installation/using/email-archiving.md)
       + [시간대 관리](installation/using/time-zone-management.md)
-      + [SpamAsser 구성](installation/using/configuring-spamassassin.md)
+      + [스팸 암살자 구성](installation/using/configuring-spamassassin.md)
       + [중간 소싱 서버](installation/using/mid-sourcing-server.md)
       + [상호 작용 - 데이터 버퍼](installation/using/interaction---data-buffer.md)
    + 부록 {#appendices}
@@ -602,7 +606,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [캠페인 제거](installation/using/uninstalling-campaign.md)
 + 캠페인 클래식 모니터링 {#monitoring-campaign-classic}
    + 소개 {#introduction}
-      + [Foreword](production/using/foreword.md)
+      + [포워드](production/using/foreword.md)
       + [일반 아키텍처](production/using/general-architecture.md)
    + 제작 절차 {#production-procedures}
       + [구성 원칙](production/using/configuration-principle.md)
@@ -610,7 +614,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [관리](production/using/administration.md)
       + [구성](production/using/configuration.md)
       + [로그 파일](production/using/log-files.md)
-      + [모니터링 프로세스](production/using/monitoring-processes.md)
+      + [프로세스 모니터링](production/using/monitoring-processes.md)
       + [일반적인 명령](production/using/usual-commands.md)
       + [감사 추적](production/using/audit-trail.md)
    + 데이터 처리 {#data-processing}
@@ -635,13 +639,13 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [이미지 표시 문제](production/using/image-display-issues.md)
       + [임시 파일](production/using/temporary-files.md)
       + [데이터베이스 성능](production/using/database-performances.md)
-      + [모듈 및 빈번한 문제](production/using/modules-and-frequent-issues.md)
-      + [로그 정확도](production/using/log-precision.md)
+      + [모듈 및 자주 발생하는 문제](production/using/modules-and-frequent-issues.md)
+      + [로그 정밀도](production/using/log-precision.md)
       + [추적 로그 문제](production/using/tracking-logs-issues.md)
       + [워크플로우 실행](production/using/workflow-execution.md)
       + [연결 실패](production/using/failure-to-connect.md)
       + [연결 임계값](production/using/connection-thresholds.md)
-      + [Linux에서 스택 추적](production/using/stack-trace-in-linux.md)
+      + [Linux의 스택 추적](production/using/stack-trace-in-linux.md)
       + [Oracle 데이터베이스의 인코딩](production/using/encoding-of-the-oracle-database.md)
       + [콘솔 업데이트](production/using/console-update.md)
       + [암호 분실](production/using/lost-password.md)
@@ -657,7 +661,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [데이터베이스 매핑](configuration/using/database-mapping.md)
       + [요소 및 속성](configuration/using/elements-and-attributes.md)
    + 스키마 편집 {#editing-schemas}
-      + [스키마 버전 정보](configuration/using/about-schema-edition.md)
+      + [스키마 에디션 정보](configuration/using/about-schema-edition.md)
       + [데이터 스키마](configuration/using/data-schemas.md)
       + [기존 테이블의 스키마](configuration/using/schema-of-an-existing-table.md)
       + [스키마 확장](configuration/using/extending-a-schema.md)
@@ -687,18 +691,18 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
    + 사용자 지정 수신자 테이블 사용 {#use-a-custom-recipient-table}
       + [사용자 지정 수신자 테이블 정보](configuration/using/about-custom-recipient-table.md)
       + [스키마 특성](configuration/using/schema-characteristics.md)
-      + [타겟 매핑](configuration/using/target-mapping.md)
+      + [대상 매핑](configuration/using/target-mapping.md)
       + [인터페이스 구성](configuration/using/configuring-the-interface.md)
       + [시드 주소](configuration/using/seed-addresses.md)
       + [필터 만들기](configuration/using/creating-filters.md)
-      + [워크플로우로 프로필 목록 만들기](configuration/using/creating-a-profile-list-with-a-workflow.md)
+      + [워크플로우를 사용하여 프로필 목록 만들기](configuration/using/creating-a-profile-list-with-a-workflow.md)
       + [워크플로우 관리](configuration/using/managing-workflows.md)
       + [보고서 관리](configuration/using/managing-reports.md)
    + 웹 추적 설정 {#setting-up-web-tracking}
       + [웹 추적 정보](configuration/using/about-web-tracking.md)
       + [웹 추적 모드](configuration/using/web-tracking-mode.md)
-      + [웹 추적 태그:정의](configuration/using/web-tracking-tag--definition.md)
-      + [단계 설정](configuration/using/setup-stages.md)
+      + [웹 추적 태그: 정의](configuration/using/web-tracking-tag--definition.md)
+      + [설정 단계](configuration/using/setup-stages.md)
       + [추가 매개 변수](configuration/using/additional-parameters.md)
       + [웹 추적 태그 만들기](configuration/using/creating-web-tracking-tags.md)
       + [사이트에 태그 삽입](configuration/using/inserting-tags-in-your-site.md)
@@ -710,7 +714,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [마이그레이션 방법](migration/using/migration-method.md)
       + [마이그레이션 경고](migration/using/migration-warnings.md)
    + 마이그레이션 절차 {#migration-procedure}
-      + [마이그레이션을 시작하기 전에](migration/using/before-starting-migration.md)
+      + [마이그레이션을 시작하기 전](migration/using/before-starting-migration.md)
       + [마이그레이션 테스트](migration/using/testing-the-migration.md)
       + [플랫폼 구성](migration/using/configuring-your-platform.md)
    + Adobe Campaign 7로 마이그레이션 {#migrating-to-adobe-campaign-7}
