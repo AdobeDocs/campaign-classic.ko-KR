@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a30c4a2d31c3f674ac4a7bb4827a6951b36014ab
+source-git-commit: 74e1a883088d347cb1aab05d76b630c912411fc4
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,14 @@ Adobe Campaign에서 제공하는 기능을 사용하여 플랫폼 제공 여부
 
 * 이 **[!UICONTROL Delivery throughput]** 보고서는 지정된 기간 동안 전체 플랫폼의 처리량에 대한 개요를 제공합니다. 자세한 내용은 [이 섹션을 참조하십시오](../../reporting/using/global-reports.md#delivery-throughput).
 * 이 **[!UICONTROL Technical deliverability monitoring]** 보고서에는 플랫폼용 전달 품질 지표가 여러 개 포함되어 있습니다. 자세한 내용은 [이 섹션을 참조하십시오](#technical-deliverability-monitoring).
-* 배달 대시보드 [를 사용하면](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) 배달 요약 [,](../../delivery/using/monitoring-a-delivery.md#delivery-summary)배달 로그 및 내역 [및 추적 로그](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) 에 액세스할 수 [](../../delivery/using/monitoring-a-delivery.md#tracking-logs)있습니다. 여기에는 제외된 대상 및 그 이유와 열기 및 클릭과 같은 추적 정보가 표시됩니다. <!--For more on this, see [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md).-->
-* 전송, 처리 및 전송할 메시지 수도 확인할 수 있습니다. 자세한 내용은 [이 섹션을 참조하십시오.](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent)
-   <!--[SpamAssassin](../../installation/using/configuring-spamassassin.md)?-->
+* 각 배달은 서로 다른 인터넷 서비스 공급자(ISP)에 대한 브로드캐스트 통계 보고서를 생성합니다. 다음 숫자를 포함하여 배달능력에 영향을 줄 수 있는 데이터 품질 및 평판 지표를 보여줍니다.
+   * **[!UICONTROL Hard bounces]** 데이터 품질을 나타냅니다. 이 숫자는 2% 미만이어야 합니다.
+   * **[!UICONTROL Soft bounces]** 평판이 표시됩니다. 해당 ISP의 경우 이 숫자는 10%보다 높지 않아야 합니다.
+   자세한 내용은 [배달 통계](../../reporting/using/global-reports.md#delivery-statistics) 섹션을 참조하십시오.
+* 일반적으로 [배달 대시보드는](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) 다음과 같은 액세스 권한을 제공합니다.
+   * 전송 세부 사항과 성공 시 전송, 처리 및 전송할 메시지 [수](../../delivery/using/monitoring-a-delivery.md#delivery-summary)를 보여주는 배달 요약 [](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) ;
+   * 어느 대상이 제외되었는지와 그 이유를 보여주는 [배달 로그 및 내역](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history);
+   * 열기 및 클릭과 같은 추적 정보를 표시하는 [추적 로그](../../delivery/using/monitoring-a-delivery.md#tracking-logs).
 
 ## 모니터링 지침 {#monitoring-guidelines}
 
