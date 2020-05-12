@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 2ba9efa49f26559786641ff5e1caa9c481f770b2
+source-git-commit: 24a50fcaad4d9081e5504652eb5b73aa7db1e65f
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2078'
 ht-degree: 7%
 
 ---
@@ -317,7 +317,7 @@ ht-degree: 7%
       + [프로필 동기화](integrations/using/synchronizing-profiles.md)
       + [대상 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
-      + [[!DNL ACS 커넥터] 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
+      + [[!DNL ACS 커넥터 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
 + 워크플로우로 자동화 {#automating-with-workflows}
    + 소개 {#introduction}
       + [워크플로우 정보](workflow/using/about-workflows.md)
@@ -532,9 +532,7 @@ ht-degree: 7%
       + [메시지 센터 서비스 수준](message-center/using/message-center-service-level.md)
       + [메시지 센터 처리 시간](message-center/using/message-center-processing-time.md)
    + 사용 사례 {#use-case}
-      + [목적](message-center/using/purpose.md)
-      + [중요 정보](message-center/using/important-notes.md)
-      + [구현](message-center/using/implementation.md)
+      + [첨부 파일이 있는 트랜잭션 이메일 보내기](message-center/using/transactional-email-with-attachments.md)
 + 소셜 미디어와 통합 {#integrating-with-social-media}
    + [소셜 마케팅 정보](social/using/about-social-marketing.md)
    + 구성 {#configuration}
@@ -651,7 +649,7 @@ ht-degree: 7%
       + [암호 분실](production/using/lost-password.md)
       + [JSP 동작](production/using/jsp-behavior.md)
 + Campaign Classic 구성 {#configuring-campaign-classic}
-   + 데이터 모델 {#data-model}
+   + Data model {#data-model}
       + [데이터 모델 정보](configuration/using/about-data-model.md)
       + [데이터 모델 설명](configuration/using/data-model-description.md)
       + [권장사항](configuration/using/data-model-best-practices.md)
