@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9091059b1d8431a84eb93f104dbd8e8833cb94a7
+source-git-commit: 2e82605eda5bccd2e5604614acd4cb7d646822fc
 workflow-type: tm+mt
-source-wordcount: '6488'
+source-wordcount: '6502'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,7 @@ Adobe Campaign Classic 설명서의 모든 최신 업데이트에 대해 알아�
 
 새 플랫폼 시작 섹션이 향상되었습니다. [자세한 내용](../../delivery/using/starting-new-platform.md)
 
+첨부 파일이 있는 트랜잭션 이메일 전송 섹션이 이동 및 업데이트되었습니다. [자세한 내용](../../message-center/using/transactional-email-with-attachments.md)
 
 ## 2020년 4월 {#april-2020}
 
@@ -532,7 +533,7 @@ Oracle과 표준 시간대 파일 정렬에 대한 정보가 추가되었습니�
 즉시 사용 가능한 개인화 블록에 대한 새로운 정보로 &quot;개인화 블록&quot; 섹션을 재구성합니다.
 [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Personalizing_deliveries_Personalization_blocks.html)
 
-파일 구성에 대한 새 정보로 이메일 보관 섹션을 ```config-<instance name>.xml``` 재구성합니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Activating_email_archiving__on_premise_)
+파일 구성에 대한 새 정보로 이메일 보관 섹션을 다시 ```config-<instance name>.xml``` 정리했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Activating_email_archiving__on_premise_)
 
 메시지 센터(제어) 기술 워크플로우에 대한 정보가 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Technical_workflows_Message_Center__Control_.html)
 
