@@ -317,7 +317,7 @@ ht-degree: 7%
       + [프로필 동기화](integrations/using/synchronizing-profiles.md)
       + [대상 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
-      + [[!DNL ACS 커넥터 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
+      + [[!DNL ACS 커넥터] 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
 + 워크플로우로 자동화 {#automating-with-workflows}
    + 소개 {#introduction}
       + [워크플로우 정보](workflow/using/about-workflows.md)
