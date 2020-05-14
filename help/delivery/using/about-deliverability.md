@@ -13,15 +13,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c687c8ad19560d4181c2db52a91e096cceea705e
+source-git-commit: e6617614ae22b73c6783f9775f441e5e25ae19e3
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
 
 # 게재 기능 기본 정보{#about-deliverability}
+
+**전달 능력은** 바운싱 없이 수신자의 받은 편지함에 도달하거나 스팸으로 표시되지 않는 캠페인의 성공을 측정하는 데 포함됩니다.
 
 Adobe Campaign은 플랫폼의 제공 성능을 추적하는 특정 수의 도구를 제공합니다. 또한 이 섹션에서는 전달 능력을 관리 및 최적화할 때 고려해야 하는 주요 원칙을 집중적으로 설명합니다.
 
