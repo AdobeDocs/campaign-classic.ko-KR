@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e82605eda5bccd2e5604614acd4cb7d646822fc
+source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
 workflow-type: tm+mt
-source-wordcount: '6502'
+source-wordcount: '6464'
 ht-degree: 0%
 
 ---
@@ -23,19 +23,18 @@ ht-degree: 0%
 
 # 설명서 업데이트 정보{#documentation-updates}
 
-Adobe Campaign Classic 설명서의 모든 최신 업데이트에 대해 알아봅니다.
+이 페이지에는 월별 및 Campaign 릴리스의 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
-이 페이지에는 Adobe Campaign Classic의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
+또한 [Adobe Campaign Classic 릴리스 정보에서](../../rn/using/latest-release.md) 더 많은 업데이트를 찾을 수 있습니다.
 
-또한 [Adobe Campaign Classic 릴리스 노트를 참조할 수 있습니다](../../rn/using/latest-release.md).
 
 ## 2020년 5월 {#may-2020}
 
-모니터링 전달 가능 섹션이 이동 및 재구성되었습니다. [자세한 내용](../../delivery/using/monitoring-deliverability.md)
+모니터링 배달 기능 섹션이 이동되고 개선되었습니다. [자세한 내용](../../delivery/using/monitoring-deliverability.md)
 
-전달 능력 문제 해결 섹션이 이동 및 업데이트되었습니다. [자세한 내용](../../delivery/using/deliverability-faq.md)
+전달 능력 문제 해결 섹션이 이동되고 개선되었습니다. [자세한 내용](../../delivery/using/deliverability-faq.md)
 
-새 플랫폼 시작 섹션이 향상되었습니다. [자세한 내용](../../delivery/using/starting-new-platform.md)
+새 플랫폼 섹션을 시작할 때의 전달 가능성 가이드라인이 개선되었습니다. [자세한 내용](../../delivery/using/starting-new-platform.md)
 
 첨부 파일이 있는 트랜잭션 이메일 전송 섹션이 이동 및 업데이트되었습니다. [자세한 내용](../../message-center/using/transactional-email-with-attachments.md)
 
@@ -45,11 +44,11 @@ FDA 권한 테이블이 외부 데이터베이스 액세스(FDA) 문서로 이�
 
 FAQ는 소프트 및 하드 캐시를 삭제하는 방법에 대한 팁으로 업데이트되었습니다. [자세한 내용](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)
 
-데이터 모델 우수 사례 섹션이 색인에 대한 추가 정보로 개선되었습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md#indexes)
+색인에 대한 추가 정보를 통해 데이터 모델 모범 사례를 개선했습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md#indexes)
 
-Adobe Campaign 미리 정의된 데이터 모델을 설명하는 섹션이 각 기본 표에 대한 자세한 내용과 관련 모듈로의 링크를 포함하여 업데이트되었습니다. [자세한 내용](../../configuration/using/data-model-description.md)
+Adobe Campaign 내장 데이터 모델을 설명하는 섹션이 각 표에 대한 자세한 내용으로 업데이트되었습니다. [자세한 내용](../../configuration/using/data-model-description.md)
 
-&quot;워크플로우 자동화&quot; 안내서의 사용 사례가 테마 섹션으로 재구성되었습니다. [자세한 내용](../../workflow/using/using-the-local-approval-activity.md)
+워크플로우 사용 사례는 주제별로 업데이트되고 재구성되었습니다. [자세한 내용](../../workflow/using/using-the-local-approval-activity.md)
 
 바운스 [메일 자격](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) 및 [이메일 관리 규칙](../../delivery/using/understanding-delivery-failures.md#email-management-rules) 섹션이 업데이트된 정보로 향상되었습니다.
 
@@ -57,29 +56,29 @@ Adobe Campaign 향상된 MTA 아티클이 업데이트되었습니다. 이제 Ca
 
 ## 2020년 3월 {#march-2020}
 
-데이터 모델 우수 사례 페이지는 시퀀스, [성능](../../configuration/using/data-model-best-practices.md#sequences)및 [큰 표](../../configuration/using/data-model-best-practices.md#performance) 등 [의 새 섹션으로](../../configuration/using/data-model-best-practices.md#large-tables)업데이트되었습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md)
+데이터 모델 우수 사례는 시퀀스, [성능](../../configuration/using/data-model-best-practices.md#sequences)및 [큰 표](../../configuration/using/data-model-best-practices.md#performance) 등 [의 새로운 섹션으로](../../configuration/using/data-model-best-practices.md#large-tables)업데이트되었습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md)
 
-이제 Adobe Campaign에서 미리 정의된 데이터 모델과 즉시 사용할 수 있는 표 상호 작용을 설명하는 새 섹션을 사용할 수 있습니다. [자세한 내용](../../configuration/using/data-model-description.md)
+이제 Adobe Campaign 내장 데이터 모델과 테이블 간의 상호 작용을 설명하는 새 섹션을 사용할 수 있습니다. [자세한 내용](../../configuration/using/data-model-description.md)
 
-설명서 홈 페이지에 추가 리소스가 추가되었습니다. [자세한 내용](../../campaign-classic-home.md)
+설명서 홈 페이지에 추가 키 링크가 추가되었습니다. [자세한 내용](../../campaign-classic-home.md)
 
 Adobe Target의 동적 오퍼를 Adobe Campaign의 이메일에 통합하는 방법에 대한 사용 사례가 추가되었습니다. [자세한 내용](../../integrations/using/inserting-a-dynamic-image.md)
 
 이제 Adobe Campaign에서 사용할 수 있는 다양한 언어를 설명하는 새 섹션을 사용할 수 있습니다. [자세한 내용](../../platform/using/adobe-campaign-workspace.md#languages)
 
-액세스 관리 페이지가 이름이 지정된 권한에 대한 자세한 정보로 업데이트되었습니다. [자세한 내용](../../platform/using/access-management.md#named-rights)
+지정된 권한에 대한 추가 정보가 있는 액세스 관리 가이드라인이 업데이트되었습니다. [자세한 내용](../../platform/using/access-management.md#named-rights)
 
 ## 2020년 2월 {#february-2020}
 
 이제 Adobe Campaign 데이터 모델을 디자인하는 동안 모범 사례와 주요 권장 사항에 대한 개요를 제공하는 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md)
 
-&quot;이메일 제공 가능성&quot; 섹션의 이름이 &quot;기술 이메일 구성&quot;으로 변경되었습니다. [자세한 내용](../../installation/using/email-deliverability.md)
+기술 이메일 구성에 대한 새 섹션이 제공됩니다. [자세한 내용](../../installation/using/email-deliverability.md)
 
-&quot;할당량이 충족됨&quot; 오류 메시지에 대한 자세한 내용이 포함된 제공 가능 FAQ 문서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ)
+&quot;할당량이 충족됨&quot; 오류 메시지에 대한 자세한 내용이 포함된 제공 기능 FAQ가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ)
 
-AMP를 사용하여 대화형 내용을 정의하는 방법을 설명하는 세 개의 이메일 공급자(Gmail, Outlook 및 Mail.ru)가 지원하는 이메일용 AMP가 업데이트되었습니다. [자세한 내용](../../delivery/using/defining-interactive-content.md)
+AMP for Email은 이제 새로운 이메일 제공업체에서 지원합니다. 관련 문서가 업데이트되었습니다. [자세한 내용](../../delivery/using/defining-interactive-content.md)
 
-이메일 보관 섹션이 명확해졌습니다. [자세한 내용](../../installation/using/email-archiving.md#recommendations-and-limitations)
+이메일 보관 섹션이 향상되었습니다. [자세한 내용](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
 ## 20.1 - 17/02/2020{#release-20-1}
 
@@ -91,7 +90,7 @@ Hadoop FDA 커넥터 개선 사항 - [자세한 내용](../../platform/using/spe
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-설치 [,](../../installation/using/before-reading.md)프로덕션 [및](../../production/using/foreword.md) 구성 [가이드는 nlserver 서비스 시작 시 사용하는 새 시스템 단위로 업데이트되었습니다](../../configuration/using/additional-parameters.md) . 여전히 /etc/init.d/nlserver6를 사용할 수 있지만 이제 nlserver 서비스와 상호 작용하기 위해 systemctl 명령을 사용하는 것이 좋습니다.
+설치 [,](../../installation/using/before-reading.md)프로덕션 [및](../../production/using/foreword.md) 구성 [가이드는 nlserver 서비스 시작 시 사용하는 새 시스템 단위로 업데이트되었습니다](../../configuration/using/additional-parameters.md) . 여전히 /etc/init.d/nlserver6를 사용할 수 있지만, 이제 nlserver 서비스와 상호 작용하기 위해 systemctl 명령을 사용하는 것이 좋습니다.
 
 설치 가이드가 업데이트 및 최신 버전의 호환성 매트릭스와 동기화되었습니다. 지원되는 새 시스템이 추가되었습니다. 사용되지 않는 시스템 및 지원되지 않는 시스템에 대한 항목이 제거되었습니다. [자세한 내용](../../installation/using/before-reading.md)
 
