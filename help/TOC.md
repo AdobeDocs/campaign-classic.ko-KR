@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 24a50fcaad4d9081e5504652eb5b73aa7db1e65f
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2090'
 ht-degree: 7%
 
 ---
@@ -317,7 +317,7 @@ ht-degree: 7%
       + [프로필 동기화](integrations/using/synchronizing-profiles.md)
       + [대상 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
-      + [[!DNL ACS 커넥터] 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
+      + [[!DNL ACS 커넥터 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
 + 워크플로우로 자동화 {#automating-with-workflows}
    + 소개 {#introduction}
       + [워크플로우 정보](workflow/using/about-workflows.md)
@@ -327,8 +327,13 @@ ht-degree: 7%
       + [데이터 타겟팅](workflow/using/targeting-data.md)
       + [데이터 가져오기](workflow/using/importing-data.md)
       + [워크플로우 데이터 사용 방법](workflow/using/how-to-use-workflow-data.md)
-      + [워크플로우 실행](workflow/using/executing-a-workflow.md)
       + [워크플로우 모범 사례](workflow/using/workflow-best-practices.md)
+   + 워크플로우 실행 {#executing-a-workflow}
+      + [워크플로우 시작](workflow/using/starting-a-workflow.md)
+      + [워크플로우 라이프사이클](workflow/using/workflow-life-cycle.md)
+      + [데이터 라이프사이클](workflow/using/data-life-cycle.md)
+      + [승인 정의](workflow/using/defining-approvals.md)
+      + [건축](workflow/using/architecture.md)
    + 타겟팅 활동 {#targeting-activities}
       + [타겟팅 활동 기본 정보](workflow/using/about-targeting-activities.md)
       + [쿼리](workflow/using/query.md)
