@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: 9e5a499d723d3e4126f533b6c7dd63073aff3d09
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ![](assets/email_rec_edit_1.png)
 
-인바운드 이메일 **활동의 첫 번째 탭에서는** POP3 서버의 매개 변수를 입력하고 각 메시지를 수신할 때 실행할 스크립트를 입력할 수 있습니다. 두 번째 탭에서는 활동에 일정을 지정할 수 있고 세 번째 탭에서는 활동 만료 조건을 정의합니다.
+인바운드 **이메일** 활동의 첫 번째 탭에서는 POP3 서버의 매개 변수를 입력하고 각 메시지를 수신할 때 실행될 스크립트를 입력할 수 있습니다. 두 번째 탭에서는 활동에 예약을 지정할 수 있고, 세 번째 탭에서는 활동 만료 조건을 정의합니다.
 
 1. **[!UICONTROL Inbound Emails]**
 
@@ -52,10 +55,10 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
       * **[!UICONTROL Port]**
 
-         POP3 연결 포트 번호입니다. 기본 포트는 110입니다.
+         POP3 연결 포트 번호. 기본 포트는 110입니다.
    * **[!UICONTROL Stop as soon as email is processed]**
 
-      이 옵션을 사용하면 이메일을 하나씩 처리할 수 있습니다. 활동이 전환을 한 번만 활성화한 다음 처리를 완료하여 처리되지 않은 메시지는 서버에 남습니다.
+      이 옵션을 사용하면 이메일을 하나씩 처리할 수 있습니다. 이 활동은 전환을 한 번만 활성화한 다음 처리를 완료하여 처리되지 않은 메시지를 서버에 남깁니다.
 
 
 1. **[!UICONTROL Script]**
@@ -72,15 +75,15 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 1. **[!UICONTROL Schedule]**
 
-   활동의 일정을 정의하려면 **[!UICONTROL Scheduling]** 탭을 클릭하고 **[!UICONTROL Plan execution]**&#x200B;선택합니다. 단추를 클릭하여 일정을 구성합니다. **[!UICONTROL Change]**
+   활동 예약을 정의하려면 **[!UICONTROL Scheduling]** 탭을 클릭하고 선택합니다 **[!UICONTROL Plan execution]**. 이 **[!UICONTROL Change]** 단추를 클릭하여 일정을 구성합니다.
 
-   예약 구성은 예약 활동과 동일합니다. 스케줄러를 [참조하십시오](../../workflow/using/scheduler.md).
+   예약 구성은 예약 활동과 동일합니다. 스케줄러 [를 참조하십시오](../../workflow/using/scheduler.md).
 
 1. **[!UICONTROL Expiration]**
 
-   만료 지연을 **[!UICONTROL Expiration]** 탭을 통해 정의할 수 있습니다.
+   탭을 통해 만료 지연을 정의할 수 **[!UICONTROL Expiration]** 있습니다.
 
    ![](assets/email_rec_edit_3.png)
 
-   구성은 예약 활동과 동일합니다. 만료를 [참조하십시오](../../workflow/using/executing-a-workflow.md#expirations).
+   구성은 예약 활동과 동일합니다. 만료를 [참조하십시오](../../workflow/using/defining-approvals.md).
 
