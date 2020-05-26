@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9773e8ae39133968e4e167d11715c123e00d22c2
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
 workflow-type: tm+mt
 source-wordcount: '3227'
 ht-degree: 0%
@@ -457,7 +457,7 @@ SMS의 내용을 만들려면 아래 단계를 수행하십시오.
 
    >[!NOTE]
    >
-   >Latin-1(ISO-8859-1) 코드 페이지가 사용되는 경우 SMS 메시지 길이는 160자로 제한됩니다. 유니코드로 작성된 메시지는 70자를 초과할 수 없습니다. 특정 특수 문자는 메시지 길이에 영향을 줄 수 있습니다. 메시지 길이에 대한 자세한 내용은 문자 [리터레이션 정보 섹션을 참조하십시오](#about-character-transliteration) .
+   >Latin-1(ISO-8859-1) 코드 페이지가 사용되는 경우 SMS 메시지 길이는 160자로 제한됩니다. 유니코드로 작성된 메시지는 70자를 초과할 수 없습니다. 특정 특수 문자는 메시지 길이에 영향을 줄 수 있습니다. 메시지 길이에 대한 자세한 내용은 문자 [리터럴을 참조하십시오](#about-character-transliteration) .
    >
    >개인화 필드 또는 조건부 컨텐츠 필드가 있으면 메시지 크기가 받는 사람마다 다릅니다. 개인화가 수행되면 메시지 길이를 평가해야 합니다.
    >
@@ -538,7 +538,7 @@ nlserver sms **모듈은 SMS** 라우터를 정기적으로 쿼리합니다. 이
 
 * **구독 취소**: SMS 전달 수신을 중지하려는 수신자는 STOP이라는 단어가 포함된 메시지를 반환할 수 있습니다. 공급자가 계약 약관에 따라 메시지를 허용하는 경우 **인바운드 SMS** 워크플로우 활동을 통해 메시지를 검색한 다음 쿼리를 만들어 관련 받는 사람에게 **더 이상 이 수신자** 에게 연락하지 않음 옵션을 활성화할 수 있습니다.
 
-   워크플로우 [가이드를](../../workflow/using/executing-a-workflow.md#architecture) 참조하십시오.
+   워크플로우 [가이드를](../../workflow/using/architecture.md) 참조하십시오.
 
 ## InSMS 스키마 {#insms-schema}
 
