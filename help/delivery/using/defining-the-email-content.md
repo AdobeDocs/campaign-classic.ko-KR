@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
+source-git-commit: cedcd9150c374116f187da7fd9e76bf81e978e2a
 workflow-type: tm+mt
-source-wordcount: '2800'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -180,17 +180,21 @@ HTML 형식 이메일 배달에는 이미지가 포함될 수 있습니다. 배�
 
 ![](assets/s_ncs_user_image_from_library.png)
 
-받는 사람이 받는 메시지에 포함된 이미지를 볼 수 있도록 외부 서버에서 액세스할 수 있어야 합니다.
+>[!IMPORTANT]
+>
+>받는 사람이 받는 메시지에 포함된 이미지를 볼 수 있도록 외부 서버에서 액세스할 수 있어야 합니다.
 
-배달 마법사를 통해 이미지를 관리하려면 도구 모음에서 **[!UICONTROL Tracking & Images]** 아이콘을 클릭해야 합니다.
+전달 마법사를 통해 이미지를 관리하려면
 
-![](assets/s_ncs_user_email_del_img_param.png)
+1. 도구 모음에서 **[!UICONTROL Tracking & Images]** 아이콘을 클릭합니다.
+   ![](assets/s_ncs_user_email_del_img_param.png)
 
-탭 **[!UICONTROL Upload images]** 에서 **[!UICONTROL Images]** 선택합니다. 그런 다음 이메일 메시지에 이미지를 포함할지 여부를 선택할 수 있습니다.
+1. 탭 **[!UICONTROL Upload images]** 에서 **[!UICONTROL Images]** 선택합니다.
+1. 그런 다음 이메일 메시지에 이미지를 포함할지 여부를 선택할 수 있습니다.
 
 ![](assets/s_ncs_user_email_del_img_upload.png)
 
-* 전달 분석 단계를 기다리지 않고 수동으로 이미지를 업로드할 수 있습니다. 이렇게 하려면 **[!UICONTROL Upload images now]** 링크를 클릭합니다.
+* 전달 분석 단계를 기다리지 않고 수동으로 이미지를 업로드할 수 있습니다. 이렇게 하려면 **[!UICONTROL Upload the images straightaway...]** 링크를 클릭합니다.
 * 추적 서버의 이미지에 액세스하기 위한 다른 경로를 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Image URL]** 필드에 입력합니다. 이 값은 설치 마법사의 매개 변수에 정의된 값을 무시합니다.
 
 전달 마법사에서 포함된 이미지가 포함된 HTML 컨텐츠를 열면 전달 매개 변수에 따라 이미지를 즉시 업로드할 수 있는 메시지가 표시됩니다.
@@ -201,7 +205,7 @@ HTML 형식 이메일 배달에는 이미지가 포함될 수 있습니다. 배�
 >
 >이미지 액세스 경로는 수동으로 업로드하거나 메시지를 전송할 때 수정됩니다.
 
-**예: 이미지가 포함된 메시지 보내기{#example--sending-a-message-with-images}**
+### 예: 이미지가 포함된 메시지 보내기 {#example--sending-a-message-with-images}
 
 다음은 4개의 이미지가 포함된 배달에 대한 샘플입니다.
 
@@ -369,7 +373,7 @@ Adobe Campaign을 사용하면 메시지 형식이 일본어 모바일로 전송
 
 이러한 분류 규칙을 사용하면 이메일의 전체 크기, HTML 및 텍스트 섹션의 크기, 메시지 내의 이미지 수 및 HTML 컨텐츠의 태그와 관련하여, 특히 일본 연산자가 정의하는 [형식 제약](#limitations-and-recommendations) 조건을 배달에 반영하도록 할 수 있습니다.
 
-#### 증명 전송 {#sending-proofs}
+#### 교정본 보내기 {#sending-proofs}
 
 교정을 테스트하기 위해 교정을 보낼 수 있습니다. 증명을 보낼 때 대체 주소를 사용하는 경우 사용되는 프로필의 이메일 형식에 해당하는 주소를 입력하십시오.
 
