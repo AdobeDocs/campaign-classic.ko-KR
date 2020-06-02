@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5d8959dc790c0cf0e6ea62122310bfbee5bcc0dd
+source-git-commit: e2ba309643a10a2bfdb031b3ee0acd90c3d02fc0
 workflow-type: tm+mt
 source-wordcount: '6477'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -118,7 +118,7 @@ Campaign **Classic 기능 매트릭스** 페이지가 업데이트되었습니�
 
 새 **[!UICONTROL Cleanup of Nmsaddress]** 워크플로우는 [여기에](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress)문서화되었습니다.
 
-워크플로우에서 쿼리 활동을 사용할 때 제한이 추가되었습니다. [자세한](../../workflow/using/query.md)내용
+워크플로우에서 쿼리 활동을 사용할 때 제한이 추가되었습니다. [자세한 내용](../../workflow/using/query.md)
 
 소프트 오류가 발생하는 경우 격리할 주소를 보내기 위해 향상된 이메일 주소 유효성 검사 규칙을 자세히 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
@@ -170,7 +170,7 @@ TLS(안전한 SMS 메시지) - [자세한 내용](https://helpx.adobe.com/campai
 
 이제 Adobe Campaign 향상된 MTA 설명서를 사용할 수 있습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
-캠페인 내의 &quot;가능한 한 빨리 시작&quot; 상태에 있는 워크플로우 문제 해결 방법에 대한 새 섹션이 추가되었습니다. [자세한 내용](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
+캠페인 내의 &quot;가능한 한 빨리 시작&quot; 상태에 있는 워크플로우 문제 해결 방법에 대한 새 섹션이 추가되었습니다. [Read more](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
 새로운 &quot;NmsOperation_DeliveryPreparationWindow&quot; 및 &quot;WdbcKillSessionPolicy&quot; 옵션이 캠페인 옵션 목록에 추가되었습니다. [자세한 내용](../../installation/using/configuring-campaign-options.md)
 
@@ -178,11 +178,11 @@ TLS(안전한 SMS 메시지) - [자세한 내용](https://helpx.adobe.com/campai
 
 전달 속성의 새로운 **최대 개인화 실행 시간** 옵션이 이 [섹션에 설명되어 있습니다](../../delivery/using/personalization-fields.md#timing-out-personalization).
 
-logon() 및 query()와 함께 **HttpServletRequest** 를 사용하는 API 호출에 대한 예가 업데이트되었습니다. [자세한](../../configuration/using/web-service-calls.md)내용
+logon() 및 query()와 함께 **HttpServletRequest** 를 사용하는 API 호출에 대한 예가 업데이트되었습니다. [자세한 내용](../../configuration/using/web-service-calls.md)
 
-스키마 정의에 **sqlDefault** 특성에 대한 권장 사항이 추가되었습니다. [자세한](../../configuration/using/elements-and-attributes.md#attribute-description)내용
+스키마 정의에 **sqlDefault** 특성에 대한 권장 사항이 추가되었습니다. [자세한 내용](../../configuration/using/elements-and-attributes.md#attribute-description)
 
-Adobe Campaign과 Adobe 실시간 고객 데이터 플랫폼 간의 통합이 이제 Adobe Experience Cloud와 통합 **안내서에서** 확인됩니다. [자세한](../../integrations/using/about-campaign-integrations.md)내용
+Adobe Campaign과 Adobe 실시간 고객 데이터 플랫폼 간의 통합이 이제 Adobe Experience Cloud와 통합 **안내서에서** 확인됩니다. [자세한 내용](../../integrations/using/about-campaign-integrations.md)
 
 ## 2019년 11월 {#november-2019}
 
@@ -204,7 +204,7 @@ Campaign Standard 및 Campaign Classic에 대한 오류 메시지 목록이 업�
 
 GDPR 시작 가이드가 향상되어 더욱 풍부해졌습니다. 이제 GDPR 및 CPA를 비롯한 개인 정보 관리 문서입니다. [자세한 내용](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
-Campaign Classic에서 추적을 위해 새 문제 해결 페이지가 추가되었습니다. [자세한](https://helpx.adobe.com/campaign/kb/classic-tracking-troubleshooting.html)내용
+Campaign Classic에서 추적을 위해 새 문제 해결 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/classic-tracking-troubleshooting.html)
 
 Adobe Analytics 데이터 커넥터에 대한 새 우수 사례 페이지가 추가되었습니다. [Adobe Analytics 데이터 커넥터에 대한 자세한 내용](../../platform/using/adobe-analytics-data-connector.md)
 
@@ -220,9 +220,9 @@ Adobe Analytics 데이터 커넥터에 대한 새 우수 사례 페이지가 추
 
 Campaign Classic 유지 관리를 위한 일반적인 지침을 제공하기 위해 새 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)
 
-워크플로우 모니터링과 관련된 정보는 새로운 전용 섹션에 중앙 집중화되었습니다. [자세한](../../workflow/using/monitoring-workflow-execution.md)내용
+워크플로우 모니터링과 관련된 정보는 새로운 전용 섹션에 중앙 집중화되었습니다. [자세한 내용](../../workflow/using/monitoring-workflow-execution.md)
 
-Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이지가 추가되었습니다. [자세한](https://helpx.adobe.com/campaign/kb/acc-tracking.html)내용
+Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-tracking.html)
 
 워크플로우 및 게재 성능 향상에 대한 우수 사례가 업데이트되었습니다. [게재에 대한 자세한 내용](../../workflow/using/workflow-best-practices.md) 및 [자세한 내용을 살펴볼 수 있습니다](../../delivery/using/monitoring-a-delivery.md#best-practices-performance).
 
@@ -534,7 +534,7 @@ Oracle과 표준 시간대 파일 정렬에 대한 정보가 추가되었습니�
 즉시 사용 가능한 개인화 블록에 대한 새로운 정보로 &quot;개인화 블록&quot; 섹션을 재구성합니다.
 [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Personalizing_deliveries_Personalization_blocks.html)
 
-파일 구성에 대한 새 정보로 이메일 보관 섹션을 ```config-<instance name>.xml``` 재구성합니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Activating_email_archiving__on_premise_)
+파일 구성에 대한 새 정보로 이메일 보관 섹션을 다시 ```config-<instance name>.xml``` 정리했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Activating_email_archiving__on_premise_)
 
 메시지 센터(제어) 기술 워크플로우에 대한 정보가 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Technical_workflows_Message_Center__Control_.html)
 
@@ -596,21 +596,21 @@ A/B 테스트 샘플이 누락된 명령으로 업데이트되었습니다. [자
 
 워크플로우에서 데이터를 내보낼 때 파일을 가져올 때 및 사후 처리에 대한 새 절차입니다. 여기 [에서](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html)읽으세요
 
-확장 일반 SMPP 커넥터에 대한 오류 관리 특성을 반영하도록 SMS 메시지 문서에 대한 격리 메커니즘이 업데이트되었습니다. [자세한](https://docs.campaign.adobe.com/doc/AC/en/DLV_Monitoring_deliveries_Understanding_quarantine_management.html#SMS_quarantines)내용
+확장 일반 SMPP 커넥터에 대한 오류 관리 특성을 반영하도록 SMS 메시지 문서에 대한 격리 메커니즘이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Monitoring_deliveries_Understanding_quarantine_management.html#SMS_quarantines)
 
-Android에서 풍부한 알림을 전송하는 세부 절차를 통해 모바일 앱 채널 문서가 향상되었습니다. [자세한](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_push_notifications_Setting_up_mobile_app_channel.html#Rich_notifications)내용
+Android에서 풍부한 알림을 전송하는 세부 절차를 통해 모바일 앱 채널 문서가 향상되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_push_notifications_Setting_up_mobile_app_channel.html#Rich_notifications)
 
-받은 편지함 렌더링 설명서가 업데이트되었습니다. [자세한](https://docs.campaign.adobe.com/doc/AC/en/DLV_Deliverability_management_Inbox_rendering.html)내용
+받은 편지함 렌더링 설명서가 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Deliverability_management_Inbox_rendering.html)
 
-웹 추적 설정 설명서가 업데이트된 예와 참고로 개선되었습니다. [자세한](https://docs.campaign.adobe.com/doc/AC/en/CFG_Setting_up_web_tracking_Additional_parameters.html#Redirection_server_configuration)내용
+웹 추적 설정 설명서가 업데이트된 예와 참고로 개선되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/CFG_Setting_up_web_tracking_Additional_parameters.html#Redirection_server_configuration)
 
-SMS 채널 설명서는 확장된 일반 SMPP 커넥터에 적용되는 자동 회신 섹션에 몇 가지 명확히 추가되어 업데이트되었습니다. [자세한](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_messages_on_mobiles_SMS_channel.html#Creating_an_SMPP_external_account)내용
+SMS 채널 설명서는 확장된 일반 SMPP 커넥터에 적용되는 자동 회신 섹션에 몇 가지 명확히 추가되어 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_messages_on_mobiles_SMS_channel.html#Creating_an_SMPP_external_account)
 
-Social 마케팅 설명서가 업데이트되었습니다. [자세한](../../social/using/about-social-marketing.md)내용
+Social 마케팅 설명서가 업데이트되었습니다. [자세한 내용](../../social/using/about-social-marketing.md)
 
-IP 온난화에 대한 새로운 기술이 추가되었습니다. [자세한](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_IP_Warming_overview.pdf)내용
+IP 온난화에 대한 새로운 기술이 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_IP_Warming_overview.pdf)
 
-빌드 업그레이드를 시작하는 새 버전이 추가되었습니다. [자세한](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)내용
+빌드 업그레이드를 시작하는 새 버전이 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
 
 ## 2017년 5월{#release-doc-30-05-2017}
 
