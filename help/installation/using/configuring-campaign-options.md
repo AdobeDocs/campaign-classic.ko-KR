@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a976144d70b113d1358b0514a3e805d79e11484a
+source-git-commit: 5b6b4fd2b21f90a88744736b499eab1b0764774e
 workflow-type: tm+mt
 source-wordcount: '3740'
 ht-degree: 0%
@@ -60,6 +60,13 @@ ht-degree: 0%
    <td> 받은 편지함 렌더링에 테스트 주소를 사용할 스키마 목록입니다. (요소 이름은 쉼표로 구분됨) 예: custom_nms_recipient.<br /> </td> 
   </tr> 
   <tr> 
+   <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
+   <td><p> 전달 속성에서 배달을 시작하기 위해 특정 연산자 또는 연산자 그룹이 지정된 경우 배달을 담당하는 연산자가 전송을 확인하도록 허용할 수 있습니다.</p><p> 이렇게 하려면 "1"을 값으로 입력하여 옵션을 활성화합니다. 이 옵션을 비활성화하려면 "0"을 입력합니다.</p><p> 그러면 전송 확인 프로세스가 기본값으로 작동합니다. 전송 속성에서 전송을 위해 지정된 연산자 또는 그룹(또는 관리자)만 전송을 확인하고 수행할 수 있습니다. 이 <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">섹션을 참조하십시오</a>.</p> </td> 
+   <tr> 
+   <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
+   <td> Adobe Campaign은 "Nms_DefaultRcpSchema" 전역 변수를 사용하여 기본 수신자 데이터베이스(nms:recipient)와 대화 상자를 엽니다.<br /> 옵션 값은 외부 받는 사람 테이블과 일치하는 스키마의 이름에 일치해야 합니다.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> <span class="uicontrol">NmsBilling_MainActionThreshold</span> <br /> </td> 
    <td> 납품이 청구 보고서에서 기본 수신자로 간주되기 위한 최소 수신자 수입니다.<br /> </td> 
   </tr> 
@@ -94,10 +101,6 @@ ht-degree: 0%
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_RemoveDuplicatesRecipients</span> <br /> </td> 
    <td> "1"을 값으로 입력하면 두 개의 단어를 자동으로 무시할 수 있습니다.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
-   <td> Adobe Campaign은 "Nms_DefaultRcpSchema" 전역 변수를 사용하여 기본 수신자 데이터베이스(nms:recipient)와 대화 상자를 엽니다.<br /> 옵션 값은 외부 받는 사람 테이블과 일치하는 스키마의 이름에 일치해야 합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ErrorAddressMasks</span> <br /> </td> 
@@ -164,6 +167,10 @@ ht-degree: 0%
    <td> 허용되는 전달 이메일 주소 목록(인바운드 메일 처리 모듈에서). 주소는 쉼표로 구분해야 합니다(또는 *로 모두 허용). 예: xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
+   <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
+   <td> URL(LINE 채널)을 인코딩하기 위해 'lineImage' 서블릿에 사용된 AES 키<br /> </td> 
+  </tr> 
+  <tr> 
    <td> <span class="uicontrol">NmsNPAI_EmailMaxError</span> <br /> </td> 
    <td> 채널 "이메일"에서(기본값으로 사용): 받는 사람을 격리하기 전에 보내는 동안 SOFT 오류가 발생하는 경우에 허용되는 최대 오류 수입니다.<br /> </td> 
   </tr> 
@@ -180,9 +187,21 @@ ht-degree: 0%
    <td> 채널 "모바일"에서: 새로운 SOFT 오류를 계산하기 전에 이전에 참조된 SOFT 오류 이후 최소한의 체류 기간이 발생했습니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
-   <td> 미러 페이지 서버의 URL(기본적으로 NmsTracking_ServerUrl과 동일해야 함).<br /> 라우팅 정의에 URL이 지정되지 않은 경우 이메일 배달의 기본값입니다.<br /> </td> 
+   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
+   <td> 동기화 워크플로가 실행될 때마다 복구되는 브로드로그의 수를 제한하도록 최대 기간(시간 단위)을 지정할 수 있습니다.</a>.<br /> </td> 
   </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
+   <td> MidSourcing 세션의 최대 호출 수입니다. 이 호출은 병행하여(기본적으로 3개) 실행할 수 있습니다.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
+   <td> 배달을 '지연'으로 간주하는 사용자 지정 지연(분)은 기본값인 30분입니다.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
+   <td><p>이 옵션은 실행 중인 배달 수를 계산할 때 <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> 기술 워크플로우에서 사용됩니다.</p>이를 통해 일관되지 않은 상태의 배달이 실행 중인 배달 수에서 제외되는 상기의 일 수를 정의할 수 있습니다.</p><p>기본적으로 이 값은 "7"로 설정되어 있으므로 7일 이전의 일관성 없는 배달이 제외됩니다.</p></td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
    <td> 보낸 사람 주소의 1번째 줄입니다.<br /> </td> 
@@ -203,10 +222,10 @@ ht-degree: 0%
    <td> <span class="uicontrol">NmsPaper_SenderLine7</span> <br /> </td> 
    <td> 보낸 사람 주소의 7번째 줄입니다.<br /> </td> 
   </tr>
-    <tr> 
-   <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>이 옵션은 실행 중인 배달 수를 계산할 때 <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> 기술 워크플로우에서 사용됩니다.</p>이를 통해 일관되지 않은 상태의 배달이 실행 중인 배달 수에서 제외되는 상기의 일 수를 정의할 수 있습니다.</p><p>기본적으로 이 값은 "7"로 설정되어 있으므로 7일 이전의 일관성 없는 배달이 제외됩니다.</p></td> 
-  </tr>
+  <tr> 
+   <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
+   <td> 미러 페이지 서버의 URL(기본적으로 NmsTracking_ServerUrl과 동일해야 함).<br /> 라우팅 정의에 URL이 지정되지 않은 경우 이메일 배달의 기본값입니다.<br /> </td> 
+  </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
    <td> 전송된 SMS 메시지의 매개 변수: 메시지 우선 순위를 나타내기 위해 SMS 게이트웨이로 전송되는 정보입니다.<br /> </td> 
@@ -220,51 +239,33 @@ ht-degree: 0%
    <td> SMS 메시지 재시도가 수행되는 기간입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkEmail_Characters</span> <br /> </td> 
-   <td> 이메일 주소의 유효한 문자<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
-   <td> 동기화 워크플로가 실행될 때마다 복구되는 브로드로그의 수를 제한하도록 최대 기간(시간 단위)을 지정할 수 있습니다.</a>.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
-   <td> MidSourcing 세션의 최대 호출 수입니다. 이 호출은 병행하여(기본적으로 3개) 실행할 수 있습니다.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> 전달 속성에서 배달을 시작하기 위해 특정 연산자 또는 연산자 그룹이 지정된 경우 배달을 담당하는 연산자가 전송을 확인하도록 허용할 수 있습니다.</p><p> 이렇게 하려면 "1"을 값으로 입력하여 옵션을 활성화합니다. 이 옵션을 비활성화하려면 "0"을 입력합니다.</p><p> 그러면 전송 확인 프로세스가 기본값으로 작동합니다. 전송 속성에서 전송을 위해 지정된 연산자 또는 그룹(또는 관리자)만 전송을 확인하고 수행할 수 있습니다. 이 <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">섹션을 참조하십시오</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
-   <td> 배달을 '지연'으로 간주하는 사용자 지정 지연(분)은 기본값인 30분입니다.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">XtkBarcode_SpecialChar</span> <br /> </td> 
-   <td> Code128용 특수 문자 지원을 활성화/비활성화합니다.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
-   <td> URL(LINE 채널)을 인코딩하기 위해 'lineImage' 서블릿에 사용된 AES 키<br /> </td> 
+   <td> <span class="uicontrol">NmsUserAgentStats_LastConsolidation</span> <br /> </td> 
+   <td> NmsUserAgent <span class="uicontrol">통계에 대한 마지막 통합</span> 날짜입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsWebSegments_LastStates</span> <br /> </td> 
    <td> 웹 세그먼트 및 해당 상태를 포함하는 옵션의 이름입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsUserAgentStats_LastConsolidation</span> <br /> </td> 
-   <td> NmsUserAgent <span class="uicontrol">통계에 대한 마지막 통합</span> 날짜입니다.<br /> </td> 
+   <td> <span class="uicontrol">XtkBarcode_SpecialChar</span> <br /> </td> 
+   <td> Code128용 특수 문자 지원을 활성화/비활성화합니다.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">XtkEmail_Characters</span> <br /> </td> 
+   <td> 이메일 주소의 유효한 문자<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Restrict_EditXML</span> </td> 
    <td> "0" 값과 함께 이 옵션을 추가하여 배달 버전의 XML 코드를 사용할 수 없게 합니다(마우스 오른쪽 단추를 클릭/ <span class="uicontrol">XML 소스</span> 편집 또는 <span class="uicontrol">CTRL + F4</span> 단축키).<br /> </td> 
-  </tr> 
-  <!--<tr> 
+  </tr>  
+ </tbody> 
+</table>
+
+<!--<tr> 
    <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
    <td> BCC email address for Momentum to send a raw copy of the sent emails. <br /> </td> 
-  </tr> 
- </tbody> 
-</table>-->
+  </tr>
+-->
 
 ## 리소스 {#resources}
 
