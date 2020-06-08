@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
+source-git-commit: 1a9d4c9eadf996d37481f33636eae98e482ac115
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Adobe Campaign과의 통합을 활성화하기 위해 Windows에서 SpamCharacte
 
 1. 사용자 자격 증명을 [사용하여 엑스트라넷 포털에](http://support.neolane.net) 연결합니다.
 1. 다운로드 **센터로** 이동한 다음 페이지를 검색하여 **도구** 섹션을 찾습니다.
-1. 스팸 **암살자(Windows 설치)(1.0) 파일을** 다운로드합니다.
+1. Neolane **스팸 암살자(Windows 설치)(2.0)** 파일(neolane_spamasser.2.0.zip)을 다운로드합니다.
 1. 이 파일을 Adobe Campaign 서버에 복사한 다음 압축을 해제합니다.
 
    >[!NOTE]
