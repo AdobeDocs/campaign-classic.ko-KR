@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e2ba309643a10a2bfdb031b3ee0acd90c3d02fc0
+source-git-commit: 39b8f4af256c23744a2b6e5978964e4b3207aafb
 workflow-type: tm+mt
-source-wordcount: '6477'
-ht-degree: 7%
+source-wordcount: '6666'
+ht-degree: 8%
 
 ---
 
@@ -26,6 +26,38 @@ ht-degree: 7%
 이 페이지에는 월별 및 Campaign 릴리스의 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
 또한 [Adobe Campaign Classic 릴리스 정보에서](../../rn/using/latest-release.md) 더 많은 업데이트를 찾을 수 있습니다.
+
+## 20.2 - 08/06/2020{#release-20-2}
+
+**릴리스에 포함된 새로운 기능**
+
+이모티콘 지원 - [자세한 내용](../../delivery/using/customizing-emoticon-list.md)
+
+Azure Synapse FDA 커넥터 - [자세한 내용](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse)
+
+태국 및 브라질 개인정보 보호 법 - [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
+
+트랜잭션 메시지 템플릿의 게시를 취소할 수 있는 새 옵션이 이 섹션에[설명되어 있습니다](../../message-center/using/template-unpublication.md).
+
+개인화된 URL 및 첨부 파일에서 다운로드한 이미지가 포함된 이메일을 보낼 때 제한을 설정할 수 있는 새로운 옵션이 Campaign Classic 옵션 목록에 추가되었습니다. [자세한 내용](../../installation/using/configuring-campaign-options.md#delivery)
+
+데이터베이스의 **배달 부분 준비** 옵션은 [이 섹션에 설명되어 있습니다](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis).
+
+배달 유효성 확인 섹션이 명확하고 업데이트되었습니다. [자세한 내용](../../delivery/using/steps-validating-the-delivery.md)
+
+새로운 추적 링크 서명 메커니즘과 관련된 매개 변수가 [서버 구성 파일](../../installation/using/the-server-configuration-file.md) 섹션에 추가되었습니다.
+
+호환성 매트릭스가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+
+정리 워크플로우 섹션이 업데이트되었습니다. [자세한 내용](../../production/using/database-cleanup-workflow.md)
+
+캠페인 네트워크 끝점이 이 [섹션으로 이동되었습니다](../../installation/using/campaign-network-endpoints.md).
+
+스팸 암살자 설치 섹션이 새 설치 파일 이름으로 업데이트되었습니다. [자세한 내용](../../installation/using/configuring-spamassassin.md#installing-spamassassin)
+
+중복 환경에 대한 섹션이 업데이트되었습니다. [자세한 내용](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)
 
 
 ## 2020년 5월 {#may-2020}
@@ -297,7 +329,7 @@ Campaign Classic에서 사용할 수 있는 다른 외부 계정에 대한 정�
 
 기술 워크플로우 섹션이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Technical_workflows_About_technical_workflows.html)
 
-캠페인 도메인 이름 설정 절차가 개선되고 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
+캠페인 도메인 이름 설정 절차가 개선되고 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html)
 
 GCM(Google Cloud Messaging)에서 Firebase Cloud Messaging(FCM)으로의 Android 앱에 대한 마이그레이션 절차가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html)
 
