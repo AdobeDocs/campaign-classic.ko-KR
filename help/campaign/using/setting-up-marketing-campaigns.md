@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 1a139e1704a7df38a7b8088e23c972864f8ad998
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
@@ -145,11 +145,7 @@ ht-degree: 0%
 
 ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-예약 생성 마법사를 사용하여 모든 실행 날짜를 자동으로 채울 수 있습니다. 이렇게 하려면 표 위에 있는 **[!UICONTROL Complete the execution schedule...]** 링크를 클릭합니다.
-
-![](assets/s_ncs_user_op_template_recur_planning_wz.png)
-
-실행 일정의 구성 모드는 워크플로우의 **[!UICONTROL Scheduler]** 객체와 일치합니다. For more on this, refer to [this section](../../workflow/using/architecture.md).
+실행 일정의 구성 모드는 워크플로우의 **[!UICONTROL Scheduler]** 객체와 일치합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/architecture.md)을 참조하십시오.
 
 >[!IMPORTANT]
 >
