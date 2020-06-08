@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9923eb8cb78e7af05d64a122cd35b9cf3a4f215
+source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
 workflow-type: tm+mt
 source-wordcount: '1661'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Adobe Analytics와 Adobe Campaign 통합 구현에 대한 자세한 내용은 �
 
 1. 탭에서 **[!UICONTROL Admin]** 를 선택합니다 **[!UICONTROL Data Connectors]**.
 
-   메뉴에 액세스하려면 다음 Analytics 도구 권한이 있어야 **[!UICONTROL Data Connectors]** 합니다. 자세한 내용은 이 [페이지를 참조하십시오.](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)
+   메뉴에 액세스하려면 다음 Analytics 도구 권한이 있어야 **[!UICONTROL Data Connectors]** 합니다. For more on this, refer to this [page](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)
    * 통합(만들기)
    * 통합(업데이트)
    * 통합(삭제)
@@ -246,7 +246,7 @@ Adobe Campaign에서 배달을 보낸 후 Adobe Experience Cloud가 사이트에
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. 배달 속성을 엽니다.
-1. 탭으로 **[!UICONTROL Web Analytics]** 이동하여 이전에 만든 외부 계정을 선택합니다. 2단계를 [참조하십시오. Campaign에서 외부 계정 만들기](#step-2--create-the-external-account-in-campaign)).
+1. 탭으로 **[!UICONTROL Web Analytics]** 이동하여 이전에 만든 외부 계정을 선택합니다. 2단계를 [참조하십시오. Campaign에서 외부 계정을 만듭니다](#step-2--create-the-external-account-in-campaign).
 
    ![](assets/webanalytics_delivery_properties_002.png)
 
