@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 24a50fcaad4d9081e5504652eb5b73aa7db1e65f
+source-git-commit: 22d0e70f77eb3759632e05ab1cb0d8ee53adfac9
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,10 @@ ht-degree: 0%
 * 첨부가 트랜잭션과 연관된 경우(위에 설명된 예제 시나리오에서) 고객 프로세스 중에 생성된 동적 데이터가 포함될 수 있습니다.
 * PDF 파일을 첨부하면 암호화하여 HTTPS를 통해 전송할 수 있으므로 보안을 최적화할 수 있습니다.
 
+>[!NOTE]
+>
+>성능 문제를 방지하려면, 개인화된 URL에서 즉시 다운로드한 이미지를 첨부 파일로 포함하는 경우 각 이미지 크기는 기본적으로 100,000바이트를 초과할 수 없습니다. 이 권장 임계값은 Campaign Classic 옵션 목록 [에서 구성할 수 있습니다](../../installation/using/configuring-campaign-options.md#delivery).
+
 ## Recommendations {#important-notes}
 
 이 시나리오를 구현하기 전에 아래 지침을 주의 깊게 읽어 보십시오.
@@ -54,6 +58,10 @@ ht-degree: 0%
 * 트랜잭션 메시징 인스턴스의 디스크 공간을 사용하여 첨부 파일이 아닌 어떤 종류의 파일에도 파일을 저장하는 것은 계약상 정확하지 않습니다.
 * 이러한 파일을 호스팅하려면 다른 온라인 디스크 시스템을 사용해야 합니다. 이 시스템에 대한 FTP 액세스 권한이 필요하며 파일을 작성하고 삭제할 수 있어야 합니다.
 
+>[!NOTE]
+>
+>성능 문제를 방지하려면 이메일에 둘 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. 권장 임계값은 Campaign Classic 옵션 목록 [에서 구성할 수 있습니다](../../installation/using/configuring-campaign-options.md#delivery).
+
 ## 구현 {#implementation}
 
 아래 다이어그램은 이 시나리오를 구현할 때의 다양한 단계를 보여줍니다.
@@ -62,7 +70,7 @@ ht-degree: 0%
 
 트랜잭션 메시지에 즉각적으로 이메일 첨부 파일을 추가하려면 아래 단계를 따르십시오.
 
-1. 먼저 첨부 파일을 디자인합니다. 자세한 내용은 [이 섹션을 참조하십시오](../../delivery/using/attaching-files.md#attach-a-personalized-file).
+1. 먼저 첨부 파일을 디자인합니다. For more on this, see [this section](../../delivery/using/attaching-files.md#attach-a-personalized-file).
 
    따라서 실행 인스턴스에서 호스팅되지 않더라도 이메일에 파일을 첨부할 수 있습니다.
 
