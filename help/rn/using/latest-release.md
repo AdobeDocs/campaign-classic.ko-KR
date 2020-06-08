@@ -13,17 +13,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e329ee546a3990850daeb7a46ee9de77fd075ff1
+source-git-commit: cb55216e75559e1ce7eefa24d2302fe2c2224d40
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 0%
+source-wordcount: '1739'
+ht-degree: 1%
 
 ---
 
 
 # 최신 릴리스{#latest-release}
 
-[업그레이드 구축](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스](../../rn/using/release--19-2.md) | [사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[업그레이드 구축](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스](../../rn/using/release--20-1.md) | [사용되지 않는 기능](../../rn/using/deprecated-features.md)
 
 <table> 
  <tbody> 
@@ -44,34 +44,22 @@ ht-degree: 0%
 
 마지막 **안정적인 빌드는** 9032(3a9dc9c)입니다. 여기를 [클릭하십시오](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/do-not-localize/blue_2.png) 릴리스 20.1.3 - 빌드 9124 {#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/blue_2.png) 릴리스 20.2.1 - 빌드 9178 {#release-20-2-1-build-9178}
 
-_2020년 5월 6일_
-
-* SFTP 키 기반 인증이 Debian 9에서 작동하지 않는 **파일 전송** 활동 문제를 해결했습니다. (NEO-23183)
-
-## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1.2 - 빌드 9123 {#release-20-1-2-build-9123}
-
-_2020년 3월 13일_
-
-* Red Hat 7 서버에 버전을 배포하지 못했던 문제를 수정했습니다. (NEO-23332)
-
-## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1 - Build 9122 {#release-20-1-build-9122}
-
-_2020년 2월 17일_
+_2020년 6월 8일_
 
 **새로운 기능?**
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Snowflake FDA Connector</strong><br /> </th> 
+   <th> <strong>이모티콘 지원</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Snowflake는 스토리지 및 컴퓨팅 수준 모두에서 확장할 수 있도록 구축된 완벽하게 관리되는 클라우드 데이터 웨어하우스입니다. Adobe Campaign은 이 새로운 커넥터를 사용하여 Snowflake의 강력한 기능을 활용하여 빅데이터 세그먼테이션을 수행할 수 있습니다. 이 커넥터는 Adobe에서 호스팅하는 모든 고객을 대상으로 제공됩니다.</p>
-    <p>자세한 내용은 <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">자습서 비디오를 참조하십시오</a>.</p>
+   <td> <p>Campaign에서 메시지를 디자인할 때 이제 전용 단추를 사용하여 메시지 본문에 이모티콘을 쉽게 삽입할 수 있습니다. 이메일 제목 줄에도 추가할 수 있습니다. 인터페이스에서 사용 가능한 이모티콘 목록을 사용자 정의할 수 있습니다.</p>
+    <p>이모티콘 추가에 대한 자세한 내용은 <a href="../../delivery/using/defining-the-email-content.md#inserting-emoticons">자세한 설명서를 참조하십시오</a>. 이 섹션에서 이모티콘 목록 <a href="../../delivery/using/customizing-emoticon-list.md">을 사용자 지정하는 방법을 알아봅니다</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -80,13 +68,33 @@ _2020년 2월 17일_
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Hadoop FDA 커넥터 개선 사항</strong><br /> </th> 
+   <th> <strong>Azure Synapse FDA 커넥터</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Hadoop FDA 커넥터가 Clou데라 및 Hadoop 3.0을 지원하도록 개선되었습니다.</p>
-    <p>자세한 내용은 <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">자세한 설명서를 참조하십시오</a>.</p>
+   <td> <p>이제 캠페인 인스턴스를 Azure Synapse 외부 데이터베이스에 연결할 수 있습니다. 이 연결은 새 외부 계정을 통해 관리됩니다.</p>
+    <p>Azure 시냅스는 하이브리드 및 온-프레미스 환경에서만 사용할 수 있습니다. 자세한 내용은 <a href="../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse">세부 설명서</a>를 참조하십시오.</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>태국 및 브라질 개인정보 보호 법</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>태국 개인정보 보호법(PDPA)은 태국에 대한 데이터 보호 요구 사항을 통합하고 현대화한 새로운 개인 정보 보호법입니다. </p>
+   <p>브라질의 레이제랄 드 프로테카앙 데 도도스(LGPD)는 8월 16일부터 브라질의 개인 데이터를 수집하거나 처리하는 모든 회사에 대해 효력을 발휘한다.</p>
+   <p>이러한 규정은 해당 국가에 있는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다. Adobe는 Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보존 설정 및 사용자 역할 포함) 이외에도 다음과 같은 추가 기능을 추가하여 PDPA 및 LGPD에 대한 귀하의 준비를 도울 수 있습니다.</p>
+   <ul> 
+     <li><p>액세스 권한 및 삭제 권한: 우리는 GDPR 및 CPA에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">자세한 내용</a></p></li> 
+     <li> <p>캠페인 인터페이스 또는 API를 사용하여 개인 정보 요청을 만들 때 이제 <strong>규정</strong> 유형을 선택합니다. PDPA, LGPD, GDPR, CPA. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests">자세한 내용</a></p></li>
+    </ul>
    </td> 
   </tr> 
  </tbody> 
@@ -94,132 +102,159 @@ _2020년 2월 17일_
 
 **향상된 보안 기능**
 
-* 클릭재킹으로부터 보호하기 위해 보고서 구성의 보안이 개선되었습니다. 이는 새 보고서에 적용됩니다. 이전 보고서의 경우 변경 사항을 적용하려면 다시 게시해야 합니다. (NEO-13282)
+* 이메일 링크 추적에 대한 보안 기능이 모든 고객에 대해 기본적으로 활성화되어 있습니다. 고객 지원 센터에 연락하여 활성화할 수 있는 향상된 추가 보안 기능을 사용할 수 있습니다. 호스팅되지 않은 고객이 이 기능을 사용하도록 설정하는 기능 및 단계에 대한 자세한 내용은 [보안 및 개인 정보 확인 목록에서 확인할 수 있습니다](https://helpx.adobe.com/campaign/kb/acc-security.html). (NEO-24232)
 
-* cryptString의 작은 메모리 문제를 해결합니다. (NEO-20071)
+* 보안을 최적화하기 위해 파일 이름을 생성하는 데 사용되는 MD5 해싱 알고리즘이 공개 파일 업로드를 위해 sha256으로 보강되었습니다. (NEO-17044)
 
-* 내부 IP 노출 문제를 해결하기 위해 모니터 JSP가 개선되었습니다. (NEO-16821)
+* XSS 공격에 대한 보안을 강화하려면 미러 페이지를 실행할 때 클라이언트측 스크립트가 비활성화됩니다. (NEO-17987)
 
-* 관리자가 아닌 사용자에게 스택 추적 정보를 표시할 수 있는 문제가 해결되었습니다. (NEO-12388)
+* 개인 정보 요청 정리 **기술 워크플로우가 조정 데이터를 삭제하지** 못하는 문제를 해결했습니다. (NEO-25168, NEO-21004)
 
-* 이전 세션에서 캐시된 데이터의 관리를 개선했습니다. (NEO-17039)
+* SFTP 키 기반 인증이 Debian 9에서 작동하지 않는 **파일 전송** 활동 문제를 해결했습니다. (NEO-23183)
 
-* logins.log 파일이 IMS를 통해 성공적인 로그인 시도를 기록하지 못하는 문제를 해결했습니다. (NEO-11004)
+**향상된 호환성**
+
+이제 다음 시스템이 Campaign에서 지원됩니다.
+* 운영 체제: 데비안 10
+* RDBMS: Oracle 18c 및 Oracle 19c
+* FDA: Azure 구문 분석
+
+자세한 내용은 [캠페인 호환성 매트릭스를 참조하십시오](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
 **향상된 기능**
 
-* iOS 13은 이제 HTTP2 커넥터에서 지원됩니다.
+* 트랜잭션 메시지 기능이 개선되어 사용자 경험이 향상되었습니다. 이제 실행 인스턴스에서 삭제되는 트랜잭션 메시지 템플릿을 게시 취소할 수 있습니다. [자세한](../../message-center/using/template-unpublication.md)내용
 
-* 푸시 알림 기능(nms:address 및 nms:appSubscriptionRcp)에서 사용하는 테이블의 정리 및 격리 관리가 개선되었습니다. iOS(HTTP2 커넥터 전용)의 경우, 비활성화된 토큰은 이제 Android의 경우와 동일한 방식으로 처리됩니다. 이제 NmsAppSubscriptionRcp 테이블에서 비활성화 플래그가 설정됩니다. [자세한 내용](../../production/using/database-cleanup-workflow.md#subscription-cleanup--nmac-)
+* 이미지나 첨부 파일이 포함된 이메일을 보낼 때 제한을 설정하는 새로운 옵션을 사용할 수 있습니다. 이러한 경고는 성능 문제를 방지할 수 있으며 이는 트랜잭션 메시징에서 특히 유용합니다. [자세한 내용](../../installation/using/configuring-campaign-options.md#delivery)
 
-* 시간 초과 기간을 정의하는 새 옵션이 **JavaScript 코드** 및 **고급 JavaScript 코드** 워크플로우 활동에 추가되었습니다. 이로 인해 javascript 실행 단계가 너무 오랫동안 실행되지 않습니다. 제한 시간이 경과하면 워크플로우가 중지됩니다. 기본 제한 시간은 1시간입니다. [자세한 내용](../../workflow/using/sql-code-and-javascript-code.md)
+* 새로운 **데이터베이스** 제공 부분 준비 옵션을 사용하면 데이터베이스 내에서 직접 배달 준비를 수행할 수 있으므로 분석 시간을 크게 단축할 수 있습니다. 이 옵션은 특정 구성에만 사용할 수 있습니다. [자세한](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis)내용 (NEO-23886)
 
-* 이제 중간 소싱 서버에서 일치하는 관련성이 없으면 배달 분석이 중지되고 해당 오류 메시지가 표시됩니다.
+* Microsoft Dynamics용 [CRM 커넥터 작업](../../workflow/using/crm-connector.md) 성능이 향상되었습니다. (NEO-13303, NEO-12710)
 
-* 이제 게시물용 데이터베이스 장애 조치(failover)가 지원됩니다. 이제 데이터베이스 서버가 충돌하고 다시 시작하면 Campaign이 자동으로 다시 연결됩니다.
+* 공유 메모리 버전이 증가했습니다.
 
-* [ **시작 보류** 중] 보기가 [관리] > [감사] > [워크플로우 상태] 노드에 추가되었습니다. 이렇게 하면 **operationMgt 프로세스에 의해 시작될 때까지 대기 중인 인스턴스의 모든 워크플로우를 모니터링할 수** 있습니다. 이 보기는 마케팅 캠페인 패키지와 함께 제공됩니다. [자세한 내용](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+   >[!WARNING]
+   >
+   >이 개선 사항은 업그레이드를 수행한 후 추가 단계가 필요합니다. 아래의 **기술 발전** 섹션을 참조하십시오.
+
+* 정리 워크플로우가 향상되었습니다. 이제 삭제된 모든 워크플로우의 고아 작업 테이블도 정리 워크플로우에 의해 자동으로 삭제됩니다. [자세한](../../production/using/database-cleanup-workflow.md#cleanup-of-workflow-instances)내용
+
+* 이제 푸시 알림을 전송하기 전에 iOS HTTP2 커넥터를 사용하는 iOS 모바일 응용 프로그램에 대한 인증서의 유효성을 검사하여 인증서 만료로 인해 배달이 실패하지 못하도록 합니다.
+
+* HTTP 프록시 연결 관리가 향상되었습니다. [자세한](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)내용
 
 **기타 변경 사항**
 
-* Linux에서 서버 서비스 시작 시 /etc/init.d/nlserver6 스크립트 대신 시스템 장치를 사용합니다. 20.1 패키지를 설치할 때 새 시작 구성표에 대한 마이그레이션이 자동으로 수행됩니다. /etc/init.d/nlserver6는 여전히 제공되지만, nlserver 서비스와의 상호 작용(시작, 다시 시작, 중지 등)을 위해 systemctl 명령을 직접 사용하는 것이 좋습니다.
+* 기존 SMS 커넥터는 이제 더 이상 사용되지 않습니다. 더 이상 사용되지 않는 [기능 페이지를 참조하십시오](../../rn/using/deprecated-features.md).
 
-* 가장 많이 사용되는 사용자 지정 테이블이 xtkNewId **시퀀스에서 전용 시퀀스로** 이동되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* 더 이상 자체 리트머스 계정을 사용하여 Adobe Campaign에서 받은 편지함 렌더링을 준비하고 사용할 수 없습니다. [자세한](../../delivery/using/inbox-rendering.md)내용
 
-* 불필요한 데이터베이스 연결의 영향을 받을 수 있는 쿼리 성능이 개선되었습니다.
+* 뷰를 폴더와 구분하기 위해 뷰 이름의 색상이 짙은 파란색에서 어두운 청록색으로 변경되었습니다. [자세한 내용](../../platform/using/access-management.md#about-views)
 
-* 데이터베이스 업데이트 마법사의 성능을 개선했습니다.
+* 이제 Campaign Classic을 영국, 인도 및 캐나다 지역에서 호스팅되는 Microsoft Dynamics CRM 계정에 연결할 수 있습니다. 이는 Office 365 및 온-프레미스(Dynamics 2015) 배포 유형에 적용됩니다.
 
-* 데이터베이스 레코드 관리가 향상되었습니다.
+* 이제 Campaign에서 TLS 확인을 수행하여 서버의 호스트 이름이 제공된 인증서의 호스트 이름과 일치하는지 확인합니다.
 
-* 연결 풀의 견고성이 개선되어 예기치 않은 연결 오류가 너무 자주 발생하지 않을 수 있습니다.
+* 이제 배달 및 추적 통계 표에는 배달 수신자당 하나의 항목이 아니라 SMS 채널에 대해 전달당 하나의 항목이 표시됩니다.
 
-* 소프트 오류가 발생하는 경우 격리할 주소를 보내는 이메일 주소 유효성 검사 규칙이 개선되었습니다. [자세한 내용](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
+* 다운로드한 파일이 디스크 공간보다 클 때 사용자에게 경고하기 위해 로그 파일에 오류 메시지가 추가되었습니다.
 
-* Debian의 경우, 이제 Campaign은 시스템 PCRE 라이브러리를 사용할 수 있을 때 사용합니다.
+* 이제 Snowflake 커넥터에 다음 기능을 사용할 수 있습니다. MonthiesAgoInt, ToDateTime, YearsAgo.
 
-* 이제 Campaign에서 최신 시스템 ODBC 라이브러리를 사용할 수 있습니다.
+**기술 발전**
 
-* 리치 이미지를 로드하기 위해 연결을 열 때 LINE 서블릿에 시간 초과가 추가되었습니다. 이미지를 로드하는 데 시간이 너무 오래 걸리는 경우 서블릿이 연결을 중지하여 병목 현상을 방지합니다.
+이 새로운 빌드는 공유 메모리를 업데이트하며 업그레이드를 수행하는 추가 단계가 필요합니다. 캠페인 관리자는 메모리 세그먼트를 제거해야 합니다. 이전 세그먼트로 인해 nlserver/nlsrvmod가 시작되지 않게 되므로 이러한 단계는 필수입니다.
+
+Windows에서는 시스템을 다시 시작해야 합니다.
+
+Debian/CentOs에서 공유 메모리 삭제가 필요합니다. 다음은 단계입니다.
+
+업그레이드 전에 다음 단계를 수행해야 합니다.
+
+1. 실행 중인 경우 apache2(CentOS의 http2) 서비스를 중지합니다.
+1. 실행 중인 경우 nlserver(이전 빌드의 경우 nlserver6) 서비스를 중지합니다.
+
+업그레이드 후:
+
+1. 버전이 현재 버전보다 오래된 경우 **ipcrm** 명령을 사용하여 공유 메모리를 제거합니다.
+1. 실행 중인 경우 nlserver 서비스를 시작합니다.
+1. Apache2 서비스가 실행 중이면 서비스를 시작합니다.
+
+다음은 Debian의 명령줄입니다.
+
+```
+/etc/init.d/nlserver* stop
+/etc/init.d/apache2 stop
+```
+
+```
+for i in `ipcs -s | awk '/www-data/
+{print $2}'`; do (ipcrm -s $i); done
+```
+
+```
+for i in `ipcs -m | awk '/www-data/ {print $2}
+'`; do (ipcrm shm $i); done
+```
+
+```
+for i in `ipcs -m | awk '/neolane/
+{print $2}'`; do (ipcrm shm $i); done
+```
+
+```
+for i in `ipcs -s | awk '/neolane/ {print $2}
+'`; do (ipcrm -s $i); done
+```
+
+```
+/etc/init.d/apache2 restart
+/etc/init.d/nlserver* start
+```
+
+Linux의 예는 이 [페이지에서 확인할 수 있습니다](../../configuration/using/additional-parameters.md#redirection-server-configuration).
 
 **패치**
 
-* Hadoop 커넥터를 사용할 때 계정 키 암호화 문제가 해결되었습니다.
-
-* Windows 서버에서 사용자 연결이 실패하는 SSL 인증 구현으로 인한 회귀 문제를 해결했습니다. (NEO-20629)
-
-* 부정적인 워크플로우 ID의 경우 증분 쿼리 활동 문제를 수정했습니다. (NEO-19779)
-
-* Netezza FDA 커넥터를 통해 쿼리를 실행할 때 발생하는 인코딩 문제가 해결되었습니다. (NEO-19594)
-
-* 웹 다운로드 워크플로우 이벤트 활동에서 POST 메서드를 사용할 때 오류가 **발생하던** 문제를 수정했습니다.
-
-* 제안 생성과 관련된 문제가 해결되었습니다. (NEO-18176)
-
-* 획득 웹 양식 템플릿을 사용할 때 바닥글 표시 문제가 해결되었습니다.
-
-* 연속 게재 컨텐츠에서 URL을 구문 분석할 때 충돌을 일으킬 수 있는 문제를 수정했습니다. (NEO-16910)
-
-* 새 캠페인을 만들 때 **시작** 및 **종료** 필드가 계산되지 않는 문제를 해결했습니다.
-
-* URL을 사용할 때 **파일 다운로드** 워크플로우 활동 문제를 수정했습니다.
-
-* 보고서의 쿼리 활동에서 가져온 목록을 미리 볼 때 발생하는 문제를 수정했습니다. (NEO-13119)
-
-* 이메일 편집기에서 Powered by Campaign **** 개인화 블록을 선택할 때 오래된 이미지가 표시되는 문제를 해결했습니다.
-
-* 클라이언트와 서버 간의 네트워크 통신이 개선되었습니다.
-
-* 동일한 캠페인에서 너무 많은 워크플로가 만들어지는 문제를 수정했습니다. 이제 28개 이상의 워크플로우를 만들 수 없습니다. 경고가 표시됩니다.
-
-* 조합 워크플로우 활동에서 열 **조정 옵션** 선택 **을 사용할 때 발생하는** 문제를 수정했습니다.
-
-* 워크플로에서 손상된 우라늄 목록을 사용할 때 발생할 수 있는 콘솔 충돌 문제가 해결되었습니다. (NEO-18096)
-
-* 워크플로우에서 발생할 수 있는 다양한 콘솔 충돌 문제가 해결되었습니다(NEO-18010, NEO-18032).
-
-* 외부 신호 **** 워크플로우 활동이 비활성화되었을 때도 실행을 허용하는 문제를 수정했습니다. (NEO-17524)
-
-* 새 스키마를 만들 때 발생하는 문제를 수정했습니다.
-
-* SMS 메시지를 보낼 때 발생하는 추적 문제가 해결되었습니다. (NEO-19595)
-
-* 배달 표시기에 잘못된 타깃팅된 대상 수가 표시되던 문제를 수정했습니다.
-
-* 워크플로우 활동을 통해 설명 보고서를 생성할 때 잘못된 백분율을 표시하는 문제를 해결했습니다. (NEO-14314)
-
-* 시간 보기 매개 변수 시 배달 처리량 보고서가 다른 숫자를 표시하는 문제를 해결했습니다. (NEO-11783)
-
-* 추적 워크플로에서 트랜잭션 메시지 추적 표시기가 업데이트되지 않는 문제를 해결했습니다. (NEO-17770)
-
-* SOAP를 통해 오퍼를 요청할 때 웹 프로세스가 중단되고 다시 시작되는 회귀 문제를 해결했습니다. (NEO-19482)
-
-* 업로드 디렉토리가 원격 공유 위치인 경우 공개 리소스에 데이터를 업로드할 수 없는 문제를 해결했습니다. (NEO-19361)
-
-* Adobe Experience Cloud **기술 워크플로우에서 대상** 가져오기가 지속적으로 실패하는 문제를 해결했습니다. (NEO-18463)
-
-* Experience Manager에서 가져온 템플릿을 사용할 때 배달이 전송되지 않던 문제를 수정했습니다. (NEO-17540)
-
-* 9032를 빌드하고 SSL 프로토콜을 통해 인스턴스가 FTP 서버에 연결되지 않는 문제가 해결되었습니다. (NEO-20498)
-
-* FDA 스키마를 타깃팅 차원으로 사용하는 워크플로우에서 데이터 **업데이트** 활동을 사용하여 대량의 데이터를 삭제, 삽입 또는 업데이트할 때 발생하는 문제를 수정했습니다. (NEO-13280)
-
-* 태그 외부에서 &#39;if&#39; 문을 사용할 때 이메일이 전송되지 않던 문제를 `body` 수정했습니다.
-
-* 보낸 메시지의 배달 로그에서 미러 페이지를 표시하려고 할 때 발생하던 문제를 수정했습니다. (NEO-17976)
-
-* 게재에서 HTML 가져오기를 클릭한 후 **텍스트 컨텐츠** 탭에 페이지 **** 개인화 블록을 미러링하는 **링크가 표시되지 않는** 문제를해결했습니다. (NEO-17568)
-
-* 만료된 미러 페이지에 대한 링크를 클릭할 때 표시되는 오류 메시지입니다. (NEO-17340)
-
-* 일부 단추가 **데이터 배포** 생성 화면에서 사용되지 않는 문제를 해결했습니다.
-
-* 아시아/콜카타 인스턴스의 배달 활동을 시간대로 예약할 때 발생하는 문제를 수정했습니다. (NEO-20001)
-
-* 이제 게시에 친화성 구성 문제가 있을 때 오류가 표시됩니다.
-
-* 정보 메뉴에 잘못된 버전 태그 번호가 표시되던 **문제를** 수정했습니다.
-
-* 워크플로우의 반복 배달 속성에서 라우팅 계정을 업데이트하려고 할 때 발생하는 문제를 수정했습니다. (NEO-18684)
-
-* 리디렉션 모듈을 통해 인스턴스에 연결할 때 발생하던 문제가 해결되었습니다.
+* 정리 워크플로우 로그에서 사소한 회귀 문제를 해결했습니다.
+* WSDL 파일을 구문 분석할 때 **SOAP(Workflow Loading)** 작업의 문제를 수정했습니다.
+* 많은 수의 워크플로우를 효율적으로 처리하기 위해 **설문 조사** 활동을 사용하여 많은 워크플로우를 업그레이드할 때 오류가 발생하는 문제를 해결했습니다.
+* 향상된 MTA에서 inMail 메시지를 처리하는 동안 간헐적인 연결 문제가 해결되었습니다. (NEO-20380)
+* HTML에서 이미지가 100% 폭으로 표시될 때 핫 클릭 비율이 제대로 표시되지 않는 문제를 해결했습니다. (NEO-23203)
+* 게재 조건부 컨텐츠가 핫 클릭 보고서에 완전히 표시되지 않는 문제를 해결했습니다. (NEO-18729)
+* 반복 배달을 보내는 워크플로우를 다시 시작할 때 타겟 승인 단계를 건너뛰던 문제를 수정했습니다. (NEO-18166)
+* 워크플로우에서 오류를 수정한 후 메시지 **다시 시작 준비** 단추가 배달을 다시 시작하지 못하는 문제를 해결했습니다. (NEO-13488)
+* 타겟이 일본어 이메일 포맷에 수신자를 포함하는 램프 업 단계 중 중간 소싱 모드에서 배달이 실패할 수 있는 문제를 수정했습니다. (NEO-23846)
+* Snowflake Connector의 표준 시간대 변환 문제가 해결되었습니다(NEO-20105).
+* SSL을 통해 FTP를 사용하는 외부 계정 문제를 해결했습니다. (NEO-20498)
+* 라인 배달에서 이미지가 표시되지 않는 문제를 해결했습니다. (NEO-23207)
+* 오퍼를 게시할 때 오류가 발생하던 문제를 수정했습니다. (NEO-23312)
+* 인증서가 만료된 경우에도 모바일 애플리케이션에서 테스트 연결이 작동되도록 허용하는 푸시 알림 문제가 해결되었습니다. (NEO-22991)
+* 고주파로 전송할 때 푸시 알림에 영향을 줄 수 있는 문제를 해결했습니다. (NEO-20516)
+* 추적 로그가 기록하지 않았음에도 불구하고 추적 데이터에 중복 항목이 포함되는 문제를 해결했습니다. (NEO-20040)
+* 추적 서버 통신 오류가 해결된 후 중복 트랜잭션 이메일이 전송되던 문제를 수정했습니다. (NEO-23640)
+* 추적 URL에서 리디렉션할 때 인코딩 매개 변수 값을 삭제한 문제를 수정했습니다. (NEO-25637)
+* 부동 숫자를 비교할 때 쿼리가 작동하지 않던 문제를 수정했습니다. (NEO-23243)
+* 워크플로우를 다시 시작한 후 수정자 **** 열 컨텐츠가 표시되지 않는 문제를 해결했습니다. (NEO-23035)
+* 두 번째 컨테이너에서 로그를 다운로드할 때 추적 기술 워크플로가 실패하는 문제를 해결했습니다. (NEO-23159)
+* 데이터 연계 강화 활동을 실행할 때 워크플로가 **실패할 수 있는 문제를** 수정했습니다. (NEO-17338)
+* null 또는 음수 값을 입력할 수 없도록 데이터 중복 제거 **작업 과정** 에 필드를 **유지하기 위한 확인이** Double에 추가되었습니다.
+* 시간 및 시간 **이 언급되지 않도록 반복 캠페인에서 스케줄러 마법사를** 제거했습니다. 날짜만 고려한다.
+* 스크립트 **워크플로우 활동의 스크립트로** 계산됨 옵션을 통해 배달을 만들 때 추가 스토리지 필드 **문제를** 수정했습니다. (NEO-20609)
+* 데이터베이스 정리 작업 내에서 고스트 워크플로가 삭제되지 않는 문제를 해결했습니다.
+* 청구(활성 **프로필)** 기술 워크플로가 실패하는 문제를 해결했습니다. (NEO-19777)
+* acsDefaultAccount 외부 계정의 연결을 테스트할 때 발생하는 문제가 해결되었습니다. (NEO-23433)
+* Hadoop 테이블이 있는 열이 여러 개인 기본 키에 스키마 확장을 만들 수 없는 문제를 수정했습니다. (NEO-17390)
+* WSDL 파일이 URL에서 로드되지 않도록 **하는 로드(SOAP)** 작업의 문제를 해결했습니다. (NEO-16924)
+* 여러 활성 워크플로 서버가 로드 밸런싱을 했을 때 콘솔을 **통해** 무조건적 정지를 수행하지 못하는 문제가 해결되었습니다. (NEO-19556)
+* 정리 워크플로가 충돌하는 회귀 문제를 해결했습니다.
+* 실행 인스턴스에 템플릿을 게시할 때 발생할 수 있는 문제를 해결했습니다.
+* collectPrivacyRequests 기술 워크플로가 실행되지 않는 문제를 해결했습니다. (NEO-20513, NEO-25169)
+* 9080을 빌드하여 Audience Manager에 연결하려고 할 때 발생하는 문제가 해결되었습니다. (NEO-20511, NEO-25167)
+* 보고서를 PDF 또는 XLS 형식으로 내보낼 때 발생하는 문제가 해결되었습니다. (NEO-20982, NEO-23493, NEO-23348)
+* 전송 후 배달 목록에 배달을 두 번 표시할 수 있는 문제를 수정했습니다.
+* 중간 소싱을 통해 배달을 전송하도록 라우팅 구성을 설정할 때 발생할 수 있는 배달 준비 문제를 수정했습니다.
+* 라인 메시지 내에서 웹 응용 프로그램 링크를 클릭할 때 오류 메시지가 표시되는 문제를 해결했습니다.
+* Microsoft Dynamics CRM에서 모든 엔터티를 검색할 수 없는 문제를 해결했습니다. (NEO-24528)
+* 정리 워크플로우를 실행한 후 **증분 쿼리** 활동 내역을 삭제한 문제를 수정했습니다.
+* NmsMidSourcing_LastBroadLog_&lt;InternalName> 옵션이 누락된 중간 소싱 외부 계정을 만들 때 발생하는 문제가 해결되었습니다.
