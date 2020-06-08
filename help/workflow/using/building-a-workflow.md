@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1631'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
 * 기술 워크플로우 액세스 및 제작, [기술 워크플로우 참조](#technical-workflows)
 * 템플릿을 사용하여 워크플로우 만들기, 워크플로우 템플릿 [참조](#workflow-templates)
 
-## 새 워크플로우 만들기 {#creating-a-new-workflow}
+## Creating a new workflow {#creating-a-new-workflow}
 
 워크플로우 폴더 **[!UICONTROL Explorer]**&#x200B;에 액세스합니다. 기본적으로 **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**&#x200B;를 사용할 수있습니다.
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ![](assets/create_a_wf_icon.png)
 
-또는 워크플로우 개요( **[!UICONTROL Create]** >**[!UICONTROL Monitoring]** **[!UICONTROL Workflow]** 링크)의 단추를 사용할 수도 있습니다.
+또는 워크플로우 개요( **[!UICONTROL Create]** >**[!UICONTROL Monitoring]** 링크)의 **[!UICONTROL Workflow]** 단추를 사용할 수도 있습니다.
 
 ![](assets/create_a_wf.png)
 
@@ -92,8 +92,6 @@ ht-degree: 1%
 >
 >동일한 워크플로우 내에서 활동을 복사하고 붙여넣을 수 있습니다. 그러나 여러 워크플로우에서 붙여넣기 활동을 복사하는 것은 권장되지 않습니다. 게재 및 스케줄러와 같은 활동에 연결된 일부 설정은 대상 워크플로우를 실행하는 동안 충돌과 오류를 초래할 수 있습니다. 대신 워크플로우 **중복을** 권장합니다. 자세한 내용은 워크플로우 [중복을 참조하십시오](#duplicating-workflows).
 
-### 추가 레이아웃 옵션 {#additional-layout-options}
-
 다음 요소를 사용하여 차트의 표시 및 레이아웃을 변경할 수 있습니다.
 
 * **도구 모음 사용**
@@ -136,7 +134,7 @@ ht-degree: 1%
 
 타깃팅 워크플로우를 사용하면 여러 개의 전달 대상을 만들 수 있습니다. 워크플로우 활동을 통해 쿼리를 만들고, 특정 기준에 따라 조합이나 제외를 정의하고, 예약을 추가할 수 있습니다. 이 타깃팅의 결과는 배달 작업의 대상으로 사용할 수 있는 목록에 자동으로 전송될 수 있습니다
 
-이러한 활동 외에도 데이터 관리 옵션을 사용하면 데이터를 조작하고 고급 기능에 액세스하여 복잡한 타깃팅 문제를 해결할 수 있습니다. 자세한 내용은 [데이터 관리를 참조하십시오](../../workflow/using/targeting-data.md#data-management).
+이러한 활동 외에도 데이터 관리 옵션을 사용하면 데이터를 조작하고 고급 기능에 액세스하여 복잡한 타깃팅 문제를 해결할 수 있습니다. For more on this, refer to [Data Management](../../workflow/using/targeting-data.md#data-management).
 
 이러한 모든 활동은 첫 번째 워크플로우 탭에서 찾을 수 있습니다.
 
@@ -158,7 +156,7 @@ ht-degree: 1%
 1. 데이터 전달 요구 사항을 충족하기 위해 데이터를 준비하는 방법은 데이터 [농축과 수정을 참조하십시오](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
 1. 데이터를 사용하여 업데이트를 수행하거나 배달 내에서 업데이트를 수행하려면 데이터베이스 [업데이트를 참조하십시오](../../workflow/using/how-to-use-workflow-data.md#updating-the-database).
 
-타깃팅하는 동안 수행된 모든 활동의 결과와 모든 핸들링은 개인화 필드에 저장되고 액세스할 수 있으며, 특히 개인화된 메시지를 만들 때 사용할 수 있습니다. 자세한 내용은 [Target 데이터를 참조하십시오.](../../workflow/using/data-life-cycle.md#target-data)
+타깃팅하는 동안 수행된 모든 활동의 결과와 모든 핸들링은 개인화 필드에 저장되고 액세스할 수 있으며, 특히 개인화된 메시지를 만들 때 사용할 수 있습니다. For more on this, refer to [Target data](../../workflow/using/data-life-cycle.md#target-data)
 
 ### 차원 타깃팅 및 필터링 {#targeting-and-filtering-dimensions}
 
@@ -210,7 +208,7 @@ ht-degree: 1%
 
 트리 구조의 **[!UICONTROL Administration > Production > Technical workflows]** 노드에서 다른 기술 워크플로우를 만들 수 있습니다. 그러나 이 프로세스는 전문가 사용자용으로 예약되어 있습니다.
 
-제공되는 활동은 타깃팅 워크플로우와 동일합니다. 자세한 내용은 [구현 단계를 참조하십시오](#implementation-steps-).
+제공되는 활동은 타깃팅 워크플로우와 동일합니다. For more on this, refer to [Implementation steps](#implementation-steps-).
 
 ## 워크플로우 템플릿 {#workflow-templates}
 
