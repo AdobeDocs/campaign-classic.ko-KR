@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b6b4fd2b21f90a88744736b499eab1b0764774e
+source-git-commit: de1173786c94c2a526153e7e6948f71c9523fa7b
 workflow-type: tm+mt
-source-wordcount: '3740'
+source-wordcount: '3903'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,18 @@ ht-degree: 0%
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_FromAddressMasks</span> <br /> </td> 
    <td> 메시지를 보낼 때 사용되는 보낸 사람 주소의 구문을 정의할 수 있습니다.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsDelivery_ImageServerTimeout</span> <br /> </td> 
+   <td> 개인화된 URL에서 다운로드되고 이메일에 첨부된 이미지를 검색할 때 서버로부터 응답을 받기 위한 시간 제한(초)을 정의할 수 있습니다. 이 값을 초과하면 메시지를 보낼 수 없습니다. The default value is 60 seconds.<br /> </td> 
+  </tr> 
+ <tr> 
+   <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
+   <td> 개인화된 URL에서 다운로드되고 이메일에 첨부된 이미지에 대해 허용되는 최대 크기(바이트)를 정의할 수 있습니다. 기본값은 100,000바이트입니다. 증명을 보내고 이메일을 처리하기 위해 이미지를 다운로드할 때 이미지 크기가 이 값을 초과하거나 다운로드 문제가 있는 경우 배달 로그에 오류가 표시되고 증명 배달이 실패합니다.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsDelivery_MaxRecommendedAttachments</span> <br /> </td> 
+   <td> 이메일 또는 트랜잭션 이메일 템플릿에서 최대 첨부 파일 수를 설정할 수 있습니다. 이 값을 초과하면 배달 분석 로그에 또는 트랜잭션 이메일 템플릿을 게시할 때 경고가 표시됩니다. 기본값은 1개의 첨부 파일입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRetry</span> <br /> </td> 
@@ -676,7 +688,7 @@ ht-degree: 0%
     <ul> 
      <li> <p> <span class="uicontrol">데이터 유형:</span> 정수</p> </li> 
      <li> <p> <span class="uicontrol">값(텍스트)</span> : 1 </p> </li> 
-    </ul> 이 옵션은 기본 탐색 트리가 너무 많은 변경을 거친 경우에만 사용해야 합니다.<br /> 자세한 내용은 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">이 섹션을 참조하십시오</a>.<br /> </td> 
+    </ul> 이 옵션은 기본 탐색 트리가 너무 많은 변경을 거친 경우에만 사용해야 합니다.<br /> 이 작업에 대한 자세한 정보는 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">이 섹션</a>을 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span> <br /> </td> 
