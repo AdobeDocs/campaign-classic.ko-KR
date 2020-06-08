@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: e9e9b1352706e15a0d0c6ff8921e430524a44b13
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 0%
+source-wordcount: '843'
+ht-degree: 1%
 
 ---
 
@@ -79,23 +79,23 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >게재가 워크플로우의 일부인 경우 임시 워크플로우 테이블의 데이터를 사용할 수 있습니다. 이 데이터는 **[!UICONTROL Target extension]** 메뉴에서 그룹화됩니다. For more on this, refer to [this section](../../workflow/using/data-life-cycle.md#target-data).
+   >게재가 워크플로우의 일부인 경우 임시 워크플로우 테이블의 데이터를 사용할 수 있습니다. 이 데이터는 **[!UICONTROL Target extension]** 메뉴에서 그룹화됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/data-life-cycle.md#target-data)을 참조하십시오.
 
 ## 개인화 최적화 {#optimizing-personalization}
 
-전용 옵션을 사용하여 개인화를 최적화할 수 있습니다. **[!UICONTROL Prepare the personalization data with a workflow]**&#x200B;을 사용할 수 있습니다. **[!UICONTROL Analysis]**
+전용 옵션을 사용하여 개인화를 최적화할 수 있습니다. **[!UICONTROL Prepare the personalization data with a workflow]**&#x200B;을 사용할 수 있습니다. **[!UICONTROL Analysis]** 배달 분석에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 배달 분석 중에 이 옵션을 사용하면 FDA에 연결된 테이블의 데이터를 포함하여, 대상에 연결된 모든 데이터를 임시 테이블에 저장하는 워크플로우를 자동으로 생성하고 실행합니다.
 
-이 옵션을 선택하면 개인화 실행을 위한 성능이 크게 향상될 수 있습니다.
+이 옵션을 선택하면 많은 데이터가 처리되는 경우, 특히 개인화 데이터가 FDA를 통해 외부 테이블에서 가져오는 경우 배달 분석 성능을 크게 향상시킬 수 있습니다. 자세한 내용은 [외부 데이터베이스 액세스(FDA)를 참조하십시오](../../platform/using/additional-options.md#optimizing-email-personalization-with-external-data).
 
 예를 들어 메시지 컨텐츠에서 많은 개인화 필드 및/또는 개인화 블록을 사용하는 동안 수신자에게 전달할 때 성능 문제가 발생하는 경우 이 옵션을 사용하면 개인화 처리 시간을 단축하여 메시지를 전달할 수 있습니다.
 
 이 옵션을 사용하려면 아래 절차를 따르십시오.
 
-1. 캠페인을 만듭니다. For more on this, refer to [this section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
-1. 캠페인 **[!UICONTROL Targeting and workflows]** 탭에서 워크플로우에 **쿼리** 활동을 추가합니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../workflow/using/query.md).
-1. 워크플로우에 **[!UICONTROL Email delivery]** 활동을 추가하고 엽니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../workflow/using/delivery.md).
+1. 캠페인을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
+1. 캠페인 **[!UICONTROL Targeting and workflows]** 탭에서 워크플로우에 **쿼리** 활동을 추가합니다. For more on using this activity, refer to [this section](../../workflow/using/query.md).
+1. 워크플로우에 **[!UICONTROL Email delivery]** 활동을 추가하고 엽니다. For more on using this activity, refer to [this section](../../workflow/using/delivery.md).
 1. 의 **[!UICONTROL Analysis]** 탭으로 **[!UICONTROL Delivery properties]** 가서 **[!UICONTROL Prepare the personalization data with a workflow]** 옵션을 선택합니다.
 
    ![](assets/perso_optimization.png)
