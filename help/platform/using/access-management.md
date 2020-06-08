@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4148efa9c7a8b002672d72fc526753bf7304673c
+source-git-commit: 651dfdab75f64d72a1c5beb1273a878ee7102b47
 workflow-type: tm+mt
-source-wordcount: '2894'
+source-wordcount: '2912'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 # 액세스 관리{#access-management}
 
-## 권한 정보 {#about-permissions}
+## About permissions {#about-permissions}
 
 Adobe Campaign을 사용하면 다양한 연산자에 할당된 권한을 정의하고 관리할 수 있습니다. 다음은 승인하거나 거부하는 권한 및 제한 세트입니다.
 
@@ -62,11 +62,11 @@ Adobe Campaign을 사용하면 다양한 연산자에 할당된 권한을 정의
 
 Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../installation/using/connecting-through-ldap.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >인스턴스에 로그온하려면 연산자를 보안 영역에 연결해야 합니다. Adobe Campaign의 보안 영역에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
-사용자는 Adobe ID를 사용하여 Adobe Campaign에 직접 연결할 수도 있습니다. 자세한 내용은 이 [페이지를 참조하십시오](../../integrations/using/about-adobe-id.md).
+사용자는 Adobe ID를 사용하여 Adobe Campaign에 직접 연결할 수도 있습니다. For more on this, refer to this [page](../../integrations/using/about-adobe-id.md).
 
 ### 연산자 만들기 {#creating-an-operator}
 
@@ -78,7 +78,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 �
 
 1. 사용자 **[!UICONTROL Identification parameters]** 를 지정합니다. 로그인, 암호 및 이름입니다. 운영자가 Adobe Campaign에 로그인하는 데 로그인 및 암호가 사용됩니다. 사용자가 로그인하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 연산자의 이메일은 승인을 처리할 때 등 운영자가 알림을 받을 수 있도록 하기 때문에 필수적입니다.
 
-   이 섹션에서는 연산자를 조직 엔티티에 연결할 수도 있습니다. 자세한 내용은 [이 페이지를 참조하십시오](../../campaign/using/about-distributed-marketing.md).
+   이 섹션에서는 연산자를 조직 엔티티에 연결할 수도 있습니다. For more on this, refer to the [this page](../../campaign/using/about-distributed-marketing.md).
 
 1. 섹션에서 연산자에 부여된 권한을 **[!UICONTROL Operator access rights]** 선택합니다.
 
@@ -149,7 +149,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 �
 
    ![](assets/s_ncs_user_restrictions_operators.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >이것은 매우 엄격한 제한 사항이므로 주의해서 사용해야 한다. 이 유형의 권한으로 로그인한 연산자는 지정된 폴더의 컨텐츠만 볼 수 있으며 탐색기를 통해 트리의 다른 노드에 액세스할 수 없습니다. 그러나 액세스할 수 있는 기능에 따라 다릅니다(예: 워크플로우), 일반적으로 볼 수 없는 노드에 저장된 데이터를 표시할 수 있습니다.
 
@@ -179,7 +179,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 �
 
 Adobe Campaign은 기본적으로 다음과 같은 프로파일이 포함된 기술 운영업체를 사용합니다. 관리자(&#39;관리자&#39;), 빌링(&#39;빌링&#39;), 모니터링, 웹 애플리케이션 에이전트(&#39;웹 앱&#39;) 등 다음은 플랫폼에 설치된 애플리케이션과 옵션에 따라 다릅니다. 예를 들어, &#39;central&#39; 및 &#39;local&#39; 연산자는 분산 마케팅 옵션이 설치된 경우에만 표시됩니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이러한 기술 운영자는 정보 메시지가 플랫폼에서 반환되면 기본적으로 알림을 받게 됩니다. 해당 고객에게 문의 이메일을 제공하는 것이 좋습니다.
 >
@@ -322,7 +322,7 @@ Adobe Campaign은 기본적으로 다음과 같은 프로파일이 포함된 기
 
 * **[!UICONTROL PREPARE DELIVERIES]**: 전달을 작성, 편집 및 저장할 수 있습니다. 권한이 **[!UICONTROL PREPARE DELIVERIES]** 있는 사용자도 전달 분석 프로세스를 시작할 수 있습니다.
 
-* **[!UICONTROL PRIVACY DATA RIGHT]**: 개인 정보 데이터를 수집 및 삭제할 권리 자세한 내용은 이 [페이지를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
+* **[!UICONTROL PRIVACY DATA RIGHT]**: 개인 정보 데이터를 수집 및 삭제할 권리 For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
 
 * **[!UICONTROL PROGRAM EXECUTION]**: 다양한 프로그래밍 언어로 명령을 실행할 수 있는 권한
 
@@ -396,7 +396,7 @@ Adobe Campaign 액세스 권한 매트릭스는 [여기에서 사용할 수 있�
 
 ## 폴더 및 보기 {#folders-and-views}
 
-### 폴더 및 보기 정보 {#about-folders-and-views}
+### 폴더 정보 {#about-folders}
 
 폴더는 Adobe Campaign 트리의 노드입니다. 이러한 노드는 메뉴를 통해 트리를 마우스 오른쪽 단추로 클릭하여 **[!UICONTROL Add new folder]** 생성됩니다. 기본적으로 첫 번째 메뉴에서는 현재 컨텍스트에 해당하는 폴더를 추가할 수 있습니다.
 
@@ -404,17 +404,23 @@ Adobe Campaign 액세스 권한 매트릭스는 [여기에서 사용할 수 있�
 
 트리의 다른 모든 폴더에서 마찬가지로 이러한 폴더에 권한을 부여할 수 있습니다. 폴더 [액세스 관리를 참조하십시오](#folder-access-management).
 
+### 보기 정보 {#about-views}
+
 또한 데이터에 대한 액세스를 제한하고 트리 내용을 요구 사항에 맞게 구성하기 위해 보기를 만들 수 있습니다. 그런 다음 보기에 권한을 할당할 수 있습니다.
 
 보기는 같은 유형의 다른 하나 이상의 폴더에 물리적으로 저장되는 레코드를 표시하는 폴더입니다. 예를 들어, 보기인 캠페인 폴더를 만들면 기본적으로 데이터베이스에 있는 모든 캠페인이 원본 위치와 상관없이 표시됩니다. 그러면 이 데이터를 필터링할 수 있습니다.
 
 폴더를 보기로 변환할 때 데이터베이스에 있는 폴더 유형에 해당하는 모든 데이터가 저장되는 폴더에 관계없이 뷰에 표시됩니다. 그런 다음 필터링하여 표시되는 데이터 목록을 제한할 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >뷰에는 데이터가 들어 있고 액세스 권한을 제공하지만 데이터는 보기 폴더에 물리적으로 저장되지 않습니다. 연산자는 데이터 소스 폴더에서 원하는 작업에 대한 적절한 권한을 가지고 있어야 합니다(읽기 액세스 최소).
 >
 >소스 폴더에 대한 액세스 권한을 부여하지 않고 뷰에 대한 액세스를 제공하려면 소스 폴더의 상위 노드에 대한 읽기 권한을 부여하지 마십시오.
+
+뷰를 폴더와 구분하기 위해 각 보기의 이름이 다른 색상(어두운 영역)으로 표시됩니다.
+
+![](assets/s_ncs_user_view_name_color.png)
 
 ### 폴더 추가 및 보기 만들기 {#adding-folders-and-creating-views}
 
@@ -442,4 +448,3 @@ Adobe Campaign 액세스 권한 매트릭스는 [여기에서 사용할 수 있�
 다음 배달이 보기에 표시됩니다.
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
-
