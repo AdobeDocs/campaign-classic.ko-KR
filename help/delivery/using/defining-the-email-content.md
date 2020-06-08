@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cedcd9150c374116f187da7fd9e76bf81e978e2a
+source-git-commit: b60b5fad24c1237981f66315e7cf585c79f82641
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2887'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >개인화 필드의 사용은 개인화 [정보에 나와 있습니다](../../delivery/using/about-personalization.md).
+
+팝업 창에서 제목 줄에 이모티콘을 삽입할 수도 **[!UICONTROL Insert emoticon]** 있습니다.
 
 ## 메시지 내용 {#message-content}
 
@@ -115,6 +117,19 @@ ht-degree: 0%
 
    ![](assets/s_ncs_user_wizard_email01_142.png)
 
+### 이메일에 이모티콘 삽입 {#inserting-emoticons}
+
+이메일 컨텐츠에 이모티콘을 삽입할 수 있습니다.
+
+1. 아이콘을 **[!UICONTROL Insert emoticon]** 클릭합니다.
+1. 팝업 창에서 이모티콘을 선택합니다.
+
+   ![](assets/emoticon_4.png)
+
+1. 완료되면 **[!UICONTROL Close]** 단추를 클릭합니다.
+
+이모티콘 목록을 사용자 정의하려면 이 [페이지를 참조하십시오](../../delivery/using/customizing-emoticon-list.md).
+
 ## 메시지 형식 선택 {#selecting-message-formats}
 
 보낸 이메일 메시지 형식을 변경할 수 있습니다. 이렇게 하려면 배달 속성을 편집하고 **[!UICONTROL Delivery]** 탭을 클릭합니다.
@@ -143,7 +158,7 @@ ht-degree: 0%
 
 Adobe Campaign을 사용하면 특정 조건 [에서 동적 이메일을 보낼 수 있는 새로운 대화형 이메일](https://amp.dev/about/email/) 형식을 사용할 수 있습니다.
 
-자세한 내용은 [이 섹션을 참조하십시오](../../delivery/using/defining-interactive-content.md).
+For more on this, see [this section](../../delivery/using/defining-interactive-content.md).
 
 ## 컨텐츠 관리 사용 {#using-content-management}
 
@@ -191,11 +206,10 @@ HTML 형식 이메일 배달에는 이미지가 포함될 수 있습니다. 배�
 
 1. 탭 **[!UICONTROL Upload images]** 에서 **[!UICONTROL Images]** 선택합니다.
 1. 그런 다음 이메일 메시지에 이미지를 포함할지 여부를 선택할 수 있습니다.
-
-![](assets/s_ncs_user_email_del_img_upload.png)
+   ![](assets/s_ncs_user_email_del_img_upload.png)
 
 * 전달 분석 단계를 기다리지 않고 수동으로 이미지를 업로드할 수 있습니다. 이렇게 하려면 **[!UICONTROL Upload the images straightaway...]** 링크를 클릭합니다.
-* 추적 서버의 이미지에 액세스하기 위한 다른 경로를 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Image URL]** 필드에 입력합니다. 이 값은 설치 마법사의 매개 변수에 정의된 값을 무시합니다.
+* 추적 서버의 이미지에 액세스하기 위한 다른 경로를 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Images URL]** 필드에 입력합니다. 이 값은 설치 마법사의 매개 변수에 정의된 값을 무시합니다.
 
 전달 마법사에서 포함된 이미지가 포함된 HTML 컨텐츠를 열면 전달 매개 변수에 따라 이미지를 즉시 업로드할 수 있는 메시지가 표시됩니다.
 
@@ -205,7 +219,11 @@ HTML 형식 이메일 배달에는 이미지가 포함될 수 있습니다. 배�
 >
 >이미지 액세스 경로는 수동으로 업로드하거나 메시지를 전송할 때 수정됩니다.
 
-### 예: 이미지가 포함된 메시지 보내기 {#example--sending-a-message-with-images}
+### 이미지가 포함된 메시지 보내기 {#sending-a-message-with-images}
+
+>[!NOTE]
+>
+>성능 문제를 방지하려면, 개인화된 URL에서 [첨부](../../delivery/using/attaching-files.md)파일로 즉시 다운로드한 이미지를 포함하는 경우 각 이미지 크기는 기본적으로 100,000바이트를 초과할 수 없습니다. 이 권장 임계값은 Campaign Classic 옵션 목록 [에서 구성할 수 있습니다](../../installation/using/configuring-campaign-options.md#delivery).
 
 다음은 4개의 이미지가 포함된 배달에 대한 샘플입니다.
 
