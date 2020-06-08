@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb55216e75559e1ce7eefa24d2302fe2c2224d40
+source-git-commit: e3e8802aae0d10befcf9eef1ccf720f82c460038
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 1%
@@ -185,29 +185,19 @@ Debian/CentOs에서 공유 메모리 삭제가 필요합니다. 다음은 단계
 ```
 /etc/init.d/nlserver* stop
 /etc/init.d/apache2 stop
-```
 
-```
 for i in `ipcs -s | awk '/www-data/
 {print $2}'`; do (ipcrm -s $i); done
-```
 
-```
 for i in `ipcs -m | awk '/www-data/ {print $2}
 '`; do (ipcrm shm $i); done
-```
 
-```
 for i in `ipcs -m | awk '/neolane/
 {print $2}'`; do (ipcrm shm $i); done
-```
 
-```
 for i in `ipcs -s | awk '/neolane/ {print $2}
 '`; do (ipcrm -s $i); done
-```
 
-```
 /etc/init.d/apache2 restart
 /etc/init.d/nlserver* start
 ```
