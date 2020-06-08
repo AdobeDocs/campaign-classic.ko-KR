@@ -5,10 +5,10 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 56ddf3dc1505c0507c67f8b08c9f33b4007f8857
 workflow-type: tm+mt
-source-wordcount: '2090'
-ht-degree: 7%
+source-wordcount: '2100'
+ht-degree: 8%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 7%
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/using/latest-release.md)
    + 이전 릴리스 {#previous-releases}
+      + [릴리스 20.1](rn/using/release--20-1.md)
       + [릴리스 19.2](rn/using/release--19-2.md)
       + [릴리스 19.1](rn/using/release--19-1.md)
       + [릴리스 18.10](rn/using/release--18-10.md)
@@ -127,6 +128,7 @@ ht-degree: 7%
       + [조건부 컨텐츠](delivery/using/conditional-content.md)
       + [개인화된 쿠폰](delivery/using/personalized-coupons.md)
       + [맞춤형 PDF 문서 생성](delivery/using/generating-personalized-pdf-documents.md)
+      + [이모티콘 목록 사용자 정의](delivery/using/customizing-emoticon-list.md)
    + 시드 주소 사용 {#using-seed-addresses}
       + [시드 주소 정보](delivery/using/about-seed-addresses.md)
       + [시드 주소 만들기](delivery/using/creating-seed-addresses.md)
@@ -317,7 +319,7 @@ ht-degree: 7%
       + [프로필 동기화](integrations/using/synchronizing-profiles.md)
       + [대상 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
-      + [[!DNL ACS 커넥터] 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
+      + [[!DNL ACS 커넥터 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
 + 워크플로우로 자동화 {#automating-with-workflows}
    + 소개 {#introduction}
       + [워크플로우 정보](workflow/using/about-workflows.md)
@@ -526,6 +528,7 @@ ht-degree: 7%
       + [트랜잭션 메시지 미리 보기](message-center/using/transactional-message-preview.md)
       + [증명 전송](message-center/using/sending-a-proof.md)
       + [템플릿 게시](message-center/using/template-publication.md)
+      + [템플릿 게시 취소](message-center/using/template-unpublication.md)
    + 이벤트 처리 {#event-processing}
       + [이벤트 처리 정보](message-center/using/about-event-processing.md)
       + [이벤트 컬렉션](message-center/using/event-collection.md)
@@ -593,7 +596,7 @@ ht-degree: 7%
       + [인스턴스 배포](installation/using/deploying-an-instance.md)
       + [Campaign Classic 표준 패키지 설치](installation/using/installing-campaign-standard-packages.md)
    + 추가 구성 {#additional-configurations}
-      + [캠페인 서버 구성](installation/using/configuring-campaign-server.md)
+      + [Campaign 서버 구성](installation/using/configuring-campaign-server.md)
       + [LDAP를 통해 연결](installation/using/connecting-through-ldap.md)
       + [기술 이메일 구성](installation/using/email-deliverability.md)
       + [이메일 보관](installation/using/email-archiving.md)
@@ -603,6 +606,7 @@ ht-degree: 7%
       + [상호 작용 - 데이터 버퍼](installation/using/interaction---data-buffer.md)
    + 부록 {#appendices}
       + [서버 구성 파일](installation/using/the-server-configuration-file.md)
+      + [캠페인 네트워크 끝점](installation/using/campaign-network-endpoints.md)
       + [명령줄](installation/using/command-lines.md)
       + [새 인스턴스 만들기](installation/using/creating-new-instances.md)
       + [Campaign Classic 옵션 목록](installation/using/configuring-campaign-options.md)
