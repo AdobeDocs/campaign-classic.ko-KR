@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 필터링 규칙을 사용하면 쿼리에 정의된 기준을 기반으로 제외할 메시지를 정의할 수 있습니다. 이러한 규칙은 타깃팅 차원에 연결됩니다.
 
-필터링 규칙은 다른 유형의 규칙(제어, 압력 등)에 연결할 수 있습니다. 를 선택하거나 전용 필터링 **유형에서 그룹화합니다** . 자세한 내용은 필터링 유형 [만들기 및 사용을 참조하십시오](#creating-and-using-a-filtering-typology).
+필터링 규칙은 다른 유형의 규칙(제어, 압력 등)에 연결할 수 있습니다. 를 선택하거나 전용 필터링 유형 **으로 그룹화합니다** . 이에 대한 자세한 내용은 필터링 유형 [만들기 및 사용을 참조하십시오](#creating-and-using-a-filtering-typology).
 
 ## 필터링 규칙 만들기 {#creating-a-filtering-rule}
 
@@ -54,49 +57,48 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ## 필터링 규칙 설정 {#conditioning-a-filtering-rule}
 
-연결된 배달 또는 배달 개요를 기반으로 필터링 규칙의 응용 프로그램 필드를 제한할 수 있습니다.
+연결된 배달 또는 배달 개요를 기준으로 필터링 규칙의 응용 프로그램 필드를 제한할 수 있습니다.
 
-이렇게 하려면, 분류 규칙의 **[!UICONTROL General]** 탭으로 이동하여 적용할 제한 유형을 선택하고 아래와 같이 필터를 만듭니다.
+이렇게 하려면, 분류 규칙의 **[!UICONTROL General]** 탭으로 이동하여 적용할 제한 유형을 선택하고 필터를 만듭니다.
 
 ![](assets/campaign_opt_create_filter_06.png)
 
-이 경우 규칙이 모든 게재에 연결되어 있어도 정의된 필터의 기준과 일치하는 것에만 적용됩니다.
+이 경우, 규칙이 모든 게재에 연결되어 있어도 정의된 필터의 기준과 일치하는 것에만 적용됩니다.
 
 >[!NOTE]
 >
->유형 지정 및 필터링 규칙은 **[!UICONTROL Delivery outline]** 활동에서 워크플로우에 사용할 수 있습니다. For more on this, refer to [this section](../../workflow/using/delivery-outline.md).
+>작업 과정의 워크플로우에서 유형 지정 및 필터링 규칙을 사용할 수 **[!UICONTROL Delivery outline]** 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/delivery-outline.md)을 참조하십시오.
 
 ## 필터링 유형 만들기 및 사용 {#creating-and-using-a-filtering-typology}
 
-다음과 같은 유형을 만들 수 **[!UICONTROL Filtering]** 있습니다.필터링 규칙만 포함합니다.
+다음과 같은 유형을 만들 수 **[!UICONTROL Filtering]** 있습니다. 필터링 규칙만 포함합니다.
 
 ![](assets/campaign_opt_create_typo_filtering.png)
 
-이러한 특정 유형은 타겟을 선택할 때 게재에 연결할 수 있습니다.배달 마법사에서 **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Exclusions]** 탭을 클릭합니다.
+대상을 선택할 때 이러한 특정 유형을 게재에 연결할 수 있습니다. 배달 마법사에서 **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Exclusions]** 탭을 클릭합니다.
 
 ![](assets/campaign_opt_apply_typo_filtering.png)
 
 그런 다음 배달에 적용할 필터링 유형을 선택합니다. 이렇게 하려면 **[!UICONTROL Add]** 단추를 클릭하고 적용할 유형을 선택합니다.
 
-또한 유형에서 그룹화하지 않고 이 탭을 통해 필터링 규칙을 직접 연결할 수도 있습니다. 이렇게 하려면 창의 아래 섹션을 사용하십시오.
+또한 유형별로 그룹화하지 않고 이 탭을 통해 필터링 규칙을 직접 연결할 수도 있습니다. 이렇게 하려면 창의 아래 섹션을 사용하십시오.
 
 ![](assets/campaign_opt_select_typo_filtering.png)
 
 >[!NOTE]
 >
->* 선택 창에서는 유형 및 필터링 규칙만 사용할 수 있습니다.
->* 이러한 구성은 배달 템플릿에서 정의하여 템플릿을 사용하여 만든 모든 새 게재에 자동으로 적용할 수 있습니다.
+>선택 창에서는 분류 및 필터링 규칙만 사용할 수 있습니다.
 >
+>이러한 구성은 배달 템플릿에서 템플릿을 사용하여 만든 모든 새 게재에 자동으로 적용되도록 정의할 수 있습니다.
 
 
+## 기본 제공 기능 제외 규칙 {#default-deliverability-exclusion-rules}
 
-## 기본 제공 가능성 제외 규칙 {#default-deliverability-exclusion-rules}
+기본적으로 두 개의 필터링 규칙을 사용할 수 있습니다. **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** ) 및 **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** ). 이메일 분석 중에 이러한 규칙은 받는 사람 이메일 주소와 배달 가능 인스턴스에서 관리되는 암호화된 전역 제외 목록에 포함된 금지된 주소 또는 도메인 이름과 비교합니다. 일치하는 메시지가 있으면 해당 받는 사람에게 메시지가 전송되지 않습니다.
 
-기본적으로 두 개의 필터링 규칙을 사용할 수 있습니다.( **[!UICONTROL Exclude addresses]** ) 및 **[!UICONTROL addressExclusions]** ( **[!UICONTROL Exclude domains]** **[!UICONTROL domainExclusions]** ). 이메일 분석 중에 이러한 규칙은 받는 사람 이메일 주소와 배달 가능성 인스턴스에서 관리되는 암호화된 전역 억제 목록에 포함된 금지된 주소 또는 도메인 이름을 비교합니다. 일치하는 메시지가 있으면 해당 받는 사람에게 메시지가 전송되지 않습니다.
-
-이는 악성 활동, 특히 Spamtrap 사용으로 인해 블랙리스트에 추가되지 않도록 하기 위한 것입니다. 예를 들어 웹 양식 중 하나를 통해 구독하는 데 Spamtrap을 사용하는 경우 확인 이메일이 자동으로 해당 Spamtrap으로 전송되어 사용자의 주소가 자동으로 블랙리스트에 추가됩니다.
+이것은 악성 활동, 특히 스팸 트랩의 사용으로 인해 차단되는 것을 막기 위한 것입니다. 예를 들어 웹 양식 중 하나를 통해 구독하는 데 Spamtrap을 사용하는 경우 확인 이메일이 자동으로 해당 Spamtrap으로 전송되어 사용자의 주소가 자동으로 차단됩니다.
 
 >[!NOTE]
 >
->글로벌 억제 목록에 포함된 주소 및 도메인 이름은 숨겨집니다. 제외된 받는 사람 수만 배달 분석 로그에 표시됩니다.
+>글로벌 제외 목록에 포함된 주소 및 도메인 이름은 숨겨집니다. 배달 분석 로그에는 제외된 받는 사람 수만 표시됩니다.
 
