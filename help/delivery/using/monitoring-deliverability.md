@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74e1a883088d347cb1aab05d76b630c912411fc4
+source-git-commit: f4d82657fbeae39af173c867975455669497d8eb
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Adobe Campaign에서 제공하는 기능을 사용하여 플랫폼 제공 여부
 
 다음 도구를 사용할 수도 있습니다.
 
-* 이 **[!UICONTROL Delivery throughput]** 보고서는 지정된 기간 동안 전체 플랫폼의 처리량에 대한 개요를 제공합니다. 자세한 내용은 [이 섹션을 참조하십시오](../../reporting/using/global-reports.md#delivery-throughput).
-* 이 **[!UICONTROL Technical deliverability monitoring]** 보고서에는 플랫폼용 전달 품질 지표가 여러 개 포함되어 있습니다. 자세한 내용은 [이 섹션을 참조하십시오](#technical-deliverability-monitoring).
+* 이 **[!UICONTROL Delivery throughput]** 보고서는 지정된 기간 동안 전체 플랫폼의 처리량에 대한 개요를 제공합니다. For more on this, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
+* 이 **[!UICONTROL Technical deliverability monitoring]** 보고서에는 플랫폼용 전달 품질 지표가 여러 개 포함되어 있습니다. For more on this, see [this section](#technical-deliverability-monitoring).
 * 각 배달은 서로 다른 인터넷 서비스 공급자(ISP)에 대한 브로드캐스트 통계 보고서를 생성합니다. 다음 숫자를 포함하여 배달능력에 영향을 줄 수 있는 데이터 품질 및 평판 지표를 보여줍니다.
    * **[!UICONTROL Hard bounces]** 데이터 품질을 나타냅니다. 이 숫자는 2% 미만이어야 합니다.
    * **[!UICONTROL Soft bounces]** 평판이 표시됩니다. 해당 ISP의 경우 이 숫자는 10%보다 높지 않아야 합니다.
