@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: adb25307146847a1c49d9c548d00557e95562541
+source-git-commit: b60b5fad24c1237981f66315e7cf585c79f82641
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,13 @@ ht-degree: 0%
 
 ## 이메일 첨부 파일 정보 {#about-email-attachments}
 
-하나 이상의 파일을 이메일 배달에 첨부할 수 있습니다. 두 가지 가능한 경우가 있습니다.
+하나 이상의 파일을 이메일 배달에 첨부할 수 있습니다.
+
+>[!NOTE]
+>
+>성능 문제를 방지하려면 이메일에 둘 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. 권장 임계값은 Campaign Classic 옵션 목록 [에서 구성할 수 있습니다](../../installation/using/configuring-campaign-options.md#delivery).
+
+두 가지 가능한 경우가 있습니다.
 
 * 파일을 선택하고 그대로 배달에 첨부합니다.
 * 각 수신자에 대해 첨부 파일의 컨텐츠를 개인화합니다. 이 경우 **계산된 첨부 파일을 만들어야 합니다**. 첨부 파일의 이름은 받는 사람에 따라 각 메시지를 배달할 때 계산됩니다. 가변 디지털 인쇄 옵션을 사용하는 경우 컨텐츠가 전달될 때 개인화되고 PDF **포맷으로 변환될** 수도 있습니다.
@@ -45,7 +51,7 @@ ht-degree: 0%
 >여러 파일을 게재할 수 있습니다. 첨부 파일 형식은 모든 포맷으로, zip 포맷으로 포함되어 있습니다.
 
 1. 링크를 **[!UICONTROL Attachments]** 클릭합니다.
-1. 단추를 **[!UICONTROL Add]** 클릭합니다.
+1. **[!UICONTROL Add]** 버튼을 클릭합니다. 
 1. 배달 **[!UICONTROL File...]** 에 첨부할 파일을 클릭하여 선택합니다.
 
    ![](assets/s_ncs_user_wizard_email_attachement.png)
@@ -92,7 +98,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
-   그런 다음 서버에서 파일을 사용하여 이 템플릿에서 만든 다른 배달물에 연결할 수 있습니다.
+그런 다음 서버에서 파일을 사용하여 이 템플릿에서 만든 다른 배달물에 연결할 수 있습니다.
 
 ### 개인화된 메시지 첨부 {#attach-a-personalized-message}
 
@@ -120,6 +126,10 @@ ht-degree: 0%
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
+>[!NOTE]
+>
+>성능 문제를 방지하려면, 개인화된 URL에서 즉시 다운로드한 이미지를 첨부 파일로 포함하는 경우 각 이미지 크기는 기본적으로 100,000바이트를 초과할 수 없습니다. 이 권장 임계값은 Campaign Classic 옵션 목록 [에서 구성할 수 있습니다](../../installation/using/configuring-campaign-options.md#delivery).
+
 ### 계산된 파일 첨부 {#attach-a-calculated-file}
 
 배달 준비 중에 첨부 이름을 계산할 수 있습니다. 이렇게 하려면 옵션을 선택합니다 **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]**.
@@ -131,7 +141,7 @@ ht-degree: 0%
 1. 첨부 파일에 적용할 레이블을 지정합니다.
 1. 파일의 액세스 경로와 정확한 이름을 정의 창에 지정합니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >파일이 서버에 있어야 합니다.
 
@@ -156,7 +166,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >파일이 서버에 있어야 합니다.
 
