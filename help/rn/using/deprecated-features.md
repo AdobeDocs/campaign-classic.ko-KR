@@ -8,13 +8,12 @@ products: SG_CAMPAIGN/CLASSIC
 audience: rn
 content-type: reference
 topic-tags: campaign-classic-deprecated-features
-discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
+source-git-commit: e46325ab8f68a0b71198aee9cf04f2b1eb97fdd3
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -22,11 +21,11 @@ ht-degree: 0%
 
 # 사용이 중단되거나 제거된 기능 {#deprecated-and-removed-features}
 
-Adobe는 항상 이전 버전과의 호환성을 신중하게 고려하여 전반적인 고객 가치를 향상시키기 위해 보다 현대적인 대체 요소로 대체해야 하는 기존 기능을 식별하기 위해 제품 기능을 지속적으로 평가합니다. Adobe Campaign Classic은 타사 툴과 연동되므로 지원되는 버전만 구현하기 위해 정기적으로 호환성이 업데이트됩니다. Adobe Campaign Classic과 더 이상 호환하지 않는 버전은 아래에 나와 있습니다.
+Adobe는 항상 이전 버전과의 호환성을 신중하게 고려하여 전반적인 고객 가치를 향상시키기 위해 보다 현대적인 대체 요소로 대체해야 하는 기존 기능을 식별하기 위해 제품 기능을 지속적으로 평가합니다. Adobe Campaign Classic은 타사 툴과 연동되므로 지원되는 버전만 구현하기 위해 정기적으로 호환성이 업데이트됩니다. Adobe Campaign Classic과 더 이상 호환하지 않는 버전은 아래 [및 호환성 매트릭스에 나와 있습니다](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
 Campaign Classic 기능의 곧 제거/교체를 전달하려면 다음 규칙이 적용됩니다.
 
-* 사용 중단 발표가 우선입니다. 더 이상 사용되지 않는 기능을 기존 사용자도 사용할 수 있지만 더 이상 향상된 기능 또는 문서화된 기능은 사용할 수 없습니다.
+* 사용 중단 발표가 우선입니다. 더 이상 사용되지 않는 기능을 계속 사용할 수 있으며 기존 사용자도 지원할 수 있지만 더 이상 향상된 기능 또는 문서화된 기능은 사용할 수 없습니다.
 * 더 이상 사용되지 않는 기능은 빠른 시일 내에 다음 릴리스에서 제거됩니다. 제거에 대한 실제 타겟 날짜가 이 페이지에 표시되어 있습니다.
 
 이 프로세스를 통해 고객은 실제 제거하기 전에 새로운 버전이나 더 이상 사용되지 않는 기능의 후속 버전에 맞게 구현을 조정할 수 있는 릴리스 주기를 적어도 하나 이상 확보할 수 있습니다.
@@ -34,85 +33,45 @@ Campaign Classic 기능의 곧 제거/교체를 전달하려면 다음 규칙이
 >[!NOTE]
 >Adobe Campaign 릴리스 및 새 기능은 릴리스 [노트에 나와 있습니다](../../rn/using/latest-release.md).
 
-
 ## Deprecated features {#deprecated-features}
 
 이 섹션에는 최신 Campaign Classic 릴리스에서 더 이상 사용되지 않는 것으로 표시된 기능 및 기능이 나열됩니다.
 
-일반적으로 향후 릴리스에서 제거될 예정인 기능은 먼저 가치가 하락하도록 설정되며, 여기에 대체 요소가 제공됩니다. 이러한 기능 및 기능은 더 이상 새 Campaign Classic 고객에게 사용할 수 없거나 새로운 구현에 사용해서는 안 됩니다. 또한 제품 설명서에서 제거됩니다.
+일반적으로 향후 릴리스에서 제거될 예정인 기능은 먼저 더 이상 사용되지 않도록 설정됩니다. 이러한 기능 및 기능은 더 이상 새 Campaign Classic 고객에게 사용할 수 없거나 새로운 구현에 사용해서는 안 됩니다. 또한 제품 설명서에서 제거됩니다.
 
-고객은 현재 배포에서 기능/기능을 사용하는지 검토하고 제공된 대체 요소를 사용하도록 구현을 변경할 계획을 수립하는 것이 좋습니다. 환경 및 프로젝트 업데이트를 계획하려면 대상 제거 날짜를 참조하십시오.
-
-### Adobe Campaign 18.6 릴리스 {#ac-18-6-release}
+고객은 현재 배포에서 기능/기능을 사용하는지 검토하고 구현 변경을 계획해야 합니다. 환경 및 프로젝트 업데이트를 계획하려면 대상 제거 날짜를 참조하십시오.
 
 <table> 
  <tbody> 
-  <tr> 
-   <td><strong>영역</strong></td>
-   <td><strong>기능</strong></td> 
+   <tr>
+   <td><strong>기능</strong></td>
    <td><strong>교체</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Javascript SDK 보안<br> </td>
-   <td>classyptString<br> </td>
-   <td><p>보안상의 이유로 <em>clyptString</em> API는 새로 설치할 때 기본적으로 사용할 수 없습니다.</p> 
-   <p>18.6 이상으로 업그레이드 후 컨텍스트에서 이 API는 더 이상 활성화되지 않으며 <em>암호 해독</em> 함수로 대체되었습니다.</p><br> </td>
-  </tr> 
+  </tr>
+   <tr>
+  <td>SMS 커넥터<br></td>
+  <td><p> 20.2 릴리스부터 다음 SMS 커넥터는 더 이상 사용되지 않습니다.<p>
+   <ul>
+   <li>NetSize</li>
+   <li>일반 SMPP(SMPP 버전 3.4 지원 바이너리 모드)</li>
+   <li>Sybase365(SAP SMS 365)</li>
+   <li>CLX 커뮤니케이션</li>
+   <li>Tele2</li>
+   <li>O2</li>
+   <li>iOS</li>
+   </ul>
+  <p>이러한 커넥터 중 하나를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../delivery/using/sms-channel.md">자세한 내용</a></p> 
+  <p>이 기술 문서에서 기존 커넥터를 마이그레이션하는 방법 <a href="https://helpx.adobe.com/campaign/kb/sms-connector.html">을 알아봅니다</a>.</p>
+  <p><em>대상 제거 날짜: 2021년</em></p>
+  </td> 
+ </tr>
+  <tr>  
+   <td>팩스 채널<br></td>
+   <td><p>20.2 릴리스부터 팩스 채널은 더 이상 사용되지 않습니다.</p> 
+   <p>이 채널을 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../delivery/using/communication-channels.md">캠페인 채널에 대해 자세히</a> 알아보십시오.</p>
+   <p><em>대상 제거 날짜: 2021년</em></p></td>
+  </tr>
  </tbody> 
 </table>
-
-### Adobe Campaign 18.4 릴리스 {#ac-18-4-release}
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>영역</strong></td>
-   <td><strong>기능</strong></td> 
-   <td><strong>교체</strong></td> 
-  </tr> 
-   <tr> 
-   <td>이메일 보관<br> </td>
-   <td>파일 기반 보관<br> </td>
-   <td><p>이제 전용 숨은 참조 이메일 주소를 통해 이메일 보관 기능을 사용할 수 있습니다. <a href="../../installation/using/email-archiving.md">자세한</a>내용</p> 
-   <p><em>대상 제거 날짜: Campaign 20.2 릴리스 - 2020년 6월</em></p><br> </td>
-  </tr> 
-   <tr> 
-   <td>리드 관리<br> </td>
-   <td>리드<br> </td>
-   <td><p>Adobe Campaign Classic의 리드 관리 패키지는 전체 리드 관리 라이프사이클을 작성하고 유지 관리하는 프로세스를 간소화했습니다. 유사한 기능은 다른 기본 워크플로우 활동 및 데이터 모델 수정을 통해 구현할 수 있습니다.</p> 
-   <p><em>대상 제거 날짜: Campaign 20.2 릴리스 - 2020년 6월</em></p><br> </td>
-  </tr> 
- </tbody> 
-</table>
-
-
-## 사용되지 않는 호환성 {#deprecated-compatibility}
-
-### Adobe Campaign 20.1 릴리스 {#compat-20-1-release}
-
-20.1 2월 릴리스부터 다음 시스템은 Campaign Classic에서 더 이상 사용되지 않습니다. 호환성은 20.2 릴리스 - 2020년 6월에 종료됩니다.
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>영역</strong></td>
-   <td><strong>교체</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Campaign Classic 클라이언트 콘솔 32비트<br> </td>
-   <td><p>Campaign Classic 클라이언트 콘솔 64비트</p><br> </td>
-  </tr> 
- </tbody> 
-</table>
-
-### Adobe Campaign 19.2 릴리스  {#compat-19-2-release}
-
-19.2 가을 릴리스부터 다음 운영 체제는 Campaign Classic에서 더 이상 사용되지 않습니다. 호환성은 2020년 EOY로 종료됩니다.
-
-* 웹 서버: Apache 2.2. [자세한 내용](https://wiki.centos.org/About/Product)
-* 운영 체제: CentOS 6. [자세한 내용](https://wiki.centos.org/About/Product)
-
-최신 버전으로 업그레이드하거나 새 시스템으로 이동하려면 [호환성 매트릭스를](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) 참조하십시오.
 
 ## 제거된 기능 {#removed-features}
 
@@ -123,40 +82,66 @@ Campaign Classic 기능의 곧 제거/교체를 전달하려면 다음 규칙이
   <tr> 
    <td><strong>영역 - 기능</strong></td>
    <td><strong>교체</strong></td> 
-   <td><strong>버전</strong></td> 
   </tr> 
    <tr> 
-   <td>캠페인 API 설명서 - jsapi.chm 파일<br> </td>
-   <td>이제 전용 페이지에서 Campaign Classic API를 사용할 수 있습니다. jsapi.chm 파일을 사용하는 경우 이제 새로운 온라인 버전 <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">을 참조해야 합니다</a>.</td>
-   <td>19.1</td>
+   <td>파일 기반의 이메일 아카이빙<br></td>
+   <td><p>Campaign 20.2 릴리스를 시작으로 파일 기반 이메일 보관을 더 이상 사용할 수 없습니다. 이제 전용 숨은 참조 이메일 주소를 통해 이메일 보관 기능을 사용할 수 있습니다. <a href="../../installation/using/email-archiving.md">자세한 내용</a></p></td>
+  </tr> 
+   <tr> 
+   <td>리드 관리</td>
+   <td><p>Campaign 20.2 릴리스를 시작하면 더 이상 리드 관리 패키지를 사용할 수 없습니다. 유사한 기능은 다른 기본 워크플로우 활동 및 데이터 모델 수정을 통해 구현할 수 있습니다.</p></td>
+   </tr>
+   <tr>
+   <td>캠페인 API 설명서 - jsapi.chm 파일</td>
+   <td>Campaign 19.1 릴리스를 시작하는 경우 전용 페이지에서 Campaign Classic API를 사용할 수 있습니다. 기존 jsapi.chm 파일을 사용하는 경우 이제 새 온라인 버전 <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">을 참조해야 합니다</a>.</td>
   </tr> 
   <tr> 
    <td>캠페인 통합 운영 - 예측 마케팅</td>
-   <td>예측 모델을 사용한 Adobe Campaign Classic의 예측 마케팅 기능은 많은 부분을 차지했습니다. 예측 마케팅 워크플로우 활동은 향후 버전에서 제거되지만 Adobe Campaign은 다른 워크플로우 활동을 통해 외부 소스의 예측 모델을 사용하고 사용할 수 있도록 계속 지원합니다.</td>
-   <td>18.10</td>
+   <td>Campaign 18.10 릴리스를 시작하면 더 이상 예측 마케팅 기능을 사용할 수 없습니다.</td>
   </tr> 
   <tr> 
    <td>웹 애플리케이션 - 마이크로사이트</td>
-   <td>Adobe Campaign 구성 파일의 전용 도메인에만 대한 액세스를 제한하여 보안을 향상시킵니다. DNS 별칭을 사용하여 Campaign에서 여전히 개인화된 URL을 사용할 수 있습니다. <a href="https://helpx.adobe.com/campaign/kb/domain-name-delegation.html">자세한</a>내용</td>
-   <td>18.10</td>
+   <td>Campaign 18.10 릴리스부터 Microsites를 더 이상 사용할 수 없습니다. Adobe Campaign 구성 파일의 전용 도메인에만 대한 액세스를 제한하여 보안을 강화하고, DNS 별칭을 사용하여 Campaign에서 개인화된 URL을 사용할 수 있습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html">자세한 내용</a></td>
   </tr> 
   <tr> 
-   <td>푸시 알림 - iOS 이진 커넥터<br> </td>
-   <td>Apple의 권장 사항에 따라 Adobe는 기존 iOS 이진 커넥터를 제거할 예정입니다. 보다 강력하고 효율적인 HTTP/2 기반 커넥터를 이미 사용할 수 있습니다.</td>
-   <td>18.10</td>
+   <td>푸시 알림 - iOS 이진 커넥터</td>
+   <td>Apple의 권장 사항에 따라 Adobe는 Campaign 18.10 릴리스에서 이전의 iOS 이진 커넥터를 제거했습니다. 보다 강력하고 효율적인 HTTP/2 기반 커넥터를 이미 사용할 수 있습니다.</td>
+  </tr> 
+  <tr> 
+   <td>암호 해독 문자열 API</td>
+   <td><p>보안상의 이유로 Campaign 18.6 릴리스를 시작하는 경우 <em>암호 해독String</em> API는 더 이상 새로 설치할 수 없습니다.</p> 
+   <p>18.6 이상으로 업그레이드 후 컨텍스트에서 이 API는 더 이상 활성화되지 않으며 <em>암호 해독</em> 함수로 대체되었습니다. <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/f-decryptPassword.html?hl=decrypt">자세한 내용</a></p></td>
   </tr> 
    <tr> 
    <td>모바일 채널 - MMS 및 WAP 푸시 메시지</td>
-   <td>MMS 및 Wap 푸시 채널을 더 이상 사용할 수 없습니다. 대신 <a href="../../delivery/using/sms-channel.md">SMS</a> 및 <a href="../../delivery/using/about-mobile-app-channel.md">푸시 전달을 활용할 수</a> 있습니다.</td>
-   <td>18.4</td>
+   <td>Campaign 18.4 릴리스를 시작하면 MMS 및 Wap 푸시 채널을 더 이상 사용할 수 없습니다. 대신 <a href="../../delivery/using/sms-channel.md">SMS</a> 및 <a href="../../delivery/using/about-mobile-app-channel.md">푸시 전달을 활용할 수</a> 있습니다.</td>
   </tr> 
    <tr> 
    <td>모바일 채널 - LINE v1</td>
-   <td>LINE Connect 패키지는 더 이상 Adobe Campaign Classic에서 설치할 수 없습니다. 새 LINE 채널 패키지를 사용하여 LINE 메시지를 보내는 것이 좋습니다. <a href="../../delivery/using/line-channel.md">자세한</a>내용</td>
-   <td>18.4</td>
+   <td>Campaign 18.4 릴리스를 시작하는 경우 LINE Connect 패키지를 더 이상 사용할 수 없습니다. 새 LINE 채널 패키지를 대체용으로 사용하는 것이 좋습니다. <a href="../../delivery/using/line-channel.md">자세한 내용</a></td>
   </tr> 
  </tbody> 
 </table>
+
+## 사용되지 않는 호환성 {#deprecated-compatibility}
+
+다음 시스템은 Campaign Classic에서 더 이상 사용되지 않습니다. 호환성이 종료되기 전에 [최신 버전으로 업그레이드하거나 새 시스템으로 이동하려면 호환성 매트릭스를](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) 참조하십시오.
+
+### Adobe Campaign 20.2 릴리스 {#compat-20-2-release}
+
+20.2 릴리스부터 다음 시스템은 Campaign Classic에서 더 이상 사용되지 않습니다. 호환성은 20.3 릴리스 - 2020년 9월에 종료됩니다.
+
+* 클라이언트 콘솔: Windows 7
+* 기존 SMS 커넥터(아래의 더 이상 사용되지 않는 기능 섹션 참조)
+
+### Adobe Campaign 19.2 릴리스  {#compat-19-2-release}
+
+19.2 릴리스부터 다음 운영 체제는 Campaign Classic에서 더 이상 사용되지 않습니다. 호환성은 2020년 EOY로 종료됩니다.
+
+* 웹 서버: Apache 2.2.
+* 운영 체제: CentOS 6.
+
+최신 버전으로 업그레이드하거나 새 시스템으로 이동하려면 [호환성 매트릭스를](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) 참조하십시오.
 
 ## 호환성 끝 {#end-of-compatibility}
 
@@ -171,27 +156,31 @@ Adobe Campaign Classic 클라이언트 콘솔은 편집기에서 더 이상 사�
 * Windows Server 2003, 2008, 2008 R2
 * Windows XP, Vista
 
+>[!NOTE]
+>Campaign 20.1 릴리스를 시작하는 경우, Campaign Classic 클라이언트 콘솔 32비트는 더 이상 Campaign 최신 버전과 호환되지 않습니다. 64비트 클라이언트 콘솔을 사용해야 합니다.
+
+
 ### 운영 체제 {#o-s-eol}
 
 19.1 릴리스부터 Adobe Campaign은 더 이상 다음 운영 체제와 호환되지 않습니다.
 
-* 데비안 7 [자세한](https://wiki.debian.org/DebianReleases)내용
-* RHEL 6.x. [자세한](https://access.redhat.com/support/policy/updates/errata)내용
-* Windows Server 2008. [자세한](https://support.microsoft.com/en-us/lifecycle/search/1163)내용
-* SLES 11. [자세한](https://www.suse.com/lifecycle)내용
+* 데비안 7 [자세한 내용](https://wiki.debian.org/DebianReleases)
+* RHEL 6.x. [자세한 내용](https://access.redhat.com/support/policy/updates/errata)
+* Windows Server 2008. [자세한 내용](https://support.microsoft.com/en-us/lifecycle/search/1163)
+* SLES 11. [자세한 내용](https://www.suse.com/lifecycle)
 
 ### 웹 서버 {#web-server-eol}
 
 19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 웹 서버와 호환되지 않습니다.
 
-* Microsoft IIS 7. [자세한](https://support.microsoft.com/en-us/lifecycle/search/810)내용
+* Microsoft IIS 7. [자세한 내용](https://support.microsoft.com/en-us/lifecycle/search/810)
 
 ### 툴 {#tools-eol}
 
 19.1 봄 릴리스를 시작으로 Adobe Campaign은 더 이상 다음 도구와 호환되지 않습니다.
 
-* Java JDK 7. [자세한](http://www.oracle.com/technetwork/java/javase/eol-135779.html)내용
-* Libre Office 3.5 / 4.3 / 5.x(다른 도구에 내장된 경우 제외) [자세한](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)내용
+* Java JDK 7. [자세한 내용](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
+* Libre Office 3.5 / 4.3 / 5.x(다른 도구에 내장된 경우 제외) [자세한 내용](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### 데이터베이스 엔진 {#dbe-eol}
 
@@ -203,30 +192,29 @@ Adobe는 편집기에서 더 이상 사용하지 않으므로 다음 데이터�
 
 19.1 봄 릴리스를 시작으로 Adobe Campaign은 다음 FDA 서버와 더 이상 호환되지 않습니다.
 
-* Oracle 11G. [자세한](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)내용
-* PostgreSQL 9.3. [자세한 내용](https://www.postgresql.org/support/versioning).
-* MySQL 5.5. &lt;[자세한 내용](http://www.fromdual.com/support-for-mysql-from-oracle).
-* DB2 9.5. [자세한 내용](http://www-01.ibm.com/support/docview.wss?uid=swg21168270).
-* Teradata 14 - 14.1. [자세한 내용](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068).
+* PostgreSQL 9.3. [자세한 내용](https://www.postgresql.org/support/versioning)
+* MySQL 5.5. [자세한 내용](http://www.fromdual.com/support-for-mysql-from-oracle)
+* DB2 9.5. [자세한 내용](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* Teradata 14 - 14.1. [자세한 내용](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)
 
 Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 않습니다.
 
-* DB2 UDB 9.5, 9.7. DB2의 최신 버전은 FDA(Federated Data Access)를 통해 지원됩니다. [자세한](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)내용
-* Oracle 9i, 10G R2. 최신 버전의 Oracle은 FDA(Federated Data Access)를 통해 지원됩니다. [자세한](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)내용
-* PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. 더욱 최신 버전의 PostgreSQL은 FDA(Federated Data Access)를 통해 지원됩니다. [자세한](https://www.postgresql.org/support/versioning)내용
-* MSSQL 2000, 2005, 2008 R2. 최신 버전의 SQL Server는 FDA(Federated Data Access)를 통해 지원됩니다. [자세한](https://support.microsoft.com/en-us/lifecycle/search/1044)내용
-* MySQL 5.1. 더 최신 버전의 MySQL은 FDA(Federated Data Access)를 통해 지원됩니다. [자세한](https://en.wikipedia.org/wiki/InfiniDB)내용
-* InfiniDB가 수명이 종료되었습니다. [자세한](https://www.mysql.com/support)내용
-* Teradata 13, 13.1. FDA(Federated Data Access)를 통해 보다 최신 버전의 Teradata가 지원됩니다. [자세한](https://www.info.teradata.com/download.cfm?ItemID=1007255)내용
-* 네테자 6.02, 7.0. 네테자는 결국 생을 마쳤다. [자세한](https://en.wikipedia.org/wiki/Netezza)내용
-* AsterData 5.0. AsterData가 수명이 만료되었습니다. [자세한](https://en.wikipedia.org/wiki/Aster_Data_Systems)내용
-* Sybase IQ 15.2, 15.4, 15.5 및 Sybase ASE 15.0이 지원됩니다. Sybase의 최신 버전은 FDA(Federated Data Access)를 통해 지원됩니다. [자세한](https://sites.google.com/site/dbatipsandtricks/time-tracker)내용
+* DB2 UDB 9.5, 9.7. DB2의 최신 버전은 FDA(Federated Data Access)를 통해 지원됩니다. [자세한 내용](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* Oracle 9i, 10G R2. 최신 버전의 Oracle은 FDA(Federated Data Access)를 통해 지원됩니다. [자세한 내용](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
+* PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. 더욱 최신 버전의 PostgreSQL은 FDA(Federated Data Access)를 통해 지원됩니다. [자세한 내용](https://www.postgresql.org/support/versioning)
+* MSSQL 2000, 2005, 2008 R2. 최신 버전의 SQL Server는 FDA(Federated Data Access)를 통해 지원됩니다. [자세한 내용](https://support.microsoft.com/en-us/lifecycle/search/1044)
+* MySQL 5.1. 더 최신 버전의 MySQL은 FDA(Federated Data Access)를 통해 지원됩니다. [자세한 내용](https://en.wikipedia.org/wiki/InfiniDB)
+* InfiniDB가 수명이 종료되었습니다. [자세한 내용](https://www.mysql.com/support)
+* Teradata 13, 13.1. FDA(Federated Data Access)를 통해 보다 최신 버전의 Teradata가 지원됩니다. [자세한 내용](https://www.info.teradata.com/download.cfm?ItemID=1007255)
+* 네테자 6.02, 7.0. 네테자는 결국 생을 마쳤다. [자세한 내용](https://en.wikipedia.org/wiki/Netezza)
+* AsterData 5.0. AsterData가 수명이 만료되었습니다. [자세한 내용](https://en.wikipedia.org/wiki/Aster_Data_Systems)
+* Sybase IQ 15.2, 15.4, 15.5 및 Sybase ASE 15.0이 지원됩니다. Sybase의 최신 버전은 FDA(Federated Data Access)를 통해 지원됩니다. [자세한 내용](https://sites.google.com/site/dbatipsandtricks/time-tracker)
 * HiveSQL을 통한 Hadoop: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic에서는 여전히 FDA(Federated Data Access)를 통해 HiveSQL을 통해 나열된 Hadoop 버전을 지원하지만, 이러한 버전은 다음과 병합됩니다. HortonWorks(HDP 2.4.X, 2.5.x, 2.6.x) 및 HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)
 
 **RDBMS 서버**
 
 Adobe Campaign은 다음 RDBMS 서버와 호환되지 않습니다.
-* Oracle 10GR2, 11G
+* Oracle 10GR2
 * PostgreSQL 9.0 - 9.3
 * SQL Server 2005
 * MySQL 5.1
