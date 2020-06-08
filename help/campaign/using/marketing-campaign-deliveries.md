@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: e31a0faf6c48e2d34ce47fc1cd5a23aae05aeebf
 workflow-type: tm+mt
-source-wordcount: '2928'
+source-wordcount: '2925'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![](assets/campaign_op_add_delivery.png)
 
-제안된 구성은 다양한 유형의 배달(DM, 이메일, 모바일 채널, 팩스 또는 전화)에 적합합니다.
+제안된 구성은 다양한 유형의 게재에 적합합니다. 다이렉트 메일, 이메일, 모바일 채널
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * 주요 타겟입니다. 자세한 내용은 워크플로우에서 [기본 대상 작성](#building-the-main-target-in-a-workflow) 및 대상 모집단 [선택을 참조하십시오](#selecting-the-target-population).
 * 제어 그룹입니다. 자세한 내용은 제어 그룹 [정의를 참조하십시오](#defining-a-control-group).
-* 시드 주소는 For more on this, refer to [this section](../../delivery/using/about-seed-addresses.md).
+* 시드 주소는 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/about-seed-addresses.md)을 참조하십시오.
 
 이 정보 중 일부는 템플릿에서 상속됩니다.
 
@@ -210,7 +210,7 @@ ht-degree: 0%
 캠페인 수준에서 제어 그룹을 정의할 수 있습니다. 이 경우 제어 그룹이 해당 캠페인의 각 전달에 적용됩니다.
 
 1. 관련 캠페인을 편집하고 **[!UICONTROL Edit]** 탭을 클릭합니다.
-1. 클릭 **[!UICONTROL Advanced campaign settings]**.
+1. **[!UICONTROL Advanced campaign settings]**&#x200B;을 클릭합니다.
 
    ![](assets/s_ncs_user_edit_op_target.png)
 
@@ -314,7 +314,7 @@ ht-degree: 0%
 ![](assets/s_ncs_user_file_valid_select_BAT.png)
 
 
-* 교정본을 만들려면 **[!UICONTROL Send a proof]** 단추를 클릭합니다.
+* Click the **[!UICONTROL Send a proof]** button to create the proofs.
 
    증명 대상을 미리 정의해야 합니다.
 
@@ -413,7 +413,7 @@ ht-degree: 0%
 >
 >이 탭이 없으면 이 캠페인에 이 기능을 사용할 수 없습니다. 캠페인 템플릿 구성을 참조하십시오.
 >   
->자세한 내용은 [캠페인 템플릿을 참조하십시오](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>For more on this, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 ![](assets/s_ncs_user_op_composition_link.png)
 
