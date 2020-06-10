@@ -69,7 +69,7 @@ ht-degree: 0%
 * PostgreSQL **또는** DB2 **** 엔진의 경우 데이터베이스 서버에 액세스하려면 응용 프로그램 서버에 정의된 DNS 이름(또는 IP 주소)을 지정해야 합니다.
 * Microsoft **SQL Server** 엔진의 경우 다음을 정의해야 합니다.
 
-   1. 데이터베이스 서버에 액세스하기 위해 응용 프로그램 서버에 정의된 DNS 이름(또는 IP 주소): **DNS** 또는 **DNS\`<instance>`**(인스턴스 모드),
+   1. 데이터베이스 서버에 액세스하기 위해 응용 프로그램 서버에 정의된 DNS 이름(또는 IP 주소): **DNS** 또는 **DNS\ `<instance>`**(인스턴스 모드),
    1. Microsoft SQL Server에 액세스하는 데 사용되는 인증 방법: **[!UICONTROL SQL Server authentication]** 또는 **[!UICONTROL Windows NT authentication]**.
 
       ![](assets/s_ncs_install_db_mssql_creation01.png)
