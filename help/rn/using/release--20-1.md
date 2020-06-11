@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e20d44fe02771e8723ae396ff8cb5845c68de471
+source-git-commit: 6ce00d34ecbdfa6a13593772ffa1850768ad6e45
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 1%
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 마지막 **안정적인 빌드는** 9032(3a9dc9c)입니다. 여기를 [클릭하십시오](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/do-not-localize/blue_2.png) 릴리스 20.1.3 - 빌드 9124 {#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1.3 - 빌드 9124 {#release-20-1-3-build-9124}
 
 _2020년 5월 6일_
 
@@ -174,13 +174,13 @@ _2020년 2월 17일_
 
 * 조합 워크플로우 활동에서 열 **조정 옵션** 선택 **을 사용할 때 발생하는** 문제를 수정했습니다.
 
-* Fixed a console crash issue that could occur when using a corrupted enrichment list in a workflow. (NEO-18096)
+* 워크플로에서 손상된 우라늄 목록을 사용할 때 발생할 수 있는 콘솔 충돌 문제가 해결되었습니다. (NEO-18096)
 
 * 워크플로우에서 발생할 수 있는 다양한 콘솔 충돌 문제가 해결되었습니다(NEO-18010, NEO-18032).
 
 * 외부 신호 **** 워크플로우 활동이 비활성화되었을 때도 실행을 허용하는 문제를 수정했습니다. (NEO-17524)
 
-* Fixed an issue when creating a new schema.
+* 새 스키마를 만들 때 발생하는 문제를 수정했습니다.
 
 * SMS 메시지를 보낼 때 발생하는 추적 문제가 해결되었습니다. (NEO-19595)
 
@@ -190,7 +190,7 @@ _2020년 2월 17일_
 
 * 시간 보기 매개 변수 시 배달 처리량 보고서가 다른 숫자를 표시하는 문제를 해결했습니다. (NEO-11783)
 
-* Fixed an issue that prevented the transactional messages tracking indicators from being updated by the Tracking workflow. (NEO-17770)
+* 추적 워크플로에서 트랜잭션 메시지 추적 표시기가 업데이트되지 않는 문제를 해결했습니다. (NEO-17770)
 
 * SOAP를 통해 오퍼를 요청할 때 웹 프로세스가 중단되고 다시 시작되는 회귀 문제를 해결했습니다. (NEO-19482)
 
@@ -206,7 +206,7 @@ _2020년 2월 17일_
 
 * 태그 외부에서 &#39;if&#39; 문을 사용할 때 이메일이 전송되지 않던 문제를 `body` 수정했습니다.
 
-* Fixed an issue that occurred when trying to display the mirror page from the delivery logs of a sent message. (NEO-17976)
+* 보낸 메시지의 배달 로그에서 미러 페이지를 표시하려고 할 때 발생하던 문제를 수정했습니다. (NEO-17976)
 
 * 게재에서 HTML 가져오기를 클릭한 후 **텍스트 컨텐츠** 탭에 페이지 **** 개인화 블록을 미러링하는 **링크가 표시되지 않는** 문제를해결했습니다. (NEO-17568)
 
@@ -214,12 +214,12 @@ _2020년 2월 17일_
 
 * 일부 단추가 **데이터 배포** 생성 화면에서 사용되지 않는 문제를 해결했습니다.
 
-* Fixed an issue that occurred when scheduling a delivery activity in an instance with Asia/Kolkata as the time zone. (NEO-20001)
+* 아시아/콜카타 인스턴스의 배달 활동을 시간대로 예약할 때 발생하는 문제를 수정했습니다. (NEO-20001)
 
-* An error is now displayed when a delivery has an affinity configuration issue.
+* 이제 게시에 친화성 구성 문제가 있을 때 오류가 표시됩니다.
 
-* Fixed an issue which displayed an incorrect version tag number in the **About** menu.
+* 정보 메뉴에 잘못된 버전 태그 번호가 표시되던 **문제를** 수정했습니다.
 
-* Fixed an issue that occurred when trying to update the routing account from a recurring delivery&#39;s properties in a workflow. (NEO-18684)
+* 워크플로우의 반복 배달 속성에서 라우팅 계정을 업데이트하려고 할 때 발생하는 문제를 수정했습니다. (NEO-18684)
 
 * 리디렉션 모듈을 통해 인스턴스에 연결할 때 발생하던 문제가 해결되었습니다.
