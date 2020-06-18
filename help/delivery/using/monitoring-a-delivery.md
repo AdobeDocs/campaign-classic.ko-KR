@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
+source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
 workflow-type: tm+mt
 source-wordcount: '2602'
 ht-degree: 1%
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 ### Tracking logs {#tracking-logs}
 
-이 게재의 추적 내역이 **[!UICONTROL Tracking]** 탭에 나열됩니다. 이 탭에는 전송된 메시지(예: Adobe Campaign에 의해 추적되는 모든 URL)에 대한 추적 데이터가 표시됩니다. 추적 데이터는 시간별로 업데이트됩니다.
+이 게재의 추적 내역이 **[!UICONTROL Tracking]** 탭에 나열됩니다. 이 탭에는 전송된 메시지(예: Adobe Campaign별로 추적되는 모든 URL)에 대한 추적 데이터가 표시됩니다. 추적 데이터는 시간별로 업데이트됩니다.
 
 >[!NOTE]
 >
@@ -95,9 +95,9 @@ ht-degree: 1%
 일부 지표 또는 상태는 정확하지 않거나 최신 상태가 아닐 수 있습니다. 이 문제는 다음 솔루션으로 해결될 수 있습니다.
 
 * 배달 상태가 잘못된 경우, 이 배달에 필요한 모든 승인이 완료되었는지 또는 **[!UICONTROL operationMgt]** 및 워크플로우가 오류 없이 실행 중인지 **[!UICONTROL deliveryMgt]** 확인하십시오. 이것은 전송 인스턴스에서 구성되지 않은 친화성을 사용한 배달 때문일 수도 있습니다.
-* 배달 지표가 여전히 0이고 중간 소싱 구성인 경우 **[!UICONTROL Mid-sourcing (delivery counters)]** 기술 워크플로우를 확인하십시오. 상태가 아닐 경우 시작합니다 **[!UICONTROL Started]**. 그런 다음 Adobe Campaign 탐색기에서 관련 배달을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]** > 을 선택하여 지표를 재계산할 수 **[!UICONTROL Recompute delivery and tracking indicators]**&#x200B;있습니다. 추적 표시기에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../reporting/using/delivery-reports.md#tracking-indicators).
-* 배달 카운터가 게재와 일치하지 않는 경우 Adobe Campaign 탐색기에서 관련 전달을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]** > 을 선택하여 다시 동기화하여 지표 **[!UICONTROL Recompute delivery and tracking indicators]** 를 재계산해 보십시오. 추적 표시기에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../reporting/using/delivery-reports.md#tracking-indicators).
-* 중간 소싱 배포에 대한 배달 카운터가 최신 상태가 아닌 경우 **[!UICONTROL Mid-Sourcing (Delivery counters)]** 기술 워크플로우가 실행 중인지 확인하십시오. 자세한 내용은 이 [페이지를 참조하십시오](../../installation/using/mid-sourcing-deployment.md).
+* 배달 지표가 여전히 0이고 중간 소싱 구성인 경우 **[!UICONTROL Mid-sourcing (delivery counters)]** 기술 워크플로우를 확인하십시오. 상태가 아닐 경우 시작합니다 **[!UICONTROL Started]**. 그런 다음 Adobe Campaign 탐색기에서 관련 배달을 마우스 오른쪽 단추로 클릭하고 > **[!UICONTROL Actions]** 을 선택하여 지표를 재계산할 수 있습니다 **[!UICONTROL Recompute delivery and tracking indicators]**. 추적 표시기에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../reporting/using/delivery-reports.md#tracking-indicators).
+* 배달 카운터가 배달과 일치하지 않는 경우 Adobe Campaign 탐색기에서 관련 전달을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]** > 을 선택하여 다시 동기화하여 지표 **[!UICONTROL Recompute delivery and tracking indicators]** 를 재계산해 보십시오. 추적 표시기에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../reporting/using/delivery-reports.md#tracking-indicators).
+* 중간 소싱 배포에 대한 배달 카운터가 최신 상태가 아닌 경우 **[!UICONTROL Mid-Sourcing (Delivery counters)]** 기술 워크플로우가 실행 중인지 확인하십시오. For more on this, refer to this [page](../../installation/using/mid-sourcing-deployment.md).
 
 배달 대시보드를 통해 다른 보고서로 배달 내용을 추적할 수도 있습니다. For more on this, refer to this [section](../../reporting/using/delivery-reports.md).
 
@@ -109,20 +109,20 @@ ht-degree: 1%
 
 * **배달**&#x200B;크기: 큰 배달은 완료하는 데 더 오래 걸릴 수 있습니다. MTA 하위는 대부분의 인스턴스에서 작동하는 기본 배치 크기를 처리하도록 구성되지만 배달이 지속적으로 느려질 때 확인해야 합니다.
 * **배달**&#x200B;대상: 배달 성능 제한은 다시 시도 구성에 따라 처리되는 소프트 바운스 오류로 인해 영향을 받습니다. 오류 수가 많을수록 더 많은 재시도가 필요합니다.
-* **전체 플랫폼 로드**: 여러 개의 큰 배달이 전송되면 전체 플랫폼에 영향을 줄 수 있습니다. 또한 IP 명성과 전달 가능성 문제를 확인할 수 있습니다. 자세한 내용은 Adobe Campaign 전달 [기능 모범 사례 가이드](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 및 [이 페이지를 참조하십시오](../../delivery/using/about-deliverability.md).
+* **전체 플랫폼 로드**: 여러 개의 큰 배달이 전송되면 전체 플랫폼에 영향을 줄 수 있습니다. 또한 IP 명성과 전달 가능성 문제를 확인할 수 있습니다. 자세한 내용은 Adobe Campaign 제공 [우수 사례 가이드](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 및 [이 페이지를 참조하십시오](../../delivery/using/about-deliverability.md).
 
-플랫폼 및 데이터베이스 유지 관리도 배달 전송 성능에 영향을 줄 수 있습니다. For more on this, refer to [this page](../../production/using/database-performances.md).
+Platform 및 데이터베이스 유지 관리는 배달 전송 성능에 영향을 줄 수 있습니다. For more on this, refer to [this page](../../production/using/database-performances.md).
 
 ### 느린 전달 {#slow-deliveries}
 
 이 **[!UICONTROL Send]** 단추를 클릭하면 배달이 평소보다 오래 걸리는 것 같습니다. 이 문제는 다음과 같은 여러 요소로 인해 발생할 수 있습니다.
 
-* 일부 이메일 공급자가 사용자의 IP 주소를 차단했을 수 있습니다. 이 경우 브로드캐스트를 확인하고 [이 시작을 참조하십시오](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) .
-* 배달이 너무 커서 빠르게 처리할 수 없을 수도 있고, 높은 JavaScript 개인화를 통해 또는 배달 무게가 60KB 이상인 경우 이러한 문제가 발생할 수 있습니다. 컨텐츠 지침에 대한 자세한 내용은 Adobe Campaign [게재](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) 모범 사례를 참조하십시오.
+* 일부 이메일 공급자가 사용자의 IP 주소를 블록 목록에 추가했을 수 있습니다. 이 경우 브로드로그를 확인하고 [이 섹션을 참조하십시오](../../delivery/using/about-deliverability.md).
+* 배달이 너무 커서 빠르게 처리할 수 없을 수도 있고, 높은 JavaScript 개인화를 통해 또는 배달 무게가 60KB 이상인 경우 이러한 문제가 발생할 수 있습니다. 컨텐츠 지침에 대한 자세한 내용은 Adobe Campaign [전달](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) 우수 사례를 참조하십시오.
 * Adobe Campaign MTA 내에서 조절이 발생했을 수 있습니다. 이 문제는 다음과 같습니다.
 
    * 보류 중인 메시지(**[!UICONTROL quotas met]** 메시지): Campaign에 정의된 선언적 MX 규칙으로 선언된 할당량이 충족되었습니다. 이 메시지에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ). MX 규칙에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../delivery/using/technical-recommendations.md#mx-rules).
-   * 보류 중인 메시지(**[!UICONTROL dynamic flow control]** 메시지): 캠페인 MTA가 지정된 ISP에 대한 메시지를 전달하려고 할 때 오류가 발생하여 오류 밀도가 너무 커서 잠재적인 블랙리스트에 노출되지 않습니다.
+   * 보류 중인 메시지(**[!UICONTROL dynamic flow control]** 메시지): 캠페인 MTA가 지정된 ISP에 대한 메시지를 전달하려고 할 때 오류가 발생하여 오류 밀도가 너무 커 잠재적 블록 목록이 표시됩니다.
 
 * 시스템 문제로 인해 서버가 서로 상호 작용할 수 없습니다. 이렇게 하면 전송 프로세스가 느려질 수 있습니다. 예를 들어 개인화 데이터를 가져오는 과정에서 Campaign에 영향을 줄 수 있는 메모리 또는 리소스 문제가 없는지 서버를 확인하십시오.
 
@@ -166,7 +166,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 무시됨<br /> </td> 
-   <td> 주소가 잘못되어 배달이 받는 사람에게 전송되지 않았습니다. 차단됨, 격리됨, 제공되지 않음 또는 복제됨. <br /> </td> 
+   <td> 주소가 잘못되어 배달이 받는 사람에게 전송되지 않았습니다. 블록 목록에 추가되었거나, 격리되었거나, 제공되지 않으며, 복제되었습니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> 전송<br /> </td> 
@@ -203,7 +203,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한 자세한 내용은 Adobe Campaign [전달 방법 모범 사례 가이드](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 및 [이 페이지를 참조하십시오](../../delivery/using/about-deliverability.md).
+Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한 자세한 내용은 Adobe Campaign 전달 [능력 모범 사례 가이드](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 및 [이 페이지를 참조하십시오](../../delivery/using/about-deliverability.md).
 
 ### 보류 중 상태 {#pending-status}
 
@@ -262,7 +262,7 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한
 
    이 문제를 해결하려면 사용된 개인화 데이터를 확인한 다음 해당 필드에 대해 둘 이상의 항목이 있는 수신자의 대상을 확인하십시오. 배달 활동 전에 타깃팅 워크플로우에서 **[!UICONTROL Deduplication]** 활동을 사용하여 한 번에 하나의 개인화 필드만 있는지 확인할 수도 있습니다. 데이터 중복 제거에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../workflow/using/deduplication.md).
 
-* 일부 배달은 &quot;연결할 수 없음&quot; 오류로 실패할 수 있습니다. &quot;인바운드 이메일 바운스(규칙 &#39;자동 응답&#39;이 이 바운스와 일치함). 즉, 배달에 성공했지만 Adobe Campaign이 &#39;자동 회신&#39; 인바운드 이메일 규칙과 일치하는 수신자(&quot;부재 중&quot; 응답)로부터 자동 회신을 수신했음을 의미합니다. 자동 회신 이메일은 Adobe Campaign에서 무시되며 수신자의 주소는 격리조치에 보내지 않습니다.
+* 일부 배달은 &quot;연결할 수 없음&quot; 오류로 실패할 수 있습니다. &quot;인바운드 이메일 바운스(규칙 &#39;자동 응답&#39;이 이 바운스와 일치함). 즉, 배달에 성공했지만 Adobe Campaign이 &#39;자동 회신&#39; 인바운드 이메일 규칙과 일치하는 받는 받는 사람(예: &quot;부재 중&quot; 응답)으로부터 자동 회신을 수신했음을 의미합니다. 자동 회신 이메일은 Adobe Campaign에서 무시되며 수신자의 주소는 격리조치에 보내지 않습니다.
 
 **관련 항목:**
 
