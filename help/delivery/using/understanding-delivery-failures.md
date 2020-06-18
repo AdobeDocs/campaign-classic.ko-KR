@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
+source-git-commit: 9c26ef0b520c6486d86e73cb93612cc7ab9556d0
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2450'
 ht-degree: 1%
 
 ---
@@ -27,15 +27,15 @@ ht-degree: 1%
 
 ## 배달 실패 정보 {#about-delivery-failures}
 
-메시지(이메일, SMS, 푸시 알림)를 프로필에 보낼 수 없는 경우 원격 서버는 오류 메시지를 자동으로 전송합니다. 오류 메시지는 Adobe Campaign 플랫폼에서 선택했으며 이메일 주소 또는 전화 번호를 격리할지 여부를 결정할 수 있습니다. 바운스 [메일 관리를 참조하십시오](#bounce-mail-management).
+메시지(이메일, SMS, 푸시 알림)를 프로필에 보낼 수 없는 경우 원격 서버는 오류 메시지를 자동으로 전송합니다. 오류 메시지는 Adobe Campaign 플랫폼에 의해 선택되며 이메일 주소 또는 전화 번호를 격리할 것인지 여부를 결정할 수 있습니다. 바운스 [메일 관리를 참조하십시오](#bounce-mail-management).
 
 >[!NOTE]
 >
->이메일 오류 메시지(또는 &quot;바운스 수&quot;)는 inMail 프로세스에서 인증됩니다. SMS 오류 메시지(또는 &quot;상태 보고서&quot;의 &quot;SR&quot;)는 MTA 프로세스에서 인증합니다.
+>이메일 오류 메시지(또는 &quot;바운스 수&quot;)는 inMail 프로세스에서 인증합니다. SMS 오류 메시지(또는 &quot;상태 보고서&quot;의 &quot;SR&quot;)는 MTA 프로세스에서 인증합니다.
 
 메시지가 전송되면 배달 로그를 통해 각 프로필에 대한 배달 상태 및 관련 오류 유형 및 이유를 볼 수 있습니다.
 
-주소가 격리되거나 프로필이 차단되는 경우에도 배달 준비 중에 메시지를 제외할 수 있습니다. 제외된 메시지는 배달 대시보드에 나열됩니다.
+또한 주소가 격리되거나 프로필이 차단 목록에 있을 경우 배달 준비 중에 메시지를 제외할 수 있습니다. 제외된 메시지는 배달 대시보드에 나열됩니다.
 
 **관련 항목:**
 
@@ -86,10 +86,10 @@ ht-degree: 1%
    <td> 이 주소의 품질 등급이 너무 낮습니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 차단된 주소 </td> 
+   <td> 차단 목록의 주소 </td> 
    <td> 하드 </td> 
    <td> 8 </td> 
-   <td> 발송 시간에 주소가 차단되었다. 이 상태는 데이터를 Adobe 캠페인 격리 목록으로 가져올 때 외부 목록 및 외부 시스템에서 데이터를 가져오는 데 사용됩니다.<br /> </td> 
+   <td> 주소를 보낼 때 차단 목록에 추가했습니다. 이 상태는 외부 목록 및 외부 시스템의 데이터를 Adobe Campaign 격리 목록으로 가져오는 데 사용됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 제어 주소 </td> 
@@ -107,7 +107,7 @@ ht-degree: 1%
    <td> 오류가 무시됨 </td> 
    <td> 무시됨 </td> 
    <td> 25 </td> 
-   <td> 주소가 허용 목록에 포함되어 있습니다. 따라서 오류가 무시되고 이메일이 전송됩니다.<br /> </td> 
+   <td> 주소는 허용 목록에 있습니다. 따라서 오류가 무시되고 이메일이 전송됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 중재 후 제외 </td> 
@@ -158,7 +158,7 @@ ht-degree: 1%
    <td> 스팸 보고서로 보안 피드백이 발생하여 주소가 격리되었습니다. 이 오류에 따르면, 이 주소는 오류 카운터가 5에 도달하거나 검역소에 직접 보내질 때까지 다시 시도됩니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 타겟의 크기가 제한됨 </td> 
+   <td> Target 크기 제한 </td> 
    <td> 무시됨 </td> 
    <td> 17 </td> 
    <td> 받는 사람의 최대 배달 크기에 도달했습니다.<br /> </td> 
@@ -200,14 +200,14 @@ ht-degree: 1%
 
 메시지는 전송 후 즉시(동기 오류) 또는 나중에 실패할 수 있습니다(비동기 오류).
 
-* 동기 오류: Adobe Campaign 게재 서버가 연결한 원격 메일 서버에서 오류 메시지를 바로 반환했습니다. 게재를 프로필 서버로 보낼 수 없습니다. Adobe Campaign은 해당 이메일 주소를 격리할지 여부를 결정하기 위해 각 오류를 분류합니다. 바운스 [메일 자격 조건을 참조하십시오](#bounce-mail-qualification).
+* 동기 오류: Adobe Campaign 배달 서버가 연결한 원격 메일 서버에서 오류 메시지를 바로 반환했습니다. 전달을 프로필 서버로 보낼 수 없습니다. Adobe Campaign은 해당 이메일 주소를 격리할지 여부를 결정하기 위해 각 오류를 찾습니다. 바운스 [메일 자격 조건을 참조하십시오](#bounce-mail-qualification).
 * 비동기 오류: 바운스 메일 또는 SR이 받는 서버에서 나중에 다시 전송되었습니다. 이 메일은 응용 프로그램에서 오류 메시지를 레이블하는 데 사용하는 기술 사서함으로 로드됩니다. 배달을 보낸 후 1주일까지 비동기 오류가 발생할 수 있습니다.
 
    >[!NOTE]
    >
    >바운스 사서함의 구성은 [이 섹션에 자세히 설명되어 있습니다](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-   피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸으로 자격이 되면 Adobe Campaign의 이메일 규칙이 이 사용자에 대한 모든 제공을 차단하도록 구성할 수 있습니다. 스팸으로 이메일을 자격이 부여된 사용자에게 보낸 메시지는 이 용도로 특별히 제작된 이메일 상자로 자동으로 리디렉션됩니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않아도 블랙리스트에 포함됩니다. 주소는 (**NmsAddress**) 격리 테이블에서 차단되고 (NmsRecipient **) 수신자 테이블이**&#x200B;아닙니다.
+   피드백 [루프는](../../delivery/using/technical-recommendations.md#feedback-loop) 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸으로 자격이 되면 Adobe Campaign의 이메일 규칙을 구성하여 이 사용자에 대한 모든 배달을 차단할 수 있습니다. 스팸으로 이메일을 자격이 부여된 사용자에게 보낸 메시지는 이 용도로 특별히 제작된 이메일 상자로 자동으로 리디렉션됩니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않아도 블록 목록에 있습니다. 주소는 (**NmsAddress**) 검역표의 블록 목록에 있고 (NmsRecipient **) 받는 사람**&#x200B;표에 있지 않습니다.
 
    >[!NOTE]
    >
@@ -215,13 +215,13 @@ ht-degree: 1%
 
 ## 바운스 메일 관리 {#bounce-mail-management}
 
-Adobe Campaign 플랫폼을 사용하면 바운스 메일 기능을 통해 이메일 배달 오류를 관리할 수 있습니다. 받는 사람에게 이메일을 배달할 수 없는 경우 원격 메시징 서버는 이 용도로 설계된 기술 받은 편지함에 오류 메시지(바운스 메일)를 자동으로 반환합니다. 오류 메시지는 Adobe Campaign 플랫폼에 의해 수집되며, 이메일 프로세스에서 이메일 관리 규칙 목록을 보완할 수 있습니다
+Adobe Campaign 플랫폼을 사용하면 바운스 메일 기능을 통해 이메일 배달 오류를 관리할 수 있습니다. 받는 사람에게 이메일을 배달할 수 없는 경우 원격 메시징 서버는 이 용도로 설계된 기술 받은 편지함에 오류 메시지(바운스 메일)를 자동으로 반환합니다. 오류 메시지는 Adobe Campaign 플랫폼에 의해 수집되며 inMail 프로세스에서 이메일 관리 규칙 목록을 보완할 수 있습니다.
 
 ### 바운스 메일 자격 조건 {#bounce-mail-qualification}
 
-이메일 배달이 실패하면 Adobe Campaign 게재 서버는 메시징 서버 또는 원격 DNS 서버로부터 오류 메시지를 수신합니다. 오류 목록은 원격 서버에서 반환된 메시지에 포함된 문자열로 구성됩니다. 각 오류 메시지에 실패 유형 및 이유가 할당됩니다.
+이메일 배달이 실패하면 Adobe Campaign 배달 서버는 메시징 서버 또는 원격 DNS 서버로부터 오류 메시지를 수신합니다. 오류 목록은 원격 서버에서 반환된 메시지에 포함된 문자열로 구성됩니다. 각 오류 메시지에 실패 유형 및 이유가 할당됩니다.
 
-이 목록은 노드를 통해 사용할 수 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 있습니다. 여기에는 Adobe Campaign에서 게재 실패를 검증하기 위해 사용하는 모든 규칙이 포함됩니다. 비배타적 방식이며 Adobe Campaign에서 정기적으로 업데이트되며 사용자가 관리할 수도 있습니다.
+이 목록은 노드를 통해 사용할 수 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 있습니다. 여기에는 Adobe Campaign이 배달 실패를 검증하기 위해 사용하는 모든 규칙이 포함됩니다. 이는 비배타적 방식이며, Adobe Campaign에 의해 정기적으로 업데이트되며 사용자가 관리할 수도 있습니다.
 
 ![](assets/tech_quarant_rules_qualif.png)
 
@@ -258,7 +258,7 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 컨텐츠(예: ID, 날
 * Webhook/EFS **가 없는 향상된 MTA를 사용하는 인스턴스의 경우****[!UICONTROL Inbound email]** 규칙을 사용하여 비동기 바운스 이메일과 동일한 이메일 주소를 사용하여 향상된 MTA에서 들어오는 동기 바운스 이메일을 처리하는 데도 사용됩니다.
 >
 >
-Adobe Campaign 향상된 MTA에 대한 자세한 내용은 [이 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+향상된 MTA Adobe Campaign에 대한 자세한 내용은 [이 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
 
 ### 이메일 관리 규칙 {#email-management-rules}
 
@@ -282,7 +282,7 @@ Adobe Campaign 향상된 MTA에 대한 자세한 내용은 [이 문서를 참조
 
 이러한 규칙에는 원격 서버에서 반환할 수 있는 문자 문자열 목록이 포함되어 있어 오류를 평가할 수 있습니다(**하드**, 소프트 **** 또는 **무시됨**).
 
-이메일이 실패하면 원격 서버는 플랫폼 매개 변수에 지정된 주소로 바운스 메시지를 반환합니다. Adobe Campaign은 각 바운스 메일에 대한 컨텐츠를 규칙 목록의 문자열에 있는 내용과 비교한 다음 세 가지 [오류 유형 중 하나를 할당합니다](#delivery-failure-types-and-reasons).
+이메일이 실패하면 원격 서버는 플랫폼 매개 변수에 지정된 주소로 바운스 메시지를 반환합니다. Adobe Campaign은 각 바운스 메일의 내용을 규칙 목록의 문자열에 있는 내용과 비교하고 세 가지 [오류 유형 중 하나를 할당합니다](#delivery-failure-types-and-reasons).
 
 >[!NOTE]
 >
@@ -292,18 +292,18 @@ Adobe Campaign 향상된 MTA에 대한 자세한 내용은 [이 문서를 참조
 
 >[!IMPORTANT]
 >
->호스팅 또는 하이브리드 설치의 경우, 향상된 MTA로 업그레이드한 경우, 인스턴스에 **Webhook/EFS** 기능이 있는 경우 **[!UICONTROL Inbound email]** 동기 배달 실패 오류 메시지에 더 이상 규칙이 사용되지 않습니다. 자세한 내용은 [이 섹션을 참조하십시오](#bounce-mail-qualification).
+>호스팅 또는 하이브리드 설치의 경우, 향상된 MTA로 업그레이드한 경우, 인스턴스에 **Webhook/EFS** 기능이 있는 경우 **[!UICONTROL Inbound email]** 동기 배달 실패 오류 메시지에 더 이상 규칙이 사용되지 않습니다. For more on this, see [this section](#bounce-mail-qualification).
 >
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 [이 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>향상된 MTA Adobe Campaign에 대한 자세한 내용은 [이 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
 
 #### 도메인 관리 {#domain-management}
 
-Adobe Campaign 메시지 서버는 모든 도메인에 단일 **도메인 관리** 규칙을 적용합니다.
+Adobe Campaign 메시징 서버는 모든 도메인에 단일 **도메인 관리** 규칙을 적용합니다.
 
 <!--![](assets/tech_quarant_domain_rules_02.png)-->
 
 * 특정 식별 표준 및 암호화 키를 활성화할지 여부를 선택하여 **발신자 ID**, 도메인 키 **,** DKIM **및** S/MIME **등과 같은 도메인 이름을 확인할 수**&#x200B;있습니다.
-* SMTP **릴레이** 매개 변수를 사용하여 특정 도메인에 대한 릴레이 서버의 IP 주소와 포트를 구성할 수 있습니다. 자세한 내용은 [이 섹션을 참조하십시오](../../installation/using/configuring-campaign-server.md#smtp-relay).
+* SMTP **릴레이** 매개 변수를 사용하여 특정 도메인에 대한 릴레이 서버의 IP 주소와 포트를 구성할 수 있습니다. For more on this, see [this section](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
 보낸 사람 주소로 메시지가 Outlook **[!UICONTROL on behalf of]** 에 표시되는 경우, Microsoft의 오래된 독점적 이메일 인증 표준인 보낸 사람 ID로 **이메일을**&#x200B;서명하지 않아야 합니다. 이 **[!UICONTROL Sender ID]** 옵션이 활성화되어 있으면 해당 상자의 선택을 취소하고 Adobe Campaign 지원에 문의하십시오. 배달은 영향을 받지 않습니다.
 
@@ -311,7 +311,7 @@ Adobe Campaign 메시지 서버는 모든 도메인에 단일 **도메인 관리
 >
 >호스팅 또는 하이브리드 설치의 경우, 향상된 MTA로 업그레이드한 경우 **[!UICONTROL Domain management]** 규칙이 더 이상 사용되지 않습니다. **DKIM(DomainKeys Identified Mail)** 이메일 인증 서명은 모든 도메인이 있는 모든 메시지에 대해 향상된 MTA를 통해 수행됩니다. 향상된 MTA 수준에서 별도로 명시되지 않는 한 **보낸 사람 ID**, **도메인 키**&#x200B;또는 **S/MIME** 으로 서명하지않습니다.
 >
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 [이 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>향상된 MTA Adobe Campaign에 대한 자세한 내용은 [이 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
 
 #### MX 관리 {#mx-management}
 
@@ -327,4 +327,4 @@ For more on MX management, refer to [this section](../../installation/using/emai
 >
 >호스팅 또는 하이브리드 설치의 경우, Enhanced MTA로 업그레이드한 경우, **[!UICONTROL MX management]** 배달 처리량 규칙은 더 이상 사용되지 않습니다. Enhanced MTA는 자체 MX 규칙을 사용하여 고유한 내역 이메일 명성을 기반으로, 이메일을 전송하는 도메인에서 오는 실시간 피드백에 따라 도메인별로 처리량을 사용자 정의할 수 있습니다.
 >
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 [이 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>향상된 MTA Adobe Campaign에 대한 자세한 내용은 [이 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
