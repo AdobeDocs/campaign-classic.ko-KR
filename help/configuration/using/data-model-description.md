@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign Classic 데이터 모델 설명
+title: Adobe Campaign 클래식 데이터 모델 설명
 description: 이 문서에서는 Adobe Campaign Classic 데이터 모델에 대해 설명합니다.
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
+source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
 workflow-type: tm+mt
 source-wordcount: '2375'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 # 캠페인 데이터 모델 설명{#data-model-description}
 
-Adobe Campaign은 사전 정의된 데이터 모델과 함께 제공됩니다. 이 섹션에서는 Adobe Campaign 데이터 모델의 내장 테이블과 상호 작용에 대한 세부 사항을 제공합니다.
+Adobe Campaign은 사전 정의된 데이터 모델과 함께 제공됩니다. 이 섹션에서는 Adobe Campaign 데이터 모델의 내장 테이블과 해당 상호 작용에 대한 세부 사항을 제공합니다.
 
 각 테이블의 설명에 액세스하려면 로 이동하여 목록에서 리소스 **[!UICONTROL Admin > Configuration > Data schemas]**&#x200B;를 선택하고 탭을 **[!UICONTROL Documentation]** 클릭합니다.
 
@@ -31,11 +31,11 @@ Adobe Campaign은 사전 정의된 데이터 모델과 함께 제공됩니다. �
 
 >[!NOTE]
 >
->응용 프로그램에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. 스키마라고 하는 Adobe Campaign에만 적용되는 문법입니다. Adobe Campaign 스키마에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../configuration/using/about-schema-reference.md).
+>응용 프로그램에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. 스키마라고 하는 Adobe Campaign에 대한 문법을 따릅니다. Adobe Campaign 스키마에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../configuration/using/about-schema-reference.md).
 
 ## 기본 테이블에 대한 설명 {#description-main-tables}
 
-Adobe Campaign은 함께 연결된 테이블을 포함하는 관계형 데이터베이스에 의존합니다.
+Adobe Campaign은 서로 연결된 테이블을 포함하는 관계형 데이터베이스에 의존합니다.
 
 다음 다이어그램은 Adobe Campaign 데이터 모델의 기본 비즈니스 테이블 간의 연결과 각 필드에 대한 기본 필드를 보여줍니다.
 
@@ -43,7 +43,7 @@ Adobe Campaign은 함께 연결된 테이블을 포함하는 관계형 데이터
 
 ![](assets/data-model_simplified-diagram.png)
 
-사전 정의된 Adobe Campaign 데이터 모델에는 아래에 나열된 기본 테이블이 포함되어 있습니다.
+사전 정의된 Adobe Campaign 데이터 모델은 아래에 나열된 기본 테이블을 포함합니다.
 
 ### NmsRecipient {#NmsRecipient}
 
@@ -55,9 +55,9 @@ Adobe Campaign은 함께 연결된 테이블을 포함하는 관계형 데이터
 * iEmailFormat: 이메일의 기본 형식(텍스트에 대해 1, HTML에 대해 2, 정의되지 않은 경우 0)입니다.
 * sAddress1, sAddress2, sAddress3, sAddress4, sZipCode, sCity는 우편 주소를 작성하는 데 사용됩니다(1997년 5월 XPZ 10-011 AFNOR 표준과 함께 사용).
 * sPhone, sMobilePhone, sFax에는 각각 전화, 휴대폰 및 팩스 번호가 들어 있습니다.
-* iBlackList는 프로필에 사용되는 기본 옵트아웃 플래그입니다(1은 &quot;가입되지 않음&quot;, 0을 의미합니다.).
+* iBlockList는 프로필에 사용되는 기본 옵트아웃 플래그입니다(1은 &quot;가입되지 않음&quot;, 0을 의미합니다.).
 
-iFolderId 필드는 받는 사람을 해당 실행 폴더로 연결하는 외래 키입니다. 자세한 내용은 XtkFolder를 [참조하십시오](#XtkFolder).
+iFolderId 필드는 받는 사람을 해당 실행 폴더로 연결하는 외래 키입니다. For more on this, see [XtkFolder](#XtkFolder).
 
 sCountryCode 필드는 수신자와 관련된 국가의 3166-1 Alpha 2 ISO 코드(2자)입니다. 이 필드는 국가 레이블 및 기타 국가 코드 데이터를 포함하는 국가 참조 테이블(NmsCountry)의 외래 키입니다. 국가가 채워지지 않으면 &#39;XX&#39; 값이 저장됩니다(그리고 이 값은 0의 ID 레코드 대신 사용됩니다).
 
@@ -67,7 +67,7 @@ sCountryCode 필드는 수신자와 관련된 국가의 3166-1 Alpha 2 ISO 코�
 
 이 테이블은 **nms:group** 스키마와 일치합니다.
 
-이를 통해 수신자의 **통계 그룹을 만들 수 있습니다**. 수신자와 그룹 간에는 다대다 관계가 있습니다. 예를 들어 한 수신자는 여러 그룹에 속할 수 있으며 한 그룹에 여러 명의 수신자가 포함될 수 있습니다. 그룹은 가져오기 또는 배달 타깃팅을 통해 수동으로 만들 수 있습니다. 그룹은 배달 대상으로 종종 사용됩니다. 필드에 sName 그룹의 내부 이름을 나타내는 고유한 인덱스가 있습니다. 그룹이 폴더에 연결되어 있습니다(키는 iFolderId입니다. 자세한 내용은 XtkFolder를 [참조하십시오](#XtkFolder).
+이를 통해 수신자의 **통계 그룹을 만들 수 있습니다**. 수신자와 그룹 간에는 다대다 관계가 있습니다. 예를 들어 한 수신자는 여러 그룹에 속할 수 있으며 한 그룹에 여러 명의 수신자가 포함될 수 있습니다. 그룹은 가져오기 또는 배달 타깃팅을 통해 수동으로 만들 수 있습니다. 그룹은 배달 대상으로 종종 사용됩니다. 필드에 sName 그룹의 내부 이름을 나타내는 고유한 인덱스가 있습니다. 그룹이 폴더에 연결되어 있습니다(키는 iFolderId입니다. For more on this, see [XtkFolder](#XtkFolder)).
 
 ### NmsRcpGrpRel {#NmsRcpGrpRel}
 
@@ -81,7 +81,7 @@ Adobe Campaign에서 정보 서비스(주제)에 대한 가입을 만들고 관�
 
 서비스는 더 많은 정보를 배포하고 양식을 통해 구독 및 구독을 간편하게 관리할 수 있다는 점을 제외하고 그룹(정적 수신자 그룹)과 유사한 개체입니다.
 
-sName 서비스의 내부 이름을 나타내는 고유한 인덱스가 필드에 있습니다. 서비스가 폴더에 연결되어 있습니다(키는 iFolderId입니다. 자세한 내용은 XtkFolder를 [참조하십시오](#XtkFolder). 마지막으로 iType 필드는 이 서비스의 배달 채널(이메일의 경우 0, SMS의 경우 1, 전화의 경우 2, DM의 경우 3, 팩스의 경우 4)을 지정합니다.
+sName 서비스의 내부 이름을 나타내는 고유한 인덱스가 필드에 있습니다. 서비스가 폴더에 연결되어 있습니다(키는 iFolderId입니다. For more on this, see [XtkFolder](#XtkFolder)). 마지막으로 iType 필드는 이 서비스의 배달 채널(이메일의 경우 0, SMS의 경우 1, 전화의 경우 2, DM의 경우 3, 팩스의 경우 4)을 지정합니다.
 
 ### NmsSubscription {#NmsSubscription}
 
@@ -101,7 +101,7 @@ sName 서비스의 내부 이름을 나타내는 고유한 인덱스가 필드�
 
 이 테이블의 각 레코드는 **배달 작업** 또는 **배달 템플릿을 나타냅니다**. 여기에는 배달 수행에 필요한 모든 매개 변수(대상, 컨텐츠 등)가 포함됩니다. 분석 단계 동안 배달(브로드캐스트) 로그(NmsBroadLog) 및 관련 추적 URL(NmsTrackingUrl)이 만들어집니다(이 표 모두에 대한 자세한 내용은 아래 참조).
 
-sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유한 인덱스가 필드에 있습니다. 배달이 실행 폴더에 연결됩니다(외래 키는 iFolderProcessId입니다.) 자세한 내용은 XtkFolder를 [참조하십시오](#XtkFolder).
+sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유한 인덱스가 필드에 있습니다. 배달이 실행 폴더에 연결됩니다(외래 키는 iFolderProcessId입니다.) For more on this, see [XtkFolder](#XtkFolder)).
 
 ### XtkFolder {#XtkFolder}
 
@@ -259,7 +259,7 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 이 표 세트는 **모바일 앱 채널에**&#x200B;연결되어 있으므로 앱을 통해 개인화된 알림을 iOS 및 Android 터미널에 보낼 수 있습니다. 자세한 내용은 모바일 앱 채널 [정보를 참조하십시오](../../delivery/using/about-mobile-app-channel.md).
 
-* **NmsMobileApp**: 이 표는 **nms:mobileApp** 스키마와 일치합니다. 여기에는 Adobe Campaign에 정의된 모바일 애플리케이션이 포함되어 있습니다.
+* **NmsMobileApp**: 이 표는 **nms:mobileApp** 스키마와 일치합니다. Adobe Campaign에 정의된 모바일 응용 프로그램이 포함되어 있습니다.
 * **NmsAppSubscription**: 이 테이블은 nms:appSubscription **스키마와** 일치합니다. 여기에는 하나 이상의 응용 프로그램에 대한 구독자 정보가 포함됩니다.
 * **NmsAppSubscriptionRcp**: 이 테이블은 nms:appSubscriptionRcp **스키마와** 일치합니다. 애플리케이션을 구독한 방문자를 수신자 테이블과 연결할 수 있습니다.
 * **NmsExcludeLogAppSubRcp**: 이 테이블은 nms:excludeLogAppSubRcp **스키마와** 일치합니다.
