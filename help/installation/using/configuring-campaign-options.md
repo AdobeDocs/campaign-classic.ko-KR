@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: de1173786c94c2a526153e7e6948f71c9523fa7b
+source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
 workflow-type: tm+mt
 source-wordcount: '3903'
 ht-degree: 0%
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 # Campaign Classic 옵션 목록{#configuring-campaign-options}
 
-노드를 사용하면 **[!UICONTROL Administration / Platform / Options]** Adobe Campaign 옵션을 구성할 수 있습니다.
+노드를 **[!UICONTROL Administration / Platform / Options]** 사용하면 Adobe Campaign 옵션을 구성할 수 있습니다.
 
 >[!NOTE]
 >
->Adobe Campaign 옵션 수정 또는 업데이트는 전문가만 수행할 수 있습니다.
+>Adobe Campaign 옵션 수정 또는 갱신은 전문가 사용자만 수행할 수 있습니다.
 
 일부는 Campaign을 설치할 때 기본적으로 지원되며 다른 일부는 필요할 때 수동으로 추가할 수 있습니다. 사용 가능한 옵션은 인스턴스와 함께 설치된 패키지에 따라 다릅니다.
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    <td> 배달 메시지 표준화를 위한 정규 표현식.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsBroadcast_RemoveBlackList</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsBroadcast_RemoveBlockList</span> <br /> </td> 
    <td> "1"을 값으로 입력하면 더 이상 연락을 원하지 않는 수신자를 제외할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
@@ -175,7 +175,7 @@ ht-degree: 0%
    <td> 임시 배달을 위한 메시지의 가중치를 계산하는 데 사용되는 공식.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsInmail_WhitelistEmail</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsInmail_Allowlist이메일</span> <br /> </td> 
    <td> 허용되는 전달 이메일 주소 목록(인바운드 메일 처리 모듈에서). 주소는 쉼표로 구분해야 합니다(또는 *로 모두 허용). 예: xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
@@ -647,7 +647,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWorkIndex</span> <br /> </td> 
-   <td> Adobe Campaign 작업 테이블의 색인을 포함할 테이블스페이스의 이름입니다.<br /> </td> 
+   <td> Adobe Campaign 작업 테이블의 인덱스를 포함할 테이블스페이스의 이름입니다.<br /> </td> 
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
@@ -721,7 +721,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Experience Cloud 트리거를 구성할 수 있습니다. 데이터 유형은 "긴 텍스트"이며 JSON 형식이어야 합니다. Adobe <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Campaign Classic에서 Experience Cloud 트리거를 사용하는 방법을 참조하십시오</a>.<br /> </td> 
+   <td> Experience Cloud 트리거를 구성할 수 있습니다. 데이터 유형은 "긴 텍스트"이며 JSON 형식이어야 합니다. Adobe Campaign <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Classic에서 Experience Cloud 트리거를 사용하는 방법을 참조하십시오</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
@@ -733,19 +733,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_EdgeServer</span> <br /> </td> 
-   <td> 통합에 사용되는 Adobe Target 서버. 이 옵션은 기본적으로 이미 선택되어 있습니다. 이 값은 Adobe Target 도메인 서버에 해당하고 그 다음에 /m2 값을 추가합니다. 예: tt.omtrdc.net/m2.<br /> 이 <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">섹션을 참조하십시오</a>.<br /> </td> 
+   <td> 통합에 사용된 Adobe Target 서버 이 옵션은 기본적으로 이미 선택되어 있습니다. 이 값은 Adobe Target 도메인 서버에 해당하고 그 다음에 /m2 값을 추가합니다. 예: tt.omtrdc.net/m2.<br /> 이 <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">섹션을 참조하십시오</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_TenantName</span> <br /> </td> 
-   <td> Adobe Target 조직 이름. 이 값은 Adobe Target 클라이언트의 이름에 해당합니다.<br /> 이 <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">섹션을 참조하십시오</a>.<br /> </td> 
+   <td> Adobe Target 조직명. 이 값은 Adobe Target 클라이언트의 이름에 해당합니다.<br /> 이 <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">섹션을 참조하십시오</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DataSourceId</span> <br /> </td> 
-   <td> Adobe Audience Manager와의 통합에 사용되는 옵션입니다.<br /> </td> 
+   <td> Adobe Audience Manager과의 통합에 사용되는 옵션입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DestinationId</span> <br /> </td> 
-   <td> Adobe Audience Manager와의 통합에 사용되는 옵션입니다.<br /> </td> 
+   <td> Adobe Audience Manager과의 통합에 사용되는 옵션입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Teradata</span> <br /> </td> 
@@ -986,7 +986,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_Rights</span> <br /> </td> 
-   <td> LDAP 디렉토리에서 권한 부여 및 그룹을 Adobe Campaign의 명명된 권한에 동기화할 수 있습니다.<br /> </td> 
+   <td> Adobe Campaign에서 LDAP 디렉토리에서 권한 부여 및 그룹을 명명된 권한 동기화를 활성화합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_RightsAttr</span> <br /> </td> 
