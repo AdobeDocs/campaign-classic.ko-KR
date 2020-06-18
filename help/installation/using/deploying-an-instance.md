@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3522f4f50770dde220610cd5f1c4084292d8f1f5
+source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
 workflow-type: tm+mt
-source-wordcount: '3055'
+source-wordcount: '3066'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 배포 마법사 {#deployment-wizard}
 
-Adobe Campaign 클라이언트 콘솔에서 사용할 그래픽 마법사를 사용하면 연결할 인스턴스의 매개 변수를 정의할 수 있습니다.
+Adobe Campaign 클라이언트 콘솔에서 사용할 그래픽 마법사를 사용하여 연결할 인스턴스의 매개 변수를 정의할 수 있습니다.
 
 배포 마법사를 시작하려면 도구 > **고급 > 배포 마법사를 선택합니다**.
 
@@ -90,9 +90,9 @@ Adobe Campaign 클라이언트 콘솔에서 사용할 그래픽 마법사를 사
 * **[!UICONTROL Sender address]** : 보낸 사람의 주소,
 * **[!UICONTROL Reply address text]** : 수신자가 이메일 클라이언트 소프트웨어에서 버튼을 클릭할 때 사용할 사용자 정의 가능한 이름 **[!UICONTROL Reply]**
 * **[!UICONTROL Reply address]** : 받는 사람이 이메일 클라이언트 소프트웨어에서 **[!UICONTROL Reply]** 단추를 클릭할 때 사용할 이메일 주소입니다.
-* **[!UICONTROL Error address]** : 오류가 있는 메시지의 이메일 주소입니다. 이 주소는 존재하지 않는 대상 주소로 인해 Adobe Campaign 서버에서 받은 이메일을 포함하여 바운스 메일을 처리하는 데 사용되는 기술 주소입니다.
+* **[!UICONTROL Error address]** : 오류가 있는 메시지의 이메일 주소입니다. Adobe Campaign 서버에서 수신한 대상 주소가 존재하지 않아 바운스 메일을 처리하는 데 사용되는 기술 주소입니다.
 
-또한 보낸 사람 주소와 오류 주소로 **마스크** 지정을 할 수도 있습니다. 필요한 경우, 이러한 마스크는 쉼표로 구분할 수 있습니다. 이 구성은 선택 사항입니다. 필드를 입력하면 Adobe Campaign은 전송 시(분석 중에 주소에 변수가 없는 경우) 주소가 유효한지 확인합니다. 이 운영 모드에서는 배달 문제를 유발할 수 있는 주소가 사용되지 않습니다. 배달 서버에 배달 주소를 구성해야 합니다.
+또한 보낸 사람 주소와 오류 주소로 **마스크** 지정을 할 수도 있습니다. 필요한 경우, 이러한 마스크는 쉼표로 구분할 수 있습니다. 이 구성은 선택 사항입니다. 필드를 입력하면, Adobe Campaign은 배달 시(분석 중에 주소에 변수가 없는 경우) 주소가 유효한지 확인합니다. 이 운영 모드에서는 배달 문제를 유발할 수 있는 주소가 사용되지 않습니다. 배달 서버에 배달 주소를 구성해야 합니다.
 
 ### 주소에 인증된 문자 {#characters-authorized-in-addresses}
 
@@ -116,7 +116,7 @@ Adobe Campaign 데이터베이스에서 모든 이메일 주소를 다음과 같
 
 * **[!UICONTROL Delivery duration of messages]** : 이 시간이 지나면 게재가 중지됩니다(기본적으로 5일).
 * **[!UICONTROL Online resources validity duration]** : 미러 페이지를 생성하기 위해 받는 사람 프로필의 정보를 저장하는 시간입니다.
-* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** : 이 옵션을 선택하면 블랙리스트에 추가된 받는 사람에게 연결되지 않습니다.
+* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** : 이 옵션을 선택하면 차단 목록에 있는 수신자에게 연결되지 않습니다.
 * **[!UICONTROL Automatically ignore doubles]** : 이 옵션을 선택하면 주소가 중복되도록 배달되지 않습니다.
 
 ### 다시 시도 매개 변수 {#retry-parameters}
@@ -159,7 +159,7 @@ POP 설정이 지정되면 [ **테스트** ]를 클릭하여 설정이 올바른
 
 처리되지 않은 바운스는 Adobe Campaign 인터페이스에 표시되지 않습니다. 다음 필드를 사용하여 타사 사서함으로 전송되지 않으면 자동으로 삭제됩니다.
 
-* **[!UICONTROL Forwarding address]** : Adobe Campaign 플랫폼에서 수집한 모든 오류 메시지(처리되거나 처리되지 않음)를 타사 주소로 전송하려면 이 필드를 입력합니다.
+* **[!UICONTROL Forwarding address]** : 이 필드를 채워 Adobe Campaign 플랫폼에서 수집한 모든 오류 메시지(처리되거나 처리되지 않음)를 타사 주소로 전송합니다.
 * **[!UICONTROL Address for errors]** : inMail 프로세스를 사용할 수 없는 오류 메시지만 타사 주소로 전송하려면 이 필드를 입력합니다.
 * **[!UICONTROL SMTP server]** : 처리되지 않은 바운스 이메일을 보내는 데 사용되는 서버입니다.
 
@@ -181,15 +181,15 @@ POP 설정이 지정되면 [ **테스트** ]를 클릭하여 설정이 올바른
 
 * 배포 마법사의 이 페이지에 입력한 외부 URL(보안 여부)에 대한 정보는 새 URL을 작성하는 데 사용됩니다. 이 정보는 물론 수정된 링크에도 다음이 포함됩니다. 배달의 식별자, 받는 사람 및 URL입니다.
 
-   추적 정보는 Adobe Campaign에서 추적 서버를 통해 수신자 프로필 및 게재와 연결된 데이터( **[!UICONTROL Tracking]** 탭)를 보완합니다.
+   추적 정보는 추적 서버의 Adobe Campaign에 의해 수집되어 받는 사람 프로필 및 배달과 연결된 데이터( **[!UICONTROL Tracking]** 탭)를 보완합니다.
 
    내부 URL에 대한 정보는 Adobe Campaign 응용 프로그램 서버가 추적 서버에 연결하는 경우에만 사용됩니다.
 
-   자세한 내용은 [추적 서버를 참조하십시오](#tracking-server).
+   For more on this, refer to [Tracking server](#tracking-server).
 
 * URL이 구성되면 추적을 활성화해야 합니다. 이렇게 하려면 추적 서버에 인스턴스가 등록되어 있어야 합니다.
 
-   자세한 내용은 추적 [저장을 참조하십시오](#saving-tracking).
+   For more on this, refer to [Saving tracking](#saving-tracking).
 
 ### 추적 서버 {#tracking-server}
 
@@ -333,7 +333,7 @@ URL 검색에 연결된 매개 변수는 표준 설치에 대해 수정해서는
 
    미러 페이지는 이메일의 내용을 표시하는 동적 페이지입니다. 수신자에게 보낸 메시지에 삽입된 링크를 통해 액세스할 수 있으며 개인화된 요소를 포함할 수 있습니다. 이 미러 페이지에서는 수신자에게 전달 형식(텍스트 또는 HTML)에 상관없이 이메일 소프트웨어 대신 인터넷 브라우저에서 메시지를 읽을 수 있는 가능성을 제공합니다. 그러나 필요한 HTML 컨텐츠가 정의된 경우에만 지정된 게재에 대해 미러 페이지가 생성됩니다.
 
-Adobe Campaign을 사용하면 이러한 3개의 URL을 차별화하여 로드를 여러 플랫폼에 분산시킬 수 있습니다.
+Adobe Campaign을 사용하면 이러한 세 URL을 구분하여 로드를 여러 플랫폼에 분산시킬 수 있습니다.
 
 ## 공공 리소스 관리 {#managing-public-resources}
 
@@ -351,7 +351,7 @@ Adobe Campaign을 사용하면 이러한 3개의 URL을 차별화하여 로드�
 1. 배달의 이미지 감지 모드. 자세한 내용은 [배달 이미지 감지](#delivery-image-detection) 섹션을 참조하십시오.
 1. 게시 옵션. 자세한 내용은 [게시 모드](#publication-modes) 섹션을 참조하십시오.
 
-공개 리소스는 Adobe Campaign 트리의 **관리 > 리소스 > 온라인 > 공개 리소스** 노드를 통해 액세스할 수 있습니다. 라이브러리에 수집되고 이메일에 포함될 수 있지만 캠페인이나 작업 및 컨텐츠 관리에도 사용할 수 있습니다.
+공개 리소스는 Adobe Campaign 트리의 **[관리] > [리소스] > [온라인] > [공용 리소스** ] 노드를 통해 액세스할 수 있습니다. 라이브러리에 수집되고 이메일에 포함될 수 있지만 캠페인이나 작업 및 컨텐츠 관리에도 사용할 수 있습니다.
 
 ![](assets/install_pub_resources_view.png)
 
@@ -425,7 +425,7 @@ Adobe Campaign을 사용하면 이러한 3개의 URL을 차별화하여 로드�
 
 이미지의 경우 NmsDelivery_ImageSubDirectory 옵션을 통해 지정된 &quot; **images&quot; 폴더에서 하나 이상의** 중앙 서버로 복사해야 합니다. 이러한 서버는 이미지를 저장하여 새로운 구성 URL을 통해 액세스할 수 있도록 합니다.
 
-수동 게시 스크립트 없이 Adobe Campaign 서버에서 게시가 발생하는 경우 기본적으로 게재 이미지가 에 저장됩니다 `$(XTK_INSTALL_DIR)/var/res/img/ directory`. 해당 URL은 다음과 같습니다. **`https://server/res/img`**.
+수동 게시 스크립트가 없는 Adobe Campaign 서버에서 게시가 발생하는 경우 기본적으로 게재 이미지가 에 저장됩니다 `$(XTK_INSTALL_DIR)/var/res/img/ directory`. 해당 URL은 다음과 같습니다. **`https://server/res/img`**.
 
 `XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)`. 해당 URL은 다음과 같습니다. **`https://server/res/instance`** 여기서 instance는 추적 인스턴스의 이름입니다.
 
@@ -459,7 +459,7 @@ status 속성은 다음 세 값 중 하나일 수 있습니다.
 
 * normal: 기존 동작(동기화 없음)
 
-* 블랙: 404 오류를 반환하는 경우 URL이 차단됩니다. 블랙리스트의 지속 시간(초)은 기본값이 60인 **timeout** 속성으로 정의됩니다.
+* blocklist: 404 오류를 반환하는 경우 URL이 블록 목록에 추가됩니다. 블록 목록에 있는 URL의 지속 시간(초)은 기본값이 60초인 **시간** 초과 속성으로 정의됩니다.
 
 즉시 동기화되는 구성은 다음과 같습니다.
 
@@ -478,11 +478,11 @@ startRedirection="true" startRedirectionInModule="true" trackWebVisitors="false"
 <relay debugRelay="false" forbiddenCharsInAuthority="?#.@/:" forbiddenCharsInPath="?#/"
            modDir="index.html" startRelay="false" startRelayInModule="true" timeout="60">
    <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="normal" targetUrl="https://localhost:8080" timeout="" urlPath="/view/*"/>
-      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blacklist" targetUrl="https://localhost:8080" timeout="" urlPath="*.jsp"/>
-      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blacklist" targetUrl="https://localhost:8080" timeout="" urlPath="*.jssp"/>
-      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blacklist" targetUrl="https://localhost:8080" timeout="" urlPath="/webApp/*"/>
-      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blacklist" targetUrl="https://localhost:8080" timeout="" urlPath="/report/*"/>
-      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blacklist" targetUrl="https://localhost:8080" timeout="" urlPath="/jssp/*"/>
+      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blocklist" targetUrl="https://localhost:8080" timeout="" urlPath="*.jsp"/>
+      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blocklist" targetUrl="https://localhost:8080" timeout="" urlPath="*.jssp"/>
+      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blocklist" targetUrl="https://localhost:8080" timeout="" urlPath="/webApp/*"/>
+      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blocklist" targetUrl="https://localhost:8080" timeout="" urlPath="/report/*"/>
+      <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="blocklist" targetUrl="https://localhost:8080" timeout="" urlPath="/jssp/*"/>
       <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="normal" targetUrl="https://localhost:8080" timeout="" urlPath="/strings/*"/>
       <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="normal" targetUrl="https://localhost:8080" timeout="" urlPath="/interaction/*"/>
       <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" status="normal" targetUrl="https://localhost:8080" timeout="" urlPath="/barcode/*"/>
