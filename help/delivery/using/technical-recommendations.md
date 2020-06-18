@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classic의 전달 능력 향상을 위한 기술 추천
-description: Adobe Campaign Classic에서 전달률을 향상시키는 데 사용할 수 있는 기법, 구성 및 툴을 살펴볼 수 있습니다.
+title: Adobe Campaign Classic을 사용하여 전달 능력 향상을 위한 기술 추천
+description: Adobe Campaign Classic을 사용하여 전달 가능성을 향상시키는 데 사용할 수 있는 기법, 구성 및 툴을 살펴볼 수 있습니다.
 page-status-flag: never-activated
 uuid: 71be1087-e5ff-4a7a-85ca-36803839e72f
 contentOwner: sauviat
@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
+source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2436'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ DKIM을 사용하려면 몇 가지 전제 조건이 필요합니다.
 
 DMARC(도메인 기반 메시지 인증, 보고 및 적합성)는 가장 최근 이메일 인증 방식이며, SPF 및 DKIM 인증을 통해 이메일 전달 여부를 확인합니다. DMARC는 매우 중요한 두 가지 방법으로 독특하고 강력합니다.
 
-* 적합성 - 발신자가 인증하지 못한 메시지(예: 승인하지 않음)를 사용하여 ISP에 수행할 작업을 지시할 수 있습니다.
+* 적합성 - 발신자가 인증하지 못한 메시지(예: 승인하지 않음)를 사용하여 ISP에 수행할 작업을 지시할 수 있도록 해줍니다.
 * 보고 - 발신자에게 DMARC 인증에 실패한 모든 메시지와 각각에 사용되는 &quot;보낸 사람&quot; 도메인 및 IP 주소를 보여주는 자세한 보고서를 제공합니다. 이를 통해 회사는 인증이 실패하고 일부 유형의 &quot;수정&quot;(예: SPF 레코드에 IP 주소 추가) 및 이메일 도메인에서 피싱 시도 소식과 출현이 필요한 합법적 이메일을 식별할 수 있습니다.
 
 DMARC는 [250ok로 생성된 보고서를 활용할 수 있습니다](https://250ok.com/).
@@ -138,7 +138,7 @@ Recommendations for defining an SPF record:
 
 ## 피드백 루프 {#feedback-loop}
 
-피드백 루프는 ISP 수준에서 메시지를 전송하는 데 사용되는 IP 주소 범위에 대해 지정된 이메일 주소를 선언하여 작동합니다. ISP는 이 사서함에 바운스 메시지에 대해 수행되는 작업과 유사한 방법으로 받는 사람이 스팸으로 보고한 메시지를 보냅니다. 이 플랫폼은 불평한 사용자에 대한 향후 제공을 차단하도록 구성해야 합니다. 적절한 옵트아웃 링크를 사용하지 않더라도 더 이상 연락하지 않는 것이 중요합니다. 이런 불만에 근거해 ISP가 IP 주소를 블랙 리스트에 올릴 것이다. ISP에 따라, 약 1%의 불만 비율은 IP 주소의 블랙리스트에 이르게 됩니다.
+피드백 루프는 ISP 수준에서 메시지를 전송하는 데 사용되는 IP 주소 범위에 대해 지정된 이메일 주소를 선언하여 작동합니다. ISP는 이 사서함에 바운스 메시지에 대해 수행되는 작업과 유사한 방법으로 받는 사람이 스팸으로 보고한 메시지를 보냅니다. 이 플랫폼은 불평한 사용자에 대한 향후 제공을 차단하도록 구성해야 합니다. 적절한 옵트아웃 링크를 사용하지 않더라도 더 이상 연락하지 않는 것이 중요합니다. ISP가 차단 목록에 IP 주소를 추가한다는 것은 이러한 불만 사항을 기반으로 합니다. ISP에 따라, 약 1%의 불만 비율은 IP 주소를 차단하게 됩니다.
 
 현재 피드백 루프 메시지의 형식을 정의하기 위해 표준을 작성하고 있습니다. ARF( [남용된 피드백 보고 형식)](https://tools.ietf.org/html/rfc6650).
 
@@ -163,7 +163,7 @@ nlserver inMail -instance:instance -verbose.
 
 * 메일박스에서 받은 메시지를 인스턴스 수만큼 복제하고
 * 각 사서함을 하나의 인스턴스로 선택하도록
-* 관련 메시지만 처리하도록 인스턴스를 구성합니다. 인스턴스 정보는 Adobe Campaign에서 보낸 메시지의 메시지 ID 헤더에 포함되어 있으므로 피드백 루프 메시지도 찾을 수 있습니다. 인스턴스 구성 파일에 **checkInstanceName** 매개 변수를 간단히 지정하기만 하면 됩니다(기본적으로 인스턴스가 확인되지 않으며 이로 인해 특정 주소가 잘못 격리될 수 있음).
+* 관련 메시지만 처리하도록 인스턴스를 구성합니다. 인스턴스 정보는 Adobe Campaign에서 보낸 메시지의 메시지 ID 헤더에 포함되므로 피드백 루프 메시지도 위치합니다. 인스턴스 구성 파일에 **checkInstanceName** 매개 변수를 간단히 지정하기만 하면 됩니다(기본적으로 인스턴스가 확인되지 않으며 이로 인해 특정 주소가 잘못 격리될 수 있음).
 
    ```
    <serverConf>
@@ -171,7 +171,7 @@ nlserver inMail -instance:instance -verbose.
    </serverConf>
    ```
 
-Adobe Campaign의 Deliverability Service는 다음 ISP에 대한 피드백 루프 서비스 구독을 관리합니다. AOL, BlueTie, Comcast, EarthLink, FastMail, Gmail, HostedEmail, Libero, Mail.ru, MailTrust, OpenSRS, QQ, RoadRunner, Synacor, Telenor, UnitedOnline, USA 4ALL, Yahoo, Yandex, Zoho
+Adobe Campaign ISP Deliverability Service는 다음 ISP에 대한 피드백 루프 서비스 구독을 관리합니다. AOL, BlueTie, Comcast, EarthLink, FastMail, Gmail, HostedEmail, Libero, Mail.ru, MailTrust, OpenSRS, QQ, RoadRunner, Synacor, Telenor, UnitedOnline, USA 4ALL, Yahoo, Yandex, Zoho
 
 ## 목록 구독 취소 {#list-unsubscribe}
 
@@ -254,11 +254,11 @@ Adobe는 명성을 구축하고 전달 성능을 최적화하기 위해 고객�
 
 ## IP 인증 {#ip-certification}
 
-IP 인증은 스팸 방지 필터나 기타 이메일 차단 시스템에 의해 차단되지 않고 이메일을 수신하도록 지원하는 허용 및 전송 관행 프로그램입니다.
+IP 인증은 스팸 방지 필터나 기타 이메일 차단 시스템에 의해 차단되지 않고 이메일을 수신하도록 지원하는 전송 모범 사례 프로그램입니다.
 
 현재 두 개의 공급업체에서 IP 인증을 제공합니다. 반환 경로 및 인증된 보낸 사람 연합.
 
-인증된 전송자는 글로벌 사서함 제공업체 및 이메일 보안 회사가 사용하는 이메일 허용 목록에 추가됩니다. 이러한 상용 화이트 리스트는 발신자가 스팸 필터를 모두 우회하거나 시스템에 들어갈 때 점차적으로 포인트를 할당할 수 있는 시스템을 기반으로 합니다.
+인증된 전송자는 글로벌 사서함 제공업체 및 이메일 보안 회사가 사용하는 이메일 허용 목록에 추가됩니다. 이러한 상업용 허용 목록은 발신자가 스팸 필터를 모두 우회하거나 시스템에 들어갈 때 점차적으로 포인트를 할당할 수 있는 시스템을 기반으로 합니다.
 
 반품 [경로 인증](https://www.validity.com/products/returnpath/certification/) 프로그램은 다음을 포함한 다양한 혜택을 제공합니다.
 
