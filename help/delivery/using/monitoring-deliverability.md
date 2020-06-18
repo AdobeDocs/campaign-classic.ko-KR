@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign Classic의 전달 모니터링
+title: Adobe Campaign Classic의 모니터링 전달 기능
 description: Adobe Campaign Classic의 전달 가능성 모니터링에 대한 도구 및 지침에 대해 알아보십시오.
 page-status-flag: never-activated
 uuid: 0b5c5dbd-f532-4d8a-a255-9e6d88357d8d
@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f4d82657fbeae39af173c867975455669497d8eb
+source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 # 게재 기능 모니터링{#monitoring-deliverability}
 
-아래에서는 Adobe Campaign에서 제공하는 다양한 모니터링 도구에 대한 세부 정보와 배달 기능 모니터링에 대한 일부 추가 지침을 확인할 수 있습니다.
+아래에서는 Adobe Campaign에서 제공하는 다양한 모니터링 도구에 대한 자세한 내용과 배달 능력 모니터링에 대한 일부 추가 지침을 확인할 수 있습니다.
 
 ## 모니터링 도구 {#monitoring-tools}
 
@@ -58,7 +58,7 @@ Adobe Campaign에서 제공하는 기능을 사용하여 플랫폼 제공 여부
 * 각 배달 처리량을 확인하여 배달 컨텐츠의 유효성(예: &#39;flash sales&#39;는 며칠이 아니라 몇 분 만에 배달됩니다.)
 * 파도를 사용할 때 [각 파동이 다음 파동이 트리거되기 전에 마무리할 시간이 충분한지 확인합니다](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 * 오류 수와 새 [검역소가](../../delivery/using/understanding-quarantine-management.md) 다른 배달물과 일치하는지 확인하십시오.
-* 강조 표시된 오류 유형(회색 또는 검정 목록, DNS 문제, 스팸 방지 규칙 등)을 확인하려면 [배달 로그에](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) 자세히 문의하십시오.
+* 강조 표시된 오류 유형(블록 목록, DNS 문제, 스팸 방지 규칙 등)을 확인하려면 [배달 로그를](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) 자세히 참조하십시오.
 
 ## 신호 스팸 {#signal-spam}
 
@@ -70,19 +70,19 @@ Signal Spam은 프랑스 ISP(Orange, SFR)에 대해 익명화된 피드백 루�
 
 ## 250ok {#deliverability-250ok}
 
-[250ok](https://250ok.com/) 는 IP, 도메인 블랙 리스트 및 평판 지표를 제공하는 Adobe 전달 능력 내부 툴에 대한 보완 모니터링 솔루션입니다.
+[250ok](https://250ok.com/) 는 IP 및 도메인 블록 목록, 평판 지표의 기능을 제공하는 Adobe 전달 능력 내부 툴에 대한 보완 모니터링 솔루션입니다.
 
 제공된 정보는 실시간으로 제공되므로 적극적인 지원을 받을 수 있습니다.
 
 ## 기술 제공 능력 모니터링 보고서 {#technical-deliverability-monitoring}
 
-기술 제공 모니터링 보고서는 매일 업데이트되며 **[!UICONTROL Monitoring]** > **[!UICONTROL Overview]** 으로 이동하고 Adobe Campaign **[!UICONTROL Technical monitoring]** 탭에서 **[!UICONTROL Home]** 링크를 클릭하여 사용할 수 있습니다. 플랫폼에 적합한 다양한 전달 품질 지표가 포함되어 있습니다.
+기술 제공 모니터링 보고서는 매일 업데이트되며, Adobe Campaign **[!UICONTROL Monitoring]** 탭에서 **[!UICONTROL Overview]** > **[!UICONTROL Technical monitoring]** 으로 이동하고 **[!UICONTROL Home]** 링크를 클릭하여 사용할 수 있습니다. 플랫폼에 적합한 다양한 전달 품질 지표가 포함되어 있습니다.
 
 이 표시기는 매일 오전 9시에 업데이트됩니다.
 
 >[!NOTE]
 >
->또한 지정된 주소로 일일 보고서를 이메일로 받을 수 있습니다. 이메일 또는 Adobe Campaign Extranet을 통해 요청된 이메일 주소를 알려주십시오.
+>또한 지정된 주소로 일일 보고서를 이메일로 받을 수 있습니다. 이메일 또는 Adobe Campaign 엑스트라넷으로 요청한 이메일 주소를 알려주십시오.
 
 ![](assets/s_tn_del_monitoring.png)
 
@@ -94,7 +94,7 @@ Signal Spam은 프랑스 ISP(Orange, SFR)에 대해 익명화된 피드백 루�
 
 * **[!UICONTROL DomainKeys]** : Yahoo가 개발한 서비스로, 이메일 발신자의 신원을 인증합니다.
 
-* **[!UICONTROL IP and RBL domain]** (실시간 블랙홀 목록): 잘못된 전송 평판을 가진 blocklist 조직에 의해 플래그가 지정된 IP 주소 및 도메인 목록. 이러한 목록은 Spamhaus, Spamcop, SURBL/URIBL 등과 같은 전용 조직에서 유지 관리합니다. Adobe Campaign은 현재 전달 가능성에 상당한 영향을 미치는 RBL을 기준으로 검사 과정을 진행하고 있습니다. 이러한 RBL은 전송 명성을 반영하며, 이메일을 받기 위해 수락하기 전에 ISP가 참조할 수 있습니다.
+* **[!UICONTROL IP and RBL domain]** (실시간 블랙홀 목록): 잘못된 전송 평판을 위해 차단 목록 조직에 의해 플래그가 지정된 IP 주소 및 도메인 목록입니다. 이러한 목록은 Spamhaus, Spamcop, SURBL/URIBL 등과 같은 전용 조직에서 유지 관리합니다. Adobe Campaign은 현재 전달 가능성에 상당한 영향을 미치는 RBL을 검사합니다. 이러한 RBL은 전송 명성을 반영하며, 이메일을 받기 위해 수락하기 전에 ISP가 참조할 수 있습니다.
 
 * **[!UICONTROL SNDS]** (스마트 네트워크 데이터 서비스): Windows [Live Hotmail 스팸 방지 서비스](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail은 이러한 유형의 정보를 제공하는 유일한 ISP입니다. 벤치마크 점수는 녹색 필터 결과, 불만 비율이 0.1% 미만이고 스팸 트랩은 0입니다.
 
