@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc9ea59a9925930d4a4b260ce73a6bd4b615db5a
+source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
 workflow-type: tm+mt
-source-wordcount: '2857'
+source-wordcount: '2865'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 # 데이터베이스 유형별 특정 구성 {#specific-configurations-by-database-type}
 
-Adobe Campaign에서 액세스할 수 있게 하려는 외부 데이터베이스에 따라 특정 구성을 수행해야 합니다. 이러한 구성은 기본적으로 Adobe Campaign 서버의 각 RDBMS에 속하는 환경 변수를 설치하고 선언합니다.
+Adobe Campaign에서 액세스할 수 있는 외부 데이터베이스에 따라 특정 구성을 수행해야 합니다. 이러한 구성에는 Adobe Campaign 서버의 각 RDBMS에 속하는 드라이버 설치 및 환경 변수 선언이 포함됩니다.
 
 일반적으로 Adobe Campaign 서버의 외부 데이터베이스에 해당 클라이언트 레이어를 설치해야 합니다.
 
@@ -46,7 +46,7 @@ Adobe Campaign에서 액세스할 수 있게 하려는 외부 데이터베이스
 
 1. 외부 계정을 [!DNL Azure Synapse] 구성해야 합니다.
 
-   * **[!UICONTROL Type]**: Azure 구문 분석
+   * **[!UICONTROL Type]**: Azure Synapse Analytics
 
    * **[!UICONTROL Server]**: Azure Synapse 서버의 URL
 
@@ -123,7 +123,7 @@ CentOS에서 Azure 동기화를 구성하려면:
 
 1. 그런 다음 Campaign Classic에서 [!DNL Azure Synapse] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../platform/using/specific-configuration-database.md#azure-external).
 
-1. Azure Synapse Analytics는 TCP 1433 포트를 통해 통신하므로 방화벽에서 이 포트를 열어야 합니다. 다음 명령을 사용하십시오.
+1. Azure Synapse Analytics은 TCP 1433 포트를 통해 통신하므로 방화벽에서 이 포트를 열어야 합니다. 다음 명령을 사용하십시오.
 
    ```
    firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="[server_ip_here]/32" port port="1433" protocol="tcp" accept'
@@ -132,7 +132,7 @@ CentOS에서 Azure 동기화를 구성하려면:
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics에서 통신을 허용하려면 공개 IP를 허용 목록에 추가해야 할 수 있습니다. 이렇게 하려면 [Azure 설명서를 참조하십시오](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >Azure Synapse Analytics 측의 통신을 허용하려면 공개 IP를 허용 목록에 추가해야 할 수 있습니다. 이렇게 하려면 [Azure 설명서를 참조하십시오](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 1. iptables의 경우 다음 명령을 실행합니다.
 
@@ -160,7 +160,7 @@ Windows에서 Azure 동기화를 구성하려면:
 
 1. 그런 다음 Campaign Classic에서 [!DNL Azure Synapse] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../platform/using/specific-configuration-database.md#azure-external).
 
-1. Azure Synapse Analytics는 TCP 1433 포트를 통해 통신하므로 Windows Defender 방화벽에서 이 포트를 열어야 합니다. For more on this, refer to [Windows documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
+1. Azure Synapse Analytics은 TCP 1433 포트를 통해 통신하므로 Windows Defender 방화벽에서 이 포트를 열어야 합니다. For more on this, refer to [Windows documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
 
 ### 데비안의 Azure Synapse {#azure-debian}
 
@@ -215,7 +215,7 @@ Debian에서 Azure 구문을 구성하려면:
 
 1. 이제 Campaign Classic에서 [!DNL Azure Synapse] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../platform/using/specific-configuration-database.md#azure-external).
 
-1. Azure Synapse Analytics와의 연결을 위해 Debian에 iptables를 구성하려면 다음 명령을 사용하여 호스트 이름에 대한 아웃바운드 TCP 1433 포트를 활성화합니다.
+1. Azure Synapse Analytics과의 연결을 위해 Debian에서 iptables를 구성하려면 다음 명령을 사용하여 호스트 이름에 대한 아웃바운드 TCP 1433 포트를 활성화합니다.
 
    ```
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
@@ -223,7 +223,7 @@ Debian에서 Azure 구문을 구성하려면:
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics에서 통신을 허용하려면 공개 IP를 허용 목록에 추가해야 할 수 있습니다. 이렇게 하려면 [Azure 설명서를 참조하십시오](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >Azure Synapse Analytics 측의 통신을 허용하려면 공개 IP를 허용 목록에 추가해야 할 수 있습니다. 이렇게 하려면 [Azure 설명서를 참조하십시오](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 ## Snowflake 액세스 구성 {#configure-access-to-snowflake}
 
@@ -276,7 +276,7 @@ Debian에서 Azure 구문을 구성하려면:
    rpm -Uvh snowflake-odbc-2.20.2.x86_64.rpm
    ```
 
-1. ODBC 드라이버를 다운로드하고 설치한 후 Campaign Classic을 다시 시작해야 합니다. 이렇게 하려면 다음 명령을 실행합니다.
+1. ODBC 드라이버를 다운로드하여 설치한 후 Campaign Classic을 다시 시작해야 합니다. 이렇게 하려면 다음 명령을 실행합니다.
 
    ```
    /etc/init.d/nlserver6 stop
@@ -296,7 +296,7 @@ Debian에서 Azure 구문을 구성하려면:
    apt-get install snowflake-odbc-x.xx.x.x86_64.deb
    ```
 
-1. ODBC 드라이버를 다운로드하고 설치한 후 Campaign Classic을 다시 시작해야 합니다. 이렇게 하려면 다음 명령을 실행합니다.
+1. ODBC 드라이버를 다운로드하여 설치한 후 Campaign Classic을 다시 시작해야 합니다. 이렇게 하려면 다음 명령을 실행합니다.
 
    ```
    systemctl stop nlserver.service
@@ -321,14 +321,14 @@ FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서
 
 1. 그런 다음 ODBC 드라이버를 설치하고 하이브 연결에 대한 DSN을 만들어야 합니다. 지침은 [이 페이지에 있습니다.](https://docs.cloudera.com/documentation/other/connectors/hive-odbc/2-6-5/Cloudera-ODBC-Driver-for-Apache-Hive-Install-Guide.pdf)
 
-1. ODBC 드라이버를 다운로드하고 설치한 후 Campaign Classic을 다시 시작해야 합니다. 이렇게 하려면 다음 명령을 실행합니다.
+1. ODBC 드라이버를 다운로드하여 설치한 후 Campaign Classic을 다시 시작해야 합니다. 이렇게 하려면 다음 명령을 실행합니다.
 
    ```
    systemctl stop nlserver.service
    systemctl start nlserver.service
    ```
 
-1. Campaign Classic에서 Snowflake 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** / **[!UICONTROL Platform]** /를 **[!UICONTROL External accounts]**&#x200B;클릭합니다.
+1. 그런 다음 Campaign Classic에서 Snowflake 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** / **[!UICONTROL Platform]** /를 **[!UICONTROL External accounts]**&#x200B;클릭합니다.
 
 1. 을 클릭하고 계정 유형 **[!UICONTROL Create]** **[!UICONTROL External database]** 으로 선택합니다.
 
@@ -588,7 +588,7 @@ FDA에서 Oracle 외부 데이터베이스에 연결하려면 Adobe Campaign 서
 
 ## Sybase IQ에 대한 액세스 구성 {#configure-access-to-sybase-iq}
 
-FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 서버에 아래 추가 구성이 필요합니다.
+FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 서버에 추가 구성이 필요합니다.
 
 1. 원본 패키지가 서버에 있는지 확인합니다.
 1. iq_odbc **를 설치합니다**. 설치가 끝날 때 오류가 발생할 수 있습니다. 이 오류는 무시될 수 있습니다.
@@ -625,7 +625,7 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
    * customer.sh 파일을 사용하여 경로를 선언할 경우: LD_LIBRARY_PATH 변수에 대해 /opt/sybase/IQ-16_0/lib64 경로를 추가합니다.
    * 그렇지 않은 경우 Unix 명령을 사용합니다.
 
-1. Campaign Classic에서 Sybase IQ 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** / **[!UICONTROL Platform]** /를 **[!UICONTROL External accounts]**&#x200B;클릭합니다.
+1. 그런 다음 Campaign Classic에서 Sybase IQ 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** / **[!UICONTROL Platform]** /를 **[!UICONTROL External accounts]**&#x200B;클릭합니다.
 
 1. 을 **[!UICONTROL New]** 클릭하고 **[!UICONTROL External database]** 으로 선택합니다 **[!UICONTROL Type]**.
 
@@ -643,7 +643,7 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
 
 >[!NOTE]
 >
->Windows의 경우 Sybase IQ 클라이언트를 Adobe Campaign 서버에 설치하고 ODBC 연결을 만들어야 합니다. Windows에서 Adobe Campaign 서버(nlserver)가 서비스로 실행 중일 때 시스템 데이터 소스를 만들어야 합니다.
+>Windows의 경우 Adobe Campaign 서버에 Sybase IQ 클라이언트를 설치하고 ODBC 연결을 만들어야 합니다. Adobe Campaign 서버(nlserver)가 Windows에서 서비스로 실행 중일 때 시스템 데이터 소스를 만들어야 합니다.
 
 ## 메타데이터 액세스 구성 {#configure-access-to-teradata}
 
@@ -742,7 +742,7 @@ FDA에서 SAP HANA 외부 데이터베이스에 연결하려면 Adobe Campaign �
    * **LD_LIBRARY_PATH**: 여기에는 기본적으로 SAP Hana 클라이언트(/usr/sap/hdbclient/libodbcHDB.so)에 대한 링크가 포함되어야 합니다.
    * **ODBCINI**: odbc.ini 파일의 위치입니다(예: /etc/odbc.ini).
 
-1. 그런 다음 Campaign Classic에서 SAP Hana 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** / **[!UICONTROL Platform]** /를 **[!UICONTROL External accounts]**&#x200B;클릭합니다.
+1. 그런 다음 Campaign Classic에서 SAP 하나 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** / **[!UICONTROL Platform]** /를 **[!UICONTROL External accounts]**&#x200B;클릭합니다.
 
 1. 을 **[!UICONTROL New]** 클릭하고 **[!UICONTROL External database]** 으로 선택합니다 **[!UICONTROL Type]**.
 
