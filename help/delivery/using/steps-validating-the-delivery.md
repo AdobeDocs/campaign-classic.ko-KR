@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b0bcdfca1767aab5c54f06a5af5fb9097d2ec6f
+source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1676'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 ## 증명 전송 {#sending-a-proof}
 
-메시지 구성에서 발생할 수 있는 오류를 탐지하려면 배달 유효성 검사 주기를 설정하는 것이 좋습니다. 필요에 따라 테스트 내용을 수신자에게 전송하여 컨텐츠가 승인되었는지 확인합니다. 컨텐츠를 승인하려면 변경 사항이 있을 때마다 증거를 보내야 합니다.
+메시지 구성에서 발생할 수 있는 오류를 탐지하려면 배달 유효성 검사 주기를 설정하는 것이 좋습니다. 테스트 내용을 수신자에게 전송하여 필요에 따라 컨텐츠를 자주 승인할 수 있습니다. 컨텐츠를 승인하려면 변경 사항이 있을 때마다 증거를 보내야 합니다.
 
 >[!NOTE]
 >
@@ -181,7 +181,7 @@ ht-degree: 0%
 다음 옵션을 사용할 수 있습니다.
 
 * 첫 번째 옵션을 사용하면 교정을 두 배로 유지할 수 있습니다.
-* 다음 옵션 모두 블랙리스트에 추가된 받는 사람 및 주소를 격리할 수 있도록 해줍니다. 제외 설정 사용자 지정에서 기본 대상에 대한 이러한 옵션 [의 설명을 참조하십시오](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). 이러한 주소가 기본적으로 제외되는 배달 대상과 달리 증명 대상에 대해서는 기본적으로 보존됩니다.
+* 다음 옵션 모두 블록 목록에 있는 받는 사람과 격리된 주소를 유지할 수 있도록 해줍니다. 제외 설정 사용자 지정에서 기본 대상에 대한 이러한 옵션 [의 설명을 참조하십시오](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). 이러한 주소가 기본적으로 제외되는 배달 대상과 달리 증명 대상에 대해서는 기본적으로 보존됩니다.
 * 이 **[!UICONTROL Keep the delivery code for the proof]** 옵션을 사용하면 관련된 배달에 대해 정의된 것과 동일한 배달 코드를 증표에 제공할 수 있습니다. 이 코드는 배달 마법사의 첫 번째 단계에서 지정됩니다.
 * 기본적으로 증거의 제목에 &#39;Proof #&#39;가 접두사로 추가되며 여기서 #은 증표의 번호입니다. 필드에서 이 접두사를 변경할 수 **[!UICONTROL Label prefix]** 있습니다.
 
@@ -215,7 +215,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[!UICONTROL Arbitration]** 유형 유형 유형 분류는 판매 압력 관리의 프레임워크에서 사용됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/about-marketing-resource-management.md)을 참조하십시오.
+>**[!UICONTROL Arbitration]** 유형 유형 유형 유형은 매출 압력 관리의 프레임워크에서 사용됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/about-marketing-resource-management.md)을 참조하십시오.
 
 ## 승인 모드 변경 {#changing-the-approval-mode}
 
