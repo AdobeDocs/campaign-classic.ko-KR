@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9b0f943fa09b3d0ad8547eb708e888724f1ae7e
+source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
 workflow-type: tm+mt
-source-wordcount: '7852'
+source-wordcount: '7859'
 ht-degree: 3%
 
 ---
@@ -207,7 +207,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/upload/' <br /> </td> 
   </tr> 
   <tr> 
-   <td> uploadWhitelist<br /> </td> 
+   <td> uploadAllowlist<br /> </td> 
    <td> ','로 구분하여 다운로드할 수 있는 권한이 있는 파일입니다. 문자열은 유효하고 정규 java 표현식이어야 합니다. 업로드 <a href="../../installation/using/configuring-campaign-server.md#limiting-uploadable-files" target="_blank">가능한 파일 제한을 참조하십시오</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '.+' <br /> </td> 
@@ -575,8 +575,8 @@ dataStore **> dataSource > 풀** 노드에서 연결된 연결 풀의 매개 변
  </thead> 
  <tbody> 
   <tr> 
-   <td> blacklistFile<br /> </td> 
-   <td> 블랙 리스트 명령이 포함된 파일의 경로입니다. <br /> </td> 
+   <td> blocklistFile<br /> </td> 
+   <td> 허용 목록에 추가할 명령이 포함된 파일의 경로입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
@@ -907,7 +907,7 @@ proxyConfig **> HTTP 프록시/보안 프록시** 노드에서 다음 매개 변
 
 다음은 urlPermission **노드의 다른 매개** 변수입니다. Javascript 코드가 액세스할 수 있는 URL 목록입니다.
 
-Javascript 코드에서 발견된 URL을 Adobe Campaign 서버에서 사용할 수 있는지 여부를 지정하는 도메인 및 정규 표현식 목록입니다.
+Javascript 코드에서 발생한 URL을 Adobe Campaign 서버에서 사용할 수 있는지 여부를 지정하는 도메인 및 정규 표현식 목록입니다.
 
 URL을 찾을 수 없는 경우, 지정한 기본 모드에 따라 기본 작업이 수행됩니다.
 
@@ -1179,7 +1179,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> checkInstanceName<br /> </td> 
-   <td> 인스턴스 이름 확인: true인 경우 메시지-ID 헤더에 포함된 Adobe Campaign 인스턴스의 이름은 현재 인스턴스와 같아야 합니다. <br /> </td> 
+   <td> 인스턴스 이름 확인: true인 경우 Message-ID 헤더에 포함된 Adobe Campaign 인스턴스의 이름은 현재 인스턴스와 동일해야 합니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
@@ -2383,7 +2383,7 @@ mta > **child > smtp > IP** 노드에서 다음 매개 변수를 구성합니다
  <tbody> 
   <tr> 
    <td> netsizeConnectionTimeout<br /> </td> 
-   <td> Netsize와의 연결을 설정할 때 시간 초과(초)<br /> </td> 
+   <td> Netsize와의 연결을 설정할 때 시간 초과(초)입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
@@ -3079,7 +3079,7 @@ JVM을 시작할 때 사용할 **웹 > jsp > 클래스** 경로 목록은 모두
   </tr> 
   <tr> 
    <td> status<br /> </td> 
-   <td> 공용 리소스의 동기화 상태(열거형). 가능한 값은 'normal'(normal execution), 'blacklist'(error 404의 경우 url blacklist) 및 'spare'(있는 경우 예비 서버에 파일 업로드)입니다.<br /> </td> 
+   <td> 공용 리소스의 동기화 상태(열거형). 가능한 값은 'normal'(normal execution), 'blocklist'(error 404 오류의 경우 블록 목록에 추가된 url) 및 'spare'(있는 경우 예비 서버에서 파일 업로드)입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> normal<br /> </td> 
   </tr> 
@@ -3137,19 +3137,19 @@ JVM을 시작할 때 사용할 **웹 > jsp > 클래스** 경로 목록은 모두
      timeout="" status="normal" httpAllowed="true" urlPath="/nl/jsp/s.jsp"/>
 
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="false" urlPath="/nms/jsp/*.jsp"/>
+     timeout="" status="blocklist" httpAllowed="false" urlPath="/nms/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="false" urlPath="/xtk/jsp/*.jsp"/>
+     timeout="" status="blocklist" httpAllowed="false" urlPath="/xtk/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="false" urlPath="/nl/jsp/*.jsp"/>
+     timeout="" status="blocklist" httpAllowed="false" urlPath="/nl/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="false" urlPath="*.jssp"/>
+     timeout="" status="blocklist" httpAllowed="false" urlPath="*.jssp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="true" urlPath="/webApp/*"/>
+     timeout="" status="blocklist" httpAllowed="true" urlPath="/webApp/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="false" urlPath="/report/*"/>
+     timeout="" status="blocklist" httpAllowed="false" urlPath="/report/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="false" urlPath="/jssp/*"/>
+     timeout="" status="blocklist" httpAllowed="false" urlPath="/jssp/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
      timeout="" status="normal" httpAllowed="false" urlPath="/strings/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
@@ -3219,7 +3219,7 @@ JVM을 시작할 때 사용할 **웹 > jsp > 클래스** 경로 목록은 모두
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> IMS 조직 식별자: VisitorID 서비스 및 IMS SSO에 특별히 사용되는 Adobe Marketing Cloud 내의 고유한 조직 식별자입니다. <br /> </td> 
+   <td> IMS 조직 식별자: 방문자 ID 서비스 및 IMS SSO에 특별히 사용되는 Adobe Marketing Cloud 내의 고유한 조직 식별자입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
