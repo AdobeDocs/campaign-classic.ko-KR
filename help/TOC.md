@@ -1,13 +1,13 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Classic 도움말
+user-guide-title: Adobe Campaign 클래식 도움말
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 56ddf3dc1505c0507c67f8b08c9f33b4007f8857
+source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2101'
 ht-degree: 8%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 8%
    + [더 이상 사용되지 않는 기능](rn/using/deprecated-features.md)
 + Getting Started {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
-      + [Adobe Campaign Classic 정보](platform/using/about-adobe-campaign-classic.md)
+      + [Adobe Campaign 클래식 정보](platform/using/about-adobe-campaign-classic.md)
       + [개인 정보 및 권장 사항](platform/using/privacy-and-recommendations.md)
       + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
       + [Adobe Campaign 작업 영역](platform/using/adobe-campaign-workspace.md)
@@ -107,7 +107,7 @@ ht-degree: 8%
    + 푸시 알림 전송 {#sending-push-notifications}
       + [모바일 앱 채널 정보](delivery/using/about-mobile-app-channel.md)
       + [모바일 애플리케이션에 Campaign SDK 통합](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
-      + [Adobe Campaign에서 모바일 애플리케이션 구성](delivery/using/configuring-the-mobile-application.md)
+      + [Adobe Campaign에서 모바일 응용 프로그램 구성](delivery/using/configuring-the-mobile-application.md)
       + [알림 만들기](delivery/using/creating-notifications.md)
       + [문제 해결](delivery/using/troubleshooting.md)
    + 다이렉트 메일 보내기 {#sending-direct-mail}
@@ -161,7 +161,7 @@ ht-degree: 8%
       + [받은 편지함 렌더링](delivery/using/inbox-rendering.md)
       + [스팸자퍼](delivery/using/spamassassin.md)
       + [재참여 우수 사례](delivery/using/re-engagement-best-practices.md)
-      + [블랙리스트 데이터베이스](delivery/using/blacklisting-databases.md)
+      + [블록 목록 데이터베이스](delivery/using/block-list-databases.md)
       + [문제 해결](delivery/using/deliverability-faq.md)
    + 컨텐츠 관리 모듈 {#content-management}
       + [컨텐츠 관리 정보](delivery/using/about-content-management.md)
@@ -306,10 +306,10 @@ ht-degree: 8%
       + [통합 구성](integrations/using/configuring-the-integration.md)
       + [[!DNL Experience Manager] 뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [[!DNL Adobe Target]과 통합](integrations/using/integrating-with-adobe-target.md)
-      + [[!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [[!DNL Adobe Target]과(와) 통합](integrations/using/integrating-with-adobe-target.md)
+      + [[!DNL Adobe Target]과(와) 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [동적 이미지 삽입](integrations/using/inserting-a-dynamic-image.md)
-   + Adobe ID를 통해 연결 {#connecting-via-an-adobe-id}
+   + Adobe ID을 통해 연결 {#connecting-via-an-adobe-id}
       + [[!DNL Adobe ID] 정보](integrations/using/about-adobe-id.md)
       + [[!DNL IMS] 구성](integrations/using/configuring-ims.md)
       + [[!DNL IMS] 구현](integrations/using/implementing-ims.md)
@@ -319,7 +319,7 @@ ht-degree: 8%
       + [프로필 동기화](integrations/using/synchronizing-profiles.md)
       + [대상 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
-      + [[!DNL ACS 커넥터 ]문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
+      + [[!DNL ACS 커넥터 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
 + 워크플로우로 자동화 {#automating-with-workflows}
    + 소개 {#introduction}
       + [워크플로우 정보](workflow/using/about-workflows.md)
@@ -439,7 +439,7 @@ ht-degree: 8%
       + [기술 워크플로우 정보](workflow/using/about-technical-workflows.md)
       + [배달](workflow/using/deliveries.md)
       + [캠페인](workflow/using/campaign.md)
-      + [웹 분석](workflow/using/web-analytics.md)
+      + [웹 Analytics](workflow/using/web-analytics.md)
       + [분산 마케팅](workflow/using/distributed-marketing.md)
       + [전달 능력 모니터링](workflow/using/email-deliverability.md)
       + [받은 편지함 렌더링](workflow/using/inbox-rendering.md)
@@ -611,7 +611,7 @@ ht-degree: 8%
       + [새 인스턴스 만들기](installation/using/creating-new-instances.md)
       + [Campaign Classic 옵션 목록](installation/using/configuring-campaign-options.md)
       + [캠페인 제거](installation/using/uninstalling-campaign.md)
-+ 캠페인 클래식 모니터링 {#monitoring-campaign-classic}
++ 모니터링 Campaign Classic {#monitoring-campaign-classic}
    + 소개 {#introduction}
       + [포워드](production/using/foreword.md)
       + [일반 아키텍처](production/using/general-architecture.md)
@@ -724,10 +724,10 @@ ht-degree: 8%
       + [마이그레이션을 시작하기 전](migration/using/before-starting-migration.md)
       + [마이그레이션 테스트](migration/using/testing-the-migration.md)
       + [플랫폼 구성](migration/using/configuring-your-platform.md)
-   + Adobe Campaign 7로 마이그레이션 {#migrating-to-adobe-campaign-7}
-      + [Adobe Campaign 7로 마이그레이션하기 위한 사전 요구 사항](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
+   + Adobe Campaign 7으로 마이그레이션 {#migrating-to-adobe-campaign-7}
+      + [Adobe Campaign 7으로 마이그레이션하기 위한 사전 요구 사항](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
       + [Adobe Campaign 7용 Windows에서 마이그레이션](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
-      + [Linux에서 Adobe Campaign v7 마이그레이션](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
+      + [Adobe Campaign v7용 Linux에서 마이그레이션](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
    + 구성 {#configuration}
       + [일반 구성](migration/using/general-configurations.md)
       + [v5.11의 특정 구성](migration/using/specific-configurations-in-v5-11.md)
