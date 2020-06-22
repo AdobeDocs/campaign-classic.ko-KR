@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2c555f29f0e0029b468927dbdb4bc79f9a35990d
+source-git-commit: 655544352070b0e2fab72b1991d2e4d80e03e349
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2808'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,19 @@ _2019년 8월 13일_
 
 ## 릴리스 19.1.4 - 빌드 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **2020년 4월 29일**: 다음 수정 사항이 포함된 새 빌드(9032@3a9dc9c):
+![](assets/do-not-localize/green_2.png) **2020년 6월 22일**: 다음 수정 사항이 포함된 새 빌드(9032@800be2e):
+
+* iOS HTTP2 커넥터가 개선되었습니다(타사 업데이트 및 오류 관리). (NEO-25904, NEO-25903, NEO-25799)
+
+다음 수정 사항은 추적 링크 보안 메커니즘과 관련되어 있습니다.
+
+* &quot;알림 클릭&quot; 추적이 작동하지 않는 문제를 해결했습니다(iOS 및 Android 푸시 알림). (NEO-25965)
+* 특정 이전 버전의 Outlook을 사용할 때 추적 URL을 열거나 클릭하지 못하는 문제를 해결했습니다.  (NEO-25688)
+* 개인화 매개 변수의 조각을 사용하여 URL을 추적할 수 없는 문제(파운드 기호가 있는 앵커 태그)가 수정되었습니다. (NEO-25774)
+* 피싱 방지 서비스 문제를 수정했습니다. (NEO-25283)
+* 특정 사용자 지정 추적 공식을 사용할 때의 추적 문제를 수정했습니다. (NEO-25277)
+
+![](assets/do-not-localize/orange_2.png) **2020년 4월 29일**: 다음 수정 사항이 포함된 새 빌드(9032@3a9dc9c):
 
 * 이메일의 링크 추적 보안이 개선되었습니다. 모든 고객에 대해 기본적으로 활성화됩니다. 고객 지원 센터에 연락하여 활성화할 수 있는 향상된 추가 보안 기능을 사용할 수 있습니다. 호스팅되지 않은 고객이 이 기능을 사용하도록 설정하는 기능 및 단계에 대한 자세한 내용은 [보안 및 개인 정보 확인 목록에서 확인할 수 있습니다](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
 * 라인 전달에 이미지가 표시되지 않는 문제를 해결했습니다. (NEO-23207)
