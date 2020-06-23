@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
+source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2218'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 * [외부 계정 라우팅](#routing-external-account)
 * [FTP 외부 계정](#ftp-external-account)
 * [외부 데이터베이스 외부 계정](#external-database-external-account)
-* [웹 분석 외부 계정](#web-analytics-external-account)
+* [웹 Analytics 외부 계정](#web-analytics-external-account)
 * [Facebook 연결 외부 계정](#facebook-connect-external-account)
 * [실행 인스턴스 외부 계정](#execution-instance-external-account)
 * [Adobe Experience Cloud 외부 계정](#adobe-experience-cloud-external-account)
@@ -47,9 +47,9 @@ ht-degree: 0%
 
 ## 외부 계정 만들기 {#creating-an-external-account}
 
-Adobe Campaign에는 미리 정의된 외부 계정 세트가 포함되어 있습니다. 파일 전송에 사용되는 FTP 서버와 같은 외부 시스템과의 연결을 설정하려면 자체 외부 계정을 만들 수 있습니다.
+Adobe Campaign은 사전 정의된 외부 계정 세트와 함께 제공됩니다. 파일 전송에 사용되는 FTP 서버와 같은 외부 시스템과의 연결을 설정하려면 자체 외부 계정을 만들 수 있습니다.
 
-외부 계정은 기술 워크플로우 또는 캠페인 워크플로우와 같은 기술 프로세스에서 사용됩니다. 워크플로우 또는 다른 응용 프로그램(Adobe Target, Experience Manager 등)과 데이터 교환에서 파일 전송을 설정할 때는 외부 계정을 선택해야 합니다.
+외부 계정은 기술 워크플로우 또는 캠페인 워크플로우와 같은 기술 프로세스에서 사용됩니다. 워크플로우 또는 다른 응용 프로그램(Adobe Target, Experience Manager 등)과 데이터 교환을 설정할 때 외부 계정을 선택해야 합니다.
 
 1. 메뉴에서 **[!UICONTROL Explorer]**&#x200B;메뉴를 **[!UICONTROL Administration]** 펼쳐라.
 1. 메뉴를 **[!UICONTROL Platform]** 펼쳐서 클릭하십시오 **[!UICONTROL External accounts]**.
@@ -151,7 +151,7 @@ FTP 외부 계정을 사용하면 Adobe Campaign 외부의 서버에 대한 액�
 
 ## 외부 데이터베이스 외부 계정 {#external-database-external-account}
 
-Adobe Campaign은 외부 애플리케이션과 통신하고 데이터베이스 엔진에 연결할 수 있는 여러 커넥터를 제공합니다.
+Adobe Campaign은 외부 응용 프로그램과 통신하고 데이터베이스 엔진에 연결할 수 있는 여러 개의 커넥터를 제공합니다.
 
 ![](assets/ext_account_11.png)
 
@@ -173,7 +173,7 @@ Adobe Campaign은 외부 애플리케이션과 통신하고 데이터베이스 �
 
 ### Snowflake 외부 계정 {#snowflake-external-account}
 
-Snowflake **외부** 계정을 사용하면 Campaign 인스턴스를 Snowflake 외부 데이터베이스에 연결할 수 있습니다. Snowflake를 사용하여 Campaign Classic을 구성하는 방법에 대한 자세한 내용은 이 [페이지를 참조하십시오](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
+Snowflake **외부** 계정을 사용하면 Campaign 인스턴스를 Snowflake 외부 데이터베이스에 연결할 수 있습니다. Snowflake로 Campaign Classic을 구성하는 방법에 대한 자세한 내용은 이 [페이지를 참조하십시오](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
 
 이 외부 계정이 Adobe Campaign에서 작동하도록 구성하려면 다음 세부 정보를 제공해야 합니다.
 
@@ -197,7 +197,7 @@ Snowflake **외부** 계정을 사용하면 Campaign 인스턴스를 Snowflake �
 
 ### Teradata 외부 계정 {#teradata-external-account}
 
-Teradata **외부** 계정을 사용하면 캠페인 인스턴스를 Teradata 외부 데이터베이스에 연결할 수 있습니다. 메타데이터를 사용하여 Campaign Classic을 구성하는 방법에 대한 자세한 내용은 이 [페이지](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) 또는 이 [섹션을 참조하십시오](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).
+Teradata **외부** 계정을 사용하면 캠페인 인스턴스를 Teradata 외부 데이터베이스에 연결할 수 있습니다. Teradata로 Campaign Classic을 구성하는 방법에 대한 자세한 내용은 이 [페이지](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) 또는 이 [섹션을 참조하십시오](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).
 
 ![](assets/ext_account_19.png)
 
@@ -233,7 +233,7 @@ Teradata **외부** 계정을 사용하면 캠페인 인스턴스를 Teradata �
 
 ![](assets/ext_account_20.png)
 
-여러 Adobe Campaign 사용자가 동일한 FDA 메타데이터 외부 계정에 연결하는 경우 **[!UICONTROL Query banding]** 탭을 사용하여 세션에서 쿼리 밴드(예: 키/값 쌍 집합)를 설정할 수 있습니다.
+여러 Adobe Campaign 사용자가 동일한 FDA Teradata 외부 계정에 연결하는 경우 **[!UICONTROL Query banding]** 탭에서 한 세션에서 쿼리 밴드(예: 키/값 쌍 집합)를 설정할 수 있습니다.
 
 Campaign 사용자가 Teradata 데이터베이스에 대해 쿼리를 수행할 때마다 Adobe Campaign은 이 사용자와 연관된 키 목록으로 구성된 메타 데이터를 전송합니다. 그런 다음 이 데이터를 메타데이터 관리자가 감사 목적으로 사용하거나 액세스 권한을 관리할 수 있습니다.
 
@@ -245,9 +245,9 @@ Campaign 사용자가 Teradata 데이터베이스에 대해 쿼리를 수행할 
 
 For more information on **[!UICONTROL Query banding]**, refer to the [Teradata documentation](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw).
 
-## 웹 분석 외부 계정 {#web-analytics-external-account}
+## 웹 Analytics 외부 계정 {#web-analytics-external-account}
 
-외부 계정을 사용하면 Adobe Analytics의 데이터를 세그먼트 형태로 Adobe Campaign으로 전달할 수 있습니다. **[!UICONTROL Web Analytics (Adobe Analytics - Data connector)]** 반대로, Adobe Campaign에서 제공하는 이메일 캠페인의 지표와 속성을 Adobe Analytics - 데이터 커넥터로 보냅니다.
+외부 계정을 사용하면 Adobe Analytics의 데이터를 세그먼트 형태로 Adobe Campaign으로 전달할 수 있습니다. **[!UICONTROL Web Analytics (Adobe Analytics - Data connector)]** 반대로 Adobe Campaign이 제공하는 이메일 캠페인의 지표와 속성을 Adobe Analytics - 데이터 커넥터로 보냅니다.
 
 ![](assets/ext_account_10.png)
 
@@ -299,7 +299,7 @@ For more information on **[!UICONTROL Query banding]**, refer to the [Teradata d
 
 ## Adobe Experience Cloud 외부 계정 {#adobe-experience-cloud-external-account}
 
-Adobe ID를 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL Adobe Experience Cloud (MAC)]** 외부 계정을 구성해야 합니다.
+Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL Adobe Experience Cloud (MAC)]** 외부 계정을 구성해야 합니다.
 
 ![](assets/ext_account_9.png)
 
@@ -325,7 +325,7 @@ Adobe ID를 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL 
 
 * **[!UICONTROL IMS organization ID]**
 
-   IMS 조직의 ID. 조직 ID를 찾으려면 이 [페이지](https://marketing.adobe.com/resources/help/en_US/mcloud/faq.html) (**IMS 조직 ID는 어디에서 찾을 수 있습니까?**)를 참조하십시오.
+   IMS 조직의 ID. 조직 ID를 찾으려면 이 [페이지](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html) (**IMS 조직 ID는 어디에서 찾을 수 있습니까?**)를 참조하십시오.
 
 * **[!UICONTROL Association mask]**
 
@@ -365,7 +365,7 @@ SFTP 외부 계정을 사용하면 Adobe Campaign 외부의 서버에 대한 액
 
 ## Adobe Experience Manager 외부 계정 {#adobe-experience-manager-external-account}
 
-외부 계정을 사용하면 Adobe Experience Manager에서 직접 양식 및 이메일 전달의 컨텐츠를 관리할 수 있습니다. **[!UICONTROL AEM (AEM instance)]**
+외부 계정을 사용하면 Adobe Experience Manager에서 직접 양식 뿐만 아니라 이메일 배달의 컨텐츠를 관리할 수 있습니다. **[!UICONTROL AEM (AEM instance)]**
 
 ![](assets/ext_account_5.png)
 
@@ -417,7 +417,7 @@ Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe 
 
 ## Azure 외부 계정 {#azure-external-account}
 
-이 연결이 활성 상태인 경우 **[!UICONTROL Azure]** 외부 계정은 공유 외부 데이터베이스에 연결할 수 있도록 하며 Adobe Campaign을 통해 데이터베이스에 액세스할 수 있습니다.
+외부 계정은 이 연결이 활성 상태이면 Adobe Campaign을 통해 데이터베이스에 액세스할 수 있는 공유 외부 데이터베이스에 연결할 수 있습니다. **[!UICONTROL Azure]**
 
 ![](assets/ext_account_15.png)
 
@@ -435,7 +435,7 @@ Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe 
 
 ## Hadoop 외부 계정 {#hadoop-external-account}
 
-이 연결이 활성 상태인 경우 **[!UICONTROL Hadoop]** 외부 계정은 공유 외부 데이터베이스에 연결할 수 있도록 하며 Adobe Campaign을 통해 데이터베이스에 액세스할 수 있습니다. Hadoop에 대한 액세스를 구성하는 방법에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop).
+외부 계정은 이 연결이 활성 상태이면 Adobe Campaign을 통해 데이터베이스에 액세스할 수 있는 공유 외부 데이터베이스에 연결할 수 있습니다. **[!UICONTROL Hadoop]** Hadoop에 대한 액세스를 구성하는 방법에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop).
 
 ![](assets/ext_account_16.png)
 
@@ -451,7 +451,7 @@ Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe 
 
 외부 계정을 사용하여 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. **[!UICONTROL Microsoft Dynamics CRM]**
 
-Adobe Campaign에서 Microsoft Dynamics 커넥터가 작동하도록 구성하는 것은 배포 유형에 따라 다릅니다.
+Microsoft Dynamics 커넥터가 Adobe Campaign에서 작동하도록 구성하는 것은 배포 유형에 따라 다릅니다.
 배포 유형 **[!UICONTROL On-premise]** 과 **[!UICONTROL Office 365]** 함께 다음 세부 정보를 제공해야 합니다.
 
 ![](assets/ext_account_21.png)
@@ -474,32 +474,32 @@ Adobe Campaign에서 Microsoft Dynamics 커넥터가 작동하도록 구성하�
 
 * **[!UICONTROL Organization name]** 온프레미스 배포용
 
-   Name of your organization.
-Organization name which can be found in the Developers resources dashboard in Microsoft Dynamics, **[!UICONTROL Unique Name]** field.
+   조직의 이름입니다.
+Microsoft Dynamics의 개발자 리소스 대시보드에 있는 조직 **[!UICONTROL Unique Name]** 이름입니다.
 
-* **[!UICONTROL CRM version]** for On-premise
+* **[!UICONTROL CRM version]** 온프레미스
 
-   Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
+   또는 사이에 있는 CRM 버전 **[!UICONTROL Dynamics CRM 2007]****[!UICONTROL Dynamics CRM 2015]** 의 **[!UICONTROL Dynamics CRM 2016]** CRM
 
-With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credentials]** authentication, you need to provide the following details:
+배포 **[!UICONTROL Web API]** 유형 및 **[!UICONTROL Password credentials]** 인증을 사용하여 다음 세부 정보를 제공해야 합니다.
 
 ![](assets/ext_account_14.png)
 
 * **[!UICONTROL Account]**
 
-   Account used to sign in to Microsoft CRM.
+   Microsoft CRM에 로그인하는 데 사용되는 계정입니다.
 
 * **[!UICONTROL Server]**
 
-   URL of your Microsoft CRM server.
+   Microsoft CRM 서버의 URL입니다.
 
 * **[!UICONTROL Client identifier]**
 
-   Client ID which can be found from Microsoft Azure management portal in the **[!UICONTROL Update your code]** category, **[!UICONTROL Client ID]** field.
+   카테고리, **[!UICONTROL Update your code]** **[!UICONTROL Client ID]** 필드의 Microsoft Azure 관리 포털에서 찾을 수 있는 클라이언트 ID.
 
 * **[!UICONTROL CRM version]**
 
-   Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
+   또는 사이에 있는 CRM 버전 **[!UICONTROL Dynamics CRM 2007]****[!UICONTROL Dynamics CRM 2015]** 의 **[!UICONTROL Dynamics CRM 2016]** CRM
 
 배포 **[!UICONTROL Web API]** 유형 및 **[!UICONTROL Certificate]** 인증을 사용하여 다음 세부 정보를 제공해야 합니다.
 
@@ -507,11 +507,11 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credent
 
 * **[!UICONTROL Server]**
 
-   URL of your Microsoft CRM server.
+   Microsoft CRM 서버의 URL입니다.
 
 * **[!UICONTROL Private Key (Base64 encoded)]**
 
-   Private key encoded to Base64
+   Base64로 인코딩된 개인 키
 
 * **[!UICONTROL Custom Key identifier]**
 
@@ -519,11 +519,11 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credent
 
 * **[!UICONTROL Client identifier]**
 
-   Client ID which can be found from Microsoft Azure management portal in the **[!UICONTROL Update your code]** category, **[!UICONTROL Client ID]** field.
+   카테고리, **[!UICONTROL Update your code]** **[!UICONTROL Client ID]** 필드의 Microsoft Azure 관리 포털에서 찾을 수 있는 클라이언트 ID.
 
 * **[!UICONTROL CRM version]**
 
-   Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
+   또는 사이에 있는 CRM 버전 **[!UICONTROL Dynamics CRM 2007]****[!UICONTROL Dynamics CRM 2015]** 의 **[!UICONTROL Dynamics CRM 2016]** CRM
 
 이 구성에 대한 자세한 내용은 이 [페이지를 참조하십시오](../../platform/using/crm-connectors.md#example-for-microsoft-dynamics).
 
@@ -533,7 +533,7 @@ With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credent
 
 ![](assets/ext_account_18.png)
 
-To configure the Oracle on demand external account to work with Adobe Campaign, you need to provide the following details:
+Adobe Campaign에서 작동하도록 Oracle on-demand 외부 계정을 구성하려면 다음 세부 정보를 제공해야 합니다.
 
 * **[!UICONTROL Account]**
 
@@ -551,11 +551,11 @@ To configure the Oracle on demand external account to work with Adobe Campaign, 
 
 ## Salesforce CRM 외부 계정 {#salesforce-crm-external-account}
 
-외부 계정을 사용하여 Salesforce 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. **[!UICONTROL Salesforce CRM]**
+외부 계정을 사용하면 Salesforce 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. **[!UICONTROL Salesforce CRM]**
 
 ![](assets/ext_account_17.png)
 
-Salesforce CRM 외부 계정이 Adobe Campaign과 연동되도록 구성하려면 다음 세부 정보를 제공해야 합니다.
+Salesforce CRM 외부 계정이 Adobe Campaign에서 작동하도록 구성하려면 다음 세부 정보를 제공해야 합니다.
 
 * **[!UICONTROL Account]**
 
