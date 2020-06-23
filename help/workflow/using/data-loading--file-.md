@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e3de6f7b21d912efa4f6faca5e57cb480e8f1805
+source-git-commit: 9c9554b83726da7a7dbc747878d7d0758e71a4d7
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ ht-degree: 0%
 ![](assets/s_advuser_wf_etl_file.png)
 
 파일 가져오기 동안 실행되는 사전 프로세스를 정의할 수 있습니다. 예를 들어, 서버에서 파일의 압축을 풀고 압축되지 않은 파일의 공간을 절약합니다. 따라서 파일 처리 시 압축을 해제할 수 있습니다. 옵션을 **[!UICONTROL Pre-process the file]** 선택하고 다음 3가지 옵션 중 하나를 선택합니다. **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) 또는 **[!UICONTROL Decrypt]** (gpg).
+
+![](assets/preprocessing-dataloading.png)
+
+자세한 내용은 다음 섹션을 참조하십시오. [처리하기](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing)전에 파일을 확장하거나 해독합니다.
 
 ## 파일 형식 정의 {#defining-the-file-format}
 
@@ -104,7 +108,7 @@ ht-degree: 0%
 
    이렇게 하려면 편집 도구의 오른쪽 아래에 있는 **[!UICONTROL Change...]** 단추를 클릭하고 일정을 구성합니다.
 
-   자세한 내용은 스케줄러 [를 참조하십시오](../../workflow/using/scheduler.md).
+   For more on this, refer to [Scheduler](../../workflow/using/scheduler.md).
 
 1. 그런 다음 데이터 로드(파일) 활동을 구성하여 수집된 파일을 읽을 방법을 지정합니다. 이렇게 하려면 로드할 파일과 동일한 구조를 가진 샘플 파일을 선택합니다.
 
