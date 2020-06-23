@@ -5,10 +5,10 @@ solution: Campaign Classic
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
+source-git-commit: b247a3702249183e1e0851160fb3ac3809437ff1
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 25%
+source-wordcount: '275'
+ht-degree: 30%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 25%
 
 ## 새로운 기능
 
+* &#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. [자세한 내용](/help/rn/using/documentation-updates.md)
+
 * **[지원](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)**<br/>&#x200B;액세스 FAQ, 모범 사례, 도움말 리소스 및 도움말 요청
 
-* **[개인 정보 보호 규정 준수](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaign을 통해 개인 정보 보호 규정을 준수하는 방법 살펴보기
+* **[개인 정보 보호 규정 준수](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaign이 개인 정보 보호 규정 준수에 어떻게 도움을 줄 수 있는지 살펴보십시오
 
 * **[추적 기능](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/> Campaign의 추적 기능 및 프로세스 이해
 
