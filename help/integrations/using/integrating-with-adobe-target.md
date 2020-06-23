@@ -15,28 +15,31 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cd40d4616f7b55a1d655a1717b9c7ce8d8b6c6
+source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
 
 # Integrating with Adobe Target{#integrating-with-adobe-target}
 
-Adobe Campaign과 Adobe Target(Classic 및 Standard) 간의 통합을 통해 Adobe Target의 오퍼를 Adobe Campaign 이메일 전달에 포함할 수 있습니다.
+Adobe Experience Cloud의 Adobe Campaign과 Adobe Target(Classic 및 Standard) 간의 통합을 통해 Adobe Campaign의 제안을 Adobe Target 이메일 전달에 포함할 수 있습니다.
 
-운영 원칙은 다음과 같습니다.수신자가 Adobe Campaign을 통해 전송된 이메일을 열면 Adobe Target에 대한 호출을 통해 컨텐츠의 동적 버전을 표시할 수 있습니다. 이 동적 버전은 이메일을 만들 때 미리 지정된 규칙에 따라 계산됩니다.
+운영 원칙은 다음과 같습니다. 수신자가 Adobe Campaign을 통해 보낸 이메일을 열면 Adobe Target에 대한 호출을 통해 동적 버전의 컨텐츠를 표시할 수 있습니다. 이 동적 버전은 이메일을 만들 때 미리 지정한 규칙에 따라 계산됩니다.
 
-Adobe Campaign 및 Adobe Target과 [이 제공하는 4가지 팁과 기법을](https://www.adobe.com/content/dam/www/us/en/marketing/campaign/pdfs/Adobe_Campaign_for_Target_Tips_and_Tricks.pdf)살펴볼 수 있습니다.
+이 4가지 팁과 기법을 사용한 Adobe Campaign 및 Adobe Target [의 통합에 대해 자세히 알아보십시오](https://www.adobe.com/content/dam/www/us/en/marketing/campaign/pdfs/Adobe_Campaign_for_Target_Tips_and_Tricks.pdf).
 >[!NOTE]
 >
 >통합은 정적 이미지만 지원합니다. 나머지 콘텐츠는 개인화할 수 없습니다.
 
-Adobe Target에서 여러 유형의 데이터를 활용할 수 있습니다.
+Adobe Target을 통해 여러 유형의 데이터를 활용할 수 있습니다.
 
 * Adobe Campaign 데이터 마트의 데이터
-* Adobe Target에서 방문자 ID에 연결된 세그먼트는 사용된 데이터가 법적 제한 사항의 영향을 받지 않는 경우
-* Adobe Target 데이터:사용자 에이전트, IP 주소, 지리적 설정 데이터
+* Adobe Target에서 방문자 ID에 연결된 세그먼트는 사용된 데이터가 법적 제한을 받지 않는 경우
+* Adobe Target 데이터: 사용자 에이전트, IP 주소, 지리적 표시 데이터
 
 >[!NOTE]
 >
->또한 Adobe Target 도움말 페이지에서 Adobe Campaign과 Adobe Target 간의 통합에 대한 정보를 [확인할 수](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)있습니다.
+>또한 [Adobe Target 도움말 페이지에서 Adobe Campaign과 Adobe Target 간 통합에 대한 정보도 찾을 수 있습니다](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html).
