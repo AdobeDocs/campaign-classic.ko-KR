@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classic 트랜잭션 메시징 아키텍처
-description: 이 섹션에서는 Adobe Campaign Classic 트랜잭션 메시징 아키텍처에 대해 설명합니다.
+title: Adobe Campaign 클래식 트랜잭션 메시징 아키텍처
+description: 이 섹션에서는 Adobe Campaign Classic 트랜잭션 메시징 아키텍처를 설명합니다.
 page-status-flag: never-activated
 uuid: a8fe7a37-6df7-49f4-838f-97a72e4a38f3
 contentOwner: sauviat
@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8a9d8d63c01cc19380267fced45e180b4d7ccb4
+source-git-commit: e6f8eb6f4ffc3ffe9dbc643cf0edeef439c0f969
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -25,12 +25,12 @@ ht-degree: 0%
 
 ## 실행 및 제어 인스턴스 정보 {#about-execution-and-control-instances}
 
-Adobe Campaign에서 트랜잭션 메시징 기능(메시지 센터라고도 함)은 확장성을 지원하고 24시간 연중무휴 서비스를 제공하도록 설계되었습니다. 여러 가지 인스턴스로 구성됩니다.
+Adobe Campaign에서 트랜잭션 메시징 기능(메시지 센터라고도 함)은 확장성을 지원하고 24시간 연중무휴 서비스를 제공하기 위해 고안되었습니다. 여러 가지 인스턴스로 구성됩니다.
 
 * 메시지 템플릿이 만들어지는 제어 인스턴스
 * 이벤트를 받고 메시지를 전달하는 하나 이상의 실행 인스턴스.
 
-이러한 기능을 사용하려면 제어 인스턴스에 로그인하여 트랜잭션 메시지 템플릿을 만들고, 시드 목록을 사용하여 메시지 미리 보기를 생성하고, 보고서를 표시하고 실행 인스턴스를 모니터링합니다.
+이러한 기능을 사용하려면 Adobe Campaign 사용자가 제어 인스턴스에 로그인하여 트랜잭션 메시지 템플릿을 만들고, 시드 목록을 사용하여 메시지 미리 보기를 생성하고, 보고서를 표시하고 실행 인스턴스를 모니터링합니다.
 
 실행 인스턴스는 이벤트를 수신하고, 트랜잭션 메시지 템플릿에 연결하고, 각 수신자에게 개인화된 메시지를 보냅니다.
 
@@ -38,7 +38,7 @@ Adobe Campaign에서 트랜잭션 메시징 기능(메시지 센터라고도 함
 
 ## 여러 컨트롤 인스턴스 지원 {#supporting-several-control-instances}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >여러 제어 인스턴스와 실행 클러스터를 공유하는 것은 온-프레미스 환경에서만 지원됩니다.
 
@@ -52,9 +52,9 @@ Adobe Campaign에서 트랜잭션 메시징 기능(메시지 센터라고도 함
 
 ## 인스턴스 설치 {#installing-instances}
 
-트랜잭션 메시지 패키지를 설치할 때 몇 가지 주의사항이 있습니다. 프로덕션에 투입하기 전에 테스트 환경에서 작업하는 것이 좋습니다. 또한 호환되는 Adobe Campaign 라이선스가 있어야 합니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
+트랜잭션 메시지 패키지를 설치할 때 몇 가지 주의사항이 있습니다. 프로덕션에 투입하기 전에 테스트 환경에서 작업하는 것이 좋습니다. 또한 호환 Adobe Campaign 라이선스가 필요합니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >제어 인스턴스와 실행 인스턴스를 다른 컴퓨터에 설치해야 합니다. 동일한 캠페인 인스턴스를 공유할 수 없습니다.
 
@@ -90,7 +90,7 @@ To use transactional messaging with Interaction, you need to apply the following
 
 * Install the **Interaction** package onto the control instance and configure your offer catalog.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >Do not replicate the offers onto the execution instances.
 
@@ -124,7 +124,7 @@ You also have to enable the unitary mode on your offer spaces. For more on this,
 모바일 앱 채널에서 트랜잭션 메시지 모듈을 사용하려면 다음 구성을 적용해야 합니다.
 
 1. 컨트롤 및 실행 인스턴스에 **모바일** 앱 채널 패키지를 설치합니다.
-1. 실행 인스턴스에 포함된 **모바일 응용 프로그램** 유형 Adobe Campaign 서비스 및 모바일 응용 프로그램을 복제합니다.
+1. 실행 인스턴스에 포함된 **모바일 응용 프로그램** 유형 Adobe Campaign 서비스뿐만 아니라 모바일 응용 프로그램을 복제할 수 있습니다.
 
 이벤트에는 다음 요소가 포함되어야 합니다.
 
@@ -226,9 +226,9 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **마케팅** �
 
    * **[!UICONTROL Method]** : 선택 **[!UICONTROL Federated Data Access (FDA)]** .
    * **[!UICONTROL FDA account]** : 드롭다운에서 FDA 계정을 선택합니다.
-   * 단추를 **[!UICONTROL Create the archiving workflow]** 클릭합니다.
+   * **[!UICONTROL Create the archiving workflow]** 버튼을 클릭합니다. 
    * 이 **[!UICONTROL Create data synchronization workflow]** 단추를 클릭하여 LINE 데이터 동기화 워크플로우를 만듭니다.
 
 
 
-1. 이제 트랜잭션 메시지 작성을 시작할 수 있습니다. 자세한 내용은 이 [페이지를 참조하십시오](../../message-center/using/introduction.md).
+1. 이제 트랜잭션 메시지 작성을 시작할 수 있습니다. For more on this, refer to this [page](../../message-center/using/introduction.md).
