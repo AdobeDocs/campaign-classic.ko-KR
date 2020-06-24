@@ -5,10 +5,10 @@ solution: Campaign Classic
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: b247a3702249183e1e0851160fb3ac3809437ff1
+source-git-commit: 30b2860250c6d1c4032a22a28f6e2e48dcacc6a8
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 30%
+source-wordcount: '266'
+ht-degree: 25%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 30%
 
 ## 새로운 기능
 
-* &#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. [자세한 내용](/help/rn/using/documentation-updates.md)
+* **[이모티콘](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>은 이제 메시지 및 제목 줄에 이모티콘을 삽입할 수 있습니다
 
 * **[지원](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)**<br/>&#x200B;액세스 FAQ, 모범 사례, 도움말 리소스 및 도움말 요청
 
@@ -49,11 +49,11 @@ ht-degree: 30%
     <p>
   </td>
    <td>
-    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+    <a href="https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html">
       <img alt="업그레이드 빌드" src="platform/using/assets/upgrade.png" />
     </a>
     <div>
-      <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+      <a href="https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html">
     <strong>최신 빌드로 업그레이드</strong>
     </a>
     </div>
