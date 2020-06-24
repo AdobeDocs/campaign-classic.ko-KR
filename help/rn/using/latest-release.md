@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e3e8802aae0d10befcf9eef1ccf720f82c460038
+source-git-commit: b2cc71f8f9b7df80b1601a9fa55bfd77f9a82433
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1765'
 ht-degree: 1%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 1%
 </table>
 
 마지막 **안정적인 빌드는** 9032(3a9dc9c)입니다. 여기를 [클릭하십시오](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+
+![](assets/do-not-localize/cp-icon.png) **활성 프로파일 모니터링, 하위 도메인 전달 기능 감사 및 GPG 키 관리가 포함된 새로운 제어판 6월 릴리스** . [자세한](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)내용
 
 ## ![](assets/do-not-localize/blue_2.png) 릴리스 20.2.1 - 빌드 9178 {#release-20-2-1-build-9178}
 
@@ -117,7 +119,7 @@ _2020년 6월 8일_
 이제 다음 시스템이 Campaign에서 지원됩니다.
 * 운영 체제: 데비안 10
 * RDBMS: Oracle 18c 및 Oracle 19c
-* FDA: Azure 구문 분석
+* FDA: Azure Synapse Analytics
 
 자세한 내용은 [캠페인 호환성 매트릭스를 참조하십시오](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
