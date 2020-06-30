@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
+source-git-commit: 5d67ab5bbc44b81c65605ae9132cf5a8356aa814
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2126'
 ht-degree: 8%
 
 ---
@@ -319,7 +319,14 @@ ht-degree: 8%
       + [프로필 동기화](integrations/using/synchronizing-profiles.md)
       + [대상 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
-      + [[!DNL ACS 커넥터] 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
+      + [[!DNL ACS 커넥터 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
+   + Experience Cloud Triggers {#experience-triggers}
+      + [[!DNL Adobe Experience Cloud 트리거] 정보](integrations/using/about-triggers.md)
+      + [파이프라인 구성](integrations/using/configuring-pipeline.md)
+      + [파이프라인 옵션 NmsPipeline_Config](integrations/using/nmspipeline-config.md)
+      + [트리거 이벤트](integrations/using/events.md)
+      + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
+      + [파이프라인 문제 해결](integrations/using/pipeline-troubleshooting.md)
 + 워크플로우로 자동화 {#automating-with-workflows}
    + 소개 {#introduction}
       + [워크플로우 정보](workflow/using/about-workflows.md)
@@ -397,6 +404,7 @@ ht-degree: 8%
       + [인바운드 이메일](workflow/using/inbound-emails.md)
       + [인바운드 SMS](workflow/using/inbound-sms.md)
    + 사용 사례 {#use-cases}
+      + [워크플로우 사용 사례 정보](workflow/using/about-workflow-use-cases.md)
       + 배달 {#deliveries}
          + [로컬 승인 활동 사용](workflow/using/using-the-local-approval-activity.md)
          + [A/B 테스트](workflow/using/a-b-testing.md)
