@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 68a95962dfecc4b10f48ba16d4f8ab29cae02ee8
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 0%
 도구 모음에서 워크플로우 실행을 시작 및 추적할 수 있습니다.
 
 메뉴 및 마우스 오른쪽 단추 클릭 메뉴에서 사용할 수 있는 옵션 **[!UICONTROL Actions]** 목록은 아래에 자세히 설명되어 있습니다.
+
+>[!IMPORTANT]
+>
+>연산자가 워크플로우(시작, 중지, 일시 중지 등)에서 작업을 수행하는 경우 작업은 바로 실행되지 않고 대신 [워크플로우 모듈에서](../../workflow/using/architecture.md)처리하기 위해 대기열에 배치됩니다.
 
 ## 작업 도구 모음 {#actions-toolbar}
 
