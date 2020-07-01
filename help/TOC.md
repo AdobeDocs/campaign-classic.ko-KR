@@ -319,7 +319,7 @@ ht-degree: 8%
       + [프로필 동기화](integrations/using/synchronizing-profiles.md)
       + [대상 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
-      + [[!DNL ACS 커넥터 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
+      + [[!DNL ACS 커넥터] 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
    + Experience Cloud Triggers {#experience-triggers}
       + [[!DNL Adobe Experience Cloud 트리거] 정보](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
