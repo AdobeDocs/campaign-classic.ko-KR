@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a62e4d072573f7ed1b77f755eb57838c70745592
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 # 웹 애플리케이션 추적 옵트아웃{#web-application-tracking-opt-out}
 
-Adobe Campaign을 사용하면 쿠키 또는 웹 비콘을 통해 행동 추적을 옵트아웃한 최종 사용자의 웹 행동 추적을 중지할 수 있습니다. 이 기능에는 최종 사용자에게 해당 옵션을 제공하는 배너를 표시하는 기능이 포함되어 있습니다. 이러한 배너를 웹 애플리케이션 또는 랜딩 페이지에 추가할 수 있습니다.
+Adobe Campaign을 사용하면 쿠키 또는 웹 비콘을 통해 행동 추적을 옵트아웃한 최종 사용자의 웹 동작 추적을 중지할 수 있습니다. 이 기능에는 최종 사용자에게 해당 옵션을 제공하는 배너를 표시하는 기능이 포함되어 있습니다. 이러한 배너를 웹 애플리케이션 또는 랜딩 페이지에 추가할 수 있습니다.
 
 최종 사용자가 쿠키 또는 웹 비콘을 통해 행동 추적을 옵트아웃하면 해당 정보가 JavaScript API를 사용하여 Adobe Campaign 추적 서버로 전송됩니다. 옵트아웃을 제안(또는 기타 법적 요건 포함)하기 전에 일부 관할지에서는 고객이 최종 사용자에게 옵트인을 제공하도록 요구할 수 있으며 해당 법을 준수하는 것은 고객의 책임입니다.
 
@@ -39,7 +39,7 @@ Adobe Campaign을 사용하면 쿠키 또는 웹 비콘을 통해 행동 추적�
 
 Adobe Campaign은 요구 사항에 맞게 조정해야 하는 샘플 배너와 함께 제공됩니다. 이 배너 버전은 콘텐츠 모델 폴더에 있는 개인화 블록으로 나타납니다. 이 [페이지를 참조하십시오](../../delivery/using/personalization-blocks.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >자신만의 배너를 만들려면 기본 배너를 개인화해야 합니다.
 
@@ -78,7 +78,7 @@ Adobe Campaign은 요구 사항에 맞게 조정해야 하는 샘플 배너와 �
 
 ## API를 사용하여 옵트아웃 쿠키 설정 {#setting-the-opt-out-cookie-using-api}
 
-Adobe Campaign은 쿠키 값을 관리하고 사용자 기본 설정을 검색할 수 있는 API와 함께 제공됩니다.
+Adobe Campaign은 쿠키 값을 관리하고 사용자 기본 설정을 검색할 수 있도록 해주는 API와 함께 제공됩니다.
 
 쿠키 이름은 **옵트아웃입니다**. 공통 값은 다음과 같습니다.
 
