@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3d6c304aaa0b3e6ba1156f1a65e93f5c284b0c0a
+source-git-commit: 8c352c850777852d14ccf3002c20f651b46f9047
 workflow-type: tm+mt
-source-wordcount: '2848'
+source-wordcount: '2917'
 ht-degree: 1%
 
 ---
@@ -77,11 +77,27 @@ _2019년 8월 13일_
 
 ## 릴리스 19.1.4 - 빌드 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **2020년 6월 22일**: 다음 수정 사항이 포함된 새 빌드(9032@800be2e):
+![](assets/do-not-localize/green_2.png) **Gold Standard 10 릴리스**
+
+_2020년 7월 7일_
+
+이 새 빌드(9032@efd8a94)에는 다음 수정 사항이 포함되어 있습니다.
+
+* 추적 링크가 작동하지 않던 문제를 수정했습니다. (NEO-26411)
+
+>[!CAUTION]
+>
+>이 릴리스에서 사용할 수 있는 클라이언트 콘솔을 업그레이드하는 것이 좋습니다. 이 [페이지 참조](../../installation/using/installing-the-client-console.md)
+
+![](assets/do-not-localize/orange_2.png) **Gold Standard 9 릴리스**
+
+_2020년 6월 22일_
+
+이 새 빌드(9032@800be2e)에는 다음 수정 사항이 포함되어 있습니다.
 
 * iOS HTTP2 커넥터가 개선되었습니다(타사 업데이트 및 오류 관리). (NEO-25904, NEO-25903, NEO-25799)
 
-다음 수정 사항은 추적 링크 보안 메커니즘과 관련되어 있습니다.
+다음 수정 사항은 추적 링크 보안 메커니즘과 관련되어 있습니다( [보안 및 개인 정보 확인 목록 참조](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)).
 
 * &quot;알림 클릭&quot; 추적이 작동하지 않는 문제를 해결했습니다(iOS 및 Android 푸시 알림). (NEO-25965)
 * 특정 이전 버전의 Outlook을 사용할 때 추적 URL을 열거나 클릭하지 못하는 문제를 해결했습니다.  (NEO-25688)
@@ -89,7 +105,11 @@ _2019년 8월 13일_
 * 피싱 방지 서비스 문제를 수정했습니다. (NEO-25283)
 * 특정 사용자 지정 추적 공식을 사용할 때의 추적 문제를 수정했습니다. (NEO-25277)
 
-![](assets/do-not-localize/orange_2.png) **2020년 4월 29일**: 다음 수정 사항이 포함된 새 빌드(9032@3a9dc9c):
+![](assets/do-not-localize/orange_2.png) **Gold Standard 8 릴리스**
+
+_2020년 4월 29일_
+
+이 새 빌드(9032@3a9dc9c)에는 다음 수정 사항이 포함되어 있습니다.
 
 * 이메일의 링크 추적 보안이 개선되었습니다. 모든 고객에 대해 기본적으로 활성화됩니다. 고객 지원 센터에 연락하여 활성화할 수 있는 향상된 추가 보안 기능을 사용할 수 있습니다. 호스팅되지 않은 고객이 이 기능을 사용하도록 설정하는 기능 및 단계에 대한 자세한 내용은 [보안 및 개인 정보 확인 목록에서 확인할 수 있습니다](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
 
@@ -110,30 +130,54 @@ _2019년 8월 13일_
 * 정리 워크플로가 충돌하는 회귀 문제를 해결했습니다.
 * 정리 워크플로우 로그에서 사소한 회귀 문제를 해결했습니다.
 
-![](assets/do-not-localize/orange_2.png) **2020년 3월 5일**: 다음 수정 사항이 포함된 새 빌드(9032@19f73c5):
+![](assets/do-not-localize/orange_2.png) **Gold Standard 6 릴리스**
+
+_2019년 3월 9일_
+
+이 새 빌드(9032@19f73c5)에는 다음 수정 사항이 포함되어 있습니다.
 
 * SSL을 통해 FTP를 사용하는 외부 계정 문제를 해결했습니다. (NEO-20498)
 
-![](assets/do-not-localize/orange_2.png) **2019년 12월 17일**: 다음 수정 사항이 포함된 새 빌드(9032@d6b8062):
+![](assets/do-not-localize/orange_2.png) **Gold Standard 5 릴리스**
+
+_2019년 12월 17일_
+
+이 새 빌드(9032@d6b8062)에는 다음 수정 사항이 포함되어 있습니다.
 
 * 다음 통신 채널의 추적 문제가 해결되었습니다. 모바일(SMS, MMS), 푸시(iOS, Android) 및 소셜 네트워크(Facebook, Twitter)입니다. (NEO-19595)
 
-![](assets/do-not-localize/orange_2.png) **2019년 12월 11일**: 다음 수정 사항이 포함된 새 빌드(9032@bc4a935):
+![](assets/do-not-localize/orange_2.png) **Gold Standard 4 릴리스**
+
+_2019년 12월 11일_
+
+이 새 빌드(9032@bc4a935)에는 다음 수정 사항이 포함되어 있습니다.
 
 * MSSQL 데이터베이스를 사용하여 메시지를 전송할 때 성능 문제가 해결되었습니다. (NEO-17558)
 
-![](assets/do-not-localize/orange_2.png) **2019년 11월 20일**: 다음 수정 사항이 포함된 새 빌드(9032@3468c7b):
+![](assets/do-not-localize/orange_2.png) **Gold Standard 3 릴리스**
+
+_2019년 11월 20일_
+
+이 새 빌드(9032@3468c7b)에는 다음 수정 사항이 포함되어 있습니다.
 
 * IMS 인증을 통한 로그인 문제가 해결되었습니다. (NEO-17312)
 * 여러 게재에 대한 누적 보고서를 표시할 때 발생하는 문제가 해결되었습니다. (NEO-18165)
 * 웹 서버 충돌을 차단하거나 야기할 수 있는 문제를 수정했습니다.
 
-![](assets/do-not-localize/orange_2.png) **2019년 9월 19일**: 다음 수정 사항이 포함된 새 빌드(9032@cee805c):
+![](assets/do-not-localize/orange_2.png) **Gold Standard 2 릴리스**
+
+_2019년 9월 19일_
+
+이 새 빌드(9032@cee805c)에는 다음 수정 사항이 포함되어 있습니다.
 
 * Salesforce용 CRM 커넥터를 사용하는 경우 발생하는 문제가 해결되었습니다. (NEO-17712)
 * 트랜잭션 메시지를 보낼 때 성능 문제가 발생할 수 있는 색인 문제를 수정했습니다.
 
-![](assets/do-not-localize/orange_2.png) **2019년 8월 13일**: 다음 수정 사항이 포함된 초기 19.1.4 빌드:
+![](assets/do-not-localize/orange_2.png) **릴리스 19.1.4 - 빌드 9032**
+
+_2019년 8월 13일_
+
+다음 수정 사항이 포함된 초기 19.1.4 빌드:
 
 * 마법사 구성 중 원치 않는 오류 메시지를 생성하는 스케줄러 활동 문제를 수정했습니다. NEO-11662에서 업데이트를 되돌립니다. (NEO-17097)
 * 테스트 활동이 두 번 실행될 때 워크플로우를 중지할 수 있는 NEO-12727에 의해 발생하는 회귀 문제를 수정했습니다. (NEO-16835)
@@ -173,7 +217,7 @@ _2019년 5월 30일_
  <tbody> 
   <tr> 
    <td> 컨트롤 패널<br /> </td> 
-   <td> <p>관리 사용자로서의 작업의 효율성을 높이려면 저장소를 모니터링하여 SFTP 서버의 설정을 관리하고, 목록을 허용하도록 IP 주소를 추가하고, 각 인스턴스에 대해 SSH 키를 설치합니다. 제어판은 현재 AWS에서 호스팅되는 고객에게만 제공됩니다(오늘<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud을 통해</a>로그인).</p> <p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">방법 비디오를 참조하십시오</a>. </p><p>참고: 제어판에 액세스하기 위해 최신 캠페인 빌드로 업그레이드할 필요는 없습니다.</p> </td> 
+   <td> <p>관리 사용자로서의 작업의 효율성을 높이려면 저장소를 모니터링하여 SFTP 서버의 설정을 관리하고 허용 목록에 IP 주소를 추가하고 각 인스턴스에 대한 SSH 키를 설치하도록 합니다. 제어판은 현재 AWS에서 호스팅되는 고객에게만 제공됩니다(오늘<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud을 통해</a>로그인).</p> <p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">방법 비디오를 참조하십시오</a>. </p><p>참고: 제어판에 액세스하기 위해 최신 캠페인 빌드로 업그레이드할 필요는 없습니다.</p> </td> 
   </tr> 
     <tr> 
    <td> 감사 추적<br /> </td> 
