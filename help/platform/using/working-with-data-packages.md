@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8089eb39e7326408f94b5fd6acacd8950c0e6021
+source-git-commit: 788866c4f11d3875f713a61f7560d6d5255f3019
 workflow-type: tm+mt
-source-wordcount: '2481'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -29,16 +29,16 @@ ht-degree: 0%
 
 Adobe Campaign을 사용하면 패키지 시스템을 통해 플랫폼 구성 및 데이터를 내보내거나 가져올 수 있습니다. 패키지에는 서로 다른 종류의 구성, 요소, 필터링되거나 필터링되지 않을 수 있습니다.
 
-데이터 패키지를 사용하면 Adobe Campaign 데이터베이스의 개체가 XML 형식의 파일을 통해 표시될 수 있습니다. 패키지에 포함된 각 엔티티는 모든 데이터로 표현됩니다.
+데이터 패키지를 사용하면 Adobe Campaign 데이터베이스의 엔터티가 XML 형식의 파일을 통해 표시될 수 있습니다. 패키지에 포함된 각 엔티티는 모든 데이터로 표현됩니다.
 
-데이터 **패키지의** 원칙은 데이터 구성을 내보내고 다른 Adobe Campaign 시스템에 통합하는 것입니다. 일관된 데이터 패키지 세트를 유지 관리하는 방법에 대한 자세한 내용은 이 [기술 문서를 참조하십시오](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_How_to_maintain_a_consistent_set_of_data_packages.pdf).
+데이터 **패키지의** 원리는 데이터 구성을 내보내고 다른 Adobe Campaign 시스템에 통합하는 것이다. 이 [섹션에서 일관된 데이터 패키지 세트를 유지 관리하는 방법을 살펴볼 수 있습니다](#data-package-best-practices).
 
 ### 패키지 유형 {#types-of-packages}
 
 내보낼 수 있는 패키지는 다음과 같은 세 가지가 있습니다. 사용자 패키지, 플랫폼 패키지 및 관리 패키지.
 
 * **사용자 패키지**: 내보낼 엔티티 목록을 선택할 수 있습니다. 이 유형의 패키지는 종속성을 관리하고 오류를 확인합니다.
-* **플랫폼 패키지**: 여기에는 모든 추가된 기술 리소스(표준이 아님)가 포함됩니다. 스키마, JavaScript 코드 등
+* **Platform 패키지**: 여기에는 모든 추가된 기술 리소스(표준이 아님)가 포함됩니다. 스키마, JavaScript 코드 등
 
    ![](assets/ncs_datapackage_package_platform.png)
 
@@ -125,7 +125,7 @@ XML 문서는 **`<package>`** 요소로 시작하고 끝나야 합니다. 다음
 
    >[!NOTE]
    >
-   >종속성 메커니즘은 엔티티 내보내기 시퀀스를 제어합니다. 자세한 내용은 종속성 [관리를 참조하십시오](#managing-dependencies).
+   >종속성 메커니즘은 엔티티 내보내기 시퀀스를 제어합니다. For more on this, refer to [Managing dependencies](#managing-dependencies).
 
 1. 엔티티 구성 화면은 추출할 문서 유형에 대한 필터 쿼리를 정의합니다.
 
@@ -151,7 +151,7 @@ XML 문서는 **`<package>`** 요소로 시작하고 끝나야 합니다. 다음
 
 ### 종속성 관리 {#managing-dependencies}
 
-내보내기 메커니즘을 통해 Adobe Campaign은 다양한 내보낸 요소 간의 링크를 추적할 수 있습니다.
+내보내기 메커니즘을 사용하면 Adobe Campaign이 다양한 내보낸 요소 간의 링크를 추적할 수 있습니다.
 
 이 메커니즘은 두 가지 규칙으로 정의됩니다.
 
@@ -265,7 +265,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ![](assets/packagedefinition_addentities.png)
 
-인스턴스의 위치에서 직접 패키지 정의에 엔티티를 추가할 수 있습니다. 이렇게 하려면 아래 절차를 따르십시오.
+인스턴스의 위치에서 직접 패키지 정의에 엔티티를 추가할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
 
 1. 원하는 엔티티를 마우스 오른쪽 단추로 클릭한 다음 선택합니다 **[!UICONTROL Actions > Export in a package]**.
 
@@ -343,15 +343,11 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 이 섹션에서는 프로젝트 수명 전체에서 일관적으로 데이터 패키지를 구성하는 방법에 대해 설명합니다.
 
-<!--Adobe Campaign allows you to export or import the platform configuration through a package system.-->
-
 패키지에 서로 다른 종류의 구성 및 요소가 포함될 수 있으며 필터링되거나 그렇지 않을 수도 있습니다. 일부 요소가 없거나 요소/패키지를 올바른 순서로 가져오지 않으면 플랫폼 구성이 중단됩니다.
 
 또한 여러 가지 다양한 기능을 갖춘 동일한 플랫폼을 사용하는 사용자가 여러 명 있으므로 패키지 사양 폴더가 빠르게 복잡해질 수 있습니다.
 
-필수 사항은 아니지만 이 섹션에서는 대규모 프로젝트를 위해 Adobe Campaign에서 패키지를 구성하고 사용하는 데 도움이 되는 솔루션을 제공합니다.
-
-<!--This solution has been used with a project involving more than 10 consultants.-->
+필수 사항은 아니지만 이 섹션에서는 대규모 프로젝트에서 패키지를 구성하고 사용하는 데 도움이 되는 솔루션을 제공합니다.
 
 기본 제한 사항은 다음과 같습니다.
 * 패키지를 구성하고 변경된 내용과 시기를 추적할 수 있습니다
@@ -379,7 +375,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 다양한 유형의 패키지를 정의하여 시작합니다. 4가지 유형만 사용됩니다.
 
 **엔티티**
-* 스키마, 양식, 폴더, 배달 템플릿 등과 같은 Adobe Campaign의 모든 &quot;xtk&quot; 및 &quot;nms&quot; 특정 요소
+* 스키마, 양식, 폴더, 전달 템플릿 등과 같은 Adobe Campaign의 모든 &quot;xtk&quot; 및 &quot;nms&quot; 특정 요소
 * 엔티티를 &quot;관리자&quot; 및 &quot;플랫폼&quot; 요소로 간주할 수 있습니다.
 * Campaign 인스턴스에서 업로드할 때 패키지에 둘 이상의 엔티티를 포함시켜서는 안 됩니다.
 
@@ -410,7 +406,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ### 이름 지정 규칙 {#data-package-naming}
 
-이제 유형이 정의되므로 명명 규칙을 지정해야 합니다. Adobe Campaign에서는 패키지 사양에 대한 하위 폴더를 만들 수 없습니다. 즉, 숫자는 체계적으로 구성할 수 있는 최상의 솔루션입니다. 숫자 접두어 패키지 이름. 다음 규칙을 사용할 수 있습니다.
+이제 유형이 정의되므로 명명 규칙을 지정해야 합니다. Adobe Campaign은 패키지 사양에 대한 하위 폴더를 만들 수 없습니다. 즉, 숫자는 체계적으로 구성할 수 있는 최상의 솔루션입니다. 숫자 접두어 패키지 이름. 다음 규칙을 사용할 수 있습니다.
 
 * 엔티티: 1~99까지
 * 기능: 100부터 199까지
