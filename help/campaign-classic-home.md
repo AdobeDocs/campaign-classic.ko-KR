@@ -5,9 +5,9 @@ solution: Campaign Classic
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 30b2860250c6d1c4032a22a28f6e2e48dcacc6a8
+source-git-commit: ad0f9bdd2571a8780da464dc3ac8feb7b5aed998
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '260'
 ht-degree: 25%
 
 ---
@@ -87,4 +87,4 @@ ht-degree: 25%
 | [Campaign 시작](platform/using/about-adobe-campaign-classic.md) | [구현 안내서](https://helpx.adobe.com/campaign/kb/acc-implementation.html) |
 | [Gold Standard 업그레이드](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [추적 가이드](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
 | [더 이상 사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) | [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html) |
-| [캠페인 제어판](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) | [모범 사례 모니터링](https://helpx.adobe.com/campaign/kb/acc-maintenance.html) |
+| [캠페인 제어판](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) | [모니터링 지침](production/using/monitoring-guidelines.md) |
