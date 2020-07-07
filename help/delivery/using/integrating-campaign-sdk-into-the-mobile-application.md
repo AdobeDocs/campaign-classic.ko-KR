@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
+source-git-commit: 9f3ef7b0a7b656f81400ed55a713058d43e6c96b
+workflow-type: tm+mt
+source-wordcount: '957'
+ht-degree: 0%
 
 ---
 
@@ -28,13 +31,13 @@ iOS 및 Android용 캠페인 SDK는 모바일 앱 채널 모듈의 구성 요소
 >
 >Campaign SDK(이전의 Neolane SDK)를 받으려면 Adobe 고객 지원 센터에 문의하십시오.
 
-SDK의 목표는 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽게 통합하는 것입니다.
+SDK의 목표는 모바일 애플리케이션을 Adobe Campaign 플랫폼으로 쉽게 통합하는 것입니다.
 
-지원되는 다양한 Android 및 iOS 버전에 대한 자세한 내용은 호환성 [매트릭스를](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#MobileSDK) 참조하십시오.
+지원되는 다른 Android 및 iOS 버전에 대한 자세한 내용은 [호환성 매트릭스를 참조하십시오](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#MobileSDK) .
 
 ## 캠페인 SDK 로드 {#loading-campaign-sdk}
 
-* **Android**:neolane_ **sdk-release.aar** 파일은 프로젝트에 연결되어 있어야 합니다.
+* **Android**: neolane_sdk- **release.aar** 파일을 프로젝트에 연결해야 합니다.
 
    다음 권한은 Adobe Campaign 서버에 대한 액세스 권한을 부여합니다.
 
@@ -44,7 +47,7 @@ SDK의 목표는 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽
    Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/");
    ```
 
-   다음 권한을 통해 전화의 고유 ID를 복구할 수 있습니다.
+   다음 권한을 통해 전화 고유 ID를 복구할 수 있습니다.
 
    ```
    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
@@ -54,24 +57,24 @@ SDK의 목표는 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽
 
    SDK 버전 1.0.26에서 이 권한은 더 이상 사용되지 않습니다.
 
-* **iOS에서**:lib **NeolaneSDK.a** 및 **Neolane_SDK.h** 파일은 프로젝트에 연결되어 있어야 합니다. SDK 버전 1.0.24부터 ENABLE_ **BITCODE 옵션이** 활성화됩니다.
+* **iOS에서**: libNeolaneSDK.a **및** Neolane_SDK.h **** 파일은 프로젝트에 연결해야 합니다. SDK 버전 1.0.24부터 **ENABLE_BITCODE** 옵션이 활성화됩니다.
 
    >[!NOTE]
    >
-   >SDK 버전 1.0.25의 경우 Neolane_SDK. **h** 파일에서 4개의 아키텍처를 사용할 수 있습니다.
+   >SDK 버전 1.0.25의 경우 네 개의 아키텍처를 **Neolane_SDK.h** 파일에서 사용할 수 있습니다.
 
 ## 통합 설정 선언 {#declaring-integration-settings}
 
 Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자가 개발자에게 다음 정보를 제공해야 합니다.
 
-* **통합 키**:을 클릭하여 Adobe Campaign 플랫폼을 활성화하여 모바일 애플리케이션을 식별합니다.
+* **통합 키**: Adobe Campaign 플랫폼을 활성화하여 모바일 애플리케이션을 식별합니다.
 
    >[!NOTE]
    >
-   >이 통합 키는 모바일 애플리케이션 전용 서비스의 **[!UICONTROL Information]** 탭에 있는 Adobe Campaign 콘솔에 입력됩니다. Adobe [Campaign에서 모바일 애플리케이션 구성을 참조하십시오](../../delivery/using/configuring-the-mobile-application.md).
+   >이 통합 키는 모바일 응용 프로그램 전용 서비스 **[!UICONTROL Information]** 탭의 Adobe Campaign 콘솔에 입력됩니다. Adobe Campaign [에서 모바일 애플리케이션 구성을 참조하십시오](../../delivery/using/configuring-the-mobile-application.md).
 
-* **추적 URL**:는 Adobe Campaign 추적 서버의 주소와 일치합니다.
-* **마케팅 URL**:를 클릭하여 구독을 활성화합니다.
+* **추적 URL**: Adobe Campaign 추적 서버의 주소와 일치합니다.
+* **마케팅 URL**: 을 클릭하여 구독을 수집할 수 있습니다.
 
 * **Android**:
 
@@ -92,9 +95,9 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
 ## 등록 함수 {#registration-function}
 
-등록 기능을 사용하면 다음 작업을 수행할 수 있습니다.
+등록 기능을 사용하여 다음을 수행할 수 있습니다.
 
-* 알림 ID 또는 푸시 ID(iOS용 deviceToken 및 Android용 registrationID)를 Adobe Campaign에 보냅니다.
+* 알림 ID 또는 푸시 ID(iOS용 deviceToken 및 Android용 registrationID)를 Adobe Campaign으로 보냅니다.
 * 조정 키 또는 userKey 복구(예: 이메일 또는 계정 번호)
 
 * **Android**:
@@ -112,7 +115,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
    }
    ```
 
-   FCM(Firebase Cloud Messaging)을 사용하는 경우 **onTokenRefresh** 함수를 호출할 때 **registerDevice** 함수를 사용하여 사용자의 모바일 장치 토큰의 변경 사항을 Adobe Campaign에 알릴 것을 권장합니다.
+   FCM(Firebase Cloud Messaging)을 사용하는 경우 onTokenRefresh **함수를 호출할 때** registerDevice **** 함수를 사용하여 사용자의 모바일 장치 토큰 변경 사항을 Adobe Campaign에 알리는 것이 좋습니다.
 
    ```
    public class NeoTripFirebaseInstanceIDService extends FirebaseInstanceIdService {
@@ -152,7 +155,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
    추적 기능을 사용하면 알림 활성화(열기)와 알림 표시(스크린샷)를 추적할 수 있습니다.
 
-   알림 표시를 추적하려면(SDK의 **notifyReceive** 함수를 호출하여 완료) 아래 구현을 따르십시오. FCM(Firebase Cloud Messaging)을 사용하는 경우 Android 시스템에서 **onMessageReceived** 함수를 호출할 **때** notifyReceive 함수를 사용하는 것이 좋습니다.
+   알림 표시를 추적하려면(SDK의 **notifyReceive** 함수를 호출하여 완료) 아래 구현을 따르십시오. FCM(Firebase Cloud Messaging)을 사용하는 경우 Android 시스템에서 onMessageReceived **함수를 호출할 때** notifyReceive **함수를 사용하는 것이 좋습니다** .
 
    ```
    package com.android.YourApplication;
@@ -202,14 +205,19 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
        if( url == null )     url = "https://www.tripadvisor.fr";
        int iconId = R.drawable.notif_neotrip;
    
-       // notify Neolane that a notification just arrived
-       NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
-       nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
-         public void onNeolaneException(NeolaneException arg0, Object arg1) {}
-         public void onIOException(IOException arg0, Object arg1) {}
-         public void onComplete(String arg0, Object arg1){}
-       });
-       if (yourApplication.isActivityVisible())
+     // notify Neolane that a notification just arrived
+     SharedPreferences settings = context.getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
+     Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
+     Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
+     Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
+   
+     NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
+     nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
+       public void onNeolaneException(NeolaneException arg0, Object arg1) {}
+       public void onIOException(IOException arg0, Object arg1) {}
+       public void onComplete(String arg0, Object arg1){}
+     });
+     if (yourApplication.isActivityVisible())
        {
          Log.i("INFO", "The application has the focus" );
          ...
@@ -243,28 +251,32 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
    }
    ```
 
-   다음은 열린 알림 추적을 위한 구현 예입니다(SDK의 notifyOpening **함수를 호출하여** 실행됨). NotificationActivity **클래스는** 이전 예제에서 **notifIntent** 개체를 만드는 데 사용되는 클래스에 해당합니다.
+   다음은 SDK의 **notifyOpening** 함수를 호출하여 실행되는 알림 열기 추적에 대한 구현 예입니다. NotificationActivity **** 클래스는 이전 예제에서 notifIntent **개체를 만드는 데 사용되는** 클래스에 해당합니다.
 
    ```
    public class NotificationActivity extends Activity {
-    public static final String NOTIFICATION_URL_KEYNAME = "NotificationUrl";
-    .....
-    public void onCreate(Bundle savedBundle) {
-     super.onCreate(savedBundle);
-     setContentView(R.layout.notification_viewer);  
-     .....  
-     Bundle extra = getIntent().getExtras();  
-     .....  
-     //get the messageId and the deliveryId to do the tracking  
-     String deliveryId = extra.getString("_dId");
-     String messageId = extra.getString("_mId");
-     if (deliveryId != null && messageId != null) {
-      NeolaneAsyncRunner neolaneAs = new NeolaneAsyncRunner(Neolane.getInstance());
-      neolaneAs.notifyOpening(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
-       public void onNeolaneException(NeolaneException arg0, Object arg1) {}
-       public void onIOException(IOException arg0, Object arg1) {}
-       public void onComplete(String arg0, Object arg1) {}
-       });
+   public void onCreate(Bundle savedBundle) {
+     [...]
+     Bundle extra = getIntent().getExtras();
+     if (extra != null) {
+       // reinit the acc sdk
+       SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
+       Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
+       Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));               
+       Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
+   
+       // Get the messageId and the deliveryId to do the tracking
+       String deliveryId = extra.getString("_dId");
+       String messageId = extra.getString("_mId");
+       if (deliveryId != null && messageId != null) {
+         try {
+           Neolane.getInstance().notifyOpening(Integer.valueOf(messageId), Integer.valueOf(deliveryId));
+         } catch (NeolaneException e) {
+           // ...
+         } catch (IOException e) {
+           // ...
+         }
+       }
      }
     }
    }
@@ -272,7 +284,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
 * **iOS에서**:
 
-   추적 기능을 사용하면 알림이 활성화되는 시간(열기)을 추적할 수 있습니다.
+   추적 함수를 사용하면 알림이 활성화된 시간(열기)을 추적할 수 있습니다.
 
    ```
    (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
@@ -287,11 +299,11 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
    >[!NOTE]
    >
-   >버전 7.0에서 **application:didReceiveRemoteNotification:fetchCompletionHandler** 함수가 구현되면 운영 체제에서 이 함수를 호출합니다. 따라서 **application:didReceiveRemoteNotification** 함수가 호출되지 않습니다.
+   >버전 7.0부터 **application:didReceiveRemoteNotification:fetchCompletionHandler** 함수가 구현되면 운영 체제에서 이 함수를 호출합니다. 따라서 **application:didReceiveRemoteNotification** 함수가 호출되지 않습니다.
 
 ## 자동 알림 추적 {#silent-notification-tracking}
 
-iOS를 사용하면 자동 알림, 알림 또는 데이터를 전송하여 표시하지 않고 모바일 애플리케이션으로 바로 전송할 수 있습니다. Adobe Campaign을 통해 추적할 수 있습니다.
+iOS를 사용하면 자동 알림, 알림 또는 데이터를 전송하여 표시하지 않고 모바일 애플리케이션에 직접 전송할 수 있습니다. Adobe Campaign을 사용하면 추적할 수 있습니다.
 
 자동 알림을 추적하려면 아래 예를 따르십시오.
 
@@ -333,9 +345,9 @@ iOS를 사용하면 자동 알림, 알림 또는 데이터를 전송하여 표�
 
 >[!NOTE]
 >
->iOS에서만 사용할 수 있습니다.
+>iOS에서만 제공됩니다.
 
-iOS에서 위임 프로토콜을 사용하면 **registerDevice** 호출 결과를 얻을 수 있으며 등록 중 오류가 발생했는지 여부를 확인하는 데 사용할 수 있습니다.
+iOS에서 위임 프로토콜을 사용하면 **registerDevice** 호출 결과를 얻을 수 있으며 등록 중 오류가 발생했는지 알 수 있습니다.
 
 registerDeviceStatus **프로토타입은** 다음과 같습니다.
 
@@ -345,7 +357,7 @@ registerDeviceStatus **프로토타입은** 다음과 같습니다.
 
 **상태를** 사용하면 등록에 성공했는지 또는 오류가 발생했는지 알 수 있습니다.
 
-**ErrorReason** 은 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
+**ErrorReason은** 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
 
 <table> 
  <thead>
@@ -357,32 +369,32 @@ registerDeviceStatus **프로토타입은** 다음과 같습니다.
  </thead>
  <tbody>
   <tr>
-   <td> ACCReisterDeviceStatusSuccess <br /> </td>
+   <td> ACCResterDeviceStatusSuccess <br /> </td>
    <td> 등록 성공<br /> </td>
    <td> 비어 있음<br /> </td>
   </tr>
   <tr> 
-   <td> ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td>
+   <td> ACCResterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td>
    <td> ACC 마케팅 서버 호스트 이름이 비어 있거나 설정되지 않았습니다.<br /> </td>
    <td> 비어 있음<br /> </td>
   </tr>
   <tr> 
-   <td> ACCReisterDeviceStatusFailureIntegrationKeyEmpty <br /> </td>
+   <td> ACCResterDeviceStatusFailureIntegrationKeyEmpty <br /> </td>
    <td> 통합 키가 비어 있거나 설정되지 않았습니다.<br /> </td>
    <td> 비어 있음<br /> </td>
   </tr>
   <tr> 
-   <td> ACCRegisterDeviceStatusFailureConnectionIssue<br /> </td>
-   <td> ACC 연결 문제<br /> </td>
+   <td> ACCResterDeviceStatusFailureConnectionIssue<br /> </td>
+   <td> ACC와의 연결 문제<br /> </td>
    <td> 자세한 정보(OS 현재 언어)<br /> </td>
   </tr>
   <tr> 
-   <td> ACCRegisterDeviceStatusFailureUnknownUUID<br /> </td>
+   <td> ACCRegsterDeviceStatusFailureUnknownUUID<br /> </td>
    <td> 제공된 UUID(통합 키)를 알 수 없습니다.<br /> </td>
    <td> 비어 있음<br /> </td>
   </tr>
   <tr> 
-   <td> ACCReisterDeviceStatusFailureUnexpectedError<br /> </td>
+   <td> ACCResterDeviceStatusFailureUnexpectedError<br /> </td>
    <td> ACC 서버에 예기치 않은 오류가 반환되었습니다.<br /> </td>
    <td> ACC에 오류 메시지가 반환되었습니다.<br /> </td>
   </tr>
@@ -423,7 +435,7 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 
 registerDeviceStatus **위임을 구현하려면** 다음 단계를 따르십시오.
 
-1. SDK **초기화** 중에 setDelegate를 구현합니다.
+1. SDK **초기화** 동안 setDelegate를 구현합니다.
 
    ```
    // AppDelegate.m
@@ -474,7 +486,7 @@ registerDeviceStatus **위임을 구현하려면** 다음 단계를 따르십시
    }
    ```
 
-1. AppDelegate에서 위임 **구현**.
+1. AppDelegate에서 위임을 **구현합니다**.
 
    ```
    //  AppDelegate.m
@@ -527,7 +539,7 @@ registerDeviceStatus **위임을 구현하려면** 다음 단계를 따르십시
 
 ## 변수 {#variables}
 
-이 변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드와 Adobe Campaign 콘솔의 전용 모바일 애플리케이션 서비스 **[!UICONTROL Variables]** 탭에서 정의해야 합니다(Adobe Campaign [에서 모바일 애플리케이션 구성 참조](../../delivery/using/configuring-the-mobile-application.md)). 다음은 모바일 애플리케이션에서 알림의 추가된 변수를 수집할 수 있도록 하는 코드의 예입니다. 이 예에서는 &quot;VAR 파섹&quot; 변수를 사용합니다.
+이 변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 응용 프로그램 코드와 Adobe Campaign 콘솔의 전용 모바일 응용 프로그램 서비스의 탭 **[!UICONTROL Variables]** 에서 정의해야 합니다(Adobe Campaign에서 [모바일 응용 프로그램 구성 참조](../../delivery/using/configuring-the-mobile-application.md)). 다음은 모바일 애플리케이션이 알림의 추가된 변수를 수집할 수 있도록 허용하는 코드의 예입니다. 이 예에서는 &quot;VAR&quot; 변수를 사용하고 있습니다.
 
 * **Android**:
 
@@ -611,11 +623,11 @@ registerDeviceStatus **위임을 구현하려면** 다음 단계를 따르십시
 
 **iOS용**
 
-이 수준에서는 다음을 수행해야 합니다.
+이 수준에서 다음을 수행해야 합니다.
 
-* 컨텐츠 확장을 Adobe Campaign에서 보낸 카테고리에 연결합니다.
+* 컨텐츠 확장 기능을 Adobe Campaign에서 보낸 카테고리에 연결합니다.
 
-   모바일 응용 프로그램에서 이미지를 표시하려면 Adobe Campaign 및 모바일 응용 프로그램에서 카테고리 값을 &quot;image&quot;로 설정할 수 있습니다. UNotificationExtensionCategory **매개 변수를 &quot;image&quot;로** 설정하여 알림 확장을 만듭니다. 장치에서 푸시 알림을 받으면 정의된 카테고리 값에 따라 확장이 호출됩니다.
+   모바일 응용 프로그램에서 이미지를 표시하려면 Adobe Campaign 및 모바일 응용 프로그램에서 카테고리 값을 &quot;image&quot;로 설정할 수 있습니다. UNNotificationExtensionCategory **** 매개 변수를 &quot;image&quot;로 설정하여 알림 확장자를 만듭니다. 장치에 푸시 알림이 수신되면 정의된 카테고리 값에 따라 확장이 호출됩니다.
 
 * 알림 레이아웃 정의
 
