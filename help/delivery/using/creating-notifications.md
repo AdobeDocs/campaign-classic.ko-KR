@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5847107a459bf47f34e4994c3521266bb174d8cb
+source-git-commit: c830d40cef836533c5104901d03a07e7cf96d3d6
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 1%
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 1. 필드에 **[!UICONTROL Title]** 알림에 표시할 제목 레이블을 입력합니다. 알림 센터에서 사용할 수 있는 알림 목록에만 표시됩니다. 이 필드에서는 iOS 알림 페이로드의 **제목** 매개 변수 값을 정의할 수 있습니다.
 
-1. HTTP/2 커넥터를 사용하는 경우 자막을 추가할 수 있습니다(iOS 알림 페이로드의 **자막** 매개 변수 값). Adobe Campaign [에서 모바일 애플리케이션 구성 섹션을](../../delivery/using/configuring-the-mobile-application.md) 참조하십시오.
+1. HTTP/2 커넥터를 사용하는 경우 자막을 추가할 수 있습니다(iOS 알림 페이로드의 **자막** 매개 변수 값). Adobe Campaign에서 [모바일 애플리케이션 구성 섹션을](../../delivery/using/configuring-the-mobile-application.md) 참조하십시오.
 
 1. 그런 다음 선택한 알림 유형 **[!UICONTROL Message]** 을 **[!UICONTROL Value of the badge]** 기준으로 및 를 입력합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 1%
    >
    >**[!UICONTROL Badge]** 및 **[!UICONTROL Alert and badge]** 문자 알림을 통해 배지 값(모바일 응용 프로그램 로고 위의 숫자)을 수정할 수 있습니다. 배지를 새로 고치려면 0을 값으로 입력해야 합니다. 필드가 비어 있으면 배지 값이 변경되지 않습니다.
 
-1. 푸시 알림에 이모티콘을 삽입하려면 **[!UICONTROL Insert emoticon]** 아이콘을 클릭합니다. 이모티콘 목록을 사용자 정의하려면 이모티콘 목록 [사용자 정의를 참조하십시오](../../delivery/using/defining-interactive-content.md)
+1. 푸시 알림에 이모티콘을 삽입하려면 **[!UICONTROL Insert emoticon]** 아이콘을 클릭합니다. 이모티콘 목록을 사용자 정의하려면 이모티콘 목록 [사용자 정의를 참조하십시오](../../delivery/using/customizing-emoticon-list.md)
 
 1. 이 **[!UICONTROL Action button]** 를 사용하면 경고 알림(페이로드의&#x200B;**action_loc_key** 필드)에 나타나는 작업 단추에 대한 레이블을 정의할 수 있습니다. iOS 응용 프로그램이 지역화할 수 있는 문자열(**Localizable.strings**)을 관리하는 경우 이 필드에 해당 키를 입력합니다. 응용 프로그램에서 지역화 가능 텍스트를 관리하지 않을 경우 작업 단추에 표시할 레이블을 입력합니다. 현지화 가능한 문자열에 대한 자세한 내용은 [Apple 설명서를 참조하십시오](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1) .
 1. 알림을 받을 **[!UICONTROL Play a sound]** 때 모바일 터미널에서 재생할 사운드를 선택합니다.
@@ -86,7 +86,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >응용 프로그램 변수는 모바일 응용 프로그램 코드에서 정의되어야 하며 서비스를 만드는 동안 입력해야 합니다. 자세한 내용은 다음을 참조하십시오. [Adobe Campaign에서 모바일 애플리케이션 구성을 참조하십시오](../../delivery/using/configuring-the-mobile-application.md).
+   >응용 프로그램 변수는 모바일 응용 프로그램 코드에서 정의되어야 하며 서비스를 만드는 동안 입력해야 합니다. 자세한 내용은 다음을 참조하십시오. [Adobe Campaign에서 모바일 응용 프로그램 구성을 참조하십시오](../../delivery/using/configuring-the-mobile-application.md).
 
 1. 알림이 구성되면 **[!UICONTROL Preview]** 탭을 클릭하여 알림을 미리 봅니다.
 
@@ -94,7 +94,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >알림 스타일(배너 또는 경고)이 Adobe Campaign에서 정의되지 않았습니다. iOS 설정에서 사용자가 선택한 구성에 따라 다릅니다. 그러나 Adobe Campaign에서는 각 유형의 알림 스타일을 미리 볼 수 있습니다. 오른쪽 하단에 있는 화살표를 클릭하여 한 스타일에서 다른 스타일로 전환합니다.
+   >알림 스타일(배너 또는 경고)이 Adobe Campaign에 정의되지 않았습니다. iOS 설정에서 사용자가 선택한 구성에 따라 다릅니다. 하지만 Adobe Campaign을 사용하면 각 유형의 알림 스타일을 미리 볼 수 있습니다. 오른쪽 하단에 있는 화살표를 클릭하여 한 스타일에서 다른 스타일로 전환합니다.
    >
    >미리 보기에서는 iOS 10 모양과 느낌을 사용합니다.
 
@@ -130,7 +130,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >응용 프로그램 변수는 모바일 응용 프로그램 코드에서 정의되어야 하며 서비스를 만드는 동안 입력해야 합니다. 자세한 내용은 다음을 참조하십시오. [Adobe Campaign에서 모바일 애플리케이션 구성을 참조하십시오](../../delivery/using/configuring-the-mobile-application.md).
+   >응용 프로그램 변수는 모바일 응용 프로그램 코드에서 정의되어야 하며 서비스를 만드는 동안 입력해야 합니다. 자세한 내용은 다음을 참조하십시오. [Adobe Campaign에서 모바일 응용 프로그램 구성을 참조하십시오](../../delivery/using/configuring-the-mobile-application.md).
 
 1. 알림이 구성되면 **[!UICONTROL Preview]** 탭을 클릭하여 알림을 미리 봅니다.
 
