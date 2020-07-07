@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 0%
 
 이 섹션에서는 &quot;일시 중지됨&quot;, &quot;중지됨&quot; 또는 &quot;오류가 있는&quot; 워크플로우 세트의 상태를 모니터링할 수 있는 워크플로우를 만드는 방법에 대한 사용 사례도 [사용할 수 있습니다](../../workflow/using/supervising-workflows.md#supervising-workflows).
 
-또한 인스턴스의 관리자는 **감사 추적** 기능을 사용하여 작업 및 워크플로우에 대한 마지막 수정 작업, 워크플로우 상태를 확인할 수 있습니다. 자세한 내용은 [전용 섹션을 참조하십시오](../../production/using/audit-trail.md).
+또한 인스턴스의 관리자는 **감사 추적** 기능을 사용하여 작업 및 워크플로우에 대한 마지막 수정 작업, 워크플로우 상태를 확인할 수 있습니다. For more on this, refer to the [dedicated section](../../production/using/audit-trail.md).
 
-다양한 캠페인 프로세스를 모니터링하는 추가 방법이 [이 페이지에 나와 있습니다](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+다양한 캠페인 프로세스를 모니터링하는 추가 방법이 [이 페이지에 나와 있습니다](../../production/using/monitoring-guidelines.md).
 
 ## 진행률 표시 {#displaying-progress}
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 ## 작업 테이블 및 워크플로우 스키마 {#worktables-and-workflow-schema}
 
-워크플로우는 특정 활동을 통해 조작할 수 있는 작업표를 전달합니다. Adobe Campaign을 사용하면 데이터 관리 활동을 통해 워크플로우 작업 표의 열을 수정, 이름 변경 및 보완할 수 있습니다. 예를 들어 클라이언트의 필요에 따라 해당 열을 계약서에 맞게 정렬하고 계약의 공동 수혜자에 대한 추가 정보를 수집하는 등의 작업을 수행할 수 있습니다.
+워크플로우는 특정 활동을 통해 조작할 수 있는 작업표를 전달합니다. Adobe Campaign을 사용하면 데이터 관리 활동을 통해 워크플로우 워크플로우의 열을 수정, 이름 변경 및 보완할 수 있습니다. 예를 들어, 클라이언트의 필요에 따라 주석을 달거나, 계약의 공동 수혜자에 대한 추가 정보를 수집하는 등,
 
 다양한 작업 차원 간에 링크를 만들고 차원 변경을 정의할 수도 있습니다. 예를 들어 데이터베이스에 기록된 각 계약에 대해 기본 보유자를 해결하고 추가 정보에 공유 데이터를 사용합니다.
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
-Adobe Campaign 탐색기에서 기본적으로 워크플로우 목록에 **[!UICONTROL Failed]** 열이 표시됩니다.
+Adobe Campaign 탐색기에서 워크플로우 목록에는 기본적으로 열이 **[!UICONTROL Failed]** 표시됩니다.
 
 ![](assets/wf-explorer_errors_col.png)
 
@@ -167,7 +167,7 @@ Adobe Campaign 탐색기에서 기본적으로 워크플로우 목록에 **[!UIC
 
 이미 실행된 활동을 수정하는 경우 워크플로우 실행이 다시 시작될 때 변경 사항이 고려되지 않습니다.
 
-실행 취소된 활동을 수정하는 경우 워크플로우 실행이 다시 시작될 때 고려됩니다.
+실행되지 않은 활동을 수정하는 경우 워크플로우 실행이 다시 시작될 때 고려됩니다.
 
 일시 중지된 활동을 수정하는 경우 워크플로우를 다시 시작할 때 변경 사항을 제대로 고려할 수 없습니다.
 
@@ -175,7 +175,7 @@ Adobe Campaign 탐색기에서 기본적으로 워크플로우 목록에 **[!UIC
 
 ## 인스턴스 감독 {#instance-supervision}
 
-이 **[!UICONTROL Instance supervision]** 페이지에서는 Adobe Campaign 서버 활동을 보고 오류가 있는 워크플로우 및 게재 목록을 표시할 수 있습니다.
+이 **[!UICONTROL Instance supervision]** 페이지에서는 Adobe Campaign 서버 활동을 보고 오류가 있는 워크플로우와 배달 목록을 표시할 수 있습니다.
 
 이 페이지에 액세스하려면 **[!UICONTROL Monitoring]** 우주로 이동하고 **[!UICONTROL General view]** 링크를 클릭합니다.
 
@@ -262,7 +262,7 @@ instance.vars.isRunning = false
 
 ## 상태에 따라 워크플로우 필터링 {#filtering-workflows-status}
 
-Campaign Classic 인터페이스를 사용하면 사전 정의된 보기를 사용하여 인스턴스에 있는 모든 워크플로우의 실행 상태를 모니터링할 수&#x200B;**있습니다**. 이러한 뷰에 액세스하려면&#x200B;**[!UICONTROL Administration]**/**[!UICONTROL Audit]**/**[!UICONTROL Workflows Status]**&#x200B;노드를 엽니다.
+Campaign Classic 인터페이스를 사용하면 사전 정의된 보기를 사용하여 인스턴스의 모든 워크플로우의 실행 상태를 모니터링할 수&#x200B;**있습니다**. 이러한 뷰에 액세스하려면&#x200B;**[!UICONTROL Administration]**/**[!UICONTROL Audit]**/**[!UICONTROL Workflows Status]**&#x200B;노드를 엽니다.
 
 다음 보기를 사용할 수 있습니다.
 
