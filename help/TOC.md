@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 5d67ab5bbc44b81c65605ae9132cf5a8356aa814
+source-git-commit: c38fe4cc442768550ee90cecc6b31b78d39f3da1
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2122'
 ht-degree: 8%
 
 ---
@@ -73,12 +73,13 @@ ht-degree: 8%
    + 외부 데이터베이스 액세스(FDA){#accessing-external-database}
       + [FDA 정보](platform/using/about-fda.md)
       + [데이터베이스 유형별 특정 구성](platform/using/specific-configuration-database.md)
+      + [기존 커넥터](platform/using/legacy-connectors.md)
       + [원격 데이터베이스 액세스 권한](platform/using/remote-database-access-rights.md)
       + [데이터베이스에 연결](platform/using/connecting-to-database.md)
       + [데이터 스키마 만들기](platform/using/creating-data-schema.md)
       + [데이터 매핑 정의](platform/using/defining-data-mapping.md)
       + [추가 옵션](platform/using/additional-options.md)
-      + [워크플로우에서 외부 데이터베이스의 데이터 사용](platform/using/data-external-database-workflow.md)
+      + [부록](platform/using/appendices-fda.md)
    + 커넥터 {#connectors}
       + [커넥터 정보](platform/using/about-connectors.md)
       + [CRM 커넥터](platform/using/crm-connectors.md)
@@ -161,7 +162,7 @@ ht-degree: 8%
       + [받은 편지함 렌더링](delivery/using/inbox-rendering.md)
       + [스팸자퍼](delivery/using/spamassassin.md)
       + [재참여 우수 사례](delivery/using/re-engagement-best-practices.md)
-      + [블록 목록 데이터베이스](delivery/using/block-list-databases.md)
+      + [차단 목록 데이터베이스](delivery/using/block-list-databases.md)
       + [문제 해결](delivery/using/deliverability-faq.md)
    + 컨텐츠 관리 모듈 {#content-management}
       + [컨텐츠 관리 정보](delivery/using/about-content-management.md)
@@ -319,7 +320,7 @@ ht-degree: 8%
       + [프로필 동기화](integrations/using/synchronizing-profiles.md)
       + [대상 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
-      + [[!DNL ACS 커넥터] 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
+      + [[!DNL ACS 커넥터 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
    + Experience Cloud Triggers {#experience-triggers}
       + [[!DNL Adobe Experience Cloud 트리거] 정보](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
@@ -623,6 +624,7 @@ ht-degree: 8%
    + 소개 {#introduction}
       + [포워드](production/using/foreword.md)
       + [일반 아키텍처](production/using/general-architecture.md)
+      + [모니터링 지침](production/using/monitoring-guidelines.md)
    + 제작 절차 {#production-procedures}
       + [구성 원칙](production/using/configuration-principle.md)
       + [운영 원칙](production/using/operating-principle.md)
