@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9188a68ca2ffcd9cf9e82b475aa2a0dd5807561b
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. 이 배달을 받는 사람이 승인을 확인하지 않았기 때문에 여전히 데이터베이스 블록 목록에 있습니다. 이러한 수신자가 이 통신을 수신하려면, 이 템플릿을 기반으로 블록 목록에 있는 수신자를 대상으로 전달을 승인해야 합니다.
+1. 이 배달을 받는 사람이 승인을 확인하지 않았기 때문에 여전히 데이터베이스 차단 목록에 있습니다. 이러한 수신자가 이 통신을 수신하려면 차단 목록에 있는 수신자를 타게팅하려면 이 템플릿을 기반으로 전달을 승인해야 합니다.
 
    이렇게 하려면 **[!UICONTROL Exclusions]** 탭을 클릭합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >이 옵션은 이러한 유형의 컨텍스트에서만 사용할 수 없습니다.
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   첫 번째 **[!UICONTROL Script]** 활동에서는 뉴스레터에 대한 구독을 확인할 때까지 수신자를 블록 목록에 추가합니다. 컨텐츠는 다음과 같아야 합니다.
+   첫 번째 **[!UICONTROL Script]** 활동에서는 뉴스레터에 대한 구독을 확인할 때까지 받는 사람을 차단 목록에 추가합니다. 컨텐츠는 다음과 같아야 합니다.
 
    ```
    ctx.recipient.@blockList=1
@@ -175,11 +175,11 @@ ht-degree: 0%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   사용자는 **[!UICONTROL Temp]** 폴더의 Adobe Campaign 데이터베이스에 추가되고 해당 프로필은 이메일로 가입을 확인할 때까지 차단 목록에 추가됩니다.
+   사용자는 **[!UICONTROL Temp]** 폴더의 Adobe Campaign 데이터베이스에 추가되고 해당 프로필이 해당 이메일에서 가입을 확인할 때까지 차단 목록에 추가됩니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
-1. 구독을 승인하는 링크가 포함된 확인 메시지가 해당 고객에게 전송됩니다.
+1. 구독을 승인하는 링크가 포함된 확인 메시지가 해당 사용자에게 전송됩니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8e.png)
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 
    Adobe Campaign에서 사용자 프로필이 업데이트됩니다.
 
-   * 그들은 더 이상 블록 목록에 없습니다.
+   * 그들은 더 이상 차단 목록에 있지 않습니다
    * 그들은 정보 서비스에 가입되어 있다.
 
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
