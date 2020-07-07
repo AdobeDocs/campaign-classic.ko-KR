@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 54cb4143fc534aa436c4b8b28e031e87a2a02e40
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
 workflow-type: tm+mt
 source-wordcount: '1996'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ACS 커넥터는 Adobe Campaign v7 및 Adobe Campaign Standard을 연결시킵�
 
 ACS 커넥터를 사용하면, Campaign Standard은 캠페인을 디자인, 타깃팅 및 실행하는 데 디지털 마케터가 사용하는 반면 Campaign v7은 데이터베이스 마케터와 같은 데이터 중심의 사용자를 위해 맞춤화된 제품입니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ACS 커넥터는 Adobe Campaign Prime 제공 서비스의 일부로만 사용할 수 있습니다. Adobe Campaign Prime의 라이선스를 부여하는 방법에 대한 자세한 내용은 계정 관리자에게 문의하십시오.
 >
@@ -83,7 +83,7 @@ ACS 커넥터는 Campaign Standard에서 Campaign v7으로 정기적으로 다�
 
 배달 ID 및 이메일 로그를 복제하면 Campaign v7에서 v7 받는 사람의 배달 내역 및 추적 데이터에 액세스할 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이메일 브로드로그와 추적 로그만 Campaign Standard에서 Campaign v7으로 복제됩니다.
 
@@ -120,7 +120,7 @@ ACS 커넥터는 Campaign v7과 Campaign Standard 간에 격리를 동기화합�
 
 ACS 커넥터에 대해 두 가지 유형의 구현이 있습니다. 두 가지 모두 Adobe Campaign 컨설팅 팀이 수행합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이 섹션은 구현 프로세스 및 주요 단계에 대한 전체 보기를 제공하기 위해 전문가 사용자만을 대상으로 합니다.
 >
@@ -140,7 +140,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 탐색기의 **[!UICONTROL Ad
 
 패키지 설치 후 아래에서 두 가지 기술 워크플로우를 사용할 수 있습니다 **[!UICONTROL Administration > ACS Connector > Process]**.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이러한 워크플로우를 수정하지 마십시오. 오류 또는 일시 중지되어서는 안 됩니다. 이러한 경우 Adobe Campaign 컨설턴트에게 문의하십시오.
 
@@ -219,7 +219,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 탐색기의 **[!UICONTROL Ad
   </tr> 
   <tr> 
    <td> 더 이상 연락하지 않음(모든 채널에서)<br /> </td> 
-   <td> @blockList<br /> </td> 
+   <td> @차단 목록에 추가하다<br /> </td> 
   </tr> 
   <tr> 
    <td> 더 이상 이메일로 연락하지 않음<br /> </td> 
@@ -290,7 +290,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 탐색기의 **[!UICONTROL Ad
 
 이 섹션에서는 고급 구현의 몇 가지 가능성에 대해 설명합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이 정보는 일반 지침으로만 사용할 수 있습니다. 구현에 대해서는 Adobe Campaign 컨설턴트에게 문의하십시오.
 
