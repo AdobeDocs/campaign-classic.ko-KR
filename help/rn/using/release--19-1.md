@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
+source-git-commit: d2781c8bc25cde742a89bddc1535886179130c2a
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 1%
@@ -83,7 +83,7 @@ _2020년 7월 7일_
 
 이 새 빌드(9032@efd8a94)에는 다음 수정 사항이 포함되어 있습니다.
 
-* 중간 소스 서버가 빌드 9032(Gold Standard 7)와 이전 빌드의 마케팅 서버(9032년 이전)에서 추적 기능이 작동하지 않던 문제를 수정했습니다. (NEO-26411)
+* 중간 소싱 서버가 빌드 9032(Gold Standard)와 이전 빌드의 마케팅 서버가 있을 때(9032년 이전) 추적이 작동되지 않던 문제를 수정했습니다. (NEO-26411)
 
 >[!CAUTION]
 >
