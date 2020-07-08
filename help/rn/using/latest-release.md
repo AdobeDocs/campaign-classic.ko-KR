@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b2cc71f8f9b7df80b1601a9fa55bfd77f9a82433
+source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1764'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-마지막 **안정적인 빌드는** 9032(3a9dc9c)입니다. 여기를 [클릭하십시오](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+마지막 **안정적인** 건축물은 Gold Standard 10이다. 여기를 [클릭하십시오](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ![](assets/do-not-localize/cp-icon.png) **활성 프로파일 모니터링, 하위 도메인 전달 기능 감사 및 GPG 키 관리가 포함된 새로운 제어판 6월 릴리스** . [자세한](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)내용
 
