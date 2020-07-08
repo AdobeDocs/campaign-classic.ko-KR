@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 788866c4f11d3875f713a61f7560d6d5255f3019
+source-git-commit: d60389eb735fb50188ddc2f2e3df3788a3213446
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 3%
+source-wordcount: '1128'
+ht-degree: 2%
 
 ---
 
@@ -132,12 +132,6 @@ ht-degree: 3%
    <td> Adobe Campaign과 함께 모바일/SMS 채널을 사용하여 배달을 보냅니다. 선택 사항입니다. <a href="../../delivery/using/sms-channel.md">자세한 내용</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
-  <tr> 
-   <td> 전화 채널<br /> </td> 
-   <td> Adobe Campaign과 함께 전화 채널을 사용하여 배달을 전송합니다.<br /> </td> 
-   <td> 모두<br /> </td> 
-   <td> 선택 사항입니다</td> 
-  </tr>
   <tr> 
    <td> 모바일 앱 채널<br /> </td> 
    <td> Adobe Campaign 플랫폼을 사용하여 앱을 통해 iOS 및 Android 터미널에 개인화된 알림을 보냅니다. 선택 사항입니다. <a href="../../delivery/using/about-mobile-app-channel.md">자세한 내용</a> <br /> </td> 
