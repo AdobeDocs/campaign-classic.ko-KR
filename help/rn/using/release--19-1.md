@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8c352c850777852d14ccf3002c20f651b46f9047
+source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2934'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-마지막 **안정적인 빌드는** 9032(3a9dc9c)입니다. 여기를 [클릭하십시오](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+마지막 **안정적인** 건축물은 Gold Standard 10이다. 여기를 [클릭하십시오](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/do-not-localize/orange_2.png) 릴리스 19.1.6 - 빌드 9035 {#release-19-1-6-build-9035}
 
@@ -83,7 +83,7 @@ _2020년 7월 7일_
 
 이 새 빌드(9032@efd8a94)에는 다음 수정 사항이 포함되어 있습니다.
 
-* 추적 링크가 작동하지 않던 문제를 수정했습니다. (NEO-26411)
+* 중간 소스 서버가 빌드 9032(Gold Standard 7)와 이전 빌드의 마케팅 서버(9032년 이전)에서 추적 기능이 작동하지 않던 문제를 수정했습니다. (NEO-26411)
 
 >[!CAUTION]
 >
