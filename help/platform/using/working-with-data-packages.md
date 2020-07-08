@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 788866c4f11d3875f713a61f7560d6d5255f3019
+source-git-commit: a6b15dd1be6bb53b7a757d7fe1333314df9693a4
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2462'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,11 @@ Adobe Campaign을 사용하면 패키지 시스템을 통해 플랫폼 구성 �
 내보낼 수 있는 패키지는 다음과 같은 세 가지가 있습니다. 사용자 패키지, 플랫폼 패키지 및 관리 패키지.
 
 * **사용자 패키지**: 내보낼 엔티티 목록을 선택할 수 있습니다. 이 유형의 패키지는 종속성을 관리하고 오류를 확인합니다.
-* **Platform 패키지**: 여기에는 모든 추가된 기술 리소스(표준이 아님)가 포함됩니다. 스키마, JavaScript 코드 등
+* **Platform 패키지**: 여기에는 추가된 모든 기술 리소스(비표준)가 포함됩니다. 스키마, JavaScript 코드 등
 
    ![](assets/ncs_datapackage_package_platform.png)
 
-* **관리 패키지**: 여기에는 추가된 모든 템플릿과 비즈니스 개체(표준 아님)가 포함됩니다. 템플릿, 라이브러리 등
+* **관리 패키지**: 여기에는 추가된 모든 템플릿과 비즈니스 개체(비표준)가 포함됩니다. 템플릿, 라이브러리 등
 
    ![](assets/ncs_datapackage_package_admin.png)
 
@@ -315,7 +315,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 패키지 가져오기 마법사는 Adobe Campaign 클라이언트 콘솔의 기본 메뉴 **[!UICONTROL Tools > Advanced > Package import...]** 를 통해 액세스할 수 있습니다.
 
-라이선스 약관에 따라 이전에 수행한 내보내기(예: 다른 Adobe Campaign 인스턴스 또는 표준 패키지)에서 패키지를 가져올 수 있습니다.
+라이선스 약관에 따라 이전에 수행한 내보내기(예: 다른 Adobe Campaign 인스턴스 또는 [내장 패키지](../../installation/using/installing-campaign-standard-packages.md))에서 패키지를 가져올 수 있습니다.
 
 ![](assets/ncs_datapackage_import.png)
 
@@ -331,13 +331,13 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ![](assets/ncs_datapackage_import_2.png)
 
-### 표준 패키지 설치 {#installing-a-standard-package}
+### 내장 패키지 설치 {#installing-a-standard-package}
 
-표준 패키지는 Adobe Campaign을 구성할 때 설치됩니다. 사용 권한 및 배포 모델에 따라 새 옵션이나 추가 기능을 획득하거나 새 오퍼로 업그레이드하는 경우 새로운 표준 패키지를 가져올 수 있습니다.
+표준 패키지는 Adobe Campaign 구성 시 설치되는 내장 패키지입니다. 사용 권한 및 배포 모델에 따라 새 옵션이나 추가 기능을 획득하거나 새 오퍼로 업그레이드하는 경우 새로운 표준 패키지를 가져올 수 있습니다.
 
 설치할 수 있는 패키지를 확인하려면 라이선스 계약을 참조하십시오.
 
-표준 패키지에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../installation/using/installing-campaign-standard-packages.md).
+내장 패키지에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../installation/using/installing-campaign-standard-packages.md).
 
 ## 데이터 패키지 우수 사례 {#data-package-best-practices}
 
