@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6ce00d34ecbdfa6a13593772ffa1850768ad6e45
+source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1407'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-마지막 **안정적인 빌드는** 9032(3a9dc9c)입니다. 여기를 [클릭하십시오](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+마지막 **안정적인** 건축물은 Gold Standard 10이다. 여기를 [클릭하십시오](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1.3 - 빌드 9124 {#release-20-1-3-build-9124}
 
@@ -70,7 +70,7 @@ _2020년 2월 17일_
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Snowflake는 스토리지 및 컴퓨팅 수준 모두에서 확장할 수 있도록 구축된 완벽하게 관리되는 클라우드 데이터 웨어하우스입니다. Adobe Campaign은 이 새로운 커넥터를 사용하여 Snowflake의 강력한 기능을 활용하여 빅데이터 세그먼테이션을 수행할 수 있습니다. 이 커넥터는 Adobe에서 호스팅하는 모든 고객을 대상으로 제공됩니다.</p>
+   <td> <p>Snowflake는 스토리지 및 컴퓨팅 수준 모두에서 확장할 수 있도록 구축된 완벽하게 관리되는 클라우드 data warehouse입니다. 이 새로운 커넥터를 사용하면 Adobe Campaign은 이제 Snowflake의 강력한 기능을 활용하여 빅데이터 세그먼테이션을 수행할 수 있습니다. 이 커넥터는 Adobe에서 호스팅하는 모든 고객을 대상으로 제공됩니다.</p>
     <p>자세한 내용은 <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">자습서 비디오를 참조하십시오</a>.</p>
    </td> 
   </tr> 
