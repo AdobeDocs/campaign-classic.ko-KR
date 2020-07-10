@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb35d2ae2d40aaef3bb381675d0c36ffb100b242
+source-git-commit: a034749c82f44edaf718b732e6871b9af378636a
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2450'
 ht-degree: 0%
 
 ---
@@ -86,12 +86,15 @@ Adobe Campaign을 사용하면 zip 파일 또는 암호화된 파일을 가져�
 
 이 경우 제어판에서 생성된 키를 사용하여 외부 시스템에서 암호화된 데이터를 가져오기 위한 워크플로우를 구축할 예정입니다.
 
+GPG 키를 사용하여 데이터를 해독하는 방법을 보여주는 자습서 비디오도 [이 섹션에 있습니다](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html).
+
 이 사용 사례를 수행하는 단계는 다음과 같습니다.
 
 1. 제어판을 사용하여 키 쌍(공개/비공개)을 생성합니다. 자세한 단계는 [제어판 설명서에서 확인할 수 있습니다](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * 공개 키는 Campaign으로 전송할 데이터를 암호화하는 데 사용하는 외부 시스템과 공유됩니다.
    * 개인 키는 Campaign Classic이 들어오는 암호화된 데이터를 해독하는 데 사용됩니다.
+
    ![](assets/gpg_generate.png)
 
 1. 외부 시스템에서 제어판에서 다운로드한 공개 키를 사용하여 Campaign Classic으로 가져올 데이터를 암호화합니다.
@@ -223,6 +226,7 @@ Adobe Campaign 데이터베이스에서 데이터 일관성을 유지하려면 �
    * **[!UICONTROL Split]**: 조정 가능 여부에 따라 필터를 만들어 레코드를 다르게 처리합니다.
    * **[!UICONTROL Deduplication]**: 데이터베이스에 삽입되기 전에 들어오는 파일의 데이터를 중복 제거합니다.
    * **[!UICONTROL Update data]**: 가져온 프로필로 데이터베이스를 업데이트합니다.
+
    ![](assets/import_template_example0.png)
 
 1. 활동을 **[!UICONTROL Data Loading (file)]** 구성합니다.
@@ -244,6 +248,7 @@ Adobe Campaign 데이터베이스에서 데이터 일관성을 유지하려면 �
 
    * 탭에서 **[!UICONTROL Enrichment]** 가져온 데이터와 수신자 타깃팅 차원 사이의 링크를 **[!UICONTROL Add data]** 선택하고 정의합니다. 이 예에서 **CRM ID** 사용자 정의 필드는 조인 조건을 만드는 데 사용됩니다. 고유한 레코드를 식별할 수 있는 동안 필요한 필드 또는 필드 조합을 사용하십시오.
    * 탭에서 옵션 **[!UICONTROL Reconciliation]** 을 선택 **[!UICONTROL Identify the document from the working data]** 취소하지 않습니다.
+
    ![](assets/import_template_example2.png)
 
 1. 한 전환에서 조정된 받는 사람과 조정할 수 없지만 두 번째 변환에서 충분한 데이터를 가진 받는 사람을 검색할 **[!UICONTROL Split]** 활동을 구성합니다.
@@ -284,6 +289,7 @@ Adobe Campaign 데이터베이스에서 데이터 일관성을 유지하려면 �
 
    * 이 예에서는 이메일 필드를 사용하여 고유한 프로필을 찾습니다. 반드시 채워야 하는 필드와 고유한 조합의 일부를 사용할 수 있습니다.
    * 화면에서 기본 키가 0과 같은 레코드(이 전환의 모든 레코드) **[!UICONTROL Deduplication method]** 가 제외되지 않도록 하려면 **[!UICONTROL Advanced parameters]** **[!UICONTROL Disable automatic filtering of 0 ID records]** 옵션을 선택하고 선택합니다.
+
    ![](assets/import_template_example7.png)
 
 1. 이전에 구성된 **[!UICONTROL Update data]** 활동 뒤에 **[!UICONTROL Deduplication]** 있는 활동을 구성합니다.
