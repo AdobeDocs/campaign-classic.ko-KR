@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d2781c8bc25cde742a89bddc1535886179130c2a
+source-git-commit: 77bb2ee42919a1bbf9a1a9e4594505f5cf99ca68
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '2921'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ _2020년 7월 7일_
 
 이 새 빌드(9032@efd8a94)에는 다음 수정 사항이 포함되어 있습니다.
 
-* 중간 소싱 서버가 빌드 9032(Gold Standard)와 이전 빌드의 마케팅 서버가 있을 때(9032년 이전) 추적이 작동되지 않던 문제를 수정했습니다. (NEO-26411)
+* 서명 기능이 비활성화되었을 때 추적을 수행할 수 없는 문제를 해결했습니다. (NEO-26411)
 
 >[!CAUTION]
 >
