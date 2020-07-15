@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
+source-git-commit: 9f55a2014546ce08972f51e4930ce04d4ce0c188
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 0%
 
 하나의 워크플로우에서 여러 하위 워크플로우를 호출할 수 있습니다. 하위 워크플로우는 동기식으로 실행됩니다.
 
-아래 예에서 &quot;마스터&quot; 워크플로우는 점프를 사용하여 하위 워크플로우를 호출합니다. 점프형 그래픽 오브젝트에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../workflow/using/jump--start-point-and-end-point-.md).
+아래 예에서 기본 워크플로우는 점프를 사용하여 하위 워크플로우를 호출하는 것입니다. 점프형 그래픽 오브젝트에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../workflow/using/jump--start-point-and-end-point-.md).
 
 1. 다른 워크플로우에서 하위 워크플로우로 사용할 워크플로우를 만듭니다.
-1. 워크플로가 시작될 때 우선 순위가 1인 활동을 삽입합니다. **[!UICONTROL Jump (end point)]** 여러 개의 &quot;종료 지점&quot; 문자 이동이 있는 경우 Adobe Campaign은 가장 낮은 수의 &quot;종료 지점&quot; 이동을 사용합니다.
-1. 워크플로가 끝날 때 우선 순위가 2인 활동을 삽입합니다. **[!UICONTROL Jump (start point)]** 여러 개의 &quot;시작 지점&quot; 문자 이동이 있는 경우 Adobe Campaign은 가장 높은 수의 &quot;시작 지점&quot; 이동을 사용합니다.
+1. 워크플로가 시작될 때 우선 순위가 1인 활동을 삽입합니다. **[!UICONTROL Jump (end point)]** 여러 개의 &quot;끝점&quot; 문자 이동이 있는 경우 Adobe Campaign은 가장 낮은 수의 &quot;끝점&quot; 점프를 사용합니다.
+1. 워크플로가 끝날 때 우선 순위가 2인 활동을 삽입합니다. **[!UICONTROL Jump (start point)]** 여러 개의 &quot;시작점&quot; 문자 이동이 있는 경우 Adobe Campaign은 가장 높은 수의 &quot;시작점&quot; 이동을 사용합니다.
 
    ![](assets/subworkflow_jumps.png)
 
@@ -44,7 +44,7 @@ ht-degree: 0%
    >하위 워크플로우를 올바르게 실행하려면 가장 낮은 수의 &quot;끝점&quot; 유형만 이동하고 가장 높은 수의 &quot;시작점&quot; 유형은 하나만 있어야 합니다.
 
 1. 이 &quot;하위 워크플로우&quot;를 완료하고 저장합니다.
-1. &quot;마스터&quot; 워크플로우를 만듭니다.
+1. 기본 워크플로우를 만듭니다.
 1. 활동을 **[!UICONTROL Sub-workflow]** 삽입하고 엽니다.
 1. 드롭다운 목록에서 사용할 워크플로우를 **[!UICONTROL Workflow template]** 선택합니다.
 
@@ -57,13 +57,17 @@ ht-degree: 0%
 
 1. 워크플로우를 실행합니다.
 
-하위 워크플로우로 호출된 워크플로우가 계속 **[!UICONTROL Being edited]** 상태이므로 다음을 의미합니다.
+하위 워크플로우로 호출된 워크플로우가 실행되면 **[!UICONTROL Being edited]** 상태가 유지됩니다. 즉, 다음을 의미합니다.
 
 * 전환을 마우스 오른쪽 단추로 클릭하여 대상을 표시할 수 없습니다.
 * 중간 모집단 수를 표시할 수 없습니다.
-* 로그는 &quot;마스터&quot; 워크플로우에서 집계되며 &quot;하위 워크플로우&quot;로 레이블이 지정됩니다.
+* 하위 워크플로우 로그는 기본 워크플로우에 표시됩니다.
 
-실제로 이 워크플로우는 템플릿일 뿐입니다. 이 템플릿을 기반으로 하는 새 하위 워크플로우는 &quot;마스터&quot; 워크플로우에서 호출될 때 만들어집니다.
+   ![](assets/subworkflow_logs.png)
+
+>[!NOTE]
+>
+>하위 워크플로우에서 오류가 발생하면 기본 워크플로우가 일시 중지되고 하위 워크플로우의 복사본이 만들어집니다.
 
 ## 입력 매개 변수(선택 사항) {#input-parameters--optional-}
 
