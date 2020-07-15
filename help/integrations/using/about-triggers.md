@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -46,11 +46,11 @@ ht-degree: 1%
 
 ### Pipeline은 어떻게 작동합니까? {#how-pipeline-work}
 
-&quot;파이프라인&quot; 프로세스는 항상 Adobe Campaign 마케팅 서버에서 실행됩니다. 파이프라인에 연결하여 이벤트를 검색하고 즉시 처리합니다.
+이 [!DNL pipelined] 프로세스는 항상 Adobe Campaign 마케팅 서버에서 실행됩니다. 파이프라인에 연결하여 이벤트를 검색하고 즉시 처리합니다.
 
 ![](assets/triggers_2.png)
 
-피파이프라인 프로세스는 인증 서비스를 사용하여 Experience Cloud에 로그인하고 개인 키를 전송합니다. 인증 서비스는 토큰을 반환합니다. 토큰을 사용하여 이벤트를 검색할 때 인증합니다. [!DNL Triggers] 단순 GET 요청을 사용하여 REST 웹 서비스에서 검색됩니다. 응답은 JSON 형식입니다. 요청의 매개 변수에는 트리거 이름과 마지막으로 검색된 메시지를 나타내는 포인터가 포함됩니다. 피선된 프로세스가 자동으로 처리됩니다.
+프로세스는 인증 서비스를 사용하여 Experience Cloud에 로그인하고 개인 키를 전송합니다. [!DNL pipelined] 인증 서비스는 토큰을 반환합니다. 토큰을 사용하여 이벤트를 검색할 때 인증합니다. [!DNL Triggers] 단순 GET 요청을 사용하여 REST 웹 서비스에서 검색됩니다. 응답은 JSON 형식입니다. 요청의 매개 변수에는 트리거 이름과 마지막으로 검색된 메시지를 나타내는 포인터가 포함됩니다. 자동으로 [!DNL pipelined] 처리됩니다.
 
 ## Adobe Experience Cloud Triggers와 Adobe Campaign Classic 통합 사용
 
