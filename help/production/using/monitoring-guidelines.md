@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7d944973e10c4df166325049b947e359853a2353
+source-git-commit: fdc305ff5bf27aa5cc0a4a9e89ac8ed9d5bead57
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 1%
+source-wordcount: '721'
+ht-degree: 2%
 
 ---
 
@@ -27,24 +27,26 @@ ht-degree: 1%
 
 Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monitoring]** 탭은 인스턴스를 모니터링하는 데 도움이 되는 기본 시작 지점입니다.
 
-이 대시보드는 인스턴스에서 발생하는 사항에 대한 대시보드를 제공합니다.  상태(빌드 버전, 설치된 패키지 등), 시스템 표시기, 로그, 현재 실행 중인 워크플로우, 마지막 전송 상태 등
+이 대시보드는 인스턴스에서 발생하는 사항에 대한 대시보드를 제공합니다. 상태(빌드 버전, 설치된 패키지 등), 시스템 표시기, 로그, 현재 실행 중인 워크플로우, 마지막 전송 상태 등
 
-자세한 정보는 [여기에서 확인할 수 있습니다](../../production/using/monitoring-processes.md).
+자세한 정보는 [여기](../../production/using/monitoring-processes.md)에서 확인할 수 있습니다.
 
 ![](assets/monitoring_tab.png)
 
 ## Campaign Classic 프로세스 모니터링 {#monitoring-campaign-classic-processes}
 
-다른 캠페인 프로세스를 모니터링하는 추가 방법을 사용할 수 있습니다. 자세한 내용은 아래 섹션을 참조하십시오.
-
 <table>
-<tr><td><img src="assets/do-not-localize/instance_icon.svg" width="60px"><p><a href="#monitoring-instance">인스턴스 모니터링</a></p></td>
-<td><img src="assets/do-not-localize/workflow_icon.svg" width="60px"><p><a href="#moniroting-workflows">워크플로우 모니터링</a></p></td>
-<td><img src="assets/do-not-localize/database_icon.svg" width="60px"><p><a href="#monitoring-database">데이터베이스 모니터링</a></p></td>
-<td><img src="assets/do-not-localize/delivery_icon.svg" width="60px"><p><a href="#monitoring-deliveries">전달 모니터링</a></p></td></tr>
+<tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">인스턴스 모니터링</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">워크플로우 모니터링</a></p></td>
+<td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">데이터베이스 모니터링</a></p></td>
+<td><img src="assets/do-not-localize/icon_Send.svg" width="60px"><p><a href="#monitoring-deliveries">전달 모니터링</a></p></td></tr>
 </table>
 
+다른 캠페인 프로세스를 모니터링하는 추가 방법을 사용할 수 있습니다. 이러한 기능은 여러 가지 방법으로 인스턴스를 모니터링하여 시스템이 건강한지 확인하고 워크플로우 설정, 배달 전송 등에서 발생할 수 있는 문제를 최종적으로 해결할 수 있습니다.
+
 ### 인스턴스 모니터링 {#monitoring-instance}
+
+<img src="assets/do-not-localize/icon_system.svg" width="60px">
 
 **자동 모니터링 툴**
 
@@ -56,13 +58,15 @@ Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monit
 
 **컨트롤 패널**
 
-제어판에서 인스턴스의 여러 설정을 관리할 수 있습니다. URL 권한을 관리하고 서버의 빌드 버전 등과 같은 인스턴스 세부 정보를 확인합니다. 또한 인스턴스에 연결된 SFTP 서버의 사용 가능한 공간을 모니터링할 수 있습니다. [자세한 내용을 보려면 여기를](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) 클릭하십시오.
+Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관리할 수 있습니다. URL 권한을 관리하고 서버의 빌드 버전 등과 같은 인스턴스 세부 정보를 확인합니다. 또한 인스턴스에 연결된 SFTP 서버의 사용 가능한 공간을 모니터링할 수 있습니다. [자세한 내용을 보려면 여기를](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) 클릭하십시오.
 
 >[!NOTE]
 >
->제어판은 관리 사용자만 액세스할 수 있고 Adobe Managed Services을 사용하는 모든 고객도 사용할 수 있습니다.
+>Campaign 컨트롤 패널은 관리 사용자에게만 액세스할 수 있으며 Adobe Managed Services을 사용하는 모든 고객도 사용할 수 있습니다.
 
 ### 워크플로우 모니터링 {#monitoring-workflows}
+
+<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 **Workflow HeatMap**
 
@@ -88,6 +92,8 @@ Workflow HeatMap은 인스턴스에서 실행 중인 모든 워크플로우를 �
 
 ### 배달 모니터링 {#monitoring-deliveries}
 
+<img src="assets/do-not-localize/icon_send.svg" width="60px">
+
 **SMTP 보고서**
 
 SMTP 보고서는 도메인별 배달 통계 및 SMTP 오류를 표시합니다. [자세한 내용을 보려면 여기를](../../production/using/monitoring-processes.md) 클릭하십시오.
@@ -103,6 +109,8 @@ SMTP 보고서는 도메인별 배달 통계 및 SMTP 오류를 표시합니다.
 * [임시 파일 문제](../../production/using/temporary-files.md) - *온-프레미스 호스팅 모델만*
 
 ### 데이터베이스 모니터링 {#monitoring-database}
+
+<img src="assets/do-not-localize/icon_database.svg" width="60px">
 
 **데이터베이스 정리 워크플로우**
 
