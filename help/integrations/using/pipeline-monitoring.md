@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 # 파이프라인 모니터링 {#pipeline-monitoring}
 
-파이프라인 상태 웹 서비스는 피파이프라인 프로세스의 상태에 대한 정보를 제공합니다.
+상태 웹 서비스는 [!DNL pipelined] [!DNL pipelined] 프로세스 상태에 대한 정보를 제공합니다.
 
 브라우저를 사용하여 수동으로 액세스하거나 모니터링 애플리케이션을 통해 자동으로 액세스할 수 있습니다.
 
@@ -50,7 +50,7 @@ REST 형식으로 되어 있으며 아래에 설명되어 있습니다.
    * next-offsets-flush: 다음 일괄 처리가 완료될 때까지 기다리는 시간.
    * processed-since-last-flush: 마지막 일괄 처리에서 처리된 트리거 수입니다.
 * 라우팅
-   * 트리거: 검색된 트리거 목록입니다. 피선된 옵션에서 구성됨
+   * 트리거: 검색된 트리거 목록입니다. 옵션에서 [!DNL pipelined] 구성됨
 * stats
    * average-pointer-flush-time-ms: 하나의 트리거 묶음에 대한 평균 처리 시간입니다.
    * average-trigger-processing-time-ms: 트리거 데이터를 구문 분석하는 데 걸린 평균 시간입니다.
