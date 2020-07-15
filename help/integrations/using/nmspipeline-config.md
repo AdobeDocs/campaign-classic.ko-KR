@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9957dabca4c63d504a3d06cf527a97b79fee46d5
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 # 파이프라인 옵션 NmsPipeline_Config {#nmspipeline_config}
 
-인증이 작동하면 파이프라인이 이벤트를 검색하고 처리할 수 있습니다. Adobe Campaign에 구성된 트리거를 처리하며 다른 트리거는 무시합니다. 트리거가 Analytics에서 생성되어 미리 파이프라인으로 푸시되었어야 합니다.
+인증이 완료되면 이벤트를 검색하고 처리할 [!DNL pipelined] 수 있습니다. Adobe Campaign에 구성된 트리거를 처리하며 다른 트리거는 무시합니다. 트리거가 Analytics에서 생성되어 미리 파이프라인으로 푸시되었어야 합니다.
 이 옵션은 이름에 관계없이 모든 트리거를 캐치하도록 와일드카드로 구성할 수도 있습니다.
 
 트리거의 구성은 옵션( > > **[!UICONTROL Administration]** )에서 **[!UICONTROL Platform]** 수행됩니다 **[!UICONTROL Options]**. 옵션 이름은 입니다 **[!UICONTROL NmsPipeline_Config]**. 데이터 유형은 JSON 형식의 &quot;긴 텍스트&quot;입니다.
@@ -90,6 +90,6 @@ ht-degree: 0%
 
 * &quot;name&quot;은 트리거 ID입니다. 와일드카드 &quot;*&quot;가 모든 트리거를 캡처합니다.
 * &quot;Consumer&quot;은 nlserver 인스턴스를 고유하게 식별하는 고유한 문자열입니다. 일반적으로 인스턴스 이름 자체일 수 있습니다. 여러 환경(dev/stage/prod)의 경우 각 인스턴스가 메시지 사본을 받을 수 있도록 각각에 대해 고유한지 확인하십시오.
-* 또한 피펜드된 &quot;별칭&quot; 주제도 지원합니다.
+* [!DNL Pipelined] 또한 &quot;별칭&quot; 항목을 지원합니다.
 
-변경한 후 파이프라인을 다시 시작합니다.
+변경 [!DNL pipelined] 후 다시 시작합니다.
