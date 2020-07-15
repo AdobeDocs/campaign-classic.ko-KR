@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ JWT 유형의 응용 프로그램은 **[!UICONTROL Admin]** > **[!UICONTROL User
 
 ### Adobe Campaign Classic의 응용 프로그램 이름 등록 {#application-name-registration}
 
-생성된 oAuth 클라이언트의 응용 프로그램 ID는 Adobe Campaign에서 구성해야 합니다. 피파이프라인 요소, 특히 appName 속성의 인스턴스 구성 파일을 편집하여 이 작업을 수행할 수 있습니다.
+생성된 oAuth 클라이언트의 응용 프로그램 ID는 Adobe Campaign에서 구성해야 합니다. 요소의 인스턴스 구성 파일, 특히 appName 속성을 편집하여 [!DNL pipelined] 수행할 수 있습니다.
 
 예:
 
@@ -139,11 +139,11 @@ JWT 유형의 응용 프로그램은 **[!UICONTROL Admin]** > **[!UICONTROL User
 
 ### 키 암호화 {#key-encription}
 
-피선된 상태에서 사용하려면 개인 키를 암호화해야 합니다. 암호화는 cryptString Javascript 함수를 사용하여 수행되며, 피펜된 것과 동일한 인스턴스에서 수행해야 합니다.
+개인 키를 암호화해야 [!DNL pipelined]합니다. 암호화는 cryptString Javascript 함수를 사용하여 수행되며 동일한 인스턴스에서 수행해야 합니다 [!DNL pipelined].
 
 이 [페이지에서 JavaScript를 사용한 개인 키 암호화 샘플을 사용할 수 있습니다](../../integrations/using/pipeline-troubleshooting.md).
 
-암호화된 개인 키는 Adobe Campaign에 등록되어 있어야 합니다. 피파이프라인 요소, 특히 authPrivateKey 특성의 인스턴스 구성 파일을 편집하여 이러한 작업을 수행할 수 있습니다.
+암호화된 개인 키는 Adobe Campaign에 등록되어 있어야 합니다. 요소의 인스턴스 구성 파일, 특히 authPrivateKey 속성을 편집하여 [!DNL pipelined] 수행할 수 있습니다.
 
 예:
 
@@ -153,7 +153,7 @@ JWT 유형의 응용 프로그램은 **[!UICONTROL Admin]** > **[!UICONTROL User
 
 ### 파이프라인 프로세스 자동 시작 {#pipelined-auto-start}
 
-파이프라인 프로세스는 자동으로 시작되어야 합니다.
+이 [!DNL pipelined] 프로세스는 자동으로 시작되어야 합니다.
 이렇게 하려면 구성 파일의 요소를 autostart=&quot;true&quot;로 설정합니다.
 
 ```
@@ -174,7 +174,7 @@ nlserver start pipelined@instance
 nlserver restart pipelined@instance
 ```
 
-오류가 발생하면 표준 출력(수동으로 시작한 경우) 또는 피파이프라인 로그 파일에서 오류를 찾습니다. 문제 해결에 대한 자세한 내용은 이 문서의 문제 해결 섹션을 참조하십시오.
+오류가 발생하면 표준 출력(수동으로 시작한 경우) 또는 [!DNL pipelined] 로그 파일에서 오류를 찾습니다. 문제 해결에 대한 자세한 내용은 이 문서의 문제 해결 섹션을 참조하십시오.
 
 ### 파이프라인 구성 옵션 {#pipelined-configuration-options}
 
@@ -187,7 +187,7 @@ nlserver restart pipelined@instance
 | discoverPipelineEndpoint | 이 테넌트에 사용할 파이프라인 서비스 끝점을 검색하는 URL입니다. 기본값: https://producer-pipeline-pnw.adobe.net |
 | dumpStatePeriodSec | var/INSTANCE/pipelined.json의 프로세스 내부 상태를 2번 덤프할 때의 기간 내역은 http://INSTANCE/pipelined/status에서 온디맨드(포트 7781)에 액세스할 수 있습니다. |
 | forcedPipelineEndpoint | PipelineServicesEndpoint의 검색을 비활성화하고 강제 적용 |
-| monitorServerPort | 피선된 프로세스는 이 포트에서 프로세스 내부 상태를 제공하기 위해 http://INSTANCE/pipelined/status(포트 7781)에서 수신합니다. |
+| monitorServerPort | 이 [!DNL pipelined] 프로세스는 http://INSTANCE/pipelined/status에서 프로세스 내부 상태를 제공하기 위해 이 포트를 수신합니다(포트 7781). |
 | 포인터FlushMessageCount | 이 수의 메시지가 처리되면 오프셋이 데이터베이스에 저장됩니다. 기본값은 1000입니다. |
 | 포인터FlushPeriodSec | 이 기간이 지나면 옵셋이 데이터베이스에 저장됩니다. 기본값은 5초입니다. |
 | processingJSThreads | 사용자 지정 JS 커넥터를 사용하는 전용 스레드 처리 메시지 수입니다. 기본값은 4입니다. |
