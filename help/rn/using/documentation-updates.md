@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 306c7bf0a94684d27c5f95035f3d3e77da8c7097
+source-git-commit: 9f55a2014546ce08972f51e4930ce04d4ce0c188
 workflow-type: tm+mt
-source-wordcount: '6795'
+source-wordcount: '6898'
 ht-degree: 8%
 
 ---
@@ -33,13 +33,21 @@ Campaign Classic 모니터링과 관련된 지침과 함께 새 섹션이 추가
 
 개인정보 보호 및 동의 섹션은 보다 자세한 정보와 유용한 링크로 개선되었습니다. [자세한 내용](../../platform/using/privacy-and-recommendations.md)
 
+Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요청 프로세스를 설정할 수 있는 API를 사용할 때 사용 가능한 &#39;규제&#39; 필드에 대한 정보로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+
+개인 정보 관리 개요 페이지는 태국 개인정보 보호법(Personal Data Protection Act)(PDPA) 및 브라질 레이제랄 데 프로테카앙 데 도도스(LGPD)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+하위 워크플로우 로그 및 오류 발생 시 동작에 정보가 추가되었습니다. [자세한 내용](../../workflow/using/sub-workflow.md)
+
+작업 섹션에 우수 사례가 **[!UICONTROL Scheduler]** 추가되었습니다. [자세한 내용](../../workflow/using/scheduler.md)
+
 ## 2020년 6월 {#june-2020}
 
 격리된 주소 제거 섹션이 업데이트되었습니다. 여기에는 격리 목록에서 주소가 자동으로 제거되는 경우가 포함됩니다. [자세한 내용](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화하고](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) [해독하는](../../workflow/using/importing-data.md#use-case-gpg-decrypt) 방법에 사용 사례가 추가되었습니다.
+Campaign 컨트롤 패널 및 캠페인 워크플로우를 사용하여 데이터를 [암호화하고](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) [해독하는](../../workflow/using/importing-data.md#use-case-gpg-decrypt) 방법에 사용 사례가 추가되었습니다.
 
-&#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. 이러한 용어의 일부 항목은 여전히 제품 UI, 옵션 이름 및 내부 코드에 존재할 수 있지만, 향후 캠페인 릴리스에서 &#39;&#39; 및 &#39;허용 목록에 추가하다&#39;로 차단 목록에 추가하다 대체될 것입니다.
+&#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. 이러한 용어의 일부 항목은 여전히 제품 UI, 옵션 이름 및 내부 코드에 존재할 수 있지만, 향후 캠페인 릴리스에서 &#39;차단 목록&#39; 과 &#39;허용 목록으로 대체될 것입니다.
 
 Experience Cloud 트리거 및 Adobe Campaign Classic 통합 페이지가 [여기로 이동되었습니다](../../integrations/using/about-triggers.md).
 
@@ -55,7 +63,7 @@ Azure Synapse FDA 커넥터 - [자세한 내용](../../platform/using/specific-c
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-트랜잭션 메시지 템플릿 게시를 취소할 수 있는 새 옵션이 이 섹션에[설명되어 있습니다](../../message-center/using/template-unpublication.md).
+트랜잭션 메시지 템플릿의 게시를 취소할 수 있는 새 옵션이 이 섹션에[설명되어 있습니다](../../message-center/using/template-unpublication.md).
 
 개인화된 URL과 첨부 파일에서 다운로드한 이미지가 포함된 이메일을 보낼 때 제한을 설정할 수 있는 새로운 옵션이 Campaign Classic 옵션 목록에 추가되었습니다. [자세한 내용](../../installation/using/configuring-campaign-options.md#delivery)
 
@@ -241,7 +249,7 @@ Adobe Campaign과 Adobe 실시간 고객 데이터 Platform 간의 통합이 이
 
 개인화 필드 컨텐츠가 1024자를 초과할 수 없음을 지정하는 정보가 추가되었습니다. [자세한 내용](../../delivery/using/personalization-fields.md)
 
-Control Panel 문서는 새로운 공동 문서 세트에 통합되었습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
+Campaign 컨트롤 패널 문서는 새로운 공동 문서 세트에 통합되었습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 
 배포 우수 사례 시작 안내서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
 
@@ -277,7 +285,7 @@ Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이
 
 **릴리스에 포함된 새로운 기능**
 
-제어판 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
+Campaign 컨트롤 패널 - [자세한 내용 보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 
 감사 추적 - [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html)
 
