@@ -15,15 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fddd0b61c71c90849a1f64776eea43c57d9debe2
+source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
 
 
 # 기존 커넥터 {#legacy-connectors}
+
+기존 FDA 커넥터는 여전히 Adobe에서 지원합니다. 하지만 이 [페이지에 나열된 보다 최근의 대체 항목으로 대체할 것을 권장합니다](../../platform/using/specific-configuration-database.md).
 
 ## Hadoop 2.1에 대한 액세스 구성 {#configure-access-to-hadoop}
 
