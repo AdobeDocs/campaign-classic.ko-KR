@@ -15,15 +15,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f1f1cd9c5ebb77fbb01cadad6c587ed2fe64dcc
+source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
 
 
-# 데이터베이스 유형별 특정 구성 {#specific-configurations-by-database-type}
+# FDA 커넥터 구성 {#specific-configurations-by-database-type}
 
 Adobe Campaign에서 액세스할 수 있는 외부 데이터베이스에 따라 특정 구성을 수행해야 합니다. 이러한 구성에는 Adobe Campaign 서버의 각 RDBMS에 속하는 드라이버 설치 및 환경 변수 선언이 포함됩니다.
 
@@ -59,6 +59,7 @@ Teradata, Hadoop 2.1 또는 Netezza와 같은 기존 커넥터에 대한 자세�
    * **[!UICONTROL Password]**: 사용자 계정 암호
 
    * **[!UICONTROL Database]**: 데이터베이스 이름
+
    ![](assets/azure_1.png)
 
 ### CentOS의 Azure 구문 {#azure-centos}
@@ -258,6 +259,7 @@ Debian에서 Azure 구문을 구성하려면:
    * **[!UICONTROL Password]**: 사용자 계정 암호
 
    * **[!UICONTROL Database]**: 데이터베이스 이름
+
    ![](assets/snowflake.png)
 
 1. 탭을 **[!UICONTROL Parameters]** 클릭한 다음 **[!UICONTROL Deploy functions]** 단추를 클릭하여 함수를 만듭니다.
@@ -346,6 +348,7 @@ Debian에서 Azure 구문을 구성하려면:
    * **[!UICONTROL Database]**: DSN에 지정되지 않은 경우 데이터베이스의 이름입니다. DSN에 지정된 경우 비워 둘 수 있습니다.
 
    * **[!UICONTROL Time zone]**: 서버 시간대
+
    ![](assets/hadoop3.png)
 
 커넥터는 다음과 같은 ODBC 옵션을 지원합니다.
@@ -404,6 +407,7 @@ FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서
    * **[!UICONTROL Password]**: 사용자 계정 암호
 
    * **[!UICONTROL Time zone]**: 서버 시간대
+
    ![](assets/oracle_config.png)
 
 ### Linux 기반의 Oracle {#for-linux-1}
