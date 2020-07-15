@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 파이프라인은 JavaScript 함수를 사용하여 각 메시지를 처리합니다. 이 함수는 사용자가 정의합니다.
 
-&quot;JSConnector&quot; 속성 아래의 **[!UICONTROL NmsPipeline_Config]** 옵션에서 구성됩니다. 이 javascript는 이벤트를 받을 때마다 호출됩니다. 세밀하게 진행되는 과정입니다.
+&quot;JSConnector&quot; 속성 아래의 **[!UICONTROL NmsPipeline_Config]** 옵션에서 구성됩니다. 이 javascript는 이벤트를 받을 때마다 호출됩니다. 그 [!DNL pipelined] 과정에 의해 운영된다.
 
 샘플 JS 파일은 cus:triggers.js입니다.
 
 ### JavaScript 함수 {#function-js}
 
-Javascript 파이프라인은 특정 함수로 시작해야 합니다.
+Javascript [!DNL pipelined] 는 특정 함수로 시작해야 합니다.
 
 이 함수는 모든 이벤트에 대해 한 번 호출됩니다.
 
@@ -51,7 +51,7 @@ function processPipelineMessage(xmlTrigger) {}
 <undefined/>
 ```
 
-JS를 편집한 후 파이프라인을 다시 시작합니다.
+JS를 편집한 [!DNL pipelined] 후 다시 시작합니다.
 
 ### 데이터 형식 트리거 {#trigger-format}
 
@@ -110,7 +110,7 @@ JS를 편집한 후 파이프라인을 다시 시작합니다.
 
 ### 이벤트 처리 순서 {#order-events}
 
-이벤트는 오프셋 순서로 한 번에 하나씩 처리됩니다. 파이프라인의 각 스레드가 다른 파티션을 처리합니다.
+이벤트는 오프셋 순서로 한 번에 하나씩 처리됩니다. Each thread of the [!DNL pipelined] processes a different partition.
 
 마지막으로 검색된 이벤트의 &#39;오프셋&#39;이 데이터베이스에 저장됩니다. 따라서 프로세스가 중지되면 마지막 메시지에서 다시 시작됩니다. 이 데이터는 내장 스키마 xtk:pipelineOffset에 저장됩니다.
 
@@ -122,8 +122,8 @@ JS를 편집한 후 파이프라인을 다시 시작합니다.
 
 ### 로깅 및 오류 처리 {#logging-error-handling}
 
-logInfo()와 같은 로그는 연결된 로그로 전달됩니다. logError()와 같은 오류가 피서명된 로그에 기록되므로 이벤트가 다시 시도 대기열에 추가됩니다. 파이프라인 로그를 확인합니다.
-오류가 발생한 메시지는 피파이프라인 옵션에 설정된 기간 동안 여러 번 다시 시도됩니다.
+logInfo()와 같은 로그는 [!DNL pipelined] 로그에 전달됩니다. logError()와 같은 오류는 [!DNL pipelined] 로그에 기록되므로 이벤트가 다시 시도 대기열에 추가됩니다. 파이프라인 로그를 확인합니다.
+오류 메시지가 옵션에 설정된 지속 시간에 여러 번 [!DNL pipelined] 다시 시도됩니다.
 
 디버깅 및 모니터링을 위해 전체 트리거 데이터는 트리거 테이블에 기록됩니다. XML 형식의 &quot;데이터&quot; 필드에 있습니다. 또는 트리거 데이터를 포함하는 logInfo()는 동일한 용도로 사용됩니다.
 
