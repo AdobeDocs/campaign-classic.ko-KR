@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: c38fe4cc442768550ee90cecc6b31b78d39f3da1
+source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '2076'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 8%
 + Getting Started {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
       + [Adobe Campaign 클래식 정보](platform/using/about-adobe-campaign-classic.md)
-      + [개인 정보 및 권장 사항](platform/using/privacy-and-recommendations.md)
+      + [개인 정보 및 동의](platform/using/privacy-and-recommendations.md)
       + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
       + [Adobe Campaign 작업 영역](platform/using/adobe-campaign-workspace.md)
       + FAQ {#faq}
@@ -72,7 +72,7 @@ ht-degree: 8%
       + [외부 계정](platform/using/external-accounts.md)
    + 외부 데이터베이스 액세스(FDA){#accessing-external-database}
       + [FDA 정보](platform/using/about-fda.md)
-      + [데이터베이스 유형별 특정 구성](platform/using/specific-configuration-database.md)
+      + [FDA 커넥터 구성](platform/using/specific-configuration-database.md)
       + [기존 커넥터](platform/using/legacy-connectors.md)
       + [원격 데이터베이스 액세스 권한](platform/using/remote-database-access-rights.md)
       + [데이터베이스에 연결](platform/using/connecting-to-database.md)
@@ -293,36 +293,36 @@ ht-degree: 8%
 + Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [Campaign 통합 기본 정보](integrations/using/about-campaign-integrations.md)
    + 고객 공유 {#audience-sharing}
-      + [[!DNL Adobe Experience Cloud]와 대상 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [대상 공유 [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
-      + [[!DNL Adobe Campaign]에서 공유 대상 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [공유 대상 통합 구성 [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [문제 해결](integrations/using/troubleshooting.md)
       + [대상 가져오기 및 내보내기](integrations/using/importing-and-exporting-audiences.md)
    + 자산 공유 {#asset-sharing}
-      + [[!DNL Adobe Experience Cloud]와 자산 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [[!DNL 자산]에 대한 액세스 구성](integrations/using/configuring-access-to-assets.md)
+      + [자산 공유 [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [액세스 권한 구성 [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
       + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [[!DNL Adobe Experience Manager] 정보](integrations/using/about-adobe-experience-manager.md)
+      + [정보 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [통합 구성](integrations/using/configuring-the-integration.md)
-      + [[!DNL Experience Manager] 뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [뉴스레터 [!DNL Experience Manager] 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [[!DNL Adobe Target]과(와) 통합](integrations/using/integrating-with-adobe-target.md)
-      + [[!DNL Adobe Target]과(와) 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [통합 [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+      + [통합 구성 [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [동적 이미지 삽입](integrations/using/inserting-a-dynamic-image.md)
    + Adobe ID을 통해 연결 {#connecting-via-an-adobe-id}
-      + [[!DNL Adobe ID] 정보](integrations/using/about-adobe-id.md)
-      + [[!DNL IMS] 구성](integrations/using/configuring-ims.md)
-      + [[!DNL IMS] 구현](integrations/using/implementing-ims.md)
+      + [정보 [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
+      + [구성 [!DNL IMS]](integrations/using/configuring-ims.md)
+      + [구현 [!DNL IMS]](integrations/using/implementing-ims.md)
       + [IMS 문제 해결](integrations/using/ims-troubleshooting.md)
    + ACS 커넥터 {#acs-connector}
-      + [[!DNL ACS 커넥터] 원칙 및 데이터 주기](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [[!DNL ACS Connector] 원칙 및 데이터 주기](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [프로필 동기화](integrations/using/synchronizing-profiles.md)
       + [대상 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
-      + [[!DNL ACS 커넥터 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
+      + [문제 해결 [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
    + Experience Cloud Triggers {#experience-triggers}
-      + [[!DNL Adobe Experience Cloud 트리거] 정보](integrations/using/about-triggers.md)
+      + [정보 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
       + [파이프라인 옵션 NmsPipeline_Config](integrations/using/nmspipeline-config.md)
       + [트리거 이벤트](integrations/using/events.md)
