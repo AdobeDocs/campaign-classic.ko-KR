@@ -15,36 +15,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77bb2ee42919a1bbf9a1a9e4594505f5cf99ca68
+source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
 workflow-type: tm+mt
-source-wordcount: '2921'
+source-wordcount: '2118'
 ht-degree: 1%
 
 ---
 
 
 # 릴리스 19.1{#release-19-1}
-
-[업그레이드 구축](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스](../../rn/using/release--19-1.md) | [사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>GA</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>릴리스 후보</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>더 이상 사용할 수 없음</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>가치 하락</strong></td> 
-  </tr> 
-   <tr> 
-   <td>최신 안정적인 빌드를 사용할 수 있습니다. 프로덕션에서 검증된 빌드<br> </td>
-   <td>Adobe에서 인증한 빌드. 제품 인쇄를 기다리는 중입니다.<br> </td>
-   <td>버그 수정을 통해 새로운 빌드를 사용할 수 있습니다. 업데이트가 필요합니다.<br> </td>
-   <td>알려진 회귀 수를 포함합니다. 업데이트는 필수입니다.<br> </td>
-  </tr> 
- </tbody> 
-</table>
-
-마지막 **안정적인** 건축물은 Gold Standard 10이다. 여기를 [클릭하십시오](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/do-not-localize/orange_2.png) 릴리스 19.1.6 - 빌드 9035 {#release-19-1-6-build-9035}
 
@@ -62,7 +41,7 @@ _2019년 10월 3일_
 * Mid-Sourcing 서버에서 특정 메시지를 처리하지 못하는 문제를 해결했습니다. (NEO-12395)
 * SQL 데이터 관리 작업을 완전히 사용하지 못하는 문제를 해결했습니다(오른쪽이라는 &quot;SQL 데이터 관리&quot;가 누락됨).
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 19.1.5 - 빌드 9033{#release-19-1-5-build-9033}
+## ![](assets/do-not-localize/red_2.png) 릴리스 19.1.5 - 빌드 9033{#release-19-1-5-build-9033}
 
 _2019년 8월 13일_
 
@@ -75,117 +54,14 @@ _2019년 8월 13일_
 * Microsoft Dynamics가 있는 AC 커넥터 내의 OAuth 자격 증명을 지원하기 위해 새로운 인증 옵션이 추가되었습니다. (NEO-11982)
 * UUID(고유 유니버설 식별자) 문제를 수정하면 Hive FDA에서 데이터 연계 강화 활동이 실패합니다.
 
-## 릴리스 19.1.4 - 빌드 9032{#release-19-1-4-build-9032}
+## ![](assets/do-not-localize/green_2.png) 릴리스 19.1.4 - 빌드 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **Gold Standard 10 릴리스**
-
-_2020년 7월 7일_
-
-이 새 빌드(9032@efd8a94)에는 다음 수정 사항이 포함되어 있습니다.
-
-* 서명 기능이 비활성화되었을 때 추적을 수행할 수 없는 문제를 해결했습니다. (NEO-26411)
-
->[!CAUTION]
+>[!NOTE]
 >
->이 릴리스에서 사용할 수 있는 클라이언트 콘솔을 업그레이드하는 것이 좋습니다. 이 [페이지 참조](../../installation/using/installing-the-client-console.md)
+>19.1.4 Gold Standard 릴리스는 이 [페이지에 나열되어 있습니다](../../rn/using/gold-standard.md).
 
-![](assets/do-not-localize/orange_2.png) **Gold Standard 9 릴리스**
 
-_2020년 6월 22일_
-
-이 새 빌드(9032@800be2e)에는 다음 수정 사항이 포함되어 있습니다.
-
-* iOS HTTP2 커넥터가 개선되었습니다(타사 업데이트 및 오류 관리). (NEO-25904, NEO-25903, NEO-25799)
-
-다음 수정 사항은 추적 링크 보안 메커니즘과 관련되어 있습니다( [보안 및 개인 정보 확인 목록 참조](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)).
-
-* &quot;알림 클릭&quot; 추적이 작동하지 않는 문제를 해결했습니다(iOS 및 Android 푸시 알림). (NEO-25965)
-* 특정 이전 버전의 Outlook을 사용할 때 추적 URL을 열거나 클릭하지 못하는 문제를 해결했습니다.  (NEO-25688)
-* 개인화 매개 변수의 조각을 사용하여 URL을 추적할 수 없는 문제(파운드 기호가 있는 앵커 태그)가 수정되었습니다. (NEO-25774)
-* 피싱 방지 서비스 문제를 수정했습니다. (NEO-25283)
-* 특정 사용자 지정 추적 공식을 사용할 때의 추적 문제를 수정했습니다. (NEO-25277)
-
-![](assets/do-not-localize/orange_2.png) **Gold Standard 8 릴리스**
-
-_2020년 4월 29일_
-
-이 새 빌드(9032@3a9dc9c)에는 다음 수정 사항이 포함되어 있습니다.
-
-* 이메일의 링크 추적 보안이 개선되었습니다. 모든 고객에 대해 기본적으로 활성화됩니다. 고객 지원 센터에 연락하여 활성화할 수 있는 향상된 추가 보안 기능을 사용할 수 있습니다. 호스팅되지 않은 고객이 이 기능을 사용하도록 설정하는 기능 및 단계에 대한 자세한 내용은 [보안 및 개인 정보 확인 목록에서 확인할 수 있습니다](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
-
->[!CAUTION]
->
->추적 링크를 사용한 푸시 알림 또는 앵커 태그를 사용한 게재 관련 문제가 발생하는 경우 링크 추적을 위해 새 서명 메커니즘을 비활성화하는 것이 좋습니다. 절차는 이 [페이지에 자세히 설명되어 있습니다](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
-
-* 라인 전달에 이미지가 표시되지 않는 문제를 해결했습니다. (NEO-23207)
-* SFTP 키 기반 인증이 Debian 9에서 작동하지 않는 **파일 전송** 활동 문제를 해결했습니다. (NEO-23183)
-* 고주파로 전송할 때 푸시 알림에 영향을 줄 수 있는 문제를 해결했습니다. (NEO-20516)
-* 웹 서버 충돌을 야기할 수 있는 오퍼 응답 관리 문제를 수정했습니다. (NEO-19482)
-* 보고서를 내보낼 수 없는 LibreOffice 관리의 오류를 수정했습니다. (NEO-20982)
-* 설문 조사 활동을 사용하여 다양한 워크플로우를 업그레이드할 때 오류가 발생하는 문제를 해결했습니다.
-* .odt 파일을 사용하여 이메일 미리 보기에 오류가 발생하지 않도록 LibreOffice 관리를 개선했습니다.
-* 웹 서비스에서 지연을 방지하기 위해 Apache 연결 관리를 개선했습니다.
-* 정보 메뉴에서 버전 태그(7자리)의 표시 **를** 개선했습니다.
-* 오퍼가 게시되지 않도록 하는 목록 관리의 회귀 문제를 해결했습니다.
-* 정리 워크플로가 충돌하는 회귀 문제를 해결했습니다.
-* 정리 워크플로우 로그에서 사소한 회귀 문제를 해결했습니다.
-
-![](assets/do-not-localize/orange_2.png) **Gold Standard 6 릴리스**
-
-_2019년 3월 9일_
-
-이 새 빌드(9032@19f73c5)에는 다음 수정 사항이 포함되어 있습니다.
-
-* SSL을 통해 FTP를 사용하는 외부 계정 문제를 해결했습니다. (NEO-20498)
-
-![](assets/do-not-localize/orange_2.png) **Gold Standard 5 릴리스**
-
-_2019년 12월 17일_
-
-이 새 빌드(9032@d6b8062)에는 다음 수정 사항이 포함되어 있습니다.
-
-* 다음 통신 채널의 추적 문제가 해결되었습니다. 모바일(SMS, MMS), 푸시(iOS, Android) 및 소셜 네트워크(Facebook, Twitter)입니다. (NEO-19595)
-
-![](assets/do-not-localize/orange_2.png) **Gold Standard 4 릴리스**
-
-_2019년 12월 11일_
-
-이 새 빌드(9032@bc4a935)에는 다음 수정 사항이 포함되어 있습니다.
-
-* MSSQL 데이터베이스를 사용하여 메시지를 전송할 때 성능 문제가 해결되었습니다. (NEO-17558)
-
-![](assets/do-not-localize/orange_2.png) **Gold Standard 3 릴리스**
-
-_2019년 11월 20일_
-
-이 새 빌드(9032@3468c7b)에는 다음 수정 사항이 포함되어 있습니다.
-
-* IMS 인증을 통한 로그인 문제가 해결되었습니다. (NEO-17312)
-* 여러 게재에 대한 누적 보고서를 표시할 때 발생하는 문제가 해결되었습니다. (NEO-18165)
-* 웹 서버 충돌을 차단하거나 야기할 수 있는 문제를 수정했습니다.
-
-![](assets/do-not-localize/orange_2.png) **Gold Standard 2 릴리스**
-
-_2019년 9월 19일_
-
-이 새 빌드(9032@cee805c)에는 다음 수정 사항이 포함되어 있습니다.
-
-* Salesforce용 CRM 커넥터를 사용하는 경우 발생하는 문제가 해결되었습니다. (NEO-17712)
-* 트랜잭션 메시지를 보낼 때 성능 문제가 발생할 수 있는 색인 문제를 수정했습니다.
-
-![](assets/do-not-localize/orange_2.png) **릴리스 19.1.4 - 빌드 9032**
-
-_2019년 8월 13일_
-
-다음 수정 사항이 포함된 초기 19.1.4 빌드:
-
-* 마법사 구성 중 원치 않는 오류 메시지를 생성하는 스케줄러 활동 문제를 수정했습니다. NEO-11662에서 업데이트를 되돌립니다. (NEO-17097)
-* 테스트 활동이 두 번 실행될 때 워크플로우를 중지할 수 있는 NEO-12727에 의해 발생하는 회귀 문제를 수정했습니다. (NEO-16835)
-* API 호출에서 유효하지 않거나 만료된 세션 토큰이 사용된 경우 잘못된 HTTP 코드(HTTP 403 대신 HTTP 200 OK)가 반환되는 문제를 수정했습니다. (NEO-16826)
-* 더 이상 이메일에 포함되지 않아 배달성 문제가 발생하는 DKIM 키 문제를 수정했습니다. (NEO-16804)
-* 워크플로우 예약과 관련된 다양한 문제가 해결되었습니다. 워크플로우는 스케줄러 구성을 고려하지 않고 하루에 한 번 실행되도록 예약되었습니다. (NEO-16619, NEO-16426)
-
-## ![](assets/do-not-localize/orange_2.png) 릴리스 19.1.2 - 빌드 9029{#release-19-1-2-build-9029}
+## ![](assets/do-not-localize/red_2.png) 릴리스 19.1.2 - 빌드 9029{#release-19-1-2-build-9029}
 
 _2019년 6월 21일_
 
@@ -201,7 +77,7 @@ _2019년 6월 21일_
 * 이제 가져오기 작업 과정 동안 Microsoft Dynamics에서 만든 더미 레코드를 삭제할 수 있습니다.
 * 내부 계정을 사용할 때 보안 영역 패키지를 실행하기 위한 권한이 개선되었습니다.
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 19.1 - 빌드 9026{#release-19-1-build-9026}
+## ![](assets/do-not-localize/red_2.png) 릴리스 19.1 - 빌드 9026{#release-19-1-build-9026}
 
 _2019년 5월 30일_
 
@@ -217,7 +93,7 @@ _2019년 5월 30일_
  <tbody> 
   <tr> 
    <td> 컨트롤 패널<br /> </td> 
-   <td> <p>관리 사용자로서의 작업의 효율성을 높이려면 저장소를 모니터링하여 SFTP 서버의 설정을 관리하고 허용 목록에 IP 주소를 추가하고 각 인스턴스에 대한 SSH 키를 설치하도록 합니다. 제어판은 현재 AWS에서 호스팅되는 고객에게만 제공됩니다(오늘<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud을 통해</a>로그인).</p> <p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">방법 비디오를 참조하십시오</a>. </p><p>참고: 제어판에 액세스하기 위해 최신 캠페인 빌드로 업그레이드할 필요는 없습니다.</p> </td> 
+   <td> <p>관리 사용자로서의 작업의 효율성을 높이려면 저장소를 모니터링하여 SFTP 서버의 설정을 관리하고 허용 목록에 IP 주소를 추가하고 각 인스턴스에 대한 SSH 키를 설치하도록 합니다. Campaign 컨트롤 패널은 현재 AWS에서 호스팅되는 고객에게만 제공됩니다(오늘<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud을 통해</a>로그인).</p> <p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">방법 비디오를 참조하십시오</a>. </p><p>참고: Campaign 컨트롤 패널에 액세스하기 위해 최신 캠페인 빌드로 업그레이드할 필요는 없습니다.</p> </td> 
   </tr> 
     <tr> 
    <td> 감사 추적<br /> </td> 
