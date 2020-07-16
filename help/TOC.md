@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
+source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2089'
 ht-degree: 8%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 8%
 + [제품 설명서](campaign-classic-home.md)
 + [최신 업데이트](rn/using/documentation-updates.md)
 + 릴리스 정보 {#release-notes}
+   + [업그레이드 시작하기](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
+   + [Gold Standard 릴리스](rn/using/gold-standard.md)
    + 이전 릴리스 {#previous-releases}
       + [릴리스 20.1](rn/using/release--20-1.md)
       + [릴리스 19.2](rn/using/release--19-2.md)
@@ -26,7 +28,9 @@ ht-degree: 8%
       + [릴리스 18.10](rn/using/release--18-10.md)
       + [릴리스 18.6](rn/using/release--18-6.md)
       + [릴리스 18.4](rn/using/release--18-4.md)
-   + [더 이상 사용되지 않는 기능](rn/using/deprecated-features.md)
+   + 더 이상 사용되지 않는 기능 및 호환성 {#deprecated-compatibility}
+      + [더 이상 사용되지 않는 기능](rn/using/deprecated-features.md)
+      + [호환성 표](rn/using/compatibility-matrix.md)
 + Getting Started {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
       + [Adobe Campaign 클래식 정보](platform/using/about-adobe-campaign-classic.md)
