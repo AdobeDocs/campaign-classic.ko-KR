@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
+source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1330'
 ht-degree: 1%
 
 ---
@@ -23,40 +23,19 @@ ht-degree: 1%
 
 # 릴리스 20.1{#release-20-1}
 
-[업그레이드 구축](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스](../../rn/using/release--19-2.md) | [사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>GA</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>릴리스 후보</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>더 이상 사용할 수 없음</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>가치 하락</strong></td> 
-  </tr> 
-   <tr> 
-   <td>최신 안정적인 빌드를 사용할 수 있습니다. 프로덕션에서 검증된 빌드<br> </td>
-   <td>Adobe에서 인증한 빌드. 제품 인쇄를 기다리는 중입니다.<br> </td>
-   <td>버그 수정을 통해 새로운 빌드를 사용할 수 있습니다. 업데이트가 필요합니다.<br> </td>
-   <td>알려진 회귀 수를 포함합니다. 업데이트는 필수입니다.<br> </td>
-  </tr> 
- </tbody> 
-</table>
-
-마지막 **안정적인** 건축물은 Gold Standard 10이다. 여기를 [클릭하십시오](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
-
-## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1.3 - 빌드 9124 {#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1.3 - 빌드 9124{#release-20-1-3-build-9124}
 
 _2020년 5월 6일_
 
 * SFTP 키 기반 인증이 Debian 9에서 작동하지 않는 **파일 전송** 활동 문제를 해결했습니다. (NEO-23183)
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1.2 - 빌드 9123 {#release-20-1-2-build-9123}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1.2 - 빌드 9123{#release-20-1-2-build-9123}
 
 _2020년 3월 13일_
 
 * Red Hat 7 서버에 버전을 배포하지 못했던 문제를 수정했습니다. (NEO-23332)
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1 - Build 9122 {#release-20-1-build-9122}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1 - Build 9122{#release-20-1-build-9122}
 
 _2020년 2월 17일_
 
