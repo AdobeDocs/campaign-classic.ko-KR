@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
+source-git-commit: 5b7c0dc12b41b8482dce9d42bbf88878bb03bf38
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1692'
 ht-degree: 1%
 
 ---
@@ -23,28 +23,7 @@ ht-degree: 1%
 
 # 최신 릴리스{#latest-release}
 
-[업그레이드 구축](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스](../../rn/using/release--20-1.md) | [사용되지 않는 기능](../../rn/using/deprecated-features.md)
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>GA</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>릴리스 후보</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>더 이상 사용할 수 없음</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>가치 하락</strong></td> 
-  </tr> 
-   <tr> 
-   <td>최신 안정적인 빌드를 사용할 수 있습니다. 프로덕션에서 검증된 빌드<br> </td>
-   <td>Adobe에서 인증한 빌드. 제품 인쇄를 기다리는 중입니다.<br> </td>
-   <td>버그 수정을 통해 새로운 빌드를 사용할 수 있습니다. 업데이트가 필요합니다.<br> </td>
-   <td>알려진 회귀 수를 포함합니다. 업데이트는 필수입니다.<br> </td>
-  </tr> 
- </tbody> 
-</table>
-
-마지막 **안정적인** 건축물은 Gold Standard 10이다. 여기를 [클릭하십시오](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
-
-![](assets/do-not-localize/cp-icon.png) **활성 프로파일 모니터링, 하위 도메인 전달 기능 감사 및 GPG 키 관리가 포함된 새로운 제어판 6월 릴리스** . [자세한](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)내용
+![](assets/do-not-localize/cp-icon.png) **활성 프로파일 모니터링, 하위 도메인 전달 기능 감사 및 GPG 키 관리가 포함된 새로운 Campaign 컨트롤 패널 6월 릴리스** . [자세한](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)내용
 
 ## ![](assets/do-not-localize/blue_2.png) 릴리스 20.2.1 - 빌드 9178 {#release-20-2-1-build-9178}
 
