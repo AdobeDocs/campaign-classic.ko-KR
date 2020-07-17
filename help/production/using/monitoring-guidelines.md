@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fdc305ff5bf27aa5cc0a4a9e89ac8ed9d5bead57
+source-git-commit: e2b97e10936a492c761f42eb062ede1cba7621ed
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 2%
@@ -92,7 +92,7 @@ Workflow HeatMap은 인스턴스에서 실행 중인 모든 워크플로우를 �
 
 ### 배달 모니터링 {#monitoring-deliveries}
 
-<img src="assets/do-not-localize/icon_send.svg" width="60px">
+<img src="assets/do-not-localize/icon_Send.svg" width="60px">
 
 **SMTP 보고서**
 
