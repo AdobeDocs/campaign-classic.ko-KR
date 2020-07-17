@@ -39,7 +39,7 @@ Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monit
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">인스턴스 모니터링</a></p></td>
 <td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">워크플로우 모니터링</a></p></td>
 <td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">데이터베이스 모니터링</a></p></td>
-<td><img src="assets/do-not-localize/icon_Send.svg" width="60px"><p><a href="#monitoring-deliveries">전달 모니터링</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">전달 모니터링</a></p></td></tr>
 </table>
 
 다른 캠페인 프로세스를 모니터링하는 추가 방법을 사용할 수 있습니다. 이러한 기능은 여러 가지 방법으로 인스턴스를 모니터링하여 시스템이 건강한지 확인하고 워크플로우 설정, 배달 전송 등에서 발생할 수 있는 문제를 최종적으로 해결할 수 있습니다.
@@ -92,7 +92,7 @@ Workflow HeatMap은 인스턴스에서 실행 중인 모든 워크플로우를 �
 
 ### 배달 모니터링 {#monitoring-deliveries}
 
-<img src="assets/do-not-localize/icon_Send.svg" width="60px">
+<img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 **SMTP 보고서**
 
