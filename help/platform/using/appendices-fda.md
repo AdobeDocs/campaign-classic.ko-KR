@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 789799f79608c26126d70e896bd1b7a6df33e4fa
+source-git-commit: e7cf3b189f328cd1ea6ca8b67a3fc4c0c0bddd84
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 0%
@@ -128,7 +128,8 @@ udf_utf16to8을 설치하려면:
    
    -- Test: should return 410042
    SELECT CAST(Char2HexInt(UDF_UTF16to8(_UNICODE'004100000042'XC)) AS VARCHAR(100));
-   
+   ```
+
 ### Linux용 캠페인 서버 구성 {#campaign-server-linux}
 
 드라이버 설치 시 다음이 필요합니다.
