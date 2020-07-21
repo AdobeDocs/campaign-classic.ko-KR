@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 353f5df040087175c9f211308704f1af1844ef2c
+source-git-commit: 789799f79608c26126d70e896bd1b7a6df33e4fa
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -247,7 +247,7 @@ $ apt update
 $ apt install libmysqlclient20
 ```
 
-#### Windows [#windows-mysql}
+#### Windows {#windows-mysql}
 
 이 [페이지에서 C 커넥터를 다운로드합니다](https://dev.mysql.com/downloads/connector/c). 버전 5.7을 다운로드하는 것이 좋습니다.
 
