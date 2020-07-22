@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e2b97e10936a492c761f42eb062ede1cba7621ed
+source-git-commit: 41c515008a12fa066cedc9d7125195e2c4776f40
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 2%
@@ -38,8 +38,8 @@ Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monit
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">인스턴스 모니터링</a></p></td>
 <td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">워크플로우 모니터링</a></p></td>
-<td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">데이터베이스 모니터링</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">전달 모니터링</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">전달 모니터링</a></p></td>
+<td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">데이터베이스 모니터링</a></p></td></tr>
 </table>
 
 다른 캠페인 프로세스를 모니터링하는 추가 방법을 사용할 수 있습니다. 이러한 기능은 여러 가지 방법으로 인스턴스를 모니터링하여 시스템이 건강한지 확인하고 워크플로우 설정, 배달 전송 등에서 발생할 수 있는 문제를 최종적으로 해결할 수 있습니다.
