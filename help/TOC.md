@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
+source-git-commit: 14e275203e3436183d5a5c743375ba42f6153c6d
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2094'
 ht-degree: 8%
 
 ---
@@ -120,7 +120,6 @@ ht-degree: 8%
       + [DM 배달 만들기](delivery/using/creating-a-direct-mail-delivery.md)
       + [DM 콘텐츠 정의](delivery/using/defining-the-direct-mail-content.md)
       + [유효성 확인](delivery/using/validating.md)
-      + [기타 채널](delivery/using/other-channels.md)
    + 전달 템플릿 사용 {#using-delivery-templates}
       + [템플릿 기본 정보](delivery/using/about-templates.md)
       + [배달 템플릿 만들기](delivery/using/creating-a-delivery-template.md)
@@ -426,6 +425,7 @@ ht-degree: 8%
          + [요약 목록 만들기](workflow/using/creating-a-summary-list.md)
          + [데이터 농축](workflow/using/enriching-data.md)
          + [집계 사용](workflow/using/using-aggregates.md)
+         + [증분 쿼리를 사용한 분기별 목록 업데이트](workflow/using/quarterly-list-update.md)
       + 쿼리 디자인 {#designing-queries}
          + [받는 사람 테이블을 쿼리하는 중](workflow/using/querying-recipient-table.md)
          + [배달 정보 쿼리](workflow/using/querying-delivery-information.md)
