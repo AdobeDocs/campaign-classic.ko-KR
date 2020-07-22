@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 64b31b8d4f88023f4285bf161d236973a7d63107
+source-git-commit: 13fefe429862e856bc7ec1d376d80c176398da0b
 workflow-type: tm+mt
-source-wordcount: '6939'
+source-wordcount: '6963'
 ht-degree: 8%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 8%
 또한 [Adobe Campaign Classic 릴리스 정보에서 더 많은 업데이트를](../../rn/using/latest-release.md) 확인할 수 있습니다.
 
 ## 2020년 7월 {#july-2020}
+
+증분 쿼리를 사용하여 목록을 자동으로 업데이트하는 방법에 대한 사용 사례가 워크플로우 사용 사례에 추가되었습니다. [자세한 내용](../../workflow/using/about-workflow-use-cases.md)
 
 릴리스 [노트가](../../rn/using/latest-release.md) 재구성되었습니다. 빌드 상태, 업그레이드 프로세스, 권장 사항 및 중요 링크에 대한 정보가 포함된 [개요 페이지가](../../rn/using/latest-release.md) 추가되었습니다. Gold [Standard 릴리스에](../../rn/using/gold-standard.md) 대한 전용 페이지가 추가되었으며 [호환성 매트릭스가](../../rn/using/compatibility-matrix.md) 통합되었습니다.
 
@@ -65,7 +67,7 @@ Azure Synapse FDA 커넥터 - [자세한 내용](../../platform/using/specific-c
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-트랜잭션 메시지 템플릿의 게시를 취소할 수 있는 새 옵션이 이 섹션에[설명되어 있습니다](../../message-center/using/template-unpublication.md).
+트랜잭션 메시지 템플릿 게시를 취소할 수 있는 새 옵션이 이 섹션에[설명되어 있습니다](../../message-center/using/template-unpublication.md).
 
 개인화된 URL과 첨부 파일에서 다운로드한 이미지가 포함된 이메일을 보낼 때 제한을 설정할 수 있는 새로운 옵션이 Campaign Classic 옵션 목록에 추가되었습니다. [자세한 내용](../../installation/using/configuring-campaign-options.md#delivery)
 
@@ -105,7 +107,7 @@ FAQ는 소프트 및 하드 캐시를 삭제하는 방법에 대한 팁으로 �
 
 색인에 대한 추가 정보를 통해 데이터 모델 모범 사례를 개선했습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md#indexes)
 
-Adobe Campaign 내장 데이터 모델을 설명하는 섹션이 각 표에 대한 자세한 내용으로 업데이트되었습니다. [자세한 내용](../../configuration/using/data-model-description.md)
+Adobe Campaign 내장 데이터 모델을 설명하는 섹션이 각 표에 대한 자세한 내용을 포함하여 업데이트되었습니다. [자세한 내용](../../configuration/using/data-model-description.md)
 
 워크플로우 사용 사례는 주제별로 업데이트되고 재구성되었습니다. [자세한 내용](../../workflow/using/about-workflow-use-cases.md)
 
@@ -591,7 +593,7 @@ Oracle과 표준 시간대 파일 정렬에 대한 정보가 추가되었습니�
 즉시 사용 가능한 개인화 블록에 대한 새로운 정보로 &quot;개인화 블록&quot; 섹션을 재구성합니다.
 [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Personalizing_deliveries_Personalization_blocks.html)
 
-파일 구성에 대한 새 정보로 이메일 보관 섹션을 다시 ```config-<instance name>.xml``` 정리했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Activating_email_archiving__on_premise_)
+파일 구성에 대한 새 정보로 이메일 보관 섹션을 ```config-<instance name>.xml``` 재구성합니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Activating_email_archiving__on_premise_)
 
 메시지 센터(제어) 기술 워크플로우에 대한 정보가 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Technical_workflows_Message_Center__Control_.html)
 
