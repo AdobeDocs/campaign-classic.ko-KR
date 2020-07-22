@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 651dfdab75f64d72a1c5beb1273a878ee7102b47
+source-git-commit: 65399d7b3917e2df37c32735e7015d742f5f022c
 workflow-type: tm+mt
-source-wordcount: '2912'
+source-wordcount: '2935'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Adobe Campaign을 사용하면 다양한 연산자에 할당된 권한을 정의
 
 권한은 연산자 프로필 또는 연산자 그룹에 적용됩니다.
 
-연산자의 연결 모드에 연결된 안전 매개 변수에 의해 완료됩니다. For more on this, refer to [this page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+연산자의 연결 모드에 Adobe Campaign에 연결된 안전 매개 변수에 의해 작성됩니다. For more on this, refer to [this page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 사용자에게 부여할 수 있는 권한은 두 가지가 있습니다.
 
@@ -66,7 +66,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 �
 >
 >인스턴스에 로그온하려면 연산자를 보안 영역에 연결해야 합니다. Adobe Campaign의 보안 영역에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
-사용자는 Adobe ID를 사용하여 Adobe Campaign에 직접 연결할 수도 있습니다. For more on this, refer to this [page](../../integrations/using/about-adobe-id.md).
+사용자는 Adobe ID을 사용하여 Adobe Campaign에 직접 연결할 수도 있습니다. For more on this, refer to this [page](../../integrations/using/about-adobe-id.md).
 
 ### 연산자 만들기 {#creating-an-operator}
 
@@ -76,7 +76,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 �
 
    ![](assets/s_ncs_user_operator_new.png)
 
-1. 사용자 **[!UICONTROL Identification parameters]** 를 지정합니다. 로그인, 암호 및 이름입니다. 운영자가 Adobe Campaign에 로그인하는 데 로그인 및 암호가 사용됩니다. 사용자가 로그인하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 연산자의 이메일은 승인을 처리할 때 등 운영자가 알림을 받을 수 있도록 하기 때문에 필수적입니다.
+1. 사용자 **[!UICONTROL Identification parameters]** 를 지정합니다. 로그인, 암호 및 이름입니다. 운영자가 Adobe Campaign에 로그온하는 데 로그인 및 암호가 사용됩니다. 사용자가 로그인하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 연산자의 이메일은 승인을 처리할 때와 같이 운영자가 알림을 받을 수 있도록 하기 때문에 필수적입니다.
 
    이 섹션에서는 연산자를 조직 엔티티에 연결할 수도 있습니다. For more on this, refer to the [this page](../../campaign/using/about-distributed-marketing.md).
 
@@ -130,12 +130,12 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 �
 
 이 **[!UICONTROL Edit the access parameters...]** 링크를 통해 다음 옵션에 액세스할 수 있습니다.
 
-* 이 **[!UICONTROL Disable account]** 옵션을 사용하면 연산자 계정을 비활성화할 수 있습니다. 더 이상 Adobe Campaign에 액세스할 수 없습니다.
+* 이 **[!UICONTROL Disable account]** 옵션을 사용하면 연산자 계정을 비활성화할 수 있습니다. 그는 더 이상 Adobe Campaign에 접근하지 않을 것이다.
 * 이 **[!UICONTROL Forbid access from the rich client]** 옵션을 사용하면 Adobe Campaign을 [웹 액세스](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) 또는 API를 통해 사용을 제한할 수 있습니다. 더 이상 Adobe Campaign 클라이언트 콘솔에 액세스할 수 없습니다.
 * 안전구역을 조종사와 연결시킬 수 있습니다 For more on this, refer to [this page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 * 적절한 링크를 사용하여 신뢰할 수 있는 IP 마스크를 정의할 수도 있습니다.
 
-   운영자가 IP 주소가 이 목록에 있는 경우 암호를 입력하지 않고도 Adobe Campaign에 연결할 수 있습니다.
+   연산자는 IP 주소가 이 목록에 있는 경우 암호를 입력하지 않고도 Adobe Campaign에 연결할 수 있습니다.
 
    다음 예와 같이 암호 없이 연결할 수 있는 IP 주소 집합을 지정할 수도 있습니다.
 
@@ -177,7 +177,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 �
 
 ### 기본 연산자 {#default-operators}
 
-Adobe Campaign은 기본적으로 다음과 같은 프로파일이 포함된 기술 운영업체를 사용합니다. 관리자(&#39;관리자&#39;), 빌링(&#39;빌링&#39;), 모니터링, 웹 애플리케이션 에이전트(&#39;웹 앱&#39;) 등 다음은 플랫폼에 설치된 애플리케이션과 옵션에 따라 다릅니다. 예를 들어, &#39;central&#39; 및 &#39;local&#39; 연산자는 분산 마케팅 옵션이 설치된 경우에만 표시됩니다.
+Adobe Campaign은 기본적으로 프로파일을 구성하는 기술 운영자를 사용합니다. 관리자(&#39;관리자&#39;), 빌링(&#39;빌링&#39;), 모니터링, 웹 애플리케이션 에이전트(&#39;웹 앱&#39;) 등 다음은 플랫폼에 설치된 애플리케이션과 옵션에 따라 다릅니다. 예를 들어, &#39;central&#39; 및 &#39;local&#39; 연산자는 분산 마케팅 옵션이 설치된 경우에만 표시됩니다.
 
 >[!IMPORTANT]
 >
@@ -256,15 +256,16 @@ Adobe Campaign은 기본적으로 다음과 같은 프로파일이 포함된 기
 
    이 그룹에는 다음과 같은 명명된 권한이 포함됩니다.
 
-   * 폴더 삽입: 폴더를 Adobe Campaign 트리에 삽입할 권한(관련 분기에 대한 편집 권한이 있는 경우),
+   * 폴더 삽입: Adobe Campaign 트리에 폴더를 삽입하는 권한(관련 분기에 대한 편집 권한이 있는 경우),
    * 워크플로우: 워크플로우 사용 권한
+
    >[!NOTE]
    >
    >이 그룹에서는 연산자가 배달을 시작할 수 없습니다.
 
 1. 컨텐츠 작성자
 
-   이 그룹의 연산자는 **컨텐츠 관리** 프레임워크(선택적 Adobe Campaign 모듈)에서 컨텐츠 폴더에 액세스할 수 있습니다. 이 그룹은 추가 권한을 부여하지 않습니다.
+   이 그룹의 연산자는 **컨텐츠 관리** 프레임워크(선택 사항 Adobe Campaign 모듈)에서 콘텐트 폴더에 액세스할 수 있습니다. 이 그룹은 추가 권한을 부여하지 않습니다.
 
 1. 보고서 액세스
 
@@ -287,7 +288,7 @@ Adobe Campaign은 기본적으로 다음과 같은 프로파일이 포함된 기
    이 그룹의 연산자는 오퍼를 만들고 유지 관리할 수 있습니다. 자세한 내용은 이 [페이지를 참조하십시오](../../interaction/using/operator-profiles.md).
 이 그룹에는 다음과 같은 명명된 권한이 포함됩니다.
 
-   * 폴더 삽입: Adobe Campaign 트리에 폴더를 삽입하는 권한(관련 분기에 대한 편집 권한이 있는 경우),
+   * 폴더 삽입: Adobe Campaign 트리에 폴더를 삽입할 수 있는 권한(관련 분기에 대한 편집 권한이 있는 경우),
    * 폴더 편집: 내부 이름, 레이블, 연결된 이미지, 하위 폴더 순서 등과 같은 폴더 속성을 변경할 수 있는 권한
 
 ## 명명된 권한 {#named-rights}
@@ -346,7 +347,9 @@ Adobe Campaign은 기본적으로 다음과 같은 프로파일이 포함된 기
 
 기본 그룹 및 명명된 권한을 통해 연산자는 탐색 계층의 특정 폴더에 액세스하고 읽기, 쓰기 및 삭제 권한을 부여할 수 있습니다.
 
-Adobe Campaign 액세스 권한 매트릭스는 [여기에서 사용할 수 있습니다](/help/platform/using/assets/accessrights.pdf).
+Adobe Campaign 액세스 권한 매트릭스는 [여기에서 사용할 수 있습니다](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf).
+
+[![이미지](assets/user_management.png)](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf)
 
 ## 폴더 액세스 관리 {#folder-access-management}
 
