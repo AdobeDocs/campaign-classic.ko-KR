@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65399d7b3917e2df37c32735e7015d742f5f022c
+source-git-commit: 752318fa4e5b330965bef0906aa0991673e8bd68
 workflow-type: tm+mt
 source-wordcount: '2935'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 �
 
    ![](assets/s_ncs_user_operator_new.png)
 
-1. 사용자 **[!UICONTROL Identification parameters]** 를 지정합니다. 로그인, 암호 및 이름입니다. 운영자가 Adobe Campaign에 로그온하는 데 로그인 및 암호가 사용됩니다. 사용자가 로그인하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 연산자의 이메일은 승인을 처리할 때와 같이 운영자가 알림을 받을 수 있도록 하기 때문에 필수적입니다.
+1. 사용자 **[!UICONTROL Identification parameters]** 를 지정합니다. 로그인, 암호 및 이름입니다. 운영자가 Adobe Campaign에 로그온하는 데 로그인 및 암호가 사용됩니다. 사용자가 로그인하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 연산자의 이메일은 승인을 처리할 때 등 운영자가 알림을 받을 수 있도록 하기 때문에 필수적입니다.
 
    이 섹션에서는 연산자를 조직 엔티티에 연결할 수도 있습니다. For more on this, refer to the [this page](../../campaign/using/about-distributed-marketing.md).
 
@@ -347,9 +347,9 @@ Adobe Campaign은 기본적으로 프로파일을 구성하는 기술 운영자�
 
 기본 그룹 및 명명된 권한을 통해 연산자는 탐색 계층의 특정 폴더에 액세스하고 읽기, 쓰기 및 삭제 권한을 부여할 수 있습니다.
 
-Adobe Campaign 액세스 권한 매트릭스는 [여기에서 사용할 수 있습니다](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf).
+Adobe Campaign 액세스 권한 매트릭스는 [여기에서 사용할 수 있습니다](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf).
 
-[![이미지](assets/user_management.png)](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf)
+[![이미지](assets/user_management.png)](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
 
 ## 폴더 액세스 관리 {#folder-access-management}
 
