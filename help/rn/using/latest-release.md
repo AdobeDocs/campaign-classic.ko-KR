@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b7c0dc12b41b8482dce9d42bbf88878bb03bf38
+source-git-commit: d9b6ae9f7e2f3b15698f1a420b5416162cbcc758
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1987'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,29 @@ ht-degree: 1%
 
 ![](assets/do-not-localize/cp-icon.png) **활성 프로파일 모니터링, 하위 도메인 전달 기능 감사 및 GPG 키 관리가 포함된 새로운 Campaign 컨트롤 패널 6월 릴리스** . [자세한](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)내용
 
-## ![](assets/do-not-localize/blue_2.png) 릴리스 20.2.1 - 빌드 9178 {#release-20-2-1-build-9178}
+## ![](assets/do-not-localize/blue_2.png) 릴리스 20.2.1 - 빌드 9180 {#release-20-2-2-build-9180}
+
+_2020년 7월 22일_
+
+* 서명 기능이 비활성화되었을 때 또는 최근 Mid로 이전 마케팅 인스턴스를 사용할 때 추적이 작동하지 않는 문제를 해결했습니다. (NEO-26411)
+* 개인화된 도메인에서 비서명되지 않은 링크가 허용되어야 하는 문제가 해결되었습니다. (NEO-25210)
+* 특정 이전 버전의 Outlook을 사용할 때 추적 URL을 열거나 클릭하지 못하는 문제를 해결했습니다. (NEO-25688)
+* 페이지 URL이 이메일 배달에서 잘못 정의되던 문제를 수정했습니다. (NEO-26084)
+* 피싱 방지 서비스에서 인코딩 URL 관리 문제가 해결되었습니다. (NEO-25283)
+* 개인화 매개 변수의 조각을 사용하여 URL을 추적할 수 없는 문제(파운드 기호가 있는 앵커 태그)가 수정되었습니다. (NEO-25774)
+* 특정 사용자 지정 추적 공식을 사용할 때의 추적 문제를 수정했습니다. (NEO-25277)&quot;알림 클릭&quot; 추적이 작동하지 않는 문제(iOS 및 Android 푸시 알림)를 수정했습니다. (NEO-25965)
+* 워크플로우의 계산된 필드에 영향을 주는 회귀 문제를 수정했습니다. (NEO-25194)
+* 웹 추적 URL을 신속하게 만들 수 없는 회귀 문제를 해결했습니다. (NEO-20999)
+* PDF로 내보낼 때 잘렸던 기본 제공 보고서 문제를 수정했습니다. (NEO-25757)
+* 배포 마법사의 충돌 문제가 해결되었습니다.
+* 업그레이드 후 오퍼 알림 워크플로우가 제대로 작동하지 않는 문제를 해결했습니다.
+* iOS HTTP2 커넥터가 개선되었습니다(타사 업데이트 및 오류 관리). (NEO-25904, NEO-25903)
+* catalina.properties의 jarToSkip 목록이 더 이상 사용되지 않은 jar 파일에 대한 참조를 제거하도록 업데이트되었습니다(iOS 알림).
+* 업그레이드 후 배달 준비를 차단하는 문제를 수정했습니다.
+* 새 시퀀스 ID 메커니즘으로 전환 [](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)후 받는 사람 테이블을 업데이트하는 모든 웹 응용 프로그램이 업그레이드 후 다시 게시됩니다.
+* 배달 컨텐츠의 잠재적 XSS 취약성 문제가 해결되었습니다. (NEO-17987, NEO-26073)
+
+## ![](assets/do-not-localize/orange_2.png) 릴리스 20.2.1 - 빌드 9178 {#release-20-2-1-build-9178}
 
 _2020년 6월 8일_
 
