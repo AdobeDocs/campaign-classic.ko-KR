@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1f7ff6a281c2830ac23ad995b750dc09ade5e92
+source-git-commit: f097fcc4363181cda21386840f19e2523c3af3f9
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ _2020년 7월 7일_
 
 빌드 9032@efd8a94에는 다음 수정 사항이 포함되어 있습니다.
 
-* 서명 기능이 비활성화되었을 때 추적을 수행할 수 없는 문제를 해결했습니다. (NEO-26411)
+서명 기능이 비활성화되었을 때 또는 최근 Mid로 이전 마케팅 인스턴스를 사용할 때 추적이 작동하지 않는 문제를 해결했습니다. (NEO-26411)
 
 >[!CAUTION]
 >
