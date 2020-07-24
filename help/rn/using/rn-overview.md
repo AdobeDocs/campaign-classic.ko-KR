@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4a170f22108b38ebe8a451feea6210fe5aa482f
+source-git-commit: 99dfefe3f51115b78bfeb02094d614a6e63af124
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Campaign Classic 19.2를 시작하면 상태가 각 빌드에 연결됩니다. �
 
 ![](assets/do-not-localize/green3.png) **일반 가용성** - 안정적인 최신 빌드 사용 가능. 프로덕션에서 검증된 빌드
 
-마지막 **안정적인** 건축물은 Gold Standard 10이다. 여기를 [클릭하십시오](../../rn/using/gold-standard.md)
+마지막 **안정적인** 건축물은 Gold Standard 6이다. 여기를 [클릭하십시오](../../rn/using/gold-standard.md)
 
 ![](assets/do-not-localize/limited.png) **제한된 가용성** - 현재 프로덕션 유효성 검사를 통해 빌드합니다. On-Demand 방식의 배포
 
