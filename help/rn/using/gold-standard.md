@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f097fcc4363181cda21386840f19e2523c3af3f9
+source-git-commit: 890153a5b30594a1cb90606db4be8fd1ec19267b
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로
 
 Gold Standard 업그레이드에 대한 자세한 내용은 이 [문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/gold-standard.html).
 
-## ![](assets/do-not-localize/blue_2.png) Gold Standard 10 릴리스{#gs-10}
+## ![](assets/do-not-localize/limited.png) Gold Standard 10 릴리스{#gs-10}
 
 _2020년 7월 7일_
 
