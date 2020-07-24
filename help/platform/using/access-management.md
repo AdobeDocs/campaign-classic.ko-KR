@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 752318fa4e5b330965bef0906aa0991673e8bd68
+source-git-commit: 4d04c261441d4d66441c3665a7beb785383c9f14
 workflow-type: tm+mt
-source-wordcount: '2935'
+source-wordcount: '2924'
 ht-degree: 0%
 
 ---
@@ -347,7 +347,7 @@ Adobe Campaign은 기본적으로 프로파일을 구성하는 기술 운영자�
 
 기본 그룹 및 명명된 권한을 통해 연산자는 탐색 계층의 특정 폴더에 액세스하고 읽기, 쓰기 및 삭제 권한을 부여할 수 있습니다.
 
-Adobe Campaign 액세스 권한 매트릭스는 [여기에서 사용할 수 있습니다](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf).
+Adobe Campaign 액세스 권한 매트릭스는 [여기에서 사용할 수 있습니다](/help/platform/using/assets/access-rights-matrix.pdf).
 
 [![이미지](assets/user_management.png)](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
 
