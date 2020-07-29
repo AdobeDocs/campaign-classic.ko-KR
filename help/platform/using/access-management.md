@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d04c261441d4d66441c3665a7beb785383c9f14
+source-git-commit: fef684cd20f9b210025b21d2bc6bdb209a929f7c
 workflow-type: tm+mt
-source-wordcount: '2924'
+source-wordcount: '2961'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 �
 
    ![](assets/s_ncs_user_operator_new.png)
 
-1. 사용자 **[!UICONTROL Identification parameters]** 를 지정합니다. 로그인, 암호 및 이름입니다. 운영자가 Adobe Campaign에 로그온하는 데 로그인 및 암호가 사용됩니다. 사용자가 로그인하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 연산자의 이메일은 승인을 처리할 때 등 운영자가 알림을 받을 수 있도록 하기 때문에 필수적입니다.
+1. 사용자 **[!UICONTROL Identification parameters]** 를 지정합니다. 로그인, 암호 및 이름입니다. 운영자가 Adobe Campaign에 로그온하는 데 로그인 및 암호가 사용됩니다. 사용자가 로그인하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 연산자의 이메일은 승인을 처리할 때와 같이 운영자가 알림을 받을 수 있도록 하기 때문에 필수적입니다.
 
    이 섹션에서는 연산자를 조직 엔티티에 연결할 수도 있습니다. For more on this, refer to the [this page](../../campaign/using/about-distributed-marketing.md).
 
@@ -241,55 +241,63 @@ Adobe Campaign은 기본적으로 프로파일을 구성하는 기술 운영자�
 
 기본 연산자 그룹은 다음과 같습니다.
 
-1. 배달 연산자
+1. **[!UICONTROL Administrator]**
+
+   이 그룹의 연산자는 인스턴스에 대한 전체 액세스 권한을 가집니다. 관리자는 인터페이스의 가장 기술 부분에 액세스할 수 있는 사용자입니다. 그들은 **[!UICONTROL Administration]** 역할을 맡고 플랫폼이 모두 설정되어 있는지 확인합니다.
+
+   이 그룹에는 오른쪽이라는 이름의 다음 항목이 포함됩니다.
+
+   * **[!UICONTROL ADMINISTRATION]**: 워크플로우, 전달, 스크립트 등과 같은 모든 객체를 실행/생성/편집/삭제할 권리
+
+1. **[!UICONTROL Delivery operators]**
 
    이 그룹의 연산자는 납품 관리를 담당합니다. 이 플러그인을 사용하면 게재(캠페인 유형, 전달 매핑, 기본 템플릿, 개인화 블록 등)를 만들고 준비하는 데 필요한 기본 리소스에 액세스할 수 있습니다.
 
    이 그룹에는 다음과 같은 명명된 권한이 포함됩니다.
 
-   * 배달 준비: 전달 분석을 작성, 편집 및 시작할 수 있습니다.
-   * 배달 시작: 이전에 분석한 전달을 승인할 권리.
+   * **[!UICONTROL PREPARE DELIVERIES]**: 전달 분석을 작성, 편집 및 시작할 수 있습니다.
+   * **[!UICONTROL START DELIVERIES]**: 이전에 분석한 전달을 승인할 권리.
 
-1. 캠페인 관리자
+1. **[!UICONTROL Campaign managers]**
 
-   이 그룹의 연산자는 마케팅 캠페인을 관리할 수 있습니다. 캠페인(계획, 프로그램, 워크플로우, 예산 등)에 연결된 객체에 액세스할 수 있습니다.
+   이 그룹의 연산자는 마케팅 캠페인을 관리할 수 있습니다. 캠페인(계획, 프로그램, 워크플로우, 예산 등)에 연결된 객체에 액세스할 수 있습니다. 의 프레임워크 **[!UICONTROL Campaign]** (선택 사항 Adobe Campaign 모듈)에서 사용할 수 있습니다.
 
    이 그룹에는 다음과 같은 명명된 권한이 포함됩니다.
 
-   * 폴더 삽입: Adobe Campaign 트리에 폴더를 삽입하는 권한(관련 분기에 대한 편집 권한이 있는 경우),
-   * 워크플로우: 워크플로우 사용 권한
+   * **[!UICONTROL INSERT FOLDERS]**: Adobe Campaign 트리에 폴더를 삽입하는 권한(관련 분기에 대한 편집 권한이 있는 경우),
+   * **[!UICONTROL WORKFLOW]**: 워크플로우 사용 권한
 
    >[!NOTE]
    >
    >이 그룹에서는 연산자가 배달을 시작할 수 없습니다.
 
-1. 컨텐츠 작성자
+1. **[!UICONTROL Content contributors]**
 
-   이 그룹의 연산자는 **컨텐츠 관리** 프레임워크(선택 사항 Adobe Campaign 모듈)에서 콘텐트 폴더에 액세스할 수 있습니다. 이 그룹은 추가 권한을 부여하지 않습니다.
+   이 그룹의 연산자는 프레임워크(옵션 Adobe Campaign 모듈)에서 콘텐트 폴더에 액세스할 수 **[!UICONTROL Content management]** 있습니다. 이 그룹은 추가 권한을 부여하지 않습니다.
 
-1. 보고서 액세스
+1. **[!UICONTROL Access to reports]**
 
    이 그룹은 웹 액세스를 통해 배달 보고서에 액세스하기 위해 외부 운영자를 위해 예약되어 있습니다.
 
-1. 워크플로우 실행
+1. **[!UICONTROL Workflow execution]**
 
    이 그룹을 사용하면 운영자에게 캠페인과 관련이 없는 워크플로우를 관리할 권한을 할당할 수 있습니다.
 
-1. 워크플로우 관리자
+1. **[!UICONTROL Workflow supervisors]**
 
    이 그룹의 연산자는 캠페인 워크플로우에 대한 경고가 나타날 경우 이메일 알림을 받습니다.
 
 1. 로컬/중앙 관리
 
-   이러한 그룹을 사용하여 **분산 마케팅** (선택적 Adobe Campaign 모듈)을 사용할 수 있습니다.
+   이러한 그룹을 사용하면 **[!UICONTROL Distributed marketing]** (옵션 Adobe Campaign 모듈)을 사용할 수 있습니다.
 
-1. 오퍼 관리자
+1. **[!UICONTROL Offer managers]**
 
    이 그룹의 연산자는 오퍼를 만들고 유지 관리할 수 있습니다. 자세한 내용은 이 [페이지를 참조하십시오](../../interaction/using/operator-profiles.md).
 이 그룹에는 다음과 같은 명명된 권한이 포함됩니다.
 
-   * 폴더 삽입: Adobe Campaign 트리에 폴더를 삽입할 수 있는 권한(관련 분기에 대한 편집 권한이 있는 경우),
-   * 폴더 편집: 내부 이름, 레이블, 연결된 이미지, 하위 폴더 순서 등과 같은 폴더 속성을 변경할 수 있는 권한
+   * **[!UICONTROL INSERT FOLDERS]**: Adobe Campaign 트리에 폴더를 삽입할 수 있는 권한(관련 분기에 대한 편집 권한이 있는 경우),
+   * **[!UICONTROL EDIT FOLDERS]**: 내부 이름, 레이블, 연결된 이미지, 하위 폴더 순서 등과 같은 폴더 속성을 변경할 수 있는 권한
 
 ## 명명된 권한 {#named-rights}
 
