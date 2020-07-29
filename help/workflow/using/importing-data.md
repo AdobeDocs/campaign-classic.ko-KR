@@ -13,15 +13,19 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a034749c82f44edaf718b732e6871b9af378636a
+source-git-commit: d4edd389fde91c3f316c5213f4d7f34e51979112
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2473'
 ht-degree: 0%
 
 ---
 
 
 # 데이터 가져오기{#importing-data}
+
+>[!CAUTION]
+>
+>이 기능을 사용하는 동안 AdobeCampaign 계약에 따라 SFTP 저장소, DB 저장소 및 활성 프로필 제한에 주의하십시오.
 
 ## 데이터 수집 방법 {#how-to-collect-data}
 
@@ -57,13 +61,13 @@ Adobe Campaign을 사용하면 zip 파일 또는 암호화된 파일을 가져�
 
 다음을 수행할 수 있습니다.
 
-1. 제어판 [을](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) 사용하여 공개/개인 키 쌍을 생성합니다.
+1. 공개/ [개인](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) 키 쌍을 생성하려면 Campaign 컨트롤 패널을 사용하십시오.
 
    >[!NOTE]
    >
-   >제어판은 AWS에서 호스팅되는 모든 고객이 사용할 수 있습니다(마케팅 인스턴스를 전제에 호스트하는 고객 제외).
+   >Campaign 컨트롤 패널은 AWS에서 호스팅되는 모든 고객에게 제공됩니다(마케팅 인스턴스를 전상에서 호스팅하는 고객의 경우는 제외).
 
-1. Adobe Campaign 설치가 Adobe에서 호스팅하는 경우 Adobe 고객 지원 센터에 문의하여 서버에 필요한 유틸리티를 설치하도록 하십시오.
+1. Adobe Campaign 설치가 Adobe에 의해 호스팅되는 경우 Adobe 고객 지원 센터에 연락하여 필요한 유틸리티를 서버에 설치하도록 하십시오.
 1. Adobe Campaign의 설치가 온-프레미스 경우 사용할 유틸리티를 설치합니다(예: GPG, GZIP) 및 응용 프로그램 서버의 필요한 키(암호화 키)입니다.
 
 그런 다음 원하는 사전 처리 명령을 워크플로우에 사용할 수 있습니다.
@@ -82,31 +86,31 @@ Adobe Campaign을 사용하면 zip 파일 또는 암호화된 파일을 가져�
 * [데이터 로드(파일) 활동](../../workflow/using/data-loading--file-.md).
 * [파일](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file)압축 또는 암호화
 
-### 사용 사례: 제어판에서 생성한 키를 사용하여 데이터를 암호화 가져오기 {#use-case-gpg-decrypt}
+### 사용 사례: Campaign 컨트롤 패널에서 생성된 키를 사용하여 데이터를 암호화 가져오기 {#use-case-gpg-decrypt}
 
-이 경우 제어판에서 생성된 키를 사용하여 외부 시스템에서 암호화된 데이터를 가져오기 위한 워크플로우를 구축할 예정입니다.
+이 경우 Campaign 컨트롤 패널에서 생성된 키를 사용하여 외부 시스템에서 암호화된 데이터를 가져오기 위한 워크플로우를 구축합니다.
 
 GPG 키를 사용하여 데이터를 해독하는 방법을 보여주는 자습서 비디오도 [이 섹션에 있습니다](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html).
 
 이 사용 사례를 수행하는 단계는 다음과 같습니다.
 
-1. 제어판을 사용하여 키 쌍(공개/비공개)을 생성합니다. 자세한 단계는 [제어판 설명서에서 확인할 수 있습니다](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. Campaign 컨트롤 패널을 사용하여 키 쌍(공개/비공개)을 생성합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서에서 확인할 수 있습니다](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * 공개 키는 Campaign으로 전송할 데이터를 암호화하는 데 사용하는 외부 시스템과 공유됩니다.
    * 개인 키는 Campaign Classic이 들어오는 암호화된 데이터를 해독하는 데 사용됩니다.
 
    ![](assets/gpg_generate.png)
 
-1. 외부 시스템에서 제어판에서 다운로드한 공개 키를 사용하여 Campaign Classic으로 가져올 데이터를 암호화합니다.
+1. 외부 시스템에서는 Campaign 컨트롤 패널에서 다운로드한 공개 키를 사용하여 Campaign Classic으로 가져올 데이터를 암호화합니다.
 
    ![](assets/gpg_external.png)
 
-1. Campaign Classic에서 제어판을 통해 설치된 개인 키를 사용하여 암호화된 데이터를 가져와 해독하는 워크플로우를 만듭니다. 이를 위해 다음과 같은 워크플로우를 구축할 예정입니다.
+1. Campaign Classic에서 암호화된 데이터를 가져오고 Campaign 컨트롤 패널을 통해 설치된 개인 키를 사용하여 암호를 해독하는 워크플로우를 만듭니다. 이를 위해 다음과 같은 워크플로우를 구축할 예정입니다.
 
    ![](assets/gpg_workflow.png)
 
    * **[!UICONTROL File transfer]** 활동: 외부 소스에서 Campaign Classic으로 파일을 전송합니다. 이 예에서는 SFTP 서버에서 파일을 전송하려고 합니다.
-   * **[!UICONTROL Data loading (file)]** 활동: 파일의 데이터를 데이터베이스에 로드하고 제어판에서 생성된 개인 키를 사용하여 암호를 해독합니다.
+   * **[!UICONTROL Data loading (file)]** 활동: 파일의 데이터를 데이터베이스에 로드하고 Campaign 컨트롤 패널에서 생성된 개인 키를 사용하여 이를 해독합니다.
 
 1. 활동을 연 다음 **[!UICONTROL File transfer]** 암호화된 .gpg 파일을 가져올 외부 계정을 지정합니다.
 
@@ -124,7 +128,7 @@ GPG 키를 사용하여 데이터를 해독하는 방법을 보여주는 자습�
 
    >[!CAUTION]
    >
-   >이 예에서는 &quot;암호 문구&quot;인 제어판에서 기본적으로 사용되는 암호를 사용하고 있습니다.
+   >이 예에서는 기본적으로 &quot;암호 문구&quot;인 Campaign 컨트롤 패널에서 사용하는 암호를 사용하고 있습니다.
    >
    >이전에 고객 지원 요청을 통해 인스턴스에 이미 GPG 키를 설치한 경우 암호가 변경되었을 수 있으며 기본적으로 다른 형태일 수 있습니다.
 
@@ -259,44 +263,44 @@ Adobe Campaign 데이터베이스에서 데이터 일관성을 유지하려면 �
 
    * 활동의 **[!UICONTROL General]** 탭에서 필터링 설정 **[!UICONTROL Use the additional data only]** 으로 선택하고 이 **[!UICONTROL Targeting dimension]** 가 자동으로 설정되어 있는지 **[!UICONTROL Enrichment]**&#x200B;확인합니다.
 
-      데이터베이스에 레코드를 삽입할 수 없는 **[!UICONTROL Generate complement]** 옵션을 확인합니다. 필요한 경우 보완 데이터에 추가 처리를 적용할 수 있습니다. 파일 내보내기, 목록 업데이트 등
+      Check the **[!UICONTROL Generate complement]** option to be able to see if any record cannot be inserted in the database. If you need, you can then apply further processing to the complementary data: file export, list update, etc.
 
-   * 탭의 첫 번째 하위 세트에서 **[!UICONTROL Subsets]** 받는 사람 기본 키가 0과 같지 않은 레코드만 선택하려면 인바운드 모집단 필터링 조건을 추가합니다. 이렇게 하면 데이터베이스의 수신자와 조정된 파일의 데이터가 해당 하위 세트에서 선택됩니다.
+   * In the first subset of the **[!UICONTROL Subsets]** tab, add a filtering condition on the inbound population to select only records for which the recipient primary key is not equal to 0. This way, data from the file that are reconciled with recipients from the database are selected in that subset.
 
       ![](assets/import_template_example3.png)
 
    * 데이터베이스에 삽입할 데이터를 충분히 가진 대사되지 않은 레코드를 선택하는 두 번째 하위 집합을 추가합니다. 예: 이메일 주소, 이름 및 성
 
-      하위 세트는 생성 순서로 처리됩니다. 즉, 이 두 번째 하위 세트가 처리되면 데이터베이스에 이미 존재하는 모든 레코드가 첫 번째 하위 세트에서 이미 선택되어 있습니다.
+      Subsets are processed in their creation order, meaning that when this second subset is processed, all records that already exist in the database are already selected in the first subset.
 
       ![](assets/import_template_example3_2.png)
 
-   * 처음 두 하위 세트에서 선택되지 않은 모든 레코드가 이 세트에 선택되어 **[!UICONTROL Complement]**&#x200B;있습니다.
+   * All records that are not selected in the first two subsets are selected in the **[!UICONTROL Complement]**.
 
-1. 이전에 구성된 **[!UICONTROL Update data]** 활동의 첫 번째 아웃바운드 전환 뒤에 있는 **[!UICONTROL Split]** 활동을 구성합니다.
+1. Configure the **[!UICONTROL Update data]** activity located after the first outbound transition of the **[!UICONTROL Split]** activity configured previously.
 
    * 인바운드 전환 **[!UICONTROL Update]** 에 이미 데이터베이스에 있는 수신자만 포함되므로 **[!UICONTROL Operation type]** 을 선택합니다.
-   * 섹션에서 **[!UICONTROL Record identification]** 타깃팅 차원 **[!UICONTROL Using reconciliation keys]** 과 에서 만든 링크 간의 키를 선택하고 정의합니다 **[!UICONTROL Enrichment]**. 이 예에서는 **CRM ID** 사용자 정의 필드가 사용됩니다.
-   * 섹션에서 파일의 해당 열 값으로 업데이트할 수신자 차원의 필드를 **[!UICONTROL Fields to update]** 지정합니다. 파일 열 이름이 받는 사람 차원 필드 이름과 동일하거나 거의 동일한 경우 자동 선택 단추를 사용하여 다른 필드를 자동으로 일치시킬 수 있습니다.
+   * 섹션에서 **[!UICONTROL Record identification]** 타깃팅 차원 **[!UICONTROL Using reconciliation keys]** 과 에서 만든 링크 간의 키를 선택하고 정의합니다 **[!UICONTROL Enrichment]**. In this example, the **CRM ID** custom field is used.
+   * In the **[!UICONTROL Fields to update]** section, indicate the fields from the recipients dimension to update with the value of the corresponding column from the file. 파일 열 이름이 받는 사람 차원 필드 이름과 동일하거나 거의 동일한 경우 자동 선택 단추를 사용하여 다른 필드를 자동으로 일치시킬 수 있습니다.
 
       ![](assets/import_template_example6.png)
 
-1. 대사되지 않은 수신자가 포함된 전환 후에 있는 **[!UICONTROL Deduplication]** 활동을 구성합니다.
+1. Configure the **[!UICONTROL Deduplication]** activity located after the transition containing unreconciled recipients:
 
-   * 타깃팅 차원 **[!UICONTROL Edit configuration]** 을 선택하고 워크플로의 활동에서 생성된 임시 스키마로 **[!UICONTROL Enrichment]** 설정합니다.
+   * Select **[!UICONTROL Edit configuration]** and set the targeting dimension to the temporary schema generated from the **[!UICONTROL Enrichment]** activity of the workflow.
 
       ![](assets/import_template_example4.png)
 
-   * 이 예에서는 이메일 필드를 사용하여 고유한 프로필을 찾습니다. 반드시 채워야 하는 필드와 고유한 조합의 일부를 사용할 수 있습니다.
+   * In this is example, the email field is used to find unique profiles. 반드시 채워야 하는 필드와 고유한 조합의 일부를 사용할 수 있습니다.
    * 화면에서 기본 키가 0과 같은 레코드(이 전환의 모든 레코드) **[!UICONTROL Deduplication method]** 가 제외되지 않도록 하려면 **[!UICONTROL Advanced parameters]** **[!UICONTROL Disable automatic filtering of 0 ID records]** 옵션을 선택하고 선택합니다.
 
    ![](assets/import_template_example7.png)
 
-1. 이전에 구성된 **[!UICONTROL Update data]** 활동 뒤에 **[!UICONTROL Deduplication]** 있는 활동을 구성합니다.
+1. Configure the **[!UICONTROL Update data]** activity located after the **[!UICONTROL Deduplication]** activity configured previously.
 
-   * 인바운드 전환 **[!UICONTROL Insert]** 에 데이터베이스에 없는 수신자만 포함되므로 **[!UICONTROL Operation type]** 선택합니다.
+   * Select **[!UICONTROL Insert]** as **[!UICONTROL Operation type]** since the inbound transition only contains recipients not present in the database.
    * 섹션에서 **[!UICONTROL Record identification]** 차원을 **[!UICONTROL Directly using the targeting dimension]** 선택하고 **[!UICONTROL Recipients]** 선택합니다.
-   * 섹션에서 파일의 해당 열 값으로 업데이트할 수신자 차원의 필드를 **[!UICONTROL Fields to update]** 지정합니다. 파일 열 이름이 받는 사람 차원 필드 이름과 동일하거나 거의 동일한 경우 자동 선택 단추를 사용하여 다른 필드를 자동으로 일치시킬 수 있습니다.
+   * In the **[!UICONTROL Fields to update]** section, indicate the fields from the recipients dimension to update with the value of the corresponding column from the file. 파일 열 이름이 받는 사람 차원 필드 이름과 동일하거나 거의 동일한 경우 자동 선택 단추를 사용하여 다른 필드를 자동으로 일치시킬 수 있습니다.
 
       ![](assets/import_template_example8.png)
 
