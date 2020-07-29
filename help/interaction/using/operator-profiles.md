@@ -15,19 +15,22 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: fef684cd20f9b210025b21d2bc6bdb209a929f7c
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 2%
 
 ---
 
 
 # 연산자 프로필{#operator-profiles}
 
-상호 작용을 사용하는 연산자는 두 가지 유형이 있습니다.오퍼 관리자 및 배달 관리자 이들은 특정 권리를 가지며 특정 트리 부분과 플랫폼의 일부에만 액세스할 수 있습니다.
+상호 작용을 사용하는 연산자는 두 가지가 있습니다. 제공 관리자 및 전달 관리자 이들은 특정 권리를 가지며 나무와 플랫폼의 일부 부분에만 액세스할 수 있습니다.
 
-* **[!UICONTROL Offer manager]** :오퍼를 만들고 유지
-* **[!UICONTROL Delivery manager]** :오퍼 승인 및 사용
+* **[!UICONTROL Offer manager]** : 오퍼를 만들고 유지 관리합니다. 오퍼가 워크플로에서 사용되는 경우, 연산자는 **[!UICONTROL Administrator]** 또는 **[!UICONTROL 오퍼 관리자)** 연산자 그룹에 있어야 워크플로우를 실행할 수 있습니다.
+* **[!UICONTROL Delivery manager]** : 오퍼 승인 및 사용
 
-상호 작용에만 적용되는 연산자를 만드는 단계는 플랫폼에서 다른 모든 연산자를 만드는 데 사용되는 연산자와 동일합니다. For more on this, refer to [this section](../../platform/using/access-management.md#creating-an-operator). 운영자를 만드는 동안 권한이 구성됩니다.
+상호 작용에만 적용되는 연산자를 만드는 단계는 플랫폼에서 다른 연산자를 모두 만드는 데 사용되는 연산자와 동일합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/access-management.md#creating-an-operator)을 참조하십시오. 운영자를 만드는 동안 권한이 구성됩니다.
 
 ## 오퍼 관리자 {#offer-manager}
 
@@ -48,7 +51,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
    >[!NOTE]
    >
-   >오퍼 관리자는 두 가지 경우에 한하여 오퍼를 승인할 수 있습니다. 첫 번째는 특정 검토자가 지정되지 않은 경우이고, 두 번째는 템플릿 생성(검토자를 할당할 수 있는 권한 사용)을 담당하는 운영자가 오퍼가 기반이 되는 오퍼 템플릿의 검토자로 지정했는지 여부입니다.
+   >오퍼 관리자는 두 가지 특정 경우에만 오퍼를 승인할 수 있습니다. 첫 번째 문제는 특정 검토자가 아닌 경우, 두 번째 경우는 템플릿 작성을 담당하는 연산자(검토자를 할당할 권한 있음)가 오퍼가 기반이 되는 오퍼 템플릿의 검토자로 지정했는지 여부입니다.
 
 ## 배달 관리자 {#delivery-manager}
 
@@ -67,7 +70,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
    >
    >제공 관리자는 오퍼 구성 중에 검토자로 정의된 경우에만 오퍼를 승인할 수 있습니다.
 
-## 작업자에 따른 권한 요약 {#recap-of-rights-according-to-operator}
+## 연산자에 따라 권한 요약 {#recap-of-rights-according-to-operator}
 
 <table> 
  <tbody> 
@@ -82,7 +85,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 편집 중인/라이브 오퍼<br /> </td> 
+   <td> 편집 중인 제안/라이브 오퍼<br /> </td> 
    <td> 읽기/쓰기<br /> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
@@ -107,12 +110,12 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 유형<br /> </td> 
+   <td> 분류<br /> </td> 
    <td> 읽기/쓰기<br /> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 유형 규칙<br /> </td> 
+   <td> 분류 규칙<br /> </td> 
    <td> 읽기/쓰기<br /> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
@@ -142,7 +145,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 편집 중인/라이브 오퍼<br /> </td> 
+   <td> 편집 중인 제안/라이브 오퍼<br /> </td> 
    <td> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
@@ -167,12 +170,12 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 유형<br /> </td> 
+   <td> 분류<br /> </td> 
    <td> 읽기<br /> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 유형 규칙<br /> </td> 
+   <td> 분류 규칙<br /> </td> 
    <td> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
