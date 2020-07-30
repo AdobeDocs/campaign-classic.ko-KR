@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
+source-git-commit: 9f70468e3dd7003a18812d07669f10c561e8bef7
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 0%
@@ -161,7 +161,7 @@ function processPipelineMessage(xmlTrigger)
 
 ```
 function processPipelineMessage(xmlTrigger)
- {```
+ {
  (…)
  var event = 
  <pipelineEvent
@@ -209,7 +209,7 @@ triggerType 필드는 데이터가 발생하는 트리거로부터 식별합니�
 | shopper_id | 문자열 32 | shopper_id | 구매자의 내부 식별자입니다. 조정 워크플로우에 의해 설정됩니다. 0이면, Campaign에서 고객을 알 수 없음을 의미합니다. |
 | shopper_key | Long | shopper_key | Analytics에 의해 캡처된 구매자의 외부 식별자입니다. |
 | created | 날짜/시간 | 작성일 | 캠페인에서 이벤트가 생성된 시간입니다. |
-| lastModified | 날짜/시간 | 마지막 수정일 | Adobe에서 마지막으로 이벤트가 수정된 시간입니다. |
+| lastModified | 날짜/시간 | 마지막 수정일 | Adobe에서 이벤트가 마지막으로 수정된 시간입니다. |
 | timeGMT | 날짜/시간 | 타임스탬프 | Analytics에서 이벤트가 생성된 시간입니다. |
 
 ### 이벤트 표시 {#display-events}
