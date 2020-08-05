@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
+source-git-commit: 7ffbbe95247f28115f7e46eb0e94f2612fb4ea93
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 0%
+source-wordcount: '1673'
+ht-degree: 1%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 배달을 만들고 구성한 경우 기본 타겟으로 보내기 전에 유효성을 확인해야 합니다.
 
-이렇게 하려면:
+방법은 다음과 같습니다.
 
 1. **배달 분석**: 이 단계에서는 전달할 메시지를 준비할 수 있습니다. 전달 [분석을 참조하십시오](#analyzing-the-delivery).
 
-   분석 중에 적용된 규칙은 유형 지정 섹션이 있는 [유효성 검사 프로세스에](#validation-process-with-typologies) 표시됩니다. 사용 가능한 유효성 검사 모드는 승인 모드 [변경 섹션에서](#changing-the-approval-mode) 자세히 설명합니다.
+   분석 중에 적용된 규칙은 [이 섹션](#validation-process-with-typologies) 섹션에 표시됩니다. 사용 가능한 유효성 검사 모드는 승인 모드 [변경 섹션에서](#changing-the-approval-mode) 자세히 설명합니다.
 
 1. **증거 자료 전송**: 이 단계에서는 컨텐츠, URL, 개인화 필드 등을 승인할 수 있습니다. 증명 [전송](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) 및 [특정 증명 대상 정의를 참조하십시오](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 ### 분석 시작 {#launching-the-analysis}
 
 1. 배달 분석을 시작하려면 을 클릭합니다 **[!UICONTROL Send]**.
-1. 선택합니다 **[!UICONTROL Deliver as soon as possible]**.
+1. **[!UICONTROL Deliver as soon as possible]**&#x200B;을(를) 선택합니다.
 
    ![](assets/s_ncs_user_email_del_send.png)
 
@@ -76,6 +76,7 @@ ht-degree: 0%
    * 파란색 아이콘은 유용한 정보를 나타냅니다.
    * 노란색 아이콘은 중요하지 않은 처리 오류를 나타냅니다.
    * 빨간색 아이콘은 배달 전송을 방해하는 중요한 오류를 나타냅니다.
+
    ![](assets/s_ncs_user_email_del_analyze_error.png)
 
 1. 오류 **[!UICONTROL Close]** 가 있는 경우 을 클릭하여 오류를 수정합니다.
@@ -100,9 +101,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Label and code of the delivery]** : 이 섹션의 옵션은 배달 분석 단계 중 이러한 필드의 값을 계산하는 데 사용됩니다. 이 **[!UICONTROL Compute the execution folder during the delivery analysis]** 필드는 분석 단계 동안 이 배달 작업을 포함할 폴더의 이름을 계산합니다.
 * **[!UICONTROL Approval mode]** : 이 필드에서는 분석이 완료되면 수동 또는 자동 배달을 정의할 수 있습니다. 인증 모드는 승인 모드 [변경 섹션에](#changing-the-approval-mode) 표시됩니다.
-* **[!UICONTROL Prepare the delivery parts in the database]** : 이 옵션을 사용하면 배달 분석 성능을 개선할 수 있습니다. For more on this, see [this section](#improving-delivery-analysis).
+* **[!UICONTROL Prepare the delivery parts in the database]** : 이 옵션을 사용하면 배달 분석 성능을 개선할 수 있습니다. 자세한 내용은 [이 섹션](#improving-delivery-analysis)을 참조하십시오.
 * **[!UICONTROL Prepare the personalization data with a workflow]** : 이 옵션을 사용하면 자동 워크플로우에서 전달에 포함된 개인화 데이터를 준비할 수 있으므로 개인화 실행을 위한 성능이 크게 향상됩니다. 자세한 내용은 개인화 [최적화를 참조하십시오](../../delivery/using/personalization-fields.md#optimizing-personalization).
-* **[!UICONTROL Start job in a detached process]** : 이 옵션을 사용하면 별도의 프로세스에서 배달 분석을 시작할 수 있습니다. 분석 함수는 기본적으로 Adobe Campaign 응용 프로그램 서버 프로세스(웹 서버)를 사용합니다. 이 옵션을 선택하면 응용 프로그램 서버가 실패한 경우에도 분석이 완료되도록 합니다.
+* **[!UICONTROL Start job in a detached process]** : 이 옵션을 사용하면 별도의 프로세스에서 배달 분석을 시작할 수 있습니다. 분석 함수는 기본적으로 Adobe Campaign 응용 프로그램 서버 프로세스(웹 클라이언트 서버)를 사용합니다. 이 옵션을 선택하면 응용 프로그램 서버가 실패한 경우에도 분석이 완료되도록 합니다.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : 이 옵션은 분석 단계 동안 배달 저널에 SQL 쿼리 로그를 추가합니다.
 * **[!UICONTROL Ignore personalization scripts during sending]** : 이 옵션을 사용하면 HTML 컨텐츠에 있는 JavaScript 지시어 해석을 우회할 수 있습니다. 배달된 내용대로 표시됩니다. 이러한 지시문은 **&lt;%=** 태그)와 함께 도입됩니다.
 
@@ -115,7 +116,7 @@ ht-degree: 0%
 현재 이 옵션은 다음 조건을 충족하는 경우에만 사용할 수 있습니다.
 * 배달은 이메일이어야 합니다. 다른 채널은 현재 지원되지 않습니다.
 * 중간 소싱 또는 외부 공정순서를 사용해서는 안되며, 일괄 배달 공정순서 유형만 사용해야 합니다. 의 **[!UICONTROL General]** 탭에서 사용되는 라우팅을 확인할 수 있습니다 **[!UICONTROL Delivery properties]**.
-* 외부 파일에서 오는 모집단은 타깃팅할 수 없습니다. 한 번 배달하려면 의 **[!UICONTROL To]** 링크를 **[!UICONTROL Email parameters]** 클릭하고 옵션이 **[!UICONTROL Defined in the database]** 선택되어 있는지 확인합니다. 워크플로우에 사용된 배달을 보려면 받는 사람이 탭 **[!UICONTROL Specified by the inbound event(s)]** 에 있는지 **[!UICONTROL Delivery]** 확인하십시오.
+* 외부 파일에서 오는 모집단은 타깃팅할 수 없습니다. 한 번 배달하려면 의 **[!UICONTROL To]** 링크를 **[!UICONTROL Email parameters]** 클릭하고 **[!UICONTROL Defined in the database]** 옵션이 선택되어 있는지 확인합니다. 워크플로우에 사용된 배달을 보려면 받는 사람이 탭 **[!UICONTROL Specified by the inbound event(s)]** 에 있는지 **[!UICONTROL Delivery]** 확인하십시오.
 * PostgreSQL 데이터베이스를 사용하고 있어야 합니다.
 
 ### 분석 우선 순위 구성 {#analysis-priority-}
@@ -134,14 +135,15 @@ ht-degree: 0%
 >
 >더 큰 전달 분석이 워크플로우의 진행 속도를 저하시키지 않도록 하려면 을(를) 똑바르게 하여 실행 일정을 예약할 수 있습니다 **[!UICONTROL Schedule execution for a time of low activity]**.
 
-## 증명 전송 {#sending-a-proof}
+## 증명 보내기 {#sending-a-proof}
 
-메시지 구성에서 발생할 수 있는 오류를 탐지하려면 배달 유효성 검사 주기를 설정하는 것이 좋습니다. 테스트 내용을 수신자에게 전송하여 필요에 따라 컨텐츠를 자주 승인할 수 있습니다. 컨텐츠를 승인하려면 변경 사항이 있을 때마다 증거를 보내야 합니다.
+메시지 구성에서 발생할 수 있는 오류를 검색하려면 배달 유효성 검사 주기를 설정하는 것이 좋습니다. 필요에 따라 테스트 내용을 수신자에게 전송하여 컨텐츠가 승인되었는지 확인합니다. 컨텐츠를 승인하려면 변경 사항이 있을 때마다 증거를 보내야 합니다.
 
 >[!NOTE]
 >
 >* 사용 가능한 검증 모드는 승인 모드 [변경에서 자세히 설명합니다](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
 >* 증명 대상의 구성은 특정 증명 대상 [정의에 설명되어 있습니다](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+
 >
 
 
@@ -156,7 +158,7 @@ ht-degree: 0%
 1. 메시지 분석 시작 전달 [분석을 참조하십시오](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 1. 이제 배달을 보낼 수 있습니다(배달 [전송](../../delivery/using/steps-sending-the-delivery.md)참조).
 
-   배달이 전송되면 증명 자료가 배달 목록에 나타나고 자동으로 생성되고 번호가 지정됩니다. 컨텐츠와 속성에 액세스하려면 편집할 수 있습니다. For more on this, refer to this [page](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
+   배달이 전송되면 증명 자료가 배달 목록에 나타나고 자동으로 생성되고 번호가 지정됩니다. 컨텐츠와 속성에 액세스하려면 편집할 수 있습니다. 자세한 정보는 이 [페이지](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard)를 참조하십시오.
 
    ![](assets/s_ncs_user_delivery_validation_cycle_03a.png)
 
@@ -181,13 +183,13 @@ ht-degree: 0%
 다음 옵션을 사용할 수 있습니다.
 
 * 첫 번째 옵션을 사용하면 교정을 두 배로 유지할 수 있습니다.
-* 다음 옵션 모두 블록 목록에 있는 받는 사람과 격리된 주소를 유지할 수 있도록 해줍니다. 제외 설정 사용자 지정에서 기본 대상에 대한 이러한 옵션 [의 설명을 참조하십시오](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). 이러한 주소가 기본적으로 제외되는 배달 대상과 달리 증명 대상에 대해서는 기본적으로 보존됩니다.
+* 다음 옵션 모두에서 차단 목록에 있는 받는 사람과 주소를 격리할 수 있습니다. 제외 설정 사용자 지정에서 기본 대상에 대한 이러한 옵션 [의 설명을 참조하십시오](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). 이러한 주소가 기본적으로 제외되는 배달 대상과 달리 증명 대상에 대해서는 기본적으로 보존됩니다.
 * 이 **[!UICONTROL Keep the delivery code for the proof]** 옵션을 사용하면 관련된 배달에 대해 정의된 것과 동일한 배달 코드를 증표에 제공할 수 있습니다. 이 코드는 배달 마법사의 첫 번째 단계에서 지정됩니다.
 * 기본적으로 증거의 제목에 &#39;Proof #&#39;가 접두사로 추가되며 여기서 #은 증표의 번호입니다. 필드에서 이 접두사를 변경할 수 **[!UICONTROL Label prefix]** 있습니다.
 
 ## 유형 분류를 사용한 유효성 검사 프로세스 {#validation-process-with-typologies}
 
-메시지를 전송하기 전에 캠페인을 분석하여 내용과 구성을 승인해야 합니다. 분석 단계 동안 적용된 확인 규칙은 유형 **에서 정의됩니다**. 이메일의 경우 기본적으로 분석은 다음 사항을 다룹니다.
+메시지를 전송하기 전에 캠페인을 분석하여 내용과 구성을 승인해야 합니다. The checking rules applied during the analysis phase are defined in a **typology**. 이메일의 경우 기본적으로 분석은 다음 사항을 다룹니다.
 
 * 객체 승인
 * URL 및 이미지 승인
@@ -215,7 +217,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[!UICONTROL Arbitration]** 유형 유형 유형 유형은 매출 압력 관리의 프레임워크에서 사용됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/about-marketing-resource-management.md)을 참조하십시오.
+>**[!UICONTROL Arbitration]** 유형 유형 유형 유형은 매출 압력 관리의 프레임워크에서 사용됩니다. 자세한 정보는 [이 섹션](../../campaign/using/about-marketing-resource-management.md)을 참조하십시오.
 
 ## 승인 모드 변경 {#changing-the-approval-mode}
 
