@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+source-git-commit: 7ffbbe95247f28115f7e46eb0e94f2612fb4ea93
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1527'
 ht-degree: 0%
 
 ---
@@ -29,25 +29,23 @@ ht-degree: 0%
 
 각 게재에 대해 몇 가지 유형의 타겟 모집단을 정의할 수 있습니다. 아래 섹션에서는 선택 방법에 대한 자세한 정보를 제공합니다.
 
-* **배달의 주 받는 사람**. [자세한 내용](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
-* **유효성 검사 주기를 설정하기 위해 증명 메시지**&#x200B;수신자입니다. [자세한 내용](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
+* 배달을 받는 사람. [자세한 내용](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
+* 유효성 검사 주기를 설정하기 위해 증명 메시지의 받는 사람. [자세한 내용](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
 
-또한 [시드 주소](../../delivery/using/about-seed-addresses.md)및 [제어 그룹을 정의할 수도 있습니다](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group). 게재가 마케팅 캠페인에 포함된 경우
+또한 게재가 마케팅 캠페인에 포함된 경우 [시드 주소](../../delivery/using/about-seed-addresses.md)및 [제어 그룹을 정의할 수도 있습니다](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
 ## 게재의 기본 받는 사람 선택 {#selecting-the-main-target}
 
-대부분의 경우 기본 타겟은 캠페인 데이터베이스에서 추출됩니다(기본 모드).
+대부분의 경우 기본 대상은 Adobe Campaign 데이터베이스에서 추출됩니다(기본 모드). 그러나 수신자는 외부 파일에 저장할 수도 있습니다. 자세한 내용은 [이 섹션을 참조하십시오](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
 
-수신자는 외부 파일에 저장할 수도 있습니다. 이 유형의 배달은 외부 수신자 선택에 [표시됩니다](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+게재의 수신자를 선택하려면 아래 절차를 따르십시오.
 
-생성할 게재의 수신자를 선택하려면 다음 단계를 수행합니다.
-
-1. 링크를 **[!UICONTROL To]** 클릭합니다.
+1. 배달 편집기에서 을 선택합니다 **[!UICONTROL To]**.
 1. 받는 사람이 데이터베이스에 저장된 경우 첫 번째 옵션을 선택합니다.
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. 드롭다운 목록에서 대상 매핑을 **[!UICONTROL Target mapping]** 선택합니다. Adobe Campaign 기본 대상 매핑은 입니다 **[!UICONTROL Recipients]**.
+1. 드롭다운 목록에서 대상 매핑을 **[!UICONTROL Target mapping]** 선택합니다. Adobe Campaign 기본 대상 매핑은 **[!UICONTROL Recipients]** nms:recipient **** 스키마를 기반으로 합니다.
 
    다른 대상 매핑을 사용할 수 있으며, 일부 대상 매핑은 특정 구성과 관련될 수 있습니다. 대상 매핑에 대한 자세한 내용은 대상 매핑 [선택을 참조하십시오](../../delivery/using/selecting-a-target-mapping.md).
 
@@ -101,7 +99,7 @@ ht-degree: 0%
 
 데이터베이스에 저장되지는 않았지만 외부 파일에 저장된 수신자에 대한 배달을 시작할 수 있습니다. 예를 들어 텍스트 파일에서 가져온 수신자에게 배달을 보냅니다.
 
-이렇게 하려면:
+방법은 다음과 같습니다.
 
 1. 배달 받는 사람을 선택하려면 **[!UICONTROL To]** 링크를 클릭합니다.
 1. 옵션을 **[!UICONTROL Defined in an external file]** 선택합니다.
@@ -114,7 +112,7 @@ ht-degree: 0%
 
 1. 수신자를 가져올 때 링크를 클릭하여 외부 파일을 선택하고 구성합니다. **[!UICONTROL File format definition...]**
 
-   데이터 가져오기에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../platform/using/importing-data.md#step-2---source-file-selection).
+   For more information on data import, refer to [this section](../../platform/using/importing-data.md#step-2---source-file-selection).
 
 1. 을 클릭하고 배달 **[!UICONTROL Finish]** 을 표준 배달로 구성합니다.
 
@@ -148,7 +146,7 @@ ht-degree: 0%
 
    옵션의 기본값은 각 배달 템플릿에 대해 구성할 수 있습니다.
 
-   예:
+   예제:
 
    * 뉴스레터 또는 전자 문서 전달 데이터에 기본 중복 항목이 없는 경우도 있습니다. 동일한 이메일 주소를 사용하는 커플에게 개인화된 두 가지 이메일 메시지를 받게 됩니다. 한 사람의 이름은 개개개인으로 지정됩니다. 이 경우 이 옵션을 선택 취소할 수 있습니다.
    * 마케팅 캠페인 전달: 동일한 수신자에게 너무 많은 메시지를 보내지 않으려면 중복 제외가 필요합니다. 이 경우 이 옵션을 선택할 수 있습니다.
