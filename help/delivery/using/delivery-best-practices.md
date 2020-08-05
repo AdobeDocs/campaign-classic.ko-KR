@@ -13,15 +13,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f599bc5483779ae62dd4d5eb1936cbc2760639b5
+source-git-commit: 4548eda6f87566398ddf19131b777012cbf8917b
 workflow-type: tm+mt
-source-wordcount: '4348'
+source-wordcount: '4361'
 ht-degree: 3%
 
 ---
 
 
 # 전달 모범 사례 {#delivery-best-practices}
+
+Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다.
 
 ## 전달 최적화 {#optimize-delivery}
 
@@ -102,7 +104,7 @@ Adobe Campaign에서 여러 브랜드를 관리하는 경우, Adobe은 브랜드
 
 **팁**:  Campaign Standard에서 구성 오류를 방지하려면 새 템플릿을 만드는 대신 기본 템플릿을 복제하고 해당 속성을 변경하는 것이 좋습니다.
 
-**주소 구성**
+### 주소 구성
 
 * 보낸 사람의 주소는 이메일을 보낼 수 있도록 허용해야 합니다.
 
@@ -126,7 +128,7 @@ Adobe Campaign에서 여러 브랜드를 관리하는 경우, Adobe은 브랜드
 
 1. 필드에서 **[!UICONTROL Reply address text]** 발신자의 주소는 답글에 기본적으로 사용됩니다. 그러나 Adobe은 브랜드의 고객 지원 센터와 같은 기존 실제 주소를 사용하는 것이 좋습니다. 이 경우 수신자가 응답을 보낼 경우 고객 지원 센터에서 이 응답을 처리할 수 있습니다.
 
-**컨트롤 그룹 설정**
+### 컨트롤 그룹 설정
 
 배달을 전송하면 제외된 받는 사람의 동작을 배달을 받은 받는 사람과 비교할 수 있습니다. 그런 다음 캠페인의 효율성을 측정할 수 있습니다. 제어 그룹에 대해 자세히 [알아보십시오](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
@@ -134,7 +136,7 @@ Adobe Campaign에서 여러 브랜드를 관리하는 경우, Adobe은 브랜드
 
 ![](assets/d_best_practices_control_group.png)
 
-**필터 또는 컨트롤 규칙을 적용하려면 유형 지정 기능을 사용하십시오.**
+### 필터 또는 컨트롤 규칙을 적용하려면 유형 지정 기능을 사용하십시오.
 
 유형학 유형에는 메시지를 보내기 전에 분석 단계 동안 적용되는 확인 규칙이 포함됩니다.
 
@@ -342,7 +344,7 @@ Campaign Classic에서 기본적으로 배달 템플릿은 수신자를 **타깃
 
 메시지를 보내기 전에 매개 변수 및 구성이 전달과 일치하는지 확인하십시오.
 
-### 유효성 검사가 핵심 {#validation-is-key}
+### 유효성 검사가 중요한 이유 {#validation-is-key}
 
 배달을 보내기 전에 받는 사람이 실제로 보내려는 메시지를 받게 해야 합니다. 이렇게 하려면 메시지 내용 및 배달 매개 변수의 유효성을 확인해야 합니다.
 
@@ -461,7 +463,7 @@ To measure the speed at the messages are delivered, you can control the delivery
 
 * 큰 배달은 함께 예약하지 마십시오. 시스템에 로드를 균일하게 분산하는 데 5~10분이 걸릴 수 있습니다.
 
-## 배달 문제 해결 {#delivery-troubleshooting}
+### 배달 문제 해결 {#delivery-troubleshooting}
 
 배달과 관련된 문제가 발생할 때 특정 작업을 수행할 수 있습니다.
 
