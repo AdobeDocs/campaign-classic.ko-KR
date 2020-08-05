@@ -1,14 +1,14 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign 클래식 도움말
+user-guide-title: Adobe Campaign Classic 도움말
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 14e275203e3436183d5a5c743375ba42f6153c6d
+source-git-commit: b19a8e477b4419a369fa257b4629f4a01f0b0400
 workflow-type: tm+mt
-source-wordcount: '2094'
-ht-degree: 8%
+source-wordcount: '2097'
+ht-degree: 9%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 8%
       + [호환성 표](rn/using/compatibility-matrix.md)
 + Getting Started {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
-      + [Adobe Campaign 클래식 정보](platform/using/about-adobe-campaign-classic.md)
+      + [Adobe Campaign Classic 정보](platform/using/about-adobe-campaign-classic.md)
       + [개인 정보 및 동의](platform/using/privacy-and-recommendations.md)
-      + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
+      + [런칭 Adobe Campaign](platform/using/launching-adobe-campaign.md)
       + [Adobe Campaign 작업 영역](platform/using/adobe-campaign-workspace.md)
       + FAQ {#faq}
          + [일반적인 질문](platform/using/common-questions.md)
@@ -89,8 +89,9 @@ ht-degree: 8%
       + [CRM 커넥터](platform/using/crm-connectors.md)
       + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector.md)
 + 메시지 전송 {#sending-messages}
-   + 배달 및 채널 정보 {#about-deliveries-and-channels}
+   + 메시지 시작하기 {#about-deliveries-and-channels}
       + [소통 채널](delivery/using/communication-channels.md)
+      + [전달 모범 사례](delivery/using/delivery-best-practices.md)
       + [배달 정보 액세스](delivery/using/accessing-deliveries-information.md)
       + [배달 유형](delivery/using/types-of-deliveries.md)
    + 배달을 만들 때의 주요 단계 {#key-steps-when-creating-a-delivery}
@@ -101,7 +102,7 @@ ht-degree: 8%
       + [배달 전송](delivery/using/steps-sending-the-delivery.md)
    + 이메일 전송 {#sending-emails}
       + [이메일 채널 정보](delivery/using/about-email-channel.md)
-      + [이메일 배달 만들기](delivery/using/creating-an-email-delivery.md)
+      + [이메일 게재 만들기](delivery/using/creating-an-email-delivery.md)
       + [이메일 컨텐츠 정의](delivery/using/defining-the-email-content.md)
       + [인터랙티브한 컨텐츠 정의](delivery/using/defining-interactive-content.md)
       + [메시지 전송](delivery/using/sending-messages.md)
@@ -147,7 +148,7 @@ ht-degree: 8%
    + 배달 모니터링 {#monitoring-deliveries}
       + [게재 모니터링](delivery/using/monitoring-a-delivery.md)
       + [게재 실패 이해](delivery/using/understanding-delivery-failures.md)
-      + [스팸 차단 관리 이해](delivery/using/understanding-quarantine-management.md)
+      + [격리 관리 이해](delivery/using/understanding-quarantine-management.md)
    + 메시지 추적 {#tracking-messages}
       + [메시지 추적 정보](delivery/using/about-message-tracking.md)
       + [추적된 링크를 구성하는 방법](delivery/using/how-to-configure-tracked-links.md)
@@ -218,7 +219,7 @@ ht-degree: 8%
       + [가설 만들기](campaign/using/creating-hypotheses.md)
       + [가설 추적](campaign/using/hypothesis-tracking.md)
 + 보고 {#reporting}
-   + Adobe Campaign에서 보고 {#reporting-in-adobe-campaign}
+   + Adobe Campaign의 보고 {#reporting-in-adobe-campaign}
       + [보고 시작하기](reporting/using/about-adobe-campaign-reporting-tools.md)
       + [보고 모범 사례](reporting/using/best-practices.md)
    + 내장 보고서 액세스 {#accessing-built-in-reports}
@@ -343,14 +344,14 @@ ht-degree: 8%
       + [워크플로우 모범 사례](workflow/using/workflow-best-practices.md)
    + 워크플로우 실행 {#executing-a-workflow}
       + [워크플로우 시작](workflow/using/starting-a-workflow.md)
-      + [워크플로우 라이프사이클](workflow/using/workflow-life-cycle.md)
+      + [워크플로우 라이프 사이클](workflow/using/workflow-life-cycle.md)
       + [데이터 라이프사이클](workflow/using/data-life-cycle.md)
       + [승인 정의](workflow/using/defining-approvals.md)
       + [건축](workflow/using/architecture.md)
    + 타겟팅 활동 {#targeting-activities}
       + [타겟팅 활동 기본 정보](workflow/using/about-targeting-activities.md)
       + [쿼리](workflow/using/query.md)
-      + [증가식 쿼리](workflow/using/incremental-query.md)
+      + [증분 쿼리](workflow/using/incremental-query.md)
       + [목록 읽기](workflow/using/read-list.md)
       + [결합](workflow/using/union.md)
       + [교차](workflow/using/intersection.md)
@@ -359,7 +360,7 @@ ht-degree: 8%
       + [셀](workflow/using/cells.md)
       + [셀별 오퍼](workflow/using/offers-by-cell.md)
       + [배달 개요](workflow/using/delivery-outline.md)
-      + [강화](workflow/using/enrichment.md)
+      + [데이터 보강](workflow/using/enrichment.md)
       + [스키마 편집](workflow/using/edit-schema.md)
       + [오퍼 엔진](workflow/using/offer-engine.md)
       + [중복 제거](workflow/using/deduplication.md)
@@ -423,7 +424,7 @@ ht-degree: 8%
       + 데이터 관리 {#data-management}
          + [데이터 업데이트 조정](workflow/using/coordinating-data-updates.md)
          + [요약 목록 만들기](workflow/using/creating-a-summary-list.md)
-         + [데이터 농축](workflow/using/enriching-data.md)
+         + [데이터 강화](workflow/using/enriching-data.md)
          + [집계 사용](workflow/using/using-aggregates.md)
          + [증분 쿼리를 사용한 분기별 목록 업데이트](workflow/using/quarterly-list-update.md)
       + 쿼리 디자인 {#designing-queries}
@@ -452,7 +453,7 @@ ht-degree: 8%
       + [기술 워크플로우 정보](workflow/using/about-technical-workflows.md)
       + [배달](workflow/using/deliveries.md)
       + [캠페인](workflow/using/campaign.md)
-      + [웹 Analytics](workflow/using/web-analytics.md)
+      + [웹 분석](workflow/using/web-analytics.md)
       + [분산 마케팅](workflow/using/distributed-marketing.md)
       + [전달 능력 모니터링](workflow/using/email-deliverability.md)
       + [받은 편지함 렌더링](workflow/using/inbox-rendering.md)
@@ -464,7 +465,7 @@ ht-degree: 8%
       + [LINE 채널](workflow/using/line-channel.md)
       + [마케팅 리소스(MRM)](workflow/using/marketing-resources--mrm-.md)
       + [소셜 마케팅](workflow/using/social-marketing.md)
-      + [Adobe Experience Cloud 솔루션과 통합](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
+      + [Adobe Experience Cloud 솔루션과의 통합](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
       + [개인 정보 보호 규정](workflow/using/general-data-protection-regulation--gdpr-.md)
       + [중간 출처로 전송](workflow/using/transfer-to-mid-sourcing.md)
       + [중간 소싱 플랫폼](workflow/using/mid-sourcing-platform.md)
@@ -539,7 +540,7 @@ ht-degree: 8%
       + [트랜잭션 메시지의 시드 주소 관리](message-center/using/managing-seed-addresses-in-transactional-messages.md)
       + [개인화 데이터](message-center/using/personalization-data.md)
       + [트랜잭션 메시지 미리 보기](message-center/using/transactional-message-preview.md)
-      + [증명 전송](message-center/using/sending-a-proof.md)
+      + [증명 보내기](message-center/using/sending-a-proof.md)
       + [템플릿 게시](message-center/using/template-publication.md)
       + [템플릿 게시 취소](message-center/using/template-unpublication.md)
    + 이벤트 처리 {#event-processing}
@@ -649,7 +650,7 @@ ht-degree: 8%
       + [유니코드로 전환](production/using/switching-to-unicode.md)
       + [마이그레이션 절차](production/using/migration-procedures.md)
    + 데이터베이스 유지 관리 {#database-maintenance}
-      + [Recommendations](production/using/recommendations.md)
+      + [추천](production/using/recommendations.md)
       + [유지 관리할 표](production/using/tables-to-maintain.md)
       + [유지 관리 유형](production/using/types-of-maintenance.md)
       + [RDBMS 특정 추천](production/using/rdbms-specific-recommendations.md)
@@ -672,7 +673,7 @@ ht-degree: 8%
       + [암호 분실](production/using/lost-password.md)
       + [JSP 동작](production/using/jsp-behavior.md)
 + Campaign Classic 구성 {#configuring-campaign-classic}
-   + Data model {#data-model}
+   + 데이터 모델 {#data-model}
       + [데이터 모델 정보](configuration/using/about-data-model.md)
       + [데이터 모델 설명](configuration/using/data-model-description.md)
       + [권장사항](configuration/using/data-model-best-practices.md)
@@ -741,7 +742,7 @@ ht-degree: 8%
    + Adobe Campaign 7으로 마이그레이션 {#migrating-to-adobe-campaign-7}
       + [Adobe Campaign 7으로 마이그레이션하기 위한 사전 요구 사항](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
       + [Adobe Campaign 7용 Windows에서 마이그레이션](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
-      + [Adobe Campaign v7용 Linux에서 마이그레이션](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
+      + [Linux에서 Adobe Campaign v7 마이그레이션](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
    + 구성 {#configuration}
       + [일반 구성](migration/using/general-configurations.md)
       + [v5.11의 특정 구성](migration/using/specific-configurations-in-v5-11.md)
