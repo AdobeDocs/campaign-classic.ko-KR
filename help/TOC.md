@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: b19a8e477b4419a369fa257b4629f4a01f0b0400
+source-git-commit: 5e6ecd636ee0b2199808c03b2fd898a194f0c1ea
 workflow-type: tm+mt
-source-wordcount: '2097'
+source-wordcount: '2110'
 ht-degree: 9%
 
 ---
@@ -89,13 +89,17 @@ ht-degree: 9%
       + [CRM 커넥터](platform/using/crm-connectors.md)
       + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector.md)
 + 메시지 전송 {#sending-messages}
-   + 메시지 시작하기 {#about-deliveries-and-channels}
-      + [소통 채널](delivery/using/communication-channels.md)
-      + [전달 모범 사례](delivery/using/delivery-best-practices.md)
-      + [배달 정보 액세스](delivery/using/accessing-deliveries-information.md)
-      + [배달 유형](delivery/using/types-of-deliveries.md)
+   + [메시지 시작하기](delivery/using/communication-channels.md)
+   + 전달 모범 사례 {#delivery-bestpractices}
+      + [모범 사례 학습](delivery/using/delivery-best-practices.md)
+      + [전달 최적화](delivery/using/optimize-delivery.md)
+      + [템플릿 사용](delivery/using/use-templates.md)
+      + [개인화된 콘텐츠 제작](delivery/using/design-and-personalize.md)
+      + [적합한 고객 정의](delivery/using/define-the-right-audience.md)
+      + [보내기 전 확인](delivery/using/check-before-sending.md)
+      + [추적 및 모니터](delivery/using/track-and-monitor.md)
    + 배달을 만들 때의 주요 단계 {#key-steps-when-creating-a-delivery}
-      + [배달 만들기 정보 ](delivery/using/steps-about-delivery-creation-steps.md)
+      + [배달 시작](delivery/using/steps-about-delivery-creation-steps.md)
       + [배달 만들기 및 식별](delivery/using/steps-create-and-identify-the-delivery.md)
       + [대상 모집단 정의](delivery/using/steps-defining-the-target-population.md)
       + [배달 유효성 확인](delivery/using/steps-validating-the-delivery.md)
@@ -139,8 +143,8 @@ ht-degree: 9%
       + [시드 주소 만들기](delivery/using/creating-seed-addresses.md)
       + [시드 주소 추가](delivery/using/adding-seed-addresses.md)
       + [외부 수신자 테이블 사용](delivery/using/using-an-external-recipient-table.md)
-      + [사용 사례: 기준 시드 주소 선택](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
-      + [사용 사례: 필드 대체 구성](delivery/using/use-case--configuring-the-field-substitution.md)
+      + [사용 사례:기준 시드 주소 선택](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+      + [사용 사례:필드 대체 구성](delivery/using/use-case--configuring-the-field-substitution.md)
    + 구독 및 참조 {#subscriptions-and-referrals}
       + [서비스 및 구독 정보](delivery/using/about-services-and-subscriptions.md)
       + [구독 관리](delivery/using/managing-subscriptions.md)
@@ -171,7 +175,7 @@ ht-degree: 9%
    + 컨텐츠 관리 모듈 {#content-management}
       + [컨텐츠 관리 정보](delivery/using/about-content-management.md)
       + [콘텐츠 관리자 리소스 및 원칙](delivery/using/content-manager-resources-and-principles.md)
-      + [사용 사례: 콘텐츠 관리 만들기](delivery/using/use-case--creating-content-management.md)
+      + [사용 사례:콘텐츠 관리 만들기](delivery/using/use-case--creating-content-management.md)
       + [데이터 스키마](delivery/using/data-schemas.md)
       + [입력 양식](delivery/using/input-forms.md)
       + [서식](delivery/using/formatting.md)
@@ -255,13 +259,13 @@ ht-degree: 9%
       + [표시기 만들기](reporting/using/creating-indicators.md)
       + [큐브를 사용하여 데이터 탐색](reporting/using/using-cubes-to-explore-data.md)
       + [개념 및 방법론](reporting/using/concepts-and-methodology.md)
-      + [사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
+      + [사용 사례:온라인 설문 조사 응답에 대한 보고서 표시](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + 웹 컨텐츠 디자인 {#designing-content}
    + 웹 애플리케이션 {#web-applications}
       + [웹 응용 프로그램 정보](web/using/about-web-applications.md)
       + [새 웹 응용 프로그램 만들기](web/using/creating-a-new-web-application.md)
       + [웹 애플리케이션 디자인](web/using/designing-a-web-application.md)
-      + [활용 사례: 개요 만들기](web/using/use-cases--creating-overviews.md)
+      + [활용 사례:개요 만들기](web/using/use-cases--creating-overviews.md)
       + [웹 애플리케이션 번역](web/using/translating-a-web-application.md)
       + [웹 애플리케이션 추적](web/using/tracking-a-web-application.md)
       + [웹 애플리케이션 추적 옵트아웃](web/using/web-application-tracking-opt-out.md)
@@ -272,7 +276,7 @@ ht-degree: 9%
       + [컨텐츠 편집](web/using/editing-content.md)
       + [컨텐츠 편집 모범 사례](web/using/content-editing-best-practices.md)
       + [랜딩 페이지 만들기](web/using/creating-a-landing-page.md)
-      + [사용 사례: 이메일 배달 만들기](web/using/use-case--creating-an-email-delivery.md)
+      + [사용 사례:이메일 배달 만들기](web/using/use-case--creating-an-email-delivery.md)
    + 웹 양식 {#web-forms}
       + [웹 양식 정보](web/using/about-web-forms.md)
       + [웹 양식 템플릿 사용](web/using/using-a-web-form-template.md)
@@ -285,7 +289,7 @@ ht-degree: 9%
       + [웹 양식 게시](web/using/publishing-a-web-form.md)
       + [웹 양식 속성 정의](web/using/defining-web-forms-properties.md)
       + [웹 양식 번역](web/using/translating-a-web-form.md)
-      + [활용 사례: 웹 양식](web/using/use-cases--web-forms.md)
+      + [활용 사례:웹 양식](web/using/use-cases--web-forms.md)
    + 온라인 설문 조사 {#online-surveys}
       + [설문 조사 정보](web/using/about-surveys.md)
       + [설문 조사 시작하기](web/using/getting-started-with-surveys.md)
@@ -293,7 +297,7 @@ ht-degree: 9%
       + [대답 관리](web/using/managing-answers.md)
       + [수집된 데이터 게시, 추적 및 사용](web/using/publish--track-and-use-collected-data.md)
       + [설문 조사 구성](web/using/configuring-surveys.md)
-      + [사용 사례: 친구 양식 참조 만들기](web/using/use-case--creating-a-refer-a-friend-form.md)
+      + [사용 사례:친구 양식 참조 만들기](web/using/use-case--creating-a-refer-a-friend-form.md)
 + Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [Campaign 통합 기본 정보](integrations/using/about-campaign-integrations.md)
    + 고객 공유 {#audience-sharing}
@@ -723,7 +727,7 @@ ht-degree: 9%
    + 웹 추적 설정 {#setting-up-web-tracking}
       + [웹 추적 정보](configuration/using/about-web-tracking.md)
       + [웹 추적 모드](configuration/using/web-tracking-mode.md)
-      + [웹 추적 태그: 정의](configuration/using/web-tracking-tag--definition.md)
+      + [웹 추적 태그:정의](configuration/using/web-tracking-tag--definition.md)
       + [설정 단계](configuration/using/setup-stages.md)
       + [추가 매개 변수](configuration/using/additional-parameters.md)
       + [웹 추적 태그 만들기](configuration/using/creating-web-tracking-tags.md)
