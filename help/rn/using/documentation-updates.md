@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51bbf50a1e9b00c25fca8e1e86ca21c314c18313
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '6953'
+source-wordcount: '6943'
 ht-degree: 14%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 14%
 
 증분 쿼리를 사용하여 목록을 자동으로 업데이트하는 방법에 대한 사용 사례가 워크플로우 사용 사례에 추가되었습니다. [자세한 내용](../../workflow/using/about-workflow-use-cases.md)
 
-릴리스 [노트가](../../rn/using/latest-release.md) 재구성되었습니다. 빌드 상태, 업그레이드 프로세스, 권장 사항 및 중요 링크에 대한 정보가 포함된 [개요 페이지가](../../rn/using/latest-release.md) 추가되었습니다. Gold [Standard 릴리스에](../../rn/using/gold-standard.md) 대한 전용 페이지가 추가되었으며 [호환성 매트릭스가](../../rn/using/compatibility-matrix.md) 통합되었습니다.
+릴리스 [노트가](../../rn/using/latest-release.md) 재구성되었습니다.빌드 상태, 업그레이드 프로세스, 권장 사항 및 중요 링크에 대한 정보가 포함된 [개요 페이지가](../../rn/using/latest-release.md) 추가되었습니다. Gold [Standard 릴리스에](../../rn/using/gold-standard.md) 대한 전용 페이지가 추가되었으며 [호환성 매트릭스가](../../rn/using/compatibility-matrix.md) 통합되었습니다.
 
 Campaign Classic 모니터링과 관련된 지침과 함께 새 섹션이 추가되었습니다. [자세한 내용](../../production/using/monitoring-guidelines.md)
 
@@ -137,7 +137,7 @@ Adobe Campaign 데이터 모델을 디자인하는 동안 모범 사례와 주�
 
 &quot;할당량이 충족됨&quot; 오류 메시지에 대한 자세한 내용이 포함된 제공 기능 FAQ가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ)
 
-AMP for Email은 이제 새로운 이메일 제공업체에서 지원합니다. 관련 문서가 업데이트되었습니다. [자세한 내용](../../delivery/using/defining-interactive-content.md)
+AMP for Email은 이제 새로운 이메일 제공업체에서 지원합니다.관련 문서가 업데이트되었습니다. [자세한 내용](../../delivery/using/defining-interactive-content.md)
 
 이메일 보관 섹션이 향상되었습니다. [자세한 내용](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
@@ -291,7 +291,7 @@ Adobe Campaign Classic의 일반적인 추적 지침에 대한 새 페이지가 
 
 Campaign 컨트롤 패널 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 
-감사 추적 - [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html)
+감사 추적 - [자세한 내용](../../production/using/audit-trail.md)
 
 **이 릴리스와 함께 제공되는 기타 설명서 업데이트**
 
@@ -337,7 +337,7 @@ Adobe Campaign Classic에서 오퍼 카탈로그를 사용하는 방법에 대�
 
 워크플로우 계획 우수 사례에 대한 새 섹션이 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Workflow_best_practices.html#Execution_and_performance)
 
-캠페인 옵션 목록에 두 개의 새 옵션이 추가되었습니다. XtkSecurity_Restrict_EditXML 및 NmsOperation_OperationMgtDebug입니다.
+캠페인 옵션 목록에 두 개의 새 옵션이 추가되었습니다.XtkSecurity_Restrict_EditXML 및 NmsOperation_OperationMgtDebug입니다.
 [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_Configuring_Campaign_options.html)
 
 Campaign Classic에서 사용할 수 있는 다른 외부 계정 및 이를 구성하는 방법에 대한 정보가 추가되었습니다.
@@ -382,7 +382,7 @@ e- [메일 아카이빙](https://docs.campaign.adobe.com/doc/AC/en/INS_Additiona
 
 * 이전 빌드(Adobe Campaign 17.2 이전 - 빌드 8795)로 이메일 보관을 이미 사용하고 있는 경우 새 BCC(이메일 보관 시스템)로 업그레이드하는 단계를 업데이트했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Updated_email_archiving_system__BCC_)
 
-워크플로우 자동화 안내서에 사용 사례가 추가되었습니다. 운영자에게 개인화된 경고 전송 [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Sending_personalized_alerts_to_operators.html)
+워크플로우 자동화 안내서에 사용 사례가 추가되었습니다.운영자에게 개인화된 경고 전송 [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Sending_personalized_alerts_to_operators.html)
 
 &quot;새 버전으로 마이그레이션&quot; 섹션이 업데이트되었습니다. 이제 더 이상 Adobe Campaign v6.11로 마이그레이션할 수 없으므로 설명서에는 모든 이전 버전에서 Adobe Campaign Classic v7로 마이그레이션하는 단계만 자세히 설명되어 있습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/MIG_Migration_overview_About_migration.html)
 
@@ -440,7 +440,7 @@ SFTP 사용과 관련된 문제 해결 섹션이 추가되었습니다. [자세�
 
 시드 주소를 사용하는 방법에 대한 섹션이 메시지 전송 안내서 개요 장으로 이동되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Using_seed_addresses_About_seed_addresses.html)
 
-새로운 워크플로우 사용 사례를 추가했습니다. 관련 워크플로우 실행에서 업데이트 관리 [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Coordinating_data_updates.html)
+새로운 워크플로우 사용 사례를 추가했습니다.관련 워크플로우 실행에서 업데이트 관리 [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Coordinating_data_updates.html)
 
 &quot;받은 편지함 렌더링&quot; 섹션은 리트머스 및 보다 자세한 절차에 대한 추가 정보로 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Deliverability_management_Inbox_rendering.html#Multiplexing_the_mid-sourcing_server)
 
@@ -593,7 +593,7 @@ Oracle과 표준 시간대 파일 정렬에 대한 정보가 추가되었습니�
 즉시 사용 가능한 개인화 블록에 대한 새로운 정보로 &quot;개인화 블록&quot; 섹션을 재구성합니다.
 [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Personalizing_deliveries_Personalization_blocks.html)
 
-파일 구성에 대한 새 정보로 이메일 보관 섹션을 다시 ```config-<instance name>.xml``` 정리했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Activating_email_archiving__on_premise_)
+파일 구성에 대한 새 정보로 이메일 보관 섹션을 ```config-<instance name>.xml``` 재구성합니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Activating_email_archiving__on_premise_)
 
 메시지 센터(제어) 기술 워크플로우에 대한 정보가 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Technical_workflows_Message_Center__Control_.html)
 
@@ -635,7 +635,7 @@ SAP HANA 커넥터 - [자세한 내용](https://docs.campaign.adobe.com/doc/AC/e
 
 HiveSQL을 통한 Hadoop 커넥터 - [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/PTF_Connectors_Accessing_an_external_database.html#Hadoop)
 
-LINE 채널: 향상된 메시지 기능 - [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_messages_on_mobiles_LINE_channel.html)
+LINE 채널:향상된 메시지 기능 - [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_messages_on_mobiles_LINE_channel.html)
 
 **이 릴리스와 함께 제공되는 기타 설명서 업데이트**
 
@@ -687,15 +687,15 @@ IP 온난화에 대한 새로운 기술이 추가되었습니다. [자세한 내
 
 ## 2017년 3월{#release-doc-31-03-2017}
 
-제공 가능성: 시작 안내서 [가](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 업데이트되었습니다. 제공 기능 설명서에는 보다 자세한 [개요](https://docs.campaign.adobe.com/doc/AC/en/DLV_Deliverability_management_About_deliverability.html) 및 [구현 프로세스 및 기본 단계에 대한 설명이 포함되어 있습니다](../../delivery/using/deliverability-key-points.md).
+제공 가능성:시작 안내서 [가](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 업데이트되었습니다. 제공 기능 설명서에는 보다 자세한 [개요](https://docs.campaign.adobe.com/doc/AC/en/DLV_Deliverability_management_About_deliverability.html) 및 [구현 프로세스 및 기본 단계에 대한 설명이 포함되어 있습니다](../../delivery/using/deliverability-key-points.md).
 
 &quot;파도를 사용하여 보내기&quot; 섹션이 자세한 예제, 추천 및 사용 사례와 함께 이동되고 개선되었습니다.    [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_emails_Sending_messages.html#Sending_using_multiple_waves)
 
 &quot;격리 관리&quot; 섹션에 SMS 메시지 관련 오류를 설명하는 표가 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Monitoring_deliveries_Understanding_quarantine_management.html#SMS_quarantines)
 
-워크플로우: 새로운 다중 채널 워크플로우 예가 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Action_activities.html#Cross-channel_deliveries)
+워크플로우:새로운 다중 채널 워크플로우 예가 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Action_activities.html#Cross-channel_deliveries)
 
-Marketing Cloud 트리거: Adobe Campaign과 함께 구성 및 사용하는 방법에 대한 기술 문서가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html)
+Marketing Cloud 트리거:adobe campaign과 함께 구성 및 사용하는 방법에 대한 기술 문서가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html)
 
 워크플로우 안내서를 재구성 및 확장했습니다. 워크플로우를 [작성](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html) 및 [실행](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Executing_a_workflow.html)하는 방법, 데이터를 [타겟팅](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Targeting_data.html) 및 [관리](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Targeting_data.html#Data_Management)하는 방법, 데이터를 [가져오는](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html)[](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Updating_the_database)[ 방법, 데이터베이스를 업데이트하거나 게재를 보내기 위해 워크플로우 데이터를 사용하는 방법을 쉽게 찾을 수 있습니다](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Delivering_via_a_workflow).
 
