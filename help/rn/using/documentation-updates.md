@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 24d2dded38ddb922891a7264d9efea02cb448323
 workflow-type: tm+mt
-source-wordcount: '6943'
-ht-degree: 14%
+source-wordcount: '7069'
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,37 @@ ht-degree: 14%
 
 이 페이지에는 월별 및 Campaign 릴리스의 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
+
 자세한 내용은 [Adobe Campaign Classic 릴리스 노트를](../../rn/using/latest-release.md) 참조하십시오.
+
+## 2020년 8월 {#aug-2020}
+
+전용 섹션에서 Adobe Campaign을 사용한 전달 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다. [자세한 내용](../../delivery/using/delivery-best-practices.md)
+
+전달 능력 우수 사례 랜딩 페이지는 하위 섹션에 쉽게 액세스할 수 있도록 개선되었습니다. [자세한 내용](../../delivery/using/deliverability-key-points.md)
+
+이제 다음 주제에서 방법 비디오를 사용할 수 있습니다.
+
+* [분류 규칙 및 사전 정의된 필터를 사용하여 피로 관리를 설정하는 방법](../../campaign/using/about-campaign-typologies.md)
+
+* [캠페인에서 이메일을 만드는 방법](../../campaign/using/designing-marketing-campaigns.md)
+
+* [조건부 컨텐츠로 다국어 뉴스레터를 만드는 방법](../../delivery/using/conditional-content.md)
+
+* [배달 템플릿을 구성 및 배포하는 방법](../../delivery/using/creating-a-delivery-template.md)
+
+* [이메일에 AMP를 활성화하고 사용하는 방법](../../delivery/using/defining-interactive-content.md)
+
+* [다이내믹한 콘텐츠 블록을 사용하여 이메일을 개인화하는 방법](../../delivery/using/personalization-blocks.md)
+
+* [개인화 필드를 사용하여 이메일을 개인화하는 방법](../../delivery/using/personalization-fields.md)
+
+* [이메일을 통해 시드와 증거 자료를 관리하는 방법](../../delivery/using/steps-defining-the-target-population.md)
+
+* [반복 배달을 설정하는 방법](../../workflow/using/recurring-delivery.md)
+
+* [연속 배달을 설정하는 방법](../../workflow/using/continuous-delivery.md)
+
 
 ## 2020년 7월 {#july-2020}
 
@@ -67,7 +97,7 @@ Azure Synapse FDA 커넥터 - [자세한 내용](../../platform/using/specific-c
 
 **이 릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-트랜잭션 메시지 템플릿의 게시를 취소할 수 있는 새 옵션이 이 섹션에[설명되어 있습니다](../../message-center/using/template-unpublication.md).
+트랜잭션 메시지 템플릿 게시를 취소할 수 있는 새 옵션이 이 섹션에[설명되어 있습니다](../../message-center/using/template-unpublication.md).
 
 개인화된 URL과 첨부 파일에서 다운로드한 이미지가 포함된 이메일을 보낼 때 제한을 설정할 수 있는 새로운 옵션이 Campaign Classic 옵션 목록에 추가되었습니다. [자세한 내용](../../installation/using/configuring-campaign-options.md#delivery)
 
@@ -593,7 +623,7 @@ Oracle과 표준 시간대 파일 정렬에 대한 정보가 추가되었습니�
 즉시 사용 가능한 개인화 블록에 대한 새로운 정보로 &quot;개인화 블록&quot; 섹션을 재구성합니다.
 [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Personalizing_deliveries_Personalization_blocks.html)
 
-파일 구성에 대한 새 정보로 이메일 보관 섹션을 ```config-<instance name>.xml``` 재구성합니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Activating_email_archiving__on_premise_)
+파일 구성에 대한 새 정보로 이메일 보관 섹션을 다시 ```config-<instance name>.xml``` 정리했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Activating_email_archiving__on_premise_)
 
 메시지 센터(제어) 기술 워크플로우에 대한 정보가 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Technical_workflows_Message_Center__Control_.html)
 
