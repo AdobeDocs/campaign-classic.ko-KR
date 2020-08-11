@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 41c515008a12fa066cedc9d7125195e2c4776f40
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 2%
+source-wordcount: '710'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monitoring]** 탭은 인스턴스를 모니터링하는 데 도움이 되는 기본 시작 지점입니다.
 
-이 대시보드는 인스턴스에서 발생하는 사항에 대한 대시보드를 제공합니다. 상태(빌드 버전, 설치된 패키지 등), 시스템 표시기, 로그, 현재 실행 중인 워크플로우, 마지막 전송 상태 등
+이 대시보드는 인스턴스에서 발생하는 사항에 대한 대시보드를 제공합니다.상태(빌드 버전, 설치된 패키지 등), 시스템 표시기, 로그, 현재 실행 중인 워크플로우, 마지막 전송 상태 등
 
 자세한 정보는 [여기](../../production/using/monitoring-processes.md)에서 확인할 수 있습니다.
 
@@ -58,11 +58,11 @@ Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monit
 
 **컨트롤 패널**
 
-Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관리할 수 있습니다. URL 권한을 관리하고 서버의 빌드 버전 등과 같은 인스턴스 세부 정보를 확인합니다. 또한 인스턴스에 연결된 SFTP 서버의 사용 가능한 공간을 모니터링할 수 있습니다. [자세한 내용을 보려면 여기를](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) 클릭하십시오.
+Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관리할 수 있습니다.URL 권한을 관리하고 서버의 빌드 버전 등과 같은 인스턴스 세부 정보를 확인합니다. 또한 인스턴스에 연결된 SFTP 서버의 사용 가능한 공간을 모니터링할 수 있습니다. [자세한 내용을 보려면 여기를](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) 클릭하십시오.
 
 >[!NOTE]
 >
->Campaign 컨트롤 패널은 관리 사용자에게만 액세스할 수 있으며 Adobe Managed Services을 사용하는 모든 고객도 사용할 수 있습니다.
+>Campaign 컨트롤 패널은 관리 사용자에게만 액세스 가능하며 Adobe Managed Services를 사용하는 모든 고객은 사용할 수 있습니다.
 
 ### 워크플로우 모니터링 {#monitoring-workflows}
 
@@ -96,11 +96,11 @@ Workflow HeatMap은 인스턴스에서 실행 중인 모든 워크플로우를 �
 
 **SMTP 보고서**
 
-SMTP 보고서는 도메인별 배달 통계 및 SMTP 오류를 표시합니다. [자세한 내용을 보려면 여기를](../../production/using/monitoring-processes.md) 클릭하십시오.
+SMTP 보고서는 도메인별 배달 통계 및 SMTP 오류를 표시합니다. [자세히 알아보기](../../production/using/monitoring-processes.md)
 
 **권장사항**
 
-[전송 및 디자인에](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) 대한 모범 사례를 통해 이들의 성과를 향상시킬 수 있습니다.
+[전송 및 디자인에](../../delivery/using/delivery-best-practices.md) 대한 모범 사례를 통해 이들의 성과를 향상시킬 수 있습니다.
 
 **배달 문제 해결**&#x200B;과 관련된 문제가 발생할 때 특정 작업을 수행할 수 있습니다.
 * [전달 가능성 문제](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
