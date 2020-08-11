@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >개인화 블록은 다음에서도 사용할 수 있습니다 **[!UICONTROL Digital Content Editor (DCE)]** . For more on this, refer to [this page](../../web/using/editing-content.md#inserting-a-personalization-block).
 
-개인화 블록은 Adobe Campaign 탐색기의 **[!UICONTROL Resources > Campaign Management > Personalization blocks]** 노드를 통해 액세스합니다. 기본적으로 몇 개의 블록을 사용할 수 있습니다(기본 개인화 [블록](#out-of-the-box-personalization-blocks)참조).
+개인화 블록은 Adobe Campaign 탐색기의 노드를 통해 **[!UICONTROL Resources > Campaign Management > Personalization blocks]** 액세스합니다. 기본적으로 몇 개의 블록을 사용할 수 있습니다(기본 개인화 [블록](#out-of-the-box-personalization-blocks)참조).
 
 게재 개인화를 최적화할 수 있는 새로운 블록을 정의할 수 있습니다. 자세한 내용은 맞춤형 개인화 블록 [정의를 참조하십시오](#defining-custom-personalization-blocks).
 
@@ -101,18 +101,18 @@ HTML 소스 코드가 배달 컨텐츠에 삽입됩니다. 예를 들어 개인�
 
 ![](assets/s_ncs_user_personalized_block_list.png)
 
-* **[!UICONTROL Greetings]** : 받는 사람의 이름으로 인사를 삽입합니다. 예: &#39;안녕 존 도&#39;
-* **[!UICONTROL Insert logo]** : 인스턴스를 구성할 때 정의된 기본 로고를 삽입합니다.
-* **[!UICONTROL Powered by Adobe Campaign]** : &quot;Powered by Adobe Campaign&quot; 로고를 삽입합니다.
-* **[!UICONTROL Mirror page URL]** : 미러 페이지 URL을 삽입하여 배달 디자이너가 링크를 확인할 수 있도록 합니다.
+* **[!UICONTROL Greetings]** :받는 사람의 이름으로 인사를 삽입합니다. 예:&#39;안녕 존 도&#39;
+* **[!UICONTROL Insert logo]** :인스턴스를 구성할 때 정의된 기본 로고를 삽입합니다.
+* **[!UICONTROL Powered by Adobe Campaign]** :&quot;Powered by Adobe Campaign&quot; 로고를 삽입합니다.
+* **[!UICONTROL Mirror page URL]** :미러 페이지 URL을 삽입하여 배달 디자이너가 링크를 확인할 수 있도록 합니다.
 
    >[!NOTE]
    >
    >미러 페이지 생성에 대한 자세한 내용은 미러 페이지 [생성을 참조하십시오](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
-* **[!UICONTROL Link to mirror page]** : 미러 페이지에 링크를 삽입합니다. &quot;이 메시지를 제대로 볼 수 없는 경우 여기를 클릭하십시오.&quot;
-* **[!UICONTROL Unsubscription link]** : 모든 게재(블록 목록)에서 가입을 해지할 수 있는 링크를 삽입합니다.
-* **[!UICONTROL Formatting function for proper nouns]** : 각 단어의 첫 번째 문자를 대문자로 변경하는 Javascript 함수를 생성합니다. **[!UICONTROL toSmartCase]** 이 블록은 배달의 소스 코드에 삽입되어 **`<script>...</script>`** 태그에 삽입해야 합니다.
+* **[!UICONTROL Link to mirror page]** :미러 페이지에 링크를 삽입합니다.&quot;이 메시지를 제대로 볼 수 없는 경우 여기를 클릭하십시오.&quot;
+* **[!UICONTROL Unsubscription link]** :모든 게재(차단 목록)에서 가입을 해지할 수 있는 링크를 삽입합니다.
+* **[!UICONTROL Formatting function for proper nouns]** :각 단어의 첫 번째 문자를 대문자로 변경하는 Javascript 함수를 생성합니다. **[!UICONTROL toSmartCase]** 이 블록은 배달의 소스 코드에 삽입되어 **`<script>...</script>`** 태그에 삽입해야 합니다.
 
    아래 예에서 이 함수는 &quot;My header&quot; 요소를 &quot;My new header&quot;로 대체하고 각 단어에 대문자를 사용합니다.
 
@@ -125,18 +125,18 @@ HTML 소스 코드가 배달 컨텐츠에 삽입됩니다. 예를 들어 개인�
 
    ![](assets/s_ncs_user_personalized_block_uppercasefunction.png)
 
-* **[!UICONTROL Registration page URL]** : 구독 URL을 삽입합니다(서비스 및 구독 [정보 참조](../../delivery/using/about-services-and-subscriptions.md)).
-* **[!UICONTROL Registration link]** : 구독 링크를 삽입합니다. 인스턴스를 구성할 때 정의되었습니다.
-* **[!UICONTROL Registration link (with referrer)]** : 를 삽입하여 방문자 및 배달을 식별할 수 있도록 합니다. 인스턴스를 구성할 때 링크가 정의되어 있습니다.
+* **[!UICONTROL Registration page URL]** :구독 URL을 삽입합니다(서비스 및 구독 [정보 참조](../../delivery/using/about-services-and-subscriptions.md)).
+* **[!UICONTROL Registration link]** :구독 링크를 삽입합니다. 인스턴스를 구성할 때 정의되었습니다.
+* **[!UICONTROL Registration link (with referrer)]** :를 삽입하여 방문자 및 배달을 식별할 수 있도록 합니다. 인스턴스를 구성할 때 링크가 정의되어 있습니다.
 
    >[!NOTE]
    >
    >이 블록은 방문자만 대상으로 하는 배달에서 사용할 수 있습니다.
 
-* **[!UICONTROL Registration confirmation]** : 구독을 확인하는 링크를 삽입합니다.
-* **[!UICONTROL Social network sharing links]** : 수신자가 미러 페이지 컨텐츠에 대한 링크를 이메일 클라이언트, Facebook, Twitter, Google + 및 LinkedIn과 공유할 수 있도록 하는 단추를 삽입합니다( [바이럴 마케팅 참조: 친구에게](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)전달).
-* **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]** : 사전 정의된 HTML 스타일을 사용하여 이메일의 서식을 지정하는 코드를 생성합니다. 이러한 블록은 전달의 소스 코드에 삽입해야 하며, **[!UICONTROL ...]** 섹션의 소스 코드에 **`<style>...</style>`** 삽입해야 합니다.
-* **[!UICONTROL Offer acceptance URL in unitary mode]** : 상호 작용 오퍼를 설정할 수 있는 URL을 삽입합니다 **[!UICONTROL Accepted]** ( [이 섹션 참조](../../interaction/using/offer-analysis-report.md)).
+* **[!UICONTROL Registration confirmation]** :구독을 확인하는 링크를 삽입합니다.
+* **[!UICONTROL Social network sharing links]** :수신자가 미러 페이지 컨텐츠에 대한 링크를 이메일 클라이언트, Facebook, Twitter, Google + 및 LinkedIn과 공유할 수 있도록 하는 단추를 삽입합니다( [바이럴 마케팅 참조:친구에게](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)전달).
+* **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]** :사전 정의된 HTML 스타일을 사용하여 이메일의 서식을 지정하는 코드를 생성합니다. 이러한 블록은 전달의 소스 코드에 삽입해야 하며, **[!UICONTROL ...]** 섹션의 소스 코드에 **`<style>...</style>`** 삽입해야 합니다.
+* **[!UICONTROL Offer acceptance URL in unitary mode]** :상호 작용 오퍼를 설정할 수 있는 URL을 삽입합니다 **[!UICONTROL Accepted]** ( [이 섹션 참조](../../interaction/using/offer-analysis-report.md)).
 
 ## 맞춤형 개인화 블록 정의 {#defining-custom-personalization-blocks}
 
@@ -158,4 +158,10 @@ HTML 소스 코드가 배달 컨텐츠에 삽입됩니다. 예를 들어 개인�
 
       ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * 컨텐츠(HTML, 텍스트, JavaScript 등)를 입력합니다. 를 클릭한 다음 을 클릭합니다 **[!UICONTROL Save]** .
+   * 컨텐츠(HTML, 텍스트, JavaScript 등)를 입력합니다. 을 선택하고 을 클릭합니다 **[!UICONTROL Save]**.
+
+## 다이내믹한 콘텐츠 블록을 사용하여 이메일을 개인화하는 방법
+
+다이내믹한 콘텐츠 블록을 만든 방법과 이러한 콘텐츠 요소를 사용하여 이메일 전달 콘텐츠를 개인화하는 방법을 살펴볼 수 있습니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
