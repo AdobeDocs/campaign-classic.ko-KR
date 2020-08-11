@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 890153a5b30594a1cb90606db4be8fd1ec19267b
+source-git-commit: 2604df2e6b6a7520e2f2a82f04c75ceb749fde79
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ _2020년 7월 7일_
 
 빌드 9032@efd8a94에는 다음 수정 사항이 포함되어 있습니다.
 
-서명 기능이 비활성화되었을 때 또는 최근 Mid로 이전 마케팅 인스턴스를 사용할 때 추적이 작동하지 않는 문제를 해결했습니다. (NEO-26411)
+서명 기능이 비활성화되었을 때 추적을 수행할 수 없는 문제를 해결했습니다. (NEO-26411)
 
 >[!CAUTION]
 >
@@ -102,7 +102,7 @@ _2019년 12월 17일_
 
 빌드 9032@d6b8062에는 다음 수정 사항이 포함되어 있습니다.
 
-* 다음 통신 채널의 추적 문제가 해결되었습니다. 모바일(SMS, MMS), 푸시(iOS, Android) 및 소셜 네트워크(Facebook, Twitter)입니다. (NEO-19595)
+* 다음 통신 채널의 추적 문제가 해결되었습니다.모바일(SMS, MMS), 푸시(iOS, Android) 및 소셜 네트워크(Facebook, Twitter)입니다. (NEO-19595)
 
 ## ![](assets/do-not-localize/orange_2.png) Gold Standard 4 릴리스{#gs-4}
 
