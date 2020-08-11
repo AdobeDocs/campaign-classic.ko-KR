@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9e9b1352706e15a0d0c6ff8921e430524a44b13
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 1%
+source-wordcount: '868'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 개인화 필드는 전달된 메시지 컨텐츠의 첫 번째 수준 개인화에 사용됩니다. 기본 컨텐츠에 삽입하는 필드는 선택한 데이터 소스의 데이터를 삽입할 위치를 보여줍니다.
 
-예를 들어, **&lt;%= recipient.LastName %>** 구문을 사용하는 개인화 필드는 Adobe Campaign에 받는 사람의 이름을 데이터베이스에 삽입하도록 지시합니다(수신자 테이블).
+예를 들어, **&lt;%= recipient.LastName %>** 구문을 사용하는 개인화 필드는 Adobe Campaign에게 받는 사람의 이름을 데이터베이스에 삽입하도록 지시합니다(수신자 테이블).
 
 >[!NOTE]
 >
@@ -37,12 +37,12 @@ ht-degree: 1%
 
 선택한 전달 모드에 따라 개인화 필드는 두 가지 데이터 소스에서 온 것일 수 있습니다.
 
-* Adobe Campaign 데이터베이스는 데이터 소스입니다. 이는 &#39;수신자 개인화 필드&#39;와 같은 가장 일반적인 사례입니다. 표준 필드(일반적으로 다음과 같이)에 관계없이 수신자 테이블에 정의된 모든 필드입니다. 성, 이름, 주소, 마을, 생년월일 등) 또는 사용자 정의 필드.
+* Adobe Campaign 데이터베이스는 데이터 소스입니다. 이는 &#39;수신자 개인화 필드&#39;와 같은 가장 일반적인 사례입니다. 표준 필드(일반적으로 다음과 같이)에 관계없이 수신자 테이블에 정의된 모든 필드입니다.성, 이름, 주소, 마을, 생년월일 등) 또는 사용자 정의 필드.
 * 외부 파일은 데이터 소스입니다. 외부 파일에서 찾은 데이터를 사용하여 배달 중에 입력으로 표시된 파일의 열에 정의된 모든 필드입니다.
 
 >[!NOTE]
 >
->Adobe Campaign 개인화 태그에는 항상 **&lt;%=table.field%>**&#x200B;양식이 있습니다.
+>Adobe Campaign 개인화 태그에는 항상 **&lt;%=table.field%>**&#x200B;형식이 있습니다.
 
 ## 개인화 필드 삽입 {#inserting-a-personalization-field}
 
@@ -50,22 +50,22 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_add_custom_field.png)
 
-데이터 소스(수신자 필드 또는 파일 필드)를 선택한 후 이 삽입은 Adobe Campaign으로 해석되고 지정된 수신자에 대한 필드 값으로 바뀌는 명령 형태를 취합니다. 그런 다음 **[!UICONTROL Preview]** 탭에서 물리적 교체를 볼 수 있습니다.
+데이터 소스(수신자 필드 또는 파일 필드)를 선택한 후 이 삽입을 하면 명령 형식이 되어 Adobe Campaign에 의해 해석되고 주어진 받는 사람의 필드 값으로 대체됩니다. 그런 다음 **[!UICONTROL Preview]** 탭에서 물리적 교체를 볼 수 있습니다.
 
 ## 개인화 필드 예 {#personalization-fields-example}
 
-먼저 받는 사람의 이름을 삽입한 다음 메시지 본문에 프로필 작성 날짜를 추가하는 이메일을 만듭니다. 이렇게 하려면:
+먼저 받는 사람의 이름을 삽입한 다음 메시지 본문에 프로필 작성 날짜를 추가하는 이메일을 만듭니다. 방법은 다음과 같습니다.
 
 1. 새 배달을 만들거나 기존 이메일 유형 배달을 엽니다.
 1. 배달 마법사에서 메시지 제목 **[!UICONTROL Subject]** 을 클릭하여 편집하고 제목을 입력합니다.
-1. &quot; **[!UICONTROL Special offer for]** &quot;을 입력하고 도구 모음에서 단추를 사용하여 개인화 필드를 삽입합니다. 선택합니다 **[!UICONTROL Recipients>Title]**.
+1. &quot; **[!UICONTROL Special offer for]** &quot;을 입력하고 도구 모음에서 단추를 사용하여 개인화 필드를 삽입합니다. **[!UICONTROL Recipients>Title]**&#x200B;을(를) 선택합니다.
 
    ![](assets/s_ncs_user_insert_custom_field.png)
 
 1. 받는 사람의 이름을 삽입하려면 작업을 반복합니다. 모든 개인화 필드 사이에 공백을 삽입합니다.
 1. 을 **[!UICONTROL OK]** 클릭하여 유효성을 확인합니다.
 1. 메시지 본문에 개인화를 삽입합니다. 이렇게 하려면 메시지 내용을 클릭하고 필드 삽입 단추를 클릭합니다.
-1. 선택합니다 **[!UICONTROL Recipient>Other...]**.
+1. **[!UICONTROL Recipient>Other...]**&#x200B;을(를) 선택합니다.
 
    ![](assets/s_ncs_user_insert_custom_field_b.png)
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >게재가 워크플로우의 일부인 경우 임시 워크플로우 테이블의 데이터를 사용할 수 있습니다. 이 데이터는 **[!UICONTROL Target extension]** 메뉴에서 그룹화됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/data-life-cycle.md#target-data)을 참조하십시오.
+   >게재가 워크플로우의 일부인 경우 임시 워크플로우 테이블의 데이터를 사용할 수 있습니다. 이 데이터는 **[!UICONTROL Target extension]** 메뉴에서 그룹화됩니다. 자세한 정보는 [이 섹션](../../workflow/using/data-life-cycle.md#target-data)을 참조하십시오.
 
 ## 개인화 최적화 {#optimizing-personalization}
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
 이 옵션을 사용하려면 아래 절차를 따르십시오.
 
-1. 캠페인을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
+1. 캠페인 만들기. 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
 1. 캠페인 **[!UICONTROL Targeting and workflows]** 탭에서 워크플로우에 **쿼리** 활동을 추가합니다. For more on using this activity, refer to [this section](../../workflow/using/query.md).
 1. 워크플로우에 **[!UICONTROL Email delivery]** 활동을 추가하고 엽니다. For more on using this activity, refer to [this section](../../workflow/using/delivery.md).
 1. 의 **[!UICONTROL Analysis]** 탭으로 **[!UICONTROL Delivery properties]** 가서 **[!UICONTROL Prepare the personalization data with a workflow]** 옵션을 선택합니다.
@@ -123,3 +123,9 @@ ht-degree: 1%
 기본값은 5초입니다.
 
 이 옵션을 0으로 설정하면 개인화 단계에 대한 제한 시간이 없습니다.
+
+## 개인화 필드를 사용하여 이메일을 개인화하는 방법
+
+제목 줄과 이메일 전달 내용에 개인화 필드를 추가하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
