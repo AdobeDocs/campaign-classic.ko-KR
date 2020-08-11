@@ -13,23 +13,23 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9b6ae9f7e2f3b15698f1a420b5416162cbcc758
+source-git-commit: 251244225076dd11a319d1c4b2124c0d05168eaa
 workflow-type: tm+mt
-source-wordcount: '1987'
-ht-degree: 1%
+source-wordcount: '1976'
+ht-degree: 3%
 
 ---
 
 
 # 최신 릴리스{#latest-release}
 
-![](assets/do-not-localize/cp-icon.png) **활성 프로파일 모니터링, 하위 도메인 전달 기능 감사 및 GPG 키 관리가 포함된 새로운 Campaign 컨트롤 패널 6월 릴리스** . [자세한](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)내용
+![](assets/do-not-localize/cp-icon.png) **활성 프로파일 모니터링, 하위 도메인 전달 기능 감사 및 GPG 키 관리가 포함된 새로운 Campaign 컨트롤 패널 6월 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/blue_2.png) 릴리스 20.2.1 - 빌드 9180 {#release-20-2-2-build-9180}
+## ![](assets/do-not-localize/blue_2.png) 릴리스 20.2.2 - 빌드 9180 {#release-20-2-2-build-9180}
 
 _2020년 7월 22일_
 
-* 서명 기능이 비활성화되었을 때 또는 최근 Mid로 이전 마케팅 인스턴스를 사용할 때 추적이 작동하지 않는 문제를 해결했습니다. (NEO-26411)
+* 서명 기능이 비활성화되었을 때 추적을 수행할 수 없는 문제를 해결했습니다. (NEO-26411)
 * 개인화된 도메인에서 비서명되지 않은 링크가 허용되어야 하는 문제가 해결되었습니다. (NEO-25210)
 * 특정 이전 버전의 Outlook을 사용할 때 추적 URL을 열거나 클릭하지 못하는 문제를 해결했습니다. (NEO-25688)
 * 페이지 URL이 이메일 배달에서 잘못 정의되던 문제를 수정했습니다. (NEO-26084)
@@ -51,7 +51,7 @@ _2020년 7월 22일_
 
 _2020년 6월 8일_
 
-**새로운 기능?**
+**새로운 소식**
 
 <table> 
  <thead> 
@@ -95,8 +95,8 @@ _2020년 6월 8일_
    <p>브라질의 레이제랄 드 프로테카앙 데 도도스(LGPD)는 8월 16일부터 브라질의 개인 데이터를 수집하거나 처리하는 모든 회사에 대해 효력을 발휘한다.</p>
    <p>이러한 규정은 해당 국가에 있는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다. Adobe는 Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보존 설정 및 사용자 역할 포함) 이외에도 다음과 같은 추가 기능을 추가하여 PDPA 및 LGPD에 대한 귀하의 준비를 도울 수 있습니다.</p>
    <ul> 
-     <li><p>액세스 권한 및 삭제 권한: 우리는 GDPR 및 CPA에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">자세한 내용</a></p></li> 
-     <li> <p>캠페인 인터페이스 또는 API를 사용하여 개인 정보 요청을 만들 때 이제 <strong>규정</strong> 유형을 선택합니다. PDPA, LGPD, GDPR, CPA. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests">자세한 내용</a></p></li>
+     <li><p>액세스 권한 및 삭제 권한: Adobe는 GDPR 및 CCPA에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">자세한 내용</a></p></li> 
+     <li> <p>캠페인 인터페이스 또는 API를 사용하여 개인 정보 요청을 만들 때 이제 <strong>규정</strong> 유형을 선택합니다.PDPA, LGPD, GDPR, CPA. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests">자세한 내용</a>.</p></li>
     </ul>
    </td> 
   </tr> 
@@ -118,19 +118,19 @@ _2020년 6월 8일_
 **향상된 호환성**
 
 이제 다음 시스템이 Campaign에서 지원됩니다.
-* 운영 체제: 데비안 10
-* RDBMS: Oracle 18c 및 Oracle 19c
-* FDA: Azure Synapse Analytics
+* 운영 체제:데비안 10
+* RDBMS:Oracle 18c 및 Oracle 19c
+* FDA:Azure 구문 분석
 
 자세한 내용은 [캠페인 호환성 매트릭스를 참조하십시오](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
 **향상된 기능**
 
-* 트랜잭션 메시지 기능이 개선되어 사용자 경험이 향상되었습니다. 이제 실행 인스턴스에서 삭제되는 트랜잭션 메시지 템플릿을 게시 취소할 수 있습니다. [자세한](../../message-center/using/template-unpublication.md)내용
+* 트랜잭션 메시지 기능이 개선되어 사용자 경험이 향상되었습니다. 이제 실행 인스턴스에서 삭제되는 트랜잭션 메시지 템플릿을 게시 취소할 수 있습니다. [자세히 알아보기](../../message-center/using/template-unpublication.md).
 
 * 이미지나 첨부 파일이 포함된 이메일을 보낼 때 제한을 설정하는 새로운 옵션을 사용할 수 있습니다. 이러한 경고는 성능 문제를 방지할 수 있으며 이는 트랜잭션 메시징에서 특히 유용합니다. [자세한 내용](../../installation/using/configuring-campaign-options.md#delivery)
 
-* 새로운 **데이터베이스** 제공 부분 준비 옵션을 사용하면 데이터베이스 내에서 직접 배달 준비를 수행할 수 있으므로 분석 시간을 크게 단축할 수 있습니다. 이 옵션은 특정 구성에만 사용할 수 있습니다. [자세한](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis)내용 (NEO-23886)
+* 새로운 **데이터베이스** 제공 부분 준비 옵션을 사용하면 데이터베이스 내에서 직접 배달 준비를 수행할 수 있으므로 분석 시간을 크게 단축할 수 있습니다. 이 옵션은 특정 구성에만 사용할 수 있습니다. [자세히 알아보기](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis). (NEO-23886)
 
 * Microsoft Dynamics용 [CRM 커넥터 작업](../../workflow/using/crm-connector.md) 성능이 향상되었습니다. (NEO-13303, NEO-12710)
 
@@ -140,17 +140,17 @@ _2020년 6월 8일_
    >
    >이 개선 사항은 업그레이드를 수행한 후 추가 단계가 필요합니다. 아래의 **기술 발전** 섹션을 참조하십시오.
 
-* 정리 워크플로우가 향상되었습니다. 이제 삭제된 모든 워크플로우의 고아 작업 테이블도 정리 워크플로우에 의해 자동으로 삭제됩니다. [자세한](../../production/using/database-cleanup-workflow.md#cleanup-of-workflow-instances)내용
+* 정리 워크플로우가 향상되었습니다. 이제 삭제된 모든 워크플로우의 고아 작업 테이블도 정리 워크플로우에 의해 자동으로 삭제됩니다. [자세히 알아보기](../../production/using/database-cleanup-workflow.md#cleanup-of-workflow-instances).
 
 * 이제 푸시 알림을 전송하기 전에 iOS HTTP2 커넥터를 사용하는 iOS 모바일 응용 프로그램에 대한 인증서의 유효성을 검사하여 인증서 만료로 인해 배달이 실패하지 못하도록 합니다.
 
-* HTTP 프록시 연결 관리가 향상되었습니다. [자세한](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)내용
+* HTTP 프록시 연결 관리가 향상되었습니다. [자세히 알아보기](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
 
 **기타 변경 사항**
 
 * 기존 SMS 커넥터는 이제 더 이상 사용되지 않습니다. 더 이상 사용되지 않는 [기능 페이지를 참조하십시오](../../rn/using/deprecated-features.md).
 
-* 더 이상 자체 리트머스 계정을 사용하여 Adobe Campaign에서 받은 편지함 렌더링을 준비하고 사용할 수 없습니다. [자세한](../../delivery/using/inbox-rendering.md)내용
+* 더 이상 자신의 리트머스 계정을 사용하여 Adobe Campaign에서 받은 편지함 렌더링을 제공하고 사용할 수 없습니다. [자세히 알아보기](../../delivery/using/inbox-rendering.md).
 
 * 뷰를 폴더와 구분하기 위해 뷰 이름의 색상이 짙은 파란색에서 어두운 청록색으로 변경되었습니다. [자세한 내용](../../platform/using/access-management.md#about-views)
 
@@ -162,7 +162,7 @@ _2020년 6월 8일_
 
 * 다운로드한 파일이 디스크 공간보다 클 때 사용자에게 경고하기 위해 로그 파일에 오류 메시지가 추가되었습니다.
 
-* 이제 Snowflake 커넥터에 다음 기능을 사용할 수 있습니다. MonthiesAgoInt, ToDateTime, YearsAgo.
+* 이제 Snowflake 커넥터에 다음 기능을 사용할 수 있습니다.MonthiesAgoInt, ToDateTime, YearsAgo.
 
 **기술 발전**
 
@@ -218,7 +218,7 @@ Linux의 예는 이 [페이지에서 확인할 수 있습니다](../../configura
 * 반복 배달을 보내는 워크플로우를 다시 시작할 때 타겟 승인 단계를 건너뛰던 문제를 수정했습니다. (NEO-18166)
 * 워크플로우에서 오류를 수정한 후 메시지 **다시 시작 준비** 단추가 배달을 다시 시작하지 못하는 문제를 해결했습니다. (NEO-13488)
 * 타겟이 일본어 이메일 포맷에 수신자를 포함하는 램프 업 단계 중 중간 소싱 모드에서 배달이 실패할 수 있는 문제를 수정했습니다. (NEO-23846)
-* Snowflake Connector의 표준 시간대 변환 문제가 해결되었습니다(NEO-20105).
+* Snowflake 커넥터의 표준 시간대 변환 문제가 해결되었습니다(NEO-20105).
 * SSL을 통해 FTP를 사용하는 외부 계정 문제를 해결했습니다. (NEO-20498)
 * 라인 배달에서 이미지가 표시되지 않는 문제를 해결했습니다. (NEO-23207)
 * 오퍼를 게시할 때 오류가 발생하던 문제를 수정했습니다. (NEO-23312)
