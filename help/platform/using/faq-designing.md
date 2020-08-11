@@ -14,9 +14,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 # 메시지 디자인 FAQ {#design-messages-faq}
 
-Adobe Campaign을 사용하여 옴니채널 메시지를 디자인하는 주요 단계를 살펴볼 수 있습니다.
+Adobe Campaign에서 옴니채널 메시지를 디자인하는 주요 단계를 살펴볼 수 있습니다.
 
 ## Campaign을 사용하여 이메일을 디자인할 때 구체적인 가이드라인이 있습니까? {#are-there-specific-guidelines-when-designing-emails-with-campaign-}
 
-이메일 디자인을 시작하기 전에 Adobe Campaign을 통해 전달 디자인 및 전송과 관련된 개념과 모범 사례를 살펴보십시오.
+이메일을 디자인하기 전에 Adobe Campaign에서 전달 디자인 및 전송과 관련된 개념과 모범 사례를 살펴보십시오.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
+[자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/delivery-best-practices.md).
 
 ## 배달 템플릿이란 무엇입니까? {#what-is-a-delivery-template-}
 
@@ -46,15 +46,15 @@ Adobe Campaign을 사용하여 옴니채널 메시지를 디자인하는 주요 
 
 ## 캠페인 DCE를 사용하여 이메일 컨텐츠를 만드는 방법? {#how-to-use-campaign-dce-to-create-an-email-content-}
 
-[Campaign 디지털 컨텐츠 편집기를 사용하여 이메일 디자인](../../web/using/use-case--creating-an-email-delivery.md): 예를 통해 Campaign DCE를 사용하여 이메일을 디자인하는 방법을 알아봅니다.
+[Campaign 디지털 컨텐츠 편집기를 사용하여 이메일 디자인](../../web/using/use-case--creating-an-email-delivery.md):예를 통해 Campaign DCE를 사용하여 이메일을 디자인하는 방법을 알아봅니다.
 
 ## Campaign에서 구독 기반 뉴스레터를 만들려면 어떻게 해야 합니까? {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 
-[뉴스레터 서비스](../../delivery/using/managing-subscriptions.md)만들기: 뉴스레터를 만들고 구독을 관리하는 주요 단계입니다.
+[뉴스레터 서비스](../../delivery/using/managing-subscriptions.md)만들기:뉴스레터를 만들고 구독을 관리하는 주요 단계입니다.
 
 ## 메시지를 개인화하려면 어떻게 해야 합니까? {#how-can-i-personalize-messages-}
 
-Adobe Campaign에서 제공하는 메시지는 컨텐츠 또는 메시지 모양과 관련하여 다양한 방법으로 개인화할 수 있습니다. 이러한 방법은 특히 수신자 프로필에서 가져온 기준에 따라 결합할 수 있습니다. 일반적으로 Adobe Campaign을 사용하면 다음 작업을 수행할 수 있습니다.
+Adobe Campaign이 전달하는 메시지는 내용 또는 메시지 모양과 관련하여 여러 가지 방법으로 개인화할 수 있습니다. 이러한 방법은 특히 수신자 프로필에서 가져온 기준에 따라 결합할 수 있습니다. 일반적으로 Adobe Campaign은 다음과 같은 이점을 제공합니다.
 
 * 메시지 형식을 개인화합니다. [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/defining-the-email-content.md#message-content).
 * 동적 개인화 필드 삽입 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/personalization-fields.md).
