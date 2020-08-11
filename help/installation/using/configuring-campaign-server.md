@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '3608'
+source-wordcount: '3593'
 ht-degree: 3%
 
 ---
@@ -31,19 +31,19 @@ ht-degree: 3%
 >
 >이러한 구성은 관리자가 수행해야 하고 온-프레미스 **호스팅 모델만** 수행해야 합니다.
 >
->호스팅 **** 배포의 경우 서버측 설정은 Adobe에서만 구성할 수 있습니다. 그러나 일부 설정은 제어판에서 설정할 수 있습니다(예: IP는 목록 관리 또는 URL 권한 허용).
+>호스팅 **배포의** 경우 서버측 설정은 Adobe에서만 구성할 수 있습니다. 하지만 일부 설정은 Campaign 컨트롤 패널 내에서 설정할 수 있습니다(예: IP 허용 목록 관리 또는 URL 권한).
 
 자세한 내용은 다음 섹션을 참조하십시오.
 
-* [제어판 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
+* [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 * [호스팅 모델](../../installation/using/hosting-models.md)
 * [Campaign Classic 온프레미스 및 호스팅 기능 매트릭스](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)
-* [하이브리드 및 호스팅 모델 구성 단계](https://docs.campaign.adobe.com/doc/AC/en/INS_Hybrid_and_Hosted_models_About_hybrid_and_hosted_models.html)
+* [하이브리드 및 호스팅 모델 구성 단계](../../installation/using/about-hybrid-and-hosted-models.md) )
 
 Campaign Classic 구성 파일은 Adobe Campaign 설치 폴더의 **conf** 폴더에 저장됩니다. 구성은 다음 두 파일에 분산됩니다.
 
-* **serverConf.xml**: 모든 인스턴스에 대한 일반 구성. 이 파일은 Adobe Campaign 서버의 기술 매개 변수를 결합합니다. 모든 인스턴스에서 공유됩니다. 이러한 매개 변수 중 일부에 대한 설명은 아래에 자세히 나와 있습니다. 이 [섹션에 나열된 다른 노드 및 매개 변수입니다](../../installation/using/the-server-configuration-file.md).
-* **config-`<instance>`.xml** (여기서 **instance** 는 인스턴스 이름): 인스턴스의 특정 구성. 여러 인스턴스 간에 서버를 공유하는 경우 관련 파일의 각 인스턴스에 해당하는 매개 변수를 입력하십시오.
+* **serverConf.xml**:모든 인스턴스에 대한 일반 구성. 이 파일은 Adobe Campaign 서버의 기술 매개 변수를 결합합니다.모든 인스턴스에서 공유됩니다. 이러한 매개 변수 중 일부에 대한 설명은 아래에 자세히 나와 있습니다. 이 [섹션에 나열된 다른 노드 및 매개 변수입니다](../../installation/using/the-server-configuration-file.md).
+* **config-`<instance>`.xml** (여기서 **instance** 는 인스턴스 이름):인스턴스의 특정 구성. 여러 인스턴스 간에 서버를 공유하는 경우 관련 파일의 각 인스턴스에 해당하는 매개 변수를 입력하십시오.
 
 ## 보안 영역 정의 {#defining-security-zones}
 
@@ -81,7 +81,7 @@ Campaign Classic 구성 파일은 Adobe Campaign 설치 폴더의 **conf** 폴�
 
 >[!NOTE]
 >
->**기본 구성은 안전합니다**. 그러나 이전 버전의 Adobe Campaign에서 마이그레이션하기 전에 새 규칙을 마이그레이션하고 승인하려면 일시적으로 보안을 줄여야 할 수도 있습니다.
+>**기본 구성은 안전합니다**. 그러나 이전 버전의 Adobe Campaign에서 마이그레이션하기 전에 새 규칙을 마이그레이션하고 승인하려면 일시적으로 보안을 축소해야 할 수도 있습니다.
 
 serverConf.xml **** 파일에서 영역을 정의하는 방법의 예:
 
@@ -109,12 +109,12 @@ serverConf.xml **** 파일에서 영역을 정의하는 방법의 예:
 
 영역을 정의하는 모든 권한은 다음과 같습니다.
 
-* **allowDebug**: webApp을 &quot;debug&quot; 모드로 실행할 수 있도록 설정
-* **allowEmptyPassword**: 암호 없는 인스턴스에 대한 연결을 허용합니다.
-* **allowHTTP**: HTTPS 프로토콜을 사용하지 않고 세션 생성 가능
-* **allowUserPassword**: 세션 토큰에는 &quot;`<login>/<password>`&quot; 양식이 있을 수 있습니다.
-* **sessionTokenOnly**: 연결 URL에는 보안 토큰이 필요하지 않습니다.
-* **showErrors**: 서버측 오류가 전달되어 표시됩니다.
+* **allowDebug**:webApp을 &quot;debug&quot; 모드로 실행할 수 있도록 설정
+* **allowEmptyPassword**:암호 없는 인스턴스에 대한 연결을 허용합니다.
+* **allowHTTP**:HTTPS 프로토콜을 사용하지 않고 세션 생성 가능
+* **allowUserPassword**:세션 토큰에는 &quot;`<login>/<password>`&quot; 양식이 있을 수 있습니다.
+* **sessionTokenOnly**:연결 URL에는 보안 토큰이 필요하지 않습니다.
+* **showErrors**:서버측 오류가 전달되어 표시됩니다.
 
 >[!IMPORTANT]
 >
@@ -166,19 +166,19 @@ lan **보안 영역의 정의에서 기술 액세스를 정의하는 IP** 주소
 >
 >또한 이제 레이가 프록시처럼 생성됩니다. 따라서 보안 영역 구성의 프록시 목록에 IP 주소 127.0.0.1을 추가할 수 있습니다.
 >
->For example: &quot; `<subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />`&quot;.
+>예제: &quot; `<subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />`&quot;.
 
 다음과 같은 여러 가지 경우가 발생할 수 있습니다.
 
-* 하위 네트워크는 보안 영역에서 직접 참조되며 프록시가 구성되지 않습니다. 하위 네트워크 사용자는 Adobe Campaign 서버에 직접 연결할 수 있습니다.
+* 하위 네트워크는 보안 영역에서 직접 참조되며 프록시가 구성되지 않습니다.하위 네트워크 사용자는 Adobe Campaign 서버에 직접 연결할 수 있습니다.
 
    ![](assets/8101_proxy1.png)
 
-* 보안 영역의 하위 네트워크에 대해 프록시가 지정되었습니다. 이 하위 네트워크의 사용자는 이 프록시를 통해 Adobe Campaign 서버에 액세스할 수 있습니다.
+* 보안 영역의 하위 네트워크에 대해 프록시가 지정되었습니다.이 하위 네트워크의 사용자는 이 프록시를 통해 Adobe Campaign 서버에 액세스할 수 있습니다.
 
    ![](assets/8101_proxy2.png)
 
-* 프록시는 보안 영역 하위 네트워크에 포함됩니다. 이 프록시를 통해 액세스할 수 있는 사용자는 원본에 관계없이 Adobe Campaign 서버에 액세스할 수 있습니다.
+* 프록시는 보안 영역 하위 네트워크에 포함됩니다.이 프록시를 통해 액세스할 수 있는 사용자는 원본에 관계없이 Adobe Campaign 서버에 액세스할 수 있습니다.
 
    ![](assets/8101_proxy3.png)
 
@@ -280,7 +280,7 @@ Tomcat 서버의 8080 의견 수렴 포트가 구성에 필요한 다른 애플�
 
 MTA 모듈은 SMTP 브로드캐스트(포트 25)에 대한 기본 메일 전송 에이전트 역할을 합니다.
 
-그러나 보안 정책에 필요한 경우 릴레이 서버로 바꿀 수 있습니다. In that case, the global throughput will be the relay one (if the relay server throughput is lower to the Adobe Campaign one).
+그러나 보안 정책에 필요한 경우 릴레이 서버로 바꿀 수 있습니다. In that case, the global throughput will be the relay one (if the relay server throughput is less to the Adobe Campaign one).
 
 이 경우 이러한 매개 변수는 **`<relay>`** 섹션에서 SMTP 서버를 구성하여 설정됩니다. 메일 및 관련 포트를 전송하는 데 사용되는 SMTP 서버의 IP 주소(또는 호스트)를 기본적으로 25개 지정해야 합니다.
 
@@ -314,9 +314,9 @@ IP 주소가 있는 친화성을 통해 아웃바운드 SMTP 트래픽을 개선
 
 1. serverConf.xml **`<ipaffinity>`** 파일의 섹션 **에 해당 기능을** 입력합니다.
 
-   선호도 한 개에는 여러 개의 이름이 있을 수 있습니다. 구분하려면, **;** character.
+   선호도 한 개에는 여러 개의 이름이 있을 수 있습니다.구분하려면, **;** character.
 
-   예:
+   예제:
 
    ```
     IPAffinity name="mid.Server;WWserver;local.Server">
@@ -351,16 +351,16 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 URL 권한을 관리할 수 있는 방법은 호스팅 모델에 따라 다릅니다.
 
-* **하이브리드** 또는 **온-프레미스**: serverConf.xml 파일에 허용하도록 URL을 **추가합니다**. 자세한 내용은 아래 섹션에 나와 있습니다.
-* **호스팅**: 제어판을 통해 허용할 URL을 **추가합니다**. 자세한 내용은 [전용 설명서](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/url-permissions.html)를 참조하십시오.
+* **하이브리드** 또는 **온-프레미스**:serverConf.xml 파일에 허용하도록 URL을 **추가합니다**. 자세한 내용은 아래 섹션에 나와 있습니다.
+* **호스팅**:campaign 컨트롤 패널을 통해 허용할 URL을 **추가합니다**. 자세한 내용은 [전용 설명서](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/url-permissions.html)를 참조하십시오.
 
 하이브리드 ******및** 온-프레미스 **호스팅 모델을 사용하는 관리자는** serverConf.xmlFile에서 새 **urlPermission** 을 참조해야합니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
 
 연결 보호 모드는 다음과 같습니다.
 
-* **차단**: 허용 목록에 속하지 않는 모든 URL이 차단되고 오류 메시지가 표시됩니다. 업그레이드 후 기본 모드입니다.
-* **자유로운**: 허용 목록에 속하지 않는 모든 URL이 허용됩니다.
-* **경고**: 허용 목록에 속하지 않는 모든 URL은 허용되지만 JS 인터프리터는 관리자가 수집할 수 있도록 경고를 전송합니다. 이 모드에서는 JST-310027 경고 메시지가 추가됩니다.
+* **차단**:허용 목록에 속하지 않은 모든 URL이 차단되고 오류 메시지가 표시됩니다. 업그레이드 후 기본 모드입니다.
+* **자유로운**:허용 목록에 속하지 않는 모든 URL이 허용됩니다.
+* **경고**:허용 목록에 속하지 않은 모든 URL은 허용되지만 JS 인터프리터는 관리자가 수집할 수 있도록 경고를 전송합니다. 이 모드에서는 JST-310027 경고 메시지가 추가됩니다.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -372,15 +372,15 @@ URL 권한을 관리할 수 있는 방법은 호스팅 모델에 따라 다릅�
 
 >[!IMPORTANT]
 >
->기본적으로 새 고객의 클라이언트는 **차단 모드를 사용합니다**. 새 URL을 허용해야 하는 경우 관리자에게 문의하여 허용 목록에 추가해야 합니다.
+>기본적으로 새 고객의 클라이언트는 **차단 모드를 사용합니다**. 새 URL을 허용해야 하는 경우 관리자에게 연락하여 허용 목록에 추가해야 합니다.
 >
->마이그레이션에서 오는 기존 고객은 잠시 동안 **경고 모드를** 사용할 수 있습니다. 동시에 URL을 인증하기 전에 아웃바운드 트래픽을 분석해야 합니다. 인증된 URL 목록이 정의된 경우 관리자는 관리자에게 문의하여 허용 목록에 URL을 추가하고 **차단 모드를 활성화해야 합니다**.
+>마이그레이션에서 오는 기존 고객은 잠시 동안 **경고 모드를** 사용할 수 있습니다. 동시에 URL을 인증하기 전에 아웃바운드 트래픽을 분석해야 합니다. 인증된 URL 목록이 정의되면 관리자는 관리자에게 문의하여 허용 목록에 URL을 추가하고 **차단 모드를 활성화해야 합니다**.
 
 ## 동적 페이지 보안 및 릴리스 {#dynamic-page-security-and-relays}
 
 기본적으로 모든 동적 페이지는 웹 모듈이 시작된 컴퓨터의 **로컬** Tomcat 서버와 자동으로 연결됩니다. 이 구성은 ServerConf.xml **`<url>`** 파일의 쿼리 릴레이 구성 섹션에 **** 입력되어 있습니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
 
-**원격** 서버에서 동적 페이지의 실행을 중계하려면 컴퓨터에서 웹 모듈이 활성화되지 않은 경우 이렇게 하려면 **localhost를 JSP 및 JSSP, 웹 애플리케이션, 보고서 및 문자열에 대한 원격 컴퓨터** 이름으로 대체해야 합니다.
+**원격** 서버에서 동적 페이지의 실행을 중계하려면컴퓨터에서 웹 모듈이 활성화되지 않은 경우 이렇게 하려면 **localhost를 JSP 및 JSSP, 웹 애플리케이션, 보고서 및 문자열에 대한 원격 컴퓨터** 이름으로 대체해야 합니다.
 
 사용할 수 있는 다양한 매개 변수에 대한 자세한 내용은 **serverConf.xml** 구성 파일을 참조하십시오.
 
@@ -392,17 +392,17 @@ JSP 페이지의 기본 구성은 다음과 같습니다.
 
 Adobe Campaign은 다음 JSP 페이지를 사용합니다.
 
-* /nl/jsp/**soaprouter.jsp**: 클라이언트 콘솔 및 웹 서비스 연결(SOAP API),
-* /nl/jsp/**m.jsp**: 페이지,
-* /nl/jsp/**logon.jsp**: 보고서에 대한 웹 기반 액세스 및 클라이언트 콘솔 배포
-* /nl/jsp/**s.jsp** : 바이러스 마케팅(후원 및 소셜 네트워크) 사용
+* /nl/jsp/**soaprouter.jsp**:클라이언트 콘솔 및 웹 서비스 연결(SOAP API),
+* /nl/jsp/**m.jsp**:페이지,
+* /nl/jsp/**logon.jsp**:보고서에 대한 웹 기반 액세스 및 클라이언트 콘솔 배포
+* /nl/jsp/**s.jsp** :바이러스 마케팅(후원 및 소셜 네트워크) 사용
 
 모바일 앱 채널에 사용되는 JSSP는 다음과 같습니다.
 
 * nms/mobile/1/registerIOS.jssp
 * nms/mobile/1/registerAndroid.jssp
 
-**예:**
+**예제:**
 
 클라이언트 컴퓨터가 외부에 연결되지 않도록 할 수 있습니다. 이렇게 하려면 Sourcoter.jsp **의** 실행을 제한하고 미러 페이지, 바이럴 링크, 웹 양식 및 공개 리소스 실행만 승인합니다.
 
@@ -457,13 +457,13 @@ sh
 
 서버 구성 파일의 **실행** 노드에서 이전에 만든 파일을 blocklistFile **속성에서 참조해야** 합니다.
 
-**Linux 전용**: 서버 구성 파일에서 보안 구성을 향상시키기 위해 외부 명령을 실행하는 전용 사용자를 지정하는 것이 좋습니다. 이 사용자는 구성 파일의 **실행** 노드에서 설정됩니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
+**Linux 전용**:서버 구성 파일에서 보안 구성을 향상시키기 위해 외부 명령을 실행하는 전용 사용자를 지정하는 것이 좋습니다. 이 사용자는 구성 파일의 **실행** 노드에서 설정됩니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
 
 >[!NOTE]
 >
->사용자를 지정하지 않으면 Adobe Campaign 인스턴스의 사용자 컨텍스트에서 모든 명령이 실행됩니다. 사용자는 Adobe Campaign을 실행하는 사용자와 달라야 합니다.
+>사용자를 지정하지 않으면 모든 명령이 Adobe Campaign 인스턴스의 사용자 컨텍스트에서 실행됩니다. 사용자는 Adobe Campaign을 실행하는 사용자와 달라야 합니다.
 
-예:
+예제:
 
 ```
 <serverConf>
@@ -479,15 +479,16 @@ sh
 
 ## HTTP 헤더 관리 {#managing-http-headers}
 
-기본적으로 모든 HTTP 헤더가 전달되지 않습니다. 릴레이로 보낸 답글에 특정 헤더를 추가할 수 있습니다. 이렇게 하려면:
+기본적으로 모든 HTTP 헤더가 전달되지 않습니다. 릴레이로 보낸 답글에 특정 헤더를 추가할 수 있습니다. 방법은 다음과 같습니다.
 
 1. serverConf.xml **파일로** 이동합니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
 1. 노드에서 **`<relay>`** 릴레이된 HTTP 헤더 목록으로 이동합니다.
 1. 다음 속성을 사용하여 **`<responseheader>`** 요소를 추가합니다.
 
-   * **이름**: 헤더 이름
-   * **값**: 값 이름.
-   예:
+   * **이름**:헤더 이름
+   * **값**:값 이름.
+
+   예제:
 
    ```
    <responseHeader name="Strict-Transport-Security" value="max-age=16070400; includeSubDomains"/>
@@ -495,7 +496,7 @@ sh
 
 ## 중복 추적 {#redundant-tracking}
 
-리디렉션에 여러 서버를 사용하는 경우 리디렉션할 URL의 정보를 공유하기 위해 SOAP 호출을 통해 서로 통신할 수 있어야 합니다. 배달 시작 시 모든 리디렉션 서버를 사용할 수 없을 수도 있습니다. 따라서 그들은 같은 수준의 정보를 가지고 있지 않을 수도 있습니다.
+리디렉션에 여러 서버를 사용하는 경우 리디렉션할 URL의 정보를 공유하기 위해 SOAP 호출을 통해 서로 통신할 수 있어야 합니다. 배달 시작 시 모든 리디렉션 서버를 사용할 수 없을 수도 있습니다.따라서 그들은 같은 수준의 정보를 가지고 있지 않을 수도 있습니다.
 
 >[!NOTE]
 >
@@ -503,14 +504,14 @@ sh
 
 중복 서버의 URL은 리디렉션 구성에서 serverConf.xml 파일을 통해 **지정해야** 합니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
 
-**예:**
+**예제:**
 
 ```
 <spareserver enabledIf="$(hostname)!='front_srv1'" id="1" url="http://front_srv1:8080" />
 <spareserver enabledIf="$(hostname)!='front_srv2'" id="2" url="http://front_srv2:8080" />
 ```
 
-enableIf **** 속성은 선택 사항이며(기본적으로 비어 있음) 결과가 true인 경우에만 연결을 활성화할 수 있습니다. 모든 리디렉션 서버에서 동일한 구성을 얻을 수 있습니다.
+enableIf **** 속성은 선택 사항이며(기본적으로 비어 있음) 결과가 true인 경우에만 연결을 활성화할 수 있습니다.모든 리디렉션 서버에서 동일한 구성을 얻을 수 있습니다.
 
 컴퓨터의 호스트 이름을 얻으려면 다음 명령을 실행하십시오. **hostname -s**.
 
@@ -518,7 +519,7 @@ enableIf **** 속성은 선택 사항이며(기본적으로 비어 있음) 결�
 
 공공자원은 [공공자원 관리에 제시된다](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
-Adobe Campaign 설치 디렉토리의 **/var/res/instance** 디렉토리에 저장됩니다.
+이러한 템플릿은 Adobe Campaign 설치 디렉토리의 **/var/res/instance** 디렉토리에 저장됩니다.
 
 일치하는 URL은 다음과 같습니다. **http://server/res/instance** where **instance** is the name of the tracking instance.
 
@@ -539,7 +540,7 @@ Adobe Campaign 설치 디렉토리의 **/var/res/instance** 디렉토리에 저�
 
 ## 고가용성 워크플로우 및 친화성 {#high-availability-workflows-and-affinities}
 
-여러 워크플로 서버(wfserver)를 구성하고 두 대 이상의 컴퓨터에 배포할 수 있습니다. 이 유형의 아키텍처를 선택하는 경우 Adobe Campaign 액세스에 따라 로드 밸런서의 연결 모드를 구성합니다.
+여러 워크플로 서버(wfserver)를 구성하고 두 대 이상의 컴퓨터에 배포할 수 있습니다. 이 유형의 아키텍처를 선택하는 경우, Adobe Campaign 액세스에 따라 로드 밸런서의 연결 모드를 구성합니다.
 
 웹에서 액세스하려면 **로드 밸런서** 모드를 선택하여 연결 시간을 제한합니다.
 
@@ -610,7 +611,7 @@ Adobe Campaign 콘솔을 통해 액세스하는 경우 **해시** 또는 **고�
 
 ## 프록시 연결 구성 {#proxy-connection-configuration}
 
-파일 전송 워크플로우 활동을 사용하여 프록시를 통해 Campaign 서버를 외부에 연결해야 하는 경우 명령을 통해 serverConf의 proxyConfig 섹션을 구성해야 합니다. 다음 프록시 연결이 가능합니다. HTTP, HTTPS, FTP, SFTP. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
+파일 전송 워크플로우 활동을 사용하여 프록시를 통해 Campaign 서버를 외부에 연결해야 하는 경우 명령을 통해 serverConf의 proxyConfig 섹션을 구성해야 합니다. 다음 프록시 연결이 가능합니다.HTTP, HTTPS, FTP, SFTP. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
 
 >[!NOTE]
 >
@@ -637,7 +638,7 @@ nlserver config -setproxy:http/198.51.100.0:8080/user
 프록시 서버를 통한 FTP/SFTP 및 HTTP/HTTPS 트래픽에 대해 다른 포트를 사용하는 경우 &#39;ftp&#39; 프로토콜 매개 변수를 설정해야 합니다.
 
 
-예:
+예제:
 
 ```
 nlserver config -setproxy:ftp/198.51.100.0:8080/user:’http’
