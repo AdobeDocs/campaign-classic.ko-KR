@@ -13,21 +13,21 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 99dfefe3f51115b78bfeb02094d614a6e63af124
+source-git-commit: 27a72257904ff356b1a341c29f9a1ab3ccb20dd2
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 0%
+source-wordcount: '439'
+ht-degree: 3%
 
 ---
 
 
 # 업그레이드 시작하기{#rn-overview}
 
-Adobe Campaign은 정기적으로 업데이트됩니다. 새로운 기능, 개선 사항 및 수정 사항이 포함된 평균 2~3개의 보조 버전이 매년 출시됩니다. 또한 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다.
+Adobe Campaign은 정기적으로 업데이트 된다. 새로운 기능, 개선 사항 및 수정 사항이 포함된 평균 2~3개의 보조 버전이 매년 출시됩니다. 또한 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다.
 
 이러한 정기 업데이트 빈도는 최신 업데이트를 직접 경험해 보고 환경을 안전하게 지키고 Adobe 제품을 통해 경험을 향상시키는 것을 목표로 합니다.
 
-이러한 이유로 가장 최신 버전의 Adobe Campaign을 실행하는 것이 매우 중요합니다. 또한 최근 빌드에서 문제를 식별, 복제 및 수정하는 것과 같은 향상된 지원 경험이 일반적으로 훨씬 빨라집니다. 또한, 가장 최근 빌드에서 발생할 수 있는 많은 문제가 이미 해결되었습니다.
+이 때문에 Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 생각합니다. 또한 최근 빌드에서 문제를 식별, 복제 및 수정하는 것과 같은 향상된 지원 경험이 일반적으로 훨씬 빨라집니다. 또한, 가장 최근 빌드에서 발생할 수 있는 많은 문제가 이미 해결되었습니다.
 
 ## 릴리스 상태{#rn-statuses}
 
@@ -39,7 +39,7 @@ Campaign Classic 19.2를 시작하면 상태가 각 빌드에 연결됩니다. �
 
 ![](assets/do-not-localize/limited.png) **제한된 가용성** - 현재 프로덕션 유효성 검사를 통해 빌드합니다. On-Demand 방식의 배포
 
-![](assets/do-not-localize/blue3.png) **릴리스 후보** - Adobe에서 인증한 빌드. 제품 인쇄를 기다리는 중입니다.
+![](assets/do-not-localize/blue3.png) **릴리스 후보** - Adobe으로 확인된 빌드. 제품 인쇄를 기다리는 중입니다.
 
 ![](assets/do-not-localize/orange3.png) **더 이상 사용할 수** 없음 - 버그 수정 시 최신 빌드를 사용할 수 있습니다. 업데이트가 필요합니다.
 
@@ -49,11 +49,11 @@ Campaign Classic 19.2를 시작하면 상태가 각 빌드에 연결됩니다. �
 
 호스팅 고객(Managed Service 또는 Hybrid)은 고객 지원 팀에 연락하여 환경을 업그레이드해야 합니다.
 
-Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로 Gold Standard 업그레이드를 자동으로 사용할 수 있습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/gold-standard.html)
+Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로 Gold Standard 업그레이드를 자동으로 사용할 수 있습니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/gold-standard.html#gs-6)
 
 온-프레미스 사용자는 업그레이드를 수행할 수 있습니다. 이를 위해서는 안정적인 최신 빌드 [를](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 다운로드하고 모든 환경을 업그레이드해야 합니다. 업그레이드 [프로세스에](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)대한 자세한 내용은 [빌드 업그레이드 FAQ를 참조하십시오](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html).
 
-## Recommendations{#recommendations}
+## 추천{#recommendations}
 
 안정적인 구성을 위해서는 동일한 클라이언트 구성에서 실행 중인 모든 서버에 동일한 안정적인 빌드를 설치하는 것이 좋습니다.
 
@@ -66,7 +66,7 @@ Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로
 ## 지원 및 기타 유용한 링크{#support}
 
 * [도움말 및 지원](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
-* [컨트롤 패널 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
+* [컨트롤 패널 릴리스](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 * [설명서 업데이트](../../rn/using/documentation-updates.md)
 * [이전 릴리스](../../rn/using/release--20-1.md)
 * [더 이상 사용되지 않는 기능](../../rn/using/deprecated-features.md)
