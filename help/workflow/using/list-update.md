@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 기존 그룹 목록에서 목록을 선택할 수 있습니다.
 
-It can also be created using the **[!UICONTROL Create the list if necessary (Computed name)]** and **[!UICONTROL Create the list if necessary (Computed Folder and Name)]** options. These options allow you to select the label of your choice to create a list, and later, the folder in which it will be saved. 동적 필드나 스크립트를 삽입하여 레이블을 자동으로 생성할 수도 있습니다. The different dynamic fields are available in the pop-up menu to the right of the label.
+또한 **[!UICONTROL Create the list if necessary (Computed name)]** 및 **[!UICONTROL Create the list if necessary (Computed Folder and Name)]** 옵션을 사용하여 만들 수도 있습니다. 이러한 옵션을 사용하면 목록을 만들 레이블과 나중에 저장할 폴더를 선택할 수 있습니다. 동적 필드나 스크립트를 삽입하여 레이블을 자동으로 생성할 수도 있습니다. 레이블 오른쪽의 팝업 메뉴에서 다양한 동적 필드를 사용할 수 있습니다.
 
 ![](assets/s_user_segmentation_update_list_calc.png)
 
@@ -43,11 +43,11 @@ It can also be created using the **[!UICONTROL Create the list if necessary (Com
 
 일반적으로 목록에 대상을 저장하면 작업 과정의 끝을 표시합니다. 기본적으로 **[!UICONTROL List update]** 활동에는 아웃바운드 전환이 없습니다. 옵션을 **[!UICONTROL Generate an outbound transition]** 선택하여 추가합니다.
 
-## 예: 목록 업데이트 {#example--list-update}
+## 예:목록 업데이트 {#example--list-update}
 
-In the following example, the list update activity follows a query which targets men over 30 living in France. 목록은 처음에 쿼리 결과에서 만들어집니다. 그러면 워크플로우에서 실행할 때마다 업데이트됩니다. 예를 들어 캠페인의 타깃팅된 프로모션 오퍼에 정기적으로 사용할 수 있습니다.
+다음 예에서 목록 업데이트 활동은 프랑스에 거주하는 30명 이상의 남성을 대상으로 하는 쿼리를 따릅니다. 목록은 처음에 쿼리 결과에서 만들어집니다. 그러면 워크플로우에서 실행할 때마다 업데이트됩니다. 예를 들어 캠페인의 타깃팅된 프로모션 오퍼에 정기적으로 사용할 수 있습니다.
 
-1. Add a **[!UICONTROL list update activity]** directly after a query then open it up to edit it.
+1. 쿼리 **[!UICONTROL list update activity]** 바로 다음에 쿼리를 추가한 다음 열어 편집합니다.
 
    워크플로우에서 쿼리를 만드는 방법에 대한 자세한 내용은 [쿼리를 참조하십시오](../../workflow/using/query.md).
 
@@ -62,11 +62,11 @@ In the following example, the list update activity follows a query which targets
 
    ![](assets/s_user_segmentation_update_list_calc_example.png)
 
-   The list of matching recipients is then created or updated.
+   그런 다음 일치하는 받는 사람 목록을 만들거나 업데이트합니다.
 
-For more on this, refer to the [Creating a list of recipients](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html) video.
+자세한 내용은 수신자 [목록 만들기 비디오를](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html) 참조하십시오.
 
-## Input parameters {#input-parameters}
+## 입력 매개 변수 {#input-parameters}
 
 * tableName
 * 스키마
@@ -75,4 +75,4 @@ For more on this, refer to the [Creating a list of recipients](https://docs.camp
 
 ## 출력 매개 변수 {#output-parameters}
 
-* groupId: Group identifier.
+* groupId:그룹 식별자입니다.
