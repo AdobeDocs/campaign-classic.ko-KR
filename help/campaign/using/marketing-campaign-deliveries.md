@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e31a0faf6c48e2d34ce47fc1cd5a23aae05aeebf
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
 workflow-type: tm+mt
-source-wordcount: '2925'
+source-wordcount: '2928'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,17 @@ ht-degree: 0%
 
 게재는 캠페인 대시보드, 캠페인 워크플로우를 통해 만들거나 게재 개요를 통해 직접 만들 수 있습니다.
 
-## 배달 만들기 {#creating-deliveries}
+## 게재 만들기 {#creating-deliveries}
 
 캠페인에 연결된 배달을 만들려면 캠페인 대시보드의 **[!UICONTROL Add a delivery]** 링크를 클릭합니다.
 
 ![](assets/campaign_op_add_delivery.png)
 
-제안된 구성은 다양한 유형의 게재에 적합합니다. 다이렉트 메일, 이메일, 모바일 채널
+제안된 구성은 다양한 유형의 게재에 적합합니다.다이렉트 메일, 이메일, 모바일 채널
 
 >[!NOTE]
 >
->배달 만들기 및 구성에 대한 자세한 내용은 메시지 [전송](../../delivery/using/communication-channels.md) 섹션을 참조하십시오.
+>배달 만들기 및 구성에 대한 자세한 내용은 메시지 [전송](../../delivery/using/steps-about-delivery-creation-steps.md) 섹션을 참조하십시오.
 
 ## 대상 모집단 선택 {#selecting-the-target-population}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * 주요 타겟입니다. 자세한 내용은 워크플로우에서 [기본 대상 작성](#building-the-main-target-in-a-workflow) 및 대상 모집단 [선택을 참조하십시오](#selecting-the-target-population).
 * 제어 그룹입니다. 자세한 내용은 제어 그룹 [정의를 참조하십시오](#defining-a-control-group).
-* 시드 주소는 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/about-seed-addresses.md)을 참조하십시오.
+* 시드 주소는 자세한 정보는 [이 섹션](../../delivery/using/about-seed-addresses.md)을 참조하십시오.
 
 이 정보 중 일부는 템플릿에서 상속됩니다.
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 배달 대상을 빌드하려면 데이터베이스의 받는 사람에 대한 필터링 기준을 정의할 수 있습니다. 이 수신자 선택 모드는 메시지 [전송 섹션에](../../delivery/using/steps-defining-the-target-population.md) 표시됩니다.
 
-### 예: 수신자 그룹에 전달 {#example--delivering-to-a-group-of-recipients}
+### 예:수신자 그룹에 전달 {#example--delivering-to-a-group-of-recipients}
 
 모집단을 목록으로 가져온 다음 게재에서 이 목록을 타깃팅할 수 있습니다.
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ### 워크플로우에서 기본 대상 작성 {#building-the-main-target-in-a-workflow}
 
-게시의 기본 타겟은 타깃팅 워크플로우에서도 정의할 수 있습니다. 이 그래픽 환경을 사용하면 쿼리, 테스트 및 연산자를 사용하여 대상을 만들 수 있습니다. 결합, 중복 제거, 공유 등
+게시의 기본 타겟은 타깃팅 워크플로우에서도 정의할 수 있습니다.이 그래픽 환경을 사용하면 쿼리, 테스트 및 연산자를 사용하여 대상을 만들 수 있습니다.결합, 중복 제거, 공유 등
 
 워크플로우 [로 자동화](../../workflow/using/architecture.md) 안내서에는 워크플로우 모듈이 어떻게 작동하는지 자세히 설명합니다.
 
@@ -79,13 +79,13 @@ ht-degree: 0%
 >
 >동일한 캠페인에서 28개 이상의 워크플로우를 설정할 수 없습니다. 이 제한 이후에는 추가 워크플로우가 인터페이스에 표시되지 않으며 오류를 생성할 수 있습니다.
 
-#### 타깃팅 워크플로우 만들기 {#creating-a-targeting-workflow}
+#### Creating a targeting workflow {#creating-a-targeting-workflow}
 
 타깃팅은 워크플로우의 그래픽 시퀀스에 있는 필터링 조건을 조합하여 만들 수 있습니다. 사용자 요구 사항에 따라 타깃팅될 모집단과 하위 인구를 생성할 수 있습니다. 워크플로우 편집기를 표시하려면 캠페인 대시보드에서 **[!UICONTROL Targeting and workflows]** 탭을 클릭합니다.
 
 ![](assets/s_ncs_user_edit_op_wf_link.png)
 
-타겟 모집단은 워크플로우에 배치된 하나 이상의 쿼리를 통해 Adobe Campaign 데이터베이스에서 추출됩니다. 쿼리를 빌드하는 방법을 알아보려면 [이 섹션을 참조하십시오](../../workflow/using/query.md).
+대상 모집단은 워크플로에 배치된 하나 이상의 쿼리를 통해 Adobe Campaign 데이터베이스에서 추출됩니다. 쿼리를 빌드하는 방법을 알아보려면 [이 섹션을 참조하십시오](../../workflow/using/query.md).
 
 쿼리를 실행하고 조합, 교차, 공유, 제외 등과 같은 상자를 통해 모집단을 공유할 수 있습니다.
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 타깃팅은 일정(스케줄러) 또는 이벤트(외부 신호, 파일 가져오기 등)에 따라 자동 실행되도록 프로그래밍될 수 있습니다.
 
-타깃팅 워크플로우 실행(시작, 중지, 일시 중지 등)과 관련된 작업 은 **비동기** 프로세스입니다. 명령이 저장되고 서버가 해당 명령을 적용하는 즉시 적용됩니다.
+타깃팅 워크플로우 실행(시작, 중지, 일시 중지 등)과 관련된 작업 은 **비동기** 프로세스입니다.명령이 저장되고 서버가 해당 명령을 적용하는 즉시 적용됩니다.
 
 도구 모음 아이콘을 사용하면 타깃팅 워크플로우의 실행에 대한 작업을 수행할 수 있습니다.
 
@@ -201,7 +201,7 @@ ht-degree: 0%
 
 ### 제어 그룹 정의 {#defining-a-control-group}
 
-통제 그룹은 배달을 받지 않는 모집단입니다. 배달을 받은 타겟 모집단과 비교하여 배달 후 동작 및 캠페인 효과를 추적하는 데 사용됩니다.
+통제 그룹은 배달을 받지 않는 모집단입니다.배달을 받은 타겟 모집단과 비교하여 배달 후 동작 및 캠페인 효과를 추적하는 데 사용됩니다.
 
 제어 그룹은 기본 대상 및/또는 특정 그룹 또는 쿼리에서 추출할 수 있습니다.
 
@@ -210,7 +210,7 @@ ht-degree: 0%
 캠페인 수준에서 제어 그룹을 정의할 수 있습니다. 이 경우 제어 그룹이 해당 캠페인의 각 전달에 적용됩니다.
 
 1. 관련 캠페인을 편집하고 **[!UICONTROL Edit]** 탭을 클릭합니다.
-1. **[!UICONTROL Advanced campaign settings]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Advanced campaign settings]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/s_ncs_user_edit_op_target.png)
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-구성 절차는 기본 대상에서 [제어 그룹 추출](#extracting-the-control-group-from-the-main-target) 및 모집단 [추가에서](#adding-a-population)나타납니다.
+구성 절차는 기본 대상 [에서 제어 그룹을 추출하는](#extracting-the-control-group-from-the-main-target) 것과 컨트롤 그룹 [추가에서 제공됩니다](#adding-a-population).
 
 #### 게재에 대한 제어 그룹 활성화 {#activating-the-control-group-for-a-delivery}
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 1. 탭을 **[!UICONTROL Control group]** 클릭하고 선택합니다 **[!UICONTROL Enable and edit control group configuration]**.
 1. 제어 그룹 **[!UICONTROL Edit...]** 을 구성하려면 클릭하십시오.
 
-구성 절차는 기본 대상에서 [제어 그룹 추출](#extracting-the-control-group-from-the-main-target) 및 모집단 [추가에서](#adding-a-population)나타납니다.
+구성 절차는 기본 대상 [에서 제어 그룹을 추출하는](#extracting-the-control-group-from-the-main-target) 것과 컨트롤 그룹 [추가에서 제공됩니다](#adding-a-population).
 
 #### 기본 대상에서 제어 그룹 추출 {#extracting-the-control-group-from-the-main-target}
 
@@ -248,8 +248,8 @@ ht-degree: 0%
 
 제어 그룹을 추출하려면 캠페인 또는 전달에 대한 제어 그룹을 활성화하고 다음 옵션 중 하나를 선택합니다. **[!UICONTROL Activate random sampling]** 또는 **[!UICONTROL Keep only the first records after sorting]**.
 
-* **[!UICONTROL Activate random sampling]** : 이 옵션은 타깃팅된 모집단에서 받는 사람에게 무작위 샘플링을 적용합니다. 그런 다음 임계값을 100으로 설정하면 대상 모집단에서 임의로 선택한 100명의 받는 사람으로 제어 그룹이 구성됩니다. 무작위 샘플링은 데이터베이스 엔진에 따라 다릅니다.
-* **[!UICONTROL Keep only the first records after sorting]** : 이 옵션을 사용하면 하나 이상의 정렬 주문을 기준으로 제한을 정의할 수 있습니다. 필드를 정렬 기준으로 **[!UICONTROL Age]** 선택한 다음 100을 한계로 정의하면 제어 그룹이 100명의 가장 어린 수신자로 구성됩니다. 예를 들어 구매를 거의 하지 않는 받는 사람 또는 구매를 자주 하는 받는 사람이 포함된 제어 그룹을 정의하고 이러한 행동을 대화 받은 수신자의 행동과 비교하는 것이 재미있을 수 있습니다.
+* **[!UICONTROL Activate random sampling]** :이 옵션은 타깃팅된 모집단에서 받는 사람에게 무작위 샘플링을 적용합니다. 그런 다음 임계값을 100으로 설정하면 대상 모집단에서 임의로 선택한 100명의 받는 사람으로 제어 그룹이 구성됩니다. 무작위 샘플링은 데이터베이스 엔진에 따라 다릅니다.
+* **[!UICONTROL Keep only the first records after sorting]** :이 옵션을 사용하면 하나 이상의 정렬 주문을 기준으로 제한을 정의할 수 있습니다. 필드를 정렬 기준으로 **[!UICONTROL Age]** 선택한 다음 100을 한계로 정의하면 제어 그룹이 100명의 가장 어린 수신자로 구성됩니다. 예를 들어 구매를 거의 하지 않는 받는 사람 또는 구매를 자주 하는 받는 사람이 포함된 제어 그룹을 정의하고 이러한 행동을 대화 받은 수신자의 행동과 비교하는 것이 재미있을 수 있습니다.
 
 을 클릭하여 정렬 순서(필요한 경우)를 정의하고 수신자 제한 모드를 선택합니다. **[!UICONTROL Next]**
 
@@ -257,7 +257,7 @@ ht-degree: 0%
 
 이 구성은 타깃을 하위 세트로 나눌 수 있는 워크플로우의 공유 활동과 같습니다. 컨트롤 그룹은 이러한 하위 세트 중 하나입니다. 자세한 내용은 [이 섹션을](../../workflow/using/architecture.md) 참조하십시오.
 
-### 모집단 추가 {#adding-a-population}
+### 컨트롤 그룹 추가 {#adding-a-population}
 
 제어 그룹으로 사용할 새 모집단을 정의할 수 있습니다. 이 모집단은 수신자 그룹에서 가져올 수도 있고 특정 쿼리를 통해 만들 수도 있습니다.
 
@@ -273,13 +273,13 @@ ht-degree: 0%
 
 ### 온라인 전달 시작 {#starting-an-online-delivery}
 
-모든 승인 요청이 승인되면 배달 상태가 다음으로 **[!UICONTROL Pending confirmation]** 변경되며 운영자가 시작할 수 있습니다. 적절한 경우, 배달을 시작하기 위해 검토자로 지정된 Adobe Campaign 운영자(또는 연산자 그룹)에게 배달을 시작할 준비가 되었다는 알림이 표시됩니다.
+모든 승인 요청이 승인되면 배달 상태가 다음으로 **[!UICONTROL Pending confirmation]** 변경되며 운영자가 시작할 수 있습니다. 적절한 경우, 배달을 시작하기 위해 검토자로 지정된 Adobe Campaign 연산자(또는 연산자 그룹)는 배달을 시작할 준비가 되었다는 알림을 받습니다.
 
 >[!NOTE]
 >
 >전달 속성에서 배달을 시작하기 위해 특정 연산자 또는 연산자 그룹이 지정된 경우 배달을 담당하는 연산자가 전송을 확인하도록 허용할 수도 있습니다. 이렇게 하려면 값으로 **1** 을 입력하여 NMS_ActivateOwnerConfirmation **** 옵션을 활성화합니다. 옵션은 Adobe Campaign 탐색기의 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 노드에서 관리됩니다.
 >  
->이 옵션을 비활성화하려면 값으로 **0** 을 입력합니다. 그러면 전송 확인 프로세스가 기본값으로 작동합니다. 전송 속성에서 전송을 위해 지정된 연산자 또는 그룹(또는 관리자)만 전송을 확인하고 수행할 수 있습니다.
+>이 옵션을 비활성화하려면 값으로 **0** 을 입력합니다. 그러면 전송 확인 프로세스가 기본값으로 작동합니다.전송 속성에서 전송을 위해 지정된 연산자 또는 그룹(또는 관리자)만 전송을 확인하고 수행할 수 있습니다.
 
 ![](assets/s_ncs_user_edit_del_to_start_from_del.png)
 
@@ -322,7 +322,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_user_file_notif_submit_proof.png)
 
-* 배달 상태가 로 변경됩니다 **[!UICONTROL To submit]**. 승인 프로세스를 시작하려면 **[!UICONTROL Submit proofs]** 단추를 클릭합니다.
+* 배달 상태가 로 변경됩니다 **[!UICONTROL To submit]**. Click the **[!UICONTROL Submit proofs]** button to start the approval process.
 
    ![](assets/s_ncs_user_file_notif_submit_proof_validation.png)
 
@@ -338,7 +338,7 @@ ht-degree: 0%
 
 ### 비용 및 주식 계산 {#calculation-of-costs-and-stocks}
 
-파일 추출을 통해 두 가지 작업이 실행됩니다. 예산 계산 및 스톡 계산. 예산 항목이 업데이트됩니다.
+파일 추출을 통해 두 가지 작업이 실행됩니다.예산 계산 및 스톡 계산. 예산 항목이 업데이트됩니다.
 
 * 이 **[!UICONTROL Budget]** 탭에서는 캠페인에 대한 예산을 관리할 수 있습니다. 비용 항목의 합계는 캠페인의 기본 탭 및 캠페인에 속한 프로그램의 **[!UICONTROL Calculates cost]** 필드에 표시됩니다. 이 금액은 캠페인 예산에도 반영됩니다.
 
@@ -354,7 +354,7 @@ ht-degree: 0%
 
 ## 관련 문서 관리 {#managing-associated-documents}
 
-다양한 문서를 캠페인에 연결할 수 있습니다. 보고서, 사진, 웹 페이지, 다이어그램 등 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 사용할 수 있습니다. 문서를 캠페인에 연결하려면 문서 [추가를 참조하십시오](#adding-documents).
+다양한 문서를 캠페인에 연결할 수 있습니다.보고서, 사진, 웹 페이지, 다이어그램 등 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 사용할 수 있습니다. 문서를 캠페인에 연결하려면 문서 [추가를 참조하십시오](#adding-documents).
 
 >[!IMPORTANT]
 >
@@ -372,7 +372,7 @@ ht-degree: 0%
 
 이 **[!UICONTROL Documents]** 탭에는 다음이 포함되어 있습니다.
 
-* 컨텐츠에 필요한 모든 문서 목록(템플릿, 이미지 등) 적절한 권한이 있는 Adobe Campaign 운영자가 로컬로 다운로드할 수 있습니다.
+* 컨텐츠에 필요한 모든 문서 목록(템플릿, 이미지 등) adobe campaign 운영자가 해당 권리를 가지고 로컬에서 다운로드할 수 있습니다.
 * 라우터에 대한 정보가 들어 있는 문서(있는 경우)
 
 문서는 탭을 통해 프로그램 또는 캠페인에 **[!UICONTROL Edit > Documents]** 연결됩니다.
@@ -401,9 +401,9 @@ ht-degree: 0%
 
 배달 아웃라인은 구조화된 요소 집합(문서, 분기/스토어, 프로모션 쿠폰 등)을 나타냅니다. 회사 및 특정 캠페인에 대해 만들어진 세그먼트입니다.
 
-이러한 요소는 배달 아웃라인으로 그룹화되며, 특정 배달 아웃라인은 게재와 연관됩니다. 전달에 첨부하기 위해 **서비스 제공업체에** 보낸 추출 파일에서 참조됩니다. 예를 들어 지점 및 고객이 사용하는 마케팅 브로셔를 참조하는 배달 개요를 만들 수 있습니다.
+이러한 요소는 배달 아웃라인으로 그룹화되며, 특정 배달 아웃라인은 게재와 연관됩니다.전달에 첨부하기 위해 **서비스 제공업체에** 보낸 추출 파일에서 참조됩니다. 예를 들어 지점 및 고객이 사용하는 마케팅 브로셔를 참조하는 배달 개요를 만들 수 있습니다.
 
-캠페인의 경우, 배달 개요를 사용하면 특정 기준에 따라 게재와 연관될 외부 요소를 구조화할 수 있습니다. 관련 지점, 프로모션 제공, 지역 이벤트 초대 등
+캠페인의 경우, 배달 개요를 사용하면 특정 기준에 따라 게재와 연관될 외부 요소를 구조화할 수 있습니다.관련 지점, 프로모션 제공, 지역 이벤트 초대 등
 
 #### 윤곽선 만들기 {#creating-an-outline}
 
@@ -427,7 +427,7 @@ ht-degree: 0%
 개요에는 항목 및 개인화 필드, 리소스 및 오퍼가 포함될 수 있습니다.
 
 * 항목은 실제 문서일 수 있습니다. 예를 들어 여기에서 참조하고 설명하며 게재에 첨부됩니다.
-* 개인화 필드를 사용하면 수신자가 아닌 게재와 관련된 개인화 요소를 만들 수 있습니다. 따라서 특정 타겟(환영 오퍼, 할인 등)에 대해 게재에 사용할 값을 만들 수 있습니다. Adobe Campaign에서 만들고 링크를 통해 아웃라인으로 **[!UICONTROL Import personalization fields...]** 가져옵니다.
+* 개인화 필드를 사용하면 수신자가 아닌 게재와 관련된 개인화 요소를 만들 수 있습니다. 따라서 특정 타겟(환영 오퍼, 할인 등)에 대해 게재에 사용할 값을 만들 수 있습니다. Adobe Campaign에서 만든 후 링크를 통해 아웃라인으로 **[!UICONTROL Import personalization fields...]** 가져옵니다.
 
    ![](assets/s_ncs_user_op_add_composition_field.png)
 
