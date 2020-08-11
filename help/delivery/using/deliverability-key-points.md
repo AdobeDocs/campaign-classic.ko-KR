@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classic에서 전달 기능을 관리할 때의 주요 특징
-description: Adobe Campaign Classic에서 전달 기능을 관리할 때 확인해야 할 주요 사항은 무엇입니까?
+title: Adobe Campaign Classic의 전달 능력 관리 시 주요 내용
+description: Adobe Campaign Classic에서 배송 기능을 관리할 때 확인해야 할 주요 사항은 무엇입니까?
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
@@ -13,17 +13,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4582ea496fff35c5b586049b8daa379464bd78fc
+source-git-commit: b14f5ecd2b06ed9f4cb49d8779b9f94ea4bcdddc
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 0%
+source-wordcount: '623'
+ht-degree: 1%
 
 ---
 
 
 # 제공 기능 주요 포인트{#deliverability-key-points}
 
-Adobe Campaign 이메일의 전달 가능성을 최적화하려면 아래에 나열된 모범 사례를 사용하는 것이 좋습니다. 제공 능력 문제는 일반적으로 인터넷 서비스 제공업체와 메일 서버 관리자가 시행하는 스팸으로부터 보호하는 조치와 관련이 있습니다.
+Adobe Campaign 이메일의 전달 가능성을 최적화하려면 아래 나열된 우수 사례를 사용하는 것이 좋습니다. 제공 능력 문제는 일반적으로 인터넷 서비스 제공업체와 메일 서버 관리자가 시행하는 스팸으로부터 보호하는 조치와 관련이 있습니다.
 
 **이메일 전달 능력은** 메시지 수신 시, 이메일 주소를 통해, 짧은 시간 내에, 컨텐츠와 포맷의 예상 품질을 결정하는 일련의 특성을 의미합니다.
 
@@ -54,7 +54,7 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하려면 아래에 나
 
 ## 유효한 주소로 보내기 {#valid-addresses}
 
-주소 생성기는 자주 이름과 성명 목록을 기반으로 사용한다. 또한 메일 서버에서 발송한 기술 알림은 거의 처리되지 않습니다. 잘못된 주소의 비율이 높은 것은 종종 스팸의 신호로 해석됩니다. 이중 옵트인 메커니즘과 효과적인 기술 바운스 메시지 처리를 통해 이러한 문제를 방지할 수 있습니다.
+주소 생성기는 자주 이름과 성명 목록을 기반으로 사용한다.또한 메일 서버에서 발송한 기술 알림은 거의 처리되지 않습니다. 잘못된 주소의 비율이 높은 것은 종종 스팸의 신호로 해석됩니다. 이중 옵트인 메커니즘과 효과적인 기술 바운스 메시지 처리를 통해 이러한 문제를 방지할 수 있습니다.
 
 ## 불만 및 이탈률 감소 {#reduce-complaint-rates}
 
@@ -71,3 +71,92 @@ ISP와 기타 조직( [Project Honey Pot](https://www.projecthoneypot.org/) 웹 
 ## 명성에 걸맞게 작업 {#reputation}
 
 스팸들은 오랜 시간 동안 명성을 유지하기 위해 프로그램 배달을 한다. 경우에 따라 ISP가 부과한 모범 사례를 충족하기 위해 마케팅 계획을 조정해야 하며 평판이 최고(경사)된 후에는 정기적으로 배송을 구성해야 합니다.
+
+## 권장사항 {#best-practices}
+
+Adobe Campaign와의 전달 능력과 관련된 모범 사례를 살펴보십시오. 아래 링크를 사용하여 항목을 탐색하고 지침을 찾으십시오.
+
+<table>
+<tr>
+  <td>
+    <a href="starting-new-platform.md">
+      <img alt="시작" src="assets/do-not-localize/start.svg"/>
+    </a>
+    <div>
+      <a href="starting-new-platform.md">
+    <strong>시작</strong>
+    </a>
+    </div>
+    <p>
+    <em>새 플랫폼 시작</em>
+    <p>
+  </td>
+   <td>
+    <a href="control-message-content.md">
+      <img alt="디자인" src="assets/do-not-localize/design.svg"/>
+    </a>
+    <div>
+      <a href="control-message-content.md">
+    <strong>디자인</strong>
+    </a>
+    </div>
+    <p>
+    <em>메시지 내용 제어</em>
+    <p>
+  </td>
+  <td>
+    <a href="improve-reputation.md">
+      <img alt="디자인" src="assets/do-not-localize/check.svg"/>
+    </a>
+    <div>
+      <a href="improve-reputation.md">
+    <strong>보내기</strong>
+    </a>
+    </div>
+    <p>
+    <em>평판 향상</em>
+    <p>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="technical-recommendations.md">
+      <img alt="최적화" src="assets/do-not-localize/optimize.svg"/>
+    </a>
+    <div>
+      <a href="technical-recommendations.md">
+    <strong>최적화</strong>
+    </a>
+    </div>
+    <p>
+    <em>기술 추천</em>
+    <p>
+  </td>
+   <td>
+    <a href="monitoring-deliverability.md">
+      <img alt="확인" src="assets/do-not-localize/monitor.svg"/>
+    </a>
+    <div>
+      <a href="monitoring-deliverability.md">
+    <strong>모니터</strong>
+    </a>
+    </div>
+    <p>
+    <em>모니터링 도구</em>
+    <p>
+  </td>
+  <td>
+    <a href="deliverability-faq.md">
+      <img alt="최적화" src="assets/do-not-localize/troubleshoot.svg"/>
+    </a>
+    <div>
+      <a href="deliverability-faq.md">
+    <strong>문제 해결</strong>
+    </a>
+    </div>
+    <p>
+    <em>문제 해결</em>
+    <p>
+  </td>
+</tr>
+</table>
