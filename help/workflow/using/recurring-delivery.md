@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 이 활동은 캠페인에 있는 **[!UICONTROL Targeting and workflows]** 탭에서만 사용할 수 있습니다.
 
-이렇게 하려면:
+방법은 다음과 같습니다.
 
 1. 활동이 기반으로 할 배달 템플릿을 선택합니다.
 
@@ -34,13 +37,21 @@ source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 1. 배달 템플릿을 구성합니다.
 
-이 활동에 대한 구성 프로세스는 사용 가능한 옵션 측면에서 배달 템플릿을 만드는 프로세스와 유사합니다. For more on this, refer to this [section](../../delivery/using/about-templates.md).
+이 활동에 대한 구성 프로세스는 사용 가능한 옵션 측면에서 배달 템플릿을 만드는 프로세스와 비슷합니다. 자세한 정보는 이 [섹션](../../delivery/using/about-templates.md)을 참조하십시오.
 
-사용 중인 활동에 대한 예는 이 [섹션을](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)참조하십시오.
+사용 중인 활동의 예를 보려면 이 [섹션을 참조하십시오](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+
+## 반복 배달을 설정하는 방법
+
+반복 **배달은** 실행될 때마다 새 배달 인스턴스를 만듭니다. 예를 들어, 워크플로우가 일주일에 한 번 실행되도록 예약된 경우 1년 후에 52회의 배달이 됩니다. 또한 광범위한 로그 및 추적 로그가 각 배달 인스턴스로 구분됩니다.
+
+![반복 배달](assets/delivery_recurring.jpg)
+
+이 비디오에서는 반복 게재 및 스케줄러 활동을 구성하는 방법을 설명합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 >[!NOTE]
 >
->유형 활동에서 증명을 보낼 수 없습니다. **[!UICONTROL Recurring delivery]**\
->캠페인 워크플로우를 통해 배달을 직접 만들려면 미리 구성된 채널별 활동(예:
-     **[!UICONTROL Email delivery]**).
-
+>유형 활동에서 증거를 보낼 수 **[!UICONTROL Recurring delivery]** 없습니다.\
+>캠페인 워크플로우를 통해 배달을 직접 만들려면 미리 구성된 채널별 활동(예: **[!UICONTROL Email delivery]**).
