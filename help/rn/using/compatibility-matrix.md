@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e8598fd445f6e2ebd891af1e15c07eb836cd647
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '618'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 6%
 
 # 호환성 표{#compatibility-matrix}
 
-이 문서에서는 최신 **Adobe Campaign Classic(v6.11 및 v7)의 빌드에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다**. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
+이 문서에서는 최신 **Adobe Campaign Classic 빌드(v6.11 및 v7)에 지원되는 모든 시스템 및 구성 요소를 나열합니다**. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
 
 ## 중요 정보{#important-notes}
 
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 별도로 언급되지 않는 한 모든 마이너 릴리스가 지원됩니다.
 
-Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구와 호환됩니다. 이러한 타사 시스템 및 툴의 특정 버전이 해당 개발자와 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 해당 버전과 더 이상 호환되지 않으며, 향후 제품 릴리스의 호환성 매트릭스에서 제거됩니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
+Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구와 호환됩니다. 이러한 타사 시스템 및 도구의 특정 버전이 해당 개발자와 EOL(End-of-Life)에 도달함에 따라, Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며, 향후 제품 릴리스에서 호환성 매트릭스에서 제거됩니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
 
 더 이상 사용되지 않는 항목에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../rn/using/deprecated-features.md).
 
@@ -159,7 +159,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <p>9.6.x</p>
 <p>10.x</p>
 <p>11.x</p>
-<p>참고: 위에 지정된 버전과 함께 PostgreSQL용 Amazon RDS를 사용할 수도 있습니다.</p>
+<p>참고:위에 지정된 버전과 함께 PostgreSQL용 Amazon RDS를 사용할 수도 있습니다.</p>
 </td>
 </tr>
 <tr>
@@ -169,7 +169,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <p>2014</p>
 <p>2016</p>
 <p>2017</p>
-<p>경고: Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. 설치 <a href="https://docs.campaign.adobe.com/doc/AC/en/INS_Prerequisites_and_recommendations__Database.html#Microsoft_SQL_Server">가이드를 참조하십시오</a>.</p>
+<p>경고:Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">자세히 알아보기</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -204,9 +204,9 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>MS Dynamics</td>
 <td>
-<p>Soap API - 온-프레미스: 2007년, 2015년, 2016년</p>
-<p>Soap API - 온라인: 2015년, 2016년</p>
-<p>웹 API - 온-프레미스 및 온라인: 2016년 365월 업데이트 1</p>
+<p>Soap API - 온-프레미스:2007년, 2015년, 2016년</p>
+<p>Soap API - 온라인:2015년, 2016년</p>
+<p>웹 API - 온-프레미스 및 온라인:2016년 365월 업데이트 1</p>
 </td>
 </tr>
 </tbody>
@@ -217,11 +217,11 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <table>
 <tbody>
 <tr>
-<td>Microsoft Azure Synapse Analytics</td>
+<td>Microsoft Azure 구문 분석</td>
 <td> </td>
 </tr>
 <tr>
-<td>Amazon Redshift</td>
+<td>Amazon 적색</td>
 <td><p> </p>
 </td>
 </tr>
@@ -292,7 +292,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 </td>
 </tr>
 <tr>
-<td>눈꽃</td>
+<td>Snowflake</td>
 <td> </td>
 </tr>
 </tbody>
@@ -340,7 +340,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <p>iOS 11</p>
 <p>iOS 12</p>
 <p>iOS 13</p>
-<p>모바일 SDK 빌드 1.0.26과 32비트 및 64비트 버전 호환</p>
+<p>32비트 및 64비트 버전과 호환되는 모바일 SDK 빌드 1.0.26입니다.</p>
 </td>
 </tr>
 </tbody>
