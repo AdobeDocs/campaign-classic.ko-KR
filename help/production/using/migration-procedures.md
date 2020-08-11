@@ -15,20 +15,23 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a11a73b0679c0a65dc10f71869bf2a6c6efc008
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 4%
 
 ---
 
 
 # 마이그레이션 절차{#migration-procedures}
 
-Adobe Campaign v6에서 v7로 업그레이드하는 경우 다음 지침을 권장합니다.
+Adobe Campaign v6에서 v7으로 업그레이드하는 경우 다음 지침을 권장합니다.
 
-* Windows의 경우 클라이언트 및 서버 업그레이드의 경우 v7을 설치하기 전에 Adobe Campaign v6을 제거합니다. 미리 로그 및 구성 파일을 백업하십시오.
+* Windows의 경우 클라이언트 및 서버 업그레이드의 경우 v7을 설치하기 전에 Adobe Campaign v6을 제거합니다. 사전에 로그 및 구성 파일을 백업하십시오.
 * Linux의 경우 서버 업그레이드의 경우 v7을 설치하기 전에 Adobe Campaign v6 패키지를 제거하십시오.
 
 마이그레이션 절차 및 우수 사례에 대한 자세한 내용은 다음을 참조하십시오.
 
-* [빌드 업그레이드 수행](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
+* [빌드 업그레이드 수행](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)
 * [마이그레이션 개요](../../migration/using/about-migration.md)
 
