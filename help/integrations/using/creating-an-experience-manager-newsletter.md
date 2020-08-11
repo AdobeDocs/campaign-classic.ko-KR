@@ -15,19 +15,19 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 0%
+source-wordcount: '301'
+ht-degree: 1%
 
 ---
 
 
 # Experience Manager 뉴스레터 만들기{#creating-an-experience-manager-newsletter}
 
-이 통합을 사용하여 Adobe Experience Manager에서 뉴스레터를 만든 다음 이메일 캠페인의 일부로 Adobe Campaign에 사용할 수 있습니다.
+이 통합을 사용하여 Adobe Experience Manager에서 뉴스레터를 만든 다음 이메일 캠페인의 일부로 Adobe Campaign에서 사용할 수 있습니다.
 
-이 통합 사용 방법에 대한 자세한 예는 이 [단계별 가이드를 참조하십시오](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html).
+이 통합 사용 방법에 대한 자세한 예는 이 [단계별 가이드를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-aem.html).
 
 **Adobe Experience Manager에서:**
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    ![](assets/aem_uc_1.png)
 
-1. 선택합니다 **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Main Area > Email campaigns]**.
+1. **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Main Area > Email campaigns]**&#x200B;을(를) 선택합니다.
 1. 페이지 오른쪽 위에 있는 **[!UICONTROL Create]** 단추를 클릭한 다음 선택합니다 **[!UICONTROL Page]**.
 
    ![](assets/aem_uc_2.png)
@@ -45,7 +45,7 @@ ht-degree: 0%
 
    ![](assets/aem_uc_3.png)
 
-1. 탭 **[!UICONTROL Cloud Services]** 에서 두 번째 드롭다운 **[!UICONTROL Adobe Campaign]** 에서 Adobe Campaign 인스턴스 **[!UICONTROL Cloud service configuration]** 및 as를 선택합니다.
+1. 탭 **[!UICONTROL Cloud Services]** 에서 두 번째 드롭다운에서 **[!UICONTROL Adobe Campaign]** as **[!UICONTROL Cloud service configuration]** 와 사용자의 Adobe Campaign 인스턴스를 선택합니다.
 
    ![](assets/aem_uc_4.png)
 
@@ -67,11 +67,11 @@ ht-degree: 0%
 
    ![](assets/aem_uc_8.png)
 
-이제 Newsletter가 준비되고 Adobe Campaign에서 동기화됩니다.
+이제 뉴스레터가 Adobe Campaign에서 준비 및 동기화됩니다.
 
 **Adobe Campaign에서:**
 
-1. 탭 **[!UICONTROL Campaigns]** 에서 을 **[!UICONTROL Deliveries]** 클릭한 다음 **[!UICONTROL Create]**.
+1. From the **[!UICONTROL Campaigns]** tab, click **[!UICONTROL Deliveries]** then **[!UICONTROL Create]**.
 
    ![](assets/aem_uc_9.png)
 
@@ -80,14 +80,14 @@ ht-degree: 0%
    ![](assets/aem_uc_10.png)
 
 1. 게재에 **[!UICONTROL Label]** 를 추가하고 을 클릭합니다 **[!UICONTROL Continue]**.
-1. **[!UICONTROL Synchronize]** 버튼을 클릭합니다. 
+1. **[!UICONTROL Synchronize]** 버튼을 클릭합니다.
 
    인터페이스에 이 단추가 표시되지 않으면 단추를 클릭하고 **[!UICONTROL Properties]** **[!UICONTROL Advanced]** 탭을 선택합니다. 필드 **[!UICONTROL Content editing mode]** 는 필드에 AEM 인스턴스 **[!UICONTROL AEM]** 와 함께 설정되어야 **[!UICONTROL AEM account]** 합니다.
 
    ![](assets/aem_uc_11.png)
 
 1. Adobe Experience Manager에서 이전에 만든 배달을 선택하고 을 클릭합니다 **[!UICONTROL Ok]**.
-1. AEM 전달을 변경하는 즉시 **[!UICONTROL Refresh content]** 단추를 클릭합니다.
+1. AEM 배달이 변경되면 **[!UICONTROL Refresh content]** 단추를 클릭합니다.
 
    ![](assets/aem_uc_12.png)
 
