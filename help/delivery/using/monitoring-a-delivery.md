@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51bbf50a1e9b00c25fca8e1e86ca21c314c18313
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2567'
 ht-degree: 2%
 
 ---
@@ -44,9 +44,9 @@ ht-degree: 2%
 
 ### 게재 요약 {#delivery-summary}
 
-이 **[!UICONTROL Summary]** 탭에는 전달 특성이 포함되어 있습니다. 배달 상태, 사용된 채널, 보낸 사람 정보, 제목, 실행에 관한 정보 자세한 내용은 보낸 [메시지 수를 참조하십시오](#number-of-messages-sent).
+이 **[!UICONTROL Summary]** 탭에는 전달 특성이 포함되어 있습니다.배달 상태, 사용된 채널, 보낸 사람 정보, 제목, 실행에 관한 정보 자세한 내용은 보낸 [메시지 수를 참조하십시오](#number-of-messages-sent).
 
-이 **[!UICONTROL reports]** 링크를 사용하면 배달 작업과 관련된 보고서 세트를 볼 수 있습니다. 일반 전달 보고서, 세부 보고서, 전달 보고서, 실패한 메시지 배포, 시작 비율, 클릭 수 및 거래 등 이 탭의 내용은 사용자의 요구 사항에 따라 구성할 수 있습니다. 자세한 정보는 [이 섹션](../../reporting/using/delivery-reports.md)을 참조하십시오.
+이 **[!UICONTROL reports]** 링크를 사용하면 배달 작업과 관련된 보고서 세트를 볼 수 있습니다.일반 전달 보고서, 세부 보고서, 전달 보고서, 실패한 메시지 배포, 시작 비율, 클릭 수 및 거래 등 이 탭의 내용은 사용자의 요구 사항에 따라 구성할 수 있습니다. 자세한 정보는 [이 섹션](../../reporting/using/delivery-reports.md)을 참조하십시오.
 
 ### 배달 로그 및 내역 {#delivery-logs-and-history}
 
@@ -107,9 +107,9 @@ ht-degree: 2%
 
 배달 실적이 나쁜 경우 다음을 확인할 수 있습니다.
 
-* **배달**&#x200B;크기: 큰 배달은 완료하는 데 더 오래 걸릴 수 있습니다. MTA 하위는 대부분의 인스턴스에서 작동하는 기본 배치 크기를 처리하도록 구성되지만 배달이 지속적으로 느려질 때 확인해야 합니다.
-* **배달**&#x200B;대상: 배달 성능 제한은 다시 시도 구성에 따라 처리되는 소프트 바운스 오류로 인해 영향을 받습니다. 오류 수가 많을수록 더 많은 재시도가 필요합니다.
-* **전체 플랫폼 로드**: 여러 개의 큰 배달이 전송되면 전체 플랫폼에 영향을 줄 수 있습니다. 또한 IP 명성과 전달 가능성 문제를 확인할 수 있습니다. 자세한 내용은 Adobe Campaign 전달 [가능성 우수 사례 가이드](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 및 [이 페이지를 참조하십시오](../../delivery/using/about-deliverability.md).
+* **배달**&#x200B;크기:큰 배달은 완료하는 데 더 오래 걸릴 수 있습니다. MTA 하위는 대부분의 인스턴스에서 작동하는 기본 배치 크기를 처리하도록 구성되지만 배달이 지속적으로 느려질 때 확인해야 합니다.
+* **배달**&#x200B;대상:배달 성능 제한은 다시 시도 구성에 따라 처리되는 소프트 바운스 오류로 인해 영향을 받습니다. 오류 수가 많을수록 더 많은 재시도가 필요합니다.
+* **전체 플랫폼 로드**:여러 개의 큰 배달이 전송되면 전체 플랫폼에 영향을 줄 수 있습니다. 또한 IP 명성과 전달 가능성 문제를 확인할 수 있습니다. 자세한 내용은 Adobe Campaign 전달 [가능성 우수 사례 가이드](../../delivery/using/deliverability-key-points.md) 및 [이 페이지를 참조하십시오](../../delivery/using/about-deliverability.md).
 
 플랫폼 및 데이터베이스 유지 관리도 배달 전송 성능에 영향을 줄 수 있습니다. For more on this, refer to [this page](../../production/using/database-performances.md).
 
@@ -118,13 +118,13 @@ ht-degree: 2%
 이 **[!UICONTROL Send]** 단추를 클릭하면 배달이 평소보다 오래 걸리는 것 같습니다. 이 문제는 다음과 같은 여러 요소로 인해 발생할 수 있습니다.
 
 * 일부 이메일 공급자가 사용자의 IP 주소를 차단 목록에 추가했을 수 있습니다. 이 경우 브로드로그를 확인하고 [이 섹션을 참조하십시오](../../delivery/using/about-deliverability.md).
-* 배달이 너무 커서 빠르게 처리할 수 없을 수도 있고, 높은 JavaScript 개인화를 통해 또는 배달 무게가 60KB 이상인 경우 이러한 문제가 발생할 수 있습니다. 콘텐츠 가이드라인에 대한 자세한 내용은 Adobe Campaign [전달](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) 모범 사례를 참조하십시오.
+* 배달이 너무 커서 빠르게 처리할 수 없을 수도 있고, 높은 JavaScript 개인화를 통해 또는 배달 무게가 60KB 이상인 경우 이러한 문제가 발생할 수 있습니다. 콘텐츠 가이드라인에 대한 자세한 내용은 Adobe Campaign [전달](../../delivery/using/delivery-best-practices.md) 모범 사례를 참조하십시오.
 * Adobe Campaign MTA 내에서 조절이 발생했을 수 있습니다. 이 문제는 다음과 같습니다.
 
-   * 보류 중인 메시지(**[!UICONTROL quotas met]** 메시지): Campaign에 정의된 선언적 MX 규칙으로 선언된 할당량이 충족되었습니다. 이 메시지에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ). MX 규칙에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../delivery/using/technical-recommendations.md#mx-rules).
-   * 보류 중인 메시지(**[!UICONTROL dynamic flow control]** 메시지): 캠페인 MTA가 지정된 ISP에 대한 메시지를 전달하려고 할 때 오류가 발생하여 오류 밀도가 너무 커 잠재적 차단 목록에 직면할 수 있습니다.
+   * 보류 중인 메시지(**[!UICONTROL quotas met]** 메시지):Campaign에 정의된 선언적 MX 규칙으로 선언된 할당량이 충족되었습니다. 이 메시지에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../delivery/using/deliverability-faq.md) . MX 규칙에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../delivery/using/technical-recommendations.md#mx-rules).
+   * 보류 중인 메시지(**[!UICONTROL dynamic flow control]** 메시지):캠페인 MTA가 지정된 ISP에 대한 메시지를 전달하려고 할 때 오류가 발생하여 오류 밀도가 너무 커 잠재적 차단 목록에 직면할 수 있습니다.
 
-* 시스템 문제로 인해 서버가 서로 상호 작용할 수 없습니다. 이렇게 하면 전송 프로세스가 느려질 수 있습니다. 예를 들어 개인화 데이터를 가져오는 과정에서 Campaign에 영향을 줄 수 있는 메모리 또는 리소스 문제가 없는지 서버를 확인하십시오.
+* 시스템 문제로 인해 서버가 서로 상호 작용할 수 없습니다.이렇게 하면 전송 프로세스가 느려질 수 있습니다. 예를 들어 개인화 데이터를 가져오는 과정에서 Campaign에 영향을 줄 수 있는 메모리 또는 리소스 문제가 없는지 서버를 확인하십시오.
 
 ### 성능 모범 사례 {#best-practices-performance}
 
@@ -203,7 +203,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한 자세한 내용은 Adobe Campaign 전달 [가능성 우수 사례 가이드](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 및 [이 페이지를 참조하십시오](../../delivery/using/about-deliverability.md).
+Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한 자세한 내용은 Adobe Campaign 전달 [가능성 우수 사례 가이드](../../delivery/using/deliverability-key-points.md) 및 [이 페이지를 참조하십시오](../../delivery/using/about-deliverability.md).
 
 ### 보류 중 상태 {#pending-status}
 
@@ -244,15 +244,15 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한
 
 배달 로그는 배달이 실패한 이유를 확인하는 데 중요합니다. 배달 로그에서 감지할 수 있는 오류는 다음과 같습니다.
 
-* 받는 사람 메시지에 &quot;연결할 수 없음&quot; 오류가 표시되는 경우: **스크립트 &#39;content htmlContent&#39; 줄 X를 컴파일하는 동안 오류가 발생했습니다.`[table]`가 정의되지 않았습니다. JavaScript: 스크립트 &#39;content htmlContent**&#39;를 평가하는 동안 오류가 발생했습니다. 이 문제의 원인은 업스트림 타깃팅 또는 게재 대상 매핑에서 정의되거나 매핑되지 않은 테이블이나 필드를 호출하려고 시도하는 HTML 내의 개인화입니다.
+* 받는 사람 메시지에 &quot;연결할 수 없음&quot; 오류가 표시되는 경우: **스크립트 &#39;content htmlContent&#39; 줄 X를 컴파일하는 동안 오류가 발생했습니다.`[table]`가 정의되지 않았습니다. JavaScript:스크립트 &#39;content htmlContent**&#39;를 평가하는 동안 오류가 발생했습니다. 이 문제의 원인은 업스트림 타깃팅 또는 게재 대상 매핑에서 정의되거나 매핑되지 않은 테이블이나 필드를 호출하려고 시도하는 HTML 내의 개인화입니다.
 
    이 문제를 해결하려면 워크플로우 및 전달 컨텐츠를 검토하여 특정 개인화가 해당 테이블을 호출하려고 시도하는 내용과 테이블을 매핑할 수 있는지 여부를 구체적으로 결정해야 합니다. 여기에서 HTML에서 이 테이블에 대한 호출을 제거하거나 배달에 대한 매핑을 수정하는 것이 해결 경로가 됩니다.
 
-* 중간 소싱 배포 모델에서 다음 메시지가 배달 로그에 나타날 수 있습니다. **중간 소싱 서버에서 &#39;AppendDeliveryPart&#39; 메서드를 호출하는 동안 오류가 발생했습니다. &#39;서버에 통신 오류가 발생했습니다. 제대로 구성되어 있는지 확인하십시오. 코드 HTTP 408 &#39;서비스를 일시적으로 사용할 수 없습니다&#39;**.
+* 중간 소싱 배포 모델에서 다음 메시지가 배달 로그에 나타날 수 있습니다. **중간 소싱 서버에서 &#39;AppendDeliveryPart&#39; 메서드를 호출하는 동안 오류가 발생했습니다.&#39;서버에 통신 오류가 발생했습니다.제대로 구성되어 있는지 확인하십시오. 코드 HTTP 408 &#39;서비스를 일시적으로 사용할 수 없습니다&#39;**.
 
    원인은 성능 문제와 연결되어 있습니다. 즉, 마케팅 인스턴스가 데이터를 중간 소싱 서버로 보내기 전에 데이터 작성에 너무 많은 시간을 소비합니다.
 
-   이 문제를 해결하려면 진공청소기를 실행하고 데이터베이스에 다시 색인화하는 것이 좋습니다. For more information on database maintenance, refer to [this section](../../production/using/recommendations.md).
+   이 문제를 해결하려면 데이터베이스에 진공청소기를 다시 색인화하는 것이 좋습니다. For more information on database maintenance, refer to [this section](../../production/using/recommendations.md).
 
    또한 예약된 활동이 있는 모든 워크플로우와 실패한 상태의 모든 워크플로우도 다시 시작해야 합니다. [이 섹션](../../workflow/using/scheduler.md)을 참조하십시오.
 
@@ -262,7 +262,7 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한
 
    이 문제를 해결하려면 사용된 개인화 데이터를 확인한 다음 해당 필드에 대해 둘 이상의 항목이 있는 수신자의 대상을 확인하십시오. 배달 활동 전에 타깃팅 워크플로우에서 **[!UICONTROL Deduplication]** 활동을 사용하여 한 번에 하나의 개인화 필드만 있는지 확인할 수도 있습니다. For more information on deduplication, refer to [this page](../../workflow/using/deduplication.md).
 
-* 일부 배달은 &quot;연결할 수 없음&quot; 오류로 실패할 수 있습니다. &quot;인바운드 이메일 바운스(규칙 &#39;자동 응답&#39;이 이 바운스와 일치함). 즉, 배달에 성공했지만 Adobe Campaign은 &#39;자동 회신&#39; 인바운드 이메일 규칙과 일치하는 수신자(&quot;부재 중&quot; 응답)로부터 자동 회신을 수신했습니다. 자동 회신 이메일은 Adobe Campaign에서 무시되며 수신자의 주소는 격리조치에 보내지 않습니다.
+* 일부 배달은 &quot;연결할 수 없음&quot; 오류로 실패할 수 있습니다.&quot;인바운드 이메일 바운스(규칙 &#39;자동 응답&#39;이 이 바운스와 일치함). 즉, 배달에 성공했지만 Adobe Campaign은 &#39;자동 회신&#39; 인바운드 이메일 규칙과 일치하는 수신자(&quot;부재 중&quot; 응답)로부터 자동 회신을 수신했습니다. 자동 회신 이메일은 Adobe Campaign에서 무시되며 수신자의 주소는 격리조치에 보내지 않습니다.
 
 **관련 항목:**
 
