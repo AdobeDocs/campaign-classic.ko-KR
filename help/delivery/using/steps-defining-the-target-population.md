@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffbbe95247f28115f7e46eb0e94f2612fb4ea93
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -59,16 +59,16 @@ ht-degree: 0%
 
    기본적으로 다음 대상 유형이 제공됩니다.
 
-   * **[!UICONTROL Filtering conditions]** : 이 옵션을 사용하면 쿼리를 정의하고 결과를 표시할 수 있습니다. 쿼리 정의 방법은 [이 섹션에 나와 있습니다](../../platform/using/creating-filters.md#creating-an-advanced-filter).
-   * **[!UICONTROL Subscribers of an information service]** : 이 옵션을 사용하면 받는 사람이 가입해야 하는 뉴스레터를 선택하는 데 사용할 수 있습니다.
+   * **[!UICONTROL Filtering conditions]** :이 옵션을 사용하면 쿼리를 정의하고 결과를 표시할 수 있습니다. 쿼리 정의 방법은 [이 섹션에 나와 있습니다](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+   * **[!UICONTROL Subscribers of an information service]** :이 옵션을 사용하면 받는 사람이 가입해야 하는 뉴스레터를 선택하는 데 사용할 수 있습니다.
 
       ![](assets/s_ncs_user_wizard_email02c.png)
 
-   * **[!UICONTROL Recipients of a delivery]** : 이 옵션을 사용하면 기존 게재의 수신자를 타깃팅 기준으로 정의할 수 있습니다. 그런 다음 목록에서 배달을 선택해야 합니다.
+   * **[!UICONTROL Recipients of a delivery]** :이 옵션을 사용하면 기존 게재의 수신자를 타깃팅 기준으로 정의할 수 있습니다. 그런 다음 목록에서 배달을 선택해야 합니다.
 
       ![](assets/s_ncs_user_wizard_email02d.png)
 
-   * **[!UICONTROL Delivery recipients belonging to a folder]** : 이 옵션을 사용하면 배달 폴더를 선택하고 해당 폴더에서 배달 수신자를 타깃팅할 수 있습니다.
+   * **[!UICONTROL Delivery recipients belonging to a folder]** :이 옵션을 사용하면 배달 폴더를 선택하고 해당 폴더에서 배달 수신자를 타깃팅할 수 있습니다.
 
       ![](assets/s_ncs_user_wizard_email02e.png)
 
@@ -80,10 +80,10 @@ ht-degree: 0%
       >
       >이 **[!UICONTROL Include sub-folders]** 옵션을 사용하면 선택한 노드 아래의 트리 구조에 있는 폴더에 포함된 배달을 타깃팅할 수도 있습니다.
 
-   * **[!UICONTROL Recipients included in a folder]** : 이 옵션을 사용하면 트리의 특정 폴더에 포함된 프로필을 타깃팅할 수 있습니다.
-   * **[!UICONTROL A recipient]** : 이 옵션을 사용하면 데이터베이스의 프로필에서 특정 수신자를 선택할 수 있습니다.
-   * **[!UICONTROL A list of recipients]** : 이 옵션을 사용하면 수신자 목록을 타깃팅할 수 있습니다. 목록은 [이 섹션에 나와 있습니다](../../platform/using/creating-and-managing-lists.md).
-   * **[!UICONTROL User filters]** : 이 옵션을 사용하면 미리 구성된 필터에 액세스하여 데이터베이스의 프로필에 대한 필터링 기준으로 사용할 수 있습니다. 사전 구성된 필터가 [이 섹션에 표시됩니다](../../platform/using/creating-filters.md#saving-a-filter).
+   * **[!UICONTROL Recipients included in a folder]** :이 옵션을 사용하면 트리의 특정 폴더에 포함된 프로필을 타깃팅할 수 있습니다.
+   * **[!UICONTROL A recipient]** :이 옵션을 사용하면 데이터베이스의 프로필에서 특정 수신자를 선택할 수 있습니다.
+   * **[!UICONTROL A list of recipients]** :이 옵션을 사용하면 수신자 목록을 타깃팅할 수 있습니다. 목록은 [이 섹션에 나와 있습니다](../../platform/using/creating-and-managing-lists.md).
+   * **[!UICONTROL User filters]** :이 옵션을 사용하면 미리 구성된 필터에 액세스하여 데이터베이스의 프로필에 대한 필터링 기준으로 사용할 수 있습니다. 사전 구성된 필터가 [이 섹션에 표시됩니다](../../platform/using/creating-filters.md#saving-a-filter).
    * 이 옵션을 **[!UICONTROL Exclude recipients corresponding to this segment]** 사용하면 정의된 대상 기준을 충족하지 않는 수신자를 타깃팅할 수 있습니다. 이 옵션을 사용하려면 적절한 상자를 선택한 다음, 앞에서 정의된 대로 타깃팅을 적용하여 결과 프로필을 제외합니다.
 
       ![](assets/s_ncs_user_wizard_email02g.png)
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->이메일 전달을 위한 메시지 내용을 정의할 때는 미러 페이지에 대한 링크를 포함하지 마십시오. 이 배달 모드에서 생성할 수 없습니다.
+>이메일 전달을 위한 메시지 내용을 정의할 때는 미러 페이지에 대한 링크를 포함하지 마십시오.이 배달 모드에서 생성할 수 없습니다.
 
 ### 제외 설정 설정 {#customizing-exclusion-settings}
 
@@ -142,14 +142,14 @@ ht-degree: 0%
 
 다음 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL Exclude duplicate addresses during delivery]**. 이 옵션은 기본적으로 활성화되어 있습니다. 이를 통해 배달 중 중복된 이메일 주소를 제거할 수 있습니다. 적용된 전략은 Adobe Campaign 사용 방식과 데이터베이스의 데이터 유형에 따라 다를 수 있습니다.
+* **[!UICONTROL Exclude duplicate addresses during delivery]**. 이 옵션은 기본적으로 활성화되어 있습니다.이를 통해 배달 중 중복된 이메일 주소를 제거할 수 있습니다. 적용된 전략은 Adobe Campaign 사용 방식과 데이터베이스의 데이터 유형에 따라 다를 수 있습니다.
 
    옵션의 기본값은 각 배달 템플릿에 대해 구성할 수 있습니다.
 
    예제:
 
-   * 뉴스레터 또는 전자 문서 전달 데이터에 기본 중복 항목이 없는 경우도 있습니다. 동일한 이메일 주소를 사용하는 커플에게 개인화된 두 가지 이메일 메시지를 받게 됩니다. 한 사람의 이름은 개개개인으로 지정됩니다. 이 경우 이 옵션을 선택 취소할 수 있습니다.
-   * 마케팅 캠페인 전달: 동일한 수신자에게 너무 많은 메시지를 보내지 않으려면 중복 제외가 필요합니다. 이 경우 이 옵션을 선택할 수 있습니다.
+   * 뉴스레터 또는 전자 문서 전달 데이터에 기본 중복 항목이 없는 경우도 있습니다. 동일한 이메일 주소를 사용하는 커플에게 개인화된 두 가지 이메일 메시지를 받게 됩니다.한 사람의 이름은 개개개인으로 지정됩니다. 이 경우 이 옵션을 선택 취소할 수 있습니다.
+   * 마케팅 캠페인 전달:동일한 수신자에게 너무 많은 메시지를 보내지 않으려면 중복 제외가 필요합니다. 이 경우 이 옵션을 선택할 수 있습니다.
 
       이 옵션을 선택 해제하면 추가 옵션에 액세스할 수 있습니다. **[!UICONTROL Keep duplicate records (same identifier)]**. 여러 타깃팅 기준을 충족하는 수신자에게 여러 전달을 승인할 수 있도록 해줍니다.
 
@@ -208,7 +208,7 @@ For more on proof sending, refer to [this section](../../delivery/using/steps-va
 
 1. 대체 **[!UICONTROL Add]** 를 정의하려면 아이콘을 클릭합니다.
 1. 사용할 수신자 주소를 입력하거나 목록에서 선택합니다.
-1. 증표에 사용할 프로파일을 선택합니다. 데이터 **[!UICONTROL Random]** 에 있는 대상의 프로파일 데이터를 **[!UICONTROL Profile to use]** 사용할 수 있도록 열에 값을 저장합니다.
+1. 증표에 사용할 프로파일을 선택합니다.데이터 **[!UICONTROL Random]** 에 있는 대상의 프로파일 데이터를 **[!UICONTROL Profile to use]** 사용할 수 있도록 열에 값을 저장합니다.
 
    ![](assets/s_ncs_user_wizard_email_bat_substitute_choose.png)
 
@@ -220,7 +220,7 @@ For more on proof sending, refer to [this section](../../delivery/using/steps-va
 
 ## 시드 주소를 증명으로 사용 {#using-seed-addresses-as-proof}
 
-교정본 **[!UICONTROL Seed addresses]** 의 대상으로 사용할 수 있습니다. 이 옵션을 사용하면 기존 시드 주소 목록을 사용하거나 가져올 수 있습니다.
+교정본 **[!UICONTROL Seed addresses]** 의 대상으로 사용할 수 있습니다.이 옵션을 사용하면 기존 시드 주소 목록을 사용하거나 가져올 수 있습니다.
 
 ![](assets/s_ncs_user_wizard_email_bat_control_address.png)
 
@@ -229,3 +229,15 @@ For more on proof sending, refer to [this section](../../delivery/using/steps-va
 >시드 주소는 [시드 주소에 표시됩니다](../../delivery/using/about-seed-addresses.md).
 
 이 옵션을 사용하여 특정 증명 대상의 정의와 시드 주소의 사용을 결합할 수 **[!UICONTROL Specific target and Seed addresses]** 있습니다. 그런 다음 관련 구성은 두 개의 개별 하위 탭에서 정의됩니다.
+
+## 이메일을 통해 시드와 증거 자료를 관리하는 방법
+
+이 비디오에서는 기존 이메일에 씨드(sed) 및 교정을 추가하는 방법과 보내는 방법을 살펴봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+다음을 참조하십시오.
+* [증명 대상 선택](#selecting-the-proof-target)
+
+* [시드 주소 정보](../../delivery/using/about-seed-addresses.md)
+
+* [사용 사례:기준 시드 주소 선택](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
