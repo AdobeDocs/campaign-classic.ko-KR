@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '416'
 ht-degree: 4%
 
 ---
@@ -70,10 +70,3 @@ Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정
 
    자세한 내용은 전달 개요를 통해 [연결된 리소스 연결 및 구조화를 참조하십시오](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
-## 캠페인에서 이메일을 만드는 방법
-
-이 비디오에서는 Adobe Campaign Classic에서 캠페인 및 이메일을 만드는 방법을 설명합니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
-
-For more details, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md)
