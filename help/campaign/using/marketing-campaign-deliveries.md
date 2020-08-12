@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '2928'
+source-wordcount: '2956'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 # 마케팅 캠페인 전달 {#marketing-campaign-deliveries}
 
 게재는 캠페인 대시보드, 캠페인 워크플로우를 통해 만들거나 게재 개요를 통해 직접 만들 수 있습니다.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#create-email-video)
 
 ## 게재 만들기 {#creating-deliveries}
 
@@ -78,6 +80,13 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >동일한 캠페인에서 28개 이상의 워크플로우를 설정할 수 없습니다. 이 제한 이후에는 추가 워크플로우가 인터페이스에 표시되지 않으며 오류를 생성할 수 있습니다.
+
+### 캠페인에서 이메일을 만드는 방법 {#create-email-video}
+
+이 비디오에서는 Adobe Campaign Classic에서 캠페인 및 이메일을 만드는 방법을 설명합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
 
 #### Creating a targeting workflow {#creating-a-targeting-workflow}
 
