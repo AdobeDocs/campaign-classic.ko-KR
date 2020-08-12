@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 0%
@@ -34,7 +34,7 @@ AMP 이메일 테스트 및 전송에 대한 자세한 내용은 AMP 이메일 [
 이 기능은 Adobe Campaign의 전용 패키지를 통해 사용할 수 있습니다. 사용하려면 이 패키지를 설치해야 합니다. 완료되면 패키지를 고려하기 위해 서버를 다시 시작합니다.
 
 >[!NOTE]
->>하이브리드 및 호스팅 아키텍처의 경우 [중간 소싱 서버](../../installation/using/mid-sourcing-server.md) 및 [실행 인스턴스](../../message-center/using/creating-a-shared-connection.md#execution-instance)등 모든 서버에 패키지를 설치해야 합니다. 계정 담당자에게 문의하십시오.
+> 하이브리드 및 호스팅 아키텍처의 경우 [중간 소싱 서버](../../installation/using/mid-sourcing-server.md) 및 [실행 인스턴스](../../message-center/using/creating-a-shared-connection.md#execution-instance)등 모든 서버에 패키지를 설치해야 합니다. 계정 담당자에게 문의하십시오.
 
 
 ## 이메일의 AMP 정보 {#about-amp-for-email}
@@ -46,11 +46,11 @@ AMP 이메일 테스트 및 전송에 대한 자세한 내용은 AMP 이메일 [
 * 메시지의 콘텐츠가 최신 상태로 유지됩니다.
 * 수신자는 받은 편지함을 그대로 두고 양식에 응답하는 등의 조치를 취할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#amp-email-video)
-
 이메일용 AMP는 기존 이메일과 호환됩니다. 메시지의 AMP 버전은 HTML 및/또는 일반 텍스트 외에 새로운 MIME 부분으로 이메일에 포함되므로 모든 이메일 클라이언트에서 호환성이 보장됩니다.
 
 이메일 포맷, 사양 및 요구 사항에 대한 AMP에 대한 자세한 내용은 [AMP 개발자 설명서를 참조하십시오](https://amp.dev/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email).
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#amp-email-video)
 
 ## Adobe Campaign에서 이메일에 AMP를 사용하는 주요 단계 {#key-steps-to-use-amp}
 
@@ -148,7 +148,7 @@ Adobe Campaign에서 AMP 컨텐츠를 빌드할 때는 수신자의 이메일 �
 Gmail 계정에서 AMP 포맷으로 전달할 내용을 테스트하는 데 필요한 모든 단계 및 사양은 해당 [Gmail](https://developers.google.com/gmail/ampemail?), [Outlook ](https://docs.microsoft.com/en-gb/outlook/amphtml/) 및 [Mail.ru](https://postmaster.mail.ru/amp) 개발자 문서에 자세히 설명되어 있습니다.
 
 특히 다음 요구 사항을 충족해야 합니다.
-* Gmail, [Outlook](https://developers.google.com/gmail/ampemail/security-requirements)및 [Mail](https://docs.microsoft.com/en-gb/outlook/amphtml/security-requirements) .ru와 관련된 AMP 보안 요구 사항을 [따르십시오](https://postmaster.mail.ru/amp/?lang=en#howto).
+* Gmail, [Outlook](https://developers.google.com/gmail/ampemail/security-requirements)및 [Mail](https://docs.microsoft.com/en-gb/outlook/amphtml/security-requirements) .ru에 대한 AMP 보안 요구 사항을 [따르십시오](https://postmaster.mail.ru/amp/?lang=en#howto).
 * AMP MIME 부분에 [유효한 AMP 문서가 있어야 합니다](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email).
 * AMP MIME 부분은 100KB보다 작아야 합니다.
 
