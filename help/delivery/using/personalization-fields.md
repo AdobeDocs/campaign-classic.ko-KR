@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 3%
@@ -126,7 +126,7 @@ ht-degree: 3%
 
 이 옵션을 0으로 설정하면 개인화 단계에 대한 제한 시간이 없습니다.
 
-## 개인화 필드를 사용하여 이메일을 개인화하는 방법 {#personalization-field-video}
+## 개인화 필드를 사용하여 이메일을 개인화하는 방법 {#personalization-fields-video}
 
 제목 줄과 이메일 전달 내용에 개인화 필드를 추가하는 방법을 알아봅니다.
 
