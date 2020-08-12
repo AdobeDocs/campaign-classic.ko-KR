@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1130'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 캠페인 템플릿 만들기 및 구성은 [캠페인 템플릿에 표시됩니다](#campaign-templates).
 
-캠페인 만들기에 대한 자세한 내용은 캠페인 [만들기 및 이메일](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/creating-a-campaign-and-an-email.html) 비디오를 참조하십시오.
+캠페인 만들기에 대한 자세한 내용은 [이 비디오를 참조하십시오](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
 
 ## 사용 가능한 모듈 구성 {#configuration-of-the-available-modules}
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 ### 작업 승인 {#approval-of-jobs}
 
-템플릿 고급 설정 섹션의 **[!UICONTROL Approvals]** 탭을 통해 프로세스 승인을 활성화할지 여부를 선택할 수 있습니다. 메시지 전달을 승인하려면 승인을 선택한 작업을 승인해야 합니다.
+템플릿 고급 설정 섹션의 **[!UICONTROL Approvals]** 탭을 통해 프로세스 승인을 활성화할지 여부를 선택할 수 있습니다. 메시지 전달을 승인하려면 승인이 선택된 작업을 승인해야 합니다.
 
 각 승인 작업에 검토자 연산자 또는 연산자 그룹을 연결해야 합니다.
 
