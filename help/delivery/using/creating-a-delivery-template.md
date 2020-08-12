@@ -15,15 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
 
 
 # Creating a delivery template{#creating-a-delivery-template}
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#delivery-template-video)
 
 ## 기존 배달을 템플릿으로 변환 {#converting-an-existing-delivery-to-a-template}
 
@@ -74,7 +76,7 @@ ht-degree: 1%
 >
 >구성 오류를 방지하려면 새 템플릿을 만드는 대신 기본 템플릿을 복제하고 해당 속성을 변경하는 것이 좋습니다.
 
-## 배달 템플릿을 구성하는 방법
+## 배달 템플릿을 구성하는 방법 {#delivery-template-video}
 
 다음 비디오에서는 애드혹 전달에 대한 템플릿을 구성하는 방법을 보여 줍니다.
 
