@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '873'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,9 @@ ht-degree: 3%
 
 예를 들어, **&lt;%= recipient.LastName %>** 구문을 사용하는 개인화 필드는 Adobe Campaign에게 받는 사람의 이름을 데이터베이스에 삽입하도록 지시합니다(수신자 테이블).
 
->[!NOTE]
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#personalization-fields-video)
+
+>[!CAUTION]
 >
 >개인화 필드 콘텐츠는 1024자를 초과할 수 없습니다.
 
@@ -124,7 +126,7 @@ ht-degree: 3%
 
 이 옵션을 0으로 설정하면 개인화 단계에 대한 제한 시간이 없습니다.
 
-## 개인화 필드를 사용하여 이메일을 개인화하는 방법
+## 개인화 필드를 사용하여 이메일을 개인화하는 방법 {#personalization-field-video}
 
 제목 줄과 이메일 전달 내용에 개인화 필드를 추가하는 방법을 알아봅니다.
 
