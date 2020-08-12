@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32076ea0a817d8649d1db9e39628221e15ede37e
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,9 @@ ht-degree: 0%
 
 증명은 기본 타겟으로 보내기 전에 배달을 테스트할 수 있는 특수 메시지입니다. 메시지의 양식과 내용을 모두 승인하는 사람은 입증 책임입니다.
 
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#seeds-and-proofs-video)
+
+
 교정본 대상을 선택하려면 아래 단계를 따르십시오.
 
 1. 링크를 **[!UICONTROL To]** 클릭합니다.
@@ -230,7 +233,7 @@ For more on proof sending, refer to [this section](../../delivery/using/steps-va
 
 이 옵션을 사용하여 특정 증명 대상의 정의와 시드 주소의 사용을 결합할 수 **[!UICONTROL Specific target and Seed addresses]** 있습니다. 그런 다음 관련 구성은 두 개의 개별 하위 탭에서 정의됩니다.
 
-## 이메일을 통해 시드와 증거 자료를 관리하는 방법
+## 이메일을 통해 시드와 증거 자료를 관리하는 방법 {#seeds-and-proofs-video}
 
 이 비디오에서는 기존 이메일에 씨드(sed) 및 교정을 추가하는 방법과 보내는 방법을 살펴봅니다.
 
