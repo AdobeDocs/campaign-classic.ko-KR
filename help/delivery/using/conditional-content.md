@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,9 @@ ht-degree: 0%
 # 조건부 컨텐츠{#conditional-content}
 
 조건부 컨텐츠 필드를 구성하면 받는 사람의 프로필을 기반으로 동적 개인화를 만들 수 있습니다. 특정 조건이 충족되면 텍스트 블록 및/또는 이미지가 교체됩니다.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#conditionnal-content-video)
+
 
 ## 이메일의 조건 사용 {#using-conditions-in-an-email}
 
@@ -114,7 +117,7 @@ ht-degree: 0%
    >
    >이메일 컨텐츠에 다른 버전이 정의되지 않은 경우 이메일을 보내기 전에 타겟 모집단을 필터링해야 합니다.
 
-## 조건부 컨텐츠로 다국어 뉴스레터를 만드는 방법
+## 조건부 컨텐츠로 다국어 뉴스레터를 만드는 방법 {#conditionnal-content-video}
 
 다국어 뉴스레터의 예에 따라 게재에 조건부 컨텐츠를 추가하는 방법을 알아봅니다.
 
