@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 24d2dded38ddb922891a7264d9efea02cb448323
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
 source-wordcount: '7069'
 ht-degree: 13%
@@ -38,7 +38,7 @@ ht-degree: 13%
 
 * [분류 규칙 및 사전 정의된 필터를 사용하여 피로 관리를 설정하는 방법](../../campaign/using/about-campaign-typologies.md)
 
-* [캠페인에서 이메일을 만드는 방법](../../campaign/using/designing-marketing-campaigns.md)
+* [캠페인에서 이메일을 만드는 방법](../../campaign/using/marketing-campaign-deliveries.md)
 
 * [조건부 컨텐츠로 다국어 뉴스레터를 만드는 방법](../../delivery/using/conditional-content.md)
 
