@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '484'
 ht-degree: 5%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 5%
 # 캠페인 유형 정보{#about-campaign-typologies}
 
 캠페인 최적화는 게재 전송을 제어, 필터링 및 모니터링할 수 있는 Adobe Campaign 모듈입니다. 캠페인 간의 충돌을 피하기 위해, Adobe Campaign은 특정 제한 규칙을 적용하여 다양한 조합을 테스트할 수 있습니다. 따라서 전송된 메시지는 고객과 회사 커뮤니케이션 정책의 요구 및 기대를 충족시킵니다.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#typologies-video)
 
 >[!NOTE]
 >
@@ -69,7 +71,7 @@ Adobe Campaign을 사용하면 4가지 유형의 분류 규칙을 디자인하�
 
 배달 준비 중, 수신자는 기준이 충족될 때 제외됩니다. 로그를 확인하여 제외 사항을 모니터링할 수 있습니다. 압력 유형 규칙에 대한 샘플 사용 사례는 [이 페이지에서 확인할 수 있습니다](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules).
 
-## 분류 규칙을 사용하여 피로 관리를 설정하는 방법
+## 분류 규칙을 사용하여 피로 관리를 설정하는 방법 {#typologies-video}
 
 이 비디오에서는 유형 규칙을 활용하여 Adobe Campaign Classic에서 피로 관리를 구현하는 방법을 설명합니다.
 
