@@ -3,17 +3,17 @@ audience: end-user
 user-guide-title: Adobe Campaign Classic 도움말
 index: y
 product: adobe campaign
-sub-product: adobe campaign classic
+sub-product: Aadobe Campaign Classic
 translation-type: tm+mt
 source-git-commit: 5e6ecd636ee0b2199808c03b2fd898a194f0c1ea
 workflow-type: tm+mt
 source-wordcount: '2110'
-ht-degree: 9%
+ht-degree: 95%
 
 ---
 
 
-# Adobe Campaign Classic Help {#using}
+# Adobe Campaign Classic 도움말 {#using}
 
 + [제품 설명서](campaign-classic-home.md)
 + [최신 업데이트](rn/using/documentation-updates.md)
@@ -29,19 +29,19 @@ ht-degree: 9%
       + [릴리스 18.6](rn/using/release--18-6.md)
       + [릴리스 18.4](rn/using/release--18-4.md)
    + 더 이상 사용되지 않는 기능 및 호환성 {#deprecated-compatibility}
-      + [더 이상 사용되지 않는 기능](rn/using/deprecated-features.md)
+      + [사용되지 않는 기능](rn/using/deprecated-features.md)
       + [호환성 표](rn/using/compatibility-matrix.md)
-+ Getting Started {#getting-started}
++ 시작 {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
-      + [Adobe Campaign Classic 정보](platform/using/about-adobe-campaign-classic.md)
+      + [Adobe Campaign Classic 기본 정보](platform/using/about-adobe-campaign-classic.md)
       + [개인 정보 및 동의](platform/using/privacy-and-recommendations.md)
-      + [런칭 Adobe Campaign](platform/using/launching-adobe-campaign.md)
+      + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
       + [Adobe Campaign 작업 영역](platform/using/adobe-campaign-workspace.md)
       + FAQ {#faq}
          + [일반적인 질문](platform/using/common-questions.md)
          + [주요 개념](platform/using/faq-key-concepts.md)
          + [대상](platform/using/faq-audiences.md)
-         + [디자인 메시지](platform/using/faq-designing.md)
+         + [메시지 디자인](platform/using/faq-designing.md)
          + [메시지 보내기](platform/using/faq-messages.md)
          + [워크플로우](platform/using/faq-workflows.md)
          + [구성](platform/using/faq-campaign-config.md)
@@ -66,7 +66,7 @@ ht-degree: 9%
       + [필터 만들기](platform/using/creating-filters.md)
       + [사용 사례](platform/using/use-case.md)
    + 쿼리 만들기 {#creating-queries}
-      + [캠페인의 쿼리 정보](platform/using/about-queries-in-campaign.md)
+      + [Campaign의 쿼리 기본 정보](platform/using/about-queries-in-campaign.md)
       + [쿼리를 만드는 단계](platform/using/steps-to-create-a-query.md)
       + [필터 조건 정의](platform/using/defining-filter-conditions.md)
    + 관리 기본 사항 {#administration-basics}
@@ -88,7 +88,7 @@ ht-degree: 9%
       + [커넥터 정보](platform/using/about-connectors.md)
       + [CRM 커넥터](platform/using/crm-connectors.md)
       + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector.md)
-+ 메시지 전송 {#sending-messages}
++ 메시지 보내기 {#sending-messages}
    + [메시지 시작하기](delivery/using/communication-channels.md)
    + 전달 모범 사례 {#delivery-bestpractices}
       + [모범 사례 학습](delivery/using/delivery-best-practices.md)
@@ -98,68 +98,68 @@ ht-degree: 9%
       + [적합한 고객 정의](delivery/using/define-the-right-audience.md)
       + [보내기 전 확인](delivery/using/check-before-sending.md)
       + [추적 및 모니터](delivery/using/track-and-monitor.md)
-   + 배달을 만들 때의 주요 단계 {#key-steps-when-creating-a-delivery}
+   + 게재를 만들 때 주요 단계 {#key-steps-when-creating-a-delivery}
       + [배달 시작](delivery/using/steps-about-delivery-creation-steps.md)
-      + [배달 만들기 및 식별](delivery/using/steps-create-and-identify-the-delivery.md)
+      + [게재 만들기 및 식별](delivery/using/steps-create-and-identify-the-delivery.md)
       + [대상 모집단 정의](delivery/using/steps-defining-the-target-population.md)
-      + [배달 유효성 확인](delivery/using/steps-validating-the-delivery.md)
-      + [배달 전송](delivery/using/steps-sending-the-delivery.md)
-   + 이메일 전송 {#sending-emails}
-      + [이메일 채널 정보](delivery/using/about-email-channel.md)
-      + [이메일 게재 만들기](delivery/using/creating-an-email-delivery.md)
-      + [이메일 컨텐츠 정의](delivery/using/defining-the-email-content.md)
-      + [인터랙티브한 컨텐츠 정의](delivery/using/defining-interactive-content.md)
-      + [메시지 전송](delivery/using/sending-messages.md)
+      + [게재 유효성 검사](delivery/using/steps-validating-the-delivery.md)
+      + [게재 보내기](delivery/using/steps-sending-the-delivery.md)
+   + 전자 메일 보내기 {#sending-emails}
+      + [전자 메일 채널 기본 정보](delivery/using/about-email-channel.md)
+      + [전자 메일 게재 만들기](delivery/using/creating-an-email-delivery.md)
+      + [전자 메일 콘텐츠 정의](delivery/using/defining-the-email-content.md)
+      + [대화형 콘텐츠 정의](delivery/using/defining-interactive-content.md)
+      + [메시지 보내기](delivery/using/sending-messages.md)
       + [파일 첨부](delivery/using/attaching-files.md)
    + 모바일에 메시지 보내기 {#sending-messages-on-mobiles}
       + [SMS 채널](delivery/using/sms-channel.md)
       + [LINE 채널](delivery/using/line-channel.md)
-   + 푸시 알림 전송 {#sending-push-notifications}
-      + [모바일 앱 채널 정보](delivery/using/about-mobile-app-channel.md)
+   + 푸시 알림 보내기 {#sending-push-notifications}
+      + [모바일 앱 채널 기본 정보](delivery/using/about-mobile-app-channel.md)
       + [모바일 애플리케이션에 Campaign SDK 통합](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
-      + [Adobe Campaign에서 모바일 응용 프로그램 구성](delivery/using/configuring-the-mobile-application.md)
+      + [Adobe Campaign에서 모바일 애플리케이션 구성](delivery/using/configuring-the-mobile-application.md)
       + [알림 만들기](delivery/using/creating-notifications.md)
       + [문제 해결](delivery/using/troubleshooting.md)
-   + 다이렉트 메일 보내기 {#sending-direct-mail}
-      + [DM 채널 정보](delivery/using/about-direct-mail-channel.md)
-      + [DM 배달 만들기](delivery/using/creating-a-direct-mail-delivery.md)
+   + DM 보내기 {#sending-direct-mail}
+      + [DM 채널 기본 정보](delivery/using/about-direct-mail-channel.md)
+      + [DM 게재 만들기](delivery/using/creating-a-direct-mail-delivery.md)
       + [DM 콘텐츠 정의](delivery/using/defining-the-direct-mail-content.md)
-      + [유효성 확인](delivery/using/validating.md)
-   + 전달 템플릿 사용 {#using-delivery-templates}
+      + [유효성 검사](delivery/using/validating.md)
+   + 게재 템플릿 사용 {#using-delivery-templates}
       + [템플릿 기본 정보](delivery/using/about-templates.md)
-      + [배달 템플릿 만들기](delivery/using/creating-a-delivery-template.md)
+      + [게재 템플릿 만들기](delivery/using/creating-a-delivery-template.md)
       + [대상 매핑 선택](delivery/using/selecting-a-target-mapping.md)
-      + [템플릿에서 배달 만들기](delivery/using/creating-a-delivery-from-a-template.md)
-   + 배달 개인화 {#personalizing-deliveries}
-      + [개인화 정보](delivery/using/about-personalization.md)
+      + [템플릿에서 게재 만들기](delivery/using/creating-a-delivery-from-a-template.md)
+   + 게재 개인화 {#personalizing-deliveries}
+      + [개인화 기본 정보](delivery/using/about-personalization.md)
       + [개인화 필드](delivery/using/personalization-fields.md)
       + [개인화 블록](delivery/using/personalization-blocks.md)
-      + [조건부 컨텐츠](delivery/using/conditional-content.md)
+      + [조건부 콘텐츠](delivery/using/conditional-content.md)
       + [개인화된 쿠폰](delivery/using/personalized-coupons.md)
       + [맞춤형 PDF 문서 생성](delivery/using/generating-personalized-pdf-documents.md)
       + [이모티콘 목록 사용자 정의](delivery/using/customizing-emoticon-list.md)
    + 시드 주소 사용 {#using-seed-addresses}
-      + [시드 주소 정보](delivery/using/about-seed-addresses.md)
+      + [시드 주소 기본 정보](delivery/using/about-seed-addresses.md)
       + [시드 주소 만들기](delivery/using/creating-seed-addresses.md)
       + [시드 주소 추가](delivery/using/adding-seed-addresses.md)
       + [외부 수신자 테이블 사용](delivery/using/using-an-external-recipient-table.md)
-      + [사용 사례:기준 시드 주소 선택](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
-      + [사용 사례:필드 대체 구성](delivery/using/use-case--configuring-the-field-substitution.md)
+      + [사용 사례: 기준 시드 주소 선택](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+      + [사용 사례: 필드 대체 구성](delivery/using/use-case--configuring-the-field-substitution.md)
    + 구독 및 참조 {#subscriptions-and-referrals}
-      + [서비스 및 구독 정보](delivery/using/about-services-and-subscriptions.md)
+      + [서비스 및 구독 기본 정보](delivery/using/about-services-and-subscriptions.md)
       + [구독 관리](delivery/using/managing-subscriptions.md)
-      + [입소문 및 소셜 마케팅](delivery/using/viral-and-social-marketing.md)
-   + 배달 모니터링 {#monitoring-deliveries}
+      + [바이럴 및 소셜 마케팅](delivery/using/viral-and-social-marketing.md)
+   + 게재 모니터링 {#monitoring-deliveries}
       + [게재 모니터링](delivery/using/monitoring-a-delivery.md)
       + [게재 실패 이해](delivery/using/understanding-delivery-failures.md)
       + [격리 관리 이해](delivery/using/understanding-quarantine-management.md)
    + 메시지 추적 {#tracking-messages}
-      + [메시지 추적 정보](delivery/using/about-message-tracking.md)
+      + [메시지 추적 기본 정보](delivery/using/about-message-tracking.md)
       + [추적된 링크를 구성하는 방법](delivery/using/how-to-configure-tracked-links.md)
       + [URL 추적 개인화](delivery/using/personalizing-url-tracking.md)
       + [추적 로그 액세스](delivery/using/accessing-the-tracking-logs.md)
       + [추적 테스트](delivery/using/testing-tracking.md)
-   + 전달 능력 관리 {#deliverability-management}
+   + 게재 기능 관리 {#deliverability-management}
       + [게재 기능 기본 정보](delivery/using/about-deliverability.md)
       + [확인할 주요 사항](delivery/using/deliverability-key-points.md)
       + [새 플랫폼 시작](delivery/using/starting-new-platform.md)
@@ -168,40 +168,40 @@ ht-degree: 9%
       + [기술 추천](delivery/using/technical-recommendations.md)
       + [게재 기능 모니터링](delivery/using/monitoring-deliverability.md)
       + [받은 편지함 렌더링](delivery/using/inbox-rendering.md)
-      + [스팸자퍼](delivery/using/spamassassin.md)
-      + [재참여 우수 사례](delivery/using/re-engagement-best-practices.md)
+      + [SpamAssassin](delivery/using/spamassassin.md)
+      + [재참여 모범 사례](delivery/using/re-engagement-best-practices.md)
       + [차단 목록 데이터베이스](delivery/using/block-list-databases.md)
       + [문제 해결](delivery/using/deliverability-faq.md)
-   + 컨텐츠 관리 모듈 {#content-management}
-      + [컨텐츠 관리 정보](delivery/using/about-content-management.md)
+   + 콘텐츠 관리 모듈 {#content-management}
+      + [콘텐츠 관리 기본 정보](delivery/using/about-content-management.md)
       + [콘텐츠 관리자 리소스 및 원칙](delivery/using/content-manager-resources-and-principles.md)
-      + [사용 사례:콘텐츠 관리 만들기](delivery/using/use-case--creating-content-management.md)
+      + [사용 사례: 콘텐츠 관리 만들기](delivery/using/use-case--creating-content-management.md)
       + [데이터 스키마](delivery/using/data-schemas.md)
       + [입력 양식](delivery/using/input-forms.md)
       + [서식](delivery/using/formatting.md)
-      + [발행물 템플릿](delivery/using/publication-templates.md)
-      + [컨텐츠 템플릿 사용](delivery/using/using-a-content-template.md)
-      + [컨텐츠 강화](delivery/using/enriching-content.md)
+      + [발행 템플릿](delivery/using/publication-templates.md)
+      + [콘텐츠 템플릿 사용](delivery/using/using-a-content-template.md)
+      + [콘텐츠 강화](delivery/using/enriching-content.md)
       + [워크플로우를 통한 자동화](delivery/using/automating-via-workflows.md)
-+ 캠페인 통합 관리 {#orchestrating-campaigns}
-   + 마케팅 캠페인 정보 {#about-marketing-campaigns}
++ 캠페인 오케스트레이션 {#orchestrating-campaigns}
+   + 마케팅 캠페인 기본 정보 {#about-marketing-campaigns}
       + [마케팅 캠페인 디자인](campaign/using/designing-marketing-campaigns.md)
       + [마케팅 캠페인 액세스](campaign/using/accessing-marketing-campaigns.md)
-   + 캠페인 통합 운영 {#orchestrate-campaigns}
+   + 캠페인 오케스트레이션 {#orchestrate-campaigns}
       + [마케팅 캠페인 설정](campaign/using/setting-up-marketing-campaigns.md)
       + [마케팅 캠페인 템플릿](campaign/using/marketing-campaign-templates.md)
-      + [마케팅 캠페인 배달](campaign/using/marketing-campaign-deliveries.md)
+      + [마케팅 캠페인 게재](campaign/using/marketing-campaign-deliveries.md)
       + [마케팅 캠페인 승인](campaign/using/marketing-campaign-approval.md)
       + [마케팅 캠페인 모니터링](campaign/using/marketing-campaign-monitoring.md)
-      + [제공업체, 주식 및 예산](campaign/using/providers--stocks-and-budgets.md)
+      + [공급자, 재고 및 예산](campaign/using/providers--stocks-and-budgets.md)
    + 작업, 리소스 및 예산 {#tasks--resources-and-budgets}
-      + [마케팅 리소스 관리 정보](campaign/using/about-marketing-resource-management.md)
+      + [마케팅 리소스 관리 기본 정보](campaign/using/about-marketing-resource-management.md)
       + [작업 만들기 및 관리](campaign/using/creating-and-managing-tasks.md)
       + [비용 제어](campaign/using/controlling-costs.md)
       + [마케팅 리소스 관리](campaign/using/managing-marketing-resources.md)
       + [토론 포럼](campaign/using/discussion-forums.md)
    + 캠페인 최적화 {#campaign-optimization}
-      + [캠페인 유형 정보](campaign/using/about-campaign-typologies.md)
+      + [캠페인 타이폴로지 기본 정보](campaign/using/about-campaign-typologies.md)
       + [압력 규칙](campaign/using/pressure-rules.md)
       + [일관성 규칙](campaign/using/consistency-rules.md)
       + [제어 규칙](campaign/using/control-rules.md)
@@ -209,47 +209,47 @@ ht-degree: 9%
       + [규칙 적용](campaign/using/applying-rules.md)
       + [캠페인 시뮬레이션](campaign/using/campaign-simulations.md)
    + 분산 마케팅 {#distributed-marketing}
-      + [분산 마케팅 정보](campaign/using/about-distributed-marketing.md)
+      + [분산 마케팅 기본 정보](campaign/using/about-distributed-marketing.md)
       + [로컬 캠페인 만들기](campaign/using/creating-a-local-campaign.md)
-      + [협업 캠페인 만들기](campaign/using/creating-a-collaborative-campaign.md)
+      + [공동 작업 캠페인 만들기](campaign/using/creating-a-collaborative-campaign.md)
       + [캠페인 패키지 게시](campaign/using/publishing-the-campaign-package.md)
       + [캠페인 액세스](campaign/using/accessing-campaigns.md)
       + [캠페인 추적](campaign/using/tracking-a-campaign.md)
       + [예제](campaign/using/examples.md)
-   + 응답 관리자 {#response-manager}
-      + [응답 관리자 정보](campaign/using/about-response-manager.md)
+   + 반응 관리자 {#response-manager}
+      + [반응 관리자 기본 정보](campaign/using/about-response-manager.md)
       + [구성](campaign/using/configuration.md)
-      + [가설 틀](campaign/using/hypothesis-templates.md)
+      + [가설 템플릿](campaign/using/hypothesis-templates.md)
       + [가설 만들기](campaign/using/creating-hypotheses.md)
       + [가설 추적](campaign/using/hypothesis-tracking.md)
 + 보고 {#reporting}
-   + Adobe Campaign의 보고 {#reporting-in-adobe-campaign}
+   + Adobe Campaign에서 보고 {#reporting-in-adobe-campaign}
       + [보고 시작하기](reporting/using/about-adobe-campaign-reporting-tools.md)
       + [보고 모범 사례](reporting/using/best-practices.md)
-   + 내장 보고서 액세스 {#accessing-built-in-reports}
-      + [캠페인 기본 제공 보고서 정보](reporting/using/about-campaign-built-in-reports.md)
+   + 기본 제공 보고서 액세스 {#accessing-built-in-reports}
+      + [Campaign 기본 제공 보고서 기본 정보](reporting/using/about-campaign-built-in-reports.md)
       + [보고서 목록](reporting/using/list-of-reports.md)
-   + 배달 보고서{#reports-on-deliveries}
-      + [배달 보고서 정보](reporting/using/reports-on-deliveries.md)
+   + 게재 보고서{#reports-on-deliveries}
+      + [게재 보고서 기본 정보](reporting/using/reports-on-deliveries.md)
       + [글로벌 보고서](reporting/using/global-reports.md)
-      + [배달 보고서](reporting/using/delivery-reports.md)
+      + [게재 보고서](reporting/using/delivery-reports.md)
       + [누적 보고서](reporting/using/cumulative-reports.md)
       + [지표 계산](reporting/using/indicator-calculation.md)
       + [개인/사용자 및 수신자](reporting/using/person-people-recipients.md)
    + 모집단 분석 {#analyzing-populations}
-      + [설명 분석 정보](reporting/using/about-descriptive-analysis.md)
+      + [설명 분석 기본 정보](reporting/using/about-descriptive-analysis.md)
       + [설명 분석 마법사 사용](reporting/using/using-the-descriptive-analysis-wizard.md)
       + [보고서 처리](reporting/using/processing-a-report.md)
       + [사용 사례](reporting/using/use-cases.md)
    + 새 보고서 만들기 {#creating-new-reports}
-      + [캠페인에서 보고서 만들기 정보](reporting/using/about-reports-creation-in-campaign.md)
+      + [캠페인에서 보고서 만들기 기본 정보](reporting/using/about-reports-creation-in-campaign.md)
       + [새 보고서 만들기](reporting/using/creating-a-new-report.md)
       + [데이터를 수집하여 분석](reporting/using/collecting-data-to-analyze.md)
       + [컨텍스트 사용](reporting/using/using-the-context.md)
       + [표 만들기](reporting/using/creating-a-table.md)
       + [차트 만들기](reporting/using/creating-a-chart.md)
       + [요소 레이아웃](reporting/using/element-layout.md)
-      + [조건부 컨텐츠 정의](reporting/using/defining-a-conditional-content.md)
+      + [조건부 콘텐츠 정의](reporting/using/defining-a-conditional-content.md)
       + [고급 기능](reporting/using/advanced-functionalities.md)
       + [보고서의 속성](reporting/using/properties-of-the-report.md)
       + [보고서에 대한 액세스 구성](reporting/using/configuring-access-to-the-report.md)
@@ -259,26 +259,26 @@ ht-degree: 9%
       + [표시기 만들기](reporting/using/creating-indicators.md)
       + [큐브를 사용하여 데이터 탐색](reporting/using/using-cubes-to-explore-data.md)
       + [개념 및 방법론](reporting/using/concepts-and-methodology.md)
-      + [사용 사례:온라인 설문 조사 응답에 대한 보고서 표시](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
-+ 웹 컨텐츠 디자인 {#designing-content}
+      + [사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
++ 웹 콘텐츠 디자인 {#designing-content}
    + 웹 애플리케이션 {#web-applications}
-      + [웹 응용 프로그램 정보](web/using/about-web-applications.md)
-      + [새 웹 응용 프로그램 만들기](web/using/creating-a-new-web-application.md)
+      + [웹 애플리케이셔 기본 정보](web/using/about-web-applications.md)
+      + [새 웹 애플리케이션 만들기](web/using/creating-a-new-web-application.md)
       + [웹 애플리케이션 디자인](web/using/designing-a-web-application.md)
-      + [활용 사례:개요 만들기](web/using/use-cases--creating-overviews.md)
+      + [사용 사례: 개요 만들기](web/using/use-cases--creating-overviews.md)
       + [웹 애플리케이션 번역](web/using/translating-a-web-application.md)
       + [웹 애플리케이션 추적](web/using/tracking-a-web-application.md)
       + [웹 애플리케이션 추적 옵트아웃](web/using/web-application-tracking-opt-out.md)
-   + HTML 컨텐츠 편집 {#editing-html-content}
-      + [캠페인 HTML 편집기 정보](web/using/about-campaign-html-editor.md)
+   + HTML 콘텐츠 편집 {#editing-html-content}
+      + [캠페인 HTML 편집기 기본 정보](web/using/about-campaign-html-editor.md)
       + [템플릿 관리](web/using/template-management.md)
-      + [컨텐츠 편집기 인터페이스](web/using/content-editor-interface.md)
-      + [컨텐츠 편집](web/using/editing-content.md)
-      + [컨텐츠 편집 모범 사례](web/using/content-editing-best-practices.md)
+      + [콘텐츠 편집기 인터페이스](web/using/content-editor-interface.md)
+      + [콘텐츠 편집](web/using/editing-content.md)
+      + [콘텐츠 편집 모범 사례](web/using/content-editing-best-practices.md)
       + [랜딩 페이지 만들기](web/using/creating-a-landing-page.md)
-      + [사용 사례:이메일 배달 만들기](web/using/use-case--creating-an-email-delivery.md)
+      + [사용 사례: 전자 메일 게재 만들기](web/using/use-case--creating-an-email-delivery.md)
    + 웹 양식 {#web-forms}
-      + [웹 양식 정보](web/using/about-web-forms.md)
+      + [웹 양식 기본 정보](web/using/about-web-forms.md)
       + [웹 양식 템플릿 사용](web/using/using-a-web-form-template.md)
       + [웹 양식에 필드 추가](web/using/adding-fields-to-a-web-form.md)
       + [웹 양식의 정적 요소](web/using/static-elements-in-a-web-form.md)
@@ -289,18 +289,18 @@ ht-degree: 9%
       + [웹 양식 게시](web/using/publishing-a-web-form.md)
       + [웹 양식 속성 정의](web/using/defining-web-forms-properties.md)
       + [웹 양식 번역](web/using/translating-a-web-form.md)
-      + [활용 사례:웹 양식](web/using/use-cases--web-forms.md)
+      + [사용 사례: 웹 양식](web/using/use-cases--web-forms.md)
    + 온라인 설문 조사 {#online-surveys}
-      + [설문 조사 정보](web/using/about-surveys.md)
+      + [설문 조사 기본 정보](web/using/about-surveys.md)
       + [설문 조사 시작하기](web/using/getting-started-with-surveys.md)
-      + [설문 조사 작성](web/using/building-a-survey.md)
-      + [대답 관리](web/using/managing-answers.md)
+      + [설문 조사 빌드](web/using/building-a-survey.md)
+      + [답변 관리](web/using/managing-answers.md)
       + [수집된 데이터 게시, 추적 및 사용](web/using/publish--track-and-use-collected-data.md)
       + [설문 조사 구성](web/using/configuring-surveys.md)
-      + [사용 사례:친구 양식 참조 만들기](web/using/use-case--creating-a-refer-a-friend-form.md)
-+ Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
+      + [사용 사례: 친구 양식 참조 만들기](web/using/use-case--creating-a-refer-a-friend-form.md)
++ Adobe Experience Cloud와 통합 사용 {#integrating-with-adobe-experience-cloud}
    + [Campaign 통합 기본 정보](integrations/using/about-campaign-integrations.md)
-   + 고객 공유 {#audience-sharing}
+   + 대상 공유 {#audience-sharing}
       + [대상 공유 [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
       + [공유 대상 통합 구성 [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
@@ -309,10 +309,10 @@ ht-degree: 9%
    + 자산 공유 {#asset-sharing}
       + [자산 공유 [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
       + [액세스 권한 구성 [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
-      + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
+      + [공유 자산 삽입](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
       + [정보 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
-      + [통합 구성](integrations/using/configuring-the-integration.md)
+      + [ 통합 구성](integrations/using/configuring-the-integration.md)
       + [뉴스레터 [!DNL Experience Manager] 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [통합 [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
@@ -329,7 +329,7 @@ ht-degree: 9%
       + [대상 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
       + [문제 해결 [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
-   + Experience Cloud Triggers {#experience-triggers}
+   + Experience Cloud 트리거 {#experience-triggers}
       + [정보 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
       + [파이프라인 옵션 NmsPipeline_Config](integrations/using/nmspipeline-config.md)
@@ -348,10 +348,10 @@ ht-degree: 9%
       + [워크플로우 모범 사례](workflow/using/workflow-best-practices.md)
    + 워크플로우 실행 {#executing-a-workflow}
       + [워크플로우 시작](workflow/using/starting-a-workflow.md)
-      + [워크플로우 라이프 사이클](workflow/using/workflow-life-cycle.md)
-      + [데이터 라이프사이클](workflow/using/data-life-cycle.md)
+      + [워크플로우 수명 주기](workflow/using/workflow-life-cycle.md)
+      + [데이터 수명 주기](workflow/using/data-life-cycle.md)
       + [승인 정의](workflow/using/defining-approvals.md)
-      + [건축](workflow/using/architecture.md)
+      + [아키텍쳐](workflow/using/architecture.md)
    + 타겟팅 활동 {#targeting-activities}
       + [타겟팅 활동 기본 정보](workflow/using/about-targeting-activities.md)
       + [쿼리](workflow/using/query.md)
@@ -363,8 +363,8 @@ ht-degree: 9%
       + [분할](workflow/using/split.md)
       + [셀](workflow/using/cells.md)
       + [셀별 오퍼](workflow/using/offers-by-cell.md)
-      + [배달 개요](workflow/using/delivery-outline.md)
-      + [데이터 보강](workflow/using/enrichment.md)
+      + [게재 개요](workflow/using/delivery-outline.md)
+      + [강화](workflow/using/enrichment.md)
       + [스키마 편집](workflow/using/edit-schema.md)
       + [오퍼 엔진](workflow/using/offer-engine.md)
       + [중복 제거](workflow/using/deduplication.md)
@@ -391,10 +391,10 @@ ht-degree: 9%
    + 작업 활동 {#action-activities}
       + [작업 활동](workflow/using/about-action-activities.md)
       + [게재](workflow/using/delivery.md)
-      + [전달 제어](workflow/using/delivery-control.md)
-      + [지속적인 전달](workflow/using/continuous-delivery.md)
-      + [반복 전달](workflow/using/recurring-delivery.md)
-      + [크로스채널 전달](workflow/using/cross-channel-deliveries.md)
+      + [게재 제어](workflow/using/delivery-control.md)
+      + [지속적인 게재](workflow/using/continuous-delivery.md)
+      + [반복 게재](workflow/using/recurring-delivery.md)
+      + [크로스 채널 게재](workflow/using/cross-channel-deliveries.md)
       + [로컬 승인](workflow/using/local-approval.md)
       + [데이터 로드(RDBMS)](workflow/using/data-loading--rdbms-.md)
       + [로드 중(SOAP)](workflow/using/loading--soap-.md)
@@ -406,25 +406,25 @@ ht-degree: 9%
       + [Nlserver 모듈](workflow/using/nlserver-module.md)
       + [업데이트 집계](workflow/using/update-aggregate.md)
    + 이벤트 활동 {#event-activities}
-      + [이벤트 활동 정보](workflow/using/about-event-activities.md)
-      + [파일 수집 툴](workflow/using/file-collector.md)
+      + [이벤트 활동 기본 정보](workflow/using/about-event-activities.md)
+      + [파일 수집기](workflow/using/file-collector.md)
       + [파일 전송](workflow/using/file-transfer.md)
       + [웹 다운로드](workflow/using/web-download.md)
-      + [인바운드 이메일](workflow/using/inbound-emails.md)
+      + [인바운드 전자 메일](workflow/using/inbound-emails.md)
       + [인바운드 SMS](workflow/using/inbound-sms.md)
    + 사용 사례 {#use-cases}
-      + [워크플로우 사용 사례 정보](workflow/using/about-workflow-use-cases.md)
-      + 배달 {#deliveries}
+      + [워크플로우 사용 사례 기본 정보](workflow/using/about-workflow-use-cases.md)
+      + 게재 {#deliveries}
          + [로컬 승인 활동 사용](workflow/using/using-the-local-approval-activity.md)
          + [A/B 테스트](workflow/using/a-b-testing.md)
-         + [생일 이메일 보내기](workflow/using/sending-a-birthday-email.md)
-         + [배달 컨텐츠 로드](workflow/using/loading-delivery-content.md)
-         + [크로스채널 전달 워크플로우](workflow/using/cross-channel-delivery-workflow.md)
-         + [맞춤형 날짜 필드를 사용한 이메일 향상](workflow/using/email-enrichment-with-custom-date-fields.md)
+         + [생일 전자 메일 보내기](workflow/using/sending-a-birthday-email.md)
+         + [게재 콘텐츠 로드](workflow/using/loading-delivery-content.md)
+         + [크로스 채널 게재 워크플로우](workflow/using/cross-channel-delivery-workflow.md)
+         + [사용자 지정 날짜 필드를 사용한 전자 메일 강화](workflow/using/email-enrichment-with-custom-date-fields.md)
       + 모니터링 {#monitoring}
-         + [목록으로 보고서 전송](workflow/using/sending-a-report-to-a-list.md)
+         + [목록으로 보고서 보내기](workflow/using/sending-a-report-to-a-list.md)
          + [워크플로우 감독](workflow/using/supervising-workflows.md)
-         + [운영자에게 개인화된 경고 전송](workflow/using/sending-personalized-alerts-to-operators.md)
+         + [운영자에게 개인화된 경고 보내기](workflow/using/sending-personalized-alerts-to-operators.md)
       + 데이터 관리 {#data-management}
          + [데이터 업데이트 조정](workflow/using/coordinating-data-updates.md)
          + [요약 목록 만들기](workflow/using/creating-a-summary-list.md)
@@ -432,18 +432,18 @@ ht-degree: 9%
          + [집계 사용](workflow/using/using-aggregates.md)
          + [증분 쿼리를 사용한 분기별 목록 업데이트](workflow/using/quarterly-list-update.md)
       + 쿼리 디자인 {#designing-queries}
-         + [받는 사람 테이블을 쿼리하는 중](workflow/using/querying-recipient-table.md)
-         + [배달 정보 쿼리](workflow/using/querying-delivery-information.md)
+         + [수신자 테이블 쿼리](workflow/using/querying-recipient-table.md)
+         + [게재 정보 쿼리](workflow/using/querying-delivery-information.md)
          + [집계 컴퓨팅 수행](workflow/using/performing-aggregate-computing.md)
          + [그룹 관리를 사용하여 쿼리](workflow/using/querying-using-grouping-management.md)
          + [다대다 관계를 사용하여 쿼리](workflow/using/querying-using-many-to-many-relationship.md)
          + [열거형 유형 계산 필드 추가](workflow/using/adding-enumeration-type-calculated-field.md)
          + [필터 만들기](workflow/using/creating-a-filter.md)
-         + [중복 받는 사람 필터링](workflow/using/filtering-duplicated-recipients.md)
+         + [중복 수신자 필터링](workflow/using/filtering-duplicated-recipients.md)
    + 워크플로우 모니터링 {#monitoring-workflows}
       + [워크플로우 실행 모니터링](workflow/using/monitoring-workflow-execution.md)
       + [기술 워크플로우 모니터링](workflow/using/monitoring-technical-workflows.md)
-      + [Workflow HeatMap](workflow/using/heatmap.md)
+      + [워크플로우 열 지도](workflow/using/heatmap.md)
    + 고급 관리 {#advanced-management}
       + [워크플로우 속성](workflow/using/workflow-properties.md)
       + [고급 매개 변수](workflow/using/advanced-parameters.md)
@@ -454,14 +454,14 @@ ht-degree: 9%
       + [성향 관리](workflow/using/managing-propensity.md)
       + [시간대 관리](workflow/using/managing-time-zones.md)
    + 기술 워크플로우 {#technical-workflows}
-      + [기술 워크플로우 정보](workflow/using/about-technical-workflows.md)
-      + [배달](workflow/using/deliveries.md)
+      + [기술 워크플로우 기본 정보](workflow/using/about-technical-workflows.md)
+      + [게재](workflow/using/deliveries.md)
       + [캠페인](workflow/using/campaign.md)
       + [웹 분석](workflow/using/web-analytics.md)
       + [분산 마케팅](workflow/using/distributed-marketing.md)
-      + [전달 능력 모니터링](workflow/using/email-deliverability.md)
+      + [게재 기능 모니터링](workflow/using/email-deliverability.md)
       + [받은 편지함 렌더링](workflow/using/inbox-rendering.md)
-      + [인터랙션](workflow/using/interaction.md)
+      + [상호 작용](workflow/using/interaction.md)
       + [오퍼 엔진 제어](workflow/using/control-of-offer-engine.md)
       + [메시지 센터(제어)](workflow/using/message-center--control-.md)
       + [메시지 센터(실행)](workflow/using/message-center--execution-.md)
@@ -469,21 +469,21 @@ ht-degree: 9%
       + [LINE 채널](workflow/using/line-channel.md)
       + [마케팅 리소스(MRM)](workflow/using/marketing-resources--mrm-.md)
       + [소셜 마케팅](workflow/using/social-marketing.md)
-      + [Adobe Experience Cloud 솔루션과의 통합](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
+      + [Adobe Experience Cloud 솔루션과 통합](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
       + [개인 정보 보호 규정](workflow/using/general-data-protection-regulation--gdpr-.md)
-      + [중간 출처로 전송](workflow/using/transfer-to-mid-sourcing.md)
+      + [중간 소싱으로 전송](workflow/using/transfer-to-mid-sourcing.md)
       + [중간 소싱 플랫폼](workflow/using/mid-sourcing-platform.md)
 + 오퍼 관리 {#managing-offers}
    + 상호 작용 개요 {#interaction-overview}
       + [상호 작용 및 제안 관리](interaction/using/interaction-and-offer-management.md)
       + [용어집](interaction/using/glossary.md)
-      + [인터랙션 모범 사례](interaction/using/interaction-best-practices.md)
+      + [상호 작용 모범 사례](interaction/using/interaction-best-practices.md)
    + 일반 작업 {#general-operation}
       + [구현 단계](interaction/using/implementation-steps.md)
       + [기본 원칙](interaction/using/fundamental-principles.md)
    + 환경 관리 {#managing-environments}
       + [환경 개요](interaction/using/environments-overview.md)
-      + [연산자 프로필](interaction/using/operator-profiles.md)
+      + [운영자 프로필](interaction/using/operator-profiles.md)
       + [라이브/디자인 환경](interaction/using/live-design-environments.md)
       + [오퍼 공간 만들기](interaction/using/creating-offer-spaces.md)
       + [사전 정의된 필터 만들기](interaction/using/creating-predefined-filters.md)
@@ -496,13 +496,13 @@ ht-degree: 9%
       + [오퍼 템플릿 관리](interaction/using/managing-offer-templates.md)
       + [오퍼 프레젠테이션 관리](interaction/using/managing-offer-presentation.md)
    + 오퍼 시뮬레이션 {#simulating-offers}
-      + [오퍼 시뮬레이션 정보](interaction/using/about-offers-simulation.md)
+      + [오퍼 시뮬레이션 기본 정보](interaction/using/about-offers-simulation.md)
       + [실행 설정](interaction/using/execution-settings.md)
       + [시뮬레이션 범위](interaction/using/simulation-scope.md)
       + [시뮬레이션 추적](interaction/using/simulation-tracking.md)
-   + 제안 제공 {#delivering-an-offer}
-      + [아웃바운드 채널 정보](interaction/using/about-outbound-channels.md)
-      + [마법사를 통한 오퍼 통합](interaction/using/integrating-an-offer-via-the-wizard.md)
+   + 제안 게재 {#delivering-an-offer}
+      + [아웃바운드 채널 기본 정보](interaction/using/about-outbound-channels.md)
+      + [마법사를 통해 오퍼 통합](interaction/using/integrating-an-offer-via-the-wizard.md)
       + [워크플로우를 통해 오퍼 통합](interaction/using/integrating-an-offer-via-a-workflow.md)
    + 단일 상호 작용 {#unitary-interactions}
       + [인바운드 채널 정보](interaction/using/about-inbound-channels.md)
@@ -510,7 +510,7 @@ ht-degree: 9%
       + [SOAP를 통한 통합(서버측)](interaction/using/integration-via-soap--server-side-.md)
       + [익명의 상호 작용](interaction/using/anonymous-interactions.md)
    + 오퍼 추적 {#tracking-offers}
-      + [제안 내역](interaction/using/offer-proposition-history.md)
+      + [오퍼 제안 내역](interaction/using/offer-proposition-history.md)
       + [오퍼 분석 보고서](interaction/using/offer-analysis-report.md)
    + 고급 매개 변수 {#advanced-parameters}
       + [고급 매개 변수 사용](interaction/using/using-advanced-parameters.md)
@@ -524,7 +524,7 @@ ht-degree: 9%
       + [프레젠테이션 규칙](interaction/using/presentation-rules.md)
       + [인바운드 채널에 대한 오퍼](interaction/using/offers-on-an-inbound-channel.md)
       + [아웃바운드 채널의 오퍼](interaction/using/offers-on-an-outbound-channel.md)
-+ Transactional Messaging {#transactional-messaging}
++ 트랜잭션 메시지 {#transactional-messaging}
    + 소개 {#introduction}
       + [트랜잭션 메시지 기본 정보](message-center/using/about-transactional-messaging.md)
       + [트랜잭션 메시징 아키텍처](message-center/using/transactional-messaging-architecture.md)
@@ -533,14 +533,14 @@ ht-degree: 9%
       + [공유 연결 만들기](message-center/using/creating-a-shared-connection.md)
       + [실행 인스턴스 식별](message-center/using/identifying-execution-instances.md)
       + [임계값 모니터링](message-center/using/monitoring-thresholds.md)
-      + [이벤트 제거](message-center/using/purging-events.md)
+      + [이벤트 삭제](message-center/using/purging-events.md)
       + [기술 워크플로우](message-center/using/technical-workflows.md)
       + [이벤트 유형 만들기](message-center/using/creating-event-types.md)
       + [다중 브랜딩 구성](message-center/using/configuring-multibranding.md)
    + 메시지 템플릿 {#message-templates}
       + [소개](message-center/using/introduction.md)
       + [메시지 템플릿 만들기](message-center/using/creating-the-message-template.md)
-      + [메시지 내용 만들기](message-center/using/creating-message-content.md)
+      + [메시지 콘텐츠 만들기](message-center/using/creating-message-content.md)
       + [트랜잭션 메시지의 시드 주소 관리](message-center/using/managing-seed-addresses-in-transactional-messages.md)
       + [개인화 데이터](message-center/using/personalization-data.md)
       + [트랜잭션 메시지 미리 보기](message-center/using/transactional-message-preview.md)
@@ -548,17 +548,17 @@ ht-degree: 9%
       + [템플릿 게시](message-center/using/template-publication.md)
       + [템플릿 게시 취소](message-center/using/template-unpublication.md)
    + 이벤트 처리 {#event-processing}
-      + [이벤트 처리 정보](message-center/using/about-event-processing.md)
+      + [이벤트 처리 기본 정보](message-center/using/about-event-processing.md)
       + [이벤트 컬렉션](message-center/using/event-collection.md)
       + [템플릿을 향해 라우팅](message-center/using/routing-towards-a-template.md)
-      + [배달 실행](message-center/using/delivery-execution.md)
+      + [게재 실행](message-center/using/delivery-execution.md)
    + 보고서 {#reports}
-      + [트랜잭션 메시징 보고서 정보](message-center/using/about-transactional-messaging-reports.md)
+      + [트랜잭션 메시지 보고서 기본 정보](message-center/using/about-transactional-messaging-reports.md)
       + [메시지 센터 이벤트 내역](message-center/using/history-of-message-center-events.md)
       + [메시지 센터 서비스 수준](message-center/using/message-center-service-level.md)
       + [메시지 센터 처리 시간](message-center/using/message-center-processing-time.md)
    + 사용 사례 {#use-case}
-      + [첨부 파일이 있는 트랜잭션 이메일 보내기](message-center/using/transactional-email-with-attachments.md)
+      + [첨부 파일이 있는 트랜잭션 전자 메일 보내기](message-center/using/transactional-email-with-attachments.md)
 + 소셜 미디어와 통합 {#integrating-with-social-media}
    + [소셜 마케팅 정보](social/using/about-social-marketing.md)
    + 구성 {#configuration}
@@ -570,7 +570,7 @@ ht-degree: 9%
       + [개요](social/using/overview.md)
       + [Facebook에 게시](social/using/publishing-on-facebook.md)
       + [Twitter에서 게시](social/using/publishing-on-twitter.md)
-   + 아넥스 {#annexes}
+   + Annex {#annexes}
       + [Facebook 앱의 예](social/using/examples-of-facebook-apps.md)
       + [추적](social/using/tracking.md)
 + Campaign Classic 설치 {#installing-campaign-classic}
@@ -579,24 +579,24 @@ ht-degree: 9%
       + [일반 아키텍처](installation/using/general-architecture.md)
       + [호스팅 모델](installation/using/hosting-models.md)
    + 하이브리드 및 호스팅 모델 {#hybrid-and-hosted-models}
-      + [하이브리드 및 호스팅 모델 정보](installation/using/about-hybrid-and-hosted-models.md)
+      + [하이브리드 및 호스팅 모델 기본 정보](installation/using/about-hybrid-and-hosted-models.md)
       + [하이브리드 모델](installation/using/hybrid-model.md)
       + [호스팅 모델](installation/using/hosted-model.md)
    + 사전 요구 사항 및 권장 사항  {#prerequisites-and-recommendations-}
       + [시작하기 전](installation/using/before-starting.md)
       + [데이터베이스](installation/using/database.md)
-      + [응용 프로그램 서버](installation/using/application-server.md)
+      + [애플리케이션 서버](installation/using/application-server.md)
       + [메시징 서버](installation/using/messaging-server.md)
       + [네트워크 구성](installation/using/network-configuration.md)
    + 배포 유형  {#deployment-types-}
-      + [배포 유형 정보](installation/using/about-deployment-types.md)
+      + [배포 유형 기본 정보](installation/using/about-deployment-types.md)
       + [독립형 배포](installation/using/standalone-deployment.md)
       + [표준 배포](installation/using/standard-deployment.md)
-      + [기업 배포](installation/using/enterprise-deployment.md)
+      + [엔터프라이즈 배포](installation/using/enterprise-deployment.md)
       + [중간 소싱 배포](installation/using/mid-sourcing-deployment.md)
       + [전원 부스터 및 전원 클러스터](installation/using/power-booster-and-power-cluster.md)
-   + Windows에서 캠페인 설치  {#installing-campaign-in-windows-}
-      + [Windows에서 캠페인 설치 사전 요구 사항](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+   + Windows에서 Campaign 설치  {#installing-campaign-in-windows-}
+      + [Windows에서 Campaign 설치 사전 요구 사항](installation/using/prerequisites-of-campaign-installation-in-windows.md)
       + [서버 설치](installation/using/installing-the-server.md)
       + [Windows용 웹 서버에 통합](installation/using/integration-into-a-web-server-for-windows.md)
       + [Windows용 클라이언트 콘솔 가용성](installation/using/client-console-availability-for-windows.md)
@@ -610,31 +610,31 @@ ht-degree: 9%
       + [초기 구성 정보](installation/using/about-initial-configuration.md)
       + [인스턴스 만들기 및 로그온](installation/using/creating-an-instance-and-logging-on.md)
       + [데이터베이스 만들기 및 구성](installation/using/creating-and-configuring-the-database.md)
-      + [캠페인 서버 구성](installation/using/campaign-server-configuration.md)
+      + [Campaign 서버 구성](installation/using/campaign-server-configuration.md)
       + [인스턴스 배포](installation/using/deploying-an-instance.md)
       + [Campaign Classic 표준 패키지 설치](installation/using/installing-campaign-standard-packages.md)
    + 추가 구성 {#additional-configurations}
       + [Campaign 서버 구성](installation/using/configuring-campaign-server.md)
       + [LDAP를 통해 연결](installation/using/connecting-through-ldap.md)
-      + [기술 이메일 구성](installation/using/email-deliverability.md)
-      + [이메일 보관](installation/using/email-archiving.md)
+      + [기술 전자 메일 구성](installation/using/email-deliverability.md)
+      + [전자 메일 보관](installation/using/email-archiving.md)
       + [시간대 관리](installation/using/time-zone-management.md)
-      + [스팸 암살자 구성](installation/using/configuring-spamassassin.md)
+      + [SpamAssassin 구성](installation/using/configuring-spamassassin.md)
       + [중간 소싱 서버](installation/using/mid-sourcing-server.md)
       + [상호 작용 - 데이터 버퍼](installation/using/interaction---data-buffer.md)
    + 부록 {#appendices}
       + [서버 구성 파일](installation/using/the-server-configuration-file.md)
-      + [캠페인 네트워크 끝점](installation/using/campaign-network-endpoints.md)
+      + [Campaign 네트워크 엔드포인트](installation/using/campaign-network-endpoints.md)
       + [명령줄](installation/using/command-lines.md)
       + [새 인스턴스 만들기](installation/using/creating-new-instances.md)
       + [Campaign Classic 옵션 목록](installation/using/configuring-campaign-options.md)
-      + [캠페인 제거](installation/using/uninstalling-campaign.md)
-+ 모니터링 Campaign Classic {#monitoring-campaign-classic}
+      + [Campaign 제거](installation/using/uninstalling-campaign.md)
++ Campaign Classic 모니터링 {#monitoring-campaign-classic}
    + 소개 {#introduction}
-      + [포워드](production/using/foreword.md)
+      + [서문](production/using/foreword.md)
       + [일반 아키텍처](production/using/general-architecture.md)
       + [모니터링 지침](production/using/monitoring-guidelines.md)
-   + 제작 절차 {#production-procedures}
+   + 프로덕션 프로시저 {#production-procedures}
       + [구성 원칙](production/using/configuration-principle.md)
       + [운영 원칙](production/using/operating-principle.md)
       + [관리](production/using/administration.md)
@@ -652,13 +652,13 @@ ht-degree: 9%
       + [소개](production/using/introduction.md)
       + [업그레이드](production/using/upgrading.md)
       + [유니코드로 전환](production/using/switching-to-unicode.md)
-      + [마이그레이션 절차](production/using/migration-procedures.md)
+      + [마이그레이션 프로시저](production/using/migration-procedures.md)
    + 데이터베이스 유지 관리 {#database-maintenance}
-      + [추천](production/using/recommendations.md)
+      + [권장 사항](production/using/recommendations.md)
       + [유지 관리할 표](production/using/tables-to-maintain.md)
       + [유지 관리 유형](production/using/types-of-maintenance.md)
-      + [RDBMS 특정 추천](production/using/rdbms-specific-recommendations.md)
-      + [애플리케이션 객체](production/using/application-objects.md)
+      + [RDBMS 특정 권장 사항](production/using/rdbms-specific-recommendations.md)
+      + [애플리케이션 개체](production/using/application-objects.md)
    + 문제 해결 {#troubleshooting}
       + [성능 및 처리량 문제](production/using/performance-and-throughput-issues.md)
       + [이미지 누락](production/using/images-missing.md)
@@ -678,16 +678,16 @@ ht-degree: 9%
       + [JSP 동작](production/using/jsp-behavior.md)
 + Campaign Classic 구성 {#configuring-campaign-classic}
    + 데이터 모델 {#data-model}
-      + [데이터 모델 정보](configuration/using/about-data-model.md)
+      + [데이터 모델 기본 정보](configuration/using/about-data-model.md)
       + [데이터 모델 설명](configuration/using/data-model-description.md)
-      + [권장사항](configuration/using/data-model-best-practices.md)
+      + [모범 사례](configuration/using/data-model-best-practices.md)
    + 스키마 참조 {#schema-reference}
-      + [스키마 참조 정보](configuration/using/about-schema-reference.md)
+      + [스키마 참조 기본 정보](configuration/using/about-schema-reference.md)
       + [스키마 구조](configuration/using/schema-structure.md)
       + [데이터베이스 매핑](configuration/using/database-mapping.md)
       + [요소 및 속성](configuration/using/elements-and-attributes.md)
    + 스키마 편집 {#editing-schemas}
-      + [스키마 에디션 정보](configuration/using/about-schema-edition.md)
+      + [스키마 에디션 기본 정보](configuration/using/about-schema-edition.md)
       + [데이터 스키마](configuration/using/data-schemas.md)
       + [기존 테이블의 스키마](configuration/using/schema-of-an-existing-table.md)
       + [스키마 확장](configuration/using/extending-a-schema.md)
@@ -703,17 +703,17 @@ ht-degree: 9%
       + [양식 편집](configuration/using/editing-forms.md)
       + [양식 구조](configuration/using/form-structure.md)
    + API {#api}
-      + [웹 서비스 정보](configuration/using/about-web-services.md)
+      + [웹 서비스 기본 정보](configuration/using/about-web-services.md)
       + [웹 서비스 호출](configuration/using/web-service-calls.md)
       + [데이터 지향 API](configuration/using/data-oriented-apis.md)
-      + [비즈니스 중심의 API](configuration/using/business-oriented-apis.md)
+      + [비즈니스 지향 API](configuration/using/business-oriented-apis.md)
       + [SOAP 메서드 구현](configuration/using/implementing-soap-methods.md)
       + [JavaScript의 SOAP 메서드](configuration/using/soap-methods-in-javascript.md)
       + [추가 SQL 함수 추가](configuration/using/adding-additional-sql-functions.md)
    + 탐색 계층 {#navigation-hierarchy}
-      + [탐색 계층 정보](configuration/using/about-navigation-hierarchy.md)
+      + [탐색 계층 기본 정보](configuration/using/about-navigation-hierarchy.md)
       + [구성](configuration/using/configuration.md)
-      + [Edition](configuration/using/edition.md)
+      + [에디션](configuration/using/edition.md)
    + 사용자 지정 수신자 테이블 사용 {#use-a-custom-recipient-table}
       + [사용자 지정 수신자 테이블 정보](configuration/using/about-custom-recipient-table.md)
       + [스키마 특성](configuration/using/schema-characteristics.md)
@@ -725,10 +725,10 @@ ht-degree: 9%
       + [워크플로우 관리](configuration/using/managing-workflows.md)
       + [보고서 관리](configuration/using/managing-reports.md)
    + 웹 추적 설정 {#setting-up-web-tracking}
-      + [웹 추적 정보](configuration/using/about-web-tracking.md)
+      + [웹 추적 기본 정보](configuration/using/about-web-tracking.md)
       + [웹 추적 모드](configuration/using/web-tracking-mode.md)
-      + [웹 추적 태그:정의](configuration/using/web-tracking-tag--definition.md)
-      + [설정 단계](configuration/using/setup-stages.md)
+      + [웹 추적 태그: 정의](configuration/using/web-tracking-tag--definition.md)
+      + [단계 설정](configuration/using/setup-stages.md)
       + [추가 매개 변수](configuration/using/additional-parameters.md)
       + [웹 추적 태그 만들기](configuration/using/creating-web-tracking-tags.md)
       + [사이트에 태그 삽입](configuration/using/inserting-tags-in-your-site.md)
@@ -736,24 +736,24 @@ ht-degree: 9%
       + [익명 추적](configuration/using/anonymous-tracking.md)
 + 새 버전으로 마이그레이션 {#migrating-to-a-new-version}
    + 마이그레이션 개요 {#migration-overview}
-      + [마이그레이션 정보](migration/using/about-migration.md)
-      + [마이그레이션 방법](migration/using/migration-method.md)
+      + [마이그레이션 기본 정보](migration/using/about-migration.md)
+      + [마이그레이션 메서드](migration/using/migration-method.md)
       + [마이그레이션 경고](migration/using/migration-warnings.md)
-   + 마이그레이션 절차 {#migration-procedure}
+   + 마이그레이션 프로시저 {#migration-procedure}
       + [마이그레이션을 시작하기 전](migration/using/before-starting-migration.md)
       + [마이그레이션 테스트](migration/using/testing-the-migration.md)
       + [플랫폼 구성](migration/using/configuring-your-platform.md)
    + Adobe Campaign 7으로 마이그레이션 {#migrating-to-adobe-campaign-7}
       + [Adobe Campaign 7으로 마이그레이션하기 위한 사전 요구 사항](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
       + [Adobe Campaign 7용 Windows에서 마이그레이션](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
-      + [Linux에서 Adobe Campaign v7 마이그레이션](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
+      + [Adobe Campaign v7용 Linux에서 마이그레이션](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
    + 구성 {#configuration}
       + [일반 구성](migration/using/general-configurations.md)
       + [v5.11의 특정 구성](migration/using/specific-configurations-in-v5-11.md)
       + [v6.02의 특정 구성](migration/using/specific-configurations-in-v6-02.md)
       + [v6.10의 특정 구성](migration/using/specific-configurations-in-v6-10.md)
    + 롤백 {#rollback}
-      + [롤백 정보](migration/using/about-rollback.md)
+      + [롤백 기본 정보](migration/using/about-rollback.md)
       + [v5.11 복원](migration/using/restoring-v5-11.md)
       + [v6.02 복원](migration/using/restoring-v6-02.md)
       + [v6.1 복원](migration/using/restoring-v6-1.md)
