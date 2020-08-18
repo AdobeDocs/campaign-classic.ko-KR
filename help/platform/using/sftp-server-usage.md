@@ -1,5 +1,5 @@
 ---
-title: SFTP 서버 우수 사례 및 문제 해결
+title: SFTP 서버 사용
 description: SFTP 서버 우수 사례 및 문제 해결에 대해 자세히 알아보십시오.
 page-status-flag: never-activated
 uuid: 5281058d-91bd-4f98-835d-1d46dc7b8b1f
@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc7ba0c26bd57a75c3dbeaec541844a3b1196ef3
+source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '996'
 ht-degree: 12%
 
 ---
@@ -118,9 +118,9 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
    1. 서버 이름이 로컬 DNS 서버에 추가되었는지 확인합니다.
    1. 예인 경우 Adobe Campaign 서버에서 다음 명령을 실행하여 IP 주소를 가져옵니다.
 
-   `nslookup <server domain name>`
+      `nslookup <server domain name>`
 
-   이렇게 하면 FTP 서버가 작동하고 Adobe Campaign 응용 프로그램 서버에서 연결할 수 있습니다.
+      이렇게 하면 FTP 서버가 작동하고 Adobe Campaign 응용 프로그램 서버에서 연결할 수 있습니다.
 
 1. 세션 **로그 문제 해결**:
 
@@ -128,11 +128,11 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
    1. 탭으로 이동한 **[!UICONTROL File Transfer]** 다음 을 클릭합니다 **[!UICONTROL Advanced Parameters]**.
    1. **[!UICONTROL Display the session logs]** 옵션을 선택합니다.
 
-   ![](assets/sftp-error-display-logs.png)
+      ![](assets/sftp-error-display-logs.png)
 
    1. 워크플로우 감사로 이동하고 로그에 &#39;호스트 이름을 확인할 수 없음&#39; 오류가 표시되는지 확인합니다.
 
-   SFTP 서버가 Adobe에 의해 호스팅되는 경우 고객 지원 센터에 문의하여 IP가 허용 목록에 추가되었는지 확인하십시오.
+1. SFTP 서버가 Adobe에 의해 호스팅되는 경우 고객 지원 센터에 문의하여 IP가 허용 목록에 추가되었는지 확인하십시오.
 
    그렇지 않은 경우 유효성 검사:
 
