@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: Aadobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: ee4addc88c6169603122259437d5cb0362851aa6
+source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2110'
 ht-degree: 95%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 95%
       + [일반 가져오기 및 내보내기](platform/using/generic-imports-and-exports.md)
       + [데이터 내보내기](platform/using/exporting-data.md)
       + [데이터 가져오기](platform/using/importing-data.md)
-      + [SFTP 서버 우수 사례 및 문제 해결](platform/using/sftp-server-usage.md)
+      + [SFTP 서버 사용](platform/using/sftp-server-usage.md)
    + 데이터 필터링 {#filtering-data}
       + [필터링 옵션](platform/using/filtering-options.md)
       + [필터 만들기](platform/using/creating-filters.md)
