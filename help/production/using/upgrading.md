@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 5598682078a8fd3c8d9ecdca083f3a310c48f5f0
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 0%
+source-wordcount: '1120'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->또한 [설치 가이드](../../installation/using/general-architecture.md) 및 [빌드 업그레이드](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) 시작도 참조하십시오.
+>또한 [설치 가이드](../../installation/using/general-architecture.md) 및 [빌드 업그레이드](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html) 시작도 참조하십시오.
 
 ## Windows {#in-windows}
 
@@ -257,7 +257,7 @@ Adobe Campaign의 업데이트된 패키지 모두 복구하여 시작합니다.
 
 (nlserver web ****) Adobe Campaign 응용 프로그램 서버가 설치된 시스템에서 파일을 다운로드하고 복사합니다
 
-**setup-client-6.** XXXX **.exe**
+**setup-client-6.XXXX.exe**
 
 in **[path of application]**datakitnresizjsp
 
@@ -271,7 +271,7 @@ in **[path of application]**datakitnresizjsp
 
 Adobe Campaign 응용 프로그램 서버(**nlserver 웹**)가 설치된 컴퓨터에서 다음 패키지를 검색합니다.
 
-**setup-client-6.** XXXX **.exe**
+**setup-client-6.XXXX.exe**
 
 를 복사하여 /usr/local/neolane/nl6/datakit/nl/eng/jsp로 저장합니다 ****.
 
