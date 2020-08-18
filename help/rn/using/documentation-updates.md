@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: bc7ba0c26bd57a75c3dbeaec541844a3b1196ef3
 workflow-type: tm+mt
-source-wordcount: '7069'
+source-wordcount: '7095'
 ht-degree: 95%
 
 ---
@@ -24,7 +24,6 @@ ht-degree: 95%
 # 설명서 업데이트 정보{#documentation-updates}
 
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
-
 
 또한 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)에서 더 많은 업데이트를 확인할 수 있습니다.
 
@@ -56,6 +55,7 @@ ht-degree: 95%
 
 * [연속 배달을 설정하는 방법](../../workflow/using/continuous-delivery.md)
 
+FTP 서버에 연결한 후 &quot;호스트 이름을 확인할 수 없습니다&quot; 오류를 가져올 때 수행할 검사 및 작업에 대한 정보가 추가되었습니다. [자세한 내용](../../platform/using/sftp-server-usage.md)
 
 ## 2020년 7월 {#july-2020}
 
