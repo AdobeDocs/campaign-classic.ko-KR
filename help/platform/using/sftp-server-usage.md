@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ee4addc88c6169603122259437d5cb0362851aa6
+source-git-commit: bc7ba0c26bd57a75c3dbeaec541844a3b1196ef3
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '999'
 ht-degree: 12%
 
 ---
@@ -95,9 +95,9 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 1. 키 기반 인증을 사용하는 경우 사용 중인 키가 인스턴스 구성에 대해 Adobe 지원 팀에 제공한 키와 동일한지 확인하십시오.
 1. FileZilla 또는 동등한 FTP 도구를 사용하는 경우 지원 티켓에 연결 로그 세부 정보를 제공합니다.
 
-## &quot;호스트 이름을 확인할 수 없습니다&quot; 오류가 발생했습니다. cURL에 업로드 오류
+## &quot;호스트 이름을 확인할 수 없습니다&quot; 오류
 
-이 섹션에서는 &quot;호스트 이름을 확인할 수 없습니다.&quot;를 가져올 때 수행할 검사 및 작업에 대한 정보를 제공합니다. 오류가 발생했습니다.
+이 섹션에서는 Campaign Classic에서 FTP 서버에 연결한 후 &quot;호스트 이름을 확인할 수 없습니다&quot; 오류를 가져올 때 수행할 검사 및 작업에 대한 정보를 제공합니다.
 
 워크플로우 저널에는 다음 로그가 표시됩니다.
 
