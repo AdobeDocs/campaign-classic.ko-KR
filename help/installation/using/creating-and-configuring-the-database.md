@@ -15,20 +15,20 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 653f630079277ffb75915206c445e9414cfcdd7c
+source-git-commit: 890950463146fe0863d2809759eb142cb4bb1fff
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 0%
+source-wordcount: '1296'
+ht-degree: 1%
 
 ---
 
 
 # 데이터베이스 만들기 및 구성{#creating-and-configuring-the-database}
 
-데이터베이스를 만들 때 Adobe Campaign은 두 가지 옵션을 제공합니다.
+데이터베이스를 만들 때 Adobe Campaign은 두 가지 다른 옵션을 제공합니다.
 
-1. 데이터베이스 생성 또는 재활용: 새 데이터베이스를 만들거나 기존 데이터베이스를 다시 사용하려면 이 옵션을 선택합니다. 사례 [1 참조: 데이터베이스 생성/재활용](#case-1--creating-recycling-a-database).
-1. 기존 데이터베이스 사용: 관리자가 이미 빈 데이터베이스를 만들었으며 이를 사용하려면 이 옵션을 선택합니다. 또는 기존 데이터베이스의 구조를 확장하기 위해. 사례 2 [를 참조하십시오. 기존 데이터베이스](#case-2--using-an-existing-database)사용
+1. 데이터베이스 생성 또는 재활용:새 데이터베이스를 만들거나 기존 데이터베이스를 다시 사용하려면 이 옵션을 선택합니다. 사례 [1 참조:데이터베이스 생성/재활용](#case-1--creating-recycling-a-database).
+1. 기존 데이터베이스 사용:관리자가 이미 빈 데이터베이스를 만들었으며 이를 사용하려면 이 옵션을 선택합니다.또는 기존 데이터베이스의 구조를 확장하기 위해. 사례 2 [를 참조하십시오.기존 데이터베이스](#case-2--using-an-existing-database)사용
 
 다음은 구성 단계에 대한 자세한 정보입니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 >내부 **** 식별자만 이러한 작업을 수행할 수 있습니다. For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
-## 사례 1: 데이터베이스 만들기/재활용 {#case-1--creating-recycling-a-database}
+## 사례 1:데이터베이스 만들기/재활용 {#case-1--creating-recycling-a-database}
 
 데이터베이스를 만들거나 기존 베이스를 재활용하는 단계는 아래에 나와 있습니다. 일부 구성은 사용된 데이터베이스 엔진에 따라 다릅니다.
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-지원되는 데이터베이스는 호환성 표 [에 나와 있습니다](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+지원되는 데이터베이스는 호환성 표 [에 나와 있습니다](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html).
 
 서버를 식별하고 수행할 작업 유형을 선택합니다. 이 경우, **[!UICONTROL Create or recycle a database]**
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 * PostgreSQL **또는** DB2 **** 엔진의 경우 데이터베이스 서버에 액세스하려면 응용 프로그램 서버에 정의된 DNS 이름(또는 IP 주소)을 지정해야 합니다.
 * Microsoft **SQL Server** 엔진의 경우 다음을 정의해야 합니다.
 
-   1. 데이터베이스 서버에 액세스하기 위해 응용 프로그램 서버에 정의된 DNS 이름(또는 IP 주소): **DNS** 또는 **DNS\ `<instance>`**(인스턴스 모드),
+   1. 데이터베이스 서버에 액세스하기 위해 응용 프로그램 서버에 정의된 DNS 이름(또는 IP 주소): **DNS** 또는 **DNS\`<instance>`** (인스턴스 모드),
    1. Microsoft SQL Server에 액세스하는 데 사용되는 인증 방법: **[!UICONTROL SQL Server authentication]** 또는 **[!UICONTROL Windows NT authentication]**.
 
       ![](assets/s_ncs_install_db_mssql_creation01.png)
@@ -132,14 +132,14 @@ ht-degree: 0%
 
 * Oracle, Microsoft SQL Server 또는 PostgreSQL 데이터베이스의 경우 관리자는 데이터베이스 개체를 생성할 때 사용할 **저장** 매개변수를 정의할 수도 있습니다.
 
-   이러한 매개 변수는 정확한 테이블스페이스 이름을 받습니다(경고: 대/소문자 구분). 이러한 항목은 각각 다음 옵션의 **[!UICONTROL Administration > Platform > Options]** 노드에 저장됩니다.
+   이러한 매개 변수는 정확한 테이블스페이스 이름을 받습니다(경고:대/소문자 구분). 이러한 지표는 각각 다음 옵션 **[!UICONTROL Administration > Platform > Options]** 의 노드에 저장됩니다(참조 [](../../installation/using/configuring-campaign-options.md#database)).
 
-   * **WdbcOptions_TableSpaceUser**: 스키마를 기반으로 하는 사용자 테이블
-   * **WdbcOptions_TableSpaceIndex**: 스키마를 기반으로 하는 사용자 테이블 색인
-   * **WdbcOptions_TableSpaceWork**: 스키마가 없는 작업 테이블
-   * **WdbcOptions_TableSpaceWorkIndex**: 스키마가 없는 작업 테이블 인덱스
+   * **WdbcOptions_TableSpaceUser**:스키마를 기반으로 하는 사용자 테이블
+   * **WdbcOptions_TableSpaceIndex**:스키마를 기반으로 하는 사용자 테이블 색인
+   * **WdbcOptions_TableSpaceWork**:스키마가 없는 작업 테이블
+   * **WdbcOptions_TableSpaceWorkIndex**:스키마가 없는 작업 테이블 인덱스
 
-* Oracle 데이터베이스의 경우 Adobe Campaign 사용자는 일반적으로 설치 그룹의 구성원으로서 Oracle 라이브러리에 액세스할 수 **있어야** 합니다.
+* Oracle 데이터베이스의 경우, Adobe Campaign 사용자는 일반적으로 설치 그룹의 구성원으로서 Oracle 라이브러리에 액세스할 수 **있어야** 합니다.
 * 이 **[!UICONTROL Set or change the administrator password]** 옵션을 사용하면 관리자 권한으로 Adobe Campaign 연산자에 연결된 암호를 입력할 수 있습니다.
 
    보안을 위해 Adobe Campaign 계정 관리자 암호를 정의하는 것이 좋습니다.
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 이제 인스턴스 구성을 완료하려면 배포 마법사를 시작해야 합니다. 배포 [마법사를 참조하십시오](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
-인스턴스에 연결된 데이터베이스에 대한 연결 설정은 Adobe Campaign 설치 디렉토리 **`/conf/config-<instance>.xml`** 에 있는 파일에 저장됩니다.
+인스턴스에 연결된 데이터베이스의 연결 설정은 Adobe Campaign 설치 디렉토리에 있는 파일 **`/conf/config-<instance>.xml`** 에 저장됩니다.
 
 암호화된 암호를 사용하여 &#39;campaign&#39; 계정에 연결된 base61 데이터베이스의 Microsoft SQL Server 구성 예:
 
@@ -162,11 +162,11 @@ ht-degree: 0%
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
 ```
 
-## 사례 2: 기존 데이터베이스 사용 {#case-2--using-an-existing-database}
+## 사례 2:기존 데이터베이스 사용 {#case-2--using-an-existing-database}
 
 데이터베이스와 사용자는 데이터베이스 관리자가 만들고 액세스 권한이 올바르게 구성되어 있어야 합니다.
 
-예를 들어 Oracle 데이터베이스의 경우 필요한 최소 권한은 다음과 같습니다. CONNECT, 리소스 및 무제한 테이블스페이스를 부여합니다.
+예를 들어 Oracle 데이터베이스의 경우 필요한 최소 권한은 다음과 같습니다.CONNECT, 리소스 및 무제한 테이블스페이스를 부여합니다.
 
 기존 데이터베이스를 사용하려면 구성 단계는 다음과 같습니다.
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
 * Oracle, Microsoft SQL Server 또는 PostgreSQL 데이터베이스의 경우 관리자는 데이터베이스 객체를 생성할 때 사용할 **저장** 매개변수를 정의할 수 있습니다.
-* Oracle 데이터베이스의 경우 Adobe Campaign 사용자는 일반적으로 설치 그룹의 구성원으로서 Oracle 라이브러리에 액세스할 수 **있어야** 합니다.
+* Oracle 데이터베이스의 경우, Adobe Campaign 사용자는 일반적으로 설치 그룹의 구성원으로서 Oracle 라이브러리에 액세스할 수 **있어야** 합니다.
 * 이 **[!UICONTROL Set or change the administrator password]** 옵션을 사용하면 관리자 권한으로 Adobe Campaign 연산자에 연결된 암호를 입력할 수 있습니다.
 
    보안을 위해 Adobe Campaign 계정 관리자 암호를 정의하는 것이 좋습니다.
@@ -245,7 +245,7 @@ ht-degree: 0%
 
 이제 인스턴스 구성을 완료하려면 배포 마법사를 시작해야 합니다. 배포 [마법사를 참조하십시오](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
-인스턴스에 연결된 데이터베이스에 대한 연결 설정은 Adobe Campaign 설치 디렉토리 **`/conf/config-<instance>.xml`** 에 있는 파일에 저장됩니다.
+인스턴스에 연결된 데이터베이스의 연결 설정은 Adobe Campaign 설치 디렉토리에 있는 파일 **`/conf/config-<instance>.xml`** 에 저장됩니다.
 
 암호화된 암호를 사용하여 &#39;campaign&#39; 계정에 연결된 base61 데이터베이스의 Microsoft SQL Server 구성 예:
 
