@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -77,7 +77,7 @@ Adobe Campaign 스키마의 `<method>` 요소에 대한 전체 설명은 아래�
 
 이 메서드의 입력 매개 변수는 &quot;xtk:queryDef&quot; 스키마 형식의 XML 문서입니다.
 
-## 웹 서비스 설명: WSDL {#web-service-description--wsdl}
+## 웹 서비스 설명:WSDL {#web-service-description--wsdl}
 
 각 서비스에서 WSDL(웹 서비스 설명 라이브러리) 파일을 사용할 수 있습니다. 이 XML 파일은 메탈 언어를 사용하여 서비스를 설명하고 서비스를 실행하기 위해 연결할 수 있는 메서드, 매개 변수 및 서버를 지정합니다.
 
@@ -85,12 +85,12 @@ Adobe Campaign 스키마의 `<method>` 요소에 대한 전체 설명은 아래�
 
 WSDL 파일을 생성하려면 웹 브라우저에서 다음 URL을 입력해야 합니다.
 
-[https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
+https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 
 사용:
 
-* **`<server>`**: Adobe Campaign 응용 프로그램 서버(nlserver 웹)
-* **`<schema>`**: 스키마 식별 키(namespace:schema_name)
+* **`<server>`**:adobe campaign 응용 프로그램 서버(nlserver 웹)
+* **`<schema>`**:스키마 식별 키(namespace:schema_name)
 
 ### 스키마 &#39;xtk:queryDef&#39;의 &#39;ExecuteQuery&#39; 메서드에 대한 예 {#example-on-the--executequery--method-of-schema--xtk-querydef-}
 
@@ -136,7 +136,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;바인딩&quot;을 통해 프
   </s:element>
 ```
 
-#### Messages {#messages}
+#### 메시지 {#messages}
 
 이 `<message>` 는 보낼 필드 세트의 이름과 유형에 대해 설명합니다. 이 메서드는 두 개의 메시지를 사용하여 매개 변수(&quot;ExecuteQueryIn&quot;)와 반환 값(&quot;ExecuteQueryOut&quot;)으로 전달합니다.
 
@@ -184,7 +184,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;바인딩&quot;을 통해 프
 
 #### 서비스 {#service}
 
-이 `<service>` 부분은 Adobe Campaign 응용 프로그램 서버의 URL에 있는 URI를 가진 &quot;XtkQueryDef&quot; 서비스에 대해 설명합니다.
+이 `<service>` 부분에서는 Adobe Campaign 응용 프로그램 서버의 URL에 있는 URI가 있는 &quot;XtkQueryDef&quot; 서비스에 대해 설명합니다.
 
 ```
 <service name="XtkQueryDef">
@@ -204,7 +204,7 @@ Adobe Campaign은 세션 관리 설정과 함께 보안 영역( **이 섹션의*
 
 또는
 
-* **세션 토큰을 만드는 Adobe Campaign 로그인 + 암호를** 통해 가능합니다. 세션 토큰은 설정된 기간 후에 자동으로 만료됩니다. 이 모드는 권장되지 않으며 일부 영역 설정(allowUserPassword=&quot;true&quot; 및 sessionTokenOnly=&quot;true&quot;)에 대한 응용 프로그램 보안 설정을 줄여야 합니다.
+* **세션 토큰을 만드는 Adobe Campaign 로그인 + 암호를** 통해 세션 토큰은 설정된 기간 후에 자동으로 만료됩니다. 이 모드는 권장되지 않으며 일부 영역 설정(allowUserPassword=&quot;true&quot; 및 sessionTokenOnly=&quot;true&quot;)에 대한 응용 프로그램 보안 설정을 줄여야 합니다.
 
 ### 세션 토큰 특성 {#session-token-characteristics}
 
@@ -223,7 +223,7 @@ Adobe Campaign은 세션 관리 설정과 함께 보안 영역( **이 섹션의*
 
 * 세션 토큰에서 생성됨
 * 24시간 라이프사이클(&#39;serverConf.xml&#39; 파일에서 구성 가능, 기본 기간은 24시간)
-* Adobe Campaign 콘솔에 저장됩니다.
+* adobe campaign 콘솔에 저장됩니다.
 * 웹을 통해 액세스되는 경우:
 
    * 문서에 저장됩니다.__securityToken 속성
@@ -237,7 +237,7 @@ Adobe Campaign은 세션 관리 설정과 함께 보안 영역( **이 섹션의*
 * 로그온 응답으로 전송(HTTP 헤더에서)
 * 각 쿼리에 사용(HTTP 헤더에서)
 
-게시물에서 HTTP 받기:
+POST 및 GET에서:
 
 * 서버가 토큰을 사용하여 링크를 완료합니다.
 * 서버가 양식에 숨김 필드를 추가합니다.
@@ -250,35 +250,36 @@ SOAP 호출에서:
 
 * HttpSoapConnection/ **SoapService 사용**:
 
-   ```
-     var cnx = new HttpSoapConnection("https://serverURL/nl/jsp/soaprouter.jsp");
-   var session = new SoapService(cnx, 'urn:xtk:session');
-   session.addMethod("Logon", "xtk:session#Logon",
-                       ["sessiontoken", "string", "Login", "string", "Password", "string", "Parameters", "NLElement"],
-                       ["sessionToken", "string", "sessionInfo", "NLElement", "securityToken", "string"]);
-   
-   var res = session.Logon("", "admin", "pwd", <param/>);
-   var sessionToken = res[0];
-   var securityToken = res[2];
-   
-   cnx.addTokens(sessionToken, securityToken);
-   var query = new SoapService(cnx, 'urn:xtk:queryDef');
-   query.addMethod("ExecuteQuery", "xtk:queryDef#ExecuteQuery",
-                       ["sessiontoken", "string", "entity", "NLElement"],
-                       ["res", "NLElement"]);
-   
-   var queryRes = query.ExecuteQuery("", <queryDef operation="select" schema="nms:recipient">
-             <select>
-               <node expr="@email"/>
-               <node expr="@lastName"/>
-               <node expr="@firstName"/>
-             </select>
-             <where>
-               <condition expr="@email = 'joe.doe@aol.com'"/>
-             </where>
-           </queryDef>);
-   logInfo(queryRes[0].toXMLString())
-   ```
+```
+  
+    var cnx = new HttpSoapConnection("https://serverURL/nl/jsp/soaprouter.jsp");
+  var session = new SoapService(cnx, 'urn:xtk:session');
+  session.addMethod("Logon", "xtk:session#Logon",
+                      ["sessiontoken", "string", "Login", "string", "Password", "string", "Parameters", "NLElement"],
+                      ["sessionToken", "string", "sessionInfo", "NLElement", "securityToken", "string"]);
+  
+  var res = session.Logon("", "admin", "pwd", <param/>);
+  var sessionToken = res[0];
+  var securityToken = res[2];
+  
+  cnx.addTokens(sessionToken, securityToken);
+  var query = new SoapService(cnx, 'urn:xtk:queryDef');
+  query.addMethod("ExecuteQuery", "xtk:queryDef#ExecuteQuery",
+                      ["sessiontoken", "string", "entity", "NLElement"],
+                      ["res", "NLElement"]);
+  
+  var queryRes = query.ExecuteQuery("", <queryDef operation="select" schema="nms:recipient">
+            <select>
+              <node expr="@email"/>
+              <node expr="@lastName"/>
+              <node expr="@firstName"/>
+            </select>
+            <where>
+              <condition expr="@email = 'joe.doe@aol.com'"/>
+            </where>
+          </queryDef>);
+  logInfo(queryRes[0].toXMLString())
+```
 
 * HttpServletRequest **사용**:
 
@@ -294,18 +295,18 @@ req.header["Content-Type"] = "text/xml; charset=utf-8";
 req.header["SOAPAction"] =   "xtk:session#Logon";
 req.method = "POST";
 req.body = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">' +
-  '<soapenv:Header/>' +
-  '<soapenv:Body>' +
-      '<urn:Logon>' +
-          '<urn:sessiontoken></urn:sessiontoken>' +
-          '<urn:strLogin>LOGIN_HERE</urn:strLogin>' +
-          '<urn:strPassword>PASSWORD_HERE</urn:strPassword>' +
-          '<urn:elemParameters></urn:elemParameters>' +
-      '</urn:Logon>' +
-  '</soapenv:Body>' +
+    '<soapenv:Header/>' +
+    '<soapenv:Body>' +
+        '<urn:Logon>' +
+            '<urn:sessiontoken></urn:sessiontoken>' +
+            '<urn:strLogin>LOGIN_HERE</urn:strLogin>' +
+            '<urn:strPassword>PASSWORD_HERE</urn:strPassword>' +
+            '<urn:elemParameters></urn:elemParameters>' +
+        '</urn:Logon>' +
+    '</soapenv:Body>' +
 '</soapenv:Envelope>';
 req.execute();
-         
+           
 var resp = req.response;
 var xmlRes = new XML(String(resp.body).replace("<?xml version='1.0'?>",""));
 var sessionToken = String(xmlRes..*::pstrSessionToken);;
@@ -321,14 +322,13 @@ req2.header["SOAPAction"] =   "xtk:queryDef#ExecuteQuery";req2.header["X-Securit
 req2.header["cookie"]           = "__sessiontoken="+sessionToken;
 req2.method = "POST";
 req2.body = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:queryDef">' +
-           '<soapenv:Header/><soapenv:Body><urn:ExecuteQuery><urn:sessiontoken/><urn:entity>' +
-              '<queryDef operation="select" schema="nms:recipient">' +
-                '<select><node expr="@email"/><node expr="@lastName"/><node expr="@firstName"/></select>' +
-                '<where><condition expr="@email = \'john.doe@aol.com\'"/></where>' +
-              '</queryDef>' +
-         '</urn:entity></urn:ExecuteQuery></soapenv:Body></soapenv:Envelope>';
+             '<soapenv:Header/><soapenv:Body><urn:ExecuteQuery><urn:sessiontoken/><urn:entity>' +
+                '<queryDef operation="select" schema="nms:recipient">' +
+                  '<select><node expr="@email"/><node expr="@lastName"/><node expr="@firstName"/></select>' +
+                  '<where><condition expr="@email = \'john.doe@aol.com\'"/></where>' +
+                '</queryDef>' +
+           '</urn:entity></urn:ExecuteQuery></soapenv:Body></soapenv:Envelope>';
 req2.execute();
 var resp2 = req2.response;
 logInfo(resp2.body)
 ```
-
