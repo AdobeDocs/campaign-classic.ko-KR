@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7cf3b189f328cd1ea6ca8b67a3fc4c0c0bddd84
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -33,16 +33,16 @@ ht-degree: 0%
 
 | 데이터베이스 버전 | 드라이버 버전 | 최소 캠페인 버전 필요 | 참고 |
 |:-:|:-:|:-:|:-:|
-| 15 | 15 | Campaign Classic 17.9 | Linux에서 다음을 수행합니다. 타임스탬프가 있는 쿼리가 실패할 수 있습니다(빌드 8937에서 18.4 및 8977에서 해결됨). 디버그 모드에서 드라이버의 잘못된 메모리 사용과 관련된 경고가 발생할 수 있습니다. |
+| 15 | 15 | Campaign Classic 17.9 | Linux에서 다음을 수행합니다.타임스탬프가 있는 쿼리가 실패할 수 있습니다(빌드 8937에서 18.4 및 8977에서 해결됨). 디버그 모드에서 드라이버의 잘못된 메모리 사용과 관련된 경고가 발생할 수 있습니다. |
 | 15 | 16 | Campaign Classic 17.9 | Linux에서 Teradata 15 데이터베이스를 설정하는 것이 좋습니다. |
 | 16 | 16 | Campaign Classic 18.10 | 대용 쌍을 가진 유니코드 문자는 완전히 처리되지 않습니다. 데이터에 대리 문자를 사용하는 것이 효과적입니다. 이 변경 사항이 없으면 쿼리의 필터링 조건에 서루게이트를 사용하면 작동하지 않습니다. |
 | 16 | 15 | 지원되지 않음 |   |
 
 **Based in Latin1**
 
-Library Classic 17.9의 이전 버전에는 Teradata Latin-1 데이터베이스만 지원됩니다.
+Adobe Campaign Classic 17.9 이전 버전은 Teradata Latin-1 데이터베이스만 지원합니다.
 
-이제 Adobe Campaign Classic 17.9부터 유니코드의 기본 Teradata 데이터베이스를 지원합니다.
+이제 Adobe는 Adobe Campaign Classic 17.9부터 유니코드로 기본 Teradata 데이터베이스를 지원합니다.
 
 최신 Campaign Classic 릴리스로 마이그레이션하는 Latin-1 Teradata 데이터베이스를 사용하는 고객은 외부 계정의 옵션에 APICharSize=1 매개 변수를 추가해야 합니다.
 
@@ -50,11 +50,11 @@ Library Classic 17.9의 이전 버전에는 Teradata Latin-1 데이터베이스�
 
 #### 사용자 구성 {#user-configuration}
 
-다음 권한이 필요합니다. 사용자 지정 절차 만들기/삭제/삽입/선택 Adobe Campaign 인스턴스에서 md5 및 sha2 함수를 사용하려면 사용자 모드 기능을 만들어야 할 수도 있습니다.
+다음 권한이 필요합니다.사용자 지정 절차 만들기/삭제/삽입/선택 Adobe Campaign 인스턴스에서 md5 및 sha2 함수를 사용하려면 사용자 모드 기능을 만들어야 할 수도 있습니다.
 
-올바른 시간대를 구성해야 합니다. Adobe Campaign 인스턴스에서 만들 외부 계정에 설정할 내용과 일치해야 합니다.
+올바른 시간대를 구성해야 합니다. Adobe Campaign 인스턴스에서 만든 외부 계정에 설정될 내용과 일치해야 합니다.
 
-Adobe Campaign은 데이터베이스에 만들 개체에 보호 모드(폴백)를 설정하지 않습니다. 다음 쿼리를 사용하여 Teradata 데이터베이스에 연결하는 데 사용할 Adobe Campaign의 기본값을 설정해야 할 수 있습니다.
+Adobe Campaign은 데이터베이스에 만들 개체에 보호 모드(폴백)를 설정하지 않습니다. 다음 쿼리를 사용하여 Teradata 데이터베이스에 연결하는 데 사용할 사용자에 대해 기본값을 설정해야 할 수 있습니다.
 
 | 기본 폴백 비활성화 |
 | :-: |
@@ -184,13 +184,13 @@ ODBC 드라이버를 설치하려면:
 
 #### 드라이버 구성 {#driver-configuration}
 
-드라이버 구성에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../platform/using/legacy-connectors.md#configure-access-to-teradata).
+To learn more on driver configuration, refer to this [section](../../platform/using/legacy-connectors.md#configure-access-to-teradata).
 
 #### 환경 변수 {#environment-varaiables}
 
 Adobe Campaign 서버의 환경 변수에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../platform/using/legacy-connectors.md#configure-access-to-teradata).
 
-### Windows #campaign-server-windows}용 캠페인 서버 구성
+### Windows용 캠페인 서버 구성 {#campaign-server-windows}
 
 먼저 Windows용 메타데이터 도구 및 유틸리티를 다운로드해야 합니다. 이 [페이지에서 다운로드할 수 있습니다](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-windows-installation-package)
 
@@ -200,10 +200,10 @@ ODBC 드라이버와 Teradata Parallel Transporter Base를 설치해야 합니�
 
 ### 외부 계정 문제 해결 {#external-account-troubleshooting}
 
-연결 **TIM-03008 날짜 &#39;2&#39;를 테스트하는 동안 다음 오류가 표시되는 경우: 누락된 문자(iRc=-53)** (ODBC 드라이버가 올바르게 설치되어 있고 캠페인 서버에 대해 LD_LIBRARY_PATH(Linux)/PATH(Windows)가 설정되어 있는지 확인하십시오.
+연결 **TIM-03008 날짜 &#39;2&#39;를 테스트하는 동안 다음 오류가 표시되는 경우:누락된 문자(iRc=-53)** (ODBC 드라이버가 올바르게 설치되어 있고 캠페인 서버에 대해 LD_LIBRARY_PATH(Linux)/PATH(Windows)가 설정되어 있는지 확인하십시오.
 
 오류 **ODB-240000 ODBC 오류:[Microsoft][ODBC Driver Manager]데이터 원본 이름을 찾을 수 없으며 기본 드라이버가 지정되지 않았습니다.** 16.X 드라이버를 사용하는 경우 Windows에서 발생합니다. Adobe Campaign은 odbcinst.ini에서 &#39;{teradata}&#39;라는 메타데이터를 예상합니다.
-18.10 Adobe Campaign 서버 버전이 있는 경우 외부 계정의 옵션에 ODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot;을 추가할 수 있습니다. 버전 번호는 변경될 수 있으며 정확한 이름은 obcad32.exe를 실행하고 드라이버 탭에 액세스하여 찾을 수 있습니다.
+18.10 Adobe Campaign 서버 버전이 있는 경우 외부 계정의 옵션에 ODBCDriverName=&quot;Teradata 데이터베이스 ODBC 드라이버 16.10&quot;을 추가할 수 있습니다. 버전 번호는 변경될 수 있으며 정확한 이름은 obcad32.exe를 실행하고 드라이버 탭에 액세스하여 찾을 수 있습니다.
 18.10 이하 버전의 경우 드라이버 설치로 만든 odbcinst.ini의 Teradata 섹션을 Teradata, regedit을 사용할 수 있습니다.
 
 베이스가 latin1인 경우 옵션에서 APICharSize=1을 추가해야 합니다.
@@ -212,7 +212,7 @@ ODBC 드라이버와 Teradata Parallel Transporter Base를 설치해야 합니�
 
 Teradata는 표준이 아닌 시간대 이름을 사용하므로 Teradata [사이트에서 목록을 찾을 수 있습니다](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/oGKvgl7gCeBMTGrp59BnwA). Adobe Campaign은 외부 구성에 지정된 시간대를 Teradata가 이해하는 시간대로 변환하려고 합니다. 통신문을 찾을 수 없는 경우, 옷장 GMT+X(또는 GMT-X) 시간대가 세션에 검색되고 로그에 경고가 표시됩니다.
 
-변환은 다음 데이터 디렉터리에 있어야 하는 teradata_timezones.txt 파일을 읽습니다. linux의 /usr/local/neolane/nl6/datakit 이 파일을 편집하는 경우 소스 코드를 변경하려면 Adobe Campaign 팀에 문의하십시오. 그렇지 않으면 다음 캠페인 업데이트 동안 이 파일을 덮어쓰게 됩니다.
+변환은 다음 데이터 디렉터리에 있어야 하는 teradata_timezones.txt 파일을 읽습니다.linux의 /usr/local/neolane/nl6/datakit 이 파일을 편집하는 경우 소스 코드를 변경하려면 Adobe Campaign 팀에 문의하십시오. 그렇지 않으면 다음 캠페인 업데이트 동안 이 파일을 덮어쓰게 됩니다.
 
 -verbose 스위치로 nlserver를 실행할 때 연결하는 데 사용되는 표준 시간대가 표시됩니다. 예:
 
@@ -232,11 +232,11 @@ MODIFY USER $login$ AS TIME ZONE = 'Europe Central';
 
 ### 서버 구성 {#server-configuration-mysql}
 
-서버 구성에는 특정 설치 단계가 필요하지 않습니다. Adobe Campaign은 latin1 데이터베이스, MySQL의 기본값 또는 유니코드 데이터베이스에서 작동해야 합니다.
+서버 구성에는 특정 설치 단계가 필요하지 않습니다. Adobe Campaign은 latin1 데이터베이스, MySQL의 기본값 또는 유니코드 데이터베이스와 함께 작업해야 합니다.
 
 ### 드라이버 설치 {#driver-installation-mysql}
 
-#### 데비안 {#debian-mysql}
+#### Debian {#debian-mysql}
 
 이 [페이지에서 mysql-apt-config.deb를 다운로드합니다](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en).
 
