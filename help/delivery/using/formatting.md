@@ -1,7 +1,7 @@
 ---
-title: 서식 지정
-seo-title: 서식 지정
-description: 서식 지정
+title: 서식
+seo-title: 서식
+description: 서식
 seo-description: null
 page-status-flag: never-activated
 uuid: b6065289-c487-416b-8847-49aa0fb782bf
@@ -15,20 +15,23 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+workflow-type: tm+mt
+source-wordcount: '1449'
+ht-degree: 0%
 
 ---
 
 
-# 서식 지정{#formatting}
+# 서식{#formatting}
 
 ## JavaScript 템플릿 {#javascript-templates}
 
-JavaScript 템플릿은 JavaScript 코드를 포함하는 HTML 또는 텍스트 문서입니다. 배달 작업의 이메일 컨텐츠와 동일한 방식으로 구성됩니다.
+JavaScript 템플릿은 JavaScript 코드를 포함하는 HTML 또는 텍스트 문서입니다. 게재 작업의 이메일 컨텐츠와 동일한 방식으로 구성됩니다.
 
 ### JavaScript 템플릿 식별 {#identification-of-a-javascript-template}
 
-JavaScript 템플릿은 스키마 및 양식과 마찬가지로 이름과 네임스페이스로 식별됩니다. 그러나 템플릿 이름에 **.js** 옵션을 추가하는 것이 좋습니다.
+JavaScript 템플릿은 스키마 및 양식과 마찬가지로 이름 및 네임스페이스로 식별됩니다. 하지만 템플릿 이름에 **.js** 옵션을 추가하는 것이 좋습니다.
 
 ### JavaScript 템플릿 구조 {#structure-of-a-javascript-template}
 
@@ -50,12 +53,12 @@ JavaScript 템플릿은 스키마 및 양식과 마찬가지로 이름과 네임
 
 다양한 JavaScript 지시문은 다음 양식에 나타납니다.
 
-* 필드 병합:표시할 데이터의 소스 **`<%= <source> %>`** 필드인 `<source>`구문을 사용하여 데이터 컨텐츠를 표시합니다.
+* 필드 병합:표시할 데이터의 소스 필드인 **`<%= <source> %>`** 구문과 함께 데이터 `<source>`의 컨텐츠를 표시합니다.
 * 지침 블록:&lt;% 및 %> 태그 사이에 포함된 일련의 JavaScript 지침을 실행합니다.
 
-content **개체는** 입력 XML 문서의 기본 요소를 나타냅니다.
+**content** 개체는 입력 XML 문서의 기본 요소를 나타냅니다.
 
-다음 줄에는 이름 장부 이름의 컨텐츠가 표시됩니다.
+이 예에서는 이름 장부 이름의 컨텐츠가 표시됩니다.
 
 ```
 <h1><%= content.@name %></h1>
@@ -71,24 +74,24 @@ content **개체는** 입력 XML 문서의 기본 요소를 나타냅니다.
 
 컨텐츠의 속성과 요소는 JavaScript 객체로 표현되며 소스 문서의 구조를 준수합니다.
 
-**예**:
+**예제**:
 
-* **컨텐츠의 일부로 사용할 수 있습니다.@name**:main 요소의 &quot;name&quot; 속성 값을 검색합니다.
-* **컨텐츠의 일부로 사용할 수 있습니다.@`['name']`**:동일한**&#x200B;컨텐츠로@name **구문
+* **컨텐츠.@name**:main 요소의 &quot;name&quot; 속성 값을 검색합니다.
+* **컨텐츠.@`['name']`**:컨텐트와 **동일합니다.@name** 구문
 * **content.chapter.length**:컬렉션 요소의 요소 수를 `<chapter` 반환합니다.
-* **content.chapter`[0]`.@name**:첫 번째 `<chapter>` 요소의 이름을 검색합니다.
+* **content.chapter`[0]`.@name**:첫 번째 요소의 이름을 `<chapter>` 검색합니다.
 * **chapter.name()**:요소의 이름을 `<chapter>` 반환합니다.
 * **chapter.parent().name()**:의 상위 요소의 이름을 반환합니다. `<chapter>`
 
 >[!CAUTION]
 >
->&#39;-&#39; 문자는 JavaScript 언어로 예약되므로 이 문자를 포함하는 특성 또는 요소의 값은 `['<field>']` 구문을 통해 복구해야 합니다.
+>&#39;-&#39; 문자는 JavaScript 언어로 예약되므로 이 문자를 포함하는 특성 또는 요소의 값 복구는 `['<field>']` 구문을 통해 수행되어야 합니다.
 >
->예: `content.@['offer-id']`Adobe
+>예제: `content.@['offer-id']`.
 
 프로그래밍 언어의 모든 기능(변수, 루프, 조건부 테스트, 함수 등) )을 사용하여 출력 문서를 작성할 수 있습니다. SOAP API는 출력 문서를 보완하기 위해 액세스할 수 있습니다.
 
-예:
+예제:
 
 * 조건부 테스트:
 
@@ -136,14 +139,14 @@ content **개체는** 입력 XML 문서의 기본 요소를 나타냅니다.
    <%= counter += 10 %>
    ```
 
-* 정적 메서드로 수신자 이름 검색 및 표시:
+* 정적 메서드로 받는 사람 이름 검색 및 표시:
 
    ```
    <% var recipient = nms.recipient.get(1246); %>
    <%= recipient.lastName %>
    ```
 
-* 비정적 메서드로 수신자 이름 복구 및 표시:
+* 정적 방법이 아닌 받는 사람 이름의 복구 및 표시:
 
    ```
    <% var query = xtk.queryDef.create(
@@ -164,7 +167,7 @@ content **개체는** 입력 XML 문서의 기본 요소를 나타냅니다.
 
 ### JavaScript 템플릿 포함 {#including-a-javascript-template}
 
-나중에 사용할 수 있도록 함수 또는 변수 라이브러리를 구성할 수 있습니다. 이렇게 하려면 **eval** 함수와 함께 JavaScript 템플릿을 가져옵니다. 이렇게 하면 다른 JavaScript 템플릿에서 선언된 추가 함수를 사용하여 컨텍스트를 강화할 수 있습니다.
+나중에 사용할 수 있도록 함수 또는 변수 라이브러리를 구성할 수 있습니다. 이렇게 하려면 eval 함수와 함께 JavaScript **템플릿을** 가져옵니다. 이렇게 하면 다른 JavaScript 템플릿에서 선언된 추가 함수로 컨텍스트를 강화할 수 있습니다.
 
 **예**:common.jsp **템플릿** 가져오기
 
@@ -192,7 +195,7 @@ content **개체는** 입력 XML 문서의 기본 요소를 나타냅니다.
 
 ### JavaScript 템플릿을 만들고 사용하는 방법의 예 {#example-of-how-to-create-and-use-a-javascript-template}
 
-아래에서 JavaScript 템플릿을 사용하여 다음 컨텐츠 관리를 구현하는 데 필요한 구성을 확인할 수 있습니다.
+아래에서는 JavaScript 템플릿을 사용하여 다음 컨텐츠 관리를 구현하는 데 필요한 구성을 확인할 수 있습니다.
 
 ![](assets/d_ncs_content_sample_1.png)
 
@@ -269,9 +272,9 @@ content **개체는** 입력 XML 문서의 기본 요소를 나타냅니다.
    </form>
    ```
 
-1. HTML 및 텍스트 형식에 대한 메시지 내용으로 JavaScript 템플릿을 만듭니다.
+1. HTML 및 텍스트 포맷용 메시지 내용으로 JavaScript 템플릿을 만듭니다.
 
-   * Adobe의 예에서 HTML의 경우:
+   * HTML의 경우
 
       ```
       <html>     
@@ -369,7 +372,7 @@ content **개체는** 입력 XML 문서의 기본 요소를 나타냅니다.
 
       ![](assets/d_ncs_content_sample_3.png)
 
-1. 그런 다음 이 컨텐츠 템플릿을 게재에서 사용할 수 있습니다.
+1. 그런 다음 게재에서 이 컨텐츠 템플릿을 사용할 수 있습니다.
 
    자세한 내용은 컨텐츠 템플릿 [사용을 참조하십시오](../../delivery/using/using-a-content-template.md).
 
@@ -377,13 +380,13 @@ content **개체는** 입력 XML 문서의 기본 요소를 나타냅니다.
 
 XSLT 언어를 사용하면 XML 문서를 출력 문서로 변경할 수 있습니다. 스타일시트의 출력 방법에 따라 결과 문서는 HTML, 일반 텍스트 또는 다른 XML 트리에서 생성할 수 있습니다.
 
-이 변환은 Stylesheet로 알려진 문서의 XML에 자세히 설명되어 있습니다.
+This transformation is in turn detailed in XML in a document known as the stylesheet.
 
 ### 스타일시트 확인 {#identifying-a-stylesheet}
 
-A stylesheet is identified by its name and namespace, like like schemas and forms. 그러나 스타일시트의 이름에 **.xsl** 확장명을 추가하는 것이 좋습니다.
+스타일시트는 스키마 및 양식과 마찬가지로 해당 이름 및 네임스페이스로 식별됩니다. 그러나 스타일시트 이름에 **.xsl** 확장명을 추가하는 것이 좋습니다.
 
-The identification key of a stylesheet is a string form by the namespace and the name separated by a colon;예를 들면 다음과 같습니다. **cus:book.xsl**.
+스타일시트의 ID 키는 네임스페이스에 의해 만들어진 문자열과 콜론으로 구분된 이름입니다.예를 들면 다음과 같습니다. **cus:book.xsl**.
 
 ### 스타일시트 구조 {#structure-of-a-stylesheet}
 
@@ -411,26 +414,26 @@ The identification key of a stylesheet is a string form by the namespace and the
 </xsl:stylesheet>
 ```
 
-A stylesheet is an XML document that oes the following rules:
+스타일시트는 다음 규칙을 준수하는 XML 문서입니다.
 
-* 속성의 값은 따옴표 사이에 있습니다.
+* 특성의 값은 따옴표 사이에 있습니다.
 * 요소에는 여는 마커와 닫는 마커가 있어야 합니다.
 * &#39;&lt;&#39; 또는 &#39;&amp;&#39; 문자를 **&#39;&lt;&#39;** 또는 **&#39;&amp;&#39;** 엔티티로 바꿉니다.
 * 각 XSL 요소는 **xsl** 네임스페이스를 사용해야 합니다.
 
-A stylesheet must start with the XSL root element marker **`<xsl:stylesheet>`** and end with the **`</xsl:stylesheet>`** marker. XSL 네임스페이스는 여는 마커에 다음과 같이 정의해야 합니다.
+스타일시트는 XSL 루트 요소 마커로 시작하고 마커로 **`<xsl:stylesheet>`** 끝나야 **`</xsl:stylesheet>`** 합니다. XSL 네임스페이스는 여는 마커에서 다음과 같이 정의해야 합니다.
 
 ```
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 ```
 
-요소는 **`<xsl:output>`** 생성된 문서의 형식을 지정합니다. 원하는 문자 집합 및 출력 형식을 지정합니다.
+요소는 생성된 문서의 형식을 **`<xsl:output>`** 지정합니다. 원하는 문자 집합 및 출력 형식을 지정합니다.
 
 ```
 <xsl:output encoding="ISO-8859-1" method="html"/>
 ```
 
-다음 지침에서는 출력 문서의 서식에 대한 스타일시트의 구성을 설명합니다.
+다음 지침에서는 출력 문서의 서식에 대한 스타일시트 구성을 설명합니다.
 
 ```
 <xsl:template match="/book">
@@ -449,7 +452,7 @@ A stylesheet must start with the XSL root element marker **`<xsl:stylesheet>`** 
 </xsl:template>
 ```
 
-기본적으로 XSLT 프로세서는 입력 XML 문서의 루트 또는 기본 노드에 적용되는 **템플릿을** 찾습니다. 출력 문서의 구성은 이 **템플릿으로**&#x200B;시작합니다.
+기본적으로 XSLT 프로세서는 입력 XML 문서의 루트 또는 기본 노드에 적용되는 **템플릿을** 찾습니다. 출력 문서의 구성은 이 **템플릿으로 시작합니다**.
 
 이 예에서는 책 이름과 장 목록을 표시하여 &quot;cus:book&quot; 스키마에서 HTML 페이지가 생성됩니다.
 
@@ -459,25 +462,25 @@ A stylesheet must start with the XSL root element marker **`<xsl:stylesheet>`** 
 
 ### HTML/XML 표시 {#displaying-html-xml}
 
-html **필드를** 표시하려면 **지시문의** disable-output-escape=&quot;yes&quot; **`<xsl:value-of>`** 옵션을사용합니다. 이렇게 하면 문자를 XML 엔티티(예: &lt; with &lt;)로 바꾸지 않을 수 있습니다.
+html **** 필드를 표시하려면 지시문의 **disable-output-escape=&quot;yes&quot;** 옵션을 **`<xsl:value-of>`** 사용합니다. 이렇게 하면 문자를 XML 엔티티(예: &lt; with &lt;)로 바꾸지 않을 수 있습니다.
 
 disable-output-escape=&quot;yes&quot; **`<xsl:text>`** **** 옵션이 있는 지시문을 사용하여 개인화 필드 또는 조건부 테스트에 대한 JavaScript 태그를 삽입할 수 있습니다.
 
-예:
+예제:
 
-* &quot;html&quot; 유형 필드의 컨텐츠 표시:
+* &quot;html&quot; 형식 필드의 내용 표시:
 
    ```
    <xsl:value-of select="summary" disable-output-escaping="yes"/>
    ```
 
-* 개인화 필드 삽입 **&lt;%= recipient.email %>**:
+* 개인화 필드 **&lt;%= recipient.email %>**&#x200B;삽입:
 
    ```
    <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
    ```
 
-* 조건 테스트 추가 **&lt;% if (recipient.language == &#39;en&#39;) { %>**:
+* 조건부 테스트 **&lt;%if (recipient.language == &#39;en&#39;)`{`%>**&#x200B;추가:
 
    ```
    <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>
@@ -485,11 +488,11 @@ disable-output-escape=&quot;yes&quot; **`<xsl:text>`** **** 옵션이 있는 지
 
 ### 스타일 시트 포함 {#including-stylesheets}
 
-여러 스타일 시트 간에 공유할 템플릿 또는 변수 라이브러리를 만들 수 있습니다. 위에 제시된 &quot;longMonth&quot; **템플릿은**&#x200B;스타일시트에서 원격으로 템플릿을 찾아 나중에 다시 사용할 수 있도록 하는 이점이 있습니다.
+여러 스타일 시트 간에 공유할 템플릿 또는 변수 라이브러리를 작성할 수 있습니다. 위에 제시된 &quot;longMonth&quot; **템플릿은**&#x200B;스타일시트에서 원격으로 템플릿을 찾아 나중에 다시 사용할 수 있다는 이점이 있는 일반적인 예입니다.
 
 지시문은 문서에 포함할 스타일시트의 이름을 나타냅니다. **`<xsl:include>`**
 
-**예**:&quot;common.xsl&quot; 스타일 시트를 포함합니다.
+**예**:&quot;common.xsl&quot; 스타일 시트 포함
 
 ```
 <? xml version="1.0" encoding="ISO-8859-1" ?>
@@ -502,7 +505,7 @@ disable-output-escape=&quot;yes&quot; **`<xsl:text>`** **** 옵션이 있는 지
 
 >[!NOTE]
 >
->포함할 스타일시트의 참조에 네임스페이스의 이름을 입력할 수 없습니다. As a standard, this stylesheet is created with the user namespace.
+>포함할 스타일시트 참조에 네임스페이스의 이름을 입력하지 마십시오. As a standard, this stylesheet is created with the user namespace.
 
 ### 스타일시트 편집 {#editing-a-stylesheet}
 
@@ -510,7 +513,7 @@ disable-output-escape=&quot;yes&quot; **`<xsl:text>`** **** 옵션이 있는 지
 
 ![](assets/d_ncs_content_form14.png)
 
-언제든지 출력 문서의 미리 보기를 생성하려면 내용 인스턴스와 형식(HTML, 텍스트, XML)을 선택한 다음 **[!UICONTROL Generate]** :
+언제든지 출력 문서의 미리 보기를 생성하려면 내용 인스턴스와 형식(HTML, 텍스트, XML)을 선택하고 다음을 클릭합니다. **[!UICONTROL Generate]** :
 
 ![](assets/d_ncs_content_form15.png)
 
@@ -524,16 +527,16 @@ disable-output-escape=&quot;yes&quot; **`<xsl:text>`** **** 옵션이 있는 지
 
 HTML 출력 문서에 입력된 이미지는 절대 또는 상대 참조로 참조할 수 있습니다.
 
-상대 참조를 사용하면 NcmRessourcesDir 및 NcmRessourcesDir **미리 보기** 옵션에 이미지가 포함된 서버의 URL을 입력할 **수** 있습니다. 이러한 옵션에는 게시 및 Adobe Campaign 클라이언트 콘솔에서 미리 볼 이미지의 위치가 포함되어 있습니다.
+상대 참조를 사용하면 NcmRessourcesDir 및 NcmRessourcesDir **미리 보기** 옵션에 이미지가 포함된 서버의 URL을 입력할 수 **있습니다** . 이러한 옵션에는 Adobe Campaign 클라이언트 콘솔에서 게시 및 미리 볼 이미지의 위치가 포함됩니다.
 
 이 두 옵션은 **[!UICONTROL Administration > Platform > Options]** 폴더의 옵션 관리 화면을 통해 액세스할 수 있습니다.
 
-**예**:
+**예제**:
 
 * NcmResourcesDir = &quot;https://server/images/&quot;
 * NcmResourcesDirPreview = &quot;x:/images/&quot;
 
-스타일시트를 처리하는 동안 **입력 XML** 문서의 기본 요소에 있는_resPath 속성은 컨텍스트(미리 보기 또는 게시)에 따라 하나 또는 다른 옵션으로 자동 채워집니다.
+스타일시트를 처리하는 동안 입력 XML 문서의 기본 요소에 있는 **_resPath** 속성은 컨텍스트(미리 보기 또는 게시)에 따라 하나 또는 다른 옵션으로 자동 채워집니다.
 
 이미지 배치 옵션 및 이미지에 사용하는 방법의 예:
 
@@ -543,13 +546,13 @@ HTML 출력 문서에 입력된 이미지는 절대 또는 상대 참조로 참�
 
 >[!NOTE]
 >
->이미지가 저장되는 서버(&quot;resPath&quot; 예제)의 참조가 포함된 변수를 선언하는 것이 좋습니다.
+>이미지가 저장되는 서버(&quot;resPath&quot;)의 참조가 포함된 변수를 선언하는 것이 좋습니다.
 
-### 공개 리소스 사용 {#using-public-resources}
+### 공용 리소스 사용 {#using-public-resources}
 
-을 사용하여 이미지를 **[!UICONTROL Public resources]** 선언하고 배포 마법사에 입력한 인스턴스 설정에 따라 서버에 업로드할 수도 있습니다.
+배포 마법사 **[!UICONTROL Public resources]** 에 입력된 인스턴스 설정에 따라 이미지를 선언하고 서버에 업로드할 수도 있습니다.
 
-그런 다음 이러한 이미지를 컨텐츠로 호출할 수 있습니다. 이렇게 하려면 컨텐츠 관리 스키마에서 다음 구문을 사용합니다.
+그런 다음 이러한 이미지를 컨텐츠로 불러올 수 있습니다. 이렇게 하려면 컨텐츠 관리 스키마에서 다음 구문을 사용하십시오.
 
 ```
 <element label="Image" name="image" target="xtk:fileRes" type="link"/>
@@ -567,27 +570,27 @@ HTML 출력 문서에 입력된 이미지는 절대 또는 상대 참조로 참�
 
 >[!NOTE]
 >
->구성 및 사용 방법에 대한 자세한 **[!UICONTROL Public resources]** 내용은 [이 섹션을](../../installation/using/deploying-an-instance.md#managing-public-resources)참조하십시오.
+>구성 **[!UICONTROL Public resources]** 및 사용 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
 ## 날짜 표시 {#date-display}
 
-XML 입력 문서에서 날짜는 내부 XML 형식으로 저장됩니다.YYYY/ **MM/DD HH:MM:SS** (예: 2018/10/01 12:23:30).
+XML 입력 문서에서 날짜는 내부 XML 형식으로 저장됩니다. **YYYY/MM/DD HH:MM:SS** (예: 2018/10/01 12:23:30).
 
-Adobe Campaign은 아래에 자세히 설명된 JavaScript 템플릿 및 XSL 스타일시트에 대한 날짜 서식 지정 기능을 제공합니다.
+Adobe Campaign은 아래에 자세히 설명된 JavaScript 템플릿 및 XSL 스타일시트에 대해 날짜 서식 기능을 제공합니다.
 
-### JavaScript 날짜 서식 {#javascript-date-formatting}
+### JavaScript 날짜 형식 {#javascript-date-formatting}
 
-날짜를 원하는 형식으로 표시하기 위해 Adobe Campaign은 **날짜** 컨텐츠를 입력으로 사용하는 formatDate 함수와 다음 구문을 사용하여 출력 형식을 지정하는 문자열을 제공합니다. **%4Y/%2M/%2D %2H%2N%2S**
+날짜를 원하는 형식으로 표시하기 위해 Adobe Campaign은 날짜의 내용을 입력하 **는 formatDate** 함수와 다음 구문을 사용하여 출력 형식을 지정하는 문자열을 제공합니다. **%4Y/%2M/%2D %2H%2N%2S**
 
-예:
+예제:
 
-* 날짜를 2018년 31월 **10일 형식으로** 표시합니다.
+* 날짜를 **31/10/2018** 형식으로 표시합니다.
 
    ```
     <%= formatDate(content.@date, "%2D/%2M/%4Y") %>
    ```
 
-* 날짜를 2018년 7월 **형식으로** 표시합니다.
+* 날짜를 **2018년 7월** 형식으로 표시합니다.
 
    ```
    <%
@@ -608,17 +611,17 @@ Adobe Campaign은 아래에 자세히 설명된 JavaScript 템플릿 및 XSL 스
 
 ### XSL 날짜 서식 {#xsl-date-formatting}
 
-XSLT 구문에는 표준 날짜 관리 기능이 없습니다. 원하는 형식으로 날짜를 표시하기 위해 Adobe Campaign은 외부 함수 **날짜 형식을**&#x200B;제공합니다. 이 함수는 다음과 같은 구문을 사용하여 출력 형식을 지정하는 문자열 및 날짜 내용을 입력할 때 사용합니다. **%4Y/%2M/%2D %2H%2N%2S**
+XSLT 구문에는 표준 날짜 관리 기능이 없습니다. 원하는 형식으로 날짜를 표시하려면 외부 함수 **날짜 형식을 제공합니다**. 이 함수는 날짜의 내용을 입력하고 다음 구문을 사용하여 출력 형식을 지정하는 문자열을 가져옵니다. **%4Y/%2M/%2D %2H%2N%2S**
 
-예:
+예제:
 
-* 날짜를 2018년 1월 **10일 형식으로 표시하려면** :
+* 날짜를 **2018년** 01/10 형식으로 표시하려면:
 
    ```
    <xsl:value-of select="external:date-format(@date, '%2D/%2M/%4Y')"/>
    ```
 
-* 날짜를 2018년 7월 **형식으로 표시하려면** :
+* 날짜를 **2018년 7월** 형식으로 표시하려면:
 
    ```
    <!-- Returns the month in the form of a string with the month number as input -->
