@@ -1,7 +1,7 @@
 ---
-title: 연산자 프로필
-seo-title: 연산자 프로필
-description: 연산자 프로필
+title: 운영자 프로필
+seo-title: 운영자 프로필
+description: 운영자 프로필
 seo-description: null
 page-status-flag: never-activated
 uuid: cd718d20-79cb-40ed-b2ae-23186387e2db
@@ -15,20 +15,20 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fef684cd20f9b210025b21d2bc6bdb209a929f7c
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 2%
+source-wordcount: '388'
+ht-degree: 5%
 
 ---
 
 
-# 연산자 프로필{#operator-profiles}
+# 운영자 프로필{#operator-profiles}
 
-상호 작용을 사용하는 연산자는 두 가지가 있습니다. 제공 관리자 및 전달 관리자 이들은 특정 권리를 가지며 나무와 플랫폼의 일부 부분에만 액세스할 수 있습니다.
+상호 작용을 사용하는 연산자는 두 가지가 있습니다.제공 관리자 및 전달 관리자 이들은 특정 권리를 가지며 나무와 플랫폼의 일부 부분에만 액세스할 수 있습니다.
 
-* **[!UICONTROL Offer manager]** : 오퍼를 만들고 유지 관리합니다. 오퍼가 워크플로에서 사용되는 경우, 연산자는 **[!UICONTROL Administrator]** 또는 **[!UICONTROL 오퍼 관리자)** 연산자 그룹에 있어야 워크플로우를 실행할 수 있습니다.
-* **[!UICONTROL Delivery manager]** : 오퍼 승인 및 사용
+* **[!UICONTROL Offer manager]** :오퍼를 만들고 유지 관리합니다. 워크플로우에서 오퍼를 사용하는 경우 작업자는 **[!UICONTROL Administrator]** 또는 **[!UICONTROL Offer managers]** 연산자 그룹에 있어야 워크플로우를 실행할 수 있습니다.
+* **[!UICONTROL Delivery manager]** :오퍼 승인 및 사용
 
 상호 작용에만 적용되는 연산자를 만드는 단계는 플랫폼에서 다른 연산자를 모두 만드는 데 사용되는 연산자와 동일합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/access-management.md#creating-an-operator)을 참조하십시오. 운영자를 만드는 동안 권한이 구성됩니다.
 
@@ -115,7 +115,7 @@ ht-degree: 2%
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 분류 규칙<br /> </td> 
+   <td> 유형화 규칙<br /> </td> 
    <td> 읽기/쓰기<br /> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
@@ -175,7 +175,7 @@ ht-degree: 2%
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 분류 규칙<br /> </td> 
+   <td> 유형화 규칙<br /> </td> 
    <td> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
