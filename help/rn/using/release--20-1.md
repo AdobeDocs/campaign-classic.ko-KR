@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
+source-git-commit: e31efa347b42b4ccb532ca5f79e73745b5a7878b
 workflow-type: tm+mt
-source-wordcount: '1330'
-ht-degree: 1%
+source-wordcount: '1331'
+ht-degree: 6%
 
 ---
 
@@ -35,22 +35,22 @@ _2020년 3월 13일_
 
 * Red Hat 7 서버에 버전을 배포하지 못했던 문제를 수정했습니다. (NEO-23332)
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1 - Build 9122{#release-20-1-build-9122}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1 - 빌드 9122{#release-20-1-build-9122}
 
 _2020년 2월 17일_
 
-**새로운 기능?**
+**새로운 기능**
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Snowflake FDA Connector</strong><br /> </th> 
+   <th> <strong>Snowflake FDA 커넥터</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Snowflake는 스토리지 및 컴퓨팅 수준 모두에서 확장할 수 있도록 구축된 완벽하게 관리되는 클라우드 data warehouse입니다. 이 새로운 커넥터를 사용하면 Adobe Campaign은 이제 Snowflake의 강력한 기능을 활용하여 빅데이터 세그먼테이션을 수행할 수 있습니다. 이 커넥터는 Adobe에서 호스팅하는 모든 고객을 대상으로 제공됩니다.</p>
-    <p>자세한 내용은 <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">자습서 비디오를 참조하십시오</a>.</p>
+   <td> <p>Snowflake은 스토리지 및 컴퓨팅 수준 모두에서 확장할 수 있도록 구축된 완벽하게 관리되는 클라우드 데이터 웨어하우스입니다. 이 새로운 커넥터를 사용하면 Adobe Campaign은 이제 Snowflake의 강력한 기능을 활용하여 빅데이터 세그멘테이션을 수행할 수 있습니다. 이 커넥터는 Adobe에서 호스팅되는 모든 고객에게 제공됩니다.</p>
+    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutorial video</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -85,7 +85,7 @@ _2020년 2월 17일_
 
 * logins.log 파일이 IMS를 통해 성공적인 로그인 시도를 기록하지 못하는 문제를 해결했습니다. (NEO-11004)
 
-**향상된 기능**
+**개선 사항**
 
 * iOS 13은 이제 HTTP2 커넥터에서 지원됩니다.
 
@@ -95,7 +95,7 @@ _2020년 2월 17일_
 
 * 이제 중간 소싱 서버에서 일치하는 관련성이 없으면 배달 분석이 중지되고 해당 오류 메시지가 표시됩니다.
 
-* 이제 게시물용 데이터베이스 장애 조치(failover)가 지원됩니다. 이제 데이터베이스 서버가 충돌하고 다시 시작하면 Campaign이 자동으로 다시 연결됩니다.
+* 이제 게시물용 데이터베이스 장애 조치(failover)가 지원됩니다.이제 데이터베이스 서버가 충돌하고 다시 시작하면 Campaign이 자동으로 다시 연결됩니다.
 
 * [ **시작 보류** 중] 보기가 [관리] > [감사] > [워크플로우 상태] 노드에 추가되었습니다. 이렇게 하면 **operationMgt 프로세스에 의해 시작될 때까지 대기 중인 인스턴스의 모든 워크플로우를 모니터링할 수** 있습니다. 이 보기는 마케팅 캠페인 패키지와 함께 제공됩니다. [자세한 내용](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
@@ -103,7 +103,7 @@ _2020년 2월 17일_
 
 * Linux에서 서버 서비스 시작 시 /etc/init.d/nlserver6 스크립트 대신 시스템 장치를 사용합니다. 20.1 패키지를 설치할 때 새 시작 구성표에 대한 마이그레이션이 자동으로 수행됩니다. /etc/init.d/nlserver6는 여전히 제공되지만, nlserver 서비스와의 상호 작용(시작, 다시 시작, 중지 등)을 위해 systemctl 명령을 직접 사용하는 것이 좋습니다.
 
-* 가장 많이 사용되는 사용자 지정 테이블이 xtkNewId **시퀀스에서 전용 시퀀스로** 이동되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* 가장 많이 사용되는 사용자 지정 테이블이 xtkNewId **시퀀스에서 전용 시퀀스로** 이동되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 
 * 불필요한 데이터베이스 연결의 영향을 받을 수 있는 쿼리 성능이 개선되었습니다.
 
@@ -175,7 +175,7 @@ _2020년 2월 17일_
 
 * 업로드 디렉토리가 원격 공유 위치인 경우 공개 리소스에 데이터를 업로드할 수 없는 문제를 해결했습니다. (NEO-19361)
 
-* Adobe Experience Cloud **기술 워크플로우에서 대상** 가져오기가 지속적으로 실패하는 문제를 해결했습니다. (NEO-18463)
+* Adobe Experience Cloud **의** 기술 워크플로우에서 대상 가져오기가 지속적으로 실패하는 문제를 해결했습니다. (NEO-18463)
 
 * Experience Manager에서 가져온 템플릿을 사용할 때 배달이 전송되지 않던 문제를 수정했습니다. (NEO-17540)
 
@@ -183,7 +183,7 @@ _2020년 2월 17일_
 
 * FDA 스키마를 타깃팅 차원으로 사용하는 워크플로우에서 데이터 **업데이트** 활동을 사용하여 대량의 데이터를 삭제, 삽입 또는 업데이트할 때 발생하는 문제를 수정했습니다. (NEO-13280)
 
-* 태그 외부에서 &#39;if&#39; 문을 사용할 때 이메일이 전송되지 않던 문제를 `body` 수정했습니다.
+* 태그 외부에서 &#39;if&#39; 문을 사용할 때 이메일이 전송되지 않던 문제를 `body` 수정했습니다. (NEO-18628)
 
 * 보낸 메시지의 배달 로그에서 미러 페이지를 표시하려고 할 때 발생하던 문제를 수정했습니다. (NEO-17976)
 
