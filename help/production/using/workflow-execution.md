@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 5a4ee9b14d4c77f74ff73209d4323bf4f1347155
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 0%
+source-wordcount: '635'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * [워크플로우 정보](../../workflow/using/about-workflows.md)
 * [워크플로우 시작](../../workflow/using/starting-a-workflow.md)
-* [워크플로우 라이프사이클](../../workflow/using/workflow-life-cycle.md)
+* [워크플로우 수명 주기](../../workflow/using/workflow-life-cycle.md)
 * [워크플로우 사용 시 모범 사례](../../workflow/using/workflow-best-practices.md)
 
 ## 캠페인에서 가능한 한 빨리 시작 {#start-as-soon-as-possible-in-campaigns}
@@ -44,15 +44,15 @@ ht-degree: 0%
 
    기술 워크플로우 모니터링에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../workflow/using/monitoring-technical-workflows.md).
 
-   >[참고]
+   >[!NOTE]
    >
-   >워크플로우를 다시 시작한 후에는 보류 중인 작업을 실행(활동/ **[!UICONTROL Scheduler]** 활동 **[!UICONTROL Execute pending task(s) now]**&#x200B;을 마우스 오른쪽 단추로 클릭)하여 해당 작업이 다시 실패하는지 확인합니다.
+   >워크플로우를 다시 시작한 후에는 보류 중인 작업을 실행(활동/ **[!UICONTROL Scheduler]** 활동 **[!UICONTROL Execute pending task(s) now]**&#x200B;을 마우스 오른쪽 단추로 클릭)해야 해당 작업이 다시 실패하는지 확인합니다.
 
    워크플로우가 계속 실패하는 경우 감사 로그에서 특정 오류를 확인하고 그에 따라 문제를 해결한 다음 워크플로우를 다시 시작합니다.
 
 1. Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL wfserver]** 탭의 모듈 상태를 **[!UICONTROL Monitoring]** 확인합니다(모니터링 프로세스 [](../../production/using/monitoring-processes.md)참조). 이 프로세스는 모든 워크플로우를 실행합니다.
 
-   관리자 사용자는 아래 명령을 사용하여 주 응용 프로그램 서버에서 **wfserver@`<instance>`**모듈이 시작되었는지 확인할 수도 있습니다.
+   관리자 사용자는 아래 명령을 사용하여 주 응용 프로그램 서버에서 **wfserver@`<instance>`** 모듈이 시작되었는지 확인할 수도 있습니다.
 
    ```
    nlserver pdump
@@ -79,11 +79,11 @@ ht-degree: 0%
 
    이 문제를 해결하려면 원하지 않는 워크플로우를 중지하고 실패한 배달을 삭제합니다. 임계값에 도달하면 새 프로세스를 실행할 수 있습니다.
 
-   인스턴스의 워크플로우 수를 확인하려면 / 폴더에서 기본적으로 액세스할 수 있는 미리 정의된 뷰를 사용하는 것이 **[!UICONTROL Administration]** **[!UICONTROL Audit]** 좋습니다. 자세한 내용은 [이 페이지를 참조하십시오](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
+   인스턴스의 워크플로우 수를 확인하려면 / 폴더에서 기본적으로 액세스할 수 있는 미리 정의된 뷰를 사용하는 것이 **[!UICONTROL Administration]** **[!UICONTROL Audit]** 좋습니다. 자세한 정보는 [이 페이지](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)를 참조하십시오.
 
-   >[주의]
+   >[!CAUTION]
    >
-   >옵션 **[!UICONTROL NmsOperation_LimitConcurrency]** 임계값을 늘리면 인스턴스에 성능 문제가 발생할 수 있습니다. 어떠한 경우라도 이 작업을 직접 수행하지 말고 Adobe Campaign 담당자에게 문의하십시오.
+   >옵션 **[!UICONTROL NmsOperation_LimitConcurrency]** 임계값을 늘리면 인스턴스에 성능 문제가 발생할 수 있습니다. 어떤 경우든 이 작업을 직접 수행하지 말고 Adobe Campaign 담당자에게 문의하십시오.
 
 워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../workflow/using/monitoring-workflow-execution.md).
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 1. Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL wfserver]** 탭의 모듈 상태를 **[!UICONTROL Monitoring]** 확인합니다(모니터링 프로세스 [](../../production/using/monitoring-processes.md)참조).
 
-   관리자 사용자는 아래 명령을 사용하여 주 응용 프로그램 서버에서 **wfserver@`<instance>`**모듈이 시작되었는지 확인할 수도 있습니다.
+   관리자 사용자는 아래 명령을 사용하여 주 응용 프로그램 서버에서 **wfserver@`<instance>`** 모듈이 시작되었는지 확인할 수도 있습니다.
 
    ```
    nlserver pdump
