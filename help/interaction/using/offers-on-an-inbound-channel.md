@@ -137,7 +137,7 @@ source-git-commit: 7c117c549b02cf24b97dc1330e703b711ba14129
 
 방금 구성한 오퍼를 웹 사이트에 표시하려면 JavaScript 코드를 사이트의 HTML 페이지에 삽입하여 상호 작용 엔진을 호출합니다. 이 경우 자세한 내용은 인바운드 채널 [정보를](../../interaction/using/about-inbound-channels.md)참조하십시오.
 
-1. HTML 페이지로 이동하여 이전에 만든 익명 오퍼 공간의 내부 이름과 일치하는 값을 포함하는 @id 속성을 삽입합니다([익명 오퍼 공간 [만들기](#creating-anonymous-offer-spaces)참조)( **i_**).
+1. HTML 페이지로 이동하여 이전에 만든 익명 오퍼 공간의 내부 이름과 일치하는 값을 포함하는 @id 속성을 삽입합니다([익명 오퍼 공간 만들기](#creating-anonymous-offer-spaces)참조)( **i_**).
 
    ![](assets/offer_inbound_anonymous_example_019.png)
 
