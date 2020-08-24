@@ -32,7 +32,7 @@ ht-degree: 1%
 1. 구성 파일에 [!DNL pipelined] 요소가 있는지 확인합니다. 그렇지 않으면 지원되지 않음을 의미합니다.
 1. 버전 6.11 빌드 8705 이상으로 업그레이드하십시오.
 
-**&quot;Aurait domenencer par ou(iRc=16384)&quot;로 피펜드`[``{`가 실패합니다.**
+**&quot;Aurait domenencer par ou(iRc=16384)&quot;로 피펜드`[` `{`가 실패합니다.**
 
 NmsPipeline_ **Config** 옵션이 설정되지 않았습니다. JSON 구문 분석 오류입니다.
 NmsPipeline_Config 옵션에서 **JSON 구성을 설정합니다**. 이 페이지에서 &quot;라우팅 옵션&quot;을 참조하십시오.
