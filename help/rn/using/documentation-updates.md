@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
+source-git-commit: 70efc8a7f1fab68d73e36b4373116c4aaaa0af5d
 workflow-type: tm+mt
-source-wordcount: '7096'
-ht-degree: 95%
+source-wordcount: '7164'
+ht-degree: 94%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 95%
 
 * [이메일에 AMP를 활성화하고 사용하는 방법](../../delivery/using/defining-interactive-content.md)
 
-* [다이내믹한 콘텐츠 블록을 사용하여 이메일을 개인화하는 방법](../../delivery/using/personalization-blocks.md)
+* [다이내믹 콘텐츠 블록을 사용하여 이메일을 개인화하는 방법](../../delivery/using/personalization-blocks.md)
 
 * [개인화 필드를 사용하여 이메일을 개인화하는 방법](../../delivery/using/personalization-fields.md)
 
@@ -56,6 +56,15 @@ ht-degree: 95%
 * [연속 배달을 설정하는 방법](../../workflow/using/continuous-delivery.md)
 
 FTP 서버에 연결한 후 &quot;호스트 이름을 확인할 수 없습니다&quot; 오류를 가져올 때 수행할 검사 및 작업에 대한 정보가 추가되었습니다. [자세한 내용](../../platform/using/sftp-server-usage.md)
+
+워크플로우 사용 사례 목록에서 새로운 사용 사례를 [참조했습니다](../../workflow/using/about-workflow-use-cases.md).
+
+* 컨텐츠 제작, 에디션 및 게시 자동화
+* 배달이 전송되기 전에 수신자 승인 프로세스 설정
+* 쿼리에서 인스턴스 변수 호출
+* 모집단에서 분할 비율 적용
+
+활동 **[!UICONTROL AND-join]** 섹션은 변수 사용과 관련된 메모와 사용 방법에 대한 추가 정보로 가득차 있습니다. [자세한 내용](../../workflow/using/and-join.md)
 
 ## 2020년 7월 {#july-2020}
 
