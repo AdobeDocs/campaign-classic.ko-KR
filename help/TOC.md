@@ -6,9 +6,9 @@ index: y
 product: adobe campaign
 sub-product: Aadobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+source-git-commit: 0810608c67e6da4d9afa3a366df664594b0b6840
 workflow-type: tm+mt
-source-wordcount: '2110'
+source-wordcount: '2109'
 ht-degree: 95%
 
 ---
@@ -432,7 +432,7 @@ ht-degree: 95%
          + [데이터 강화](workflow/using/enriching-data.md)
          + [집계 사용](workflow/using/using-aggregates.md)
          + [증분 쿼리를 사용한 분기별 목록 업데이트](workflow/using/quarterly-list-update.md)
-      + 쿼리 디자인 {#designing-queries}
+      + 타깃팅 {#designing-queries}
          + [수신자 테이블 쿼리](workflow/using/querying-recipient-table.md)
          + [게재 정보 쿼리](workflow/using/querying-delivery-information.md)
          + [집계 컴퓨팅 수행](workflow/using/performing-aggregate-computing.md)
