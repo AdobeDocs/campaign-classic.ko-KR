@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 6c66718fbbf13486d52b0cc98eae6c854b34030d
 workflow-type: tm+mt
 source-wordcount: '2955'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Adobe Campaign을 사용하면 다양한 연산자에 할당된 권한을 정의
 
 >[!NOTE]
 >
->권한 정의를 시작하기 전에 [보안 구성 체크리스트를 읽는 것이 좋습니다](https://helpx.adobe.com/campaign/kb/acc-security.html).
+>권한 정의를 시작하기 전에 [보안 구성 체크리스트를 읽는 것이 좋습니다](https://helpx.adobe.com/kr/campaign/kb/acc-security.html).
 
 ## 연산자 {#operators}
 
@@ -76,7 +76,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 �
 
    ![](assets/s_ncs_user_operator_new.png)
 
-1. 사용자 **[!UICONTROL Identification parameters]** 를 지정합니다.로그인, 암호 및 이름입니다. 운영자가 Adobe Campaign에 로그온하는 데 로그인 및 암호를 사용합니다. 사용자가 로그인하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 연산자의 이메일은 승인을 처리할 때 등 운영자가 알림을 받을 수 있도록 하기 때문에 필수적입니다.
+1. 사용자 **[!UICONTROL Identification parameters]** 를 지정합니다.로그인, 암호 및 이름입니다. 운영자가 Adobe Campaign에 로그온하는 데 로그인 및 암호를 사용합니다. 사용자가 로그인하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 연산자의 이메일은 승인을 처리할 때와 같이 운영자가 알림을 받을 수 있도록 하기 때문에 필수적입니다.
 
    이 섹션에서는 연산자를 조직 엔티티에 연결할 수도 있습니다. For more on this, refer to the [this page](../../campaign/using/about-distributed-marketing.md).
 
@@ -100,7 +100,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 �
 >
 >새 연산자 폴더를 만들어 사용자의 요구 사항에 따라 연산자를 구성할 수 있습니다. 이렇게 하려면 연산자 폴더를 마우스 오른쪽 단추로 클릭하고 선택합니다 **[!UICONTROL Add an 'Operators' folder]**.
 
-연산자 프로필이 만들어지면 해당 정보를 추가하거나 업데이트할 수 있습니다. 이렇게 하려면 **[!UICONTROL Edit]** 탭을 클릭합니다.
+연산자 프로필이 만들어지면 정보를 추가하거나 업데이트할 수 있습니다. 이렇게 하려면 **[!UICONTROL Edit]** 탭을 클릭합니다.
 
 ![](assets/operator_edit_profile.png)
 
@@ -211,7 +211,7 @@ Adobe Campaign은 기본적으로 프로파일을 구성하는 기술 운영자�
 
 >[!NOTE]
 >
->보안 지침에 대한 자세한 내용은 [Adobe Campaign 보안 구성 체크리스트를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-security.html).
+>보안 지침에 대한 자세한 내용은 [Adobe Campaign 보안 구성 체크리스트를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/acc-security.html).
 
 ## 연산자 그룹 {#operator-groups}
 
@@ -233,7 +233,7 @@ Adobe Campaign은 기본적으로 프로파일을 구성하는 기술 운영자�
 
    ![](assets/s_ncs_user_create_operator_gp03.png)
 
-   이 작업을 반복하여 다른 권한 또는 연산자를 추가합니다.
+   다른 권한 또는 연산자를 추가하려면 이 작업을 반복합니다.
 
 1. 이 **[!UICONTROL Save]** 단추를 클릭하여 목록에 그룹을 추가합니다.
 
@@ -331,7 +331,7 @@ Adobe Campaign은 기본적으로 프로파일을 구성하는 기술 운영자�
 
 * **[!UICONTROL PREPARE DELIVERIES]**:전달을 작성, 편집 및 저장할 수 있습니다. 권한이 **[!UICONTROL PREPARE DELIVERIES]** 있는 사용자도 전달 분석 프로세스를 시작할 수 있습니다.
 
-* **[!UICONTROL PRIVACY DATA RIGHT]**:개인 정보 데이터를 수집 및 삭제할 권리 자세한 정보는 이 [페이지](https://helpx.adobe.com/campaign/kb/acc-privacy.html)를 참조하십시오.
+* **[!UICONTROL PRIVACY DATA RIGHT]**:개인 정보 데이터를 수집 및 삭제할 권리 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html)를 참조하십시오.
 
 * **[!UICONTROL PROGRAM EXECUTION]**:다양한 프로그래밍 언어로 명령을 실행할 수 있는 권한
 
@@ -357,7 +357,7 @@ Adobe Campaign은 기본적으로 프로파일을 구성하는 기술 운영자�
 
 Adobe Campaign 액세스 권한 매트릭스는 [여기에서 사용할 수 있습니다](/help/platform/using/assets/access-rights-matrix.pdf).
 
-[![이미지](assets/user_management.png)](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
+[![이미지](assets/do-not-localize/user_management.png)](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
 
 ## 폴더 액세스 관리 {#folder-access-management}
 
