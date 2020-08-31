@@ -13,15 +13,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
+source-git-commit: f52e00ade7c97662eb4061e19fd38b863b2c2bd3
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 0%
+source-wordcount: '1624'
+ht-degree: 3%
 
 ---
 
 
-# 인터랙티브한 컨텐츠 정의{#defining-interactive-content}
+# 대화형 콘텐츠 정의{#defining-interactive-content}
 
 Adobe Campaign을 사용하면 특정 조건 [에서 동적 이메일을 보낼 수 있는 새로운 대화형](https://amp.dev/about/email/) AMP for Email 형식을 사용할 수 있습니다.
 
@@ -33,13 +33,14 @@ AMP 이메일 테스트 및 전송에 대한 자세한 내용은 AMP 이메일 [
 
 이 기능은 Adobe Campaign의 전용 패키지를 통해 사용할 수 있습니다. 사용하려면 이 패키지를 설치해야 합니다. 완료되면 패키지를 고려하기 위해 서버를 다시 시작합니다.
 
->[!NOTE]
-> 하이브리드 및 호스팅 아키텍처의 경우 [중간 소싱 서버](../../installation/using/mid-sourcing-server.md) 및 [실행 인스턴스](../../message-center/using/creating-a-shared-connection.md#execution-instance)등 모든 서버에 패키지를 설치해야 합니다. 계정 담당자에게 문의하십시오.
+    >[!NOTE]
+    >
+    > 하이브리드 및 호스팅 아키텍처의 경우 [mid-sourcing server](../../installation/using/mid-sourcing-server.md) 및 [실행 인스턴스](../../message-center/using/creating-a-shared-connection.md#execution-instance)을 비롯한 모든 서버에 패키지를 설치해야 합니다. 계정 담당자에게 문의하십시오.
 
 
 ## 이메일의 AMP 정보 {#about-amp-for-email}
 
-이메일용 **AMP** 새로운 포맷을 사용하면 메시지 내에 AMP 구성 요소를 포함할 수 있으므로 풍부하고 실행 가능한 컨텐츠로 이메일 경험을 향상시킬 수 있습니다. 이메일 내에서 바로 이용할 수 있는 최신 앱 기능을 통해 수신자는 메시지 자체의 컨텐츠와 동적으로 인터랙션할 수 있습니다.
+이메일용 **AMP** 새로운 포맷을 사용하면 메시지 내에 AMP 구성 요소를 포함할 수 있으므로 풍부하고 실행 가능한 컨텐츠로 이메일 경험을 향상시킬 수 있습니다. 이메일 내에서 바로 이용할 수 있는 최신 앱 기능을 통해 수신자는 메시지 자체의 콘텐츠와 동적으로 상호 작용할 수 있습니다.
 
 예제:
 * AMP로 작성된 이메일에는 이미지 Carousel과 같은 대화형 요소가 포함될 수 있습니다.
@@ -148,7 +149,7 @@ Adobe Campaign에서 AMP 컨텐츠를 빌드할 때는 수신자의 이메일 �
 Gmail 계정에서 AMP 포맷으로 전달할 내용을 테스트하는 데 필요한 모든 단계 및 사양은 해당 [Gmail](https://developers.google.com/gmail/ampemail?), [Outlook ](https://docs.microsoft.com/en-gb/outlook/amphtml/) 및 [Mail.ru](https://postmaster.mail.ru/amp) 개발자 문서에 자세히 설명되어 있습니다.
 
 특히 다음 요구 사항을 충족해야 합니다.
-* Gmail, [Outlook](https://developers.google.com/gmail/ampemail/security-requirements)및 [Mail](https://docs.microsoft.com/en-gb/outlook/amphtml/security-requirements) .ru에 대한 AMP 보안 요구 사항을 [따르십시오](https://postmaster.mail.ru/amp/?lang=en#howto).
+* Gmail, [Outlook](https://developers.google.com/gmail/ampemail/security-requirements)및 [Mail](https://docs.microsoft.com/en-gb/outlook/amphtml/security-requirements) .ru와 관련된 AMP 보안 요구 사항을 [따르십시오](https://postmaster.mail.ru/amp/?lang=en#howto).
 * AMP MIME 부분에 [유효한 AMP 문서가 있어야 합니다](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email).
 * AMP MIME 부분은 100KB보다 작아야 합니다.
 
@@ -183,7 +184,7 @@ Mail.ru 주소로 AMP 이메일 전송을 테스트하려면 [Mail.ru 개발자 
 
 ### 이메일 공급자에 등록하여 AMP 이메일 전달 {#delivering-amp-emails-by-registering}
 
-보낸 사람 도메인을 허용 목록에 추가하기 위해 AMP 베타 프로그램에 참여하는 이메일 제공자에 등록하여 동적 이메일 제공을 실험할 수 있습니다.
+보낸 사람 도메인을 허용 목록에 추가하기 위해 AMP 베타 프로그램에 참여하는 이메일 공급자에 등록하여 동적 이메일 제공을 실험할 수 있습니다.
 
 >[!NOTE]
 >
@@ -215,6 +216,6 @@ AMP 컨텐츠와 폴백이 준비되고, 호환 타겟을 정의한 후에는 �
 
 ## 이메일에 AMP를 활성화하고 사용하는 방법 {#amp-email-video}
 
-아래 비디오에서는 Adobe Campaign Classic에서 AMP를 활성화하고 사용법을 보여주는 방법을 설명합니다.
+아래 비디오에서는 Adobe Campaign Classic에서 AMP를 활성화하는 방법을 설명하고 사용법을 소개합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
