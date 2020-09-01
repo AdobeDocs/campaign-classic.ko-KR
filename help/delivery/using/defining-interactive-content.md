@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f52e00ade7c97662eb4061e19fd38b863b2c2bd3
+source-git-commit: 80de051cde62038c11246f8da08a7e00505a3313
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1616'
 ht-degree: 3%
 
 ---
@@ -33,10 +33,9 @@ AMP 이메일 테스트 및 전송에 대한 자세한 내용은 AMP 이메일 [
 
 이 기능은 Adobe Campaign의 전용 패키지를 통해 사용할 수 있습니다. 사용하려면 이 패키지를 설치해야 합니다. 완료되면 패키지를 고려하기 위해 서버를 다시 시작합니다.
 
-    >[!NOTE]
-    >
-    > 하이브리드 및 호스팅 아키텍처의 경우 [mid-sourcing server](../../installation/using/mid-sourcing-server.md) 및 [실행 인스턴스](../../message-center/using/creating-a-shared-connection.md#execution-instance)을 비롯한 모든 서버에 패키지를 설치해야 합니다. 계정 담당자에게 문의하십시오.
-
+>[!NOTE]
+>
+> 하이브리드 및 호스팅 아키텍처의 경우 [중간 소싱 서버](../../installation/using/mid-sourcing-server.md) 및 [실행 인스턴스](../../message-center/using/creating-a-shared-connection.md#execution-instance)등 모든 서버에 패키지를 설치해야 합니다. 계정 담당자에게 문의하십시오.
 
 ## 이메일의 AMP 정보 {#about-amp-for-email}
 
