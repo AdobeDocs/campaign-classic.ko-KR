@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 251244225076dd11a319d1c4b2124c0d05168eaa
+source-git-commit: c96c94fe0b98e298968c329466ee4e2e04b11a35
 workflow-type: tm+mt
-source-wordcount: '1976'
-ht-degree: 86%
+source-wordcount: '1975'
+ht-degree: 85%
 
 ---
 
@@ -92,7 +92,7 @@ _2020년 6월 8일_
  <tbody> 
   <tr> 
    <td> <p>태국 개인 정보 보호법(PDPA)은 태국에 대한 데이터 보호 요구 사항을 통합하고 현대화한 새로운 개인 정보 보호법입니다. </p>
-   <p>브라질의 Lei Geral de Proteção de Dados(LGPD)는 8월 16일부터 브라질에서 개인 데이터를 수집하거나 처리하는 모든 회사에 대해 효력을 발휘합니다.</p>
+   <p>브라질의 레이제랄 드 프로테카앙 데 도도스(LGPD)는 2021년 초에 브라질의 개인 데이터를 수집하거나 처리하는 모든 회사에 대해 효력을 가진다.</p>
    <p>이러한 규정은 해당 국가에 있는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다. Adobe는 Adobe Campaign에서는 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보존 설정 및 사용자 역할 포함) 이외에도 다음과 같은 추가 기능을 추가하여 PDPA 및 LGPD에 대한 준비를 도울 수 있습니다.</p>
    <ul> 
      <li><p>액세스 권한 및 삭제 권한: GDPR 및 CCPA에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html">자세한 내용</a></p></li> 
