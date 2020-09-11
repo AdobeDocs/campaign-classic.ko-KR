@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c96c94fe0b98e298968c329466ee4e2e04b11a35
+source-git-commit: f92180f93850d5bc33e74210d17cdd36c0c15e5f
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 85%
+source-wordcount: '2119'
+ht-degree: 80%
 
 ---
 
@@ -25,7 +25,20 @@ ht-degree: 85%
 
 ![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
-## ![](assets/do-not-localize/blue_2.png) 릴리스 20.2.2 - 빌드 9180 {#release-20-2-2-build-9180}
+## ![](assets/do-not-localize/blue_2.png) 릴리스 20.2.3 - 빌드 9182 {#release-20-2-3-build-9182}
+
+_2020년 9월 11일_
+
+* 배달 부분에 단일 잘못된 기능이 있어서 메모리 과부하가 발생하므로 배달 준비를 차단하도록 하는 회귀 문제를 해결했습니다. (NEO-27346)
+* 웹 응용 프로그램을 다시 게시하기 전에 Apache와 웹 서버가 꺼진 업그레이드 후 문제를 해결했습니다. (NEO-27155)
+* 탭 오용으로 인해 URL을 추적하는 HTML 템플릿 관리에서의 회귀 문제를 해결했습니다. (NEO-25909)
+* 관리되지 않는 데이터 소스로 인해 실패할 수 있는 데이터베이스 정리 작업 과정 문제를 수정했습니다. (NEO-23160, NEO-23364)
+* 이제 정리 워크플로우에서 만료된 목록을 일괄적으로 하나씩 삭제하는 대신 100개의 배치로 삭제합니다.
+* 외부 계정의 내부 이름을 수정할 수 없는 회귀 문제를 해결했습니다. (NEO-27323)
+* 업그레이드 후 회귀 수정을 통해 잘못된 서버 시작(오류 로그)을 발생시킵니다.
+* 공유 메모리에 대한 업데이트 관리가 개선되었습니다. 20.2에 필요한 추가 단계는 더 이상 필요하지 않습니다.
+
+## ![](assets/do-not-localize/orange_2.png) 릴리스 20.2.2 - 빌드 9180 {#release-20-2-2-build-9180}
 
 _2020년 7월 22일_
 
