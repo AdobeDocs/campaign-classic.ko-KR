@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c7b00960ffde49df65cd5c8fcfb8fab6aee485d7
+source-git-commit: 9357be26b1bc436b19861faa2a43ec6a17cb5b3c
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 2%
+source-wordcount: '1318'
+ht-degree: 8%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 _2020년 2월 07일_
 
-**향상된 기능**
+**개선 사항**
 
 * Windows 서버에서 사용자 연결이 실패하는 SSL 인증 구현으로 인한 회귀 문제를 해결했습니다. (NEO-20629)
 * 정보 메뉴에 잘못된 버전 태그 번호가 표시되던 **문제를** 수정했습니다.
@@ -38,7 +38,7 @@ _2020년 2월 07일_
 
 _2019년 12월 02일_
 
-**새로운 기능?**
+**새로운 기능**
 
 <table> 
  <thead> 
@@ -49,9 +49,9 @@ _2019년 12월 02일_
  <tbody> 
   <tr> 
    <td> <p>CCPA는 2020년 1월 1일부터 시행되는 데이터 보호 요건을 통합하고 현대화한 캘리포니아 주 새로운 개인 정보 보호법입니다. CPA는 캘리포니아에 있는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p>
-    <p>개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 외에도 Adobe Campaign을 통해 CPA에 대한 준비를 원활히 수행할 수 있습니다.</p>
+    <p>Adobe Campaign은 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 이외에도 CPA에 대한 준비를 용이하게 하는 데 도움이 됩니다.</p>
     <ul>
-      <li>액세스 권한 및 삭제 권한: 우리는 GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">자세한 내용</a></li>
+      <li>액세스 권한 및 삭제 권한:우리는 GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">자세한 내용</a></li>
       <li>소비자가 개인 정보 판매를 수신 거부했는지 여부를 추적할 수 있습니다. 이를 위해 프로필 테이블을 확장하고 CPA에 대한 <strong>옵트아웃 필드를 추가해야</strong> 합니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">자세한 내용</a></li></td> 
   </tr> 
  </tbody> 
@@ -80,9 +80,9 @@ _2019년 12월 02일_
  </thead> 
  <tbody> 
   <tr> 
-<td> <p>Adobe Campaign을 사용하면 마케터가 메시지 <a href="https://amp.dev/about/email/">내에 AMP 구성 요소를 포함할 수 있는 새로운 대화형</a> AMP for Email포맷을 사용해 볼 수 있으므로 메시지 자체에서 직접 실행할 수 있는 풍부하고 다이내믹하고 인터랙티브한 컨텐츠로 이메일 경험을 향상시킬 수 있습니다.</p>
+<td> <p>Adobe Campaign을 사용하면 새로운 인터랙티브한 <a href="https://amp.dev/about/email/">이메일</a> 포맷용 AMP를 사용해 볼 수 있습니다. 이 포맷을 통해 마케터는 메시지 내에 AMP 구성 요소를 포함시켜 메시지 자체에서 직접 실행 가능한 풍부하고 다이내믹한 인터랙티브한 컨텐츠로 이메일 경험을 향상시킬 수 있습니다.</p>
    <p>이 기능은 공개 베타 버전으로 출시됩니다.</p>
-   <p>자세한 내용은 <a href="../../delivery/using/defining-interactive-content.md">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">자습서 비디오를 참조하십시오</a>.</p><br /></td> 
+   <p>자세한 내용은 <a href="../../delivery/using/defining-interactive-content.md">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">튜토리얼 비디오</a>를 참조하십시오.</p><br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,7 +96,7 @@ _2019년 12월 02일_
  </thead> 
  <tbody> 
   <tr> 
-<td> <p>보안 SMS는 이제 확장 범용 SMPP 커넥터를 통해 지원됩니다. 이렇게 하면 공급자에 대한 암호화된 연결이 가능합니다.</p> <p><strong>경고</strong> 이 기능을 사용하려면 모든 서버에 최신 인증서가 필요합니다. 인증서가 잘못되거나, 취소되거나, 만료된 경우 전체 SMS 전송 기능에 영향을 주는 오류가 발생합니다.</p><p>자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html">세부 설명서</a>를 참조하십시오. </p> </td> 
+<td> <p>보안 SMS는 이제 확장 범용 SMPP 커넥터를 통해 지원됩니다. 이렇게 하면 공급자에 대한 암호화된 연결이 가능합니다.</p> <p><strong>경고</strong> 이 기능을 사용하려면 모든 서버에 최신 인증서가 필요합니다. 인증서가 잘못되거나, 취소되거나, 만료된 경우 전체 SMS 전송 기능에 영향을 주는 오류가 발생합니다.</p><p>자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html">세부 설명서</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,10 +106,10 @@ _2019년 12월 02일_
 * 입력 데이터 유효성 검사 및 출력 인코딩인 캠페인 인터페이스의 저장된 사이트 간 스크립팅 취약점을 수정했습니다. (NEO-16810)
 * 로그인 제한 정책을 강화하여 권한이 없는 데이터에 액세스할 수 있는 프로필 권한 부여에 대한 보안 문제가 해결되었습니다. (NEO-14445)
 
-**향상된 기능**
+**개선 사항**
 
 * 푸시 알림에 대한 메모리 소비 최적화.
-* 성능 및 저장 최적화를 위해 logins. **log** 파일의 처리가 향상되었습니다. 이제 파일이 여러 파일로 분할되어 매일 최대 365개의 파일이 유지됩니다. [자세한 내용](../../production/using/log-files.md)
+* 성능 및 저장 최적화를 위해 logins.log **** 파일의 처리가 향상되었습니다. 이제 파일이 여러 파일로 분할되어 매일 최대 365개의 파일이 유지됩니다. [자세한 내용](../../production/using/log-files.md)
 * 이제 암호 자격 증명(암호 + 사용자 이름) 또는 인증서(개인 키)를 사용하여 Microsoft Dynamics CRM 외부 계정을 구성할 수 있습니다. [자세한 내용](../../platform/using/external-accounts.md#microsoft-dynamics-crm-external-account)
 * 안정성을 개선하기 위해 일부 개선 사항이 Hadoop FDA 커넥터에 추가되었습니다.
 * 서버에 공개 리소스를 업로드하기 전에 디스크 공간을 확인하는 특정 보증인이 추가되었습니다.
@@ -126,11 +126,11 @@ _2019년 12월 02일_
 
 _사용되지 않는 시스템_
 
-이제 Campaign Classic 구현에 대해 다음 시스템이 [더 이상 사용되지](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) 않습니다.
+The following systems are now [deprecated](https://helpx.adobe.com/kr/campaign/kb/deprecated-and-removed-features.html) for Campaign Classic implementations:
 * Apache 2.2
 * Centos 6
 
-최신 캠페인 호환성 매트릭스에 나열된 시스템의 지원 버전을 사용하고 있는지 확인하십시오. [자세한 내용](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+최신 캠페인 호환성 매트릭스에 나열된 시스템의 지원 버전을 사용하고 있는지 확인하십시오. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
 _Campaign Mobile SDK_
 
@@ -138,7 +138,7 @@ _Campaign Mobile SDK_
 
 **패치**
 
-* RDBMS( **Data Loading) 워크플로우 활동에서 빈 연결된 테이블을 추가할 때 발생하는 콘솔 충돌을** 수정했습니다. (NEO-12213)
+* 연결된 테이블 **추가** 필드가 RDBMS( **Data Loading)** 워크플로우 활동에서 비어 있는 충돌 문제가 해결되었습니다. (NEO-12213)
 * Mid-Sourcing 서버에서 특정 메시지를 처리하지 못하는 문제를 해결했습니다. (NEO-12395)
 * Teradata에서 쿼리 밴딩 옵션을 사용할 때 데이터베이스 정리 워크플로우의 문제를 해결했습니다. (NEO-12399)
 * ne.jp 도메인을 포함한 분류 규칙이 있는 배달 분석에 영향을 주는 문제를 수정했습니다. (NEO-12609)
@@ -152,7 +152,7 @@ _Campaign Mobile SDK_
 * 전송 **후 소스 파일** 삭제 옵션을 사용하여 파일을 다운로드할 때 공백 문자를 포함하는 이름으로 작업 **** 중인 워크플로우의 문제를 수정했습니다. (NEO-13411)
 * 메모리 문제를 야기할 수 있는 Tomcat 캐시 정리 문제를 해결했습니다. (NEO-13456)
 * Microsoft SQL 2017에서 실행 중인 기존 제어 인스턴스에 실행 인스턴스 **** 내장 패키지와 함께 오퍼 엔진 제어 기능을 설치할 때 발생하는 문제를 수정했습니다. (NEO-13539)
-* 이메일의 추적된 URL을 **텍스트 컨텐츠** 탭에서 선택 취소할 때 발생하는 콘솔 충돌을 수정했습니다. (NEO-13545)
+* 초기화되지 않은 변수로 인해 이메일의 추적된 URL을 **텍스트 컨텐츠** 탭에서 확인하지 않을 때 발생할 수 있는 콘솔 충돌 문제를 수정했습니다. (NEO-13545)
 * 중국어 보낸 사람 이름에 대한 인코딩 문제가 해결되었습니다. (NEO-13837)
 * 탐색기에서 설문 조사 응답 데이터를 표시할 때 발생할 수 있는 오류를 수정했습니다. (NEO-14590)
 * 배달 로그 분류와 격리 테이블 간 불일치가 발생하는 문제를 해결했습니다. (NEO-16547)
@@ -166,4 +166,6 @@ _Campaign Mobile SDK_
 * 외부 SFTP에서 데이터를 가져올 때 시간 초과 문제가 해결되었습니다. (NEO-19723)
 * 예측 모델에 액세스할 때 발생하는 문제가 해결되었습니다. (NEO-19713)
 * Hadoop FDA 데이터베이스를 사용하는 **Split** Workflow 활동에서 임의 샘플링에 영향을 주는 문제를 수정했습니다. (NEO-16636)
+* 업그레이드 후 일부 기능이 잘못된 것으로 간주되도록 Oracle의 회귀 문제를 해결했습니다. (NEO-12759)
+
 
