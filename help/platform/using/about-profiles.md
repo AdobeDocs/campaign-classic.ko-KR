@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9a8c3586482d05648de3bdecfdfabcc094c70dbf
+source-git-commit: 762a6ba3fdad9c30407bf807f2cd8076796f98c2
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 16%
+source-wordcount: '944'
+ht-degree: 15%
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Campaign 탐색기의 일반 레이아웃은 Adobe Campaign 탐색기 [사
 
 >[!NOTE]
 >
->Adobe Campaign 트리에서 **[!UICONTROL Profiles and targets > Recipients]** 링크를 클릭하여 이 목록의 고급 보기를 표시할 수도 있습니다. 목록 표시를 필요에 맞게 구성할 수 있습니다. 열을 추가하거나 삭제할 수 있고 열 순서를 정의할 수 있으며 데이터를 정렬할 수 있습니다. 목록 표시 구성은 Adobe Campaign 탐색기 사용 [에서 설명합니다](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
+>Adobe Campaign 트리에서 **[!UICONTROL Profiles and targets > Recipients]** 링크를 클릭하여 이 목록의 고급 보기를 표시할 수도 있습니다. 목록 표시를 필요에 맞게 구성할 수 있습니다. 열을 추가하거나 삭제할 수 있고 열 순서를 정의할 수 있으며 데이터를 정렬할 수 있습니다. 목록 표시 구성은 Adobe Campaign 탐색기 [를 사용하여 설명합니다](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
 >
 >수신자 뷰를 정의할 수도 있습니다. 이 기능에 대한 자세한 내용은 폴더 및 [보기를 참조하십시오](../../platform/using/access-management.md#folders-and-views).
 
@@ -97,19 +97,23 @@ Adobe Campaign 탐색기의 일반 레이아웃은 Adobe Campaign 탐색기 [사
 
 활성 프로필은 청구 용도로 카운트되는 프로필입니다.
 
+>[!NOTE]
+>
+>AWS에서 호스팅되고 빌드 8931의 Campaign Classic을 사용하는 경우 Campaign 컨트롤 패널에서 직접 인스턴스에 사용된 활성 프로필의 수를 모니터링할 수도 있습니다. For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>
+>활성 프로필 수는 **마케팅 인스턴스에만 사용할 수 있습니다** . MID(mid 소싱) 및 RT(메시지 센터/실시간 메시징) 인스턴스인 실행 인스턴스에는 사용할 수 없습니다.
+
 “**Profile**” means a record of information (e.g.: a record in the nmsRecipient table or an external table containing a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel) representing an end-customer, prospect, or lead.
 
 청구는 **유효한**&#x200B;프로필만 포함합니다. 지난 12개월 동안 모든 채널을 통해 프로파일을 타깃팅하거나 커뮤니케이션한 경우 프로파일은 활성으로 간주됩니다.
 
-배달 준비 중 제외되었던 프로필(분류 규칙, 검역관)은 고려되지 않습니다. 여러 게재에서 타깃팅된 프로필은 한 번만 카운트됩니다.
+배달 준비 중 제외된 프로필(분류 규칙, 격리)은 고려되지 않습니다. 여러 게재에서 타깃팅된 프로필은 한 번만 카운트됩니다.
 
 >[!NOTE]
 >
 >페이스북과 트위터 채널은 고려되지 않습니다.
 
 Campaign Standard **[!UICONTROL Number of active profiles]** **[!UICONTROL Administration > Campaign Management > Customer metrics]** 메뉴에서 개요를 볼 수 있습니다. 실제 개수는 **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [기술 작업 과정](../../workflow/using/deliveries.md)에서 수행되며, 이 작업 과정은 매일 실행되고 **[!UICONTROL Customer metrics]** 메뉴에서 현재 기간 동안 기존 보고서에 새 데이터를 추가합니다. 각 기간은 12개월 동안 지속됩니다.
-
-AWS에서 호스팅되고 빌드 8931의 Campaign Classic을 사용하는 경우 Campaign 컨트롤 패널에서 직접 인스턴스에 사용된 활성 프로필의 수를 모니터링할 수도 있습니다. For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 
 ## 프로필을 만들고 관리하는 방법 {#create-profiles-video}
 
