@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 70efc8a7f1fab68d73e36b4373116c4aaaa0af5d
+source-git-commit: 562f9f5411284cdf763821b0179ae795fa4bc48a
 workflow-type: tm+mt
-source-wordcount: '7164'
+source-wordcount: '7184'
 ht-degree: 94%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 94%
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
 또한 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)에서 더 많은 업데이트를 확인할 수 있습니다.
+
+## 2020년 9월 {#september-2020}
+
+* 마케팅 인스턴스에만 활성 프로필 수를 사용할 수 있다는 참고가 추가되었습니다. [자세한 내용](../../platform/using/about-profiles.md#active-profiles)
 
 ## 2020년 8월 {#aug-2020}
 
