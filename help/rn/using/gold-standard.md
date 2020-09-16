@@ -15,17 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2604df2e6b6a7520e2f2a82f04c75ceb749fde79
+source-git-commit: ac2d993f525eb918ad5e15104eb3ede9eeadfb43
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
 
 # Gold Standard 릴리스{#gold-standard}
 
-Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로 Gold Standard 업그레이드를 자동으로 사용할 수 있습니다.
+Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로 Gold Standard 업그레이드를 자동 활용할 수 있습니다.
 
 온-프레미스 및 하이브리드 고객은 Gold Standard 릴리스를 활용할 수 있습니다.
 
@@ -33,9 +33,9 @@ Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로
 
 이 페이지에는 Gold Standard 릴리스가 나열됩니다.
 
-Gold Standard 업그레이드에 대한 자세한 내용은 이 [문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+Gold Standard 업그레이드에 대한 자세한 내용은 이 [문서를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html).
 
-## ![](assets/do-not-localize/limited.png) Gold Standard 10 릴리스{#gs-10}
+## ![](assets/do-not-localize/limited_2.png) Gold Standard 10 릴리스{#gs-10}
 
 _2020년 7월 7일_
 
@@ -45,7 +45,7 @@ _2020년 7월 7일_
 
 >[!CAUTION]
 >
->이 릴리스에서 사용할 수 있는 클라이언트 콘솔을 업그레이드하는 것이 좋습니다. 이 [페이지 참조](../../installation/using/installing-the-client-console.md)
+>이 릴리스에서 사용할 수 있는 클라이언트 콘솔을 업그레이드하는 것이 좋습니다. Refer to this [page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 9 릴리스{#gs-9}
 
@@ -69,7 +69,7 @@ _2020년 4월 29일_
 
 빌드 9032@3a9dc9c에는 다음 수정 사항이 포함되어 있습니다.
 
-* 이메일의 링크 추적 보안이 개선되었습니다. 모든 고객에 대해 기본적으로 활성화됩니다. 고객 지원 센터에 연락하여 활성화할 수 있는 향상된 추가 보안 기능을 사용할 수 있습니다. 호스팅되지 않은 고객이 이 기능을 사용하도록 설정하는 기능 및 단계에 대한 자세한 내용은 [보안 및 개인 정보 확인 목록에서 확인할 수 있습니다](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
+* 이메일의 링크 추적 보안이 개선되었습니다. 모든 고객에 대해 기본적으로 활성화됩니다. 고객 지원 센터에 연락하여 활성화할 수 있는 향상된 추가 보안 기능을 사용할 수 있습니다. 호스팅되지 않은 고객이 이 기능을 사용하도록 설정하는 기능 및 단계에 대한 자세한 내용은 [보안 및 개인 정보 보호 체크리스트](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)에서 확인할 수 있습니다.
 
 >[!CAUTION]
 >
@@ -77,7 +77,7 @@ _2020년 4월 29일_
 
 * 라인 전달에 이미지가 표시되지 않는 문제를 해결했습니다. (NEO-23207)
 * SFTP 키 기반 인증이 Debian 9에서 작동하지 않는 **파일 전송** 활동 문제를 해결했습니다. (NEO-23183)
-* 고주파로 전송할 때 푸시 알림에 영향을 줄 수 있는 문제를 해결했습니다. (NEO-20516)
+* 고주파로 전송할 때 푸시 알림에 영향을 줄 수 있는 문제를 수정했습니다. (NEO-20516)
 * 웹 서버 충돌을 야기할 수 있는 오퍼 응답 관리 문제를 수정했습니다. (NEO-19482)
 * 보고서를 내보낼 수 없는 LibreOffice 관리의 오류를 수정했습니다. (NEO-20982)
 * 설문 조사 활동을 사용하여 다양한 워크플로우를 업그레이드할 때 오류가 발생하는 문제를 해결했습니다.
@@ -85,7 +85,7 @@ _2020년 4월 29일_
 * 웹 서비스에서 지연을 방지하기 위해 Apache 연결 관리를 개선했습니다.
 * 정보 메뉴에서 버전 태그(7자리)의 표시 **를** 개선했습니다.
 * 오퍼가 게시되지 않도록 하는 목록 관리의 회귀 문제를 해결했습니다.
-* 정리 워크플로가 충돌하는 회귀 문제를 해결했습니다.
+* 정리 워크플로우가 충돌하는 회귀 문제를 해결했습니다.
 * 정리 워크플로우 로그에서 사소한 회귀 문제를 해결했습니다.
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 6 릴리스{#gs-6}
