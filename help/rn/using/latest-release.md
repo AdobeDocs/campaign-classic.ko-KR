@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bd946fc0e5b206280a7946e0cbc6fa6d1be90f2
+source-git-commit: ab9d2c2e80ba09b5a2cceadb49c06ff13989da0f
 workflow-type: tm+mt
 source-wordcount: '2161'
 ht-degree: 76%
@@ -48,7 +48,8 @@ _2020년 7월 22일_
 * 잘못된 ASCII 문자 컨트롤로 인해 이메일 배달에서 페이지 URL이 잘못 정의되던 문제를 수정했습니다. (NEO-26084)
 * 피싱 방지 서비스에서 인코딩 URL 관리 문제가 해결되었습니다. (NEO-25283)
 * 개인화 매개 변수의 조각을 사용하여 URL을 추적할 수 없는 문제(파운드 기호가 있는 앵커 태그)가 수정되었습니다. (NEO-25774)
-* 특정 사용자 지정 추적 공식을 사용할 때의 추적 문제를 수정했습니다. (NEO-25277)&quot;알림 클릭&quot; 추적이 작동하지 않는 문제(iOS 및 Android 푸시 알림)를 수정했습니다. (NEO-25965)
+* 특정 사용자 지정 추적 공식을 사용할 때의 추적 문제를 수정했습니다. (NEO-25277)
+* &quot;알림 클릭&quot; 추적이 작동하지 않는 문제를 해결했습니다(iOS 및 Android 푸시 알림). (NEO-25965)
 * 워크플로우가 실패하게 하는 워크플로우의 계산된 필드에 회귀 영향을 주는 문제를 수정했습니다. (NEO-25194)
 * 웹 추적 URL을 신속하게 만들 수 없는 회귀 문제를 해결했습니다. (NEO-20999)
 * PDF로 내보낼 때 잘렸던 기본 제공 보고서의 회귀 문제를 해결했습니다. (NEO-25757)
