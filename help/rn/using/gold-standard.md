@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac2d993f525eb918ad5e15104eb3ede9eeadfb43
+source-git-commit: 7f7b53f0a7ec0f50bf3a99314606272b8ebdc8d7
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 14%
@@ -35,7 +35,7 @@ Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로
 
 Gold Standard 업그레이드에 대한 자세한 내용은 이 [문서를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html).
 
-## ![](assets/do-not-localize/limited_2.png) Gold Standard 10 릴리스{#gs-10}
+## ![](assets/do-not-localize/green_2.png) Gold Standard 10 릴리스{#gs-10}
 
 _2020년 7월 7일_
 
@@ -88,7 +88,7 @@ _2020년 4월 29일_
 * 정리 워크플로우가 충돌하는 회귀 문제를 해결했습니다.
 * 정리 워크플로우 로그에서 사소한 회귀 문제를 해결했습니다.
 
-## ![](assets/do-not-localize/green_2.png) Gold Standard 6 릴리스{#gs-6}
+## ![](assets/do-not-localize/orange_2.png) Gold Standard 6 릴리스{#gs-6}
 
 _2020년 3월 9일_
 
