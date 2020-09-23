@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac2d993f525eb918ad5e15104eb3ede9eeadfb43
+source-git-commit: 7f7b53f0a7ec0f50bf3a99314606272b8ebdc8d7
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 9%
@@ -35,7 +35,7 @@ Campaign Classic 19.2를 시작하면 상태가 각 빌드에 연결됩니다. �
 
 ![](assets/do-not-localize/green3.png) **일반 가용성** - 안정적인 최신 빌드 사용 가능. 프로덕션에서 검증된 빌드
 
-마지막 **안정적인** 건축물은 Gold Standard 6이다. [여기](../../rn/using/gold-standard.md)를 클릭하십시오
+마지막 **안정적인** 건축물은 Gold Standard 10이다. [여기](../../rn/using/gold-standard.md#gs-10)를 클릭하십시오
 
 ![](assets/do-not-localize/limited3.png) **제한된 가용성** - 현재 프로덕션 유효성 검사를 통해 빌드합니다. On-Demand 방식의 배포
 
@@ -49,7 +49,7 @@ Campaign Classic 19.2를 시작하면 상태가 각 빌드에 연결됩니다. �
 
 호스팅 고객(Managed Service 또는 Hybrid)은 고객 지원 팀에 연락하여 환경을 업그레이드해야 합니다.
 
-Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로 Gold Standard 업그레이드를 자동으로 사용할 수 있습니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/gold-standard.html#gs-6)
+Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로 Gold Standard 업그레이드를 자동으로 사용할 수 있습니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/gold-standard.html#gs-10)
 
 온-프레미스 사용자는 업그레이드를 수행할 수 있습니다. 이를 위해서는 안정적인 최신 빌드 [를](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 다운로드하고 모든 환경을 업그레이드해야 합니다. 업그레이드 [프로세스에](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html)대한 자세한 내용은 [빌드 업그레이드 FAQ를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/build-upgrade-faq.html).
 
