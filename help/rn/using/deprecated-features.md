@@ -11,7 +11,7 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 900b5a21172440a385dde6eb137bac2e7129bb9d
+source-git-commit: b9577d190f26e21f116d99d48fdf2bca84585d50
 workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 96%
@@ -132,7 +132,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 20.2 릴리스부터 다음 시스템은 Campaign Classic에 대해 더 이상 사용되지 않습니다. 호환성은 20.3 릴리스 - 2020년 10월에 종료됩니다.
 
 * 클라이언트 콘솔: Windows 7
-* 기존 SMS 커넥터(더 이상 사용되지 않는 [기능 참조)](#deprecated-features)
+* 기존 SMS 커넥터 - 사용되지 않는 [기능 참조](#deprecated-features)
 * FDA(Federated Data Access)용 DB2 UDB 10.5
 
 ### Adobe Campaign 19.2 릴리스  {#compat-19-2-release}
