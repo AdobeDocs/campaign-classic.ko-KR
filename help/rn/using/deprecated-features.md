@@ -11,17 +11,17 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+source-git-commit: 900b5a21172440a385dde6eb137bac2e7129bb9d
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 100%
+source-wordcount: '1444'
+ht-degree: 96%
 
 ---
 
 
 # 사용이 중단되거나 제거된 기능 {#deprecated-and-removed-features}
 
-Adobe는 항상 이전 버전과의 호환성을 신중하게 고려하여 전반적인 고객 가치를 향상시키기 위해 제품 기능을 지속적으로 평가하여 보다 현대적인 대체 요소로 대체해야 하는 기존 기능을 식별합니다. Adobe Campaign Classic은 타사 도구와 연동되므로 지원되는 버전만 구현하기 위해 정기적으로 호환성이 업데이트됩니다. Adobe Campaign Classic과 더 이상 호환하지 않는 버전은 아래와 [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)에 나와 있습니다.
+Adobe는 항상 이전 버전과의 호환성을 신중하게 고려하여 전반적인 고객 가치를 향상시키기 위해 제품 기능을 지속적으로 평가하여 보다 현대적인 대체 요소로 대체해야 하는 기존 기능을 식별합니다. Adobe Campaign Classic은 타사 도구와 연동되므로 지원되는 버전만 구현하기 위해 정기적으로 호환성이 업데이트됩니다. Adobe Campaign Classic과 더 이상 호환하지 않는 버전은 아래와 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)에 나와 있습니다.
 
 Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩니다.
 
@@ -49,7 +49,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr>
    <tr>
   <td>SMS 커넥터<br></td>
-  <td><p> 20.2 릴리스부터 다음 SMS 커넥터는 사용 중단됩니다.<p>
+  <td><p> Campaign 20.2 릴리스를 시작하면 다음 SMS 커넥터는 더 이상 사용되지 않습니다.<p>
    <ul>
    <li>NetSize</li>
    <li>일반 SMPP(SMPP 버전 3.4 지원 바이너리 모드)</li>
@@ -66,7 +66,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
  </tr>
   <tr>  
    <td>팩스 채널<br></td>
-   <td><p>20.2 릴리스부터 팩스 채널은 사용 중단됩니다.</p> 
+   <td><p>Campaign 20.2 릴리스를 시작하는 경우 팩스 채널은 더 이상 사용되지 않습니다.</p> 
    <p>이 채널을 사용하는 경우 그에 따라 구현을 조정해야 합니다. Campaign 채널에 대해 <a href="../../delivery/using/steps-about-delivery-creation-steps.md">자세히 알아보십시오</a>.</p>
    <p><em>타겟 제거 날짜: 2021년</em></p></td>
   </tr>
@@ -125,14 +125,15 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 
 ## 사용 중단된 호환성 {#deprecated-compatibility}
 
-다음 시스템은 Campaign Classic에서 사용 중단됩니다. 호환성이 종료되기 전에 최신 버전으로 업그레이드하거나 새 시스템으로 이동하려면 [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)를 참조하십시오.
+다음 시스템은 Campaign Classic에서 사용 중단됩니다. 호환성이 종료되기 전에 최신 버전으로 업그레이드하거나 새 시스템으로 이동하려면 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.
 
 ### Adobe Campaign 20.2 릴리스 {#compat-20-2-release}
 
-20.2 릴리스부터 다음 시스템은 Campaign Classic에서 사용 중단됩니다. 호환성은 20.3 릴리스 - 2020년 9월에 종료됩니다.
+20.2 릴리스부터 다음 시스템은 Campaign Classic에 대해 더 이상 사용되지 않습니다. 호환성은 20.3 릴리스 - 2020년 10월에 종료됩니다.
 
 * 클라이언트 콘솔: Windows 7
-* 레거시 SMS 커넥터(아래의 사용 중단되는 기능 섹션 참조)
+* 기존 SMS 커넥터(더 이상 사용되지 않는 [기능 참조)](#deprecated-features)
+* FDA(Federated Data Access)용 DB2 UDB 10.5
 
 ### Adobe Campaign 19.2 릴리스  {#compat-19-2-release}
 
@@ -141,17 +142,17 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 * 웹 서버: Apache 2.2.
 * 운영 체제: CentOS 6.
 
-최신 버전으로 업그레이드하거나 새 시스템으로 이동하려면 [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)를 참조하십시오.
+최신 버전으로 업그레이드하거나 새 시스템으로 이동하려면 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.
 
 ## 호환성 종료 {#end-of-compatibility}
 
 >[!CAUTION]
 >
->Adobe Campaign Classic은 [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)에 나열된 모든 시스템 및 도구와 호환됩니다. 이러한 타사 시스템 및 도구의 특정 버전이 각각의 작성자와 EOL(End-of-Life)에 도달하면 더 이상 사용되지 않으며 이후 제품 릴리스의 호환성 매트릭스에서 제거되어 Adobe Campaign은 해당 버전과 더 이상 호환되지 않습니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
+>Adobe Campaign Classic은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)에 나열된 모든 시스템 및 도구와 호환됩니다. 이러한 타사 시스템 및 도구의 특정 버전이 각각의 작성자와 EOL(End-of-Life)에 도달하면 더 이상 사용되지 않으며 이후 제품 릴리스의 호환성 매트릭스에서 제거되어 Adobe Campaign은 해당 버전과 더 이상 호환되지 않습니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
 
 ### 클라이언트 콘솔 {#client-console-eol}
 
-편집기에서 사용 중단되었으므로 다음 시스템에서는 Adobe Campaign Classic 클라이언트 콘솔을 더 이상 실행할 수 없습니다. 이러한 버전 중 하나에서 Campaign 클라이언트 콘솔을 실행하는 고객은 타겟 제거 날짜 전에 최신 버전으로 업그레이드해야 합니다. [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)를 참조하십시오.
+편집기에서 사용 중단되었으므로 다음 시스템에서는 Adobe Campaign Classic 클라이언트 콘솔을 더 이상 실행할 수 없습니다. 이러한 버전 중 하나에서 Campaign 클라이언트 콘솔을 실행하는 고객은 타겟 제거 날짜 전에 최신 버전으로 업그레이드해야 합니다. [호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.
 
 * Windows Server 2003, 2008, 2008 R2
 * Windows XP, Vista
@@ -186,7 +187,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 
 편집기에서 사용 중단되었으므로 Adobe는 더 이상 다음 데이터베이스 엔진을 지원하지 않습니다. 이러한 버전을 실행하는 고객은 최신 버전으로 업그레이드하거나 다른 버전으로 이동해야 합니다.
 
-호환 버전 목록에 액세스하려면 [Campaign Classic 호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)를 참조하십시오.
+호환 버전 목록에 액세스하려면 [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.
 
 **FDA (FEDERATED DATA ACCESS)**
 
