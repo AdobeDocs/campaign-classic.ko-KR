@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 700cd82d87eccf6579afab5c9e8f7945807817da
+source-git-commit: 546c8f14006e333bb81aa52a008e9f1dfa79f03b
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 16%
@@ -21,9 +21,9 @@ ht-degree: 16%
 ---
 
 
-# 워크플로우 시작하기{#about-workflows}
+# 워크플로우 시작하기{#gs-workflows}
 
-## 워크플로우 정보
+## 워크플로우 정보{#about-workflows}
 
 Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체 프로세스 및 작업을 구성할 수 있는 워크플로우 모듈이 포함되어 있습니다. 이 포괄적인 그래픽 환경을 사용하면 세분화, 캠페인 실행, 파일 처리, 인력 참여 등의 프로세스를 디자인할 수 있습니다. 워크플로우 엔진은 이러한 프로세스를 실행하고 추적합니다.
 
@@ -73,7 +73,7 @@ Adobe Campaign은 워크플로우를 사용하여 다음을 수행합니다.
 
    워크플로우 데이터 및 표에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../workflow/using/how-to-use-workflow-data.md).
 
-## 주요 원칙 및 모범 사례
+## 주요 원칙 및 모범 사례{#principles-workflows}
 
 워크플로우 프로세스를 자동화하는 데 도움이 되는 지침과 모범 사례를 살펴보려면 다음 섹션을 참조하십시오.
 
