@@ -9,10 +9,10 @@ product: adobe campaign
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 5e765777d79df28ae306d02512851b1b3f49018d
+source-git-commit: 546c8f14006e333bb81aa52a008e9f1dfa79f03b
 workflow-type: tm+mt
-source-wordcount: '2109'
-ht-degree: 95%
+source-wordcount: '2119'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 95%
       + [호환성 표](rn/using/compatibility-matrix.md)
 + 시작 {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
-      + [Adobe Campaign Classic 기본 정보](platform/using/about-adobe-campaign-classic.md)
+      + [Adobe Campaign Classic 시작하기](platform/using/about-adobe-campaign-classic.md)
       + [개인 정보 및 동의](platform/using/privacy-and-recommendations.md)
       + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
       + [Adobe Campaign 작업 영역](platform/using/adobe-campaign-workspace.md)
@@ -266,7 +266,7 @@ ht-degree: 95%
       + [사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + 웹 콘텐츠 디자인 {#designing-content}
    + 웹 애플리케이션 {#web-applications}
-      + [웹 애플리케이셔 기본 정보](web/using/about-web-applications.md)
+      + [웹 애플리케이션 시작하기](web/using/about-web-applications.md)
       + [새 웹 애플리케이션 만들기](web/using/creating-a-new-web-application.md)
       + [웹 애플리케이션 디자인](web/using/designing-a-web-application.md)
       + [사용 사례: 개요 만들기](web/using/use-cases--creating-overviews.md)
@@ -342,7 +342,7 @@ ht-degree: 95%
       + [파이프라인 문제 해결](integrations/using/pipeline-troubleshooting.md)
 + 워크플로우로 자동화 {#automating-with-workflows}
    + 소개 {#introduction}
-      + [워크플로우 정보](workflow/using/about-workflows.md)
+      + [워크플로우 시작하기](workflow/using/about-workflows.md)
       + [활동 정보](workflow/using/about-activities.md)
    + 일반 작업 {#general-operation}
       + [워크플로우 구축](workflow/using/building-a-workflow.md)
@@ -478,7 +478,7 @@ ht-degree: 95%
       + [중간 소싱으로 전송](workflow/using/transfer-to-mid-sourcing.md)
       + [중간 소싱 플랫폼](workflow/using/mid-sourcing-platform.md)
 + 오퍼 관리 {#managing-offers}
-   + 상호 작용 개요 {#interaction-overview}
+   + 인터랙션 시작하기 {#interaction-overview}
       + [상호 작용 및 제안 관리](interaction/using/interaction-and-offer-management.md)
       + [용어집](interaction/using/glossary.md)
       + [상호 작용 모범 사례](interaction/using/interaction-best-practices.md)
@@ -530,7 +530,7 @@ ht-degree: 95%
       + [아웃바운드 채널의 오퍼](interaction/using/offers-on-an-outbound-channel.md)
 + 트랜잭션 메시지 {#transactional-messaging}
    + 소개 {#introduction}
-      + [트랜잭션 메시지 기본 정보](message-center/using/about-transactional-messaging.md)
+      + [트랜잭션 메시지 시작하기](message-center/using/about-transactional-messaging.md)
       + [트랜잭션 메시징 아키텍처](message-center/using/transactional-messaging-architecture.md)
       + [이벤트 설명](message-center/using/event-description.md)
    + 인스턴스 구성 {#instance-configuration}
