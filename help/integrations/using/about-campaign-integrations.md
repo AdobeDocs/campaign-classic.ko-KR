@@ -1,6 +1,6 @@
 ---
 title: Campaign 통합 기본 정보
-description: 현재 버전의 Adobe Campaign과 [Adobe Experience Cloud 솔루션] 간의 기능 통합에 대해 자세히 알아보십시오
+description: 다른 Adobe 솔루션을 사용하여 다양한 기능을 Campaign과 결합할 수 있습니다.
 page-status-flag: never-activated
 uuid: 087abdf0-b4b2-45e6-be21-b03bf85ddf83
 contentOwner: sauviat
@@ -13,21 +13,21 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 1%
+source-wordcount: '772'
+ht-degree: 3%
 
 ---
 
 
 # Campaign 통합 기본 정보 {#about-campaign-integrations}
 
-Adobe Experience Cloud는 강력한 핵심 서비스의 공통 세트를 제공하는 공통 데이터 플랫폼을 기반으로 구축된 포괄적인 최고급 통합 솔루션입니다.
+Adobe Experience Cloud은 강력한 핵심 서비스의 공통 세트를 갖춘 공통 데이터 플랫폼을 기반으로 구축된 포괄적인 동급 최강의 통합 솔루션 세트입니다.
 
-Adobe Campaign과 [Adobe Experience Cloud 솔루션](https://docs.adobe.com/content/help/en/core-services/interface/marketing-cloud-integrations.html) 및 [핵심 서비스](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html)간의 기능 통합에 대해 자세히 알아보십시오. 그런 다음 솔루션 구현을 현대화하고 Experience Cloud을 구현하여 고객 속성 및 대상과 같은 기능을 사용할 수 있습니다.
+Adobe Campaign 솔루션과 [Adobe Experience Cloud 솔루션](https://docs.adobe.com/content/help/en/core-services/interface/marketing-cloud-integrations.html) 및 [핵심 서비스](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html)간의 기능 통합에 대해 자세히 알아보십시오. 그런 다음 솔루션 구현을 현대화하고 Experience Cloud을 구현하여 고객 속성 및 대상과 같은 기능을 사용할 수 있습니다.
 
-Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스의 전체 목록과 관련 설명서는 [이 섹션에서 제공됩니다](#experience-cloud-integrations).
+Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스 및 관련 설명서는 [이 섹션에서 제공됩니다](#experience-cloud-integrations).
 
 ![](assets/ExCloud-solutions.png)
 
@@ -36,7 +36,7 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스의 �
 >
 >이러한 통합 대부분은 Adobe ID(IMS)를 통해 로그인해야 합니다. For more on this implementation, refer to [this page](../../integrations/using/about-adobe-id.md).
 >
->IMS 구현은 매우 복잡한 과정이며 오래 걸릴 수 있습니다. Adobe 기술 관리자에게는 엄격히 지정되어 있습니다.
+>IMS 구현은 매우 복잡한 과정이며 오래 걸릴 수 있습니다. 이는 Adobe 기술 관리자들에게 엄격히 지정되어 있습니다.
 
 ## 솔루션 연결 {#working-with-experience-cloud-solutions}
 
@@ -46,7 +46,7 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스의 �
 
 >[!CAUTION]
 >
->Adobe Campaign을 새로 설치하거나 기존 설치를 Adobe Experience Cloud와 통합할 때 [Experience Cloud ID 서비스가](https://docs.adobe.com/content/help/en/id-service/using/home.html) 활성화됩니다. 이 서비스는 추적 기능에 대해 Adobe Campaign이 먼저 사용하는 영구 쿠키를 대체합니다.
+>Adobe Campaign을 새로 설치하거나 기존 설치를 Adobe Experience Cloud과 통합하면 [Experience Cloud ID 서비스가](https://docs.adobe.com/content/help/en/id-service/using/home.html) 활성화됩니다. 이 서비스는 Adobe Campaign이 먼저 사용하는 영구 쿠키를 추적 기능으로 대체합니다.
 >
 >그러면 추적 로그를 생성하는 수신자에게 고유 방문자 ID가 할당됩니다. 이 ID는 표의 **[!UICONTROL Requester UUID (@sourceID)]** 필드에 **[!UICONTROL nms:trackingLogRcp]** 저장됩니다. 방문자 ID 서비스가 구현되기 전에 존재했던 수신자의 추적 데이터를 더 이상 사용할 수 없습니다.
 >
@@ -65,12 +65,12 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스의 �
  </thead> 
  <tbody> 
   <tr> 
-   <td> <strong>Adobe 실시간 고객 데이터 Platform</strong><br /> </td> 
-   <td> Adobe Campaign과 Adobe 실시간 고객 데이터 Platform 간의 통합을 통해 세그먼트 데이터를 공유하고 대상을 Adobe Campaign으로 가져올 수 있습니다.<br /> <p><a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">Campaign에 대한 자세한</a> 내용 - Adobe 실시간 고객 데이터 Platform 통합</p><br /> </td> 
+   <td> <strong>Adobe 실시간 고객 데이터 플랫폼</strong><br /> </td> 
+   <td> Adobe Campaign 및 Adobe 실시간 고객 데이터 플랫폼 간의 통합을 통해 세그먼트 데이터를 공유하고 대상을 Adobe Campaign으로 가져올 수 있습니다.<br /> <p><a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">캠페인 - Adobe 실시간 고객 데이터 플랫폼 통합에 대해 자세히</a> 알아보십시오.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>IMS - Adobe ID</strong><br /> </td> 
-   <td> 다른 Adobe Experience Cloud 솔루션과 동일한 Adobe ID으로 Adobe Campaign에 연결할 수 있습니다.<br /> Adobe Experience Cloud 통합, 특히 핵심 서비스에 연결된 특정 기능을 사용하려면 로그인하는 데 Adobe ID을 사용해야 합니다.<br /> <p><a href="../../integrations/using/about-adobe-id.md">Adobe Campaign을 사용한 Adobe ID 구현에 대한 자세한</a> 내용을 살펴보십시오.</p><br /> </td> 
+   <td> 다른 Adobe Experience Cloud 솔루션과 동일한 Adobe ID을 사용하여 Adobe Campaign에 연결할 수 있습니다.<br /> Adobe Experience Cloud 통합, 특히 핵심 서비스와 연결된 특정 기능을 사용하려면 로그인하는 데 Adobe ID을 사용해야 합니다.<br /> <p><a href="../../integrations/using/about-adobe-id.md">Adobe Campaign과 함께 Adobe ID을 구현하는 방법에 대해 자세히</a> 알아보십시오.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Experience Manager</strong><br /> </td> 
@@ -78,11 +78,11 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스의 �
   </tr> 
   <tr> 
    <td> <strong>Adobe Target</strong><br /> </td> 
-   <td> Adobe Campaign으로 만들어 보낸 이메일이 열려 있을 때 <strong>Adobe Target</strong> 로 동적으로 계산되는 이미지를 삽입할 수 있습니다.<br /> <p><a href="../../integrations/using/integrating-with-adobe-target.md">Adobe Campaign에 대한 자세한</a> 내용 - Adobe Target 통합</p><br /> </td> 
+   <td> Adobe Campaign에서 만들고 보낸 이메일이 열리면 <strong>Adobe Target</strong> 가 동적으로 계산하는 이미지를 삽입할 수 있습니다.<br /> <p><a href="../../integrations/using/integrating-with-adobe-target.md">Adobe Campaign에 대한 자세한</a> 내용 - Adobe Target 통합</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>People 코어 서비스</strong><br /> <strong>Adobe Audience Manager</strong><br /> </td> 
-   <td> Adobe Experience Cloud 솔루션과 사용하는 코어 간에 대상을 공유할 수 있습니다.<br /> <p><a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Adobe Campaign에 대한 자세한</a> 내용 - 사람 코어 서비스 및 Adobe Audience Manager 통합</p><br /> </td> 
+   <td> 사용자가 사용하는 Adobe Experience Cloud 솔루션과 코어 간에 대상을 공유할 수 있습니다.<br /> <p><a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Adobe Campaign에 대한 자세한</a> 내용 - 사람 코어 서비스 및 Adobe Audience Manager 통합</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>자산 핵심 서비스</strong><br /> </td> 
@@ -94,11 +94,11 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스의 �
   </tr> 
   <tr> 
    <td> <strong>Experience Cloud 트리거</strong><br /> </td> 
-   <td> 트리거 코어 서비스 <strong>와</strong> Adobe Campaign 간의 통합을 통해 Adobe Analytics에서 웹 사이트에서 추적할 수 있는 특정 행동에 대한 반응으로 개인화된 이메일을 고객에게 보낼 수 있습니다.<br /> <p><a href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html">Adobe Campaign - Experience Cloud 트리거 통합에 대해 자세히</a> 알아보십시오.</p><br /> </td> 
+   <td> Integration between <strong>Triggers core service</strong> and Adobe Campaign allows you to send personalized emails to your customers as a reaction to specific behaviors that are tracked on your website by Adobe Analytics.<br /> <p><a href="https://helpx.adobe.com/kr/campaign/kb/triggers-and-campaign.html">Adobe Campaign에 대한 자세한</a> 내용 - Experience Cloud 트리거 통합</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Analytics - 데이터 커넥터</strong><br /> </td> 
-   <td> <strong>데이터 커넥터</strong> (이전의 Adobe Genesis)를 사용하면 Adobe Campaign 및 Adobe Analytics이 이메일 캠페인 이후 사용자 동작과 관련된 세그먼트를 통해 상호 작용할 수 있습니다. 반대로 Adobe Campaign이 제공하는 이메일 캠페인의 지표와 속성을 Adobe Analytics - 데이터 커넥터로 보냅니다.<br /> <p><a href="../../platform/using/adobe-analytics-data-connector.md">캠페인 - 데이터 커넥터 통합에 대해 자세히</a> 알아보십시오.</p><br /> </td> 
+   <td> <strong>데이터 커넥터</strong> (이전의 Adobe Genesis)을 사용하면 Adobe Campaign 및 Adobe Analytics이 이메일 캠페인 이후 사용자 동작과 관련된 세그먼트를 통해 상호 작용할 수 있습니다. 반대로, 이 엔진은 Adobe Campaign이 Adobe Analytics - 데이터 커넥터로 제공하는 이메일 캠페인의 지표와 속성을 전송합니다.<br /> <p><a href="../../platform/using/adobe-analytics-data-connector.md">캠페인 - 데이터 커넥터 통합에 대해 자세히</a> 알아보십시오.</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>
