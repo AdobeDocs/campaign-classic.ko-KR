@@ -1,7 +1,7 @@
 ---
 title: 소통 채널
 seo-title: 소통 채널
-description: 소통 채널
+description: 여러 채널에서 개인화된 메시지를 보낼 수 있는 전달 정보를 만듭니다.
 seo-description: null
 page-status-flag: never-activated
 uuid: 42975431-64c9-4ecb-98ed-b1f9b13c157e
@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b14f5ecd2b06ed9f4cb49d8779b9f94ea4bcdddc
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1183'
 ht-degree: 11%
 
 ---
@@ -33,7 +33,7 @@ Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및
 >
 >Adobe Campaign은 전달 능력을 모니터링하고 이메일 전송을 최적화할 수 있는 다양한 툴을 제공합니다. 자세한 내용은 전달 [능력 시작](../../delivery/using/deliverability-key-points.md) 및 [전달 능력 관리를](../../delivery/using/about-deliverability.md)참조하십시오.
 
-배달 전송을 준비하고 워크플로우 과정에서 전송하여 배달 전송을 자동화할 수 있습니다. 워크플로우의 배달 유형 활동에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../workflow/using/about-action-activities.md).
+배달 전송을 준비하고 워크플로우 과정에서 전달하여 전송 자동화를 수행할 수 있습니다. 워크플로우의 배달 유형 활동에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../workflow/using/about-action-activities.md).
 
 Adobe Campaign은 다음과 같은 배달 채널을 제공합니다.
 
@@ -104,7 +104,7 @@ Adobe Campaign은 외부 배달을 만드는 데 사용되는 에이전시 또�
 
 이 채널은 설명 목적으로만 설계되었습니다. 예를 들어 Adobe Campaign 이외의 도구에서 수행한 캠페인 대상의 추적을 유지하려는 게재를 정의합니다.
 
-## 배달 유형{#types-of-deliveries}
+## 게재 유형{#types-of-deliveries}
 
 Campaign에는 세 가지 유형의 배달 개체가 있습니다.
 
@@ -116,7 +116,7 @@ Campaign에는 세 가지 유형의 배달 개체가 있습니다.
 
 또한 워크플로우는 사용할 채널 유형에 따라 특정 배달 활동을 제공합니다. For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
 
-### 반복 전달 {#recurring-delivery}
+### 반복 게재 {#recurring-delivery}
 
 반복 **배달을 사용하면** 활동이 실행될 때마다 새 배달을 만들 수 있습니다. 따라서 반복되는 작업에 대해 새 배달을 만들지 않아도 됩니다.
 
@@ -124,7 +124,7 @@ Campaign에는 세 가지 유형의 배달 개체가 있습니다.
 
 반복 배달은 반복 배달 활동을 통해 워크플로우 내에서 [생성됩니다](../../workflow/using/recurring-delivery.md). 사용 중인 이 활동의 예는 다음 섹션에 나와 있습니다. [타깃팅 워크플로우에서 반복적인 배달 만들기](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
-### 지속적인 전달 {#continuous-delivery}
+### 지속적인 게재 {#continuous-delivery}
 
 연속 배달 **** 기능을 사용하면 기존 전달에 새 받는 사람을 추가할 수 있으므로 매번 새 배달을 만들지 않아도 됩니다.
 
