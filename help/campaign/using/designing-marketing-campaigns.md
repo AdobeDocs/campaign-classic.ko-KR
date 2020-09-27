@@ -1,7 +1,7 @@
 ---
 title: 마케팅 캠페인 디자인
 seo-title: 마케팅 캠페인 디자인
-description: 마케팅 캠페인 디자인
+description: 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다.
 seo-description: null
 page-status-flag: never-activated
 uuid: e0fd5df6-7516-4ca6-bbdf-243a264d0283
@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 4%
+source-wordcount: '420'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. Adobe Campaign은 마케팅 전략을 위한 통합 주문 및 실행 센터 역할을 합니다. 자세한 내용은 캠페인 [액세스](../../campaign/using/accessing-campaigns.md) 및 마케팅 캠페인 [설정을 참조하십시오](../../campaign/using/setting-up-marketing-campaigns.md).
 
-또한 MRM( **Marketing Resource Management)** 모듈을 사용하면 관련 작업, 예산 및 마케팅 리소스에 대한 완벽한 관리 및 실시간 추적을 제공하여 협업 모드에서 마케팅 활동을 제어할 수 있습니다. 마케팅 리소스 관리를 사용하면 내외부 프로세스, 리소스 및 마케팅 캠페인뿐만 아니라 제3자 관계(에이전시, 프린터 등)의 관리를 최적화 및 제어할 수 있습니다. 자세한 정보는 [이 섹션](../../campaign/using/about-marketing-resource-management.md)을 참조하십시오.
+또한 MRM( **Marketing Resource Management)** 모듈을 사용하면 관련 작업, 예산 및 마케팅 리소스에 대한 완벽한 관리 및 실시간 추적을 제공하여 협업 모드에서 마케팅 활동을 제어할 수 있습니다. 마케팅 리소스 관리를 사용하면 내외부 프로세스, 리소스 및 마케팅 캠페인뿐만 아니라 제3자 관계(에이전시, 프린터 등)의 관리를 최적화 및 제어할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/about-marketing-resource-management.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -58,13 +58,13 @@ Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정
 
    캠페인 워크플로에는 모든 워크플로에 대해 동일한 활동이 포함되지만 캠페인에만 해당됩니다. 사용 가능한 모든 채널에 대해 배달을 만들고 구성할 수 있습니다.
 
-   자세한 정보는 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)을 참조하십시오.
+   이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)을 참조하십시오.
 
 * **목표**
 
    캠페인, 프로그램 또는 계획 내에서 목표 목록을 표시할 수 있습니다. 이러한 값은 도달할 수 있는 수량화된 값입니다. 캠페인, 프로그램 또는 계획이 끝날 때 MRM 모듈을 사용하면 전용 보고서의 목표와 결과를 비교할 수 있습니다.
 
-* **배달 개요**
+* **게재 개요**
 
    배달 개요는 배달에 대한 구조화된 설명입니다. 모든 배달은 관련 오퍼, 첨부할 문서 또는 스토어에 대한 링크가 포함된 배달 개요를 참조할 수 있습니다. 선택한 배달 아웃라인에 따라 오퍼를 게재에서 참조할 수 있습니다.
 
