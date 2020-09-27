@@ -1,6 +1,6 @@
 ---
 title: 모니터링 지침
-description: 이 섹션에서는 Campaign Classic 모니터링에 대한 일반적인 지침을 제공합니다.
+description: 캠페인 인스턴스 및 프로세스를 모니터링하기 위한 지침과 모범 사례를 알아봅니다.
 page-status-flag: never-activated
 uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
 contentOwner: sauviat
@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 3%
+source-wordcount: '712'
+ht-degree: 6%
 
 ---
 
@@ -33,7 +33,7 @@ Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monit
 
 ![](assets/monitoring_tab.png)
 
-## Campaign Classic 프로세스 모니터링 {#monitoring-campaign-classic-processes}
+## Monitoring Campaign Classic processes {#monitoring-campaign-classic-processes}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">인스턴스 모니터링</a></p></td>
@@ -68,9 +68,9 @@ Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관�
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-**Workflow HeatMap**
+**워크플로우 열 지도**
 
-Workflow HeatMap은 인스턴스에서 실행 중인 모든 워크플로우를 시각적으로 표시합니다. 인스턴스의 로드를 쉽게 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다. [자세한 내용을 보려면 여기를](../../workflow/using/heatmap.md) 클릭하십시오.
+Workflow HeatMap은 인스턴스에서 실행 중인 모든 워크플로우를 시각적으로 표시합니다. 이를 통해 인스턴스의 로드를 쉽게 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다. [자세한 내용을 보려면 여기를](../../workflow/using/heatmap.md) 클릭하십시오.
 
 **감사 추적**
 
@@ -90,7 +90,7 @@ Workflow HeatMap은 인스턴스에서 실행 중인 모든 워크플로우를 �
 * [워크플로우 사용 시 모범 사례](../../workflow/using/workflow-best-practices.md)
 * [워크플로우 실행 모니터링](../../workflow/using/monitoring-workflow-execution.md)
 
-### 배달 모니터링 {#monitoring-deliveries}
+### 게재 모니터링 {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
@@ -98,7 +98,7 @@ Workflow HeatMap은 인스턴스에서 실행 중인 모든 워크플로우를 �
 
 SMTP 보고서는 도메인별 배달 통계 및 SMTP 오류를 표시합니다. [자세히 알아보기](../../production/using/monitoring-processes.md)
 
-**권장사항**
+**모범 사례**
 
 [전송 및 디자인에](../../delivery/using/delivery-best-practices.md) 대한 모범 사례를 통해 이들의 성과를 향상시킬 수 있습니다.
 
@@ -139,7 +139,7 @@ SMTP 보고서는 도메인별 배달 통계 및 SMTP 오류를 표시합니다.
 **호스팅 모델 및 기능**
 
 * [Campaign Classic 호스팅 모델](../../installation/using/hosting-models.md)
-* [호스팅 모델 기능](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)
+* [호스팅 모델 기능](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html)
 
 **서버 구성**
 
