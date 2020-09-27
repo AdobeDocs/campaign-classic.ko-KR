@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+source-git-commit: 700cd82d87eccf6579afab5c9e8f7945807817da
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 16%
@@ -82,5 +82,5 @@ Adobe Campaign은 워크플로우를 사용하여 다음을 수행합니다.
 * 워크플로우를 사용하여 [이 섹션의 Campaign에서 데이터를 가져오는 방법을 알아봅니다](../../workflow/using/importing-data.md).
 * 워크플로우 우수 사례는 [이 페이지에 자세히 설명되어 있습니다](../../workflow/using/workflow-best-practices.md).
 * 이 섹션에서 워크플로우 실행에 대한 지침 [을 살펴보십시오](../../workflow/using/starting-a-workflow.md).
-* 이 [페이지에서 워크플로우를 모니터링하는 방법을 학습합니다](../../workflow/using/monitoring-workflow-execution).
+* 이 [페이지에서 워크플로우를 모니터링하는 방법을 학습합니다](../../workflow/using/monitoring-workflow-execution.md).
 * 사용자에게 [이 페이지의 워크플로우를 사용할 수 있는 액세스 권한을 부여하는 방법에 대해 알아보십시오](../../workflow/using/managing-rights.md).
