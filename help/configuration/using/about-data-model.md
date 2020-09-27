@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Classic 데이터 모델 정보
-description: 이 문서에서는 Adobe Campaign Classic 데이터 모델의 기본 사항에 대해 설명합니다.
+description: 캠페인 데이터 모델을 확장하거나 스키마를 편집하고 API를 사용하는 방법을 알아보십시오.
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -13,19 +13,19 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 580be39d09bd59770d490945c3ba2b29e12fb3c4
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 0%
+source-wordcount: '971'
+ht-degree: 5%
 
 ---
 
 
-# 캠페인 데이터 모델 정보{#about-data-model}
+# About the Campaign data model{#about-data-model}
 
-이 섹션에서는 Adobe Campaign Classic 데이터 모델의 기본 사항을 설명하여 Campaign 내장 테이블 및 그 상호 작용을 더 잘 파악합니다.
+이 섹션에서는 Campaign 내장 테이블 및 그 상호 작용을 더 잘 이해하기 위해 Adobe Campaign Classic 데이터 모델의 기본 사항을 설명합니다.
 
-Adobe Campaign 데이터베이스의 개념 데이터 모델은 내장된 테이블과 상호 작용 세트로 구성되어 있습니다.
+Adobe Campaign 데이터베이스의 개념적 데이터 모델은 내장된 테이블과 상호 작용으로 구성됩니다.
 
 각 테이블의 설명에 액세스하려면 로 이동하여 목록에서 리소스 **[!UICONTROL Admin > Configuration > Data schemas]**&#x200B;를 선택하고 탭을 **[!UICONTROL Documentation]** 클릭합니다.
 
@@ -33,11 +33,11 @@ Adobe Campaign 데이터베이스의 개념 데이터 모델은 내장된 테이
 
 기본 Campaign Classic 데이터 모델 설명에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../configuration/using/data-model-description.md).
 
-응용 프로그램에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. 스키마라고 하는 Adobe Campaign에만 적용되는 문법입니다. Adobe Campaign 스키마에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../configuration/using/about-schema-reference.md).
+애플리케이션에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. 스키마라고 하는 Adobe Campaign에 특정된 문법을 따릅니다. For more on Adobe Campaign schemas, read out [this section](../../configuration/using/about-schema-reference.md).
 
 ## 개요 {#data-model-overview}
 
-Adobe Campaign은 함께 연결된 테이블을 포함하는 관계형 데이터베이스에 의존합니다. Adobe Campaign 데이터 모델의 기본 구조는 다음과 같이 설명할 수 있습니다.
+Adobe Campaign은 서로 연결된 테이블을 포함하는 관계형 데이터베이스에 의존합니다. Adobe Campaign 데이터 모델의 기본 구조는 다음과 같이 설명될 수 있습니다.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Adobe Campaign은 함께 연결된 테이블을 포함하는 관계형 데이터
 
 배달 로그는 모든 채널에서 받는 사람 또는 장치로 전송되는 모든 메시지입니다. 기본 배달 로그 테이블(**NmsBroadLog**)에는 모든 받는 사람의 배달 로그가 포함되어 있습니다.
 주 추적 로그 테이블(**NmsTrackingLog**)은 모든 받는 사람의 추적 로그를 저장합니다. 추적 로그는 이메일 열기 및 클릭 수와 같은 수신자의 반응을 나타냅니다. 각 반응은 추적 로그에 해당합니다.
-배달 로그 및 추적 로그는 Adobe Campaign에서 지정되고 수정할 수 있는 특정 기간 후에 삭제됩니다. 따라서 로그를 정기적으로 내보내는 것이 좋습니다.
+배달 로그와 추적 로그는 특정 기간 후에 삭제되며, Adobe Campaign에 지정되어 수정될 수 있습니다. 따라서 로그를 정기적으로 내보내는 것이 좋습니다.
 
 ### 기술 표 {#technical-tables}
 
@@ -67,7 +67,7 @@ Adobe Campaign은 함께 연결된 테이블을 포함하는 관계형 데이터
 
 ## 기본 수신자 테이블 사용 {#default-recipient-table}
 
-Adobe Campaign의 바로 사용 가능한 수신자 표는 데이터 모델을 구축하기 위한 좋은 시작점을 제공합니다. 미리 정의된 필드 및 표 링크가 많이 있으며, 이를 손쉽게 확장할 수 있습니다. 이 기능은 간단한 수신자 중심의 데이터 모델에 적합하므로 수신자를 주로 타깃팅하는 경우에 특히 유용합니다.
+Adobe Campaign의 바로 사용 가능한 수신자 테이블은 데이터 모델을 구축하기 위한 좋은 시작점을 제공합니다. 미리 정의된 필드 및 표 링크가 많이 있으며, 이를 손쉽게 확장할 수 있습니다. 이 기능은 간단한 수신자 중심의 데이터 모델에 적합하므로 수신자를 주로 타깃팅하는 경우에 특히 유용합니다.
 
 표준 수신자 테이블을 사용하면 다음과 같은 이점이 있습니다.
 
@@ -101,11 +101,11 @@ Adobe Campaign을 시작할 때 기본 데이터 모델을 평가하여 마케�
 >
 >데이터 모델 확장은 고급 사용자를 위해 예약되어 있습니다.
 
-## 사용자 지정 수신자 테이블 사용 {#custom-recipient-table}
+## Using a custom recipient table {#custom-recipient-table}
 
 Adobe Campaign 데이터 모델을 디자인할 때 [즉시 사용 가능한 수신자 테이블을](#default-recipient-table)사용하거나 비표준 수신자 테이블을 만들어 마케팅 프로필을 저장할 수 있습니다.
 
-실제로 데이터 모델이 수신자 중심 구조에 맞지 않을 경우 Adobe Campaign 내에서 타게팅 차원으로 다른 테이블을 설정할 수 있습니다. 예를 들어 단순히 수신자가 아닌 가계, 계정(예: 휴대폰) 및 회사/사이트를 대상으로 해야 하는 경우 이 문제가 관련이 있을 수 있습니다.
+실제로 데이터 모델이 수신자 중심 구조에 맞지 않으면 다른 테이블을 Adobe Campaign 내의 타깃팅 차원으로 설정할 수 있습니다. 예를 들어 단순히 수신자가 아닌 가계, 계정(예: 휴대폰) 및 회사/사이트를 대상으로 해야 하는 경우 이 문제가 관련이 있을 수 있습니다.
 
 >[!NOTE]
 >
@@ -133,4 +133,4 @@ Adobe Campaign 데이터 모델을 디자인할 때 [즉시 사용 가능한 수
 
 >[!IMPORTANT]
 >
->사용자 지정 수신자 테이블 사용은 고급 사용자를 위해 예약되어 있으며 일부 제한 사항이 적용됩니다. 자세한 내용은 [이 섹션을 참조하십시오](../../configuration/using/about-custom-recipient-table.md).
+>사용자 지정 수신자 테이블 사용은 고급 사용자를 위해 예약되어 있으며 일부 제한 사항이 적용됩니다. 자세한 내용은 [이 섹션](../../configuration/using/about-custom-recipient-table.md)을 참조하십시오.
