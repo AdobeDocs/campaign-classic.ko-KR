@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: 811d664807776473790b74c4cb6a672b5ca2bdd8
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 개인화 블록은 동적이고 개인화된 것으로 전달에 삽입할 수 있는 특정 렌더링을 포함합니다. 예를 들어 로고, 인사말 또는 미러 페이지에 대한 링크를 추가할 수 있습니다. 개인화 [블록 삽입을 참조하십시오](#inserting-personalization-blocks).
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png) 비디오 [에서 이 기능 살펴보기](#personalization-blocks-video)
 
 개인화 블록은 Adobe Campaign 탐색기의 노드를 통해 **[!UICONTROL Resources > Campaign Management > Personalization blocks]** 액세스합니다. 기본적으로 몇 개의 블록을 사용할 수 있습니다(기본 개인화 [블록](#out-of-the-box-personalization-blocks)참조).
 
@@ -162,7 +162,7 @@ HTML 소스 코드가 배달 컨텐츠에 삽입됩니다. 예를 들어 개인�
 
    * 컨텐츠(HTML, 텍스트, JavaScript 등)를 입력합니다. 을 선택하고 을 클릭합니다 **[!UICONTROL Save]**.
 
-## 다이내믹한 콘텐츠 블록을 사용하여 이메일을 개인화하는 방법 {#personalization-blocks-video}
+## 다이내믹 콘텐츠 블록을 사용하여 이메일을 개인화하는 방법 {#personalization-blocks-video}
 
 다이내믹한 콘텐츠 블록을 만든 방법과 이러한 콘텐츠 요소를 사용하여 이메일 전달 콘텐츠를 개인화하는 방법을 살펴볼 수 있습니다.
 
