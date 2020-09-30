@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b76fb1694545f4be02a63e4c670b81db632c5ee
+source-git-commit: 6483c3e2e9fd3a2951b2bc8bf6d8a3350361e86f
 workflow-type: tm+mt
-source-wordcount: '3686'
+source-wordcount: '3704'
 ht-degree: 87%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 87%
 마케팅 인스턴스에만 활성 프로필 수를 사용할 수 있다는 참고가 추가되었습니다. [자세한 내용](../../platform/using/about-profiles.md#active-profiles)
 
 필드를 기존 참조 테이블에 연결하는 새로운 스키마 에디션에 대한 샘플이 추가되었습니다. [자세한 내용](../../configuration/using/examples-of-schemas-edition.md#uc-link)
+
+배달에서 시드 주소와 함께 추가 데이터를 사용하는 것에 대한 메모가 추가되었습니다. [자세한 내용](../../delivery/using/creating-seed-addresses.md#defining-addresses)
 
 ## 2020년 8월 {#aug-2020}
 
