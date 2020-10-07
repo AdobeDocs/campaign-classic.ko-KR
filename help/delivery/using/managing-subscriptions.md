@@ -11,11 +11,8 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 discoiquuid: 9a61fe74-f779-4f23-be25-3d9a8e95704a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 2%
@@ -34,9 +31,9 @@ ht-degree: 2%
 * 가입 및 가입 해지 확인 메커니즘(확인, 이중 옵트인 등이 있는 간단한 메커니즘),
 * 가입자 기록 추적.
 
-표준 기능으로 이러한 서비스에는 특정 통계 보고서가 포함됩니다. 가입자 추적, 충성도 수준, 구독 취소 트렌드 등
+표준 기능으로 이러한 서비스에는 특정 통계 보고서가 포함됩니다.가입자 추적, 충성도 수준, 구독 취소 트렌드 등
 
-이메일의 경우, 필수 가입 해제 링크가 자동으로 생성되며, 전체 수신/수신 거부 절차는 Adobe를 완전히 자동화하며, 이력 추적은 시행 중인 규정을 완벽하게 준수하도록 보장합니다.
+이메일의 경우, 필수 가입 해제 링크가 자동으로 생성되며, 전체 수신/수신 거부 절차는 Adobe를 완전히 자동화하며, 내역 추적을 통해 시행 중인 규정을 완벽하게 준수합니다.
 
 서비스 구독/구독 취소 모드는 세 가지가 있습니다.
 
@@ -60,7 +57,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_user_services_add.png)
 
-* 필드에 서비스 이름을 **[!UICONTROL Label]** 입력하고 배달 채널을 선택합니다. 이메일, 모바일, Facebook, Twitter 또는 모바일 애플리케이션
+* 필드에 서비스 이름을 **[!UICONTROL Label]** 입력하고 배달 채널을 선택합니다.이메일, 모바일, Facebook, Twitter 또는 모바일 애플리케이션
 
    >[!NOTE]
    >
@@ -70,7 +67,7 @@ ht-degree: 2%
 * 구독 또는 구독 취소에 대한 **확인 메시지를** 보낼 수 있습니다. 이렇게 하려면 **[!UICONTROL Subscription]** 및 **[!UICONTROL Unsubscription]** 필드에서 해당 배달을 만드는 데 사용할 배달 템플릿을 선택합니다. 이러한 템플릿은 정의된 대상 없이 **[!UICONTROL Subscription]** 유형 대상 매핑으로 구성해야 합니다. 이메일 채널 [정보를 참조하십시오](../../delivery/using/about-email-channel.md).
 * 기본적으로 구독은 무제한 가능합니다. 서비스의 유효 기간을 정의하는 **[!UICONTROL Unlimited]** 옵션을 선택 취소할 수 있습니다. 지속 시간은 일(**[!UICONTROL d]** ) 또는 월(**[!UICONTROL m]** )로 지정할 수 있습니다.
 
-서비스가 저장되면 서비스 및 구독 목록에 추가됩니다. 해당 이름을 클릭하여 편집합니다. 여러 탭을 사용할 수 있습니다. 이 **[!UICONTROL Subscriptions]** 탭에서는 정보 서비스(**[!UICONTROL Active subscriptions]** 탭) 또는 구독/구독 취소 내역(**[!UICONTROL History]** 탭)의 가입자 목록을 볼 수 있습니다. 이 탭에서 가입자를 추가 및 삭제할 수도 있습니다. 가입자 [추가 및 삭제를 참조하십시오](#adding-and-deleting-subscribers).
+서비스가 저장되면 서비스 및 구독 목록에 추가됩니다.해당 이름을 클릭하여 편집합니다. 여러 탭을 사용할 수 있습니다. 이 **[!UICONTROL Subscriptions]** 탭에서는 정보 서비스(**[!UICONTROL Active subscriptions]** 탭) 또는 구독/구독 취소 내역(**[!UICONTROL History]** 탭)의 가입자 목록을 볼 수 있습니다. 이 탭에서 가입자를 추가 및 삭제할 수도 있습니다. 가입자 [추가 및 삭제를 참조하십시오](#adding-and-deleting-subscribers).
 
 ![](assets/s_ncs_user_services_subscriptions.png)
 
@@ -80,13 +77,13 @@ ht-degree: 2%
 
 ![](assets/s_ncs_user_services_modify.png)
 
-대시보드에서 **[!UICONTROL Reports]** 탭을 클릭하여 구독을 추적합니다. 가입 수준, 총 가입자 수 등의 변경 사항 이 탭에서 보고서를 보관하고 내역을 볼 수 있습니다.
+대시보드에서 **[!UICONTROL Reports]** 탭을 클릭하여 구독을 추적합니다.가입 수준, 총 가입자 수 등의 변경 사항 이 탭에서 보고서를 보관하고 내역을 볼 수 있습니다.
 
 ## 가입자 추가 및 삭제 {#adding-and-deleting-subscribers}
 
 정보 서비스 **[!UICONTROL Subscriptions]** 탭에서 가입자를 **[!UICONTROL Add]** 추가하려면 클릭하십시오. 가입자 목록을 마우스 오른쪽 단추로 클릭하고 선택할 수도 있습니다 **[!UICONTROL Add]**. 가입할 프로필이 저장되어 있는 폴더를 선택한 다음 가입할 프로필을 선택하고 클릭하여 유효성을 **[!UICONTROL OK]** 확인합니다.
 
-가입자를 삭제하려면 해당 가입자를 선택하고 을 클릭합니다 **[!UICONTROL Delete]**. 가입자 목록을 마우스 오른쪽 단추로 클릭하고 선택할 수도 있습니다 **[!UICONTROL Delete]**.
+가입자를 삭제하려면 가입자를 선택하고 을 클릭합니다 **[!UICONTROL Delete]**. 가입자 목록을 마우스 오른쪽 단추로 클릭하고 선택할 수도 있습니다 **[!UICONTROL Delete]**.
 
 두 경우 모두, 가입을 취소할 수 있는 전송 템플릿이 서비스에 연결되어 있는지 여부를 사용자에게 확인 메시지 [를 보낼 수 있습니다(정보 서비스](#creating-an-information-service)만들기 참조). 경고를 사용하면 이 게재의 유효성을 검사하거나 확인할 수 없습니다.
 
@@ -104,7 +101,7 @@ ht-degree: 2%
 >
 >대상 매핑은 여야 합니다 **[!UICONTROL Subscriptions]**.
 
-을 선택하고 **[!UICONTROL Subscribers of an information service]** 클릭합니다 **[!UICONTROL Next]**.
+**[!UICONTROL Subscribers of an information service]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 
 ![](assets/s_ncs_user_wizard_target_is_a_service02.png)
 
@@ -131,7 +128,7 @@ ht-degree: 2%
 
 정보 서비스에 수신자를 등록하려면 다음을 수행할 수 있습니다.
 
-* 서비스를 수동으로 추가합니다. 이렇게 하려면 프로필 **[!UICONTROL Subscriptions]** 탭에서 관련 정보 서비스 **[!UICONTROL Add]** 를 클릭합니다.
+* 서비스를 수동으로 추가합니다.이렇게 하려면 프로필 **[!UICONTROL Subscriptions]** 탭에서 관련 정보 서비스 **[!UICONTROL Add]** 를 클릭합니다.
 
    자세한 내용은 [이 섹션의 프로필 편집 섹션을 참조하십시오](../../platform/using/editing-a-profile.md).
 
@@ -156,7 +153,7 @@ ht-degree: 2%
 
 이메일 배달에는 법에 의한 가입 취소 링크가 포함되어야 합니다. 수신자는 이 링크를 클릭하여 프로필을 업데이트하고 향후 전달 대상에서 제외할 수 있습니다.
 
-기본 구독 취소 링크는 배달 마법사에 제공되는 컨텐츠 편집기의 도구 모음에 있는 마지막 단추를 통해 삽입됩니다(개인화 [정보 참조](../../delivery/using/about-personalization.md)). 받는 사람이 이 링크를 클릭하면 프로필이 블록 목록(옵트아웃)에 추가됩니다. 즉, 이 받는 사람이 더 이상 배달 작업의 대상이 되지 않습니다.
+기본 구독 취소 링크는 배달 마법사에 제공되는 컨텐츠 편집기의 도구 모음에 있는 마지막 단추를 통해 삽입됩니다(개인화 [정보 참조](../../delivery/using/about-personalization.md)). 받는 사람이 이 링크를 클릭하면 프로필이 차단 목록(수신 거부)에 추가됩니다. 즉, 이 받는 사람이 더 이상 배달 작업의 대상이 되지 않습니다.
 
 그러나 수신자는 모든 서비스에 대한 가입 해지 없이 서비스 가입을 해지할 수 있습니다. 이를 위해 웹 양식을 사용하거나( [이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)참조) 개인화된 구독 취소 링크를 삽입할 수 있습니다(개인화 블록 [참조](../../delivery/using/personalization-blocks.md)).
 
