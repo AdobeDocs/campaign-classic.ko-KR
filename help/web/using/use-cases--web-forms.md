@@ -1,7 +1,7 @@
 ---
-title: '"활용 사례: 웹 양식"'
-seo-title: '"활용 사례: 웹 양식"'
-description: '"활용 사례: 웹 양식"'
+title: '"사용 사례: 웹 양식"'
+seo-title: '"사용 사례: 웹 양식"'
+description: '"사용 사례: 웹 양식"'
 seo-description: null
 page-status-flag: never-activated
 uuid: b2c3f171-325e-4913-a188-a791bad0df2e
@@ -11,19 +11,16 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# 활용 사례: 웹 양식{#use-cases-web-forms}
+# 사용 사례: 웹 양식{#use-cases-web-forms}
 
 ## 이중 옵트인으로 구독 양식 만들기 {#create-a-subscription--form-with-double-opt-in}
 
@@ -48,7 +45,7 @@ ht-degree: 0%
 
 확인 메시지는 임시 서비스 수준에서 참조되는 전용 배달 템플릿을 통해 전송됩니다.
 
-1. 에서 **[!UICONTROL Explorer]** 를 선택합니다 **[!UICONTROL Resources > Templates > Delivery templates]**.
+1. In the **[!UICONTROL Explorer]** , select **[!UICONTROL Resources > Templates > Delivery templates]**.
 1. 구독 확인 메시지를 전송할 배달 템플릿을 만듭니다.
 1. 배달 템플릿을 수신자 대신 구독 대상 매핑과 **[!UICONTROL To]** **[!UICONTROL Email parameters]** 연결하려면 에서 단추를 클릭합니다.
 
@@ -175,11 +172,11 @@ ht-degree: 0%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   사용자는 **[!UICONTROL Temp]** 폴더의 Adobe Campaign 데이터베이스에 추가되고 해당 프로필이 해당 이메일에서 가입을 확인할 때까지 차단 목록에 추가됩니다.
+   사용자는 **[!UICONTROL Temp]** 폴더의 Adobe Campaign 데이터베이스에 추가되고 해당 프로필이 해당 이메일의 구독을 확인할 때까지 차단 목록에 추가됩니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
-1. 구독을 승인하는 링크가 포함된 확인 메시지가 해당 사용자에게 전송됩니다.
+1. 구독을 승인하는 링크가 포함된 확인 메시지가 해당 고객에게 전송됩니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8e.png)
 
@@ -218,7 +215,7 @@ ht-degree: 0%
 
 ![](assets/s_ncs_admin_survey_condition_config1bis.png)
 
-* 개인 차량의 조건부 가시성:
+* 개인 차량에 대한 조건부 가시성:
 
    ![](assets/s_ncs_admin_survey_condition_config2.png)
 
