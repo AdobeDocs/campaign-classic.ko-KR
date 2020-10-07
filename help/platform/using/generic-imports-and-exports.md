@@ -11,14 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -31,12 +28,12 @@ Adobe Campaign은 외부 파일의 데이터를 데이터베이스에 제공할 
 
 >[!NOTE]
 >
->내보내기 및 가져오기는 작업 과정을 통해 실행되는 전용 템플릿에서 **[!UICONTROL Import]** 및 **[!UICONTROL Export]** 활동을 통해 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. 필요한 경우 Adobe Campaign 트리의 노드를 통해 가끔 가져오기 또는 내보내기를 만들 수 **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** 있습니다.
+>내보내기 및 가져오기는 작업 과정을 통해 실행되는 전용 템플릿에서 **[!UICONTROL Import]** 및 **[!UICONTROL Export]** 활동을 통해 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. 필요한 경우 Adobe Campaign 트리의 노드를 통해 가끔 가져오거나 내보낼 수 **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** 있습니다.
 
 다음을 수행할 수 있습니다.
 
 * 가져오기 또는 내보내기 템플릿을 만들고 구성합니다(아래 참조).
-* 가져오기 또는 내보내기 만들기: 데이터 [내보내기](../../platform/using/exporting-data.md) 또는 데이터 [가져오기를 참조하십시오](../../platform/using/importing-data.md).
+* 가져오기 또는 내보내기 만들기:데이터 [내보내기](../../platform/using/exporting-data.md) 또는 데이터 [가져오기를 참조하십시오](../../platform/using/importing-data.md).
 * 가져오기 또는 내보내기를 실행하고 실행을 모니터링합니다. 실행 [추적을 참조하십시오](#execution-tracking).
 
 >[!CAUTION]
@@ -57,7 +54,7 @@ Adobe Campaign은 외부 파일의 데이터를 데이터베이스에 제공할 
 
 >[!NOTE]
 >
->기본 템플릿 **[!UICONTROL Import block list]** 은 이미 블록 목록에 추가된 이메일 주소 목록을 가져오도록 구성되었습니다.
+>기본 템플릿 **[!UICONTROL Import block list]** 은 차단 목록에 추가된 이메일 주소 목록을 가져오도록 이미 구성되어 있습니다.
 > 
 >템플릿 **[!UICONTROL New text import]** 과 **[!UICONTROL New text export]** 템플릿을 사용하면 가져오기 또는 내보내기를 처음부터 구성할 수 있습니다.
 
@@ -67,13 +64,13 @@ Adobe Campaign은 외부 파일의 데이터를 데이터베이스에 제공할 
 
 이 모든 기능이 [가져오기](../../platform/using/importing-data.md) 또는 [내보내기](../../platform/using/exporting-data.md#export-wizard) 마법사를 엽니다.
 
-* Adobe Campaign 작업 공간 **[!UICONTROL Profiles and targets]** 의 섹션에서 **[!UICONTROL Jobs]** 링크를 클릭합니다. 기존 가져오기 및 내보내기 목록으로 이동합니다.
+* Adobe Campaign 작업 공간 **[!UICONTROL Profiles and targets]** 의 섹션에서 **[!UICONTROL Jobs]** 링크를 클릭합니다.기존 가져오기 및 내보내기 목록으로 이동합니다.
 
    단추를 **[!UICONTROL Create]** 클릭하고 수행할 작업 유형을 선택합니다.
 
    ![](assets/s_ncs_user_import_from_home.png)
 
-* 작업공간의 감시 섹션에서 가져오기 및 내보내기를 실행할 수도 있습니다. 두 개의 전용 링크를 통해 직접 가져오거나 내보낼 수 있습니다.
+* 작업공간의 감시 섹션에서 가져오기 및 내보내기를 실행할 수도 있습니다.두 개의 전용 링크를 통해 직접 가져오거나 내보낼 수 있습니다.
 
    ![](assets/s_ncs_user_import_from_production.png)
 
