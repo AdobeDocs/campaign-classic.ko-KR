@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: 57988b00-62cc-43d3-a2eb-bfed5bff7dc1
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 6%
 
 ---
 
@@ -24,13 +24,13 @@ source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ## 간단한 방법 {#simple-method}
 
-이 메서드는 추적할 웹 페이지의 HTML 소스 코드에 HTML **`<img>`** 태그를 삽입하여 리디렉션 서버로 HTTP 호출을 전송하는 것으로 구성됩니다.
+이 방법은 추적할 웹 페이지의 HTML 소스 코드에 **`<img>`** HTML 태그를 삽입하여 리디렉션 서버로 HTTP 호출을 전송하는 것으로 구성됩니다.
 
 >[!IMPORTANT]
 >
->이 방법은 웹 브라우저가 보낸 쿠키를 사용하여 받는 사람을 식별하며, 100% 신뢰할 수 없습니다.
+>이 방법은 웹 브라우저가 보낸 쿠키를 사용하여 받는 사람을 식별하며, 100% 안정적이지 않습니다.
 
-**예**:
+**예제**:
 
 ```
 <img height='0' width='0' alt='' src='https://localhost/r/12343?tagid=home'
@@ -40,13 +40,13 @@ source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ![](assets/d_ncs_integration_webtracking_structure2.png)
 
-콘솔에서 추적할 페이지를 정의할 때 샘플 웹 추적 태그를 생성하여 웹 페이지의 소스 코드에 복사하여 붙여 넣을 수 있습니다.
+콘솔에서 추적할 페이지를 정의할 때 샘플 웹 추적 태그를 생성하여 복사하여 웹 페이지의 소스 코드에 붙여넣을 수 있습니다.
 
-그러나 TRANSACTION-type 태그를 사용할 때는 트랜잭션 정보(금액, 항목 수) 및 확장 스키마로 정의된 정보를 삽입하려면 JavaScript를 사용하여 샘플 태그를 수정해야 합니다.
+그러나 TRANSACTION-type 태그를 사용할 때는 거래 정보(금액, 항목 수) 및 확장 스키마에 의해 정의된 정보를 삽입하기 위해 JavaScript를 사용하여 샘플 태그를 수정해야 합니다.
 
-### 태그 정적 삽입 {#static-insertion-of-tags}
+### 태그의 정적 삽입 {#static-insertion-of-tags}
 
-정적 태그 삽입을 수행하려면 콘솔에서 생성하거나 수동으로 구성한 태그를 복사하여 웹 페이지의 소스에 붙여넣으면 됩니다.
+정적 태그 삽입을 수행하려면 콘솔에서 생성한 태그를 복사하여 붙여넣거나 수동으로 웹 페이지의 소스에 붙여넣으면 됩니다.
 
 **예**:양식을 표시하는 페이지에 웹 추적 태그 삽입
 
@@ -129,19 +129,19 @@ source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 </html>
 ```
 
-## 최적 방법 {#optimum-method-}
+## 최적의 방법 {#optimum-method-}
 
-리디렉션 서버로 전송된 정보를 제어하려면 페이지 생성 언어를 사용하여 HTTP 쿼리를 직접 동기식으로 수행하는 것이 가장 안정적인 방법입니다.
+리디렉션 서버로 전송된 정보를 제어하려면 페이지 생성 언어를 사용하여 HTTP 쿼리를 직접 동기적으로 수행하는 것이 가장 안정적인 방법입니다.
 
-구성하는 URL은 웹 추적 태그에 정의된 구문 규칙을 따라야 [합니다.정의](../../configuration/using/web-tracking-tag--definition.md).
+구성하는 URL은 [웹 추적 태그에 정의된 구문 규칙을 따라야 합니다.정의](../../configuration/using/web-tracking-tag--definition.md).
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 
 >[!NOTE]
 >
->리디렉션 및 웹 추적은 쿠키를 사용하며, 동기식 HTTP 호출을 수행하는 웹 서버가 리디렉션 서버와 동일한 도메인에 있어야 합니다. 다양한 HTTP 교환은 &#39;id&#39;, &#39;uuid&#39; 및 &#39;uuid230&#39; 쿠키를 전달해야 합니다.
+>리디렉션 및 웹 추적은 쿠키를 사용하며, 동기식 HTTP 호출을 수행하는 웹 서버가 리디렉션 서버와 동일한 도메인에 있어야 합니다. 다양한 HTTP 교환에서 &#39;id&#39;, &#39;uuid&#39; 및 &#39;uuid230&#39; 쿠키를 전달해야 합니다.
 
-**예**:계정 번호를 사용한 수신자 인증을 사용하여 Java의 동적 생성
+**예**:계정 번호를 사용하는 수신자 인증을 사용하는 Java의 동적 생성
 
 ```
 [...]
