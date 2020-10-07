@@ -9,11 +9,8 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -37,19 +34,19 @@ ht-degree: 0%
 
 승인 예는 이 [섹션에서 찾을 수 있습니다](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
-연산자는 다음 두 가지 방법 중 하나로 응답할 수 있습니다. 이메일 메시지 또는 콘솔을 통해 연결된 웹 페이지를 사용하는 것이 좋습니다.
+연산자는 다음 두 가지 방법 중 하나로 응답할 수 있습니다.이메일 메시지 또는 콘솔을 통해 연결된 웹 페이지를 사용하는 것이 좋습니다.
 
 >[!NOTE]
 >
 >응답을 저장하면 수정되지 않을 수 있습니다.
 
-## 이메일 전송 {#sending-emails}
+## 전자 메일 보내기 {#sending-emails}
 
 응답할 수 있는 웹 페이지에 대한 링크가 포함된 승인 메시지를 받을 수 있습니다. 타깃팅된 운영자가 승인 이메일을 수신하려면 운영자 이메일 주소가 완료되어야 합니다. 이 경우 연산자는 콘솔을 사용하여 응답해야 합니다
 
 연산자 관리는 이 [섹션에 자세히 설명되어 있습니다](../../platform/using/access-management.md).
 
-승인 이메일은 지속적으로 전송됩니다. 기본 배달 템플릿은 다음과 **[!UICONTROL notifyAssignee]**&#x200B;같습니다. 폴더에 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 저장됩니다. 이 시나리오를 사용자 지정할 수 있으며 각 활동에 대한 템플릿을 복사하고 변경하는 것이 좋습니다.
+승인 이메일은 지속적으로 전송됩니다. 기본 배달 템플릿은 다음과 **[!UICONTROL notifyAssignee]**&#x200B;같습니다.폴더에 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 저장됩니다. 이 시나리오를 사용자 지정할 수 있으며 각 활동에 대한 템플릿을 복사하고 변경하는 것이 좋습니다.
 
 이 템플릿을 통해 생성된 배달은 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]** 폴더에 저장됩니다.
 
@@ -87,14 +84,14 @@ ht-degree: 0%
 >
 >연대순으로 처리되므로 만료에 대한 순서를 지정할 필요가 없습니다.
 
-이 옵션은 지연 **[!UICONTROL Do not terminate the task]** 이 초과될 때 승인을 활성 상태로 유지합니다. 이 모드에서는 승인을 활성화한 상태에서 미리 알림을 관리할 수 있습니다. 연산자는 여전히 응답할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있으므로 작업이 만료 시 완료되는 것으로 간주되며 연산자가 더 이상 응답하지 않을 수 있습니다.
+이 옵션은 지연 **[!UICONTROL Do not terminate the task]** 이 초과될 때 승인을 활성 상태로 유지합니다. 이 모드에서는 승인을 활성화한 상태에서 미리 알림을 관리할 수 있습니다.연산자는 여전히 응답할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있으므로 작업이 만료 시 완료되는 것으로 간주되며 연산자가 더 이상 응답하지 않을 수 있습니다.
 
 다음 네 가지 유형의 만료를 만들 수 있습니다.
 
-* **작업 시작 후 지연**: 만료는 승인이 활성화된 날짜에 지정된 기간을 추가하여 계산됩니다.
-* **지정된 날짜 이후 지연**: 만료는 지정한 날짜에 기간을 추가하여 계산됩니다.
-* **지정된 날짜보다 지연**: 만료는 지정한 날짜에서 기간을 뺀 값으로 계산됩니다.
-* **스크립트로 계산된 만료**: 만료는 JavaScript를 사용하여 계산됩니다.
+* **작업 시작 후 지연**:만료는 승인이 활성화된 날짜에 지정된 기간을 추가하여 계산됩니다.
+* **지정된 날짜 이후 지연**:만료는 지정한 날짜에 기간을 추가하여 계산됩니다.
+* **지정된 날짜보다 지연**:만료는 지정한 날짜에서 기간을 빼서 계산됩니다.
+* **스크립트로 계산된 만료**:만료는 JavaScript를 사용하여 계산됩니다.
 
    다음 예에서는 배달을 시작한 날짜( **vars.deliveryId로 식별)보다 24시간 전에 만료를 계산합니다**.
 
