@@ -11,11 +11,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2001'
 ht-degree: 0%
@@ -29,7 +26,7 @@ ht-degree: 0%
 
 이 섹션에서는 &quot;일시 중지됨&quot;, &quot;중지됨&quot; 또는 &quot;오류가 있는&quot; 워크플로우 세트의 상태를 모니터링할 수 있는 워크플로우를 만드는 방법에 대한 사용 사례도 [사용할 수 있습니다](../../workflow/using/supervising-workflows.md#supervising-workflows).
 
-또한 인스턴스의 관리자는 **감사 추적** 기능을 사용하여 작업 및 워크플로우에 대한 마지막 수정 작업, 워크플로우 상태를 확인할 수 있습니다. For more on this, refer to the [dedicated section](../../production/using/audit-trail.md).
+또한 인스턴스의 관리자는 **감사 추적** 기능을 사용하여 워크플로우의 상태인 활동 및 마지막으로 수행한 수정 사항을 확인할 수 있습니다. For more on this, refer to the [dedicated section](../../production/using/audit-trail.md).
 
 다양한 캠페인 프로세스를 모니터링하는 추가 방법이 [이 페이지에 나와 있습니다](../../production/using/monitoring-guidelines.md).
 
@@ -61,7 +58,7 @@ ht-degree: 0%
    >
    >다이어그램의 배경을 클릭하여 모든 요소를 선택 취소합니다.
 
-* 지정된 작업에 연결된 메시지만 표시합니다. 이렇게 하려면 **[!UICONTROL Tasks]** 탭을 선택한 다음 다이어그램에서 활동을 선택하여 목록을 제한합니다. 작업을 두 번 클릭하여 정보를 표시합니다. 창의 마지막 탭에는 로그가 포함되어 있습니다.
+* 지정된 작업에 연결된 메시지만 표시합니다. 이렇게 하려면 **[!UICONTROL Tasks]** 탭을 선택한 다음 다이어그램에서 활동을 선택하여 목록을 제한합니다. 작업을 두 번 클릭하여 정보를 표시합니다.창의 마지막 탭에는 로그가 포함되어 있습니다.
 
    ![](assets/new-workflow-display-tasks-activity.png)
 
@@ -81,7 +78,7 @@ ht-degree: 0%
 
    ![](assets/s_user_segmentation_journal.png)
 
-   모든 캠페인 메시지가 표시됩니다. 캠페인뿐만 아니라 경고 또는 오류가 수행되었습니다.
+   모든 캠페인 메시지가 표시됩니다.캠페인뿐만 아니라 경고 또는 오류가 수행되었습니다.
 
 * 활동 로그
 
@@ -91,7 +88,7 @@ ht-degree: 0%
 
       ![](assets/s_user_segmentation_show_logs.png)
 
-      다이어그램의 하단 섹션에는 두 개의 탭이 표시됩니다. 로그 및 작업을 참조하십시오.
+      다이어그램의 하단 섹션에는 두 개의 탭이 표시됩니다.로그 및 작업을 참조하십시오.
 
       다이어그램 내에서 선택한 활동은 로그 및 작업 목록의 필터로 작동합니다.
 
@@ -105,13 +102,13 @@ ht-degree: 0%
 
 ## 로그 제거 {#purging-the-logs}
 
-워크플로우 내역은 자동으로 삭제되지 않습니다. 모든 메시지는 기본적으로 유지됩니다. 작업 내역은 **[!UICONTROL File > Actions]** 메뉴 또는 목록 위의 도구 모음에 있는 **[!UICONTROL Actions]** 단추를 클릭하여 삭제할 수 있습니다. 선택합니다 **[!UICONTROL Purge history]**. 메뉴에서 사용할 수 있는 옵션 **[!UICONTROL Actions]** 은 [작업 도구 모음](../../workflow/using/starting-a-workflow.md) 섹션에 자세히 설명되어 있습니다.
+워크플로우 내역은 자동으로 삭제되지 않습니다.모든 메시지는 기본적으로 유지됩니다. 작업 내역은 **[!UICONTROL File > Actions]** 메뉴 또는 목록 위의 도구 모음에 있는 **[!UICONTROL Actions]** 단추를 클릭하여 삭제할 수 있습니다. **[!UICONTROL Purge history]**&#x200B;을(를) 선택합니다. 메뉴에서 사용할 수 있는 옵션 **[!UICONTROL Actions]** 은 [작업 도구 모음](../../workflow/using/starting-a-workflow.md) 섹션에 자세히 설명되어 있습니다.
 
 ![](assets/purge_historique.png)
 
 ## 작업 테이블 및 워크플로우 스키마 {#worktables-and-workflow-schema}
 
-워크플로우는 특정 활동을 통해 조작할 수 있는 작업표를 전달합니다. Adobe Campaign을 사용하면 데이터 관리 활동을 통해 워크플로우 워크플로우의 열을 수정, 이름 변경 및 보완할 수 있습니다. 예를 들어, 클라이언트의 필요에 따라 주석을 달거나, 계약의 공동 수혜자에 대한 추가 정보를 수집하는 등,
+워크플로우는 특정 활동을 통해 조작할 수 있는 작업표를 전달합니다. Adobe Campaign을 사용하면 데이터 관리 활동을 통해 워크플로우 워크플로우의 열을 수정, 이름 변경 및 보완할 수 있습니다. 예를 들어 클라이언트의 필요에 따라 주석을 달거나, 계약의 공동 수혜자에 대한 추가 정보를 수집하는 등의 작업을 수행할 수 있습니다.
 
 다양한 작업 차원 간에 링크를 만들고 차원 변경을 정의할 수도 있습니다. 예를 들어 데이터베이스에 기록된 각 계약에 대해 기본 보유자를 해결하고 추가 정보에 공유 데이터를 사용합니다.
 
@@ -123,7 +120,7 @@ ht-degree: 0%
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
-Adobe Campaign 탐색기에서 워크플로우 목록에는 기본적으로 열이 **[!UICONTROL Failed]** 표시됩니다.
+Adobe Campaign 탐색기에서 기본적으로 워크플로우 목록에 열이 **[!UICONTROL Failed]** 표시됩니다.
 
 ![](assets/wf-explorer_errors_col.png)
 
@@ -131,7 +128,7 @@ Adobe Campaign 탐색기에서 워크플로우 목록에는 기본적으로 열�
 
 ![](assets/wf-properties_select-supervisors.png)
 
-알림 컨텐츠는 기본 템플릿에서 **[!UICONTROL Workflow manager notification]** 구성됩니다. 이 템플릿은 워크플로우 속성의 **[!UICONTROL Execution]** 탭에서 선택합니다. 알림은 오류 워크플로우와 관련 작업의 이름을 표시합니다.
+알림 컨텐츠는 기본 템플릿에서 **[!UICONTROL Workflow manager notification]** 구성됩니다.이 템플릿은 워크플로우 속성의 **[!UICONTROL Execution]** 탭에서 선택합니다. 알림은 오류 워크플로우와 관련 작업의 이름을 표시합니다.
 
 알림 예:
 
@@ -167,7 +164,7 @@ Adobe Campaign 탐색기에서 워크플로우 목록에는 기본적으로 열�
 
 이미 실행된 활동을 수정하는 경우 워크플로우 실행이 다시 시작될 때 변경 사항이 고려되지 않습니다.
 
-실행되지 않은 활동을 수정하는 경우 워크플로우 실행이 다시 시작될 때 고려됩니다.
+실행 취소된 활동을 수정하는 경우 워크플로우 실행이 다시 시작될 때 고려됩니다.
 
 일시 중지된 활동을 수정하는 경우 워크플로우를 다시 시작할 때 변경 사항을 제대로 고려할 수 없습니다.
 
@@ -244,7 +241,7 @@ instance.vars.isRunning = false
 
 워크플로우는 공간을 소모하고 유지 관리되지 않는 경우 전체 플랫폼의 속도가 느려지는 많은 작업 테이블을 사용합니다. 데이터베이스 유지 관리에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../production/using/tables-to-maintain.md) .
 
-관리 > 프로덕션 > 기술 워크플로우 **노드를 통해 액세스할 수 있는** 데이터베이스 정리 **** 워크플로우에서는 사용되지 않는 데이터를 삭제하여 데이터베이스의 기하급수적인 증가를 방지할 수 있습니다. 사용자 개입 없이 워크플로우가 자동으로 트리거됩니다. 이 [섹션을 참조하십시오](../../production/using/database-cleanup-workflow.md).
+관리 > 프로덕션 > 기술 워크플로우 **노드를 통해 액세스할 수 있는** 데이터베이스 정리 **** 워크플로우에서는 사용되지 않는 데이터를 삭제하여 데이터베이스의 기하급수적인 증가를 방지할 수 있습니다. 사용자 개입 없이 워크플로우가 자동으로 트리거됩니다. Refer to this [section](../../production/using/database-cleanup-workflow.md).
 
 또한 특정 기술 워크플로우를 만들어 불필요한 데이터 소비 공간을 제거할 수도 있습니다. 이 [섹션](../../production/using/application-objects.md) 및 이 [페이지를 참조하십시오](#purging-the-logs).
 
@@ -281,7 +278,7 @@ Campaign Classic 인터페이스를 사용하면 사전 정의된 보기를 사�
 1. / **[!UICONTROL Add new folder]**&#x200B;에서&#x200B;**[!UICONTROL Administration]**&#x200B;추가할 보기를 선택합니다.
 1. 폴더가 트리에 추가되면 원래 폴더가 무엇이든지 모든 워크플로우를 표시하도록 해당 폴더를 뷰로 구성해야 합니다.보기를 구성하는 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../platform/using/access-management.md#adding-folders-and-creating-views).
 
-또한 이러한 보기에서는 실행 상태에 따라 워크플로우 목록을 필터링할 수 있도록 필터 폴더를 설정할 수 있습니다. 이렇게 하려면:
+또한 이러한 보기에서는 실행 상태에 따라 워크플로우 목록을 필터링할 수 있도록 필터 폴더를 설정할 수 있습니다. 방법은 다음과 같습니다.
 
 1. 워크플로우 유형 폴더에 액세스한 다음 **[!UICONTROL Filters]** / **[!UICONTROL Advanced filter]** 메뉴를 선택합니다.
 1. 워크플로우의 필드가 선택한 상태와 같도록 필터 **[!UICONTROL @status]** 를 구성합니다.
