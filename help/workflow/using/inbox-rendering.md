@@ -9,18 +9,18 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: da0779dc-b734-483b-81e9-ff4706a2b6de
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e1bd878c45576932e085b579f91eb72f5d36d6fd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 2%
 
 ---
 
 
 # 받은 편지함 렌더링(IR){#inbox-rendering}
 
-아래에 자세히 설명된 워크플로우는 기본적으로 받은 편지함 **렌더링(IR)** 모듈과 함께 설치됩니다. 받은 편지함 렌더링에 대한 자세한 내용은 이 [섹션을](../../delivery/using/inbox-rendering.md)참조하십시오.
+아래에 자세히 설명된 워크플로우는 기본적으로 받은 편지함 **렌더링(IR)** 모듈과 함께 설치됩니다. For more on Inbox rendering, refer to this [section](../../delivery/using/inbox-rendering.md).
 
 <table> 
  <tbody> 
@@ -31,7 +31,7 @@ source-git-commit: e1bd878c45576932e085b579f91eb72f5d36d6fd
   </tr> 
   <tr> 
    <td> <strong>받은 편지함 렌더링을 위한 시드 네트워크 업데이트</strong><br /> </td> 
-   <td> <span class="uicontrol">updateRenderingSeeds</span><br /> </td> 
+   <td> <span class="uicontrol">updateRenderingSeed</span> <br /> </td> 
    <td> 이 워크플로우는 받은 편지함 렌더링에 사용되는 이메일 주소를 업데이트하며, HTTPS 포트가 <strong>deliverability.neolane.net</strong>용으로 열려 있는 경우에만 작동합니다.<br /> </td> 
   </tr> 
  </tbody> 
