@@ -11,14 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 83b915bd-7e23-41b5-9f9a-f7eb72026376
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 0d2270c9d980d963437f9bb5cf37795474d261d6
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -46,16 +43,17 @@ ht-degree: 0%
 
 ![](assets/s_user_segmentation_dedup_param.png)
 
-1. 대상 선택
+1. Target 선택
 
-   이 활동에 대한 타겟 유형(기본적으로 데이터 중복 제거와 관련된 수신자)과 사용할 기준(예: 동일한 값을 사용하여 중복 항목을 식별할 수 있는 필드)을 선택합니다. 이메일 주소, 모바일 또는 전화 번호, 팩스 번호 또는 다이렉트 메일 주소.
+   이 활동에 대한 타겟 유형(기본적으로 데이터 중복 제거와 관련된 수신자)과 사용할 기준(예: 동일한 값을 사용하여 중복 항목을 식별할 수 있는 필드)을 선택합니다.이메일 주소, 모바일 또는 전화 번호, 팩스 번호 또는 다이렉트 메일 주소.
 
    ![](assets/s_user_segmentation_dedup_param2.png)
 
    >[!NOTE]
    >
    >외부 데이터를 입력으로 사용하는 경우(예: 외부 파일의 경우) **[!UICONTROL Temporary schema]** 옵션을 선택해야 합니다.
-다음 단계에서, 이 옵션을 사용하여 **[!UICONTROL Other]** 사용할 기준이나 기준을 선택할 수 있습니다.
+   >
+   >다음 단계에서, 이 옵션을 사용하여 **[!UICONTROL Other]** 사용할 기준이나 기준을 선택할 수 있습니다.
 
    ![](assets/s_user_segmentation_dedup_param3.png)
 
@@ -67,16 +65,16 @@ ht-degree: 0%
 
    다음 방법을 사용할 수 있습니다.
 
-   * **[!UICONTROL Choose for me]**: 임의로 복제되지 않도록 할 레코드를 선택합니다.
-   * **[!UICONTROL Following a list of values]**: 하나 이상의 필드에 대한 값 우선 순위를 정의할 수 있습니다. 값을 정의하려면 필드를 선택하거나 표현식을 만든 다음 해당 표에 값을 추가합니다. 새 필드를 정의하려면 값 목록 위에 있는 **[!UICONTROL Add]** 단추를 클릭합니다.
+   * **[!UICONTROL Choose for me]**: 중복 중에서 유지할 레코드를 임의로 선택합니다.
+   * **[!UICONTROL Following a list of values]**: 하나 이상의 필드에 대한 값 우선 순위를 정의할 수 있습니다. 값을 정의하려면 필드를 선택하거나 표현식을 만든 다음 해당 테이블에 값을 추가합니다. 새 필드를 정의하려면 값 목록 위에 있는 **[!UICONTROL Add]** 버튼을 클릭합니다.
 
       ![](assets/s_user_segmentation_dedup_param5.png)
 
-   * **[!UICONTROL Non-empty value]**: 이렇게 하면 선택한 표현식의 값이 우선 순위로 비어 있지 않은 레코드를 유지할 수 있습니다.
+   * **[!UICONTROL Non-empty value]**: 선택한 표현식의 값이 비어 있지 않은 레코드를 우선 순위로 유지할 수 있습니다.
 
       ![](assets/s_user_segmentation_dedup_param6.png)
 
-   * **[!UICONTROL Using an expression]**: 지정된 표현식의 최저(또는 최고) 값으로 레코드를 유지할 수 있습니다.
+   * **[!UICONTROL Using an expression]**:지정된 표현식의 최저(또는 최고) 값으로 레코드를 유지할 수 있습니다.
 
       ![](assets/s_user_segmentation_dedup_param7.png)
    선택한 중복 제거 방법 **[!UICONTROL Finish]** 을 승인하려면 을 클릭합니다.
@@ -87,11 +85,11 @@ ht-degree: 0%
 
    ![](assets/s_user_segmentation_dedup_param8.png)
 
-   나머지 인구를 이용하려면 **[!UICONTROL Generate complement]** 옵션을 선택합니다. 그 보완은 모든 복제로 구성되어 있다. 그러면 다음과 같이 활동에 추가 전환이 추가됩니다.
+   Check the **[!UICONTROL Generate complement]** option if you wish to exploit the remaining population. 그 보완은 모든 복제로 구성되어 있다. 그러면 다음과 같이 활동에 추가 전환이 추가됩니다.
 
    ![](assets/s_user_segmentation_dedup_param9.png)
 
-## 예: 배달 전 중복 항목 식별 {#example--identify-the-duplicates-before-a-delivery}
+## 예:배달 전 중복 항목 식별 {#example--identify-the-duplicates-before-a-delivery}
 
 다음 예에서는 데이터 중복 제거가 세 개의 쿼리 결합에 대해 우려를 나타내고 있습니다.
 
@@ -130,6 +128,6 @@ ht-degree: 0%
 * 스키마
 * recCount
 
-이 세 가지 값 집합은 중복 제거로 인해 발생한 대상을 식별합니다. **[!UICONTROL tableName]** 는 대상 식별자를 저장하는 테이블 이름 **[!UICONTROL schema]** 으로, 모집단(일반적으로 nms:recipient)의 스키마이며 표의 요소 **[!UICONTROL recCount]** 수입니다.
+이 세 값 집합은 중복 제거로 인해 발생한 대상을 식별합니다. **[!UICONTROL tableName]** 는 대상 식별자를 저장하는 테이블 이름 **[!UICONTROL schema]** 으로, 모집단(일반적으로 nms:recipient)의 스키마이며 테이블의 요소 **[!UICONTROL recCount]** 수입니다.
 
 보완과 연결된 전환에는 동일한 매개 변수가 있습니다.
