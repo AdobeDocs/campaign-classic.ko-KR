@@ -1,6 +1,6 @@
 ---
-title: 전달 가능성 관리
-seo-title: 전달 가능성 관리
+title: 게재 기능 관리
+seo-title: 게재 기능 관리
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -8,14 +8,14 @@ uuid: 9015830b-707d-4dbc-ac28-3b65d466c49f
 contentOwner: sauviat
 discoiquuid: 471f72f4-2cf9-46d9-bc69-fb7b80d02247
 iscontainer: true
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '8'
+ht-degree: 100%
 
 ---
 
 
-# 전달 가능성 관리{#deliverability-management}
+# 게재 기능 관리{#deliverability-management}
 
