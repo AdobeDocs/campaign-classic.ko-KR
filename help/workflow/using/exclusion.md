@@ -11,11 +11,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: acab51f3-686b-4d2b-bb02-8fbfae36b1ba
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ffee73b949a77343eaf23d0fb9a58a4283f4f87a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 1%
@@ -27,7 +24,7 @@ ht-degree: 1%
 
 제외 ****&#x200B;유형 활동은 하나 이상의 다른 타겟이 추출되는 기본 대상을 기반으로 대상을 만듭니다.
 
-이 활동을 구성하려면 해당 레이블을 입력하고 기본 수신자 세트를 선택합니다. 기본 세트의 모집단으로 결과를 만들 수 있습니다. 기본 집합에서 공유되는 프로파일과 시작 활동 중 하나 이상이 제외됩니다.
+이 활동을 구성하려면 해당 레이블을 입력하고 기본 수신자 세트를 선택합니다.기본 세트의 모집단으로 결과를 만들 수 있습니다. 기본 집합에서 공유되는 프로파일과 시작 활동 중 하나 이상이 제외됩니다.
 
 ![](assets/s_user_segmentation_exclu.png)
 
@@ -35,7 +32,7 @@ ht-degree: 1%
 >
 >제외 활동 구성 및 사용에 대한 자세한 내용은 인구 [제외(제외)를 참조하십시오](../../workflow/using/targeting-data.md#excluding-a-population--exclusion-).
 
-나머지 인구를 이용하려면 **[!UICONTROL Generate complement]** 옵션을 선택합니다. 그 보완에는 들어오는 주요 인구와 나가는 인구를 뺀 것이 포함될 것이다. 그러면 다음과 같이 활동에 추가 출력 전환이 추가됩니다.
+Check the **[!UICONTROL Generate complement]** option if you wish to exploit the remaining population. 그 보완에는 들어오는 주요 인구와 나가는 인구를 뺀 것이 포함될 것이다. 그러면 다음과 같이 활동에 추가 출력 전환이 추가됩니다.
 
 ![](assets/s_user_segmentation_exclu_compl.png)
 
