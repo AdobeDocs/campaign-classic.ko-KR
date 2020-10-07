@@ -11,33 +11,30 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1a139e1704a7df38a7b8088e23c972864f8ad998
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 마케팅 캠페인 설정{#setting-up-marketing-campaigns}
+# Setting up marketing campaigns{#setting-up-marketing-campaigns}
 
 캠페인에는 작업(배달) 및 프로세스(파일 가져오기 또는 추출)와 리소스(마케팅 문서, 배달 외곽선)가 포함됩니다. 마케팅 캠페인에서 사용됩니다. 캠페인은 프로그램의 일부이며 프로그램은 캠페인 계획에 포함됩니다.
 
 마케팅 캠페인을 만들려면
 
-1. 캠페인 만들기: 캠페인 및 그 특징: 레이블, 유형, 시작 및 종료 날짜, 예산, 관련 리소스, 관리자 및 참여자
+1. 캠페인 만들기:캠페인 및 그 특징:레이블, 유형, 시작 및 종료 날짜, 예산, 관련 리소스, 관리자 및 참여자
 
    캠페인 [만들기를 참조하십시오](#creating-a-campaign).
 
-1. 타겟 모집단 정의: 타깃팅 쿼리가 있는 워크플로우를 만듭니다.
+1. 타겟 모집단 정의:타깃팅 쿼리가 있는 워크플로우를 만듭니다.
 
    대상 [모집단 선택을 참조하십시오](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
 
-1. 배달 만들기: 채널을 선택하고 전송할 컨텐츠를 정의합니다.
+1. 배달 만들기:채널을 선택하고 전송할 컨텐츠를 정의합니다.
 
    배달 [만들기를 참조하십시오](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries).
 
@@ -121,7 +118,7 @@ ht-degree: 0%
 
 주기적 캠페인은 템플릿의 실행 일정에 따라 자동으로 생성되는 캠페인입니다.
 
-### 반복 캠페인 만들기 {#creating-a-recurring-campaign}
+### Creating a recurring campaign {#creating-a-recurring-campaign}
 
 반복되는 캠페인은 실행할 워크플로우 템플릿 및 실행 일정을 정의하는 특정 템플릿에서 만들어집니다.
 
@@ -173,8 +170,9 @@ ht-degree: 0%
 
    각 줄에 대해 다음과 같은 추가 옵션을 추가할 수 있습니다.
 
-   * **[!UICONTROL To be approved]** : 워크플로우에서 전달 승인 요청을 강제 적용할 수 있습니다.
-   * **[!UICONTROL To be started]** : 시작 날짜가 되면 워크플로우를 시작할 수 있습니다.
+   * **[!UICONTROL To be approved]** :워크플로우에서 전달 승인 요청을 강제 적용할 수 있습니다.
+   * **[!UICONTROL To be started]** :시작 날짜가 되면 워크플로우를 시작할 수 있습니다.
+
    이 **[!UICONTROL Create in advance for]** 필드를 사용하면 입력한 기간을 포함하는 모든 워크플로우를 만들 수 있습니다.
 
    워크플로우를 실행할 때 **[!UICONTROL Jobs on campaigns]** 전용 워크플로우는 캠페인 일정에 정의된 발생을 기반으로 만들어집니다. 따라서 각 실행 날짜에 대해 워크플로우가 만들어집니다.
@@ -198,7 +196,7 @@ ht-degree: 0%
    >워크플로우와 연관된 일정 라인의 시작 날짜는 다음 구문을 사용하여 워크플로우의 변수에서 사용할 수 있습니다.\
    >`$date(instance/vars/@startPlanningDate)`
 
-### 주기적인 캠페인 만들기 {#creating-a-periodic-campaign}
+### Creating a periodic campaign {#creating-a-periodic-campaign}
 
 주기적 캠페인은 실행 일정을 기반으로 캠페인 인스턴스를 만들 수 있는 특정 템플릿을 기반으로 하는 캠페인입니다. 캠페인 인스턴스는 템플릿 일정에 정의된 빈도에 따라 주기적인 캠페인 템플릿을 기반으로 자동으로 생성됩니다.
 
@@ -222,13 +220,13 @@ ht-degree: 0%
    >
    >이 워크플로우는 워크플로우 템플릿입니다. 캠페인 템플릿에서 실행할 수 없습니다.
 
-1. 반복되는 캠페인 템플릿에 대해 실행 일정을 완료합니다. 단추를 **[!UICONTROL Add]** 클릭하고 시작 및 종료 날짜를 정의하거나 링크를 통해 실행 일정을 채웁니다.
+1. 반복되는 캠페인 템플릿에 대해 실행 일정을 완료합니다.단추를 **[!UICONTROL Add]** 클릭하고 시작 및 종료 날짜를 정의하거나 링크를 통해 실행 일정을 채웁니다.
 
    ![](assets/s_ncs_user_op_template_period_planning_add.png)
 
    >[!IMPORTANT]
    >
-   >주기 캠페인 템플릿은 위에 정의된 일정에 따라 새 캠페인을 만듭니다. 따라서 Adobe Campaign 데이터베이스가 오버로드되지 않도록 주의해서 완료해야 합니다.
+   >주기 캠페인 템플릿은 위에 정의된 일정에 따라 새 캠페인을 만듭니다. 따라서 Adobe Campaign 데이터베이스가 과도하게 로드되지 않도록 주의해서 완료되어야 합니다.
 
 1. 실행 시작 날짜에 도달하면 일치하는 캠페인이 자동으로 생성됩니다. 템플릿의 모든 특성을 고려합니다.
 
