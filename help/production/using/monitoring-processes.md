@@ -11,11 +11,8 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 68d532a9597877f2f265dfc2d16ea31d1ce80858
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '3602'
 ht-degree: 0%
@@ -82,7 +79,7 @@ ht-degree: 0%
 
    지표 **[!UICONTROL Warning]** 및 **[!UICONTROL Alert]** 가 표시되면 고급 Windows 설정에서 교환 파일의 크기를 늘려 문제를 해결할 수 있습니다.
 
-* **[!UICONTROL Disk XXX]** :기계 독자와 관련된 정보입니다.
+* **[!UICONTROL Disk XXX]** :기계 독자에 대한 정보.
 
    **[!UICONTROL Current value]** :실제로 사용된 디스크 공간.
 
@@ -199,7 +196,7 @@ ht-degree: 0%
 
    **[!UICONTROL Active Processes]** :활성 프로세스 수입니다.
 
-   **[!UICONTROL Inactive Processes]** :비활성 프로세스 수
+   **[!UICONTROL Inactive Processes]** :비활성 프로세스 수.
 
    **[!UICONTROL Warning]** :이 표시기는 승인된 프로세스 수가 80% 임계값에 도달하면 표시됩니다.
 
