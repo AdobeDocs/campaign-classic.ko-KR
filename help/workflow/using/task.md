@@ -11,22 +11,22 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: ec6f9a10-ad84-4d9f-86e2-490539c2171b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
 
 
 # 작업{#task}
 
-캠페인 워크플로우에서 **[!UICONTROL Task]** 활동을 사용하여 다음 두 가지 시나리오를 지정할 수 있습니다.작업이 완료된 경우 첫 번째 작업, 완료되지 않은 경우 두 번째 작업(수동으로 불완료로 표시된 경우 또는 작업이 만료된 경우)
+캠페인 워크플로우에서 **[!UICONTROL Task]** 활동을 사용하면 다음 두 가지 시나리오를 지정할 수 있습니다.작업이 완료된 경우 첫 번째, 작업이 완료되지 않은 경우 두 번째(수동으로 불완료로 표시된 경우 또는 만료된 경우)
 
 ![](assets/mrm_task_in_workflow.png)
 
-작업을 구성하고 운영하는 방법은 이 [섹션에](../../campaign/using/creating-and-managing-tasks.md)자세히 설명되어 있습니다.
+작업을 구성 및 운영하는 방법은 이 [섹션에 자세히 설명되어 있습니다](../../campaign/using/creating-and-managing-tasks.md).
 
 ![](assets/wkf_task_activity.png)
 
