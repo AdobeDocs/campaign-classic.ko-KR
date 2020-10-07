@@ -11,14 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: f3cd5409-c301-4580-96e3-9349e18cf42a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4994aff9f2db36a519a9c7af2864393713eb65e3
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -39,4 +36,4 @@ ht-degree: 0%
 
 ![](assets/s_user_segmentation_jump_in.png)
 
-다이어그램의 가독성 향상을 위해 점프와 연결된 이미지를 변경하여 관련 숫자를 표시할 수 있습니다. 활동 [이미지 관리를 참조하십시오](../../workflow/using/managing-activity-images.md).
+다이어그램의 가독성 향상을 위해 점프와 연결된 이미지를 변경하여 관련 숫자를 표시할 수 있습니다. See [Managing activity images](../../workflow/using/managing-activity-images.md).
