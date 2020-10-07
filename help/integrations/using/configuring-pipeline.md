@@ -1,7 +1,7 @@
 ---
-title: 통합 구성
-seo-title: 통합 구성
-description: 통합 구성
+title: ' 통합 구성'
+seo-title: ' 통합 구성'
+description: ' 통합 구성'
 seo-description: null
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
@@ -11,14 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -42,9 +39,9 @@ Javascript 코드를 사용하여 트리거가 즉시 처리됩니다. 더 이�
 * 개인 키 파일을 만든 다음 해당 키로 등록된 oAuth 응용 프로그램 만들기를 참조하십시오.
 * Adobe Analytics의 트리거 구성
 
-Adobe Analytics 구성은 이 문서의 범위를 벗어납니다.
+Adobe Analytics 구성이 이 문서의 범위를 벗어났습니다.
 
-Adobe Campaign을 사용하려면 Adobe Analytics의 다음 정보가 필요합니다.
+Adobe Campaign의 경우 다음과 같은 정보가 필요합니다.
 
 * oAuth 응용 프로그램의 이름입니다.
 * Experience Cloud 고객의 식별자입니다.
@@ -69,9 +66,9 @@ Marketing Server가 온-프레미스에서 호스팅되는 경우 파이프라�
 
 ### IMSOrgId {#imsorgid}
 
-IMSOrgId는 Adobe Experience Cloud에서 고객의 식별자입니다.
+IMSOrgId는 Adobe Experience Cloud에 있는 고객의 식별자입니다.
 IMSOrgId 속성 아래의 인스턴스 serverConf.xml 파일에서 설정합니다.
-예:
+예제:
 
 ```
 <redirection IMSOrgId="C5E715(…)98A4@AdobeOrg" (…)
@@ -110,13 +107,13 @@ EwIDAQAB
 >
 >PuttyGen에서 키를 생성하지 않아야 합니다. OpenSSL이 가장 적합합니다.
 
-### Adobe Experience Cloud에서 Auth 클라이언트 생성 {#oauth-client-creation}
+### adobe experience cloud에서 oAuth 클라이언트 생성 {#oauth-client-creation}
 
 JWT 유형의 응용 프로그램은 **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > 아래의 올바른 조직 계정에서 Adobe Analytics에 로그인하여 만들어야 합니다 **[!UICONTROL Legacy Oath application]**.
 
 다음 단계를 따르십시오.
 
-1. 을 **[!UICONTROL Service Account (JWT Assertion)]**&#x200B;선택합니다.
+1. **[!UICONTROL Service Account (JWT Assertion)]**&#x200B;을(를) 선택합니다.
 1. 를 **[!UICONTROL Application Name]**&#x200B;입력합니다.
 1. 등록하십시오 **[!UICONTROL Public key]**.
 1. 트리거 항목을 선택합니다 **[!UICONTROL Scopes]**.
@@ -131,7 +128,7 @@ JWT 유형의 응용 프로그램은 **[!UICONTROL Admin]** > **[!UICONTROL User
 
 생성된 oAuth 클라이언트의 응용 프로그램 ID는 Adobe Campaign에서 구성해야 합니다. 요소의 인스턴스 구성 파일, 특히 appName 속성을 편집하여 [!DNL pipelined] 수행할 수 있습니다.
 
-예:
+예제:
 
 ```
 <pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
@@ -145,7 +142,7 @@ JWT 유형의 응용 프로그램은 **[!UICONTROL Admin]** > **[!UICONTROL User
 
 암호화된 개인 키는 Adobe Campaign에 등록되어 있어야 합니다. 요소의 인스턴스 구성 파일, 특히 authPrivateKey 속성을 편집하여 [!DNL pipelined] 수행할 수 있습니다.
 
-예:
+예제:
 
 ```
 <pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
@@ -180,7 +177,7 @@ nlserver restart pipelined@instance
 
 | 옵션 | 설명 |
 |:-:|:-:|
-| appName | Adobe Analytics에 등록된 OAuth 응용 프로그램(응용 프로그램 ID)의 ID(공개 키가 업로드된 경우): 관리 > 사용자 관리 > 기존 선서 응용 프로그램. 이[섹션을 참조하십시오](../../integrations/using/configuring-pipeline.md#oauth-client-creation). |
+| appName | Adobe Analytics에 등록된 OAuth 응용 프로그램(응용 프로그램 ID)의 ID(공개 키가 업로드된 경우):관리 > 사용자 관리 > 기존 선서 응용 프로그램. Refer to this [section](../../integrations/using/configuring-pipeline.md#oauth-client-creation). |
 | authGatewayEndpoint | &quot;게이트웨이 토큰&quot;을 가져오기 위한 URL. <br> 기본값: https://api.omniture.com |
 | authPrivateKey | 개인 키(Adobe Analytics에 업로드된 공개 부분(이 섹션 참조). XtkSecretKey 옵션을 사용하여 암호화된 AES: xtk.session.EncryptPassword(&quot;PRIVATE_KEY&quot;); |
 | disableAuth | 인증 비활성화(게이트웨이 토큰 없이 연결하는 것은 일부 개발 파이프라인 끝점에서만 허용됨) |
