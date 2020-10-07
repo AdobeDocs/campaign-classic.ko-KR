@@ -11,14 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: a4441820-1b3d-4bac-a6e3-1c9c14466d19
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9f55a2014546ce08972f51e4930ce04d4ce0c188
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,8 +29,8 @@ ht-degree: 0%
 아래 예에서 기본 워크플로우는 점프를 사용하여 하위 워크플로우를 호출하는 것입니다. 점프형 그래픽 오브젝트에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../workflow/using/jump--start-point-and-end-point-.md).
 
 1. 다른 워크플로우에서 하위 워크플로우로 사용할 워크플로우를 만듭니다.
-1. 워크플로가 시작될 때 우선 순위가 1인 활동을 삽입합니다. **[!UICONTROL Jump (end point)]** 여러 개의 &quot;끝점&quot; 문자 이동이 있는 경우 Adobe Campaign은 가장 낮은 수의 &quot;끝점&quot; 점프를 사용합니다.
-1. 워크플로가 끝날 때 우선 순위가 2인 활동을 삽입합니다. **[!UICONTROL Jump (start point)]** 여러 개의 &quot;시작점&quot; 문자 이동이 있는 경우 Adobe Campaign은 가장 높은 수의 &quot;시작점&quot; 이동을 사용합니다.
+1. 워크플로가 시작될 때 우선 순위가 1인 활동을 삽입합니다. **[!UICONTROL Jump (end point)]** 여러 개의 &quot;끝점&quot; 문자 점프가 있는 경우, Adobe Campaign은 가장 낮은 수의 &quot;끝점&quot; 점프를 사용합니다.
+1. 워크플로가 끝날 때 우선 순위가 2인 활동을 삽입합니다. **[!UICONTROL Jump (start point)]** 여러 개의 &quot;시작점&quot; 문자 점프가 있는 경우, Adobe Campaign은 가장 높은 수의 &quot;시작점&quot; 점프를 사용합니다.
 
    ![](assets/subworkflow_jumps.png)
 
@@ -51,7 +48,7 @@ ht-degree: 0%
    ![](assets/subworkflow_selection.png)
 
 1. 구성 스크립트를 추가하여 참조된 워크플로우를 변경할 수도 있습니다.
-1. **[!UICONTROL Ok]**&#x200B;을 클릭합니다. 그러면 선택한 워크플로우의 활동 레이블이 있는 아웃바운드 전환이 자동으로 **[!UICONTROL Jump (start point)]** 생성됩니다.
+1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다. 그러면 선택한 워크플로우의 활동 레이블이 있는 아웃바운드 전환이 자동으로 **[!UICONTROL Jump (start point)]** 생성됩니다.
 
    ![](assets/subworkflow_outbound.png)
 
@@ -84,4 +81,4 @@ ht-degree: 0%
 
 이 세 개의 값 세트는 쿼리를 기준으로 타깃팅된 모집단을 식별합니다. **[!UICONTROL tableName]** 는 대상 식별자를 기록하는 테이블 이름 **[!UICONTROL schema]** 으로, 모집단(일반적으로 nms:recipient)의 스키마이며 표의 요소 **[!UICONTROL recCount]** 수입니다.
 
-* targetSchema: 이 값은 작업 테이블의 스키마입니다. 이 매개 변수는 및 **[!UICONTROL tableName]** 가 있는 모든 전환 효과에 대해 유효합니다 **[!UICONTROL schema]**.
+* targetSchema:이 값은 작업 테이블의 스키마입니다. 이 매개 변수는 및 **[!UICONTROL tableName]** 가 있는 모든 전환 효과에 대해 유효합니다 **[!UICONTROL schema]**.
