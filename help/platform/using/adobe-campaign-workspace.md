@@ -11,11 +11,8 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 11a6ddd275dc8482e82f163abc14cacaf0281dff
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2165'
 ht-degree: 2%
@@ -117,7 +114,7 @@ Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 �
 
 ![](assets/s_ncs_user_navigation.png)
 
-**1 - 트리**:트리의 컨텐츠를 개인화할 수 있습니다(노드 추가, 이동 또는 삭제). 이 절차는 전문 사용자에게만 해당됩니다. For more on this, refer to [this page](../../configuration/using/about-navigation-hierarchy.md).
+**1 - 트리**:트리의 컨텐츠를 개인화할 수 있습니다(노드 추가, 이동 또는 삭제). 이 절차는 전문 사용자에게만 해당됩니다. 자세한 정보는 이 [페이지](../../configuration/using/about-navigation-hierarchy.md)를 참조하십시오.
 
 **2 - 목록**:이 목록을 필터링하거나 검색을 실행하거나 정보를 추가하거나 데이터를 정렬할 수 있습니다.
 
@@ -338,7 +335,7 @@ Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 �
 
 Adobe Campaign Classic 인스턴스의 언어는 날짜 및 시간 형식에 영향을 줍니다.
 
-Campaign을 설치할 때 언어가 선택되므로 나중에 변경할 수 없습니다. 다음을 선택할 수 있습니다.영어(미국), 영어(EN), 프랑스어, 독일어 또는 일본어입니다. For more on this, refer to [this page](../../installation/using/creating-an-instance-and-logging-on.md).
+Campaign을 설치할 때 언어가 선택되므로 나중에 변경할 수 없습니다. 다음을 선택할 수 있습니다.영어(미국), 영어(EN), 프랑스어, 독일어 또는 일본어입니다. 자세한 정보는 이 [페이지](../../installation/using/creating-an-instance-and-logging-on.md)를 참조하십시오.
 
 미국 영어와 영국 영어의 주요 차이점은 다음과 같습니다.
 
