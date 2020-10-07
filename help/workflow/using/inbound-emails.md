@@ -1,7 +1,7 @@
 ---
-title: 인바운드 이메일
-seo-title: 인바운드 이메일
-description: 인바운드 이메일
+title: 인바운드 전자 메일
+seo-title: 인바운드 전자 메일
+description: 인바운드 전자 메일
 seo-description: null
 page-status-flag: never-activated
 uuid: 6bcc7952-f051-4e50-8833-95d49c7ed781
@@ -11,19 +11,16 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 discoiquuid: 4c0530b1-0292-45bc-8730-668bc5b8550b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9e5a499d723d3e4126f533b6c7dd63073aff3d09
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# 인바운드 이메일{#inbound-emails}
+# 인바운드 전자 메일{#inbound-emails}
 
 인바운드 **이메일** 활동을 사용하면 POP3 메일 서버에서 이메일 메시지를 다운로드하고 처리할 수 있습니다.
 
@@ -71,6 +68,7 @@ ht-degree: 0%
    * 2 - 메시지를 서버에 남기고 아웃바운드 전환을 활성화합니다.
    * 3 - 서버에서 메시지를 삭제합니다.
    * 4 - 메시지를 서버에 둡니다.
+
    메시지의 내용은 글로벌 **[!UICONTROL mailMessage]** 변수에서 액세스할 수 있습니다.
 
 1. **[!UICONTROL Schedule]**
