@@ -11,11 +11,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: b53d9810-f61f-4257-b410-e4d30f78429d
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ffee73b949a77343eaf23d0fb9a58a4283f4f87a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 0%
@@ -25,7 +22,7 @@ ht-degree: 0%
 
 # 쿼리{#query}
 
-## 쿼리 만들기 {#creating-a-query}
+## Creating a query {#creating-a-query}
 
 쿼리를 사용하면 기준에 따라 대상을 선택할 수 있습니다. 세그먼트 코드를 쿼리 결과에 연결하고 추가 데이터를 삽입할 수 있습니다.
 쿼리 샘플에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../workflow/using/querying-recipient-table.md).
@@ -62,7 +59,7 @@ ht-degree: 0%
 
 1. 1단계에서 선택하거나 **[!UICONTROL Filtering conditions]** > **[!UICONTROL Filters]** 옵션을 사용한 경우 나중에 필터링 기준을 수동으로 추가해야 **[!UICONTROL Advanced filter...]** 합니다.
 
-   해당 상자를 선택하여 데이터 그룹화 조건을 추가할 수도 있습니다. 이렇게 하려면 필터링 차원이 쿼리의 타깃팅 차원과 달라야 합니다. 그룹화에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../workflow/using/querying-using-grouping-management.md).
+   해당 상자를 선택하여 데이터 그룹화 조건을 추가할 수도 있습니다. 이렇게 하려면 필터링 차원이 쿼리의 타깃팅 차원과 달라야 합니다. For more information on grouping, refer to this [section](../../workflow/using/querying-using-grouping-management.md).
 
    표현식 빌더를 사용하여 논리 옵션 AND, OR 및 EXCEPT와 결합하여 기준을 더 추가할 수도 있습니다. 그런 다음 기준 조합에 대한 **[!UICONTROL Corresponding SQL query...]** 를 미리 볼 수 있습니다. For more on this refer to this [section](../../platform/using/defining-filter-conditions.md#building-expressions).
 
@@ -82,15 +79,15 @@ ht-degree: 0%
 
 ![](assets/wf_add_data_1st_option.png)
 
-* Adobe Campaign 데이터베이스 **[!UICONTROL Data linked to the filtering dimension]** 에서 데이터를 선택하려면 선택합니다.
+* Adobe Campaign 데이터베이스 **[!UICONTROL Data linked to the filtering dimension]** 에서 데이터를 선택합니다.
 * 외부 데이터베이스 **[!UICONTROL External data]** 에서 데이터를 추가하려면 선택합니다. 이 옵션은 **통합 데이터 액세스** 옵션을 구입한 경우에만 사용할 수 있습니다. 자세한 내용은 외부 데이터베이스 [액세스(FDA)를 참조하십시오](../../workflow/using/accessing-an-external-database--fda-.md).
 * 오퍼 엔진에서 생성된 최적의 제안을 저장할 수 있는 열 세트를 추가하려면 옵션을 **[!UICONTROL An offer proposition]** 선택합니다. 이 옵션은 **상호 작용** 모듈을 구입한 경우에만 사용할 수 있습니다.
 
 플랫폼에 선택적 모듈이 설치되지 않은 경우 이 단계가 표시되지 않습니다. 다음 단계로 넘어가겠습니다
 
-Adobe Campaign 데이터베이스에서 데이터를 추가하려면:
+Adobe Campaign 데이터베이스의 데이터를 추가하려면:
 
-1. 추가할 데이터 유형을 선택합니다. 필터링 차원에 속하는 데이터이거나 연결된 테이블에 저장된 데이터일 수 있습니다.
+1. 추가할 데이터 유형을 선택합니다. 이 데이터는 필터링 차원에 속하는 데이터이거나 연결된 테이블에 저장된 데이터일 수 있습니다.
 
    ![](assets/query_add_columns.png)
 
@@ -124,15 +121,16 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면:
 
    * 여러 라인(**[!UICONTROL Limit the line count]**)을 복구하도록 선택하는 경우 수집할 라인 수를 지정할 수 있습니다.
    * 수집된 열에 집계된 실패 수, 사이트의 평균 비용 등 합계가 포함되어 있는 경우 값을 사용할 수 **[!UICONTROL Aggregates]** 있습니다.
+
    ![](assets/query_add_collection_param.png)
 
-1. 컬렉션의 하위 선택 항목을 지정합니다. 예: 지난 15일 동안의 구매에만 해당됩니다.
+1. 컬렉션의 하위 선택 항목을 지정합니다. 예:지난 15일 동안의 구매에만 해당됩니다.
 
    ![](assets/query_add_columns_collection_filter.png)
 
 1. 이 **[!UICONTROL Limit the line count]** 옵션을 선택한 경우 수집된 데이터를 필터링할 순서를 정의합니다. 수집된 라인 수가 유지되도록 지정한 라인 수보다 많으면 필터링 순서를 사용하여 유지할 라인을 지정할 수 있습니다.
 
-## 예: 단순 수신자 속성에 대한 타깃팅 {#example--targeting-on-simple-recipient-attributes}
+## 예:단순 수신자 속성에 대한 타깃팅 {#example--targeting-on-simple-recipient-attributes}
 
 다음 예에서는 18세에서 30세 사이이며 프랑스에서 살고 있는 남성을 묻는 질문입니다. 이 쿼리는 Workflow에서 사용됩니다. Workflow는 이 쿼리를 전용 오퍼로 만듭니다.
 
@@ -148,6 +146,7 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면:
    * 30세 미만의 수신자
    * 18세 이상의 수령인
    * 프랑스에 거주하는 수신자
+
    ![](assets/query_example.png)
 
    기준 조합과 일치하는 SQL을 볼 수 있습니다.
@@ -175,7 +174,7 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면:
 
 ## 쿼리 최적화 {#optimizing-queries}
 
-아래 섹션에서는 Adobe Campaign에서 실행되는 쿼리를 최적화하여 데이터베이스의 작업 로드를 제한하고 사용자 경험을 향상시키는 모범 사례를 제공합니다.
+아래 섹션에서는 데이터베이스의 작업 로드를 제한하고 사용자 환경을 개선하기 위해 Adobe Campaign에서 실행되는 쿼리를 최적화하는 우수 사례를 제공합니다.
 
 ### 연결 및 색인 {#joins-and-indexes}
 
@@ -192,7 +191,7 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면:
 
    쿼리의 실행 계획이 어떤 것인지를 확인합니다. 전체 테이블 스캔 방지, 특히 실시간 쿼리 또는 거의 실시간으로 실행되는 쿼리를 방지합니다.
 
-자세한 내용은 데이터 모델 모범 사례[및](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html) 데이터베이스 매핑 [](../../configuration/using/database-mapping.md) 섹션을 참조하십시오.
+자세한 내용은 데이터 모델 모범 사례[및](https://helpx.adobe.com/kr/campaign/kb/acc-data-model-best-practices.html) 데이터베이스 매핑 [](../../configuration/using/database-mapping.md) 섹션을 참조하십시오.
 
 ### 함수 {#functions}
 
@@ -221,7 +220,7 @@ SQL의 필터링 차원에 상응하는 값은 내부 연결입니다.
 
 For more on filtering dimensions, refer to [this section](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions).
 
-### 건축 {#architecture}
+### 아키텍쳐 {#architecture}
 
 * 프로덕션 플랫폼과 유사한 볼륨, 매개 변수 및 아키텍처로 개발 플랫폼을 구축할 수 있습니다.
 * 개발 및 프로덕션 환경에 동일한 값을 사용하십시오. 가능한 한 동일한 항목을 사용하십시오.
@@ -231,6 +230,7 @@ For more on filtering dimensions, refer to [this section](../../workflow/using/b
    * 데이터,
    * 애플리케이션,
    * 볼륨.
+
    >[!NOTE]
    >
    >개발 환경에서 작동하는 기능은 데이터가 다를 수 있는 프로덕션 환경에서 작동하지 않을 수 있습니다. 위험을 예측하고 솔루션을 준비할 수 있도록 주요 차이점을 파악하십시오.
