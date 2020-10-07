@@ -11,18 +11,18 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 3bd4f755-8e57-4f43-b7c0-5e4a76389930
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '24'
+ht-degree: 33%
 
 ---
 
 
 # Nlserver 모듈{#nlserver-module}
 
-서버 **모듈** 활동은 중앙 창에 지정된 매개 변수를 사용하여 nlserver 모듈을 시작합니다.
+서버 모듈 **** 활동은 중앙 창에 지정된 매개 변수를 사용하여 클라이언트 모듈을 실행합니다.
 
 ![](assets/nlserver_module_edit.png)
 
