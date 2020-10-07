@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 discoiquuid: 0c33fd79-8fa5-4cc0-8881-c6d6f4ee1648
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 16%
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ![](assets/d_ncs_integration_form_arbo.png)
 
-편집 영역을 사용하면 입력 양식의 XML 내용을 입력할 수 있습니다.
+편집 영역에서 입력 양식의 XML 내용을 입력할 수 있습니다.
 
 ![](assets/d_ncs_integration_form_edit.png)
 
