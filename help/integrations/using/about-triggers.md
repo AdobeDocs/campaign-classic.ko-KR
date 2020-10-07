@@ -11,11 +11,8 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 0d617f1c-0d0b-489f-9027-a92b1f1eee37
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 1%
@@ -25,7 +22,7 @@ ht-degree: 1%
 
 # Adobe Experience Cloud 트리거 기본 정보{#about-adobe-experience-triggers}
 
-[!DNL Triggers] 는 파이프라인을 사용하여 Adobe Campaign과 Adobe Analytics 간의 통합입니다. 파이프라인은 웹 사이트에서 사용자의 작업 또는 트리거를 검색합니다. 장바구니 포기는 트리거의 예입니다. 트리거가 Adobe Campaign에서 처리되어 거의 실시간으로 이메일을 전송합니다.
+[!DNL Triggers] 이 파이프라인을 사용한 Adobe Campaign과 Adobe Analytics의 통합. 파이프라인은 웹 사이트에서 사용자의 작업 또는 트리거를 검색합니다. 장바구니 포기는 트리거의 예입니다. 트리거는 Adobe Campaign에서 처리되어 거의 실시간으로 이메일을 보냅니다.
 
 [!DNL Triggers] 사용자의 조치에 따라 짧은 시간 내에 마케팅 작업을 실행합니다. 일반적인 응답 시간은 1시간 미만입니다.
 
@@ -38,7 +35,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Adobe Cloud 솔루션만이 Adobe의 파이프라인 서비스에서 이벤트를 생성하고 사용할 수 있습니다. Adobe 외부 시스템은 사용할 수 없습니다.
+>Adobe 클라우드 솔루션만이 Adobe 파이프라인 서비스에서 이벤트를 만들고 사용할 수 있습니다. Adobe 외부에 있는 시스템은 사용할 수 없습니다.
 
 파이프라인은 [Apache Kafka를 사용하는 Experience Cloud에서 호스팅되는 메시징 시스템입니다](http://kafka.apache.org/). 솔루션 간에 데이터를 손쉽게 전달할 수 있는 방법입니다. 또한 파이프라인은 데이터베이스가 아닌 메시지 대기열입니다. 제작자는 전달 과정에서 이벤트를 전달하고, 소비자는 전달 흐름을 듣고 이벤트를 사용하여 원하는 것을 합니다. 행사는 며칠 동안 진행되지만 더 이상은 없다. 목적은 24시간 연중무휴로 듣고 이벤트를 즉시 처리하는 것입니다.
 
@@ -52,7 +49,7 @@ ht-degree: 1%
 
 프로세스는 인증 서비스를 사용하여 Experience Cloud에 로그인하고 개인 키를 전송합니다. [!DNL pipelined] 인증 서비스는 토큰을 반환합니다. 토큰을 사용하여 이벤트를 검색할 때 인증합니다. [!DNL Triggers] 단순 GET 요청을 사용하여 REST 웹 서비스에서 검색됩니다. 응답은 JSON 형식입니다. 요청의 매개 변수에는 트리거 이름과 마지막으로 검색된 메시지를 나타내는 포인터가 포함됩니다. 자동으로 [!DNL pipelined] 처리됩니다.
 
-## Adobe Experience Cloud Triggers와 Adobe Campaign Classic 통합 사용
+## Adobe Campaign Classic과 Adobe Experience Cloud 트리거 통합 사용
 
 다음은 몇 가지 [!DNL Triggers] 우수 사례입니다.
 
