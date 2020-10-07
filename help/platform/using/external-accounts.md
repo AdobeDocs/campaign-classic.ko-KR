@@ -11,11 +11,8 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 discoiquuid: da60b9ca-4b51-4bff-affc-2b12c576973a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2218'
 ht-degree: 11%
@@ -197,7 +194,7 @@ Snowflake **외부** 계정을 사용하면 캠페인 인스턴스를 Snowflake 
 
 ### Teradata 외부 계정 {#teradata-external-account}
 
-Teradata **외부** 계정을 사용하면 캠페인 인스턴스를 Teradata 외부 데이터베이스에 연결할 수 있습니다. Teradata로 Campaign Classic을 구성하는 방법에 대한 자세한 내용은 이 [페이지](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) 또는 이 [섹션을 참조하십시오](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).
+Teradata **외부** 계정을 사용하면 캠페인 인스턴스를 Teradata 외부 데이터베이스에 연결할 수 있습니다. Teradata로 Campaign Classic을 구성하는 방법에 대한 자세한 내용은 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/campaign_fda_teradata.html) 또는 이 [섹션을 참조하십시오](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).
 
 ![](assets/ext_account_19.png)
 
