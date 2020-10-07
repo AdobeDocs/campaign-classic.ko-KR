@@ -11,11 +11,11 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 discoiquuid: 30e3082f-a367-4c3b-bff2-208ccf97acd4
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 1%
 
 ---
 
@@ -26,13 +26,13 @@ source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 구성에 따라 마이그레이션 테스트를 수행하는 방법에는 여러 가지가 있습니다.
 
-마이그레이션 테스트를 수행하려면 테스트/개발 환경이 있어야 합니다. 개발 환경은 다음 라이선스의 대상이 됩니다.라이선스 계약서를 확인하거나 Adobe Campaign의 세일즈 서비스에 문의하십시오.
+마이그레이션 테스트를 수행하려면 테스트/개발 환경이 있어야 합니다. 개발 환경은 다음 라이선스의 적용을 받습니다.라이선스 계약을 확인하거나 Adobe Campaign의 세일즈 서비스에 문의하십시오.
 
-1. 진행 중인 모든 개발 작업을 중단하고 생산 환경에 전달할 수 있습니다.
-1. 개발 환경 데이터베이스를 백업합니다.
-1. 개발 인스턴스에서 모든 Adobe Campaign 프로세스를 중지합니다.
+1. 진행 중인 모든 개발 작업을 중단하고 생산 환경으로 옮겨라.
+1. 개발 환경 데이터베이스의 백업을 만듭니다.
+1. 개발 인스턴스의 모든 Adobe Campaign 프로세스를 중지합니다.
 1. 프로덕션 환경 데이터베이스를 백업하고 개발 환경으로 복원합니다.
-1. Adobe Campaign 서비스를 시작하기 전에 **백업을 시작할 때 실행 중인 개체의 데이터베이스를 지울 수** 있는 freezeInstance.js 자막 스크립트를 실행하십시오.
+1. Adobe Campaign 서비스를 시작하기 전에 백업을 시작할 때 실행 중인 개체의 데이터베이스를 지울 수 있는 **freezeInstance.js** 자막 스크립트를 실행하십시오.
 
    ```
    nlserver javascript nms:freezeInstance.js -instance:<instance> -arg:<run|dry>
@@ -40,28 +40,28 @@ source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
    >[!NOTE]
    >
-   >명령은 기본적으로 **드라이** 모드에서 실행되며, 명령을 실행하지 않고 해당 명령으로 실행된 모든 요청을 나열합니다. 자궁 요청을 실행하려면 명령에서 **run** 을 사용합니다.
+   >명령은 기본적으로 **드라이** 모드에서 실행되며, 명령을 실행하지 않고 해당 명령으로 실행된 모든 요청을 나열합니다. 자간 요청을 실행하려면 명령에서 **실행을** 사용하십시오.
 
 1. 백업을 복원하여 백업이 올바른지 확인하십시오. 데이터베이스, 테이블, 데이터 등에 액세스할 수 있는지 확인합니다.
 1. 개발 환경에서 마이그레이션 절차를 테스트합니다.
 
-   전체 절차는 Adobe Campaign 7 [로 마이그레이션하기 위한 사전 요구 사항 섹션에](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) 설명되어 있습니다.
+   전체 절차는 Adobe Campaign 7 [로 마이그레이션하기 위한 전제 조건 섹션에 자세히 설명되어](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) 있습니다.
 
 1. 개발 환경의 마이그레이션이 성공하면 프로덕션 환경을 마이그레이션할 수 있습니다.
 
 >[!IMPORTANT]
 >
->데이터 구조의 변경 사항으로 인해 v5 플랫폼과 v7 플랫폼 간에는 데이터 패키지를 가져오거나 내보낼 수 없습니다.
+>데이터 구조 변경 사항으로 인해 v5 플랫폼과 v7 플랫폼 간에 데이터 패키지를 가져오거나 내보낼 수 없습니다.
 
 >[!NOTE]
 >
->Adobe Campaign 업데이트 명령(**업그레이드**&#x200B;후)을 사용하면 리소스를 동기화하고 스키마 및 데이터베이스를 업데이트할 수 있습니다. 이 작업은 응용 프로그램 서버에서만 한 번만 수행할 수 있습니다. 리소스를 동기화한 후 **업그레이드** 후 명령을 사용하면 동기화가 오류나 경고를 생성하는지 감지할 수 있습니다.
+>Adobe Campaign 업데이트 명령(업그레이드&#x200B;**후**)을 사용하면 리소스를 동기화하고 스키마 및 데이터베이스를 업데이트할 수 있습니다. 이 작업은 응용 프로그램 서버에서만 한 번만 수행할 수 있습니다. 리소스를 동기화한 후 업그레이드 **후** 명령을 사용하면 동기화를 통해 오류 또는 경고가 생성되는지 감지할 수 있습니다.
 
 ## 마이그레이션 도구 {#migration-tools}
 
 다양한 옵션을 사용하여 마이그레이션의 영향을 측정하고 잠재적인 문제를 식별할 수 있습니다. 다음 옵션을 실행합니다.
 
-* config **명령에서** 다음을 수행합니다.
+* config **명령** :
 
    ```
    nlserver.exe config <option> -instance:<instanceName>
@@ -75,11 +75,11 @@ source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 >[!NOTE]
 >
->**다음`<instanceame>`**인스턴스를 사용해야 합니다.옵션을 선택합니다. 모든 인스턴스**&#x200B;옵션을 사용하는 것은&#x200B;**권장되지 않습니다.
+>인스턴스를 사용해야 **합니다.`<instanceame>`** option. 모든 인스턴스 옵션은 사용하지 **않는 것이** 좋습니다.
 
 ### -showCustomEntities 및 -showDeletedEntities 옵션 {#showcustomentities-and--showdeletedentities-options}
 
-* showCustomEntities **옵션은** 비표준 개체의 목록을 표시합니다.
+* showCustomEntities **옵션은** 비표준 개체 목록을 표시합니다.
 
    ```
    nlserver.exe config -showCustomEntities -instance:<instanceName>
@@ -91,7 +91,7 @@ source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
    xtk_migration:opsecurity2 xtk:entity
    ```
 
-* showDeletedEntities **** 옵션은 데이터베이스나 파일 시스템에 없는 모든 표준 개체의 목록을 표시합니다. 누락된 각 개체에 대해 경로가 지정됩니다.
+* showDeletedEntities **옵션은** 데이터베이스 또는 파일 시스템에 없는 모든 표준 개체의 목록을 표시합니다. 누락된 각 개체에 대해 경로가 지정됩니다.
 
    ```
    nlserver.exe config -showDeletedEntities -instance:<instanceName>
@@ -105,7 +105,7 @@ source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ### 확인 프로세스 {#verification-process}
 
-업그레이드 후 명령에 표준으로 통합된 이 프로세스를 통해 마이그레이션 실패를 초래할 수 있는 경고 및 오류를 표시할 수 있습니다. **오류가 표시되면 마이그레이션이 실행되지 않았습니다.** 이러한 경우 모든 오류를 수정한 다음 사후 업그레이드를 다시 시작합니다.
+업그레이드 후 명령의 표준으로 통합된 이 프로세스를 통해 마이그레이션 실패를 초래할 수 있는 경고 및 오류를 표시할 수 있습니다. **오류가 표시되면 마이그레이션이 실행되지 않았습니다.** 이러한 경우 모든 오류를 수정한 다음 업그레이드 후 다시 시작하십시오.
 
 다음 명령을 사용하여 자체(마이그레이션 없이) 확인 프로세스를 시작할 수 있습니다.
 
@@ -122,7 +122,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 <table> 
  <thead> 
   <tr> 
-   <th> 표현식<br /> </th> 
+   <th> 표현<br /> </th> 
    <th> 오류 코드<br /> </th> 
    <th> 로그 유형<br /> </th> 
    <th> 댓글<br /> </th> 
@@ -133,7 +133,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
    <td> 경고<br /> </td> 
-   <td> 이러한 유형의 구문은 더 이상 제공 개인화에서 지원되지 않습니다. JavaScript를 <a href="../../migration/using/general-configurations.md#javascript" target="_blank">참조하십시오</a>. 그렇지 않으면 값 유형이 올바른지 확인하십시오.<br /> </td> 
+   <td> 이 유형의 구문은 더 이상 제공 개인화에서 지원되지 않습니다. JavaScript를 <a href="../../migration/using/general-configurations.md#javascript" target="_blank">참조하십시오</a>. 그렇지 않으면 값 유형이 올바른지 확인하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 
@@ -145,13 +145,13 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> logon(<br /> </td> 
    <td> PU-0003<br /> </td> 
    <td> 경고<br /> </td> 
-   <td> 이 연결 메서드는 더 이상 사용할 수 없습니다. 식별된 <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">웹 애플리케이션을</a>참조하십시오.<br /> </td> 
+   <td> 이 연결 메서드는 더 이상 사용할 수 없습니다. 식별된 <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">웹 애플리케이션을 참조하십시오</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> new SoapMethodCall(<br /> </td> 
    <td> PU-0004<br /> </td> 
    <td> 경고<br /> </td> 
-   <td> 이 함수는 sessionTokenOnly <strong>모드에 있는 보안 영역에서 실행되는 JavaScript 코드에서 사용되는 경우에만 지원됩니다</strong> .<br /> </td> 
+   <td> 이 함수는 sessionTokenOnly <strong></strong> 모드에 있는 보안 영역에서 실행되는 JavaScript 코드에서 사용되는 경우에만 지원됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> sql=<br /> </td> 
@@ -163,16 +163,16 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> 오류<br /> </td> 
-   <td> 이 유형의 오류로 인해 마이그레이션 오류가 발생합니다. SQLData를 <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">참조하십시오</a>. 개요 유형 웹 애플리케이션 오류 로그(v6.02에서 마이그레이션)가 표시되면 웹 <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">애플리케이션을</a>참조하십시오.<br /> </td> 
+   <td> 이 유형의 오류로 인해 마이그레이션 오류가 발생합니다. SQLData를 <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">참조하십시오</a>. 개요 유형 웹 응용 프로그램 오류 로그(v6.02에서 마이그레이션)가 표시되면 <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">웹 응용 프로그램을 참조하십시오</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-데이터베이스 및 스키마 일관성 확인도 수행됩니다.
+데이터베이스와 스키마 일관성 확인도 실시됩니다.
 
 ### 복원 옵션 {#restoration-option}
 
-이 옵션을 사용하면 즉시 사용 가능한 개체를 수정한 경우 복원할 수 있습니다. 복원된 각 개체에 대해 변경 내용의 백업이 선택한 폴더에 저장됩니다.
+이 옵션을 사용하면 기본 개체를 수정한 경우 복원할 수 있습니다. 복원된 각 개체에 대해 변경 내용의 백업이 선택한 폴더에 저장됩니다.
 
 ```
 nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instanceName>
@@ -184,4 +184,4 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 
 ### 마이그레이션 재개 {#resuming-migration}
 
-마이그레이션 실패 후 PostUpgrade를 다시 시작하면 중단된 위치에서 다시 시작됩니다.
+마이그레이션 실패 후 업그레이드 후 다시 시작하는 경우 중단된 동일한 위치에서 다시 시작됩니다.
