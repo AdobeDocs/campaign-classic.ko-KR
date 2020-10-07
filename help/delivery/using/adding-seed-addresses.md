@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 discoiquuid: 0b9b53bf-4dd2-416c-894e-393aded489f8
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 5%
 
 ---
 
@@ -28,31 +28,31 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ![](assets/s_ncs_user_edit_del_addresses_tab.png)
 
-세 가지 삽입 모드가 있습니다.
+세 가지 삽입 모드를 사용할 수 있습니다.
 
 1. 단일 시드 주소를 입력합니다.
 
-   이렇게 하려면 **[!UICONTROL Add]** 단추를 클릭하고 주소 필드의 내용을 정의합니다. 각 주소에 대해 반복합니다. For more on this, refer to [this section](../../message-center/using/managing-seed-addresses-in-transactional-messages.md#creating-a-seed-address).
+   이렇게 하려면 **[!UICONTROL Add]** 단추를 클릭하고 주소 필드의 내용을 정의합니다. 각 주소에 대해 반복합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../message-center/using/managing-seed-addresses-in-transactional-messages.md#creating-a-seed-address)을 참조하십시오.
 
-1. 주소 템플릿을 가져와 필요에 맞게 변경할 수 있습니다.
+1. 주소 템플릿을 가져와 필요에 맞게 변경
 
-   이렇게 하려면 링크를 클릭하고 주소 템플릿이 들어 있는 폴더를 선택합니다. **[!UICONTROL Import seed templates...]** 자세한 내용은 시드 주소 템플릿 [만들기를 참조하십시오](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates).
+   이렇게 하려면 **[!UICONTROL Import seed templates...]** 링크를 클릭하고 주소 템플릿이 포함된 폴더를 선택합니다. 자세한 내용은 시드 주소 템플릿 [만들기를 참조하십시오](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates).
 
    필요한 경우 주소를 두 번 클릭하거나 단추를 클릭하여 각 주소의 컨텐츠를 조정할 수 있습니다. **[!UICONTROL Detail...]**
 
-1. 삽입할 컨트롤 주소를 동적으로 선택할 조건을 만듭니다.
+1. 삽입할 컨트롤 주소를 동적으로 선택하는 조건을 만듭니다.
 
    이렇게 하려면 **[!UICONTROL Edit the dynamic condition...]** 링크를 클릭한 다음 시드 주소 선택 매개 변수를 입력합니다. 예를 들어 특정 폴더에 포함된 모든 시드 주소 또는 조직의 특정 부서에 속하는 시드 주소를 포함할 수 있습니다.
 
-   이 섹션의 예는 다음과 같습니다.사용 [사례:기준에](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)대한 시드 주소 선택.
+   이 섹션의 예는 다음과 같습니다. [사용 사례:기준에 대한 시드 주소 선택](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
 
 >[!NOTE]
 >
->이 옵션은 사용된 수신자 테이블이 기본 **nms:recipient** 테이블이 아니고 Adobe Campaign의 **[!UICONTROL Deliverability]** 모듈과 함께 제공된 받은 편지함 렌더링 기능을 사용하는 경우에 사용됩니다.
+>이 옵션은 사용된 받는 사람 테이블이 기본 **nms:recipient** 테이블이 아니고 Adobe Campaign의 **[!UICONTROL Deliverability]** 모듈과 함께 제공된 받은 편지함 렌더링 기능을 사용하는 경우에 사용됩니다.
 >
->자세한 내용은 외부 받는 사람 [표](../../delivery/using/using-an-external-recipient-table.md) 사용 및 받은 편지함 렌더링의 설명서를 [참조하십시오](../../delivery/using/inbox-rendering.md).
+>자세한 내용은 외부 받는 사람 표 [사용](../../delivery/using/using-an-external-recipient-table.md) 및 받은 편지함 렌더링에서 설명서를 [참조하십시오](../../delivery/using/inbox-rendering.md).
 
-전달의 경우 주소를 추출 파일에 삽입하는 방법을 사용자 정의할 수도 있습니다. 기본적으로 출력 파일의 정렬 순서에 삽입되지만 파일의 끝이나 시작 부분에 삽입하거나 기본 대상의 수신자 사이에 임의로 삽입할 수 있습니다.
+배달의 경우 주소를 추출 파일에 삽입하는 방법을 사용자 정의할 수도 있습니다. 기본적으로 출력 파일의 정렬 순서에 삽입되지만 파일의 끝이나 시작 부분에 삽입하거나 기본 대상의 수신자에게 임의로 삽입할 수 있습니다.
 
 ![](assets/s_ncs_user_edit_del_addresses_sort.png)
 
