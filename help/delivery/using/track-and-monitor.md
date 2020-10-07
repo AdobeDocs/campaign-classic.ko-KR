@@ -9,14 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5e6ecd636ee0b2199808c03b2fd898a194f0c1ea
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -25,17 +22,17 @@ ht-degree: 0%
 
 전송 버튼을 클릭했습니까? 어떻게 되는지 봅시다. 배달이 전송되면 Adobe Campaign을 통해 보낸 메시지를 추적하고 수신자가 전달에 어떻게 반응하는지 알 수 있습니다. 이를 통해 향후 전송을 개선하고 다음 캠페인을 최적화할 수 있습니다.
 
-## 배달 모니터링 {#monitoring-deliveries}
+## 게재 모니터링 {#monitoring-deliveries}
 
 캠페인을 제어하려면 메시지를 받는 사람에게 실제로 전달했는지 확인해야 합니다.
 
 캠페인 배달 대시보드에서 처리된 메시지와 배달 감사 로그를 확인할 수 있습니다.
-배달 로그에 있는 메시지의 상태를 제어할 수도 있습니다. [자세히 알아보기](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
+배달 로그에 있는 메시지의 상태를 제어할 수도 있습니다. [자세히 알아보기](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard)
 
 배송이 전송되지 않고 상태가 보류 **중으로 유지되면 어떻게 됩니까**?
 
 * 일부 리소스가 사용 가능한 상태에서 실행 프로세스가 대기 중입니다. MTA가 시작되지 않았을 수 있습니다.
-mta@instance 모듈이 MTA 서버에서 시작되었는지 확인하고 필요한 경우 MTA 모듈을 시작합니다. [자세히 알아보기](../../production/using/administration.md).
+mta@instance 모듈이 MTA 서버에서 시작되었는지 확인하고 필요한 경우 MTA 모듈을 시작합니다. [자세히 알아보기](../../production/using/administration.md)
 
 * 배달은 전송 인스턴스에서 구성되지 않은 친화성을 사용할 수 있습니다.
 팁:트래픽 관리(IP 친화성) 구성을 확인합니다. 자세한 내용은 나가는 SMTP 트래픽 제어를 참조하십시오.
