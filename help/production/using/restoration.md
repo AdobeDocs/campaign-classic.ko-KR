@@ -11,11 +11,11 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 5d6b2c11-d97e-4fdb-9baf-e3bc446e7b8e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 6%
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 * 타사 애플리케이션 설치:웹 서버, JDK(필요한 경우),
 * 소스 시스템과 동일한 빌드로 Adobe Campaign 바이너리 설치,
 * 구성 파일 복사, 추적 로그 및 리디렉션 파일
-* 데이터베이스 생성 및 재구축,
-* adobe Campaign을 시작합니다.
+* 데이터베이스를 만들고 다시 빌드합니다.
+* adobe campaign을 시작합니다.
 
-자세한 내용은 설치 **안내서를 참조하십시오**.
+For more information, refer to the **Installation Guide**.
 
