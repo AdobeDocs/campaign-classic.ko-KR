@@ -11,14 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 5addada8-0185-488f-9825-83f60981c139
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 762a6ba3fdad9c30407bf807f2cd8076796f98c2
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -57,7 +54,7 @@ Adobe Campaign을 사용하면 전체 라이프사이클 동안 프로파일을 
 
 ## 프로필 및 타겟 {#profiles-and-targets}
 
-이 **[!UICONTROL Profiles and targets]** 링크를 사용하면 Adobe Campaign 데이터베이스에 저장된 수신자를 표시할 수 있습니다. 새 수신자를 만들고, 기존 수신자를 편집하고, 해당 프로필에 액세스할 수 있습니다. For more on this, refer to [this page](../../platform/using/editing-a-profile.md).
+이 **[!UICONTROL Profiles and targets]** 링크를 사용하면 Adobe Campaign 데이터베이스에 저장된 수신자를 표시할 수 있습니다. 새 수신자를 만들고, 기존 수신자를 편집하고, 해당 프로필에 액세스할 수 있습니다. 자세한 정보는 이 [페이지](../../platform/using/editing-a-profile.md)를 참조하십시오.
 
 ![](assets/d_ncs_user_interface_target_link.png)
 
