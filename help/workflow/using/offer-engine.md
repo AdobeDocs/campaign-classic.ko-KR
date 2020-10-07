@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 08987595-e80c-4197-ad1e-9aa7cfc7c3eb
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 이 **[!UICONTROL Offer engine]** 활동을 사용하면 배달 전에 오퍼 엔진에 대한 호출을 정의할 수 있습니다.
 
-이러한 활동은 전달 전에 엔진에서 계산된 오퍼를 통해 인바운드 모집단 데이터를 증가시켜 엔진 호출을 통한 농축활동과 동일한 원리로 작동합니다.
+이러한 활동은 게재 전에 엔진에서 계산된 오퍼로 인바운드 모집단 데이터를 증가시켜 엔진 호출을 통한 농축활동과 동일한 원리로 작동합니다.
 
 ![](assets/int_offerengine_activity2.png)
 
@@ -35,9 +35,9 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
    >[!CAUTION]
    >
-   >이 활동을 사용하는 경우 게재에 사용된 오퍼 제안만 저장됩니다.
+   >이 활동을 사용하는 경우 게재에 사용된 오퍼 옵션만 저장됩니다.
 
    ![](assets/int_offerengine_activity1.png)
 
-1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다. 크로스 [채널 전달을](../../workflow/using/cross-channel-deliveries.md)참조하십시오.
+1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다. 크로스 [채널 전달을 참조하십시오](../../workflow/using/cross-channel-deliveries.md).
 
