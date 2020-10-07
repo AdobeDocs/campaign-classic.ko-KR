@@ -11,19 +11,16 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: dd8f9adf-208c-42d9-b1a7-bfc8a690687e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d60389eb735fb50188ddc2f2e3df3788a3213446
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 
-# Campaign Classic 내장 패키지 설치{#installing-campaign-standard-packages}
+# Installing Campaign Classic built-in packages{#installing-campaign-standard-packages}
 
 ## 내장 패키지 정보 {#campaign-standard-packages}
 
@@ -33,14 +30,14 @@ ht-degree: 2%
 >
 >라이센스 계약에 명시된 옵션에 해당하는 패키지만 설치할 수 있습니다.
 >
->새 패키지를 설치하면 모든 플랫폼에 영향을 줄 수 있습니다. 최종 배포 전에 테스트 및 유효성 검사를 수행해야 합니다.
+>새 패키지를 설치하면 모든 플랫폼에 영향을 줄 수 있습니다.최종 배포 전에 테스트 및 유효성 검사를 수행해야 합니다.
 >
 >패키지가 설치되면 제거할 수 없습니다.
 
 내장 패키지를 설치하려면:
 
 1. Adobe Campaign 클라이언트 콘솔에서 패키지 가져오기 마법사 **[!UICONTROL Tools > Advanced > Package import...]** 에 액세스합니다.
-1. 선택합니다 **[!UICONTROL Install a standard package]**.
+1. **[!UICONTROL Install a standard package]**&#x200B;을(를) 선택합니다.
 1. 패키지 목록에서 설치할 패키지를 확인합니다.
    >[!NOTE]
    >
@@ -68,7 +65,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> 게재<br /> </td> 
-   <td> 메시지가 전송될 때 발생하는 전달 및 최종 문제를 모니터링합니다. <a href="../../delivery/using/monitoring-a-delivery.md">자세한 내용</a><br /> </td> 
+   <td> 메시지가 전송될 때 발생하는 전달 및 최종 문제를 모니터링합니다. <a href="../../delivery/using/monitoring-a-delivery.md">자세히 알아보기</a><br /> </td> 
    <td> 모두</td> 
   </tr> 
   <tr> 
@@ -77,7 +74,7 @@ ht-degree: 2%
    <td> 마케팅</td>
   </tr> 
   <tr> 
-   <td> 마케팅 리소스(MRM)<br /> </td> 
+   <td> Marketing resources (MRM)<br /> </td> 
    <td> 작업, 예산 및 마케팅 리소스에 대한 관리 및 추적을 제공하여 협업 모드에서 마케팅 작업을 제어합니다. <a href="../../campaign/using/about-marketing-resource-management.md">자세한 내용</a> <br /> </td> 
    <td> 마케팅</td> 
   </tr> 
@@ -104,7 +101,7 @@ ht-degree: 2%
   </tr--> 
   <tr> 
    <td> 소셜 네트워크(소셜 마케팅) <br /> </td> 
-   <td> Adobe Campaign을 Twitter 및 Facebook과 동기화합니다. <a href="../../social/using/about-social-marketing.md">자세한 내용</a> <br /> </td> 
+   <td> Adobe Campaign을 트위터와 페이스북과 동기화한다. <a href="../../social/using/about-social-marketing.md">자세한 내용</a> <br /> </td> 
    <td> 모두</td> 
   </tr> 
   <tr> 
@@ -119,17 +116,17 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> LINE 채널<br /> </td> 
-   <td> Adobe Campaign과 함께 LINE 채널을 사용하여 납품을 전송합니다. 선택 사항입니다. 트랜잭션 메시지(메시지 센터 패키지) 필수입니다. <a href="../../delivery/using/line-channel.md">자세한 내용</a> <br /> </td> 
+   <td> LINE 채널을 사용하여 Adobe Campaign과 함께 납품을 보냅니다. 선택 사항입니다. 트랜잭션 메시지(메시지 센터 패키지) 필수입니다. <a href="../../delivery/using/line-channel.md">자세한 내용</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
    <td> DM 채널<br /> </td> 
-   <td> Adobe Campaign과 함께 DM 채널을 사용하여 배달을 전송합니다. 선택 사항입니다. <a href="../../delivery/using/about-direct-mail-channel.md">자세한 내용</a><br /> </td> 
+   <td> Adobe Campaign과 함께 DM 채널을 사용하여 배달물을 보냅니다. 선택 사항입니다. <a href="../../delivery/using/about-direct-mail-channel.md">자세한 내용</a><br /> </td> 
    <td> 모두<br /> </td>
   </tr> 
   <tr> 
    <td> 모바일 채널(SMS) <br /> </td> 
-   <td> Adobe Campaign과 함께 모바일/SMS 채널을 사용하여 배달을 보냅니다. 선택 사항입니다. <a href="../../delivery/using/sms-channel.md">자세한 내용</a> <br /> </td> 
+   <td> Adobe Campaign과 함께 모바일/SMS 채널을 사용하여 배달물을 보냅니다. 선택 사항입니다. <a href="../../delivery/using/sms-channel.md">자세한 내용</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
@@ -153,13 +150,13 @@ ht-degree: 2%
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
-   <td> 응답 관리자<br /> </td> 
+   <td> 반응 관리자<br /> </td> 
    <td> 마케팅 캠페인의 성공 및 수익성을 측정하거나 모든 커뮤니케이션 채널에 대한 제안을 제공합니다.  선택 사항입니다. <a href="../../campaign/using/about-response-manager.md">자세한 내용</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
    <td> 외부 데이터 액세스(통합 데이터 액세스)<br /> </td> 
-   <td> 하나 이상의 외부 데이터베이스에 저장된 정보를 처리할 수 있도록 연합 데이터 액세스(FDA) 옵션을 제공하여 Adobe Campaign 데이터 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.  선택 사항입니다. <a href="../../workflow/using/accessing-an-external-database--fda-.md">자세한 내용</a> <br /> </td> 
+   <td> 하나 이상의 외부 데이터베이스에 저장된 정보를 처리할 수 있는 통합 데이터 액세스(FDA) 옵션을 제공하므로 Adobe Campaign 데이터 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.  선택 사항입니다. <a href="../../workflow/using/accessing-an-external-database--fda-.md">자세한 내용</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
@@ -188,37 +185,37 @@ ht-degree: 2%
    <td> 마케팅 </td> 
   </tr> 
   <tr> 
-   <td> CRM 커넥터<br /> </td> 
+   <td> CRM connectors<br /> </td> 
    <td> Adobe Campaign 플랫폼을 타사 시스템에 연결하는 다양한 CRM 커넥터를 제공합니다.  <a href="../../platform/using/crm-connectors.md">자세한 내용</a> <br /> </td> 
    <td> 마케팅</td> 
   </tr> 
   <tr> 
-   <td> 웹 Analytics 커넥터<br /> </td> 
-   <td> Adobe Campaign 및 Adobe Analytics이 웹 Analytics 커넥터 패키지를 통해 상호 작용할 수 있도록 허용합니다. 트랜잭션 메시지(메시지 센터 패키지)와 호환되지 않습니다. <a href="../../platform/using/adobe-analytics-data-connector.md">자세한 내용</a><br /> </td> 
+   <td> 웹 분석 커넥터<br /> </td> 
+   <td> Adobe Campaign과 Adobe Analytics이 웹 분석 커넥터 패키지를 통해 상호 작용할 수 있습니다. 트랜잭션 메시지(메시지 센터 패키지)와 호환되지 않습니다. <a href="../../platform/using/adobe-analytics-data-connector.md">자세한 내용</a><br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
   <tr> 
    <td> AEM 통합<br /> </td> 
-   <td> AEM의 컨텐츠 편집 기능 및 Adobe Campaign 전달 용량을 활용할 수 있도록 Adobe Experience Manager에서 직접 양식 뿐만 아니라 이메일 게재 컨텐츠를 관리할 수 있습니다. <a href="../../integrations/using/about-adobe-experience-manager.md">자세한 내용</a> <br /> </td> 
+   <td> Adobe Campaign의 전달 용량 외에 AEM 컨텐츠 편집 기능을 활용할 수 있도록 이메일 전달 컨텐츠와 양식을 Adobe Experience Manager에서 직접 관리할 수 있습니다. <a href="../../integrations/using/about-adobe-experience-manager.md">자세한 내용</a> <br /> </td> 
    <td> 마케팅</td> 
   </tr> 
   <tr> 
    <td> Adobe Marketing Cloud 공유 대상 통합<br /> </td> 
-   <td> Adobe Experience Cloud 솔루션 및 핵심 서비스와 고객/세그먼트를 교환하고 공유할 수 있습니다. IMS가 필요합니다. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">자세한 내용</a> <br /> </td> 
+   <td> Adobe Experience Cloud 솔루션 및 핵심 서비스와 대상/세그먼트를 교환하고 공유할 수 있습니다. IMS가 필요합니다. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">자세한 내용</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Marketing Cloud과 통합<br /> </td> 
-   <td> 다른 Adobe Marketing Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. 선택 사항입니다. <a href="../../integrations/using/configuring-ims.md#installing-the-package">자세한 내용</a> </td> 
+   <td> 다양한 Adobe Marketing Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. 선택 사항입니다. <a href="../../integrations/using/configuring-ims.md#installing-the-package">자세한 내용</a> </td> 
    <td> 마케팅</td> 
   </tr> 
   <tr> 
    <td> 개인 정보 보호 규정<br /> </td> 
-   <td> Campaign Classic에서 개인 정보 보호를 준수하는 추가 기능을 포함합니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">자세한 내용</a> <br /> </td> 
+   <td> Campaign Classic에서 개인 정보 보호를 준수하는 추가 기능을 포함합니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html">자세한 내용</a> <br /> </td> 
    <td> 모두</td> 
   </tr> 
   <tr> 
-   <td> 중간 소싱으로 이전 <br /> </td> 
+   <td> Transfer to Mid-Sourcing <br /> </td> 
    <td> 중간 소싱 서버의 설치 및 구성뿐만 아니라 제3자가 중간 소싱 모드로 메시지를 전송할 수 있는 인스턴스의 배포에 대해 자세히 설명합니다. 선택 사항입니다. <a href="../../installation/using/mid-sourcing-server.md">자세한 내용</a> <br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
@@ -229,7 +226,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> ACS 커넥터<br /> </td> 
-   <td> Adobe Campaign v7 및 Adobe Campaign Standard을 연결해줍니다. 이 기능은 Campaign v7의 통합 기능으로, Campaign Standard에 데이터를 자동으로 복제하여 두 애플리케이션 중 최고의 성능을 제공합니다. 선택 사항입니다. <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">자세한 내용</a> <br /> </td> 
+   <td> Adobe Campaign v7과 Adobe Campaign Standard 다리 이 기능은 Campaign v7의 통합 기능으로, Campaign Standard에 데이터를 자동으로 복제하여 두 애플리케이션 중 최고의 성능을 제공합니다. 선택 사항입니다. <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">자세한 내용</a> <br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
  </tbody> 
