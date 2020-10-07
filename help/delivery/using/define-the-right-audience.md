@@ -9,11 +9,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5e6ecd636ee0b2199808c03b2fd898a194f0c1ea
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 1%
@@ -41,7 +38,7 @@ Campaign Classic에서 기본적으로 배달 템플릿은 수신자를 **타깃
 
 이러한 매핑은 이 섹션 [에 표시됩니다](../../delivery/using/selecting-a-target-mapping.md).
 
-사용자 지정된 대상 매핑을 만들고 사용할 수도 있습니다. 자세한 정보는 [이 섹션](../../configuration/using/target-mapping.md)을 참조하십시오.
+사용자 지정된 대상 매핑을 만들고 사용할 수도 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../configuration/using/target-mapping.md)을 참조하십시오.
 
 ## 외부 수신자 {#external-recipients}
 
