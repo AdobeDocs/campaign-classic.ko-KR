@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: b64c9729-cfe2-4d02-8c59-9e53efd34a96
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
 
 모바일 장치가 Wi-Fi에 연결되어 있고 알림을 받지 않는 경우 FCM/APNS 포트가 방화벽으로 차단되지 않는지 확인하십시오.
 
-**Android**:모바일 장치는 포트 5228에서 5230 사이의 FCM 서버에 연결합니다. 따라서 FCM과의 연결을 승인하도록 방화벽을 구성해야 합니다. 열 포트는 다음과 같습니다.5228(가장 자주 사용되는 항목), 5229 및 5230.
+**Android**:모바일 장치는 포트 5228 ~ 5230의 FCM 서버에 연결합니다. 따라서 FCM과의 연결을 승인하도록 방화벽을 구성해야 합니다. 열 포트는 다음과 같습니다.5228(가장 자주 사용하는 항목), 5229 및 5230입니다.
 
 **iOS**:
 
@@ -37,4 +37,4 @@ HTTP/2 커넥터:다음 서버와의 통신을 허용해야 합니다.
 
 >[!NOTE]
 >
->두 커넥터에 대한 자세한 내용은 Adobe Campaign에서 [모바일 애플리케이션 구성을 참조하십시오](../../delivery/using/configuring-the-mobile-application.md).
+>두 커넥터에 대한 자세한 내용은 Adobe Campaign에서 [모바일 응용 프로그램 구성을 참조하십시오](../../delivery/using/configuring-the-mobile-application.md).
