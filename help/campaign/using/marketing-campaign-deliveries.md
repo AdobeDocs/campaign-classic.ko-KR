@@ -11,19 +11,16 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2956'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 마케팅 캠페인 전달 {#marketing-campaign-deliveries}
+# Marketing campaign deliveries {#marketing-campaign-deliveries}
 
 게재는 캠페인 대시보드, 캠페인 워크플로우를 통해 만들거나 게재 개요를 통해 직접 만들 수 있습니다.
 
@@ -47,7 +44,7 @@ ht-degree: 0%
 
 * 주요 타겟입니다. 자세한 내용은 워크플로우에서 [기본 대상 작성](#building-the-main-target-in-a-workflow) 및 대상 모집단 [선택을 참조하십시오](#selecting-the-target-population).
 * 제어 그룹입니다. 자세한 내용은 제어 그룹 [정의를 참조하십시오](#defining-a-control-group).
-* 시드 주소는 자세한 정보는 [이 섹션](../../delivery/using/about-seed-addresses.md)을 참조하십시오.
+* 시드 주소는 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/about-seed-addresses.md)을 참조하십시오.
 
 이 정보 중 일부는 템플릿에서 상속됩니다.
 
@@ -88,7 +85,7 @@ ht-degree: 0%
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 
-#### Creating a targeting workflow {#creating-a-targeting-workflow}
+#### 타겟팅 워크플로우 만들기 {#creating-a-targeting-workflow}
 
 타깃팅은 워크플로우의 그래픽 시퀀스에 있는 필터링 조건을 조합하여 만들 수 있습니다. 사용자 요구 사항에 따라 타깃팅될 모집단과 하위 인구를 생성할 수 있습니다. 워크플로우 편집기를 표시하려면 캠페인 대시보드에서 **[!UICONTROL Targeting and workflows]** 탭을 클릭합니다.
 
@@ -167,7 +164,7 @@ ht-degree: 0%
 
       ![](assets/s_user_segmentation_pause_status.png)
 
-      또한 타깃팅 워크플로우가 특정 활동에 도달하면 자동으로 일시 중지할 수 있습니다. 이렇게 하려면 타깃팅 워크플로우를 일시 중지할 활동을 마우스 오른쪽 단추로 클릭하고 선택합니다 **[!UICONTROL Enable but do not execute]**.
+      또한 타깃팅 워크플로가 특정 활동에 도달하면 타깃팅 워크플로우를 자동으로 일시 중지할 수 있습니다. 이렇게 하려면 타깃팅 워크플로우를 일시 중지할 활동을 마우스 오른쪽 단추로 클릭하고 선택합니다 **[!UICONTROL Enable but do not execute]**.
 
       ![](assets/s_user_segmentation_donotexecute.png)
 
@@ -208,7 +205,7 @@ ht-degree: 0%
 
    ![](assets/s_user_segmentation_stop_unconditional.png)
 
-### 제어 그룹 정의 {#defining-a-control-group}
+### Defining a control group {#defining-a-control-group}
 
 통제 그룹은 배달을 받지 않는 모집단입니다.배달을 받은 타겟 모집단과 비교하여 배달 후 동작 및 캠페인 효과를 추적하는 데 사용됩니다.
 
@@ -258,7 +255,7 @@ ht-degree: 0%
 제어 그룹을 추출하려면 캠페인 또는 전달에 대한 제어 그룹을 활성화하고 다음 옵션 중 하나를 선택합니다. **[!UICONTROL Activate random sampling]** 또는 **[!UICONTROL Keep only the first records after sorting]**.
 
 * **[!UICONTROL Activate random sampling]** :이 옵션은 타깃팅된 모집단에서 받는 사람에게 무작위 샘플링을 적용합니다. 그런 다음 임계값을 100으로 설정하면 대상 모집단에서 임의로 선택한 100명의 받는 사람으로 제어 그룹이 구성됩니다. 무작위 샘플링은 데이터베이스 엔진에 따라 다릅니다.
-* **[!UICONTROL Keep only the first records after sorting]** :이 옵션을 사용하면 하나 이상의 정렬 주문을 기준으로 제한을 정의할 수 있습니다. 필드를 정렬 기준으로 **[!UICONTROL Age]** 선택한 다음 100을 한계로 정의하면 제어 그룹이 100명의 가장 어린 수신자로 구성됩니다. 예를 들어 구매를 거의 하지 않는 받는 사람 또는 구매를 자주 하는 받는 사람이 포함된 제어 그룹을 정의하고 이러한 행동을 대화 받은 수신자의 행동과 비교하는 것이 재미있을 수 있습니다.
+* **[!UICONTROL Keep only the first records after sorting]** : 이 옵션을 사용하면 하나 이상의 정렬 명령을 기준으로 제한을 정의할 수 있습니다. 필드를 정렬 기준으로 **[!UICONTROL Age]** 선택한 다음 100을 한계로 정의하면 제어 그룹이 100명의 가장 어린 수신자로 구성됩니다. 예를 들어 구매를 거의 하지 않는 받는 사람 또는 구매를 자주 하는 받는 사람이 포함된 제어 그룹을 정의하고 이러한 행동을 대화 받은 수신자의 행동과 비교하는 것이 재미있을 수 있습니다.
 
 을 클릭하여 정렬 순서(필요한 경우)를 정의하고 수신자 제한 모드를 선택합니다. **[!UICONTROL Next]**
 
@@ -266,7 +263,7 @@ ht-degree: 0%
 
 이 구성은 타깃을 하위 세트로 나눌 수 있는 워크플로우의 공유 활동과 같습니다. 컨트롤 그룹은 이러한 하위 세트 중 하나입니다. 자세한 내용은 [이 섹션을](../../workflow/using/architecture.md) 참조하십시오.
 
-### 컨트롤 그룹 추가 {#adding-a-population}
+### {#adding-a-population} 컨트롤 그룹 추가 
 
 제어 그룹으로 사용할 새 모집단을 정의할 수 있습니다. 이 모집단은 수신자 그룹에서 가져올 수도 있고 특정 쿼리를 통해 만들 수도 있습니다.
 
@@ -373,7 +370,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->MRM을 사용하는 경우 여러 참가자가 공동 작업을 위해 사용할 수 있는 마케팅 리소스 라이브러리를 관리할 수도 있습니다. 마케팅 [리소스 관리를 참조하십시오](../../campaign/using/managing-marketing-resources.md).
+>MRM을 사용하는 경우 여러 참가자가 공동 작업을 위해 사용할 수 있는 마케팅 리소스 라이브러리를 관리할 수도 있습니다. See [Managing marketing resources](../../campaign/using/managing-marketing-resources.md).
 
 ### 문서 추가 {#adding-documents}
 
