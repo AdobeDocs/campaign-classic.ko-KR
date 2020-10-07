@@ -11,14 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: ca2cd5bf-78a2-4e43-955d-206f4474d1e0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -56,8 +53,8 @@ ht-degree: 0%
 1. 목록을 저장할 폴더를 선택합니다.
 1. 목록의 레이블을 입력합니다. 동적 필드를 삽입하여 목록에서 이름을 자동으로 생성할 수 있습니다. 이 예에서, 목록의 이름은 해당 컨텐츠를 쉽게 식별할 수 있는 쿼리와 동일합니다.
 1. 타깃팅 기준과 일치하지 않는 수신자를 삭제하고 새 수신자를 목록에 삽입하려면 이 옵션을 선택된 상태로 두십시오 **[!UICONTROL Purge the list if it exists (otherwise add to the list)]** .
-1. 또한 옵션을 **[!UICONTROL Create or use a list with its own table]** 선택된 상태로 둡니다.
-1. 옵션을 **[!UICONTROL Generate an outbound transition]** 선택 취소하지 않습니다.
+1. Also leave the **[!UICONTROL Create or use a list with its own table]** option checked.
+1. Leave the **[!UICONTROL Generate an outbound transition]** option unchecked.
 1. Click **[!UICONTROL Ok]** then start the workflow.
 
    ![](assets/s_user_segmentation_update_list_calc_example.png)
