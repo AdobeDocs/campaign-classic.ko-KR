@@ -1,5 +1,5 @@
 ---
-title: 워크플로우 라이프사이클
+title: 워크플로우 수명 주기
 description: 워크플로우의 수명 주기에 대한 자세한 내용을 살펴보십시오.
 page-status-flag: never-activated
 uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
@@ -9,25 +9,22 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# 워크플로우 라이프사이클 {#workflow-life-cycle}
+# 워크플로우 수명 주기 {#workflow-life-cycle}
 
 워크플로우 주기에 세 가지 주요 단계가 있습니다.
 
 * **편집 중**
 
-   초기 디자인 단계입니다. 새 워크플로우가 만들어지면 상태는 &#39;편집 중&#39;입니다. 워크플로우는 서버에서 아직 처리되지 않으며 위험 없이 수정할 수 있습니다.
+   초기 디자인 단계입니다.새 워크플로우가 만들어지면 상태는 &#39;편집 중&#39;입니다. 워크플로우는 서버에서 아직 처리되지 않으며 위험 없이 수정할 수 있습니다.
 
 * **시작됨**
 
