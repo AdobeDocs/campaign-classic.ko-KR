@@ -11,14 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6c66718fbbf13486d52b0cc98eae6c854b34030d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2955'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -35,7 +32,7 @@ Adobe Campaign을 사용하면 다양한 연산자에 할당된 권한을 정의
 
 권한은 연산자 프로필 또는 연산자 그룹에 적용됩니다.
 
-연산자의 연결 모드에 연결된 안전 매개 변수에 의해 완료됩니다. For more on this, refer to [this page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+연산자의 연결 모드에 연결된 안전 매개 변수에 의해 완료됩니다. 자세한 정보는 이 [페이지](../../installation/using/configuring-campaign-server.md#defining-security-zones)를 참조하십시오.
 
 사용자에게 부여할 수 있는 권한은 두 가지가 있습니다.
 
@@ -132,7 +129,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 �
 
 * 이 **[!UICONTROL Disable account]** 옵션을 사용하면 연산자 계정을 비활성화할 수 있습니다.그는 더 이상 Adobe Campaign에 접근하지 않을 것이다.
 * 이 **[!UICONTROL Forbid access from the rich client]** 옵션을 사용하면 Adobe Campaign을 [웹 액세스](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) 또는 API를 통해 사용을 제한할 수 있습니다.더 이상 Adobe Campaign 클라이언트 콘솔에 액세스할 수 없습니다.
-* 안전구역을 조종사와 연결시킬 수 있습니다 For more on this, refer to [this page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+* 안전구역을 조종사와 연결시킬 수 있습니다 자세한 정보는 이 [페이지](../../installation/using/configuring-campaign-server.md#defining-security-zones)를 참조하십시오.
 * 적절한 링크를 사용하여 신뢰할 수 있는 IP 마스크를 정의할 수도 있습니다.
 
    운영자가 IP 주소가 이 목록에 있는 경우 암호를 입력하지 않고도 Adobe Campaign에 연결할 수 있습니다.
