@@ -1,5 +1,5 @@
 ---
-title: 데이터 라이프사이클
+title: 데이터 수명 주기
 description: 워크플로우의 데이터 라이프사이클에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
@@ -9,19 +9,16 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# 데이터 라이프사이클 {#data-life-cycle}
+# 데이터 수명 주기 {#data-life-cycle}
 
 ## 작업 테이블 {#work-table}
 
@@ -45,15 +42,15 @@ ht-degree: 0%
 
    이 메뉴를 사용하면 전환 데이터에 대한 통계 및 보고서를 생성할 수 있는 설명 분석 마법사에 액세스할 수 있습니다.
 
-   For more on this, refer to this [section](../../reporting/using/using-the-descriptive-analysis-wizard.md).
+   자세한 정보는 이 [섹션](../../reporting/using/using-the-descriptive-analysis-wizard.md)을 참조하십시오.
 
-워크플로우가 실행되면 대상 데이터가 삭제됩니다. 마지막 작업 테이블만 액세스할 수 있습니다. 모든 작업 테이블에 액세스할 수 있도록 워크플로우를 구성할 수 있습니다. 워크플로우 속성에서 **[!UICONTROL Keep the result of interim populations between two executions]** 옵션을 선택합니다.
+워크플로우가 실행되면 대상 데이터가 삭제됩니다. 마지막 작업 테이블만 액세스할 수 있습니다. 모든 작업 테이블에 액세스할 수 있도록 워크플로우를 구성할 수 있습니다.워크플로우 속성에서 **[!UICONTROL Keep the result of interim populations between two executions]** 옵션을 선택합니다.
 
 하지만 대량의 데이터가 있을 경우 이 옵션을 활성화하지 않는 것이 좋습니다.
 
 ![](assets/wf-purge-data-option.png)
 
-## 타겟 데이터 {#target-data}
+## Target 데이터 {#target-data}
 
 워크플로우의 작업 테이블에 저장된 데이터는 개인화 필드에서 액세스할 수 있습니다.
 
@@ -65,7 +62,7 @@ ht-degree: 0%
 
 **[!UICONTROL Target extension]** (targetData) 유형 개인화 요소는 타깃팅 워크플로우에서 사용할 수 없습니다. 전달 타겟은 워크플로우에서 구축되어야 하며 게재 인바운드 전환에서 지정해야 합니다.
 
-전달 증명 자료를 만들려면 개인화 데이터를 입력할 수 있도록 **[!UICONTROL Address substitution]** 모드를 기반으로 증명 대상을 만들어야 합니다. For more on this, refer to this [section](../../delivery/using/steps-defining-the-target-population.md#using-address-substitution-in-proof).
+전달 증명 자료를 만들려면 개인화 데이터를 입력할 수 있도록 **[!UICONTROL Address substitution]** 모드를 기반으로 증명 대상을 만들어야 합니다. 자세한 정보는 이 [섹션](../../delivery/using/steps-defining-the-target-population.md#using-address-substitution-in-proof)을 참조하십시오.
 
 다음 예에서는 고객에 대한 정보 목록을 수집하여 개인화된 이메일에 사용할 것입니다.
 
@@ -97,7 +94,7 @@ ht-degree: 0%
 
    ![](assets/wf-targetdata-sample-3.png)
 
-1. 그런 다음 다음을 **[!UICONTROL Delivery]**&#x200B;구성합니다. 템플릿은 템플릿을 기반으로 생성되며 수신자는 인바운드 전환으로 지정됩니다.
+1. 그런 다음 다음을 **[!UICONTROL Delivery]**&#x200B;구성합니다.템플릿은 템플릿을 기반으로 생성되며 수신자는 인바운드 전환으로 지정됩니다.
 
    ![](assets/wf-targetdata-sample-4.png)
 
