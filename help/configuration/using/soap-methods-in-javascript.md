@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 815d3eb9-ac45-441f-9a5f-0cd505fcf88a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign 서버에서 실행되는 JavaScript입니다.
 
 ## 정적 메서드 {#static-methods}
 
-정적 SOAP 메서드는 스키마를 나타내는 개체에서 메서드를 호출하여 액세스합니다. 스키마는 &#39;namespace&#39; 개체의 속성입니다. 이러한 네임스페이스는 전역 변수이므로 xtk 또는 nms 변수는 해당 네임스페이스를 나타냅니다
+정적 SOAP 메서드는 스키마를 나타내는 개체에서 메서드를 호출하여 액세스합니다. 스키마는 &#39;namespace&#39; 개체의 속성입니다. 이러한 네임스페이스는 글로벌 변수이므로, 예: xtk 또는 nms 변수는 해당 네임스페이스를 나타냅니다
 
 다음 예제에서는 xtk:workflow 스키마의 정적 PostEvent 메서드를 호출합니다.
 
@@ -36,7 +36,7 @@ xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false)
 
 ## 비정적 메서드 {#non-static-methods}
 
-비정적 SOAP 메서드를 사용하려면 먼저 해당 스키마에서 &quot;get&quot; 또는 &quot;create&quot; 메서드를 사용하여 엔티티를 검색해야 합니다.
+비정적 SOAP 메서드를 사용하려면 먼저 해당 스키마에 대해 &quot;get&quot; 또는 &quot;create&quot; 메서드를 사용하여 엔티티를 검색해야 합니다.
 
 다음 예제에서는 &quot;xtk:queryDef&quot; 스키마의 ExecuteQuery 메서드를 호출합니다.
 
@@ -55,7 +55,7 @@ for each (var w in res.workflow)
   logInfo(w.@internalName)
 ```
 
-## 예 {#examples}
+## 예제 {#examples}
 
 * 받는 사람 테이블에 대해 &quot;get&quot; 작업을 쿼리합니다.
 
@@ -78,7 +78,7 @@ for each (var w in res.workflow)
    logInfo(recipient.@lastName)
    ```
 
-* &quot;선택&quot; 작업으로 수신자 테이블에서 쿼리:
+* 받는 사람 테이블에 대해 &quot;선택&quot; 작업을 쿼리합니다.
 
    ```
    var query = xtk.queryDef.create(  
@@ -103,7 +103,7 @@ for each (var w in res.workflow)
    }
    ```
 
-* 수신자 테이블에 데이터 쓰기:
+* 받는 사람 테이블에 데이터를 쓰는 중:
 
    ```
    xtk.session.Write(<recipient _operation="insert" lastName="Martinez" firstName="Peter" xtkschema="nms:recipient"/>);
