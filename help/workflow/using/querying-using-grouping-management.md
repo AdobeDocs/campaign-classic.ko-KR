@@ -9,14 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f99e3a4f69cb2b0122f2f6957d419d6b95ad54b1
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -51,11 +48,11 @@ ht-degree: 0%
 
    ![](assets/query_editor_nveau_29.png)
 
-1. 창에서 **[!UICONTROL Sorting]** 이메일 도메인을 내림차순으로 정렬합니다. 이렇게 하려면 열 **[!UICONTROL Yes]** 을 **[!UICONTROL Descending sort]** 확인하십시오. **[!UICONTROL Next]**&#x200B;을 클릭합니다.
+1. 창에서 **[!UICONTROL Sorting]** 이메일 도메인을 내림차순으로 정렬합니다. 이렇게 하려면 열 **[!UICONTROL Yes]** 을 **[!UICONTROL Descending sort]** 확인하십시오. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/query_editor_nveau_70.png)
 
-1. 에서 **[!UICONTROL Data filtering]**&#x200B;를 선택합니다 **[!UICONTROL Filtering conditions]**. 창으로 **[!UICONTROL Target elements]** 가서 을 클릭합니다 **[!UICONTROL Next]**.
+1. **[!UICONTROL Data filtering]**&#x200B;에서 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택합니다. 창으로 **[!UICONTROL Target elements]** 가서 을 클릭합니다 **[!UICONTROL Next]**.
 1. 창에서 **[!UICONTROL Data grouping]** 을 클릭하여 **[!UICONTROL Email domain]** 을 선택합니다 **[!UICONTROL Add]**.
 
    이 데이터 그룹 창은) 상자를 선택한 경우에만 **[!UICONTROL Handle groupings (GROUP BY + HAVING]**&#x200B;표시됩니다.
@@ -64,11 +61,11 @@ ht-degree: 0%
 
 1. 30번 이상 타깃팅된 이메일 도메인만 결과로 반환하도록 하기 때문에 **[!UICONTROL Grouping condition]** 창에서 기본 키 카운트가 30보다 큰 값을 표시합니다.
 
-   이 창은 **[!UICONTROL Manage groupings (GROUP BY + HAVING)]** 상자를 선택하면 나타납니다. 그룹화 결과가 필터링되는(HAVING) 영역입니다.
+   이 창은 **[!UICONTROL Manage groupings (GROUP BY + HAVING)]** 상자를 선택하면 나타납니다.이 위치에서 그룹 결과가 필터링됩니다(HAVING).
 
    ![](assets/query_editor_blocklist_05.png)
 
-1. 창에서 **[!UICONTROL Data formatting]** 다음을 클릭합니다 **[!UICONTROL Next]**. 여기에 서식을 지정할 필요가 없습니다.
-1. 데이터 미리 보기 창에서 다음을 클릭합니다 **[!UICONTROL Launch data preview]**. 여기에서 30회 이상 타깃팅된 세 개의 다른 이메일 도메인이 반환됩니다.
+1. 창에서 **[!UICONTROL Data formatting]** 다음을 클릭합니다 **[!UICONTROL Next]**.여기에 서식을 지정할 필요가 없습니다.
+1. 데이터 미리 보기 창에서 다음을 클릭합니다 **[!UICONTROL Launch data preview]**.여기에서 30회 이상 타깃팅된 세 개의 다른 이메일 도메인이 반환됩니다.
 
    ![](assets/query_editor_blocklist_06.png)
