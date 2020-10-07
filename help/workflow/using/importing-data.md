@@ -9,11 +9,8 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9a8c3586482d05648de3bdecfdfabcc094c70dbf
+source-git-commit: b04d802ce1041aecbb60aeeabbd35b1d78c2451d
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 0%
@@ -25,7 +22,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->데이터를 가져오는 동안 AdobeCampaign 계약에 따라 SFTP 저장소, 데이터베이스 저장소 및 활성 프로필 제한에 주의하십시오.
+>데이터를 가져오는 동안 Adobe Campaign 계약에 따라 SFTP 저장소, 데이터베이스 저장소 및 활성 프로필 제한에 주의하십시오.
 
 ## 데이터 수집 방법 {#how-to-collect-data}
 
