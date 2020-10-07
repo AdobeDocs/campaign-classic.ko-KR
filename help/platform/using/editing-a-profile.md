@@ -11,14 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '476'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -39,7 +36,7 @@ ht-degree: 0%
 >
 >프로필 테이블의 필드와 관련된 XML 스키마 및 양식은 Adobe Campaign 트리의 **[!UICONTROL Administration > Configuration > Data schemas]** 노드를 통해 액세스합니다. 전문가 사용자만 이러한 스키마를 변경할 수 있습니다.
 >
->자세한 내용은 [이 페이지를 참조하십시오](../../configuration/using/about-schema-edition.md).
+>For further information, refer to [this page](../../configuration/using/about-schema-edition.md).
 
 ## 일반 탭 {#general-tab}
 
@@ -49,7 +46,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 옵션을 **[!UICONTROL No longer contact (by any channel)]** 선택하면 프로필이 블록 목록에 있음을 의미합니다. 즉, 프로필은 연락하지 않기를 바란다고 표시했습니다(예: 뉴스레터에서 구독 취소 링크를 클릭해서). 이러한 지표는 더 이상 어떤 채널에서도 게재되지 않습니다(이메일, DM 등). For more on this, refer to [this page](../../delivery/using/understanding-quarantine-management.md).
+>이 옵션을 선택하면 프로필이 차단 목록에 있음을 의미합니다. 즉, 프로필은 연락하지 않기를 바란다고 표시했습니다(예: 뉴스레터에서 가입 취소 링크를 클릭해서). **[!UICONTROL No longer contact (by any channel)]** 이러한 지표는 더 이상 어떤 채널에서도 게재되지 않습니다(이메일, DM 등). 자세한 정보는 이 [페이지](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
 
 ## 연락처 정보 탭 {#contact-information-tab}
 
@@ -85,7 +82,7 @@ ht-degree: 0%
 
 이 **[!UICONTROL Detail]** 단추는 선택한 구독의 속성을 표시합니다. 이 **[!UICONTROL Add]** 단추는 새 구독을 수동으로 추가하는 데 사용됩니다.
 
-For more on this, refer to [this page](../../delivery/using/managing-subscriptions.md).
+자세한 정보는 이 [페이지](../../delivery/using/managing-subscriptions.md)를 참조하십시오.
 
 ## 배달 탭 {#deliveries-tab}
 
@@ -101,7 +98,7 @@ For more on this, refer to [this page](../../delivery/using/managing-subscriptio
 
 이 탭에는 배달에서 추적된 모든 URL의 누적 합계가 표시됩니다.
 
-목록은 구성할 수 있으며 일반적으로 다음을 포함합니다. 클릭한 URL, 클릭 날짜 및 시간, URL이 포함된 문서.
+목록은 구성할 수 있으며 일반적으로 다음을 포함합니다.클릭한 URL, 클릭 날짜 및 시간, URL이 포함된 문서.
 
 >[!NOTE]
 >
