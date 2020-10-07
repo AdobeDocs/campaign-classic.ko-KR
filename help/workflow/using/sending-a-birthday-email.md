@@ -1,7 +1,7 @@
 ---
-title: 생일 이메일 보내기
-seo-title: 생일 이메일 보내기
-description: 생일 이메일 보내기
+title: 생일 전자 메일 보내기
+seo-title: 생일 전자 메일 보내기
+description: 생일 전자 메일 보내기
 seo-description: null
 page-status-flag: never-activated
 uuid: 4d215ff4-a61d-4294-8f15-17c612022577
@@ -11,19 +11,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 생일 이메일 보내기{#sending-a-birthday-email}
+# 생일 전자 메일 보내기{#sending-a-birthday-email}
 
 ## 소개 {#introduction}
 
