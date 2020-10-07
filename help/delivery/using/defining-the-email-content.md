@@ -9,21 +9,18 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b60b5fad24c1237981f66315e7cf585c79f82641
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2887'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 이메일 컨텐츠 정의{#defining-the-email-content}
+# 전자 메일 콘텐츠 정의{#defining-the-email-content}
 
-## 보낸 사람 {#sender}
+## Sender {#sender}
 
 보낸 메시지 헤더에 표시될 발신자의 이름과 주소를 정의하려면 **[!UICONTROL From]** 링크를 클릭합니다.
 
@@ -43,7 +40,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->요청되지 않은 이메일(스팸)과 싸우기 위해 ISP(Internet Access Providers)가 구현한 확인 작업 중에, Adobe는 발송과 답글에 대해 지정된 주소에 해당하는 이메일 계정을 만드는 것이 좋습니다. 메시징 시스템 관리자에게 문의하십시오.
+>ISP(Internet Access Providers)가 원하지 않는 이메일(스팸)과 싸우기 위해 구현한 검사 컨텍스트에서는, Adobe이 발송과 답글에 대해 지정된 주소에 해당하는 이메일 계정을 만드는 것이 좋습니다. 메시징 시스템 관리자에게 문의하십시오.
 
 ## 메시지 제목 {#message-subject}
 
@@ -81,7 +78,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >HTML 컨텐츠를 미리 만든 다음 Adobe Campaign으로 가져와야 합니다. HTML 편집기는 콘텐츠 제작을 위해 디자인되지 않았습니다.
+   >HTML 콘텐츠를 미리 만든 다음 Adobe Campaign으로 가져와야 합니다. HTML 편집기는 콘텐츠 제작을 위해 디자인되지 않았습니다.
 
    하위 **[!UICONTROL Preview]** 탭에서는 수신자의 각 컨텐츠 렌더링을 볼 수 있습니다. 개인화 필드 및 컨텐츠 조건부 요소는 선택한 프로필에 대한 해당 정보로 대체됩니다.
 
@@ -140,11 +137,11 @@ ht-degree: 0%
 
 * **[!UICONTROL Use recipient preferences]** (기본 모드)
 
-   메시지 형식은 수신자 프로필에 저장된 데이터에 따라 정의되며 기본적으로 필드(@emailFormat)에 **[!UICONTROL email format]** 저장됩니다. 받는 사람이 특정 형식으로 메시지를 수신하려는 경우 보낸 형식입니다. 필드가 채워지지 않으면 다중 부분 대체 메시지가 전송됩니다(아래 참조).
+   The message format is defined according to the data stored in the recipient profile and stored by default in the **[!UICONTROL email format]** field (@emailFormat). 수신자가 특정 형식으로 메시지를 수신하려는 경우에 보내는 형식입니다. 필드가 채워지지 않으면 다중 부분 대체 메시지가 전송됩니다(아래 참조).
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
-   메시지에는 두 형식 모두 포함됩니다. 텍스트 및 HTML을 참조하십시오. 수신에 표시되는 형식은 받는 사람의 메일 소프트웨어(다중 부분 대체)의 구성에 따라 달라집니다.
+   메시지에는 두 형식 모두 포함됩니다.텍스트 및 HTML을 참조하십시오. 수신에 표시되는 형식은 받는 사람의 메일 소프트웨어(다중 부분 대체)의 구성에 따라 달라집니다.
 
    >[!IMPORTANT]
    >
@@ -154,11 +151,11 @@ ht-degree: 0%
 
    메시지는 텍스트 형식으로 전송됩니다. HTML 형식은 전송되지 않지만 수신자가 메시지를 클릭하는 경우에만 미러 페이지에 사용됩니다.
 
-## 인터랙티브한 컨텐츠 정의 {#amp-for-email-format}
+## 대화형 콘텐츠 정의 {#amp-for-email-format}
 
-Adobe Campaign을 사용하면 특정 조건 [에서 동적 이메일을 보낼 수 있는 새로운 대화형 이메일](https://amp.dev/about/email/) 형식을 사용할 수 있습니다.
+Adobe Campaign을 사용하면 특정 조건 [에서 동적 이메일을 보낼 수 있는 새로운 대화형](https://amp.dev/about/email/) AMP for Email 형식을 사용할 수 있습니다.
 
-For more on this, see [this section](../../delivery/using/defining-interactive-content.md).
+자세한 내용은 [이 섹션](../../delivery/using/defining-interactive-content.md)을 참조하십시오.
 
 ## 컨텐츠 관리 사용 {#using-content-management}
 
@@ -172,7 +169,7 @@ For more on this, see [this section](../../delivery/using/defining-interactive-c
 
 >[!NOTE]
 >
->Adobe Campaign의 콘텐츠 관리에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../delivery/using/about-content-management.md).
+>Adobe Campaign의 컨텐츠 관리에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../delivery/using/about-content-management.md).
 
 ## 이미지 추가 {#adding-images}
 
@@ -181,11 +178,11 @@ HTML 형식 이메일 배달에는 이미지가 포함될 수 있습니다. 배�
 이미지는 다음 작업을 수행할 수 있습니다.
 
 * 로컬 이미지 또는 서버에서 호출된 이미지
-* Adobe Campaign 공개 리소스 라이브러리에 저장된 이미지
+* Adobe Campaign 공용 리소스 라이브러리에 저장된 이미지
 
-   공개 리소스는 Adobe Campaign 계층 구조의 노드를 통해 **[!UICONTROL Resources > Online]** 액세스할 수 있습니다. 라이브러리로 그룹화되고 이메일 메시지에 포함할 수 있지만 캠페인, 작업 또는 컨텐츠 관리에도 사용할 수 있습니다.
+   공개 리소스는 Adobe Campaign 계층의 노드를 통해 액세스할 수 **[!UICONTROL Resources > Online]** 있습니다. 라이브러리로 그룹화되고 이메일 메시지에 포함할 수 있지만 캠페인, 작업 또는 컨텐츠 관리에도 사용할 수 있습니다.
 
-* Adobe Experience Cloud와 공유된 에셋. 이 [섹션을 참조하십시오](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
+* Adobe Experience Cloud과 공유된 자산입니다. [이 섹션](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md)을 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -199,7 +196,7 @@ HTML 형식 이메일 배달에는 이미지가 포함될 수 있습니다. 배�
 >
 >받는 사람이 받는 메시지에 포함된 이미지를 볼 수 있도록 외부 서버에서 액세스할 수 있어야 합니다.
 
-전달 마법사를 통해 이미지를 관리하려면
+배달 마법사를 통해 이미지를 관리하려면
 
 1. 도구 모음에서 **[!UICONTROL Tracking & Images]** 아이콘을 클릭합니다.
    ![](assets/s_ncs_user_email_del_img_param.png)
@@ -239,7 +236,7 @@ HTML 형식 이메일 배달에는 이미지가 포함될 수 있습니다. 배�
 
 * 이미지가 로컬에 저장되어 있거나 다른 서버에 있는 경우, 이 서버가 외부(예: 인터넷 사이트)에서 볼 수 있더라도, 이 서버는 다른 서버로 검색됩니다 **[!UICONTROL Not yet online]**.
 * 이미지는 다른 배달을 만드는 동안 이전에 업로드된 **[!UICONTROL Already online]** 것처럼 검색됩니다.
-* 배포 마법사에서 이미지 감지가 활성화되지 않은 URL을 정의할 수 있습니다. 이러한 이미지를 업로드하면 됩니다 **[!UICONTROL Skipped]**.
+* 배포 마법사에서 이미지 감지가 활성화되지 않은 URL을 정의할 수 있습니다.이러한 이미지를 업로드하면 됩니다 **[!UICONTROL Skipped]**.
 
 >[!NOTE]
 >
@@ -273,7 +270,7 @@ HTML 형식 이메일 배달에는 이미지가 포함될 수 있습니다. 배�
 
 고객 기준을 사용하여 정의된 값을 사용하여 바코드를 비트맵으로 동적으로 생성할 수 있습니다. 이메일 캠페인에 개인화된 바코드를 포함할 수 있습니다. 수신자는 메시지를 인쇄하여 스캔(예: 체크 아웃할 때)을 위해 발행업체에 표시할 수 있습니다.
 
-바코드를 이메일에 삽입하려면 표시하려는 내용에 커서를 놓고 개인화 버튼을 클릭합니다. 선택합니다 **[!UICONTROL Include > Barcode...]**.
+바코드를 이메일에 삽입하려면 표시하려는 내용에 커서를 놓고 개인화 버튼을 클릭합니다. **[!UICONTROL Include > Barcode...]**&#x200B;을(를) 선택합니다.
 
 ![](assets/barcode_insert_14.png)
 
@@ -281,7 +278,7 @@ HTML 형식 이메일 배달에는 이미지가 포함될 수 있습니다. 배�
 
 1. 바코드 유형을 선택합니다.
 
-   * 1D 형식의 경우 Adobe Campaign에서 다음 유형을 사용할 수 있습니다. 코다바, 코드 128, GS1-128(이전 EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, 인터리브 2/5, POSTNET 및 Royal Mail(RM4SCC).
+   * 1D 형식의 경우 다음 유형을 Adobe Campaign에서 사용할 수 있습니다.코다바, 코드 128, GS1-128(이전 EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, 인터리브 2/5, POSTNET 및 Royal Mail(RM4SCC).
 
       1D 바코드의 예:
 
@@ -301,7 +298,7 @@ HTML 형식 이메일 배달에는 이미지가 포함될 수 있습니다. 배�
 
       ![](assets/barcode_insert_12.png)
 
-1. 이메일에 삽입할 바코드의 크기를 입력합니다. 비율을 구성하면 바코드의 크기를 x1에서 x10으로 늘리거나 줄일 수 있습니다.
+1. 이메일에 삽입할 바코드의 크기를 입력합니다.비율을 구성하면 바코드의 크기를 x1에서 x10으로 늘리거나 줄일 수 있습니다.
 1. 이 **[!UICONTROL Value]** 필드를 사용하여 바코드의 값을 정의할 수 있습니다. 값은 특수 오퍼와 일치할 수 있으며 기준의 함수가 될 수 있으며, 고객과 연결된 데이터베이스 필드의 값이 될 수 있습니다.
 
    이 예에서는 수신자의 계정 번호가 추가된 EAN-8 유형 바코드를 보여줍니다. 이 계정 번호를 추가하려면 필드 오른쪽의 개인화 단추를 **[!UICONTROL Value]** 클릭하고 선택합니다 **[!UICONTROL Recipient > Account number]**.
@@ -316,7 +313,7 @@ HTML 형식 이메일 배달에는 이미지가 포함될 수 있습니다. 배�
    >
    >바코드에 할당된 값은 해당 유형에 따라 달라집니다. 예를 들어 EAN-8 유형은 정확히 8개의 숫자를 가집니다.
    >
-   >필드 오른쪽의 개인화 단추를 사용하여 값 자체에 데이터를 추가할 수 **[!UICONTROL Value]** 있습니다. 이것은 바코드 표준이 그것을 받아들인다면 바코드를 더욱 풍부하게 해준다.
+   >필드 오른쪽의 개인화 단추를 사용하여 값 자체에 데이터를 추가할 수 **[!UICONTROL Value]** 있습니다. 이것은 바코드 표준이 그것을 받아들인다면 바코드를 더욱 풍부하게 합니다.
    >
    >예를 들어 GS1-128 유형 바코드를 사용하고 값 외에 수신자의 계정 번호를 입력하려면 개인화 단추를 클릭하고 선택합니다 **[!UICONTROL Recipient > Account number]**. 선택한 받는 사람의 계정 번호를 올바르게 입력한 경우 바코드가 이를 고려합니다.
 
@@ -334,15 +331,15 @@ HTML 형식 이메일 배달에는 이미지가 포함될 수 있습니다. 배�
 
 ### 일본 모바일용 이메일 포맷 {#email-formats-for-japanese-mobiles}
 
-Adobe Campaign은 모바일에서 e-메일을 위해 세 가지 특정 일본어 형식을 관리합니다. **데코메일** (DoCoMo 모바일용), **데코어 메일** (소프트뱅크 모바일용) 및 데코레이션 메일( **KDDI AU 모바일용** ). 이러한 포맷은 특정 코딩, 구조 및 크기 제한을 시행합니다. 이 섹션에서 제한 사항 및 권장 사항에 대한 자세한 내용을 [살펴보십시오](#limitations-and-recommendations).
+Adobe Campaign은 모바일용 e메일에서 세 가지 특정 일본어 형식을 관리합니다. **데코메일** (DoCoMo 모바일용), **데코어 메일** (소프트뱅크 모바일용) 및 데코레이션 메일( **KDDI AU 모바일용** ). 이러한 포맷은 특정 코딩, 구조 및 크기 제한을 시행합니다. 이 섹션에서 제한 사항 및 권장 사항에 대한 자세한 내용을 [살펴보십시오](#limitations-and-recommendations).
 
 받는 사람이 이러한 형식 중 하나에서 메시지를 올바르게 받으려면, 다음 중 하나 **[!UICONTROL Deco-mail (DoCoMo)]**&#x200B;에서 **[!UICONTROL Decore Mail (Softbank)]** 또는 해당 프로필 **[!UICONTROL Decoration Mail (KDDI AU)]** 을 선택하는 것이 좋습니다.
 
 ![](assets/deco-mail_03.png)
 
-그러나 **[!UICONTROL Email format]** 옵션을 그대로 **[!UICONTROL Unknown]**&#x200B;두거나 **[!UICONTROL HTML]** 또는 **[!UICONTROL Text]**&#x200B;둘 경우 Adobe Campaign은 메시지가 올바르게 표시되도록 사용할 일본어 형식을 자동으로 감지합니다(이메일을 보낼 때).
+그러나 **[!UICONTROL Email format]** 옵션을 그대로 **[!UICONTROL Unknown]**&#x200B;두거나 **[!UICONTROL HTML]** , 또는 **[!UICONTROL Text]**&#x200B;이메일 전송 시 메시지가 올바르게 표시되도록 사용할 일본어 형식을 자동으로 감지합니다.
 
-이 자동 감지 시스템은 메일 규칙 세트에 정의된 사전 정의된 도메인 목록을 기반으로 **[!UICONTROL Management of Email Formats]** 합니다. 이메일 형식 관리에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../installation/using/email-deliverability.md#managing-email-formats).
+이 자동 감지 시스템은 메일 규칙 세트에 정의된 사전 정의된 도메인 목록을 기반으로 **[!UICONTROL Management of Email Formats]** 합니다. For more on managing email formats, refer to [this page](../../installation/using/email-deliverability.md#managing-email-formats).
 
 ### 제한 사항 및 권장 사항 {#limitations-and-recommendations}
 
@@ -352,7 +349,7 @@ Adobe Campaign은 모바일에서 e-메일을 위해 세 가지 특정 일본어
 
 * JPEG 또는 GIF 형식의 이미지만 사용
 * 10,000바이트보다 훨씬 낮은 텍스트 및 HTML 섹션과 함께 배달 만들기(KDDI AU 및 DoCoMo의 경우)
-* 100KB보다 작은 크기의 이미지 사용
+* 100KB보다 작은 크기의 이미지(인코딩 전) 사용
 * 메시지당 20개 이상의 이미지 사용 안 함
 * 축소된 크기 HTML 형식 사용(각 연산자에 대해 제한된 태그 수 사용 가능)
 
@@ -367,7 +364,7 @@ Adobe Campaign은 모바일에서 e-메일을 위해 세 가지 특정 일본어
 
 ### 이메일 컨텐츠 테스트 {#testing-the-email-content}
 
-#### 메시지 미리 보기 {#previewing-the-message}
+#### Previewing the message {#previewing-the-message}
 
 Adobe Campaign을 사용하면 메시지 형식이 일본어 모바일로 전송되도록 채택되었는지 확인할 수 있습니다.
 
@@ -383,7 +380,7 @@ Adobe Campaign을 사용하면 메시지 형식이 일본어 모바일로 전송
 
 #### 분류 규칙 실행 {#running-typology-rule}
 
-미리 보기 진단 외에 증명 또는 배달을 보낼 때 두 번째 검사가 수행됩니다. 분석 중에 특정 유형 분류 규칙 **[!UICONTROL Deco-mail check]**&#x200B;이 시작됩니다.
+미리 보기 진단 외에 증명 또는 배달을 보낼 때 두 번째 검사가 수행됩니다.분석 중에 특정 유형 분류 규칙 **[!UICONTROL Deco-mail check]**&#x200B;이 시작됩니다.
 
 >[!IMPORTANT]
 >
@@ -391,7 +388,7 @@ Adobe Campaign을 사용하면 메시지 형식이 일본어 모바일로 전송
 
 이러한 분류 규칙을 사용하면 이메일의 전체 크기, HTML 및 텍스트 섹션의 크기, 메시지 내의 이미지 수 및 HTML 컨텐츠의 태그와 관련하여, 특히 일본 연산자가 정의하는 [형식 제약](#limitations-and-recommendations) 조건을 배달에 반영하도록 할 수 있습니다.
 
-#### 교정본 보내기 {#sending-proofs}
+#### 증명 보내기 {#sending-proofs}
 
 교정을 테스트하기 위해 교정을 보낼 수 있습니다. 증명을 보낼 때 대체 주소를 사용하는 경우 사용되는 프로필의 이메일 형식에 해당하는 주소를 입력하십시오.
 
@@ -399,16 +396,16 @@ Adobe Campaign을 사용하면 메시지 형식이 일본어 모바일로 전송
 
 ![](assets/deco-mail_05.png)
 
-### 메시지 전송 {#sending-messages}
+### 메시지 보내기 {#sending-messages}
 
 Campaign을 사용하여 일본어 이메일 포맷으로 수신자에게 이메일을 보내는 경우 다음 두 가지 옵션을 사용할 수 있습니다.
 
-* 두 가지 배달 만들기: 이 섹션은 일본인 수신자에게만 해당되며 다른 수신자는 이 섹션 [을 참조하십시오](#designing-a-specific-delivery-for-japanese-formats).
+* 두 가지 배달 만들기:이 섹션은 일본인 수신자에게만 해당되며 다른 수신자는 이 섹션 [을 참조하십시오](#designing-a-specific-delivery-for-japanese-formats).
 * 단일 배달을 만들면 Adobe Campaign에서 사용할 형식을 자동으로 검색합니다. [이 섹션을 참조하십시오](#designing-a-delivery-for-all-formats).
 
 #### 일본어 포맷에 대한 특정 전달 디자인 {#designing-a-specific-delivery-for-japanese-formats}
 
-다음 두 가지 배달이 포함된 워크플로우를 만들 수 있습니다. 이 버전은 일본어 모바일에서 읽을 수 있고 표준 이메일 포맷으로 수신자를 위한 컨텐츠입니다.
+다음 두 가지 배달이 포함된 워크플로우를 만들 수 있습니다.이 버전은 일본어 모바일에서 읽을 수 있고 표준 이메일 포맷으로 수신자를 위한 컨텐츠입니다.
 
 이렇게 하려면 워크플로우의 **[!UICONTROL Split]** 활동을 사용하고 일본어 이메일 형식(장식 메일, 데코레이션 메일 및 일반 메일)을 필터링 조건으로 정의합니다.
 
@@ -418,7 +415,7 @@ Campaign을 사용하여 일본어 이메일 포맷으로 수신자에게 이메
 
 #### 모든 포맷에 전달 디자인 {#designing-a-delivery-for-all-formats}
 
-Adobe Campaign이 도메인( **[!UICONTROL Unknown]**&#x200B;또는 으로 정의된 이메일 형식이 있는 프로필)에 따라 형식 **[!UICONTROL HTML]** **[!UICONTROL Text]** 을 동적으로 관리하는 경우 모든 받는 사람에게 동일한 배달을 보낼 수 있습니다.
+Adobe Campaign이 도메인에 따라 형식을 동적으로 관리하는 경우( **[!UICONTROL Unknown]**&#x200B;또는 **[!UICONTROL HTML]** **[!UICONTROL Text]** 로 정의된 이메일 형식이 있는 프로필) 모든 받는 사람에게 동일한 배달을 보낼 수 있습니다.
 
 표준 수신자의 경우와 마찬가지로 일본어 모빌을 사용하는 사용자의 경우 메시지 연락처가 올바르게 표시됩니다.
 
