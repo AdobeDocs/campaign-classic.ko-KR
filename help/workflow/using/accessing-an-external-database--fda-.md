@@ -11,24 +11,24 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: 1ca7ec80-18d1-4e94-bfe6-16ecd094fdf3
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 55%
 
 ---
 
 
 # 외부 데이터베이스 액세스(FDA){#accessing-an-external-database-fda}
 
-Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위해 FDA(Federated Data Access) 옵션을 제공합니다.adobe Campaign 데이터 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.
+Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위해 Adobe Campaign 데이터 구조를 변경하지 않고 외부 데이터에 액세스할 수 있는 FDA(Federated Data Access) 옵션을 제공합니다.
 
 여러 활동을 통해 외부 데이터베이스의 데이터와 상호 작용할 수 있습니다.
 
 * 쿼리
 * 분할
-* 강화
+* 데이터 보강
 * 데이터 로드
 
-FDA 옵션 사용은 Adobe Campaign 라이선스에 따라 다릅니다. 이 옵션을 구성하는 방법과 이 옵션을 사용하는 데 연결된 우수 사례 및 제한 사항은 이 [섹션에](../../platform/using/about-fda.md)자세히 설명되어 있습니다.
+FDA 옵션 사용은 Adobe Campaign 라이선스에 따라 다릅니다. 이 옵션을 구성하는 방법과 이 옵션을 사용하는 방법과 제한 사항은 이 [섹션에 자세히 설명되어 있습니다](../../platform/using/about-fda.md).
