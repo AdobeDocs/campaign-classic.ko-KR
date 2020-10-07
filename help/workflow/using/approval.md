@@ -11,11 +11,8 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: a0090c78-5873-446d-8d5f-b0f94ff5d373
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -29,7 +26,7 @@ ht-degree: 0%
 
 ## 작업 할당 {#task-assignment}
 
-기본적으로 승인은 연산자 그룹에 할당됩니다. 이 그룹은 역할을 나타냅니다(예: &#39;뉴스레터 컨텐츠 그룹&#39; 또는 &#39;뉴스레터 타깃팅 그룹&#39;. 그룹의 각 연산자는 응답할 수 있지만 첫 번째 응답만 고려됩니다(여러 승인이 있는 경우는 제외).
+기본적으로 승인은 연산자 그룹에 할당됩니다. 이 그룹은 역할을 나타냅니다(예:&#39;뉴스레터 컨텐츠 그룹&#39; 또는 &#39;뉴스레터 타깃팅 그룹&#39;. 그룹의 각 연산자는 응답할 수 있지만 첫 번째 응답만 고려됩니다(여러 승인이 있는 경우는 제외).
 
 필요한 경우 단일 연산자 또는 필터에 정의된 연산자 세트에 승인 작업을 할당할 수 있습니다.
 
@@ -45,7 +42,7 @@ ht-degree: 0%
 
    ![](assets/s_advuser_validation_box_filter.png)
 
-단일 승인 시 연산자 선택에 해당하는 전환이 활성화되고 작업이 완료됩니다. 다른 연산자는 회신할 수 없습니다.
+단일 승인 시 연산자 선택에 해당하는 전환이 활성화되고 작업이 완료됩니다.다른 연산자는 회신할 수 없습니다.
 
 여러 승인이 필요할 경우 각 연산자의 선택에 따라 전환이 활성화됩니다. 그룹의 모든 연산자가 답글을 남겼거나 작업이 만료되면 작업이 완료됩니다.
 
@@ -55,7 +52,7 @@ ht-degree: 0%
 
 활동의 제목 또는 메시지 본문을 수정하는 것은 현재 작업에 영향을 주지 않지만, 반면, 가능한 선택 항목을 수정하는 것은 현재 작업에 직접 영향을 주므로 새로운 선택 항목 목록을 자동으로 상속합니다.
 
-**승인** 유형 작업은 **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** 노드에서 액세스할 수 있습니다. 운영자는 이 보기를 통해 승인 양식에 직접 액세스할 수 있습니다.
+**승인** 유형 작업은 **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** 노드에서 액세스할 수 있습니다.운영자는 이 보기를 통해 승인 양식에 직접 액세스할 수 있습니다.
 
 ![](assets/s_advuser_validation_from_console.png)
 
@@ -65,7 +62,7 @@ ht-degree: 0%
 
 ![](assets/edit_validation.png)
 
-이 **[!UICONTROL Title]** 필드에는 메시지 제목이 있습니다. 보낸 이메일 메시지의 제목입니다. 메시지 본문과 제목이 JavaScript 템플릿이므로 워크플로우의 컨텍스트에 따라 계산된 값을 포함할 수 있습니다.
+이 **[!UICONTROL Title]** 필드에는 메시지 제목이 있습니다.보낸 이메일 메시지의 제목입니다. 메시지 본문과 제목이 JavaScript 템플릿이므로 워크플로우의 컨텍스트에 따라 계산된 값을 포함할 수 있습니다.
 
 편집기의 하단 섹션에서 가능한 대답 목록을 정의할 수 있습니다. 각 응답에 해당하는 전환이 있습니다. 이름은 내부 식별자이며 레이블은 선택 항목 목록에 표시될 텍스트입니다.
 
