@@ -9,14 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: fe4e6f64-eb0a-44bc-8221-6c9bfb99871f
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a215109db2d511180c91723059cd8ca10a34a612
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -31,7 +28,7 @@ ht-degree: 0%
 
 데이터 추출을 구성하려면 다음 단계를 적용합니다.
 
-1. 출력 파일의 이름을 지정합니다. 이 이름에는 필드 오른쪽의 개인화 단추를 통해 삽입된 변수가 포함될 수 있습니다.
+1. 출력 파일의 이름을 지정합니다.이 이름에는 필드 오른쪽의 개인화 단추를 통해 삽입된 변수가 포함될 수 있습니다.
 1. 추출할 데이터 **[!UICONTROL Edit the file format...]** 를 선택하려면 을 클릭합니다.
 
    ![](assets/s_advuser_extract_file_param.png)
@@ -60,7 +57,7 @@ ht-degree: 0%
 
 ![](assets/postprocessing_dataextraction.png)
 
-## 집계 함수 목록 {#list-of-aggregate-functions}
+## List of aggregate functions {#list-of-aggregate-functions}
 
 다음은 사용 가능한 집계 함수 목록입니다.
 
