@@ -11,19 +11,16 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 discoiquuid: f26cc65a-76be-4b7a-bde3-d0cbe3eedaaf
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Importing and exporting audiences{#importing-and-exporting-audiences}
+# 대상 가져오기 및 내보내기{#importing-and-exporting-audiences}
 
 ## 대상자 가져오기 {#importing-an-audience}
 
@@ -34,10 +31,10 @@ ht-degree: 0%
 
    ![](assets/aam_import_audience.png)
 
-1. 표시되는 창에서 다른 Adobe Experience Cloud 솔루션 **[!UICONTROL Select a shared audience]** 에서 사용할 수 있는 공유 대상/세그먼트 목록으로 이동하려면 을 클릭합니다.
+1. 표시되는 창에서 을 클릭하여 다른 Adobe Experience Cloud 솔루션에서 사용 가능한 공유 대상/세그먼트 목록 **[!UICONTROL Select a shared audience]** 으로 이동합니다.
 1. 대상을 선택하고 확인합니다. 대상의 정보는 자동으로 완료됩니다.
 
-   공유 대상을 가져올 수 있으려면 관리 콘솔에서 **[!UICONTROL Audience library]** 제품을 할당받고 Audience Manager에서 관리자가 되어야 합니다. 자세한 내용은 [관리 콘솔 설명서를 참조하십시오](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+   공유 대상을 가져올 수 있으려면 관리 콘솔에서 **[!UICONTROL Audience library]** 제품을 할당받고 Audience Manager에서 관리자가 되어야 합니다. 자세한 내용은 [Admin Console 설명서를 참조하십시오](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html).
 
    ![](assets/aam_import_audience_3.png)
 
@@ -49,13 +46,13 @@ ht-degree: 0%
 
 대상은 기술 워크플로우를 통해 가져옵니다. 가져온 목록에는 AMC 데이터 소스를 사용하여 조정할 수 있는 요소가 포함되어 있습니다. Adobe Campaign에서 인식할 수 없는 요소는 가져올 수 없습니다.
 
-사용자 핵심 서비스 또는 Audience Manager에서 직접 세그먼트를 가져오는 경우 가져오기 프로세스를 완료하는 데 24-36시간이 소요됩니다. 이 기간이 지나면 Adobe Campaign에서 새 고객을 찾아 사용할 수 있습니다.
+사용자 핵심 서비스 또는 Audience Manager에서 직접 세그먼트를 가져오는 경우 가져오기 프로세스를 완료하는 데 24-36시간이 소요됩니다. 이 기간이 지나면 Adobe Campaign에서 새로운 고객을 찾아 사용할 수 있습니다.
 
 >[!NOTE]
 >
->Adobe Analytics에서 Adobe Campaign으로 대상을 가져오는 경우, 이러한 대상은 먼저 사람 코어 서비스 또는 Audience Manager에서 공유되어야 합니다. 이 프로세스는 12-24시간이 소요되며 Campaign과 24-36시간 동기화에 추가해야 합니다.
+>Adobe Analytics에서 Adobe Campaign으로 대상을 가져오는 경우, 이 대상은 먼저 사람 코어 서비스 또는 Audience Manager에서 공유되어야 합니다. 이 프로세스는 12-24시간이 소요되며 Campaign과 24-36시간 동기화에 추가해야 합니다.
 >
->이 경우 대상 공유 기간은 최대 60시간까지 될 수 있습니다. People 코어 서비스 및 Audience Manager에서 Adobe Analytics의 고객 공유에 대한 자세한 내용은 이 [설명서를 참조하십시오](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+>이 경우 대상 공유 기간은 최대 60시간까지 될 수 있습니다. People 코어 서비스 및 Audience Manager의 Adobe Analytics 고객 공유에 대한 자세한 내용은 이 [설명서를 참조하십시오](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 대상 데이터가 동기화될 때마다 완전히 교체됩니다. 세그먼트만 가져올 수 있습니다. 키-값 쌍, 특성 및 규칙을 포함한 세부적인 데이터는 지원되지 않습니다.
 
@@ -85,7 +82,7 @@ ht-degree: 0%
 
 그러면 대상을 내보냅니다. 대상 저장 활동에는 두 개의 아웃바운드 전환이 있습니다. 기본 변환에는 성공적으로 내보낸 받는 사람이 포함됩니다. 추가 전환에는 방문자 ID나 선언된 ID로 매핑할 수 없었던 수신자가 포함됩니다.
 
-Adobe Campaign과 사용자 핵심 서비스 간의 동기화는 24-36시간이 소요됩니다. 이 기간이 지나면 People 코어 서비스에서 새로운 고객을 찾아 다른 Adobe Experience Cloud 솔루션에서 재사용할 수 있습니다. Adobe People 코어 서비스에서 Adobe Campaign 공유 대상 사용에 대한 자세한 내용은 이 [설명서를 참조하십시오](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html).
+Adobe Campaign과 사람 핵심 서비스 간의 동기화는 24-36시간이 소요됩니다. 이 기간 이후에는 사람 핵심 서비스에서 새로운 고객을 찾아 다른 Adobe Experience Cloud 솔루션에서 재사용할 수 있습니다. Adobe 사용자 핵심 서비스에서 Adobe Campaign 공유 대상을 사용하는 방법에 대한 자세한 내용은 이 [설명서를 참조하십시오](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html).
 
 >[!NOTE]
 >
