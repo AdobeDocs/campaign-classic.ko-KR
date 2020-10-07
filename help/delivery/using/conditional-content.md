@@ -1,7 +1,7 @@
 ---
-title: 조건부 컨텐츠
-seo-title: 조건부 컨텐츠
-description: 조건부 컨텐츠
+title: 조건부 콘텐츠
+seo-title: 조건부 콘텐츠
+description: 조건부 콘텐츠
 seo-description: null
 page-status-flag: never-activated
 uuid: d1c38263-a163-448c-8822-8b3e776e45cf
@@ -11,19 +11,16 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: 167cc61a-fbc7-48cb-89ff-fbdbf9321c01
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# 조건부 컨텐츠{#conditional-content}
+# 조건부 콘텐츠{#conditional-content}
 
 조건부 컨텐츠 필드를 구성하면 받는 사람의 프로필을 기반으로 동적 개인화를 만들 수 있습니다. 특정 조건이 충족되면 텍스트 블록 및/또는 이미지가 교체됩니다.
 
