@@ -11,14 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: dbe9080c-66e3-4ff6-8f16-959f9748f666
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2541'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -27,7 +24,7 @@ ht-degree: 0%
 
 ## CRM 커넥터 정보 {#about-crm-connectors}
 
-Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 다양한 CRM 커넥터를 제공합니다. 이러한 CRM 커넥터를 사용하면 연락처, 계정, 구매 등을 동기화할 수 있습니다. 또한 다양한 타사 및 비즈니스 애플리케이션과 애플리케이션을 손쉽게 통합할 수 있습니다.
+Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 다양한 CRM 커넥터를 제공합니다. 이러한 CRM 커넥터를 사용하면 연락처, 계정, 구매 등을 동기화할 수 있습니다. 또한 다양한 타사 및 비즈니스 애플리케이션과 사용자의 애플리케이션을 손쉽게 통합할 수 있습니다.
 
 이러한 커넥터를 사용하면 빠르고 손쉽게 데이터를 통합할 수 있습니다. Adobe Campaign은 CRM에서 사용할 수 있는 테이블을 수집하고 선택하는 전용 마법사를 제공합니다. 이렇게 하면 시스템 전체에서 항상 데이터가 최신 상태로 유지되도록 양방향 동기화를 보장합니다.
 
@@ -39,9 +36,9 @@ CRM에 연결하는 것은 전용 워크플로우 활동을 통해 수행됩니�
 
 ### 호환 CRM 시스템 및 제한 사항 {#compatible-crm-systems-and-limitations}
 
-아래에 나열된 CRM은 Adobe Campaign에 통합할 수 있습니다.
+아래 나열된 CRM은 Adobe Campaign에 통합할 수 있습니다.
 
-지원되는 버전은 [호환성 매트릭스에 자세히 나와 있습니다](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+지원되는 버전은 [호환성 매트릭스에 자세히 나와 있습니다](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html).
 
 * **Salesforce.com**
 
@@ -105,7 +102,7 @@ Adobe Campaign에서 CRM 커넥터를 사용하려면 다음 단계를 수행하
 
 ### Salesforce.com의 예 {#example-for-salesforce-com}
 
-Salesforce. **com** 커넥터를 Adobe Campaign에 구성하려면 아래 단계를 따르십시오.
+Salesforce. **com** 커넥터를 Adobe Campaign과 구성하려면 아래 단계를 따르십시오.
 
 1. Adobe Campaign 트리의 노드를 통해 새 외부 계정 **[!UICONTROL Administration > Platform > External accounts]** 을 만듭니다.
 1. 구성 마법사를 실행하여 사용 가능한 CRM 테이블을 생성합니다.
@@ -120,17 +117,17 @@ Salesforce. **com** 커넥터를 Adobe Campaign에 구성하려면 아래 단계
 
    >[!NOTE]
    >
-   >설정을 승인하려면 로그오프하고 Adobe Campaign 콘솔에 다시 로그온해야 합니다.
+   >설정을 승인하려면 로그오프하고 Adobe Campaign 콘솔으로 다시 로그온해야 합니다.
 
 1. 노드의 Adobe Campaign에서 생성된 스키마를 **[!UICONTROL Administration > Configuration > Data schemas]** 확인합니다.
 
    ![](assets/crm_connectors_sfdc_table.png)
 
-1. 스키마가 만들어지면 CRM을 통해 항목을 Adobe Campaign에 자동으로 동기화할 수 있습니다.
+1. 스키마가 만들어지면 CRM을 통해 열거형을 Adobe Campaign에 자동으로 동기화할 수 있습니다.
 
    이렇게 하려면 **[!UICONTROL Synchronizing enumerations...]** 링크를 클릭하고 CRM 열거에 일치하는 Adobe Campaign 열거형을 선택합니다.
 
-   Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니다. 이렇게 하려면 열 **[!UICONTROL Yes]** 에서 **[!UICONTROL Replace]** 선택합니다.
+   Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니다.이렇게 하려면 열 **[!UICONTROL Yes]** 에서 **[!UICONTROL Replace]** 선택합니다.
 
    ![](assets/crm_connectors_sfdc_enum.png)
 
@@ -146,19 +143,19 @@ Salesforce. **com** 커넥터를 Adobe Campaign에 구성하려면 아래 단계
 
 ### Oracle On Demand의 예 {#example-for-oracle-on-demand}
 
-Adobe Campaign에서 **작동하도록 Oracle On** Demand 커넥터를 구성하려면 다음 단계를 수행하십시오.
+Oracle **On Demand** 커넥터가 Adobe Campaign과 작동하도록 구성하려면 다음 단계를 적용합니다.
 
 1. Adobe Campaign 트리의 노드를 통해 새 외부 계정 **[!UICONTROL Administration > Platform > External accounts]** 을 만듭니다.
 
    ![](assets/crm_connectors_ood_1.png)
 
-1. 구성 마법사를 엽니다. Adobe Campaign은 Oracle 데이터 모델의 테이블을 자동으로 표시합니다. 수집할 테이블을 선택합니다.
+1. 구성 마법사를 엽니다.Adobe Campaign은 Oracle 데이터 모델의 테이블을 자동으로 표시합니다. 수집할 테이블을 선택합니다.
 
    ![](assets/crm_connectors_ood_2.png)
 
 1. 일치하는 스키마 **[!UICONTROL Next]** 를 만들려면 을 클릭합니다.
 
-   일치하는 데이터 스키마를 Adobe Campaign에서 사용할 수 있게 됩니다.
+   일치하는 데이터 스키마를 Adobe Campaign에서 사용할 수 있습니다.
 
    ![](assets/crm_connectors_ood_3.png)
 
@@ -170,7 +167,7 @@ Adobe Campaign에서 **작동하도록 Oracle On** Demand 커넥터를 구성하
 
    ![](assets/crm_connectors_ood_5.png)
 
-   이 워크플로우는 Oracle On Demand를 통해 연락처를 가져오고, 기존 Adobe Campaign 데이터와 동기화하며, 중복된 연락처를 삭제하고, Adobe Campaign 데이터베이스를 업데이트합니다.
+   이 워크플로우는 Oracle On Demand를 통해 연락처를 가져오고 기존 Adobe Campaign 데이터와 동기화하며 중복 연락처를 삭제하고 Adobe Campaign 데이터베이스를 업데이트합니다.
 
    다음과 같이 **[!UICONTROL CRM Connector]** 활동을 구성해야 합니다.
 
@@ -184,7 +181,7 @@ Adobe Campaign에서 **작동하도록 Oracle On** Demand 커넥터를 구성하
 
 ### Microsoft Dynamics의 예 {#example-for-microsoft-dynamics}
 
-Adobe Campaign에서 작동하도록 Microsoft Dynamics 커넥터를 구성하려면 다음 단계를 수행하십시오.
+Microsoft Dynamics 커넥터가 Adobe Campaign에서 작동하도록 구성하려면 다음 단계를 수행하십시오.
 
 1. Adobe Campaign 트리의 노드를 통해 새 외부 계정 **[!UICONTROL Administration > Platform > External accounts]** 을 만듭니다.
 
@@ -198,15 +195,15 @@ Adobe Campaign에서 작동하도록 Microsoft Dynamics 커넥터를 구성하�
 
    >[!NOTE]
    >
-   >Adobe Campaign Classic에서는 redirectURL 매개 변수가 필요하지 않습니다.
+   >redirectURL 매개 변수는 Adobe Campaign Classic에서 필요하지 않습니다.
 
-   clientId **값은 사용자 이름/암호와 함께 사용되어 부여 유형 암호를 사용하여 전달자 토큰을 가져옵니다** . 이를 리소스 **소유자 암호 자격 증명 부여라고 합니다**. For more on this, refer to [this page](https://blogs.msdn.microsoft.com/wushuai/2016/09/25/resource-owner-password-credentials-grant-in-azure-ad-oauth/).
+   clientId **값은 사용자 이름/암호와 함께 사용되어 부여 유형 암호를 사용하여 전달자 토큰을 가져옵니다** . 이를 리소스 **소유자 암호 자격 증명 부여라고 합니다**. 자세한 정보는 이 [페이지](https://blogs.msdn.microsoft.com/wushuai/2016/09/25/resource-owner-password-credentials-grant-in-azure-ad-oauth/)를 참조하십시오.
 
    ![](assets/crm_connectors_msdynamics_01_3.png)
 
-   CRM 버전 호환성에 대한 자세한 내용은 [호환성 매트릭스를 참조하십시오](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+   CRM 버전 호환성에 대한 자세한 내용은 [호환성 매트릭스를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html).
 
-1. 구성 마법사를 엽니다. Adobe Campaign은 Microsoft Dynamics 데이터 템플릿에서 테이블을 자동으로 검색합니다.
+1. 구성 마법사를 엽니다. Adobe Campaign은 Microsoft Dynamics 데이터 템플릿에서 테이블을 자동으로 감지합니다.
 
    ![](assets/crm_connectors_msdynamics_02.png)
 
@@ -222,7 +219,7 @@ Adobe Campaign에서 작동하도록 Microsoft Dynamics 커넥터를 구성하�
    >
    >구성을 승인하려면 Adobe Campaign 콘솔에 연결 해제/다시 연결해야 합니다.
 
-   일치하는 데이터 스키마를 Adobe Campaign에서 사용할 수 있게 됩니다.
+   일치하는 데이터 스키마를 Adobe Campaign에서 사용할 수 있습니다.
 
    ![](assets/crm_connectors_msdynamics_05.png)
 
@@ -230,7 +227,7 @@ Adobe Campaign에서 작동하도록 Microsoft Dynamics 커넥터를 구성하�
 
    ![](assets/crm_connectors_msdynamics_06.png)
 
-1. Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오려면 다음 유형의 워크플로를 만듭니다.
+1. Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오려면 다음 유형의 워크플로우를 만드십시오.
 
    ![](assets/crm_connectors_msdynamics_07.png)
 
@@ -279,13 +276,13 @@ Adobe Campaign의 CRM을 통해 데이터를 가져오려면 다음 유형의 �
 
    >[!IMPORTANT]
    >
-   >CRM의 레코드 식별자는 CRM과 Adobe Campaign에서 개체를 연결하는 데 필수입니다. 상자가 승인되면 자동으로 추가됩니다.
+   >CRM과 Adobe Campaign에서 개체를 연결하려면 CRM의 레코드 식별자가 필요합니다. 상자가 승인되면 자동으로 추가됩니다.
    >
    >CRM 측의 마지막 수정 날짜도 증분 데이터 가져오기에 필수입니다.
 
 1. 필요에 따라 가져올 데이터를 필터링할 수도 있습니다. 이렇게 하려면 **[!UICONTROL Edit the filter...]** 링크를 클릭합니다.
 
-   다음 예에서 Adobe Campaign은 2012년 11월 1일부터 일부 활동이 기록된 연락처만 가져옵니다.
+   다음 예에서, Adobe Campaign은 2012년 11월 1일부터 일부 활동이 기록된 연락처만 가져옵니다.
 
    ![](assets/crm_task_import_filter.png)
 
@@ -323,9 +320,9 @@ Adobe Campaign의 CRM을 통해 데이터를 가져오려면 다음 유형의 �
 
 옵션을 **[!UICONTROL Automatic index]** 활성화하면 유형 활동을 통해 동기화 워크플로우에서 사용할 수 있는 세 가지 변수가 **[!UICONTROL JavaScript code]** 생성됩니다. 이러한 활동은 다음과 같습니다.
 
-* **vars.crmOptionName**: 마지막 가져오기 날짜가 포함된 옵션의 이름을 나타냅니다.
-* **vars.crmStartImport**: 마지막 데이터 복구의 시작 날짜(포함)를 나타냅니다.
-* **vars.crmEndDate**: 마지막 데이터 복구의 종료 날짜(제외)를 나타냅니다.
+* **vars.crmOptionName**:마지막 가져오기 날짜가 포함된 옵션의 이름을 나타냅니다.
+* **vars.crmStartImport**:마지막 데이터 복구의 시작 날짜(포함)를 나타냅니다.
+* **vars.crmEndDate**:마지막 데이터 복구의 종료 날짜(제외)를 나타냅니다.
 
    >[!NOTE]
    >
@@ -394,7 +391,7 @@ Adobe Campaign 데이터를 CRM으로 내보내면 전체 내용을 CRM 데이�
 
    >[!NOTE]
    >
-   >지정된 필드의 경우 CRM 측에 일치하는 항목이 정의되지 않은 경우 값을 업데이트할 수 없습니다. CRM에 바로 삽입됩니다.
+   >지정된 필드의 경우 CRM 측에 일치하는 항목이 정의되지 않은 경우 값을 업데이트할 수 없습니다.CRM에 바로 삽입됩니다.
 
    필요한 경우 열의 드롭다운 목록을 통해 데이터 형식을 **[!UICONTROL Conversion]** 변경합니다. 가능한 전환 유형은 [데이터 형식으로 자세히 설명합니다](#data-format).
 
@@ -416,9 +413,9 @@ Adobe Campaign 데이터를 CRM으로 내보내면 전체 내용을 CRM 데이�
 
 다른 가능한 전환은 다음과 같습니다.
 
-* **[!UICONTROL Date only]**: 이 모드에서는 날짜 + 시간 유형 필드가 삭제됩니다.
-* **[!UICONTROL Without time offset]**: 이 모드는 기본 모드에 적용된 표준 시간대 관리를 취소합니다.
-* **[!UICONTROL Copy/Paste]**: 이 모드에서는 문자열(전환 없음)과 같은 원시 데이터를 사용합니다.
+* **[!UICONTROL Date only]**:이 모드에서는 날짜 + 시간 유형 필드가 삭제됩니다.
+* **[!UICONTROL Without time offset]**:이 모드는 기본 모드에 적용된 표준 시간대 관리를 취소합니다.
+* **[!UICONTROL Copy/Paste]**:이 모드에서는 문자열(전환 없음)과 같은 원시 데이터를 사용합니다.
 
 #### 처리 중 오류 발생 {#error-processing}
 
