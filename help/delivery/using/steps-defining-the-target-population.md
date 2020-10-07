@@ -11,14 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -148,7 +145,7 @@ ht-degree: 0%
 
    예제:
 
-   * 뉴스레터 또는 전자 문서 전달 데이터에 기본 중복 항목이 없는 경우도 있습니다. 동일한 이메일 주소를 사용하는 커플에게 개인화된 두 가지 이메일 메시지를 받게 됩니다.한 사람의 이름은 개개개인으로 지정됩니다. 이 경우 이 옵션을 선택 취소할 수 있습니다.
+   * 뉴스레터 또는 전자 문서 전달 데이터에 기본 중복 항목이 없는 경우도 있습니다. 동일한 이메일 주소를 사용하는 커플에게 개인화된 두 가지 이메일 메시지를 받게 됩니다.한 사람의 이름은 개개인으로 지정됩니다. 이 경우 이 옵션을 선택 취소할 수 있습니다.
    * 마케팅 캠페인 전달:동일한 수신자에게 너무 많은 메시지를 보내지 않으려면 중복 제외가 필요합니다. 이 경우 이 옵션을 선택할 수 있습니다.
 
       이 옵션을 선택 해제하면 추가 옵션에 액세스할 수 있습니다. **[!UICONTROL Keep duplicate records (same identifier)]**. 여러 타깃팅 기준을 충족하는 수신자에게 여러 전달을 승인할 수 있도록 해줍니다.
@@ -233,7 +230,7 @@ For more on proof sending, refer to [this section](../../delivery/using/steps-va
 
 이 옵션을 사용하여 특정 증명 대상의 정의와 시드 주소의 사용을 결합할 수 **[!UICONTROL Specific target and Seed addresses]** 있습니다. 그런 다음 관련 구성은 두 개의 개별 하위 탭에서 정의됩니다.
 
-## 이메일을 통해 시드와 증거 자료를 관리하는 방법 {#seeds-and-proofs-video}
+## How to manage seed and proofs in an email {#seeds-and-proofs-video}
 
 이 비디오에서는 기존 이메일에 씨드(sed) 및 교정을 추가하는 방법과 보내는 방법을 살펴봅니다.
 
@@ -244,4 +241,4 @@ For more on proof sending, refer to [this section](../../delivery/using/steps-va
 
 * [시드 주소 정보](../../delivery/using/about-seed-addresses.md)
 
-* [사용 사례:기준 시드 주소 선택](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+* [사용 사례: 기준 시드 주소 선택](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
