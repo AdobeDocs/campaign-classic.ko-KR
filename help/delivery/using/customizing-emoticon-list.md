@@ -9,14 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3beb62d0264cfcb03486c291ce79cc7ff582e9c7
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -43,14 +40,15 @@ ht-degree: 0%
 
    ![](assets/emoticon_1.png)
 
-1. **[!UICONTROL Add]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
 1. 필드를 채웁니다.
 
-   * **[!UICONTROL U+]**: 새로운 이모티콘 코드 이 [페이지에서 이모티콘 코드 목록을 찾을 수 있습니다](https://unicode.org/emoji/charts/full-emoji-list.html).
+   * **[!UICONTROL U+]**:새로운 이모티콘 코드 이 [페이지에서 이모티콘 코드 목록을 찾을 수 있습니다](https://unicode.org/emoji/charts/full-emoji-list.html).
 호환성 문제를 방지하려면 브라우저와 모든 운영 체제에서 지원되는 이모티콘을 선택하는 것이 좋습니다.
 
-   * **[!UICONTROL Label]**: 새 이모티콘 레이블
+   * **[!UICONTROL Label]**:새 이모티콘 레이블
+
    ![](assets/emoticon_5.png)
 
 1. 구성 **[!UICONTROL Ok]** 이 완료되면 을 **[!UICONTROL Save]** 클릭합니다.
@@ -66,7 +64,7 @@ ht-degree: 0%
 
 1. 이제 새로운 이모티콘이 기본 열거에 **[!UICONTROL Insert emoticon list]** 추가되었습니다. 더 이상 필요하지 않은 경우 언제든지 **[!UICONTROL Display order]** 변경하거나 스토어로 옮길 수 있습니다.
 
-1. 변경 사항을 고려하려면 연결을 끊은 다음 Adobe Campaign Classic에서 다시 연결하십시오. 새 이모티콘이 **[!UICONTROL Insert emoticon]** 팝업 창에 표시되지 않으면 캐시를 지워야 할 수 있습니다. For more on this, refer to this [section](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
+1. 변경 사항을 고려하려면, 연결을 끊고 Adobe Campaign Classic에서 다시 연결하십시오. 새 이모티콘이 **[!UICONTROL Insert emoticon]** 팝업 창에 표시되지 않으면 캐시를 지워야 할 수 있습니다. 자세한 정보는 이 [섹션](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)을 참조하십시오.
 
 1. 이제 이전 단계에 구성된 대로 61번째 위치의 **[!UICONTROL Insert emoticon]** 팝업 창의 배달에서 새 이모티콘을 찾을 수 있습니다. 배달에서 이모티콘을 사용하는 방법에 대한 자세한 내용은 이 [페이지를 참조하십시오](../../delivery/using/defining-the-email-content.md#inserting-emoticons).
 
