@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 discoiquuid: e2c6e273-1640-4f46-a80e-0cecb06e2769
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 10%
 
 ---
 
@@ -30,8 +30,8 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 | 이름 | 사용 | 표준 스키마 |
 |---|---|---|
-| 수신자 | Adobe Campaign 데이터베이스의 수신자에게 전달 | nms:수신자 |
-| 방문자 수 | 참조(바이럴 마케팅) 또는 소셜 네트워크(Facebook, Twitter)를 통해 프로필을 수집한 방문자에게 제공합니다. | mns:visitor |
+| 수신자 | Adobe Campaign 데이터베이스의 받는 사람에게 전달 | nms:수신자 |
+| 방문자 수 | 참조(바이럴 마케팅) 또는 소셜 네트워크(Facebook, Twitter)를 통해 프로필을 수집한 방문자에게 제공합니다. | mns:방문자 |
 | 구독 | 뉴스레터와 같은 정보 서비스에 가입한 수신자에게 전달 | nms:구독 |
 | 방문자 구독 | 정보 서비스에 가입한 방문자에게 제공 | nms:visitorSub |
 | 서비스 | Twitter 계정 또는 Facebook 페이지에 게시 | nms:서비스 |
@@ -40,4 +40,4 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 >[!NOTE]
 >
->새 대상 매핑을 만들 수도 있습니다. 이 작업은 전문가 사용자를 위해 예약되었습니다. 자세한 내용은 구성 [안내서를](../../configuration/using/target-mapping.md)참조하십시오.
+>새 대상 매핑을 만들 수도 있습니다. 이 작업은 전문가 사용자용으로 예약되어 있습니다. For more information, refer to the [Configuration guide](../../configuration/using/target-mapping.md).
