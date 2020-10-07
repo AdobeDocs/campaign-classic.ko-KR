@@ -11,14 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 discoiquuid: 6d19a5a6-98e5-4b1a-a56a-67cfead152bd
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a33132f64f160b20c98afd08cb9d0fe4cdf62b1a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -35,7 +32,7 @@ IMS가 활성화되면 Campaign과 사람 핵심 서비스/Audience Manager 통�
  <tbody> 
   <tr> 
    <td> <strong>요청 유형:</strong><br /> </td> 
-   <td> AAM/People 코어 서비스-캠페인 통합 구성 </td> 
+   <td> AAM/사용자 핵심 서비스-캠페인 통합 구성 </td> 
   </tr> 
   <tr> 
    <td> <strong>조직명:</strong><br /> </td> 
@@ -47,15 +44,15 @@ IMS가 활성화되면 Campaign과 사람 핵심 서비스/Audience Manager 통�
   </tr> 
   <tr> 
    <td> <strong>환경:</strong><br /> </td> 
-   <td> 예: 프로덕션 </td> 
+   <td> 예:프로덕션 </td> 
   </tr> 
   <tr> 
-   <td> <strong>AAM 또는 사용자 서비스</strong><br /> </td> 
-   <td> 예: Adobe Audience Manager. Audience Manager 라이선스 소유 여부에 관계없이 프로비저닝 팀에 문의하십시오.</td> 
+   <td> <strong>AAM 또는 People Service</strong><br /> </td> 
+   <td> 예:Adobe Audience Manager. Audience Manager 라이선스 소유 여부에 관계없이 프로비저닝 팀에 문의하십시오.</td> 
   </tr> 
   <tr> 
    <td> <strong>선언된 ID 또는 방문자 ID</strong><br /> </td> 
-   <td> 예: 선언된 ID </td> 
+   <td> 예:선언된 ID </td> 
   </tr> 
   <tr> 
    <td> <strong>추가 정보</strong><br /> </td> 
