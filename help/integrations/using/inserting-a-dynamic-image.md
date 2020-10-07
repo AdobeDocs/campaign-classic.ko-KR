@@ -11,14 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 discoiquuid: f6e4d22b-4ad3-4a1e-8a6f-3bdfc1da0535
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +34,7 @@ ht-degree: 0%
 
 ![](assets/target_4.png)
 
-이 작업을 수행하려면 Adobe Campaign 및 Target에서 다음 단계를 수행해야 합니다.
+이를 수행하려면 Adobe Campaign 및 Target에서 다음 단계를 수행해야 합니다.
 
 1. [이메일에 동적 오퍼 삽입](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
 1. [리디렉션 오퍼 만들기](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
@@ -47,7 +44,7 @@ ht-degree: 0%
 
 ## 이메일에 동적 오퍼 삽입 {#inserting-dynamic-offer}
 
-Adobe Campaign에서 이메일의 대상 및 컨텐츠 정의를 완료하면 Target의 동적 이미지를 삽입할 수 있습니다.
+Adobe Campaign에서 이메일의 타겟 및 컨텐츠 정의를 완료하면 Target의 동적 이미지를 삽입할 수 있습니다.
 
 이렇게 하려면 기본 이미지의 URL, 위치 이름 및 Target으로 전송할 필드를 지정합니다.
 
@@ -63,10 +60,10 @@ Adobe Campaign에서는 Target의 동적 이미지를 이메일에 삽입하는 
 
 ### 이미지 매개 변수 정의 {#defining-image-parameters}
 
-* URL **[!UICONTROL Default image]**: 조건이 충족되지 않을 때 표시되는 이미지입니다. 자산 라이브러리에서 이미지를 선택할 수도 있습니다.
-* The **[!UICONTROL Target location]**: 동적 오퍼 위치의 이름을 입력합니다. Target 활동에서 이 위치를 선택해야 합니다.
-* The **[!UICONTROL Landing Page]**: 기본 이미지를 기본 랜딩 페이지로 리디렉션하려는 경우. 이 URL은 기본 이미지가 최종 이메일에 표시되고 선택 사항인 경우에만 해당됩니다.
-* The **[!UICONTROL Additional decision parameters]**: Adobe Target 세그먼트에 정의된 필드와 Adobe Campaign 필드 간의 매핑을 지정합니다. 사용된 Adobe Campaign 필드는 rawbox에 지정되어 있어야 합니다. 이 예에서는 국가 필드를 추가했습니다.
+* URL **[!UICONTROL Default image]**:조건이 충족되지 않을 때 표시되는 이미지입니다. 자산 라이브러리에서 이미지를 선택할 수도 있습니다.
+* The **[!UICONTROL Target location]**:동적 오퍼 위치의 이름을 입력합니다. Target 활동에서 이 위치를 선택해야 합니다.
+* The **[!UICONTROL Landing Page]**:기본 이미지를 기본 랜딩 페이지로 리디렉션하려는 경우. 이 URL은 기본 이미지가 최종 이메일에 표시되고 선택 사항인 경우에만 해당됩니다.
+* The **[!UICONTROL Additional decision parameters]**:Adobe Target 세그먼트에 정의된 필드와 Adobe Campaign 필드 사이의 매핑을 지정합니다. 사용된 Adobe Campaign 필드는 rawbox에 지정되어 있어야 합니다. 이 예에서는 국가 필드를 추가했습니다.
 
 Adobe Target의 설정에서 Enterprise 권한을 사용하는 경우 이 필드에 해당 속성을 추가합니다. 이 [페이지에서 Enterprise Target 권한에 대해 자세히 알아보십시오](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html).
 
@@ -80,7 +77,7 @@ Target에서 다양한 버전의 오퍼를 만들 수 있습니다. 각 사용�
 
 1. Target Standard에서 새 리디렉션 오퍼를 만들려면 **[!UICONTROL Content]** 탭에서 을 클릭합니다 **[!UICONTROL Code offers]**.
 
-1. 을 **[!UICONTROL Create]** 클릭합니다 **[!UICONTROL Redirect Offer]**.
+1. **[!UICONTROL Create]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Redirect Offer]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/target_9.png)
 
@@ -88,7 +85,7 @@ Target에서 다양한 버전의 오퍼를 만들 수 있습니다. 각 사용�
 
    ![](assets/target_6.png)
 
-1. 나머지 리디렉션 오퍼에 대해 동일한 절차를 따르십시오. For more on this, refer to this [page](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html).
+1. 나머지 리디렉션 오퍼에 대해 동일한 절차를 따르십시오. 자세한 정보는 이 [페이지](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html)를 참조하십시오.
 
 ## 대상자 만들기 {#audiences-target}
 
@@ -160,7 +157,7 @@ Target에서 경험 타깃팅 활동을 만들고, 다른 경험을 정의하고
 
 ## Campaign Classic에서 이메일 미리 보기 및 보내기 {#preview-send-email}
 
-이제 Adobe Campaign에서 이메일을 미리 보고 다른 수신자에게 이메일의 렌더링을 테스트할 수 있습니다. 만들어진 여러 경험에 따라 이미지가 바뀝니다. 이메일 만들기에 대한 자세한 내용은 이 [페이지를 참조하십시오](../../delivery/using/defining-the-email-content.md).
+이제 Adobe Campaign에서 이메일을 미리 보고 다른 수신자에게 이메일을 렌더링할 수 있습니다. 만들어진 여러 경험에 따라 이미지가 바뀝니다. To learn more on email creation, refer to this [page](../../delivery/using/defining-the-email-content.md).
 
 이제 Target의 동적 오퍼가 포함된 이메일을 보낼 준비가 되었습니다.
 
