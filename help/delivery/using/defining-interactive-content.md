@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 80de051cde62038c11246f8da08a7e00505a3313
+source-git-commit: a636d56652e1045e7c48bd2e1a2420b58212739a
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1574'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 Adobe Campaign을 사용하면 특정 조건 [에서 동적 이메일을 보낼 수 있는 새로운 대화형](https://amp.dev/about/email/) AMP for Email 형식을 사용할 수 있습니다.
 
-이 버전에서는 다음을 수행할 수 있습니다.
+현재 이메일용 AMP가 있는 경우 다음을 수행할 수 있습니다.
 * 적절하게 구성된 특정 주소에 AMP 이메일 전달을 테스트합니다.
 * 해당 공급자에 등록한 후 AMP 이메일을 Gmail, Outlook 또는 Mail.ru 주소로 배달합니다.
 
@@ -55,19 +55,14 @@ AMP 이메일 테스트 및 전송에 대한 자세한 내용은 AMP 이메일 [
 ## Adobe Campaign에서 이메일에 AMP를 사용하는 주요 단계 {#key-steps-to-use-amp}
 
 Adobe Campaign과 함께 AMP 이메일을 성공적으로 테스트 및 전송하려면 아래 단계를 따르십시오.
-1. 패키지를 **[!UICONTROL AMP support (Beta)]** 설치합니다. Campaign [표준 패키지 설치를 참조하십시오](../../installation/using/installing-campaign-standard-packages.md).
+1. 패키지를 **[!UICONTROL AMP support]** 설치합니다. Campaign [표준 패키지 설치를 참조하십시오](../../installation/using/installing-campaign-standard-packages.md).
 1. Adobe Campaign에서 이메일을 만들어 AMP 콘텐츠를 제작할 수 있습니다. Adobe Campaign [를 사용하여 AMP 이메일 콘텐츠 제작을 참조하십시오](#build-amp-email-content).
 1. AMP 형식을 지원하는 이메일 제공업체의 모든 전달 요구 사항을 따라야 합니다. 이메일 [전달 요구 사항은 AMP를 참조하십시오](#amp-for-email-delivery-requirements).
-
-   >[!NOTE]
-   >
-   >이메일용 AMP는 테스트 목적으로 베타 기능으로 사용할 수 있습니다. 현재 이 형식 테스트를 지원하는 이메일 공급자는 소수뿐입니다.
-
 1. 대상을 정의할 때 AMP 형식을 표시할 수 있는 수신자를 선택해야 합니다. AMP [이메일 타깃팅을 참조하십시오](#targeting-amp-email).
 
    >[!NOTE]
    >
-   >현재 AMP 베타 프로그램에 참여하는 이메일 제공자와 등록된 후에 적절하게 구성된 특정 이메일 주소에 AMP 이메일 전달을 테스트할 수만 있습니다.
+   >현재 AMP 이메일은 [특정 이메일 주소](#testing-amp-delivery-for-selected-addresses) (테스트 목적) 또는 지원되는 이메일 클라이언트에 [등록한](#delivering-amp-emails-by-registering) 후에만 전달할 수 있습니다.
 
 1. 평상시처럼 이메일 전송 AMP [이메일 전송을 참조하십시오](#sending-amp-email).
 
@@ -156,10 +151,10 @@ Gmail에 대한 [팁과 알려진 제한 사항](https://developers.google.com/g
 
 ## AMP 이메일 타깃팅 {#targeting-amp-email}
 
-이메일용 AMP를 베타 기능으로 사용할 수 있으므로, AMP 이메일을 보내는 것을 두 가지 단계로 실험해 볼 수 있습니다.
+현재 AMP 이메일 전송을 두 단계로 실험해 볼 수 있습니다.
 
 1. Adobe Campaign을 사용하면 컨텐츠와 동작을 확인하기 위해 AMP 기반의 동적 이메일을 선택한 이메일 주소로 적절하게 구성된 것을 테스트할 수 있습니다. 선택한 [주소에 대한 AMP 이메일 배달 테스트를 참조하십시오](#testing-amp-delivery-for-selected-addresses).
-1. 테스트를 거친 후에는 관련 이메일 공급자에 등록하여 보낸 사람 도메인을 허용 목록에 추가하도록 함으로써 이메일용 베타 프로그램의 일부로 배달 또는 캠페인을 보낼 수 있습니다. 이메일 [공급자에 등록하여 AMP 이메일 전달을 참조하십시오](#delivering-amp-emails-by-registering).
+1. 테스트를 거친 후에는 해당 이메일 공급자에 등록하여 보낸 사람 도메인을 허용 목록에 추가하도록 함으로써 이메일용 AMP 프로그램의 일부로 게재 또는 캠페인을 보낼 수 있습니다. 이메일 [공급자에 등록하여 AMP 이메일 전달을 참조하십시오](#delivering-amp-emails-by-registering).
 
 ### 선택한 주소에 대한 AMP 이메일 배달 테스트 {#testing-amp-delivery-for-selected-addresses}
 
@@ -183,7 +178,7 @@ Mail.ru 주소로 AMP 이메일 전송을 테스트하려면 [Mail.ru 개발자 
 
 ### 이메일 공급자에 등록하여 AMP 이메일 전달 {#delivering-amp-emails-by-registering}
 
-보낸 사람 도메인을 허용 목록에 추가하기 위해 AMP 베타 프로그램에 참여하는 이메일 공급자에 등록하여 동적 이메일 제공을 실험할 수 있습니다.
+보낸 사람 도메인을 허용 목록에 추가하기 위해 지원되는 이메일 공급자에 등록하여 동적 이메일 제공을 실험할 수 있습니다.
 
 >[!NOTE]
 >
