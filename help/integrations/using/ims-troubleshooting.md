@@ -11,14 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 54cb4143fc534aa436c4b8b28e031e87a2a02e40
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -31,8 +28,8 @@ ht-degree: 0%
 
 다음 설정을 사용하는 **외부 계정은** 하나만 있어야 합니다.
 
-* **내부 이름**: Adobe_Marketing_Cloud
-* **유형**: Adobe Marketing Cloud
+* **내부 이름**:Adobe_Marketing_Cloud
+* **유형**:Adobe Marketing Cloud
 
 동일한 설정을 가진 중복 외부 계정을 삭제합니다.
 
@@ -65,7 +62,7 @@ Campaign **Adobe Marketing Cloud** 외부 계정 **[!UICONTROL IMS Server URL]**
 
 **콜백 URL**
 
-콜백 **URL을** 허용 목록에 추가하고 &quot;https://&quot;으로 시작해야 합니다. 콜백 **URL이** 해당 인스턴스에 연결되어 있는지 확인합니다. 예를 들어 프로덕션 인스턴스는 프로덕션 URL로 리디렉션해야 합니다.
+콜백 **URL은** 허용 목록에 추가하고 &quot;https://&quot;으로 시작해야 합니다. 콜백 **URL이** 해당 인스턴스에 연결되어 있는지 확인합니다. 예를 들어 프로덕션 인스턴스는 프로덕션 URL로 리디렉션해야 합니다.
 
 **클라이언트 ID 및 암호**
 
