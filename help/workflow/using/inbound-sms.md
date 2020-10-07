@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 discoiquuid: fa9ae600-91fc-4aea-ae02-8ab9064947ac
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 8%
 
 ---
 
@@ -28,9 +28,9 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ![](assets/sms_rec_edit.png)
 
-인바운드 SMS **활동의 첫 번째 탭에서는 SMS** 메시지의 라우팅 매개 변수를 입력하고 각 메시지를 수신할 때 실행할 스크립트를 입력할 수 있습니다. 두 번째 탭에서는 활동에 예약을 지정할 수 있으며 세 번째 탭에서는 활동의 만료 조건을 정의합니다.
+인바운드 **SMS** 활동의 첫 번째 탭에서는 SMS 메시지의 라우팅 매개 변수를 입력하고 각 메시지를 수신할 때 실행될 스크립트를 입력할 수 있습니다. 두 번째 탭에서는 활동에 예약을 지정할 수 있고, 세 번째 탭에서는 활동의 만료 조건을 정의합니다.
 
-1. **[!UICONTROL SMS routing]**:SMS 복구에 사용할 외부 계정을 선택합니다. 외부 계정은 트리의 **[!UICONTROL Administration > Platform > External accounts]** 노드를 통해 구성됩니다.
+1. **[!UICONTROL SMS routing]**:SMS 복구에 사용할 외부 계정을 선택합니다. 외부 계정은 트리의 노드를 통해 **[!UICONTROL Administration > Platform > External accounts]** 구성됩니다.
 1. **[!UICONTROL Script]**
 1. **[!UICONTROL Schedule]**
 
@@ -38,4 +38,4 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 1. **[!UICONTROL Expiration]**
 
-인바운드 이메일에 **[!UICONTROL Script]**&#x200B;및 **[!UICONTROL Schedule]** 탭이 **[!UICONTROL Expiry]** 자세히 설명되어 있습니다 [](../../workflow/using/inbound-emails.md).
+인바운드 이메일 **[!UICONTROL Script]**, **[!UICONTROL Schedule]** 및 **[!UICONTROL Expiry]** 탭은 [자세히 설명되어 있습니다](../../workflow/using/inbound-emails.md).
