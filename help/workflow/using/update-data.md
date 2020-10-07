@@ -11,14 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: c94ce5b7-aa8a-4ea2-845d-68c9c7dc2a7b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -31,11 +28,11 @@ ht-degree: 0%
 
 이 **[!UICONTROL Operation type]** 필드를 사용하면 데이터베이스의 데이터에 대해 수행할 프로세스를 선택할 수 있습니다.
 
-* **[!UICONTROL Insert or update]**: 데이터를 추가하거나 이미 추가한 경우 업데이트합니다.
-* **[!UICONTROL Insert]**: 데이터만 추가합니다.
-* **[!UICONTROL Update]**: 데이터만 업데이트합니다.
-* **[!UICONTROL Update and merge collections]**: 데이터를 업데이트하고 기본 레코드를 선택한 다음 이 기본 레코드의 중본에 연결된 요소를 연결합니다. 이후 분리된 첨부 요소를 만들지 않고도 중복을 삭제할 수 있습니다.
-* **[!UICONTROL Delete]**: 데이터 삭제
+* **[!UICONTROL Insert or update]**:데이터를 추가하거나 이미 추가한 경우 업데이트합니다.
+* **[!UICONTROL Insert]**:데이터만 추가합니다.
+* **[!UICONTROL Update]**:데이터만 업데이트합니다.
+* **[!UICONTROL Update and merge collections]**:데이터를 업데이트하고 기본 레코드를 선택한 다음 이 기본 레코드의 중본에 연결된 요소를 연결합니다. 이후 분리된 첨부 요소를 만들지 않고도 중복을 삭제할 수 있습니다.
+* **[!UICONTROL Delete]**: 데이터를 삭제합니다.
 
 ![](assets/s_advuser_update_data_1.png)
 
@@ -63,7 +60,7 @@ Adobe Campaign에서 업데이트할 필드를 자동으로 식별하려면 이 
 
 ![](assets/s_advuser_update_data_3.png)
 
-업데이트할 모든 필드를 선택하고 필요한 경우 업데이트를 수행할 항목에 따라 조건을 추가합니다. 이렇게 하려면 열을 **[!UICONTROL Taken into account if]** 사용합니다. 조건은 차례로 적용되고 목록의 순서와 일치하게 적용됩니다. 오른쪽의 화살표를 사용하여 업데이트 순서를 변경합니다.
+업데이트할 모든 필드를 선택하고 필요한 경우 업데이트를 수행할 항목에 따라 조건을 추가합니다. 이렇게 하려면 **[!UICONTROL Taken into account if]**&#x200B;열을 사용합니다. 조건은 차례로 적용되고 목록의 순서와 일치하게 적용됩니다. 오른쪽의 화살표를 사용하여 업데이트 순서를 변경합니다.
 
 동일한 대상 필드를 여러 번 사용할 수 있습니다.
 
@@ -110,7 +107,7 @@ Adobe Campaign에서 업데이트할 필드를 자동으로 식별하려면 이 
 
 1. 기본 레코드로 이동할 컬렉션을 선택하고 업데이트할 필드를 선택합니다.
 
-   하나 또는 여러 개의 보조 레코드가 식별되면 이러한 레코드에 적용되는 규칙을 입력합니다. 이렇게 하려면 표현식 빌더를 사용할 수 있습니다. For more on this, refer to this [section](../../platform/using/defining-filter-conditions.md#building-expressions). 예를 들어 보존해야 하는 모든 다른 레코드 중에서 가장 최근에 업데이트된 값임을 지정하여
+   하나 또는 여러 개의 보조 레코드가 식별되면 이러한 레코드에 적용되는 규칙을 입력합니다. 이렇게 하려면 표현식 빌더를 사용할 수 있습니다. 자세한 정보는 이 [섹션](../../platform/using/defining-filter-conditions.md#building-expressions)을 참조하십시오. 예를 들어 보존해야 하는 모든 다른 레코드 중에서 가장 최근에 업데이트된 값임을 지정하여
 
    그런 다음 규칙에 대해 고려할 조건을 입력합니다.
 
@@ -124,9 +121,9 @@ Adobe Campaign에서 업데이트할 필드를 자동으로 식별하려면 이 
 
 보조 레코드에 대한 데이터는 정의된 규칙이 적용되는 경우 기본 레코드와 연관됩니다. 선택한 업데이트 유형에 따라 보조 레코드를 삭제할 수 있습니다.
 
-## 예: 데이터 연계 강화 {#example--update-data-following-an-enrichment}
+## 예:데이터 연계 강화 {#example--update-data-following-an-enrichment}
 
-단계 [2: 요약 목록을 생성하는 세부 정보에 대한 사용 사례의 &#39;구매&#39; 테이블](../../workflow/using/creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) 섹션에 데이터를 작성하면 농축된 활동 후 데이터 업데이트에 대한 예가 제공됩니다.
+단계 [2:요약 목록을 생성하는 세부 정보를 포함하는 사용 사례의 &#39;구매&#39; 테이블](../../workflow/using/creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) 섹션에 데이터를 작성하면 농축된 활동 후 데이터 업데이트에 대한 예가 제공됩니다.
 
 ## 입력 매개 변수 {#input-parameters}
 
