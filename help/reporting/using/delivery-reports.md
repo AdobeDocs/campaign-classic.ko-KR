@@ -1,7 +1,7 @@
 ---
-title: 배달 보고서
-seo-title: 배달 보고서
-description: 배달 보고서
+title: 게재 보고서
+seo-title: 게재 보고서
+description: 게재 보고서
 seo-description: null
 page-status-flag: never-activated
 uuid: 83ea834e-08f7-441b-8f15-a25ec07c4aab
@@ -11,19 +11,16 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5ebea30c743ab416ede879c74735e2c7870d3db9
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1456'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# 배달 보고서 {#delivery-reports}
+# 게재 보고서 {#delivery-reports}
 
 배달 개요에서 액세스할 수 있는 다양한 보고서를 통해 배달 실행을 추적할 수 있습니다. 보고서를 표시하려면 다음 절차를 적용합니다.
 
@@ -38,19 +35,19 @@ ht-degree: 1%
 
    기본적으로 다음 보고서를 사용할 수 있습니다.
 
-   * **[!UICONTROL Delivery throughput]** : 전달 [처리량을 참조하십시오](../../reporting/using/global-reports.md#delivery-throughput).
-   * **[!UICONTROL Sharing to social networks]** : 소셜 [네트워크에 공유를 참조하십시오](../../reporting/using/global-reports.md#sharing-to-social-networks).
-   * **[!UICONTROL Statistics on sharing activities]** : 공유 [활동에 대한 통계를 참조하십시오](../../reporting/using/global-reports.md#statistics-on-sharing-activities).
-   * **[!UICONTROL Hot clicks]** : 를 [참조하십시오](#hot-clicks).
-   * **[!UICONTROL Tracking statistics]** : 추적 [통계 참조](#tracking-statistics)
-   * **[!UICONTROL URLs and click streams]** : 를 [참조하고 스트림을 클릭합니다](#urls-and-click-streams).
-   * **[!UICONTROL Tracking indicators]** : 추적 표시기를 [참조하십시오](#tracking-indicators).
-   * **[!UICONTROL Non-deliverables and bounces]** : 비산출물 [및 바운스 수를 참조하십시오](../../reporting/using/global-reports.md#non-deliverables-and-bounces).
-   * **[!UICONTROL User activities]** : 사용자 [활동을 참조하십시오](../../reporting/using/global-reports.md#user-activities).
-   * **[!UICONTROL Delivery summary]** : 배달 [요약을 참조하십시오](#delivery-summary).
-   * **[!UICONTROL Subscription tracking]** : 구독 [추적을 참조하십시오](../../reporting/using/global-reports.md#subscription-tracking).
-   * **[!UICONTROL Delivery statistics]** : 전달 [통계를 참조하십시오](../../reporting/using/global-reports.md#delivery-statistics).
-   * **[!UICONTROL Breakdown of opens]** : 열기 [분류를 참조하십시오](../../reporting/using/global-reports.md#breakdown-of-opens).
+   * **[!UICONTROL Delivery throughput]** :전달 [처리량을 참조하십시오](../../reporting/using/global-reports.md#delivery-throughput).
+   * **[!UICONTROL Sharing to social networks]** :소셜 [네트워크에 공유를 참조하십시오](../../reporting/using/global-reports.md#sharing-to-social-networks).
+   * **[!UICONTROL Statistics on sharing activities]** :공유 [활동에 대한 통계를 참조하십시오](../../reporting/using/global-reports.md#statistics-on-sharing-activities).
+   * **[!UICONTROL Hot clicks]** :를 [참조하십시오](#hot-clicks).
+   * **[!UICONTROL Tracking statistics]** :추적 [통계 참조](#tracking-statistics)
+   * **[!UICONTROL URLs and click streams]** :를 [참조하고 스트림을 클릭합니다](#urls-and-click-streams).
+   * **[!UICONTROL Tracking indicators]** :추적 표시기를 [참조하십시오](#tracking-indicators).
+   * **[!UICONTROL Non-deliverables and bounces]** :비산출물 [및 바운스 수를 참조하십시오](../../reporting/using/global-reports.md#non-deliverables-and-bounces).
+   * **[!UICONTROL User activities]** :사용자 [활동을 참조하십시오](../../reporting/using/global-reports.md#user-activities).
+   * **[!UICONTROL Delivery summary]** :배달 [요약을 참조하십시오](#delivery-summary).
+   * **[!UICONTROL Subscription tracking]** :구독 [추적을 참조하십시오](../../reporting/using/global-reports.md#subscription-tracking).
+   * **[!UICONTROL Delivery statistics]** :전달 [통계를 참조하십시오](../../reporting/using/global-reports.md#delivery-statistics).
+   * **[!UICONTROL Breakdown of opens]** :열기 [분류를 참조하십시오](../../reporting/using/global-reports.md#breakdown-of-opens).
 
 ## 지표 추적 {#tracking-indicators}
 
@@ -64,8 +61,8 @@ ht-degree: 1%
 
 **[!UICONTROL 1. Delivery statistics]**
 
-* **[!UICONTROL Messages to deliver]** : 배달 분석 후 배달될 총 메시지 수입니다.
-* **[!UICONTROL Success]** : 성공적으로 처리된 메시지 수입니다.
+* **[!UICONTROL Messages to deliver]** :배달 분석 후 배달될 총 메시지 수입니다.
+* **[!UICONTROL Success]** :성공적으로 처리된 메시지 수입니다.
 
 **[!UICONTROL 2. Reception statistics]**
 
@@ -73,11 +70,11 @@ ht-degree: 1%
 >
 >관련 비율은 성공적으로 전달된 메시지 수를 기준으로 계산됩니다.
 
-* **[!UICONTROL Distinct opens for the population reached]** : 메시지를 한 번 이상 연 타깃팅된 받는 사람 수 추정 구독 취소 링크 및 미러 페이지의 클릭이 고려됩니다.
-* **[!UICONTROL Sum of opens for the population reached]** : 타깃팅된 받는 사람이 연 총 수 추정
-* **[!UICONTROL Clicks on opt-out link]** : 구독 취소 링크에 대한 클릭 수.
-* **[!UICONTROL Clicks on the mirror page link]** : 미러 페이지에 대한 링크에 대한 클릭 수입니다. 고려하려면, 링크를 배달 마법사(추적된 URL)에서 이렇게 정의해야 합니다. 이 [페이지를 참조하십시오](../../delivery/using/monitoring-a-delivery.md).
-* **[!UICONTROL Estimation of forwards]** : 타깃팅된 받는 사람이 보낸 이메일 수 예측 이 값은 개별 사용자 수와 이메일을 클릭한 개별 수신자 수를 뺀 값으로 계산됩니다.
+* **[!UICONTROL Distinct opens for the population reached]** :메시지를 한 번 이상 연 타깃팅된 받는 사람 수 추정 구독 취소 링크 및 미러 페이지의 클릭이 고려됩니다.
+* **[!UICONTROL Sum of opens for the population reached]** :타깃팅된 받는 사람이 연 총 수 추정
+* **[!UICONTROL Clicks on opt-out link]** :구독 취소 링크에 대한 클릭 수.
+* **[!UICONTROL Clicks on the mirror page link]** :미러 페이지에 대한 링크에 대한 클릭 수입니다. 고려하려면, 링크를 배달 마법사(추적된 URL)에서 이렇게 정의해야 합니다. Refer to this [page](../../delivery/using/monitoring-a-delivery.md).
+* **[!UICONTROL Estimation of forwards]** :타깃팅된 받는 사람이 보낸 이메일 수 예측 이 값은 개별 사용자 수와 이메일을 클릭한 개별 수신자 수를 뺀 값으로 계산됩니다.
 
    >[!NOTE]
    >
@@ -87,11 +84,11 @@ ht-degree: 1%
 
 이 값 표는 인터넷 도메인별 배달, 열기, 클릭 및 원시 재활동의 분류를 보여줍니다. 다음 지표가 사용됩니다.
 
-* **[!UICONTROL Sent]** : 이 도메인에서 보낸 총 메시지 수입니다.
-* **[!UICONTROL Complaints]** : 받는 사람이 원하지 않는 것으로 보고되는 이 도메인에 대한 메시지 수입니다. 이 도메인에서 보낸 총 메시지 수를 기준으로 요금이 계산됩니다.
-* **[!UICONTROL Opens]** : 메시지를 한 번 이상 연 이 도메인에 대한 타깃팅된 개별 받는 사람 수입니다. 이 도메인에서 보낸 총 메시지 수를 기준으로 요금이 계산됩니다.
-* **[!UICONTROL Clicks]** : 동일한 배달에서 최소 한 번 클릭했던 대상이 다른 받는 사람 수입니다. 이 도메인에서 보낸 총 메시지 수를 기준으로 요금이 계산됩니다
-* **[!UICONTROL Raw reactivity]** : 배달을 최소 한 번 이상 클릭한 받는 사람 수의 백분율입니다.
+* **[!UICONTROL Sent]** :이 도메인에서 보낸 총 메시지 수입니다.
+* **[!UICONTROL Complaints]** :받는 사람이 원하지 않는 것으로 보고되는 이 도메인에 대한 메시지 수입니다. 이 도메인에서 보낸 총 메시지 수를 기준으로 요금이 계산됩니다.
+* **[!UICONTROL Opens]** :메시지를 한 번 이상 연 이 도메인에 대한 타깃팅된 개별 받는 사람 수입니다. 이 도메인에서 보낸 총 메시지 수를 기준으로 요금이 계산됩니다.
+* **[!UICONTROL Clicks]** :동일한 배달에서 최소 한 번 클릭했던 대상이 다른 받는 사람 수입니다. 이 도메인에서 보낸 총 메시지 수를 기준으로 요금이 계산됩니다
+* **[!UICONTROL Raw reactivity]** :배달을 최소 한 번 이상 클릭한 받는 사람 수의 백분율입니다.
 
 >[!NOTE]
 >
@@ -103,20 +100,20 @@ ht-degree: 1%
 >
 >관련 비율은 성공적으로 전달된 메시지 수를 기준으로 계산됩니다.
 
-* **[!UICONTROL Distinct clicks for the population reached]** : 배달을 최소 한 번 클릭한 별개의 사람 수입니다.
-* **[!UICONTROL Cumulated clicks]** : 구독 취소 링크 및 미러 페이지를 제외하고 타깃팅된 수신자별 총 클릭 수
-* **[!UICONTROL Recipient clicks]** : 동일한 배달에서 최소 한 번 클릭했던 대상이 다른 받는 사람 수입니다.
-* **[!UICONTROL Estimated recipient reactivity]** : 배달 중 최소 한 번 이상 클릭한 받는 사람 수와 배달 중 최소 한 번 이상 방문한 받는 사람 수의 비율 옵트아웃 및 미러 페이지 링크 클릭은 고려되지 않습니다.
+* **[!UICONTROL Distinct clicks for the population reached]** :배달을 최소 한 번 클릭한 별개의 사람 수입니다.
+* **[!UICONTROL Cumulated clicks]** :구독 취소 링크 및 미러 페이지를 제외하고 타깃팅된 수신자별 총 클릭 수
+* **[!UICONTROL Recipient clicks]** :동일한 배달에서 최소 한 번 클릭했던 대상이 다른 받는 사람 수입니다.
+* **[!UICONTROL Estimated recipient reactivity]** :배달 중 최소 한 번 이상 클릭한 받는 사람 수와 배달 중 최소 한 번 이상 방문한 받는 사람 수의 비율 옵트아웃 및 미러 페이지 링크 클릭은 고려되지 않습니다.
 
 **[!UICONTROL 5. Web tracking]**
 
-* **[!UICONTROL Visited pages]** : 메시지 수신 후 방문한 웹 페이지 수입니다.
-* **[!UICONTROL Transactions]** : 메시지 수신에 따른 구매 횟수.
-* **[!UICONTROL Total amount]** : 메시지 수신 후 구매한 총 금액입니다.
-* **[!UICONTROL Average transaction amount]** : 개별 배달 수신자가 구매한 평균 구매
-* **[!UICONTROL Articles]** : 배달 받는 사람이 구매한 아티클 수입니다.
-* **[!UICONTROL Average count of articles per transaction]** : 개별 받는 사람이 구매당 평균 항목 수입니다.
-* **[!UICONTROL Average amount per message]** : 메시지당 생성된 평균 구매 수량.
+* **[!UICONTROL Visited pages]** :메시지 수신 후 방문한 웹 페이지 수입니다.
+* **[!UICONTROL Transactions]** :메시지 수신에 따른 구매 횟수.
+* **[!UICONTROL Total amount]** :메시지 수신 후 구매한 총 금액입니다.
+* **[!UICONTROL Average transaction amount]** :개별 배달 수신자가 구매한 평균 구매
+* **[!UICONTROL Articles]** :배달 받는 사람이 구매한 아티클 수입니다.
+* **[!UICONTROL Average count of articles per transaction]** :개별 받는 사람이 구매당 평균 항목 수입니다.
+* **[!UICONTROL Average amount per message]** :메시지당 생성된 평균 구매 수량.
 
    >[!NOTE]
    >
@@ -132,25 +129,25 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_url_report.png)
 
-다음을 선택하여 이 보고서의 내용을 구성할 수 있습니다. 표시할 점수 차트, 시간 필터(작업 실행 이후, 실행 후 처음 6시간 이상) 데이터 표시 모드(레이블별, URL, 범주별)에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../delivery/using/monitoring-a-delivery.md). Click **[!UICONTROL Refresh]** to confirm your selection.
+다음을 선택하여 이 보고서의 내용을 구성할 수 있습니다.표시할 점수 차트, 시간 필터(작업 실행 이후, 실행 후 처음 6시간 이상) 데이터 표시 모드(레이블별, URL, 범주별)에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../delivery/using/monitoring-a-delivery.md). **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 선택 항목을 확인합니다.
 
 보고서의 상단 섹션에 다음 비율이 표시됩니다.
 
-* **[!UICONTROL Reactivity]** : 배달을 연 대상 받는 사람의 예상 수와 관련하여 배달을 클릭한 대상 받는 사람의 수입니다. 옵트아웃 링크 및 미러 페이지의 클릭은 고려되지 않습니다.
+* **[!UICONTROL Reactivity]** :배달을 연 대상 받는 사람의 예상 수와 관련하여 배달을 클릭한 대상 받는 사람의 수입니다. 옵트아웃 링크 및 미러 페이지의 클릭은 고려되지 않습니다.
 
    >[!NOTE]
    >
    >열기에 대한 자세한 내용은 [추적 열기를 참조하십시오](../../reporting/using/indicator-calculation.md#tracking-opens-).
 
-* **[!UICONTROL Distinct clicks]** : 배달에서 최소 한 번(구독 취소 링크 및 미러 페이지 제외)을 클릭한 개별 사용자 수입니다. 표시된 비율은 성공적으로 배달된 메시지 수를 기준으로 계산됩니다.
-* **[!UICONTROL Cumulated clicks]** : 대상화된 수신자별 총 클릭 수(가입 해지 링크 및 미러 페이지 제외). 표시된 비율은 성공적으로 전달된 메시지 수를 기준으로 계산됩니다.
+* **[!UICONTROL Distinct clicks]** :배달에서 최소 한 번(구독 취소 링크 및 미러 페이지 제외)을 클릭한 개별 사용자 수입니다. 표시된 비율은 성공적으로 배달된 메시지 수를 기준으로 계산됩니다.
+* **[!UICONTROL Cumulated clicks]** :대상화된 수신자별 총 클릭 수(가입 해지 링크 및 미러 페이지 제외). 표시된 비율은 성공적으로 전달된 메시지 수를 기준으로 계산됩니다.
 
-**[!UICONTROL Platform average]** : 각 비율(재활동, 고유한 클릭 및 누적 클릭)에 따라 표시되는 이 평균 비율은 이전 6개월 동안 전송된 배달에 대해 계산됩니다. 동일한 유형 및 동일한 채널에서의 배달을 고려합니다. 교정증은 제외됩니다.
+**[!UICONTROL Platform average]** :각 비율(재활동, 고유한 클릭 및 누적 클릭)에 따라 표시되는 이 평균 비율은 이전 6개월 동안 전송된 배달에 대해 계산됩니다. 동일한 유형 및 동일한 채널에서의 배달을 고려합니다. 교정증은 제외됩니다.
 
 중앙 표에서는 다음 정보를 제공합니다.
 
-* **[!UICONTROL Clicks]** : 링크당 누적 클릭 수.
-* **[!UICONTROL Clicks (in %)]** : 총 누적 클릭 수와 관련하여 링크당 클릭 수 분류
+* **[!UICONTROL Clicks]** :링크당 누적 클릭 수.
+* **[!UICONTROL Clicks (in %)]** :총 누적 클릭 수와 관련하여 링크당 클릭 수 분류
 
 **[!UICONTROL Breakdown of clicks in time]**
 
@@ -166,8 +163,8 @@ ht-degree: 1%
 
 이 섹션에는 다음 두 가지 지표가 있습니다.
 
-* **[!UICONTROL Initial population]** : 배달이 타깃팅한 총 받는 사람 수입니다.
-* **[!UICONTROL Messages rejected by the rule]** : 분류 규칙을 적용할 때 분석 중에 무시된 주소 수: 주소가 누락되었거나, 격리되었거나, 블록 목록에 추가되었습니다. 분류 규칙에 대한 자세한 내용은 이 [페이지를 참조하십시오](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+* **[!UICONTROL Initial population]** :배달이 타깃팅한 총 받는 사람 수입니다.
+* **[!UICONTROL Messages rejected by the rule]** :분류 규칙을 적용할 때 분석 중에 무시된 주소 수:주소 누락, 격리, 차단 목록 등에 추가 For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
 **[!UICONTROL Causes of exclusion]**
 
@@ -177,10 +174,10 @@ ht-degree: 1%
 
 이 섹션에는 다음 지표가 포함됩니다.
 
-* **[!UICONTROL Messages to be delivered]** : 배달 분석 후 배달될 총 메시지 수입니다.
-* **[!UICONTROL Success]** : 처리된 메시지 수입니다. 연관된 비율은 배달될 메시지 수와 관련된 비율입니다.
-* **[!UICONTROL Errors]** : 배달 중 누적된 총 오류 수 및 자동 리바운드 처리. 연관된 비율은 배달될 메시지 수와 관련된 비율입니다.
-* **[!UICONTROL New quarantines]** : 실패한 배달 후 격리된 주소 수(사용자를 알 수 없음, 잘못된 도메인). 연관된 비율은 배달될 메시지 수와 관련된 비율입니다.
+* **[!UICONTROL Messages to be delivered]** :배달 분석 후 배달될 총 메시지 수입니다.
+* **[!UICONTROL Success]** :처리된 메시지 수입니다. 연관된 비율은 배달될 메시지 수와 관련된 비율입니다.
+* **[!UICONTROL Errors]** :배달 중 누적된 총 오류 수 및 자동 반올림 처리. 연관된 비율은 배달될 메시지 수와 관련된 비율입니다.
+* **[!UICONTROL New quarantines]** :실패한 배달 후 격리된 주소 수(사용자를 알 수 없음, 잘못된 도메인). 연관된 비율은 배달될 메시지 수와 관련된 비율입니다.
 
 ## 핫 클릭 {#hot-clicks}
 
@@ -198,10 +195,10 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_stat_report.png)
 
-게재의 마케팅 효과를 추적할 수 있습니다. 시간 간격(1시간, 3시간 또는 24시간 보기 등)을 변경하여 값이 표시되는 방식을 구성할 수 있습니다. Click **[!UICONTROL Refresh]** to confirm your selection.
+게재의 마케팅 효과를 추적할 수 있습니다. 시간 간격(1시간, 3시간 또는 24시간 보기 등)을 변경하여 값이 표시되는 방식을 구성할 수 있습니다. **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 선택 항목을 확인합니다.
 
 이 보고서는 배달을 최대 효율에 도달하는 데 필요한 시간을 표시하는 값 및 파레토 차트를 제공합니다. 다음 지표가 사용됩니다.
 
-* **[!UICONTROL Opens]** : 연 총 메시지 수의 백분율에 도달하는 데 필요한 예상 시간입니다. 텍스트 형식의 이메일은 고려되지 않습니다. 열기에 대한 자세한 내용은 [추적 열기를 참조하십시오](../../reporting/using/indicator-calculation.md#tracking-opens-).
-* **[!UICONTROL Clicks]** : 기록된 총 클릭 수의 비율에 도달하는 데 필요한 시간의 예상 옵트아웃 링크를 클릭해도 미러 페이지는 고려되지 않습니다.
-* **[!UICONTROL Transactions]** : 메시지 수신 후 총 트랜잭션 수의 백분율을 얻는 데 필요한 시간입니다. 트랜잭션을 고려하려면 트랜잭션 유형 웹추적 태그를 일치하는 웹 페이지에 삽입해야 합니다. 웹 추적 구성은 [이 섹션에 나와 있습니다](../../configuration/using/about-web-tracking.md).
+* **[!UICONTROL Opens]** :연 총 메시지 수의 백분율에 도달하는 데 필요한 예상 시간입니다. 텍스트 형식의 이메일은 고려되지 않습니다. 열기에 대한 자세한 내용은 [추적 열기를 참조하십시오](../../reporting/using/indicator-calculation.md#tracking-opens-).
+* **[!UICONTROL Clicks]** :기록된 총 클릭 수의 비율에 도달하는 데 필요한 시간의 예상 옵트아웃 링크를 클릭해도 미러 페이지는 고려되지 않습니다.
+* **[!UICONTROL Transactions]** :메시지 수신 후 총 트랜잭션 수의 백분율을 얻는 데 필요한 시간입니다. 트랜잭션을 고려하려면 트랜잭션 유형 웹추적 태그를 일치하는 웹 페이지에 삽입해야 합니다. 웹 추적 구성은 [이 섹션에 나와 있습니다](../../configuration/using/about-web-tracking.md).
