@@ -11,22 +11,22 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 907d82c8-9262-4952-b8df-21144dd55824
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d5eac80743d4cc82cdf55aa9287e8bb4fcc84356
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 3%
 
 ---
 
 
 # 다중 브랜딩 구성{#configuring-multibranding}
 
-이 섹션에서는 Adobe Campaign의 트랜잭션 메시지에 대한 브랜드당 추적 및 페이지 URL을 미러링하는 하나의 솔루션에 대해 설명합니다.
+이 섹션에서는 Adobe Campaign의 트랜잭션 메시지에 대해 브랜드당 페이지 URL을 추적하고 미러링하는 하나의 솔루션에 대해 설명합니다.
 
 ## 사전 요구 사항 {#prerequisites}
 
-* 모든 호스트를 인스턴스의 구성 파일(`config-<instance>.xml`)에 추가해야 합니다.
+* 모든 호스트를 인스턴스(`config-<instance>.xml`)의 구성 파일에 추가해야 합니다.
 * 각 브랜드에 하위 도메인이 할당되어야 합니다.
 * 웹 추적이 HTTPS 페이지에서 이루어지는 경우 모든 브랜드에 대한 HTTPS 인증서가 있어야 합니다.
 
@@ -38,7 +38,7 @@ source-git-commit: d5eac80743d4cc82cdf55aa9287e8bb4fcc84356
 
    >[!NOTE]
    >
-   >실행 인스턴스 유형 외부 계정 만들기는 제어 인스턴스 [섹션에](../../message-center/using/creating-a-shared-connection.md#control-instance) 표시됩니다.
+   >실행 인스턴스 유형 외부 계정 만들기가 [제어 인스턴스](../../message-center/using/creating-a-shared-connection.md#control-instance) 섹션에 표시됩니다.
 
 1. nms:extAccount 스키마를 확장하여 추적 URL을 추가합니다.
 
@@ -65,7 +65,7 @@ source-git-commit: d5eac80743d4cc82cdf55aa9287e8bb4fcc84356
 
 1. 전역 옵션 대신 외부 계정을 사용하도록 NmsTracking_OpenFormula 및 NmsTracking_ClickFormula 옵션을 수정합니다.
 
-   이렇게 하려면 다음을 바꾸십시오.
+   이렇게 하려면 다음을 바꿉니다.
 
    ```
    <%@ include option='NmsTracking_ServerUrl' %>
@@ -79,9 +79,9 @@ source-git-commit: d5eac80743d4cc82cdf55aa9287e8bb4fcc84356
 
    >[!CAUTION]
    >
-   >이러한 변경 사항은 업그레이드 시 충돌을 초래할 수 있습니다. 이러한 수식을 새 버전과 수동으로 병합해야 할 수도 있습니다.
+   >이러한 변경 사항은 업그레이드 시 충돌을 야기할 수 있습니다. 이러한 공식을 새 버전과 수동으로 병합해야 할 수도 있습니다.
 
-제어 인스턴스에서 배달 템플릿과 외부 계정을 연결해야 합니다. 이렇게 하려면 다음을 수행해야 합니다.
+제어 인스턴스에서 배달 템플릿과 외부 계정을 연결해야 합니다. 이를 위해서는 다음을 수행해야 합니다.
 
 1. 1단계에서 정의된 것과 동일한 내부 이름으로 브랜드당 하나의 외부 계정을 만듭니다.
 1. 브랜드당 하나의 기본 제공 템플릿을 만들 수 있습니다.
