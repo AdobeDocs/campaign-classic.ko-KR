@@ -11,11 +11,8 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 0%
@@ -25,7 +22,7 @@ ht-degree: 0%
 
 # 기존 커넥터 {#legacy-connectors}
 
-기존 FDA 커넥터는 여전히 Adobe에서 지원합니다. 하지만 이 [페이지에 나열된 보다 최근의 대체 항목으로 대체할 것을 권장합니다](../../platform/using/specific-configuration-database.md).
+레거시 FDA 커넥터는 여전히 Adobe에서 지원됩니다. 하지만 이 [페이지에 나열된 보다 최근의 대체 항목으로 대체할 것을 권장합니다](../../platform/using/specific-configuration-database.md).
 
 ## Hadoop 2.1에 대한 액세스 구성 {#configure-access-to-hadoop}
 
@@ -138,8 +135,8 @@ FDA에서 Netezza 외부 데이터베이스에 연결하려면 Adobe Campaign �
 
 1. 사용하는 운영 체제에 따라 Netezza용 ODBC 드라이버를 설치합니다.
 
-   * **Linux용 nz-linuxclient-v7.2.0.0.tar.gz** . 운영 체제(linux 또는 linux64)에 해당하는 폴더를 선택하고 압축 해제 명령을 시작합니다. 기본적으로 제안된 저장소에서 설치하도록 둘 수 있습니다. &quot;/usr/local/nz&quot;
-   * **Windows용 nz-winclient-v7.2.0.0.zip** . 파일의 압축을 풀고 운영 체제에 해당하는 실행 스크립트를 시작합니다. nzodbcsetup.exe 또는 nzodbcsetup64.exe. 마법사 지침에 따라 드라이버 설치를 마칩니다.
+   * **Linux용 nz-linuxclient-v7.2.0.0.tar.gz** . 운영 체제(linux 또는 linux64)에 해당하는 폴더를 선택하고 압축 해제 명령을 시작합니다. 기본적으로 제안된 저장소에서 설치되도록 둘 수 있습니다.&quot;/usr/local/nz&quot;
+   * **Windows용 nz-winclient-v7.2.0.0.zip** . 파일의 압축을 풀고 운영 체제에 해당하는 실행 스크립트를 시작합니다.nzodbcsetup.exe 또는 nzodbcsetup64.exe. 마법사 지침에 따라 드라이버 설치를 마칩니다.
 
 1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다. **/etc/odbc.ini** for general parameters and **/etc/odbcinst.ini** for decoring driver.
 
@@ -175,25 +172,25 @@ FDA에서 Netezza 외부 데이터베이스에 연결하려면 Adobe Campaign �
 
 1. Adobe Campaign 서버의 환경 변수를 지정합니다.
 
-   * **LD_LIBRARY_PATH**: /usr/local/nz/lib 및 /usr/local/nz/lib64. &quot;/usr/local/nz&quot;는 드라이버를 설치할 때 기본적으로 제공되는 설치 저장소에 해당합니다. 여기에서 설치를 위해 선택한 저장소를 지정해야 합니다.
-   * **ODBCINI**: odbc.ini 파일의 위치입니다(예: /etc/odbc.ini).
-   * **NZ_ODBC_INI_PATH**: odbc.ini 파일의 위치입니다. 또한 이 두 번째 변수를 사용하여 odbc.ini 파일을 사용해야 합니다.
+   * **LD_LIBRARY_PATH**:/usr/local/nz/lib 및 /usr/local/nz/lib64. &quot;/usr/local/nz&quot;는 드라이버를 설치할 때 기본적으로 제공되는 설치 저장소에 해당합니다. 여기에서 설치를 위해 선택한 저장소를 지정해야 합니다.
+   * **ODBCINI**:odbc.ini 파일의 위치입니다(예: /etc/odbc.ini).
+   * **NZ_ODBC_INI_PATH**:odbc.ini 파일의 위치입니다. 또한 이 두 번째 변수를 사용하여 odbc.ini 파일을 사용해야 합니다.
 
-1. 그런 다음 Campaign Classic에서 Netezza 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** / **[!UICONTROL Platform]** /를 **[!UICONTROL External accounts]**&#x200B;클릭합니다.
+1. 그런 다음 Campaign Classic에서 Netezza 외부 계정을 구성할 수 있습니다. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. 을 **[!UICONTROL New]** 클릭하고 **[!UICONTROL External database]** 으로 선택합니다 **[!UICONTROL Type]**.
 
 1. 외부 계정을 구성하려면 다음을 **[!UICONTROL Netezza]** 지정해야 합니다.
 
-   * **[!UICONTROL Type]**: 네테차
+   * **[!UICONTROL Type]**:네테차
 
-   * **[!UICONTROL Server]**: Netezza 서버의 URL
+   * **[!UICONTROL Server]**:Netezza 서버의 URL
 
-   * **[!UICONTROL Account]**: 사용자의 이름
+   * **[!UICONTROL Account]**:사용자의 이름
 
-   * **[!UICONTROL Password]**: 사용자 계정 암호
+   * **[!UICONTROL Password]**:사용자 계정 암호
 
-   * **[!UICONTROL Database]**: 데이터베이스 이름
+   * **[!UICONTROL Database]**:데이터베이스 이름
 
 >[!NOTE]
 >
@@ -208,7 +205,7 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
 1. 원본 패키지가 서버에 있는지 확인합니다.
 1. iq_odbc **를 설치합니다**. 설치가 끝날 때 오류가 발생할 수 있습니다. 이 오류는 무시될 수 있습니다.
 1. iq_client_common을 **설치합니다**. 설치 마지막에 Java 오류가 발생할 수 있습니다. 이 오류는 무시될 수 있습니다.
-1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다. /etc/odbc.ini일반 매개 변수 및 드라이버 선언용 /etc/odbcinst.ini을 참조하십시오.
+1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다./etc/odbc.ini일반 매개 변수 및 드라이버 선언용 /etc/odbcinst.ini을 참조하십시오.
 
    * **/etc/odbc.ini** (문자와 같은 `<server_alias>` 값 대신 사용자 정의):
 
@@ -237,28 +234,28 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
 
 1. LD_LIBRARY_PATH 변수에 새 libobc16.so 라이브러리의 경로를 추가합니다. 이를 위해서는 다음을 수행하십시오.
 
-   * customer.sh 파일을 사용하여 경로를 선언할 경우: LD_LIBRARY_PATH 변수에 대해 /opt/sybase/IQ-16_0/lib64 경로를 추가합니다.
+   * customer.sh 파일을 사용하여 경로를 선언할 경우:LD_LIBRARY_PATH 변수에 대해 /opt/sybase/IQ-16_0/lib64 경로를 추가합니다.
    * 그렇지 않은 경우 Unix 명령을 사용합니다.
 
-1. 그런 다음 Campaign Classic에서 Sybase IQ 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** / **[!UICONTROL Platform]** /를 **[!UICONTROL External accounts]**&#x200B;클릭합니다.
+1. 그런 다음 Campaign Classic에서 Sybase IQ 외부 계정을 구성할 수 있습니다. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. 을 **[!UICONTROL New]** 클릭하고 **[!UICONTROL External database]** 으로 선택합니다 **[!UICONTROL Type]**.
 
 1. 외부 계정을 구성하려면 다음을 **[!UICONTROL Sybase IQ]** 지정해야 합니다.
 
-   * **[!UICONTROL Type]**: ODBC(Sybase ASE, Sybase IQ)
+   * **[!UICONTROL Type]**:ODBC(Sybase ASE, Sybase IQ)
 
-   * **[!UICONTROL Server]**: 5단계에서 정의된 ODBC 연결(`<server_alias>`)에 해당합니다. 서버 자체의 이름이 아닐 수도 있습니다.
+   * **[!UICONTROL Server]**:5단계에서 정의된 ODBC 연결(`<server_alias>`)에 해당합니다. 서버 자체의 이름이 아닐 수도 있습니다.
 
-   * **[!UICONTROL Account]**: 사용자의 이름
+   * **[!UICONTROL Account]**:사용자의 이름
 
-   * **[!UICONTROL Password]**: 사용자 계정 암호
+   * **[!UICONTROL Password]**:사용자 계정 암호
 
-   * **[!UICONTROL Database]**: 데이터베이스 이름
+   * **[!UICONTROL Database]**:데이터베이스 이름
 
 >[!NOTE]
 >
->Windows의 경우 Adobe Campaign 서버에 Sybase IQ 클라이언트를 설치하고 ODBC 연결을 만들어야 합니다. Adobe Campaign 서버(nlserver)가 Windows에서 서비스로 실행 중일 때 시스템 데이터 소스를 만들어야 합니다.
+>Windows의 경우 Sybase IQ 클라이언트를 Adobe Campaign 서버에 설치하고 ODBC 연결을 만들어야 합니다. Windows에서 Adobe Campaign 서버(nlserver)가 서비스로 실행 중일 때 시스템 데이터 소스를 만들어야 합니다.
 
 ## 메타데이터 액세스 구성 {#configure-access-to-teradata}
 
@@ -299,25 +296,25 @@ FDA에서 Teradata 외부 데이터베이스에 연결하려면 Adobe Campaign �
 
 1. Adobe Campaign 서버의 환경 변수를 지정합니다.
 
-   * **LD_LIBRARY_PATH**: /opt/teradata/client/15.10/lib64와 /opt/teradata/client/15.10/odbc_64/lib.
-   * **ODBCINI**: odbc.ini 파일의 위치입니다(예: /etc/odbc.ini).
-   * **NLSPATH**: opermsgs.cat 파일의 위치(/opt/teradata/client/15.10/msg/opermsgs.cat)
+   * **LD_LIBRARY_PATH**:/opt/teradata/client/15.10/lib64와 /opt/teradata/client/15.10/odbc_64/lib.
+   * **ODBCINI**:odbc.ini 파일의 위치입니다(예: /etc/odbc.ini).
+   * **NLSPATH**:opermsgs.cat 파일의 위치(/opt/teradata/client/15.10/msg/opermsgs.cat)
 
-1. 그런 다음 Campaign Classic에서 Teradata 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** / **[!UICONTROL Platform]** /를 **[!UICONTROL External accounts]**&#x200B;클릭합니다.
+1. 그런 다음 Campaign Classic에서 Teradata 외부 계정을 구성할 수 있습니다. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. 을 **[!UICONTROL New]** 클릭하고 **[!UICONTROL External database]** 으로 선택합니다 **[!UICONTROL Type]**.
 
 1. 외부 계정을 구성하려면 다음을 **[!UICONTROL Teradata]** 지정해야 합니다.
 
-   * **[!UICONTROL Type]**: Teradata
+   * **[!UICONTROL Type]**:Teradata
 
-   * **[!UICONTROL Server]**: Teradata 서버의 URL
+   * **[!UICONTROL Server]**:Teradata 서버의 URL
 
-   * **[!UICONTROL Account]**: 사용자의 이름
+   * **[!UICONTROL Account]**:사용자의 이름
 
-   * **[!UICONTROL Password]**: 사용자 계정 암호
+   * **[!UICONTROL Password]**:사용자 계정 암호
 
-   * **[!UICONTROL Database]**: 데이터베이스 이름
+   * **[!UICONTROL Database]**:데이터베이스 이름
 
 ## SAP HANA에 대한 액세스 구성 {#configure-access-to-sap-hana}
 
@@ -328,7 +325,7 @@ FDA에서 SAP HANA 외부 데이터베이스에 연결하려면 Adobe Campaign �
    * **Linux용 hdb_client_linux.tgz** . 압축을 풀면 hdbinst 명령을 실행하고 지침에 따라 드라이버 설치를 완료하십시오.
    * **Windows용 hdb_client_windows.zip** . 파일의 압축을 풀고 실행 파일을 시작합니다. **hdbinst.exe**. 마법사 지침에 따라 드라이버 설치를 마칩니다.
 
-1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다. /etc/odbc.ini을 참조하십시오.
+1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다./etc/odbc.ini을 참조하십시오.
 
    * **/etc/odbc.ini**
 
@@ -354,19 +351,19 @@ FDA에서 SAP HANA 외부 데이터베이스에 연결하려면 Adobe Campaign �
 
 1. Adobe Campaign 서버의 환경 변수를 지정합니다.
 
-   * **LD_LIBRARY_PATH**: 여기에는 기본적으로 SAP Hana 클라이언트(/usr/sap/hdbclient/libodbcHDB.so)에 대한 링크가 포함되어야 합니다.
-   * **ODBCINI**: odbc.ini 파일의 위치입니다(예: /etc/odbc.ini).
+   * **LD_LIBRARY_PATH**:여기에는 기본적으로 SAP Hana 클라이언트(/usr/sap/hdbclient/libodbcHDB.so)에 대한 링크가 포함되어야 합니다.
+   * **ODBCINI**:odbc.ini 파일의 위치입니다(예: /etc/odbc.ini).
 
-1. 그런 다음 Campaign Classic에서 SAP 하나 외부 계정을 구성할 수 있습니다. 에서 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** / **[!UICONTROL Platform]** /를 **[!UICONTROL External accounts]**&#x200B;클릭합니다.
+1. 그런 다음 Campaign Classic에서 SAP 하나 외부 계정을 구성할 수 있습니다. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. 을 **[!UICONTROL New]** 클릭하고 **[!UICONTROL External database]** 으로 선택합니다 **[!UICONTROL Type]**.
 
 1. 외부 계정을 구성하려면 다음을 **[!UICONTROL SAP Hana]** 지정해야 합니다.
 
-   * **[!UICONTROL Type]**: SAP 하나
+   * **[!UICONTROL Type]**:SAP 하나
 
-   * **[!UICONTROL Server]**: SAP 하나 서버의 URL
+   * **[!UICONTROL Server]**:SAP 하나 서버의 URL
 
-   * **[!UICONTROL Account]**: 사용자의 이름
+   * **[!UICONTROL Account]**:사용자의 이름
 
-   * **[!UICONTROL Password]**: 사용자 계정 암호
+   * **[!UICONTROL Password]**:사용자 계정 암호
