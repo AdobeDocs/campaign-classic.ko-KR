@@ -11,18 +11,18 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: 0f5399a8-860d-4a1b-86a9-9011b973346b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 9%
 
 ---
 
 
 # 유니코드로 전환{#switching-to-unicode}
 
-Linux/PostgreSQL의 기존 **prod** 인스턴스의 경우 유니코드로 전환하는 단계는 다음과 같습니다.
+Linux/PostgreSQL의 기존 **제품** 인스턴스의 경우 유니코드로 전환하는 단계는 다음과 같습니다.
 
 1. 데이터베이스에 쓰는 프로세스를 중지합니다.
 
@@ -31,7 +31,7 @@ Linux/PostgreSQL의 기존 **prod** 인스턴스의 경우 유니코드로 전�
    nlserver shutdown
    ```
 
-1. 데이터베이스 덤프:
+1. 데이터베이스를 덤프합니다.
 
    ```
    su - postgres
@@ -57,7 +57,7 @@ Linux/PostgreSQL의 기존 **prod** 인스턴스의 경우 유니코드로 전�
    update XtkOption set sStringValue = 'u'||sStringValue where sName='XtkDatabaseId' and sStringValue not like 'u%';
    ```
 
-1. 추적 서버에서 다음을 수행합니다.
+1. 추적 서버에서:
 
    ```
    su - neolane
@@ -65,7 +65,7 @@ Linux/PostgreSQL의 기존 **prod** 인스턴스의 경우 유니코드로 전�
    vi config-prod.xml
    ```
 
-   데이터베이스 식별자( **databaseId** )와 관련된 값 앞에 u **문자를**&#x200B;추가합니다.
+   데이터베이스 식별자( **databaseId** )와 관련된 값 앞에 u ****&#x200B;문자를 추가합니다.
 
    ```
    <web>
@@ -100,8 +100,8 @@ Linux/PostgreSQL의 기존 **prod** 인스턴스의 경우 유니코드로 전�
    /etc/init.d/apache start
    ```
 
-1. 스위치를 확인합니다. 이렇게 하려면 Adobe Campaign 콘솔을 통해 연결하고 다음을 수행합니다.
+1. 스위치를 확인합니다. 이렇게 하려면 Adobe Campaign 콘솔을 통해 연결하고 다음을 수행하십시오.
 
-   * 특히 강조된 문자에서 데이터가 올바로 표시되는지 확인합니다.
-   * 게재를 실행하고 추적 검색이 작동하는지 확인합니다.
+   * 특히 강조된 문자에서 데이터가 올바르게 표시되는지 확인하십시오.
+   * 배달을 실행하고 추적 검색이 작동하는지 확인합니다.
 
