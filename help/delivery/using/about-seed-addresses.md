@@ -1,7 +1,7 @@
 ---
-title: 시드 주소 정보
-seo-title: 시드 주소 정보
-description: 시드 주소 정보
+title: 시드 주소 기본 정보
+seo-title: 시드 주소 기본 정보
+description: 시드 주소 기본 정보
 seo-description: null
 page-status-flag: never-activated
 uuid: 80ab5abc-3ae0-484d-88c0-be039aac360d
@@ -11,21 +11,18 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 discoiquuid: b49acfd0-b601-4694-88e3-cc0a169cb866
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
 
-# 시드 주소 정보{#about-seed-addresses}
+# 시드 주소 기본 정보{#about-seed-addresses}
 
-시드 주소는 정의된 대상 기준과 일치하지 않는 수신자를 대상으로 하는 데 사용됩니다. 이렇게 하면 배달 범위를 벗어난 수신자가 다른 대상 수신자와 마찬가지로 배달을 받을 수 있습니다.
+시드 주소는 정의된 대상 기준과 일치하지 않는 수신자를 타겟팅 하는 데 사용됩니다. 이렇게 하면 배달 범위를 벗어난 수신자가 다른 대상 수신자와 마찬가지로 배달을 받을 수 있습니다.
 
 한 때 그것들을 사용하는 주된 이유 **는 메일링 목록 보호입니다**. 메일링 목록에 시드 주소를 삽입하면 포함된 시드 주소로 메일링 목록에 발송된 배달물을 받을 수 있으므로 타사에서 사용 중인지를 알 수 있습니다.
 
@@ -54,7 +51,7 @@ ht-degree: 2%
 >DM 전달의 경우 추출 파일 형식은 다음 제한 사항을 준수해야 합니다.
 >
 >* 이 옵션은 사용할 수 없습니다 **[!UICONTROL Handle groupings (GROUP BY+HAVING)]**.
->* 요소 컬렉션이 추출되면 옵션을 선택하지 않는 한 이 필드는 시드 주소에 대해 빈 값 **[!UICONTROL Single row (expert user)]** 을 갖게 됩니다. 자세한 정보는 [이 섹션](../../platform/using/exporting-data.md#step-7---data-formatting)을 참조하십시오.
+>* 요소 컬렉션이 추출되면 옵션을 선택하지 않는 한 이 필드는 시드 주소에 대해 빈 값 **[!UICONTROL Single row (expert user)]** 을 갖게 됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/exporting-data.md#step-7---data-formatting)을 참조하십시오.
 
 >
 
