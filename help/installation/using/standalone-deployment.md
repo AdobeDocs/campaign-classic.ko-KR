@@ -11,11 +11,8 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 9834638f-a8bb-4969-9f8d-99b8d9fdb1ca
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f8d36b9fca9624500c5273eb73a1702f077dd60c
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 0%
@@ -181,10 +178,10 @@ ht-degree: 0%
 
 1. 다음 섹션에 설명된 웹 서버 통합 절차(IIS, Apache)를 따르십시오.
 
-   * Linux용: [Linux용 웹 서버와 통합](../../installation/using/integration-into-a-web-server-for-linux.md)
-   * Windows의 경우: [Windows용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-windows.md)
+   * For Linux: [Integration into a Web server for Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
+   * For Windows: [Integration into a Web server for Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. 웹 사이트를 시작하고 URL을 사용하여 리디렉션을 테스트합니다.https://tracking.campaign.net/r/test.
+1. 웹 사이트를 시작하고 URL을 사용하여 리디렉션 테스트:https://tracking.campaign.net/r/test.
 
    브라우저에 다음 메시지가 표시되어야 합니다.
 
