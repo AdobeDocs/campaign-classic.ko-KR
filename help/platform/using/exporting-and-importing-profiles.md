@@ -11,14 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 0325ab0f-394e-404b-9f4a-db3cc18d2493
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9a8c3586482d05648de3bdecfdfabcc094c70dbf
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -42,7 +39,7 @@ ht-degree: 11%
 ![](assets/s_ncs_user_interface_import_link.png)
 
 
-## How to import profiles{#import-profiles-video}
+## 프로필을 가져오는 방법{#import-profiles-video}
 
 이 비디오에서는 Adobe Campaign에서 가끔 가져오기 위해 프로필을 가져오는 방법을 설명합니다.
 
