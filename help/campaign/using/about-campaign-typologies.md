@@ -1,7 +1,7 @@
 ---
-title: 캠페인 유형 정보
-seo-title: 캠페인 유형 정보
-description: 캠페인 유형 정보
+title: 캠페인 타이폴로지 기본 정보
+seo-title: 캠페인 타이폴로지 기본 정보
+description: 캠페인 타이폴로지 기본 정보
 seo-description: null
 page-status-flag: never-activated
 uuid: ec89fb14-7e2f-4e9f-b7ab-3c2caf93a697
@@ -11,21 +11,18 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: 72c5151c-ce1e-425a-9aee-beefe9f21a67
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
 
-# 캠페인 유형 정보{#about-campaign-typologies}
+# 캠페인 타이폴로지 기본 정보{#about-campaign-typologies}
 
-캠페인 최적화는 게재 전송을 제어, 필터링 및 모니터링할 수 있는 Adobe Campaign 모듈입니다. 캠페인 간의 충돌을 피하기 위해, Adobe Campaign은 특정 제한 규칙을 적용하여 다양한 조합을 테스트할 수 있습니다. 따라서 전송된 메시지는 고객과 회사 커뮤니케이션 정책의 요구 및 기대를 충족시킵니다.
+캠페인 최적화는 게재 전송을 제어, 필터링 및 모니터링할 수 있는 Adobe Campaign 모듈입니다. 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제한 조건을 적용하여 다양한 조합을 테스트할 수 있습니다. 따라서 전송된 메시지는 고객과 회사 커뮤니케이션 정책의 요구 및 기대를 충족시킵니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#typologies-video)
 
@@ -66,14 +63,14 @@ Adobe Campaign을 사용하면 4가지 유형의 분류 규칙을 디자인하�
 
    유형 분류는 **[!UICONTROL Administration > Campaign Management > Typology management]** > 노드를 통해 **[!UICONTROL Typologies]** 액세스합니다.
 
-1. 만든 유형을 사용하도록 배달을 구성합니다. 자세한 정보는 [이 섹션](../../campaign/using/applying-rules.md#applying-a-typology-to-a-delivery)을 참조하십시오.
+1. 만든 유형을 사용하도록 배달을 구성합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/applying-rules.md#applying-a-typology-to-a-delivery)을 참조하십시오.
 1. 캠페인 시뮬레이션을 통해 동작을 테스트하고 제어할 수 있습니다. For more on campaign simulations, refer to [this section](../../campaign/using/campaign-simulations.md).
 
 배달 준비 중, 수신자는 기준이 충족될 때 제외됩니다. 로그를 확인하여 제외 사항을 모니터링할 수 있습니다. 압력 유형 규칙에 대한 샘플 사용 사례는 [이 페이지에서 확인할 수 있습니다](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules).
 
 ## 분류 규칙을 사용하여 피로 관리를 설정하는 방법 {#typologies-video}
 
-이 비디오에서는 유형 규칙을 활용하여 Adobe Campaign Classic에서 피로 관리를 구현하는 방법을 설명합니다.
+이 비디오에서는 유형 분류 규칙을 활용하여 Adobe Campaign Classic에서 피로 관리를 구현하는 방법을 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
 
@@ -87,6 +84,6 @@ Adobe Campaign을 사용하면 4가지 유형의 분류 규칙을 디자인하�
 
 * [모든 채널의 게재에 자동 비즈니스 규칙 적용](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
 
-* [캠페인 유형 정보](../../campaign/using/pressure-rules.md)
+* [캠페인 타이폴로지 기본 정보](../../campaign/using/pressure-rules.md)
 
 * [압력 규칙으로 마케팅 피로도 관리](https://docs.adobe.com/content/help/en/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
