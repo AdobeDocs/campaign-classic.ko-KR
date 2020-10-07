@@ -11,25 +11,22 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 discoiquuid: 8b101c0b-3611-4f15-813b-7c0bf54fc48a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0bb31f7234289f39a561fa58a23cac0390b465
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '3151'
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
 
 # SMS 채널{#sms-channel}
 
-Adobe Campaign을 사용하면 SMS 메시지를 대량으로 개인화하여 전달할 수 있습니다. 받는 사람 프로필에 모바일 전화 번호 이상이 포함되어야 합니다.
+Adobe Campaign을 사용하면 SMS 메시지를 대량으로 개인화하여 보낼 수 있습니다. 받는 사람 프로필에 모바일 전화 번호 이상이 포함되어야 합니다.
 
 >[!NOTE]
 >
->또한 Adobe Campaign을 사용하면 **Adobe Campaign 모바일 앱 채널(NMAC)** 옵션을 통해 모바일 터미널에 알림을 제출할 수 있습니다.
+>또한 Adobe Campaign은 **Adobe Campaign 모바일 앱 채널(NMAC)** 옵션을 통해 모바일 터미널에 알림을 제출할 수 있습니다.
 > 
 >자세한 내용은 모바일 앱 채널 [정보 섹션을 참조하십시오](../../delivery/using/about-mobile-app-channel.md) .
 
@@ -41,14 +38,14 @@ Adobe Campaign을 사용하면 SMS 메시지를 대량으로 개인화하여 전
 
 1. 커넥터 및 메시지 유형을 지정하는 외부 계정.
 
-   다음 커넥터는 릴리스 20.2부터 더 이상 사용되지 않습니다. NetSize, 일반 SMPP(바이너리 모드 지원 SMPP 버전 3.4), Sybase365(SAP SMS 365), CLX Communications, Tele2, O2 및 iOS. 더 이상 사용되지 않는 기능은 여전히 사용할 수 있지만 더 이상 향상되거나 지원되지 않습니다. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html).
+   다음 커넥터는 릴리스 20.2부터 더 이상 사용되지 않습니다.NetSize, 일반 SMPP(바이너리 모드 지원 SMPP 버전 3.4), Sybase365(SAP SMS 365), CLX Communications, Tele2, O2 및 iOS. 더 이상 사용되지 않는 기능은 여전히 사용할 수 있지만 더 이상 향상되거나 지원되지 않습니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/deprecated-and-removed-features.html)를 참조하십시오.
 
 1. 이 외부 계정이 참조되는 배달 템플릿입니다.
 
-### SMPP 외부 계정 만들기 {#creating-an-smpp-external-account}
+### Creating an SMPP external account {#creating-an-smpp-external-account}
 
 휴대폰에 SMS를 보내려면 먼저 SMPP 외부 계정을 만들어야 합니다.
-SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [기술 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [기술 정보](https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html)를 참조하십시오.
 
 이렇게 하려면 아래 단계를 수행합니다:
 
@@ -64,9 +61,9 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [기술 문서를 
 
    >[!CAUTION]
    >
-   > 릴리스 20.2부터는 레거시 커넥터가 더 이상 지원되지 않습니다. 커넥터를 사용하는 것이 **[!UICONTROL Extended generic SMPP]** 좋습니다. 권장 커넥터로 마이그레이션하는 방법에 대한 자세한 내용은 이 [페이지를 참조하십시오](https://helpx.adobe.com/campaign/kb/sms-connector.html).
+   > 릴리스 20.2부터는 레거시 커넥터가 더 이상 지원되지 않습니다. 커넥터를 사용하는 것이 **[!UICONTROL Extended generic SMPP]** 좋습니다. 권장 커넥터로 마이그레이션하는 방법에 대한 자세한 내용은 이 [페이지를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/sms-connector.html).
 
-1. 이 **[!UICONTROL Enable verbose SMPP traces in the log file]** 옵션을 사용하면 모든 SMPP 트래픽을 로그 파일에 덤프할 수 있습니다. 커넥터를 해결하고 공급자가 보는 트래픽과 비교하려면 이 옵션을 활성화해야 합니다.
+1. The **[!UICONTROL Enable verbose SMPP traces in the log file]** option allows you to dump all SMPP traffic in log files. 커넥터의 문제를 해결하고 공급자가 보는 트래픽과 비교하려면 이 옵션을 활성화해야 합니다.
 
 1. SMS 서비스 제공업체에 문의하여 **[!UICONTROL Connection settings]** 탭에서 다양한 외부 계정 필드를 완료하는 방법을 설명합니다.
 
@@ -76,15 +73,15 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [기술 문서를 
 
 1. 기본적으로 SMS의 문자 수는 GSM 표준을 충족합니다.
 
-   GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 즉 여러 부분으로 전송되는 메시지에 대해 SMS당 153자로 제한됩니다.
+   GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 또는 여러 부분으로 나누어 전송되는 메시지의 경우 153자로 제한됩니다.
 
    >[!NOTE]
    >
-   >특정 문자는 두 개(중괄호, 대괄호, 유로 기호 등)로 계산합니다.
+   >특정 문자(중괄호, 대괄호, 유로 심벌 등)는 두 글자로 계산합니다.
    >
    >사용 가능한 GSM 문자 목록은 아래에 나와 있습니다.
 
-   원하는 경우 해당 상자를 선택하여 문자 교환을 승인할 수 있습니다.
+   원하는 경우 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다.
 
    ![](assets/extended_smpp_transliteration.png)
 
@@ -92,7 +89,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [기술 문서를 
 
 1. In the **[!UICONTROL Throughput and delays]** tab, you can specify the maximum throughput of outbound messages (&quot;MT&quot;, Mobile Terminated) in MT per second. 해당 필드에 &quot;0&quot;을 입력하면 처리량이 무제한이 됩니다.
 
-   기간에 해당하는 모든 필드의 값을 초 단위로 완료해야 합니다.
+   지속 시간에 해당하는 모든 필드의 값은 초 단위로 입력해야 합니다.
 
 1. 탭에서 **[!UICONTROL Mapping of encodings]** 인코딩을 정의할 수 있습니다.
 
@@ -102,7 +99,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [기술 문서를 
 
    그러나 특정 공급업체에서 &#39;+&#39; 접두사를 사용해야 하는 경우 해당 공급자에게 확인하면 필요한 경우 이 옵션을 사용하도록 설정하는 것이 좋습니다.
 
-   이 확인란을 **[!UICONTROL Enable TLS over SMPP]** 사용하면 SMPP 트래픽을 암호화할 수 있습니다. 자세한 내용은 이 [기술 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+   The **[!UICONTROL Enable TLS over SMPP]** checkbox allows you to encrypt SMPP traffic. For more on this, refer to this [technical note](https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html).
 
 1. 커넥터를 구성하는 **[!UICONTROL Extended generic SMPP]** 경우 자동 답글을 설정할 수 있습니다.
 
@@ -112,20 +109,20 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [기술 문서를 
 
 SMPP 모바일 전달 외부 계정의 **[!UICONTROL Mobile]** 탭 아래에서 문자 변환 기능을 설정할 수 있습니다.
 
-교역은 GSM 표준으로 문자를 고려하지 않은 경우 SMS의 한 문자를 다른 문자로 바꾸는 것으로 이루어집니다.
+변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다.
 
-* 교역을 하는 경우 **[!UICONTROL authorized]**&#x200B;가 고려되지 않은 각 문자는 메시지를 보낼 때 GSM 문자로 대체됩니다. 예를 들어, &quot;레크&quot;는 &quot;e&quot;로 대체됩니다. 따라서 메시지는 약간 변경되지만 문자 제한은 그대로 유지됩니다.
-* 음역법이 **[!UICONTROL not authorized]**&#x200B;설정되면, 고려하지 않은 문자가 포함된 각 메시지는 바이너리 형식(유니코드)으로 전송됩니다. 따라서 모든 문자가 있는 그대로 전송됩니다. 그러나 유니코드를 사용하는 SMS 메시지는 70자(또는 여러 부분으로 전송된 메시지의 경우 SMS당 67자)로 제한됩니다. 최대 문자 수가 초과되면 여러 개의 메시지가 전송되어 추가 비용이 발생할 수 있습니다.
+* If transliteration is **[!UICONTROL authorized]**, each character that is not taken into account is replaced by a GSM character when the message is sent. 예를 들어 &quot;ë&quot;라는 글자는 &quot;e&quot;로 대체됩니다. 따라서 메시지는 약간 변경되지만 글자 수 제한은 그대로 유지됩니다.
+* When transliteration is **[!UICONTROL not authorized]**, each message that contains characters that are not taken into account is sent in binary format (Unicode): all of the characters are therefore sent as they are. 그러나 유니코드를 사용하는 SMS 메시지는 70자(또는 여러 부분으로 나누어 보내는 SMS의 경우 67자)로 제한됩니다. 최대 글자 수를 초과하면 메시지가 여러 개로 보내져 추가 비용이 발생할 수 있습니다.
 
 >[!IMPORTANT]
 >
->SMS 메시지의 컨텐츠에 개인화 필드를 삽입하면 GSM 인코딩에 의해 고려되지 않는 문자가 도입될 수 있습니다.
+>SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다.
 
-기본적으로 문자 음역은 비활성화됩니다. SMS 메시지의 모든 문자를 그대로 유지하려면 적절한 이름을 변경하지 않는 것이 좋습니다. 이 옵션을 활성화하지 않는 것이 좋습니다.
+문자 변환은 기본적으로 비활성화되어 있습니다. SMS 메시지의 모든 문자를 그대로 유지하려는 경우, 예를 들어 제대로 된 이름이 바뀌지 않게 하려는 경우 이 옵션을 활성화하지 않는 것을 추천합니다.
 
-그러나 SMS 메시지에 유니코드 메시지를 생성하는 문자가 많이 포함된 경우 이 옵션을 활성화하여 메시지 전송 비용을 제한할 수 있습니다.
+그러나 SMS 메시지에 유니코드 메시지를 생성하는 문자가 많이 포함된 경우, 이 옵션을 활성화하여 메시지 전송 비용을 제한할 수 있습니다.
 
-다음 표에서는 GSM 표준에서 다루는 문자를 보여 줍니다. 아래에 언급된 문자 외에 메시지 본문에 삽입된 모든 문자는 전체 메시지를 바이너리 형식(유니코드)으로 변환하여 70자로 제한합니다.
+다음 표에서는 GSM 표준에서 다루는 문자를 보여 줍니다. 아래에 언급된 문자 외에 메시지 본문에 삽입된 모든 문자는 전체 메시지를 이진 형식(유니코드)으로 전환하여 70자로 제한합니다.
 
 **기본 문자**
 
@@ -172,7 +169,7 @@ SMPP 모바일 전달 외부 계정의 **[!UICONTROL Mobile]** 탭 아래에서 
    <td> s </td> 
   </tr> 
   <tr> 
-   <td> 에 </td> 
+   <td> è </td> 
    <td> <img height="21px" src="assets/delta.png" /> </td> 
    <td> ¤ </td> 
    <td> 4 </td> 
@@ -192,7 +189,7 @@ SMPP 모바일 전달 외부 계정의 **[!UICONTROL Mobile]** 탭 아래에서 
    <td> u </td> 
   </tr> 
   <tr> 
-   <td> 우 </td> 
+   <td> ù </td> 
    <td> <img height="21px" src="assets/pi.png" /> </td> 
    <td> &amp; </td> 
    <td> 6 </td> 
@@ -202,7 +199,7 @@ SMPP 모바일 전달 외부 계정의 **[!UICONTROL Mobile]** 탭 아래에서 
    <td> v </td> 
   </tr> 
   <tr> 
-   <td> 2차 </td> 
+   <td> ì </td> 
    <td> <img height="21px" src="assets/psi.png" /> </td> 
    <td> ' </td> 
    <td> 7 </td> 
@@ -212,7 +209,7 @@ SMPP 모바일 전달 외부 계정의 **[!UICONTROL Mobile]** 탭 아래에서 
    <td> w </td> 
   </tr> 
   <tr> 
-   <td> 보 </td> 
+   <td> ò </td> 
    <td> <img height="21px" src="assets/sigma.png" /> </td> 
    <td> ( </td> 
    <td> 8 </td> 
@@ -222,7 +219,7 @@ SMPP 모바일 전달 외부 계정의 **[!UICONTROL Mobile]** 탭 아래에서 
    <td> x </td> 
   </tr> 
   <tr> 
-   <td> Bari </td> 
+   <td> Ç </td> 
    <td> <img height="21px" src="assets/theta.png" /> </td> 
    <td> ) </td> 
    <td> 9 </td> 
@@ -242,24 +239,24 @@ SMPP 모바일 전달 외부 계정의 **[!UICONTROL Mobile]** 탭 아래에서 
    <td> z </td> 
   </tr> 
   <tr> 
-   <td> 쇠 </td> 
+   <td> Ø </td> 
    <td> ESC </td> 
    <td> + </td> 
    <td> ; </td> 
    <td> K </td> 
-   <td> Ae </td> 
+   <td> Ä </td> 
    <td> k </td> 
-   <td> a </td> 
+   <td> ä </td> 
   </tr> 
   <tr> 
-   <td> 쇠 </td> 
-   <td> AE </td> 
+   <td> ø </td> 
+   <td> Æ </td> 
    <td> , </td> 
    <td> &lt; </td> 
    <td> L </td> 
-   <td> 5월 </td> 
+   <td> Ö </td> 
    <td> l </td> 
-   <td> 5 </td> 
+   <td> ö </td> 
   </tr> 
   <tr> 
    <td> CR </td> 
@@ -267,23 +264,23 @@ SMPP 모바일 전달 외부 계정의 **[!UICONTROL Mobile]** 탭 아래에서 
    <td> - </td> 
    <td> = </td> 
    <td> M </td> 
-   <td> Clinogs </td> 
+   <td> Ñ </td> 
    <td> m </td> 
-   <td> 멕시코산 </td> 
+   <td> ñ </td> 
   </tr> 
   <tr> 
-   <td> 오 </td> 
-   <td> 성 </td> 
+   <td> Å </td> 
+   <td> ß </td> 
    <td> . </td> 
    <td> &gt; </td> 
    <td> N </td> 
-   <td> 여우 </td> 
+   <td> Ü </td> 
    <td> n </td> 
-   <td> 여우 </td> 
+   <td> ü </td> 
   </tr> 
   <tr> 
-   <td> o </td> 
-   <td> 에 </td> 
+   <td> å </td> 
+   <td> É </td> 
    <td> / </td> 
    <td> ? </td> 
    <td> O </td> 
@@ -294,48 +291,48 @@ SMPP 모바일 전달 외부 계정의 **[!UICONTROL Mobile]** 탭 아래에서 
  </tbody> 
 </table>
 
-SP: 공간
+SP: 스페이스
 
-ESC: Escape
+ESC: 이스케이프
 
 LF: 라인 피드
 
 CR: 캐리지 리턴
 
-**고급 문자(두 번 계산됨)**
+**고급 문자(두 글자로 계산)**
 
 ^ { } `[ ~ ]` | €
 
 ### 텍스트 인코딩 정보 {#about-text-encodings}
 
-SMS 메시지를 보낼 때 Adobe Campaign은 하나 또는 여러 개의 텍스트 인코딩을 사용할 수 있습니다. 각 인코딩은 고유한 문자 집합을 가지며 SMS 메시지에 맞는 문자 수를 결정합니다.
+SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 텍스트 인코딩을 사용할 수 있습니다. 각 인코딩은 고유한 문자 세트를 가지며 SMS 메시지에 맞는 글자 수를 정합니다.
 
-새 SMPP 모바일 배달 외부 계정을 구성할 때 탭 **[!UICONTROL Mapping of encodings]** 에서 다음을 정의할 수 **[!UICONTROL Mobile]** 있습니다. 이 **[!UICONTROL data_coding]** 필드를 사용하면 Adobe Campaign에서 SMSC에 사용되는 인코딩을 통신할 수 있습니다.
+새 SMPP 모바일 배달 외부 계정을 구성할 때 탭 **[!UICONTROL Mapping of encodings]** 에서 다음을 정의할 수 **[!UICONTROL Mobile]** 있습니다.이 **[!UICONTROL data_coding]** 필드를 통해 Adobe Campaign은 SMSC에 사용되는 인코딩을 통신할 수 있습니다.
 
 >[!NOTE]
 >
->data_coding **** 값과 실제로 사용된 인코딩 간의 매핑이 표준화되어 있습니다. 그러나 특정 SMSC에는 고유한 매핑이 있습니다. 이 경우 **Adobe Campaign** 관리자가 이 매핑을 선언해야 합니다. 자세한 내용은 제공업체에 문의하십시오.
+>**data_coding** 값과 실제로 사용되는 인코딩 간의 매핑은 표준화되어 있습니다. Nevertheless, certain SMSC have their own specific mapping: in this case, your **Adobe Campaign** administrator needs to declare this mapping. 자세한 내용은 공급자에게 문의하십시오.
 
-필요에 따라 **data_coding을** 선언하고 인코딩을 강제 적용할 수 있습니다. 이렇게 하려면 표에 단일 인코딩을 지정합니다.
+You can declare **data_codings** and force the encoding if necessary: to do this, specify a single encoding in the table.
 
 * 인코딩 매핑이 정의되지 않은 경우 커넥터는 일반 동작을 수행합니다.
 
-   * 이 코드는 값 **data_coding = 0을 할당하는 GSM 인코딩을 사용합니다**.
-   * GSM 인코딩이 실패할 경우 값 **data_coding = 8을 할당하는 UCS2** 인코딩을 사용합니다 ****.
+   * 이는 GSM 인코딩을 사용하여 **data_coding = 0** 값을 할당하려고 합니다.
+   * GSM 인코딩이 실패할 경우 **UCS2** 인코딩을 사용하여 **data_coding = 8** 값을 할당합니다 .
 
-* 연결된 **[!UICONTROL data_coding]** 필드 값과 함께 사용할 인코딩을 정의할 때 Adobe Campaign은 목록의 첫 번째 인코딩을 사용하려고 하지만 첫 번째 인코딩이 불가능한 경우 다음을 수행합니다.
+* 연결된 **[!UICONTROL data_coding]** 필드 값과 함께 사용할 인코딩을 정의하면 Adobe Campaign에서 목록의 첫 번째 인코딩을 사용하려고 하면 첫 번째 인코딩이 불가능할 경우 다음 사항이 표시됩니다.
 
 >[!IMPORTANT]
 >
->선언의 순서는 중요합니다. 각 SMS 메시지 **에서 가능한 한 많은 문자를 입력할 수 있도록 인코딩에 맞게 목록을 비용** 오름차순으로 배치하는 것이 좋습니다.
+>선언의 순서가 중요합니다. 목록을 **비용** 오름차순으로 배치하는 것을 추천합니다. 이렇게 하면 각 SMS 메시지에 가능한 많은 문자를 입력할 수 있는 인코딩을 선호하도록 할 수 있습니다.
 >
->사용할 인코딩만 선언합니다. SMSC에서 제공하는 인코딩 중 일부가 사용 목적에 부합되지 않아야 하는 경우에는 목록에 선언하지 마십시오.
+>사용하려는 인코딩만 선언해야 합니다. SMSC에서 제공하는 인코딩 중 일부가 사용 목적에 부합되지 않아야 하는 경우에는 목록에 선언하지 마십시오.
 
 ### 자동 회신 {#automatic-reply}
 
 확장된 일반 SMPP 커넥터를 설정할 때 자동 응답을 구성할 수 있습니다.
 
-가입자가 Adobe Campaign을 통해 전송된 SMS 메시지에 응답하고 해당 메시지에 &quot;STOP&quot;과 같은 키워드가 포함되어 있으면 **[!UICONTROL Automatic reply sent to the MO]** 섹션에서 자동으로 다시 보내는 메시지를 구성할 수 있습니다.
+가입자가 Adobe Campaign을 통해 보낸 SMS 메시지에 대한 회신을 하면서 메시지에 &quot;STOP&quot;과 같은 키워드가 포함되어 있으면 **[!UICONTROL Automatic reply sent to the MO]** 섹션에서 자동으로 다시 보내는 메시지를 구성할 수 있습니다.
 
 >[!NOTE]
 >
@@ -355,7 +352,7 @@ SMS 메시지를 보낼 때 Adobe Campaign은 하나 또는 여러 개의 텍스
 * 키워드에 상관없이 동일한 응답을 보내려면 열을 **[!UICONTROL Keyword]** 비워 두십시오.
 * 응답을 보내지 않고 작업을 수행하려면 열을 **[!UICONTROL Response]** 비워 두십시오. 예를 들어 &quot;STOP&quot; 이외의 메시지로 답글을 보낸 사용자를 격리하지 않아도 됩니다.
 
-동일한 공급자 계정을 가진 확장 일반 SMPP 커넥터를 사용하는 여러 외부 계정이 있는 경우 다음 문제가 발생할 수 있습니다. 짧은 코드로 회신을 보낼 때 외부 계정 연결 시 수신될 수 있습니다. 따라서 전송된 자동 회신은 예상 메시지가 될 수 없습니다.
+동일한 공급자 계정을 가진 확장 일반 SMPP 커넥터를 사용하는 여러 외부 계정이 있는 경우 다음 문제가 발생할 수 있습니다.짧은 코드로 회신을 보낼 때 외부 계정 연결 시 수신될 수 있습니다. 따라서 전송된 자동 회신은 예상 메시지가 될 수 없습니다.
 이를 방지하려면 사용 중인 공급자에 따라 다음 솔루션 중 하나를 적용합니다.
 
 * 각 외부 계정에 대해 하나의 공급자 계정을 만듭니다.
@@ -373,9 +370,9 @@ SMS 채널을 통해 전달하려면 채널 커넥터를 참조하는 템플릿�
 
 기본 배달 템플릿을 유지하려면 복제한 다음 구성하는 것이 좋습니다.
 
-아래 예에서는 앞에서 활성화된 SMPP 계정을 통해 메시지를 전달하는 템플릿을 만듭니다. 이렇게 하려면:
+아래 예에서는 앞에서 활성화된 SMPP 계정을 통해 메시지를 전달하는 템플릿을 만듭니다. 방법은 다음과 같습니다.
 
-1. 노드로 **[!UICONTROL Delivery templates]** 이동합니다.
+1. Go to the **[!UICONTROL Delivery templates]** node.
 1. 템플릿을 마우스 오른쪽 단추로 **[!UICONTROL Send to mobiles]** 클릭하고 선택합니다 **[!UICONTROL Duplicate]**.
 
    ![](assets/s_user_mobile_template_change_01.png)
@@ -384,7 +381,7 @@ SMS 채널을 통해 전달하려면 채널 커넥터를 참조하는 템플릿�
 
    ![](assets/s_user_mobile_template_change_02.png)
 
-1. **[!UICONTROL Properties]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Properties]**&#x200B;을(를) 클릭합니다.
 1. 탭에서 **[!UICONTROL General]** 이전 단계에서 생성한 외부 계정에 해당하는 라우팅 모드를 선택합니다.
 
    ![](assets/s_user_mobile_template_change_03.png)
@@ -406,7 +403,7 @@ SMS 채널을 통해 전달하려면 채널 커넥터를 참조하는 템플릿�
 >배달 생성에 대한 글로벌 개념이 [이 섹션에 나와 있습니다](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 1. 배달 대시보드 등의 새 배달을 만듭니다.
-1. 이전에 만든 **SMPP(모바일로 전송)** 배달 템플릿을 선택합니다. 자세한 내용은 배달 템플릿 [변경 섹션을 참조하십시오](#changing-the-delivery-template) .
+1. 이전에 만든 **SMPP(모바일로 전송)** 배달 템플릿을 선택합니다. For more on this, refer to the [Changing the delivery template](#changing-the-delivery-template) section.
 
    ![](assets/s_user_mobile_wizard.png)
 
@@ -459,8 +456,8 @@ SMS의 내용을 만들려면 아래 단계를 수행하십시오.
 
 배달을 확인하고 전송할 때의 세부 프로세스는 아래 섹션에 나와 있습니다.
 
-* [배달 유효성 확인](../../delivery/using/steps-validating-the-delivery.md)
-* [배달 전송](../../delivery/using/steps-sending-the-delivery.md)
+* [게재 유효성 검사](../../delivery/using/steps-validating-the-delivery.md)
+* [게재 보내기](../../delivery/using/steps-sending-the-delivery.md)
 
 ### 고급 매개 변수 {#advanced-parameters}
 
@@ -468,7 +465,7 @@ SMS의 내용을 만들려면 아래 단계를 수행하십시오.
 
 다음 옵션을 사용할 수 있습니다.
 
-* **보낸 사람 주소**: 11자로 제한된 영숫자 문자열을 사용하여 배달 보낸 사람의 이름을 개인화할 수 있습니다. 그 밭은 꼭 인형으로 만들어져서는 안 된다. 표시할 조건을 정의할 수 있습니다. 예를 들어, 수신자의 영역 코드에 따라 다른 이름이 표시됩니다.
+* **보낸 사람 주소**:11자로 제한된 영숫자 문자열을 사용하여 배달 보낸 사람의 이름을 개인화할 수 있습니다. 그 밭은 꼭 인형으로 만들어져서는 안 된다. 표시할 조건을 정의할 수 있습니다. 예를 들어, 수신자의 영역 코드에 따라 다른 이름이 표시됩니다.
 
    ```
    <% if( String(recipient.mobilePhone).indexOf("+1") == 0){ %>NeoShopUS<%} else {%>NeoShopWorld<%}%>
@@ -478,35 +475,35 @@ SMS의 내용을 만들려면 아래 단계를 수행하십시오.
    >
    >발신자 이름 편집과 관련하여 해당 국가의 법을 확인하십시오. 이 기능을 제공하는지 운영자도 확인해야 합니다.
 
-* **전송 모드**: SMS로 메시지 전송
-* **우선 순위**: 메시지에 할당된 중요도 수준. **[!UICONTROL Normal]** 우선 순위는 기본적으로 선택되어 있습니다. 서비스 제공업체에 **[!UICONTROL High]** 우선 순위로 전송된 SMS 비용을 문의하십시오.
-* **응용 프로그램 유형**: SMS 전달에 할당할 애플리케이션을 선택합니다. 이 **[!UICONTROL Direct Marketing]** 옵션은 기본적으로 선택되어 있으며 가장 일반적으로 사용됩니다.
+* **전송 모드**:SMS로 메시지 전송
+* **우선 순위**:메시지에 할당된 중요도 수준. **[!UICONTROL Normal]** 우선 순위는 기본적으로 선택되어 있습니다. 서비스 제공업체에 **[!UICONTROL High]** 우선 순위로 전송된 SMS 비용을 문의하십시오.
+* **응용 프로그램 유형**:SMS 전달에 할당할 애플리케이션을 선택합니다. 이 **[!UICONTROL Direct Marketing]** 옵션은 기본적으로 선택되어 있으며 가장 일반적으로 사용됩니다.
 
 **NetSize 커넥터에 적용되는 매개 변수**
 
 ![](assets/s_user_mobile_sms_adv_netsize.png)
 
-* **단일 메시지에 여러 SMS를 사용하십시오**. 따라서 여러 SMS 메시지를 통해 160자 이상의 메시지를 보낼 수 있습니다.
+* **단일 메시지에 여러 SMS를 사용하십시오**.따라서 여러 SMS 메시지를 통해 160자 이상의 메시지를 보낼 수 있습니다.
 
 **SMPP 커넥터에 대한 매개 변수**
 
 ![](assets/s_user_mobile_sms_adv_smpp.png)
 
-* **메시지당 최대 SMS 수**: 이 옵션을 사용하면 메시지를 보내는 데 사용할 SMS 수를 설정할 수 있습니다. 번호가 0으로 설정된 경우 SMS를 사용하여 메시지를 전달할 수 있습니다. 예를 들어 SMS 수가 1 또는 2로 설정되고 메시지가 이 임계값을 초과하는 경우 전송되지 않습니다.
+* **메시지당 최대 SMS 수**:이 옵션을 사용하면 메시지를 보내는 데 사용할 SMS 수를 설정할 수 있습니다. 번호가 0으로 설정된 경우 SMS를 사용하여 메시지를 전달할 수 있습니다. 예를 들어 SMS 수가 1 또는 2로 설정되고 메시지가 이 임계값을 초과하는 경우 전송되지 않습니다.
 
 ## SMS 전달 모니터링 및 추적 {#monitoring-and-tracking-sms-deliveries}
 
-메시지를 보낸 후 배달을 모니터링하고 추적할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
+메시지를 보낸 후 배달을 모니터링하고 추적할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오.
 
 * [게재 모니터링](../../delivery/using/monitoring-a-delivery.md)
 * [게재 실패 이해](../../delivery/using/understanding-delivery-failures.md)
-* [메시지 추적 정보](../../delivery/using/about-message-tracking.md)
+* [메시지 추적 기본 정보](../../delivery/using/about-message-tracking.md)
 
 ## 인바운드 메시지 처리 {#processing-inbound-messages}
 
-nlserver sms **모듈은 SMS** 라우터를 정기적으로 쿼리합니다. 이를 통해 Adobe Campaign은 전달 진행 상황을 추적하고 상태 보고서와 수신자 구독 취소 요청을 처리할 수 있습니다.
+nlserver sms **모듈은 SMS** 라우터를 정기적으로 쿼리합니다. 이를 통해 Adobe Campaign은 배송 진행 상황을 추적하고 상태 보고서와 수신자 구독 취소 요청을 처리할 수 있습니다.
 
-* **상태 보고서**: 전달 로그를 확인하여 메시지 상태를 확인합니다.
+* **상태 보고서**:전달 로그를 확인하여 메시지 상태를 확인합니다.
 
    >[!NOTE]
    >
@@ -516,7 +513,7 @@ nlserver sms **모듈은 SMS** 라우터를 정기적으로 쿼리합니다. 이
    > * SMS 계정은 상태 보고서가 올바른 계정에 속하는지 확인하기 위해 단일 외부 계정에만 연결할 수 있습니다
 
 
-* **구독 취소**: SMS 전달 수신을 중지하려는 수신자는 STOP이라는 단어가 포함된 메시지를 반환할 수 있습니다. 공급자가 계약 약관에 따라 메시지를 허용하는 경우 **인바운드 SMS** 워크플로우 활동을 통해 메시지를 검색한 다음 쿼리를 만들어 관련 받는 사람에게 **더 이상 이 수신자** 에게 연락하지 않음 옵션을 활성화할 수 있습니다.
+* **구독 취소**:SMS 전달 수신을 중지하려는 수신자는 STOP이라는 단어가 포함된 메시지를 반환할 수 있습니다. 공급자가 계약 약관에 따라 메시지를 허용하는 경우 **인바운드 SMS** 워크플로우 활동을 통해 메시지를 검색한 다음 쿼리를 만들어 관련 받는 사람에게 **더 이상 이 수신자** 에게 연락하지 않음 옵션을 활성화할 수 있습니다.
 
    워크플로우 [가이드를](../../workflow/using/architecture.md) 참조하십시오.
 
@@ -524,11 +521,11 @@ nlserver sms **모듈은 SMS** 라우터를 정기적으로 쿼리합니다. 이
 
 InSMS 스키마는 들어오는 SMS와 관련된 정보를 포함합니다. 이러한 필드에 대한 설명은 desc 속성을 통해 사용할 수 있습니다.
 
-* **메시지**: 수신한 SMS 컨텐츠
-* **출처**: 메시지 원본의 모바일 번호입니다.
-* **providerId**: SMSC(메시지 센터)가 반환하는 메시지의 식별자입니다.
-* **created**: 수신 메시지 날짜가 Adobe Campaign에 삽입되었습니다.
-* **extAccount**: Adobe Campaign 외부 계정.
+* **메시지**:수신한 SMS 컨텐츠
+* **출처**:메시지 원본의 모바일 번호입니다.
+* **providerId**:SMSC(메시지 센터)가 반환하는 메시지의 식별자입니다.
+* **created**:수신 메시지 날짜가 Adobe Campaign에 삽입되었습니다.
+* **extAccount**:Adobe Campaign 외부 계정.
 
    >[!IMPORTANT]
    >
@@ -536,19 +533,19 @@ InSMS 스키마는 들어오는 SMS와 관련된 정보를 포함합니다. 이�
    >
    >사용 중인 연산자가 NetSize가 아닌 경우 이러한 필드는 비어 있는 것으로 간주됩니다.
 
-* **별칭**: 받는 메시지의 별칭입니다.
-* **구분 기호**: 메시지의 별칭과 본문 사이의 구분자입니다.
-* **messageDate**: 메시지 날짜.
-* **receiveDate**: SMSC(메시지 센터)가 연산자로부터 날짜 메시지를 받았습니다.
-* **deliveryDate**: SMSC가 보낸 날짜 메시지(메시지 센터).
-* **largeAccount**: 수신 SMS에 연결된 고객 계정 코드
-* **countryCode**: 연산자 국가 번호.
-* **operatorCode**: 연산자 네트워크 코드.
-* **linkedSmsId**: 이 SMS가 응답인 나가는 SMS에 연결된 Adobe Campaign 식별자(broadlogId)입니다.
+* **별칭**:받는 메시지의 별칭입니다.
+* **구분 기호**:메시지의 별칭과 본문 사이의 구분자입니다.
+* **messageDate**:메시지 날짜.
+* **receiveDate**:SMSC(메시지 센터)가 연산자로부터 날짜 메시지를 받았습니다.
+* **deliveryDate**:SMSC가 보낸 날짜 메시지(메시지 센터).
+* **largeAccount**:수신 SMS에 연결된 고객 계정 코드
+* **countryCode**:연산자 국가 번호.
+* **operatorCode**:연산자 네트워크 코드.
+* **linkedSmsId**:이 SMS가 응답인 나가는 SMS에 연결된 Adobe Campaign 식별자(broadlogId)입니다.
 
 ## 자동 회신 관리(미국 규정) {#managing-automatic-replies--american-regulation-}
 
-Adobe Campaign을 통해 보내진 SMS 메시지에 응답하고 STOP, HELP 또는 YES 같은 키워드를 사용하는 가입자는 미국 시장에서 자동으로 반환되는 메시지를 구성해야 합니다.
+Adobe Campaign을 통해 보내진 SMS 메시지에 답장을 쓰는 가입자는 STOP, HELP, YES 같은 키워드를 사용하지만 미국 시장에서는 자동으로 반환되는 메시지를 구성해야 합니다.
 
 예를 들어 수신자가 STOP 키워드를 전송하는 경우 구독 취소되었음을 나타내는 확인 메시지가 자동으로 수신됩니다.
 
@@ -588,7 +585,7 @@ Adobe Campaign을 통해 보내진 SMS 메시지에 응답하고 STOP, HELP 또�
 
    여러 키워드에 대해 동일한 메시지를 보내려면 해당 줄을 복제합니다.
 
-   예:
+   예제:
 
    ```
    <reply keyword="STOP" text="You will not receive SMS anymore" />
