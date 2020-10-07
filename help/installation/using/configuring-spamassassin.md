@@ -1,7 +1,7 @@
 ---
-title: 스팸 암살자 구성
-seo-title: 스팸 암살자 구성
-description: 스팸 암살자 구성
+title: SpamAssassin 구성
+seo-title: SpamAssassin 구성
+description: SpamAssassin 구성
 seo-description: null
 page-status-flag: never-activated
 uuid: 327548c0-d621-4417-9fc9-b0bf30251dc0
@@ -11,27 +11,24 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: aa37bdc6-0f85-4eca-859f-e8b15083cfb5
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1a9d4c9eadf996d37481f33636eae98e482ac115
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '984'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 스팸 암살자 구성{#configuring-spamassassin}
+# SpamAssassin 구성{#configuring-spamassassin}
 
 >[!NOTE]
 >
->일부 구성은 Adobe가 호스팅하는 배포를 위해서만 수행할 수 있습니다. 예를 들어 서버 및 인스턴스 구성 파일에 액세스하려면 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>일부 구성은 Adobe에서 호스팅하는 배포에 대해서만 Adobe에서 수행할 수 있습니다. 예를 들어 서버 및 인스턴스 구성 파일에 액세스하려면 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 문서를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ## 개요 {#overview}
 
-SpamCharacter는 원하지 않는 이메일을 필터링하기 위해 고안된 소프트웨어입니다. 이 소프트웨어와 함께 Adobe Campaign은 이메일에 점수를 할당하고 메시지 전달이 시작되기 전에 원치 않는 것으로 간주될 수 있는지 여부를 결정할 수 있습니다. 이를 위해서는 Adobe Campaign의 응용 프로그램 서버에 SpamAsser를 설치하고 구성해야 하며 특정 수의 추가 Perl 모듈이 필요합니다.
+SpamCharacter는 원하지 않는 이메일을 필터링하기 위해 고안된 소프트웨어입니다. 이 소프트웨어와 함께, Adobe Campaign은 이메일에 점수를 할당하고 메시지 전달이 시작되기 전에 원치 않는 것으로 간주될 수 있는지 여부를 결정할 수 있습니다. 이를 위해서는 Adobe Campaign의 응용 프로그램 서버에 SpamCharacter를 설치 및 구성해야 하며 일정 수의 추가 Perl 모듈이 필요합니다.
 
 이 장에 명시된 SpamCharacter의 배포 및 통합은 필터링 및 채점 규칙과 같이 변경이나 최적화 없이 SpamCharacter에서 제공하는 기본 소프트웨어 설치를 기반으로 합니다. 점수 기여도 및 메시지 자격은 SpamAssesser 옵션 구성 및 필터링 규칙에 기준합니다. 네트워크 관리자는 회사의 요구 사항에 맞게 변경할 책임이 있습니다.
 
@@ -39,17 +36,17 @@ SpamCharacter는 원하지 않는 이메일을 필터링하기 위해 고안된 
 >
 >SpamCharacter에서 원하지 않는 이메일의 자격은 필터링 및 점수 규칙에 전적으로 따라 결정됩니다.
 >
->따라서 SpamCharacter 설치 및 Adobe Campaign과의 통합이 완벽한 기능을 갖추고 전송하기 전에 게재에 할당된 점수의 연관성을 보장하기 위해 이러한 규칙을 하루에 최소 한 번 업데이트해야 합니다.
+>따라서 SpamCharacter 설치 및 Adobe Campaign와의 통합이 완벽한 기능을 갖추고, 발송하기 전에 SpamCharacter에 할당된 점수의 연관성을 보장하기 위해 이러한 규칙을 하루에 최소 한 번 업데이트해야 합니다.
 >
 >이 업데이트는 SpamCharacter를 호스팅하는 서버 관리자의 책임입니다.
 
-Adobe Campaign에서 스팸자재를 사용하면 Adobe Campaign에서 발송한 이메일을 수신할 때 SpamCharacter를 사용하는 메일 서버의 작동 가능성에 대한 정보를 제공합니다. 그러나 인터넷 공급자 또는 온라인 메일 서버의 메일 서버가 Adobe Campaign에서 보낸 메시지를 여전히 원하지 않는 것으로 간주할 수 있습니다.
+Adobe Campaign에서 스팸자퍼를 사용하는 것은 Adobe Campaign이 보낸 e메일을 받을 때 스팸자퍼를 사용하는 메일 서버의 작동 가능성에 대한 정보를 제공합니다. 하지만 Adobe Campaign이 보낸 메시지는 인터넷 제공자나 온라인 메일 서버의 메일 서버가 여전히 바람직하지 않다고 생각할 수 있다.
 
-Perl에서 SpamCharacter 및 해당 모듈을 배포하려면 HTTP 연결을 통해 인터넷에 액세스할 수 있는 Adobe Campaign 응용 프로그램 서버(TCP/80 흐름)가 필요합니다.
+Perl에서 SpamCharacter 및 해당 모듈을 배포하려면 HTTP 연결을 통해 인터넷에 액세스할 수 있는 Adobe Campaign 응용 프로그램 서버가 필요합니다(TCP/80 흐름).
 
 ## Windows 시스템에 설치 {#installing-on-a-windows-machine}
 
-Adobe Campaign과의 통합을 활성화하기 위해 Windows에서 SpamCharacter를 설치하고 구성하려면 다음 단계를 수행하십시오.
+Windows에서 SpamCharacter를 설치하고 구성하여 Adobe Campaign와의 통합을 활성화하려면 다음 단계를 수행하십시오.
 
 1. SpamCharacter 설치
 1. Adobe Campaign에 스팸얼을 통합합니다.
@@ -73,11 +70,11 @@ Adobe Campaign과의 통합을 활성화하기 위해 Windows에서 SpamCharacte
 
    run_ **me.bat를** 입력한 다음 **Enter를** 클릭하여 설치 및 업데이트 프로세스를 시작합니다. 업데이트 결과를 나타내기 위해 다음 값 중 하나를 반환합니다.
 
-   * **0**: 업데이트가 수행되었습니다.
-   * **1**: 새로운 업데이트를 사용할 수 없습니다.
-   * **2**: 새로운 업데이트를 사용할 수 없습니다.
-   * **3**: 이전 확인 중에 업데이트하지 못했습니다.
-   * **4** 이상: 오류가 발생했습니다.
+   * **0**:업데이트가 수행되었습니다.
+   * **1**:새로운 업데이트를 사용할 수 없습니다.
+   * **2**:새로운 업데이트를 사용할 수 없습니다.
+   * **3**:이전 확인 중에 업데이트하지 못했습니다.
+   * **4** 이상:오류가 발생했습니다.
 
 1. SpamAsser 설치가 성공했는지 확인하려면 다음 절차를 사용하여 GTUBE 테스트(요청되지 않은 벌크 이메일에 대한 일반 테스트)를 사용하십시오.
 
@@ -106,7 +103,7 @@ Adobe Campaign과의 통합을 활성화하기 위해 Windows에서 SpamCharacte
 
       이 테스트 이메일의 내용은 SpamCharacter의 1,000포인트 점수를 트리거합니다. 이는 원치 않는 것으로 감지되고 설치가 성공적이었고 완전히 기능적이라는 것을 의미합니다.
 
-### Adobe Campaign에 스팸 자수 통합 {#integrating-spamassassin-into-adobe-campaign}
+### Adobe Campaign에 스팸얼을 통합하다 {#integrating-spamassassin-into-adobe-campaign}
 
 1. 파일을 **`[INSTALL]/conf/serverConf.xml`** 편집합니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
 1. **웹** 노드에서 spamCheck **요소의** 명령 **속성 값을** 변경합니다. 이렇게 하려면 다음 명령을 실행합니다.
@@ -121,7 +118,7 @@ Adobe Campaign과의 통합을 활성화하기 위해 Windows에서 SpamCharacte
 
    서비스를 중지하고 **[!UICONTROL Adobe Campaign]** 시작하십시오.
 
-1. Adobe Campaign에서 SpamAsser 통합을 확인하려면 GTBUE 테스트(요청되지 않은 벌크 이메일에 대한 일반 테스트)를 사용하십시오.
+1. Adobe Campaign에서 SpamAsser의 통합을 확인하려면 GTBUE 테스트(요청되지 않은 대량 이메일에 대한 일반 테스트)를 사용하십시오.
 
    portableshell.bat **파일을 두 번** 클릭합니다. Windows 셸의 표시를 트리거합니다. 그런 다음 다음 다음 명령을 실행합니다.
 
@@ -129,7 +126,7 @@ Adobe Campaign과의 통합을 활성화하기 위해 Windows에서 SpamCharacte
    perl "[INSTALL]\bin\spamcheck.pl" "C:\TestSpamMail.txt"
    ```
 
-   이 테스트 이메일의 내용은 SpamCharacter에서 할당한 1,000개의 포인트를 트리거합니다. 이는 Adobe Campaign에서의 통합이 성공적이었고 완전히 기능적으로 감지되지 않았음을 의미합니다.
+   이 테스트 이메일의 내용은 SpamCharacter에서 할당한 1,000개의 포인트를 트리거합니다. 이는 Adobe Campaign의 통합이 성공적이고 완전한 기능이라는 것은 바람직하지 않다는 것을 의미한다.
 
 1. 스팸 분류 필터링 및 점수 지정 규칙 업데이트
 
