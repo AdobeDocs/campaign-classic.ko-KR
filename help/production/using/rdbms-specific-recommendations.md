@@ -1,7 +1,7 @@
 ---
-title: RDBMS 특정 추천
-seo-title: RDBMS 특정 추천
-description: RDBMS 특정 추천
+title: RDBMS 특정 권장 사항
+seo-title: RDBMS 특정 권장 사항
+description: RDBMS 특정 권장 사항
 seo-description: null
 page-status-flag: never-activated
 uuid: 637c1b5a-0484-4734-a012-eb4ba8036263
@@ -11,21 +11,18 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 discoiquuid: b2219912-5570-45d2-8b52-52486e29d008
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# RDBMS 특정 추천{#rdbms-specific-recommendations}
+# RDBMS 특정 권장 사항{#rdbms-specific-recommendations}
 
-유지 관리 계획을 설정하는 데 도움이 되도록 이 섹션에는 Adobe Campaign에서 지원하는 다양한 RDBMS 엔진에 적용되는 몇 가지 권장 사항/우수 사례가 나열됩니다. 하지만 권장 사항일 뿐입니다. 내부 절차와 제약 조건을 준수하면서, 필요에 따라 이를 조정하는 것은 여러분에게 달려 있습니다. 데이터베이스 관리자는 이러한 계획을 작성 및 실행할 책임이 있습니다.
+유지 관리 계획을 설정하는 데 도움이 되도록 이 섹션에는 Adobe Campaign에서 지원하는 다양한 RDBMS 엔진에 적용된 몇 가지 권장 사항/우수 사례가 나열됩니다. 하지만 권장 사항일 뿐입니다. 내부 절차와 제약 조건을 준수하면서, 필요에 따라 이를 조정하는 것은 여러분에게 달려 있습니다. 데이터베이스 관리자는 이러한 계획을 작성 및 실행할 책임이 있습니다.
 
 ## PostgreSQL {#postgresql}
 
@@ -98,11 +95,12 @@ vacuum full nmsdelivery;
 
 >[!NOTE]
 >
->* Adobe에서는 더 작은 테이블부터 시작하는 것이 좋습니다. 이 방법으로 큰 테이블에서 프로세스가 실패할 경우(실패 위험이 가장 높은 경우), 유지 관리 작업의 최소 부분이 완료된 것입니다.
->* Adobe에서는 중요한 업데이트를 적용할 수 있는 데이터 모델에 해당하는 테이블을 추가하는 명령을 다시 수행합니다. 일별 데이터 복제 플로우가 많을 경우 **NmsRecipient** 의 경우일 수 있습니다.
+>* Adobe은 더 작은 테이블로 시작하는 것이 좋습니다.이 방법으로 큰 테이블에서 프로세스가 실패할 경우(실패 위험이 가장 높은 경우), 유지 관리 작업의 최소 부분이 완료된 것입니다.
+>* Adobe은 중요한 업데이트를 적용할 수 있는 데이터 모델에 해당하는 테이블을 추가하여 일별 데이터 복제 플로우가 많을 경우 **NmsRecipient** 의 경우일 수 있습니다.
 >* 공백 ******및** 색인다시 지정 명령은 테이블을 잠가 유지 관리가 진행되는 동안 일부 프로세스를 일시 중지합니다.
->* 매우 큰 테이블(일반적으로 5Gb 이상)의 경우 **진공** 완전비효율이 매우 우수하고 시간이 오래 걸릴 수 있습니다. YyyNmsBroadLogXxx 테이블에 **사용하지 않는 것이** 좋습니다.
->* 이 유지 관리 작업은 Adobe Campaign 워크플로우에서 활동을 사용하여 구현할 수 있습니다( **[!UICONTROL SQL]** 자세한 내용은 [이 섹션](../../workflow/using/architecture.md)참조). 백업 창과 충돌하지 않는 낮은 작업 시간에 대한 유지 관리를 예약해야 합니다.
+>* 매우 큰 테이블(일반적으로 5Gb 이상)의 경우 **진공** 완전비효율이 매우 우수하고 시간이 오래 걸릴 수 있습니다. Adobe에서는 YyyNmsBroadLogXxx 테이블에 **사용할 것을** 권장하지 않습니다.
+>* 이 유지 관리 작업은 Adobe Campaign 워크플로우에서 **[!UICONTROL SQL]** 활동을 사용하여 구현할 수 있습니다(자세한 내용은 [이 섹션](../../workflow/using/architecture.md)참조). 백업 창과 충돌하지 않는 낮은 작업 시간에 대한 유지 관리를 예약해야 합니다.
+
 >
 
 
@@ -111,8 +109,8 @@ vacuum full nmsdelivery;
 
 PostgreSQL은 **진공청소기가 테이블을 잠궈서** 일반 프로덕션을 방지하므로 온라인 테이블 재작성을 쉽게 수행할 수 없습니다. 즉, 테이블을 사용하지 않을 때는 유지 관리를 수행해야 합니다. 다음 중 하나를 수행할 수 있습니다.
 
-* Adobe Campaign 플랫폼 중지 시 유지 관리 수행,
-* 다시 빌드되는 테이블에 작성할 수 있는 다양한 Adobe Campaign 하위 서비스를 중지합니다(워크플로우 프로세스를 중지하려면&#x200B;**nlserver stop wfserver instance_name** ).
+* adobe campaign 플랫폼이 중지되면 유지 관리를 수행합니다.
+* 다시 빌드되는 테이블에 작성할 수 있는 다양한 Adobe Campaign 하위 서비스를 중지합니다(워크플로 프로세스를 중지하려면&#x200B;**nlserver stop wfserver instance_name** ).
 
 다음은 필요한 DDL을 생성하기 위해 특정 함수를 사용하는 테이블 조각 모음의 예입니다. 다음 SQL에서는 두 개의 새 함수를 만들 수 있습니다. **GenRebuildTablePart1** 및 **GenRebuildTablePart2**. 이요소를 사용하면 테이블을 다시 생성하는 데 필요한 DDL을 생성할 수 있습니다.
 
@@ -334,7 +332,7 @@ PostgreSQL은 **진공청소기가 테이블을 잠궈서** 일반 프로덕션�
  $$ LANGUAGE plpgsql;
 ```
 
-다음 예는 **진공/재구축** 명령을 사용하지 않고 필요한 테이블을 재구성하는 워크플로우에서 사용할 수 있습니다.
+다음 예제를 워크플로우에서 **진공/재구축** 명령을 사용하지 않고 필요한 테이블을 재구성하는 데 사용할 수 있습니다.
 
 ```
 function sqlGetMemo(strSql)
@@ -419,7 +417,7 @@ function sqlGetMemo(strSql)
 
 1. 유지 관리 계획이 완료되면 을 클릭합니다 **[!UICONTROL Close]** .
 1. Microsoft SQL Server 탐색기에서 폴더를 두 번 **[!UICONTROL Management > Maintenance Plans]** 클릭합니다.
-1. Adobe Campaign 유지 관리 계획을 선택합니다. 다양한 단계는 워크플로우에 자세히 설명되어 있습니다.
+1. Adobe Campaign 유지 관리 계획을 선택합니다.다양한 단계는 워크플로우에 자세히 설명되어 있습니다.
 
    객체가 폴더에 생성되었음을 **[!UICONTROL SQL Server Agent > Jobs]** 참고하십시오. 이 개체를 사용하면 유지 관리 계획을 시작할 수 있습니다. 이 예에서는 모든 유지 관리 작업이 동일한 계획의 일부이므로 개체가 하나만 있습니다.
 
@@ -439,4 +437,4 @@ WdbcOptions_ **TempDbName** 옵션을 사용하면 Microsoft SQL Server에서 �
 
 이 옵션을 &quot;tempdb.dbo.&quot;로 설정하면 작업 테이블이 Microsoft SQL Server의 기본 임시 데이터베이스에 생성됩니다. 데이터베이스 관리자가 tempdb 데이터베이스에 대한 쓰기 액세스를 허용해야 합니다.
 
-이 옵션을 설정하면 Adobe Campaign에 구성된 모든 Microsoft SQL Server 데이터베이스(기본 데이터베이스 및 외부 계정)에 사용됩니다. 두 개의 외부 계정이 동일한 서버를 공유하는 경우 tempdb가 고유하므로 충돌이 발생할 수 있습니다. 같은 방식으로 두 개의 캠페인 인스턴스가 동일한 MSSQL 서버를 사용하는 경우 동일한 tempdb를 사용하는 경우 충돌이 발생할 수 있습니다.
+이 옵션을 설정하면 Adobe Campaign에 구성된 모든 Microsoft SQL Server 데이터베이스(기본 데이터베이스 및 외부 계정)에서 사용됩니다. 두 개의 외부 계정이 동일한 서버를 공유하는 경우 tempdb가 고유하므로 충돌이 발생할 수 있습니다. 같은 방식으로 두 개의 캠페인 인스턴스가 동일한 MSSQL 서버를 사용하는 경우 동일한 tempdb를 사용하는 경우 충돌이 발생할 수 있습니다.
