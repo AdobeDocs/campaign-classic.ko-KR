@@ -11,11 +11,11 @@ audience: production
 content-type: reference
 topic-tags: introduction
 discoiquuid: f4879774-afe5-4556-ab60-9297cabbca2c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 4%
 
 ---
 
@@ -26,21 +26,21 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 Adobe Campaign은 최소 구성으로 다음을 수행합니다.
 
-* Adobe Campaign 애플리케이션 서버,
+* adobe campaign 애플리케이션 서버,
 * 데이터베이스를 참조하십시오.
 
    ![](assets/formation_exploitation.png)
 
-이 다이어그램은 최소 아키텍처의 컨텍스트와 관련된 유일한 트래픽이
+이 다이어그램은 최소 아키텍처 컨텍스트와 관련된 유일한 트래픽이
 
-1. 인터넷을 통해 Adobe Campaign 서버에 대한 HTTP 프로토콜 트래픽,
+1. 인터넷을 통해 Adobe Campaign 서버에 대한 HTTP 프로토콜 트래픽
 1. 인터넷을 통해 Adobe Campaign 서버로부터의 SMTP 프로토콜 트래픽
 
 ## 분산 아키텍처 {#distributed-architecture}
 
-Adobe Campaign은 여러 대의 시스템으로 분류할 수 있는 여러 모듈로 구성되어 있습니다. 이 운영 모드는 다음과 같은 몇 가지 이점을 제공합니다.
+Adobe Campaign은 여러 대의 기계로 분해할 수 있는 여러 모듈로 구성되어 있다. 이 운영 모드는 다음과 같은 여러 이점을 제공합니다.
 
-* 로드 밸런싱,
+* 부하 균형 조정,
 * 모듈 이중화 설정,
 * 여러 서비스 제공업체를 통해 세분화된 아키텍처 구축(제공된 서비스의 세분화)
 
@@ -50,9 +50,9 @@ Adobe Campaign은 여러 대의 시스템으로 분류할 수 있는 여러 모�
 
 >[!NOTE]
 >
->다양한 아키텍처에 대한 자세한 내용은 [이 섹션을](../../installation/using/general-architecture.md)참조하십시오.
+>For more on the various architectures, refer to [this section](../../installation/using/general-architecture.md).
 
-## 열린 포트 목록 {#list-of-open-ports}
+## 열려 있는 포트 목록 {#list-of-open-ports}
 
 | 포트 번호 | 관련 Adobe Campaign 모듈 또는 애플리케이션 | 구성 가능 |
 |---|---|---|
