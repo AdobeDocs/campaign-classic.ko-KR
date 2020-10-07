@@ -9,14 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5e6ecd636ee0b2199808c03b2fd898a194f0c1ea
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '864'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -99,7 +96,7 @@ Adobe Campaign 연산자 및 그룹이 포함된 전체 유효성 검사 프로�
 
 * 각 IPAfferity 요소에 대해 사용할 수 있는 IP 주소를 선언합니다. [자세히 알아보기](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-* 선택한 [유형](../../campaign/using/about-campaign-typologies.md) 에서 **[!UICONTROL Managing affinities with IP addresses]** 필드를 사용하여 해당 관련성을 관리하는 배달 서버(MTA)에 배달을 연결합니다. [자세히 알아보기](../../campaign/using/applying-rules.md#control-outgoing-smtp-traffic).
+* 선택한 [유형](../../campaign/using/about-campaign-typologies.md) 에서 **[!UICONTROL Managing affinities with IP addresses]** 필드를 사용하여 해당 관련성을 관리하는 배달 서버(MTA)에 배달을 연결합니다. [자세히 알아보기](../../campaign/using/applying-rules.md#control-outgoing-smtp-traffic)
 
 * 이메일이 전송되면 헤더를 확인하여 배달을 보낸 IP 주소를 확인합니다. 이메일 관리자가 헤더 정보를 가져오는 데 도움이 됩니다.
 
