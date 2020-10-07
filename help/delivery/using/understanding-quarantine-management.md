@@ -11,14 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2576'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -27,7 +24,7 @@ ht-degree: 13%
 
 ## 격리 기본 정보 {#about-quarantines}
 
-Adobe Campaign이 격리된 주소 목록을 관리합니다. 주소가 격리된 수신자는 배달 분석 중에 기본적으로 제외되며 타깃팅되지 않습니다. 예를 들어, 사서함이 가득 찼거나 주소가 없는 경우 이메일 주소를 격리할 수 있습니다. 어떠한 경우든, 격리 절차는 아래에 설명된 특정 규칙을 준수합니다.
+Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외되며 타겟팅되지 않습니다. 예를 들어, 사서함이 가득 찼거나 주소가 없는 경우 전자 메일 주소를 격리할 수 있습니다. 어떠한 경우든, 격리 절차는 아래에 설명된 특정 규칙을 준수합니다.
 
 >[!NOTE]
 >
