@@ -1,5 +1,5 @@
 ---
-title: 건축
+title: 아키텍쳐
 description: 워크플로우는 특정 모듈로 처리되며, 이 모듈은 처리 부하를 공유하기 위해 여러 서버에서 시작할 수 있습니다.
 page-status-flag: never-activated
 uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
@@ -9,19 +9,16 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3a932bc440853151704f1ba1e188fa0af9d4c5cb
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 건축 {#architecture}
+# 아키텍쳐 {#architecture}
 
 워크플로우는 특정 모듈에 의해 처리됩니다. 이 모듈은 처리 부하를 공유하기 위해 여러 서버에서 시작할 수 있습니다.
 
