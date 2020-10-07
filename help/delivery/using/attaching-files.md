@@ -11,14 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: f3666c12-5e6f-452e-b1d6-b69a7e9f6f6e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b60b5fad24c1237981f66315e7cf585c79f82641
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -35,8 +32,8 @@ ht-degree: 0%
 
 두 가지 가능한 경우가 있습니다.
 
-* 파일을 선택하고 그대로 배달에 첨부합니다.
-* 각 수신자에 대해 첨부 파일의 컨텐츠를 개인화합니다. 이 경우 **계산된 첨부 파일을 만들어야 합니다**. 첨부 파일의 이름은 받는 사람에 따라 각 메시지를 배달할 때 계산됩니다. 가변 디지털 인쇄 옵션을 사용하는 경우 컨텐츠가 전달될 때 개인화되고 PDF **포맷으로 변환될** 수도 있습니다.
+* 파일을 선택하고 있는 그대로 배달에 첨부합니다.
+* 각 수신자에 대해 첨부 파일의 컨텐츠를 개인화합니다. 이 경우 **계산된 첨부 파일을 만들어야 합니다**.첨부 파일의 이름은 받는 사람에 따라 각 메시지를 배달할 때 계산됩니다. 가변 디지털 인쇄 옵션을 사용하는 경우 컨텐츠가 전달될 때 개인화되고 PDF **포맷으로 변환될** 수도 있습니다.
 
 >[!NOTE]
 >
@@ -51,7 +48,7 @@ ht-degree: 0%
 >여러 파일을 게재할 수 있습니다. 첨부 파일 형식은 모든 포맷으로, zip 포맷으로 포함되어 있습니다.
 
 1. 링크를 **[!UICONTROL Attachments]** 클릭합니다.
-1. **[!UICONTROL Add]** 버튼을 클릭합니다. 
+1. **[!UICONTROL Add]** 버튼을 클릭합니다.
 1. 배달 **[!UICONTROL File...]** 에 첨부할 파일을 클릭하여 선택합니다.
 
    ![](assets/s_ncs_user_wizard_email_attachement.png)
@@ -87,7 +84,7 @@ ht-degree: 0%
 
 ### 로컬 파일 첨부 {#attach-a-local-file}
 
-첨부 파일이 로컬 파일인 경우 옵션을 선택합니다. **[!UICONTROL File name is specified when creating the delivery template]**. 파일이 로컬로 선택되어 서버에 업로드됩니다. 아래 단계를 따르십시오.
+첨부 파일이 로컬 파일인 경우 옵션을 선택합니다. **[!UICONTROL File name is specified when creating the delivery template]**. 파일이 로컬로 선택되어 서버에 업로드됩니다. 아래의 단계를 수행하십시오.
 
 1. 필드에서 업로드할 파일을 **[!UICONTROL Local file]** 선택합니다.
 1. 필요한 경우 레이블을 지정합니다. 메시지 시스템에서 볼 때 레이블은 파일 이름을 대체합니다. 아무 것도 지정하지 않으면 기본적으로 파일 이름이 사용됩니다.
@@ -132,7 +129,7 @@ ht-degree: 0%
 
 ### 계산된 파일 첨부 {#attach-a-calculated-file}
 
-배달 준비 중에 첨부 이름을 계산할 수 있습니다. 이렇게 하려면 옵션을 선택합니다 **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]**.
+배달 준비 중에 첨부 이름을 계산할 수 있습니다. To do this, select the option **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]**.
 
 >[!NOTE]
 >
