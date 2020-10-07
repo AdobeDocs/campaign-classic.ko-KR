@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classic으로 새 플랫폼 시작
-description: Adobe Campaign Classic으로 새 플랫폼을 시작할 때 전달 가능성을 관리하는 방법에 대해 자세히 알아보십시오.
+title: Adobe Campaign Classic에서 새로운 플랫폼 시작
+description: Adobe Campaign Classic에서 새로운 플랫폼을 시작할 때 전달 능력 관리에 대한 자세한 내용을 살펴보십시오.
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
@@ -9,11 +9,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 1%
@@ -27,7 +24,7 @@ ht-degree: 1%
 
 * 플랫폼의 사용 내역이 없으므로 이메일 전송을 시작하는 것은 중요한 단계이며 전송 IP가 이러한 목적으로 사용되지 않은 경우, 명성도 없습니다.
 
-* ISP는 원래 이메일을 보내는 데 전혀 사용되지 않은 IP 주소를 의심하기 때문에 갑자기 많은 양의 이메일 트래픽이 전송되기 시작합니다. 실제로 스팸은 일반적으로 &quot;알 수 없는&quot; IP 주소(블록 목록에 한번도 추가되지 않은 주소)를 사용하여 감지하기 전에 가능한 가장 많은 수의 메시지를 전송합니다.
+* ISP는 원래 이메일을 보내는 데 전혀 사용되지 않은 IP 주소를 의심하기 때문에 갑자기 많은 양의 이메일 트래픽이 전송되기 시작합니다. 실제로 스팸은 일반적으로 &quot;알 수 없는&quot; IP 주소(차단 목록에 한번도 추가되지 않은 주소)를 사용하여 감지하기 전에 가장 많은 수의 메시지를 전송합니다.
 
 * 제작 단계에서 출력 측면에서 운영 속도에 도달하는 것은 기대할 수 없습니다. 또한, ISP가 전송 주소를 막고 나머지 시작 단계를 심각하게 훼손할 수 있으므로 이러한 속도로 메시지를 전송하지 마십시오.
 
@@ -38,6 +35,7 @@ ht-degree: 1%
 
    * 잘못된 주소 목록이 있는 경우 처음 보내기 전에 검역 테이블로(메뉴를 통해 사용 가능) **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** 가져오는 것이 좋습니다.
    * 동일한 경우 잘못된 주소를 요청하려는 경우, 플랫폼의 이름이 설정되고 시간이 지남에 따라 잘못된 주소의 사용을 &quot;희석시키기&quot;위해 비트별로 비트 단위로 설정되면 이 방법을 사용하는 것이 더 좋습니다.
+
    이에 대한 자세한 내용은 [격리를 통한 배달 최적화를 참조하십시오](../../delivery/using/understanding-quarantine-management.md#optimizing-your-delivery-through-quarantines).
 * **Limit the throughput rate** by limited the number of matchilds. 이러한 기술 설정을 조정하는 방법에 대한 자세한 내용은 Adobe Campaign 관리자에게 문의하십시오.
 * **스팸으로 표시되지 않도록 전송된** 볼륨을 점진적으로 늘립니다. 처음부터 전체 데이터베이스를 대상으로 하지 않고 전송할 때마다 목록의 일부분을 추가합니다. 따라서 각 단계에서 볼륨을 증가시키고 잘못된 주소의 전체 속도를 줄일 수 있습니다. 시작 단계의 원활한 개발을 위해 파도를 사용할 수 있습니다. 자세한 내용은 여러 파도로 [보내기를 참조하십시오](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
