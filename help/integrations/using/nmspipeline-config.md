@@ -1,7 +1,7 @@
 ---
-title: 통합 구성
-seo-title: 통합 구성
-description: 통합 구성
+title: ' 통합 구성'
+seo-title: ' 통합 구성'
+description: ' 통합 구성'
 seo-description: null
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
@@ -11,14 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -85,7 +82,7 @@ ht-degree: 0%
 
 ## 파이프라인 옵션을 구성하는 방법 {#configure-pipeline-option}
 
-&quot;트리거&quot; 배열 아래에서 Experience Cloud 트리거를 추가하거나 편집합니다. 나머지는 편집하지 마십시오.
+&quot;트리거&quot; 배열 아래에서 Experience Cloud 트리거를 추가하거나 편집합니다.나머지는 편집하지 마십시오.
 이 [웹 사이트의 도움을 받아 JSON이 유효한지 확인하십시오](http://jsonlint.com/).
 
 * &quot;name&quot;은 트리거 ID입니다. 와일드카드 &quot;*&quot;가 모든 트리거를 캡처합니다.
