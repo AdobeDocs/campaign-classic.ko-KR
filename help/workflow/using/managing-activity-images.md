@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: ae8fc2b7-456b-481c-8abb-64dab1c22534
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 7%
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
    ![](assets/s_user_segmentation_properties_tab.png)
 
-   사용할 이미지를 선택하려면 필드 오른쪽에 있는 **[!UICONTROL Select link]** 아이콘을 클릭합니다 **[!UICONTROL Background image]** .
+   사용할 이미지를 선택하려면 필드 오른쪽에 있는 **[!UICONTROL Select link]** 아이콘을 **[!UICONTROL Background image]** 클릭합니다.
 
    >[!NOTE]
    >
@@ -40,7 +40,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 * 활동과 연관된 이미지를 변경하려면 개체를 두 번 클릭한 다음 **[!UICONTROL Advanced]** 탭을 클릭합니다.
 
-   사용할 이미지를 선택하려면 필드 오른쪽에 있는 **[!UICONTROL Select link]** 아이콘을 클릭합니다 **[!UICONTROL Image]** .
+   사용할 이미지를 선택하려면 필드 오른쪽에 있는 **[!UICONTROL Select link]** 아이콘을 **[!UICONTROL Image]** 클릭합니다.
 
    ![](assets/s_user_segmentation_activity_image.png)
 
@@ -50,7 +50,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 >[!NOTE]
 >
->트리의 **[!UICONTROL Administration > Configuration > Images]** 노드에 저장된 이미지를 선택할 수 있습니다.
+>트리 **[!UICONTROL Administration > Configuration > Images]** 노드에 저장된 이미지를 선택할 수 있습니다.
 >  
 >이미지는 48x48픽셀, 1,600만 색상 및 투명한 배경의 PNG 형식이어야 합니다.
 
