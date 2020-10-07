@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5e24d94a-f9c1-4642-a881-dfc4b5492f14
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a2cb740fe9b71435f602b738bd270fd3a0954901
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '6022'
+ht-degree: 0%
 
 ---
 
@@ -56,85 +56,88 @@ _operation (string), advanced (boolean), applableIf (string), autoIncrement(bool
 
 ### 속성 설명 {#attribute-description}
 
-* **_operation(문자열)**: 데이터베이스의 쓰기 유형을 정의합니다.
+* **_operation(문자열)**:데이터베이스의 쓰기 유형을 정의합니다.
 
    이 속성은 기본적으로 기본 스키마를 확장할 때 사용됩니다.
 
    액세스 가능한 값은 다음과 같습니다.
 
-   * &quot;none&quot;: 혼자서. 즉, Adobe Campaign이 요소를 업데이트하지 않고 복구하거나 오류가 없는 경우 오류가 생성됩니다.
-   * &quot;insertOrUpdate&quot;: 업데이트를 삽입하여 사용하십시오. 즉, Adobe Campaign에서 요소를 업데이트하거나 없는 경우 해당 요소를 만듭니다.
-   * &quot;삽입&quot;: 삽입. 즉, Adobe Campaign에서 요소의 존재 여부를 확인하지 않고 요소를 삽입합니다.
-   * &quot;업데이트&quot;: 업데이트. 즉, Adobe Campaign에서 요소를 업데이트하거나 오류가 발생한다는 의미입니다.
-   * &quot;삭제&quot;: 삭제. 즉, Adobe Campaign에서 요소를 복구 및 삭제합니다.
+   * &quot;none&quot;:혼자서. 즉, Adobe Campaign은 요소를 업데이트하지 않고 복구하거나 오류가 없는 경우 오류를 발생시킵니다.
+   * &quot;insertOrUpdate&quot;:업데이트를 삽입하여 사용하십시오. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않을 경우 요소를 만듭니다.
+   * &quot;삽입&quot;:삽입. 이것은 Adobe Campaign이 요소의 존재 여부를 확인하지 않고 요소를 삽입한다는 것을 의미합니다.
+   * &quot;업데이트&quot;:업데이트. 즉, Adobe Campaign에서 요소를 업데이트하거나 존재하지 않을 경우 오류를 생성합니다.
+   * &quot;삭제&quot;:삭제. 이는 Adobe Campaign이 요소를 복구하고 삭제할 것임을 의미합니다.
 
-* **고급(부울)**: 이 옵션을 활성화하면(@advanced=&quot;true&quot;) 양식에서 목록을 구성하기 위해 액세스할 수 있는 사용 가능한 필드 목록에서 속성을 숨길 수 있습니다.
-* **applicableIf (string)**: 이 속성을 사용하면 필드를 선택 사항으로 만들 수 있습니다. 제약 조건을 준수하면 데이터베이스를 업데이트할 때 `<attribute>` 요소가 고려됩니다. &quot;applableIf&quot;는 XTK 표현식을 받습니다.
-* **autoIncrement(부울)**: 이 옵션을 활성화하면 필드가 카운터가 됩니다. 이를 통해 값(대부분 ID)을 늘릴 수 있습니다. (외부 사용)
-* **containsTo (string)**: 필드를 공유하는 테이블의 이름과 네임스페이스를 가져와서 속성이 선언되는 스키마를 채웁니다. (a에서만 사용됨 `<schema>`).
-* **dataPolicy(문자열)**: SQL 또는 XML 필드에 허용되는 값에 대한 승인 제한을 지정할 수 있습니다. 이 속성의 값은 다음과 같습니다.
+* **고급(부울)**:이 옵션을 활성화하면(@advanced=&quot;true&quot;) 양식에서 목록을 구성하기 위해 액세스할 수 있는 사용 가능한 필드 목록에서 속성을 숨길 수 있습니다.
+* **applicableIf (string)**:이 속성을 사용하면 필드를 선택 사항으로 만들 수 있습니다. 제약 조건을 준수하면 데이터베이스를 업데이트할 때 `<attribute>` 요소가 고려됩니다. &quot;applableIf&quot;는 XTK 표현식을 받습니다.
+* **autoIncrement(부울)**:이 옵션을 활성화하면 필드가 카운터가 됩니다. 이를 통해 값(대부분 ID)을 늘릴 수 있습니다. (외부 사용)
+* **containsTo (string)**:필드를 공유하는 테이블의 이름과 네임스페이스를 가져와서 속성이 선언되는 스키마를 채웁니다. (a에서만 사용됨 `<schema>`).
+* **dataPolicy(문자열)**:SQL 또는 XML 필드에 허용되는 값에 대한 승인 제한을 지정할 수 있습니다. 이 속성의 값은 다음과 같습니다.
 
-   * &quot;none&quot;: 값 없음
-   * &quot;smartCase&quot;: 첫 글자 대문자
-   * &quot;lowerCase&quot;: 소문자
-   * &quot;upperCase&quot;: 모든 대문자
-   * &quot;이메일&quot;: 이메일 주소
-   * &quot;phone&quot;: 전화 번호
-   * &quot;identifier&quot;: 식별자 이름
-   * &quot;resIdentifier&quot;: 파일 이름
+   * &quot;none&quot;:값 없음
+   * &quot;smartCase&quot;:첫 글자 대문자
+   * &quot;lowerCase&quot;:소문자
+   * &quot;upperCase&quot;:모든 대문자
+   * &quot;이메일&quot;:이메일 주소
+   * &quot;phone&quot;:전화 번호
+   * &quot;identifier&quot;:식별자 이름
+   * &quot;resIdentifier&quot;:파일 이름
 
-* **dbEnum(문자열)**: 는 &quot;closed&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 `<srcschema>`
-* **defOnDuplicate(부울)**: 이 속성을 활성화하면 레코드가 중복되면(@default에 정의됨) 기본값이 자동으로 레코드에 다시 적용됩니다.
-* **default(string)**: 기본 필드의 값을 정의할 수 있습니다(함수 호출, 기본값). 이 속성은 XTK 표현식을 받습니다.
-* **desc(문자열)**: 속성 설명을 삽입할 수 있습니다. 이 설명은 인터페이스의 상태 표시줄에 표시됩니다.
-* **edit (string)**: 이 속성은 스키마에 연결된 양식에서 사용할 입력 유형을 지정합니다.
-* **enum(문자열)**: 은 필드에 연결된 열거형의 이름을 받습니다. 열거를 동일한 스키마나 원격 스키마에 삽입할 수 있습니다.
-* **expr(문자열)**: 필드 사전 계산 표현식을 정의합니다. 이 속성은 Xpath 또는 XTK 표현식을 받습니다.
-* **feature (string)**: 특성 필드를 정의합니다. 이러한 필드는 기존 테이블의 데이터를 확장하지만 부록 테이블의 저장과 함께 사용됩니다. 허용된 값은 다음과 같습니다.
+* **dbEnum(문자열)**:는 &quot;closed&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 `<srcschema>`
+* **defOnDuplicate(부울)**:이 속성을 활성화하면 레코드가 중복되면(@default에 정의됨) 기본값이 자동으로 레코드에 다시 적용됩니다.
+* **default(string)**:기본 필드의 값을 정의할 수 있습니다(함수 호출, 기본값). 이 속성은 XTK 표현식을 받습니다.
+* **desc(문자열)**:속성 설명을 삽입할 수 있습니다. 이 설명은 인터페이스의 상태 표시줄에 표시됩니다.
+* **edit (string)**:이 속성은 스키마에 연결된 양식에서 사용할 입력 유형을 지정합니다.
+* **enum(문자열)**:은 필드에 연결된 열거형의 이름을 받습니다. 열거를 동일한 스키마나 원격 스키마에 삽입할 수 있습니다.
+* **expr(문자열)**:필드 사전 계산 표현식을 정의합니다. 이 속성은 Xpath 또는 XTK 표현식을 받습니다.
+* **feature (string)**:특성 필드를 정의합니다.이러한 필드는 기존 테이블의 데이터를 확장하지만 부록 테이블의 저장과 함께 사용됩니다. 허용된 값은 다음과 같습니다.
 
-   * &quot;공유&quot;: 컨텐츠는 데이터 유형별로 공유 테이블에 저장됩니다
-   * &quot;전용&quot;: 컨텐츠는 전용 테이블에 저장됩니다.
+   * &quot;공유&quot;:컨텐츠는 데이터 유형별로 공유 테이블에 저장됩니다
+   * &quot;전용&quot;:컨텐츠는 전용 테이블에 저장됩니다.
+
    SQL 특성 테이블은 특성 유형에 따라 자동으로 만들어집니다.
 
    * 전용: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * 공유: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
-   두 가지 유형의 특성 필드가 있습니다. 특성이 여러 값이 포함될 수 있는 컬렉션 요소에 연결된 경우 단일 값이 특성에 대해 허가된 단순 다중 선택 필드 및 다중 선택 필드 다중 선택 필드
+
+   두 가지 유형의 특성 필드가 있습니다.특성이 여러 값이 포함될 수 있는 컬렉션 요소에 연결된 경우 단일 값이 특성에 대해 허가된 단순 다중 선택 필드 및 다중 선택 필드 다중 선택 필드
 
    스키마에서 특성이 정의되면 이 스키마에는 단일 필드를 기반으로 하는 기본 키가 있어야 합니다(복합 키는 인증되지 않음).
 
-* **featureDate(부울 값)**: 특성 &quot;@feature&quot; 특성 필드에 연결되어 있습니다. 값이 &quot;true&quot;이면 값이 마지막으로 업데이트된 시기를 알 수 있습니다.
-* **img(문자열)**: 필드에 연결된 이미지의 경로를 정의할 수 있습니다(네임스페이스 + 이미지 이름)(예: img=&quot;cus:mypicture.jpg&quot;). 실제 이미지는 애플리케이션 서버로 가져와야 합니다.
-* **label (string)**: 필드에 연결된 레이블로, 대부분 인터페이스에서 사용자에게 지정됨. 이를 통해 이름 지정 제한을 방지할 수 있습니다.
-* **length(문자열)**: max. &quot;문자열&quot; 유형 SQL 필드의 값에 대한 문자 수입니다. &quot;@length&quot; 속성이 지정되지 않은 경우 Adobe Campaign은 255자 필드를 자동으로 만듭니다.
-* **localable(boolean)**: 활성화되면 이 속성은 번역(내부 사용)을 위해 &quot;@label&quot; 속성의 값을 복구하도록 컬렉션 도구에 지시합니다.
-* **이름(MNTOKEN)**: 테이블의 필드 이름과 일치하는 속성의 이름입니다. &quot;@name&quot; 특성 값은 짧아야 하며, 특히 영어로 되어야 하며 XML 이름 지정 제한을 준수해야 합니다.
+* **featureDate(부울 값)**:특성 &quot;@feature&quot; 특성 필드에 연결되어 있습니다. 값이 &quot;true&quot;이면 값이 마지막으로 업데이트된 시기를 알 수 있습니다.
+* **img(문자열)**:필드에 연결된 이미지의 경로를 정의할 수 있습니다(네임스페이스 + 이미지 이름)(예:img=&quot;cus:mypicture.jpg&quot;). 실제 이미지는 애플리케이션 서버로 가져와야 합니다.
+* **label (string)**:필드에 연결된 레이블로, 대부분 인터페이스에서 사용자에게 지정됨. 이를 통해 이름 지정 제한을 방지할 수 있습니다.
+* **length(문자열)**:max. &quot;문자열&quot; 유형 SQL 필드의 값에 대한 문자 수입니다. &quot;@length&quot; 속성을 지정하지 않으면 Adobe Campaign은 255자 필드를 자동으로 만듭니다.
+* **localable(boolean)**:활성화되면 이 속성은 번역(내부 사용)을 위해 &quot;@label&quot; 속성의 값을 복구하도록 컬렉션 도구에 지시합니다.
+* **이름(MNTOKEN)**:테이블의 필드 이름과 일치하는 속성의 이름입니다. &quot;@name&quot; 특성 값은 짧아야 하며, 특히 영어로 되어야 하며 XML 이름 지정 제한을 준수해야 합니다.
 
-   스키마가 데이터베이스에 작성되면, 접두사는 Adobe Campaign을 통해 필드 이름에 자동으로 추가됩니다.
+   스키마가 데이터베이스에 작성되면, 접두사는 Adobe Campaign에 의해 필드 이름에 자동으로 추가됩니다.
 
-   * &quot;i&quot;: 접두사를 사용합니다.
-   * &quot;d&quot;: 접두사를 사용합니다.
-   * &quot;s&quot;: 접두사를 사용합니다.
-   * &quot;ts&quot;: 접두사를 사용합니다.
+   * &quot;i&quot;:접두사를 사용합니다.
+   * &quot;d&quot;:접두사를 사용합니다.
+   * &quot;s&quot;:접두사를 사용합니다.
+   * &quot;ts&quot;:접두사를 사용합니다.
+
    테이블의 필드 이름을 완전히 정의하려면 속성을 정의할 때 &quot;@sqlname&quot; 옵션을 사용합니다.
 
-* **notNull(부울)**: 데이터베이스의 NULL 레코드 관리와 관련된 Adobe Campaign의 동작을 재정의할 수 있습니다. 기본적으로 숫자 필드는 null이 아니며 문자열 및 날짜 유형 필드는 null일 수 있습니다.
-* **pkgStatus(문자열)**: 패키지 내보내기 동안 값은 &quot;@pkgStatus&quot;의 값에 따라 고려됩니다.
+* **notNull(부울)**:데이터베이스의 NULL 레코드 관리와 관련된 Adobe Campaign 동작을 재정의할 수 있습니다. 기본적으로 숫자 필드는 null이 아니며 문자열 및 날짜 유형 필드는 null일 수 있습니다.
+* **pkgStatus(문자열)**:패키지 내보내기 동안 값은 &quot;@pkgStatus&quot;의 값에 따라 고려됩니다.
 
-   * &quot;always&quot;: 항상
-   * &quot;never&quot;: 존재하지 않음
-   * &quot;default (or nothing)&quot;: 값이 기본값이거나 다른 인스턴스와 호환되지 않는 내부 필드가 아닌 경우를 제외하고 내보내집니다.
+   * &quot;always&quot;:항상
+   * &quot;never&quot;:존재하지 않음
+   * &quot;default (or nothing)&quot;:값이 기본값이거나 다른 인스턴스와 호환되지 않는 내부 필드가 아닌 경우를 제외하고 내보내집니다.
 
-* **ref(문자열)**: 이 속성은 여러 스키마가 공유하는 `<attribute>` 요소에 대한 참조를 정의합니다(정의 팩토링). 정의가 현재 스키마에 복사되지 않습니다.
-* **필수(부울 값)**: 이 속성이 활성화되면(@required=&quot;true&quot;) 인터페이스에 필드가 강조 표시됩니다. 필드의 레이블은 빨간색으로 표시됩니다.
-* **sql(부울)**: 이 특성이 활성화된 경우(@sql=&quot;true&quot;), 특성이 포함된 요소에 xml=&quot;true&quot; 속성이 있는 경우에도 SQL 속성의 저장소를 강제로 유지합니다.
-* **sqlDefault(문자열)**: 이 속성을 사용하면 @notNull 특성이 활성화된 경우 데이터베이스를 업데이트하는 데 고려되는 기본값을 정의할 수 있습니다. 속성 생성 후 이 속성을 추가하면 새 레코드에 대해서도 스키마 동작이 변경되지 않습니다. 스키마를 변경하고 새 레코드의 값을 업데이트하려면 속성을 삭제하고 다시 만들어야 합니다.
-* **sqlname(문자열)**: 을 클릭합니다. @sqlname이 지정되지 않은 경우 기본적으로 &quot;@name&quot; 속성의 값이 사용됩니다. 데이터베이스에 스키마를 작성할 때 접두사는 필드 유형에 따라 자동으로 추가됩니다.
-* **템플릿(문자열)**: 이 속성은 여러 스키마가 공유하는 `<attribute>` 요소에 대한 참조를 정의합니다. 정의가 현재 스키마에 자동으로 복사됩니다.
-* **translatedDefault(문자열)**: &quot;@default&quot; 특성이 있는 경우, &quot;@translatedDefault&quot;를 사용하면 번역 도구(내부 사용)에서 수집할 @default에 정의된 표현식과 일치하도록 표현식을 재정의할 수 있습니다.
-* **translatedExpr(문자열)**: &quot;@expr&quot; 특성이 있는 경우, &quot;@translatedExpr&quot; 속성을 사용하면 번역 도구(내부 사용)에서 수집할 표현식을 @expr에 정의된 표현식과 일치하도록 재정의할 수 있습니다.
-* **유형(MNTOKEN)**: 필드 유형.
+* **ref(문자열)**:이 속성은 여러 스키마가 공유하는 `<attribute>` 요소에 대한 참조를 정의합니다(정의 팩토링). 정의가 현재 스키마에 복사되지 않습니다.
+* **필수(부울 값)**:이 속성이 활성화되면(@required=&quot;true&quot;) 인터페이스에 필드가 강조 표시됩니다. 필드의 레이블은 빨간색으로 표시됩니다.
+* **sql(부울)**:이 특성이 활성화된 경우(@sql=&quot;true&quot;), 특성이 포함된 요소에 xml=&quot;true&quot; 속성이 있는 경우에도 SQL 속성의 저장소를 강제로 유지합니다.
+* **sqlDefault(문자열)**:이 속성을 사용하면 @notNull 특성이 활성화된 경우 데이터베이스를 업데이트하는 데 고려되는 기본값을 정의할 수 있습니다. 속성 생성 후 이 속성을 추가하면 새 레코드에 대해서도 스키마 동작이 변경되지 않습니다. 스키마를 변경하고 새 레코드의 값을 업데이트하려면 속성을 삭제하고 다시 만들어야 합니다.
+* **sqlname(문자열)**:을 클릭합니다. @sqlname이 지정되지 않은 경우 기본적으로 &quot;@name&quot; 속성의 값이 사용됩니다. 데이터베이스에 스키마를 작성할 때 접두사는 필드 유형에 따라 자동으로 추가됩니다.
+* **템플릿(문자열)**:이 속성은 여러 스키마가 공유하는 `<attribute>` 요소에 대한 참조를 정의합니다. 정의가 현재 스키마에 자동으로 복사됩니다.
+* **translatedDefault(문자열)**:&quot;@default&quot; 특성이 있는 경우, &quot;@translatedDefault&quot;를 사용하면 번역 도구(내부 사용)에서 수집할 @default에 정의된 표현식과 일치하도록 표현식을 재정의할 수 있습니다.
+* **translatedExpr(문자열)**:&quot;@expr&quot; 특성이 있는 경우, &quot;@translatedExpr&quot; 속성을 사용하면 번역 도구(내부 사용)에서 수집할 표현식을 @expr에 정의된 표현식과 일치하도록 재정의할 수 있습니다.
+* **유형(MNTOKEN)**:필드 유형.
 
-   필드 유형은 일반적입니다. 설치된 데이터베이스 유형에 따라 Adobe Campaign은 정의된 유형을 구조 업데이트 중에 설치된 데이터베이스 특정 값으로 변경합니다.
+   필드 유형은 일반적입니다. 설치된 데이터베이스 유형에 따라, Adobe Campaign은 정의된 유형을 구조 업데이트 중에 설치된 데이터베이스 고유의 값으로 변경합니다.
 
    사용 가능한 유형 목록:
 
@@ -161,21 +164,22 @@ _operation (string), advanced (boolean), applableIf (string), autoIncrement(bool
    * 기본 키
    * short
    * 문자열
-   * time
+   * 시간
    * timpan
    * uuid
-   &quot;@type&quot; 속성이 비어 있는 경우 Adobe Campaign은 기본적으로 길이가 100인 문자열(STRING)을 필드에 연결합니다.
+
+   &quot;@type&quot; 특성이 비어 있는 경우, 기본적으로 길이가 100인 문자열(STRING)을 필드에 연결합니다.
 
    필드가 STRING 유형이고 필드 이름이 &quot;@sqlname&quot; 특성이 있는 경우 데이터베이스의 필드 이름 앞에 &#39;s&#39;가 자동으로 표시됩니다. 이 운영 모드는 INTEGER(i), DOUBLE(d) 및 DATES(ts) 유형 필드와 유사합니다.
 
-* **userEnum(문자열)**: 은 &quot;open&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 인터페이스에서 사용자가 정의할 수 있습니다.
-* **visibleIf (string)**: 속성을 표시하거나 숨길 조건을 XTK 표현식 형태로 정의합니다.
+* **userEnum(문자열)**:은 &quot;open&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 인터페이스에서 사용자가 정의할 수 있습니다.
+* **visibleIf (string)**:속성을 표시하거나 숨길 조건을 XTK 표현식 형태로 정의합니다.
 
    >[!IMPORTANT]
    >
-   >속성은 숨겨지지만 해당 데이터는 계속 액세스할 수 있습니다.
+   >속성은 숨겨지지만 해당 데이터는 여전히 액세스할 수 있습니다.
 
-* **xml(부울)**: 이 옵션을 활성화하면 필드 값에 연결된 SQL 필드가 없습니다. Adobe Campaign은 레코드 저장을 위한 텍스트 유형 &quot;mData&quot; 필드를 만듭니다. 즉, 이러한 필드를 필터링하거나 정렬하지 않습니다.
+* **xml(부울)**:이 옵션을 활성화하면 필드 값에 연결된 SQL 필드가 없습니다. Adobe Campaign은 레코드 저장을 위한 텍스트 유형 &quot;mData&quot; 필드를 만듭니다. 즉, 이러한 필드를 필터링하거나 정렬하지 않습니다.
 
 ### 예제 {#examples}
 
@@ -199,7 +203,7 @@ _operation (string), advanced (boolean), applableIf (string), autoIncrement(bool
      length="32" name="mobilePhone" sqlname="sMobilePhone" type="string"/>
 ```
 
-예: &quot;@applicableIf&quot; &quot;contains&quot; 속성은 국가 수가 20개 이상인 경우에만 생성됩니다.
+예: &quot;@applicableIf&quot;&quot;contains&quot; 속성은 국가 수가 20개 이상인 경우에만 생성됩니다.
 
 ```
 <attribute length="100" name="Continent" type="string" applicableIf="@country > 20"/>
@@ -247,7 +251,7 @@ compute-string:==EMPTY
 
 ### 속성 설명 {#attribute-description-1}
 
-* **expr(문자열)**: XTK 및/또는 Xpath 표현식
+* **expr(문자열)**:XTK 및/또는 Xpath 표현식
 
 ### 예제 {#examples-1}
 
@@ -256,7 +260,7 @@ compute-string:==EMPTY
 <compute-string expr="ToString([@centralCatalog-id]) + ',' + ToString([@localOrgUnit-id])" />
 ```
 
-수신자에 대해 계산된 문자열의 결과: &quot;John Doe (john.doe@aol.com)&quot;:
+수신자에 대해 계산된 문자열의 결과:&quot;John Doe (john.doe@aol.com)&quot;:
 
 ```
 <element name="recipient">
@@ -296,9 +300,9 @@ compute-string:==EMPTY
 
 ### 속성 설명 {#attribute-description-2}
 
-* **boolOperator(문자열)**: 여러 개 `<conditions>` 가 동일한 `<sysfilter>` 요소 내에 정의된 경우 이 속성을 사용하여 여러 요소를 결합할 수 있습니다. 기본적으로 논리 링크는 &quot;AND&quot; `<condition>` 입니다. &quot;@boolOperator&quot; 속성을 사용하여 &quot;OR&quot; 및 &quot;AND&quot; 유형 링크를 결합할 수 있습니다.
-* **enabledIf(문자열)**: 조건 활성화 테스트.
-* **expr(문자열)**: XTK 표현식입니다.
+* **boolOperator(문자열)**:여러 개 `<conditions>` 가 동일한 `<sysfilter>` 요소 내에 정의된 경우 이 속성을 사용하여 여러 요소를 결합할 수 있습니다. 기본적으로 논리 링크는 &quot;AND&quot; `<condition>` 입니다. &quot;@boolOperator&quot; 속성을 사용하여 &quot;OR&quot; 및 &quot;AND&quot; 유형 링크를 결합할 수 있습니다.
+* **enabledIf(문자열)**:조건 활성화 테스트.
+* **expr(문자열)**:XTK 표현식입니다.
 
 ### 예제 {#examples-2}
 
@@ -340,26 +344,26 @@ dbindex:==keyfield
 
 한 요소에 정의된 `<keyfield>` 요소의 순서가 `<dbindex>` 매우 중요합니다. 첫 번째 `<keyfield>` 는 쿼리가 주로 기반으로 하는 색인 기준이어야 합니다.
 
-데이터베이스의 인덱스 이름은 테이블 이름과 인덱스 이름을 연결하여 계산됩니다. 예: 인덱스 생성 쿼리 중 테이블 이름 &quot;Sample&quot;, 네임스페이스 &quot;Cus&quot;, 인덱스 이름 &quot;MyIndex&quot;-> 인덱스 필드의 이름입니다. &quot;CusSample_myIndex&quot;.
+데이터베이스의 인덱스 이름은 테이블 이름과 인덱스 이름을 연결하여 계산됩니다. 예:인덱스 생성 쿼리 중 테이블 이름 &quot;Sample&quot;, 네임스페이스 &quot;Cus&quot;, 인덱스 이름 &quot;MyIndex&quot;-> 인덱스 필드의 이름입니다.&quot;CusSample_myIndex&quot;.
 
 ### 속성 설명 {#attribute-description-3}
 
-* **_operation(문자열)**: 데이터베이스의 쓰기 유형을 정의합니다.
+* **_operation(문자열)**:데이터베이스의 쓰기 유형을 정의합니다.
 
    이 속성은 기본적으로 기본 스키마를 확장할 때 사용됩니다.
 
    액세스 가능한 값은 다음과 같습니다.
 
-   * &quot;none&quot;: 혼자서. 즉, Adobe Campaign이 요소를 업데이트하지 않고 복구하거나 오류가 없는 경우 오류가 생성됩니다.
-   * &quot;insertOrUpdate&quot;: 업데이트를 삽입하여 사용하십시오. 즉, Adobe Campaign에서 요소를 업데이트하거나 없는 경우 해당 요소를 만듭니다.
-   * &quot;삽입&quot;: 삽입. 즉, Adobe Campaign에서 요소의 존재 여부를 확인하지 않고 요소를 삽입합니다.
-   * &quot;업데이트&quot;: 업데이트. 즉, Adobe Campaign에서 요소를 업데이트하거나 오류가 발생한다는 의미입니다.
-   * &quot;삭제&quot;: 삭제. 즉, Adobe Campaign에서 요소를 복구 및 삭제합니다.
+   * &quot;none&quot;:혼자서. 즉, Adobe Campaign은 요소를 업데이트하지 않고 복구하거나 오류가 없는 경우 오류를 발생시킵니다.
+   * &quot;insertOrUpdate&quot;:업데이트를 삽입하여 사용하십시오. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않을 경우 요소를 만듭니다.
+   * &quot;삽입&quot;:삽입. 이것은 Adobe Campaign이 요소의 존재 여부를 확인하지 않고 요소를 삽입한다는 것을 의미합니다.
+   * &quot;업데이트&quot;:업데이트. 즉, Adobe Campaign에서 요소를 업데이트하거나 존재하지 않을 경우 오류를 생성합니다.
+   * &quot;삭제&quot;:삭제. 이는 Adobe Campaign이 요소를 복구하고 삭제할 것임을 의미합니다.
 
-* **applicableIf (string)**: 색인을 고려하는 조건 - XTK 표현식을 받습니다.
-* **label (string)**: 색인 레이블.
-* **이름(MNTOKEN)**: 고유 색인 이름.
-* **unique(boolean)**: 이 옵션을 활성화하면(@unique=&quot;true&quot;) 속성이 해당 필드 전체에서 색인의 고유성을 보장합니다.
+* **applicableIf (string)**:색인을 고려하는 조건 - XTK 표현식을 받습니다.
+* **label (string)**:색인 레이블.
+* **이름(MNTOKEN)**:고유 색인 이름.
+* **unique(boolean)**:이 옵션을 활성화하면(@unique=&quot;true&quot;) 속성이 해당 필드 전체에서 색인의 고유성을 보장합니다.
 
 ### 예제 {#examples-3}
 
@@ -431,130 +435,134 @@ _operation (string), advanced (boolean), aggregate (string), applableIf (string)
 
 ### 설명 {#description-4}
 
-Adobe Campaign에는 다음 네 가지 유형의 `<element>` 요소가 있습니다.
+Adobe Campaign에는 4가지 유형의 `<element>` 요소가 있습니다.
 
-* 루트 `<element>` : 스키마와 일치하는 SQL 테이블의 이름을 정의합니다.
-* 구조 `<element>` : 의 `<element>` 또는 `<attribute>` 요소 그룹을 정의합니다.
-* 링크 `<element>` : 링크를 정의합니다. 이 요소에는 &quot;@type=link&quot; 특성이 포함되어야 합니다.
-* XML `<element>` : 텍스트 유형 &quot;mData&quot; 필드를 정의합니다. 이 요소에는 &quot;@type=xml&quot; 특성이 포함되어야 합니다.
+* 루트 `<element>` :스키마와 일치하는 SQL 테이블의 이름을 정의합니다.
+* 구조 `<element>` :의 `<element>` 또는 `<attribute>` 요소 그룹을 정의합니다.
+* 링크 `<element>` :링크를 정의합니다. 이 요소에는 &quot;@type=link&quot; 특성이 포함되어야 합니다.
+* XML `<element>` :텍스트 유형 &quot;mData&quot; 필드를 정의합니다. 이 요소에는 &quot;@type=xml&quot; 특성이 포함되어야 합니다.
 
 ### 속성 설명 {#attribute-description-4}
 
-* **_operation(문자열)**: 데이터베이스의 쓰기 유형을 정의합니다.
+* **_operation(문자열)**:데이터베이스의 쓰기 유형을 정의합니다.
 
    이 속성은 기본적으로 기본 스키마를 확장할 때 사용됩니다.
 
    액세스 가능한 값은 다음과 같습니다.
 
-   * &quot;none&quot;: 혼자서. 즉, Adobe Campaign이 요소를 업데이트하지 않고 복구하거나 오류가 없는 경우 오류가 생성됩니다.
-   * &quot;insertOrUpdate&quot;: 업데이트를 삽입하여 사용하십시오. 즉, Adobe Campaign에서 요소를 업데이트하거나 없는 경우 해당 요소를 만듭니다.
-   * &quot;삽입&quot;: 삽입. 즉, Adobe Campaign에서 요소의 존재 여부를 확인하지 않고 요소를 삽입합니다.
-   * &quot;업데이트&quot;: 업데이트. 즉, Adobe Campaign에서 요소를 업데이트하거나 오류가 발생한다는 의미입니다.
-   * &quot;삭제&quot;: 삭제. 즉, Adobe Campaign에서 요소를 복구 및 삭제합니다.
+   * &quot;none&quot;:혼자서. 즉, Adobe Campaign은 요소를 업데이트하지 않고 복구하거나 오류가 없는 경우 오류를 발생시킵니다.
+   * &quot;insertOrUpdate&quot;:업데이트를 삽입하여 사용하십시오. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않을 경우 요소를 만듭니다.
+   * &quot;삽입&quot;:삽입. 이것은 Adobe Campaign이 요소의 존재 여부를 확인하지 않고 요소를 삽입한다는 것을 의미합니다.
+   * &quot;업데이트&quot;:업데이트. 즉, Adobe Campaign에서 요소를 업데이트하거나 존재하지 않을 경우 오류를 생성합니다.
+   * &quot;삭제&quot;:삭제. 이는 Adobe Campaign이 요소를 복구하고 삭제할 것임을 의미합니다.
 
-* **고급(부울)**: 이 옵션을 활성화하면(@advanced=&quot;true&quot;) 양식에서 목록을 구성하기 위해 액세스할 수 있는 사용 가능한 필드 목록에서 속성을 숨길 수 있습니다.
-* **aggregate (string)**: 다른 스키마를 통해 정의 `<element>` 를 복사할 수 있습니다. 이 속성은 &quot;namespace:name&quot; 형식의 스키마 선언을 받습니다.
-* **applicableIf (string)**: 조건을 참조하십시오. 이 속성은 XTK 표현식을 받습니다.
-* **자동(부울)**: 이 옵션을 활성화하면(autok=&quot;true&quot;) 고유 키가 자동으로 정의됩니다. 이 옵션은 스키마의 주 요소에서만 사용할 수 있습니다. 경고, Adobe Campaign은 생성된 키가 고유함을 보장만 합니다. 키 값이 연속되거나 증가한다는 것은 보장되지 않습니다.
-* **dataPolicy(문자열)**: SQL 필드에 허용되는 값에 대한 승인 제약 조건을 지정할 수 있습니다. 이 속성의 값은 다음과 같습니다.
+* **고급(부울)**:이 옵션을 활성화하면(@advanced=&quot;true&quot;) 양식에서 목록을 구성하기 위해 액세스할 수 있는 사용 가능한 필드 목록에서 속성을 숨길 수 있습니다.
+* **aggregate (string)**:다른 스키마를 통해 정의 `<element>` 를 복사할 수 있습니다. 이 속성은 &quot;namespace:name&quot; 형식의 스키마 선언을 받습니다.
+* **applicableIf (string)**:조건을 참조하십시오. 이 속성은 XTK 표현식을 받습니다.
+* **자동(부울)**:이 옵션을 활성화하면(autok=&quot;true&quot;) 고유 키가 자동으로 정의됩니다. 이 옵션은 스키마의 주 요소에서만 사용할 수 있습니다. Adobe Campaign은 생성된 키가 고유하다는 보장만 합니다. 키 값이 연속되거나 증가한다는 것은 보장되지 않습니다.
+* **dataPolicy(문자열)**:SQL 필드에 허용되는 값에 대한 승인 제약 조건을 지정할 수 있습니다. 이 속성의 값은 다음과 같습니다.
 
-   * &quot;none&quot;: 값 없음
-   * &quot;smartCase&quot;: 첫 글자 대문자
-   * &quot;lowerCase&quot;: 소문자
-   * &quot;upperCase&quot;: 모든 대문자
-   * &quot;이메일&quot;: 이메일 주소
-   * &quot;phone&quot;: 전화 번호
-   * &quot;identifier&quot;: 식별자 이름
-   * &quot;resIdentifier&quot;: 파일 이름
+   * &quot;none&quot;:값 없음
+   * &quot;smartCase&quot;:첫 글자 대문자
+   * &quot;lowerCase&quot;:소문자
+   * &quot;upperCase&quot;:모든 대문자
+   * &quot;이메일&quot;:이메일 주소
+   * &quot;phone&quot;:전화 번호
+   * &quot;identifier&quot;:식별자 이름
+   * &quot;resIdentifier&quot;:파일 이름
 
-* **dbEnum(문자열)**: 는 &quot;closed&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 `<srcschema>`
-* **defOnDuplicate(부울)**: 이 속성을 활성화하면 레코드가 중복되면(@default에 정의됨) 기본값이 자동으로 레코드에 다시 적용됩니다.
-* **default(string)**: 요소 동작을 정의할 수 있습니다(함수 호출, 기본값). 이 속성은 XTK 표현식을 받습니다.
-* **desc(문자열)**: 요소의 설명을 삽입할 수 있습니다. 이 설명은 인터페이스의 상태 표시줄에 표시됩니다.
-* **displayAsField(부울)**: 이 속성이 활성화되면 &quot;링크&quot; 유형이 스키마의 트리 보기에 필드로 `<element>` 표시됩니다(&quot;구조&quot; 탭). 이렇게 하면 링크를 로컬 필드로 표시하고 쿼리 도중 동작을 변경할 수 있습니다. 쿼리의 SELECT에서 요소가 발견되면 링크 대상의 값이 사용됩니다. 쿼리의 WHERE에 요소가 있으면 링크의 기본 키가 사용됩니다.
-* **edit (string)**: 이 속성은 스키마에 연결된 양식에서 사용할 입력 유형을 지정합니다.
-* **enum(문자열)**: 은 필드에 연결된 열거형의 이름을 받습니다. 열거를 동일한 스키마나 원격 스키마에 삽입할 수 있습니다.
-* **expr(문자열)**: 이 속성은 테이블에 정의가 저장되지 않는 계산된 필드를 정의합니다. Xpath 또는 XTK(문자열) 표현식을 수신합니다.
-* **externalJoin(부울)**: &quot;링크&quot; 유형 요소의 외부 조인.
-* **feature (string)**: 특성 필드를 정의합니다. 이러한 필드는 기존 테이블의 데이터를 확장하지만 부록 테이블의 저장과 함께 사용됩니다. 허용된 값은 다음과 같습니다.
+* **dbEnum(문자열)**:는 &quot;closed&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 `<srcschema>`
+* **defOnDuplicate(부울)**:이 속성을 활성화하면 레코드가 중복되면(@default에 정의됨) 기본값이 자동으로 레코드에 다시 적용됩니다.
+* **default(string)**:요소 동작을 정의할 수 있습니다(함수 호출, 기본값). 이 속성은 XTK 표현식을 받습니다.
+* **desc(문자열)**:요소의 설명을 삽입할 수 있습니다. 이 설명은 인터페이스의 상태 표시줄에 표시됩니다.
+* **displayAsField(부울)**:이 속성이 활성화되면 &quot;링크&quot; 유형이 스키마의 트리 보기에 필드로 `<element>` 표시됩니다(&quot;구조&quot; 탭). 이렇게 하면 링크를 로컬 필드로 표시하고 쿼리 도중 동작을 변경할 수 있습니다. 쿼리의 SELECT에서 요소가 발견되면 링크 대상의 값이 사용됩니다. 쿼리의 WHERE에 요소가 있으면 링크의 기본 키가 사용됩니다.
+* **edit (string)**:이 속성은 스키마에 연결된 양식에서 사용할 입력 유형을 지정합니다.
+* **enum(문자열)**:은 필드에 연결된 열거형의 이름을 받습니다. 열거를 동일한 스키마나 원격 스키마에 삽입할 수 있습니다.
+* **expr(문자열)**:이 속성은 테이블에 정의가 저장되지 않는 계산된 필드를 정의합니다. Xpath 또는 XTK(문자열) 표현식을 수신합니다.
+* **externalJoin(부울)**:&quot;링크&quot; 유형 요소의 외부 조인.
+* **feature (string)**:특성 필드를 정의합니다.이러한 필드는 기존 테이블의 데이터를 확장하지만 부록 테이블의 저장과 함께 사용됩니다. 허용된 값은 다음과 같습니다.
 
-   * &quot;공유&quot;: 컨텐츠는 데이터 유형별로 공유 테이블에 저장됩니다
-   * &quot;전용&quot;: 컨텐츠는 전용 테이블에 저장됩니다.
+   * &quot;공유&quot;:컨텐츠는 데이터 유형별로 공유 테이블에 저장됩니다
+   * &quot;전용&quot;:컨텐츠는 전용 테이블에 저장됩니다.
+
    SQL 특성 테이블은 특성 유형에 따라 자동으로 만들어집니다.
 
    * 전용: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * 공유: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
-   두 가지 유형의 특성 필드가 있습니다. 특성에 대해 단일 값이 인증되는 단순 필드 및 여러 값이 포함될 수 있는 컬렉션 요소에 특성이 연결되어 있는 객관식 필드
+
+   두 가지 유형의 특성 필드가 있습니다.특성에 대해 단일 값이 인증되는 단순 필드 및 여러 값이 포함될 수 있는 컬렉션 요소에 특성이 연결되어 있는 객관식 필드
 
    스키마에서 특성이 정의되면 이 스키마에는 단일 필드를 기반으로 하는 기본 키가 있어야 합니다(복합 키는 인증되지 않음).
 
-* **featureDate(부울 값)**: 특성 &quot;@feature&quot; 특성 필드에 연결되어 있습니다. 값이 &quot;true&quot;이면 값이 마지막으로 업데이트된 시기를 알 수 있습니다.
-* **filterPath(문자열)**: 이 속성은 Xpath를 받고 필드에 필터를 정의할 수 있도록 해줍니다.
-* **folderLink(문자열)**: 이 속성은 엔티티가 포함된 파일을 복구할 수 있는 링크의 이름을 받습니다.
-* **folderModel(문자열)**: 엔티티 저장소를 사용할 수 있는 폴더 유형을 정의합니다. 이 속성은 &quot;@folderLink&quot;가 있는 경우에만 정의됩니다.
-* **folderProcess(문자열)**: 엔티티 모델 인스턴스가 저장되는 링크를 정의합니다. 이 속성은 &quot;@folderLink&quot;가 있는 경우에만 정의됩니다.
-* **fullLoad(부울)**: 이 속성은 양식에서 필드를 선택하는 동안 테이블에 있는 모든 레코드를 강제로 표시합니다.
-* **img(문자열)**: 는 요소에 연결된 이미지의 경로를 받습니다. 이 속성의 값은 &quot;namespace:image name&quot; 형식입니다. 예: img=&quot;cus:myImage.jpg&quot;. 실제 이미지는 애플리케이션 서버로 가져와야 합니다.
-* **integrity (string)**: 대상 테이블을 향한 소스 테이블 발생에 대한 참조 무결성
+* **featureDate(부울 값)**:특성 &quot;@feature&quot; 특성 필드에 연결되어 있습니다. 값이 &quot;true&quot;이면 값이 마지막으로 업데이트된 시기를 알 수 있습니다.
+* **filterPath(문자열)**:이 속성은 Xpath를 받고 필드에 필터를 정의할 수 있도록 해줍니다.
+* **folderLink(문자열)**:이 속성은 엔티티가 포함된 파일을 복구할 수 있는 링크의 이름을 받습니다.
+* **folderModel(문자열)**:엔티티 저장소를 사용할 수 있는 폴더 유형을 정의합니다. 이 속성은 &quot;@folderLink&quot;가 있는 경우에만 정의됩니다.
+* **folderProcess(문자열)**:엔티티 모델 인스턴스가 저장되는 링크를 정의합니다. 이 속성은 &quot;@folderLink&quot;가 있는 경우에만 정의됩니다.
+* **fullLoad(부울)**:이 속성은 양식에서 필드를 선택하는 동안 테이블에 있는 모든 레코드를 강제로 표시합니다.
+* **img(문자열)**:는 요소에 연결된 이미지의 경로를 받습니다. 이 속성의 값은 &quot;namespace:image name&quot; 형식입니다. 예:img=&quot;cus:myImage.jpg&quot;. 실제 이미지는 애플리케이션 서버로 가져와야 합니다.
+* **integrity (string)**:대상 테이블을 향한 소스 테이블 발생에 대한 참조 무결성
 
    액세스 가능한 값은 다음과 같습니다.
 
-   * &quot;define&quot;: 링크를 통해 참조되는 경우 Adobe Campaign은 엔티티를 삭제하지 않습니다
-   * &quot;normal&quot;: 소스 발생을 삭제하면 대상 발생 시 링크의 키가 초기화됩니다(기본 모드). 이 무결성 유형은 모든 외래 키를 초기화합니다
-   * &quot;소유&quot;: 소스 항목 삭제로 대상 발생 삭제
-   * &quot;owncopy&quot;: &quot;소유&quot;(삭제의 경우)와 유사하거나 중복된 항목(중복의 경우)과 유사함
-   * &quot;중립&quot;: 아무것도 하지 않음
+   * &quot;define&quot;:Adobe Campaign은 링크를 통해 참조되는 경우 엔티티를 삭제하지 않습니다
+   * &quot;normal&quot;:소스 발생을 삭제하면 대상 발생 시 링크의 키가 초기화됩니다(기본 모드). 이 무결성 유형은 모든 외래 키를 초기화합니다
+   * &quot;소유&quot;:소스 항목 삭제로 대상 발생 삭제
+   * &quot;owncopy&quot;:&quot;소유&quot;(삭제의 경우)와 유사하거나 중복된 항목(중복의 경우)과 유사함
+   * &quot;중립&quot;:아무것도 하지 않음
 
-* **label (string)**: 요소 레이블입니다.
-* **labelSingular(문자열)**: 인터페이스의 일부 부분에 사용되는 요소의 레이블(단일 형식)입니다.
-* **length(문자열)**: max. &quot;문자열&quot; 유형 SQL 필드의 값에 대해 권한이 부여된 문자 수입니다.
-* **localable(boolean)**: 활성화되면 이 속성은 번역(내부 사용)을 위해 &quot;@label&quot; 속성의 값을 복구하도록 컬렉션 도구에 지시합니다.
-* **이름(MNTOKEN)**: 테이블 이름과 일치하는 요소의 내부 이름입니다. &quot;@name&quot; 특성 값은 짧아야 하며, 영어로만 사용할 수 있으며, XML에 연결된 이름 지정 제한을 준수해야 합니다.
+* **label (string)**:요소 레이블입니다.
+* **labelSingular(문자열)**:인터페이스의 일부 부분에 사용되는 요소의 레이블(단일 형식)입니다.
+* **length(문자열)**:max. &quot;문자열&quot; 유형 SQL 필드의 값에 대해 권한이 부여된 문자 수입니다.
+* **localable(boolean)**:활성화되면 이 속성은 번역(내부 사용)을 위해 &quot;@label&quot; 속성의 값을 복구하도록 컬렉션 도구에 지시합니다.
+* **이름(MNTOKEN)**:테이블 이름과 일치하는 요소의 내부 이름입니다. &quot;@name&quot; 특성 값은 짧아야 하며, 영어로만 사용할 수 있으며, XML에 연결된 이름 지정 제한을 준수해야 합니다.
 
-   스키마가 데이터베이스에 작성되면 접두사는 Adobe Campaign을 통해 필드 이름에 자동으로 추가됩니다.
+   스키마가 데이터베이스에 작성되면 접두사는 Adobe Campaign이 필드 이름에 자동으로 추가됩니다.
 
-   * &quot;i&quot;: 접두사를 사용합니다.
-   * &quot;d&quot;: 접두사를 사용합니다.
-   * &quot;s&quot;: 접두사를 사용합니다.
-   * &quot;ts&quot;: 접두사를 사용합니다.
+   * &quot;i&quot;:접두사를 사용합니다.
+   * &quot;d&quot;:접두사를 사용합니다.
+   * &quot;s&quot;:접두사를 사용합니다.
+   * &quot;ts&quot;:접두사를 사용합니다.
+
    테이블 이름을 자율적 방식으로 정의하려면 주 스키마 요소의 정의에 &quot;@sqltable&quot; 특성을 사용해야 합니다.
 
-* **noDbIndex(부울)**: 요소를 인덱싱하지 않도록 지정할 수 있습니다.
-* **ordered(boolean)**: 속성이 활성화된 경우(ordered=&quot;true&quot;) Adobe Campaign은 요소 선언 시퀀스를 XML 컬렉션 요소에 유지합니다.
-* **pkSequence(문자열)**: 은 자동 증분 키를 계산하는 데 사용할 시퀀스의 이름을 받습니다. 이 속성은 스키마의 루트 요소에 자동 증분 키가 정의된 경우에만 사용할 수 있습니다.
-* **pkgStatus(문자열)**: 패키지 내보내기 동안 값은 이 속성의 값 기능으로 고려됩니다.
+* **noDbIndex(부울)**:요소를 인덱싱하지 않도록 지정할 수 있습니다.
+* **ordered(boolean)**:속성이 활성화되면(ordered=&quot;true&quot;) Adobe Campaign은 요소 선언 시퀀스를 XML 컬렉션 요소에 유지합니다.
+* **pkSequence(문자열)**:은 자동 증분 키를 계산하는 데 사용할 시퀀스의 이름을 받습니다. 이 속성은 스키마의 루트 요소에 자동 증분 키가 정의된 경우에만 사용할 수 있습니다.
+* **pkgStatus(문자열)**:패키지 내보내기 동안 값은 이 속성의 값 기능으로 고려됩니다.
 
-   * &quot;always&quot;: 요소는 항상 있습니다.
-   * &quot;never&quot;: 요소는 절대 존재하지 않습니다.
-   * &quot;default (or nothing)&quot;: 요소가 기본 요소이거나 내부 필드가 아니며 다른 인스턴스와 호환되지 않을 경우 요소를 내보냅니다
+   * &quot;always&quot;:요소는 항상 있습니다.
+   * &quot;never&quot;:요소는 절대 존재하지 않습니다.
+   * &quot;default (or nothing)&quot;:요소가 기본 요소이거나 내부 필드가 아니며 다른 인스턴스와 호환되지 않을 경우 요소를 내보냅니다
 
-* **ref(문자열)**: 이 속성은 여러 스키마가 공유하는 >element> 요소에 대한 참조를 정의합니다(정의 팩토링). 정의가 현재 스키마에 복사되지 않습니다.
-* **필수(부울 값)**: 이 속성이 활성화되면(@required=&quot;true&quot;) 인터페이스에 필드가 강조 표시됩니다. 필드의 레이블은 빨간색으로 표시됩니다.
-* **revAdvanced(부울)**: 활성화되면 이 속성은 반대 링크가 &quot;고급&quot; 링크임을 지정합니다.
-* **revCardinality(문자열)**: 이 속성은 두 테이블 간의 링크의 카디널리티를 정의합니다. &quot;링크&quot; 유형에 사용됩니다 `<element>`.
+* **ref(문자열)**:이 속성은 여러 스키마가 공유하는 >element> 요소에 대한 참조를 정의합니다(정의 팩토링). 정의가 현재 스키마에 복사되지 않습니다.
+* **필수(부울 값)**:이 속성이 활성화되면(@required=&quot;true&quot;) 인터페이스에 필드가 강조 표시됩니다. 필드의 레이블은 빨간색으로 표시됩니다.
+* **revAdvanced(부울)**:활성화되면 이 속성은 반대 링크가 &quot;고급&quot; 링크임을 지정합니다.
+* **revCardinality(문자열)**:이 속성은 두 테이블 간의 링크의 카디널리티를 정의합니다. &quot;링크&quot; 유형에 사용됩니다 `<element>`.
 
    가능한 값은 다음과 같습니다.
 
-   * &quot;single&quot; : 간단한 1-1 문자 링크
-   * &quot;언바운드&quot;: 1-N 유형 컬렉션 링크
+   * &quot;single&quot; :간단한 1-1 문자 링크
+   * &quot;언바운드&quot;:1-N 유형 컬렉션 링크
+
    기본적으로 링크를 만드는 동안 속성이 지정되지 않으면 카디널리티는 1-N이 됩니다.
 
-* **revDesc(문자열)**: 이 속성은 반대 링크에 연결된 설명을 받습니다.
-* **revExternalJoin(부울)**: 이 속성을 활성화하면 반대 링크에 대해 외부 조인을 강제 적용할 수 있습니다.
-* **revIntegrity(문자열)**: 이 속성은 대상 스키마의 무결성을 정의합니다. &quot;@integrity&quot; 속성과 동일한 값이 인증되었습니다. 기본적으로 Adobe Campaign은 이 속성에 &quot;일반&quot; 값을 제공합니다.
-* **revLabel(문자열)**: 레이블.
-* **revLink(문자열)**: 상대 링크의 이름입니다. 값이 &quot;_NONE_&quot;이면 대상 스키마에 반대 링크가 만들어지지 않습니다.
-* **revTarget(문자열)**: 의 대상이 됩니다.
-* **sql(부울)**: 이 특성이 활성화된 경우(@sql=&quot;true&quot;) 요소에 xml=&quot;true&quot; 속성이 있더라도 SQL 요소의 저장소를 강제로 유지합니다.
-* **sqlname(문자열)**: 테이블을 만드는 동안 필드의 이름입니다. &quot;@sqlname&quot;을(를) 지정하지 않으면 기본적으로 &quot;@name&quot; 속성의 값이 사용됩니다. 스키마를 테이블에 쓸 때, 접두사는 필드 유형에 따라 자동으로 추가됩니다.
-* **sqltable(문자열)**: 스키마의 주 요소에 대해 이 속성은 기본적으로 생성된 SQL 테이블의 이름을 오버로드합니다. &quot;@sqltable&quot;을(를) 지정하지 않으면 기본 이름이 다음과 같이 구조화됩니다. namespace(첫 번째 문자 대문자) 뒤에 SrcSchema &quot;@name&quot;의 값이 옵니다.
-* **tableSpace(문자열)**: 이 속성을 사용하면 테이블에 대해 테이블스페이스를 저장하는 새 데이터를 지정할 수 있습니다(루트에서 유효) `<element>`.
-* **tableSpaceIndex(문자열)**: 이 속성을 사용하면 테이블에 대한 새 인덱스 저장 공간 테이블스페이스를 지정할 수 있습니다(루트에서 유효). `<element>`
-* **target(MNTOKEN)**: 는 테이블 간 링크를 만들 때 대상 스키마의 이름을 받습니다. 이 속성은 &quot;링크&quot; 유형 요소에만 활성화됩니다.
-* **템플릿(문자열)**: 이 속성은 여러 스키마가 공유하는 `<element>` 요소에 대한 참조를 정의합니다. 정의가 현재 스키마에 자동으로 복사됩니다.
-* **translatedDefault(문자열)**: &quot;@default&quot; 특성이 있는 경우, &quot;@translatedDefault&quot;를 사용하면 번역 도구(내부 사용)에서 수집할 @default에 정의된 표현식과 일치하도록 표현식을 재정의할 수 있습니다.
-* **translatedExpr(문자열)**: &quot;@expr&quot; 특성이 있는 경우 &quot;@translatedExpr&quot; 특성을 사용하면 &quot;@expr&quot;에 정의된 표현식과 일치하는 표현식을 재정의할 수 있으며, 이러한 표현식은 번역 도구(내부 사용)에 의해 수집됩니다.
-* **유형(MNTOKEN)**: 요소에 저장된 데이터의 유형을 정의합니다.
+* **revDesc(문자열)**:이 속성은 반대 링크에 연결된 설명을 받습니다.
+* **revExternalJoin(부울)**:이 속성을 활성화하면 반대 링크에 대해 외부 조인을 강제 적용할 수 있습니다.
+* **revIntegrity(문자열)**:이 속성은 대상 스키마의 무결성을 정의합니다. &quot;@integrity&quot; 속성과 동일한 값이 인증되었습니다. 기본적으로 Adobe Campaign은 이 속성에 &quot;normal&quot; 값을 제공합니다.
+* **revLabel(문자열)**:레이블.
+* **revLink(문자열)**:상대 링크의 이름입니다. 값이 &quot;_NONE_&quot;이면 대상 스키마에 반대 링크가 만들어지지 않습니다.
+* **revTarget(문자열)**:의 대상이 됩니다.
+* **sql(부울)**:이 특성이 활성화된 경우(@sql=&quot;true&quot;) 요소에 xml=&quot;true&quot; 속성이 있더라도 SQL 요소의 저장소를 강제로 유지합니다.
+* **sqlname(문자열)**:테이블을 만드는 동안 필드의 이름입니다. &quot;@sqlname&quot;을(를) 지정하지 않으면 기본적으로 &quot;@name&quot; 속성의 값이 사용됩니다. 스키마를 테이블에 쓸 때, 접두사는 필드 유형에 따라 자동으로 추가됩니다.
+* **sqltable(문자열)**:스키마의 주 요소에 대해 이 속성은 기본적으로 생성된 SQL 테이블의 이름을 오버로드합니다. &quot;@sqltable&quot;을(를) 지정하지 않으면 기본 이름이 다음과 같이 구조화됩니다.namespace(첫 번째 문자 대문자) 뒤에 SrcSchema &quot;@name&quot;의 값이 옵니다.
+* **tableSpace(문자열)**:이 속성을 사용하면 테이블에 대해 테이블스페이스를 저장하는 새 데이터를 지정할 수 있습니다(루트에서 유효) `<element>`.
+* **tableSpaceIndex(문자열)**:이 속성을 사용하면 테이블에 대한 새 인덱스 저장 공간 테이블스페이스를 지정할 수 있습니다(루트에서 유효). `<element>`
+* **target(MNTOKEN)**:는 테이블 간 링크를 만들 때 대상 스키마의 이름을 받습니다. 이 속성은 &quot;링크&quot; 유형 요소에만 활성화됩니다.
+* **템플릿(문자열)**:이 속성은 여러 스키마가 공유하는 `<element>` 요소에 대한 참조를 정의합니다. 정의가 현재 스키마에 자동으로 복사됩니다.
+* **translatedDefault(문자열)**:&quot;@default&quot; 특성이 있는 경우, &quot;@translatedDefault&quot;를 사용하면 번역 도구(내부 사용)에서 수집할 @default에 정의된 표현식과 일치하도록 표현식을 재정의할 수 있습니다.
+* **translatedExpr(문자열)**:&quot;@expr&quot; 특성이 있는 경우 &quot;@translatedExpr&quot; 특성을 사용하면 &quot;@expr&quot;에 정의된 표현식과 일치하는 표현식을 재정의할 수 있으며, 이러한 표현식은 번역 도구(내부 사용)에 의해 수집됩니다.
+* **유형(MNTOKEN)**:요소에 저장된 데이터의 유형을 정의합니다.
 
    사용 가능한 유형 목록:
 
@@ -581,14 +589,14 @@ Adobe Campaign에는 다음 네 가지 유형의 `<element>` 요소가 있습니
    * 기본 키
    * short
    * 문자열
-   * time
+   * 시간
    * timpan
    * uuid
 
-* **언바운드(부울)**: 속성이 활성화되면(언바운드=&quot;true&quot;) 링크가 1-N 카디널리티의 컬렉션 요소로 선언됩니다.
-* **userEnum(문자열)**: 은 &quot;open&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 인터페이스에서 사용자가 정의할 수 있습니다.
-* **xml(부울)**: 이 옵션을 활성화하면 요소에 정의된 모든 값이 텍스트 유형 &quot;mData&quot; 필드에 XML로 저장됩니다. 즉, 이러한 필드를 필터링하거나 정렬하지 않습니다.
-* **xmlChildren(boolean)**: 각 하위( `<element>  or  <attribute>   ) of the   <element>    element in an XML document.   </element>  </attribute> </element>`
+* **언바운드(부울)**:속성이 활성화되면(언바운드=&quot;true&quot;) 링크가 1-N 카디널리티의 컬렉션 요소로 선언됩니다.
+* **userEnum(문자열)**:은 &quot;open&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 인터페이스에서 사용자가 정의할 수 있습니다.
+* **xml(부울)**:이 옵션을 활성화하면 요소에 정의된 모든 값이 텍스트 유형 &quot;mData&quot; 필드에 XML로 저장됩니다. 즉, 이러한 필드를 필터링하거나 정렬하지 않습니다.
+* **xmlChildren(boolean)**:각 하위( `<element>  or  <attribute>   ) of the   <element>    element in an XML document.   </element>  </attribute> </element>`
 
 ## `<enumeration>` 요소 {#enumeration--element}
 
@@ -624,7 +632,7 @@ enumeration:=(help| value)
 
 ### 속성 설명 {#attribute-description-5}
 
-* **basetype(문자열)**: 열거에 저장된 값의 유형입니다.
+* **basetype(문자열)**:열거에 저장된 값의 유형입니다.
 
    사용 가능한 유형 목록:
 
@@ -653,15 +661,15 @@ enumeration:=(help| value)
    * 기본 키
    * short
    * 문자열
-   * time
+   * 시간
    * timpan
    * uuid
 
-* **default(string)**: 기본값. 기본값은 열거에 정의된 값 중 하나일 수도 있습니다.
-* **desc(문자열)**: 열거형 설명.
-* **label (string)**: 열거형 레이블.
-* **name(문자열)**: 열거형의 내부 이름입니다.
-* **템플릿(문자열)**: 이 속성은 여러 스키마가 공유하는 `<enumeration>` 요소에 대한 참조를 정의합니다. 정의가 현재 스키마에 자동으로 복사됩니다.
+* **default(string)**:기본값. 기본값은 열거에 정의된 값 중 하나일 수도 있습니다.
+* **desc(문자열)**:열거형 설명.
+* **label (string)**:열거형 레이블.
+* **name(문자열)**:열거형의 내부 이름입니다.
+* **템플릿(문자열)**:이 속성은 여러 스키마가 공유하는 `<enumeration>` 요소에 대한 참조를 정의합니다. 정의가 현재 스키마에 자동으로 복사됩니다.
 
 ### 예제 {#examples-4}
 
@@ -759,9 +767,9 @@ SQL 테이블 간 조인을 만드는 필드를 정의할 수 있습니다.
 
 ### 속성 설명 {#attribute-description-7}
 
-* **dstFilterExpr(문자열)**: 이 속성을 사용하면 원격 테이블의 적격한 값 수를 제한할 수 있습니다.
-* **xpath-dst(문자열)**: 이 속성은 원격 테이블의 Xpath(@name 속성)를 받습니다.
-* **xpath-src(문자열)**: 이 속성은 현재 스키마의 Xpath(@name 속성)를 받습니다.
+* **dstFilterExpr(문자열)**:이 속성을 사용하면 원격 테이블의 적격한 값 수를 제한할 수 있습니다.
+* **xpath-dst(문자열)**:이 속성은 원격 테이블의 Xpath(@name 속성)를 받습니다.
+* **xpath-src(문자열)**:이 속성은 현재 스키마의 Xpath(@name 속성)를 받습니다.
 
 ### 예제 {#examples-6}
 
@@ -820,12 +828,12 @@ key:==keyfield
 
 ### 속성 설명 {#attribute-description-8}
 
-* **allowEmptyPart(부울)**: 복합 키의 경우 이 속성이 활성화되면 해당 키 중 하나 이상이 비어 있지 않으면 해당 키가 유효한 것으로 간주됩니다. 이 경우 빈 개념 값은 &quot;0&quot;(부울 또는 모든 유형의 숫자 데이터에 대해)입니다. 기본적으로 복합 키를 구성하는 모든 키를 입력해야 합니다.
-* **applicableIf (string)**: 이 속성을 사용하면 키를 선택 사항으로 만들 수 있습니다. 키 정의를 적용할 조건에 따라 조건을 정의합니다. 이 속성은 XTK 표현식을 받습니다.
-* **내부(부울)**: 활성화되면 이 속성을 통해 Adobe Campaign이 키가 기본 키임을 알 수 있습니다.
-* **label (string)**: 키의 레이블입니다.
-* **이름(MNTOKEN)**: 키의 내부 이름입니다.
-* **noDbIndex(부울)**: 활성화되면(noDbIndex=&quot;true&quot;) 키와 일치하는 필드가 인덱싱되지 않습니다.
+* **allowEmptyPart(부울)**:복합 키의 경우 이 속성이 활성화되면 해당 키 중 하나 이상이 비어 있지 않으면 해당 키가 유효한 것으로 간주됩니다. 이 경우 빈 개념 값은 &quot;0&quot;(부울 또는 모든 유형의 숫자 데이터에 대해)입니다. 기본적으로 복합 키를 구성하는 모든 키를 입력해야 합니다.
+* **applicableIf (string)**:이 속성을 사용하면 키를 선택 사항으로 만들 수 있습니다. 키 정의를 적용할 조건에 따라 조건을 정의합니다. 이 속성은 XTK 표현식을 받습니다.
+* **내부(부울)**:활성화되면 이 속성을 통해 Adobe Campaign이 키가 기본 키임을 알 수 있습니다.
+* **label (string)**:키의 레이블입니다.
+* **이름(MNTOKEN)**:키의 내부 이름입니다.
+* **noDbIndex(부울)**:활성화되면(noDbIndex=&quot;true&quot;) 키와 일치하는 필드가 인덱싱되지 않습니다.
 
 ### 예제 {#examples-------}
 
@@ -874,8 +882,8 @@ keyfield:==EMPTY
 
 ### 속성 설명 {#attribute-description-9}
 
-* **xlink(MNTOKEN)**: 관계식 테이블(N-N 링크)에 대해 조인에 정의된 외래 키를 자동으로 참조할 수 있도록 해줍니다.
-* **xpath(MNTOKEN)**: 요소의 색인 또는 키 정의입니다 `<attribute>` . 이 속성은 키 또는 인덱스를 정의하는 스키마 속성의 경로를 정의하는 Xpath를 받습니다.
+* **xlink(MNTOKEN)**:관계식 테이블(N-N 링크)에 대해 조인에 정의된 외래 키를 자동으로 참조할 수 있도록 해줍니다.
+* **xpath(MNTOKEN)**:요소의 색인 또는 키 정의입니다 `<attribute>` . 이 속성은 키 또는 인덱스를 정의하는 스키마 속성의 경로를 정의하는 Xpath를 받습니다.
 
 ### 예제 {#examples-}
 
@@ -920,16 +928,16 @@ method:=( help | 매개 변수)
 
 SOAP 메서드를 사용하면 응용 프로그램 프로세스를 사용할 수 있습니다.
 
-&quot;@library&quot;는 새 메서드(비기본)를 선언하는 데 필요합니다. 네임스페이스와 라이브러리에 사용되는 이름은 선언이 있는 스키마의 네임스페이스와 이름과 독립적입니다.
+&quot;@library&quot;는 새 메서드(비기본)를 선언하는 데 필요합니다.네임스페이스와 라이브러리에 사용되는 이름은 선언이 있는 스키마의 네임스페이스와 이름과 독립적입니다.
 
 ### 속성 설명 {#attribute-description-10}
 
-* **access(문자열)**: 이 속성은 메서드를 사용하기 위한 액세스 컨트롤을 정의합니다. 이 속성이 없는 경우 식별은 필수입니다. 사용 가능한 값은 다음과 같습니다. &#39;anonymous&#39;, &#39;admin&#39; 및 &#39;sql&#39;.
-* **const (boolean)**: 이 속성이 활성화되면 선언된 메서드에서 엔티티를
-* **label (string)**: 레이블입니다.
-* **library(string)**: 이 메서드는 응용 프로그램이 고유하지 않습니다. 이 속성은 메서드 정의가 있는 메서드 라이브러리 값을 가져옵니다(nms:mylibrary.js).
-* **이름(MNTOKEN)**: 고유한 메서드 이름.
-* **정적(부울)**: 이 속성을 활성화하면 이 메서드는 자치적으로 간주되므로 호출될 때 메서드에 모든 매개 변수를 지정해야 합니다.
+* **access(문자열)**:이 속성은 메서드를 사용하기 위한 액세스 컨트롤을 정의합니다. 이 속성이 없는 경우 식별은 필수입니다. 사용 가능한 값은 다음과 같습니다.&#39;anonymous&#39;, &#39;admin&#39; 및 &#39;sql&#39;.
+* **const (boolean)**:이 속성이 활성화되면 선언된 메서드에서 엔티티를
+* **label (string)**:레이블입니다.
+* **library(string)**:이 메서드는 응용 프로그램이 고유하지 않습니다. 이 속성은 메서드 정의가 있는 메서드 라이브러리 값을 가져옵니다(nms:mylibrary.js).
+* **이름(MNTOKEN)**:고유한 메서드 이름.
+* **정적(부울)**:이 속성을 활성화하면 이 메서드는 자치적으로 간주되므로 호출될 때 메서드에 모든 매개 변수를 지정해야 합니다.
 
 ### 예제 {#examples-7}
 
@@ -1015,12 +1023,12 @@ param:==help
 
 ### 속성 설명 {#attribute-description-12}
 
-* **desc(문자열)**: 요소에 관련된 `<param>` 설명입니다.
-* **inout(문자열)**: 이 속성은 매개 변수가 SOAP 호출의 입력(in) 또는 출력(out)에 있는지 여부를 정의합니다. 이 속성을 지정하지 않으면 기본 매개 변수는 입력(&quot;@inout=in&quot;)입니다.
+* **desc(문자열)**:요소에 관련된 `<param>` 설명입니다.
+* **inout(문자열)**:이 속성은 매개 변수가 SOAP 호출의 입력(in) 또는 출력(out)에 있는지 여부를 정의합니다. 이 속성을 지정하지 않으면 기본 매개 변수는 입력(&quot;@inout=in&quot;)입니다.
 * **label (string)**: `<param>` label
-* **localable(문자열)**: 활성화되면 이 속성은 번역(내부 사용)을 위해 &quot;@label&quot; 속성의 값을 복구하도록 컬렉션 도구에 지시합니다.
-* **이름(MNTOKEN)**: 내부 이름 `<param>`
-* **type(string)**: 이 속성은 요소의 유형을 `<param>` 정의합니다.
+* **localable(문자열)**:활성화되면 이 속성은 번역(내부 사용)을 위해 &quot;@label&quot; 속성의 값을 복구하도록 컬렉션 도구에 지시합니다.
+* **이름(MNTOKEN)**:내부 이름 `<param>`
+* **type(string)**:이 속성은 요소의 유형을 `<param>` 정의합니다.
 
    사용 가능한 유형 목록:
 
@@ -1049,7 +1057,7 @@ param:==help
    * 기본 키
    * short
    * 문자열
-   * time
+   * 시간
    * timpan
    * uuid
 
@@ -1136,29 +1144,29 @@ created (datetime), createdBy-id (long), desc (string), entitySchema (string), e
 
 ### 속성 설명 {#attribute-description-14}
 
-* **created(datetime)**: 이 속성은 스키마 생성 날짜 및 시간에 대한 정보를 제공합니다. &quot;날짜 시간&quot; 양식이 있습니다. 표시되는 값은 서버에서 가져옵니다. 시간은 UTC 형식으로 표시됩니다.
-* **createdBy-id(long)**: 는 스키마를 만든 연산자의 식별자입니다.
-* **desc(문자열)**: 스키마 설명
-* **entitySchema(문자열)**: 기본 스키마. 구문과 승인에 기반합니다(기본적으로 Adobe Campaign에 대해). xtk:srcSchema). 현재 스키마를 저장할 때 Adobe Campaign은 @xtkschema 특성에 선언된 스키마로 해당 문법을 승인합니다.
-* **extendedSchema(문자열)**: 는 현재 스키마 확장이 기반으로 하는 기본 스키마 이름을 받습니다. 양식은 &quot;namespace:name&quot;입니다.
-* **img(문자열)**: 스키마에 연결된 아이콘(스키마 생성 마법사에서 정의할 수 있음).
-* **label (string)**: 스키마 레이블.
-* **labelSingular(문자열)**: label (singular) for display in the interface.
-* **lastModified(datetime)**: 이 속성은 마지막 수정 날짜 및 시간에 대한 정보를 제공합니다. &quot;날짜 시간&quot; 양식이 있습니다. 표시되는 값은 서버에서 가져옵니다. 시간은 UTC 형식으로 표시됩니다.
-* **library (boolean)**: 스키마를 엔티티가 아닌 라이브러리로 사용 따라서 이 스키마는 &quot;@ref&quot; 및 &quot;@template&quot; 특성 덕분에 다른 스키마에서 참조할 수 있습니다.
+* **created(datetime)**:이 속성은 스키마 생성 날짜 및 시간에 대한 정보를 제공합니다. &quot;날짜 시간&quot; 양식이 있습니다. 표시되는 값은 서버에서 가져옵니다. 시간은 UTC 형식으로 표시됩니다.
+* **createdBy-id(long)**:는 스키마를 만든 연산자의 식별자입니다.
+* **desc(문자열)**:스키마 설명
+* **entitySchema(문자열)**:구문과 승인을 기반으로 하는 기본 스키마(기본적으로 Adobe Campaign의 경우:xtk:srcSchema). 현재 스키마를 저장하면, Adobe Campaign은 @xtkschema 특성에 선언된 스키마로 해당 문법을 승인합니다.
+* **extendedSchema(문자열)**:는 현재 스키마 확장이 기반으로 하는 기본 스키마 이름을 받습니다. 양식은 &quot;namespace:name&quot;입니다.
+* **img(문자열)**:스키마에 연결된 아이콘(스키마 생성 마법사에서 정의할 수 있음).
+* **label (string)**:스키마 레이블.
+* **labelSingular(문자열)**:label (singular) for display in the interface.
+* **lastModified(datetime)**:이 속성은 마지막 수정 날짜 및 시간에 대한 정보를 제공합니다. &quot;날짜 시간&quot; 양식이 있습니다. 표시되는 값은 서버에서 가져옵니다. 시간은 UTC 형식으로 표시됩니다.
+* **library (boolean)**:스키마를 엔티티가 아닌 라이브러리로 사용 따라서 이 스키마는 &quot;@ref&quot; 및 &quot;@template&quot; 특성 덕분에 다른 스키마에서 참조할 수 있습니다.
 * **mappingType(문자열)**:
 
-   * &quot;sql&quot;: 데이터베이스 매핑
-   * &quot;textFile&quot;: 텍스트 파일 매핑
-   * &quot;xmlFile&quot;: XML 형식 텍스트 파일 매핑
-   * &quot;binaryFile&quot;: 바이너리 파일 매핑
+   * &quot;sql&quot;:데이터베이스 매핑
+   * &quot;textFile&quot;:텍스트 파일 매핑
+   * &quot;xmlFile&quot;:XML 형식 텍스트 파일 매핑
+   * &quot;binaryFile&quot;:바이너리 파일 매핑
 
-* **modifiedBy-id(long)**: 스키마를 변경한 연산자의 식별자와 일치합니다.
-* **name(문자열)**: 고유한 스키마 이름입니다.
-* **namespace(문자열)**: 스키마의 namespace(기본값: nms, xtk, nl). 프로젝트에 대한 새 스키마를 만들 때는 전용 네임스페이스를 사용하는 것이 좋습니다.
-* **useRecycleBin(부울)**: 애플리케이션에서 휴지통 기능을 활성화합니다. 삭제된 레코드는 마지막으로 삭제되기 전에 휴지통에 보관됩니다. 이 함수는 &quot;배달&quot; 모드에서만 사용할 수 있습니다.
-* **보기(부울)**: 활성화된 경우(@view=&quot;true&quot;) 스키마가 보기로 사용됩니다. 데이터베이스 구조 업데이트 마법사는 스키마를 고려하지 않습니다. 이 옵션은 주로 외부 테이블을 참조하는 데 사용됩니다.
-* **xtkschema(문자열)**: 스키마 문법을 정의하는 스키마의 이름입니다(기본적으로 xtk:srcSchema).
+* **modifiedBy-id(long)**:스키마를 변경한 연산자의 식별자와 일치합니다.
+* **name(문자열)**:고유한 스키마 이름입니다.
+* **namespace(문자열)**:스키마의 namespace(기본값:nms, xtk, nl). 프로젝트에 대한 새 스키마를 만들 때는 전용 네임스페이스를 사용하는 것이 좋습니다.
+* **useRecycleBin(부울)**:애플리케이션에서 휴지통 기능을 활성화합니다. 삭제된 레코드는 마지막으로 삭제되기 전에 휴지통에 보관됩니다. 이 함수는 &quot;배달&quot; 모드에서만 사용할 수 있습니다.
+* **보기(부울)**:활성화된 경우(@view=&quot;true&quot;) 스키마가 보기로 사용됩니다. 데이터베이스 구조 업데이트 마법사는 스키마를 고려하지 않습니다. 이 옵션은 주로 외부 테이블을 참조하는 데 사용됩니다.
+* **xtkschema(문자열)**:스키마 문법을 정의하는 스키마의 이름입니다(기본적으로 xtk:srcSchema).
 
 ### 예제 {#examples-11}
 
@@ -1237,13 +1245,13 @@ value:==help
 
 ### 속성 설명 {#attribute-description-16}
 
-* **applicableIf (string)**: 이 속성을 사용하면 열거형 값을 선택 사항으로 만들 수 있습니다. XTK 표현식을 수신합니다.
-* **desc(문자열)**: 열거형 값에 대한 설명입니다.
-* **enabledIf(문자열)**: 열거형 값을 활성화하기 위한 조건입니다.
-* **img(문자열)**: image linked to the enumeration in the &quot;namespace:image_name&quot; form. 이미지를 응용 프로그램 서버로 가져와야 합니다.
-* **label (string)**: 열거형 값의 레이블입니다.
-* **name(문자열)**: 열거형 값의 내부 이름입니다.
-* **value (string)**: 열거형 값의 값입니다. 값의 유형은 열거형 유형에 따라 정의됩니다. 열거형이 문자 문자열 유형인 경우 문자 문자열 유형 값만 포함할 수 있습니다.
+* **applicableIf (string)**:이 속성을 사용하면 열거형 값을 선택 사항으로 만들 수 있습니다. XTK 표현식을 수신합니다.
+* **desc(문자열)**:열거형 값에 대한 설명입니다.
+* **enabledIf(문자열)**:열거형 값을 활성화하기 위한 조건입니다.
+* **img(문자열)**:image linked to the enumeration in the &quot;namespace:image_name&quot; form. 이미지를 응용 프로그램 서버로 가져와야 합니다.
+* **label (string)**:열거형 값의 레이블입니다.
+* **name(문자열)**:열거형 값의 내부 이름입니다.
+* **value (string)**:열거형 값의 값입니다. 값의 유형은 열거형 유형에 따라 정의됩니다. 열거형이 문자 문자열 유형인 경우 문자 문자열 유형 값만 포함할 수 있습니다.
 
 ### 예제 {#examples-13}
 
