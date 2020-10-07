@@ -11,11 +11,8 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 627ade78-96b3-4a6e-9ace-74610a3c8d1a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 1%
@@ -23,7 +20,7 @@ ht-degree: 1%
 ---
 
 
-# Experience Manager 뉴스레터 만들기{#creating-an-experience-manager-newsletter}
+# Creating an Experience Manager newsletter{#creating-an-experience-manager-newsletter}
 
 이 통합을 사용하여 Adobe Experience Manager에서 뉴스레터를 만든 다음 이메일 캠페인의 일부로 Adobe Campaign에서 사용할 수 있습니다.
 
