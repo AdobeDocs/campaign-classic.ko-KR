@@ -11,14 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c830d40cef836533c5104901d03a07e7cf96d3d6
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '832'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -63,7 +60,7 @@ ht-degree: 1%
 
 1. 필드에 **[!UICONTROL Title]** 알림에 표시할 제목 레이블을 입력합니다. 알림 센터에서 사용할 수 있는 알림 목록에만 표시됩니다. 이 필드에서는 iOS 알림 페이로드의 **제목** 매개 변수 값을 정의할 수 있습니다.
 
-1. HTTP/2 커넥터를 사용하는 경우 자막을 추가할 수 있습니다(iOS 알림 페이로드의 **자막** 매개 변수 값). Adobe Campaign에서 [모바일 애플리케이션 구성 섹션을](../../delivery/using/configuring-the-mobile-application.md) 참조하십시오.
+1. HTTP/2 커넥터를 사용하는 경우 자막을 추가할 수 있습니다(iOS 알림 페이로드의 **자막** 매개 변수 값). Adobe Campaign [에서 모바일 애플리케이션 구성 섹션을](../../delivery/using/configuring-the-mobile-application.md) 참조하십시오.
 
 1. 그런 다음 선택한 알림 유형 **[!UICONTROL Message]** 을 **[!UICONTROL Value of the badge]** 기준으로 및 를 입력합니다.
 
@@ -82,7 +79,7 @@ ht-degree: 1%
    >
    >사운드는 애플리케이션에 포함되고 서비스가 만들어질 때 정의되어야 합니다. iOS [외부 계정 구성을 참조하십시오](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios).
 
-1. 필드에 **[!UICONTROL Application variables]** 각 변수의 값을 입력합니다. 애플리케이션 변수를 사용하여 알림 동작을 정의할 수 있습니다. 예를 들어 사용자가 알림을 활성화할 때 표시할 특정 애플리케이션 화면을 구성할 수 있습니다.
+1. 필드에 **[!UICONTROL Application variables]** 각 변수의 값을 입력합니다. 애플리케이션 변수를 사용하여 알림 동작을 정의할 수 있습니다.예를 들어 사용자가 알림을 활성화할 때 표시할 특정 애플리케이션 화면을 구성할 수 있습니다.
 
    >[!NOTE]
    >
@@ -94,13 +91,13 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >알림 스타일(배너 또는 경고)이 Adobe Campaign에 정의되지 않았습니다. iOS 설정에서 사용자가 선택한 구성에 따라 다릅니다. 하지만 Adobe Campaign을 사용하면 각 유형의 알림 스타일을 미리 볼 수 있습니다. 오른쪽 하단에 있는 화살표를 클릭하여 한 스타일에서 다른 스타일로 전환합니다.
+   >알림 스타일(배너 또는 경고)이 Adobe Campaign에 정의되어 있지 않습니다. iOS 설정에서 사용자가 선택한 구성에 따라 다릅니다. 그러나 Adobe Campaign에서는 각 유형의 알림 스타일을 미리 볼 수 있습니다. 오른쪽 하단에 있는 화살표를 클릭하여 한 스타일에서 다른 스타일로 전환합니다.
    >
    >미리 보기에서는 iOS 10 모양과 느낌을 사용합니다.
 
 증명 자료를 보내고 최종 전달을 보내려면 이메일 배달과 동일한 프로세스를 사용합니다.
 
-메시지를 보낸 후 배달을 모니터링하고 추적할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
+메시지를 보낸 후 배달을 모니터링하고 추적할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오.
 
 * [푸시 알림 검역소](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
 * [게재 모니터링](../../delivery/using/monitoring-a-delivery.md)
@@ -126,7 +123,7 @@ ht-degree: 1%
 
 1. 푸시 알림에 이모티콘을 삽입하려면 **[!UICONTROL Insert emoticon]** 아이콘을 클릭합니다. 이모티콘 목록을 사용자 정의하려면 이모티콘 목록 [사용자 정의를 참조하십시오](../../delivery/using/defining-interactive-content.md)
 
-1. 필드에 **[!UICONTROL Application variables]** 각 변수의 값을 입력합니다. 애플리케이션 변수를 사용하여 알림 동작을 정의할 수 있습니다. 예를 들어 사용자가 알림을 활성화할 때 표시할 특정 애플리케이션 화면을 구성할 수 있습니다.
+1. 필드에 **[!UICONTROL Application variables]** 각 변수의 값을 입력합니다. 애플리케이션 변수를 사용하여 알림 동작을 정의할 수 있습니다.예를 들어 사용자가 알림을 활성화할 때 표시할 특정 애플리케이션 화면을 구성할 수 있습니다.
 
    >[!NOTE]
    >
@@ -140,10 +137,10 @@ ht-degree: 1%
 
 배달을 확인하고 전송할 때의 세부 프로세스는 아래 섹션에 나와 있습니다.
 
-* [배달 유효성 확인](../../delivery/using/steps-validating-the-delivery.md)
-* [배달 전송](../../delivery/using/steps-sending-the-delivery.md)
+* [게재 유효성 검사](../../delivery/using/steps-validating-the-delivery.md)
+* [게재 보내기](../../delivery/using/steps-sending-the-delivery.md)
 
-메시지를 보낸 후 배달을 모니터링하고 추적할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
+메시지를 보낸 후 배달을 모니터링하고 추적할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오.
 
 * [푸시 알림 검역소](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
 * [게재 모니터링](../../delivery/using/monitoring-a-delivery.md)
