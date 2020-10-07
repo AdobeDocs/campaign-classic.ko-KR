@@ -1,7 +1,7 @@
 ---
-title: '"웹 추적 태그:definition"'
-seo-title: '"웹 추적 태그:definition"'
-description: '"웹 추적 태그:definition"'
+title: '"웹 추적 태그: 정의"'
+seo-title: '"웹 추적 태그: 정의"'
+description: '"웹 추적 태그: 정의"'
 seo-description: null
 page-status-flag: never-activated
 uuid: 915ddfd8-ad1b-41ac-96ed-f7fae687c09f
@@ -11,16 +11,16 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: b8996508-7173-4225-95e7-b51209aae1f1
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3ad288bc983002da82b564e8ab3f4244c6324573
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 5%
 
 ---
 
 
-# 웹 추적 태그:정의{#web-tracking-tag-definition}
+# 웹 추적 태그: 정의{#web-tracking-tag-definition}
 
 웹 추적 태그는 HTTP 쿼리를 통해 리디렉션 서버로 전송되는 적절한 매개 변수로 구성된 URL입니다.
 
@@ -30,7 +30,7 @@ source-git-commit: 3ad288bc983002da82b564e8ab3f4244c6324573
 
 >[!NOTE]
 >
->URL에 추가된 무작위 번호는 브라우저가 웹 페이지를 캐싱할 때 발생하는 문제를 방지합니다.
+>URL에 추가된 무작위 번호는 웹 페이지 캐싱으로 인해 발생하는 문제를 방지합니다.
 
 다음 표는 리디렉션 서버에서 지원하는 특수 매개 변수 목록을 제공합니다.
 
@@ -62,7 +62,7 @@ source-git-commit: 3ad288bc983002da82b564e8ab3f4244c6324573
                               <p>영구 쿠키</p> 
                            </td>
                            <td>
-                              <p>수신자 식별자(세션 쿠키가 없는 경우 유용합니다.)</p> 
+                              <p>받는 사람 식별자(세션 쿠키가 없는 경우 유용합니다.)</p> 
                            </td> 
                         </tr>
                         <tr>
@@ -73,12 +73,12 @@ source-git-commit: 3ad288bc983002da82b564e8ab3f4244c6324573
                               <p>URL 매개 변수</p> 
                            </td>
                            <td>
-                              <p>추적된 웹 페이지의 식별자:필수 매개 변수만 있습니다.</p> 
+                              <p>추적된 웹 페이지의 식별자:필수 매개 변수입니다.</p> 
                            </td> 
                         </tr>
                         <tr>
                            <td>
-                              <p>조입찰</p> 
+                              <p>조비드</p> 
                            </td>
                            <td>
                               <p>URL 매개 변수</p> 
@@ -96,7 +96,7 @@ source-git-commit: 3ad288bc983002da82b564e8ab3f4244c6324573
                               <p>URL 매개 변수</p> 
                            </td>
                            <td>
-                              <p>인터넷 사용자를 식별하는 데 사용되는 매개 변수입니다. 이 매개 변수의 형식은 "name=value"이며 여기서 이름은 수신자 스키마의 필드입니다. 이 매개 변수는 세션 쿠키에 포함된 식별자보다 우선합니다.
+                              <p>인터넷 사용자를 식별하는 데 사용되는 매개 변수입니다. 이 매개 변수의 형식은 "name=value"이며 여기서 이름은 받는 스키마 필드입니다. 이 매개 변수는 세션 쿠키에 포함된 식별자보다 우선합니다.
                               </p> 
                            </td> 
                         </tr> 
@@ -133,6 +133,6 @@ source-git-commit: 3ad288bc983002da82b564e8ab3f4244c6324573
 
 다음 방법을 사용할 수 있습니다.
 
-* 추적하려는 웹 페이지에 **포함된 HTML 태그의 &quot;src&quot;** 속성에 URL을 **`<img>`** 삽입합니다.
+* 추적하려는 웹 페이지에 **&quot;src&quot;** 속성 **`<img>`** 에 URL을 삽입합니다.
 * 추적할 웹 페이지가 생성되면 리디렉션 서버에 직접 호출합니다.
 
