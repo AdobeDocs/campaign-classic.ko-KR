@@ -9,14 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 68a95962dfecc4b10f48ba16d4f8ab29cae02ee8
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -25,7 +22,7 @@ ht-degree: 0%
 
 워크플로우는 항상 수동으로 시작됩니다. 시작될 때 스케줄러(스케줄러 참조) 또는 활동 예약을 통해 지정한 정보에 따라 비활성 상태로 유지될 수 [](../../workflow/using/scheduler.md)있습니다.
 
-워크플로우 실행(실행, 중지, 일시 중지 등) 타깃팅과 관련된 작업 은 **비동기** 프로세스입니다. 주문은 기록되며 서버가 해당 주문을 적용하는 즉시 적용됩니다.
+워크플로우 실행(실행, 중지, 일시 중지 등) 타깃팅과 관련된 작업 은 **비동기** 프로세스입니다.주문은 기록되며 서버가 해당 주문을 적용하는 즉시 적용됩니다.
 
 도구 모음에서 워크플로우 실행을 시작 및 추적할 수 있습니다.
 
@@ -43,13 +40,13 @@ ht-degree: 0%
 
 * **[!UICONTROL Start]**
 
-   이 작업을 사용하면 워크플로우 실행을 시작할 수 있습니다. [ **마침**], [편집 **** ] **또는 [일시 중지됨** ]이 **진행 중인**&#x200B;작업 과정은 상태를 [시작됨]으로변경합니다. 그러면 워크플로우 엔진이 이 워크플로우의 실행을 처리합니다. 워크플로가 일시 중지되면 다시 시작되며, 그렇지 않으면 워크플로가 처음부터 시작되고 초기 활동이 활성화됩니다.
+   이 작업을 사용하면 워크플로우 실행을 시작할 수 있습니다.[ **마침**], [편집 **** ] **또는 [일시 중지됨** ]이 **진행 중인**&#x200B;작업 과정은 상태를 [시작됨]으로변경합니다. 그러면 워크플로우 엔진이 이 워크플로우의 실행을 처리합니다. 워크플로가 일시 중지되면 다시 시작되며, 그렇지 않으면 워크플로가 처음부터 시작되고 초기 활동이 활성화됩니다.
 
-   시작은 비동기 프로세스입니다. 요청이 저장되고 워크플로 서버에서 가능한 한 빨리 처리됩니다.
+   시작은 비동기 프로세스입니다.요청이 저장되고 워크플로 서버에서 가능한 한 빨리 처리됩니다.
 
 * **[!UICONTROL Pause]**
 
-   이 작업은 워크플로우의 상태를 **일시 중지됨으로 설정합니다**. 워크플로가 다시 시작될 때까지 활동이 활성화되지 않습니다. 하지만 진행 중인 작업이 일시 중지되지 않습니다.
+   이 작업은 워크플로우의 상태를 **일시 중지됨으로 설정합니다**. 워크플로가 다시 시작될 때까지 활동이 활성화되지 않습니다.하지만 진행 중인 작업이 일시 중지되지 않습니다.
 
 * **[!UICONTROL Stop]**
 
@@ -59,9 +56,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Restart]**
 
-   이 작업이 중지되면 워크플로우가 다시 시작됩니다. 대부분의 경우 빠르게 다시 시작할 수 있습니다. 또한 정지에 일정한 시간이 걸릴 때 재시작을 자동화하는 것도 유용합니다. 워크플로가 중지될 때 &#39;중지&#39; 명령을 사용할 수 없기 때문입니다.
+   이 작업이 중지되면 워크플로우가 다시 시작됩니다. 대부분의 경우 빠르게 다시 시작할 수 있습니다. 또한 정지에 일정한 시간이 걸릴 때 재시작을 자동화하는 것도 유용합니다.워크플로가 중지될 때 &#39;중지&#39; 명령을 사용할 수 없기 때문입니다.
 
-   작업 **[!UICONTROL Start / Pause / Stop / Restart]** 은 도구 모음의 실행 아이콘을 통해서도 사용할 수 있습니다. For more on this, refer to this [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
+   작업 **[!UICONTROL Start / Pause / Stop / Restart]** 은 도구 모음의 실행 아이콘을 통해서도 사용할 수 있습니다. 자세한 정보는 이 [섹션](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow)을 참조하십시오.
 
 * **[!UICONTROL Purge history]**
 
@@ -87,7 +84,7 @@ ht-degree: 0%
 
    이 작업을 수행하면 선택한 워크플로우를 기반으로 새 워크플로우 템플릿이 만들어집니다. 저장할 폴더( **[!UICONTROL Folder]** 필드)를 지정해야 합니다.
 
-   모든 메뉴 **[!UICONTROL Mass update of selected lines]** 에서 사용할 수 있는 일반 플랫폼 **[!UICONTROL Merge selected lines]** 옵션이 **[!UICONTROL Actions]** 있습니다. For more on this, refer to this [section](../../platform/using/updating-data.md).
+   모든 메뉴 **[!UICONTROL Mass update of selected lines]** 에서 사용할 수 있는 일반 플랫폼 **[!UICONTROL Merge selected lines]** 옵션이 **[!UICONTROL Actions]** 있습니다. 자세한 정보는 이 [섹션](../../platform/using/updating-data.md)을 참조하십시오.
 
 ## 마우스 오른쪽 단추 클릭 메뉴 {#right-click-menu}
 
@@ -97,7 +94,7 @@ ht-degree: 0%
 
 마우스 오른쪽 단추 클릭 메뉴에서 다음 옵션을 사용할 수 있습니다.
 
-**[!UICONTROL Open]**: 이 옵션을 사용하면 활동 속성에 액세스할 수 있습니다.
+**[!UICONTROL Open]**:이 옵션을 사용하면 활동 속성에 액세스할 수 있습니다.
 
 **[!UICONTROL Display logs:]** 이 옵션을 사용하면 선택한 활동에 대한 작업 실행 로그를 볼 수 있습니다. 로그 [표시를 참조하십시오](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
 
