@@ -11,11 +11,8 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: b5c8faf7-d0ae-4d95-b7fe-6ef9674a33d2
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4fc977daf9039ee8587bf505d7406fd863e68b
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1566'
 ht-degree: 1%
@@ -384,7 +381,7 @@ userEnum **** 속성을 사용하면 이 필드를 통해 입력한 값을 암�
 
 #### 열거형 설정 {#set-enumeration}
 
-enum **속성을 사용하면 가능한 값 목록을 미리 알고 있을 때 사용되는 고정 열거형을 정의할 수 있습니다** .
+enum **속성을** 사용하면 가능한 값 목록을 미리 알고 있을 때 사용되는 고정 열거형을 정의할 수 있습니다.
 
 enum **** 특성이 기본 요소 외부에 있는 스키마에 채워진 열거형 클래스의 정의를 참조합니다.
 
