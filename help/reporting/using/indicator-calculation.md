@@ -11,11 +11,8 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5ebea30c743ab416ede879c74735e2c7870d3db9
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2980'
 ht-degree: 1%
@@ -141,7 +138,7 @@ ht-degree: 1%
 
 **도메인별 분류**
 
-보고서의 두 번째 부분에서는 오류 유형이 아닌 인터넷 도메인별 실패한 메시지 분류를 자세히 설명합니다. 이 경우 **오류** 표시기(@value)에 연결된 공식은 다음과 같습니다. Count(@status=2 및 @domain=&quot;도메인 이름의 값&quot;), 즉 이 도메인에 대해 실패한 상태가 있는 모든 메시지 수입니다.
+보고서의 두 번째 부분에서는 오류 유형이 아닌 인터넷 도메인별 실패한 메시지 분류를 자세히 설명합니다. 이 경우 **오류** 표시기(@value)에 연결된 공식은 다음과 같습니다.Count(@status=2 및 @domain=&quot;도메인 이름의 값&quot;), 즉 이 도메인에 대해 실패한 상태가 있는 모든 메시지 수입니다.
 
 ## 브라우저 {#browsers-1}
 
@@ -166,7 +163,7 @@ ht-degree: 1%
    <td> Sum(@visitors)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 페이지 보기<br /> </td> 
+   <td> Page views<br /> </td> 
    <td> @totalPages<br /> </td> 
    <td> 모든 게재에 대해 이 브라우저를 사용하여 배달 링크에 대한 총 클릭 수입니다.<br /> </td> 
    <td> Sum(@pages) <br /> </td> 
@@ -228,7 +225,7 @@ ht-degree: 1%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 전달할 메시지 수<br /> </td> 
+   <td> Number of messages to deliver<br /> </td> 
    <td> @totalTarget<br /> </td> 
    <td> 배달 분석 중 처리된 총 메시지 수입니다.<br /> </td> 
    <td> sum([properties/@totalTarget])<br /> </td> 
@@ -304,7 +301,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 분류<br /> </td> 
-   <td> @퍼센트<br /> </td> 
+   <td> @percent<br /> </td> 
    <td> 이 소셜 네트워크의 공유 수와 총 공유 수의 백분율입니다.<br /> </td> 
    <td> percent(@forward, sum(@forward)<br /> </td> 
   </tr> 
@@ -368,7 +365,7 @@ ht-degree: 1%
    <td> 새 연락처<br /> </td> 
    <td> @newContact<br /> </td> 
    <td> 받는 사람과 연결된 방문자 수<br /> </td> 
-   <td> 공식: count(@id)<br /> 필터: @recipient-id!= 0<br /> </td> 
+   <td> 공식:count(@id)<br /> 필터:@recipient-id!= 0<br /> </td> 
   </tr> 
   <tr> 
    <td> 열어 본 기록<br /> </td> 
@@ -437,7 +434,7 @@ ht-degree: 1%
   <tr> 
    <td> 사용 비율<br /> </td> 
    <td> @방문자 수<br /> </td> 
-   <td> 이 운영 체제에서 일별 방문자 수의 백분율로, 하루 동안 가장 많은 방문자가 방문한 방문자 수와 비교한 것입니다.<br /> </td> 
+   <td> 이 운영 체제에서 일별 방문자 수의 백분율로, 하루 동안 가장 많은 방문자가 방문한 방문자 수와 비교하여 측정한 방문자 수입니다.<br /> </td> 
    <td> percent(sum(@visitors), max(@visitorsOfTheDay)<br /> </td> 
   </tr> 
   <tr> 
@@ -567,7 +564,7 @@ ht-degree: 1%
   <tr> 
    <td> 컴플레인<br /> </td> 
    <td> @complaints<br /> </td> 
-   <td> 상태가 "실패"이고 "주소가 블록 목록에 추가됨"과 같은 사유가 있는 메시지 수입니다.<br /> </td> 
+   <td> 상태가 "실패"이고 "주소가 차단 목록에 추가됨"인 메시지 수입니다.<br /> </td> 
    <td> Count(@status=2 및 msg/@failureReason=8)<br /> </td> 
   </tr> 
   <tr> 
@@ -769,7 +766,7 @@ ht-degree: 1%
   <tr> 
    <td> 규칙에 의해 거부된 메시지<br /> </td> 
    <td> @거부<br /> </td> 
-   <td> 유형 규칙을 유지하는 분석 중에 무시된 주소 수: 주소가 지정되지 않았거나, 격리되었거나, 블록 목록에 추가되었습니다.<br /> </td> 
+   <td> 유형 규칙을 유지하는 분석 중에 무시된 주소 수:주소가 지정되지 않았거나, 격리되었거나, 차단 목록 등에 추가되었습니다.<br /> </td> 
    <td> sum([properties/@reject])<br /> </td> 
   </tr> 
   <tr> 
@@ -924,24 +921,24 @@ ht-degree: 1%
 
 ## 기타 지표 {#other-indicators}
 
-배달(nms:delivery) > 지표 **노드를 통해 액세스한** 전송 **** 표시기(@sent)는 서비스 제공자에게 전송된 총 SMS 수에 해당합니다. 이 지표는 SMS 전달에만 사용되며 다른 유형의 전달에 사용할 수 없습니다( **@success** 및 **@processed** 지표와 혼동하지 않도록함).
+배달(nms:delivery) > 지표 **노드를 통해 액세스한** 전송 **** 표시기(@sent)는 서비스 제공자에게 전송된 총 SMS 수에 해당합니다. 이 지표는 SMS 전달에만 사용되며 다른 유형의 전달에 사용할 수 없습니다( **@success** 및 **@processed** 지표와 혼동하지 않도록).
 
 ## 표시기 동기화 {#indicator-synchronization}
 
-특정 지표에 대한 비동기화 또는 불일치가 발생하는 경우 Adobe Campaign 탐색기에서 해당 배달을 선택하고 마우스 오른쪽 단추를 클릭한 후 선택합니다 **[!UICONTROL Action>Recompute delivery and tracking indicators]**. 을 **[!UICONTROL Next]**&#x200B;클릭한 다음 을 클릭합니다 **[!UICONTROL Finish]**.
+특정 지표에 대한 비동기화 또는 불일치가 발생하는 경우, Adobe Campaign 탐색기에서 해당 배달을 선택하고 마우스 오른쪽 단추를 클릭한 후 선택합니다 **[!UICONTROL Action>Recompute delivery and tracking indicators]**. 을 **[!UICONTROL Next]**&#x200B;클릭한 다음 을 클릭합니다 **[!UICONTROL Finish]**.
 
 ![](assets/s_ncs_user_recalculate_indicators.png)
 
 ## 추적 열기 {#tracking-opens-}
 
-Adobe Campaign에서 메시지를 검색하기 위해 수신자는 이메일의 이미지를 다운로드해야 합니다. HTML 및 멀티파트/대체 이메일에는 열려 있는 메시지를 감지할 수 있는 0픽셀 이미지가 포함됩니다. 텍스트 형식의 메시지에는 이미지가 포함되어 있지 않기 때문에 메시지가 열려 있는지 여부를 감지할 수 없습니다. 메시지 열기를 기반으로 계산되는 값은 항상 이미지 표시에 연결된 오류 여백으로 인해 예측됩니다.
+Adobe Campaign이 메시지를 검색하기 위해 수신자는 이메일의 이미지를 다운로드해야 합니다. HTML 및 멀티파트/대체 이메일에는 열려 있는 메시지를 감지할 수 있는 0픽셀 이미지가 포함됩니다. 텍스트 형식의 메시지에는 이미지가 포함되어 있지 않기 때문에 메시지가 열려 있는지 여부를 감지할 수 없습니다. 메시지 열기를 기반으로 계산되는 값은 항상 이미지 표시에 연결된 오류 여백으로 인해 예측됩니다.
 
 ## 타깃팅된 사람/받는 사람 {#targeted-persons---recipients}
 
-일부 보고서에서는 Adobe Campaign이 타깃팅된 사람 및 대상화된 수신자를 구별합니다.
+일부 보고서에서는 Adobe Campaign이 대상자와 대상화된 수신자를 구별합니다.
 
 대상화된 수신자는 배달을 받은 모든 수신자입니다.
 
 대상자 수에는 타깃팅된 수신자와 이메일을 받은 모든 사람이 포함됩니다. 새 브라우저(메시지를 아직 열지 않은 브라우저)가 열려 있거나 클릭할 때마다 통계에 다른 사람이 추가됩니다.
 
-예를 들어 직장에서 이메일(Adobe Campaign이 보낸 이메일)을 받고 이를 열거나 클릭하는 경우, 타깃팅된 수신자(즉, 수신자=1, 사람=1)로 계산됩니다. 이 이메일을 두 친구에게 전달하면 타깃팅된 받는 사람 수는 여전히 1이고, 대상자 수는 3입니다. 값 3은 새 브라우저에서 각각 열린/클릭과 일치합니다.
+예를 들어, 직장에서 이메일(Adobe Campaign이 보낸 이메일)을 받고 열어보거나 클릭하는 경우, 타깃팅된 수신자(예: 수신자=1, 사람=1)로 계산됩니다. 이 이메일을 두 친구에게 전달하면 타깃팅된 받는 사람 수는 여전히 1이고, 대상자 수는 3입니다. 값 3은 새 브라우저에서 각각 열린/클릭과 일치합니다.
