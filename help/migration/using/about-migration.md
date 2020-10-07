@@ -1,7 +1,7 @@
 ---
-title: 마이그레이션 정보
-seo-title: 마이그레이션 정보
-description: 마이그레이션 정보
+title: 마이그레이션 기본 정보
+seo-title: 마이그레이션 기본 정보
+description: 마이그레이션 기본 정보
 seo-description: null
 page-status-flag: never-activated
 uuid: 23a9c858-b6c1-495f-a463-0ceb147068c9
@@ -11,19 +11,16 @@ audience: migration
 content-type: reference
 topic-tags: migration-overview
 discoiquuid: 0ff9a8a9-2cb7-4b0b-a45e-2431151e59f1
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# 마이그레이션 정보{#about-migration}
+# 마이그레이션 기본 정보{#about-migration}
 
 이 문서에서는 마이그레이션 사전 요구 사항, Adobe Campaign Classic(v7) 플랫폼으로의 마이그레이션 단계, 구성에 따라 추가, 필요 및 선택 사항 설정에 대해 자세히 설명합니다.
 
