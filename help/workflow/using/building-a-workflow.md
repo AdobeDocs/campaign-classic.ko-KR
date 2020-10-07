@@ -11,14 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 2d4ccf81-cd85-4f4c-8ba8-5b5612af1e16
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1631'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -43,7 +40,7 @@ ht-degree: 1%
 
 ![](assets/create_a_wf_icon.png)
 
-또는 워크플로우 개요( **[!UICONTROL Create]** >**[!UICONTROL Monitoring]** 링크)의 **[!UICONTROL Workflow]** 단추를 사용할 수도 있습니다.
+또는 워크플로우 개요( **[!UICONTROL Create]** >**[!UICONTROL Monitoring]** **[!UICONTROL Workflow]** 링크)의 단추를 사용할 수도 있습니다.
 
 ![](assets/create_a_wf.png)
 
@@ -55,7 +52,7 @@ ht-degree: 1%
 
 ## 활동 추가 및 연결 {#adding-and-linking-activities}
 
-이제 다양한 활동을 정의하고 이를 다이어그램에 함께 연결해야 합니다. 이 구성 단계에서 다이어그램 레이블과 워크플로우 상태(진행 중)를 볼 수 있습니다. 창의 아래쪽 섹션은 다이어그램만 편집하는 데 사용됩니다. 도구 모음, 활동 팔레트(왼쪽)와 다이어그램 자체(오른쪽)가 포함되어 있습니다.
+이제 다양한 활동을 정의하고 이를 다이어그램에서 서로 연결해야 합니다. 이 구성 단계에서 다이어그램 레이블과 워크플로우 상태(진행 중)를 볼 수 있습니다. 창의 아래쪽 섹션은 다이어그램만 편집하는 데 사용됩니다. 도구 모음, 활동 팔레트(왼쪽)와 다이어그램 자체(오른쪽)가 포함되어 있습니다.
 
 ![](assets/new-workflow-2.png)
 
@@ -78,7 +75,7 @@ ht-degree: 1%
 
    ![](assets/new-workflow-3.png)
 
-1. 활동 **시작** 전환 **을 드래그하여 배달 활동에 놓아 활동을 함께** 연결합니다.
+1. Link the activities together by dragging the **Start** activity transition and dropping it on to the **Delivery** activity.
 
    ![](assets/new-workflow-4.png)
 
@@ -100,7 +97,7 @@ ht-degree: 1%
 
    ![](assets/s_user_segmentation_wizard_10.png)
 
-   이렇게 하면 편집 도구의 레이아웃을 조정할 수 있습니다. 팔레트 표시 및 그래픽 개체의 개요, 크기 및 정렬.
+   이렇게 하면 편집 도구의 레이아웃을 조정할 수 있습니다.팔레트 표시 및 그래픽 개체의 개요, 크기 및 정렬.
 
    ![](assets/s_user_segmentation_toolbar.png)
 
@@ -126,7 +123,7 @@ ht-degree: 1%
 
 첫 번째 탭에는 기본 구성이 포함되어 있습니다. 이 **[!UICONTROL Advanced]** 탭에는 오류가 발생할 때 동작을 정의하고, 활동의 실행 기간을 지정하고, 초기화 스크립트를 입력하는 데 사용되는 추가 매개 변수가 포함되어 있습니다.
 
-활동을 더 잘 이해하고 워크플로우 정확도를 높이기 위해 활동에 주석을 입력할 수 있습니다. 연산자가 활동을 스크롤할 때 자동으로 표시됩니다.
+활동을 더 잘 이해하고 워크플로우 정확도를 높이기 위해 활동에 주석을 입력할 수 있습니다.연산자가 활동을 스크롤할 때 자동으로 표시됩니다.
 
 ![](assets/example1-comment.png)
 
@@ -160,7 +157,7 @@ ht-degree: 1%
 
 ### 차원 타깃팅 및 필터링 {#targeting-and-filtering-dimensions}
 
-데이터 세분화 작업 중에 타깃팅 키가 필터링 차원에 매핑됩니다. 타깃팅 차원을 사용하면 공정에 의해 타깃팅된 인구를 정의할 수 있습니다. 수신자, 계약 수혜자, 운영자, 가입자 등 필터링 차원을 사용하면 특정 기준을 기반으로 모집단을 선택할 수 있습니다. 계약자, 뉴스레터 가입자 등
+데이터 세분화 작업 중에 타깃팅 키가 필터링 차원에 매핑됩니다. 타깃팅 차원을 사용하면 공정에 의해 타깃팅된 인구를 정의할 수 있습니다.수신자, 계약 수혜자, 운영자, 가입자 등 필터링 차원을 사용하면 특정 기준을 기반으로 모집단을 선택할 수 있습니다.계약자, 뉴스레터 가입자 등
 
 예를 들어 5년 이상 생명 보험 계약을 보유한 클라이언트를 선택하려면 다음 타깃팅 차원을 선택합니다. **클라이언트** 및 다음 필터링 차원: **계약자**. 그런 다음 쿼리 활동 내에서 필터링 조건을 정의할 수 있습니다
 
@@ -194,13 +191,13 @@ ht-degree: 1%
 
 ## 기술 워크플로우 {#technical-workflows}
 
-기술 워크플로우는 Adobe Campaign과 함께 즉시 제공됩니다. 서버에서 주기적으로 실행되도록 예약된 작업 또는 작업입니다. 데이터베이스 유지 관리, 전달에 대한 추적 정보 전달, 배달 관련 임시 프로세스 설정 등의 작업을 수행합니다. 기술 워크플로우는 노드를 통해 **[!UICONTROL Administration > Production > Technical workflows]** 구성됩니다.
+최신 기술 워크플로우는 Adobe Campaign과 함께 제공됩니다. 서버에서 주기적으로 실행되도록 예약된 작업 또는 작업입니다. 데이터베이스 유지 관리, 전달에 대한 추적 정보 전달, 배달 관련 임시 프로세스 설정 등의 작업을 수행합니다. 기술 워크플로우는 노드를 통해 **[!UICONTROL Administration > Production > Technical workflows]** 구성됩니다.
 
 ![](assets/navtree.png)
 
 기본 템플릿은 기술 워크플로우를 만드는 데 사용할 수 있습니다. 필요에 맞게 구성할 수 있습니다.
 
-하위 **[!UICONTROL Campaign process]** 폴더는 캠페인 내에서 프로세스를 실행하는 데 필요한 워크플로우를 중앙 집중화합니다. 작업 알림, 스톡 관리, 비용 계산 등
+하위 **[!UICONTROL Campaign process]** 폴더는 캠페인 내에서 프로세스를 실행하는 데 필요한 워크플로우를 중앙 집중화합니다.작업 알림, 스톡 관리, 비용 계산 등
 
 >[!NOTE]
 >
@@ -226,7 +223,7 @@ ht-degree: 1%
 
 ## 워크플로우 복제 {#duplicating-workflows}
 
-다양한 유형의 워크플로우를 복제할 수 있습니다. 한 번 복제되면 워크플로우의 수정 사항이 워크플로우의 복사본으로 옮겨지지 않습니다.
+다양한 유형의 워크플로우를 복제할 수 있습니다. 복제되고 나면 워크플로우의 수정 사항이 워크플로우의 복사본으로 옮겨지지 않습니다.
 
 >[!CAUTION]
 >
