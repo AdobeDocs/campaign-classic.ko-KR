@@ -11,18 +11,18 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 8b239d5e-2317-42c8-9fee-7d40bea624da
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 9%
 
 ---
 
 
 # 시작 및 종료{#start-and-end}
 
-이 **[!UICONTROL Start]** 및 **[!UICONTROL End]** 활동을 통해 워크플로우의 시작과 끝을 그래픽으로 표시할 수 있습니다. 이러한 활동은 기능적으로 영향을 주지 않으므로 선택 사항입니다.
+워크플로우 **[!UICONTROL Start]** 의 시작과 끝을 그래픽으로 표시할 수 **[!UICONTROL End]** 있습니다. 이러한 활동은 기능적 영향을 주지 않으므로 선택 사항입니다.
 
 * **[!UICONTROL Start]**
 
@@ -36,7 +36,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
    ![](assets/s_user_segmentation_end.png)
 
-   최종 활동이 활성화되면 작업 테이블의 데이터가 자동으로 삭제됩니다. 필요하지 않고 불필요한 로드를 방지하기 위해 마지막 활동 출력에서 전환을 비활성화할 수 있습니다. 예를 들어 배달 출력에서 예약된 프로세스가 없을 경우 아래 표시된 대로 관련 옵션의 선택을 취소합니다.
+   최종 활동이 활성화되면 작업 테이블의 데이터가 자동으로 삭제됩니다. 필요하지 않고 불필요한 로드를 방지하기 위해 마지막 활동 출력에서 전환을 비활성화하도록 선택할 수 있습니다. 예를 들어, 배달 출력에서, 예약된 프로세스가 없을 경우, 아래에서 보듯이 관련 옵션의 선택을 취소합니다.
 
    ![](assets/s_advuser_delivery_option_no_output.png)
 
