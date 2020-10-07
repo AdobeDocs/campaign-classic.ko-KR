@@ -9,11 +9,8 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: f449ccd5-3965-4ab8-b5a9-993f3260aba9
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 12%
@@ -47,7 +44,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 * 오류/예외를 처리합니다.
 * 때때로 SFTP에 로그인하여 무엇이 있는지 직접 확인합니다.
 * SFTP 디스크 관리는 주로 사용자의 책임입니다.
-* 기본적으로 만드는 모든 폴더는 식별자에 대해서만 읽기/쓰기 모드에 있습니다. Campaign에서 액세스해야 하는 폴더를 만들 때는 전체 그룹에 대한 읽기/쓰기 권한을 사용하여 폴더를 구성해야 합니다. 그렇지 않으면 보안상의 이유로 동일한 그룹 내의 다른 식별자에서 파일이 실행되므로 워크플로우에서 파일을 만들거나 삭제할 수 없습니다.
+* 기본적으로 만드는 모든 폴더는 식별자에 대해서만 읽기/쓰기 모드에 있습니다. Campaign에서 액세스해야 하는 폴더를 만들 때는 전체 그룹에 대한 읽기/쓰기 권한을 사용하여 폴더를 구성해야 합니다. 그렇지 않으면 보안상의 이유로 동일한 그룹 내의 다른 식별자로 파일이 실행되므로 워크플로우에서 파일을 만들거나 삭제할 수 없습니다.
 * SFTP 연결을 시작하려는 공개 IP를 캠페인 인스턴스의 허용 목록에 추가해야 합니다. 허용 목록에 IP 주소 추가는 [지원 티켓을 통해 요청할 수 있습니다](https://support.neolane.net).
 
 >[!CAUTION]
@@ -93,7 +90,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 1. SFTP 연결을 시작하려는 공용 IP가 허용 목록에 대한 Adobe 지원에 제공한 IP인지 확인합니다.
 1. 암호 기반 인증을 사용하는 경우 암호가 만료되었을 수 있습니다(암호는 90일 유효 기간). 따라서 키 기반 인증을 사용하는 것이 좋습니다( [SFTP 서버 우수 사례](#sftp-server-best-practices)참조).
 1. 키 기반 인증을 사용하는 경우 사용 중인 키가 인스턴스 구성에 대해 Adobe 지원 팀에 제공한 키와 동일한지 확인하십시오.
-1. FileZilla 또는 동등한 FTP 도구를 사용하는 경우 지원 티켓에 연결 로그 세부 정보를 제공합니다.
+1. FileZilla 또는 상응하는 FTP 도구를 사용하는 경우 지원 티켓에 연결 로그 세부 정보를 제공합니다.
 
 ## &quot;호스트 이름을 확인할 수 없습니다&quot; 오류
 
