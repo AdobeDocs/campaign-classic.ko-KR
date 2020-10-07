@@ -11,18 +11,18 @@ audience: interaction
 content-type: reference
 topic-tags: tracking-offers
 discoiquuid: 6aae6a10-b03e-41f1-a6e9-29100800bae1
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 14%
 
 ---
 
 
 # 오퍼 분석 보고서{#offer-analysis-report}
 
-이 **[!UICONTROL Offer analysis]** 보고서는 수락되거나 거부된 제안 수에 대한 개요를 제공합니다.
+이 보고서는 **[!UICONTROL Offer analysis]** 수락되거나 거부된 제안 수에 대한 개요를 제공합니다.
 
 >[!NOTE]
 >
@@ -30,11 +30,11 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 통계는 다음 세 가지 기준에 따라 정렬됩니다.
 
-* 날짜별로
+* 날짜별.
 
    ![](assets/offer_report_perdate.png)
 
-* 공간을 기반으로 합니다.
+* 공간을 참조하십시오.
 
    ![](assets/offer_report_perspaces.png)
 
@@ -42,7 +42,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
    ![](assets/offer_report_perdeliveries.png)
 
-보고서의 상단 섹션에서 사용할 수 있는 다양한 기준을 기반으로 데이터를 필터링할 수 있습니다. 원하는 기준을 선택한 후 **[!UICONTROL Refresh]** 링크를 클릭하여 보고서에 적용합니다.
+보고서 상단 섹션에서 사용할 수 있는 다양한 기준을 기반으로 데이터를 필터링할 수 있습니다. 원하는 기준을 선택하고 나면 링크를 클릭하여 보고서에 **[!UICONTROL Refresh]** 적용합니다.
 
 ![](assets/offer_report_criteria.png)
 
