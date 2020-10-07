@@ -1,7 +1,7 @@
 ---
-title: 마케팅 리소스 관리 정보
-seo-title: 마케팅 리소스 관리 정보
-description: 마케팅 리소스 관리 정보
+title: 마케팅 리소스 관리 기본 정보
+seo-title: 마케팅 리소스 관리 기본 정보
+description: 마케팅 리소스 관리 기본 정보
 seo-description: null
 page-status-flag: never-activated
 uuid: 01f9958a-f963-4fb3-b171-1f760cd34353
@@ -11,19 +11,16 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 discoiquuid: 6101e083-3754-41e1-8a93-021b1a771dc0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# 마케팅 리소스 관리 정보{#about-marketing-resource-management}
+# 마케팅 리소스 관리 기본 정보{#about-marketing-resource-management}
 
 ## 소개 {#introduction}
 
