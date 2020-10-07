@@ -11,14 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 3da951ef-5775-4593-8301-f143c71edc19
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1610'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -33,7 +30,7 @@ ht-degree: 0%
 
 ### 로그 {#logs}
 
-JavaScript 메서드 **[!UICONTROL logInfo()]** 는 워크플로우 디버깅을 위한 좋은 솔루션입니다. 이 기능은 유용하지만, 특히 자주 실행되는 활동에 대해서는 신중하게 사용해야 합니다. 로그를 오버로드하고 로그 테이블의 크기를 크게 늘릴 수 있습니다. 하지만 더 많은 기능이 필요할 수도 있습니다 **[!UICONTROL logInfo()]**.
+JavaScript 메서드 **[!UICONTROL logInfo()]** 는 워크플로우 디버깅을 위한 좋은 솔루션입니다. 이 기능은 유용하지만, 특히 자주 실행되는 활동에 대해서는 신중하게 사용해야 합니다.로그를 오버로드하고 로그 테이블의 크기를 크게 늘릴 수 있습니다. 하지만 더 많은 기능이 필요할 수도 있습니다 **[!UICONTROL logInfo()]**.
 
 다음과 같은 두 가지 추가 솔루션을 사용할 수 있습니다.
 
@@ -51,7 +48,7 @@ JavaScript 메서드 **[!UICONTROL logInfo()]** 는 워크플로우 디버깅을
 
    워크플로우 속성 **[!UICONTROL Execution]** 탭에서 사용할 수 있는 이 옵션은 다양한 작업의 도구에서 생성된 모든 SQL 쿼리를 기록합니다. 플랫폼에 의해 실제로 실행되는 요소를 확인할 수 있습니다. 그러나 이 옵션은 개발 중에만 사용해야 하며 프로덕션 단계에서 활성화해서는 안됩니다.
 
-더 이상 필요하지 않은 로그를 제거합니다. 워크플로우 내역은 자동으로 삭제되지 않습니다. 모든 메시지는 기본적으로 유지됩니다. 작업 내역은 메뉴 **[!UICONTROL File > Actions]** 를 통해 또는 목록 위의 도구 모음에 있는 작업 단추를 클릭하여 삭제할 수 있습니다. 삭제 내역을 선택합니다.
+더 이상 필요하지 않은 로그를 제거합니다. 워크플로우 내역은 자동으로 삭제되지 않습니다.모든 메시지는 기본적으로 유지됩니다. 작업 내역은 메뉴 **[!UICONTROL File > Actions]** 를 통해 또는 목록 위의 도구 모음에 있는 작업 단추를 클릭하여 삭제할 수 있습니다. 삭제 내역을 선택합니다.
 로그를 제거하는 방법을 알아보려면 이 [설명서를 참조하십시오](../../workflow/using/starting-a-workflow.md).
 
 ### 워크플로우 계획 {#workflow-planning}
@@ -88,17 +85,17 @@ JavaScript 메서드 **[!UICONTROL logInfo()]** 는 워크플로우 디버깅을
 
 ### 워크플로우 폴더 {#workflow-folders}
 
-전용 폴더에 워크플로우를 만드는 것이 좋습니다.
+Adobe은 전용 폴더에 워크플로우를 만드는 것을 권장합니다.
 
 워크플로우가 전체 플랫폼(예: 정리 프로세스)에 영향을 주는 경우 기본 제공 **[!UICONTROL Technical Workflows]** 폴더에 하위 폴더를 추가하는 것이 좋습니다.
 
 ### 워크플로우 이름 지정 {#workflow-naming}
 
-이를 통해 예상 방식으로 작동하지 않는 사용자를 쉽게 찾고 해결할 수 있으므로, Adobe에서는 워크플로우에 적합한 이름과 레이블을 지정하는 것이 좋습니다. 연산자가 쉽게 이해할 수 있도록 수행할 프로세스를 요약하려면 워크플로우의 설명 필드를 입력합니다.
+예상과 다르게 수행될 경우 쉽게 찾고 문제를 해결하기 위해 워크플로우에 적절한 이름과 레이블을 지정하는 것을 권장합니다. 워크플로우의 설명 필드를 작성하여 운영자가 쉽게 이해할 수 있도록 수행할 프로세스를 요약합니다.
 
-워크플로우가 여러 워크플로우를 포함하는 프로세스의 일부인 경우 레이블을 입력할 때 명시적일 수 있습니다. 숫자를 사용하는 것은 워크플로우(레이블별)를 정렬하는 좋은 방법입니다.
+워크플로우가 여러 워크플로우를 포함하는 프로세스의 일부인 경우 레이블을 입력할 때 명시적일 수 있습니다.숫자를 사용하는 것은 워크플로우(레이블별)를 정렬하는 좋은 방법입니다.
 
-예:
+예제:
 
 * 001 - 가져오기 - 수신자 가져오기
 * 002 - 가져오기 - 판매 가져오기
@@ -126,11 +123,11 @@ JavaScript 메서드 **[!UICONTROL logInfo()]** 는 워크플로우 디버깅을
 
 워크플로우 속성에서 기본 그룹 또는 사용자 지정 그룹 중 하나를 **[!UICONTROL Workflow supervisors]** 선택합니다. 이메일 설정이 설정된 상태에서 하나 이상의 연산자가 이 그룹에 속하는지 확인합니다.
 
-워크플로우 구축을 시작하기 전에 워크플로우 감독자를 정의해야 합니다. 오류 발생 시 이메일로 통보를 받게 됩니다. 자세한 내용은 오류 [관리를 참조하십시오](../../workflow/using/monitoring-workflow-execution.md#managing-errors).
+워크플로우 구축을 시작하기 전에 워크플로우 감독자를 정의해야 합니다. 오류 발생 시 이메일로 통보를 받게 됩니다. For more on this, refer to [Managing errors](../../workflow/using/monitoring-workflow-execution.md#managing-errors).
 
-정기적으로 **[!UICONTROL Monitoring]** 우주를 확인하여 활성 워크플로우의 전체 상태를 확인합니다. 자세한 내용은 인스턴스 [감리를 참조하십시오](../../workflow/using/monitoring-workflow-execution.md#instance-supervision).
+정기적으로 **[!UICONTROL Monitoring]** 우주를 확인하여 활성 워크플로우의 전체 상태를 확인합니다. For more on this, refer to [Instance supervision](../../workflow/using/monitoring-workflow-execution.md#instance-supervision).
 
-Workflow HeatMap을 사용하면 Adobe Campaign 플랫폼 관리자가 인스턴스의 로드를 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다. 자세한 내용은 워크플로우 [모니터링을 참조하십시오](../../workflow/using/heatmap.md).
+Workflow HeatMap을 사용하면 Adobe Campaign 플랫폼 관리자가 인스턴스의 로드를 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다. For more on this, refer to [Workflow monitoring](../../workflow/using/heatmap.md).
 
 ## 활동 사용 {#using-activities}
 
@@ -140,14 +137,14 @@ Workflow HeatMap을 사용하면 Adobe Campaign 플랫폼 관리자가 인스턴
 
 ### 활동 이름 {#name-of-the-activity}
 
-워크플로우를 개발하는 동안 모든 활동에는 이름이 지정되고 모든 Adobe Campaign 객체도 이름이 지정됩니다. 도구에 의해 이름이 생성되는 동안 구성할 때 명시적인 이름으로 이름을 바꾸는 것이 좋습니다. 나중에 이 작업을 수행할 때 다른 이전 활동의 이름을 사용하는 활동과 함께 워크플로가 중단될 수 있습니다. 그래서 나중에 이름을 갱신하는 것은 어려운 일이 될 것이다.
+워크플로우를 개발하는 동안 모든 활동에는 이름이 지정되고 모든 Adobe Campaign 개체도 이름이 지정됩니다. 도구에 의해 이름이 생성되는 동안 구성할 때 명시적인 이름으로 이름을 바꾸는 것이 좋습니다. 나중에 이 작업을 수행하면 다른 이전 활동의 이름을 사용하는 활동과 함께 워크플로가 중단될 수 있습니다. 그래서 나중에 이름을 갱신하는 것은 어려운 일이 될 것이다.
 
 활동 이름은 **[!UICONTROL Advanced]** 탭에서 찾을 수 있습니다. 이름 **[!UICONTROL query]**&#x200B;을 **[!UICONTROL query1]**&#x200B;붙이지 말고 **[!UICONTROL query11]**, 예를 들어 명시적인 이름을 **[!UICONTROL querySubscribedRecipients]**&#x200B;주세요. 이 이름은 저널에 표시되고 SQL 로그에 해당되는 경우 SQL 로그에 표시되며 구성 시 워크플로우를 디버깅하는 데 도움이 됩니다.
 
 ### 첫 번째 및 마지막 활동 {#first-and-last-activities}
 
 * 항상 **[!UICONTROL Start]** 활동 또는 활동으로 워크플로우를 **[!UICONTROL Scheduler]** 시작합니다. 관련 있는 경우 활동을 사용할 수도 **[!UICONTROL External signal]** 있습니다.
-* 워크플로우를 빌드할 때는 분기당 하나의 **[!UICONTROL Scheduler]** 활동만 사용하십시오. 워크플로우의 동일한 분기에 여러 개의 예약(서로 연결)이 있는 경우 실행할 작업 수를 기하급수적으로 곱하므로 데이터베이스가 상당히 과부하가 됩니다. 이 규칙은 **[!UICONTROL Scheduling & History]** 탭이 있는 모든 활동에도 적용됩니다. 예약에 대한 자세한 [내용을 살펴보십시오](../../workflow/using/scheduler.md).
+* When building your workflow, only use one **[!UICONTROL Scheduler]** activity per branch. 워크플로우의 동일한 분기에 여러 개의 스케줄러(서로 연결됨)가 있는 경우 실행할 작업 수가 기하급수적으로 증가하여 데이터베이스가 상당히 과부하 됩니다. 이 규칙은 **[!UICONTROL Scheduling & History]** 탭이 있는 모든 활동에도 적용됩니다. 예약에 대한 자세한 [내용을 살펴보십시오](../../workflow/using/scheduler.md).
 
    ![](assets/wf-scheduler.png)
 
@@ -157,7 +154,7 @@ Workflow HeatMap을 사용하면 Adobe Campaign 플랫폼 관리자가 인스턴
 
 워크플로우 활동을 초기화할 때 JavaScript를 추가할 수 있습니다. 이 작업은 활동의 활동 **[!UICONTROL Advanced]** 탭에서 수행할 수 있습니다.
 
-워크플로우를 보다 쉽게 찾기 위해 활동 레이블의 시작과 끝에 이중 대시를 사용하는 것이 좋습니다. — My label —.
+워크플로우를 보다 쉽게 찾기 위해 활동 레이블의 시작과 끝에 이중 대시를 사용하는 것이 좋습니다.— My label —.
 
 ### 신호 {#signal}
 
