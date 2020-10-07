@@ -11,11 +11,8 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: 0d50826e-2211-4c3b-8413-ca1453bba6c4
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9784e0db6f1bef5abdf93d3517da04fe1ba69e7d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 3%
@@ -29,7 +26,7 @@ ht-degree: 3%
 
 필터링 규칙은 다른 유형의 규칙(제어, 압력 등)에 연결할 수 있습니다. 를 선택하거나 전용 필터링 유형 **으로 그룹화합니다** . 이에 대한 자세한 내용은 필터링 유형 [만들기 및 사용을 참조하십시오](#creating-and-using-a-filtering-typology).
 
-## 필터링 규칙 만들기 {#creating-a-filtering-rule}
+## Creating a filtering rule {#creating-a-filtering-rule}
 
 예를 들어 뉴스레터 가입자를 필터링하여 미성년자인 수신자에게 통신이 전송되지 않도록 할 수 있습니다.
 
@@ -71,11 +68,11 @@ ht-degree: 3%
 
 ## 필터링 유형 만들기 및 사용 {#creating-and-using-a-filtering-typology}
 
-다음과 같은 유형을 만들 수 **[!UICONTROL Filtering]** 있습니다. 필터링 규칙만 포함합니다.
+다음과 같은 유형을 만들 수 **[!UICONTROL Filtering]** 있습니다.필터링 규칙만 포함합니다.
 
 ![](assets/campaign_opt_create_typo_filtering.png)
 
-대상을 선택할 때 이러한 특정 유형을 게재에 연결할 수 있습니다. 배달 마법사에서 **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Exclusions]** 탭을 클릭합니다.
+대상을 선택할 때 이러한 특정 유형을 게재에 연결할 수 있습니다.배달 마법사에서 **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Exclusions]** 탭을 클릭합니다.
 
 ![](assets/campaign_opt_apply_typo_filtering.png)
 
@@ -96,7 +93,7 @@ ht-degree: 3%
 
 기본적으로 두 개의 필터링 규칙을 사용할 수 있습니다. **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** ) 및 **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** ). 이메일 분석 중에 이러한 규칙은 받는 사람 이메일 주소와 배달 가능 인스턴스에서 관리되는 암호화된 전역 제외 목록에 포함된 금지된 주소 또는 도메인 이름과 비교합니다. 일치하는 메시지가 있으면 해당 받는 사람에게 메시지가 전송되지 않습니다.
 
-악의적인 활동, 특히 Spamtrap 사용으로 인해 블록 목록에 추가되지 않습니다. 예를 들어 웹 양식 중 하나를 통해 구독하는 데 Spamtrap을 사용하는 경우 확인 이메일이 자동으로 해당 Spamtrap에 전송되고 그러면 주소가 자동으로 블록 목록에 추가됩니다.
+이는 악성 활동, 특히 Spamtrap 사용으로 인해 차단 목록에 추가되지 않도록 하기 위한 것입니다. 예를 들어 웹 양식 중 하나를 통해 구독하는 데 Spamtrap을 사용하는 경우 확인 이메일이 자동으로 해당 Spamtrap에 전송되고 그러면 해당 주소가 차단 목록에 자동으로 추가됩니다.
 
 >[!NOTE]
 >
