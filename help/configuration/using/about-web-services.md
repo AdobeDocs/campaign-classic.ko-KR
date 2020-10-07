@@ -1,7 +1,7 @@
 ---
-title: 웹 서비스 정보
-seo-title: 웹 서비스 정보
-description: 웹 서비스 정보
+title: 웹 서비스 기본 정보
+seo-title: 웹 서비스 기본 정보
+description: 웹 서비스 기본 정보
 seo-description: null
 page-status-flag: never-activated
 uuid: f0b21cb3-aa75-4f54-a9f5-64e880f93e53
@@ -11,19 +11,16 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 65919173-3ce0-4d98-936b-f4581df536ae
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# 웹 서비스 정보{#about-web-services}
+# 웹 서비스 기본 정보{#about-web-services}
 
 ## Adobe Campaign API 정의 {#definition-of-adobe-campaign-apis}
 
@@ -33,7 +30,7 @@ Adobe Campaign API는 애플리케이션 내의 JavaScript와 애플리케이션
 
 >[!IMPORTANT]
 >
->연간 공인 엔진 호출 수는 라이선스 계약에 따라 다릅니다. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).\
+>연간 공인 엔진 호출 수는 라이선스 계약에 따라 다릅니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic—product-description.html)를 참조하십시오.\
 >전체 설명을 포함한 모든 API의 목록은 [이 전용 설명서에서 확인할 수 있습니다](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
 ## 사전 요구 사항 {#prerequisites}
