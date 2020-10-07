@@ -11,14 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 discoiquuid: bd057441-8524-49e6-b5d5-fbd0ec5bca85
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -39,7 +36,7 @@ ht-degree: 0%
 1. 캠페인 순서 지정
 1. 캠페인 실행을 참조하십시오.
 
-## 로컬 캠페인 템플릿 만들기 {#creating-a-local-campaign-template}
+## Creating a local campaign template {#creating-a-local-campaign-template}
 
 캠페인 패키지를 만들려면 먼저 노드를 통해 **캠페인 템플릿을** 만들어야 **[!UICONTROL Resources > Templates]** 합니다.
 
@@ -67,11 +64,11 @@ ht-degree: 0%
 
 사용 가능한 웹 인터페이스에는 다음 네 가지 유형이 있습니다.
 
-* **[!UICONTROL By brief]** : 로컬 엔터티는 캠페인 구성을 설명하는 설명을 제공해야 합니다. 주문이 승인되면 중앙 엔티티는 캠페인을 전체적으로 구성하고 실행합니다.
+* **[!UICONTROL By brief]** :로컬 엔터티는 캠페인 구성을 설명하는 설명을 제공해야 합니다. 주문이 승인되면 중앙 엔티티는 캠페인을 전체적으로 구성하고 실행합니다.
 
    ![](assets/mkt_distr_6.png)
 
-* **[!UICONTROL By form]** : 로컬 엔터티는 사용된 템플릿에 따라 컨텐츠, 타겟, 최대 크기, 개인화 필드를 사용한 작성 및 추출 날짜를 편집할 수 있는 웹 양식에 액세스할 수 있습니다. 로컬 엔터티는 대상을 평가하고 이 웹 양식의 콘텐츠를 미리 볼 수 있습니다.
+* **[!UICONTROL By form]** :로컬 엔터티는 사용된 템플릿에 따라 컨텐츠, 타겟, 최대 크기, 개인화 필드를 사용한 작성 및 추출 날짜를 편집할 수 있는 웹 양식에 액세스할 수 있습니다. 로컬 엔터티는 대상을 평가하고 이 웹 양식의 콘텐츠를 미리 볼 수 있습니다.
 
    ![](assets/mkt_distr_8.png)
 
@@ -83,14 +80,14 @@ ht-degree: 0%
 
    ![](assets/mkt_distr_7.png)
 
-* **[!UICONTROL By external form]** : 로컬 엔터티는 엑스트라넷의 캠페인 매개 변수에 액세스할 수 있습니다(Adobe Campaign이 아님). 이러한 매개 변수는 **로컬 캠페인(양식)의 매개 변수와 동일합니다**.
-* **[!UICONTROL Pre-set]** : 로컬 엔티티는 지역화하지 않고 기본 양식을 사용하여 캠페인을 주문합니다.
+* **[!UICONTROL By external form]** :로컬 엔터티는 엑스트라넷의 캠페인 매개 변수에 액세스할 수 있습니다(Adobe Campaign 아님). 이러한 매개 변수는 **로컬 캠페인(양식)의 매개 변수와 동일합니다**.
+* **[!UICONTROL Pre-set]** :로컬 엔티티는 지역화하지 않고 기본 양식을 사용하여 캠페인을 주문합니다.
 
    ![](assets/mkt_distr_5.png)
 
 ### 기본값 {#default-values}
 
-로컬 엔티티 **[!UICONTROL Default values]** 에서 작성할 항목을 선택합니다. 예:
+로컬 엔티티 **[!UICONTROL Default values]** 에서 작성할 항목을 선택합니다. 예제:
 
 * 연락처 및 추출 날짜
 * 타겟 특성(연령 세그먼트 등)
@@ -115,7 +112,7 @@ ht-degree: 0%
 
 ### 문서 {#documents}
 
-로컬 엔티티 연산자가 문서(텍스트 파일, 스프레드시트, 이미지, 캠페인 설명 등)를 연결하도록 허용할 수 있습니다. 순서를 만들 때 로컬 캠페인으로 이동합니다. 이 **[!UICONTROL Advanced parameters for campaign entry...]** 링크를 통해 문서 수를 제한할 수 있습니다. 이렇게 하려면 필드에 허용되는 최대 수를 **[!UICONTROL Number of documents]** 입력하십시오.
+로컬 엔티티 연산자가 문서(텍스트 파일, 스프레드시트, 이미지, 캠페인 설명 등)를 연결하도록 허용할 수 있습니다. 을 로컬 캠페인으로 설정합니다. 이 **[!UICONTROL Advanced parameters for campaign entry...]** 링크를 통해 문서 수를 제한할 수 있습니다. 이렇게 하려면 필드에 허용되는 최대 수를 **[!UICONTROL Number of documents]** 입력하십시오.
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 
@@ -165,7 +162,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->캠페인 템플릿과 일반 구성은 [캠페인 템플릿에 자세히 설명되어 있습니다](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>캠페인 템플릿 및 일반 구성은 [캠페인 템플릿에 자세히 설명되어 있습니다](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 ## 캠페인 패키지 만들기 {#creating-the-campaign-package}
 
@@ -174,7 +171,7 @@ ht-degree: 0%
 다음 단계를 적용합니다.
 
 1. 캠페인 **[!UICONTROL Navigation]** 페이지의 **섹션에서** **[!UICONTROL Campaign packages]** 링크를 클릭합니다.
-1. **[!UICONTROL Create]** 버튼을 클릭합니다. 
+1. **[!UICONTROL Create]** 버튼을 클릭합니다.
 
    ![](assets/mkg_dist_add_an_entry.png)
 
@@ -276,9 +273,9 @@ ht-degree: 0%
 
    ![](assets/mkg_dist_local_op_catalog_detail_3.png)
 
-   자세한 내용은 승인 프로세스 [섹션을 참조하십시오](#approval-process) .
+   For more on this, refer to the [Approval process](#approval-process) section.
 
-1. 그런 다음 로컬 운영자에게 캠페인을 사용할 수 있다는 알림이 표시됩니다. 캠페인 가용성은 **캠페인 우주 내의 캠페인 패키지 목록에서 찾을 수 있습니다** . 그런 다음 캠페인을 사용할 수 있습니다. For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
+1. 그런 다음 로컬 운영자에게 캠페인을 사용할 수 있다는 알림이 표시됩니다.캠페인 가용성은 **캠페인 우주 내의 캠페인 패키지 목록에서 찾을 수 있습니다** . 그런 다음 캠페인을 사용할 수 있습니다. For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
 
    이 **[!UICONTROL Start targeting with order approval]** 옵션을 사용하면 주문이 승인되는 즉시 로컬 엔티티가 캠페인을 실행할 수 있습니다.
 
@@ -308,7 +305,7 @@ ht-degree: 0%
 
 ![](assets/mkg_dist_command_valid_web.png)
 
-#### Adobe Campaign 콘솔을 통해 승인 {#approving-via-the-adobe-campaign-console}
+#### Adobe Campaign 콘솔을 통한 승인 {#approving-via-the-adobe-campaign-console}
 
 또한 캠페인 주문 개요에서 콘솔을 통해 주문을 승인할 수 있습니다. 주문을 승인하려면 주문을 선택하고 클릭합니다 **[!UICONTROL Approve the order]**.
 
@@ -332,9 +329,9 @@ For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-
 
 ![](assets/mkg_dist_do_not_valid.png)
 
-검토자가 주문을 거부하면 관련 알림이 관련 로컬 엔티티에 자동으로 전송됩니다. 승인을 거부한 연산자가 입력한 댓글이 표시됩니다.
+검토자가 주문을 거부하면 관련 알림이 관련 로컬 엔티티에 자동으로 전송됩니다.승인을 거부한 연산자가 입력한 댓글이 표시됩니다.
 
-캠페인 패키지 목록 페이지 또는 캠페인 주문 페이지에 정보가 표시됩니다. Adobe Campaign 콘솔에 액세스할 수 있는 로컬 엔티티에 이러한 거부에 대한 정보가 표시됩니다.
+캠페인 패키지 목록 페이지 또는 캠페인 주문 페이지에 정보가 표시됩니다. Adobe Campaign 콘솔에 액세스할 수 있는 경우 로컬 개체에 이러한 거부에 대한 정보가 표시됩니다.
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 
