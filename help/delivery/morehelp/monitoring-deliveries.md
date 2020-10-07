@@ -1,6 +1,6 @@
 ---
-title: 배달 모니터링
-seo-title: 배달 모니터링
+title: 게재 모니터링
+seo-title: 게재 모니터링
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -8,14 +8,14 @@ uuid: 9ba80848-8926-40da-b7e3-c857dcf7c14c
 contentOwner: sauviat
 discoiquuid: 613d2fb6-31b0-40f6-b87b-8cec98feb74d
 iscontainer: true
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '8'
+ht-degree: 100%
 
 ---
 
 
-# 배달 모니터링{#monitoring-deliveries}
+# 게재 모니터링{#monitoring-deliveries}
 
