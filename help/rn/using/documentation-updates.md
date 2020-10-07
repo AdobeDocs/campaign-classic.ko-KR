@@ -9,14 +9,11 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6483c3e2e9fd3a2951b2bc8bf6d8a3350361e86f
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '3704'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -86,7 +83,7 @@ Campaign Classic 모니터링과 관련된 지침과 함께 새 섹션이 추가
 
 Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요청 프로세스를 설정할 수 있는 API를 사용할 때 사용 가능한 &#39;규제&#39; 필드에 대한 정보로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-개인 정보 관리 개요 페이지는 태국 개인정보 보호법(Personal Data Protection Act)(PDPA) 및 브라질 레이제랄 데 프로테카앙 데 도도스(LGPD)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+개인 정보 관리 개요 페이지는 태국의 PDPA(개인 정보 보호법) 및 브라질의 LGPD(Lei Geral de Proteção de Dados)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 하위 워크플로우 로그 및 오류 발생 시 동작에 정보가 추가되었습니다. [자세한 내용](../../workflow/using/sub-workflow.md)
 
