@@ -1,7 +1,7 @@
 ---
-title: 지속적인 전달
-seo-title: 지속적인 전달
-description: 지속적인 전달
+title: 지속적인 게재
+seo-title: 지속적인 게재
+description: 지속적인 게재
 seo-description: null
 page-status-flag: never-activated
 uuid: af8b4582-299e-47f9-9819-987b35db94ab
@@ -11,19 +11,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 9d80be19-8dde-4278-ab5f-23f364fe422e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# 지속적인 전달{#continuous-delivery}
+# 지속적인 게재{#continuous-delivery}
 
 연속 **배달** 유형 작업을 사용하면 기존 배달에 새 받는 사람을 추가할 수 있습니다. 이 배달 유형은 매번 새 배달을 만들지 않아도 됩니다.이 모드는 특히 필요한 경우 소량 경고나 알림을 보낼 때 보다 효율적인 경우가 많습니다. 배달 템플릿 수준에서, 연결된 게재의 레이블(및 캠페인 폴더)을 계산하는 스크립트를 지정할 수 있습니다. 스크립트가 아직 존재하지 않는 배달을 계산하면 즉시 만들어집니다.
 
