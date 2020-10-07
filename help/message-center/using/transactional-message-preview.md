@@ -11,24 +11,24 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 3bc88f9c-cc42-4bf6-a318-0093c73e4d82
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 21%
 
 ---
 
 
 # 트랜잭션 메시지 미리 보기{#transactional-message-preview}
 
-하나 이상의 시드 주소와 메시지 본문을 만들었으면 메시지를 미리 보고 개인화를 확인할 수 있습니다.
+하나 이상의 시드 주소와 메시지 본문을 만들고 나면 메시지를 미리 보고 개인화를 확인할 수 있습니다.
 
 1. 메시지 템플릿에서 **[!UICONTROL Preview]** 탭을 클릭합니다.
 
    ![](assets/messagecenter_preview_001.png)
 
-1. 드롭다운 **[!UICONTROL A seed address]** 목록에서 선택합니다.
+1. Select **[!UICONTROL A seed address]** in the drop-down list.
 
    ![](assets/messagecenter_preview_002.png)
 
