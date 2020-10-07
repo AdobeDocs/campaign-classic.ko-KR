@@ -11,47 +11,47 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 discoiquuid: 477a2c31-0403-4db1-a372-c75dca58380d
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 6%
 
 ---
 
 
 # SOAP를 통한 통합(서버측){#integration-via-soap-server-side}
 
-오퍼 관리에 제공된 SOAP 웹 서비스는 일반적으로 Adobe Campaign에 사용되는 서비스와 다릅니다. 이전 섹션에 설명된 상호 작용 URL을 통해 액세스할 수 있으며 특정 연락처에 대한 오퍼를 제공하거나 업데이트할 수 있습니다.
+오퍼 관리를 위해 제공되는 SOAP 웹 서비스는 Adobe Campaign에서 주로 사용되는 서비스와 다르다. 이전 섹션에 설명된 상호 작용 URL을 통해 액세스할 수 있으며 특정 연락처에 대한 오퍼를 제공하거나 업데이트할 수 있습니다.
 
 ## 제안 {#offer-proposition}
 
-SOAP를 통한 오퍼 제안의 경우 **nms:propose#Propose** 명령 다음에 다음 매개 변수를 추가합니다.
+SOAP를 통한 제안 제안의 경우 **nms:propose#Propose** 명령 다음에 다음 매개 변수를 추가하십시오.
 
-* **targetId**:받는 사람의 기본 키(복합 키 가능)
-* **maxCount**:연락처의 오퍼 수를 지정합니다.
+* **targetId**:받는 사람의 기본 키(복합 키일 수 있음)
+* **maxCount**:연락처에 대한 오퍼 제안 수를 지정합니다.
 * **컨텍스트**:공간 스키마에 컨텍스트 정보를 추가할 수 있습니다. 사용된 스키마가 **nms:interaction**&#x200B;인 경우 **`<empty>`** 추가해야 합니다.
 * **카테고리**:오퍼가 속해야 하는 카테고리를 지정합니다.
 * **테마**:오퍼가 속해야 하는 테마를 지정합니다.
-* **uuid**:값: Adobe Campaign 영구 쿠키(&quot;uuid230&quot;).
-* **nli**:값이 Adobe Campaign 세션 쿠키의 값(&quot;nlid&quot;)입니다.
+* **uuid**:adobe campaign 영구 쿠키의 값(&quot;uuid230&quot;).
+* **nli**:adobe campaign 세션 쿠키의 값(&quot;nlid&quot;).
 * **noProp**:&quot;true&quot; 값을 사용하여 제안 삽입을 비활성화합니다.
 
 >[!NOTE]
 >
->targetId **및** maxCount **설정은** 필수입니다. 나머지는 선택 사항입니다.
+>targetId **및** maxCount **설정은** 필수입니다. 다른 것들은 선택 사항입니다.
 
 쿼리에 응답하여 SOAP 서비스는 다음 매개 변수를 반환합니다.
 
 * **interactionId**:상호 작용의 ID입니다.
-* **제안**:XML 요소에는 각각 고유한 ID와 HTML 표현을 사용하는 제안 목록이 포함되어 있습니다.
+* **proposition**:XML 요소에는 프로필 목록이 들어 있으며 각 요소에는 자체 ID 및 HTML 표현이 포함되어 있습니다.
 
 ## 오퍼 업데이트 {#offer-update}
 
 URL에 **nms:interaction#UpdateStatus** 명령을 추가하고 다음 매개 변수를 추가합니다.
 
-* **제안**:문자열 of characters, it contains the proposition ID given as an offer provision. 제안 [제안을 참조하십시오](#offer-proposition).
-* **상태**:문자열 유형으로 오퍼의 새 상태를 지정합니다. 가능한 값은 **nms:common** 스키마의 provisionStatus **** 열거에 나열되어 있습니다. 예를 들어, 기본적으로 숫자 3은 수락됨 **상태에 해당합니다** .
+* **제안**:문자열 of characters, it contains the promise ID given as an output during an offer provision. 제안 [제안을 참조하십시오](#offer-proposition).
+* **상태**:문자열 유형으로, 오퍼의 새 상태를 지정합니다. 가능한 값은 **nms:common** 스키마의 progementStatus **** 열거에 나열되어 있습니다. 예를 들어 기본적으로 숫자 3은 **수락됨** 상태에 해당합니다.
 * **컨텍스트**:XML 요소를 사용하면 공간 스키마에 컨텍스트 정보를 추가할 수 있습니다. 사용된 스키마가 **nms:interaction**&#x200B;인 경우 **`<empty>`** 추가해야 합니다.
 
 ## SOAP 호출 사용 예 {#example-using-a-soap-call}
