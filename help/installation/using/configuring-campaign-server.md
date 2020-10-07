@@ -11,14 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '3593'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -29,7 +26,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->이러한 구성은 관리자가 수행해야 하고 온-프레미스 **호스팅 모델만** 수행해야 합니다.
+>이러한 구성은 관리자가 수행해야 하고 **온-프레미스** 호스팅 모델에 대해서만 수행해야 합니다.
 >
 >호스팅 **배포의** 경우 서버측 설정은 Adobe에서만 구성할 수 있습니다. 하지만 일부 설정은 Campaign 컨트롤 패널 내에서 설정할 수 있습니다(예: IP 허용 목록 관리 또는 URL 권한).
 
@@ -37,7 +34,7 @@ ht-degree: 3%
 
 * [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 * [호스팅 모델](../../installation/using/hosting-models.md)
-* [Campaign Classic 온프레미스 및 호스팅 기능 매트릭스](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)
+* [Campaign Classic 온프레미스 및 호스팅 기능 매트릭스](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html)
 * [하이브리드 및 호스팅 모델 구성 단계](../../installation/using/about-hybrid-and-hosted-models.md) )
 
 Campaign Classic 구성 파일은 Adobe Campaign 설치 폴더의 **conf** 폴더에 저장됩니다. 구성은 다음 두 파일에 분산됩니다.
@@ -558,7 +555,7 @@ Adobe Campaign 콘솔을 통해 액세스하는 경우 **해시** 또는 **고�
 
    드롭다운 목록에는 이전에 사용한 친화성이 포함되어 있습니다. 입력한 값이 서로 다른 시간에 걸쳐 완료됩니다.
 
-1. nl6/conf/config- **`<instance>.xml`**파일을 엽니다.
+1. nl6/conf/config- **`<instance>.xml`** 파일을 엽니다.
 1. 다음과 같이 모듈과 일치하는 **[!UICONTROL wfserver]** 라인을 수정합니다.
 
    ```
