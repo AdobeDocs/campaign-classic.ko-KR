@@ -11,14 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c86af066045c1c35b51624de8565af21746354c1
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -115,7 +112,7 @@ For more on this, refer to the [Split](../../workflow/using/split.md) section.
 
 ### 정보 및 링크 추가 {#adding-information-and-links}
 
-데이터 연계 강화 기능을 사용하면 워크플로우의 작업 테이블에 데이터를 추가할 수 있을 뿐만 아니라 외부 테이블에 대한 링크를 추가할 수 있습니다. 따라서 외부 데이터베이스의 데이터를 활용할 수 있습니다. 이 활동은 [데이터 연계 강화](../../workflow/using/enrichment.md) 섹션에 제공됩니다.
+데이터 연계 강화 기능을 사용하면 워크플로우의 작업 테이블에 데이터를 추가하고 외부 테이블에 대한 링크를 추가할 수 있습니다. 따라서 외부 데이터베이스의 데이터를 활용할 수 있습니다. 이 활동은 [데이터 연계 강화](../../workflow/using/enrichment.md) 섹션에 제공됩니다.
 <!--
 
 ## Cloud Messaging - FDA synchronization {#cloud-messaging---fda-synchronization}
