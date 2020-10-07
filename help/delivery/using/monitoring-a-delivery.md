@@ -11,11 +11,8 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2567'
 ht-degree: 2%
@@ -25,7 +22,7 @@ ht-degree: 2%
 
 # 게재 모니터링{#monitoring-a-delivery}
 
-배달 **대시보드는** 메시지를 보내는 동안 발생하는 전달 및 최종 문제를 모니터링하기 위한 핵심입니다.
+배달 **대시보드는** 메시지를 전송하는 동안 발생하는 전달 및 최종 문제를 모니터링하기 위한 핵심 요소입니다.
 
 **관련 항목:**
 
@@ -70,7 +67,7 @@ ht-degree: 2%
 >
 >게재에 대한 추적이 활성화되지 않으면 이 탭이 표시되지 않습니다.
 
-배달 마법사의 적절한 단계에서 추적 구성이 수행됩니다. 추적된 링크 [를 구성하는 방법을 참조하십시오](../../delivery/using/how-to-configure-tracked-links.md).
+배달 마법사의 적절한 단계에서 추적 구성이 수행됩니다. See [How to configure tracked links](../../delivery/using/how-to-configure-tracked-links.md).
 
 **[!UICONTROL Tracking]** 데이터는 배달 보고서에서 해석됩니다. [이 섹션](../../reporting/using/delivery-reports.md)을 참조하십시오.
 
@@ -111,7 +108,7 @@ ht-degree: 2%
 * **배달**&#x200B;대상:배달 성능 제한은 다시 시도 구성에 따라 처리되는 소프트 바운스 오류로 인해 영향을 받습니다. 오류 수가 많을수록 더 많은 재시도가 필요합니다.
 * **전체 플랫폼 로드**:여러 개의 큰 배달이 전송되면 전체 플랫폼에 영향을 줄 수 있습니다. 또한 IP 명성과 전달 가능성 문제를 확인할 수 있습니다. 자세한 내용은 Adobe Campaign 전달 [가능성 우수 사례 가이드](../../delivery/using/deliverability-key-points.md) 및 [이 페이지를 참조하십시오](../../delivery/using/about-deliverability.md).
 
-플랫폼 및 데이터베이스 유지 관리도 배달 전송 성능에 영향을 줄 수 있습니다. For more on this, refer to [this page](../../production/using/database-performances.md).
+플랫폼 및 데이터베이스 유지 관리도 배달 전송 성능에 영향을 줄 수 있습니다. 자세한 정보는 이 [페이지](../../production/using/database-performances.md)를 참조하십시오.
 
 ### 느린 전달 {#slow-deliveries}
 
@@ -252,7 +249,7 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한
 
    원인은 성능 문제와 연결되어 있습니다. 즉, 마케팅 인스턴스가 데이터를 중간 소싱 서버로 보내기 전에 데이터 작성에 너무 많은 시간을 소비합니다.
 
-   이 문제를 해결하려면 데이터베이스에 진공청소기를 다시 색인화하는 것이 좋습니다. For more information on database maintenance, refer to [this section](../../production/using/recommendations.md).
+   이 문제를 해결하려면 진공청소기를 실행하고 데이터베이스에 다시 색인화하는 것이 좋습니다. For more information on database maintenance, refer to [this section](../../production/using/recommendations.md).
 
    또한 예약된 활동이 있는 모든 워크플로우와 실패한 상태의 모든 워크플로우도 다시 시작해야 합니다. [이 섹션](../../workflow/using/scheduler.md)을 참조하십시오.
 
