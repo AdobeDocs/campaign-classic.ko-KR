@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Classic을 사용하여 트랜잭션 메시지에 첨부 파일 추가
-description: Adobe Campaign Classic을 사용하여 개별 및/또는 개인화된 첨부 파일을 사용하여 트랜잭션 이메일을 전송하는 방법 학습
+description: Adobe Campaign Classic을 사용하여 개인 및/또는 개인화된 첨부 파일을 통해 거래 기반의 이메일을 전송하는 방법 살펴보기
 page-status-flag: never-activated
 uuid: 4452d839-318a-49d8-8abb-4ba04c803e9f
 contentOwner: sauviat
@@ -9,25 +9,22 @@ audience: message-center
 content-type: reference
 topic-tags: use-case
 discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 22d0e70f77eb3759632e05ab1cb0d8ee53adfac9
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 사용 사례: 첨부 파일이 있는 트랜잭션 이메일 보내기{#transactional-email-with-attachments}
+# 사용 사례:첨부 파일이 있는 트랜잭션 이메일 보내기{#transactional-email-with-attachments}
 
 이 사용 사례의 목적은 이메일 첨부 파일을 신속하게 아웃바운드 디스패치에 추가하는 것입니다.
 
 ## 주요 단계 {#key-steps}
 
-이 시나리오에서는 개별 및/또는 개인화된 첨부 파일로 트랜잭션 이메일을 보내는 방법을 알아봅니다. 첨부 파일은 트랜잭션 메시지 서버에 미리 업로드되지 않습니다. 대신 즉시 생성됩니다.
+이 시나리오에서는 개별 및/또는 개인화된 첨부 파일로 트랜잭션 이메일을 보내는 방법을 알아봅니다. 첨부 파일은 트랜잭션 메시지 서버에 미리 업로드되지 않습니다.대신 즉시 생성됩니다.
 
 고객과의 인터랙션 또는 세부 사항을 캡처할 때 이러한 정보를 프로세스 종료 시 고객에게 다시 보내야 할 수 있습니다. 예를 들어 이메일에 첨부된 PDF 파일로 이러한 정보를 전송할 수 있습니다.
 
@@ -49,7 +46,7 @@ ht-degree: 0%
 >
 >성능 문제를 방지하려면, 개인화된 URL에서 즉시 다운로드한 이미지를 첨부 파일로 포함하는 경우 각 이미지 크기는 기본적으로 100,000바이트를 초과할 수 없습니다. 이 권장 임계값은 Campaign Classic 옵션 목록 [에서 구성할 수 있습니다](../../installation/using/configuring-campaign-options.md#delivery).
 
-## Recommendations {#important-notes}
+## 추천 {#important-notes}
 
 이 시나리오를 구현하기 전에 아래 지침을 주의 깊게 읽어 보십시오.
 
@@ -70,7 +67,7 @@ ht-degree: 0%
 
 트랜잭션 메시지에 즉각적으로 이메일 첨부 파일을 추가하려면 아래 단계를 따르십시오.
 
-1. 먼저 첨부 파일을 디자인합니다. For more on this, see [this section](../../delivery/using/attaching-files.md#attach-a-personalized-file).
+1. 먼저 첨부 파일을 디자인합니다. 자세한 내용은 [이 섹션](../../delivery/using/attaching-files.md#attach-a-personalized-file)을 참조하십시오.
 
    따라서 실행 인스턴스에서 호스팅되지 않더라도 이메일에 파일을 첨부할 수 있습니다.
 
