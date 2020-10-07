@@ -11,14 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -51,27 +48,27 @@ ht-degree: 0%
 
 대상 **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
-1. 워크플로우가 매일 **[!UICONTROL Database Cleanup]** 성공적으로 실행되고 완료되는지 확인합니다. For more on this, refer to this [page](../../workflow/using/delivery.md).
+1. 워크플로우가 매일 **[!UICONTROL Database Cleanup]** 성공적으로 실행되고 완료되는지 확인합니다. 자세한 정보는 이 [페이지](../../workflow/using/delivery.md)를 참조하십시오.
 1. 저널을 통해 경과된 시간이 시간에 따라 상대적으로 일정하고 다른 워크플로우를 방해하지 않는지 확인합니다.
 1. 자세한 내용은 이 [페이지를 확인하십시오](../../production/using/database-cleanup-workflow.md).
 
 대상 **[!UICONTROL Tracking workflow (‘tracking’)]**:
 
-추적 워크플로가 예약대로(기본적으로 매 시간마다) 실행되고 저널이 반복 오류를 강조 표시하지 않는지 확인합니다. For more on this, refer to this [section](../../workflow/using/delivery.md).
+추적 워크플로가 예약대로(기본적으로 매 시간마다) 실행되고 저널이 반복 오류를 강조 표시하지 않는지 확인합니다. 자세한 정보는 이 [섹션](../../workflow/using/delivery.md)을 참조하십시오.
 
 대상 **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
 
-1. 워크플로우가 매일 **[!UICONTROL Deliverability update]** 성공적으로 실행되고 완료되는지 확인합니다. For more on this, refer to this [page](../../workflow/using/delivery.md).
+1. 워크플로우가 매일 **[!UICONTROL Deliverability update]** 성공적으로 실행되고 완료되는지 확인합니다. 자세한 정보는 이 [페이지](../../workflow/using/delivery.md)를 참조하십시오.
 1. 규칙이 정기적으로 업데이트되고 있는지 저널에서 확인합니다.
 
 대상 **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
 
-1. 폴더 아래에 있는 모든 워크플로우를 **[!UICONTROL Campaign process]** 확인합니다. For more on this, refer to this [page](../../workflow/using/campaign.md).
+1. 폴더 아래에 있는 모든 워크플로우를 **[!UICONTROL Campaign process]** 확인합니다. 자세한 정보는 이 [페이지](../../workflow/using/campaign.md)를 참조하십시오.
 1. 워크플로가 예약대로 실행되고 저널에 반복적인 오류가 강조 표시되지 않는지 확인합니다.
 
 ## 워크플로우 감독 {#workflow-supervision}
 
-하지만 **[!UICONTROL Workflow supervisors]** 실패에 대해 제대로 알 수 있는 연산자가 있어야 하고, 구체적인 행동을 제때에 할 수 있는 연산자가 있어야 한다.
+이 **[!UICONTROL Workflow supervisors]** 그룹에는 실패를 알리고 제 시간에 행동에 나설 수 있는 연산자가 있어야 한다.
 
 ![](assets/monitoring_technical_workflows3.png)
 
