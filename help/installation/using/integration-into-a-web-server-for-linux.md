@@ -11,18 +11,18 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 752ba848-aee9-4bb0-b2c5-490f3124f74e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4fbc576ba65c44d91ac87ea2967fac3b0a88a040
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 5%
 
 ---
 
 
 # Linux용 웹 서버와 통합{#integration-into-a-web-server-for-linux}
 
-Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버의 시작 지점 역할을 하는 Apache Tomcat이 포함되어 있습니다.
+Adobe Campaign에는 HTTP(및 SOAP)를 통해 응용 프로그램 서버의 진입점으로 작동하는 Apache Tomcat이 포함되어 있습니다.
 
 이 통합된 Tomcat 서버를 사용하여 HTTP 요청을 처리할 수 있습니다.
 
@@ -35,7 +35,7 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버의 시�
    http://<computer>:8080
    ```
 
-그러나 보안 및 관리상의 이유로 Adobe Campaign을 실행 중인 컴퓨터가 인터넷에 노출되고 네트워크 외부의 콘솔에 대한 액세스를 열려는 경우 전용 웹 서버를 HTTP 트래픽의 기본 시작 지점으로 사용하는 것이 좋습니다.
+그러나 보안 및 관리상의 이유로, Adobe Campaign을 실행 중인 컴퓨터가 인터넷에 노출되고 네트워크 외부의 콘솔에 대한 액세스를 열려는 경우 전용 웹 서버를 HTTP 트래픽의 기본 시작 지점으로 사용하는 것이 좋습니다.
 
 또한 웹 서버를 사용하면 HTTPs 프로토콜을 통해 데이터 기밀성을 보장할 수 있습니다.
 
@@ -83,7 +83,7 @@ APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적�
     a2enmod nlsrv
    ```
 
-   Adobe Campaign 페이지에 대한 **mod_rewrite** 모듈을 사용하는 경우, nlsrv.load **및** nlsrv.conf **파일의 이름을** nlsrv.load lsrv. **zzlsrv 및 nsrv.conf로 변경해야 합니다** ****. 모듈을 활성화하려면 다음 명령을 실행합니다.
+   Adobe Campaign 페이지에 대한 **mod_rewrite** 모듈 **을 사용 중인 경우, nlsrv.load** 및 **nlsrv.conf** 파일의 이름을 **zz-nsrv.loadSrv.jz-srv.nconf로 변경해야 합니다** ****. 모듈을 활성화하려면 다음 명령을 실행합니다.
 
    ```
    a2enmod zz-nlsrv
@@ -99,7 +99,7 @@ APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적�
 
    변경 내용을 저장합니다.
 
-1. 그런 다음 다음 다음 유형의 명령을 사용하여 Adobe Campaign 사용자를 Apache 사용자 그룹에 추가하고 그 반대의 경우도 마찬가지입니다.
+1. 그런 다음 다음 다음 유형의 명령을 사용하여 Apache 사용자 그룹에 Adobe Campaign 사용자를, 그 반대로 추가합니다.
 
    ```
    usermod neolane -G www-data
@@ -157,7 +157,7 @@ APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적�
    ForceLanguagePriority
    ```
 
-1. 폴더에 Adobe Campaign 특정 구성 파일을 `/etc/httpd/conf.d/` 만듭니다. For example `CampaignApache.conf`
+1. 폴더에 Adobe Campaign 특정 구성 파일을 `/etc/httpd/conf.d/` 만듭니다. 예제 `CampaignApache.conf`
 
 1. RHEL7 ****&#x200B;의 경우 파일에 다음 지침을 추가합니다.
 
