@@ -9,14 +9,11 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 discoiquuid: 0af1fd96-48ef-43c9-a03b-0f9a6e0e02fe
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -40,9 +37,9 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스 및 
 
 ## 솔루션 연결 {#working-with-experience-cloud-solutions}
 
-환경에 따라 여러 솔루션을 Adobe Experience Cloud에 연결할 수 있습니다. 이 지표는 조직으로 연결됩니다. 조직은 **관리자가 그룹 및 사용자를 구성하고 Experience Cloud에서 Single Sign-On을 제어할 수 있도록 해주는 개체입니다** . 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 하지만, 회사는 많은 조직을 가질 수 있습니다.
+환경에 따라 여러 솔루션을 Adobe Experience Cloud에 연결할 수 있습니다. 이 지표는 조직으로 연결됩니다. An **organization** is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사의 이름입니다. 하지만 회사는 여러 조직을 가질 수 있습니다.
 
-조직 관리 및 Adobe Experience Cloud 계정 연결은 [Adobe Experience Cloud 도움말 포털에 자세히 설명되어 있습니다](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
+조직 관리 및 Adobe Experience Cloud 계정 연결은 [Adobe Experience Cloud 도움말 포털에 자세히 설명되어 있습니다](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/organizations.html).
 
 >[!CAUTION]
 >
@@ -74,11 +71,11 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스 및 
   </tr> 
   <tr> 
    <td> <strong>Adobe Experience Manager</strong><br /> </td> 
-   <td> Adobe Campaign 데이터베이스에 직접 매핑된 이메일 내용 또는 양식을 <strong>Adobe Experience Manager에서 만들 수 있습니다</strong>.<br /> <p><a href="../../integrations/using/about-adobe-experience-manager.md">Adobe Campaign에 대한 자세한</a> 내용 - Adobe Experience Manager 통합</p><br /> </td> 
+   <td> Allows you to create email contents or forms mapped to the Adobe Campaign database directly in <strong>Adobe Experience Manager</strong>.<br /> <p><a href="../../integrations/using/about-adobe-experience-manager.md">Adobe Campaign에 대한 자세한</a> 내용 - Adobe Experience Manager 통합</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Target</strong><br /> </td> 
-   <td> Adobe Campaign에서 만들고 보낸 이메일이 열리면 <strong>Adobe Target</strong> 가 동적으로 계산하는 이미지를 삽입할 수 있습니다.<br /> <p><a href="../../integrations/using/integrating-with-adobe-target.md">Adobe Campaign에 대한 자세한</a> 내용 - Adobe Target 통합</p><br /> </td> 
+   <td> Allows you to insert images that are dynamically computed by <strong>Adobe Target</strong> when the email created and sent by Adobe Campaign is opened.<br /> <p><a href="../../integrations/using/integrating-with-adobe-target.md">Adobe Campaign에 대한 자세한</a> 내용 - Adobe Target 통합</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>People 코어 서비스</strong><br /> <strong>Adobe Audience Manager</strong><br /> </td> 
@@ -86,11 +83,11 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스 및 
   </tr> 
   <tr> 
    <td> <strong>자산 핵심 서비스</strong><br /> </td> 
-   <td> Adobe Experience Cloud 라이브러리의 에셋을 Adobe Campaign에서 만든 이메일 및 랜딩 페이지에 삽입할 수 있습니다.<br /> <p><a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-experience-cloud-assets">Adobe Campaign에 대한 자세한</a> 내용 - 자산 핵심 서비스 통합</p><br /> </td> 
+   <td> Adobe Experience Cloud 라이브러리의 자산을 Adobe Campaign에서 만든 이메일 및 랜딩 페이지에 삽입할 수 있습니다.<br /> <p><a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-experience-cloud-assets">Adobe Campaign에 대한 자세한</a> 내용 - 자산 핵심 서비스 통합</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AEM Assets</strong><br /> </td> 
-   <td> Adobe Campaign에서 만든 이메일 및 랜딩 페이지에 <strong>AEM Assets</strong> 라이브러리의 에셋을 삽입할 수 있습니다.<br /> <p><a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets">Adobe Campaign에 대한 자세한</a> 내용 - AEM Assets 통합</p><br /> </td> 
+   <td> Allows you to insert assets from your <strong>AEM Assets</strong> library into emails and landing pages created in Adobe Campaign.<br /> <p><a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets">Adobe Campaign에 대한 자세한</a> 내용 - AEM Assets 통합</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Experience Cloud 트리거</strong><br /> </td> 
