@@ -1,7 +1,7 @@
 ---
-title: 데이터 농축
-seo-title: 데이터 농축
-description: 데이터 농축
+title: 데이터 강화
+seo-title: 데이터 강화
+description: 데이터 강화
 seo-description: null
 page-status-flag: never-activated
 uuid: 3f65a8a2-b3e1-4c4c-9653-b8a7c4d7557a
@@ -11,19 +11,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: f87da08f-68b9-4e2b-821f-b3ff20e390f1
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1aca6758bc787f91ae28d7d5add875edf04541e8
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 데이터 농축{#enriching-data}
+# 데이터 강화{#enriching-data}
 
 ## 데이터 농축에 대한 정보 {#about-enriching-data}
 
@@ -56,7 +53,7 @@ ht-degree: 0%
 1. 이 **[!UICONTROL Split]** 유형 활동을 통해 점수를 기준으로 수신자 하위 세트를 만들 수 있습니다.
 1. 각 하위 세트에 대해 유형 활동이 **[!UICONTROL Delivery]** 추가됩니다.
 
-## 1단계: 타깃팅 {#step-1--targeting}
+## 1단계:타깃팅 {#step-1--targeting}
 
 첫 번째 쿼리를 통해 지난 6개월 동안 데이터베이스에 추가된 수신자를 타깃팅할 수 있습니다.
 
@@ -68,7 +65,7 @@ ht-degree: 0%
 
 그런 다음 지난 6개월 이내에 데이터베이스에 추가된 수신자와 마지막 경쟁업체에 가입한 수신자를 타게팅하기 위해 유형 활동이 추가됩니다. **[!UICONTROL Intersection]**
 
-## 2단계: 농축 {#step-2--enrichment}
+## 2단계:농축 {#step-2--enrichment}
 
 이 예에서는 테이블에 저장된 필드에 따라 배달 **[!UICONTROL Score]** 을 개인화하고자 **[!UICONTROL Competition results]** 합니다. 이 표는 받는 사람 테이블과의 1n형 관계입니다. 이 **[!UICONTROL Enrichment]** 활동을 통해 필터링 차원에 연결된 테이블의 데이터를 워크플로의 작업 테이블에 추가할 수 있습니다.
 
@@ -76,23 +73,23 @@ ht-degree: 0%
 
    ![](assets/uc1_enrich_6.png)
 
-1. 그런 다음 **[!UICONTROL Data linked to the filtering dimension]** 옵션을 선택하고 **[!UICONTROL Competition results]** 표를 선택한 다음 을 클릭합니다 **[!UICONTROL Next]**.
+1. 그런 다음 **[!UICONTROL Data linked to the filtering dimension]** 옵션을 선택하고 **[!UICONTROL Competition results]** 테이블을 선택한 다음 을 클릭합니다 **[!UICONTROL Next]**.
 
    ![](assets/uc1_enrich_7.png)
 
-1. ID와 레이블을 입력하고 필드에서 **[!UICONTROL Limit the line count]** 옵션을 **[!UICONTROL Data collected]** 선택합니다. 필드에서 **[!UICONTROL Lines to retrieve]** &#39;1&#39;을 값으로 선택합니다. 각 수신자의 경우 데이터 연계 강화 활동은 워크플로우의 작업 테이블에 **[!UICONTROL Competition results]** 한 줄을 추가합니다. 클릭 **[!UICONTROL Next]**.
+1. ID와 레이블을 입력하고 필드에서 **[!UICONTROL Limit the line count]** 옵션을 **[!UICONTROL Data collected]** 선택합니다. 필드에서 **[!UICONTROL Lines to retrieve]** &#39;1&#39;을 값으로 선택합니다. 각 수신자의 경우 데이터 연계 강화 활동은 워크플로우의 작업 테이블에 **[!UICONTROL Competition results]** 하나의 라인을 추가합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/uc1_enrich_8.png)
 
-1. 이 예에서는 마지막 경쟁업체에서만 받는 사람의 최고 점수를 복구하려고 합니다. 이렇게 하려면 필드에 필터를 추가하여 이전 대회와 관련된 모든 줄을 **[!UICONTROL Competition name]** 제외합니다. 클릭 **[!UICONTROL Next]**.
+1. 이 예에서는 마지막 경쟁업체에서만 받는 사람의 최고 점수를 복구하려고 합니다. 이렇게 하려면 필드에 필터를 추가하여 이전 대회와 관련된 모든 줄을 **[!UICONTROL Competition name]** 제외합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/uc1_enrich_9.png)
 
-1. 화면으로 **[!UICONTROL Sort]** 이동하고 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Score]** 필드를 선택한 다음 열의 상자를 **[!UICONTROL descending]** 선택하여 필드 항목을 내림차순으로 **[!UICONTROL Score]** 정렬합니다. 받는 사람마다, 우라늄 농축은 마지막 게임의 최고 점수와 일치하는 라인을 추가합니다. 클릭 **[!UICONTROL Next]**.
+1. 화면으로 **[!UICONTROL Sort]** 이동하고 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Score]** 필드를 선택한 다음 열의 상자를 **[!UICONTROL descending]** 선택하여 필드 항목을 내림차순으로 **[!UICONTROL Score]** 정렬합니다. 받는 사람마다, 우라늄 농축은 마지막 게임의 최고 점수와 일치하는 라인을 추가합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/uc1_enrich_10.png)
 
-1. 창에서 **[!UICONTROL Data to add]** 필드 **[!UICONTROL Score]** 를 두 번 클릭합니다. 각 수신자의 경우, 우라늄 농축은 **[!UICONTROL Score]** 필드만 추가합니다. 클릭 **[!UICONTROL Finish]**.
+1. 창에서 **[!UICONTROL Data to add]** 필드 **[!UICONTROL Score]** 를 두 번 클릭합니다. 각 수신자의 경우, 우라늄 농축은 **[!UICONTROL Score]** 필드만 추가합니다. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/uc1_enrich_11.png)
 
@@ -112,7 +109,7 @@ ht-degree: 0%
 
 ![](assets/uc1_enrich_14.png)
 
-## 3단계: 분할 및 전달 {#step-3--split-and-delivery}
+## 3단계:분할 및 전달 {#step-3--split-and-delivery}
 
 점수를 기준으로 받는 사람을 정렬하기 위해, 농축된 후에 **[!UICONTROL Split]** 활동이 추가됩니다.
 
