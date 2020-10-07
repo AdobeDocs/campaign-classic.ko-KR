@@ -11,22 +11,22 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 798409af-b236-4bb5-ac0f-90f0a19db345
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 10%
 
 ---
 
 
 # 시간 제한{#time-constraint}
 
-시간 **제한** 활동을 사용하면 작업의 실행을 연기하거나 중단할 수 있습니다.
+시간 제한 **** 활동을 사용하면 작업의 실행을 연기하거나 중단할 수 있습니다.
 
 활동의 레이블을 입력하고 워크플로우 작업을 일시 중지해야 하는 기간을 지정합니다.
 
-이 **[!UICONTROL Try again later if outside of execution period]** 옵션을 선택하면 실행 시간 프레임 외부에서 작업을 다시 시작할 수 있습니다. 일시 중단 후 워크플로우 작업을 영구적으로 중단하려면 이 옵션을 선택 취소합니다.
+이 옵션을 **[!UICONTROL Try again later if outside of execution period]** 선택하면 실행 시간 프레임 외부에서 작업을 다시 시작할 수 있습니다. 일시 중단 후 워크플로우 작업을 영원히 중단하려면 이 옵션을 선택 취소합니다.
 
 ![](assets/s_user_scheduled_wait.png)
 
