@@ -11,25 +11,25 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 870ab0f2-1bd7-42e7-8d83-a08a520b6587
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a11a73b0679c0a65dc10f71869bf2a6c6efc008
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
 
 # 백업{#backup}
 
-시스템 상의 문제(물리적 또는 시스템 관련)가 발생할 경우 데이터가 손실되지 않도록 백업하려면 반드시 필요합니다.
+시스템 상의 문제(물리적 또는 시스템 관련 문제)가 발생하는 경우 데이터가 손실되지 않도록 백업하려면 반드시 필요합니다.
 
 데이터는 두 개의 서로 다른 위치에 저장됩니다.
 
-* 실제 파일은 Adobe Campaign 디렉토리에 저장됩니다.
+* 물리적 파일은 Adobe Campaign 디렉토리에 저장됩니다.
 * 다른 데이터는 데이터베이스에 저장됩니다.
 
-대부분의 데이터는 데이터베이스에 있습니다. 백업할 정보의 99%를 나타냅니다.
+대부분의 데이터가 데이터베이스에 있습니다. 백업할 정보의 99%를 나타냅니다.
 
 ## 물리적 파일 {#physical-files}
 
@@ -37,17 +37,17 @@ source-git-commit: 2a11a73b0679c0a65dc10f71869bf2a6c6efc008
 
 * 구성 파일( **nl6/conf에 위치)**
 
-   이를 통해 Adobe Campaign을 신속하게 다시 구성할 수 있습니다.
+   Adobe Campaign을 신속하게 재구성할 수 있습니다.
 
 * 리디렉션 파일 ** nl6/var/`<instancename>`/redir**
 
-   이러한 매개 변수는 추적(종종 &#39;전두엽&#39;) 서버에 있으며 모든 이전 캠페인 리디렉션을 포함합니다. 이전 캠페인에서 여전히 사용됩니다.
+   추적 서버(일명 &#39;전두엽&#39;)에 있으며 모든 이전 캠페인 리디렉션을 포함합니다. 이전 캠페인에서 여전히 사용됩니다.
 
 * 로그 파일: **nl6/var/`<instancename>`/log**
 
-   이러한 기능은 문제를 추적하는 데 사용될 수 있습니다.
+   이것들은 문제를 추적하는 데 사용될 수 있다.
 
-따라서 백업할 디렉토리는 다음과 같습니다.
+백업할 디렉토리는 다음과 같습니다.
 
 * nl6/conf
 
@@ -63,6 +63,6 @@ source-git-commit: 2a11a73b0679c0a65dc10f71869bf2a6c6efc008
 
 ## 데이터베이스 {#database}
 
-데이터베이스에는 Adobe Campaign 리치 클라이언트 콘솔과 모든 비즈니스 라인 데이터에 표시되는 모든 정보가 포함되어 있습니다.
+데이터베이스에는 모든 비즈니스 라인 데이터는 물론 Adobe Campaign 리치 클라이언트 콘솔에 표시되는 모든 정보가 포함되어 있습니다.
 
-이 작업은 호스팅 회사 및 해당 데이터베이스 관리자가 담당합니다.
+호스팅 회사와 특히 데이터베이스 관리자는 이 작업을 담당합니다.
