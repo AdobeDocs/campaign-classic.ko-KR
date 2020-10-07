@@ -11,14 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aef56860d6e4558a7f4833066ab3d83733591522
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -27,36 +24,37 @@ ht-degree: 0%
 
 ## 받은 편지함 렌더링 정보 {#about-inbox-rendering}
 
-[ **보내기** ] 단추를 누르기 전에 메시지가 다양한 웹 클라이언트, 웹 메일 및 장치에서 수신자에게 최적의 방식으로 표시되는지 확인하십시오.
+Before hitting the **Send** button, make sure that your message will be displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
 
 이를 위해 Adobe Campaign은 [리트머스](https://litmus.com/email-testing) 웹 기반 이메일 테스트 솔루션을 활용하여 렌더링을 캡처하고 전용 보고서에서 사용할 수 있도록 합니다. 이렇게 하면 메시지를 받을 수 있는 다른 컨텍스트의 전송된 메시지를 미리 보고 주요 데스크톱 및 응용 프로그램의 호환성을 확인할 수 있습니다.
 
 리트머스 시험지는 기능이 풍부한 이메일 유효성 검사와 애플리케이션 미리 보기입니다. 이메일 컨텐츠 제작자는 Gmail 받은 편지함 또는 Apple Mail 클라이언트와 같은 70개 이상의 이메일 렌더러에서 메시지 내용을 미리 볼 수 있습니다.
 
-Adobe Campaign의 **받은 편지함 렌더링을** 위해 사용할 수 있는 모바일, 메시지 및 웹 메일 클라이언트는 [리트머스 웹](https://litmus.com/email-testing) 사이트 **(모든 이메일 클라이언트 보기 클릭)에**&#x200B;나열됩니다.
+The mobile, messaging and webmail clients available for **Inbox rendering** in Adobe Campaign are listed on the [Litmus website](https://litmus.com/email-testing) (click **View all email clients**).
 
 >[!NOTE]
 >
->배달에서 개인화를 테스트하려면 받은 편지함 렌더링이 필요하지 않습니다. Adobe Campaign 도구(예: **[!UICONTROL Preview]** 및 증명)에서 개인화를 확인할 수 [있습니다](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+>배달에서 개인화를 테스트하려면 받은 편지함 렌더링이 필요하지 않습니다. Adobe Campaign(Facebook) 툴과 교정을 통해 개인화를 확인할 수 **[!UICONTROL Preview]** 있습니다 [](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 ## 받은 편지함 렌더링 활성화 {#activating-inbox-rendering}
 
-호스팅 및 하이브리드 클라이언트의 경우 받은 편지함 렌더링은 Adobe 기술 지원 및 컨설턴트가 인스턴스에 구성합니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
+호스팅된 클라이언트와 하이브리드 클라이언트의 경우 받은 편지함 렌더링은 Adobe 기술 지원 및 컨설턴트로 인스턴스에 구성됩니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
 
 온-프레미스 설치의 경우 아래 절차에 따라 받은 편지함 렌더링을 구성합니다.
 
-1. > > **[!UICONTROL Inbox rendering (IR)]** > **[!UICONTROL Tools]** 메뉴를 통해 패키지를 **[!UICONTROL Advanced]** **[!UICONTROL Import package]** 설치합니다. 자세한 내용은 Campaign Classic [표준 패키지 설치를 참조하십시오](../../installation/using/installing-campaign-standard-packages.md).
+1. > > **[!UICONTROL Inbox rendering (IR)]** > **[!UICONTROL Tools]** 메뉴를 통해 패키지를 **[!UICONTROL Advanced]** **[!UICONTROL Import package]** 설치합니다. 자세한 내용은 Campaign Classic 표준 패키지 [설치를 참조하십시오](../../installation/using/installing-campaign-standard-packages.md).
 1. > > 노드를 통해 HTTP 유형의 외부 계정 **[!UICONTROL Administration]** 을 **[!UICONTROL Platform]****[!UICONTROL External Accounts]** 구성합니다. 자세한 내용은 외부 계정 [만들기를 참조하십시오](../../platform/using/external-accounts.md#creating-an-external-account).
 1. 외부 계정 매개 변수를 다음과 같이 설정합니다.
-   * **[!UICONTROL Label]**: 제공 가능 서버 정보
-   * **[!UICONTROL Internal name]**: deliverabilityInstance
+   * **[!UICONTROL Label]**:제공 가능 서버 정보
+   * **[!UICONTROL Internal name]**:deliverabilityInstance
    * **[!UICONTROL Type]**: HTTP
-   * **[!UICONTROL Server]**: https://deliverability-app.neolane.net/deliverability
-   * **[!UICONTROL Encryption]**: 없음
-   * 옵션을 **[!UICONTROL Enabled]** 확인하십시오.
+   * **[!UICONTROL Server]**:https://deliverability-app.neolane.net/deliverability
+   * **[!UICONTROL Encryption]**:없음
+   * **[!UICONTROL Enabled]** 옵션을 선택합니다.
+
    ![](assets/s_tn_inbox_rendering_external-account.png)
 
-1. > **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 노드로 이동합니다. 배달 보고서 ID를 가져오려면 **[!UICONTROL DmRendering_cuid]** 옵션을 검색하고 지원 센터에 문의하십시오. 이 ID는 **[!UICONTROL Value (text)]** 필드에 복사해야 합니다.
+1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** node. 배달 보고서 ID를 가져오려면 **[!UICONTROL DmRendering_cuid]** 옵션을 검색하고 지원 센터에 문의하십시오. 이 ID는 **[!UICONTROL Value (text)]** 필드에 복사해야 합니다.
 1. 리트머스 서버에 대한 **호출을 허용하도록 serverConf.xml** 파일을 편집합니다. 섹션에 다음 줄을 `<urlPermission>` 추가합니다.
 
    ```
@@ -89,8 +87,9 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰이라고 함
 >
 >토큰은 각 개별 렌더링을 사용하며 전체 받은 편지함 렌더링 보고서가 아닙니다. 즉, 다음과 같습니다.
 >
->* 받은 편지함 렌더링 보고서가 생성될 때마다 메시징 클라이언트당 하나의 토큰을 공제합니다. Outlook 2000 렌더링을 위한 하나의 토큰, Outlook 2010 렌더링을 위한 토큰, Apple Mail 9 렌더링을 위한 토큰.
+>* 받은 편지함 렌더링 보고서가 생성될 때마다 메시징 클라이언트당 하나의 토큰을 공제합니다.Outlook 2000 렌더링을 위한 하나의 토큰, Outlook 2010 렌더링을 위한 토큰, Apple Mail 9 렌더링을 위한 토큰.
 >* 동일한 전달의 경우 받은 편지함 렌더링을 다시 생성하면 사용 가능한 토큰 수가 생성된 렌더링 수로 다시 감소됩니다.
+
 >
 
 
@@ -103,7 +102,7 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰이라고 함
 
 ## 받은 편지함 렌더링 보고서 액세스 {#accessing-the-inbox-rendering-report}
 
-이메일 배달을 만들고 타깃팅된 모집단뿐만 아니라 해당 컨텐츠를 정의했으면 아래 절차를 따르십시오.
+전자 메일 게재를 만들고 타겟팅된 모집단과 해당 컨텐츠까지 정의했으면 아래 단계를 따르십시오.
 
 전달 만들기, 디자인 및 타깃팅에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../delivery/using/about-email-channel.md).
 
@@ -126,7 +125,7 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰이라고 함
 
 ## 받은 편지함 렌더링 보고서 {#inbox-rendering-report}
 
-이 보고서에는 수신자에게 표시되는 받은 편지함 렌더링 내용이 표시됩니다. 수신자가 이메일 배달을 여는 방법에 따라 렌더링이 다를 수 있습니다. 브라우저, 모바일 디바이스 또는 이메일 애플리케이션을 통해
+이 보고서에는 수신자에게 표시되는 받은 편지함 렌더링 내용이 표시됩니다. 수신자가 이메일 배달을 여는 방법에 따라 렌더링이 다를 수 있습니다.브라우저, 모바일 디바이스 또는 이메일 애플리케이션을 통해
 
 수신되지 않은 메시지(스팸), 수신되지 않은 메시지 또는 수신 대기 중인 메시지 수를 목록 및 그래픽 색상으로 구분된 표시를 통해 보여 줍니다 **[!UICONTROL General summary]** .
 
@@ -134,7 +133,7 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰이라고 함
 
 차트 위로 마우스를 가져가면 각 색상에 대한 세부 사항이 표시됩니다.
 
-보고서의 본문은 세 부분으로 나뉘어져 있습니다. **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]** and **[!UICONTROL Webmails]**. 보고서를 아래로 스크롤하여 이 세 가지 카테고리로 그룹화된 모든 렌더링을 표시합니다.
+보고서의 본문은 세 부분으로 나뉘어져 있습니다. **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]** and **[!UICONTROL Webmails]**. 보고서를 아래로 스크롤하여 이 세 가지 범주로 그룹화된 모든 렌더링을 표시합니다.
 
 ![](assets/s_tn_inbox_rendering_report.png)
 
