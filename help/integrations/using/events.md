@@ -1,7 +1,7 @@
 ---
-title: 통합 구성
-seo-title: 통합 구성
-description: 통합 구성
+title: ' 통합 구성'
+seo-title: ' 통합 구성'
+description: ' 통합 구성'
 seo-description: null
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
@@ -11,14 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9f70468e3dd7003a18812d07669f10c561e8bef7
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -58,11 +55,11 @@ JS를 편집한 [!DNL pipelined] 후 다시 시작합니다.
 이 [!DNL trigger] 데이터는 JS 함수로 전달됩니다. XML 포맷으로 되어 있습니다.
 
 * 속성에는 **[!UICONTROL @triggerId]** 해당 속성의 이름이 포함되어 [!DNL trigger]있습니다.
-* JSON **형식의** 농축은 Analytics에서 생성된 데이터를 포함하며 트리거에 첨부됩니다.
+* JSON **형식의** 추가 요소는 Analytics에서 생성된 데이터를 포함하며 트리거에 첨부됩니다.
 * **[!UICONTROL @offset]** 은 메시지에 대한 &quot;포인터&quot;입니다. 큐 내의 메시지 순서를 나타냅니다.
 * **[!UICONTROL @partitio]**n은 큐 내의 메시지 컨테이너입니다. 오프셋이 파티션에 비례합니다. <br>큐에는 약 15개의 파티션이 있습니다.
 
-예:
+예제:
 
 ```
 <trigger offset="1500435" partition="4" triggerId="LogoUpload_1_Visits_from_specific_Channel_or_ppp">
@@ -82,9 +79,9 @@ JS를 편집한 [!DNL pipelined] 후 다시 시작합니다.
 
 * **[!UICONTROL eVar01]** 에는 캠페인 수신자와 대사하는 데 사용되는 구매자 ID가 포함될 수 있습니다. 문자열 형식입니다. <br>주요 열쇠인 구매자 ID를 찾기 위해 조정해야 한다.
 
-* **[!UICONTROL timeGMT]** 는 Analytics 쪽에서 트리거 시간을 포함할 수 있습니다. UTC Epoch 형식(01/01/1970 UTC 이후 초)입니다.
+* **[!UICONTROL timeGMT]** 는 Analytics 측의 트리거 시간을 포함할 수 있습니다. UTC Epoch 형식(01/01/1970 UTC 이후 초)입니다.
 
-예:
+예제:
 
 ```
 {
@@ -207,7 +204,7 @@ triggerType 필드는 데이터가 발생하는 트리거로부터 식별합니�
 | 데이터 | 메모 | 트리거 데이터 | 트리거 데이터의 전체 내용을 XML 형식으로 표시합니다. 디버깅 및 감사 목적 |
 | triggerType | 문자열 50 | TriggerType | 트리거 이름입니다. 웹 사이트에서 고객의 행동을 식별합니다. |
 | shopper_id | 문자열 32 | shopper_id | 구매자의 내부 식별자입니다. 조정 워크플로우에 의해 설정됩니다. 0이면, Campaign에서 고객을 알 수 없음을 의미합니다. |
-| shopper_key | Long | shopper_key | Analytics에 의해 캡처된 구매자의 외부 식별자입니다. |
+| shopper_key | Long | shopper_key | Analytics에서 캡처한 구매자의 외부 식별자입니다. |
 | created | 날짜/시간 | 작성일 | 캠페인에서 이벤트가 생성된 시간입니다. |
 | lastModified | 날짜/시간 | 마지막 수정일 | Adobe에서 이벤트가 마지막으로 수정된 시간입니다. |
 | timeGMT | 날짜/시간 | 타임스탬프 | Analytics에서 이벤트가 생성된 시간입니다. |
