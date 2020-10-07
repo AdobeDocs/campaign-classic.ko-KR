@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classic을 사용하여 전달 능력 향상을 위한 기술 추천
-description: Adobe Campaign Classic을 사용하여 전달 가능성을 향상시키는 데 사용할 수 있는 기법, 구성 및 툴을 살펴볼 수 있습니다.
+title: Adobe Campaign Classic의 전달 능력 향상을 위한 기술 추천
+description: Adobe Campaign Classic을 통해 전달률을 향상시키는 데 사용할 수 있는 기법, 구성 및 툴을 살펴볼 수 있습니다.
 page-status-flag: never-activated
 uuid: 71be1087-e5ff-4a7a-85ca-36803839e72f
 contentOwner: sauviat
@@ -9,11 +9,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2436'
 ht-degree: 0%
@@ -59,17 +56,17 @@ SPF 레코드를 확인하는 도구를 사용할 수 있습니다. [https://www
 
 SPF는 이메일에 사용된 도메인 이름이 위조되지 않도록 일정 범위 내에서 사용자가 확인할 수 있는 기술입니다. 도메인에서 메시지를 받으면 도메인의 DNS 서버를 쿼리합니다. 이 응답은 이 도메인에서 이메일을 보낼 수 있는 서버를 자세히 설명하는 짧은 레코드(SPF 레코드)입니다. 도메인 소유자만 이 레코드를 변경할 수 있는 방법을 가지고 있다고 가정할 경우, 보낸 사람 주소를 위조할 수 없도록 이 방법을 고려할 수 있습니다. 적어도 &quot;@&quot;의 오른쪽의 부분이 아닙니다.
 
-최종 [RFC 4408 규격에서 메시지 요소](https://www.rfc-editor.org/info/rfc4408)두 개를 사용하여 보낸 사람으로 간주되는 도메인을 결정합니다. SMTP &quot;HELO&quot;(또는 &quot;EHLO&quot;) 명령에 의해 지정된 도메인 및 &quot;반환 경로&quot;(또는 &quot;MAIL FROM&quot;) 헤더의 주소로 지정된 도메인(바운스 주소)입니다. 서로 다른 고려 사항을 사용하면 이러한 값 중 하나만 고려할 수 있습니다. 두 소스 모두 동일한 도메인을 지정하도록 하는 것이 좋습니다.
+최종 [RFC 4408 규격에서 메시지 요소](https://www.rfc-editor.org/info/rfc4408)두 개를 사용하여 보낸 사람으로 간주되는 도메인을 결정합니다.SMTP &quot;HELO&quot;(또는 &quot;EHLO&quot;) 명령에 의해 지정된 도메인 및 &quot;반환 경로&quot;(또는 &quot;MAIL FROM&quot;) 헤더의 주소로 지정된 도메인(바운스 주소)입니다. 서로 다른 고려 사항을 사용하면 이러한 값 중 하나만 고려할 수 있습니다.두 소스 모두 동일한 도메인을 지정하도록 하는 것이 좋습니다.
 
 SPF를 검사하면 보낸 사람 도메인의 유효성을 평가할 수 있습니다.
 
-* **없음**: 평가를 수행할 수 없습니다.
-* **중립**: 쿼리된 도메인이 평가를 활성화하지 않습니다.
-* **통과**: 그 도메인은 진짜인 것으로 여겨집니다
-* **실패**: 그 도메인은 위조되고 메시지는 거부되어야 합니다
-* **소프트 실패**: 도메인은 위조된 것일 수 있지만, 이러한 결과의 근거만으로 메시지가 거부되어서는 안 됩니다.
-* **임시 오류**: 일시적인 오류가 평가를 중지했습니다. 메시지는 거부할 수 있습니다.
-* **PermError**: 도메인의 SPF 레코드가 잘못되었습니다.
+* **없음**:평가를 수행할 수 없습니다.
+* **중립**:쿼리된 도메인이 평가를 활성화하지 않습니다.
+* **통과**:그 도메인은 진짜인 것으로 여겨집니다
+* **실패**:그 도메인은 위조되고 메시지는 거부되어야 합니다
+* **소프트 실패**:도메인은 위조된 것일 수 있지만, 이러한 결과의 근거만으로 메시지가 거부되어서는 안 됩니다.
+* **임시 오류**:일시적인 오류가 평가를 중지했습니다. 메시지는 거부할 수 있습니다.
+* **PermError**:도메인의 SPF 레코드가 잘못되었습니다.
 
 DNS 서버 수준에서 생성된 레코드를 고려하는 데 최대 48시간이 걸릴 수 있다는 점을 주목해 보십시오. 이 지연은 수신 서버의 DNS 캐시가 새로 고쳐지는 빈도에 따라 다릅니다.
 
@@ -83,20 +80,20 @@ DKIM이 **DomainKeys 인증을** 대체했습니다.
 
 DKIM을 사용하려면 몇 가지 전제 조건이 필요합니다.
 
-* **보안**: 암호화는 DKIM의 주요 요소로서 2013년 봄, 1024b가 권장되는 암호화 크기인 DKIM의 보안 수준을 보장합니다. DKIM 키가 낮으면 대부분의 액세스 공급자가 유효한 것으로 간주하지 않습니다.
-* **평판**: 명성은 IP 및/또는 도메인을 기반으로 하지만 덜 투명한 DKIM 선택기도 고려해야 할 주요 요소입니다. 선택기를 선택하는 것이 중요합니다. 누구나 사용할 수 있는 &quot;기본값&quot;을 유지하지 않아도 되며, 따라서 매우 약합니다. 고객 **유지와 고객 확보 커뮤니케이션과 인증을 위해** 다른 선택기를 구현해야 합니다.
-* **Adobe Campaign 옵션 선언**: Adobe campaign에서 DKIM 개인 키는 DKIM 선택기 및 도메인을 기반으로 합니다. 현재 선택기가 다른 동일한 도메인/하위 도메인에 대해 여러 개의 개인 키를 만들 수 없습니다. 플랫폼 또는 이메일 모두에서 인증에 사용할 선택기 도메인/하위 도메인을 정의할 수 없습니다. 플랫폼이 개인 키 중 하나를 선택할 수도 있습니다. 즉, 인증이 실패할 가능성이 높습니다.
+* **보안**:암호화는 DKIM의 주요 요소로서 2013년 봄, 1024b가 권장되는 암호화 크기인 DKIM의 보안 수준을 보장합니다. DKIM 키가 낮으면 대부분의 액세스 공급자가 유효한 것으로 간주하지 않습니다.
+* **평판**:명성은 IP 및/또는 도메인을 기반으로 하지만 덜 투명한 DKIM 선택기도 고려해야 할 주요 요소입니다. 선택기를 선택하는 것이 중요합니다.누구나 사용할 수 있는 &quot;기본값&quot;을 유지하지 않아도 되며, 따라서 매우 약합니다. 고객 **유지와 고객 확보 커뮤니케이션과 인증을 위해** 다른 선택기를 구현해야 합니다.
+* **Adobe Campaign 옵션 선언**:adobe 캠페인에서 DKIM 개인 키는 DKIM 선택기 및 도메인을 기반으로 합니다. 현재 선택기가 다른 동일한 도메인/하위 도메인에 대해 여러 개의 개인 키를 만들 수 없습니다. 플랫폼 또는 이메일 모두에서 인증에 사용할 선택기 도메인/하위 도메인을 정의할 수 없습니다. 플랫폼이 개인 키 중 하나를 선택할 수도 있습니다. 즉, 인증이 실패할 가능성이 높습니다.
 
 >[!NOTE]
 >
->* Adobe Campaign 인스턴스에 대해 DomainKeys를 구성한 경우 도메인 관리 규칙 **에서** DKIM을 선택하기만 하면 [됩니다](../../delivery/using/understanding-delivery-failures.md#domain-management). 그렇지 않은 경우 DomainKeys와 동일한 구성 단계(개인/공개 키)를 따릅니다.
+>* Adobe Campaign 인스턴스에 대해 DomainKeys를 구성한 경우 **도메인 관리 규칙에서** DKIM을 선택하기만 하면 됩니다 [](../../delivery/using/understanding-delivery-failures.md#domain-management). 그렇지 않은 경우 DomainKeys와 동일한 구성 단계(개인/공개 키)를 따릅니다.
 >* DKIM과 동일한 도메인에 대해 DomainKeys와 DKIM을 모두 사용할 필요는 없습니다.
->* 다음 도메인은 현재 DKIM의 유효성을 검사합니다. AOL, Gmail.
+>* 다음 도메인은 현재 DKIM의 유효성을 검사합니다.AOL, Gmail.
 
 
 >[!IMPORTANT]
 >
->호스팅 또는 하이브리드 설치의 경우 [향상된 MTA로 업그레이드한 경우 모든 도메인에 포함된 모든 메시지에 대해 향상된 MTA에서](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)DKIM 이메일 인증 서명을 수행합니다.
+>호스팅 또는 하이브리드 설치의 경우 [향상된 MTA로 업그레이드한 경우 모든 도메인에 포함된 모든 메시지에 대해 향상된 MTA에서](https://helpx.adobe.com/kr/campaign/kb/acc-campaign-enhanced-mta.html)DKIM 이메일 인증 서명을 수행합니다.
 
 ### DMARC {#dmarc}
 
@@ -138,9 +135,9 @@ Recommendations for defining an SPF record:
 
 ## 피드백 루프 {#feedback-loop}
 
-피드백 루프는 ISP 수준에서 메시지를 전송하는 데 사용되는 IP 주소 범위에 대해 지정된 이메일 주소를 선언하여 작동합니다. ISP는 이 사서함에 바운스 메시지에 대해 수행되는 작업과 유사한 방법으로 받는 사람이 스팸으로 보고한 메시지를 보냅니다. 이 플랫폼은 불평한 사용자에 대한 향후 제공을 차단하도록 구성해야 합니다. 적절한 옵트아웃 링크를 사용하지 않더라도 더 이상 연락하지 않는 것이 중요합니다. ISP가 차단 목록에 IP 주소를 추가한다는 것은 이러한 불만 사항을 기반으로 합니다. ISP에 따라, 약 1%의 불만 비율은 IP 주소를 차단하게 됩니다.
+피드백 루프는 ISP 수준에서 메시지를 전송하는 데 사용되는 IP 주소 범위에 대해 지정된 이메일 주소를 선언하여 작동합니다. ISP는 이 사서함에 바운스 메시지에 대해 수행되는 작업과 유사한 방법으로 받는 사람이 스팸으로 보고한 메시지를 보냅니다. 이 플랫폼은 불평한 사용자에 대한 향후 제공을 차단하도록 구성해야 합니다. 적절한 옵트아웃 링크를 사용하지 않더라도 더 이상 연락하지 않는 것이 중요합니다. ISP가 차단 목록에 IP 주소를 추가한다는 것은 이러한 불만 사항을 바탕으로 한다. ISP에 따라, 약 1%의 불만 비율은 IP 주소를 차단하게 됩니다.
 
-현재 피드백 루프 메시지의 형식을 정의하기 위해 표준을 작성하고 있습니다. ARF( [남용된 피드백 보고 형식)](https://tools.ietf.org/html/rfc6650).
+현재 피드백 루프 메시지의 형식을 정의하기 위해 표준을 작성하고 있습니다.ARF( [남용된 피드백 보고 형식)](https://tools.ietf.org/html/rfc6650).
 
 인스턴스에 대한 피드백 루프를 구현하려면 다음이 필요합니다.
 
@@ -163,7 +160,7 @@ nlserver inMail -instance:instance -verbose.
 
 * 메일박스에서 받은 메시지를 인스턴스 수만큼 복제하고
 * 각 사서함을 하나의 인스턴스로 선택하도록
-* 관련 메시지만 처리하도록 인스턴스를 구성합니다. 인스턴스 정보는 Adobe Campaign에서 보낸 메시지의 메시지 ID 헤더에 포함되므로 피드백 루프 메시지도 위치합니다. 인스턴스 구성 파일에 **checkInstanceName** 매개 변수를 간단히 지정하기만 하면 됩니다(기본적으로 인스턴스가 확인되지 않으며 이로 인해 특정 주소가 잘못 격리될 수 있음).
+* 관련 메시지만 처리하도록 인스턴스를 구성합니다.인스턴스 정보는 Adobe Campaign이 보낸 메시지의 메시지 ID 헤더에 포함되어 있으므로 피드백 루프 메시지도 찾을 수 있습니다. 인스턴스 구성 파일에 **checkInstanceName** 매개 변수를 간단히 지정하기만 하면 됩니다(기본적으로 인스턴스가 확인되지 않으며 이로 인해 특정 주소가 잘못 격리될 수 있음).
 
    ```
    <serverConf>
@@ -171,7 +168,7 @@ nlserver inMail -instance:instance -verbose.
    </serverConf>
    ```
 
-Adobe Campaign ISP Deliverability Service는 다음 ISP에 대한 피드백 루프 서비스 구독을 관리합니다. AOL, BlueTie, Comcast, EarthLink, FastMail, Gmail, HostedEmail, Libero, Mail.ru, MailTrust, OpenSRS, QQ, RoadRunner, Synacor, Telenor, UnitedOnline, USA 4ALL, Yahoo, Yandex, Zoho
+Adobe Campaign의 Delivery Ability 서비스는 다음 ISP에 대한 피드백 루프 서비스 구독을 관리합니다.AOL, BlueTie, Comcast, EarthLink, FastMail, Gmail, HostedEmail, Libero, Mail.ru, MailTrust, OpenSRS, QQ, RoadRunner, Synacor, Telenor, UnitedOnline, USA 4ALL, Yahoo, Yandex, Zoho
 
 ## 목록 구독 취소 {#list-unsubscribe}
 
@@ -220,15 +217,15 @@ Gmail, Outlook.com 및 Microsoft Outlook은 이 방법을 지원하며, 구독 �
 
 이러한 추가 작업은 각 이메일 또는 기존 배달 템플릿에서 수행할 수 있습니다. 이 기능을 포함하는 새 배달 템플릿을 만들 수도 있습니다.
 
-### 분류 규칙 만들기 {#creating-a-typology-rule}
+### 유형화 규칙 만들기 {#creating-a-typology-rule}
 
 규칙에는 명령줄을 생성하는 스크립트가 포함되어야 하며, 이 스크립트는 이메일 헤더에 포함되어야 합니다.
 
 >[!NOTE]
 >
->다음과 같은 유형 규칙을 만드는 것이 좋습니다. 목록 구독 취소 기능은 각 이메일에 자동으로 추가됩니다.
+>다음과 같은 유형 규칙을 만드는 것이 좋습니다.목록 구독 취소 기능은 각 이메일에 자동으로 추가됩니다.
 
-1. 목록 구독 취소: &lt;mailto:unsubscribe@domain.com>
+1. 목록 구독 취소:&lt;mailto:unsubscribe@domain.com>
 
    가입 **해지** 링크를 클릭하면 사용자의 기본 이메일 클라이언트가 열립니다. 이러한 유형 규칙을 이메일을 만드는 데 사용되는 유형 분석에 추가해야 합니다.
 
@@ -236,7 +233,7 @@ Gmail, Outlook.com 및 Microsoft Outlook은 이 방법을 지원하며, 구독 �
 
    구독 **취소** 링크를 클릭하면 사용자가 구독 취소 양식으로 리디렉션됩니다.
 
-   예:
+   예제:
 
    ![](assets/s_tn_del_unsubscribe_param.png)
 
@@ -250,15 +247,15 @@ SMTP(Simple mail transfer protocol)는 이메일 전송을 위한 인터넷 표�
 
 ### 전용 IP {#dedicated-ips}
 
-Adobe는 명성을 구축하고 전달 성능을 최적화하기 위해 고객마다 구현 IP를 제공하는 전용 IP 전략을 제공합니다.
+Adobe은 명성을 구축하고 전달 성능을 최적화하기 위해 고객마다 구현 IP를 제공하는 전용 IP 전략을 제공합니다.
 
 ## IP 인증 {#ip-certification}
 
 IP 인증은 스팸 방지 필터나 기타 이메일 차단 시스템에 의해 차단되지 않고 이메일을 수신하도록 지원하는 전송 모범 사례 프로그램입니다.
 
-현재 두 개의 공급업체에서 IP 인증을 제공합니다. 반환 경로 및 인증된 보낸 사람 연합.
+현재 두 개의 공급업체에서 IP 인증을 제공합니다.반환 경로 및 인증된 보낸 사람 연합.
 
-인증된 전송자는 글로벌 사서함 제공업체 및 이메일 보안 회사가 사용하는 이메일 허용 목록에 추가됩니다. 이러한 상업용 허용 목록은 발신자가 스팸 필터를 모두 우회하거나 시스템에 들어갈 때 점차적으로 포인트를 할당할 수 있는 시스템을 기반으로 합니다.
+인증된 전송자는 글로벌 사서함 제공업체 및 이메일 보안 회사가 사용하는 이메일 허용 목록에 추가됩니다. 이러한 상용 허용 목록은 발신자가 스팸 필터를 모두 우회하거나 시스템에 들어갈 때 점차적으로 포인트를 할당할 수 있는 시스템을 기반으로 합니다.
 
 반품 [경로 인증](https://www.validity.com/products/returnpath/certification/) 프로그램은 다음을 포함한 다양한 혜택을 제공합니다.
 
@@ -275,6 +272,6 @@ ACA( [Certified Sender Alliance](https://certified-senders.org/certification-pro
 * 법률 표준을 완벽하게 준수하여 법적 및 재정적 위험으로부터 보호
 * CSA 불만 사항 사무소 및 일일 스팸 트랩 보고서로부터 조기 경고를 통해 평판 보호
 
-ISP는 이러한 서비스를 무료로 사용할 수 있으며 ISP의 수는 허용 목록에 따라 다를 수 있습니다.
+ISP는 이러한 서비스를 무료로 사용할 수 있으며 ISP의 수는 허용 목록에 따라 달라질 수 있습니다.
 
 그러나 점점 더 많은 ISP가 메시지 내용 자체를 분석하지 않고 각 받은 편지함 소유자의 행동에 따라 스팸 방지 필터를 만들기 때문에 IP 인증을 사용하는 것은 받은 편지함 배치나 전달을 보장할 수 없습니다.
