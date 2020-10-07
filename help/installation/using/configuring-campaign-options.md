@@ -11,11 +11,8 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 discoiquuid: 9c1884f6-1dd8-41ab-b8dc-604c8cc2dc89
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 890950463146fe0863d2809759eb142cb4bb1fff
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '3927'
 ht-degree: 1%
@@ -630,7 +627,7 @@ ht-degree: 1%
    <td> <span class="uicontrol">WdbcKillSessionPolicy</span> <br /> </td> 
    <td>다음 잠재적 값에 따라 모든 워크플로 및 PostgreSQL 데이터베이스 쿼리의 무조건적 중지 동작에 영향을 줄 수 있습니다.<ul>
     <li><p>0 - 기본값:워크플로 프로세스를 중지하지만 데이터베이스에 영향을 주지 않습니다.<p></li>
-    <li><p>1 - pg_cancel_end:데이터베이스의 워크플로 프로세스 중지 및 쿼리 취소<p></li>
+    <li><p>1 - pg_cancel_end:데이터베이스의 워크플로우 프로세스 중지 및 쿼리 취소<p></li>
     <li><p>2 - pg_terminate_end:워크플로 프로세스를 중지하고 데이터베이스의 쿼리를 종료합니다.<p></li></ul></td> 
   </tr>  
     <tr> 
@@ -687,7 +684,7 @@ ht-degree: 1%
    <td> 마이그레이션 중에는 트리 구조가 새 버전 표준에 따라 자동으로 재구성됩니다.<br /> 이 옵션을 사용하면 탐색 트리의 자동 마이그레이션을 비활성화할 수 있습니다. 사용하는 경우 마이그레이션 후 오래된 폴더를 삭제하고 새 폴더를 추가하고 필요한 모든 검사를 실행해야 합니다.<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">데이터 유형:</span> 정수</p> </li> 
-     <li> <p> <span class="uicontrol">값(텍스트)</span> :1 </p> </li> 
+     <li> <p> <span class="uicontrol">값(텍스트)</span> :3 </p> </li> 
     </ul> 이 옵션은 기본 탐색 트리가 너무 많은 변경을 거친 경우에만 사용해야 합니다.<br /> 이 작업에 대한 자세한 정보는 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">이 섹션</a>을 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
