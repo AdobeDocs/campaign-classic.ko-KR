@@ -1,7 +1,7 @@
 ---
-title: Linux에서 스택 추적
-seo-title: Linux에서 스택 추적
-description: Linux에서 스택 추적
+title: Linux의 스택 추적
+seo-title: Linux의 스택 추적
+description: Linux의 스택 추적
 seo-description: null
 page-status-flag: never-activated
 uuid: d839df47-902f-4b92-bc78-536fc4fb6c98
@@ -11,28 +11,29 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 60f306ea-4593-4e56-896e-8933277ee26a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9482a99c3be164651b3428179388cb0a8a75783f
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 14%
 
 ---
 
 
-# Linux에서 스택 추적{#stack-trace-in-linux}
+# Linux의 스택 추적{#stack-trace-in-linux}
 
-스택 추적은 **** 코어 **** 유형 파일에 포함된 추적을 나타냅니다. 이 파일은 시스템 오류가 발생하는 경우 생성됩니다. 오류의 원인을 식별할 수 있습니다.
+스택 추적 **은** 핵심 **** 유형 파일에 포함된 추적을 나타냅니다. 이 파일은 컴퓨터 오류가 발생한 경우 생성됩니다. 오류의 원인을 식별할 수 있습니다.
 
 >[!NOTE]
 >
->* 핵심 **파일의 이름은** core. **`<num>`**.
->* **gdb - GNU** 디버거가 컴퓨터에 설치되어 있어야 합니다.
+>* 코어 **파일** 이름은 **core.`<num>`**.
+>* **gdb - 컴퓨터에 GNU** 디버거가 설치되어 있어야 합니다.
+
 >
 
 
 
-Adobe Campaign 기술 지원을 통해 이 **스택 추적을**&#x200B;요청할 수 있습니다. Linux에서 다음 명령을 입력합니다.
+Adobe Campaign 기술 지원 팀이 이 **스택 추적을 요청할 수 있습니다**. Linux에서 다음 명령을 입력합니다.
 
 ```
 su - neolane
@@ -59,15 +60,15 @@ gdb nlserver <coreFile>
 #16 0x5565918a in clone () from /lib/tls/libc.so.6
 ```
 
-Adobe Campaign 기술 지원에서는 특정 실행 파일을 사용하여 이 명령을 실행하라는 요청을 할 수 있습니다(Adobe에서 제공 예정).
+Adobe Campaign 기술 지원팀에서는 특정 실행 파일을 사용하여 이 명령을 실행할 것을 요청할 수 있습니다(Adobe에서 제공).
 
-이 경우 nlserver를 Adobe Campaign에서 **제공하는 실행 파일로** 바꾸어 다음 명령을 실행하기만 하면 됩니다.
+이 경우 nlserver를 Adobe Campaign에서 제공하는 실행 파일 **으로** 바꾸어 다음 명령을 실행하기만 하면 됩니다.
 
 ```
 gdb nlserver <coreFile>
 ```
 
-예:
+예제:
 
 ```
 gdb nlserver.1823 <coreFile>
