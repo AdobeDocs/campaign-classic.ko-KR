@@ -11,14 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 093dbe8a-494f-4fe7-8614-3bf58486e34c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 23629289ac5da3f9bef01f50c452f7c761a6fa44
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
@@ -27,7 +24,7 @@ ht-degree: 1%
 
 스케줄러 **는** 일정에 의해 지정된 시간에 전환을 활성화하는 지속적인 작업입니다.
 
-활동은 **[!UICONTROL Scheduler]** 예약된 시작으로 간주되어야 합니다. 차트 내의 활동 배치 규칙은 활동과 동일합니다 **[!UICONTROL Start]** . 이 활동에는 인바운드 전환이 없어야 합니다.
+**[!UICONTROL Scheduler]** 활동은 시작을 예약하는 것으로 생각해야 합니다. 차트 내에서의 활동 위치 지정 규칙은 **[!UICONTROL Start]** 활동과 동일합니다. 이 활동에는 인바운드 전환이 없어야 합니다.
 
 ## 권장사항 {#best-practices}
 
