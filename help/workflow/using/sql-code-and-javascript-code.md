@@ -11,14 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 1afa75c2-7377-4d03-9105-11bcc9e3206c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 26ba86073e4f1569bf05a7d8aa864ca87baed3ea
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -53,14 +50,14 @@ ht-degree: 0%
 
    ![](assets/javascript_code.png)
 
-   * **[!UICONTROL Script]**: 편집기의 중앙 영역에는 실행할 스크립트가 포함되어 있습니다.
-   * **[!UICONTROL Processing errors]**: 처리 [오류를 참조하십시오](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+   * **[!UICONTROL Script]**:편집기의 중앙 영역에는 실행할 스크립트가 포함되어 있습니다.
+   * **[!UICONTROL Processing errors]**:처리 [오류를 참조하십시오](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
 * **[!UICONTROL Advanced JavaScript code]**
 
    ![](assets/advanced_javascript_code.png)
 
-   * **[!UICONTROL First call]**: 편집기의 첫 번째 영역에는 첫 번째 호출 동안 실행되는 스크립트가 포함됩니다.
-   * **[!UICONTROL Next calls]**: 편집기의 두 번째 영역에는 다음 호출 동안 실행되는 스크립트가 포함됩니다.
-   * **[!UICONTROL Transitions]**: 여러 가지 활동 출력 전환을 정의할 수 있습니다.
-   * **[!UICONTROL Schedule]**: 이 **[!UICONTROL Schedule]** 탭에서는 활동을 트리거할 시기를 예약할 수 있습니다.
+   * **[!UICONTROL First call]**:편집기의 첫 번째 영역에는 첫 번째 호출 동안 실행되는 스크립트가 포함됩니다.
+   * **[!UICONTROL Next calls]**:편집기의 두 번째 영역에는 다음 호출 동안 실행되는 스크립트가 포함됩니다.
+   * **[!UICONTROL Transitions]**:여러 가지 활동 출력 전환을 정의할 수 있습니다.
+   * **[!UICONTROL Schedule]**:이 **[!UICONTROL Schedule]** 탭에서는 활동을 트리거할 시기를 예약할 수 있습니다.
