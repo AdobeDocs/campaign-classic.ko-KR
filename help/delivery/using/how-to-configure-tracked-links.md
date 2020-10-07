@@ -11,21 +11,18 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 discoiquuid: 9cae3861-88eb-447a-aa23-9d1de0710eec
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ed44ccd8053d79024e8fb2d05ee27e1e663b8cb2
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
 
 # 추적된 링크를 구성하는 방법{#how-to-configure-tracked-links}
 
-각 전달에 대해 메시지 수신 및 메시지 컨텐츠에 삽입된 링크의 활성화를 추적할 수 있습니다. 이렇게 하면 받는 사람이 타깃팅된 전달 작업 이후 받는 사람의 동작을 추적할 수 있습니다.
+각 게재에 대해 메시지 수신 및 메시지 콘텐츠에 삽입된 링크의 활성화를 추적할 수 있습니다. 이렇게 하면 수신자가 타겟팅된 게재 작업 이후 수신자의 동작을 추적할 수 있습니다.
 
 >[!NOTE]
 >
@@ -49,7 +46,7 @@ ht-degree: 0%
    >
    >링크의 URL을 레이블로 사용하는 경우 피싱으로 인해 거절되는 위험을 방지하려면 추적을 비활성화하는 것이 좋습니다.
    >
-   >예를 들어 www.adobe.com URL을 메시지에 삽입하고 이 URL에 대한 추적을 활성화하면 하이퍼텍스트 링크의 내용이 https://nlt.adobe.net/r/?id=xxxxxx으로 수정됩니다. 이는 받는 사람 메시지 클라이언트에서 부정 행위로 간주될 수 있음을 의미합니다.
+   >예를 들어 www.adobe.com URL을 메시지에 삽입하고 이 URL에 대한 추적을 활성화하면 하이퍼텍스트 링크의 컨텐츠가 https://nlt.adobe.net/r/?id=xxxxxx으로 수정됩니다. 이는 받는 사람 메시지 클라이언트에서 부정 행위로 간주될 수 있음을 의미합니다.
 
 1. 필요한 경우 추적 레이블을 변경하고 레이블을 두 번 클릭하고 새 레이블을 입력합니다.
 
@@ -63,11 +60,11 @@ ht-degree: 0%
 
    각 개별 URL에 대해 추적 모드를 다음 값 중 하나로 설정할 수 있습니다.
 
-   * **[!UICONTROL Enabled]** : 이 URL에 대한 추적을 활성화합니다.
-   * **[!UICONTROL Not tracked]** : 이 URL에 대한 추적을 비활성화합니다.
-   * **[!UICONTROL Always enabled]** : 항상 이 URL의 추적을 활성화합니다. 이 정보는 저장되므로 다음에 URL이 향후 메시지 컨텐츠에 다시 나타날 경우 추적 기능이 자동으로 활성화됩니다.
-   * **[!UICONTROL Never tracked]** : 이 URL의 추적을 활성화하지 않습니다. 이 정보는 저장되므로 다음에 URL이 향후 메시지에 다시 나타날 경우 추적이 자동으로 비활성화됩니다.
-   * **[!UICONTROL Opt-out]** : 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
-   * **[!UICONTROL Mirror page]** : 이 URL이 미러 페이지 URL인 것으로 간주합니다.
+   * **[!UICONTROL Enabled]** :이 URL에 대한 추적을 활성화합니다.
+   * **[!UICONTROL Not tracked]** :이 URL에 대한 추적을 비활성화합니다.
+   * **[!UICONTROL Always enabled]** :항상 이 URL의 추적을 활성화합니다. 이 정보는 저장되므로 다음에 URL이 향후 메시지 컨텐츠에 다시 나타날 경우 추적 기능이 자동으로 활성화됩니다.
+   * **[!UICONTROL Never tracked]** :이 URL의 추적을 활성화하지 않습니다. 이 정보는 저장되므로 다음에 URL이 향후 메시지에 다시 나타날 경우 추적이 자동으로 비활성화됩니다.
+   * **[!UICONTROL Opt-out]** :이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
+   * **[!UICONTROL Mirror page]** :이 URL이 미러 페이지 URL인 것으로 간주합니다.
 
 1. 또한 열의 드롭다운 목록에서 추적된 각 URL에 대한 카테고리를 선택할 수 **[!UICONTROL Category]** 있습니다. 이러한 카테고리는 다음과 같이 보고서를 표시할 수 있습니다( **[!UICONTROL URLs and click streams]** 이 섹션 참조 [)](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams). 카테고리는 특정 열거형에서 정의됩니다. **[!UICONTROL urlCategory]** ( [열거형 관리 참조](../../platform/using/managing-enumerations.md)).
