@@ -11,11 +11,8 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 discoiquuid: f4b1c108-7f71-4aa1-8394-a7f660834c9c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2822'
 ht-degree: 0%
@@ -66,7 +63,7 @@ TIMESTAMP WITH TIMEZONE 모드를 사용하려면 **-userTimestamptz:1** 옵션�
 
 자세한 내용은 다음을 참조하십시오. [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004).
 
-클라이언트와 서버 간의 표준 시간대 맞춤이 잘못되면 일부 시일이 지연될 수 있습니다. 따라서 클라이언트와 서버측 모두에서 동일한 버전의 Oracle 라이브러리를 사용하는 것이 좋습니다. 두 시간대는 동일해야 합니다.
+클라이언트와 서버 간의 표준 시간대가 잘못 정렬되면 일부 시일이 지연될 수 있습니다. 따라서 클라이언트와 서버측 모두에서 동일한 버전의 Oracle 라이브러리를 사용하는 것이 좋습니다. 두 시간대는 동일해야 합니다.
 
 양측이 동일한 시간대에 있는지 확인하려면
 
@@ -92,9 +89,9 @@ TIMESTAMP WITH TIMEZONE 모드를 사용하려면 **-userTimestamptz:1** 옵션�
 
 >[!IMPORTANT]
 >
->보안상의 이유로, 기본적으로 Adobe Campaign 플랫폼에 더 이상 액세스할 수 없습니다. 보안 영역을 구성하고 따라서 연산자 IP 주소를 수집해야 합니다.
+>보안상의 이유로, 기본적으로 Adobe Campaign 플랫폼에 더 이상 액세스할 수 없습니다.보안 영역을 구성하고 따라서 연산자 IP 주소를 수집해야 합니다.
 
-Adobe Campaign v7에는 **보안 영역**&#x200B;개념이 포함됩니다. 인스턴스에 로그온하려면 각 사용자가 영역에 연결해야 하며 사용자의 IP 주소가 보안 영역에 정의된 주소 또는 주소 범위에 포함되어야 합니다. 보안 영역 구성은 Adobe Campaign 서버 구성 파일에서 수행할 수 있습니다. 사용자가 연결된 보안 영역은 콘솔(**[!UICONTROL Administration > Access management > Operators]**)에서 정의해야 합니다.
+Adobe Campaign v7에는 **보안 구역**&#x200B;개념이 포함되어 있습니다. 인스턴스에 로그온하려면 각 사용자가 영역에 연결해야 하며 사용자의 IP 주소가 보안 영역에 정의된 주소 또는 주소 범위에 포함되어야 합니다. 보안 영역 구성은 Adobe Campaign 서버 구성 파일에서 수행할 수 있습니다. 사용자가 연결된 보안 영역은 콘솔(**[!UICONTROL Administration > Access management > Operators]**)에서 정의해야 합니다.
 
 **마이그레이션**&#x200B;전에 네트워크 관리자에게 마이그레이션 후 활성화할 보안 영역을 정의할 수 있도록 도움을 요청하십시오.
 
@@ -104,7 +101,7 @@ Adobe Campaign v7에는 **보안 영역**&#x200B;개념이 포함됩니다. 인�
 
 ### 사용자 암호 {#user-passwords}
 
-v7에서 **내부** 및 **관리자** 연산자 연결은 암호로 보호해야 합니다. 마이그레이션하기 **전에 이러한 계정 및 모든 연산자 계정에 암호를 할당하는 것이 좋습니다**. 내부 ****&#x200B;암호를 지정하지 않은 경우 연결할 수 없습니다. 암호를 **내부**&#x200B;에 지정하려면 다음 명령을 입력합니다.
+v7에서 **내부** 및 **관리자** 연산자 연결은 암호로 보호되어야 합니다. 마이그레이션하기 **전에 이러한 계정 및 모든 연산자 계정에 암호를 할당하는 것이 좋습니다**. 내부 ****&#x200B;암호를 지정하지 않은 경우 연결할 수 없습니다. 암호를 **내부**&#x200B;에 지정하려면 다음 명령을 입력합니다.
 
 ```
 nlserver config -internalpassword
@@ -191,7 +188,7 @@ HTTPS가 아닌 HTTP 프로토콜(HTTP 프로토콜)을 통해 특정 페이지�
 
 익명 JSSP를 사용하는 경우 JSSP( **파일)에 대한 릴레이 규칙에** httpAllowed=&quot;true&quot;**[!UICONTROL serverConf.xml]** 매개 변수를 추가해야 합니다.
 
-예:
+예제:
 
 ```
 <url IPMask="" deny="" hostMask="" httpAllowed="true" relayHost="true" relayPath="true"
@@ -206,7 +203,7 @@ Adobe Campaign v7은 최신 JavaScript 인터프리터를 통합합니다. 그�
 
 이제 **[!UICONTROL myObject.@attribute]** 구문은 XML 객체에만 유효합니다. 이 구문은 배달 및 컨텐츠 관리를 개인화하는 데 사용할 수 있습니다. 비 XML 개체에서 이 형식의 구문을 사용한 경우 개인화 기능이 더 이상 작동하지 않습니다.
 
-다른 모든 객체 유형의 경우 구문은 이제 **[!UICONTROL myObject`[`&quot;attribute&quot;가 됩니다`]`]**. 예를 들어 다음 구문을 사용한 비 XML 개체입니다.**[!UICONTROL employee.@sn]**, must now use following syntax:**[!UICONTROL employee`[`&quot;sn&quot;`]`]**.
+다른 모든 객체 유형의 경우 구문은 이제 **[!UICONTROL myObject`[`&quot;attribute&quot;가 됩니다`]`]**. 예를 들어 다음 구문을 사용한 비 XML 개체입니다. **[!UICONTROL employee.@sn]**, must now use following syntax: **[!UICONTROL employee`[`&quot;sn&quot;`]`]**.
 
 * 이전 구문:
 
@@ -256,19 +253,19 @@ Adobe Campaign v7은 최신 JavaScript 인터프리터를 통합합니다. 그�
 
 인스턴스 보안을 강화하기 위해 SQLData 기반 구문을 대체하기 위해 Adobe Campaign v7에 새로운 구문이 도입되었습니다. 이 구문과 함께 이러한 코드 요소를 사용하는 경우 이를 수정해야 합니다. 주요 요소는 다음과 같습니다.
 
-* 하위 쿼리별 필터링: 새 구문은 하위 쿼리를 정의하는 `<subQuery>` 요소를 기반으로 합니다
-* 집계: 새 구문은 &quot;aggregate function(collection)&quot;입니다.
-* 가입별 필터링: 새로운 구문은 `[schemaName:alias:xPath]`
+* 하위 쿼리별 필터링:새 구문은 하위 쿼리를 정의하는 `<subQuery>` 요소를 기반으로 합니다
+* 집계:새 구문은 &quot;aggregate function(collection)&quot;입니다.
+* 가입별 필터링:새로운 구문은 `[schemaName:alias:xPath]`
 
 queryDef(xtk:queryDef) 스키마가 수정되었습니다.
 
 * SQLData에 포함된 SELECT를 대체할 새 `<subQuery>` 요소를 사용할 수 있습니다.
 * @setOperator 속성에 대해 &quot;IN&quot; 및 &quot;NOT IN&quot; 두 개의 새로운 값이 도입되었습니다.
-* 요소의 하위 요소인 새 `<where>` 요소 `<node>` : 이렇게 하면 SELECT에서 &quot;하위 선택&quot;을 수행할 수 있습니다.
+* 요소의 하위 요소인 새 `<where>` 요소 `<node>` :이렇게 하면 SELECT에서 &quot;하위 선택&quot;을 수행할 수 있습니다.
 
-&quot;@expr&quot; 속성을 사용하는 경우 SQLData가 있을 수 있습니다. 다음 용어를 검색할 수 있습니다. &quot;SQLData&quot;, &quot;aliasSqlTable&quot;, &quot;sql&quot;.
+&quot;@expr&quot; 속성을 사용하는 경우 SQLData가 있을 수 있습니다. 다음 용어를 검색할 수 있습니다.&quot;SQLData&quot;, &quot;aliasSqlTable&quot;, &quot;sql&quot;.
 
-Adobe Campaign v7 인스턴스는 기본적으로 보호됩니다. 보안은 파일의 보안 영역 정의에 따라 **[!UICONTROL serverConf.xml]** 제공됩니다. allowSQLInjection **속성은** SQL 구문 보안을 관리합니다.
+Adobe Campaign v7 인스턴스는 기본적으로 보호됩니다. 보안은 파일의 보안 영역 정의에 따라 **[!UICONTROL serverConf.xml]** 제공됩니다.allowSQLInjection **속성은** SQL 구문 보안을 관리합니다.
 
 업그레이드 후 실행 중에 SQLData 오류가 발생하는 경우 코드를 다시 작성할 수 있도록 SQLData 기반 구문을 일시적으로 사용할 수 있도록 이 속성을 수정해야 합니다. 이렇게 하려면 serverConf.xml 파일에서 다음 옵션을 변경해야 **합니다** .
 
@@ -400,7 +397,7 @@ Aggregate function(collection)
 
 요소 `<subQuery>` 에서 기본 요소의 &quot;field&quot; 필드를 참조하려면 다음 `<queryDef>` 구문을 사용하십시오. `[../@field]`
 
-예:
+예제:
 
 ```
 <queryDef operation="select" schema="xtk:jobLog" startPath="/" xtkschema="xtk:queryDef">
@@ -433,7 +430,7 @@ Aggregate function(collection)
 
 동기화 결과는 다음 두 가지 방법으로 볼 수 있습니다.
 
-* 명령줄 인터페이스에서 3중 V자형 **>>>** 오류로 인해 오류가 발생하고 동기화가 자동으로 중지됩니다. 경고는 이중 V자 **>>에** 의해 구현되며 동기화가 완료되면 해결되어야 합니다. 업그레이드 후 종료 시 명령 프롬프트에 요약이 표시됩니다. 예:
+* 명령줄 인터페이스에서 3중 V자형 **>>>** 오류로 인해 오류가 발생하고 동기화가 자동으로 중지됩니다. 경고는 이중 V자 **>>에** 의해 구현되며 동기화가 완료되면 해결되어야 합니다. 업그레이드 후 종료 시 명령 프롬프트에 요약이 표시됩니다. 예제:
 
    ```
    2013-04-09 07:48:39.749Z        00002E7A          1     info    log     =========Summary of the update==========
@@ -454,14 +451,14 @@ Aggregate function(collection)
 
 충돌을 해결하려면 다음 프로세스를 적용합니다.
 
-1. Adobe Campaign 트리 구조에서 커서를 위에 놓습니다 **[!UICONTROL Administration > Configuration > Package management > Edit conflicts]**.
+1. Adobe Campaign 트리 구조에서는 커서를 위에 놓습니다 **[!UICONTROL Administration > Configuration > Package management > Edit conflicts]**.
 1. 목록에서 해결할 충돌을 선택합니다.
 
 충돌을 해결하는 방법에는 세 가지가 있습니다.
 
-* **[!UICONTROL Declared as resolved]**: 사전에 연산자 개입이 필요합니다.
-* **[!UICONTROL Accept the new version]**: 사용자가 Adobe Campaign에서 제공한 리소스를 변경하지 않은 경우 권장합니다.
-* **[!UICONTROL Keep the current version]**: 은 업데이트가 거부됨을 의미합니다.
+* **[!UICONTROL Declared as resolved]**:사전에 연산자 개입이 필요합니다.
+* **[!UICONTROL Accept the new version]**:사용자가 Adobe Campaign에서 제공한 리소스를 변경하지 않은 경우 권장합니다.
+* **[!UICONTROL Keep the current version]**:은 업데이트가 거부됨을 의미합니다.
 
    >[!IMPORTANT]
    이 해결 모드를 선택하면 새 버전에서 패치가 손실될 위험이 있습니다. 따라서 이 옵션은 전문가 연산자만 사용하거나 예약하지 않는 것이 좋습니다.
@@ -477,7 +474,7 @@ Aggregate function(collection)
    ![](assets/s_ncs_production_conflict003.png)
 
 1. 해결했을 충돌로 이동합니다. 아이콘을 **[!UICONTROL Actions]** 클릭하고 선택합니다 **[!UICONTROL Declare as resolved]**.
-1. 변경 내용 저장: 이제 충돌이 해결되었습니다.
+1. 변경 내용 저장:이제 충돌이 해결되었습니다.
 
 ## Tomcat {#tomcat}
 
@@ -493,7 +490,7 @@ $(XTK_INSTALL_DIR)/tomcat-7/lib/jsp-api.jar
 $(XTK_INSTALL_DIR)/tomcat-7/lib/el-api.jar
 ```
 
-## 인터랙션 {#interaction}
+## 상호 작용 {#interaction}
 
 ### 사전 요구 사항 {#prerequisites}
 
@@ -620,7 +617,7 @@ logInfo("Done");
 
 ### 표준 보고서 {#standard-reports}
 
-모든 표준 보고서는 현재 렌더링 엔진 v6.x를 사용합니다. 이러한 보고서에 JavaScript를 추가한 경우 특정 요소가 더 이상 작동하지 않을 수 있습니다. 실제로 이전 버전의 JavaScript는 v6.x 렌더링 엔진과 호환되지 않습니다. 따라서 JavaScript 코드를 확인하고 나중에 적용해야 합니다. 모든 보고서, 특히 내보내기 기능을 테스트해야 합니다.
+모든 표준 보고서는 현재 렌더링 엔진 v6.x를 사용합니다.이러한 보고서에 JavaScript를 추가한 경우 특정 요소가 더 이상 작동하지 않을 수 있습니다. 실제로 이전 버전의 JavaScript는 v6.x 렌더링 엔진과 호환되지 않습니다. 따라서 JavaScript 코드를 확인하고 나중에 적용해야 합니다. 모든 보고서, 특히 내보내기 기능을 테스트해야 합니다.
 
 ### 맞춤형 보고서 {#personalized-reports}
 
