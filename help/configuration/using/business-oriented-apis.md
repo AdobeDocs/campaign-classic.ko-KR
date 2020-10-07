@@ -1,7 +1,7 @@
 ---
-title: 비즈니스 중심의 API
-seo-title: 비즈니스 중심의 API
-description: 비즈니스 중심의 API
+title: 비즈니스 지향 API
+seo-title: 비즈니스 지향 API
+description: 비즈니스 지향 API
 seo-description: null
 page-status-flag: never-activated
 uuid: ddb6e5cf-dfe0-4dc9-ac5b-fab21827b874
@@ -11,23 +11,20 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: e7b3ffca-c85f-498d-89b4-23fcff59de49
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# 비즈니스 중심의 API{#business-oriented-apis}
+# 비즈니스 지향 API{#business-oriented-apis}
 
 비즈니스 API는 각 개체 유형에만 적용됩니다. 이러한 효과는 다음과 같습니다.
 
-* 배달:
+* 게재:
 
    * 배달 작업 만들기를 참조하십시오. [SubmitDelivery(nms:delivery)](#submitdelivery--nms-delivery-),
    * 캠페인 전송(시작, 일시 중지, 중지, 전송 증명),
@@ -42,7 +39,7 @@ ht-degree: 0%
 
 * 콘텐츠 관리
 * 구독 관리, [구독(nms:subscription)](#subscribe--nms-subscription-) 및 [구독 취소(nms:subscription)를 참조하십시오](#unsubscribe--nms-subscription-).
-* 데이터 프로세스: 가져오기, 내보내기
+* 데이터 프로세스:가져오기, 내보내기
 
 이 섹션에서는 &quot;Subscribe&quot;, &quot;Unsubscribe&quot; 및 &quot;SubmitDelivery&quot; 서비스의 사용에 대해 자세히 설명합니다.
 
@@ -79,7 +76,7 @@ ht-degree: 0%
 
 ### 예제 {#examples}
 
-이메일 주소의 수신자 조정 키가 포함된 구독: 입력 XML 문서는 이 필드에서 이메일 주소와 키 정의를 참조해야 합니다.
+이메일 주소의 수신자 조정 키가 포함된 구독:입력 XML 문서는 이 필드에서 이메일 주소와 키 정의를 참조해야 합니다.
 
 ```
 <recipient _key="email" email= "john.doe@adobe.com"/>
@@ -150,7 +147,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->서비스 이름이 매개 변수로 지정되지 않으면 수신자는 블록 목록(@blockList=&quot;1&quot;)에 자동으로 표시됩니다.
+>서비스 이름이 매개 변수로 지정되지 않은 경우 수신자는 차단 목록(@=&quot;차단 목록에 추가하다1&quot;)에 자동으로 배치됩니다.
 
 이 호출은 오류를 제외한 모든 데이터를 반환하지 않습니다.
 
@@ -207,7 +204,7 @@ ht-degree: 0%
 </method>
 ```
 
-전달 템플릿은 Adobe Campaign 클라이언트 콘솔에서 만들어야 합니다. 여기에는 모든 게재에 공통으로 사용되는 매개 변수(메시지의 보낸 사람 주소 또는 유효 기간)가 포함됩니다.
+배달 템플릿은 Adobe Campaign 클라이언트 콘솔에서 만들어야 합니다. 여기에는 모든 게재에 공통으로 사용되는 매개 변수(메시지의 보낸 사람 주소 또는 유효 기간)가 포함됩니다.
 
 입력 XML 문서는 &quot;nms:delivery&quot; 스키마의 구조를 준수하는 배달 템플릿 조각입니다. 게재 템플릿에는 정적으로 정의할 수 없는 모든 추가 데이터(예: 타깃팅할 수신자 목록)가 포함됩니다.
 
