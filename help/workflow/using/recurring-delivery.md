@@ -1,7 +1,7 @@
 ---
-title: 반복 전달
-seo-title: 반복 전달
-description: 반복 전달
+title: 반복 게재
+seo-title: 반복 게재
+description: 반복 게재
 seo-description: null
 page-status-flag: never-activated
 uuid: 715855df-fe29-46e8-a7ab-d534f010a26e
@@ -11,19 +11,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 185d3256-a21e-47d7-bee7-7b91762ca1e2
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
 
-# 반복 전달{#recurring-delivery}
+# 반복 게재{#recurring-delivery}
 
 활동을 **[!UICONTROL Recurring delivery]** 사용하면 캠페인과 관련된 게재 템플릿 발생을 구성할 수 있습니다.
 
