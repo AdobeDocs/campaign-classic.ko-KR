@@ -11,14 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a3b5378c2e67b9982fa425f32e14e0b1c66e1bf3
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1751'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -48,7 +45,7 @@ Adobe Campaign은 개인 정보와 민감한 데이터를 포함하여 매우 �
 
 >[!NOTE]
 >
->GDPR, CPA, PDPA 및 LGPD가 Adobe Campaign에 적용되는 방법에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>GDPR, CPA, PDPA 및 LGPD가 Adobe Campaign에 적용되는 방법에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 ### Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
@@ -130,13 +127,13 @@ Campaign의 주요 개인정보 보호 기능과 여기에 포함된 개인의 �
 
 Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트롤러로서 사용자의 준비를 용이하게 하는 데 도움이 되는 추가 기능을 제공합니다.
 
-* 액세스 **권한** 은 데이터 주체가 데이터 주체의 확인을 받아 개인 데이터가 처리 중인지, 처리 장소 및 그 이유에 대해 얻을 수 있는 권리입니다.
+* 액세스 **권한** 은 데이터 주체가 데이터 주체의 확인을 통해 데이터 주체의 개인 데이터가 처리 중인지, 처리 장소 및 그 이유를 알 수 있는 권리입니다.
 
 * 잊혀질 **권리** (요청 삭제)는 데이터 주체가 자신의 개인 데이터를 삭제하도록 권한을 부여합니다.
 
 >[!NOTE]
 >
->이 툴을 사용하면 GDPR, CPA, PDPA 및 LGPD에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>이 툴을 사용하면 GDPR, CPA, PDPA 및 LGPD에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
