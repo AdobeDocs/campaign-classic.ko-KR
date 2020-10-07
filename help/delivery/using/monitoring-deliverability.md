@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classic의 모니터링 전달 기능
-description: Adobe Campaign Classic의 전달 가능성 모니터링에 대한 도구 및 지침에 대해 알아보십시오.
+title: Adobe Campaign Classic의 모니터링 제공
+description: Adobe Campaign Classic의 전달 능력 모니터링에 대한 도구 및 지침에 대해 알아보십시오.
 page-status-flag: never-activated
 uuid: 0b5c5dbd-f532-4d8a-a255-9e6d88357d8d
 contentOwner: sauviat
@@ -9,14 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -37,12 +34,13 @@ Adobe Campaign에서 제공하는 기능을 사용하여 플랫폼 제공 여부
 
 다음 도구를 사용할 수도 있습니다.
 
-* 이 **[!UICONTROL Delivery throughput]** 보고서는 지정된 기간 동안 전체 플랫폼의 처리량에 대한 개요를 제공합니다. For more on this, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
-* 이 **[!UICONTROL Technical deliverability monitoring]** 보고서에는 플랫폼용 전달 품질 지표가 여러 개 포함되어 있습니다. For more on this, see [this section](#technical-deliverability-monitoring).
+* 이 **[!UICONTROL Delivery throughput]** 보고서는 지정된 기간 동안 전체 플랫폼의 처리량에 대한 개요를 제공합니다. 자세한 내용은 [이 섹션](../../reporting/using/global-reports.md#delivery-throughput)을 참조하십시오.
+* 이 **[!UICONTROL Technical deliverability monitoring]** 보고서에는 플랫폼용 전달 품질 지표가 여러 개 포함되어 있습니다. 자세한 내용은 [이 섹션](#technical-deliverability-monitoring)을 참조하십시오.
 * 각 배달은 서로 다른 인터넷 서비스 공급자(ISP)에 대한 브로드캐스트 통계 보고서를 생성합니다. 다음 숫자를 포함하여 배달능력에 영향을 줄 수 있는 데이터 품질 및 평판 지표를 보여줍니다.
    * **[!UICONTROL Hard bounces]** 데이터 품질을 나타냅니다. 이 숫자는 2% 미만이어야 합니다.
    * **[!UICONTROL Soft bounces]** 평판이 표시됩니다. 해당 ISP의 경우 이 숫자는 10%보다 높지 않아야 합니다.
-   자세한 내용은 [배달 통계](../../reporting/using/global-reports.md#delivery-statistics) 섹션을 참조하십시오.
+
+   For more on this, see the [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics) section.
 * 일반적으로 [배달 대시보드는](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) 다음과 같은 액세스 권한을 제공합니다.
    * 전송 세부 사항과 성공 시 전송, 처리 및 전송할 메시지 [수](../../delivery/using/monitoring-a-delivery.md#delivery-summary)를 보여주는 배달 요약 [](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) ;
    * 어느 대상이 제외되었는지와 그 이유를 보여주는 [배달 로그 및 내역](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history);
@@ -55,22 +53,22 @@ Adobe Campaign에서 제공하는 기능을 사용하여 플랫폼 제공 여부
 * 전체 플랫폼에 대한 [배달 처리량을](../../reporting/using/global-reports.md#delivery-throughput) 정기적으로 확인하여 원래 설정과 일치하는지 확인합니다.
 * 배달 템플릿에서 [재시도](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) 횟수가 올바르게 설정되어 있는지(재시도 기간은 30분, 재시도 횟수는 20회 이상) 확인합니다.
 * 정기적으로 [바운스](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management) 사서함에 액세스할 수 있으며 계정이 만료되지 않도록 확인합니다.
-* 각 배달 처리량을 확인하여 배달 컨텐츠의 유효성(예: &#39;flash sales&#39;는 며칠이 아니라 몇 분 만에 배달됩니다.)
+* 각 배달 처리량을 확인하여 배달 컨텐츠의 유효성(예:&#39;flash sales&#39;는 며칠이 아니라 몇 분 만에 배달됩니다.)
 * 파도를 사용할 때 [각 파동이 다음 파동이 트리거되기 전에 마무리할 시간이 충분한지 확인합니다](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 * 오류 수와 새 [검역소가](../../delivery/using/understanding-quarantine-management.md) 다른 배달물과 일치하는지 확인하십시오.
-* 강조 표시된 오류 유형(블록 목록, DNS 문제, 스팸 방지 규칙 등)을 확인하려면 [배달 로그를](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) 자세히 참조하십시오.
+* 강조 표시된 오류 유형(차단 목록, DNS 문제, 스팸 방지 규칙 등)을 확인하려면 [배달 로그를](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) 자세히 참조하십시오.
 
 ## 신호 스팸 {#signal-spam}
 
 Signal Spam은 프랑스 ISP(Orange, SFR)에 대해 익명화된 피드백 루프 보고를 제공하는 프랑스 서비스입니다.
 
-* 이 서비스를 사용하면 프랑스 ISP의 명성을 따르고 고객의 활동 진화를 추적할 수 있습니다.
+* 이 서비스를 사용하면 프랑스 ISP의 명성을 확인하고 고객의 활동 진화를 추적할 수 있습니다.
 
 * Signal Spam은 최종 사용자가 전용 인터페이스를 통해 로그인하는 직접 불만 사항을 제공합니다. 그런 불만은 이메일 주소 데이터베이스로부터 격리된다.
 
 ## 250ok {#deliverability-250ok}
 
-[250ok](https://250ok.com/) 는 IP 및 도메인 블록 목록, 평판 지표의 기능을 제공하는 Adobe 전달 능력 내부 툴에 대한 보완 모니터링 솔루션입니다.
+[250ok](https://250ok.com/) 는 IP 및 도메인 차단 목록, 평판 지표에 대한 Adobe 전달 가능 내부 툴에 대한 보완 모니터링 솔루션입니다.
 
 제공된 정보는 실시간으로 제공되므로 적극적인 지원을 받을 수 있습니다.
 
@@ -88,15 +86,15 @@ Signal Spam은 프랑스 ISP(Orange, SFR)에 대해 익명화된 피드백 루�
 
 다음 지표가 보고서에서 사용됩니다.
 
-* **[!UICONTROL Reverse DNS]** : Adobe Campaign은 IP 주소에 대해 역 DNS가 제공되는지 그리고 이것이 IP를 올바르게 가리키는지 확인합니다.
+* **[!UICONTROL Reverse DNS]** :Adobe Campaign은 IP 주소에 대해 역 DNS가 제공되는지 그리고 이것이 IP를 올바르게 가리키는지 확인합니다.
 
-* **[!UICONTROL SPF]** (보낸 사람 정책 프레임워크): ISP 및 사서함 공급자가 이메일 보낸 사람이 전송 도메인에서 인증되었는지 확인할 수 있는 인증 메커니즘입니다.
+* **[!UICONTROL SPF]** (보낸 사람 정책 프레임워크):ISP 및 사서함 공급자가 이메일 보낸 사람이 전송 도메인에서 인증되었는지 확인할 수 있는 인증 메커니즘입니다.
 
-* **[!UICONTROL DomainKeys]** : Yahoo가 개발한 서비스로, 이메일 발신자의 신원을 인증합니다.
+* **[!UICONTROL DomainKeys]** :Yahoo가 개발한 서비스로, 이메일 발신자의 신원을 인증합니다.
 
-* **[!UICONTROL IP and RBL domain]** (실시간 블랙홀 목록): 잘못된 전송 평판을 위해 차단 목록 조직에 의해 플래그가 지정된 IP 주소 및 도메인 목록입니다. 이러한 목록은 Spamhaus, Spamcop, SURBL/URIBL 등과 같은 전용 조직에서 유지 관리합니다. Adobe Campaign은 현재 전달 가능성에 상당한 영향을 미치는 RBL을 검사합니다. 이러한 RBL은 전송 명성을 반영하며, 이메일을 받기 위해 수락하기 전에 ISP가 참조할 수 있습니다.
+* **[!UICONTROL IP and RBL domain]** (실시간 블랙홀 목록):차단 목록 조직에서 낮은 전송 명성을 이유로 플래그를 지정한 IP 주소 및 도메인 목록입니다. 이러한 목록은 Spamhaus, Spamcop, SURBL/URIBL 등과 같은 전용 조직에서 유지 관리합니다. Adobe Campaign은 현재 전달 가능성에 상당한 영향을 미치는 RBL을 검사하고 있습니다. 이러한 RBL은 전송 명성을 반영하며, 이메일을 받기 위해 수락하기 전에 ISP가 참조할 수 있습니다.
 
-* **[!UICONTROL SNDS]** (스마트 네트워크 데이터 서비스): Windows [Live Hotmail 스팸 방지 서비스](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail은 이러한 유형의 정보를 제공하는 유일한 ISP입니다. 벤치마크 점수는 녹색 필터 결과, 불만 비율이 0.1% 미만이고 스팸 트랩은 0입니다.
+* **[!UICONTROL SNDS]** (스마트 네트워크 데이터 서비스):Windows [Live Hotmail 스팸 방지 서비스](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail은 이러한 유형의 정보를 제공하는 유일한 ISP입니다. 벤치마크 점수는 녹색 필터 결과, 불만 비율이 0.1% 미만이고 스팸 트랩은 0입니다.
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 
