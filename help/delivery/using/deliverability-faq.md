@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classic에서 전달 기능을 관리할 때의 주요 내용
-description: Adobe Campaign Classic에서 전달 기능을 관리할 때 확인해야 할 주요 사항은 무엇입니까?
+title: Adobe Campaign Classic의 전달 능력 관리 시 주요 내용
+description: Adobe Campaign Classic에서 배송 기능을 관리할 때 확인해야 할 주요 사항은 무엇입니까?
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
@@ -9,11 +9,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 56fed9fff445892366d3e0f1367029882077ae20
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 0%
@@ -37,7 +34,7 @@ Adobe Campaign에서는 전송할 수 있는 시간당 이메일 수와 관련�
 
 따라서 &#39;할당량 충족&#39;은 구성 문제일 뿐 아니라 평판에 연결될 수도 있다. SMTP 로그에서 오류 메시지를 분석해야 [합니다](../../production/using/monitoring-processes.md#smtp-errors-per-domain).
 
-MX 구성에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../installation/using/email-deliverability.md#mx-configuration).
+For more on MX configuration, see [this section](../../installation/using/email-deliverability.md#mx-configuration).
 
 ## ISP에 대해 동일한 오류 메시지 {#same-error-for-an-isp}
 
@@ -45,42 +42,43 @@ MX 구성에 대한 자세한 내용은 [이 섹션을 참조하십시오](../..
 
 ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우, ISP에서 오류 메시지가 감지되었을 수 있습니다. 다음 권장 사항을 수행합니다.
 * 존재하지 않는 이메일 주소(**사용자 알 수 없는** 실패)로 연결된 오류가 매우 많은지 확인합니다.
-* 입력한 도메인 이름의 오류를 감지하도록 구독 양식을 업데이트합니다(예: gmaul.com 또는 yaho.com)을 참조하십시오.
+* 입력한 도메인 이름의 오류를 감지하도록 구독 양식을 업데이트합니다(예:gmaul.com 또는 yaho.com)을 참조하십시오.
 * 메시지가 스팸으로 선언되거나 메시지가 지속적으로 차단된다는 오류가 발생하는 경우 타겟에서 지난 12개월 동안 메시지 중 하나를 열거나 클릭하지 않은 수신자를 제외해 보십시오.
 
 문제가 지속되면 상업용 또는 배달 서비스, Adobe Campaign 클라이언트 지원 또는 Adobe Campaign 지원에 문의하십시오.
 
-## 차단 목록과 격리 {#block-list-versus-quarantine}
+## 차단 목록 대 검역 {#block-list-versus-quarantine}
 
-* **차단 목록에 있는 이메일 주소와 격리된 이메일 주소 간의 차이점은 무엇입니까?**
+* **차단 목록의 이메일 주소와 격리된 이메일 주소의 차이점은 무엇입니까?**
 
    * 상태 **[!UICONTROL On block list]** 는 피드백 루프의 결과입니다(사용자가 스팸으로 보고하면).
 
    * 상태 **[!UICONTROL Quarantined]** 는 부드러운 또는 하드 바운스의 결과입니다.
-   For more on this, see [this section](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-block-list).
+   자세한 내용은 [이 섹션](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-block-list)을 참조하십시오.
 
 * **다른 검역 오류 이유는 무엇입니까?**
 
-   다음과 같은 10가지 이유가 있습니다. 정의되지 않음, 사용자 알 수 없음, 잘못된 도메인, 차단 목록의 주소, 거부, 오류 무시, 접근 불가, 계정 비활성화, 사서함 꽉 참, 연결되지 않음.
+   다음과 같은 10가지 이유가 있습니다.정의되지 않음, 사용자 알 수 없음, 잘못된 도메인, 차단 목록의 주소, 거부, 오류 무시, 접근 불가, 계정 비활성화, 사서함 꽉 참, 연결되지 않음.
 
-   자세한 내용은 [격리 관리 이해를 참조하십시오](../../delivery/using/understanding-quarantine-management.md).
+   For more on this, see [Understanding quarantine management](../../delivery/using/understanding-quarantine-management.md).
 
-## 블록 목록에서 제거 {#remove-from-block-list}
+## 차단 목록에서 제거 {#remove-from-block-list}
 
-* **수신인 중 한 명이 실수로 블록 목록에 추가되었습니다. 메시지를 다시 보낼 수 있도록 블록 목록에서 어떻게 제거합니까?**
+* **수신인 중 한 명이 실수로 차단 목록에 추가되었다. 메시지를 다시 보낼 수 있도록 차단 목록에서 어떻게 제거합니까?**
 
    * 로 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**&#x200B;이동합니다.
    * 해당 레코드의 세부 정보에서 필드 값을 로 **[!UICONTROL Status]** 설정합니다 **[!UICONTROL Valid]**.
    * 기록을 저장합니다.
 
-* **내 IP 중 하나가 블록 목록에 있는지 어떻게 알 수 있습니까? 블록 목록에서 IP를 어떻게 제거합니까?**
+* **내 IP 중 하나가 차단 목록에 있는지 어떻게 알 수 있습니까? 차단 목록에서 IP를 어떻게 제거합니까?**
 
-   IP 주소가 블록 목록에 있는지 확인하려면 다양한 웹 사이트를 사용하여 다음을 확인할 수 있습니다.
+   IP 주소가 차단 목록에 있는지 확인하려면 다양한 웹 사이트를 사용하여 다음과 같이 확인할 수 있습니다.
    * [MX 도구 상자](https://mxtoolbox.com/)
    * [내 IP 주소](https://whatismyipaddress.com)
-   일반적으로 IP 주소 확인 결과는 블록 목록에 대한 세부 사항과 IP 주소를 차단하는 웹 사이트의 이름이 포함된 목록을 반환합니다.
 
-   해당 링크를 클릭하면 웹 사이트 세부 정보에 액세스할 수 있습니다. 그런 다음 해당 차단 목록에 IP 주소를 추가한 웹 사이트에서 웹 사이트를 삭제하도록 요청할 수 있습니다.
+   일반적으로 IP 주소 확인 결과는 차단 목록의 세부 사항과 IP 주소를 차단하는 웹 사이트의 이름이 포함된 목록을 반환합니다.
+
+   해당 링크를 클릭하면 웹 사이트 세부 정보에 액세스할 수 있습니다. 그런 다음 차단 목록에 IP 주소를 추가한 웹 사이트에서 웹 사이트를 삭제하도록 요청할 수 있습니다.
 
    >[!NOTE]
    >
@@ -94,8 +92,8 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우, ISP에�
 
 다음 요소들이 사용자의 주의를 끌 수 있습니다.
 
-* 메일링 또는 캠페인 지표: 구독 취소, 악용 불만 및/또는 이탈률은 평소보다 높습니다.
-* 가입자 활동: 열기, 클릭 및/또는 거래는 평소보다 작습니다.
+* 메일링 또는 캠페인 지표:구독 취소, 악용 불만 및/또는 이탈률은 평소보다 높습니다.
+* 가입자 활동:열기, 클릭 및/또는 거래는 평소보다 작습니다.
 * 시드 계정은 필터링되거나 배달되지 않은 mailings를 표시합니다.
 
 ### 잠재적 원인 가설 {#potential-causes}
@@ -141,7 +139,7 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우, ISP에�
 
 불만과 데이터 유효성 외에도, ISP는 배송 결정을 내리기 위해 **긍정적인 참여** 에 더욱 주력하고 있습니다. 이들은 구독자가 이메일을 열지 않고 삭제할지 여부를 확인하고 있습니다. 이 데이터가 발신자와 공유되지 않으므로, Adobe는 사용 가능한 정보를 활용하고 공개/클릭/거래를 참여로 번역해야 합니다.
 
-지속적인 평판 유지 관리의 일환으로 참여 가입자가 목록에 어떻게 포함되어 있는지 파악하고 각 파일의 가입자에 대한 **최근 위험 계층** 구조를 구축하는 것이 중요합니다. 최근 날짜는 마지막 열기/클릭/트랜잭션 또는 등록 날짜로 정의됩니다. 이 기간은 세로와 다를 수 있습니다. 이렇게 하려면:
+지속적인 평판 유지 관리의 일환으로 참여 가입자가 목록에 어떻게 포함되어 있는지 파악하고 각 파일의 가입자에 대한 **최근 위험 계층** 구조를 구축하는 것이 중요합니다. 최근 날짜는 마지막 열기/클릭/트랜잭션 또는 등록 날짜로 정의됩니다. 이 기간은 세로와 다를 수 있습니다. 방법은 다음과 같습니다.
 
 1. 각 세로에 대해 활성(&#39;안전&#39;) 세그먼트를 결정합니다. 이는 일반적으로 지난 3-6개월 이내에 유효한 가입자입니다.
 1. 빈도를 비활성 상태로 줄일 수 있습니다.
