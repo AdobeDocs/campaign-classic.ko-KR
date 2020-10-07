@@ -1,7 +1,7 @@
 ---
-title: 스팸자퍼
-seo-title: 스팸자퍼
-description: 스팸자퍼
+title: SpamAssassin
+seo-title: SpamAssassin
+description: SpamAssassin
 seo-description: null
 page-status-flag: never-activated
 uuid: 4f439432-4215-42ed-8f92-b4ca8dd92726
@@ -11,35 +11,32 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: d41658ab-ee79-4a5c-a165-d94b81eb2b33
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
 
-# 스팸자퍼{#spamassassin}
+# SpamAssassin{#spamassassin}
 
 ## SpamCharacter 정보 {#about-spamassassin}
 
-이메일 스팸 필터링에 사용되는 타사 서비스인 [SpamCharacter](https://spamassassin.apache.org)와 작동하도록 Adobe Campaign을 구성할 수 있습니다. 따라서 이메일에 점수를 매겨 메시지가 수신 시 사용되는 스팸 방지 도구에 의해 스팸으로 간주될 위험을 실행하는지 여부를 결정할 수 있습니다.
+Adobe Campaign은 이메일 스팸 필터링에 사용되는 [타사 서비스인 SpamCharacter](https://spamassassin.apache.org)와 작동하도록 구성할 수 있습니다. 따라서 이메일에 점수를 매겨 메시지가 수신 시 사용되는 스팸 방지 도구에 의해 스팸으로 간주될 위험을 실행하는지 여부를 결정할 수 있습니다.
 
 SpamCharacter는 다음과 같은 다양한 스팸 감지 기법을 활용합니다.
 
 * DNS 기반 및 퍼지 체크섬 기반 스팸 감지
 * 베이시안 필터링
 * 외부 프로그램
-* 블록 목록
+* 차단 목록
 * 온라인 데이터베이스
 
 >[!NOTE]
 >
->Adobe Campaign 응용 프로그램 서버에 SpamCharacter를 설치하고 구성해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-spamassassin.md)을 참조하십시오.
+>SpamCharacter를 설치하고 Adobe Campaign 응용 프로그램 서버에 구성해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-spamassassin.md)을 참조하십시오.
 >
 >요소가 스팸인지 여부를 제어하는 규칙이며 권한이 있는 관리자가 편집할 수 있습니다.
 
@@ -49,7 +46,7 @@ SpamCharacter는 다음과 같은 다양한 스팸 감지 기법을 활용합니
 
 배달 만들기 및 디자인에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../delivery/using/about-email-channel.md).
 
-1. 탭으로 **[!UICONTROL Preview]** 이동합니다.
+1. **[!UICONTROL Preview]** 탭으로 이동합니다. 
 1. 배달을 미리 볼 수신자를 선택합니다.
 
    ![](assets/s_tn_del_preview_spamassassin_recipient.png)
@@ -63,7 +60,7 @@ SpamCharacter는 다음과 같은 다양한 스팸 감지 기법을 활용합니
    ![](assets/s_tn_del_preview_spamassassin_ko.png)
 
 1. 경고 옆의 **[!UICONTROL More...]** 링크를 클릭합니다.
-1. 탭을 **[!UICONTROL Anti-spam checking]** 선택합니다.
+1. **[!UICONTROL Anti-spam checking]** 탭을 선택합니다. 
 1. 이 위험의 이유를 **[!UICONTROL Points / Rule / Description]** 보려면 섹션으로 이동합니다.
 
    ![](assets/s_tn_del_msg_spamassassin_ko.png)
