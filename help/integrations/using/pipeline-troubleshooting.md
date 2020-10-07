@@ -11,11 +11,8 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 1%
@@ -32,7 +29,7 @@ ht-degree: 1%
 1. 구성 파일에 [!DNL pipelined] 요소가 있는지 확인합니다. 그렇지 않으면 지원되지 않음을 의미합니다.
 1. 버전 6.11 빌드 8705 이상으로 업그레이드하십시오.
 
-**&quot;Aurait domenencer par ou(iRc=16384)&quot;로 피펜드`[` `{`가 실패합니다.**
+**&quot;Aurait domenencer par ou(iRc=16384)&quot;로 피펜드`[``{`가 실패합니다.**
 
 NmsPipeline_ **Config** 옵션이 설정되지 않았습니다. JSON 구문 분석 오류입니다.
 NmsPipeline_Config 옵션에서 **JSON 구성을 설정합니다**. 이 페이지에서 &quot;라우팅 옵션&quot;을 참조하십시오.
