@@ -11,14 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 discoiquuid: 42867665-d0ca-486e-9110-91716c0d5c57
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a6b15dd1be6bb53b7a757d7fe1333314df9693a4
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2462'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -29,20 +26,20 @@ ht-degree: 0%
 
 Adobe Campaign을 사용하면 패키지 시스템을 통해 플랫폼 구성 및 데이터를 내보내거나 가져올 수 있습니다. 패키지에는 서로 다른 종류의 구성, 요소, 필터링되거나 필터링되지 않을 수 있습니다.
 
-데이터 패키지를 사용하면 Adobe Campaign 데이터베이스의 엔터티가 XML 형식의 파일을 통해 표시될 수 있습니다. 패키지에 포함된 각 엔티티는 모든 데이터로 표현됩니다.
+데이터 패키지를 사용하면 Adobe Campaign 데이터베이스의 엔터티가 XML 형식의 파일을 통해 표시될 수 있습니다. 패키지에 포함된 각 엔티티는 모든 데이터로 표시됩니다.
 
-데이터 **패키지의** 원리는 데이터 구성을 내보내고 다른 Adobe Campaign 시스템에 통합하는 것이다. 이 [섹션에서 일관된 데이터 패키지 세트를 유지 관리하는 방법을 살펴볼 수 있습니다](#data-package-best-practices).
+The principle of **data packages** is to export a data configuration and integrate it into another Adobe Campaign system. 이 [섹션에서 일관된 데이터 패키지 세트를 유지 관리하는 방법을 살펴볼 수 있습니다](#data-package-best-practices).
 
 ### 패키지 유형 {#types-of-packages}
 
-내보낼 수 있는 패키지는 다음과 같은 세 가지가 있습니다. 사용자 패키지, 플랫폼 패키지 및 관리 패키지.
+내보낼 수 있는 패키지는 다음과 같은 세 가지가 있습니다.사용자 패키지, 플랫폼 패키지 및 관리 패키지.
 
-* **사용자 패키지**: 내보낼 엔티티 목록을 선택할 수 있습니다. 이 유형의 패키지는 종속성을 관리하고 오류를 확인합니다.
-* **Platform 패키지**: 여기에는 추가된 모든 기술 리소스(비표준)가 포함됩니다. 스키마, JavaScript 코드 등
+* **사용자 패키지**:내보낼 엔티티 목록을 선택할 수 있습니다. 이 유형의 패키지는 종속성을 관리하고 오류를 확인합니다.
+* **플랫폼 패키지**:여기에는 추가된 모든 기술 리소스(비표준)가 포함됩니다.스키마, JavaScript 코드 등
 
    ![](assets/ncs_datapackage_package_platform.png)
 
-* **관리 패키지**: 여기에는 추가된 모든 템플릿과 비즈니스 개체(비표준)가 포함됩니다. 템플릿, 라이브러리 등
+* **관리 패키지**:여기에는 추가된 모든 템플릿과 비즈니스 개체(비표준)가 포함됩니다.템플릿, 라이브러리 등
 
    ![](assets/ncs_datapackage_package_admin.png)
 
@@ -151,7 +148,7 @@ XML 문서는 **`<package>`** 요소로 시작하고 끝나야 합니다. 다음
 
 ### 종속성 관리 {#managing-dependencies}
 
-내보내기 메커니즘을 사용하면 Adobe Campaign이 다양한 내보낸 요소 간의 링크를 추적할 수 있습니다.
+내보내기 메커니즘을 통해 Adobe Campaign은 다양한 내보낸 요소 간의 링크를 추적할 수 있습니다.
 
 이 메커니즘은 두 가지 규칙으로 정의됩니다.
 
@@ -164,7 +161,7 @@ XML 문서는 **`<package>`** 요소로 시작하고 끝나야 합니다. 다음
 
 #### 캠페인 내보내기 {#exporting-a-campaign}
 
-캠페인을 내보내는 방법에 대한 예가 여기에 있습니다. 내보낼 마케팅 캠페인에는 작업(레이블: &quot;MyTask&quot;) 및 워크플로우(레이블: &quot;MyWorkflow&quot; 폴더(노드: 관리/프로덕션/기술 워크플로우/캠페인 프로세스/MyWorkflow).
+캠페인을 내보내는 방법에 대한 예가 여기에 있습니다. 내보낼 마케팅 캠페인에는 작업(레이블:&quot;MyTask&quot;) 및 워크플로우(레이블:&quot;MyWorkflow&quot; 폴더(노드:관리/프로덕션/기술 워크플로우/캠페인 프로세스/MyWorkflow).
 
 일치 스키마는 &quot;자체&quot; 유형 무결성이 있는 링크로 연결되므로 작업 및 워크플로우는 캠페인과 동일한 패키지에서 내보내집니다.
 
@@ -213,7 +210,7 @@ label="" name="" namespace="" vendor="">
 </package>   
 ```
 
-패키지 유형에 대한 가입은 **@pkgAdmin 및 @pkgPlatform 속성을 가진 스키마에서** 정의됩니다. 이 두 속성은 패키지의 제휴 조건을 정의하는 XTK 표현식을 받습니다.
+패키지 유형에 대한 가입은 **@pkgAdmin 및 @pkgPlatform 속성을 사용하여 스키마에서** 정의됩니다. 이 두 속성은 패키지의 제휴 조건을 정의하는 XTK 표현식을 받습니다.
 
 ```
 <element name="offerEnv" img="nms:offerEnv.png" 
@@ -222,9 +219,9 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 마지막으로 **@pkgStatus** 속성을 사용하여 이러한 요소나 속성에 대한 내보내기 규칙을 정의할 수 있습니다. 속성 값에 따라 내보낸 패키지에 요소나 속성이 있습니다. 이 속성에 사용할 수 있는 세 가지 값은 다음과 같습니다.
 
-* **안 함**: 필드/링크를 내보내지 않음
-* **항상**: 이 필드에 대한 수출 강제
-* **preCreate**: 연결된 엔티티 생성 권한 부여
+* **안 함**:필드/링크를 내보내지 않음
+* **항상**:이 필드에 대한 수출 강제
+* **preCreate**:연결된 엔티티 생성 권한 부여
 
 >[!NOTE]
 >
@@ -243,7 +240,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 * [패키지 정의 생성 구성](#configuring-package-definitions-generation)
 * [패키지 정의에서 패키지 내보내기](#exporting-packages-from-a-package-definition)
 
-### 패키지 정의 만들기 {#creating-a-package-definition}
+### Creating a package definition {#creating-a-package-definition}
 
 패키지 정의는 **[!UICONTROL Administration > Configuration > Package management > Package definitions]** 메뉴에서 액세스할 수 있습니다.
 
@@ -285,9 +282,9 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ![](assets/packagedefinition_generationparameters.png)
 
-* **[!UICONTROL Include the definition]**: 패키지 정의에 현재 사용되는 정의를 포함합니다.
-* **[!UICONTROL Include an installation script]**: 패키지 가져오기에서 실행할 javascript 스크립트를 추가할 수 있습니다. 이 옵션을 선택하면 패키지 정의 화면에 **[!UICONTROL Script]** 탭이 추가됩니다.
-* **[!UICONTROL Include default values]**: 가 모든 엔티티 속성의 값을 패키지에 추가합니다.
+* **[!UICONTROL Include the definition]**:패키지 정의에 현재 사용되는 정의를 포함합니다.
+* **[!UICONTROL Include an installation script]**:패키지 가져오기에서 실행할 javascript 스크립트를 추가할 수 있습니다. 이 옵션을 선택하면 패키지 정의 화면에 **[!UICONTROL Script]** 탭이 추가됩니다.
+* **[!UICONTROL Include default values]**:가 모든 엔티티 속성의 값을 패키지에 추가합니다.
 
    긴 내보내기를 피하기 위해 이 옵션은 기본적으로 선택되어 있지 않습니다. 즉, 기본값(&#39;empty string&#39;, &#39;0&#39; 및 &#39;false&#39;(스키마에 달리 정의되지 않은 경우)이 있는 엔티티&#39; 특성이 패키지에 추가되지 않으므로 내보낼 수 없습니다.
 
@@ -337,7 +334,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 설치할 수 있는 패키지를 확인하려면 라이선스 계약을 참조하십시오.
 
-내장 패키지에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../installation/using/installing-campaign-standard-packages.md).
+For more information on built-in packages, refer to [this page](../../installation/using/installing-campaign-standard-packages.md).
 
 ## 데이터 패키지 우수 사례 {#data-package-best-practices}
 
@@ -347,7 +344,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 또한 여러 가지 다양한 기능을 갖춘 동일한 플랫폼을 사용하는 사용자가 여러 명 있으므로 패키지 사양 폴더가 빠르게 복잡해질 수 있습니다.
 
-필수 사항은 아니지만 이 섹션에서는 대규모 프로젝트에서 패키지를 구성하고 사용하는 데 도움이 되는 솔루션을 제공합니다.
+필수 사항은 아니지만 이 섹션에서는 대규모 프로젝트를 위해 Adobe Campaign에서 패키지를 구성하고 사용하는 데 도움이 되는 솔루션을 제공합니다.
 
 기본 제한 사항은 다음과 같습니다.
 * 패키지를 구성하고 변경된 내용과 시기를 추적할 수 있습니다
@@ -357,13 +354,13 @@ template="xtk:folder" pkgAdmin="@id != 0">
 >
 >패키지를 자동으로 내보내는 워크플로우 설정에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/campaign/kb/export-packages-automatically.html).
 
-### Recommendations {#data-package-recommendations}
+### 추천 {#data-package-recommendations}
 
 항상 동일한 플랫폼 버전 내에서 가져오기 빌드가 동일한 두 인스턴스 사이에 패키지를 배포하는지 확인해야 합니다. 가져오기 작업을 강제 수행하지 않고, 항상 먼저 플랫폼을 업데이트합니다(빌드가 다른 경우).
 
 >[!IMPORTANT]
 >
->다른 버전 간 가져오기는 Adobe에서 지원하지 않습니다.
+>다른 버전 간 가져오기는 Adobe에서 지원되지 않습니다.
 <!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
 
 스키마 및 데이터베이스 구조에 주의를 기울입니다. 스키마가 있는 패키지 가져오기 뒤에 스키마를 생성해야 합니다.
@@ -375,9 +372,9 @@ template="xtk:folder" pkgAdmin="@id != 0">
 다양한 유형의 패키지를 정의하여 시작합니다. 4가지 유형만 사용됩니다.
 
 **엔티티**
-* 스키마, 양식, 폴더, 전달 템플릿 등과 같은 Adobe Campaign의 모든 &quot;xtk&quot; 및 &quot;nms&quot; 특정 요소
+* 스키마, 양식, 폴더, 배달 템플릿 등과 같은 Adobe Campaign의 모든 &quot;xtk&quot; 및 &quot;nms&quot; 특정 요소
 * 엔티티를 &quot;관리자&quot; 및 &quot;플랫폼&quot; 요소로 간주할 수 있습니다.
-* Campaign 인스턴스에서 업로드할 때 패키지에 둘 이상의 엔티티를 포함시켜서는 안 됩니다.
+* Campaign 인스턴스에서 업로드할 때 패키지에 둘 이상의 엔티티를 포함해서는 안 됩니다.
 
 <!--Nothing “works” alone. An entity package does not have a specific role or objective.-->
 
@@ -406,12 +403,12 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ### 이름 지정 규칙 {#data-package-naming}
 
-이제 유형이 정의되므로 명명 규칙을 지정해야 합니다. Adobe Campaign은 패키지 사양에 대한 하위 폴더를 만들 수 없습니다. 즉, 숫자는 체계적으로 구성할 수 있는 최상의 솔루션입니다. 숫자 접두어 패키지 이름. 다음 규칙을 사용할 수 있습니다.
+이제 유형이 정의되었으므로 이름 지정 규칙을 지정해야 합니다. Adobe Campaign은 패키지 사양에 대한 하위 폴더를 만들 수 없습니다. 즉, 숫자는 체계적으로 구성할 수 있는 최상의 솔루션입니다. 숫자 접두어 패키지 이름. 다음 규칙을 사용할 수 있습니다.
 
-* 엔티티: 1~99까지
-* 기능: 100부터 199까지
-* 캠페인: 200 ~ 299
-* 업데이트: 5000에서 5999까지
+* 엔티티:1~99까지
+* 기능:100부터 199까지
+* 캠페인:200 ~ 299
+* 업데이트:5000에서 5999까지
 
 ### 패키지 {#data-packages}
 
@@ -421,7 +418,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 #### 엔티티 패키지 순서 {#entity-packages-order}
 
-가져오기에 도움이 되도록 엔티티 패키지를 가져올 때 순서대로 정렬합니다. 예:
+가져오기에 도움이 되도록 엔티티 패키지를 가져올 때 순서대로 정렬합니다. 예제:
 * 001 - 스키마
 * 002 - 양식
 * 003 - 이미지
@@ -429,28 +426,28 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 >[!NOTE]
 >
->양식은 스키마 업데이트 후에만 가져와야 합니다.
+>Forms은 스키마 업데이트 후에만 가져와야 합니다.
 
 #### 패키지 200 {#package-200}
 
-패키지 번호 &quot;200&quot;은 특정 캠페인에 사용할 수 없습니다. 이 숫자는 모든 캠페인과 관련된 내용을 업데이트하는 데 사용됩니다.
+패키지 번호 &quot;200&quot;은 특정 캠페인에 사용할 수 없습니다.이 숫자는 모든 캠페인과 관련된 내용을 업데이트하는 데 사용됩니다.
 
 #### 패키지 업데이트 {#update-package}
 
-마지막 지점은 업데이트 패키지 번호 매기기에 대한 것입니다. &quot;5&quot;를 접두사로 사용하는 패키지 번호(엔티티, 기능 또는 캠페인)입니다. 예:
+마지막 지점은 업데이트 패키지 번호 매기기에 대한 것입니다. &quot;5&quot;를 접두사로 사용하는 패키지 번호(엔티티, 기능 또는 캠페인)입니다. 예제:
 * 하나의 스키마 업데이트 5001
 * 5200을 사용하여 모든 캠페인 업데이트
 * 5101 - 101 기능 업데이트
 
 업데이트 패키지에는 쉽게 다시 사용할 수 있도록 특정 엔터티만 포함되어야 합니다. 분할하려면 새 번호를 추가합니다(1부터 시작). 이러한 패키지에 대한 특정 순서 규칙이 없습니다. Adobe가 101 기능인 소셜 애플리케이션을 보유하고 있다고 가정해 보십시오.
 * 여기에는 webApp 및 외부 계정이 포함됩니다.
-   * 패키지 레이블은 다음과 같습니다. 101 - 소셜 애플리케이션(socialApplication).
+   * 패키지 레이블은 다음과 같습니다.101 - 소셜 애플리케이션(socialApplication).
 * webApp에 결함이 있습니다.
    * wepApp이 수정되었습니다.
-   * 다음 이름으로 수정 패키지를 만들어야 합니다. 5101 - 1 - Social application webApp(socialApplication_webApp)
+   * 다음 이름으로 수정 패키지를 만들어야 합니다.5101 - 1 - Social application webApp(socialApplication_webApp)
 * 소셜 기능을 사용하려면 새 외부 계정을 추가해야 합니다.
    * 외부 계정이 만들어집니다.
-   * 새로운 패키지: 5101 - 2 - Social 응용 프로그램 외부 계정(socialApplication_extAccount).
+   * 새로운 패키지:5101 - 2 - Social 응용 프로그램 외부 계정(socialApplication_extAccount).
    * 101 패키지는 외부 계정에 추가되도록 업데이트되지만 배포되지는 않습니다.
       ![](assets/ncs_datapackage_best-practices-1.png)
 
