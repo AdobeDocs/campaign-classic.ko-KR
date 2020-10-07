@@ -11,21 +11,18 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
 
 # 개인화 필드{#personalization-fields}
 
-개인화 필드는 전달된 메시지 컨텐츠의 첫 번째 수준 개인화에 사용됩니다. 기본 컨텐츠에 삽입하는 필드는 선택한 데이터 소스의 데이터를 삽입할 위치를 보여줍니다.
+개인화 필드는 게재된 메시지 콘텐츠의 첫 번째 수준 개인화에 사용됩니다. 주 콘텐츠에 삽입하는 필드는 선택한 데이터 소스의 데이터를 삽입할 위치를 보여줍니다.
 
 예를 들어, **&lt;%= recipient.LastName %>** 구문을 사용하는 개인화 필드는 Adobe Campaign에게 받는 사람의 이름을 데이터베이스에 삽입하도록 지시합니다(수신자 테이블).
 
@@ -81,7 +78,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >게재가 워크플로우의 일부인 경우 임시 워크플로우 테이블의 데이터를 사용할 수 있습니다. 이 데이터는 **[!UICONTROL Target extension]** 메뉴에서 그룹화됩니다. 자세한 정보는 [이 섹션](../../workflow/using/data-life-cycle.md#target-data)을 참조하십시오.
+   >게재가 워크플로우의 일부인 경우 임시 워크플로우 테이블의 데이터를 사용할 수 있습니다. 이 데이터는 **[!UICONTROL Target extension]** 메뉴에서 그룹화됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/data-life-cycle.md#target-data)을 참조하십시오.
 
 ## 개인화 최적화 {#optimizing-personalization}
 
@@ -95,7 +92,7 @@ ht-degree: 3%
 
 이 옵션을 사용하려면 아래 절차를 따르십시오.
 
-1. 캠페인 만들기. 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
+1. 캠페인 만들기. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
 1. 캠페인 **[!UICONTROL Targeting and workflows]** 탭에서 워크플로우에 **쿼리** 활동을 추가합니다. For more on using this activity, refer to [this section](../../workflow/using/query.md).
 1. 워크플로우에 **[!UICONTROL Email delivery]** 활동을 추가하고 엽니다. For more on using this activity, refer to [this section](../../workflow/using/delivery.md).
 1. 의 **[!UICONTROL Analysis]** 탭으로 **[!UICONTROL Delivery properties]** 가서 **[!UICONTROL Prepare the personalization data with a workflow]** 옵션을 선택합니다.
