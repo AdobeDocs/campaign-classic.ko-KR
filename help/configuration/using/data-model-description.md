@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign 클래식 데이터 모델 설명
+title: Adobe Campaign Classic 데이터 모델 설명
 description: 이 문서에서는 Adobe Campaign Classic 데이터 모델에 대해 설명합니다.
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
@@ -9,21 +9,18 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2375'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 캠페인 데이터 모델 설명{#data-model-description}
+# Campaign data model description{#data-model-description}
 
-Adobe Campaign은 사전 정의된 데이터 모델과 함께 제공됩니다. 이 섹션에서는 Adobe Campaign 데이터 모델의 내장 테이블과 해당 상호 작용에 대한 세부 사항을 제공합니다.
+Adobe Campaign은 사전 정의된 데이터 모델을 제공합니다. 이 섹션에서는 Adobe Campaign 데이터 모델의 기본 제공 테이블과 해당 상호 작용에 대한 세부 사항을 제공합니다.
 
 각 테이블의 설명에 액세스하려면 로 이동하여 목록에서 리소스 **[!UICONTROL Admin > Configuration > Data schemas]**&#x200B;를 선택하고 탭을 **[!UICONTROL Documentation]** 클릭합니다.
 
@@ -31,7 +28,7 @@ Adobe Campaign은 사전 정의된 데이터 모델과 함께 제공됩니다. �
 
 >[!NOTE]
 >
->응용 프로그램에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. 스키마라고 하는 Adobe Campaign에 대한 문법을 따릅니다. Adobe Campaign 스키마에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../configuration/using/about-schema-reference.md).
+>애플리케이션에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. 스키마라고 하는 Adobe Campaign에 특정된 문법을 따릅니다. For more on Adobe Campaign schemas, read out [this section](../../configuration/using/about-schema-reference.md).
 
 ## 기본 테이블에 대한 설명 {#description-main-tables}
 
@@ -43,7 +40,7 @@ Adobe Campaign은 서로 연결된 테이블을 포함하는 관계형 데이터
 
 ![](assets/data-model_simplified-diagram.png)
 
-사전 정의된 Adobe Campaign 데이터 모델은 아래에 나열된 기본 테이블을 포함합니다.
+사전 정의된 Adobe Campaign 데이터 모델에는 아래에 나열된 기본 테이블이 포함됩니다.
 
 ### NmsRecipient {#NmsRecipient}
 
@@ -51,8 +48,8 @@ Adobe Campaign은 서로 연결된 테이블을 포함하는 관계형 데이터
 
 배달 **수신자에게 사용되는 기본 테이블입니다**. 따라서 다양한 채널을 통해 배달하는 데 필요한 정보가 포함됩니다.
 
-* sEmail: 이메일 주소.
-* iEmailFormat: 이메일의 기본 형식(텍스트에 대해 1, HTML에 대해 2, 정의되지 않은 경우 0)입니다.
+* sEmail:이메일 주소.
+* iEmailFormat:이메일의 기본 형식(텍스트에 대해 1, HTML에 대해 2, 정의되지 않은 경우 0)입니다.
 * sAddress1, sAddress2, sAddress3, sAddress4, sZipCode, sCity는 우편 주소를 작성하는 데 사용됩니다(1997년 5월 XPZ 10-011 AFNOR 표준과 함께 사용).
 * sPhone, sMobilePhone, sFax에는 각각 전화, 휴대폰 및 팩스 번호가 들어 있습니다.
 * iBlockList는 프로필에 사용되는 기본 옵트아웃 플래그입니다(1은 &quot;가입되지 않음&quot;, 0을 의미합니다.).
@@ -107,7 +104,7 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 
 여기에는 콘솔의 **탐색** 탭에서 볼 수 있는 트리의 **** 모든 폴더가 포함됩니다.
 
-폴더는 다음과 같이 입력됩니다. sModel 필드의 값은 폴더에 포함할 수 있는 데이터 유형을 지정합니다. 이 필드는 클라이언트 콘솔이 해당 양식과 함께 데이터를 올바르게 표시할 수도 있습니다. 이 필드에 사용할 수 있는 값은 navTree에 정의됩니다.
+폴더는 다음과 같이 입력됩니다.sModel 필드의 값은 폴더에 포함할 수 있는 데이터 유형을 지정합니다. 이 필드는 클라이언트 콘솔이 해당 양식과 함께 데이터를 올바르게 표시할 수도 있습니다. 이 필드에 사용할 수 있는 값은 navTree에 정의됩니다.
 
 트리는 iParentId 및 iChildCount 필드에 의해 관리됩니다. sFullName 필드는 트리에 있는 폴더의 전체 경로를 제공합니다. 마지막으로, 필드에 sName 폴더의 내부 이름을 나타내는 고유한 인덱스가 있습니다.
 
@@ -117,7 +114,7 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 
 ![](assets/data-model_delivery.png)
 
-**NmsBroadLogMsg**: 이 테이블은 nms:broadLogMsg **스키마와** 일치합니다. 배달 로그 테이블의 확장입니다.
+**NmsBroadLogMsg**:이 테이블은 nms:broadLogMsg **스키마와** 일치합니다. 배달 로그 테이블의 확장입니다.
 
 ## 캠페인 관리 {#campaign-management}
 
@@ -125,15 +122,15 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 
 ![](assets/data-model_campaign.png)
 
-* **NmsOperation**: 이 테이블은 **nms:operation** 스키마와 일치합니다. 여기에는 마케팅 캠페인의 데이터가 포함됩니다.
-* **NmsDeliveryOutline**: 이 표에서는 nms:deliveryOutline **스키마와** 일치합니다. 게재의 확장 속성(배달 개요)이 포함되어 있습니다.
-* **NmsDlvOutlineItem**: 이 테이블은 **nms:dlvOutlineItem** 스키마와 일치합니다. 배달 개요 기사가 들어 있습니다.
-* **NmsDeliveryCustomization**: 이 표에서는 nms:deliveryCustomization **스키마와** 일치합니다. 게재의 개인화 필드가 포함되어 있습니다.
-* **NmsBudget**: 이 테이블은 **nms:budget** 스키마와 일치합니다. 여기에는 캠페인, 계획, 프로그램, 작업 및/또는 게재에 대한 예산 데이터가 포함됩니다.
-* **NmsDocument**: 이 테이블은 **nms:document** 스키마와 일치합니다. 캠페인 마케팅 문서를 파일 형식(이미지, excel 또는 word 파일 등)으로 포함합니다.
-* **XtkWorkflow**: 이 테이블은 xtk:workflow **스키마와** 일치합니다. 여기에는 캠페인 타깃팅이 포함됩니다.
-* **NmsTask**: 이 테이블은 **nms:task** 스키마와 일치합니다. 여기에는 마케팅 작업의 정의가 포함됩니다.
-* **NmsAsset**: 이 테이블은 nms: **asset** 스키마와 일치합니다. 여기에는 마케팅 리소스의 정의가 포함됩니다.
+* **NmsOperation**:이 테이블은 **nms:operation** 스키마와 일치합니다. 여기에는 마케팅 캠페인의 데이터가 포함됩니다.
+* **NmsDeliveryOutline**:이 표에서는 nms:deliveryOutline **스키마와** 일치합니다. 게재의 확장 속성(배달 개요)이 포함되어 있습니다.
+* **NmsDlvOutlineItem**:이 테이블은 **nms:dlvOutlineItem** 스키마와 일치합니다. 배달 개요의 아티클이 포함되어 있습니다.
+* **NmsDeliveryCustomization**:이 표에서는 nms:deliveryCustomization **스키마와** 일치합니다. 게재의 개인화 필드가 포함되어 있습니다.
+* **NmsBudget**:이 테이블은 **nms:budget** 스키마와 일치합니다. 여기에는 캠페인, 계획, 프로그램, 작업 및/또는 게재에 대한 예산 데이터가 포함됩니다.
+* **NmsDocument**:이 테이블은 **nms:document** 스키마와 일치합니다. 캠페인 마케팅 문서를 파일 형식(이미지, excel 또는 word 파일 등)으로 포함합니다.
+* **XtkWorkflow**:이 테이블은 xtk:workflow **스키마와** 일치합니다. 여기에는 캠페인 타깃팅이 포함됩니다.
+* **NmsTask**:이 테이블은 **nms:task** 스키마와 일치합니다. 여기에는 마케팅 작업의 정의가 포함됩니다.
+* **NmsAsset**:이 테이블은 nms: **asset** 스키마와 일치합니다. 여기에는 마케팅 리소스의 정의가 포함됩니다.
 
 ## 커뮤니케이션 일관성 {#communication-consistency}
 
@@ -141,11 +138,11 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 
 ![](assets/data-model_typology.png)
 
-* **NmsTypicalRule**: 이 테이블은 nms: **typesRule** 스키마와 일치합니다. 유형 특성에 따라 게재에 적용되는 규칙을 포함합니다.
-* **NmsTypical**: 이 테이블은 nms: **Typical** 스키마와 일치합니다. 이 클래스에는 유형 유형과 일치하는 게재에 적용할 규칙 세트가 포함되어 있습니다.
-* **NmsTypicalRuleRel**: 이 테이블은 nms: **typesRuleRel 스키마와** 일치합니다. 그것은 유형들과 규칙들 사이의 관계를 포함한다.
-* **NmsVolumeLine**: 이 테이블은 **nms:volumeLine** 스키마와 일치합니다. 용량 규칙의 가용성 라인 세트가 포함되어 있습니다.
-* **NmsVolumeUsed**: 이 테이블은 nms:volumeUsed **스키마와** 일치합니다. 용량 규칙의 모든 소비 라인이 포함되어 있습니다.
+* **NmsTypicalRule**:이 테이블은 nms: **typesRule** 스키마와 일치합니다. 유형 특성에 따라 게재에 적용되는 규칙을 포함합니다.
+* **NmsTypical**:이 테이블은 nms: **Typical** 스키마와 일치합니다. 이 클래스에는 유형 유형과 일치하는 게재에 적용할 규칙 세트가 포함되어 있습니다.
+* **NmsTypicalRuleRel**:이 테이블은 nms: **typesRuleRel 스키마와** 일치합니다. 그것은 유형들과 규칙들 사이의 관계를 포함한다.
+* **NmsVolumeLine**:이 테이블은 **nms:volumeLine** 스키마와 일치합니다. 용량 규칙의 가용성 라인 세트가 포함되어 있습니다.
+* **NmsVolumeUsed**:이 테이블은 nms:volumeUsed **스키마와** 일치합니다. 용량 규칙의 모든 소비 라인이 포함되어 있습니다.
 
 ## 응답 관리 {#response-management}
 
@@ -167,7 +164,7 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 * 가설 조건의 시작 테이블을 정의할 수 있는 쿼리 스키마.
 * 질의 스키마를 기반으로 개별 사용자를 식별할 수 있는 개인 링크.
 * 거래 일자입니다. 이 필드는 필수는 아니지만 계산 경계를 제한하는 데 사용하는 것이 좋습니다.
-* 거래 금액: 매출 지표를 자동으로 계산하기 위한 선택 필드입니다.
+* 거래 금액:매출 지표를 자동으로 계산하기 위한 선택 필드입니다.
 
 **가설 경계(XML에 저장된 정보)**
 
@@ -213,21 +210,21 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 
 ![](assets/data-model_simulation.png)
 
-* **NmsSimulation**: 이 테이블은 **nms:시뮬레이션** 스키마와 일치합니다. 지정된 모집단에서 전달 또는 오퍼 세트에 대한 시뮬레이션을 나타냅니다.
-* **NmsDlvSimulationRel**: 이 테이블은 **nms:dlvSimulationRel** 스키마와 일치합니다. 시뮬레이션에서 고려된 배달 목록이 들어 있습니다. 시뮬레이션의 범위는 XML로 저장됩니다.
-* **NmsOfferSimulationRel**: 이 테이블은 **nms:offerSimulationRel** 스키마와 일치합니다. 시뮬레이션을 오퍼와 연결할 수 있습니다.
+* **NmsSimulation**:이 테이블은 **nms:시뮬레이션** 스키마와 일치합니다. 지정된 모집단에서 전달 또는 오퍼 세트에 대한 시뮬레이션을 나타냅니다.
+* **NmsDlvSimulationRel**:이 테이블은 **nms:dlvSimulationRel** 스키마와 일치합니다. 시뮬레이션에서 고려된 배달 목록이 들어 있습니다. 시뮬레이션의 범위는 XML로 저장됩니다.
+* **NmsOfferSimulationRel**:이 테이블은 **nms:offerSimulationRel** 스키마와 일치합니다. 시뮬레이션을 오퍼와 연결할 수 있습니다.
 
 ## 상호 작용 모듈 {#interaction-module}
 
-이 표 세트는 **상호 작용** 모듈과 연결되어 있으므로 특정 담당자와 상호 작용하는 동안 단일 또는 여러 개의 오퍼로 응답할 수 있습니다. 자세한 내용은 상호 작용 [및 오퍼 관리를 참조하십시오](../../interaction/using/interaction-and-offer-management.md).
+이 테이블 세트는 **상호 작용** 모듈과 연결되어 있으므로 특정 담당자와 상호 작용하는 동안 단일 또는 여러 개의 오퍼로 응답할 수 있습니다. 자세한 내용은 상호 작용 [및 오퍼 관리를 참조하십시오](../../interaction/using/interaction-and-offer-management.md).
 
-* **NmsOffer**: 이 테이블은 nms:offer **스키마와** 일치합니다. 여기에는 각 마케팅 오퍼의 정의가 포함됩니다.
-* **NmsProvisionRcp**: 이 테이블은 nms:provisionsRcp **스키마와** 일치합니다. 여기에는 각 개인에게 전송된 마케팅 프로필의 크로스 채널 로그가 포함되어 있습니다. 기록은 제안을 준비하거나 효과적으로 개인에게 제출될 때 생성됩니다.
-* **NmsOfferSpace**: 이 테이블은 nms:offerSpace **스키마와** 일치합니다. proposition을 작성할 위치의 정의를 포함합니다.
-* **NmsOfferContext**: 이 테이블은 nms:offerContext **스키마와** 일치합니다. 이 계산서에는 제안의 적용 가능성 및 가중치 계산 공식의 정의에 대한 추가 기준이 포함되어 있습니다.
-* **NmsOfferView**: 이 표는 nms:offerView와 **일치합니다**. 여기에는 오퍼 표현이 포함됩니다.
-* **NmsOfferCategory**: 이 표는 **nms:offerCategory와 일치합니다**. 여기에는 오퍼 카테고리가 포함됩니다.
-* **NmsOfferEnv**: 이 테이블은 nms:offerEnv **와 일치합니다**. 오퍼 환경을 포함합니다.
+* **NmsOffer**:이 테이블은 nms:offer **스키마와** 일치합니다. 여기에는 각 마케팅 오퍼의 정의가 포함됩니다.
+* **NmsProvisionRcp**:이 테이블은 nms:provisionsRcp **스키마와** 일치합니다. 여기에는 각 개인에게 전송된 마케팅 프로필의 크로스 채널 로그가 포함되어 있습니다. 기록은 제안을 준비하거나 효과적으로 개인에게 제출될 때 생성됩니다.
+* **NmsOfferSpace**:이 테이블은 nms:offerSpace **스키마와** 일치합니다. proposition을 작성할 위치의 정의를 포함합니다.
+* **NmsOfferContext**:이 테이블은 nms:offerContext **스키마와** 일치합니다. 이 계산서에는 제안의 적용 가능성 및 가중치 계산 공식의 정의에 대한 추가 기준이 포함되어 있습니다.
+* **NmsOfferView**:이 표는 nms:offerView와 **일치합니다**. 여기에는 오퍼 표현이 포함됩니다.
+* **NmsOfferCategory**:이 표에서는 nms:offerCategory **와 일치합니다**. 여기에는 오퍼 카테고리가 포함됩니다.
+* **NmsOfferEnv**:이 테이블은 nms:offerEnv **와 일치합니다**. 오퍼 환경을 포함합니다.
 
 ## 메시지 센터 모듈 {#message-center-module}
 
@@ -259,12 +256,12 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 이 표 세트는 **모바일 앱 채널에**&#x200B;연결되어 있으므로 앱을 통해 개인화된 알림을 iOS 및 Android 터미널에 보낼 수 있습니다. 자세한 내용은 모바일 앱 채널 [정보를 참조하십시오](../../delivery/using/about-mobile-app-channel.md).
 
-* **NmsMobileApp**: 이 표는 **nms:mobileApp** 스키마와 일치합니다. Adobe Campaign에 정의된 모바일 응용 프로그램이 포함되어 있습니다.
-* **NmsAppSubscription**: 이 테이블은 nms:appSubscription **스키마와** 일치합니다. 여기에는 하나 이상의 응용 프로그램에 대한 구독자 정보가 포함됩니다.
-* **NmsAppSubscriptionRcp**: 이 테이블은 nms:appSubscriptionRcp **스키마와** 일치합니다. 애플리케이션을 구독한 방문자를 수신자 테이블과 연결할 수 있습니다.
-* **NmsExcludeLogAppSubRcp**: 이 테이블은 nms:excludeLogAppSubRcp **스키마와** 일치합니다.
-* **NmsTrackingLogAppSubRcp**: 이 테이블은 nms:trackingLogAppSubRcp **스키마와** 일치합니다.
-* **NmsBroadLogAppSubRcp**: 이 테이블은 nms:broadLogAppSubRcp **스키마와** 일치합니다.
+* **NmsMobileApp**:이 표는 **nms:mobileApp** 스키마와 일치합니다. 여기에는 Adobe Campaign에 정의된 모바일 애플리케이션이 포함되어 있습니다.
+* **NmsAppSubscription**:이 테이블은 nms:appSubscription **스키마와** 일치합니다. 여기에는 하나 이상의 응용 프로그램에 대한 구독자 정보가 포함됩니다.
+* **NmsAppSubscriptionRcp**:이 테이블은 nms:appSubscriptionRcp **스키마와** 일치합니다. 애플리케이션을 구독한 방문자를 수신자 테이블과 연결할 수 있습니다.
+* **NmsExcludeLogAppSubRcp**:이 테이블은 nms:excludeLogAppSubRcp **스키마와** 일치합니다.
+* **NmsTrackingLogAppSubRcp**:이 테이블은 nms:trackingLogAppSubRcp **스키마와** 일치합니다.
+* **NmsBroadLogAppSubRcp**:이 테이블은 nms:broadLogAppSubRcp **스키마와** 일치합니다.
 
 ## 소셜 마케팅 모듈 {#social-marketing-module}
 
@@ -272,8 +269,8 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ![](assets/data-model_social.png)
 
-* **Nms방문자**: 이 테이블은 nms:visitor **스키마와** 일치합니다. 방문자에 대한 정보가 포함되어 있습니다.
-* **NmsVisitorSub**: 이 테이블은 nms:visitorSub **스키마와** 일치합니다. 방문자를 구독한 서비스(Twitter 또는 Facebook)에 연결할 수 있습니다.
-* **NmsFriendShipRel**: 이 테이블은 nms: **friendshipRel** 스키마와 일치합니다. Facebook 서비스 컨텍스트 내에서 방문자를 자신의 친구와 연결할 수 있습니다.
-* **NmsVisitorInterestRel**: 이 테이블은 nms:visitorInterestRel **스키마와** 일치합니다. 방문자와 관심사를 연결할 수 있습니다.
-* **NmsInterest**: 이 테이블은 **nms:interest** 스키마와 일치합니다. 여기에는 각 방문자에 대한 관심 목록이 포함되어 있습니다.
+* **Nms방문자**:이 테이블은 nms:visitor **스키마와** 일치합니다. 방문자에 대한 정보가 포함되어 있습니다.
+* **NmsVisitorSub**:이 테이블은 nms:visitorSub **스키마와** 일치합니다. 방문자를 구독한 서비스(Twitter 또는 Facebook)에 연결할 수 있습니다.
+* **NmsFriendShipRel**:이 테이블은 nms: **friendshipRel** 스키마와 일치합니다. Facebook 서비스 컨텍스트 내에서 방문자를 자신의 친구와 연결할 수 있습니다.
+* **NmsVisitorInterestRel**:이 테이블은 nms:visitorInterestRel **스키마와** 일치합니다. 방문자와 관심사를 연결할 수 있습니다.
+* **NmsInterest**:이 테이블은 **nms:interest** 스키마와 일치합니다. 여기에는 각 방문자에 대한 관심 목록이 포함되어 있습니다.
