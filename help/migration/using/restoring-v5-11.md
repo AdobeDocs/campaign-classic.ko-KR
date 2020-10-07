@@ -11,22 +11,22 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 discoiquuid: ef778333-8e50-402b-9a69-78ac94497c67
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9482a99c3be164651b3428179388cb0a8a75783f
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 9%
 
 ---
 
 
 # v5.11 복원{#restoring-v}
 
-v7에서 v5.11을 복원하는 절차는 다음과 같습니다.
+v7에서 v5.11을 복원하는 절차입니다.
 
 1. 데이터베이스의 백업을 복구하고 복원합니다.
-1. Neolane v5.back **폴더(Linux의** nl5.back **)를** 복구한 다음 Neolane v5 **(Linux의****** nl5)로 이름을 변경한 다음 원래 위치로 복원합니다.
-1. IIS 웹 사이트 수준에서 Neolane v5의 통합을 다시 설정하기 위해 수신 포트를 다시 할당하여 IIS를 다시 구성합니다.
+1. Neolane v5.back **폴더(Linux의** nl5.back **)를 복구한 다음** Neolane v5(Linux의 **nl5****** )로 이름을 변경하고 원래 위치로 복원합니다.
+1. 수신 포트를 다시 할당하여 IIS 웹 사이트 수준에서 Neolane v5 통합을 다시 설정하여 IIS를 다시 구성합니다.
 1. Adobe Campaign v7 서비스를 중지합니다.
 1. IIS를 다시 시작합니다.
 1. Adobe Campaign v5 서비스를 다시 시작합니다.
