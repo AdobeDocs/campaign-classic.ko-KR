@@ -11,14 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -27,7 +24,7 @@ ht-degree: 1%
 
 ## 배달에 유형 분류 적용 {#applying-a-typology-to-a-delivery}
 
-귀하가 만든 분류 규칙을 적용하려면, 이 분류 규범을 Typical에 연결한 다음 이 유형을 전달에서 참조해야 합니다. 이렇게 하려면:
+귀하가 만든 분류 규칙을 적용하려면, 이 분류 규범을 Typical에 연결한 다음 이 유형을 전달에서 참조해야 합니다. 방법은 다음과 같습니다.
 
 1. 캠페인 유형을 만듭니다.
 
@@ -37,7 +34,7 @@ ht-degree: 1%
 
    ![](assets/campaign_opt_pressure_sample_1_6.png)
 
-1. 다음과 같은 유형을 저장합니다. 기존 유형 유형 목록에 추가됩니다.
+1. 다음과 같은 유형을 저장합니다.기존 유형 유형 목록에 추가됩니다.
 1. 규칙을 적용할 배달을 엽니다.
 1. 배달 속성을 열고 **[!UICONTROL Typology]** 탭에 액세스합니다.
 1. 드롭다운 목록에서 유형을 선택합니다.
@@ -46,7 +43,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >이 템플릿을 사용하여 만든 모든 게재에 자동으로 적용되도록 배달 템플릿에서 유형을 정의할 수 있습니다.
+   >이 템플릿을 사용하여 만든 모든 게재에 자동으로 적용되도록 게재 템플릿에서 유형화를 정의할 수 있습니다.
 
 ## 애플리케이션 조건 정의 {#defining-application-conditions}
 
@@ -62,7 +59,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->필터링 규칙의 경우 필터링 기준의 응용 프로그램 조건을 선택할 수 있습니다. 배달이나 배달 방법에 따라 달라질 수 있습니다. 자세한 내용은 필터링 규칙 [설정을 참조하십시오](../../campaign/using/filtering-rules.md#conditioning-a-filtering-rule).
+>필터링 규칙의 경우 필터링 기준의 응용 프로그램 조건을 선택할 수 있습니다.배달이나 배달 방법에 따라 달라질 수 있습니다. 자세한 내용은 필터링 규칙 [설정을 참조하십시오](../../campaign/using/filtering-rules.md#conditioning-a-filtering-rule).
 
 ## 계산 주기 조정 {#adjusting-calculation-frequency}
 
@@ -72,7 +69,7 @@ ht-degree: 1%
 
 이렇게 하려면 탭 **[!UICONTROL Frequency]** 의 **[!UICONTROL General]** 필드를 사용하여 타깃팅이 저장되는 최대 기간을 정의할 수 있습니다. 기본적으로 값 **0** 은 일별 재조정을 다음에 실행할 때까지 계산이 유효함을 나타냅니다.
 
-이 기간 이후의 결과를 저장하려면 필드에 12보다 큰 값을 **[!UICONTROL Frequency]** 입력합니다. 이 기간이 만료되면 모든 규칙이 다시 적용됩니다.
+이 기간 이후의 결과를 저장하려면 필드에 12보다 큰 값을 **[!UICONTROL Frequency]** 입력합니다.이 기간이 만료되면 모든 규칙이 다시 적용됩니다.
 
 이 **[!UICONTROL Re-apply the rule at the start of personalization]** 옵션을 사용하면 필드에 명시된 기간이 여전히 유효한 경우를 포함하여 개인화 단계 동안 규칙을 자동으로 적용할 수 **[!UICONTROL Frequency]** 있습니다.
 
@@ -82,19 +79,19 @@ ht-degree: 1%
 
 ### 실행 순서 {#execution-order}
 
-표준 작업 모드에서는 규칙이 다음 시퀀스에 적용됩니다.
+표준 작업 모드에서는 규칙은 다음 순서로 적용됩니다.
 
-1. 타깃팅 시작 시 적용되는 경우 규칙을 제어합니다.
+1. 타겟팅 시작 시 적용되는 경우에는 규칙을 제어합니다.
 1. 필터링 규칙:
 
-   * 주소 자격에 대한 기본 응용 프로그램 규칙: 블록 목록/격리된 주소/주소 품질
+   * 주소 자격에 대한 기본 응용 프로그램 규칙:차단 목록/격리된 주소/주소 품질에 정의된 주소/확인되지 않은 주소/주소
    * 사용자가 정의한 필터링 규칙.
    * 주소 또는 식별자에 대한 중복 제거 규칙(필요한 경우 적용).
 
 1. 압력 규칙.
 1. 용량 규칙.
-1. 타깃팅 끝에 적용되는 경우 규칙을 제어합니다.
-1. 규칙이 개인화 시작 시 적용되는 경우 규칙을 제어할 수 있습니다. 사용자 규칙(필터링/압력/용량)이 만료되어 다시 계산해야 하는 경우 이 단계 동안 적용됩니다.
+1. 타겟팅 끝에 적용되는 경우에는 규칙을 제어합니다.
+1. 규칙이 개인화 시작 시 적용되는 경우 규칙을 제어합니다. 사용자 규칙(필터링/압력/용량)이 만료되어 다시 계산해야 하는 경우 이 단계 동안 적용됩니다.
 1. 개인화 종료 시 적용되는 경우 규칙을 제어할 수 있습니다.
 
 >[!NOTE]
@@ -121,7 +118,7 @@ ht-degree: 1%
 
    제어 규칙을 적용하려면 대상 볼륨을 알아야 하는 경우 이 단계를 선택하십시오.
 
-   예를 들어, 각 타깃팅 단계 뒤에 **[!UICONTROL Check proof size]** 제어 규칙이 적용됩니다. 받는 사람이 너무 많으면 이 규칙은 메시지 개인화를 방지합니다.
+   예를 들어, 각 타깃팅 단계 뒤에 **[!UICONTROL Check proof size]** 제어 규칙이 적용됩니다.받는 사람이 너무 많으면 이 규칙은 메시지 개인화를 방지합니다.
 
 * **[!UICONTROL At the start of personalization]**
 
@@ -152,6 +149,6 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->분류 및 분류 규칙에서, 라이센스에 다음 옵션이 포함된 경우 **[!UICONTROL Distributed Marketing]** 탭이 추가됩니다. 사용권 계약을 확인하십시오.\
+>분류 및 분류 규칙에서, 라이센스에 다음 옵션이 포함된 경우 **[!UICONTROL Distributed Marketing]** 탭이 추가됩니다.사용권 계약을 확인하십시오.\
 >분산 마케팅에 대한 자세한 내용은 분산 마케팅 [정보를 참조하십시오](../../campaign/using/about-distributed-marketing.md).
 
