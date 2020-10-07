@@ -11,14 +11,11 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 7f471ac1-cd6a-4371-977e-52d60ce8d968
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f4ecdab4c17a6ba8deb3b98079f57bb7a9adf4a0
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1002'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -29,6 +26,7 @@ ht-degree: 0%
 >
 >* 제어 또는 실행 인스턴스의 [메시지 센터 기술 워크플로에서](../../message-center/using/technical-workflows.md) 사용하는 스키마에서 만들어진 스키마 확장은 Adobe Campaign 트랜잭션 메시징 모듈에서 사용하는 다른 인스턴스에 복제되어야 합니다.
 >* 제어 인스턴스와 실행 인스턴스를 다른 컴퓨터에 설치해야 합니다. 동일한 캠페인 인스턴스를 공유할 수 없습니다.
+
 >
 
 
@@ -43,8 +41,8 @@ ht-degree: 0%
 
 실행 인스턴스 유형 외부 계정을 만들려면 다음 단계를 적용합니다.
 
-1. 폴더로 **[!UICONTROL Administration > Platform > External accounts]** 이동합니다.
-1. Adobe Campaign과 함께 즉시 제공된 실행 인스턴스 유형 외부 계정 중 하나를 선택하고 마우스 오른쪽 버튼을 클릭한 다음 을 선택합니다 **[!UICONTROL Duplicate]** .
+1. Go to the **[!UICONTROL Administration > Platform > External accounts]** folder.
+1. 실행 인스턴스 유형 외부 계정 중 하나를 Adobe Campaign과 함께 바로 사용할 수 있도록 선택하고 마우스 오른쪽 버튼을 클릭한 다음 을 선택합니다 **[!UICONTROL Duplicate]** .
 
    ![](assets/messagecenter_create_extaccount_001.png)
 
@@ -68,7 +66,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >인스턴스에 로그온할 때마다 암호를 입력하지 않으려면 실행 인스턴스에서 제어 인스턴스의 IP 주소를 지정할 수 있습니다. 자세한 내용은 [실행 인스턴스를 참조하십시오](#execution-instance).
+   >인스턴스에 로그온할 때마다 암호를 입력하지 않으려면 실행 인스턴스에서 제어 인스턴스의 IP 주소를 지정할 수 있습니다. For more on this, refer to [Execution instance](#execution-instance).
 
 1. 실행 인스턴스에서 사용할 복구 방법을 지정합니다.
 
@@ -100,7 +98,7 @@ ht-degree: 0%
 
 제어 인스턴스가 암호를 부여하지 않고도 실행 인스턴스에 연결할 수 있게 하려면 **메시지 센터** 액세스 권한 섹션에 제어 인스턴스의 IP 주소를 입력하면 됩니다. 그러나 기본적으로 빈 암호는 사용할 수 없습니다.
 
-빈 암호를 사용하려면 실행 인스턴스로 이동하고 이벤트를 전달하는 정보 시스템의 IP 주소로 제한된 보안 영역을 정의합니다. 이 보안 영역은 빈 암호를 허용하고 `<identifier> / <password>` 문자 연결을 허용해야 합니다. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+빈 암호를 사용하려면 실행 인스턴스로 이동하고 이벤트를 전달하는 정보 시스템의 IP 주소로 제한된 보안 영역을 정의합니다. 이 보안 영역은 빈 암호를 허용하고 `<identifier> / <password>` 문자 연결을 허용해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#defining-security-zones)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -123,7 +121,7 @@ ht-degree: 0%
 
 실행 클러스터를 다양한 제어 인스턴스와 공유할 수 있습니다. 이러한 유형의 아키텍처는 다음과 같은 구성이 필요합니다.
 
-예를 들어 회사에서 각각 자체 제어 인스턴스를 사용하여 두 개의 브랜드를 관리하는 경우, **컨트롤 1** 및 **컨트롤 2**. 두 개의 실행 인스턴스도 사용됩니다. 각 제어 인스턴스에 대해 다른 메시지 센터 연산자를 입력해야 합니다. Control 1 **인스턴스의** 연산자 **와** mc2 ******연산자** 는인스턴스의 연산자입니다.
+예를 들어 회사에서 각각 자체 제어 인스턴스를 사용하여 두 개의 브랜드를 관리하는 경우, **컨트롤 1** 및 **컨트롤 2**. 두 개의 실행 인스턴스도 사용됩니다. 각 제어 인스턴스에 대해 다른 메시지 센터 연산자를 입력해야 합니다.Control 1 **인스턴스의** 연산자 **와** mc2 ******연산자** 는인스턴스의 연산자입니다.
 
 모든 실행 인스턴스의 트리에서 연산자당 하나의 폴더(**폴더 1** 및 **폴더 2**)를 만들고 각 연산자의 데이터 액세스 권한을 해당 폴더에 제한합니다.
 
@@ -155,7 +153,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >**mc1** 및 **mc2** 연산자는 **[!UICONTROL Message Center execution]** 권한이 있어야 하며 Adobe Campaign 클라이언트 콘솔에 액세스할 수 없습니다. 연산자는 항상 보안 영역에 연결되어 있어야 합니다. For more on this, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+   >**mc1** 및 **mc2** 연산자는 **[!UICONTROL Message Center execution]** 권한이 있어야 하며 Adobe Campaign 클라이언트 콘솔에 액세스할 수 없습니다. 연산자는 항상 보안 영역에 연결되어 있어야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#defining-security-zones)을 참조하십시오.
 
 1. 각 연산자에 대해 **[!UICONTROL Restrict to information found in sub-folders of]** 확인란을 선택하고 관련 폴더(**mc1** 연산자의 **폴더 1** 과mc2 연산자의 **폴더 2****** 폴더)를 선택합니다.
 
