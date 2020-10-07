@@ -11,11 +11,11 @@ audience: social
 content-type: reference
 topic-tags: annexes
 discoiquuid: 1755ab4f-b655-48da-bf9a-426807bd85fd
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 Social 마케팅은 Facebook 및 Twitter 게재의 재활동 비율을 측정하고 Facebook 프로필 획득을 분석할 수 있는 보고서를 제공합니다. 다음 보고서를 사용할 수 있습니다.
 
-* Facebook **[!UICONTROL Reactivity rate]** 또는 Twitter 배달의 **[!UICONTROL Summary]** 탭을 통해 사용할 수 있는 보고서입니다.
+* Facebook 또는 Twitter 전달의 **[!UICONTROL Reactivity rate]** **[!UICONTROL Summary]** 탭을 통해 사용할 수 있는 보고서입니다.
 
    ![](assets/social_report_3.png)
 
