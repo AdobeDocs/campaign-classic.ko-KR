@@ -9,11 +9,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5e6ecd636ee0b2199808c03b2fd898a194f0c1ea
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 6%
@@ -47,7 +44,7 @@ ht-degree: 6%
 
 **팁**: 브랜드의 웹 사이트에 해당하는 투명한 보낸 사람 주소를 사용합니다. 예를 들어, 여행사 회사는 발렌티노 호텔 체인을 관리합니다. 자체 웹사이트에 발렌티노.com 도메인을 보유하고 있다. 파리 발렌티노 호텔을 홍보하기 위해 파리.발렌티노.com 하위 도메인을 사용한다. 따라서 관련 보낸 사람 주소는 hotel@paris.valentino.com일 수 있습니다.
 
-## 전달 능력 관리 {#deliverability-management}
+## 게재 기능 관리 {#deliverability-management}
 
 수신자의 받은 편지함에 도달하기 위해 메시지 전달 비율을 향상시켜야 합니다.
 
@@ -73,7 +70,7 @@ ht-degree: 6%
 
 * 주소가 격리된 수신자는 배달 분석 중에 기본적으로 제외됩니다.타깃팅되지 않습니다. 이를 통해 게재 속도를 높일 수 있습니다. 오류율은 게재 속도에 상당한 영향을 미치기 때문입니다. 받은 편지함이 가득 찼거나 주소가 없는 경우 이메일 주소를 격리할 수 있습니다. [자세히 알아보기](#identifying-quarantined-addresses-for-a-delivery)
 
-* Adobe Campaign은 반환된 오류 유형에 따라 잘못된 주소를 관리합니다. 자세한 정보는 [이 섹션](../../delivery/using/understanding-quarantine-management.md)을 참조하십시오.
+* Adobe Campaign은 반환된 오류 유형에 따라 잘못된 주소를 관리합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/understanding-quarantine-management.md)을 참조하십시오.
 
 
 * 일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 격리 기능을 사용하면 이러한 공급자가 차단 목록에 추가하지 않을 수 있습니다.
