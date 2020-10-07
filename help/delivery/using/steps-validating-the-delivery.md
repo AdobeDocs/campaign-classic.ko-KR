@@ -1,7 +1,7 @@
 ---
-title: 배달 유효성 확인
-seo-title: 배달 유효성 확인
-description: 배달 유효성 확인
+title: 게재 유효성 검사
+seo-title: 게재 유효성 검사
+description: 게재 유효성 검사
 seo-description: null
 page-status-flag: never-activated
 uuid: 8bf70ea4-5f28-4d85-b5ce-0bd3ed3eea55
@@ -11,29 +11,26 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffbbe95247f28115f7e46eb0e94f2612fb4ea93
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1673'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# 배달 유효성 확인 {#validating-the-delivery}
+# 게재 유효성 검사 {#validating-the-delivery}
 
 배달을 만들고 구성한 경우 기본 타겟으로 보내기 전에 유효성을 확인해야 합니다.
 
 방법은 다음과 같습니다.
 
-1. **배달 분석**: 이 단계에서는 전달할 메시지를 준비할 수 있습니다. 전달 [분석을 참조하십시오](#analyzing-the-delivery).
+1. **배달 분석**:이 단계에서는 전달할 메시지를 준비할 수 있습니다. 전달 [분석을 참조하십시오](#analyzing-the-delivery).
 
    분석 중에 적용된 규칙은 [이 섹션](#validation-process-with-typologies) 섹션에 표시됩니다. 사용 가능한 유효성 검사 모드는 승인 모드 [변경 섹션에서](#changing-the-approval-mode) 자세히 설명합니다.
 
-1. **증거 자료 전송**: 이 단계에서는 컨텐츠, URL, 개인화 필드 등을 승인할 수 있습니다. 증명 [전송](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) 및 [특정 증명 대상 정의를 참조하십시오](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+1. **증거 자료 전송**:이 단계에서는 컨텐츠, URL, 개인화 필드 등을 승인할 수 있습니다. 증명 [전송](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) 및 [특정 증명 대상 정의를 참조하십시오](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
 >[!IMPORTANT]
 >
@@ -99,13 +96,13 @@ ht-degree: 1%
 
 이 탭에서는 다음 옵션에 액세스할 수 있습니다.
 
-* **[!UICONTROL Label and code of the delivery]** : 이 섹션의 옵션은 배달 분석 단계 중 이러한 필드의 값을 계산하는 데 사용됩니다. 이 **[!UICONTROL Compute the execution folder during the delivery analysis]** 필드는 분석 단계 동안 이 배달 작업을 포함할 폴더의 이름을 계산합니다.
-* **[!UICONTROL Approval mode]** : 이 필드에서는 분석이 완료되면 수동 또는 자동 배달을 정의할 수 있습니다. 인증 모드는 승인 모드 [변경 섹션에](#changing-the-approval-mode) 표시됩니다.
-* **[!UICONTROL Prepare the delivery parts in the database]** : 이 옵션을 사용하면 배달 분석 성능을 개선할 수 있습니다. 자세한 내용은 [이 섹션](#improving-delivery-analysis)을 참조하십시오.
-* **[!UICONTROL Prepare the personalization data with a workflow]** : 이 옵션을 사용하면 자동 워크플로우에서 전달에 포함된 개인화 데이터를 준비할 수 있으므로 개인화 실행을 위한 성능이 크게 향상됩니다. 자세한 내용은 개인화 [최적화를 참조하십시오](../../delivery/using/personalization-fields.md#optimizing-personalization).
-* **[!UICONTROL Start job in a detached process]** : 이 옵션을 사용하면 별도의 프로세스에서 배달 분석을 시작할 수 있습니다. 분석 함수는 기본적으로 Adobe Campaign 응용 프로그램 서버 프로세스(웹 클라이언트 서버)를 사용합니다. 이 옵션을 선택하면 응용 프로그램 서버가 실패한 경우에도 분석이 완료되도록 합니다.
-* **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : 이 옵션은 분석 단계 동안 배달 저널에 SQL 쿼리 로그를 추가합니다.
-* **[!UICONTROL Ignore personalization scripts during sending]** : 이 옵션을 사용하면 HTML 컨텐츠에 있는 JavaScript 지시어 해석을 우회할 수 있습니다. 배달된 내용대로 표시됩니다. 이러한 지시문은 **&lt;%=** 태그)와 함께 도입됩니다.
+* **[!UICONTROL Label and code of the delivery]** :이 섹션의 옵션은 배달 분석 단계 중 이러한 필드의 값을 계산하는 데 사용됩니다. 이 **[!UICONTROL Compute the execution folder during the delivery analysis]** 필드는 분석 단계 동안 이 배달 작업을 포함할 폴더의 이름을 계산합니다.
+* **[!UICONTROL Approval mode]** :이 필드에서는 분석이 완료되면 수동 또는 자동 배달을 정의할 수 있습니다. 인증 모드는 승인 모드 [변경 섹션에](#changing-the-approval-mode) 표시됩니다.
+* **[!UICONTROL Prepare the delivery parts in the database]** :이 옵션을 사용하면 배달 분석 성능을 개선할 수 있습니다. 자세한 내용은 [이 섹션](#improving-delivery-analysis)을 참조하십시오.
+* **[!UICONTROL Prepare the personalization data with a workflow]** :이 옵션을 사용하면 자동 워크플로우에서 전달에 포함된 개인화 데이터를 준비할 수 있으므로 개인화 실행을 위한 성능이 크게 향상됩니다. 자세한 내용은 개인화 [최적화를 참조하십시오](../../delivery/using/personalization-fields.md#optimizing-personalization).
+* **[!UICONTROL Start job in a detached process]** :이 옵션을 사용하면 별도의 프로세스에서 배달 분석을 시작할 수 있습니다. 분석 함수는 기본적으로 Adobe Campaign 응용 프로그램 서버 프로세스(웹 클라이언트 서버)를 사용합니다. 이 옵션을 선택하면 응용 프로그램 서버가 실패한 경우에도 분석이 완료되도록 합니다.
+* **[!UICONTROL Log SQL queries generated during the analysis in the journal]** :이 옵션은 분석 단계 동안 배달 저널에 SQL 쿼리 로그를 추가합니다.
+* **[!UICONTROL Ignore personalization scripts during sending]** :이 옵션을 사용하면 HTML 컨텐츠에 있는 JavaScript 지시어 해석을 우회할 수 있습니다. 배달된 내용대로 표시됩니다. 이러한 지시문은 **&lt;%=** 태그)와 함께 도입됩니다.
 
 ### 전달 분석 성능 향상 {#improving-delivery-analysis}
 
@@ -137,7 +134,7 @@ ht-degree: 1%
 
 ## 증명 보내기 {#sending-a-proof}
 
-메시지 구성에서 발생할 수 있는 오류를 검색하려면 배달 유효성 검사 주기를 설정하는 것이 좋습니다. 필요에 따라 테스트 내용을 수신자에게 전송하여 컨텐츠가 승인되었는지 확인합니다. 컨텐츠를 승인하려면 변경 사항이 있을 때마다 증거를 보내야 합니다.
+메시지 구성에서 발생할 수 있는 오류를 탐지하기 위해 Adobe에서는 게재 유효성 검사 주기를 설정할 것을 강력히 권장합니다. 필요한 만큼 자주 테스트 내용을 수신자에게 보내서 콘텐츠가 승인되었는지 확인합니다. 콘텐츠를 승인하려면 변경 사항이 있을 때마다 증명을 보내야 합니다.
 
 >[!NOTE]
 >
@@ -217,11 +214,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->**[!UICONTROL Arbitration]** 유형 유형 유형 유형은 매출 압력 관리의 프레임워크에서 사용됩니다. 자세한 정보는 [이 섹션](../../campaign/using/about-marketing-resource-management.md)을 참조하십시오.
+>**[!UICONTROL Arbitration]** 유형 유형 유형 유형은 매출 압력 관리의 프레임워크에서 사용됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/about-marketing-resource-management.md)을 참조하십시오.
 
 ## 승인 모드 변경 {#changing-the-approval-mode}
 
-배달 속성의 **[!UICONTROL Analysis]** 탭에서는 유효성 검사 모드를 선택할 수 있습니다. 분석 중에 경고가 생성되는 경우(예: 특정 문자가 전달 주제의 제목에 삽입된 경우 등) 게재를 구성하여 여전히 실행될 것인지 여부를 정의할 수 있습니다. 기본적으로 사용자는 분석 단계 마지막에 메시지 전송을 확인해야 합니다. 이는 **수동** 유효성 검사입니다.
+배달 속성의 **[!UICONTROL Analysis]** 탭에서는 유효성 검사 모드를 선택할 수 있습니다. 분석 중에 경고가 생성되는 경우(예: 특정 문자가 전달 주제의 제목에 삽입된 경우 등) 게재를 구성하여 여전히 실행될 것인지 여부를 정의할 수 있습니다. 기본적으로 사용자는 분석 단계 마지막에 메시지 전송을 확인해야 합니다.이는 **수동** 유효성 검사입니다.
 
 해당 필드의 드롭다운 목록에서 다른 승인 모드를 선택합니다.
 
@@ -229,6 +226,6 @@ ht-degree: 1%
 
 다음 승인 모드를 사용할 수 있습니다.
 
-* **[!UICONTROL Manual]**: 분석 단계가 끝나면 사용자가 전송을 시작하려면 배달을 확인해야 합니다. 이렇게 하려면 **[!UICONTROL Start]** 단추를 클릭하여 배달을 실행합니다.
-* **[!UICONTROL Semi-automatic]**: 분석 단계가 경고 메시지를 생성하지 않는 경우 전송이 자동으로 시작됩니다.
-* **[!UICONTROL Automatic]**: 전송은 결과와 관계없이 분석 단계가 끝날 때 자동으로 시작됩니다.
+* **[!UICONTROL Manual]**:분석 단계가 끝나면 사용자가 전송을 시작하려면 배달을 확인해야 합니다. 이렇게 하려면 **[!UICONTROL Start]** 단추를 클릭하여 배달을 실행합니다.
+* **[!UICONTROL Semi-automatic]**:분석 단계가 경고 메시지를 생성하지 않는 경우 전송이 자동으로 시작됩니다.
+* **[!UICONTROL Automatic]**:전송은 결과와 관계없이 분석 단계가 끝날 때 자동으로 시작됩니다.
