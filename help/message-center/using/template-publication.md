@@ -11,14 +11,11 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 43908738-a71a-49be-ac00-175f57a0555c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1486e897a125520c51661db3030c62ab380fb173
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -29,7 +26,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->트랜잭션 메시지 배달 중에 이러한 변경 사항이 적용되려면 템플릿을 변경할 때마다 게시해야 합니다.
+>트랜잭션 메시지 배달 중에 이러한 변경 사항이 적용되려면 템플릿을 변경할 때마다 템플릿을 게시해야 합니다.
 
 >[!NOTE]
 >
@@ -37,7 +34,7 @@ ht-degree: 0%
 
 1. 제어 인스턴스에서 트리의 **[!UICONTROL Message Center > Transactional message templates]** 폴더로 이동합니다.
 1. 실행 인스턴스에 게시할 템플릿을 선택합니다.
-1. **[!UICONTROL Publish]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/messagecenter_publish_model_008.png)
 
