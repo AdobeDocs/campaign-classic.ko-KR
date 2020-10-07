@@ -10,12 +10,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 928c2d944bb9709b54a41b07e8828646f2601cb9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
 
@@ -104,6 +101,7 @@ CRM 도구를 Adobe Campaign과 동기화하는 방법을 배우려면 [CRM 커�
 
    * Windows 7: C:\Users\&lt; 사용자 이름 >\AppData\Roaming\Neolane\NL_5\
    * Windows XP: C:\Documents and Settings\&lt; 사용자 이름 >\Application Data\Neolane\NL_5
+
    여기서는 nlclient-config-&lt; 영숫자 값 >.xml이라는 많은 xml 파일을 볼 수 있습니다.
 
 1. 이러한 xml 파일 및 관련 폴더를 삭제합니다.
