@@ -9,14 +9,11 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -88,7 +85,7 @@ Adobe Campaign의 웹 애플리케이션은 다음 기능을 제공합니다.
 
 웹 애플리케이션은 Adobe Campaign 트리의 **[!UICONTROL Resources > Online > Web Applications]** 노드에 저장됩니다. 구성은 다음 폴더로 분류됩니다.
 
-* **[!UICONTROL Administration > Configuration > Form renderings]**:에는 웹 양식 프레젠테이션(응용 프로그램 및 설문 조사)용 렌더링 템플릿이 포함되어 있습니다. 템플릿을 사용하면 양식을 생성할 수 있습니다. 또한 CSS 스타일 시트도 사용합니다. 이 스타일 시트는 템플릿 수준에서 오버로드될 수 있습니다. For more on this, refer to [this page](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
+* **[!UICONTROL Administration > Configuration > Form renderings]**:에는 웹 양식 프레젠테이션(응용 프로그램 및 설문 조사)용 렌더링 템플릿이 포함되어 있습니다. 템플릿을 사용하면 양식을 생성할 수 있습니다. 또한 CSS 스타일 시트도 사용합니다. 이 스타일 시트는 템플릿 수준에서 오버로드될 수 있습니다. 자세한 정보는 이 [페이지](../../web/using/form-rendering.md#selecting-the-form-rendering-template)를 참조하십시오.
 * **[!UICONTROL Resources > Templates > Web application templates]**:에는 양식 템플릿이 포함되어 있습니다. 양식이나 웹 응용 프로그램을 만들려면 템플릿에서 시작해야 합니다.
 
 ## 웹 애플리케이션 템플릿 {#web-application-templates}
