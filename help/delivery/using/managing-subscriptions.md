@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: subscriptions-and-referrals
 discoiquuid: 9a61fe74-f779-4f23-be25-3d9a8e95704a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1101'
 ht-degree: 2%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 2%
 
 이메일 배달에는 법에 의한 가입 취소 링크가 포함되어야 합니다. 수신자는 이 링크를 클릭하여 프로필을 업데이트하고 향후 전달 대상에서 제외할 수 있습니다.
 
-기본 구독 취소 링크는 배달 마법사에 제공되는 컨텐츠 편집기의 도구 모음에 있는 마지막 단추를 통해 삽입됩니다(개인화 [정보 참조](../../delivery/using/about-personalization.md)). 받는 사람이 이 링크를 클릭하면 프로필이 차단 목록(수신 거부)에 추가됩니다. 즉, 이 받는 사람이 더 이상 배달 작업의 대상이 되지 않습니다.
+기본 구독 취소 링크는 배달 마법사에 제공되는 컨텐츠 편집기의 도구 모음에 있는 마지막 단추를 통해 삽입됩니다(개인화 [정보 참조](../../delivery/using/about-personalization.md)). 받는 사람이 이 링크를 클릭하면 프로필이에 차단 목록 추가됩니다(그만두기). 즉, 이 받는 사람이 더 이상 배달 작업의 대상이 되지 않습니다.
 
 그러나 수신자는 모든 서비스에 대한 가입 해지 없이 서비스 가입을 해지할 수 있습니다. 이를 위해 웹 양식을 사용하거나( [이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)참조) 개인화된 구독 취소 링크를 삽입할 수 있습니다(개인화 블록 [참조](../../delivery/using/personalization-blocks.md)).
 
