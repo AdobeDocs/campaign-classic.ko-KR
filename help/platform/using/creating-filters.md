@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: filtering-data
 discoiquuid: 066e730b-2527-4257-b11f-2e73f746a8a5
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
@@ -276,8 +276,8 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
    <td> 최근 Y개월 동안 배달을 최소 X번 클릭한 수신자를 선택합니다.<br /> </td> 
   </tr> 
   <tr> 
- <td> 차단 목록의 이메일 주소<br /> </td> 
-    <td> 차단 목록에 이메일 주소가 있는 수신자를 선택합니다.<br/> </td>
+ <td> 차단 목록에 추가된 이메일 주소<br /> </td> 
+    <td> 이메일 주소가에 있는 수신자를 차단 목록 선택합니다.<br/> </td>
   </tr> 
   <tr> 
    <td> 격리된 이메일 주소<br /> </td> 
