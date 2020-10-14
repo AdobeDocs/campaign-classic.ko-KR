@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: d6467875-949b-4b47-940f-620efd4db5e0
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1303'
 ht-degree: 3%
 
 ---
@@ -151,5 +151,5 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
    * 단일 클라이언트에 대해 여러 인스턴스(개발, 테스트, prod)에서 동일한 MTA를 사용하는 경우 세 개의 인스턴스 모두에서 전송된 메시지는 dataLogPath 옵션으로 복제됩니다.
 
 * **연결당 이메일**:숨은 참조 이메일 보관은 연결을 열고 해당 연결을 통해 모든 이메일을 전송하려고 하면 작동합니다. Adobe은 해당 연결에서 수락된 이메일 수를 내부 기술 연락처로 확인하는 것이 좋습니다. 이 수를 늘리면 숨은 참조 처리량에 큰 영향을 줄 수 있습니다.
-* **BCC 전송 IP**:현재 숨은 참조 이메일은 일반 MTA 프록시를 통해 전송되지 않습니다. 대신 MTA 서버에서 대상 이메일 서버로 직접 연결이 열립니다. 즉, 이메일 서버 구성에 따라 네트워크의 허용 목록에 추가 IP를 추가해야 할 수 있습니다.
+* **BCC 전송 IP**:현재 숨은 참조 이메일은 일반 MTA 프록시를 통해 전송되지 않습니다. 대신 MTA 서버에서 대상 이메일 서버로 직접 연결이 열립니다. 즉, 이메일 서버 구성에 따라 네트워크허용 목록에 추가하다의에 IP를 추가로 추가해야 할 수도 있습니다.
 
