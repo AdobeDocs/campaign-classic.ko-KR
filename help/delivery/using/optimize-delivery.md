@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '736'
 ht-degree: 6%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 6%
 * Adobe Campaign은 반환된 오류 유형에 따라 잘못된 주소를 관리합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/understanding-quarantine-management.md)을 참조하십시오.
 
 
-* 일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 격리 기능을 사용하면 이러한 공급자가 차단 목록에 추가하지 않을 수 있습니다.
+* 일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 격리 기능을 사용하면 이러한 제공자가에 추가하는 것을 차단 목록 방지할 수 있습니다.
 
 * 검역관리 역시 잘못된 전화 번호를 배달에서 제외함으로써 SMS를 보내는 비용을 줄이는 데 도움이 될 것이다.
 
