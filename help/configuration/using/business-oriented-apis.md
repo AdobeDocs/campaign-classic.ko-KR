@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: api
 discoiquuid: e7b3ffca-c85f-498d-89b4-23fcff59de49
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '638'
 ht-degree: 4%
 
 ---
@@ -147,7 +147,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->서비스 이름이 매개 변수로 지정되지 않은 경우 수신자는 차단 목록(@=&quot;차단 목록에 추가하다1&quot;)에 자동으로 배치됩니다.
+>서비스 이름이 매개 변수로 지정되지 않은 경우 수신자는 자동으로(@blackList=&quot;1&quot;)에 차단 목록 배치됩니다.
 
 이 호출은 오류를 제외한 모든 데이터를 반환하지 않습니다.
 
