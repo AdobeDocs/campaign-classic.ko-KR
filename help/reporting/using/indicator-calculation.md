@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2974'
 ht-degree: 1%
 
 ---
@@ -564,7 +564,7 @@ ht-degree: 1%
   <tr> 
    <td> 컴플레인<br /> </td> 
    <td> @complaints<br /> </td> 
-   <td> 상태가 "실패"이고 "주소가 차단 목록에 추가됨"인 메시지 수입니다.<br /> </td> 
+   <td> 상태가 "실패"이고 "에서 주소"와 같은 이유가 있는 메시지 차단 목록 수입니다.<br /> </td> 
    <td> Count(@status=2 및 msg/@failureReason=8)<br /> </td> 
   </tr> 
   <tr> 
@@ -766,7 +766,7 @@ ht-degree: 1%
   <tr> 
    <td> 규칙에 의해 거부된 메시지<br /> </td> 
    <td> @거부<br /> </td> 
-   <td> 유형 규칙을 유지하는 분석 중에 무시된 주소 수:주소가 지정되지 않았거나, 격리되었거나, 차단 목록 등에 추가되었습니다.<br /> </td> 
+   <td> 유형 규칙을 유지하는 분석 중에 무시된 주소 수:주소가 지정되지 않음, 격리됨, 차단 목록 등<br /> </td> 
    <td> sum([properties/@reject])<br /> </td> 
   </tr> 
   <tr> 
