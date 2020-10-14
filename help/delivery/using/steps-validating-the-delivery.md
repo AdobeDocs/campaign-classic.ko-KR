@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1671'
 ht-degree: 5%
 
 ---
@@ -180,7 +180,7 @@ ht-degree: 5%
 다음 옵션을 사용할 수 있습니다.
 
 * 첫 번째 옵션을 사용하면 교정을 두 배로 유지할 수 있습니다.
-* 다음 옵션 모두에서 차단 목록에 있는 받는 사람과 주소를 격리할 수 있습니다. 제외 설정 사용자 지정에서 기본 대상에 대한 이러한 옵션 [의 설명을 참조하십시오](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). 이러한 주소가 기본적으로 제외되는 배달 대상과 달리 증명 대상에 대해서는 기본적으로 보존됩니다.
+* 다음 옵션 모두에 있는 받는 사람차단 목록과 주소를 격리할 수 있도록 해줍니다. 제외 설정 사용자 지정에서 기본 대상에 대한 이러한 옵션 [의 설명을 참조하십시오](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). 이러한 주소가 기본적으로 제외되는 배달 대상과 달리 증명 대상에 대해서는 기본적으로 보존됩니다.
 * 이 **[!UICONTROL Keep the delivery code for the proof]** 옵션을 사용하면 관련된 배달에 대해 정의된 것과 동일한 배달 코드를 증표에 제공할 수 있습니다. 이 코드는 배달 마법사의 첫 번째 단계에서 지정됩니다.
 * 기본적으로 증거의 제목에 &#39;Proof #&#39;가 접두사로 추가되며 여기서 #은 증표의 번호입니다. 필드에서 이 접두사를 변경할 수 **[!UICONTROL Label prefix]** 있습니다.
 
