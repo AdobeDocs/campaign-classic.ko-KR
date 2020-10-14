@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2432'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Recommendations for defining an SPF record:
 
 ## 피드백 루프 {#feedback-loop}
 
-피드백 루프는 ISP 수준에서 메시지를 전송하는 데 사용되는 IP 주소 범위에 대해 지정된 이메일 주소를 선언하여 작동합니다. ISP는 이 사서함에 바운스 메시지에 대해 수행되는 작업과 유사한 방법으로 받는 사람이 스팸으로 보고한 메시지를 보냅니다. 이 플랫폼은 불평한 사용자에 대한 향후 제공을 차단하도록 구성해야 합니다. 적절한 옵트아웃 링크를 사용하지 않더라도 더 이상 연락하지 않는 것이 중요합니다. ISP가 차단 목록에 IP 주소를 추가한다는 것은 이러한 불만 사항을 바탕으로 한다. ISP에 따라, 약 1%의 불만 비율은 IP 주소를 차단하게 됩니다.
+피드백 루프는 ISP 수준에서 메시지를 전송하는 데 사용되는 IP 주소 범위에 대해 지정된 이메일 주소를 선언하여 작동합니다. ISP는 이 사서함에 바운스 메시지에 대해 수행되는 작업과 유사한 방법으로 받는 사람이 스팸으로 보고한 메시지를 보냅니다. 이 플랫폼은 불평한 사용자에 대한 향후 제공을 차단하도록 구성해야 합니다. 적절한 옵트아웃 링크를 사용하지 않더라도 더 이상 연락하지 않는 것이 중요합니다. ISP가 IP 주소를에 추가하는 것은 이러한 차단 목록 불만 사항을 기초로 합니다. ISP에 따라, 약 1%의 불만 비율은 IP 주소를 차단하게 됩니다.
 
 현재 피드백 루프 메시지의 형식을 정의하기 위해 표준을 작성하고 있습니다.ARF( [남용된 피드백 보고 형식)](https://tools.ietf.org/html/rfc6650).
 
@@ -272,6 +272,6 @@ ACA( [Certified Sender Alliance](https://certified-senders.org/certification-pro
 * 법률 표준을 완벽하게 준수하여 법적 및 재정적 위험으로부터 보호
 * CSA 불만 사항 사무소 및 일일 스팸 트랩 보고서로부터 조기 경고를 통해 평판 보호
 
-ISP는 이러한 서비스를 무료로 사용할 수 있으며 ISP의 수는 허용 목록에 따라 달라질 수 있습니다.
+ISP는 이러한 서비스를 무료로 사용할 수 있으며 ISP의 수는에 따라 달라질 수 허용 목록에 추가하다 있습니다.
 
 그러나 점점 더 많은 ISP가 메시지 내용 자체를 분석하지 않고 각 받은 편지함 소유자의 행동에 따라 스팸 방지 필터를 만들기 때문에 IP 인증을 사용하는 것은 받은 편지함 배치나 전달을 보장할 수 없습니다.
