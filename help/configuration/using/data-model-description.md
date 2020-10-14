@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
 source-wordcount: '2375'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Adobe Campaign은 서로 연결된 테이블을 포함하는 관계형 데이터
 * iEmailFormat:이메일의 기본 형식(텍스트에 대해 1, HTML에 대해 2, 정의되지 않은 경우 0)입니다.
 * sAddress1, sAddress2, sAddress3, sAddress4, sZipCode, sCity는 우편 주소를 작성하는 데 사용됩니다(1997년 5월 XPZ 10-011 AFNOR 표준과 함께 사용).
 * sPhone, sMobilePhone, sFax에는 각각 전화, 휴대폰 및 팩스 번호가 들어 있습니다.
-* iBlockList는 프로필에 사용되는 기본 옵트아웃 플래그입니다(1은 &quot;가입되지 않음&quot;, 0을 의미합니다.).
+* iBlackList는 프로필에 사용되는 기본 옵트아웃 플래그입니다(1은 &quot;가입되지 않음&quot;, 0을 의미합니다.).
 
 iFolderId 필드는 받는 사람을 해당 실행 폴더로 연결하는 외래 키입니다. For more on this, see [XtkFolder](#XtkFolder).
 
