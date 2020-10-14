@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1831'
 ht-degree: 3%
 
 ---
@@ -134,7 +134,7 @@ CentOS에서 Azure 동기화를 구성하려면:
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics에서 통신을 허용하려면 공개 IP를 허용 목록에 추가해야 할 수 있습니다. 이렇게 하려면 [Azure 설명서를 참조하십시오](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >Azure Synapse Analytics에서 통신을 허용하려면 공개 IP를에 추가해야 할 수 허용 목록에 추가하다 있습니다. 이렇게 하려면 [Azure 설명서를 참조하십시오](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 1. iptables의 경우 다음 명령을 실행합니다.
 
@@ -225,7 +225,7 @@ Debian에서 Azure 구문을 구성하려면:
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics에서 통신을 허용하려면 공개 IP를 허용 목록에 추가해야 할 수 있습니다. 이렇게 하려면 [Azure 설명서를 참조하십시오](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >Azure Synapse Analytics에서 통신을 허용하려면 공개 IP를에 추가해야 할 수 허용 목록에 추가하다 있습니다. 이렇게 하려면 [Azure 설명서를 참조하십시오](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 ## Snowflake 액세스 구성 {#configure-access-to-snowflake}
 
