@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: profile-management
 discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '474'
 ht-degree: 5%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->이 옵션을 선택하면 프로필이 차단 목록에 있음을 의미합니다. 즉, 프로필은 연락하지 않기를 바란다고 표시했습니다(예: 뉴스레터에서 가입 취소 링크를 클릭해서). **[!UICONTROL No longer contact (by any channel)]** 이러한 지표는 더 이상 어떤 채널에서도 게재되지 않습니다(이메일, DM 등). 자세한 정보는 이 [페이지](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
+>이 **[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이차단 목록에 있음을 의미합니다. 즉, 프로필은 연락하지 않기를 바란다고 표시했습니다(예: 뉴스레터에서 구독 취소 링크를 클릭해서). 이러한 지표는 더 이상 어떤 채널에서도 게재되지 않습니다(이메일, DM 등). 자세한 정보는 이 [페이지](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
 
 ## 연락처 정보 탭 {#contact-information-tab}
 
