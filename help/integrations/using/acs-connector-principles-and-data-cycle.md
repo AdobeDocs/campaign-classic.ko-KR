@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: acs-connector
 discoiquuid: 64d87bea-2376-4684-ac93-6ca56fe0f262
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
 source-wordcount: '1996'
 ht-degree: 0%
@@ -216,15 +216,15 @@ ACS 커넥터와 관련된 모든 기술 요소는 탐색기의 **[!UICONTROL Ad
   </tr> 
   <tr> 
    <td> 더 이상 연락하지 않음(모든 채널에서)<br /> </td> 
-   <td> @차단 목록에 추가하다<br /> </td> 
+   <td> @blackList<br /> </td> 
   </tr> 
   <tr> 
    <td> 더 이상 이메일로 연락하지 않음<br /> </td> 
-   <td> @blockListEmail<br /> </td> 
+   <td> @blackListEmail<br /> </td> 
   </tr> 
   <tr> 
    <td> 더 이상 SMS로 연락하지 않습니다.<br /> </td> 
-   <td> @blockListMobile<br /> </td> 
+   <td> @blackListMobile<br /> </td> 
   </tr> 
   <tr> 
    <td> 전화<br /> </td> 
