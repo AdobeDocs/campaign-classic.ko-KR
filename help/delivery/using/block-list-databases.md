@@ -12,15 +12,15 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: eede254d-2b25-46ed-b10f-fa1d54780a75
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 3%
+source-wordcount: '373'
+ht-degree: 0%
 
 ---
 
 
-# 차단 목록 데이터베이스{#blocklisting-databases}
+# 차단 목록 데이터베이스{#denylist-databases}
 
 일부 조직은 스파이더가 사용한다고 알려진 IP 주소와 도메인의 데이터베이스를 유지 관리합니다. 이러한 사이트를 상담하면 특정 메시지가 스팸으로 거부된 이유를 이해하는 데 유용합니다. 일반적으로 이러한 목록에 잘못 추가된 주소의 제거를 요청할 수 있습니다.
 
