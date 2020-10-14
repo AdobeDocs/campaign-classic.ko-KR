@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '7859'
+source-wordcount: '7857'
 ht-degree: 5%
 
 ---
@@ -572,8 +572,8 @@ For additional information, refer to this [section](../../installation/using/con
  </thead> 
  <tbody> 
   <tr> 
-   <td> blocklistFile<br /> </td> 
-   <td> 허용 목록에 추가할 명령이 포함된 파일의 경로입니다. <br /> </td> 
+   <td> blacklistFile<br /> </td> 
+   <td> 에 추가할 명령이 포함된 파일의 허용 목록에 추가하다 경로입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
@@ -3076,7 +3076,7 @@ For additional information, refer to this [section](../../installation/using/dep
   </tr> 
   <tr> 
    <td> status<br /> </td> 
-   <td> 공용 리소스의 동기화 상태(열거형). 가능한 값은 'normal'(normal execution), ''(오류 404의 경우 차단 목록에 추가된 url) 및 'spare'(있는 경우 예비 서버에 파일 업로드)입니다.<br /> </td> 
+   <td> 공용 리소스의 동기화 상태(열거형). 가능한 값은 'normal'(normal execution), 'blacklist'(오류 404의 경우에 차단 목록 추가된 url) 및 'spare'(있는 경우 예비 서버에 파일 업로드)입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> normal<br /> </td> 
   </tr> 
@@ -3134,19 +3134,19 @@ For additional information, refer to this [section](../../installation/using/dep
      timeout="" status="normal" httpAllowed="true" urlPath="/nl/jsp/s.jsp"/>
 
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/nms/jsp/*.jsp"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/nms/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/xtk/jsp/*.jsp"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/xtk/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/nl/jsp/*.jsp"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/nl/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="*.jssp"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="*.jssp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="true" urlPath="/webApp/*"/>
+     timeout="" status="blacklist" httpAllowed="true" urlPath="/webApp/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/report/*"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/report/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blocklist" httpAllowed="false" urlPath="/jssp/*"/>
+     timeout="" status="blacklist" httpAllowed="false" urlPath="/jssp/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
      timeout="" status="normal" httpAllowed="false" urlPath="/strings/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
