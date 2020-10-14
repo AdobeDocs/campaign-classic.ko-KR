@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1576'
 ht-degree: 2%
 
 ---
@@ -152,7 +152,7 @@ ht-degree: 2%
 
       ![](assets/s_ncs_user_wizard_email02j.png)
 
-* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , 즉 이메일 주소가 차단 목록에 있는 받는 사람(&#39;수신 거부&#39;) 전자 마케팅의 전문 윤리 및 전자 상거래 관련 법을 준수하기 위해 이 옵션을 선택해야 합니다.
+* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , 즉 이메일 주소가에 있는 받는 사람차단 목록(&#39;수신 거부&#39;) 전자 마케팅의 전문 윤리 및 전자 상거래 관련 법을 준수하기 위해 이 옵션을 선택해야 합니다.
 * **[!UICONTROL Exclude quarantined recipients]**. 이 옵션을 사용하면 응답이 없는 주소가 있는 모든 프로필을 대상에서 제외할 수 있습니다. 이 옵션을 계속 선택하는 것이 좋습니다.
 
    >[!NOTE]
