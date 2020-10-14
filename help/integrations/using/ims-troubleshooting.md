@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '419'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ Campaign **Adobe Marketing Cloud** 외부 계정 **[!UICONTROL IMS Server URL]**
 
 **콜백 URL**
 
-콜백 **URL은** 허용 목록에 추가하고 &quot;https://&quot;으로 시작해야 합니다. 콜백 **URL이** 해당 인스턴스에 연결되어 있는지 확인합니다. 예를 들어 프로덕션 인스턴스는 프로덕션 URL로 리디렉션해야 합니다.
+콜백 **URL은** 에 허용 목록에 추가하다 추가하고 &quot;https://&quot;으로 시작해야 합니다. 콜백 **URL이** 해당 인스턴스에 연결되어 있는지 확인합니다. 예를 들어 프로덕션 인스턴스는 프로덕션 URL로 리디렉션해야 합니다.
 
 **클라이언트 ID 및 암호**
 
