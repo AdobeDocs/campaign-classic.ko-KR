@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: 9c1884f6-1dd8-41ab-b8dc-604c8cc2dc89
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
 source-wordcount: '3927'
 ht-degree: 1%
@@ -92,7 +92,7 @@ ht-degree: 1%
    <td> 배달 메시지 표준화를 위한 정규 표현식.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsBroadcast_RemoveBlockList</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsBroadcast_RemoveBlackList</span> <br /> </td> 
    <td> "1"을 값으로 입력하면 더 이상 연락을 원하지 않는 수신자를 제외할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
@@ -684,7 +684,7 @@ ht-degree: 1%
    <td> 마이그레이션 중에는 트리 구조가 새 버전 표준에 따라 자동으로 재구성됩니다.<br /> 이 옵션을 사용하면 탐색 트리의 자동 마이그레이션을 비활성화할 수 있습니다. 사용하는 경우 마이그레이션 후 오래된 폴더를 삭제하고 새 폴더를 추가하고 필요한 모든 검사를 실행해야 합니다.<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">데이터 유형:</span> 정수</p> </li> 
-     <li> <p> <span class="uicontrol">값(텍스트)</span> :3 </p> </li> 
+     <li> <p> <span class="uicontrol">값(텍스트)</span> :1 </p> </li> 
     </ul> 이 옵션은 기본 탐색 트리가 너무 많은 변경을 거친 경우에만 사용해야 합니다.<br /> 이 작업에 대한 자세한 정보는 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">이 섹션</a>을 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
