@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 10%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 10%
 1. 타겟팅 시작 시 적용되는 경우에는 규칙을 제어합니다.
 1. 필터링 규칙:
 
-   * 주소 자격에 대한 기본 응용 프로그램 규칙:차단 목록/격리된 주소/주소 품질에 정의된 주소/확인되지 않은 주소/주소
+   * 주소 자격에 대한 기본 응용 프로그램 규칙:정의된 주소/검증되지 않은 주소/차단 목록/격리된 주소/주소 품질
    * 사용자가 정의한 필터링 규칙.
    * 주소 또는 식별자에 대한 중복 제거 규칙(필요한 경우 적용).
 
