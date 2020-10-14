@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '2567'
+source-wordcount: '2562'
 ht-degree: 2%
 
 ---
@@ -114,12 +114,12 @@ ht-degree: 2%
 
 이 **[!UICONTROL Send]** 단추를 클릭하면 배달이 평소보다 오래 걸리는 것 같습니다. 이 문제는 다음과 같은 여러 요소로 인해 발생할 수 있습니다.
 
-* 일부 이메일 공급자가 사용자의 IP 주소를 차단 목록에 추가했을 수 있습니다. 이 경우 브로드로그를 확인하고 [이 섹션을 참조하십시오](../../delivery/using/about-deliverability.md).
+* 일부 이메일 공급자가 사용자의 IP 주소를에 차단 목록 추가했을 수 있습니다. 이 경우 브로드로그를 확인하고 [이 섹션을 참조하십시오](../../delivery/using/about-deliverability.md).
 * 배달이 너무 커서 빠르게 처리할 수 없을 수도 있고, 높은 JavaScript 개인화를 통해 또는 배달 무게가 60KB 이상인 경우 이러한 문제가 발생할 수 있습니다. 콘텐츠 가이드라인에 대한 자세한 내용은 Adobe Campaign [전달](../../delivery/using/delivery-best-practices.md) 모범 사례를 참조하십시오.
 * Adobe Campaign MTA 내에서 조절이 발생했을 수 있습니다. 이 문제는 다음과 같습니다.
 
    * 보류 중인 메시지(**[!UICONTROL quotas met]** 메시지):Campaign에 정의된 선언적 MX 규칙으로 선언된 할당량이 충족되었습니다. 이 메시지에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../delivery/using/deliverability-faq.md) . MX 규칙에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../delivery/using/technical-recommendations.md#mx-rules).
-   * 보류 중인 메시지(**[!UICONTROL dynamic flow control]** 메시지):캠페인 MTA가 지정된 ISP에 대한 메시지를 전달하려고 할 때 오류가 발생하여 오류 밀도가 너무 커 잠재적 차단 목록에 직면할 수 있습니다.
+   * 보류 중인 메시지(**[!UICONTROL dynamic flow control]** 메시지):캠페인 MTA가 지정된 ISP에 대한 메시지를 전달하려고 할 때 오류가 발생하여 오류 농도가 너무 커 잠재적인에 차단 목록 직면하게 됩니다.
 
 * 시스템 문제로 인해 서버가 서로 상호 작용할 수 없습니다.이렇게 하면 전송 프로세스가 느려질 수 있습니다. 예를 들어 개인화 데이터를 가져오는 과정에서 Campaign에 영향을 줄 수 있는 메모리 또는 리소스 문제가 없는지 서버를 확인하십시오.
 
@@ -163,7 +163,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> 무시됨<br /> </td> 
-   <td> 주소가 잘못되어 배달이 받는 사람에게 전송되지 않았습니다. 차단 목록에 추가되었거나, 격리되었거나, 제공되지 않으며, 복제되었습니다. <br /> </td> 
+   <td> 주소가 잘못되어 배달이 받는 사람에게 전송되지 않았습니다. 이것은차단 목록에, 격리되어, 제공되지 않으며 복제되었습니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> 전송<br /> </td> 
@@ -241,7 +241,7 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한
 
 배달 로그는 배달이 실패한 이유를 확인하는 데 중요합니다. 배달 로그에서 감지할 수 있는 오류는 다음과 같습니다.
 
-* 받는 사람 메시지에 &quot;연결할 수 없음&quot; 오류가 표시되는 경우: **스크립트 &#39;content htmlContent&#39; 줄 X를 컴파일하는 동안 오류가 발생했습니다.`[table]`가 정의되지 않았습니다. JavaScript:스크립트 &#39;content htmlContent**&#39;를 평가하는 동안 오류가 발생했습니다. 이 문제의 원인은 업스트림 타깃팅 또는 게재 대상 매핑에서 정의되거나 매핑되지 않은 테이블이나 필드를 호출하려고 시도하는 HTML 내의 개인화입니다.
+* 받는 사람 메시지에 &quot;연결할 수 없음&quot; 오류가 표시되는 경우: **스크립트 &#39;content htmlContent&#39; 줄 X를 컴파일하는 동안 오류가 발생했습니다. `[table]` 가 정의되지 않았습니다. JavaScript:스크립트 &#39;content htmlContent**&#39;를 평가하는 동안 오류가 발생했습니다. 이 문제의 원인은 업스트림 타깃팅 또는 게재 대상 매핑에서 정의되거나 매핑되지 않은 테이블이나 필드를 호출하려고 시도하는 HTML 내의 개인화입니다.
 
    이 문제를 해결하려면 워크플로우 및 전달 컨텐츠를 검토하여 특정 개인화가 해당 테이블을 호출하려고 시도하는 내용과 테이블을 매핑할 수 있는지 여부를 구체적으로 결정해야 합니다. 여기에서 HTML에서 이 테이블에 대한 호출을 제거하거나 배달에 대한 매핑을 수정하는 것이 해결 경로가 됩니다.
 
