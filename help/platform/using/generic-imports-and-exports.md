@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '489'
 ht-degree: 3%
 
 ---
@@ -40,11 +40,11 @@ Adobe Campaign은 외부 파일의 데이터를 데이터베이스에 제공할 
 >
 >Campaign의 데이터 가져오기는 데이터 일관성을 보호하고 효율성을 향상시키기 위해 워크플로우를 통해 수행해야 합니다. 자세한 내용은 데이터 가져오기, [모범 사례](../../workflow/using/importing-data.md)[](../../workflow/using/importing-data.md#best-practices-when-importing-data) 가져오기 및 템플릿 [가져오기 예제](../../workflow/using/importing-data.md#setting-up-a-recurring-import) 섹션을 참조하십시오.
 
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](../../platform/using/exporting-and-importing-profiles.md#import-profiles-video)
+
 ## Creating a job template {#creating-a-job-template}
 
 가져오기 및 내보내기 템플릿은 Adobe Campaign 트리의 **[!UICONTROL Resources > Templates > Job templates]** 디렉토리에 저장됩니다.
-
-![](assets/s_ncs_user_export_wizard_template.png)
 
 기본적으로 이 디렉토리에는 3개의 가져오기 템플릿과 1개의 내보내기 템플릿이 있습니다. 수정해서는 안 됩니다. 이러한 템플릿을 복제하여 고유한 템플릿을 만들거나 **[!UICONTROL New > Import template]** / **[!UICONTROL Export template]** 메뉴를 통해 새 템플릿을 만들 수 있습니다.
 
@@ -54,7 +54,7 @@ Adobe Campaign은 외부 파일의 데이터를 데이터베이스에 제공할 
 
 >[!NOTE]
 >
->기본 템플릿 **[!UICONTROL Import block list]** 은 차단 목록에 추가된 이메일 주소 목록을 가져오도록 이미 구성되어 있습니다.
+>기본 템플릿 **[!UICONTROL Import denylist]** 은에 추가된 이메일 주소 목록을 가져오도록 이미 차단 목록 구성되었습니다.
 > 
 >템플릿 **[!UICONTROL New text import]** 과 **[!UICONTROL New text export]** 템플릿을 사용하면 가져오기 또는 내보내기를 처음부터 구성할 수 있습니다.
 
