@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '2639'
+source-wordcount: '2638'
 ht-degree: 6%
 
 ---
@@ -123,7 +123,7 @@ _2019년 5월 30일_
  <tbody> 
   <tr> 
    <td> Campaign 컨트롤 패널<br /> </td> 
-   <td> <p>관리 사용자로서의 작업의 효율성을 높이려면 저장소를 모니터링하여 SFTP 서버의 설정을 관리하고 허용 목록에 IP 주소를 추가하고 각 인스턴스에 대한 SSH 키를 설치하도록 합니다. Campaign 컨트롤 패널은 현재 AWS에서 호스팅되는 고객에게만 제공됩니다(오늘<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud을 통해</a>로그인).</p> <p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">방법 비디오</a>를 참조하십시오. </p><p>참고:campaign 컨트롤 패널에 액세스하기 위해 최신 캠페인 빌드로 업그레이드할 필요는 없습니다.</p> </td> 
+   <td> <p>관리 사용자로서의 작업의 효율성을 높이려면 저장소를 모니터링하여 SFTP 서버의 설정을 관리하고,에 IP 주소를 허용 목록에 추가하다 추가하고, 각 인스턴스에 대한 SSH 키를 설치하도록 합니다. Campaign 컨트롤 패널은 현재 AWS에서 호스팅되는 고객에게만 제공됩니다(오늘<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud을 통해</a>로그인).</p> <p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">방법 비디오</a>를 참조하십시오. </p><p>참고:campaign 컨트롤 패널에 액세스하기 위해 최신 캠페인 빌드로 업그레이드할 필요는 없습니다.</p> </td> 
   </tr> 
     <tr> 
    <td> 감사 추적<br /> </td> 
