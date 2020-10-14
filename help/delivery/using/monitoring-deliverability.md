@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '786'
 ht-degree: 2%
 
 ---
@@ -92,7 +92,7 @@ Signal Spam은 프랑스 ISP(Orange, SFR)에 대해 익명화된 피드백 루�
 
 * **[!UICONTROL DomainKeys]** :Yahoo가 개발한 서비스로, 이메일 발신자의 신원을 인증합니다.
 
-* **[!UICONTROL IP and RBL domain]** (실시간 블랙홀 목록):차단 목록 조직에서 낮은 전송 명성을 이유로 플래그를 지정한 IP 주소 및 도메인 목록입니다. 이러한 목록은 Spamhaus, Spamcop, SURBL/URIBL 등과 같은 전용 조직에서 유지 관리합니다. Adobe Campaign은 현재 전달 가능성에 상당한 영향을 미치는 RBL을 검사하고 있습니다. 이러한 RBL은 전송 명성을 반영하며, 이메일을 받기 위해 수락하기 전에 ISP가 참조할 수 있습니다.
+* **[!UICONTROL IP and RBL domain]** (실시간 블랙홀 목록):전송 빈도가 낮은 조직에서 플래그를 지정한 IP 주소 및 도메인 목록차단 목록. 이러한 목록은 Spamhaus, Spamcop, SURBL/URIBL 등과 같은 전용 조직에서 유지 관리합니다. Adobe Campaign은 현재 전달 가능성에 상당한 영향을 미치는 RBL을 검사하고 있습니다. 이러한 RBL은 전송 명성을 반영하며, 이메일을 받기 위해 수락하기 전에 ISP가 참조할 수 있습니다.
 
 * **[!UICONTROL SNDS]** (스마트 네트워크 데이터 서비스):Windows [Live Hotmail 스팸 방지 서비스](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail은 이러한 유형의 정보를 제공하는 유일한 ISP입니다. 벤치마크 점수는 녹색 필터 결과, 불만 비율이 0.1% 미만이고 스팸 트랩은 0입니다.
 
