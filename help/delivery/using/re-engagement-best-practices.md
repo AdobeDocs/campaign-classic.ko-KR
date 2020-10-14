@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 853f26ad-d373-49a5-952e-4197ffc3d904
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ AOL, Gmail, Microsoft 및 Yahoo! 비참여를 원하지 않는 이메일로 보�
 ### 1단계 {#phase-1}
 
 * 첫 번째 단계는 열려 있거나 클릭하는 활동이 거의 없는 가입자를 식별하고 이에 따라 지정된 시간 프레임을 기반으로 이 그룹을 세그먼트화하는 것입니다. thumb 규칙은 지난 90일 이내에 이메일을 열거나 클릭하지 않은 가입자를 검토하는 것입니다. 하지만 비즈니스 특성에 따라 다릅니다(예: 계절 전송).
-* 타임프레임을 정의하면서 기억해야 할 또 다른 점은 ISP와 차단 목록 회사가 1.5년에서 1.8년 사이의 참여도를 고려한다는 것입니다. 또한 구매 및 웹 사이트 활동과 같은 행동적 활동이나 등록 단계 또는 첫 번째 접촉 시 선호하는 기타 접촉 지점.
+* 타임프레임을 정의하면서 기억해야 할 또 다른 점은 ISP와 차단 목록 회사가 1.5년에서 1.8년 사이의 참여도를 고려하는 것입니다. 또한 구매 및 웹 사이트 활동과 같은 행동적 활동이나 등록 단계 또는 첫 번째 접촉 시 선호하는 기타 접촉 지점.
 
 ### 2단계 {#phase-2}
 
