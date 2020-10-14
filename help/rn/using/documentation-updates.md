@@ -7,13 +7,13 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
-topic-tags: latest-release-notes
+topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d06cc9c090e2ad8b72ce3192a26108ec213ba549
 workflow-type: tm+mt
-source-wordcount: '3704'
-ht-degree: 88%
+source-wordcount: '3695'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 88%
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
 또한 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)에서 더 많은 업데이트를 확인할 수 있습니다.
+
+## 2020년 10월 {#oct-2020}
+
+기존 바이너리 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법에 대한 세부 사항이 포함된 새로운 기술 문서가 만들어졌습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
 ## 2020년 9월 {#september-2020}
 
@@ -94,8 +98,6 @@ Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요�
 격리된 주소 제거 섹션이 업데이트되었습니다. 여기에는 격리 목록에서 주소가 자동으로 제거되는 경우의 확인이 포함됩니다. [자세한 내용](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
 제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)하고 [해독](../../workflow/using/importing-data.md#use-case-gpg-decrypt)하는 방법에대한 사용 사례가 추가되었습니다.
-
-&#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. 이러한 용어의 일부 항목은 여전히 제품 UI, 옵션 이름 및 내부 코드에 존재할 수 있지만, 향후 캠페인 릴리스에서 &#39;차단 목록&#39; 및 &#39;허용 목록&#39;으로 대체될 것입니다.
 
 The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
 
