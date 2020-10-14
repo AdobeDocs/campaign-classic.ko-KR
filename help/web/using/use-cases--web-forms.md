@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: web-forms
 discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '960'
 ht-degree: 2%
 
 ---
@@ -51,11 +51,11 @@ ht-degree: 2%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. 이 배달을 받는 사람이 승인을 확인하지 않았기 때문에 여전히 데이터베이스 차단 목록에 있습니다. 이러한 수신자가 이 통신을 수신하려면 차단 목록에 있는 수신자를 타게팅하려면 이 템플릿을 기반으로 전달을 승인해야 합니다.
+1. 이 배달을 받는 사람이 승인을 확인하지 않았기 때문에 여전히 데이터베이스 차단 목록에 있습니다. 이러한 사람이 이 통신을 수신하려면 이 템플릿을 기반으로 전달을 승인해야에서 받는 사람을 타깃팅할 수 차단 목록 있습니다.
 
    이렇게 하려면 **[!UICONTROL Exclusions]** 탭을 클릭합니다.
 
-1. 링크를 클릭하고 **[!UICONTROL Edit...]** **[!UICONTROL Exclude recipients who no longer want to be contacted (blocklist)]** 옵션 선택을 취소합니다.
+1. 링크를 클릭하고 **[!UICONTROL Edit...]** **[!UICONTROL Exclude recipients who no longer want to be contacted (blacklist)]** 옵션 선택을 취소합니다.
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
@@ -109,10 +109,10 @@ ht-degree: 2%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   첫 번째 **[!UICONTROL Script]** 활동에서는 뉴스레터에 대한 구독을 확인할 때까지 받는 사람을 차단 목록에 추가합니다. 컨텐츠는 다음과 같아야 합니다.
+   첫 번째 **[!UICONTROL Script]** 활동에서는 뉴스레터에 대한 차단 목록 구독을 확인할 때까지 받는 사람을에 추가합니다. 컨텐츠는 다음과 같아야 합니다.
 
    ```
-   ctx.recipient.@blockList=1
+   ctx.recipient.@blackList=1
    ```
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
@@ -120,7 +120,7 @@ ht-degree: 2%
    두 번째 **[!UICONTROL Script]** 활동은 사용자에게 발송할 배달을 승인하고 뉴스레터에 가입합니다. 마지막 두 줄의 스크립트를 사용하면 받는 사람이 임시 폴더에서 다른 폴더로 이동하여 구독을 확인하자마자 기존 프로필과 대사할 수 있습니다.
 
    ```
-   ctx.recipient.@blockList=0
+   ctx.recipient.@blackList=0
    nms.subscription.Subscribe("INTERNAL_NAME_OF_THE_NEWSLETTER", ctx.recipient, false)
    ctx.recipient.folder = <folder name="nmsRootRecipient"/>
    nms.subscription.Unsubscribe("TEMP", ctx.recipient)
@@ -172,7 +172,7 @@ ht-degree: 2%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   사용자는 **[!UICONTROL Temp]** 폴더의 Adobe Campaign 데이터베이스에 추가되고 해당 프로필이 해당 이메일의 구독을 확인할 때까지 차단 목록에 추가됩니다.
+   사용자는 **[!UICONTROL Temp]** 폴더의 Adobe Campaign 데이터베이스에 추가되고 해당 프로필은 해당 이메일의 가입을 확인할 때까지에 차단 목록 있습니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
@@ -186,7 +186,7 @@ ht-degree: 2%
 
    Adobe Campaign에서 사용자 프로필이 업데이트됩니다.
 
-   * 그들은 더 이상 차단 목록에 있지 않습니다
+   * 그들은 더 이상에 차단 목록 있지 않습니다
    * 그들은 정보 서비스에 가입되어 있다.
 
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
