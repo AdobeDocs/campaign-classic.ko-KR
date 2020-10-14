@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2440'
 ht-degree: 16%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 16%
 
 메시지가 전송되면 배달 로그를 통해 각 프로필에 대한 배달 상태 및 관련 오류 유형 및 이유를 볼 수 있습니다.
 
-또한 주소를 격리 수용하거나 차단 목록에 프로필이 있을 경우 배달 준비 중에 메시지를 제외할 수 있습니다. 제외된 메시지는 배달 대시보드에 나열됩니다.
+또한 주소를 격리하거나 프로파일이에 있는 경우에도 전달 준비 중에 메시지를 제외할 수 차단 목록 있습니다. 제외된 메시지는 배달 대시보드에 나열됩니다.
 
 **관련 항목:**
 
@@ -83,10 +83,10 @@ ht-degree: 16%
    <td> 이 주소의 품질 등급이 너무 낮습니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 차단 목록의 주소 </td> 
+   <td> 차단 목록에 추가된 주소 </td> 
    <td> 하드 </td> 
    <td> 8 </td> 
-   <td> 주소를 전송할 때 차단 목록에 추가되었습니다. 이 상태는 외부 목록 및 외부 시스템의 데이터를 Adobe Campaign 격리 목록으로 가져오는 데 사용됩니다.<br /> </td> 
+   <td> 발송 차단 목록 당시 주소가에 추가되었습니다. 이 상태는 외부 목록 및 외부 시스템의 데이터를 Adobe Campaign 격리 목록으로 가져오는 데 사용됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 제어 주소 </td> 
@@ -104,7 +104,7 @@ ht-degree: 16%
    <td> 오류가 무시됨 </td> 
    <td> 무시됨 </td> 
    <td> 25 </td> 
-   <td> 주소는 허용 목록에 있다. 따라서 오류가 무시되고 이메일이 전송됩니다.<br /> </td> 
+   <td> 주소는에 허용 목록에 추가하다 있다. 따라서 오류가 무시되고 이메일이 전송됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 중재 후 제외 </td> 
@@ -204,7 +204,7 @@ ht-degree: 16%
    >
    >바운스 사서함의 구성은 [이 섹션에 자세히 설명되어 있습니다](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-   피드백 [루프는](../../delivery/using/technical-recommendations.md#feedback-loop) 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸으로 자격이 되면 이 사용자에 대한 모든 제공을 차단하도록 Adobe Campaign의 이메일 규칙을 구성할 수 있습니다. 스팸으로 이메일을 자격이 부여된 사용자에게 보낸 메시지는 이 용도로 특별히 제작된 이메일 상자로 자동으로 리디렉션됩니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않아도 차단 목록에 있습니다. 주소는 (**NmsAddress**) 검역표의 차단 목록에 있고 (NmsRecipient ****) 수신자 테이블에 있지 않습니다.
+   피드백 [루프는](../../delivery/using/technical-recommendations.md#feedback-loop) 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸으로 자격이 되면 이 사용자에 대한 모든 제공을 차단하도록 Adobe Campaign의 이메일 규칙을 구성할 수 있습니다. 스팸으로 이메일을 자격이 부여된 사용자에게 보낸 메시지는 이 용도로 특별히 제작된 이메일 상자로 자동으로 리디렉션됩니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 차단 목록 않아도에 있습니다. 주소는 (**NmsAddress**) 검역표의차단 목록에 있으며 (NmsRecipient **) 받는 사람**&#x200B;테이블이 아닙니다.
 
    >[!NOTE]
    >
