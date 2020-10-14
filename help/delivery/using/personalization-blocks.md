@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '888'
 ht-degree: 2%
 
 ---
@@ -110,7 +110,7 @@ HTML 소스 코드가 배달 컨텐츠에 삽입됩니다. 예를 들어 개인�
    >미러 페이지 생성에 대한 자세한 내용은 미러 페이지 [생성을 참조하십시오](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Link to mirror page]** :미러 페이지에 링크를 삽입합니다.&quot;이 메시지를 제대로 볼 수 없는 경우 여기를 클릭하십시오.&quot;
-* **[!UICONTROL Unsubscription link]** :모든 게재(차단 목록)에서 가입을 해지할 수 있는 링크를 삽입합니다.
+* **[!UICONTROL Unsubscription link]** :모든 게재()에서 가입을 해지할 수 있는 링크를 차단 목록 삽입합니다.
 * **[!UICONTROL Formatting function for proper nouns]** :각 단어의 첫 번째 문자를 대문자로 변경하는 Javascript 함수를 생성합니다. **[!UICONTROL toSmartCase]** 이 블록은 배달의 소스 코드에 삽입되어 **`<script>...</script>`** 태그에 삽입해야 합니다.
 
    아래 예에서 이 함수는 &quot;My header&quot; 요소를 &quot;My new header&quot;로 대체하고 각 단어에 대문자를 사용합니다.
