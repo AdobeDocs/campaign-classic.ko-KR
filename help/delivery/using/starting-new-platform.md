@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '490'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 * 플랫폼의 사용 내역이 없으므로 이메일 전송을 시작하는 것은 중요한 단계이며 전송 IP가 이러한 목적으로 사용되지 않은 경우, 명성도 없습니다.
 
-* ISP는 원래 이메일을 보내는 데 전혀 사용되지 않은 IP 주소를 의심하기 때문에 갑자기 많은 양의 이메일 트래픽이 전송되기 시작합니다. 실제로 스팸은 일반적으로 &quot;알 수 없는&quot; IP 주소(차단 목록에 한번도 추가되지 않은 주소)를 사용하여 감지하기 전에 가장 많은 수의 메시지를 전송합니다.
+* ISP는 원래 이메일을 보내는 데 전혀 사용되지 않은 IP 주소를 의심하기 때문에 갑자기 많은 양의 이메일 트래픽이 전송되기 시작합니다. 실제로 스팸은 일반적으로 &quot;알 수 없는&quot; IP 주소(에 있었던 적이 없는 주소)를 사용하여 감지하기 전에 가장 많은 메시지 수를 전송합니다차단 목록.
 
 * 제작 단계에서 출력 측면에서 운영 속도에 도달하는 것은 기대할 수 없습니다. 또한, ISP가 전송 주소를 막고 나머지 시작 단계를 심각하게 훼손할 수 있으므로 이러한 속도로 메시지를 전송하지 마십시오.
 
