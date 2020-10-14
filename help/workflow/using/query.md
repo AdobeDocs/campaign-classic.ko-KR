@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: b53d9810-f61f-4257-b410-e4d30f78429d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 0%
@@ -187,7 +187,7 @@ Adobe Campaign 데이터베이스의 데이터를 추가하려면:
 
    절이 `where` 필드와 같은 유형인지 확인합니다.
 
-   일반적인 실수는 다음과 같습니다. `iBlocklist='3'` 여기서 `iBlocklist` 는 숫자 필드이며, 텍스트 값을 `3` 의미합니다.
+   일반적인 실수는 다음과 같습니다. `iBlacklist='3'` 여기서 `iBlacklist` 는 숫자 필드이며, 텍스트 값을 `3` 의미합니다.
 
    쿼리의 실행 계획이 어떤 것인지를 확인합니다. 전체 테이블 스캔 방지, 특히 실시간 쿼리 또는 거의 실시간으로 실행되는 쿼리를 방지합니다.
 
