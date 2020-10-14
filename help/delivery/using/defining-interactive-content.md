@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: sending-emails
 discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1573'
 ht-degree: 3%
 
 ---
@@ -151,6 +151,7 @@ Gmail에 대한 [팁과 알려진 제한 사항](https://developers.google.com/g
 현재 AMP 이메일 전송을 두 단계로 실험해 볼 수 있습니다.
 
 1. Adobe Campaign을 사용하면 컨텐츠와 동작을 확인하기 위해 AMP 기반의 동적 이메일을 선택한 이메일 주소로 적절하게 구성된 것을 테스트할 수 있습니다. 선택한 [주소에 대한 AMP 이메일 배달 테스트를 참조하십시오](#testing-amp-delivery-for-selected-addresses).
+
 1. 테스트를 거친 후에는 해당 이메일 공급자에 등록하여 보낸 사람 도메인을 허용 목록에 추가하도록 함으로써 이메일용 AMP 프로그램의 일부로 게재 또는 캠페인을 보낼 수 있습니다. 이메일 [공급자에 등록하여 AMP 이메일 전달을 참조하십시오](#delivering-amp-emails-by-registering).
 
 ### 선택한 주소에 대한 AMP 이메일 배달 테스트 {#testing-amp-delivery-for-selected-addresses}
@@ -161,7 +162,7 @@ Adobe Campaign에서 선택한 이메일 주소로 동적 메시지 전송을 �
 >
 >현재 Gmail, Outlook 및 Mail.ru만 AMP 형식 테스트를 지원합니다.
 
-Gmail 및 Outlook의 경우, 먼저 대상 Gmail 및 Outlook 계정에 대해 Adobe Campaign에서 배달하기 위해 허용 목록에 사용 중인 보낸 사람 주소를 추가해야 합니다.
+Gmail 및 Outlook의 경우, 먼저 대상 Gmail 및 Outlook 계정에 대해 Adobe Campaign에서 배달하기 위해에 사용 중인 보낸 사람 주소를 허용 목록에 추가하다 추가해야 합니다.
 
 방법은 다음과 같습니다.
 1. 관련 이메일 공급자에 대해 동적 이메일 활성화 옵션이 선택되어 있는지 확인합니다.
