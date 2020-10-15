@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Classic 데이터 모델 정보
-description: 캠페인 데이터 모델을 확장하거나 스키마를 편집하고 API를 사용하는 방법을 알아보십시오.
+description: Campaign 데이터 모델을 확장하거나 스키마를 편집하고 API를 사용하는 방법을 알아보십시오.
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
