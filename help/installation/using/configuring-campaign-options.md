@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: 9c1884f6-1dd8-41ab-b8dc-604c8cc2dc89
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 63b208e5607bdcddaef03292d229847c4b7366f8
 workflow-type: tm+mt
 source-wordcount: '3927'
 ht-degree: 1%
@@ -648,7 +648,7 @@ ht-degree: 1%
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> 백업 및 복제를 최적화하기 위해 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 옵션은 임시 데이터베이스의 이름에 해당합니다.지정한 경우 이 데이터베이스에 작업 테이블이 작성됩니다. 예:'tempdb.dbo' (이름은 점으로 끝나야 합니다.)</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">자세한 내용</a> <br /> </td> 
+   <td> 백업 및 복제를 최적화하기 위해 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 옵션은 임시 데이터베이스의 이름에 해당합니다.지정한 경우 이 데이터베이스에 작업 테이블이 작성됩니다. 예:'tempdb.dbo' (이름은 점으로 끝나야 합니다.) <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">자세한 내용</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
