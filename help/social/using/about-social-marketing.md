@@ -1,6 +1,6 @@
 ---
 title: 소셜 마케팅 정보
-description: Facebook 및 Twitter를 통해 Adobe Campaign을 사용하여 고객과 교류하는 방법을 살펴볼 수 있습니다.
+description: Facebook 및 Twitter를 통해 Adobe Campaign을 사용하여 고객과 소통하는 방법을 살펴볼 수 있습니다.
 page-status-flag: never-activated
 uuid: 64c861e3-b685-44e2-9b5b-4fbf5d70baa9
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
