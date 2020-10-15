@@ -1,6 +1,6 @@
 ---
 title: 모니터링 지침
-description: 캠페인 인스턴스 및 프로세스를 모니터링하기 위한 지침과 모범 사례를 알아봅니다.
+description: Campaign 인스턴스 및 프로세스를 모니터링하기 위한 지침과 모범 사례를 알아봅니다.
 page-status-flag: never-activated
 uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
