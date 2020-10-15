@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1453'
 ht-degree: 2%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 2%
 이 섹션에는 다음 두 가지 지표가 있습니다.
 
 * **[!UICONTROL Initial population]** :배달이 타깃팅한 총 받는 사람 수입니다.
-* **[!UICONTROL Messages rejected by the rule]** :분류 규칙을 적용할 때 분석 중에 무시된 주소 수:주소 누락, 격리, 차단 목록 등에 추가 For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+* **[!UICONTROL Messages rejected by the rule]** :분류 규칙을 적용할 때 분석 중에 무시된 주소 수:주소 누락, 격리, 차단 목록 등 For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
 **[!UICONTROL Causes of exclusion]**
 
