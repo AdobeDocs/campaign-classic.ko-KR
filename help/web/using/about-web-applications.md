@@ -1,6 +1,6 @@
 ---
 title: 웹 애플리케이셔 기본 정보
-description: 다이내믹한 웹 애플리케이션, 랜딩 페이지 및 설문 조사를 만들고 공유할 수 있습니다.
+description: 동적 웹 응용 프로그램, 랜딩 페이지 및 설문 조사를 만들고 공유할 수 있습니다.
 page-status-flag: never-activated
 uuid: acfa6e5e-b503-4a1a-871e-e70007874f57
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
