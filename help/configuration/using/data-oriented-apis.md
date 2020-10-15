@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: api
 discoiquuid: fba46d42-0253-425b-bbc2-6702d4140e05
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 63b208e5607bdcddaef03292d229847c4b7366f8
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 0%
@@ -226,7 +226,7 @@ XPath **구문은** 입력 스키마를 기반으로 데이터를 찾는 데 사
 
 >[!NOTE]
 >
->다시 이전 예제의 조건을 사용합니다. and `<select>` 절은 사용되지 않습니다. </select>&#39;
+>다시 이전 예제의 조건을 사용합니다. and `<select>` 절은 사용되지 않습니다. `</select>`
 
 #### 데이터 그룹화 {#data-grouping}
 
