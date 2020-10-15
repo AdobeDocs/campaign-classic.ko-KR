@@ -1,6 +1,6 @@
 ---
 title: 상호 작용 및 제안 관리
-description: 자격 조건 규칙에 따라 연락처에 최상의 오퍼를 보냅니다.
+description: 자격 규칙에 따라 담당자에게 최상의 오퍼를 보냅니다.
 page-status-flag: never-activated
 uuid: 70720baa-e64e-4fb6-8301-fe3920791f79
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
