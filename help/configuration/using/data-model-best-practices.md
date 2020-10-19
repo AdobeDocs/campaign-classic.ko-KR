@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classic 수신자 테이블 사용
-description: 데이터 모델을 디자인할 때 Adobe Campaign Classic에서 즉시 사용 가능한 수신자 테이블을 사용하는 방법을 살펴볼 수 있습니다.
+title: 데이터 모델 모범 사례
+description: Campaign Classic 데이터 모델을 사용한 작업 방법 살펴보기
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '3997'
-ht-degree: 0%
+source-wordcount: '4014'
+ht-degree: 1%
 
 ---
 
@@ -253,6 +253,10 @@ Adobe Campaign은 데이터 웨어하우스나 보고 도구가 아닙니다. �
 
 * 로그를 길게 유지하려면 데이터베이스 크기와 전송된 메시지 볼륨에 따라 신중하게 결정해야 합니다. 다시 말해 Adobe Campaign 시퀀스는 32비트 정수입니다.
 * 사용 가능한 모든 ID를 사용할 수 있는 위험을 제한하기 위해 이러한 표에 한 번에 10억 개 이상의 레코드(사용 가능한 21억 4천만 ID의 약 50%)를 포함하지 않는 것이 좋습니다. 이를 위해서는 일부 고객이 보존 기간을 180일 이하로 낮춰야 합니다.
+
+캠페인 개인 정보 및 보안 지침에서 데이터 [유지에 대해 자세히 알아보십시오](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
+
+이 섹션에서 캠페인 데이터 기본 정리 작업 과정 [에 대해 자세히 알아보십시오](../../production/using/database-cleanup-workflow.md).
 
 >[!IMPORTANT]
 >
