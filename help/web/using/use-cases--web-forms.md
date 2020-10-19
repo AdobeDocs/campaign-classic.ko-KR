@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: web-forms
 discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 3e1896ac4ccd1099bd50e279762c2fbff5cd8eba
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 2%
@@ -55,7 +55,7 @@ ht-degree: 2%
 
    이렇게 하려면 **[!UICONTROL Exclusions]** 탭을 클릭합니다.
 
-1. 링크를 클릭하고 **[!UICONTROL Edit...]** **[!UICONTROL Exclude recipients who no longer want to be contacted (blacklist)]** 옵션 선택을 취소합니다.
+1. 링크를 클릭하고 **[!UICONTROL Edit...]** **[!UICONTROL Exclude recipients who no longer want to be contacted]** 옵션 선택을 취소합니다.
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
