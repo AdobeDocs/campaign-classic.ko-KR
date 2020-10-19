@@ -1,8 +1,6 @@
 ---
 title: 데이터베이스 정리 워크플로우
-seo-title: 데이터베이스 정리 워크플로우
-description: 데이터베이스 정리 워크플로우
-seo-description: null
+description: 오래된 데이터가 자동으로 정리되는 방법 살펴보기
 page-status-flag: never-activated
 uuid: a7478641-cdf6-4bd4-9dd7-0c84416c9de6
 contentOwner: sauviat
@@ -12,9 +10,9 @@ content-type: reference
 topic-tags: data-processing
 discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2910'
 ht-degree: 0%
 
 ---
@@ -32,7 +30,7 @@ ht-degree: 0%
 
 데이터베이스 정리는 두 가지 수준으로 구성됩니다.을 클릭합니다.
 
-### 스케줄러 {#the-scheduler}
+### 워크플로우 스케줄러 {#the-scheduler}
 
 >[!NOTE]
 >
@@ -53,7 +51,7 @@ ht-degree: 0%
 
 ### 배포 마법사 {#deployment-wizard}
 
-메뉴 **[!UICONTROL Deployment wizard]** 를 통해 액세스되는 **[!UICONTROL Tools > Advanced]** 아이콘을 사용하여 데이터가 저장되는 기간을 구성할 수 있습니다. 값은 일 단위로 표현됩니다. 이러한 값이 변경되지 않으면 워크플로우는 기본값을 사용합니다.
+메뉴 **[!UICONTROL Deployment wizard]**&#x200B;를 통해 액세스되는 **[!UICONTROL Tools > Advanced]** 아이콘을 사용하여 데이터가 저장되는 기간을 구성할 수 있습니다. 값은 일 단위로 표현됩니다. 이러한 값이 변경되지 않으면 워크플로우는 기본값을 사용합니다.
 
 ![](assets/ncs_cleanup_deployment-wizard.png)
 
@@ -181,7 +179,7 @@ ht-degree: 0%
 
 또한 **[!UICONTROL Database cleanup]** 워크플로우는 중간 소싱 서버에서 납품도 삭제합니다.
 
-1. 이를 위해 워크플로우는 각 게재가 비활성(상태에 따라)인지 확인합니다. 게재가 활성 상태인 경우 삭제되기 전에 중단됩니다. 검사는 다음 쿼리를 실행하여 수행됩니다.
+1. 이를 위해 워크플로우는 각 배달이 비활성(상태에 따라)인지 확인합니다. 게재가 활성 상태인 경우 삭제되기 전에 중단됩니다. 검사는 다음 쿼리를 실행하여 수행됩니다.
 
    ```
    SELECT iState FROM NmsDelivery WHERE iDeliveryId = $(l) AND iState <> 100;
