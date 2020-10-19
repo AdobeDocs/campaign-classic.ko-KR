@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 5%
@@ -50,9 +50,9 @@ ht-degree: 5%
    >
    >mta를 호출하지 않도록 mid-sourcing을 사용하는 경우 이 옵션을 사용하는 것이 권장되지 않습니다.
    >
-   >SMTP 서버 구성에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+   >SMTP 서버 구성에 대한 자세한 내용은 이 섹션 [을 참조하십시오](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* **[!UICONTROL Archive emails]**:이 옵션을 사용하면 메시지 대상에 숨은 참조 이메일 주소를 추가하면 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다. For more on this, refer to [Archiving emails](../../delivery/using/sending-messages.md#archiving-emails).
+* **[!UICONTROL Email BCC]**:이 옵션을 사용하면 메시지 대상에 숨은 참조 이메일 주소를 추가하면 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다. For more on this, refer [to this section](../../delivery/using/sending-messages.md#archiving-emails).
 
 배달을 구성하고 전송할 준비가 되었으면 [배달 분석을 실행했는지 확인하십시오](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery). 완료되면 을 클릭하여 메시지 배달 **[!UICONTROL Confirm delivery]** 을 실행합니다.
 
