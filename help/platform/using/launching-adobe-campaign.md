@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 7%
@@ -30,7 +30,7 @@ Adobe Campaign을 선택하여 시작할 수 있습니다 **[!UICONTROL Start / 
 
 클라이언트 콘솔 연결 창을 사용하면 기존 데이터베이스를 선택하거나 구성하고 사용자 이름과 암호를 사용하여 데이터베이스에 연결할 수 있습니다.
 
-![](assets/s_ncs_user_login.png)
+![](assets/acc-logon-screen.png)
 
 ## Adobe Campaign 연결 중 {#connecting-to-adobe-campaign}
 
