@@ -12,15 +12,15 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: d6467875-949b-4b47-940f-620efd4db5e0
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 3%
+source-wordcount: '1306'
+ht-degree: 2%
 
 ---
 
 
-# 전자 메일 보관{#email-archiving}
+# 이메일 숨은 참조 {#email-archiving}
 
 플랫폼에서 보낸 이메일 복사본을 유지하도록 Adobe Campaign을 구성할 수 있습니다.
 
@@ -30,15 +30,15 @@ ht-degree: 3%
 
 ## Recommendations 및 제한 사항 {#recommendations-and-limitations}
 
-* 이메일 보관 기능은 선택 사항입니다. 사용권 계약을 확인하십시오.
-* 호스팅 및 **하이브리드 아키텍처의 경우 계정 관리자에게 문의하여**&#x200B;활성화합니다. 선택한 BCC 주소는 자신을 위해 구성할 Adobe 팀에 제공해야 합니다.
-* 온-프레미스 설치 **의 경우, 아래 지침에 따라**&#x200B;이메일 보관 활성화(온-프레미스) [및](#activating-email-archiving--on-premise-) 숨은 참조 이메일 주소(온-프레미스) [구성 섹션을](#configuring-the-bcc-email-address--on-premise-) 참조하십시오.
+* 이메일 BCC 기능은 선택 사항입니다. 사용권 계약을 확인하십시오.
+* 호스팅 및 **하이브리드 아키텍처의 경우 계정 관리자에게 문의하여**&#x200B;활성화합니다. 선택한 BCC 이메일 주소를 구성할 Adobe 팀에 제공해야 합니다.
+* 온-프레미스 설치 **의 경우, 아래 지침에 따라**&#x200B;이메일 BCC 활성화(온-프레미스) [및](#activating-email-archiving--on-premise-) 숨은 참조 이메일 주소(온-프레미스) [구성 섹션을](#configuring-the-bcc-email-address--on-premise-) 참조하십시오.
 * 숨은 참조 이메일 주소는 하나만 사용할 수 있습니다.
-* 이메일 BCC가 구성되면 배달 템플릿에서 또는 옵션을 통해 배달에서 기능이 활성화되었는지 **[!UICONTROL Archive emails]** 확인합니다. 자세한 내용은 [이 섹션](../../delivery/using/sending-messages.md#archiving-emails)을 참조하십시오.
+* 이메일 BCC가 구성되면 배달 템플릿에서 또는 옵션을 통해 배달에서 기능이 활성화되었는지 **[!UICONTROL Email BCC]** 확인합니다. 자세한 내용은 [이 섹션](../../delivery/using/sending-messages.md#archiving-emails)을 참조하십시오.
 * 성공적으로 보낸 이메일만 고려되므로 바운스 수가 없습니다.
-* e-메일 아카이빙 시스템이 Adobe Campaign 17.2(빌드 8795)로 변경되었습니다. 이미 이메일 보관을 사용하고 있다면 새 BCC(이메일 보관 시스템)로 수동으로 업그레이드해야 합니다. 자세한 내용은 [업데이트된 BCC(이메일 보관 시스템) 섹션을](#updated-email-archiving-system--bcc-) 참조하십시오.
+* e-메일 아카이빙 시스템이 Adobe Campaign 17.2(빌드 8795)로 변경되었습니다. 이미 이메일 보관을 사용하고 있는 경우 새 이메일 BCC 시스템으로 수동으로 업그레이드해야 합니다. 자세한 내용은 새 이메일 BCC [로 이동 섹션을](#updated-email-archiving-system--bcc-) 참조하십시오.
 
-## 이메일 보관 활성화(사내) {#activating-email-archiving--on-premise-}
+## 이메일 BCC 활성화(온-프레미스) {#activating-email-archiving--on-premise-}
 
 Adobe Campaign이 사내에 설치될 때 BCC 이메일 보관을 활성화하려면 아래 단계를 수행하십시오.
 
@@ -70,7 +70,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 >[!NOTE]
 >
->중간 소싱 인스턴스에서 보관된 이메일의 디렉토리는 중간 소싱 서버에 있습니다.
+>중간 소싱 인스턴스에서 숨은 참조 이메일의 디렉토리는 중간 소싱 서버에 있습니다.
 >
 >전송 ID와 broadlogID는 이메일 상태가 전송되지 않을 때 중간 소싱 서버에서 옵니다. 상태가 로 변경되면 **[!UICONTROL Sent]**&#x200B;이러한 ID는 마케팅 서버에서 제공됩니다.
 
@@ -128,7 +128,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 >
 >뿐만 아니라, 릴레이는 전송되지 않은 이메일을 포함하여 모든 이메일에 상태를 **[!UICONTROL Sent]** 할당합니다. 따라서 모든 메시지가 보관됩니다.
 
-## 업데이트된 BCC(이메일 보관 시스템) {#updated-email-archiving-system--bcc-}
+## 새 이메일 BCC로 이동 {#updated-email-archiving-system--bcc-}
 
 >[!CAUTION]
 >
@@ -140,9 +140,9 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 1. 필요한 경우 **compressionFormat** 매개 변수를 **1로** 설정합니다.
 1. archivingType **매개** 변수를 **1**&#x200B;로 설정합니다.
 
-이메일 BCC가 구성되면 배달 템플릿 또는 배달에서 **[!UICONTROL Archive emails]** 옵션을 선택해야 합니다. 자세한 내용은 [이 섹션](../../delivery/using/sending-messages.md#archiving-emails)을 참조하십시오.
+이메일 BCC가 구성되면 배달 템플릿 또는 배달에서 **[!UICONTROL Email BCC]** 옵션을 선택해야 합니다. 자세한 내용은 [이 섹션](../../delivery/using/sending-messages.md#archiving-emails)을 참조하십시오.
 
-## 권장사항 {#best-practices}
+## 이메일 숨은 참조 우수 사례 {#best-practices}
 
 * **숨은 참조 주소 사서함**:MTA가 보내는 모든 이메일을 보관할 수 있는 수신 용량이 충분한지 확인하십시오.
 * **MTA 분화**:숨은 참조 보관 기능은 MTA 수준에서 작동합니다. MTA에서 보낸 모든 이메일을 복제할 수 있습니다. MTA는 여러 인스턴스(예: dev, test 또는 prod)나 여러 클라이언트(중간 소싱 환경)에서 상호 정의할 수 있으므로 이 기능을 설정하면 보안에 영향을 줍니다.
