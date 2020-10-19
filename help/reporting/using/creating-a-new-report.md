@@ -1,8 +1,6 @@
 ---
 title: 새 보고서 만들기
-seo-title: 새 보고서 만들기
-description: 새 보고서 만들기
-seo-description: null
+description: 새 보고서를 만들기 위한 주요 단계 알아보기
 page-status-flag: never-activated
 uuid: dcea5c28-da09-4a31-a13c-c8995c6faa63
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 22c92ddf-fbea-49d3-afd4-1ba427be399d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 2%
+source-wordcount: '923'
+ht-degree: 1%
 
 ---
 
@@ -60,29 +58,29 @@ ht-degree: 2%
 
 보고서를 만들려면 보고서의 특성과 컨텍스트에 따라 유용한 요소를 식별하고 해당 논리 시퀀스를 모델링해야 합니다.
 
-1. &#39;시작&#39; 활동을 사용하여 보고서를 작성하기 위해 수행하는 첫 번째 프로세스를 구체화합니다. 보고서당 이러한 활동 중 하나만 사용할 수 있습니다.
+1. 활동을 사용하여 보고서를 작성하기 위해 수행하는 첫 번째 프로세스를 구체화합니다. **[!UICONTROL Start]** 보고서당 이러한 활동 중 하나만 사용할 수 있습니다.
 
    차트에 루프가 포함되는 경우 필수입니다.
 
-1. 보고서 작성에 유용한 데이터를 수집하려면 하나 이상의 &#39;쿼리&#39; 활동을 추가합니다. 데이터는 데이터베이스의 스키마에 대한 쿼리를 통해 직접 수집하거나 가져온 목록 또는 기존 큐브를 통해 수집할 수 있습니다.
+1. 보고서 작성에 유용한 데이터를 수집하려면 하나 이상의 **[!UICONTROL Query]** 활동을 추가합니다. 데이터는 데이터베이스의 스키마에 대한 쿼리를 통해 직접 수집하거나 가져온 목록 또는 기존 큐브를 통해 수집할 수 있습니다.
 
    자세한 내용은 데이터 [수집을 참조하십시오](../../reporting/using/collecting-data-to-analyze.md).
 
    이 데이터는 페이지 구성에 따라 보고서에 표시되거나 표시되지 않습니다.
 
-1. 하나 이상의 &#39;페이지&#39; 활동을 배치하여 수집된 데이터의 그래픽 표현을 정의합니다. 테이블, 차트, 입력 필드 및 하나 이상의 페이지 또는 페이지 요소의 표시 조건을 삽입할 수 있습니다. 표시된 컨텐츠는 완전히 구성할 수 있습니다.
+1. 하나 이상의 **[!UICONTROL Page]** 활동을 배치하여 수집된 데이터의 그래픽 표현을 정의합니다. 테이블, 차트, 입력 필드 및 하나 이상의 페이지 또는 페이지 요소의 표시 조건을 삽입할 수 있습니다. 표시된 컨텐츠는 완전히 구성할 수 있습니다.
 
    For more on this, refer to [Static elements](#static-elements).
 
-1. &#39;테스트&#39; 활동을 사용하여 데이터를 표시하거나 액세스하기 위한 조건을 정의합니다.
+1. 활동을 사용하여 데이터를 표시하거나 액세스하기 위한 조건을 정의합니다. **[!UICONTROL Test]**
 
    For more on this, refer to [Conditioning page display](../../reporting/using/defining-a-conditional-content.md#conditioning-page-display).
 
-1. 필요한 경우 &#39;스크립트&#39; 활동을 통해 개인화된 스크립트를 추가하여 보고서 이름을 계산하고, 특정 컨텍스트 내에서 결과의 표시를 필터링하는 등
+1. 필요한 경우, **[!UICONTROL Script]** 활동을 통해 개인화된 스크립트를 추가하여 보고서 이름을 계산하고, 특정 컨텍스트 내에서 결과의 표시를 필터링하는 등.
 
    For more on this, refer to [Script activity](../../reporting/using/advanced-functionalities.md#script-activity).
 
-1. 마지막으로 복잡한 보고서를 쉽게 읽을 수 있도록 하나 이상의 &#39;jump&#39; 유형 활동을 삽입할 수 있습니다. 이를 통해 보고서에서 전환을 구체화하지 않고도 한 활동에서 다른 활동으로 이동할 수 있습니다. &#39;Jump&#39;를 사용하여 다른 보고서를 표시할 수도 있습니다.
+1. 마지막으로 복잡한 보고서를 더 쉽게 읽을 수 있도록 하나 이상의 **[!UICONTROL Jump]** 유형 활동을 삽입할 수 있습니다. 이를 통해 보고서에서 전환을 구체화하지 않고도 한 활동에서 다른 활동으로 이동할 수 있습니다. 또한 **[!UICONTROL Jump]** 활동을 사용하여 다른 보고서를 표시할 수도 있습니다.
 
    For more on this, refer to [Jump activity](../../reporting/using/advanced-functionalities.md#jump-activity).
 
@@ -167,4 +165,3 @@ A에는 다음 요소가 포함될 **[!UICONTROL Page]** 수 있습니다.
 여기에서 트리 폴더 중 하나에 포함된 정보만 표시하도록 보고서의 데이터를 필터링할 수 있습니다.
 
 ![](assets/reporting_control_folder.png)
-
