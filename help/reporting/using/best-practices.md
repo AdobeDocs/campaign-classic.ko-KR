@@ -1,8 +1,6 @@
 ---
 title: 보고 모범 사례
-seo-title: 보고 모범 사례
-description: 보고 모범 사례
-seo-description: null
+description: 캠페인 보고 우수 사례
 page-status-flag: never-activated
 uuid: 09de6a17-b3a7-4543-b672-b0a21653aa75
 contentOwner: sauviat
@@ -12,15 +10,15 @@ content-type: reference
 topic-tags: reporting-in-adobe-campaign
 discoiquuid: 904961e0-7dff-4350-8d5d-e4bdd368b3ff
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 1%
+source-wordcount: '839'
+ht-degree: 0%
 
 ---
 
 
-# 보고 모범 사례{#best-practices-reporting}
+# 보고 우수 사례{#best-practices-reporting}
 
 ## 요구 사항 분석{#analyzing-needs}
 
@@ -36,15 +34,15 @@ ht-degree: 1%
 
    예를 들어 다음을 수행할 수 있습니다.
 
-   * 데이터베이스의 데이터를 살펴보고 측정( [이 섹션을 통해](../../reporting/using/about-cubes.md))
-   * 기존 보고서에 지표 추가( [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)참조),
-   * 데이터베이스에서 데이터 보기( [이 섹션을 통해](../../reporting/using/about-descriptive-analysis.md)),
-   * 새 배달 보고서 만들기( [이 섹션 참조](../../reporting/using/about-reports-creation-in-campaign.md)),
-   * Adobe Campaign 데이터베이스에서 데이터 내보내기(워크플로우를 통해, [이 섹션](../../workflow/using/about-workflows.md)참조),
-   * 피벗 테이블 만들기( [이 섹션 참조](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)),
-   * 집계된 데이터 탐색( [이 섹션을 통해](../../reporting/using/about-cubes.md)),
-   * 마법사를 사용하여 데이터 분석( [이 섹션을 통해](../../reporting/using/about-descriptive-analysis.md)),
-   * 대용량 데이터 분석( [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)참조) 등
+   * 데이터베이스의 데이터를 탐색하고 측정을 정의합니다. 이 섹션 [에서 자세한 내용](../../reporting/using/about-cubes.md)
+   * 기존 보고서에 지표를 추가합니다. 이 섹션 [에서 자세한 내용](../../reporting/using/about-reports-creation-in-campaign.md)
+   * 데이터베이스의 데이터를 봅니다. 이 섹션 [에서 자세한 내용](../../reporting/using/about-descriptive-analysis.md)
+   * 새 배달 보고서를 만듭니다. 이 섹션 [의 자세한 내용](../../reporting/using/about-reports-creation-in-campaign.md)),
+   * Adobe Campaign 데이터베이스에서 데이터 내보내기(워크플로우를 통해, [이 섹션 참조](../../workflow/using/about-workflows.md)
+   * 피벗 테이블을 만듭니다. 이 섹션 [에서 자세한 내용](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
+   * 데이터 집계 이 섹션 [에서 자세한 내용](../../reporting/using/about-cubes.md)
+   * 마법사를 사용하여 데이터를 분석합니다. 이 섹션 [에서 자세한 내용](../../reporting/using/about-descriptive-analysis.md)
+   * 대용량의 데이터 분석 이 섹션 [에서 자세한 내용](../../reporting/using/about-reports-creation-in-campaign.md)
 
 1. 타겟 모집단 식별
 
@@ -79,7 +77,7 @@ ht-degree: 1%
 
    마찬가지로 디자인 단계에서 적은 양의 데이터가 있는 경우 보고서 계산이 60초를 초과하는 경우 계산 방법을 변경해야 합니다.
 
-* Marketing Analytics를 사용할 때 조작된 데이터는 1천만 줄을 초과할 수 없습니다.
+* Marketing Analytics 모듈을 사용할 때 보고 데이터는 1,000만 줄을 초과할 수 없습니다.
 
 또한 밤에 집계를 계산하여 이 집계된 데이터를 보고서에서 직접 사용하는 것이 좋습니다. 이러한 집계는 전용 데이터 관리 워크플로(SQL 쿼리)를 통해 만들어야 합니다.
 
@@ -103,15 +101,19 @@ if(string(ctx@_historyId)!==""))
 
 이 외에도 Adobe Campaign은 다음과 같은 개선 사항을 권장합니다.
 
-* 데이터 모델 연구:인덱싱된 필드는 계산 공식을 개선하기 위해 주로 사용해야 합니다.
+* 데이터 모델 작업:인덱싱된 필드는 계산 공식을 개선하기 위해 주로 사용해야 합니다.
 
    인덱싱된 필드를 빠르게 찾으려면 Adobe Campaign 인터페이스에서 열 이름을 확인합니다.필드가 인덱싱된 경우 정렬 화살표는 빨간색으로 밑줄 표시됩니다.
 
-* 보고서가 장기적으로 유효한지 확인하십시오.시간이 지남에 따라 데이터 볼륨이 크게 증가할 수 있습니다.
+   For more on indexes, refer to [this section](../../configuration/using/data-model-best-practices.md#indexes).
+
+* 보고서가 확장되는지 확인합니다.시간이 지남에 따라 데이터 볼륨이 크게 증가할 수 있습니다.
 
    마찬가지로, 테스트 단계에서 수정한 데이터의 양은 프로덕션 과정에서 실제 데이터 볼륨과 다를 수 있습니다. 테스트 단계가 중요한 이유입니다.
 
    마지막으로 데이터 삭제 지연을 파악하고 데이터를 손쉽게 조작하기 위해 필요한 경우 수정해야 합니다.
+
+   정리 및 데이터 보존에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../configuration/using/data-model-best-practices.md#data-retention).
 
 ### 보고서 내보내기 {#exporting-reports}
 
