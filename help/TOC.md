@@ -8,9 +8,9 @@ product: adobe campaign
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2130'
 ht-degree: 94%
 
 ---
@@ -577,17 +577,16 @@ ht-degree: 94%
       + [Facebook 앱의 예](social/using/examples-of-facebook-apps.md)
       + [추적](social/using/tracking.md)
 + Campaign Classic 설치 {#installing-campaign-classic}
-   + 아키텍처 및 호스팅 모델 {#architecture-and-hosting-models}
-      + [읽기 전](installation/using/before-reading.md)
+   + 건축 원칙 {#architecture-and-hosting-models}
       + [일반 아키텍처](installation/using/general-architecture.md)
-      + [호스팅 모델](installation/using/hosting-models.md)
-   + 하이브리드 및 호스팅 모델 {#hybrid-and-hosted-models}
-      + [하이브리드 및 호스팅 모델 기본 정보](installation/using/about-hybrid-and-hosted-models.md)
-      + [하이브리드 모델](installation/using/hybrid-model.md)
-      + [호스팅 모델](installation/using/hosted-model.md)
-   + 사전 요구 사항 및 권장 사항  {#prerequisites-and-recommendations-}
-      + [시작하기 전](installation/using/before-starting.md)
-      + [데이터베이스](installation/using/database.md)
+      + 호스팅 모델{#hosting-models-lp}
+         + [호스팅 모델 정보](installation/using/hosting-models.md)
+         + [하이브리드 모델](installation/using/hybrid-model.md)
+         + [호스팅 모델](installation/using/hosted-model.md)
+         + [기능 매트릭스](installation/using/capability-matrix.md)
+   + 배포 지침 {#deployment-guidelines}
+      + [사전 요구 사항](installation/using/before-starting.md)
+      + [데이터베이스 서버](installation/using/database.md)
       + [애플리케이션 서버](installation/using/application-server.md)
       + [메시징 서버](installation/using/messaging-server.md)
       + [네트워크 구성](installation/using/network-configuration.md)
