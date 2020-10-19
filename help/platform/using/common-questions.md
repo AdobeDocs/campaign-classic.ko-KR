@@ -11,10 +11,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 9ef8e05904751cc141403af20582dc850610f6d2
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ Adobe Campaign Classic에 연결하려면 Adobe Campaign 클라이언트 콘솔�
 
 [이 페이지](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html)에서 최신 Campaign Classic 릴리스 정보에 액세스할 수 있습니다.
 
-## 9. 도메인 위임의 절차는 무엇입니까? {#what-is-the-procedure-for-domain-delegation-}
+## 9. What is the procedure for domain configuration? {#what-is-the-procedure-for-domain-delegation-}
 
 하위 도메인은 브랜드나 다양한 트래픽 유형(트랜잭션 메시지, 마케팅 정보 등)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 Adobe는 전자 메일 게재를 위해 DNS(Domain Name System)를 고려하며, 이를 통해 클라이언트는 도메인 이름과 함께 DNS 별칭을 사용하여 브랜드 이미지를 유지하고, Adobe는 전자 메일 전송 중에 게재 능력을 최적화할 수 있도록 하는 모든 기술 모범 사례를 자체적으로 구현할 수 있습니다.
