@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Classic으로 이메일 보내기
-description: Adobe Campaign Classic에서 이메일을 전달하는 데 필요한 매개 변수에 대해 알아봅니다.
+description: 이메일 전달 매개 변수에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 791f7a54-3225-46ca-ad6f-6c32e9c62d75
 contentOwner: sauviat
@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: sending-emails
 discoiquuid: e2dd8161-fe38-48bf-a288-8ec328b2660e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 9%
+source-wordcount: '739'
+ht-degree: 8%
 
 ---
 
@@ -29,25 +29,25 @@ ht-degree: 9%
 
 아래 섹션에서는 이메일 전달과 관련된 매개 변수에 대해 자세히 설명합니다.
 
-## 이메일 보관 {#archiving-emails}
+## 이메일 숨은 참조 {#archiving-emails}
 
 Adobe Campaign을 사용하면 숨은 참조 이메일 주소를 메시지 대상에 추가하면 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다. 이 옵션이 활성화되면 이 배달을 위해 전송된 모든 메시지의 정확한 사본이 유지됩니다.
 
-이메일 숨은 참조 구성에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../installation/using/email-archiving.md).
+이메일 BCC 구성 및 우수 사례에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../installation/using/email-archiving.md).
 
 >[!NOTE]
 >
->이 기능은 선택 사항입니다. 라이선스 계약을 확인하고 계정 관리자에게 문의하여 기능을 활성화하십시오.
+>이메일 BCC는 선택적 기능입니다. 라이선스 계약을 확인하고 계정 관리자에게 문의하여 기능을 활성화하십시오.
 
-새 배달 또는 배달 템플릿을 만들 때, 옵션을 구입했더라도 기본적으로 이메일 숨은 참조(Email BCC)가 활성화되지 않습니다. 사용할 각 배달 또는 템플릿에서 수동으로 활성화해야 합니다.
+새 배달 또는 배달 템플릿을 만들 때 기본적으로 이메일 숨은 참조(Email BCC)가 활성화되지 않습니다. 이메일 전달 또는 배달 템플릿 수준에서 수동으로 활성화해야 합니다.
 
-이렇게 하려면 아래 단계를 수행합니다:
+이메일 배달 템플릿의 이메일 BCC를 활성화하려면 아래 단계를 수행하십시오.
 
 1. > **[!UICONTROL Campaign Management]****[!UICONTROL Deliveries]** 또는 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**&#x200B;로 이동합니다.
 1. 원하는 배달 방법을 선택하거나 즉시 사용 가능한 **이메일 배달** 템플릿을 복제한 다음, 중복된 템플릿을 선택합니다.
 1. Click the **Properties** button.
 1. **[!UICONTROL Delivery]** 탭을 선택합니다. 
-1. 이 배달 **에 대해 또는 이 템플릿을 기준으로 각 배달에 대해 보낸 모든 메시지 사본을 보관하려면 이메일** 보관 상자를 선택합니다.
+1. [ **이메일 숨은 참조] 옵션을** 선택합니다. 이 템플릿을 기준으로 각 배달에 대해 보낸 모든 메시지 사본이 구성된 이메일 BCC 주소로 전송됩니다.
 
    ![](assets/s_ncs_user_wizard_archiving.png)
 
