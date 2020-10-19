@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
 source-wordcount: '3731'
 ht-degree: 86%
@@ -201,9 +201,9 @@ Hadoop FDA 커넥터 개선 사항 - [자세한 내용](../../platform/using/spe
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-[설치](../../installation/using/before-reading.md),[프로덕션](../../production/using/foreword.md) 및 [구성](../../configuration/using/additional-parameters.md) 가이드는 nlserver 서비스 시작 시 사용하는 새 시스템 단위로 업데이트되었습니다 . 여전히 /etc/init.d/nlserver6를 사용할 수 있지만, Adobe에서는 이제 nlserver 서비스와 상호 작용하기 위해 systemctl 명령을 사용하는 것을 권장합니다.
+[설치](../../installation/using/general-architecture.md),[프로덕션](../../production/using/foreword.md) 및 [구성](../../configuration/using/additional-parameters.md) 가이드는 nlserver 서비스 시작 시 사용하는 새 시스템 단위로 업데이트되었습니다 . 여전히 /etc/init.d/nlserver6를 사용할 수 있지만, Adobe에서는 이제 nlserver 서비스와 상호 작용하기 위해 systemctl 명령을 사용하는 것을 권장합니다.
 
-설치 가이드가 업데이트 및 최신 버전의 호환성 매트릭스와 동기화되었습니다. 지원되는 새 시스템이 추가되었습니다. 사용되지 않는 시스템 및 지원되지 않는 시스템에 대한 항목이 제거되었습니다. [자세한 내용](../../installation/using/before-reading.md)
+설치 가이드가 업데이트 및 최신 버전의 호환성 매트릭스와 동기화되었습니다. 지원되는 새 시스템이 추가되었습니다. 사용되지 않는 시스템 및 지원되지 않는 시스템에 대한 항목이 제거되었습니다. [자세한 내용](../../installation/using/general-architecture.md)
 
 호환성 매트릭스가 Hadoop 3.0 및 Snowflake FDA 커넥터로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
@@ -375,7 +375,7 @@ Adobe Campaign Classic에서 오퍼 카탈로그를 사용하는 방법에 대�
 
 사용의 예로 하위 워크플로우 활동 섹션이 향상되었습니다. [자세한 내용](../../workflow/using/sub-workflow.md)
 
-[Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html) 기술 자료 문서가 전자 메일 보관 관련 정보로 업데이트되었습니다.
+The [Campaign Classic On-premise &amp; Hosted capability matrix](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html) Knowledge base article has been updated with information relating to Email BCC.
 
 템플릿 게시에 대한 메모로 트랜잭션 메시지 설명서를 업데이트했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 
