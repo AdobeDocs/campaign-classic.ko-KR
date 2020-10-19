@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d65e6f48bd84a2342895beca4a4ac184b57bf7c3
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2188'
 ht-degree: 76%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 76%
 
 # 최신 릴리스{#latest-release}
 
-![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
+![](assets/do-not-localize/cp-icon.png) **CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 새로운 10월 Campaign 컨트롤 패널 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
 ## ![](assets/do-not-localize/blue_2.png) 릴리스 20.2.3 - 빌드 9182 {#release-20-2-3-build-9182}
 
@@ -57,6 +57,8 @@ _2020년 7월 22일_
 * 업그레이드 후 배달 준비를 차단하는 문제를 수정했습니다.
 * 새 시퀀스 ID 메커니즘으로 전환 [](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)후 받는 사람 테이블을 업데이트하는 모든 웹 응용 프로그램이 업그레이드 후 다시 게시됩니다.
 * 배달 컨텐츠의 잠재적 XSS 취약성 문제가 해결되었습니다. (NEO-17987, NEO-26073)
+
+![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
 ## ![](assets/do-not-localize/orange_2.png) 릴리스 20.2.1 - 빌드 9178 {#release-20-2-1-build-9178}
 
