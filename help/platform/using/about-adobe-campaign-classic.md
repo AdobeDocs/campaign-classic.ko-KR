@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 26ba32468bce3bbb1c52d225c8195977da4d7d54
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 99%
+source-wordcount: '899'
+ht-degree: 97%
 
 ---
 
@@ -37,6 +37,8 @@ Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플�
 Adobe Campaign의 마케팅 캠페인 주기는 제품의 주요 기능을 보여줍니다.
 
 ![](assets/d_ncs_user_emarketing.png)
+
+![](assets/do-not-localize/how-to-video.png) [비디오의 주요 기능 살펴보기](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html)
 
 ### Integrated customer profile {#integrated-customer-profile}
 
