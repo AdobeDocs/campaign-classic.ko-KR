@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: d06cc9c090e2ad8b72ce3192a26108ec213ba549
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '3695'
-ht-degree: 87%
+source-wordcount: '3731'
+ht-degree: 86%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 87%
 또한 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)에서 더 많은 업데이트를 확인할 수 있습니다.
 
 ## 2020년 10월 {#oct-2020}
+
+캠페인 보고 고급 기능 섹션이 사용자 지정 보고서에서 URL 매개 변수 및 변수를 사용하는 방법에 대해 자세히 설명하도록 개선되었습니다. [자세한 내용](../../reporting/using/advanced-functionalities.md)
+
+보고서 속성 페이지가 구성 편의를 위해 재구성되고 향상되었습니다. [자세한 내용](../../reporting/using/properties-of-the-report.md)
 
 기존 바이너리 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법에 대한 세부 사항이 포함된 새로운 기술 문서가 만들어졌습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
