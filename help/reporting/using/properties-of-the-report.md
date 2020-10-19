@@ -1,8 +1,6 @@
 ---
 title: 보고서의 속성
-seo-title: 보고서의 속성
-description: 보고서의 속성
-seo-description: null
+description: 보고서 속성 설정에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 56163f53-d115-45b8-94a5-c173ac4c6533
 contentOwner: sauviat
@@ -12,50 +10,50 @@ content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 5ec88743-be51-438c-9064-dd0196fdd7d3
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b0b9a0714075474bf52c3eed78d45bcef25b44fc
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 3%
+source-wordcount: '458'
+ht-degree: 1%
 
 ---
 
 
 # 보고서의 속성{#properties-of-the-report}
 
-## 개요 {#overview}
-
-필요에 맞게 보고서를 완벽하게 개인화하고 구성할 수 있습니다. 이렇게 하려면 해당 속성을 편집합니다. 보고서 속성은 활동 시퀀스 차트 위에 있는 속성 단추를 통해 액세스합니다.
+필요에 맞게 보고서를 완벽하게 개인화하고 구성할 수 있습니다. 이렇게 하려면 해당 속성을 편집합니다. 보고서 속성은 활동 시퀀스 차트 위 **[!UICONTROL Properties]** 의 단추를 통해 액세스합니다.
 
 ![](assets/s_ncs_advuser_report_properties_01.png)
 
-## 전체 속성 {#overall-properties}
+일반 속성은 아래에 설명되어 있습니다. 에 구성된 고급 기능 **[!UICONTROL Parameters]**&#x200B;과 탭 **[!UICONTROL Variables]** 은 이 섹션 **[!UICONTROL Scripts]** 에 설명되어 있습니다 [](../../reporting/using/advanced-functionalities.md).
 
-이 **[!UICONTROL General]** 탭에서는 보고서가 염려하는 레이블과 스키마를 보거나 변경할 수 있습니다. 이러한 요소는 보고서를 만드는 동안 입력됩니다.
+## 일반 속성 {#overall-properties}
 
-다음 사항을 변경하는 것이 권장되지 않습니다. **[!UICONTROL Internal name]** :보고서 액세스 URL에 사용됩니다.
+보고서 속성의 **[!UICONTROL General]** 탭에서 아래 나열된 설정을 편집할 수 있습니다.
 
-보고서 템플릿은 보고서를 만드는 동안 선택되므로 나중에 변경할 수 없습니다.
+* 보고서의 레이블과 내부 이름입니다. 보고서 **[!UICONTROL Internal name]** 최종 URL에 사용됩니다. 보고서 작성 후에는 변경할 수 없습니다.
 
-보고서가 염려하는 테이블을 변경하려면 필드 오른쪽에 있는 **[!UICONTROL Select link]** 아이콘을 **[!UICONTROL Document type]** 클릭합니다. 선택한 표에서 사용 가능한 필드를 보려면 아이콘을 **[!UICONTROL Magnifier]** 클릭합니다.
+* 보고서 **폴더** 가 보고서 작성 중에 선택됩니다. 사용자 지정 보고서에 대한 전용 폴더를 만들어 [내장 보고서와 혼합되지 않는 것이 좋습니다](../../reporting/using/about-campaign-built-in-reports.md).
 
-![](assets/s_ncs_advuser_report_properties_02.png)
+* 보고서 **를** 만들 때 저장소가 선택됩니다. 보고서의 데이터 테이블을 변경하려면 필드 오른쪽의 **[!UICONTROL Select link]** 아이콘을 **[!UICONTROL Document type]** 클릭합니다.
 
-## 보고서 액세스 가능성 {#report-accessibility}
+   ![](assets/s_ncs_advuser_report_properties_02.png)
 
-보고서는 Adobe Campaign 콘솔을 넘어 웹 브라우저를 통해 액세스할 수 있습니다. 이 경우, 아래와 같이 보고서 액세스 제어를 구성해야 할 수 있습니다.
+* Access **컨트롤** 매개 변수입니다. 이러한 설정은 아래에 설명되어 있습니다.
+
+## Controlling access to the report {#report-accessibility}
+
+보고서는 Adobe Campaign 콘솔 또는 웹 브라우저에서 액세스할 수 있습니다. 이 경우, 아래와 같이 보고서 액세스 제어를 구성해야 할 수 있습니다.
 
 ![](assets/s_ncs_advuser_report_properties_02b.png)
 
-전체 원칙은 다음과 같습니다.
+가능한 옵션은 다음과 같습니다.
 
-* 이 옵션은 보고서에 대한 무제한 액세스를 허용합니다 **[!UICONTROL Anonymous access]** . 하지만 조작은 불가능합니다.
+* **[!UICONTROL Anonymous access]**:이 옵션을 사용하면 보고서에 대한 무제한 액세스가 가능합니다. 하지만 조작은 불가능합니다.
 
-   기본(&#39;웹 앱&#39;) 보고서 연산자의 권한은 보고서 요소를 표시하는 데 사용됩니다.
+   &#39;webapp&#39; 기술 운영자의 권한은 보고서 요소를 표시하는 데 사용됩니다. 이 섹션 [에서 자세히 알아보십시오](../../platform/using/access-management.md#default-operators).
 
-* 이 **[!UICONTROL Access control]** 옵션을 사용하면 Adobe Campaign 연산자가 로그온한 후에 액세스할 수 있습니다.
-* 이 **[!UICONTROL Specific account]** 옵션을 사용하면 필드에서 연산자의 권한을 선택하여 보고서를 실행할 수 **[!UICONTROL Operator]** 있습니다.
-
-웹 양식 속성은 [이 페이지에 자세히 설명되어 있습니다](../../web/using/about-web-forms.md).
+* **[!UICONTROL Access control]**:이 옵션을 사용하면 Adobe Campaign 운영자가 로그온한 후에 액세스할 수 있습니다.
+* **[!UICONTROL Specific account]**:이 옵션을 사용하면 **[!UICONTROL Operator]** 필드에서 연산자의 권한을 사용하여 보고서를 실행할 수 있습니다.
 
 ## 보고서 로컬라이제이션 관리 {#managing-report-localization}
 
@@ -69,7 +67,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->자세한 내용은 [이 섹션의 해당 섹션을 참조하십시오](../../web/using/translating-a-web-form.md).
+>Campaign의 웹 페이지 현지화에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../web/using/translating-a-web-form.md).
 
 ## HTML 렌더링 개인화 {#personalizing-html-rendering}
 
@@ -80,60 +78,7 @@ ht-degree: 3%
 * 보고서 요소에 대한 레이블의 기본 위치입니다. 이 위치는 각 요소에 대해 오버로드될 수 있습니다.
 * 보고서 페이지를 생성하는 데 사용되는 템플릿 또는 테마입니다.
 
-웹 양식 속성은 [이 페이지에 자세히 설명되어 있습니다](../../web/using/about-web-forms.md).
-
 ![](assets/s_ncs_advuser_report_properties_08.png)
-
-## 추가 설정 정의 {#defining-additional-settings}
-
-이 **[!UICONTROL Parameters]** 탭에서는 보고서에 대한 추가 설정을 만들 수 있습니다.이러한 설정은 호출 중에 URL로 전달됩니다.
-
-웹 양식 속성은 [이 페이지에 자세히 설명되어 있습니다](../../web/using/about-web-forms.md).
-
->[!CAUTION]
->
->보안상의 이유로 이러한 매개 변수는 매우 신중하게 사용해야 합니다.
-
-새 설정을 만들려면:
-
-1. 단추를 **[!UICONTROL Add]** 클릭하고 설정 이름을 입력합니다.
-
-   ![](assets/s_ncs_advuser_report_properties_09a.png)
-
-1. 필요한 경우 설정이 필수인지 여부를 지정합니다.
-1. Select the type of setting you want to create: **[!UICONTROL Filter]** or **[!UICONTROL Variable]**.
-
-   이 **[!UICONTROL Filter entities]** 옵션을 사용하면 데이터베이스 필드를 매개 변수로 사용할 수 있습니다.
-
-   ![](assets/s_ncs_advuser_report_properties_09b.png)
-
-   데이터는 엔티티 수준에서 직접 복구됩니다. **ctx/recipient/@account**.
-
-   이 **[!UICONTROL Variable]** 옵션을 사용하면 URL의 매개 변수로 전달되고 필터에서 사용할 수 있는 변수를 만들거나 선택할 수 있습니다.
-
-이 **[!UICONTROL Response HTTP headers]** 를 사용하면 iframe을 사용하여 HTML 페이지에 보고서 페이지를 포함할 때 클릭재킹을 방지할 수 있습니다. 클릭재킹을 방지하려면 다음 동작을 선택할 수 **[!UICONTROL X-Frame-options header]** 있습니다.
-
-* **[!UICONTROL None]**:그 보고서는 없을 것이다 **[!UICONTROL X-Frame-options header]**.
-* **[!UICONTROL Same as origin]**:새 보고서 및 재게시된 보고서에 대해 기본적으로 설정됩니다. 호스트 이름은 보고서의 URL과 같습니다.
-* **[!UICONTROL Deny]**:iframe을 사용하여 HTML 페이지에 보고서를 포함할 수 없습니다.
-
-![](assets/s_ncs_advuser_report_properties_09c.png)
-
-## 변수 추가 {#adding-variables}
-
-이 **[!UICONTROL Variables]** 탭에는 보고서에 구성된 변수 목록이 포함되어 있습니다. 이러한 변수는 보고서 컨텍스트에서 노출되며 계산에 사용할 수 있습니다.
-
-단추를 **[!UICONTROL Add]** 클릭하여 새 변수를 만듭니다.
-
-변수의 정의를 보려면 해당 변수를 선택하고 **[!UICONTROL Detail...]** 단추를 클릭합니다.
-
-![](assets/s_ncs_advuser_report_properties_10.png)
-
-## 참조 스크립트 {#referencing-scripts}
-
-이 **[!UICONTROL Scripts]** 탭에서는 보고서 페이지가 호출될 때 클라이언트 및/또는 서버측에서 실행되는 JavaScript 코드를 참조할 수 있습니다.
-
-클라이언트측에서 정상적으로 실행하려면 참조된 스크립트가 JavaScript로 작성되어야 하며 대부분의 브라우저와 호환되어야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../web/using/web-forms-answers.md)을 참조하십시오.
 
 ## 오류 페이지 개인화 {#personalizing-the-error-page}
 
@@ -142,4 +87,3 @@ ht-degree: 3%
 텍스트를 정의하고 특정 식별자에 연결하여 보고서 현지화를 관리할 수 있습니다. 자세한 내용은 머리글 및 바닥글 [추가를 참조하십시오](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
 ![](assets/s_ncs_advuser_report_properties_11.png)
-
