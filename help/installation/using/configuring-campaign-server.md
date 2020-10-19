@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 7d0a00f4ef49a48014735de36786a48c31b76804
 workflow-type: tm+mt
 source-wordcount: '3587'
 ht-degree: 4%
@@ -592,7 +592,7 @@ Adobe Campaign 콘솔을 통해 액세스하는 경우 **해시** 또는 **고�
 
 ## 업로드 가능한 파일 제한 {#limiting-uploadable-files}
 
-새 속성 uploadAllowList를 **사용하면** Adobe Campaign 서버에서 업로드할 수 있는 파일 유형을 제한할 수 있습니다.
+새 속성 uploadWhiteList를 사용하면 Adobe Campaign 서버에서 업로드할 수 있는 파일 유형을 제한할 **** 수 있습니다.
 
 이 속성은 **serverConf.xml** **** 파일의 dataStore 요소 내에서 사용할 수 있습니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
 
@@ -600,7 +600,7 @@ Adobe Campaign 콘솔을 통해 액세스하는 경우 **해시** 또는 **고�
 
 가능한 형식을 제한하려면 속성 값을 유효한 java 정규 표현식으로 바꿔야 합니다. 여러 값을 쉼표로 구분하여 입력할 수 있습니다.
 
-예: **uploadAllowList=&quot;.*.png,*.jpg&quot;** 서버에서는 PNG 및 JPG 형식을 업로드할 수 있습니다. 다른 포맷은 허용되지 않습니다.
+예: **uploadWhiteList=&quot;.*.png,*.jpg&quot;** 서버에서는 PNG 및 JPG 형식을 업로드할 수 있습니다. 다른 포맷은 허용되지 않습니다.
 
 >[!IMPORTANT]
 >
