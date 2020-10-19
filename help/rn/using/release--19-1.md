@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '2638'
+source-wordcount: '2625'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,6 @@ _2020년 9월 15일_
 
 * nlsrvmod 충돌을 수정하기 위해 Apache 2.4 스레드 사용을 개선했습니다.
 * Azure 외부 계정 및 SSL 암호화와 함께 파일 전송 활동을 사용할 때 발생하는 문제를 수정했습니다. 연결이 HTTPS 대신 HTTP를 통해 수행되었습니다. (NEO-26720)
-* 배달 속성에서, 더 나은 사용자 경험을 위해 **[!UICONTROL Archive emails]** 옵션 이름 **[!UICONTROL Email BCC]** 이 변경되었습니다.
 * 레이블 또는 범주를 검색하지 못한 url 캐시 메커니즘의 문제를 수정했습니다.
 * 잘못된 ASCII 문자 컨트롤로 인해 이메일 배달에서 페이지 URL이 잘못 정의되던 문제를 수정했습니다. (NEO-26084)
 * catalina.properties의 jarToSkip 목록이 더 이상 사용되지 않은 jar 파일에 대한 참조를 제거하도록 업데이트되었습니다(iOS 알림).
