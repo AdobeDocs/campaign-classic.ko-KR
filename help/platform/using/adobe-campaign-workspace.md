@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 26ba32468bce3bbb1c52d225c8195977da4d7d54
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2147'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 # Adobe Campaign 작업 영역{#adobe-campaign-workspace}
 
-## About Adobe Campaign interface {#about-adobe-campaign-interface}
+## Adobe Campaign 인터페이스 살펴보기 {#about-adobe-campaign-interface}
 
 데이터베이스에 연결되면 대시보드인 Adobe Campaign 홈 페이지에 액세스합니다.이 단축키는 설치 및 일반 플랫폼 구성에 따라 기능에 액세스할 수 있는 링크와 단축키로 구성되어 있습니다.
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 ![](assets/d_ncs_user_interface_home.png)
 
-위 스크린샷은 Adobe Campaign 사용자를 위한 홈 페이지의 예입니다. 자세한 내용은 [Adobe Campaign 인터페이스 개요 비디오를 참조하십시오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html).
+![](assets/do-not-localize/how-to-video.png) [비디오에서 캠페인 작업 영역 검색](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Adobe Campaign 플랫폼은 콘솔 또는 인터넷 브라우저를 통해 액�
 
 ### 언어 {#languages}
 
-이 언어는 Adobe Campaign Classic 인스턴스를 설치할 때 선택되며 이후 변경할 수 없습니다. For more information on how to create an instance, refer to this [page](../../installation/using/creating-an-instance-and-logging-on.md).
+Adobe Campaign Classic 인스턴스를 설치할 때 해당 언어가 선택됩니다.
 
 ![](assets/language.png)
 
@@ -67,6 +67,12 @@ Adobe Campaign 플랫폼은 콘솔 또는 인터넷 브라우저를 통해 액�
 * 일본어
 
 Adobe Campaign Classic 인스턴스에 대해 선택한 언어는 날짜 및 시간 형식에 영향을 줄 수 있습니다. 자세한 정보는 이 [섹션](../../platform/using/adobe-campaign-workspace.md#date-and-time)을 참조하십시오.
+
+For more information on how to create an instance, refer to this [page](../../installation/using/creating-an-instance-and-logging-on.md).
+
+>[!CAUTION]
+>
+>인스턴스를 만든 후에는 언어를 변경할 수 없습니다.
 
 ## 탐색 기본 사항 {#navigation-basics}
 
@@ -174,9 +180,9 @@ Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 �
 
 ![](assets/s_ncs_user_configurelist_advancedparam.png)
 
-### 목록 구성 {#configuring-lists}
+## 목록 구성 {#configuring-lists}
 
-#### 열 추가 {#add-columns}
+### 열 추가 {#add-columns}
 
 두 가지 방법으로 목록에 열을 추가할 수 있습니다.
 
@@ -222,14 +228,14 @@ Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 �
 
 1. 구성 **[!UICONTROL OK]** 을 확인하고 결과를 표시하려면 을(를) 클릭합니다.
 
-#### 새 열 만들기 {#create-a-new-column}
+### 새 열 만들기 {#create-a-new-column}
 
 새 열을 만들어 목록에 추가 필드를 표시할 수 있습니다. 방법은 다음과 같습니다.
 
 1. 아래 **[!UICONTROL Configure the list]** 와 목록의 오른쪽에 있는 을 클릭합니다.
 1. 을 **[!UICONTROL Add]** 클릭하여 목록에 새 필드를 표시합니다.
 
-#### 열 제거 {#remove-a-column}
+### 열 제거 {#remove-a-column}
 
 아래 및 목록 오른쪽에 있는 레코드 목록에서 하나 이상의 열을 마스크 **[!UICONTROL Configure list]** 할 수 있습니다.
 
@@ -241,11 +247,11 @@ Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 �
 
 마스크할 각 열에 대해 반복합니다. 구성 **[!UICONTROL OK]** 을 확인하고 결과를 표시하려면 을(를) 클릭합니다.
 
-#### 열 너비 조정 {#adjust-column-width}
+### 열 너비 조정 {#adjust-column-width}
 
 목록이 활성 상태인 경우, 즉 한 개 이상의 줄을 선택한 경우 F9를 사용하여 모든 열을 화면에 표시할 수 있도록 열의 너비를 조정할 수 있습니다.
 
-#### 하위 폴더 레코드 표시 {#display-sub-folders-records}
+### 하위 폴더 레코드 표시 {#display-sub-folders-records}
 
 목록은 다음을 표시할 수 있습니다.
 
@@ -286,7 +292,7 @@ Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 �
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
-### 목록 내보내기 {#exporting-a-list}
+## 목록 내보내기 {#exporting-a-list}
 
 목록에서 데이터를 내보내려면 내보내기 마법사를 사용해야 합니다. 이 파일에 액세스하려면 목록에서 내보낼 요소를 선택하고 마우스 오른쪽 버튼을 클릭한 다음 선택합니다 **[!UICONTROL Export...]**.
 
@@ -296,7 +302,7 @@ Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 �
 >
 >목록의 요소는 복사/붙여넣기 기능을 사용하여 내보내면 안 됩니다.
 
-### 목록 정렬 {#sorting-a-list}
+## 목록 정렬 {#sorting-a-list}
 
 목록에는 대량의 데이터가 포함될 수 있습니다. 이러한 데이터를 정렬하거나 단순 또는 고급 필터를 적용할 수 있습니다. 정렬을 사용하면 데이터를 오름차순 또는 내림차순으로 표시할 수 있습니다. 필터를 사용하면 선택한 데이터만 표시하도록 기준을 정의하고 결합할 수 있습니다.
 
@@ -321,7 +327,7 @@ Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 �
 
 1. 이 구성 **[!UICONTROL Ok]** 을 확인하고 결과를 목록에 표시하려면 을(를) 클릭합니다.
 
-### 검색 실행 {#running-a-search}
+### 요소 검색 {#running-a-search}
 
 필드 목록 위에 있는 필드를 사용하여 편집기에서 사용 가능한 필드 **[!UICONTROL Search]** 를 검색할 수 있습니다. 키보드에서 **Enter** 키를 누르거나 목록을 찾습니다. 검색과 일치하는 필드에는 굵은 레이블이 표시됩니다.
 
@@ -388,4 +394,3 @@ Campaign을 설치할 때 언어가 선택되므로 나중에 변경할 수 없�
 * **[!UICONTROL d]** for days.
 
 ![](assets/enter_unit_sample.png)
-
