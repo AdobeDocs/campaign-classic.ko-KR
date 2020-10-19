@@ -1,8 +1,6 @@
 ---
 title: 고급 기능
-seo-title: 고급 기능
 description: 고급 기능
-seo-description: null
 page-status-flag: never-activated
 uuid: 4dbf4750-0226-4f96-98d8-ec49b20374ac
 contentOwner: sauviat
@@ -12,23 +10,49 @@ content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 0c264783-2775-4ec6-8d49-cd9a45a18d60
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 5%
+source-wordcount: '621'
+ht-degree: 3%
 
 ---
 
 
 # 고급 기능{#advanced-functionalities}
 
-## 스크립트 추가 {#adding-a-script}
+기술 사용자는 [일반 속성](../../reporting/using/properties-of-the-report.md)외에도 고급 기능을 활용하여 다음과 같은 보고서를 구성할 수 있습니다.
 
-### 스크립트 활동 {#script-activity}
+* 복잡한 쿼리를 만들어 **스크립트** 활동에서 데이터를 처리합니다. [자세히 알아보기](#script-activity)
 
-이 활동을 통해 데이터를 처리하고 SQL 언어를 사용하지 않는 복잡한 쿼리를 쉽게 만들 수 있습니다.
+* 서버나 클라이언트 쪽에서 실행할 외부 스크립트를 추가합니다. [자세히 알아보기](#external-script)
 
-스크립트 창에 쿼리를 입력하기만 하면 됩니다.
+* Jump **활동** 보고서 호출 [자세히 알아보기](#calling-up-another-report)
+
+* URL 매개 변수를 보고서에 추가하여 보다 쉽게 액세스할 수 있도록 합니다. [자세히 알아보기](#calling-up-another-report)
+
+* 보고서 컨텍스트에서 사용할 변수를 추가합니다. [자세히 알아보기](#adding-variables)
+
+## 스크립트 작업 {#adding-a-script}
+
+### 외부 스크립트 참조 {#external-script}
+
+보고서 페이지가 호출될 때 클라이언트 및/또는 서버측에서 실행되는 JavaScript 코드를 참조할 수 있습니다.
+
+방법은 다음과 같습니다.
+
+1. 보고서 [속성을](../../reporting/using/properties-of-the-report.md) 편집하고 을 **[!UICONTROL Scripts]**&#x200B;클릭합니다.
+1. 을 **[!UICONTROL Add]** 클릭하고 참조할 스크립트를 선택합니다.
+1. 그런 다음 실행 모드를 선택합니다.
+
+   여러 스크립트를 추가하는 경우 도구 모음의 화살표를 사용하여 실행 시퀀스를 정의합니다.
+
+   ![](assets/reporting_custom_js.png)
+
+클라이언트측에서 정상적으로 실행하려면 참조된 스크립트가 JavaScript로 작성되어야 하며 일반 브라우저와 호환되어야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../web/using/web-forms-answers.md)을 참조하십시오.
+
+### 스크립트 활동 추가 {#script-activity}
+
+보고서를 [디자인할](../../reporting/using/creating-a-new-report.md#modelizing-the-chart)때 **[!UICONTROL Script]** 활동을 사용하여 데이터를 처리하고 SQL 언어를 지원하지 않는 복잡한 쿼리를 쉽게 만듭니다. 스크립트 창에 쿼리를 직접 입력할 수 있습니다.
 
 이 **[!UICONTROL Texts]** 탭에서는 텍스트 문자열을 정의할 수 있습니다. 그런 다음 다음 다음 구문과 함께 사용할 수 있습니다. **$(식별자)**. 텍스트 사용에 대한 자세한 내용은 머리글 및 바닥글 [추가를 참조하십시오](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
@@ -42,22 +66,59 @@ ht-degree: 5%
 if( ctx.@_historyId.toString().length == 0 )
 ```
 
-그렇지 않으면 현재 데이터가 표시됩니다.
+그렇지 않으면 현재 데이터만 표시됩니다.
 
-### 외부 스크립트 {#external-script}
+## URL 매개 변수 추가 {#defining-additional-settings}
 
-서버 및/또는 클라이언트측에서 실행할 외부 스크립트를 사용할 수 있습니다. 방법은 다음과 같습니다.
+보고서 속성 **[!UICONTROL Parameters]** 탭 [](../../reporting/using/properties-of-the-report.md) 을 사용하면 보고서에 대한 추가 설정을 정의할 수 있습니다.이러한 설정은 호출 중에 URL로 전달됩니다.
 
-1. 보고서 속성을 편집하고 을 클릭합니다 **[!UICONTROL Scripts]**.
-1. 을 **[!UICONTROL Add]** 클릭하고 참조할 스크립트를 선택합니다.
-1. 그런 다음 실행 모드를 선택합니다.
+>[!CAUTION]
+>
+>보안상의 이유로 이러한 매개 변수는 매우 신중하게 사용해야 합니다.
 
-   여러 스크립트를 추가하는 경우 도구 모음의 화살표를 사용하여 실행 시퀀스를 정의합니다.
+새 설정을 만들려면:
 
-   ![](assets/reporting_custom_js.png)
+1. 단추를 **[!UICONTROL Add]** 클릭하고 설정 이름을 입력합니다.
+
+   ![](assets/s_ncs_advuser_report_properties_09a.png)
+
+1. 필요한 경우 설정이 필수인지 여부를 지정합니다.
+
+1. Select the type of setting you want to create: **[!UICONTROL Filter]** or **[!UICONTROL Variable]**.
+
+   이 **[!UICONTROL Filter entities]** 옵션을 사용하면 데이터베이스 필드를 매개 변수로 사용할 수 있습니다.
+
+   ![](assets/s_ncs_advuser_report_properties_09b.png)
+
+   데이터는 엔티티 수준에서 직접 복구됩니다. **ctx/recipient/@account**.
+
+   이 **[!UICONTROL Variable]** 옵션을 사용하면 URL의 매개 변수로 전달되고 필터에서 사용할 수 있는 변수를 만들거나 선택할 수 있습니다.
+
+이 **[!UICONTROL Response HTTP headers]** 를 사용하면 iframe을 사용하여 HTML 페이지에 보고서 페이지를 포함할 때 클릭재킹을 방지할 수 있습니다. 클릭재킹을 방지하려면 다음 동작을 선택할 수 **[!UICONTROL X-Frame-options header]** 있습니다.
+
+* **[!UICONTROL None]**:그 보고서는 없을 것이다 **[!UICONTROL X-Frame-options header]**.
+* **[!UICONTROL Same as origin]**:새 보고서 및 재게시된 보고서에 대해 기본적으로 설정됩니다. 호스트 이름은 보고서의 URL과 같습니다.
+* **[!UICONTROL Deny]**:iframe을 사용하여 HTML 페이지에 보고서를 포함할 수 없습니다.
+
+![](assets/s_ncs_advuser_report_properties_09c.png)
+
+## 변수 추가 {#adding-variables}
+
+이 **[!UICONTROL Variables]** 탭에는 보고서에 구성된 변수 목록이 포함되어 있습니다. 이러한 변수는 보고서 컨텍스트에서 노출되며 계산에 사용할 수 있습니다.
+
+단추를 **[!UICONTROL Add]** 클릭하여 새 변수를 만듭니다.
+
+변수의 정의를 보려면 해당 변수를 선택하고 **[!UICONTROL Detail...]** 단추를 클릭합니다.
+
+![](assets/s_ncs_advuser_report_properties_10.png)
+
+## 사용 사례:보고서에서 변수 및 매개 변수 사용
+
+아래 비디오 예에서, 이 속성의 값을 기준으로 &quot;_type&quot; 매개 변수를 추가하여 다른 보고서 보기를 만드는 방법을 알아봅니다.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://helpx.adobe.com/campaign/classic/how-to/add-url-parameter-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/business-practitioners/explevel/intermediate/applaunch/how-to-4/collection.ccx.js&amp;ref=helpx.adobe.com)
+
 
 ## 다른 보고서 호출 {#calling-up-another-report}
 
-### 점프 활동 {#jump-activity}
-
-점프란 화살표가 없는 전환과 같습니다.이를 통해 한 활동에서 다른 활동으로 이동하거나 다른 보고서에 액세스할 수 있습니다.
+점프 **활동은** 화살표가 없는 전환과 같습니다.이를 통해 한 활동에서 다른 활동으로 이동하거나 다른 보고서에 액세스할 수 있습니다.
