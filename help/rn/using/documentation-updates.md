@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
 workflow-type: tm+mt
-source-wordcount: '3731'
-ht-degree: 86%
+source-wordcount: '3764'
+ht-degree: 85%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 86%
 또한 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)에서 더 많은 업데이트를 확인할 수 있습니다.
 
 ## 2020년 10월 {#oct-2020}
+
+이제 캠페인 온-프레미스, 호스팅 및 하이브리드 호스팅 호스팅 모델에 대해 전용 섹션에 설명되어 있습니다. [자세한 내용](../../installation/using/hosting-models.md)
+
+호스팅 모델당 캠페인 기능 매트릭스가 업데이트 및 설치 안내서에서 이동되었습니다. [자세한 내용](../../installation/using/capability-matrix.md)
 
 캠페인 보고 고급 기능 섹션이 사용자 지정 보고서에서 URL 매개 변수 및 변수를 사용하는 방법에 대해 자세히 설명하도록 개선되었습니다. [자세한 내용](../../reporting/using/advanced-functionalities.md)
 
