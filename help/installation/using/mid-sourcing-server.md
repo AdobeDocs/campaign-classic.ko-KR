@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classic에 중간 소싱 서버 설치
-description: 이 섹션에서는 Adobe Campaign Classic에 있는 중간 소싱 서버의 설치 및 구성에 대해 자세히 설명합니다.
+title: 캠페인에 mid-sourcing 서버 설치
+description: 이 섹션에서는 Campaign에서 mid 소싱 서버의 설치 및 구성에 대해 자세히 설명합니다
 page-status-flag: never-activated
 uuid: 9b891a64-d75e-44d2-8de2-17334e1b8dca
 contentOwner: sauviat
@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 34ee3d99-4ffb-4279-b994-5ab7abc7cf06
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 270c86a8a15ebe38907be258aed9d245d2a49b6d
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '968'
 ht-degree: 0%
 
 ---
