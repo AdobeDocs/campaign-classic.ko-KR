@@ -8,10 +8,10 @@ product: adobe campaign
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
 workflow-type: tm+mt
-source-wordcount: '2130'
-ht-degree: 94%
+source-wordcount: '2124'
+ht-degree: 93%
 
 ---
 
@@ -590,21 +590,21 @@ ht-degree: 94%
       + [애플리케이션 서버](installation/using/application-server.md)
       + [메시징 서버](installation/using/messaging-server.md)
       + [네트워크 구성](installation/using/network-configuration.md)
-   + 배포 유형  {#deployment-types-}
+   + 배포 유형 {#deployment-types-}
       + [배포 유형 기본 정보](installation/using/about-deployment-types.md)
       + [독립형 배포](installation/using/standalone-deployment.md)
       + [표준 배포](installation/using/standard-deployment.md)
       + [엔터프라이즈 배포](installation/using/enterprise-deployment.md)
       + [중간 소싱 배포](installation/using/mid-sourcing-deployment.md)
       + [전원 부스터 및 전원 클러스터](installation/using/power-booster-and-power-cluster.md)
-   + Windows에서 Campaign 설치  {#installing-campaign-in-windows-}
-      + [Windows에서 Campaign 설치 사전 요구 사항](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+   + Windows 기반의 캠페인 {#installing-campaign-in-windows-}
+      + [Windows에서 Campaign 설치 전](installation/using/prerequisites-of-campaign-installation-in-windows.md)
       + [서버 설치](installation/using/installing-the-server.md)
       + [Windows용 웹 서버에 통합](installation/using/integration-into-a-web-server-for-windows.md)
       + [Windows용 클라이언트 콘솔 가용성](installation/using/client-console-availability-for-windows.md)
       + [클라이언트 콘솔 설치](installation/using/installing-the-client-console.md)
-   + Linux에서 캠페인 설치  {#installing-campaign-in-linux-}
-      + [Linux에서 캠페인 설치 사전 요구 사항](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+   + Linux 기반의 캠페인  {#installing-campaign-in-linux-}
+      + [Linux에 Campaign 설치 전](installation/using/prerequisites-of-campaign-installation-in-linux.md)
       + [Linux를 사용하여 패키지 설치](installation/using/installing-packages-with-linux.md)
       + [Linux용 웹 서버와 통합](installation/using/integration-into-a-web-server-for-linux.md)
       + [Linux용 클라이언트 콘솔 가용성](installation/using/client-console-availability-for-linux.md)
@@ -629,7 +629,7 @@ ht-degree: 94%
       + [Campaign 네트워크 엔드포인트](installation/using/campaign-network-endpoints.md)
       + [명령줄](installation/using/command-lines.md)
       + [새 인스턴스 만들기](installation/using/creating-new-instances.md)
-      + [Campaign Classic 옵션 목록](installation/using/configuring-campaign-options.md)
+      + [Campaign 옵션 목록](installation/using/configuring-campaign-options.md)
       + [Campaign 제거](installation/using/uninstalling-campaign.md)
 + Campaign Classic 모니터링 {#monitoring-campaign-classic}
    + 소개 {#introduction}
