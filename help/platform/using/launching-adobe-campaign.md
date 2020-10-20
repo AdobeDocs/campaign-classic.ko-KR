@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 87ad4d4fc69d75e4367e7467ce27de29f58f9445
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '501'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ Adobe Campaign을 선택하여 시작할 수 있습니다 **[!UICONTROL Start / 
 
 클라이언트 콘솔 연결 창을 사용하면 기존 데이터베이스를 선택하거나 구성하고 사용자 이름과 암호를 사용하여 데이터베이스에 연결할 수 있습니다.
 
-![](assets/acc-logon-screen.png)
+![](assets/s_ncs_user_login.png)
 
 ## Adobe Campaign 연결 중 {#connecting-to-adobe-campaign}
 
@@ -86,18 +86,18 @@ Adobe Campaign에서 연결을 끊으려면 아이콘 막대에서 첫 번째 �
 >
 >먼저 로그오프하지 않고 응용 프로그램을 닫을 수도 있습니다.
 
-## 캠페인 버전 가져오기 {#getting-your-campaign-version}
+## Adobe Campaign 버전 다운로드 {#getting-your-campaign-version}
 
 이 **[!UICONTROL Help > About...]** 메뉴를 통해 다음 정보에 액세스할 수 있습니다.
 
-* **버전** 번호
-* **빌드** 번호
+* **캠페인 클라이언트 콘솔 및 응용 프로그램 서버의 버전** 번호
+* **캠페인 클라이언트 콘솔 및 응용 프로그램 서버의 빌드** 번호
 * adobe 고객 지원 센터에 연락하는 링크
 * adobe 개인정보 보호정책, 사용 약관 및 쿠키 정책에 대한 링크
 
 ![](assets/about-acc.png)
 
-Adobe 지원 팀에 연락할 때마다 버전 번호와 Campaign 클라이언트 콘솔 및 애플리케이션 서버의 빌드 번호를 제공해야 합니다.
+Adobe 고객 지원 팀에 연락할 때마다 Campaign 클라이언트 콘솔 및 애플리케이션 서버의 버전 번호와 빌드 번호를 제공해야 합니다.
 
 Campaign Gold [Standard 버전에서](../../rn/using/gold-standard.md)실행 중인 경우 **[!UICONTROL About]** 상자에 표시된 SHA/1 문자도 공유해야 합니다. 예를 들어 Gold **Standard 10 릴리스의**&#x200B;경우 빌드 번호는 아래와 같이 **빌드 9032@efd8a94**&#x200B;으로 표시됩니다.
 
