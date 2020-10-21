@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 3175b9ab-e305-4f19-8267-d6172fa07a2a
 translation-type: tm+mt
-source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 3%
+source-wordcount: '332'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign은 3가지 호스팅 모델 중에서 선택할 수 있는 유연
 
 >[!NOTE]
 >
->Adobe 호스팅 환경의 경우 서버 구성 및 인스턴스 구성 파일 사용자 지정과 같은 Adobe에서만 기본 설치 및 구성 단계를 수행할 수 있습니다. 배포 모드 간의 주요 차이점에 대한 자세한 내용은 [이 문서를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html).
+>Adobe 호스팅 환경의 경우 서버 구성 및 인스턴스 구성 파일 사용자 지정과 같은 Adobe에서만 기본 설치 및 구성 단계를 수행할 수 있습니다. 배포 모드 간의 주요 차이점에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../installation/using/capability-matrix.md).
 
 * **Managed Services(호스팅)**
 
