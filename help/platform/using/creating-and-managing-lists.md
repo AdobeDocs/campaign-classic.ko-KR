@@ -1,8 +1,6 @@
 ---
 title: 목록 만들기 및 관리
-seo-title: 목록 만들기 및 관리
-description: 목록 만들기 및 관리
-seo-description: null
+description: 목록 생성 및 관리 방법 학습
 page-status-flag: never-activated
 uuid: 17d1a7d0-a728-490e-a820-19f469fddbcd
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: profile-management
 discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 8%
+source-wordcount: '791'
+ht-degree: 7%
 
 ---
 
@@ -139,7 +137,7 @@ Adobe Campaign 트리의 그룹 목록에서 하나 이상의 목록을 삭제�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-## 워크플로우를 통해 받는 사람 목록을 만드는 방법
+## How to create a list of recipients with a workflow {#create-list-in-a-wf-video}
 
 수신자를 타깃팅하기 위한 워크플로우를 만드는 방법과 이메일 타겟의 목록을 사용하기 전에 반복하는 방법을 알아봅니다.
 
