@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 8%
+source-wordcount: '707'
+ht-degree: 7%
 
 ---
 
@@ -136,7 +136,7 @@ SMTP 보고서는 도메인별 배달 통계 및 SMTP 오류를 표시합니다.
 **호스팅 모델 및 기능**
 
 * [Campaign Classic 호스팅 모델](../../installation/using/hosting-models.md)
-* [호스팅 모델 기능](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html)
+* [호스팅 모델 기능](../../installation/using/capability-matrix.md)
 
 **서버 구성**
 
