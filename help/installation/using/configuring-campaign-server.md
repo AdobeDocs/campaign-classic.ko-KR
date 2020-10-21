@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 translation-type: tm+mt
-source-git-commit: 7d0a00f4ef49a48014735de36786a48c31b76804
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '3587'
+source-wordcount: '3582'
 ht-degree: 4%
 
 ---
@@ -34,8 +34,8 @@ ht-degree: 4%
 
 * [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 * [호스팅 모델](../../installation/using/hosting-models.md)
-* [Campaign Classic 온프레미스 및 호스팅 기능 매트릭스](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html)
-* [하이브리드 및 호스팅 모델 구성 단계](../../installation/using/about-hybrid-and-hosted-models.md) )
+* [Campaign Classic 온프레미스 및 호스팅 기능 매트릭스](../../installation/using/capability-matrix.md)
+* [하이브리드 및 호스팅 모델 구성 단계](../../installation/using/hosting-models.md)
 
 Campaign Classic 구성 파일은 Adobe Campaign 설치 폴더의 **conf** 폴더에 저장됩니다. 구성은 다음 두 파일에 분산됩니다.
 
