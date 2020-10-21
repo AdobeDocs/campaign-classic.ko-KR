@@ -1,8 +1,6 @@
 ---
-title: 업그레이드
-seo-title: 업그레이드
-description: 업그레이드
-seo-description: null
+title: 새 빌드로 업그레이드
+description: 새로운 빌드로 업그레이드하는 기술 단계 학습
 page-status-flag: never-activated
 uuid: f24552d4-6bdf-411c-a1f2-b8f339c311f4
 contentOwner: sauviat
@@ -12,15 +10,15 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1136'
 ht-degree: 1%
 
 ---
 
 
-# 업그레이드{#upgrading}
+# 새 빌드로 업그레이드(온-프레미스){#upgrading}
 
 업그레이드 프로세스를 시작하기 전에 업그레이드할 Adobe Campaign 버전을 확인하고 [릴리스 노트를 참조하십시오](../../rn/using/latest-release.md) .
 
