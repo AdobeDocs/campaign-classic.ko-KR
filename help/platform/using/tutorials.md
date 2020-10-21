@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 677d631a075f50a80c9379fff0c17d3d06c7e803
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 15%
+source-wordcount: '399'
+ht-degree: 7%
 
 ---
 
@@ -42,18 +42,18 @@ Adobe의 직관적인 단계별 가이드를 통해 Adobe Campaign을 사용해 
 * [개요 만들기](../../web/using/use-cases--creating-overviews.md):데이터베이스의 모든 웹 애플리케이션을 표시하는 개요 유형 웹 애플리케이션을 만듭니다.
 * [워크플로우 활용 사례](../../workflow/using/about-workflow-use-cases.md):이러한 활용 사례를 통해 다양한 방식으로 워크플로우를 파악할 수 있습니다.
 
-## 사용법 비디오 {#how-to-videos}
+## 자조 {#how-to-videos}
 
-사용 방법 비디오를 시청하여 Adobe Campaign의 주요 기능을 살펴보십시오.
+제품 설명서 외에도 아래 나열된 캠페인 자체 도움말 리소스에 액세스할 수 있습니다.
 
-* [대상자 만들기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/creating-a-list-of-recipients.html):adobe campaign에서 대상을 만드는 방법을 알아봅니다.
-* [캠페인 및 이메일 만들기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html):adobe campaign에서 캠페인에서 이메일을 만드는 방법을 알아봅니다.
-* [받는 사람 목록 만들기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/creating-a-list-of-recipients.html):adobe campaign에서 워크플로우를 통해 받는 사람 목록 만들기
-* [타깃팅 워크플로우 만들기](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-targeting-workflow.html):받는 사람의 생일인 경우 워크플로우를 만들 수 있습니다.
-* [캠페인에서 워크플로우 만들기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/creating-a-workflow.html):캠페인에서 워크플로우를 만드는 방법을 알아봅니다.
-* [프로필 가져오기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/importing-profiles.html):adobe campaign의 파일에서 프로필을 가져오는 방법을 알아봅니다.
-* [인터페이스 개요](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html):adobe campaign 인터페이스에서 탐색하는 방법을 알아봅니다.
-* [e- 메일에서 시드 및 증거 자료 관리](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/managing-seed-and-proofs.html):adobe campaign에서 기존 이메일에 씨앗 및 교정을 추가하는 방법을 살펴볼 수 있습니다.
-* [Adobe Campaign 및 Microsoft Dynamics 365 통합](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/integrating/dynamics365-integration.html):CRM 커넥터 기능을 통해 Adobe Campaign 및 Microsoft Dynamics를 연결하고 동기화하는 방법을 알아봅니다.
+### 자습서 비디오
 
-짧은 비디오와 자세한 내용 외에도 웹 사이트에서 [교육 과정](https://learning.adobe.com/catalog.html) 및 [프레젠테이션 비디오를](https://www.adobe.com/training/video.html) 찾을 수 있습니다.
+비디오에서 Adobe Campaign의 주요 기능을 살펴볼 수 있습니다. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/overview.html)
+
+### 교육 세션 및 비디오
+
+이 짧은 비디오와 자세한 비디오 외에도 [교육 과정](https://learning.adobe.com/catalog.html) 을 살펴보고 Adobe.com에서 기능 [프레젠테이션 비디오를](https://www.adobe.com/training/video.html) 볼 수 있습니다.
+
+### Experience League 교육 과정
+
+Adobe Campaign Classic에 대한 [권장 강좌를](https://experienceleague.adobe.com/?lang=en#dashboard/learning) 방문할 수도 있습니다.과정은 기술과 지식을 빠르게 습득하는 데 도움이 되는 교과 모음을 전문적으로 선별하여 제공합니다.
