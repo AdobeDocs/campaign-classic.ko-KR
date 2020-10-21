@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 298d9b9f-220f-4862-bc4c-1ad7f8d51049
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 11%
+source-wordcount: '139'
+ht-degree: 8%
 
 ---
 
@@ -32,5 +32,5 @@ Adobe Campaign의 모듈식 설계로 단일 시스템의 모든 구성 요소(�
 >Adobe에서 호스팅하는 배포를 위한 Adobe 예를 들어
 >서버 및 인스턴스 구성 파일을 구성합니다.
 >
->배포 간의 주요 차이점에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 호스팅 및 온-프레미스 배포용 [기능 차이점 문서를](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html) 참조하십시오.
+>배포 간의 주요 차이점에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 호스팅 및 온-프레미스 배포의 [기능 차이점을 참조하십시오](../../installation/using/capability-matrix.md).
 
