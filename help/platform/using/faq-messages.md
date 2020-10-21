@@ -11,9 +11,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '740'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Adobe Campaign 내에서 메시지를 보내기 전에 테스트 및 유효성 �
 
 Adobe에서는 주요 대상으로 보내기 전에 승인 그룹에서 전달을 테스트하기 위하여 증명 메시지를 만드는 것을 강력히 권장합니다. 그런 다음 메시지 콘텐츠, 개인화 및 게재 매개 변수의 유효성을 검사할 수 있습니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). 또한 [이 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/managing-seed-and-proofs.html)를 볼 수 있습니다.
+[자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 ### Adobe Campaign에서 시드 주소를 사용하는 방법 {#how-to-use-seed-addresses-in-adobe-campaign-}
 
