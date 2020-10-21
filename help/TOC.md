@@ -8,9 +8,9 @@ product: adobe campaign
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
+source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
 workflow-type: tm+mt
-source-wordcount: '2124'
+source-wordcount: '2125'
 ht-degree: 93%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 93%
       + FAQ {#faq}
          + [일반적인 질문](platform/using/common-questions.md)
          + [주요 개념](platform/using/faq-key-concepts.md)
+         + [업그레이드 구축](platform/using/faq-build-upgrade.md)
          + [대상](platform/using/faq-audiences.md)
          + [메시지 디자인](platform/using/faq-designing.md)
          + [메시지 보내기](platform/using/faq-messages.md)
@@ -652,7 +653,8 @@ ht-degree: 93%
       + [데이터베이스 정리 워크플로우](production/using/database-cleanup-workflow.md)
    + Adobe Campaign 업데이트 {#updating-adobe-campaign}
       + [소개](production/using/introduction.md)
-      + [업그레이드](production/using/upgrading.md)
+      + [빌드 업그레이드 수행](production/using/build-upgrade.md)
+      + [업그레이드 절차(온-프레미스)](production/using/upgrading.md)
       + [유니코드로 전환](production/using/switching-to-unicode.md)
       + [마이그레이션 프로시저](production/using/migration-procedures.md)
    + 데이터베이스 유지 관리 {#database-maintenance}
@@ -754,8 +756,4 @@ ht-degree: 93%
       + [v5.11의 특정 구성](migration/using/specific-configurations-in-v5-11.md)
       + [v6.02의 특정 구성](migration/using/specific-configurations-in-v6-02.md)
       + [v6.10의 특정 구성](migration/using/specific-configurations-in-v6-10.md)
-   + 롤백 {#rollback}
-      + [롤백 기본 정보](migration/using/about-rollback.md)
-      + [v5.11 복원](migration/using/restoring-v5-11.md)
-      + [v6.02 복원](migration/using/restoring-v6-02.md)
-      + [v6.1 복원](migration/using/restoring-v6-1.md)
+   + [롤백 절차](migration/using/about-rollback.md)
