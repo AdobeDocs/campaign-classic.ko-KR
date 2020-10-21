@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '7857'
+source-wordcount: '7852'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
 
 >[!NOTE]
 >
->서버측 구성은 Adobe에 의해 호스팅되는 배포에 대해서만 Adobe에서 수행할 수 있습니다. 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 문서를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html). 호스팅 및 하이브리드 모델에 대한 설치 및 구성 단계는 이 [섹션에 나와 있습니다](../../installation/using/hosted-model.md).
+>서버측 구성은 Adobe에 의해 호스팅되는 배포에 대해서만 Adobe에서 수행할 수 있습니다. 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지를 참조하십시오](../../installation/using/capability-matrix.md). 호스팅 및 하이브리드 모델에 대한 설치 및 구성 단계는 이 [섹션에 나와 있습니다](../../installation/using/hosted-model.md).
 
 첫 번째 매개 변수는 **공유** 노드 내에 있습니다. 인스턴스와 관련이 있습니다. 이러한 명령은 모든 nlserver 명령(nlserver web, nlserver wfserver 등)에서 잠재적으로 사용됩니다. 다른 섹션은 특정 nlserver 하위 명령과 관련되어 있습니다.
 
