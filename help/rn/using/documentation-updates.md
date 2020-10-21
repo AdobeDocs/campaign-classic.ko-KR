@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '3764'
+source-wordcount: '3752'
 ht-degree: 85%
 
 ---
@@ -225,7 +225,7 @@ HTTP를 통한 FDA에 대한 제한이 트랜잭션 메시지 가이드에 추�
 
 URL 보고서 구성에 대한 새 매개 변수가 [여기](../../reporting/using/properties-of-the-report.md#defining-additional-settings)에 설명되어 있습니다.
 
-**Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스** 페이지가 새로운 FDA 커넥터로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html)
+**Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스** 페이지가 새로운 FDA 커넥터로 업데이트되었습니다. [자세한 내용](../../installation/using/capability-matrix.md).
 
 **Campaign Classic 기능 매트릭스** 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
@@ -379,7 +379,7 @@ Adobe Campaign Classic에서 오퍼 카탈로그를 사용하는 방법에 대�
 
 사용의 예로 하위 워크플로우 활동 섹션이 향상되었습니다. [자세한 내용](../../workflow/using/sub-workflow.md)
 
-The [Campaign Classic On-premise &amp; Hosted capability matrix](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html) Knowledge base article has been updated with information relating to Email BCC.
+온-프레미스 및 호스팅 기능 매트릭스 [](../../installation/using/capability-matrix.md) 페이지가 이메일 BCC와 관련된 정보로 업데이트되었습니다.
 
 템플릿 게시에 대한 메모로 트랜잭션 메시지 설명서를 업데이트했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 
