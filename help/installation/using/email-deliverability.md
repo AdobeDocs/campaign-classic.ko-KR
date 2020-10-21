@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 86c18986-1f65-40ff-80dc-1fbff37f406d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2975'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->일부 구성은 Adobe에서 호스팅되는 배포(예: 서버 및 인스턴스 구성 파일 액세스)에 대해서만 Adobe에서 수행할 수 있습니다. 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 문서를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html).
+>일부 구성은 Adobe에서 호스팅되는 배포(예: 서버 및 인스턴스 구성 파일 액세스)에 대해서만 Adobe에서 수행할 수 있습니다. 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지를 참조하십시오](../../installation/using/capability-matrix.md).
 
 전달 능력과 관련된 개념과 우수 사례에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../delivery/using/about-deliverability.md).
 
