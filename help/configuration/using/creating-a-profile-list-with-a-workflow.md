@@ -1,8 +1,6 @@
 ---
 title: 워크플로우를 사용하여 프로필 목록 만들기
-seo-title: 워크플로우를 사용하여 프로필 목록 만들기
-description: 워크플로우를 사용하여 프로필 목록 만들기
-seo-description: null
+description: 워크플로우에서 프로필 목록을 만드는 방법 살펴보기
 page-status-flag: never-activated
 uuid: a30f7217-fe82-4290-b1e6-e7a126a316c1
 contentOwner: sauviat
@@ -12,17 +10,23 @@ content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: ba42c3cf-31fc-4fbc-b230-a2b3982328c5
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 19%
+source-wordcount: '183'
+ht-degree: 7%
 
 ---
 
 
 # 워크플로우를 사용하여 프로필 목록 만들기{#creating-a-profile-list-with-a-workflow}
 
-새 수신자 테이블을 기반으로 **[!UICONTROL List]** 유형 목록을 만들려면 목록을 생성하는 타깃팅 워크플로우를 만들어야 합니다. Campaign의 목록에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign).
+새 수신자 테이블을 기반으로 **[!UICONTROL List]** 유형 목록을 만들려면 목록을 생성하는 타깃팅 워크플로우를 만들어야 합니다.
+
+Campaign의 목록에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign).
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](../../platform/using/creating-and-managing-lists.md#create-list-in-a-wf-video)
+
+타깃팅 워크플로우를 만들고 사용자 지정 수신자 테이블에서 수신자를 업데이트하려면 아래 단계를 따르십시오.
 
 1. 탐색기의 **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** 노드로 이동합니다.
 1. 새 타깃팅 워크플로우를 만듭니다.
@@ -46,7 +50,4 @@ ht-degree: 19%
 
    ![](assets/mapping_list_view.png)
 
->[!NOTE]
->
->수신자 목록 [만들기 비디오를 참조할 수도](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/creating-a-list-of-recipients.html) 있습니다.
 
