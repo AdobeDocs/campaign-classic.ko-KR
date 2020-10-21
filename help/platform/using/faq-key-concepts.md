@@ -11,10 +11,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 100%
+source-wordcount: '890'
+ht-degree: 95%
 
 ---
 
@@ -36,13 +36,13 @@ Adobe ID을 사용하여 Campaign Classic에 액세스하는 방법에 대한 [�
 
 ## Campaign의 버전은 무엇입니까? {#what-is-my-version-of-campaign-}
 
-Campaign 클라이언트 콘솔의 **도움말 > 정보...[메뉴에서 버전 및 빌드 번호](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)를** 확인합니다.
+Campaign 클라이언트 콘솔의 **도움말 > 정보...[ 메뉴에서 버전 및 빌드 번호](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)를** 확인합니다.
 
 ## 온프레미스 및 호스팅 환경에서 작업하는 경우의 차이점은 무엇입니까? {#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
 
-Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니다. 이러한 모듈 및 구성 가용성은 설치 [배포 유형](../../installation/using/hosting-models.md)이 호스팅(Managed Services)인지 또는 온프레미스인지에 따라 달라질 수 있습니다. 
+Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니다. The availability of these modules and their configuration can depend on the [type of deployment](../../installation/using/hosting-models.md) of your installation: hosted (Managed Services), hybrid or on-premise.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html).
+[자세한 내용을 보려면 여기를 클릭하십시오](../../installation/using/capability-matrix.md).
 
 ## 사용자 권한을 설정하려면 어떻게 해야 합니까? {#how-can-i-set-up-user-permissions-}
 
@@ -64,7 +64,9 @@ Adobe 서비스를 사용할 때 GDPR 준수를 위해 Adobe Campaign이 제공�
 
 ## 알아야 하는 Campaign 사용자 인터페이스 개념은 무엇입니까? {#what-are-campaign-user-interface-concepts-i-should-know-}
 
-Adobe Campaign 작업 영역의 기본 사항에 대한 자세한 내용은 [이 섹션을](../../platform/using/adobe-campaign-workspace.md) 참조하십시오. 또한 [이 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html)를 볼 수 있습니다.
+Adobe Campaign 작업 영역의 기본 사항에 대한 자세한 내용은 [이 섹션을](../../platform/using/adobe-campaign-workspace.md) 참조하십시오.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 캠페인 작업 영역 검색](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 ## 메시지 대상자를 선택하려면 어떻게 해야 합니까? {#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -84,7 +86,9 @@ Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체
 
 ## 첫 번째 전자 메일을 만들고 보내는 방법 {#how-to-create-and-send-a-first-email-}
 
-[자세한 내용을 살펴보려면 여기를 클릭](../../delivery/using/about-email-channel.md)하거나 [이 비디오를 시청](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)하여 캠페인에서 전자 메일을 만듭니다.
+[자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/about-email-channel.md).
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 방법 살펴보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
 ## SMS 메시지를 보내는 방법 {#how-to-send-sms-messages-}
 
