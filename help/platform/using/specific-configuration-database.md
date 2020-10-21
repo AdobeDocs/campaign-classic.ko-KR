@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1826'
 ht-degree: 3%
 
 ---
@@ -231,7 +231,7 @@ Debian에서 Azure 구문을 구성하려면:
 
 >[!NOTE]
 >
->[!DNL Snowflake] 커넥터는 호스팅 및 온-프레미스 배포에 사용할 수 있습니다. For more on this, refer to [this article](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html).
+>[!DNL Snowflake] 커넥터는 호스팅 및 온-프레미스 배포에 사용할 수 있습니다. 자세한 정보는 이 [페이지](../../installation/using/capability-matrix.md)를 참조하십시오.
 
 ![](assets/snowflake_3.png)
 
