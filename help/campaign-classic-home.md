@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 5e765777d79df28ae306d02512851b1b3f49018d
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 ## 새로운 기능
 
-* **[이모티콘](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>이제 메시지 및 제목 줄에 이모티콘을 삽입할 수 있습니다
+* **[이모티콘](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/> 이제 메시지 및 제목 줄에 이모티콘을 삽입할 수 있습니다
 
 * **[지원 받기](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)**<br/>&#x200B;액세스 FAQ, 모범 사례, 도움말 리소스 및 도움말 요청
 
@@ -26,7 +26,8 @@ ht-degree: 99%
 * **[추적 기능](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html)**<br/>
 Campaign의 추적 기능 및 프로세스 이해
 
-* **[AMP를 사용한 대화형 콘텐츠](delivery/using/defining-interactive-content.md)**<br/>새로운 AMP 포맷으로 다이내믹한 이메일을 전송하는 방법 학습
+* **[AMP를 사용한 대화형 콘텐츠](delivery/using/defining-interactive-content.md)**<br/>
+새로운 AMP 포맷으로 다이내믹한 이메일을 전송하는 방법 학습
 
 [업데이트를 더 보려면 여기를 클릭하십시오.](/help/rn/using/documentation-updates.md)
 
