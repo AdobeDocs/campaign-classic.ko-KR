@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: c886bd02-c484-443c-93ca-ca244adbf893
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
-source-wordcount: '4142'
-ht-degree: 1%
+source-wordcount: '4138'
+ht-degree: 0%
 
 ---
 
@@ -29,8 +29,8 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 >함수를 사용하여 데이터베이스 데이터와 매핑하지 않고 데이터를 가져올 수 **[!UICONTROL Import a list]** 있습니다.
 >
 >그런 다음 개체를 통해 워크플로우에서만 데이터를 사용할 수 **[!UICONTROL Read list]** 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/read-list.md)를 참조하십시오.
->
->자세한 내용은 프로필 [가져오기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/importing-profiles.html) 비디오를 참조하십시오.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/importing-profiles.html)
 
 ## 가져올 데이터 구조 {#structure-of-the-data-to-import}
 
