@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 12%
+source-wordcount: '195'
+ht-degree: 10%
 
 ---
 
@@ -38,5 +38,5 @@ Adobe Campaign은 외부 애플리케이션과 통신하고, 데이터베이스 
 
 >[!NOTE]
 >
->이러한 모듈 및 모듈의 사용 가능 여부는 설치 배포 유형에 따라 달라질 수 있습니다. 캠페인 [on-prem/hosted 기능 매트릭스를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html).
+>이러한 모듈 및 모듈의 사용 가능 여부는 설치 배포 유형에 따라 달라질 수 있습니다. 온프레미스 [캠페인 호스팅 기능 매트릭스를 참조하십시오](../../installation/using/capability-matrix.md).
 
