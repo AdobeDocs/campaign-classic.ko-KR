@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 15%
+source-wordcount: '578'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign provides the **Federated Data Access** (FDA) option in order to p
 
 >[!CAUTION]
 >
->FDA를 통해 외부 데이터베이스에 액세스하는 것은 Snowflake 커넥터를 사용하는 경우를 제외하고 온-프레미스 또는 하이브리드 설치에서만 가능합니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/acc-on-prem-vs-hosted.html)를 참조하십시오.
+>FDA를 통해 외부 데이터베이스에 액세스하는 것은 Snowflake 커넥터를 사용하는 경우를 제외하고 온-프레미스 또는 하이브리드 설치에서만 가능합니다. For more on this, refer [to this page](../../installation/using/capability-matrix.md).
 
 ## 운영 원칙 {#operating-principle}
 
