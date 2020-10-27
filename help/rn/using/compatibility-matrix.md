@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 877ca2275c9338377da9e435e070c9911314fe51
+source-git-commit: 9cff35424b389d0cc6adb8ce0ec81d3258ffb6ba
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '549'
 ht-degree: 13%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 13%
 
 이 문서에는 [Adobe Campaign Classic](../../rn/using/latest-release.md) 의 최신 빌드에 대해 지원되는 모든 시스템 및 구성 요소 **가 나와 있습니다**. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
 
-Gold Standard 사용자는
+Gold Standard 사용자인 경우 [Gold Standard 호환성 매트릭스를 참조하십시오](../../rn/using/compatibility-matrix-gs.md).
 
 ## 중요 정보{#important-notes}
 
