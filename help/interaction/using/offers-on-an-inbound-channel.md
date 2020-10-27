@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: case-study
 discoiquuid: 63245348-0402-4929-9c4f-71f01f97758e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '2093'
 ht-degree: 1%
@@ -79,7 +79,7 @@ ht-degree: 1%
        }   
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >렌더링 함수는 오퍼가 올바르게 표시되도록 이전에 선택한 순서대로 공간에 사용된 필드의 이름을 지정해야 합니다.
 
@@ -223,7 +223,7 @@ Neobank 회사는 두 개의 다른 대상에 대한 마케팅 오퍼를 만들�
 
    ![](assets/offer_inbound_fallback_example_025.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >렌더링 함수는 오퍼가 올바르게 표시되도록 이전에 선택한 순서대로 공간에 사용된 필드의 이름을 지정해야 합니다.
 
