@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: profile-management
 discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
 translation-type: tm+mt
-source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
+source-git-commit: 208bac758542db8dd514bda80c8c735897fcefec
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '789'
 ht-degree: 7%
 
 ---
@@ -142,9 +142,3 @@ Adobe Campaign 트리의 그룹 목록에서 하나 이상의 목록을 삭제�
 수신자를 타깃팅하기 위한 워크플로우를 만드는 방법과 이메일 타겟의 목록을 사용하기 전에 반복하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
-
-**자세한 내용은**
-
-* 
-
-* 
