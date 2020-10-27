@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: database-maintenance
 discoiquuid: b2219912-5570-45d2-8b52-52486e29d008
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 1%
@@ -369,7 +369,7 @@ function sqlGetMemo(strSql)
 
 >[!NOTE]
 >
->Microsoft SQL Server의 경우 이 페이지 [에 설명된 유지 관리 계획을 사용할 수 있습니다](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
+>Microsoft SQL Server의 경우 [이 페이지에 자세히 설명된 유지 관리 계획을 사용할 수 있습니다](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
 
 아래 예제는 Microsoft SQL Server 2005와 관련이 있습니다. 다른 버전을 사용하는 경우 데이터베이스 관리자에게 문의하여 유지 관리 절차에 대해 알아보십시오.
 
@@ -421,7 +421,7 @@ function sqlGetMemo(strSql)
 
    객체가 폴더에 생성되었음을 **[!UICONTROL SQL Server Agent > Jobs]** 참고하십시오. 이 개체를 사용하면 유지 관리 계획을 시작할 수 있습니다. 이 예에서는 모든 유지 관리 작업이 동일한 계획의 일부이므로 개체가 하나만 있습니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >이 개체를 실행하려면 Microsoft SQL Server 에이전트가 활성화되어 있어야 합니다.
 
