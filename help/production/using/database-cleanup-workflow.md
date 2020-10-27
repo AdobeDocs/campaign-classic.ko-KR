@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: data-processing
 discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
 translation-type: tm+mt
-source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '2910'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![](assets/ncs_cleanup_scheduler.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >워크플로우가 스케줄러에 정의된 날짜 및 시간에 **[!UICONTROL Database cleanup]** 시작되도록 워크플로우 엔진(wfserver)을 시작해야 합니다. 그렇지 않으면 다음 번에 워크플로 엔진이 시작될 때까지 데이터베이스 청소가 수행되지 않습니다.
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 워크플로우 스케줄러에서 정의된 날짜 및 시간(스케줄러 [](#the-scheduler)참조)에서 워크플로우 엔진은 데이터베이스 정리 프로세스를 시작합니다. 데이터베이스 정리는 데이터베이스에 연결하여 아래 표시된 시퀀스에서 작업을 실행합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이러한 작업 중 하나가 실패하면 다음 작업이 실행되지 않습니다.\
 >LIMIT 특성이 **있는** SQL 쿼리는 모든 정보가 처리될 때까지 반복적으로 실행됩니다.
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 또한 **[!UICONTROL Database cleanup]** 워크플로우는 중간 소싱 서버에서 납품도 삭제합니다.
 
-1. 이를 위해 워크플로우는 각 배달이 비활성(상태에 따라)인지 확인합니다. 게재가 활성 상태인 경우 삭제되기 전에 중단됩니다. 검사는 다음 쿼리를 실행하여 수행됩니다.
+1. 이를 위해 워크플로우는 각 게재가 비활성(상태에 따라)인지 확인합니다. 게재가 활성 상태인 경우 삭제되기 전에 중단됩니다. 검사는 다음 쿼리를 실행하여 수행됩니다.
 
    ```
    SELECT iState FROM NmsDelivery WHERE iDeliveryId = $(l) AND iState <> 100;
