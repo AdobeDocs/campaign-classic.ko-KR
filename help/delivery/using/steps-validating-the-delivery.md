@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1670'
 ht-degree: 5%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 1. **배달 분석**:이 단계에서는 전달할 메시지를 준비할 수 있습니다. 전달 [분석을 참조하십시오](#analyzing-the-delivery).
 
-   분석 중에 적용된 규칙은 [이 섹션](#validation-process-with-typologies) 섹션에 표시됩니다. 사용 가능한 유효성 검사 모드는 승인 모드 [변경 섹션에서](#changing-the-approval-mode) 자세히 설명합니다.
+   분석 중에 적용된 규칙이 [이 섹션에 표시됩니다](#validation-process-with-typologies). 사용 가능한 유효성 검사 모드는 승인 모드 [변경 섹션에서](#changing-the-approval-mode) 자세히 설명합니다.
 
 1. **증거 자료 전송**:이 단계에서는 컨텐츠, URL, 개인화 필드 등을 승인할 수 있습니다. 증명 [전송](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) 및 [특정 증명 대상 정의를 참조하십시오](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
