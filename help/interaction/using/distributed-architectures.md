@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 811a42a4-552c-49cb-bffd-7e124ef83735
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 오퍼 동기화는 패키지를 통해 수행됩니다. 실행 인스턴스의 경우 모든 카탈로그 개체가 외부 계정 이름으로 접두사로 추가됩니다. 즉, 동일한 실행 인스턴스에서 여러 제어 인스턴스(예: 개발 및 프로덕션 인스턴스)를 지원할 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >짧고 명시적인 내부 이름을 사용하는 것이 좋습니다.
 
@@ -112,7 +112,7 @@ ht-degree: 1%
 
 다음은 제어 인스턴스에서 사용할 수 있는 유지 관리 옵션 목록입니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이러한 옵션은 특정 유지 관리 케이스에만 사용해야 합니다.
 
@@ -128,7 +128,7 @@ ht-degree: 1%
 
 인스턴스에 이전에 상호 작용 패키지가 없는 경우 마이그레이션이 필요하지 않습니다. 기본적으로 패키지는 설치된 후 제안 테이블이 64비트로 표시됩니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >인스턴스에 있는 기존 속성의 볼륨에 따라 이 작업에 시간이 걸릴 수 있습니다.
 
