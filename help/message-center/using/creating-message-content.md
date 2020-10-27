@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: message-templates
 discoiquuid: 1f420652-c9af-4a49-8d5c-a640e960aced
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 트랜잭션 메시지 컨텐츠의 정의는 Adobe Campaign의 일반 배달과 동일합니다. 예를 들어 이메일 전달의 경우 HTML 또는 텍스트 형식의 컨텐츠를 만들거나 첨부 파일을 추가하거나 전달 개체를 개인화할 수 있습니다. 자세한 내용은 [이메일 전달](../../delivery/using/about-email-channel.md)장을 참조하십시오.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >메시지에 포함된 이미지는 공개적으로 액세스할 수 있어야 합니다. Adobe Campaign은 트랜잭션 메시지에 대한 이미지 업로드 메커니즘을 제공하지 않습니다.\
 >JSSP 또는 webApp과 달리 기본 이스케이프도 `<%=` 없습니다.
