@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3e73d7c91fbe7cff7e1e31bdd788acece5806e61
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 3%
+source-wordcount: '901'
+ht-degree: 2%
 
 ---
 
@@ -23,147 +23,142 @@ ht-degree: 3%
 # 파이프라인 구성 {#configuring-pipeline}
 
 고객 ID, 개인 키 및 인증 끝점과 같은 인증 매개 변수가 인스턴스 구성 파일에 구성됩니다.
-처리할 트리거 목록은 옵션으로 구성됩니다. JSON 형식입니다.
-Javascript 코드를 사용하여 트리거가 즉시 처리됩니다. 더 이상 실시간으로 처리되지 않고 데이터베이스 테이블에 저장됩니다.
+처리할 트리거 목록은 JSON 형식의 옵션으로 구성됩니다.
 트리거는 이메일을 전송하는 캠페인 워크플로우의 타깃팅에 사용됩니다. 두 개의 트리거 이벤트가 있는 고객이 이메일을 받을 수 있도록 캠페인이 설정됩니다.
+
+>[!CAUTION]
+>
+>하이브리드 배포의 경우 파이프라인이 중간 인스턴스에 구성되어 있는지 확인합니다.
 
 ## 사전 요구 사항 {#prerequisites}
 
 캠페인 [!DNL Experience Cloud Triggers] 에서 사용하려면 다음이 필요합니다.
 
-* Adobe Campaign 버전 6.11 빌드 8705 이상
-* Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select 또는 Standard.
+* Adobe Campaign 19.1.9 버전 또는 20.3.1 이상.
+* Analytics Standard 버전.
 
 사전 요구 사항 구성은 다음과 같습니다.
 
-* 개인 키 파일을 만든 다음 해당 키로 등록된 oAuth 응용 프로그램 만들기를 참조하십시오.
+* Adobe IO 프로젝트 인증
+* Adobe Analytics과 함께 있는 Experience Cloud 고객의 식별자인 IMSOrgId입니다.
+* 프로비저닝 팀은 고객의 IMS 조직에 대한 시스템 관리자 권한이 있어야 합니다.
 * Adobe Analytics의 트리거 구성
-
-Adobe Analytics 구성이 이 문서의 범위를 벗어났습니다.
-
-Adobe Campaign의 경우 다음과 같은 정보가 필요합니다.
-
-* oAuth 응용 프로그램의 이름입니다.
-* Experience Cloud 고객의 식별자입니다.
-* Analytics에 구성된 트리거의 이름.
-* 마케팅 데이터베이스와 대사할 데이터 필드의 이름 및 형식.
-
-이 구성의 일부는 사용자 정의 개발이며 다음을 필요로 합니다.
-
-* Adobe Campaign의 JSON, XML 및 Javascript 구문 분석에 대한 작업 지식
-* QueryDef 및 Writer API에 대한 작업 지식
-* 개인 키를 사용한 암호화 및 인증 작업
-
->[!NOTE]
->
->JS 코드를 편집하려면 기술 기술이 필요하므로 제대로 이해하지 않으면 시도하지 마십시오. <br>트리거는 데이터베이스 테이블에 저장됩니다. 따라서 트리거 데이터는 타깃팅 워크플로우에서 마케팅 운영자가 안전하게 사용할 수 있습니다.
 
 ## 인증 및 구성 파일 {#authentication-configuration}
 
 파이프라인이 Adobe Experience Cloud에서 호스팅되므로 인증이 필요합니다.
-Marketing Server가 온-프레미스에서 호스팅되는 경우 파이프라인에 로그인할 때 보안 연결을 갖도록 인증해야 합니다.
-공개 및 개인 키를 사용합니다. 이 프로세스는 사용자/암호와 동일한 기능으로 보안이 강화됩니다.
+공개 및 개인 키를 사용합니다. 이 프로세스는 사용자/암호와 동일한 기능을 하지만 더 안전합니다.
+Adobe IO 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩니다.
 
-### IMSOrgId {#imsorgid}
+## 1단계:Adobe IO 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
 
-IMSOrgId는 Adobe Experience Cloud에 있는 고객의 식별자입니다.
-IMSOrgId 속성 아래의 인스턴스 serverConf.xml 파일에서 설정합니다.
-예제:
+호스팅 고객의 경우 고객 지원 티켓을 만들어 트리거 통합을 위한 Adobe IO 기술 계정 토큰으로 조직을 활성화할 수 있습니다.
+
+온-프레미스 고객의 경우 Adobe Experience Cloud 트리거를 [위한 Adobe IO 구성 페이지를](../../integrations/using/configuring-adobe-io.md) 참조하십시오. Adobe IO 자격 증명에 API를 추가하는 **[!UICONTROL Adobe Analytics]** 동안 선택해야 합니다.
+
+## 2단계:NmsPipeline_Config 파이프라인 구성 옵션 {#configuring-nmspipeline}
+
+인증이 설정되면 파이프라인이 이벤트를 검색합니다. Adobe Campaign에 구성된 트리거를 처리합니다. 트리거가 Adobe Analytics에서 생성되어 파이프라인으로 푸시되어 Adobe Campaign에 구성된 트리거를 처리하도록 해야 합니다.
+이름에 관계없이 모든 트리거를 잡기 위해 이 옵션을 와일드카드로 구성할 수도 있습니다.
+
+1. Adobe Campaign에서 의 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 아래에 있는 옵션 메뉴 **[!UICONTROL Explorer]**&#x200B;에 액세스합니다.
+
+1. 옵션을 **[!UICONTROL NmsPipeline_Config]** 선택합니다.
+
+1. 이 **[!UICONTROL Value (long text)]** 필드에 두 개의 트리거를 지정하는 다음 JSON 코드를 붙여넣을 수 있습니다. 주석을 제거해야 합니다.
+
+   ```
+   {
+   "topics": [ // list of "topics" that the pipelined is listening to.
+      {
+           "name": "triggers", // Name of the first topic: triggers.
+           "consumer": "customer_dev", // Name of the instance that listens.  This value can be found on the monitoring page of Adobe Campaign.
+           "triggers": [ // Array of triggers.
+               {
+                   "name": "3e8a2ba7-fccc-49bb-bdac-33ee33cf02bf", // TriggerType ID from Analytics 
+                   "jsConnector": "cus:triggers.js" // Javascript library holding the processing function.
+               }, {
+                   "name": "2da3fdff-13af-4c51-8ed0-05802a572e94", // Second TriggerType ID 
+                   "jsConnector": "cus:triggers.js" // Can use the same JS for all.
+               },
+           ]
+       }
+   ]
+   }
+   ```
+
+1. 또한 모든 트리거를 캡처하는 다음 JSON 코드를 붙여넣을 수도 있습니다.
+
+   ```
+   {
+   "topics": [
+     {
+       "name": "triggers",
+       "consumer":  "customer_dev",
+       "triggers": [
+         {
+           "name": "*",
+           "jsConnector": "cus:pipeline.js"
+         }
+       ]
+     }
+   ]
+   }
+   ```
+
+### Consumer 매개 변수 {#consumer-parameter}
+
+파이프라인은 공급자와 소비자 모델과 같은 역할을 합니다. 메시지는 개별 소비자만 사용됩니다.각각의 소비자는 그 메시지들의 자체 사본을 받습니다.
+
+Consumer **매개** 변수는 인스턴스를 이러한 소비자 중 하나로 식별합니다. 인스턴스의 ID가 파이프라인을 호출합니다. 클라이언트 콘솔의 모니터링 페이지에서 찾을 수 있는 인스턴스 이름으로 입력할 수 있습니다.
+
+파이프라인 서비스는 각 소비자가 검색한 메시지를 추적합니다. 여러 인스턴스에 대해 서로 다른 소비자를 사용하면 각 인스턴스에 모든 메시지가 전송되도록 할 수 있습니다.
+
+### 파이프라인 옵션 추천 {#pipeline-option-recommendation}
+
+파이프라인 옵션을 구성하려면 다음 권장 사항을 따라야 합니다.
+
+* 아래에서 트리거를 추가하거나 편집하면 안 **[!UICONTROL Triggers]**&#x200B;됩니다.
+* JSON이 유효한지 확인하십시오. JSON 유효성 검사기를 사용할 수 있습니다. 예를 들어 이 [웹 사이트를](http://jsonlint.com/) 참조하십시오.
+* &quot;name&quot;은 트리거 ID에 해당합니다. 와일드카드 &quot;*&quot;는 모든 트리거를 검색합니다.
+* &quot;소비자&quot;는 호출 인스턴스 또는 응용 프로그램의 이름에 해당합니다.
+* 또한 피펜드된 &quot;별칭&quot; 주제도 지원합니다.
+* 변경한 후에는 항상 파이프라인을 다시 시작해야 합니다.
+
+## 3단계:선택적 구성 {#step-optional}
+
+로드 요구 사항에 따라 일부 내부 매개 변수를 변경할 수 있지만 프로덕션에 적용하기 전에 반드시 테스트해야 합니다.
+
+선택적 매개 변수 목록은 아래에서 확인할 수 있습니다.
+
+| 옵션 | 설명 |
+|:-:|:-:|
+| appName(기존) | 공개 키가 업로드된 기존 Authit 응용 프로그램에 등록된 OAuth 응용 프로그램의 AppID입니다. 자세한 정보는 이 [페이지](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md.)를 참조하십시오 |
+| authGatewayEndpoint(레거시) | 게이트웨이 토큰을 가져오기 위한 URL. 기본값: ```https://api.omniture.com``` |
+| authPrivateKey(이전) | 개인 키, 기존 선서 응용 프로그램에 업로드된 공개 부분, XtkKey 옵션을 사용하여 AES가 암호화됨: ```cryptString("PRIVATE_KEY")``` |
+| disableAuth(이전) | 인증 비활성화. 게이트웨이 토큰 없이 연결하는 것은 일부 개발 파이프라인 끝점에서만 허용됩니다. |
+| discoverPipelineEndpoint | 이 테넌트에 사용할 파이프라인 서비스 끝점을 찾는 URL입니다. 기본값: ```https://producer-pipeline-pnw.adobe.net``` |
+| dumpStatePeriodSec | 내부 상태에서 두 개의 내부 상태 프로세스 ```var/INSTANCE/pipelined.json.``` 사이 <br> 의 기간 역시 On-Demand로 액세스할 수 있습니다. ```http://INSTANCE:7781/pipelined/status``` |
+| forcedPipelineEndpoint | PipelineServicesEndpoint의 검색을 비활성화하여 강제 적용 |
+| monitorServerPort | 이 포트에서는 파이프라인 프로세스를 듣고 내부 상태 프로세스를 제공합니다. ```http://INSTANCE:PORT/pipelined/status```. <br>기본값은 7781입니다. |
+| 포인터FlushMessageCount | 이 수의 메시지가 처리되면 오프셋은 데이터베이스에 저장됩니다. <br> 기본값은 1000입니다. |
+| 포인터FlushPeriodSec | 이 기간이 지나면 옵셋이 데이터베이스에 저장됩니다. <br>기본값은 5초입니다. |
+| processingJSThreads | 사용자 지정 JS 커넥터를 사용하는 전용 스레드 처리 메시지 수입니다. <br> 기본값은 4입니다. |
+| processingThreads | 내장 코드가 있는 전용 스레드 처리 메시지 수입니다. <br>기본값은 4입니다. |
+| retryPeriodSec | 처리 오류 시 재시도 사이의 지연. <br>기본값은 30초입니다. |
+| retryValiditySec | 이 기간 이후에 처리되지 않으면 메시지를 취소합니다(너무 많은 재시도). <br>기본값은 300초입니다. |
+
+### 파이프라인 프로세스 자동 시작 {#pipelined-process-autostart}
+
+피선된 프로세스는 자동으로 시작해야 합니다.
+
+이렇게 하려면 구성 파일의 &lt; pipeline > 요소를 autostart=&quot;true&quot;로 설정합니다.
 
 ```
-<redirection IMSOrgId="C5E715(…)98A4@AdobeOrg" (…)
+ <pipelined autoStart="true" ... "/>
 ```
 
-### 키 생성 {#key-generation}
-
-열쇠는 파일 한 쌍이다. RSA 포맷이고 길이가 4096바이트입니다. OpenSSL과 같은 오픈 소스 도구를 사용하여 생성할 수 있습니다. 도구가 실행될 때마다 새 키가 무작위로 생성됩니다.
-편의를 위해 이 단계는 다음과 같습니다.
-
-* ```openssl genrsa -out <private_key.pem> 4096```
-
-* ```openssl rsa -pubout -in <private_key.pem> -out <public_key.pem>```
-
-private_key.pem 파일 예:
-
-```
-----BEGIN RSA PRIVATE KEY----
-MIIEowIBAAKCAQEAtqcYzt5WGGABxUJSfe1Xy8sAALrfVuDYURpdgbBEmS3bQMDb
-(…)
-64+YQDOSNFTKLNbDd+bdAA+JoYwUCkhFyvrILlgvlSBvwAByQ2Lx
-----END RSA PRIVATE KEY----
-```
-
-public_key.pem 파일 예:
-
-```
-----BEGIN PUBLIC KEY----
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtqcYzt5WGGABxUJSfe1X
-(…)
-EwIDAQAB
-----END PUBLIC KEY----
-```
-
->[!NOTE]
->
->PuttyGen에서 키를 생성하지 않아야 합니다. OpenSSL이 가장 적합합니다.
-
-### adobe experience cloud에서 oAuth 클라이언트 생성 {#oauth-client-creation}
-
-JWT 유형의 응용 프로그램은 **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > 아래의 올바른 조직 계정에서 Adobe Analytics에 로그인하여 만들어야 합니다 **[!UICONTROL Legacy Oath application]**.
-
-다음 단계를 따르십시오.
-
-1. **[!UICONTROL Service Account (JWT Assertion)]**&#x200B;을(를) 선택합니다.
-1. 를 **[!UICONTROL Application Name]**&#x200B;입력합니다.
-1. 등록하십시오 **[!UICONTROL Public key]**.
-1. 트리거 항목을 선택합니다 **[!UICONTROL Scopes]**.
-
-   ![](assets/triggers_5.png)
-
-1. 아이콘을 **[!UICONTROL Create]** 클릭하고 **[!UICONTROL Application ID]** 만든 후 **[!UICONTROL Application Secret]** 만듭니다.
-
-   ![](assets/triggers_6.png)
-
-### Adobe Campaign Classic의 응용 프로그램 이름 등록 {#application-name-registration}
-
-생성된 oAuth 클라이언트의 응용 프로그램 ID는 Adobe Campaign에서 구성해야 합니다. 요소의 인스턴스 구성 파일, 특히 appName 속성을 편집하여 [!DNL pipelined] 수행할 수 있습니다.
-
-예제:
-
-```
-<pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
-```
-
-### 키 암호화 {#key-encription}
-
-개인 키를 암호화해야 [!DNL pipelined]합니다. 암호화는 cryptString Javascript 함수를 사용하여 수행되며 동일한 인스턴스에서 수행해야 합니다 [!DNL pipelined].
-
-이 [페이지에서 JavaScript를 사용한 개인 키 암호화 샘플을 사용할 수 있습니다](../../integrations/using/pipeline-troubleshooting.md).
-
-암호화된 개인 키는 Adobe Campaign에 등록되어 있어야 합니다. 요소의 인스턴스 구성 파일, 특히 authPrivateKey 속성을 편집하여 [!DNL pipelined] 수행할 수 있습니다.
-
-예제:
-
-```
-<pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
-```
-
-### 파이프라인 프로세스 자동 시작 {#pipelined-auto-start}
-
-이 [!DNL pipelined] 프로세스는 자동으로 시작되어야 합니다.
-이렇게 하려면 구성 파일의 요소를 autostart=&quot;true&quot;로 설정합니다.
-
-```
-<pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
-```
-
-### 파이프라인 프로세스 다시 시작 {#pipelined-restart}
-
-또한 명령줄을 사용하여 수동으로 시작할 수도 있습니다.
-
-```
-nlserver start pipelined@instance
-```
+### 파이프라인 프로세스 다시 시작 {#pipelined-process-restart}
 
 변경 사항을 적용하려면 다시 시작해야 합니다.
 
@@ -171,23 +166,10 @@ nlserver start pipelined@instance
 nlserver restart pipelined@instance
 ```
 
-오류가 발생하면 표준 출력(수동으로 시작한 경우) 또는 [!DNL pipelined] 로그 파일에서 오류를 찾습니다. 문제 해결에 대한 자세한 내용은 이 문서의 문제 해결 섹션을 참조하십시오.
+## 4단계:유효성 검사 {#step-validation}
 
-### 파이프라인 구성 옵션 {#pipelined-configuration-options}
+프로비전을 위한 파이프라인 설정의 유효성을 확인하려면 아래 단계를 따르십시오.
 
-| 옵션 | 설명 |
-|:-:|:-:|
-| appName | Adobe Analytics에 등록된 OAuth 응용 프로그램(응용 프로그램 ID)의 ID(공개 키가 업로드된 경우):관리 > 사용자 관리 > 기존 선서 응용 프로그램. Refer to this [section](../../integrations/using/configuring-pipeline.md#oauth-client-creation). |
-| authGatewayEndpoint | &quot;게이트웨이 토큰&quot;을 가져오기 위한 URL. <br> 기본값: https://api.omniture.com |
-| authPrivateKey | 개인 키(Adobe Analytics에 업로드된 공개 부분(이 섹션 참조). XtkSecretKey 옵션을 사용하여 암호화된 AES: xtk.session.EncryptPassword(&quot;PRIVATE_KEY&quot;); |
-| disableAuth | 인증 비활성화(게이트웨이 토큰 없이 연결하는 것은 일부 개발 파이프라인 끝점에서만 허용됨) |
-| discoverPipelineEndpoint | 이 테넌트에 사용할 파이프라인 서비스 끝점을 검색하는 URL입니다. 기본값: https://producer-pipeline-pnw.adobe.net |
-| dumpStatePeriodSec | var/INSTANCE/pipelined.json의 프로세스 내부 상태를 2번 덤프할 때의 기간 내역은 http://INSTANCE/pipelined/status에서 온디맨드(포트 7781)에 액세스할 수 있습니다. |
-| forcedPipelineEndpoint | PipelineServicesEndpoint의 검색을 비활성화하고 강제 적용 |
-| monitorServerPort | 이 [!DNL pipelined] 프로세스는 http://INSTANCE/pipelined/status에서 프로세스 내부 상태를 제공하기 위해 이 포트를 수신합니다(포트 7781). |
-| 포인터FlushMessageCount | 이 수의 메시지가 처리되면 오프셋이 데이터베이스에 저장됩니다. 기본값은 1000입니다. |
-| 포인터FlushPeriodSec | 이 기간이 지나면 옵셋이 데이터베이스에 저장됩니다. 기본값은 5초입니다. |
-| processingJSThreads | 사용자 지정 JS 커넥터를 사용하는 전용 스레드 처리 메시지 수입니다. 기본값은 4입니다. |
-| processingThreads | 내장 코드가 있는 전용 스레드 처리 메시지 수입니다. 기본값은 4입니다. |
-| retryPeriodSec | 재시도 간 지연(처리 오류가 있는 경우). 기본값은 30초입니다. |
-| retryValiditySec | 이 기간 이후에 처리되지 않으면 메시지를 취소합니다(너무 많은 재시도). 기본값은 300초입니다. |
+* 프로세스가 실행되고 있는지 [!DNL pipelined] 확인합니다.
+* pipeline.log에서 파이프라인 연결 로그를 확인합니다.
+* 연결 및 메시지가 수신되었는지 확인합니다. 호스팅된 고객은 클라이언트 콘솔에서 모니터링을 사용할 수 있습니다.
