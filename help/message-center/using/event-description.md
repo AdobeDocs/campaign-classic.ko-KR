@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: 3c8388d8-1a91-4d16-a8ac-016f643c6009
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 1%
@@ -164,7 +164,7 @@ PushEvents 사용 예:
 
 이벤트를 수신하면 Adobe Campaign은 고유한 반환 ID를 생성합니다. 보관된 이벤트 버전의 ID입니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >SOAP 호출을 받을 때 Adobe Campaign은 이메일 주소 형식을 확인합니다. 이메일 주소 형식이 잘못된 경우 오류가 반환됩니다.
 
