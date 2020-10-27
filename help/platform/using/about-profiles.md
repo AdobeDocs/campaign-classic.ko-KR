@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: profile-management
 discoiquuid: 5addada8-0185-488f-9825-83f60981c139
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 208bac758542db8dd514bda80c8c735897fcefec
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -122,7 +122,7 @@ Campaign Standard **[!UICONTROL Number of active profiles]** **[!UICONTROL Admin
 
 **자세한 내용은**
 
-* [캠페인의 개인 정보 보호](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html)
+* [캠페인의 개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html)
 
 * [타겟 모집단 정의](../../delivery/using/define-the-right-audience.md)
 
