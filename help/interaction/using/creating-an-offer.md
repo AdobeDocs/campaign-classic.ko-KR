@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 010c88f4-9444-448f-bb7b-7191517d2e23
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '806'
 ht-degree: 2%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 2%
 
    ![](assets/offer_weight_create_006.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >가중치를 입력하지 않은 경우(0) 타겟이 오퍼에 적합하지 않은 것으로 간주됩니다.
 
@@ -116,7 +116,7 @@ ht-degree: 2%
    >
    >선택한 오퍼에 대해 대상이 다중 가중치에 적합한 경우 엔진은 최고(최고) 가중치를 유지합니다. 오퍼 엔진을 호출하면 오퍼가 연락처당 최대 한 번 선택됩니다.
 
-### 오퍼 자격 조건 요약 {#a-summary-of-offer-eligibility-rules}
+### 오퍼 자격 규칙 요약 {#a-summary-of-offer-eligibility-rules}
 
 구성이 완료되면, 자격 조건 규칙의 요약을 오퍼 대시보드에서 사용할 수 있습니다.
 
