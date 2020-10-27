@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: data-processing
 discoiquuid: 9f7118f4-aef0-469c-bbe1-b62bed674faa
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ### 개요 {#overview}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >서버 및 데이터베이스(호스팅 환경)에 대한 액세스 권한이 없는 경우 아래 설명된 절차를 수행할 수 없습니다. Adobe에 문의하십시오.
 
@@ -49,14 +49,14 @@ Adobe Campaign을 사용하려면 하나 이상의 환경을 설치하고 구성
    >Adobe Campaign의 컨텍스트에서 **자국은** 외부와의 모든 프로세스를 중지할 수 있는 작업을 결합합니다.로그, 추적, 배달, 캠페인 워크플로우 등\
    >이 단계는 메시지를 여러 번 전달하지 않도록 해야 합니다(명목상 환경과 중복된 환경에서 한 번 메시지 제공).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >하나의 환경에 여러 인스턴스가 포함될 수 있습니다. 각 Adobe Campaign 인스턴스는 라이선스 계약을 따릅니다. 라이선스 계약을 통해 가능한 환경 수를 확인하십시오.\
    >아래 절차를 통해 설치한 환경 및 인스턴스 수에 영향을 주지 않고 환경을 전송할 수 있습니다.
 
 ### 시작하기 전에 {#before-you-start}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >전송 프로세스를 시작하기 전에 소스 및 대상 환경의 모든 인스턴스에 대해 데이터베이스의 전체 백업을 실행하는 것이 좋습니다. 이 방법으로 문제가 발생하면 백업을 복원하여 초기 구성으로 돌아갈 수 있습니다.
 
@@ -70,7 +70,7 @@ Adobe Campaign을 사용하려면 하나 이상의 환경을 설치하고 구성
 
 다음 단계는 매우 신중하게 수행해야 합니다.소스 환경 데이터베이스를 복사할 때 일부 프로세스가 계속 진행 중일 수 있습니다. 메시지 전송을 두 번 방지하고 데이터 일관성을 유지합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* 다음 절차는 PostgreSQL 언어로 유효합니다. SQL 언어가 다른 경우(예: Oracle) SQL 쿼리를 수정해야 합니다.
 >* 아래 명령은 **prod** 인스턴스 컨텍스트 및 PostgreSQL 아래의 **개발** 인스턴스 내에적용됩니다.
@@ -218,7 +218,7 @@ nlserver pdump
 
 ### 8단계 - 옵션 및 외부 계정을 대상 환경으로 가져오기(개발) {#step-8---import-options-and-external-accounts-into-the-target-environment--dev-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이 단계에서는 웹 프로세스만 시작해야 합니다. 그렇지 않은 경우 계속하기 전에 실행 중인 다른 프로세스를 중지하십시오
 
