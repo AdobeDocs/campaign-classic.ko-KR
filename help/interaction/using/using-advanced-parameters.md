@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 2bb756a2-4aca-4195-9b7a-ec85028a8012
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 
 이 장에서는 상호 작용에서 가능한 다양한 고급 매개 변수에 대해 자세히 설명합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >다음 장은 **기술 관리자를 위한 것입니다**.
 
@@ -33,4 +33,3 @@ ht-degree: 9%
 * 테스트 환경 만들기는 테스트 환경 [만들기 섹션에서](../../interaction/using/creating-a-test-environment.md) 자세히 설명합니다.
 * 후크를 사용하여 표준 엔진 동작을 수정할 수 있습니다. For more on this, refer to the [Hooks](../../interaction/using/hooks.md) section
 * 마지막으로 분산 아키텍처와 상호 작용 사용은 분산 아키텍처 [섹션에 자세히 설명되어](../../interaction/using/distributed-architectures.md) 있습니다.
-
