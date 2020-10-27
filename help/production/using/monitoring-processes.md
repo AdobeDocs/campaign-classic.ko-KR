@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
-source-wordcount: '3602'
+source-wordcount: '3600'
 ht-degree: 0%
 
 ---
@@ -256,7 +256,7 @@ SMTP 배달 모니터링 보고서가 Adobe Campaign 플랫폼에 통합됩니�
 
 ![](assets/smtp_reports_access.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* SMTP 모니터링과 관련된 정보는 이메일 채널이 활성화된 경우에만 사용할 수 있습니다.
 >* 인스턴스 **[!UICONTROL SMTP sending statistics]** 에서 통계 서버가 시작된 경우에만 제공됩니다.
@@ -484,7 +484,7 @@ Adobe Campaign은 감지된 이상치와 관련하여 이메일로 보고서를 
 
 ![](assets/pro_netreport.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이 도구는 인스턴스를 모니터링하는 데 사용할 수 있지만 Adobe Campaign에서 지원되지 않습니다. 자세한 내용은 캠페인 관리자에게 문의하십시오.
 
@@ -548,7 +548,7 @@ XML 구성 파일에는 다음 요소가 포함되어 있습니다.
 >
 >netconf-dev.xml **파일(예:** netconf-dev.xml **,** netconf-prod.xml **등)에 접미사를 추가하여 다양한 구성을 지정할 수 있습니다**. 그런 다음 **$JAVA_HOME** /bin/java netreport dev **또는** @%JAVA_HOME%javasavanetreport를 추가하여 netreport.bat **또는** netreport.sh **파일** 에서 netreport를 실행하는 데 사용할 구성을 지정합니다. 예를 들면 다음과 같습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >모니터링 **연산자가** 작동하려면, netreport가 실행되는 컴퓨터가 sessionTokenOnly **** 모드에 있는 보안 영역에 있어야 합니다. 이 연산자에 대해 신뢰할 수 있는 IP 마스크가 지정되지 않은 경우 보안 영역도 allowEmptyPassword **및** allowUserPassword **** 모드여야 합니다.
 
