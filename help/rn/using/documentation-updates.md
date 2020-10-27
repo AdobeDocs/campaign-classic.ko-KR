@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: ba5e815dd1576b55d9b3226639680f6358137f13
 workflow-type: tm+mt
-source-wordcount: '3752'
-ht-degree: 85%
+source-wordcount: '3882'
+ht-degree: 83%
 
 ---
 
@@ -25,6 +25,31 @@ ht-degree: 85%
 또한 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)에서 더 많은 업데이트를 확인할 수 있습니다.
 
 ## 2020년 10월 {#oct-2020}
+
+**20.3 릴리스에 포함된 새로운 기능**
+
+iOS용 푸시 알림 개선 - [자세한 내용](../../delivery/using/configuring-the-mobile-application.md)
+
+Android용 푸시 알림 개선 - [자세한 내용](../../delivery/using/configuring-the-mobile-application-android.md)
+
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
+
+호환성 매트릭스가 업데이트되었습니다. [자세한 내용](../../rn/using/compatibility-matrix.md)
+
+사용되지 않거나 제거된 기능 페이지가 업데이트되었습니다. [자세한 내용](../../rn/using/deprecated-features.md)
+
+Gold Standard 릴리스의 릴리스 노트 및 호환성 매트릭스는 이제 전용 섹션에서 사용할 수 있습니다.
+[자세한 내용](../../rn/using/gold-standard.md#gs-10)
+
+**기타 업데이트**
+
+설명서 페이지가 Tomcat 8 업데이트를 반영하도록 업데이트되었습니다.
+
+&#39;Adobe Campaign 버전 가져오기&#39; 섹션의 &#39;정보&#39; 상자 설명에 세부 사항이 추가되었습니다. [자세한 내용](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
+
+&#39;Adobe Campaign Classic 업데이트&#39; 섹션에 빌드 업그레이드 수행 지침이 추가되었습니다. 자세한 내용 [보기 자세한 내용](../../production/using/build-upgrade.md)
+
+Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추가되었습니다. 자세한 내용 [보기 자세한 내용](../../platform/using/faq-build-upgrade.md)
 
 이제 캠페인 온-프레미스, 호스팅 및 하이브리드 호스팅 호스팅 모델에 대해 전용 섹션에 설명되어 있습니다. [자세한 내용](../../installation/using/hosting-models.md)
 
