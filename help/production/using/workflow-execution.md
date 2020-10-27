@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 7d8828c5-5776-49ca-b4f7-a4a6aaaa9db1
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 3%
@@ -78,7 +78,7 @@ ht-degree: 3%
 
    인스턴스의 워크플로우 수를 확인하려면 / 폴더에서 기본적으로 액세스할 수 있는 미리 정의된 뷰를 사용하는 것이 **[!UICONTROL Administration]** **[!UICONTROL Audit]** 좋습니다. 자세한 정보는 [이 페이지](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)를 참조하십시오.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >옵션 **[!UICONTROL NmsOperation_LimitConcurrency]** 임계값을 늘리면 인스턴스에 성능 문제가 발생할 수 있습니다. 어떤 경우든 이 작업을 직접 수행하지 말고 Adobe Campaign 담당자에게 문의하십시오.
 
