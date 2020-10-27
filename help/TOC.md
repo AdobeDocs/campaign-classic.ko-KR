@@ -8,10 +8,10 @@ product: adobe campaign
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
+source-git-commit: d15e953740b0a4dd8073b36fd59b4c4e44906340
 workflow-type: tm+mt
-source-wordcount: '2125'
-ht-degree: 93%
+source-wordcount: '2148'
+ht-degree: 91%
 
 ---
 
@@ -23,17 +23,19 @@ ht-degree: 93%
 + 릴리스 정보 {#release-notes}
    + [업그레이드 시작하기](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
-   + [Gold Standard 릴리스](rn/using/gold-standard.md)
+   + Gold Standard Release {#gs-release}
+      + [Gold Standard 릴리스 노트](rn/using/gold-standard.md)
+      + [Gold Standard 호환성 표](rn/using/compatibility-matrix-gs.md)
    + 이전 릴리스 {#previous-releases}
+      + [릴리스 20.2](rn/using/release--20-2.md)
       + [릴리스 20.1](rn/using/release--20-1.md)
       + [릴리스 19.2](rn/using/release--19-2.md)
       + [릴리스 19.1](rn/using/release--19-1.md)
       + [릴리스 18.10](rn/using/release--18-10.md)
       + [릴리스 18.6](rn/using/release--18-6.md)
       + [릴리스 18.4](rn/using/release--18-4.md)
-   + 더 이상 사용되지 않는 기능 및 호환성 {#deprecated-compatibility}
-      + [사용되지 않는 기능](rn/using/deprecated-features.md)
-      + [호환성 표](rn/using/compatibility-matrix.md)
+   + [사용되지 않는 기능](rn/using/deprecated-features.md)
+   + [호환성 표](rn/using/compatibility-matrix.md)
 + 시작 {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic 시작하기](platform/using/about-adobe-campaign-classic.md)
@@ -121,7 +123,10 @@ ht-degree: 93%
    + 푸시 알림 보내기 {#sending-push-notifications}
       + [모바일 앱 채널 기본 정보](delivery/using/about-mobile-app-channel.md)
       + [모바일 애플리케이션에 Campaign SDK 통합](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
-      + [Adobe Campaign에서 모바일 애플리케이션 구성](delivery/using/configuring-the-mobile-application.md)
+      + 모바일 애플리케이션 구성{#configure-the-mobile-app}
+         + [앱 구성 시작하기](delivery/using/get-started-app-config.md)
+         + [iOS용 구성 단계](delivery/using/configuring-the-mobile-application.md)
+         + [Android용 구성 단계](delivery/using/configuring-the-mobile-application-android.md)
       + [알림 만들기](delivery/using/creating-notifications.md)
       + [문제 해결](delivery/using/troubleshooting.md)
    + DM 보내기 {#sending-direct-mail}
@@ -336,8 +341,8 @@ ht-degree: 93%
    + Experience Cloud 트리거 {#experience-triggers}
       + [정보 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
-      + [파이프라인 옵션 NmsPipeline_Config](integrations/using/nmspipeline-config.md)
-      + [트리거 이벤트](integrations/using/events.md)
+      + [Adobe Experience Cloud 트리거에 대한 Adobe IO 구성](integrations/using/configuring-adobe-io.md)
+      + [사용자 지정 구현을 위한 이벤트 구성](integrations/using/events.md)
       + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
       + [파이프라인 문제 해결](integrations/using/pipeline-troubleshooting.md)
 + 워크플로우로 자동화 {#automating-with-workflows}
