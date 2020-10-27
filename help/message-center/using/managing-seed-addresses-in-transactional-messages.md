@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: message-templates
 discoiquuid: 12e7043e-e8b5-48a9-8a2f-99e2e6040c3c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 11%
+source-wordcount: '193'
+ht-degree: 13%
 
 ---
 
@@ -46,13 +46,12 @@ ht-degree: 11%
 
    ![](assets/messagecenter_create_custo_001.png)
 
-## 여러 시드 주소 만들기 {#creating-several-seed-addresses}
-
+   <!--## Creating several seed addresses {#creating-several-seed-addresses}-->
 1. 링크를 **[!UICONTROL Add other seed addresses]** 클릭한 다음 **[!UICONTROL Add]** 단추를 클릭합니다.
 
    ![](assets/messagecenter_create_seedaddr_004.png)
 
-1. 시드 주소 [만들기 섹션에 자세히 설명된 시드 주소의 구성 단계를](#creating-a-seed-address) 수행합니다.
+   <!--1. Follow the configuration steps for a seed address detailed in the [Creating a seed address](#creating-a-seed-address) section.-->
 1. 이 과정을 반복하여 필요한 만큼 주소를 만듭니다.
 
    ![](assets/messagecenter_create_seedaddr_008.png)
