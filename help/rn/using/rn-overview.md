@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 877ca2275c9338377da9e435e070c9911314fe51
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 9%
+source-wordcount: '428'
+ht-degree: 5%
 
 ---
 
@@ -28,27 +28,21 @@ Adobe Campaign은 정기적으로 업데이트 된다. 새로운 기능, 개선 
 
 ## 릴리스 상태{#rn-statuses}
 
-Campaign Classic 19.2를 시작하면 상태가 각 빌드에 연결됩니다. 상태 목록 및 해석 방법을 확인할 수 있습니다.
+상태는 각 빌드에 연결됩니다. 상태 목록 및 해석 방법을 확인할 수 있습니다.
 
-![](assets/do-not-localize/green3.png) **일반 가용성** - 안정적인 최신 빌드 사용 가능. 프로덕션에서 검증된 빌드
+![](assets/do-not-localize/green3.png) **GA(General Availability** ) - 프로덕션에서 검증되어 Adobe에서 권장됩니다.
 
-마지막 **안정적인** 건축물은 Gold Standard 10이다. [여기](../../rn/using/gold-standard.md#gs-10)를 클릭하십시오
+마지막 **GA 빌드는** Gold Standard 10입니다. [여기](../../rn/using/gold-standard.md#gs-10)를 클릭하십시오
 
-![](assets/do-not-localize/limited3.png) **제한된 가용성** - 현재 프로덕션 유효성 검사를 통해 빌드합니다. On-Demand 방식의 배포
+![](assets/do-not-localize/limited3.png) **LA(Limited Availability** ) - On-Demand 배포만 가능.
 
-![](assets/do-not-localize/blue3.png) **릴리스 후보** - Adobe으로 확인된 빌드. 제품 교정을 기다리는 중입니다.
+![](assets/do-not-localize/blue3.png) **릴리스 후보** (RC) - 새로운 기능이 포함된 최신 버전입니다.
 
-![](assets/do-not-localize/orange3.png) **더 이상 사용할 수** 없음 - 버그 수정 시 최신 빌드를 사용할 수 있습니다. 업데이트가 필요합니다.
+마지막 **RC 빌드는** Campaign Classic 20.3입니다. [여기를 클릭하십시오](../../rn/using/latest-release.md)
 
-![](assets/do-not-localize/red3.png) **사용되지 않음** - 알려진 회귀 수를 포함합니다. 업데이트는 필수입니다.
+![](assets/do-not-localize/orange3.png) **더 이상 사용할 수** 없음 - 최신 빌드로 업데이트해야 합니다.
 
-## 업그레이드 프로세스{#process-upgrade}
-
-호스팅 고객(Managed Service 또는 Hybrid)은 고객 지원 팀에 연락하여 환경을 업그레이드해야 합니다.
-
-Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로 Gold Standard 업그레이드를 자동으로 사용할 수 있습니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/gold-standard.html#gs-10)
-
-온-프레미스 사용자는 업그레이드를 수행할 수 있습니다. 이를 위해서는 안정적인 최신 빌드 [를](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 다운로드하고 모든 환경을 업그레이드해야 합니다. 업그레이드 [프로세스에](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html)대한 자세한 내용은 [빌드 업그레이드 FAQ를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/build-upgrade-faq.html).
+![](assets/do-not-localize/red3.png) **더 이상 사용되지** 않음 - 새 빌드로 업데이트해야 합니다.
 
 ## 추천{#recommendations}
 
@@ -56,16 +50,24 @@ Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로
 
 구현을 최신 상태로 유지하려면 [더 이상 사용되지 않음 및 제거된 기능](../../rn/using/deprecated-features.md) 및 [호환성 매트릭스](../../rn/using/compatibility-matrix.md) 페이지를 새로운 릴리스와 함께 읽어 보십시오.
 
-새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 얻으려면 [Adobe 우선 순위 제품 업데이트를 구독하십시오](https://www.adobe.com/subscription/priority-product-update.html).
+## 업그레이드 프로세스{#process-upgrade}
 
-다른 [권장 사항에 대한 자세한 내용을 살펴보십시오](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html#Recommendations).
+호스팅 고객(Managed Service 또는 Hybrid)은 고객 지원 팀에 연락하여 환경을 업그레이드해야 합니다.
+
+온-프레미스 사용자는 업그레이드를 수행할 수 있습니다. 이를 위해서는 안정적인 최신 빌드 [를](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 다운로드하고 모든 환경을 업그레이드해야 합니다. 업그레이드 [프로세스에](../../production/using/build-upgrade.md)대한 자세한 내용은 [빌드 업그레이드 FAQ를 참조하십시오](../../platform/using/faq-build-upgrade.md).
+
+### Gold Standard{#upgrade-for-gold-standard-users}
+
+Gold Standard 사용자는 아무런 조치 없이 [최신 GA 빌드로 Gold Standard 업그레이드를](../../rn/using/gold-standard.md#gs-10) 자동으로 이용할 수 있습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html)
+
+>[!NOTE]
+>Gold Standard용 호환성 매트릭스는 [GA 호환성 매트릭스에서 사용할 수 있습니다](../../rn/using/compatibility-matrix-gs.md).
 
 ## 지원 및 기타 유용한 링크{#support}
 
 * [도움말 및 지원](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
 * [컨트롤 패널 릴리스](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
-* [설명서 업데이트](../../rn/using/documentation-updates.md)
-* [이전 릴리스](../../rn/using/release--20-1.md)
-* [사용되지 않는 기능](../../rn/using/deprecated-features.md)
-* [호환성 매트릭스](../../rn/using/compatibility-matrix.md)
+* [최신 설명서 업데이트](../../rn/using/documentation-updates.md)
+* [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md)
 
+새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 얻으려면 [Adobe 우선 순위 제품 업데이트를 구독하십시오](https://www.adobe.com/subscription/priority-product-update.html).
