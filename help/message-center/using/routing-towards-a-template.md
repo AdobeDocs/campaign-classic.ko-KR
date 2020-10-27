@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: event-processing
 discoiquuid: 8fa464e6-3c88-441c-8179-0c54960469a7
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 12%
@@ -34,7 +34,6 @@ ht-degree: 12%
 
 기본적으로 공정순서는 다음 정보를 기반으로 합니다.
 
-* 이벤트 유형,
-* 사용할 채널(기본적으로:이메일),
-* 게시 날짜를 기준으로 가장 최근 배달 템플릿입니다.
-
+* 이벤트 유형
+* 사용할 채널(기본적으로:email)
+* 발행일을 기준으로 가장 최근 배달 템플릿
