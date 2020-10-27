@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: fe7ce92bde3405fed3429475cdd5681e5837876f
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 1%
+source-wordcount: '1305'
+ht-degree: 2%
 
 ---
 
@@ -64,12 +64,13 @@ ht-degree: 1%
 
 * Oracle **** 엔진의 경우 애플리케이션 서버에 대해 **정의된 TNS 이름** 을 채웁니다.
 * PostgreSQL **또는** DB2 **** 엔진의 경우 데이터베이스 서버에 액세스하려면 응용 프로그램 서버에 정의된 DNS 이름(또는 IP 주소)을 지정해야 합니다.
-* Microsoft **SQL Server** 엔진의 경우 다음을 정의해야 합니다.
+* Microsoft **SQL Server** 엔진의 경우 다음을 정의해야 합니다.데이터베이스 서버에 액세스하기 위해 응용 프로그램 서버에 정의된 DNS 이름(또는 IP 주소): **DNS** 또는 **DNS`\<instance>`** (인스턴스 모드),
 
-   1. 데이터베이스 서버에 액세스하기 위해 응용 프로그램 서버에 정의된 DNS 이름(또는 IP 주소): **DNS** 또는 **DNS`\<instance>`** (인스턴스 모드),
-   1. Microsoft SQL Server에 액세스하는 데 사용되는 인증 방법: **[!UICONTROL SQL Server authentication]** 또는 **[!UICONTROL Windows NT authentication]**.
+   >[!CAUTION]
+   >
+   > 20.3부터 Windows NT 인증이 중단되었습니다. **[!UICONTROL SQL Server authentication]** 는 이제 Microsoft SQL Server에서 사용할 수 있는 유일한 인증 모드입니다. [자세한 내용](../../rn/using/deprecated-features.md)
 
-      ![](assets/s_ncs_install_db_mssql_creation01.png)
+   ![](assets/s_ncs_install_db_mssql_creation01.png)
 
 ### 2단계 - 서버에 연결 {#step-2---connecting-to-the-server}
 
