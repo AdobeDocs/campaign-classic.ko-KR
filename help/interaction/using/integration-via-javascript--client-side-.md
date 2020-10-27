@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: unitary-interactions
 discoiquuid: 7453d768-31eb-4372-aae3-27527cd5c79b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 2%
@@ -70,7 +70,7 @@ URL을 호출하는 스크립트는 다음과 같습니다.
    <script id="interactionProposalScript" src="https://instance.adobe.org:8080/nl/interactionProposal.js?env=OE3" type="text/javascript"></script>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >태그를 `<script>` 자체 닫으면 안 됩니다.
 
@@ -214,7 +214,7 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
    </srcSchema>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >각 요소를 두 번 정의해야 합니다. CDATA(&quot;_jst&quot;) 유형 요소에는 개인화 필드가 포함될 수 있습니다.
    >
@@ -264,7 +264,7 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
    ![](assets/interaction_xmlmode_form_001.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >() 양식의 필드 `<input>`는 생성된 스키마에 정의된 CDATA 유형 요소를 가리켜야 합니다.
 
