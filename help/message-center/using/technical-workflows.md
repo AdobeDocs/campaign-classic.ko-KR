@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 2e648e63-06d2-4e8f-9934-066a41d18eac
 translation-type: tm+mt
-source-git-commit: 76547b8e7ef377a6d2c786e721b16c571e8b7712
+source-git-commit: f7527a2d9b76e34fbaa2c9471c44a7a1e7e074d7
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '309'
 ht-degree: 11%
 
 ---
@@ -28,13 +28,11 @@ ht-degree: 11%
 
 ## 인스턴스 워크플로우 제어 {#control-instance-workflows}
 
-제어 인스턴스에서 실행 인스턴스당 하나의 보관 워크플로우를 만들어야 합니다. 그런 다음 관리 > 프로덕션 > 메시지 센터 **폴더에서 보관 워크플로우에 액세스할 수** 있습니다. 보관 워크플로우가 생성되면 자동으로 시작됩니다.
-
-**분산 아키텍처**
-
-하나 또는 여러 개의 실행 인스턴스가 등록된 경우 제어 인스턴스에서 각 **[!UICONTROL Message Center execution instance]** 외부 계정에 대해 보관 워크플로우를 하나씩 만들어야 합니다. 이 **[!UICONTROL Create the archiving workflow]** 단추를 클릭하여 워크플로우를 만들고 시작합니다.
+제어 인스턴스에서 하나 또는 여러 개의 실행 인스턴스를 등록했는지 여부에 관계없이 각 **[!UICONTROL Message Center execution instance]** 외부 계정에 대해 보관 워크플로우를 하나씩 만들어야 합니다. 이 **[!UICONTROL Create the archiving workflow]** 단추를 클릭하여 워크플로우를 만들고 시작합니다.
 
 ![](assets/messagecenter_archiving_002.png)
+
+그런 다음 [관리] > [ **프로덕션] > [메시지 센터** ] 폴더에서 이러한 워크플로우에 액세스할 수 있습니다. 보관 워크플로우가 생성되면 자동으로 시작됩니다.
 
 <!--**Minimal architecture**
 
