@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: fac3e3ec-82a7-4087-ba88-2b28b0f69d1c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 2%
@@ -56,7 +56,7 @@ nlserver **syslogd** 모듈은 로그를 디스크에 저장합니다. 이 모�
 | inMail.log | 바운스 메일 모듈 로그 |
 | logins.log | 모든 로그인 시도를 Adobe Campaign에 기록합니다(성공 여부). |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >리디렉션 서버에만 **리디렉션** 디렉터리가 있습니다. url **하위 디렉토리에는 리디렉션할 URL의 일치 항목이** 포함되어 있으며 하위 디렉토리 **로그에는 추적 로그가** 포함되어 있습니다. 추적 로그를 생성하려면 **trackinglogd** 모듈이 실행되고 있어야 합니다.
 
@@ -68,4 +68,4 @@ nlserver **syslogd** 모듈은 로그를 디스크에 저장합니다. 이 모�
 
 로그에서 세부 수준을 더 유지하려면 세부 정보 **** 매개 변수를 사용하여 Adobe Campaign 모듈을 시작할 수 있습니다.
 
-**nlserver start`<MODULE>`@`<INSTANCE>`-verbose**
+**nlserver start `<MODULE>`@`<INSTANCE>` -verbose**
