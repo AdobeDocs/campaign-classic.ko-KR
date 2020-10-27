@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: web-applications
 discoiquuid: 84f9dbad-365f-405d-88a0-14171fbb805f
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2d6266957a1e290333c505e40f95df46797e19c4
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 21%
@@ -30,7 +30,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->개인 정보가 포함될 수 있는 페이지를 보호하는 방법입니다. 보안 및 개인 정보 [확인 목록을 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy).
+>항상 개인 정보가 포함되어 있는 페이지를 보호합니다. 보안 및 개인 정보 [확인 목록을 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy).
 
 이 템플릿은 웹 응용 프로그램의 유형을 결정합니다. 다음을 만들 수 있습니다.
 
