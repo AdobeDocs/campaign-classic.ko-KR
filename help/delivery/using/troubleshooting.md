@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: b64c9729-cfe2-4d02-8c59-9e53efd34a96
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 # 문제 해결{#troubleshooting}
 
-모바일 장치가 Wi-Fi에 연결되어 있고 알림을 받지 않는 경우 FCM/APNS 포트가 방화벽으로 차단되지 않는지 확인하십시오.
+모바일 장치가 Wi-Fi에 연결되어 있고 알림을 받지 않는 경우 FCM/APNs 포트가 방화벽으로 차단되지 않는지 확인하십시오.
 
 **Android**:모바일 장치는 포트 5228 ~ 5230의 FCM 서버에 연결합니다. 따라서 FCM과의 연결을 승인하도록 방화벽을 구성해야 합니다. 열 포트는 다음과 같습니다.5228(가장 자주 사용하는 항목), 5229 및 5230입니다.
 
