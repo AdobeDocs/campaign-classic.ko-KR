@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: interaction-overview
 discoiquuid: 5b2b7682-6bac-4282-8d27-e8a259934e7d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * **오퍼 공간**:폴더: 오퍼가 노출된 위치를 정의합니다. 공백을 정의하면 사용되는 채널을 지정하고, 기본적으로 단일 모드에서 사용할 수 있는지 여부를 지정합니다.일괄 처리 모드에서만)를 사용하여 오퍼의 컨텐츠를 작성하고 제공된 오퍼의 오퍼를 지정합니다. 공백은 채널과 오퍼 엔진 사이의 인터페이스입니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >제안 공간은 커뮤니케이션 채널이 아니라 채널의 특정 박람회 위치와 일치합니다. 예를 들어, 웹 사이트에 노출된 오퍼는 동일한 페이지에서 두 개의 공백을 차지할 수 있습니다. 이 경우 동일한 채널에 대해 두 개의 공백이 생깁니다.
    >
