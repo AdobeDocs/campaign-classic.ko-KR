@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
 translation-type: tm+mt
-source-git-commit: 26ba32468bce3bbb1c52d225c8195977da4d7d54
+source-git-commit: 84f14b7a8c4ed05b309109c76be8c8c7b7b52d83
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign을 사용하면 대화형 마케팅 캠페인 만들기를 조정
 
 >[!NOTE]
 >
->Adobe Campaign Classic은 v6.11 및 v7에서 사용할 수 있습니다. 언급된 경우를 제외하고 도움말 자료는 최신 빌드의 두 버전 모두에 적용됩니다. 스크린샷은 Campaign Classic v7 사용자 인터페이스를 반영합니다.
+>Adobe Campaign Classic은 v6.11 및 v7에서 사용할 수 있습니다. Except when mentioned, help materials apply to both versions, in the [latest build](../../rn/using/latest-release.md). 스크린샷은 Campaign Classic v7 사용자 인터페이스를 반영합니다.
 
 ## 주요 기능 {#key-capabilities}
 
