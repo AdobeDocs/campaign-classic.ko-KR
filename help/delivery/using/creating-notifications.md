@@ -1,8 +1,6 @@
 ---
-title: 알림 만들기
-seo-title: 알림 만들기
-description: 알림 만들기
-seo-description: null
+title: 푸시 알림 만들기
+description: 푸시 알림을 만드는 방법 학습
 page-status-flag: never-activated
 uuid: fb1862df-e616-4147-a642-dc867bc983b5
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 5%
+source-wordcount: '835'
+ht-degree: 4%
 
 ---
 
