@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 907d82c8-9262-4952-b8df-21144dd55824
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 3%
@@ -77,7 +77,7 @@ ht-degree: 3%
    <%@ value object="provider" xpath="@trackingURL" %>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >이러한 변경 사항은 업그레이드 시 충돌을 야기할 수 있습니다. 이러한 공식을 새 버전과 수동으로 병합해야 할 수도 있습니다.
 
