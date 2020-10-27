@@ -10,27 +10,31 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 877ca2275c9338377da9e435e070c9911314fe51
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 16%
+source-wordcount: '543'
+ht-degree: 13%
 
 ---
 
 
 # 호환성 매트릭스{#compatibility-matrix}
 
-이 문서에서는 최신 **Adobe Campaign Classic 빌드(v6.11 및 v7)에 지원되는 모든 시스템 및 구성 요소를 나열합니다**. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
+이 문서에는 [Adobe Campaign Classic](../../rn/using/latest-release.md) 의 최신 빌드에 대해 지원되는 모든 시스템 및 구성 요소 **가 나와 있습니다**. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
+
+Gold Standard 사용자는
 
 ## 중요 정보{#important-notes}
 
-이 매트릭스는 지원되는 새 항목이 추가되고 더 이상 사용되지 않는 항목이 제거되면서 정기적으로 업데이트됩니다.
-
 별도로 언급되지 않는 한 모든 마이너 릴리스가 지원됩니다.
 
-Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구와 호환됩니다. 이러한 타사 시스템 및 도구의 특정 버전이 해당 개발자와 EOL(End-of-Life)에 도달함에 따라, Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며, 향후 제품 릴리스에서 호환성 매트릭스에서 제거됩니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
+Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md)이 페이지에 나열된 모든 시스템 및 도구와 호환됩니다. 이러한 타사 시스템 및 도구의 특정 버전이 해당 개발자와 EOL(End-of-Life)에 도달함에 따라, Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며, 향후 제품 릴리스에서 호환성 매트릭스에서 제거됩니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
 
 더 이상 사용되지 않는 항목에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../rn/using/deprecated-features.md).
+
+>[!CAUTION]
+>
+>이 매트릭스는 지원되는 새 항목이 추가되고 더 이상 사용되지 않는 항목이 제거되면서 정기적으로 업데이트됩니다.
 
 ## Operating Systems{#OperatingSystems}
 
@@ -39,20 +43,22 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr> 
 <td>CentOs</td>
 <td>
+<p>8.x(64비트)</p>
 <p>7.x(64비트)</p>
 </td>
 </tr>
 <tr>
 <td>Debian</td>
 <td>
-<p>8(64비트)</p>
-<p>9(64비트)</p>
 <p>10(64비트)</p>
+<p>9(64비트)</p>
+<p>8(64비트)</p>
 </td>
 </tr>
 <tr>
 <td>RHEL</td>
 <td>
+<p>8.x(64비트)</p>
 <p>7.x(64비트)</p>
 <p><strong>중요:</strong> RHEL을 사용하는 경우 SELinux를 비활성화하거나 설계자가 사용자 정의 SELinux 규칙을 작성하여 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인해야 합니다.</p>
 </td>
@@ -60,9 +66,9 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2012</p>
-<p>2012년 R2</p>
 <p>2016</p>
+<p>2012년 R2</p>
+<p>2012</p>
 </td>
 </tr>
 </tbody>
@@ -75,9 +81,9 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>Windows Server 2012의 8.0 - Windows 8</p>
-<p>Windows Server 2012 R2의 8.5</p>
 <p>Windows Server 2016의 10.0</p>
+<p>Windows Server 2012 R2의 8.5</p>
+<p>Windows Server 2012의 8.0 - Windows 8</p>
 </td>
 </tr>
 <tr>
@@ -96,8 +102,9 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>JDK(Java Development Kit)</td>
 <td>
-<p>8</p>
+<p>11</p>
 <p>9</p>
+<p>8</p>
 <p>애플리케이션은 Oracle과 OpenJDK용으로 개발한 JDK(Java Development Kit)에 대해 승인되었습니다.</p>
 </td>
 </tr>
@@ -116,56 +123,43 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 </tbody>
 </table>
 
-## RDBMS 드라이버{#RDBMSdrivers}
-
-다음 RDBMS 드라이버가 지원됩니다.
-
-* Oracle SQL*Net 11
-
-* Oracle SQL*Net 12
-
-* PostgreSQL(libpq)
-
-* SQLServer
-
-* DB2(ODBC 드라이버)
-
+## RDBMS 서버{#RDBMSservers}
 
 >[!NOTE]
 >
 >RDBMS 드라이버는 RDBMS 서버 버전과 일치해야 합니다.
-
-## RDBMS 서버{#RDBMSservers}
 
 <table>
 <tbody>
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g R2</p>
-<p>12c</p>
-<p>18c</p>
 <p>19c</p>
+<p>18c</p>
+<p>12c</p>
+<p>11g R2</p>
 </td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>9.4.x</p>
-<p>9.5.x</p>
-<p>9.6.x</p>
-<p>10.x</p>
+<p>12.x</p>
 <p>11.x</p>
+<p>10.x</p>
+<p>9.6.x</p>
+<p>9.5.x</p>
+<p>9.4.x</p>
 <p>참고:위에 지정된 버전과 함께 PostgreSQL용 Amazon RDS를 사용할 수도 있습니다.</p>
 </td>
 </tr>
 <tr>
 <td>SQL Server</td>
 <td>
-<p>2012 - SP1 및 SP2</p>
-<p>2014</p>
-<p>2016</p>
+<p>2019</p>
 <p>2017</p>
+<p>2016</p>
+<p>2014</p>
+<p>2012 - SP1 및 SP2</p>
 <p>경고:Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">자세히 알아보기</a></p>
 </td>
 </tr>
@@ -189,8 +183,8 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>SFDC API</td>
 <td>
-<p>API 버전 15</p>
 <p>API 버전 21</p>
+<p>API 버전 15</p>
 </td>
 </tr>
 <tr><td>Oracle On Demand API</td>
@@ -225,27 +219,29 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g</p>
-<p>12c</p>
 <p>18c</p>
+<p>12c</p>
+<p>11g</p>
 </td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>9.4.x</p>
-<p>9.5.x</p>
-<p>9.6.x</p>
-<p>10.x</p>
+<p>12.x</p>
 <p>11.x</p>
+<p>10.x</p>
+<p>9.6.x</p>
+<p>9.5.x</p>
+<p>9.4.x</p>
 </td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2012 SP1 및 SP2</p>
-<p>2014</p>
-<p>2016</p>
+<p>2019</p>
 <p>2017</p>
+<p>2016</p>
+<p>2014</p>
+<p>2012 SP1 및 SP2</p>
 </td>
 </tr>
 <tr><td>MySQL</td>
@@ -256,10 +252,10 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>Teradata</td>
 <td>
-<p>15.0</p>
-<p>15.10</p>
-<p>16</p>
 <p>16.20</p>
+<p>16</p>
+<p>15.10</p>
+<p>15.0</p>
 </td>
 </tr>
 <tr>
@@ -302,8 +298,8 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2012</p>
 <p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>
@@ -323,20 +319,14 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>Android</td>
 <td>
-<p>7.x</p>
-<p>8.x</p>
-<p>9.0</p>
+<p>7.x, 8.x, 9.0</p>
 <p>모바일 SDK 빌드 1.0.27과 함께 사용할 수 있습니다.</p>
 </td>
 </tr>
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9</p>
-<p>iOS 10</p>
-<p>iOS 11</p>
-<p>iOS 12</p>
-<p>iOS 13</p>
+<p>iOS 9 - 14</p>
 <p>모바일 SDK 빌드 1.0.26과 32비트 및 64비트 버전 호환</p>
 </td>
 </tr>
@@ -345,28 +335,13 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 
 ## 브라우저{#Browsers}
 
-Internet Explorer 버전 11이 지원됩니다.
+다음 브라우저의 경우 최신 버전이 지원됩니다.Microsoft Edge, Mozilla Firefox, Google Chrome, Safari
 
-다음 브라우저의 경우 최신 버전이 지원됩니다.
-
-* Microsoft Edge
-
-* Firefox
-
-* 크롬
-
-* Safari
-
-## Experience Cloud 통합{#ExperienceCloudintegrations}
-
-Adobe 솔루션과의 통합은 이 [섹션을 참조하십시오](https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations).
+Internet Explorer 11이 지원됩니다.
 
 ## 더 보기{#Morelikethis}
 
-* [Campaign Classic 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html)
-* [설치 가이드](https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/general-architecture.html)
-* [사용되지 않는 기능 및 시스템](https://helpx.adobe.com/kr/campaign/kb/deprecated-and-removed-features.html)
+* [Campaign Classic 릴리스 노트](../../rn/using/latest-release.md)
+* [설치 가이드](../../installation/using/general-architecture.md)
+* [사용되지 않는 기능 및 시스템](../../rn/using/deprecated-features.md)
 * [업그레이드 절차 구축](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html)
-* [19.0 릴리스의 Campaign Classic 호환성 표](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix-19-0.html)
-* [19.1 릴리스의 Campaign Classic 호환성 표](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix-19-1.html)
-
