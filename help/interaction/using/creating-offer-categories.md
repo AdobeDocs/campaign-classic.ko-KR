@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: a9fad813-3256-4a00-ba74-7dbaba9e8e23
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '269'
 ht-degree: 4%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 4%
 
       ![](assets/offer_cat_create_004.png)
 
-   * 이 카테고리 내에서 **[!UICONTROL Themes]** 필드를 사용하여 오퍼를 선택하는 데 사용할 수 있는 키워드를 입력합니다.
+   * 이 카테고리 내에서 필드를 사용하여 오퍼를 선택하는 데 사용할 수 있는 주요 단어를 **[!UICONTROL Themes]** 입력합니다.
 
       ![](assets/offer_cat_create_005.png)
 
@@ -58,7 +58,7 @@ ht-degree: 4%
       >
       >오퍼 엔진을 호출할 때 테마나 카테고리가 매개 변수와 일치하는 카탈로그의 일부만 선택됩니다.
 
-   * 필드를 통해 특정 기간 동안 카테고리의 오퍼 가중치를 일시적으로 &quot;증폭&quot;할 수 **[!UICONTROL Multiplier weight]** 있습니다.
+   * 특정 기간 동안 **[!UICONTROL Multiplier weight]** 필드를 통해 카테고리의 오퍼 가중치를 일시적으로 &quot;증폭&quot;합니다.
 
       ![](assets/offer_cat_create_006.png)
 
