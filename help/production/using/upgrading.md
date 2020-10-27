@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1132'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 업그레이드 프로세스를 시작하기 전에 업그레이드할 Adobe Campaign 버전을 확인하고 [릴리스 노트를 참조하십시오](../../rn/using/latest-release.md) .
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >업데이트하기 전에 각 인스턴스에 데이터베이스 백업을 만드는 것이 좋습니다. 자세한 내용은 [백업을 참조하십시오](../../production/using/backup.md).\
 >업그레이드를 수행하려면 인스턴스 및 로그에 액세스할 수 있는 기능과 권한이 있어야 합니다.
@@ -53,7 +53,7 @@ ht-degree: 1%
       **iisreset /stop**
 
    * Adobe Campaign 서비스: **net stop nlserver6**
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >또한 리디렉션 서버(webmdl)가 중지되었는지 확인하여 IIS에서 사용하는 **nlsrvmod.dll** 파일을 새 버전으로 바꿀 수 있습니다.
 
@@ -171,7 +171,7 @@ Adobe Campaign의 업데이트된 패키지 모두 복구하여 시작합니다.
 /etc/init.d/apache stop
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* 스크립트를 **apache** 대신 **httpd라고 할 수 있습니다**.
 >* 다음 응답을 받을 때까지 이 명령을 실행해야 합니다.
@@ -223,7 +223,7 @@ Adobe Campaign의 업데이트된 패키지 모두 복구하여 시작합니다.
 * **[!UICONTROL Accept the new version]** :사용자가 Adobe Campaign에서 제공한 리소스를 변경하지 않은 경우 권장합니다.
 * **[!UICONTROL Keep the current version]** :은 업데이트가 거부됨을 의미합니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >이 해상도 모드를 선택하면 새 버전에서 수정 기능을 사용할 수 없습니다.
 
