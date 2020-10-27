@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: c6c39b7d-7bbd-4789-b1ea-b938153e9679
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 또한 더 높은 수준의 로그를 사용하여 프로세스를 다시 시작합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이 절차에서는 이 모듈의 진행 중인 서비스를 취소합니다.
 
@@ -62,7 +62,7 @@ Adobe Campaign은 다음과 같은 두 가지 수준의 로그로 작동할 수 
    nlserver restart <MODULE_NAME> -noconsole
    ```
 
->[!CAUTION]
+>[!IMPORTANT]
 이러한 명령의 로그는 모듈의 로그 파일에 저장됩니다.
 
 다음은 웹 모듈에만 적용되는 예입니다. 다른 모듈은 위에서 설명한 대로 작동합니다.
@@ -88,7 +88,7 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 >[!NOTE]
 추적 **파일** 모드를 사용하면 로그를 저장할 수 있습니다. 위의 예에서 로그는 **var//mta_debug.log`<instance-name>`및 var/default/web_debug.log** 파일에 **저장됩니다** .
 
->[!CAUTION]
+>[!IMPORTANT]
 Windows에서는 LD_PRELOAD 옵션을 추가하지 마십시오. 다음 명령은 다음과 같습니다.\
 nlserver web -tomcat -verbose -tracefilter:*
 
