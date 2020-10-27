@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 discoiquuid: f459dc07-b7db-4526-b428-852b51c9c00e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1540'
 ht-degree: 1%
 
 ---
@@ -305,10 +305,10 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
 
 1. 이전에 만든 **가상 디렉토리에서 Adobe Campaign 서버가 사용하는 리소스를 자동으로 구성하려면 iis_neolane_setup.vbs** 스크립트를 실행합니다.
 
-   * 이 파일은 \tomcat-7\conf file **`[Adobe Campaign v7]`에서**&#x200B;찾을 수 있습니다. 여기서 **`[Adobe Campaign v7]`** 는 Adobe Campaign 설치 디렉토리의 액세스 경로입니다. 스크립트 실행 명령은 다음과 같습니다(관리자용).
+   * 이 파일은 Adobe Campaign 설치 디렉토리 **`[Adobe Campaign v7]`의 액세스 경로인\conf** **`[Adobe Campaign v7]`** 디렉토리에 있습니다. 스크립트 실행 명령은 다음과 같습니다(관리자용).
 
       ```
-      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\tomcat-7\conf
+      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
       cscript iis_neolane_setup.vbs
       ```
 
