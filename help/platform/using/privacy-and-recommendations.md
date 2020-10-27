@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: 247d73933991047603b8d61c7489d976c448dd52
+source-git-commit: 6ca61b4e927b7443815f0337b8e661c8ec126001
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1850'
 ht-degree: 8%
 
 ---
@@ -151,11 +151,11 @@ Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug,
 
 Adobe Campaign은 추적 기능 덕분에 세 가지 유형의 쿠키를 사용하여 배달 받는 사람의 탐색을 추적할 수 있습니다.세션 쿠키와 2개의 영구 쿠키.
 
-* A **session cookie**: the **nlid** cookie contains the identifier of the email sent to the contact (**broadlogId**) and the identifier of the message template (**deliveryId**). 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
+* A **session** cookie: the **nlid** cookie contains the identifier of the email sent to the contact (**broadlogId**) and the identifier of the message template (**deliveryId**). 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
 
-* 영구 **쿠키**:adobe experience cloud 솔루션 간에 **UUID** (Universal Unique IDenticfier) 쿠키가 공유됩니다. 새 값이 생성될 때 클라이언트 브라우저에서 표시될 때까지 한 번 설정됩니다. 이 쿠키를 사용하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 랜딩 페이지(알 수 없는 고객 활동을 수신자에게 연결)나 배송을 통해 보관할 수 있습니다. 이 쿠키에 대한 설명은 [여기에서 확인할 수 있습니다](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
-
-<!--The **nllastdelid** cookie (introduced in Campaign Classic 20.3) is a permanent cookie which contains the **deliveryId** of the last delivery that user clicked the link from. This cookie is used - when the session cookie is missing - to identify the tracking table that will be used.-->
+* 두 **개의 영구** 쿠키:
+   * Adobe Experience Cloud 솔루션 간에 **UUID** (Universal Unique IDenticfier) 쿠키가 공유됩니다. 새 값이 생성될 때 클라이언트 브라우저에서 표시될 때까지 한 번 설정됩니다. 이 쿠키를 사용하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 랜딩 페이지(알 수 없는 고객 활동을 수신자에게 연결)나 배송을 통해 보관할 수 있습니다. 이 쿠키의 설명은 이 페이지 [에서 사용할 수 있습니다](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
+   * Campaign Classic 20.3에서 **도입된 nlastdelid** 쿠키는 사용자가 링크를 클릭한 마지막 배달의 **deliveryId** 가 포함된 영구 쿠키입니다. 이 쿠키는 세션 쿠키가 없을 때 사용되는 추적 테이블을 식별하는 데 사용됩니다.
 
 개인 정보 보호 규정(GDPR)과 같은 규정에서는 회사가 쿠키를 설치하기 전에 웹 사이트 사용자의 계약을 요구하는 것을 명시합니다.
 
