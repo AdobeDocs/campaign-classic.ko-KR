@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: administration-basics
 discoiquuid: da60b9ca-4b51-4bff-affc-2b12c576973a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 55e87d5453565a12048d63dd654c09596260f1cc
 workflow-type: tm+mt
 source-wordcount: '2218'
 ht-degree: 11%
@@ -113,8 +113,8 @@ POP3 액세스를 위해 구성된 모든 서버를 사용하여 회신 메일�
 * [에이전시](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Facebook](../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign)
 * [Twitter](../../social/using/configuring-publishing-on-twitter.md)
-* [iOS 채널](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-ios)
-* [Android 채널](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-android)
+* [iOS 채널](../../delivery/using/configuring-the-mobile-application.md)
+* [Android 채널](../../delivery/using/configuring-the-mobile-application-android.md)
 
 ## FTP 외부 계정 {#ftp-external-account}
 
