@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 2ff877607641435a2c2806f48f3c5b35d96d39c5
 workflow-type: tm+mt
 source-wordcount: '3582'
 ht-degree: 4%
@@ -242,7 +242,7 @@ Adobe Campaign 서버에 액세스할 가능성이 있는 프록시의 IP 주소
 
 ### Tomcat의 기본 포트 {#default-port-for-tomcat}
 
-Tomcat 서버의 8080 의견 수렴 포트가 구성에 필요한 다른 애플리케이션으로 이미 사용 중인 경우 8080 포트를 무료 포트(예: 8090)로 교체해야 합니다. 변경하려면 Adobe Campaign 설치 폴더의 **/tomcat-7/conf** 디렉토리에 저장된 **server.xml** 파일을 편집합니다.
+Tomcat 서버의 8080 의견 수렴 포트가 구성에 필요한 다른 애플리케이션으로 이미 사용 중인 경우 8080 포트를 무료 포트(예: 8090)로 교체해야 합니다. 변경하려면 Adobe Campaign 설치 폴더의 **/tomcat-8/conf** 디렉토리에 저장된 **server.xml** 파일을 편집합니다.
 
 그런 다음 JSP 릴레이 페이지의 포트를 수정합니다. 이렇게 하려면 Adobe Campaign 설치 디렉토리의 **/conf** 디렉토리에 저장된 serverConf.xml **** 파일을 변경합니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
 
@@ -255,7 +255,7 @@ Tomcat 서버의 8080 의견 수렴 포트가 구성에 필요한 다른 애플�
 
 ### Tomcat에서 폴더 매핑 {#mapping-a-folder-in-tomcat}
 
-고객별 설정을 정의하려면 context.xml **파일도 포함되어 있는** /tomcat-7/conf **폴더에** user_contexts.xml **파일을 만들 수** 있습니다.
+고객별 설정을 정의하려면 context.xml **파일도 포함되어 있는** /tomcat-8/conf **폴더에** user_contexts.xml **파일을 만들 수** 있습니다.
 
 이 파일에는 다음 유형의 정보가 포함됩니다.
 
