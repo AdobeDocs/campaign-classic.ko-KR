@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: a4f2ae0e-e631-4ab6-934e-8298e4ce6f2c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 3%
@@ -70,7 +70,7 @@ IIS 7에서는 표준 서비스 외에도 ISAPI 확장 및 ISAPI 필터를 설�
 
    ![](assets/s_ncs_install_iis7_parameters_step1.png)
 
-1. VBS **스크립트를** 사용하면 방금 만든 가상 디렉토리에서 Adobe Campaign 서버가 사용하는 리소스를 자동으로 구성할 수 있습니다. 이 파일을 시작하려면 폴더 **에 있는 iis_neolane_setup.vbs** 파일 `[INSTALL]\tomcat-7\conf` `[INSTALL]` 을 두 번 클릭합니다. 여기서 는 Adobe Campaign 설치 폴더에 액세스할 수 있는 경로입니다.
+1. VBS **스크립트를** 사용하면 방금 만든 가상 디렉토리에서 Adobe Campaign 서버가 사용하는 리소스를 자동으로 구성할 수 있습니다. 이 파일을 시작하려면 폴더 **에 있는 iis_neolane_setup.vbs** 파일 `[INSTALL]\conf` `[INSTALL]` 을 두 번 클릭합니다. 여기서 는 Adobe Campaign 설치 폴더에 액세스할 수 있는 경로입니다.
 
    ![](assets/s_ncs_install_iis7_parameters_step2.png)
 
