@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 7a92bc51-24cf-4ce6-bd50-a315f8f6e34e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 12%
@@ -24,7 +24,7 @@ ht-degree: 12%
 
 테스트 환경(샌드박스 모드)을 만들려면 다음 단계를 적용합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >테스트 환경에 대해서만 이 환경 만들기 방법을 사용하십시오. 다른 모든 경우에는 대상 매핑 마법사를 사용합니다. 자세한 내용은 오퍼 환경 [만들기를 참조하십시오](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
