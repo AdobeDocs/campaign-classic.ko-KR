@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 7b1c58a0-6fd6-4c9d-b1c4-f3dffda42523
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 3%
@@ -36,7 +36,7 @@ ht-degree: 3%
 
 사용 가능한 특정 공간에 대한 오퍼 컨텐츠를 승인하도록 선택하고 다른 공간에 대해 거부할 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >오퍼의 컨텐츠 및 자격 조건이 승인되면 게시 워크플로우(오퍼 알림)가 자동으로 실행되고 오퍼가 활성화된 모든 공간에서 실시간으로 사용 가능합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 
 오퍼 자격 승인이란 오퍼 가중치와 오퍼 내에 구성되거나 상위 카테고리에서 생성된 규칙에서 상속된 자격 조건 규칙을 수락하거나 거부하는 것을 의미합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >오퍼의 컨텐츠 및 자격 조건이 승인되면 게시 워크플로우(오퍼 알림)가 자동으로 실행되고 오퍼가 활성화된 모든 공간에서 실시간으로 사용 가능합니다.
 
