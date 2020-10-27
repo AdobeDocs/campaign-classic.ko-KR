@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: d08ff769-da93-4f86-8802-f0fb5b051ece
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 5%
@@ -28,7 +28,7 @@ Adobe Campaign 플랫폼은 Apache에서 사용하는 가상 호스트의 인스
 
 * 내부 **** 암호:일반 관리자 암호입니다. 특정 응용 프로그램 서버의 모든 인스턴스에는 일반적으로 사용됩니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >내부 식별자를 사용하여 **로그온하려면** 사전에 암호를 정의해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/campaign-server-configuration.md#internal-identifier)을 참조하십시오.
 
