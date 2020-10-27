@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 6358c8fd-2b75-4462-acd1-887ee44d3110
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 8%
@@ -57,7 +57,7 @@ ht-degree: 8%
 
 이 작업에 대한 자세한 정보는 [이 섹션](../../production/using/recommendations.md)을 참조하십시오.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >중간 소싱 구성을 사용하는 경우 정기적으로 데이터베이스를 유지 관리하는 것이 중요합니다. 마케팅 플랫폼에서 전달을 분석할 때 마케팅 인스턴스는 정보를 중간 소싱 인스턴스로 보냅니다. 프로세스가 느려지면 마케팅 인스턴스에 영향을 줍니다.
 
@@ -69,7 +69,7 @@ ht-degree: 8%
 * 오류로 인해 일시 중지된 워크플로우를 중지 또는 삭제합니다.
 * 활동을 포함하지 않고 따라서 상태가 남아 있는 테스트에 사용된 모든 워크플로우를 중지합니다 **[!UICONTROL End]** **[!UICONTROL Paused]** .
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >작업에 시간이 오래 걸리고 많은 공간을 확보할 경우 심도 있는 유지 관리가 필요합니다(색인 재작성 등). 이 작업에 대한 자세한 정보는 [이 섹션](../../production/using/recommendations.md)을 참조하십시오.
 
