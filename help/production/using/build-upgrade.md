@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 8ec525f400c29b986eadd888d29f1579860871c6
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
-source-wordcount: '2366'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
@@ -209,10 +209,10 @@ ht-degree: 0%
 
 Adobe Campaign 응용 프로그램 서버가 설치된 컴퓨터(nlserverweb)에서 파일을 다운로드하고 복사합니다.
 
+```
+Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
+```
 
-    &quot;
-    Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
-    &quot;
 
 다음 번에 클라이언트 콘솔이 연결되면 사용자에게 새로운 업데이트 사용 가능 여부를 알려 주고 이를 다운로드하고 설치할 수 있는 기회를 제공합니다.
 
@@ -344,7 +344,7 @@ postupgrade_ServerVersionNumber_TimeOfPostupgrade.log **** 파일에는 동기�
 * 개체가 업그레이드되지 않습니다.
 * 장기적인 영향:버전 비호환성, 고객은 버그 수정을 활용할 수 없습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >충돌을 해결하는 것이 좋습니다.
 
 
@@ -408,7 +408,7 @@ postupgrade_ServerVersionNumber_TimeOfPostupgrade.log **** 파일에는 동기�
 1. 테스트 환경에서 수행
 
 
->[!CAUTION]
+>[!IMPORTANT]
 >복잡한 병합을 수행하려면 개발 기술이 필요합니다.
 
 
