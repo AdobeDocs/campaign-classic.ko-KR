@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: 5e9c17ad-14d2-4173-9fc9-0e48a21426c8
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Adobe Campaign 모듈도 많이 있습니다 일부는 지속적으로 작동하
 
 nlserver 도구의 일반 **구문은 다음과** 같습니다.
 
-**nlserver`<command>``<command arguments>`**
+**nlserver `<command>``<command arguments>`**
 
 사용 가능한 모듈 목록은 nlserver **명령을** 사용합니다.
 
@@ -79,11 +79,11 @@ nlserver 도구의 일반 **구문은 다음과** 같습니다.
 | 웹 | 응용 프로그램 서버(HTTP 및 SOAP) |
 | wfserver | 워크플로 서버 |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >마지막 한 모듈이 있습니다.성능을 위해 기본 메커니즘을 통해 Apache 또는 IIS 웹 서버에 동적 라이브러리를 통해 통합되는 추적 및 릴레이 모듈입니다. 이 모듈을 시작하거나 관리할 수 있는 Adobe Campaign 명령이 없습니다. 따라서 웹 서버 자체의 명령을 사용해야 합니다.
 
-모듈 사용 및 해당 매개 변수의 구문은 다음 명령을 사용하여 표시됩니다. **nlserver`[module]`-?**
+모듈 사용 및 해당 매개 변수의 구문은 다음 명령을 사용하여 표시됩니다. **nlserver `[module]` -?**
 
 예제:
 
