@@ -12,15 +12,25 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d15e953740b0a4dd8073b36fd59b4c4e44906340
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1266'
 ht-degree: 1%
 
 ---
 
 
-# 트리거 이벤트 {#events}
+# 사용자 지정 구현을 위한 이벤트 구성 {#events}
+
+이 구성의 일부는 사용자 정의 개발이며 다음을 필요로 합니다.
+
+* Adobe Campaign의 JSON, XML 및 Javascript 구문 분석에 대한 작업 지식
+* QueryDef 및 Writer API에 대한 작업 지식
+* 개인 키를 사용한 암호화 및 인증 작업
+
+JS 코드를 편집하려면 기술 기술이 필요하므로 제대로 이해하지 않으면 시도하지 마십시오.
+
+이벤트의 추가 처리는 기본 구현 밖에서 제공되는 ACX 패키지의 일부로 수행됩니다. 수신한 이벤트는 JavaScript 코드를 사용하여 즉시 처리됩니다. 더 이상 실시간으로 처리되지 않고 데이터베이스 테이블에 저장됩니다. 트리거는 이메일을 보내는 캠페인 워크플로에 의한 타깃팅에 사용됩니다. 캠페인을 설정하여 이벤트를 트리거한 고객이 이메일을 수신하게 됩니다.
 
 ## JavaScript에서 이벤트 처리 {#events-javascript}
 
@@ -48,16 +58,16 @@ function processPipelineMessage(xmlTrigger) {}
 <undefined/>
 ```
 
-JS를 편집한 [!DNL pipelined] 후 다시 시작합니다.
+JS를 편집한 [!DNL pipelined] 후 다시 시작해야 합니다.
 
 ### 데이터 형식 트리거 {#trigger-format}
 
-이 [!DNL trigger] 데이터는 JS 함수로 전달됩니다. XML 포맷으로 되어 있습니다.
+이 [!DNL trigger] 데이터는 XML 형식으로 JS 함수로 전달됩니다.
 
 * 속성에는 **[!UICONTROL @triggerId]** 해당 속성의 이름이 포함되어 [!DNL trigger]있습니다.
-* JSON **형식의** 추가 요소는 Analytics에서 생성된 데이터를 포함하며 트리거에 첨부됩니다.
+* JSON **형식의** 농축은 Adobe Analytics에서 생성된 데이터를 포함하며 트리거에 첨부됩니다.
 * **[!UICONTROL @offset]** 은 메시지에 대한 &quot;포인터&quot;입니다. 큐 내의 메시지 순서를 나타냅니다.
-* **[!UICONTROL @partitio]**n은 큐 내의 메시지 컨테이너입니다. 오프셋이 파티션에 비례합니다. <br>큐에는 약 15개의 파티션이 있습니다.
+* **[!UICONTROL @partition]** 은 큐 내의 메시지 컨테이너입니다. 오프셋이 파티션에 비례합니다. <br>큐에는 약 15개의 파티션이 있습니다.
 
 예제:
 
@@ -68,18 +78,18 @@ JS를 편집한 [!DNL pipelined] 후 다시 시작합니다.
  </trigger>
 ```
 
-### 데이터 형식 강화 {#enrichment-format}
+### 데이터 포맷 강화 {#enrichment-format}
 
 >[!NOTE]
 >
 >가능한 다양한 구현의 특정 예입니다.
 
-컨텐츠는 각 트리거에 대해 Analytics에 정의됩니다. JSON 포맷으로 되어 있습니다.
+컨텐츠는 각 트리거에 대해 Adobe Analytics의 JSON 형식으로 정의됩니다.
 예를 들어 LogoUpload_uploading_Visits 트리거
 
-* **[!UICONTROL eVar01]** 에는 캠페인 수신자와 대사하는 데 사용되는 구매자 ID가 포함될 수 있습니다. 문자열 형식입니다. <br>주요 열쇠인 구매자 ID를 찾기 위해 조정해야 한다.
+* **[!UICONTROL eVar01]** 는 Adobe Campaign 받는 사람과 대사하는 데 사용되는 String 형식의 Shopper ID를 포함할 수 있습니다. <br>주요 열쇠인 구매자 ID를 찾기 위해 조정해야 한다.
 
-* **[!UICONTROL timeGMT]** 는 Analytics 측의 트리거 시간을 포함할 수 있습니다. UTC Epoch 형식(01/01/1970 UTC 이후 초)입니다.
+* **[!UICONTROL timeGMT]** adobe analytics 측의 트리거 시간(UTC Epoch 형식(01/01/1970 UTC 이후 초)을 포함할 수 있습니다.
 
 예제:
 
@@ -105,7 +115,7 @@ JS를 편집한 [!DNL pipelined] 후 다시 시작합니다.
  }
 ```
 
-### 이벤트 처리 순서 {#order-events}
+### 이벤트 처리 순서{#order-events}
 
 이벤트는 오프셋 순서로 한 번에 하나씩 처리됩니다. Each thread of the [!DNL pipelined] processes a different partition.
 
@@ -113,16 +123,16 @@ JS를 편집한 [!DNL pipelined] 후 다시 시작합니다.
 
 이 포인터는 각 인스턴스와 각 소비자에 따라 다릅니다. 따라서 많은 인스턴스가 서로 다른 소비자와 동일한 파이프라인에 액세스하면 각각 모든 메시지를 동일한 순서로 받게 됩니다.
 
-파이프라인 옵션의 &quot;consumer&quot; 매개 변수는 호출 인스턴스를 식별합니다.
+파이프라인 옵션의 **소비자** 매개 변수는 호출 인스턴스를 식별합니다.
 
 현재, &#39;staging&#39; 또는 &#39;dev&#39;와 같은 별도의 환경에 대해 다른 대기열이 있을 수 있는 방법은 없습니다.
 
 ### 로깅 및 오류 처리 {#logging-error-handling}
 
-logInfo()와 같은 로그는 [!DNL pipelined] 로그에 전달됩니다. logError()와 같은 오류는 [!DNL pipelined] 로그에 기록되므로 이벤트가 다시 시도 대기열에 추가됩니다. 파이프라인 로그를 확인합니다.
+logInfo()와 같은 로그는 [!DNL pipelined] 로그에 전달됩니다. logError()와 같은 오류는 [!DNL pipelined] 로그에 기록되므로 이벤트가 다시 시도 대기열에 추가됩니다. 이 경우 계산된 로그를 확인해야 합니다.
 오류 메시지가 옵션에 설정된 지속 시간에 여러 번 [!DNL pipelined] 다시 시도됩니다.
 
-디버깅 및 모니터링을 위해 전체 트리거 데이터는 트리거 테이블에 기록됩니다. XML 형식의 &quot;데이터&quot; 필드에 있습니다. 또는 트리거 데이터를 포함하는 logInfo()는 동일한 용도로 사용됩니다.
+디버깅 및 모니터링을 위해 전체 트리거 데이터는 XML 형식의 &quot;데이터&quot; 필드의 트리거 테이블에 기록됩니다. 또는 트리거 데이터를 포함하는 logInfo()는 동일한 용도로 사용됩니다.
 
 ### 데이터 구문 분석 {#data-parsing}
 
@@ -172,13 +182,13 @@ function processPipelineMessage(xmlTrigger)
  data = {xmlTrigger.toXMLString()}
  />
  xtk.session.Write(event)
- return <undef/>; 
+ return <undef/>;
  }
 ```
 
 ### 제한 {#constraints}
 
-이 코드는 높은 주파수에서 실행되므로 성능이 최적화되어야 합니다. 다른 마케팅 활동에는 부정적인 효과가 있을 수 있습니다. 특히 Marketing Server에서 시간당 100만 개 이상의 트리거 이벤트를 처리하는 경우. 또는 제대로 조정되지 않은 경우
+이 코드의 성능은 고주파수로 실행되므로 최적이어야 하며 다른 마케팅 활동에 부정적인 영향을 줄 수 있습니다. 특히 마케팅 서버에서 시간당 100만 개 이상의 트리거 이벤트를 처리하거나 제대로 조정되지 않은 경우
 
 이 Javascript의 컨텍스트는 제한됩니다. API의 일부 기능을 사용할 수 있는 것은 아닙니다. 예를 들어 getOption() 또는 getCurrentdate()는 작동하지 않습니다.
 
@@ -223,20 +233,20 @@ triggerType 필드는 데이터가 발생하는 트리거로부터 식별합니�
 
 ### 조정 워크플로우 {#reconciliation-workflow}
 
-화해란 Analytics의 고객을 Campaign 데이터베이스에 연결하는 프로세스입니다. 예를 들어 일치에 대한 기준은 shopper_id일 수 있습니다.
+화해란 Adobe Analytics의 고객을 Adobe Campaign 데이터베이스에 연결하는 프로세스입니다. 예를 들어 일치에 대한 기준은 shopper_id일 수 있습니다.
 
 성능상의 이유로 워크플로우에서 일치를 일괄 처리 모드로 수행해야 합니다.
 작업 로드를 최적화하려면 빈도를 15분으로 설정해야 합니다. 따라서 Adobe Campaign의 이벤트 수신과 마케팅 워크플로우에 의한 처리 사이의 지연 시간은 최대 15분입니다.
 
 ### JavaScript의 단위 조정 옵션 {#options-unit-reconciliation}
 
-이론적으로는 JavaScript의 각 트리거에 대해 조정 쿼리를 실행할 수 있습니다. 성능도 향상되어 보다 빠른 결과를 얻을 수 있습니다. 재활동이 필요할 때 특정 사용 사례에 필요할 수 있습니다.
+JavaScript의 각 트리거에 대해 조정 쿼리를 실행할 수 있습니다. 성능도 향상되어 보다 빠른 결과를 얻을 수 있습니다. 재활동이 필요할 때 특정 사용 사례에 필요할 수 있습니다.
 
-shopper_id에 인덱스가 설정되어 있지 않으면 하기가 어려울 수 있습니다. 기준이 마케팅 서버가 아닌 별도의 데이터베이스 서버에 있는 경우 데이터베이스 링크를 사용하므로 성능이 저하됩니다.
+shopper_id에 인덱스가 설정되어 있지 않으면 구현하기가 어려울 수 있습니다. 기준이 마케팅 서버가 아닌 별도의 데이터베이스 서버에 있는 경우 데이터베이스 링크를 사용하므로 성능이 저하됩니다.
 
 ### 제거 워크플로우 {#purge-workflow}
 
-트리거는 1시간 이내에 처리되므로 오랫동안 보관할 이유가 없습니다. 볼륨은 시간당 약 100만 개의 트리거일 수 있습니다. 삭제 워크플로우가 필요한 이유를 설명합니다. 제거는 3일 이상 오래된 모든 트리거를 삭제하고 하루에 한 번 실행됩니다.
+트리거는 1시간 이내에 처리됩니다. 볼륨은 시간당 약 100만 개의 트리거일 수 있습니다. 삭제 워크플로우가 필요한 이유를 설명합니다. 제거는 하루에 한 번 실행되며 3일이 넘는 모든 트리거를 삭제합니다.
 
 ### 캠페인 워크플로우 {#campaign-workflow}
 
