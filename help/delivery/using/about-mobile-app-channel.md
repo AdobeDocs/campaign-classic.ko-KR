@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 6b3fe8b9-dae6-4f8e-83e1-3376c0fe72a5
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '753'
 ht-degree: 1%
 
 ---
@@ -59,14 +59,14 @@ ht-degree: 1%
 
 (mobileAppOptOutMgt) **[!UICONTROL NMAC opt-out management]** 작업 과정은 모바일 장치에서 알림 구독 취소를 업데이트합니다. For more information on this workflow, refer to the [Workflows guide](../../workflow/using/mobile-app-channel.md).
 
-Adobe Campaign은 바이너리 및 HTTP/2 APNS와 호환됩니다. 구성 단계에 대한 자세한 내용은 Adobe Campaign에서 [모바일 애플리케이션 구성 섹션을](../../delivery/using/configuring-the-mobile-application.md) 참조하십시오.
+Adobe Campaign은 바이너리 및 HTTP/2 APN과 호환됩니다. 구성 단계에 대한 자세한 내용은 Adobe Campaign에서 [모바일 애플리케이션 구성 섹션을](../../delivery/using/configuring-the-mobile-application.md) 참조하십시오.
 
 ## 데이터 경로 {#data-path}
 
 다음 스키마는 모바일 응용 프로그램이 Adobe Campaign과 데이터를 교환할 수 있도록 하는 단계를 자세히 설명합니다. 이 프로세스에는 다음 세 개의 개체가 포함됩니다.
 
 * 모바일 애플리케이션
-* 알림 서비스:Apple용 APNS(Apple Push Notification 서비스) 및 Android용 FCM(Firebase Cloud Messaging)
+* 알림 서비스:Apple 및 Android용 FCM(Firebase Cloud Messaging)용 APNs(Apple Push Notification 서비스)
 * Adobe Campaign
 
 알림 프로세스의 세 가지 주요 단계는 다음과 같습니다.adobe campaign(구독 컬렉션), 배송 및 추적에서 애플리케이션 등록
@@ -88,10 +88,14 @@ Adobe Campaign은 바이너리 및 HTTP/2 APNS와 호환됩니다. 구성 단계
 
 ![](assets/nmac_delivery_view.png)
 
-Adobe Campaign 서버는 다음 포트에서 APNS 서버에 연결할 수 있어야 합니다.
+Adobe Campaign 서버는 다음 포트에서 APNs 서버에 연결할 수 있어야 합니다.
 
 * iOS 이진 커넥터에 대한 2195(전송) 및 2186(피드백 서비스)
 * iOS HTTP/2 커넥터용 443
+
+   >[!NOTE]
+   >
+   > Campaign 20.3 릴리스를 시작하는 경우 iOS 레거시 바이너리 커넥터는 더 이상 사용되지 않습니다. 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
 
 제대로 작동하는지 확인하려면 다음 명령을 사용하십시오.
 
@@ -107,7 +111,7 @@ Adobe Campaign 서버는 다음 포트에서 APNS 서버에 연결할 수 있어
    telnet gateway.push.apple.com
    ```
 
-iOS 바이너리 커넥터를 사용하는 경우 MTA 및 웹 서버는 포트 2195(전송)의 APNS에 연결할 수 있어야 하며, 워크플로우 서버는 포트 2196(피드백 서비스)의 APNS에 문의할 수 있어야 합니다.
+iOS 이진 커넥터를 사용하는 경우 MTA 및 웹 서버가 포트 2195(전송)의 APN에 연결할 수 있어야 하며, 워크플로우 서버는 포트 2196(피드백 서비스)의 APNs에 연결할 수 있어야 합니다.
 
-iOS HTTP/2 커넥터를 사용하는 경우 MTA, 웹 서버 및 워크플로우 서버는 포트 443의 APNS에 연결할 수 있어야 합니다.
+iOS HTTP/2 커넥터를 사용하는 경우 MTA, 웹 서버 및 워크플로우 서버가 포트 443의 APNs에 연결할 수 있어야 합니다.
 
