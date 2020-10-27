@@ -1,6 +1,6 @@
 ---
 title: Gold Standard 릴리스
-description: Gold Standard 릴리스
+description: Campaign Classic Gold Standard 릴리스 노트
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 877ca2275c9338377da9e435e070c9911314fe51
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '820'
 ht-degree: 15%
 
 ---
@@ -20,15 +20,13 @@ ht-degree: 15%
 
 # Gold Standard 릴리스{#gold-standard}
 
-Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로 Gold Standard 업그레이드를 자동 활용할 수 있습니다.
+Gold Standard는 Campaign Classic 장기 지원 릴리스입니다. Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로 Gold Standard 업그레이드를 자동 활용할 수 있습니다. 온-프레미스 및 하이브리드 고객은 Gold Standard 릴리스를 활용할 수 있습니다.
 
-온-프레미스 및 하이브리드 고객은 Gold Standard 릴리스를 활용할 수 있습니다.
-
-장기 지원 릴리스입니다. 이전 빌드에서 마이그레이션하는 경우 먼저 이 버전으로 업그레이드하는 것이 좋습니다.
+이전 빌드에서 마이그레이션하는 경우 먼저 이 버전으로 업그레이드하는 것이 좋습니다.
 
 이 페이지에는 Gold Standard 릴리스가 나열됩니다.
 
-Gold Standard 업그레이드에 대한 자세한 내용은 이 [문서를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html).
+Campaign Gold Standard 프로그램에 대한 자세한 내용은 이 문서 [를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html).
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 10 릴리스{#gs-10}
 
@@ -40,7 +38,7 @@ _2020년 7월 7일_
 
 >[!CAUTION]
 >
->이 릴리스에서 사용할 수 있는 클라이언트 콘솔을 업그레이드하는 것이 좋습니다. Refer to this [page](../../installation/using/installing-the-client-console.md)
+>이 릴리스에서 사용할 수 있는 클라이언트 콘솔을 업그레이드하는 것이 좋습니다. Refer [to this page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 9 릴리스{#gs-9}
 
@@ -50,7 +48,7 @@ _2020년 6월 22일_
 
 * iOS HTTP2 커넥터가 개선되었습니다(타사 업데이트 및 오류 관리). (NEO-25904, NEO-25903, NEO-25799)
 
-다음 수정 사항은 추적 링크 보안 메커니즘과 관련되어 있습니다( [보안 및 개인 정보 확인 목록 참조](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)).
+다음 수정 사항은 추적 링크 보안 메커니즘과 관련되어 있습니다( [보안 및 개인 정보 보호 체크리스트에 자세한 내용](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)).
 
 * &quot;알림 클릭&quot; 추적이 작동하지 않는 문제를 해결했습니다(iOS 및 Android 푸시 알림). (NEO-25965)
 * 특정 이전 버전의 Outlook을 사용할 때 추적 URL을 열거나 클릭하지 못하는 문제를 해결했습니다.  (NEO-25688)
@@ -68,7 +66,7 @@ _2020년 4월 29일_
 
 >[!CAUTION]
 >
->추적 링크를 사용한 푸시 알림 또는 앵커 태그를 사용한 게재 관련 문제가 발생하는 경우 링크 추적을 위해 새 서명 메커니즘을 비활성화하는 것이 좋습니다. 절차는 이 [페이지에 자세히 설명되어 있습니다](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
+>추적 링크를 사용한 푸시 알림 또는 앵커 태그를 사용한 게재 관련 문제가 발생하는 경우 링크 추적을 위해 새 서명 메커니즘을 비활성화하는 것이 좋습니다. 절차는 이 페이지 [에 자세히 설명되어 있습니다](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
 
 * 라인 전달에 이미지가 표시되지 않는 문제를 해결했습니다. (NEO-23207)
 * SFTP 키 기반 인증이 Debian 9에서 작동하지 않는 **파일 전송** 활동 문제를 해결했습니다. (NEO-23183)
