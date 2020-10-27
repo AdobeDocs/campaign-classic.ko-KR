@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: message-templates
 discoiquuid: 2cd8a320-37e8-410a-b71b-0c13c8e15482
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 # 개인화 데이터{#personalization-data}
 
-메시지 템플릿의 데이터를 사용하여 트랜잭션 메시지 개인화를 테스트할 수 있습니다. 이 기능은 미리 보기를 생성하거나 증거를 전송하는 데 사용됩니다. 배달 **기능** 모듈을 설치하면 이 데이터를 통해 다양한 인터넷 액세스 공급자에 대한 메시지 렌더링을 표시할 수 있습니다(받은 편지함 렌더링&#x200B;****:자세한 내용은 [이 섹션을 참조하십시오](../../delivery/using/about-deliverability.md).
+메시지 템플릿의 데이터를 사용하여 트랜잭션 메시지 개인화를 테스트할 수 있습니다. 이 기능은 미리 보기를 생성하거나 증거를 전송하는 데 사용됩니다. 배달 **기능** 모듈을 설치하면 이 데이터를 통해 다양한 인터넷 액세스 공급자에 대한 메시지 렌더링을 표시할 수 있습니다(받은 편지함 렌더링&#x200B;****:자세한 내용은 [이 섹션을 참조하십시오](../../delivery/using/inbox-rendering.md).
 
 이 데이터의 목적은 메시지를 최종 전달하기 전에 테스트하는 것입니다. 이러한 메시지는 메시지 센터에서 처리할 실제 데이터와 일치하지 않습니다. 그러나 XML 구조는 아래와 같이 실행 인스턴스에 저장된 이벤트의 구조와 동일해야 합니다.
 
@@ -34,4 +34,3 @@ ht-degree: 5%
 1. 이벤트 내용에서 테스트 정보를 XML 형식으로 입력합니다.
 
    ![](assets/messagecenter_create_custo_001.png)
-
