@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 translation-type: tm+mt
-source-git-commit: 87ad4d4fc69d75e4367e7467ce27de29f58f9445
+source-git-commit: 285cf8c6521696a0a94f6ffd8fc1eb148977836d
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '507'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ Adobe Campaign을 선택하여 시작할 수 있습니다 **[!UICONTROL Start / 
 
 클라이언트 콘솔 연결 창을 사용하면 기존 데이터베이스를 선택하거나 구성하고 사용자 이름과 암호를 사용하여 데이터베이스에 연결할 수 있습니다.
 
-![](assets/s_ncs_user_login.png)
+![](assets/acc-logon.png)
 
 ## Adobe Campaign 연결 중 {#connecting-to-adobe-campaign}
 
@@ -46,7 +46,7 @@ Adobe ID을 사용하여 Adobe Campaign에 연결할 수 있습니다. 자세한
 
    데이터베이스에 처음 액세스할 때 암호는 관리자가 사용자에게 부여하는 암호입니다. 인터넷에 연결되면 **[!UICONTROL Tools > Change password...]** 메뉴를 통해 암호를 변경할 수 있습니다. 연산자 및 연결에 대한 자세한 내용은 [액세스 관리에서 확인할 수 있습니다](../../platform/using/access-management.md).
 
-1. 을 **[!UICONTROL Log in]** 클릭하여 확인합니다.
+1. 을 **[!UICONTROL LOG IN]** 클릭하여 확인합니다.
 
 이제 [Adobe Campaign 작업 영역에 액세스할 수 있습니다](../../platform/using/adobe-campaign-workspace.md).
 
@@ -57,8 +57,6 @@ Adobe ID을 사용하여 Adobe Campaign에 연결할 수 있습니다. 자세한
 ![](assets/s_ncs_user_connections_management.png)
 
 In the **[!UICONTROL Connections]** window, click **[!UICONTROL Add > Connection]**.
-
-![](assets/s_ncs_user_add_connexion.png)
 
 그런 다음 연결 설정을 정의해야 합니다. 방법은 다음과 같습니다.
 
@@ -97,7 +95,7 @@ Adobe Campaign에서 연결을 끊으려면 아이콘 막대에서 첫 번째 �
 
 ![](assets/about-acc.png)
 
-Adobe 고객 지원 팀에 연락할 때마다 Campaign 클라이언트 콘솔 및 애플리케이션 서버의 버전 번호와 빌드 번호를 제공해야 합니다.
+Adobe 고객 지원 센터에 문의할 때마다 Adobe Campaign 클라이언트 콘솔 및 애플리케이션 서버의 버전 번호와 빌드 번호를 제공해야 합니다.
 
 Campaign Gold [Standard 버전에서](../../rn/using/gold-standard.md)실행 중인 경우 **[!UICONTROL About]** 상자에 표시된 SHA/1 문자도 공유해야 합니다. 예를 들어 Gold **Standard 10 릴리스의**&#x200B;경우 빌드 번호는 아래와 같이 **빌드 9032@efd8a94**&#x200B;으로 표시됩니다.
 
@@ -107,6 +105,6 @@ Campaign Gold [Standard 버전에서](../../rn/using/gold-standard.md)실행 중
 
 **관련 항목**:
 
-* [캠페인 지원 옵션](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
-* [소프트웨어 배포](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)
-* [Experience Cloud 지원 및 전문가 세션](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* [Adobe Campaign 도움말 및 지원 옵션](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
+* [Adobe 소프트웨어 배포](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)
+* [Adobe Experience Cloud 지원 및 전문가 세션](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
