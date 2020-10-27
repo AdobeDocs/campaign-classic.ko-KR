@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: annexes
 discoiquuid: 07be1d3c-b038-48ca-be37-a33adb8e0fc0
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: a0ab8794bdbdfbe627bf33580dc8991793447336
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 1%
@@ -129,7 +129,7 @@ Facebook에서 Adobe Campaign으로 전달된 익명 데이터 중 필드 값이
 
 ## 팬 데이터를 얻는 방법 {#how-to-acquire-fan-data-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Facebook 애플리케이션 만들기에 설명된 [구성 단계를 따릅니다](../../social/using/creating-a-facebook-application.md).
 
@@ -250,7 +250,7 @@ Facebook에 연결된 표시 오류를 피하려면 대회 페이지의 필드 *
 
 1. 필드에서 **[!UICONTROL Mapping]** 조정을 수행할 스키마를 선택합니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >배달 매핑에서 **[!UICONTROL Social networks]** 탭의 필드가 올바르게 입력되었는지 확인합니다. 배달 매핑은 노드를 통해 **[!UICONTROL Administration > Campaign management > Target mappings]** 액세스합니다.
 
