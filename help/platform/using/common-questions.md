@@ -1,7 +1,6 @@
 ---
 title: 일반적인 질문
-seo-title: 일반적인 질문
-description: Campaign Classic FAQ
+description: Adobe Campaign Classic FAQ
 page-status-flag: never-activated
 uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
 contentOwner: sauviat
@@ -11,17 +10,23 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
+source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 98%
+source-wordcount: '539'
+ht-degree: 87%
 
 ---
 
 
 # 일반적인 질문{#common-questions}
 
-Campaign Classic을 사용하여 작업하는 동안 도움이 필요하십니까? 아래의 상위 10개 질문과 해당 페이지의 기타 FAQ를 참조하십시오. 또한 [자습서 비디오를 보고](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/overview.html) 캠페인 [시작 안내서를](../../platform/using/tutorials.md#step-by-step-guides) 읽어 주요 기능을 배울 수 있습니다. 답을 찾을 수 없습니까? [커뮤니티에 질문합니다](https://forums.adobe.com/community/experience-cloud/marketing-cloud/campaign).
+Campaign Classic을 사용하여 작업하는 동안 도움이 필요하십니까? 아래의 상위 10개 질문과 해당 페이지의 기타 FAQ를 참조하십시오. 다음을 수행할 수도 있습니다.
+
+* [자습서 비디오 보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/overview.html)
+* [자가 도움말 옵션 찾아보기](../../platform/using/tutorials.md#how-to-videos)
+* [시작하기 및 활용 사례 섹션 보기](../../platform/using/tutorials.md#step-by-step-guides)
+* 답을 찾을 수 없습니까? [전문가에게 문의](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+* 지원이 필요하십니까? [캠페인 도움말 및 지원 옵션을 참조하십시오.](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
 
 ## 1. Campaign을 최신 버전으로 업그레이드하려면 어떻게 해야 합니까? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
@@ -29,7 +34,7 @@ Adobe Campaign Classic은 특히 다양한 기술을 사용하여 가치를 전�
 
 Adobe Managed Services을 사용하는 경우 Campaign Gold Standard 업그레이드를 활용할 수 있습니다. 자세한 정보는 [이 문서](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html)를 참조하십시오.
 
-[이 문서를 참조하여](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html) 환경을 업데이트하고 이 특정 주제에 대한 [일반적인 질문](https://helpx.adobe.com/kr/campaign/kb/build-upgrade-faq.html)을 읽는 방법을 배웁니다.
+[이 섹션을](../../production/using/build-upgrade.md) 참조하여 환경을 업데이트하고 이 특정 주제에 [대한 일반적인 질문](../../platform/using/faq-build-upgrade.md) 을 읽으십시오.
 
 ## 2. 데이터베이스 정리 워크플로우란 무엇입니까? {#what-is-the-database-cleanup-workflow-}
 
