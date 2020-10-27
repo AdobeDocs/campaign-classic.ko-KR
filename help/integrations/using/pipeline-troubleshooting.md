@@ -12,24 +12,24 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3e73d7c91fbe7cff7e1e31bdd788acece5806e61
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 1%
+source-wordcount: '585'
+ht-degree: 2%
 
 ---
 
 
 # 파이프라인 문제 해결 {#pipeline-troubleshooting}
 
-**&quot;마스크 피선된@&quot;에 해당하는 작업이 없습니다.&quot; 오류**
+**&quot;연결된 마스크@&lt; 인스턴스 >&quot;에 해당하는 작업이 없습니다.**
 
 귀하의 Adobe Campaign Classic 버전은 파이프라인을 지원하지 않습니다.
 
 1. 구성 파일에 [!DNL pipelined] 요소가 있는지 확인합니다. 그렇지 않으면 지원되지 않음을 의미합니다.
 1. 버전 6.11 빌드 8705 이상으로 업그레이드하십시오.
 
-**&quot;Aurait domenencer par ou(iRc=16384)&quot;로 피펜드`[``{`가 실패합니다.**
+**&quot;Aurait domenencer par ou(iRc=16384)&quot;로 피펜드 `[` `{` 가 실패합니다.**
 
 NmsPipeline_ **Config** 옵션이 설정되지 않았습니다. JSON 구문 분석 오류입니다.
 NmsPipeline_Config 옵션에서 **JSON 구성을 설정합니다**. 이 페이지에서 &quot;라우팅 옵션&quot;을 참조하십시오.
@@ -49,7 +49,7 @@ IMSOrgid 구성이 잘못되었습니다.
 1. authPrivateKey가 설정되어 있는지 확인합니다.
 1. authPrivateKey 확인:은 @, 다음으로 끝남 =, 길이는 약 4,000자입니다.
 1. 원래 키를 찾아 다음 사항을 확인합니다.4096비트 길이의 RSA 포맷으로, 다음으로 시작 —BEGIN RSA PRIVATE KEY—
-   <br> 필요한 경우 키를 다시 만들어 Adobe Analytics에 등록합니다. Refer to this [section](../../integrations/using/configuring-pipeline.md#oauth-client-creation).
+   <br> 필요한 경우 키를 다시 만들어 Adobe Analytics에 등록합니다.
 1. 키가 같은 인스턴스 내에서 인코딩되었는지 확인합니다 [!DNL pipelined]. <br>필요한 경우 샘플 JavaScript 또는 워크플로우를 사용하여 인코딩을 다시 실행합니다.
 
 **&quot;인증 중에 토큰을 읽을 수 없음&quot;으로 피지정됨 실패**
@@ -91,42 +91,3 @@ Analytics 타임스탬프가 Campaign의 이벤트 생성 날짜보다 훨씬 �
 1. 큐 크기에 대한 [!DNL pipelined] 상태 페이지를 확인합니다. 큐 크기가 큰 경우 JS의 성능을 개선하십시오.
 1. 지연 시간이 볼륨 증가되는 것처럼 보이므로 메시지 수를 줄여 Analytics에서 트리거를 구성합니다.
 Annex
-
-**키 암호화 JavaScript 사용 방법**
-
-JavaScript를 실행하여 개인 키를 암호화합니다. 파이프라인 구성에 필요합니다.
-
-다음은 cryptString 함수를 실행하는 데 사용할 수 있는 코드 샘플입니다.
-
-```
-/*
-USAGE:
-  nlserver javascript -instance:<instancename> -file -arg:"<private_key.pem file>" -file encryptKey.js
-*/
- 
-function usage()
-{
-  return "USAGE:\n" +
-    '  nlserver javascript -instance:<instancename> -file -arg:"<private_key.pem file>" -file encryptKey.js\n'
-}
- 
-var fn = application.arg;
-if( fn == "" )
-  logError("Missing key file file\n" + usage());
- 
-//open the pem file
-plaintext = loadFile(fn)
- 
-if( !plaintext.match(/^-----BEGIN RSA PRIVATE KEY-----/) )
-  logError("File should be an rsa private key")
- 
-logInfo("Encrypted key:\n" + cryptString(plaintext, <xtkSecretKey>))
-```
-
-서버에서 Javascript를 실행합니다.
-
-```
-nlserver javascript -instance:<instancename> -file -arg:"<private_key.pem file>" -file encryptKey.js
-```
-
-출력에서 인코딩된 키를 복사하여 콘솔에 붙여 넣습니다.
