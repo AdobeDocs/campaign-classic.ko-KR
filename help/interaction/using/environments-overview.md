@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: managing-environments
 discoiquuid: c7b4103d-99b2-4e64-a457-ee0e3326b172
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 여러 가지 사용자 프로필은 오퍼를 관리하고 사용하는 데 관련되어 있습니다. 따라서 첫 번째 단계는 이러한 프로파일이 존재하는지 확인하고 그렇지 않으면 프로파일을 생성하는 것입니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >다음 구성은 **기술 관리자가 수행해야 합니다**.
 
