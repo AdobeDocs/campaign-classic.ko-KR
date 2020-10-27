@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
 workflow-type: tm+mt
 source-wordcount: '1576'
 ht-degree: 2%
@@ -239,6 +239,6 @@ For more on proof sending, refer to [this section](../../delivery/using/steps-va
 다음을 참조하십시오.
 * [증명 대상 선택](#selecting-the-proof-target)
 
-* [시드 주소 정보](../../delivery/using/about-seed-addresses.md)
+* [시드 주소 기본 정보](../../delivery/using/about-seed-addresses.md)
 
 * [사용 사례: 기준 시드 주소 선택](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
