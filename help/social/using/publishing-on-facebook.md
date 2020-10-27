@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: publishing-on-facebook-twitter
 discoiquuid: 335cf2de-1874-4e48-9538-f0937641cf96
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: a0ab8794bdbdfbe627bf33580dc8991793447336
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 3%
@@ -153,7 +153,7 @@ ht-degree: 3%
 
 다양한 필드를 입력합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >모든 URL은 **&quot;http://&quot;** 또는 **&quot;https://&quot;으로 시작해야 합니다**.
 
