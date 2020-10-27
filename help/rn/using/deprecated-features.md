@@ -2,7 +2,6 @@
 title: Campaign Classic deprecated and removed features
 description: 이 페이지에는 Adobe Campaign Classic의 사용이 중단되거나 제거된 기능이 나열됩니다.
 page-status-flag: never-activated
-uuid: null
 contentOwner: simonetn
 products: SG_CAMPAIGN/CLASSIC
 audience: rn
@@ -11,10 +10,10 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b9577d190f26e21f116d99d48fdf2bca84585d50
+source-git-commit: 87c2ee675b77be0f24a2028e7dbbf0bd1b91d46e
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 96%
+source-wordcount: '1607'
+ht-degree: 85%
 
 ---
 
@@ -45,9 +44,40 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
  <tbody> 
    <tr>
    <td><strong>기능</strong></td>
-   <td><strong>교체</strong></td> 
+   <td><strong>교체</strong></td>
   </tr>
+  <tr>
+  <td>CRM 커넥터<br></td>
+   <td><p>Campaign 20.3 릴리스를 시작하는 경우 다음 CRM 커넥터는 더 이상 사용되지 않습니다.</p>
+   <ul>
+   <li>Soap API - 온-프레미스:2007년, 2015년, 2016년</li>
+   <li>Soap API - 온라인:2015년, 2016년</li>
+   </ul>
+  <p><em>타겟 제거 날짜: 2021년</em></p>
+  </td>
+ </tr>
+  <tr>
+  <td>iOS 레거시 이진<br></td>
+  <td><p>Campaign 20.3 릴리스를 시작하는 경우 iOS 레거시 바이너리 커넥터는 더 이상 사용되지 않습니다.<p>
+  <p> 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다.
+  <a href="https://helpx.adobe.com/campaign/kb/migrate-to-http2.html">자세히 알아보기</a></p>
+  <p><em>타겟 제거 날짜: 2021년</em></p>
+  </td>
+ </tr>
    <tr>
+  <td>Demdex 도메인<br></td>
+  <td><p> Campaign 20.3 릴리스를 시작하면 대상을 Adobe Experience Cloud으로 가져오고 내보내는 데 사용되는 demdex 도메인이 더 이상 사용되지 않습니다.<p>
+  <p>외부 계정 가져오기/내보내기에 demdex 도메인을 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">자세히 알아보기</a></p> 
+  <p><em>타겟 제거 날짜: 2021년</em></p>
+  </td>
+  <tr>
+  <td>OAuth 인증(OAuth 및 JWT)<br></td>
+  <td><p> Campaign 20.3 릴리스를 시작하는 동안, 액세스 파이프라인에 대한 oAUTH 인증 설정을 기반으로 원래 통합 인증이 변경되었으며 Adobe I/O로 이동되었습니다. <p>
+  <p>트리거 통합을 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../integrations/using/about-triggers.md">자세히 알아보기</a></p> 
+  <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지를 참조하십시오</a></p> 
+  <p><em>Target 제거 날짜:2021년 4월</em></p>
+  </td>
+  </tr>
   <td>SMS 커넥터<br></td>
   <td><p> Campaign 20.2 릴리스를 시작하면 다음 SMS 커넥터는 더 이상 사용되지 않습니다.<p>
    <ul>
@@ -83,6 +113,10 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <td><strong>영역 - 기능</strong></td>
    <td><strong>교체</strong></td> 
   </tr> 
+   <tr> 
+   <td>Windows NT 인증<br></td>
+   <td><p>Campaign 20.3 릴리스를 시작으로 Microsoft SQL Server로 새 데이터베이스를 구성할 때 사용 가능한 인증 방법에서 Windows NT 인증이 제거되었습니다. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">자세히 알아보기</a></p></td>
+  </tr>
    <tr> 
    <td>파일 기반의 전자 메일 보관<br></td>
    <td><p>Campaign 20.2 릴리스를 시작으로 파일 기반 전자 메일 보관을 더 이상 사용할 수 없습니다. 이제 전용 숨은 참조 전자 메일 주소를 통해 전자 메일 보관 기능을 사용할 수 있습니다. <a href="../../installation/using/email-archiving.md">자세히 알아보기</a></p></td>
@@ -129,20 +163,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 
 ### Adobe Campaign 20.2 릴리스 {#compat-20-2-release}
 
-20.2 릴리스부터 다음 시스템은 Campaign Classic에 대해 더 이상 사용되지 않습니다. 호환성은 20.3 릴리스 - 2020년 10월에 종료됩니다.
-
-* 클라이언트 콘솔: Windows 7
-* 기존 SMS 커넥터 - 사용되지 않는 [기능 참조](#deprecated-features)
-* FDA(Federated Data Access)용 DB2 UDB 10.5
-
-### Adobe Campaign 19.2 릴리스  {#compat-19-2-release}
-
-19.2 릴리스부터 다음 운영 체제는 Campaign Classic에서 더 이상 사용되지 않습니다. 호환성은 2020년 말에 종료됩니다.
-
-* 웹 서버: Apache 2.2.
-* 운영 체제: CentOS 6.
-
-최신 버전으로 업그레이드하거나 새 시스템으로 이동하려면 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.
+20.2 릴리스부터 레거시 SMS 커넥터는 더 이상 사용되지 않습니다. 더 이상 사용되지 [않는 기능 섹션을 참조하십시오.](#deprecated-features)
 
 ## 호환성 종료 {#end-of-compatibility}
 
@@ -155,7 +176,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 편집기에서 사용 중단되었으므로 다음 시스템에서는 Adobe Campaign Classic 클라이언트 콘솔을 더 이상 실행할 수 없습니다. 이러한 버전 중 하나에서 Campaign 클라이언트 콘솔을 실행하는 고객은 타겟 제거 날짜 전에 최신 버전으로 업그레이드해야 합니다. [호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.
 
 * Windows Server 2003, 2008, 2008 R2
-* Windows XP, Vista
+* Windows 7, XP, Vista
 
 >[!NOTE]
 >Campaign 20.1 릴리스부터 Campaign Classic 클라이언트 콘솔 32비트는 더 이상 Campaign 최신 버전과 호환되지 않습니다. 64비트 클라이언트 콘솔을 사용해야 합니다.
@@ -165,6 +186,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 
 19.1 릴리스부터 Adobe Campaign은 더 이상 다음 운영 체제와 호환되지 않습니다.
 
+* CentOS 6 [자세한 내용](https://wiki.centos.org/Download)
 * Debian 7. [자세히 알아보기](https://wiki.debian.org/DebianReleases)
 * RHEL 6.x. [자세한 내용](https://access.redhat.com/support/policy/updates/errata)
 * Windows Server 2008. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/1163)
@@ -174,6 +196,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 
 19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 웹 서버와 호환되지 않습니다.
 
+* Apache 2.2. [자세한 내용](https://httpd.apache.org/)
 * Microsoft IIS 7. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/810)
 
 ### 도구 {#tools-eol}
@@ -191,7 +214,11 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 
 **FDA (FEDERATED DATA ACCESS)**
 
-19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 FDA 서버와 호환되지 않습니다.
+20.2 릴리스를 시작으로 Adobe Campaign은 다음 FDA 서버와 더 이상 호환되지 않습니다.
+
+* DB2 UDB 10.5
+
+19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 FDA 서버와 호환되지 않습니다:
 
 * PostgreSQL 9.3. [자세히 알아보기](https://www.postgresql.org/support/versioning)
 * MySQL 5.5. [자세히 알아보기](http://www.fromdual.com/support-for-mysql-from-oracle)
