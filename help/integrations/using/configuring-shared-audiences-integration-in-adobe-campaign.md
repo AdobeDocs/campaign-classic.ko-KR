@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: audience-sharing
 discoiquuid: 4443b0ca-80c6-467d-a4df-50864aae8496
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d567cb7dbc55d9c124d1cc83b7a5a9e2dfb5ab61
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '491'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,10 @@ ht-degree: 2%
 1. [3단계:캠페인 추적 서버 구성](#step-3--configure-campaign-tracking-server)
 1. [4단계:방문자 ID 서비스 구성](#step-4--configure-the-visitor-id-service)
 
+>[!IMPORTANT]
+>
+>demdex 도메인을 사용하고 외부 계정 가져오기에 대한 **ftp-out.demdex.com** 구문을 따르는 경우, **external account** 내보내기에 맞게 구현을 조정하고 Amazon Simple Storage Service (S3) 커넥터로 이동하여 데이터를 가져오거나 내보내야 합니다. Amazon S3로 외부 계정을 구성하는 방법에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign).
+
 ## 1단계:Adobe Campaign에서 외부 계정 구성 또는 확인 {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 먼저 Adobe Campaign의 외부 계정을 다음과 같이 구성하거나 확인해야 합니다.
@@ -36,26 +40,35 @@ ht-degree: 2%
 1. 아이콘을 **[!UICONTROL Explorer]** 클릭합니다.
 1. 로 **[!UICONTROL Administration > Platform > External accounts]**&#x200B;이동합니다. 언급된 SFTP 계정은 Adobe에 의해 구성되어야 하며 필요한 정보는 사용자에게 전달되어야 합니다.
 
-   * **[!UICONTROL importSharedAudience]** :대상 가져오기를 위한 SFTP 계정
-   * **[!UICONTROL exportSharedAudience]** :대상 내보내기를 위한 SFTP 계정
+   * **[!UICONTROL importSharedAudience]**:고객 가져오기 전용 계정.
+   * **[!UICONTROL exportSharedAudience]**:대상 내보내기를 위한 계정.
 
    ![](assets/aam_config_1.png)
 
-1. 필드를 **[!UICONTROL Server]** 채웁니다. **외부 계정 가져오기 및 외부 계정 내보내기의** ftp-in.demdex.com **도메인에 대한 ftp-out.demdex.com** 도메인
+1. Select the **[!UICONTROL Export audiences to the Adobe Marketing Cloud]** external account.
 
-   Campaign에서 내보내기는 Audience Manager 또는 사용자 핵심 서비스에 대한 가져오기임을 기억하십시오.
+1. From the **[!UICONTROL Type]** drop-down, select **[!UICONTROL AWS S3]**.
 
-   >[!NOTE]
-   >
-   >S3을 사용하는 경우 다음 구문을 **[!UICONTROL AWS S3 Account Server]** 입력합니다.
-   >
-   >`<S3bucket name>.s3.amazonaws.com/<s3object path>`
-   >
-   >S3 계정을 구성하는 방법에 대한 자세한 내용은 이 [페이지를 참조하십시오](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account).
+1. 다음 세부 정보를 제공합니다.
 
+   * **[!UICONTROL AWS S3 Account Server]**
+서버의 URL을 입력해야 합니다.
+
+      ```
+      <S3bucket name>.s3.amazonaws.com/<s3object path>
+      ```
+
+   * **[!UICONTROL AWS access key ID]**
+AWS 액세스 키 ID를 어디에서 찾을 것인지 알아보려면 이 [페이지를 참조하십시오](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
+
+   * **[!UICONTROL Secret access key to AWS]**
+AWS에 대한 비밀 액세스 키를 찾을 위치를 알려면 이 [페이지를 참조하십시오](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+
+   * **[!UICONTROL AWS Region]**
+AWS 리전에 대한 자세한 내용은 이 [페이지를 참조하십시오](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
    ![](assets/aam_config_2.png)
 
-1. Adobe에서 **[!UICONTROL Account]** 제공하는 및 **[!UICONTROL Password]** 를 추가합니다.
+1. 이전 단계 **[!UICONTROL Save]** 에 설명된 대로 **[!UICONTROL Import audiences from the Adobe Marketing Cloud]** 외부 계정을 클릭하고 구성합니다.
 
 이제 외부 계정이 구성됩니다.
 
