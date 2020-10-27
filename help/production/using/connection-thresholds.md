@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: f3db77db-94cc-4d75-a59b-2dddce776759
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 5%
@@ -32,7 +32,7 @@ ht-degree: 5%
 
    * Tomcat 측면:모든 질의는 실제로 Adobe Campaign 톰캣의 고객을 대상으로 합니다.
 
-      이 임계값은 nl6/tomcat-7/conf/server.xml **파일에서** 구성됩니다. maxThreads **** 속성을 사용하면 한 번에 처리되는 쿼리 수의 임계값을 늘릴 수 있습니다. 예를 들어 250으로 변경할 수 있습니다.
+      이 임계값은 nl6/tomcat-8/conf/server.xml **파일에서** 구성됩니다. maxThreads **** 속성을 사용하면 한 번에 처리되는 쿼리 수의 임계값을 늘릴 수 있습니다. 예를 들어 250으로 변경할 수 있습니다.
 
       ```
       <Connector protocol="HTTP/1.1" port="8080"
