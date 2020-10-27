@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
 workflow-type: tm+mt
-source-wordcount: '2571'
-ht-degree: 15%
+source-wordcount: '2802'
+ht-degree: 14%
 
 ---
 
@@ -130,7 +130,7 @@ Adobe Campaign은 배달 실패 유형 및 오류 메시지 자격 조건( [바�
 * **하드 오류**: 해당 이메일 주소가 즉시 격리됩니다.
 * **소프트 오류**: 소프트 오류의 경우 주소가 즉시 격리되지는 않지만, 오류 카운터가 증가합니다. 자세한 내용은 [소프트 오류 관리를 참조하십시오](#soft-error-management).
 
-If a user qualifies an email as a spam ([Feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop)), the message is automatically redirected towards a technical mailbox managed by Adobe. 그러면 사용자의 이메일 주소가 자동으로 격리되도록 전송됩니다.
+If a user qualifies an email as a spam ([Feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop)), the message is automatically redirected towards a technical mailbox managed by Adobe. 
 
 격리된 주소 목록에서 선택한 주소가 격리된 **[!UICONTROL Error reason]** 이유를 나타내는 필드가 표시됩니다. Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
 
@@ -156,20 +156,23 @@ If a user qualifies an email as a spam ([Feedback loop](../../delivery/using/tec
 
 **iOS의 경우 - 이진 커넥터**
 
-각 알림에 대해 Adobe Campaign은 APNS 서버로부터 동기 및 비동기 오류를 수신합니다. 다음 동기 오류에 대해 Adobe Campaign은 소프트 오류를 생성합니다.
+>[!NOTE]
+Campaign 20.3 릴리스를 시작하는 경우 iOS 레거시 바이너리 커넥터는 더 이상 사용되지 않습니다. 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+
+각 알림에 대해 Adobe Campaign은 APNs 서버로부터 동기 및 비동기 오류를 수신합니다. 다음 동기 오류에 대해 Adobe Campaign은 소프트 오류를 생성합니다.
 
 * 페이로드 길이 문제:재시도가 없습니다. 실패 이유는 입니다 **[!UICONTROL Unreachable]**.
 * 인증서 만료 문제:재시도가 없습니다. 실패 이유는 입니다 **[!UICONTROL Unreachable]**.
 * 배달 중 연결이 끊어졌습니다.다시 시도, 실패 이유는 입니다 **[!UICONTROL Unreachable]**.
 * 서비스 구성 문제(잘못된 인증서, 잘못된 인증서 암호, 인증서 없음):재시도가 없습니다. 실패 이유는 입니다 **[!UICONTROL Unreachable]**.
 
-APNS 서버는 장치 토큰이 등록되지 않았음을 Adobe Campaign에 비동기식으로 알립니다(사용자가 모바일 응용 프로그램을 제거한 경우). 이 **[!UICONTROL mobileAppOptOutMgt]** 워크플로우는 6시간마다 실행되어 APNS 피드백 서비스에 문의하여 **AppSubscriptionRcp 테이블을** 업데이트합니다. 비활성화된 모든 토큰의 경우 **비활성화됨** 필드가 **True로** 설정되고 해당 장치 토큰에 연결된 구독이 이후 배달에서 자동으로 제외됩니다.
+APNs 서버는 장치 토큰이 등록되지 않았음을 Adobe Campaign에 비동기식으로 알립니다(사용자가 모바일 응용 프로그램을 제거한 경우). 이 **[!UICONTROL mobileAppOptOutMgt]** 워크플로우는 6시간마다 실행되어 APNs 피드백 서비스에 연락하여 **AppSubscriptionRcp** 테이블을 업데이트합니다. 비활성화된 모든 토큰의 경우 **비활성화됨** 필드가 **True로** 설정되고 해당 장치 토큰에 연결된 구독이 이후 배달에서 자동으로 제외됩니다.
 
-**iOS용 - HTTP/2 커넥터**
+**iOS용 - HTTP/V2 커넥터**
 
-http/2 프로토콜에서는 각 푸시 전달에 대한 직접적인 피드백 및 상태를 허용합니다. http/2 프로토콜 커넥터를 사용하는 경우 워크플로우에서 피드백 서비스를 더 이상 호출하지 **[!UICONTROL mobileAppOptOutMgt]** 않습니다. 등록되지 않은 토큰은 iOS 이진 커넥터와 iOS http/2 커넥터 간에 다르게 처리됩니다. 모바일 응용 프로그램을 제거하거나 다시 설치하면 토큰은 등록되지 않은 것으로 간주됩니다.
+HTTP/V2 프로토콜을 사용하면 각 푸시 전달에 대한 직접적인 피드백과 상태를 확인할 수 있습니다. HTTP/V2 프로토콜 커넥터를 사용하는 경우 워크플로우에서 피드백 서비스를 더 이상 호출하지 **[!UICONTROL mobileAppOptOutMgt]** 않습니다. 등록되지 않은 토큰은 iOS 이진 커넥터와 iOS HTTP/V2 커넥터 간에 다르게 처리됩니다. 모바일 응용 프로그램을 제거하거나 다시 설치하면 토큰은 등록되지 않은 것으로 간주됩니다.
 
-동기적으로, APNS가 메시지에 대해 &quot;등록되지 않은&quot; 상태를 반환하는 경우 대상 토큰이 즉시 격리됩니다.
+동기적으로 APN이 메시지에 대해 &quot;등록되지 않은&quot; 상태를 반환하는 경우 대상 토큰이 즉시 격리됩니다.
 
 <table> 
  <tbody> 
@@ -222,7 +225,7 @@ http/2 프로토콜에서는 각 푸시 전달에 대한 직접적인 피드백 
    <td> 아니요<br /> </td> 
   </tr> 
   <tr> 
-   <td> 인증서 문제(암호, 손상 등) 및 APNS 발행물에 대한 연결 테스트<br /> </td> 
+   <td> 인증서 문제(암호, 손상 등) 및 APNs 문제에 대한 연결 테스트<br /> </td> 
    <td> 실패<br /> </td> 
    <td> 오류에 따른 다양한 오류 메시지<br /> </td> 
    <td> 부드러운<br /> </td> 
@@ -238,7 +241,7 @@ http/2 프로토콜에서는 각 푸시 전달에 대한 직접적인 피드백 
    <td> 예<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNS 메시지 거부:사용자가<br /> 애플리케이션을 제거했거나 토큰이 만료되었습니다.<br /> </td> 
+   <td> APNs 메시지 거부:사용자가<br /> 애플리케이션을 제거했거나 토큰이 만료되었습니다.<br /> </td> 
    <td> 실패<br /> </td> 
    <td> 등록되지 않음<br /> </td> 
    <td> 하드<br /> </td> 
@@ -246,7 +249,7 @@ http/2 프로토콜에서는 각 푸시 전달에 대한 직접적인 피드백 
    <td> 아니요<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNS 메시지 거부:기타 오류<br /> </td> 
+   <td> APNs 메시지 거부:기타 오류<br /> </td> 
    <td> 실패<br /> </td> 
    <td> 오류 메시지에 오류 거부 원인이 나타납니다<br /> </td> 
    <td> 부드러운<br /> </td> 
@@ -356,6 +359,134 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 거부됨<br /> </td> 
    <td> 아니요<br /> </td> 
   </tr> 
+    <tr> 
+   <td> FCM 메시지 거부:잘못된 인수<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> INVALID_ARGUMENT </td> 
+   <td> 무시됨</td> 
+   <td> 정의되지 않음<br /> </td> 
+   <td> 아니요<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM 메시지 거부:타사 인증 오류<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> THIRD_PARTY_AUTH_ERROR </td> 
+   <td> 무시됨</td>
+   <td> 거부됨<br /> </td> 
+   <td> 예<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM 메시지 거부:보낸 사람 ID가 일치하지 않음<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> SENDER_ID_MISMATCH </td> 
+   <td> 부드러운</td>
+   <td> 사용자를 알 수 없음<br /> </td> 
+   <td> 아니요<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM 메시지 거부:등록되지 않음<br /> </td> 
+   <td> 실패<br /> </td>
+   <td> 미등록 </td> 
+   <td> 하드</td> 
+   <td> 사용자를 알 수 없음<br /> </td> 
+   <td> 아니요<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM 메시지 거부:내부<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> 내부 </td> 
+   <td> 무시됨</td> 
+   <td> 거부됨<br /> </td> 
+   <td> 예<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM 메시지 거부:사용할 수 없음<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> 사용할 수 없음</td> 
+   <td> 무시됨</td> 
+   <td> 거부됨<br /> </td> 
+   <td> 예<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCM 메시지 거부:예기치 않은 오류 코드<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> 예기치 않은 오류 코드</td> 
+   <td> 무시됨</td> 
+   <td> 거부됨<br /> </td> 
+   <td> 아니요<br /> </td> 
+  </tr>
+  <tr> 
+   <td> 인증:연결 문제<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> 인증 서버에 연결할 수 없음 </td> 
+   <td> 무시됨</td>
+   <td> 거부됨<br /> </td> 
+   <td> 예<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 인증:요청에서 권한 없는 클라이언트 또는 범위.<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> unauthorized_client </td> 
+   <td> 무시됨</td>
+   <td> 거부됨<br /> </td> 
+   <td> 아니요<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 인증:클라이언트가 이 방법을 사용하여 액세스 토큰을 검색하거나 요청된 범위에 대해 인증되지 않은 클라이언트를 찾을 수 없습니다.<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> unauthorized_client </td> 
+   <td> 무시됨</td>
+   <td> 거부됨<br /> </td> 
+   <td> 아니요<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 인증:액세스가 거부되었습니다.<br /> </td> 
+   <td> 실패<br /> </td>
+   <td> access_denied</td> 
+   <td> 무시됨</td>
+   <td> 거부됨<br /> </td> 
+   <td> 아니요<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 인증:유효하지 않은 이메일<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> 무시됨</td> 
+   <td> 거부됨<br /> </td> 
+   <td> 아니요<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 인증:잘못된 JWT<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> 무시됨</td> 
+   <td> 거부됨<br /> </td> 
+   <td> 아니요<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 인증:잘못된 JWT 서명<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> 무시됨</td> 
+   <td> 거부됨<br /> </td> 
+   <td> 아니요<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 인증:제공된 OAuth 범위 또는 ID 토큰 대상이 잘못되었습니다.<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> unauthorized_client</td> 
+   <td> 무시됨</td> 
+   <td> 거부됨<br /> </td> 
+   <td> 아니요<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 인증:OAuth 클라이언트가 비활성화됨<br /> </td> 
+   <td> 실패<br /> </td> 
+   <td> disabled_client</td> 
+   <td> 무시됨</td> 
+   <td> 거부됨<br /> </td> 
+   <td> 아니요<br /> </td> 
+  </tr>
  </tbody> 
 </table>
 
