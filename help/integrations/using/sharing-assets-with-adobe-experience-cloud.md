@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: asset-sharing
 discoiquuid: d10624ea-d961-4162-879b-1754f897d763
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -37,5 +37,5 @@ Adobe Campaign에서 이메일 배달 또는 랜딩 페이지를 편집할 때 A
 
 >[!NOTE]
 >
->Adobe Campaign 온-프레미스를 사용하는 경우 AEM Assets도 온-프레미스가 아닌 경우, 자산 핵심 서비스와 AEM Assets와의 통합을 사용할 수 없습니다.
+>Adobe Campaign 온프레미스 환경의 컨텍스트에서 AEM Assets도 온프레미스 상태가 아니면 자산 핵심 서비스 및 AEM Assets과의 통합을 사용할 수 없습니다.
 
