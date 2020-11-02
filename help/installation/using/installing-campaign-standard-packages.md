@@ -1,8 +1,6 @@
 ---
-title: Campaign Classic 표준 패키지 설치
-seo-title: Campaign Classic 표준 패키지 설치
-description: Campaign Classic 표준 패키지 설치
-seo-description: null
+title: Campaign Classic 내장 패키지 설치
+description: Campaign 내장 패키지를 설치하는 방법 학습
 page-status-flag: never-activated
 uuid: 1cba9487-52fc-442f-ae99-f8a2c157f25e
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: dd8f9adf-208c-42d9-b1a7-bfc8a690687e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 6%
+source-wordcount: '1154'
+ht-degree: 5%
 
 ---
 
@@ -52,7 +50,7 @@ ht-degree: 6%
 
 ### 기본 패키지 목록 {#list-of-standard-packages}
 
-다음 표에는 설명과 함께 모든 표준 패키지, 설치할 수 있는 인스턴스 유형(마케팅, 중간 등)이 나열되어 있습니다. 및 추가 정보를 참조하십시오.
+다음 표에는 모든 Campaign 내장 패키지가 나열됩니다.
 
 <table> 
  <thead> 
@@ -80,17 +78,17 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> 오퍼 엔진(상호 작용)<br /> </td> 
-   <td> 해당 연락처(고객 또는 타겟)와 상호 작용하는 동안 단일 또는 여러 개의 수정된 오퍼로 만들어 실시간으로 응답합니다.  선택 사항입니다. <a href="../../interaction/using/interaction-and-offer-management.md">자세한 내용</a> <br /> </td> 
+   <td> 해당 연락처(고객 또는 타겟)와 상호 작용하는 동안 단일 또는 여러 개의 수정된 오퍼로 만들어 실시간으로 응답합니다.  선택 사항입니다. <a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">자세한 내용</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
    <td> 실행 인스턴스가 있는 오퍼 엔진 제어 선택 사항입니다.<br /> </td> 
-   <td> </td> 
+   <td> 오퍼 엔진(상호 작용)의 제어 인스턴스에 설치할 패키지 <a href="../../interaction/using/distributed-architectures.md#packages-configuration">자세한 내용</a> </td> 
    <td> 마케팅<br /> </td>  
   </tr> 
   <tr> 
    <td> 실행 인스턴스용 오퍼 엔진. 선택 사항입니다.<br /> </td> 
-   <td> </td> 
+   <td> 오퍼 엔진(상호 작용)의 실행 인스턴스에 설치할 패키지 <a href="../../interaction/using/distributed-architectures.md">자세한 내용</a> </td> 
    <td> 중간, 실행 <br /> </td>  
   </tr> 
   <!--tr> 
@@ -200,13 +198,13 @@ ht-degree: 6%
    <td> 마케팅</td> 
   </tr> 
   <tr> 
-   <td> Adobe Marketing Cloud 공유 대상 통합<br /> </td> 
+   <td> Adobe Experience Cloud 공유 대상 통합<br /> </td> 
    <td> Adobe Experience Cloud 솔루션 및 핵심 서비스와 대상/세그먼트를 교환하고 공유할 수 있습니다. IMS가 필요합니다. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">자세한 내용</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Marketing Cloud과 통합<br /> </td> 
-   <td> 다양한 Adobe Marketing Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. 선택 사항입니다. <a href="../../integrations/using/configuring-ims.md#installing-the-package">자세한 내용</a> </td> 
+   <td> Integration with Adobe Experience Cloud<br /> </td> 
+   <td> 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. 선택 사항입니다. <a href="../../integrations/using/configuring-ims.md#installing-the-package">자세한 내용</a> </td> 
    <td> 마케팅</td> 
   </tr> 
   <tr> 
@@ -223,6 +221,11 @@ ht-degree: 6%
    <td> 중간 소싱 플랫폼<br /> </td> 
    <td> 이 구성은 호스팅된(ASP) 구성과 내부화 간의 최적의 중간 솔루션입니다. 외부 실행 구성 요소는 Adobe Campaign에서 호스팅되는 "중간 소싱" 서버에서 수행됩니다. 선택 사항입니다. <a href="../../installation/using/mid-sourcing-server.md">자세한 내용</a> <br /> </td> 
    <td> 중간 소싱 </td> 
+  </tr> 
+  <tr> 
+   <td> AMP 지원<br /> </td> 
+   <td> 새로운 대화형 AMP를 이메일 포맷에 사용하고 동적 이메일을 보낼 수 있습니다. 선택 사항입니다. <a href="../../delivery/using/defining-interactive-content.md">자세한 내용</a> <br /> </td> 
+   <td> 모두 </td> 
   </tr> 
   <tr> 
    <td> ACS 커넥터<br /> </td> 
