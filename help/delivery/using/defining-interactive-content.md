@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: sending-emails
 discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1572'
 ht-degree: 3%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 3%
 
 # 대화형 콘텐츠 정의{#defining-interactive-content}
 
-Adobe Campaign을 사용하면 특정 조건 [에서 동적 이메일을 보낼 수 있는 새로운 대화형](https://amp.dev/about/email/) AMP for Email 형식을 사용할 수 있습니다.
+Adobe Campaign을 사용하면 특정 조건 [에서 동적 이메일을 보낼 수 있는 새로운 대화형](https://amp.dev/about/email/) AMP for Email 포맷을 사용할 수 있습니다.
 
-현재 이메일용 AMP가 있는 경우 다음을 수행할 수 있습니다.
+AMP for Email을 사용하면 다음 작업을 수행할 수 있습니다.
 * 적절하게 구성된 특정 주소에 AMP 이메일 전달을 테스트합니다.
 * 해당 공급자에 등록한 후 AMP 이메일을 Gmail, Outlook 또는 Mail.ru 주소로 배달합니다.
 
