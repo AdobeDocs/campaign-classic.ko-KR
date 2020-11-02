@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: c988362b-432e-4f9f-8d36-00b3d0015756
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 31%
@@ -27,7 +27,7 @@ ht-degree: 31%
 * 보안 암호 관리 정책.
 * 페더레이션 ID 계정 사용(외부 ID 공급자).
 
-Adobe IMS(Identity Management 시스템)를 사용하면 관리자가 애플리케이션 및 서비스에 대한 사용자의 액세스를 만들고 관리할 수 있습니다. 다양한 유형의 Adobe ID에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/enterprise/using/identity.html).
+Adobe Identity Management 시스템(IMS)을 사용하면 관리자가 애플리케이션 및 서비스에 대한 사용자의 액세스를 만들고 관리할 수 있습니다. 다양한 유형의 Adobe ID에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/enterprise/using/identity.html).
 
 >[!IMPORTANT]
 >
