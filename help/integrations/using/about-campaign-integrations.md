@@ -10,44 +10,44 @@ content-type: reference
 topic-tags: campaign-integrations
 discoiquuid: 0af1fd96-48ef-43c9-a03b-0f9a6e0e02fe
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 12%
+source-wordcount: '783'
+ht-degree: 9%
 
 ---
 
 
-# Campaign 통합 기본 정보 {#about-campaign-integrations}
+# Get started with Adobe Campaign integrations {#about-campaign-integrations}
 
 Adobe Experience Cloud은 강력한 핵심 서비스의 공통 세트를 갖춘 공통 데이터 플랫폼을 기반으로 구축된 포괄적인 동급 최강의 통합 솔루션 세트입니다.
 
 Adobe Campaign 솔루션과 [Adobe Experience Cloud 솔루션](https://docs.adobe.com/content/help/en/core-services/interface/marketing-cloud-integrations.html) 및 [핵심 서비스](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html)간의 기능 통합에 대해 자세히 알아보십시오. 그런 다음 솔루션 구현을 현대화하고 Experience Cloud을 구현하여 고객 속성 및 대상과 같은 기능을 사용할 수 있습니다.
 
-Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스 및 관련 설명서는 [이 섹션에서 제공됩니다](#experience-cloud-integrations).
-
 ![](assets/ExCloud-solutions.png)
 
+Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스 및 관련 설명서는 [이 섹션에서 제공됩니다](#experience-cloud-integrations).
 
 >[!CAUTION]
 >
->이러한 통합 대부분은 Adobe ID(IMS)를 통해 로그인해야 합니다. For more on this implementation, refer to [this page](../../integrations/using/about-adobe-id.md).
->
->IMS 구현은 매우 복잡한 과정이며 오래 걸릴 수 있습니다. 이는 Adobe 기술 관리자들에게 엄격히 지정되어 있습니다.
+>이러한 통합 대부분은 Adobe ID을 통해 로그인하려면 Adobe Identity Management 시스템(IMS)을 구현해야 합니다. [이 페이지에서 자세히 알아보십시오](../../integrations/using/about-adobe-id.md).
+
 
 ## 솔루션 연결 {#working-with-experience-cloud-solutions}
 
-환경에 따라 여러 솔루션을 Adobe Experience Cloud에 연결할 수 있습니다. 이 지표는 조직으로 연결됩니다. An **organization** is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사의 이름입니다. 하지만 회사는 여러 조직을 가질 수 있습니다.
+다양한 솔루션을 Adobe Experience Cloud에 연결할 수 있습니다. The **organization** is the customer entity that enables an administrator to configure groups and users, and to control single sign-on (SSO) in Adobe Experience Cloud. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 역할을 합니다. 대부분의 경우 조직은 회사의 이름입니다. 하지만 회사는 여러 조직을 가질 수 있습니다.
 
 조직 관리 및 Adobe Experience Cloud 계정 연결은 [Adobe Experience Cloud 도움말 포털에 자세히 설명되어 있습니다](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/organizations.html).
 
->[!CAUTION]
->
->Adobe Campaign을 새로 설치하거나 기존 설치를 Adobe Experience Cloud과 통합하면 [Experience Cloud ID 서비스가](https://docs.adobe.com/content/help/en/id-service/using/home.html) 활성화됩니다. 이 서비스는 Adobe Campaign이 먼저 사용하는 영구 쿠키를 추적 기능으로 대체합니다.
->
->그러면 추적 로그를 생성하는 수신자에게 고유 방문자 ID가 할당됩니다. 이 ID는 표의 **[!UICONTROL Requester UUID (@sourceID)]** 필드에 **[!UICONTROL nms:trackingLogRcp]** 저장됩니다. 방문자 ID 서비스가 구현되기 전에 존재했던 수신자의 추적 데이터를 더 이상 사용할 수 없습니다.
->
->그러면 ID가 동일한 [CNAME의 다른 Adobe Experience Cloud 솔루션에서 인식됩니다](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html).
+## ID 및 쿠키 관리 {#id-and-cookies}
+
+Adobe Campaign을 설치하거나 기존 설치를 Adobe Experience Cloud과 통합할 때 [Adobe Experience Cloud ID 서비스가](https://docs.adobe.com/content/help/en/id-service/using/home.html) 활성화됩니다. 이 서비스는 Adobe Campaign이 먼저 사용하는 영구 쿠키를 추적 기능으로 대체합니다.
+
+Adobe Experience Cloud ID 서비스(ID 서비스)는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다.
+
+추적 로그를 생성하는 수신자에게 고유 방문자 ID가 할당됩니다. 이 ID는 표의 **[!UICONTROL Requester UUID (@sourceID)]** 필드에 **[!UICONTROL nms:trackingLogRcp]** 저장됩니다. **방문자 ID 서비스가 구현되기 전에 존재했던 수신자의 추적 데이터를 더 이상 사용할 수 없습니다**.
+
+그러면 ID가 동일한 [CNAME의 다른 Adobe Experience Cloud 솔루션에서 인식됩니다](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html).
 
 ## Experience Cloud 통합 {#experience-cloud-integrations}
 
@@ -62,11 +62,11 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스 및 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <strong>Adobe 실시간 고객 데이터 플랫폼</strong><br /> </td> 
-   <td> Adobe Campaign 및 Adobe 실시간 고객 데이터 플랫폼 간의 통합을 통해 세그먼트 데이터를 공유하고 대상을 Adobe Campaign으로 가져올 수 있습니다.<br /> <p><a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">캠페인 - Adobe 실시간 고객 데이터 플랫폼 통합에 대해 자세히</a> 알아보십시오.</p><br /> </td> 
+   <td> <strong>Adobe 실시간 고객 데이터 플랫폼(RTCDP)</strong><br /> </td> 
+   <td> Adobe Campaign과 Adobe의 RTCDP(실시간 고객 데이터 플랫폼)가 통합되어 세그먼트 데이터를 공유하고 Adobe Campaign으로 고객을 가져올 수 있습니다.<br /> <p><a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">캠페인 - Adobe 실시간 고객 데이터 플랫폼 통합에 대해 자세히</a> 알아보십시오.</p><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>IMS - Adobe ID</strong><br /> </td> 
+   <td> <strong>Adobe Identity Management 시스템(IMS) - Adobe ID</strong><br /> </td> 
    <td> 다른 Adobe Experience Cloud 솔루션과 동일한 Adobe ID을 사용하여 Adobe Campaign에 연결할 수 있습니다.<br /> Adobe Experience Cloud 통합, 특히 핵심 서비스와 연결된 특정 기능을 사용하려면 로그인하는 데 Adobe ID을 사용해야 합니다.<br /> <p><a href="../../integrations/using/about-adobe-id.md">Adobe Campaign과 함께 Adobe ID을 구현하는 방법에 대해 자세히</a> 알아보십시오.</p><br /> </td> 
   </tr> 
   <tr> 
