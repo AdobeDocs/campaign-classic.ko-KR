@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 9cff35424b389d0cc6adb8ce0ec81d3258ffb6ba
+source-git-commit: 281eb6b0f84e01d25ac9c3542dc2ee950d4879e7
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '543'
 ht-degree: 13%
 
 ---
@@ -195,9 +195,7 @@ Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md
 <tr>
 <td>MS Dynamics</td>
 <td>
-<p>Soap API - 온-프레미스:2007년, 2015년, 2016년</p>
-<p>Soap API - 온라인:2015년, 2016년</p>
-<p>웹 API - 온-프레미스 및 온라인:2016년 365월 업데이트 1</p>
+<p>웹 API:Dynamics 365 온-프레미스 및 온라인</p>
 </td>
 </tr>
 </tbody>
