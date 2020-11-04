@@ -10,10 +10,10 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87c2ee675b77be0f24a2028e7dbbf0bd1b91d46e
+source-git-commit: 281eb6b0f84e01d25ac9c3542dc2ee950d4879e7
 workflow-type: tm+mt
-source-wordcount: '1607'
-ht-degree: 85%
+source-wordcount: '1621'
+ht-degree: 84%
 
 ---
 
@@ -52,6 +52,8 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <ul>
    <li>Soap API - 온-프레미스:2007년, 2015년, 2016년</li>
    <li>Soap API - 온라인:2015년, 2016년</li>
+   <li>웹 API - Microsoft Dynamics CRM 온-프레미스:2016, 2016 업데이트 1</li>
+   <li>웹 API - Microsoft Dynamics CRM Online:2016, 2016 업데이트 1</li>
    </ul>
   <p><em>타겟 제거 날짜: 2021년</em></p>
   </td>
