@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 54ac5abcc53c41d025238a3c89f9d732c0fb1376
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
 source-wordcount: '3905'
-ht-degree: 82%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 82%
 
 ## 2020년 10월 {#oct-2020}
 
-**20.3 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 iOS용 푸시 알림 개선 - [자세한 내용](../../delivery/using/configuring-the-mobile-application.md)
 
@@ -41,7 +41,7 @@ Android용 푸시 알림 개선 - [자세한 내용](../../delivery/using/config
 Gold Standard 릴리스의 릴리스 노트 및 호환성 매트릭스는 이제 전용 섹션에서 사용할 수 있습니다.
 [자세한 내용](../../rn/using/gold-standard.md#gs-10)
 
-oAUTH 인증 설정을 기반으로 한 트리거 통합이 변경되었으며 Adobe I/O로 이동되었습니다. [자세한 내용](../../integrations/using/about-triggers.md)
+Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
 
 **기타 업데이트**
 
@@ -49,43 +49,43 @@ oAUTH 인증 설정을 기반으로 한 트리거 통합이 변경되었으며 A
 
 &#39;Adobe Campaign 버전 가져오기&#39; 섹션의 &#39;정보&#39; 상자 설명에 세부 사항이 추가되었습니다. [자세한 내용](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 
-&#39;Adobe Campaign Classic 업데이트&#39; 섹션에 빌드 업그레이드 수행 지침이 추가되었습니다. 자세한 내용 [보기 자세한 내용](../../production/using/build-upgrade.md)
+&#39;Adobe Campaign Classic 업데이트&#39; 섹션에 빌드 업그레이드 수행 지침이 추가되었습니다. [자세한 내용](../../production/using/build-upgrade.md) 자세히 보기
 
-Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추가되었습니다. 자세한 내용 [보기 자세한 내용](../../platform/using/faq-build-upgrade.md)
+Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추가되었습니다. [자세한 내용](../../platform/using/faq-build-upgrade.md) 자세히 보기
 
-이제 캠페인 온-프레미스, 호스팅 및 하이브리드 호스팅 호스팅 모델에 대해 전용 섹션에 설명되어 있습니다. [자세한 내용](../../installation/using/hosting-models.md)
+이제 캠페인 온-프레미스, 호스팅 및 하이브리드 호스팅 모델에 대해 전용 섹션에 설명되어 있습니다. [자세한 내용](../../installation/using/hosting-models.md)
 
 호스팅 모델당 캠페인 기능 매트릭스가 업데이트 및 설치 안내서에서 이동되었습니다. [자세한 내용](../../installation/using/capability-matrix.md)
 
 캠페인 보고 고급 기능 섹션이 사용자 지정 보고서에서 URL 매개 변수 및 변수를 사용하는 방법에 대해 자세히 설명하도록 개선되었습니다. [자세한 내용](../../reporting/using/advanced-functionalities.md)
 
-보고서 속성 페이지가 구성 편의를 위해 재구성되고 향상되었습니다. [자세한 내용](../../reporting/using/properties-of-the-report.md)
+보고서 속성 페이지가 구성 편의를 위해 재구성되고 보강되었습니다. [자세한 내용](../../reporting/using/properties-of-the-report.md)
 
-기존 바이너리 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법에 대한 세부 사항이 포함된 새로운 기술 문서가 만들어졌습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
+레거시 이진 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법에 대한 세부 사항을 포함한 새로운 기술 문서를 만들었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)
 
 ## 2020년 9월 {#september-2020}
 
-마케팅 인스턴스에만 활성 프로필 수를 사용할 수 있다는 참고가 추가되었습니다. [자세한 내용](../../platform/using/about-profiles.md#active-profiles)
+마케팅 인스턴스에만 활성 프로필 수를 사용할 수 있다는 노트가 추가되었습니다. [자세한 내용](../../platform/using/about-profiles.md#active-profiles)
 
 필드를 기존 참조 테이블에 연결하는 새로운 스키마 에디션에 대한 샘플이 추가되었습니다. [자세한 내용](../../configuration/using/examples-of-schemas-edition.md#uc-link)
 
-배달에서 시드 주소와 함께 추가 데이터를 사용하는 것에 대한 메모가 추가되었습니다. [자세한 내용](../../delivery/using/creating-seed-addresses.md#defining-addresses)
+게재에서 시드 주소와 함께 추가 데이터를 사용하는 것에 대한 노트가 추가되었습니다. [자세한 내용](../../delivery/using/creating-seed-addresses.md#defining-addresses)
 
 ## 2020년 8월 {#aug-2020}
 
-전용 섹션에서 Adobe Campaign을 사용한 전달 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다. [자세한 내용](../../delivery/using/delivery-best-practices.md)
+전용 섹션에서 Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다. [자세한 내용](../../delivery/using/delivery-best-practices.md)
 
-전달 능력 우수 사례 랜딩 페이지는 하위 섹션에 쉽게 액세스할 수 있도록 개선되었습니다. [자세한 내용](../../delivery/using/deliverability-key-points.md)
+게재 모범 사례 랜딩 페이지는 하위 섹션에 쉽게 액세스할 수 있도록 개선되었습니다. [자세한 내용](../../delivery/using/deliverability-key-points.md)
 
-이제 다음 주제에서 방법 비디오를 사용할 수 있습니다.
+이제 다음 주제에 관한 방법 비디오를 사용할 수 있습니다.
 
 * [분류 규칙 및 사전 정의된 필터를 사용하여 피로 관리를 설정하는 방법](../../campaign/using/about-campaign-typologies.md)
 
 * [캠페인에서 이메일을 만드는 방법](../../campaign/using/marketing-campaign-deliveries.md)
 
-* [조건부 컨텐츠로 다국어 뉴스레터를 만드는 방법](../../delivery/using/conditional-content.md)
+* [조건부 콘텐츠로 다국어 뉴스레터를 만드는 방법](../../delivery/using/conditional-content.md)
 
-* [배달 템플릿을 구성 및 배포하는 방법](../../delivery/using/creating-a-delivery-template.md)
+* [게재 템플릿 구성 및 배포 방법](../../delivery/using/creating-a-delivery-template.md)
 
 * [이메일에 AMP를 활성화하고 사용하는 방법](../../delivery/using/defining-interactive-content.md)
 
@@ -93,40 +93,40 @@ Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추�
 
 * [개인화 필드를 사용하여 이메일을 개인화하는 방법](../../delivery/using/personalization-fields.md)
 
-* [이메일을 통해 시드와 증거 자료를 관리하는 방법](../../delivery/using/steps-defining-the-target-population.md)
+* [이메일에서 시드 및 증명을 관리하는 방법](../../delivery/using/steps-defining-the-target-population.md)
 
-* [반복 배달을 설정하는 방법](../../workflow/using/recurring-delivery.md)
+* [반복 게재를 설정하는 방법](../../workflow/using/recurring-delivery.md)
 
-* [연속 배달을 설정하는 방법](../../workflow/using/continuous-delivery.md)
+* [연속 게재를 설정하는 방법](../../workflow/using/continuous-delivery.md)
 
-FTP 서버에 연결한 후 &quot;호스트 이름을 확인할 수 없습니다&quot; 오류를 가져올 때 수행할 검사 및 작업에 대한 정보가 추가되었습니다. [자세한 내용](../../platform/using/sftp-server-usage.md)
+FTP 서버에 연결한 후 &quot;호스트 이름을 확인할 수 없습니다&quot; 라는 오류를 가져올 때 수행할 검사 및 작업에 대한 정보가 추가되었습니다. [자세한 내용](../../platform/using/sftp-server-usage.md)
 
-워크플로우 사용 사례 목록에서 새로운 사용 사례를 [참조했습니다](../../workflow/using/about-workflow-use-cases.md).
+[워크플로우 사용 사례](../../workflow/using/about-workflow-use-cases.md) 목록에서 새로운 사용 사례를 참조했습니다.
 
-* 컨텐츠 제작, 에디션 및 게시 자동화
-* 배달이 전송되기 전에 수신자 승인 프로세스 설정
+* 콘텐츠 만들기, 에디션 및 게시 자동화
+* 게재가 전송되기 전에 수신자 승인 프로세스 설정
 * 쿼리에서 인스턴스 변수 호출
 * 모집단에서 분할 비율 적용
 
-활동 **[!UICONTROL AND-join]** 섹션은 변수 사용과 관련된 메모와 사용 방법에 대한 추가 정보로 가득차 있습니다. [자세한 내용](../../workflow/using/and-join.md)
+**[!UICONTROL AND-join]** 활동 섹션은 변수 사용과 관련된 노트와 사용 방법에 대한 추가 정보로 보강되었습니다. [자세한 내용](../../workflow/using/and-join.md)
 
 ## 2020년 7월 {#july-2020}
 
 증분 쿼리를 사용하여 목록을 자동으로 업데이트하는 방법에 대한 사용 사례가 워크플로우 사용 사례에 추가되었습니다. [자세한 내용](../../workflow/using/about-workflow-use-cases.md)
 
-릴리스 [노트가](../../rn/using/latest-release.md) 재구성되었습니다.빌드 상태, 업그레이드 프로세스, 권장 사항 및 중요 링크에 대한 정보가 포함된 [개요 페이지가](../../rn/using/latest-release.md) 추가되었습니다. Gold [Standard 릴리스에](../../rn/using/gold-standard.md) 대한 전용 페이지가 추가되었으며 [호환성 매트릭스가](../../rn/using/compatibility-matrix.md) 통합되었습니다.
+[릴리스 정보](../../rn/using/latest-release.md)가 다음과 같이 재구성되었습니다. 빌드 상태, 업그레이드 프로세스, 권장 사항 및 중요 링크에 대한 정보가 포함된 [개요 페이지](../../rn/using/latest-release.md)가 추가되었습니다. [Gold Standard 릴리스](../../rn/using/gold-standard.md)에 대한 전용 페이지가 추가되었으며 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)가 통합되었습니다.
 
 Campaign Classic 모니터링과 관련된 지침과 함께 새 섹션이 추가되었습니다. [자세한 내용](../../production/using/monitoring-guidelines.md)
 
 개인정보 보호 및 동의 섹션은 보다 자세한 정보와 유용한 링크로 개선되었습니다. [자세한 내용](../../platform/using/privacy-and-recommendations.md)
 
-Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요청 프로세스를 설정할 수 있는 API를 사용할 때 사용 가능한 &#39;규제&#39; 필드에 대한 정보로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요청 프로세스를 설정할 수 있는 API를 사용할 때 사용 가능한 &#39;규정&#39; 필드에 대한 정보로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
 개인 정보 관리 개요 페이지는 태국의 PDPA(개인 정보 보호법) 및 브라질의 LGPD(Lei Geral de Proteção de Dados)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-하위 워크플로우 로그 및 오류 발생 시 동작에 정보가 추가되었습니다. [자세한 내용](../../workflow/using/sub-workflow.md)
+오류 발생 시 하위 워크플로우 로그 및 동작에 정보가 추가되었습니다. [자세한 내용](../../workflow/using/sub-workflow.md)
 
-작업 섹션에 우수 사례가 **[!UICONTROL Scheduler]** 추가되었습니다. [자세한 내용](../../workflow/using/scheduler.md)
+**[!UICONTROL Scheduler]** 활동 섹션에 모범 사례가 추가되었습니다. [자세한 내용](../../workflow/using/scheduler.md)
 
 ## 2020년 6월 {#june-2020}
 
@@ -134,9 +134,9 @@ Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요�
 
 제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)하고 [해독](../../workflow/using/importing-data.md#use-case-gpg-decrypt)하는 방법에대한 사용 사례가 추가되었습니다.
 
-The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
+Experience Cloud 트리거 및 Adobe Campaign Classic 통합 페이지는 [여기](../../integrations/using/about-triggers.md)로 이동했습니다
 
-## july 2020 {#release-20-2}
+## 2020년 7월 {#release-20-2}
 
 **20.2 릴리스에 포함된 새로운 기능**
 
@@ -406,7 +406,7 @@ Adobe Campaign Classic에서 오퍼 카탈로그를 사용하는 방법에 대�
 
 사용의 예로 하위 워크플로우 활동 섹션이 향상되었습니다. [자세한 내용](../../workflow/using/sub-workflow.md)
 
-온-프레미스 및 호스팅 기능 매트릭스 [](../../installation/using/capability-matrix.md) 페이지가 이메일 BCC와 관련된 정보로 업데이트되었습니다.
+[Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스](../../installation/using/capability-matrix.md) 페이지가 이메일 BCC와 관련된 정보로 업데이트되었습니다.
 
 템플릿 게시에 대한 메모로 트랜잭션 메시지 설명서를 업데이트했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 
