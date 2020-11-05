@@ -1,9 +1,9 @@
 ---
 source-git-commit: d67880e31a654504ea421dd7bf3912efad5f47e7
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '89'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 # campaign-classic-docs
