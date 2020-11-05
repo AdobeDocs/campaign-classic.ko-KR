@@ -1,8 +1,6 @@
 ---
-title: Adobe Experience Cloud 트리거에 대한 Adobe IO 구성
-seo-title: Adobe Experience Cloud 트리거에 대한 Adobe IO 구성
-description: Adobe Experience Cloud 트리거에 대한 Adobe IO 구성
-seo-description: null
+title: Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성
+description: Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성 방법 살펴보기
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat
@@ -15,25 +13,32 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d15e953740b0a4dd8073b36fd59b4c4e44906340
+source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Experience Cloud 트리거에 대한 Adobe IO 구성 {#configuring-adobe-io}
+# Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성 {#configuring-adobe-io}
 
-사전 요구 사항 구성은 다음과 같습니다.
+## 사전 요구 사항 {#adobe-io-prerequisites}
 
-* Adobe Campaign Classic, ACC-19.1.9 또는 ACC-20.2.1 이상 구축
-* 유효한 IMSOrgID입니다.
-* IMS 조직에 대한 개발자 액세스.모든 제품 프로필에 대해 이 액세스 권한을 제공하려면 IMS Org의 시스템 관리자 권한이 이 [페이지에](https://helpx.adobe.com/ca/enterprise/admin-guide.html/ca/enterprise/using/manage-developers.ug.html) 설명된 절차를 따르도록 요청해야 합니다.
+이 구현을 시작하기 전에 다음을 확인하십시오.
 
-## 1단계:Adobe IO 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
+* adobe campaign의 최신 버전:19.1.8 또는 20.2.1 빌드 및 이상
+* 유효한 IMSOrgID:identity management 시스템(IMS) 조직 식별자는 Adobe Experience Cloud 내의 고유한 식별자이며, VisitorID 서비스 및 IMS SSO(Single-Sign On),
+* IMS 조직에 대한 개발자 액세스.
 
-1. Adobe IO에 액세스하고 IMSorg의 시스템 관리자 권한으로 로그인합니다.
+>[!NOTE]
+>
+>IMS 조직에 대한 시스템 관리자 권한을 요청해야 하는 경우 이 페이지 [에](https://helpx.adobe.com/ca/enterprise/admin-guide.html/ca/enterprise/using/manage-developers.ug.html) 설명된 절차에 따라 모든 제품 프로필에 대한 이 액세스 권한을 제공합니다.
+
+
+## 1단계:Adobe I/O 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
+
+1. Adobe I/O에 액세스하고 IMSorg의 시스템 관리자 권한으로 로그인합니다.
 
    >[!NOTE]
    >
@@ -43,9 +48,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >클라이언트 ID가 비어 있는 경우 Adobe IO **[!UICONTROL Create a New project]** 에서 직접 액세스할 수 있습니다.
+   >클라이언트 ID가 비어 있는 경우 Adobe I/O **[!UICONTROL Create a New project]** 에서 직접 액세스할 수 있습니다.
 
-1. 이제 추출된 클라이언트 ID를 사용하여 기존 프로젝트를 식별해야 합니다. 이전 단계에서 추출한 것과 동일한 클라이언트 ID를 가진 기존 프로젝트를 찾습니다.
+1. 추출된 클라이언트 ID를 사용하여 기존 프로젝트를 식별합니다. 이전 단계에서 추출한 것과 동일한 클라이언트 ID를 가진 기존 프로젝트를 찾습니다.
 
    ![](assets/adobe_io_8.png)
 
@@ -53,7 +58,7 @@ ht-degree: 0%
 
    ![](assets/adobe_io_1.png)
 
-1. 창에서 **[!UICONTROL Add an API]**&#x200B;을 선택합니다 **[!UICONTROL Adobe Analytics]**.
+1. In the **[!UICONTROL Add an API]** window, select **[!UICONTROL Adobe Analytics]**.
 
    ![](assets/adobe_io_2.png)
 
@@ -61,7 +66,7 @@ ht-degree: 0%
 
    ![](assets/adobe_io_3.png)
 
-1. 클라이언트 ID가 비어 있는 경우 공개 및 개인 키 쌍 **[!UICONTROL Generate a key pair]** 을 만들도록 선택합니다.
+1. 클라이언트 ID가 비어 있는 경우 공개 및 개인 키 **[!UICONTROL Generate a key pair]** 를 만들도록 선택합니다.
 
    ![](assets/adobe_io_4.png)
 
@@ -83,7 +88,7 @@ ht-degree: 0%
 
 ## 2단계:Adobe Campaign에서 프로젝트 자격 증명 추가 {#add-credentials-campaign}
 
-Adobe Campaign에서 프로젝트 자격 증명을 추가하려면, 다음 명령을 Adobe Campaign 인스턴스의 모든 컨테이너에 있는 Neolane 사용자로 실행하여 인스턴스 구성 파일에 자격 증명을 **[!UICONTROL Technical Account]** 삽입합니다.
+Adobe Campaign에서 프로젝트 자격 증명을 추가하려면, 다음 명령을 Adobe Campaign 인스턴스의 모든 컨테이너에 &#39;neolane&#39; 사용자로 실행하여 인스턴스 구성 파일에 자격 증명을 **[!UICONTROL Technical Account]** 삽입합니다.
 
 ```
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID[/Client_Secret[/Base64_encoded_Private_Key]]
@@ -95,7 +100,7 @@ nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_
 
 ## 3단계:피펜드 태그 업데이트 {#update-pipelined-tag}
 
-태그를 [!DNL pipelined] 업데이트하려면 다음과 같이 구성 파일 config-&lt; instance-name >.xml **의 Adobe IO 프로젝트로 인증 유형을 업데이트해야** 합니다.
+태그를 업데이트하려면 다음과 같이 구성 파일 [!DNL pipelined] config-&lt; instance-name >.xml **** 에서 인증 유형을 Adobe I/O 프로젝트로 업데이트해야 합니다.
 
 ```
 <pipelined ... authType="imsJwtToken"  ... />
@@ -103,4 +108,4 @@ nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_
 
 >[!NOTE]
 >
->기존 JWT 토큰을 사용하여 이전 버전의 트리거 통합을 사용하는 경우 첫 번째 단계에 [!DNL Adobe Analytics] 대한 자세한 내용을 보려면 Adobe IO API를 추가하여 새 트리거 인증으로 자동 마이그레이션해야 합니다.
+>기존 JWT 토큰을 사용하여 이전 버전의 트리거 통합을 사용하는 경우, 첫 번째 단계에서 자세한 내용을 보려면 Adobe I/O API를 추가하여 새 트리거 인증으로 자동 마이그레이션해야 합니다. [!DNL Adobe Analytics]
