@@ -8,10 +8,10 @@ product: adobe campaign
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 91%
+source-wordcount: '2151'
+ht-degree: 99%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 91%
 + [제품 설명서](campaign-classic-home.md)
 + [최신 업데이트](rn/using/documentation-updates.md)
 + 릴리스 정보 {#release-notes}
-   + [업그레이드 시작하기](rn/using/rn-overview.md)
+   + [업그레이드 시작](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
-   + Gold Standard Release {#gs-release}
-      + [Gold Standard 릴리스 노트](rn/using/gold-standard.md)
-      + [Gold Standard 호환성 표](rn/using/compatibility-matrix-gs.md)
+   + Gold Standard 릴리스 {#gs-release}
+      + [Gold Standard 릴리스 정보](rn/using/gold-standard.md)
+      + [Gold Standard 호환성 매트릭스](rn/using/compatibility-matrix-gs.md)
    + 이전 릴리스 {#previous-releases}
       + [릴리스 20.2](rn/using/release--20-2.md)
       + [릴리스 20.1](rn/using/release--20-1.md)
@@ -35,17 +35,17 @@ ht-degree: 91%
       + [릴리스 18.6](rn/using/release--18-6.md)
       + [릴리스 18.4](rn/using/release--18-4.md)
    + [사용되지 않는 기능](rn/using/deprecated-features.md)
-   + [호환성 표](rn/using/compatibility-matrix.md)
+   + [호환성 매트릭스](rn/using/compatibility-matrix.md)
 + 시작 {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
-      + [Adobe Campaign Classic 시작하기](platform/using/about-adobe-campaign-classic.md)
+      + [Adobe Campaign Classic 시작](platform/using/about-adobe-campaign-classic.md)
       + [개인 정보 및 동의](platform/using/privacy-and-recommendations.md)
       + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
       + [Adobe Campaign 작업 영역](platform/using/adobe-campaign-workspace.md)
       + FAQ {#faq}
          + [일반적인 질문](platform/using/common-questions.md)
          + [주요 개념](platform/using/faq-key-concepts.md)
-         + [업그레이드 구축](platform/using/faq-build-upgrade.md)
+         + [빌드 업그레이드](platform/using/faq-build-upgrade.md)
          + [대상](platform/using/faq-audiences.md)
          + [메시지 디자인](platform/using/faq-designing.md)
          + [메시지 보내기](platform/using/faq-messages.md)
@@ -83,7 +83,7 @@ ht-degree: 91%
    + 외부 데이터베이스 액세스(FDA){#accessing-external-database}
       + [FDA 정보](platform/using/about-fda.md)
       + [FDA 커넥터 구성](platform/using/specific-configuration-database.md)
-      + [기존 커넥터](platform/using/legacy-connectors.md)
+      + [레거시 커넥터](platform/using/legacy-connectors.md)
       + [원격 데이터베이스 액세스 권한](platform/using/remote-database-access-rights.md)
       + [데이터베이스에 연결](platform/using/connecting-to-database.md)
       + [데이터 스키마 만들기](platform/using/creating-data-schema.md)
@@ -95,17 +95,17 @@ ht-degree: 91%
       + [CRM 커넥터](platform/using/crm-connectors.md)
       + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector.md)
 + 메시지 보내기 {#sending-messages}
-   + [메시지 시작하기](delivery/using/communication-channels.md)
-   + 전달 모범 사례 {#delivery-bestpractices}
+   + [메시지 시작](delivery/using/communication-channels.md)
+   + 게재 모범 사례 {#delivery-bestpractices}
       + [모범 사례 학습](delivery/using/delivery-best-practices.md)
-      + [전달 최적화](delivery/using/optimize-delivery.md)
+      + [게재 최적화](delivery/using/optimize-delivery.md)
       + [템플릿 사용](delivery/using/use-templates.md)
-      + [개인화된 콘텐츠 제작](delivery/using/design-and-personalize.md)
-      + [적합한 고객 정의](delivery/using/define-the-right-audience.md)
+      + [개인화된 콘텐츠 빌드](delivery/using/design-and-personalize.md)
+      + [적합한 대상 정의](delivery/using/define-the-right-audience.md)
       + [보내기 전 확인](delivery/using/check-before-sending.md)
-      + [추적 및 모니터](delivery/using/track-and-monitor.md)
+      + [추적 및 모니터링](delivery/using/track-and-monitor.md)
    + 게재를 만들 때 주요 단계 {#key-steps-when-creating-a-delivery}
-      + [배달 시작](delivery/using/steps-about-delivery-creation-steps.md)
+      + [게재 시작](delivery/using/steps-about-delivery-creation-steps.md)
       + [게재 만들기 및 식별](delivery/using/steps-create-and-identify-the-delivery.md)
       + [대상 모집단 정의](delivery/using/steps-defining-the-target-population.md)
       + [게재 유효성 검사](delivery/using/steps-validating-the-delivery.md)
@@ -124,7 +124,7 @@ ht-degree: 91%
       + [모바일 앱 채널 기본 정보](delivery/using/about-mobile-app-channel.md)
       + [모바일 애플리케이션에 Campaign SDK 통합](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + 모바일 애플리케이션 구성{#configure-the-mobile-app}
-         + [앱 구성 시작하기](delivery/using/get-started-app-config.md)
+         + [앱 구성 시작](delivery/using/get-started-app-config.md)
          + [iOS용 구성 단계](delivery/using/configuring-the-mobile-application.md)
          + [Android용 구성 단계](delivery/using/configuring-the-mobile-application-android.md)
       + [알림 만들기](delivery/using/creating-notifications.md)
@@ -271,7 +271,7 @@ ht-degree: 91%
       + [사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + 웹 콘텐츠 디자인 {#designing-content}
    + 웹 애플리케이션 {#web-applications}
-      + [웹 애플리케이션 시작하기](web/using/about-web-applications.md)
+      + [웹 애플리케이션 시작](web/using/about-web-applications.md)
       + [새 웹 애플리케이션 만들기](web/using/creating-a-new-web-application.md)
       + [웹 애플리케이션 디자인](web/using/designing-a-web-application.md)
       + [사용 사례: 개요 만들기](web/using/use-cases--creating-overviews.md)
@@ -310,22 +310,22 @@ ht-degree: 91%
 + Adobe Experience Cloud와 통합 사용 {#integrating-with-adobe-experience-cloud}
    + [Campaign 통합 기본 정보](integrations/using/about-campaign-integrations.md)
    + 대상 공유 {#audience-sharing}
-      + [대상 공유 [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [대상 공유하기 [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
       + [공유 대상 통합 구성 [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [문제 해결](integrations/using/troubleshooting.md)
       + [대상 가져오기 및 내보내기](integrations/using/importing-and-exporting-audiences.md)
    + 자산 공유 {#asset-sharing}
-      + [자산 공유 [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [자산 공유하기 [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
       + [액세스 권한 구성 [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
       + [공유 자산 삽입](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
       + [정보 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
-      + [ 통합 구성](integrations/using/configuring-the-integration.md)
-      + [뉴스레터 [!DNL Experience Manager] 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [통합 구성](integrations/using/configuring-the-integration.md)
+      + [ [!DNL Experience Manager] 뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [통합 [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
-      + [통합 구성 [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [통합 구성하기 [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [동적 이미지 삽입](integrations/using/inserting-a-dynamic-image.md)
    + Adobe ID을 통해 연결 {#connecting-via-an-adobe-id}
       + [정보 [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
@@ -339,7 +339,7 @@ ht-degree: 91%
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
       + [문제 해결 [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
    + Experience Cloud 트리거 {#experience-triggers}
-      + [정보 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [시작하기 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
       + [Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성](integrations/using/configuring-adobe-io.md)
       + [사용자 지정 구현을 위한 이벤트 구성](integrations/using/events.md)
@@ -347,7 +347,7 @@ ht-degree: 91%
       + [파이프라인 문제 해결](integrations/using/pipeline-troubleshooting.md)
 + 워크플로우로 자동화 {#automating-with-workflows}
    + 소개 {#introduction}
-      + [워크플로우 시작하기](workflow/using/about-workflows.md)
+      + [워크플로우 시작](workflow/using/about-workflows.md)
       + [활동 정보](workflow/using/about-activities.md)
    + 일반 작업 {#general-operation}
       + [워크플로우 구축](workflow/using/building-a-workflow.md)
@@ -440,7 +440,7 @@ ht-degree: 91%
          + [데이터 강화](workflow/using/enriching-data.md)
          + [집계 사용](workflow/using/using-aggregates.md)
          + [증분 쿼리를 사용한 분기별 목록 업데이트](workflow/using/quarterly-list-update.md)
-      + 타깃팅 {#designing-queries}
+      + {#designing-queries} 타겟팅 
          + [수신자 테이블 쿼리](workflow/using/querying-recipient-table.md)
          + [게재 정보 쿼리](workflow/using/querying-delivery-information.md)
          + [집계 컴퓨팅 수행](workflow/using/performing-aggregate-computing.md)
@@ -483,7 +483,7 @@ ht-degree: 91%
       + [중간 소싱으로 전송](workflow/using/transfer-to-mid-sourcing.md)
       + [중간 소싱 플랫폼](workflow/using/mid-sourcing-platform.md)
 + 오퍼 관리 {#managing-offers}
-   + 인터랙션 시작하기 {#interaction-overview}
+   + 상호 작용 시작{#interaction-overview}
       + [상호 작용 및 제안 관리](interaction/using/interaction-and-offer-management.md)
       + [용어집](interaction/using/glossary.md)
       + [상호 작용 모범 사례](interaction/using/interaction-best-practices.md)
@@ -535,7 +535,7 @@ ht-degree: 91%
       + [아웃바운드 채널의 오퍼](interaction/using/offers-on-an-outbound-channel.md)
 + 트랜잭션 메시지 {#transactional-messaging}
    + 소개 {#introduction}
-      + [트랜잭션 메시지 시작하기](message-center/using/about-transactional-messaging.md)
+      + [트랜잭션 메시지 시작](message-center/using/about-transactional-messaging.md)
       + [트랜잭션 메시징 아키텍처](message-center/using/transactional-messaging-architecture.md)
       + [이벤트 설명](message-center/using/event-description.md)
    + 인스턴스 구성 {#instance-configuration}
@@ -583,7 +583,7 @@ ht-degree: 91%
       + [Facebook 앱의 예](social/using/examples-of-facebook-apps.md)
       + [추적](social/using/tracking.md)
 + Campaign Classic 설치 {#installing-campaign-classic}
-   + 건축 원칙 {#architecture-and-hosting-models}
+   + 아키텍처 원칙 {#architecture-and-hosting-models}
       + [일반 아키텍처](installation/using/general-architecture.md)
       + 호스팅 모델{#hosting-models-lp}
          + [호스팅 모델 정보](installation/using/hosting-models.md)
@@ -603,13 +603,13 @@ ht-degree: 91%
       + [엔터프라이즈 배포](installation/using/enterprise-deployment.md)
       + [중간 소싱 배포](installation/using/mid-sourcing-deployment.md)
       + [전원 부스터 및 전원 클러스터](installation/using/power-booster-and-power-cluster.md)
-   + Windows 기반의 캠페인 {#installing-campaign-in-windows-}
+   + Windows {#installing-campaign-in-windows-}의 Campaign
       + [Windows에서 Campaign 설치 전](installation/using/prerequisites-of-campaign-installation-in-windows.md)
       + [서버 설치](installation/using/installing-the-server.md)
       + [Windows용 웹 서버에 통합](installation/using/integration-into-a-web-server-for-windows.md)
       + [Windows용 클라이언트 콘솔 가용성](installation/using/client-console-availability-for-windows.md)
       + [클라이언트 콘솔 설치](installation/using/installing-the-client-console.md)
-   + Linux 기반의 캠페인  {#installing-campaign-in-linux-}
+   + Linux {#installing-campaign-in-linux-}의 Campaign
       + [Linux에 Campaign 설치 전](installation/using/prerequisites-of-campaign-installation-in-linux.md)
       + [Linux를 사용하여 패키지 설치](installation/using/installing-packages-with-linux.md)
       + [Linux용 웹 서버와 통합](installation/using/integration-into-a-web-server-for-linux.md)
@@ -659,7 +659,7 @@ ht-degree: 91%
    + Adobe Campaign 업데이트 {#updating-adobe-campaign}
       + [소개](production/using/introduction.md)
       + [빌드 업그레이드 수행](production/using/build-upgrade.md)
-      + [업그레이드 절차(온-프레미스)](production/using/upgrading.md)
+      + [업그레이드 프로시저(온-프레미스)](production/using/upgrading.md)
       + [유니코드로 전환](production/using/switching-to-unicode.md)
       + [마이그레이션 프로시저](production/using/migration-procedures.md)
    + 데이터베이스 유지 관리 {#database-maintenance}
@@ -761,4 +761,4 @@ ht-degree: 91%
       + [v5.11의 특정 구성](migration/using/specific-configurations-in-v5-11.md)
       + [v6.02의 특정 구성](migration/using/specific-configurations-in-v6-02.md)
       + [v6.10의 특정 구성](migration/using/specific-configurations-in-v6-10.md)
-   + [롤백 절차](migration/using/about-rollback.md)
+   + [롤백 프로시저](migration/using/about-rollback.md)
