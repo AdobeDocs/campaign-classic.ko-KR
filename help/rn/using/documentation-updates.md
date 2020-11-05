@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: ba5e815dd1576b55d9b3226639680f6358137f13
+source-git-commit: 54ac5abcc53c41d025238a3c89f9d732c0fb1376
 workflow-type: tm+mt
-source-wordcount: '3882'
-ht-degree: 83%
+source-wordcount: '3905'
+ht-degree: 82%
 
 ---
 
@@ -40,6 +40,8 @@ Android용 푸시 알림 개선 - [자세한 내용](../../delivery/using/config
 
 Gold Standard 릴리스의 릴리스 노트 및 호환성 매트릭스는 이제 전용 섹션에서 사용할 수 있습니다.
 [자세한 내용](../../rn/using/gold-standard.md#gs-10)
+
+oAUTH 인증 설정을 기반으로 한 트리거 통합이 변경되었으며 Adobe I/O로 이동되었습니다. [자세한 내용](../../integrations/using/about-triggers.md)
 
 **기타 업데이트**
 
