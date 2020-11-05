@@ -1,8 +1,6 @@
 ---
-title: ' 통합 구성'
-seo-title: ' 통합 구성'
-description: ' 통합 구성'
-seo-description: null
+title: 파이프라인 구성
+description: 파이프라인 구성 방법 알아보기
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
+source-git-commit: f3caef21a269cf57624a07bfe1b4bf1e241061a6
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 2%
+source-wordcount: '911'
+ht-degree: 1%
 
 ---
 
@@ -32,17 +30,17 @@ ht-degree: 2%
 
 ## 사전 요구 사항 {#prerequisites}
 
-캠페인 [!DNL Experience Cloud Triggers] 에서 사용하려면 다음이 필요합니다.
+이 구성을 시작하기 전에 다음을 확인하십시오.
 
-* Adobe Campaign 19.1.9 버전 또는 20.3.1 이상.
-* Analytics Standard 버전.
+* adobe campaign의 최신 버전:19.1.8 또는 20.2.1 빌드 및 이상
+* Adobe Analytics Standard 버전
 
-사전 요구 사항 구성은 다음과 같습니다.
+또한 다음을 수행해야 합니다.
 
 * Adobe I/O 프로젝트 인증
-* Adobe Analytics과 함께 있는 Experience Cloud 고객의 식별자인 IMSOrgId입니다.
-* 프로비저닝 팀은 고객의 IMS 조직에 대한 시스템 관리자 권한이 있어야 합니다.
-* Adobe Analytics의 트리거 구성
+* 유효한 IMSOrgID, Adobe Analytics이 있는 Experience Cloud 고객의 식별자입니다.
+* IMS 조직에 대한 개발자 액세스
+* adobe analytics의 트리거 구성 완료
 
 ## 인증 및 구성 파일 {#authentication-configuration}
 
