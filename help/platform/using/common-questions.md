@@ -9,11 +9,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '539'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 87%
 
 Campaign Classic을 사용하여 작업하는 동안 도움이 필요하십니까? 아래의 상위 10개 질문과 해당 페이지의 기타 FAQ를 참조하십시오. 다음을 수행할 수도 있습니다.
 
-* [자습서 비디오 보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/overview.html)
+* [튜토리얼 비디오 보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/overview.html)
 * [자가 도움말 옵션 찾아보기](../../platform/using/tutorials.md#how-to-videos)
-* [시작하기 및 활용 사례 섹션 보기](../../platform/using/tutorials.md#step-by-step-guides)
+* [시작 및 사용 사례 섹션 읽기](../../platform/using/tutorials.md#step-by-step-guides)
 * 답을 찾을 수 없습니까? [전문가에게 문의](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
-* 지원이 필요하십니까? [캠페인 도움말 및 지원 옵션을 참조하십시오.](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
+* 지원이 필요하십니까? [캠페인 도움말 및 지원 옵션 참조](https://helpx.adobe.com/kr/campaign/kb/ac-support.html#acc-support)
 
 ## 1. Campaign을 최신 버전으로 업그레이드하려면 어떻게 해야 합니까? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
@@ -34,7 +34,7 @@ Adobe Campaign Classic은 특히 다양한 기술을 사용하여 가치를 전�
 
 Adobe Managed Services을 사용하는 경우 Campaign Gold Standard 업그레이드를 활용할 수 있습니다. 자세한 정보는 [이 문서](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html)를 참조하십시오.
 
-[이 섹션을](../../production/using/build-upgrade.md) 참조하여 환경을 업데이트하고 이 특정 주제에 [대한 일반적인 질문](../../platform/using/faq-build-upgrade.md) 을 읽으십시오.
+[이 섹션을 참조](../../production/using/build-upgrade.md)하여 환경을 업데이트하고 이 특정 주제에 대한 [일반적인 질문](../../platform/using/faq-build-upgrade.md)을 읽는 방법을 알아봅니다.
 
 ## 2. 데이터베이스 정리 워크플로우란 무엇입니까? {#what-is-the-database-cleanup-workflow-}
 
@@ -72,7 +72,7 @@ Adobe Campaign Classic에 연결하려면 Adobe Campaign 클라이언트 콘솔�
 
 [이 페이지](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html)에서 최신 Campaign Classic 릴리스 정보에 액세스할 수 있습니다.
 
-## 9. What is the procedure for domain configuration? {#what-is-the-procedure-for-domain-delegation-}
+## 9. 도메인 구성의 절차는 무엇입니까? {#what-is-the-procedure-for-domain-delegation-}
 
 하위 도메인은 브랜드나 다양한 트래픽 유형(트랜잭션 메시지, 마케팅 정보 등)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 Adobe는 전자 메일 게재를 위해 DNS(Domain Name System)를 고려하며, 이를 통해 클라이언트는 도메인 이름과 함께 DNS 별칭을 사용하여 브랜드 이미지를 유지하고, Adobe는 전자 메일 전송 중에 게재 능력을 최적화할 수 있도록 하는 모든 기술 모범 사례를 자체적으로 구현할 수 있습니다.
