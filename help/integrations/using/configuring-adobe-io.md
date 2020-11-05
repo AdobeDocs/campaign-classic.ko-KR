@@ -13,22 +13,26 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성 {#configuring-adobe-io}
+# Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
+
+>[!CAUTION]
+>
+>JWT 토큰 또는 Auth 인증을 통해 이전 버전의 트리거 통합을 사용하는 **경우 아래**&#x200B;설명에 따라 Adobe I/O로 이동해야 합니다. JWT 및 Auth 인증 모드는 이제 더 이상 사용되지 않습니다. [자세히 알아보기](https://github.com/AdobeDocs/analytics-1.4-apis)
 
 ## 사전 요구 사항 {#adobe-io-prerequisites}
 
 이 구현을 시작하기 전에 다음을 확인하십시오.
 
 * adobe campaign의 최신 버전:19.1.8 또는 20.2.1 빌드 및 이상
-* 유효한 IMSOrgID:identity management 시스템(IMS) 조직 식별자는 Adobe Experience Cloud 내의 고유한 식별자이며, VisitorID 서비스 및 IMS SSO(Single-Sign On),
+* 유효한 IMSOrgID:identity management 시스템(IMS) 조직 식별자는 Adobe Experience Cloud 내의 고유 식별자이며, VisitorID 서비스 및 IMS SSO(Single-Sign On),
 * IMS 조직에 대한 개발자 액세스.
 
 >[!NOTE]
@@ -105,7 +109,3 @@ nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_
 ```
 <pipelined ... authType="imsJwtToken"  ... />
 ```
-
->[!NOTE]
->
->기존 JWT 토큰을 사용하여 이전 버전의 트리거 통합을 사용하는 경우, 첫 번째 단계에서 자세한 내용을 보려면 Adobe I/O API를 추가하여 새 트리거 인증으로 자동 마이그레이션해야 합니다. [!DNL Adobe Analytics]
