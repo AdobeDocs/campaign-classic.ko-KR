@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 9844616f417608051bbff2593d6124d8ff83008c
+source-git-commit: d9ae51c30e2ac538ff29e4ab53fa215d09f3d655
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 84%
+source-wordcount: '283'
+ht-degree: 78%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 84%
 
 ## 새로운 기능
 
-* **[HTTP/2 기반 APNs 공급자 API로 이동](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/>&#x200B;기존 바이너리 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법을 알아봅니다.
+* **[Adobe Experience Cloud 트리거 통합 업데이트](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)**<br/>&#x200B;기존 oAuth 인증 서비스가 사용 종료되었습니다. Adobe I/O로 마이그레이션하는 방법을 알아봅니다.
+
+* **[HTTP/2 기반 APNs 공급자 API로 이동](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)**<br/>&#x200B;기존 바이너리 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법을 알아봅니다.
 
 * **[메시지에 이모티콘 추가](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>이제 메시지와 줄에다 이모티콘을 삽입할 수 있습니다
 
 * **[지원 받기](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)**<br/>&#x200B;액세스 FAQ, 모범 사례, 도움말 리소스 및 도움말 요청
-
-* **[개인 정보 보호 규정 준수](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaign이 개인 정보 보호 규정 준수에 어떻게 도움을 줄 수 있는지 배웁니다.
 
 * **[추적 기능](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html)**<br/>
 Campaign의 추적 기능 및 프로세스 이해
