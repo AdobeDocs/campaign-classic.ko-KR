@@ -10,10 +10,10 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 281eb6b0f84e01d25ac9c3542dc2ee950d4879e7
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
 source-wordcount: '1621'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -48,10 +48,10 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr>
   <tr>
   <td>CRM 커넥터<br></td>
-   <td><p>Campaign 20.3 릴리스를 시작하는 경우 다음 CRM 커넥터는 더 이상 사용되지 않습니다.</p>
+   <td><p>Campaign 20.3 릴리스부터 다음의 CRM 커넥터는 사용되지 않습니다.</p>
    <ul>
-   <li>Soap API - 온-프레미스:2007년, 2015년, 2016년</li>
-   <li>Soap API - 온라인:2015년, 2016년</li>
+   <li>Soap API - 온-프레미스: 2007년, 2015년, 2016년</li>
+   <li>Soap API - 온라인: 2015년, 2016년</li>
    <li>웹 API - Microsoft Dynamics CRM 온-프레미스:2016, 2016 업데이트 1</li>
    <li>웹 API - Microsoft Dynamics CRM Online:2016, 2016 업데이트 1</li>
    </ul>
@@ -59,29 +59,29 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </td>
  </tr>
   <tr>
-  <td>iOS 레거시 이진<br></td>
-  <td><p>Campaign 20.3 릴리스를 시작하는 경우 iOS 레거시 바이너리 커넥터는 더 이상 사용되지 않습니다.<p>
+  <td>iOS 레거시 바이너리<br></td>
+  <td><p>Campaign 20.3 릴리스부터 iOS 레거시 바이너리 커넥터는 사용되지 않습니다.<p>
   <p> 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다.
-  <a href="https://helpx.adobe.com/campaign/kb/migrate-to-http2.html">자세히 알아보기</a></p>
+  <a href="https://helpx.adobe.com/kr/campaign/kb/migrate-to-http2.html">자세히 알아보기</a></p>
   <p><em>타겟 제거 날짜: 2021년</em></p>
   </td>
  </tr>
    <tr>
   <td>Demdex 도메인<br></td>
-  <td><p> Campaign 20.3 릴리스를 시작하면 대상을 Adobe Experience Cloud으로 가져오고 내보내는 데 사용되는 demdex 도메인이 더 이상 사용되지 않습니다.<p>
+  <td><p> Campaign 20.3 릴리스부터 대상을 Adobe Experience Cloud으로 가져오고 내보내는 데 사용되는 demdex 도메인은 사용되지 않습니다.<p>
   <p>외부 계정 가져오기/내보내기에 demdex 도메인을 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">자세히 알아보기</a></p> 
   <p><em>타겟 제거 날짜: 2021년</em></p>
   </td>
   <tr>
   <td>OAuth 인증(OAuth 및 JWT)<br></td>
-  <td><p> Campaign 20.3 릴리스를 시작하는 동안, 액세스 파이프라인에 대한 oAUTH 인증 설정을 기반으로 원래 통합 인증이 변경되었으며 Adobe I/O로 이동되었습니다. <p>
-  <p>트리거 통합을 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../integrations/using/about-triggers.md">자세히 알아보기</a></p> 
-  <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지를 참조하십시오</a></p> 
-  <p><em>Target 제거 날짜:2021년 4월</em></p>
+  <td><p> Campaign 20.3 릴리스부터 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O로 이동되었습니다. <p>
+  <p>트리거 통합을 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../integrations/using/configuring-adobe-io.md">자세히 알아보기</a></p> 
+  <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지</a>를 참조하십시오</p> 
+  <p><em>타겟 제거 날짜: 2021년 4월</em></p>
   </td>
   </tr>
   <td>SMS 커넥터<br></td>
-  <td><p> Campaign 20.2 릴리스를 시작하면 다음 SMS 커넥터는 더 이상 사용되지 않습니다.<p>
+  <td><p> Campaign 20.2 릴리스부터 다음의 SMS 커넥터는 사용 중단됩니다.<p>
    <ul>
    <li>NetSize</li>
    <li>일반 SMPP(SMPP 버전 3.4 지원 바이너리 모드)</li>
@@ -98,7 +98,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
  </tr>
   <tr>  
    <td>팩스 채널<br></td>
-   <td><p>Campaign 20.2 릴리스를 시작하는 경우 팩스 채널은 더 이상 사용되지 않습니다.</p> 
+   <td><p>Campaign 20.2 릴리스부터 팩스 채널은 사용 중단됩니다.</p> 
    <p>이 채널을 사용하는 경우 그에 따라 구현을 조정해야 합니다. Campaign 채널에 대해 <a href="../../delivery/using/steps-about-delivery-creation-steps.md">자세히 알아보십시오</a>.</p>
    <p><em>타겟 제거 날짜: 2021년</em></p></td>
   </tr>
@@ -117,7 +117,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr> 
    <tr> 
    <td>Windows NT 인증<br></td>
-   <td><p>Campaign 20.3 릴리스를 시작으로 Microsoft SQL Server로 새 데이터베이스를 구성할 때 사용 가능한 인증 방법에서 Windows NT 인증이 제거되었습니다. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">자세히 알아보기</a></p></td>
+   <td><p>Campaign 20.3 릴리스부터 Microsoft SQL Server로 새 데이터베이스를 구성할 때 사용 가능한 인증 방법에서 Windows NT 인증이 제거되었습니다. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">자세히 알아보기</a></p></td>
   </tr>
    <tr> 
    <td>파일 기반의 전자 메일 보관<br></td>
@@ -165,7 +165,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 
 ### Adobe Campaign 20.2 릴리스 {#compat-20-2-release}
 
-20.2 릴리스부터 레거시 SMS 커넥터는 더 이상 사용되지 않습니다. 더 이상 사용되지 [않는 기능 섹션을 참조하십시오.](#deprecated-features)
+20.2 릴리스부터 레거시 SMS 커넥터는 사용되지 않습니다. [사용되지 않는 기능 섹션](#deprecated-features)을 참조하십시오.
 
 ## 호환성 종료 {#end-of-compatibility}
 
@@ -216,7 +216,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 
 **FDA (FEDERATED DATA ACCESS)**
 
-20.2 릴리스를 시작으로 Adobe Campaign은 다음 FDA 서버와 더 이상 호환되지 않습니다.
+20.2 릴리스부터 Adobe Campaign은 더 이상 다음 FDA 서버와 호환되지 않습니다:
 
 * DB2 UDB 10.5
 
