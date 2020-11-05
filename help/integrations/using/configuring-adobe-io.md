@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+source-git-commit: d9ae51c30e2ac538ff29e4ab53fa215d09f3d655
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->JWT 토큰 또는 Auth 인증을 통해 이전 버전의 트리거 통합을 사용하는 **경우 아래**&#x200B;설명에 따라 Adobe I/O로 이동해야 합니다. JWT 및 Auth 인증 모드는 이제 더 이상 사용되지 않습니다. [자세히 알아보기](https://github.com/AdobeDocs/analytics-1.4-apis)
+>iAuth 인증을 통해 이전 버전의 트리거 통합을 사용하는 **경우 아래**&#x200B;설명에 따라 Adobe I/O로 이동해야 합니다. 기존 Auth 인증 모드는 2021년 4월 30일에 종료됩니다. [자세히 알아보기](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md)
 
 ## 사전 요구 사항 {#adobe-io-prerequisites}
 
