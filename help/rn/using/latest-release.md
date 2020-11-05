@@ -9,9 +9,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: fe7ce92bde3405fed3429475cdd5681e5837876f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ _2020년 10월 27일_
 다음 기능은 20.3에서 사용되지 않습니다.
 
 * 대상을 Adobe Experience Cloud으로 가져오고 내보내는 데 사용되는 demdex 도메인은 사용되지 않습니다. 외부 계정 가져오기/내보내기에 demdex 도메인을 사용하는 경우 그에 따라 구현을 조정해야 합니다. [자세히 알아보기](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-* 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O로 이동되었습니다. [자세히 알아보기](../../integrations/using/about-triggers.md)
+* 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O로 이동되었습니다. [자세히 알아보기](../../integrations/using/configuring-adobe-io.md)
 
 더 자세한 내용은 [사용되지 않거나 제거된 기능 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
 
