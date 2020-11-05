@@ -8,9 +8,9 @@ product: adobe campaign
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: d15e953740b0a4dd8073b36fd59b4c4e44906340
+source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2149'
 ht-degree: 91%
 
 ---
@@ -341,7 +341,7 @@ ht-degree: 91%
    + Experience Cloud 트리거 {#experience-triggers}
       + [정보 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
-      + [Adobe Experience Cloud 트리거에 대한 Adobe IO 구성](integrations/using/configuring-adobe-io.md)
+      + [Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성](integrations/using/configuring-adobe-io.md)
       + [사용자 지정 구현을 위한 이벤트 구성](integrations/using/events.md)
       + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
       + [파이프라인 문제 해결](integrations/using/pipeline-troubleshooting.md)
