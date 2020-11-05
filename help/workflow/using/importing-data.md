@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: -general-operation
 discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
 translation-type: tm+mt
-source-git-commit: 1e6ef4a3924e2cab0e6baf06e0861620e17d240b
+source-git-commit: 12a6409df4816519b979b911d7de03eae94bef33
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 0%
@@ -275,14 +275,14 @@ GPG 키를 사용하여 데이터를 해독하는 방법을 보여주는 자습�
 
 1. Campaign Classic에서 암호화된 데이터를 가져오고 Campaign 컨트롤 패널을 통해 설치된 개인 키를 사용하여 암호를 해독하는 워크플로우를 만듭니다. 이를 위해 다음과 같은 워크플로우를 구축할 예정입니다.
 
-   ![](assets/gpg_workflow.png)
+   ![](assets/gpg_import_workflow.png)
 
    * **[!UICONTROL File transfer]** 활동:외부 소스에서 Campaign Classic으로 파일을 전송합니다. 이 예에서는 SFTP 서버에서 파일을 전송하려고 합니다.
    * **[!UICONTROL Data loading (file)]** 활동:파일의 데이터를 데이터베이스에 로드하고 Campaign 컨트롤 패널에서 생성된 개인 키를 사용하여 이를 해독합니다.
 
 1. 활동을 연 다음 **[!UICONTROL File transfer]** 암호화된 .gpg 파일을 가져올 외부 계정을 지정합니다.
 
-   ![](assets/gpg_transfer.png)
+   ![](assets/gpg_key_transfer.png)
 
    활동을 구성하는 방법에 대한 글로벌 개념은 [이 섹션에서 사용할 수 있습니다](../../workflow/using/file-transfer.md).
 
