@@ -9,11 +9,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Campaign 클라이언트 콘솔의 **도움말 > 정보...[ 메뉴에서 버전 
 
 ## 온프레미스 및 호스팅 환경에서 작업하는 경우의 차이점은 무엇입니까? {#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
 
-Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니다. The availability of these modules and their configuration can depend on the [type of deployment](../../installation/using/hosting-models.md) of your installation: hosted (Managed Services), hybrid or on-premise.
+Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니다. 이러한 모듈 및 구성 가용성은 설치 [배포 유형](../../installation/using/hosting-models.md)이 호스팅(Managed Services), hybrid 또는 온프레미스인지에 따라 달라질 수 있습니다.
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../installation/using/capability-matrix.md).
 
@@ -65,7 +65,7 @@ Adobe 서비스를 사용할 때 GDPR 준수를 위해 Adobe Campaign이 제공�
 
 Adobe Campaign 작업 영역의 기본 사항에 대한 자세한 내용은 [이 섹션을](../../platform/using/adobe-campaign-workspace.md) 참조하십시오.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 캠페인 작업 영역 검색](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 캠페인 작업 영역 살펴보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 ## 메시지 대상자를 선택하려면 어떻게 해야 합니까? {#how-can-i-select-the-target-population-of-my-messages-}
 
