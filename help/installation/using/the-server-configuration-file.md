@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 translation-type: tm+mt
-source-git-commit: 2ff877607641435a2c2806f48f3c5b35d96d39c5
+source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
 workflow-type: tm+mt
-source-wordcount: '7852'
+source-wordcount: '7855'
 ht-degree: 5%
 
 ---
@@ -3216,7 +3216,7 @@ For additional information, refer to this [section](../../installation/using/dep
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> IMS 조직 식별자:VisitorID 서비스 및 IMS SSO에 특히 사용되는 Adobe Marketing Cloud 내의 고유한 조직 식별자입니다. <br /> </td> 
+   <td> Identity Management 시스템(IMS) 조직 식별자:VisitorID 서비스 및 IMS SSO에 특히 사용되는 Adobe Experience Cloud 내의 고유한 조직 식별자입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
