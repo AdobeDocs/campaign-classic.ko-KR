@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: 3e73d7c91fbe7cff7e1e31bdd788acece5806e61
+source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '907'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 사전 요구 사항 구성은 다음과 같습니다.
 
-* Adobe IO 프로젝트 인증
+* Adobe I/O 프로젝트 인증
 * Adobe Analytics과 함께 있는 Experience Cloud 고객의 식별자인 IMSOrgId입니다.
 * 프로비저닝 팀은 고객의 IMS 조직에 대한 시스템 관리자 권한이 있어야 합니다.
 * Adobe Analytics의 트리거 구성
@@ -48,13 +48,13 @@ ht-degree: 2%
 
 파이프라인이 Adobe Experience Cloud에서 호스팅되므로 인증이 필요합니다.
 공개 및 개인 키를 사용합니다. 이 프로세스는 사용자/암호와 동일한 기능을 하지만 더 안전합니다.
-Adobe IO 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩니다.
+Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩니다.
 
-## 1단계:Adobe IO 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
+## 1단계:Adobe I/O 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
 
-호스팅 고객의 경우 고객 지원 티켓을 만들어 트리거 통합을 위한 Adobe IO 기술 계정 토큰으로 조직을 활성화할 수 있습니다.
+호스팅 고객의 경우 고객 지원 티켓을 만들어 트리거 통합을 위한 Adobe I/O 기술 계정 토큰으로 조직을 활성화할 수 있습니다.
 
-온-프레미스 고객의 경우 Adobe Experience Cloud 트리거를 [위한 Adobe IO 구성 페이지를](../../integrations/using/configuring-adobe-io.md) 참조하십시오. Adobe IO 자격 증명에 API를 추가하는 **[!UICONTROL Adobe Analytics]** 동안 선택해야 합니다.
+온-프레미스 고객의 경우 Adobe Experience Cloud 트리거에 [대한 Adobe I/O 구성 페이지를](../../integrations/using/configuring-adobe-io.md) 참조하십시오. Adobe I/O 자격 증명에 API를 추가하는 **[!UICONTROL Adobe Analytics]** 동안 선택해야 합니다.
 
 ## 2단계:NmsPipeline_Config 파이프라인 구성 옵션 {#configuring-nmspipeline}
 
