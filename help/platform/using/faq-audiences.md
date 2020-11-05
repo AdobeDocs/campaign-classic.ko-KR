@@ -10,11 +10,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign 내에서 모집단을 타겟팅하고 대상 그룹을 관리하
 
 데이터베이스에서 [프로필을 가져오기](../../platform/using/importing-data.md#generic-import-samples) 위해 쉬운 사용 사례를 살펴봅니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/importing-profiles.html)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/importing-profiles.html)
 
 ## 마케팅 캠페인의 대상 모집단을 정의하려면 어떻게 해야 합니까? {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
@@ -44,7 +44,7 @@ Adobe Campaign 내에서 모집단을 타겟팅하고 대상 그룹을 관리하
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group).
 
-![](assets/do-not-localize/how-to-video.png) 이 비디오 [및 이 다른 비디오](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html) [에서 이 기능 살펴보기](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)
+![](assets/do-not-localize/how-to-video.png)이 비디오 [및 다른 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html)에서 [이 기능 살펴보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)
 
 ## 메시지를 보내기 전에 모집단 중복을 제거하려면 어떻게 해야 합니까? {#how-can-i-deduplicate-a-population-before-sending-a-message-}
 
