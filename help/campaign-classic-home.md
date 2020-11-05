@@ -3,9 +3,9 @@ keywords: Campaign Classic;home;popular topics
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: d9ae51c30e2ac538ff29e4ab53fa215d09f3d655
+source-git-commit: 6ac6145a38538f07b8080e503cd7750b19ed9621
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '277'
 ht-degree: 78%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 78%
 
 ## 새로운 기능
 
-* **[Adobe Experience Cloud 트리거 통합 업데이트](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)**<br/>&#x200B;기존 oAuth 인증 서비스가 사용 종료되었습니다. Adobe I/O로 마이그레이션하는 방법을 알아봅니다.
+* **[Adobe Experience Cloud 트리거 통합](integrations/using/configuring-adobe-io.md)업데이트))**<br/>&#x200B;기존 Auth 인증 서비스가 사용 종료되었습니다. Adobe I/O로 마이그레이션하는 방법을 알아봅니다.
 
 * **[HTTP/2 기반 APNs 공급자 API로 이동](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)**<br/>&#x200B;기존 바이너리 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법을 알아봅니다.
 
