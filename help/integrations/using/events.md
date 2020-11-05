@@ -1,8 +1,6 @@
 ---
-title: ' 통합 구성'
-seo-title: ' 통합 구성'
-description: ' 통합 구성'
-seo-description: null
+title: 이벤트 구성
+description: 사용자 지정 구현을 위한 이벤트를 구성하는 방법 알아보기
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: d15e953740b0a4dd8073b36fd59b4c4e44906340
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 1%
+source-wordcount: '1198'
+ht-degree: 0%
 
 ---
 
@@ -28,9 +26,7 @@ ht-degree: 1%
 * QueryDef 및 Writer API에 대한 작업 지식
 * 개인 키를 사용한 암호화 및 인증 작업
 
-JS 코드를 편집하려면 기술 기술이 필요하므로 제대로 이해하지 않으면 시도하지 마십시오.
-
-이벤트의 추가 처리는 기본 구현 밖에서 제공되는 ACX 패키지의 일부로 수행됩니다. 수신한 이벤트는 JavaScript 코드를 사용하여 즉시 처리됩니다. 더 이상 실시간으로 처리되지 않고 데이터베이스 테이블에 저장됩니다. 트리거는 이메일을 보내는 캠페인 워크플로에 의한 타깃팅에 사용됩니다. 캠페인을 설정하여 이벤트를 트리거한 고객이 이메일을 수신하게 됩니다.
+Javascript 코드를 편집하려면 기술 기술이 필요하므로 적절한 이해 없이 시도하지 마십시오.
 
 ## JavaScript에서 이벤트 처리 {#events-javascript}
 
@@ -40,7 +36,7 @@ JS 코드를 편집하려면 기술 기술이 필요하므로 제대로 이해�
 
 &quot;JSConnector&quot; 속성 아래의 **[!UICONTROL NmsPipeline_Config]** 옵션에서 구성됩니다. 이 javascript는 이벤트를 받을 때마다 호출됩니다. 그 [!DNL pipelined] 과정에 의해 운영된다.
 
-샘플 JS 파일은 cus:triggers.js입니다.
+샘플 Javascript 파일은 cus:triggers.js입니다.
 
 ### JavaScript 함수 {#function-js}
 
@@ -58,7 +54,7 @@ function processPipelineMessage(xmlTrigger) {}
 <undefined/>
 ```
 
-JS를 편집한 [!DNL pipelined] 후 다시 시작해야 합니다.
+Javascript를 편집한 [!DNL pipelined] 후 다시 시작해야 합니다.
 
 ### 데이터 형식 트리거 {#trigger-format}
 
@@ -136,7 +132,7 @@ logInfo()와 같은 로그는 [!DNL pipelined] 로그에 전달됩니다. logErr
 
 ### 데이터 구문 분석 {#data-parsing}
 
-이 샘플 JS 코드는 추가에서 eVar01을 구문 분석합니다.
+이 샘플 Javascript 코드는 추가에서 eVar01을 구문 분석합니다.
 
 ```
 function processPipelineMessage(xmlTrigger)
