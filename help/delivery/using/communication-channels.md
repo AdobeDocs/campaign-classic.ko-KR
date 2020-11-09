@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: e01acc00d0b15df99c009fe29d170ed0fc9fa956
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 12%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 12%
 
 # 소통 채널{#communication-channels}
 
-Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및 다이렉트 메일을 비롯한 크로스 채널 캠페인을 전송할 수 있으며 다양한 전용 [보고서를 사용하여 캠페인 효과를 측정할 수 있습니다](../../reporting/using/delivery-reports.md). 이러한 메시지는 배달할 때 디자인되고 전송되며 각 수신자에 대해 개인화할 수 있습니다.
+Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및 다이렉트 메일을 비롯한 크로스 채널 캠페인을 전송할 수 있으며 다양한 전용 [보고서를 사용하여 효과를 측정할 수 있습니다](../../reporting/using/delivery-reports.md). 이러한 메시지는 배달할 때 디자인되고 전송되며 각 수신자에 대해 개인화할 수 있습니다.
 
 핵심 기능에는 타깃팅, 정의 및 메시지 개인화, 커뮤니케이션 실행 및 관련 운영 보고서가 포함됩니다. 기본 기능 액세스 포인트는 배달 마법사로, 이 액세스 포인트는 Adobe Campaign의 다양한 기능으로 이어집니다.
 
@@ -43,7 +43,7 @@ Adobe Campaign은 다음과 같은 배달 채널을 제공합니다.
 
    >[!NOTE]
    >
-   >여러 채널을 사용하는 것은 패키지에 따라 다릅니다. 사용권 계약을 확인하십시오.
+   >사용 가능한 채널 수는 계약에 따라 다릅니다. 사용권 계약을 확인하십시오.
 
 게재는 **온라인** (이메일, 모바일 채널 및 푸시 알림 중 하나)과 **오프라인** (DM 채널)으로 수행할 수 있습니다.
 
