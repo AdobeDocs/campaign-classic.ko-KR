@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 075206aa-ff7b-4fa8-a05d-14a29fb119ba
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 1781648fc17d729f451664204f99a77dfaa8c824
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 5%
+source-wordcount: '173'
+ht-degree: 6%
 
 ---
 
@@ -34,4 +34,4 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->AND- **조인** 유형 활동의 경우 이벤트 변수가 병합되지만 동일한 변수가 두 번 정의된 경우 충돌이 발생하고 값이 확인되지 않은 상태로 유지됩니다. 자세한 내용은 [](../../workflow/using/javascript-scripts-and-templates.md#event-variables)를 참조하십시오.
+>AND- **조인** 유형 활동의 경우 이벤트 변수가 병합되지만 동일한 변수가 두 번 정의된 경우 충돌이 발생하고 값이 확인되지 않은 상태로 유지됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/javascript-scripts-and-templates.md#event-variables)을 참조하십시오.
