@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: f3caef21a269cf57624a07bfe1b4bf1e241061a6
+source-git-commit: 4f949d8db3aa3082acf1765bf66080b270cc6db4
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '909'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 이 구성을 시작하기 전에 다음을 확인하십시오.
 
-* adobe campaign의 최신 버전:19.1.8 또는 20.2.1 빌드 및 이상
+* 최신 버전의 Adobe Campaign(20.2.1 이상),
 * Adobe Analytics Standard 버전
 
 또한 다음을 수행해야 합니다.
