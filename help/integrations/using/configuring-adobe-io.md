@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9ae51c30e2ac538ff29e4ab53fa215d09f3d655
+source-git-commit: 8486213403bf848f1632aff06f3f1528b199f86d
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '423'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 이 구현을 시작하기 전에 다음을 확인하십시오.
 
-* adobe campaign의 최신 버전:19.1.8 또는 20.2.1 빌드 및 이상
+* 최신 버전의 Adobe Campaign(20.2.1 이상),
 * 유효한 IMSOrgID:identity management 시스템(IMS) 조직 식별자는 Adobe Experience Cloud 내의 고유 식별자이며, VisitorID 서비스 및 IMS SSO(Single-Sign On),
 * IMS 조직에 대한 개발자 액세스.
 
@@ -56,31 +56,31 @@ ht-degree: 2%
 
 1. 추출된 클라이언트 ID를 사용하여 기존 프로젝트를 식별합니다. 이전 단계에서 추출한 것과 동일한 클라이언트 ID를 가진 기존 프로젝트를 찾습니다.
 
-   ![](assets/adobe_io_8.png)
+   ![](assets/do-not-localize/adobe_io_8.png)
 
 1. 선택하고 **[!UICONTROL + Add to Project]** 선택합니다 **[!UICONTROL API]**.
 
-   ![](assets/adobe_io_1.png)
+   ![](assets/do-not-localize/adobe_io_1.png)
 
 1. In the **[!UICONTROL Add an API]** window, select **[!UICONTROL Adobe Analytics]**.
 
-   ![](assets/adobe_io_2.png)
+   ![](assets/do-not-localize/adobe_io_2.png)
 
 1. 인증 유형 **[!UICONTROL Service Account (JWT)]** 으로 선택합니다.
 
-   ![](assets/adobe_io_3.png)
+   ![](assets/do-not-localize/adobe_io_3.png)
 
 1. 클라이언트 ID가 비어 있는 경우 공개 및 개인 키 **[!UICONTROL Generate a key pair]** 를 만들도록 선택합니다.
 
-   ![](assets/adobe_io_4.png)
+   ![](assets/do-not-localize/adobe_io_4.png)
 
 1. 공개 키를 업로드하고 을 클릭합니다 **[!UICONTROL Next]**.
 
-   ![](assets/adobe_io_5.png)
+   ![](assets/do-not-localize/adobe_io_5.png)
 
 1. Analytics-&lt; 조직 **이름>** 제품 프로필을 선택하고 을 **[!UICONTROL Save configured API]**&#x200B;클릭합니다.
 
-   ![](assets/adobe_io_6.png)
+   ![](assets/do-not-localize/adobe_io_6.png)
 
 1. 프로젝트에서 다음 정보 **[!UICONTROL Service Account (JWT)]** 를 선택하고 복사합니다.
    * **[!UICONTROL Client ID]**
@@ -88,7 +88,7 @@ ht-degree: 2%
    * **[!UICONTROL Technical account ID]**
    * **[!UICONTROL Organization ID]**
 
-   ![](assets/adobe_io_7.png)
+   ![](assets/do-not-localize/adobe_io_7.png)
 
 ## 2단계:Adobe Campaign에서 프로젝트 자격 증명 추가 {#add-credentials-campaign}
 
