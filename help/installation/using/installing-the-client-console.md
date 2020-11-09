@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: d1069b23-e08d-43c5-bbfb-3158ac40dc7e
 translation-type: tm+mt
-source-git-commit: bdc09e1b6e037e1b21573b8624a947e30f8ad1fc
+source-git-commit: 48176ebb19689855f3ee5e61fa6492be5a682291
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 5%
@@ -77,7 +77,6 @@ Adobe Campaign 클라이언트 콘솔을 다운로드하여 설치하려면 아�
 >[!NOTE]
 >
 >이 **[!UICONTROL Add]** 단추를 사용하면 모든 연결을 구성할 **[!UICONTROL folders]** 수 있습니다. 각 연결을 하나의 폴더로 드래그하여 놓으면 됩니다.
-
 
 ## Adobe Campaign에 로그온
 
