@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 translation-type: tm+mt
-source-git-commit: fe7ce92bde3405fed3429475cdd5681e5837876f
+source-git-commit: 1781648fc17d729f451664204f99a77dfaa8c824
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1307'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 2%
 
 * Oracle, Microsoft SQL Server 또는 PostgreSQL 데이터베이스의 경우 관리자는 데이터베이스 개체를 생성할 때 사용할 **저장** 매개변수를 정의할 수도 있습니다.
 
-   이러한 매개 변수는 정확한 테이블스페이스 이름을 받습니다(경고:대/소문자 구분). 이러한 지표는 각각 다음 옵션 **[!UICONTROL Administration > Platform > Options]** 의 노드에 저장됩니다(참조 [](../../installation/using/configuring-campaign-options.md#database)).
+   이러한 매개 변수는 정확한 테이블스페이스 이름을 받습니다(경고:대/소문자 구분). 이러한 지표는 각각 다음 옵션 **[!UICONTROL Administration > Platform > Options]** 의 노드에 저장됩니다( [이 섹션 참조](../../installation/using/configuring-campaign-options.md#database)).
 
    * **WdbcOptions_TableSpaceUser**:스키마를 기반으로 하는 사용자 테이블
    * **WdbcOptions_TableSpaceIndex**:스키마를 기반으로 하는 사용자 테이블 색인
