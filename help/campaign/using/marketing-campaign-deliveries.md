@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2abd9f987967484cc93009d8961ed6b152cdc354
 workflow-type: tm+mt
 source-wordcount: '2956'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 게재는 캠페인 대시보드, 캠페인 워크플로우를 통해 만들거나 게재 개요를 통해 직접 만들 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[비디오에서 이 기능 살펴보기](#create-email-video)
 
 ## 게재 만들기 {#creating-deliveries}
 
