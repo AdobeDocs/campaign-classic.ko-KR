@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+source-git-commit: 7e56e4f98ffab752f0b86bb8620fb1b4af6a3dca
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 1%
@@ -175,10 +175,10 @@ Adobe Campaign의 업데이트된 패키지 모두 복구하여 시작합니다.
 >
 >* 스크립트를 **apache** 대신 **httpd라고 할 수 있습니다**.
 >* 다음 응답을 받을 때까지 이 명령을 실행해야 합니다.
-   >Apache가 새 라이브러리를 적용하려면 이 작업이 필요합니다.
 
->
-
+   >
+   >   
+   Apache가 새 라이브러리를 적용하려면 이 작업이 필요합니다.
 
 
 그런 다음 Apache를 다시 시작합니다.
