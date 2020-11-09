@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: ccd4fe1366fd9ecaca83dbf7aac241524f0af7d6
+source-git-commit: c14d257bb4f206e56a16d45507ee98ccad239fe7
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 78%
+source-wordcount: '274'
+ht-degree: 77%
 
 ---
 
@@ -17,18 +17,18 @@ ht-degree: 78%
 
 ## 새로운 기능
 
-* **[Adobe Experience Cloud 트리거 통합 업데이트](integrations/using/configuring-adobe-io.md)**<br/>기존 oAuth 인증 서비스가 사용 종료되었습니다. Adobe I/O로 마이그레이션하는 방법을 알아봅니다.
+* **[Adobe Experience Cloud 트리거 통합](integrations/using/configuring-adobe-io.md)**<br/> 업데이트 이전 oAuth 인증 서비스가 사용 종료되었습니다. Adobe I/O로 마이그레이션하는 방법을 알아봅니다.
 
-* **[HTTP/2 기반 APNs 공급자 API로 이동](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)**<br/>&#x200B;기존 바이너리 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법을 알아봅니다.
+* **[HTTP/2 기반 APNs 공급자 API로 이동](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)**<br/> 기존 바이너리 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법을 알아봅니다.
 
-* **[메시지에 이모티콘 추가](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>이제 메시지와 줄에다 이모티콘을 삽입할 수 있습니다
+* **[메시지에 이모티콘 추가](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/> 이제 메시지와 줄에다 이모티콘을 삽입할 수 있습니다
 
 * **[지원 받기](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)**<br/>&#x200B;액세스 FAQ, 모범 사례, 도움말 리소스 및 도움말 요청
 
 * **[추적 기능](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html)**<br/>
 Campaign의 추적 기능 및 프로세스 이해
 
-[업데이트를 더 보려면 여기를 클릭하십시오.](/help/rn/using/documentation-updates.md)
+[추가 업데이트](/help/rn/using/documentation-updates.md)
 
 ## 상위 페이지
 
