@@ -10,19 +10,19 @@ content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: aeae6320f9b8de8618f7e5f07bc586d1b101611f
+source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
 workflow-type: tm+mt
 source-wordcount: '2183'
-ht-degree: 76%
+ht-degree: 80%
 
 ---
 
 
-# Release 20.2{#release-20-2}
+# 릴리스 20.2{#release-20-2}
 
 ![](assets/do-not-localize/cp-icon.png) **CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 새로운 10월 Campaign 컨트롤 패널 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
-## ![](assets/do-not-localize/blue_2.png) 릴리스 20.2.3 - 빌드 9182 {#release-20-2-3-build-9182}
+## ![](assets/do-not-localize/green_2.png) 릴리스 20.2.3 - 빌드 9182 {#release-20-2-3-build-9182}
 
 _2020년 9월 11일_
 
@@ -44,8 +44,8 @@ _2020년 7월 22일_
 * 특정 이전 버전의 Outlook을 사용할 때 추적 URL을 열거나 클릭하지 못하는 문제를 해결했습니다. (NEO-25688)
 * 잘못된 ASCII 문자 컨트롤로 인해 이메일 배달에서 페이지 URL이 잘못 정의되던 문제를 수정했습니다. (NEO-26084)
 * 피싱 방지 서비스에서 인코딩 URL 관리 문제가 해결되었습니다. (NEO-25283)
-* 개인화 매개 변수의 조각을 사용하여 URL을 추적할 수 없는 문제(파운드 기호가 있는 앵커 태그)가 수정되었습니다. (NEO-25774)
-* 특정 사용자 지정 추적 공식을 사용할 때의 추적 문제를 수정했습니다. (NEO-25277)
+* 개인화 매개 변수의 조각을 사용하여 URL을 추적할 수 없는 문제(파운드 기호가 있는 앵커 태그)를 해결했습니다. (NEO-25774)
+* 특정 사용자 지정 추적 공식을 사용할 때의 추적 문제를 해결했습니다. (NEO-25277)
 * &quot;알림 클릭&quot; 추적이 작동하지 않는 문제를 해결했습니다(iOS 및 Android 푸시 알림). (NEO-25965)
 * 워크플로우가 실패하게 하는 워크플로우의 계산된 필드에 회귀 영향을 주는 문제를 수정했습니다. (NEO-25194)
 * 웹 추적 URL을 신속하게 만들 수 없는 회귀 문제를 해결했습니다. (NEO-20999)
