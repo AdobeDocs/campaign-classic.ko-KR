@@ -1,8 +1,6 @@
 ---
 title: 게재 개요
-seo-title: 게재 개요
-description: 게재 개요
-seo-description: null
+description: 배달 개요 워크플로우 활동에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 2b924cc6-6b71-481e-acab-2d035bbc2852
 contentOwner: sauviat
@@ -12,17 +10,17 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: a2a65f97-425b-44b2-8cf4-beea850423bc
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 3%
+source-wordcount: '267'
+ht-degree: 1%
 
 ---
 
 
 # 게재 개요{#delivery-outline}
 
-게재 개요를 사용하면 캠페인 워크플로우에서 개요를 사용할 수 있습니다. 캠페인에서 미리 윤곽선을 만들었어야 합니다.
+전달 **개요를** 사용하면 캠페인 워크플로우에서 개요를 사용할 수 있습니다. 캠페인에서 미리 윤곽선을 만들었어야 합니다.
 
 Adobe Campaign의 배송 개요에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
@@ -30,7 +28,7 @@ Adobe Campaign의 배송 개요에 대한 자세한 내용은 이 [섹션을 참
 
 ## 예:배달 개요를 통해 오퍼 삽입 {#example--inserting-an-offer-via-a-delivery-outline}
 
-캠페인 워크플로우에서 사용할 수 있는 배달 개요 활동을 사용하면 진행 중인 현재 캠페인의 배달 개요에서 참조되는 오퍼를 표시할 수 있습니다.
+캠페인 워크플로우에서 사용할 수 있는 **배달 개요** 활동을 사용하면 진행 중인 현재 캠페인의 배달 개요에서 참조되는 오퍼를 표시할 수 있습니다.
 
 >[!NOTE]
 >
