@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: input-forms
 discoiquuid: 0c33fd79-8fa5-4cc0-8881-c6d6f4ee1648
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 16%
@@ -22,7 +22,7 @@ ht-degree: 16%
 
 # 양식 편집{#editing-forms}
 
-입력 양식 작성 및 구성 화면은 Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Administration > Configuration > Input forms]** 폴더에서 액세스할 수 있습니다.
+입력 양식 작성 및 구성 화면은 Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** 폴더에서 액세스할 수 있습니다.
 
 ![](assets/d_ncs_integration_form_arbo.png)
 
