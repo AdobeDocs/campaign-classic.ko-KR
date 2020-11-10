@@ -1,8 +1,6 @@
 ---
 title: 데이터 보강
-seo-title: 데이터 보강
-description: 데이터 보강
-seo-description: null
+description: 강화된 워크플로우 활동에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 8dad57b7-fa08-48ee-990c-f9f0bb312d1f
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: b7ff47e1-ef12-4f04-afff-1a6c01d7701f
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 2%
+source-wordcount: '1295'
+ht-degree: 1%
 
 ---
 
