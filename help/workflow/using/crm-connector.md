@@ -1,6 +1,6 @@
 ---
 title: CRM 커넥터
-description: CRM 커넥터에 대해 자세히 알아보고 Adobe Campaign와의 데이터 동기화를 구성합니다.
+description: CRM 커넥터에 대한 자세한 내용 및 데이터 동기화 구성
 page-status-flag: never-activated
 uuid: b3856a82-b1dc-4e36-a2d0-14edc5b66b3b
 contentOwner: sauviat
@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: af7c0d1d-10ac-427b-8d12-b97eb91b30a1
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
