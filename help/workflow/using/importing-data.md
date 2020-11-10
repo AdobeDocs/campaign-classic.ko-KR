@@ -1,6 +1,6 @@
 ---
 title: 데이터 가져오기
-description: Adobe Campaign Classic에서 데이터를 가져오는 방법 살펴보기
+description: Adobe Campaign에서 데이터를 가져오는 방법 살펴보기
 page-status-flag: never-activated
 uuid: c8cf2bf1-f7a5-4de4-9e53-a961c9e5beca
 contentOwner: sauviat
@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: -general-operation
 discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
 translation-type: tm+mt
-source-git-commit: 12a6409df4816519b979b911d7de03eae94bef33
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2473'
 ht-degree: 0%
 
 ---
