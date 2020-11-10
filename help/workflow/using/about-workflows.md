@@ -1,6 +1,6 @@
 ---
 title: 워크플로우 정보
-description: 워크플로우를 통해 프로세스를 자동화하고 데이터 및 고객을 관리하며 메시지 전송 등을 할 수 있습니다.
+description: 작업 과정을 통해 프로세스를 자동화하고 데이터 및 고객을 관리하며 메시지 전송 등을 수행할 수 있습니다.
 page-status-flag: never-activated
 uuid: 19adb0e5-042d-47a0-9f92-24e4b3045dbe
 contentOwner: sauviat
@@ -10,15 +10,15 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: 868940d1-f19d-4e9a-bffa-8654abb4441c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 16%
+source-wordcount: '650'
+ht-degree: 20%
 
 ---
 
 
-# 워크플로우 시작하기{#gs-workflows}
+# 워크플로우 시작{#gs-workflows}
 
 ## 워크플로우 정보{#about-workflows}
 
@@ -32,9 +32,9 @@ Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체
 
 Adobe Campaign은 워크플로우를 사용하여 다음을 수행합니다.
 
-* 타깃팅 캠페인 수행 For more on this, refer to [Implementation steps](../../workflow/using/building-a-workflow.md#implementation-steps-).
-* 캠페인 구축:각 캠페인에 대해 **[!UICONTROL Workflow]** 탭을 사용하여 타겟을 만들고 배달을 만들 수 있습니다. For more on this, refer to [Campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows).
-* 기술 프로세스 수행:정리, 추적 정보 수집 또는 임시 계산. For more on this, refer to [Technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows).
+* 타깃팅 캠페인 수행 [자세히 알아보기](../../workflow/using/building-a-workflow.md#implementation-steps-)
+* 캠페인 구축:각 캠페인에 대해 **[!UICONTROL Workflow]** 탭을 사용하여 타겟을 만들고 배달을 만들 수 있습니다. [자세히 알아보기](../../workflow/using/building-a-workflow.md#campaign-workflows)
+* 기술 프로세스 수행:정리, 추적 정보 수집 또는 임시 계산. [자세히 알아보기](../../workflow/using/building-a-workflow.md#technical-workflows)
 
 워크플로우는 프로세스 정의(발생할 것을 나타내는 워크플로우 모델)와 이 프로세스의 인스턴스(실제로 일어나고 있는 일을 나타내는 워크플로우 인스턴스)를 모두 의미합니다.
 
