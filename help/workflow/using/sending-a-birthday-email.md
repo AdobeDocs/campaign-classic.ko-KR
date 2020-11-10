@@ -1,8 +1,6 @@
 ---
 title: 생일 전자 메일 보내기
-seo-title: 생일 전자 메일 보내기
-description: 생일 전자 메일 보내기
-seo-description: null
+description: 워크플로우로 생일 이메일을 보내는 방법 살펴보기
 page-status-flag: never-activated
 uuid: 4d215ff4-a61d-4294-8f15-17c612022577
 contentOwner: sauviat
@@ -12,9 +10,9 @@ content-type: reference
 topic-tags: use-cases
 discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '882'
 ht-degree: 1%
 
 ---
