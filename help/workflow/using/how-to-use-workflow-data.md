@@ -1,8 +1,6 @@
 ---
 title: 워크플로우 데이터 사용 방법
-seo-title: 워크플로우 데이터 사용 방법
-description: 워크플로우 데이터 사용 방법
-seo-description: null
+description: 워크플로우 데이터 사용 방법 살펴보기
 page-status-flag: never-activated
 uuid: ed03f14b-1b53-426e-9213-22cb2f3deb19
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: -general-operation
 discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
 translation-type: tm+mt
-source-git-commit: 1e6ef4a3924e2cab0e6baf06e0861620e17d240b
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 3%
+source-wordcount: '916'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +22,7 @@ ht-degree: 3%
 
 ## Updating the database {#updating-the-database}
 
-수집된 모든 데이터는 데이터베이스를 업데이트하거나 배달에서 사용할 수 있습니다. 예를 들어 메시지 컨텐츠 개인화의 가능성(메시지에 계약 수 포함, 지난 1년간 평균 장바구니 지정 등)을 강화할 수 있습니다. 또는 세부 인구 타겟팅(계약 공동 보유자에게 메시지 전송, 온라인 서비스 등 1,000명의 우수 가입자를 타깃팅합니다.) 이 데이터를 목록에 내보내거나 보관할 수도 있습니다.
+수집된 모든 데이터는 데이터베이스를 업데이트하거나 배달에서 사용할 수 있습니다. 예를 들어 메시지 컨텐츠 개인화의 가능성(메시지에 계약 수 포함, 지난 1년간 평균 장바구니 지정 등)을 강화할 수 있습니다. 또는 세부 인구 타겟팅(계약 공동 보유자에게 메시지 전송, 온라인 서비스 등 1,000명의 우수 가입자를 타깃팅) 이 데이터를 목록에 내보내거나 보관할 수도 있습니다.
 
 ### 목록 및 직접 업데이트 {#lists-and-direct-updates}
 
