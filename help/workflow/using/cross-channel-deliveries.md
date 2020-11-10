@@ -1,8 +1,6 @@
 ---
 title: 크로스 채널 게재
-seo-title: 크로스 채널 게재
-description: 크로스 채널 게재
-seo-description: null
+description: 크로스 채널 전달에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 191ff39e-f739-48b3-8865-ad1b641b7499
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: action-activities
 discoiquuid: 8dda45b4-4b5d-4b4e-a8b4-45d9bc49aaf3
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 8%
+source-wordcount: '312'
+ht-degree: 6%
 
 ---
 
