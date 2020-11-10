@@ -1,6 +1,6 @@
 ---
 title: 승인 정의
-description: 승인 기능을 사용하면 연산자는 워크플로우를 제어하는 의사 결정을 내릴 수 있고 실행을 확인할 수 있습니다.
+description: 승인 기능을 사용하면 작업자가 워크플로우를 제어하는 의사 결정을 내릴 수 있고 진행 중인 작업을 확인할 수 있습니다
 page-status-flag: never-activated
 uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
 contentOwner: sauviat
@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: -general-operation
 discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
