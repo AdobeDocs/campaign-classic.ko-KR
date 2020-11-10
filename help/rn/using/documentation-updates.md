@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+source-git-commit: 7af0d17450ea2bee757e54dd4861f11ad023b700
 workflow-type: tm+mt
-source-wordcount: '3905'
-ht-degree: 99%
+source-wordcount: '3924'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 99%
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
 또한 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)에서 더 많은 업데이트를 확인할 수 있습니다.
+
+## 2020년 11월 {#nov-2020}
+
+개인 정보 섹션이 두 개의 새로운 섹션으로 이동 및 향상되었습니다. [개인 정보 관리](../../platform/using/privacy-management.md) 및 [개인 정보 요청](../../platform/using/privacy-requests.md)관리
 
 ## 2020년 10월 {#oct-2020}
 
