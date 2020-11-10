@@ -8,9 +8,9 @@ product: adobe campaign
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 5f3ecffba2e505ad0bb074f6d635a51d983997e2
+source-git-commit: b8548e8d609ed099433b97b4c0704d27234e81c0
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2156'
 ht-degree: 99%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 99%
 + 시작 {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic 시작](platform/using/about-adobe-campaign-classic.md)
-      + [개인 정보 및 동의](platform/using/privacy-and-recommendations.md)
       + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
       + [Adobe Campaign 작업 영역](platform/using/adobe-campaign-workspace.md)
       + FAQ {#faq}
@@ -54,6 +53,10 @@ ht-degree: 99%
          + [보고서](platform/using/faq-reporting.md)
          + [개발](platform/using/faq-developers.md)
       + [튜토리얼](platform/using/tutorials.md)
+   + 개인 정보 {#privacy}
+      + [개인 정보 및 동의](platform/using/privacy-and-recommendations.md)
+      + [개인 정보 관리](platform/using/privacy-management.md)
+      + [개인 정보 요청](platform/using/privacy-requests.md)
    + 프로필 관리 {#profile-management}
       + [프로필 기본 정보](platform/using/about-profiles.md)
       + [프로필 편집](platform/using/editing-a-profile.md)
