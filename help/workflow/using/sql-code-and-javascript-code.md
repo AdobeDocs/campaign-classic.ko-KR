@@ -1,8 +1,6 @@
 ---
 title: SQL 코드 및 JavaScript 코드
-seo-title: SQL 코드 및 JavaScript 코드
-description: SQL 코드 및 JavaScript 코드
-seo-description: null
+description: SQL 및 JavaScript 코드 워크플로우 활동에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 20a39bbf-c6b0-4697-97b4-c07609cfb048
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: action-activities
 discoiquuid: 1afa75c2-7377-4d03-9105-11bcc9e3206c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 9%
+source-wordcount: '200'
+ht-degree: 5%
 
 ---
 
