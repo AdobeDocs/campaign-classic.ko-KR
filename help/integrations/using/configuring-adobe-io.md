@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8486213403bf848f1632aff06f3f1528b199f86d
+source-git-commit: 2d0d2d4eefc67312e1b9a8edc7ae88def2980ef1
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 2%
@@ -29,9 +29,10 @@ ht-degree: 2%
 
 ## 사전 요구 사항 {#adobe-io-prerequisites}
 
+이 통합은 시작 **Campaign Classic 20.3 릴리스에만 적용됩니다**.
+
 이 구현을 시작하기 전에 다음을 확인하십시오.
 
-* 최신 버전의 Adobe Campaign(20.2.1 이상),
 * 유효한 IMSOrgID:identity management 시스템(IMS) 조직 식별자는 Adobe Experience Cloud 내의 고유 식별자이며, VisitorID 서비스 및 IMS SSO(Single-Sign On),
 * IMS 조직에 대한 개발자 액세스.
 
