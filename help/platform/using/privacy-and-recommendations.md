@@ -1,7 +1,7 @@
 ---
-title: 개인 정보 및 권장 사항
-seo-title: 개인 정보 및 권장 사항
-description: 개인 정보 및 권장 사항
+title: 개인 정보 및 동의
+seo-title: 개인 정보 및 동의
+description: 개인 정보 및 동의
 seo-description: null
 page-status-flag: never-activated
 uuid: a044bbea-521d-4c1e-8aab-7d51a87fc94b
@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: 6ca61b4e927b7443815f0337b8e661c8ec126001
+source-git-commit: 53c15bca0f5cc3e6866e87a5ffbc7f68e7bcc1b8
 workflow-type: tm+mt
-source-wordcount: '1850'
-ht-degree: 8%
+source-wordcount: '1815'
+ht-degree: 7%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign은 개인 정보와 민감한 데이터를 포함하여 매우 �
 
 >[!NOTE]
 >
->GDPR, CPA, PDPA 및 LGPD가 Adobe Campaign에 적용되는 방법에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>GDPR, CPA, PDPA 및 LGPD가 Adobe Campaign에 적용되는 방법에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../platform/using/privacy-management.md#privacy-management-regulations).
 
 ### Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
@@ -83,7 +83,7 @@ Adobe Experience Cloud 개인 정보에 대한 자세한 내용은 [이 페이�
 * **개인 데이터는** 살아있는 개인을 직접 또는 간접적으로 식별할 수 있는 정보입니다.
 * **민감한 개인 데이터는** 노동 조합 회원뿐 아니라 개인의 인종, 정치적 관점, 종교적 신념, 범죄 배경, 유전자 정보, 건강 정보, 성적 선호도, 생체 인식 정보 등과 관련된 정보입니다.
 
-주 [법정은](#privacy-regulations) 다음과 같이 데이터를 관리하는 서로 다른 법인을 의미합니다.
+기본 [규정](#privacy-regulations) 은 다음과 같이 데이터를 관리하는 서로 다른 개체를 의미합니다.
 * 데이터 **컨트롤러는** 개인 데이터를 수집, 사용 및 공유하는 방법과 목적을 결정하는 기관입니다.
 * 데이터 **프로세서는** 데이터 관리자의 지시에 따라 개인 데이터를 수집, 사용 또는 공유하는 개인 또는 당사자입니다.
 * 데이터 **주체가** 개인 데이터를 수집, 사용 또는 공유하고 해당 개인 데이터를 참조해서 직접 또는 간접적으로 식별할 수 있는 살아있는 개인입니다.
@@ -108,10 +108,9 @@ Adobe Campaign을 사용하면 개인 및 민감한 정보를 비롯한 데이�
 Adobe Campaign은 개인 정보 관리를 위한 다양한 기능을 제공합니다.
 * 동의 관리, 데이터 유지 및 사용자 역할. [이 섹션](#consent)을 참조하십시오.
 * 개인 정보 보호 요청(액세스 권한 및 잊혀질 권리). [이 섹션](#privacy-requests)을 참조하십시오.
-* 개인 정보 판매 거부(CPA 특정). [이 섹션](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html#ccpa)을 참조하십시오.
+* 개인 정보 판매 거부(CPA 특정). [이 섹션](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa)을 참조하십시오.
 
 Campaign의 주요 개인정보 보호 기능과 여기에 포함된 개인의 예가 나와 [있습니다](https://helpx.adobe.com/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
-
 
 ### 동의, 보존 및 역할 {#consent}
 
@@ -121,7 +120,7 @@ Campaign의 주요 개인정보 보호 기능과 여기에 포함된 개인의 �
 * **데이터 유지**:모든 기본 제공 표준 로그 테이블에는 사전 설정된 보존 기간이 있으며 일반적으로 데이터 저장소를 6개월 이하로 제한합니다. 워크플로우로 추가 보존 기간을 설정할 수 있습니다. 자세한 내용은 Adobe 컨설턴트나 기술 관리자에게 문의하십시오.
 * **권한 관리**:Adobe Campaign은 다양한 사전 빌드 또는 사용자 지정 역할을 통해 다양한 캠페인 운영자에게 할당된 권한을 관리할 수 있는 기능을 제공합니다. 이를 통해 회사 내에서 다른 유형의 데이터에 액세스하거나 수정하거나 내보낼 수 있는 사용자를 관리할 수 있습니다. 자세한 내용은 액세스 관리 [정보를 참조하십시오](../../platform/using/access-management.md).
 
-이러한 기능과 Adobe Campaign에서 이러한 기능을 관리하는 방법에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
+이러한 기능과 Adobe Campaign에서 이러한 기능을 관리하는 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../platform/using/privacy-management.md#consent-retention-roles).
 
 ### 개인 정보 요청 {#privacy-requests}
 
@@ -133,7 +132,7 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 >[!NOTE]
 >
->이 툴을 사용하면 GDPR, CPA, PDPA 및 LGPD에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>이 툴을 사용하면 GDPR, CPA, PDPA 및 LGPD에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../platform/using/privacy-management.md#privacy-management-regulations).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -143,7 +142,7 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug, 16 for all companies collecting or processing personal data in Brazil. This regulation also applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-**액세스** 및 **삭제** 요청이 [이 페이지에](https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess)표시됩니다. 이러한 요청을 만드는 구현 단계는 [이 섹션에 자세히 설명되어 있습니다](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html#ManagingPrivacyRequests). <!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
+**액세스** 및 **삭제** 요청이 [이 페이지에](../../platform/using/privacy-management.md#right-access-forgotten)표시됩니다. 이러한 요청을 만드는 구현 단계는 [이 섹션에 자세히 설명되어 있습니다](../../platform/using/privacy-requests.md). <!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
 
 ## 추적 기능 {#tracking-capabilities}
 
@@ -154,7 +153,7 @@ Adobe Campaign은 추적 기능 덕분에 세 가지 유형의 쿠키를 사용�
 * A **session** cookie: the **nlid** cookie contains the identifier of the email sent to the contact (**broadlogId**) and the identifier of the message template (**deliveryId**). 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
 
 * 두 **개의 영구** 쿠키:
-   * Adobe Experience Cloud 솔루션 간에 **UUID** (Universal Unique IDenticfier) 쿠키가 공유됩니다. 새 값이 생성될 때 클라이언트 브라우저에서 표시될 때까지 한 번 설정됩니다. 이 쿠키를 사용하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 랜딩 페이지(알 수 없는 고객 활동을 수신자에게 연결)나 배송을 통해 보관할 수 있습니다. 이 쿠키의 설명은 이 페이지 [에서 사용할 수 있습니다](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
+   * Adobe Experience Cloud 솔루션 간에 **UUID** (Universal Unique IDenticfier) 쿠키가 공유됩니다. 새 값이 생성될 때 클라이언트 브라우저에서 사라질 때까지 한 번 설정됩니다. 이 쿠키를 사용하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 랜딩 페이지(알 수 없는 고객 활동을 수신자에게 연결)나 배송을 통해 보관할 수 있습니다. 이 쿠키에 대한 설명은 [이 페이지에서 확인할 수 있습니다](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=en#ec-cookies).
    * Campaign Classic 20.3에서 **도입된 nlastdelid** 쿠키는 사용자가 링크를 클릭한 마지막 배달의 **deliveryId** 가 포함된 영구 쿠키입니다. 이 쿠키는 세션 쿠키가 없을 때 사용되는 추적 테이블을 식별하는 데 사용됩니다.
 
 개인 정보 보호 규정(GDPR)과 같은 규정에서는 회사가 쿠키를 설치하기 전에 웹 사이트 사용자의 계약을 요구하는 것을 명시합니다.
