@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 7af0d17450ea2bee757e54dd4861f11ad023b700
+source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
 workflow-type: tm+mt
-source-wordcount: '3924'
+source-wordcount: '3932'
 ht-degree: 98%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 98%
 또한 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)에서 더 많은 업데이트를 확인할 수 있습니다.
 
 ## 2020년 11월 {#nov-2020}
+
+[Campaign 20.2.3 릴리스는](../../rn/using/release--20-2.md#release-20-2-3-build-9182) GA(일반 가용성)로 이동되었습니다.
 
 개인 정보 섹션이 두 개의 새로운 섹션으로 이동 및 향상되었습니다. [개인 정보 관리](../../platform/using/privacy-management.md) 및 [개인 정보 요청](../../platform/using/privacy-requests.md)관리
 
