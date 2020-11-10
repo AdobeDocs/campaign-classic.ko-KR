@@ -1,8 +1,6 @@
 ---
 title: 워크플로우 구축
-seo-title: 워크플로우 구축
-description: 워크플로우 구축
-seo-description: null
+description: 워크플로우 구축 방법 살펴보기
 page-status-flag: never-activated
 uuid: 55743545-dd4b-4a0a-aeff-8fd638812b9d
 contentOwner: sauviat
@@ -12,9 +10,9 @@ content-type: reference
 topic-tags: -general-operation
 discoiquuid: 2d4ccf81-cd85-4f4c-8ba8-5b5612af1e16
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1624'
 ht-degree: 3%
 
 ---
@@ -28,7 +26,7 @@ ht-degree: 3%
 * 워크플로우 다이어그램 디자인, 활동 [추가 및 연결을 참조하십시오.](#adding-and-linking-activities)
 * 활동의 매개 변수 및 속성에 액세스하려면 활동 [구성을 참조하십시오.](#configuring-activities)
 * 디자인 타깃팅 워크플로우, 타깃팅 [워크플로우 참조](#targeting-workflows)
-* 워크플로우를 사용하여 캠페인을 실행합니다. 자세한 내용은 [캠페인 워크플로우를 참조하십시오.](#campaign-workflows)
+* 워크플로우를 사용하여 캠페인을 실행합니다. [캠페인 워크플로우를 참조하십시오.](#campaign-workflows)
 * 기술 워크플로우 액세스 및 제작, [기술 워크플로우 참조](#technical-workflows)
 * 템플릿을 사용하여 워크플로우 만들기, 워크플로우 템플릿 [참조](#workflow-templates)
 
@@ -145,13 +143,13 @@ ht-degree: 3%
 
 캠페인 프레임워크 내의 타깃팅 워크플로우는 모든 캠페인 워크플로우와 함께 저장됩니다.
 
-### 구현 단계 {#implementation-steps-}
+### 타깃팅 워크플로우를 만들기 위한 주요 단계 {#implementation-steps-}
 
-타깃팅 데이터 작성 단계는 다음과 같습니다.
+타깃팅 워크플로우를 만드는 단계는 다음 섹션에 자세히 설명되어 있습니다.
 
-1. 데이터베이스의 데이터를 식별하는 방법은 쿼리 [만들기를 참조하십시오](../../workflow/using/targeting-data.md#creating-queries).
-1. 데이터 전달 요구 사항을 충족하기 위해 데이터를 준비하는 방법은 데이터 [농축과 수정을 참조하십시오](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
-1. 데이터를 사용하여 업데이트를 수행하거나 배달 내에서 업데이트를 수행하려면 데이터베이스 [업데이트를 참조하십시오](../../workflow/using/how-to-use-workflow-data.md#updating-the-database).
+1. **데이터베이스의 데이터 식별** - 질의 [생성을 참조하십시오.](../../workflow/using/targeting-data.md#creating-queries)
+1. **전달 요구 사항에 맞게 데이터 준비** - 데이터 [농축 및 수정을 참조하십시오.](../../workflow/using/targeting-data.md#enriching-and-modifying-data)
+1. **데이터를 사용하여** 업데이트 또는 배달 내에서 수행 - 데이터베이스 [업데이트를 참조하십시오.](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)
 
 타깃팅하는 동안 수행된 모든 활동의 결과와 모든 핸들링은 개인화 필드에 저장되고 액세스할 수 있으며, 특히 개인화된 메시지를 만들 때 사용할 수 있습니다. For more on this, refer to [Target data](../../workflow/using/data-life-cycle.md#target-data)
 
@@ -179,15 +177,15 @@ ht-degree: 3%
 
 ![](assets/wf-in-op-edit-delivery-tab.png)
 
-이 탭에는 모든 워크플로우와 동일한 활동이 포함되어 있습니다. 구현 단계 [섹션에](#implementation-steps-) 표시됩니다.
+이 탭에는 모든 워크플로우와 동일한 활동이 포함되어 있습니다. [자세히 알아보기](#implementation-steps-)
 
-캠페인 타깃팅 외에, 캠페인 워크플로우를 사용하면 사용 가능한 모든 채널에 대해 게재를 만들고 구성할 수 있습니다. 워크플로우에서 만들어진 다음 캠페인의 대시보드에서 이러한 배달을 사용할 수 있습니다.
+캠페인 타깃팅 외에, 캠페인 워크플로우를 사용하면 사용 가능한 모든 채널에 대해 게재를 만들고 구성할 수 있습니다. 워크플로우에서 만들어진 다음 캠페인의 대시보드에서 이러한 배달을 사용할 수 있습니다. [자세히 알아보기](../../campaign/using/marketing-campaign-deliveries.md)
 
 모든 캠페인 워크플로우는 노드 아래에 **[!UICONTROL Administration > Production > Objects created automatically > Campaign workflows]** 집중됩니다.
 
 ![](assets/campaigns_wf.png)
 
-캠페인 워크플로우 및 구현 예는 이 [페이지에 자세히 설명되어 있습니다](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
+캠페인 워크플로우 및 구현 예는 [이 페이지에 자세히 나와 있습니다](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
 ## 기술 워크플로우 {#technical-workflows}
 
@@ -205,7 +203,7 @@ ht-degree: 3%
 
 트리 구조의 **[!UICONTROL Administration > Production > Technical workflows]** 노드에서 다른 기술 워크플로우를 만들 수 있습니다. 그러나 이 프로세스는 전문가 사용자용으로 예약되어 있습니다.
 
-제공되는 활동은 타깃팅 워크플로우와 동일합니다. For more on this, refer to [Implementation steps](#implementation-steps-).
+제공되는 활동은 타깃팅 워크플로우와 동일합니다. [자세히 알아보기](#implementation-steps-)
 
 ## 워크플로우 템플릿 {#workflow-templates}
 
