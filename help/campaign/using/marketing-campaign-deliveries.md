@@ -1,8 +1,6 @@
 ---
 title: 마케팅 캠페인 전달
-seo-title: 마케팅 캠페인 전달
-description: 마케팅 캠페인 전달
-seo-description: 마케팅 캠페인 전달에 대한 자세한 내용
+description: 마케팅 캠페인 전달에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 translation-type: tm+mt
-source-git-commit: 2abd9f987967484cc93009d8961ed6b152cdc354
+source-git-commit: f6e820bd05b95e57b395407ed1e17c11b17cbf84
 workflow-type: tm+mt
-source-wordcount: '2956'
-ht-degree: 2%
+source-wordcount: '2917'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +22,9 @@ ht-degree: 2%
 
 게재는 캠페인 대시보드, 캠페인 워크플로우를 통해 만들거나 게재 개요를 통해 직접 만들 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png)[비디오에서 이 기능 살펴보기](#create-email-video)
+캠페인에서 만든 배달은 이 캠페인에 연결되고 캠페인 수준에서 통합됩니다.
+
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#create-email-video)
 
 ## 게재 만들기 {#creating-deliveries}
 
@@ -32,29 +32,21 @@ ht-degree: 2%
 
 ![](assets/campaign_op_add_delivery.png)
 
-제안된 구성은 다양한 유형의 게재에 적합합니다.다이렉트 메일, 이메일, 모바일 채널
-
->[!NOTE]
->
->배달 만들기 및 구성에 대한 자세한 내용은 메시지 [전송](../../delivery/using/steps-about-delivery-creation-steps.md) 섹션을 참조하십시오.
+제안된 구성은 다양한 유형의 게재에 적합합니다.다이렉트 메일, 이메일, 모바일 채널 [자세히 알아보기](../../delivery/using/steps-about-delivery-creation-steps.md)
 
 ## 대상 모집단 선택 {#selecting-the-target-population}
 
-각 게재에 대해 캠페인 관리자는 다음을 정의합니다.
+각 게재에 대해 다음을 정의할 수 있습니다.
 
-* 주요 타겟입니다. 자세한 내용은 워크플로우에서 [기본 대상 작성](#building-the-main-target-in-a-workflow) 및 대상 모집단 [선택을 참조하십시오](#selecting-the-target-population).
-* 제어 그룹입니다. 자세한 내용은 제어 그룹 [정의를 참조하십시오](#defining-a-control-group).
-* 시드 주소는 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/about-seed-addresses.md)을 참조하십시오.
+* 대상 - 워크플로우 [에서 대상](#building-the-main-target-in-a-workflow) 구축 및 타겟 모집단 [선택에서 자세히](#selecting-the-target-population)알아보십시오.
+* 컨트롤 그룹 - 컨트롤 그룹 [정의에서 자세히 알아보십시오](#defining-a-control-group).
+* 시드 주소 - [이 섹션에 자세히 알아보십시오](../../delivery/using/about-seed-addresses.md).
 
-이 정보 중 일부는 템플릿에서 상속됩니다.
+이 정보 중 일부는 [템플릿에서 상속될 수 있습니다](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
->[!NOTE]
->
->캠페인 템플릿은 [캠페인 템플릿에 표시됩니다](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+배달 대상을 빌드하려면 데이터베이스의 받는 사람에 대한 필터링 기준을 정의할 수 있습니다. 이 수신자 선택 모드는 [이 섹션에 나와 있습니다](../../delivery/using/steps-defining-the-target-population.md).
 
-배달 대상을 빌드하려면 데이터베이스의 받는 사람에 대한 필터링 기준을 정의할 수 있습니다. 이 수신자 선택 모드는 메시지 [전송 섹션에](../../delivery/using/steps-defining-the-target-population.md) 표시됩니다.
-
-### 예:수신자 그룹에 전달 {#example--delivering-to-a-group-of-recipients}
+**예:그룹에 메시지 보내기**
 
 모집단을 목록으로 가져온 다음 게재에서 이 목록을 타깃팅할 수 있습니다.
 
@@ -68,24 +60,15 @@ ht-degree: 2%
 
 ![](assets/s_user_target_group_next.png)
 
-### 워크플로우에서 기본 대상 작성 {#building-the-main-target-in-a-workflow}
+### 워크플로우에서 고객 구축 {#building-the-main-target-in-a-workflow}
 
-게시의 기본 타겟은 타깃팅 워크플로우에서도 정의할 수 있습니다.이 그래픽 환경을 사용하면 쿼리, 테스트 및 연산자를 사용하여 대상을 만들 수 있습니다.결합, 중복 제거, 공유 등
-
-워크플로우 [로 자동화](../../workflow/using/architecture.md) 안내서에는 워크플로우 모듈이 어떻게 작동하는지 자세히 설명합니다.
+게시의 기본 타겟은 타깃팅 워크플로우에서도 정의할 수 있습니다.이 그래픽 환경을 사용하면 쿼리, 테스트 및 연산자를 사용하여 대상을 만들 수 있습니다.결합, 중복 제거, 공유 등 [자세히 알아보기](../../workflow/using/architecture.md)
 
 >[!IMPORTANT]
 >
->동일한 캠페인에서 28개 이상의 워크플로우를 설정할 수 없습니다. 이 제한 이후에는 추가 워크플로우가 인터페이스에 표시되지 않으며 오류를 생성할 수 있습니다.
+>캠페인에는 28개 이상의 워크플로우를 만들 수 없습니다. 이 제한 이후에는 추가 워크플로우가 인터페이스에 표시되지 않으며 오류를 생성할 수 있습니다.
 
-### 캠페인에서 이메일을 만드는 방법 {#create-email-video}
-
-이 비디오에서는 Adobe Campaign Classic에서 캠페인 및 이메일을 만드는 방법을 설명합니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
-
-
-#### 타겟팅 워크플로우 만들기 {#creating-a-targeting-workflow}
+#### 워크플로우 만들기 {#creating-a-targeting-workflow}
 
 타깃팅은 워크플로우의 그래픽 시퀀스에 있는 필터링 조건을 조합하여 만들 수 있습니다. 사용자 요구 사항에 따라 타깃팅될 모집단과 하위 인구를 생성할 수 있습니다. 워크플로우 편집기를 표시하려면 캠페인 대시보드에서 **[!UICONTROL Targeting and workflows]** 탭을 클릭합니다.
 
@@ -275,7 +258,7 @@ ht-degree: 2%
 
 ## 배달 시작 {#starting-a-delivery}
 
-모든 승인이 승인되면 배달을 시작할 수 있습니다. 배달 절차는 배달 유형에 따라 달라집니다. 이메일 또는 모바일 채널 배달의 경우 [온라인 배달](#starting-an-online-delivery)시작을 참조하고, DM 전달의 경우 [오프라인 배달](#starting-an-offline-delivery)시작을 참조하십시오.
+모든 승인이 승인되면 배달을 시작할 수 있습니다. 배달 절차는 배달 유형에 따라 달라집니다. 이메일 또는 모바일 채널 전달의 경우 [온라인 배달](#starting-an-online-delivery)시작을 참조하고, DM 전달의 경우 오프라인 배달 [시작을 참조하십시오](#starting-an-offline-delivery).
 
 ### 온라인 전달 시작 {#starting-an-online-delivery}
 
@@ -476,3 +459,9 @@ ht-degree: 2%
 >[!NOTE]
 >
 >내보내기에 대한 자세한 내용은 시작하기 [섹션을](../../platform/using/generic-imports-and-exports.md) 참조하십시오.
+
+#### 캠페인에서 이메일을 만드는 방법 {#create-email-video}
+
+이 비디오에서는 Adobe Campaign Classic에서 캠페인 및 이메일을 만드는 방법을 설명합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
