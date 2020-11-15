@@ -10,10 +10,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '759'
+translation-type: tm+mt
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+workflow-type: tm+mt
+source-wordcount: '754'
 ht-degree: 100%
 
 ---
@@ -59,11 +59,11 @@ Campaign을 사용하면 마케팅 캠페인의 주요 단계에 대한 승인 �
 
 Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위해 Adobe Campaign 데이터 구조를 변경하지 않고 외부 데이터에 액세스할 수 있는 FDA(Federated Data Access) 옵션을 제공합니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](../../platform/using/connecting-to-database.md).
+[자세한 내용을 보려면 여기를 클릭하십시오](../../installation/using/connecting-to-database.md).
 
 ## Campaign을 연결할 수 있는 외부 데이터베이스는 무엇입니까? {#which-external-databases-can-i-connect-campaign-to-}
 
-FDA(Federated Data Access)를 통해 Campaign과 호환되는 외부 데이터베이스는 [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)에 나열되어 있습니다.
+FDA(Federated Data Access)를 통해 Campaign과 호환되는 외부 데이터베이스는 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)에 나열되어 있습니다.
 
 ## Adobe Campaign을 LDAP와 통합할 수 있습니까? {#can-adobe-campaign-integrate-with-ldap-}
 
