@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: migration-overview
 discoiquuid: 3ac779a7-1f91-4c1c-a439-10d01697326a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 4%
+source-wordcount: '320'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ v6.02에서 &quot;multi timezone&quot; 모드는 PostgreSQL 데이터베이스 �
 >
 >Adobe Campaign 5.11 및 6.02에서 지원되는 일부 소프트웨어 버전은 더 이상 Adobe Campaign v7에서 지원되지 않습니다.
 >
->Adobe Campaign에서 지원하는 버전에 대한 자세한 내용은 [호환성 매트릭스를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html).
+>Adobe Campaign에서 지원하는 버전에 대한 자세한 내용은 [호환성 매트릭스를 참조하십시오](../../rn/using/compatibility-matrix.md).
 
 ## 주요 마이그레이션 단계 {#key-migration-steps}
 
