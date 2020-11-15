@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dbe9080c-66e3-4ff6-8f16-959f9748f666
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '2541'
+source-wordcount: '2536'
 ht-degree: 4%
 
 ---
@@ -38,7 +38,7 @@ CRM에 연결하는 것은 전용 워크플로우 활동을 통해 수행됩니�
 
 아래 나열된 CRM은 Adobe Campaign에 통합할 수 있습니다.
 
-지원되는 버전은 [호환성 매트릭스에 자세히 나와 있습니다](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html).
+지원되는 버전은 캠페인 [호환성 매트릭스에서 자세히 설명합니다](../../rn/using/compatibility-matrix.md).
 
 * **Salesforce.com**
 
