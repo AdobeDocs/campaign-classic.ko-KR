@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: c14d257bb4f206e56a16d45507ee98ccad239fe7
+source-git-commit: 75ab345e3b9360229ecc3ba9529a33e320228fa0
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 77%
+source-wordcount: '250'
+ht-degree: 70%
 
 ---
 
@@ -48,11 +48,11 @@ Campaign의 추적 기능 및 프로세스 이해
     <p>
   </td>
    <td>
-    <a href="https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html">
+    <a href="production/using/build-upgrade.md">
       <img alt="빌드 업그레이드" src="platform/using/assets/upgrade.png" />
     </a>
     <div>
-      <a href="https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html">
+      <a href="production/using/build-upgrade.md">
     <strong>최신 빌드로 업그레이드</strong>
     </a>
     </div>
@@ -81,9 +81,9 @@ Campaign의 추적 기능 및 프로세스 이해
 | 유용한 페이지 | 개발자를 위한 자료 |
 |---|---|
 | [릴리스 정보](/help/rn/using/latest-release.md) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [사용법 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/overview.html) | [Campaign 데이터 모델](configuration/using/about-data-model.md) |
-| [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
+| [사용법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html) | [Campaign 데이터 모델](configuration/using/about-data-model.md) |
+| [호환성 매트릭스](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Campaign으로 시작](platform/using/about-adobe-campaign-classic.md) | [구현 가이드](https://helpx.adobe.com/kr/campaign/kb/acc-implementation.html) |
 | [Gold Standard 업그레이드](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html) | [추적 가이드](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html) |
-| [사용되지 않는 기능](https://helpx.adobe.com/kr/campaign/kb/deprecated-and-removed-features.html) | [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html) |
-| [Campaign Control Panel](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) | [모니터링 지침](production/using/monitoring-guidelines.md) |
+| [사용되지 않는 기능](rn/using/deprecated-features.md) | [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html) |
+| [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) | [모니터링 지침](production/using/monitoring-guidelines.md) |
