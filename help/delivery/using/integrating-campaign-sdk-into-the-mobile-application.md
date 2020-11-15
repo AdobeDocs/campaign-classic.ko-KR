@@ -1,8 +1,6 @@
 ---
-title: 모바일 앱 채널 설정
-seo-title: 모바일 앱 채널 설정
-description: 모바일 앱 채널 설정
-seo-description: null
+title: 캠페인 SDK 통합
+description: Campaign SDK를 모바일 앱에 통합하는 방법 살펴보기
 page-status-flag: never-activated
 uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
 contentOwner: sauviat
@@ -12,15 +10,15 @@ content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
 translation-type: tm+mt
-source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
 
 
-# 모바일 애플리케이션에 Campaign SDK 통합 {#integrating-campaign-sdk-into-the-mobile-application}
+# Campaign SDK와 앱 통합 {#integrating-campaign-sdk-into-the-mobile-application}
 
 iOS 및 Android용 캠페인 SDK는 모바일 앱 채널 모듈의 구성 요소 중 하나입니다.
 
@@ -30,7 +28,7 @@ iOS 및 Android용 캠페인 SDK는 모바일 앱 채널 모듈의 구성 요소
 
 SDK의 목표는 모바일 애플리케이션을 Adobe Campaign 플랫폼으로 쉽게 통합하는 것입니다.
 
-지원되는 다른 Android 및 iOS 버전에 대한 자세한 내용은 [호환성 매트릭스를 참조하십시오](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#MobileSDK) .
+지원되는 다른 Android 및 iOS 버전에 대한 자세한 내용은 [호환성 매트릭스를 참조하십시오](../../rn/using/compatibility-matrix.md#MobileSDK) .
 
 ## 캠페인 SDK 로드 {#loading-campaign-sdk}
 
