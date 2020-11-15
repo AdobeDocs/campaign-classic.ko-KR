@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: action-activities
 discoiquuid: 18d6f5e1-308f-4080-b7c4-ebf836f74842
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 1%
+source-wordcount: '394'
+ht-degree: 3%
 
 ---
 
@@ -26,9 +26,9 @@ SQL **데이터 관리** 활동을 사용하면 작업 테이블을 만들고 �
 
 활동을 구성하기 전에 다음 전제 조건이 충족되었는지 확인하십시오.
 
-* 활동은 원격 데이터 소스에서만 사용할 수 있습니다. 따라서 **[!UICONTROL FDA]** (Federated Data Access) 패키지가 인스턴스에 설치되어 있어야 합니다( [이 섹션 참조](../../platform/using/about-fda.md)).
-* 아웃바운드 스키마가 데이터베이스에 존재해야 하며 FDA 데이터베이스에 연결되어 있어야 합니다(데이터 스키마에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../configuration/using/about-schema-reference.md).).
-* 워크플로우를 실행하는 연산자는 **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** 명명된 오른쪽이어야 합니다. For more on named rights, refer to [this section](../../platform/using/access-management.md#named-rights).
+* 활동은 원격 데이터 소스에서만 사용할 수 있습니다. 따라서 **[!UICONTROL FDA]** (Federated Data Access) 패키지가 인스턴스에 설치되어 있어야 합니다. [자세히 알아보기](../../installation/using/about-fda.md)
+* 아웃바운드 스키마는 데이터베이스에 존재하며 FDA 데이터베이스에 연결되어 있어야 합니다. [자세히 알아보기](../../configuration/using/about-schema-reference.md)
+* 워크플로우를 실행하는 연산자는 **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** 명명된 오른쪽이어야 합니다. [자세히 알아보기](../../platform/using/access-management.md#named-rights)
 
 ## SQL 데이터 관리 작업 구성 {#configuring-the-sql-data-management-activity}
 
