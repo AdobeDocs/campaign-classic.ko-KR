@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: advanced-management
 discoiquuid: 1ca7ec80-18d1-4e94-bfe6-16ecd094fdf3
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 55%
@@ -31,4 +31,4 @@ Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보
 * 데이터 보강
 * 데이터 로드
 
-FDA 옵션 사용은 Adobe Campaign 라이선스에 따라 다릅니다. 이 옵션을 구성하는 방법과 이 옵션을 사용하는 방법과 제한 사항은 이 [섹션에 자세히 설명되어 있습니다](../../platform/using/about-fda.md).
+FDA 옵션 사용은 Adobe Campaign 라이선스에 따라 다릅니다. 이 옵션을 구성하는 방법과 이 옵션을 사용하는 방법과 제한 사항은 이 [섹션에 자세히 설명되어 있습니다](../../installation/using/about-fda.md).
