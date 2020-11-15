@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 6%
@@ -47,7 +47,7 @@ _2020년 2월 17일_
  <tbody> 
   <tr> 
    <td> <p>Snowflake은 스토리지 및 컴퓨팅 수준 모두에서 확장할 수 있도록 구축된 완벽하게 관리되는 클라우드 데이터 웨어하우스입니다. 이 새로운 커넥터를 사용하면 Adobe Campaign은 이제 Snowflake의 강력한 기능을 활용하여 빅데이터 세그멘테이션을 수행할 수 있습니다. 이 커넥터는 Adobe에서 호스팅되는 모든 고객에게 제공됩니다.</p>
-    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutorial video</a>.</p>
+    <p>For more information, refer to the <a href="../../installation/using/configure-fda-snowflake.md">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutorial video</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -62,7 +62,7 @@ _2020년 2월 17일_
  <tbody> 
   <tr> 
    <td> <p>Hadoop FDA 커넥터가 Clou데라 및 Hadoop 3.0을 지원하도록 개선되었습니다.</p>
-    <p>자세한 내용은 <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">세부 설명서</a>를 참조하십시오.</p>
+    <p>자세한 내용은 <a href="../../installation/using/configure-fda-hadoop.md">세부 설명서</a>를 참조하십시오.</p>
    </td> 
   </tr> 
  </tbody> 
