@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 7f471ac1-cd6a-4371-977e-52d60ce8d968
 translation-type: tm+mt
-source-git-commit: fc014fe5fcadac680af31e86e258a4df7073e0bd
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 3%
@@ -84,7 +84,7 @@ ht-degree: 3%
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   연합 데이터 액세스(FDA)에 대한 자세한 내용은 외부 데이터베이스 [액세스를 참조하십시오](../../platform/using/about-fda.md).
+   연합 데이터 액세스(FDA)에 대한 자세한 내용은 외부 데이터베이스 [액세스를 참조하십시오](../../installation/using/about-fda.md).
 
 1. 을 **[!UICONTROL Test the connection]** 클릭하여 제어 인스턴스와 실행 인스턴스가 연결되어 있는지 확인합니다.
 
