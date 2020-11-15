@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 7a9e028c-255d-4aad-9827-d19f9a7897b2
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 2%
+source-wordcount: '500'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Flash Player는 동적 웹 페이지(보고서, 웹 양식 등)를 생성하는 
 
 애플리케이션은 Oracle과 **OpenJDK용으로 개발한 JDK(Java Development Kit)에 대해 승인되었습니다**.
 
-지원되는 버전은 [호환성 매트릭스에 자세히 나와 있습니다](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html).
+지원되는 버전은 캠페인 [호환성 매트릭스에 자세히 설명되어 있습니다](../../rn/using/compatibility-matrix.md).
 
 >[!NOTE]
 >
