@@ -8,10 +8,10 @@ product: adobe campaign
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b8548e8d609ed099433b97b4c0704d27234e81c0
+source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 99%
+source-wordcount: '2167'
+ht-degree: 97%
 
 ---
 
@@ -82,17 +82,6 @@ ht-degree: 99%
       + [액세스 관리](platform/using/access-management.md)
       + [데이터 패키지 작업](platform/using/working-with-data-packages.md)
       + [열거형 관리](platform/using/managing-enumerations.md)
-      + [외부 계정](platform/using/external-accounts.md)
-   + 외부 데이터베이스 액세스(FDA){#accessing-external-database}
-      + [FDA 정보](platform/using/about-fda.md)
-      + [FDA 커넥터 구성](platform/using/specific-configuration-database.md)
-      + [레거시 커넥터](platform/using/legacy-connectors.md)
-      + [원격 데이터베이스 액세스 권한](platform/using/remote-database-access-rights.md)
-      + [데이터베이스에 연결](platform/using/connecting-to-database.md)
-      + [데이터 스키마 만들기](platform/using/creating-data-schema.md)
-      + [데이터 매핑 정의](platform/using/defining-data-mapping.md)
-      + [추가 옵션](platform/using/additional-options.md)
-      + [부록](platform/using/appendices-fda.md)
    + 커넥터 {#connectors}
       + [커넥터 정보](platform/using/about-connectors.md)
       + [CRM 커넥터](platform/using/crm-connectors.md)
@@ -460,7 +449,7 @@ ht-degree: 99%
       + [워크플로우 속성](workflow/using/workflow-properties.md)
       + [고급 매개 변수](workflow/using/advanced-parameters.md)
       + [JavaScript 스크립트 및 템플릿](workflow/using/javascript-scripts-and-templates.md)
-      + [외부 데이터베이스 액세스(FDA)](workflow/using/accessing-an-external-database--fda-.md)
+      + [외부 데이터베이스 액세스](workflow/using/accessing-an-external-database--fda-.md)
       + [권한 관리](workflow/using/managing-rights.md)
       + [활동 이미지 관리](workflow/using/managing-activity-images.md)
       + [성향 관리](workflow/using/managing-propensity.md)
@@ -585,7 +574,7 @@ ht-degree: 99%
    + Annex {#annexes}
       + [Facebook 앱의 예](social/using/examples-of-facebook-apps.md)
       + [추적](social/using/tracking.md)
-+ Campaign Classic 설치 {#installing-campaign-classic}
++ 설치 및 구성 가이드 {#installing-campaign-classic}
    + 아키텍처 원칙 {#architecture-and-hosting-models}
       + [일반 아키텍처](installation/using/general-architecture.md)
       + 호스팅 모델{#hosting-models-lp}
@@ -633,6 +622,23 @@ ht-degree: 99%
       + [SpamAssassin 구성](installation/using/configuring-spamassassin.md)
       + [중간 소싱 서버](installation/using/mid-sourcing-server.md)
       + [상호 작용 - 데이터 버퍼](installation/using/interaction---data-buffer.md)
+      + [외부 계정 구성](installation/using/external-accounts.md)
+   + Accessing an external database {#accessing-external-database}
+      + [FDA 시작하기](installation/using/about-fda.md)
+      + 구성 지침 {#config-databases}
+         + [구성 단계](installation/using/configure-fda.md)
+         + [Snowflake 구성](installation/using/configure-fda-snowflake.md)
+         + [Azure 동기화 구성](installation/using/configure-fda-synapse.md)
+         + [Hadoop 구성](installation/using/configure-fda-hadoop.md)
+         + [Oracle 구성](installation/using/configure-fda-oracle.md)
+         + [네테자 구성](installation/using/configure-fda-netezza.md)
+         + [Sybase IQ 구성](installation/using/configure-fda-sybase.md)
+         + [메타데이터 구성](installation/using/configure-fda-teradata.md)
+         + [SAP HANA 구성](installation/using/configure-fda-sap-hana.md)
+      + [원격 액세스 권한](installation/using/remote-database-access-rights.md)
+      + [데이터베이스에 연결](installation/using/connecting-to-database.md)
+      + [데이터 스키마 만들기](installation/using/creating-data-schema.md)
+      + [데이터 매핑 정의](installation/using/defining-data-mapping.md)
    + 부록 {#appendices}
       + [서버 구성 파일](installation/using/the-server-configuration-file.md)
       + [Campaign 네트워크 엔드포인트](installation/using/campaign-network-endpoints.md)
@@ -640,7 +646,7 @@ ht-degree: 99%
       + [새 인스턴스 만들기](installation/using/creating-new-instances.md)
       + [Campaign 옵션 목록](installation/using/configuring-campaign-options.md)
       + [Campaign 제거](installation/using/uninstalling-campaign.md)
-+ Campaign Classic 모니터링 {#monitoring-campaign-classic}
++ 모니터링 안내서 {#monitoring-campaign-classic}
    + 소개 {#introduction}
       + [서문](production/using/foreword.md)
       + [일반 아키텍처](production/using/general-architecture.md)
@@ -688,7 +694,7 @@ ht-degree: 99%
       + [콘솔 업데이트](production/using/console-update.md)
       + [암호 분실](production/using/lost-password.md)
       + [JSP 동작](production/using/jsp-behavior.md)
-+ Campaign Classic 구성 {#configuring-campaign-classic}
++ 개발자 가이드 {#configuring-campaign-classic}
    + 데이터 모델 {#data-model}
       + [데이터 모델 기본 정보](configuration/using/about-data-model.md)
       + [데이터 모델 설명](configuration/using/data-model-description.md)
@@ -746,7 +752,7 @@ ht-degree: 99%
       + [사이트에 태그 삽입](configuration/using/inserting-tags-in-your-site.md)
       + [모든 방문 수집](configuration/using/collecting-all-visits.md)
       + [익명 추적](configuration/using/anonymous-tracking.md)
-+ 새 버전으로 마이그레이션 {#migrating-to-a-new-version}
++ 마이그레이션 안내서 {#migrating-to-a-new-version}
    + 마이그레이션 개요 {#migration-overview}
       + [마이그레이션 기본 정보](migration/using/about-migration.md)
       + [마이그레이션 메서드](migration/using/migration-method.md)
