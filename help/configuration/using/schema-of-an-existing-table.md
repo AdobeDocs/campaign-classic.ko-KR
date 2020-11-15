@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: editing-schemas
 discoiquuid: 6877d94d-d6e5-4080-a537-ef1bb6e6f8cf
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 9%
@@ -68,4 +68,4 @@ ht-degree: 9%
 
 연합 **데이터 액세스 - FDA** 옵션을 사용하면 외부 데이터베이스에 저장된 데이터에 액세스할 수 있습니다.
 
-외부 데이터베이스의 데이터에 액세스하기 위해 스키마에 대해 수행되는 구성은 [이 페이지에 자세히 설명되어 있습니다](../../platform/using/creating-data-schema.md).
+외부 데이터베이스의 데이터에 액세스하기 위해 스키마에 대해 수행되는 구성은 [이 페이지에 자세히 설명되어 있습니다](../../installation/using/creating-data-schema.md).
