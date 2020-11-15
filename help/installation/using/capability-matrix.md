@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 582f7ac6-cebe-4b47-8730-bbc16fd6b1bd
 translation-type: tm+mt
-source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 18%
@@ -46,11 +46,11 @@ Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니�
 
 ## Federated Data Access{#fda}
 
-Adobe Campaign provides the **Federated Data Access** (FDA) option in order to process information stored in one or more external databases: you can access external data without changing the structure of Adobe Campaign data. [자세히 알아보기](../../platform/using/about-fda.md)
+Adobe Campaign provides the **Federated Data Access** (FDA) option in order to process information stored in one or more external databases: you can access external data without changing the structure of Adobe Campaign data. [자세히 알아보기](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >
->FDA를 통해 외부 데이터베이스에 액세스하는 것은 [Snowflake 커넥터를 제외한 온-프레미스 또는 하이브리드 설치에서만 가능합니다](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
+>FDA를 통해 외부 데이터베이스에 액세스하는 것은 [Snowflake 커넥터를 제외한 온-프레미스 또는 하이브리드 설치에서만 가능합니다](../../installation/using/configure-fda-snowflake.md).
 
 
 **자세한 내용은**
