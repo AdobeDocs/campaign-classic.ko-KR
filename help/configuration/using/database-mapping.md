@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: schema-reference
 discoiquuid: bc06c00d-f421-452e-bde0-b4ecc12c72c8
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 0%
@@ -373,7 +373,7 @@ ACC 18.10에서 **XtkNewId** 는 더 이상 기본 스키마에서 시퀀스의 
 * ![](assets/join_fda_11.png) :카디널리티 1-1
 * ![](assets/join_fda_1m.png) :카디널리티 1-N
 
-FDA 표에 대한 자세한 내용은 외부 데이터베이스 [액세스를 참조하십시오](../../platform/using/about-fda.md).
+FDA 표에 대한 자세한 내용은 외부 데이터베이스 [액세스를 참조하십시오](../../installation/using/about-fda.md).
 
 주 요소를 통해 연결된 테이블의 외래 키가 포함된 스키마에서 링크가 선언되어야 합니다.
 
