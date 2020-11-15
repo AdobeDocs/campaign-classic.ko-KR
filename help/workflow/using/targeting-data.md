@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: -general-operation
 discoiquuid: 79f1e85a-b5e6-4875-ac57-ab979fc57079
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 4%
@@ -180,7 +180,7 @@ ht-degree: 4%
 
    ![](assets/split-subset-config-add_external_data.png)
 
-   자세한 정보는 이 [섹션](../../platform/using/about-fda.md)을 참조하십시오.
+   자세한 정보는 이 [섹션](../../installation/using/about-fda.md)을 참조하십시오.
 
 그런 다음 새로운 하위 세트를 추가해야 합니다.
 
