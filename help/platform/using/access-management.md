@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: administration-basics
 discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '2955'
 ht-degree: 2%
@@ -103,7 +103,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지를 �
 
 >[!NOTE]
 >
->이 **[!UICONTROL Session timeout]** 필드에서는 FDA 세션 시간 초과 전에 지연을 조정할 수 있습니다. 자세한 내용은 통합 데이터 액세스 [정보를 참조하십시오](../../platform/using/about-fda.md).
+>이 **[!UICONTROL Session timeout]** 필드에서는 FDA 세션 시간 초과 전에 지연을 조정할 수 있습니다. 자세한 내용은 통합 데이터 액세스 [정보를 참조하십시오](../../installation/using/about-fda.md).
 
 ### 연산자의 표준 시간대 {#time-zone-of-the-operator}
 
