@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 3e2ccb70-6c0c-435f-9c06-f3e5e40367bb
 translation-type: tm+mt
-source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 3%
+source-wordcount: '896'
+ht-degree: 2%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 3%
 
 이 섹션에서는 Adobe Campaign을 설치하기 전에 필요한 예비 구성 단계를 자세히 설명합니다.
 
-Adobe Campaign 설치에 필요한 기술 및 소프트웨어 구성은 호환성 매트릭스에 [설명되어 있습니다](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html).
+Adobe Campaign 설치에 필요한 기술 및 소프트웨어 구성은 호환성 매트릭스에 [설명되어 있습니다](../../rn/using/compatibility-matrix.md).
 
 다음 구성 요소를 설치하고 올바르게 구성해야 합니다.
 
-* Apache, 호환성 [매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html),
+* Apache, 호환성 [매트릭스](../../rn/using/compatibility-matrix.md),
 * Java JDK 및 OpenJDK는 [Java 개발 키트 - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
 * 라이브러리, 라이브러리 [참조](#libraries),
 * 데이터베이스 액세스 레이어는 데이터베이스 액세스 [레이어를 참조하십시오](#database-access-layers).
@@ -169,7 +169,7 @@ CentOS에서는 다음 구성이 필요합니다.
 
 사용 중인 데이터베이스 엔진의 액세스 레이어는 서버에 설치되어 있어야 하며 Adobe Campaign 계정을 통해 액세스할 수 있어야 합니다. 버전 및 설치 모드는 사용된 데이터베이스 엔진에 따라 다를 수 있습니다.
 
-지원되는 파일럿 버전은 [호환성 매트릭스에 자세히 나와 있습니다](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html).
+지원되는 파일럿 버전은 [호환성 매트릭스에 자세히 나와 있습니다](../../rn/using/compatibility-matrix.md).
 
 일반 [데이터베이스](../../installation/using/database.md) 섹션도 확인합니다.
 
