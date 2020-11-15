@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '3932'
 ht-degree: 98%
@@ -148,7 +148,7 @@ Experience Cloud 트리거 및 Adobe Campaign Classic 통합 페이지는 [여�
 
 이모티콘 지원 - [자세한 내용](../../delivery/using/customizing-emoticon-list.md)
 
-Azure Synapse FDA 커넥터 - [자세한 내용](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse)
+Azure Synapse FDA 커넥터 - [자세한 내용](../../installation/using/configure-fda-synapse.md)
 
 태국 및 브라질 개인 정보 보호 법 - [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
@@ -188,7 +188,7 @@ Spam Assassin 설치 섹션이 새 설치 파일 이름으로 업데이트되었
 
 ## 2020년 4월 {#april-2020}
 
-FDA 권한 테이블이 외부 데이터베이스 액세스(FDA) 문서로 이동되었습니다. [자세한 내용](../../platform/using/remote-database-access-rights.md)
+FDA 권한 테이블이 외부 데이터베이스 액세스(FDA) 문서로 이동되었습니다. [자세한 내용](../../installation/using/remote-database-access-rights.md)
 
 FAQ는 소프트 및 하드 캐시를 삭제하는 방법에 대한 팁과 함께 업데이트되었습니다. [자세한 내용](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)
 
@@ -232,9 +232,9 @@ AMP for Email은 이제 새로운 전자 메일 제공업체에서 지원하며 
 
 **20.1 릴리스에 포함된 새로운 기능**
 
-Snowflake FDA 커넥터 - [자세한 내용](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)
+Snowflake FDA 커넥터 - [자세한 내용](../../installation/using/configure-fda-snowflake.md)
 
-Hadoop FDA 커넥터 개선 사항 - [자세한 내용](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3)
+Hadoop FDA 커넥터 개선 사항 - [자세한 내용](../../installation/using/configure-fda-hadoop.md)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
@@ -292,7 +292,7 @@ URL 보고서 구성에 대한 새 매개 변수가 [여기](../../reporting/usi
 
 &quot;WdbcOptions_TempDbName&quot; 옵션이 Campaign 옵션 목록에 추가되었습니다. [자세한 내용](../../installation/using/configuring-campaign-options.md)
 
-FDA 매트릭스 페이지가 [여기](../../platform/using/remote-database-access-rights.md)로 이동되었습니다.
+FDA 매트릭스 페이지가 [여기](../../installation/using/remote-database-access-rights.md)로 이동되었습니다.
 
 액세스 권한 지표 페이지가 [여기](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf)로 이동되었습니다.
 
