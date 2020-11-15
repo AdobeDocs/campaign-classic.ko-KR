@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 translation-type: tm+mt
-source-git-commit: 1781648fc17d729f451664204f99a77dfaa8c824
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 2%
+source-wordcount: '1301'
+ht-degree: 1%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-지원되는 데이터베이스는 호환성 표 [에 나와 있습니다](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html).
+지원되는 데이터베이스가 캠페인 [호환성 매트릭스에 나열되어 있습니다](../../rn/using/compatibility-matrix.md).
 
 서버를 식별하고 수행할 작업 유형을 선택합니다. 이 경우, **[!UICONTROL Create or recycle a database]**
 
