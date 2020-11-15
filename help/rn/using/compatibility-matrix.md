@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 281eb6b0f84e01d25ac9c3542dc2ee950d4879e7
+source-git-commit: 75ab345e3b9360229ecc3ba9529a33e320228fa0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '538'
 ht-degree: 13%
 
 ---
@@ -170,7 +170,7 @@ Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md
 >
 >PostgreSQL은 호스팅 환경을 위한 기본 데이터베이스 서버입니다.
 
-## CRM connectors{#CRMconnectors}
+## CRM 커넥터{#CRMconnectors}
 
 <table>
 <tbody>
@@ -342,4 +342,4 @@ Internet Explorer 11이 지원됩니다.
 * [Campaign Classic 릴리스 노트](../../rn/using/latest-release.md)
 * [설치 가이드](../../installation/using/general-architecture.md)
 * [사용되지 않는 기능 및 시스템](../../rn/using/deprecated-features.md)
-* [업그레이드 절차 구축](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html)
+* [업그레이드 절차 구축](../../production/using/build-upgrade.md)
