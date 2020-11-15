@@ -1,8 +1,6 @@
 ---
 title: 마이그레이션을 시작하기 전
-seo-title: 마이그레이션을 시작하기 전
 description: 마이그레이션을 시작하기 전
-seo-description: null
 page-status-flag: never-activated
 uuid: b9325510-2fa5-4be4-9cf0-f37232bbbd8c
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: migration-procedure
 discoiquuid: d8877378-fb43-4f32-91c6-60f2f788f916
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 3%
+source-wordcount: '524'
+ht-degree: 1%
 
 ---
 
@@ -27,6 +25,13 @@ ht-degree: 3%
 >이 문서에서는 데이터베이스에 연결된 명령이 예로 제공됩니다. 구성에 따라 달라질 수 있습니다. 데이터베이스 관리자에게 문의하십시오.
 
 ## 경고 {#warnings}
+
+* 마이그레이션 프로세스는 전문가 사용자만 수행해야 합니다. 데이터베이스 전문가, 시스템 관리자 및 Adobe Campaign의 응용 프로그램 개발자의 도움을 받아야 합니다.
+* 마이그레이션을 시작하기 전에 사용하는 시스템 및 시스템 구성 요소가 v7과 실제로 호환되는지 확인하십시오. 호환성 [매트릭스를 참조하십시오](../../rn/using/compatibility-matrix.md).
+* Adobe Campaign 클라우드 메시지(중간 소싱)를 사용하는 경우 전체 마이그레이션 절차를 시작하기 전에 Adobe에 문의하십시오.
+* 마이그레이션 프로세스를 시작하기 전에 데이터를 백업해야 **합니다** .
+* 마이그레이션 프로세스는 완료하는 데 며칠이 걸릴 수 있습니다.
+* Adobe Campaign v7은 구성 측면에서 5.11 및 6.02 버전보다 더 엄격합니다. 데이터 손상 등의 문제를 방지하고 데이터베이스의 데이터 무결성을 유지하는 것이 주 목적입니다. 따라서 v5.11 및 v6.02에서 제공되는 특정 기능은 v7에서 더 이상 작동하지 않을 수 있으므로 마이그레이션 후 수정해야 할 수 있습니다. 제작 작업을 시작하기 전에 모든 구성, 특히 Adobe Campaign을 사용하는 데 필요한 워크플로우를 체계적으로 테스트하는 것이 좋습니다.
 
 ### 설치된 버전 {#installed-version}
 
@@ -45,7 +50,7 @@ nlserver pdump 명령을 사용하여 클라이언트 콘솔의 **[!UICONTROL He
 
 ### 권장 사항 {#recommendation}
 
-마이그레이션 절차가 특히 중요하므로 절차를 시작하기 전에 이 문서를 철저히 읽는 것이 좋습니다.
+마이그레이션 절차는 민감하므로 절차를 시작하기 전에 이 문서를 철저히 읽는 것이 좋습니다.
 
 ## 마이그레이션 단계 {#migration-steps}
 
@@ -64,10 +69,6 @@ nlserver pdump 명령을 사용하여 클라이언트 콘솔의 **[!UICONTROL He
    1. 리디렉션 및 추적 서버(Apache / IIS)를 마이그레이션합니다.
    1. Power Boxer/Cluster 서버를 마이그레이션합니다.
    1. 마케팅 서버를 마이그레이션합니다.
-
->[!NOTE]
->
->v6.02 마케팅 서버와 v7 클라우드 메시지 또는 Power Boxer/클러스터 서버 간의 통신이 가능합니다. 그러나 v6.02 마케팅 서버를 유지하려는 경우 클라우드 메시지 또는 Power Boxer/Cluster로 마이그레이션하기 전에 최신 v6.02 빌드로 업데이트해야 합니다.
 
 ## 사용자 암호 {#user-passwords}
 
