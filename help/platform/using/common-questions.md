@@ -9,10 +9,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: ht
-source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
-workflow-type: ht
-source-wordcount: '539'
+translation-type: tm+mt
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+workflow-type: tm+mt
+source-wordcount: '525'
 ht-degree: 100%
 
 ---
@@ -66,11 +66,11 @@ Adobe Campaign Classic에 연결하려면 Adobe Campaign 클라이언트 콘솔�
 
 ## 7. 어떤 시스템과 구성 요소가 Campaign Classic과 호환됩니까? {#which-systems-and-components-campaign-classic-is-compatible-with-}
 
-[Adobe Campaign Classic 호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)에서 최신 캠페인 빌드에 대해 지원되는 모든 시스템 및 구성 요소 목록을 가져올 수 있습니다.
+[Adobe Campaign Classic 호환성 매트릭스](../../rn/using/compatibility-matrix.md)에서 최신 캠페인 빌드에 대해 지원되는 모든 시스템 및 구성 요소 목록을 가져올 수 있습니다.
 
 ## 8. Campaign Classic 릴리스 정보는 어디에 있습니까? {#where-are-campaign-classic-release-notes-}
 
-[이 페이지](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/release-notes/latest-release.html)에서 최신 Campaign Classic 릴리스 정보에 액세스할 수 있습니다.
+[이 페이지](../../rn/using/latest-release.md)에서 최신 Campaign Classic 릴리스 정보에 액세스할 수 있습니다.
 
 ## 9. 도메인 구성의 절차는 무엇입니까? {#what-is-the-procedure-for-domain-delegation-}
 
