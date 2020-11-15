@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 8%
@@ -41,7 +41,7 @@ The mobile, messaging and webmail clients available for **Inbox rendering** in A
 온-프레미스 설치의 경우 아래 절차에 따라 받은 편지함 렌더링을 구성합니다.
 
 1. > > **[!UICONTROL Inbox rendering (IR)]** > **[!UICONTROL Tools]** 메뉴를 통해 패키지를 **[!UICONTROL Advanced]** **[!UICONTROL Import package]** 설치합니다. 자세한 내용은 Campaign Classic 표준 패키지 [설치를 참조하십시오](../../installation/using/installing-campaign-standard-packages.md).
-1. > > 노드를 통해 HTTP 유형의 외부 계정 **[!UICONTROL Administration]** 을 **[!UICONTROL Platform]****[!UICONTROL External Accounts]** 구성합니다. 자세한 내용은 외부 계정 [만들기를 참조하십시오](../../platform/using/external-accounts.md#creating-an-external-account).
+1. > > 노드를 통해 HTTP 유형의 외부 계정 **[!UICONTROL Administration]** 을 **[!UICONTROL Platform]****[!UICONTROL External Accounts]** 구성합니다. 자세한 내용은 외부 계정 [만들기를 참조하십시오](../../installation/using/external-accounts.md#creating-an-external-account).
 1. 외부 계정 매개 변수를 다음과 같이 설정합니다.
    * **[!UICONTROL Label]**:제공 가능 서버 정보
    * **[!UICONTROL Internal name]**:deliverabilityInstance
