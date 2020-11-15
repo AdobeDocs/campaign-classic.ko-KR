@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 translation-type: tm+mt
-source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '4014'
 ht-degree: 1%
@@ -83,7 +83,7 @@ Adobe Campaign에서 속성이 필요한지 여부를 결정하려면 속성이 
 
 타깃팅 또는 개인화 목적이 있는 필드는 테이블에 저장해야 합니다. 즉, 필드가 개인화된 이메일을 보내는 데 사용되지 않거나 쿼리의 기준으로 사용되는 경우 디스크 공간이 필요한 반면, 이것은 쓸모 없는 것입니다.
 
-하이브리드 인스턴스와 온-프레미스 인스턴스의 경우 FDA(외부 데이터에 액세스할 수 있는 옵션 기능)는 캠페인 프로세스 중에 &quot;즉각적인&quot; 필드를 추가해야 하는 필요성을 다룹니다. FDA가 있다면 모든 것을 가져올 필요는 없습니다. 자세한 내용은 통합 데이터 액세스 [정보를 참조하십시오](../../platform/using/about-fda.md).
+하이브리드 인스턴스와 온-프레미스 인스턴스의 경우 FDA(외부 데이터에 액세스할 수 있는 옵션 기능)는 캠페인 프로세스 중에 &quot;즉각적인&quot; 필드를 추가해야 하는 필요성을 다룹니다. FDA가 있다면 모든 것을 가져올 필요는 없습니다. 자세한 내용은 통합 데이터 액세스 [정보를 참조하십시오](../../installation/using/about-fda.md).
 
 ### 키 선택 {#choice-of-keys}
 
