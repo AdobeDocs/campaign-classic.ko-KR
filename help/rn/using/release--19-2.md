@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
+source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 8%
@@ -107,7 +107,7 @@ _2019년 12월 02일_
 
 * 푸시 알림에 대한 메모리 소비 최적화.
 * 성능 및 저장 최적화를 위해 logins.log **** 파일의 처리가 향상되었습니다. 이제 파일이 여러 파일로 분할되어 매일 최대 365개의 파일이 유지됩니다. [자세한 내용](../../production/using/log-files.md)
-* 이제 암호 자격 증명(암호 + 사용자 이름) 또는 인증서(개인 키)를 사용하여 Microsoft Dynamics CRM 외부 계정을 구성할 수 있습니다. [자세한 내용](../../platform/using/external-accounts.md#microsoft-dynamics-crm-external-account)
+* 이제 암호 자격 증명(암호 + 사용자 이름) 또는 인증서(개인 키)를 사용하여 Microsoft Dynamics CRM 외부 계정을 구성할 수 있습니다. [자세한 내용](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
 * 안정성을 개선하기 위해 일부 개선 사항이 Hadoop FDA 커넥터에 추가되었습니다.
 * 서버에 공개 리소스를 업로드하기 전에 디스크 공간을 확인하는 특정 보증인이 추가되었습니다.
 * 새 [캠페인](../../installation/using/configuring-campaign-options.md) 옵션이 추가되었습니다.
