@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 7c28c179-eb18-437e-baf2-25829566c766
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 1%
+source-wordcount: '1336'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign은 SOA(서비스 지향 아키텍처)를 기반으로 하며 여�
 
 >[!CAUTION]
 >
->명시적으로 명시하지 않은 경우, Adobe Campaign 플랫폼의 모든 구성 요소에 대한 설치, 업데이트 및 유지 관리는 이러한 구성 요소를 호스팅하는 시스템 관리자의 책임입니다. 여기에는 Adobe Campaign 애플리케이션에 대한 사전 요구 사항 구현과 구성 요소 간의 [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html) 준수가 포함됩니다.
+>명시적으로 명시하지 않은 경우, Adobe Campaign 플랫폼의 모든 구성 요소에 대한 설치, 업데이트 및 유지 관리는 이러한 구성 요소를 호스팅하는 시스템 관리자의 책임입니다. 여기에는 Adobe Campaign 애플리케이션에 대한 사전 요구 사항 구현과 구성 요소 간의 캠페인 [호환성 매트릭스](../../rn/using/compatibility-matrix.md) 구현이 포함됩니다.
 
 ## 프레젠테이션 레이어 {#presentation-layer}
 
