@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 8%
 
 배달 분석 중에 이 옵션을 사용하면 FDA에 연결된 테이블의 데이터를 포함하여, 대상에 연결된 모든 데이터를 임시 테이블에 저장하는 워크플로우를 자동으로 생성하고 실행합니다.
 
-이 옵션을 선택하면 많은 데이터가 처리되는 경우, 특히 개인화 데이터가 FDA를 통해 외부 테이블에서 가져오는 경우 배달 분석 성능을 크게 향상시킬 수 있습니다. 자세한 내용은 [외부 데이터베이스 액세스(FDA)를 참조하십시오](../../platform/using/additional-options.md#optimizing-email-personalization-with-external-data).
+이 옵션을 선택하면 많은 데이터가 처리되는 경우, 특히 개인화 데이터가 FDA를 통해 외부 테이블에서 가져오는 경우 배달 분석 성능을 크게 향상시킬 수 있습니다. 자세한 내용은 [외부 데이터베이스 액세스(FDA)를 참조하십시오](../../installation/using/about-fda.md).
 
 예를 들어 메시지 컨텐츠에서 많은 개인화 필드 및/또는 개인화 블록을 사용하는 동안 수신자에게 전달할 때 성능 문제가 발생하는 경우 이 옵션을 사용하면 개인화 처리 시간을 단축하여 메시지를 전달할 수 있습니다.
 
