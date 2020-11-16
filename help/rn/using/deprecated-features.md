@@ -10,7 +10,7 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 99%
@@ -62,7 +62,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <td>iOS 레거시 바이너리<br></td>
   <td><p>Campaign 20.3 릴리스부터 iOS 레거시 바이너리 커넥터는 사용되지 않습니다.<p>
   <p> 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다.
-  <a href="https://helpx.adobe.com/kr/campaign/kb/migrate-to-http2.html">자세히 알아보기</a></p>
+  <a href="https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html">자세히 알아보기</a></p>
   <p><em>타겟 제거 날짜: 2021년</em></p>
   </td>
  </tr>
