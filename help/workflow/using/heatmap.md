@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: use-cases
 discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1333'
 ht-degree: 3%
 
 ---
@@ -43,7 +43,7 @@ Workflow HeatMap은 동시 워크플로우 수에 대한 빠른 개요를 제공
 
 Workflow HeatMap을 사용하려면 다음 개념을 잘 이해해야 합니다. [워크플로우](../../workflow/using/about-workflows.md), [활동](../../workflow/using/about-activities.md) 및 [워크플로우 우수 사례](../../workflow/using/workflow-best-practices.md).
 
-Workflow HeatMap은 기본적으로 Adobe Campaign 18.10 릴리스에서 사용할 수 있습니다. 빌드 수가 8700에서 8977(18.10) 사이인 경우 이 기능을 활용할 수도 있습니다. 해당 패키지를 요청하려면 [Adobe 고객 지원 센터에](https://support.neolane.net/) 문의하고 [이 페이지](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html) 의 지침에 따라 해당 패키지를 설치하는 방법을 이해합니다.
+Workflow HeatMap은 기본적으로 Adobe Campaign 18.10 릴리스에서 사용할 수 있습니다. 빌드 수가 8700에서 8977(18.10) 사이인 경우 이 기능을 활용할 수도 있습니다. 해당 패키지를 요청하려면 [Adobe 고객 지원 센터에](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 문의하고 [이 페이지](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html) 의 지침에 따라 해당 패키지를 설치하는 방법을 이해합니다.
 
 처음 Workflow HeatMap에 액세스하면 다음 팝업 창이 나타납니다. 본 계약은 Adobe Campaign이 다음 작업을 할 수 있도록 미국 내 양도 및 보관을 허용합니다.
 
