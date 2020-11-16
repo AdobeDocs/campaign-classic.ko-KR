@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '2371'
-ht-degree: 8%
+source-wordcount: '2367'
+ht-degree: 7%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->이 건물은 회수되었다. 최신 빌드 [로](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) 업그레이드하거나 [기술 지원에 문의하십시오](https://support.neolane.net/).
+>이 건물은 회수되었다. 최신 빌드 [로](../../production/using/build-upgrade.md) 업그레이드하거나 [Adobe 고객 지원 센터에 문의하십시오](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **개선 사항**
 
@@ -87,7 +87,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->이 건물은 회수되었다. 최신 빌드 [로](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) 업그레이드하거나 [기술 지원에 문의하십시오](https://support.neolane.net/).
+>이 건물은 회수되었다. 최신 빌드 [로](../../production/using/build-upgrade.md) 업그레이드하거나 [Adobe 고객 지원 센터에 문의하십시오](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **개선 사항**
 
@@ -109,7 +109,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->이 건물은 회수되었다. 최신 빌드 [로](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) 업그레이드하거나 [기술 지원에 문의하십시오](https://support.neolane.net/).
+>이 건물은 회수되었다. 최신 빌드 [로](../../production/using/build-upgrade.md) 업그레이드하거나 [Adobe 고객 지원 센터에 문의하십시오](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **새로운 기능**
 
@@ -122,7 +122,7 @@ ht-degree: 8%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 향상된 푸시 알림<br /> </td> 
+   <td> Push notification improvements<br /> </td> 
    <td> Adobe Campaign에서 푸시 알림에 대해 많은 개선 사항이 구현되었습니다.<br /> 
     <ul> 
      <li> <p>iOS에서 자동 알림 추적 </p> </li> 
@@ -136,7 +136,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 워크플로우 모니터링<br /> </td> 
-   <td> <p>새로운 Adobe Campaign 워크플로우 HeatMap을 통해 플랫폼 관리자는 모든 동시 워크플로우를 그래픽으로 표현하므로 인스턴스의 로드를 모니터링하고 워크플로우를 적절하게 계획할 수 있습니다.</p> <p>자세한 내용은 <a href="../../workflow/using/heatmap.md">세부 설명서</a>를 참조하십시오.</p> <p>Workflow HeatMap 패키지는 8977 이전(빌드 8700 시작) 빌드에 대해서도 On-Demand 방식으로 사용할 수 있습니다. 요청 및 설치에 대한 자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html">이 페이지를 참조하십시오</a>.</p> </td> 
+   <td> <p>새로운 Adobe Campaign 워크플로우 HeatMap을 통해 플랫폼 관리자는 모든 동시 워크플로우를 그래픽으로 표현하므로 인스턴스의 로드를 모니터링하고 워크플로우를 적절하게 계획할 수 있습니다.</p> <p>자세한 내용은 <a href="../../workflow/using/heatmap.md">세부 설명서</a>를 참조하십시오.</p> <p>Workflow HeatMap 패키지는 8977 이전(빌드 8700 시작) 빌드에 대한 요청 시 사용할 수도 있습니다. 요청 및 설치에 대한 자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html">이 페이지를 참조하십시오</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -151,7 +151,7 @@ ht-degree: 8%
 
 **개선 사항**
 
-* 이제 [전용 페이지](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)에서 Campaign Classic API를 사용할 수 있습니다. jsapi.chm 파일을 사용하는 경우 이제 새로운 온라인 버전을 참조해야 합니다.
+* 이제 [전용 페이지](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)에서 Campaign Classic API를 사용할 수 있습니다. jsapi.chm 파일을 사용하는 경우 이제 새로운 온라인 버전을 참조해야 합니다.
 * 이제 PostgreSQL 10, Debian 9 및 Teradata 16.20이 지원됩니다. [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)를 참조하십시오.
 * 이제 SFTP 연결을 만들 때 프록시 인증을 사용할 수 있습니다. For more information, refer to the [detailed documentation](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration) (NEO-9868)
 * 이제 **DM 배달 템플릿을 사용하여 단일 배달을 만들 때 배달 속성에서 날짜 계산 공식** 옵션을 사용할 수 있습니다. (NEO-9792)
