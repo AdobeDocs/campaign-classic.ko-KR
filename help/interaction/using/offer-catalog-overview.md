@@ -1,8 +1,6 @@
 ---
 title: 오퍼 카탈로그 개요
-seo-title: 오퍼 카탈로그 개요
-description: 오퍼 카탈로그 개요
-seo-description: null
+description: Campaign의 오퍼 카탈로그에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: 97b3bebc-4c82-42d3-ae6e-6642caa17687
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 762b0233-4b2a-420c-ba28-240cfba362e8
 translation-type: tm+mt
-source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 9%
+source-wordcount: '131'
+ht-degree: 4%
 
 ---
 
