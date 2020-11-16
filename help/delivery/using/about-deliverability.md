@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classic의 제공 정보
-description: Adobe Campaign Classic의 전달 능력 관리에 대한 자세한 내용을 살펴보십시오.
+title: Campaign의 제공 가능성 정보
+description: 전달 능력 우수 사례 학습
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
