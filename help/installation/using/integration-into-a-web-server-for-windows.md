@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: a4f2ae0e-e631-4ab6-934e-8298e4ce6f2c
 translation-type: tm+mt
-source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
+source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 3%
@@ -29,7 +29,7 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 응용 프로그램 서버의 진�
 이 경우:
 
 * 기본 의견 수렴 포트는 8080입니다. 변경하려면 Tomcat [구성을 참조하십시오](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
-* 그런 다음 클라이언트 콘솔은 https:// [:8080 `<computer>`과 같은 URL을 사용하여 연결합니다](https://machine:8080).
+* 그런 다음 클라이언트 콘솔은 https:// [:8080 `<computer>`과 같은 URL을 사용하여 연결합니다](https://myserver.adobe.com:8080).
 
 그러나 보안 및 관리상의 이유로, Adobe Campaign을 실행 중인 컴퓨터가 인터넷에 노출되고 네트워크 외부의 콘솔에 대한 액세스를 열려는 경우 전용 웹 서버를 HTTP 트래픽의 기본 시작 지점으로 사용하는 것이 좋습니다.
 
