@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
 translation-type: tm+mt
-source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
+source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -38,7 +38,7 @@ iOS의 경우 iOS HTTP/2 커넥터는 HTTP/2 APN에 알림을 보냅니다.
 
    >[!NOTE]
    >
-   > Campaign 20.3 릴리스를 시작하는 경우 iOS 레거시 바이너리 커넥터는 더 이상 사용되지 않습니다. 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+   > Campaign 20.3 릴리스부터 iOS 레거시 바이너리 커넥터는 사용되지 않습니다. 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)
 
    ![](assets/nmac_connectors.png)
 
@@ -110,7 +110,7 @@ iOS의 경우 iOS HTTP/2 커넥터는 HTTP/2 APN에 알림을 보냅니다.
 
 1. **[!UICONTROL Authentication mode]**&#x200B;을(를) 선택합니다. 나중에 모바일 애플리케이션의 **[!UICONTROL Certificate]** 탭에서 인증 모드를 변경할 수 있습니다.
    * **[!UICONTROL Certificate-based authentication]**:그런 다음 p12 키를 선택하고 모바일 애플리케이션 개발자가 제공한 암호를 입력합니다 **[!UICONTROL Enter the certificate...]** .
-   * **[!UICONTROL Token-based authentication]**:연결 설정을 채운 **[!UICONTROL Key ID]****[!UICONTROL Team ID]** 다음 을 클릭하여 p8 인증서를 선택합니다 **[!UICONTROL Bundle ID]** **[!UICONTROL Enter the private key]**. For more on **[!UICONTROL Token-based authentication]**, refer to [Apple documentation](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apnsToken-based).
+   * **[!UICONTROL Token-based authentication]**:연결 설정을 채운 **[!UICONTROL Key ID]****[!UICONTROL Team ID]** 다음 을 클릭하여 p8 인증서를 선택합니다 **[!UICONTROL Bundle ID]** **[!UICONTROL Enter the private key]**. For more on **[!UICONTROL Token-based authentication]**, refer to [Apple documentation](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns).
 
    >[!NOTE]
    >
