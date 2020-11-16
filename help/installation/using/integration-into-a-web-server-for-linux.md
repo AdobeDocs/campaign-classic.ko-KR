@@ -1,8 +1,6 @@
 ---
 title: Linux용 웹 서버와 통합
-seo-title: Linux용 웹 서버와 통합
-description: Linux용 웹 서버와 통합
-seo-description: null
+description: Campaign을 웹 서버에 통합하는 방법(Linux)
 page-status-flag: never-activated
 uuid: 7b18d176-4458-46a8-8da4-3621f90c6b13
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 752ba848-aee9-4bb0-b2c5-490f3124f74e
 translation-type: tm+mt
-source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
+source-git-commit: fb1aac4eb6dc43b4b7e00da8199fc5f33d064867
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 5%
+source-wordcount: '558'
+ht-degree: 2%
 
 ---
 
