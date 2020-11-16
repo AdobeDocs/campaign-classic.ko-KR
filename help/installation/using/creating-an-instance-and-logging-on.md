@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: c7395094-c635-45ab-8455-a050f7d16b64
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 4%
@@ -46,7 +46,7 @@ Adobe Campaign 콘솔이 시작되면 로그인 페이지에 액세스합니다.
 
 1. URL을 통해 Adobe Campaign 응용 프로그램 서버에 대한 연결을 지정합니다. 시스템의 DNS 또는 별칭 또는 IP 주소를 사용합니다.
 
-   예를 들어 유형 URL을 사용할 수 [`https://<machine>.<domain>.com`](https://machine) 있습니다.
+   예를 들어 유형 URL을 사용할 수 [`https://<machine>.<domain>.com`](https://myserver.adobe.com) 있습니다.
 
    >[!CAUTION]
    >
