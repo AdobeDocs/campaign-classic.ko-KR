@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: d1069b23-e08d-43c5-bbfb-3158ac40dc7e
 translation-type: tm+mt
-source-git-commit: 48176ebb19689855f3ee5e61fa6492be5a682291
+source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 5%
@@ -34,7 +34,7 @@ Adobe Campaign 클라이언트 콘솔을 다운로드하여 설치하려면 아�
 
 1. 웹 브라우저를 열고 다음 주소에서 콘솔을 다운로드합니다.
 
-   [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://machine/nl/jsp/logon.jsp).
+   [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://myserver.adobe.com/nl/jsp/logon.jsp).
 
 1. 식별 창에서 로그인 및 암호를 입력합니다.
 
@@ -66,7 +66,7 @@ Adobe Campaign 클라이언트 콘솔을 다운로드하여 설치하려면 아�
 
 1. URL을 통해 Adobe Campaign 응용 프로그램 서버에 대한 연결을 지정합니다. 시스템의 DNS 또는 별칭 또는 IP 주소를 사용합니다.
 
-   예를 들어 유형 URL을 사용할 수 [`https://<machine>.<domain>.com`](https://machine) 있습니다.
+   예를 들어 유형 URL을 사용할 수 [`https://<machine>.<domain>.com`](https://myserver.adobe.com) 있습니다.
 
 1. 조직에 대해 Adobe IMS가 구성된 경우 옵션을 선택하십시오 **[!UICONTROL Connect with an Adobe ID]**
 
