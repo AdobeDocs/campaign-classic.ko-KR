@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 79a6d3cf-2425-49b9-9b92-b56be26438bf
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 8%
+source-wordcount: '795'
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->이 건물은 회수되었다. 최신 빌드 [로](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) 업그레이드하거나 [기술 지원에 문의하십시오](https://support.neolane.net/).
+>이 건물은 회수되었다. 최신 빌드 [로](../../production/using/build-upgrade.md) 업그레이드하거나 [Adobe 고객 지원 센터에 문의하십시오](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **새로운 기능**
 
@@ -42,7 +42,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> 쿼리 밴딩<br /> </td> 
-   <td> <p>여러 Campaign 사용자가 동일한 FDA Teradata 외부 계정에 연결하면 이제 각 사용자별 쿼리 밴드(키/값 쌍)를 전달할 수 있습니다. Campaign 사용자가 Teradata 데이터베이스에 대해 쿼리를 수행할 때마다 Adobe Campaign은 이제 사용자와 연관된 메타 데이터를 보낼 수 있습니다. 이러한 데이터는 키 및 값 목록으로 구성되며, 감사 목적으로 또는 액세스 권한 관리를 위해 Teradata 관리자가 사용할 수 있습니다.</p><p>자세한 내용은 <a href="https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#Teradata_external_account">세부 설명서</a>를 참조하십시오.</p> </td>
+   <td> <p>여러 Campaign 사용자가 동일한 FDA Teradata 외부 계정에 연결하면 이제 각 사용자별 쿼리 밴드(키/값 쌍)를 전달할 수 있습니다. Campaign 사용자가 Teradata 데이터베이스에 대해 쿼리를 수행할 때마다 Adobe Campaign은 이제 사용자와 연관된 메타 데이터를 보낼 수 있습니다. 이러한 데이터는 키 및 값 목록으로 구성되며, 감사 목적으로 또는 액세스 권한 관리를 위해 Teradata 관리자가 사용할 수 있습니다.</p><p>자세한 내용은 <a href="../../installation/using/external-accounts.md">세부 설명서</a>를 참조하십시오.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ Teradata 외부 계정에 새 탭이 추가되었습니다. 이 **[!UICONTROL Qu
 
 >[!CAUTION]
 >
->이 건물은 회수되었다. 최신 빌드 [로](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) 업그레이드하거나 [기술 지원에 문의하십시오](https://support.neolane.net/).
+>이 건물은 회수되었다. 최신 빌드 [로](../../production/using/build-upgrade.md) 업그레이드하거나 [기술 지원에 문의하십시오](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **새로운 기능**
 
