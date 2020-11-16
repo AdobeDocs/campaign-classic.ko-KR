@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: content-management
 discoiquuid: 4abce633-647f-4ae4-9419-859f6e2e8628
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 1%
@@ -267,7 +267,7 @@ GetAndTransform **** 메서드는 **`<enter>`** 태그의 **`<input>`** 요소 �
 <input label="File name" type="editbtn" xpath="/tmp/@name">
   <enter>
     <soapCall name="GetAndTransform" service="ncm:content">
-      <param exprIn="'https://server/incoming/' + [/tmp/@name] + '.xml'" type="string"/>
+      <param exprIn="'https://myserver.adobe.com/incoming/' + [/tmp/@name] + '.xml'" type="string"/>
       <param exprIn="'xtk:xslt|cus:book-workflow.xsl'" type="string"/>
       <param type="DOMElement" xpathOut="."/>
     </soapCall>
@@ -275,7 +275,7 @@ GetAndTransform **** 메서드는 **`<enter>`** 태그의 **`<input>`** 요소 �
 </input>
 ```
 
-편집 영역을 사용하면 검색할 파일의 이름을 입력할 수 있습니다. URL은 다음과 같이 이 이름을 기반으로 구성됩니다.https://server/incomin/data.xml
+편집 영역을 사용하면 검색할 파일의 이름을 입력할 수 있습니다. URL은 다음과 같이 이 이름을 기반으로 구성됩니다.https://myserver.adobe.com/incomin/data.xml
 
 검색할 데이터의 형식은 워크플로우 자동화 예 1과 동일합니다. 이 예제에서 볼 수 있는 &quot;cus:book-workflow.xsl&quot; 스타일시트를 사용합니다.
 
