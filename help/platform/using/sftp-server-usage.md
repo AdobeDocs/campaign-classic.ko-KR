@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: f449ccd5-3965-4ab8-b5a9-993f3260aba9
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 12%
+source-wordcount: '1007'
+ht-degree: 11%
 
 ---
 
@@ -37,7 +37,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 * 서버 크기 기능은 라이센스에 따라 다릅니다. 어떠한 경우든, 가능한 최소 데이터를 유지하고 필요한 기간(최대 시간 제한)에 대해서만 데이터를 보관하십시오.
 * 암호 만료를 방지하려면 암호 인증 대신 키 기반 인증을 사용하십시오(암호의 유효 기간이 90일). 또한 키 기반 인증을 사용하면 여러 개의 키를 생성할 수 있습니다(예: 여러 엔티티 관리 시). 반면에 암호 인증에서는 관리하는 모든 엔터티와 암호를 공유해야 합니다.
 
-   지원되는 키 형식은 SSH-2 RSA 2048입니다. 키는 PyTTY(Windows) 또는 ssh-keygen(Unix)과 같은 도구를 사용하여 생성할 수 있습니다. Campaign 서버에 업로드하려면 [지원 티켓을](https://support.neolane.net) 통해 Adobe 지원 팀에 공개 키를 제공해야 합니다.
+   지원되는 키 형식은 SSH-2 RSA 2048입니다. 키는 PyTTY(Windows) 또는 ssh-keygen(Unix)과 같은 도구를 사용하여 생성할 수 있습니다. 캠페인 서버에 업로드하려면 [Adobe 고객 지원 센터를 통해](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Adobe 지원 팀에 공개 키를 제공해야 합니다.
 
 * 워크플로우를 사용하여 데이터를 올바르게 삭제합니다(데이터를 사용하는 워크플로우에서 보존을 관리합니다).
 * 워크플로우뿐만 아니라 SFTP 업로드에서도 일괄 처리를 사용합니다.
@@ -45,7 +45,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 * 때때로 SFTP에 로그인하여 무엇이 있는지 직접 확인합니다.
 * SFTP 디스크 관리는 주로 사용자의 책임입니다.
 * 기본적으로 만드는 모든 폴더는 식별자에 대해서만 읽기/쓰기 모드에 있습니다. Campaign에서 액세스해야 하는 폴더를 만들 때는 전체 그룹에 대한 읽기/쓰기 권한을 사용하여 폴더를 구성해야 합니다. 그렇지 않으면 보안상의 이유로 동일한 그룹 내의 다른 식별자로 파일이 실행되므로 워크플로우에서 파일을 만들거나 삭제할 수 없습니다.
-* SFTP 연결을 시작하려는 공개 IP를 캠페인 인스턴스의에 허용 목록에 추가하다 추가해야 합니다. IP 주소 추가는 [지원 티켓을 통해 허용 목록에 추가하다 요청할 수 있습니다](https://support.neolane.net).
+* SFTP 연결을 시작하려는 공개 IP를 캠페인 인스턴스의에 허용 목록에 추가하다 추가해야 합니다. Adobe 고객 지원 센터를 통해에 IP 주소허용 목록에 추가하다를 추가할 수 있습니다 [](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 ## Adobe 호스팅 SFTP 서버의 연결 문제 {#sftp-server-troubleshooting}
 
-아래 섹션에는 Adobe 호스팅 SFTP 서버와 연결 문제가 발생하는 경우 [지원 티켓을 통해 Adobe 지원](https://support.neolane.net) 팀에 확인하고 제공하는 정보가 나와 있습니다.
+아래 섹션에는 Adobe 호스팅 SFTP 서버와 관련된 연결 문제가 발생할 때 [Adobe 고객 지원](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 센터를 통해 Adobe 지원 팀에 확인하고 제공하는 정보가 나와 있습니다.
 
 1. 인스턴스가 실행 중인지 확인합니다. 이렇게 하려면 브라우저를 연 다음 인스턴스 끝점을 **[!UICONTROL GET]** **[!UICONTROL /r/test]** 호출합니다.
 
