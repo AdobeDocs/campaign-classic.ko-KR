@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: aa37bdc6-0f85-4eca-859f-e8b15083cfb5
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -53,8 +53,7 @@ Windows에서 SpamCharacter를 설치하고 구성하여 Adobe Campaign와의 �
 
 ### SpamCharacter 설치 {#installing-spamassassin}
 
-1. 사용자 자격 증명을 [사용하여 엑스트라넷 포털에](http://support.neolane.net) 연결합니다.
-1. 다운로드 **센터로** 이동한 다음 페이지를 검색하여 **도구** 섹션을 찾습니다.
+1. 사용자 자격 증명을 사용하여 [소프트웨어 배포 포털에](https://experience.adobe.com/downloads) 연결합니다. 이 [페이지의 소프트웨어 배포에 대한 자세한 내용을 살펴보십시오](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 1. Neolane **스팸 암살자(Windows 설치)(2.0)** 파일(neolane_spamasser.2.0.zip)을 다운로드합니다.
 1. 이 파일을 Adobe Campaign 서버에 복사한 다음 압축을 해제합니다.
 
