@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 translation-type: tm+mt
-source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
+source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
 workflow-type: tm+mt
 source-wordcount: '2802'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -130,7 +130,7 @@ Adobe Campaign은 배달 실패 유형 및 오류 메시지 자격 조건( [바�
 * **하드 오류**: 해당 이메일 주소가 즉시 격리됩니다.
 * **소프트 오류**: 소프트 오류의 경우 주소가 즉시 격리되지는 않지만, 오류 카운터가 증가합니다. 자세한 내용은 [소프트 오류 관리를 참조하십시오](#soft-error-management).
 
-If a user qualifies an email as a spam ([Feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop)), the message is automatically redirected towards a technical mailbox managed by Adobe. 
+If a user qualifies an email as a spam ([Feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop)), the message is automatically redirected towards a technical mailbox managed by Adobe. 그러면 사용자의 이메일 주소가 자동으로 격리되도록 전송됩니다.
 
 격리된 주소 목록에서 선택한 주소가 격리된 **[!UICONTROL Error reason]** 이유를 나타내는 필드가 표시됩니다. Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
 
@@ -157,7 +157,7 @@ If a user qualifies an email as a spam ([Feedback loop](../../delivery/using/tec
 **iOS의 경우 - 이진 커넥터**
 
 >[!NOTE]
-Campaign 20.3 릴리스를 시작하는 경우 iOS 레거시 바이너리 커넥터는 더 이상 사용되지 않습니다. 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+Campaign 20.3 릴리스부터 iOS 레거시 바이너리 커넥터는 사용되지 않습니다. 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)
 
 각 알림에 대해 Adobe Campaign은 APNs 서버로부터 동기 및 비동기 오류를 수신합니다. 다음 동기 오류에 대해 Adobe Campaign은 소프트 오류를 생성합니다.
 
