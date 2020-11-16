@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '3932'
+source-wordcount: '3497'
 ht-degree: 98%
 
 ---
@@ -342,7 +342,7 @@ Adobe Campaign과 Adobe 실시간 고객 데이터 Platform 간의 통합이 이
 
 ## 2019년 10월 {#october-2019}
 
-Campaign Standard 및 Campaign Classic에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign Standard 및 Campaign Classic에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
 GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCPA를 포함한 개인 정보 관리 문서입니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)
 
@@ -384,29 +384,29 @@ Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이
 
 &#39;Campaign Classic에서 사용하지 않거나 제거된 기능&#39; 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/deprecated-and-removed-features.html)
 
-서버 구성 파일에 대한 설명이 설치 가이드에 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_The_server_configuration_file.html)
+서버 구성 파일에 대한 설명이 설치 가이드에 추가되었습니다. [자세한 내용](../../installation/using/the-server-configuration-file.md)
 
-호스팅 및 하이브리드 모델의 설치 및 구성 단계를 설명하는 섹션이 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Hybrid_and_Hosted_models_Introduction.html)
+호스팅 및 하이브리드 모델의 설치 및 구성 단계를 설명하는 섹션이 추가되었습니다. [자세한 내용](../../installation/using/hosting-models.md)
 
-Campaign 서버 제거 단계를 설명하는 섹션이 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_Uninstalling_Campaign.html)
+Campaign 서버 제거 단계를 설명하는 섹션이 추가되었습니다. [자세한 내용](../../installation/using/uninstalling-campaign.md)
 
-[보안](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html),[게재 기능](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 및 [개인 정보](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html) 시작 가이드가 업데이트되었습니다.
+[보안](https://helpx.adobe.com/kr/campaign/kb/acc-security.html),[게재 기능](../../delivery/using/deliverability-key-points.md) 및 [개인 정보](../../platform/using/privacy-management.md) 시작 가이드가 업데이트되었습니다.
 
-제품 변경 사항을 반영하도록 프로세스 전 워크플로우 옵션에 대한 설명이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Action_activities.html#Data_loading__file_)
+제품 변경 사항을 반영하도록 프로세스 전 워크플로우 옵션에 대한 설명이 업데이트되었습니다. [자세한 내용](../../workflow/using/data-loading--file-.md)
 
-Marketing Cloud Trigger 기술 정보가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/triggers-and-campaign.html)
+Marketing Cloud Trigger 기술 정보가 업데이트되었습니다. [자세한 내용](../../integrations/using/about-triggers.md)
 
-오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
-트랜잭션 메시지을 위한 SOAP 인증 방법에 대한 자세한 내용을 추가했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/MCE_Introduction_Event_description.html)
+트랜잭션 메시지을 위한 SOAP 인증 방법에 대한 자세한 내용을 추가했습니다. [자세한 내용](../../message-center/using/event-description.md)
 
-Apache 구성 단계가 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Installing_Campaign_in_Linux__Integration_into_a_Web_server.html#Configuring_Apache_web_server_in_RHEL)
+Apache 구성 단계가 업데이트되었습니다. [자세한 내용](../../installation/using/integration-into-a-web-server-for-linux.md)
 
-Campaign Standard 및 Classic의 엔드포인트 목록을 포함한 새 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-endpoints.html)
+Campaign Standard 및 Classic의 엔드포인트 목록을 포함한 새 페이지가 추가되었습니다. [자세한 내용](../../installation/using/campaign-network-endpoints.md)
 
-데이터 패키지 모범 사례 문서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/data-package-best-practices.html)
+데이터 패키지 모범 사례 문서가 업데이트되었습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md)
 
-오퍼 관리 설명서가 모범 사례를 나열하는 새 섹션으로 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/ITA_Interaction_Overview_Interaction_best_practices.html)
+오퍼 관리 설명서가 모범 사례를 나열하는 새 섹션으로 업데이트되었습니다. [자세한 내용](../../interaction/using/interaction-best-practices.md)
 
 Adobe Campaign Classic에서 오퍼 카탈로그를 사용하는 방법에 대한 새 기술 자료 문서가 만들어졌습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/offer-best-practices.html)
 
@@ -414,30 +414,30 @@ Adobe Campaign Classic에서 오퍼 카탈로그를 사용하는 방법에 대�
 
 [Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스](../../installation/using/capability-matrix.md) 페이지가 이메일 BCC와 관련된 정보로 업데이트되었습니다.
 
-템플릿 게시에 대한 메모로 트랜잭션 메시지 설명서를 업데이트했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
+템플릿 게시에 대한 메모로 트랜잭션 메시지 설명서를 업데이트했습니다. [자세한 내용](../../message-center/using/template-publication.md)
 
-처리되지 않은 바운스 메일 섹션이 전달 주소 및 오류 필드의 주소에 대한 자세한 정보로 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Initial_configuration_Deploying_an_instance.html#Unprocessed_bounce_mails)
+처리되지 않은 바운스 메일 섹션이 전달 주소 및 오류 필드의 주소에 대한 자세한 정보로 업데이트되었습니다. [자세한 내용](../../installation/using/deploying-an-instance.md)
 
-워크플로우 계획 모범 사례에 대한 새 섹션이 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Workflow_best_practices.html#Execution_and_performance)
+워크플로우 계획 모범 사례에 대한 새 섹션이 추가되었습니다. [자세한 내용](../../workflow/using/workflow-best-practices.md)
 
 캠페인 옵션 목록에 XtkSecurity_Restrict_EditXML 및 NmsOperation_OperationMgtDebug 두 개의 새 옵션이 추가되었습니다.
-[자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_Configuring_Campaign_options.html)
+[자세한 내용](../../installation/using/configuring-campaign-options.md)
 
 Campaign Classic에서 사용할 수 있는 다른 외부 계정 및 이를 구성하는 방법에 대한 정보가 추가되었습니다.
-[자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html)
+[자세한 내용](../../installation/using/external-accounts.md)
 
 인터페이스 변경 사항을 반영하도록 Analytics 데이터 커넥터 섹션이 업데이트되었습니다.
-[자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/PTF_Connectors_Adobe_Analytics_Data_Connector.html)
+[자세한 내용](../../platform/using/adobe-analytics-data-connector.md)
 
 청구 보고서에 정보가 추가되었습니다.
-[자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Monitoring_processes.html#Billing_report)
+[자세한 내용](../../production/using/monitoring-processes.md)
 
 공유 대상 통합에 대한 설명서가 업데이트되었습니다.
-[자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/ITG_Audience_sharing_Configuring_shared_audiences_integration_in_Adobe_Campaign.html)
+[자세한 내용](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
 다음 기술 정보가 업데이트되었습니다. [SMS 커넥터 프로토콜 및 설정](https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html) 및 [시퀀스 자동 생성](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
-기술 워크플로우 섹션이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Technical_workflows_About_technical_workflows.html)
+기술 워크플로우 섹션이 업데이트되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
 
 Campaign 도메인 이름 설정 절차가 개선되고 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html)
 
@@ -445,40 +445,38 @@ Campaign 도메인 이름 설정 절차가 개선되고 업데이트되었습니
 
 Campaign 하드웨어 크기 조정 가이드가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/hardware-sizing-guide.html)
 
-Teradata 외부 계정에 대한 쿼리 밴딩에 정보가 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#External_database_external_account)
+Teradata 외부 계정에 대한 쿼리 밴딩에 정보가 추가되었습니다. [자세한 내용](../../installation/using/external-accounts.md)
 
 ## 2019년 1월{#release-doc-16-01-2019}
 
-Marketing Cloud Trigger 기술 정보가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/triggers-and-campaign.html)
+Marketing Cloud Trigger 기술 정보가 업데이트되었습니다. [자세한 내용](../../integrations/using/about-triggers.md)
 
-오퍼 승인 섹션에 &quot;콘텐츠 승인됨&quot; 언급이 모든 오퍼가 활성화/승인되었는지 여부에 상관없이 콘텐츠 승인 프로세스가 달성되었음을 나타내는 메모가 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/ITA_Managing_an_offer_catalog_Approving_and_activating_an_offer.html#Approving_offer_content)
+오퍼 승인 섹션에 &quot;콘텐츠 승인됨&quot; 언급이 모든 오퍼가 활성화/승인되었는지 여부에 상관없이 콘텐츠 승인 프로세스가 달성되었음을 나타내는 메모가 추가되었습니다. [자세한 내용](../../interaction/using/offer-catalog-overview.md)
 
-설치 가이드에 새 섹션이 추가되어 관리 / 플랫폼 / 옵션 노드의 옵션을 나열합니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_Configuring_Campaign_options.html)
+설치 가이드에 새 섹션이 추가되어 관리 / 플랫폼 / 옵션 노드의 옵션을 나열합니다. [자세한 내용](../../installation/using/configuring-campaign-options.md)
 
-메일링 목록을 보호하기 위해 시드 주소의 사용에 대한 정보가 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Using_seed_addresses_About_seed_addresses.html)
+메일링 목록을 보호하기 위해 시드 주소의 사용에 대한 정보가 추가되었습니다. [자세한 내용](../../delivery/using/creating-seed-addresses.md)
 
 게재를 만들고 전송할 때 주요 단계는 필요한 경우 다양한 채널을 참조하여 새 섹션으로 다시 그룹화되었습니다. [자세한 내용](../../delivery/using/steps-about-delivery-creation-steps.md)
 
-[전자 메일 보관](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html) 섹션이 명확한 정보로 이동, 재구성 및 개선되었습니다.
+[전자 메일 보관](../../installation/using/email-archiving.md) 섹션이 명확한 정보로 이동, 재구성 및 개선되었습니다.
 
-* 연결당 전자 메일 및 BCC 전송 IP 매개 변수에 대한 모범 사례가 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Best_practices)
+* 연결당 전자 메일 및 BCC 전송 IP 매개 변수에 대한 모범 사례가 추가되었습니다.
 
-* 이전 빌드(Adobe Campaign 17.2 이전 - 빌드 8795)로 전자 메일 보관을 이미 사용하고 있는 경우 새 BCC(전자 메일 보관 시스템)로 업그레이드하는 단계를 업데이트했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Updated_email_archiving_system__BCC_)
+* 이전 빌드(Adobe Campaign 17.2 이전 - 빌드 8795)로 전자 메일 보관을 이미 사용하고 있는 경우 새 BCC(전자 메일 보관 시스템)로 업그레이드하는 단계를 업데이트했습니다. 
 
-워크플로우 자동화 가이드에 운영자에게 개인화된 경고 보내기의 사용 사례가 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Sending_personalized_alerts_to_operators.html)
+워크플로우 자동화 가이드에 운영자에게 개인화된 경고 보내기의 사용 사례가 추가되었습니다. [자세한 내용](../../workflow/using/sending-personalized-alerts-to-operators.md)
 
-&quot;새 버전으로 마이그레이션&quot; 섹션이 업데이트되었습니다. 이제 Adobe Campaign v6.11로 더 이상 마이그레이션할 수 없으므로 설명서에는 모든 이전 버전에서 Adobe Campaign Classic v7으로 마이그레이션하는 단계만 자세히 설명되어 있습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/MIG_Migration_overview_About_migration.html)
+&quot;새 버전으로 마이그레이션&quot; 섹션이 업데이트되었습니다. 이제 Adobe Campaign v6.11로 더 이상 마이그레이션할 수 없으므로 설명서에는 모든 이전 버전에서 Adobe Campaign Classic v7으로 마이그레이션하는 단계만 자세히 설명되어 있습니다. [자세한 내용](../../migration/using/about-migration.md)
 
-&quot;게재 임시 실패 후 다시 시도&quot; 섹션이 명확해졌습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Monitoring_deliveries_Understanding_delivery_failures.html#Retries_after_a_delivery_temporary_failure)
+&quot;게재 임시 실패 후 다시 시도&quot; 섹션이 명확해졌습니다. [자세한 내용](../../delivery/using/understanding-delivery-failures.md)
 
-&quot;디지털 콘텐츠 편집기&quot; 섹션에 대한 링크가 &quot;전자 메일 콘텐츠 정의&quot; 섹션에 추가되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_emails_Defining_the_email_content.html#Message_content)
+&quot;디지털 콘텐츠 편집기&quot; 섹션에 대한 링크가 &quot;전자 메일 콘텐츠 정의&quot; 섹션에 추가되었습니다. [자세한 내용](../../delivery/using/defining-the-email-content.md)
 
-&quot;트랜잭션 메시지 아키텍처&quot; 섹션이 제어 및 실행 인스턴스를 동일한 컴퓨터에 설치할 수 없다는 경고 메시지와 함께 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/MCE_Introduction_Transactional_messaging_architecture.html)
+&quot;트랜잭션 메시지 아키텍처&quot; 섹션이 제어 및 실행 인스턴스를 동일한 컴퓨터에 설치할 수 없다는 경고 메시지와 함께 업데이트되었습니다. [자세한 내용](../../message-center/using/transactional-messaging-architecture.md)
 
-이러한 빌드에 대한 Workflow HeatMap 패키지 설치 방법에 대한 기술 문서에 대한 링크를 포함하여, &quot;워크플로우 모니터링&quot; 섹션이 8700과 8977(18.10) 사이의 빌드에 대한 메모로 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Monitoring_processes.html#About_the_Workflow_HeatMap)
+이러한 빌드에 대한 Workflow HeatMap 패키지 설치 방법에 대한 기술 문서에 대한 링크를 포함하여, &quot;워크플로우 모니터링&quot; 섹션이 8700과 8977(18.10) 사이의 빌드에 대한 메모로 업데이트되었습니다. [자세한 내용](../../workflow/using/heatmap.md)
 
-워크플로우에서 데이터 보강 활동을 사용하여 사용자 지정 필드가 있는 전자 메일을 보내는 방법에 대한 사용 사례를 추가했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Email_enrichment_with_custom_date_fields.html)
+워크플로우에서 데이터 보강 활동을 사용하여 사용자 지정 필드가 있는 전자 메일을 보내는 방법에 대한 사용 사례를 추가했습니다. [자세한 내용](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 
 기능 비디오가 [여기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/overview.html)로 이동되었습니다.
-
-[Teradata](https://helpx.adobe.com/kr/campaign/kb/campaign_fda_teradata.html)와 [MySQL 5.7](https://helpx.adobe.com/kr/campaign/kb/campaign_fda_mysql.html) 에 두 가지 기술 정보가 추가되었습니다.
