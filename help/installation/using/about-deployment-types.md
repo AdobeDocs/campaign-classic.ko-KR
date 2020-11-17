@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 298d9b9f-220f-4862-bc4c-1ad7f8d51049
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 12bb3b4ba833d2c265350167be61bd916e8b3fc8
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 8%
@@ -28,9 +28,7 @@ Adobe Campaign의 모듈식 설계로 단일 시스템의 모든 구성 요소(�
 
 >[!NOTE]
 >
->기본 설치 구성 단계는
->Adobe에서 호스팅하는 배포를 위한 Adobe 예를 들어
->서버 및 인스턴스 구성 파일을 구성합니다.
+>주 설치 구성 단계는 Adobe에서 호스팅하는 배포를 위한 Adobe에서만 수행할 수 있으며, 서버 및 인스턴스 구성 파일을 구성할 수 있습니다.
 >
 >배포 간의 주요 차이점에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 호스팅 및 온-프레미스 배포의 [기능 차이점을 참조하십시오](../../installation/using/capability-matrix.md).
 
