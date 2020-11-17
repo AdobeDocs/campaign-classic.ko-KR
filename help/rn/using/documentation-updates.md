@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Classic Documentation Updates
-description: This page lists all the new features and documentation updates for each release of Adobe Campaign Classic.
+description: This page lists all the new features and documentation updates for each release of Adobe Campaign Classic
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 544fa260f9b35239a8fa8fbc141463a7b1898026
+source-git-commit: 58b7070ad765ba072b9c82e75ab1100f8cb38f3a
 workflow-type: tm+mt
-source-wordcount: '3528'
-ht-degree: 97%
+source-wordcount: '3568'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +25,12 @@ ht-degree: 97%
 또한 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)에서 더 많은 업데이트를 확인할 수 있습니다.
 
 ## 2020년 11월 {#nov-2020}
+
+캠페인 데이터 모델 개요가 개선되고 재구성되었습니다. [자세한 내용](../../configuration/using/about-data-model.md)
+
+외부 계정 구성이 [이 섹션으로 이동되었습니다](../../installation/using/external-accounts.md).
+
+각 외부 데이터베이스 구성에 대한 세부 사항과 함께 Campaign Federated Data Access(FDA) 문서가 개선되었으며 [이 섹션으로 이동되었습니다](../../installation/using/about-fda.md).
 
 [Campaign 20.2.3 릴리스는](../../rn/using/release--20-2.md#release-20-2-3-build-9182) GA(일반 가용성)로 이동되었습니다.
 
