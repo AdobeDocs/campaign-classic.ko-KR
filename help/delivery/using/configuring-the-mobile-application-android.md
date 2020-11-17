@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9844616f417608051bbff2593d6124d8ff83008c
+source-git-commit: dfa3938433fcd67eb8f38269e82ee1102eda41ce
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 1%
+source-wordcount: '1593'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,14 @@ ht-degree: 1%
 >
 >iOS용 앱을 구성하는 방법과 iOS용 배달을 만드는 방법에 대해 알아보려면 이 [섹션을 참조하십시오](../../delivery/using/configuring-the-mobile-application.md).
 
+주요 단계는 다음과 같습니다.
+
+1. [Android 외부 계정 구성](#configuring-external-account-android)
+1. [Android 서비스 구성](#configuring-android-service)
+1. [Campaign에서 모바일 앱 만들기](#creating-android-app)
+1. [추가 데이터로 앱 스키마 확장](#extend-subscription-schema)
+
+그런 다음 Android [의 리치 알림을 만들 수 있습니다](#creating-android-delivery).
 
 ## Android 외부 계정 구성 {#configuring-external-account-android}
 
@@ -94,23 +102,17 @@ Android의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
    >
    > 문자열 값 **[!UICONTROL Integration key]** 으로 사용자 지정이 가능하지만 SDK에 지정된 값과 동일해야 합니다.
 
-1. 다음 중 하나를 선택합니다 **[!UICONTROL API version]**.
-   * HTTP. For more information refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
-   * HTTPV1. For more information refer to this [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+1. **[!UICONTROL API version]**&#x200B;을(를) 선택합니다.
 
-1. Fill in the **[!UICONTROL Firebase Cloud Messaging settings for the Android connection]** fields.
+   * HTTPV1. 구성은 이 [섹션에 자세히 설명되어 있습니다](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+   * HTTP(레거시). 구성은 이 [섹션에 자세히 설명되어 있습니다](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
+
+
+1. Fill in the **[!UICONTROL Firebase Cloud Messaging the Android connection settings]** fields.
 
 1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 이제 Campaign Classic에서 Android 응용 프로그램을 사용할 준비가 되었습니다.
 
 기본적으로 Adobe Campaign은 테이블의 **[!UICONTROL User identifier]** (@userKey) 필드에 키를 **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** 저장합니다. 이 키를 사용하면 구독을 수신자에게 연결할 수 있습니다. 추가 데이터(예: 복잡한 조정 키)를 수집하려면 다음 구성을 적용해야 합니다.
-
-1. 스키마의 확장 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 을 만들고 새 필드를 정의합니다.
-
-1. 탭에서 매핑을 **[!UICONTROL Subscription parameters]** 정의합니다.
-
-   >[!CAUTION]
-   >
-   >탭의 구성 이름이 모바일 애플리케이션 코드의 구성 이름과 **[!UICONTROL Subscription parameters]** 동일한지 확인합니다. 모바일 애플리케이션에 [캠페인 SDK 통합 섹션을 참조하십시오](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) .
 
 ### API 버전 선택{#select-api-version}
 
@@ -126,7 +128,7 @@ HTTP v1 API 버전을 구성하려면 아래 단계를 따르십시오.
 
 1. JSON 키 파일 **[!UICONTROL Load project json file to extract projet details...]** 을 직접 로드하려면 클릭하십시오. JSON 파일을 추출하는 방법에 대한 자세한 내용은 이 [페이지를 참조하십시오](https://firebase.google.com/docs/admin/setup#initialize-sdk).
 
-1. 다음 세부 사항을 수동으로 입력할 수도 있습니다.
+   다음 세부 사항을 수동으로 입력할 수도 있습니다.
    * **[!UICONTROL Project Id]**
    * **[!UICONTROL Private Key]**
    * **[!UICONTROL Client Email]**
@@ -179,6 +181,19 @@ HTTP(기존) API 버전을 구성하려면 아래 단계를 따르십시오.
 | 알림 메시지 | title, body, android_channel_id, icon, sound, tag, color, click_action <br> | dryRun |
 
 <br>
+
+## appsubscriptionRcp 스키마 확장 {#extend-subscription-schema}
+
+Campaign 데이터베이스에 앱의 매개 변수를 저장할 새 **추가** 필드를 정의하려면 appsubscriptionRcp를 확장해야 합니다. 이러한 필드는 개인화에 사용됩니다. 방법은 다음과 같습니다.
+
+1. 스키마의 확장 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 을 만들고 새 필드를 정의합니다. 이 페이지의 스키마 확장명에 대한 자세한 [내용](../../configuration/using/about-schema-edition.md)
+
+1. 탭에서 매핑을 **[!UICONTROL Subscription parameters]** 정의합니다.
+
+   >[!CAUTION]
+   >
+   >탭의 구성 이름이 모바일 애플리케이션 코드의 구성 이름과 **[!UICONTROL Subscription parameters]** 동일한지 확인합니다. 모바일 애플리케이션에 [캠페인 SDK 통합 섹션을 참조하십시오](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) .
+
 
 ## Android 리치 알림 만들기 {#creating-android-delivery}
 
