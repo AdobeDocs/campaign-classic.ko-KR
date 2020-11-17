@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 translation-type: tm+mt
-source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
+source-git-commit: 6c5684ad4cd1a4d2bb4f39d9e531ebd5e72d4824
 workflow-type: tm+mt
 source-wordcount: '2802'
 ht-degree: 15%
@@ -186,7 +186,7 @@ HTTP/V2 프로토콜을 사용하면 각 푸시 전달에 대한 직접적인 �
   </tr> 
   <tr> 
    <td> 대상 디바이스 전원이 켜져 있음<br /> </td> 
-   <td> 확인<br /> </td> 
+   <td> OK<br /> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -194,7 +194,7 @@ HTTP/V2 프로토콜을 사용하면 각 푸시 전달에 대한 직접적인 �
   </tr> 
   <tr> 
    <td> 대상 장치 전원이 꺼짐<br /> </td> 
-   <td> 확인<br /> </td> 
+   <td> OK<br /> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -202,7 +202,7 @@ HTTP/V2 프로토콜을 사용하면 각 푸시 전달에 대한 직접적인 �
   </tr> 
   <tr> 
    <td> 사용자가 응용 프로그램에 대한 알림을 비활성화합니다.<br /> </td> 
-   <td> 확인<br /> </td> 
+   <td> OK<br /> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
