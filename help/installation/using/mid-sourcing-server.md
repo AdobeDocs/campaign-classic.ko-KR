@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 34ee3d99-4ffb-4279-b994-5ab7abc7cf06
 translation-type: tm+mt
-source-git-commit: 270c86a8a15ebe38907be258aed9d245d2a49b6d
+source-git-commit: 544fa260f9b35239a8fa8fbc141463a7b1898026
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 0%
 &quot;중간 소싱&quot; 아키텍처는 [중간 소싱 배포에 제공됩니다](../../installation/using/mid-sourcing-deployment.md).
 
 중간 소싱 서버를 설치하면 일반적인 방식으로 서버를 설치하는 것과 동일한 프로세스를 따릅니다(표준 구성 참조). 자체 데이터베이스가 있는 독립 인스턴스로서 배달을 실행하는 데 사용할 수 있습니다. 간단히 말해, 이 라이브러리에는 중간 소싱 모드에서 원격 인스턴스가 이 인스턴스를 통해 납품을 실행할 수 있는 추가 구성이 포함되어 있습니다.
+
+>[!CAUTION]
+>
+>mid-소싱 서버가 설정되고 [동기화 워크플로우가](../../workflow/using/transfer-to-mid-sourcing.md) 처음 실행되면 mid-소싱 외부 계정의 내부 이름을 업데이트하지 않도록 하십시오.
 
 ## 인스턴스 설치 및 구성 단계 {#steps-for-installing-and-configuring-an-instance}
 
