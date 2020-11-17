@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 544fa260f9b35239a8fa8fbc141463a7b1898026
 workflow-type: tm+mt
-source-wordcount: '3497'
-ht-degree: 98%
+source-wordcount: '3528'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 98%
 
 [Campaign 20.2.3 릴리스는](../../rn/using/release--20-2.md#release-20-2-3-build-9182) GA(일반 가용성)로 이동되었습니다.
 
-개인 정보 섹션이 두 개의 새로운 섹션으로 이동 및 향상되었습니다. [개인 정보 관리](../../platform/using/privacy-management.md) 및 [개인 정보 요청](../../platform/using/privacy-requests.md)관리
+개인 정보 섹션이 두 개의 새 페이지로 이동되고 강화되었습니다. [개인 정보 관리](../../platform/using/privacy-management.md) 및 [개인 정보 요청](../../platform/using/privacy-requests.md)관리
+
+서버가 설정되면 외부 계정의 내부 이름을 업데이트해서는 안 된다는 점을 지정하기 위해 mid-소싱 서버 구성 페이지에 메모가 추가되었습니다. [자세한 내용](../../installation/using/mid-sourcing-server.md)
 
 ## 2020년 10월 {#oct-2020}
 
