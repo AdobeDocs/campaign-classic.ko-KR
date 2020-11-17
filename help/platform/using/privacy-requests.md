@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: c2c7398c27f1bc7edf9adb0fc07409d2e525b168
+source-git-commit: e0ca252aceb0f2abca4a1324c5e4ece038927533
 workflow-type: tm+mt
-source-wordcount: '2443'
-ht-degree: 1%
+source-wordcount: '2444'
+ht-degree: 0%
 
 ---
 
@@ -82,7 +82,7 @@ Adobe Campaign은 Adobe Campaign에 저장된 데이터에 대한 개인 정보 
 
 바로 사용할 수 있는 세 개의 네임스페이스:이메일, 전화 및 휴대폰 등 다른 네임스페이스(예: 수신자 사용자 정의 필드)가 필요한 경우 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** >에서 새 네임스페이스를 만들 수 **[!UICONTROL Namespaces]**&#x200B;있습니다.
 
-## 개인 정보 보호 요청 만들기 {#create-privacy-request-ui}
+## Creating a Privacy request {#create-privacy-request-ui}
 
 이 **Adobe Campaign 인터페이스를** 사용하면 개인정보 보호 요청을 만들고 이러한 요청을 추적할 수 있습니다. 새 개인 정보 보호 요청을 만들려면 다음 지침을 따르십시오.
 
@@ -129,7 +129,7 @@ Adobe Campaign은 삭제 또는 액세스 개인 정보 요청을 수행할 때 
 >프로필 삭제 워크플로우를 사용하여 개인 정보 일괄 처리 요청을 수행하는 경우 다음 사항을 고려하십시오.
 >* 워크플로우를 통한 프로필 삭제는 하위 테이블을 처리하지 않습니다.
 >* 모든 하위 테이블에 대한 삭제를 처리해야 합니다.
->* Adobe은 개인 정보 액세스 테이블에서 삭제할 라인을 추가하고 삭제를 수행하는 ETL 워크플로우를 만들 것을 **[!UICONTROL Delete privacy requests data]** 권장합니다. 성능상의 이유로 삭제할 프로필은 하루에 200개로 제한하는 것이 좋습니다.
+>* Adobe은 개인 정보 액세스 테이블에서 삭제할 라인을 추가하고 워크플로우가 삭제를 수행하도록 하는 ETL 워크플로우를 만드는 **[!UICONTROL Delete privacy requests data]** 것이 좋습니다. 성능상의 이유로 삭제할 프로필은 하루에 200개로 제한하는 것이 좋습니다.
 
 
 ### 개인 정보 요청 상태 {#privacy-request-statuses}
@@ -443,14 +443,14 @@ Adobe Campaign이 제공하는 [동의 관리](../../platform/using/privacy-mana
 
 그런 다음 옵트아웃한 프로필의 개인 정보를 제3자에게 팔지 않도록 해야 합니다.
 
-옵트아웃 상태를 변경하려면 **[!UICONTROL Profiles and Target]** > **[!UICONTROL Recipients]** 으로 이동하여 수신자를 선택합니다. 탭 **[!UICONTROL General]** 에 이전 섹션에 구성된 필드가 표시됩니다.
+1. 옵트아웃 상태를 변경하려면 **[!UICONTROL Profiles and Target]** > **[!UICONTROL Recipients]** 으로 이동하여 수신자를 선택합니다. 탭 **[!UICONTROL General]** 에 이전 섹션에 구성된 필드가 표시됩니다.
 
-![](assets/privacy-ccpa-5.png)
+   ![](assets/privacy-ccpa-5.png)
 
-받는 사람 목록을 구성하여 게시물 열을 표시합니다. 목록 구성 방법을 알아보려면 [자세한 설명서를 참조하십시오](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+1. 받는 사람 목록을 구성하여 게시물 열을 표시합니다. 목록 구성 방법을 알아보려면 [자세한 설명서를 참조하십시오](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
-![](assets/privacy-ccpa-6.png)
+   ![](assets/privacy-ccpa-6.png)
 
-이 열을 클릭하여 옵트아웃 정보에 따라 수신자를 정렬할 수 있습니다. 옵트아웃한 수신자만 표시하는 필터를 만들 수도 있습니다. For more on creating filters, see [this section](../../platform/using/creating-filters.md).
+1. 이 열을 클릭하여 옵트아웃 정보에 따라 수신자를 정렬할 수 있습니다. 옵트아웃한 수신자만 표시하는 필터를 만들 수도 있습니다. For more on creating filters, see [this section](../../platform/using/creating-filters.md).
 
-![](assets/privacy-ccpa-7.png)
+   ![](assets/privacy-ccpa-7.png)
