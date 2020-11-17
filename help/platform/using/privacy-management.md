@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: c2c7398c27f1bc7edf9adb0fc07409d2e525b168
+source-git-commit: 9240b6e194dbc26fbf37a9ecf88a1ae03f9e7a75
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '897'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Adobe Campaign은 개인 정보 보호 규정(GDPR, CCPA, PDPA, LGPD 등)을 준
 
 * 이 섹션에서는 개인정보 보호 관리의 정의와 액세스 권한 및 [잊혀질 권리를 관리하기 위해 Adobe Campaign이 제공하는 기능에 대한 일반적인 정보를 제공합니다](#right-access-forgotten).
 
-* 또한 개인 정보([동의, 데이터 유지 및 사용자 역할](#consent-retention-roles))를 관리하는 중요한 기능에 대한 정보와 Adobe Campaign 사용 시 개인 정보 보호 규정을 준수하는 데 도움이 되는 모범 사례에 대한 정보도 포함되어 있습니다.
+* 또한 개인 정보([동의, 유지 및 역할](#consent-retention-roles))를 관리하는 중요한 기능에 대한 정보와 Adobe Campaign 사용 시 개인 정보 보호 규정을 준수하는 데 유용한 모범 사례에 대한 정보도 포함되어 있습니다.
 
 ## 개인 정보 관리에 관한 규정 {#privacy-management-regulations}
 
@@ -74,7 +74,7 @@ Adobe Campaign은 초기부터 일부 동의 내용을 관리하기 위한 기�
 
 동의 관리에 대한 자세한 내용은 [자세한 설명서를 참조하십시오](../../delivery/using/managing-subscriptions.md).
 
-Adobe Campaign이 제공하는 동의 관리 도구 외에도, 개인 정보 판매를 고객이 선택 해제했는지 여부를 추적할 수 있습니다. [이 섹션](../../platform/using/privacy-requests.md#sale-of-personal-information)을 참조하십시오.
+Adobe Campaign이 제공하는 동의 관리 도구 외에도, 개인 정보 판매를 고객이 선택 해제했는지 여부를 추적할 수 있습니다. [이 섹션](../../platform/using/privacy-requests.md##sale-of-personal-information-ccpa)을 참조하십시오.
 
 ### 데이터 유지 {#data-retention}
 
