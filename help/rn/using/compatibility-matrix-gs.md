@@ -10,15 +10,15 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7p
 translation-type: tm+mt
-source-git-commit: e615b2420d126cd42ed52257491282b36975f9ff
+source-git-commit: 7f8b0458f947ae1863c2afb6e67cabf2d23200e1
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
 
-# Gold Standard 호환성 표{#compatibility-matrix-gs}
+# Gold Standard Compatibility matrix{#compatibility-matrix-gs}
 
 이 문서에서는 **Adobe Campaign Classic Gold Standard** 19.1 빌드에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
 
@@ -165,7 +165,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 >
 >PostgreSQL은 호스팅 환경을 위한 기본 데이터베이스 서버입니다.
 
-## CRM connectors{#CRMconnectors-gs}
+## CRM 커넥터{#CRMconnectors-gs}
 
 <table>
 <tbody>
@@ -190,8 +190,8 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>MS Dynamics</td>
 <td>
-<p>Soap API - 온-프레미스:2007년, 2015년, 2016년</p>
-<p>Soap API - 온라인:2015년, 2016년</p>
+<p>Soap API - 온-프레미스: 2007년, 2015년, 2016년</p>
+<p>Soap API - 온라인: 2015년, 2016년</p>
 <p>웹 API - 온-프레미스 및 온라인:2016년 365월 업데이트 1</p>
 </td>
 </tr>
@@ -308,8 +308,8 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9 - 12</p>
-<p>모바일 SDK 빌드 1.0.25와 32비트 및 64비트 버전 호환</p>
+<p>iOS 9 - 14</p>
+<p>모바일 SDK 빌드 1.0.26과 32비트 및 64비트 버전 호환</p>
 </td>
 </tr>
 </tbody>
