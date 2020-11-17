@@ -3,7 +3,7 @@ keywords: Campaign Classic;home;popular topics
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 75ab345e3b9360229ecc3ba9529a33e320228fa0
+source-git-commit: 30eaabba8962c518c734cc4e9ad27065cfe9d467
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 70%
@@ -17,9 +17,9 @@ ht-degree: 70%
 
 ## 새로운 기능
 
-* **[Adobe Experience Cloud 트리거 통합](integrations/using/configuring-adobe-io.md)**<br/> 업데이트 이전 oAuth 인증 서비스가 사용 종료되었습니다. Adobe I/O로 마이그레이션하는 방법을 알아봅니다.
+* **[Adobe Experience Cloud 트리거 통합](integrations/using/configuring-adobe-io.md)**<br/> 업데이트 이전 oAuth 인증 서비스가 사용 종료되었습니다. Adobe I/O로 마이그레이션하는 방법 살펴보기
 
-* **[HTTP/2 기반 APNs 공급자 API로 이동](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)**<br/> 기존 바이너리 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법을 알아봅니다.
+* **[HTTP/2 기반 APNs 공급자 API로 이동 레거시 바이너리 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법 학습](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)**<br/>
 
 * **[메시지에 이모티콘 추가](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/> 이제 메시지와 줄에다 이모티콘을 삽입할 수 있습니다
 
