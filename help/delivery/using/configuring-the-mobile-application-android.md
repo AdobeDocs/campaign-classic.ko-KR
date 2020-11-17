@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dfa3938433fcd67eb8f38269e82ee1102eda41ce
+source-git-commit: a69c9132a776eac5591bbbac0c89d6374047bb17
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 2%
@@ -102,11 +102,7 @@ Android의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
    >
    > 문자열 값 **[!UICONTROL Integration key]** 으로 사용자 지정이 가능하지만 SDK에 지정된 값과 동일해야 합니다.
 
-1. **[!UICONTROL API version]**&#x200B;을(를) 선택합니다.
-
-   * HTTPV1. 구성은 이 [섹션에 자세히 설명되어 있습니다](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
-   * HTTP(레거시). 구성은 이 [섹션에 자세히 설명되어 있습니다](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
-
+1. 다음을 **[!UICONTROL API version]**&#x200B;선택합니다.HTTP v1 또는 HTTP(레거시). 이러한 구성은 [이 섹션에 자세히 설명되어 있습니다.](#select-api-version)
 
 1. Fill in the **[!UICONTROL Firebase Cloud Messaging the Android connection settings]** fields.
 
@@ -118,9 +114,10 @@ Android의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
 
 서비스 및 새 모바일 애플리케이션을 만든 후 선택한 API 버전에 따라 모바일 애플리케이션을 구성해야 합니다.
 
-서비스 및 모바일 애플리케이션 제작에 대한 자세한 내용은 이 [섹션을 참조하십시오.](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service)
+* **HTTP v1** 구성은 이 [섹션에 자세히 설명되어 있습니다](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+* **HTTP(기존)** 구성은 이 [섹션에 자세히 설명되어 있습니다](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
 
-#### HTTP v1 API 버전 사용{#android-service-httpv1}
+#### HTTP v1 API 구성{#android-service-httpv1}
 
 HTTP v1 API 버전을 구성하려면 아래 단계를 따르십시오.
 
@@ -157,7 +154,7 @@ HTTP v1 API 버전을 구성하려면 아래 단계를 따르십시오.
 <br>
 <br>
 
-#### HTTP API 버전{#android-service-http}
+#### HTTP(기존) API 구성{#android-service-http}
 
 HTTP(기존) API 버전을 구성하려면 아래 단계를 따르십시오.
 
