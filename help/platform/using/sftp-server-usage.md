@@ -10,21 +10,37 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: f449ccd5-3965-4ab8-b5a9-993f3260aba9
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: ebec481d5a018d06e47c782627e9a9064cb0dd64
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 11%
+source-wordcount: '1086'
+ht-degree: 9%
 
 ---
 
 
 # SFTP 서버 우수 사례 및 문제 해결 {#sftp-server-usage}
 
-## SFTP 서버 우수 사례 {#sftp-server-best-practices}
+## SFTP 서버 전역 추천 {#global-recommendations}
 
-ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe에서 제공하는 호스팅 SFTP 서버에 저장됩니다. 이 SFTP는 파일의 보관 및 삭제를 제어할 수 있는 임시 저장 공간으로 설계되었습니다.
+ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe에서 제공하는 호스팅 SFTP 서버에 저장됩니다. SFTP 서버를 사용할 때는 아래 권장 사항을 따라야 합니다.
 
-올바로 사용되거나 모니터링되지 않으면 이 공간은 서버에서 사용할 수 있는 물리적 공간을 빠르게 채울 수 있으며 이후 업로드 시 파일이 잘릴 수 있습니다. 공간이 포화되면 자동 제거는 SFTP 저장소에서 가장 오래된 파일을 트리거하고 지울 수 있습니다.
+* 암호 만료를 방지하려면 암호 인증 대신 키 기반 인증을 사용하십시오(암호의 유효 기간이 90일). 또한 키 기반 인증을 사용하면 여러 개의 키를 생성할 수 있습니다(예: 여러 엔티티 관리 시). 반면에 암호 인증에서는 관리하는 모든 엔터티와 암호를 공유해야 합니다.
+
+   지원되는 키 형식은 SSH-2 RSA 2048입니다. 키는 PyTTY(Windows) 또는 ssh-keygen(Unix)과 같은 도구를 사용하여 생성할 수 있습니다. 캠페인 서버에 업로드하려면 [Adobe 고객 지원 센터를 통해](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Adobe 지원 팀에 공개 키를 제공해야 합니다.
+
+* 워크플로우뿐만 아니라 SFTP 업로드에서도 일괄 처리를 사용합니다.
+
+* 오류/예외를 처리합니다.
+
+* 기본적으로 만드는 모든 폴더는 식별자에 대해서만 읽기/쓰기 모드에 있습니다. Campaign에서 액세스해야 하는 폴더를 만들 때는 전체 그룹에 대한 읽기/쓰기 권한을 사용하여 폴더를 구성해야 합니다. 그렇지 않으면 보안상의 이유로 동일한 그룹 내의 다른 식별자에서 파일이 실행되므로 워크플로우에서 파일을 만들거나 삭제할 수 없습니다.
+
+* SFTP 연결을 시작하려는 공개 IP를 캠페인 인스턴스의에 허용 목록에 추가하다 추가해야 합니다. Adobe 고객 지원 센터를 통해에 IP 주소허용 목록에 추가하다를 추가할 수 있습니다 [](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
+## 데이터베이스 사용 우수 사례 {#sftp-server-best-practices}
+
+SFTP 서버는 파일의 보존 및 삭제를 제어할 수 있는 임시 저장소 공간으로 설계되었습니다.
+
+올바로 사용되거나 모니터링되지 않으면 이러한 공백은 서버에서 사용할 수 있는 물리적 공간을 빠르게 채울 수 있으며 이후 업로드 시 파일이 잘릴 수 있습니다. 공간이 포화되면 자동 제거는 SFTP 저장소에서 가장 오래된 파일을 트리거하고 지울 수 있습니다.
 
 이러한 문제를 방지하려면 아래 우수 사례를 따르는 것이 좋습니다.
 
@@ -35,21 +51,21 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 >인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 섹션](https://docs.adobe.com/content/help/ko-KR/control-panel/using/faq.html#ims-org-id)에 자세히 나와 있는 단계를 따르십시오 .
 
 * 서버 크기 기능은 라이센스에 따라 다릅니다. 어떠한 경우든, 가능한 최소 데이터를 유지하고 필요한 기간(최대 시간 제한)에 대해서만 데이터를 보관하십시오.
-* 암호 만료를 방지하려면 암호 인증 대신 키 기반 인증을 사용하십시오(암호의 유효 기간이 90일). 또한 키 기반 인증을 사용하면 여러 개의 키를 생성할 수 있습니다(예: 여러 엔티티 관리 시). 반면에 암호 인증에서는 관리하는 모든 엔터티와 암호를 공유해야 합니다.
-
-   지원되는 키 형식은 SSH-2 RSA 2048입니다. 키는 PyTTY(Windows) 또는 ssh-keygen(Unix)과 같은 도구를 사용하여 생성할 수 있습니다. 캠페인 서버에 업로드하려면 [Adobe 고객 지원 센터를 통해](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Adobe 지원 팀에 공개 키를 제공해야 합니다.
 
 * 워크플로우를 사용하여 데이터를 올바르게 삭제합니다(데이터를 사용하는 워크플로우에서 보존을 관리합니다).
-* 워크플로우뿐만 아니라 SFTP 업로드에서도 일괄 처리를 사용합니다.
-* 오류/예외를 처리합니다.
-* 때때로 SFTP에 로그인하여 무엇이 있는지 직접 확인합니다.
-* SFTP 디스크 관리는 주로 사용자의 책임입니다.
-* 기본적으로 만드는 모든 폴더는 식별자에 대해서만 읽기/쓰기 모드에 있습니다. Campaign에서 액세스해야 하는 폴더를 만들 때는 전체 그룹에 대한 읽기/쓰기 권한을 사용하여 폴더를 구성해야 합니다. 그렇지 않으면 보안상의 이유로 동일한 그룹 내의 다른 식별자로 파일이 실행되므로 워크플로우에서 파일을 만들거나 삭제할 수 없습니다.
-* SFTP 연결을 시작하려는 공개 IP를 캠페인 인스턴스의에 허용 목록에 추가하다 추가해야 합니다. Adobe 고객 지원 센터를 통해에 IP 주소허용 목록에 추가하다를 추가할 수 있습니다 [](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
->[!CAUTION]
->
->자체 SFTP 서버를 사용하는 경우 위의 권장 사항을 가능한 한 많이 따라야 합니다.
+* 때때로 SFTP에 로그인하여 무엇이 있는지 직접 확인합니다.
+
+* SFTP 디스크 관리는 주로 사용자의 책임입니다.
+
+## 외부 SFTP 서버 사용 {#external-SFTP-server}
+
+자체 SFTP 서버를 사용하는 경우 위의 권장 사항을 가능한 한 많이 따라야 합니다.
+
+또한 Campaign Classic에서 외부 SFTP 서버에 대한 경로를 지정할 때 경로 구문은 SFTP 서버 운영 체제에 따라 다릅니다.
+
+* SFTP 서버가 **Windows에**&#x200B;있으면 항상 상대 경로를 사용합니다.
+* STP 서버가 **Linux**&#x200B;에 있는 경우, 항상 집에 상대적인 경로(&quot;~/&quot;로 시작)나 절대 경로(&quot;/&quot;로 시작)를 사용하십시오.
 
 ## Adobe 호스팅 SFTP 서버의 연결 문제 {#sftp-server-troubleshooting}
 
