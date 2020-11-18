@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 58b7070ad765ba072b9c82e75ab1100f8cb38f3a
+source-git-commit: ebec481d5a018d06e47c782627e9a9064cb0dd64
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3588'
 ht-degree: 96%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 96%
 개인 정보 섹션이 두 개의 새 페이지로 이동되고 강화되었습니다. [개인 정보 관리](../../platform/using/privacy-management.md) 및 [개인 정보 요청](../../platform/using/privacy-requests.md)관리
 
 서버가 설정되면 외부 계정의 내부 이름을 업데이트해서는 안 된다는 점을 지정하기 위해 mid-소싱 서버 구성 페이지에 메모가 추가되었습니다. [자세한 내용](../../installation/using/mid-sourcing-server.md)
+
+외부 SFTP 서버에 대한 경로를 지정할 때 사용할 구문에 정보가 추가되었습니다. [자세한 내용](../../platform/using/sftp-server-usage.md#external-SFTP-server)
 
 ## 2020년 10월 {#oct-2020}
 
