@@ -18,14 +18,14 @@ ht-degree: 1%
 ---
 
 
-# Azure Synapse에 대한 액세스 구성 {#configure-access-to-azure-synapse}
+# azure synapse 액세스 구성 {#configure-access-to-azure-synapse}
 
-FDA(Campaign [Federated Data Access](../../installation/using/about-fda.md) ) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리할 수 있습니다. Microsoft Azure Synapse Analytics에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
+FDA(Campaign [Federated Data Access](../../installation/using/about-fda.md) ) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리할 수 있습니다. 아래 절차에 따라 Microsoft Azure synapse Analytics에 대한 액세스를 구성합니다.
 
-1. CentOS, [Windows](#azure-centos)또는 [Debian에서 Azure](#azure-windows) 동기화 [구성](#azure-debian)
-1. Campaign에서 Azure [동기화 외부 계정](#azure-external) 구성
+1. CentOS, [Windows](#azure-centos)또는 [Debian에서 Azure synapse](#azure-windows) [구성](#azure-debian)
+1. Campaign에서 Azure synapse [외부 계정](#azure-external) 구성
 
-## CentOS의 Azure 구문 {#azure-centos}
+## azure synapse on CentOS {#azure-centos}
 
 >[!CAUTION]
 >
@@ -34,7 +34,7 @@ FDA(Campaign [Federated Data Access](../../installation/using/about-fda.md) ) �
 >* 버전 13.0은 Red Hat 6 및 7과 함께 작동합니다.
 
 
-CentOS에서 Azure 동기화를 구성하려면 아래 단계를 따르십시오.
+CentOS에서 Azure synapse을 구성하려면 아래 단계를 따르십시오.
 
 1. 먼저 ODBC 드라이버를 설치합니다. 이 [페이지에서 찾을 수](https://www.microsoft.com/en-us/download/details.aspx?id=50420)있습니다
 
@@ -92,7 +92,7 @@ CentOS에서 Azure 동기화를 구성하려면 아래 단계를 따르십시오
 
 1. 그런 다음 Campaign에서 [!DNL Azure Synapse] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오](#azure-external).
 
-1. Azure Synapse Analytics는 TCP 1433 포트를 통해 통신하므로 방화벽에서 이 포트를 열어야 합니다. 다음 명령을 사용하십시오.
+1. azure synapse 분석은 TCP 1433 포트를 통해 통신하므로 방화벽에서 이 포트를 열어야 합니다. 다음 명령을 사용하십시오.
 
    ```
    firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="[server_ip_here]/32" port port="1433" protocol="tcp" accept'
@@ -101,7 +101,7 @@ CentOS에서 Azure 동기화를 구성하려면 아래 단계를 따르십시오
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics에서 통신을 허용하려면 공개 IP를에 추가해야 할 수 허용 목록에 추가하다 있습니다. 이렇게 하려면 [Azure 설명서를 참조하십시오](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >azure synapse 분석 측의 통신을 허용하려면 공개 IP를에 추가해야 할 수 허용 목록에 추가하다 있습니다. 이렇게 하려면 [Azure 설명서를 참조하십시오](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 1. iptables의 경우 다음 명령을 실행합니다.
 
@@ -109,13 +109,13 @@ CentOS에서 Azure 동기화를 구성하려면 아래 단계를 따르십시오
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
    ```
 
-## Windows의 Azure 구문 {#azure-windows}
+## azure synapse(Windows) {#azure-windows}
 
 >[!NOTE]
 >
 >ODBC 드라이버 버전 13에서만 사용할 수 있지만 Adobe Campaign Classic에서는 SQL Server Native Client 드라이버 11.0 및 10.0을 사용할 수도 있습니다.
 
-Windows에서 Azure 동기화를 구성하려면:
+Windows에서 Azure synapse을 구성하려면:
 
 1. 먼저 Microsoft ODBC 드라이버를 설치합니다. 이 페이지에서 찾을 수 [있습니다](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
@@ -129,9 +129,9 @@ Windows에서 Azure 동기화를 구성하려면:
 
 1. 그런 다음 Campaign Classic에서 [!DNL Azure Synapse] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오](#azure-external).
 
-1. Azure Synapse Analytics는 TCP 1433 포트를 통해 통신하므로 Windows Defender 방화벽에서 이 포트를 열어야 합니다. For more on this, refer to [Windows documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
+1. azure synapse Analytics는 TCP 1433 포트를 통해 통신하므로 Windows Defender Firewall에서 이 포트를 열어야 합니다. For more on this, refer to [Windows documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
 
-## 데비안의 Azure Synapse {#azure-debian}
+## azure synapse 온 데비안 {#azure-debian}
 
 **사전 요구 사항:**
 
@@ -142,7 +142,7 @@ Windows에서 Azure 동기화를 구성하려면:
    sudo apt-get install curl
    ```
 
-Debian에서 Azure 구문을 구성하려면:
+Debian에서 Azure synapse을 구성하려면:
 
 1. 먼저 SQL Server용 Microsoft ODBC 드라이버를 설치합니다. 다음 명령을 사용하여 SQL Server용 ODBC 드라이버 13.1을 설치합니다.
 
@@ -184,7 +184,7 @@ Debian에서 Azure 구문을 구성하려면:
 
 1. 이제 Campaign Classic에서 [!DNL Azure Synapse] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오](#azure-external).
 
-1. Azure Synapse Analytics와의 연결을 위해 Debian에 iptables를 구성하려면 다음 명령을 사용하여 호스트 이름에 대한 아웃바운드 TCP 1433 포트를 활성화합니다.
+1. Debian에서 iptables를 구성하여 Azure synapse Analytics와의 연결을 확인하려면 다음 명령을 사용하여 호스트 이름에 대한 아웃바운드 TCP 1433 포트를 활성화합니다.
 
    ```
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
@@ -192,12 +192,12 @@ Debian에서 Azure 구문을 구성하려면:
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics에서 통신을 허용하려면 공개 IP를에 추가해야 할 수 허용 목록에 추가하다 있습니다. 이렇게 하려면 [Azure 설명서를 참조하십시오](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >azure synapse 분석 측의 통신을 허용하려면 공개 IP를에 추가해야 할 수 허용 목록에 추가하다 있습니다. 이렇게 하려면 [Azure 설명서를 참조하십시오](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 
-## Azure 동기화 외부 계정 {#azure-external}
+## azure synapse 외부 계정 {#azure-external}
 
-외부 계정을 사용하면 Campaign 인스턴스를 Azure Sync 외부 데이터베이스에 연결할 수 있습니다. [!DNL Azure Synapse]
+외부 계정을 사용하면 [!DNL Azure Synapse] 캠페인 인스턴스를 Azure synapse 외부 데이터베이스에 연결할 수 있습니다.
 
 외부 [!DNL Azure Synapse] 계정을 만들려면 아래 단계를 수행하십시오.
 
@@ -211,9 +211,9 @@ Debian에서 Azure 구문을 구성하려면:
 
 1. 외부 계정을 [!DNL Azure Synapse] 구성해야 합니다.
 
-   * **[!UICONTROL Type]**:Azure 구문 분석
+   * **[!UICONTROL Type]**:azure synapse 분석
 
-   * **[!UICONTROL Server]**:Azure Synapse 서버의 URL
+   * **[!UICONTROL Server]**:azure synapse 서버의 URL
 
    * **[!UICONTROL Account]**:사용자의 이름
 
