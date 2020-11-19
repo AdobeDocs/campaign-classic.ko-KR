@@ -1,6 +1,6 @@
 ---
-title: Sybase IQ에 대한 액세스 구성
-description: FDA에서 Sybase IQ에 대한 액세스를 구성하는 방법 살펴보기
+title: sybase IQ 액세스 구성
+description: FDA에서 Sybase IQ 이용 권한 구성 방법 살펴보기
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
@@ -18,16 +18,16 @@ ht-degree: 0%
 ---
 
 
-# Sybase IQ에 대한 액세스 구성 {#configure-access-to-sybase-iq}
+# sybase IQ 액세스 구성 {#configure-access-to-sybase-iq}
 
 FDA(Campaign **Federated Data Access** ) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리할 수 있습니다. 아래 절차에 따라 Sybase IQ에 대한 액세스를 구성합니다.
 
-1. Sybase [IQ 데이터베이스 구성](#configuring-sybase)
+1. [Sybase IQ 데이터베이스 구성](#configuring-sybase)
 1. Campaign에서 Sybase IQ [외부 계정](#sybase-external) 구성
 
-## Sybase IQ 구성 {#configuring-sybase}
+## sybase IQ 구성 {#configuring-sybase}
 
-FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 서버에 추가 구성이 필요합니다.
+FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 서버에 아래 추가 구성이 필요합니다.
 
 >[!NOTE]
 >
@@ -69,9 +69,9 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
    * customer.sh 파일을 사용하여 경로를 선언할 경우:LD_LIBRARY_PATH 변수에 대해 /opt/sybase/IQ-16_0/lib64 경로를 추가합니다.
    * 그렇지 않은 경우 Unix 명령을 사용합니다.
 
-## Sybase IQ 외부 계정 {#sybase-external}
+## sybase IQ 외부 계정 {#sybase-external}
 
-Sybase IQ 외부 계정을 사용하면 캠페인 인스턴스를 Sybase IQ 외부 데이터베이스에 연결할 수 있습니다.
+sybase IQ 외부 계정을 사용하면 캠페인 인스턴스를 Sybase IQ 외부 데이터베이스에 연결할 수 있습니다.
 
 1. 캠페인 **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39;을 클릭합니다 **[!UICONTROL External accounts]**.
 
@@ -91,5 +91,5 @@ Sybase IQ 외부 계정을 사용하면 캠페인 인스턴스를 Sybase IQ 외�
 
 >[!NOTE]
 >
->Windows의 경우 Sybase IQ 클라이언트를 Adobe Campaign 서버에 설치하고 ODBC 연결을 만들어야 합니다. Windows에서 Adobe Campaign 서버(nlserver)가 서비스로 실행 중일 때 시스템 데이터 소스를 만들어야 합니다.
+>Windows의 경우 Adobe Campaign 서버에 Sybase IQ 클라이언트를 설치하고 ODBC 연결을 만들어야 합니다. Windows에서 Adobe Campaign 서버(nlserver)가 서비스로 실행 중일 때 시스템 데이터 소스를 만들어야 합니다.
 
