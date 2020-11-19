@@ -1,6 +1,6 @@
 ---
-title: SAP HANA에 대한 액세스 구성
-description: FDA에서 SAP HANA에 대한 액세스를 구성하는 방법 살펴보기
+title: SAP HANA 액세스 구성
+description: FDA에서 SAP HANA 이용 권한 구성 방법 살펴보기
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
@@ -18,14 +18,14 @@ ht-degree: 0%
 ---
 
 
-# SAP HANA에 대한 액세스 구성 {#configure-access-to-sap-hana}
+# SAP HANA 액세스 구성 {#configure-access-to-sap-hana}
 
 FDA(Campaign [Federated Data Access](../../installation/using/about-fda.md) ) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리할 수 있습니다. 아래 절차에 따라 SAP HANA에 대한 액세스를 구성합니다.
 
-1. SAP [HANA 데이터베이스 구성](#sap-config)
+1. [SAP HANA 데이터베이스 구성](#sap-config)
 1. Campaign에서 SAP HANA [외부 계정](#sap-external) 구성
 
-## SAP HANA 드라이버 {#sap-config}
+## SAP HANA 운전사 {#sap-config}
 
 FDA에서 SAP HANA 외부 데이터베이스에 연결하려면 Adobe Campaign 서버에 특정 추가 구성이 필요합니다.
 
