@@ -1,6 +1,6 @@
 ---
-title: Netezza 액세스 구성
-description: FDA에서 Netezza에 대한 액세스를 구성하는 방법 살펴보기
+title: netezza 액세스 구성
+description: FDA에서 Netezza 이용 권한 구성 방법 살펴보기
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# Netezza 액세스 구성 {#configure-access-to-netezza}
+# netezza 액세스 구성 {#configure-access-to-netezza}
 
-FDA(Campaign [Federated Data Access](../../installation/using/about-fda.md) ) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리할 수 있습니다. 아래 절차에 따라 Netezza 액세스를 구성합니다.
+FDA(Campaign [Federated Data Access](../../installation/using/about-fda.md) ) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리할 수 있습니다. 아래 절차에 따라 Netezza에 대한 액세스를 구성합니다.
 
-1. Netezza 드라이버 설치 및 [구성](#netezza-config)
+1. [Netezza 드라이버 설치 및 구성](#netezza-config)
 1. Campaign에서 Netezza [외부 계정](#netezza-external) 구성
 
 ## Netezza 구성 {#netezza-config}
@@ -70,11 +70,11 @@ FDA에서 Netezza 외부 데이터베이스에 연결하려면 Adobe Campaign �
 
    * **LD_LIBRARY_PATH**:/usr/local/nz/lib 및 /usr/local/nz/lib64. &quot;/usr/local/nz&quot;는 드라이버를 설치할 때 기본적으로 제공되는 설치 저장소에 해당합니다. 여기에서 설치를 위해 선택한 저장소를 지정해야 합니다.
    * **ODBCINI**:odbc.ini 파일의 위치입니다(예: /etc/odbc.ini).
-   * **NZ_ODBC_INI_PATH**:odbc.ini 파일의 위치입니다. 또한 이 두 번째 변수를 사용하여 odbc.ini 파일을 사용해야 합니다.
+   * **NZ_ODBC_INI_PATH**:odbc.ini 파일의 위치입니다. 또한 netezza은 odbc.ini 파일을 사용하기 위해 이 두 번째 변수를 필요로 합니다.
 
 ## Netezza 외부 계정 {#netezza-external}
 
-Netezza 외부 계정을 사용하면 캠페인 인스턴스를 Netezza 외부 데이터베이스에 연결할 수 있습니다.
+netezza 외부 계정을 사용하면 캠페인 인스턴스를 Netezza 외부 데이터베이스에 연결할 수 있습니다.
 
 1. 캠페인 **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39;을 클릭합니다 **[!UICONTROL External accounts]**.
 
@@ -82,9 +82,9 @@ Netezza 외부 계정을 사용하면 캠페인 인스턴스를 Netezza 외부 �
 
 1. 외부 계정을 구성하려면 다음을 **[!UICONTROL Netezza]** 지정해야 합니다.
 
-   * **[!UICONTROL Type]**:네테차
+   * **[!UICONTROL Type]**:Netezza
 
-   * **[!UICONTROL Server]**:Netezza 서버의 URL
+   * **[!UICONTROL Server]**:netezza 서버의 URL
 
    * **[!UICONTROL Account]**:사용자의 이름
 
@@ -96,4 +96,4 @@ Netezza 외부 계정을 사용하면 캠페인 인스턴스를 Netezza 외부 �
 >
 >자동으로 생성된 기본 키를 포함하는 스키마에 대한 작업은 고려되지 않습니다.
 >
->테이블에 스키마에 정의된 첫 번째 인덱스의 **Organize on** 절을 사용합니다. 이 절은 Netezza와 함께 1-4개의 열로 제한되므로 이 인덱스는 4개 이상의 열을 포함할 수 없습니다.
+>테이블에 스키마에 정의된 첫 번째 인덱스의 **Organize on** 절을 사용합니다. 이 절은 Netezza이 있는 1-4개의 열로 제한되므로 이 색인은 4개 이상의 열을 포함할 수 없습니다.
