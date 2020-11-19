@@ -1,6 +1,6 @@
 ---
-title: Hadoop에 대한 액세스 구성
-description: FDA에서 Hadoop에 대한 액세스를 구성하는 방법
+title: hadoop 액세스 구성
+description: FDA에서 Hadoop 이용 권한 구성 방법 살펴보기
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
@@ -18,14 +18,14 @@ ht-degree: 0%
 ---
 
 
-# Hadoop에 대한 액세스 구성 {#configure-access-to-hadoop}
+# hadoop 액세스 구성 {#configure-access-to-hadoop}
 
-FDA(Campaign **Federated Data Access** ) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리할 수 있습니다. Hadoop에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
+FDA(Campaign **Federated Data Access** ) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리할 수 있습니다. 아래 절차에 따라 Hadoop에 대한 액세스를 구성합니다.
 
-1. Hadoop [데이터베이스 구성](#configuring-hadoop)
+1. [Hadoop 데이터베이스 구성](#configuring-hadoop)
 1. Campaign에서 Hadoop [외부 계정](#hadoop-external) 구성
 
-## Hadoop 3.0 구성 {#configuring-hadoop}
+## hadoop 3.0 구성 {#configuring-hadoop}
 
 FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서버에서 다음 구성이 필요합니다. 이 구성은 Windows 및 Linux 모두에서 사용할 수 있습니다.
 
@@ -44,7 +44,7 @@ FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서
 
 ## Hadoop 외부 계정 {#hadoop-external}
 
-외부 계정을 사용하여 Campaign 인스턴스를 Hadoop 외부 데이터베이스에 연결할 수 있습니다. [!DNL Hadoop]
+외부 계정을 사용하면 [!DNL Hadoop] 캠페인 인스턴스를 Hadoop 외부 데이터베이스에 연결할 수 있습니다.
 
 1. Campaign Classic에서 [!DNL Hadoop] 외부 계정을 구성합니다. From the **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
@@ -85,11 +85,11 @@ FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서
 | fileFormat | 쪽모이 세공 | 작업 표의 기본 파일 형식입니다. |
 
 
-## Hadoop 2.1 구성 {#configure-access-hadoop-2}
+## hadoop 2.1 구성 {#configure-access-hadoop-2}
 
-Hadoop 2.1에 연결해야 하는 경우 [Windows](#for-windows) 또는 [Linux에 대해 아래 설명된 단계를 따르십시오](#for-linux).
+hadoop 2.1에 연결해야 하는 경우 [Windows](#for-windows) 또는 [Linux](#for-linux)에 대해 아래 설명된 단계를 따르십시오.
 
-### Windows용 Hadoop 2.1 {#for-windows}
+### Hadoop 2.1 for Windows {#for-windows}
 
 1. Windows용 ODBC 및 [Azure HD Insight](https://www.microsoft.com/en-us/download/details.aspx?id=40886) 드라이버를 설치합니다.
 1. ODBC DataSource 관리자 도구를 실행하여 DSN(데이터 원본 이름)을 만듭니다. 하이브에 대한 시스템 DSN 샘플이 수정되어 있습니다.
@@ -103,9 +103,9 @@ Hadoop 2.1에 연결해야 하는 경우 [Windows](#for-windows) 또는 [Linux�
    User/Password: admin/<your password here>
    ```
 
-1. Hadoop 외부 계정 만들기( [이 섹션에 자세히 표시됨)](#hadoop-external).
+1. 이 섹션에 설명된 대로 Hadoop 외부 계정 [을 만듭니다](#hadoop-external).
 
-### Linux용 Hadoop 2.1 {#for-linux}
+### Linux용 hadoop 2.1 {#for-linux}
 
 1. Linux용 통합 설치
 
@@ -190,5 +190,5 @@ Hadoop 2.1에 연결해야 하는 경우 [Windows](#for-windows) 또는 [Linux�
    isql vorac -v
    ```
 
-1. Hadoop 외부 계정 만들기( [이 섹션에 자세히 표시됨)](#hadoop-external).
+1. 이 섹션에 설명된 대로 Hadoop 외부 계정 [을 만듭니다](#hadoop-external).
 
