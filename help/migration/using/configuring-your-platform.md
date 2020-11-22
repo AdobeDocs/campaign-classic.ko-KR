@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 플랫폼 구성
-seo-title: 플랫폼 구성
 description: 플랫폼 구성
-seo-description: null
-page-status-flag: never-activated
-uuid: e6255e4b-c9c8-4ac9-9ee3-aaa4dc9e5ecf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-discoiquuid: 4d2e765b-750b-457f-ad55-8bd6faaa86af
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 2%
+source-wordcount: '940'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +27,7 @@ Adobe Campaign v7의 특정 주요 변경 사항은 효과적인 작업을 위�
 * 테이블스페이스 **** 속성은 기본적으로 해당 값을 되돌립니다(즉, 배포 마법사에 정의된 값).
 * NmsRecipient 테이블에 참조 뷰를 추가한 경우 마이그레이션하기 전에 이를 삭제해야 합니다.
 
-이 경고는 Oracle 사용자에게도 영향을 줍니다.업그레이드 후 중에 usetimestamptz:1 **** 옵션을 추가한 경우( [시간대](../../migration/using/general-configurations.md#time-zones)참조) 최소 한 개 이상의 **date+time** 필드를 포함하는 모든 테이블이다시만들어집니다.
+이 경고는 Oracle 사용자들에게 또한 염려합니다:업그레이드 후 중에 usetimestamptz:1 **** 옵션을 추가한 경우( [시간대](../../migration/using/general-configurations.md#time-zones)참조) 최소 한 개 이상의 **date+time** 필드를 포함하는 모든 테이블이다시만들어집니다.
 
 ## 마이그레이션 전 {#before-the-migration}
 
@@ -44,7 +39,7 @@ Adobe Campaign v7으로 마이그레이션할 때 다음 요소를 구성해야 
 
    &quot;다중 시간대&quot; 모드를 사용하려면 [시간대](../../migration/using/general-configurations.md#time-zones) 섹션을 참조하십시오.
 
-   Oracle을 데이터베이스로 사용하는 경우 Oracle 표준 시간대 파일이 응용 프로그램 서버와 데이터베이스 서버 간에 제대로 동기화되었는지 확인합니다. For more on this, refer to the [Oracle](../../migration/using/general-configurations.md#oracle) section.
+   oracle을 데이터베이스로 사용하는 경우, Oracle 표준 시간대 파일이 응용 프로그램 서버와 데이터베이스 서버 사이에 올바르게 동기화되었는지 확인하십시오. For more on this, refer to the [Oracle](../../migration/using/general-configurations.md#oracle) section.
 
 * 보안 영역
 
