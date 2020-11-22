@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 분할
 description: 분할 워크플로우 활동에 대한 자세한 내용
-page-status-flag: never-activated
-uuid: 00dc3436-e271-4512-8f29-71a55213afc3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 9eadfda0-0614-4e4e-aed0-26f0b9222fbd
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1935'
 ht-degree: 0%
@@ -216,7 +213,7 @@ Check the **[!UICONTROL Generate complement]** option if you wish to exploit the
 
 이 옵션이 올바르게 작동하려면 인바운드 데이터에 기본 키가 있어야 합니다.
 
-예를 들어, 데이터를 활동을 통해 Netezza(인덱스 개념을 지원하지 않음)와 같은 외부 데이터베이스에서 직접 읽는 경우 **[!UICONTROL Data loading (RDBMS)]** 활동에 의해 생성된 **[!UICONTROL Split]** 보수는 정확하지 않습니다.
+예를 들어, 데이터를 활동(인덱스 개념을 지원하지 않음)을 통해 Netezza과 같은 외부 데이터베이스에서 직접 읽는 경우 **[!UICONTROL Data loading (RDBMS)]** 활동에 의해 생성된 **[!UICONTROL Split]** 보수는 정확하지 않습니다.
 
 이를 방지하려면 활동 바로 전에 **[!UICONTROL Enrichment]** 활동을 드래그하여 놓을 수 **[!UICONTROL Split]** 있습니다. 활동에서 **[!UICONTROL Enrichment]** 활동 **[!UICONTROL Keep all additional data from the main set]** 의 필터를 구성하는 데 사용할 열을 추가 데이터에서 선택하고 **[!UICONTROL Split]** 지정합니다. 그런 다음 활동의 인바운드 전환 **[!UICONTROL Split]** 의 데이터는 Adobe Campaign 서버의 임시 테이블에 로컬로 저장되고 보수는 올바르게 생성됩니다.
 
