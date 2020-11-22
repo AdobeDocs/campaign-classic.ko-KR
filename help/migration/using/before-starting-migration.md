@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 마이그레이션을 시작하기 전
 description: 마이그레이션을 시작하기 전
-page-status-flag: never-activated
-uuid: b9325510-2fa5-4be4-9cf0-f37232bbbd8c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-discoiquuid: d8877378-fb43-4f32-91c6-60f2f788f916
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 1%
@@ -45,7 +42,7 @@ nlserver pdump 명령을 사용하여 클라이언트 콘솔의 **[!UICONTROL He
 
 ### 환경 {#environment}
 
-* 데이터베이스 엔진 유형(DBMS)을 변경할 수 없습니다. 예를 들어 PostgreSQL 엔진에서 Oracle 엔진으로 전환할 수 없습니다. 그러나 Oracle 8 엔진에서 Oracle 10 엔진으로 전환할 수 있습니다.
+* 데이터베이스 엔진 유형(DBMS)을 변경할 수 없습니다. 예를 들어 PostgreSQL 엔진에서 Oracle 엔진으로 전환할 수 없습니다. 하지만 Oracle 8 엔진에서 Oracle 10 엔진으로 전환할 수 있습니다.
 * 유니코드가 아닌 데이터베이스에서 유니코드 데이터베이스로 이동할 수 없습니다.
 
 ### 권장 사항 {#recommendation}
