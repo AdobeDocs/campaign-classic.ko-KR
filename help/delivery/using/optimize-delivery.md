@@ -1,24 +1,20 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 메시지 전달 최적화
-seo-title: 메시지 전달 최적화
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '733'
 ht-degree: 6%
 
 ---
 
 
-# 전달 최적화 {#optimize-delivery}
+# 게재 최적화 {#optimize-delivery}
 
 게재 생성을 시작하기 전에 여러 작업을 수행하여 전송 프로세스를 보호하고 최적화할 수 있습니다.
 
@@ -28,7 +24,7 @@ ht-degree: 6%
 
 몇 가지 요소는 서버 성능에 직접적인 영향을 주고 플랫폼을 느리게 할 수 있습니다.
 
-* 개인화 요소의 수 및 유형:이메일의 개인화는 각 수신자에 대한 데이터를 데이터베이스에서 가져옵니다. 개인화 요소가 많은 경우 전달을 준비하는 데 필요한 데이터의 양이 증가합니다.  이 섹션에서 개인화에 대한 자세한 [내용](../../delivery/using/about-personalization.md)
+* 개인화 요소의 수 및 유형:이메일의 개인화는 각 수신자에 대한 데이터를 데이터베이스에서 가져옵니다. 개인화 요소가 많은 경우 전달을 준비하는 데 필요한 데이터의 양이 증가합니다.  Learn more about personalization in [this section](../../delivery/using/about-personalization.md)
 
 * 서버 로드:마케팅 서버가 동시에 여러 가지 작업을 처리할 때 성능이 저하될 수 있습니다. 마케팅 서버는 데이터가 정확하고 정시에 맞는지 확인하기 위해 모든 게재에 대해 수신 및 발신 데이터를 모두 조정해야 합니다.
 
