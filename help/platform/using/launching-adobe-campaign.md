@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign 시작
-seo-title: Adobe Campaign 시작
 description: Adobe Campaign 시작
-seo-description: null
-page-status-flag: never-activated
-uuid: c1c5bb0d-ae8e-4b0e-ab39-8b2291162557
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 translation-type: tm+mt
-source-git-commit: 285cf8c6521696a0a94f6ffd8fc1eb148977836d
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 7%
+source-wordcount: '504'
+ht-degree: 8%
 
 ---
 
@@ -105,6 +100,6 @@ Campaign Gold [Standard 버전에서](../../rn/using/gold-standard.md)실행 중
 
 **관련 항목**:
 
-* [Adobe Campaign 도움말 및 지원 옵션](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support)
+* [Adobe Campaign 도움말 및 지원 옵션](https://helpx.adobe.com/kr/campaign/kb/ac-support.html#acc-support)
 * [Adobe 소프트웨어 배포](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)
 * [Adobe Experience Cloud 지원 및 전문가 세션](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
