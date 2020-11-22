@@ -679,7 +679,7 @@ ht-degree: 1%
    <td> 마이그레이션 중에는 트리 구조가 새 버전 표준에 따라 자동으로 재구성됩니다.<br /> 이 옵션을 사용하면 탐색 트리의 자동 마이그레이션을 비활성화할 수 있습니다. 사용하는 경우 마이그레이션 후 오래된 폴더를 삭제하고 새 폴더를 추가하고 필요한 모든 검사를 실행해야 합니다.<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">데이터 유형:</span> 정수</p> </li> 
-     <li> <p> <span class="uicontrol">값(텍스트)</span> :1 </p> </li> 
+     <li> <p> <span class="uicontrol">값(텍스트)</span> :3 </p> </li> 
     </ul> 이 옵션은 기본 탐색 트리가 너무 많은 변경을 거친 경우에만 사용해야 합니다.<br /> 이 작업에 대한 자세한 정보는 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">이 섹션</a>을 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
