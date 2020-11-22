@@ -1,24 +1,20 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 캠페인 전달 모범 사례
-seo-title: 전달 모범 사례
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 6%
+source-wordcount: '94'
+ht-degree: 24%
 
 ---
 
 
-# 전달 모범 사례 {#delivery-best-practices}
+# 게재 모범 사례 {#delivery-best-practices}
 
 Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다. 아래 링크를 사용하여 항목을 탐색하고 지침을 찾으십시오.
 
@@ -30,7 +26,7 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
     </a>
     <div>
       <a href="optimize-delivery.md">
-    <strong>전달 최적화</strong>
+    <strong>게재 최적화</strong>
     </a>
     </div>
     <p>
@@ -71,7 +67,7 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
     </a>
     <div>
       <a href="define-the-right-audience.md">
-    <strong>적합한 고객 정의</strong>
+    <strong>적합한 대상 정의</strong>
     </a>
     </div>
     <p>
@@ -97,7 +93,7 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
     </a>
     <div>
       <a href="track-and-monitor.md">
-    <strong>추적 및 모니터</strong>
+    <strong>추적 및 모니터링</strong>
     </a>
     </div>
     <p>
