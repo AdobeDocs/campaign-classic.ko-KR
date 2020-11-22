@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: CRM 커넥터
-seo-title: CRM 커넥터
 description: CRM 커넥터
-seo-description: null
-page-status-flag: never-activated
-uuid: ef3d88a1-b0fd-4790-b6e8-63fa339ef991
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: dbe9080c-66e3-4ff6-8f16-959f9748f666
 translation-type: tm+mt
-source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '2541'
+source-wordcount: '2539'
 ht-degree: 4%
 
 ---
@@ -57,17 +52,17 @@ CRM에 연결하는 것은 전용 워크플로우 활동을 통해 수행됩니�
 
 * **Oracle On Demand**
 
-   Oracle On Demand와의 연결 설정 방법을 알려면 [이 섹션을](#example-for-oracle-on-demand) 참조하십시오.
+   oracle 온디맨드 [와의 연결을 설정하는 방법에 대해서는 이 섹션을](#example-for-oracle-on-demand) 참조하십시오.
 
    >[!IMPORTANT]
    >
-   >Adobe Campaign을 Oracle On Demand와 연결할 때 제한 사항은 다음과 같습니다.
+   >Adobe Campaign을 Oracle 온디맨드와 연결할 때 제한 사항은 다음과 같습니다.
    >
    >    
    >    
-   >    * Adobe Campaign은 표준 Oracle On Demand 템플릿에서 사용 가능한 모든 객체를 동기화할 수 있습니다. Oracle On Demand에서 개인화된 테이블을 추가한 경우 Adobe Campaign에서 복구되지 않습니다.
+   >    * Adobe Campaign은 표준 Oracle 온디맨드 템플릿에서 사용 가능한 모든 객체를 동기화할 수 있습니다. oracle 온디맨드에 개인화된 테이블을 추가한 경우 Adobe Campaign에서 복구할 수 없습니다.
    >    * API 버전 v1.0에서는 쿼리 중에 데이터를 정렬 또는 필터링할 수 있지만 두 가지 작업을 동시에 수행할 수는 없습니다.
-   >    * Oracle On Demand가 전송한 날짜는 표준 시간대 정보를 포함하지 않습니다.
+   >    * oracle 온디맨드(On Demand)가 보낸 날짜에 표준 시간대 정보가 포함되지 않습니다.
    >    * 여러 선택 열거형은 Adobe Campaign에서 지원되지 않습니다.
 
 
@@ -141,15 +136,15 @@ Salesforce. **com** 커넥터를 Adobe Campaign과 구성하려면 아래 단계
 
    ![](assets/crm_connectors_sfdc_wf.png)
 
-### Oracle On Demand의 예 {#example-for-oracle-on-demand}
+### oracle On Demand의 예 {#example-for-oracle-on-demand}
 
-Oracle **On Demand** 커넥터가 Adobe Campaign과 작동하도록 구성하려면 다음 단계를 적용합니다.
+Adobe Campaign에서 작동하도록 **Oracle 온디맨드** 커넥터를 구성하려면 다음 단계를 수행하십시오.
 
 1. Adobe Campaign 트리의 노드를 통해 새 외부 계정 **[!UICONTROL Administration > Platform > External accounts]** 을 만듭니다.
 
    ![](assets/crm_connectors_ood_1.png)
 
-1. 구성 마법사를 엽니다.Adobe Campaign은 Oracle 데이터 모델의 테이블을 자동으로 표시합니다. 수집할 테이블을 선택합니다.
+1. 구성 마법사를 엽니다.Adobe Campaign은 자동으로 Oracle 데이터 모델의 테이블을 표시합니다. 수집할 테이블을 선택합니다.
 
    ![](assets/crm_connectors_ood_2.png)
 
@@ -163,21 +158,21 @@ Oracle **On Demand** 커넥터가 Adobe Campaign과 작동하도록 구성하려
 
    ![](assets/crm_connectors_ood_4.png)
 
-1. Oracle On Demand 데이터를 Adobe Campaign으로 가져오려면 다음 유형의 워크플로우를 생성합니다.
+1. oracle 온디맨드 데이터를 Adobe Campaign으로 가져오려면 다음 유형의 워크플로우를 만드십시오.
 
    ![](assets/crm_connectors_ood_5.png)
 
-   이 워크플로우는 Oracle On Demand를 통해 연락처를 가져오고 기존 Adobe Campaign 데이터와 동기화하며 중복 연락처를 삭제하고 Adobe Campaign 데이터베이스를 업데이트합니다.
+   이 워크플로우는 Oracle 온디맨드를 통해 연락처를 가져오고, 기존 Adobe Campaign 데이터와 동기화하며, 중복된 연락처를 삭제하고, Adobe Campaign 데이터베이스를 업데이트합니다.
 
    다음과 같이 **[!UICONTROL CRM Connector]** 활동을 구성해야 합니다.
 
    ![](assets/crm_connectors_ood_6.png)
 
-1. Adobe Campaign 데이터를 Oracle On Demand로 내보내려면 다음 워크플로우를 생성합니다.
+1. Adobe Campaign 데이터를 Oracle On Demand로 내보내려면 다음 워크플로우를 만드십시오.
 
    ![](assets/crm_connectors_ood_7.png)
 
-   이 워크플로우는 쿼리를 사용하여 관련 데이터를 수집한 다음 Oracle On Demand 연락처 테이블로 내보냅니다.
+   이 워크플로우는 쿼리를 사용하여 관련 데이터를 수집한 다음 Oracle 주문형 연락처 테이블로 내보냅니다.
 
 ### Microsoft Dynamics의 예 {#example-for-microsoft-dynamics}
 
@@ -315,7 +310,7 @@ Adobe Campaign의 CRM을 통해 데이터를 가져오려면 다음 유형의 �
 기본적으로 다음 필드가 사용됩니다(지정된 순서로).
 
 * Microsoft Dynamics: **modifiedon**,
-* Oracle On Demand의 경우 **마지막 업데이트**, **수정 날짜**, **마지막 로그인**,
+* oracle 온디맨드: **마지막 업데이트**, **수정 날짜**, **마지막 로그인**,
 * Salesforce.com의 경우: **LastModifiedDate**, **SystemMostamp를 추가했습니다**.
 
 옵션을 **[!UICONTROL Automatic index]** 활성화하면 유형 활동을 통해 동기화 워크플로우에서 사용할 수 있는 세 가지 변수가 **[!UICONTROL JavaScript code]** 생성됩니다. 이러한 활동은 다음과 같습니다.
@@ -439,7 +434,7 @@ Adobe Campaign 데이터를 CRM으로 내보내면 전체 내용을 CRM 데이�
 
 출력 **[!UICONTROL Reject]** 전환을 사용하면 오류 메시지 및 코드와 관련된 특정 열이 포함된 출력 스키마에 액세스할 수 있습니다. 이러한 열은 다음과 같습니다.
 
-* Oracle On Demand의 경우 **errorLogFilename** (Oracle 측에 있는 로그 파일의 이름), **errorCode** (오류 코드), **errorSymbol** (오류 코드와 다른 오류 기호), **errorMessage** (오류 컨텍스트에 대한 설명).
+* oracle 온디맨드: **errorLogFilename** (Oracle 측에 있는 로그 파일의 이름), **errorCode** (오류 코드), **errorSymbol** (오류 코드와 다른 오류 기호), **errorMessage** (오류 컨텍스트 설명).
 * Salesforce.com의 경우: **errorSymbol** (오류 코드와 다른 오류 기호), **errorMessage** (오류 컨텍스트에 대한 설명).
 
 ### CRM에서 삭제된 개체 가져오기 {#importing-objects-deleted-in-the-crm}
