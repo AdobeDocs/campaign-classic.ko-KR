@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 아키텍쳐
 description: 워크플로우는 특정 모듈로 처리되며, 이 모듈은 처리 부하를 공유하기 위해 여러 서버에서 시작할 수 있습니다.
-page-status-flag: never-activated
-uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 1%
