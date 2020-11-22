@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 릴리스 18.6
-seo-title: 릴리스 18.6
 description: 릴리스 18.6
-seo-description: null
-page-status-flag: never-activated
-uuid: 72941f8f-0b84-4868-a768-8aa972459ef2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 79a6d3cf-2425-49b9-9b92-b56be26438bf
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '794'
 ht-degree: 6%
 
 ---
@@ -42,7 +37,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> 쿼리 밴딩<br /> </td> 
-   <td> <p>여러 Campaign 사용자가 동일한 FDA Teradata 외부 계정에 연결하면 이제 각 사용자별 쿼리 밴드(키/값 쌍)를 전달할 수 있습니다. Campaign 사용자가 Teradata 데이터베이스에 대해 쿼리를 수행할 때마다 Adobe Campaign은 이제 사용자와 연관된 메타 데이터를 보낼 수 있습니다. 이러한 데이터는 키 및 값 목록으로 구성되며, 감사 목적으로 또는 액세스 권한 관리를 위해 Teradata 관리자가 사용할 수 있습니다.</p><p>자세한 내용은 <a href="../../installation/using/external-accounts.md">세부 설명서</a>를 참조하십시오.</p> </td>
+   <td> <p>여러 Campaign 사용자가 동일한 FDA Teradata 외부 계정에 연결하는 경우 이제 각 사용자별 쿼리 밴드(키/값 쌍)를 전달할 수 있습니다. Campaign 사용자가 Teradata 데이터베이스에 대해 쿼리를 수행할 때마다 이제 Adobe Campaign은 사용자와 연관된 메타 데이터를 보낼 수 있습니다. 이러한 데이터는 키 및 값 목록으로 구성되며 감사 목적으로 Teradata 관리자가 사용하거나 액세스 권한을 관리할 수 있습니다.</p><p>자세한 내용은 <a href="../../installation/using/external-accounts.md">세부 설명서</a>를 참조하십시오.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -65,12 +60,12 @@ ht-degree: 6%
 
 쿼리 밴딩
 
-특정 키(PROXYUSER 또는 PROXYROLE)는 Teradata 사용자 또는 역할을 Campaign 사용자에게 연결하는 데 사용됩니다. 이 프록시 사용자/역할을 사용하도록 새 권한이 추가되었습니다. 데이터베이스 계정(Teradata 외부 계정에 정의된 계정)에 GRANT CONNECT THROUGH 액세스 권한을 추가해야 합니다.
+특정 키(PROXYUSER 또는 PROXYROLE)는 Teradata 사용자 또는 역할을 캠페인 사용자에게 연결하는 데 사용됩니다. 이 프록시 사용자/역할을 사용하도록 새 권한이 추가되었습니다. 데이터베이스 계정(Teradata 외부 계정에 정의된 계정)에 GRANT CONNECT THROUGH 액세스 권한을 추가해야 합니다.
 
-Teradata 외부 계정에 새 탭이 추가되었습니다. 이 **[!UICONTROL Query banding]** 탭에는 다음 옵션이 포함되어 있습니다.
+teradata 외부 계정에 새 탭이 추가되었습니다. 이 **[!UICONTROL Query banding]** 탭에는 다음 옵션이 포함되어 있습니다.
 
 * **[!UICONTROL Active]**:이 확인란을 선택하여 기능을 활성화합니다.
-* **[!UICONTROL Default]**:사용자에게 연관된 쿼리 밴딩 기능이 없는 경우 사용할 기본 쿼리 밴딩을 입력합니다. 정의된 기본 쿼리 배너가 없는 경우 연결된 쿼리 배너를 사용하지 않는 사용자는 Teradata를 사용할 수 없습니다.
+* **[!UICONTROL Default]**:사용자에게 연관된 쿼리 밴딩 기능이 없는 경우 사용할 기본 쿼리 밴딩을 입력합니다. 정의된 기본 쿼리 배너가 없는 경우 연결된 쿼리 배너를 사용하지 않는 사용자는 Teradata을 사용할 수 없습니다.
 * **[!UICONTROL Users]**:각 사용자에 대해 쿼리 밴딩을 지정합니다. 필요한 만큼 키/값 쌍을 추가할 수 있습니다. 예:&#39;priority=1;workload=high;&#39;
 
 쿼리 배너에 대한 자세한 내용은 다음 문서를 참조하십시오.
