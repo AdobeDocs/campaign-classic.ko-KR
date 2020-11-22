@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 사용자 지정 날짜 필드를 사용한 전자 메일 강화
 description: 사용자 지정 날짜 필드를 사용하여 이메일을 풍부한 방법 학습
-page-status-flag: never-activated
-uuid: 6dd240b1-f995-4e12-90a5-55aeb584bcdc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 9cb3be65-6652-47fa-b8a4-e088530aab4a
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 3%
