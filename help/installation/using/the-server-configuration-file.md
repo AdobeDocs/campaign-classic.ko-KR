@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 서버 구성 파일
-seo-title: 서버 구성 파일
 description: 서버 구성 파일
-seo-description: null
-page-status-flag: never-activated
-uuid: 8ef7168b-3543-4830-80b0-65a023158b3f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: appendices
-discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 translation-type: tm+mt
-source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '7855'
+source-wordcount: '7851'
 ht-degree: 5%
 
 ---
@@ -341,7 +336,7 @@ dataStore **> dataSource > dbcnx** 노드에서 연결 설정을 구성합니다
   </tr> 
   <tr> 
    <td> 공급자<br /> </td> 
-   <td> 유형(열거형). 가능한 값은 'Oracle', 'MSSQL'(Microsoft SQL Server), 'PostgreSQL'(PostgreSQL, Greenplum), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA', RedShift'(Amazon Redshift), 'ODBC'(ODBC(Sybase ASE, Sybase IQ), 'Relay'(원격 데이터베이스로 HTTP 릴레이).<br /> </td> 
+   <td> 유형(열거형). 가능한 값은 'Oracle', 'MSSQL'(Microsoft SQL Server), 'PostgreSQL'(PostgreSQL, Greenplum), 'Teradata', 'DB2', 'MySQL', 'MySQL', 'Netezza', 'AsterData', 'SAPSHIFT'(Amazon) 'ODBC'(ODBC(Sybase ASE, Sybase IQ), 'Relay'(원격 데이터베이스에 대한 HTTP 릴레이).<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 
@@ -1587,7 +1582,7 @@ inMail **> msgDump** 노드에서 다음 매개 변수를 구성합니다. 처�
  </tbody> 
 </table>
 
-### 캐시 {#cache}
+### cache {#cache}
 
 캐시 **노드에서** 다음 매개 변수를 구성합니다. 로컬 파일 캐시 구성입니다.
 
