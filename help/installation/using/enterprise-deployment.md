@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 엔터프라이즈 배포
-seo-title: 엔터프라이즈 배포
 description: 엔터프라이즈 배포
-seo-description: null
-page-status-flag: never-activated
-uuid: 2c2b5cef-86cb-4cb5-801a-ca6afeae90bb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: 066d0ac1-033c-467b-aa6c-43a97ecd8632
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -66,7 +61,7 @@ ht-degree: 0%
    * 가상 IP 주소(VIP)에서 로드 밸런서를 추적 및 가리키기 위해 처음으로 대중에게 노출되었으며, 이렇게 해서 두 개의 정면 서버로 배포됩니다.
    * 콘솔을 통해 액세스하고 가상 IP 주소(VIP)에서 로드 밸런서를 가리키는 내부 사용자에게 두 번째 노출이 있으며 두 개의 애플리케이션 서버에 배포됩니다.
 
-* STMP(25), DNS(53), HTTP(80), HTTPS(443), SQL(Oracle의 경우 1521, PostgreSQL의 경우 5432) 등을 열도록 구성된 방화벽 포트. 자세한 내용은 데이터베이스 액세스 [섹션을 참조하십시오](../../installation/using/network-configuration.md#database-access).
+* STMP(25), DNS(53), HTTP(80), HTTPS(443), SQL(Oracle의 경우 1521, PostgreSQL의 경우 5432)을 열도록 구성된 방화벽 포트. 자세한 내용은 데이터베이스 액세스 [섹션을 참조하십시오](../../installation/using/network-configuration.md#database-access).
 
 >[!CAUTION]
 >
