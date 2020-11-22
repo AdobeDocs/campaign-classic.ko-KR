@@ -1,19 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic에서 인터랙티브한 컨텐츠 정의
 description: Adobe Campaign Classic에서 AMP를 사용하여 인터랙티브하고 다이내믹한 이메일 컨텐츠를 정의하는 방법을 살펴볼 수 있습니다.
-page-status-flag: never-activated
-uuid: ddcc2e3b-e251-4a7a-a22a-28701522839f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 translation-type: tm+mt
-source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1572'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
