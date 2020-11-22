@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 일반적인 명령
-seo-title: 일반적인 명령
 description: 일반적인 명령
-seo-description: null
-page-status-flag: never-activated
-uuid: f06df8c0-d4ec-4d6b-84d5-f46d852388a3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: 90718075-87a7-4e9a-935b-571010908e79
 translation-type: tm+mt
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '408'
 ht-degree: 3%
 
 ---
@@ -167,7 +162,7 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 >
 >* 일반적으로 구성 파일을 수동으로 수정하는 대신 **config 명령을 사용할 수** 있습니다
 >* 매개 변수 목록을 보려면 **-?** parameter: **nlserver 구성 -?**
->* Oracle 데이터베이스의 경우 계정을 지정할 수 없습니다. 구문은 다음과 같습니다.
+>* oracle 데이터베이스의 경우 계정을 지정하지 않아야 합니다. 구문은 다음과 같습니다.
 
 >
 >  
