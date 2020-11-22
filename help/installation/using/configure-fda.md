@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: FDA 커넥터 구성
 description: FDA에 대한 구성 단계 학습
-page-status-flag: never-activated
-uuid: b84359b9-c584-431d-80d5-71146d9b6854
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 3%
@@ -46,7 +43,7 @@ Adobe Campaign에서 액세스할 수 있는 외부 데이터베이스에 따라
 
 자세한 내용은 아래 링크를 참조하십시오.
 
-* [Azure Synapse](../../installation/using/configure-fda-synapse.md)
+* [azure synapse](../../installation/using/configure-fda-synapse.md)
 
 * [Snowflake](../../installation/using/configure-fda-snowflake.md)
 
@@ -54,9 +51,9 @@ Adobe Campaign에서 액세스할 수 있는 외부 데이터베이스에 따라
 
 * [Oracle](../../installation/using/configure-fda-oracle.md)
 
-* [네테차](../../installation/using/configure-fda-netezza.md)
+* [Netezza](../../installation/using/configure-fda-netezza.md)
 
-* [Sybase IQ](../../installation/using/configure-fda-sybase.md)
+* [sybase IQ](../../installation/using/configure-fda-sybase.md)
 
 * [Teradata](../../installation/using/configure-fda-teradata.md)
 
