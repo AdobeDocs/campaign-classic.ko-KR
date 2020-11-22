@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 소셜 마케팅 정보
 description: Facebook 및 Twitter를 통해 Adobe Campaign을 사용하여 고객과 소통하는 방법을 살펴볼 수 있습니다.
-page-status-flag: never-activated
-uuid: 64c861e3-b685-44e2-9b5b-4fbf5d70baa9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: introduction
-discoiquuid: 743b891a-5857-4734-8035-ea9f23860680
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 12%
