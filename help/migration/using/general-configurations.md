@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 일반 구성
-seo-title: 일반 구성
 description: 일반 구성
-seo-description: null
-page-status-flag: never-activated
-uuid: 317a145d-36b0-40fe-a272-ad5e35b0b190
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: configuration
-discoiquuid: f4b1c108-7f71-4aa1-8394-a7f660834c9c
 translation-type: tm+mt
-source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '2822'
+source-wordcount: '2820'
 ht-degree: 0%
 
 ---
@@ -49,7 +44,7 @@ TIMESTAMP WITH TIMEZONE 모드를 사용하려면 **-userTimestamptz:1** 옵션�
 
 ### Oracle {#oracle}
 
-업그레이드 후 중에 **ORA 01805** 오류가 발생하는 경우 애플리케이션 서버와 데이터베이스 서버 사이의 Oracle 표준 시간대 파일이 동기화되지 않은 것입니다. 다시 동기화하려면 다음 단계를 적용합니다.
+업그레이드 후 중에 **ORA 01805** 오류가 발생하는 경우, 이는 애플리케이션 서버와 데이터베이스 서버 사이의 Oracle 표준 시간대 파일이 동기화되지 않았다는 의미입니다. 다시 동기화하려면 다음 단계를 적용합니다.
 
 1. 사용된 표준 시간대 파일을 식별하려면 다음 명령을 실행하십시오.
 
