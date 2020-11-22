@@ -25,7 +25,7 @@ ht-degree: 3%
 
 1. 사용자 프로필 만들기. For more on this, refer to [Operator profiles](../../interaction/using/operator-profiles.md).
 1. 타깃팅 차원으로 오퍼 환경 만들기. 자세한 내용은 오퍼 환경 [만들기를 참조하십시오](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
-1. 각 환경에 대한 분류 규칙 만들기 자세한 내용은 오퍼 [프레젠테이션 규칙 만들기 및 참조를 참조하십시오](../../interaction/using/managing-offer-presentation.md#creating-and-referencing-an-offer-presentation-rule).
+1. 각 환경에 대한 분류 규칙 만들기 자세한 내용은 [오퍼 프레젠테이션 규칙 만들기 및 참조를 참조하십시오](../../interaction/using/managing-offer-presentation.md#creating-and-referencing-an-offer-presentation-rule).
 1. 각 환경에 대한 오퍼 공간 만들기 및 렌더링 기능 구성 자세한 내용은 오퍼 공간 [만들기를 참조하십시오](../../interaction/using/creating-offer-spaces.md).
 
    >[!NOTE]
