@@ -1,24 +1,20 @@
 ---
-title: 개인화된 콘텐츠 제작
-seo-title: 개인화된 콘텐츠 제작
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: 개인화된 콘텐츠 빌드
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1266'
 ht-degree: 7%
 
 ---
 
 
-# 개인화된 콘텐츠 제작 {#build-personalized-content}
+# 개인화된 콘텐츠 빌드 {#build-personalized-content}
 
 메시지 내용을 디자인할 때 배달 실행을 방지할 수 있는 일반적인 문제를 방지하십시오. 대부분의 경우 [개인화](../../delivery/using/about-personalization.md), 서식 [및](../../delivery/using/defining-the-email-content.md#message-content) 이미지 [와 관련된 오류가 발생할 수 있습니다](../../delivery/using/defining-the-email-content.md#adding-images).
 
