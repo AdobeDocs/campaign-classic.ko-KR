@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: v5.11의 특정 구성
-seo-title: v5.11의 특정 구성
 description: v5.11의 특정 구성
-seo-description: null
-page-status-flag: never-activated
-uuid: d6920beb-a766-4aec-8a8e-d32e47b545a4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: configuration
-discoiquuid: fc280640-528d-44de-87d8-52f443772abd
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1041'
 ht-degree: 3%
 
 ---
@@ -119,7 +114,7 @@ mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
 
 * 내부 이름:NlMigration_KeepFolderStructure
 * 데이터 유형:정수
-* 값(텍스트):3
+* 값(텍스트):1
 
 이 옵션을 사용하는 경우 마이그레이션 후 오래된 폴더를 삭제하고 새 폴더를 추가하고 필요한 모든 검사를 실행해야 합니다.
 
