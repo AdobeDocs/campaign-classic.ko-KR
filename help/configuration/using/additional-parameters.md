@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 추가 웹 추적 매개 변수
 description: 웹 추적을 위한 매개 변수에 대한 자세한 내용
-page-status-flag: never-activated
-uuid: c223c84a-f8fd-43d3-9deb-b1c19d442c65
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: 1b2ae224-8406-4506-b589-6e5f6631e87f
 translation-type: tm+mt
-source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
