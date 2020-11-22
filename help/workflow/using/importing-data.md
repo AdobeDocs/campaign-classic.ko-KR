@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 데이터 가져오기
 description: Adobe Campaign에서 데이터를 가져오는 방법 살펴보기
-page-status-flag: never-activated
-uuid: c8cf2bf1-f7a5-4de4-9e53-a961c9e5beca
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '2473'
 ht-degree: 0%
@@ -204,7 +201,7 @@ Adobe Campaign 데이터베이스의 데이터 일관성을 유지하려면 아�
       ![](assets/import_template_example4.png)
 
    * 이 예에서는 이메일 필드를 사용하여 고유한 프로필을 찾습니다. 반드시 채워야 하는 필드와 고유한 조합의 일부를 사용할 수 있습니다.
-   * 화면에서 기본 키가 0과 같은 레코드(이 전환의 모든 레코드) **[!UICONTROL Deduplication method]** 가 제외되지 않도록 하려면 **[!UICONTROL Advanced parameters]** **[!UICONTROL Disable automatic filtering of 0 ID records]** 옵션을 선택하고 선택합니다.
+   * 화면에서 기본 키가 0인 레코드 **[!UICONTROL Deduplication method]** 가 제외되지 않도록 하려면 **[!UICONTROL Advanced parameters]** **[!UICONTROL Disable automatic filtering of 0 ID records]** 옵션을 선택하고 선택합니다.
 
    ![](assets/import_template_example7.png)
 
