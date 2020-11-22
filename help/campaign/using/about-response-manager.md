@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 반응 관리자 기본 정보
-seo-title: 반응 관리자 기본 정보
 description: 반응 관리자 기본 정보
-seo-description: null
-page-status-flag: never-activated
-uuid: 3087a96d-50fb-488a-9b76-70eb5c67deed
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-discoiquuid: a4669fee-4512-455f-b495-ebd5a0746b76
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 4%
+source-wordcount: '438'
+ht-degree: 3%
 
 ---
 
@@ -46,7 +41,7 @@ Adobe Campaign은 마케팅 캠페인의 성공과 수익성을 측정하거나 
 
 각 가설이 단일 트랜잭션 테이블에 연결됩니다. 하나의 전달 또는 오퍼를 여러 가설에 연결할 수 있습니다.
 
-## 메서드 {#method}
+## Method {#method}
 
 응답 관리자를 사용하기 전에 구성을 [참조하여](../../campaign/using/configuration.md) 필요한 구성을 수행하십시오.
 
