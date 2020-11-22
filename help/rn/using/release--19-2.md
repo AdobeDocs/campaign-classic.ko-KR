@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 릴리스 19.2
-seo-title: 릴리스 19.2
 description: 릴리스 19.2
-seo-description: null
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1317'
 ht-degree: 8%
 
 ---
@@ -108,7 +103,7 @@ _2019년 12월 02일_
 * 푸시 알림에 대한 메모리 소비 최적화.
 * 성능 및 저장 최적화를 위해 logins.log **** 파일의 처리가 향상되었습니다. 이제 파일이 여러 파일로 분할되어 매일 최대 365개의 파일이 유지됩니다. [자세한 내용](../../production/using/log-files.md)
 * 이제 암호 자격 증명(암호 + 사용자 이름) 또는 인증서(개인 키)를 사용하여 Microsoft Dynamics CRM 외부 계정을 구성할 수 있습니다. [자세한 내용](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
-* 안정성을 개선하기 위해 일부 개선 사항이 Hadoop FDA 커넥터에 추가되었습니다.
+* 안정성을 향상시키기 위해 일부 향상된 기능이 Hadoop FDA 커넥터에 추가되었습니다.
 * 서버에 공개 리소스를 업로드하기 전에 디스크 공간을 확인하는 특정 보증인이 추가되었습니다.
 * 새 [캠페인](../../installation/using/configuring-campaign-options.md) 옵션이 추가되었습니다.
    * WdbcKillSession **Policy** 구성 옵션을 사용하면 모든 워크플로 및 PostgreSQL 데이터베이스 쿼리의 **무조건부 중지** 동작에 영향을 줄 수 있습니다.
@@ -137,11 +132,11 @@ _Campaign Mobile SDK_
 
 * 연결된 테이블 **추가** 필드가 RDBMS( **Data Loading)** 워크플로우 활동에서 비어 있는 충돌 문제가 해결되었습니다. (NEO-12213)
 * Mid-Sourcing 서버에서 특정 메시지를 처리하지 못하는 문제를 해결했습니다. (NEO-12395)
-* Teradata에서 쿼리 밴딩 옵션을 사용할 때 데이터베이스 정리 워크플로우의 문제를 해결했습니다. (NEO-12399)
+* teradata에서 쿼리 밴딩 옵션을 사용할 때 데이터베이스 정리 워크플로의 문제를 수정했습니다. (NEO-12399)
 * ne.jp 도메인을 포함한 분류 규칙이 있는 배달 분석에 영향을 주는 문제를 수정했습니다. (NEO-12609)
 * 보다 제한적인 인증서 정책에 암시된 TLS 업데이트에 대한 SMS 관련 문제를 수정했습니다. 이러한 업데이트는 오래된 인증서의 경우 마케팅과 미드소싱 서버 간의 연결 실패를 초래할 수 있습니다. (NEO-17698)
 * 저장소 인증이 있는 중간 소싱 환경의 외부 계정에서 연결 **테스트** 단추를 사용할 때 발생하는 문제를 수정했습니다. (NEO-12722)
-* FDA Hadoop 연결의 날짜 함수를 사용하는 쿼리의 문제를 수정했습니다. (NEO-12847)
+* FDA Hadoop 연결 시 날짜 기능을 사용하는 쿼리의 문제를 수정했습니다. (NEO-12847)
 * 이메일 편집기에서 이미지를 교체할 때 발생하는 문제가 해결되었습니다. (NEO-13098)
 * 삭제되었거나 다른 위치로 이동한 폴더에 대해 업그레이드 후 오류가 발생할 수 있는 문제를 수정했습니다. (NEO-13118)
 * LINE 메시지에서 장치 화면 크기당 이미지 **정의 옵션을 사용할 때 이미지 표시** 문제가 해결되었습니다. (NEO-13228)
@@ -162,7 +157,7 @@ _Campaign Mobile SDK_
 * Salesforce의 CRM 커넥터에 영향을 주는 문제가 해결되었습니다. (NEO-17712)
 * 외부 SFTP에서 데이터를 가져올 때 시간 초과 문제가 해결되었습니다. (NEO-19723)
 * 예측 모델에 액세스할 때 발생하는 문제가 해결되었습니다. (NEO-19713)
-* Hadoop FDA 데이터베이스를 사용하는 **Split** Workflow 활동에서 임의 샘플링에 영향을 주는 문제를 수정했습니다. (NEO-16636)
+* hadoop FDA 데이터베이스를 사용한 **분할** 워크플로우 작업의 임의 샘플링에 영향을 주는 문제를 수정했습니다. (NEO-16636)
 * 업그레이드 후 일부 기능이 잘못된 것으로 간주되도록 Oracle의 회귀 문제를 해결했습니다. (NEO-12759)
 
 
