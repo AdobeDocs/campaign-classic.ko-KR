@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 릴리스 20.1
 description: 릴리스 20.1
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 6%
@@ -61,7 +58,7 @@ _2020년 2월 17일_
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Hadoop FDA 커넥터가 Clou데라 및 Hadoop 3.0을 지원하도록 개선되었습니다.</p>
+   <td> <p>hadoop FDA 커넥터는 Clou데라 뿐만 아니라 Hadoop 3.0을 지원하도록 개선되었습니다.</p>
     <p>자세한 내용은 <a href="../../installation/using/configure-fda-hadoop.md">세부 설명서</a>를 참조하십시오.</p>
    </td> 
   </tr> 
@@ -120,13 +117,13 @@ _2020년 2월 17일_
 
 **패치**
 
-* Hadoop 커넥터를 사용할 때 계정 키 암호화 문제가 해결되었습니다.
+* hadoop 커넥터를 사용할 때 계정 키 암호화 문제가 해결되었습니다.
 
 * Windows 서버에서 사용자 연결이 실패하는 SSL 인증 구현으로 인한 회귀 문제를 해결했습니다. (NEO-20629)
 
 * 부정적인 워크플로우 ID의 경우 증분 쿼리 활동 문제를 수정했습니다. (NEO-19779)
 
-* Netezza FDA 커넥터를 통해 쿼리를 실행할 때 발생하는 인코딩 문제가 해결되었습니다. (NEO-19594)
+* netezza FDA 커넥터를 통해 쿼리를 실행할 때 발생하는 인코딩 문제가 해결되었습니다. (NEO-19594)
 
 * 웹 다운로드 워크플로우 이벤트 활동에서 POST 메서드를 사용할 때 오류가 **발생하던** 문제를 수정했습니다.
 
