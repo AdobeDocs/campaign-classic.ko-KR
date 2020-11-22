@@ -1,24 +1,21 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 'Adobe Campaign에서 모바일 애플리케이션 구성 '
 description: 모바일 애플리케이션 구성으로 시작하는 방법 살펴보기
-page-status-flag: never-activated
-uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
 translation-type: tm+mt
-source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
 
-# 앱 구성 시작하기
+# 앱 구성 시작
 
 이 섹션에서는 온라인 휴일 패키지를 판매하는 회사를 기반으로 한 구성 샘플을 확인할 수 있습니다. 이 모바일 애플리케이션(네오트피)은 두 가지 버전으로 고객에게 제공됩니다.Android 및 iOS용 네오트립
 
