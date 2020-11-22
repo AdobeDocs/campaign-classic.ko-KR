@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: CRM 커넥터
 description: CRM 커넥터에 대한 자세한 내용 및 데이터 동기화 구성
-page-status-flag: never-activated
-uuid: b3856a82-b1dc-4e36-a2d0-14edc5b66b3b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: af7c0d1d-10ac-427b-8d12-b97eb91b30a1
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 0%
@@ -92,7 +89,7 @@ LASTIMPORT_<%=instance.internalName%>_<%=activityName%>
 기본적으로 다음 필드가 사용됩니다(지정된 순서로).
 
 * Microsoft Dynamics: **modifiedon**,
-* Oracle On Demand의 경우 **마지막 업데이트**, **수정 날짜**, **마지막 로그인**,
+* oracle 온디맨드: **마지막 업데이트**, **수정 날짜**, **마지막 로그인**,
 * Salesforce.com의 경우: **LastModifiedDate**, **SystemMostamp를 추가했습니다**.
 
 옵션을 **[!UICONTROL Automatic index]** 활성화하면 유형 활동을 통해 동기화 워크플로우에서 사용할 수 있는 세 가지 변수가 **[!UICONTROL JavaScript code]** 생성됩니다. 이러한 활동은 다음과 같습니다.
@@ -204,7 +201,7 @@ Adobe Campaign 데이터를 CRM으로 내보내면 전체 내용을 CRM 데이�
 
 아웃바운드 **[!UICONTROL Reject]** 전환 기능을 사용하면 오류 메시지 및 코드와 관련된 특정 열을 포함하는 출력 스키마에 액세스할 수 있습니다. 이러한 열은 다음과 같습니다.
 
-* Oracle On Demand의 경우 **errorLogFilename** (Oracle 측에 있는 로그 파일의 이름), **errorCode** (오류 코드), **errorSymbol** (오류 코드와 다른 오류 기호), **errorMessage** (오류 컨텍스트에 대한 설명).
+* oracle 온디맨드: **errorLogFilename** (Oracle 측에 있는 로그 파일의 이름), **errorCode** (오류 코드), **errorSymbol** (오류 코드와 다른 오류 기호), **errorMessage** (오류 컨텍스트 설명).
 * Salesforce.com의 경우: **errorSymbol** (오류 코드와 다른 오류 기호), **errorMessage** (오류 컨텍스트에 대한 설명).
 
 ## CRM에서 삭제된 개체 가져오기 {#importing-objects-deleted-in-the-crm}
@@ -235,7 +232,7 @@ CRM 측에서 개체를 삭제하려면 삭제할 원격 요소의 기본 키를
 
 ## 연락처 가져오기 구성 방법의 예 {#example-of-how-to-configure-a-contact-import}
 
-다음 예에서 활동은 Oracle On Demand CRM에서 연락처를 가져오도록 구성됩니다. 가져오기 전에 CRM 필드가 선택되어 Adobe Campaign 데이터베이스에 이미 존재하는 필드와 일치하도록 합니다.
+다음 예에서 활동은 Oracle 온디맨드 CRM에서 연락처를 가져오도록 구성됩니다. 가져오기 전에 CRM 필드가 선택되어 Adobe Campaign 데이터베이스에 이미 존재하는 필드와 일치하도록 합니다.
 
 ![](assets/crm_connectors_ood_6.png)
 
