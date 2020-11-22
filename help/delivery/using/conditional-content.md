@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 조건부 콘텐츠
-seo-title: 조건부 콘텐츠
 description: 조건부 콘텐츠
-seo-description: null
-page-status-flag: never-activated
-uuid: d1c38263-a163-448c-8822-8b3e776e45cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: 167cc61a-fbc7-48cb-89ff-fbdbf9321c01
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 2%
+source-wordcount: '471'
+ht-degree: 4%
 
 ---
 
@@ -114,7 +109,7 @@ ht-degree: 2%
    >
    >이메일 컨텐츠에 다른 버전이 정의되지 않은 경우 이메일을 보내기 전에 타겟 모집단을 필터링해야 합니다.
 
-## 조건부 컨텐츠로 다국어 뉴스레터를 만드는 방법 {#conditionnal-content-video}
+## 조건부 콘텐츠로 다국어 뉴스레터를 만드는 방법 {#conditionnal-content-video}
 
 다국어 뉴스레터의 예에 따라 게재에 조건부 컨텐츠를 추가하는 방법을 알아봅니다.
 
