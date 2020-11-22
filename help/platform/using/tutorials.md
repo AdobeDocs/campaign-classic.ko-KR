@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 자습서
-seo-title: 자습서
 description: 자습서
-seo-description: null
-page-status-flag: never-activated
-uuid: f335a7fc-5d79-4b3a-a422-98c9ef4f4562
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
 translation-type: tm+mt
-source-git-commit: 677d631a075f50a80c9379fff0c17d3d06c7e803
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 7%
+source-wordcount: '398'
+ht-degree: 8%
 
 ---
 
@@ -46,7 +41,7 @@ Adobe의 직관적인 단계별 가이드를 통해 Adobe Campaign을 사용해 
 
 제품 설명서 외에도 아래 나열된 캠페인 자체 도움말 리소스에 액세스할 수 있습니다.
 
-### 자습서 비디오
+### 튜토리얼 비디오
 
 비디오에서 Adobe Campaign의 주요 기능을 살펴볼 수 있습니다. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/overview.html)
 
