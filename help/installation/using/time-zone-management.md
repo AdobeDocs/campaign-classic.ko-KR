@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 시간대 관리
-seo-title: 시간대 관리
 description: 시간대 관리
-seo-description: null
-page-status-flag: never-activated
-uuid: b8926761-65e2-48fd-8689-2ae6b0596e72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: b9846eda-eeca-433e-b961-6dfc2aa2708b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -73,7 +68,7 @@ Adobe Campaign 플랫폼에 표준 시간대 관리가 필요하지 않은 경�
 
 >[!IMPORTANT]
 >
->Oracle **을**&#x200B;사용하는 경우 Oracle 클라이언트 레이어의 표준 시간대 파일(.dat)이 서버에 설치된 표준 시간대 파일과 호환되어야 합니다.
+>현재 **Oracle**&#x200B;를 사용하고 있는 경우, Oracle 클라이언트 레이어의 표준 시간대 파일(.dat)은 서버에 설치된 표준 시간대 파일과 호환되어야 합니다.
 
 데이터베이스가 UTC가 아닌 경우 드롭다운 목록에서 제공되는 시간대 중 하나를 선택할 수 있습니다. 서버의 시간대를 사용하거나 UTC(협정 세계시) 옵션을 선택할 수도 있습니다.
 
