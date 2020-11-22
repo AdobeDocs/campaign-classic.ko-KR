@@ -1,19 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 호환성 매트릭스
 description: 호환성 매트릭스
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3402212bc6904dd5587d3b5a16fca7f4857fb908
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -98,7 +95,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <td>
 <p>8</p>
 <p>9</p>
-<p>애플리케이션은 Oracle과 OpenJDK용으로 개발한 JDK(Java Development Kit)에 대해 승인되었습니다.</p>
+<p>이 애플리케이션은 OpenJDK뿐만 아니라 Oracle에서 개발한 JDK(Java Development Kit)에 대해 승인되었습니다.</p>
 </td>
 </tr>
 <tr>
@@ -176,7 +173,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 >
 >PostgreSQL은 호스팅 환경을 위한 기본 데이터베이스 서버입니다.
 
-## CRM connectors{#CRMconnectors}
+## CRM 커넥터{#CRMconnectors}
 
 <table>
 <tbody>
@@ -201,8 +198,8 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>MS Dynamics</td>
 <td>
-<p>Soap API - 온-프레미스:2007년, 2015년, 2016년</p>
-<p>Soap API - 온라인:2015년, 2016년</p>
+<p>Soap API - 온-프레미스: 2007년, 2015년, 2016년</p>
+<p>Soap API - 온라인: 2015년, 2016년</p>
 <p>웹 API - 온-프레미스 및 온라인:2016년 365월 업데이트 1</p>
 </td>
 </tr>
@@ -214,7 +211,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <table>
 <tbody>
 <tr>
-<td>Microsoft Azure 구문 분석</td>
+<td>Microsoft Azure synapse 분석</td>
 <td> </td>
 </tr>
 <tr>
@@ -263,7 +260,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 </td>
 </tr>
 <tr>
-<td>네테차</td>
+<td>Netezza</td>
 <td>
 <p>7.2</p>
 </td>
@@ -281,7 +278,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <p>버전 1 SP12 이상</p>
 </td>
 </tr>
-<tr><td>HiveSQL을 통한 Hadoop</td>
+<tr><td>하이브를 통해 hadoop</td>
 <td>
 <p>HortonWorks HDP 2.4.X, 2.5.x, 2.6.x</p>
 <p>HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)</p>
