@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 대상 모집단 정의
-seo-title: 대상 모집단 정의
 description: 대상 모집단 정의
-seo-description: null
-page-status-flag: never-activated
-uuid: 8bf70ea4-5f28-4d85-b5ce-0bd3ed3eea55
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 translation-type: tm+mt
-source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1572'
 ht-degree: 2%
 
 ---
@@ -230,7 +225,7 @@ For more on proof sending, refer to [this section](../../delivery/using/steps-va
 
 이 옵션을 사용하여 특정 증명 대상의 정의와 시드 주소의 사용을 결합할 수 **[!UICONTROL Specific target and Seed addresses]** 있습니다. 그런 다음 관련 구성은 두 개의 개별 하위 탭에서 정의됩니다.
 
-## How to manage seed and proofs in an email {#seeds-and-proofs-video}
+## 이메일에서 시드 및 증명을 관리하는 방법 {#seeds-and-proofs-video}
 
 이 비디오에서는 기존 이메일에 씨드(sed) 및 교정을 추가하는 방법과 보내는 방법을 살펴봅니다.
 
