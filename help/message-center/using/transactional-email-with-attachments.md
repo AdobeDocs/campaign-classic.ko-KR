@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic을 사용하여 트랜잭션 메시지에 첨부 파일 추가
 description: Adobe Campaign Classic을 사용하여 개인 및/또는 개인화된 첨부 파일을 통해 거래 기반의 이메일을 전송하는 방법 살펴보기
-page-status-flag: never-activated
-uuid: 4452d839-318a-49d8-8abb-4ba04c803e9f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: use-case
-discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 1%
