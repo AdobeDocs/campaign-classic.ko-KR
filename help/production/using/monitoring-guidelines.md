@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 모니터링 지침
 description: Campaign 인스턴스 및 프로세스를 모니터링하기 위한 지침과 모범 사례를 알아봅니다.
-page-status-flag: never-activated
-uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: introduction
-discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 7%
