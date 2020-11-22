@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 공유 연결 만들기
-seo-title: 공유 연결 만들기
 description: 공유 연결 만들기
-seo-description: null
-page-status-flag: never-activated
-uuid: 30d6d23b-72c6-4454-8d6b-a10102f89262
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-discoiquuid: 7f471ac1-cd6a-4371-977e-52d60ce8d968
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 3%
+source-wordcount: '998'
+ht-degree: 2%
 
 ---
 
@@ -78,7 +73,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >HTTP를 통해 FDA를 사용하는 경우 PostgreSQL 데이터베이스를 사용하는 실행 인스턴스만 지원됩니다. MSSQL 또는 Oracle 데이터베이스는 지원되지 않습니다.
+   >HTTP를 통해 FDA를 사용하는 경우 PostgreSQL 데이터베이스를 사용하는 실행 인스턴스만 지원됩니다. MSSQL 또는 Oracle 데이터베이스가 지원되지 않습니다.
 
    두 번째 방법은 제어 인스턴스가 실행 인스턴스의 데이터베이스에 직접 액세스하는 경우 권장됩니다. 그렇지 않은 경우 웹 서비스 액세스를 선택합니다. 지정할 FDA 계정은 제어 인스턴스에서 만들어진 다양한 실행 인스턴스의 데이터베이스에 대한 연결과 일치합니다.
 
