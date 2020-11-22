@@ -1,21 +1,18 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 워크플로우 사용 사례 기본 정보
 description: Campaign Classic 워크플로우를 사용하여 수행할 수 있는 사용 사례에 대해 자세히 알아보십시오.
-page-status-flag: never-activated
-uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: workflow
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00a9b7def9d0ad0190c389c6bcde431f8e2f2b44
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 46%
+ht-degree: 66%
 
 ---
 
@@ -36,7 +33,7 @@ ht-degree: 46%
 * [게재 콘텐츠 로드](../../workflow/using/loading-delivery-content.md)
 * [크로스 채널 게재 워크플로우](../../workflow/using/cross-channel-delivery-workflow.md)
 * [사용자 지정 날짜 필드를 사용한 전자 메일 강화](../../workflow/using/email-enrichment-with-custom-date-fields.md)
-* [컨텐츠 제작, 에디션 및 게시 자동화](../../delivery/using/automating-via-workflows.md#examples)
+* [콘텐츠 만들기, 에디션 및 게시 자동화](../../delivery/using/automating-via-workflows.md#examples)
 
 ## 모니터링 {#monitoring}
 
@@ -45,7 +42,7 @@ ht-degree: 46%
 * [목록으로 보고서 보내기](../../workflow/using/sending-a-report-to-a-list.md)
 * [워크플로우 감독](../../workflow/using/supervising-workflows.md)
 * [운영자에게 개인화된 경고 보내기](../../workflow/using/sending-personalized-alerts-to-operators.md)
-* [배달이 전송되기 전에 수신자 승인 프로세스 설정](../../workflow/using/using-the-local-approval-activity.md)
+* [게재가 전송되기 전에 수신자 승인 프로세스 설정](../../workflow/using/using-the-local-approval-activity.md)
 
 ## 데이터 관리 {#management}
 
@@ -59,7 +56,7 @@ ht-degree: 46%
 * [Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [증분 쿼리를 사용한 분기별 목록 업데이트](../../workflow/using/quarterly-list-update.md)
 
-## 타깃팅 {#designing-queries}
+## {#designing-queries} 타겟팅 
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
