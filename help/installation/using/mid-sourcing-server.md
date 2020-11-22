@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 캠페인에 mid-sourcing 서버 설치
 description: 이 섹션에서는 Campaign에서 mid 소싱 서버의 설치 및 구성에 대해 자세히 설명합니다
-page-status-flag: never-activated
-uuid: 9b891a64-d75e-44d2-8de2-17334e1b8dca
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: 34ee3d99-4ffb-4279-b994-5ab7abc7cf06
 translation-type: tm+mt
-source-git-commit: 544fa260f9b35239a8fa8fbc141463a7b1898026
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
