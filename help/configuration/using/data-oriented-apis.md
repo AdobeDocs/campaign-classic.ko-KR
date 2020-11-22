@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 데이터 지향 API
-seo-title: 데이터 지향 API
 description: 데이터 지향 API
-seo-description: null
-page-status-flag: never-activated
-uuid: f81356b3-8eef-4b65-9510-47c9d4b4e871
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: fba46d42-0253-425b-bbc2-6702d4140e05
 translation-type: tm+mt
-source-git-commit: 63b208e5607bdcddaef03292d229847c4b7366f8
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1881'
 ht-degree: 0%
 
 ---
@@ -606,7 +601,7 @@ XPath **구문은** 입력 스키마를 기반으로 데이터를 찾는 데 사
 >
 >폴더 요소에 입력된 작업 &quot;없음&quot;은 업데이트나 삽입 없이 폴더의 조정을 정의합니다.
 
-#### Example 2 {#example-2}
+#### 예제 2 {#example-2}
 
 받는 사람으로부터 회사(&quot;cus:company&quot; 스키마의 링크 테이블) 업데이트:
 
