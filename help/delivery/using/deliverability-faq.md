@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic의 전달 능력 관리 시 주요 내용
 description: Adobe Campaign Classic에서 배송 기능을 관리할 때 확인해야 할 주요 사항은 무엇입니까?
-page-status-flag: never-activated
-uuid: 2681042b-3018-42ae-b252-2367b56616bd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 0%
