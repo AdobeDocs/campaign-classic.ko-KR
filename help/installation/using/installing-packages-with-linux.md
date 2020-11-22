@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Linux를 사용하여 패키지 설치
-seo-title: Linux를 사용하여 패키지 설치
 description: Linux를 사용하여 패키지 설치
-seo-description: null
-page-status-flag: never-activated
-uuid: d83f00b5-500b-406a-a3d6-ea5639f244f0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-discoiquuid: 04faa9f3-d160-4060-b26e-44333f2faf71
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1205'
 ht-degree: 1%
 
 ---
@@ -187,7 +182,7 @@ export neolane_LANG=fra
 
 필요한 경우 **vi customer.sh** 명령을 사용하여 **customer.sh** 파일을 편집하고 구성을조정하거나 누락된 줄을 추가합니다.
 
-* Oracle 클라이언트의 경우
+* oracle 클라이언트의 경우
 
    ```
    export ORACLE_HOME=/usr/local/instantclient_10_2
@@ -195,7 +190,7 @@ export neolane_LANG=fra
    export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
    ```
 
-   ORACLE_HOME 환경 변수의 컨텐츠는 Oracle 설치 디렉토리와 일치합니다.
+   oracle_HOME 환경 변수의 내용은 Oracle 설치 디렉토리와 일치합니다.
 
    TNS_ADMIN 변수의 컨텐츠는 tnsnames.ora **파일의 위치와 일치해야** 합니다.
 
@@ -257,9 +252,9 @@ systemctl stop nlserver
 systemctl start nlserver
 ```
 
-### Linux의 Oracle 클라이언트 {#oracle-client-in-linux}
+### Linux의 oracle 클라이언트 {#oracle-client-in-linux}
 
-Oracle을 Adobe Campaign과 함께 사용하는 경우 Linux에서 Oracle 클라이언트 레이어를 구성해야 합니다.
+oracle을 Adobe Campaign과 함께 사용하는 경우 Linux에서 Oracle 클라이언트 레이어를 구성해야 합니다.
 
 * 전체 클라이언트 사용
 * TNS 정의
@@ -279,7 +274,7 @@ Oracle을 Adobe Campaign과 함께 사용하는 경우 Linux에서 Oracle 클라
 
 * Adobe Campaign 구성
 
-   Adobe Campaign용 Oracle 클라이언트 설치를 완료하려면 Adobe Campaign에서 사용하는 **.so** 파일에 대한 상징적 링크를 생성해야 합니다.
+   Adobe Campaign용 Oracle 클라이언트 설치를 마무리하려면 Adobe Campaign에서 사용하는 **.so** 파일에 대한 상징적 링크를 만들어야 합니다.
 
    이렇게 하려면 다음 명령을 사용합니다.
 
@@ -288,7 +283,7 @@ Oracle을 Adobe Campaign과 함께 사용하는 경우 Linux에서 Oracle 클라
    ln -s libclntsh.so.10.1 libclntsh.so
    ```
 
-문제가 발생하면 [Oracle 설치 설명서에](https://www.oracle.com/pls/db112/portal.portal_db?selected=11) 나열된 패키지가 올바르게 설치되었는지 확인하십시오.
+문제가 발생하면 [Oracle 설치 설명서에](https://www.oracle.com/pls/db112/portal.portal_db?selected=11) 나와 있는 패키지가 올바르게 설치되었는지 확인하십시오.
 
 ## 설치 검사 {#installation-checks}
 
