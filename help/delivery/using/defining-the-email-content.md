@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic에서 이메일 컨텐츠 정의
 description: Adobe Campaign Classic 사용 시 이메일 컨텐츠를 정의하는 방법을 알아봅니다.
-page-status-flag: never-activated
-uuid: ddcc2e3b-e251-4a7a-a22a-28701522839f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '2887'
 ht-degree: 1%
@@ -141,7 +138,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
-   메시지에는 두 형식 모두 포함됩니다.텍스트 및 HTML을 참조하십시오. 수신에 표시되는 형식은 받는 사람의 메일 소프트웨어(다중 부분 대체)의 구성에 따라 달라집니다.
+   메시지에는 두 형식 모두 포함됩니다.텍스트 및 HTML을 참조하십시오. 
 
    >[!IMPORTANT]
    >
