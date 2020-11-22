@@ -1,24 +1,20 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 메시지 추적 및 모니터링
-seo-title: 메시지 추적 및 모니터링
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
 
 
-# 추적 및 모니터 {#track-and-monitor}
+# 추적 및 모니터링 {#track-and-monitor}
 
 전송 버튼을 클릭했습니까? 어떻게 되는지 봅시다. 배달이 전송되면 Adobe Campaign을 통해 보낸 메시지를 추적하고 수신자가 전달에 어떻게 반응하는지 알 수 있습니다. 이를 통해 향후 전송을 개선하고 다음 캠페인을 최적화할 수 있습니다.
 
