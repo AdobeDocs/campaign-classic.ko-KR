@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic 사용 시 평판 향상
 description: Adobe Campaign Classic 사용 시 평판 개선에 대한 자세한 내용을 살펴보십시오.
-page-status-flag: never-activated
-uuid: 2681042b-3018-42ae-b252-2367b56616bd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 2%
