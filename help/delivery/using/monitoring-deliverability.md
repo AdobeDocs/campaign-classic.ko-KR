@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic의 모니터링 제공
 description: Adobe Campaign Classic의 전달 능력 모니터링에 대한 도구 및 지침에 대해 알아보십시오.
-page-status-flag: never-activated
-uuid: 0b5c5dbd-f532-4d8a-a255-9e6d88357d8d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 2%
