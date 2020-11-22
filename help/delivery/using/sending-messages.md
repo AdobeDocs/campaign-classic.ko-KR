@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic으로 이메일 보내기
 description: 이메일 전달 매개 변수에 대한 자세한 내용
-page-status-flag: never-activated
-uuid: 791f7a54-3225-46ca-ad6f-6c32e9c62d75
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: e2dd8161-fe38-48bf-a288-8ec328b2660e
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 8%
