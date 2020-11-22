@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 연결 실패
-seo-title: 연결 실패
 description: 연결 실패
-seo-description: null
-page-status-flag: never-activated
-uuid: 5e4cf47d-9699-4b4c-9c45-064fdc17110a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 493067fb-68f1-48b9-afaa-3127a847db83
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 3%
+source-wordcount: '345'
+ht-degree: 2%
 
 ---
 
@@ -50,7 +45,7 @@ ht-degree: 3%
 
    * Adobe Campaign이 제대로 통합되었습니까?
 
-      다음에 로그온합니다. **http(s)://`<urlserver>`/r/test** URL. 서버는 다음 유형의 메시지를 반환해야 합니다.
+      다음에 로그온합니다. **http(s):// `<urlserver>`/r/test** URL. 서버는 다음 유형의 메시지를 반환해야 합니다.
 
       ```
       <redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='<hostname>' localHost='<server>'/>
