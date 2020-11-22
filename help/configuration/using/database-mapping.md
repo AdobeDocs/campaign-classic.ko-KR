@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 데이터베이스 매핑
-seo-title: 데이터베이스 매핑
 description: 데이터베이스 매핑
-seo-description: null
-page-status-flag: never-activated
-uuid: a51df3eb-cae6-4e8d-8386-d62defc1b610
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-discoiquuid: bc06c00d-f421-452e-bde0-b4ecc12c72c8
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -310,7 +305,7 @@ ACC 18.10에서 **XtkNewId** 는 더 이상 기본 스키마에서 시퀀스의 
 
 >[!NOTE]
 >
->Adobe Campaign 스키마에서 참조되는 시퀀스(**예: NmsTrackingLogId** )는 매개 변수의 ID 수를 쉼표로 구분하여 반환하는 SQL 함수와 연결해야 합니다. 이 함수를 ******GetNewXXXIds**&#x200B;라고 해야 합니다. 여기서 **XXX는** 시퀀스 이름(**예: GetNewNmsTrackingLogIds** )입니다. 각 데이터베이스 엔진에 대한 &#39; **NmsTrackingLogId&#39; 시퀀스 생성**&#x200B;의 예를 복구하기 위해 datakit/ms/eng/sql/sql/directory에서 응용 프로그램과 함께 **제공된 postgres-nms.sql** , **mssql-nms.sql** 또는 **oracle-nms.sql** 파일을 봅니다.
+>Adobe Campaign 스키마에서 참조되는 시퀀스(**예: NmsTrackingLogId** )는 매개 변수의 ID 수를 쉼표로 구분하여 반환하는 SQL 함수와 연결해야 합니다. 이 함수를 ******GetNewXXXIds**&#x200B;라고 해야 합니다. 여기서 **XXX는** 시퀀스 이름(**예: GetNewNmsTrackingLogIds** )입니다. 각 데이터베이스 엔진에 대한 &#39; **NmsTrackingLogId&#39; 시퀀스 생성**&#x200B;예를 복구하려면 datakit/nms/eng/sql/sql/directory에서 응용 프로그램과 함께 **제공된 postgres-nms.sql** , **mssql-nms.sql** 또는 **oracle-nms.sql** 파일을봅니다.
 
 고유 키를 선언하려면 데이터 스키마의 주 요소에 **자동** 속성(값 &quot;true&quot;로)을 채웁니다.
 
@@ -478,7 +473,7 @@ FDA 표에 대한 자세한 내용은 외부 데이터베이스 [액세스를 �
 * **언바운드**:링크는 1N 기수에 대한 컬렉션 요소로 선언됩니다(기본적으로).
 * **무결성**:&quot;define&quot;을 기본적으로 지정합니다(소스 스키마의 링크 정의에 &quot;revIntegrity&quot; 속성으로 강제 적용 가능).
 
-### Example 2 {#example-2}
+### 예제 2 {#example-2}
 
 이 예에서는 &quot;nms:address&quot; 스키마 테이블에 대한 링크를 선언합니다. 조인은 외부 조인으로 받는 사람의 이메일 주소와 연결된 테이블의 &quot;@address&quot; 필드(&quot;nms:address&quot;)로 명시적으로 채워집니다.
 
