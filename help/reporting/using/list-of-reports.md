@@ -274,7 +274,7 @@ Adobe Campaign에서 제공하는 내장 보고서는 아래 표에 나와 있�
 
 ## 시뮬레이션에 대한 보고서 {#reports-on-simulations}
 
-시뮬레이션에 대한 보고서는 **nms:simulation** 표의 데이터에 대해 다룹니다.
+시뮬레이션에 대한 보고서는 **nms:simulation** 표의 데이터를 고려합니다.
 
 Adobe Campaign에서 제공하는 내장 보고서는 아래 표에 나와 있습니다.
 
