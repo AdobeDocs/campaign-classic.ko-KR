@@ -1,24 +1,20 @@
 ---
-title: 적합한 고객 정의
-seo-title: 적합한 고객 정의
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
+solution: Campaign Classic
+product: campaign
+title: 적합한 대상 정의
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '474'
+ht-degree: 3%
 
 ---
 
 
-# 적합한 고객 정의 {#define-the-right-audience}
+# 적합한 대상 정의 {#define-the-right-audience}
 
 타깃팅된 모집단:목록을 주의 깊게 만들고, 인기 있는 이메일 클라이언트 및 모바일 디바이스에서 이메일을 테스트하고, 이메일 목록이 최신(알 수 없거나 오래된 주소 없음)인지 확인합니다. 또한 전체 인증 주기를 설정하는 데 도움이 되는 교정을 전송할 수 있습니다.
 
