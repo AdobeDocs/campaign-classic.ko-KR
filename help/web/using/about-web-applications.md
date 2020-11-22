@@ -1,24 +1,21 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 웹 애플리케이셔 기본 정보
 description: 동적 웹 응용 프로그램, 랜딩 페이지 및 설문 조사를 만들고 공유할 수 있습니다.
-page-status-flag: never-activated
-uuid: acfa6e5e-b503-4a1a-871e-e70007874f57
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-applications
-discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
 
-# 웹 애플리케이션 시작하기{#about-web-applications}
+# 웹 애플리케이션 시작{#about-web-applications}
 
 Adobe Campaign을 사용하면 데이터베이스의 데이터와 인터넷에 연결된 사용자의 권한에 맞는 컨텐츠가 포함된 다이내믹하고 인터랙티브한 웹 애플리케이션을 제작하여 게시할 수 있습니다.
 
