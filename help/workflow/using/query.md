@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 쿼리
 description: 쿼리 워크플로우 활동에 대한 자세한 내용
-page-status-flag: never-activated
-uuid: 32f4f467-5083-414f-8616-1aa4bf2b5867
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: b53d9810-f61f-4257-b410-e4d30f78429d
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -27,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Oracle 사용 시 쿼리 활동은 CLOB 필드와 호환하지 않습니다.
+>oracle 사용 시 쿼리 활동이 CLOB 필드와 호환되지 않습니다.
 
 ![](assets/s_user_segmentation_wizard_9.png)
 
