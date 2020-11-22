@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 표준 배포
-seo-title: 표준 배포
 description: 표준 배포
-seo-description: null
-page-status-flag: never-activated
-uuid: e2f9c4d9-4b36-4899-9954-493135597057
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: d714b759-cc08-4656-876c-9820d5c56216
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -59,7 +54,7 @@ LAN의 응용 프로그램 서버는 최종 사용자를 지원하며 모든 반
    * 가상 IP 주소(VIP)에서 로드 밸런서를 추적 및 가리키기 위해 처음으로 대중에게 노출되었으며, 이렇게 해서 두 개의 정면 서버로 배포됩니다.
    * 콘솔을 통해 동일한 응용 프로그램 서버를 가리키는 두 번째 액세스 권한이 내부 사용자에게 노출됩니다.
 
-* STMP(25), DNS(53), HTTP(80), HTTPS(443), SQL(Oracle의 경우 1521, PostgreSQL의 경우 5432) 등을 열도록 구성된 방화벽 포트. 자세한 내용은 데이터베이스 액세스 [섹션을 참조하십시오](../../installation/using/network-configuration.md#database-access).
+* STMP(25), DNS(53), HTTP(80), HTTPS(443), SQL(Oracle의 경우 1521, PostgreSQL의 경우 5432)을 열도록 구성된 방화벽 포트. 자세한 내용은 데이터베이스 액세스 [섹션을 참조하십시오](../../installation/using/network-configuration.md#database-access).
 
 ### 응용 프로그램 서버 설치 {#installing-the-application-server}
 
