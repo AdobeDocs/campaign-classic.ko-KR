@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 외부 계정
 description: 외부 계정을 만드는 방법 살펴보기
-page-status-flag: never-activated
-uuid: e06e7a36-b449-4ab0-a4f6-fa82dbb8de11
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-discoiquuid: da60b9ca-4b51-4bff-affc-2b12c576973a
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1675'
 ht-degree: 10%
@@ -37,7 +34,7 @@ Adobe Campaign에는 미리 정의된 외부 계정 집합이 포함되어 있�
 * [Adobe Experience Manager 외부 계정](#adobe-experience-manager-external-account)
 * [Amazon Simple Storage Service (S3) 외부 계정](#amazon-simple-storage-service--s3--external-account)
 * [Microsoft Dynamics CRM 외부 계정](#microsoft-dynamics-crm-external-account)
-* [Oracle on-demand 외부 계정](#oracle-on-demand-external-account)
+* [Oracle 주문형 외부 계정](#oracle-on-demand-external-account)
 * [Salesforce CRM 외부 계정](#salesforce-crm-external-account)
 
 ## 외부 계정 만들기 {#creating-an-external-account}
@@ -151,14 +148,14 @@ Campaign과 호환되는 외부 데이터베이스는 [호환성 매트릭스에
 
 외부 계정 구성 설정은 데이터베이스 엔진에 따라 다릅니다. 다음 섹션에서 자세한 내용을 살펴보십시오.
 
-* Azure [Synapse 액세스 구성](../../installation/using/configure-fda-synapse.md)
-* Hadoop에 대한 액세스 [구성](../../installation/using/configure-fda-hadoop.md)
-* Oracle에 대한 액세스 [구성](../../installation/using/configure-fda-oracle.md)
-* Netezza 액세스 [구성](../../installation/using/configure-fda-netezza.md)
-* SAP [HANA에 대한 액세스 구성](../../installation/using/configure-fda-sap-hana.md)
+* [Azure synapse 액세스 구성](../../installation/using/configure-fda-synapse.md)
+* [Hadoop 액세스 구성](../../installation/using/configure-fda-hadoop.md)
+* [Oracle 액세스 구성](../../installation/using/configure-fda-oracle.md)
+* [Netezza 액세스 구성](../../installation/using/configure-fda-netezza.md)
+* [SAP HANA 액세스 구성](../../installation/using/configure-fda-sap-hana.md)
 * Snowflake에 대한 액세스 [구성](../../installation/using/configure-fda-snowflake.md)
-* Sybase [IQ에 대한 액세스 구성](../../installation/using/configure-fda-sybase.md)
-* 메타데이터 액세스 [구성](../../installation/using/configure-fda-teradata.md)
+* [Sybase IQ 액세스 구성](../../installation/using/configure-fda-sybase.md)
+* [Teradata 액세스 구성](../../installation/using/configure-fda-teradata.md)
 
 ## 웹 분석 외부 계정 {#web-analytics-external-account}
 
@@ -410,25 +407,25 @@ Microsoft Dynamics의 개발자 리소스 대시보드에 있는 조직 **[!UICO
 
 For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md#example-for-microsoft-dynamics).
 
-## Oracle on-demand 외부 계정 {#oracle-on-demand-external-account}
+## Oracle 주문형 외부 계정 {#oracle-on-demand-external-account}
 
-외부 계정을 사용하여 Oracle 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. **[!UICONTROL Oracle on demand]**
+외부 계정을 사용하면 Oracle 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. **[!UICONTROL Oracle on demand]**
 
 ![](assets/ext_account_18.png)
 
-Oracle on-demand 외부 계정이 Adobe Campaign과 연동되도록 구성하려면 다음 세부 정보를 제공해야 합니다.
+Adobe Campaign과 연동되도록 Oracle 온디맨드 외부 계정을 구성하려면 다음 세부 정보를 제공해야 합니다.
 
 * **[!UICONTROL Account]**
 
-   Oracle CRM on Demand에 로그인하는 데 사용되는 계정입니다.
+   oracle CRM on-demand에 로그인하는 데 사용되는 계정입니다.
 
 * **[!UICONTROL Server]**
 
-   Oracle CRM on demand 서버의 URL.
+   oracle CRM 온디맨드 서버의 URL.
 
 * **[!UICONTROL Password]**
 
-   Oracle CRM on Demand에 로그인하는 데 사용되는 비밀번호입니다.
+   oracle CRM on-demand에 로그인하는 데 사용되는 암호입니다.
 
 For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md#example-for-oracle-on-demand).
 
