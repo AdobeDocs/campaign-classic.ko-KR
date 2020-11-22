@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 외부 데이터베이스에 액세스할 수 있는 권한
 description: 외부 데이터베이스 액세스 권한
-page-status-flag: never-activated
-uuid: b84359b9-c584-431d-80d5-71146d9b6854
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -32,7 +29,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >Oracle에서 **:base** 부분은 선택 사항입니다.
+      >oracle에서 **기본** 부분은 선택 사항입니다.
 
 1. 이름을 저장한 다음 Adobe Campaign 탐색기의 노드에서 선택한 사용자에게 **[!UICONTROL Administration > Access Management > Operators]** 연결합니다.
 
@@ -66,7 +63,7 @@ ht-degree: 1%
 | **클라이언트 데이터에 액세스** | (향후) 테이블 또는 뷰 권한을 선택합니다. | 권한 선택 | 테이블 권한 선택 또는 선택 | 권한 선택 | 권한 선택 | 권한 선택 |
 | **메타데이터 액세스** | INFORMATION_SCHEMA 권한 선택 | 권한 선택 | DESCRIBE 문을 사용하는 데 필요한 권한 없음 | 정의 권한 보기 | &quot;\d table&quot; 명령을 사용할 권한이 없습니다. | 권한 선택 |
 
-|   | DB2 UDB | TeraData | InfiniDB | Sybase IQ / Sybase ASE | 네테차 | 그린플럼 | AsterData |
+|   | DB2 UDB | teradata | InfiniDB | sybase IQ / Sybase ASE | Netezza | 그린플럼 | AsterData |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | **원격 데이터베이스에 연결** | CONNECT 당국 | CONNECT 권한 | 모든 권한이 있는 원격 호스트에 연결된 사용자 만들기 | CONNECT 문을 사용할 권한이 없습니다. | 권한 필요 없음 | CONNECT 권한 | CONNECT 권한 |
 | **표 만들기** | CREATETAB 권한 | 표 또는 표 키워드 만들기 | 권한 만들기 | 리소스 권한 및 만들기 권한 | 테이블 권한 | 권한 만들기 | 권한 만들기 |
