@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 애플리케이션 서버
-seo-title: 애플리케이션 서버
 description: 애플리케이션 서버
-seo-description: null
-page-status-flag: never-activated
-uuid: 837c6a5c-53a4-4d1b-a084-9cf77e7a0eee
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-discoiquuid: 7a9e028c-255d-4aad-9827-d19f9a7897b2
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '498'
 ht-degree: 1%
 
 ---
@@ -30,7 +25,7 @@ ht-degree: 1%
 
 Flash Player는 동적 웹 페이지(보고서, 웹 양식 등)를 생성하는 데 사용되는 서블릿 컨테이너, Apache Tomcat **을 통합하기 때문에, 먼저 Adobe Campaign 응용 프로그램 서버(서버 웹** 프로세스)를 실행할 컴퓨터에 JDK를 설치해야 합니다.
 
-애플리케이션은 Oracle과 **OpenJDK용으로 개발한 JDK(Java Development Kit)에 대해 승인되었습니다**.
+이 애플리케이션은 OpenJDK뿐만 아니라 Oracle에서 개발한 JDK(Java Development Kit) **에 대해 승인되었습니다**.
 
 지원되는 버전은 캠페인 [호환성 매트릭스에 자세히 설명되어 있습니다](../../rn/using/compatibility-matrix.md).
 
