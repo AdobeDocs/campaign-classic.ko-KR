@@ -1,26 +1,23 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 업그레이드 FAQ 구축
 description: 캠페인 빌드 업그레이드와 관련된 일반적인 질문
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '2020'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 
 # 빌드 업그레이드 FAQ {#build-upgrade-faq}
 
-Adobe Campaign은 정기적으로 업데이트 된다. Adobe의 게시된 릴리스 [노트를](../../rn/using/rn-overview.md)잘 알고 계시다면 새로운 기능이 포함된 평균 2/3의 보조 버전, 개선 사항 및 수정 사항이 매년 발표된다는 사실을 알고 계실 것입니다. 또한 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다. 이러한 정기 업데이트는 최신 업데이트를 직접 경험해 보고 환경을 완전히 안전하게 지키고 Adobe 제품을 통해 경험을 향상시키는 것을 목표로 합니다.
+Adobe Campaign은 정기적으로 업데이트 됩니다. Adobe의 게시된 릴리스 [노트를](../../rn/using/rn-overview.md)잘 알고 계시다면 새로운 기능이 포함된 평균 2/3의 보조 버전, 개선 사항 및 수정 사항이 매년 발표된다는 사실을 알고 계실 것입니다. 또한 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다. 이러한 정기 업데이트는 최신 업데이트를 직접 경험해 보고 환경을 완전히 안전하게 지키고 Adobe 제품을 통해 경험을 향상시키는 것을 목표로 합니다.
 
 고객이 최신 버전의 Adobe Campaign을 실행하는 것은 매우 중요합니다. 또한 Adobe을 사용하면 기존 빌드의 문제를 식별, 복제 및 수정하는 등 문제가 발생하는 경우 일반적으로 시간이 더 오래 걸리고, 일부 문제가 최근 빌드에서 이미 잘 수정되었을 수도 있습니다.
 
