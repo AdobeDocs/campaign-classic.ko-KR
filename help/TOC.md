@@ -1,16 +1,17 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Classic 안내서
-breadcrumb-title: Campaign Classic 안내서
+breadcrumb-title: Campaign Classic
+product: campaign
+title: Campaign Classic 안내서
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: 마케팅 투자에 대한 높은 수익을 제공하는 크로스 채널 마케팅 Campaign을 설계, 계획, 실행, 관리 및 최적화할 수 있습니다.
-product: adobe campaign
+solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2169'
 ht-degree: 97%
 
 ---
