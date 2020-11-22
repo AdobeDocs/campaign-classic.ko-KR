@@ -138,7 +138,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
-   메시지에는 두 형식 모두 포함됩니다.텍스트 및 HTML을 참조하십시오. 
+   메시지에는 두 형식 모두 포함됩니다.텍스트 및 HTML을 참조하십시오. 수신에 표시되는 형식은 받는 사람의 메일 소프트웨어(다중 부분 대체)의 구성에 따라 달라집니다.
 
    >[!IMPORTANT]
    >
