@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 트랜잭션 메시지 기본 정보
 description: '정보 시스템에서 생성된 이벤트를 기반으로 트리거 메시지를 전송할 수 있습니다. '
-page-status-flag: never-activated
-uuid: c854daac-8756-44f3-a4e2-be31177ab9d1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: introduction
-discoiquuid: 97df4bd5-a8e3-48f4-87c8-fa090ea3f771
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 9%
