@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 오퍼 카탈로그 개요
 description: Campaign의 오퍼 카탈로그에 대한 자세한 내용
-page-status-flag: never-activated
-uuid: 97b3bebc-4c82-42d3-ae6e-6642caa17687
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-discoiquuid: 762b0233-4b2a-420c-ba28-240cfba362e8
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 4%
