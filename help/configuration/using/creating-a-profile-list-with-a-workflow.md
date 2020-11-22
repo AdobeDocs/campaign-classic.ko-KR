@@ -1,19 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 워크플로우를 사용하여 프로필 목록 만들기
 description: 워크플로우에서 프로필 목록을 만드는 방법 살펴보기
-page-status-flag: never-activated
-uuid: a30f7217-fe82-4290-b1e6-e7a126a316c1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: ba42c3cf-31fc-4fbc-b230-a2b3982328c5
 translation-type: tm+mt
-source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
