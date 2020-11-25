@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: affc541c480ad7e618120fe90270841add06b711
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 5%
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 5%
    <tr> 
    <td> <span class="uicontrol">MessageCenter 전체 집계 계산</span> <br /> </td> 
    <td> <span class="uicontrol">agg_messageCenter_full</span> <br /> </td> 
+   <td> 이 워크플로우는 <strong>메시지 센터</strong> 큐브에 대한 전체 <strong>집계를</strong> 업데이트합니다. 기본적으로 매일 오전 3시에 트리거됩니다. 이 집계는 다음 차원을 캡처합니다.채널, 날짜, 상태 및 이벤트 유형.<br /> 그런 다음 <strong>메시지 센터</strong> 큐브를 사용하여 이벤트를 기반으로 보고서를 생성합니다. 이 섹션에서 정육면체에 대해 자세히 알아볼 수 <a href="../../reporting/using/about-cubes.md">있습니다</a>.<br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 
