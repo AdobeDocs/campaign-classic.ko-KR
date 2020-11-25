@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 97e039e48068e3862bc6640711efe54f21fc0f15
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 6%
+source-wordcount: '2043'
+ht-degree: 5%
 
 ---
 
@@ -78,6 +78,8 @@ Adobe Experience Cloud 개인 정보에 대한 자세한 내용은 [이 페이�
 * **개인 데이터는** 살아있는 개인을 직접 또는 간접적으로 식별할 수 있는 정보입니다.
 * **민감한 개인 데이터는** 노동 조합 회원뿐 아니라 개인의 인종, 정치적 관점, 종교적 신념, 범죄 배경, 유전자 정보, 건강 정보, 성적 선호도, 생체 인식 정보 등과 관련된 정보입니다.
 
+Adobe Campaign을 [Adobe Analytics](../../platform/using/adobe-analytics-data-connector.md), [Audience Manager 또는 핵심 서비스](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), Campaign Standard [, 또는 CRM 커넥터를 통해 다른 솔루션과 통합할 수 있는 다른 Experience Cloud 솔루션과 통합하면](../../integrations/using/synchronizing-audiences.md)[](../../platform/using/crm-connectors.md)개인 데이터 보호에 추가 비용을 지불해야 합니다.
+
 기본 [규정](#privacy-regulations) 은 다음과 같이 데이터를 관리하는 서로 다른 개체를 의미합니다.
 * 데이터 **컨트롤러는** 개인 데이터를 수집, 사용 및 공유하는 방법과 목적을 결정하는 기관입니다.
 * 데이터 **프로세서는** 데이터 관리자의 지시에 따라 개인 데이터를 수집, 사용 또는 공유하는 개인 또는 당사자입니다.
@@ -85,7 +87,31 @@ Adobe Experience Cloud 개인 정보에 대한 자세한 내용은 [이 페이�
 
 따라서 개인 데이터를 수집 및 공유하는 회사는 데이터 관리자이며, 클라이언트는 데이터 주체이며, Adobe Campaign은 데이터 프로세서의 역할을 합니다. 개인정보 보호 요청을 관리할 때와 같이 데이터 주체와의 관계를 처리하는 것은 데이터 [관리자로서 귀하의 책임입니다](#privacy-requests).
 
-Adobe Campaign을 [Adobe Analytics](../../platform/using/adobe-analytics-data-connector.md), [Audience Manager 또는 핵심 서비스](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), Campaign Standard [, 또는 CRM 커넥터를 통해 다른 솔루션과 통합할 수 있는 다른 Experience Cloud 솔루션과 통합하면](../../integrations/using/synchronizing-audiences.md)[](../../platform/using/crm-connectors.md)개인 데이터 보호에 추가 비용을 지불해야 합니다.
+### 사용 사례 시나리오 {#use-case-scenario}
+
+서로 다른 고객의 상호 작용을 보여주기 위해 GDPR 고객 경험의 예를 들어보겠습니다.
+
+이 예에서는 항공사 회사가 Adobe Campaign 고객입니다. 이 회사는 **데이터 관리자이며** 항공사의 모든 클라이언트는 **데이터 피험자입니다**. 로라는 이 특별한 경우에 항공사 고객이다.
+
+다음은 이 예제에서 사용되는 다양한 개인 목록입니다.
+
+* **로라는** 데이터 **주제이다**. 그녀는 항공사로부터 메시지를 받는 수신자이다. Laura는 자주 사용하는 홍보용 전단이지만, 어떤 시점에서는 항공사 회사로부터 개인화된 광고나 마케팅 메시지를 받고 싶지 않다고 결정할 수 있습니다. 그는 (전단지 절차에 따라) 항공사에 수시로 연락하는 항공편 번호를 삭제하도록 요구할 예정이다.
+
+* **앤** 은 **항공사** 데이터 관리자입니다. Laura의 요청을 받고 데이터 주체의 확인을 요청한 유용한 ID를 검색하여 Adobe Campaign에서 요청을 제출합니다.
+
+* **Adobe Campaign** 는 **데이터 프로세서입니다**.
+
+![](assets/privacy-gdpr-flow.png)
+
+이 사용 사례의 일반 흐름은 다음과 같습니다.
+
+1. 데이터 **주체** (로라)는 이메일, 고객 지원 센터 또는 웹 포털을 통해 **데이터**&#x200B;관리자에게 GDPR 요청을 보냅니다.
+
+1. Ad **Controller** (Anne)는 인터페이스 또는 API를 사용하여 GDPR 요청을 Campaign으로 푸시합니다.
+
+1. 데이터 **프로세서** (Adobe Campaign)이 정보를 수신하면 GDPR 요청에 대해 조치를 취하여 **데이터 컨트롤러** (Anne)에 응답이나 승인을 보냅니다.
+
+1. 그런 다음 **데이터 컨트롤러** (Anne)가 정보를 검토하고 **데이터 주체** (Laura)로 다시 전송합니다.
 
 ## 데이터 수집 {#data-acquisition}
 
@@ -125,19 +151,9 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 * 잊혀질 **권리** (요청 삭제)는 데이터 주체가 자신의 개인 데이터를 삭제하도록 권한을 부여합니다.
 
->[!NOTE]
->
->이 툴을 사용하면 GDPR, CPA, PDPA 및 LGPD에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../platform/using/privacy-management.md#privacy-management-regulations).
+액세스 **및** **삭제** 요청은 [이 섹션에](../../platform/using/privacy-management.md#right-access-forgotten)제공됩니다.
 
-<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
-
-* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-
-* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.
-
-Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug, 16 for all companies collecting or processing personal data in Brazil. This regulation also applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
-
-**액세스** 및 **삭제** 요청이 [이 페이지에](../../platform/using/privacy-management.md#right-access-forgotten)표시됩니다. 이러한 요청을 만드는 구현 단계는 [이 섹션에 자세히 설명되어 있습니다](../../platform/using/privacy-requests.md). <!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
+이러한 요청을 만드는 구현 단계는 [이 섹션에 자세히 설명되어 있습니다](../../platform/using/privacy-requests.md).
 
 ## 추적 기능 {#tracking-capabilities}
 
