@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6e0741d13aa954e81fe6416663399ffd1a81012f
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 1%
@@ -162,7 +162,7 @@ XML 문서에는 문서 이름 **`<navtree>`** 및 네임스페이스를 지정�
 * **이름**:내부 이름
 * **레이블**:레이블을 **[!UICONTROL Add new folder]** 메뉴에 사용하고 폴더를 삽입할 때 기본 레이블로 사용합니다.
 * **img**:폴더 삽입에 대한 기본 이미지입니다.
-* **hiddenCommands**:마스크할 명령 목록(쉼표로 구분) 가능한 값:&quot;insert&quot;, &quot;delete&quot;, &quot;update&quot; 및 &quot;duplicate&quot;를 찾습니다.
+* **hiddenCommands**:마스크할 명령 목록(쉼표로 구분) 가능한 값:&quot;adbnew&quot;, &quot;adbsave&quot;, &quot;adbcancel&quot; 및 &quot;adbdup&quot;
 * **newFolderShortCuts**:폴더 작성에서 모델(쉼표로&#x200B;**`<nodemodel>`** 구분)의 단축키 목록
 * **insertRight**, **editRight**, **deleteRight**:폴더 삽입, 편집 및 삭제를 위한 권한.
 
