@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 6464a61148fd12738d95953161aea4ac4d19c04b
+source-git-commit: 2cc4ab52f3cbdd00831d0b5104690b7adf6091ce
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '343'
 ht-degree: 2%
 
 ---
@@ -48,38 +48,33 @@ ht-degree: 2%
    <td>다음에 로그온합니다. <b>http(s)://&lt;urlserver&gt;/r/test</b> URL. 서버는 다음 유형의 메시지를 반환해야 합니다.
 
     &lt;pre>
-    &lt;redir status=&#39;OK&#39; date=&#39;YYYY/MM/DD HH:MM:SS&#39; build=&#39;XXXX&#39; host=&#39;&lt;hostname>&#39; localHost=&#39;&lt;server>&#39;/>
+    &lt;redir status=&#39;OK&#39; date=&#39;YYYY/MM/DD HH:MM&#39; build=&#39;XXXX&#39; host=&#39;&lt;hostname>&#39; localHost=&#39;&lt;server>&#39;/>
     &lt;/pre>
-    
-    이 결과를 얻지 않으면 통합을 고려하는 웹 서버 구성을 확인하십시오.&lt;/td>
+이 결과를 얻지 못한 경우 통합을 고려하도록 웹 서버 구성을 확인하십시오.</td>
 </tr>
   <tr> 
    <td>Adobe Campaign 웹 모듈이 실행되었습니까?</td> 
    <td>다음 URL에 연결: <b>http(s)://&gt;URLSERVER&lt;/nl/jsp/logon.jsp</b>* Tomcat Java 오류가 발생하는 경우:
 
-    JAVA 통합이 올바르게 수행됩니까? Adobe Campaign은 SUN JDK가 필요합니다.
-    
-    이 파일은 [응용 프로그램의 경로]/nl6/customer.sh 파일에 통합되어 있습니다.
+JAVA 통합이 올바르게 수행됩니까? Adobe Campaign은 SUN JDK가 필요합니다.
+
+애플리케이션/nl6/customer.sh의 파일 [경로에 통합됩니다]
 
 * 빈 페이지를 얻는 경우:
 
-       Adobe Campaign 웹 모듈이 시작되었습니까? 다음을 얻으십시오.
-      
-       &lt;pre>
-    
-    nlserver 덤프
-     HH:MM:SS > Adobe Campaign Classic
-    용 애플리케이션 서버 (7.
- YY.YY.MM/YYYYY     /YYY
- 가     .....web@default665115. /pre>
-   
+Adobe Campaign 웹 모듈이 시작되었습니까? 다음을 얻으십시오.
+
+<pre>
+nlserver pdumpHH:MM:SS &gt; Adobe Campaign Classic용 응용 프로그램 서버(7.X YY.R 빌드 XXX@SHA1) of DD/MM/YYYY[...]web@default (27515) - 55.2Mb[..]
+</pre>
+
 * 그렇지 않은 경우 다음 명령을 사용하여 다시 시작합니다.
 
-       &lt;pre>
- nlserver     start web
-     &lt;/pre>
-     &lt;/td>
-   </tr>
+<pre>        
+nlserver 시작 웹
+</pre>
+</td>
+</tr>
   <tr>
   	<td>보안 영역의 일반 구성을 확인합니다.</td>
   	<td>보안 영역 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#defining-security-zones)을 참조하십시오.</td>
