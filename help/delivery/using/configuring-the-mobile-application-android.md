@@ -10,9 +10,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1d7d48f52f69e4902eafa6806c2cd9170c21fe5a
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1648'
 ht-degree: 2%
 
 ---
@@ -61,6 +61,8 @@ Android의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
    * **maxGCMConnectPerChild**:각 하위 서버에서 시작한 FCM에 대한 병렬 HTTP 요청의 최대 제한(기본적으로 8개)
 
 ## Android 서비스 구성 {#configuring-android-service}
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 서비스를 구성하는 방법 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=en#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
 
 1. 노드로 **[!UICONTROL Profiles and Targets > Services and subscriptions]** 이동하고 을 클릭합니다 **[!UICONTROL New]**.
 
@@ -178,6 +180,8 @@ HTTP(기존) API 버전을 구성하려면 아래 단계를 따르십시오.
 
 ## appsubscriptionRcp 스키마 확장 {#extend-subscription-schema}
 
+![](assets/do-not-localize/how-to-video.png) [비디오에서 appsubscriptionRcp 스키마를 확장하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html?lang=en#extending-the-app-subscription-schema-to-personalize-push-notifications)
+
 Campaign 데이터베이스에 앱의 매개 변수를 저장할 새 **추가** 필드를 정의하려면 appsubscriptionRcp를 확장해야 합니다. 이러한 필드는 개인화에 사용됩니다. 방법은 다음과 같습니다.
 
 1. 스키마의 확장 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 을 만들고 새 필드를 정의합니다. 이 페이지의 스키마 확장명에 대한 자세한 [내용](../../configuration/using/about-schema-edition.md)
@@ -187,7 +191,6 @@ Campaign 데이터베이스에 앱의 매개 변수를 저장할 새 **추가** 
    >[!CAUTION]
    >
    >탭의 구성 이름이 모바일 애플리케이션 코드의 구성 이름과 **[!UICONTROL Subscription parameters]** 동일한지 확인합니다. 모바일 애플리케이션에 [캠페인 SDK 통합 섹션을 참조하십시오](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) .
-
 
 ## Android 리치 알림 만들기 {#creating-android-delivery}
 
@@ -241,6 +244,8 @@ Firebase 클라우드 메시지 유형에 대한 자세한 내용은 [FCM 설명
 >[!NOTE]
 >
 >알림 메시지에 대한 추가 옵션은 HTTP v1 API 구성에서만 사용할 수 있습니다. 자세한 정보는 이 [섹션](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)을 참조하십시오.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 푸시 알림을 만드는 방법 학습](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=en#additional-resources)
 
 1. > **[!UICONTROL Campaign management]** 로 **[!UICONTROL Deliveries]**&#x200B;이동합니다.
 
