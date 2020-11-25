@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: fc5a44fe7bf4c88eca4634a67eaae48c722d8e5e
+source-git-commit: 85fae38f864b031f069058dae79ce6753dc4bf03
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '370'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,11 @@ ht-degree: 2%
 </tr>
 <tr>
 <td>보안 영역의 일반 구성을 확인합니다.</td>
-<td>보안 영역 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#defining-security-zones)을 참조하십시오.</td>
+<td>보안 영역 구성에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=en#configuring-campaign-server"/>이 섹션을 참조하십시오.</a></td>
+</tr>
+<tr>
+<td>nlserver dump 명령은 <b>작업 없음을 반환합니다.</b></td>
+<td>전체 Adobe Campaign 응용 프로그램을 다시 시작해야 합니다. 이렇게 하려면 다음 명령을 사용합니다. <b>nlserver watchdog -svc -noconsole</b></td>
 </tr>
 </tbody> 
 </table>
