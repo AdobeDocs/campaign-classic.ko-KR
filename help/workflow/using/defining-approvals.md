@@ -7,9 +7,9 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ae342f41b9b74159607b313e1c29549b17488db5
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## 만료 {#expirations}
 
-만료는 다양한 활동 유형 및 특히 승인에서 사용되는 특정 전환입니다. 만료는 응답이 없는 경우 지정된 시간 후 작업을 트리거하거나 워크플로우를 계속 진행할 수 있습니다(예: 다른 그룹에 승인 할당).
+만료는 다양한 활동 유형 및 특히 승인에서 사용되는 특정 전환입니다. 만료 기능을 사용하여 지정된 시간 후 응답 없이 작업을 트리거할 수 있습니다. 예를 들어 워크플로우를 진행하고 다른 그룹에 승인을 할당하는 데 사용할 수도 있습니다.
 
 활동 승인 속성의 두 번째 탭에서는 하나 이상의 만료를 정의할 수 있습니다. 여러 만료 유형을 정의할 수 있습니다.
 
