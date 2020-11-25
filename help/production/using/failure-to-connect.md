@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: cb6a2247e3b7617511aecf3d2d19985af0216494
+source-git-commit: eb7e1c98f69ba20ef4222bfefea74fdaf6072397
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
@@ -41,34 +41,35 @@ ht-degree: 2%
   </tr>
   <tr> 
    <td>웹 서버가 응답합니까?</td> 
-   <td>웹 브라우저를 사용하여 Adobe Campaign 서버에 연결:**'http(s):// <urlserver>`**. 응답하지 않으면 컴퓨터에서 웹 서버가 중지됩니다. 서비스를 다시 시작하려면 호스트 회사의 시스템 관리자에게 문의하십시오.</td>
+   <td>웹 브라우저를 사용하여 Adobe Campaign 서버에 연결: <b>http(s)://&lt;urlserver&gt;</b>. 응답하지 않으면 컴퓨터에서 웹 서버가 중지됩니다. 서비스를 다시 시작하려면 호스트 회사의 시스템 관리자에게 문의하십시오.</td>
   </tr>
   <tr> 
    <td>Adobe Campaign이 제대로 통합되었습니까?</td> 
-   <td>다음에 로그온합니다.**'http(s)://<urlserver>/r/test'** URL. 서버는 다음 유형의 메시지를 반환해야 합니다.
+   <td>다음에 로그온합니다. <b>http(s)://&lt;urlserver&gt;/r/test</b> URL. 서버는 다음 유형의 메시지를 반환해야 합니다.
 
-    &quot;
+    &lt;pre>
     &lt;redir status=&#39;OK&#39; date=&#39;YYYY/MM/DD HH:MM:SS&#39; build=&#39;XXXX&#39; host=&#39;&lt;hostname>&#39; localHost=&#39;&lt;server>&#39;/>
-    &quot;
+    &lt;/pre>
     
     이 결과를 얻지 않으면 통합을 고려하는 웹 서버 구성을 확인하십시오.&lt;/td>
 </tr>
   <tr> 
    <td>Adobe Campaign 웹 모듈이 실행되었습니까?</td> 
    <td>
-   다음 URL에 연결:**'http(s)://<URLSERVER>/nl/jsp/logon.jsp'** * Tomcat Java 오류가 발생하는 경우:
+   다음 URL에 연결: <b>http(s)://&gt;URLSERVER&lt;/nl/jsp/logon.jsp</b>* Tomcat Java 오류가 발생하는 경우:
 
     JAVA 통합이 올바르게 수행됩니까? Adobe Campaign은 SUN JDK가 필요합니다.
     
-    파일 **&#39;[응용 프로그램 경로]&#39;/nl6/customer.sh**
+    이 파일은 [응용 프로그램의 경로]/nl6/customer.sh
     
-    *빈 페이지를 받은 경우: Adobe Campaign 웹 모듈
+    *라는 파일에 통합되어 있습니다. 빈 페이지를 받은 경우: Adobe Campaign 웹 모듈
     
     이 시작되었습니까? DD/
     
     MM/YYYY
     [..]web@default (27515) - 55.2Mb
-    [...]XXX@SHA1의 &quot;nlserver pdumpHH:MM:SS > Adobe Campaign Classic용 응용 프로그램 서버(7.X YY.R 빌드)를 구해야 합니다
+    [..]
+    nlserver pdumpHH:MM:SS > Adobe Campaign Classic용 응용 프로그램 서버(7.X YY.R 빌드 XXX@SHA1)을 구해야 합니다
     
     
     
@@ -78,7 +79,7 @@ ht-degree: 2%
     
     
     
-    . 그렇지 않은 경우 다음 명령을 사용하여 다시 시작하십시오.lserver start web&lt;/td>
+    ..... /pre>*이 없는 경우 다음 명령을 사용하여 다시 시작하십시오.>neclserver start webStart&lt;/pre>td.
 </tr>
   <tr>
   	<td>보안 영역의 일반 구성을 확인합니다.</td>
