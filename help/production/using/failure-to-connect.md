@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 2cc4ab52f3cbdd00831d0b5104690b7adf6091ce
+source-git-commit: 57063c1ed0100b171bda93e273c399c40d8e980a
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 2%
@@ -60,14 +60,11 @@ JAVA 통합이 올바르게 수행됩니까? Adobe Campaign은 SUN JDK가 필요
 
 애플리케이션/nl6/customer.sh의 파일 [경로에 통합됩니다]
 
-* 빈 페이지를 얻는 경우:
-
-Adobe Campaign 웹 모듈이 시작되었습니까? 다음을 얻으십시오.
+* 빈 페이지를 얻는 경우:Adobe Campaign 웹 모듈이 시작되었습니까? 다음을 얻으십시오.
 
 <pre>
 nlserver pdumpHH:MM:SS &gt; Adobe Campaign Classic용 응용 프로그램 서버(7.X YY.R 빌드 XXX@SHA1) of DD/MM/YYYY[...]web@default (27515) - 55.2Mb[..]
 </pre>
-
 * 그렇지 않은 경우 다음 명령을 사용하여 다시 시작합니다.
 
 <pre>        
