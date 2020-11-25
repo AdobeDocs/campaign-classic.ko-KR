@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
 workflow-type: tm+mt
-source-wordcount: '3588'
-ht-degree: 96%
+source-wordcount: '3631'
+ht-degree: 95%
 
 ---
 
@@ -36,6 +36,10 @@ ht-degree: 96%
 서버가 설정되면 외부 계정의 내부 이름을 업데이트해서는 안 된다는 점을 지정하기 위해 mid-소싱 서버 구성 페이지에 메모가 추가되었습니다. [자세한 내용](../../installation/using/mid-sourcing-server.md)
 
 외부 SFTP 서버에 대한 경로를 지정할 때 사용할 구문에 정보가 추가되었습니다. [자세한 내용](../../platform/using/sftp-server-usage.md#external-SFTP-server)
+
+개인 데이터 및 개인 정보 섹션은 개인정보 보호 측면에서 서로 다른 개인들이 상호 작용하는 방법을 보여주는 사용 사례 시나리오로 업데이트되었습니다. [자세한 내용](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
+
+개인 정보에 대한 FAQ가 나와 있는 새로운 섹션이 추가되었습니다. [자세한 내용](../../platform/using/privacy-faq.md)
 
 ## 2020년 10월 {#oct-2020}
 
