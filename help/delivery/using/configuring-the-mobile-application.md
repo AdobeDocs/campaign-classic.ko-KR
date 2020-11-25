@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: a1bd8dc2b5946b74cb880eff934e3b35cadfb2d2
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '820'
 ht-degree: 7%
 
 ---
@@ -49,7 +49,7 @@ iOS의 경우 iOS HTTP/2 커넥터는 HTTP/2 APN에 알림을 보냅니다.
 >
 >Adobe SDK와 통합하기 전에 푸시 작업에 대해 응용 프로그램이 구성되어야 합니다.
 >
->그렇지 않은 경우 [이 페이지를 참조하십시오](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/).
+>그렇지 않은 경우 [이 페이지를 참조하십시오](https://developer.apple.com/documentation/usernotifications).
 
 1. 노드로 **[!UICONTROL Profiles and Targets > Services and subscriptions]** 이동하고 을 클릭합니다 **[!UICONTROL New]**.
 
