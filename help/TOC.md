@@ -57,7 +57,7 @@ ht-degree: 97%
    + 개인 정보 {#privacy}
       + [개인 정보 및 동의](platform/using/privacy-and-recommendations.md)
       + [개인 정보 관리](platform/using/privacy-management.md)
-      + [개인 정보 요청](platform/using/privacy-requests.md)
+      + [개인 정보 보호 요청](platform/using/privacy-requests.md)
       + [개인 정보 FAQ](platform/using/privacy-faq.md)
    + 프로필 관리 {#profile-management}
       + [프로필 기본 정보](platform/using/about-profiles.md)
@@ -333,7 +333,7 @@ ht-degree: 97%
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
       + [문제 해결 [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
    + Experience Cloud 트리거 {#experience-triggers}
-      + [시작 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [ 시작하기 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
       + [Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성](integrations/using/configuring-adobe-io.md)
       + [사용자 지정 구현을 위한 이벤트 구성](integrations/using/events.md)
