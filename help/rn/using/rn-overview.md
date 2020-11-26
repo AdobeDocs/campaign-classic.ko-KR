@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ![](assets/do-not-localize/green3.png) GA(**General Availability**) - 프로덕션에서 검증되었으며 Adobe에서 권장합니다.
 
-마지막 **GA 빌드는** 다음과 같습니다. [Gold Standard 10 릴리스](../../rn/using/gold-standard.md#gs-10) 및 [Campaign 20.2.3 릴리스](../../rn/using/release--20-2.md#release-20-2-3-build-9182)
+마지막 **GA 빌드**&#x200B;는 [Gold Standard 10 릴리스](../../rn/using/gold-standard.md#gs-10) 및 [Campaign 20.2.3 릴리스](../../rn/using/release--20-2.md#release-20-2-3-build-9182)입니다.
 
 ![](assets/do-not-localize/limited3.png) LA(**Limited Availability**) - 주문형 배포만 가능.
 
 ![](assets/do-not-localize/blue3.png) RC(**Release Candidate**) - 새로운 기능이 포함된 최신 버전입니다.
 
-The **last RC build** is [Campaign Classic 20.3 release](../../rn/using/latest-release.md)
+**최신 RC 빌드**[는 Campaign Classic 20.3 릴리스](../../rn/using/latest-release.md)입니다.
 
 ![](assets/do-not-localize/orange3.png) **더 이상 사용할 수 없음** - 최신 빌드로 업데이트가 필요합니다.
 
