@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '489'
 ht-degree: 5%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 5%
 >[!CAUTION]
 >
 >캠페인 클라이언트 콘솔 및 캠페인 애플리케이션 서버는 동일한 제품 버전에서 실행해야 합니다. Adobe은 동일한 제품 빌드를 사용하는 것도 좋습니다.
+
+![](assets/do-not-localize/how-to-video.png) 비디오에서 Adobe Campaign 클라이언트를 설치하고 설정하는 방법을 [알아봅니다.](#video)
 
 ## 콘솔 다운로드{#download-the-client-console}
 
@@ -93,4 +95,11 @@ Adobe Campaign 클라이언트 콘솔을 다운로드하여 설치하려면 아�
 
 * [인스턴스 만들기 및 로그온](../../installation/using/creating-an-instance-and-logging-on.md).
 * [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
-* [Adobe Campaign 클라이언트](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) 설치 및 설정(비디오)
+
+## 자습서 비디오
+
+이 비디오에서는 Adobe Campaign 클라이언트를 설치하고 설정하는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
