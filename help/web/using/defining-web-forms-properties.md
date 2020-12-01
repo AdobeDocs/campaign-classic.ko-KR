@@ -7,9 +7,9 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1205'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 웹 양식의 필드는 기본적으로 수신자 테이블에 저장됩니다. 필드에서 새 테이블을 선택하여 사용하는 테이블을 변경할 수 **[!UICONTROL Document type]** 있습니다. 이 **[!UICONTROL Zoom]** 아이콘을 사용하면 선택한 테이블의 컨텐츠를 볼 수 있습니다.
 
-기본적으로 답변은 **[!UICONTROL Answer to a recipient form]** 표에 저장됩니다.
+기본적으로 답변은 수신자 양식 **테이블에** 저장됩니다.
 
 ## 오류 페이지 설정 {#setting-up-an-error-page}
 
