@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 5%
@@ -19,9 +19,7 @@ ht-degree: 5%
 
 오퍼는 인바운드 또는 아웃바운드 채널을 사용하여 다양한 공간에 표시할 수 있습니다. 이 장에서는 아웃바운드 채널을 자세히 설명합니다.
 
->[!NOTE]
->
->아웃바운드 채널에서 오퍼를 전달하는 방법을 자세히 설명하는 이 [비디오를](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-outbound-channel-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com) 볼 수도 있습니다.
+![](assets/do-not-localize/how-to-video.png) 아웃바운드 채널에서 오퍼를 전달하는 방법을 자세히 설명하는 이 [비디오를](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-outbound-channel-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com) 볼 수도 있습니다.
 
 오퍼 엔진에서 오퍼를 선택하려면 승인되어 라이브 환경에서 사용할 수 있어야 합니다. 자세한 내용은 오퍼 [승인 및 활성화를 참조하십시오](../../interaction/using/approving-and-activating-an-offer.md).
 
