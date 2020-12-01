@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '952'
 ht-degree: 18%
 
 ---
@@ -107,13 +107,15 @@ Adobe Campaign 탐색기의 일반 레이아웃은 Adobe Campaign 탐색기 [사
 
 Campaign Standard **[!UICONTROL Number of active profiles]** **[!UICONTROL Administration > Campaign Management > Customer metrics]** 메뉴에서 개요를 볼 수 있습니다. 실제 개수는 **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [기술 작업 과정](../../workflow/using/deliveries.md)에서 수행되며, 이 작업 과정은 매일 실행되고 **[!UICONTROL Customer metrics]** 메뉴에서 현재 기간 동안 기존 보고서에 새 데이터를 추가합니다. 각 기간은 12개월 동안 지속됩니다.
 
-## 프로필을 만들고 관리하는 방법 {#create-profiles-video}
+## 자습서 비디오 {#create-profiles-video}
 
 프로필 데이터에 액세스하고, 프로필을 정렬 및 필터링하고, 프로필을 수동으로 만들고 관리하는 방법을 알아봅니다.
 
 이 비디오에서는 Adobe Campaign Classic의 일반 데이터 보호 규정 준수에 대해서도 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 **자세한 내용은**
 
