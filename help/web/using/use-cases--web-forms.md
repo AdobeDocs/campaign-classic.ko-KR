@@ -7,9 +7,9 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '957'
 ht-degree: 1%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 1%
 
 1. 양식 페이지에 입력한 정보를 저장하도록 **[!UICONTROL Storage]** 활동을 구성합니다.
 
-   이 활동을 사용하면 수신자 프로필을 전용 임시 파일로 만들어 통신문을 보낼 수 있는 데이터베이스의 프로필과 별도로 설정할 수 있습니다.
+   이 활동을 통해 수신자 프로필을 전용 임시 폴더에 만들어 데이터베이스의 프로필과 별도로 설정하여 통신할 수 있습니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5g.png)
 
