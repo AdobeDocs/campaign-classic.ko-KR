@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '1572'
-ht-degree: 4%
+source-wordcount: '1580'
+ht-degree: 3%
 
 ---
 
@@ -203,8 +203,10 @@ AMP 컨텐츠와 폴백이 준비되고, 호환 타겟을 정의한 후에는 �
 >
 >기본적으로 이 **[!UICONTROL AMP inclusion]** 옵션은 로 설정됩니다 **[!UICONTROL No]**.
 
-## 이메일에 AMP를 활성화하고 사용하는 방법 {#amp-email-video}
+## 자습서 비디오 {#amp-email-video}
 
 아래 비디오에서는 Adobe Campaign Classic에서 AMP를 활성화하는 방법을 설명하고 사용법을 소개합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
