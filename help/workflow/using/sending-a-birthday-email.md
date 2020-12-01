@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 이(일일 실행) 워크플로우는 현재 날짜에 생일을 맞는 모든 수신자를 선택합니다.
 
-이 사용 사례는 비디오 형식에서도 찾을 수 있습니다. For more on this, refer to the [Creating a workflow](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html) video.
+![](assets/do-not-localize/how-to-video.png) 이 사용 사례는 비디오 형식에서도 찾을 수 있습니다. For more on this, refer to the [Creating a workflow](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html) video.
 
 이렇게 하려면 캠페인을 만들고 **[!UICONTROL Targeting and workflows]** 탭을 클릭합니다. 자세한 내용은 워크플로우에서 [기본 대상 작성 섹션을 참조하십시오](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) .
 
