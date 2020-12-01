@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 9%
+source-wordcount: '880'
+ht-degree: 8%
 
 ---
 
@@ -118,8 +118,10 @@ ht-degree: 9%
 
 이 옵션을 0으로 설정하면 개인화 단계에 대한 제한 시간이 없습니다.
 
-## 개인화 필드를 사용하여 이메일을 개인화하는 방법 {#personalization-fields-video}
+## 자습서 비디오 {#personalization-fields-video}
 
 제목 줄과 이메일 전달 내용에 개인화 필드를 추가하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
