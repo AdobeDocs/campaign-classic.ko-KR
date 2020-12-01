@@ -7,7 +7,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 웹 양식 페이지 순서 정의{#defining-web-forms-page-sequencing}
 
-양식에 하나 이상의 페이지가 포함될 수 있습니다. 페이지 시퀀스 및 테스트, 스크립트 실행 및 페이지 점프 기록 단계를 위한 다이어그램을 통해 구축됩니다. 다이어그램 구성 모드는 워크플로우와 동일합니다.
+양식에 하나 이상의 페이지가 포함될 수 있습니다. 페이지 시퀀스, 테스트, 스크립트 실행, 페이지 이동 및 기록 단계를 위한 다이어그램을 통해 구축됩니다. 전역 다이어그램 디자인 모드는 캠페인 워크플로와 동일합니다.
 
 ## 이전 페이지 및 다음 페이지 정보 {#about-previous-page-and-next-page}
 
