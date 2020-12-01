@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 100%
@@ -73,7 +73,9 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 
 이러한 커넥터를 사용하면 빠르고 손쉽게 데이터를 통합할 수 있습니다. Adobe Campaign은 CRM에서 사용할 수 있는 테이블을 수집하고 선택하는 전용 마법사를 제공합니다. 이렇게 하면 시스템 전체에서 항상 데이터가 최신 상태로 유지되도록 양방향 동기화를 보장합니다.
 
-CRM 도구를 Adobe Campaign과 동기화하는 방법을 배우려면 [CRM 커넥터 구성](../../platform/using/crm-connectors.md)을 참조하십시오. [Adobe Campaign 및 Microsoft Dynamics 365 통합](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html)에 대한 이 사용 사례 비디오를 시청하십시오.
+CRM 도구를 Adobe Campaign과 동기화하는 방법을 배우려면 [CRM 커넥터 구성](../../platform/using/crm-connectors.md)을 참조하십시오.
+
+![](assets/do-not-localize/how-to-video.png)[ Adobe Campaign 및 Microsoft Dynamics 365 통합](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html)에 대한 이 사용 사례 비디오를 시청하십시오.
 
 ## 컴퓨터에 특정하거나 사용자에 특정한 문제인 경우 소프트 캐시 지우기를 수행하는 방법 {#perform-soft-cache-clear}
 
