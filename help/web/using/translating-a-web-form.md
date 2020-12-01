@@ -7,7 +7,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 1%
@@ -105,7 +105,7 @@ Adobe Campaign은 모든 정적 요소의 탭에 정의된 필드 및 문자열 
 
 ### 파일 내보내기 {#exporting-files}
 
-1. 가져올 문자열이 있는 웹 애플리케이션을 선택하고 마우스 오른쪽 버튼을 클릭한 다음 **[!UICONTROL Actions > Export strings for translation...]**
+1. 내보낼 문자열이 있는 웹 애플리케이션을 선택하고 마우스 오른쪽 버튼을 클릭한 다음 **[!UICONTROL Actions > Export strings for translation...]**
 
    ![](assets/s_ncs_admin_survey_trad_export.png)
 
@@ -454,7 +454,7 @@ URL의 끝에 **?lang=fr** 을 추가하여 프랑스어로 표시합니다.
 
    ![](assets/s_ncs_admin_survey_trad_system_translation.png)
 
-1. 번역 언어를 선택하고 문자열의 번역을 입력합니다. 옵션을 선택하여 번역을 승인할 수 **[!UICONTROL Translation validated]** 있습니다.
+1. 번역 언어를 선택하고 문자열의 번역을 입력합니다. 옵션을 선택하여 번역을 승인할 수 **[!UICONTROL Translation approved]** 있습니다.
 
    ![](assets/s_ncs_admin_survey_trad_system_translation2.png)
 
@@ -470,7 +470,7 @@ URL의 끝에 **?lang=fr** 을 추가하여 프랑스어로 표시합니다.
 
 웹 응용 프로그램을 기본 언어 이외의 언어로 번역할 경우(양식 표시 언어 [변경](#changing-forms-display-language)참조), 새 번역 언어를 추가해야 합니다.
 
-1. Adobe Campaign 트리의 **[!UICONTROL Administration > Platform > Itemized lists]** 노드를 클릭하고 목록에서 **[!UICONTROL Languages available for translation]** 선택합니다. 사용 가능한 번역 목록은 창의 아래 섹션에 표시됩니다.
+1. Adobe Campaign 트리의 **[!UICONTROL Administration > Platform > Enumerations]** 노드를 클릭하고 목록에서 **[!UICONTROL Languages available for translation]** 선택합니다. 사용 가능한 번역 목록은 창의 아래 섹션에 표시됩니다.
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 
