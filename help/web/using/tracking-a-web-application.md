@@ -7,7 +7,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 2%
@@ -36,7 +36,7 @@ Adobe Campaign을 사용하면 추적 태그를 삽입하여 웹 애플리케이
 
    * **전환율**:탐색 경로의 모든 단계를 표시한 사람 수입니다.
    * **바운스 비율**:첫 번째 단계만 표시한 사람 수
-   * **전환 터널**:각 단계 간의 손실률
+   * **전환 단계**:각 단계 간의 손실률
 
    게다가, **섹터** 유형 차트는 그 출처별 인구를 보여줍니다.
 
