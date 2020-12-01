@@ -7,9 +7,9 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '523'
 ht-degree: 2%
 
 ---
@@ -39,9 +39,9 @@ ht-degree: 2%
 
 ## 페이지에 필드 배치 {#positioning-the-fields-on-the-page}
 
-웹 양식의 레이아웃은 각 컨테이너의 페이지별로 정의되며 각 확인에 대해 오버로드할 수 있습니다.
+웹 양식의 레이아웃은 각 컨테이너에서 페이지별로 정의되며 필요한 경우 오버로드를 수행할 수 있습니다.
 
-페이지는 열로 분류됩니다.각 페이지에는 특정 개수의 열이 있습니다. 페이지의 각 필드가 셀 **을** 차지합니다. 또한 컨테이너는 일정 수의 열을 차지하며 컨테이너 내에 포함된 필드는 일정 수의 셀을 차지합니다
+페이지는 열로 분류됩니다.각 페이지에는 특정 개수의 열이 있습니다. 페이지의 각 필드가 셀 **을** 차지합니다. 또한 컨테이너는 일정 수의 열을 차지하며 컨테이너 내에 포함된 필드는 일정 수의 셀을 차지합니다.
 
 기본적으로 페이지는 단일 열에 구축되며 각 요소는 하나의 셀을 차지합니다. 즉, 각 필드는 아래와 같이 전체 줄을 점유하여 서로 표시됩니다.
 
