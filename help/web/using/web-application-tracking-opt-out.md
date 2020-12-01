@@ -7,7 +7,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 2%
@@ -99,7 +99,7 @@ JSSP를 작성해야 하는 경우 서버측 API를 사용할 수 있습니다.
 
 * **NL.ServerWebTracking._displayOptOutBanner()**
 
-   관리자가 옵트아웃 배너를 선택한 후 옵트아웃 배너를 표시해야 하는 경우 true를 반환합니다.
+   관리자가 옵트아웃 배너를 선택한 후 옵트아웃 배너를 표시해야 하는 경우 &quot;true&quot;를 반환합니다.
 
    이 코드는 관리자가 웹 추적 옵트아웃 배너를 사용하도록 이미 선택한 경우 호출됩니다.
 
