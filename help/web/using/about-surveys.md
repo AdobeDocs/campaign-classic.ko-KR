@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 설문 조사 기본 정보
-description: 설문 조사 기본 정보
+title: 설문 조사 시작하기
+description: 캠페인 설문 조사 시작하기
 audience: web
 content-type: reference
 topic-tags: online-surveys
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 1%
+source-wordcount: '590'
+ht-degree: 0%
 
 ---
 
 
-# 설문 조사 기본 정보{#about-surveys}
+# Get started with surveys{#about-surveys}
 
 Adobe Campaign에는 웹 애플리케이션을 정의하고 퍼블리싱할 그래픽 모듈이 포함되어 있습니다. 이 기능은 엑스트라넷의 편집 양식이나 테이블, 차트, 입력 양식 등이 있는 데이터베이스의 데이터를 포함하는 알림 양식과 같은 페이지를 만드는 데 사용됩니다. 이 기능을 사용하면 사용자가 정보를 찾거나 입력할 수 있는 웹 페이지를 디자인하고 게시할 수 있습니다.
 
@@ -31,7 +31,7 @@ Adobe Campaign에는 웹 애플리케이션을 정의하고 퍼블리싱할 그�
 >
 >개인 정보상의 이유로 모든 외부 리소스에 대해 HTTPS를 사용하는 것이 좋습니다.
 
-## 캠페인 설문 조사 범위 {#campaign-surveys-scope}
+## 기능 범위 {#campaign-surveys-scope}
 
 Adobe Campaign에서 일반적으로 웹 애플리케이션을 사용하면 다음과 같은 기능을 이용할 수 있습니다.
 
