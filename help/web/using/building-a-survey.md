@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 설문 조사 빌드
-description: 설문 조사 빌드
+title: 설문 조사 디자인
+description: 설문 조사 디자인
 audience: web
 content-type: reference
 topic-tags: online-surveys
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 
-# 설문 조사 빌드{#building-a-survey}
+# 설문 조사 디자인{#building-a-survey}
 
 ## Creating a new survey {#creating-a-new-survey}
 
