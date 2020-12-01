@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1579'
 ht-degree: 2%
 
 ---
@@ -225,15 +225,16 @@ For more on proof sending, refer to [this section](../../delivery/using/steps-va
 
 이 옵션을 사용하여 특정 증명 대상의 정의와 시드 주소의 사용을 결합할 수 **[!UICONTROL Specific target and Seed addresses]** 있습니다. 그런 다음 관련 구성은 두 개의 개별 하위 탭에서 정의됩니다.
 
-## 이메일에서 시드 및 증명을 관리하는 방법 {#seeds-and-proofs-video}
+다음을 참조하십시오.
+
+* [증명 대상 선택](#selecting-the-proof-target)
+* [시드 주소 기본 정보](../../delivery/using/about-seed-addresses.md)
+* [사용 사례: 기준 시드 주소 선택](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+
+## 자습서 비디오 {#seeds-and-proofs-video}
 
 이 비디오에서는 기존 이메일에 씨드(sed) 및 교정을 추가하는 방법과 보내는 방법을 살펴봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
-다음을 참조하십시오.
-* [증명 대상 선택](#selecting-the-proof-target)
-
-* [시드 주소 기본 정보](../../delivery/using/about-seed-addresses.md)
-
-* [사용 사례: 기준 시드 주소 선택](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
