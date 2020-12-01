@@ -7,9 +7,9 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: e43a14a8be179dd4793176d15e2c30b3e778d3e0
+source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2476'
 ht-degree: 0%
 
 ---
@@ -201,7 +201,7 @@ Adobe Campaign 데이터베이스의 데이터 일관성을 유지하려면 아�
       ![](assets/import_template_example4.png)
 
    * 이 예에서는 이메일 필드를 사용하여 고유한 프로필을 찾습니다. 반드시 채워야 하는 필드와 고유한 조합의 일부를 사용할 수 있습니다.
-   * 화면에서 기본 키가 0과 같은 레코드(이 전환의 모든 레코드) **[!UICONTROL Deduplication method]** 가 제외되지 않도록 하려면 **[!UICONTROL Advanced parameters]** **[!UICONTROL Disable automatic filtering of 0 ID records]** 옵션을 선택하고 선택합니다.
+   * 화면에서 기본 키가 0인 레코드 **[!UICONTROL Deduplication method]** 가 제외되지 않도록 하려면 **[!UICONTROL Advanced parameters]** **[!UICONTROL Disable automatic filtering of 0 ID records]** 옵션을 선택하고 선택합니다.
 
    ![](assets/import_template_example7.png)
 
@@ -257,7 +257,7 @@ Adobe Campaign을 사용하면 zip 파일 또는 암호화된 파일을 가져�
 
 이 경우 Campaign 컨트롤 패널에서 생성된 키를 사용하여 외부 시스템에서 암호화된 데이터를 가져오기 위한 워크플로우를 구축합니다.
 
-GPG 키를 사용하여 데이터를 해독하는 방법을 보여주는 자습서 비디오도 [이 섹션에 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings).
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
 이 사용 사례를 수행하는 단계는 다음과 같습니다.
 
@@ -302,3 +302,11 @@ GPG 키를 사용하여 데이터를 해독하는 방법을 보여주는 자습�
 1. 이제 워크플로우를 실행할 수 있습니다. 실행 후에는 워크플로우 로그에서 암호 해독 작업이 실행되었고 파일의 데이터를 가져올 수 있습니다.
 
    ![](assets/gpg_run.png)
+
+### 자습서 비디오 {#video}
+
+이 비디오는 GPG 키를 사용하여 데이터를 해독하는 방법을 보여줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
