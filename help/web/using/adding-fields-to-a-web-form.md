@@ -7,9 +7,9 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
-source-wordcount: '2446'
+source-wordcount: '2457'
 ht-degree: 1%
 
 ---
@@ -196,7 +196,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_survey_radio_button.png)
 
-라디오 단추를 개별적으로 만들거나(단위 단추) 객관식 목록을 통해 만들 수 있지만 라디오 단추 지점은 한 옵션이나 다른 옵션을 선택하는 것이므로 라디오 단추 쌍을 항상 만듭니다. 단 한 단추만 만들 수는 없습니다.
+라디오 단추를 개별적으로(자동 단추) 또는 객관식 목록을 통해 만들 수 있지만 라디오 단추 지점은 한 옵션이나 다른 옵션을 선택하는 것이므로 라디오 단추 쌍을 항상 만듭니다. 단 한 단추만 만들 수는 없습니다.
 
 >[!CAUTION]
 >
@@ -251,7 +251,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
-사용자가 양식 페이지에 날짜를 입력할 수 있도록 하려면 도구 모음 또는 페이지 편집기 **[!UICONTROL Add input field > Date...]** 에서 선택합니다.
+사용자가 양식 페이지에서 날짜를 입력할 수 있도록 하려면 입력 필드를 추가하고 유형을 선택합니다 **[!UICONTROL Date...]**.
 
 필드의 레이블을 입력하고 데이터 저장소 모드를 구성합니다.
 
@@ -388,11 +388,13 @@ Captcha는 시각적 아래에 입력 필드를 배치하여 페이지에 삽입
 
 ## 숨겨진 상수 삽입 {#inserting-a-hidden-constant}
 
-사용자가 양식의 페이지 중 하나를 지날 때 필드를 강조 표시할 수 있습니다. 이렇게 하려면 페이지에 상수를 배치하고 값과 저장소 위치를 지정합니다.
+사용자가 양식의 페이지 중 하나를 확인하면 특정 값을 프로필 필드 또는 변수에 설정할 수 있습니다.
 
 이 필드는 사용자가 볼 수 없지만 사용자 프로필의 데이터를 향상시키는 데 사용할 수 있습니다.
 
-다음 예에서 수신자 프로필의 **원본** 파일은 사용자가 이 페이지를 승인할 때마다 자동으로 채워집니다. 페이지에 상수가 표시되지 않습니다.
+이렇게 하려면 페이지에 **상수를** 배치하고 값과 저장소 위치를 지정합니다.
+
+다음 예에서 수신자 프로필의 **원본** 필드는 사용자가 이 페이지를 승인할 때마다 자동으로 채워집니다. 페이지에 상수가 표시되지 않습니다.
 
 ![](assets/s_ncs_admin_survey_constante.png)
 
