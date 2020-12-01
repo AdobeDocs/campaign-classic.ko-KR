@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '2144'
-ht-degree: 3%
+source-wordcount: '2157'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 캠페인 작업 영역 살펴보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png)[ 비디오에서 캠페인 작업 영역 살펴보기](#video)
 
 >[!NOTE]
 >
@@ -389,3 +389,11 @@ Campaign을 설치할 때 언어가 선택되므로 나중에 변경할 수 없�
 * **[!UICONTROL d]** for days.
 
 ![](assets/enter_unit_sample.png)
+
+## 자습서 비디오 {#video}
+
+이 비디오에서는 Campaign Classic 작업 영역을 제공합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
