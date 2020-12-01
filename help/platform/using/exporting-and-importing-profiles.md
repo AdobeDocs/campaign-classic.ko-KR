@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 15%
+source-wordcount: '144'
+ht-degree: 11%
 
 ---
 
@@ -34,8 +34,10 @@ ht-degree: 15%
 ![](assets/s_ncs_user_interface_import_link.png)
 
 
-## 프로필을 가져오는 방법{#import-profiles-video}
+## 자습서 비디오 {#import-profiles-video}
 
 이 비디오에서는 Adobe Campaign에서 가끔 가져오기 위해 프로필을 가져오는 방법을 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
