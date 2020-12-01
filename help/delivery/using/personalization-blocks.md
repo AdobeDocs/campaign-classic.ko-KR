@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 3%
+source-wordcount: '896'
+ht-degree: 2%
 
 ---
 
@@ -154,8 +154,10 @@ HTML 소스 코드가 배달 컨텐츠에 삽입됩니다. 예를 들어 개인�
 
    * 컨텐츠(HTML, 텍스트, JavaScript 등)를 입력합니다. 을 선택하고 을 클릭합니다 **[!UICONTROL Save]**.
 
-## 다이내믹 콘텐츠 블록을 사용하여 이메일을 개인화하는 방법 {#personalization-blocks-video}
+## 자습서 비디오 {#personalization-blocks-video}
 
-다이내믹한 콘텐츠 블록을 만든 방법과 이러한 콘텐츠 요소를 사용하여 이메일 전달 콘텐츠를 개인화하는 방법을 살펴볼 수 있습니다.
+다이내믹한 콘텐츠 블록을 만드는 방법과 이러한 블록을 사용하여 이메일 전달 콘텐츠를 개인화하는 방법을 살펴볼 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
