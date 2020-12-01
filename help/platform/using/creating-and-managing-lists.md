@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '805'
 ht-degree: 8%
 
 ---
@@ -126,7 +126,9 @@ Adobe Campaign 트리의 그룹 목록에서 하나 이상의 목록을 삭제�
 >
 >목록을 삭제할 때 목록의 프로필은 영향을 받지 않지만 프로필의 데이터는 업데이트됩니다.
 
-## 받는 사람 목록을 만드는 방법 {#create-list-video}
+## 자습서 비디오 {#create-list-video}
+
+### 받는 사람 목록을 만드는 방법
 
 목록은 게재 작업에서 타겟팅되거나 가져오기 작업 또는 워크플로우 실행 중에 업데이트될 수 있는 정적 수신자 집합입니다. 수신자 목록은 대상자라고도 합니다.
 
@@ -134,8 +136,10 @@ Adobe Campaign 트리의 그룹 목록에서 하나 이상의 목록을 삭제�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-## How to create a list of recipients with a workflow {#create-list-in-a-wf-video}
+### How to create a list of recipients with a workflow {#create-list-in-a-wf-video}
 
 수신자를 타깃팅하기 위한 워크플로우를 만드는 방법과 이메일 타겟의 목록을 사용하기 전에 반복하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
