@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 빌드 업그레이드 FAQ {#build-upgrade-faq}
 
-Adobe Campaign은 정기적으로 업데이트 됩니다. Adobe의 게시된 릴리스 [노트를](../../rn/using/rn-overview.md)잘 알고 계시다면 새로운 기능이 포함된 평균 2/3의 보조 버전, 개선 사항 및 수정 사항이 매년 발표된다는 사실을 알고 계실 것입니다. 또한 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다. 이러한 정기 업데이트는 최신 업데이트를 직접 경험해 보고 환경을 완전히 안전하게 지키고 Adobe 제품을 통해 경험을 향상시키는 것을 목표로 합니다.
+Adobe Campaign은 정기적으로 업데이트 됩니다. Adobe의 게시된 릴리스 [노트를](../../rn/using/rn-overview.md)잘 알고 계시다면 새로운 기능이 포함된 평균 2/3 보조 버전, 개선 사항 및 수정 사항이 매년 발표된다는 사실을 알고 계실 것입니다. 또한 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다. 이러한 정기 업데이트는 최신 업데이트를 직접 경험해 보고 환경을 완전히 안전하게 지키고 Adobe 제품을 통해 경험을 향상시키는 것을 목표로 합니다.
 
 고객이 최신 버전의 Adobe Campaign을 실행하는 것은 매우 중요합니다. 또한 Adobe을 사용하면 기존 빌드의 문제를 식별, 복제 및 수정하는 등 문제가 발생하는 경우 일반적으로 시간이 더 오래 걸리고, 일부 문제가 최근 빌드에서 이미 잘 수정되었을 수도 있습니다.
 
@@ -61,7 +61,7 @@ Campaign Classic 19.2를 시작하면 상태가 각 빌드에 연결됩니다.
 
 Adobe은 변경 전에 시스템 백업을 수행합니다. 그러나 비프로덕션 시스템(개발 또는 스테이징 서버)에 중요한 사용자 정의 작업이 있는 경우 업그레이드 전에 패키지로 내보내는 것이 좋습니다.
 
-자세한 내용은 비디오 [방법](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html)보기
+![](assets/do-not-localize/how-to-video.png) 자세한 내용은 비디오 [방법](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html)보기
 
 ## 업그레이드는 언제 이루어집니까?
 
@@ -136,7 +136,7 @@ RT(Message Center)에 대한 업그레이드가 발생하면 인스턴스에서 
 
 ## 클라이언트 콘솔을 업데이트해야 합니까?
 
-예. 클라이언트 콘솔은 서버 인스턴스와 동일한 빌드 또는 최신 빌드에 있어야 합니다. 업그레이드가 완료된 후 클라이언트 콘솔에서 최신 빌드로 업그레이드하여 서버 빌드와 일치하는지 확인하는 메시지를 표시해야 합니다.
+예. 클라이언트 콘솔은 서버 인스턴스와 동일한 빌드 또는 최신 빌드에 있어야 합니다. 업그레이드가 완료되면 클라이언트 콘솔에서 최신 빌드로 업그레이드하여 서버 빌드와 일치하도록 해야 합니다.
 
 ## 롤백 계획은 무엇입니까? 내 데이터의 백업이 유지됩니까?
 
