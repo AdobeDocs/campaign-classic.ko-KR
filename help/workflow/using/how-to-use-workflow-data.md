@@ -7,9 +7,9 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: e43a14a8be179dd4793176d15e2c30b3e778d3e0
+source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '923'
 ht-degree: 2%
 
 ---
@@ -97,7 +97,7 @@ Adobe Campaign을 사용하면 zip 파일 또는 암호화된 파일을 내보�
 
 이 경우 Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터를 암호화하고 내보낼 수 있는 워크플로우를 구축할 예정입니다.
 
-GPG 키를 사용하여 데이터를 암호화하는 방법을 보여주는 자습서 비디오도 [이 섹션에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings).
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
 이 사용 사례를 수행하는 단계는 다음과 같습니다.
 
@@ -142,3 +142,10 @@ GPG 키를 사용하여 데이터를 암호화하는 방법을 보여주는 자�
 
 1. 이제 워크플로우를 실행할 수 있습니다. 쿼리가 실행되면, 쿼리별 데이터 대상이 SFTP 서버로 암호화된 .gpg 파일로 내보내집니다.
 
+### 자습서 비디오 {#video}
+
+이 비디오에서는 GPG 키를 사용하여 데이터를 암호화하는 방법을
+
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
