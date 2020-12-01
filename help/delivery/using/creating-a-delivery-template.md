@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6335c1cd327a83dbc8c4d43c4ab795b84531c3e1
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 5%
+source-wordcount: '378'
+ht-degree: 6%
 
 ---
 
@@ -68,20 +68,24 @@ ht-degree: 5%
 >
 >구성 오류를 방지하려면 새 템플릿을 만드는 대신 기본 템플릿을 복제하고 해당 속성을 변경하는 것이 좋습니다.
 
-## 배달 템플릿을 구성하는 방법 {#delivery-template-video}
+## 튜토리얼 비디오 {#delivery-template-video}
+
+### 배달 템플릿을 구성하는 방법
 
 다음 비디오에서는 애드혹 전달에 대한 템플릿을 구성하는 방법을 보여 줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
 
-## 배달 템플릿 속성을 설정하는 방법
+### 배달 템플릿 속성을 설정하는 방법
 
 다음 비디오에서는 배달 템플릿 속성을 설정하는 방법을 보여 주고 각 속성에 대해 자세히 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
 
-## 임시 배달 템플릿을 배포하는 방법
+### 임시 배달 템플릿을 배포하는 방법
 
 이 비디오에서는 임시 이메일 배달 템플릿을 배포하는 방법에 대해 설명하고 이메일 배달과 배달 워크플로우의 차이점을 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
