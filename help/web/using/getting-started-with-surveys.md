@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 설문 조사 시작하기
-description: 설문 조사 시작하기
+title: 설문 조사를 만드는 주요 단계
+description: Campaign을 사용하여 첫 번째 설문 조사 만들기
 audience: web
 content-type: reference
 topic-tags: online-surveys
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 1%
+source-wordcount: '912'
+ht-degree: 0%
 
 ---
 
 
-# 설문 조사 시작하기{#getting-started-with-surveys}
+# 설문 조사를 만드는 주요 단계{#getting-started-with-surveys}
 
 다음은 간단한 설문 조사를 만들기 위한 기본 단계에 대한 간단한 개요입니다.
 
