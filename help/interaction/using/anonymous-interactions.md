@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # 익명의 상호 작용{#anonymous-interactions}
 
-이 [비디오를](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com) 통해 오퍼가 식별된 타겟과 익명 타겟에 어떻게 제공되는지 간략하게 살펴볼 수 있습니다.
+![](assets/do-not-localize/how-to-video.png) 이 [비디오를](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com) 통해 오퍼가 식별된 타겟과 익명 타겟에 어떻게 제공되는지 간략하게 살펴볼 수 있습니다.
 
 ## 익명 인터랙션을 위한 환경 타깃팅 및 저장 {#targeting-and-storing-an-environment-for-anonymous-interactions}
 
