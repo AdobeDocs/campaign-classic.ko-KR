@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 7%
+source-wordcount: '221'
+ht-degree: 9%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 7%
 # 반복 게재{#recurring-delivery}
 
 활동을 **[!UICONTROL Recurring delivery]** 사용하면 캠페인과 관련된 게재 템플릿 발생을 구성할 수 있습니다.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#recurring-delivery-video)
 
 이 활동은 캠페인에 있는 **[!UICONTROL Targeting and workflows]** 탭에서만 사용할 수 있습니다.
 
@@ -39,11 +41,16 @@ ht-degree: 7%
 
 ![반복 배달](assets/delivery_recurring.jpg)
 
-이 비디오에서는 반복 게재 및 스케줄러 활동을 구성하는 방법을 설명합니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
-
 >[!NOTE]
 >
 >유형 활동에서 증거를 보낼 수 **[!UICONTROL Recurring delivery]** 없습니다.\
 >캠페인 워크플로우를 통해 배달을 직접 만들려면 미리 구성된 채널별 활동(예: **[!UICONTROL Email delivery]**).
+
+## 자습서 비디오(#repeking-delivery-video)
+
+이 비디오에서는 반복 게재 및 스케줄러 활동을 구성하는 방법을 설명합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+
