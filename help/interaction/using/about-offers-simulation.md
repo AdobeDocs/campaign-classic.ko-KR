@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 3%
 
 시뮬레이션은 이전에 오퍼에 적용된 컨텍스트 및 자격 조건 규칙( [오퍼 카탈로그 개요](../../interaction/using/offer-catalog-overview.md)참조)과 프레젠테이션 규칙을 고려합니다(오퍼 프레젠테이션 [관리 참조](../../interaction/using/managing-offer-presentation.md)). 따라서 시뮬레이션은 대상 수신자에게 영향을 주지 않으므로 제안을 실제로 사용하거나 대상을 오버하거나 타깃팅하지 않고 다양한 버전의 제안 제안을 테스트 및 조정할 수 있습니다.
 
-오퍼를 시뮬레이션하는 방법을 알아보려면 아래 단계를 참조하십시오. You can also watch this [video](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&amp;ref=helpx.adobe.com).
+오퍼를 시뮬레이션하는 방법을 알아보려면 아래 단계를 참조하십시오.
+
+![](assets/do-not-localize/how-to-video.png)[ 또한 이 비디오](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&amp;ref=helpx.adobe.com)를 볼 수 있습니다.
 
 ## 시뮬레이션을 만들기 위한 주요 단계 {#main-steps-for-creating-a-simulation}
 
