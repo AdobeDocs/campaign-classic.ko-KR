@@ -7,9 +7,9 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1269'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # 웹 양식의 정적 요소{#static-elements-in-a-web-form}
 
-사용자가 양식 페이지에 상호 작용하지 않는 요소를 포함할 수 있습니다.이미지, HTML 컨텐츠, 가로 막대 또는 하이퍼텍스트 링크와 같은 정적 요소입니다. 이러한 요소는 **[!UICONTROL Add static element]** 메뉴를 클릭하여 도구 모음의 첫 번째 단추를 통해 만들어집니다.
+사용자가 양식 페이지에 상호 작용하지 않는 요소를 포함할 수 있습니다.이미지, HTML 컨텐츠, 가로 막대 또는 하이퍼텍스트 링크와 같은 정적 요소입니다. 이러한 요소는 도구 모음의 첫 번째 단추를 선택하여 만듭니다 **[!UICONTROL Static elements]**.
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 
 양식 페이지에 HTML 컨텐츠를 포함할 수 있습니다.하이퍼링크, 이미지, 서식이 지정된 단락, 비디오 또는 Flash 개체 등
 
-HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력할 수 있습니다. 편집기를 열려면 로 **[!UICONTROL Static elements>HTML]** 이동합니다.
+HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력할 수 있습니다. 편집기를 열려면 **[!UICONTROL Static elements]** > 을 **[!UICONTROL HTML]** 클릭합니다.
 
 컨텐츠를 직접 입력하고 포맷하거나 소스 코드 창을 표시하여 일부 외부 컨텐츠에 붙여넣을 수 있습니다. &quot;소스 코드&quot; 모드로 전환하려면 도구 모음에서 첫 번째 아이콘을 클릭합니다.
 
@@ -54,7 +54,7 @@ HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력
 
 다음 예와 같이 편집 창의 필드를 채웁니다.
 
-하이퍼텍스트 링크를 추가하려면 로 이동합니다 **[!UICONTROL Static elements>Link]**.
+하이퍼텍스트 링크를 추가하려면 > **[!UICONTROL Static elements]** 로 이동합니다 **[!UICONTROL Link]**.
 
 ![](assets/s_ncs_admin_survey_add_link.png)
 
@@ -174,7 +174,7 @@ HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력
 
 >[!NOTE]
 >
->보안상의 이유로 수식에 입력한 값이 **`<%=`** 이스케이프 문자로 대체됩니다. 이를 방지하려면 필요한 경우에만 다음 구문을 사용하십시오. **`<%=`**.
+>보안상의 이유로 수식에 입력한 값이 이스케이프 처리된 문자로 **`<%=`** 대체됩니다.
 
 이 예에서는 받는 사람의 이름과 성이 데이터베이스의 필드에 저장되고 자동차 브랜드가 변수에 저장됩니다. 2페이지에 개인화된 메시지의 구문은 다음과 같습니다.
 
@@ -210,19 +210,19 @@ HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력
 
    >[!CAUTION]
    >
-   >HTML 편집기에 이러한 문자를 입력하면 **&lt;** 및 **>** 필드가 이스케이프 문자로대체됩니다. 이 경우 HTML 텍스트 편집기의 **[!UICONTROL Display source code]** 아이콘을 클릭하여 소스 코드를 수정해야 합니다.
+   >HTML 편집기에 이러한 문자를 입력하면 **&lt;** 및 **>** 필드가 이스케이프 처리된 문자로대체됩니다. 이 경우 HTML 텍스트 편집기의 **[!UICONTROL Display source code]** 아이콘을 클릭하여 소스 코드를 수정해야 합니다.
 
 1. 양식의 **[!UICONTROL Preview]** 레이블을 열고 HTML에 입력한 값을 봅니다.
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-이 운영 모드를 사용하면 웹 양식의 텍스트를 요인 처리하고 통합 번역 도구를 사용하여 번역을 관리할 수 있습니다. 자세한 내용은 웹 양식 [변환을 참조하십시오](../../web/using/translating-a-web-form.md).
+이 운영 모드에서는 웹 양식의 텍스트를 한 번만 정의하고 통합 번역 도구를 사용하여 번역을 관리할 수 있습니다. 자세한 내용은 웹 양식 [변환을 참조하십시오](../../web/using/translating-a-web-form.md).
 
 ## Inserting images {#inserting-images}
 
 양식에 이미지를 포함하려면 외부에서 액세스할 수 있는 서버에 이미지를 저장해야 합니다.
 
-메뉴를 **[!UICONTROL Static elements>Image]** 선택합니다.
+> **[!UICONTROL Static elements]** 메뉴를 **[!UICONTROL Image]** 선택합니다.
 
 삽입할 이미지의 소스를 선택합니다.공용 리소스 라이브러리에서 가져오거나 외부에서 액세스할 수 있는 외부 서버에 저장할 수 있습니다.
 
