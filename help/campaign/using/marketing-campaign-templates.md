@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 캠페인 템플릿 만들기 및 구성은 [캠페인 템플릿에 표시됩니다](#campaign-templates).
 
-캠페인 만들기에 대한 자세한 내용은 [이 비디오를 참조하십시오](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
+![](assets/do-not-localize/how-to-video.png) 캠페인 만들기에 대한 자세한 내용은 [이 비디오를 참조하십시오](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
 
 ## 사용 가능한 모듈 구성 {#configuration-of-the-available-modules}
 
