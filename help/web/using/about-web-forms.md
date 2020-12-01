@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 웹 양식 기본 정보
-description: 웹 양식 기본 정보
+title: 웹 양식 시작하기
+description: Campaign에서 웹 양식 시작하기
 audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 5%
+source-wordcount: '497'
+ht-degree: 3%
 
 ---
 
 
-# 웹 양식 기본 정보{#about-web-forms}
+# Get started with web forms{#about-web-forms}
 
 Adobe Campaign은 웹 양식을 정의하고 퍼블리싱하기 위한 그래픽 모듈을 통합하여 입력 및 선택 필드가 포함된 페이지를 만들고 데이터베이스에 데이터를 포함할 수 있습니다. 이를 통해 사용자가 정보를 보거나 입력할 수 있는 웹 페이지를 디자인하고 게시할 수 있습니다.
 
@@ -53,7 +53,7 @@ Adobe Campaign은 웹 양식을 정의하고 퍼블리싱하기 위한 그래픽
 
 웹 양식의 구성 및 컨텐츠를 정의하려면 다음 단계를 적용합니다.
 
-* 필요한 페이지를 만들고 확인합니다.입력 필드, 드롭다운 목록, HTML 컨텐츠 등
+* 먼저 필요한 페이지 및 컨트롤을 만듭니다.입력 필드, 드롭다운 목록, HTML 컨텐츠 등
 
    이 단계는 아래에 자세히 설명되어 있습니다.
 
