@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: '"사용 사례: 이메일 게재 만들기"'
-description: '"사용 사례: 이메일 게재 만들기"'
+title: 사용 사례 - 이메일 배달 만들기
+description: 이메일 배달 사용 사례 만들기
 audience: web
 content-type: reference
 topic-tags: editing-html-content
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 46aa896929c960abeb501642a5ffbbb56de4802e
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe의 최종 목표는 다음 사항을 포함하는 개인화된 템플릿�
 >
 >시작하기 전에 향후 게재의 컨텐츠를 호스팅하도록 하나 이상의 **HTML 템플릿** 을 구성해야 합니다.
 >
->전달에서 **[!UICONTROL Properties]** 탭 **[!UICONTROL Content editing mode]** 의 **[!UICONTROL Advanced]** 이 로 설정되어 있는지 확인합니다 **[!UICONTROL DCE]**. 편집기의 최적의 작업을 확인하려면 [컨텐츠 편집 우수 사례를 참조하십시오](../../web/using/content-editing-best-practices.md).
+>배달에서 **[!UICONTROL Properties]**&#x200B;탭 **[!UICONTROL Content editing mode]** 의 **[!UICONTROL Advanced]** 이 로 설정되어 있는지 확인합니다 **[!UICONTROL DCE]**. 편집기의 최적의 작업을 확인하려면 [컨텐츠 편집 우수 사례를 참조하십시오](../../web/using/content-editing-best-practices.md).
 
 ## 1단계 - 배달 만들기 {#step-1---creating-a-delivery}
 
