@@ -7,7 +7,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 2%
@@ -63,7 +63,7 @@ ht-degree: 2%
    > 
    >이 기능은 웹 응용 프로그램에 특히 유용하지만 공개 양식에는 권장되지 않습니다. 선택한 액세스 제어 옵션은 &quot;액세스 제어 사용&quot;이어야 합니다.
 
-프로필을 업데이트하지 않으려면 이 **[!UICONTROL Skip preloading if identification is empty]** 옵션을 선택해야 합니다. 이 경우 입력된 각 프로필은 양식의 승인 후 데이터베이스에 추가됩니다. 예를 들어, 양식을 웹 사이트에 게시할 때 이 옵션이 사용됩니다.
+프로필을 업데이트하지 않으려면 이 **[!UICONTROL Skip preloading if no ID]** 옵션을 선택해야 합니다. 이 경우 입력된 각 프로필은 양식의 승인 후 데이터베이스에 추가됩니다. 예를 들어, 양식을 웹 사이트에 게시할 때 이 옵션이 사용됩니다.
 
 이 **[!UICONTROL Auto-load data referenced in the form]** 옵션을 사용하면 양식에서 입력 및 병합 필드와 일치하는 데이터를 자동으로 미리 로드할 수 있습니다. 하지만, 데이터 참조 **[!UICONTROL Script]** 와 **[!UICONTROL Test]** 활동은 관련되지 않습니다. 이 옵션을 선택하지 않으면 옵션을 사용하여 필드를 정의해야 **[!UICONTROL Load additional data]** 합니다.
 
