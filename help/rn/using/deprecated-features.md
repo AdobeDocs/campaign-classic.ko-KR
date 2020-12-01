@@ -9,9 +9,9 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 82c5f4f4c37f295a6c206eb33616ae9223740f36
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1626'
 ht-degree: 99%
 
 ---
@@ -54,7 +54,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <li>웹 API - Microsoft Dynamics CRM 온-프레미스:2016, 2016 업데이트 1</li>
    <li>웹 API - Microsoft Dynamics CRM Online:2016, 2016 업데이트 1</li>
    </ul>
-  <p><em>타겟 제거 날짜: 2021년</em></p>
+  <p><em>타겟 제거 날짜: 2021년 4월</em></p>
   </td>
  </tr>
   <tr>
@@ -62,14 +62,14 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <td><p>Campaign 20.3 릴리스부터 iOS 레거시 바이너리 커넥터는 사용되지 않습니다.<p>
   <p> 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다.
   <a href="https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html">자세히 알아보기</a></p>
-  <p><em>타겟 제거 날짜: 2021년</em></p>
+  <p><em>타겟 제거 날짜: 2021년 4월</em></p>
   </td>
  </tr>
    <tr>
   <td>Demdex 도메인<br></td>
   <td><p> Campaign 20.3 릴리스부터 대상을 Adobe Experience Cloud으로 가져오고 내보내는 데 사용되는 demdex 도메인은 사용되지 않습니다.<p>
   <p>외부 계정 가져오기/내보내기에 demdex 도메인을 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">자세히 알아보기</a></p> 
-  <p><em>타겟 제거 날짜: 2021년</em></p>
+  <p><em>타겟 제거 날짜: 2021년 4월</em></p>
   </td>
   <tr>
   <td>OAuth 인증(OAuth 및 JWT)<br></td>
@@ -92,14 +92,14 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    </ul>
   <p>이러한 커넥터 중 하나를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../delivery/using/sms-channel.md">자세히 알아보기</a></p> 
   <p><a href="https://helpx.adobe.com/kr/campaign/kb/sms-connector.html">이 기술 문서</a>에서 레거시 커넥터를 마이그레이션하는 방법을 배웁니다.</p>
-  <p><em>타겟 제거 날짜: 2021년</em></p>
+  <p><em>타겟 제거 날짜: 2021년 4월</em></p>
   </td> 
  </tr>
   <tr>  
    <td>팩스 채널<br></td>
    <td><p>Campaign 20.2 릴리스부터 팩스 채널은 사용 중단됩니다.</p> 
    <p>이 채널을 사용하는 경우 그에 따라 구현을 조정해야 합니다. Campaign 채널에 대해 <a href="../../delivery/using/steps-about-delivery-creation-steps.md">자세히 알아보십시오</a>.</p>
-   <p><em>타겟 제거 날짜: 2021년</em></p></td>
+   <p><em>타겟 제거 날짜: 2021년 4월</em></p></td>
   </tr>
  </tbody> 
 </table>
