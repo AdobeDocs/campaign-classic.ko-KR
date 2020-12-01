@@ -7,9 +7,9 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '286'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 10%
 
 ![](assets/Offermgt2.png)
 
-Campaign Interaction에 사용되는 상호 작용 기능 및 용어를 숙지하려면 다음 비디오를 시청하십시오. [Adobe Campaign 상호 작용 개요](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
+![](assets/do-not-localize/how-to-video.png) Campaign Interaction에 사용되는 상호 작용 기능 및 용어를 숙지하려면 [이 비디오를 시청하십시오](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
 
 ## 관련 항목
 
