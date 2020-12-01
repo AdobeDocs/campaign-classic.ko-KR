@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 8%
+source-wordcount: '448'
+ht-degree: 7%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정
 >
 >Adobe Campaign 핵심 기능에 대한 자세한 내용은 시작하기 [섹션을](../../platform/using/about-adobe-campaign-classic.md) 참조하십시오.\
 >다양한 채널에서의 모집단 타깃팅, 메시지 개인화 및 메시지 전달과 관련된 기능은 [이 섹션에 자세히 설명되어 있습니다](../../delivery/using/steps-about-delivery-creation-steps.md).
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 마케팅 캠페인 개념 살펴보기](#video)
 
 ## 핵심 개념 {#core-concepts}
 
@@ -62,3 +64,10 @@ Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정
 
    자세한 내용은 전달 개요를 통해 [연결된 리소스 연결 및 구조화를 참조하십시오](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
+## 자습서 {#video}
+
+이 비디오에서는 마케팅 캠페인의 주요 개념을 보여줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
