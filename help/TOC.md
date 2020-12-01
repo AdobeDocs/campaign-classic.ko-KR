@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 97%
+source-wordcount: '2179'
+ht-degree: 96%
 
 ---
 
@@ -273,7 +273,7 @@ ht-degree: 97%
       + [웹 애플리케이션 추적](web/using/tracking-a-web-application.md)
       + [웹 애플리케이션 추적 옵트아웃](web/using/web-application-tracking-opt-out.md)
    + HTML 콘텐츠 편집 {#editing-html-content}
-      + [캠페인 HTML 편집기 기본 정보](web/using/about-campaign-html-editor.md)
+      + [HTML 편집기 시작하기](web/using/about-campaign-html-editor.md)
       + [템플릿 관리](web/using/template-management.md)
       + [콘텐츠 편집기 인터페이스](web/using/content-editor-interface.md)
       + [콘텐츠 편집](web/using/editing-content.md)
@@ -281,7 +281,7 @@ ht-degree: 97%
       + [랜딩 페이지 만들기](web/using/creating-a-landing-page.md)
       + [사용 사례: 전자 메일 게재 만들기](web/using/use-case--creating-an-email-delivery.md)
    + 웹 양식 {#web-forms}
-      + [웹 양식 기본 정보](web/using/about-web-forms.md)
+      + [웹 양식 시작하기](web/using/about-web-forms.md)
       + [웹 양식 템플릿 사용](web/using/using-a-web-form-template.md)
       + [웹 양식에 필드 추가](web/using/adding-fields-to-a-web-form.md)
       + [웹 양식의 정적 요소](web/using/static-elements-in-a-web-form.md)
@@ -294,9 +294,9 @@ ht-degree: 97%
       + [웹 양식 번역](web/using/translating-a-web-form.md)
       + [사용 사례: 웹 양식](web/using/use-cases--web-forms.md)
    + 온라인 설문 조사 {#online-surveys}
-      + [설문 조사 기본 정보](web/using/about-surveys.md)
-      + [설문 조사 시작하기](web/using/getting-started-with-surveys.md)
-      + [설문 조사 빌드](web/using/building-a-survey.md)
+      + [설문 조사 시작하기](web/using/about-surveys.md)
+      + [설문 조사를 만드는 주요 단계](web/using/getting-started-with-surveys.md)
+      + [설문 조사 디자인](web/using/building-a-survey.md)
       + [답변 관리](web/using/managing-answers.md)
       + [수집된 데이터 게시, 추적 및 사용](web/using/publish--track-and-use-collected-data.md)
       + [설문 조사 구성](web/using/configuring-surveys.md)
