@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 4%
+source-wordcount: '478'
+ht-degree: 2%
 
 ---
 
@@ -109,8 +109,10 @@ ht-degree: 4%
    >
    >이메일 컨텐츠에 다른 버전이 정의되지 않은 경우 이메일을 보내기 전에 타겟 모집단을 필터링해야 합니다.
 
-## 조건부 콘텐츠로 다국어 뉴스레터를 만드는 방법 {#conditionnal-content-video}
+## 자습서 비디오 {#conditionnal-content-video}
 
 다국어 뉴스레터의 예에 따라 게재에 조건부 컨텐츠를 추가하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
