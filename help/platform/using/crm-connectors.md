@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '2539'
 ht-degree: 4%
@@ -70,7 +70,7 @@ CRM에 연결하는 것은 전용 워크플로우 활동을 통해 수행됩니�
 
    Microsoft Dynamics와의 연결 설정 방법을 알아보려면 [이 섹션을](#example-for-microsoft-dynamics) 참조하십시오.
 
-   이 비디오에서 Adobe Campaign 및 Microsoft Dynamics 통합 활용 사례 [에 대해 알아보십시오](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
+   ![](assets/do-not-localize/how-to-video.png) 이 비디오에서 Adobe Campaign 및 Microsoft Dynamics 통합 활용 사례 [에 대해 알아보십시오](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
 
    >[!IMPORTANT]
    >
