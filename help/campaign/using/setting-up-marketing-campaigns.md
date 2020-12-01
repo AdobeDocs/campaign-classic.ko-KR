@@ -7,9 +7,9 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1263'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 # Setting up marketing campaigns{#setting-up-marketing-campaigns}
 
 캠페인에는 작업(배달) 및 프로세스(파일 가져오기 또는 추출)와 리소스(마케팅 문서, 배달 외곽선)가 포함됩니다. 마케팅 캠페인에서 사용됩니다. 캠페인은 프로그램의 일부이며 프로그램은 캠페인 계획에 포함됩니다.
+
+![](assets/do-not-localize/how-to-video.png) 동영상 마케팅 계획, 프로그램 및 캠페인 [을 만드는 방법 살펴보기](#video)
 
 마케팅 캠페인을 만들려면
 
@@ -45,7 +47,7 @@ ht-degree: 1%
 
    서비스 [제공업체 및 비용 구조 만들기를 참조하십시오](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
-이러한 단계가 완료되면 배달을 시작(배달 [시작](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)참조)하고 게재와 관련된 데이터, 프로세스 및 정보를 확인하고 필요한 경우 관련 문서를 관리할 수 있습니다(관련 문서 [관리 참조](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). 캠페인 및 게재 처리 단계의 실행을 추적할 수도 있습니다( [추적 참조](../../campaign/using/marketing-campaign-monitoring.md).
+이러한 단계가 완료되면 배달을 시작(배달 [시작](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)참조)하고 게재와 관련된 데이터, 프로세스 및 정보를 확인하고 필요한 경우 관련 문서를 관리할 수 있습니다(관련 문서 [관리 참조](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). 캠페인 및 게재 처리 단계의 실행을 추적할 수도 있습니다( [추적](../../campaign/using/marketing-campaign-monitoring.md)참조).
 
 ## 계획 및 프로그램 계층 생성 {#creating-plan-and-program-hierarchy}
 
@@ -230,3 +232,11 @@ ht-degree: 1%
    ![](assets/s_ncs_user_op_template_period_planning.png)
 
 각 주기적 캠페인에는 동일한 요소가 포함됩니다. 만들어진 후에는 표준 캠페인으로 관리됩니다.
+
+## 자습서 비디오 {#video}
+
+이 비디오에서는 마케팅 계획, 프로그램 및 캠페인을 만드는 방법을 보여줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
