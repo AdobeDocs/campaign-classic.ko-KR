@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 3%
+source-wordcount: '465'
+ht-degree: 1%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 3%
 
 일반적으로 목록에 대상을 저장하면 작업 과정의 끝을 표시합니다. 기본적으로 **[!UICONTROL List update]** 활동에는 아웃바운드 전환이 없습니다. 옵션을 **[!UICONTROL Generate an outbound transition]** 선택하여 추가합니다.
 
+![](assets/do-not-localize/how-to-video.png) [비디오에서 탐색기에서 받는 사람 목록을 만드는 방법을 알아봅니다.](#video)
+
 ## 예:목록 업데이트 {#example--list-update}
 
 다음 예에서 목록 업데이트 활동은 프랑스에 거주하는 30명 이상의 남성을 대상으로 하는 쿼리를 따릅니다. 목록은 처음에 쿼리 결과에서 만들어집니다. 그러면 워크플로우에서 실행할 때마다 업데이트됩니다. 예를 들어 캠페인의 타깃팅된 프로모션 오퍼에 정기적으로 사용할 수 있습니다.
@@ -56,8 +58,6 @@ ht-degree: 3%
 
    그런 다음 일치하는 받는 사람 목록을 만들거나 업데이트합니다.
 
-자세한 내용은 수신자 [목록 만들기 비디오를](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html) 참조하십시오.
-
 ## 입력 매개 변수 {#input-parameters}
 
 * tableName
@@ -68,3 +68,11 @@ ht-degree: 3%
 ## 출력 매개 변수 {#output-parameters}
 
 * groupId:그룹 식별자입니다.
+
+## 자습서 비디오 {#video}
+
+이 비디오에서는 탐색기에서 받는 사람 목록을 만드는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
