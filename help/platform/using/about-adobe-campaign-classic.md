@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 96%
+source-wordcount: '911'
+ht-degree: 94%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Campaign을 사용하면 대화형 마케팅 캠페인 만들기를 조정
 >
 >Adobe Campaign Classic은 v6.11 및 v7에서 사용할 수 있습니다. Except when mentioned, help materials apply to both versions, in the [latest build](../../rn/using/latest-release.md). 스크린샷은 Campaign Classic v7 사용자 인터페이스를 반영합니다.
 
+![](assets/do-not-localize/how-to-video.png) [비디오의 주요 기능 살펴보기](#video)
+
 ## 주요 기능 {#key-capabilities}
 
 Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플랫폼을 제공하며 시각적인 캠페인 오케스트레이션, 실시간 상호 작용 관리 및 크로스 채널 실행 환경을 제공합니다.
@@ -32,8 +34,6 @@ Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플�
 Adobe Campaign의 마케팅 캠페인 주기는 제품의 주요 기능을 보여줍니다.
 
 ![](assets/d_ncs_user_emarketing.png)
-
-![](assets/do-not-localize/how-to-video.png) [비디오의 주요 기능 살펴보기](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html)
 
 ### Integrated customer profile {#integrated-customer-profile}
 
@@ -87,3 +87,10 @@ Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 �
 * [웹 서비스](../../configuration/using/about-web-services.md) - API/웹 서비스를 통해 캠페인 사용,
 * [보고](../../reporting/using/about-adobe-campaign-reporting-tools.md) - 기본 제공 보고서에 액세스하고 데이터를 분석하며 보고서를 디자인할 수 있습니다.
 
+## 자습서 비디오 {#video}
+
+이 비디오에서는 Campaign Classic의 주요 기능과 기능을 제공합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
