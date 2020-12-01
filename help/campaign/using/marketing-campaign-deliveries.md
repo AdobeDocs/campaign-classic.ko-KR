@@ -7,9 +7,9 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2925'
 ht-degree: 1%
 
 ---
@@ -457,8 +457,10 @@ ht-degree: 1%
 >
 >내보내기에 대한 자세한 내용은 시작하기 [섹션을](../../platform/using/generic-imports-and-exports.md) 참조하십시오.
 
-#### 캠페인에서 이메일을 만드는 방법 {#create-email-video}
+#### 자습서 비디오 {#create-email-video}
 
 이 비디오에서는 Adobe Campaign Classic에서 캠페인 및 이메일을 만드는 방법을 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
+추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
