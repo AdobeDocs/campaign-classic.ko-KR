@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9cf995fe58b6afd89ee54724c97681f39994eba9
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2201'
 ht-degree: 80%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 80%
 
 # 릴리스 20.2{#release-20-2}
 
-![](assets/do-not-localize/cp-icon.png) **CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 새로운 10월 Campaign 컨트롤 패널 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
+![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 Campaign 컨트롤 패널 릴리스**. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
 ## ![](assets/do-not-localize/green_2.png) 릴리스 20.2.3 - 빌드 9182 {#release-20-2-3-build-9182}
 
@@ -52,10 +52,10 @@ _2020년 7월 22일_
 * iOS HTTP2 커넥터가 개선되었습니다(타사 업데이트 및 오류 관리). (NEO-25904, NEO-25903)
 * catalina.properties의 jarToSkip 목록이 더 이상 사용되지 않은 jar 파일에 대한 참조를 제거하도록 업데이트되었습니다(iOS 알림).
 * 업그레이드 후 배달 준비를 차단하는 문제를 수정했습니다.
-* 새 시퀀스 ID 메커니즘으로 전환 [](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)후 받는 사람 테이블을 업데이트하는 모든 웹 응용 프로그램이 업그레이드 후 다시 게시됩니다.
+* [새 시퀀스 ID 메커니즘](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)으로 전환하면 업그레이드 후 동안 수신자 테이블을 업데이트하는 모든 웹 응용 프로그램이 다시 게시됩니다.
 * 배달 컨텐츠의 잠재적 XSS 취약성 문제가 해결되었습니다. (NEO-17987, NEO-26073)
 
-![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
+![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
 ## ![](assets/do-not-localize/orange_2.png) 릴리스 20.2.1 - 빌드 9178 {#release-20-2-1-build-9178}
 
@@ -155,6 +155,8 @@ _2020년 6월 8일_
 * 이제 푸시 알림을 전송하기 전에 iOS HTTP2 커넥터를 사용하는 iOS 모바일 애플리케이션에 대한 인증서의 유효성을 검사하여 인증서 만료로 인해 게재의 실패를 방지합니다.
 
 * HTTP 프록시 연결 관리가 개선되었습니다. [자세히 알아보기](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)
+
+* **[!UICONTROL Javascript Code]** 및 **[!UICONTROL Advanced Javascript Code]** 워크플로우 활동의 새 옵션을 사용하여 제한 후 실행을 중지합니다. 기본값은 1시간입니다. [자세히 알아보기](../../workflow/using/sql-code-and-javascript-code.md#javascript-code)
 
 **기타 변경 사항**
 
