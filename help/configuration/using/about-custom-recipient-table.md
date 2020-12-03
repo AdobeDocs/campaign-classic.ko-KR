@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 이 확장 방법이 표를 확장하는 데 상당한 유연성을 제공하는 경우 테이블의 필드나 링크 수를 줄일 수 없습니다. 표준이 아닌 표 또는 &#39;외부 수신자 테이블&#39;을 사용하면 유연성이 향상되지만 구현할 때는 특정 예방 조치가 필요합니다.
 
-## 정확도 {#precisions}
+## 정밀도 {#precisions}
 
 이 기능을 통해 Adobe Campaign은 외부 데이터베이스의 데이터를 처리할 수 있습니다.이 데이터는 배달용 프로필 세트로 사용됩니다. 이 프로세스를 구현하려면 클라이언트의 요구 사항에 따라 관련이 있을 수 있는 몇 가지 정밀도가 수반됩니다. 예:
 
@@ -47,14 +47,14 @@ ht-degree: 2%
 
    권장 사항:
 
-   * 간편하게 사용할 수 있도록 **[!UICONTROL nms:BroadLogRcp]** 및 **[!UICONTROL nms:TrackingLogRcp]** 스키마를 제공할 수 있습니다 **[!UICONTROL nms:Recipientschema]**. 이러한 두 개의 로그 테이블은 추가 사용자 지정 수신자 테이블에 링크되어서는 안 됩니다.
-   * 새 사용자 지정 수신자 스키마에 대한 전용 사용자 지정 브로드캐스트 로그 및 추적 로그 스키마를 정의합니다. 대상 매핑을 설정할 때 이 작업을 자동으로 수행할 수 있습니다. [대상 매핑을 참조하십시오](../../configuration/using/target-mapping.md).
+   * **[!UICONTROL nms:BroadLogRcp]** 및 **[!UICONTROL nms:TrackingLogRcp]** 스키마를 기본 **[!UICONTROL nms:Recipientschema]**&#x200B;에 전용 이러한 두 개의 로그 테이블은 추가 사용자 지정 수신자 테이블에 링크되어서는 안 됩니다.
+   * 새 사용자 지정 수신자 스키마에 대한 전용 사용자 지정 브로드캐스트 로그 및 추적 로그 스키마를 정의합니다. 이 작업은 대상 매핑을 설정할 때 자동으로 수행할 수 있습니다. [Target 매핑](../../configuration/using/target-mapping.md)을 참조하십시오.
 
-* 제품에서 **[!UICONTROL Services and Subscriptions]** 제공하는 표준은 사용할 수 없습니다.
+* 제품에 제공된 표준 **[!UICONTROL Services and Subscriptions]**&#x200B;은 사용할 수 없습니다.
 
-   이는 [이 섹션에](../../delivery/using/managing-subscriptions.md) 설명된 전체 작업을 적용할 수 없음을 의미합니다.
+   즉, [이 섹션](../../delivery/using/managing-subscriptions.md)에 명시된 전체 작업을 적용할 수 없습니다.
 
-* 표가 있는 **[!UICONTROL visitor]** 링크가 작동하지 않습니다.
+* **[!UICONTROL visitor]** 테이블의 링크가 작동하지 않습니다.
 
    따라서 **[!UICONTROL Social Marketing]** 모듈을 사용하려면 올바른 테이블을 참조하도록 저장소 단계를 구성해야 합니다.
 
@@ -62,18 +62,18 @@ ht-degree: 2%
 
 * 목록에 프로필을 수동으로 추가할 수는 없습니다.
 
-   따라서 추가 구성 없이 [이 섹션에](../../platform/using/creating-and-managing-lists.md) 설명된 절차는 적용되지 않습니다.
+   따라서 [이 섹션](../../platform/using/creating-and-managing-lists.md)에 명시된 절차는 추가 구성 없이 적용되지 않습니다.
 
    >[!NOTE]
    >
-   >워크플로우를 사용하여 수신자 목록을 만들 수도 있습니다. 자세한 내용은 워크플로우로 [프로필 목록 만들기를 참조하십시오](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
+   >워크플로우를 사용하여 수신자 목록을 만들 수도 있습니다. 자세한 내용은 워크플로우[를 사용하여 프로필 목록 만들기를 참조하십시오.](../../configuration/using/creating-a-profile-list-with-a-workflow.md)
 
 또한 다음과 같은 다양한 기본 구성에 사용되는 기본값을 확인하는 것이 좋습니다.사용하는 기능에 따라 여러 가지 적응이 이루어져야 합니다.
 
 예제:
 
-* 특정 표준 보고서, 특히 **상호 작용** 및 **모바일 애플리케이션** 등은 재개발되어야 합니다. 보고서 [관리 섹션을](../../configuration/using/managing-reports.md) 참조하십시오.
-* 특정 워크플로우 활동에 대한 기본 구성은 표준 수신자 테이블(**[!UICONTROL nms:recipient]**)을 참조합니다.이러한 구성은 외부 수신자 테이블에 사용될 때 변경해야 합니다. 워크플로우 [관리 섹션을](../../configuration/using/managing-workflows.md) 참조하십시오.
+* 특정 표준 보고서, 특히 **Interaction** 및 **Mobile Applications**&#x200B;에서 제공하는 보고서를 재개발해야 합니다. [보고서 관리](../../configuration/using/managing-reports.md) 섹션을 참조하십시오.
+* 특정 워크플로우 활동에 대한 기본 구성은 표준 수신자 테이블(**[!UICONTROL nms:recipient]**)을 참조합니다.이러한 구성은 외부 수신자 테이블에 사용될 때 변경해야 합니다. [워크플로우 관리](../../configuration/using/managing-workflows.md) 섹션을 참조하십시오.
 * 표준 **[!UICONTROL Unsubscription link]** 개인화 블록을 조정해야 합니다.
 * 표준 배달 템플릿의 대상 매핑을 수정해야 합니다.
 * V4 양식은 외부 받는 사람 테이블과 호환하지 않습니다.웹 응용 프로그램을 사용해야 합니다.
