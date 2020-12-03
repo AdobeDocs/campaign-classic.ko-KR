@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 태그의 유형은 두 가지가 있습니다.
 
 * **웹**:이 태그는 페이지를 방문했는지,
-* **트랜잭션**:은 웹 태그처럼 작동하지만 생성되는 비즈니스 볼륨에 대한 정보(예: 거래 금액, 구매한 항목 수 등)를 추가할 수 있는 가능성이 있습니다.
+* **트랜잭션**:은 웹 태그처럼 작동하지만 생성된 비즈니스 볼륨에 대한 정보(예: 거래 금액, 구매한 항목 수 등)를 추가할 수 있는 가능성이 있습니다.
 
 다음 단계를 적용하여 이러한 태그를 설정합니다.
 
