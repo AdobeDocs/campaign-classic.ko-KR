@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6d0ae3d597f9ee30515437d94901cb034d0ca3d5
 workflow-type: tm+mt
-source-wordcount: '3579'
+source-wordcount: '3600'
 ht-degree: 3%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->이러한 구성은 관리자가 수행해야 하고 **온-프레미스** 호스팅 모델에 대해서만 수행해야 합니다.
+>이러한 구성은 관리자가 수행해야 하고 **온-프레미스** 호스팅 모델에만 사용해야 합니다.
 >
->호스팅 **배포의** 경우 서버측 설정은 Adobe에서만 구성할 수 있습니다. 그러나 Campaign 컨트롤 패널 내에서 일부 설정을 설정할 수 있습니다(예: IP 관리 또는 URL 권한).
+>**호스팅** 배포의 경우 서버측 설정은 Adobe에서만 구성할 수 있습니다. 그러나 Campaign 컨트롤 패널 내에서 일부 설정을 설정할 수 있습니다(예: IP 관리 또는 URL 권한).
 
 자세한 내용은 다음 섹션을 참조하십시오.
 
@@ -34,8 +34,8 @@ ht-degree: 3%
 
 Campaign Classic 구성 파일은 Adobe Campaign 설치 폴더의 **conf** 폴더에 저장됩니다. 구성은 다음 두 파일에 분산됩니다.
 
-* **serverConf.xml**:모든 인스턴스에 대한 일반 구성. 이 파일은 Adobe Campaign 서버의 기술 매개 변수를 결합합니다.모든 인스턴스에서 공유됩니다. 이러한 매개 변수 중 일부에 대한 설명은 아래에 자세히 나와 있습니다. 이 [섹션에 나열된 다른 노드 및 매개 변수입니다](../../installation/using/the-server-configuration-file.md).
-* **config-`<instance>`.xml** (여기서 **instance** 는 인스턴스 이름):인스턴스의 특정 구성. 여러 인스턴스 간에 서버를 공유하는 경우 관련 파일의 각 인스턴스에 해당하는 매개 변수를 입력하십시오.
+* **serverConf.xml**:모든 인스턴스에 대한 일반 구성. 이 파일은 Adobe Campaign 서버의 기술 매개 변수를 결합합니다.모든 인스턴스에서 공유됩니다. 이러한 매개 변수 중 일부에 대한 설명은 아래에 자세히 나와 있습니다. 이 [section](../../installation/using/the-server-configuration-file.md)에 나열된 다른 노드 및 매개 변수입니다.
+* **config-`<instance>`.xml** (여기서  **** instanceis the name of the instance):인스턴스의 특정 구성. 여러 인스턴스 간에 서버를 공유하는 경우 관련 파일의 각 인스턴스에 해당하는 매개 변수를 입력하십시오.
 
 ## 보안 영역 정의 {#defining-security-zones}
 
@@ -43,7 +43,7 @@ Campaign Classic 구성 파일은 Adobe Campaign 설치 폴더의 **conf** 폴�
 
 각 연산자를 인스턴스에 로그온하려면 영역에 연결해야 하며 연산자 IP는 보안 영역에 정의된 주소 또는 주소 세트에 포함되어야 합니다. 보안 영역 구성은 Adobe Campaign 서버의 구성 파일에서 수행됩니다.
 
-연산자는 콘솔( 노드)의 프로필에서 보안 영역에 **[!UICONTROL Administration > Access management > Operators]** 연결됩니다. 이 섹션에서 영역을 캠페인 연산자에 연결하는 방법을 [알아봅니다](#linking-a-security-zone-to-an-operator).
+연산자는 콘솔( **[!UICONTROL Administration > Access management > Operators]** 노드)의 프로필에서 보안 영역에 연결됩니다. [이 섹션](#linking-a-security-zone-to-an-operator)에서 영역을 캠페인 연산자에 연결하는 방법을 알아봅니다.
 
 ### 보안 영역 만들기 {#creating-security-zones}
 
@@ -54,7 +54,7 @@ Campaign Classic 구성 파일은 Adobe Campaign 설치 폴더의 **conf** 폴�
 
 보안 영역은 상호 잠깁니다. 즉, 다른 영역 내에서 새 영역을 정의하면 각 연산자에 할당된 권한을 증가시키면서 해당 영역에 로그인할 수 있는 연산자 수가 줄어듭니다.
 
-서버 구성 중에 serverConf.xml **** 파일에서 영역을 정의해야 합니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
+서버 구성 중에 **serverConf.xml** 파일에서 영역을 정의해야 합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
 각 영역은 다음과 같은 권한을 정의합니다.
 
@@ -67,15 +67,15 @@ Campaign Classic 구성 파일은 Adobe Campaign 설치 폴더의 **conf** 폴�
 >[!NOTE]
 >
 >**각 연산자는 영역에 연결해야 합니다**. 연산자의 IP 주소가 영역에 의해 정의된 범위에 속하는 경우 연산자는 인스턴스에 로그온할 수 있습니다.\
->연산자의 IP 주소는 여러 영역에 정의할 수 있습니다. 이 경우 연산자는 각 영역에 대해 사용 가능한 권한 **세트를** 받습니다.
+>연산자의 IP 주소는 여러 영역에 정의할 수 있습니다. 이 경우 연산자는 각 영역에 대해 사용 가능한 권한의 **set**&#x200B;을 받습니다.
 
-곧바로 사용 가능한 serverConf.xml **** 파일에는 다음 세 개의 영역이 포함됩니다. **공개, VPN 및 LAN**.
+기본적으로 제공되는 **serverConf.xml** 파일에는 다음 세 개의 영역이 포함됩니다.**공개, VPN 및 LAN**.
 
 >[!NOTE]
 >
 >**기본 구성은 안전합니다**. 그러나 이전 버전의 Adobe Campaign에서 마이그레이션하기 전에 새 규칙을 마이그레이션하고 승인하려면 일시적으로 보안을 축소해야 할 수도 있습니다.
 
-serverConf.xml **** 파일에서 영역을 정의하는 방법의 예:
+**serverConf.xml** 파일에서 영역을 정의하는 방법의 예:
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" label="Public Network" name="public">
@@ -110,13 +110,13 @@ serverConf.xml **** 파일에서 영역을 정의하는 방법의 예:
 
 >[!IMPORTANT]
 >
->영역 정의에서, **true** 값이 있는 각 속성은 보안을 줄입니다.
+>영역 정의에서 **true** 값이 있는 각 특성은 보안을 감소시킵니다.
 
-메시지 센터를 사용할 때 여러 실행 인스턴스가 있는 경우 **true로** 정의된 sessionTokenOnly ****&#x200B;특성을 사용하여 필요한 IP 주소만 추가하도록 추가 보안 영역을 만들어야 합니다. 인스턴스 구성에 대한 자세한 내용은 [이 문서를 참조하십시오](../../message-center/using/creating-a-shared-connection.md).
+메시지 센터를 사용할 때 실행 인스턴스가 여러 개 있는 경우 필요한 IP 주소만 추가할 수 있는 **true**&#x200B;로 정의된 **sessionTokenOnly** 특성으로 추가 보안 영역을 만들어야 합니다. 인스턴스 구성에 대한 자세한 내용은 [이 문서](../../message-center/using/creating-a-shared-connection.md)를 참조하십시오.
 
-### 보안 영역에 대한 모범 사례 {#best-practices-for-security-zones}
+### 보안 영역에 대한 우수 사례 {#best-practices-for-security-zones}
 
-lan **보안 영역의 정의에서 기술 액세스를 정의하는 IP** 주소 마스크를 추가할 수 있습니다. 이렇게 추가하면 서버에 호스팅된 모든 인스턴스에 액세스할 수 있습니다.
+**lan** 보안 영역의 정의에서 기술 액세스를 정의하는 IP 주소 마스크를 추가할 수 있습니다. 이렇게 추가하면 서버에 호스팅된 모든 인스턴스에 액세스할 수 있습니다.
 
 ```
 <securityZone allowDebug="true" allowEmptyPassword="false" allowHTTP="true"
@@ -137,7 +137,7 @@ lan **보안 영역의 정의에서 기술 액세스를 정의하는 IP** 주소
 
 특정 인스턴스에만 액세스하는 연산자에 대해 인스턴스에 전용 구성 파일에서 직접 IP 주소 범위를 정의하는 것이 좋습니다.
 
-파일 **`config-<instance>.xml`** :
+**`config-<instance>.xml`** 파일에서:
 
 ```
   <securityZone name="public">
@@ -146,9 +146,9 @@ lan **보안 영역의 정의에서 기술 액세스를 정의하는 IP** 주소
       <subNetwork id="cus1" mask="a.b.c.d/xx"/>
 ```
 
-### 보안 영역의 하위 네트워크 및 프록시 {#sub-networks-and-proxies-in-a-security-zone}
+### 보안 영역 {#sub-networks-and-proxies-in-a-security-zone}의 하위 네트워크 및 프록시
 
-프록시 **매개** 변수를 **하위 네트워크** 요소에서 사용하여 보안 영역에서 프록시 사용을 지정할 수 있습니다.
+**proxy** 매개 변수를 **subNetwork** 요소에서 사용하여 보안 영역에서 프록시 사용을 지정할 수 있습니다.
 
 프록시가 참조되고 이 프록시를 통해 연결이 들어오는 경우(HTTP X-Forwarded-For 헤더를 통해 표시됨) 확인된 영역은 프록시의 클라이언트가 아니라 프록시 클라이언트의 영역입니다.
 
@@ -174,7 +174,7 @@ lan **보안 영역의 정의에서 기술 액세스를 정의하는 IP** 주소
 
    ![](assets/8101_proxy3.png)
 
-Adobe Campaign 서버에 액세스할 가능성이 있는 프록시의 IP 주소는 관련 **`<subnetwork>`** 및 첫 번째 수준 하위 네트워크 모두에 입력해야 합니다 **`<subnetwork name="all"/>`**. 예를 들어 IP 주소가 10.131.146.102인 프록시의 경우 다음을 수행합니다.
+Adobe Campaign 서버에 액세스할 가능성이 있는 프록시의 IP 주소는 해당 **`<subnetwork>`** 및 첫 번째 수준 하위 네트워크 **`<subnetwork name="all"/>`** 모두에 입력해야 합니다. 예를 들어 IP 주소가 10.131.146.102인 프록시의 경우 다음을 수행합니다.
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" label="Public Network" 
@@ -201,19 +201,19 @@ Adobe Campaign 서버에 액세스할 가능성이 있는 프록시의 IP 주소
 
 영역이 정의된 후에는 각 연산자를 인스턴스 중 하나에 연결하여 연산자의 IP 주소를 영역에 참조된 주소 또는 범위에 포함시켜야 합니다.
 
-영역의 기술 구성은 캠페인 서버의 구성 파일에서 수행됩니다. **serverConf.xml**.
+영역의 기술 구성은 캠페인 서버의 구성 파일에서 수행됩니다.**serverConf.xml**.
 
-이에 앞서, 레이블을 **[!UICONTROL Security zone]** serverConf.xml **** 파일에 정의된 영역의 내부 이름에 연결하도록 기본 열거 구성 방식으로 시작해야 합니다.
+이에 앞서 **serverConf.xml** 파일에 정의된 영역의 내부 이름에 레이블을 연결하도록 기본 **[!UICONTROL Security zone]** 열거형을 구성하여 시작해야 합니다.
 
 이 구성은 캠페인 탐색기에서 수행됩니다.
 
-1. 노드를 **[!UICONTROL Administration > Platform > Enumerations]** 클릭합니다.
-1. 시스템 열거형을 **[!UICONTROL Security zone (securityZone)]** 선택합니다.
+1. **[!UICONTROL Administration > Platform > Enumerations]** 노드를 클릭합니다.
+1. **[!UICONTROL Security zone (securityZone)]** 시스템 열거형을 선택합니다.
 
    ![](assets/enum_securityzone.png)
 
 1. 서버의 구성 파일에 정의된 각 보안 영역에 대해 **[!UICONTROL Add]** 단추를 클릭합니다.
-1. 필드에 **[!UICONTROL Internal name]** serverConf.xml **** 파일에 정의된 영역의 이름을 입력합니다. 요소의 **@name** 특성에 `<securityzone>` 해당합니다. 레이블 필드에 내부 이름에 연결된 레이블을 ****&#x200B;입력합니다.
+1. **[!UICONTROL Internal name]** 필드에 **serverConf.xml** 파일에 정의된 영역의 이름을 입력합니다. 이것은 `<securityzone>` 요소의 **@name** 특성에 해당합니다. **레이블**&#x200B;필드에 내부 이름에 연결된 레이블을 입력합니다.
 
    ![](assets/enum_addsecurityvalue.png)
 
@@ -221,25 +221,25 @@ Adobe Campaign 서버에 액세스할 가능성이 있는 프록시의 IP 주소
 
 영역이 정의되고 **[!UICONTROL Security zone]** 열거가 구성되면 각 연산자를 보안 영역에 연결해야 합니다.
 
-1. 노드를 **[!UICONTROL Administration > Access management > Operators]** 클릭합니다.
+1. **[!UICONTROL Administration > Access management > Operators]** 노드를 클릭합니다.
 1. 보안 영역을 연결할 연산자를 선택하고 **[!UICONTROL Edit]** 탭을 클릭합니다.
-1. 탭으로 **[!UICONTROL Access rights]** 가서 **[!UICONTROL Edit access parameters...]** 링크를 클릭합니다.
+1. **[!UICONTROL Access rights]** 탭으로 이동하여 **[!UICONTROL Edit access parameters...]** 링크를 클릭합니다.
 
    ![](assets/zone_operator.png)
 
-1. 드롭다운 목록에서 **[!UICONTROL Authorized connection zone]** 영역 선택
+1. **[!UICONTROL Authorized connection zone]** 드롭다운 목록에서 영역 선택
 
    ![](assets/zone_operator_selection.png)
 
-1. 수정 내용 **[!UICONTROL OK]** 을 클릭하고 저장하여 변경 내용을 적용합니다.
+1. **[!UICONTROL OK]**&#x200B;을 클릭하고 수정 내용을 저장하여 이러한 변경 내용을 적용합니다.
 
-## Tomcat 구성 {#configuring-tomcat}
+## Tomcat {#configuring-tomcat} 구성
 
-### Tomcat의 기본 포트 {#default-port-for-tomcat}
+### Tomcat {#default-port-for-tomcat}의 기본 포트
 
 Tomcat 서버의 8080 의견 수렴 포트가 구성에 필요한 다른 애플리케이션으로 이미 사용 중인 경우 8080 포트를 무료 포트(예: 8090)로 교체해야 합니다. 변경하려면 Adobe Campaign 설치 폴더의 **/tomcat-8/conf** 디렉토리에 저장된 **server.xml** 파일을 편집합니다.
 
-그런 다음 JSP 릴레이 페이지의 포트를 수정합니다. 이렇게 하려면 Adobe Campaign 설치 디렉토리의 **/conf** 디렉토리에 저장된 serverConf.xml **** 파일을 변경합니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
+그런 다음 JSP 릴레이 페이지의 포트를 수정합니다. 이렇게 하려면 Adobe Campaign 설치 디렉토리의 **/conf** 디렉토리에 저장된 **serverConf.xml** 파일을 변경합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
 ```
 <serverConf>
@@ -248,9 +248,9 @@ Tomcat 서버의 8080 의견 수렴 포트가 구성에 필요한 다른 애플�
    <url ... targetUrl="http://localhost:8090"...
 ```
 
-### Tomcat에서 폴더 매핑 {#mapping-a-folder-in-tomcat}
+### Tomcat {#mapping-a-folder-in-tomcat}의 폴더 매핑
 
-고객별 설정을 정의하려면 context.xml **파일도 포함되어 있는** /tomcat-8/conf **폴더에** user_contexts.xml **파일을 만들 수** 있습니다.
+고객별 설정을 정의하려면 **contexts.xml** 파일도 포함하는 **/tomcat-8/conf** 폴더에 **user_context.xml** 파일을 만들 수 있습니다.
 
 이 파일에는 다음 유형의 정보가 포함됩니다.
 
@@ -260,11 +260,11 @@ Tomcat 서버의 8080 의견 수렴 포트가 구성에 필요한 다른 애플�
 
 필요한 경우 이 작업을 서버측에서 재현할 수 있습니다.
 
-## 전달 매개 변수 개인화 {#personalizing-delivery-parameters}
+## 배달 매개 변수 개인화 {#personalizing-delivery-parameters}
 
-전달 매개 변수는 serverConf.xml **** 구성 파일에 정의되어 있습니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
+배달 매개 변수는 **serverConf.xml** 구성 파일에 정의되어 있습니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
-일반 서버 구성 및 명령은 [Campaign 서버 구성에 자세히 설명되어 있습니다](../../installation/using/campaign-server-configuration.md).
+일반 서버 구성 및 명령은 [캠페인 서버 구성](../../installation/using/campaign-server-configuration.md)에 자세히 설명되어 있습니다.
 
 사용자의 요구 사항과 설정에 따라 다음 구성을 수행할 수도 있습니다.
 
@@ -286,15 +286,15 @@ MTA 모듈은 SMTP 브로드캐스트(포트 25)에 대한 기본 메일 전송 
 
 ### MTA 하위 프로세스 {#mta-child-processes}
 
-서버의 CPU 성능 및 사용 가능한 네트워크 리소스에 따라 브로드캐스트 성능을 최적화하기 위해 하위 프로세스(기본적으로 maxSpareServers)의 모집단을 제어할 수 있습니다. 이 구성은 각 개별 컴퓨터의 MTA 구성 **`<master>`** 섹션에서 이루어집니다.
+서버의 CPU 성능 및 사용 가능한 네트워크 리소스에 따라 브로드캐스트 성능을 최적화하기 위해 하위 프로세스(기본적으로 maxSpareServers)의 모집단을 제어할 수 있습니다. 이 구성은 각 개별 컴퓨터에서 MTA 구성의 **`<master>`** 섹션에서 이루어집니다.
 
 ```
 <master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
 ```
 
-이메일 [전송 최적화를 참조하십시오](../../installation/using/email-deliverability.md#email-sending-optimization).
+또한 [이메일 전송 최적화](../../installation/using/email-deliverability.md#email-sending-optimization)를 참조하십시오.
 
-### 친화성이 있는 아웃바운드 SMTP 트래픽 관리 {#managing-outbound-smtp-traffic-with-affinities}
+### 친화성이 {#managing-outbound-smtp-traffic-with-affinities}인 아웃바운드 SMTP 트래픽 관리
 
 >[!IMPORTANT]
 >
@@ -304,9 +304,9 @@ IP 주소가 있는 친화성을 통해 아웃바운드 SMTP 트래픽을 개선
 
 이렇게 하려면 다음 단계를 적용합니다.
 
-1. serverConf.xml **`<ipaffinity>`** 파일의 섹션 **에 해당 기능을** 입력합니다.
+1. **serverConf.xml** 파일의 **`<ipaffinity>`** 섹션에 해당 기능을 입력합니다.
 
-   선호도 한 개에는 여러 개의 이름이 있을 수 있습니다.구분하려면, **;** character.
+   선호도 한 개에는 여러 개의 이름이 있을 수 있습니다.구분하려면 **;** 문자를 사용하십시오.
 
    예제:
 
@@ -315,15 +315,15 @@ IP 주소가 있는 친화성을 통해 아웃바운드 SMTP 트래픽을 개선
              <IP address="XX.XXX.XX.XX" heloHost="myserver.us.campaign.net" publicId="123" excludeDomains="neo.*" weight="5"/
    ```
 
-   관련 매개변수를 보려면 serverConf.xml **파일을** 참조하십시오.
+   관련 매개 변수를 보려면 **serverConf.xml** 파일을 참조하십시오.
 
-1. 드롭다운 목록에서 친화성 선택을 활성화하려면 **IPAfatness 열거에 친화성 이름을 추가해야** 합니다.
+1. 드롭다운 목록에서 친화성 선택을 활성화하려면 **IPAfferity** 열거형에 친화성 이름을 추가해야 합니다.
 
    ![](assets/ipaffinity_enum.png)
 
    >[!NOTE]
    >
-   >열거형은 [이 문서에 자세히 설명되어 있습니다](../../platform/using/managing-enumerations.md).
+   >열거형은 [이 문서](../../platform/using/managing-enumerations.md)에 자세히 설명되어 있습니다.
 
    그런 다음 유형 분류에 대해 아래에 표시된 것처럼 사용할 관련성을 선택할 수 있습니다.
 
@@ -331,7 +331,7 @@ IP 주소가 있는 친화성을 통해 아웃바운드 SMTP 트래픽을 개선
 
    >[!NOTE]
    >
-   >배달 서버 구성을 참조할 수도 [있습니다](../../installation/using/email-deliverability.md#delivery-server-configuration).
+   >[배달 서버 구성](../../installation/using/email-deliverability.md#delivery-server-configuration)을 참조할 수도 있습니다.
 
 ## URL 권한 {#url-permissions}
 
@@ -343,10 +343,10 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 URL 권한을 관리할 수 있는 방법은 호스팅 모델에 따라 다릅니다.
 
-* **하이브리드** 또는 **온-프레미스**:serverConf.xml 파일에 허용하도록 URL을 **추가합니다**. 자세한 내용은 아래 섹션에 나와 있습니다.
-* **호스팅**:campaign 컨트롤 패널을 통해 허용할 URL을 **추가합니다**. 자세한 내용은 [전용 설명서](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/url-permissions.html)를 참조하십시오.
+* **하이브리도르** 온-프레미스 ****:serverConf.xml 파일에 허용하도록 URL을  **추가합니다**. 자세한 내용은 아래 섹션에 나와 있습니다.
+* **호스팅**:campaign 컨트롤 패널을 통해 허용할 URL을  **추가합니다**. 자세한 내용은 [전용 설명서](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/url-permissions.html)를 참조하십시오.
 
-하이브리드 ******및** 온-프레미스 **호스팅 모델을 사용하는 관리자는** serverConf.xmlFile에서 새 **urlPermission** 을 참조해야합니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
+**하이브리드** 및 **온-프레미스** 호스팅 모델을 사용하는 경우 관리자는 **serverConf.xml** 파일의 새 **urlPermission**&#x200B;을 참조해야 합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
 연결 보호 모드는 다음과 같습니다.
 
@@ -364,17 +364,17 @@ URL 권한을 관리할 수 있는 방법은 호스팅 모델에 따라 다릅�
 
 >[!IMPORTANT]
 >
->기본적으로 새 고객의 클라이언트는 **차단 모드를 사용합니다**. 새 URL을 허용해야 하는 경우 관리자에게 문의하여에 허용 목록에 추가하다 추가해야 합니다.
+>기본적으로 새 고객의 클라이언트는 **차단 모드**&#x200B;를 사용합니다. 새 URL을 허용해야 하는 경우 관리자에게 문의하여에 허용 목록에 추가하다 추가해야 합니다.
 >
->마이그레이션에서 오는 기존 고객은 잠시 동안 **경고 모드를** 사용할 수 있습니다. 동시에 URL을 인증하기 전에 아웃바운드 트래픽을 분석해야 합니다. 인증된 URL 목록이 정의되면 관리자는 관리자에게 문의하여에 URL을 추가하고 **차단 모드를 활성화해야 합니다**.
+>마이그레이션을 통해 들어오는 기존 고객은 당분간 **경고 모드**&#x200B;를 사용할 수 있습니다. 동시에 URL을 인증하기 전에 아웃바운드 트래픽을 분석해야 합니다. 인증된 URL 목록이 정의된 경우 관리자는 관리자에게 문의하여에 URL을 추가하고 허용 목록에 추가하다 **차단 모드**&#x200B;를 활성화해야 합니다.
 
-## 동적 페이지 보안 및 릴리스 {#dynamic-page-security-and-relays}
+## 동적 페이지 보안 및 relays {#dynamic-page-security-and-relays}
 
-기본적으로 모든 동적 페이지는 웹 모듈이 시작된 컴퓨터의 **로컬** Tomcat 서버와 자동으로 연결됩니다. 이 구성은 ServerConf.xml **`<url>`** 파일의 쿼리 릴레이 구성 섹션에 **** 입력되어 있습니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
+기본적으로 모든 동적 페이지는 웹 모듈이 시작된 컴퓨터의 **local** Tomcat 서버와 자동으로 연결됩니다. 이 구성은 **ServerConf.xml** 파일의 쿼리 릴레이 구성의 **`<url>`** 섹션에 입력됩니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
-**원격** 서버에서 동적 페이지의 실행을 중계하려면컴퓨터에서 웹 모듈이 활성화되지 않은 경우 이렇게 하려면 **localhost를 JSP 및 JSSP, 웹 애플리케이션, 보고서 및 문자열에 대한 원격 컴퓨터** 이름으로 대체해야 합니다.
+**remote** 서버에서 동적 페이지의 실행을 중계하려면컴퓨터에서 웹 모듈이 활성화되지 않은 경우 이렇게 하려면 **localhost**&#x200B;를 JSP 및 JSSP, 웹 응용 프로그램, 보고서 및 문자열에 대한 원격 컴퓨터의 이름으로 바꿔야 합니다.
 
-사용할 수 있는 다양한 매개 변수에 대한 자세한 내용은 **serverConf.xml** 구성 파일을 참조하십시오.
+사용 가능한 다양한 매개 변수에 대한 자세한 내용은 **serverConf.xml** 구성 파일을 참조하십시오.
 
 JSP 페이지의 기본 구성은 다음과 같습니다.
 
@@ -384,7 +384,7 @@ JSP 페이지의 기본 구성은 다음과 같습니다.
 
 Adobe Campaign은 다음 JSP 페이지를 사용합니다.
 
-* /nl/jsp/**soaprouter.jsp**:클라이언트 콘솔 및 웹 서비스 연결(SOAP API),
+* /nl/jsp/**soprouter.jsp**:클라이언트 콘솔 및 웹 서비스 연결(SOAP API),
 * /nl/jsp/**m.jsp**:페이지,
 * /nl/jsp/**logon.jsp**:보고서에 대한 웹 기반 액세스 및 클라이언트 콘솔 배포
 * /nl/jsp/**s.jsp** :바이러스 마케팅(후원 및 소셜 네트워크) 사용
@@ -396,7 +396,7 @@ Adobe Campaign은 다음 JSP 페이지를 사용합니다.
 
 **예제:**
 
-클라이언트 컴퓨터가 외부에 연결되지 않도록 할 수 있습니다. 이렇게 하려면 Sourcoter.jsp **의** 실행을 제한하고 미러 페이지, 바이럴 링크, 웹 양식 및 공개 리소스 실행만 승인합니다.
+클라이언트 컴퓨터가 외부에 연결되지 않도록 할 수 있습니다. 이렇게 하려면 **souter.jsp**&#x200B;의 실행을 제한하면 미러 페이지, 바이럴 링크, 웹 양식 및 공개 리소스 실행만 승인하면 됩니다.
 
 매개 변수는 다음과 같습니다.
 
@@ -414,7 +414,7 @@ Adobe Campaign은 다음 JSP 페이지를 사용합니다.
 <url IPMask=""               deny="true" hostMask="" relayHost="false" relayPath="false" targetUrl="http://localhost:8080" timeout="" urlPath="*.jssp"/>
 ```
 
-이 예에서 이 값은 이 마스크에 대해 릴레이 모듈을 사용할 수 있도록 허가된 IP 주소(쉼표로 분리) 목록과 **`<IP_addresses>`** 일치합니다.
+이 예에서 **`<IP_addresses>`** 값은 이 마스크에 릴레이 모듈을 사용할 수 있도록 허가된 IP 주소(쉼표로 분리) 목록과 일치합니다.
 
 >[!NOTE]
 >
@@ -447,9 +447,9 @@ sh
 >
 >이 목록은 완전하지 않다.
 
-서버 구성 파일의 **실행** 노드에서 이전에 만든 파일을 **blacklistFile** 속성에 참조해야 합니다.
+서버 구성 파일의 **exec** 노드에서 이전에 만든 파일을 **blacklistFile** 특성에서 참조해야 합니다.
 
-**Linux 전용**:서버 구성 파일에서 보안 구성을 향상시키기 위해 외부 명령을 실행하는 전용 사용자를 지정하는 것이 좋습니다. 이 사용자는 구성 파일의 **실행** 노드에서 설정됩니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
+**Linux 전용**:서버 구성 파일에서 보안 구성을 향상시키기 위해 외부 명령을 실행하는 전용 사용자를 지정하는 것이 좋습니다. 이 사용자는 구성 파일의 **exec** 노드에서 설정됩니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
 >[!NOTE]
 >
@@ -473,9 +473,9 @@ sh
 
 기본적으로 모든 HTTP 헤더가 전달되지 않습니다. 릴레이로 보낸 답글에 특정 헤더를 추가할 수 있습니다. 방법은 다음과 같습니다.
 
-1. serverConf.xml **파일로** 이동합니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
-1. 노드에서 **`<relay>`** 릴레이된 HTTP 헤더 목록으로 이동합니다.
-1. 다음 속성을 사용하여 **`<responseheader>`** 요소를 추가합니다.
+1. **serverConf.xml** 파일로 이동합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
+1. **`<relay>`** 노드에서 릴레이된 HTTP 헤더 목록으로 이동합니다.
+1. 다음 특성을 사용하여 **`<responseheader>`** 요소를 추가합니다.
 
    * **이름**:헤더 이름
    * **값**:값 이름.
@@ -494,7 +494,7 @@ sh
 >
 >표준 또는 엔터프라이즈 아키텍처를 사용할 때는 각 컴퓨터에 추적 정보를 업로드할 수 있는 기본 응용 프로그램 서버가 인증되어야 합니다.
 
-중복 서버의 URL은 리디렉션 구성에서 serverConf.xml 파일을 통해 **지정해야** 합니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
+중복 서버의 URL은 리디렉션 구성에서 **serverConf.xml** 파일을 통해 지정해야 합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
 **예제:**
 
@@ -503,19 +503,19 @@ sh
 <spareserver enabledIf="$(hostname)!='front_srv2'" id="2" url="http://front_srv2:8080" />
 ```
 
-enableIf **** 속성은 선택 사항이며(기본적으로 비어 있음) 결과가 true인 경우에만 연결을 활성화할 수 있습니다.모든 리디렉션 서버에서 동일한 구성을 얻을 수 있습니다.
+**enableIf** 속성은 선택 사항이며(기본적으로 비어 있음) 결과가 true인 경우에만 연결을 활성화할 수 있습니다.모든 리디렉션 서버에서 동일한 구성을 얻을 수 있습니다.
 
-컴퓨터의 호스트 이름을 얻으려면 다음 명령을 실행하십시오. **hostname -s**.
+컴퓨터의 호스트 이름을 얻으려면 다음 명령을 실행하십시오.**hostname -s**.
 
-## 공공 리소스 관리 {#managing-public-resources}
+## 공용 리소스 관리 {#managing-public-resources}
 
-공공자원은 [공공자원 관리에 제시된다](../../installation/using/deploying-an-instance.md#managing-public-resources).
+공용 리소스는 [공용 리소스 관리](../../installation/using/deploying-an-instance.md#managing-public-resources)에 제공됩니다.
 
 이러한 템플릿은 Adobe Campaign 설치 디렉토리의 **/var/res/instance** 디렉토리에 저장됩니다.
 
-일치하는 URL은 다음과 같습니다. **http://server/res/instance** where **instance** is the name of the tracking instance.
+일치하는 URL은 다음과 같습니다.**http://server/res/instance**&#x200B;여기서 **instance**&#x200B;은 추적 인스턴스의 이름입니다.
 
-서버에서 저장소를 구성할 노드를 conf- **.xml`<instance>`** 파일에 추가하여 다른 디렉토리를 지정할 수 있습니다. 즉, 다음 줄을 추가합니다.
+서버에서 저장소를 구성하는 노드를 **conf-`<instance>`.xml** 파일에 추가하여 다른 디렉토리를 지정할 수 있습니다. 즉, 다음 줄을 추가합니다.
 
 ```
 <serverconf>
@@ -536,11 +536,11 @@ enableIf **** 속성은 선택 사항이며(기본적으로 비어 있음) 결�
 
 웹에서 액세스하려면 **로드 밸런서** 모드를 선택하여 연결 시간을 제한합니다.
 
-Adobe Campaign 콘솔을 통해 액세스하는 경우 **해시** 또는 **고정 ip** 모드를 선택합니다. 이 기능을 사용하면 리치 클라이언트와 서버 간의 연결을 유지 관리할 수 있으며 가져오기 또는 내보내기 작업 중 사용자 세션이 중단되는 것을 방지할 수 있습니다.
+Adobe Campaign 콘솔을 통해 액세스하는 경우 **hash** 또는 **고정 ip** 모드를 선택합니다. 이 기능을 사용하면 리치 클라이언트와 서버 간의 연결을 유지 관리할 수 있으며 가져오기 또는 내보내기 작업 중 사용자 세션이 중단되는 것을 방지할 수 있습니다.
 
 특정 컴퓨터에서 워크플로우 또는 워크플로우 활동을 강제 실행하도록 선택할 수 있습니다. 이를 수행하려면 관련 워크플로우 또는 활동에 대해 하나 이상의 친화성을 정의해야 합니다.
 
-1. 필드에 워크플로우 또는 활동을 입력하여 해당 활동의 속성을 **[!UICONTROL Affinity]** 만듭니다.
+1. **[!UICONTROL Affinity]** 필드에 워크플로우 또는 활동의 속성을 입력하여 생성합니다.
 
    친화성 이름을 자유롭게 선택할 수 있습니다. 하지만 공백이나 구두점 표시를 사용하지 않도록 해야 합니다. 다른 서버를 사용하는 경우 다른 이름을 지정합니다.
 
@@ -550,8 +550,8 @@ Adobe Campaign 콘솔을 통해 액세스하는 경우 **해시** 또는 **고�
 
    드롭다운 목록에는 이전에 사용한 친화성이 포함되어 있습니다. 입력한 값이 서로 다른 시간에 걸쳐 완료됩니다.
 
-1. nl6/conf/config- **`<instance>.xml`** 파일을 엽니다.
-1. 다음과 같이 모듈과 일치하는 **[!UICONTROL wfserver]** 라인을 수정합니다.
+1. **nl6/conf/config-`<instance>.xml`** 파일을 엽니다.
+1. **[!UICONTROL wfserver]** 모듈과 일치하는 행을 다음과 같이 수정합니다.
 
    ```
    <wfserver autoStart="true" affinity="XXX,"/>
@@ -577,9 +577,9 @@ Adobe Campaign 콘솔을 통해 액세스하는 경우 **해시** 또는 **고�
 
 하지만 이 구성을 변경할 수 있습니다.
 
-이렇게 하려면 설치 **의 conf** 저장소에 있는 serverConf.xml **파일로** 이동합니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
+이렇게 하려면 설치의 **conf** 저장소에 있는 **serverConf.xml** 파일로 이동합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
-이 파일에 구성된 각 프로세스에는 processRestartTime **특성이** 있습니다. 필요에 따라 이 속성의 값을 수정하여 각 프로세스의 재시작 시간을 조정할 수 있습니다.
+이 파일에 구성된 각 프로세스에는 **processRestartTime** 특성이 있습니다. 필요에 따라 이 속성의 값을 수정하여 각 프로세스의 재시작 시간을 조정할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -587,15 +587,15 @@ Adobe Campaign 콘솔을 통해 액세스하는 경우 **해시** 또는 **고�
 
 ## 업로드 가능한 파일 제한 {#limiting-uploadable-files}
 
-새 속성 uploadWhiteList를 사용하면 Adobe Campaign 서버에서 업로드할 수 있는 파일 유형을 제한할 **** 수 있습니다.
+새 속성 **uploadWhiteList**&#x200B;에서는 Adobe Campaign 서버에서 업로드할 수 있는 파일 유형을 제한할 수 있습니다.
 
-이 속성은 **serverConf.xml** **** 파일의 dataStore 요소 내에서 사용할 수 있습니다. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
+이 속성은 **serverConf.xml** 파일의 **dataStore** 요소 내에서 사용할 수 있습니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
-이 속성의 기본값은 입니다 **.+** 모든 파일 유형을 업로드할 수 있습니다.
+이 속성의 기본값은 **입니다.+**&#x200B;을 선택하면 모든 파일 유형을 업로드할 수 있습니다.
 
 가능한 형식을 제한하려면 속성 값을 유효한 java 정규 표현식으로 바꿔야 합니다. 여러 값을 쉼표로 구분하여 입력할 수 있습니다.
 
-예: **uploadWhiteList=&quot;.*.png,*.jpg&quot;** 서버에서는 PNG 및 JPG 형식을 업로드할 수 있습니다. 다른 포맷은 허용되지 않습니다.
+예:**uploadWhiteList=&quot;.*.png,*.jpg&quot;**&#x200B;에서는 서버에서 PNG 및 JPG 형식을 업로드할 수 있습니다. 다른 포맷은 허용되지 않습니다.
 
 >[!IMPORTANT]
 >
@@ -603,15 +603,18 @@ Adobe Campaign 콘솔을 통해 액세스하는 경우 **해시** 또는 **고�
 
 ## 프록시 연결 구성 {#proxy-connection-configuration}
 
-파일 전송 워크플로우 활동을 사용하여 프록시를 통해 Campaign 서버를 외부에 연결해야 하는 경우 명령을 통해 serverConf의 proxyConfig 섹션을 구성해야 합니다. 다음 프록시 연결이 가능합니다.HTTP, HTTPS, FTP, SFTP. serverConf.xml에서 사용할 수 있는 모든 매개 변수가 이 **섹션에 나열되어 있습니다** [](../../installation/using/the-server-configuration-file.md).
+예를 들어 **파일 전송** 워크플로우 활동을 사용하여 프록시를 통해 캠페인 서버를 외부 시스템에 연결할 수 있습니다. 이를 위해서는 특정 명령을 통해 **serverConf.xml** 파일의 **proxyConfig** 섹션을 구성해야 합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
->[!NOTE]
+다음 프록시 연결이 가능합니다.HTTP, HTTPS, FTP, SFTP. 20.2 캠페인 릴리스부터 HTTP 및 HTTPS 프로토콜 매개 변수는 더 이상 **을(를) 사용할 수 없습니다**. 이러한 매개 변수는 9032를 포함하여 이전 빌드에서 사용할 수 있으므로 여전히 아래에 언급됩니다.
+
+>[!CAUTION]
 >
->20.2부터 HTTP 및 HTTPS 프로토콜 매개 변수를 더 이상 사용할 수 없습니다. 다음 정보에서는 9032를 포함하여 이전 빌드에서 사용할 수 있는 매개 변수를 계속 언급합니다.
+>기본 인증 모드만 지원됩니다. NTLM 인증은 지원되지 않습니다.
 >
 >SOCKS 프록시는 지원되지 않습니다.
 
-다음 명령을 사용하십시오.
+
+다음 명령을 사용할 수 있습니다.
 
 ```
 nlserver config -setproxy:[protocol]/[serverIP]:[port]/[login][:‘https’|'http’]
