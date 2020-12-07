@@ -2,38 +2,38 @@
 solution: Campaign Classic
 product: campaign
 title: 호환성 매트릭스
-description: Campaign Classic 호환성 표
+description: Campaign Classic 호환성 매트릭스
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff3d18b104a8dba7cd813aa698f9c27b4e25e244
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 
 # 호환성 매트릭스{#compatibility-matrix}
 
-이 문서에는 [Adobe Campaign Classic](../../rn/using/latest-release.md) 의 최신 빌드에 대해 지원되는 모든 시스템 및 구성 요소 **가 나와 있습니다**. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
+이 문서는 **Adobe Campaign Classic**&#x200B;의 [최신 빌드](../../rn/using/latest-release.md)에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
 
-Gold Standard 사용자인 경우 [Gold Standard 호환성 매트릭스를 참조하십시오](../../rn/using/compatibility-matrix-gs.md).
+Gold Standard 사용자인 경우 [Gold Standard 호환성 매트릭스](../../rn/using/compatibility-matrix-gs.md)를 참조하십시오.
 
 ## 중요 정보{#important-notes}
 
-별도로 언급되지 않는 한 모든 마이너 릴리스가 지원됩니다.
+별도로 언급되지 않는 한 모든 부 릴리스가 지원됩니다.
 
-Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md)이 페이지에 나열된 모든 시스템 및 도구와 호환됩니다. 이러한 타사 시스템 및 도구의 특정 버전이 해당 개발자와 EOL(End-of-Life)에 도달함에 따라, Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며, 향후 제품 릴리스에서 호환성 매트릭스에서 제거됩니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
+[최신 빌드](../../rn/using/latest-release.md)에서 Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구와 호환됩니다. 이러한 타사 시스템 및 도구의 특정 버전이 각각의 작성자와 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며 이후 제품 릴리스의 호환성 매트릭스에서 제거됩니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
 
-더 이상 사용되지 않는 항목에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../rn/using/deprecated-features.md).
+더 이상 사용되지 않는 항목에 대한 자세한 내용은 [이 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
 
 >[!CAUTION]
 >
 >이 매트릭스는 지원되는 새 항목이 추가되고 더 이상 사용되지 않는 항목이 제거되면서 정기적으로 업데이트됩니다.
 
-## Operating Systems{#OperatingSystems}
+## 운영 체제{#OperatingSystems}
 
 <table> 
 <tbody> 
@@ -57,21 +57,21 @@ Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md
 <td>
 <p>8.x(64비트)</p>
 <p>7.x(64비트)</p>
-<p><strong>중요:</strong> RHEL을 사용하는 경우 SELinux를 비활성화하거나 설계자가 사용자 정의 SELinux 규칙을 작성하여 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인해야 합니다.</p>
+<p><strong>중요:</strong> RHEL을 사용하는 경우 SELinux를 비활성화하거나 설계자가 사용자 지정 SELinux 규칙을 작성하여 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인해야 합니다.</p>
 </td>
 </tr>
 <tr>
 <td>Windows Server</td>
 <td>
 <p>2016</p>
-<p>2012년 R2</p>
+<p>2012 R2</p>
 <p>2012</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## Web Servers{#WebServers}
+## 웹 서버{#WebServers}
 
 <table>
 <tbody>
@@ -108,7 +108,7 @@ Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md
 <tr>
 <td>Libre Office</td>
 <td>
-<p>6(및 시스템에 임베드된 경우 이전 버전)</p>
+<p>6(시스템에 임베드된 경우 이전 버전)</p>
 </td>
 </tr>
 <tr>
@@ -146,7 +146,7 @@ Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md
 <p>9.6.x</p>
 <p>9.5.x</p>
 <p>9.4.x</p>
-<p>참고:위에 지정된 버전과 함께 PostgreSQL용 Amazon RDS를 사용할 수도 있습니다.</p>
+<p>참고: 위에 지정된 버전으로 PostgreSQL용 Amazon RDS를 사용할 수도 있습니다.</p>
 </td>
 </tr>
 <tr>
@@ -157,7 +157,7 @@ Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
-<p>경고:Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">자세히 알아보기</a></p>
+<p>경고: Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">자세히 알아보기</a></p>
 </td>
 </tr>
 </tbody>
@@ -198,16 +198,16 @@ Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md
 </tbody>
 </table>
 
-## Federated Data Access (FDA){#FederatedDataAccessFDA}
+## FDA (FEDERATED DATA ACCESS){#FederatedDataAccessFDA}
 
 <table>
 <tbody>
 <tr>
-<td>Microsoft Azure synapse 분석</td>
+<td>Microsoft Azure Synapse Analytics</td>
 <td> </td>
 </tr>
 <tr>
-<td>Amazon 적색</td>
+<td>Amazon Redshift</td>
 <td><p> </p>
 </td>
 </tr>
@@ -261,7 +261,7 @@ Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md
 </td>
 </tr>
 <tr>
-<td>사이베이스</td>
+<td>Sybase</td>
 <td>
 <p>IQ 16</p>
 <p>ASE 15.7</p>
@@ -273,11 +273,11 @@ Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md
 <p>버전 1 SPS 12</p>
 </td>
 </tr>
-<tr><td>하이브를 통해 hadoop</td>
+<tr><td>Hadoop via HiveSQL</td>
 <td>
 <p>HortonWorks HDP 2.4.X, 2.5.x, 2.6.x</p>
 <p>HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)</p>
-<p>Clou데라 CDH6.x</p>
+<p>Cloudera CDH6.x</p>
 </td>
 </tr>
 <tr>
@@ -302,7 +302,7 @@ Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md
 <td>Windows</td>
 <td>
 <p>8</p>
-<p>10(일본어 인스턴스 권장)</p>
+<p>10(일본어 인스턴스에 권장)</p>
 </td>
 </tr>
 </tbody>
@@ -323,7 +323,7 @@ Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md
 <td>iOS</td>
 <td>
 <p>iOS 9 - 14</p>
-<p>모바일 SDK 빌드 1.0.26과 32비트 및 64비트 버전 호환</p>
+<p>모바일 SDK 빌드 1.0.26과 함께 사용할 수 있으며 32비트 및64 비트 버전 호환됩니다.</p>
 </td>
 </tr>
 </tbody>
@@ -331,13 +331,13 @@ Adobe Campaign Classic은 [최신 빌드에서](../../rn/using/latest-release.md
 
 ## 브라우저{#Browsers}
 
-다음 브라우저의 경우 최신 버전이 지원됩니다.Microsoft Edge, Mozilla Firefox, Google Chrome, Safari
+Microsoft Edge, Mozilla Firefox, Google Chrome 및 Safari와 같은 브라우저의 경우 최신 버전이 지원됩니다.
 
 Internet Explorer 11이 지원됩니다.
 
-## 더 보기{#Morelikethis}
+## 비슷한 항목 더 보기{#Morelikethis}
 
 * [Campaign Classic 릴리스 노트](../../rn/using/latest-release.md)
-* [설치 가이드](../../installation/using/general-architecture.md)
+* [설치 안내서](../../installation/using/general-architecture.md)
 * [사용되지 않는 기능 및 시스템](../../rn/using/deprecated-features.md)
-* [업그레이드 절차 구축](../../production/using/build-upgrade.md)
+* [빌드 업그레이드 프로시저](../../production/using/build-upgrade.md)
