@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
+source-git-commit: b78c9dc9112893f2b203eccf0bd2d92fa299425d
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 96%
+source-wordcount: '2182'
+ht-degree: 98%
 
 ---
 
@@ -576,7 +576,7 @@ ht-degree: 96%
    + Annex {#annexes}
       + [Facebook 앱의 예](social/using/examples-of-facebook-apps.md)
       + [추적](social/using/tracking.md)
-+ 설치 및 구성 가이드 {#installing-campaign-classic}
++ 설치 및 구성 안내서 {#installing-campaign-classic}
    + 아키텍처 원칙 {#architecture-and-hosting-models}
       + [일반 아키텍처](installation/using/general-architecture.md)
       + 호스팅 모델{#hosting-models-lp}
@@ -625,8 +625,8 @@ ht-degree: 96%
       + [중간 소싱 서버](installation/using/mid-sourcing-server.md)
       + [상호 작용 - 데이터 버퍼](installation/using/interaction---data-buffer.md)
       + [외부 계정 구성](installation/using/external-accounts.md)
-   + Accessing an external database {#accessing-external-database}
-      + [FDA 시작하기](installation/using/about-fda.md)
+   + 외부 데이터베이스 액세스{#accessing-external-database}
+      + [FDA 시작](installation/using/about-fda.md)
       + 구성 지침 {#config-databases}
          + [구성 단계](installation/using/configure-fda.md)
          + [Snowflake 구성](installation/using/configure-fda-snowflake.md)
@@ -696,7 +696,9 @@ ht-degree: 96%
       + [콘솔 업데이트](production/using/console-update.md)
       + [암호 분실](production/using/lost-password.md)
       + [JSP 동작](production/using/jsp-behavior.md)
-+ 개발자 가이드 {#configuring-campaign-classic}
++ 개발자 안내서 {#configuring-campaign-classic}
++ 
+   + [캠페인 구성 정보](configuration/using/about-config-guide.md)
    + 데이터 모델 {#data-model}
       + [데이터 모델 기본 정보](configuration/using/about-data-model.md)
       + [데이터 모델 설명](configuration/using/data-model-description.md)
