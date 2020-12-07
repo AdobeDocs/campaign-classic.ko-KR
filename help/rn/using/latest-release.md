@@ -6,9 +6,9 @@ description: 최신 Campaign Classic 릴리스 정보
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1820'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ _2020년 10월 27일_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p><a href="../../delivery/using/configuring-the-mobile-application-android.md#creating-notification-message">Android 푸시 채널 인증용 FCM HTTP v1 API를 지원하도록 Android 푸시 알림이 개선되었습니다.</a> </p>
+<td> <p>Android 푸시 채널 인증용 FCM HTTP v1 API를 지원하도록 <a href="../../delivery/using/configuring-the-mobile-application-android.md#creating-notification-message">Android 푸시 알림</a>이 개선되었습니다. </p>
 <p>새롭게 지원되는 API 버전을 사용하면 향상된 풍부한 푸시 메시지 기능을 제공하는 FCM 알림 메시지를 전송할 수 있습니다. <a href="https://firebase.google.com/docs/cloud-messaging/migrate-v1">자세히 알아보기</a></p> 
 <p>Adobe Campaign에서 Android용 FCM HTTP v1 API를 구성하는 방법을 <a href="../../delivery/using/configuring-the-mobile-application-android.md">이 섹션</a>에서 살펴보십시오.</p>
 </td> 
