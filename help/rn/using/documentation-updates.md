@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Adobe Campaign Classic Documentation Updates
-description: This page lists all the new features and documentation updates for each release of Adobe Campaign Classic
+title: Adobe Campaign Classic 설명서 업데이트
+description: 이 페이지에서 Adobe Campaign Classic 릴리스의 새로운 기능과 설명서 업데이트 목록을 볼 수 있습니다.
 audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3631'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,23 +23,23 @@ ht-degree: 95%
 
 ## 2020년 11월 {#nov-2020}
 
-캠페인 데이터 모델 개요가 개선되고 재구성되었습니다. [자세한 내용](../../configuration/using/about-data-model.md)
+Campaign 데이터 모델 개요가 개선되고 재구성되었습니다. [자세한 내용](../../configuration/using/about-data-model.md)
 
-외부 계정 구성이 [이 섹션으로 이동되었습니다](../../installation/using/external-accounts.md).
+외부 계정 구성이 [이 섹션](../../installation/using/external-accounts.md)으로 이동되었습니다.
 
-각 외부 데이터베이스 구성에 대한 세부 사항과 함께 Campaign Federated Data Access(FDA) 문서가 개선되었으며 [이 섹션으로 이동되었습니다](../../installation/using/about-fda.md).
+Campaign FDA(Federated Data Access) 설명서가 각 외부 데이터베이스 구성에 대한 세부 사항을 포함하도록 개선되었으며, [이 섹션](../../installation/using/about-fda.md)으로 이동되었습니다.
 
-[Campaign 20.2.3 릴리스는](../../rn/using/release--20-2.md#release-20-2-3-build-9182) GA(일반 가용성)로 이동되었습니다.
+[Campaign 20.2.3 릴리스](../../rn/using/release--20-2.md#release-20-2-3-build-9182)가 GA(General Availability)로 이동되었습니다.
 
-개인 정보 섹션이 두 개의 새 페이지로 이동되고 강화되었습니다. [개인 정보 관리](../../platform/using/privacy-management.md) 및 [개인 정보 요청](../../platform/using/privacy-requests.md)관리
+개인 정보 섹션은 [개인 정보 관리](../../platform/using/privacy-management.md) 및 [개인 정보 보호 요청 관리](../../platform/using/privacy-requests.md)라는 두 개의 새 페이지로 이동되고 보강되었습니다. 
 
-서버가 설정되면 외부 계정의 내부 이름을 업데이트해서는 안 된다는 점을 지정하기 위해 mid-소싱 서버 구성 페이지에 메모가 추가되었습니다. [자세한 내용](../../installation/using/mid-sourcing-server.md)
+서버가 설정된 후 외부 계정의 내부 이름을 업데이트해서는 안 된다는 메모를 중간 소싱 서버 구성 페이지에 추가하였습니다. [자세한 내용](../../installation/using/mid-sourcing-server.md)
 
 외부 SFTP 서버에 대한 경로를 지정할 때 사용할 구문에 정보가 추가되었습니다. [자세한 내용](../../platform/using/sftp-server-usage.md#external-SFTP-server)
 
-개인 데이터 및 개인 정보 섹션은 개인정보 보호 측면에서 서로 다른 개인들이 상호 작용하는 방법을 보여주는 사용 사례 시나리오로 업데이트되었습니다. [자세한 내용](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
+개인 데이터 및 가상 사용자 섹션은 개인 정보 보호 측면에서 서로 다른 가상 사용자가 상호 작용하는 방법을 보여주는 사용 사례 시나리오로 업데이트되었습니다. [자세한 내용](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
 
-개인 정보에 대한 FAQ가 나와 있는 새로운 섹션이 추가되었습니다. [자세한 내용](../../platform/using/privacy-faq.md)
+개인 정보에 대한 FAQ를 나열하는 새로운 섹션이 추가되었습니다. [자세한 내용](../../platform/using/privacy-faq.md)
 
 ## 2020년 10월 {#oct-2020}
 
@@ -58,7 +58,7 @@ Android용 푸시 알림 개선 - [자세한 내용](../../delivery/using/config
 Gold Standard 릴리스의 릴리스 노트 및 호환성 매트릭스는 이제 전용 섹션에서 사용할 수 있습니다.
 [자세한 내용](../../rn/using/gold-standard.md#gs-10)
 
-Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
+기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합이 변경되었으며 Adobe I/O로 이동되었습니다. [자세히 알아보기](../../integrations/using/configuring-adobe-io.md)
 
 **기타 업데이트**
 
