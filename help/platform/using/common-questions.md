@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
@@ -49,7 +49,7 @@ Adobe Managed Services을 사용하는 경우 Campaign Gold Standard 업그레�
 
 Adobe Campaign에는 전자 메일 게재를 모니터링하는 대시보드 및 도구 세트가 포함되어 있습니다.
 
-메시지가 전송되고 있는지 확인하고 실행을 모니터링하며 오류가 발생하면 작업을 수행하는 방법을 [보려면 여기를 클릭하십시오](../../delivery/using/monitoring-a-delivery.md).
+메시지가 전송되고 있는지 확인하고 실행을 모니터링하며 오류가 발생하면 작업을 수행하는 방법을 [보려면 여기를 클릭하십시오](../../delivery/using/about-delivery-monitoring.md).
 
 ## 5. 워크플로우 실행을 모니터링할 수 있습니까? {#can-i-monitor-workflow-execution}
 
