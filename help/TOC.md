@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 13cc481606ffb78f9a755ef8aa8a9d7cbb5d44c2
+source-git-commit: 854d509315f1d8585cb041575908df896468cc77
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 98%
+source-wordcount: '2196'
+ht-degree: 97%
 
 ---
 
@@ -153,7 +153,12 @@ ht-degree: 98%
       + [구독 관리](delivery/using/managing-subscriptions.md)
       + [바이럴 및 소셜 마케팅](delivery/using/viral-and-social-marketing.md)
    + 게재 모니터링 {#monitoring-deliveries}
-      + [게재 모니터링](delivery/using/monitoring-a-delivery.md)
+      + [전달 모니터링 시작](delivery/using/about-delivery-monitoring.md)
+      + [배달 목록 액세스](delivery/using/list-of-deliveries.md)
+      + [배달 대시보드](delivery/using/delivery-dashboard.md)
+      + [전달 성능 우수 사례](delivery/using/delivery-performances.md)
+      + [배달 문제 해결](delivery/using/delivery-troubleshooting.md)
+      + [배달 상태](delivery/using/delivery-statuses.md)
       + [게재 실패 이해](delivery/using/understanding-delivery-failures.md)
       + [격리 관리 이해](delivery/using/understanding-quarantine-management.md)
    + 메시지 추적 {#tracking-messages}
