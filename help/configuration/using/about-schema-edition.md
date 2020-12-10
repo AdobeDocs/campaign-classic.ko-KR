@@ -7,10 +7,10 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 6%
+source-wordcount: '991'
+ht-degree: 7%
 
 ---
 
@@ -23,13 +23,13 @@ Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 * Campaign 애플리케이션 내에서 서로 다른 데이터 개체 간의 링크를 정의합니다.
 * 각 개체에 포함된 개별 필드를 정의하고 설명합니다.
 
-Campaign 내장 테이블 및 이들의 상호 작용을 더 잘 이해하려면 [Campaign Classic 데이터 모델을 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/acc-datamodel.html).
+Campaign 내장 테이블 및 그 상호 작용에 대한 더 나은 이해를 위해서는 [Campaign Classic 데이터 모델](https://helpx.adobe.com/kr/campaign/kb/acc-datamodel.html)을 참조하십시오.
 
-## 스키마 확장 또는 생성 {#extending-or-creating-schemas}
+## 스키마 확장 또는 만들기 {#extending-or-creating-schemas}
 
-받는 사람 테이블(nms:recipient)과 같은 Campaign의 핵심 데이터 스키마 중 하나에 필드 또는 인덱스 또는 기타 요소를 추가하려면 해당 스키마를 확장해야 합니다. For more on this, refer to the [Extending a schema](../../configuration/using/extending-a-schema.md) section.
+받는 사람 테이블(nms:recipient)과 같은 Campaign의 핵심 데이터 스키마 중 하나에 필드 또는 인덱스 또는 기타 요소를 추가하려면 해당 스키마를 확장해야 합니다. 자세한 내용은 [스키마 확장](../../configuration/using/extending-a-schema.md) 섹션을 참조하십시오.
 
-Adobe Campaign(예: 계약 테이블)에 기본적으로 존재하지 않는 완전히 새로운 유형의 데이터를 추가하려면 사용자 정의 스키마를 직접 만들 수 있습니다. For more on this, refer to the [Data schemas](../../configuration/using/data-schemas.md) section.
+Adobe Campaign(예: 계약 테이블)에 기본적으로 존재하지 않는 완전히 새로운 유형의 데이터를 추가하려면 사용자 정의 스키마를 직접 만들 수 있습니다. 자세한 내용은 [데이터 스키마](../../configuration/using/data-schemas.md) 섹션을 참조하십시오.
 
 ![](assets/schemaextension_getting_started_1.png)
 
@@ -58,11 +58,11 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->사용자 관리 열거형(보통 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** 아래)을 사용하여 지정된 필드의 값을 지정할 수도 있습니다. 이러한 열거형은 효과적으로 전역 열거형이며, 작업 중인 특정 스키마 외부에서 열거형을 사용할 수 있을 경우 더 나은 선택입니다.
+>사용자 관리 열거형(일반적으로 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** 아래)을 사용하여 지정된 필드의 값을 지정할 수도 있습니다. 이러한 열거형은 효과적으로 전역 열거형이며, 작업 중인 특정 스키마 외부에서 열거형을 사용할 수 있을 경우 더 나은 선택입니다.
 
-열거형에 대한 자세한 내용은 [열거형](../../configuration/using/schema-structure.md#enumerations) 및 [`<enumeration>` 요소](../../configuration/using/elements-and-attributes.md#enumeration--element) 섹션을 참조하십시오.
+열거형에 대한 자세한 내용은 [열거형](../../configuration/using/schema-structure.md#enumerations) 및 [`<enumeration>` 요소](../../configuration/using/schema/enumeration.md) 섹션을 참조하십시오.
 
-## 색인 {#index}
+## 인덱스 {#index}
 
 인덱스는 스키마의 주 요소에서 선언된 첫 번째 요소입니다.
 
@@ -83,19 +83,19 @@ type="string" enum="exTransactionTypeEnum"/>
 </dbindex>
 ```
 
-xpath **** 속성은 인덱싱할 스키마의 필드를 가리킵니다.
+**xpath** 속성은 색인화할 스키마의 필드를 가리킵니다.
 
 >[!IMPORTANT]
 >
 >인덱스에서 제공하는 SQL 쿼리 읽기 성능 향상도 레코드 쓰기에 대한 성능 히트와 함께 제공된다는 점을 기억해야 합니다. 따라서 지수는 예방 차원에서 사용되어야 한다.
 
-색인에 대한 자세한 내용은 [인덱스 필드](../../configuration/using/database-mapping.md#indexed-fields) 섹션을 참조하십시오.
+인덱스에 대한 자세한 내용은 [인덱스 필드](../../configuration/using/database-mapping.md#indexed-fields) 섹션을 참조하십시오.
 
 ## 키 {#keys}
 
-모든 테이블에는 키가 하나 이상 있어야 하며, **@autok=true** 특성을 &quot;true&quot;로 설정하여 스키마의 기본 요소에 자동으로 설정됩니다.
+모든 테이블에는 키가 하나 이상 있어야 하며, 일반적으로 **@autk=true** 특성이 &quot;true&quot;로 설정된 경우를 사용하여 스키마의 주 요소에 자동으로 설정됩니다.
 
-기본 키는 **내부** 속성을 사용하여 정의할 수도 있습니다.
+기본 키는 **internal** 특성을 사용하여 정의할 수도 있습니다.
 
 예제:
 
@@ -105,21 +105,21 @@ xpath **** 속성은 인덱싱할 스키마의 필드를 가리킵니다.
 </key>
 ```
 
-이 예에서, **@autok** 특성이 &quot;id&quot;라는 기본 기본 기본 키를 만드는 대신, 고유한 &quot;houseinId&quot; 기본 키를 지정합니다.
+이 예에서는 **@autok** 특성이 &quot;id&quot;라는 기본 기본 키를 만드는 대신 고유한 &quot;houseinId&quot; 기본 키를 지정합니다.
 
 >[!IMPORTANT]
 >
 >새 스키마를 만들거나 스키마 확장 중에 전체 스키마에 대해 동일한 기본 키 시퀀스 값(@pkSequence)을 유지해야 합니다.
 
-키에 대한 자세한 내용은 키 [관리](../../configuration/using/database-mapping.md#management-of-keys) 섹션을 참조하십시오.
+키에 대한 자세한 내용은 [키 관리](../../configuration/using/database-mapping.md#management-of-keys) 섹션을 참조하십시오.
 
 ## 속성(필드) {#attributes--fields-}
 
-속성을 사용하면 데이터 개체를 구성하는 필드를 정의할 수 있습니다. 스키마 에디션 도구 모음의 **[!UICONTROL Insert]** 단추를 사용하여 커서가 있는 XML에 빈 속성 템플릿을 놓을 수 있습니다. For more on this, refer to the [Data schemas](../../configuration/using/data-schemas.md) section.
+속성을 사용하면 데이터 개체를 구성하는 필드를 정의할 수 있습니다. 스키마 에디션 도구 모음에서 **[!UICONTROL Insert]** 단추를 사용하여 커서가 있는 XML에 빈 속성 템플릿을 놓을 수 있습니다. 자세한 내용은 [데이터 스키마](../../configuration/using/data-schemas.md) 섹션을 참조하십시오.
 
 ![](assets/schemaextension_getting_started_2.png)
 
-속성 전체 목록은 요소 섹션에서 사용할 수 [`<attribute>` 있습니다](../../configuration/using/elements-and-attributes.md#attribute--element) . 다음은 보다 일반적으로 사용되는 속성 중 일부입니다.
+속성의 전체 목록은 [`<attribute>` 요소](../../configuration/using/schema/attribute.md) 섹션에서 사용할 수 있습니다. 다음은 보다 일반적으로 사용되는 속성 중 일부입니다.
 
 * **@advanced**
 * **@dataPolicy**
@@ -136,9 +136,9 @@ xpath **** 속성은 인덱싱할 스키마의 필드를 가리킵니다.
 * **@xml**
 * **@type**
 
-   다른 데이터베이스 관리 시스템에 대해 Adobe Campaign에서 생성한 데이터 유형에 대한 매핑을 나열하는 테이블을 보려면 Adobe Campaign/DBMS 데이터 [](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) 유형 매핑을 참조하십시오.
+   다른 데이터베이스 관리 시스템에 대해 Adobe Campaign에서 생성한 데이터 유형에 대한 매핑을 나열하는 테이블을 보려면 [Adobe Campaign/DBMS 데이터 유형 매핑](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) 섹션을 참조하십시오.
 
-각 속성에 대한 자세한 내용은 [속성 설명](../../configuration/using/elements-and-attributes.md#attribute-description) 섹션을 참조하십시오.
+각 속성에 대한 자세한 내용은 [특성 설명](../../configuration/using/schema/attribute.md) 섹션을 참조하십시오.
 
 ### 예제 {#examples}
 
@@ -146,15 +146,14 @@ xpath **** 속성은 인덱싱할 스키마의 필드를 가리킵니다.
 
 ```
 <attribute name="transactionDate" label="Transaction Date" type="datetime" default="GetDate()"/>
-```
+`
 
-필수로 표시된 필드의 템플릿으로 공통 속성을 사용하는 예:
-
+Example of using a common attribute as a template for a field also marked as mandatory:
 ```
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
-```
+"
 
-계산된 필드의 예: **@advanced** 특성을 사용하여 숨김
+**@advanced** 특성을 사용하여 숨겨진 계산된 필드의 예:
 
 ```
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
@@ -176,7 +175,7 @@ SQL 필드에 저장되고 **@dataPolicy** 특성이 있는 XML 필드의 예입
 
 링크는 스키마의 기본 요소에 있는 마지막 요소 중 일부입니다. 인스턴스의 서로 다른 모든 스키마가 서로 어떻게 연관되어 있는지 정의합니다.
 
-링크가 연결되어 있는 테이블의 **외래 키가** 포함된 스키마에서 링크가 선언됩니다.
+링크가 연결된 테이블의 **외래 키**&#x200B;가 포함된 스키마에서 링크가 선언됩니다.
 
 다음과 같은 세 가지 카디널리티 유형이 있습니다.1-1, 1-N 및 N-N.기본적으로 사용되는 1-N 유형입니다.
 
@@ -224,5 +223,5 @@ SQL 필드에 저장되고 **@dataPolicy** 특성이 있는 XML 필드의 예입
 
 >[!NOTE]
 >
->수정 내용이 데이터베이스 구조에 영향을 주지 않는 경우 스키마를 다시 생성해야 합니다. 이렇게 하려면 업데이트할 스키마를 선택하고 마우스 오른쪽 단추를 클릭한 후 을 선택합니다 **[!UICONTROL Actions > Regenerate selected schemas...]** . For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.
+>수정 내용이 데이터베이스 구조에 영향을 주지 않는 경우 스키마를 다시 생성해야 합니다. 이렇게 하려면 업데이트할 스키마를 선택하고 마우스 오른쪽 단추를 클릭한 후 **[!UICONTROL Actions > Regenerate selected schemas...]** 을 선택합니다. 자세한 내용은 [스키마 다시 생성](../../configuration/using/regenerating-schemas.md) 섹션을 참조하십시오.
 
