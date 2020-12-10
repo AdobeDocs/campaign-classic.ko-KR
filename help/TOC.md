@@ -9,7 +9,7 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
+source-git-commit: 1b498e9f47dc3cfc108ee182829b83442819629d
 workflow-type: tm+mt
 source-wordcount: '2215'
 ht-degree: 97%
@@ -710,7 +710,7 @@ ht-degree: 97%
       + [스키마 참조 기본 정보](configuration/using/about-schema-reference.md)
       + [스키마 구조](configuration/using/schema-structure.md)
       + [데이터베이스 매핑](configuration/using/database-mapping.md)
-      + 요소 및 속성 {#elements-and-attributes}
+      + [요소 및 속성](configuration/using/elements-and-attributes.md)
          + [속성](configuration/using/schema/attribute.md)
          + [계산 문자열](configuration/using/schema/compute-string.md)
          + [조건](configuration/using/schema/condition.md)
