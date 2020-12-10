@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 3c82e30cdc1057be6357d48170b959fb89c79528
+source-git-commit: 5406b1cd6f9cf4f87071a9976be1728ba9d4fcef
 workflow-type: tm+mt
-source-wordcount: '3663'
+source-wordcount: '3660'
 ht-degree: 99%
 
 ---
@@ -311,7 +311,7 @@ URL 보고서 구성에 대한 새 매개 변수가 [여기](../../reporting/usi
 
 FDA 매트릭스 페이지가 [여기](../../installation/using/remote-database-access-rights.md)로 이동되었습니다.
 
-액세스 권한 지표 페이지가 [여기](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf)로 이동되었습니다.
+액세스 권한 지표 페이지가 [여기](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=en)로 이동되었습니다.
 
 AMP를 사용하여 대화형 내용을 정의하는 방법을 설명하는 섹션이 이동되었습니다. [자세한 내용](../../delivery/using/defining-interactive-content.md)
 
