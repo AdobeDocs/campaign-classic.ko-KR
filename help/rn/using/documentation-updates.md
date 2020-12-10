@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 5406b1cd6f9cf4f87071a9976be1728ba9d4fcef
+source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
 workflow-type: tm+mt
 source-wordcount: '3660'
 ht-degree: 99%
@@ -339,7 +339,7 @@ Adobe Campaign Enhanced MTA 설명서를 사용할 수 있습니다. [자세한 
 
 logon() 및 query()와 함께 **HttpServletRequest**&#x200B;를 사용하는 API 호출에 대한 예가 업데이트되었습니다. [자세한 내용](../../configuration/using/web-service-calls.md)
 
- 스키마 정의에 **sqlDefault** 특성에 대한 권장 사항이 추가되었습니다. [자세한 내용](../../configuration/using/elements-and-attributes.md#attribute-description)
+ 스키마 정의에 **sqlDefault** 특성에 대한 권장 사항이 추가되었습니다. [자세한 내용](../../configuration/using/schema/attribute.md)).
 
 Adobe Campaign과 Adobe 실시간 고객 데이터 Platform 간의 통합이 이제 **Adobe Experience Cloud와 통합** 가이드에서 참조됩니다. [자세한 내용](../../integrations/using/about-campaign-integrations.md)
 
