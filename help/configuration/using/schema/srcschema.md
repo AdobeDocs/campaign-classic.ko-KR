@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
+source-git-commit: c366326f6a439dabaa42fdd799ec2e55c180a929
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 1%
@@ -47,7 +47,7 @@ created (datetime), createdBy-id (long), desc (string), entitySchema (string), e
 
 ## {#use-and-context-of-use-9} 사용 및 컨텍스트
 
-스키마 프레젠테이션은 [스키마 참조 ](../../configuration/using/about-schema-reference.md) 및 [스키마 구조](../../configuration/using/schema-structure.md)에서 사용할 수 있습니다.
+스키마 프레젠테이션은 [스키마 참조 ](../../../configuration/using/about-schema-reference.md) 및 [스키마 구조](../../../configuration/using/schema-structure.md)에서 사용할 수 있습니다.
 
 ## 특성 설명 {#attribute-description-14}
 
