@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 5%
@@ -31,7 +31,7 @@ ht-degree: 5%
 >
 >프로필 테이블의 필드와 관련된 XML 스키마 및 양식은 Adobe Campaign 트리의 **[!UICONTROL Administration > Configuration > Data schemas]** 노드를 통해 액세스합니다. 전문가 사용자만 이러한 스키마를 변경할 수 있습니다.
 >
->For further information, refer to [this page](../../configuration/using/about-schema-edition.md).
+>자세한 내용은 [이 페이지](../../configuration/using/about-schema-edition.md)를 참조하십시오.
 
 ## 일반 탭 {#general-tab}
 
@@ -41,7 +41,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->이 **[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이차단 목록에 있음을 의미합니다. 즉, 프로필은 연락하지 않기를 바란다고 표시했습니다(예: 뉴스레터에서 구독 취소 링크를 클릭해서). 이러한 지표는 더 이상 어떤 채널에서도 게재되지 않습니다(이메일, DM 등). 자세한 정보는 이 [페이지](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
+>**[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이에 차단 목록 있음을 의미합니다. 즉, 프로필은 연락하지 않기를 원한다고 표시했습니다(예: 뉴스레터에서 구독 취소 링크를 클릭해서). 이러한 지표는 더 이상 어떤 채널에서도 게재되지 않습니다(이메일, DM 등). 자세한 정보는 이 [페이지](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
 
 ## 연락처 정보 탭 {#contact-information-tab}
 
@@ -53,21 +53,21 @@ ht-degree: 5%
 
 ## 기타 탭 {#other-tab}
 
-이 화면에는 요구 사항에 따라 개인화할 수 있는 사용자 정의 필드가 포함되어 있습니다. 아래와 같이 필드 이름을 변경하고 형식을 정의할 수도 **[!UICONTROL Field properties...]**&#x200B;있습니다.
+이 화면에는 요구 사항에 따라 개인화할 수 있는 사용자 정의 필드가 포함되어 있습니다. 아래와 같이 **[!UICONTROL Field properties...]**&#x200B;을 통해 필드 이름을 변경하고 해당 형식을 정의할 수도 있습니다.
 
 ![](assets/s_ncs_user_profile_others_tab.png)
 
 >[!NOTE]
 >
->필드 속성과 필드 추가에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../configuration/using/new-field-wizard.md).
+>필드 속성과 필드 추가에 대한 자세한 내용은 [이 페이지](../../configuration/using/new-field-wizard.md)를 참조하십시오.
 
 ## 목록 탭 {#lists-tab}
 
-이 화면에는 선택한 프로필이 속하는 그룹이 표시됩니다. 목록 **[!UICONTROL Add]** 에 프로필을 가입하려면 을 클릭합니다. 아이콘을 **[!UICONTROL Detail]** 클릭하여 선택한 목록에 설명 및 프로필 목록을 표시합니다.
+이 화면에는 선택한 프로필이 속하는 그룹이 표시됩니다. 목록에 프로필을 가입하려면 **[!UICONTROL Add]**&#x200B;을 클릭합니다. **[!UICONTROL Detail]**&#x200B;을 클릭하여 선택한 목록에 설명 및 프로필 목록을 표시합니다.
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
-자세한 내용은 목록 [만들기 및 관리를 참조하십시오](../../platform/using/creating-and-managing-lists.md).
+자세한 내용은 [목록 만들기 및 관리를 참조하십시오](../../platform/using/creating-and-managing-lists.md).
 
 ## 구독 탭 {#subscriptions-tab}
 
@@ -75,7 +75,7 @@ ht-degree: 5%
 
 ![](assets/s_ncs_user_profile_subscript_tab_details.png)
 
-이 **[!UICONTROL Detail]** 단추는 선택한 구독의 속성을 표시합니다. 이 **[!UICONTROL Add]** 단추는 새 구독을 수동으로 추가하는 데 사용됩니다.
+**[!UICONTROL Detail]** 단추는 선택한 구독의 속성을 표시합니다. **[!UICONTROL Add]** 단추는 새 구독을 수동으로 추가하는 데 사용됩니다.
 
 자세한 정보는 이 [페이지](../../delivery/using/managing-subscriptions.md)를 참조하십시오.
 
@@ -97,5 +97,5 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->추적 기능에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../delivery/using/monitoring-a-delivery.md).
+>추적 기능에 대한 자세한 내용은 [이 페이지](../../delivery/using/delivery-dashboard.md)를 참조하십시오.
 
