@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 translation-type: tm+mt
-source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
+source-git-commit: c366326f6a439dabaa42fdd799ec2e55c180a929
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Adobe Campaign 응용 프로그램 서버에 구현된 웹 서비스의 정의�
 
 &quot;const&quot; 메서드에는 암시적으로 연결된 스키마 형식의 XML 문서가 입력으로 포함됩니다.
 
-Adobe Campaign 스키마의 `<method>` 요소에 대한 전체 설명은 <a href="../../configuration/using/schema/method.md)" target="_blank"> 아래의 &quot;스키마 참조&quot; 장에서 사용할 수 있습니다.  `<method>`    요소를 참조하십시오.
+Adobe Campaign 스키마의 `<method>` 요소에 대한 전체 설명은 [메서드](../../configuration/using/schema/method.md)의 &quot;스키마 참조&quot; 장에서 사용할 수 있습니다
 
 &quot;xtk:queryDef&quot; 스키마의 &quot;const&quot;-type &quot;ExecuteQuery&quot; 메서드의 예:
 
