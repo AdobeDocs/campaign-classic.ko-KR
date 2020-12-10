@@ -7,10 +7,10 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 translation-type: tm+mt
-source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
+source-git-commit: 4c3a2184ab09b1e1ed91d0127adc636a51808aec
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 7%
+source-wordcount: '1007'
+ht-degree: 6%
 
 ---
 
@@ -146,12 +146,13 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ```
 <attribute name="transactionDate" label="Transaction Date" type="datetime" default="GetDate()"/>
-`
+```
 
-Example of using a common attribute as a template for a field also marked as mandatory:
+필수로 표시된 필드의 템플릿으로 공통 속성을 사용하는 예:
+
 ```
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
-"
+```
 
 **@advanced** 특성을 사용하여 숨겨진 계산된 필드의 예:
 
