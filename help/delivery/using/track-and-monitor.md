@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 2%
@@ -23,9 +23,9 @@ ht-degree: 2%
 캠페인을 제어하려면 메시지를 받는 사람에게 실제로 전달했는지 확인해야 합니다.
 
 캠페인 배달 대시보드에서 처리된 메시지와 배달 감사 로그를 확인할 수 있습니다.
-배달 로그에 있는 메시지의 상태를 제어할 수도 있습니다. [자세히 알아보기](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard)
+배달 로그에 있는 메시지의 상태를 제어할 수도 있습니다. [자세히 알아보기](../../delivery/using/about-delivery-monitoring.md)
 
-배송이 전송되지 않고 상태가 보류 **중으로 유지되면 어떻게 됩니까**?
+배달이 전송되지 않고 상태가 **Pending**&#x200B;으로 남아 있는 경우 어떻게 됩니까?
 
 * 일부 리소스가 사용 가능한 상태에서 실행 프로세스가 대기 중입니다. MTA가 시작되지 않았을 수 있습니다.
 mta@instance 모듈이 MTA 서버에서 시작되었는지 확인하고 필요한 경우 MTA 모듈을 시작합니다. [자세히 알아보기](../../production/using/administration.md)
@@ -43,11 +43,11 @@ mta@instance 모듈이 MTA 서버에서 시작되었는지 확인하고 필요�
 
 **팁**:메시지 추적은 기본적으로 활성화되어 있습니다. URL을 구성하려면 배달 마법사의 아래 섹션에서 URL 표시 옵션을 선택합니다. 메시지의 각 URL에 대해 추적을 활성화할지 여부를 선택할 수 있습니다.
 
-자세한 내용은 추적 [구성](../../delivery/using/how-to-configure-tracked-links.md) 섹션 및 [추적 지표](../../reporting/using/delivery-reports.md#tracking-indicators) 설명을 참조하십시오.
+자세한 내용은 [추적 구성](../../delivery/using/how-to-configure-tracked-links.md) 섹션 및 [추적 표시기](../../reporting/using/delivery-reports.md#tracking-indicators) 설명을 참조하십시오.
 
-## 전달 성능 {#delivery-performances}
+## 배달 성능 {#delivery-performances}
 
-To measure the speed at the messages are delivered, you can control the delivery throughput. 기준은 시간당 전송된 메시지 수와 메시지 크기(초당 비트 수)입니다. For more on this, see [Delivery throughput](../../reporting/using/global-reports.md#delivery-throughput).
+To measure the speed at the messages are delivered, you can control the delivery throughput. 기준은 시간당 전송된 메시지 수와 메시지 크기(초당 비트 수)입니다. 이에 대한 자세한 내용은 [배달 처리량](../../reporting/using/global-reports.md#delivery-throughput)을 참조하십시오.
 
 **팁**:
 
@@ -65,6 +65,6 @@ To measure the speed at the messages are delivered, you can control the delivery
 
 * [이미지 표시 문제](../../production/using/image-display-issues.md)
 
-* [전달 성능 문제](../../delivery/using/monitoring-a-delivery.md#performance_issues)
+* [전달 성능 문제](../../delivery/using/delivery-performances.md)
 
-* [임시 파일 문제](../../production/using/temporary-files.md) - *온-프레미스 고객만 해당*
+* [임시 파일 문제](../../production/using/temporary-files.md) -  *온-프레미스 고객만 해당*
