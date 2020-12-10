@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 854d509315f1d8585cb041575908df896468cc77
+source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2215'
 ht-degree: 97%
 
 ---
@@ -710,7 +710,24 @@ ht-degree: 97%
       + [스키마 참조 기본 정보](configuration/using/about-schema-reference.md)
       + [스키마 구조](configuration/using/schema-structure.md)
       + [데이터베이스 매핑](configuration/using/database-mapping.md)
-      + [요소 및 속성](configuration/using/elements-and-attributes.md)
+      + 요소 및 속성 {#elements-and-attributes}
+         + [속성](configuration/using/schema/attribute.md)
+         + [계산 문자열](configuration/using/schema/compute-string.md)
+         + [조건](configuration/using/schema/condition.md)
+         + [DB 인덱스](configuration/using/schema/db-index.md)
+         + [요소](configuration/using/schema/element.md)
+         + [열거형](configuration/using/schema/enumeration.md)
+         + [도움말](configuration/using/schema/help.md)
+         + [가입](configuration/using/schema/join.md)
+         + [Key](configuration/using/schema/key.md)
+         + [키필드](configuration/using/schema/keyfield.md)
+         + [방법](configuration/using/schema/method.md)
+         + [메서드](configuration/using/schema/methods.md)
+         + [매개 변수](configuration/using/schema/param.md)
+         + [매개 변수](configuration/using/schema/parameters.md)
+         + [SrcSchema](configuration/using/schema/srcschema.md)
+         + [Sysfilter](configuration/using/schema/sysfilter.md)
+         + [값](configuration/using/schema/value.md)
    + 스키마 편집 {#editing-schemas}
       + [스키마 에디션 기본 정보](configuration/using/about-schema-edition.md)
       + [데이터 스키마](configuration/using/data-schemas.md)
