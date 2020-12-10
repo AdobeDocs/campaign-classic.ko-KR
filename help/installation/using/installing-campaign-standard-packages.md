@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 5%
@@ -15,9 +15,9 @@ ht-degree: 5%
 ---
 
 
-# Installing Campaign Classic built-in packages{#installing-campaign-standard-packages}
+# Campaign Classic 내장 패키지 설치{#installing-campaign-standard-packages}
 
-## 내장 패키지 정보 {#campaign-standard-packages}
+## 내장 패키지 {#campaign-standard-packages} 정보
 
 내장된 패키지에는 사용자의 요구 사항과 계약에 따라 설치할 수 있는 일련의 기능이 포함되어 있습니다. Campaign 내장 패키지의 전체 목록은 아래에서 확인할 수 있습니다.
 
@@ -31,21 +31,21 @@ ht-degree: 5%
 
 내장 패키지를 설치하려면:
 
-1. Adobe Campaign 클라이언트 콘솔에서 패키지 가져오기 마법사 **[!UICONTROL Tools > Advanced > Package import...]** 에 액세스합니다.
+1. Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Tools > Advanced > Package import...]**&#x200B;에서 패키지 가져오기 마법사에 액세스합니다.
 1. **[!UICONTROL Install a standard package]**&#x200B;을(를) 선택합니다.
 1. 패키지 목록에서 설치할 패키지를 확인합니다.
    >[!NOTE]
    >
    >패키지가 회색으로 표시되면 이미 설치되어 있거나 인스턴스와 호환되지 않음을 의미합니다. 호환성은 아래 표에 자세히 나와 있습니다.
-1. 을 **[!UICONTROL Next]**&#x200B;클릭한 다음 패키지 설치를 **[!UICONTROL Start]** 시작합니다.
+1. **[!UICONTROL Next]**, **[!UICONTROL Start]**&#x200B;을 차례로 클릭하여 패키지 설치를 시작합니다.
 
-   패키지가 설치되면 진행률 표시줄이 **100%** 표시되고 설치 로그에 다음 메시지가 표시됩니다. **[!UICONTROL Installation of packages successful]**.
+   패키지가 설치되면 진행률 표시줄에 **100%**&#x200B;이 표시되고 설치 로그에 다음 메시지가 표시됩니다.**[!UICONTROL Installation of packages successful]**.
 
 1. **[!UICONTROL Close]** 설치 창
 
 패키지가 설치되었습니다.
 
-### 기본 패키지 목록 {#list-of-standard-packages}
+### 특별 패키지 목록 {#list-of-standard-packages}
 
 다음 표에는 모든 Campaign 내장 패키지가 나열됩니다.
 
@@ -60,7 +60,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> 게재<br /> </td> 
-   <td> 메시지가 전송될 때 발생하는 전달 및 최종 문제를 모니터링합니다. <a href="../../delivery/using/monitoring-a-delivery.md">자세히 알아보기</a><br /> </td> 
+   <td> 메시지가 전송될 때 발생하는 전달 및 최종 문제를 모니터링합니다. <a href="../../delivery/using/about-delivery-monitoring.md">자세히 알아보기</a><br /> </td> 
    <td> 모두</td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ ht-degree: 5%
    <td> 마케팅</td>
   </tr> 
   <tr> 
-   <td> Marketing resources (MRM)<br /> </td> 
+   <td> 마케팅 리소스(MRM)<br /> </td> 
    <td> 작업, 예산 및 마케팅 리소스에 대한 관리 및 추적을 제공하여 협업 모드에서 마케팅 작업을 제어합니다. <a href="../../campaign/using/about-marketing-resource-management.md">자세한 내용</a> <br /> </td> 
    <td> 마케팅</td> 
   </tr> 
@@ -140,7 +140,7 @@ ht-degree: 5%
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
-   <td> Marketing Analytics<br /> </td> 
+   <td> 마케팅 분석<br /> </td> 
    <td> 데이터를 분석 및 측정하고, 통계를 계산하며, 보고서 작성 및 계산을 간소화하고 최적화할 수 있습니다. 또한 보고서를 만들고 타겟 모집단을 만들 수도 있습니다. 선택 사항입니다. <a href="../../reporting/using/about-cubes.md">자세한 내용</a><br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
@@ -150,7 +150,7 @@ ht-degree: 5%
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
-   <td> 외부 데이터 액세스(통합 데이터 액세스)<br /> </td> 
+   <td> 외부 데이터에 대한 액세스(통합 데이터 액세스)<br /> </td> 
    <td> 하나 이상의 외부 데이터베이스에 저장된 정보를 처리할 수 있는 통합 데이터 액세스(FDA) 옵션을 제공하므로 Adobe Campaign 데이터 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.  선택 사항입니다. <a href="../../workflow/using/accessing-an-external-database--fda-.md">자세한 내용</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
@@ -160,7 +160,7 @@ ht-degree: 5%
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
-   <td> 배달 기능 모니터링(이메일 배달 기능)<br /> </td> 
+   <td> 배달 가능성 모니터링(이메일 배달 기능)<br /> </td> 
    <td> 바운싱하거나 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달하는 캠페인의 성공을 측정합니다. 선택 사항입니다. <a href="../../delivery/using/about-deliverability.md">자세한 내용</a> <br /> </td> 
    <td> 모두 </td> 
   </tr> 
@@ -200,7 +200,7 @@ ht-degree: 5%
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integration with Adobe Experience Cloud<br /> </td> 
+   <td> Adobe Experience Cloud과 통합<br /> </td> 
    <td> 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. 선택 사항입니다. <a href="../../integrations/using/configuring-ims.md#installing-the-package">자세한 내용</a> </td> 
    <td> 마케팅</td> 
   </tr> 
@@ -210,7 +210,7 @@ ht-degree: 5%
    <td> 모두</td> 
   </tr> 
   <tr> 
-   <td> Transfer to Mid-Sourcing <br /> </td> 
+   <td> 중간 소싱 <br />으로 이전 </td> 
    <td> 중간 소싱 서버의 설치 및 구성뿐만 아니라 제3자가 중간 소싱 모드로 메시지를 전송할 수 있는 인스턴스의 배포에 대해 자세히 설명합니다. 선택 사항입니다. <a href="../../installation/using/mid-sourcing-server.md">자세한 내용</a> <br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
@@ -236,14 +236,14 @@ ht-degree: 5%
 
 배달 채널(이메일, 모바일 채널, 모바일 앱 채널 등)을 설치해야 합니다. 트랜잭션 메시지를 설치하기 전에(메시지 센터 패키지). 이메일 전용 메시지 센터 프로젝트를 시작하고 이후에 새 채널을 추가해야 하는 경우 다음 단계를 수행해야 합니다.
 
-1. 패키지 가져오기 마법사()를 사용하여 **모바일 채널과**&#x200B;같은 새 채널을 **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**&#x200B;설치합니다.
-1. 파일()을 가져오고 다음 **[!UICONTROL Tools > Advanced > Import package > File]**&#x200B;을 선택합니다.
+1. 패키지 가져오기 마법사( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**)를 사용하여 새 채널(예: **모바일 채널**)을 설치합니다.
+1. 파일( **[!UICONTROL Tools > Advanced > Import package > File]**)을 가져오고 다음을 선택합니다.
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. 에서 **[!UICONTROL XML data content to import]**&#x200B;관련 채널에 해당하는 메시지 센터 배달 템플릿만 유지합니다. 예를 들어 **모바일 채널을**&#x200B;추가한 경우 **(smsTriggerMessage) 템플릿에 해당하는** 엔티티 **[!UICONTROL Mobile transactional message]** 요소만유지합니다. 모바일 앱 채널을 추가한 경우 **iOS 트랜잭션 메시지**&#x200B;템플릿(iosTriggerMessage) 및 **Android 트랜잭션 메시지** (androidTriggerMessage)만 **** 보관하십시오.
+1. **[!UICONTROL XML data content to import]**&#x200B;에서 관련 채널에 해당하는 메시지 센터 배달 템플릿만 유지합니다. 예를 들어 **모바일 채널**&#x200B;을 추가한 경우 **[!UICONTROL Mobile transactional message]**(smsTriggerMessage) 템플릿에 해당하는 **entities** 요소만 보관하십시오. **모바일 앱 채널**&#x200B;을 추가한 경우 **iOS 트랜잭션 메시지** 템플릿(iosTriggerMessage) 및 **Android 트랜잭션 메시지**(androidTriggerMessage)만 보관하십시오.
 
    ![](assets/messagecenter_install_channel.png)
 
