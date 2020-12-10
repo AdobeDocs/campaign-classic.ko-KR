@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 Adobe Campaign 응용 프로그램 서버에 구현된 웹 서비스의 정의는 데이터 스키마에서 사용할 수 있습니다.
 
-웹 서비스는 데이터 스키마의 문법에 설명되며 요소에서 사용할 수 **`<methods>`** 있습니다.
+웹 서비스는 데이터 스키마의 문법에 설명되며 **`<methods>`** 요소에서 사용할 수 있습니다.
 
 ```
 <methods>
@@ -46,15 +46,15 @@ Adobe Campaign 응용 프로그램 서버에 구현된 웹 서비스의 정의�
 </methods>
 ```
 
-다음은 GenerateForm이라는 메서드 정의의 **예입니다**.
+다음은 **GenerateForm**&#x200B;이라는 메서드 정의의 예입니다.
 
-서비스에 대한 설명은 `<method>` 요소로 시작됩니다. 메서드의 매개 변수 목록이 요소에서 `<parameters>` 완료되었습니다. 각 매개 변수는 이름, 유형(부울, 문자열, DOMElement 등)으로 지정됩니다. 및 설명. &quot;out&quot; 값이 있는 &quot;out&quot; 속성을 사용하면 &quot;result&quot; 매개 변수가 SOAP 호출 출력에 있음을 지정할 수 있습니다.
+서비스에 대한 설명은 `<method>` 요소로 시작됩니다. 메서드의 매개 변수 목록이 `<parameters>` 요소에서 완료되었습니다. 각 매개 변수는 이름, 유형(부울, 문자열, DOMElement 등)으로 지정됩니다. 및 설명. &quot;out&quot; 값이 있는 &quot;out&quot; 속성을 사용하면 &quot;result&quot; 매개 변수가 SOAP 호출 출력에 있음을 지정할 수 있습니다.
 
 &quot;static&quot; 속성(값 &quot;true&quot;인 경우)이 메서드를 static으로 설명하므로 메서드의 모든 매개 변수를 선언해야 합니다.
 
 &quot;const&quot; 메서드에는 암시적으로 연결된 스키마 형식의 XML 문서가 입력으로 포함됩니다.
 
-Adobe Campaign 스키마의 `<method>` 요소에 대한 전체 설명은 아래의 &quot;스키마 참조&quot; 장에서 사용할 수 있습니다  <a href="../../configuration/using/elements-and-attributes.md#method--element" target="_blank">  `<method>`    요소를 참조하십시오.
+Adobe Campaign 스키마의 `<method>` 요소에 대한 전체 설명은 <a href="../../configuration/using/schema/method.md)" target="_blank"> 아래의 &quot;스키마 참조&quot; 장에서 사용할 수 있습니다.  `<method>`    요소를 참조하십시오.
 
 &quot;xtk:queryDef&quot; 스키마의 &quot;const&quot;-type &quot;ExecuteQuery&quot; 메서드의 예:
 
@@ -84,7 +84,7 @@ https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 * **`<server>`**:adobe campaign 응용 프로그램 서버(nlserver 웹)
 * **`<schema>`**:스키마 식별 키(namespace:schema_name)
 
-### 스키마 &#39;xtk:queryDef&#39;의 &#39;ExecuteQuery&#39; 메서드에 대한 예 {#example-on-the--executequery--method-of-schema--xtk-querydef-}
+### 스키마 &#39;xtk:queryDef&#39; {#example-on-the--executequery--method-of-schema--xtk-querydef-}의 &#39;ExecuteQuery&#39; 메서드에 대한 예
 
 WSDL 파일은 URL에서 생성됩니다.
 
@@ -92,9 +92,9 @@ WSDL 파일은 URL에서 생성됩니다.
 
 WSDL 설명은 웹 서비스를 구성하는 &quot;바인딩&quot;을 통해 프로토콜에 연결된 &quot;포트&quot;에서 메시지를 구성하는 데 사용되는 형식을 정의함으로써 시작됩니다.
 
-#### 유형 {#types}
+#### {#types} 유형
 
-유형 정의는 XML 스키마를 기반으로 합니다. 이 예제에서 &quot;ExecuteQuery&quot; 메서드는 &quot;s:string&quot; 문자열 및 XML 문서(`<s:complextype>`)를 매개 변수로 사용합니다. 메서드(&quot;ExecuteQueryResponse&quot;)의 반환 값은 XML 문서() `<s:complextype>`입니다.
+유형 정의는 XML 스키마를 기반으로 합니다. 이 예제에서 &quot;ExecuteQuery&quot; 메서드는 &quot;s:string&quot; 문자열 및 XML 문서(`<s:complextype>`)를 매개 변수로 사용합니다. 메서드(&quot;ExecuteQueryResponse&quot;)의 반환 값은 XML 문서( `<s:complextype>`)입니다.
 
 ```
 <types>
@@ -130,7 +130,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;바인딩&quot;을 통해 프
 
 #### 메시지 {#messages}
 
-이 `<message>` 는 보낼 필드 세트의 이름과 유형에 대해 설명합니다. 이 메서드는 두 개의 메시지를 사용하여 매개 변수(&quot;ExecuteQueryIn&quot;)와 반환 값(&quot;ExecuteQueryOut&quot;)으로 전달합니다.
+`<message>`은 전송할 필드 집합의 이름과 유형을 설명합니다. 이 메서드는 두 개의 메시지를 사용하여 매개 변수(&quot;ExecuteQueryIn&quot;)와 반환 값(&quot;ExecuteQueryOut&quot;)으로 전달합니다.
 
 ```
 <message name="ExecuteQueryIn">
@@ -144,7 +144,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;바인딩&quot;을 통해 프
 
 #### 포트 유형 {#porttype}
 
-이 `<porttype>` 는 응답을 생성하는 쿼리(&quot;input&quot;)에 의해 트리거된 &quot;ExecuteQuery&quot; 작업의 메시지를 연결합니다(&quot;output&quot;).
+`<porttype>`은 응답을 생성하는 쿼리(&quot;input&quot;)에 의해 트리거된 &quot;ExecuteQuery&quot; 작업의 메시지를 연결합니다(&quot;output&quot;).
 
 ```
 <portType name="queryDefMethodsSoap">
@@ -155,9 +155,9 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;바인딩&quot;을 통해 프
 </portType>
 ```
 
-#### 바인딩 {#binding}
+#### {#binding} 바인딩
 
-이 `<binding>` 부분은 SOAP 통신 프로토콜( `<soap:binding>` ), HTTP의 데이터 전송(&quot;전송&quot; 속성의 값) 및 &quot;ExecuteQuery&quot; 작업의 데이터 형식을 지정합니다. SOAP 봉투의 본문에는 변환 없이 직접 메시지 세그먼트가 포함됩니다.
+`<binding>` 부분은 SOAP 통신 프로토콜( `<soap:binding>` ), HTTP의 데이터 전송(&quot;전송&quot; 속성의 값) 및 &quot;ExecuteQuery&quot; 작업의 데이터 형식을 지정합니다. SOAP 봉투의 본문에는 변환 없이 직접 메시지 세그먼트가 포함됩니다.
 
 ```
 <binding name="queryDefMethodsSoap" type="tns:queryDefMethodsSoap">
@@ -176,7 +176,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;바인딩&quot;을 통해 프
 
 #### 서비스 {#service}
 
-이 `<service>` 부분에서는 Adobe Campaign 응용 프로그램 서버의 URL에 있는 URI가 있는 &quot;XtkQueryDef&quot; 서비스에 대해 설명합니다.
+`<service>` 부분은 Adobe Campaign 응용 프로그램 서버의 URL에 있는 URI가 있는 &quot;XtkQueryDef&quot; 서비스에 대해 설명합니다.
 
 ```
 <service name="XtkQueryDef">
@@ -188,15 +188,15 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;바인딩&quot;을 통해 프
 
 ## 연결 {#connectivity}
 
-Adobe Campaign은 세션 관리 설정과 함께 보안 영역( **이 섹션의** 보안 영역 [정의 장 참조)을 도입하여 인증 메커니즘에 대한 보안을 강화했습니다](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+Adobe Campaign은 세션 관리 설정과 함께 [이 섹션](../../installation/using/configuring-campaign-server.md#defining-security-zones)의 **보안 영역 정의** 장 참조)을 도입하여 인증 메커니즘에 대한 보안을 강화했습니다.
 
 두 가지 인증 모드를 사용할 수 있습니다.
 
-* **를 사용하여 로그온 메서드()**&#x200B;호출 이 모드에서는 세션 토큰과 보안 토큰이 생성됩니다. 가장 안전한 모드이므로 가장 권장됩니다.
+* **를 사용하여 로그온 메서드()** 호출 이 모드에서는 세션 토큰과 보안 토큰이 생성됩니다. 가장 안전한 모드이므로 가장 권장됩니다.
 
 또는
 
-* **세션 토큰을 만드는 Adobe Campaign 로그인 + 암호를** 통해 세션 토큰은 설정된 기간 후에 자동으로 만료됩니다. 이 모드는 권장되지 않으며 일부 영역 설정(allowUserPassword=&quot;true&quot; 및 sessionTokenOnly=&quot;true&quot;)에 대한 응용 프로그램 보안 설정을 줄여야 합니다.
+* **세션 토큰을 만드는 Adobe Campaign 로그인 +** 암호를 통해 가능합니다. 세션 토큰은 설정된 기간 후에 자동으로 만료됩니다. 이 모드는 권장되지 않으며 일부 영역 설정(allowUserPassword=&quot;true&quot; 및 sessionTokenOnly=&quot;true&quot;)에 대한 응용 프로그램 보안 설정을 줄여야 합니다.
 
 ### 세션 토큰 특성 {#session-token-characteristics}
 
@@ -238,9 +238,9 @@ SOAP 호출에서:
 
 * 호출 헤더에 추가됨
 
-### 호출 예제 {#call-examples}
+### 호출 예 {#call-examples}
 
-* HttpSoapConnection/ **SoapService 사용**:
+* **HttpSoapConnection/SoapService** 사용:
 
 ```
   
@@ -273,11 +273,11 @@ SOAP 호출에서:
   logInfo(queryRes[0].toXMLString())
 ```
 
-* HttpServletRequest **사용**:
+* **HttpServletRequest** 사용:
 
 >[!NOTE]
 >
->다음 **HttpServletRequest** 호출에 사용되는 URL은 **serverConf.xml** 파일의 url 권한 섹션에 있는 허용 목록에 있어야 합니다. 서버 자체의 URL에도 적용됩니다.
+>다음 **HttpServletRequest** 호출에 사용된 URL은 **serverConf.xml** 파일의 url 권한 섹션에 있는 허용 목록에 있어야 합니다. 서버 자체의 URL에도 적용됩니다.
 
 로그온 실행():
 
