@@ -7,21 +7,21 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
+source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '40'
 ht-degree: 20%
 
 ---
 
 
-# `<methods>` 요소  {#methods--element}
+# 메서드 요소 {#methods--element}
 
-## 콘텐츠 모델 {#content-model-11}
+## 컨텐트 모델 {#content-model-11}
 
-메서드:==method
+메서드:==메서드
 
-## 속성 {#attributes-11}
+## 특성 {#attributes-11}
 
 없음
 
@@ -39,7 +39,7 @@ ht-degree: 20%
 
 ## 특성 설명 {#attribute-description-11}
 
-이 요소에는 특성이 없습니다.
+이 요소에는 속성이 없습니다.
 
 ## 예제 {#examples-8}
 
