@@ -7,31 +7,31 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
+source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '205'
 ht-degree: 3%
 
 ---
 
 
-# `<method>` 요소  {#method--element}
+# 메서드 요소 {#method--element}
 
-## 콘텐츠 모델 {#content-model-10}
+## 컨텐트 모델 {#content-model-10}
 
-method:=( help | 매개 변수)
+메서드:==( help | 매개 변수)
 
-## 속성 {#attributes-10}
+## 특성 {#attributes-10}
 
-* @_operation(문자열)
-* @access(문자열)
+* @_operation (문자열)
+* @access (문자열)
 * @const (boolean)
-* @hidden(boolean)
-* @label(문자열)
-* @library(문자열)
-* @name(MNTOKEN)
-* @pkonly(boolean)
-* @static(boolean)
+* @hidden (boolean)
+* @label (문자열)
+* @library (문자열)
+* @name (MNTOKEN)
+* @pkonly (boolean)
+* @static (boolean)
 
 ## 부모 {#parents-10}
 
@@ -46,24 +46,24 @@ method:=( help | 매개 변수)
 
 이 요소를 사용하면 SOAP 메서드를 정의할 수 있습니다.
 
-## {#use-and-context-of-use-7} 사용 및 컨텍스트
+## 사용 및 사용 상황{#use-and-context-of-use-7}
 
 SOAP 메서드를 사용하면 응용 프로그램 프로세스를 사용할 수 있습니다.
 
-&quot;@library&quot;는 새 메서드(비기본)를 선언하는 데 필요합니다.네임스페이스와 라이브러리에 사용되는 이름은 선언이 있는 스키마의 네임스페이스와 이름과 독립적입니다.
+&quot;@library&quot;은 새 메서드(기본적으로 제공되지 않음)를 선언하는 데 필요합니다.네임스페이스와 라이브러리에 사용되는 이름은 선언이 있는 스키마의 이름 및 네임스페이스와 독립적입니다.
 
 ## 특성 설명 {#attribute-description-10}
 
-* **access(문자열)**:이 속성은 메서드를 사용하기 위한 액세스 컨트롤을 정의합니다. 이 속성이 없는 경우 식별은 필수입니다. 사용 가능한 값은 다음과 같습니다.&#39;anonymous&#39;, &#39;admin&#39; 및 &#39;sql&#39;.
-* **const (boolean)**:이 속성이 활성화되면 선언된 메서드에서 엔티티를
-* **label (string)**:레이블입니다.
-* **library(string)**:이 메서드는 응용 프로그램이 고유하지 않습니다. 이 속성은 메서드 정의가 있는 메서드 라이브러리 값을 가져옵니다(nms:mylibrary.js).
+* **액세스(문자열)**:이 속성은 메서드 사용에 대한 액세스 제어를 정의합니다. 이 속성이 없으면 식별은 필수입니다. 사용 가능한 값은 다음과 같습니다.&#39;anonymous&#39;, &#39;admin&#39; 및 &#39;sql&#39;.
+* **const (boolean)**:이 속성이 활성화되면 선언된 메서드에서 엔티티가
+* **label (string)**:메서드의 레이블입니다.
+* **라이브러리(문자열)**:이 메서드는 응용 프로그램이 고유하지 않습니다. 이 속성은 메서드 정의가 있는 메서드 라이브러리 값을 사용합니다(nms:mylibrary.js).
 * **이름(MNTOKEN)**:고유한 메서드 이름.
-* **정적(부울)**:이 속성을 활성화하면 이 메서드는 자치적으로 간주되므로 호출될 때 메서드에 모든 매개 변수를 지정해야 합니다.
+* **정적(부울)**:이 속성을 활성화하면 이 메서드는 자치적인 것으로 간주되므로 호출될 때 메서드에 모든 매개 변수를 지정해야 합니다.
 
 ## 예제 {#examples-7}
 
-기본 &quot;구독&quot;의 정의:
+&quot;구독&quot;의 정의:
 
 ```
  
