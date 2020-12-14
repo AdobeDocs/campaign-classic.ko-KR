@@ -7,21 +7,21 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
+source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 19%
+source-wordcount: '43'
+ht-degree: 18%
 
 ---
 
 
-# `<sysfilter>` 요소  {#sysfilter--element}
+# sysfilter 요소 {#sysfilter--element}
 
-## 콘텐츠 모델 {#content-model-15}
+## 컨텐트 모델 {#content-model-15}
 
 sysFilter:==condition
 
-## 속성 {#attributes-15}
+## 특성 {#attributes-15}
 
 없음
 
@@ -39,7 +39,7 @@ sysFilter:==condition
 
 ## 특성 설명 {#attribute-description-15}
 
-이 요소에는 특성이 없습니다.
+이 요소에는 속성이 없습니다.
 
 ## 예제 {#examples-12}
 
