@@ -7,25 +7,25 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
+source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 8%
 
 ---
 
 
-# `<condition>` 요소  {#condition--element}
+# 조건 요소 {#condition--element}
 
-## 콘텐츠 모델 {#content-model-2}
+## 컨텐트 모델 {#content-model-2}
 
 조건:==EMPTY
 
-## 속성 {#attributes-2}
+## 특성 {#attributes-2}
 
-* @boolOperator(문자열)
-* @enabledIf(문자열)
-* @expr(문자열)
+* @boolOperator (문자열)
+* @enabledIf (문자열)
+* @expr (문자열)
 
 ## 부모 {#parents-2}
 
@@ -39,14 +39,14 @@ ht-degree: 8%
 
 이 요소를 사용하면 필터링 조건을 정의할 수 있습니다.
 
-## {#use-and-context-of-use-2} 사용 및 컨텍스트
+## 사용 및 사용 상황{#use-and-context-of-use-2}
 
 하나의 `<sysfiler>` 요소에는 여러 필터링 조건이 포함될 수 있습니다.
 
 ## 특성 설명 {#attribute-description-2}
 
-* **boolOperator(문자열)**:여러 개 `<conditions>` 가 동일한   `<sysfilter>` 요소 내에 정의된 경우 이 속성을 사용하여 여러 요소를 결합할 수 있습니다. 기본적으로 논리 링크는 `<condition>` 요소 사이의 &quot;AND&quot;입니다. &quot;@boolOperator&quot; 속성을 사용하여 &quot;OR&quot; 및 &quot;AND&quot; 유형 링크를 결합할 수 있습니다.
-* **enabledIf(문자열)**:조건 활성화 테스트.
+* **boolOperator(문자열)**:여러  `<conditions>` 요소가 동일한   `<sysfilter>` 요소 내에 정의된 경우 이 속성을 사용하여 여러 요소를 결합할 수 있습니다. 기본적으로 논리 링크는 `<condition>` 요소 사이의 &quot;AND&quot;입니다. &quot;@boolOperator&quot; 속성을 사용하여 &quot;OR&quot; 및 &quot;AND&quot; 유형 링크를 결합할 수 있습니다.
+* **enabledIf (string)**:조건 활성화 테스트.
 * **expr(문자열)**:XTK 표현식입니다.
 
 ## 예제 {#examples-2}
