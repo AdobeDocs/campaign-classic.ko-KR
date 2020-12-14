@@ -7,28 +7,28 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
+source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 5%
 
 ---
 
 
-# `<enumeration>` 요소  {#enumeration--element}
+# 열거형 요소 {#enumeration--element}
 
-## 콘텐츠 모델 {#content-model-5}
+## 컨텐트 모델 {#content-model-5}
 
-enumeration:=(help| value)
+열거형:==(help| value)
 
-## 속성 {#attributes-5}
+## 특성 {#attributes-5}
 
-* @basetype(문자열)
-* @default(문자열)
-* @desc(문자열)
-* @label(문자열)
-* @name(문자열)
-* @template(문자열)
+* @basetype (문자열)
+* @default (문자열)
+* @desc (문자열)
+* @label (문자열)
+* @name (문자열)
+* @template (문자열)
 
 ## 부모 {#parents-5}
 
@@ -43,9 +43,9 @@ enumeration:=(help| value)
 
 이 요소를 사용하면 값 열거형을 정의할 수 있습니다. 열거형은 정의된 스키마에 속하지만 다른 스키마를 통해 액세스할 수 있습니다.
 
-## {#use-and-context-of-use-4} 사용 및 컨텍스트
+## 사용 및 사용 상황{#use-and-context-of-use-4}
 
-열거형은 스키마 시작 시(기본 요소를 정의하기 전)에 정의됩니다.
+열거형은 스키마 시작 시 정의됩니다(기본 요소를 정의하기 전).
 
 ## 특성 설명 {#attribute-description-5}
 
@@ -53,7 +53,7 @@ enumeration:=(help| value)
 
    사용 가능한 유형 목록:
 
-   * ANY
+   * 임의
    * bin
    * 물방울
    * boolean
@@ -82,10 +82,10 @@ enumeration:=(help| value)
    * timpan
    * uuid
 
-* **default(string)**:기본값. 기본값은 열거에 정의된 값 중 하나일 수도 있습니다.
+* **기본값(문자열)**:기본값. 기본값은 열거에 정의된 값 중 하나일 수도 있습니다.
 * **desc(문자열)**:열거형 설명.
 * **label (string)**:열거형 레이블.
-* **name(문자열)**:열거형의 내부 이름입니다.
+* **이름(문자열)**:열거형의 내부 이름입니다.
 * **템플릿(문자열)**:이 속성은 여러 스키마가 공유하는  `<enumeration>` 요소에 대한 참조를 정의합니다. 정의가 현재 스키마에 자동으로 복사됩니다.
 
 ## 예제 {#examples-4}
