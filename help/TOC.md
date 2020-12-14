@@ -9,7 +9,7 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
+source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 97%
@@ -278,7 +278,7 @@ ht-degree: 97%
       + [웹 애플리케이션 추적](web/using/tracking-a-web-application.md)
       + [웹 애플리케이션 추적 옵트아웃](web/using/web-application-tracking-opt-out.md)
    + HTML 콘텐츠 편집 {#editing-html-content}
-      + [HTML 편집기 시작하기](web/using/about-campaign-html-editor.md)
+      + [HTML 편집기 시작](web/using/about-campaign-html-editor.md)
       + [템플릿 관리](web/using/template-management.md)
       + [콘텐츠 편집기 인터페이스](web/using/content-editor-interface.md)
       + [콘텐츠 편집](web/using/editing-content.md)
@@ -300,7 +300,7 @@ ht-degree: 97%
       + [사용 사례: 웹 양식](web/using/use-cases--web-forms.md)
    + 온라인 설문 조사 {#online-surveys}
       + [설문 조사 시작하기](web/using/about-surveys.md)
-      + [설문 조사를 만드는 주요 단계](web/using/getting-started-with-surveys.md)
+      + [설문 조사를 만들기 위한 주요 단계](web/using/getting-started-with-surveys.md)
       + [설문 조사 디자인](web/using/building-a-survey.md)
       + [답변 관리](web/using/managing-answers.md)
       + [수집된 데이터 게시, 추적 및 사용](web/using/publish--track-and-use-collected-data.md)
@@ -710,7 +710,7 @@ ht-degree: 97%
       + [스키마 참조 기본 정보](configuration/using/about-schema-reference.md)
       + [스키마 구조](configuration/using/schema-structure.md)
       + [데이터베이스 매핑](configuration/using/database-mapping.md)
-      + [요소 및 속성] {#elements-attributes}
+      + 요소 및 속성 {#elements-attributes}
          + [소개](configuration/using/schema-introduction.md)
          + [속성](configuration/using/schema/attribute.md)
          + [계산 문자열](configuration/using/schema/compute-string.md)
