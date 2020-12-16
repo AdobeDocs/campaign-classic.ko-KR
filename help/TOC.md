@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
 workflow-type: tm+mt
 source-wordcount: '2216'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -286,7 +286,7 @@ ht-degree: 97%
       + [랜딩 페이지 만들기](web/using/creating-a-landing-page.md)
       + [사용 사례: 전자 메일 게재 만들기](web/using/use-case--creating-an-email-delivery.md)
    + 웹 양식 {#web-forms}
-      + [웹 양식 시작하기](web/using/about-web-forms.md)
+      + [웹 양식 시작](web/using/about-web-forms.md)
       + [웹 양식 템플릿 사용](web/using/using-a-web-form-template.md)
       + [웹 양식에 필드 추가](web/using/adding-fields-to-a-web-form.md)
       + [웹 양식의 정적 요소](web/using/static-elements-in-a-web-form.md)
@@ -299,8 +299,8 @@ ht-degree: 97%
       + [웹 양식 번역](web/using/translating-a-web-form.md)
       + [사용 사례: 웹 양식](web/using/use-cases--web-forms.md)
    + 온라인 설문 조사 {#online-surveys}
-      + [설문 조사 시작하기](web/using/about-surveys.md)
-      + [설문 조사를 만들기 위한 주요 단계](web/using/getting-started-with-surveys.md)
+      + [설문 조사 시작](web/using/about-surveys.md)
+      + [설문 조사를 만드는 주요 단계](web/using/getting-started-with-surveys.md)
       + [설문 조사 디자인](web/using/building-a-survey.md)
       + [답변 관리](web/using/managing-answers.md)
       + [수집된 데이터 게시, 추적 및 사용](web/using/publish--track-and-use-collected-data.md)
