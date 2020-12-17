@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 5b35d2ffdd0f591e2fe31dc98a54be9ea0c0c18d
+source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2020'
 ht-degree: 3%
 
 ---
@@ -136,7 +136,7 @@ RT(Message Center)에 대한 업그레이드가 발생하면 인스턴스에서 
 
 ## 클라이언트 콘솔을 업데이트해야 합니까?
 
-예. 클라이언트 콘솔은 서버 인스턴스와 동일한 빌드에 있어야 합니다. 업그레이드가 완료된 후 클라이언트 콘솔에서 최신 빌드로 업그레이드하여 서버 빌드에 정렬되도록 해야 합니다.
+예. 클라이언트 콘솔은 서버 인스턴스와 동일한 빌드 또는 최신 빌드에 있어야 합니다. 업그레이드가 완료된 후 클라이언트 콘솔에서 최신 빌드로 업그레이드하여 서버 빌드에 정렬되도록 해야 합니다.
 
 ## 롤백 계획은 무엇입니까? 내 데이터의 백업이 유지됩니까?
 
