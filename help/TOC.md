@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+source-git-commit: fa8e63051b4c8bbcfd4000a1e59fa6d91422149d
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2215'
 ht-degree: 98%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 98%
          + [일반적인 질문](platform/using/common-questions.md)
          + [주요 개념](platform/using/faq-key-concepts.md)
          + [빌드 업그레이드](platform/using/faq-build-upgrade.md)
+         + [개인 정보](platform/using/privacy-faq.md)
          + [대상](platform/using/faq-audiences.md)
          + [메시지 디자인](platform/using/faq-designing.md)
          + [메시지 보내기](platform/using/faq-messages.md)
@@ -58,7 +59,6 @@ ht-degree: 98%
       + [개인 정보 및 동의](platform/using/privacy-and-recommendations.md)
       + [개인 정보 관리](platform/using/privacy-management.md)
       + [개인 정보 보호 요청](platform/using/privacy-requests.md)
-      + [개인 정보 FAQ](platform/using/privacy-faq.md)
    + 프로필 관리 {#profile-management}
       + [프로필 기본 정보](platform/using/about-profiles.md)
       + [프로필 편집](platform/using/editing-a-profile.md)
