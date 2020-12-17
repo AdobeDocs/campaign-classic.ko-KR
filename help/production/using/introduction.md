@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5b35d2ffdd0f591e2fe31dc98a54be9ea0c0c18d
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
@@ -30,18 +30,22 @@ ht-degree: 1%
 1. Power Boxer/Cluster 서버를 마이그레이션합니다.
 1. 마케팅 서버를 마이그레이션합니다.
 
-Adobe Campaign은 업데이트 중에 조작해야 하는 서버측에서 실행되는 여러 프로세스를 기반으로 합니다. 특히 다음과 같습니다.
+Adobe Campaign은 업데이트 중에 조작해야 하는 서버 측에서 실행되는 여러 프로세스를 기반으로 합니다. 특히 다음과 같습니다.
 
 * 응용 프로그램 서버(nlserver 웹)
 * 배달 서버(nlserver mta)
 * 리디렉션 서버(웹 mdl)
 
+>[!CAUTION]
+>
+>클라이언트 콘솔은 서버 인스턴스와 동일한 빌드에 있어야 합니다.
+
 >[!NOTE]
 >
->다양한 Adobe Campaign 프로세스에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../installation/using/general-architecture.md#logical-application-layer).\
->Power Booter 또는 Power Cluster 유형 아키텍처를 사용하는 경우 이 프로세스를 모든 Power Booth/Cluster 서버에 적용해야 합니다.
+>다양한 Adobe Campaign 프로세스에 대한 자세한 내용은 [이 섹션](../../installation/using/general-architecture.md#logical-application-layer)을 참조하십시오.\
+>Power Boxer 또는 Power Cluster 유형 아키텍처를 사용할 때는 이 프로세스를 모든 Power Boxer/Cluster 서버에 적용해야 합니다.
 
-새 버전에 데이터베이스 구조의 변경 작업이 포함된 경우 다음 순서로 서버를 다시 시작하는 것이 좋습니다.
+새 버전에 데이터베이스 구조의 변경이 포함된 경우 다음 순서로 서버를 다시 시작하는 것이 좋습니다.
 
 1. 응용 프로그램 서버(nlserver 웹),
 1. 리디렉션 서버(웹 mdl),
