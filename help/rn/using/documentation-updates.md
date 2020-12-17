@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: fa8e63051b4c8bbcfd4000a1e59fa6d91422149d
+source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
 workflow-type: tm+mt
-source-wordcount: '3668'
-ht-degree: 98%
+source-wordcount: '3660'
+ht-degree: 99%
 
 ---
 
@@ -26,8 +26,6 @@ ht-degree: 98%
 배달 모니터링 섹션이 주제별로 재구성되었습니다. [자세한 내용](../../delivery/using/about-delivery-monitoring.md)
 
 배달 로그에 보낸 사람의 IP 주소를 추가하는 방법에 사용 사례가 추가되었습니다. [자세한 내용](../../delivery/using/delivery-dashboard.md#use-case)
-
-개인 정보 FAQ가 [이 섹션](../../platform/using/privacy-faq.md)으로 이동되었습니다.
 
 ## 2020년 11월 {#nov-2020}
 
