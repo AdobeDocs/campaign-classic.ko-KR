@@ -7,9 +7,9 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 translation-type: tm+mt
-source-git-commit: 7353abfe07bc177d103c83c7f2a5d57d7fb415a3
+source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 이 구성을 시작하기 전에 다음을 사용 중인지 확인하십시오.
 
-* Adobe Campaign 20.3 또는 Gold Standard 11 릴리스 최소
+* Adobe Campaign 20.3 릴리스 최소
 * Adobe Analytics Standard 버전
 
 또한 다음 작업이 필요합니다.
