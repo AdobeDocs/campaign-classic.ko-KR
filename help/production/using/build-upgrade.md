@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 5b35d2ffdd0f591e2fe31dc98a54be9ea0c0c18d
+source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
 workflow-type: tm+mt
-source-wordcount: '2368'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
@@ -204,13 +204,12 @@ ht-degree: 0%
 
 ### 클라이언트 콘솔 업데이트
 
-클라이언트 콘솔은 서버 인스턴스와 동일한 빌드에 있어야 합니다.
-
 Adobe Campaign 응용 프로그램 서버가 설치된 컴퓨터(nlserverweb)에서 파일을 다운로드하고 복사합니다.
 
 ```
 Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
 ```
+
 
 다음 번에 클라이언트 콘솔이 연결되면 사용자에게 새 업데이트가 사용 가능한지 알려 주고 다운로드 및 설치 가능성을 제공합니다.
 
