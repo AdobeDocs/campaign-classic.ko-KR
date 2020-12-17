@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 494be84478f652dd5e1473dd98272056514f31c8
+source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 90%
+source-wordcount: '820'
+ht-degree: 100%
 
 ---
 
@@ -25,24 +25,6 @@ Gold Standard는 Campaign Classic 장기 지원 릴리스입니다. Gold Standar
 
 Campaign Gold Standard 프로그램에 대한 자세한 내용은 [이 문서를](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html) 참조하십시오.
 
-## ![](assets/do-not-localize/limited_2.png) Gold Standard 11 릴리스{#gs-11}
-
-_2020년 12월 15일_
-
->[!CAUTION]
->
->이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.2020년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결할 수 있으려면 업그레이드가 필요합니다.
-
-빌드 9032@2a2a028에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
-
-* 새 IMS 인증 메커니즘을 따르도록 연결 프로토콜이 업데이트되었습니다.
-
-* 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O로 이동되었습니다. [자세히 알아보기](../../integrations/using/configuring-adobe-io.md)
-
-* iOS APNs 레거시 이진 프로토콜에 대한 지원이 종료된 후 업그레이드 후 이 프로토콜을 사용하는 모든 인스턴스가 HTTP/2 프로토콜로 업데이트됩니다.
-
-* SSRF(Server Side Request 위조) 문제에 대한 보호를 강화하려는 보안 문제가 해결되었습니다. (NEO-27777)
-
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 10 릴리스{#gs-10}
 
 _2020년 7월 7일_
@@ -53,7 +35,7 @@ _2020년 7월 7일_
 
 >[!CAUTION]
 >
->이 릴리스에서 사용할 수 있는 클라이언트 콘솔을 업그레이드하는 것이 좋습니다. [이 페이지](../../installation/using/installing-the-client-console.md)를 참조하십시오
+>이 릴리스에서 사용할 수 있는 클라이언트 콘솔을 업그레이드하는 것이 좋습니다. [이 페이지](../../installation/using/installing-the-client-console.md) 참조
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 9 릴리스{#gs-9}
 
