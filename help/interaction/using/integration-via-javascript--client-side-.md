@@ -21,7 +21,7 @@ ht-degree: 2%
 
 요소를 참조하십시오.
 
-Adobe은 JavaScript 통합 방법을 사용하는 것이 좋습니다.
+Adobe에서는 JavaScript 통합 방법을 사용하는 것이 좋습니다.
 
 URL을 호출하는 스크립트는 다음과 같습니다.
 
@@ -37,7 +37,7 @@ URL을 호출하는 스크립트는 다음과 같습니다.
 
 ## HTML 모드 {#html-mode}
 
-### 익명의 오퍼 제시 {#presenting-an-anonymous-offer}
+### 익명 오퍼 표시 {#presenting-an-anonymous-offer}
 
 1. **상호 작용 엔진 준비**
 
@@ -45,21 +45,22 @@ URL을 호출하는 스크립트는 다음과 같습니다.
 
    익명 환경에 연결된 오퍼 공간을 만듭니다.
 
-   오퍼 공간과 연결된 오퍼 및 해당 표현을 만듭니다.
+   오퍼 공간과 연결된 오퍼 및 표현을 만듭니다.
 
 1. **HTML 페이지의 컨텐츠**
 
    HTML 페이지에는
 
-   만든 오퍼 공간의 내부 이름 값이 있는 @id 특성이 있는 요소(&quot;i_internal name space&quot;). 오퍼는 상호 작용에 의해 이 요소에 삽입됩니다.
+   만든 오퍼 공간의 내부 이름(&quot;i_internal name space&quot;)의 값을 갖는 @id 속성이 있는 요소입니다. 오퍼가 여기에 삽입됩니다.
+요소를 상호 작용별로 지정합니다.
 
-   이 예제에서 @id 속성은 &quot;i_SPC12&quot; 값을 받습니다. 여기서 &quot;SPC12&quot;는 이전에 만든 오퍼 공간의 내부 이름입니다.
+   이 예에서 @id 속성은 &quot;i_SPC12&quot; 값을 받습니다. 여기서 &quot;SPC12&quot;는 이전에 만든 오퍼 공간의 내부 이름입니다.
 
    ```
    <div id="i_SPC12"></div>
    ```
 
-   이 예에서 스크립트 호출을 위한 URL은 다음과 같습니다(&quot;OE3&quot;은 라이브 환경의 내부 이름입니다).
+   이 예제에서 스크립트를 호출하는 URL은 다음과 같습니다(&quot;OE3&quot;는 라이브 환경의 내부 이름입니다).
 
    ```
    <script id="interactionProposalScript" src="https://instance.adobe.org:8080/nl/interactionProposal.js?env=OE3" type="text/javascript"></script>
@@ -67,11 +68,11 @@ URL을 호출하는 스크립트는 다음과 같습니다.
 
    >[!IMPORTANT]
    >
-   >태그를 `<script>` 자체 닫으면 안 됩니다.
+   >`<script>` 태그는 자체 닫기가 아니어야 합니다.
 
    이 정적 호출은 상호 작용 엔진에 필요한 모든 매개 변수를 포함하는 동적 호출을 자동으로 생성합니다.
 
-   이 동작을 사용하면 동일한 페이지에서 여러 오퍼 공백을 사용할 수 있으므로, 엔진에 대한 단일 호출로 관리할 수 있습니다.
+   이 동작을 사용하면 동일한 페이지에서 여러 오퍼 공간을 사용하여 엔진에 대한 단일 호출로 관리할 수 있습니다.
 
 1. **HTML 페이지의 결과**
 
@@ -99,9 +100,9 @@ URL을 호출하는 스크립트는 다음과 같습니다.
    </div>
    ```
 
-### 식별된 오퍼 제시 {#presenting-an-identified-offer}
+### 식별된 오퍼 {#presenting-an-identified-offer} 표시
 
-식별된 연락처에 오퍼를 제공하는 프로세스는 여기에 설명된 것과 비슷합니다. [익명의 제안](#presenting-an-anonymous-offer). 웹 페이지의 내용에서 엔진에 대한 호출 동안 연락처를 식별하는 다음 스크립트를 추가해야 합니다.
+식별된 연락처에 오퍼를 제공하기 위해 프로세스는 여기에 설명된 프로세스와 유사합니다.[익명 오퍼 ](#presenting-an-anonymous-offer) 표시 웹 페이지의 내용에서 엔진에 대한 호출 동안 연락처를 식별할 다음 스크립트를 추가해야 합니다.
 
 ```
 <script type="text/javascript">
@@ -109,15 +110,15 @@ URL을 호출하는 스크립트는 다음과 같습니다.
 </script>
 ```
 
-1. 웹 페이지에서 호출할 오퍼 공간으로 이동하고 을 클릭하고 하나 이상의 식별 키 **[!UICONTROL Advanced parameters]** 를 추가합니다.
+1. 웹 페이지에서 호출할 오퍼 공간으로 이동하여 **[!UICONTROL Advanced parameters]**&#x200B;을 클릭하고 하나 이상의 식별 키를 추가합니다.
 
    ![](assets/interaction_htmlmode_001.png)
 
    이 예에서 ID 키는 이메일과 수신자 이름을 모두 기반으로 하므로 합성됩니다.
 
-1. 웹 페이지가 표시되는 동안 스크립트 평가를 통해 수신자 ID를 오퍼 엔진으로 전달할 수 있습니다. ID가 합성된 경우 키는 고급 설정에 사용된 것과 동일한 시퀀스에 표시되고 |.
+1. 웹 페이지가 표시되는 동안 스크립트 평가를 통해 오퍼 엔진에 수신자 ID를 전달할 수 있습니다. ID가 합성된 경우 키는 고급 설정에 사용된 것과 동일한 시퀀스에 표시되고 |.
 
-   다음 예에서, 연락처는 웹 사이트에 로그온하여 이메일 및 이름 덕분에 상호 작용 엔진에 호출하는 동안 인식되었습니다.
+   다음 예에서, 연락처는 웹 사이트에 로그온했고 이메일 및 이름 덕분에 상호 작용 엔진을 호출하는 동안 인식되었습니다.
 
    ```
    <script type="text/javascript">
@@ -131,7 +132,7 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
 1. 오퍼 공간으로 이동하고 **[!UICONTROL Edit functions]** 링크를 클릭합니다.
 1. **[!UICONTROL Overload the HTML rendering function]**&#x200B;을(를) 선택합니다.
-1. 탭으로 **[!UICONTROL HTML rendering]** 이동하여 오퍼 공간에서 오퍼 컨텐츠에 대해 정의된 필드와 일치하는 변수를 삽입합니다.
+1. **[!UICONTROL HTML rendering]** 탭으로 이동하여 오퍼 공간에서 오퍼 컨텐츠에 대해 정의된 필드와 일치하는 변수를 삽입합니다.
 
    ![](assets/interaction_htmlmode_002.png)
 
@@ -139,11 +140,11 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
 ## XML 모드 {#xml-mode}
 
-### 오퍼 제시 {#presenting-an-offer}
+### 오퍼 {#presenting-an-offer} 제시
 
-상호 작용을 통해 오퍼 엔진을 호출하는 HTML 페이지로 XML 노드를 반환할 수 있습니다. 이 XML 노드는 고객 측에서 개발할 수 있는 함수로 처리할 수 있습니다.
+상호 작용을 통해 XML 노드를 오퍼 엔진을 호출하는 HTML 페이지로 돌아갈 수 있습니다. 이 XML 노드는 고객 측에서 개발할 수 있는 함수로 처리할 수 있습니다.
 
-상호 작용 엔진에 대한 호출은 다음과 같습니다.
+상호 작용 엔진 호출은 다음과 같습니다.
 
 ```
 <script type="text/javascript" id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=&cb="></script>
@@ -153,9 +154,9 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
 &quot;**cb**&quot; 매개 변수는 (콜백) 제안을 포함하는 엔진에서 반환되는 XML 노드를 읽는 함수의 이름을 받습니다. 이 매개 변수는 선택 사항입니다.
 
-&quot;**t**&quot; 매개 변수는 식별된 상호 작용에 대해서만 대상의 값을 받습니다. 이 매개 변수는 interactionTarget 변수와 함께 **전달할 수도** 있습니다. 이 매개 변수는 선택 사항입니다.
+&quot;**t**&quot; 매개 변수는 식별된 상호 작용에 대해서만 대상의 값을 받습니다. 이 매개 변수는 **interactionTarget** 변수와 함께 전달할 수도 있습니다. 이 매개 변수는 선택 사항입니다.
 
-&quot;**c**&quot; 매개 변수는 카테고리의 내부 이름 목록을 받습니다. 이 매개 변수는 선택 사항입니다.
+&quot;**c**&quot; 매개 변수는 범주의 내부 이름 목록을 받습니다. 이 매개 변수는 선택 사항입니다.
 
 &quot;**th**&quot; 매개 변수는 테마 목록을 받습니다. 이 매개 변수는 선택 사항입니다.
 
@@ -176,15 +177,15 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
 1. **환경 및 오퍼 공간 만들기**
 
-   환경 만들기에 대한 자세한 내용은 [라이브/디자인 환경을 참조하십시오](../../interaction/using/live-design-environments.md).
+   환경 만들기에 대한 자세한 내용은 [라이브/디자인 환경](../../interaction/using/live-design-environments.md)을 참조하십시오.
 
-   오퍼 공간 만들기에 대한 자세한 내용은 오퍼 공간 [만들기를 참조하십시오](../../interaction/using/creating-offer-spaces.md).
+   오퍼 공간 만들기에 대한 자세한 내용은 [오퍼 공간 만들기](../../interaction/using/creating-offer-spaces.md)를 참조하십시오.
 
 1. **오퍼 스키마를 확장하여 새 필드 추가**
 
-   이 스키마는 다음 필드를 정의합니다.제목 번호 2 및 가격
+   이 스키마는 다음 필드를 정의합니다.제목 번호 2 및 가격.
 
-   예제의 스키마 이름은 **cus:offer입니다.**
+   예제의 스키마 이름은 **cus:offer**&#x200B;입니다.
 
    ```
    <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
@@ -219,11 +220,11 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
    >
    >일괄 처리 모드와 단일 모드 및 모든 형식(텍스트, HTML 및 XML)으로 새 필드를 추가하려면 오퍼 스키마를 확장할 수 있습니다.
 
-1. **오퍼 공식을 확장하여 새 필드 편집 및 기존 필드 수정**
+1. **오퍼 공식을 확장하여 새 필드를 편집하고 기존 필드를 수정합니다.**
 
-   오퍼( **nsm)** 입력 양식을 편집합니다.
+   **오퍼(nsm)** 입력 양식을 편집합니다.
 
-   &quot;보기&quot; 섹션에서 다음 컨텐츠가 포함된 두 개의 새 필드를 삽입합니다.
+   &quot;보기&quot; 섹션에서 다음 내용이 포함된 두 개의 새 필드를 삽입합니다.
 
    ```
    <input label="Title 2" margin-right="5" prebuildSubForm="false" type="subFormLink"
@@ -261,17 +262,17 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
    >[!IMPORTANT]
    >
-   >() 양식의 필드 `<input>`는 생성된 스키마에 정의된 CDATA 유형 요소를 가리켜야 합니다.
+   >( `<input>`) 양식의 필드는 생성된 스키마에 정의된 CDATA 유형 요소를 가리켜야 합니다.
 
    오퍼 표현 양식의 렌더링은 다음과 같습니다.
 
    ![](assets/interaction_xmlmode_form.png)
 
-   필드 **[!UICONTROL Title 2]** 와 **[!UICONTROL Price]** 필드가 추가되었으며 **[!UICONTROL Destination URL]** 필드가 더 이상 표시되지 않습니다.
+   **[!UICONTROL Title 2]** 및 **[!UICONTROL Price]** 필드가 추가되었으며 **[!UICONTROL Destination URL]** 필드가 더 이상 표시되지 않습니다.
 
 1. **오퍼 만들기**
 
-   오퍼 만들기에 대한 자세한 내용은 오퍼 [만들기를 참조하십시오](../../interaction/using/creating-an-offer.md).
+   오퍼 만들기에 대한 자세한 내용은 [오퍼 만들기](../../interaction/using/creating-an-offer.md)를 참조하십시오.
 
    다음 사용 사례에서는 오퍼가 다음과 같이 입력됩니다.
 
@@ -280,7 +281,7 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 1. 오퍼를 승인하거나 다른 사람이 승인하도록 한 다음, 연결된 라이브 환경에서 사용할 수 있도록 마지막 단계에서 만든 오퍼 공간에서 활성화합니다.
 1. **HTML 페이지의 엔진 호출 및 결과**
 
-   HTML 페이지의 상호 작용 엔진에 대한 호출은 다음과 같습니다.
+   HTML 페이지의 상호 작용 엔진 호출은 다음과 같습니다.
 
    ```
    <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=OE7&cb=alert" type="text/javascript">
@@ -288,9 +289,9 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
    &quot;**env**&quot; 매개 변수의 값은 라이브 환경의 내부 이름입니다.
 
-   &quot;**cb**&quot; 매개 변수의 값은 엔진에서 반환되는 XML 노드를 해석해야 하는 함수의 이름입니다. 이 예제에서 호출된 up 함수는 모달 창(alert() 함수)을 엽니다.
+   &quot;**cb**&quot; 매개 변수의 값은 엔진에서 반환된 XML 노드를 해석해야 하는 함수의 이름입니다. 이 예제에서 호출된 up 함수는 모달 창(alert() 함수)을 엽니다.
 
-   상호 작용 엔진에서 반환하는 XML 노드는 다음과 같습니다.
+   상호 작용 엔진에서 반환된 XML 노드는 다음과 같습니다.
 
    ```
    <propositions>
@@ -310,13 +311,13 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
 ### 렌더링 함수 사용 {#using-a-rendering-function-}
 
-XML 렌더링 기능을 사용하여 오퍼 프레젠테이션을 만들 수 있습니다. 이 함수는 엔진에 대한 호출 동안 HTML 페이지로 반환되는 XML 노드를 수정합니다.
+XML 렌더링 함수를 사용하여 오퍼 프레젠테이션을 만들 수 있습니다. 이 함수는 엔진을 호출하는 동안 HTML 페이지로 반환되는 XML 노드를 수정합니다.
 
 1. 오퍼 공간으로 이동하고 **[!UICONTROL Edit functions]** 링크를 클릭합니다.
 1. **[!UICONTROL Overload the XML rendering function]**&#x200B;을(를) 선택합니다.
-1. 탭으로 **[!UICONTROL XML rendering]** 이동하여 원하는 함수를 삽입합니다.
+1. **[!UICONTROL XML rendering]** 탭으로 이동하여 원하는 함수를 삽입합니다.
 
-   함수는 다음과 같이 표시될 수 있습니다.
+   이 함수는 다음과 같습니다.
 
    ```
    function (proposition) {
