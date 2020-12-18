@@ -17,9 +17,9 @@ ht-degree: 8%
 
 # 실행 인스턴스 식별{#identifying-execution-instances}
 
-제어 인스턴스에서 실행 인스턴스를 볼 때 각 인스턴스의 내역을 구분하려면 고유 식별자를 각 인스턴스에 할당해야 합니다. 제어 및 실행 인스턴스가 동일한 컴퓨터에 설치되어 있어도 이 단계는 필수입니다. 이 식별자는 배포 마법사를 통해 각 실행 인스턴스에 수동으로 부여되거나 제어 인스턴스에서 연결 **초기화** 단추를 클릭하여 자동으로 적용할 수 있습니다( [컨트롤 인스턴스](../../message-center/using/creating-a-shared-connection.md#control-instance)참조).
+제어 인스턴스에서 실행 인스턴스를 볼 때 각 실행 인스턴스의 내역을 구분하려면 고유 식별자를 각 인스턴스에 할당해야 합니다. 제어 및 실행 인스턴스가 동일한 컴퓨터에 설치되어 있어도 이 단계는 필수입니다. 이 식별자는 배포 마법사를 통해 각 실행 인스턴스에 수동으로 속성을 지정하거나 제어 인스턴스에서 **연결 초기화** 단추를 클릭하여 자동으로 적용할 수 있습니다( [컨트롤 인스턴스](../../message-center/using/creating-a-shared-connection.md#control-instance) 참조).
 
-식별자를 수동으로 지정하려면 각 실행 인스턴스에서 배포 마법사를 열고 창으로 이동하여 선택한 식별자를 인스턴스에 **[!UICONTROL Message Center]** 지정합니다.
+식별자를 수동으로 특성을 지정하려면 각 실행 인스턴스에서 배포 마법사를 열고 **[!UICONTROL Message Center]** 창으로 이동하여 선택한 식별자를 인스턴스에 할당합니다.
 
 ![](assets/messagecenter_id_execinstance_001.png)
 
