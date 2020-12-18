@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 2%
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#conditionnal-content-video)
 
 
-## 이메일의 조건 사용 {#using-conditions-in-an-email}
+## 이메일 {#using-conditions-in-an-email}에 조건 사용
 
 아래 예에서는 수신자의 성별 및 관심사에 따라 동적으로 개인화된 메시지를 만드는 방법을 알아봅니다.
 
 * &quot;Mr.&quot;를 표시하는 표시 또는 &quot;Ms&quot; 데이터 소스의 **[!UICONTROL Gender]** 필드(M 또는 F) 값에 따라
-* 표시된 관심 사항에 따라, 또는 검색된 관심 사항에 따라 뉴스레터 또는 홍보 행사의 개인화된 집회
+* 표시되거나 탐지된 관심 사항에 따라 뉴스레터 또는 홍보 오퍼의 개인화된 집회:
 
    * 관심 항목 1 — > 블록 1
    * 관심 영역 2 — > 블록 2
@@ -36,26 +36,26 @@ ht-degree: 2%
 
 필드의 값에 따라 조건부 컨텐츠를 만들려면 다음 단계를 적용합니다.
 
-1. 개인화 아이콘을 클릭하고 선택합니다 **[!UICONTROL Conditional content > If]**.
+1. 개인화 아이콘을 클릭하고 **[!UICONTROL Conditional content > If]**&#x200B;을 선택합니다.
 
    ![](assets/s_ncs_user_conditional_content02.png)
 
    개인화 요소가 메시지 본문에 삽입됩니다. 이제 구성해야 합니다.
 
-1. 그런 다음 **if** 식의 매개 변수를 채웁니다.
+1. 다음으로 **if** 식의 매개 변수를 입력합니다.
 
    방법은 다음과 같습니다.
 
-   * 표현식 **`<field>`**&#x200B;의 첫 번째 요소를 선택하고(기본적으로 **** if 표현식을 삽입하는 동안 이 요소가 강조 표시됨) 개인화 아이콘을 클릭하여 테스트 필드로 대체합니다.
+   * 표현식의 첫 번째 요소인 **`<field>`**(기본적으로 **if** 표현식 삽입 중에 이 요소가 강조 표시됨)을 선택하고 개인화 아이콘을 클릭하여 테스트 필드로 대체합니다.
 
       ![](assets/s_ncs_user_conditional_content03.png)
 
-   * 조건이 충족될 필드 **`<value>`** 의 값으로 대체합니다. 이 값은 따옴표로 묶어야 합니다.
+   * **`<value>`**&#x200B;을(를) 조건이 충족될 필드의 값으로 대체합니다. 이 값은 따옴표로 묶어야 합니다.
    * 조건이 충족될 때 삽입할 컨텐츠를 지정합니다. 텍스트, 이미지, 양식, 하이퍼텍스트 링크 등으로 구성될 수 있습니다.
 
       ![](assets/s_ncs_user_conditional_content04.png)
 
-1. 전달 받는 사람에 따라 메시지 내용을 보려면 **[!UICONTROL Preview]** 탭을 클릭하십시오.
+1. 배달 받는 사람에 따라 메시지의 내용을 보려면 **[!UICONTROL Preview]** 탭을 클릭합니다.
 
    * 조건이 참인 수신자 선택:
 
@@ -65,23 +65,23 @@ ht-degree: 2%
 
       ![](assets/s_ncs_user_conditional_content06.png)
 
-다른 케이스를 추가하고 하나 이상의 필드 값에 따라 다른 컨텐츠를 정의할 수 있습니다. 이렇게 하려면, and **[!UICONTROL Conditional content > Else]** 를 사용하십시오 **[!UICONTROL Conditional content > Else if]**. 이러한 표현식은 **if 표현식과 동일한 방식으로** 구성됩니다.
+다른 케이스를 추가하고 하나 이상의 필드의 값에 따라 다른 컨텐츠를 정의할 수 있습니다. 이렇게 하려면 **[!UICONTROL Conditional content > Else]** 및 **[!UICONTROL Conditional content > Else if]**&#x200B;을 사용합니다. 이러한 표현식은 **if** 표현식과 동일한 방식으로 구성됩니다.
 
 ![](assets/s_ncs_user_conditional_content07.png)
 
 >[!CAUTION]
 >
->JavaScript 구문을 존중하려면 Else와 if **조건을 추가한 후** %> &lt;% **문자를** 삭제해야 **** 합니다.
+>JavaScript 구문을 존중하려면 **Else** 및 **Else if** 조건을 추가한 후 **%>&lt;%** 문자를 삭제해야 합니다.
 
-조건부 컨텐츠를 보려면 수신자 **[!UICONTROL Preview]** 를 클릭하고 선택합니다.
+**[!UICONTROL Preview]**&#x200B;을 클릭하고 조건부 콘텐트를 볼 수신자를 선택합니다.
 
 ![](assets/s_ncs_user_conditional_content08.png)
 
-## 다국어 이메일 제작 {#creating-multilingual-email}
+## 다국어 이메일 {#creating-multilingual-email} 만들기
 
 아래 예에서는 다국어 이메일을 만드는 방법을 알아봅니다. 받는 사람이 선호하는 언어에 따라 컨텐츠가 한 언어 또는 다른 언어로 표시됩니다.
 
-1. 이메일을 만들고 타겟 모집단을 선택합니다. 이 예에서 한 버전 또는 다른 버전을 표시하는 조건은 받는 사람 프로필의 **언어** 값을 기반으로 합니다. 이 예에서 이러한 값은 **EN**, **FR**, **ES로**&#x200B;설정됩니다.
+1. 이메일을 만들고 타겟 모집단을 선택합니다. 이 예에서 한 버전 또는 다른 버전을 표시하는 조건은 받는 사람 프로필의 **언어** 값을 기반으로 합니다. 이 예에서 이러한 값은 **EN**, **FR**, **ES**&#x200B;로 설정됩니다.
 1. 이메일 HTML 내용에서 **[!UICONTROL Source]** 탭을 클릭하고 다음 코드를 붙여 넣습니다.
 
    ```
@@ -103,16 +103,16 @@ ht-degree: 2%
    <% } %>
    ```
 
-1. 다른 기본 언어로 받는 사람을 선택하여 **[!UICONTROL Preview]** 탭에서 이메일 컨텐츠를 테스트합니다.
+1. 다른 기본 언어를 사용하는 받는 사람을 선택하여 **[!UICONTROL Preview]** 탭에서 이메일 컨텐츠를 테스트합니다.
 
    >[!NOTE]
    >
-   >이메일 컨텐츠에 다른 버전이 정의되지 않은 경우 이메일을 보내기 전에 타겟 모집단을 필터링해야 합니다.
+   >이메일 컨텐츠에 다른 버전이 정의되지 않았으므로 이메일을 보내기 전에 타겟 모집단을 필터링해야 합니다.
 
 ## 자습서 비디오 {#conditionnal-content-video}
 
-다국어 뉴스레터의 예에 따라 게재에 조건부 컨텐츠를 추가하는 방법을 알아봅니다.
+다국어 뉴스레터 예제를 통해 조건부 컨텐츠를 배달에 추가하는 방법을 살펴봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
 
-추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
