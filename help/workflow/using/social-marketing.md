@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # 소셜 마케팅{#social-marketing}
 
-아래에 자세히 설명된 워크플로우는 기본적으로 **Social 마케팅** 모듈과 함께 설치됩니다. For more on this module, refer to this [section](../../social/using/starting-workflows.md).
+아래에 설명된 워크플로우는 기본적으로 **Social Marketing** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../social/using/starting-workflows.md)을 참조하십시오.
 
 <table> 
  <tbody> 
@@ -44,7 +44,7 @@ ht-degree: 5%
   <tr> 
    <td> <span class="uicontrol">Twitter 통계 계산</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> 이 워크플로우는 Twitter의 리트윗 및 방문과 연결된 통계를 계산합니다.<br /> </td> 
+   <td> 이 워크플로우는 리트윗 및 Twitter 방문 횟수에 연결된 통계를 계산합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Twitter 페이지 동기화</span> <br /> </td> 
