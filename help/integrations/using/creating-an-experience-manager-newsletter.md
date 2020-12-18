@@ -15,47 +15,47 @@ ht-degree: 1%
 ---
 
 
-# Creating an Experience Manager newsletter{#creating-an-experience-manager-newsletter}
+# Experience Manager 뉴스레터 만들기{#creating-an-experience-manager-newsletter}
 
-이 통합을 사용하여 Adobe Experience Manager에서 뉴스레터를 만든 다음 이메일 캠페인의 일부로 Adobe Campaign에서 사용할 수 있습니다.
+이 통합을 예로 들어 Adobe Experience Manager에서 뉴스레터를 만든 다음 Adobe Campaign에서 이메일 캠페인의 일부로 사용할 수 있습니다.
 
-이 통합 사용 방법에 대한 자세한 예는 이 [단계별 가이드를 참조하십시오](https://helpx.adobe.com/campaign/kb/acc-aem.html).
+이 통합을 사용하는 방법에 대한 자세한 예제는 이 [단계별 안내서](https://helpx.adobe.com/campaign/kb/acc-aem.html)를 참조하십시오.
 
 **Adobe Experience Manager에서:**
 
-1. AEM 작성자 인스턴스의 왼쪽 상단에 있는 **Adobe Experience** 로고를 클릭하고 선택합니다 **[!UICONTROL Sites]**.
+1. AEM 작성자 인스턴스에서 페이지 왼쪽 상단에 있는 **Adobe Experience** 로고를 클릭하고 **[!UICONTROL Sites]**&#x200B;를 선택합니다.
 
    ![](assets/aem_uc_1.png)
 
 1. **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Main Area > Email campaigns]**&#x200B;을(를) 선택합니다.
-1. 페이지 오른쪽 위에 있는 **[!UICONTROL Create]** 단추를 클릭한 다음 선택합니다 **[!UICONTROL Page]**.
+1. 페이지 오른쪽 위에 있는 **[!UICONTROL Create]** 단추를 클릭한 다음 **[!UICONTROL Page]**&#x200B;을 선택합니다.
 
    ![](assets/aem_uc_2.png)
 
-1. 템플릿을 선택하고 **[!UICONTROL Adobe Campaign Email (AC 6.1)]** 뉴스레터의 이름을 지정합니다.
-1. 페이지가 만들어지면 **[!UICONTROL Page information]** 메뉴에 액세스하여 클릭합니다 **[!UICONTROL Open Properties]**.
+1. **[!UICONTROL Adobe Campaign Email (AC 6.1)]** 템플릿을 선택하고 뉴스레터 이름을 지정합니다.
+1. 페이지가 만들어지면 **[!UICONTROL Page information]** 메뉴에 액세스하여 **[!UICONTROL Open Properties]**&#x200B;을 클릭합니다.
 
    ![](assets/aem_uc_3.png)
 
-1. 탭 **[!UICONTROL Cloud Services]** 에서 두 번째 드롭다운에서 **[!UICONTROL Adobe Campaign]** as **[!UICONTROL Cloud service configuration]** 와 사용자의 Adobe Campaign 인스턴스를 선택합니다.
+1. **[!UICONTROL Cloud Services]** 탭에서 **[!UICONTROL Adobe Campaign]**&#x200B;을 **[!UICONTROL Cloud service configuration]**&#x200B;로 선택하고 두 번째 드롭다운에서 Adobe Campaign 인스턴스를 선택합니다.
 
    ![](assets/aem_uc_4.png)
 
-1. 구성 요소(예: Adobe Campaign의 개인화 필드)를 추가하여 이메일 컨텐츠를 편집할 수 있습니다.
-1. 이메일이 준비되면 **[!UICONTROL Page information]** 메뉴에 액세스하고 을 클릭합니다 **[!UICONTROL Start workflow]**.
+1. 구성 요소(예: Adobe Campaign의 개인화 필드)를 추가하여 이메일 컨텐츠를 편집합니다.
+1. 전자 메일이 준비되면 **[!UICONTROL Page information]** 메뉴에 액세스하고 **[!UICONTROL Start workflow]**&#x200B;을 클릭합니다.
 
    ![](assets/aem_uc_5.png)
 
-1. 첫 번째 드롭다운에서 워크플로우 모델 **[!UICONTROL Publish to Adobe Campaign]** 으로 선택하고 을 클릭합니다 **[!UICONTROL Start workflow]**.
+1. 첫 번째 드롭다운에서 워크플로우 모델로 **[!UICONTROL Publish to Adobe Campaign]**&#x200B;을 선택하고 **[!UICONTROL Start workflow]**&#x200B;을 클릭합니다.
 
    ![](assets/aem_uc_6.png)
 
-1. 그런 다음 이전 단계로 워크플로우를 **[!UICONTROL Approve for Campaign]** 시작합니다.
-1. 고지 사항이 페이지 상단에 표시됩니다. 을 클릭하여 검토 **[!UICONTROL Complete]** 를 확인하고 를 클릭합니다 **[!UICONTROL Ok]**.
+1. 그런 다음 이전 단계로 **[!UICONTROL Approve for Campaign]** 작업 과정을 시작합니다.
+1. 면책사항이 페이지 상단에 표시됩니다. **[!UICONTROL Complete]**&#x200B;을 클릭하여 검토를 확인하고 **[!UICONTROL Ok]**&#x200B;을 클릭합니다.
 
    ![](assets/aem_uc_7.png)
 
-1. 다시 **[!UICONTROL Complete]** 클릭하고 **[!UICONTROL Newsletter approval]** **[!UICONTROL Next Step]** 드롭다운에서 선택합니다.
+1. **[!UICONTROL Complete]**&#x200B;을 다시 클릭하고 **[!UICONTROL Next Step]** 드롭다운에서 **[!UICONTROL Newsletter approval]**&#x200B;을 선택합니다.
 
    ![](assets/aem_uc_8.png)
 
@@ -63,23 +63,23 @@ ht-degree: 1%
 
 **Adobe Campaign에서:**
 
-1. From the **[!UICONTROL Campaigns]** tab, click **[!UICONTROL Deliveries]** then **[!UICONTROL Create]**.
+1. **[!UICONTROL Campaigns]** 탭에서 **[!UICONTROL Deliveries]**, **[!UICONTROL Create]**&#x200B;를 차례로 클릭합니다.
 
    ![](assets/aem_uc_9.png)
 
-1. 드롭다운 **[!UICONTROL Delivery template]** 에서 템플릿을 **[!UICONTROL Email delivery with AEM content (mailAEMContent)]** 선택합니다.
+1. **[!UICONTROL Delivery template]** 드롭다운에서 **[!UICONTROL Email delivery with AEM content (mailAEMContent)]** 템플릿을 선택합니다.
 
    ![](assets/aem_uc_10.png)
 
-1. 게재에 **[!UICONTROL Label]** 를 추가하고 을 클릭합니다 **[!UICONTROL Continue]**.
+1. 배달에 **[!UICONTROL Label]**&#x200B;을(를) 추가하고 **[!UICONTROL Continue]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL Synchronize]** 버튼을 클릭합니다.
 
-   인터페이스에 이 단추가 표시되지 않으면 단추를 클릭하고 **[!UICONTROL Properties]** **[!UICONTROL Advanced]** 탭을 선택합니다. 필드 **[!UICONTROL Content editing mode]** 는 필드에 AEM 인스턴스 **[!UICONTROL AEM]** 와 함께 설정되어야 **[!UICONTROL AEM account]** 합니다.
+   인터페이스에 이 단추가 표시되지 않으면 **[!UICONTROL Properties]** 단추를 클릭하고 **[!UICONTROL Advanced]** 탭을 선택합니다. **[!UICONTROL Content editing mode]** 필드는 **[!UICONTROL AEM account]** 필드에 AEM 인스턴스와 함께 **[!UICONTROL AEM]**&#x200B;으로 설정해야 합니다.
 
    ![](assets/aem_uc_11.png)
 
-1. Adobe Experience Manager에서 이전에 만든 배달을 선택하고 을 클릭합니다 **[!UICONTROL Ok]**.
-1. AEM 배달이 변경되면 **[!UICONTROL Refresh content]** 단추를 클릭합니다.
+1. Adobe Experience Manager에서 이전에 만든 배달을 선택하고 **[!UICONTROL Ok]**&#x200B;을 클릭합니다.
+1. AEM 전달에 대한 일부 변경 사항이 있는 즉시 **[!UICONTROL Refresh content]** 단추를 클릭합니다.
 
    ![](assets/aem_uc_12.png)
 
