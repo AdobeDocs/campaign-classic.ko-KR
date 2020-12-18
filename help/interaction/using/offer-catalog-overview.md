@@ -23,8 +23,8 @@ ht-degree: 4%
 
 오퍼 관리는 Adobe Campaign의 폴더 트리를 통해 수행됩니다.
 
-오퍼를 만들기 전에 먼저 환경을 지정해야 합니다(환경 [개요](../../interaction/using/environments-overview.md)참조). 카테고리로 정렬된 오퍼 세트의 모든 특성(자격 조건, 대상에 대한 제한, 프레젠테이션 규칙)과 해당 공간 목록이 포함됩니다.
+오퍼를 만들기 전에 먼저 환경을 지정해야 합니다([환경 개요](../../interaction/using/environments-overview.md) 참조). 카테고리로 정렬된 오퍼 세트의 모든 특성(자격 조건, 대상에 대한 제한, 프레젠테이션 규칙)과 해당 공간 목록이 포함됩니다.
 
 >[!IMPORTANT]
 >
->오퍼 카탈로그(예: 카테고리 및 오퍼)를 만드는 것은 해당 업체의 책임입니다 **[!UICONTROL Offer manager]**.
+>오퍼 카탈로그(카테고리 및 오퍼)는 **[!UICONTROL Offer manager]**&#x200B;의 책임입니다.
