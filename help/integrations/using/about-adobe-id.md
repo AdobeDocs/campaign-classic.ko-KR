@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 캠페인에서 Adobe ID 사용
+title: Campaign에서 Adobe ID 사용
 description: Adobe IMS 통합에 대한 자세한 내용
 audience: integrations
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 31%
 ---
 
 
-# About Adobe ID{#about-adobe-id}
+# Adobe ID 정보{#about-adobe-id}
 
 캠페인 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결할 수 있습니다. 이 통합은 다음과 같은 이점을 제공합니다.
 
@@ -24,11 +24,11 @@ ht-degree: 31%
 * 보안 암호 관리 정책.
 * 페더레이션 ID 계정 사용(외부 ID 공급자).
 
-Adobe Identity Management 시스템(IMS)을 사용하면 관리자가 애플리케이션 및 서비스에 대한 사용자의 액세스를 만들고 관리할 수 있습니다. 다양한 유형의 Adobe ID에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/enterprise/using/identity.html).
+IMS(Adobe Identity Management System)를 사용하여 관리자는 애플리케이션 및 서비스에 대한 사용자의 액세스를 만들고 관리할 수 있습니다. 서로 다른 유형의 Adobe ID에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/enterprise/using/identity.html)를 참조하십시오.
 
 >[!IMPORTANT]
 >
->Adobe IMS 구현은 Adobe 기술 관리자에게 엄격하게 지정되어 있습니다. 구현 프로세스를 시작하려면 Adobe 관리자에게 문의하십시오.
+>Adobe IMS 구현은 Adobe 기술 관리자에게 엄격하게 보관됩니다. 구현 프로세스를 시작하려면 Adobe 담당자에게 문의하십시오.
 
 ## 관련 항목
 
