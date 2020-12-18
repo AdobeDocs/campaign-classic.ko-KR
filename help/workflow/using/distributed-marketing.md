@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # 분산 마케팅{#distributed-marketing}
 
-아래에 자세히 설명된 워크플로우는 기본적으로 **분산 마케팅** 모듈과 함께 설치됩니다. For more on this module, refer to this [section](../../campaign/using/about-distributed-marketing.md).
+아래에 자세히 설명된 워크플로우는 기본적으로 **분산 마케팅** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../campaign/using/about-distributed-marketing.md)을 참조하십시오.
 
 <table> 
  <tbody> 
@@ -27,9 +27,9 @@ ht-degree: 8%
    <td> <strong>설명</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">분산 마케팅 프로세스</span> <br /> </td> 
+   <td> <span class="uicontrol">분산된 마케팅 프로세스</span> <br /> </td> 
    <td> <span class="uicontrol">centralLocalMgt</span> <br /> </td> 
-   <td> 이 워크플로우는 분산 마케팅 모듈 사용과 관련된 처리를 시작합니다. 로컬 캠페인 만들기를 실행하고 주문 및 캠페인 패키지 가용성 관련 알림을 관리합니다.<br /> </td> 
+   <td> 이 워크플로우는 분산 마케팅 모듈 사용과 관련된 처리를 시작합니다. 로컬 캠페인 만들기를 실행하고 주문 및 캠페인 패키지 가용성과 관련된 알림을 관리합니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
