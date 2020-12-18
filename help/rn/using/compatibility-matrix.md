@@ -6,9 +6,9 @@ description: Campaign Classic 호환성 매트릭스
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ff3d18b104a8dba7cd813aa698f9c27b4e25e244
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 100%
 
@@ -154,7 +154,7 @@ Gold Standard 사용자인 경우 [Gold Standard 호환성 매트릭스](../../r
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016년</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p>경고: Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">자세히 알아보기</a></p>
@@ -233,10 +233,10 @@ Gold Standard 사용자인 경우 [Gold Standard 호환성 매트릭스](../../r
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
+<p>2019년</p>
+<p>2017년</p>
+<p>2016년</p>
+<p>2014년</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 </tr>
@@ -294,8 +294,8 @@ Gold Standard 사용자인 경우 [Gold Standard 호환성 매트릭스](../../r
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2016</p>
-<p>2012</p>
+<p>2016년</p>
+<p>2012년</p>
 </td>
 </tr>
 <tr>
@@ -323,7 +323,7 @@ Gold Standard 사용자인 경우 [Gold Standard 호환성 매트릭스](../../r
 <td>iOS</td>
 <td>
 <p>iOS 9 - 14</p>
-<p>모바일 SDK 빌드 1.0.26과 함께 사용할 수 있으며 32비트 및64 비트 버전 호환됩니다.</p>
+<p>모바일 SDK 빌드 1.0.26과 함께 사용할 수 있으며 32비트 및 64비트 버전 호환됩니다.</p>
 </td>
 </tr>
 </tbody>
