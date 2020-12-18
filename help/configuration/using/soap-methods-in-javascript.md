@@ -21,7 +21,7 @@ Adobe Campaign 서버에서 실행되는 JavaScript입니다.
 
 ## 정적 메서드 {#static-methods}
 
-정적 SOAP 메서드는 스키마를 나타내는 개체에서 메서드를 호출하여 액세스합니다. 스키마는 &#39;namespace&#39; 개체의 속성입니다. 이러한 네임스페이스는 글로벌 변수이므로, 예: xtk 또는 nms 변수는 해당 네임스페이스를 나타냅니다
+정적 SOAP 메서드는 스키마를 나타내는 개체에서 메서드를 호출하여 액세스합니다. 스키마는 &#39;namespace&#39; 객체의 속성입니다. 이러한 네임스페이스는 전역 변수이므로, 예를 들어 xtk 또는 nms 변수는 해당 네임스페이스를 나타냅니다
 
 다음 예제에서는 xtk:workflow 스키마의 정적 PostEvent 메서드를 호출합니다.
 
@@ -52,7 +52,7 @@ for each (var w in res.workflow)
 
 ## 예제 {#examples}
 
-* 받는 사람 테이블에 대해 &quot;get&quot; 작업을 쿼리합니다.
+* 받는 사람 테이블에서 &quot;get&quot; 작업을 쿼리합니다.
 
    ```
    var query = xtk.queryDef.create(  
@@ -73,7 +73,7 @@ for each (var w in res.workflow)
    logInfo(recipient.@lastName)
    ```
 
-* 받는 사람 테이블에 대해 &quot;선택&quot; 작업을 쿼리합니다.
+* &quot;선택&quot; 작업이 있는 받는 사람 테이블에서 쿼리:
 
    ```
    var query = xtk.queryDef.create(  
