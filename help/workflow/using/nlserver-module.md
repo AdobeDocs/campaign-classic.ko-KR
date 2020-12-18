@@ -17,7 +17,7 @@ ht-degree: 27%
 
 # Nlserver 모듈{#nlserver-module}
 
-서버 모듈 **** 활동은 중앙 창에 지정된 매개 변수를 사용하여 클라이언트 모듈을 실행합니다.
+**nlserver 모듈** 활동은 중앙 창에 지정된 매개 변수를 사용하여 nlserver 모듈을 시작합니다.
 
 ![](assets/nlserver_module_edit.png)
 
