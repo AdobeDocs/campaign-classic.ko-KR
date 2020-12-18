@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: 중복 수신자 필터링
-description: 복제된 받는 사람을 필터링하는 방법 살펴보기
+description: 중복 받는 사람을 필터링하는 방법 알아보기
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -22,20 +22,20 @@ ht-degree: 4%
 이 예제를 만들려면 다음 단계를 수행하십시오.
 
 1. 워크플로우에서 **[!UICONTROL Query]** 활동을 드래그하여 놓고 활동을 엽니다.
-1. 타겟 및 필터링 차원 **[!UICONTROL Edit query]** 을 클릭하고 설정합니다 **[!UICONTROL Recipients]**.
+1. **[!UICONTROL Edit query]**&#x200B;을 클릭하고 대상 및 필터링 차원을 **[!UICONTROL Recipients]**&#x200B;으로 설정합니다.
 
    ![](assets/query_recipients_1.png)
 
-1. 다음 필터 조건을 정의하여 배달 로그에 있는 수신자를 타깃팅합니다. 표현식 **열에서** 수신자 배달 로그(브로드로그) **를** 선택하고 OperatorTownl 열과 같이 **** 존재함을 **** 선택합니다.
+1. 다음 필터 조건을 정의하여 배달 로그에 있는 수신자를 타깃팅합니다. **표현식** 열에서 **수신자 배달 로그(브로드로그)**&#x200B;을 선택하고 **연산자** 열에 **와 같이**&#x200B;가 있는지 선택합니다.
 
    ![](assets/query_recipients_2.png)
 
-1. 다음 필터 조건을 정의하여 배달을 타게팅합니다. 표현식 열 **[!UICONTROL Internal name]** 과 연산자 열에서 **[!UICONTROL equal to]** 선택합니다.
+1. 다음 필터 조건을 정의하여 배달을 타게팅합니다. 표현식 열에서 **[!UICONTROL Internal name]**&#x200B;을 선택하고 연산자 열에서 **[!UICONTROL equal to]**&#x200B;을 선택합니다.
 1. 값 열에서 타깃팅된 게재의 내부 이름을 추가합니다.
 
    ![](assets/query_recipients_3.png)
 
-1. 연산자가 있는 경우 동일한 작업을 반복하여 다른 배달을 타깃팅합니다. **[!UICONTROL AND]**
+1. **[!UICONTROL AND]** 연산자가 있는 경우 동일한 작업을 반복하여 다른 배달을 타깃팅합니다.
 
    ![](assets/query_recipients_4.png)
 
