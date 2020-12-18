@@ -34,143 +34,143 @@ ht-degree: 3%
    배달 외곽선 지정에 대한 자세한 내용은 [캠페인 - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline) 안내서를 참조하십시오.
 
 1. 게재에 따라 사용 가능한 필드를 완료합니다.
-1. 두 가지 가능한 경우가 있습니다.
+1. 다음과 같은 두 가지 경우가 있습니다.
 
-   * 오퍼 엔진에 전화를 걸려면 **[!UICONTROL Restrict the number of propositions selected]** 상자를 선택하십시오. 전달에 제공할 오퍼 공간과 제안 수를 지정합니다.
+   * 오퍼 엔진을 호출하려면 **[!UICONTROL Restrict the number of propositions selected]** 상자를 선택합니다. 전달에 제공할 오퍼 공간과 제안 수를 지정합니다.
 
       오퍼 가중치와 자격 조건 규칙은 오퍼 엔진에서 고려됩니다.
 
-   * 이 상자를 선택하지 않으면 배달 아웃라인에 있는 모든 오퍼가 오퍼 엔진으로 호출하지 않고 표시됩니다.
+   * 이 상자를 선택하지 않으면 오퍼 엔진을 호출하지 않고 배달 아웃라인의 모든 오퍼가 표시됩니다.
    >[!NOTE]
    >
-   >미리 보기는 배달에 지정된 오퍼 수를 고려합니다. 워크플로우를 실행할 때 고려되는 배달 아웃라인에 지정된 번호입니다.
+   >미리 보기는 배달에 지정된 오퍼 수를 고려합니다. Workflow를 실행할 때 고려되는 배달 아웃라인에 지정된 번호입니다.
 
    ![](assets/int_compo_offre_wf1.png)
 
 ## 데이터 보강 {#enrichment}
 
-데이터 연계 강화 활동을 통해 전달 받는 사람을 위한 오퍼나 링크를 추가할 수 있습니다.
+데이터 연계 강화 활동을 통해 전달 받는 사람에게 제공할 제안이나 링크를 추가할 수 있습니다.
 
 >[!NOTE]
 >
->농축 활동에 대한 자세한 내용은 워크플로우 안내서의 전용 [설명서를 참조하십시오](../../workflow/using/enrichment.md).
+>농축 활동에 대한 자세한 내용은 [워크플로우 가이드](../../workflow/using/enrichment.md)에서 전용 설명서를 참조하십시오.
 
-예를 들어 배달 전에 수신자 쿼리에 대한 데이터를 강화할 수 있습니다.
+예를 들어 배달하기 전에 수신자 쿼리에 대한 데이터를 보강할 수 있습니다.
 
 ![](assets/int_enrichment_offer1.png)
 
 오퍼 제안을 지정하는 방법에는 두 가지가 있습니다.
 
-* 오퍼 또는 오퍼 엔진 호출 지정.
-* 오퍼에 대한 링크 참조
+* 오퍼 또는 오퍼 엔진 호출 지정
+* 오퍼에 대한 링크 참조.
 
-### 오퍼 엔진에 대한 오퍼 또는 호출 지정 {#specifying-an-offer-or-a-call-to-the-offer-engine}
+### 오퍼 엔진 {#specifying-an-offer-or-a-call-to-the-offer-engine} 호출 지정
 
-쿼리를 구성한 후(워크플로우 [가이드 참조](../../workflow/using/query.md)):
+쿼리를 구성한 후([워크플로우 가이드](../../workflow/using/query.md) 참조):
 
-1. 농축활동 추가 및 열기
+1. 농축 활동을 추가하고 엽니다.
 1. **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;를 선택합니다.
-1. 추가할 데이터 유형 **[!UICONTROL An offer proposition]** 에서 선택합니다.
+1. 추가할 데이터 유형에서 **[!UICONTROL An offer proposition]**&#x200B;을 선택합니다.
 
    ![](assets/int_enrichment_offer2.png)
 
 1. 추가할 제안에 대한 레이블과 식별자를 지정합니다.
 1. 오퍼 선택을 지정합니다. 다음과 같은 두 가지 옵션을 사용할 수 있습니다.
 
-   * **[!UICONTROL Search for the best offer in a category]** :이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마, 연락처 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. 동시에 둘 다 아닌 **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드를 완료하는 것이 좋습니다.
+   * **[!UICONTROL Search for the best offer in a category]** :이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마, 연락처 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. 두 필드를 동시에 수료하지 않고 **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드를 완료하는 것이 좋습니다.
 
       ![](assets/int_enrichment_offer3.png)
 
-   * **[!UICONTROL A predefined offer]** :이 옵션을 선택하고 오퍼 엔진을 호출하지 않고 추가할 오퍼를 직접 구성하려면 오퍼 공간, 특정 오퍼 및 연락처 날짜를 지정합니다.
+   * **[!UICONTROL A predefined offer]** :이 옵션을 선택하고 오퍼 엔진을 호출하지 않고 추가할 오퍼를 직접 구성할 오퍼 공간, 특정 오퍼 및 연락처 날짜를 지정합니다.
 
       ![](assets/int_enrichment_offer4.png)
 
-1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다. 자세한 내용은 제안 [제안 삽입 섹션을](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) 참조하십시오.
+1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다. 이에 대한 자세한 내용은 [전달](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) 섹션에 오퍼 제안 삽입 섹션을 참조하십시오.
 
    >[!NOTE]
    >
-   >미리 보기에 사용할 수 있는 제안의 수는 전달에서 직접 수행되는 가능한 구성이 아니라 농축활동에서 수행된 구성에 따라 다릅니다.
+   >미리 보기에 사용할 수 있는 제안의 수는 전달에서 직접 수행되는 가능한 구성이 아니라 농축 활동에서 수행되는 구성에 따라 다릅니다.
 
-### 오퍼에 대한 링크 참조 {#referencing-a-link-to-an-offer}
+### 오퍼 {#referencing-a-link-to-an-offer} 링크 참조
 
 또한 농축활동의 오퍼에 대한 링크를 참조할 수 있습니다.
 
 이렇게 하려면 다음 프로세스를 사용하십시오.
 
-1. 활동 탭 **[!UICONTROL Add data]** 에서 **[!UICONTROL Enrichment]** 선택합니다.
-1. 추가할 데이터 유형을 선택하는 창에서 선택합니다 **[!UICONTROL A link]**.
+1. 활동의 **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;을 선택합니다.
+1. 추가할 데이터 유형을 선택하는 창에서 **[!UICONTROL A link]**&#x200B;을 선택합니다.
 1. 설정하려는 링크 유형과 대상을 선택합니다. 이 경우 대상은 오퍼 스키마입니다.
 
    ![](assets/int_enrichment_link1.png)
 
-1. 농축활동의 인바운드 테이블 데이터(수신자 테이블)와 오퍼 테이블 간의 조인을 지정합니다. 예를 들어, 오퍼 코드를 수신자에게 연결할 수 있습니다.
+1. 농축활동의 인바운드 테이블 데이터(수신자 테이블)와 오퍼 테이블 간의 연결을 지정합니다. 예를 들어 오퍼 코드를 수신자에게 연결할 수 있습니다.
 
    ![](assets/int_enrichment_link2.png)
 
-1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다. 자세한 내용은 제안 [제안 삽입 섹션을](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) 참조하십시오.
+1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다. 이에 대한 자세한 내용은 [전달](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) 섹션에 오퍼 제안 삽입 섹션을 참조하십시오.
 
    >[!NOTE]
    >
-   >미리 보기에 사용할 수 있는 제안 수는 전달에서 수행된 구성에 따라 달라집니다.
+   >미리 보기에 사용할 수 있는 제안 수는 전달에서 수행한 구성에 따라 다릅니다.
 
-### 오퍼 순위 및 가중치 저장 {#storing-offer-rankings-and-weights}
+### 오퍼 등급 및 가중치를 저장하는 중 {#storing-offer-rankings-and-weights}
 
-기본적으로 **데이터** 연계 강화 활동을 사용하여 제안을 제공할 경우 순위 및 가중치는 제안 표에 저장되지 않습니다.
+기본적으로 **enrichment** 활동이 오퍼를 제공하는 데 사용될 경우 순위 및 가중치는 제안 표에 저장되지 않습니다.
 
 >[!NOTE]
 >
->기억하십시오.기본적으로 **[!UICONTROL Offer engine]** 활동에는 이 정보가 저장됩니다.
+>기억:**[!UICONTROL Offer engine]** 활동은 기본적으로 이 정보를 저장합니다.
 
 그러나 다음과 같이 이 정보를 저장할 수 있습니다.
 
-1. 쿼리 후에 전달 활동 전에 배치된 농축활동 중에서 오퍼 엔진에 대한 호출을 만듭니다. 오퍼 [지정 또는 오퍼 엔진](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine) 호출 섹션을 참조하십시오.
-1. 활동의 기본 창에서 을 선택합니다 **[!UICONTROL Edit additional data...]**.
+1. 쿼리 후와 배달 활동 전에 제출한 데이터 연계 강화 활동에서 오퍼 엔진에 대한 호출을 만듭니다. [오퍼 지정 또는 오퍼 엔진 호출](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine) 섹션을 참조하십시오.
+1. 활동의 기본 창에서 **[!UICONTROL Edit additional data...]**&#x200B;을 선택합니다.
 
    ![](assets/ita_enrichment_rankweight_1.png)
 
-1. 등급 및 오퍼 가중치에 대한 열 **[!UICONTROL @rank]** **[!UICONTROL @weight]** 을 추가합니다.
+1. 등급 및 오퍼 가중치에 대해 **[!UICONTROL @rank]** 열을 추가하고 **[!UICONTROL @weight]** 값을 추가합니다.
 
    ![](assets/ita_enrichment_rankweight_2.png)
 
 1. 추가를 확인하고 워크플로우를 저장합니다.
 
-게시는 오퍼의 등급과 중량을 자동으로 저장합니다. 이 정보는 전달의 **[!UICONTROL Offers]** 탭에 표시됩니다.
+배달은 오퍼의 등급과 중량을 자동으로 저장합니다. 이 정보는 전달의 **[!UICONTROL Offers]** 탭에 표시됩니다.
 
 ## 오퍼 엔진 {#offer-engine}
 
-또한 **[!UICONTROL Offer engine]** 이 활동을 통해 배달 전에 오퍼 엔진에 대한 호출을 지정할 수 있습니다.
+또한 **[!UICONTROL Offer engine]** 활동을 사용하면 배달 전에 오퍼 엔진에 대한 호출을 지정할 수 있습니다.
 
-이러한 활동은 게재 전에 엔진에서 계산된 오퍼로 인바운드 모집단 데이터를 증가시켜 엔진 호출을 통한 농축활동과 동일한 원리로 작동합니다.
+이러한 활동은 전달 전에 엔진에서 계산된 오퍼로 인바운드 모집단 데이터를 증가시켜 엔진 호출을 통한 농축 활동과 동일한 원리로 작동합니다.
 
 ![](assets/int_offerengine_activity2.png)
 
-쿼리를 구성한 후(워크플로우 [가이드 참조](../../workflow/using/query.md)):
+쿼리를 구성한 후([워크플로우 가이드](../../workflow/using/query.md) 참조):
 
-1. 활동을 추가하고 **[!UICONTROL Offer engine]** 엽니다.
-1. 다양한 사용 가능한 필드를 작성하여 오퍼 엔진 매개 변수(오퍼 공간, 카테고리 또는 테마, 연락처 날짜, 보관할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다.
+1. **[!UICONTROL Offer engine]** 활동을 추가하고 엽니다.
+1. 다양한 사용 가능한 필드를 작성하여 오퍼 엔진 매개 변수(오퍼 공간, 카테고리 또는 테마, 연락처 날짜, 유지할 오퍼 수)에 대한 호출을 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다.
 
    >[!NOTE]
    >
-   >경고:이 활동을 사용하는 경우 게재에 사용된 오퍼 옵션만 저장됩니다.
+   >경고:이 활동을 사용하는 경우 게재에 사용된 오퍼 제안만 저장됩니다.
 
    ![](assets/int_offerengine_activity1.png)
 
-1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다. 자세한 내용은 제안 [제안 삽입 섹션을](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) 참조하십시오.
+1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다. 이에 대한 자세한 내용은 [전달](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) 섹션에 오퍼 제안 삽입 섹션을 참조하십시오.
 
 ## 셀별 오퍼 {#offers-by-cell}
 
-이 **[!UICONTROL Offers by cell]** 활동을 통해 인바운드 모집단(예: 질의)을 여러 세그먼트로 배포하고 이러한 각 세그먼트에 대해 표시할 오퍼를 지정할 수 있습니다.
+**[!UICONTROL Offers by cell]** 활동을 사용하면 질의 예제의 인바운드 모집단(예: 쿼리)을 여러 세그먼트로 배포하고 이러한 각 세그먼트에 제공할 오퍼를 지정할 수 있습니다.
 
 이렇게 하려면 다음 프로세스를 사용하십시오.
 
 1. 타겟 모집단을 지정한 후 **[!UICONTROL Offers by cell]** 활동을 추가한 다음 엽니다.
-1. 탭에서 오퍼를 표시할 오퍼 공간을 **[!UICONTROL General]** 선택합니다.
-1. 탭에서 **[!UICONTROL Cells]** 단추를 사용하여 다른 하위 세트를 **[!UICONTROL Add]** 지정합니다.
+1. **[!UICONTROL General]** 탭에서 오퍼를 표시할 오퍼 공간을 선택합니다.
+1. **[!UICONTROL Cells]** 탭에서 **[!UICONTROL Add]** 단추를 사용하여 다른 하위 세트를 지정합니다.
 
-   * 사용 가능한 필터링 및 제한 규칙을 사용하여 하위 집합 인구를 지정합니다.
+   * 사용 가능한 필터링 및 제한 규칙을 사용하여 하위 집합 채우기를 지정합니다.
    * 그런 다음 하위 세트에 표시할 오퍼를 선택합니다. 사용 가능한 오퍼는 이전 단계에서 선택한 오퍼 환경에서 사용할 수 있는 오퍼입니다.
 
       ![](assets/int_offer_per_cell1.png)
 
-1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다. 자세한 내용은 제안 [제안 삽입 섹션을](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) 참조하십시오.
+1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다. 이에 대한 자세한 내용은 [전달](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) 섹션에 오퍼 제안 삽입 섹션을 참조하십시오.
 
