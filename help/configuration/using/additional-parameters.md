@@ -19,12 +19,12 @@ ht-degree: 1%
 
 ## 매개 변수 정의 {#definition-of-parameters}
 
-Adobe Campaign 플랫폼은 표준으로 두 개의 TRANSACTION-type 웹 추적 매개 변수를 제공합니다.
+Adobe Campaign 플랫폼은 표준으로 2개의 TRANSACTION 형식 웹 추적 매개 변수를 제공합니다.
 
 * **금액**:트랜잭션 금액을 나타냅니다.
 * **아티클**:트랜잭션의 항목 수를 나타냅니다.
 
-이러한 매개 변수는 **nms:webTrackingLog** 스키마에서 정의되며, 보고에 표시되는 지표 중 일부입니다.
+이러한 매개 변수는 **nms:webTrackingLog** 스키마에 정의되며 보고에 표시되는 표시기 중 일부입니다.
 
 추가 매개 변수를 정의하려면 이 스키마를 확장해야 합니다.
 
@@ -46,19 +46,19 @@ Adobe Campaign 플랫폼은 표준으로 두 개의 TRANSACTION-type 웹 추적 
 
 ## 리디렉션 서버 구성 {#redirection-server-configuration}
 
-서버 구성에서 웹 추적 매개 변수에 사용할 최대 문자 수를 정의할 수 있습니다.
+서버 구성에서 웹 추적 매개 변수를 고려하여 사용할 최대 문자 수를 정의할 수 있습니다.
 
 >[!IMPORTANT]
 >
->고려해야 할 최대 문자 수를 늘리면 플랫폼의 웹 추적 성능에 영향을 줄 수 있습니다.
+>고려할 최대 문자 수를 늘리면 플랫폼의 웹 추적 성능에 영향을 줄 수 있습니다.
 
-이렇게 하려면 serverConf.xml **파일** 에 있는 **`<trackinglogd>`** 요소의 webTrackingParamSize **속성을** 수정합니다. 이 파일은 Adobe Campaign 설치 디렉토리의 **conf** 하위 디렉토리에 저장됩니다.
+이렇게 하려면 **serverConf.xml** 파일에서 **`<trackinglogd>`** 요소의 **webTrackingParamSize** 특성을 수정합니다. 이 파일은 Adobe Campaign 설치 디렉토리의 **conf** 하위 디렉토리에 저장됩니다.
 
 **예제**:
 
-기본값은 64자입니다. 이 값을 사용하면 **금액** 및 **아티클** (&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&quot;) 표준 매개 변수를 고려할 수 있습니다.
+기본값은 64자입니다. 이 값을 사용하면 **amount** 및 **article**(&quot;amount=xxxxxx&amp;article=xxxxxxxx&quot;) 표준 매개 변수를 고려할 수 있습니다.
 
-위의 확장 스키마 예제에 표시된 두 매개 변수(이름 + 값 크기)를 고려하여 구성을 수정하여 100자를 고려합니다(&quot;amount=xxxxxx&amp;article=xxxxxxxxxxxx&amp;mode=xxxxxxxxxxxx&amp;code=xxxxx&quot;).
+위의 확장 스키마 예제에 표시된 매개 변수(이름 + 값 크기)를 모두 고려하여 100자를 고려하여 구성을 수정하여 계정에 포함할 수 있습니다(&quot;amount=xxxxxxxx&amp;article=xxxxxxxxxxxx&amp;mode=xxxxxxxxxx&amp;code=xxxxx&quot;).
 
 ```
 <trackinglogd args="" autoStart="false" initScript="" maxCreateFileRetry="5" maxLogsSizeOnDiskMb="500"
@@ -69,19 +69,19 @@ webTrackingParamSize="64"/>
 
 구성이 수정되면 다음을 수행해야 합니다.
 
-* 리디렉션 모듈(Apache, IIS 등)을 호스팅하는 웹 서버를 중지합니다.
-* Adobe Campaign 서버를 중지합니다. **net stop nlserver6** in Windows, **/etc/init.d/nlserver6 stop** , Linux
+* 리디렉션 모듈(Apache, IIS 등)을 호스트하는 웹 서버를 중지합니다.
+* Adobe Campaign 서버를 중지합니다.Windows의 **net stop nlserver6**, Linux의 **/etc/init.d/nlserver6 stop**,
 
    >[!NOTE]
    >
-   >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systectl stop nlserver**
+   >20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우).**systemctl stop nlserver**
 
-* Linux에서 ipcrm 명령을 사용하여 공유 메모리 **세그먼트를** 삭제합니다.
-* Adobe Campaign 서버를 다시 시작합니다. **net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux,
+* Linux에서 **ipcrm** 명령을 사용하여 공유 메모리 세그먼트를 삭제합니다.
+* Adobe Campaign 서버를 다시 시작합니다.Windows의 **net start nlserver6**, Linux의 **/etc/init.d/nlserver6 start**
 
    >[!NOTE]
    >
-   >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systectl start nlserver**
+   >20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우).**systemctl 시작 nlserver**
 
 * 웹 서버를 다시 시작합니다.
 
