@@ -19,9 +19,9 @@ ht-degree: 15%
 
 **[!UICONTROL Jump]** -type 그래픽 개체는 교차 전환이 있는 복잡한 다이어그램의 가독성을 향상시키는 데 사용됩니다.
 
-점프는 화살표 없이도 전환 효과가 있습니다.
+점프는 화살표 없이 전환됩니다.
 
-다음 예와 같이 특정 활동에서 다른 활동으로 이동합니다.
+다음 예와 같이 한 활동에서 다른 활동으로 이동합니다.
 
 ![](assets/s_user_segmentation_jump_sample.png)
 
@@ -31,4 +31,4 @@ ht-degree: 15%
 
 ![](assets/s_user_segmentation_jump_in.png)
 
-다이어그램의 가독성 향상을 위해 점프와 연결된 이미지를 변경하여 관련 숫자를 표시할 수 있습니다. See [Managing activity images](../../workflow/using/managing-activity-images.md).
+다이어그램의 가독성을 높이기 위해 이동 관련 이미지를 변경하여 관련 번호를 표시할 수 있습니다. [활동 이미지 관리](../../workflow/using/managing-activity-images.md)를 참조하십시오.
