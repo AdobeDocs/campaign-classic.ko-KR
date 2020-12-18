@@ -19,4 +19,4 @@ ht-degree: 11%
 
 특정 컴퓨터에서 워크플로우 또는 워크플로우 활동을 강제로 실행하도록 선택할 수 있습니다. 이를 수행하려면 워크플로우 또는 관련 활동 수준에서 하나 이상의 속성을 정의해야 합니다.
 
-고가용성 워크플로우 구성은 이 [섹션에 자세히 설명되어 있습니다](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
+고가용성 워크플로우 구성은 이 [섹션](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities)에 자세히 설명되어 있습니다.
