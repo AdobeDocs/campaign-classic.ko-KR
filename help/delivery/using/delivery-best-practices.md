@@ -30,7 +30,7 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
     </a>
     </div>
     <p>
-    <em>전송 프로세스 보안 및 최적화</em>
+    <em>전송 프로세스의 보안 및 최적화</em>
     <p>
   </td>
    <td>
@@ -71,7 +71,7 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
     </a>
     </div>
     <p>
-    <em>타깃팅된 모집단</em>
+    <em>타깃팅된 채우기가 핵심입니다.</em>
     <p>
   </td>
    <td>
@@ -103,10 +103,10 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
 </tr>
 </table>
 
-다음을 참조하십시오.
+참조 항목:
 
 * [전달 가능성 시작하기](../../delivery/using/about-deliverability.md)
 
-* [배달 생성 단계](../../delivery/using/steps-about-delivery-creation-steps.md)
+* [배달 만들기 단계](../../delivery/using/steps-about-delivery-creation-steps.md)
 
 * [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html)
