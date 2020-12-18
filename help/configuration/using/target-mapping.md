@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: 대상 매핑
-description: 대상 매핑을 만드는 방법 학습
+description: 대상 매핑을 만드는 방법 알아보기
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
@@ -19,22 +19,22 @@ ht-degree: 1%
 
 다음 두 가지 경우 대상 매핑 만들기가 필요합니다.
 
-* adobe campaign에서 제공한 수신자 테이블 이외의 수신자 테이블을 사용하는 경우
+* adobe campaign에서 제공하는 수신자 테이블 이외의 수신자 테이블을 사용하는 경우,
 * 대상 매핑 화면의 표준 타깃팅 차원과 다른 필터링 차원을 구성하는 경우
 
 대상 매핑 생성 마법사를 사용하면 사용자 지정 테이블을 사용하는 데 필요한 모든 스키마를 만들 수 있습니다.
 
-## 사용자 정의 테이블에 연결된 스키마 만들기 및 구성 {#creating-and-configuring-schemas-linked-to-the-custom-table}
+## 사용자 지정 테이블 {#creating-and-configuring-schemas-linked-to-the-custom-table}에 연결된 스키마 만들기 및 구성
 
-대상 매핑을 만들기 전에 Adobe Campaign이 새 수신자 데이터 스키마로 작동하려면 여러 구성이 필요합니다.
+대상 매핑을 만들기 전에 Adobe Campaign이 새 수신자 데이터 스키마로 작동하려면 몇 가지 구성이 필요합니다.
 
 이렇게 하려면 다음 단계를 적용합니다.
 
 1. 사용할 사용자 지정 테이블의 필드를 통합하는 새 데이터 스키마를 만듭니다.
 
-   자세한 내용은 스키마 [참조(xtk:srcSchema)를 참조하십시오](../../configuration/using/about-schema-reference.md).
+   자세한 내용은 [스키마 참조(xtk:srcSchema)](../../configuration/using/about-schema-reference.md)를 참조하십시오.
 
-   이 예에서는 다음 필드를 포함하는 매우 간단한 테이블인 고객 스키마를 만들 것입니다.ID, 이름, 성, 이메일 주소, 휴대폰 번호. 그 목적은 이 표에 저장된 개인들에게 이메일이나 문자 메시지를 보낼 수 있는 것이다.
+   이 예에서는 다음 필드를 포함하는 매우 간단한 테이블인 고객 스키마를 만듭니다.ID, 이름, 성, 이메일 주소, 휴대폰 번호. 이 목표는 이 표에 저장된 개인들에게 이메일이나 SMS 경고를 보낼 수 있는 것입니다.
 
    스키마 예(cus:individual)
 
@@ -53,7 +53,7 @@ ht-degree: 1%
    </srcSchema>
    ```
 
-1. =&quot;true&quot; 속성을 사용하여 스키마를 외부 보기로 선언합니다. 보기 속성 [을 참조하십시오](../../configuration/using/schema-characteristics.md#the-view-attribute).
+1. = &quot;true&quot; 특성을 사용하여 스키마를 외부 보기로 선언합니다. [보기 특성](../../configuration/using/schema-characteristics.md#the-view-attribute)을 참조하십시오.
 
    ```
     <srcSchema desc="External recipient table" namespace="cus" view="true"....>
@@ -82,35 +82,35 @@ ht-degree: 1%
       </element>
    ```
 
-1. 노드를 **[!UICONTROL Administration > Campaign management > Target mappings]** 클릭합니다.
-1. 새로 **만들기** 단추를 클릭하여 대상 매핑 생성 마법사를 엽니다.
-1. 레이블 **필드를** 입력하고 타깃팅 차원 **필드에서 방금 생성한** 스키마를 선택합니다.
+1. **[!UICONTROL Administration > Campaign management > Target mappings]** 노드를 클릭합니다.
+1. **새로 만들기** 단추를 클릭하여 대상 매핑 만들기 마법사를 엽니다.
+1. **레이블** 필드를 입력하고 **타깃팅 차원** 필드에서 방금 만든 스키마를 선택합니다.
 
    ![](assets/mapping_diffusion_wizard_1.png)
 
-1. 주소 양식 **편집** 창에서 다양한 배달 주소와 일치하는 스키마 필드를 선택합니다. 여기에서 **@email** 및 **@mobile** 필드를 매핑할 수 있습니다.
+1. **주소 양식 편집** 창에서 다양한 배달 주소와 일치하는 스키마 필드를 선택합니다. 여기에서 **@email** 및 **@mobile** 필드를 매핑할 수 있습니다.
 
    ![](assets/mapping_diffusion_wizard_2.png)
 
-1. 다음 **스토리지** 창에서 확장 스키마 **접미어** 필드를 입력하여 새 스키마와 Adobe Campaign에서 제공하는 기본 스키마로 구별합니다.
+1. 다음 **스토리지** 창에서 확장 스키마&#x200B;**접미어 필드를 입력하여 Adobe Campaign에서 제공하는 기본 스키마 대신 새 스키마를 차별화합니다.**
 
-   게재에서 타깃팅할 차원 **[!UICONTROL Define new additional fields]** 을 클릭하여 선택합니다.
+   **[!UICONTROL Define new additional fields]**&#x200B;을 클릭하여 게재에서 타깃팅할 차원을 선택합니다.
 
-   기본적으로 제외 관리는 메시지와 동일한 테이블에 저장됩니다. 대상 **매핑에 연결된 추적에 대한 저장소를 구성하려면 추적할** 저장소 스키마 생성 상자를 선택합니다.
+   기본적으로 제외 관리는 메시지와 동일한 테이블에 저장됩니다. 대상 매핑에 연결된 추적에 대한 저장소를 구성하려면 **추적** 저장소 스키마 생성 상자를 선택합니다.
 
    ![](assets/mapping_diffusion_wizard_3.png)
 
    >[!IMPORTANT]
    >
-   >Adobe Campaign은 여러 받는 사람 스키마를 지원하지 않습니다. 타깃팅 스키마로 알고, 동일한 브로드로그 및/또는 trackinglog 스키마에 연결되어 있습니다. 그렇지 않으면 이후 데이터 조정에서 예외 항목이 발생할 수 있습니다. 자세한 내용은 권장 사항 및 제한 [사항](../../configuration/using/about-custom-recipient-table.md) 페이지를 참조하십시오.
+   >Adobe Campaign은 여러 받는 사람 스키마를 지원하지 않습니다. 타깃팅 스키마로 알고, 동일한 브로드로그 및/또는 trackinglog 스키마에 연결되어 있습니다. 그렇지 않으면 이후 데이터 조정에서 예외 항목이 발생할 수 있습니다. 자세한 내용은 [권장 사항 및 제한 사항](../../configuration/using/about-custom-recipient-table.md) 페이지를 참조하십시오.
 
-1. [ **확장** ] 창에서 생성하려는 선택적 스키마를 선택합니다(사용 가능한 스키마 목록은 Adobe Campaign 플랫폼에 설치된 모듈에 따라 다름).
+1. **확장** 창에서 생성하려는 선택적 스키마를 선택합니다(사용 가능한 스키마 목록은 Adobe Campaign 플랫폼에 설치된 모듈에 따라 다름).
 
    ![](assets/mapping_diffusion_wizard_4.png)
 
-1. 저장 **단추를** 클릭하여 마법사를 닫습니다.
+1. **저장** 단추를 클릭하여 마법사를 닫습니다.
 
-   마법사는 시작 스키마를 사용하여 새 대상 매핑을 수행하는 데 필요한 다른 모든 스키마를 생성합니다.
+   마법사는 시작 스키마를 사용하여 새 대상 매핑을 작동하는 데 필요한 다른 모든 스키마를 생성합니다.
 
    ![](assets/mapping_schema_list.png)
 
@@ -119,10 +119,10 @@ ht-degree: 1%
 새 스키마를 배달 대상으로 사용하는 방법에는 두 가지가 있습니다.
 
 * 매핑을 기반으로 하나 이상의 배달 템플릿 만들기
-* 아래에서 보듯이, 배달을 만들 때 대상 선택 중에 직접 매핑을 선택합니다.
+* 아래 그림과 같이 배달을 만들 때 대상 선택 중에 직접 매핑을 선택합니다.
 
 ![](assets/mapping_selection_ciblage.png)
 
 **관련 항목**
 
-* [고객 요청에 신속하게 응답하여 데이터 액세스](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)
+* [고객의 요청에 신속하게 응답하여 데이터 액세스](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)
