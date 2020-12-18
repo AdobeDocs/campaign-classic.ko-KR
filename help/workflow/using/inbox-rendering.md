@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: 받은 편지함 렌더링 기술 워크플로우
-description: 이 섹션에서는 받은 편지함 렌더링 패키지와 함께 설치되는 기술 워크플로우에 대해 설명합니다
+description: 이 섹션에서는 받은 편지함 렌더링 패키지와 함께 설치되는 기술 작업 과정에 대해 설명합니다
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 받은 편지함 렌더링(IR){#inbox-rendering}
 
-아래에 자세히 설명된 워크플로우는 기본적으로 받은 편지함 **렌더링(IR)** 모듈과 함께 설치됩니다. For more on Inbox rendering, refer to this [section](../../delivery/using/inbox-rendering.md).
+아래에 자세히 설명된 작업 과정은 기본적으로 **받은 편지함 렌더링(IR)** 모듈과 함께 설치됩니다. 받은 편지함 렌더링에 대한 자세한 내용은 이 [섹션](../../delivery/using/inbox-rendering.md)을 참조하십시오.
 
 <table> 
  <tbody> 
