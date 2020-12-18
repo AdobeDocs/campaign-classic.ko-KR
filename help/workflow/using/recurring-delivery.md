@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: 반복 게재
-description: 반복 배달 워크플로우 활동에 대한 자세한 내용
+description: 반복 전달 워크플로우 활동에 대한 자세한 내용
 audience: workflow
 content-type: reference
 topic-tags: action-activities
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
 
 # 반복 게재{#recurring-delivery}
 
-활동을 **[!UICONTROL Recurring delivery]** 사용하면 캠페인과 관련된 게재 템플릿 발생을 구성할 수 있습니다.
+**[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인과 관련된 게재 템플릿 발생을 구성할 수 있습니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#recurring-delivery-video)
 
@@ -31,26 +31,26 @@ ht-degree: 9%
 
 1. 배달 템플릿을 구성합니다.
 
-이 활동에 대한 구성 프로세스는 사용 가능한 옵션 측면에서 배달 템플릿을 만드는 프로세스와 비슷합니다. 자세한 정보는 이 [섹션](../../delivery/using/about-templates.md)을 참조하십시오.
+이 활동에 대한 구성 프로세스는 사용 가능한 옵션에 대한 관점에서 배달 템플릿을 만드는 프로세스와 유사합니다. 자세한 정보는 이 [섹션](../../delivery/using/about-templates.md)을 참조하십시오.
 
-사용 중인 활동의 예를 보려면 이 [섹션을 참조하십시오](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+사용 중인 이 활동의 예를 보려면 [섹션](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)을 참조하십시오.
 
 ## 반복 배달을 설정하는 방법
 
-반복 **배달은** 실행될 때마다 새 배달 인스턴스를 만듭니다. 예를 들어, 워크플로우가 일주일에 한 번 실행되도록 예약된 경우 1년 후에 52회의 배달이 됩니다. 또한 광범위한 로그 및 추적 로그가 각 배달 인스턴스로 구분됩니다.
+**반복 배달**&#x200B;은 실행될 때마다 새 배달 인스턴스를 만듭니다. 예를 들어 워크플로우가 일주일에 한 번 실행되도록 예약되어 있으면 1년 후 52회의 배달이 됩니다. 또한 광범위한 로그 및 추적 로그가 각 배달 인스턴스로 구분됩니다.
 
 ![반복 배달](assets/delivery_recurring.jpg)
 
 >[!NOTE]
 >
->유형 활동에서 증거를 보낼 수 **[!UICONTROL Recurring delivery]** 없습니다.\
->캠페인 워크플로우를 통해 배달을 직접 만들려면 미리 구성된 채널별 활동(예: **[!UICONTROL Email delivery]**).
+>**[!UICONTROL Recurring delivery]** 유형 활동에서 증명을 보낼 수 없습니다.\
+>캠페인 워크플로우를 통해 배달을 직접 만들려면 미리 구성된 채널별 활동(예:**[!UICONTROL Email delivery]**).
 
-## 자습서 비디오(#repeking-delivery-video)
+## 자습서 비디오(#recurring-delivery-video)
 
 이 비디오에서는 반복 게재 및 스케줄러 활동을 구성하는 방법을 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
 
