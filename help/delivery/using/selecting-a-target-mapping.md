@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # 대상 매핑 선택{#selecting-a-target-mapping}
 
-기본적으로 배달 템플릿은 타깃팅합니다 **[!UICONTROL Recipients]**. 따라서 대상 매핑은 **nms:recipient** 테이블의 필드를 사용합니다. Adobe Campaign은 필요에 따라 사용할 게재에 대한 다른 대상 매핑을 제공합니다.
+기본적으로 배달 템플릿은 **[!UICONTROL Recipients]**&#x200B;을(를) 대상으로 합니다. 따라서 대상 매핑은 **nms:recipient** 테이블의 필드를 사용합니다. Adobe Campaign은 필요에 따라 사용할 게재에 대한 다른 대상 매핑을 제공합니다.
 
 ![](assets/delivery_select_mapping.png)
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 | 이름 | 사용 | 표준 스키마 |
 |---|---|---|
-| 수신자 | Adobe Campaign 데이터베이스의 받는 사람에게 전달 | nms:수신자 |
+| 받는 사람 | Adobe Campaign 데이터베이스의 수신자에게 전달 | nms:수신자 |
 | 방문자 수 | 참조(바이럴 마케팅) 또는 소셜 네트워크(Facebook, Twitter)를 통해 프로필을 수집한 방문자에게 제공합니다. | mns:방문자 |
 | 구독 | 뉴스레터와 같은 정보 서비스에 가입한 수신자에게 전달 | nms:구독 |
 | 방문자 구독 | 정보 서비스에 가입한 방문자에게 제공 | nms:visitorSub |
@@ -35,4 +35,4 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->새 대상 매핑을 만들 수도 있습니다. 이 작업은 전문가 사용자용으로 예약되어 있습니다. For more information, refer to the [Configuration guide](../../configuration/using/target-mapping.md).
+>새 대상 매핑을 만들 수도 있습니다. 이 작업은 전문가 사용자용으로 예약되었습니다. 자세한 내용은 [구성 안내서](../../configuration/using/target-mapping.md)를 참조하십시오.
