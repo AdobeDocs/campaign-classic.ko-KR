@@ -17,7 +17,7 @@ ht-degree: 13%
 
 # 양식 편집{#editing-forms}
 
-입력 양식 작성 및 구성 화면은 Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** 폴더에서 액세스할 수 있습니다.
+입력 양식 만들기 및 구성 화면은 Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** 폴더에서 액세스할 수 있습니다.
 
 ![](assets/d_ncs_integration_form_arbo.png)
 
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 ![](assets/d_ncs_integration_form_edit.png)
 
-미리 보기는 입력 양식의 표시를 생성합니다.
+미리 보기에서 입력 양식의 표시를 생성합니다.
 
 ![](assets/d_ncs_integration_form_preview.png)
 
