@@ -23,7 +23,7 @@ ht-degree: 5%
 
 ![](assets/s_user_recipient_edit.png)
 
-프로필에 대한 데이터는 탭으로 그룹화됩니다.
+프로파일에 대한 데이터는 탭으로 그룹화됩니다.
 
 탭과 해당 컨텐츠는 구성 및 설치된 패키지에 따라 다릅니다.
 
@@ -35,25 +35,25 @@ ht-degree: 5%
 
 ## 일반 탭 {#general-tab}
 
-이 화면은 선택한 프로필에 대한 모든 일반 데이터를 포함합니다. 특히 성, 이름, 이메일 주소, 이메일 수신 형식 등이 포함되어 있습니다. 다음과 같습니다.
+이 화면에는 선택한 프로필에 대한 모든 일반 데이터가 포함됩니다. 특히 성, 이름, 이메일 주소, 이메일 수신 형식 등이 포함되어 있습니다. 다음과 같습니다.
 
 ![](assets/s_ncs_user_profile_general_tab.png)
 
 >[!NOTE]
 >
->**[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이에 차단 목록 있음을 의미합니다. 즉, 프로필은 연락하지 않기를 원한다고 표시했습니다(예: 뉴스레터에서 구독 취소 링크를 클릭해서). 이러한 지표는 더 이상 어떤 채널에서도 게재되지 않습니다(이메일, DM 등). 자세한 정보는 이 [페이지](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
+>**[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이차단 목록에 있음을 의미합니다(예: 뉴스레터에서 구독 취소 링크를 클릭하는 등). 이러한 지표는 더 이상 어떤 채널에서도 게재되지 않습니다(이메일, DM 등). 자세한 정보는 이 [페이지](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
 
 ## 연락처 정보 탭 {#contact-information-tab}
 
-이 화면은 선택한 프로필의 다이렉트 메일 주소를 포함합니다. 다음과 같습니다.
+이 화면은 선택한 프로필의 DM 주소를 포함합니다. 다음과 같습니다.
 
 ![](assets/s_ncs_user_profile_details_tab.png)
 
-이 화면에는 주소의 품질 색인과 주소에 포함된 오류 수가 표시됩니다. 이 정보는 이전 배달 중에 발견된 오류 수를 기반으로 메일 운송업체가 직접 사용하며 수동으로 수정할 수 없습니다.
+이 화면에는 주소의 품질 색인과 주소에 포함된 오류 수가 표시됩니다. 이 정보는 이전 배달 중에 발견된 오류 수를 기반으로 메일 통신사가 직접 사용하며 수동으로 수정할 수 없습니다.
 
 ## 기타 탭 {#other-tab}
 
-이 화면에는 요구 사항에 따라 개인화할 수 있는 사용자 정의 필드가 포함되어 있습니다. 아래와 같이 **[!UICONTROL Field properties...]**&#x200B;을 통해 필드 이름을 변경하고 해당 형식을 정의할 수도 있습니다.
+이 화면에는 요구 사항에 따라 개인화할 수 있는 사용자 정의 필드가 포함되어 있습니다. 아래에서 보듯이 **[!UICONTROL Field properties...]**&#x200B;을 통해 필드 이름을 변경하고 해당 형식을 정의할 수도 있습니다.
 
 ![](assets/s_ncs_user_profile_others_tab.png)
 
@@ -63,11 +63,11 @@ ht-degree: 5%
 
 ## 목록 탭 {#lists-tab}
 
-이 화면에는 선택한 프로필이 속하는 그룹이 표시됩니다. 목록에 프로필을 가입하려면 **[!UICONTROL Add]**&#x200B;을 클릭합니다. **[!UICONTROL Detail]**&#x200B;을 클릭하여 선택한 목록에 설명 및 프로필 목록을 표시합니다.
+이 화면에는 선택한 프로파일이 속한 그룹이 표시됩니다. 목록에 프로필을 가입하려면 **[!UICONTROL Add]**&#x200B;을 클릭합니다. **[!UICONTROL Detail]**&#x200B;을 클릭하여 선택한 목록에 설명 및 프로필 목록을 표시합니다.
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
-자세한 내용은 [목록 만들기 및 관리를 참조하십시오](../../platform/using/creating-and-managing-lists.md).
+자세한 내용은 [목록 만들기 및 관리](../../platform/using/creating-and-managing-lists.md)를 참조하십시오.
 
 ## 구독 탭 {#subscriptions-tab}
 
@@ -81,7 +81,7 @@ ht-degree: 5%
 
 ## 배달 탭 {#deliveries-tab}
 
-이 화면은 선택한 프로필에 대한 배달 로그를 표시합니다. 또한 모든 채널을 통해 프로파일에 명시된 배달 작업의 레이블, 날짜 및 상태를 표시할 수도 있습니다.
+이 화면은 선택한 프로필에 대한 배달 로그를 표시합니다. 또한 모든 채널을 통해 프로필에 전달되는 배달 작업의 레이블, 날짜 및 상태를 표시할 수도 있습니다.
 
 ![](assets/s_ncs_user_profile_delivery_tab.png)
 
@@ -93,7 +93,7 @@ ht-degree: 5%
 
 이 탭에는 배달에서 추적된 모든 URL의 누적 합계가 표시됩니다.
 
-목록은 구성할 수 있으며 일반적으로 다음을 포함합니다.클릭한 URL, 클릭 날짜 및 시간, URL이 포함된 문서.
+이 목록은 구성할 수 있으며 일반적으로 다음을 포함합니다.클릭한 URL, 클릭 날짜와 시간 및 URL이 포함된 문서
 
 >[!NOTE]
 >
