@@ -10,16 +10,16 @@ translation-type: tm+mt
 source-git-commit: 8ff5450cc35153e61048c2671f6d52fbc5ffc5b9
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
 
 # 개인 정보 관리 {#privacy-management}
 
-Adobe Campaign은 [개인 정보 보호 규정](#privacy-management-regulations)(GDPR, CCPA, PDPA, LGPD 포함)을 준수하는 데 도움이 되는 다양한 툴을 제공합니다.
+Adobe Campaign은 GDPR, CCPA, PDPA 및 LGPD와 같은 [개인 정보 보호 규정](#privacy-management-regulations)을 준수하는 데 도움이 되는 다양한 도구를 제공합니다.
 
-다음은 Adobe Campaign이 GDPR 및 기타 개인 정보 보호 규정을 준수하도록 보장하는 5가지 주요 기능입니다.
+Adobe Campaign이 GDPR 및 기타 개인 정보 보호 규정을 준수하도록 보장하는 5가지 주요 기능은 다음과 같습니다.
 
 ![](assets/privacy-gdpr-use-cases.png)
 
@@ -107,7 +107,7 @@ Adobe Campaign이 제공하는 동의 관리 도구 외에도, 개인 정보 판
 * **이벤트**: 1개월
 * **이벤트 처리** 통계:1년
 * **보관된 이벤트**:1년
-* **파이프라인 이벤트가 무시됨**:1개월
+* **파이프라인 이벤트 무시**:1개월
 
 또한 삭제와 유사하게 표준 워크플로우 기능을 사용하여 모든 사용자 지정 테이블에 대해 보존 기간을 설정할 수 있습니다.
 
