@@ -14,24 +14,24 @@ ht-degree: 0%
 
 ---
 
-# 마케팅 캠페인 승인 {#approving-marketing-campaigns}
+# 마케팅 캠페인 승인{#approving-marketing-campaigns}
 
 ## 승인 프로세스 {#approval-process}
 
-전달의 각 단계는 다양한 캠페인 프로세스를 완벽하게 모니터링하고 제어하기 위해 승인을 받을 수 있습니다.타깃팅, 컨텐츠, 예산, 추출 및 증명 전송
+게재의 각 단계는 다양한 캠페인 프로세스를 완전히 모니터링하고 제어할 수 있도록 승인을 받을 수 있습니다.타깃팅, 컨텐츠, 예산, 추출 및 증명 보내기
 
 >[!NOTE]
 >
->검토자가 승인할 적절한 권한이 있는지 확인해야 합니다. 또한 보안 영역이 올바르게 정의되었는지 확인하십시오.
+>검토자가 승인할 적절한 권한이 있는지 확인해야 합니다. 또한 보안 영역이 올바르게 정의되었는지 확인합니다.
 
 알림 이메일은 지정된 검토자가 승인 요청을 통보하도록 Adobe Campaign 운영자에게 전송됩니다.
 
-승인 절차는 [배달 확인 및 승인](#checking-and-approving-deliveries)에 제공됩니다.
+승인 절차는 [배달 확인 및 승인](#checking-and-approving-deliveries)에 있습니다.
 
 >[!NOTE]
 >
->배달 소유자만 배달을 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 배달을 시작할 수 있으려면 **[!UICONTROL Delivery start:]** 필드에 검토자로 추가해야 합니다.\
->또한 검토자 선택[을 참조하십시오.](#selecting-reviewers)
+>배달 소유자만 배달을 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 배달을 시작할 수 있으려면 **[!UICONTROL Delivery start:]** 필드에 해당 연산자를 검토자로 추가해야 합니다.\
+>또한 [검토자 선택](#selecting-reviewers)을 참조하십시오.
 
 ### 운영 원칙 {#operating-principle-}
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![](assets/s_user_validation_page_confirm.png)
 
-운영자가 자신의 선택, 승인 또는 거부를 승인하면 배달 대시보드로 전달됩니다.
+운영자가 선택을 승인하면 작업의 승인 또는 거부가 배달 대시보드로 전달됩니다.
 
 ![](assets/s_user_validation_link_in_op_board.png)
 
@@ -51,42 +51,42 @@ ht-degree: 0%
 
 ![](assets/s_user_validation_log_in_op_edit_tab.png)
 
-이러한 알림은 승인이 활성화된 각 프로세스에 영향을 받는 운영자에게 전송됩니다.
+이러한 알림은 승인이 활성화된 각 프로세스에 영향을 받는 연산자에게 전송됩니다.
 
-캠페인 템플릿, 각 캠페인에 대해 개별적으로 또는 게재에 대해 승인을 활성화할 수 있습니다.
+캠페인 템플릿, 각 캠페인에 대해 개별적으로 또는 전달용으로 승인을 활성화할 수 있습니다.
 
-승인이 필요한 모든 작업이 캠페인 템플릿( **[!UICONTROL Properties]** > **[!UICONTROL Advanced campaign settings...]** > **[!UICONTROL Approvals]** 탭)에서 승인 담당자와 마찬가지로 선택됩니다(이 옵션이 활성화되지 않은 경우 알림을 수신함). 자세한 내용은 [승인 프로세스](#approving-processes)를 참조하십시오.
+승인이 필요한 모든 작업은 승인 담당자와 마찬가지로 캠페인 템플릿( **[!UICONTROL Properties]** > **[!UICONTROL Advanced campaign settings...]** > **[!UICONTROL Approvals]** 탭)에서 선택됩니다(이 옵션이 활성화되지 않은 경우 알림 수신). 자세한 내용은 [프로세스 승인](#approving-processes)을 참조하십시오.
 
 이 템플릿을 사용하여 만든 각 캠페인에 대해 이러한 설정을 재정의하고 각 캠페인 전달에 대해 개별적으로 재정의할 수 있습니다.**[!UICONTROL Properties]** 단추를 클릭한 다음 **[!UICONTROL Approvals]** 탭을 클릭합니다.
 
-다음 예에서 배달 컨텐츠는 승인이 필요하지 않습니다.
+다음 예에서 전달 컨텐츠는 승인이 필요하지 않습니다.
 
 ![](assets/s_user_validation_select_process_from_del.png)
 
 ### 검토자 선택 {#selecting-reviewers}
 
-각 승인 유형에 대해 전달의 드롭다운 목록에서 승인을 담당하는 연산자 또는 연산자 그룹이 선택됩니다. **[!UICONTROL Edit...]** 링크를 사용하여 추가 연산자를 추가할 수 있습니다. 이 창에서는 승인 마감 시간을 편집할 수도 있습니다.
+각 승인 유형에 대해 전달의 드롭다운 목록에서 승인 담당 연산자 또는 연산자 그룹이 선택됩니다. **[!UICONTROL Edit...]** 링크를 사용하여 추가 연산자를 추가할 수 있습니다. 이 창에서는 승인 마감 시간을 편집할 수도 있습니다.
 
 ![](assets/s_user_validation_add_operator.png)
 
-검토자가 지정되지 않은 경우 캠페인 관리자가 승인을 책임지며 알림을 받게 됩니다. 캠페인 관리자는 캠페인의 **[!UICONTROL Edit > Properties]** 탭에 지정됩니다.
+검토자가 지정되지 않으면 캠페인 관리자가 승인을 책임지며 알림을 받게 됩니다. 캠페인 관리자는 캠페인의 **[!UICONTROL Edit > Properties]** 탭에 지정됩니다.
 
 ![](assets/s_user_op_manager_field.png)
 
 >[!NOTE]
 >
 >**[!UICONTROL Administrator]** 권한을 가진 다른 모든 Adobe Campaign 연산자도 작업을 승인할 수 있지만 알림을 받지 않습니다.\
->기본적으로, 승인 연산자가 정의된 경우 캠페인 관리자는 승인을 수행하거나 배달을 시작할 수 없습니다. 이 동작을 수정하고 캠페인 관리자에서 **1**&#x200B;과(와) 함께 **NmsCampaign_Activate_OwnerConfirmation** 옵션을 값으로 만들어 배달을 승인/시작할 수 있도록 허용할 수 있습니다.
+>기본적으로, 승인 연산자가 정의된 경우 캠페인 관리자는 승인을 수행하거나 제공을 시작할 수 없습니다. 이 동작을 수정하고 캠페인 관리자가 **1**&#x200B;과(와) 함께 **NmsCampaign_Activate_OwnerConfirmation** 옵션을 값으로 만들어 배달을 승인/시작하도록 인증할 수 있습니다.
 
 ### 승인 모드 {#approval-modes}
 
-#### 대시보드 {#approval-via-the-dashboard}을(를) 통한 승인
+#### 대시보드 {#approval-via-the-dashboard}를 통한 승인
 
 콘솔 또는 웹 인터페이스를 통해 작업을 승인하려면 캠페인 대시보드에서 해당 링크를 클릭합니다. 배달 추적 또는 배달 대시보드를 통해 작업을 승인할 수도 있습니다.
 
 ![](assets/s_user_validation_from_console.png)
 
-승인할 정보를 확인하고, 승인 수락 여부를 선택하고, 필요한 경우 주석을 입력합니다. **[!UICONTROL Ok]**&#x200B;을 클릭하여 저장합니다.
+승인할 정보를 확인하고, 승인을 수락할지 또는 거부할지 선택하고, 필요한 경우 주석을 입력합니다. **[!UICONTROL Ok]**&#x200B;을 클릭하여 저장합니다.
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 #### 알림 메시지 {#approval-via-notification-messages}를 통한 승인
 
-알림 메시지에 사용할 수 있는 링크를 클릭합니다([알림](#notifications) 참조). 아래와 같이 자신을 확인하라는 메시지가 나타납니다.
+알림 메시지에 사용할 수 있는 링크를 클릭합니다([알림](#notifications) 참조). 아래와 같이 자신을 식별하라는 메시지가 표시됩니다.
 
 ![](assets/s_user_validation__log_in.png)
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 #### 승인 추적 {#approval-tracking}
 
-이 정보는 다음과 같은 여러 곳에서 사용할 수 있습니다.
+이 정보는 다음과 같은 여러 위치에서 사용할 수 있습니다.
 
 * 캠페인 승인 로그에서 **[!UICONTROL Edit > Tracking]** 탭의 **[!UICONTROL Approvals]** 하위 탭:
 
@@ -130,11 +130,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->운영자가 작업을 승인하거나 거부하면 다른 검토 작업자가 더 이상 승인 작업에 대해 작업을 수행하지 못합니다.
+>운영자가 작업을 승인하거나 거부하면 다른 검토 연산자는 더 이상 승인 작업을 수행할 수 없습니다.
 
 #### 자동 및 수동 승인 {#automatic-and-manual-approval}
 
-타깃팅 워크플로우를 만들 때, 승인이 자동(기본 모드)인 경우, Adobe Campaign은 승인 링크를 표시하거나 승인이 필요한 즉시 알림을 전송합니다.
+타깃팅 워크플로우를 만들 때, 승인이 자동(기본 모드)인 경우, Adobe Campaign은 승인이 필요한 즉시 승인 링크를 표시하거나 알림을 전송합니다.
 
 승인 모드(수동 또는 자동)를 선택하려면 캠페인 또는 캠페인 템플릿의 **[!UICONTROL Edit > Properties]** 탭을 클릭한 다음 **[!UICONTROL Advanced campaign settings...]** 을 클릭하고 마지막으로 **[!UICONTROL Approvals]** 탭을 클릭합니다.
 
@@ -144,23 +144,23 @@ ht-degree: 0%
 >
 >선택한 승인 모드는 캠페인의 모든 게재에 적용됩니다.
 
-타깃팅 워크플로우를 구축할 때 수동 승인을 사용하면 승인 링크를 만들거나 알림을 자동으로 보내지 않을 수 있습니다. 그런 다음 캠페인 대시보드는 승인 프로세스를 수동으로 시작하는 **[!UICONTROL Submit targeting for approval]** 링크를 제공합니다.
+타깃팅 워크플로우가 작성되면 수동 승인을 사용하여 승인 링크를 만들거나 알림을 자동으로 보내지 않을 수 있습니다. 그런 다음 캠페인 대시보드는 승인 프로세스를 수동으로 시작하는 **[!UICONTROL Submit targeting for approval]** 링크를 제공합니다.
 
-확인 메시지를 사용하면 이 배달에 대해 선택된 작업에 대한 승인을 승인할 수 있습니다.
+확인 메시지를 사용하여 이 배달에 대해 선택된 작업에 대한 승인을 승인할 수 있습니다.
 
-그러면 캠페인 대시보드(이 게재의 경우), 배달 대시보드 및 배달 추적에 승인 단추가 표시됩니다. 알림이 활성화되면 동시에 전송됩니다.
+그러면 승인 단추가 캠페인 대시보드(이 게재의 경우), 배달 대시보드 및 배달 추적에 표시됩니다. 알림이 활성화되면 동시에 전송됩니다.
 
-이 승인 활성화 방법을 사용하면 비논리적인 알림을 검토자에게 보내지 않고 타깃팅을 수행할 수 있습니다.
+이 승인 사용 방법을 사용하면 잘못된 알림을 검토자에게 보내지 않고 타깃팅을 수행할 수 있습니다.
 
 ### 알림 {#notifications}
 
-알림은 프로세스를 승인 대기 중임을 알리기 위해 검토자에게 전송되는 특정 이메일 메시지입니다. 연산자가 메시지의 링크를 클릭하면 인증 페이지가 표시되고, 로그인하면 연산자가 정보를 보고 작업을 승인하거나 거부할 수 있습니다. 승인 창에 주석을 입력할 수도 있습니다.
+알림은 프로세스가 승인 대기 중임을 알리기 위해 검토자에게 전송되는 특정 이메일 메시지입니다. 연산자가 메시지의 링크를 클릭하면 인증 페이지가 표시되고, 로그인 후 운영자는 정보를 보고 작업을 승인하거나 거부할 수 있습니다. 승인 창에 주석을 입력할 수도 있습니다.
 
 알림 이메일의 내용은 개인화할 수 있습니다. [알림 내용](#notification-content)을 참조하십시오.
 
 #### 알림 활성화/비활성화 {#enabling-disabling-notification}
 
-기본적으로 캠페인 템플릿, 캠페인 또는 게재에서 관련 작업의 승인이 활성화되면 알림 메시지가 전송됩니다. 그러나 콘솔에서 승인을 승인하기 위해 알림을 비활성화할 수는 있습니다.
+기본적으로 캠페인 템플릿, 캠페인 또는 게재에서 관련 작업에 대한 승인이 활성화되어 있으면 알림 메시지가 전송됩니다. 그러나 콘솔에서 승인을 승인하기 위해서만 알림을 비활성화할 수 있습니다.
 
 이렇게 하려면 캠페인 또는 캠페인 템플릿의 승인 창( **[!UICONTROL Edit > Properties]** > **[!UICONTROL Advanced campaign settings...]** > **[!UICONTROL Approvals]** 탭)을 편집하고 **[!UICONTROL Do not enable notification sending]**&#x200B;을 선택합니다.
 
@@ -168,15 +168,15 @@ ht-degree: 0%
 
 #### 알림 내용 {#notification-content}
 
-알림 컨텐츠는 특정 템플릿에서 정의됩니다.**[!UICONTROL Notification of validations for the marketing campaign]**. 이 템플릿은 Adobe Campaign 트리의 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 폴더에 저장됩니다.
+알림 컨텐츠는 특정 템플릿에 정의됩니다.**[!UICONTROL Notification of validations for the marketing campaign]**. 이 템플릿은 Adobe Campaign 트리의 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 폴더에 저장됩니다.
 
 ## 배달 확인 및 승인 {#checking-and-approving-deliveries}
 
-Adobe Campaign을 사용하면 마케팅 캠페인의 주 단계에 대한 승인 프로세스를 협업 모드로 설정할 수 있습니다.
+Adobe Campaign을 사용하면 마케팅 캠페인의 주요 단계에 대한 승인 프로세스를 협업 모드에서 설정할 수 있습니다.
 
-DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 보내기 전에 볼 수 있으며, 필요한 경우 형식을 변경하고 추출을 다시 시작할 수 있습니다. [추출 파일 승인](#approving-an-extraction-file)을 참조하십시오.
+DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 보내기 전에 볼 수 있으며 필요한 경우 형식을 변경하고 추출을 다시 시작할 수 있습니다. [추출 파일 승인](#approving-an-extraction-file)을 참조하십시오.
 
-각 캠페인에 대해 컨텐츠([컨텐츠 승인](#approving-content) 참조) 및 비용을 승인할 수 있습니다. 승인 업무를 담당하는 Adobe Campaign 운영자에게 이메일을 통해 통지할 수 있으며 콘솔 또는 웹 연결을 통해 승인을 수락하거나 거부할 수 있습니다. [승인 프로세스](#approving-processes)를 참조하십시오.
+각 캠페인에 대해 컨텐츠([컨텐트](#approving-content) 승인 참조) 및 비용을 승인할 수 있습니다. 승인 담당 Adobe Campaign 운영자에게는 이메일을 통해 통지할 수 있으며 콘솔 또는 웹 연결을 통해 승인을 수락하거나 거부할 수 있습니다. [프로세스 승인](#approving-processes)을 참조하십시오.
 
 이러한 검증 단계가 완료되면 배달을 시작할 수 있습니다. [배달 시작](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)을 참조하십시오.
 
@@ -186,7 +186,7 @@ DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 �
 
 ### 프로세스 승인 중 {#approving-processes}
 
-승인이 필요한 단계는 캠페인 대시보드에 나타납니다(웹 인터페이스의 콘솔을 통해). 배달 추적 테이블 및 배달 대시보드에도 나타납니다.
+승인이 필요한 단계는 캠페인 대시보드에 나타납니다(웹 인터페이스의 콘솔을 통해). 배달 추적 테이블과 배달 대시보드에도 나타납니다.
 
 이 시점에서 캠페인 상태는 **[!UICONTROL To validate]**&#x200B;입니다.
 
@@ -207,23 +207,23 @@ DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 �
 
 ![](assets/s_user_validation_relaunch_message_preparation.png)
 
-캠페인의 각 게재에 대해 다음 프로세스를 승인할 수 있습니다.
+캠페인의 각 전달에 대해 다음 프로세스를 승인할 수 있습니다.
 
 * **타깃팅, 컨텐츠 및 예산**
 
-   작업 승인 설정 창에서 **[!UICONTROL Enable target approval]**, **[!UICONTROL Enable content approval]** 또는 **[!UICONTROL Enable budget approval]** 옵션을 선택하면 관련 배달을 위한 캠페인 대시보드에 관련 링크가 표시됩니다.
+   작업 승인 설정 창에서 **[!UICONTROL Enable target approval]**, **[!UICONTROL Enable content approval]** 또는 **[!UICONTROL Enable budget approval]** 옵션을 선택하면 관련 링크가 캠페인 대시보드에 해당 배달에 대해 표시됩니다.
 
    >[!NOTE]
    >
-   >예산 승인은 타깃팅 승인이 승인 설정 창에서 활성화된 경우에만 사용할 수 있습니다. 예산 승인에 대한 링크는 대상이 분석된 경우에만 표시됩니다. 또한 이 링크는 타겟 승인을 위한 링크와 함께 표시됩니다.
+   >예산 승인은 승인 설정 창에서 타깃팅 승인을 사용하는 경우에만 사용할 수 있습니다. 예산 승인에 대한 링크는 대상이 분석된 경우에만 표시됩니다. 또한 이 링크는 타겟 승인을 위한 링크와 함께 표시됩니다.
 
    승인 설정 창에서 **[!UICONTROL Assign content editing]** 또는 **[!UICONTROL External content approval]** 옵션을 선택하면 대시보드에 **[!UICONTROL Available content]** 및 **[!UICONTROL External content approval]** 링크가 표시됩니다.
 
-   컨텐츠 승인을 사용하면 전송된 교정에 액세스할 수 있습니다.
+   컨텐츠 승인을 통해 전송된 교정물에 액세스할 수 있습니다.
 
 * **추출 승인(DM 배달)**
 
-   승인 설정 창에서 **[!UICONTROL Enable extraction approval]**&#x200B;을(를) 선택하면 라우터에 알림을 보내기 전에 압축을 푼 파일을 승인해야 합니다.
+   승인 설정 창에서 **[!UICONTROL Enable extraction approval]**&#x200B;을 선택한 경우 라우터에 알림을 보내기 전에 압축을 푼 파일을 승인해야 합니다.
 
    **[!UICONTROL Approve content]** 링크는 아래와 같이 캠페인 대시보드에서 사용할 수 있습니다.
 
@@ -235,11 +235,11 @@ DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 �
 
    >[!NOTE]
    >
-   >추출 파일 미리 보기는 데이터 샘플만 다룹니다. 전체 출력 파일이 로드되지 않습니다.
+   >추출 파일 미리 보기는 데이터 샘플에만 적용됩니다. 전체 출력 파일이 로드되지 않습니다.
 
 * **연결된 배달 승인**
 
-   **[!UICONTROL Enable individual approval of each associated delivery]** 옵션은 보조 게재와 연결된 하나의 기본 배달에 사용됩니다. 기본적으로 이 옵션은 선택되어 있지 않으므로 기본 배달의 전체 승인을 수행할 수 있습니다. 이 옵션을 선택하면 각 배달을 개별적으로 승인해야 합니다.
+   **[!UICONTROL Enable individual approval of each associated delivery]** 옵션은 보조 게재와 연결된 하나의 기본 배달에 사용됩니다. 기본적으로 이 옵션은 선택되어 있지 않으므로 기본 전달의 전체 승인을 수행할 수 있습니다. 이 옵션을 선택하면 각 전달을 개별적으로 승인해야 합니다.
 
    ![](assets/s_ncs_user_task_valid_associate.png)
 
@@ -249,22 +249,22 @@ DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 �
 
 >[!NOTE]
 >
->캠페인 또는 캠페인 템플릿에 대한 승인 구성은 이 캠페인에 연결된 모든 향후 배달에 적용됩니다. 구성 변경 사항은 이전 게재에 적용되지 않습니다.
+>캠페인 또는 캠페인 템플릿에 대한 승인 구성은 이 캠페인에 연결된 향후 모든 게재에 적용됩니다. 구성 변경 사항은 이전 게재에 적용되지 않습니다.
 
-이 정보는 각 캠페인과 각 전달에 대해 무시될 수 있습니다.
+이 정보는 각 캠페인과 각 전달에 대해 재정의할 수 있습니다.
 
 캠페인의 경우 **[!UICONTROL Edit > Properties]** 탭, **[!UICONTROL Advanced campaign settings...]** 링크, 마지막으로 **[!UICONTROL Approvals]** 하위 탭을 클릭하여 승인 구성 페이지에 액세스합니다.
 
-승인할 프로세스를 선택 및 선택 취소하고 승인 담당자를 지정할 수 있습니다. 이러한 연산자는 개별 연산자, 연산자 그룹 또는 연산자 목록일 수 있습니다.
+승인할 프로세스를 선택 및 선택 취소하고 승인 담당 Adobe Campaign 연산자를 지정할 수 있습니다. 이러한 연산자는 개별 연산자, 연산자 그룹 또는 연산자 목록일 수 있습니다.
 
-연산자 목록을 선택하려면 필드 오른쪽의 **[!UICONTROL Edit...]** 링크를 클릭하여 첫 번째 검토자를 지정한 후 필요한 만큼 연산자를 추가합니다. 아래와 같습니다.
+연산자 목록을 선택하려면 필드 오른쪽의 **[!UICONTROL Edit...]** 링크를 클릭하여 첫 번째 검토자를 지정한 다음 아래 표시된 대로 필요한 만큼 연산자를 추가합니다.
 
 ![](assets/s_user_validation_add_operator.png)
 
 >[!NOTE]
 >
->* 검토자 목록이 정의되면 검토자가 수락하는 즉시 작업이 승인됩니다. 그러면 관련 승인 링크가 더 이상 대시보드에서 제공되지 않습니다. 알림 전송이 활성화되면 다른 검토자가 알림 메시지의 승인 링크를 클릭하면 다른 연산자가 이미 작업을 승인했다는 알림을 받게 됩니다.
->* 검토자 편집 창의 하단 섹션에서 캠페인에 대한 승인 일정을 정의할 수 있습니다. 기본적으로 검토자는 제출 날짜부터 3일 이내에 프로세스를 승인해야 합니다. 승인 마감 전에 관련 운영자에게 자동으로 전송되는 알림 메시지를 구성할 수 있습니다.
+>* 검토자 목록이 정의된 경우 한 검토자가 수락하는 즉시 작업이 승인됩니다. 그러면 관련 승인 링크가 더 이상 대시보드에서 제공되지 않습니다. 알림 전송이 활성화되면 다른 검토자가 알림 메시지의 승인 링크를 클릭하면 다른 연산자가 작업을 이미 승인했다는 알림을 받게 됩니다.
+>* 검토자 편집 창의 하단 섹션에서 캠페인에 대한 승인 일정을 정의할 수 있습니다. 기본적으로 검토자는 제출 날짜로부터 3일 이내에 프로세스를 승인해야 합니다. 승인 기한 전에 관련 운영자에게 자동으로 전송되는 미리 알림을 구성할 수 있습니다.
 >* 이 섹션에서 미리 알림을 추가할 수 있습니다.
 
 >
@@ -273,7 +273,7 @@ DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 �
 
 ![](assets/s_ncs_user_edit_op_valid_calendar.png)
 
-각 전달에 대해 **[!UICONTROL Audit]** 버튼 및 **[!UICONTROL Approvals]** 탭을 클릭하여 승인 날짜와 자동 미리 알림을 보고 편집합니다.
+배달할 때마다 **[!UICONTROL Audit]** 버튼과 **[!UICONTROL Approvals]** 탭을 클릭하여 승인 날짜와 자동 미리 알림을 보고 편집합니다.
 
 ![](assets/s_ncs_user_edit_del_valid.png)
 
@@ -281,13 +281,13 @@ DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 �
 >
 >이 탭은 컨텐츠 승인 프로세스가 시작된 후에 사용할 수 있습니다.
 
-### 내용 {#approving-content} 승인
+### {#approving-content} 컨텐츠 승인
 
 >[!CAUTION]
 >
->컨텐츠를 승인하려면 증명 주기가 필수입니다. 교정본을 사용하면 정보 표시, 개인화 데이터, 링크가 작동하는지 확인할 수 있습니다. 증명 및 그 수명주기에 대한 자세한 내용은 [메시지 전송](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) 섹션을 참조하십시오.
+>컨텐츠를 승인하려면 증명 주기가 필수입니다. 교정본을 사용하면 정보 표시를 승인하고 개인화 데이터를 제공하며 링크가 작동하는지 확인할 수 있습니다. 증명 및 해당 라이프사이클에 대한 자세한 내용은 [메시지 전송](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) 섹션을 참조하십시오.
 >
->아래 설명된 컨텐츠 승인 기능은 증명 전달에 추가될 예정입니다.
+>아래 설명된 컨텐츠 승인 기능은 증명 전달에 추가될 수 있도록 설계되었습니다.
 
 컨텐츠 승인 주기를 구성할 수 있습니다. 이렇게 하려면 승인 설정 창에서 **[!UICONTROL Enable content approval]** 옵션을 선택합니다. 컨텐츠 승인 주기의 주요 단계는 다음과 같습니다.
 
@@ -297,17 +297,17 @@ DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 �
 
    >[!NOTE]
    >
-   >승인 설정 창에서 **[!UICONTROL Enable the sending of proofs]** 옵션(이메일 배달용) 또는 **[!UICONTROL Enable the sending and approval of proofs]**(DM 게재의 경우) 옵션을 선택한 경우 교정이 자동으로 전송됩니다.
+   >승인 설정 창에서 **[!UICONTROL Enable the sending of proofs]** 옵션(이메일 배달의 경우) 또는 **[!UICONTROL Enable the sending and approval of proofs]**(DM 배달의 경우) 옵션을 선택한 경우 교정쇄가 자동으로 전송됩니다.
 
 1. 승인 여부를 선택할 수 있는 컨텐츠 담당자에게 알림 이메일이 전송됩니다.
 
-   * 알림 이메일을 통해 다음을 수행합니다.
+   * 알림 이메일을 통해:
 
       ![](assets/s_ncs_user_del_content_valid_bat_notif.png)
 
       >[!NOTE]
       >
-      >알림 이메일에는 이미 전송된 교정물에 대한 링크가 포함되어 있으며, 이 인스턴스에 대해 **Delivery ability** 옵션이 활성화되어 있을 경우 다양한 웹메일에 대한 메시지 렌더링에 액세스할 수 있습니다.
+      >알림 이메일에는 이미 전송된 교정쇄에 대한 링크가 포함되어 있으며, 이 인스턴스에 대해 **Deliverability** 옵션이 활성화된 경우 다양한 웹 메일에 대한 메시지 렌더링에 액세스할 수 있습니다.
 
    * 콘솔 또는 웹 인터페이스, 배달 추적, 배달 대시보드 또는 캠페인 대시보드를 통해 다음을 수행할 수 있습니다.
 
@@ -319,7 +319,7 @@ DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 �
 
       ![](assets/s_ncs_user_validation_content_BAT_details.png)
 
-1. 컨텐츠가 승인되었는지 여부를 알리는 알림 이메일이 캠페인 담당자에게 전송됩니다.
+1. 컨텐츠가 승인되었는지 여부를 알리는 알림 이메일이 캠페인의 담당자에게 전송됩니다.
 
    >[!NOTE]
    >
@@ -327,9 +327,9 @@ DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 �
 
    ![](assets/s_user_validation_relaunch_content_validation.png)
 
-#### 내용 편집 {#assign-content-editing} 할당
+#### 내용 편집 할당 {#assign-content-editing}
 
-이 옵션을 사용하면 웹 마스터와 같은 컨텐츠 편집 담당자를 정의할 수 있습니다. 승인 설정 창에서 **[!UICONTROL Assign content editing]** 옵션을 선택한 경우 알림 이메일을 배달하고 컨텐츠 담당자에게 배달할 때 몇 가지 승인 단계가 추가됩니다.
+이 옵션을 사용하면 웹 마스터와 같은 컨텐츠 편집 담당자를 정의할 수 있습니다. 승인 설정 창에서 **[!UICONTROL Assign content editing]** 옵션을 선택하면 알림 이메일을 배달하고 컨텐츠 담당자에게 전달할 때 몇 가지 승인 단계가 추가됩니다.
 
 1. 새 배달을 만든 후 캠페인을 담당하는 사람이 캠페인 대시보드의 **[!UICONTROL Submit content editing]** 링크를 클릭하여 컨텐츠 편집 주기를 시작합니다.
 
@@ -339,23 +339,23 @@ DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 �
 
    ![](assets/s_ncs_user_validation_submit_content_notif.png)
 
-1. 그런 다음 콘솔에 로그인하여 전달을 열고 단순화된 마법사를 사용하여 편집하여 주제, HTML 및 텍스트 컨텐츠를 변경하고 교정본을 전송할 수 있습니다.
+1. 그런 다음 콘솔에 로그온하여 컨텐츠를 열고 간소화된 마법사를 사용하여 편집하여 주제, HTML 및 텍스트 컨텐츠를 변경하고 교정본을 전송할 수 있습니다.
 
    ![](assets/s_user_validation_content_edition.png)
 
    >[!NOTE]
    >
-   >승인 설정 창에서 **[!UICONTROL Enable the sending of proofs]** 옵션(이메일 배달용) 또는 **[!UICONTROL Enable the sending and approval of proofs]**(DM 게재의 경우) 옵션을 선택한 경우 교정이 자동으로 전송됩니다.
+   >승인 설정 창에서 **[!UICONTROL Enable the sending of proofs]** 옵션(이메일 배달의 경우) 또는 **[!UICONTROL Enable the sending and approval of proofs]**(DM 배달의 경우) 옵션을 선택한 경우 교정쇄가 자동으로 전송됩니다.
 
-1. 컨텐츠 편집 담당자가 게재 컨텐츠의 변경 작업을 완료하면 해당 컨텐츠를 사용할 수 있습니다.
+1. 컨텐츠 편집 담당자는 배포 컨텐츠의 변경 작업을 완료하면 컨텐츠를 사용할 수 있습니다.
 
-   이를 위해 다음을 수행할 수 있습니다.
+   이렇게 하려면 다음을 수행합니다.
 
    * adobe campaign 콘솔을 통해 **[!UICONTROL Available content]** 링크를 클릭합니다.
 
       ![](assets/s_ncs_user_validation_submit_content_available.png)
 
-   * 알림 메시지의 링크를 클릭한 다음 컨텐츠 가용성을 승인합니다.
+   * 알림 메시지의 링크를 클릭한 다음, 콘텐츠 가용성을 승인합니다.
 
       ![](assets/s_ncs_user_validation_submit_content_available2.png)
 
@@ -369,10 +369,10 @@ DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 �
 
 #### 외부 컨텐츠 승인 {#external-content-approval}
 
-이 옵션을 사용하면 브랜드 커뮤니케이션 일관성, 비율 등과 같은 배달 렌더링 승인을 담당하는 외부 연산자를 정의할 수 있습니다. 승인 설정 창에서 **[!UICONTROL External content approval]** 옵션을 선택하면 컨텐츠 승인과 캠페인 담당자에게 알림의 배달 사이에 몇 가지 승인 단계가 추가됩니다.
+이 옵션을 사용하면 브랜드 통신 일관성, 비율 등과 같은 배달 렌더링 승인을 담당하는 외부 연산자를 정의할 수 있습니다. 승인 설정 창에서 **[!UICONTROL External content approval]** 옵션을 선택하면 컨텐츠 승인과 캠페인 담당자에게 통지의 전달 사이에 몇 가지 승인 단계가 추가됩니다.
 
 1. 외부 컨텐츠 관리자는 컨텐츠가 승인되었으며 외부 승인을 요청하는 알림 이메일을 수신합니다.
-1. 알림 이메일에는 전송 내용을 볼 수 있는 링크, 전달 렌더링을 볼 수 있는 링크 및 전달 컨텐츠를 승인하거나 거부하는 단추가 포함되어 있습니다.
+1. 알림 이메일에는 전송 렌더링을 볼 수 있도록 전송된 교정물에 대한 링크 및 배달 컨텐츠를 승인하거나 거부하는 단추가 포함되어 있습니다.
 
    >[!NOTE]
    >
@@ -382,9 +382,9 @@ DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 �
 
 ### 추출 파일 {#approving-an-extraction-file} 승인
 
-오프라인 배달의 경우, Adobe Campaign은 설정 방법에 따라 라우터로 전송되는 추출 파일을 생성합니다. 컨텐츠는 사용되는 내보내기 템플릿에 따라 다릅니다.
+오프라인 제공을 위해 Adobe Campaign은 설정 방법에 따라 라우터로 전송되는 추출 파일을 생성합니다. 해당 컨텐츠는 사용된 내보내기 템플릿에 따라 다릅니다.
 
-컨텐츠, 타깃팅 및 예산이 승인되면 캠페인에 대한 추출 워크플로가 시작될 때까지 게시가 **[!UICONTROL Extraction pending]**&#x200B;으로 변경됩니다.
+컨텐츠, 타깃팅 및 예산이 승인되면 캠페인에 대한 추출 워크플로가 시작될 때까지 게재가 **[!UICONTROL Extraction pending]**&#x200B;으로 변경됩니다.
 
 ![](assets/s_ncs_user_waiting_file_extraction.png)
 
@@ -392,6 +392,6 @@ DM 전달의 경우 Adobe Campaign 연산자는 추출 파일을 라우터로 �
 
 ![](assets/s_ncs_user_file_extract_to_valid.png)
 
-압축을 푼 파일의 컨텐츠를 보고(해당 이름을 클릭하여 승인) 또는 필요한 경우 형식을 변경하고 대시보드의 링크를 사용하여 추출을 다시 시작할 수 있습니다.
+추출된 파일의 컨텐츠를 보고(해당 이름을 클릭하여) 승인하거나 필요한 경우 형식을 변경하고 대시보드의 링크를 사용하여 추출을 다시 시작할 수 있습니다.
 
 파일이 승인되면 알림 이메일을 라우터에 보낼 수 있습니다. 자세한 내용은 [오프라인 배달 시작](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery)을 참조하십시오.
