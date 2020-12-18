@@ -17,7 +17,7 @@ ht-degree: 15%
 
 # 중간 소싱 플랫폼{#mid-sourcing-platform}
 
-아래에 자세히 설명된 워크플로우는 기본적으로 **중간 소싱 플랫폼** 모듈과 함께 설치됩니다. For more on this module, refer to this [section](../../installation/using/mid-sourcing-deployment.md).
+아래에 자세히 설명된 워크플로우는 기본적으로 **Mid-Sourcing 플랫폼** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../installation/using/mid-sourcing-deployment.md)을 참조하십시오.
 
 <table> 
  <tbody> 
