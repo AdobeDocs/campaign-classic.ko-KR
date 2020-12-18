@@ -6,9 +6,9 @@ description: Gold Standard 릴리스의 Campaign Classic 호환성 매트릭스
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: aabab5367ea4a26837fa3dc94a36fbbfa48d59e3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <p>2018</p>
 <p>2018 R2</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016년</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p>경고: Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">자세히 알아보기</a></p>
@@ -217,9 +217,9 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
+<p>2017년</p>
+<p>2016년</p>
+<p>2014년</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 </tr>
@@ -272,8 +272,8 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2016</p>
-<p>2012</p>
+<p>2016년</p>
+<p>2012년</p>
 </td>
 </tr>
 <tr>
