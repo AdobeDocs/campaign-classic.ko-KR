@@ -17,4 +17,4 @@ ht-degree: 29%
 
 # Linux용 클라이언트 콘솔 가용성{#client-console-availability-for-linux}
 
-Adobe Campaign 사용자가 만들고 구성한 인스턴스에 로그온하려면 클라이언트 콘솔을 사용해야 합니다. 자세한 내용은 Windows용 [클라이언트 콘솔 가용성을 참조하십시오](../../installation/using/client-console-availability-for-windows.md).
+Adobe Campaign 사용자가 만들고 구성한 인스턴스에 로그온하려면 클라이언트 콘솔을 사용해야 합니다. 자세한 내용은 [Windows](../../installation/using/client-console-availability-for-windows.md)에 대한 클라이언트 콘솔 가용성을 참조하십시오.
