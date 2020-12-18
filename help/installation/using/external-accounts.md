@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: 외부 계정
-description: 외부 계정을 만드는 방법 살펴보기
+description: 외부 계정을 만드는 방법 알아보기
 audience: platform
 content-type: reference
 topic-tags: administration-basics
@@ -34,14 +34,14 @@ Adobe Campaign에는 미리 정의된 외부 계정 집합이 포함되어 있�
 * [Adobe Experience Manager 외부 계정](#adobe-experience-manager-external-account)
 * [Amazon Simple Storage Service (S3) 외부 계정](#amazon-simple-storage-service--s3--external-account)
 * [Microsoft Dynamics CRM 외부 계정](#microsoft-dynamics-crm-external-account)
-* [Oracle 주문형 외부 계정](#oracle-on-demand-external-account)
+* [Oracle on-demand 외부 계정](#oracle-on-demand-external-account)
 * [Salesforce CRM 외부 계정](#salesforce-crm-external-account)
 
 ## 외부 계정 만들기 {#creating-an-external-account}
 
-새 외부 계정을 만들려면 아래 단계를 수행하십시오. 자세한 설정은 외부 계정 유형에 따라 다릅니다.
+새 외부 계정을 만들려면 아래 단계를 수행하십시오. 세부 설정은 외부 계정 유형에 따라 다릅니다.
 
-1. 캠페인 **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39;을 선택합니다 **[!UICONTROL External accounts]**.
+1. 캠페인 **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**&#x200B;을(를) 선택합니다.
 
    ![](assets/ext_account_1.png)
 
@@ -49,26 +49,26 @@ Adobe Campaign에는 미리 정의된 외부 계정 집합이 포함되어 있�
 
    ![](assets/ext_account_2.png)
 
-1. Enter a **[!UICONTROL Label]** and an **[!UICONTROL Internal Name]**.
-1. 만들 외부 계정 **[!UICONTROL Type]** 을 선택합니다.
+1. **[!UICONTROL Label]** 및 **[!UICONTROL Internal Name]**&#x200B;을 입력합니다.
+1. 만들 외부 계정 **[!UICONTROL Type]**&#x200B;을 선택합니다.
 1. 선택한 외부 계정 유형에 따라 자격 증명을 지정하여 계정에 대한 액세스 권한을 구성합니다.
 
    필요한 정보는 일반적으로 연결 중인 서버 공급자가 제공합니다.
 
-1. 연결을 활성화하려면 **[!UICONTROL Enabled]** 옵션을 선택합니다.
+1. **[!UICONTROL Enabled]** 옵션을 선택하여 연결을 활성화합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-외부 계정이 만들어지고 외부 계정 목록에 추가됩니다.
+외부 계정이 만들어져서 외부 계정 목록에 추가됩니다.
 
 ## 바운스 메일 외부 계정 {#bounce-mails-external-account}
 
-바운스 **메일** 외부 계정은 이메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. For more on this external account, refer to this [page](../../workflow/using/inbound-emails.md).
+**바운스 메일** 외부 계정은 이메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. 이 외부 계정에 대한 자세한 내용은 이 [페이지](../../workflow/using/inbound-emails.md)를 참조하십시오.
 
-POP3 액세스를 위해 구성된 모든 서버를 사용하여 회신 메일을 받을 수 있습니다.
+POP3 액세스용으로 구성된 모든 서버를 사용하여 회신 메일을 받을 수 있습니다.
 
 ![](assets/ext_account_6.png)
 
-외부 계정을 **[!UICONTROL Bounce mails (defaultPopAccount)]** 구성하려면:
+**[!UICONTROL Bounce mails (defaultPopAccount)]** 외부 계정을 구성하려면:
 
 * **[!UICONTROL Server]**
 
@@ -76,7 +76,7 @@ POP3 액세스를 위해 구성된 모든 서버를 사용하여 회신 메일�
 
 * **[!UICONTROL Port]**
 
-   POP3 연결 포트 번호. 기본 포트는 110입니다.
+   POP3 연결 포트 번호입니다. 기본 포트는 110입니다.
 
 * **[!UICONTROL Account]**
 
@@ -84,15 +84,15 @@ POP3 액세스를 위해 구성된 모든 서버를 사용하여 회신 메일�
 
 * **[!UICONTROL Password]**
 
-   사용자 계정 암호.
+   사용자 계정 암호입니다.
 
 * **[!UICONTROL Encryption]**
 
-   선택한 암호화 유형 **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]****[!UICONTROL POP3]** 또는 **[!UICONTROL POP3S]**&#x200B;중
+   **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** 또는 **[!UICONTROL POP3S]** 사이의 선택한 암호화 유형입니다.
 
 ## 외부 계정 라우팅 {#routing-external-account}
 
-외부 계정을 사용하면 설치된 패키지에 따라 Adobe Campaign에서 사용할 수 있는 각 채널을 구성할 수 있습니다. **[!UICONTROL Routing]**
+**[!UICONTROL Routing]** 외부 계정을 사용하면 설치된 패키지에 따라 Adobe Campaign에서 사용할 수 있는 각 채널을 구성할 수 있습니다.
 
 ![](assets/ext_account_7.png)
 
@@ -110,9 +110,9 @@ POP3 액세스를 위해 구성된 모든 서버를 사용하여 회신 메일�
 
 ## FTP 외부 계정 {#ftp-external-account}
 
-FTP 외부 계정을 사용하면 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 FTP 서버 898과 같은 외부 시스템과의 연결을 설정하려면 자체 외부 계정을 만들 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/file-transfer.md)를 참조하십시오.
+FTP 외부 계정을 사용하면 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 FTP 서버 898과 같은 외부 시스템과의 연결을 설정하려면 자신의 외부 계정을 만들 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/file-transfer.md)를 참조하십시오.
 
-이렇게 하려면 FTP 서버에 대한 연결을 설정하는 데 사용되는 주소와 자격 증명을 이 외부 계정에 지정합니다
+이렇게 하려면 이 외부 계정에서 FTP 서버에 대한 연결을 설정하는 데 사용되는 주소와 자격 증명을 지정합니다
 
 ![](assets/ext_account_8.png)
 
@@ -122,7 +122,7 @@ FTP 외부 계정을 사용하면 Adobe Campaign 외부의 서버에 대한 액�
 
 * **[!UICONTROL Port]**
 
-   FTP 연결 포트 번호. 기본 포트는 21입니다.
+   FTP 연결 포트 번호입니다. 기본 포트는 21입니다.
 
 * **[!UICONTROL Account]**
 
@@ -130,36 +130,36 @@ FTP 외부 계정을 사용하면 Adobe Campaign 외부의 서버에 대한 액�
 
 * **[!UICONTROL Password]**
 
-   사용자 계정 암호.
+   사용자 계정 암호입니다.
 
 * **[!UICONTROL Encryption]**
 
-   또는 간에 선택한 암호화 **[!UICONTROL None]** 유형 **[!UICONTROL SSL]**.
+   **[!UICONTROL None]** 또는 **[!UICONTROL SSL]** 사이의 선택한 암호화 유형입니다.
 
-이러한 자격 증명을 찾을 위치를 알려면 이 [페이지를 참조하십시오](https://help.dreamhost.com/hc/en-us/articles/115000675027-FTP-overview-and-credentials).
+이러한 자격 증명을 찾을 위치를 알려면 이 [페이지](https://help.dreamhost.com/hc/en-us/articles/115000675027-FTP-overview-and-credentials)를 참조하십시오.
 
 ## 외부 데이터베이스 외부 계정 {#external-database-external-account}
 
-외부 **데이터베이스** 유형 외부 계정을 사용하여 외부 데이터베이스에 연결합니다. 이 섹션에서 FDA(Federated Data Access) 옵션에 대한 자세한 [내용을 살펴보십시오](../../installation/using/about-fda.md).
+외부 데이터베이스에 연결하려면 **외부 데이터베이스** 외부 데이터베이스 유형을 사용합니다. [이 섹션](../../installation/using/about-fda.md)에서 통합 데이터 액세스(FDA) 옵션에 대한 자세한 내용을 살펴보십시오.
 
-Campaign과 호환되는 외부 데이터베이스는 [호환성 매트릭스에 나열되어 있습니다](../../rn/using/compatibility-matrix.md)
+Campaign과 호환되는 외부 데이터베이스가 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)에 나열됩니다.
 
 ![](assets/ext_account_11.png)
 
 외부 계정 구성 설정은 데이터베이스 엔진에 따라 다릅니다. 다음 섹션에서 자세한 내용을 살펴보십시오.
 
-* [Azure synapse 액세스 구성](../../installation/using/configure-fda-synapse.md)
-* [Hadoop 액세스 구성](../../installation/using/configure-fda-hadoop.md)
-* [Oracle 액세스 구성](../../installation/using/configure-fda-oracle.md)
-* [Netezza 액세스 구성](../../installation/using/configure-fda-netezza.md)
-* [SAP HANA 액세스 구성](../../installation/using/configure-fda-sap-hana.md)
-* Snowflake에 대한 액세스 [구성](../../installation/using/configure-fda-snowflake.md)
-* [Sybase IQ 액세스 구성](../../installation/using/configure-fda-sybase.md)
-* [Teradata 액세스 구성](../../installation/using/configure-fda-teradata.md)
+* [Azure synapse](../../installation/using/configure-fda-synapse.md)에 대한 액세스 권한 구성
+* [Hadoop](../../installation/using/configure-fda-hadoop.md)에 대한 액세스 권한 구성
+* [Oracle](../../installation/using/configure-fda-oracle.md)에 대한 액세스 권한 구성
+* [Netezza](../../installation/using/configure-fda-netezza.md)에 대한 액세스 권한 구성
+* [SAP HANA](../../installation/using/configure-fda-sap-hana.md)에 대한 액세스 권한 구성
+* [Snowflake](../../installation/using/configure-fda-snowflake.md)에 대한 액세스 권한 구성
+* [Sybase IQ](../../installation/using/configure-fda-sybase.md)에 대한 액세스 권한 구성
+* [Teradata](../../installation/using/configure-fda-teradata.md)에 대한 액세스 권한 구성
 
 ## 웹 분석 외부 계정 {#web-analytics-external-account}
 
-외부 계정을 사용하면 세그먼트 형태로 Adobe Analytics의 데이터를 Adobe Campaign으로 전달할 수 있습니다. **[!UICONTROL Web Analytics (Adobe Analytics - Data connector)]** 반대로, 이 엔진은 Adobe Campaign이 Adobe Analytics - 데이터 커넥터로 제공하는 이메일 캠페인의 지표와 속성을 전송합니다.
+**[!UICONTROL Web Analytics (Adobe Analytics - Data connector)]** 외부 계정을 사용하면 세그먼트 형태로 Adobe Analytics의 데이터를 Adobe Campaign으로 전달할 수 있습니다. 반대로, Adobe Campaign이 제공하는 이메일 캠페인의 지표와 특성을 Adobe Analytics - 데이터 커넥터로 전송합니다.
 
 ![](assets/ext_account_10.png)
 
@@ -167,15 +167,15 @@ Campaign과 호환되는 외부 데이터베이스는 [호환성 매트릭스에
 
 ## Facebook 연결 외부 계정 {#facebook-connect-external-account}
 
-외부 계정을 사용하면 Facebook 애플리케이션에 개인화된 컨텐츠를 표시할 수 있으므로 이 소셜 네트워크를 통해 잠재 고객을 더 쉽게 확보할 수 있습니다. **[!UICONTROL Facebook Connect]**
+**[!UICONTROL Facebook Connect]** 외부 계정을 사용하면 Facebook 애플리케이션에 개인화된 컨텐츠를 표시할 수 있으므로 이 소셜 네트워크를 통해 잠재 고객을 더 쉽게 확보할 수 있습니다.
 
-각 Facebook 애플리케이션에 대해 **[!UICONTROL Facebook Connect]** 유형 외부 계정을 만들어야 합니다. For more on this, refer to [page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+각 Facebook 애플리케이션에 대해 외부 계정 유형을 **[!UICONTROL Facebook Connect]** 입력해야 합니다. 자세한 내용은 [페이지](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)를 참조하십시오.
 
 ![](assets/ext_account_12.png)
 
 * **[!UICONTROL Hosting mode]**
 
-   응용 프로그램의 호스팅 모드 **[!UICONTROL hosted by a partner]** 를 **[!UICONTROL hosted by this instance]**&#x200B;사용합니다.
+   **[!UICONTROL hosted by a partner]** 또는 **[!UICONTROL hosted by this instance]** 사이의 응용 프로그램의 호스팅 모드입니다.
 
 * **[!UICONTROL Application ID]**
 
@@ -183,11 +183,11 @@ Campaign과 호환되는 외부 데이터베이스는 [호환성 매트릭스에
 
 * **[!UICONTROL Application secret]**
 
-   Facebook 애플리케이션의 앱 암호
+   Facebook 애플리케이션의 앱 비밀입니다.
 
-이 인스턴스 모드에서 호스팅된 URL을 선택한 경우 Facebook의 **Facebook 웹 게임(https)** 필드에 붙여 넣어야 합니다
+이 인스턴스 모드에서 호스팅된 URL을 선택한 경우 보안 캔버스 URL을 Facebook의 **Facebook 웹 게임(https)** 필드에 붙여 넣어야 합니다
 
-이러한 자격 증명을 찾을 위치를 알려면 이 [페이지를 참조하십시오](https://developers.facebook.com/docs/facebook-login/access-tokens).
+이러한 자격 증명을 찾을 위치를 알려면 이 [페이지](https://developers.facebook.com/docs/facebook-login/access-tokens)를 참조하십시오.
 
 ## 실행 인스턴스 외부 계정 {#execution-instance-external-account}
 
@@ -197,7 +197,7 @@ Campaign과 호환되는 외부 데이터베이스는 [호환성 매트릭스에
 
 * **[!UICONTROL URL]**
 
-   실행 인스턴스가 설치된 서버의 URL.
+   실행 인스턴스가 설치된 서버의 URL입니다.
 
 * **[!UICONTROL Account]**
 
@@ -207,9 +207,9 @@ Campaign과 호환되는 외부 데이터베이스는 [호환성 매트릭스에
 
    연산자 폴더에 정의된 계정의 암호입니다.
 
-For more information on this configuration, refer to this [page](../../message-center/using/creating-a-shared-connection.md#control-instance).
+이 구성에 대한 자세한 내용은 이 [페이지](../../message-center/using/creating-a-shared-connection.md#control-instance)를 참조하십시오.
 
-## Adobe Experience Cloud external account {#adobe-experience-cloud-external-account}
+## Adobe Experience Cloud 외부 계정 {#adobe-experience-cloud-external-account}
 
 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL Adobe Experience Cloud (MAC)]** 외부 계정을 구성해야 합니다.
 
@@ -221,7 +221,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL 
 
 * **[!UICONTROL IMS scope]**
 
-   여기에 정의된 범위는 IMS에서 제공하는 범위 중 일부여야 합니다.
+   여기에 정의된 범위는 IMS에서 제공하는 범위의 하위 집합이어야 합니다.
 
 * **[!UICONTROL IMS client identifier]**
 
@@ -229,7 +229,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL 
 
 * **[!UICONTROL IMS client secret]**
 
-   IMS 클라이언트 암호 자격 증명.
+   IMS 클라이언트 비밀의 자격 증명.
 
 * **[!UICONTROL Callback server]**
 
@@ -237,7 +237,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL 
 
 * **[!UICONTROL IMS organization ID]**
 
-   IMS 조직의 ID. 조직 ID를 찾으려면 이 [페이지](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html) (**IMS 조직 ID는 어디에서 찾을 수 있습니까?**)를 참조하십시오.
+   IMS 조직의 ID. 조직 ID를 찾으려면 이 [페이지](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html)(**내 IMS 조직 ID를 어디에서 찾을 수 있습니까?**)를 참조하십시오.
 
 * **[!UICONTROL Association mask]**
 
@@ -251,21 +251,21 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL 
 
    Adobe Experience Cloud 테넌트의 이름입니다.
 
-For more information on this configuration, refer to this [page](../../integrations/using/configuring-ims.md).
+이 구성에 대한 자세한 내용은 이 [페이지](../../integrations/using/configuring-ims.md)를 참조하십시오.
 
 ## SFTP 외부 계정 {#sftp-external-account}
 
-SFTP 외부 계정을 사용하면 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 SFTP와 같은 외부 시스템과의 연결을 설정하려면 자체 외부 계정을 만들 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/file-transfer.md)를 참조하십시오.
+SFTP 외부 계정을 사용하면 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 SFTP와 같은 외부 시스템과의 연결을 설정하려면 자신의 외부 계정을 만들 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/file-transfer.md)를 참조하십시오.
 
 ![](assets/ext_account_4.png)
 
 * **[!UICONTROL Server]**
 
-   SFTP 서버의 URL.
+   SFTP 서버의 URL입니다.
 
 * **[!UICONTROL Port]**
 
-   FTP 연결 포트 번호. 기본 포트는 22입니다.
+   FTP 연결 포트 번호입니다. 기본 포트는 22입니다.
 
 * **[!UICONTROL Account]**
 
@@ -277,7 +277,7 @@ SFTP 외부 계정을 사용하면 Adobe Campaign 외부의 서버에 대한 액
 
 ## Adobe Experience Manager 외부 계정 {#adobe-experience-manager-external-account}
 
-외부 계정을 사용하면 Adobe Experience Manager에서 직접 양식을 비롯한 이메일 게재 컨텐츠를 관리할 수 있습니다. **[!UICONTROL AEM (AEM instance)]**
+**[!UICONTROL AEM (AEM instance)]** 외부 계정을 사용하면 양식을 Adobe Experience Manager에서 직접 관리할 수 있을 뿐만 아니라 이메일 배달의 컨텐츠도 관리할 수 있습니다.
 
 ![](assets/ext_account_5.png)
 
@@ -313,26 +313,26 @@ Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe 
 
 * **[!UICONTROL AWS access key ID]**
 
-   AWS 액세스 키 ID를 어디에서 찾을 것인지 알아보려면 이 [페이지를 참조하십시오](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
+   AWS 액세스 키 ID를 찾을 위치를 알려면 이 [페이지](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)를 참조하십시오.
 
 * **[!UICONTROL Secret access key to AWS]**
 
-   AWS에 대한 비밀 액세스 키를 찾을 위치를 알려면 이 [페이지를 참조하십시오](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+   AWS에 대한 비밀 액세스 키를 찾을 위치를 알려면 이 [페이지](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)를 참조하십시오.
 
 * **[!UICONTROL AWS Region]**
 
-   AWS 리전에 대한 자세한 내용은 이 [페이지를 참조하십시오](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
+   AWS 리전에 대한 자세한 내용은 이 [페이지](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)를 참조하십시오.
 
-* 이 확인란을 **[!UICONTROL Use server side encryption]** 사용하면 파일을 S3 암호화 모드로 저장할 수 있습니다.
+* **[!UICONTROL Use server side encryption]** 확인란을 사용하여 파일을 S3 암호화 모드로 저장할 수 있습니다.
 
-액세스 키 ID와 비밀 액세스 키를 찾는 방법에 대해 알아보려면 Amazon 웹 서비스 [설명서를 참조하십시오](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
+액세스 키 ID 및 비밀 액세스 키를 찾을 위치를 알아보려면 Amazon 웹 서비스 [설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)를 참조하십시오.
 
 ## Microsoft Dynamics CRM 외부 계정 {#microsoft-dynamics-crm-external-account}
 
-외부 계정을 사용하여 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. **[!UICONTROL Microsoft Dynamics CRM]**
+**[!UICONTROL Microsoft Dynamics CRM]** 외부 계정을 사용하여 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
 
-Microsoft Dynamics 커넥터가 Adobe Campaign에서 작동하도록 구성하는 경우 배포 유형에 따라 다릅니다.
-배포 유형 **[!UICONTROL On-premise]** 과 **[!UICONTROL Office 365]** 함께 다음 세부 정보를 제공해야 합니다.
+Microsoft Dynamics 커넥터가 Adobe Campaign에서 작동하도록 구성하는 것은 배포 유형에 따라 다릅니다.
+**[!UICONTROL On-premise]** 및 **[!UICONTROL Office 365]** 배포 유형을 사용하는 경우 다음 세부 정보를 제공해야 합니다.
 
 ![](assets/ext_account_21.png)
 
@@ -352,16 +352,16 @@ Microsoft Dynamics 커넥터가 Adobe Campaign에서 작동하도록 구성하�
 
    회사 이름입니다.
 
-* **[!UICONTROL Organization name]** 온프레미스 배포용
+* **[!UICONTROL Organization name]** 온-프레미스 배포용
 
    조직의 이름입니다.
-Microsoft Dynamics의 개발자 리소스 대시보드에 있는 조직 **[!UICONTROL Unique Name]** 이름입니다.
+Microsoft Dynamics, **[!UICONTROL Unique Name]** 필드의 개발자 리소스 대시보드에 있는 조직 이름입니다.
 
 * **[!UICONTROL CRM version]** 온프레미스
 
-   또는 사이에 있는 CRM 버전 **[!UICONTROL Dynamics CRM 2007]****[!UICONTROL Dynamics CRM 2015]** 의 **[!UICONTROL Dynamics CRM 2016]** CRM
+   **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** 또는 **[!UICONTROL Dynamics CRM 2016]** 사이의 CRM 버전
 
-배포 **[!UICONTROL Web API]** 유형 및 **[!UICONTROL Password credentials]** 인증을 사용하여 다음 세부 정보를 제공해야 합니다.
+**[!UICONTROL Web API]** 배포 유형 및 **[!UICONTROL Password credentials]** 인증을 사용하여 다음 세부 정보를 제공해야 합니다.
 
 ![](assets/ext_account_14.png)
 
@@ -375,13 +375,13 @@ Microsoft Dynamics의 개발자 리소스 대시보드에 있는 조직 **[!UICO
 
 * **[!UICONTROL Client identifier]**
 
-   카테고리, **[!UICONTROL Update your code]** **[!UICONTROL Client ID]** 필드의 Microsoft Azure 관리 포털에서 찾을 수 있는 클라이언트 ID.
+   **[!UICONTROL Update your code]** 카테고리 **[!UICONTROL Client ID]** 필드의 Microsoft Azure 관리 포털에서 찾을 수 있는 클라이언트 ID.
 
 * **[!UICONTROL CRM version]**
 
-   또는 사이에 있는 CRM 버전 **[!UICONTROL Dynamics CRM 2007]****[!UICONTROL Dynamics CRM 2015]** 의 **[!UICONTROL Dynamics CRM 2016]** CRM
+   **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** 또는 **[!UICONTROL Dynamics CRM 2016]** 사이의 CRM 버전
 
-배포 **[!UICONTROL Web API]** 유형 및 **[!UICONTROL Certificate]** 인증을 사용하여 다음 세부 정보를 제공해야 합니다.
+**[!UICONTROL Web API]** 배포 유형 및 **[!UICONTROL Certificate]** 인증을 사용하여 다음 세부 정보를 제공해야 합니다.
 
 ![](assets/ext_account_22.png)
 
@@ -399,43 +399,43 @@ Microsoft Dynamics의 개발자 리소스 대시보드에 있는 조직 **[!UICO
 
 * **[!UICONTROL Client identifier]**
 
-   카테고리, **[!UICONTROL Update your code]** **[!UICONTROL Client ID]** 필드의 Microsoft Azure 관리 포털에서 찾을 수 있는 클라이언트 ID.
+   **[!UICONTROL Update your code]** 카테고리 **[!UICONTROL Client ID]** 필드의 Microsoft Azure 관리 포털에서 찾을 수 있는 클라이언트 ID.
 
 * **[!UICONTROL CRM version]**
 
-   또는 사이에 있는 CRM 버전 **[!UICONTROL Dynamics CRM 2007]****[!UICONTROL Dynamics CRM 2015]** 의 **[!UICONTROL Dynamics CRM 2016]** CRM
+   **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** 또는 **[!UICONTROL Dynamics CRM 2016]** 사이의 CRM 버전
 
-For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md#example-for-microsoft-dynamics).
+이 구성에 대한 자세한 내용은 이 [페이지](../../platform/using/crm-connectors.md#example-for-microsoft-dynamics)를 참조하십시오.
 
-## Oracle 주문형 외부 계정 {#oracle-on-demand-external-account}
+## Oracle on-demand 외부 계정 {#oracle-on-demand-external-account}
 
-외부 계정을 사용하면 Oracle 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. **[!UICONTROL Oracle on demand]**
+**[!UICONTROL Oracle on demand]** 외부 계정을 사용하면 Oracle 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
 
 ![](assets/ext_account_18.png)
 
-Adobe Campaign과 연동되도록 Oracle 온디맨드 외부 계정을 구성하려면 다음 세부 정보를 제공해야 합니다.
+Adobe Campaign에서 작동하도록 Oracle on-demand 외부 계정을 구성하려면 다음 세부 정보를 제공해야 합니다.
 
 * **[!UICONTROL Account]**
 
-   oracle CRM on-demand에 로그인하는 데 사용되는 계정입니다.
+   On-Demand 방식으로 Oracle CRM에 로그인하는 데 사용되는 계정입니다.
 
 * **[!UICONTROL Server]**
 
-   oracle CRM 온디맨드 서버의 URL.
+   oracle CRM on demand 서버의 URL.
 
 * **[!UICONTROL Password]**
 
-   oracle CRM on-demand에 로그인하는 데 사용되는 암호입니다.
+   On-Demand 방식으로 Oracle CRM에 로그인하는 데 사용되는 암호입니다.
 
-For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md#example-for-oracle-on-demand).
+이 구성에 대한 자세한 내용은 이 [페이지](../../platform/using/crm-connectors.md#example-for-oracle-on-demand)를 참조하십시오.
 
 ## Salesforce CRM 외부 계정 {#salesforce-crm-external-account}
 
-외부 계정을 사용하면 Salesforce 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. **[!UICONTROL Salesforce CRM]**
+**[!UICONTROL Salesforce CRM]** 외부 계정을 사용하면 Salesforce 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
 
 ![](assets/ext_account_17.png)
 
-Salesforce CRM 외부 계정이 Adobe Campaign과 연동되도록 구성하려면 다음 세부 정보를 제공해야 합니다.
+Salesforce CRM 외부 계정이 Adobe Campaign에서 작동하도록 구성하려면 다음 세부 정보를 제공해야 합니다.
 
 * **[!UICONTROL Account]**
 
@@ -447,16 +447,16 @@ Salesforce CRM 외부 계정이 Adobe Campaign과 연동되도록 구성하려�
 
 * **[!UICONTROL Client identifier]**
 
-   클라이언트 식별자를 찾을 위치를 알려면 이 [페이지를 참조하십시오](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+   클라이언트 식별자를 찾을 위치를 알려면 이 [페이지](https://help.salesforce.com/articleView?id=000205876&amp;type=1)를 참조하십시오.
 
 * **[!UICONTROL Security token]**
 
-   보안 토큰을 찾을 위치를 알려면 이 [페이지를 참조하십시오](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+   보안 토큰을 찾을 위치를 알려면 이 [페이지](https://help.salesforce.com/articleView?id=000205876&amp;type=1)를 참조하십시오.
 
 * **[!UICONTROL API version]**
 
-   또는 사이에 있는 API의 버전 **[!UICONTROL Version 37]****[!UICONTROL Version 21]****[!UICONTROL Version 15]**.
+   **[!UICONTROL Version 37]**, **[!UICONTROL Version 21]** 또는 **[!UICONTROL Version 15]** 사이의 API 버전.
 
 이 외부 계정의 경우 구성 마법사를 사용하여 Salesforce CRM을 구성해야 합니다.
 
-For more information on this configuration, refer to this [page](../../platform/using/crm-connectors.md#example-for-salesforce-com).
+이 구성에 대한 자세한 내용은 이 [페이지](../../platform/using/crm-connectors.md#example-for-salesforce-com)를 참조하십시오.
