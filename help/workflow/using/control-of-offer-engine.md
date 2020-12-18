@@ -17,7 +17,7 @@ ht-degree: 26%
 
 # 오퍼 엔진 제어{#control-of-offer-engine}
 
-아래에 자세히 설명된 워크플로우는 기본적으로 실행 인스턴스 **** 모듈과 함께 오퍼 엔진 컨트롤과 함께 설치됩니다.
+아래에 자세히 설명된 워크플로우는 기본적으로 실행 인스턴스&#x200B;**모듈이 있는 오퍼 엔진의 컨트롤과 함께 설치됩니다.**
 
 <table> 
  <tbody> 
@@ -28,8 +28,8 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">제안 동기화</span> <br /> </td> 
-   <td> <span class="uicontrol">제안 동기화</span> <br /> </td> 
-   <td> 이 워크플로우는 상호 작용에 사용되는 실행 인스턴스와 마케팅 인스턴스 간에 위치를 동기화합니다.<br /> </td> 
+   <td> <span class="uicontrol">provisionSynch</span> <br /> </td> 
+   <td> 이 작업 과정은 마케팅 인스턴스와 상호 작용에 사용된 실행 인스턴스 간에 proposition을 동기화합니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
