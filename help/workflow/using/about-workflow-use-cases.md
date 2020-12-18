@@ -19,9 +19,9 @@ ht-degree: 66%
 
 # 워크플로우 사용 사례 기본 정보 {#about-workflow-use-cases}
 
-이 섹션에서는 캠페인 워크플로우 기능을 활용하는 다양한 사용 사례를 확인할 수 있습니다.
+이 섹션에서는 캠페인 워크플로우 기능을 활용하는 다양한 활용 사례를 확인할 수 있습니다.
 
-워크플로우가 사용되고 사용자의 요구 사항에 응답할 수 있는 다양한 컨텍스트를 파악하는 데 도움이 됩니다.
+워크플로우가 사용되고 필요에 따라 대응할 수 있는 다양한 컨텍스트를 파악하는 데 도움이 됩니다.
 
 ## 게재 {#deliveries}
 
@@ -52,7 +52,7 @@ ht-degree: 66%
 * [요약 목록 만들기](../../workflow/using/creating-a-summary-list.md)
 * [데이터 강화](../../workflow/using/enriching-data.md)
 * [집계 사용](../../workflow/using/using-aggregates.md)
-* [Campaign 컨트롤 패널에서 생성된 키를 사용하여 데이터를 암호화 가져오기](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
+* [Campaign 컨트롤 패널에서 생성된 키를 사용하여 암호화된 데이터 가져오기](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
 * [Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [증분 쿼리를 사용한 분기별 목록 업데이트](../../workflow/using/quarterly-list-update.md)
 
