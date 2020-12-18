@@ -17,67 +17,67 @@ ht-degree: 0%
 
 # 발행 템플릿{#publication-templates}
 
-## 발행물 템플릿 정보 {#about-publication-templates}
+## 게시 템플릿 정보 {#about-publication-templates}
 
-게시 템플릿은 게시할 컨텐츠의 ID 카드입니다. 게시 프로세스에서 사용되는 리소스(예:
+게시 템플릿은 게시할 컨텐츠의 ID 카드입니다. 게시 프로세스에 사용되는 리소스(예:
 
 * 데이터 스키마,
-* 입력 양식
-* 각 출력 문서에 대한 변형 템플릿입니다.
+* 입력 양식,
+* 각 출력 문서의 변형 템플릿입니다.
 
-## 발행물 템플릿 식별 {#identification-of-a-publication-template}
+## 게시 템플릿 {#identification-of-a-publication-template} 식별
 
 발행물 템플릿은 이름 및 네임스페이스로 식별됩니다.
 
-스타일시트의 ID 키는 네임스페이스와 콜론으로 구분된 이름으로 구성된 문자열입니다.예를 들면 다음과 같습니다. **cus:newsletter**.
+스타일시트의 ID 키는 네임스페이스로 구성된 문자열 및 콜론으로 구분된 이름입니다.예를 들면 다음과 같습니다.**cus:newsletter**.
 
 >[!NOTE]
 >
 >실제로는 스키마, 양식 및 게시 템플릿에 동일한 키를 사용하는 것이 좋습니다.
 
-## Creating and configuring the template {#creating-and-configuring-the-template}
+## 템플릿 {#creating-and-configuring-the-template} 만들기 및 구성
 
 게시 템플릿은 기본적으로 **[!UICONTROL Administration > Configuration > Publication templates]** 노드에 저장됩니다. 새 템플릿을 만들려면 템플릿 목록 위의 **[!UICONTROL New]** 단추를 클릭합니다.
 
-게시 템플릿을 구성하려면 템플릿의 이름(이름 및 네임스페이스로 구성된 식별 키), 해당 레이블, 데이터 스키마 및 연결된 입력 양식을 채웁니다.
+게시 템플릿을 구성하려면 템플릿 이름(이름 및 네임스페이스로 구성된 ID 키), 해당 레이블, 데이터 스키마 및 연결된 입력 양식을 채웁니다.
 
 ![](assets/d_ncs_content_model.png)
 
 >[!NOTE]
 >
->이 발행물 템플릿을 기반으로 콘텐츠를 만들 때마다 레이블이 표시됩니다.
+>이 게시 템플릿을 기반으로 콘텐츠를 만들 때마다 레이블이 표시됩니다.
 
-컨텐츠 생성 **의** 유효성 검사 상태 옵션을 사용하면 컨텐츠 인스턴스의 &quot;유효함&quot; 상태를 확인하여 파일 생성을 승인합니다. For more on this, refer to [Publication](#publication).
+내용 생성&#x200B;**상태를 검사하여 내용 생성&lt;a1/> 옵션을 선택하면 콘텐트 인스턴스의 &quot;유효성 검사됨&quot; 상태를 확인하여 파일 생성을 인증합니다.** 자세한 내용은 [발행물](#publication)을 참조하십시오.
 
-각 출력 문서에 변형 템플릿을 추가해야 합니다. 필요한 만큼 변형 템플릿을 만들 수 있습니다.
+각 출력 문서에 대해 변형 템플릿을 추가해야 합니다. 필요한 만큼 변형 템플릿을 만들 수 있습니다.
 
-이 **[!UICONTROL Name of template]** 필드는 출력에서 렌더링 유형을 설명하는 자유 레이블입니다. 각 변형 템플릿의 경우 탭에서 발행물 설정을 사용할 수 있습니다.
+**[!UICONTROL Name of template]** 필드는 출력에서의 렌더링 유형을 설명하는 무료 레이블입니다. 각 변형 템플릿의 경우 탭에서 발행물 설정을 사용할 수 있습니다.
 
-### 렌더링 {#rendering}
+### {#rendering} 렌더링
 
-탭에서 다음을 **[!UICONTROL Rendering]** 선택합니다.
+**[!UICONTROL Rendering]** 탭에서 다음을 선택합니다.
 
 * 출력 문서를 투영하는 데 사용되는 렌더링 유형:XSL 스타일시트 또는 JavaScript 템플릿,
 * 출력 문서의 형식:HTML, 텍스트, XML 또는 RTF,
 * 구성 데이터를 포함하는 템플릿(예: 사용할 스타일시트 또는 JavaScript 템플릿)
 
-### 발행물 {#publication}
+### 게시 {#publication}
 
-선택한 유형이 있는 경우 발행물에서는 파일 형태로 출력 문서를 생성합니다 **[!UICONTROL File]**.
+선택한 유형이 **[!UICONTROL File]**&#x200B;인 경우 발행물에서는 출력 문서를 파일 형식으로 생성합니다.
 
 ![](assets/d_ncs_content_model2.png)
 
 다음 게시 옵션을 사용할 수 있습니다.
 
-* 출력 파일 인코딩 문자 집합은 필드를 통해 강제 설정될 수 **[!UICONTROL Encoding]** 있습니다. 기본적으로 라틴 1(1252) 문자 집합이 사용됩니다.
-* 이 **[!UICONTROL Multi-file generation]** 옵션은 특수 문서 게시 모드를 활성화합니다. 이 옵션은 출력 문서의 각 페이지 시작 부분에 분할 태그를 채우는 것으로 구성됩니다. 컨텐트를 생성하면 채워진 분할 태그에 대한 파일이 생성됩니다. 이 모드는 컨텐츠 블록에서 미니 사이트를 생성하는 데 사용됩니다. for more on this, refer to [Multi-file generation](#multi-file-generation).
-* 필드 **[!UICONTROL Location]** 에는 출력 파일의 이름이 포함되어 있습니다. 자동 파일 이름을 생성하려면 변수로 이름을 구성할 수 있습니다.
+* 출력 파일 인코딩 문자 집합은 **[!UICONTROL Encoding]** 필드를 통해 강제로 설정할 수 있습니다. 기본적으로 라틴 1(1252) 문자 집합이 사용됩니다.
+* **[!UICONTROL Multi-file generation]** 옵션은 특수 문서 게시 모드를 활성화합니다. 이 옵션은 출력 문서의 각 페이지 시작 부분에 분할 태그를 채우는 것으로 구성됩니다. 컨텐트를 생성하면 채워진 분할 태그에 대한 파일이 생성됩니다. 이 모드는 컨텐츠 블록에서 미니 사이트를 생성하는 데 사용됩니다. 자세한 내용은 [다중 파일 생성](#multi-file-generation)을 참조하십시오.
+* **[!UICONTROL Location]** 필드에는 출력 파일의 이름이 포함되어 있습니다. 자동 파일 이름을 생성하기 위해 이 이름은 변수로 구성할 수 있습니다.
 
-   변수는 다음 형식으로 채워집니다. **`$(<xpath>)`**, where **`<xpath>`** is the path of a field of the publication template data schema.
+   변수는 다음 형식으로 채워집니다.**`$(<xpath>)`**. 여기서 **`<xpath>`**&#x200B;은 발행물 템플릿 데이터 스키마의 필드 경로입니다.
 
-   파일의 이름은 날짜 유형 필드로 구성될 수 있습니다. 이 필드의 형식을 올바로 지정하려면 필드 경로 및 출력 형식을 매개 변수로 사용하여 **$date-format** 함수를 사용하십시오.
+   파일 이름은 날짜 유형 필드로 구성될 수 있습니다. 이 필드의 형식을 올바르게 지정하려면 필드 경로와 출력 형식을 매개 변수로 사용하여 **$date-format** 함수를 사용합니다.
 
-   기본적으로 파일 이름의 구성 형식은 &quot;@name&quot; 및 &quot;@date&quot; 필드의 변수를 사용합니다.
+   기본적으로 파일 이름의 구성 형식은 &quot;@name&quot; 및 &quot;@date&quot; 필드에 변수를 사용합니다.
 
    ```
    ct_$(@name)_$date-format(@date,'%4Y%2M%2D').htm
@@ -87,7 +87,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >콘텐츠 생성에 대한 자세한 내용은 콘텐츠 인스턴스 [만들기를 참조하십시오](../../delivery/using/using-a-content-template.md#creating-a-content-instance).
+   >콘텐츠 생성에 대한 자세한 내용은 [콘텐츠 인스턴스 만들기](../../delivery/using/using-a-content-template.md#creating-a-content-instance)를 참조하십시오.
 
 ### 게재 {#delivery}
 
@@ -97,23 +97,23 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->컨텐츠를 기반으로 하는 배달 작성의 예는 컨텐츠 인스턴스 [배달을 참조하십시오](../../delivery/using/using-a-content-template.md#delivering-a-content-instance).
+>컨텐츠를 기반으로 하는 배달 만들기의 예는 [콘텐츠 인스턴스 제공](../../delivery/using/using-a-content-template.md#delivering-a-content-instance)을 참조하십시오.
 
 ### 수집기 {#aggregator}
 
-스크립트 또는 쿼리 목록에서 데이터를 집계하면 컨텐츠 데이터로 XML 문서를 보완할 수 있습니다. 목적은 링크로 참조되는 특정 정보를 보충하거나 데이터베이스에서 요소를 추가하는 것입니다.
+스크립트 또는 쿼리 목록에서 데이터를 집계하면 내용 데이터로 XML 문서를 보완할 수 있습니다. 목적은 링크에서 참조하는 특정 정보를 보충하거나 데이터베이스에서 요소를 추가하는 것입니다.
 
 ### 다중 파일 생성 {#multi-file-generation}
 
-여러 파일 생성을 활성화하려면 게시 모델에서 **[!UICONTROL Multi-file generation]** 옵션을 선택합니다. 이 옵션을 사용하면 출력 문서의 각 페이지 시작 부분에 대해 스타일시트에서 분할 태그를 지정할 수 있습니다. 컨텐츠 생성은 생성된 분할 태그마다 파일을 생성합니다.
+여러 파일 생성을 활성화하려면 게시 모델에서 **[!UICONTROL Multi-file generation]** 옵션을 선택합니다. 이 옵션을 사용하면 출력 문서의 각 페이지 시작 부분에 대해 스타일시트에서 분할 태그를 지정할 수 있습니다. 컨텐츠 생성은 발견된 각 분할 태그마다 파일을 생성합니다.
 
-The partitioning tag to be integrated in the stylesheet:
+스타일시트에 통합할 분할 태그는 다음과 같습니다.
 
 **`<xsl:comment> #nl:output_replace(<name_of_file>) </xsl:comment>`** 여기서 **`<name_of_file>`** 는 생성할 페이지의 파일 이름입니다.
 
-**예:** &quot;cus:book&quot; 스키마를 사용한 여러 파일 생성
+**예:** &quot;cus:book&quot; 스키마를 사용한 여러 파일 생성.
 
-장(chapter)의 세부 사항을 외부 페이지에 표시할 수 있는 기본 페이지를 생성하는 것이 기본 원칙입니다.
+기본 방법은 외부 페이지에 장 세부 사항을 표시할 수 있는 기본 페이지를 생성하여 장 목록을 표시하는 것입니다.
 
 ![](assets/d_ncs_content_chunk.png)
 
@@ -140,7 +140,7 @@ The partitioning tag to be integrated in the stylesheet:
 </xsl:stylesheet>
 ```
 
-장에 대한 세부 사항을 생성하려면 두 번째 스타일시트(&quot;cus:chapter.xsl&quot;)가 필요합니다.
+장에 대한 세부 정보를 생성하려면 두 번째 스타일시트(&quot;cus:chapter.xsl&quot;)가 필요합니다.
 
 ```
 <?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -173,12 +173,12 @@ The partitioning tag to be integrated in the stylesheet:
 <xsl:comment> #nl:output_replace($(path)/<xsl:value-of select="@id"/>.htm)</xsl:comment>
 ```
 
-파일 이름은 **$(path)** 변수 **`<xsl:value-of select="@id" />`**&#x200B;로 작성되며 발행물 경로와 입력 문서의 장 식별자와 일치하는 것입니다.
+파일 이름은 입력 문서의 장 식별자와 일치하는 게시 경로와 **`<xsl:value-of select="@id" />`****(path)** 변수로 구성됩니다.
 
-출판 모델은 &quot;cus:book.xsl&quot; 및 &quot;cus:chapter.xsl&quot; 스타일 시트로 채워야 합니다.
+출판 모델은 &quot;cus:book.xsl&quot; 및 &quot;cus:chapter.xsl&quot; 스타일 시트 두 개로 채워야 합니다.
 
-장 변환 모델에서 이 **[!UICONTROL Multi-file generation]** 옵션이 활성화되어 있어야 합니다.
+**[!UICONTROL Multi-file generation]** 옵션은 장 변형 모델에서 활성화해야 합니다.
 
 ![](assets/d_ncs_content_chunk2.png)
 
-이 **[!UICONTROL Location]** 필드는 여러 파일을 생성하는 데 사용되지 않지만 게시할 때 오류를 방지하려면 이 필드를 채워야 합니다.
+**[!UICONTROL Location]** 필드는 여러 파일을 생성하는 데 사용되지 않지만 게시할 때 오류가 발생하지 않도록 이 필드를 채워야 합니다.
