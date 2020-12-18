@@ -15,11 +15,11 @@ ht-degree: 0%
 ---
 
 
-# Implementing IMS{#implementing-ims}
+# IMS 구현{#implementing-ims}
 
 ## IMS 연결 활성화 {#enabling-the-ims-connection}
 
-1. IMS를 통해 연결을 활성화하려면 콘솔의 연결 창 **[!UICONTROL Connect with an Adobe ID]** 에서 확인합니다.
+1. IMS를 통해 연결을 활성화하려면 콘솔 연결 창에서 **[!UICONTROL Connect with an Adobe ID]**&#x200B;을(를) 선택합니다.
 
    ![](assets/ims_1.png)
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
    ![](assets/ims_2.png)
 
-## IMS 연결 비활성화 {#disabling-the-ims-connection}
+## IMS 연결 {#disabling-the-ims-connection} 비활성화
 
-Adobe ID을 통한 연결을 비활성화하려면 연결을 끊고 을 클릭하고 **[!UICONTROL File > Connections]** 선택을 취소합니다 **[!UICONTROL Connect with an Adobe ID]**.
+Adobe ID을 통해 연결을 비활성화하려면 연결을 끊으려면 **[!UICONTROL File > Connections]**&#x200B;을 클릭하고 **[!UICONTROL Connect with an Adobe ID]**&#x200B;의 선택을 취소합니다.
 
 ![](assets/ims_4.png)
 
