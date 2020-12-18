@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
 
-# Get Started with Campaign Classic{#about-adobe-campaign-classic}
+# Campaign Classic 시작{#about-adobe-campaign-classic}
 
 높은 수준의 고객 참여도와 훌륭한 경험을 제공하려면 브랜드는 모든 접점에서 일관된 고객 여정을 만들어야 합니다. 마케터는 이제 마케팅 투자에 대한 높은 수익을 제공하고 충성도를 높일 수 있는 크로스 채널 마케팅 캠페인을 효율적으로 디자인, 계획, 실행, 관리 및 최적화할 수 있습니다.
 
@@ -23,9 +23,9 @@ Adobe Campaign을 사용하면 대화형 마케팅 캠페인 만들기를 조정
 
 >[!NOTE]
 >
->Adobe Campaign Classic은 v6.11 및 v7에서 사용할 수 있습니다. Except when mentioned, help materials apply to both versions, in the [latest build](../../rn/using/latest-release.md). 스크린샷은 Campaign Classic v7 사용자 인터페이스를 반영합니다.
+>Adobe Campaign Classic은 v6.11 및 v7에서 사용할 수 있습니다. 언급된 경우를 제외하고, 도움말 자료는 [최신 빌드](../../rn/using/latest-release.md)에서 두 버전 모두에 적용됩니다. 스크린샷은 Campaign Classic v7 사용자 인터페이스를 반영합니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오의 주요 기능 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png) [비디오의 주요 기능 및 기능 살펴보기](#video)
 
 ## 주요 기능 {#key-capabilities}
 
@@ -93,4 +93,4 @@ Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 �
 
 >[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
-추가 Campaign Classic 방법 비디오는 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
