@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # LINE 채널{#line-channel}
 
-아래에 자세히 설명된 워크플로우는 기본적으로 **LINE 채널** 모듈과 함께 설치됩니다. For more on this module, refer to this [section](../../delivery/using/line-channel.md).
+아래에 자세히 설명된 워크플로우는 기본적으로 **LINE 채널** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../delivery/using/line-channel.md)을 참조하십시오.
 
 <table> 
  <tbody> 
@@ -38,8 +38,8 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MID에서 LineUserID 마이그레이션</span> <br /> </td> 
-   <td> <span class="uicontrol">MIDToUserIDMigning</span> <br /> </td> 
-   <td> 이 워크플로우는 LINE V1에서 LINE V2로 마이그레이션하기 위한 LINE V2 사용자 ID를 생성합니다.<br /> </td> 
+   <td> <span class="uicontrol">MIDToUserIDMigation</span> <br /> </td> 
+   <td> 이 워크플로우에서는 LINE V1에서 LINE V2로 마이그레이션하기 위한 LINE V2 사용자 ID를 생성합니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
