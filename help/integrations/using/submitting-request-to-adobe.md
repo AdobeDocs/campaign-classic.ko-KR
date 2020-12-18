@@ -19,9 +19,9 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->계속 진행하려면 시스템에서 IMS가 활성화되어 있는지 확인하십시오. IMS에 대한 섹션 [을 참조하십시오.](../../integrations/using/about-adobe-id.md).
+>계속 진행하려면 시스템에서 IMS가 활성화되어 있는지 확인하십시오. [IMS](../../integrations/using/about-adobe-id.md)에 대한 섹션을 참조하십시오.
 
-IMS가 활성화되면 Campaign과 사람 핵심 서비스/Audience Manager 통합 제공을 요청할 수 있습니다. 이렇게 하려면 Digital-Request@adobe.com으로 이메일을 [보내](mailto:Digital-Request@adobe.com) 다음 정보를 확인하십시오.
+IMS가 활성화되면 Adobe Campaign과 사람 핵심 서비스/Audience Manager 통합 제공을 요청할 수 있습니다. 이렇게 하려면 다음 정보와 함께 [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com)으로 이메일을 보내십시오.
 
 <table> 
  <tbody> 
@@ -42,8 +42,8 @@ IMS가 활성화되면 Campaign과 사람 핵심 서비스/Audience Manager 통�
    <td> 예:프로덕션 </td> 
   </tr> 
   <tr> 
-   <td> <strong>AAM 또는 People Service</strong><br /> </td> 
-   <td> 예:Adobe Audience Manager. Audience Manager 라이선스 소유 여부에 관계없이 프로비저닝 팀에 문의하십시오.</td> 
+   <td> <strong>AAM 또는 사용자 서비스</strong><br /> </td> 
+   <td> 예:Adobe Audience Manager. Audience Manager 라이선스 소유 여부에 관계 없이 프로비저닝 팀에 문의하십시오.</td> 
   </tr> 
   <tr> 
    <td> <strong>선언된 ID 또는 방문자 ID</strong><br /> </td> 
