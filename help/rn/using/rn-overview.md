@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
+source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 94%
 
 ---
 
@@ -37,13 +37,13 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 **최신 RC 빌드**[는 Campaign Classic 20.3 릴리스](../../rn/using/latest-release.md)입니다.
 
-![](assets/do-not-localize/orange3.png) **더 이상 사용할 수 없음** - 최신 빌드로 업데이트가 필요합니다.
-
-![](assets/do-not-localize/red3.png) **사용하지 않음** - 새 빌드로 업데이트는 필수입니다.
+![](assets/do-not-localize/red3.png) **가치 하락**  - 배포가 없습니다. 기존 구현을 업그레이드해야 합니다.
 
 ## 추천{#recommendations}
 
 안정적인 구성을 위해서는 동일한 클라이언트 구성에서 실행 중인 모든 서버에 동일한 안정적인 빌드를 설치하는 것이 좋습니다.
+
+또한 클라이언트 콘솔은 서버 인스턴스와 동일한 빌드에 있어야 합니다.
 
 구현을 최신 상태로 유지하려면 각 새로운 릴리스에 포함된 [사용되지 않거나 제거된 기능](../../rn/using/deprecated-features.md) 및 [호환성 매트릭스](../../rn/using/compatibility-matrix.md) 페이지를 참조하십시오.
 
