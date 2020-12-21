@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
+source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,10 @@ Adobe Campaign은 업데이트 중에 조작해야 하는 서버 측에서 실�
 * 응용 프로그램 서버(nlserver 웹)
 * 배달 서버(nlserver mta)
 * 리디렉션 서버(웹 mdl)
+
+>[!CAUTION]
+>
+>클라이언트 콘솔은 서버 인스턴스와 동일한 빌드에 있어야 합니다.
 
 >[!NOTE]
 >
