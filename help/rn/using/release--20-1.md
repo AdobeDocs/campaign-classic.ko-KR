@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 6%
@@ -17,19 +17,19 @@ ht-degree: 6%
 
 # 릴리스 20.1{#release-20-1}
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1.3 - 빌드 9124{#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/red_2.png) 릴리스 20.1.3 - 빌드 9124{#release-20-1-3-build-9124}
 
 _2020년 5월 6일_
 
 * SFTP 키 기반 인증이 Debian 9에서 작동하지 않는 **파일 전송** 활동 문제를 해결했습니다. (NEO-23183)
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1.2 - 빌드 9123{#release-20-1-2-build-9123}
+## ![](assets/do-not-localize/red_2.png) 릴리스 20.1.2 - 빌드 9123{#release-20-1-2-build-9123}
 
 _2020년 3월 13일_
 
 * Red Hat 7 서버에 버전을 배포하지 못했던 문제를 수정했습니다. (NEO-23332)
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 20.1 - 빌드 9122{#release-20-1-build-9122}
+## ![](assets/do-not-localize/red_2.png) 릴리스 20.1 - 빌드 9122{#release-20-1-build-9122}
 
 _2020년 2월 17일_
 
