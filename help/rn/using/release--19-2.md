@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # 릴리스 19.2{#release-19-2}
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 19.2.3 - 빌드 9081 {#release-19-2-3-build-9081}
+## ![](assets/do-not-localize/red_2.png) 릴리스 19.2.3 - 빌드 9081 {#release-19-2-3-build-9081}
 
 _2020년 2월 7일_
 
@@ -26,7 +26,7 @@ _2020년 2월 7일_
 * Windows 서버에서 사용자 연결이 실패하는 SSL 인증 구현으로 인한 회귀 문제를 해결했습니다. (NEO-20629)
 * **정보** 메뉴에 잘못된 버전 태그 번호가 표시되던 문제를 수정했습니다.
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 19.2 - 빌드 9080 {#release-19-2-build-9080}
+## ![](assets/do-not-localize/red_2.png) 릴리스 19.2 - 빌드 9080 {#release-19-2-build-9080}
 
 _2019년 12월 02일_
 
