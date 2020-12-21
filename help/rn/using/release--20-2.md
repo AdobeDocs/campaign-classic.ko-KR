@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 9cf995fe58b6afd89ee54724c97681f39994eba9
+source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
 workflow-type: tm+mt
 source-wordcount: '2201'
 ht-degree: 100%
@@ -32,7 +32,7 @@ _2020년 9월 11일_
 * nlserver(오류 로그)의 잘못된 시작을 야기하는 업그레이드 후 회기를 해결합니다.
 * 공유 메모리에 대한 업데이트 관리가 개선되었습니다. 20.2에서 필요한 추가 단계는 더 이상 필요하지 않습니다.
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 20.2.2 - 빌드 9180 {#release-20-2-2-build-9180}
+## ![](assets/do-not-localize/red_2.png) 릴리스 20.2.2 - 빌드 9180 {#release-20-2-2-build-9180}
 
 _2020년 7월 22일_
 
@@ -57,7 +57,7 @@ _2020년 7월 22일_
 
 ![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 20.2.1 - 빌드 9178 {#release-20-2-1-build-9178}
+## ![](assets/do-not-localize/red_2.png) 릴리스 20.2.1 - 빌드 9178 {#release-20-2-1-build-9178}
 
 _2020년 6월 8일_
 
