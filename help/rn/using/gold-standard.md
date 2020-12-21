@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: f9584342d81b53ad5854b30b7c4970b0aba6d4ff
+source-git-commit: e4cdeddaeb19f3ab7d601343d2a2c91f1c27822b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 100%
@@ -35,7 +35,7 @@ _2020년 7월 7일_
 
 >[!CAUTION]
 >
->이 릴리스에서 사용할 수 있는 클라이언트 콘솔을 업그레이드하는 것이 좋습니다. [이 페이지](../../installation/using/installing-the-client-console.md) 참조
+>이 릴리스에서 사용할 수 있는 클라이언트 콘솔을 업그레이드하는 것이 좋습니다. [이 페이지](../../installation/using/installing-the-client-console.md)를 참조하십시오
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 9 릴리스{#gs-9}
 
@@ -78,7 +78,7 @@ _2020년 4월 29일_
 * 정리 워크플로우가 충돌하는 회귀 문제를 해결했습니다.
 * 정리 워크플로우 로그에서 사소한 회귀 문제를 해결했습니다.
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 6 릴리스{#gs-6}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 6 릴리스{#gs-6}
 
 _2020년 3월 9일_
 
@@ -86,7 +86,7 @@ _2020년 3월 9일_
 
 * SSL을 통해 FTP를 사용하는 외부 계정 문제를 해결했습니다. (NEO-20498)
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 5 릴리스{#gs-5}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 5 릴리스{#gs-5}
 
 _2019년 12월 17일_
 
@@ -94,7 +94,7 @@ _2019년 12월 17일_
 
 * 모바일(SMS, MMS), 푸시(iOS, Android) 및 소셜 네트워크(Facebook, Twitter)와 같은 통신 채널의 추적 문제를 해결했습니다. (NEO-19595)
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 4 릴리스{#gs-4}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 4 릴리스{#gs-4}
 
 _2019년 12월 11일_
 
@@ -102,7 +102,7 @@ _2019년 12월 11일_
 
 * MSSQL 데이터베이스를 사용하여 메시지를 전송할 때 성능 문제를 해결했습니다. (NEO-17558)
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 3 릴리스{#gs-3}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 3 릴리스{#gs-3}
 
 _2019년 11월 20일_
 
