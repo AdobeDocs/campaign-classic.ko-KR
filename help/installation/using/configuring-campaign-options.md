@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
 workflow-type: tm+mt
 source-wordcount: '3927'
 ht-degree: 1%
@@ -204,7 +204,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>이 옵션은 실행 중인 배달 수를 계산할 때 <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> 기술 워크플로우에서 사용됩니다.</p>이 보고서를 사용하면 불일치 상태의 배달이 실행 중인 배달 수에서 제외되는 상위 일 수를 정의할 수 있습니다.</p><p>기본적으로 이 값은 "7"으로 설정되어 있으므로 7일 이전의 일관성 없는 배달이 제외됩니다.</p></td> 
+   <td><p>이 옵션은 실행 중인 배달 수를 계산할 때 <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> 기술 워크플로우에서 사용됩니다.</p>이 보고서를 사용하면 불일치 상태의 배달이 실행 중인 배달 수에서 제외되는 상위 일 수를 정의할 수 있습니다.</p><p>기본적으로 이 값은 "7"으로 설정되어 있으므로 7일 이전의 일관성 없는 배달이 제외됩니다.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -360,7 +360,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> <a href="../../workflow/using/campaign.md">operationMgt</a> 기술 워크플로 실행을 모니터링할 수 있습니다. 활성화되면(값 "1") 실행 정보가 워크플로우 감사 로그에 기록됩니다.<br /> </td> 
+   <td> <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a> 기술 워크플로 실행을 모니터링할 수 있습니다. 활성화되면(값 "1") 실행 정보가 워크플로우 감사 로그에 기록됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 
