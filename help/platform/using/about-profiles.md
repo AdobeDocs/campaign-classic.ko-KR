@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 18%
@@ -105,7 +105,7 @@ Adobe Campaign 탐색기의 일반 레이아웃은 [Adobe Campaign 탐색기 사
 >
 >페이스북과 트위터 채널은 고려되지 않습니다.
 
-Campaign Standard **[!UICONTROL Administration > Campaign Management > Customer metrics]** 메뉴에서 **[!UICONTROL Number of active profiles]**&#x200B;에 대한 개요를 알 수 있습니다. 실제 개수는 **[!UICONTROL Number of active billing profiles]**(**[!UICONTROL billingActiveContactCount]**) [기술 워크플로우](../../workflow/using/deliveries.md)에 의해 수행되며, 매일 실행되고 **[!UICONTROL Customer metrics]** 메뉴에서 현재 기간 동안 기존 보고서에 새 데이터를 추가합니다. 각 기간은 12개월 동안 지속됩니다.
+Campaign Standard **[!UICONTROL Administration > Campaign Management > Customer metrics]** 메뉴에서 **[!UICONTROL Number of active profiles]**&#x200B;에 대한 개요를 알 수 있습니다. 실제 개수는 **[!UICONTROL Number of active billing profiles]**(**[!UICONTROL billingActiveContactCount]**) [기술 워크플로우](../../workflow/using/about-technical-workflows.md)에 의해 수행되며, 매일 실행되고 **[!UICONTROL Customer metrics]** 메뉴에서 현재 기간 동안 기존 보고서에 새 데이터를 추가합니다. 각 기간은 12개월 동안 지속됩니다.
 
 ## 자습서 비디오 {#create-profiles-video}
 
