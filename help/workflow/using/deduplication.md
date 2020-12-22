@@ -7,9 +7,9 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 55e2297c5c60a48be230d06a3c1880d79b8ea5f2
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '1089'
 ht-degree: 10%
 
 ---
@@ -18,6 +18,29 @@ ht-degree: 10%
 # 중복 제거{#deduplication}
 
 중복 제거는 인바운드 활동 결과로부터 중복 항목을 삭제합니다. 데이터 중복 제거는 이메일 주소, 전화 번호 또는 다른 필드에서 수행할 수 있습니다.
+
+**[!UICONTROL Deduplication]** 활동은 데이터 세트에서 중복 행을 제거하는 데 사용됩니다. 예를 들어, 아래 레코드는 동일한 이메일 주소와 동일한 모바일 및/또는 홈 전화를 가지고 있으므로 중복으로 간주할 수 있습니다.
+
+| 마지막 수정 날짜 | 이름 | 성 | 이메일 | 휴대폰 | 전화 |
+-----|------------|-----------|-------|--------------|------
+| 02/03/2020 | Bob | 티너 | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+| 05/19/2020 | 로버트 | 티너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 07/22/2020 | 바비 | 티너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+
+**[!UICONTROL Deduplication]** 활동에는 중복 항목이 식별된 후 전체 행을 고유 레코드로 유지하는 기능이 있습니다. 예를 들어 위의 사용 사례에서 활동이 가장 오래된 **[!UICONTROL Date]**&#x200B;의 레코드만 유지하도록 구성된 경우 결과는 다음과 같습니다.
+
+| 날짜 | 이름 | 성 | 이메일 | 휴대폰 | 전화 |
+-----|----------|------------|-------|--------------|------
+| 02/03/2020 | Bob | 티너 | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+
+선택한 마스터 레코드는 중복 행의 다른 관련 데이터와 필드 데이터를 병합하지 않고 데이터를 전달합니다.
+
+보완:
+
+| 날짜 | 이름 | 성 | 이메일 | 휴대폰 | 전화 |
+-----|------------|-----------|-------|--------------|------
+| 05/19/2020 | 로버트 | 티너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 07/22/2020 | 바비 | 티너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 ## 권장사항 {#best-practices}
 
@@ -34,15 +57,11 @@ ht-degree: 10%
 
 데이터 중복 제거를 구성하려면 레이블, 방법, 데이터 중복 제거 기준 및 결과에 대한 옵션을 입력합니다.
 
-데이터 중복 제거 모드를 정의하려면 **[!UICONTROL Edit configuration...]** 링크를 클릭합니다.
+1. 데이터 중복 제거 모드를 정의하려면 **[!UICONTROL Edit configuration...]** 링크를 클릭합니다.
 
-![](assets/s_user_segmentation_dedup_param.png)
+   ![](assets/s_user_segmentation_dedup_param.png)
 
-1. Target 선택
-
-   이 활동에 대한 타겟 유형(기본적으로 데이터 중복 제거와 관련된 수신자)과 사용할 기준(예: 동일한 값을 사용하여 중복 항목을 식별할 수 있는 필드)을 선택합니다.이메일 주소, 모바일 또는 전화 번호, 팩스 번호 또는 다이렉트 메일 주소.
-
-   ![](assets/s_user_segmentation_dedup_param2.png)
+1. 이 활동에 대한 대상 유형(기본적으로 데이터 중복 제거는 수신자에게 연결되어 있음)과 사용할 기준(예: 동일한 값을 사용하여 중복 항목을 식별할 수 있는 필드)을 선택합니다.
 
    >[!NOTE]
    >
@@ -50,11 +69,13 @@ ht-degree: 10%
    >
    >다음 단계에서 **[!UICONTROL Other]** 옵션을 사용하여 사용할 기준 또는 기준을 선택할 수 있습니다.
 
+   ![](assets/s_user_segmentation_dedup_param2.png)
+
+1. 다음 단계에서, **[!UICONTROL Other]** 옵션을 사용하면 동일한 값의 경우에 사용할 기준이나 기준을 선택할 수 있습니다.
+
    ![](assets/s_user_segmentation_dedup_param3.png)
 
-1. 데이터 중복 제거 방법
-
-   드롭다운 목록에서 사용할 데이터 중복 제거 방법을 선택하고 보관할 중복 항목의 수를 입력합니다.
+1. 드롭다운 목록에서 사용할 데이터 중복 제거 방법을 선택하고 보관할 중복 항목의 수를 입력합니다.
 
    ![](assets/s_user_segmentation_dedup_param4.png)
 
@@ -72,7 +93,11 @@ ht-degree: 10%
    * **[!UICONTROL Using an expression]**:지정된 표현식의 최저(또는 최고) 값으로 레코드를 유지할 수 있습니다.
 
       ![](assets/s_user_segmentation_dedup_param7.png)
-   선택한 중복 제거 방법을 승인하려면 **[!UICONTROL Finish]**&#x200B;을 클릭합니다.
+   >[!NOTE]
+   >
+   >**[!UICONTROL Advanced parameters]** 링크를 통해 액세스할 수 있는 **[!UICONTROL Merge]** 기능을 사용하면 필드 또는 필드 그룹을 하나의 결과 데이터 레코드에 병합하기 위해 규칙 세트를 구성할 수 있습니다. 자세한 내용은 [필드를 단일 레코드](#merging-fields-into-single-record)로 병합을 참조하십시오.
+
+1. 선택한 중복 제거 방법을 승인하려면 **[!UICONTROL Finish]**&#x200B;을 클릭합니다.
 
    창의 가운데 섹션에 정의된 구성이 요약됩니다.
 
@@ -80,7 +105,7 @@ ht-degree: 10%
 
    ![](assets/s_user_segmentation_dedup_param8.png)
 
-   나머지 모집단을 활용하려면 **[!UICONTROL Generate complement]** 옵션을 선택합니다. 그 보수는 모든 복제로 구성되어 있다. 그러면 다음과 같이 활동에 추가 전환이 추가됩니다.
+1. 나머지 모집단을 활용하려면 **[!UICONTROL Generate complement]** 옵션을 선택합니다. 그 보수는 모든 복제로 구성되어 있다. 그러면 다음과 같이 활동에 추가 전환이 추가됩니다.
 
    ![](assets/s_user_segmentation_dedup_param9.png)
 
@@ -109,6 +134,32 @@ ht-degree: 10%
 1. 식별된 중복 레코드가 임의로 선택되도록 **[!UICONTROL Choose for me]** 데이터 중복 제거 모드를 선택한 다음 **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
 
 워크플로우를 실행할 때 중복으로 식별된 모든 수신자는 결과로부터 제외되어(따라서 배달) 중복 목록에 추가됩니다. 이 목록은 중복 항목을 다시 식별하지 않고 다시 사용할 수 있습니다.
+
+## 필드를 단일 데이터 레코드 {#merging-fields-into-single-record}로 병합
+
+**[!UICONTROL Merge]** 기능을 사용하면 데이터 중복 제거에 대한 규칙 세트를 구성하여 하나의 결과 데이터 레코드에 병합할 필드 또는 그룹 정의
+
+예를 들어 중복 레코드 집합을 사용하여 가장 오래된 전화 번호 또는 가장 최근 이름을 유지하도록 선택할 수 있습니다.
+
+이 기능을 활용하는 사용 사례는 [이 섹션](../../workflow/using/deduplication-merge.md)에서 사용할 수 있습니다.
+
+이렇게 하려면 다음 단계를 수행합니다.
+
+1. **[!UICONTROL Deduplication method]** 선택 단계에서 **[!UICONTROL Advanced Parameters]** 링크를 클릭합니다.
+
+   ![](assets/dedup1.png)
+
+1. **[!UICONTROL Merge records]** 옵션을 선택하여 기능을 활성화합니다.
+
+   병합 조건마다 여러 데이터 필드를 그룹화하려면 **[!UICONTROL Use several record merging criteria]** 옵션을 활성화합니다.
+
+   ![](assets/dedup2.png)
+
+1. 기능을 활성화하면 **[!UICONTROL Merge]** 탭이 **[!UICONTROL Deduplication]** 활동에 추가됩니다. 이를 통해 병합할 필드 그룹과 관련 규칙을 정의할 수 있습니다.
+
+   자세한 내용은 [이 섹션](../../workflow/using/deduplication-merge.md)에서 사용할 수 있는 전용 사용 사례를 참조하십시오.
+
+   ![](assets/dedup3.png)
 
 ## 입력 매개 변수 {#input-parameters}
 
