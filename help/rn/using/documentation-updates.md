@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: b1d75ff748bab08b45c55621b63e7565564e113d
 workflow-type: tm+mt
-source-wordcount: '3668'
-ht-degree: 98%
+source-wordcount: '3729'
+ht-degree: 97%
 
 ---
 
@@ -28,6 +28,12 @@ ht-degree: 98%
 배달 로그에 보낸 사람의 IP 주소를 추가하는 방법에 사용 사례가 추가되었습니다. [자세한 내용](../../delivery/using/delivery-dashboard.md#use-case)
 
 개인 정보 FAQ가 [이 섹션](../../platform/using/privacy-faq.md)으로 이동되었습니다.
+
+데이터 중복 제거 작업의 병합 기능을 사용하는 방법에 대한 사용 사례가 추가되었습니다. [자세한 내용](../../workflow/using/deduplication-merge.md)
+
+SMS 커넥터 프로토콜 및 설정 페이지가 [여기](../../delivery/using/sms-protocol.md)로 이동되었습니다.
+
+액세스 권한 문제를 방지하기 위해 이벤트 폴더를 실행 인스턴스의 보기로 설정하지 말아야 한다는 경고를 하기 위해 트랜잭션 메시지 섹션에 메모를 추가했습니다. [자세한 내용](../../message-center/using/event-collection.md)
 
 ## 2020년 11월 {#nov-2020}
 
