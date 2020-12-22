@@ -7,7 +7,7 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 11%
@@ -51,4 +51,3 @@ Once the control and execution modules are installed on the same instance, you m
    * **[!UICONTROL Ignored by the delivery]** :이 상태는 배달 로그에서 복사됩니다. 게재가 무시되었다는 뜻입니다.
    * **[!UICONTROL Delivery failed]** :이 상태는 배달 로그에서 복사됩니다. 게재에 실패했다는 뜻입니다.
    * **[!UICONTROL Event not taken into account]** :이벤트를 메시지 템플릿에 연결할 수 없습니다. 이벤트가 처리되지 않습니다.
-
