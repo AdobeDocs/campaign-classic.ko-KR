@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
+source-git-commit: 26f232fafbcc39eb710135a1fc937e40a76ad0bd
 workflow-type: tm+mt
-source-wordcount: '2201'
-ht-degree: 100%
+source-wordcount: '2483'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,30 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 Campaign 컨트롤 패널 릴리스**. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
-## ![](assets/do-not-localize/green_2.png) 릴리스 20.2.3 - 빌드 9182 {#release-20-2-3-build-9182}
+## ![](assets/do-not-localize/green_2.png) 릴리스 20.2.4 - 빌드 9187 {#release-20-2-4-build-9187}
+
+_2020년 12월 22일_
+
+>[!CAUTION]
+>
+>이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 2020년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결할 수 있으려면 업그레이드가 필요합니다.
+
+**개선 사항**
+
+* 새 IMS 인증 메커니즘을 따르도록 연결 프로토콜이 업데이트되었습니다.
+* 파이프라인 액세스를 위한 oAUTH 인증 설정을 기반으로 원래 통합 인증을 트리거했습니다. [자세한 내용](../../integrations/using/configuring-adobe-io.md)
+* iOS APNs 레거시 이진 프로토콜에 대한 지원이 종료된 후 업그레이드 후 이 프로토콜을 사용하는 모든 인스턴스가 HTTP/2 프로토콜로 업데이트됩니다.
+* SSRF(Server Side Request 위조) 문제에 대한 보호를 강화하려는 보안 문제가 해결되었습니다. (NEO-27777)
+* 연결 오류 후 SMPP 커넥터를 비활성화하여 다른 SMS 배달이 전송되지 못하도록 하고 성능 문제가 발생하는 문제를 해결했습니다. (NEO-28609)
+* 식 구문 분석기를 지울 때 메모리 손상을 방지하여 서버 충돌 문제를 해결했습니다. (NEO-26856)
+* 워크플로우에서 **분할** 작업 중 나머지 부분의 타겟 데이터를 표시할 때 서버가 충돌하는 문제를 해결했습니다.
+* **수신자**(nms:recipient)가 아닌 다른 스키마에서 쿼리 후에 SMS 메시지를 미리 볼 때 오류 메시지를 표시하는 문제를 해결했습니다. (NEO-27517)
+* 호스트 이름에 명시적으로 정의된 포트 번호로 HTTPS 연결 요청을 할 때 인증서 오류로 인해 호출이 실패하던 문제를 수정했습니다. (NEO-29146)
+* 마케팅 인스턴스에서 큰 코어 덤프 파일을 생성한 POSIX 스레드 관리의 문제를 수정했습니다. (NEO-28117, NEO-29281)
+* 배달 준비 시 또는 반복 배달 미리 보기에서 웹 프로세스가 중단되는 문제를 해결했습니다. (NEO-27790, NEO-27517)
+* 관리자가 아닌 연산자에 의해 트리거될 때 게재 또는 증명 전송이 실패하는 문제를 해결했습니다. (NEO-28597)
+
+## ![](assets/do-not-localize/red_2.png) 릴리스 20.2.3 - 빌드 9182 {#release-20-2-3-build-9182}
 
 _2020년 9월 11일_
 
