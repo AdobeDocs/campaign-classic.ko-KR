@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 647a872d71d19802d7334a6e8f881f8d7ad94d13
+source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
 workflow-type: tm+mt
-source-wordcount: '2950'
+source-wordcount: '2984'
 ht-degree: 2%
 
 ---
@@ -451,3 +451,7 @@ Adobe Campaign 액세스 권한 매트릭스는 [여기](/help/platform/using/as
 다음 배달이 보기에 표시됩니다.
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
+
+>[!NOTE]
+>
+>[트랜잭션 메시징](../../message-center/using/about-transactional-messaging.md) 이벤트를 관리할 때 액세스 권한 문제가 발생할 수 있으므로 **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 폴더를 실행 인스턴스에서 보기로 설정할 수 없습니다. 이벤트 컬렉션에 대한 자세한 내용은 [이 섹션](../../message-center/using/event-collection.md)을 참조하십시오.
