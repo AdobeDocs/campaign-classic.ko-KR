@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: 787beef89325340cc1d46faa03e9cfae7f1c705c
 workflow-type: tm+mt
 source-wordcount: '1852'
 ht-degree: 98%
@@ -148,7 +148,7 @@ linux의 경우 _apache_neolane.conf_&#x200B;가 이제 `conf` 디렉터리에 �
 * Snowflake FDA 커넥터를 사용할 때 발생하는 문제를 해결했습니다. Snowflake FDA 액세스 이름 권한이 있는 사용자가 Snowflake 스키마에 대한 쿼리를 실행할 수 없습니다. 로그에 &quot;암호를 찾을 수 없음&quot; 유형의 오류가 표시되었습니다. (NEO-23851)
 * FDA 커넥터를 사용하는 경우 연결된 FDA 스키마 이름이 현재 스키마의 요소 이름의 하위 문자열에서 발생하던 문제를 해결했습니다. 예를 들어 FDA 스키마가 &quot;cust&quot;이고 수신자 스키마 내의 요소 중 하나가 &quot;고객&quot;인 경우 이러한 문제가 발생했습니다. &quot;customer&quot; 요소 내에서 열을 가져오고 &quot;cust&quot; FDA 스키마에서 열을 추가할 때 로컬 열에 대한 값이 누락되었습니다. (NEO-20193)
 * 외부 데이터베이스에서 레코드를 가져와 캠페인 데이터베이스에 삽입할 때의 워크플로우 문제를 해결했습니다. (NEO-26359)
-* 다음과 같은 **업데이트 이벤트 상태** 기술 워크플로우의 문제를 수정했습니다. **게재 통계** 활동에서 들어오는 해당 필드의 크기 조정을 일치시키기 위해 **업데이트 게재 통계** 활동에서 3개의 대상 필드 크기가 32비트에서 64비트로 변경되었습니다. (NEO-11557) **업데이트 이벤트 상태** 워크플로우에 대한 자세한 내용은 [이 섹션](../../workflow/using/message-center--execution-.md)에서 알아봅니다.
+* 다음과 같은 **업데이트 이벤트 상태** 기술 워크플로우의 문제를 수정했습니다. **게재 통계** 활동에서 들어오는 해당 필드의 크기 조정을 일치시키기 위해 **업데이트 게재 통계** 활동에서 3개의 대상 필드 크기가 32비트에서 64비트로 변경되었습니다. (NEO-11557) **업데이트 이벤트 상태** 워크플로우에 대한 자세한 내용은 [이 섹션](../../workflow/using/about-technical-workflows.md)에서 알아봅니다.
 * 필터를 적용하려고 할 때 스크립트 오류가 발생하고 날짜 범위별로 필터를 사용할 수 없게 하는 **메시지 센터 이벤트 내역** 보고서의 문제를 해결했습니다. (NEO-23365)
 * **Campaign 작업** (operationMgt) 및 **미리 보기** (예측) 기술 워크플로우 간의 간섭 문제를 해결했습니다. 이 문제는 예약된 게재가 &quot;Target 준비&quot; 또는 &quot;게재할 준비가 됨&quot; 상태에 있을 때 발생했습니다. (NEO-20819)
 * xtkOperator의 mdata 필드에 XML 식별자가 없을 때 XML 구문 분석 문제를 해결했습니다. 업그레이드 후 오류가 발생했습니다. (NEO-26113)
