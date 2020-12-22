@@ -9,10 +9,10 @@ topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 66%
+source-wordcount: '201'
+ht-degree: 64%
 
 ---
 
@@ -55,6 +55,7 @@ ht-degree: 66%
 * [Campaign 컨트롤 패널에서 생성된 키를 사용하여 암호화된 데이터 가져오기](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
 * [Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [증분 쿼리를 사용한 분기별 목록 업데이트](../../workflow/using/quarterly-list-update.md)
+* [데이터 중복 제거 작업의 병합 기능 사용](../../workflow/using/deduplication-merge.md)
 
 ## {#designing-queries} 타겟팅 
 
