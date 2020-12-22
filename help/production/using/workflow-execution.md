@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 3%
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 이 문제에는 몇 가지 원인이 있을 수 있으며 아래 단계에 따라 문제를 해결하십시오.
 
-1. [**[!UICONTROL operationMgt]**](../../workflow/using/campaign.md) 기술 워크플로우 상태를 확인합니다. 이 워크플로우는 캠페인 내의 작업 또는 워크플로우를 관리합니다. 실패하면 워크플로우가 시작/중지되지 않습니다. 캠페인 워크플로우 실행을 재개하려면 다시 시작합니다.
+1. [**[!UICONTROL operationMgt]**](../../workflow/using/about-technical-workflows.md) 기술 워크플로우 상태를 확인합니다. 이 워크플로우는 캠페인 내의 작업 또는 워크플로우를 관리합니다. 실패하면 워크플로우가 시작/중지되지 않습니다. 캠페인 워크플로우 실행을 재개하려면 다시 시작합니다.
 
    기술 워크플로우 모니터링에 대한 자세한 내용은 [이 페이지](../../workflow/using/monitoring-technical-workflows.md)를 참조하십시오.
 
