@@ -7,9 +7,9 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 7cd76b5a31ed9fc0e64a650316ea29293c628233
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '438'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # 게재{#deliveries}
 
-아래에 자세히 설명된 워크플로우는 기본적으로 설치됩니다.
+아래에 자세히 설명된 워크플로우는 기본적으로 **배달** 모듈과 함께 설치됩니다.
 
 <table> 
  <tbody> 
@@ -37,7 +37,7 @@ ht-degree: 6%
    <td> 이 워크플로우는 시스템 활동 보고서를 이메일로 '과금' 운영자에게 보냅니다. 기본적으로 매월 25일에 트리거됩니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">활성 청구 프로파일 수</span> <br /> </td> 
+   <td> <span class="uicontrol">청구(활성 프로파일)</span> <br /> </td> 
    <td> <span class="uicontrol">billingActiveContactCount</span> <br /> </td> 
    <td> <p>이 워크플로우는 활성 프로필 수를 계산합니다. 기본적으로 매일 밤 1시에 트리거됩니다.</p> <p>"<strong>프로필</strong>"은 정보 레코드를 의미합니다(예:최종 고객, 잠재 고객 또는 리드를 나타내는 쿠키 ID, 고객 ID, 모바일 식별자 또는 특정 채널과 관련된 기타 정보가 포함된 외부 테이블 또는 nmsRecipient 테이블의 레코드 청구 시 "활성" 프로필만 고려됩니다. 지난 12개월 이내에 채널을 통해 프로파일을 타깃팅하거나 커뮤니케이션한 경우 프로파일은 "활성"으로 간주됩니다.</p> <p>페이스북과 트위터 채널은 고려되지 않습니다.</p> <p><span class="uicontrol">관리</span> &gt; <span class="uicontrol">캠페인 관리</span> &gt; <span class="uicontrol">고객 지표</span> 메뉴에서 <span class="uicontrol">활성 프로필 수</span>에 대한 개요를 알 수 있습니다.</p> </td> 
   </tr> 
@@ -67,7 +67,7 @@ ht-degree: 6%
    <td> 이 워크플로우는 오퍼 카탈로그에 포함된 모든 카테고리는 물론, 승인된 오퍼를 온라인 환경에 배포합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">미리 보기</span> <br /> </td> 
+   <td> <span class="uicontrol">예측</span> <br /> </td> 
    <td> <span class="uicontrol">forecasting</span> <br /> </td> 
    <td> 이 워크플로우는 임시 달력에 저장된 배달 정보를 분석합니다(임시 로그 만들기). 기본적으로 매일 오전 1시에 트리거됩니다.<br /> </td> 
   </tr> 
