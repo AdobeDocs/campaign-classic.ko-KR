@@ -7,9 +7,9 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '881'
 ht-degree: 1%
 
 ---
@@ -204,7 +204,7 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 
 >[!CAUTION]
 >
->워크플로우를 실행하려면 캠페인 프로세스와 관련된 기술 워크플로우를 시작해야 합니다. 자세한 내용은 [캠페인 프로세스 워크플로 목록](../../workflow/using/campaign.md) 섹션을 참조하십시오.
+>워크플로우를 실행하려면 캠페인 패키지와 관련된 기술 워크플로우를 시작해야 합니다. 자세한 내용은 [기술 워크플로우 목록](../../workflow/using/about-technical-workflows.md) 섹션을 참조하십시오.
 >
 >캠페인에 대한 승인 단계가 활성화되면 이러한 단계가 확인된 경우에만 배달이 전송됩니다. 자세한 내용은 [승인할 프로세스 선택](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) 섹션을 참조하십시오.
 
