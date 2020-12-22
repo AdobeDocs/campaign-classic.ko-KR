@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '480'
 ht-degree: 3%
 
 ---
@@ -63,7 +63,10 @@ Campaign Classic에서 기본적으로 배달 템플릿은 **수신자**&#x200B;
 
 중복 제거 주소는 전송 명성을 보호하고 안전한 격리 관리를 보장합니다.
 
-이 사용 사례](../../workflow/using/deduplication.md#example--identify-the-duplicates-before-a-delivery)에서 [에 대해 자세히 알아보십시오.
+**관련 항목:**
+
+* [데이터 중복 제거](../../workflow/using/deduplication.md) 작업
+* [사용 사례:데이터 중복 제거 작업의 병합 기능 사용](../../workflow/using/deduplication-merge.md)
 
 ## 색인 이메일 주소 {#index-addresses}
 
