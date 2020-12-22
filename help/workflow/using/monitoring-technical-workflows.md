@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
@@ -58,7 +58,7 @@ ht-degree: 8%
 
 **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**&#x200B;의 경우:
 
-1. **[!UICONTROL Campaign process]** 폴더 아래에 있는 모든 워크플로우를 확인합니다. 자세한 정보는 이 [페이지](../../workflow/using/campaign.md)를 참조하십시오.
+1. **[!UICONTROL Campaign process]** 폴더 아래에 있는 모든 워크플로우를 확인합니다. 자세한 정보는 이 [페이지](../../workflow/using/about-technical-workflows.md)를 참조하십시오.
 1. 워크플로우가 예약대로 실행되고 저널에 반복 오류가 강조 표시되지 않는지 확인합니다.
 
 ## 워크플로 감독 {#workflow-supervision}
