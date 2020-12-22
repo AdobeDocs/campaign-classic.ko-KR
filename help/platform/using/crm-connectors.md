@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: c511c1ac4b9fccff30f73fcfd0db650d860514d2
 workflow-type: tm+mt
 source-wordcount: '2539'
 ht-degree: 4%
@@ -186,13 +186,13 @@ Microsoft Dynamics 커넥터가 Adobe Campaign에서 작동하도록 구성하�
 
    Adobe Campaign Classic은 인증을 위해 OAuth 프로토콜을 사용하는 Dynamics 365 REST 인터페이스를 지원합니다.
 
-   **[!UICONTROL WebAPI]** 배포를 선택하는 경우 Azure 디렉터리에 앱을 등록하고 Azure 디렉터리에서 **clientId**&#x200B;를 가져와야 합니다. 이 등록은 [이 페이지](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/mt622431(v=crm.8)?redirectedfrom=MSDN)에 기록되어 있습니다.
+   **[!UICONTROL WebAPI]** 배포를 선택하는 경우 Azure 디렉터리에 앱을 등록하고 Azure 디렉터리에서 **clientId**&#x200B;를 가져와야 합니다. 이 등록은 [이 페이지](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)에 기록되어 있습니다.
 
    >[!NOTE]
    >
    >redirectURL 매개 변수는 Adobe Campaign Classic에서 필요하지 않습니다.
 
-   **clientId** 값은 권한 부여 유형 암호를 사용하여 무기명 토큰을 가져오는 데 사용자 이름/암호와 함께 사용됩니다. 이를 **리소스 소유자 암호 자격 증명 부여**&#x200B;라고 합니다. 자세한 정보는 이 [페이지](https://blogs.msdn.microsoft.com/wushuai/2016/09/25/resource-owner-password-credentials-grant-in-azure-ad-oauth/)를 참조하십시오.
+   **clientId** 값은 권한 부여 유형 암호를 사용하여 무기명 토큰을 가져오는 데 사용자 이름/암호와 함께 사용됩니다. 이를 **리소스 소유자 암호 자격 증명 부여**&#x200B;라고 합니다. 자세한 정보는 이 [페이지](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth-ropc)를 참조하십시오.
 
    ![](assets/crm_connectors_msdynamics_01_3.png)
 
