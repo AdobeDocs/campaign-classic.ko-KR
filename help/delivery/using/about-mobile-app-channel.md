@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '755'
 ht-degree: 5%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 5%
 >* 경고:일부 국가에서는 수집한 데이터 유형 모바일 응용 프로그램 및 처리 목적을 사용자에게 알려야 합니다. 입법을 확인해야 한다.
 
 
-**[!UICONTROL NMAC opt-out management]**(mobileAppOptOutGt) 작업 과정은 모바일 장치에서 알림 구독 취소를 업데이트합니다. 이 워크플로에 대한 자세한 내용은 [워크플로우 가이드](../../workflow/using/mobile-app-channel.md)를 참조하십시오.
+**[!UICONTROL NMAC opt-out management]**(mobileAppOptOutGt) 작업 과정은 모바일 장치에서 알림 구독 취소를 업데이트합니다. 이 워크플로에 대한 자세한 내용은 [기술 워크플로우 목록](../../workflow/using/about-technical-workflows.md)을 참조하십시오.
 
 Adobe Campaign은 바이너리 및 HTTP/2 APN과 호환됩니다. 구성 단계에 대한 자세한 내용은 Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) 섹션에서 [모바일 응용 프로그램 구성을 참조하십시오.
 
