@@ -7,7 +7,7 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 2%
@@ -91,7 +91,7 @@ ht-degree: 2%
 
 ## 실행 인스턴스 {#execution-instance}
 
-제어 인스턴스가 암호를 제공하지 않고도 실행 인스턴스에 연결할 수 있도록 **메시지 센터** 액세스 권한 섹션에 제어 인스턴스의 IP 주소를 입력하면 됩니다. 그러나 기본적으로 빈 암호는 사용할 수 없습니다.
+제어 인스턴스에서 암호를 지정하지 않고도 실행 인스턴스에 연결할 수 있도록 하려면 **메시지 센터** 액세스 권한 섹션에 제어 인스턴스의 IP 주소를 입력하면 됩니다. 그러나 기본적으로 빈 암호는 사용할 수 없습니다.
 
 빈 암호를 사용하려면 실행 인스턴스로 이동하고 이벤트를 전달하는 정보 시스템의 IP 주소로 제한된 보안 영역을 정의합니다. 이 보안 영역은 빈 암호를 허용하고 `<identifier> / <password>` 유형 연결을 허용해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#defining-security-zones)을 참조하십시오.
 
