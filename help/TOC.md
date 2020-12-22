@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: c55897a4daf184b886d4e626d9216a4d43581ea1
 workflow-type: tm+mt
-source-wordcount: '2215'
-ht-degree: 98%
+source-wordcount: '2181'
+ht-degree: 97%
 
 ---
 
@@ -114,6 +114,8 @@ ht-degree: 98%
    + 모바일에 메시지 보내기 {#sending-messages-on-mobiles}
       + [SMS 채널](delivery/using/sms-channel.md)
       + [LINE 채널](delivery/using/line-channel.md)
+      + [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)
+      + [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
    + 푸시 알림 보내기 {#sending-push-notifications}
       + [모바일 앱 채널 기본 정보](delivery/using/about-mobile-app-channel.md)
       + [모바일 애플리케이션에 Campaign SDK 통합](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
@@ -438,6 +440,8 @@ ht-degree: 98%
          + [요약 목록 만들기](workflow/using/creating-a-summary-list.md)
          + [데이터 강화](workflow/using/enriching-data.md)
          + [집계 사용](workflow/using/using-aggregates.md)
+         + [데이터 중복 제거 작업의 병합 기능 사용](workflow/using/deduplication-merge.md)
+      + 쿼리 디자인 {#designing-queries}
          + [증분 쿼리를 사용한 분기별 목록 업데이트](workflow/using/quarterly-list-update.md)
       + {#designing-queries} 타겟팅 
          + [수신자 테이블 쿼리](workflow/using/querying-recipient-table.md)
@@ -461,26 +465,7 @@ ht-degree: 98%
       + [활동 이미지 관리](workflow/using/managing-activity-images.md)
       + [성향 관리](workflow/using/managing-propensity.md)
       + [시간대 관리](workflow/using/managing-time-zones.md)
-   + 기술 워크플로우 {#technical-workflows}
-      + [기술 워크플로우 기본 정보](workflow/using/about-technical-workflows.md)
-      + [게재](workflow/using/deliveries.md)
-      + [캠페인](workflow/using/campaign.md)
-      + [웹 분석](workflow/using/web-analytics.md)
-      + [분산 마케팅](workflow/using/distributed-marketing.md)
-      + [게재 기능 모니터링](workflow/using/email-deliverability.md)
-      + [받은 편지함 렌더링](workflow/using/inbox-rendering.md)
-      + [상호 작용](workflow/using/interaction.md)
-      + [오퍼 엔진 제어](workflow/using/control-of-offer-engine.md)
-      + [메시지 센터(제어)](workflow/using/message-center--control-.md)
-      + [메시지 센터(실행)](workflow/using/message-center--execution-.md)
-      + [모바일 앱 채널](workflow/using/mobile-app-channel.md)
-      + [LINE 채널](workflow/using/line-channel.md)
-      + [마케팅 리소스(MRM)](workflow/using/marketing-resources--mrm-.md)
-      + [소셜 마케팅](workflow/using/social-marketing.md)
-      + [Adobe Experience Cloud 솔루션과 통합](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-      + [개인 정보 보호 규정](workflow/using/general-data-protection-regulation--gdpr-.md)
-      + [중간 소싱으로 전송](workflow/using/transfer-to-mid-sourcing.md)
-      + [중간 소싱 플랫폼](workflow/using/mid-sourcing-platform.md)
+      + [기술 워크플로우](workflow/using/about-technical-workflows.md)
 + 오퍼 관리 {#managing-offers}
    + 상호 작용 시작{#interaction-overview}
       + [상호 작용 및 제안 관리](interaction/using/interaction-and-offer-management.md)
@@ -619,7 +604,7 @@ ht-degree: 98%
       + [데이터베이스 만들기 및 구성](installation/using/creating-and-configuring-the-database.md)
       + [Campaign 서버 구성](installation/using/campaign-server-configuration.md)
       + [인스턴스 배포](installation/using/deploying-an-instance.md)
-      + [Campaign Classic 표준 패키지 설치](installation/using/installing-campaign-standard-packages.md)
+      + [Campaign Classic 내장 패키지 설치](installation/using/installing-campaign-standard-packages.md)
    + 추가 구성 {#additional-configurations}
       + [Campaign 서버 구성](installation/using/configuring-campaign-server.md)
       + [LDAP를 통해 연결](installation/using/connecting-through-ldap.md)
