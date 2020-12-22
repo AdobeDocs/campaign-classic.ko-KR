@@ -7,9 +7,9 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
 workflow-type: tm+mt
-source-wordcount: '2925'
+source-wordcount: '2926'
 ht-degree: 1%
 
 ---
@@ -281,7 +281,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->캠페인 프로세스에 대한 기술 워크플로우는 [캠페인 프로세스 워크플로 목록](../../workflow/using/campaign.md)에 제공됩니다.
+>캠페인 패키지와 관련된 기술 워크플로우는 [기술 워크플로우 목록](../../workflow/using/about-technical-workflows.md)에 있습니다.
 
 **1단계 - 파일 승인**
 
