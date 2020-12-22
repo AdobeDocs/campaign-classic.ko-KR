@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
+source-git-commit: 86dab2e03aa7a07d88d9a1df5e4015b001451d2e
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 94%
@@ -29,7 +29,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ![](assets/do-not-localize/green3.png) GA(**General Availability**) - 프로덕션에서 검증되었으며 Adobe에서 권장합니다.
 
-마지막 **GA 빌드**&#x200B;는 [Gold Standard 10 릴리스](../../rn/using/gold-standard.md#gs-10) 및 [Campaign 20.2.3 릴리스](../../rn/using/release--20-2.md#release-20-2-3-build-9182)입니다.
+마지막 **GA 빌드**&#x200B;는 [Gold Standard 10 릴리스](../../rn/using/gold-standard.md#gs-10) 및 [Campaign 20.2.4 릴리스](../../rn/using/release--20-2.md#release-20-2-4-build-9187)입니다.
 
 ![](assets/do-not-localize/limited3.png) LA(**Limited Availability**) - 주문형 배포만 가능.
 
