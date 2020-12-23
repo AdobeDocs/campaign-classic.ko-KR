@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: d7c590333b03b2448d37e58e194f3b9d1383fbb7
+source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 6%
@@ -23,7 +23,7 @@ _2020년 12월 23일_
 
 >[!CAUTION]
 >
->이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 2020년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결할 수 있으려면 업그레이드가 필요합니다.
+>이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 2021년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결할 수 있으려면 업그레이드가 필요합니다.
 
 * 새 IMS 인증 메커니즘을 따르도록 연결 프로토콜이 업데이트되었습니다.
 * SSRF(Server Side Request 위조) 문제에 대한 보호를 강화하려는 보안 문제가 해결되었습니다. (NEO-27777)
