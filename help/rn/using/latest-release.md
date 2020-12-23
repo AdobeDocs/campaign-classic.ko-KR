@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 787beef89325340cc1d46faa03e9cfae7f1c705c
+source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
-source-wordcount: '1852'
-ht-degree: 98%
+source-wordcount: '1875'
+ht-degree: 97%
 
 ---
 
@@ -65,6 +65,10 @@ _2020년 10월 27일_
 </tbody> 
 </table>
 
+>[!CAUTION]
+>
+>이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.2021년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결할 수 있으려면 업그레이드가 필요합니다.
+
 **향상된 보안 기능**
 
 * 라이브러리의 안전한 로드:이제 DLL 사전 로드 공격으로부터 보호하기 위해 Campaign 클라이언트(nlclient)를 로드하는 동안 Windows 기본 시스템 DLL 경로에서만 Windows DLL이 로드됩니다. [자세한 내용](https://support.microsoft.com/en-us/help/2389418/secure-loading-of-libraries-to-prevent-dll-preloading-attacks)(NEO-24147)
@@ -94,11 +98,7 @@ _2020년 10월 27일_
 **개선 사항**
 
 * **클라이언트 콘솔**&#x200B;에 몇 가지 기능이 개선되었습니다.
-   * 새 IMS 인증 메커니즘을 따르도록 연결 프로토콜이 업데이트되었습니다.
-
-      >[!CAUTION]
-      >
-      >연결 프로토콜 업데이트 후 업그레이드는 필수(서버 및 콘솔)로 2020년 3월 21일부터 연결할 수 있습니다.
+   * 새 IMS 인증 메커니즘을 따르도록 연결 프로토콜이 업데이트되었습니다. 서버 및 클라이언트 콘솔 업그레이드는 2021년 3월 21일 이후에 연결할 수 있어야 합니다.
    * 일부 인터넷 보안 GPO 규칙 제한 사항과 비호환이 되지 않도록 하기 위해 Campaign 클라이언트 콘솔 로그온 화면이 기본 제공 표준 Windows 양식으로 대체되었습니다.
    * 워크플로우에서 64비트 클라이언트 콘솔을 사용하여 활동을 복사/붙여넣을 때 발생하는 문제를 해결했습니다. (NEO-27635)
    * **정보** 메뉴에서 64비트 및 32비트 콘솔을 구분하는 정보가 추가되었습니다.
