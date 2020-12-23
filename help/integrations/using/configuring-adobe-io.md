@@ -10,10 +10,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 4%
+source-wordcount: '431'
+ht-degree: 5%
 
 ---
 
@@ -30,29 +30,24 @@ ht-degree: 4%
 
 이 구현을 시작하기 전에 다음을 확인하십시오.
 
-* 유효한 IMSOrgID:IMS(Identity Management 시스템) 조직 식별자는 Adobe Experience Cloud 내의 고유 식별자이며, VisitorID 서비스 및 IMS SSO(Single-Sign On),
-* IMS 조직에 대한 개발자 액세스.
-
->[!NOTE]
+* 유효한 **조직 식별자**:IMS(Identity Management System) 조직 식별자는 Adobe Experience Cloud 내의 고유 식별자로, VisitorID 서비스 및 IMS SSO(Single-Sign On)와 같이 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
+* 조직에 대한 **개발자 액세스**.  IMS 조직에 대한 시스템 관리자 권한을 요청해야 하는 경우 이 페이지](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)에 자세한 [ 절차를 따라 모든 제품 프로필에 대한 이 액세스 권한을 제공합니다.
 >
->IMS 조직에 대한 시스템 관리자 권한을 요청해야 하는 경우 이 페이지](https://helpx.adobe.com/ca/enterprise/admin-guide.html/ca/enterprise/using/manage-developers.ug.html)에 자세한 [ 절차를 따라 모든 제품 프로필에 대한 이 액세스 권한을 제공합니다.
-
-
 ## 1단계:Adobe I/O 프로젝트 {#creating-adobe-io-project} 만들기/업데이트
 
-1. Adobe I/O에 액세스하여 IMSorg의 시스템 관리자 권한으로 로그인합니다.
+1. Adobe I/O에 액세스하여 IMS 조직에 대한 시스템 관리자 권한으로 로그인합니다.
 
    >[!NOTE]
    >
-   > 올바른 IMSorg 포털에 로그인되어 있는지 확인하십시오.
+   > 올바른 조직 포털에 로그인되어 있는지 확인합니다.
 
-1. 인스턴스 구성 파일 ims/authIMSTAClientId에서 기존 통합 클라이언트 ID를 추출합니다. 존재하지 않거나 빈 속성은 클라이언트 ID가 구성되지 않았음을 나타냅니다.
+1. 인스턴스 구성 파일 ims/authIMSTAClientId에서 기존 통합 클라이언트 ID를 추출합니다. 존재하지 않거나 빈 속성은 클라이언트 식별자가 구성되지 않았음을 나타냅니다.
 
    >[!NOTE]
    >
-   >클라이언트 ID가 비어 있는 경우 Adobe I/O에서 바로 **[!UICONTROL Create a New project]**&#x200B;을(를) 사용할 수 있습니다.
+   >클라이언트 식별자가 비어 있으면 Adobe I/O에서 바로 **[!UICONTROL Create a New project]**&#x200B;을(를) 사용할 수 있습니다.
 
-1. 추출된 클라이언트 ID를 사용하여 기존 프로젝트를 식별합니다. 이전 단계에서 추출된 프로젝트와 클라이언트 ID가 동일한 기존 프로젝트를 찾습니다.
+1. 추출된 클라이언트 식별자를 사용하여 기존 프로젝트를 식별합니다. 이전 단계에서 추출된 프로젝트와 클라이언트 식별자가 동일한 기존 프로젝트를 찾습니다.
 
    ![](assets/do-not-localize/adobe_io_8.png)
 
