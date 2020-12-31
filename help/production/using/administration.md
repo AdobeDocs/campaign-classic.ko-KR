@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9c78d8f469bade41717eb854e8cec00859c1d4e3
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 1%
@@ -75,23 +75,23 @@ Adobe Campaign을 설치하면 부팅 시퀀스 동안 **nlserver** 서비스가
    **nlserver 웹 다시 시작**
 
    >[!NOTE]
-   > 
-   >    * 인스턴스를 지정하지 않으면 &quot;default&quot; 인스턴스가 사용됩니다.
-   >    * 긴급한 경우 **-immediate** 옵션을 사용하여 프로세스를 즉시 중단(Unix 명령 **kill -9**&#x200B;에 해당)합니다.
-   >    * **-noconsole** 옵션을 사용하여 시작한 모듈이 콘솔에 아무 것도 표시되지 않도록 합니다. 해당 로그는 **syslogd** 모듈을 통해 디스크에 기록됩니다.
-   >    * 프로세스 작업에 대한 추가 정보를 표시하려면 **-verbose** 옵션을 사용합니다.
+   >
+   >* 인스턴스를 지정하지 않으면 &quot;default&quot; 인스턴스가 사용됩니다.
+   >* 긴급한 경우 **-immediate** 옵션을 사용하여 프로세스를 즉시 중단(Unix 명령 **kill -9**&#x200B;에 해당)합니다.
+   >* **-noconsole** 옵션을 사용하여 시작한 모듈이 콘솔에 아무 것도 표시되지 않도록 합니다. 해당 로그는 **syslogd** 모듈을 통해 디스크에 기록됩니다.
+   >* 프로세스 작업에 대한 추가 정보를 표시하려면 **-verbose** 옵션을 사용합니다.
 
-      >    
-      >      
+      >
+      >   
       예제:
-      >    
-      >      
+      >
+      >   
       **nlserver를 다시 시작하는 웹 -verbose**
-      >    
-      >      
+      >
+      >   
       **nlserver 시작 mta@myinstance -verbose**
-      >    
-      >      
+      >
+      >   
       이 옵션은 추가 로그를 추가합니다. 로그가 오버로드되지 않도록 하려면 원하는 정보를 찾은 후 **-verbose** 옵션 없이 프로세스를 다시 시작하는 것이 좋습니다.
 
 
