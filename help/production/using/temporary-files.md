@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 4%
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 # 임시 파일{#temporary-files}
 
-시스템이 프로덕션에 배치될 때 다음과 같은 오류 메시지가 나타나는 경우(특히 배달 로그에 있음):
+시스템을 제작할 때 다음과 같은 오류 메시지가(특히 배달 로그에 있음)표시될 수 있습니다.
 
-**파일 &#39;/tmp/tmp0000.tmp&#39;의 이름을 /usr/local/neolane/nl6/bin/..//var/XXX/mta/86510470.xml ;(errno=18, 잘못된 상호 장치 링크)(iRc=-52)로 변경할 수 없습니다.**
+*파일 &#39;/tmp/tmp0000.tmp&#39;의 이름을 /usr/local/neolane/nl6/bin/..//var/XXX/mta/86510470.xml ;(errno=18, 잘못된 상호 장치 링크)(iRc=-52)로 변경할 수 없습니다.*
 
 원인은 다음과 같습니다.
 
