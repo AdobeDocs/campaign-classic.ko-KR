@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 86dab2e03aa7a07d88d9a1df5e4015b001451d2e
+source-git-commit: 802818fcd27e0dc40cc640092da1ef70ff21a191
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ### Gold Standard{#upgrade-for-gold-standard-users}
 
-Gold Standard 사용자는 아무런 조치 없이 [최신 GA 빌드](../../rn/using/gold-standard.md#gs-10)로 Gold Standard 업그레이드를 자동 활용할 수 있습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html)
+호스팅되는 Gold Standard 사용자는 아무런 조치 없이 [최신 GA Gold Standard 빌드](../../rn/using/gold-standard.md#gs-10)로 Gold Standard 업그레이드를 자동으로 사용할 수 있습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html)
 
 >[!NOTE]
 >Gold Standard용 호환성 매트릭스는 [GA 호환성 매트릭스](../../rn/using/compatibility-matrix-gs.md)에서 사용할 수 있습니다.
