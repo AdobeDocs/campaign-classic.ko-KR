@@ -7,19 +7,19 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
+source-git-commit: 802818fcd27e0dc40cc640092da1ef70ff21a191
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 91%
+ht-degree: 86%
 
 ---
 
 
 # Gold Standard 릴리스{#gold-standard}
 
-Gold Standard는 Campaign Classic 장기 지원 릴리스입니다. Gold Standard 사용자는 아무 활동을 하지 않고도 최신 안정된 버전의 Gold Standard 업그레이드를 자동으로 활용할 수 있습니다. 온-프레미스 및 하이브리드 고객은 Gold Standard 릴리스를 활용할 수 있습니다.
+Gold Standard는 Campaign Classic 장기 지원 릴리스입니다. 호스팅 Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로 Gold Standard 업그레이드를 자동으로 사용할 수 있습니다. 온-프레미스 및 하이브리드 고객은 Gold Standard 릴리스를 활용할 수 있습니다.
 
-이전 빌드에서 마이그레이션하는 경우 먼저 이 버전으로 업그레이드하는 것이 좋습니다.
+이전 빌드에서 마이그레이션하는 경우에는 먼저 이 버전으로 업그레이드하는 것이 좋습니다.
 
 이 페이지에는 Gold Standard 릴리스가 나열됩니다.
 
