@@ -7,9 +7,9 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d45f393083ec540025a9e001b089a8b1241a8c99
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1025'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,15 @@ Adobe Campaign에서 트랜잭션 메시징 기능(메시지 센터라고도 함
 
 ## 배달 채널 {#adding-a-delivery-channel} 추가
 
-전달 채널 추가(모바일 채널, 모바일 앱 채널 등) 트랜잭션 메시지 패키지를 설치하기 전에 수행해야 합니다. 이메일 채널에서 트랜잭션 메시지 프로젝트를 시작한 후 프로젝트 중에 새 채널을 추가하도록 결정하는 경우 다음 단계를 수행해야 합니다.
+전달 채널 추가(모바일 채널, 모바일 앱 채널 등) 트랜잭션 메시지 패키지를 설치하기 전에 수행해야 합니다.
+
+Adobe에서는 항상 트랜잭션 메시지 패키지를 설치하기 전에 배달 채널 패키지를 추가하는 것이 좋습니다.
+
+하지만 이메일 채널에서 트랜잭션 메시징 프로젝트를 시작한 다음 프로젝트 중에 새 채널을 추가하도록 결정하는 경우 아래 단계를 수행할 수 있습니다.
+
+>[!NOTE]
+>
+>이 절차는 작업 중인 것과 동일한 컴퓨터에 설치된 Windows NLServer를 사용하는 고객에게만 적용됩니다.
 
 1. 필요한 채널(예: **모바일 채널**)을 패키지 가져오기 마법사( **[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]** )를 사용하여 설치합니다.
 1. 파일 가져오기( **[!UICONTROL Tools > Advanced > Import package... > File]** )를 수행하고 **datakitnms **`[Your language]`**packagemessageCenter.xml** 파일을 선택합니다.
