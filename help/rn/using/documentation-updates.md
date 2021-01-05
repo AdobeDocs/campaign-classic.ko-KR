@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: b1d75ff748bab08b45c55621b63e7565564e113d
+source-git-commit: 88172a79aad37e6a311b144f4ea685bb4846825b
 workflow-type: tm+mt
-source-wordcount: '3729'
-ht-degree: 98%
+source-wordcount: '3814'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,16 @@ ht-degree: 98%
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
 또한 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)에서 더 많은 업데이트를 확인할 수 있습니다.
+
+## 2021년 1월 {#jan,2021}
+
+**[!UICONTROL Fork]** 활동 섹션이 추가 정보와 함께 풍부해졌습니다. 아웃바운드 전환이 동시에 실행되지 않으므로 작업을 사용하여 워크플로우의 성능을 향상시켜서는 안 된다는 내용의 메모가 추가되었습니다. [자세한 내용](../../workflow/using/fork.md)
+
+Tomcat 버전 찾기 섹션이 [여기](../../production/using/locate-tomcat-version.md)로 이동되었습니다.
+
+관련 패키지가 포함된 기술 워크플로우 목록이 하나의 페이지로 재구성되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
+
+모니터링 안내서의 문제 해결 섹션이 랜딩 페이지로 재구성되고 향상되었습니다. [자세한 내용](../../production/using/troubleshooting.md)
 
 ## 2020년 12월 {#dec-2020}
 
