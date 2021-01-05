@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 3%
@@ -17,13 +17,13 @@ ht-degree: 3%
 
 # 성능 및 처리량 문제{#performance-and-throughput-issues}
 
->[!NOTE]
->
->먼저 최신 빌드가 설치되어 있는지 확인해야 합니다. 따라서 최신 기능과 버그 수정이 가능합니다. 각 릴리스의 내용에 대한 자세한 내용은 [릴리스 노트](../../rn/using/latest-release.md)를 참조하십시오.
+먼저 최신 빌드가 설치되어 있는지 확인해야 합니다. 따라서 최신 기능과 버그 수정이 가능합니다.
+
+각 릴리스의 내용에 대한 자세한 내용은 [릴리스 노트](../../rn/using/latest-release.md)를 참조하십시오.
 
 ## 하드웨어 및 인프라 {#hardware-and-infrastructure}
 
-온-프레미스 Campaign Classic에 대한 하드웨어 요구 사항에 대한 일반 지침은 이 [아티클](https://helpx.adobe.com/kr/campaign/kb/hardware-sizing-guide.html)에 자세히 설명되어 있습니다.
+온-프레미스 Campaign Classic에 대한 하드웨어 요구 사항에 대한 일반 지침은 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/hardware-sizing-guide.html)에 자세히 설명되어 있습니다.
 
 컨설팅 팀은 SFTP 사이트에 사용되는 공간뿐만 아니라 데이터베이스의 다양한 유형의 테이블에 사용되는 공간의 크기를 쉽게 볼 수 있도록 하는 도구를 호스팅 고객에게 제공할 수 있습니다. 불필요한 데이터를 정리할 수 있는 도구를 추가로 제공합니다. 이 도구를 구현해야 하는 경우 컨설팅 또는 지원 팀에 문의하십시오. 다음은 이 도구를 사용하여 확인할 중요한 사항입니다.
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 또한 Adobe Campaign은 CPU 및 RAM 사용을 확인하는 [도구](../../production/using/monitoring-processes.md#manual-monitoring)도 제공합니다. 이 도구를 사용하여 다음과 같은 특정 지표를 봅니다.**메모리**, **메모리 교체**, **디스크**, **활성 프로세스**. 값이 너무 높은 경우 워크플로우 수를 줄이거나 워크플로우를 예약하여 다른 시간에 시작할 수 있습니다.
 
-## 데이터베이스 성능 {#database-performances}
+## 데이터베이스 검사 {#database-performances}
 
 대부분의 경우 성능 문제는 데이터베이스 유지 관리에 연결됩니다. 확인할 주요 항목은 다음과 같습니다.
 
@@ -68,4 +68,3 @@ ht-degree: 3%
 >[!NOTE]
 >
 >[배달 가능 키 포인트](../../delivery/using/deliverability-key-points.md) 섹션도 참조하십시오.
-
