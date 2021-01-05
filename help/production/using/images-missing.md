@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '111'
 ht-degree: 5%
 
 ---
@@ -31,4 +31,3 @@ IIS 사용자(Windows의 경우)의 경우 빌드 업데이트 후 콘솔에 여
 
 1. 빌드 업데이트 후 캠페인 설치 디렉토리에 있는 **iis_neolane_setup.vbs**&#x200B;를 두 번 클릭합니다. 기본 경로는 C:\Program Files (x86)\Adobe\Adobe Campaign v7\conf입니다.
 1. 이전 단계로 업데이트된 IIS 사이트를 다시 시작합니다.
-
