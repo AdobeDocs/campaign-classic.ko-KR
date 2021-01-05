@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b1d75ff748bab08b45c55621b63e7565564e113d
 workflow-type: tm+mt
 source-wordcount: '3729'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 97%
 
 ## 2020년 12월 {#dec-2020}
 
-배달 모니터링 섹션이 주제별로 재구성되었습니다. [자세한 내용](../../delivery/using/about-delivery-monitoring.md)
+게재 모니터링 섹션이 주제별로 다시 구성되었습니다. [자세한 내용](../../delivery/using/about-delivery-monitoring.md)
 
-배달 로그에 보낸 사람의 IP 주소를 추가하는 방법에 사용 사례가 추가되었습니다. [자세한 내용](../../delivery/using/delivery-dashboard.md#use-case)
+게재 로그에 보낸 사람의 IP 주소를 추가하는 방법에 사용 사례가 추가되었습니다. [자세한 내용](../../delivery/using/delivery-dashboard.md#use-case)
 
-개인 정보 FAQ가 [이 섹션](../../platform/using/privacy-faq.md)으로 이동되었습니다.
+개인 정보 보호 FAQ가 [이 섹션](../../platform/using/privacy-faq.md)으로 이동했습니다.
 
 데이터 중복 제거 작업의 병합 기능을 사용하는 방법에 대한 사용 사례가 추가되었습니다. [자세한 내용](../../workflow/using/deduplication-merge.md)
 
