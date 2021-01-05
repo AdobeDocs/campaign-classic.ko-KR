@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ _2020년 12월 22일_
 
 빌드 9032@2a2a028에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
 
-* 새 IMS 인증 메커니즘을 따르도록 연결 프로토콜이 업데이트되었습니다.
+* 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
 
 * 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O로 이동되었습니다. [자세히 알아보기](../../integrations/using/configuring-adobe-io.md)
 
