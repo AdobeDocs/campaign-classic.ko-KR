@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 6%
+source-wordcount: '190'
+ht-degree: 5%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 6%
 예를 들어 컨텐츠 생성 및 전달 전송 자동화 컨텍스트에서 AND 참여 활동을 사용하여 대상 쿼리 및 컨텐츠 업데이트 단계가 완료된 경우에만 게재가 시작되도록 할 수 있습니다. 전용 사용 사례는 [이 섹션](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)에서 사용할 수 있습니다.
 
 ![](assets/and-join-usage.png)
+
+>[!NOTE]
+>
+>다른 타깃팅 차원으로 구성된 인바운드 전환은 **[!UICONTROL AND-join]** 활동을 사용하여 함께 조인할 수 없습니다.
 
 활동의 아웃바운드 전송 인력은 활동에서 인바운드 전환 중 기본 세트를 선택하여 결정됩니다.
 
