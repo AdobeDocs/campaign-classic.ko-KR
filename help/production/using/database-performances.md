@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 8%
@@ -19,9 +19,9 @@ ht-degree: 8%
 
 대부분의 성능 문제는 데이터베이스 유지 관리와 관련이 있습니다. 다음은 성능 저하의 원인을 찾는 데 도움이 되는 4가지 주요 리드입니다.
 
-* 구성,
-* Adobe Campaign 플랫폼 설치 및 구성,
-* 데이터베이스 유지 관리,
+* 구성
+* Adobe Campaign 플랫폼 설치 및 구성
+* 데이터베이스 유지 관리
 * 실시간 진단
 
 ## 구성 {#configuration}
