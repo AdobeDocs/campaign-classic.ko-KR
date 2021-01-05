@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: c55897a4daf184b886d4e626d9216a4d43581ea1
+source-git-commit: 404ff67207f8c126e44736fe565cf57afcc6397e
 workflow-type: tm+mt
-source-wordcount: '2181'
-ht-degree: 99%
+source-wordcount: '2202'
+ht-degree: 98%
 
 ---
 
@@ -669,23 +669,31 @@ ht-degree: 99%
       + [유지 관리 유형](production/using/types-of-maintenance.md)
       + [RDBMS 특정 권장 사항](production/using/rdbms-specific-recommendations.md)
       + [애플리케이션 개체](production/using/application-objects.md)
-   + 문제 해결 {#troubleshooting}
-      + [성능 및 처리량 문제](production/using/performance-and-throughput-issues.md)
-      + [이미지 누락](production/using/images-missing.md)
-      + [이미지 표시 문제](production/using/image-display-issues.md)
-      + [임시 파일](production/using/temporary-files.md)
-      + [데이터베이스 성능](production/using/database-performances.md)
-      + [모듈 및 자주 발생하는 문제](production/using/modules-and-frequent-issues.md)
-      + [로그 정밀도](production/using/log-precision.md)
-      + [추적 로그 문제](production/using/tracking-logs-issues.md)
-      + [워크플로우 실행](production/using/workflow-execution.md)
-      + [연결 실패](production/using/failure-to-connect.md)
-      + [연결 임계값](production/using/connection-thresholds.md)
-      + [Linux의 스택 추적](production/using/stack-trace-in-linux.md)
-      + [Oracle 데이터베이스의 인코딩](production/using/encoding-of-the-oracle-database.md)
-      + [콘솔 업데이트](production/using/console-update.md)
-      + [암호 분실](production/using/lost-password.md)
-      + [JSP 동작](production/using/jsp-behavior.md)
+   + 문제 해결 {#troubleshooting-toc}
+      + [프로덕션 문제 해결 개요](production/using/troubleshooting.md)
+      + 일반적인 및 일반 문제 {#common-general-issues-toc}
+         + [모듈 및 자주 발생하는 문제](production/using/modules-and-frequent-issues.md)
+         + [워크플로우 실행](production/using/workflow-execution.md)
+         + [암호 분실](production/using/lost-password.md)
+         + [콘솔 업데이트](production/using/console-update.md)
+      + 게재 문제 해결 {#delivery-troubleshooting-toc}
+         + [성능 및 처리량 문제](production/using/performance-and-throughput-issues.md)
+         + [이미지 표시 문제](production/using/image-display-issues.md)
+         + [이미지 누락](production/using/images-missing.md)
+         + [임시 파일](production/using/temporary-files.md)
+      + 로그 작업 중 {#working-with-log-toc}
+         + [로그 정밀도](production/using/log-precision.md)
+         + [추적 로그 문제](production/using/tracking-logs-issues.md)
+      + 데이터베이스 문제 {#database-issues-toc}
+         + [데이터베이스 성능](production/using/database-performances.md)
+         + [Oracle 데이터베이스의 인코딩](production/using/encoding-of-the-oracle-database.md)
+      + 연결 개선 사항 {#connection-improvements-toc}
+         + [연결 실패](production/using/failure-to-connect.md)
+         + [연결 임계값](production/using/connection-thresholds.md)
+      + 기술 문제 해결 {#technical-troubleshooting-toc}
+         + [Linux의 스택 추적](production/using/stack-trace-in-linux.md)
+         + [JSP 동작](production/using/jsp-behavior.md)
+         + [Tomcat 버전 찾기](production/using/locate-tomcat-version.md)
 + 개발자 안내서 {#configuring-campaign-classic}
    + 데이터 모델 {#data-model}
       + [데이터 모델 기본 정보](configuration/using/about-data-model.md)
