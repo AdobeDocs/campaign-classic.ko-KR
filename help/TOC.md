@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: c55897a4daf184b886d4e626d9216a4d43581ea1
 workflow-type: tm+mt
 source-wordcount: '2181'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -155,12 +155,12 @@ ht-degree: 97%
       + [구독 관리](delivery/using/managing-subscriptions.md)
       + [바이럴 및 소셜 마케팅](delivery/using/viral-and-social-marketing.md)
    + 게재 모니터링 {#monitoring-deliveries}
-      + [전달 모니터링 시작](delivery/using/about-delivery-monitoring.md)
-      + [배달 목록 액세스](delivery/using/list-of-deliveries.md)
-      + [배달 대시보드](delivery/using/delivery-dashboard.md)
-      + [전달 성능 우수 사례](delivery/using/delivery-performances.md)
-      + [배달 문제 해결](delivery/using/delivery-troubleshooting.md)
-      + [배달 상태](delivery/using/delivery-statuses.md)
+      + [게재 모니터링 시작](delivery/using/about-delivery-monitoring.md)
+      + [게재 목록 액세스](delivery/using/list-of-deliveries.md)
+      + [게재 대시보드](delivery/using/delivery-dashboard.md)
+      + [게재 성능 모범 사례](delivery/using/delivery-performances.md)
+      + [게재 문제 해결](delivery/using/delivery-troubleshooting.md)
+      + [게재 상태](delivery/using/delivery-statuses.md)
       + [게재 실패 이해](delivery/using/understanding-delivery-failures.md)
       + [격리 관리 이해](delivery/using/understanding-quarantine-management.md)
    + 메시지 추적 {#tracking-messages}
@@ -706,9 +706,9 @@ ht-degree: 97%
          + [도움말](configuration/using/schema/help.md)
          + [가입](configuration/using/schema/join.md)
          + [Key](configuration/using/schema/key.md)
-         + [키필드](configuration/using/schema/keyfield.md)
+         + [Keyfield](configuration/using/schema/keyfield.md)
          + [방법](configuration/using/schema/method.md)
-         + [메서드](configuration/using/schema/methods.md)
+         + [방법](configuration/using/schema/methods.md)
          + [매개 변수](configuration/using/schema/param.md)
          + [매개 변수](configuration/using/schema/parameters.md)
          + [SrcSchema](configuration/using/schema/srcschema.md)
