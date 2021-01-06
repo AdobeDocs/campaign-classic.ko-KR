@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 802818fcd27e0dc40cc640092da1ef70ff21a191
+source-git-commit: dcef36c3ce14c45cb08a79180938ad8d26fa6549
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '938'
 ht-degree: 86%
 
 ---
@@ -25,7 +25,7 @@ Gold Standard는 Campaign Classic 장기 지원 릴리스입니다. 호스팅 Go
 
 Campaign Gold Standard 프로그램에 대한 자세한 내용은 [이 문서를](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html) 참조하십시오.
 
-## ![](assets/do-not-localize/limited_2.png) Gold Standard 11 릴리스{#gs-11}
+## ![](assets/do-not-localize/green_2.png) Gold Standard 11 릴리스{#gs-11}
 
 _2020년 12월 22일_
 
@@ -33,7 +33,7 @@ _2020년 12월 22일_
 >
 >이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.2021년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결할 수 있으려면 업그레이드가 필요합니다.
 
-빌드 9032@2a2a028에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
+빌드 9032@d3b452f에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
 
 * 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
 
@@ -43,7 +43,7 @@ _2020년 12월 22일_
 
 * SSRF(Server Side Request 위조) 문제에 대한 보호를 강화하려는 보안 문제가 해결되었습니다. (NEO-27777)
 
-## ![](assets/do-not-localize/green_2.png) Gold Standard 10 릴리스{#gs-10}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 10 릴리스{#gs-10}
 
 _2020년 7월 7일_
 
