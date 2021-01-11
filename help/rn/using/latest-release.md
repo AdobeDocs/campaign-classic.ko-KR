@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
+source-git-commit: 5b7639e7e64d4cb42d3ae77b04ba90a45fb58159
 workflow-type: tm+mt
-source-wordcount: '1875'
-ht-degree: 97%
+source-wordcount: '1911'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,14 @@ ht-degree: 97%
 
 Campaign Classic Gold Standard 버전(최신 GA 빌드)의 경우 [이 페이지를 참조](../../rn/using/gold-standard.md)하십시오.
 
-## ![](assets/do-not-localize/blue_2.png) 릴리스 20.3.1 - 빌드 9228 {#release-20-3-1-build-9228}
+## ![](assets/do-not-localize/blue_2.png) 릴리스 20.3.3 - 빌드 9234 {#release-20-3-3-build-9234}
+
+_2021년 1월 11일_
+
+* SSRF(Server Side Request 위조) 문제에 대한 보호를 강화하려는 보안 문제가 해결되었습니다. (NEO-27777)
+* MTA 프로세스가 충돌할 수 있는 브로드캐스트 로그 생성 프로세스와 관련된 회귀 문제를 수정했습니다.
+
+## ![](assets/do-not-localize/red_2.png) 릴리스 20.3.1 - 빌드 9228 {#release-20-3-1-build-9228}
 
 _2020년 10월 27일_
 
