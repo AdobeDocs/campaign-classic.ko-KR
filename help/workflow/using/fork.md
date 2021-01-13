@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 translation-type: tm+mt
-source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
+source-git-commit: d35b22386bd2681ba02e4379c627821b35a7d04e
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 대상 계산 및 컨텐츠 생성을 동시에 실행하기 위해 컨텐츠 생성 및 전달 전송 자동화의 컨텍스트에서 활동을 사용할 수도 있습니다. 전용 사용 사례는 [이 섹션](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)에서 사용할 수 있습니다.
 
->[!WARNING]
+>[!IMPORTANT]
 >
 >포크 활동 후에 추가된 아웃바운드 전환은 동시에 실행되지 않습니다.
 >
