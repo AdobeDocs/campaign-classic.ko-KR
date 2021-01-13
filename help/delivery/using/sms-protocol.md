@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 09a79330e1ff951898d1559d5765818c12dc497a
+source-git-commit: 9a104fdc7bed89f56178d5ab638e1440e6342efc
 workflow-type: tm+mt
 source-wordcount: '8424'
 ht-degree: 0%
@@ -102,7 +102,7 @@ SMPP 전송 장치(&quot;패킷&quot;)를 PDU라고 합니다. **PDU**&#x200B;�
 
 예를 들어 MT를 전송할 때 전송기 연결이 사용되고 MT를 인식하는 `RESP`도 전송됨 채널을 통해 전송됩니다. MO(또는 SR)를 받으면 수신자 연결이 MO를 수신하고 MO를 인식하는 `RESP`를 전송하는 데 사용됩니다.
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 Adobe Campaign Classic에서 SR을 해당 MT와 연결하려면 SMSC가 `SUBMIT_SM_RESP` 및 `DELIVER_SM` 단계와 함께 ID를 반환합니다. 식별자는 `nms::providerMsgId` 테이블의 `providerId` 필드에 저장되며 `broadLogId` 및 `deliveryId`에 연결됩니다. 데이터베이스에 쓸 때 SMS 프로세스에서 이 일치 작업을 수행합니다.
 
@@ -505,7 +505,7 @@ TON(숫자 유형) 및 NPI(번호 매기기 계획 표시기)는 [SMPP 3.4 사�
 
 최대 창이 4인 전송 예:
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 이 창은 네트워크 링크에 높은 대기 시간이 있을 때 처리량을 늘리는 데 도움이 됩니다.  창의 값은 적어도 SMS/s 수와 링크의 지연을 곱해야 합니다.
 다음 메시지를 보내기 전에 커넥터가 `SUBMIT_SM_RESP`을(를) 기다리지 않도록 초 단위.
@@ -620,13 +620,13 @@ Fox 예:
 
 * 데이터베이스에서 ID &quot;1234&quot;를 찾을 수 없습니다.
 
-* 커넥터는 해당 ID에 대해 잘못된 ID **오류를 1개 계산하므로 &quot;메시지 ID가 잘못되었습니다&quot; 오류 코드(일반 비헤이비어)로**&#x200B;를 전송합니다.`DELIVER_SM_RESP`
+* 커넥터는 해당 ID에 대해 잘못된 ID **오류를 1개 계산하므로 &quot;메시지 ID가 잘못되었습니다&quot; 오류 코드(일반 비헤이비어)로 `DELIVER_SM_RESP`를 전송합니다.**
 
 * 공급자가 ID가 &quot;1234&quot;인 동일한 SR을 재시도합니다.
 
 * 데이터베이스에서 ID &quot;1234&quot;를 여전히 찾을 수 없습니다.
 
-* 커넥터는 해당 ID에 대해 잘못된 ID **오류를 2개 계산하므로 올바르게 처리되지 않았더라도** &quot;OK&quot;를 전송합니다.`DELIVER_SM_RESP`
+* 커넥터는 해당 ID에 대해 잘못된 ID **오류를 2개 계산하므로 올바르게 처리되지 않았더라도 `DELIVER_SM_RESP` &quot;OK&quot;를 전송합니다.**
 
 * 이 기능은 메시지를 처리할 수 없다는 잘못된 SR 블록이 올바르지 않은 경우 공급자 측의 SR 버퍼를 플러시하기 위한 것입니다.
 
@@ -772,7 +772,7 @@ Adobe Campaign에서 개인화된 메시지가 작동하는 방식을 통해 메
 
 ## 확장된 범용 SMPP 커넥터 {#acc-extended-connector}
 
-![](assets/sms_protocol_4.png)
+![](assets/do-not-localize/sms_protocol_4.png)
 
 화살표는 데이터 흐름을 나타냅니다.
 
