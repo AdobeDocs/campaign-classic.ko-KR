@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 8ff5450cc35153e61048c2671f6d52fbc5ffc5b9
+source-git-commit: c86b2d377c66e79cf4f10053f588796b95e6877e
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 93%
+source-wordcount: '887'
+ht-degree: 91%
 
 ---
 
@@ -20,22 +20,15 @@ ht-degree: 93%
 Adobe Campaign은 GDPR, CCPA, PDPA 및 LGPD와 같은 [개인 정보 보호 규정](#privacy-management-regulations)을 준수하는 데 도움이 되는 다양한 도구를 제공합니다.
 
 Adobe Campaign이 GDPR 및 기타 개인 정보 보호 규정을 준수하도록 보장하는 5가지 주요 기능은 다음과 같습니다.
+* **액세스 권한**
+* **삭제 권한**
+* **동의 관리**
+* **데이터 유지**
+* **권한 관리**
 
 ![](assets/privacy-gdpr-use-cases.png)
 
-* **액세스 권한**
-
-* **삭제 권한**
-
-자세한 내용은 [액세스 권한 및 잊혀질 권리](#right-access-forgotten)를 참조하십시오.
-
-* **동의 관리**
-
-* **데이터 유지**
-
-* **권한 관리**
-
-자세한 내용은 [동의, 보존 및 역할](#consent-retention-roles)을 참조하십시오.
+자세한 내용은 [액세스 권한 및 잊혀질 권리](#right-access-forgotten) 및 [동의, 보존 및 역할](#consent-retention-roles)을 참조하십시오.
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
