@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: b7f44f4c18bef4cc412af878846b2c4305a17787
+source-git-commit: f24642223a2ec9f3d8e78e2f7e71a55bf14b80c7
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 8%
@@ -20,7 +20,7 @@ ht-degree: 8%
 분실 암호를 변경하거나 복구할 수 있습니다.
 다음과 같은 두 가지 가능한 시나리오가 있습니다.
 
-* **Adobe Campaign 연산자가 암호를 분실했습니다.**
+**Adobe Campaign 연산자가 암호를 분실했습니다.**
 
 이 경우 관련 연산자의 암호를 변경할 수 있습니다.
 이렇게 하려면 아래 단계를 수행합니다:
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 1. 연산자의 새 암호를 설정합니다. 운영자가 처음 다시 연결할 때 암호를 변경하는 것이 좋습니다.
 
-* **내부 암호 손실(온-프레미스 고객만 해당)**
+**내부 암호 손실(온-프레미스 고객만 해당)**
 
 내부 암호가 손실된 경우 다시 초기화해야 합니다.
 이렇게 하려면 다음 절차를 적용합니다.
