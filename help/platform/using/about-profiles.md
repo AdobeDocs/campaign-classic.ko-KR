@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 18%
@@ -45,7 +45,7 @@ Adobe Campaign을 사용하면 전체 라이프사이클에서 프로파일을 �
 
 >[!NOTE]
 >
->파일과 웹 양식을 가져오는 방법을 알아보려면 [일반 가져오기 및 내보내기](../../platform/using/generic-imports-and-exports.md)를 참조하십시오.
+>파일과 웹 양식을 가져오는 방법을 알아보려면 [일반 가져오기 및 내보내기](../../platform/using/get-started-data-import-export.md)를 참조하십시오.
 
 ## 프로필 및 대상 {#profiles-and-targets}
 
@@ -58,7 +58,7 @@ Adobe Campaign을 사용하면 전체 라이프사이클에서 프로파일을 �
 * lists;[목록 만들기 및 관리](../../platform/using/creating-and-managing-lists.md),
 * 구독 서비스;[이 페이지](../../delivery/using/managing-subscriptions.md)를 참조하십시오.
 * 웹 애플리케이션;[이 페이지](../../web/using/about-web-applications.md)를 참조하십시오.
-* 수입 및 수출(직업);[일반 가져오기 및 내보내기](../../platform/using/generic-imports-and-exports.md) 참조,
+* 수입 및 수출(직업);[일반 가져오기 및 내보내기](../../platform/using/about-generic-imports-exports.md) 참조,
 * 타깃팅 워크플로우;[이 페이지](../../workflow/using/building-a-workflow.md#implementation-steps-)를 참조하십시오.
 
 수신자 페이지에서는 프로파일에 대해 자주 수행하는 작업을 수행할 수 있습니다.편집, 업데이트, 추가, 삭제, 정렬.
