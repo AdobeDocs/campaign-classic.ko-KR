@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -92,7 +92,7 @@ ht-degree: 2%
 
    ![](assets/s_ncs_user_export_list_start.png)
 
-   내보내기 마법사를 구성하는 방법에 대한 자세한 내용은 [내보내기 마법사](../../platform/using/exporting-data.md#export-wizard)를 참조하십시오.
+   내보내기 마법사를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/executing-export-jobs.md)을 참조하십시오.
 
 ## 서비스 {#subscribing-to-a-service} 가입
 
