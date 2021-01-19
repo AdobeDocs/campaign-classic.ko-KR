@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: ff3d18b104a8dba7cd813aa698f9c27b4e25e244
+source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 99%
 
 ---
 
@@ -178,19 +178,7 @@ Gold Standard 사용자인 경우 [Gold Standard 호환성 매트릭스](../../r
 </td>
 </tr>
 <tr>
-<td>SFDC API</td>
-<td>
-<p>API 버전 21</p>
-<p>API 버전 15</p>
-</td>
-</tr>
-<tr><td>Oracle On Demand API</td>
-<td>
-<p>웹 서비스 v1.0 API</p>
-</td>
-</tr>
-<tr>
-<td>MS Dynamics</td>
+<td>Microsoft Dynamics 커넥터</td>
 <td>
 <p>웹 API:Dynamics 365 온-프레미스 및 온라인</p>
 </td>
