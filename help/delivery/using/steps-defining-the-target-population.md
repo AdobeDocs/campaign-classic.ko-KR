@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 2%
@@ -104,7 +104,7 @@ ht-degree: 2%
 
 1. 받는 사람을 가져올 때 **[!UICONTROL File format definition...]** 링크를 클릭하여 외부 파일을 선택하고 구성합니다.
 
-   데이터 가져오기에 대한 자세한 내용은 [이 섹션](../../platform/using/importing-data.md#step-2---source-file-selection)을 참조하십시오.
+   데이터 가져오기에 대한 자세한 내용은 [이 섹션](../../platform/using/executing-import-jobs.md#step-2---source-file-selection)을 참조하십시오.
 
 1. **[!UICONTROL Finish]**&#x200B;을 클릭하고 배달을 표준 배달로 구성합니다.
 
