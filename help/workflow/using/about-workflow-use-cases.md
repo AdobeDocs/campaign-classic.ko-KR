@@ -9,10 +9,10 @@ topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 64%
+source-wordcount: '207'
+ht-degree: 62%
 
 ---
 
@@ -52,10 +52,11 @@ ht-degree: 64%
 * [요약 목록 만들기](../../workflow/using/creating-a-summary-list.md)
 * [데이터 강화](../../workflow/using/enriching-data.md)
 * [집계 사용](../../workflow/using/using-aggregates.md)
-* [Campaign 컨트롤 패널에서 생성된 키를 사용하여 암호화된 데이터 가져오기](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
+* [Campaign 컨트롤 패널에서 생성된 키를 사용하여 암호화된 데이터 가져오기](../../platform/using/unzip-decrypt.md)
 * [Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [증분 쿼리를 사용한 분기별 목록 업데이트](../../workflow/using/quarterly-list-update.md)
 * [데이터 중복 제거 작업의 병합 기능 사용](../../workflow/using/deduplication-merge.md)
+* [반복 가져오기 워크플로우 설정](../../workflow/using/recurring-import-workflow.md)
 
 ## {#designing-queries} 타겟팅 
 
