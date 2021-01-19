@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: introduction
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 20%
@@ -73,7 +73,7 @@ Adobe Campaign은 워크플로우를 사용하여 다음을 수행합니다.
 
 * [이 페이지](../../workflow/using/how-to-use-workflow-data.md)의 워크플로우 활동에 대해 자세히 알아보십시오.
 * [이 섹션](../../workflow/using/building-a-workflow.md)에서 워크플로우를 빌드하는 방법을 알아봅니다.
-* 워크플로우를 사용하여 [이 섹션](../../workflow/using/importing-data.md)에서 Campaign의 데이터를 가져오는 방법을 알아봅니다.
+* 워크플로우를 사용하여 [이 섹션](../../platform/using/import-export-workflows.md)에서 Campaign의 데이터를 가져오는 방법을 알아봅니다.
 * 워크플로 우수 사례는 [이 페이지](../../workflow/using/workflow-best-practices.md)에 자세히 설명되어 있습니다.
 * [이 섹션](../../workflow/using/starting-a-workflow.md)에서 워크플로우 실행에 대한 지침을 찾습니다.
 * [이 페이지](../../workflow/using/monitoring-workflow-execution.md)에서 워크플로우를 모니터하는 방법을 알아봅니다.
