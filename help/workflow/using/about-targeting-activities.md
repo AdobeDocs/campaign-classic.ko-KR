@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 4%
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 * **쿼리**:쿼리를 실행할 수 있습니다. [쿼리 만들기](../../workflow/using/query.md#creating-a-query)를 참조하십시오.
 * **증분 쿼리**:쿼리를 수행하고 실행을 계획할 수 있습니다. [증분 쿼리](../../workflow/using/incremental-query.md) 섹션을 참조하십시오.
-* **목록 읽기**:목록에 포함된 데이터를 사용할 수 있습니다. 목록의 데이터 사용을 참조하십시오.목록[ 섹션을 읽습니다.](../../workflow/using/importing-data.md#using-data-from-a-list--read-list)
+* **목록 읽기**:목록에 포함된 데이터를 사용할 수 있습니다. 목록의 데이터 사용을 참조하십시오.목록](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list) 섹션을 읽습니다.[
 * **조합**:여러 활동의 결과를 단일 타겟으로 그룹화할 수 있습니다. [Union](../../workflow/using/union.md) 섹션을 참조하십시오.
 * **교차**:동일한 인바운드 활동 결과를 가진 모집단만 추출할 수 있습니다. [교차](../../workflow/using/intersection.md) 섹션을 참조하십시오.
 * **제외**:하나 이상의 다른 타겟이 추출되는 기본 대상을 기반으로 대상을 만들 수 있습니다. [교차](../../workflow/using/intersection.md) 섹션을 참조하십시오.
