@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 14%
@@ -37,4 +37,4 @@ DM 전달의 경우 추출 내용은 **[!UICONTROL Edit the extraction file form
 
 >[!NOTE]
 >
->이 마법사에는 [시작하기](../../platform/using/exporting-data.md#export-wizard) 섹션에 자세히 설명된 내보내기 마법사 단계가 포함되어 있습니다.
+>이 마법사에는 [시작하기](../../platform/using/executing-export-jobs.md) 섹션에 자세히 설명된 내보내기 마법사 단계가 포함되어 있습니다.
