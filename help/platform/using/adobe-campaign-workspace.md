@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '2157'
 ht-degree: 2%
@@ -291,7 +291,7 @@ Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 �
 
 목록에서 데이터를 내보내려면 내보내기 마법사를 사용해야 합니다. 이 파일에 액세스하려면 목록에서 내보낼 요소를 선택하고 마우스 오른쪽 버튼을 클릭한 다음 **[!UICONTROL Export...]** 을 선택합니다.
 
-가져오기 및 내보내기 함수의 사용에 대해서는 [일반 가져오기 및 내보내기](../../platform/using/generic-imports-and-exports.md)에 설명되어 있습니다.
+가져오기 및 내보내기 함수의 사용에 대해서는 [일반 가져오기 및 내보내기](../../platform/using/about-generic-imports-exports.md)에 설명되어 있습니다.
 
 >[!CAUTION]
 >
