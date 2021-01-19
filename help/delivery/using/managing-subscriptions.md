@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 2%
@@ -130,7 +130,7 @@ ht-degree: 2%
 * 이 서비스에 수신자 세트를 자동으로 가입합니다. 받는 사람 목록은 필터링 작업, 그룹, 폴더, 가져오기 또는 마우스를 사용한 직접 선택 항목에서 가져올 수 있습니다. 이러한 수신자를 구독하려면 프로필을 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Actions > Subscribe selection to a service...]**&#x200B;을 선택하고 관련 서비스를 선택한 다음 작업을 시작합니다.
 * 수신자를 가져와 정보 서비스에 자동으로 가입할 수 있습니다. 이렇게 하려면 가져오기 마법사의 마지막 단계에서 관련 서비스를 선택합니다.
 
-   이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/importing-data.md#import-wizard)을 참조하십시오.
+   이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/executing-import-jobs.md)을 참조하십시오.
 
 * 받는 사람이 서비스에 가입할 수 있도록 웹 양식을 사용합니다.
 
