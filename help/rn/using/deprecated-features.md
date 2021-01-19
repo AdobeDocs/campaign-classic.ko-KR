@@ -9,10 +9,10 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 82c5f4f4c37f295a6c206eb33616ae9223740f36
+source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 100%
+source-wordcount: '1632'
+ht-degree: 99%
 
 ---
 
@@ -47,12 +47,13 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr>
   <tr>
   <td>CRM 커넥터<br></td>
-   <td><p>Campaign 20.3 릴리스부터 다음의 CRM 커넥터는 사용되지 않습니다.</p>
+   <td><p>Campaign 20.3 릴리스를 시작하면 다음 CRM 커넥터는 Campaign에서 더 이상 사용되지 않습니다.</p>
    <ul>
    <li>Soap API - 온-프레미스: 2007년, 2015년, 2016년</li>
    <li>Soap API - 온라인: 2015년, 2016년</li>
    <li>웹 API - Microsoft Dynamics CRM 온-프레미스: 2016, 2016 업데이트 1</li>
    <li>웹 API - Microsoft Dynamics CRM 온라인: 2016, 2016 업데이트 1</li>
+   <li>Oracle On Demand API</li>
    </ul>
   <p><em>타겟 제거 날짜: 2021년 4월</em></p>
   </td>
