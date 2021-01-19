@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 translation-type: tm+mt
-source-git-commit: a80f611140a5fb03e3547a8de228ecd8c96e8862
+source-git-commit: f57f52d8807eb771e2416b6648e1d746a206fa96
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 5%
@@ -42,7 +42,7 @@ ht-degree: 5%
 | **비용 계산** (budgetMgt) | 마케팅 캠페인(캠페인) | 이 워크플로우는 예산, 계획, 프로그램, 캠페인, 납품 및 태스크에 대한 비용 및 원가 라인의 계산을 시작합니다. |
 | **데이터베이스 정리** (정리) | 게재 | 이 워크플로우는 데이터베이스 유지 관리 워크플로입니다.통계 및 프로세스와 다른 계산을 수행하고 배포 도우미의 정의된 구성에 따라 데이터베이스에서 오래된 데이터를 삭제합니다. 기본적으로 매일 오전 4시에 트리거됩니다. 자세한 정보는 [이 페이지](../../production/using/database-cleanup-workflow.md#monitoring-campaign-classic)를 참조하십시오. |
 | **차단된 LINE 사용자**  삭제(deleteBlockedLineUsersV2) | LINE 채널 | 이 워크플로우에서는 LINE V2 사용자가 180일 동안 LINE 공식 계정을 차단하면 데이터가 삭제됩니다. |
-| **개인 정보 요청 데이터 삭제** (deletePrivacyRequestsData) | 개인 정보 보호 규정 | 이 워크플로우에서는 Adobe Campaign에 저장된 수신자 데이터를 삭제합니다. |
+| **개인 정보 요청 데이터 삭제** (deletePrivacyRequestsData) | 개인 정보 보호 규정 | 이 워크플로우에서는 Adobe Campaign에 저장된 받는 사람의 데이터를 삭제합니다. |
 | **배달 표시기** (deliveryIndicator) | 중간 소싱 플랫폼 | 이 워크플로우는 전달에 대한 배달 추적 표시기를 업데이트합니다. 이 워크플로우는 기본적으로 매 시간마다 트리거됩니다. |
 | **토론 포럼 프로세스** (newsgroupMgt) | 마케팅 리소스(MRM) | 이 워크플로우는 토론 포럼의 알림 전송을 관리합니다. 승인 신호가 수신될 때 트리거됩니다. |
 | **분산 마케팅 프로세스** (centralLocalMgt) | 중앙/로컬 마케팅(분산 마케팅) | 이 워크플로우는 분산 마케팅 모듈 사용과 관련된 처리를 시작합니다. 로컬 캠페인 만들기를 실행하고 주문 및 캠페인 패키지 가용성과 관련된 알림을 관리합니다. |
@@ -57,7 +57,7 @@ ht-degree: 5%
 | **LINE V2 액세스 토큰 업데이트** (updateLineV2AccessToken) | LINE 채널 | 이 워크플로우는 액세스 토큰을 LINE V2로 새로 고칩니다. |
 | **MID에서 LineUserID 마이그레이션** (MIDToUserIDMigation) | LINE 채널 | 이 워크플로우에서는 LINE V1에서 LINE V2로 마이그레이션하기 위한 LINE V2 사용자 ID를 생성합니다. |
 | **마케팅 리소스 알림** (assetMgt) | 마케팅 리소스(MRM) | 이 워크플로우는 마케팅 리소스의 승인 및 게시에 연결된 알림을 관리합니다. |
-| **메시지 센터  &lt;external_account_name>** (mcSynch_&lt;external_account_name>) | 트랜잭션 메시지 제어(메시지 센터 - 제어) | 이 작업 과정: <ul><li>작업에 의해 처리된 이벤트 목록을 복구합니다.</li><li>배달 메시지 자격 조건을 복구하기 위해 NmsBroadLogMsg 테이블과 동기화합니다.</li><li>NmsBroadLogMsg 테이블과의 동기화가 완료되는 즉시 이벤트 배달 로그를 복구합니다.</li><li>배달 URL에 대한 추적을 복구하기 위해 NmsTrackingUrl 테이블과 동기화합니다.</li><li>NmsTrackingUrl 테이블과의 동기화가 완료되는 즉시 이벤트 추적 URL을 복구합니다.</li><li>배달을 보낸 후 3시간마다 격리에 있는 모든 이메일 주소를 복구할 수 있습니다.</ul> |
+| **메시지 센터  &lt;external_account_name>** (mcSynch_&lt;external_account_name>) | 트랜잭션 메시지 제어(메시지 센터 - 제어) | 이 작업 과정: <ul><li>작업에 의해 처리된 이벤트 목록을 복구합니다.</li><li>배달 메시지 자격 조건을 복구하기 위해 NmsBroadLogMsg 테이블과 동기화합니다.</li><li>NmsBroadLogMsg 테이블과의 동기화가 완료되는 즉시 이벤트 배달 로그를 복구합니다.</li><li>배달 URL에 대한 추적을 복구하기 위해 NmsTrackingUrl 테이블과 동기화합니다.</li><li>NmsTrackingUrl 테이블과의 동기화가 완료되는 즉시 이벤트 추적 URL을 복구합니다.</li><li>배달을 보낸 후 3시간마다 격리에 있는 모든 이메일 주소를 복구할 수 있습니다.</li></ul> |
 | **MessageCenter 전체 집계 계산** (agg_messageCenter_full) | 트랜잭션 메시지 제어(메시지 센터 - 제어) | 이 워크플로우는 메시지 센터 큐브의 전체 합계를 업데이트합니다. 기본적으로 매일 오전 3시에 트리거됩니다. 이 집계는 다음 차원을 캡처합니다.채널, 날짜, 상태 및 이벤트 유형. 그런 다음 메시지 센터 큐브를 사용하여 이벤트를 기반으로 보고서를 생성합니다. [이 섹션](../../reporting/using/about-cubes.md)에서 큐브에 대해 자세히 알아볼 수 있습니다. |
 | **중간 소싱(배달 카운터)** (defaultMidSourcingDlv) | 중간 소싱으로 전송 | 이 워크플로우는 중간 소싱 서버에서 납품에 대한 카운트 정보를 수집합니다. 개수 정보에는 전송 횟수 등과 같은 일반 배달 지표가 포함되어 있습니다. 열기와 같은 추적 정보는 포함되지 않습니다. 기본적으로 10분마다 트리거됩니다. |
 | **중간 소싱(배달 로그)** (defaultMidSourcingLog) | 중간 소싱으로 전송 | 이 워크플로우는 중간 소싱 서버의 배달 로그를 수집합니다. 기본적으로 매 시간마다 트리거됩니다. |
