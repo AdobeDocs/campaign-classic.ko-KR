@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 15%
@@ -35,7 +35,7 @@ ht-degree: 15%
 
 ![](assets/preprocessing-dataloading.png)
 
-자세한 내용은 다음 섹션을 참조하십시오.[처리](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing) 전에 파일을 압축 해제하거나 해독합니다.
+자세한 내용은 다음 섹션을 참조하십시오.[처리](../../platform/using/unzip-decrypt.md) 전에 파일을 압축 해제하거나 해독합니다.
 
 ## 파일 형식 정의 {#defining-the-file-format}
 
@@ -113,7 +113,7 @@ ht-degree: 15%
    * 첫 번째 열에는 이벤트와 일치하는 코드가 포함되어 있습니다.구매(3,000유로 이하), 하나 이상의 구매에 대해 구매 또는 환불을 하지 않습니다.
    * 다음 4개의 열에는 클라이언트의 이름, 성, 이메일 및 계정 번호가 포함됩니다.
 
-   로드할 파일의 형식 구성이 Adobe Campaign에서 데이터를 가져오는 동안 정의된 형식과 일치합니다. 자세한 정보는 이 [섹션](../../platform/using/importing-data.md#step-2---source-file-selection)을 참조하십시오.
+   로드할 파일의 형식 구성이 Adobe Campaign에서 데이터를 가져오는 동안 정의된 형식과 일치합니다. 자세한 정보는 이 [섹션](../../platform/using/executing-import-jobs.md#step-2---source-file-selection)을 참조하십시오.
 
 1. 분할 활동에서 **이벤트** 열 값에 따라 만들 하위 집합을 지정합니다.
 
