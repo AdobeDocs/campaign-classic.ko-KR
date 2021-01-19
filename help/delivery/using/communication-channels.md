@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1210'
 ht-degree: 12%
 
 ---
@@ -88,7 +88,11 @@ Adobe Campaign을 사용하면 전용 앱을 통해 iOS 및 Android 모바일 �
 
 ## 기타 채널 {#other-channels}
 
-Adobe Campaign은 외부 배달을 만드는 데 사용되는 에이전시 또는 전화 배달 템플릿을 제공합니다. 이러한 채널을 사용하면 출력 파일을 처리할 전용 방법을 설정할 수 있습니다. 구성 단계는 [다이렉트 메일 채널](../../delivery/using/about-direct-mail-channel.md)과 동일합니다.
+Adobe Campaign은 외부 배달을 만드는 데 사용되는 전화 배달 템플릿을 제공합니다. 이 채널을 사용하면 출력 파일을 처리할 전용 방법을 설정할 수 있습니다. 구성 단계는 [다이렉트 메일 채널](../../delivery/using/about-direct-mail-channel.md)과 동일합니다.
+
+>[!NOTE]
+>
+>전화 채널은 즉시 사용할 수 없습니다. 구현을 위해서는 Adobe 컨설팅 또는 Adobe 파트너가 참여해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 또한 &#39;기타&#39; 유형 배달은 프로세스를 실행하지 않는 특정 기술 템플릿을 사용합니다.따라서 Adobe Campaign 플랫폼 외부에서 실행되는 마케팅 작업을 관리할 수 있습니다.
 
