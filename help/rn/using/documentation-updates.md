@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 88172a79aad37e6a311b144f4ea685bb4846825b
+source-git-commit: 759346587e3ce98c408a0a17218341118dbceb82
 workflow-type: tm+mt
-source-wordcount: '3814'
-ht-degree: 96%
+source-wordcount: '3869'
+ht-degree: 94%
 
 ---
 
@@ -19,31 +19,39 @@ ht-degree: 96%
 
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
-또한 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)에서 더 많은 업데이트를 확인할 수 있습니다.
+릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 노트](../../rn/using/latest-release.md)를 참조하십시오.
 
-## 2021년 1월 {#jan,2021}
+## 2021년 1월 {#jan-2021}
 
-**[!UICONTROL Fork]** 활동 섹션이 추가 정보와 함께 풍부해졌습니다. 아웃바운드 전환이 동시에 실행되지 않으므로 작업을 사용하여 워크플로우의 성능을 향상시켜서는 안 된다는 내용의 메모가 추가되었습니다. [자세한 내용](../../workflow/using/fork.md)
+**[!UICONTROL Fork]** 활동 섹션이 우수 사례를 통해 더욱 풍부해졌습니다. [자세한 내용](../../workflow/using/fork.md)
 
-Tomcat 버전 찾기 섹션이 [여기](../../production/using/locate-tomcat-version.md)로 이동되었습니다.
+**CRM 커넥터** 섹션이 업데이트, 개선 및 재구성되었습니다. [자세한 내용](../../platform/using/crm-connectors.md)
 
-관련 패키지가 포함된 기술 워크플로우 목록이 하나의 페이지로 재구성되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
+이제 **Adobe Campaign 및 Microsoft Dynamics**&#x200B;에 연결하는 단계가 전용 페이지에 자세히 설명되어 있습니다. [자세한 내용](../../platform/using/crm-ms-dynamics.md)
 
-모니터링 안내서의 문제 해결 섹션이 랜딩 페이지로 재구성되고 향상되었습니다. [자세한 내용](../../production/using/troubleshooting.md)
+이제 oracle On Demand API는 Campaign과 연결된 CRM으로 더 이상 사용되지 않습니다. [자세한 내용](../../rn/using/deprecated-features.md)
+
+Adobe Campaign [여기](../../production/using/locate-tomcat-version.md)의 인스턴스에 사용된 포함된 Tomcat 웹 서블릿의 현재 버전을 확인하는 방법을 알아봅니다.
+
+관련 패키지와 함께 제공되는 기술 워크플로우 목록이 향상되었으며 단일 페이지로 중앙 집중화되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
+
+**모니터링** 안내서의 문제 해결 섹션이 랜딩 페이지로 재구성되고 향상되었습니다. [자세한 내용](../../production/using/troubleshooting.md)
+
+새 **데이터 가져오기 및 내보내기** 섹션은 워크플로, 데이터 압축, 암호화 및 가져오기 우수 사례와 관련된 새 페이지에서 사용할 수 있습니다. [자세한 내용](../../platform/using/get-started-data-import-export.md)
 
 ## 2020년 12월 {#dec-2020}
 
-게재 모니터링 섹션이 주제별로 다시 구성되었습니다. [자세한 내용](../../delivery/using/about-delivery-monitoring.md)
+**배달 모니터링** 섹션이 테마 항목으로 재구성되었습니다. [자세한 내용](../../delivery/using/about-delivery-monitoring.md)
 
 게재 로그에 보낸 사람의 IP 주소를 추가하는 방법에 사용 사례가 추가되었습니다. [자세한 내용](../../delivery/using/delivery-dashboard.md#use-case)
 
 개인 정보 보호 FAQ가 [이 섹션](../../platform/using/privacy-faq.md)으로 이동했습니다.
 
-데이터 중복 제거 작업의 병합 기능을 사용하는 방법에 대한 사용 사례가 추가되었습니다. [자세한 내용](../../workflow/using/deduplication-merge.md)
+**[!UICONTROL Deduplication]** 활동의 병합 기능을 사용하는 방법에 사용 사례가 추가되었습니다. [자세한 내용](../../workflow/using/deduplication-merge.md)
 
-SMS 커넥터 프로토콜 및 설정 페이지가 [여기](../../delivery/using/sms-protocol.md)로 이동되었습니다.
+이제 SMS 커넥터 프로토콜 및 설정 페이지에 대한 전체 설명을[여기](../../delivery/using/sms-protocol.md)에서 사용할 수 있습니다.
 
-액세스 권한 문제를 방지하기 위해 이벤트 폴더를 실행 인스턴스의 보기로 설정하지 말아야 한다는 경고를 하기 위해 트랜잭션 메시지 섹션에 메모를 추가했습니다. [자세한 내용](../../message-center/using/event-collection.md)
+액세스 권한 문제를 방지하기 위해 이벤트 폴더를 실행 인스턴스에서 보기 횟수로 설정하지 말아야 함을 경고하기 위해 **트랜잭션 메시지** 섹션에 메모가 추가되었습니다. [자세한 내용](../../message-center/using/event-collection.md)
 
 ## 2020년 11월 {#nov-2020}
 
@@ -173,7 +181,7 @@ Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요�
 
 격리된 주소 제거 섹션이 업데이트되었습니다. 여기에는 격리 목록에서 주소가 자동으로 제거되는 경우의 확인이 포함됩니다. [자세한 내용](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)하고 [해독](../../workflow/using/importing-data.md#use-case-gpg-decrypt)하는 방법에대한 사용 사례가 추가되었습니다.
+제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화](../../platform/using/zip-encrypt.md)하고 [해독](../../platform/using/unzip-decrypt.md)하는 방법에대한 사용 사례가 추가되었습니다.
 
 Experience Cloud 트리거 및 Adobe Campaign Classic 통합 페이지는 [여기](../../integrations/using/about-triggers.md)로 이동했습니다
 
