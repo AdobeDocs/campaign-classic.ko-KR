@@ -7,9 +7,9 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
 workflow-type: tm+mt
-source-wordcount: '2820'
+source-wordcount: '2786'
 ht-degree: 0%
 
 ---
@@ -616,11 +616,11 @@ logInfo("Done");
 
 ### 맞춤형 보고서 {#personalized-reports}
 
-v7의 파란색 배너를 사용하려면(우주에 액세스할 수 있음) 보고서를 다시 게시해야 합니다. 문제가 발생하면 v6.0 렌더링 엔진을 강제 적용할 수 있습니다. 이렇게 하려면 보고서 내의 **[!UICONTROL Properties]**&#x200B;으로 이동하여 **[!UICONTROL Rendering]**&#x200B;을 클릭하고 **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** 렌더링 엔진을 선택합니다.
+<!--If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
 
 ![](assets/migration_reports_1.png)
-
-새로운 보고서 기능을 활용하려면 v.6.x 렌더링 엔진을 선택해야 합니다. 이 경우 모든 스크립트를 확인하고 필요한 경우 스크립트를 변경합니다. PDF 내보내기와 관련하여 OpenOffice에 대한 특정 스크립트를 추가한 경우, 새로운 PDF 내보내기 엔진(PhantomJS)에서 더 이상 작동하지 않습니다.
+-->
+새 보고서 기능을 활용하려면 보고서를 다시 게시해야 합니다. 이렇게 하려면 보고서 **[!UICONTROL Properties]**&#x200B;을 편집하고 **[!UICONTROL Rendering]**&#x200B;을 클릭한 다음 v.6.x 렌더링 엔진을 선택합니다. 이 경우 모든 스크립트를 확인하고 필요한 경우 스크립트를 변경합니다. PDF 내보내기와 관련하여 Open Office에 대한 특정 스크립트를 추가한 경우 새로운 PDF 내보내기 엔진(PhantomJS)에서 더 이상 작동하지 않습니다.
 
 ## 웹 애플리케이션 {#web-applications}
 
