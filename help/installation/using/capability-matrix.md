@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 18%
@@ -33,8 +33,8 @@ Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니�
 | 중간 소싱 플랫폼 관리 | On-Demand | On-Demand | 사용 가능 | [자세히 알아보기](../../installation/using/mid-sourcing-server.md) |
 | 리트머스 를 통한 받은 편지함 렌더링 | On-Demand | On-Demand | 사용 가능 | [자세히 알아보기](../../delivery/using/inbox-rendering.md) |
 | IMS와 통합(Adobe ID) | On-Demand | On-Demand | On-Demand | [자세히 알아보기](../../integrations/using/about-adobe-id.md) |
-| 파일 전송에 대한 데이터 암호화/암호 해독 | On-Demand | 사용 가능 | 사용 가능 | [자세히 알아보기](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing) |
-| 파일 지핑/압축 해제 | On-Demand | 사용 가능 | 사용 가능 | [자세히 알아보기](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing) |
+| 파일 전송에 대한 데이터 암호화/암호 해독 | On-Demand | 사용 가능 | 사용 가능 | [자세히 알아보기](../../platform/using/unzip-decrypt.md) |
+| 파일 지핑/압축 해제 | On-Demand | 사용 가능 | 사용 가능 | [자세히 알아보기](../../platform/using/unzip-decrypt.md) |
 | 도메인 이름 위임 | On-Demand | On-Demand | 사용할 수 없음 | [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html) |
 | SpamCharacter 설치 | On-Demand | 사용 가능 | 사용 가능 | [자세히 알아보기](../../delivery/using/spamassassin.md) |
 | 배달 가능 보고서 액세스 | 사용 가능 | On-Demand | 사용 가능 | [자세히 알아보기](../../delivery/using/monitoring-deliverability.md) |
