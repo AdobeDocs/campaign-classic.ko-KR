@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # 프로필 추가{#adding-profiles}
 
-대부분의 경우 프로필은 [워크플로우](../../workflow/using/importing-data.md)를 통해 Campaign으로 가져옵니다. 하지만 **[!UICONTROL Create]** 단추를 클릭하여 인터페이스에서 직접 하나 이상의 프로파일을 추가할 수 있습니다. 그런 다음 데이터베이스에 추가됩니다.
+대부분의 경우 프로필은 [워크플로우](../../platform/using/import-export-workflows.md)를 통해 Campaign으로 가져옵니다. 하지만 **[!UICONTROL Create]** 단추를 클릭하여 인터페이스에서 직접 하나 이상의 프로파일을 추가할 수 있습니다. 그런 다음 데이터베이스에 추가됩니다.
 
 ![](assets/s_ncs_user_profile_add.png)
 
