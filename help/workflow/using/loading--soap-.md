@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 4%
@@ -43,7 +43,7 @@ ht-degree: 4%
 
    예제를 업데이트하려면 **[!UICONTROL Re-analyze the example]**&#x200B;을 선택합니다.
 
-   **[!UICONTROL Advanced parameters]** 링크를 통해 열 데이터의 형식을 개인화할 수도 있습니다. 가져온 데이터의 서식에 대한 자세한 내용은 이 [섹션](../../platform/using/importing-data.md#import-wizard)을 참조하십시오.
+   **[!UICONTROL Advanced parameters]** 링크를 통해 열 데이터의 형식을 개인화할 수도 있습니다. 가져온 데이터의 서식에 대한 자세한 내용은 이 [섹션](../../platform/using/executing-import-jobs.md)을 참조하십시오.
 
 1. 라인 번호를 식별자로 사용하거나 SOAP 호출이 여러 요소를 반환하도록 지정할 수 있습니다.
 1. 함수에 따라 다음 탭 스크립트를 입력합니다.
