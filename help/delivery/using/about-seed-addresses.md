@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 9%
@@ -46,7 +46,7 @@ ht-degree: 9%
 >DM 전달의 경우 추출 파일 형식은 다음 제한 사항을 준수해야 합니다.
 >
 >* **[!UICONTROL Handle groupings (GROUP BY+HAVING)]** 옵션을 사용할 수 없습니다.
->* 요소 컬렉션이 추출되면 **[!UICONTROL Single row (expert user)]** 옵션을 선택하지 않으면 이 필드는 시드 주소에 대해 빈 값을 갖게 됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/exporting-data.md#step-7---data-formatting)을 참조하십시오.
+>* 요소 컬렉션이 추출되면 **[!UICONTROL Single row (expert user)]** 옵션을 선택하지 않으면 이 필드는 시드 주소에 대해 빈 값을 갖게 됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/executing-export-jobs.md#step-7---data-formatting)을 참조하십시오.
 
 >
 
