@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
 source-wordcount: '2926'
 ht-degree: 1%
@@ -346,7 +346,7 @@ ht-degree: 1%
 >
 >이 모드는 작은 문서용으로 예약되어 있습니다.
 
-캠페인에서는 홍보 쿠폰, 특정 지점 또는 스토어와 관련된 특별 행사 등 다른 항목을 참조할 수도 있습니다. 이러한 요소가 윤곽선에 포함되어 있으면 직접 메일 배달을 연결할 수 있습니다. 배달 개요[를 통해 연결된 리소스의 연결 및 구조화를 참조하십시오.](#associating-and-structuring-resources-linked-via-a-delivery-outline)
+캠페인에서는 홍보 쿠폰, 특정 지점 또는 스토어와 관련된 특별 행사 등 다른 항목을 참조할 수도 있습니다. 이러한 요소가 윤곽선에 포함되어 있으면 직접 메일 배달을 연결할 수 있습니다. 배달 개요](#associating-and-structuring-resources-linked-via-a-delivery-outline)를 통해 연결된 리소스의 연결 및 구조화를 참조하십시오.[
 
 >[!NOTE]
 >
@@ -455,7 +455,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->내보내기에 대한 자세한 내용은 [시작하기](../../platform/using/generic-imports-and-exports.md) 섹션을 참조하십시오.
+>내보내기에 대한 자세한 내용은 [시작하기](../../platform/using/get-started-data-import-export.md) 섹션을 참조하십시오.
 
 #### 자습서 비디오 {#create-email-video}
 
