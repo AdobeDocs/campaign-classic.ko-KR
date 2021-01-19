@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '145'
 ht-degree: 15%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 15%
 
 ## 워크플로 사용{#use-workflows}
 
-내보내기 및 가져오기는 **[!UICONTROL Import]** 및 **[!UICONTROL Export]** 활동을 통해 워크플로우를 통해 실행되는 전용 템플릿에 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. [자세히 알아보기](../../workflow/using/importing-data.md#best-practices-when-importing-data)
+내보내기 및 가져오기는 가져오기 및 내보내기 활동을 통해 워크플로우를 통해 실행되는 전용 템플릿에 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. [자세히 알아보기](../../platform/using/import-export-workflows.md#best-practices-when-importing-data)
 
 필요한 경우 아래 설명된 **[!UICONTROL Generic imports and exports]** 기능을 통해 가져오기 또는 내보내기 작업을 가끔 만들 수 있습니다.
 
 ## 작업 만들기{#create-jobs}
 
-데이터 가져오기 및 내보내기 작업을 구성하고 실행하려면 **[!UICONTROL Profiles and targets]** 탭으로 이동하여 **[!UICONTROL Jobs]** 링크를 클릭합니다. [자세히 알아보기](../../platform/using/generic-imports-and-exports.md)
+데이터 가져오기 및 내보내기 작업을 구성하고 실행하려면 **[!UICONTROL Profiles and targets]** 탭으로 이동하여 **[!UICONTROL Jobs]** 링크를 클릭합니다. [자세히 알아보기](../../platform/using/about-generic-imports-exports.md)
 
 ![](assets/s_ncs_user_interface_import_link.png)
 
