@@ -7,7 +7,7 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 3%
@@ -111,7 +111,7 @@ URL 매개 변수에 대한 자세한 내용은 [이 페이지](../../web/using/
 
    >[!NOTE]
    >
-   >데이터 내보내기 및 구성 단계는 [이 섹션](../../platform/using/generic-imports-and-exports.md)에 자세히 설명되어 있습니다.
+   >데이터 내보내기 및 구성 단계는 [이 섹션](../../platform/using/about-generic-imports-exports.md)에 자세히 설명되어 있습니다.
 
 ## 수집된 데이터 사용 {#using-the-collected-data}
 
