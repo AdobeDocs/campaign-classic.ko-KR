@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '362'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign 워크플로우를 통해 프로세스와 작업을 오케스트�
 
 ## Campaign에서 데이터를 가져오려면 어떻게 해야 합니까? {#how-can-i-import-data-in-campaign-}
 
-[이 섹션의](../../workflow/using/importing-data.md) Campaign 워크플로우를 통해 데이터를 가져오는 모범 사례에 대해 배웁니다.
+[이 섹션](../../platform/using/import-export-best-practices.md)에서 데이터를 가져오는 모범 사례에 대해 알아봅니다.
 
 ## 워크플로우 실행을 모니터링할 수 있습니까? {#can-i-monitor-workflow-execution-}
 
@@ -59,7 +59,7 @@ Adobe Campaign에서는 보다 효율적이고 유연한 도구를 제공하여 
 
 캠페인 테이블의 특정 필드를 외부 텍스트 파일의 값으로 수정할 수 있습니다.
 
-[방법을 알아보려면 여기를 클릭하세요](../../platform/using/importing-data.md#example--enrich-the-values-with-those-of-an-external-file).
+[방법을 알아보려면 여기를 클릭하세요](../../platform/using/import-operations-samples.md#example--enrich-the-values-with-those-of-an-external-file).
 
 ## 신규 수신자를 식별하고 타겟팅하려면 어떻게 해야 합니까? {#how-can-i-identify-and-target-new-recipients-}
 
