@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 translation-type: tm+mt
-source-git-commit: d35b22386bd2681ba02e4379c627821b35a7d04e
+source-git-commit: e5f718908d0bb6893e54c51700865ecda09c80db
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 0%
+source-wordcount: '196'
+ht-degree: 1%
 
 ---
 
@@ -28,11 +28,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->포크 활동 후에 추가된 아웃바운드 전환은 동시에 실행되지 않습니다.
->
->따라서 워크플로우의 성능을 향상시키기 위해 활동을 사용하지 말고, 여러 활동을 독립적으로 실행하고 나머지 워크플로우를 실행하기 전에 나중에 함께 참여하려면 합니다.
+>**[!UICONTROL Fork]** 활동 **이(가) 동시에 실행되지 않습니다.** 이 동작은 워크플로우의 성능에 영향을 줄 수 있습니다. 여러 활동을 독립적으로 실행하고 나머지 작업을 실행하기 전에 이러한 활동을 함께 사용해야 하는 경우 이 활동을 사용합니다.
 
-활동을 구성하려면 활동을 연 다음 원하는 아웃바운드 전환의 번호와 레이블을 정의합니다.
+**[!UICONTROL Fork]** 활동을 구성하려면 아웃바운드 전환의 번호와 레이블을 정의합니다.
 
 ![](assets/s_user_segmentation_fork.png)
 
