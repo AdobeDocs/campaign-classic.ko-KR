@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 404ff67207f8c126e44736fe565cf57afcc6397e
+source-git-commit: ef502c023918baa1ae56b9619c7ab488ddf909e3
 workflow-type: tm+mt
-source-wordcount: '2202'
-ht-degree: 98%
+source-wordcount: '2293'
+ht-degree: 94%
 
 ---
 
@@ -68,10 +68,22 @@ ht-degree: 98%
       + [프로필 내보내기 및 가져오기](platform/using/exporting-and-importing-profiles.md)
       + [목록 만들기 및 관리](platform/using/creating-and-managing-lists.md)
    + 데이터 가져오기 및 내보내기 {#importing-and-exporting-data}
-      + [일반 가져오기 및 내보내기](platform/using/generic-imports-and-exports.md)
-      + [데이터 내보내기](platform/using/exporting-data.md)
-      + [데이터 가져오기](platform/using/importing-data.md)
-      + [SFTP 서버 사용](platform/using/sftp-server-usage.md)
+      + [데이터 가져오기 및 내보내기 시작하기](platform/using/get-started-data-import-export.md)
+      + [워크플로우를 사용하여 데이터 가져오기 및 내보내기](platform/using/import-export-workflows.md)
+      + 일반 가져오기 및 내보내기 작업 {generic-importing-export}
+         + [일반 가져오기 및 내보내기 시작하기](platform/using/about-generic-imports-exports.md)
+         + [가져오기 및 내보내기 템플릿 만들기](platform/using/creating-import-export-templates.md)
+         + [가져오기 및 내보내기 작업 만들기](platform/using/creating-import-export-jobs.md)
+         + [가져오기 작업 구성](platform/using/executing-import-jobs.md)
+         + [내보내기 작업 구성](platform/using/executing-export-jobs.md)
+         + [작업 실행 모니터링](platform/using/monitoring-jobs-execution.md)
+         + [일반 가져오기 샘플](platform/using/import-operations-samples.md)
+      + 데이터 암호화 및 압축 관리 {managing-data-encryption-compression}
+         + [처리하기 전에 파일 압축 해제 또는 해독](platform/using/unzip-decrypt.md)
+         + [처리 전 파일 압축 또는 암호화](platform/using/zip-encrypt.md)
+      + 모범 사례 및 문제 해결 {우수 사례}
+         + [가져오기 및 내보내기 모범 사례](platform/using/import-export-best-practices.md)
+         + [SFTP 서버 우수 사례 및 문제 해결](platform/using/sftp-server-usage.md)
    + 데이터 필터링 {#filtering-data}
       + [필터링 옵션](platform/using/filtering-options.md)
       + [필터 만들기](platform/using/creating-filters.md)
@@ -86,7 +98,10 @@ ht-degree: 98%
       + [열거형 관리](platform/using/managing-enumerations.md)
    + 커넥터 {#connectors}
       + [커넥터 정보](platform/using/about-connectors.md)
-      + [CRM 커넥터](platform/using/crm-connectors.md)
+      + CRM 커넥터{#crm-connectors}
+         + [CRM 커넥터 시작하기](platform/using/crm-connectors.md)
+         + [Microsoft Dynamics 365와 연결](platform/using/crm-ms-dynamics.md)
+         + [데이터를 CRM과 동기화](platform/using/crm-data-sync.md)
       + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector.md)
 + 메시지 보내기 {#sending-messages}
    + [메시지 시작](delivery/using/communication-channels.md)
@@ -347,13 +362,11 @@ ht-degree: 98%
       + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
       + [파이프라인 문제 해결](integrations/using/pipeline-troubleshooting.md)
 + 워크플로우로 자동화 {#automating-with-workflows}
-   + 소개 {#introduction}
-      + [워크플로우 시작](workflow/using/about-workflows.md)
+   + 워크플로우 시작 {#introduction}
+      + [워크플로우 정보](workflow/using/about-workflows.md)
       + [활동 정보](workflow/using/about-activities.md)
-   + 일반 작업 {#general-operation}
       + [워크플로우 구축](workflow/using/building-a-workflow.md)
       + [데이터 타겟팅](workflow/using/targeting-data.md)
-      + [데이터 가져오기](workflow/using/importing-data.md)
       + [워크플로우 데이터 사용 방법](workflow/using/how-to-use-workflow-data.md)
       + [워크플로우 모범 사례](workflow/using/workflow-best-practices.md)
    + 워크플로우 실행 {#executing-a-workflow}
@@ -441,6 +454,7 @@ ht-degree: 98%
          + [데이터 강화](workflow/using/enriching-data.md)
          + [집계 사용](workflow/using/using-aggregates.md)
          + [데이터 중복 제거 작업의 병합 기능 사용](workflow/using/deduplication-merge.md)
+         + [반복 가져오기 워크플로우 설정](workflow/using/recurring-import-workflow.md)
       + 쿼리 디자인 {#designing-queries}
          + [증분 쿼리를 사용한 분기별 목록 업데이트](workflow/using/quarterly-list-update.md)
       + {#designing-queries} 타겟팅 
