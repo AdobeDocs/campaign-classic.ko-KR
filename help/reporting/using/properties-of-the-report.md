@@ -7,9 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 1%
 
 **[!UICONTROL Rendering]** 탭에서 페이지의 데이터 표시 모드를 개인화할 수 있습니다. 다음을 선택할 수 있습니다.
 
-* 차트 렌더링 엔진:Adobe Campaign은 차트 렌더링을 생성하기 위한 서로 다른 두 모드를 제공합니다. 기본적으로 렌더링 엔진은 HTML 5입니다. 필요한 경우 Flash 렌더링을 선택할 수 있습니다.
+* 차트 렌더링 엔진:기본적으로 렌더링 엔진은 HTML 5입니다.
 * 보고서의 탐색 유형:를 클릭하거나 탭합니다.
 * 보고서 요소에 대한 레이블의 기본 위치입니다. 이 위치는 각 요소에 대해 오버로드될 수 있습니다.
 * 보고서 페이지를 생성하는 데 사용되는 템플릿 또는 테마입니다.
