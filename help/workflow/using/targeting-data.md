@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 4%
@@ -77,7 +77,7 @@ ht-degree: 4%
 
 필터링 조건으로 추가 데이터만 사용하거나 타겟 데이터 외에 다른 데이터를 사용하여 대상을 여러 하위 세트로 분할할 수 있습니다. **통합 데이터 액세스** 옵션을 구입한 경우 외부 데이터를 사용할 수도 있습니다.
 
-자세한 내용은 분할 활동[을 사용하여 하위 세트 만들기를 참조하십시오.](#creating-subsets-using-the-split-activity)
+자세한 내용은 분할 활동](#creating-subsets-using-the-split-activity)을 사용하여 하위 세트 만들기를 참조하십시오.[
 
 ## 데이터 세그먼트화 {#segmenting-data}
 
@@ -135,7 +135,7 @@ ht-degree: 4%
 
 필요한 경우 인바운드 테이블을 조작할 수 있습니다. 실제로 다른 차원에서 대상을 제외하려면 이 타겟이 기본 타겟과 동일한 타깃팅 차원으로 반환되어야 합니다. 이렇게 하려면 **[!UICONTROL Add]** 단추를 클릭하고 차원 변경 조건을 지정합니다.
 
-데이터 조정은 식별자, 축 변경 또는 조인을 통해 수행됩니다. 예제는 [목록의 데이터 사용에서 사용할 수 있습니다.목록](../../workflow/using/importing-data.md#using-data-from-a-list--read-list)을 읽습니다.
+데이터 조정은 식별자, 축 변경 또는 조인을 통해 수행됩니다. 예제는 [목록의 데이터 사용에서 사용할 수 있습니다.목록](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list)을 읽습니다.
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
