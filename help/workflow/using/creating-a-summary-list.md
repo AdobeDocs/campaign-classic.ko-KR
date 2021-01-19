@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 2%
@@ -61,7 +61,7 @@ Phone;500;London 5
 
    **데이터 로드(파일)** 활동을 사용하면 워크플로우의 작업 테이블을 수집된 데이터로 보완할 수 있습니다.
 
-   이 활동에 대한 자세한 내용은 [파일](../../workflow/using/importing-data.md#loading-data-from-a-file)에서 데이터 로드를 참조하십시오.
+   이 활동에 대한 자세한 내용은 [파일](../../platform/using/import-export-workflows.md#loading-data-from-a-file)에서 데이터 로드를 참조하십시오.
 
 1. 선택한 디렉토리에서 텍스트(*.txt) 유형 파일을 수집하도록 **파일 수집기** 활동을 구성합니다.
 
