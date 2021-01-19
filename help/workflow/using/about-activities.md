@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: introduction
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 16%
+source-wordcount: '94'
+ht-degree: 14%
 
 ---
 
@@ -28,6 +28,5 @@ ht-degree: 16%
 자세한 내용:
 
 * [타깃팅 활동 정보](../../workflow/using/about-targeting-activities.md)
-* [데이터 가져오기](../../workflow/using/importing-data.md)
 * [워크플로우 실행](../../workflow/using/starting-a-workflow.md)
 * [워크플로우 모범 사례](../../workflow/using/workflow-best-practices.md)
