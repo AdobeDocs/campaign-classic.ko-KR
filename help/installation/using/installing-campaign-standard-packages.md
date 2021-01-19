@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1173'
 ht-degree: 5%
 
 ---
@@ -122,6 +122,11 @@ ht-degree: 5%
   <tr> 
    <td> 모바일 채널(SMS) <br /> </td> 
    <td> Adobe Campaign에서 모바일/SMS 채널을 사용하여 배달을 전송합니다. 선택 사항입니다. <a href="../../delivery/using/sms-channel.md">자세한 내용</a> <br /> </td> 
+   <td> 모두<br /> </td> 
+  </tr> 
+   <tr> 
+   <td> 전화 채널<br /> </td> 
+   <td> Adobe Campaign에서 전화 채널을 사용하여 배달물을 전송합니다. 콜 센터에 사용됩니다. 선택 사항입니다. <a href="../../delivery/using/communication-channels.md">자세한 내용</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
