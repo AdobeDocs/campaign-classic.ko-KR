@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 10%
+source-wordcount: '1525'
+ht-degree: 11%
 
 ---
 
@@ -34,7 +34,6 @@ Adobe Campaign에는 미리 정의된 외부 계정 집합이 포함되어 있�
 * [Adobe Experience Manager 외부 계정](#adobe-experience-manager-external-account)
 * [Amazon Simple Storage Service (S3) 외부 계정](#amazon-simple-storage-service--s3--external-account)
 * [Microsoft Dynamics CRM 외부 계정](#microsoft-dynamics-crm-external-account)
-* [Oracle on-demand 외부 계정](#oracle-on-demand-external-account)
 * [Salesforce CRM 외부 계정](#salesforce-crm-external-account)
 
 ## 외부 계정 만들기 {#creating-an-external-account}
@@ -331,35 +330,11 @@ Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe 
 
 **[!UICONTROL Microsoft Dynamics CRM]** 외부 계정을 사용하여 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
 
-Microsoft Dynamics 커넥터가 Adobe Campaign에서 작동하도록 구성하는 것은 배포 유형에 따라 다릅니다.
-**[!UICONTROL On-premise]** 및 **[!UICONTROL Office 365]** 배포 유형을 사용하는 경우 다음 세부 정보를 제공해야 합니다.
+캠페인 - 이 [페이지](../../platform/using/crm-ms-dynamics.md)에서 Microsoft Dynamics CRM 커넥터에 대해 자세히 알아보십시오.
 
-![](assets/ext_account_21.png)
-
-* **[!UICONTROL Account]**
-
-   Microsoft CRM에 로그인하는 데 사용되는 계정입니다.
-
-* **[!UICONTROL Server]**
-
-   Microsoft CRM 서버의 URL입니다.
-
-* **[!UICONTROL Password]**
-
-   Microsoft CRM에 로그인하는 데 사용되는 암호입니다.
-
-* **[!UICONTROL Company name]** 온-프레미스 및 Office 365 배포용
-
-   회사 이름입니다.
-
-* **[!UICONTROL Organization name]** 온-프레미스 배포용
-
-   조직의 이름입니다.
-Microsoft Dynamics, **[!UICONTROL Unique Name]** 필드의 개발자 리소스 대시보드에 있는 조직 이름입니다.
-
-* **[!UICONTROL CRM version]** 온프레미스
-
-   **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** 또는 **[!UICONTROL Dynamics CRM 2016]** 사이의 CRM 버전
+>[!NOTE]
+>
+> **[!UICONTROL On-premise]** 이제  **[!UICONTROL Office 365]** 배포 유형은 더 이상 사용되지 않습니다. [자세히 알아보기](../../rn/using/deprecated-features.md)
 
 **[!UICONTROL Web API]** 배포 유형 및 **[!UICONTROL Password credentials]** 인증을 사용하여 다음 세부 정보를 제공해야 합니다.
 
@@ -405,29 +380,7 @@ Microsoft Dynamics, **[!UICONTROL Unique Name]** 필드의 개발자 리소스 �
 
    **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** 또는 **[!UICONTROL Dynamics CRM 2016]** 사이의 CRM 버전
 
-이 구성에 대한 자세한 내용은 이 [페이지](../../platform/using/crm-connectors.md#example-for-microsoft-dynamics)를 참조하십시오.
-
-## Oracle on-demand 외부 계정 {#oracle-on-demand-external-account}
-
-**[!UICONTROL Oracle on demand]** 외부 계정을 사용하면 Oracle 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
-
-![](assets/ext_account_18.png)
-
-Adobe Campaign에서 작동하도록 Oracle on-demand 외부 계정을 구성하려면 다음 세부 정보를 제공해야 합니다.
-
-* **[!UICONTROL Account]**
-
-   On-Demand 방식으로 Oracle CRM에 로그인하는 데 사용되는 계정입니다.
-
-* **[!UICONTROL Server]**
-
-   oracle CRM on demand 서버의 URL.
-
-* **[!UICONTROL Password]**
-
-   On-Demand 방식으로 Oracle CRM에 로그인하는 데 사용되는 암호입니다.
-
-이 구성에 대한 자세한 내용은 이 [페이지](../../platform/using/crm-connectors.md#example-for-oracle-on-demand)를 참조하십시오.
+이 구성에 대한 자세한 내용은 이 [페이지](../../platform/using/crm-connectors.md)를 참조하십시오.
 
 ## Salesforce CRM 외부 계정 {#salesforce-crm-external-account}
 
@@ -459,4 +412,4 @@ Salesforce CRM 외부 계정이 Adobe Campaign에서 작동하도록 구성하�
 
 이 외부 계정의 경우 구성 마법사를 사용하여 Salesforce CRM을 구성해야 합니다.
 
-이 구성에 대한 자세한 내용은 이 [페이지](../../platform/using/crm-connectors.md#example-for-salesforce-com)를 참조하십시오.
+이 구성에 대한 자세한 내용은 이 [페이지](../../platform/using/crm-connectors.md)를 참조하십시오.
