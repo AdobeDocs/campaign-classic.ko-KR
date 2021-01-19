@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >쿠폰 관리는 반드시 설치해야 하는 패키지입니다. 쿠폰 관리가 있는지 확인하려면 **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**&#x200B;을 확인하십시오.
 >
->쿠폰 데이터는 CSV 및 XML 형식을 사용하여 가져오고 내보낼 수 있습니다. 가져오기 및 내보내기에 대한 자세한 내용은 [이 섹션](../../platform/using/generic-imports-and-exports.md)을 참조하십시오.
+>쿠폰 데이터는 CSV 및 XML 형식을 사용하여 가져오고 내보낼 수 있습니다. 가져오기 및 내보내기에 대한 자세한 내용은 [이 섹션](../../platform/using/get-started-data-import-export.md)을 참조하십시오.
 
 ## 쿠폰 {#creating-a-coupon} 만들기
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >개별 쿠폰을 일괄적으로 가져올 수 있습니다. 가져오기 및 내보내기에 대한 자세한 내용은 [이 섹션](../../platform/using/generic-imports-and-exports.md)을 참조하십시오.
+   >개별 쿠폰을 일괄적으로 가져올 수 있습니다. 가져오기 및 내보내기에 대한 자세한 내용은 [이 섹션](../../platform/using/get-started-data-import-export.md)을 참조하십시오.
 
 ### 개별 쿠폰 구성 {#configuring-individual-coupons}
 
