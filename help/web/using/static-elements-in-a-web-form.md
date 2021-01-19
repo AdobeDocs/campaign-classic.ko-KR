@@ -7,9 +7,9 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
+source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1266'
 ht-degree: 4%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 ## HTML 컨텐츠 {#inserting-html-content} 삽입
 
-양식 페이지에 HTML 컨텐츠를 포함할 수 있습니다.하이퍼텍스트 링크, 이미지, 서식이 지정된 단락, 비디오 또는 Flash 개체 등
+양식 페이지에 HTML 컨텐츠를 포함할 수 있습니다.하이퍼텍스트 링크, 이미지, 서식이 지정된 단락, 비디오 등
 
 HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐트를 입력할 수 있습니다. 편집기를 열려면 **[!UICONTROL Static elements]** > **[!UICONTROL HTML]** 을 클릭합니다.
 
