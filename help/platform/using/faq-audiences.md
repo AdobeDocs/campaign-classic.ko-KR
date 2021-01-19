@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Adobe Campaign 내에서 모집단을 타겟팅하고 대상 그룹을 관리하
 
 ## 프로필을 가져오는 방법 {#how-to-import-profiles-}
 
-데이터베이스에서 [프로필을 가져오기](../../platform/using/importing-data.md#generic-import-samples) 위해 쉬운 사용 사례를 살펴봅니다.
+데이터베이스에서 [프로필을 가져오기](../../platform/using/import-operations-samples.md) 위해 쉬운 사용 사례를 살펴봅니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/importing-profiles.html)
 
