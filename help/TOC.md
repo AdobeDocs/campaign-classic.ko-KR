@@ -81,7 +81,7 @@ ht-degree: 94%
       + 데이터 암호화 및 압축 관리 {managing-data-encryption-compression}
          + [처리하기 전에 파일 압축 해제 또는 해독](platform/using/unzip-decrypt.md)
          + [처리 전 파일 압축 또는 암호화](platform/using/zip-encrypt.md)
-      + 모범 사례 및 문제 해결 {우수 사례}
+      + 모범 사례 및 문제 해결 {best-practices}
          + [가져오기 및 내보내기 모범 사례](platform/using/import-export-best-practices.md)
          + [SFTP 서버 우수 사례 및 문제 해결](platform/using/sftp-server-usage.md)
    + 데이터 필터링 {#filtering-data}
