@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: ef502c023918baa1ae56b9619c7ab488ddf909e3
+source-git-commit: 048ceef9e4498b557601f3eb2db839e415d6e8c5
 workflow-type: tm+mt
-source-wordcount: '2293'
-ht-degree: 94%
+source-wordcount: '2290'
+ht-degree: 95%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 94%
    + 데이터 가져오기 및 내보내기 {#importing-and-exporting-data}
       + [데이터 가져오기 및 내보내기 시작하기](platform/using/get-started-data-import-export.md)
       + [워크플로우를 사용하여 데이터 가져오기 및 내보내기](platform/using/import-export-workflows.md)
-      + 일반 가져오기 및 내보내기 작업 {generic-importing-export}
+      + 일반 가져오기 및 내보내기 작업{#generic-imports-exports}
          + [일반 가져오기 및 내보내기 시작하기](platform/using/about-generic-imports-exports.md)
          + [가져오기 및 내보내기 템플릿 만들기](platform/using/creating-import-export-templates.md)
          + [가져오기 및 내보내기 작업 만들기](platform/using/creating-import-export-jobs.md)
@@ -78,10 +78,10 @@ ht-degree: 94%
          + [내보내기 작업 구성](platform/using/executing-export-jobs.md)
          + [작업 실행 모니터링](platform/using/monitoring-jobs-execution.md)
          + [일반 가져오기 샘플](platform/using/import-operations-samples.md)
-      + 데이터 암호화 및 압축 관리 {managing-data-encryption-compression}
+      + 데이터 암호화 및 압축 관리 {#managing-data-encryption-compression}
          + [처리하기 전에 파일 압축 해제 또는 해독](platform/using/unzip-decrypt.md)
          + [처리 전 파일 압축 또는 암호화](platform/using/zip-encrypt.md)
-      + 모범 사례 및 문제 해결 {best-practices}
+      + 우수 사례 및 문제 해결 {#best-practices}
          + [가져오기 및 내보내기 모범 사례](platform/using/import-export-best-practices.md)
          + [SFTP 서버 우수 사례 및 문제 해결](platform/using/sftp-server-usage.md)
    + 데이터 필터링 {#filtering-data}
@@ -453,7 +453,7 @@ ht-degree: 94%
          + [요약 목록 만들기](workflow/using/creating-a-summary-list.md)
          + [데이터 강화](workflow/using/enriching-data.md)
          + [집계 사용](workflow/using/using-aggregates.md)
-         + [데이터 중복 제거 작업의 병합 기능 사용](workflow/using/deduplication-merge.md)
+         + [중복 제거 활동의 병합 기능 사용](workflow/using/deduplication-merge.md)
          + [반복 가져오기 워크플로우 설정](workflow/using/recurring-import-workflow.md)
       + 쿼리 디자인 {#designing-queries}
          + [증분 쿼리를 사용한 분기별 목록 업데이트](workflow/using/quarterly-list-update.md)
@@ -618,7 +618,7 @@ ht-degree: 94%
       + [데이터베이스 만들기 및 구성](installation/using/creating-and-configuring-the-database.md)
       + [Campaign 서버 구성](installation/using/campaign-server-configuration.md)
       + [인스턴스 배포](installation/using/deploying-an-instance.md)
-      + [Campaign Classic 내장 패키지 설치](installation/using/installing-campaign-standard-packages.md)
+      + [Campaign Classic 기본 제공 패키지 설치](installation/using/installing-campaign-standard-packages.md)
    + 추가 구성 {#additional-configurations}
       + [Campaign 서버 구성](installation/using/configuring-campaign-server.md)
       + [LDAP를 통해 연결](installation/using/connecting-through-ldap.md)
@@ -685,7 +685,7 @@ ht-degree: 94%
       + [애플리케이션 개체](production/using/application-objects.md)
    + 문제 해결 {#troubleshooting-toc}
       + [프로덕션 문제 해결 개요](production/using/troubleshooting.md)
-      + 일반적인 및 일반 문제 {#common-general-issues-toc}
+      + 공통 및 일반적인 문제 {#common-general-issues-toc}
          + [모듈 및 자주 발생하는 문제](production/using/modules-and-frequent-issues.md)
          + [워크플로우 실행](production/using/workflow-execution.md)
          + [암호 분실](production/using/lost-password.md)
@@ -695,7 +695,7 @@ ht-degree: 94%
          + [이미지 표시 문제](production/using/image-display-issues.md)
          + [이미지 누락](production/using/images-missing.md)
          + [임시 파일](production/using/temporary-files.md)
-      + 로그 작업 중 {#working-with-log-toc}
+      + 로그 작업 {#working-with-log-toc}
          + [로그 정밀도](production/using/log-precision.md)
          + [추적 로그 문제](production/using/tracking-logs-issues.md)
       + 데이터베이스 문제 {#database-issues-toc}
