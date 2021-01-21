@@ -6,20 +6,20 @@ description: Campaign Classic Gold Standard 릴리스 정보
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dcef36c3ce14c45cb08a79180938ad8d26fa6549
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '938'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # Gold Standard 릴리스{#gold-standard}
 
-Gold Standard는 Campaign Classic 장기 지원 릴리스입니다. 호스팅 Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전으로 Gold Standard 업그레이드를 자동으로 사용할 수 있습니다. 온-프레미스 및 하이브리드 고객은 Gold Standard 릴리스를 활용할 수 있습니다.
+Gold Standard는 Campaign Classic 장기 지원 릴리스입니다. 호스팅된 Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전의 Gold Standard 업그레이드를 자동으로 활용할 수 있습니다. 온-프레미스 및 하이브리드 고객도 Gold Standard 릴리스를 활용할 수 있습니다.
 
-이전 빌드에서 마이그레이션하는 경우에는 먼저 이 버전으로 업그레이드하는 것이 좋습니다.
+이전 빌드에서 마이그레이션하는 경우 먼저 이 버전으로 업그레이드하는 것이 좋습니다.
 
 이 페이지에는 Gold Standard 릴리스가 나열됩니다.
 
@@ -31,17 +31,17 @@ _2020년 12월 22일_
 
 >[!CAUTION]
 >
->이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.2021년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결할 수 있으려면 업그레이드가 필요합니다.
+>이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 2021년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결하려면 업그레이드가 필요합니다.
 
-빌드 9032@d3b452f에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
+빌드 9032@d3b452f는 다음과 같은 개선 사항 및 수정 사항을 포함합니다.
 
 * 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
 
 * 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O로 이동되었습니다. [자세히 알아보기](../../integrations/using/configuring-adobe-io.md)
 
-* iOS APNs 레거시 이진 프로토콜에 대한 지원이 종료된 후 업그레이드 후 이 프로토콜을 사용하는 모든 인스턴스가 HTTP/2 프로토콜로 업데이트됩니다.
+* iOS APNs 레거시 이진 프로토콜에 대한 지원이 종료됨에 따라 업그레이드 후 이 프로토콜을 사용하는 모든 인스턴스는 HTTP/2 프로토콜로 업데이트됩니다.
 
-* SSRF(Server Side Request 위조) 문제에 대한 보호를 강화하려는 보안 문제가 해결되었습니다. (NEO-27777)
+* SSRF(Server Side Request Forgery) 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-27777)
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 10 릴리스{#gs-10}
 
@@ -77,11 +77,11 @@ _2020년 4월 29일_
 
 빌드 9032@3a9dc9c에는 다음 수정 사항이 포함되어 있습니다.
 
-* 전자 메일의 링크 추적 보안이 개선되었습니다. 모든 고객에 대해 기본적으로 활성화됩니다. 고객 지원 센터에 연락하여 활성화할 수 있는 향상된 추가 보안 기능을 사용할 수 있습니다. 호스팅되지 않은 고객이 이 기능을 사용하도록 설정하는 기능 및 단계에 대한 자세한 내용은 [보안 및 개인 정보 보호 체크리스트](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)에서 확인할 수 있습니다.
+* 전자 메일의 링크 추적 보안이 개선되었습니다. 모든 고객에 대해 기본적으로 활성화됩니다. 고객 지원 센터에 연락하여 활성화할 수 있는 향상된 추가 보안 기능을 사용할 수 있습니다. 호스팅되지 않은 고객이 이 기능을 사용하도록 설정하는 기능 및 단계에 대한 자세한 내용은 [보안 및 개인 정보 보호 체크리스트](https://helpx.adobe.com/kr/campaign/kb/acc-security.html#signature-mechanism)에서 확인할 수 있습니다.
 
 >[!CAUTION]
 >
->추적 링크를 사용한 푸시 알림 또는 앵커 태그를 사용한 게재 관련 문제가 발생하는 경우 링크 추적을 위해 새 서명 메커니즘을 비활성화하는 것이 좋습니다. 프로시저는 [이 페이지](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)에 자세히 설명되어 있습니다
+>추적 링크를 사용한 푸시 알림 또는 앵커 태그를 사용한 게재 관련 문제가 발생하는 경우 링크 추적을 위해 새 서명 메커니즘을 비활성화하는 것이 좋습니다. 프로시저는 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/acc-security.html#signature-mechanism)에 자세히 설명되어 있습니다
 
 * 라인 게재에서 이미지가 표시되지 않는 문제를 해결했습니다. (NEO-23207)
 * SFTP 키 기반 인증이 Debian 9에서 작동하지 않는 **파일 전송** 활동 문제를 해결했습니다. (NEO-23183)
