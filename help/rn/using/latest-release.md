@@ -6,11 +6,11 @@ description: 최신 Campaign Classic 릴리스 정보
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b7639e7e64d4cb42d3ae77b04ba90a45fb58159
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1911'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,8 +25,8 @@ Campaign Classic Gold Standard 버전(최신 GA 빌드)의 경우 [이 페이지
 
 _2021년 1월 11일_
 
-* SSRF(Server Side Request 위조) 문제에 대한 보호를 강화하려는 보안 문제가 해결되었습니다. (NEO-27777)
-* MTA 프로세스가 충돌할 수 있는 브로드캐스트 로그 생성 프로세스와 관련된 회귀 문제를 수정했습니다.
+* SSRF(Server Side Request Forgery) 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-27777)
+* MTA 프로세스가 충돌할 수 있는 브로드로그 생성 프로세스와 관련된 회귀 문제를 해결했습니다.
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 20.3.1 - 빌드 9228 {#release-20-3-1-build-9228}
 
@@ -74,7 +74,7 @@ _2020년 10월 27일_
 
 >[!CAUTION]
 >
->이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.2021년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결할 수 있으려면 업그레이드가 필요합니다.
+>이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 2021년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결하려면 업그레이드가 필요합니다.
 
 **향상된 보안 기능**
 
