@@ -7,17 +7,17 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: aabab5367ea4a26837fa3dc94a36fbbfa48d59e3
+source-git-commit: d25210f7f5c9378565ddacd39e4b1662d8204001
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 96%
 
 ---
 
 
 # Gold Standard 호환성 매트릭스{#compatibility-matrix-gs}
 
-이 문서에서는 **Adobe Campaign Classic Gold Standard** 19.1 빌드에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
+이 문서에서는 **Adobe Campaign Classic Gold Standard** 19.1 빌드에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다. 이 목록에 속하지 않는 제품 및 버전은 이 버전의 Adobe Campaign과 호환되지 않습니다.
 
 ## 중요 정보{#important-notes-gs}
 
@@ -117,6 +117,11 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 
 <table>
 <tbody>
+<tr>
+<td>Amazon Redshift</td>
+<td><p> </p>
+</td>
+</tr>
 <tr>
 <td>Oracle</td>
 <td>
