@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 translation-type: tm+mt
-source-git-commit: 7478ae37aee5e8b0d9c904f5b9d810375d9d6481
+source-git-commit: 521bc3bf9b2507947007d7f458679275d407f910
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 0%
+source-wordcount: '958'
+ht-degree: 1%
 
 ---
 
@@ -188,3 +188,22 @@ Microsoft Dynamics 365 및 Campaign을 연결하려면 Campaign에서 전용 외
 이 비디오를 통해 Office 365 배포의 컨텍스트에서 Adobe Campaign Classic과 Dynamics 365를 통합하는 방법을 알아보십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23837?quality=12)
+
+
+## 지원되는 필드 데이터 유형 {#ms-dyn-supported-types}
+
+Microsoft Dynamics 365에서 지원되거나 지원되지 않는 특성 유형은 아래에 나열되어 있습니다.
+
+
+| 속성 유형 | 지원됨 |
+| --------------------------------------------------------------------------------- | --------- |
+| 기본 유형:boolean, datetime, decimal, float, double, integer, bigint, string | 예 |
+| 금액(이중) | 예 |
+| 메모, entityname, 기본 키, 고유 식별자(문자열) | 예 |
+| 상태, 선택 목록(열거형에 가능한 값을 저장함), 상태(문자열) | 예 |
+| 소유자(문자열로) | 예 |
+| 조회(단일 엔티티 참조 조회만) | 예 |
+| 고객 | 아니요 |
+| 관련 항목 | 아니요 |
+| PartyList | 아니요 |
+| ManagedProperty | 아니요 |
