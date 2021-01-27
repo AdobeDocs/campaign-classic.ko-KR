@@ -7,15 +7,17 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 31%
+source-wordcount: '194'
+ht-degree: 24%
 
 ---
 
 
 # Adobe ID 정보{#about-adobe-id}
+
+IMS(Adobe Identity Management System)를 사용하여 관리자는 애플리케이션 및 서비스에 대한 사용자의 액세스를 만들고 관리할 수 있습니다. 서로 다른 유형의 Adobe ID에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/enterprise/using/identity.html)를 참조하십시오.
 
 캠페인 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결할 수 있습니다. 이 통합은 다음과 같은 이점을 제공합니다.
 
@@ -24,11 +26,21 @@ ht-degree: 31%
 * 보안 암호 관리 정책.
 * 페더레이션 ID 계정 사용(외부 ID 공급자).
 
-IMS(Adobe Identity Management System)를 사용하여 관리자는 애플리케이션 및 서비스에 대한 사용자의 액세스를 만들고 관리할 수 있습니다. 서로 다른 유형의 Adobe ID에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/enterprise/using/identity.html)를 참조하십시오.
 
 >[!IMPORTANT]
 >
->Adobe IMS 구현은 Adobe 기술 관리자에게 엄격하게 보관됩니다. 구현 프로세스를 시작하려면 Adobe 담당자에게 문의하십시오.
+>IMS(Adobe Identity Service)를 통해 Campaign에 연결하는 경우 2021년 3월 21일 이후 **Campaign에 연결할 수 있도록 최신 빌드로 업그레이드해야 합니다.** 이 업그레이드는 Campaign 서버와 클라이언트 콘솔 모두에 필요합니다. 현재 버전에 따라 다음 릴리스 중 하나로 업그레이드해야 합니다.
+>
+> * [캠페인 Gold Standard 11](../../rn/using/gold-standard.md)
+> * [캠페인 20.3.3](../../rn/using/latest-release.md)
+> * [캠페인 20.2.4](../../rn/using/release--20-2.md)
+> * [캠페인 20.1.4](../../rn/using/release--20-1.md)
+> * [캠페인 19.2.4](../../rn/using/release--19-2.md)
+> * [캠페인 19.1.8](../../rn/using/release--19-1.md)
+
+>
+
+
 
 ## 관련 항목
 
