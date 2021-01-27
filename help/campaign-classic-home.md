@@ -5,10 +5,10 @@ product: campaign
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+source-git-commit: f6099fa9c8d1df7bc82dd9be0b575ca7f20b6645
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 60%
+source-wordcount: '292'
+ht-degree: 59%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 60%
 
 * **[IMS/Adobe ID을 통해 연결 최신 빌드](integrations/using/about-adobe-id.md)**<br/>로 업그레이드 IMS를 사용하여 캠페인에 연결하는 경우** 2021년 3월 21일&#x200B;**이후 캠페인에 연결할 수 있도록 업그레이드해야 합니다.
 
-* **[캠페인 보안 ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> 게시판캠페인 플랫폼을 보호하기 위해 최신 빌드로 업데이트합니다.
+* **[캠페인 인스턴스 보안](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> 캠페인 플랫폼을 보호하기 위해 최신 빌드로 업데이트합니다.
 
 * **[잘못된 하드 ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> 바운스 제거지메일 작동 중단 후 잘못된 하드 바운스를 업데이트하는 방법 학습
 
