@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 6%
+source-wordcount: '1429'
+ht-degree: 8%
 
 ---
 
@@ -23,10 +23,17 @@ _2020년 12월 23일_
 
 >[!CAUTION]
 >
->이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 2021년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결할 수 있으려면 업그레이드가 필요합니다.
+> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 3월 21일 **3월 21일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다**.
+   >
+   > 
+* 이 릴리스에는 보안 수정 사항이 포함되어 있습니다.환경 보안을 강화하려면 업그레이드가 필요합니다.
 
-* 새 IMS 인증 메커니즘을 따르도록 연결 프로토콜이 업데이트되었습니다.
-* SSRF(Server Side Request 위조) 문제에 대한 보호를 강화하려는 보안 문제가 해결되었습니다. (NEO-27777)
+>
+
+
+
+* 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
+* SSRF(Server Side Request Forgery) 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-27777)
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 20.1.3 - 빌드 9124{#release-20-1-3-build-9124}
 
