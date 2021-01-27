@@ -6,11 +6,11 @@ description: 최신 Campaign Classic 릴리스 정보
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: 5b7639e7e64d4cb42d3ae77b04ba90a45fb58159
-workflow-type: ht
-source-wordcount: '1911'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+workflow-type: tm+mt
+source-wordcount: '1937'
+ht-degree: 97%
 
 ---
 
@@ -31,6 +31,17 @@ _2021년 1월 11일_
 ## ![](assets/do-not-localize/red_2.png) 릴리스 20.3.1 - 빌드 9228 {#release-20-3-1-build-9228}
 
 _2020년 10월 27일_
+
+>[!CAUTION]
+>
+> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 3월 21일 **3월 21일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다**.
+   >
+   > 
+* 이 릴리스에는 보안 수정 사항이 포함되어 있습니다.환경 보안을 강화하려면 업그레이드가 필요합니다.
+
+>
+
+
 
 **새로운 기능**
 
@@ -71,10 +82,6 @@ _2020년 10월 27일_
 </tr> 
 </tbody> 
 </table>
-
->[!CAUTION]
->
->이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 2021년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결하려면 업그레이드가 필요합니다.
 
 **향상된 보안 기능**
 
