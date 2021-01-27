@@ -7,7 +7,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 translation-type: tm+mt
-source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
+source-git-commit: f6099fa9c8d1df7bc82dd9be0b575ca7f20b6645
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -22,10 +22,12 @@ ht-degree: 0%
 디지털 컨텐츠 편집기를 사용하면 페이지 요소를 삽입하고 서식을 지정할 수 있으며 HTML 페이지의 요소로 데이터베이스 필드를 매핑할 수 있습니다. 이 편집기는 웹 응용 프로그램용 페이지를 만들거나 DCE 템플릿을 기반으로 제공을 만들 때 사용할 수 있습니다.
 
 >[!NOTE]
->>서버측 JavaScript 코드를 추가해야 하는 경우 개인화 블록을 사용하십시오. [자세히 알아보기](../../delivery/using/personalization-blocks.md)
 >
+>서버측 JavaScript 코드를 추가해야 하는 경우 개인화 블록을 사용하십시오. [자세히 알아보기](../../delivery/using/personalization-blocks.md)
+
 >[!CAUTION]
-모든 외부 리소스는 HTTPS URL로 참조되어야 합니다.
+>
+>모든 외부 리소스는 HTTPS URL로 참조되어야 합니다.
 
 ## 디지털 콘텐츠 편집기 {#content-editor-general-operation}를 사용하기 위한 주요 단계
 
@@ -43,7 +45,8 @@ ht-degree: 0%
 1. 웹 응용 프로그램 게시 - [자세한 내용](../../web/using/creating-a-landing-page.md#step-3---publishing-content)
 
 >[!NOTE]
-웹 응용 프로그램의 컨텍스트에서 전체 구현 샘플이 [이 섹션](../../web/using/creating-a-landing-page.md)에서 사용할 수 있습니다.
+>
+>웹 응용 프로그램의 컨텍스트에서 전체 구현 샘플이 [이 섹션](../../web/using/creating-a-landing-page.md)에서 사용할 수 있습니다.
 
 **이메일 배달**&#x200B;을 만들려면 다음을 수행해야 합니다.
 
@@ -53,4 +56,5 @@ ht-degree: 0%
 1. 배달 보내기 - [자세한 내용](../../delivery/using/steps-about-delivery-creation-steps.md)
 
 >[!NOTE]
-이메일 배달 컨텍스트에 있는 전체 구현 샘플은 [이 사용 사례](../../web/using/use-case--creating-an-email-delivery.md)에서 사용할 수 있습니다.
+>
+>이메일 배달 컨텍스트에 있는 전체 구현 샘플은 [이 사용 사례](../../web/using/use-case--creating-an-email-delivery.md)에서 사용할 수 있습니다.
