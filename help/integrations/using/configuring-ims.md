@@ -7,15 +7,19 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
 
 
 # IMS 구성{#configuring-ims}
+
+>[!IMPORTANT]
+>
+>Adobe IMS 구현은 Adobe 기술 관리자에게 엄격하게 보관됩니다. 구현 프로세스를 시작하려면 Adobe 담당자에게 문의하십시오.
 
 ## 사전 요구 사항 {#prerequisites}
 
