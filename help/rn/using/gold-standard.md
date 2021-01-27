@@ -6,11 +6,11 @@ description: Campaign Classic Gold Standard 릴리스 정보
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: dcef36c3ce14c45cb08a79180938ad8d26fa6549
-workflow-type: ht
-source-wordcount: '938'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+workflow-type: tm+mt
+source-wordcount: '984'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,14 @@ _2020년 12월 22일_
 
 >[!CAUTION]
 >
->이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 2021년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결하려면 업그레이드가 필요합니다.
+> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 3월 21일 **3월 21일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다**.
+   >
+   > 
+* 이 릴리스는 [보안 수정](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)과 함께 제공됩니다.환경 보안을 강화하려면 업그레이드가 필요합니다.
+>
+>
+[Gold Standard 11 업그레이드 FAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)에서 자세한 내용을 살펴보십시오.
+
 
 빌드 9032@d3b452f는 다음과 같은 개선 사항 및 수정 사항을 포함합니다.
 
@@ -77,11 +84,11 @@ _2020년 4월 29일_
 
 빌드 9032@3a9dc9c에는 다음 수정 사항이 포함되어 있습니다.
 
-* 전자 메일의 링크 추적 보안이 개선되었습니다. 모든 고객에 대해 기본적으로 활성화됩니다. 고객 지원 센터에 연락하여 활성화할 수 있는 향상된 추가 보안 기능을 사용할 수 있습니다. 호스팅되지 않은 고객이 이 기능을 사용하도록 설정하는 기능 및 단계에 대한 자세한 내용은 [보안 및 개인 정보 보호 체크리스트](https://helpx.adobe.com/kr/campaign/kb/acc-security.html#signature-mechanism)에서 확인할 수 있습니다.
+* 전자 메일의 링크 추적 보안이 개선되었습니다. 모든 고객에 대해 기본적으로 활성화됩니다. 고객 지원 센터에 연락하여 활성화할 수 있는 향상된 추가 보안 기능을 사용할 수 있습니다. 호스팅되지 않은 고객이 이 기능을 사용하도록 설정하는 기능 및 단계에 대한 자세한 내용은 [보안 및 개인 정보 보호 체크리스트](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)에서 확인할 수 있습니다.
 
 >[!CAUTION]
 >
->추적 링크를 사용한 푸시 알림 또는 앵커 태그를 사용한 게재 관련 문제가 발생하는 경우 링크 추적을 위해 새 서명 메커니즘을 비활성화하는 것이 좋습니다. 프로시저는 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/acc-security.html#signature-mechanism)에 자세히 설명되어 있습니다
+>추적 링크를 사용한 푸시 알림 또는 앵커 태그를 사용한 게재 관련 문제가 발생하는 경우 링크 추적을 위해 새 서명 메커니즘을 비활성화하는 것이 좋습니다. 프로시저는 [이 페이지](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)에 자세히 설명되어 있습니다
 
 * 라인 게재에서 이미지가 표시되지 않는 문제를 해결했습니다. (NEO-23207)
 * SFTP 키 기반 인증이 Debian 9에서 작동하지 않는 **파일 전송** 활동 문제를 해결했습니다. (NEO-23183)
