@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 8%
+source-wordcount: '1402'
+ht-degree: 9%
 
 ---
 
@@ -23,10 +23,18 @@ _2020년 12월 23일_
 
 >[!CAUTION]
 >
->이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 2021년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결할 수 있으려면 업그레이드가 필요합니다.
+> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 3월 21일 **3월 21일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다**.
+   >
+   > 
+* 이 릴리스에는 보안 수정 사항이 포함되어 있습니다.환경 보안을 강화하려면 업그레이드가 필요합니다.
 
-* 새 IMS 인증 메커니즘을 따르도록 연결 프로토콜이 업데이트되었습니다.
-* SSRF(Server Side Request 위조) 문제에 대한 보호를 강화하려는 보안 문제가 해결되었습니다. (NEO-27777)
+>
+
+
+
+
+* 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
+* SSRF(Server Side Request Forgery) 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-27777)
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 19.2.3 - 빌드 9081 {#release-19-2-3-build-9081}
 
@@ -55,7 +63,7 @@ _2019년 12월 02일_
     <p>Adobe Campaign은 이미 사용 가능한 개인 정보 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 이외에도 CPA에 대한 준비를 용이하게 합니다.</p>
     <ul>
       <li>액세스 권한 및 삭제 권한:우리는 GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">자세한 내용</a></li>
-      <li>소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다. 이 경우 프로필 테이블을 확장하고 <strong>CPA</strong> 필드에 &lt;a0/&gt;옵트아웃 필드를 추가해야 합니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">자세한 내용</a></li></td> 
+      <li>소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다. 이 경우 프로필 테이블을 확장하고 <strong>CPA</strong> 필드에 옵트아웃 필드를 추가해야 합니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">자세한 내용</a></li></td> 
   </tr> 
  </tbody> 
 </table>
