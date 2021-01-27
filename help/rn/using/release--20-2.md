@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
 workflow-type: tm+mt
-source-wordcount: '2483'
-ht-degree: 91%
+source-wordcount: '2509'
+ht-degree: 92%
 
 ---
 
@@ -25,14 +25,22 @@ _2020년 12월 22일_
 
 >[!CAUTION]
 >
->이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 2021년 3월 21일 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결할 수 있으려면 업그레이드가 필요합니다.
+> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 3월 21일 **3월 21일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다**.
+   >
+   > 
+* 이 릴리스에는 보안 수정 사항이 포함되어 있습니다.환경 보안을 강화하려면 업그레이드가 필요합니다.
+
+>
+
+
+
 
 **개선 사항**
 
-* 새 IMS 인증 메커니즘을 따르도록 연결 프로토콜이 업데이트되었습니다.
+* 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
 * 파이프라인 액세스를 위한 oAUTH 인증 설정을 기반으로 원래 통합 인증을 트리거했습니다. [자세한 내용](../../integrations/using/configuring-adobe-io.md)
-* iOS APNs 레거시 이진 프로토콜에 대한 지원이 종료된 후 업그레이드 후 이 프로토콜을 사용하는 모든 인스턴스가 HTTP/2 프로토콜로 업데이트됩니다.
-* SSRF(Server Side Request 위조) 문제에 대한 보호를 강화하려는 보안 문제가 해결되었습니다. (NEO-27777)
+* iOS APNs 레거시 이진 프로토콜에 대한 지원이 종료됨에 따라 업그레이드 후 이 프로토콜을 사용하는 모든 인스턴스는 HTTP/2 프로토콜로 업데이트됩니다.
+* SSRF(Server Side Request Forgery) 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-27777)
 * 연결 오류 후 SMPP 커넥터를 비활성화하여 다른 SMS 배달이 전송되지 못하도록 하고 성능 문제가 발생하는 문제를 해결했습니다. (NEO-28609)
 * 식 구문 분석기를 지울 때 메모리 손상을 방지하여 서버 충돌 문제를 해결했습니다. (NEO-26856)
 * 워크플로우에서 **분할** 작업 중 나머지 부분의 타겟 데이터를 표시할 때 서버가 충돌하는 문제를 해결했습니다.
