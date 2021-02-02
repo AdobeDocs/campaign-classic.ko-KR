@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 9%
+source-wordcount: '1102'
+ht-degree: 8%
 
 ---
 
@@ -98,11 +98,11 @@ SFTP 서버는 파일의 보존 및 삭제를 제어할 수 있는 임시 저장
    >
    >Netcat 도구를 사용하면 다양한 운영 체제에서 네트워크 연결을 쉽게 관리할 수 있습니다([https://eternallybored.org/misc/netcat/](https://eternallybored.org/misc/netcat/) 참조).
 
-   포트가 열려 있지 않은 경우 옆에 있는 아웃바운드 연결을 열고 다시 시도하십시오. 여전히 연결 문제가 발생하는 경우 Adobe 지원 팀과 명령 출력을 공유합니다.
+   포트가 열려 있지 않은 경우 옆에 있는 아웃바운드 연결을 열고 다시 시도하십시오. 여전히 연결 문제가 발생하는 경우 명령 출력을 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀과 공유하십시오.
 
 1. SFTP 연결을 시작하려는 공개 IP가 Adobe 지원에 제공한 공개 IP인지 허용 목록에 추가하다 확인합니다.
 1. 암호 기반 인증을 사용하는 경우 암호가 만료되었을 수 있습니다(암호는 유효 기간이 90일입니다). 따라서 키 기반 인증을 사용하는 것이 좋습니다([SFTP 서버 우수 사례](#sftp-server-best-practices) 참조).
-1. 키 기반 인증을 사용하는 경우 사용 중인 키가 인스턴스 구성에 대해 Adobe 지원 팀에 제공한 키와 동일한지 확인합니다.
+1. 키 기반 인증을 사용하는 경우 사용 중인 키가 인스턴스 구성에 대해 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀에 제공한 키와 동일한지 확인하십시오.
 1. FileZilla 또는 동등한 FTP 도구를 사용하는 경우 지원 티켓에 연결 로그 세부 정보를 제공합니다.
 
 ## &quot;호스트 이름을 확인할 수 없습니다&quot; 오류
