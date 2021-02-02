@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 9a104fdc7bed89f56178d5ab638e1440e6342efc
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '8424'
+source-wordcount: '8433'
 ht-degree: 0%
 
 ---
@@ -819,7 +819,7 @@ SMS 프로세스는 매 분마다 전체 줄을 확인한 다음 비동기적으
 ### 검사 중 자세한 SMPP 추적 사용 {#enable-verbose}
 
 확인 중에 항상 자세한 SMPP 추적을 활성화해야 합니다.
-직접 로그를 확인할 수 없는 경우에도 지원 센터에서 도와 주는 것이 더 쉽습니다.
+로그를 직접 확인할 수 없는 경우에도 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)가 보다 쉽게 사용자를 도울 수 있습니다.
 
 ### SMS {#test} 테스트
 
