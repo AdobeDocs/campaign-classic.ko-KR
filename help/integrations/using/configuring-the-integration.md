@@ -7,9 +7,9 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '563'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Adobe Experience Manager을 통해 Adobe Campaign에 연결하려면 이 연산�
 >
 >보안 문제를 방지하기 위해 AEM 전용 보안 영역을 만드는 것이 좋습니다. 자세한 내용은 설치 [안내서](../../installation/using/configuring-campaign-server.md#defining-security-zones)를 참조하십시오.
 
-캠페인 인스턴스가 Adobe에서 호스팅하는 경우 Adobe 지원 팀에 문의하십시오. 온-프레미스를 사용하는 경우 아래 절차를 따르십시오.
+캠페인 인스턴스가 Adobe에서 호스팅하는 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀에 문의하십시오. 온-프레미스를 사용하는 경우 아래 절차를 따르십시오.
 
 1. **serverConf.xml** 구성 파일을 엽니다.
 1. 선택한 보안 영역의 **allowUserPassword** 특성에 액세스하여 **true**&#x200B;로 설정합니다.
