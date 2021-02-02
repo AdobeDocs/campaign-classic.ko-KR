@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 96ad3208c792efb47097768bc779bec59d9ca313
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -203,7 +203,7 @@ Adobe Campaign Classic 확장 SMPP 커넥터에서 `DELIVER_SM PDU`을(를) 확�
 
 유니코드를 16진수로 변환하려면 [유니코드 코드 변환기](https://r12a.github.io/app-conversion/) 웹 사이트와 같은 온라인 도구를 사용할 수 있습니다. 텍스트를 입력하고 전화 번호와 같은 PII가 없는지 확인하고 **변환**&#x200B;을 클릭합니다. 아래쪽의 16진수 값(UTF-32 영역)이 표시됩니다.
 
-제공업체 또는 Adobe Campaign 지원 여부와 상관없이 인코딩 문제에 대한 티켓을 열 때는 항상 입력하는 항목과 표시되는 내용에 대한 16진수 버전을 포함합니다.
+공급자 또는 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에서 인코딩 문제에 대한 티켓을 열 때는 항상 입력한 내용과 표시되는 내용에 대한 16진수 버전을 포함합니다.
 
 **3단계:전송해야 하는 사항 파악**
 
