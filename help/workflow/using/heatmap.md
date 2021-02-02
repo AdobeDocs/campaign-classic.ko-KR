@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d34435b0b8714a87add6a5e3f82e4f94376f205b
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 3%
+source-wordcount: '1189'
+ht-degree: 4%
 
 ---
 
@@ -41,23 +41,6 @@ Workflow HeatMap은 동시 작업 과정 수에 대한 빠른 개요를 제공�
 Workflow HeatMap을 사용하려면 다음 개념을 잘 이해해야 합니다.[워크플로우](../../workflow/using/about-workflows.md), [활동](../../workflow/using/about-activities.md) 및 [워크플로우 우수 사례](../../workflow/using/workflow-best-practices.md).
 
 Workflow HeatMap은 기본적으로 Adobe Campaign 18.10 릴리스에서 사용할 수 있습니다. 빌드 수가 8700에서 8977(18.10) 사이인 경우에도 이 기능을 사용할 수 있습니다. 해당 패키지를 요청하려면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하고 [이 페이지](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html)의 지침에 따라 해당 패키지를 설치하는 방법을 파악하십시오.
-
-Workflow HeatMap에 처음 액세스하면 다음 팝업 창이 나타납니다. 본 계약은 Adobe Campaign이 다음 작업을 할 수 있도록 미국 내 양도 및 저장을 허용합니다.
-
-* 인스턴스를 모니터링하여 성능 문제를 조사합니다.
-* 예외 항목 탐지를 위한 데이터 수집
-
-데이터 전송은 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다.
-
-![](assets/wf_monitoring_agreement.png)
-
-다음 3가지 옵션을 사용할 수 있습니다.
-
-* **[!UICONTROL Accept]** :사용자는 본 계약에 동의함으로써 Adobe Campaign이 귀하의 데이터를 수집하고 이를 미국으로 전송하여 예외 항목 탐지가 발생하는 경우에 도움을 줄 수 있도록 승인하는 것입니다.
-* **[!UICONTROL Refuse]** :계약을 거절하면 데이터가 전송되지 않지만 Workflow Heatmap을 사용할 수 있습니다.
-* **[!UICONTROL Do not show this message again]** :을  **[!UICONTROL Do not show this message again]** 클릭하면 팝업 창이 Workflow Heatmap에 액세스할 때 표시되지 않지만 여전히 단추에서 사용할 수  **[!UICONTROL Term of use]** 있습니다.
-
-이 선택 사항은 최종적인 것이 아닙니다. 항상 **[!UICONTROL Term of use]** 단추를 클릭하여 변경할 수 있습니다.
 
 ## HeatMap {#using-the-heatmap} 사용
 
