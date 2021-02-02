@@ -7,9 +7,9 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 98a2c5aa01b4d45ceeb14fb1ad7a607b236c2817
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1337'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,7 @@ A/B 테스트를 만들려면 다음 단계를 수행하십시오.
 * [3단계:2개의 배달 템플릿 만들기](#step-3--creating-two-delivery-templates)
 * [4단계:워크플로우에서 배달 구성](#step-4--configuring-the-deliveries-in-the-workflow)
 * [5단계:스크립트 만들기](#step-5--creating-the-script)
+* [6단계:최종 배달 정의](#step-6--defining-the-final-delivery)
 * [7단계:워크플로우 시작](#step-7--starting-the-workflow)
 * [8단계:결과](#step-8--analyzing-the-result) 분석
 
@@ -49,11 +50,11 @@ A/B 테스트를 만들려면 다음 단계를 수행하십시오.
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. 기존 작업 과정의 레이블을 변경하거나 **[!UICONTROL Add]**&#x200B;을 클릭하여 새 작업 흐름을 만듭니다(자세한 내용은 이 [섹션](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population) 참조).
+1. 기존 작업 과정의 레이블을 변경하거나 **[!UICONTROL Add]**&#x200B;을 클릭하여 새 작업 흐름을 만듭니다.
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
-1. 마우스를 사용하여 **[!UICONTROL Query]**(**[!UICONTROL Target]** 탭), **[!UICONTROL Split]**(**[!UICONTROL Target]** 탭), 2개의 **[!UICONTROL Email deliveries]**(**[!UICONTROL Deliveries]** 탭), **[!UICONTROL Wait]** 활동(**[!UICONTROL Flow Control]** 탭), **[!UICONTROL JavaScript code]** 활동(**[!UICONTROL Actions]** 탭) 및 &lt;a10> 탭을 포함하여 작업을 작업 다이어그램으로 드래그하여 놓습니다./> 활동(**[!UICONTROL Actions]** 탭).**[!UICONTROL Delivery]**
+1. 마우스를 사용하여 **[!UICONTROL Query]**(**[!UICONTROL Target]** 탭), **[!UICONTROL Split]**(**[!UICONTROL Target]** 탭), 2개의 **[!UICONTROL Email deliveries]**(**[!UICONTROL Deliveries]** 탭), **[!UICONTROL Wait]** 활동(**[!UICONTROL Flow Control]** 탭), **[!UICONTROL JavaScript code]** 활동(**[!UICONTROL Actions]** 탭) 및 **[!UICONTROL Delivery]** 탭을 포함하여 작업을 작업 다이어그램으로 드래그하여 놓습니다./> 활동(**[!UICONTROL Actions]** 탭).
 
 ![](assets/use_case_abtesting_targetwkfl_004.png)
 
@@ -183,7 +184,7 @@ A/B 테스트를 만들려면 다음 단계를 수행하십시오.
 
 ### 스크립트 {#example-of-a-script} 예
 
-다음 스크립트는 타깃팅 워크플로우에서와 같이 사용할 수 있습니다. 자세한 내용은 [구현](#implementation)을 참조하십시오.
+다음 스크립트는 타깃팅 워크플로우에 있는 대로 사용할 수 있습니다([스크립트](../../workflow/using/a-b-testing.md#configuring-script) 구성 참조).
 
 ```
  // query the database to find the winner (best open rate)
@@ -229,12 +230,12 @@ A/B 테스트를 만들려면 다음 단계를 수행하십시오.
    vars.deliveryId = delivery.id
 ```
 
-스크립트에 대한 자세한 설명은 [스크립트 세부 정보](#details-of-the-script)를 참조하십시오.
+스크립트에 대한 자세한 설명은 [이 섹션](../../workflow/using/a-b-testing.md#details-of-the-script)을 참조하십시오.
 
-### 구현 {#implementation}
+### 스크립트 {#configuring-script} 구성
 
 1. **[!UICONTROL JavaScript code]** 활동을 엽니다.
-1. [스크립트 예](#example-of-a-script)에서 제공된 스크립트를 **[!UICONTROL JavaScript code]** 창에 복사합니다.
+1. 표시된 스크립트를 [previous](../../workflow/using/a-b-testing.md#example-of-a-script)에 **[!UICONTROL JavaScript code]** 창으로 복사합니다.
 
    ![](assets/use_case_abtesting_configscript_002.png)
 
