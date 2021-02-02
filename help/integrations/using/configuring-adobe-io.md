@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성
-description: Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성 방법 알아보기
+description: Adobe Experience Cloud Triggers용 Adobe I/O 구성 방법 살펴보기
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
@@ -10,10 +10,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
+source-git-commit: ec03e5bfdacc16ce148b24e200b517d73fae00b3
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 5%
+source-wordcount: '484'
+ht-degree: 4%
 
 ---
 
@@ -23,10 +23,12 @@ ht-degree: 5%
 >[!CAUTION]
 >
 >Auth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 **아래 설명에 따라 Adobe I/O으로 이동해야 합니다.** 레거시 Auth 인증 모드는 2021년 4월 30일에 종료됩니다. [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>
+>Adobe I/O으로 이동하는 동안 일부 수신 트리거가 손실될 수 있습니다.
 
 ## 사전 요구 사항 {#adobe-io-prerequisites}
 
-이 통합은 **Campaign Classic 20.3 및 Gold Standard 11 릴리스**&#x200B;부터 적용됩니다.
+이 통합은 **Campaign Classic 20.3, 20.2.4, 19.1.8 및 Gold Standard 11 릴리스**&#x200B;부터 적용됩니다.
 
 이 구현을 시작하기 전에 다음을 확인하십시오.
 
@@ -41,7 +43,7 @@ ht-degree: 5%
    >
    > 올바른 조직 포털에 로그인되어 있는지 확인합니다.
 
-1. 인스턴스 구성 파일 ims/authIMSTAClientId에서 기존 통합 클라이언트 ID를 추출합니다. 존재하지 않거나 빈 속성은 클라이언트 식별자가 구성되지 않았음을 나타냅니다.
+1. 인스턴스 구성 파일 ims/authIMSTAClientId에서 기존 통합 클라이언트 식별자(클라이언트 ID)를 추출합니다. 존재하지 않거나 빈 속성은 클라이언트 식별자가 구성되지 않았음을 나타냅니다.
 
    >[!NOTE]
    >
@@ -83,17 +85,21 @@ ht-degree: 5%
 
    ![](assets/do-not-localize/adobe_io_7.png)
 
+>[!NOTE]
+>
+>Adobe I/O 인증서는 12개월 후에 만료됩니다. 매년 새로운 키 쌍을 만들어야 합니다.
+
 ## 2단계:Adobe Campaign {#add-credentials-campaign}에 프로젝트 자격 증명 추가
 
 Adobe Campaign에서 프로젝트 자격 증명을 추가하려면 Adobe Campaign 인스턴스의 모든 컨테이너에 &#39;neolane&#39; 사용자로 다음 명령을 실행하여 인스턴스 구성 파일에 **[!UICONTROL Technical Account]** 자격 증명을 삽입합니다.
 
 ```
-nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID[/Client_Secret[/Base64_encoded_Private_Key]]
+nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
 ```
 
 >[!NOTE]
 >
->개인 키는 base64 UTF-8 형식으로 인코딩해야 합니다. 개인 키를 제외하고 인코딩 전에 키에서 새 행을 제거해야 합니다. 비공개 키는 통합을 만드는 데 사용한 키와 동일해야 합니다.
+>개인 키는 base64 UTF-8 형식으로 인코딩해야 합니다. 개인 키를 제외하고 인코딩 전에 키에서 새 행을 제거해야 합니다. 비공개 키는 통합을 만드는 데 사용한 키와 동일해야 합니다. 개인 키의 base64 인코딩을 테스트하려면 [이 웹 사이트](https://www.base64encode.org/)를 사용할 수 있습니다.
 
 ## 3단계:파이프라인 태그 {#update-pipelined-tag} 업데이트
 
