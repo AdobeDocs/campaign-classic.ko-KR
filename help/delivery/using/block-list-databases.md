@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    [https://www.spamhaus.org/](https://www.spamhaus.org/)을 참조하십시오.
 
-   데이터베이스가 더 중요합니다. 이 목록에 분류되는 것은 일반적으로 심각한 상황이다. 이러한 경우 즉시 조치를 취하고 상업용 서비스, 전달 가능성 및 Adobe Campaign 지원을 경고해야 합니다.
+   데이터베이스가 더 중요합니다. 이 목록에 분류되는 것은 일반적으로 심각한 상황이다. 이러한 경우 즉시 조치를 취하고 상업용 서비스, 전달 가능성 및 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 대해 경고해야 합니다.
 
 * **SpamCop**
 
@@ -43,13 +43,13 @@ ht-degree: 0%
 
    [https://www.uribl.com/](https://www.uribl.com/)을 참조하십시오.
 
-   이 목록은 스팸으로 선언된 메시지에 정기적으로 나타나는 도메인을 식별합니다. 도메인이 이 목록에 표시되는 경우 배달 능력에 큰 영향을 줄 수 있습니다. 전달 가능 서비스와 Adobe Campaign 지원을 즉시 알려주십시오.
+   이 목록은 스팸으로 선언된 메시지에 정기적으로 나타나는 도메인을 식별합니다. 도메인이 이 목록에 표시되는 경우 배달 능력에 큰 영향을 줄 수 있습니다. 배달 가능 서비스와 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 즉시 알려야 합니다.
 
 * **SURBL**
 
    [http://www.surbl.org/](http://www.surbl.org/)을 참조하십시오.
 
-   SURBL은 스팸에 정기적으로 나타나는 웹 사이트를 식별합니다. 도메인이 이 목록에 표시되는 경우 배달 능력에 큰 영향을 줄 수 있습니다. 전달 가능 서비스와 Adobe Campaign 지원을 즉시 알려주십시오.
+   SURBL은 스팸에 정기적으로 나타나는 웹 사이트를 식별합니다. 도메인이 이 목록에 표시되는 경우 배달 능력에 큰 영향을 줄 수 있습니다. 배달 가능 서비스와 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 즉시 알려야 합니다.
 
 * **iX Manitu**
 
