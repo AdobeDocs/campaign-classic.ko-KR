@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: 1d7d48f52f69e4902eafa6806c2cd9170c21fe5a
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '280'
 ht-degree: 9%
 
 ---
@@ -35,7 +35,7 @@ Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 모바일 앱 패키지를 설치하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=en#sending-messages)
 
-하이브리드/호스팅 고객인 경우 Adobe 고객 지원 팀에 문의하여 Campaign의 푸시 알림 채널에 액세스합니다.
+하이브리드/호스팅 고객인 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀에 문의하여 Campaign의 푸시 알림 채널에 액세스합니다.
 
 온-프레미스 고객은 다음 설치 단계를 수행해야 합니다.
 
