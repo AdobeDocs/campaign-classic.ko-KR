@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ iOS 및 Android용 캠페인 SDK는 모바일 앱 채널 모듈의 구성 요소
 
 >[!NOTE]
 >
->Campaign SDK(이전의 Neolane SDK)를 받으려면 Adobe 고객 지원 센터에 문의하십시오.
+>Campaign SDK(이전의 Neolane SDK)를 가져오려면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
 SDK의 목표는 모바일 애플리케이션을 Adobe Campaign 플랫폼으로 쉽게 통합하는 것입니다.
 
@@ -63,7 +63,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
    >[!NOTE]
    >
-   >이 통합 키는 모바일 응용 프로그램 전용 서비스의 **[!UICONTROL Information]** 탭에서 Adobe Campaign 콘솔에 입력됩니다. Adobe Campaign[에서 모바일 응용 프로그램 구성을 참조하십시오.](../../delivery/using/configuring-the-mobile-application.md)
+   >이 통합 키는 모바일 응용 프로그램 전용 서비스의 **[!UICONTROL Information]** 탭에서 Adobe Campaign 콘솔에 입력됩니다. Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md)에서 모바일 응용 프로그램 구성을 참조하십시오.[
 
 * **추적 URL**:adobe campaign 추적 서버 주소와 일치합니다.
 * **마케팅 URL**:을 클릭하여 구독을 수집할 수 있습니다.
