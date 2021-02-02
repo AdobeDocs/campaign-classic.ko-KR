@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 9ee7ef1faf06c31ec6659734582caac099a01bc1
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '2440'
-ht-degree: 16%
+source-wordcount: '2446'
+ht-degree: 15%
 
 ---
 
@@ -297,7 +297,7 @@ Adobe Campaign 메시징 서버는 모든 도메인에 단일 **도메인 관리
 * **보낸 사람 ID**, **도메인 키**, **DKIM** 및 **S/MIME**&#x200B;과 같은 특정 식별 표준 및 암호화 키를 활성화할지 여부를 선택할 수 있습니다.
 * **SMTP 릴레이** 매개 변수를 사용하여 특정 도메인에 대한 IP 주소와 릴레이 서버의 포트를 구성할 수 있습니다. 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#smtp-relay)을 참조하십시오.
 
-보낸 사람 주소에 **[!UICONTROL on behalf of]**&#x200B;이(가) 있는 Outlook에 메시지가 표시되는 경우, Microsoft의 구식 전자 메일 인증 표준인 **보낸 사람 ID**&#x200B;로 전자 메일을 서명하지 않았는지 확인하십시오. **[!UICONTROL Sender ID]** 옵션이 활성화되어 있으면 해당 상자의 선택을 취소하고 Adobe Campaign 지원에 문의하십시오. 배달은 영향을 받지 않습니다.
+보낸 사람 주소에 **[!UICONTROL on behalf of]**&#x200B;이(가) 있는 Outlook에 메시지가 표시되는 경우, Microsoft의 구식 전자 메일 인증 표준인 **보낸 사람 ID**&#x200B;로 전자 메일을 서명하지 않았는지 확인하십시오. **[!UICONTROL Sender ID]** 옵션이 활성화되어 있으면 해당 상자의 선택을 취소하고 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 배달은 영향을 받지 않습니다.
 
 >[!IMPORTANT]
 >
