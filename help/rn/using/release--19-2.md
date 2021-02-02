@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+source-git-commit: 075bb4f97899053a664576c447605f17a033d5d9
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1416'
 ht-degree: 9%
 
 ---
@@ -26,10 +26,7 @@ _2020년 12월 23일_
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 3월 21일 **3월 21일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다**.
    >
    > 
-* 이 릴리스에는 보안 수정 사항이 포함되어 있습니다.환경 보안을 강화하려면 업그레이드가 필요합니다.
-
->
-
+* 이 릴리스는 [보안 수정](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)과 함께 제공됩니다.환경 보안을 강화하려면 업그레이드가 필요합니다.
 
 
 
@@ -145,7 +142,7 @@ _사용되지 않는 시스템_
 
 _Campaign Mobile SDK_
 
-이제 iOS SDK의 빌드 1.0.26을 사용할 수 있습니다. 이 새로운 빌드에서 iOS 13에 대한 지원이 추가되었습니다. 이제 이 새 버전은 알림 우선 순위 및 iOS 13 푸시 알림에 대한 새로운 등록 토큰 관리 프로세스를 지원합니다. 이전 버전의 SDK에서 애플리케이션을 실행하는 경우 새로운 SDK를 사용하여 애플리케이션을 다시 컴파일해야 합니다. SDK를 얻으려면 Adobe 고객 지원 센터에 문의하십시오.
+이제 iOS SDK의 빌드 1.0.26을 사용할 수 있습니다. 이 새로운 빌드에서 iOS 13에 대한 지원이 추가되었습니다. 이제 이 새 버전은 알림 우선 순위 및 iOS 13 푸시 알림에 대한 새로운 등록 토큰 관리 프로세스를 지원합니다. 이전 버전의 SDK에서 애플리케이션을 실행하는 경우 새로운 SDK를 사용하여 애플리케이션을 다시 컴파일해야 합니다. SDK를 받으려면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
 **패치**
 
