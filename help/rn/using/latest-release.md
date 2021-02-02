@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 075bb4f97899053a664576c447605f17a033d5d9
+source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
 workflow-type: tm+mt
 source-wordcount: '1977'
 ht-degree: 95%
@@ -34,7 +34,7 @@ _2020년 10월 27일_
 
 >[!CAUTION]
 >
-> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 3월 21일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다&#x200B;**.**
+> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 3월 31일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다&#x200B;**.**
 > * 이 릴리스는 [보안 수정](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)과 함께 제공됩니다.환경 보안을 강화하려면 업그레이드가 필요합니다.
 > * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 이 페이지](../../integrations/using/configuring-adobe-io.md)에서 설명한 대로 Adobe I/O으로 이동해야 합니다. [ 이전 Auth 인증 모드는 **2021년 4월 30일에 종료됩니다**.
 
@@ -108,7 +108,7 @@ _2020년 10월 27일_
 **개선 사항**
 
 * **클라이언트 콘솔**&#x200B;에 몇 가지 기능이 개선되었습니다.
-   * 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다. 서버 및 클라이언트 콘솔 업그레이드는 2021년 3월 21일 이후에 연결할 수 있어야 합니다.
+   * 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다. 서버 및 클라이언트 콘솔 업그레이드는 2021년 3월 31일 이후에 연결할 수 있어야 합니다.
    * 일부 인터넷 보안 GPO 규칙 제한 사항과 비호환이 되지 않도록 하기 위해 Campaign 클라이언트 콘솔 로그온 화면이 기본 제공 표준 Windows 양식으로 대체되었습니다.
    * 워크플로우에서 64비트 클라이언트 콘솔을 사용하여 활동을 복사/붙여넣을 때 발생하는 문제를 해결했습니다. (NEO-27635)
    * **정보** 메뉴에서 64비트 및 32비트 콘솔을 구분하는 정보가 추가되었습니다.
