@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 11377b0218e20da9b1a5398539ebaa192801b283
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '773'
 ht-degree: 2%
 
 ---
@@ -71,17 +71,12 @@ Signal Spam은 프랑스 ISP(Orange, SFR)에 대해 익명화된 피드백 루�
 
 ## 기술 제공 모니터링 보고서 {#technical-deliverability-monitoring}
 
-기술 제공 모니터링 보고서는 매일 업데이트되며 **[!UICONTROL Monitoring]** > **[!UICONTROL Overview]**&#x200B;로 이동하고 Adobe Campaign **[!UICONTROL Home]** 탭에서 **[!UICONTROL Technical monitoring]** 링크를 클릭하여 사용할 수 있습니다. 플랫폼에 적합한 다양한 전달 품질 지표가 포함되어 있습니다.
+**기술 제공 모니터링** 보고서에는 사용자의 플랫폼에 대한 다양한 제공 품질 지표가 포함되어 있습니다. 이 일일 보고서는 이메일로 받을 수 있습니다. 요청하려면 특정 [지원 사례](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)를 열고 다음을 지정합니다.
 
-이러한 표시기는 매일 오전 9시에 업데이트됩니다.
+* 인스턴스의 이름
+* 보고서를
 
->[!NOTE]
->
->또한 지정된 주소로 일별 보고서를 이메일로 받을 수 있습니다. 이메일 또는 Adobe Campaign 엑스트라넷으로 요청된 이메일 주소를 알려주십시오.
-
-![](assets/s_tn_del_monitoring.png)
-
-보고서에서 사용되는 지표는 다음과 같습니다.
+이 보고서에는 다음 지표가 포함되어 있습니다.
 
 * **[!UICONTROL Reverse DNS]** :Adobe Campaign은 IP 주소에 대해 역 DNS가 제공되었는지 그리고 이것이 IP를 올바르게 가리키는지 확인합니다.
 
@@ -92,6 +87,9 @@ Signal Spam은 프랑스 ISP(Orange, SFR)에 대해 익명화된 피드백 루�
 * **[!UICONTROL IP and RBL domain]** (실시간 블랙홀 목록):보내는 평판이 불량하여 조직에서 플래그를 지정한 차단 목록 IP 주소 및 도메인 목록. 이러한 목록은 Spamhaus, Spamcop, SURBL/URIBL 등과 같은 전용 조직이 유지 관리합니다. Adobe Campaign은 현재 전달 가능성에 상당한 영향을 미치는 RBL을 검사합니다. 이러한 RBL은 전송 명성을 반영하며 이메일 수신을 승인하기 전에 ISP에서 참조할 수 있습니다.
 
 * **[!UICONTROL SNDS]** (스마트 네트워크 데이터 서비스):Windows  [Live Hotmail 스팸 방지 서비스](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail은 이러한 유형의 정보를 제공하는 유일한 ISP입니다. 벤치마크 점수는 녹색 필터 결과, 불만 비율이 0.1% 미만이고 스팸 트랩이 0개입니다.
+
+이러한 표시기는 매일 오전 9시에 업데이트됩니다.
+
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 
