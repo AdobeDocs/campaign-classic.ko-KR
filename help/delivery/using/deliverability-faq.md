@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우, 이메�
 * 입력한 도메인 이름의 오류를 감지하도록 구독 양식을 업데이트합니다(예:gamaul.com 또는 yaho.com)을 참조하십시오.
 * 메시지가 스팸으로 선언되거나 메시지가 지속적으로 차단된다는 오류가 발견되면 대상에서 지난 12개월 동안 메시지 중 하나를 열거나 클릭하지 않은 수신자를 제외해 보십시오.
 
-문제가 지속되면 상업용 또는 배달 가능성 서비스, Adobe Campaign Client Care 또는 Adobe Campaign 지원에 문의하십시오.
+문제가 지속되면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 상업용 또는 배달 가능 서비스에 문의하십시오.
 
 ## 격리 차단 목록 대비 {#denylist-versus-quarantine}
 
