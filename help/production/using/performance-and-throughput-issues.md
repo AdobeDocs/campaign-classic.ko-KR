@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '692'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 온-프레미스 Campaign Classic에 대한 하드웨어 요구 사항에 대한 일반 지침은 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/hardware-sizing-guide.html)에 자세히 설명되어 있습니다.
 
-컨설팅 팀은 SFTP 사이트에 사용되는 공간뿐만 아니라 데이터베이스의 다양한 유형의 테이블에 사용되는 공간의 크기를 쉽게 볼 수 있도록 하는 도구를 호스팅 고객에게 제공할 수 있습니다. 불필요한 데이터를 정리할 수 있는 도구를 추가로 제공합니다. 이 도구를 구현해야 하는 경우 컨설팅 또는 지원 팀에 문의하십시오. 다음은 이 도구를 사용하여 확인할 중요한 사항입니다.
+컨설팅 팀은 SFTP 사이트에 사용되는 공간뿐만 아니라 데이터베이스의 다양한 유형의 테이블에 사용되는 공간의 크기를 쉽게 볼 수 있도록 하는 도구를 호스팅 고객에게 제공할 수 있습니다. 불필요한 데이터를 정리할 수 있는 도구를 추가로 제공합니다. 이 도구를 구현해야 하는 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 다음은 이 도구를 사용하여 확인할 중요한 사항입니다.
 
 * 인덱스 크기가 표 크기보다 큰 경우 진공백이 필요합니다.
 * 최대값을 가진 테이블을 확인하십시오. 이 테이블들이 자주 사용된다면 진공청소기로 청소해야 한다.
