@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 85fae38f864b031f069058dae79ce6753dc4bf03
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '377'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 연결 문제의 원인은 여러 개이며 다양한 컨텍스트에 따라 다릅니다.
 
-다음 테스트를 시도할 수 있으며 연결 오류가 계속되면 **Adobe Campaign 지원**&#x200B;에 문의하십시오.
+다음 테스트를 시도해 볼 수 있으며 연결 오류가 계속되면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
 
 
