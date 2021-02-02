@@ -1,13 +1,13 @@
 ---
-keywords: Campaign Classic;home;popular topics
+keywords: Campaign Classic;홈;인기 항목
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: f6099fa9c8d1df7bc82dd9be0b575ca7f20b6645
+source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '296'
 ht-degree: 59%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 59%
 
 ## 새로운 기능
 
-* **[IMS/Adobe ID을 통해 연결 최신 빌드](integrations/using/about-adobe-id.md)**<br/>로 업그레이드 IMS를 사용하여 캠페인에 연결하는 경우** 2021년 3월 21일&#x200B;**이후 캠페인에 연결할 수 있도록 업그레이드해야 합니다.
+* **[IMS/Adobe ID을 통해 연결 최신 빌드](integrations/using/about-adobe-id.md)**<br/>로 업그레이드 IMS를 사용하여 Campaign에 연결하는 경우** 2021년 3월 31일 이후 캠페인에 연결할 수 있도록 업그레이드해야 합니다.**
 
 * **[캠페인 인스턴스 보안](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> 캠페인 플랫폼을 보호하기 위해 최신 빌드로 업데이트합니다.
 
