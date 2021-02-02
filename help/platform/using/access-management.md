@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
+source-git-commit: c24cdd21c2426ea12a1cbd76d78154256bc814c8
 workflow-type: tm+mt
-source-wordcount: '2984'
+source-wordcount: '3019'
 ht-degree: 2%
 
 ---
@@ -123,6 +123,11 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 **[!UICONTROL Edit the access parameters...]** 링크를 사용하면 다음 옵션에 액세스할 수 있습니다.
 
 * **[!UICONTROL Disable account]** 옵션을 사용하여 연산자의 계정을 비활성화할 수 있습니다.더 이상 Adobe Campaign에 액세스할 수 없습니다.
+
+   >[!NOTE]
+   >
+   >계정이 비활성화되어도 운영자는 여전히 Campaign에서 알림 또는 알림을 받을 수 있습니다. 이 연산자에 대한 캠페인 알림 전송을 중지하려면 Adobe은 자신의 프로필에서 이메일 주소를 제거하는 것이 좋습니다.
+
 * **[!UICONTROL Forbid access from the rich client]** 옵션을 사용하면 Adobe Campaign의 사용을 [웹 액세스](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) 또는 API를 통해 제한할 수 있습니다.더 이상 Adobe Campaign 클라이언트 콘솔에 액세스할 수 없습니다.
 * 안전구역을 운영자와 연결시킬 수 있습니다 자세한 정보는 이 [페이지](../../installation/using/configuring-campaign-server.md#defining-security-zones)를 참조하십시오.
 * 적절한 링크를 사용하여 신뢰할 수 있는 IP 마스크를 정의할 수도 있습니다.
