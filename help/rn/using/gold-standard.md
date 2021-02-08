@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 3105372bc020057727e28d26e7969c31ac290115
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1039'
 ht-degree: 86%
 
 ---
@@ -48,6 +48,8 @@ _2020년 12월 22일_
 * [iOS APNs 레거시 바이너리 프로토콜](https://developer.apple.com/news/?id=c88acm2b)에 대한 지원이 종료된 후 업그레이드 후 이 프로토콜을 사용하는 모든 인스턴스가 HTTP/2 프로토콜로 업데이트됩니다.
 
 * SSRF(Server Side Request Forgery) 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-27777)
+
+* **보강** 활동을 실행할 때 워크플로우가 실패할 수 있는 문제를 해결했습니다. (NEO-17338)
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 10 릴리스{#gs-10}
 
