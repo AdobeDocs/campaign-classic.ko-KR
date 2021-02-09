@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
+source-git-commit: e84387c7c396c60c429c3f625870a97a7fdaef5a
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 8%
@@ -32,11 +32,6 @@ Adobe Campaign을 사용하면 숨겨진 참조 이메일 주소를 메시지 �
 >이메일 BCC는 선택적 기능입니다. 라이선스 계약을 확인하고 계정 관리자에게 문의하여 기능을 활성화하십시오.
 
 새 배달 또는 배달 템플릿을 만들 때, 기본적으로 이메일 BCC가 활성화되지 않습니다. 이메일 배달 또는 배달 템플릿 수준에서 수동으로 활성화해야 합니다.
-
-<!--
->[!IMPORTANT]
->
->If you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), you can request to use Email BCC with Enhanced MTA for improved efficiency and less latency. In that case, all sent emails are automatically sent to the BCC address. You cannot enable it at the delivery or delivery template level, thus the steps below do not apply. For more on this, see [this section](../../installation/using/email-archiving.md).-->
 
 이메일 배달 템플릿에 대한 이메일 BCC를 활성화하려면 아래 단계를 수행하십시오.
 
