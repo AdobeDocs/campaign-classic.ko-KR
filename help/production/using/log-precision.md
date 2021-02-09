@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -62,13 +62,13 @@ Adobe Campaign은 다음과 같은 두 가지 수준의 로그를 사용하여 �
 
 웹 모듈과 관련된 예는 다음과 같습니다. 다른 모듈은 위에서 설명한 대로 작동합니다.
 
-이 명령을 보내기 전에 진행 중인 작업이 영향을 받지 않는지 확인합니다.
+이 명령을 보내기 전에 진행 중인 작업이 영향을 받지 않는지 확인하십시오.
 
 ```
 nlserver pdump -who
 ```
 
-그런 다음 **TraceFilter** 모드에서 모듈을 종료하고 다시 시작합니다.
+다음으로 **TraceFilter** 모드에서 모듈을 종료한 후 다시 시작합니다.
 
 ```
 nlserver stop web; LD_PRELOAD=libjsig.so nlserver web -tomcat -verbose -tracefilter:* -tracefile:web_debug@default
