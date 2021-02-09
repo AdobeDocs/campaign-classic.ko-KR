@@ -9,10 +9,10 @@ topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+source-git-commit: 346b72d522c947b2a2552176b910ded8d622f3ab
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 62%
+ht-degree: 65%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 62%
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 * [로컬 승인 활동 사용](../../workflow/using/using-the-local-approval-activity.md)
-* [A/B 테스트](../../workflow/using/a-b-testing.md)
+* [A/B 테스트](../../delivery/using/a-b-testing-use-case.md)
 * [생일 전자 메일 보내기](../../workflow/using/sending-a-birthday-email.md)
 * [게재 콘텐츠 로드](../../workflow/using/loading-delivery-content.md)
 * [크로스 채널 게재 워크플로우](../../workflow/using/cross-channel-delivery-workflow.md)
@@ -55,7 +55,7 @@ ht-degree: 62%
 * [Campaign 컨트롤 패널에서 생성된 키를 사용하여 암호화된 데이터 가져오기](../../platform/using/unzip-decrypt.md)
 * [Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [증분 쿼리를 사용한 분기별 목록 업데이트](../../workflow/using/quarterly-list-update.md)
-* [데이터 중복 제거 작업의 병합 기능 사용](../../workflow/using/deduplication-merge.md)
+* [중복 제거 활동의 병합 기능 사용](../../workflow/using/deduplication-merge.md)
 * [반복 가져오기 워크플로우 설정](../../workflow/using/recurring-import-workflow.md)
 
 ## {#designing-queries} 타겟팅 
