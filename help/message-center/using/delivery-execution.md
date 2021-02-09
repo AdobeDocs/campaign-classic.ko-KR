@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 translation-type: tm+mt
-source-git-commit: 1788346f7dfe2c18c490363c90358fcb737f1646
+source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 4%
+source-wordcount: '220'
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->호스팅 또는 하이브리드 설치 환경에서 향상된 MTA로 업그레이드한 경우 향상된 전달 능력, 처리량 및 바운스 처리를 위해 모든 트랜잭션 메시지를 Adobe Campaign Enhanced MTA와 함께 보낼 수 있습니다. 모든 영향은 표준 마케팅 메시지와 동일하며 [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/kr/campaign/kb/acc-campaign-enhanced-mta.html) 문서에 자세히 설명되어 있습니다.
+>호스팅 또는 하이브리드 설치의 경우, [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우 배달 능력, 처리량 및 바운스 처리를 개선하기 위해 모든 트랜잭션 메시지를 Adobe Campaign Enhanced MTA와 함께 전송할 수도 있습니다. 모든 영향은 표준 마케팅 메시지와 동일합니다.
 
 ## 트랜잭션 메시지 모니터링 {#transactional-message-monitoring}
 
