@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 5%
@@ -19,9 +19,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->배달 소유자만 배달을 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 배달을 시작할 수 있으려면 **[!UICONTROL Delivery start:]** 필드에 해당 연산자를 검토자로 추가해야 합니다.
->
->자세한 내용은 [이 섹션](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)을 참조하십시오.
+>배달 소유자만 배달을 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 배달을 시작할 수 있으려면 **[!UICONTROL Delivery start:]** 필드에 해당 연산자를 검토자로 추가해야 합니다. 자세한 내용은 [이 섹션](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)을 참조하십시오.
 
 ## 추가 매개 변수 {#delivery-additiona-parameters} 제공
 
@@ -33,25 +31,29 @@ ht-degree: 5%
 
 * **[!UICONTROL Message batch quantity]**:이 옵션을 사용하면 동일한 XML 배달 패키지 내에서 그룹화된 메시지 수를 정의할 수 있습니다. 매개 변수를 0으로 설정하면 메시지가 자동으로 그룹화됩니다. 패키지 크기는 최소 8개, 최대 256개의 메시지가 패키지로 계산되는 `<delivery size>/1024`에 의해 정의됩니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >배달이 중복되면 매개 변수가 재설정됩니다.
 
-* **[!UICONTROL Send using multiple waves]**:자세한 내용은 여러 파도를  [사용하여 보내기를 참조하십시오](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**:자세한 내용은 여러 파도로  [보내기를 참조하십시오](#sending-using-multiple-waves).
 
 * **[!UICONTROL Test SMTP delivery]**:이 옵션을 사용하면 SMTP를 통해 배달 전송을 테스트할 수 있습니다. 배달은 SMTP 서버에 대한 연결까지 처리되지만 전송되지 않습니다.
 
    >[!NOTE]
    >
-   >mta를 호출하지 않도록 mid 소싱을 사용하여 설치하는 경우에는 이 옵션을 사용하는 것이 권장되지 않습니다.
-   >
-   >SMTP 서버 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)을 참조하십시오.
+   >mta를 호출하지 않도록 mid 소싱을 사용하여 설치하는 경우에는 이 옵션을 사용하는 것이 권장되지 않습니다. SMTP 서버 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)을 참조하십시오.
 
-* **[!UICONTROL Email BCC]**:이 옵션을 사용하면 단순히 메시지 대상에 BCC 이메일 주소를 추가하여 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다. 이에 대한 자세한 내용은 [이 섹션](../../delivery/using/sending-messages.md#archiving-emails)을 참조하십시오.
+* **[!UICONTROL Email BCC]**:이 옵션을 사용하면 단순히 메시지 대상에 BCC 이메일 주소를 추가하여 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/sending-messages.md#archiving-emails)을 참조하십시오.
 
-배달이 구성되고 전송될 준비가 되었으면 [배달 분석](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)을(를) 실행했는지 확인합니다. 완료되면 **[!UICONTROL Confirm delivery]**&#x200B;을 클릭하여 메시지 배달을 시작합니다.
+## 배달 확인 중 {#confirming-delivery}
+
+배달이 구성되고 전송될 준비가 되면 배달 분석을 실행했는지 확인합니다.
+
+이렇게 하려면 **[!UICONTROL Send]**&#x200B;을 클릭하고 원하는 작업을 선택하고 **[!UICONTROL Analyze]**&#x200B;을 클릭합니다. 자세한 내용은 [분석 시작](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하십시오.
 
 ![](assets/s_ncs_user_email_del_send.png)
+
+완료되면 **[!UICONTROL Confirm delivery]**&#x200B;을 클릭하여 메시지 배달을 시작합니다.
 
 그런 다음 배달 마법사를 닫고 **[!UICONTROL Delivery]** 탭에서 배달 실행을 추적할 수 있습니다. 이 배달의 세부 정보나 배달 목록을 통해 액세스할 수 있습니다.
 
@@ -73,7 +75,7 @@ ht-degree: 5%
 
 1. 그런 다음 배달 분석을 시작한 다음 배달 전송을 확인할 수 있습니다. 그러나 배달 보내기는 **[!UICONTROL Contact date]** 필드에 지정된 날짜까지 시작되지 않습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >분석을 시작하면 정의한 연락처 날짜가 수정됩니다. 이 날짜를 수정하는 경우 수정 사항을 고려하도록 분석을 다시 시작해야 합니다.
 
@@ -133,7 +135,7 @@ ht-degree: 5%
       ![](assets/s_ncs_user_wizard_waves_create.png)
    특정 유형 규칙 **[!UICONTROL Wave scheduling check]**&#x200B;은 마지막 물결이 배달 유효성 제한 전에 계획되도록 합니다. 배달 속성의 **[!UICONTROL Typology]** 탭에 구성된 캠페인 유형 및 해당 규칙은 [유형 유형 지정](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)이 있는 유효성 검사 프로세스에 제공됩니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >마지막 물결이 **[!UICONTROL Validity]** 탭에 정의된 배달 최종 기한을 초과하지 않도록 합니다. 그렇지 않으면 일부 메시지가 전송되지 않을 수 있습니다.
    >
@@ -169,18 +171,15 @@ ht-degree: 5%
 
 **Soft** 또는 **무시됨** 오류로 인해 일시적으로 배달되지 않은 메시지는 자동 재시도가 적용됩니다. 배달 실패 유형 및 원인은 이 [섹션](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)에 있습니다.
 
-배달 매개 변수에 대한 **[!UICONTROL Delivery]** 탭의 중앙 섹션은 배달 후 하루 동안 재시도할 횟수와 재시도 사이의 최소 지연을 나타냅니다.
+>[!IMPORTANT]
+>
+>호스팅 또는 하이브리드 설치의 경우, [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우, 게재의 재시도 설정은 더 이상 Campaign에서 사용되지 않습니다. 소프트 바운스 재시도 횟수와 그 사이의 시간은 메시지의 이메일 도메인에서 돌아오는 바운스 응답 유형 및 심각도에 따라 향상된 MTA에 의해 결정됩니다.
+
+기존 캠페인 MTA를 사용하는 온-프레미스 설치 및 호스팅된/하이브리드 설치의 경우 배달 매개 변수에 대한 **[!UICONTROL Delivery]** 탭의 중앙 섹션은 배달 후 하루 동안 얼마나 많은 재시도를 수행해야 하는지, 재시도 사이의 최소 지연을 나타냅니다.
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-기본적으로 배달 첫 번째 날에 5회 재시도 횟수가 예정되어 있으며 최소 간격은 하루 24시간 동안 분산됩니다. 1일 동안 1회 재시도는 그 이후에 그리고 **[!UICONTROL Validity]** 탭에 정의된 배달 마감일까지 프로그래밍됩니다([유효성 기간 정의](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period) 참조).
-
->[!NOTE]
->
->호스팅 또는 하이브리드 설치의 경우, 향상된 MTA로 업그레이드한 경우, 게재의 재시도 설정은 더 이상 Campaign에서 사용되지 않습니다. 소프트 바운스 재시도 횟수와 그 사이의 시간은 메시지의 이메일 도메인에서 돌아오는 바운스 응답 유형 및 심각도에 따라 향상된 MTA에 의해 결정됩니다.
->
->모든 영향이 [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/kr/campaign/kb/acc-campaign-enhanced-mta.html) 문서에 자세히 설명되어 있습니다.
-
+기본적으로 배달 첫 번째 날에 5회 재시도 횟수가 예정되어 있으며 최소 간격은 하루 24시간 동안 분산됩니다. 1일 동안 1회 재시도는 그 이후에 그리고 **[!UICONTROL Validity]** 탭에 정의된 배달 마감일까지 프로그래밍됩니다([유효성 기간 정의](#defining-validity-period) 참조).
 
 ## 유효성 기간 정의 {#defining-validity-period}
 
@@ -192,12 +191,10 @@ ht-degree: 5%
 
    날짜를 지정할 수도 있습니다. 이렇게 하려면 **[!UICONTROL Explicitly set validity dates]**&#x200B;을 선택합니다. 이 경우 배달 및 유효성 제한 날짜에서도 시간을 지정할 수 있습니다. 현재 시간은 기본적으로 사용되지만 입력 필드에서 직접 수정할 수 있습니다.
 
+   >[!IMPORTANT]
+   >
+   >호스팅 또는 하이브리드 설치의 경우, [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우 캠페인 이메일 게재의 **[!UICONTROL Delivery duration]** 설정은 **3.5일 이내**&#x200B;로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다.
+
 * **리소스의 유효성 제한**:이  **[!UICONTROL Validity limit]** 필드는 업로드된 리소스(주로 미러 페이지 및 이미지에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하기 위함).
 
    이 필드의 값은 [이 섹션](../../platform/using/adobe-campaign-workspace.md#default-units)에 나열된 단위로 표시할 수 있습니다.
-
->[!NOTE]
->
->호스팅 또는 하이브리드 설치의 경우, 향상된 MTA로 업그레이드한 경우 캠페인 배달의 **[!UICONTROL Delivery duration]** 설정은 **3.5**&#x200B;일 이내로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다.
->
->모든 영향이 [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) 문서에 자세히 설명되어 있습니다.
