@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
 workflow-type: tm+mt
 source-wordcount: '2973'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Adobe Campaign 플랫폼을 통한 효율적인 이메일 전송 및 수신과 �
 
 1. **성공**:메시지가 전송되었습니다. 메시지가 업데이트됩니다.
 1. **메시지 실패**:선택한 받는 사람에 대한 메시지가 연결된 서버에서 거부되었습니다. 이 결과는 반환 코드 550~599와 일치하지만 예외를 정의할 수 있습니다.
-1. **세션 실패** (5.11 이상):이  **** 메시지에 대한 응답을 받으면 메시지가 중단됩니다(메시지  [포기 참조](#message-abandonment)). 다른 경로를 사용할 수 없는 경우 메시지를 다른 경로로 보내거나 보류 중으로 설정합니다(보류 중인 메시지([ 참조).](#message-pending)
+1. **세션 실패** (5.11 이상):이  **** 메시지에 대한 응답을 받으면 메시지가 중단됩니다(메시지  [포기 참조](#message-abandonment)). 다른 경로를 사용할 수 없는 경우 메시지를 다른 경로로 보내거나 보류 중으로 설정합니다(보류 중인 메시지(](#message-pending) 참조).[
 
    >[!NOTE]
    >
@@ -131,15 +131,15 @@ Adobe Campaign 플랫폼을 통한 효율적인 이메일 전송 및 수신과 �
 
 ## MX 구성 {#mx-configuration}
 
+>[!IMPORTANT]
+>
+>호스팅 또는 하이브리드 설치의 경우 [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우 **[!UICONTROL MX management]** 배달 처리량 규칙은 더 이상 사용되지 않습니다. 향상된 MTA는 고유한 MX 규칙을 사용하여 고유한 내역 이메일 명성을 기반으로 그리고 이메일을 보내는 도메인에서 오는 실시간 피드백을 바탕으로 처리량을 도메인별로 사용자 정의할 수 있습니다.
+
+아래 섹션은 기존 캠페인 MTA를 사용하는 온-프레미스 설치 및 호스트/하이브리드 설치에만 적용됩니다.
+
 ### MX 규칙 {#about-mx-rules} 정보
 
 MX 규칙(메일 교환기)은 전송 서버와 수신 서버 간의 통신을 관리하는 규칙입니다.
-
->[!IMPORTANT]
->
->호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 **[!UICONTROL MX management]** 배달 처리량 규칙은 더 이상 사용되지 않습니다. 향상된 MTA는 고유한 MX 규칙을 사용하여 고유한 내역 이메일 명성을 기반으로 그리고 이메일을 보내는 도메인에서 오는 실시간 피드백을 바탕으로 처리량을 도메인별로 사용자 정의할 수 있습니다.
->
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/kr/campaign/kb/acc-campaign-enhanced-mta.html)를 참조하십시오.
 
 이러한 규칙은 클라이언트 인스턴스를 정기적으로 제공하기 위해 매일 아침 6AM(서버 시간)에 자동으로 다시 로드됩니다.
 
@@ -321,7 +321,7 @@ MX에 대해 준수되는 규칙은 트리의 **[!UICONTROL Administration > Cam
 * **HTML**:HTML 전용 메시지가 전송됩니다. HTML 형식이 허용되지 않으면 메시지가 표시되지 않습니다.
 * **텍스트**:텍스트 전용 형식의 메시지가 전송됩니다. 텍스트 형식 메시지의 이점은 크기가 매우 작기 때문입니다.
 
-**[!UICONTROL Image inclusion]** 옵션이 활성화되어 있으면 이메일 본문에 직접 표시됩니다. 그러면 이미지가 업로드되고 URL 링크가 해당 컨텐츠로 바뀝니다.
+**[!UICONTROL Image inclusion]** 옵션이 활성화되어 있으면 이메일 본문에 직접 표시됩니다. 이미지가 업로드되고 URL 링크가 해당 컨텐츠로 바뀝니다.
 
 이 옵션은 특히 **데코메일**, **데코어 메일** 또는 **데코레이션 메일**&#x200B;에 대한 일본 시장에서 사용됩니다. 자세한 내용은 [이 문서](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles)를 참조하십시오.
 
