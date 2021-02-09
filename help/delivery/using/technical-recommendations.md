@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2427'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,10 @@ DNS 서버 수준에서 수행된 기록을 고려하는 데 최대 48시간이 
 
 ### DKIM {#dkim}
 
+>[!IMPORTANT]
+>
+>호스팅 또는 하이브리드 설치의 경우, [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우 모든 도메인의 모든 메시지에 대해 향상된 MTA가 DKIM 이메일 인증 서명을 수행합니다.
+
 DKIM(DomainKeys Identified Mail) 인증은 SPF의 후임자로, 받는 이메일 서버가 메시지를 보냈다고 주장하는 사람 또는 엔티티가 보낸 메시지인지, 메시지 컨텐츠가 원래 전송(및 DKIM &quot;signed&quot;)된 시간 사이에 변경되었는지 여부와 메시지 컨텐트가 수신될 때까지 변경되었는지 여부를 확인할 수 있도록 해주는 공개 키 암호화를 사용합니다. 이 표준은 일반적으로 &quot;보낸 사람&quot; 또는 &quot;보낸 사람&quot; 헤더의 도메인을 사용합니다. DKIM의 보안 수준을 보장하려면 1024b가 Best Practices 권장 암호화 크기입니다. 낮은 DKIM 키는 대부분의 액세스 공급자가 유효한 것으로 간주하지 않습니다.
 
 DKIM은 DomainKeys, Yahoo! 및 Cisco Identified Internet Mail 인증 원칙을 준수하고 발신자 도메인의 신뢰성을 확인하고 메시지의 무결성을 보장하는 데 사용됩니다.
@@ -87,10 +91,6 @@ DKIM을 사용하려면 몇 가지 전제 조건이 필요합니다.
 >* DKIM과 동일한 도메인에 대해 DomainKeys와 DKIM을 모두 사용할 필요는 없습니다. 이는 DomainKeys의 향상된 버전입니다.
 >* 다음 도메인은 현재 DKIM의 유효성을 검사합니다.AOL, Gmail.
 
-
->[!IMPORTANT]
->
->호스팅 또는 하이브리드 설치의 경우, [향상된 MTA](https://helpx.adobe.com/kr/campaign/kb/acc-campaign-enhanced-mta.html)로 업그레이드한 경우 모든 도메인의 모든 메시지에 대해 향상된 MTA가 DKIM 이메일 인증 서명을 수행합니다.
 
 ### DMARC {#dmarc}
 
