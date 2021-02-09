@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 15%
+source-wordcount: '2572'
+ht-degree: 14%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->이메일 오류 메시지(또는 &quot;바운스 수&quot;)는 inMail 프로세스에서 인증합니다. SMS 오류 메시지(또는 &quot;상태 보고서&quot;의 경우 &quot;SR&quot;)는 MTA 프로세스에 의해 검증됩니다.
+>**이메일** 오류 메시지(또는 &quot;반송&quot;)는 Enhanced MTA(동기 반송) 또는 inMail 프로세스(비동기 반송)에 의해 검증됩니다.
+>
+>**SMS** 오류 메시지(또는 &quot;상태 보고서&quot;의 경우 &quot;SR&quot;)는 MTA 프로세스에 의해 검증됩니다.
 
 메시지가 전송되면 배달 로그를 사용하여 각 프로필에 대한 배달 상태, 연관된 실패 유형 및 이유를 볼 수 있습니다.
 
@@ -184,9 +186,13 @@ ht-degree: 15%
 >
 >일시적으로 배달되지 않은 메시지는 **소프트** 또는 **무시된** 오류와 관련될 수 있지만 **하드** 오류가 아닙니다([배달 실패 유형 및 이유](#delivery-failure-types-and-reasons) 참조).
 
-배달 기간을 수정하려면 전달 또는 전달 템플릿의 고급 매개 변수로 이동하고 해당 필드에 원하는 기간을 지정합니다. 고급 배달 속성은 [이 섹션](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)에 있습니다.
+>[!IMPORTANT]
+>
+>호스팅 또는 하이브리드 설치의 경우, [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우, 게재의 재시도 설정은 더 이상 Campaign에서 사용되지 않습니다. 소프트 바운스 재시도 횟수와 그 사이의 시간은 메시지의 이메일 도메인에서 돌아오는 바운스 응답 유형 및 심각도에 따라 향상된 MTA에 의해 결정됩니다.
 
-기본 구성을 사용하면 1시간 간격으로 5회 재시도 후 4일 동안 1회 재시도 재시도 횟수는 전역적으로(Adobe 기술 관리자에게 문의) 또는 각 배달 또는 배달 템플릿([이 섹션](../../delivery/using/steps-sending-the-delivery.md#configuring-retries) 참조)에 대해 변경할 수 있습니다.
+기존 캠페인 MTA를 사용하여 온-프레미스 설치 및 호스팅된/하이브리드 설치의 경우 배달 기간을 수정하려면 전달 또는 배달 템플릿의 고급 매개 변수로 이동하고 해당 필드에 원하는 기간을 지정합니다. [유효성 기간 정의](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)를 참조하십시오.
+
+기본 구성을 사용하면 1시간 간격으로 5회 재시도 후 4일 동안 1회 재시도 재시도 횟수는 전역적으로(Adobe 기술 관리자에게 문의) 또는 각 배달 또는 배달 템플릿에 대해 변경할 수 있습니다([재시도 구성](../../delivery/using/steps-sending-the-delivery.md#configuring-retries) 참조).
 
 ## 동기 및 비동기 오류 {#synchronous-and-asynchronous-errors}
 
@@ -207,17 +213,38 @@ ht-degree: 15%
 
 ## 바운스 메일 관리 {#bounce-mail-management}
 
-Adobe Campaign 플랫폼을 사용하면 바운스 메일 기능을 통해 이메일 배달 오류를 관리할 수 있습니다. 전자 메일을 받는 사람에게 배달할 수 없는 경우 원격 메시징 서버는 이 용도로 디자인된 기술 받은 편지함에 오류 메시지(바운스 메일)를 자동으로 반환합니다. 오류 메시지는 Adobe Campaign 플랫폼이 수집하며 inMail 프로세스에서 이메일 관리 규칙 목록을 보완할 수 있습니다.
+Adobe Campaign 플랫폼을 사용하면 바운스 메일 기능을 통해 이메일 배달 오류를 관리할 수 있습니다.
+
+전자 메일을 받는 사람에게 배달할 수 없는 경우 원격 메시징 서버는 이 용도로 디자인된 기술 받은 편지함에 오류 메시지(바운스 메일)를 자동으로 반환합니다.
+
+기존 캠페인 MTA를 사용하는 온-프레미스 설치 및 호스팅된/하이브리드 설치의 경우, 오류 메시지는 Adobe Campaign 플랫폼에 의해 수집되고 inMail 프로세스를 통해 이메일 관리 규칙 목록을 보완합니다.
+
+>[!IMPORTANT]
+>
+>호스팅 또는 하이브리드 설치의 경우, [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우 대부분의 이메일 관리 규칙이 더 이상 사용되지 않습니다. 자세한 내용은 [이 섹션](#email-management-rules)을 참조하십시오.
 
 ### 반송 메일 조건 {#bounce-mail-qualification}
 
-이메일 배달이 실패하면 Adobe Campaign 배달 서버는 메시징 서버 또는 원격 DNS 서버로부터 오류 메시지를 수신합니다. 오류 목록은 원격 서버에서 반환된 메시지에 포함된 문자열로 구성됩니다. 각 오류 메시지에 오류 유형 및 이유를 지정합니다.
+>[!IMPORTANT]
+>
+>호스팅 또는 하이브리드 설치의 경우, [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우:
+>
+>* **[!UICONTROL Delivery log qualification]** 테이블의 바운스 자격 조건은 더 이상 **동기** 배달 실패 오류 메시지에 사용되지 않습니다. 향상된 MTA는 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign에 다시 전송합니다.
+   >
+   >
+* ****&#x200B;비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 자세한 내용은 [이메일 관리 규칙](#email-management-rules)을 참조하십시오.
+   >
+   >
+* Webhook/EFS **없이 향상된 MTA**&#x200B;을 사용하는 인스턴스의 경우 비동기 바운스 이메일과 동일한 이메일 주소를 사용하여 향상된 MTA에서 들어오는 동기 바운스 이메일을 처리하는 데도 **[!UICONTROL Inbound email]** 규칙이 사용됩니다.
+
+
+기존 캠페인 MTA를 사용하는 온-프레미스 설치 및 호스팅된/하이브리드 설치의 경우, 이메일 배달이 실패하면 Adobe Campaign 게재 서버는 메시징 서버 또는 원격 DNS 서버로부터 오류 메시지를 수신합니다. 오류 목록은 원격 서버에서 반환된 메시지에 포함된 문자열로 구성됩니다. 각 오류 메시지에 오류 유형 및 이유를 지정합니다.
 
 이 목록은 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 노드를 통해 사용할 수 있습니다. 여기에는 Adobe Campaign에서 배달 실패를 평가하는 데 사용하는 모든 규칙이 포함됩니다. 비배타적, 그리고 Adobe Campaign에 의해 정기적으로 업데이트되며 사용자가 관리할 수도 있습니다.
 
 ![](assets/tech_quarant_rules_qualif.png)
 
-* 이 오류 유형의 첫 번째 발생 시 원격 서버에서 반환된 메시지는 **[!UICONTROL Delivery log qualification]** 테이블의 **[!UICONTROL First text]** 열에 표시됩니다. 이 열이 표시되지 않으면 목록 오른쪽 하단에 있는 **[!UICONTROL Configure list]** 단추를 클릭하여 선택합니다.
+이 오류 유형의 첫 번째 발생 시 원격 서버에서 반환된 메시지는 **[!UICONTROL Delivery log qualification]** 테이블의 **[!UICONTROL First text]** 열에 표시됩니다. 이 열이 표시되지 않으면 목록 오른쪽 하단에 있는 **[!UICONTROL Configure list]** 단추를 클릭하여 선택합니다.
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
@@ -237,22 +264,11 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 컨텐츠(예: ID, 날
 
 ![](assets/deliverability_qualif_status.png)
 
+### 이메일 관리 규칙 {#email-management-rules}
+
 >[!IMPORTANT]
 >
->호스팅 또는 하이브리드 설치의 경우, 향상된 MTA로 업그레이드한 경우:
->
->* **[!UICONTROL Delivery log qualification]** 테이블의 바운스 자격 조건은 더 이상 동기 배달 실패 오류 메시지에 사용되지 않습니다. 향상된 MTA는 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign에 다시 전송합니다.
-   >
-   >
-* 비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 자세한 내용은 [이메일 관리 규칙](#email-management-rules)을 참조하십시오.
-   >
-   >
-* **Webhook/EFS** 없이 향상된 MTA를 사용하는 인스턴스의 경우, **[!UICONTROL Inbound email]** 규칙은 비동기 바운스 이메일과 동일한 이메일 주소를 사용하여 향상된 MTA에서 들어오는 동기 바운스 이메일을 처리하는 데도 사용됩니다.
->
->
-Adobe Campaign 향상된 MTA에 대한 자세한 내용은 [이 문서](https://helpx.adobe.com/kr/campaign/kb/acc-campaign-enhanced-mta.html)를 참조하십시오.
-
-### 이메일 관리 규칙 {#email-management-rules}
+>호스팅 또는 하이브리드 설치의 경우, [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우 대부분의 이메일 관리 규칙이 더 이상 사용되지 않습니다. 자세한 내용은 아래 섹션을 참조하십시오.
 
 메일 규칙은 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** 노드를 통해 액세스합니다. 창 아래쪽에 이메일 관리 규칙이 표시됩니다.
 
@@ -272,7 +288,11 @@ Adobe Campaign 향상된 MTA에 대한 자세한 내용은 [이 문서](https://
 
 #### 인바운드 이메일 {#inbound-email}
 
-이러한 규칙에는 원격 서버에서 반환할 수 있는 문자 문자열 목록이 포함되어 있어 오류를 평가할 수 있습니다(**강함**, **약함** 또는 **무시됨**).
+>[!IMPORTANT]
+>
+>호스팅 또는 하이브리드 설치의 경우, [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드했고 인스턴스에 **Webhook/EFS** 기능이 있는 경우 **[!UICONTROL Inbound email]** 규칙은 동기 배달 실패 오류 메시지에 더 이상 사용되지 않습니다. 자세한 내용은 [이 섹션](#bounce-mail-qualification)을 참조하십시오.
+
+기존 캠페인 MTA를 사용하는 온-프레미스 설치 및 호스팅된/하이브리드 설치의 경우, 이러한 규칙에는 원격 서버에서 반환할 수 있는 문자 문자열 목록이 들어 있으며, 이를 통해 오류를 평가할 수 있습니다(**하드**, **소프트** 또는 **무시됨**).
 
 이메일이 실패하면 원격 서버는 플랫폼 매개 변수에 지정된 주소로 바운스 메시지를 반환합니다. Adobe Campaign은 각 바운스 메일의 내용을 규칙 목록의 문자열에 있는 내용과 비교하고 3가지 [오류 유형 중 하나를 할당합니다](#delivery-failure-types-and-reasons).
 
@@ -282,15 +302,13 @@ Adobe Campaign 향상된 MTA에 대한 자세한 내용은 [이 문서](https://
 
 바운스 메일 자격에 대한 자세한 내용은 [이 섹션](#bounce-mail-qualification)을 참조하십시오.
 
->[!IMPORTANT]
->
->호스팅 또는 하이브리드 설치의 경우, 향상된 MTA로 업그레이드한 경우, 인스턴스에 **Webhook/EFS** 기능이 있는 경우, **[!UICONTROL Inbound email]** 규칙은 동기 배달 실패 오류 메시지에 더 이상 사용되지 않습니다. 자세한 내용은 [이 섹션](#bounce-mail-qualification)을 참조하십시오.
->
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 [이 문서](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)를 참조하십시오.
-
 #### 도메인 관리 {#domain-management}
 
-Adobe Campaign 메시징 서버는 모든 도메인에 단일 **도메인 관리** 규칙을 적용합니다.
+>[!IMPORTANT]
+>
+>호스팅되거나 하이브리드 설치의 경우 [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우 **[!UICONTROL Domain management]** 규칙은 더 이상 사용되지 않습니다. **DKIM(DomainKeys Identified Mail)** 전자 메일 인증 서명은 모든 도메인이 있는 모든 메시지에 대해 Enhanced MTA에서 수행합니다. Enhanced MTA 수준에서 별도로 지정하지 않는 한 **발신자 ID**, **도메인 키** 또는 **S/MIME**&#x200B;으로 서명하지않습니다.
+
+기존 캠페인 MTA를 사용하는 온-프레미스 설치 및 호스트/하이브리드 설치의 경우 Adobe Campaign 메시징 서버는 모든 도메인에 단일 **도메인 관리** 규칙을 적용합니다.
 
 <!--![](assets/tech_quarant_domain_rules_02.png)-->
 
@@ -299,13 +317,13 @@ Adobe Campaign 메시징 서버는 모든 도메인에 단일 **도메인 관리
 
 보낸 사람 주소에 **[!UICONTROL on behalf of]**&#x200B;이(가) 있는 Outlook에 메시지가 표시되는 경우, Microsoft의 구식 전자 메일 인증 표준인 **보낸 사람 ID**&#x200B;로 전자 메일을 서명하지 않았는지 확인하십시오. **[!UICONTROL Sender ID]** 옵션이 활성화되어 있으면 해당 상자의 선택을 취소하고 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 배달은 영향을 받지 않습니다.
 
+#### MX 관리 {#mx-management}
+
 >[!IMPORTANT]
 >
->호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 **[!UICONTROL Domain management]** 규칙은 더 이상 사용되지 않습니다. **DKIM(DomainKeys Identified Mail)** 전자 메일 인증 서명은 모든 도메인이 있는 모든 메시지에 대해 Enhanced MTA에서 수행합니다. Enhanced MTA 수준에서 별도로 지정하지 않는 한 **발신자 ID**, **도메인 키** 또는 **S/MIME**&#x200B;으로 서명하지않습니다.
->
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 [이 문서](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)를 참조하십시오.
+>호스팅 또는 하이브리드 설치의 경우 [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우 **[!UICONTROL MX management]** 배달 처리량 규칙은 더 이상 사용되지 않습니다. 향상된 MTA는 고유한 MX 규칙을 사용하여 고유한 내역 이메일 명성을 기반으로 그리고 이메일을 보내는 도메인에서 오는 실시간 피드백을 바탕으로 처리량을 도메인별로 사용자 정의할 수 있습니다.
 
-#### MX 관리 {#mx-management}
+기존 캠페인 MTA를 사용하는 온-프레미스 설치 및 호스트/하이브리드 설치의 경우:
 
 * MX 관리 규칙은 특정 도메인에 대한 나가는 이메일의 흐름을 제어하는 데 사용됩니다. 바운스 메시지를 샘플링하고 적절한 경우 전송을 차단합니다.
 
@@ -314,9 +332,3 @@ Adobe Campaign 메시징 서버는 모든 도메인에 단일 **도메인 관리
 * MX 관리 규칙을 구성하려면 임계값을 설정하고 특정 SMTP 매개 변수를 선택하면 됩니다. **임계값**&#x200B;은 특정 도메인에 대한 모든 메시지가 차단되는 오류 백분율로 계산되는 한계입니다. 예를 들어, 일반적으로 최소 300개 메시지의 경우 오류 비율이 90%에 도달하면 이메일 전송이 3시간 동안 차단됩니다.
 
 MX 관리에 대한 자세한 내용은 [이 섹션](../../installation/using/email-deliverability.md#mx-configuration)을 참조하십시오.
-
->[!IMPORTANT]
->
->호스팅 또는 하이브리드 설치의 경우 향상된 MTA로 업그레이드한 경우 **[!UICONTROL MX management]** 배달 처리량 규칙은 더 이상 사용되지 않습니다. 향상된 MTA는 고유한 MX 규칙을 사용하여 고유한 내역 이메일 명성을 기반으로 그리고 이메일을 보내는 도메인에서 오는 실시간 피드백을 바탕으로 처리량을 도메인별로 사용자 정의할 수 있습니다.
->
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 [이 문서](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)를 참조하십시오.
