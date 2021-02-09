@@ -1,6 +1,6 @@
 ---
 audience: end-user
-breadcrumb-title: Campaign Classic
+breadcrumb-title: 도움말 센터
 product: campaign
 title: Campaign Classic 안내서
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 048ceef9e4498b557601f3eb2db839e415d6e8c5
+source-git-commit: 7351912ed34525479401ef4983a0bc8a78de85f8
 workflow-type: tm+mt
-source-wordcount: '2290'
-ht-degree: 95%
+source-wordcount: '2347'
+ht-degree: 93%
 
 ---
 
@@ -124,7 +124,11 @@ ht-degree: 95%
       + [전자 메일 게재 만들기](delivery/using/creating-an-email-delivery.md)
       + [전자 메일 콘텐츠 정의](delivery/using/defining-the-email-content.md)
       + [대화형 콘텐츠 정의](delivery/using/defining-interactive-content.md)
-      + [메시지 보내기](delivery/using/sending-messages.md)
+      + 이메일 {#sending-an-email} 보내기
+         + [이메일 배달 확인](delivery/using/sending-messages.md)
+         + [이메일 매개 변수](delivery/using/email-parameters.md)
+         + [향상된 MTA로 보내기](delivery/using/sending-with-enhanced-mta.md)
+         + [일본 모바일에 보내기](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [파일 첨부](delivery/using/attaching-files.md)
    + 모바일에 메시지 보내기 {#sending-messages-on-mobiles}
       + [SMS 채널](delivery/using/sms-channel.md)
@@ -165,6 +169,19 @@ ht-degree: 95%
       + [외부 수신자 테이블 사용](delivery/using/using-an-external-recipient-table.md)
       + [사용 사례: 기준 시드 주소 선택](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
       + [사용 사례: 필드 대체 구성](delivery/using/use-case--configuring-the-field-substitution.md)
+   + A/B 테스트 {#a-b-testing}
+      + [A/B 테스트 시작](delivery/using/get-started-a-b-testing.md)
+      + [A/B 테스트 구성](delivery/using/configuring-a-b-testing.md)
+      + 사용 사례 {#use-case}
+         + [이 사용 사례 정보](delivery/using/a-b-testing-use-case.md)
+         + [타겟팅 워크플로우 만들기](delivery/using/a-b-testing-uc-targeting-workflow.md)
+         + [모집단 샘플 구성](delivery/using/a-b-testing-uc-population-samples.md)
+         + [배달 템플릿 만들기](delivery/using/a-b-testing-uc-delivery-templates.md)
+         + [배달 구성](delivery/using/a-b-testing-uc-configuring-deliveries.md)
+         + [스크립트 만들기](delivery/using/a-b-testing-uc-script.md)
+         + [최종 배달 정의](delivery/using/a-b-testing-uc-final-delivery.md)
+         + [워크플로우 시작](delivery/using/a-b-testing-uc-start-workflow.md)
+         + [결과 분석](delivery/using/a-b-testing-uc-analyzing.md)
    + 구독 및 참조 {#subscriptions-and-referrals}
       + [서비스 및 구독 기본 정보](delivery/using/about-services-and-subscriptions.md)
       + [구독 관리](delivery/using/managing-subscriptions.md)
@@ -439,7 +456,6 @@ ht-degree: 95%
       + [워크플로우 사용 사례 기본 정보](workflow/using/about-workflow-use-cases.md)
       + 게재 {#deliveries}
          + [로컬 승인 활동 사용](workflow/using/using-the-local-approval-activity.md)
-         + [A/B 테스트](workflow/using/a-b-testing.md)
          + [생일 전자 메일 보내기](workflow/using/sending-a-birthday-email.md)
          + [게재 콘텐츠 로드](workflow/using/loading-delivery-content.md)
          + [크로스 채널 게재 워크플로우](workflow/using/cross-channel-delivery-workflow.md)
