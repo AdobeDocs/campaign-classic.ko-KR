@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
+source-git-commit: 07ed17a093cb6fb2d7aae376325a127c61b1dcc2
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 2%
@@ -147,7 +147,7 @@ MX 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/em
 
 <!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
-## 게재 처리량
+### 게재 처리량
 
 캠페인 배달 처리량 그래프는 더 이상 이메일 수신자에게 처리량을 표시하지 않습니다. 이제 해당 그래프는 향상된 MTA로 Campaign에서 메시지를 릴레이 처리량을 보여줍니다.
 
@@ -163,7 +163,7 @@ MX 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/em
 
 유효 기간에 대한 자세한 내용은 [이 섹션](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)을 참조하십시오.
 
-## DKIM-signing
+### DKIM-signing
 
 DKIM(DomainKeys Identified Mail) 이메일 인증 서명은 향상된 MTA를 통해 수행됩니다. 기본 캠페인 MTA의 DKIM 서명은 향상된 MTA 업그레이드의 일부로 도메인 관리 테이블 내에서 해제됩니다.
 DKIM에 대한 자세한 내용은 [이 섹션](../../delivery/using/technical-recommendations.md#dkim)을 참조하십시오.
