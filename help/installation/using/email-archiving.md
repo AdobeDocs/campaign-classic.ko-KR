@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5fa848d86f951cb9dc40eb7981abea29c1092291
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 2%
@@ -102,7 +102,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 ## 숨은 참조 이메일 주소 구성(온-프레미스) {#configuring-the-bcc-email-address--on-premise-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >개인 정보를 보호하기 위해 BCC 이메일은 안전한 개인 식별 정보(PII)를 저장할 수 있는 보관 시스템에 의해 처리되어야 합니다.
 
@@ -125,7 +125,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 ## 새 이메일 BCC {#updated-email-archiving-system--bcc-}로 이동하는 중
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이메일 보관 시스템(BCC)이 Adobe Campaign 17.2(빌드 8795)로 변경되었습니다. 이전 빌드에서 업그레이드하고 이미 이메일 보관 기능을 사용하고 있는 경우 새 BCC(이메일 보관 시스템)로 수동으로 업그레이드해야 합니다.
 
