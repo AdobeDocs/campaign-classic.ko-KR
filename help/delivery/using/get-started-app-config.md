@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 965aee2e310dd7e35d7a65bf9a1bda5dc8eb0959
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 9%
+source-wordcount: '295'
+ht-degree: 8%
 
 ---
 
@@ -37,7 +37,13 @@ Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합
 
 하이브리드/호스팅 고객인 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀에 문의하여 Campaign의 푸시 알림 채널에 액세스합니다.
 
-온-프레미스 고객은 다음 설치 단계를 수행해야 합니다.
+온-프레미스 고객은 내장 패키지를 설치해야 합니다.
+
+>[!CAUTION]
+>
+>[이 페이지](../../installation/using/installing-campaign-standard-packages.md)에서 Campaign 내장 패키지, 모범 사례 및 권장 사항에 대해 자세히 알아보십시오.
+
+설치 단계는 다음과 같습니다.
 
 1. Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Tools > Advanced > Package import...]**&#x200B;에서 패키지 가져오기 마법사에 액세스합니다.
 
