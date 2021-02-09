@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1330d4658d039f27a98535bf9885bffbfa0be3c9
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 4%
@@ -56,7 +56,7 @@ ht-degree: 4%
 
 * 성공률이 가장 높은 성공률을 선택하고 나머지 타겟으로 보냅니다.
 
-이 섹션](../../workflow/using/a-b-testing.md)에서 [에 대해 자세히 알아보십시오.
+이 섹션](../../delivery/using/get-started-a-b-testing.md)에서 [에 대해 자세히 알아보십시오.
 
 ## 메시지가 {#make-sure-your-message-is-delivered} 전달되었는지 확인합니다.
 
