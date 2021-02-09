@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 8%
@@ -46,9 +46,9 @@ ht-degree: 8%
 
 데이터베이스 유지 관리가 올바르게 예약되어 실행되는지 확인하십시오. 이렇게 하려면 데이터베이스 관리자에게 문의하여 다음 사항에 대해 자세히 알아보십시오.
 
-* 유지 관리 일정을
+* 유지 관리 일정
 * 이전에 실행된 유지 관리 계획
-* 스크립트 로그를 봅니다.
+* 스크립트 로그 보기
 
 이 작업에 대한 자세한 정보는 [이 섹션](../../production/using/recommendations.md)을 참조하십시오.
 
@@ -60,8 +60,8 @@ ht-degree: 8%
 
 작업표의 번호와 크기를 확인하십시오. 특정 크기를 초과하면 데이터베이스 성능에 영향을 줍니다. 이러한 테이블은 워크플로우 및 배달로 만들어집니다. 워크플로우와 배달이 활성화된 상태에서 데이터베이스에 남아 있습니다. 작업 테이블 크기를 제한하려면 다음 작업을 수행할 수 있습니다.
 
-* 다음 상태의 배달을 중지하거나 삭제합니다.**[!UICONTROL Failed]** , **[!UICONTROL In progress]** , **[!UICONTROL Ready for delivery]** 또는 **[!UICONTROL Paused]**.
-* 오류로 인해 일시 중지된 워크플로우를 중지 또는 삭제합니다.
+* 다음 상태의 납품을 중지하거나 삭제합니다.**[!UICONTROL Failed]**, **[!UICONTROL In progress]**, **[!UICONTROL Ready for delivery]** 또는 **[!UICONTROL Paused]**.
+* 오류로 인해 일시 중지된 워크플로우를 중지하거나 삭제합니다.
 * **[!UICONTROL End]** 활동을 포함하지 않고 그 상태가 **[!UICONTROL Paused]**&#x200B;로 남아 있는 테스트에 사용된 모든 워크플로우를 중지합니다.
 
 >[!IMPORTANT]
@@ -72,14 +72,13 @@ ht-degree: 8%
 
 Adobe Campaign 설치 설정에 따라 플랫폼 모니터링에 두 가지 도구를 사용할 수 있습니다.
 
-* 인스턴스 제작 페이지. 자세한 내용은 [수동 모니터링](../../production/using/monitoring-processes.md#manual-monitoring)을 참조하십시오.
-* netreport 스크립트입니다. 자세한 내용은 Adobe Campaign 스크립트[를 통한 자동 모니터링을 참조하십시오.](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)
+* 인스턴스 프로덕션 페이지입니다. 자세한 내용은 [수동 모니터링](../../production/using/monitoring-processes.md#manual-monitoring)을 참조하십시오.
+* *netreport* 스크립트. 자세한 내용은 Adobe Campaign 스크립트](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)를 통한 자동 모니터링을 참조하십시오.[
 
 ## 자세한 내용 {#specifics}
 
 문제의 원인을 파악하기 위해 실시간 진단을 실행해야 할 수도 있습니다. 먼저 프로세스 및 플랫폼 로그 파일을 확인한 다음 문제를 다시 만드는 동안 데이터베이스 작업을 모니터링합니다. 다음 사항에 특히 주의하십시오.
 
-* 유지 관리 실행 계획,
-* 실행 중인 SQL 쿼리,
+* 유지 관리 실행 계획
+* 실행 중인 SQL 쿼리
 * 외부 프로세스가 동시에 실행되는지 여부(정리, 가져오기, 집계 계산 등)
-
