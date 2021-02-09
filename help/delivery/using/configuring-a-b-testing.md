@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 1330d4658d039f27a98535bf9885bffbfa0be3c9
+source-git-commit: a341980e9d940857388bb2755e5eaa74824cf6ea
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. [분할](../../workflow/using/split.md) 활동을 추가하여 타깃팅된 모집단을 여러 하위 세트로 나눕니다.
 
-1. 활동을 연 다음 필요에 따라 각 하위 세트를 구성합니다. **[!UICONTROL Split]** 활동을 구성하는 방법에 대한 자세한 내용은 이 섹션을 참조하십시오.
+1. 활동을 연 다음 필요에 따라 각 하위 세트를 구성합니다. **[!UICONTROL Split]** 활동을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../workflow/using/split.md)을 참조하십시오.
 
    이 예에서는 각 대상을 타깃팅된 인구의 10%에게 제공하여 뉴스레터에 대한 2개의 새 주제를 테스트하려고 합니다.
 
