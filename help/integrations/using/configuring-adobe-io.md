@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec03e5bfdacc16ce148b24e200b517d73fae00b3
+source-git-commit: 3b82796182525ffa55b17fe8ac2f84f1bec230cf
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 4%
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 * 유효한 **조직 식별자**:IMS(Identity Management System) 조직 식별자는 Adobe Experience Cloud 내의 고유 식별자로, VisitorID 서비스 및 IMS SSO(Single-Sign On)와 같이 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
 * 조직에 대한 **개발자 액세스**.  IMS 조직에 대한 시스템 관리자 권한을 요청해야 하는 경우 이 페이지](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)에 자세한 [ 절차를 따라 모든 제품 프로필에 대한 이 액세스 권한을 제공합니다.
->
+
 ## 1단계:Adobe I/O 프로젝트 {#creating-adobe-io-project} 만들기/업데이트
 
 1. Adobe I/O에 액세스하여 IMS 조직에 대한 시스템 관리자 권한으로 로그인합니다.
