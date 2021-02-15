@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3348156f020d4c8af7e1d57c46cba99205422696
+source-git-commit: c5c881d6919a8715e6588fb39793f562a16873bb
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 4%
@@ -85,7 +85,7 @@ ht-degree: 4%
 
    ![](assets/do-not-localize/adobe_io_7.png)
 
->[!NOTE]
+>[!CAUTION]
 >
 >Adobe I/O 인증서는 12개월 후에 만료됩니다. 매년 새로운 키 쌍을 만들어야 합니다.
 
