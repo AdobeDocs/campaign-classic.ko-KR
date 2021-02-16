@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 7473a64a7f3865d1e1eefde9607c539c2f632138
+source-git-commit: 55cc09c0446e389029890e45b790bb5ec6ffdc27
 workflow-type: tm+mt
-source-wordcount: '3914'
+source-wordcount: '3947'
 ht-degree: 93%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 93%
 워크플로우를 사용하여 A/B 테스트를 수행하는 방법에 대한 자세한 정보가 포함된 새 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/get-started-a-b-testing.md)
 
 Adobe Campaign 향상된 MTA 섹션이 [여기](../../delivery/using/sending-with-enhanced-mta.md)로 이동했습니다.
+
+[!DNL Campaign Classic]의 추적 기능에 대한 개요를 제공하기 위해 새 페이지가 추가되었습니다. [자세한 내용](../../delivery/using/about-message-tracking.md)
+
+추적과 관련된 일반적인 문제를 해결하는 데 도움이 되는 문제 해결 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/tracking-troubleshooting.md)
 
 **이메일 전송** 섹션이 다시 개편되어 새 하위 섹션으로 명확해졌습니다. [자세한 내용](../../delivery/using/sending-messages.md)
 
