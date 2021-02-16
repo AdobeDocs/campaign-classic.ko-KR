@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 7351912ed34525479401ef4983a0bc8a78de85f8
+source-git-commit: efa36dc08ce4dd59805bb9eba63a4249e14609d7
 workflow-type: tm+mt
-source-wordcount: '2347'
+source-wordcount: '2349'
 ht-degree: 93%
 
 ---
@@ -201,6 +201,7 @@ ht-degree: 93%
       + [URL 추적 개인화](delivery/using/personalizing-url-tracking.md)
       + [추적 로그 액세스](delivery/using/accessing-the-tracking-logs.md)
       + [추적 테스트](delivery/using/testing-tracking.md)
+      + [추적 문제 해결](delivery/using/tracking-troubleshooting.md)
    + 게재 기능 관리 {#deliverability-management}
       + [게재 기능 기본 정보](delivery/using/about-deliverability.md)
       + [확인할 주요 사항](delivery/using/deliverability-key-points.md)
