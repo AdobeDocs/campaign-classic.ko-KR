@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 55cc09c0446e389029890e45b790bb5ec6ffdc27
 workflow-type: tm+mt
 source-wordcount: '3947'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
-릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 노트](../../rn/using/latest-release.md)를 참조하십시오.
+릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
 ## 2021년 2월 {#feb-2021}
 
@@ -35,39 +35,39 @@ Adobe Campaign 향상된 MTA 섹션이 [여기](../../delivery/using/sending-wit
 
 ## 2021년 1월 {#jan-2021}
 
-**[!UICONTROL Fork]** 활동 섹션이 우수 사례를 통해 더욱 풍부해졌습니다. [자세한 내용](../../workflow/using/fork.md)
+**[!UICONTROL Fork]** 활동 섹션이 모범 사례와 함께 보강되었습니다. [자세한 내용](../../workflow/using/fork.md)
 
-**CRM 커넥터** 섹션이 업데이트, 개선 및 재구성되었습니다. [자세한 내용](../../platform/using/crm-connectors.md)
+**CRM 커넥터** 섹션이 업데이트, 개선 및 다시 구성되었습니다. [자세한 내용](../../platform/using/crm-connectors.md).
 
-이제 **Adobe Campaign 및 Microsoft Dynamics**&#x200B;에 연결하는 단계가 전용 페이지에 자세히 설명되어 있습니다. [자세한 내용](../../platform/using/crm-ms-dynamics.md)
+이제 **Adobe Campaign 및 Microsoft Dynamics**&#x200B;에 연결하는 단계가 전용 페이지에 상세히 나와 있습니다. [자세한 내용](../../platform/using/crm-ms-dynamics.md).
 
-이제 oracle On Demand API는 Campaign과 연결된 CRM으로 더 이상 사용되지 않습니다. [자세한 내용](../../rn/using/deprecated-features.md)
+이제 Oracle On Demand API는 Campaign과 연결된 CRM으로 더 이상 사용되지 않습니다. [자세한 내용](../../rn/using/deprecated-features.md).
 
-Adobe Campaign [여기](../../production/using/locate-tomcat-version.md)의 인스턴스에 사용된 포함된 Tomcat 웹 서블릿의 현재 버전을 확인하는 방법을 알아봅니다.
+[여기](../../production/using/locate-tomcat-version.md)에서 Adobe Campaign 인스턴스에 사용된 Embedded Tomcat 웹 서블릿의 현재 버전을 확인하는 방법을 알아봅니다.
 
-관련 패키지와 함께 제공되는 기술 워크플로우 목록이 향상되었으며 단일 페이지로 중앙 집중화되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
+관련 패키지가 포함된 기술 워크플로우 목록이 하나의 단일 페이지로 향상되고 중앙 집중화되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
 
-**모니터링** 안내서의 문제 해결 섹션이 랜딩 페이지로 재구성되고 향상되었습니다. [자세한 내용](../../production/using/troubleshooting.md)
+**모니터링** 안내서의 문제 해결 섹션이 랜딩 페이지로 다시 구성되고 향상되었습니다. [자세한 내용](../../production/using/troubleshooting.md).
 
-새 **데이터 가져오기 및 내보내기** 섹션은 워크플로, 데이터 압축, 암호화 및 가져오기 우수 사례와 관련된 새 페이지에서 사용할 수 있습니다. [자세한 내용](../../platform/using/get-started-data-import-export.md)
+**데이터 가져오기 및 내보내기** 새 섹션은 워크플로우, 데이터 압축, 암호화 및 가져오기 모범 사례와 관련된 새 페이지에서 사용할 수 있습니다. [자세한 내용](../../platform/using/get-started-data-import-export.md)
 
 ## 2020년 12월 {#dec-2020}
 
-**배달 모니터링** 섹션이 테마 항목으로 재구성되었습니다. [자세한 내용](../../delivery/using/about-delivery-monitoring.md)
+**게재 모니터링** 섹션이 주제별로 다시 구성되었습니다. [자세한 내용](../../delivery/using/about-delivery-monitoring.md)
 
 게재 로그에 보낸 사람의 IP 주소를 추가하는 방법에 사용 사례가 추가되었습니다. [자세한 내용](../../delivery/using/delivery-dashboard.md#use-case)
 
 개인 정보 보호 FAQ가 [이 섹션](../../platform/using/privacy-faq.md)으로 이동했습니다.
 
-**[!UICONTROL Deduplication]** 활동의 병합 기능을 사용하는 방법에 사용 사례가 추가되었습니다. [자세한 내용](../../workflow/using/deduplication-merge.md)
+**[!UICONTROL Deduplication]**&#x200B;작업의 병합 기능을 사용하는 방법에 대한 사용 사례가 추가되었습니다. [자세한 내용](../../workflow/using/deduplication-merge.md)
 
-이제 SMS 커넥터 프로토콜 및 설정 페이지에 대한 전체 설명을[여기](../../delivery/using/sms-protocol.md)에서 사용할 수 있습니다.
+이제 SMS 커넥터 프로토콜 및 설정 페이지에 대한 자세한 설명은 [여기](../../delivery/using/sms-protocol.md)에서 볼 수 있습니다.
 
-액세스 권한 문제를 방지하기 위해 이벤트 폴더를 실행 인스턴스에서 보기 횟수로 설정하지 말아야 함을 경고하기 위해 **트랜잭션 메시지** 섹션에 메모가 추가되었습니다. [자세한 내용](../../message-center/using/event-collection.md)
+액세스 권한 문제를 방지하기 위해 이벤트 폴더를 실행 인스턴스의 보기로 설정하지 말아야 한다는 경고를 하기 위해 **트랜잭션 메시지** 섹션에 메모가 추가되었습니다. [자세한 내용](../../message-center/using/event-collection.md)
 
 ## 2020년 11월 {#nov-2020}
 
-Campaign 데이터 모델 개요가 개선되고 재구성되었습니다. [자세한 내용](../../configuration/using/about-data-model.md)
+Campaign 데이터 모델 개요가 개선되고 재구성되었습니다. [자세한 내용](../../configuration/using/about-data-model.md).
 
 외부 계정 구성이 [이 섹션](../../installation/using/external-accounts.md)으로 이동되었습니다.
 
@@ -100,7 +100,7 @@ Android용 푸시 알림 개선 - [자세한 내용](../../delivery/using/config
 사용되지 않거나 제거된 기능 페이지가 업데이트되었습니다. [자세한 내용](../../rn/using/deprecated-features.md)
 
 Gold Standard 릴리스의 릴리스 노트 및 호환성 매트릭스는 이제 전용 섹션에서 사용할 수 있습니다.
-[자세한 내용](../../rn/using/gold-standard.md#gs-10)
+[자세한 내용](../../rn/using/gold-standard.md#gs-10).
 
 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합이 변경되었으며 Adobe I/O로 이동되었습니다. [자세히 알아보기](../../integrations/using/configuring-adobe-io.md)
 
@@ -319,7 +319,7 @@ URL 보고서 구성에 대한 새 매개 변수가 [여기](../../reporting/usi
 
 새 **[!UICONTROL Cleanup of Nmsaddress]** 워크플로우는 [여기에](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress) 설명되어 있습니다.
 
-워크플로우에서 쿼리 활동을 사용할 때 제한이 추가되었습니다. [자세한 내용](../../workflow/using/query.md)
+워크플로우에서 쿼리 활동을 사용할 때 제한이 추가되었습니다. [자세한 내용](../../workflow/using/query.md).
 
 소프트 오류가 발생하는 경우 격리할 주소를 보내기 위해 향상된 전자 메일 주소 유효성 검사 규칙을 자세히 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
@@ -375,11 +375,11 @@ Adobe Campaign Enhanced MTA 설명서를 사용할 수 있습니다. [자세한 
 
 게재 속성의 새로운 **최대 개인화 실행 시간** 옵션이 이 [섹션](../../delivery/using/personalization-fields.md#timing-out-personalization)에 설명되어 있습니다.
 
-logon() 및 query()와 함께 **HttpServletRequest**&#x200B;를 사용하는 API 호출에 대한 예가 업데이트되었습니다. [자세한 내용](../../configuration/using/web-service-calls.md)
+logon() 및 query()와 함께 **HttpServletRequest**&#x200B;를 사용하는 API 호출에 대한 예가 업데이트되었습니다. [자세한 내용](../../configuration/using/web-service-calls.md).
 
  스키마 정의에 **sqlDefault** 특성에 대한 권장 사항이 추가되었습니다. [자세한 내용](../../configuration/using/schema/attribute.md)).
 
-Adobe Campaign과 Adobe 실시간 고객 데이터 Platform 간의 통합이 이제 **Adobe Experience Cloud와 통합** 가이드에서 참조됩니다. [자세한 내용](../../integrations/using/about-campaign-integrations.md)
+Adobe Campaign과 Adobe 실시간 고객 데이터 Platform 간의 통합이 이제 **Adobe Experience Cloud와 통합** 가이드에서 참조됩니다. [자세한 내용](../../integrations/using/about-campaign-integrations.md).
 
 ## 2019년 11월 {#november-2019}
 
@@ -401,7 +401,7 @@ Campaign Standard 및 Campaign Classic에 대한 오류 메시지 목록이 업�
 
 GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCPA를 포함한 개인 정보 관리 문서입니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)
 
-Campaign Classic에서 추적을 위해 새로운 문제 해결 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/classic-tracking-troubleshooting.html)
+Campaign Classic에서 추적을 위해 새로운 문제 해결 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/classic-tracking-troubleshooting.html).
 
 Adobe Analytics 데이터 커넥터에 대한 새 모범 사례 사례 페이지가 추가되었습니다. [Adobe Analytics 데이터 커넥터에 대한 자세한 내용](../../platform/using/adobe-analytics-data-connector.md)
 
@@ -417,9 +417,9 @@ Adobe Analytics 데이터 커넥터에 대한 새 모범 사례 사례 페이지
 
 Campaign Classic 유지 관리를 위한 일반적인 지침을 제공하기 위해 새 페이지가 추가되었습니다. [자세한 내용](../../production/using/monitoring-guidelines.md)
 
-워크플로우 모니터링과 관련된 정보는 새로운 전용 섹션에 중앙 집중화되었습니다. [자세한 내용](../../workflow/using/monitoring-workflow-execution.md)
+워크플로우 모니터링과 관련된 정보는 새로운 전용 섹션에 중앙 집중화되었습니다. [자세한 내용](../../workflow/using/monitoring-workflow-execution.md).
 
-Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html)
+Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html).
 
 워크플로우 및 게재 성능 향상에 대한 모범 사례가 업데이트되었습니다. [워크플로우에 자세한 내용](../../workflow/using/workflow-best-practices.md) 및 [게재에 대한 자세한 내용](../../delivery/using/delivery-performances.md#best-practices-performance)을 살펴볼 수 있습니다.
 
