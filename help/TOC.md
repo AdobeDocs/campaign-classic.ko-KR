@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: efa36dc08ce4dd59805bb9eba63a4249e14609d7
 workflow-type: tm+mt
 source-wordcount: '2349'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -68,10 +68,10 @@ ht-degree: 93%
       + [프로필 내보내기 및 가져오기](platform/using/exporting-and-importing-profiles.md)
       + [목록 만들기 및 관리](platform/using/creating-and-managing-lists.md)
    + 데이터 가져오기 및 내보내기 {#importing-and-exporting-data}
-      + [데이터 가져오기 및 내보내기 시작하기](platform/using/get-started-data-import-export.md)
+      + [데이터 가져오기 및 내보내기 시작](platform/using/get-started-data-import-export.md)
       + [워크플로우를 사용하여 데이터 가져오기 및 내보내기](platform/using/import-export-workflows.md)
       + 일반 가져오기 및 내보내기 작업{#generic-imports-exports}
-         + [일반 가져오기 및 내보내기 시작하기](platform/using/about-generic-imports-exports.md)
+         + [일반 가져오기 및 내보내기 시작](platform/using/about-generic-imports-exports.md)
          + [가져오기 및 내보내기 템플릿 만들기](platform/using/creating-import-export-templates.md)
          + [가져오기 및 내보내기 작업 만들기](platform/using/creating-import-export-jobs.md)
          + [가져오기 작업 구성](platform/using/executing-import-jobs.md)
@@ -79,11 +79,11 @@ ht-degree: 93%
          + [작업 실행 모니터링](platform/using/monitoring-jobs-execution.md)
          + [일반 가져오기 샘플](platform/using/import-operations-samples.md)
       + 데이터 암호화 및 압축 관리 {#managing-data-encryption-compression}
-         + [처리하기 전에 파일 압축 해제 또는 해독](platform/using/unzip-decrypt.md)
+         + [처리 전 파일 압축 해제 또는 암호 해독](platform/using/unzip-decrypt.md)
          + [처리 전 파일 압축 또는 암호화](platform/using/zip-encrypt.md)
-      + 우수 사례 및 문제 해결 {#best-practices}
+      + 모범 사례 및 문제 해결{#best-practices}
          + [가져오기 및 내보내기 모범 사례](platform/using/import-export-best-practices.md)
-         + [SFTP 서버 우수 사례 및 문제 해결](platform/using/sftp-server-usage.md)
+         + [SFTP 서버 모범 사례 및 문제 해결](platform/using/sftp-server-usage.md)
    + 데이터 필터링 {#filtering-data}
       + [필터링 옵션](platform/using/filtering-options.md)
       + [필터 만들기](platform/using/creating-filters.md)
@@ -99,7 +99,7 @@ ht-degree: 93%
    + 커넥터 {#connectors}
       + [커넥터 정보](platform/using/about-connectors.md)
       + CRM 커넥터{#crm-connectors}
-         + [CRM 커넥터 시작하기](platform/using/crm-connectors.md)
+         + [CRM 커넥터 시작](platform/using/crm-connectors.md)
          + [Microsoft Dynamics 365와 연결](platform/using/crm-ms-dynamics.md)
          + [데이터를 CRM과 동기화](platform/using/crm-data-sync.md)
       + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector.md)
