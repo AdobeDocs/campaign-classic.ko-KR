@@ -6,11 +6,11 @@ description: 최신 Campaign Classic 릴리스 정보
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1977'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ _2020년 10월 27일_
 
 >[!CAUTION]
 >
-> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 3월 31일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다&#x200B;**.**
-> * 이 릴리스는 [보안 수정](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)과 함께 제공됩니다.환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 이 페이지](../../integrations/using/configuring-adobe-io.md)에서 설명한 대로 Adobe I/O으로 이동해야 합니다. [ 이전 Auth 인증 모드는 **2021년 4월 30일에 종료됩니다**.
+> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. IMS(Adobe ID Service)를 통해 Campaign에 연결할 경우, **2021년 3월 31일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다.
+> * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지](../../integrations/using/configuring-adobe-io.md)에 설명한 대로 Adobe I/O로 이동해야 합니다. 레거시 oAuth 인증 모드는 **2021년 4월 30일**&#x200B;에 종료됩니다.
 
 
 **새로운 기능**
