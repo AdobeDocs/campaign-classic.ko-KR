@@ -133,7 +133,7 @@ Neobank 사이트는 해당 페이지를 탐색하는 익명의 방문자를 겨
 
 방금 구성한 오퍼를 웹 사이트에 표시하려면 상호 작용 엔진을 호출하기 위해 사이트의 HTML 페이지에 JavaScript 코드를 삽입하십시오(여기에 대한 자세한 내용은 [인바운드 채널 정보](../../interaction/using/about-inbound-channels.md) 참조).
 
-1. HTML 페이지로 이동하여 이전에 만든 익명 오퍼 공간의 내부 이름과 일치하는 값을 포함하는 @id 속성을 삽입합니다(](#creating-anonymous-offer-spaces)i_[). 앞에 &lt;a2/>i_**이 있습니다. 참조)**
+1. HTML 페이지로 이동하여 이전에 만든 익명 오퍼 공간의 내부 이름과 일치하는 값을 포함하는 @id 속성을 삽입합니다(**i_](#creating-anonymous-offer-spaces)). 앞에 [i_**&#x200B;이 있습니다. 참조)
 
    ![](assets/offer_inbound_anonymous_example_019.png)
 
@@ -365,7 +365,7 @@ Neobank 회사는 두 개의 다른 대상에 대한 마케팅 오퍼를 만들�
 
 ### 웹 페이지 {#configuring-offer-spaces-on-the-web-page}에서 오퍼 공간 구성
 
-Neobank 회사의 웹 사이트에는 다음과 같은 오퍼를 위한 3개의 공간이 있습니다.**최고 오퍼** 범주의 은행 관련 오퍼에 대해 두 개, **파트너** 범주의 오퍼에 대해 한 개.
+Neobank 회사의 웹 사이트에는 다음과 같은 오퍼를 위한 3개의 공간이 있습니다.**Best Offer** 범주의 은행 관련 오퍼에 대해 두 개, **파트너** 범주의 오퍼에 대해 한 개.
 
 ![](assets/offer_inbound_fallback_example_038.png)
 
@@ -393,7 +393,7 @@ Neobank 회사의 웹 사이트에는 다음과 같은 오퍼를 위한 3개의 
 
    ![](assets/offer_inbound_fallback_example_043.png)
 
-   개인 ID는 브라우저 쿠키, URL의 읽기 매개 변수, 이메일 또는 개인 식별자에 기초할 수 있습니다. 기본 키가 아닌 수신자 테이블의 필드를 사용하는 경우 공간의 고급 매개 변수에 정의해야 합니다(식별된 오퍼 공간의 고급 설정 지정[ 참조).](#specifying-the-advanced-settings-of-the-identified-offer-spaces)
+   개인 ID는 브라우저 쿠키, URL의 읽기 매개 변수, 이메일 또는 개인 식별자에 기초할 수 있습니다. 기본 키가 아닌 수신자 테이블의 필드를 사용하는 경우 공간의 고급 매개 변수에 정의해야 합니다(식별된 오퍼 공간의 고급 설정 지정](#specifying-the-advanced-settings-of-the-identified-offer-spaces) 참조).[
 
 1. 호출 URL을 삽입합니다.
 
@@ -403,6 +403,6 @@ Neobank 회사의 웹 사이트에는 다음과 같은 오퍼를 위한 3개의 
 
 웹 페이지를 열 때;스크립트를 사용하면 상호 작용 엔진을 호출하여 웹 페이지의 관련 공간에 오퍼 컨텐츠를 표시할 수 있습니다. Adobe Campaign 서버에 대한 단일 호출에서 엔진은 선택할 환경, 오퍼 공간 및 카테고리를 결정합니다.
 
-이 예에서 엔진은 식별된 환경(**EnvNeobankIdnRecipe**)을 인식합니다. 웹 페이지의 첫 번째 및 두 번째 오퍼 공간과 (**OSWebBestOfferIdentified**) 및 **Best Offer** 카테고리(**CatBestOffer**)에 대한 오퍼 공간(&lt;a6/>OSWebWeb 사이트의 세 번째 오퍼 공간에 대한 partnerIdentified **) 오퍼 공간과**&#x200B;파트너&#x200B;**카테고리(** CatPartner **).**
+이 예에서 엔진은 식별된 환경(**EnvNeobankIdnRecipe**)을 인식합니다. 웹 페이지의 첫 번째 및 두 번째 오퍼 공간과 (**OSWebBestOfferIdentified**) 및 **Best Offer** 카테고리(**CatBestOffer**)에 대한 오퍼 공간(**OSWebWeb 사이트의 세 번째 오퍼 공간에 대한 partnerIdentified**) 오퍼 공간과 **파트너** 카테고리(**CatPartner**).
 
 엔진에서 수신자를 식별할 수 없는 경우 식별된 오퍼 공간에서 참조되는 익명 오퍼 공간과 스크립트에서 지정한 대로 익명 카테고리(**CatPartner** 및 **CatPartnerAnunknown**)로 전환합니다.
