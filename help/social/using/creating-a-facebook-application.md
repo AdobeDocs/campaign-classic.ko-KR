@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Facebook 애플리케이션 만들기{#creating-a-facebook-application}
 
-웹 애플리케이션 덕분에 소셜 마케팅을 사용하면 Facebook 애플리케이션에 개인화된 컨텐츠를 표시할 수 있으므로 이 소셜 네트워크를 통해 잠재 고객을 더 쉽게 확보할 수 있습니다. Facebook 유형 웹 애플리케이션의 더 많은 예를 보려면 [Facebook 앱 예](../../social/using/examples-of-facebook-apps.md)를 참조하십시오.
+웹 애플리케이션 덕분에 소셜 마케팅을 사용하면 Facebook 애플리케이션에 개인화된 컨텐츠를 표시할 수 있으므로 이 소셜 네트워크를 통해 잠재 고객을 더 쉽게 확보할 수 있습니다. Facebook 형식 웹 응용 프로그램의 추가 예는 [Facebook 응용 프로그램 예](../../social/using/examples-of-facebook-apps.md)를 참조하십시오.
 
 >[!NOTE]
 >
