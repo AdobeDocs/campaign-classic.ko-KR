@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0f2986f88f72c191262248029ec620fad538c218
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 11%
 
 이 섹션에는 전달 및 워크플로우 실행, 모니터링, 데이터베이스 유지 관리, 연결 등과 같은 Adobe Campaign 일반 프로덕션 문제와 관련된 문제 해결 절차가 포함되어 있습니다.
 
-## 일반적인 및 일반 문제 {#common-and-general-issues}
+## 공통 및 일반적인 문제 {#common-and-general-issues}
 
 * 이 [page](../../production/using/modules-and-frequent-issues.md)에서는 나열된 모듈에 대해 발생하는 가장 빈번한 문제를 보여줍니다.
 * 이 [페이지](../../production/using/workflow-execution.md)에는 워크플로우 실행 시 문제가 발생할 때 따라야 하는 일반적인 문제 해결 절차가 나열됩니다.
@@ -38,7 +38,7 @@ ht-degree: 11%
 
 [전달 성능 문제](../../delivery/using/delivery-performances.md)
 
-## 로그 작업 중 {#working-with-logs}
+## 로그 작업 {#working-with-logs}
 
 로그 사용 경험을 향상시키는 데 도움이 되는 몇 가지 팁은 다음과 같습니다.
 
