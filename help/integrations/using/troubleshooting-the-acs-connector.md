@@ -102,7 +102,7 @@ ht-degree: 0%
 
    연결을 테스트하여 Campaign Standard 및 Campaign v7의 외부 계정 구성을 확인합니다.
 
-   * **[!UICONTROL acsDefaultRelayAccount]** campaign standard에서.
+   * **[!UICONTROL acsDefaultRelayAccount]** Campaign Standard에서.
    * **[!UICONTROL acsDefaultAccount]** 캠페인 v7에서)을 클릭합니다.
 
 * **Campaign v7과 Campaign Standard 간에 폴더를 매핑할 때 사용할 수 있는 보안 그룹이 없습니다.**
