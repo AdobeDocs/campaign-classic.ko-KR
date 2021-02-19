@@ -46,7 +46,7 @@ nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 * **mssql**:Microsoft SQL Server용,
 * **DB2**:DB2 엔진에서 사용할 수 있습니다.
 
-다음 명령은 **dbsrv** 서버의 **campaign** 계정 및 해당 **password**&#x200B;에 연결된 **demo** SQL 유형 서버(**base6**)로 &lt;a1/> 데모 인스턴스를 구성합니다.
+다음 명령은 **dbsrv** 서버의 **campaign** 계정 및 해당 **password**&#x200B;에 연결된 **demo** SQL 유형 서버(**base6**)로  데모 인스턴스를 구성합니다.
 
 ```
  nlserver config -setdblogin:db:campaign:myBase/password@dbServer -instance:demo
