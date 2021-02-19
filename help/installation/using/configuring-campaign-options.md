@@ -200,7 +200,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
-   <td> 배달이 'delayed'로 간주되는 사용자 지정 지연(분)은 기본값인 30분입니다.<br /> </td> 
+   <td> 배달이 'delayed'로 간주되는 사용자 지정 지연(분)이 30분입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
@@ -260,7 +260,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Restrict_EditXML</span> </td> 
-   <td> 배달 XML 코드 버전을 사용하지 않도록 설정하려면 "0" 값으로 이 옵션을 추가합니다(XML 소스 편집<span class="uicontrol"> 또는 </span>CTRL + F4<span class="uicontrol"> 단축키).</span><br /> </td> 
+   <td> 배달 XML 코드 버전을 사용하지 않도록 설정하려면 "0" 값으로 이 옵션을 추가합니다(XML 소스 편집</span> 또는 <span class="uicontrol">CTRL + F4</span> 단축키).<br /><span class="uicontrol"> </span></td> 
   </tr>  
  </tbody> 
 </table>
