@@ -32,5 +32,5 @@ ht-degree: 2%
 * **SQL 데이터 관리**:고유한 SQL 쿼리를 작성하여 작업 테이블을 만들고 채울 수 있습니다. [SQL 데이터 관리](../../workflow/using/sql-data-management.md)를 참조하십시오.
 * **nlserver 모듈**:인수를 사용하여 nlserver 모듈을 시작합니다. [Nlserver 모듈](../../workflow/using/nlserver-module.md)을 참조하십시오.
 * **가져오기 및 내보내기(v4 호환)**:가져오기 및 내보내기 활동(v4 호환성)을 사용하면 활동에 지정된 템플릿(가져오기 또는 내보내기)을 사용하여 데이터를 가져오고 내보낼 수 있습니다.
-* **Microsoft CRM, Salesforce, Oracle CRM On Demand**:adobe campaign을 미리 구성된 CRM 중 하나에 연결할 수 있습니다. 이러한 활동은 보다 구체적인 옵션이 있는 [이 섹션](../../workflow/using/crm-connector.md)에 제시된 CRM 커넥터와 유사합니다. 특히, 동기화를 위해 실행할 캠페인 유형을 선택할 수 있습니다.
+* **Microsoft CRM, Salesforce, Oracle CRM On Demand**:Adobe Campaign을 미리 구성된 CRM 중 하나에 연결할 수 있습니다. 이러한 활동은 보다 구체적인 옵션이 있는 [이 섹션](../../workflow/using/crm-connector.md)에 제시된 CRM 커넥터와 유사합니다. 특히, 동기화를 위해 실행할 캠페인 유형을 선택할 수 있습니다.
 * **업데이트 집계**:업데이트 모드(전체 또는 일부)를 선택할 수 있습니다. [업데이트 집계](../../workflow/using/update-aggregate.md)을 참조하십시오.
