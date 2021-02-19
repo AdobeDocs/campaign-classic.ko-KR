@@ -97,8 +97,8 @@ Adobe Campaign은 저장된 데이터에 대한 개인 정보 요청을 만들�
 
 개인 정보 기술 워크플로우는 매일 한 번 실행되며 각각의 새로운 요청을 처리합니다.
 
-* 요청 삭제:adobe campaign에 저장된 수신자 데이터가 지워집니다.
-* 액세스 요청:adobe campaign에 저장된 수신자의 데이터가 생성되고 요청 화면의 왼쪽에 XML 파일로 사용할 수 있습니다.
+* 요청 삭제:Adobe Campaign에 저장된 수신자 데이터가 지워집니다.
+* 액세스 요청:Adobe Campaign에 저장된 수신자의 데이터가 생성되고 요청 화면의 왼쪽에 XML 파일로 사용할 수 있습니다.
 
 ![](assets/privacy-request-download.png)
 
@@ -269,7 +269,7 @@ API를 사용하여 개인 정보 요청을 제출하는 경우 반환된 데이
 
 1. 이 URL에서 WSDL을 다운로드합니다.**`<server url>`/nl/jsp/schemawsdl.jsp?schema=nms:privacyRequest**
 
-1. **[!UICONTROL CreateRequestByName]**&#x200B;을(를) 사용하여 특정 개인 정보 보호 요청을 만듭니다.
+1. **[!UICONTROL CreateRequestByName]**&#x200B;을(를) 사용하여 특정 개인 정보 요청을 만듭니다.
 
    다음은 **[!UICONTROL CreateRequestByName]**&#x200B;을 사용하는 예입니다. 위에서 제공한 세션 토큰을 인증으로 사용하는 방법을 참고하십시오. 응답은 만든 요청의 ID입니다.
 
