@@ -21,11 +21,11 @@ ht-degree: 8%
 
 직관적인 단계별 가이드를 통해 Adobe Campaign을 사용해 보십시오.
 
-* [Adobe Experience Manager을 사용하여 이메일 컨텐츠 편집](https://helpx.adobe.com/campaign/kb/acc-aem.html):adobe campaign과 Experience Manager 간의 통합을 시작하는 기본 사항에 대해 알아봅니다.
+* [Adobe Experience Manager을 사용하여 이메일 컨텐츠 편집](https://helpx.adobe.com/campaign/kb/acc-aem.html):Adobe Campaign과 Experience Manager 간의 통합을 시작하는 기본 사항에 대해 알아봅니다.
 * [개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html):Adobe 서비스를 사용할 때 Adobe Campaign Classic이 제공하는 개인정보 보호 규정 준수에 대해 알아봅니다.
-* [이메일에 동적 컨텐츠 통합](https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html):campaign classic과 Target Standard 간의 통합을 시작하기 위한 기본 사항을 알아봅니다.
+* [이메일에 동적 컨텐츠 통합](https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html):Campaign Classic과 Target Standard 간의 통합을 시작하기 위한 기본 사항을 알아봅니다.
 * [전달 능력](../../delivery/using/deliverability-key-points.md) 관리:배달 능력과 관련된 개념과 모범 사례뿐만 아니라 Adobe Campaign Classic에서 배달 전송을 최적화하기 위해 제공하는 도구에 대해 알아봅니다.
-* [전달 우수 사례](../../delivery/using/delivery-best-practices.md):adobe campaign classic을 통한 전달 디자인 및 전송과 관련된 모범 사례에 대해 알아보십시오.
+* [전달 우수 사례](../../delivery/using/delivery-best-practices.md):Adobe Campaign Classic을 통한 전달 디자인 및 전송과 관련된 모범 사례에 대해 알아보십시오.
 * [빌드 업그레이드](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html) 수행:이 안내서에서는 Campaign Classic으로 빌드 업그레이드를 수행하는 데 필요한 주요 단계 및 우수 사례를 설명합니다.
 * [보안 구성 검사 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html):사내 배포의 보안 구성 및 보안 강화를 확인하는 데 중요한 요소를 검색합니다.
 
