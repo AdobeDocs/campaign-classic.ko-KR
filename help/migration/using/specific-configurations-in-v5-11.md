@@ -72,7 +72,7 @@ mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
 
 1. 마이그레이션을 시작하기 전에 데이터베이스를 백업합니다.
 1. SQL 변경 내용을 삭제합니다.
-1. Adobe Campaign 7[로의 마이그레이션 사전 요구 사항 섹션에 설명된 절차에 따라 업그레이드 후 작업을 수행합니다.](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
+1. Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)로의 마이그레이션 사전 요구 사항 섹션에 설명된 절차에 따라 업그레이드 후 작업을 수행합니다.[
    >[!NOTE]
    >
    >[Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) 으로의 마이그레이션을 위한 사전 요구 사항 섹션에 설명된 마이그레이션 단계를 수행해야 합니다.
