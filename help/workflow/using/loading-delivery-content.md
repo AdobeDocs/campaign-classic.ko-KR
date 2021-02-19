@@ -56,4 +56,4 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->SFTP 서버 사용에 대한 우수 사례 및 문제 해결은 이 페이지[에 자세히 설명되어 있습니다.](../../platform/using/sftp-server-usage.md)
+>SFTP 서버 사용에 대한 우수 사례 및 문제 해결은 이 페이지](../../platform/using/sftp-server-usage.md)에 자세히 설명되어 있습니다.[
