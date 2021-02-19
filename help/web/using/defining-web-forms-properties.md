@@ -101,7 +101,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->양식이 닫혀 있고, 따라서 유효 기간이 달성되지 않았거나 만료되었거나, Adobe Campaign 연산자에 의해 닫혀 있는 경우, 사용자가 양식에 액세스하려고 하면 메시지가 표시됩니다. **[!UICONTROL Personalize the message displayed if the form is closed...]**&#x200B;을 클릭하여 이 메시지를 개인화할 수 있습니다.
+>양식이 닫혀 있고, 따라서 유효 기간에 도달하지 않았거나 만료되었거나, Adobe Campaign 연산자에 의해 닫혀 있는 경우, 사용자가 양식에 액세스하려고 하면 메시지가 표시됩니다. **[!UICONTROL Personalize the message displayed if the form is closed...]**&#x200B;을 클릭하여 이 메시지를 개인화할 수 있습니다.
 
 ## 양식 액세스 제어 {#form-access-control}
 
