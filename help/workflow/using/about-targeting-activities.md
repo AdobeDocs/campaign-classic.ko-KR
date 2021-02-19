@@ -38,5 +38,5 @@ ht-degree: 4%
 * **구독 서비스**:정보 서비스에 대한 대상 구독 및 구독 취소를 관리할 수 있습니다. [구독 서비스](../../workflow/using/subscription-services.md) 섹션을 참조하십시오.
 * **목록 업데이트**:목록에 인바운드 활동의 결과를 기록합니다. [목록 업데이트](../../workflow/using/list-update.md) 섹션을 참조하십시오.
 * **데이터 업데이트**:데이터베이스의 데이터를 대량 업데이트할 수 있습니다. [데이터 업데이트](../../workflow/using/update-data.md) 섹션을 참조하십시오.
-* **CRM 커넥터**:adobe campaign과 CRM 간의 동기화를 구성할 수 있습니다. [CRM 커넥터](../../workflow/using/crm-connector.md) 섹션을 참조하십시오.
+* **CRM 커넥터**:Adobe Campaign과 CRM 간의 동기화를 구성할 수 있습니다. [CRM 커넥터](../../workflow/using/crm-connector.md) 섹션을 참조하십시오.
 
