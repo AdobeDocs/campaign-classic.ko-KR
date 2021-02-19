@@ -545,7 +545,7 @@ DELETE FROM NmsMxDomain WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailE
 
 ### 제안 정리 {#cleanup-of-propositions}
 
-**Interaction** 모듈이 설치되어 있는 경우 이 작업은 **NmsProgendationXxx** 테이블을 삭제하기 위해 실행됩니다.
+**Interaction** 모듈이 설치되어 있는 경우 이 작업을 실행하여 **NmsProvisionXxx** 테이블을 제거합니다.
 
 제안 테이블 목록은 복구되고 다음 쿼리를 사용하여 각 항목에 대해 일괄 삭제가 수행됩니다.
 
