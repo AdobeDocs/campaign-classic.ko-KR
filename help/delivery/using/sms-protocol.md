@@ -44,7 +44,7 @@ SMPP 제공업체는 경우에 따라 공식 규격에서 벗어날 수 있지�
 
 SMS를 통해 대량 SMS를 보낼 때 세 가지의 서로 다른 SMS가 있다.
 
-* **SMS MT(모바일 종료됨)**:adobe campaign이 SMPP 공급자를 통해 휴대폰에 전송하는 SMS.
+* **SMS MT(모바일 종료됨)**:Adobe Campaign이 SMPP 공급자를 통해 휴대폰에 전송하는 SMS.
 
 * **SMS MO(모바일 출처)**:모바일이 SMPP 제공업체를 통해 Adobe Campaign으로 전송하는 SMS.
 
