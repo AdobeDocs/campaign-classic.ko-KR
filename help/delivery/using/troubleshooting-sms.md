@@ -67,7 +67,7 @@ Adobe Campaign은 동일한 외부 계정에서 여러 개의 짧은 코드 처�
    ```
 
 * 시스템이 업그레이드되었는지 여부와 시기를 조사합니다(/postupgrade 디렉토리).
-* SMS에 영향을 주는 모든 패키지가 최근에 업그레이드되었는지 확인합니다(/var/log/dpkg.log).
+* SMS에 영향을 주는 패키지가 최근에 업그레이드되었는지 확인합니다(/var/log/dpkg.log).
 
 ## 중간 소싱(호스트){#issue-mid-sourcing} 문제
 
@@ -97,7 +97,7 @@ Adobe Campaign은 동일한 외부 계정에서 여러 개의 짧은 코드 처�
 
 * 공급자가 `UNBIND PDU`s를 보냅니다.
 
-* `enquire_link` adobe campaign 쪽이나 공급자 측에서 시간이 초과됩니다. 이 경우 0이 아닌 오류 코드와 함께 `ENQUIRE_LINK_RESP`이 표시될 수 있습니다.
+* `enquire_link` Adobe Campaign 쪽이나 공급자 측에서 시간이 초과됩니다. 이 경우 0이 아닌 오류 코드와 함께 `ENQUIRE_LINK_RESP`이 표시될 수 있습니다.
 
 * `BIND PDU`s가 많습니다.연결 수에 따라 하루에 몇 개 이상 있을 수 없습니다. BIND PDU를 1시간 이상 경고해야 합니다.
 
