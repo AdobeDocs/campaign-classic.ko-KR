@@ -149,7 +149,7 @@ Adobe Campaign이 페이지 담벼락에 게시할 수 있으려면 Facebook 애
 
 **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** 노드를 통해 액세스하는 **[!UICONTROL Synchronization of Facebook pages]** 작업 과정에서는 이전에 구성한 Facebook 계정의 페이지를 Adobe Campaign에서 동기화할 수 있습니다. 기본적으로 이 워크플로우는 하루에 한 번 또는 관리자가 서비스 구성 화면에서 **[!UICONTROL Request an authorization from the application]** 링크를 클릭할 때마다 실행되도록 구성됩니다([Adobe Campaign](#delegating-write-access-to-adobe-campaign)에 대한 쓰기 액세스 위임 참조).
 
-동기화가 완료되면 수집된 페이지가 외부 계정에 입력된 서비스 폴더에 나타납니다(Adobe Campaign[에 대한 쓰기 액세스 위임 참조). ](#delegating-write-access-to-adobe-campaign) 기본적으로 **[!UICONTROL Profiles and Targets > Services and subscriptions]** 메뉴를 통해 사용할 수 있는 **[!UICONTROL Facebook]** 서비스 폴더의 루트에 페이지가 추가됩니다.
+동기화가 완료되면 수집된 페이지가 외부 계정에 입력된 서비스 폴더에 나타납니다(Adobe Campaign](#delegating-write-access-to-adobe-campaign)에 대한 쓰기 액세스 위임 참조). [ 기본적으로 **[!UICONTROL Profiles and Targets > Services and subscriptions]** 메뉴를 통해 사용할 수 있는 **[!UICONTROL Facebook]** 서비스 폴더의 루트에 페이지가 추가됩니다.
 
 ![](assets/social_facebook_service_002.png)
 
