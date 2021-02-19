@@ -34,7 +34,7 @@ Twitter 계정을 만들려면 [https://twitter.com](https://twitter.com)로 이
 
 ## Twitter {#creating-a-test-account-on-twitter}에서 테스트 계정 만들기
 
-또한 트윗 교정본을 보내는 데 사용할 수 있는 비공개 Twitter 계정을 만드는 것이 좋습니다(자세한 내용은 [증명 보내기](../../social/using/publishing-on-twitter.md#sending-the-proof) 참조).
+트윗 교정을 보내는 데 사용할 수 있는 비공개 Twitter 계정을 만드는 것도 좋습니다(이 문제에 대한 자세한 내용은 [증명 보내기](../../social/using/publishing-on-twitter.md#sending-the-proof) 참조).
 
 * 새 Twitter 계정을 만듭니다.
 * 오른쪽 상단 모서리의 메뉴를 클릭하고 **[!UICONTROL Settings]**&#x200B;을 선택합니다.
