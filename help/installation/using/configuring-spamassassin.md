@@ -130,7 +130,7 @@ Adobe Campaign와의 통합을 활성화하기 위해 Windows에 SpamCharacter�
    sa-update --no-gpg
    ```
 
-   필터링 및 점수 지정 규칙의 자동 업데이트를 실행하려면 예약된 시스템 작업에서 이 명령을 사용합니다.
+   필터링 및 점수 지정 규칙의 자동 업데이트를 실행하려면 예약된 시스템 작업에서 이 동일한 명령을 사용합니다.
 
    ```
    sa-update --no-gpg
