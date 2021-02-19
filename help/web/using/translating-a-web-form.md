@@ -19,7 +19,7 @@ ht-degree: 1%
 
 웹 애플리케이션을 여러 언어로 현지화할 수 있습니다.
 
-Adobe Campaign 콘솔에서 직접 번역 수행(편집기[에서 번역 관리 참조)하거나, 문자열을 내보내고 가져와서 번역 외부화할 수 있습니다(](#managing-translations-in-the-editor)번역 외부화[ 참조).](#externalizing-translation)
+Adobe Campaign 콘솔에서 직접 번역 수행(편집기](#managing-translations-in-the-editor)에서 번역 관리 참조)하거나, 문자열을 내보내고 가져와서 번역 외부화할 수 있습니다([번역 외부화](#externalizing-translation) 참조).[
 
 기본적으로 사용할 수 있는 번역 언어 목록은 [양식 표시 언어 변경](#changing-forms-display-language)에 자세히 설명되어 있습니다.
 
@@ -53,7 +53,7 @@ Adobe Campaign에는 다중 언어 번역을 번역하고 관리하는 도구가
 
 이 탭을 처음 열면 데이터가 포함되지 않습니다. 웹 응용 프로그램의 문자열을 업데이트하려면 **[!UICONTROL Collect the strings to translate]** 링크를 클릭합니다.
 
-Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의된 필드 및 문자열의 레이블을 수집합니다.HTML 블록, Javascript 등 정적 요소는 웹 양식[의 정적 요소에 자세히 설명되어 있습니다.](../../web/using/static-elements-in-a-web-form.md)
+Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의된 필드 및 문자열의 레이블을 수집합니다.HTML 블록, Javascript 등 정적 요소는 웹 양식](../../web/using/static-elements-in-a-web-form.md)의 정적 요소에 자세히 설명되어 있습니다.[
 
 ![](assets/s_ncs_admin_survey_trad_tab.png)
 
@@ -134,7 +134,7 @@ Adobe Campaign 이외의 도구를 사용하여 문자 문자열을 내보내고
 >
 >내보내기 파일의 이름은 자동으로 생성됩니다. 동일한 내보내기를 여러 번 수행하면 기존 파일이 새 파일로 대체됩니다. 이전 파일을 유지해야 하는 경우 **[!UICONTROL Target folder]** 을 변경한 다음 **[!UICONTROL Start]**&#x200B;을 다시 클릭하여 내보내기를 실행합니다.
 
-**CSV 형식**&#x200B;으로 파일을 내보낼 때 각 언어는 상태 및 승인 상태에 연결됩니다. **승인?** 열을 사용하여 변환을 승인할 수 있습니다. 이 열에는 **Yes** 또는 **No** 값이 포함될 수 있습니다. 통합 편집기에 대해서는(편집기[에서 번역 관리 참조), 변환 승인은 선택 사항이며 프로세스를 차단하지 않습니다.](#managing-translations-in-the-editor)
+**CSV 형식**&#x200B;으로 파일을 내보낼 때 각 언어는 상태 및 승인 상태에 연결됩니다. **승인?** 열을 사용하여 변환을 승인할 수 있습니다. 이 열에는 **Yes** 또는 **No** 값이 포함될 수 있습니다. 통합 편집기에 대해서는([편집기](#managing-translations-in-the-editor)에서 번역 관리 참조), 변환 승인은 선택 사항이며 프로세스를 차단하지 않습니다.
 
 ### 파일 가져오기 {#importing-files}
 
@@ -468,7 +468,7 @@ URL 끝에 **?lang=fr**&#x200B;을 추가하여 프랑스어로 표시합니다.
 
 ### 번역 언어 {#adding-a-translation-language} 추가
 
-웹 응용 프로그램을 기본 언어 이외의 언어로 변환하려면(양식 표시 언어 변경 참조[) 새 번역 언어를 추가해야 합니다.](#changing-forms-display-language)
+웹 응용 프로그램을 기본 언어 이외의 언어로 변환하려면(양식 표시 언어 변경 참조](#changing-forms-display-language)) 새 번역 언어를 추가해야 합니다.[
 
 1. Adobe Campaign 트리의 **[!UICONTROL Administration > Platform > Enumerations]** 노드를 클릭하고 목록에서 **[!UICONTROL Languages available for translation]**&#x200B;을 선택합니다. 사용 가능한 번역 목록은 창의 아래 섹션에 표시됩니다.
 
