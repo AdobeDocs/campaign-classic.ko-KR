@@ -66,7 +66,7 @@ Adobe Campaign은 바이너리 및 HTTP/2 APN과 호환됩니다. 구성 단계�
 * 알림 서비스:Apple용 APNs(Apple Push Notification 서비스) 및 Android용 FCM(Firebase Cloud Messaging)
 * Adobe Campaign
 
-알림 프로세스의 세 가지 주요 단계는 다음과 같습니다.adobe campaign(구독 컬렉션), 배달 및 추적에서 애플리케이션 등록
+알림 프로세스의 세 가지 주요 단계는 다음과 같습니다.Adobe Campaign(구독 컬렉션), 배달 및 추적에서 애플리케이션 등록
 
 ### 1단계:구독 컬렉션 {#step-1--subscription-collection}
 
