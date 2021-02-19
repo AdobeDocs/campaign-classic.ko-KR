@@ -37,7 +37,7 @@ ht-degree: 9%
    >
    >이벤트 유형은 두 개 이상의 템플릿에 링크되어서는 안 됩니다.
 
-1. 자연 및 설명을 입력한 다음 **[!UICONTROL Continue]**&#x200B;을 클릭하여 메시지 본문을 만듭니다([메시지 내용 만들기](../../message-center/using/creating-message-content.md) 참조).
+1. 자연과 설명을 입력한 다음 **[!UICONTROL Continue]**&#x200B;을 클릭하여 메시지 본문을 만듭니다([메시지 내용 만들기](../../message-center/using/creating-message-content.md) 참조).
 
    ![](assets/messagecenter_create_model_004.png)
 
