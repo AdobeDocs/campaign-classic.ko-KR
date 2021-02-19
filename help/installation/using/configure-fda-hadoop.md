@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -84,7 +84,7 @@ FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서
 
 ## hadoop 2.1 구성 {#configure-access-hadoop-2}
 
-hadoop 2.1에 연결해야 하는 경우 [Windows](#for-windows) 또는 [Linux](#for-linux)에 대해 아래 설명된 절차를 따르십시오.
+hadoop 2.1에 연결해야 하는 경우 [Windows](#for-windows) 또는 [Linux](#for-linux)에 대해 아래 설명된 단계를 따르십시오.
 
 ### Windows용 hadoop 2.1 {#for-windows}
 
