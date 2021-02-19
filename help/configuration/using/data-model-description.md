@@ -95,7 +95,7 @@ sName 서비스의 내부 이름을 나타내는 고유한 인덱스가 필드�
 
 이 테이블의 각 레코드는 **배달 작업** 또는 **배달 템플릿**&#x200B;을 나타냅니다. 여기에는 배달 수행에 필요한 모든 매개 변수(대상, 컨텐츠 등)가 포함되어 있습니다. 분석 단계 동안 배달(브로드캐스트) 로그(NmsBroadLog) 및 관련 추적 URL(NmsTrackingUrl)이 만들어집니다(이 표 모두에 대한 자세한 내용은 아래 참조).
 
-sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유한 인덱스가 필드에 있습니다. 배달이 실행 폴더에 연결됩니다(외래 키는 iFolderProcessId입니다.) 자세한 내용은 [XtkFolder](#XtkFolder))를 참조하십시오.
+sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유한 인덱스가 필드에 있습니다. 배달이 실행 폴더에 연결되어 있습니다(외래 키는 iFolderProcessId입니다.) 자세한 내용은 [XtkFolder](#XtkFolder))를 참조하십시오.
 
 ### XtkFolder {#XtkFolder}
 
@@ -175,7 +175,7 @@ sInternalName 배달 또는 시나리오의 내부 이름을 나타내는 고유
 
 가설을 실행하는 동안 다음 표시기가 자동으로 업데이트됩니다.
 
-* 반응 수:**iTransaction**. 응답 로그 테이블의 줄 수입니다.
+* 반응 수:**iTransaction**. 반응 로그 테이블의 줄 수입니다.
 * 연락 횟수:**iContactResponcaced**. 가설을 통해 타깃팅된 연락처의 수를 구별합니다.
 * 제어 그룹 수:**iProofResponsephed**. 가설을 통해 타깃팅된 제어 그룹 연락처가 구분되는 개수입니다.
 * 연결된 응답률:**dContactResponcacedRate**. 가설을 통해 타깃팅된 연락처의 응답률입니다.
