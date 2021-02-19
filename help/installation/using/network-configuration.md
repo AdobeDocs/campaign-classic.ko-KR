@@ -236,7 +236,7 @@ Adobe Campaign 리치 클라이언트(**nlclient**)의 경우 다음 포트를 �
   </tr> 
   <tr> 
    <td> 80<br /> </td> 
-   <td> ADOBE CAMPAIGN에 대한 AEM 연결<br /> </td> 
+   <td> Adobe Campaign에 대한 AEM 연결<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 4502년</p><p> 4503년</p><br /> </td> 
