@@ -1,42 +1,8 @@
 ---
-solution: Campaign Classic
-product: campaign
-title: 요소 및 속성
-description: 요소 및 속성
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
+source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 13%
+translation-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
-
-# 요소 및 속성 {#elements-and-attributes}
-
-스키마를 편집할 때 소스 스키마(xtk:srcSchema)를 기반으로 승인 시스템을 사용할 수 있습니다. &quot;데이터베이스 구조 업데이트..&quot;를 사용하여 데이터베이스를 업데이트할 때도 일부 오류가 발견될 수 있습니다. 마법사.
-
-기본적으로 Adobe Campaign 스키마에서 모든 부울 유형 속성은 &quot;false&quot;입니다. 이를 활성화하려면 스키마에서 속성을 지정하고 값을 &quot;true&quot;로 설정해야 합니다.
-
-참조 목록:
-
-* [속성](schema/attribute.md)
-* [계산 문자열](schema/compute-string.md)
-* [조건](schema/condition.md)
-* [DB 인덱스](schema/db-index.md)
-* [요소](schema/element.md)
-* [열거형](schema/enumeration.md)
-* [도움말](schema/help.md)
-* [가입](schema/join.md)
-* [Key](schema/key.md)
-* [키필드](schema/keyfield.md)
-* [방법](schema/method.md)
-* [메서드](schema/methods.md)
-* [매개 변수](schema/param.md)
-* [매개 변수](schema/parameters.md)
-* [SrcSchema](schema/srcschema.md)
-* [Sysfilter](schema/sysfilter.md)
-* [값](schema/value.md)
