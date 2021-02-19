@@ -29,7 +29,7 @@ Adobe Campaign 설치에 필요한 기술 및 소프트웨어 구성은 [호환�
 * Java JDK 및 OpenJDK는 [Java 개발 키트 - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
 * 라이브러리는 [라이브러리](#libraries),
 * 데이터베이스 액세스 레이어는 [데이터베이스 액세스 레이어](#database-access-layers),
-* LibreOffice의 경우, Debian[ 및 ](#installing-libreoffice-for-debian)MicrosoftOS용 LibreOffice 설치[,](#installing-libreoffice-for-centos)
+* LibreOffice의 경우, Debian](#installing-libreoffice-for-debian) 및 [MicrosoftOS용 LibreOffice 설치](#installing-libreoffice-for-centos),[
 * 글꼴은 MTA 통계](#fonts-for-mta-statistics) 및 [일본어 인스턴스 글꼴은 ](#fonts-for-japanese-instances)에 대해 [글꼴을 참조하십시오.
 
 >[!NOTE]
