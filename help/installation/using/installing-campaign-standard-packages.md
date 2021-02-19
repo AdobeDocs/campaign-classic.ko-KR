@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Campaign Classic 내장 패키지 설치
+title: Campaign Classic 기본 제공 패키지 설치
 description: Campaign 내장 패키지를 설치하는 방법 알아보기
 audience: installation
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
 workflow-type: tm+mt
 source-wordcount: '1173'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 
-# Campaign Classic 내장 패키지 설치{#installing-campaign-standard-packages}
+# Campaign Classic 기본 제공 패키지 설치{#installing-campaign-standard-packages}
 
 ## 내장 패키지 {#campaign-standard-packages} 정보
 
