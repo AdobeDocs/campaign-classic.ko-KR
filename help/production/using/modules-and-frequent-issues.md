@@ -66,7 +66,7 @@ ht-degree: 5%
   <tr> 
    <td> trackinglogs </td> 
    <td> 추적 로그 쓰기 및 제거 서버<br /> </td> 
-   <td> 추적 로그가 더 이상 전달되지 않고 서버의 파일에 로그 추적이 없는지 이 모듈을 확인하십시오. 추적 로그 문제<a href="../../production/using/tracking-logs-issues.md" target="_blank">를 참조하십시오.</a><br /> </td> 
+   <td> 추적 로그가 더 이상 전달되지 않고 서버의 파일에 로그 추적이 없는지 이 모듈을 확인하십시오. 추적 로그 문제</a>를 참조하십시오.<br /><a href="../../production/using/tracking-logs-issues.md" target="_blank"> </a></td> 
   </tr> 
   <tr> 
    <td> 감시 </td> 
