@@ -179,7 +179,7 @@ Mail.ru 주소로 AMP 이메일을 보내는 것을 테스트하려면 [Mail.ru 
 >
 >현재 Gmail, Outlook 및 Mail.ru만 AMP 형식을 지원합니다.
 
-몇 개의 주소로 테스트하고 나면 AMP 이메일을 Gmail 또는 Outlook 주소로 보낼 수 있습니다. 이를 위해서는 구글이나 마이크로소프트에 정중하게 등록하고, 그들의 답변을 기다리셔야 합니다. [Gmail](https://developers.google.com/gmail/ampemail/register) 및 [Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#global-registration) 개발자 문서에 있는 단계를 따릅니다. 등록이 완료되면 공인 보낸 사람이 됩니다.
+몇 개의 주소로 테스트하고 나면 AMP 이메일을 Gmail 또는 Outlook 주소로 보낼 수 있습니다. 이를 위해서는 구글이나 마이크로소프트에 정중히 등록하고, 그들의 답변을 기다리셔야 합니다. [Gmail](https://developers.google.com/gmail/ampemail/register) 및 [Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#global-registration) 개발자 문서에 있는 단계를 따릅니다. 등록이 완료되면 공인 보낸 사람이 됩니다.
 
 AMP 이메일을 Mail.ru 주소로 보내려면 [Mail.ru 개발자 문서](https://postmaster.mail.ru/amp/?lang=en#howto)(**이메일 보낸 사람** 섹션인 경우)에 나열된 요구 사항과 단계를 따르십시오.
 
@@ -187,7 +187,7 @@ AMP 이메일을 Mail.ru 주소로 보내려면 [Mail.ru 개발자 문서](https
 
 AMP 콘텐트와 폴백이 준비되고 호환 대상을 정의한 후에는 평소대로 이메일을 보낼 수 있습니다.
 
-현재 Gmail, Outlook 및 Mail.ru만 특정 조건에서 AMP 형식을 지원합니다. 다른 이메일 공급자의 주소를 타깃팅할 수는 있지만 이 이메일 주소는 HTML이나 일반 텍스트 버전으로 수신됩니다.
+현재 Gmail, Outlook 및 Mail.ru만 특정 조건에서 AMP 형식을 지원합니다. 다른 이메일 공급자의 주소를 타깃팅할 수 있지만 이 이메일 주소는 HTML 또는 일반 텍스트 버전으로 수신됩니다.
 
 >[!IMPORTANT]
 >
