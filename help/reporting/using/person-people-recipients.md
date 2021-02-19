@@ -100,7 +100,7 @@ Marie의 열린 로그는 다음 로그에 표시됩니다.
 | 존 | - | - | - |
 | 마리 | - | - | +1 |
 | 플로리안 | +1 | +1 | +1 |
-| 중간 합계 | 1 | 1 | 2 |
+| 중간 합계 | 3 | 3 | 2 |
 
 다음 기록들은 플로리안이 그 이메일을 전달했던 사람이 연 회와 두 번의 클릭과 일치한다:
 
@@ -122,7 +122,7 @@ Marie의 열린 로그는 다음 로그에 표시됩니다.
 | 마리 | - | - | +1 |
 | 플로리안 | +1 | +1 | +1 |
 | 알 수 없는 사람 | - | +1 | - |
-| 중간 합계 | 1 | 2 | 2 |
+| 중간 합계 | 3 | 2 | 2 |
 
 ## 4단계:헨리 {#step-4--henry}
 
@@ -157,7 +157,7 @@ Marie의 열린 로그는 다음 로그에 표시됩니다.
 
 * **[!UICONTROL Clicks]** (클릭한 받는 사람):2
 * **[!UICONTROL Distinct clicks for the population reached]** (클릭한 사람):6
-* **[!UICONTROL Distinct opens for the population reached]** (연 받는 사람):1
+* **[!UICONTROL Distinct opens for the population reached]** (연 받는 사람):3
 
 원시 재활동 및 전달 추정 계산은 다음과 같이 계산됩니다.
 
