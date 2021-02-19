@@ -50,7 +50,7 @@ ht-degree: 0%
 
    ![](assets/s_user_segmentation_partage4.png)
 
-1. 원할 경우 **[!UICONTROL Add]** 단추를 사용하여 **다른 하위 세트**&#x200B;를 추가할 수 있습니다.
+1. 원하는 경우 **[!UICONTROL Add]** 단추를 사용하여 **다른 하위 세트**&#x200B;를 추가할 수 있습니다.
 
    ![](assets/s_user_segmentation_partage_add.png)
 
