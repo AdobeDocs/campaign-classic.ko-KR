@@ -261,7 +261,7 @@ Adobe Campaign은 기본적으로 프로파일을 구성하는 기술 운영업�
 
    이 그룹에는 다음과 같은 명명된 권한이 포함됩니다.
 
-   * **[!UICONTROL INSERT FOLDERS]**:adobe campaign 트리에 폴더를 삽입할 권리(관련 분기에 대한 편집 권한이 있는 경우),
+   * **[!UICONTROL INSERT FOLDERS]**:Adobe Campaign 트리에 폴더를 삽입할 권리(관련 분기에 대한 편집 권한이 있는 경우),
    * **[!UICONTROL WORKFLOW]**:워크플로우 사용 권한
 
    >[!NOTE]
@@ -326,7 +326,7 @@ Adobe Campaign은 기본적으로 프로파일을 구성하는 기술 운영업�
 
 * **[!UICONTROL MERGE]**:선택한 레코드를 하나로 병합할 수 있습니다. 수신자가 중복으로 존재하는 경우 사용자가 **[!UICONTROL MERGE]** 권한을 사용하여 중복 항목을 선택하고 기본 수신자에게 병합할 수 있습니다.
 
-* **[!UICONTROL PREPARE DELIVERIES]**:전달을 작성, 편집 및 저장할 수 있습니다. **[!UICONTROL PREPARE DELIVERIES]** 오른쪽의 사용자는 배달 분석 프로세스를 시작할 수도 있습니다.
+* **[!UICONTROL PREPARE DELIVERIES]**:전달을 생성, 편집 및 저장할 수 있습니다. **[!UICONTROL PREPARE DELIVERIES]** 오른쪽의 사용자는 배달 분석 프로세스를 시작할 수도 있습니다.
 
 * **[!UICONTROL PRIVACY DATA RIGHT]**:개인 정보 데이터를 수집 및 삭제할 권리. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html)를 참조하십시오.
 
