@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# 가져오기 및 내보내기 템플릿 만들기{#creating-import-export-templates}
+# 가져오기 및 내보내기 템플릿 만들기 {#creating-import-export-templates}
 
 가져오기 및 내보내기 템플릿은 Adobe Campaign 트리의 **[!UICONTROL Resources > Templates > Job templates]** 디렉토리에 저장됩니다.
 
