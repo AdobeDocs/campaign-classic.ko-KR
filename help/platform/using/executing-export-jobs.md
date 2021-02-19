@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 내보내기 작업 {#executing-export-jobs} 구성
+# 내보내기 작업 구성 {#executing-export-jobs}
 
 내보내기 작업을 사용하면 데이터베이스에서 데이터에 액세스하고 데이터를 추출할 수 있습니다.연락처, 클라이언트, 목록, 세그먼트 등
 
