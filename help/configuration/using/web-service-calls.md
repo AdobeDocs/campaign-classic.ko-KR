@@ -81,7 +81,7 @@ https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 
 사용:
 
-* **`<server>`**:adobe campaign 응용 프로그램 서버(nlserver 웹)
+* **`<server>`**:Adobe Campaign 응용 프로그램 서버(nlserver 웹)
 * **`<schema>`**:스키마 식별 키(네임스페이스:schema_name)
 
 ### 스키마 &#39;xtk:queryDef&#39; {#example-on-the--executequery--method-of-schema--xtk-querydef-}의 &#39;ExecuteQuery&#39; 메서드의 예
@@ -215,7 +215,7 @@ Adobe Campaign은 세션 관리 설정과 함께 [이 섹션](../../installation
 
 * 세션 토큰에서 생성됩니다.
 * 여기에는 24시간 라이프사이클(&#39;serverConf.xml&#39; 파일에서 구성 가능, 기본 기간은 24시간)
-* adobe campaign 콘솔에 저장됩니다.
+* Adobe Campaign 콘솔에 저장됩니다.
 * 웹을 통해 액세스하는 경우:
 
    * 문서에 저장됩니다.__securityToken 속성
