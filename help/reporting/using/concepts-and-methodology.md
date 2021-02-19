@@ -187,8 +187,8 @@ SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다
 필요에 따라 테이블에 측정값의 표시를 구성할 수 있습니다.
 
 * 측정 단위의 표시 순서([표시 시퀀스](#display-sequence) 참조),
-* 보고서에 표시/숨기기 정보(표시[ 구성 참조)](#configuring-the-display)
-* 표시할 측정 단위:백분율, 총, 소수 수 등 ([표시된 측정값 유형 변경 참조)](#changing-the-type-of-measure-displayed)
+* 보고서에 표시/숨기기 정보(표시](#configuring-the-display) 구성 참조)[
+* 표시할 측정 단위:백분율, 총, 소수 수 등 (](#changing-the-type-of-measure-displayed)표시된 측정값 유형 변경 참조)[
 
 ### 표시 시퀀스 {#display-sequence}
 
