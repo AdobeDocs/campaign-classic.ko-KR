@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Experience Cloud 트리거 기본 정보
-description: Adobe Experience Cloud 트리거 구현 시작하기
+description: Adobe Experience Cloud Triggers 구현 시작하기
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
@@ -15,7 +15,7 @@ ht-degree: 16%
 ---
 
 
-# Adobe Experience Cloud 트리거 시작{#about-adobe-experience-triggers}
+# Adobe Experience Cloud Triggers 시작하기{#about-adobe-experience-triggers}
 
 [!DNL Triggers] 는 파이프라인을 사용하여 Adobe Campaign과 Adobe Analytics 간의 통합입니다. 파이프라인은 웹 사이트에서 사용자의 작업 또는 트리거를 검색합니다. 장바구니 포기는 트리거의 예입니다. 트리거는 Adobe Campaign에서 처리되어 거의 실시간으로 이메일을 전송합니다.
 
