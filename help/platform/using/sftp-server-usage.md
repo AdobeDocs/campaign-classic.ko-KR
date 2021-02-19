@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
 source-wordcount: '1102'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 
-# SFTP 서버 우수 사례 및 문제 해결 {#sftp-server-usage}
+# SFTP 서버 모범 사례 및 문제 해결 {#sftp-server-usage}
 
 ## SFTP 서버 전역 추천 {#global-recommendations}
 
@@ -29,7 +29,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 * 오류/예외를 처리합니다.
 
-* 기본적으로 만든 모든 폴더는 식별자에 대해서만 읽기/쓰기 모드에 있습니다. Campaign에서 액세스해야 하는 폴더를 만들 때는 전체 그룹에 대한 읽기/쓰기 권한을 사용하여 폴더를 구성해야 합니다. 그렇지 않으면 보안상의 이유로 동일한 그룹 내의 다른 식별자에서 실행되므로 워크플로우에서 파일을 만들거나 삭제할 수 없습니다.
+* 기본적으로 만든 모든 폴더는 식별자에 대해서만 읽기/쓰기 모드에 있습니다. Campaign에서 액세스해야 하는 폴더를 만들 때는 전체 그룹에 대한 읽기/쓰기 권한을 사용하여 폴더를 구성해야 합니다. 그렇지 않으면 보안상의 이유로 동일한 그룹 내의 다른 식별자에서 실행되기 때문에 워크플로우에서 파일을 만들거나 삭제할 수 없습니다.
 
 * SFTP 연결을 시작하려는 공개 IP를 캠페인 인스턴스의에 허용 목록에 추가하다 추가해야 합니다. IP 주소 추가는 허용 목록에 추가하다 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)를 통해 요청할 수 있습니다.
 
