@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 9%
+ht-degree: 27%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 9%
 * [도움말](schema/help.md)
 * [가입](schema/join.md)
 * [Key](schema/key.md)
-* [키필드](schema/keyfield.md)
+* [Keyfield](schema/keyfield.md)
 * [방법](schema/method.md)
-* [메서드](schema/methods.md)
+* [방법](schema/methods.md)
 * [매개 변수](schema/param.md)
 * [매개 변수](schema/parameters.md)
 * [SrcSchema](schema/srcschema.md)
