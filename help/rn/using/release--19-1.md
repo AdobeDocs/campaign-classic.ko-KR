@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
 workflow-type: tm+mt
 source-wordcount: '3127'
-ht-degree: 20%
+ht-degree: 23%
 
 ---
 
@@ -23,16 +23,16 @@ _2020년 12월 16일_
 
 >[!CAUTION]
 >
-> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 3월 31일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다&#x200B;**.**
-> * 이 릴리스는 [보안 수정](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)과 함께 제공됩니다.환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 이 페이지](../../integrations/using/configuring-adobe-io.md)에서 설명한 대로 Adobe I/O으로 이동해야 합니다. [ 이전 Auth 인증 모드는 **2021년 4월 30일에 종료됩니다**.
+> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. IMS(Adobe ID Service)를 통해 Campaign에 연결할 경우, **2021년 3월 31일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다.
+> * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지](../../integrations/using/configuring-adobe-io.md)에 설명한 대로 Adobe I/O로 이동해야 합니다. 레거시 oAuth 인증 모드는 **2021년 4월 30일**&#x200B;에 종료됩니다.
 
 
 
 **개선 사항**
 
 * 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
-* 파이프라인 액세스를 위한 oAUTH 인증 설정을 기반으로 원래 통합 인증을 트리거했습니다. [자세한 내용](../../integrations/using/configuring-adobe-io.md)
+* 원래 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 통합 인증이 변경되었으며 Adobe I/O으로 이동되었습니다. [자세한 내용](../../integrations/using/configuring-adobe-io.md)
 * iOS APNs 레거시 이진 프로토콜에 대한 지원이 종료됨에 따라 업그레이드 후 이 프로토콜을 사용하는 모든 인스턴스는 HTTP/2 프로토콜로 업데이트됩니다.
 * SSRF(Server Side Request Forgery) 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-27777)
 * 연결 오류 후 SMPP 커넥터를 비활성화하여 다른 SMS 배달이 전송되지 못하도록 하고 성능 문제가 발생하는 문제를 해결했습니다.
@@ -153,7 +153,7 @@ _2019년 5월 30일_
  <tbody> 
   <tr> 
    <td> Campaign 컨트롤 패널<br /> </td> 
-   <td> <p>관리 사용자로서의 작업의 효율성을 높이려면 저장소를 모니터링하여 SFTP 서버의 설정을 관리하고,에 IP 주소를 추가하고, 각 인스턴스에 허용 목록에 추가하다 대한 SSH 키를 설치하도록 합니다. Campaign 컨트롤 패널은 오늘부로 AWS에서 호스팅되는 고객에게만 제공됩니다(<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">오늘 Experience Cloud을 통해 로그인</a>).</p> <p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/control-panel-overview.html">방법 비디오</a>를 참조하십시오. </p><p>참고:campaign 컨트롤 패널에 액세스하려면 최신 캠페인 빌드로 업그레이드할 필요가 없습니다.</p> </td> 
+   <td> <p>관리 사용자로서의 작업의 효율성을 높이려면 저장소를 모니터링하여 SFTP 서버의 설정을 관리하고,에 IP 주소를 추가하고, 각 인스턴스에 허용 목록에 추가하다 대한 SSH 키를 설치하도록 합니다. Campaign 컨트롤 패널은 오늘부로 AWS에서 호스팅되는 고객에게만 제공됩니다(<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">오늘 Experience Cloud을 통해 로그인</a>).</p> <p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/control-panel-overview.html">방법 비디오</a>를 참조하십시오. </p><p>참고:Campaign 컨트롤 패널에 액세스하려면 최신 캠페인 빌드로 업그레이드할 필요가 없습니다.</p> </td> 
   </tr> 
     <tr> 
    <td> 감사 추적<br /> </td> 
