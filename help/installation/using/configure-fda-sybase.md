@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: sybase IQ 액세스 권한 구성
+title: Sybase IQ 액세스 권한 구성
 description: FDA에서 Sybase IQ에 대한 액세스를 구성하는 방법 살펴보기
 audience: platform
 content-type: reference
@@ -15,9 +15,9 @@ ht-degree: 0%
 ---
 
 
-# sybase IQ {#configure-access-to-sybase-iq}에 대한 액세스 구성
+# Sybase IQ {#configure-access-to-sybase-iq}에 대한 액세스 구성
 
-캠페인 **통합 데이터 액세스**(FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리할 수 있습니다. sybase IQ에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
+캠페인 **통합 데이터 액세스**(FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리할 수 있습니다. Sybase IQ에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
 
 1. [Sybase IQ 데이터베이스](#configuring-sybase) 구성
 1. Campaign에서 Sybase IQ [외부 계정](#sybase-external) 구성
@@ -68,7 +68,7 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
 
 ## sybase IQ 외부 계정 {#sybase-external}
 
-sybase IQ 외부 계정을 사용하면 Campaign 인스턴스를 Sybase IQ 외부 데이터베이스에 연결할 수 있습니다.
+Sybase IQ 외부 계정을 사용하면 Campaign 인스턴스를 Sybase IQ 외부 데이터베이스에 연결할 수 있습니다.
 
 1. 캠페인 **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**&#x200B;을(를) 클릭합니다.
 
