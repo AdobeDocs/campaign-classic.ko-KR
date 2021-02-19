@@ -30,7 +30,7 @@ ht-degree: 6%
 
    **팁**  - 이를 방지하려면 팀의 다른 구성원과 배달 예약을 조정하여 최상의 성과를 보장합니다.
 
-* 워크플로우 실행:플랫폼 성능 문제가 발생하지 않도록 워크플로우를 모니터링하는 것이 중요합니다. 이 문서[에 나열된 지침을 따르십시오.](../../workflow/using/workflow-best-practices.md#execution-and-performance)
+* 워크플로우 실행:플랫폼 성능 문제가 발생하지 않도록 워크플로우를 모니터링하는 것이 중요합니다. 이 문서](../../workflow/using/workflow-best-practices.md#execution-and-performance)에 나열된 지침을 따르십시오.[
 
 * 호스팅된 고객인 경우 [캠페인 제어 패널 기능](https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/key-features.html)을 활용하여 [성능 모니터링](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/about-performance-monitoring.html) 기능을 사용하여 플랫폼을 모니터링할 수 있습니다.
 
@@ -50,7 +50,7 @@ ht-degree: 6%
 
    * 이메일 수신 여부를 확인할 때는 다음 4가지 주요 카테고리에 주력해야 합니다.데이터 품질, 메시지 및 컨텐츠, 전송 인프라 및 명성을 높일 수 있습니다. 이 주제에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-deliverability.md)을 참조하십시오.
 
-* 이 문서[에 자세한 권장 사항을 적용합니다.](../../delivery/using/deliverability-key-points.md)
+* 이 문서](../../delivery/using/deliverability-key-points.md)에 자세한 권장 사항을 적용합니다.[
 
 * 도움이 필요하면 Adobe 담당자에게 문의하십시오.
 
