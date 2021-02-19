@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 59%
 
 * **[IMS/Adobe ID을 통해 연결 최신 빌드](integrations/using/about-adobe-id.md)**<br/>로 업그레이드 IMS를 사용하여 Campaign에 연결하는 경우** 2021년 3월 31일 이후 캠페인에 연결할 수 있도록 업그레이드해야 합니다.**
 
-* **[캠페인 인스턴스 보안](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> 캠페인 플랫폼을 보호하기 위해 최신 빌드로 업데이트합니다.
+* **[캠페인 인스턴스 보안](https://helpx.adobe.com/kr/campaign/kb/gold-standard-upgrade.html)**<br/> 캠페인 플랫폼을 보호하기 위해 최신 빌드로 업데이트합니다.
 
 * **[잘못된 하드 ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> 바운스 제거지메일 작동 중단 후 잘못된 하드 바운스를 업데이트하는 방법 학습
 
