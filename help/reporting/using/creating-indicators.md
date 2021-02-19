@@ -21,7 +21,7 @@ ht-degree: 1%
 
 큐브를 만들려면 다음 단계를 적용합니다.
 
-1. 작업 테이블을 선택합니다. 작업 테이블 [을(를) 선택하십시오.](#selecting-the-work-table)
+1. 작업 테이블을 선택합니다. 작업 테이블 ](#selecting-the-work-table)을(를) 선택하십시오.[
 1. 차원을 정의합니다. [차원 정의](#defining-dimensions)를 참조하십시오.
 1. 측정값을 정의합니다. [지표 만들기](#building-indicators)를 참조하십시오.
 1. 집계 만들기(선택 사항). [집계 및 사용](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates)을 참조하십시오.
