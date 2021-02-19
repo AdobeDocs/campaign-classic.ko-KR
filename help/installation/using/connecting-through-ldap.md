@@ -156,7 +156,7 @@ DN(고유 이름) 식별자를 계산하려는 경우 배포 마법사의 다음
 
 * 로그인 및 사용자의 고유 이름을 기준으로 **[!UICONTROL Rights search filter]** 필드
 * 사용자에 대한 **[!UICONTROL Attribute containing the group or authorization name]** 필드,
-* adobe campaign에서 그룹 이름 및 관련 권한을 추출할 수 있는 **[!UICONTROL Association mask]** 필드 정규 표현식을 사용하여 이름을 검색할 수 있습니다.
+* Adobe Campaign에서 그룹 이름 및 관련 권한을 추출할 수 있는 **[!UICONTROL Association mask]** 필드 정규 표현식을 사용하여 이름을 검색할 수 있습니다.
 * 연결 시 액세스 권한이 사용자에게 자동으로 부여되도록 **[!UICONTROL Enable the connection of users declared in the LDAP directory if the operator is not declared in Adobe Campaign]**&#x200B;을 선택합니다.
 
 **[!UICONTROL Save]**&#x200B;을 클릭하여 인스턴스 구성을 완료합니다.
@@ -185,7 +185,7 @@ LDAP 디렉토리를 사용하여 연산자를 인증하려면 해당 프로파�
 
    이 그룹은 Adobe Campaign에서 생성되지 않습니다. **[!UICONTROL Enable synchronization of user rights from authorizations and groups in the directory]** 옵션을 통해 일치 항목을 활성화하려면 그룹을 만들고 그룹을 동기화해야 합니다.
 
-1. 그룹은 Adobe Campaign에 있고 LDAP 디렉토리는 이벤트 후에 활성화됩니다.adobe campaign의 사용자 그룹은 LDAP 그룹의 컨텐츠로 자동 교체되지 않습니다. 마찬가지로, 그룹이 Adobe Campaign에만 존재하는 경우 LDAP에서 그룹을 만들고 동기화할 때까지 LDAP 사용자를 추가할 수 없습니다.
+1. 그룹은 Adobe Campaign에 있고 LDAP 디렉토리는 이벤트 후에 활성화됩니다.Adobe Campaign의 사용자 그룹은 LDAP 그룹의 컨텐츠로 자동 교체되지 않습니다. 마찬가지로, 그룹이 Adobe Campaign에만 존재하는 경우 LDAP에서 그룹을 만들고 동기화할 때까지 LDAP 사용자를 추가할 수 없습니다.
 
    그룹은 Adobe Campaign 또는 LDAP에 의해 만들어지지 않습니다. Adobe Campaign 및 LDAP 디렉토리에 모두 개별적으로 만들어야 합니다.
 
