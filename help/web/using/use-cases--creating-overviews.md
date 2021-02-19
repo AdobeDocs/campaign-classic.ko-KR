@@ -22,7 +22,7 @@ ht-degree: 1%
 * 폴더에 대한 필터([폴더](#adding-a-filter-on-a-folder)에 필터 추가 참조),
 * 새 웹 응용 프로그램을 만들기 위한 단추([새 웹 응용 프로그램 구성 단추 추가 참조](#adding-a-button-to-configure-a-new-web-application)),
 * 목록의 각 항목에 대한 세부 정보 표시([목록에 세부 사항 추가 참조](#adding-detail-to-a-list)),
-* 링크 편집 도구당 하나의 필터(링크 편집기[를 사용하여 필터 만들기 참조),](#creating-a-filter-using-a-link-editor)
+* 링크 편집 도구당 하나의 필터(링크 편집기](#creating-a-filter-using-a-link-editor)를 사용하여 필터 만들기 참조),[
 * 새로 고침 링크([새로 고침 링크 만들기](#creating-a-refresh-link) 참조).
 
 ![](assets/s_ncs_configuration_webapp_overview.png)
