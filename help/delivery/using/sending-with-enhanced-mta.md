@@ -131,7 +131,7 @@ MX 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/em
 
 ### 향상된 MTA를 사용하여 보낸 상태
 
-소프트 및 하드 바운스 수가 향상된 MTA에서 캠페인에 다시 보고됨에 따라 이메일 배달 [대시보드](../../delivery/using/delivery-dashboard.md)의 **[!UICONTROL Success]** 보기에서 **[!UICONTROL Summary]** 비율은 100%에서 시작하여 배달 [유효성 기간](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)까지 점진적으로 감소합니다.
+소프트 및 하드 바운스가 향상된 MTA에서 캠페인에 다시 보고됨에 따라 이메일 배달 [대시보드](../../delivery/using/delivery-dashboard.md)의 **[!UICONTROL Success]** 보기에서 **[!UICONTROL Summary]** 비율은 100%에서 시작하여 배달 [유효성 기간](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)까지 점진적으로 감소합니다.
 
 실제로 모든 메시지는 Campaign에서 향상된 MTA로 성공적으로 전달되는 즉시 [전송 로그](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)에 **[!UICONTROL Sent]**&#x200B;으로 표시됩니다. 해당 메시지에 대한 [바운스](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)이(가) 향상된 MTA에서 캠페인으로 다시 전달되지 않는 한 해당 상태로 유지됩니다.
 
@@ -149,7 +149,7 @@ MX 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/em
 
 ### 게재 처리량
 
-캠페인 배달 처리량 그래프는 더 이상 이메일 수신자에게 처리량을 표시하지 않습니다. 이제 해당 그래프는 향상된 MTA로 Campaign에서 메시지를 릴레이 처리량을 보여줍니다.
+캠페인 배달 처리량 그래프는 더 이상 이메일 수신자에게 처리량을 표시하지 않습니다. 이제 해당 그래프는 향상된 MTA로 Campaign에서 메시지를 릴레이 처리량을 표시합니다.
 
 배달 처리량에 대한 자세한 내용은 [이 섹션](../../reporting/using/global-reports.md#delivery-throughput)을 참조하십시오.
 
