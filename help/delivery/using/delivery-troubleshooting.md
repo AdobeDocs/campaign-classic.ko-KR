@@ -23,8 +23,8 @@ ht-degree: 1%
 
 **관련 항목:**
 
-* [배달 상태](../../delivery/using/delivery-statuses.md)
-* [배달 대시보드](../../delivery/using/delivery-dashboard.md)
+* [게재 상태](../../delivery/using/delivery-statuses.md)
+* [게재 대시보드](../../delivery/using/delivery-dashboard.md)
 * [게재 실패 이해](../../delivery/using/understanding-delivery-failures.md)
 
 ## 느리게 배달 {#slow-deliveries}
