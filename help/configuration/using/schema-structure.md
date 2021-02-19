@@ -60,7 +60,7 @@ ht-degree: 1%
 </srcSchema>
 ```
 
-스키마 이름 및 해당 네임스페이스를 채우려면 데이터 스키마의 XML 문서에 **`<srcschema>`** 루트 요소(**name** 및 **namespace** 특성 포함)가 있어야 합니다.
+스키마 이름 및 해당 네임스페이스를 채우려면 데이터 스키마의 XML 문서에 **`<srcschema>`** 루트 요소가 **name** 및 **namespace** 특성으로 포함되어야 합니다.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 자세한 목록은 [`<attribute>` 요소](../../configuration/using/schema/attribute.md) 및 [`<element>` 요소](../../configuration/using/schema/element.md))의 설명에 있습니다.
 
-이 속성이 채워지지 않으면 요소에 자식 요소가 포함되어 있지 않은 한 **string**&#x200B;은 기본 데이터 유형입니다. 그럴 경우 계층 구조 요소(**`<location>`** 요소(예: &lt;a0/> 요소)에만 사용됩니다.
+이 속성이 채워지지 않으면 요소에 자식 요소가 포함되어 있지 않은 한 **string**&#x200B;은 기본 데이터 유형입니다. 그럴 경우 계층 구조 요소(**`<location>`** 요소(예:  요소)에만 사용됩니다.
 
 스키마에서 지원되는 데이터 유형은 다음과 같습니다.
 
@@ -344,7 +344,7 @@ ht-degree: 1%
 * 현재 날짜:**default=&quot;GetDate()&quot;**
 * 카운터:**default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
 
-   이 예제에서 기본값은 문자열의 연결과 무료 카운터 이름으로 **CounterValue** 함수를 호출하는 방법으로 구성됩니다. 반환된 숫자는 삽입할 때마다 1씩 증가합니다.
+   이 예제에서 기본값은 문자열의 연결과 무료 카운터 이름으로 **CounterValue** 함수를 호출하여 구성됩니다. 반환되는 번호는 삽입할 때마다 1씩 증가합니다.
 
    >[!NOTE]
    >
