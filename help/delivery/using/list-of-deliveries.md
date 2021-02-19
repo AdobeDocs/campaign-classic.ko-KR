@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 배달 목록 액세스
+title: 게재 목록 액세스
 description: 생성된 배달 목록에 액세스하는 방법을 알아봅니다.
 audience: delivery
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: f2a126d0aa471831f84d4c8457cfd6f0fae7b14f
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
 
-# 배달 목록 액세스 {#list-of-deliveries}
+# 게재 목록 액세스 {#list-of-deliveries}
 
 트리의 **[!UICONTROL Campaign Management > Deliveries]** 노드를 통해 배달 목록에서 게재에 액세스할 수 있습니다.
 
@@ -33,5 +33,5 @@ ht-degree: 1%
 
 **관련 항목:**
 
-* [배달 대시보드](../../delivery/using/delivery-dashboard.md)
-* [배달 상태](../../delivery/using/delivery-statuses.md)
+* [게재 대시보드](../../delivery/using/delivery-dashboard.md)
+* [게재 상태](../../delivery/using/delivery-statuses.md)
