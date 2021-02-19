@@ -37,7 +37,7 @@ ht-degree: 1%
 >
 >드롭다운 메뉴와 같이 보이지 않는 동적 블록은 편집할 수 없습니다.
 
-## 테두리 및 배경추가 {#adding-a-border-and-background}
+## 테두리 및 배경 {#adding-a-border-and-background} 추가
 
 선택한 블록에 **border**&#x200B;를 추가할 수 있습니다. 테두리는 다음 3가지 옵션을 사용하여 정의됩니다.스타일, 크기 및 색상.
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 ## 양식 편집 {#editing-forms}
 
-### 양식의 데이터 속성 변경{#changing-the-data-properties-for-a-form}
+### {#changing-the-data-properties-for-a-form} 양식의 데이터 속성 변경
 
 데이터베이스 필드를 입력 영역, 라디오 단추 또는 확인란 유형 블록과 연결할 수 있습니다.
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    ![](assets/dce_toolbar_formblock_edition.png)
 
-## 버튼에 작업 추가 {#adding-an-action-to-a-button}
+## 버튼 {#adding-an-action-to-a-button}에 작업 추가
 
 사용자가 단추를 클릭하면 연결된 동작을 정의할 수 있습니다. 이렇게 하려면 드롭다운 목록에서 수행할 작업을 선택합니다.
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 해당 필드의 단추에 연결된 레이블을 수정할 수 있습니다.
 
-## 링크추가 {#adding-a-link}
+## 링크 {#adding-a-link} 추가
 
 링크를 페이지 요소에 삽입할 수 있습니다.이미지, 단어, 단어 그룹, 텍스트 블록 등
 
@@ -137,11 +137,12 @@ ht-degree: 1%
 >* 새 창(_blank)
 >* 현재 창(_self)
 >* 기본 브라우저 동작
+
 >
 
 
 
-### URL링크 {#link-to-a-url}
+### URL {#link-to-a-url} 링크
 
 **외부 URL** 옵션에 대한 링크를 사용하면 소스 콘텐트에서 모든 URL을 열 수 있습니다.
 
@@ -149,7 +150,7 @@ ht-degree: 1%
 
 **URL** 필드에 문제의 링크 주소를 입력합니다. URL 필드는 다음과 같이 입력해야 합니다.**https://www.myURL.com**.
 
-### 웹 응용 프로그램링크 {#link-to-a-web-application}
+### 웹 응용 프로그램 {#link-to-a-web-application} 링크
 
 **웹 응용 프로그램에 대한 링크** 옵션을 사용하면 Adobe Campaign 웹 응용 프로그램에 액세스할 수 있습니다.
 
@@ -159,7 +160,7 @@ ht-degree: 1%
 
 제안된 웹 응용 프로그램의 목록은 **[!UICONTROL Resources > Online > Web Applications]** 노드의 사용 가능한 응용 프로그램에 해당합니다.
 
-### 작업에 대한 링크 {#link-to-an-action}
+### 작업 {#link-to-an-action}에 대한 링크
 
 작업&#x200B;**옵션을 정의하는**&#x200B;링크를 사용하면 소스 요소를 클릭할 때 작업을 구성할 수 있습니다.
 
@@ -169,7 +170,7 @@ ht-degree: 1%
 >
 >사용 가능한 작업은 [단추](#adding-an-action-to-a-button) 섹션에 작업 추가에 자세히 설명되어 있습니다.
 
-### 링크 삭제{#delete-a-link}
+### {#delete-a-link} 링크 삭제
 
 링크가 삽입되면 도구 모음에는 두 개의 새 아이콘이 표시됩니다.만든 링크와 상호 작용할 수 있는 **링크** 및 **링크**&#x200B;를 중단합니다.
 
@@ -180,7 +181,7 @@ ht-degree: 1%
 >
 >링크가 삭제되어도 컨텐츠는 여전히 유지됩니다.
 
-## 글꼴 속성변경 {#changing-font-attributes}
+## 글꼴 속성 {#changing-font-attributes} 변경
 
 텍스트 요소를 선택하면 글꼴 특성(스타일, 형식)을 수정할 수 있습니다.
 
@@ -202,8 +203,9 @@ ht-degree: 1%
 >[!NOTE]
 >
 >* **삭제** 아이콘:블록과 모든 해당 컨텐츠를 삭제합니다.
->
->* **복제** 아이콘:블록과 관련된 모든 스타일과 함께 블록과 복제합니다.
+   >
+   >
+* **복제** 아이콘:블록과 관련된 모든 스타일과 함께 블록과 복제합니다.
 
 
 ## 이미지 및 애니메이션 관리 {#managing-images-and-animations}
@@ -214,7 +216,7 @@ ht-degree: 1%
 >
 >HTML 페이지의 **script** 태그로 외부 파일을 호출해서는 안 됩니다. 이러한 파일은 Adobe Campaign 서버로 가져오지 않습니다.
 
-### 이미지추가 / 삭제 / 복제 {#adding---deleting---duplicating-an-image}
+### 이미지 {#adding---deleting---duplicating-an-image} 추가 / 삭제 / 복제
 
 이미지를 삽입하려면 이미지 유형 블록을 선택하고 **이미지** 아이콘을 클릭합니다.
 
@@ -255,7 +257,7 @@ ht-degree: 1%
 
 [개인화 필드 삽입](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field) 섹션에 예가 있습니다.
 
-### 개인화 블록삽입 {#inserting-a-personalization-block}
+### 개인화 블록 {#inserting-a-personalization-block} 삽입
 
 **개인화 블록** 옵션을 사용하면 콘텐츠에 동적 및 개인화된 블록을 삽입할 수 있습니다. 예를 들어 로고 또는 인사말 메시지를 추가할 수 있습니다. 텍스트 문자 블록에는 사용할 수 없습니다.
 
