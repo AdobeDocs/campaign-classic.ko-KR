@@ -23,7 +23,7 @@ ht-degree: 4%
 
 ![](assets/offer_simulation_008.png)
 
-* **[!UICONTROL Schedule execution for a time of low activity]** :adobe campaign 성능을 최적화하기 위해 선택한 우선 순위(낮음, 평균 또는 높음)를 기반으로 시뮬레이션을 예약할 수 있습니다.
+* **[!UICONTROL Schedule execution for a time of low activity]** :Adobe Campaign 성능을 최적화하기 위해 선택한 우선 순위(낮음, 평균 또는 높음)를 기반으로 시뮬레이션을 예약할 수 있습니다.
 * **[!UICONTROL Priority]** :시뮬레이션에 적용된 레벨입니다. **[!UICONTROL Schedule execution for a time of low activity]** 옵션이 선택되어 있으면 캠페인 처리 워크플로우에서 캠페인을 시작할 활동이 낮은 시간을 선택합니다.
 * **[!UICONTROL Log SQL queries in the journal]** :이 기능은 전문가 사용자에게만 제공됩니다. 시뮬레이션이 오류로 인해 끝날 경우 SQL 쿼리를 표시하는 탭을 로그에 추가하여 가능한 잘못된 함수를 감지할 수 있습니다.
 
