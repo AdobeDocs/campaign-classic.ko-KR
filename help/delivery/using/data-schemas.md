@@ -23,7 +23,7 @@ Adobe Campaign에서 데이터 스키마 만들기 및 구성에 대한 자세�
 
 ## 스키마 구조 {#schema-structure}
 
-스키마 이름 및 해당 네임스페이스를 채우려면 데이터 스키마의 XML 문서에 **`<srcschema>`** 루트 요소(**name** 및 **namespace** 특성 포함)가 있어야 합니다.
+스키마 이름 및 해당 네임스페이스를 채우려면 데이터 스키마의 XML 문서에 **`<srcschema>`** 루트 요소가 **name** 및 **namespace** 특성으로 포함되어야 합니다.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -152,7 +152,7 @@ Adobe Campaign에서 데이터 스키마 만들기 및 구성에 대한 자세�
 
 장 구조는 기본 요소 외부에 이름이 &quot;section&quot;인 요소로 이동합니다. 장과 섹션은 &quot;section&quot; 요소를 참조합니다.
 
-## 문자열 {#compute-string} 계산
+## 계산 문자열 {#compute-string}
 
 **계산 문자열**&#x200B;은 컨텐트 인스턴스를 나타내는 문자열을 만드는 데 사용되는 XPath 표현식입니다.
 
