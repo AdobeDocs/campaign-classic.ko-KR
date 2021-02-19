@@ -56,7 +56,7 @@ ht-degree: 5%
 
 ### 증명 대상 선택 {#selecting-the-target-of-the-proof}
 
-**[!UICONTROL Target of the proofs]** 탭에서는 최종 배달 전에 테스트 배달에 사용할 Twitter 계정을 정의할 수 있습니다. 따라서 교정본을 보내는 전용 Twitter 계정을 만드는 것이 좋습니다. 비공개 Twitter 계정을 만드는 방법에 대한 자세한 내용은 [Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter)에서 테스트 계정 만들기를 참조하십시오. 증명 대상을 선택하는 단계는 기본 대상을 선택하는 단계와 동일합니다. Twitter[에서 테스트 계정 만들기를 참조하십시오.](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter)
+**[!UICONTROL Target of the proofs]** 탭에서는 최종 배달 전에 테스트 배달에 사용할 Twitter 계정을 정의할 수 있습니다. 따라서 교정본을 보내는 전용 Twitter 계정을 만드는 것이 좋습니다. 비공개 Twitter 계정을 만드는 방법에 대한 자세한 내용은 [Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter)에서 테스트 계정 만들기를 참조하십시오. 증명 대상을 선택하는 단계는 기본 대상을 선택하는 단계와 동일합니다. Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter)에서 테스트 계정 만들기를 참조하십시오.[
 
 ![](assets/social_twitter_delivery_004.png)
 
