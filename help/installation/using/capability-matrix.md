@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니�
 
 ## 통합 데이터 액세스{#fda}
 
-Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위해 **Federated Data Access**(FDA) 옵션을 제공합니다.adobe campaign 데이터 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다. [자세히 알아보기](../../installation/using/about-fda.md)
+Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위해 **Federated Data Access**(FDA) 옵션을 제공합니다.Adobe Campaign 데이터 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다. [자세히 알아보기](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >
