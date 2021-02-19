@@ -124,7 +124,7 @@ Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이�
 
 ## 개인 정보 관리 {#privacy-management}
 
-개인 정보 관리는 개인 정보 보호 규정(GDPR, CPA 등)을 준수하는 데 도움이 되는 모든 프로세스 및 도구를 의미합니다. [이 페이지](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html)에 대한 개인 정보 관리의 개요를 봅니다.
+개인 정보 관리는 개인 정보 보호 규정(GDPR, CPA 등)을 준수하는 데 도움이 되는 모든 프로세스 및 도구를 의미합니다. [이 페이지](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html)에서 개인 정보 관리 기능에 대한 개요를 살펴보십시오.
 
 Adobe Campaign은 개인 정보 관리를 위한 다양한 기능을 제공합니다.
 * 동의 관리, 데이터 보존 및 사용자 역할. [이 섹션](#consent)을 참조하십시오.
