@@ -46,7 +46,7 @@ ht-degree: 10%
    * 사용된 측정 기준 및 지표 개인화,
    * 전문 지식이 없는 사용자도 인터랙티브한 분석 툴을 사용할 수 있습니다.
 
-   자세한 내용은 큐브를 사용하여 데이터[를 참조하십시오.](../../reporting/using/using-cubes-to-explore-data.md)
+   자세한 내용은 큐브를 사용하여 데이터](../../reporting/using/using-cubes-to-explore-data.md)를 참조하십시오.[
 
 1. 큐브에서 계산되고 집계된 데이터를 사용하여 쿼리를 작성합니다.
 1. 모집단을 식별하고 목록에서 참조합니다.
