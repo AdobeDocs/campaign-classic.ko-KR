@@ -21,7 +21,7 @@ ht-degree: 3%
 
 Adobe Campaign은 최소 구성에서 다음과 같이 작동합니다.
 
-* adobe campaign 응용 프로그램 서버,
+* Adobe Campaign 응용 프로그램 서버,
 * 데이터베이스를 참조하십시오.
 
    ![](assets/formation_exploitation.png)
