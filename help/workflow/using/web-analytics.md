@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 웹 분석{#web-analytics}
 
-아래에 자세히 설명된 워크플로우는 기본적으로 **웹 분석 커넥터** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../platform/using/adobe-analytics-data-connector.md)을 참조하십시오.
+아래 자세한 워크플로우는 기본적으로 **웹 분석 커넥터** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../platform/using/adobe-analytics-data-connector.md)을 참조하십시오.
 
 <table> 
  <tbody> 
