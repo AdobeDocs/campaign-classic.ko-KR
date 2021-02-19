@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: a2a99135bdd74d87c04262b53e074b6aa05e7915
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# 가져오기 및 내보내기 우수 사례 {#import-export-best-practices}
+# 가져오기 및 내보내기 모범 사례 {#import-export-best-practices}
 
 아래 설명된 몇 가지 간단한 규칙을 주의하고 준수하면 데이터베이스 내에서 데이터 일관성을 유지하고 데이터베이스 업데이트나 데이터 내보내기 중에 발생하는 일반적인 오류를 방지하는 데 많은 도움이 됩니다.
 
