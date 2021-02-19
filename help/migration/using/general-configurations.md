@@ -452,7 +452,7 @@ allowSQLInjection="false"
 충돌을 해결하는 방법에는 3가지가 있습니다.
 
 * **[!UICONTROL Declared as resolved]**:사전에 연산자 개입이 필요합니다.
-* **[!UICONTROL Accept the new version]**:adobe campaign에서 제공하는 리소스를 사용자가 변경하지 않은 것이 좋습니다.
+* **[!UICONTROL Accept the new version]**:사용자가 Adobe Campaign에서 제공한 리소스를 변경하지 않은 것이 좋습니다.
 * **[!UICONTROL Keep the current version]**:은 업데이트가 거부됨을 의미합니다.
 
    >[!IMPORTANT]
