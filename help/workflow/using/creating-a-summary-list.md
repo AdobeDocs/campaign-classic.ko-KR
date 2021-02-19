@@ -136,7 +136,7 @@ Phone;500;London 5
 
 ![](assets/uc2_enrich_miseajour.png)
 
-## 3단계:&#39;연락처&#39; 데이터 {#step-3--enriching--contact--data-} 실행
+## 3단계:&#39;연락처&#39; 데이터 {#step-3--enriching--contact--data-} 중단
 
 &quot;연락처&quot; 스키마가 물리적으로 &quot;구매&quot; 스키마에 연결되어 있습니다. 즉, &quot;강화&quot; 옵션의 다른 옵션을 사용할 수 있습니다.필터링 차원에 연결된 데이터 추가
 
