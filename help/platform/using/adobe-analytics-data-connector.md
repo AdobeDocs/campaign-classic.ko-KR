@@ -33,7 +33,7 @@ Adobe Analytics과 Adobe Campaign의 통합 구현에 대한 자세한 내용은
 
 * 웹 분석 역할:
 
-   1. adobe campaign으로 시작한 이메일 캠페인을 표시합니다.
+   1. Adobe Campaign으로 시작한 이메일 캠페인을 표시합니다.
    1. 세그먼트 형태로 캠페인 이메일을 클릭한 후 이동한 사이트에 수신자 동작을 저장합니다. 세그먼트는 중단된 제품(장바구니에 표시되지만 장바구니에 추가되지는 않음), 구매 또는 장바구니 포기에 대해 우려합니다.
 
 * Adobe Campaign 역할:
@@ -197,7 +197,7 @@ Adobe Campaign 트리의 **[!UICONTROL Administration > Production > Technical w
 * **[!UICONTROL Recovering of web events]**:이 워크플로우는 한 시간에 한 번 특정 사이트의 사용자의 행동에 대한 세그먼트를 다운로드하고 Adobe Campaign 데이터베이스에 포함하고 다시 마케팅 워크플로우를 시작합니다.
 * **[!UICONTROL Event purge]**:이 워크플로우에서는 필드에 구성된 기간에 따라 데이터베이스에서 모든 이벤트를 삭제할 수  **[!UICONTROL Lifespan]** 있습니다. 자세한 내용은 [단계 2:캠페인](#step-2--create-the-external-account-in-campaign)에서 외부 계정을 만듭니다.
 * **[!UICONTROL Identification of converted contacts]**:재마케팅 캠페인 후 구매한 방문자의 디렉토리입니다. 이 워크플로우로 수집된 데이터는 **[!UICONTROL Re-marketing efficiency]** 보고서에서 액세스할 수 있습니다. 이 [페이지](#creating-a-re-marketing-campaign)를 참조하십시오.
-* **[!UICONTROL Sending of indicators and campaign attributes]**:adobe analytics - 데이터 커넥터를 사용하여 Adobe Campaign을 통해 Adobe Experience Cloud으로 이메일 캠페인 표시기를 보낼 수 있습니다. 이 워크플로우는 매일 오전 4시에 트리거되며 데이터를 Analytics로 전송하는 데 24시간이 걸릴 수 있습니다.
+* **[!UICONTROL Sending of indicators and campaign attributes]**:Adobe Analytics - 데이터 커넥터를 사용하여 Adobe Campaign을 통해 Adobe Experience Cloud으로 이메일 캠페인 표시기를 보낼 수 있습니다. 이 워크플로우는 매일 오전 4시에 트리거되며 데이터를 Analytics로 전송하는 데 24시간이 걸릴 수 있습니다.
 
    이 작업 과정은 다시 시작하지 않아야 하며 그렇지 않으면 Analytics 결과를 왜곡할 수 있는 모든 이전 데이터가 다시 전송될 수 있습니다.
 
