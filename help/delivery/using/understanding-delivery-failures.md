@@ -192,13 +192,13 @@ ht-degree: 14%
 
 기존 캠페인 MTA를 사용하여 온-프레미스 설치 및 호스팅된/하이브리드 설치의 경우 배달 기간을 수정하려면 전달 또는 배달 템플릿의 고급 매개 변수로 이동하고 해당 필드에 원하는 기간을 지정합니다. [유효성 기간 정의](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)를 참조하십시오.
 
-기본 구성을 사용하면 1시간 간격으로 5회 재시도 후 4일 동안 1회 재시도 재시도 횟수는 전역적으로(Adobe 기술 관리자에게 문의) 또는 각 배달 또는 배달 템플릿에 대해 변경할 수 있습니다([재시도 구성](../../delivery/using/steps-sending-the-delivery.md#configuring-retries) 참조).
+기본 구성을 사용하면 1시간 간격으로 5회 재시도 후 4일 동안 1회 재시도 다시 시도 횟수는 전역적(Adobe 기술 관리자에게 문의) 또는 각 배달 또는 배달 템플릿에 대해 변경할 수 있습니다([재시도 구성](../../delivery/using/steps-sending-the-delivery.md#configuring-retries) 참조).
 
 ## 동기 및 비동기 오류 {#synchronous-and-asynchronous-errors}
 
 메시지는 전송(비동기 오류)한 후 즉시 실패하거나 나중에 실패할 수 있습니다(비동기 오류).
 
-* 동기 오류:adobe campaign 배달 서버가 연결한 원격 메일 서버에서 오류 메시지를 바로 반환했습니다. 전달을 프로필의 서버로 보낼 수 없습니다. Adobe Campaign은 해당 이메일 주소를 격리할지 여부를 결정하기 위해 각 오류를 확인합니다. [반송 메일 조건](#bounce-mail-qualification)을 참조하십시오.
+* 동기 오류:Adobe Campaign 배달 서버가 연결한 원격 메일 서버에서 오류 메시지를 바로 반환했습니다. 전달을 프로필의 서버로 보낼 수 없습니다. Adobe Campaign은 해당 이메일 주소를 격리할지 여부를 결정하기 위해 각 오류를 확인합니다. [반송 메일 조건](#bounce-mail-qualification)을 참조하십시오.
 * 비동기 오류: 반송 메일 또는 SR이 나중에 수신 서버에 의해 다시 전송되었습니다. 이 메일은 응용 프로그램에서 오류 메시지를 레이블에 지정하는 데 사용하는 기술 사서함에 로드됩니다. 게재를 보낸 후 1주일까지 비동기 오류가 발생할 수 있습니다.
 
    >[!NOTE]
@@ -240,7 +240,7 @@ Adobe Campaign 플랫폼을 사용하면 바운스 메일 기능을 통해 이�
 
 기존 캠페인 MTA를 사용하는 온-프레미스 설치 및 호스팅된/하이브리드 설치의 경우, 이메일 배달이 실패하면 Adobe Campaign 게재 서버는 메시징 서버 또는 원격 DNS 서버로부터 오류 메시지를 수신합니다. 오류 목록은 원격 서버에서 반환된 메시지에 포함된 문자열로 구성됩니다. 각 오류 메시지에 오류 유형 및 이유를 지정합니다.
 
-이 목록은 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 노드를 통해 사용할 수 있습니다. 여기에는 Adobe Campaign에서 배달 실패를 평가하는 데 사용하는 모든 규칙이 포함됩니다. 비배타적, 그리고 Adobe Campaign에 의해 정기적으로 업데이트되며 사용자가 관리할 수도 있습니다.
+이 목록은 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 노드를 통해 사용할 수 있습니다. 여기에는 Adobe Campaign에서 배달 실패를 평가하는 데 사용하는 모든 규칙이 포함됩니다. 비배타적, 정기적으로 Adobe Campaign에 의해 업데이트되며 사용자가 관리할 수도 있습니다.
 
 ![](assets/tech_quarant_rules_qualif.png)
 
