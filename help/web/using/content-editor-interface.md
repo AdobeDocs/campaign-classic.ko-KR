@@ -23,7 +23,7 @@ DCE 편집 창이 3개의 서로 다른 섹션으로 분할됩니다. 이러한 
 
 ![](assets/dce_decoupe_window_nb.png)
 
-1. **top** 섹션은 사용자에게 메시지를 보낼 수 있는 표시 영역입니다. 이러한 메시지는 웹 응용 프로그램 상태 또는 작성 중인 전달의 상태와 해당 컨텐츠와 관련된 경고 및 오류 메시지를 나타냅니다. 자세한 내용은 [HTML 콘텐츠 상태](../../web/using/content-editing-best-practices.md#html-content-statuses)를 참조하십시오.
+1. **top** 섹션은 사용자에게 메시지를 보낼 수 있는 표시 영역입니다. 이러한 메시지는 웹 응용 프로그램 상태 또는 작성 중인 전달의 상태뿐만 아니라 콘텐트와 관련된 경고 및 오류 메시지를 나타냅니다. 자세한 내용은 [HTML 콘텐츠 상태](../../web/using/content-editing-best-practices.md#html-content-statuses)를 참조하십시오.
 1. 창의 **left**&#x200B;에 대한 섹션은 컨텐츠를 편집할 영역입니다. 이 영역에서 사용자는 팝업 도구 모음을 사용하여 컨텐츠와 직접 상호 작용할 수 있습니다.이미지에 링크 삽입, 글꼴 변경, 필드 삭제 등 자세한 내용은 [양식 편집](../../web/using/editing-content.md#editing-forms)을 참조하십시오.
 1. 창의 **오른쪽**&#x200B;에 대한 섹션은 제어판 영역입니다. 이 영역은 편집기에 대한 다양한 옵션, 특히 페이지 머리글 및 블록에 대한 일반 옵션 구성과 관련된 옵션을 그룹화합니다.테두리를 추가하고, 데이터베이스 필드를 입력 영역으로 연결하거나, 웹 페이지 속성에 액세스하는 등의 작업을 수행합니다. 자세한 내용은 [글로벌 옵션](#global-options) 및 [컨텐츠 편집](../../web/using/editing-content.md) 섹션을 참조하십시오.
 
@@ -77,7 +77,7 @@ DCE 편집 창이 3개의 서로 다른 섹션으로 분할됩니다. 이러한 
 * 테두리 및 프레임을 정의합니다. [테두리 및 배경 추가](../../web/using/editing-content.md#adding-a-border-and-background),
 * 이미지 특성(크기, 캡션)을 정의합니다. [이미지 속성 편집](../../web/using/editing-content.md#editing-image-properties),
 * 데이터베이스를 양식 요소(입력 영역, 확인란)에 연결하려면 [양식](../../web/using/editing-content.md#changing-the-data-properties-for-a-form),
-* 양식의 일부를 필수 형식으로 만드십시오. 양식[,](../../web/using/editing-content.md#changing-the-data-properties-for-a-form)
+* 양식의 일부를 필수 형식으로 만드십시오. 양식](../../web/using/editing-content.md#changing-the-data-properties-for-a-form),[
 * 단추에 대한 동작을 정의합니다. [단추](../../web/using/editing-content.md#adding-an-action-to-a-button)에 동작 추가를 참조하십시오.
 
 ## 콘텐트 도구 모음 {#content-toolbar}
