@@ -102,19 +102,19 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
  <tbody> 
   <tr> 
    <td> 제목<br /> </td> 
-   <td> 특성<br /> </td> 
+   <td> 속성<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 제목<br /> </td> 
   </tr> 
   <tr> 
    <td> 하위 제목<br /> </td> 
-   <td> 특성<br /> </td> 
+   <td> 속성<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 이름<br /> </td> 
   </tr> 
   <tr> 
    <td> 이벤트 날짜<br /> </td> 
-   <td> 특성<br /> </td> 
+   <td> 속성<br /> </td> 
    <td> 날짜<br /> </td> 
    <td> 날짜<br /> </td> 
   </tr> 
@@ -126,7 +126,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
   </tr> 
   <tr> 
    <td> 작성자 사진<br /> </td> 
-   <td> 특성<br /> </td> 
+   <td> 속성<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> URL<br /> </td> 
   </tr> 
@@ -138,7 +138,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
   </tr> 
   <tr> 
    <td> 헤더 로고(Adobe Campaign 공용 리소스에 저장됨)<br /> </td> 
-   <td> 특성<br /> </td> 
+   <td> 속성<br /> </td> 
    <td> 링크<br /> </td> 
    <td> 이미지<br /> </td> 
   </tr> 
