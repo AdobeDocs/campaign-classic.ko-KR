@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 배달 대시보드
+title: 게재 대시보드
 description: 배달 대시보드를 사용하여 배달을 모니터링하는 방법에 대해 자세히 알아보십시오.
 audience: delivery
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 4%
 ---
 
 
-# 배달 대시보드 {#delivery-dashboard}
+# 게재 대시보드 {#delivery-dashboard}
 
 **배달 대시보드**&#x200B;는 메시지를 보내는 동안 발생하는 배달 및 최종 문제를 모니터링하는 키 역할을 합니다.
 
