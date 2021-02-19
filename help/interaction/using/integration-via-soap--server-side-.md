@@ -28,8 +28,8 @@ SOAP를 통한 오퍼 제안의 경우, **nms:propose#Propose** 명령과 다음
 * **컨텍스트**:공간 스키마에 컨텍스트 정보를 추가할 수 있습니다. 사용된 스키마가 **nms:interaction**&#x200B;이면 **`<empty>`**&#x200B;을(를) 추가해야 합니다.
 * **카테고리**:오퍼가 속해야 하는 카테고리를 지정합니다.
 * **테마**:오퍼가 속해야 하는 테마를 지정합니다.
-* **uuid**:adobe campaign 영구 쿠키의 값(&quot;uuid230&quot;).
-* **nli**:adobe campaign 세션 쿠키의 값(&quot;nlid&quot;).
+* **uuid**:Adobe Campaign 영구 쿠키의 값(&quot;uuid230&quot;).
+* **nli**:Adobe Campaign 세션 쿠키의 값(&quot;nlid&quot;).
 * **noProp**:&quot;true&quot; 값을 사용하여 제안 삽입을 비활성화합니다.
 
 >[!NOTE]
