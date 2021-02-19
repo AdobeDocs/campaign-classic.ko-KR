@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 가져오기 작업 {#executing-import-jobs} 구성
+# 가져오기 작업 구성 {#executing-import-jobs}
 
 Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB 또는 XML 형식으로 데이터를 데이터베이스로 가져올 수 있습니다. 이러한 파일은 테이블(기본 또는 링크)과 연결되어 있으며 소스 파일의 각 필드는 데이터베이스의 필드와 연결됩니다.
 
