@@ -1560,7 +1560,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> 정의되지 않은 경우 최신 버전이 사용됩니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> useMomum<br /> </td> 
+   <td> useMomentum<br /> </td> 
    <td> "true"로 설정된 경우 인스턴스가 <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">향상된 MTA</a>.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> <br /> </td>b 
@@ -1731,7 +1731,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> idleChildTimeoutSec<br /> </td> 
-   <td> 유휴 하위 서버가 중지될 때까지 시간 초과입니다. 하위 서버에 이 매개 변수보다 높은 유휴 시간이 있으면 자동으로 종료되어 호스트 리소스를 확보합니다.<br /> </td> 
+   <td> 유휴 하위 서버가 중지될 때까지 시간 초과입니다. 하위 서버에 이 매개 변수보다 높은 유휴 시간이 있으면 자동으로 종료되어 호스트 리소스를 해제합니다.<br /> </td> 
    <td> 긴<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
