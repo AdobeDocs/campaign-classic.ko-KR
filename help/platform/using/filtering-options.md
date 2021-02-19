@@ -38,7 +38,7 @@ ht-degree: 2%
 
 ![](assets/filter_web_select_folder.png)
 
-폴더에 있는 프로파일만 표시됩니다.
+폴더의 프로필만 표시됩니다.
 
 ![](assets/filter_web_folder_display.png)
 
