@@ -63,7 +63,7 @@ Adobe Campaign 클라이언트 콘솔에서 사용할 수 있는 그래픽 마�
 
 * **[!UICONTROL Email channel]** :전자 메일 배달을 활성화하려면 [이메일 채널 매개 변수](#email-channel-parameters)를 참조하십시오.
 * **[!UICONTROL Tracking]** :대상 모집단 추적을 활성화하려면(열고 클릭). [추적 구성](#tracking-configuration)을 참조하십시오.
-* **[!UICONTROL Managing bounced emails]** :받는 전자 메일을 선택하는 데 사용되는 POP 계정을 정의하려면 바운스된 이메일 관리[를 참조하십시오.](#managing-bounced-emails)
+* **[!UICONTROL Managing bounced emails]** :받는 전자 메일을 선택하는 데 사용되는 POP 계정을 정의하려면 바운스된 이메일 관리](#managing-bounced-emails)를 참조하십시오.[
 * **[!UICONTROL LDAP integration]** :LDAP 디렉토리를 통해 사용자 인증을 구성하려면 [LDAP](../../installation/using/connecting-through-ldap.md)을 통해 연결을 참조하십시오.
 
 ## 전자 메일 채널 매개 변수 {#email-channel-parameters}
