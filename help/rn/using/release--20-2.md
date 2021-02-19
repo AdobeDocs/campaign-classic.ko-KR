@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
 workflow-type: tm+mt
 source-wordcount: '2556'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -25,17 +25,17 @@ _2020년 12월 22일_
 
 >[!CAUTION]
 >
-> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 3월 31일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다&#x200B;**.**
-> * 이 릴리스는 [보안 수정](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)과 함께 제공됩니다.환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 이 페이지](../../integrations/using/configuring-adobe-io.md)에서 설명한 대로 Adobe I/O으로 이동해야 합니다. [ 이전 Auth 인증 모드는 **2021년 4월 30일에 종료됩니다**.
+> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. IMS(Adobe ID Service)를 통해 Campaign에 연결할 경우, **2021년 3월 31일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다.
+> * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지](../../integrations/using/configuring-adobe-io.md)에 설명한 대로 Adobe I/O로 이동해야 합니다. 레거시 oAuth 인증 모드는 **2021년 4월 30일**&#x200B;에 종료됩니다.
 
 
 
 **개선 사항**
 
 * 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
-* 파이프라인 액세스를 위한 oAUTH 인증 설정을 기반으로 원래 통합 인증을 트리거했습니다. [자세한 내용](../../integrations/using/configuring-adobe-io.md)
-* [iOS APNs 레거시 바이너리 프로토콜](https://developer.apple.com/news/?id=c88acm2b)에 대한 지원이 종료된 후 업그레이드 후 이 프로토콜을 사용하는 모든 인스턴스가 HTTP/2 프로토콜로 업데이트됩니다.
+* 원래 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 통합 인증이 변경되었으며 Adobe I/O으로 이동되었습니다. [자세한 내용](../../integrations/using/configuring-adobe-io.md)
+* [iOS APNs 레거시 이진 프로토콜에 대한 지원 종료](https://developer.apple.com/kr/news/?id=c88acm2b)에 따라 업그레이드 이후 이 프로토콜을 사용하는 모든 인스턴스는 HTTP/2 프로토콜로 업데이트됩니다.
 * SSRF(Server Side Request Forgery) 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-27777)
 * 연결 오류 후 SMPP 커넥터를 비활성화하여 다른 SMS 배달이 전송되지 못하도록 하고 성능 문제가 발생하는 문제를 해결했습니다. (NEO-28609)
 * 식 구문 분석기를 지울 때 메모리 손상을 방지하여 서버 충돌 문제를 해결했습니다. (NEO-26856)
