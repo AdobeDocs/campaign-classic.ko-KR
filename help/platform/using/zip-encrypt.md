@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 내보낼 �
 
 **관련 항목:**
 
-* [처리하기 전에 파일 압축 해제 또는 해독](../../platform/using/unzip-decrypt.md)
+* [처리 전 파일 압축 해제 또는 암호 해독](../../platform/using/unzip-decrypt.md)
 * [데이터 추출(파일) 활동](../../workflow/using/extraction--file-.md).
 
 ## 사용 사례:Campaign 컨트롤 패널 {#use-case-gpg-encrypt}에 설치된 키를 사용하여 데이터 암호화 및 내보내기
