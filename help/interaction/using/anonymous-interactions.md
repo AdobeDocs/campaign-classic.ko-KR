@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ![](assets/do-not-localize/how-to-video.png) 이  [](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com) 비디오를 통해 식별된 타겟과 익명 타겟에 오퍼가 어떻게 제공되는지 간략하게 살펴볼 수 있습니다.
 
-## 익명 상호 작용 {#targeting-and-storing-an-environment-for-anonymous-interactions}에 대한 환경 타깃팅 및 저장
+## 익명 상호 작용 {#targeting-and-storing-an-environment-for-anonymous-interactions} 환경을 타깃팅 및 저장
 
 기본적으로 상호 작용은 수신자 테이블(식별된 오퍼)을 대상으로 하기 위해 사전 구성된 환경을 제공합니다. 다른 테이블(익명 오퍼의 방문자 테이블 또는 특정 수신자 테이블의 방문자 테이블)을 타깃팅하려면 대상 매핑 마법사를 사용하여 환경을 만들어야 합니다. 자세한 내용은 [오퍼 환경 만들기](../../interaction/using/live-design-environments.md#creating-an-offer-environment)를 참조하십시오.
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 아웃바운드 상호 작용과 마찬가지로 인바운드 상호 작용은 카테고리와 오퍼로 구성된 오퍼 카탈로그에서 구성됩니다.
 
-카테고리 및 공백을 만들려면 식별된 방문자에 대해 동일한 프로세스를 적용합니다(오퍼 카테고리 만들기[ 및 ](../../interaction/using/creating-offer-categories.md)오퍼 환경 만들기[ 참조).](../../interaction/using/live-design-environments.md#creating-an-offer-environment)
+카테고리 및 공백을 만들려면 식별된 방문자에 대해 동일한 프로세스를 적용합니다(오퍼 카테고리 만들기](../../interaction/using/creating-offer-categories.md) 및 [오퍼 환경 만들기](../../interaction/using/live-design-environments.md#creating-an-offer-environment) 참조).[
 
 ## 익명의 방문자 {#anonymous-visitors}
 
