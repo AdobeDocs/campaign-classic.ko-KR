@@ -708,7 +708,7 @@ ht-degree: 1%
   <tr> 
    <td> 재활동<br /> </td> 
    <td> @reactivity<br /> </td> 
-   <td> 배달을 한 번 이상 클릭한 대상 받는 사람 수의 비율과 배달을 한 번 이상 연 대상 받는 사람의 예상 수와 비교됩니다.<br /> </td> 
+   <td> 배달을 한 번 이상 클릭한 대상 받는 사람 수의 비율과 배달을 한 번 이상 연 대상 받는 사람 수의 예상 수와 비교됩니다.<br /> </td> 
    <td> 퍼센트([표시기/@recipientClick], [표시기/@estimatedRecipientOpen])<br /> </td> 
   </tr> 
   <tr> 
@@ -867,7 +867,7 @@ ht-degree: 1%
   <tr> 
    <td> 소프트 바운스<br /> </td> 
    <td> @softBounce<br /> </td> 
-   <td> 상태가 "실패"이고 "연결할 수 없음", "받은 편지함 꽉 참", "잘못된 도메인", "사용할 수 없는 계정", "연결되지 않음" 또는 "거부됨"<br /> </td> 
+   <td> 상태가 "실패"이고 "연결할 수 없음", "받은 편지함 full", "잘못된 도메인", "사용할 수 없는 계정", "연결되지 않음" 또는 "거부됨" 상태의 모든 메시지 합계<br /> </td> 
    <td> @unreachable + @mailBoxFull + @invalidDomain + @disabled + @notConnected + @refused<br /> </td> 
   </tr> 
   <tr> 
