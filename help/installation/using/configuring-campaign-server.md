@@ -344,7 +344,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 URL 권한을 관리할 수 있는 방법은 호스팅 모델에 따라 다릅니다.
 
 * **하이브리더** 온-프레미스 ****:serverConf.xml 파일에 허용하도록 URL **을 추가합니다**. 자세한 정보는 아래 섹션에 있습니다.
-* **호스팅**:campaign 컨트롤 패널을 통해 허용할 URL을  **추가합니다**. 자세한 내용은 [전용 설명서](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/url-permissions.html)를 참조하십시오.
+* **호스팅**:Campaign 컨트롤 패널을 통해 허용할 URL을  **추가합니다**. 자세한 내용은 [전용 설명서](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/url-permissions.html)를 참조하십시오.
 
 **하이브리드** 및 **온-프레미스** 호스팅 모델을 사용하여 관리자는 **serverConf.xml** 파일의 새 **urlPermission**&#x200B;을 참조해야 합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열됩니다.
 
