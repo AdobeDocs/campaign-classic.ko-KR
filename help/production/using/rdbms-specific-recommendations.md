@@ -104,7 +104,7 @@ vacuum full nmsdelivery;
 
 PostgreSQL은 **innofull**&#x200B;이 테이블을 잠급기 때문에 정규 프로덕션을 방지하므로 온라인 테이블 다시 빌드를 쉽게 수행할 수 있는 방법을 제공하지 않습니다. 즉, 테이블을 사용하지 않을 때 유지 관리를 수행해야 합니다. 다음 중 하나를 수행할 수 있습니다.
 
-* adobe campaign 플랫폼이 중지되면 유지 관리 수행,
+* Adobe Campaign 플랫폼이 중지되면 유지 관리 수행,
 * 다시 빌드되는 테이블에 작성할 수 있는 다양한 Adobe Campaign 하위 서비스를 중지합니다(**nlserver stop wfserver instance_name**. 워크플로 프로세스를 중지하려면).
 
 다음은 필요한 DDL을 생성하기 위해 특정 함수를 사용하는 테이블 조각 모음의 예입니다. 다음 SQL을 사용하여 두 개의 새 함수를 만들 수 있습니다.**GenRebuildTablePart1** 및 **GenRebuildTablePart2**&#x200B;을(를) 사용하여 테이블을 다시 만드는 데 필요한 DDL을 생성할 수 있습니다.
