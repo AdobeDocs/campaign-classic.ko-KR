@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: c5c881d6919a8715e6588fb39793f562a16873bb
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->Auth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 **아래 설명에 따라 Adobe I/O으로 이동해야 합니다.** 레거시 Auth 인증 모드는 2021년 4월 30일에 종료됩니다. [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>Auth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 **아래 설명에 따라 Adobe I/O으로 이동해야 합니다.** 레거시 oAuth 인증 모드는 2021년 4월 30일에 종료됩니다. [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 >
 >Adobe I/O으로 이동하는 동안 일부 수신 트리거가 손실될 수 있습니다.
 
