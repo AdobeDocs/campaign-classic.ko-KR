@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # 시뮬레이션 추적{#simulation-tracking}
 
-시뮬레이션이 완료되면 시뮬레이션 대시보드에서 사용할 수 있는 시뮬레이션 창 및 **[!UICONTROL Results]** 보고서를 통해 해당 결과를 분석할 수 있습니다.**[!UICONTROL Breakdown of offers by rank]**
+시뮬레이션이 완료되면 시뮬레이션 대시보드에서 사용할 수 있는 시뮬레이션 창 및 **[!UICONTROL Breakdown of offers by rank]** 보고서를 통해 해당 결과를 분석할 수 있습니다.**[!UICONTROL Results]**
 
 시뮬레이션 결과에는 등급과 수신자별 제안 분류가 포함됩니다. 보고 축도 고려되고 이 탭에 표시됩니다.
 
