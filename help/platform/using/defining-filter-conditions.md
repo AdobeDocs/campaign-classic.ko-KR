@@ -77,7 +77,7 @@ ht-degree: 37%
   <tr> 
    <td> <span class="uicontrol">포함</span> <br /> </td> 
    <td> 입력한 값 이상을 포함하는 결과를 반환합니다.<br /> </td> 
-   <td> <strong>전자 메일 도메인(@domain)에 'mail'이</strong> 들어 있으며 'mail'이 포함된 모든 도메인 이름을 반환합니다. 따라서 'gmail.com' 도메인도 반환됩니다.<br /> </td> 
+   <td> <strong>이메일 도메인(@domain)에 'mail'이</strong> 들어 있으며 'mail'이 포함된 모든 도메인 이름을 반환합니다. 따라서 'gmail.com' 도메인도 반환됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">포함하지 않음</span> <br /> </td> 
