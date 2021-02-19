@@ -59,13 +59,13 @@ SDK의 목표는 모바일 애플리케이션을 Adobe Campaign 플랫폼으로 
 
 Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자가 개발자에게 다음 정보를 제공해야 합니다.
 
-* **통합 키**:adobe campaign 플랫폼을 활성화하여 모바일 애플리케이션을 식별합니다.
+* **통합 키**:Adobe Campaign 플랫폼을 활성화하여 모바일 애플리케이션을 식별합니다.
 
    >[!NOTE]
    >
    >이 통합 키는 모바일 응용 프로그램 전용 서비스의 **[!UICONTROL Information]** 탭에서 Adobe Campaign 콘솔에 입력됩니다. Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md)에서 모바일 응용 프로그램 구성을 참조하십시오.[
 
-* **추적 URL**:adobe campaign 추적 서버 주소와 일치합니다.
+* **추적 URL**:Adobe Campaign 추적 서버 주소와 일치합니다.
 * **마케팅 URL**:을 클릭하여 구독을 수집할 수 있습니다.
 
 * **Android에서**:
