@@ -267,7 +267,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
    ![](assets/packagedefinition_packageselection.png)
 
-1. 엔터티가 패키지 정의에 추가되고 패키지와 함께 내보내집니다(패키지 정의[에서 패키지 내보내기 참조).](#exporting-packages-from-a-package-definition)
+1. 엔터티가 패키지 정의에 추가되고 패키지와 함께 내보내집니다(패키지 정의](#exporting-packages-from-a-package-definition)에서 패키지 내보내기 참조).[
 
    ![](assets/packagedefinition_entityadded.png)
 
@@ -307,7 +307,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 패키지 가져오기 마법사는 Adobe Campaign 클라이언트 콘솔의 기본 메뉴 **[!UICONTROL Tools > Advanced > Package import...]**&#x200B;을 통해 액세스할 수 있습니다.
 
-라이선스 약관에 따라 이전에 수행한 내보내기(예: 다른 Adobe Campaign 인스턴스에서)나 [내장 패키지](../../installation/using/installing-campaign-standard-packages.md)에서 패키지를 가져올 수 있습니다.
+라이선스 약관에 따라 이전에 수행한 내보내기(예: 다른 Adobe Campaign 인스턴스에서) 또는 [내장 패키지](../../installation/using/installing-campaign-standard-packages.md)에서 패키지를 가져올 수 있습니다.
 
 ![](assets/ncs_datapackage_import.png)
 
