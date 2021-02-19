@@ -51,7 +51,7 @@ ht-degree: 1%
 
    받는 사람을 설명하는 분석의 예를 보려면 다음을 참조하십시오.[질적 데이터 분석](../../reporting/using/use-cases.md#qualitative-data-analysis).
 
-* **workflow** 컨텍스트에서 수신자 테이블을 가리키는 전환 위에 커서를 놓고 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Analyze target]**&#x200B;를 선택합니다. 자세한 내용은 워크플로우[에서 전환 대상 분석의 예를 참조하십시오.](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow)
+* **workflow** 컨텍스트에서 수신자 테이블을 가리키는 전환 위에 커서를 놓고 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Analyze target]**&#x200B;를 선택합니다. 자세한 내용은 워크플로우](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow)에서 전환 대상 분석의 예를 참조하십시오.[
 * **lists**&#x200B;에 대해 하나 이상의 목록을 선택하고 수신자와 동일한 프로세스를 적용합니다.
 * **배달** 컨텍스트에서 분석할 대상이 있는 배달을 선택하고 마우스 오른쪽 단추를 클릭한 후 **[!UICONTROL Actions > Explore the target]**&#x200B;를 선택합니다(아래 참조).
 
