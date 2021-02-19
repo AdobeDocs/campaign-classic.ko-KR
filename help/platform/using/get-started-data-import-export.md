@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 데이터 가져오기 및 내보내기 시작하기
+title: 데이터 가져오기 및 내보내기 시작
 description: Campaign Classic에서 데이터 가져오기 및 내보내기에 대한 자세한 내용을 살펴보십시오.
 audience: platform
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
 
-# 데이터 가져오기 및 내보내기 {#get-started-data-import-export} 시작하기
+# 데이터 가져오기 및 내보내기 시작 {#get-started-data-import-export}
 
 Adobe Campaign Classic은 데이터를 가져오고 내보낼 수 있는 데이터 관리 기능을 제공합니다. 이러한 작업은 워크플로우 또는 일반 가져오기 및 내보내기를 사용하여 수행할 수 있습니다.
 
@@ -59,7 +59,7 @@ Campaign Classic을 사용하면 압축 또는 암호화된 파일을 가져오�
 * [파일의 압축을 풀거나 해독합니다.](../../platform/using/unzip-decrypt.md)
 * [파일 압축 또는 암호화](../../platform/using/zip-encrypt.md)
 
-## 우수 사례 및 문제 해결 {#best-practices-troubleshooting}
+## 모범 사례 및 문제 해결{#best-practices-troubleshooting}
 
 <img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
 
