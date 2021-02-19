@@ -19,7 +19,7 @@ ht-degree: 16%
 
 Adobe Campaign에서는 [내장 보고서](../../reporting/using/about-campaign-built-in-reports.md) 이외에 다양한 컨텍스트에서 보고서를 생성하고 다른 요구를 충족할 수 있습니다. 사용 및 구현 모드의 원칙은 이 문서에 자세히 설명되어 있습니다.
 
-Adobe Campaign은 전문 보고 도구가 아닙니다.adobe campaign에서 생성된 보고서를 사용하면 일반적으로 집계된 데이터를 볼 수 있습니다. 데이터 분석 및 표시 전용 Adobe Campaign 보고서는 데이터베이스 내보내기에 대해 설계되지 않았습니다.
+Adobe Campaign은 전문 보고 도구가 아닙니다.Adobe Campaign에서 생성된 보고서를 사용하면 일반적으로 집계된 데이터를 볼 수 있습니다. 데이터 분석 및 표시 전용 Adobe Campaign 보고서는 데이터베이스 내보내기에 대해 설계되지 않았습니다.
 
 Adobe Campaign 데이터베이스에서 데이터를 내보내려면 워크플로우를 만들고 데이터 내보내기 활동을 사용해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/about-action-activities.md)을 참조하십시오.
 
