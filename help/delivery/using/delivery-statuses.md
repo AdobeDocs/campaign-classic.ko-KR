@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 배달 상태
+title: 게재 상태
 description: 배달 대시보드에서 사용할 수 있는 상태에 대해 자세히 알아보십시오.
 audience: delivery
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: de0e4555d3e2c5dff8d86a22ff4db85953105db1
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 
-# 배달 상태 {#delivery-statuses}
+# 게재 상태 {#delivery-statuses}
 
 <!--ajouter intro 
 
@@ -29,8 +29,8 @@ ajouter screenshot -->
 
 **관련 항목:**
 
-* [배달 대시보드](../../delivery/using/delivery-dashboard.md)
-* [배달 문제 해결](../../delivery/using/delivery-troubleshooting.md)
+* [게재 대시보드](../../delivery/using/delivery-dashboard.md)
+* [게재 문제 해결](../../delivery/using/delivery-troubleshooting.md)
 * [게재 기능 기본 정보](../../delivery/using/about-deliverability.md)
 
 ## 배달 상태 목록 {#list-delivery-statuses}
