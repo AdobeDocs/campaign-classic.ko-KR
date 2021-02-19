@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
 
-# 워크플로우 {#import-export-workflows}을(를) 사용하여 데이터 가져오기 및 내보내기
+# 워크플로우를 사용하여 데이터 가져오기 및 내보내기 {#import-export-workflows}
 
 ## 데이터 수집 중 {#collecting-data-workflows}
 
