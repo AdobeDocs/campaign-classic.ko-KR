@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 반복 가져오기 작업 과정 설정 {#setting-up-a-recurring-import}
+# 반복 가져오기 워크플로우 설정 {#setting-up-a-recurring-import}
 
 동일한 구조의 파일을 정기적으로 가져와야 하는 경우 워크플로우 템플릿을 사용하는 것이 가장 좋습니다.
 
