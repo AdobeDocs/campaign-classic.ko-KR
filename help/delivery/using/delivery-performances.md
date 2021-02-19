@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 전달 성능 우수 사례
+title: 게재 성능 모범 사례
 description: 전달 성능 및 모범 사례에 대한 자세한 내용을 살펴보십시오.
 audience: delivery
 content-type: reference
@@ -10,19 +10,19 @@ translation-type: tm+mt
 source-git-commit: 5b43412286762977c416665d296908a9bfc9b20a
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# 배달 성능 우수 사례 {#delivery-performances}
+# 게재 성능 모범 사례 {#delivery-performances}
 
 배달이 제대로 수행되도록 하려면 아래 지침을 따를 것을 권장합니다. 또한 납품 문제가 발생하면 확인 작업을 수행하는 것이 좋습니다.
 
 **관련 항목:**
 
-* [배달 대시보드](../../delivery/using/delivery-dashboard.md)
-* [배달 문제 해결](../../delivery/using/delivery-troubleshooting.md)
+* [게재 대시보드](../../delivery/using/delivery-dashboard.md)
+* [게재 문제 해결](../../delivery/using/delivery-troubleshooting.md)
 * [게재 기능 기본 정보](../../delivery/using/about-deliverability.md)
 
 ## 성능 모범 사례 {#best-practices-performance}
