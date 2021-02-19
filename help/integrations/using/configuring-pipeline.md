@@ -7,9 +7,9 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: 531eb23ff8fe1b77c37a51e7f99921b0bc071f0f
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '908'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 이 구성을 시작하기 전에 다음을 사용 중인지 확인하십시오.
 
-* Adobe Campaign 20.3 또는 Gold Standard 11 릴리스 최소
+* Adobe Campaign 20.3, 20.2.4, 19.1.8 또는 Gold Standard 11 최소
 * Adobe Analytics Standard 버전
 
 또한 다음 작업이 필요합니다.
@@ -37,7 +37,7 @@ ht-degree: 1%
 * Adobe I/O 프로젝트 인증
 * 유효한 IMSOrgID, Adobe Analytics이 있는 Experience Cloud 고객의 ID가 추가됨
 * IMS 조직에 대한 개발자 액세스
-* adobe analytics에서 수행한 트리거 구성
+* Adobe Analytics에서 수행한 트리거 구성
 
 ## 인증 및 구성 파일 {#authentication-configuration}
 
@@ -49,7 +49,7 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 
 호스팅 고객의 경우 고객 지원 티켓을 만들어 트리거 통합을 위해 Adobe I/O 기술 계정 토큰으로 조직에서 사용할 수 있도록 할 수 있습니다.
 
-온-프레미스 고객은 [Adobe Experience Cloud 트리거에 대해 Adobe I/O 구성](../../integrations/using/configuring-adobe-io.md) 페이지를 참조하십시오. Adobe I/O 자격 증명에 API를 추가하는 동안 **[!UICONTROL Adobe Analytics]**&#x200B;을 선택해야 합니다.
+온-프레미스 고객은 [Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성](../../integrations/using/configuring-adobe-io.md) 페이지를 참조하십시오. Adobe I/O 자격 증명에 API를 추가하는 동안 **[!UICONTROL Adobe Analytics]**&#x200B;을 선택해야 합니다.
 
 ## 2단계:NmsPipeline_Config 파이프라인 구성 옵션 {#configuring-nmspipeline}
 
