@@ -321,7 +321,7 @@ MX에 대해 준수되는 규칙은 트리의 **[!UICONTROL Administration > Cam
 * **HTML**:HTML 전용 메시지가 전송됩니다. HTML 형식이 허용되지 않으면 메시지가 표시되지 않습니다.
 * **텍스트**:텍스트 전용 형식의 메시지가 전송됩니다. 텍스트 형식 메시지의 이점은 크기가 매우 작기 때문입니다.
 
-**[!UICONTROL Image inclusion]** 옵션이 활성화되어 있으면 이메일 본문에 직접 표시됩니다. 이미지가 업로드되고 URL 링크가 해당 컨텐츠로 바뀝니다.
+**[!UICONTROL Image inclusion]** 옵션이 활성화되어 있으면 이메일 본문에 직접 표시됩니다. 그러면 이미지가 업로드되고 URL 링크가 해당 컨텐츠로 바뀝니다.
 
 이 옵션은 특히 **데코메일**, **데코어 메일** 또는 **데코레이션 메일**&#x200B;에 대한 일본 시장에서 사용됩니다. 자세한 내용은 [이 문서](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles)를 참조하십시오.
 
