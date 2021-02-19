@@ -119,7 +119,7 @@ return aReturnedProps;
 
 이 후크를 사용하면 외부 엔진을 호출하여 오퍼에 연결된 제품 목록을 선택할 수 있습니다. 자격 조건 규칙 후, Typical 규칙 응용 프로그램 전에 오퍼에 구성됩니다.
 
-이전에 통합자는 제품에 대한 추가 정보와 함께 **PropositionRcp** 스키마를 확장해야 합니다. 이 데이터를 저장할 위치를 지정하려면 스페이스의 **[!UICONTROL Storage]** 탭에서 **[!UICONTROL Proposition being processed]** 링크를 사용할 수 있습니다
+이전에 통합자는 제품에 대한 추가 정보와 함께 **PropositionRcp** 스키마를 확장해야 합니다. 이 데이터를 저장할 위치를 지정하려면 스페이스의 **[!UICONTROL Storage]** 탭에서 **[!UICONTROL Proposition being processed]** 링크를 사용할 수 있습니다.
 
 ![](assets/interaction_hooks_3.png)
 
