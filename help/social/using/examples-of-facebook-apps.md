@@ -37,7 +37,7 @@ Facebook 유형 웹 애플리케이션의 예는 다음과 같습니다.
 
 * 7단계에서 Facebook 애플리케이션을 만드는 방법입니다. [빠른 시작 참조:7단계](#quick-start--creating-a-facebook-application-in-7-steps)에서 Facebook 애플리케이션 만들기를 참조하십시오.
 * Facebook 애플리케이션에 설정을 전달하는 방법. [설정을 Facebook 애플리케이션에 전달하는 방법?](#how-to-forward-settings-to-a-facebook-application-)을 참조하십시오.
-* 팬 데이터를 얻는 방법 팬 데이터를 얻는 방법?[을 참조하십시오.](#how-to-acquire-fan-data-)
+* 팬 데이터를 얻는 방법 팬 데이터를 얻는 방법?](#how-to-acquire-fan-data-)을 참조하십시오.[
 
 >[!IMPORTANT]
 >
@@ -175,7 +175,7 @@ Facebook에 연결된 표시 오류를 사이드 단계로 이동하려면 경�
 
 **[!UICONTROL Access control]** 활동에서는 사용자가 경쟁에 들어갈 때 Facebook 권한 요청 페이지를 표시할 수 있습니다. 사용자가 정보를 공유하기로 동의하면 사전 로드 중에 복구됩니다. 자세한 내용은 다음을 참조하십시오.[활동 사전 로드](#pre-loading-activity).
 
-웹 애플리케이션을 만들 때 이전에 외부 계정을 입력한 경우(Facebook 유형 웹 애플리케이션 만들기[ 참조) 활동을 편집할 필요가 없습니다. ](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application) 없는 경우 **[!UICONTROL Application]** 필드로 이동하여 Facebook 애플리케이션에 연결된 외부 계정을 선택합니다.
+웹 애플리케이션을 만들 때 이전에 외부 계정을 입력한 경우(Facebook 유형 웹 애플리케이션 만들기](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application) 참조) 활동을 편집할 필요가 없습니다. [ 없는 경우 **[!UICONTROL Application]** 필드로 이동하여 Facebook 애플리케이션에 연결된 외부 계정을 선택합니다.
 
 ![](assets/social_webapp_024.png)
 
