@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: de0e4555d3e2c5dff8d86a22ff4db85953105db1
+source-git-commit: 29801740c10dc182bdb5f00114298d04385a3e1b
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '617'
 ht-degree: 4%
 
 ---
@@ -69,7 +69,7 @@ ajouter screenshot -->
   </tr> 
   <tr> 
    <td> 서비스 공급자가 고려합니다<br />. </td> 
-   <td> SMS 서비스 공급자가 배달을 받았습니다.<br /> </td> 
+   <td> SMS 서비스 공급자가 배달을 받았습니다.<br /> 호스팅 또는 하이브리드 설치의 경우,  <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">향상된 MTA로 업그레이드한</a> 경우 메시지가 Campaign에서 향상된 MTA로 성공적으로 전달되었습니다.</td> 
   </tr> 
   <tr> 
    <td> 모바일<br />에서 수신됨 </td> 
@@ -129,7 +129,7 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한
 
    이 경우 트래픽 관리(IP 친화성)의 구성을 확인하고 **[!UICONTROL Managing affinities with IP addresses]** 필드를 사용하여 친화성을 관리하는 MTA에 제공을 연결합니다. 친화성에 대한 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)을 참조하십시오.
 
-* 실행 중인 캠페인이 너무 많으면 배달 상태가 &#39;보류 중&#39; 상태로 유지됩니다.
+* 너무 많은 캠페인이 실행 중이면 배달 상태가 &#39;보류 중&#39; 상태로 유지됩니다.
 
    동시 캠페인의 제한은 **[!UICONTROL NmsOperation_LimitConcurrency]** 옵션에 정의됩니다. 기본값은 10입니다.
 
