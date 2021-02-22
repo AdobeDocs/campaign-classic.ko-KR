@@ -7,11 +7,11 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: 마케팅 투자에 대한 높은 수익을 제공하는 크로스 채널 마케팅 Campaign을 설계, 계획, 실행, 관리 및 최적화할 수 있습니다.
 solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
-type: Documentation
+type: 설명서
 translation-type: tm+mt
-source-git-commit: efa36dc08ce4dd59805bb9eba63a4249e14609d7
+source-git-commit: 4030eb1cf9aa78a10daffe9ea849aa205660e359
 workflow-type: tm+mt
-source-wordcount: '2349'
+source-wordcount: '2351'
 ht-degree: 97%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 97%
       + [Gold Standard 릴리스 정보](rn/using/gold-standard.md)
       + [Gold Standard 호환성 매트릭스](rn/using/compatibility-matrix-gs.md)
    + 이전 릴리스 {#previous-releases}
+      + [릴리스 20.3](rn/using/release--20-3.md)
       + [릴리스 20.2](rn/using/release--20-2.md)
       + [릴리스 20.1](rn/using/release--20-1.md)
       + [릴리스 19.2](rn/using/release--19-2.md)
