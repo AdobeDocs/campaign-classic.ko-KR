@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 14%
@@ -24,8 +24,9 @@ _2020년 12월 23일_
 >[!CAUTION]
 >
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. IMS(Adobe ID Service)를 통해 Campaign에 연결할 경우, **2021년 3월 31일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다.
->
-> * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
+   >
+   > 
+* 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
 
 
 
@@ -43,7 +44,7 @@ _2020년 2월 7일_
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 19.2 - 빌드 9080 {#release-19-2-build-9080}
 
-_2019년 12월 02일_
+_2019년 12월 2일_
 
 **새로운 기능**
 
@@ -118,7 +119,7 @@ _2019년 12월 02일_
 * 푸시 알림에 대한 메모리 사용 최적화.
 * 성능 및 저장 최적화를 위해 **logins.log** 파일의 처리가 향상되었습니다. 이제 파일이 여러 파일로 분할되어 하루에 한 번씩 최대 365개의 파일이 유지됩니다. [자세한 내용](../../production/using/log-files.md)
 * 이제 암호 자격 증명(암호 + 사용자 이름) 또는 인증서(개인 키)를 사용하여 Microsoft Dynamics CRM 외부 계정을 구성할 수 있습니다. [자세한 내용](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
-* 안정성을 개선하기 위해 Hadoop FDA 커넥터에 몇 가지 개선 사항이 추가되었습니다.
+* Hadoop FDA 커넥터에 몇 가지 향상된 기능이 추가되어 안정성을 높였습니다.
 * 서버에 공개 리소스를 업로드하기 전에 디스크 공간을 확인하는 데 특정 보증인이 추가되었습니다.
 * 새 [캠페인 옵션](../../installation/using/configuring-campaign-options.md)이 추가되었습니다.
    * **WdbcKillSessionPolicy** 구성 옵션을 사용하면 모든 워크플로 및 PostgreSQL 데이터베이스 쿼리에 대해 **무조건적 중지** 동작에 영향을 줄 수 있습니다.
@@ -147,7 +148,7 @@ _Campaign Mobile SDK_
 
 * **데이터 로드(RDBMS)** 작업 과정 활동에서 **연결된 테이블 추가** 필드가 비어 있을 때 발생하는 충돌 문제가 해결되었습니다. (NEO-12213)
 * Mid-Sourcing 서버에서 특정 메시지를 처리하지 못하는 문제를 해결했습니다. (NEO-12395)
-* teradata에서 쿼리 밴딩 옵션을 사용할 때 데이터베이스 정리 워크플로의 문제를 수정했습니다. (NEO-12399)
+* Teradata에서 쿼리 밴딩 옵션을 사용할 때 데이터베이스 정리 워크플로의 문제를 수정했습니다. (NEO-12399)
 * ne.jp 도메인을 비롯한 유형 분류 규칙이 있는 배달 분석에 영향을 주는 문제를 수정했습니다. (NEO-12609)
 * 보다 제한적인 인증서 정책에 암시된 TLS 업데이트에 대한 SMS 관련 문제를 수정했습니다. 이러한 업데이트는 오래된 인증서의 경우 마케팅과 mid 소싱 서버 간 연결 실패를 초래할 수 있습니다. (NEO-17698)
 * 저장소 인증이 있는 중간 소싱 환경의 외부 계정에서 **연결 테스트** 단추를 사용할 때 발생하는 문제를 수정했습니다. (NEO-12722)
@@ -172,7 +173,7 @@ _Campaign Mobile SDK_
 * Salesforce의 CRM 커넥터에 영향을 주는 문제가 해결되었습니다. (NEO-17712)
 * 외부 SFTP에서 데이터를 가져올 때 시간 초과 문제를 해결했습니다. (NEO-19723)
 * 예측 모델에 액세스할 때 발생하는 문제가 해결되었습니다. (NEO-19713)
-* hadoop FDA 데이터베이스를 사용한 **Split** 워크플로 작업의 임의 샘플링에 영향을 주는 문제를 수정했습니다. (NEO-16636)
-* 업그레이드 후 일부 기능이 유효하지 않은 것으로 간주되게 하는 Oracle의 회귀 문제를 해결했습니다. (NEO-12759)
+* Hadoop FDA 데이터베이스를 사용한 **분할** 작업 과정 작업의 임의 샘플링에 영향을 주는 문제를 수정했습니다. (NEO-16636)
+* 업그레이드 후 일부 기능이 유효하지 않은 것으로 간주되도록 Oracle의 회귀 문제를 해결했습니다. (NEO-12759)
 
 
