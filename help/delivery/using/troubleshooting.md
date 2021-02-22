@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 3%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 3%
 **Android**:모바일 장치는 포트 5228에서 5230 사이의 FCM 서버에 연결합니다. 그러므로 FCM과의 연결을 승인하도록 방화벽을 구성해야 합니다. 열 포트는 다음과 같습니다.5228(가장 자주 사용하는 항목), 5229 및 5230입니다.
 
 **iOS**:
-
-이진 커넥터:알림을 전송하려면 포트 2195에서 인바운드 및 아웃바운드 TCP 트래픽을 인증해야 합니다. 푸시 서비스에 연결된 장치는 포트 5223에서 인바운드 및 아웃바운드 TCP 트래픽을 승인해야 합니다.
 
 HTTP/2 커넥터:다음 서버와의 통신을 허용해야 합니다.
 
