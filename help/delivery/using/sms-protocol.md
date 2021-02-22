@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 32db73de8308670dfd74d974072bd96b3a22fc31
+source-git-commit: a157082070b22e3621cb81411a5ddde387fd5fcf
 workflow-type: tm+mt
-source-wordcount: '8432'
+source-wordcount: '8458'
 ht-degree: 0%
 
 ---
@@ -597,6 +597,12 @@ TLS가 활성화되면 모든 인증서 확인을 건너뜁니다.
 이 확인란을 선택하면 연결이 더 이상 안전하지 않으므로 프로덕션에서 활성화되어서는 안 됩니다.
 
 이 기능은 디버깅 또는 테스트 목적으로 유용합니다.
+
+인증서 유효성 검사에 대해 다음 세 가지 값 중에서 선택할 수 있습니다.
+
+* 전체 인증 확인(호스트 이름 포함), 기본값.
+* 호스트 이름 확인을 건너뜁니다.
+* 인증서 확인을 건너뜁니다.
 
 #### TON/NPI {#bind-ton-npi} 바인딩
 
