@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 07ed17a093cb6fb2d7aae376325a127c61b1dcc2
+source-git-commit: c64b6eccd0ad45ebcf4ecc18150f4409f5c66bc2
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1880'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 2%
 2018년 9월 이후 Campaign Classic 인스턴스를 프로비저닝한 경우 향상된 MTA를 사용합니다. 다른 모든 Campaign Classic 고객의 경우 아래의 [FAQ](#enhanced-mta-faq)를 참조하십시오.
 
 향상된 MTA 구현은 일부 기존 캠페인 기능에 영향을 줄 수 있습니다. 자세한 내용은 [향상된 MTA 사양](#enhanced-mta-impacts)을 참조하십시오.
+
+>[!NOTE]
+>
+>Adobe Campaign의 최종 사용자이고 인스턴스가 향상된 MTA로 업그레이드되었는지 확인하려면 내부 캠페인 관리자에게 문의하십시오.
 
 ## 자주 묻는 질문 {#enhanced-mta-faq}
 
@@ -129,27 +133,9 @@ MX 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/em
 
 바운스 자격에 대한 자세한 내용은 [이 섹션](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)을 참조하십시오.
 
-### 향상된 MTA를 사용하여 보낸 상태
-
-소프트 및 하드 바운스가 향상된 MTA에서 캠페인에 다시 보고됨에 따라 이메일 배달 [대시보드](../../delivery/using/delivery-dashboard.md)의 **[!UICONTROL Success]** 보기에서 **[!UICONTROL Summary]** 비율은 100%에서 시작하여 배달 [유효성 기간](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)까지 점진적으로 감소합니다.
-
-실제로 모든 메시지는 Campaign에서 향상된 MTA로 성공적으로 전달되는 즉시 [전송 로그](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)에 **[!UICONTROL Sent]**&#x200B;으로 표시됩니다. 해당 메시지에 대한 [바운스](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)이(가) 향상된 MTA에서 캠페인으로 다시 전달되지 않는 한 해당 상태로 유지됩니다.
-
-하드 바운스 메시지가 향상된 MTA에서 다시 보고되면 해당 상태가 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 변경되고 그에 따라 **[!UICONTROL Success]** 비율이 감소합니다.
-
-소프트 바운스 메시지가 향상된 MTA에서 다시 보고될 때 여전히 **[!UICONTROL Sent]**&#x200B;으로 표시되고 **[!UICONTROL Success]** 백분율은 아직 업데이트되지 않았습니다. 소프트 바운스 메시지는 배달 유효 기간 동안 [다시 시도됨](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure):
-
-* 유효성 기간이 끝나기 전에 재시도가 성공하면 메시지 상태는 **[!UICONTROL Sent]**&#x200B;으로 유지되며 **[!UICONTROL Success]** 비율은 변경되지 않습니다.
-
-* 그렇지 않으면 상태가 **[!UICONTROL Failed]**&#x200B;으로 변경되고 그에 따라 **[!UICONTROL Success]** 백분율이 감소합니다.
-
-따라서 최종 **[!UICONTROL Success]** 비율과 실제 **[!UICONTROL Sent]** 및 **[!UICONTROL Failed]** 메시지의 최종 수를 보려면 유효 기간이 끝날 때까지 기다려야 합니다.
-
-<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
-
 ### 게재 처리량
 
-캠페인 배달 처리량 그래프는 더 이상 이메일 수신자에게 처리량을 표시하지 않습니다. 이제 해당 그래프는 향상된 MTA로 Campaign에서 메시지를 릴레이 처리량을 표시합니다.
+캠페인 배달 처리량 그래프는 더 이상 이메일 수신자에게 처리량을 표시하지 않습니다. 이제 해당 그래프는 향상된 MTA로 Campaign에서 메시지를 릴레이 처리량을 보여줍니다.
 
 배달 처리량에 대한 자세한 내용은 [이 섹션](../../reporting/using/global-reports.md#delivery-throughput)을 참조하십시오.
 
@@ -167,3 +153,78 @@ MX 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/em
 
 DKIM(DomainKeys Identified Mail) 이메일 인증 서명은 향상된 MTA를 통해 수행됩니다. 기본 캠페인 MTA의 DKIM 서명은 향상된 MTA 업그레이드의 일부로 도메인 관리 테이블 내에서 해제됩니다.
 DKIM에 대한 자세한 내용은 [이 섹션](../../delivery/using/technical-recommendations.md#dkim)을 참조하십시오.
+
+### 배달 성공 보고
+
+소프트 및 하드 바운스가 향상된 MTA에서 캠페인에 다시 보고됨에 따라 이메일 배달 [대시보드](../../delivery/using/delivery-dashboard.md)의 **[!UICONTROL Success]** 보기에서 **[!UICONTROL Summary]** 비율은 100%에서 시작하여 배달 [유효성 기간](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)까지 점진적으로 감소합니다.
+
+실제로 모든 메시지는 Campaign에서 향상된 MTA로 성공적으로 전달되는 즉시 [전송 로그](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)에 **[!UICONTROL Sent]**&#x200B;으로 표시됩니다. 해당 메시지에 대한 [바운스](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)이(가) 향상된 MTA에서 캠페인으로 다시 전달되지 않는 한 해당 상태로 유지됩니다.
+
+하드 바운스 메시지가 향상된 MTA에서 다시 보고되면 해당 상태가 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 변경되고 그에 따라 **[!UICONTROL Success]** 비율이 감소합니다.
+
+소프트 바운스 메시지가 향상된 MTA에서 다시 보고될 때 여전히 **[!UICONTROL Sent]**&#x200B;으로 표시되고 **[!UICONTROL Success]** 백분율은 아직 업데이트되지 않았습니다. 소프트 바운스 메시지는 배달 유효 기간 동안 [다시 시도됨](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure):
+
+* 유효성 기간이 끝나기 전에 재시도가 성공하면 메시지 상태는 **[!UICONTROL Sent]**&#x200B;으로 유지되며 **[!UICONTROL Success]** 비율은 변경되지 않습니다.
+
+* 그렇지 않으면 상태가 **[!UICONTROL Failed]**&#x200B;으로 변경되고 그에 따라 **[!UICONTROL Success]** 백분율이 감소합니다.
+
+따라서 최종 **[!UICONTROL Success]** 비율과 실제 **[!UICONTROL Sent]** 및 **[!UICONTROL Failed]** 메시지의 최종 수를 보려면 유효 기간이 끝날 때까지 기다려야 합니다.
+
+<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
+
+### 이메일 피드백 서비스(베타) {#email-feedback-service}
+
+EFS(Email Feedback Service) 기능을 사용하면 피드백이 향상된 MTA(메시지 전송 에이전트)에서 직접 캡처되므로 각 이메일의 상태가 정확하게 보고됩니다.
+
+>[!IMPORTANT]
+>
+>이메일 피드백 서비스는 현재 베타 기능으로 사용할 수 있습니다.
+>
+>이 베타 프로그램에 참여하려면 [이 양식](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u)을 작성해 주십시오.
+
+배달이 시작되면 메시지가 Campaign에서 향상된 MTA로 성공적으로 전달될 때 **[!UICONTROL Success]** 비율은 변경되지 않습니다.
+
+<!--![](assets/efs-sending.png)-->
+
+배달 로그는 타깃팅된 각 주소의 **[!UICONTROL Taken into account by the service provider]** 상태를 표시합니다.
+
+<!--![](assets/efs-pending.png)-->
+
+메시지가 실제로 타깃팅된 프로파일에 전달되고 이 정보가 향상된 MTA에서 실시간으로 보고되면 배달 로그는 메시지를 수신한 각 주소의 **[!UICONTROL Sent]** 상태를 표시합니다. **[!UICONTROL Success]** 비율은 성공적으로 배달될 때마다 그에 따라 증가합니다.
+
+하드 바운스 메시지가 향상된 MTA에서 다시 보고되면 로그 상태가 **[!UICONTROL Taken into account by the service provider]**&#x200B;에서 **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->으로 변경됩니다.
+
+소프트 바운스 메시지가 향상된 MTA에서 다시 보고되면 로그 상태가 변경되지 않습니다(**[!UICONTROL Taken into account by the service provider]**).[error reason](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)만 업데이트된<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->입니다. **[!UICONTROL Success]** 비율은 변경되지 않습니다. 그런 다음 배달 [유효성 기간 동안 소프트 바운스 메시지를 다시 시도합니다.](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period):
+
+* 유효 기간이 끝나기 전에 재시도가 성공하면 메시지 상태가 **[!UICONTROL Sent]**&#x200B;으로 변경되고 그에 따라 **[!UICONTROL Success]** 백분율이 증가합니다.
+
+* 그렇지 않으면 상태가 **[!UICONTROL Failed]**&#x200B;으로 변경됩니다. **[!UICONTROL Success]** <!--and **[!UICONTROL Bounces + errors]** -->비율은 변경되지 않습니다.
+
+>[!NOTE]
+>
+>하드 바운스 및 소프트 바운스에 대한 자세한 내용은 [이 섹션](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)을 참조하십시오.
+>
+>배달 임시 실패 후 재시도에 대한 자세한 내용은 [이 섹션](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)을 참조하십시오.
+
+
+아래 표는 EFS 기능에 의해 도입된 KPI 및 로그 전송 상태에 대한 변경 사항을 보여줍니다.
+
+**이메일 피드백 서비스 사용**
+
+| 전송 프로세스의 단계 | KPI 요약 | 로그 상태 보내기 |
+|--- |--- |--- |
+| 캠페인에서 향상된 MTA로 메시지가 전달됩니다. | **[!UICONTROL Success]** 백분율이 표시되지 않음(0%에서 시작) | 서비스 제공업체에서 고려 |
+| 강화된 MTA에서 바운스 메시지를 다시 보고합니다. | **[!UICONTROL Success]** 백분율에 변경 없음 | 실패 |
+| 소프트 바운스 메시지는 향상된 MTA에서 다시 보고됩니다. | **[!UICONTROL Success]** 백분율에 변경 없음 | 서비스 제공업체에서 고려 |
+| 소프트 바운스 메시지 재시도가 성공했습니다. | **[!UICONTROL Success]** 그에 따라 백분율 증가 | 전송 |
+| 소프트 바운스 메시지 다시 시도 실패 | **[!UICONTROL Success]** 백분율에 변경 없음 | 실패 |
+
+**이메일 피드백 서비스 제외**
+
+| 전송 프로세스의 단계 | KPI 요약 | 로그 상태 보내기 |
+|--- |--- |--- |
+| 캠페인에서 향상된 MTA로 메시지가 전달됩니다. | **[!UICONTROL Success]** 100%에서 시작하는 비율 | 전송 |
+| 강화된 MTA에서 바운스 메시지를 다시 보고합니다. | **[!UICONTROL Success]** 그에 따라 백분율 감소 | 실패 |
+| 소프트 바운스 메시지는 향상된 MTA에서 다시 보고됩니다. | **[!UICONTROL Success]** 백분율에 변경 없음 | 전송 |
+| 소프트 바운스 메시지 재시도가 성공했습니다. | **[!UICONTROL Success]** 백분율에 변경 없음 | 전송 | **[!UICONTROL Success]** 그에 따라 백분율 증가 | 전송 |
+| 소프트 바운스 메시지 다시 시도 실패 | **[!UICONTROL Success]** 그에 따라 백분율 감소 | 실패 |
