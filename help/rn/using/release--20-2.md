@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
 workflow-type: tm+mt
 source-wordcount: '2556'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ _2020년 9월 11일_
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 20.2.2 - 빌드 9180 {#release-20-2-2-build-9180}
 
-_2020년 7월 22일_
+_2020년 22월 7일_
 
 * 서명 기능이 비활성화되었을 때 추적을 수행할 수 없는 문제를 해결했습니다. (NEO-26411)
 * 개인화된 도메인에서 서명되지 않은 링크가 허용되어야 할 때 차단되는 문제를 해결했습니다. (NEO-25210)
