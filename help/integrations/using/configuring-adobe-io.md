@@ -5,12 +5,11 @@ title: Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성
 description: Adobe Experience Cloud Triggers용 Adobe I/O 구성 방법 살펴보기
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c5c881d6919a8715e6588fb39793f562a16873bb
+source-git-commit: 425b2e5748703a8349b6f70968d1ef4c71f72b21
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 6%
@@ -22,9 +21,9 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->Auth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 **아래 설명에 따라 Adobe I/O으로 이동해야 합니다.** 레거시 oAuth 인증 모드는 2021년 4월 30일에 종료됩니다. [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>oAuth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 **아래 설명에 따라 Adobe I/O으로 이동해야 합니다.** 레거시 oAuth 인증 모드는 2021년 4월 30일에 종료됩니다. [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 >
->Adobe I/O으로 이동하는 동안 일부 수신 트리거가 손실될 수 있습니다.
+>이 Adobe I/O으로 이동하는 동안 일부 수신 트리거가 손실될 수 있습니다.
 
 ## 사전 요구 사항 {#adobe-io-prerequisites}
 
@@ -37,7 +36,7 @@ ht-degree: 6%
 
 ## 1단계:Adobe I/O 프로젝트 {#creating-adobe-io-project} 만들기/업데이트
 
-1. Adobe I/O에 액세스하여 IMS 조직에 대한 시스템 관리자 권한으로 로그인합니다.
+1. Adobe I/O에 액세스하고 IMS 조직에 대한 시스템 관리자 권한으로 로그인합니다.
 
    >[!NOTE]
    >
@@ -87,7 +86,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->Adobe I/O 인증서는 12개월 후에 만료됩니다. 매년 새로운 키 쌍을 만들어야 합니다.
+>Adobe I/O 인증서가 12개월 후에 만료됩니다. 매년 새로운 키 쌍을 만들어야 합니다.
 
 ## 2단계:Adobe Campaign {#add-credentials-campaign}에 프로젝트 자격 증명 추가
 
@@ -103,7 +102,7 @@ nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_
 
 ## 3단계:파이프라인 태그 {#update-pipelined-tag} 업데이트
 
-[!DNL pipelined] 태그를 업데이트하려면 다음과 같이 구성 파일 **config-&lt; instance-name >.xml**&#x200B;에서 인증 유형을 Adobe I/O 프로젝트로 업데이트해야 합니다.
+[!DNL pipelined] 태그를 업데이트하려면 인증 유형을 다음과 같이 구성 파일 **config-&lt; instance-name >.xml**&#x200B;에서 Adobe I/O 프로젝트로 업데이트해야 합니다.
 
 ```
 <pipelined ... authType="imsJwtToken"  ... />
