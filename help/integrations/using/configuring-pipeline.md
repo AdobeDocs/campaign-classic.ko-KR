@@ -5,9 +5,8 @@ title: 파이프라인 구성
 description: 파이프라인 구성 방법 알아보기
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 translation-type: tm+mt
-source-git-commit: 531eb23ff8fe1b77c37a51e7f99921b0bc071f0f
+source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 1%
@@ -47,7 +46,7 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 
 ## 1단계:Adobe I/O 프로젝트 {#creating-adobe-io-project} 만들기/업데이트
 
-호스팅 고객의 경우 고객 지원 티켓을 만들어 트리거 통합을 위해 Adobe I/O 기술 계정 토큰으로 조직에서 사용할 수 있도록 할 수 있습니다.
+호스팅된 고객의 경우 고객 지원 티켓을 만들어 트리거 통합에 대한 Adobe I/O 기술 계정 토큰을 사용하는 조직을 활성화할 수 있습니다.
 
 온-프레미스 고객은 [Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성](../../integrations/using/configuring-adobe-io.md) 페이지를 참조하십시오. Adobe I/O 자격 증명에 API를 추가하는 동안 **[!UICONTROL Adobe Analytics]**&#x200B;을 선택해야 합니다.
 
