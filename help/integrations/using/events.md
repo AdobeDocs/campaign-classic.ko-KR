@@ -5,9 +5,8 @@ title: 이벤트 구성
 description: 사용자 지정 구현을 위해 이벤트를 구성하는 방법 알아보기
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 0%
