@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '558'
 ht-degree: 8%
 
 ---
@@ -33,7 +33,7 @@ Adobe ID을 사용하여 Adobe Campaign에 연결할 수 있습니다. 자세한
 
 전용 로그인/암호를 사용하여 연결할 수도 있습니다.
 
-1. **[!UICONTROL login]** 필드에 연산자 계정 식별자를 입력합니다.
+1. **[!UICONTROL Login]** 필드에 연산자 계정 식별자를 입력합니다.
 
    식별자는 Adobe Campaign 플랫폼 관리자가 제공합니다.
 
@@ -41,9 +41,14 @@ Adobe ID을 사용하여 Adobe Campaign에 연결할 수 있습니다. 자세한
 
    데이터베이스에 처음 액세스하면 관리자가 사용자에게 부여한 암호가 됩니다. 인터넷에 연결되면 **[!UICONTROL Tools > Change password...]** 메뉴를 통해 암호를 변경할 수 있습니다. 연산자 및 연결에 대한 자세한 내용은 [액세스 관리](../../platform/using/access-management.md)에서 확인할 수 있습니다.
 
-1. **[!UICONTROL LOG IN]**&#x200B;을 클릭하여 확인합니다.
+1. **[!UICONTROL LOG IN]**&#x200B;을 클릭하여 확인합니다.<!--You can also press the **Enter** key to launch connection.-->
 
 이제 [Adobe Campaign 작업 영역](../../platform/using/adobe-campaign-workspace.md)에 액세스할 수 있습니다.
+
+일부 키보드 단축키는 **[!UICONTROL Sign in screen]**&#x200B;에서 사용할 수 있습니다.
+* 모든 실행 가능한 항목은 **Tab** 키(위쪽에서 아래쪽으로) 또는 **Tab** + **Shift** 키(아래쪽에서 위쪽으로)를 통해 선택할 수 있습니다.
+* 연결을 시작하려면 **Enter** 키를 누를 수도 있습니다.
+* **Escape** 키를 사용하여 **[!UICONTROL Login]** 및 **[!UICONTROL Password]** 필드를 마지막으로 성공한 연결 값으로 재설정할 수 있습니다.
 
 ## 연결 설정 {#setting-up-connections}
 
@@ -101,5 +106,5 @@ Adobe 고객 지원 센터에 문의할 때마다 Adobe Campaign 클라이언트
 **관련 항목**:
 
 * [Adobe Campaign 도움말 및 지원 옵션](https://helpx.adobe.com/kr/campaign/kb/ac-support.html#acc-support)
-* [Adobe 소프트웨어 배포](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)
+* [Adobe Campaign 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Adobe Experience Cloud 지원 및 전문가 세션](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
