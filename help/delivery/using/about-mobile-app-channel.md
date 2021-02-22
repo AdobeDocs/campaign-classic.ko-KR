@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 5%
+source-wordcount: '674'
+ht-degree: 1%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 
 **[!UICONTROL NMAC opt-out management]**(mobileAppOptOutGt) 작업 과정은 모바일 장치에서 알림 구독 취소를 업데이트합니다. 이 워크플로에 대한 자세한 내용은 [기술 워크플로우 목록](../../workflow/using/about-technical-workflows.md)을 참조하십시오.
 
-Adobe Campaign은 바이너리 및 HTTP/2 APN과 호환됩니다. 구성 단계에 대한 자세한 내용은 Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) 섹션에서 [모바일 응용 프로그램 구성을 참조하십시오.
+Adobe Campaign은 HTTP/2 APN과 호환됩니다. 구성 단계에 대한 자세한 내용은 Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) 섹션에서 [모바일 응용 프로그램 구성을 참조하십시오.
 
 ## 데이터 경로 {#data-path}
 
@@ -85,14 +85,7 @@ Adobe Campaign에서 다음 정보를 확인할 수 있습니다.
 
 ![](assets/nmac_delivery_view.png)
 
-Adobe Campaign 서버는 다음 포트에서 APNs 서버에 연결할 수 있어야 합니다.
-
-* iOS 이진 커넥터용 2195(전송) 및 2186(피드백 서비스)
-* iOS HTTP/2 커넥터용 443
-
-   >[!NOTE]
-   >
-   > Campaign 20.3 릴리스부터 iOS 레거시 바이너리 커넥터는 사용되지 않습니다. 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)
+Adobe Campaign 서버는 iOS HTTP/2 커넥터용 443 포트의 APNs 서버에 연결할 수 있어야 합니다.
 
 제대로 작동하는지 확인하려면 다음 명령을 사용합니다.
 
@@ -108,7 +101,5 @@ Adobe Campaign 서버는 다음 포트에서 APNs 서버에 연결할 수 있어
    telnet gateway.push.apple.com
    ```
 
-iOS 이진 커넥터를 사용하는 경우 MTA 및 웹 서버가 포트 2195(전송)의 APNs에 연결할 수 있어야 하며, 워크플로 서버는 포트 2196(피드백 서비스)의 APNs에 연결할 수 있어야 합니다.
-
-iOS HTTP/2 커넥터를 사용하는 경우 MTA, 웹 서버 및 워크플로 서버가 포트 443의 APNs에 연결할 수 있어야 합니다.
+iOS HTTP/2 커넥터를 사용하면 MTA, 웹 서버 및 워크플로 서버가 포트 443의 APNs에 연결할 수 있어야 합니다.
 
