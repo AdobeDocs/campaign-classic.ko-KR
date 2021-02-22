@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 translation-type: tm+mt
-source-git-commit: f39a84108c1f3327a469d5a230518652647ed63e
+source-git-commit: 2de8261feda6e64a84bd82e9fb71bc1fddf77113
 workflow-type: tm+mt
-source-wordcount: '7846'
-ht-degree: 4%
+source-wordcount: '7929'
+ht-degree: 5%
 
 ---
 
@@ -32,6 +32,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
 * [dnsConfig](#dnsconfig)
 * [exec](#exec)
 * [htmlToPdf](#htmltopdf)
+* [ims](#ims)
 * [javaScript](#javascript)
 * [mailExchanger](#mailexchanger)
 * [모듈](#module)
@@ -336,7 +337,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
   </tr> 
   <tr> 
    <td> 공급자<br /> </td> 
-   <td> 유형(열거형). 가능한 값은 'Oracle', 'MSSQL'(Microsoft SQL Server), 'PostgreSQL'(PostgreSQL, Greenplum), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'MasterData', 'SAPA'(SAP HANA), 'RedShift'(Amazon))입니다., 'ODBC'(ODBC(Sybase ASE, Sybase IQ)), 'Relay'(원격 데이터베이스에 대한 HTTP 릴레이).<br /> </td> 
+   <td> 유형(열거형). 가능한 값은 'Oracle', 'MSSQL'(Microsoft SQL Server), 'PostgreSQL'(PostgreSQL, Greenplum), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPA'(SAP HANA), 'RedShift'(Amazon) Redshift), 'ODBC'(ODBC(Sybase ASE, Sybase IQ), 'Relay'(원격 데이터베이스로 HTTP 릴레이).<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 
@@ -637,6 +638,71 @@ phantomjs의 예:
 ```
 phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:{outPdf}' '-post:{postFile}' '-url:{originUrl}' -sessiontoken:{sessiontoken} -format:{format} -orientation:{orientation} -marginTop:{marginTop} -marginLeft:{marginLeft} -marginRight:{marginRight} -marginBottom:{marginBottom}
 ```
+
+## ims {#ims}
+
+다음은 **ims** 노드의 다른 매개 변수입니다. 이 구성은 [IMS](../../integrations/using/about-adobe-id.md)을(를) 사용하여 다른 서비스에 연결하는 Campaign의 구성입니다.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> 매개 변수 </th> 
+   <th> 설명 </th> 
+   <th> 유형 </th> 
+   <th> 기본값 </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> authIMSClientId<br /> </td> 
+   <td> 클라이언트 ID<br /> </td> 
+   <td> 문자열<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSClientSecret<br /> </td> 
+   <td> 비밀 키(AES에서 암호화)<br /> </td> 
+   <td> 문자열<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSCode<br /> </td> 
+   <td> 인증 코드(AES에서 암호화)<br /> </td> 
+   <td> 문자열<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSEndpoint<br /> </td> 
+   <td> IMS 서버 URL<br /> </td> 
+   <td> 문자열<br /> </td> 
+   <td> 'https://ims-na1.adobelogin.com'<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSTAClientId<br /> </td> 
+   <td> 기술 계정 클라이언트 ID<br /> </td> 
+   <td> 문자열<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSTAClientSecret<br /> </td> 
+   <td> 기술 계정 비밀 키(AES에서 암호화)<br /> </td> 
+   <td> 문자열<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authImstaiD<br /> </td> 
+   <td> 기술 계정 ID<br /> </td> 
+   <td> 문자열<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSTAPrivateKey<br /> </td> 
+   <td> 기술 계정 개인 키(AES에서 암호화)<br /> </td> 
+   <td> 문자열<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## javaScript {#javascript}
 
