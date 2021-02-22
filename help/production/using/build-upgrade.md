@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
 source-wordcount: '2368'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 1. [서버 구성 파일](../../installation/using/the-server-configuration-file.md)의 최신 버전을 가져옵니다.
 
-1. 최신 빌드를 다운로드합니다. [다운로드 센터에 대한 자세한 내용을 살펴보십시오](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html).
+1. [최신 빌드를 다운로드합니다](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). [자세히 알아보기](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)
 
 빌드 업그레이드를 시작하기 전에 [유용한 명령줄](../../installation/using/command-lines.md)을 모두 알아야 합니다.
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 ### Adobe Campaign Server 응용 프로그램 업그레이드
 
-1. **Setup.exe** 파일을 실행합니다. 이 파일을 다운로드해야 하는 경우 [다운로드 센터](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)에 액세스하십시오.
+1. **Setup.exe** 파일을 실행합니다. 이 파일을 다운로드해야 하는 경우 [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 액세스하십시오.
 
 1. 설치 모드를 선택합니다.**업데이트** 또는 **복구**.
 
@@ -365,8 +365,8 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 #### 코드를 어디에서 찾을 수 있습니까?
 
 1. 기본 제공 코드는 Datakit 폴더의 XML 파일에 저장됩니다. 충돌하는 객체와 일치하는 XML 파일을 찾습니다. 예:installationDirectory\datakit\nms\fra\form\recipient.xml
-1. 원본 버전 검색:[다운로드 센터](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html) 또는 업그레이드되지 않은 다른 제품 설치를 통해
-1. 새 버전 검색:를 통해 [다운로드 센터](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html) 또는 고객이 설치한 파일을 다운로드합니다.
+1. 원본 버전 검색:[다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 또는 업그레이드되지 않은 다른 제품 설치를 통해
+1. 새 버전 검색:를 통해 [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 또는 고객이 설치한 파일을 다운로드합니다.
 1. 사용자 정의 버전 검색:캠페인 클라이언트 내에서 객체의 소스 코드를 검색합니다.
 
 ### 비교 방법
