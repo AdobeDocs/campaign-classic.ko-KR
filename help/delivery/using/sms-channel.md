@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 2aa1a1c5da7b552cae916885c011aa4aaf9b61db
 workflow-type: tm+mt
-source-wordcount: '3149'
+source-wordcount: '3148'
 ht-degree: 20%
 
 ---
@@ -33,7 +33,7 @@ Adobe Campaign을 사용하면 SMS 메시지를 대량으로 개인화하여 전
 
 1. 커넥터와 메시지 유형을 지정하는 외부 계정.
 
-   다음 커넥터는 릴리스 20.2부터 사용되지 않습니다.NetSize, 범용 SMPP(SMPP 버전 3.4 지원 바이너리 모드), Sybase365(SAP SMS 365), CLX Communications, Tele2, O2 및 iOS 더 이상 사용되지 않는 기능은 여전히 사용할 수 있지만 더 이상 향상되거나 지원되지 않습니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/deprecated-and-removed-features.html)를 참조하십시오.
+   다음 커넥터는 릴리스 20.2부터 사용되지 않습니다.일반 SMPP(SMPP 버전 3.4 지원 바이너리 모드), Sybase365(SAP SMS 365), CLX Communications, Tele2, O2 및 iOS입니다. 더 이상 사용되지 않는 기능은 여전히 사용할 수 있지만 더 이상 향상되거나 지원되지 않습니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/deprecated-and-removed-features.html)를 참조하십시오.
 
 1. 이 외부 계정이 참조되는 배달 템플릿입니다.
 
