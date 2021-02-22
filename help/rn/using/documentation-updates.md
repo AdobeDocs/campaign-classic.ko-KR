@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 55cc09c0446e389029890e45b790bb5ec6ffdc27
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
-source-wordcount: '3947'
-ht-degree: 98%
+source-wordcount: '4045'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,19 @@ ht-degree: 98%
 
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
-## 2021년 2월 {#feb-2021}
+## 2021년 2월 {#release-21.1}
+
+**21.1 릴리스와 함께 제공되는 설명서 업데이트**
+
+새로운 **이메일 피드백 서비스** 기능(비공개 베타)이 [여기](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service)에 문서화되어 있습니다.
+
+**서버 구성 파일** 섹션이 IMS를 사용하여 다른 서비스에 연결하는 데 필요한 구성 매개 변수로 업데이트되었습니다. [자세한 내용](../../installation/using/the-server-configuration-file.md#ims)
+
+배달 상태 목록에서 **서비스 제공자가 고려하는**&#x200B;에 대한 설명이 업데이트되었습니다.이제 이 상태는 [이메일 피드백 서비스](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service)를 사용하여 보낸 이메일 배달에도 사용됩니다. [자세한 내용](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
+
+이제 Adobe Campaign에 연결하기 위해 새 로그온 화면에서 사용할 수 있는 키보드 단축키가 문서화되어 있습니다. [자세한 내용](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
+
+**기타 업데이트**
 
 워크플로우를 사용하여 A/B 테스트를 수행하는 방법에 대한 자세한 정보가 포함된 새 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/get-started-a-b-testing.md)
 
@@ -100,7 +112,7 @@ Android용 푸시 알림 개선 - [자세한 내용](../../delivery/using/config
 사용되지 않거나 제거된 기능 페이지가 업데이트되었습니다. [자세한 내용](../../rn/using/deprecated-features.md)
 
 Gold Standard 릴리스의 릴리스 노트 및 호환성 매트릭스는 이제 전용 섹션에서 사용할 수 있습니다.
-[자세한 내용](../../rn/using/gold-standard.md#gs-10).
+[자세한 내용](../../rn/using/gold-standard.md#gs-11).
 
 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합이 변경되었으며 Adobe I/O로 이동되었습니다. [자세히 알아보기](../../integrations/using/configuring-adobe-io.md)
 
