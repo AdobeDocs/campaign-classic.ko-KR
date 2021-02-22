@@ -374,7 +374,7 @@ ht-degree: 1%
 >
 >Adobe Campaign 클라이언트 콘솔에서 **[!UICONTROL Administration > Enumerations]** 노드가 열거형을 관리하는 데 사용됩니다.
 
-#### 열거형 {#set-enumeration} 설정
+#### 열거형설정 {#set-enumeration}
 
 **enum** 속성을 사용하면 가능한 값 목록을 미리 알 때 사용되는 고정 열거형을 정의할 수 있습니다.
 
@@ -464,7 +464,7 @@ XML 컨텐츠 투영 사용:
 <group label="Group2"/>
 ```
 
-## XPath {#referencing-with-xpath} 참조
+## XPath참조 {#referencing-with-xpath}
 
 XPath 언어는 Adobe Campaign에서 데이터 스키마에 속하는 요소 또는 특성을 참조하는 데 사용됩니다.
 
@@ -486,7 +486,6 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 >
 >* **location/@** cityn이 잘못되었습니다.사용  **`[location/@city]`**
 >* **`[@email]`** 및  **@** emailare equivalent
-
 >
 
 
@@ -508,7 +507,7 @@ Adobe Campaign 클라이언트 콘솔에서 표현식 편집기를 통해 사용
 * **연도(@created)**:&quot;created&quot; 속성에 포함된 날짜의 연도를 반환합니다.
 * **GetEmailDomain(@email)**:전자 메일 주소의 도메인을 반환합니다.
 
-## 계산 문자열 {#building-a-string-via-the-compute-string}을(를) 통해 문자열 만들기
+## 계산 문자열을(를) 통해 문자열 만들기 {#building-a-string-via-the-compute-string}
 
 **계산 문자열**&#x200B;은 스키마와 연관된 테이블의 레코드를 나타내는 문자열을 만드는 데 사용되는 XPath 표현식입니다. **계산** 문자열은 주로 그래픽 인터페이스에서 선택한 레코드의 레이블을 표시하는 데 사용됩니다.
 

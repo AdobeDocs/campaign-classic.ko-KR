@@ -31,7 +31,7 @@ ht-degree: 5%
 >
 >이 두 단계는 메시지 내용을 수정한 후 모두 수행해야 합니다.
 
-## 배달 {#analyzing-the-delivery} 분석 중
+## 배달분석 중 {#analyzing-the-delivery}
 
 분석은 대상 인구를 계산하여 게재 컨텐츠가 준비되는 단계입니다. 완료되면 배송을 보낼 준비가 됩니다.
 
@@ -135,7 +135,6 @@ ht-degree: 5%
 >
 >* 사용 가능한 유효성 검사 모드는 [승인 모드 변경](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode)에 자세히 설명되어 있습니다.
 >* 증명 대상의 구성은 [특정 증명 대상 정의](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)에서 설명합니다.
-
 >
 
 
@@ -179,7 +178,7 @@ ht-degree: 5%
 * **[!UICONTROL Keep the delivery code for the proof]** 옵션을 사용하면 전달 내용과 관련된 배달에 대해 정의된 것과 동일한 배달 코드를 증표에 제공할 수 있습니다. 이 코드는 배달 마법사의 첫 번째 단계에서 지정됩니다.
 * 기본적으로 증빙 문서의 제목에는 &#39;Proof #&#39;라는 접두사가 붙으며 여기서 #은 증명 번호의 번호입니다. **[!UICONTROL Label prefix]** 필드에서 이 접두어를 변경할 수 있습니다.
 
-## {#validation-process-with-typologies} 유형 유형이 있는 유효성 검사 프로세스
+## 유형 유형이 있는 유효성 검사 프로세스{#validation-process-with-typologies}
 
 메시지를 보내기 전에 캠페인을 분석하여 내용과 구성을 승인해야 합니다. 분석 단계 동안 적용된 확인 규칙은 **분류 항목**&#x200B;에 정의됩니다. 기본적으로 이메일의 경우 분석은 다음 사항을 다룹니다.
 
@@ -211,7 +210,7 @@ ht-degree: 5%
 >
 >**[!UICONTROL Arbitration]** 유형 유형 유형은 판매 압력 관리의 프레임워크에서 사용됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/about-marketing-resource-management.md)을 참조하십시오.
 
-## 승인 모드 {#changing-the-approval-mode} 변경
+## 승인 모드변경 {#changing-the-approval-mode}
 
 배달 속성에 대한 **[!UICONTROL Analysis]** 탭에서는 유효성 검사 모드를 선택할 수 있습니다. 분석 중에 경고가 생성되는 경우(예: 특정 문자가 전달 주제의 제목에 삽입되는 경우 등) 게재를 구성하여 여전히 실행되어야 하는지 여부를 정의할 수 있습니다. 기본적으로 사용자는 분석 단계가 끝날 때 메시지 전송을 확인해야 합니다.이것은 **manual** 유효성 검사입니다.
 

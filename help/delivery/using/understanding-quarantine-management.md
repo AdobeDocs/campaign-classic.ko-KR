@@ -70,7 +70,7 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 >검역소의 수가 증가한 것은 데이터베이스의 &quot;마모&quot;와 관련된 정상적인 효과이다. 예를 들어 이메일 주소의 수명을 3년으로 간주하여 수신자의 테이블이 매년 50% 증가하면 격리의 증가는 다음과 같이 계산될 수 있습니다.
 >
 >1년말:(1*0.33)/(1+0.5)=22%.
-두 번째 해가 끝나는 시점: ((1.22*0.33)+0.33)/(1.5+0.75)=32.5% 
+>두 번째 해가 끝나는 시점: ((1.22*0.33)+0.33)/(1.5+0.75)=32.5% 
 
 ### 배달 보고서에서 격리된 주소 식별 {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -86,13 +86,13 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 
 플랫폼(**[!UICONTROL Home page > Reports]**)의 모든 게재나 특정 게재에 대해 이 정보를 조회할 수 있습니다. 사용자 지정된 보고서를 만들고 표시할 정보를 선택할 수도 있습니다.
 
-### 받는 사람 {#identifying-quarantined-addresses-for-a-recipient}에 대해 격리된 주소 식별
+### 받는 사람에 대해 격리된 주소 식별 {#identifying-quarantined-addresses-for-a-recipient}
 
 수신자의 이메일 주소 상태를 조회할 수 있습니다. 이렇게 하려면 수신자 프로필을 선택하고 **[!UICONTROL Deliveries]** 탭을 클릭합니다. 해당 수신자에 대한 모든 배달의 경우, 해당 주소가 실패했는지, 분석 중에 격리되었는지 등을 확인할 수 있습니다. 각 폴더에 대해 이메일 주소가 격리 상태인 수신자만 표시할 수 있습니다. 이렇게 하려면 **[!UICONTROL Quarantined email address]** 응용 프로그램 필터를 사용하십시오.
 
 ![](assets/tech_quarant_recipients_filter.png)
 
-### 격리된 주소 {#removing-a-quarantined-address} 제거
+### 격리된 주소제거 {#removing-a-quarantined-address}
 
 필요한 경우 격리 목록에서 주소를 수동으로 제거할 수 있습니다. 이 외에, 특정 조건과 일치하는 주소는 **[!UICONTROL Database cleanup]** 워크플로우에 의해 격리 목록에서 자동으로 삭제됩니다.
 
@@ -113,7 +113,8 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 그러면 상태는 **[!UICONTROL Valid]**&#x200B;으로 변경됩니다.
 
 >[!IMPORTANT]
-**[!UICONTROL Quarantine]** 또는 **[!UICONTROL On denylist]** 상태의 주소가 있는 수신자는 이메일을 수신하더라도 제거되지 않습니다.
+>
+>**[!UICONTROL Quarantine]** 또는 **[!UICONTROL On denylist]** 상태의 주소가 있는 수신자는 이메일을 수신하더라도 제거되지 않습니다.
 
 오류 수와 두 오류 사이의 기간을 수정할 수 있습니다. 이렇게 하려면 배포 마법사(**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**)에서 해당 설정을 변경합니다. 배포 마법사에 대한 자세한 내용은 [이 섹션](../../installation/using/deploying-an-instance.md)을 참조하십시오.
 
@@ -152,7 +153,8 @@ Adobe Campaign은 배달 실패 유형 및 오류 메시지 자격 조건([바�
 **iOS용 - 이진 커넥터**
 
 >[!NOTE]
-Campaign 20.3 릴리스부터 iOS 레거시 바이너리 커넥터는 사용되지 않습니다. 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)
+>
+>Campaign 20.3 릴리스부터 iOS 레거시 바이너리 커넥터는 사용되지 않습니다. 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)
 
 각 알림에 대해 Adobe Campaign은 APNs 서버로부터 동기 및 비동기 오류를 수신합니다. 다음 동기 오류에 대해 Adobe Campaign은 소프트 오류를 생성합니다.
 
@@ -269,10 +271,11 @@ HTTP/V2 프로토콜을 사용하면 각 푸시 전달에 대한 직접적인 �
 배달 분석 중에 대상에서 제외된 모든 장치가 자동으로 **excludeLogAppSubRcp** 테이블에 추가됩니다.
 
 >[!NOTE]
-Baidu 커넥터를 사용하는 고객의 경우 다음과 같은 다양한 오류 유형이 있습니다.
-* 배달 시작 시 연결 문제:실패 유형 **[!UICONTROL Undefined]**, 실패 이유 **[!UICONTROL Unreachable]**, 재시도가 수행됩니다.
-* 배달 중 연결 손실:소프트 오류, 실패 이유 **[!UICONTROL Refused]**, 재시도가 수행됩니다.
-* 전송 중 Baidu가 반환하는 동기 오류:하드 오류, 실패 이유 **[!UICONTROL Refused]**&#x200B;입니다. 다시 시도하지 않습니다.
+>
+>Baidu 커넥터를 사용하는 고객의 경우 다음과 같은 다양한 오류 유형이 있습니다.
+>* 배달 시작 시 연결 문제:실패 유형 **[!UICONTROL Undefined]**, 실패 이유 **[!UICONTROL Unreachable]**, 재시도가 수행됩니다.
+>* 배달 중 연결 손실:소프트 오류, 실패 이유 **[!UICONTROL Refused]**, 재시도가 수행됩니다.
+>* 전송 중 Baidu가 반환하는 동기 오류:하드 오류, 실패 이유 **[!UICONTROL Refused]**&#x200B;입니다. 다시 시도하지 않습니다.
 
 Adobe Campaign은 10분마다 Baidu 서버에 연결하여 보낸 메시지의 상태를 검색하고 브로드로그를 업데이트합니다. 메시지가 전송됨으로 선언되면 브로드로그에 있는 메시지 상태가 **[!UICONTROL Received]**&#x200B;으로 설정됩니다. Baidu가 오류를 선언하면 상태는 **[!UICONTROL Failed]**&#x200B;으로 설정됩니다.
 
@@ -492,7 +495,8 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
 SMS 메시지의 격리 메커니즘은 전 세계적으로 일반 프로세스와 동일합니다. [검역정보](#about-quarantines)를 참조하십시오. SMS에 대한 설명은 아래에 나와 있습니다.
 
 >[!NOTE]
-**[!UICONTROL Delivery log qualification]** 테이블은 **확장 일반 SMPP** 커넥터에 적용되지 않습니다.
+>
+>**[!UICONTROL Delivery log qualification]** 테이블은 **확장 일반 SMPP** 커넥터에 적용되지 않습니다.
 
 <table> 
  <tbody> 
@@ -550,8 +554,9 @@ SMPP 커넥터는 정규 표현식(등록)을 사용하여 반환되는 SR(상�
 새로운 유형의 오류가 검증되기 전에 실패 이유는 항상 기본적으로 **Redensed**&#x200B;로 설정됩니다.
 
 >[!NOTE]
-실패 유형 및 실패 원인은 이메일과 동일합니다. [배달 실패 유형 및 이유](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)를 참조하십시오.
-배달 로그 자격 조건 표에서 적절한 오류 유형과 실패 이유를 설정하려면 공급자에게 상태 및 오류 코드 목록을 요청합니다.
+>
+>실패 유형 및 실패 원인은 이메일과 동일합니다. [배달 실패 유형 및 이유](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)를 참조하십시오.
+>배달 로그 자격 조건 표에서 적절한 오류 유형과 실패 이유를 설정하려면 공급자에게 상태 및 오류 코드 목록을 요청합니다.
 
 생성된 메시지의 예:
 

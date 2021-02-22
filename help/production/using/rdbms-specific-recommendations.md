@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## PostgreSQL {#postgresql}
 
-### 큰 테이블 {#detecting-large-tables} 검색
+### 큰 테이블검색 {#detecting-large-tables}
 
 1. 다음 뷰를 데이터베이스에 추가할 수 있습니다.
 
@@ -95,12 +95,11 @@ vacuum full nmsdelivery;
 >* **공백** 및 **인덱스 다시 지정** 명령은 테이블을 잠가 유지 관리가 수행되는 동안 일부 프로세스를 일시 중지합니다.
 >* 매우 큰 테이블(일반적으로 5Gb 이상)의 경우 **진공 완전 채우기**&#x200B;는 매우 비효율적일 수 있으며 시간이 오래 걸릴 수 있습니다. Adobe에서는 **YyyNmsBroadLogXxx** 테이블에 이 항목을 사용하지 않는 것이 좋습니다.
 >* 이 유지 관리 작업은 Adobe Campaign 워크플로우에서 **[!UICONTROL SQL]** 활동을 사용하여 구현할 수 있습니다(자세한 내용은 [이 섹션](../../workflow/using/architecture.md) 참조). 백업 윈도우와 충돌하지 않는 낮은 작업 시간에 대한 유지 관리를 예약해야 합니다.
-
 >
 
 
 
-### 데이터베이스 {#rebuilding-a-database} 다시 작성
+### 데이터베이스다시 작성 {#rebuilding-a-database}
 
 PostgreSQL은 **innofull**&#x200B;이 테이블을 잠급기 때문에 정규 프로덕션을 방지하므로 온라인 테이블 다시 빌드를 쉽게 수행할 수 있는 방법을 제공하지 않습니다. 즉, 테이블을 사용하지 않을 때 유지 관리를 수행해야 합니다. 다음 중 하나를 수행할 수 있습니다.
 

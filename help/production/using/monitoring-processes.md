@@ -255,7 +255,6 @@ SMTP 배달 모니터링 보고서가 Adobe Campaign 플랫폼에 통합됩니�
 >
 >* SMTP 모니터링과 관련된 정보는 이메일 채널이 활성화된 경우에만 사용할 수 있습니다.
 >* **[!UICONTROL SMTP sending statistics]**&#x200B;은 통계 서버가 인스턴스에서 시작된 경우에만 제공됩니다.
-
 >
 
 
@@ -292,7 +291,7 @@ SMTP 배달 모니터링 보고서가 Adobe Campaign 플랫폼에 통합됩니�
 >
 >이 보고서는 이메일 트래픽 Shaper 구성 요소의 상태와 관련이 있습니다.
 
-### 도메인 {#smtp-errors-per-domain}당 SMTP 오류
+### 도메인당 SMTP 오류 {#smtp-errors-per-domain}
 
 이 보고서를 사용하면 설정된 기간 동안 도메인별로 분류된 배달 오류를 볼 수 있습니다.
 
@@ -382,7 +381,7 @@ stat@prod
 wfserver@prod
 ```
 
-### 서버 {#information-published-by-the-server}에 의해 게시된 정보
+### 서버에 의해 게시된 정보 {#information-published-by-the-server}
 
 #### /r/test {#r-test}
 
@@ -428,7 +427,7 @@ wfserver@prod
 
 이 **jsp**&#x200B;는 Adobe Campaign 응용 프로그램 API의 시작 지점을 나타냅니다. 따라서 응용 프로그램에 대한 자세한 모니터링을 제공할 수 있습니다. 또한 Adobe Campaign 웹 서비스를 모니터하는 데 사용할 수 있습니다. 모니터링 스크립트에서 사용되지만 전원 사용자에게만 사용됩니다.
 
-### 배포 유형 {#monitoring-based-on-deployment-types} 기반 모니터링
+### 배포 유형기반 모니터링 {#monitoring-based-on-deployment-types}
 
 Adobe Campaign은 다양한 배포 구성을 활성화합니다(이에 대한 자세한 내용은 [이 섹션](../../installation/using/hosting-models.md) 참조). 이 섹션에서는 설치 유형에 따라 적용되는 다양한 자동 모니터링 기술에 대해 자세히 설명합니다.
 
@@ -473,7 +472,7 @@ Adobe Campaign은 다양한 배포 구성을 활성화합니다(이에 대한 �
  </tbody> 
 </table>
 
-## Adobe Campaign 스크립트 {#automatic-monitoring-via-adobe-campaign-scripts}를 통한 자동 모니터링
+## Adobe Campaign 스크립트를 통한 자동 모니터링 {#automatic-monitoring-via-adobe-campaign-scripts}
 
 Adobe Campaign은 감지된 이상치와 관련하여 이메일로 보고서를 전송할 수 있는 인스턴스 모니터링 도구(netreport)를 제공할 수 있습니다.
 
@@ -502,7 +501,7 @@ Adobe Campaign은 감지된 이상치와 관련하여 이메일로 보고서를 
 1. **netconf.xml** 구성 파일을 업데이트합니다.
 1. **netreport.bat**(Windows) 또는 **netreport.sh**(Linux) 파일을 업데이트합니다.
 
-### netconf.xml 파일 {#configuring-the-netconf-xml-file} 구성
+### netconf.xml 파일구성 {#configuring-the-netconf-xml-file}
 
 XML 구성 파일에는 다음 요소가 포함되어 있습니다.
 
@@ -617,7 +616,7 @@ instance name="instanceName" recipientList="mail@mail.com,mail2@mail.com">
 
 **ncs**, **리디렉션** 및 **http** 하위 요소에서 **isSecure** 속성(선택 사항)을 추가하여 https 프로토콜을 사용할지 여부를 선택할 수 있습니다(&#39;true&#39; 또는 &#39;false&#39; 값). 이 속성을 제공하지 않으면 http 프로토콜이 사용됩니다.
 
-### netreport.bat 또는 netreport.sh 파일 {#configuring-the-netreport-bat-or-netreport-sh--file} 구성
+### netreport.bat 또는 netreport.sh 파일구성 {#configuring-the-netreport-bat-or-netreport-sh--file}
 
 이 파일을 구성하려면 이 파일을 편집하고 JRE 또는 JDK가 설치되어 있는 디렉토리를 지정합니다.
 

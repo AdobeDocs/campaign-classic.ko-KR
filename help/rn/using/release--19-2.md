@@ -24,9 +24,8 @@ _2020년 12월 23일_
 >[!CAUTION]
 >
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. IMS(Adobe ID Service)를 통해 Campaign에 연결할 경우, **2021년 3월 31일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다.
-   >
-   > 
-* 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
+>
+> * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
 
 
 

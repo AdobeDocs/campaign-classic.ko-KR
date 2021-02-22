@@ -37,7 +37,6 @@ IMS(Adobe Identity Management System)를 사용하여 관리자는 애플리케�
 > * [캠페인 20.1.4](../../rn/using/release--20-1.md)
 > * [캠페인 19.2.4](../../rn/using/release--19-2.md)
 > * [캠페인 19.1.8](../../rn/using/release--19-1.md)
-
 >
 
 

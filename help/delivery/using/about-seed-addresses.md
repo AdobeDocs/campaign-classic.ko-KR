@@ -47,7 +47,6 @@ ht-degree: 9%
 >
 >* **[!UICONTROL Handle groupings (GROUP BY+HAVING)]** 옵션을 사용할 수 없습니다.
 >* 요소 컬렉션이 추출되면 **[!UICONTROL Single row (expert user)]** 옵션을 선택하지 않으면 이 필드는 시드 주소에 대해 빈 값을 갖게 됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/executing-export-jobs.md#step-7---data-formatting)을 참조하십시오.
-
 >
 
 

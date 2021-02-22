@@ -25,7 +25,7 @@ Adobe Campaign은 웹 양식을 정의하고 퍼블리싱하기 위한 그래픽
 >
 >개인 정보상의 이유로 모든 외부 리소스에 대해 HTTPS를 사용하는 것이 좋습니다.
 
-## 웹 양식 {#steps-for-creating-a-web-form} 만들기 단계
+## 웹 양식만들기 단계 {#steps-for-creating-a-web-form}
 
 이 장에서는 Adobe Campaign에서 **webForm** 유형 양식을 디자인하는 데 필요한 단계뿐만 아니라 사용 가능한 옵션 및 구성을 자세히 설명합니다. Adobe Campaign을 사용하면 이 웹 양식을 사용자가 사용할 수 있도록 만들 수 있을 뿐만 아니라 데이터베이스의 응답을 수집 및 보관할 수 있습니다.
 
@@ -65,7 +65,7 @@ Adobe Campaign은 웹 양식을 정의하고 퍼블리싱하기 위한 그래픽
 
    이 단계는 [웹 양식 번역](../../web/using/translating-a-web-form.md)에 자세히 설명되어 있습니다.
 
-## {#about-web-forms-designing} 디자인 웹 양식 정보
+## 디자인 웹 양식 정보{#about-web-forms-designing}
 
 입력 영역(텍스트), 선택 필드(목록, 체크 상자 등)를 정의하고 구성할 수 있는 특정 편집기를 통해 양식의 페이지가 만들어집니다. 및 정적 요소(이미지, HTML 내용 등)에 대한 자세한 내용을 살펴보십시오. 컨테이너를 컨테이너로 그룹화할 수 있으며 사용자의 요구 사항에 맞게 레이아웃을 변경할 수 있습니다(이 방법에 대한 자세한 내용은 [컨테이너 만들기](../../web/using/defining-web-forms-layout.md#creating-containers) 참조).
 
@@ -80,12 +80,11 @@ Adobe Campaign은 웹 양식을 정의하고 퍼블리싱하기 위한 그래픽
 >
 >* 페이지를 디자인하는 동안 **[!UICONTROL Preview]** 탭에서 최종 렌더링을 볼 수 있습니다. 변경 내용을 보려면 먼저 양식을 저장합니다. 오류가 **[!UICONTROL Log]** 탭에 표시됩니다.
 >* 페이지 표시 및 정보 저장소가 적절한 순서로 발생하는지 확인하려면 웹 양식에서 디버그 모드를 활성화합니다. 이렇게 하려면 **[!UICONTROL Preview]** 하위 탭으로 이동하여 **[!UICONTROL Enable debug mode]** 상자를 선택합니다.수집된 모든 정보 및 실행 오류는 각 페이지 하단에 표시됩니다.
-
 >
 
 
 
-### 도구 모음 {#using-the-icons-in-the-toolbar}에서 아이콘 사용
+### 도구 모음에서 아이콘 사용 {#using-the-icons-in-the-toolbar}
 
 도구 모음의 아이콘을 사용하거나 마우스 오른쪽 단추를 클릭하여 입력 영역을 삽입할 수도 있습니다.
 

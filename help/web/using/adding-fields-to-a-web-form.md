@@ -60,7 +60,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_webform_wz_insert_field.png)
 
-## 입력 필드 {#adding-input-fields} 추가
+## 입력 필드추가 {#adding-input-fields}
 
 입력 필드를 추가하려면 **[!UICONTROL Input control]** 단추를 클릭하고 추가할 필드 유형을 선택합니다.
 
@@ -108,7 +108,7 @@ ht-degree: 1%
 
    ![](assets/webapp_enrich_text_max.png)
 
-### 입력 필드 {#configure-input-fields} 구성
+### 입력 필드구성 {#configure-input-fields}
 
 입력 필드는 모두 다음 옵션을 사용하여 동일한 모드를 기반으로 구성됩니다.
 
@@ -156,7 +156,7 @@ ht-degree: 1%
 >
 >목록이 업데이트될 때마다 이 작업을 반복하여 오퍼의 값을 새로 고칩니다.
 
-## 확인란 {#adding-checkboxes} 추가
+## 확인란추가 {#adding-checkboxes}
 
 사용자가 옵션을 선택하려면 확인란을 사용해야 합니다.
 
@@ -190,7 +190,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_survey_check_box_ex_edit.png)
 
-## 라디오 단추 {#adding-radio-buttons} 추가
+## 라디오 단추추가 {#adding-radio-buttons}
 
 라디오 단추를 사용하면 사용자에게 선택할 수 있는 일련의 전용 옵션을 제공할 수 있습니다. 동일한 필드에 대한 값이 다릅니다.
 
@@ -210,7 +210,7 @@ ht-degree: 1%
 
 라디오 버튼은 확인란과 유사한 방식으로 구성됩니다( [확인란 추가](#adding-checkboxes) 참조). 그러나 옵션을 선택하지 않으면 값이 할당되지 않습니다. 여러 단추가 상호 종속되도록 하려면(예: 단추를 선택하면 다른 단추가 자동으로 선택 취소되지만 동일한 필드에 저장해야 합니다). 데이터베이스에 저장되지 않은 경우 임시 저장에 동일한 로컬 변수를 사용해야 합니다. [응답 저장소 필드](../../web/using/web-forms-answers.md#response-storage-fields)를 참조하십시오.
 
-### 단추 목록 {#add-a-list-of-buttons} 추가
+### 단추 목록추가 {#add-a-list-of-buttons}
 
 목록을 통해 라디오 단추를 추가하려면 페이지 편집기의 도구 모음에 있는 **[!UICONTROL Selection controls>Multiple choice]** 메뉴로 이동합니다.
 
@@ -223,7 +223,7 @@ ht-degree: 1%
 >웹 양식에서 여러 값을 선택하도록 인증하지 않습니다. **Survey** 형식 양식에 대해서만 다중 선택을 활성화할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../web/using/about-surveys.md)을 참조하십시오.\
 >그러나 웹 응용 프로그램에 **[!UICONTROL Multiple choice]** 유형 필드를 삽입할 수는 있습니다.하지만 여러 값을 선택할 수 있도록 승인하지 않은 경우:제공되는 옵션은 라디오 단추를 사용하여 선택할 수 있습니다.
 
-## 격자 {#adding-grids} 추가
+## 격자추가 {#adding-grids}
 
 격자는 웹 응용 프로그램에서 투표 페이지를 디자인하는 데 사용됩니다. 다음과 같이 설문 조사 또는 평가 유형 웹 양식에 응답하는 라디오 단추 목록을 제공할 수 있습니다.
 
@@ -247,7 +247,7 @@ ht-degree: 1%
 
 양식 필드의 내용은 데이터베이스에 저장된 데이터와 일치하거나 특정 요구 사항을 충족하기 위해 형식을 지정할 수 있습니다. 숫자 및 날짜 입력에 적합한 필드를 만들 수 있습니다.
 
-### 날짜 {#adding-dates} 추가
+### 날짜추가 {#adding-dates}
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
@@ -281,7 +281,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_survey_date_first_last_y.png)
 
-### 숫자 {#adding-numbers} 추가
+### 숫자추가 {#adding-numbers}
 
 숫자 입력에 적합한 필드를 만들 수 있습니다.
 
@@ -327,7 +327,7 @@ ht-degree: 1%
 
 가입 및 레퍼러의 예는 [이 섹션](../../web/using/about-surveys.md)에서 사용할 수 있습니다.
 
-## captcha {#inserting-a-captcha} 삽입
+## captcha삽입 {#inserting-a-captcha}
 
 **captcha** 테스트의 목적은 웹 양식의 부정 사용을 방지하는 것입니다.
 
@@ -363,7 +363,7 @@ Captcha는 시각적 아래에 입력 필드를 배치하여 페이지에 삽입
 >
 >캡처는 항상 8자 길이입니다. 이 값은 수정할 수 없습니다.
 
-## {#uploading-a-file} 파일 업로드
+## 파일 업로드{#uploading-a-file}
 
 페이지에 업로드 필드를 추가할 수 있습니다. 이 기능은 인트라넷 파일 공유에 유용합니다.
 
@@ -381,12 +381,11 @@ Captcha는 시각적 아래에 입력 필드를 배치하여 페이지에 삽입
 >* Adobe Campaign은 업로드된 리소스의 크기 또는 유형을 제어하지 않습니다.따라서 보안 형식 인트라넷 사이트에만 업로드 필드를 사용하는 것이 좋습니다.
 >* 여러 서버가 인스턴스에 연결되어 있는 경우(부하 분산 아키텍처) 웹 양식 호출이 동일한 서버에 도달하는지 확인해야 합니다.
 >* 이러한 구현을 위해서는 Adobe Campaign 컨설팅 팀의 지원이 필요합니다.
-
 >
 
 
 
-## 숨겨진 상수 {#inserting-a-hidden-constant} 삽입
+## 숨겨진 상수삽입 {#inserting-a-hidden-constant}
 
 사용자가 양식의 페이지 중 하나를 확인할 때 특정 값을 자신의 프로필 필드 또는 변수에 설정할 수 있습니다.
 

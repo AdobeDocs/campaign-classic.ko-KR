@@ -891,7 +891,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-## 열기 {#breakdown-of-opens-1} 분류
+## 열기분류 {#breakdown-of-opens-1}
 
 이 보고서는 **배달**(nms:delivery) 및 **추적 로그**(nms:trackingLogRcp) 테이블을 기반으로 합니다.
 
@@ -924,7 +924,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_recalculate_indicators.png)
 
-## 추적이 {#tracking-opens-} 열기
+## 추적이열기 {#tracking-opens-}
 
 Adobe Campaign에서 메시지를 검색하려면 수신자가 이메일의 이미지를 다운로드해야 합니다. HTML 및 다중 부분/대체 이메일에는 열려 있는 메시지를 검색할 수 있도록 해주는 0픽셀 이미지가 포함되어 있습니다. 텍스트 형식의 메시지에는 이미지가 포함되어 있지 않으므로 메시지가 열려 있는지 여부를 감지할 수 없습니다. 이미지 표시에 연결된 오류 여백으로 인해 연 메시지를 기반으로 계산된 값은 항상 예측됩니다.
 

@@ -49,7 +49,7 @@ Adobe Campaign을 사용하려면 하나 이상의 환경을 설치하고 구성
    >하나의 환경에 여러 인스턴스가 포함될 수 있습니다. 각 Adobe Campaign 인스턴스에는 라이선스 계약이 적용됩니다. 라이선스 계약서를 확인하여 몇 개의 환경을 제공할 수 있는지 살펴보십시오.\
    >아래 절차를 통해 설치한 환경 및 인스턴스 수에 영향을 미치지 않고 환경을 전송할 수 있습니다.
 
-### {#before-you-start}을(를) 시작하기 전에
+### 을(를) 시작하기 전에{#before-you-start}
 
 >[!IMPORTANT]
 >
@@ -69,12 +69,11 @@ Adobe Campaign을 사용하려면 하나 이상의 환경을 설치하고 구성
 >
 >* 다음 절차는 PostgreSQL 언어로 유효합니다. SQL 언어가 다른 경우(예: Oracle) SQL 쿼리를 적용해야 합니다.
 >* 아래 명령은 PostgreSQL 아래의 **prod** 인스턴스와 **dev** 인스턴스의 컨텍스트 내에 적용됩니다.
-
 >
 
 
 
-### 1단계 - 소스 환경(prod) 데이터 {#step-1---make-a-backup-of-the-source-environment--prod--data} 백업을 만듭니다.
+### 1단계 - 소스 환경(prod) 데이터백업을 만듭니다. {#step-1---make-a-backup-of-the-source-environment--prod--data}
 
 데이터베이스 복사
 
@@ -86,7 +85,7 @@ PostgreSQL 아래에서 명령은 다음과 같습니다.
 pg_dump mydatabase > mydatabase.sql
 ```
 
-### 2단계 - 대상 환경 구성(dev) {#step-2---export-the-target-environment-configuration--dev-} 내보내기
+### 2단계 - 대상 환경 구성(dev)내보내기 {#step-2---export-the-target-environment-configuration--dev-}
 
 대부분의 구성 요소는 각 환경에 대해 다릅니다.외부 계정(mid-sourcing, 라우팅 등), 기술 옵션(플랫폼 이름, 데이터베이스 ID, 이메일 주소 및 기본 URL 등)
 
@@ -111,7 +110,7 @@ pg_dump mydatabase > mydatabase.sql
 >
 >nmsextaccount 테이블을 내보낼 때 외부 계정과 관련된 암호(예: 중간 소싱, 메시지 센터 실행, SMPP, IMS 및 기타 외부 계정의 암호)는 내보내지지 않습니다. 외부 계정을 환경으로 다시 가져온 후 다시 입력해야 할 수도 있으므로 올바른 암호에 미리 액세스할 수 있는지 확인하십시오.
 
-### 3단계 - 대상 환경(dev) {#step-3---stop-the-target-environment--dev-} 중지
+### 3단계 - 대상 환경(dev)중지 {#step-3---stop-the-target-environment--dev-}
 
 모든 대상 환경 서버에서 Adobe Campaign 프로세스를 중지해야 합니다. 이 작업은 운영 체제에 따라 다릅니다.
 
@@ -148,7 +147,7 @@ nlserver pdump
 * Windows:**작업 관리자**&#x200B;를 열고 **nlserver.exe** 프로세스가 없는지 확인합니다.
 * Linux의 경우:**ps aux 실행 | grep nlserver** 명령 및 **nlserver** 프로세스가 없는지 확인합니다.
 
-### 4단계 - 대상 환경(dev) {#step-4---restore-the-databases-in-the-target-environment--dev-}에서 데이터베이스 복원
+### 4단계 - 대상 환경(dev)에서 데이터베이스 복원 {#step-4---restore-the-databases-in-the-target-environment--dev-}
 
 대상 환경에서 소스 데이터베이스를 복원하려면 다음 명령을 사용합니다.
 
@@ -156,7 +155,7 @@ nlserver pdump
 psql mydatabase < mydatabase.sql
 ```
 
-### 5단계 - 대상 환경(dev) {#step-5---cauterize-the-target-environment--dev-} 재구성
+### 5단계 - 대상 환경(dev)재구성 {#step-5---cauterize-the-target-environment--dev-}
 
 잘못된 기능을 방지하기 위해 대상 환경이 활성화될 때 전달 전송 및 워크플로우 실행에 연결된 프로세스가 자동으로 실행되어서는 안 됩니다.
 
@@ -166,7 +165,7 @@ psql mydatabase < mydatabase.sql
 nlserver javascript nms:freezeInstance.js -instance:<dev> -arg:run
 ```
 
-### 6단계 - 인증 {#step-6---check-cauterization} 확인
+### 6단계 - 인증확인 {#step-6---check-cauterization}
 
 1. ID가 0으로 설정된 배달부만 있는지 확인합니다.
 
@@ -187,7 +186,7 @@ nlserver javascript nms:freezeInstance.js -instance:<dev> -arg:run
    SELECT iStatus, count(*) FROM neolane.xtkworkflow GROUP BY iStatus;
    ```
 
-### 7단계 - 대상 환경 웹 프로세스(개발) {#step-7---restart-the-target-environment-web-process--dev-} 다시 시작
+### 7단계 - 대상 환경 웹 프로세스(개발)다시 시작 {#step-7---restart-the-target-environment-web-process--dev-}
 
 대상 환경에서 모든 서버의 Adobe Campaign 프로세스를 다시 시작합니다.
 
@@ -211,7 +210,7 @@ nlserver pdump
 
 클라이언트 콘솔 기능에 대한 액세스를 확인합니다.
 
-### 8단계 - 옵션 및 외부 계정을 대상 환경(dev) {#step-8---import-options-and-external-accounts-into-the-target-environment--dev-}으로 가져오기
+### 8단계 - 옵션 및 외부 계정을 대상 환경(dev)으로 가져오기 {#step-8---import-options-and-external-accounts-into-the-target-environment--dev-}
 
 >[!IMPORTANT]
 >

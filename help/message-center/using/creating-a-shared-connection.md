@@ -21,7 +21,6 @@ ht-degree: 2%
 >
 >* 제어 또는 실행 인스턴스에서 [Message Center 기술 워크플로](../../message-center/using/technical-workflows.md)에 사용되는 스키마에 대해 수행된 스키마 확장은 Adobe Campaign 트랜잭션 메시징 모듈에서 사용하는 다른 인스턴스에 복제되어야 합니다.
 >* 제어 인스턴스와 실행 인스턴스를 다른 컴퓨터에 설치해야 합니다. 동일한 캠페인 인스턴스를 공유할 수 없습니다.
-
 >
 
 

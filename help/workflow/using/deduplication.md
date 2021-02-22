@@ -109,7 +109,7 @@ ht-degree: 10%
 
    ![](assets/s_user_segmentation_dedup_param9.png)
 
-## 예:{#example--identify-the-duplicates-before-a-delivery} 배달 전 중복 항목 식별
+## 예:배달 전 중복 항목 식별{#example--identify-the-duplicates-before-a-delivery}
 
 다음 예제에서는 데이터 중복 제거가 세 개의 쿼리 결합에 대해 우려를 표시합니다.
 
@@ -135,7 +135,7 @@ ht-degree: 10%
 
 워크플로우를 실행할 때 중복으로 식별된 모든 수신자는 결과로부터 제외되어(따라서 배달) 중복 목록에 추가됩니다. 이 목록은 중복 항목을 다시 식별하지 않고 다시 사용할 수 있습니다.
 
-## 필드를 단일 데이터 레코드 {#merging-fields-into-single-record}로 병합
+## 필드를 단일 데이터 레코드로 병합 {#merging-fields-into-single-record}
 
 **[!UICONTROL Merge]** 기능을 사용하면 데이터 중복 제거에 대한 규칙 세트를 구성하여 하나의 결과 데이터 레코드에 병합할 필드 또는 그룹 정의
 
