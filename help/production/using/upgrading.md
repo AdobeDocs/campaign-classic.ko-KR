@@ -7,15 +7,15 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 0%
+source-wordcount: '1166'
+ht-degree: 2%
 
 ---
 
 
-# 새 빌드(온-프레미스)으로 업그레이드{#upgrading}
+# 새 빌드(온-프레미스){#upgrading}으로 업그레이드
 
 업그레이드 프로세스를 시작하기 전에 업그레이드할 Adobe Campaign 버전을 확인하고 [릴리스 노트](../../rn/using/latest-release.md)에 문의하십시오.
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 클라이언트 콘솔을 업데이트하는 방법을 알아보려면 [이 섹션](../../installation/using/client-console-availability-for-windows.md)을 참조하십시오.
 
-### 서비스종료 {#shut-down-services}
+### 서비스 {#shut-down-services} 종료
 
 모든 파일을 새 버전으로 바꾸려면 nlserver 서비스의 모든 인스턴스를 종료해야 합니다.
 
@@ -50,7 +50,6 @@ ht-degree: 0%
       **iisreset /stop**
 
    * Adobe Campaign 서비스:**net stop nlserver6**
-
    >[!IMPORTANT]
    >
    >또한 IIS에서 사용하는 **nlsrvmod.dll** 파일을 새 버전으로 바꿀 수 있도록 리디렉션 서버(webmdl)가 중지되었는지 확인해야 합니다.
@@ -65,13 +64,13 @@ ht-degree: 0%
 
    Windows 작업 관리자를 사용하여 모든 프로세스가 중지되었는지 확인할 수 있습니다.
 
-### Adobe Campaign 서버 응용 프로그램업그레이드 {#upgrade-the-adobe-campaign-server-application}
+### Adobe Campaign 서버 응용 프로그램 {#upgrade-the-adobe-campaign-server-application} 업그레이드
 
 업그레이드 파일을 실행하려면 다음 단계를 수행하십시오.
 
 1. **setup.exe**&#x200B;를 실행합니다.
 
-   이 파일을 다운로드하려면 사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/downloads)에 연결하십시오. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)의 소프트웨어 배포에 대해 자세히 알아보십시오.
+   이 파일을 다운로드하려면 사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하십시오. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)의 소프트웨어 배포에 대해 자세히 알아보십시오.
 
 1. 설치 모드를 선택합니다.**[!UICONTROL Update or repair]** 선택
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다. 
@@ -99,7 +98,7 @@ ht-degree: 0%
 
 그런 다음 동기화가 오류 또는 경고를 생성했는지 확인합니다. 자세한 내용은 [업그레이드 충돌 해결](#resolving-upgrade-conflicts)을 참조하십시오.
 
-### 서비스다시 시작 {#restart-services}
+### 서비스 {#restart-services} 다시 시작
 
 다시 시작할 서비스는 다음과 같습니다.
 
@@ -123,13 +122,13 @@ ht-degree: 0%
 >
 >빌드 8757에서 제3자 라이브러리는 더 이상 필요하지 않습니다.
 
-### 업데이트된 패키지가져오기 {#obtain-updated-packages}
+### 업데이트된 패키지 {#obtain-updated-packages} 가져오기
 
-Adobe Campaign의 업데이트된 패키지를 모두 복구하는 것으로 시작합니다.사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/downloads)에 연결합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)의 소프트웨어 배포에 대해 자세히 알아보십시오.
+Adobe Campaign의 업데이트된 패키지를 모두 복구하는 것으로 시작합니다.사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)의 소프트웨어 배포에 대해 자세히 알아보십시오.
 
 파일은 **nlserver6-v7-XXX.rpm**&#x200B;입니다.
 
-### 업데이트수행 {#perform-an-update}
+### 업데이트 {#perform-an-update} 수행
 
 * RPM 기반 배포(RedHat, SuSe)
 
@@ -159,7 +158,7 @@ Adobe Campaign의 업데이트된 패키지를 모두 복구하는 것으로 시
 >
 >전체 설치 절차는 [이 섹션](../../installation/using/installing-campaign-standard-packages.md)에 자세히 설명되어 있습니다. 리소스는 자동으로 동기화되지만 오류가 발생하지 않도록 해야 합니다. 자세한 내용은 [업그레이드 충돌 해결](#resolving-upgrade-conflicts)을 참조하십시오.
 
-### 웹 서버다시 부팅합니다. {#reboot-the-web-server}
+### 웹 서버 {#reboot-the-web-server} 다시 부팅합니다.
 
 새 라이브러리를 적용하려면 Apache를 종료해야 합니다.
 
@@ -173,8 +172,10 @@ Adobe Campaign의 업데이트된 패키지를 모두 복구하는 것으로 시
 >
 >* 스크립트를 **apache** 대신 **httpd**&#x200B;라고 할 수 있습니다.
 >* 다음 응답을 받을 때까지 이 명령을 실행해야 합니다.
->
->   Apache가 새 라이브러리를 적용하려면 이 작업이 필요합니다.
+
+   >
+   >   
+   Apache가 새 라이브러리를 적용하려면 이 작업이 필요합니다.
 
 
 Apache를 다시 시작합니다.
@@ -242,7 +243,7 @@ Apache를 다시 시작합니다.
 
 예를 들어 유니코드 데이터베이스는 LATIN1 데이터 등의 저장 권한만 부여하지 않아야 합니다.
 
-## 사용 가능한 업데이트의 클라이언트 콘솔에 대해 경고 {#warn-the-client-consoles-of-the-available-update}
+## 사용 가능한 업데이트 {#warn-the-client-consoles-of-the-available-update}의 클라이언트 콘솔에 대해 경고
 
 ### Windows {#in-windows-1}
 
