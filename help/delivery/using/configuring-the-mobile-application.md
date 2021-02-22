@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: a1bd8dc2b5946b74cb880eff934e3b35cadfb2d2
+source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 7%
+source-wordcount: '789'
+ht-degree: 4%
 
 ---
 
@@ -32,10 +32,6 @@ iOS의 경우 iOS HTTP/2 커넥터는 HTTP/2 APNs로 알림을 전송합니다.
 1. **[!UICONTROL Administration > Platform > External accounts]**&#x200B;으로 이동합니다.
 1. **[!UICONTROL iOS routing]** 외부 계정을 선택합니다.
 1. **[!UICONTROL Connector]** 탭에서 **[!UICONTROL Access URL of the connector]** 필드에 다음 URL을 입력합니다.```http://localhost:8080/nms/jsp/iosHTTP2.jsp```
-
-   >[!NOTE]
-   >
-   > Campaign 20.3 릴리스부터 iOS 레거시 바이너리 커넥터는 사용되지 않습니다. 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)
 
    ![](assets/nmac_connectors.png)
 
