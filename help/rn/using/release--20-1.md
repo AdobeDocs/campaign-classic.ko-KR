@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 12%
@@ -24,8 +24,9 @@ _2020년 12월 23일_
 >[!CAUTION]
 >
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. IMS(Adobe ID Service)를 통해 Campaign에 연결할 경우, **2021년 3월 31일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다.
->
-> * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
+   >
+   > 
+* 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
 
 
 * 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
@@ -72,7 +73,7 @@ _2020년 2월 17일_
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>hadoop FDA Connector는 Cloudera뿐만 아니라 Hadoop 3.0도 지원하도록 향상되었습니다.</p>
+   <td> <p>Hadoop FDA 커넥터는 Cloudera뿐만 아니라 Hadoop 3.0도 지원하도록 향상되었습니다.</p>
     <p>자세한 내용은 <a href="../../installation/using/configure-fda-hadoop.md">세부 설명서</a>를 참조하십시오.</p>
    </td> 
   </tr> 
@@ -131,13 +132,13 @@ _2020년 2월 17일_
 
 **패치**
 
-* hadoop 커넥터를 사용할 때 계정 키 암호화 문제가 해결되었습니다.
+* Hadoop 커넥터를 사용할 때 계정 키 암호화 문제가 해결되었습니다.
 
 * Windows 서버에서 사용자 연결이 실패하는 SSL 인증 구현으로 인한 회귀 문제를 해결했습니다. (NEO-20629)
 
 * 부정적인 워크플로우 ID의 경우 증분 쿼리 활동 관련 문제를 수정했습니다. (NEO-19779)
 
-* netezza FDA 커넥터를 통해 쿼리를 실행할 때 발생하는 인코딩 문제가 해결되었습니다. (NEO-19594)
+* Netezza FDA 커넥터를 통해 쿼리를 실행할 때 발생하는 인코딩 문제가 해결되었습니다. (NEO-19594)
 
 * **웹 다운로드** 워크플로 이벤트 활동에서 POST 메서드를 사용할 때 오류가 발생하던 문제가 수정되었습니다.
 
