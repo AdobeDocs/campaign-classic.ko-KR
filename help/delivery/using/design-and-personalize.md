@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 2aa1a1c5da7b552cae916885c011aa4aaf9b61db
 workflow-type: tm+mt
 source-wordcount: '1266'
 ht-degree: 7%
@@ -158,6 +158,6 @@ Adobe Campaign 데이터베이스에 저장되어 있거나 추적, 랜딩 페�
 
 Adobe은 개인화와 수신자가 전달을 어떻게 볼 것인지 확인하기 위해 메시지를 미리 볼 것을 권장합니다.
 
-* 배달 작업 표시줄에서 **[!UICONTROL Preview]** 하위 탭을 사용하여 수신자의 각 컨텐츠 렌더링을 볼 수 있습니다. 개인화 필드 및 컨텐츠 조건부 요소는 선택한 프로파일에 대한 해당 정보로 대체됩니다. [자세히 알아보기](../../delivery/using/defining-the-email-content.md#message-content)
+* 배달 마법사에서 **[!UICONTROL Preview]** 하위 탭을 사용하여 수신자에 대한 각 컨텐츠의 렌더링을 볼 수 있습니다. 개인화 필드 및 컨텐츠 조건부 요소는 선택한 프로파일에 대한 해당 정보로 대체됩니다. [자세히 알아보기](../../delivery/using/defining-the-email-content.md#message-content)
 
 * 각 미리 보기 중에 자동 스팸 방지 검사가 수행됩니다. **[!UICONTROL Preview]** 하위 탭에서 [SpamAsser](../../delivery/using/spamassassin.md) 스팸 점수를 확인하십시오.  경고에 대한 자세한 내용을 보려면 **[!UICONTROL More...]**&#x200B;을 클릭합니다.  그 전에 SpamCharacter가 Adobe Campaign 응용 프로그램 서버에 올바르게 설치 및 구성되어 있는지 확인하십시오. [자세히 알아보기](../../installation/using/configuring-spamassassin.md)
