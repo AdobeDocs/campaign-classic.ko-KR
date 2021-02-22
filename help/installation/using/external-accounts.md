@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
+source-git-commit: f00c0bda0ab3f2e07c015f4cfe5e3942f5620841
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 11%
@@ -147,7 +147,7 @@ Campaign과 호환되는 외부 데이터베이스가 [호환성 매트릭스](.
 
 외부 계정 구성 설정은 데이터베이스 엔진에 따라 다릅니다. 다음 섹션에서 자세한 내용을 살펴보십시오.
 
-* [Azure synapse](../../installation/using/configure-fda-synapse.md)에 대한 액세스 권한 구성
+* [Azure Synapse](../../installation/using/configure-fda-synapse.md)에 대한 액세스 권한 구성
 * [Hadoop](../../installation/using/configure-fda-hadoop.md)에 대한 액세스 권한 구성
 * [Oracle](../../installation/using/configure-fda-oracle.md)에 대한 액세스 권한 구성
 * [Netezza](../../installation/using/configure-fda-netezza.md)에 대한 액세스 권한 구성
@@ -408,7 +408,7 @@ Salesforce CRM 외부 계정이 Adobe Campaign에서 작동하도록 구성하�
 
 * **[!UICONTROL API version]**
 
-   **[!UICONTROL Version 37]**, **[!UICONTROL Version 21]** 또는 **[!UICONTROL Version 15]** 사이의 API 버전.
+   **[!UICONTROL Version 49]**, **[!UICONTROL Version 37]**, **[!UICONTROL Version 21]** 또는 **[!UICONTROL Version 15]** 사이의 API 버전.
 
 이 외부 계정의 경우 구성 마법사를 사용하여 Salesforce CRM을 구성해야 합니다.
 
