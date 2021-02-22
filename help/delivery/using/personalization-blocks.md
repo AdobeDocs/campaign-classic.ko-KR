@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: df7c27e763e7e0c02189ed972f33eb03ca2a915f
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '895'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ HTML 소스 코드가 배달 내용에 삽입됩니다. 예를 들어 **[!UICONT
    >이 블록은 방문자만 타깃팅하는 배달에서 사용할 수 있습니다.
 
 * **[!UICONTROL Registration confirmation]** :를 사용하여 구독을 확인하는 링크를 삽입합니다.
-* **[!UICONTROL Social network sharing links]** :수신자가 이메일 클라이언트, Facebook, Twitter, Google + 및 LinkedIn과 미러 페이지 컨텐츠에 대한 링크를 공유할 수 있도록 하는 단추를 삽입합니다(바이럴 마케팅  [참조:친구에게](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend) 전달).
+* **[!UICONTROL Social network sharing links]** :수신자가 이메일 클라이언트, Facebook, Twitter 및 LinkedIn과 미러 페이지 컨텐츠에 대한 링크를 공유할 수 있도록 하는 단추를 삽입합니다(바이럴 마케팅  [참조:친구에게](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend) 전달).
 * **[!UICONTROL Style of content emails]** 및:  **[!UICONTROL Notification style]** 미리 정의된 HTML 스타일을 사용하여 이메일의 서식을 지정하는 코드를 생성합니다. 이러한 블록은 **[!UICONTROL ...]** 섹션의 배달 소스 코드에 **`<style>...</style>`** 태그에 삽입해야 합니다.
 * **[!UICONTROL Offer acceptance URL in unitary mode]** :상호 작용 오퍼를 설정할 수 있는 URL을  **[!UICONTROL Accepted]** 삽입합니다( [이 섹션 참조](../../interaction/using/offer-analysis-report.md)).
 
