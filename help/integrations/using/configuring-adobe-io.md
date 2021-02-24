@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 425b2e5748703a8349b6f70968d1ef4c71f72b21
+source-git-commit: 333d2221d4f86fe18232473385653ed8409adf54
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '526'
 ht-degree: 6%
 
 ---
@@ -96,9 +96,19 @@ Adobe Campaign에서 프로젝트 자격 증명을 추가하려면 Adobe Campaig
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
 ```
 
->[!NOTE]
->
->개인 키는 base64 UTF-8 형식으로 인코딩해야 합니다. 개인 키를 제외하고 인코딩 전에 키에서 새 행을 제거해야 합니다. 비공개 키는 통합을 만드는 데 사용한 키와 동일해야 합니다. 개인 키의 base64 인코딩을 테스트하려면 [이 웹 사이트](https://www.base64encode.org/)를 사용할 수 있습니다.
+개인 키는 base64 UTF-8 형식으로 인코딩해야 합니다. 방법은 다음과 같습니다.
+
+1. [1단계에서 생성된 개인 키를 사용합니다.Adobe I/O 프로젝트 섹션](#creating-adobe-io-project)을(를) 만들거나 업데이트합니다. 비공개 키는 통합을 만드는 데 사용된 키와 동일해야 합니다.
+
+1. 이 [이 웹 사이트](https://www.base64encode.org/)를 사용하여 개인 키를 해당 필드에 붙여 넣습니다.
+
+   >[!NOTE]
+   >
+   >경우에 따라 개인 키를 복사/붙여 넣을 때 추가 줄이 자동으로 추가될 수 있습니다. 개인 키를 인코딩하기 전에 이를 제거해야 합니다.
+
+1. **[!UICONTROL Encode]**&#x200B;을(를) 클릭합니다.
+
+1. 아래의 자세한 명령을 실행하려면 새로 생성된 개인 키를 base64 UTF-8 형식으로 인코딩하십시오.
 
 ## 3단계:파이프라인 태그 {#update-pipelined-tag} 업데이트
 
