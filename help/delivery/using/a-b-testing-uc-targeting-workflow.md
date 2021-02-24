@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 9%
+source-wordcount: '136'
+ht-degree: 8%
 
 ---
 
@@ -34,3 +34,5 @@ ht-degree: 9%
 1. 마우스를 사용하여 **[!UICONTROL Query]**(**[!UICONTROL Target]** 탭), **[!UICONTROL Split]**(**[!UICONTROL Target]** 탭), 2개의 **[!UICONTROL Email deliveries]**(**[!UICONTROL Deliveries]** 탭), **[!UICONTROL Wait]** 활동(**[!UICONTROL Flow Control]** 탭), **[!UICONTROL JavaScript code]** 활동(**[!UICONTROL Actions]** 탭) 및 **[!UICONTROL Delivery]** 탭을 포함하여 작업을 작업 다이어그램으로 드래그하여 놓습니다./> 활동(**[!UICONTROL Actions]** 탭).
 
 ![](assets/use_case_abtesting_targetwkfl_004.png)
+
+이제 모집단 샘플을 구성할 수 있습니다([단계 2 참조).모집단 샘플 구성](../../delivery/using/a-b-testing-uc-population-samples.md)).
