@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: URL 추적 개인화
-description: URL 추적 개인화
+title: URL 추적 옵션 구성
+description: URL 추적 옵션 구성
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 019c982dcf040fb2dc2a1c82d4a2ff5a964ec5fa
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 10%
+source-wordcount: '164'
+ht-degree: 4%
 
 ---
 
 
-# URL 추적 개인화{#personalizing-url-tracking}
+# URL 추적 옵션 구성{#personalizing-url-tracking}
 
 고급 메시지 추적 설정은 배달 마법사의 도구 모음에 있는 **[!UICONTROL Tracking & Images]** 아이콘을 통해 액세스할 수 있습니다.
 
