@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -27,3 +27,5 @@ A/B 테스트 우승자를 선택하기 위해 스크립트가 만들어지면 �
    ![](assets/ab_test_final_delivery.png)
 
 전환(**[!UICONTROL Javascript Code]** 활동을 통해 정의됨)에 지정된 배달을 준비하면 다음 단계에 설명된 대로 승인하고 전송을 시작할 수 있습니다.
+
+이제 워크플로우를 시작할 수 있습니다([7단계 참조:워크플로](../../delivery/using/a-b-testing-uc-start-workflow.md))를 시작합니다.
