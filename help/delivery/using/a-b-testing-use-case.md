@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 346b72d522c947b2a2552176b910ded8d622f3ab
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,14 @@ ht-degree: 0%
 
 이 사용 사례를 수행하는 주요 단계는 다음과 같습니다.
 
-* [1단계:타깃팅 워크플로우 만들기](#step-1--creating-a-targeting-workflow)
-* [2단계:모집단 샘플 구성](#step-2--configuring-population-samples)
-* [3단계:2개의 배달 템플릿 만들기](#step-3--creating-two-delivery-templates)
-* [4단계:워크플로우에서 배달 구성](#step-4--configuring-the-deliveries-in-the-workflow)
-* [5단계:스크립트 만들기](#step-5--creating-the-script)
-* [7단계:워크플로우 시작](#step-7--starting-the-workflow)
-* [8단계:결과를 분석합니다](#step-8--analyzing-the-result).
+* [1단계:타깃팅 워크플로우 만들기](../../delivery/using/a-b-testing-uc-targeting-workflow.md)
+* [2단계:모집단 샘플 구성](../../delivery/using/a-b-testing-uc-population-samples.md)
+* [3단계:2개의 배달 템플릿 만들기](../../delivery/using/a-b-testing-uc-delivery-templates.md)
+* [4단계:워크플로우에서 배달 구성](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)
+* [5단계:스크립트 만들기](../../delivery/using/a-b-testing-uc-script.md)
+* [6단계:최종 배달 정의](../../delivery/using/a-b-testing-uc-final-delivery.md)
+* [7단계:워크플로우 시작](../../delivery/using/a-b-testing-uc-start-workflow.md)
+* [8단계:결과 분석](../../delivery/using/a-b-testing-uc-analyzing.md)
 
 **관련 항목:**
 
