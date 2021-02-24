@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 151667637a12667f5eda1590e64e01de493be9ce
+source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 1%
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 개체는 다음과 같습니다.
 
-* *&quot;배달&quot;:현재 배달을 참조하십시오(아래 하위 섹션의 세부 사항 및 제한 사항 참조).
+* &quot;전달&quot;:현재 배달을 참조하십시오(아래 하위 섹션의 세부 사항 및 제한 사항 참조).
 * &quot;공급자&quot;:현재 배달 공급자/경로 지정(nms:externalAccount)에 대해 지정합니다.
 * 추가 스크립트 개체:객체를 다음 방법으로 컨텍스트에서 로드한 경우&#x200B;**속성** > **개인화** > **실행 컨텍스트에 개체 추가**.
 * 예측 루프의 항목:아래의 [예측](#<%@-foreach) 섹션을 참조하십시오.
