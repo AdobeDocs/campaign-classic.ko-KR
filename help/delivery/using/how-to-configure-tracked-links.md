@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '478'
 ht-degree: 11%
 
 ---
@@ -19,11 +19,14 @@ ht-degree: 11%
 
 각 게재에 대해 메시지 수신 및 메시지 콘텐츠에 삽입된 링크의 활성화를 추적할 수 있습니다. 이렇게 하면 수신자가 타겟팅된 게재 작업 이후 수신자의 동작을 추적할 수 있습니다.
 
+추적은 메시지에 적용되지만 웹 추적을 통해 받는 사람이 웹 사이트를 검색하는 방법(방문한 페이지, 구매)을 모니터링할 수 있습니다. 웹 추적 구성은 [이 섹션](../../configuration/using/about-web-tracking.md)에 있습니다.
+
 >[!NOTE]
 >
->추적은 메시지에 적용되지만 웹 추적을 통해 받는 사람이 웹 사이트를 검색하는 방법(방문한 페이지, 구매)을 모니터링할 수 있습니다.
->
->웹 추적 구성은 [이 섹션](../../configuration/using/about-web-tracking.md)에 있습니다.
+>개인화가 포함된 이메일 컨텐츠의 링크는 특정 구문을 추적해야 합니다. 개인화할 수 있는 이메일에 링크를 추가하는 방법 및 해당 지원 추적에 대한 자세한 내용은 [이 섹션](../../delivery/using/tracking-personalized-links.md)을 참조하십시오.
+
+
+
 
 메시지 추적은 기본적으로 활성화되어 있습니다. URL을 추적하는 방법을 개인화하려면 아래 단계를 따르십시오.
 
