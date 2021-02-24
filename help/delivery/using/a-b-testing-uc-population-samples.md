@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 3%
+source-wordcount: '174'
+ht-degree: 2%
 
 ---
 
@@ -80,3 +80,5 @@ ht-degree: 3%
    * 이 모집단에는 A와 B가 포함되지 않도록 레이블을 변경하고 **[!UICONTROL OK]**&#x200B;을 클릭하여 활동을 닫습니다.
 
       ![](assets/use_case_abtesting_createrecipients_013.png)
+
+이제 2개의 배달 템플릿을 만들 수 있습니다( [단계 3 참조).2개의 배달 템플릿](../../delivery/using/a-b-testing-uc-delivery-templates.md))을 만듭니다.
