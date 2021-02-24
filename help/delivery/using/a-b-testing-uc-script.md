@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -169,3 +169,5 @@ ht-degree: 0%
 * 메시지 수신을 따라 방문한 페이지 수:`[indicators/@totalWebPage]`,
 * 최저 구독 취소 비율:`[indicators/@optOutRatio]`,
 * 거래 금액:`[indicators/@amount]`.
+
+이제 최종 배달을 정의할 수 있습니다([6단계 참조:최종 배달](../../delivery/using/a-b-testing-uc-final-delivery.md))을 정의합니다.
