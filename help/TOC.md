@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: 설명서
 translation-type: tm+mt
-source-git-commit: 4030eb1cf9aa78a10daffe9ea849aa205660e359
+source-git-commit: 6dbf77c29dddc4b718910835520e4480e01d0d4a
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 97%
+source-wordcount: '2368'
+ht-degree: 96%
 
 ---
 
@@ -199,7 +199,11 @@ ht-degree: 97%
    + 메시지 추적 {#tracking-messages}
       + [메시지 추적 기본 정보](delivery/using/about-message-tracking.md)
       + [추적된 링크를 구성하는 방법](delivery/using/how-to-configure-tracked-links.md)
-      + [URL 추적 개인화](delivery/using/personalizing-url-tracking.md)
+      + 개인화된 링크 추적 {#tracking-personalized-links}
+         + [개인화된 링크 추적 시작](delivery/using/tracking-personalized-links.md)
+         + [추적 URL 감지](delivery/using/detecting-tracking-urls.md)
+         + [추적을 위한 사전 처리 지침](delivery/using/pre-processing-instructions.md)
+      + [URL 추적 옵션 구성](delivery/using/personalizing-url-tracking.md)
       + [추적 로그 액세스](delivery/using/accessing-the-tracking-logs.md)
       + [추적 테스트](delivery/using/testing-tracking.md)
       + [추적 문제 해결](delivery/using/tracking-troubleshooting.md)
