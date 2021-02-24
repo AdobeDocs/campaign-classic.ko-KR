@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 55cc09c0446e389029890e45b790bb5ec6ffdc27
+source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 8%
+source-wordcount: '685'
+ht-degree: 9%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Campaign의 추적 기능 덕분에에서 전송한 메시지를 추적하
 
 **추적된 링크 개인화**
 
-Campaign Classic 추적 기능을 사용하면 개인화할 수 있고 추적을 지원하는 이메일에 링크를 추가할 수 있습니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/tracking-personnalized-links.html)
+Campaign Classic 추적 기능을 사용하면 개인화할 수 있고 추적을 지원하는 이메일에 링크를 추가할 수 있습니다. [자세히 알아보기](../../delivery/using/tracking-personalized-links.md)
 
 **추적 로그**
 
