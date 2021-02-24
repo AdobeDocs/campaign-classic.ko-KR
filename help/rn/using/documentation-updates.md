@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
+source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
 workflow-type: tm+mt
 source-wordcount: '4066'
 ht-degree: 95%
@@ -45,6 +45,8 @@ Adobe Campaign 향상된 MTA 섹션이 [여기](../../delivery/using/sending-wit
 
 **이메일 전송** 섹션이 다시 개편되어 새 하위 섹션으로 명확해졌습니다. [자세한 내용](../../delivery/using/sending-messages.md)
 
+개인화할 수 있고 추적을 지원하는 이메일에 링크를 추가하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../delivery/using/tracking-personalized-links.md).
+
 ## 2021년 1월 {#jan-2021}
 
 **[!UICONTROL Fork]** 활동 섹션이 모범 사례와 함께 보강되었습니다. [자세한 내용](../../workflow/using/fork.md)
@@ -62,8 +64,6 @@ Adobe Campaign 향상된 MTA 섹션이 [여기](../../delivery/using/sending-wit
 **모니터링** 안내서의 문제 해결 섹션이 랜딩 페이지로 다시 구성되고 향상되었습니다. [자세한 내용](../../production/using/troubleshooting.md).
 
 **데이터 가져오기 및 내보내기** 새 섹션은 워크플로우, 데이터 압축, 암호화 및 가져오기 모범 사례와 관련된 새 페이지에서 사용할 수 있습니다. [자세한 내용](../../platform/using/get-started-data-import-export.md)
-
-개인화할 수 있고 추적을 지원하는 이메일에 링크를 추가하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../delivery/using/tracking-personalized-links.md)
 
 ## 2020년 12월 {#dec-2020}
 
