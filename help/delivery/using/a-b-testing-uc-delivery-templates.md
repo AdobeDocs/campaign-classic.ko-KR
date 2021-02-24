@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 10%
+source-wordcount: '92'
+ht-degree: 8%
 
 ---
 
@@ -31,3 +31,5 @@ ht-degree: 10%
 1. 배달 B에 대한 템플릿을 만들려면 이 프로세스를 반복합니다.
 
    ![](assets/use_case_abtesting_deliverymodel_003.png)
+
+이제 워크플로우에서 배달을 구성할 수 있습니다( [4단계 참조:워크플로우](../../delivery/using/a-b-testing-uc-configuring-deliveries.md))에서 배달을 구성합니다.
