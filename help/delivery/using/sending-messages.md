@@ -7,17 +7,17 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: e2dfc34b35e6ce03715bd5723cff578a1aacd559
+source-git-commit: 4a56feac374506bb33ae6770aa247a197f1669fb
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
 
-# 이메일 배달 확인 {#confirming-email-delivery}
+# {#confirming-email-delivery} 이메일을 보내는 기본 단계
 
-이메일이 만들어지고 구성되면 기본 타겟으로 보낼 수 있습니다. 이 섹션에서는 이메일 배달을 확인하는 주요 단계를 설명합니다.
+이메일이 만들어지고 구성되면 기본 타겟으로 보낼 수 있습니다. 이 섹션에서는 이메일 배달을 확인하고 확인하는 주요 단계를 설명합니다.
 
 1. 이메일 배달과 관련된 모든 설정을 구성했는지 확인합니다. 자세한 내용은 [이메일 매개 변수](../../delivery/using/email-parameters.md)를 참조하십시오.
 1. 이메일이 준비되면 기본 타겟으로 보내기 전에 교정본을 보내 잠재적인 오류를 탐지하는 것이 좋습니다. 자세한 내용은 [증명 보내기](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)를 참조하십시오.
