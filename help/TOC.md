@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: 설명서
 translation-type: tm+mt
-source-git-commit: 6dbf77c29dddc4b718910835520e4480e01d0d4a
+source-git-commit: 4a56feac374506bb33ae6770aa247a197f1669fb
 workflow-type: tm+mt
-source-wordcount: '2368'
+source-wordcount: '2372'
 ht-degree: 96%
 
 ---
@@ -125,8 +125,8 @@ ht-degree: 96%
       + [전자 메일 게재 만들기](delivery/using/creating-an-email-delivery.md)
       + [전자 메일 콘텐츠 정의](delivery/using/defining-the-email-content.md)
       + [대화형 콘텐츠 정의](delivery/using/defining-interactive-content.md)
-      + 이메일 {#sending-an-email} 보내기
-         + [이메일 배달 확인](delivery/using/sending-messages.md)
+      + 이메일 배달 {#sending-an-email} 보내기
+         + [이메일을 보내는 주요 단계](delivery/using/sending-messages.md)
          + [이메일 매개 변수](delivery/using/email-parameters.md)
          + [향상된 MTA로 보내기](delivery/using/sending-with-enhanced-mta.md)
          + [일본 모바일에 보내기](delivery/using/sending-emails-on-japanese-mobiles.md)
