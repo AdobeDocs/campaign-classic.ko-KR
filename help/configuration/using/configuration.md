@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 translation-type: tm+mt
-source-git-commit: 6e0741d13aa954e81fe6416663399ffd1a81012f
+source-git-commit: 04b8287dba00adbc391d611cbaf63b36a4bc3d10
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 1%
@@ -297,7 +297,7 @@ XML 문서에는 문서 이름 및 네임스페이스를 지정하는 **name** �
 데이터 스키마에 있는 연결된 폴더의 선언의 예:
 
 ```
-<element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
+<element default="DefaultFolder('nmsFolder', [@_folder-id])" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="define" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
 &quot;folder&quot;라는 폴더의 링크에 있는 **`<nodemodel>`**&#x200B;의 구성은 다음과 같습니다.
