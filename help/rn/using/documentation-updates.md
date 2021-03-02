@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
+source-git-commit: add0efb4efd5a37129c649b942799622947f3143
 workflow-type: tm+mt
-source-wordcount: '4066'
+source-wordcount: '4092'
 ht-degree: 95%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 95%
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
+
+## 2021년 3월 {#march-2021}
+
+작업을 종료하고 향후 회수를 방지하기 위해 task.setCompleted() 메서드를 사용하는 방법에 대한 정보가 **[!UICONTROL Advanced JavaScript]** 활동 섹션에 추가되었습니다. [자세한 내용](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
 ## 2021년 2월 {#release-21.1}
 
