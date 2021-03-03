@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
+source-git-commit: 571821ce775a7c354d01404d14faee8d2a21c170
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 12%
@@ -73,7 +73,7 @@ _2020년 2월 17일_
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Hadoop FDA 커넥터는 Cloudera뿐만 아니라 Hadoop 3.0도 지원하도록 향상되었습니다.</p>
+   <td> <p>hadoop FDA 커넥터는 Cloudera뿐만 아니라 Hadoop 3.0도 지원하도록 향상되었습니다.</p>
     <p>자세한 내용은 <a href="../../installation/using/configure-fda-hadoop.md">세부 설명서</a>를 참조하십시오.</p>
    </td> 
   </tr> 
@@ -132,13 +132,13 @@ _2020년 2월 17일_
 
 **패치**
 
-* Hadoop 커넥터를 사용할 때 계정 키 암호화 문제가 해결되었습니다.
+* hadoop 커넥터를 사용할 때 계정 키 암호화 문제가 해결되었습니다.
 
 * Windows 서버에서 사용자 연결이 실패하는 SSL 인증 구현으로 인한 회귀 문제를 해결했습니다. (NEO-20629)
 
 * 부정적인 워크플로우 ID의 경우 증분 쿼리 활동 관련 문제를 수정했습니다. (NEO-19779)
 
-* Netezza FDA 커넥터를 통해 쿼리를 실행할 때 발생하는 인코딩 문제가 해결되었습니다. (NEO-19594)
+* netezza FDA 커넥터를 통해 쿼리를 실행할 때 발생하는 인코딩 문제가 해결되었습니다. (NEO-19594)
 
 * **웹 다운로드** 워크플로 이벤트 활동에서 POST 메서드를 사용할 때 오류가 발생하던 문제가 수정되었습니다.
 
