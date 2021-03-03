@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 571821ce775a7c354d01404d14faee8d2a21c170
 workflow-type: tm+mt
 source-wordcount: '3127'
-ht-degree: 23%
+ht-degree: 22%
 
 ---
 
@@ -25,7 +25,7 @@ _2020년 12월 16일_
 >
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. IMS(Adobe ID Service)를 통해 Campaign에 연결할 경우, **2021년 3월 31일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다.
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지](../../integrations/using/configuring-adobe-io.md)에 설명한 대로 Adobe I/O로 이동해야 합니다. 레거시 oAuth 인증 모드는 **2021년 4월 30일**&#x200B;에 종료됩니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 이 페이지](../../integrations/using/configuring-adobe-io.md)에서 설명한 대로 Adobe I/O으로 이동해야 합니다. [ 레거시 oAuth 인증 모드는 **2021년 4월 30일**&#x200B;에 종료됩니다.
 
 
 
@@ -111,7 +111,7 @@ _2019년 8월 13일_
 * 명령줄을 통해 midEmitter 패키지 설치 문제를 수정했습니다.
 * Microsoft Dynamics가 있는 AC 커넥터 내의 OAuth 자격 증명을 지원하기 위해 새로운 인증 옵션이 추가되었습니다. (NEO-11982)
 * 쿼리 및 데이터 로드 워크플로우 활동이 하이브 FDA에서 실패하는 UUID(고유 유니버설 식별자) 관리 문제를 수정했습니다.
-* 업그레이드 후 일부 기능이 유효하지 않은 것으로 간주되게 하는 Oracle의 회귀 문제를 해결했습니다. (NEO-12759)
+* 업그레이드 후 일부 기능이 유효하지 않은 것으로 간주되도록 Oracle의 회귀 문제를 해결했습니다. (NEO-12759)
 * 스케줄러 워크플로우 활동에서 시간을 설정할 때 잘못된 시간대가 선택되는 회귀 문제를 수정했습니다.
 
 ## ![](assets/do-not-localize/green_2.png) 릴리스 19.1.4 - 빌드 9032{#release-19-1-4-build-9032}
