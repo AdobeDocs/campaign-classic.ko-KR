@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 3105372bc020057727e28d26e7969c31ac290115
+source-git-commit: 23ba4091a1ffaa0245c58e8d346c60b54f79b4a2
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '1112'
+ht-degree: 91%
 
 ---
 
@@ -27,15 +27,30 @@ Campaign Gold Standard 프로그램에 대한 자세한 내용은 [이 문서를
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 11 릴리스{#gs-11}
 
+_2021년 3월 2일_
+
+빌드 9032@10c2709에는 다음 수정 사항이 포함되어 있습니다.
+
+* 게시의 날짜 선택기 및 이미지 관리와 같이 콘솔의 일부 구성 요소를 사용할 수 없는 회귀 문제를 해결했습니다. (NEO-31453, NEO-31454)
+
+**콘솔 업그레이드는 필수 사항입니다. 서버를 업그레이드할 필요가 없습니다.**
+
+>[!NOTE]
+>
+> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하여 새 버전을 다운로드합니다. 이 페이지](../../installation/using/client-console-availability-for-windows.md)에서 모든 최종 사용자 [에게 콘솔 업데이트를 제안하는 방법에 대해 알아봅니다.
+
+
 _2020년 12월 22일_
 
 >[!CAUTION]
 >
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. IMS(Adobe ID Service)를 통해 Campaign에 연결할 경우, **2021년 3월 31일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다.
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지](../../integrations/using/configuring-adobe-io.md)에 설명한 대로 Adobe I/O로 이동해야 합니다. 레거시 oAuth 인증 모드는 **2021년 4월 30일**&#x200B;에 종료됩니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 이 페이지](../../integrations/using/configuring-adobe-io.md)에서 설명한 대로 Adobe I/O으로 이동해야 합니다. [ 레거시 oAuth 인증 모드는 **2021년 4월 30일**&#x200B;에 종료됩니다.
+
 >
->[Gold Standard 11 업그레이드 FAQ](https://helpx.adobe.com/kr/campaign/kb/gold-standard-upgrade.html)에서 자세히 알아보십시오.
+>
+[Gold Standard 11 업그레이드 FAQ](https://helpx.adobe.com/kr/campaign/kb/gold-standard-upgrade.html)에서 자세히 알아보십시오.
 
 빌드 9032@d3b452f는 다음과 같은 개선 사항 및 수정 사항을 포함합니다.
 
