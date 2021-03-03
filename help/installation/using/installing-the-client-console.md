@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: 1b02c3870ddc01705f01ea992e734cf0810e003a
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '494'
 ht-degree: 6%
 
 ---
@@ -47,7 +47,8 @@ Adobe Campaign 클라이언트 콘솔을 다운로드하여 설치하려면 아�
 
 >[!NOTE]
 >
->Windows의 경우 Windows 서버의 `[INSTALL]/bin` 디렉토리에서 직접 **nlclient.exe** 파일을 시작할 수 있습니다. 여기서 `[INSTALL]`은 Adobe Campaign 설치 폴더의 액세스 경로입니다.
+>Campaign Marketing Server의 특정 폴더에 있는 콘솔 실행 파일을 복사하여 모든 Campaign 클라이언트 콘솔 사용자에게 최신 버전으로 업데이트할 수 있습니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
+
 
 ## 연결 만들기{#create-the-connection}
 
