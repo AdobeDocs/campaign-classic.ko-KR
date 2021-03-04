@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 2%
+source-wordcount: '411'
+ht-degree: 1%
 
 ---
 
 
-# 웹 애플리케이션 추적{#tracking-a-web-application}
+# 웹 응용 프로그램에서 방문 횟수 추적{#tracking-a-web-application}
 
 Adobe Campaign을 사용하면 추적 태그를 삽입하여 웹 애플리케이션 페이지의 방문을 추적하고 측정할 수 있습니다. 이 기능은 모든 웹 응용 프로그램 유형(양식, 온라인 설문 조사, DCE를 사용하여 만든 웹 페이지 등)에 사용할 수 있습니다.
 
