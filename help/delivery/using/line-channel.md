@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 14513d5ecbfdd5637b764c8f19bc01358e63c130
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1101'
 ht-degree: 3%
 
 ---
 
 
-# LINE 채널{#line-channel}
+# LINE 배달 만들기{#line-channel}
 
 LINE은 모든 스마트폰(iPhone, Android, Windows Phone, Blackberry, Nokia)과 PC에서 사용할 수 있는 무료 인스턴트 메시징, 음성 및 비디오 호출을 위한 응용 프로그램입니다. Adobe Campaign을 사용하면 LINE 메시지를 보낼 수 있습니다.
 
