@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 
-# 웹 애플리케이션 디자인{#designing-a-web-application}
+# 웹 응용 프로그램 디자인{#designing-a-web-application}
 
 웹 애플리케이션은 [온라인 설문 조사](../../web/using/about-surveys.md)와 동일한 원칙에 따라 생성 및 관리됩니다.
 
