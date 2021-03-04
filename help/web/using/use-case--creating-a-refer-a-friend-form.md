@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 3%
+source-wordcount: '619'
+ht-degree: 2%
 
 ---
 
 
-# 사용 사례: 친구 양식 참조 만들기{#use-case-creating-a-refer-a-friend-form}
+# 사용 사례:참조 양식 만들기{#use-case-creating-a-refer-a-friend-form}
 
 이 예에서는 데이터베이스의 받는 사람과 경쟁합니다. 웹 양식에는 답변을 입력하는 섹션과 이메일 주소를 입력하여 친구를 참조하는 섹션이 있습니다.
 
