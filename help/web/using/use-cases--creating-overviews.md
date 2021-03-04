@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 1%
+source-wordcount: '948'
+ht-degree: 0%
 
 ---
 
 
-# 사용 사례: 개요 만들기{#use-cases-creating-overviews}
+# 활용 사례:개요 페이지 만들기{#use-cases-creating-overviews}
 
 다음 예제에서는 데이터베이스의 모든 웹 애플리케이션을 표시하는 개요 유형의 웹 애플리케이션을 만듭니다. 다음 요소를 구성합니다.
 
