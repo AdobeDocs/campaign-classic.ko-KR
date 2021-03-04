@@ -7,15 +7,15 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 9%
+source-wordcount: '167'
+ht-degree: 5%
 
 ---
 
 
-# 캠페인에서 보고서 만들기 기본 정보{#about-reports-creation-in-campaign}
+# 보고서{#about-reports-creation-in-campaign}을(를) 만들기 위한 주요 단계
 
 캠페인 데이터베이스에서 데이터에 대한 통계를 작성하려면 보고서를 만들고 필요에 따라 컨텐츠와 레이아웃을 조정할 수 있습니다. 이러한 보고서는 다른 연산자와 공유할 수 있습니다.
 
