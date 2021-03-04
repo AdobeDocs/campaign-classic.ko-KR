@@ -7,15 +7,15 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 7%
+source-wordcount: '475'
+ht-degree: 5%
 
 ---
 
 
-# 사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시{#use-case-displaying-report-on-answers-to-an-online-survey}
+# 사용 사례:온라인 설문 조사 답변 보고서 표시{#use-case-displaying-report-on-answers-to-an-online-survey}
 
 Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하여 수집 및 분석할 수 있습니다.
 
