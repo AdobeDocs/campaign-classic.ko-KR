@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 권한 관리
-description: 권한 관리
+title: 워크플로우 권한 관리
+description: 워크플로우 권한을 관리하는 방법 학습
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 1%
+source-wordcount: '321'
+ht-degree: 0%
 
 ---
 
 
-# 권한 관리{#managing-rights}
+# 워크플로우 권한 관리{#managing-rights}
 
 관리자가 아닌 경우 Adobe Campaign 연산자는 워크플로우를 생성, 실행 또는 수정하는 데 대한 액세스 권한이 필요합니다.
 
