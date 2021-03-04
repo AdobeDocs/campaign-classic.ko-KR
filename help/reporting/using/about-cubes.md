@@ -7,15 +7,15 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '733'
 ht-degree: 10%
 
 ---
 
 
-# 큐브 정보{#about-cubes}
+# 큐브 시작{#about-cubes}
 
 데이터베이스에서 데이터 탐사는 **마케팅 분석** 모듈을 통해 제공됩니다. 데이터를 분석 및 측정하고 통계를 계산하며 보고서 작성 및 계산을 간소화 및 최적화할 수 있습니다. 이 외에도 마케팅 분석을 사용하면 보고서를 만들고 타겟 모집단을 만들 수 있습니다. 이러한 항목이 식별되면 Adobe Campaign(타깃팅, 세그멘테이션 등)에서 사용할 수 있는 목록에 저장됩니다.
 
