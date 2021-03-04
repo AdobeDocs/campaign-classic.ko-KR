@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
 
-# 새 웹 애플리케이션 만들기{#creating-a-new-web-application}
+# 새 웹 응용 프로그램 만들기{#creating-a-new-web-application}
 
 만드는 동안 웹 응용 프로그램 유형이 선택됩니다.
 
