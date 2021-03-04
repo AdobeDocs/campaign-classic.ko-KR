@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 소개
-description: 소개
+title: 트랜잭션 메시지 템플릿 정보
+description: 트랜잭션 메시지 템플릿 시작하기
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 3%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
 
-# 소개{#introduction}
+# 트랜잭션 메시지 템플릿 정보{#introduction}
 
 각 이벤트를 개인화된 메시지로 변경하려면 각 이벤트 유형과 일치하도록 메시지 템플릿을 만들어야 합니다. 템플릿에는 트랜잭션 메시지를 개인화하는 데 필요한 정보가 포함되어 있습니다. 또한 템플릿을 사용하여 최종 타겟으로 전달하기 전에 시드 주소를 사용하여 메시지 미리 보기를 테스트하고 교정을 전송할 수 있습니다.
 
