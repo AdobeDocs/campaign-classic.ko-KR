@@ -7,15 +7,15 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
 
-# 워크플로우 감독{#supervising-workflows}
+# 사용 사례:워크플로우 관리{#supervising-workflows}
 
 이 사용 사례에서는 &quot;일시 중지됨&quot;, &quot;중지됨&quot; 또는 &quot;오류가 있는 워크플로우 집합 상태를 모니터링할 수 있는 워크플로우 만들기에 대해 자세히 설명합니다.
 
