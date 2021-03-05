@@ -1,29 +1,29 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 마케팅 캠페인 디자인
+title: 마케팅 캠페인 디자인 및 실행
 description: 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다.
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 8%
+source-wordcount: '443'
+ht-degree: 9%
 
 ---
 
 
-# 마케팅 캠페인 디자인{#designing-marketing-campaigns}
+# 마케팅 캠페인 디자인 및 실행{#designing-marketing-campaigns}
 
-Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. Adobe Campaign은 마케팅 전략을 위한 통합 주문 및 실행 센터 역할을 합니다. 자세한 내용은 [캠페인 액세스](../../campaign/using/accessing-campaigns.md) 및 [마케팅 캠페인 설정](../../campaign/using/setting-up-marketing-campaigns.md)을 참조하십시오.
+Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. Adobe Campaign은 마케팅 전략을 위한 통합 주문 및 실행 센터 역할을 합니다. 자세한 내용은 [캠페인 액세스](../../campaign/using/accessing-campaigns.md) 및 [마케팅 캠페인 만들기](../../campaign/using/setting-up-marketing-campaigns.md)를 참조하십시오.
 
 또한 **MRM(마케팅 리소스 관리)** 모듈을 사용하면 관련 작업, 예산 및 마케팅 리소스에 대한 완벽한 관리 및 실시간 추적을 제공하여 협업 모드에서 마케팅 작업을 제어할 수 있습니다. 마케팅 리소스 관리를 사용하면 내외부 프로세스, 리소스 및 마케팅 캠페인뿐만 아니라 제3자 관계(대리점, 프린터 등)의 관리를 최적화하고 제어할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/about-marketing-resource-management.md)을 참조하십시오.
 
 >[!NOTE]
 >
->Adobe Campaign 핵심 기능에 대한 자세한 내용은 [시작하기](../../platform/using/about-adobe-campaign-classic.md) 섹션을 참조하십시오.\
+>Adobe Campaign 핵심 기능에 대한 자세한 내용은 [이 섹션](../../platform/using/about-adobe-campaign-classic.md) 섹션을 참조하십시오.\
 >다양한 채널의 인구 타겟팅, 메시지 개인화 및 메시지 전달과 관련된 기능은 [이 섹션](../../delivery/using/steps-about-delivery-creation-steps.md)에 자세히 설명되어 있습니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 마케팅 캠페인의 개념 살펴보기](#video)
@@ -62,7 +62,7 @@ Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정
 
    배달 아웃라인은 게재의 구조화된 설명입니다. 모든 배달은 관련 오퍼, 첨부할 문서 또는 스토어에 대한 링크가 포함된 배달 개요를 참조할 수 있습니다. 선택한 배달 아웃라인에 따라 오퍼를 게재에서 참조할 수 있습니다.
 
-   이에 대한 자세한 내용은 [배달 아웃라인](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)을 통해 연결된 리소스 연결 및 구조화를 참조하십시오.
+   이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)을 참조하십시오.
 
 ## 자습서 {#video}
 
