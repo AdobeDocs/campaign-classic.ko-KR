@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: 설명서
 translation-type: tm+mt
-source-git-commit: 14513d5ecbfdd5637b764c8f19bc01358e63c130
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2391'
 ht-degree: 58%
 
 ---
@@ -237,10 +237,12 @@ ht-degree: 58%
       + [마케팅 캠페인 디자인](campaign/using/designing-marketing-campaigns.md)
       + [마케팅 캠페인 액세스](campaign/using/accessing-marketing-campaigns.md)
    + 캠페인 오케스트레이션 {#orchestrate-campaigns}
-      + [마케팅 캠페인 설정](campaign/using/setting-up-marketing-campaigns.md)
-      + [마케팅 캠페인 템플릿](campaign/using/marketing-campaign-templates.md)
-      + [마케팅 캠페인 게재](campaign/using/marketing-campaign-deliveries.md)
-      + [마케팅 캠페인 승인](campaign/using/marketing-campaign-approval.md)
+      + [마케팅 캠페인 시작하기](campaign/using/setting-up-marketing-campaigns.md)
+      + [템플릿 만들기 및 구성](campaign/using/marketing-campaign-templates.md)
+      + [배달 추가](campaign/using/marketing-campaign-deliveries.md)
+      + [대상자 선택](campaign/using/marketing-campaign-target.md)
+      + [문서 및 자산 관리](campaign/using/marketing-campaign-assets.md)
+      + [승인 설정 및 관리](campaign/using/marketing-campaign-approval.md)
       + [캠페인 모니터링](campaign/using/marketing-campaign-monitoring.md)
       + [공급자, 재고 및 예산](campaign/using/providers--stocks-and-budgets.md)
    + 작업, 리소스 및 예산 {#tasks--resources-and-budgets}
