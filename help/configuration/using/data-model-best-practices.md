@@ -7,9 +7,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '4014'
+source-wordcount: '4010'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 이 문서에서는 Adobe Campaign 데이터 모델을 디자인하는 동안 주요 권장 사항에 대해 간략히 설명합니다.
 
-Campaign 내장 테이블 및 그 상호 작용에 대한 자세한 내용은 [Campaign Classic 데이터 모델](../../configuration/using/about-data-model.md) 섹션을 참조하십시오.
+Campaign 내장 테이블 및 그 상호 작용에 대한 자세한 내용은 [이 섹션](../../configuration/using/about-data-model.md) 섹션을 참조하십시오.
 
 캠페인 스키마를 시작하려면 [이 설명서](../../configuration/using/about-schema-reference.md)를 읽어 보십시오. [이 문서](../../configuration/using/about-schema-edition.md)에서 Adobe Campaign 데이터베이스의 개념 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법을 알아봅니다.
 
@@ -148,7 +148,7 @@ Adobe Campaign 기본 키는 모든 기본 테이블에 대해 자동으로 생�
 
 기본 키가 autoPK인 Adobe Campaign에서 사용자 지정 테이블을 만드는 경우, 사용자 지정 전용 시퀀스가 해당 테이블과 체계적으로 연결되어 있어야 합니다.
 
-기본적으로 사용자 지정 시퀀스에는 +1,000~+2.1BB 범위의 값이 있습니다. 기술적으로, 네거티브 ID를 활성화하여 전체 범위의 4BB를 가져올 수 있습니다. 이것은 주의해서 사용해야 하며, 음수에서 양수로 건너갈 때 하나의 id가 손실됩니다.레코드 0은 생성된 SQL 쿼리에서 일반적으로 Adobe Campaign Classic에서 무시됩니다.
+기본적으로 사용자 지정 시퀀스에는 +1,000~+2.1BB 범위의 값이 있습니다. 기술적으로, 네거티브 ID를 활성화하여 전체 범위의 4BB를 가져올 수 있습니다. 이것은 주의해서 사용해야 하며, 음수에서 양수로 건너갈 때 하나의 id가 손실됩니다.레코드 0은 생성된 SQL 쿼리에서 일반적으로 Adobe Campaign에서 무시됩니다.
 
 **관련 항목:**
 * **시퀀스 자동 생성** 기능에 대한 자세한 내용은 [이 문서](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html)를 참조하십시오.
