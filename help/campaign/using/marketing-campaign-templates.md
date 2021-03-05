@@ -7,21 +7,31 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
 
 
-# 마케팅 캠페인 템플릿 {#campaign-templates}
+# 캠페인 템플릿 만들기 및 구성 {#campaign-templates}
 
-캠페인 템플릿은 **[!UICONTROL Resources > Templates > Campaign templates]** 노드에서 중앙 집중됩니다. 기본 템플릿이 표준으로 제공됩니다. 사용 가능한 모든 모듈(문서, 작업, 시드 주소 등)을 사용하여 새 캠페인을 만들 수 있지만 제공된 모듈은 사용자의 권한 및 Adobe Campaign 플랫폼의 구성에 따라 다릅니다.
+모든 마케팅 캠페인은 주요 특징 및 기능을 저장하는 템플릿을 기반으로 합니다. 캠페인 템플릿은 **[!UICONTROL Resources > Templates > Campaign templates]** 노드에서 중앙 집중됩니다. 기본 템플릿이 표준으로 제공됩니다. 사용 가능한 모든 모듈(문서, 작업, 시드 주소 등)을 사용하여 새 캠페인을 만들 수 있지만 제공된 모듈은 사용자의 권한 및 Adobe Campaign 플랫폼의 구성에 따라 다릅니다.
 
-## 캠페인 템플릿 {#creating-or-duplicating-a-campaign-template} 만들기 또는 복제
+![](assets/s_ncs_user_campaign_op_template_node.png)
 
-새 템플릿을 만들려면 다음 단계를 수행하십시오.
+>[!NOTE]
+>
+>홈 페이지에서 **[!UICONTROL Explorer]** 아이콘을 클릭하면 트리가 표시됩니다.
+
+특정 구성이 정의되지 않은 캠페인을 만들기 위해 내장 템플릿이 제공됩니다. 캠페인 템플릿을 만들고 구성한 다음 이러한 템플릿에서 캠페인을 만들 수 있습니다.
+
+![](assets/do-not-localize/how-to-video.png) 캠페인 만들기에 대한 자세한 내용은  [이 비디오를 참조하십시오](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
+
+## 캠페인 템플릿 {#creating-or-duplicating-a-campaign-template} 만들기
+
+캠페인 템플릿을 만들려면 아래 단계를 수행하십시오.
 
 1. 캠페인 **탐색기**&#x200B;를 엽니다.
 1. **리소스 > 템플릿 > 캠페인 템플릿**&#x200B;에서 템플릿 목록 위의 도구 모음에서 **새로 만들기**&#x200B;를 클릭합니다.
@@ -47,35 +57,15 @@ ht-degree: 0%
 1. 요구 사항에 따라 워크플로우를 만들 수 있습니다.
 1. **저장**&#x200B;을 클릭합니다. 이제 템플릿을 캠페인에 사용할 준비가 되었습니다.
 
-기본 템플릿을 복제하여 다시 사용하고 구성을 적용할 수도 있습니다.
+기본 템플릿을 복제&#x200B;**하여 구성을 다시 사용하고 적용할 수도 있습니다.**
 
 캠페인 템플릿의 다양한 탭과 하위 탭에서는 [일반 구성](#general-configuration)에 설명된 대로 해당 설정에 액세스할 수 있습니다.
 
 ![](assets/s_ncs_user_new_op_template_duplicate.png)
 
-## 캠페인 템플릿 {#configuring-a-campaign-template} 구성
+## {#select-modules} 모듈 선택
 
-캠페인은 사전 정의된 매개 변수 세트를 공유하는 모델을 기반으로 합니다.
-
-기본 구성에서 캠페인 템플릿은 Adobe Campaign 트리의 **[!UICONTROL Resources > Templates > Campaign templates]** 노드에 중앙 집중됩니다.
-
-![](assets/s_ncs_user_campaign_op_template_node.png)
-
->[!NOTE]
->
->홈 페이지에서 **[!UICONTROL Explorer]** 아이콘을 클릭하면 트리가 표시됩니다.
-
-특정 구성이 정의되지 않은 캠페인을 만들기 위해 기본 템플릿을 제공합니다. 캠페인 템플릿을 만들고 구성한 다음 이러한 템플릿에서 캠페인을 만들 수 있습니다.
-
-캠페인 템플릿 만들기 및 구성은 [캠페인 템플릿](#campaign-templates)에 제공됩니다.
-
-![](assets/do-not-localize/how-to-video.png) 캠페인 만들기에 대한 자세한 내용은  [이 비디오를 참조하십시오](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
-
-## 사용 가능한 모듈 {#configuration-of-the-available-modules} 구성
-
-### 모듈 선택 {#module-selection}
-
-**[!UICONTROL Advanced campaign settings...]** 링크를 사용하면 이 템플릿을 기반으로 한 캠페인에 대한 작업을 활성화 및 비활성화할 수 있습니다. 이 템플릿을 기반으로 만든 캠페인에서 활성화할 함수를 선택합니다.
+**[!UICONTROL Advanced campaign settings...]** 링크를 사용하면 이 템플릿을 기반으로 한 캠페인에 대한 작업을 활성화 및 비활성화할 수 있습니다. 이 템플릿을 기반으로 만든 캠페인에서 활성화할 기능을 선택합니다.
 
 ![](assets/s_ncs_user_op_template_tab1.3.png)
 
@@ -103,35 +93,35 @@ ht-degree: 0%
 
 ![](assets/s_ncs_user_op_template_tab2.3ex.png)
 
-### 활성화된 모듈 유형 {#typology-of-enabled-modules}
+## 모듈 유형 {#typology-of-enabled-modules}
 
 * **제어 그룹**
 
-   이 모듈을 선택하면 추가 탭이 템플릿의 고급 설정과 이 템플릿을 기반으로 하는 캠페인에 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다.
+   이 모듈을 선택하면 추가 탭이 템플릿의 고급 설정과 이 템플릿을 기반으로 하는 캠페인에 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다. [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)에서 제어 그룹에 대해 자세히 알아보십시오.
 
    ![](assets/s_ncs_user_op_template_activate_1.png)
 
 * **시드 주소**
 
-   이 모듈을 선택하면 추가 탭이 템플릿의 고급 설정과 이 템플릿을 기반으로 하는 캠페인에 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다.
+   이 모듈을 선택하면 추가 탭이 템플릿의 고급 설정과 이 템플릿을 기반으로 하는 캠페인에 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다. [이 섹션](../../delivery/using/about-seed-addresses.md)의 시드 주소에 대해 자세히 알아보십시오.
 
    ![](assets/s_ncs_user_op_template_activate_2.png)
 
 * **문서**
 
-   이 모듈을 선택하면 템플릿의 **[!UICONTROL Edition]** 탭 및 이 템플릿을 기반으로 하는 캠페인에 추가 탭이 추가됩니다. 첨부 문서는 템플릿에서 추가하거나 각 캠페인에 대해 개별적으로 추가할 수 있습니다.
+   이 모듈을 선택하면 템플릿의 **[!UICONTROL Edition]** 탭 및 이 템플릿을 기반으로 하는 캠페인에 추가 탭이 추가됩니다. 첨부 문서는 템플릿에서 추가하거나 각 캠페인에 대해 개별적으로 추가할 수 있습니다. [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)에서 문서에 대해 자세히 알아보십시오.
 
    ![](assets/s_ncs_user_op_template_activate_3.png)
 
 * **윤곽선**
 
-   이 모듈을 선택하면 캠페인에 대한 배달 외곽선을 정의하기 위해 **[!UICONTROL Delivery outlines]** 하위 탭이 **[!UICONTROL Documents]** 탭에 추가됩니다.
+   이 모듈을 선택하면 캠페인에 대한 배달 외곽선을 정의하기 위해 **[!UICONTROL Delivery outlines]** 하위 탭이 **[!UICONTROL Documents]** 탭에 추가됩니다. [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)의 배달 아웃라인에 대해 자세히 알아보십시오.
 
    ![](assets/s_ncs_user_op_template_activate_4.png)
 
 * **타깃팅 및 워크플로우**
 
-   **[!UICONTROL Targeting and workflows]** 모듈을 선택하면 이 템플릿을 기반으로 한 캠페인에 대한 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 워크플로우를 개별적으로 구성할 수도 있습니다.
+   **[!UICONTROL Targeting and workflows]** 모듈을 선택하면 이 템플릿을 기반으로 한 캠페인에 대한 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 워크플로우를 개별적으로 구성할 수도 있습니다. [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)에서 캠페인 워크플로우에 대해 자세히 알아보십시오.
 
    ![](assets/s_ncs_user_op_template_activate_5.png)
 
@@ -141,23 +131,21 @@ ht-degree: 0%
 
 * **승인**
 
-   **[!UICONTROL Approval]**&#x200B;을 선택하는 경우 승인할 프로세스뿐만 아니라 승인을 담당하는 연산자를 선택할 수 있습니다.
+   **[!UICONTROL Approval]**&#x200B;을 선택하는 경우 승인할 프로세스뿐만 아니라 승인을 담당하는 연산자를 선택할 수 있습니다. [이 섹션](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)에서 승인과 관련하여 자세히 알아보십시오.
 
    ![](assets/s_ncs_user_op_template_activate_5b.png)
 
-* **지출 및 목표**
+   템플릿 고급 설정 섹션의 **[!UICONTROL Approvals]** 탭을 통해 프로세스 승인을 활성화할지 여부를 선택할 수 있습니다. 승인을 선택한 작업은 메시지 전달을 승인하려면 승인되어야 합니다.
+
+   활성화된 각 승인에 검토자 연산자 또는 연산자 그룹을 연결해야 합니다.
+
+* **비용 및 목표**
 
    이 모듈을 선택하면 관련 예산을 선택할 수 있도록 이 템플릿을 기반으로 템플릿 및 캠페인의 세부 사항에 **[!UICONTROL Budget]** 탭이 추가됩니다.
 
    ![](assets/s_ncs_user_op_template_activate_7.png)
 
-### 작업 승인 {#approval-of-jobs}
-
-템플릿 고급 설정 섹션의 **[!UICONTROL Approvals]** 탭을 통해 프로세스 승인을 활성화할지 여부를 선택할 수 있습니다. 승인을 선택한 작업은 메시지 전달을 승인하려면 승인되어야 합니다.
-
-활성화된 각 승인에 검토자 연산자 또는 연산자 그룹을 연결해야 합니다.
-
-## 일반 구성 {#general-configuration}
+## 속성 및 실행 {#general-configuration}
 
 ### 템플릿 속성 {#template-properties}
 
@@ -172,7 +160,7 @@ ht-degree: 0%
    >
    >열거형에 대한 자세한 내용은 [시작하기](../../platform/using/managing-enumerations.md) 섹션을 참조하십시오.
 
-* 캠페인&#x200B;**의**&#x200B;유형 선택:고유, 반복 또는 주기적. 기본적으로 캠페인 템플릿은 고유한 캠페인에 적용됩니다. 반복 및 정기 캠페인이 여기에 자세히 설명되어 있습니다.[반복 및 정기 캠페인](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
+* 캠페인&#x200B;**의**&#x200B;유형 선택:고유, 반복 또는 주기적. 기본적으로 캠페인 템플릿은 고유한 캠페인에 적용됩니다. 반복 및 정기 캠페인은 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns)에 자세히 설명되어 있습니다.
 * 캠페인의 지속 시간(즉, 캠페인이 시작될 일 수)을 지정합니다. 이 템플릿을 기반으로 캠페인을 만들 때 캠페인 시작 날짜와 종료 날짜가 자동으로 채워집니다.
 
    캠페인이 반복되면 템플릿에서 바로 캠페인 시작 날짜와 종료 날짜를 지정해야 합니다.
@@ -185,9 +173,9 @@ ht-degree: 0%
 
 ![](assets/s_ncs_user_op_template_tab1.2.png)
 
-## 캠페인 역방향 예약 {#campaign-reverse-scheduling}
+## 캠페인 실행 추적{#campaign-reverse-scheduling}
 
-예를 들어 날짜가 미리 알려진 이벤트를 준비하는 캠페인의 역방향 예약을 만들 수 있습니다. 이제 캠페인 템플릿을 사용하여 캠페인의 종료 날짜를 기준으로 작업의 시작 날짜를 계산할 수 있습니다.
+캠페인 일정을 만들고 성과를 추적할 수 있습니다. 예를 들어 특정 날짜에 대한 이벤트 일정을 준비할 수 있습니다. 이제 캠페인 템플릿을 사용하여 캠페인의 종료 날짜를 기준으로 작업의 시작 날짜를 계산할 수 있습니다.
 
 작업 구성 상자에서 **[!UICONTROL Implementation schedule]** 영역으로 이동하여 **[!UICONTROL The start date is calculated based on the campaign end date]** 상자를 선택합니다. 여기서 &quot;시작 날짜&quot;는 작업 시작 날짜입니다. **[!UICONTROL Start]** 필드로 이동하여 다음 간격을 입력합니다.작업은 캠페인 종료 날짜 훨씬 전에 이 작업을 시작합니다. 캠페인이 마지막으로 설정된 기간보다 긴 기간을 입력하면 작업이 캠페인 전에 시작됩니다.
 
