@@ -7,9 +7,9 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '803'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 ![](assets/offer_delivery_009.png)
 
-배달 및 마케팅 캠페인에 대한 자세한 내용은 [배달](../../delivery/using/about-direct-mail-channel.md) 및 [캠페인](../../campaign/using/setting-up-marketing-campaigns.md)을 참조하십시오.
+이 섹션](../../delivery/using/about-direct-mail-channel.md)에서 [다이렉트 메일 배달에 대해 자세히 알아보십시오. 이 섹션](../../campaign/using/setting-up-marketing-campaigns.md)에서 마케팅 캠페인 [에 대해 자세히 알아보십시오.
 
 ### 오퍼를 {#main-steps-for-inserting-an-offer-into-a-delivery} 배달에 삽입하기 위한 기본 단계
 
