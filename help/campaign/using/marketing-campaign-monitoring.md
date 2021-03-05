@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 1%
+source-wordcount: '245'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* **[!UICONTROL Tasks]** 하위 탭은 캠페인에 연결된 모든 작업을 그룹화합니다. 이 보기에서는 편집하거나 삭제할 수 있습니다. 작업은 MRM 애플리케이션에서 사용할 수 있습니다. 이 내용은 [작업 만들기 및 관리에 설명되어 있습니다](../../campaign/using/creating-and-managing-tasks.md).
+* **[!UICONTROL Tasks]** 하위 탭은 캠페인에 연결된 모든 작업을 그룹화합니다. 이 보기에서는 편집하거나 삭제할 수 있습니다. 작업은 MRM 애플리케이션에서 사용할 수 있습니다. 이 내용은 [이 섹션](../../campaign/using/creating-and-managing-tasks.md)에 자세히 설명되어 있습니다.
 
    ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
@@ -49,10 +49,10 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->배달 세부 정보에 대한 정보는 [메시지 전송](../../delivery/using/about-message-tracking.md) 섹션에서 사용할 수 있습니다.
+>배달 세부 정보에 대한 정보는 [이 섹션](../../delivery/using/about-message-tracking.md) 섹션에 있습니다.
 
 ## 실행 추적 {#execution-tracking}
 
 Adobe Campaign 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Deliveries]**&#x200B;을 클릭하여 배달 상태를 조회할 수 있습니다. [배달 추적](#delivery-tracking)을 참조하십시오.
 
-캠페인에서 실행되는 프로세스에 대한 정보는 캠페인의 **[!UICONTROL Edit > Audit]** 탭에 수집됩니다. 여기에서 캠페인의 배달 목록을 볼 수 있습니다. [캠페인 추적](#tracking-a-campaign)을 참조하십시오.
+캠페인에서 실행되는 프로세스에 대한 정보는 캠페인의 **[!UICONTROL Edit > Audit]** 탭에 수집됩니다. 여기에서 캠페인의 배달 목록을 볼 수 있습니다. [자세히 알아보기](#tracking-a-campaign)
