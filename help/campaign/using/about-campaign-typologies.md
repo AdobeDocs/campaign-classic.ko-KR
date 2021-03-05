@@ -7,9 +7,9 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '495'
 ht-degree: 13%
 
 ---
@@ -67,7 +67,7 @@ Adobe Campaign을 사용하면 4가지 유형의 유형 규칙을 디자인하�
 
 ### 분류 규칙을 사용하여 피로 관리를 설정하는 방법
 
-이 비디오에서는 유형 분류 규칙을 활용하여 Adobe Campaign Classic에서 피로 관리를 구현하는 방법을 설명합니다.
+이 비디오에서는 유형 분류 규칙을 활용하여 Adobe Campaign에서 피로 관리를 구현하는 방법을 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
 
@@ -78,7 +78,7 @@ Adobe Campaign을 사용하면 4가지 유형의 유형 규칙을 디자인하�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
 
-추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 캠페인 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
 
 **관련 항목**
 
