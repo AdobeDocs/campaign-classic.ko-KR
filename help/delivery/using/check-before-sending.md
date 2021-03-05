@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 1330d4658d039f27a98535bf9885bffbfa0be3c9
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 4%
@@ -64,7 +64,7 @@ ht-degree: 4%
 
 ### 유효성 검사 프로세스 진행
 
-Adobe Campaign 연산자 및 그룹을 포함하는 전체 유효성 검사 프로세스를 정의하여 대상 및 메시지 컨텐츠의 유효성을 검사할 수 있습니다. 이렇게 하면 캠페인의 다양한 프로세스를 완벽하게 모니터링하고 제어할 수 있습니다.타깃팅, 컨텐츠, 예산, 추출 및 증명 보내기 사용 권한에 따라 사용자에게 알림 메시지를 전송하고 교정본을 받고 메시지의 유효성을 검사하거나 거부할 수 있습니다. 이 섹션](../../campaign/using/marketing-campaign-approval.md#approval-process)에서 [에 대해 자세히 알아보십시오.
+Adobe Campaign 연산자 및 그룹을 포함하는 전체 유효성 검사 프로세스를 정의하여 대상 및 메시지 컨텐츠의 유효성을 검사할 수 있습니다. 이렇게 하면 캠페인의 다양한 프로세스를 완벽하게 모니터링하고 제어할 수 있습니다.타깃팅, 컨텐츠, 예산, 추출 및 증명 보내기 사용 권한에 따라 사용자에게 알림 메시지를 전송하고 교정본을 받고 메시지의 유효성을 검사하거나 거부할 수 있습니다. 이 섹션](../../campaign/using/marketing-campaign-approval.md)에서 [에 대해 자세히 알아보십시오.
 
 ### 파도 사용
 
