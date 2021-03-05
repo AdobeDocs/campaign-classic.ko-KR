@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Adobe Campaign은 플랫폼의 제공 성능을 추적할 수 있는 다양한 �
 이 기능은 Adobe Campaign의 전용 패키지를 통해 사용할 수 있습니다. 이 패키지를 사용하려면 이 패키지를 설치해야 합니다. 작업이 완료되면 패키지를 고려하여 서버를 다시 시작합니다.
 * 호스팅된 클라이언트와 하이브리드 클라이언트의 경우, **수신 가능성 모니터링**&#x200B;은 Adobe 기술 지원 및 컨설턴트가 사용자 인스턴스에 구성합니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
 
-* 온-프레미스 설치의 경우 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** 메뉴를 통해 **[!UICONTROL Deliverability monitoring (Email Deliverability)]** 패키지를 설치해야 합니다. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
+* 온-프레미스 설치의 경우 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** 메뉴를 통해 **[!UICONTROL Deliverability monitoring (Email Deliverability)]** 패키지를 설치해야 합니다. 자세한 내용은 [캠페인 내장 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
 
-Adobe Campaign Classic에서 **배달 가능 모니터링**&#x200B;은 **[!UICONTROL Refresh for deliverability]** 작업 과정에서 관리됩니다. 기본적으로 모든 인스턴스에 설치되며 바운스 메일 자격 규칙 목록, 도메인 목록 및 MX 목록을 초기화할 수 있습니다. **[!UICONTROL Deliverability monitoring (Email Deliverability)]** 패키지가 설치되면 이 워크플로우는 매일 밤 실행되어 규칙 목록을 정기적으로 업데이트하고 플랫폼 제공 기능을 능동적으로 관리할 수 있습니다.
+Adobe Campaign에서 **배달 가능 모니터링**&#x200B;은 **[!UICONTROL Refresh for deliverability]** 작업 과정에서 관리됩니다. 기본적으로 모든 인스턴스에 설치되며 바운스 메일 자격 규칙 목록, 도메인 목록 및 MX 목록을 초기화할 수 있습니다. **[!UICONTROL Deliverability monitoring (Email Deliverability)]** 패키지가 설치되면 이 워크플로우는 매일 밤 실행되어 규칙 목록을 정기적으로 업데이트하고 플랫폼 제공 기능을 능동적으로 관리할 수 있습니다.
 
 ## 배경 {#background}
 
