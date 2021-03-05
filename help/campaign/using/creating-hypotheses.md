@@ -2,20 +2,20 @@
 solution: Campaign Classic
 product: campaign
 title: 가설 만들기
-description: 가설 만들기
+description: 캠페인 응답 관리자에서 가설을 만드는 방법을 알아봅니다.
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
 
 
-# 가설 만들기{#creating-hypotheses}
+# 가설을 만듭니다{#creating-hypotheses}
 
 가설을 캠페인 제안이나 전달에 만들거나 연결하는 다양한 가능성이 있습니다.
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 마케팅 캠페인을 실행하고 수신자가 배달을 받은 경우에만 가설을 계산할 수 있습니다. 이 가설이 제안 제안을 기반으로 하는 경우 후자는 최소한 제시되어야 하며 여전히 활동적입니다. 오퍼 및 전달 가설이 **[!UICONTROL Measurement hypotheses]** 폴더를 통해 만들어지며 가설 템플릿을 기반으로 합니다. 하지만 캠페인이 시작되기 전에 게재 또는 캠페인에서 직접 가설을 참조할 수 있습니다. 이 경우 마케팅 캠페인이 실행되면 가설을 자동으로 계산합니다(실행 설정에 따라 자세한 내용은 [가설 템플릿 실행 설정](../../campaign/using/hypothesis-templates.md#hypothesis-template-execution-settings) 참조).
 
-## 배달 {#creating-a-hypothesis-on-the-fly-on-a-delivery} 시 즉시 가설 만들기
+## 배달 {#creating-a-hypothesis-on-the-fly-on-a-delivery} 시 가설을 즉시 만듭니다.
 
 기존 게재에 가설을 만들려면 다음 프로세스를 적용합니다.
 
@@ -76,11 +76,11 @@ ht-degree: 0%
 
 1. 필요한 경우 설정을 변경하고 가설을 다시 시작합니다.
 
-## 캠페인 전달의 가설 참조 {#referencing-a-hypothesis-in-a-campaign-delivery}
+## 캠페인 전달에서 가설을 참조하려면 {#referencing-a-hypothesis-in-a-campaign-delivery}
 
 시작하기 전에 마케팅 캠페인에서 가설을 참조할 수 있습니다. 이 경우 가설 템플릿에 정의된 실행 설정에 따라 게시가 전송되면 가설이 자동으로 시작됩니다. 게재에서 가설을 만들려면 다음 프로세스를 적용합니다.
 
-1. 필요에 따라 [가설 모델 만들기](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)에 설명된 대로 하나 이상의 **[!UICONTROL Delivery]** 유형 템플릿을 만들 수 있습니다.
+1. 필요에 따라 [이 섹션](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)에 설명된 대로 하나 이상의 **[!UICONTROL Delivery]** 유형 템플릿을 만들 수 있습니다.
 1. 마케팅 캠페인 및 타깃팅 워크플로우를 만듭니다.
 1. 배달 창에서 **[!UICONTROL Delivery measurement]** 아이콘을 클릭합니다.
 1. 가설 템플릿을 선택합니다(모델에 구성된 쿼리가 가설 창에 표시됨).
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    ![](assets/response_hypothesis_instance_creation_008.png)
 
-## 캠페인 {#adding-a-default-hypothesis-to-deliveries-for-a-campaign} 게재에 기본 가설 추가
+## 캠페인 {#adding-a-default-hypothesis-to-deliveries-for-a-campaign} 게재에 기본 가설을 추가합니다.
 
 캠페인 수준에서 가설을 직접 참조할 수 있습니다. 이 경우 가설이 캠페인에 생성된 모든 게재에 자동으로 연결됩니다. 방법은 다음과 같습니다.
 
@@ -108,13 +108,13 @@ ht-degree: 0%
 
 가설 결과는 가설 **[!UICONTROL General]** 및 **[!UICONTROL Reactions]** 탭에서 볼 수 있습니다([가설 추적](../../campaign/using/hypothesis-tracking.md) 참조).
 
-자세한 내용은 [예:배달](#example--creating-a-hypothesis-linked-to-a-delivery)에 연결된 가설을 만듭니다.
+자세한 내용은 [이 샘플](#example--creating-a-hypothesis-linked-to-a-delivery)을 참조할 수도 있습니다.
 
 ## 오퍼 {#creating-a-hypothesis-on-an-offer}에 가설 만들기
 
 오퍼 제안에서 가설을 만드는 것은 신속한 전달 가설을 만드는 것과 유사합니다. 오퍼가 활성화된 한 가설이 실행될 수 있습니다. 계산 기간은 제안 일자를 기준으로 합니다. 이 가설을 통해 수신자를 구매에 연결할 수 있으면, 수락될 가능성이 있는 오퍼 제안 상태가 자동으로 변경될 수 있습니다(자세한 내용은 [거래](../../campaign/using/hypothesis-templates.md#transactions) 참조).
 
-1. [가설 모델 만들기](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)에 설명된 대로 하나 이상의 **[!UICONTROL Offer]** 유형 모델을 만듭니다.
+1. [이 섹션](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)에 설명된 대로 하나 이상의 **[!UICONTROL Offer]** 유형 모델을 만듭니다.
 1. **[!UICONTROL Campaign management > Measurement hypotheses]** 노드로 이동합니다.
 1. 이전에 만든 모델을 선택하여 **[!UICONTROL Offers]** 유형 가설을 만듭니다.
 
@@ -138,11 +138,11 @@ ht-degree: 0%
 
    가설 템플릿에서 **[!UICONTROL Update offer proposition status]** 옵션이 활성화된 경우 오퍼 제안의 상태가 자동으로 변경되므로 캠페인의 영향에 대한 피드백을 제공합니다(자세한 내용은 [거래](../../campaign/using/hypothesis-templates.md#transactions) 참조).
 
-## 예:게재에 연결된 가설 만들기 {#example--creating-a-hypothesis-linked-to-a-delivery}
+## 예:배달 {#example--creating-a-hypothesis-linked-to-a-delivery}에 연결된 가설 만들기
 
-이 예에서는 게재와 연결된 가설을 만듭니다. 이 가설은 이전에 만든 모델을 기반으로 합니다([예 참조:배달](../../campaign/using/hypothesis-templates.md#example--creating-a-hypothesis-template-on-a-delivery))에 가설 템플릿 만들기 그런 다음 모델에서 상속된 쿼리를 수정하여 구매 테이블의 특정 아티클에 대한 가설을 작성합니다.
+이 예에서는 게재와 연결된 가설을 만듭니다. 이 가설은 이전에 만든 모델을 기반으로 합니다([이 샘플](../../campaign/using/hypothesis-templates.md#example--creating-a-hypothesis-template-on-a-delivery) 참조). 그런 다음 모델에서 상속된 쿼리를 수정하여 구매 테이블의 특정 아티클에 대한 가설을 작성합니다.
 
-1. 캠페인 및 게재 만들기(자세한 내용은 [캠페인 만들기](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign) 참조).
+1. 캠페인 및 게재 만들기(자세한 내용은 [마케팅 캠페인 만들기](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign) 참조).
 
    이 예에서는 DM 유형 배달을 사용합니다.
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. 타깃팅 워크플로우를 시작하고 캠페인이 완료될 때까지 필요한 검사를 실행합니다(이에 대한 자세한 내용은 [배달 시작](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery) 참조).
+1. 타깃팅 워크플로우를 시작하고 캠페인이 완료될 때까지 필요한 검사를 실행합니다(이에 대한 자세한 내용은 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery) 참조).
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 
