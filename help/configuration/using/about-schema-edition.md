@@ -7,9 +7,9 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 translation-type: tm+mt
-source-git-commit: 4c3a2184ab09b1e1ed91d0127adc636a51808aec
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1004'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 * Campaign 애플리케이션 내에서 서로 다른 데이터 개체 간의 링크를 정의합니다.
 * 각 개체에 포함된 개별 필드를 정의하고 설명합니다.
 
-Campaign 내장 테이블 및 그 상호 작용에 대한 자세한 내용은 [Campaign Classic 데이터 모델](https://helpx.adobe.com/kr/campaign/kb/acc-datamodel.html)을 참조하십시오.
+Campaign 내장 테이블 및 그 상호 작용에 대한 자세한 내용은 [이 섹션](https://helpx.adobe.com/kr/campaign/kb/acc-datamodel.html)을 참조하십시오.
 
 ## 스키마 확장 또는 만들기 {#extending-or-creating-schemas}
 
