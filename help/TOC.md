@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: 설명서
 translation-type: tm+mt
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '2391'
-ht-degree: 58%
+source-wordcount: '2412'
+ht-degree: 57%
 
 ---
 
@@ -94,7 +94,11 @@ ht-degree: 58%
       + [쿼리를 만드는 단계](platform/using/steps-to-create-a-query.md)
       + [필터 조건 정의](platform/using/defining-filter-conditions.md)
    + 권한 {#permissions}
-      + [액세스 관리](platform/using/access-management.md)
+      + [권한 시작하기](platform/using/access-management.md)
+      + [연산자 만들기 및 관리](platform/using/access-management-operators.md)
+      + [그룹 만들기 및 관리](platform/using/access-management-groups.md)
+      + [명명된 권한을 사용하여 권한 설정](platform/using/access-management-named-rights.md)
+      + [폴더에 대한 액세스 관리](platform/using/access-management-folders.md)
    + 데이터 패키지 및 열거형 {#administration-basics}
       + [데이터 패키지](platform/using/working-with-data-packages.md)
       + [열거형](platform/using/managing-enumerations.md)
