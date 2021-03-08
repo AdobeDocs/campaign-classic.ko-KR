@@ -7,9 +7,9 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '1998'
+source-wordcount: '2000'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 ## 오류 관리 {#managing-errors}
 
-오류가 발생하면 워크플로우가 일시 정지되고 오류가 발생했을 때 실행 중인 활동이 빨간색으로 깜박입니다. 워크플로우 개요(**[!UICONTROL Monitoring]** 우주 > **[!UICONTROL Workflows]** 링크)에서는 아래와 같이 오류가 있는 워크플로우만 표시할 수 있습니다.
+오류가 발생하면 워크플로우가 일시 정지되고 오류가 발생했을 때 실행 중인 활동이 빨간색으로 깜박입니다. 워크플로우 개요의 **[!UICONTROL Monitoring]** 탭 - **[!UICONTROL Workflows]** 링크에서 아래와 같이 오류가 있는 워크플로우만 표시할 수 있습니다.
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
@@ -169,7 +169,7 @@ Adobe Campaign 탐색기에서 기본적으로 워크플로 목록에 **[!UICONT
 
 **[!UICONTROL Instance supervision]** 페이지에서는 Adobe Campaign 서버 활동을 보고 오류가 있는 워크플로우와 배달 목록을 표시할 수 있습니다.
 
-이 페이지에 액세스하려면 **[!UICONTROL Monitoring]** 우주의 **[!UICONTROL General view]** 링크를 클릭합니다.
+이 페이지에 액세스하려면 **[!UICONTROL Monitoring]** 탭으로 이동하여 **[!UICONTROL General view]** 링크를 클릭합니다.
 
 ![](assets/wf-monitoring_from-homepage.png)
 
