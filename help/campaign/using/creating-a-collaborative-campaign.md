@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 3%
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 **양식** 웹 인터페이스를 선택합니다. 이 유형의 인터페이스를 사용하면 캠페인을 정렬할 때 로컬 엔티티에서 사용할 개인화 필드를 만들 수 있습니다. [로컬 캠페인 만들기(양식)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-)를 참조하십시오.
 
-캠페인을 저장합니다. 이제 **[!UICONTROL Create]** 단추를 클릭하여 **캠페인** 우주의 **캠페인 패키지** 보기에서 사용할 수 있습니다.
+캠페인을 저장합니다. 이제 **[!UICONTROL Create]** 단추를 클릭하여 **캠페인** 탭의 **캠페인 패키지** 보기에서 사용할 수 있습니다.
 
 **[!UICONTROL Campaign Package]** 보기에서는 다른 조직 개체에 대한 캠페인을 만들기 위해 협업 캠페인에 대한 참조 캠페인과 함께 로컬 캠페인 템플릿(기본적으로 사용 또는 중복됨)을 사용할 수 있습니다.
 
@@ -161,7 +161,7 @@ ht-degree: 3%
 
 ![](assets/mkg_dist_mutual_op_notification.png)
 
-또한 이 메시지를 사용하면 로컬 엔티티에서 패키지를 만든 중앙 연산자가 입력한 설명과 캠페인에 연결된 문서를 볼 수 있습니다. 이러한 지표는 캠페인에 대한 추가 정보를 제공하지만 캠페인 자체에 속하지 않습니다.
+또한 이 메시지를 통해 로컬 엔티티는 캠페인에 연결된 문서와 함께 패키지를 생성한 중앙 연산자가 입력한 설명을 볼 수 있습니다. 이러한 지표는 캠페인에 대한 추가 정보를 제공하지만 캠페인 자체에 속하지 않습니다.
 
 로컬 운영자가 웹 인터페이스를 통해 로그온하면 주문하려는 협업 캠페인에 개인화된 정보를 입력할 수 있습니다.
 
