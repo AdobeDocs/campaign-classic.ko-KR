@@ -7,7 +7,7 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # 메시지 센터 처리 시간{#message-center-processing-time}
 
-이 보고서는 실시간 큐와 관련된 기본 표시기를 표시합니다. 기술 관리자를 대상으로 하는 이 보고서는 제어 인스턴스의 **[!UICONTROL Monitoring]** 우주를 통해서도 액세스할 수 있습니다.
+이 보고서는 실시간 큐와 관련된 기본 표시기를 표시합니다. 기술 관리자를 대상으로 하는 이 보고서는 제어 인스턴스의 **[!UICONTROL Monitoring]** 탭을 통해서도 액세스할 수 있습니다.
 
 ![](assets/mc_reports_2.png)
 
