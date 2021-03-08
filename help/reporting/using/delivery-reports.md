@@ -7,7 +7,7 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 배달 개요에서 액세스할 수 있는 다양한 보고서를 통해 배달 실행을 추적할 수 있습니다. 보고서를 표시하려면 다음 절차를 적용합니다.
 
-1. **[!UICONTROL Campaigns]** 우주의 **[!UICONTROL Delivery]** 링크를 클릭하여 배달 목록을 표시합니다.
+1. **[!UICONTROL Campaigns]** 탭으로 이동하여 **[!UICONTROL Delivery]** 링크를 클릭하여 배달 목록을 표시합니다.
 1. 표시할 게재의 이름을 클릭하여 세부 사항을 표시합니다.
 
    ![](assets/s_ncs_user_detailled_report.png)
