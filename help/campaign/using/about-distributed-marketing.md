@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 1%
@@ -83,7 +83,7 @@ Adobe Campaign은 중앙 개체(본사, 마케팅 부서 등) 간 협력 캠페�
 
 ## 작업 영역 {#workspace}
 
-캠페인 패키지 목록은 **캠페인** 우주에서 액세스할 수 있습니다.**[!UICONTROL Campaign packages]** 링크를 클릭합니다.
+캠페인 패키지 목록은 **캠페인** 탭에서 액세스할 수 있습니다.**[!UICONTROL Campaign packages]** 링크를 클릭합니다.
 
 ![](assets/mkg_dist_home_local_op.png)
 
