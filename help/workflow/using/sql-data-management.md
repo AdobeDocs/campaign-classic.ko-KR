@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 3%
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 * 작업은 원격 데이터 소스에서만 사용할 수 있습니다. 그러므로 **[!UICONTROL FDA]**(Federated Data Access) 패키지가 인스턴스에 설치되어 있어야 합니다. [자세히 알아보기](../../installation/using/about-fda.md)
 * 아웃바운드 스키마가 데이터베이스에 존재해야 하며 FDA 데이터베이스에 연결되어 있어야 합니다. [자세히 알아보기](../../configuration/using/about-schema-reference.md)
-* 작업 과정을 실행하는 연산자에게는 오른쪽의 **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]**&#x200B;이(가) 있어야 합니다. [자세히 알아보기](../../platform/using/access-management.md#named-rights)
+* 작업 과정을 실행하는 연산자에게는 오른쪽의 **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]**&#x200B;이(가) 있어야 합니다. [자세히 알아보기](../../platform/using/access-management-named-rights.md)
 
 ## SQL 데이터 관리 작업 {#configuring-the-sql-data-management-activity} 구성
 
