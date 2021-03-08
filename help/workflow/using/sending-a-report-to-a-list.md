@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ## 1단계:수신자 목록 {#step-1--creating-the-recipient-list} 만들기
 
-**[!UICONTROL Profiles and targets]** 우주의 **[!UICONTROL Lists]** 링크를 클릭한 다음 **[!UICONTROL Create]** 단추를 클릭합니다. **[!UICONTROL New list]**&#x200B;을 선택하고 전송할 보고서에 대한 새 수신자 목록을 만듭니다.
+**[!UICONTROL Profiles and targets]** 탭으로 이동하여 **[!UICONTROL Lists]** 링크를 클릭한 다음 **[!UICONTROL Create]** 단추를 클릭합니다. **[!UICONTROL New list]**&#x200B;을 선택하고 전송할 보고서에 대한 새 수신자 목록을 만듭니다.
 
 ![](assets/use_case_report_1.png)
 
