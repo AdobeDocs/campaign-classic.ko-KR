@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1609'
 ht-degree: 5%
@@ -120,7 +120,7 @@ Adobe에서는 전용 폴더에 작업 과정을 만드는 것이 좋습니다.
 
 워크플로우 구축을 시작하기 전에 워크플로우 관리자를 정의해야 합니다. 오류 발생 시 이메일로 알림을 받게 됩니다. 자세한 내용은 [오류 관리](../../workflow/using/monitoring-workflow-execution.md#managing-errors)를 참조하십시오.
 
-활성 워크플로우의 전체 상태를 보려면 **[!UICONTROL Monitoring]** 우주를 정기적으로 확인합니다. 자세한 내용은 [인스턴스 감독](../../workflow/using/monitoring-workflow-execution.md#instance-supervision)을 참조하십시오.
+활성 워크플로우의 전체 상태를 보려면 **[!UICONTROL Monitoring]** 탭을 정기적으로 확인하십시오. 자세한 내용은 [인스턴스 감독](../../workflow/using/monitoring-workflow-execution.md#instance-supervision)을 참조하십시오.
 
 Workflow HeatMap을 사용하면 Adobe Campaign 플랫폼 관리자가 인스턴스의 로드를 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다. 자세한 내용은 [워크플로우 모니터링](../../workflow/using/heatmap.md)을 참조하십시오.
 
