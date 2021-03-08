@@ -7,9 +7,9 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1242'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 시뮬레이션을 만들려면 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Campaigns]** 우주의 **[!UICONTROL More]** 링크를 클릭하고 **[!UICONTROL Create]** 옵션을 선택합니다.**[!UICONTROL Simulation]**
+1. **[!UICONTROL Campaigns]** 탭을 열고 **[!UICONTROL Create]** 섹션 내에서 **[!UICONTROL More]** 링크를 클릭하고 **[!UICONTROL Simulation]** 옵션을 선택합니다.
 
    ![](assets/simu_campaign_opti_01.png)
 
