@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 18%
@@ -83,7 +83,7 @@ Adobe Campaign 탐색기의 일반 레이아웃은 [Adobe Campaign 탐색기 사
 >
 >Adobe Campaign 트리에서 **[!UICONTROL Profiles and targets > Recipients]** 링크를 클릭하여 이 목록의 고급 보기를 표시할 수도 있습니다. 목록 표시를 필요에 맞게 구성할 수 있습니다. 열을 추가하거나 삭제할 수 있고 열 순서를 정의할 수 있으며 데이터를 정렬할 수 있습니다. 목록 표시 구성은 [Adobe Campaign 탐색기 사용](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)에 설명되어 있습니다.
 >
->수신자 뷰를 정의할 수도 있습니다. 이 기능에 대한 자세한 내용은 [폴더 및 보기](../../platform/using/access-management.md#folders-and-views)를 참조하십시오.
+>수신자 뷰를 정의할 수도 있습니다. 이 기능에 대한 자세한 내용은 [폴더 및 보기](../../platform/using/access-management-folders.md)를 참조하십시오.
 
 ## 활성 프로필 {#active-profiles}
 
