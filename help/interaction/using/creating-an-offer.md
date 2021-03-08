@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 오퍼를 만들려면 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Campaigns]** 우주의 **[!UICONTROL Offers]** 링크를 클릭합니다.
+1. **[!UICONTROL Campaigns]** 탭으로 이동하여 **[!UICONTROL Offers]** 링크를 클릭합니다.
 
    ![](assets/offer_create_001.png)
 
