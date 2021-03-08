@@ -7,9 +7,9 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1564'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 **로컬 엔티티의 경우**
 
-1. 캠페인 순서 지정
+1. 캠페인 순서 지정.
 1. 캠페인 실행을 참조하십시오.
 
 ## 로컬 캠페인 템플릿 만들기 {#creating-a-local-campaign-template}
@@ -151,7 +151,7 @@ ht-degree: 1%
 
 ![](assets/mkt_dist_local_campaign_localize_html.png)
 
-캠페인 템플릿을 저장합니다. 이제 **[!UICONTROL Create]** 단추를 클릭하여 **캠페인** 우주의 **캠페인 패키지** 보기에서 사용할 수 있습니다.
+캠페인 템플릿을 저장합니다. 이제 **[!UICONTROL Campaigns]** 탭의 **[!UICONTROL Campaign packages]** 보기에서 **[!UICONTROL Create]** 단추를 클릭하여 사용할 수 있습니다.
 
 ![](assets/mkt_distr_9.png)
 
@@ -270,7 +270,7 @@ ht-degree: 1%
 
    자세한 내용은 [승인 프로세스](#approval-process) 섹션을 참조하십시오.
 
-1. 그런 다음 로컬 연산자에 캠페인을 사용할 수 있다는 알림이 표시됩니다.캠페인 가용성은 **캠페인** 우주의 캠페인 패키지 목록에서 찾을 수 있습니다. 그런 다음 캠페인을 사용할 수 있습니다. 자세한 내용은 [캠페인 액세스](../../campaign/using/accessing-campaigns.md)를 참조하십시오.
+1. 그런 다음 로컬 연산자에 캠페인을 사용할 수 있다는 알림이 표시됩니다.캠페인 가용성은 **캠페인** 탭 내의 캠페인 패키지 목록에서 찾을 수 있습니다. 그런 다음 캠페인을 사용할 수 있습니다. 자세한 내용은 [캠페인 액세스](../../campaign/using/accessing-campaigns.md)를 참조하십시오.
 
    **[!UICONTROL Start targeting with order approval]** 옵션을 사용하면 주문이 승인되는 즉시 로컬 엔티티가 캠페인을 실행할 수 있습니다.
 
@@ -280,7 +280,7 @@ ht-degree: 1%
 
 캠페인 주문을 확인하려면 중앙 엔티티가 이를 승인해야 합니다.
 
-**캠페인** 유니버스를 통해 액세스한 **[!UICONTROL Campaign orders]** 개요를 통해 캠페인 주문 상태를 보고 이를 승인할 수 있습니다.
+**캠페인** 탭을 통해 액세스한 **[!UICONTROL Campaign orders]** 개요를 통해 캠페인 주문 상태를 보고 승인할 수 있습니다.
 
 >[!NOTE]
 >
