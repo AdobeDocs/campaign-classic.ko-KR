@@ -7,7 +7,7 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -121,7 +121,7 @@ Dimension은 관련 팩트 스키마를 기준으로 각 큐브에 대해 정의
 
 방법은 다음과 같습니다.
 
-1. **[!UICONTROL Reports]** 우주의 **[!UICONTROL Create]** 단추를 클릭하고 방금 만든 큐브를 선택합니다.
+1. **[!UICONTROL Reports]** 탭의 **[!UICONTROL Create]** 단추를 클릭하고 방금 만든 큐브를 선택합니다.
 
    ![](assets/s_advuser_cube_wz_14.png)
 
