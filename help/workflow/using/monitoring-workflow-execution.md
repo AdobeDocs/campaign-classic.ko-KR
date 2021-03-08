@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '1998'
 ht-degree: 0%
@@ -271,7 +271,7 @@ Campaign Classic 인터페이스를 사용하면 사전 정의된 **views**&#x20
 
 1. 보기를 추가할 폴더를 마우스 오른쪽 단추로 클릭합니다.
 1. **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**&#x200B;에서 추가할 보기를 선택합니다.
-1. 폴더가 트리에 추가되면 원래 폴더가 무엇이든지 모든 워크플로우가 표시되도록 뷰로 구성해야 합니다.보기를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/access-management.md#adding-folders-and-creating-views)을 참조하십시오.
+1. 폴더가 트리에 추가되면 원래 폴더가 무엇이든지 모든 워크플로우가 표시되도록 뷰로 구성해야 합니다.보기를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/access-management-folders.md)을 참조하십시오.
 
 또한 이러한 보기에 따라 워크플로우 목록을 실행 상태에 따라 필터링할 수 있도록 필터 폴더를 설정할 수 있습니다. 방법은 다음과 같습니다.
 
