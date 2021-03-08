@@ -7,9 +7,9 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 #### 캠페인 {#publishing-the-campaign} 게시
 
-이제 **캠페인** 우주에서 **캠페인 패키지**&#x200B;을 추가할 수 있습니다.
+이제 **[!UICONTROL Campaigns]** 탭에서 **캠페인 패키지**&#x200B;을 추가할 수 있습니다.
 
 1. **[!UICONTROL Reference campaign]**&#x200B;을 선택합니다. 패키지의 **[!UICONTROL Edit]** 탭에서 캠페인에 사용할 **[!UICONTROL Approval mode]**&#x200B;을 선택할 수 있습니다.
 
