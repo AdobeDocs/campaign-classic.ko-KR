@@ -7,9 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '754'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Adobe Campaign 플랫폼에서 **[!UICONTROL Display]** 탭을 사용하여 보�
 
 * **[!UICONTROL Single selection]** :보고서는 특정 엔티티를 선택한 경우에만 액세스할 수 있습니다.
 * **[!UICONTROL Multiple selection]** :여러 엔티티를 선택하면 보고서에 액세스합니다.
-* **[!UICONTROL Global]** :보고서는 보고서 우주에서 사용할 수 있는 보고서 목록을 통해 액세스합니다.
+* **[!UICONTROL Global]** :이 보고서는 탭의 사용 가능한 보고서 목록을 통해  **[!UICONTROL Reports]** 액세스합니다.
 
 ### 표시 시퀀스 {#display-sequence}
 
@@ -63,7 +63,7 @@ Adobe Campaign 플랫폼에서 **[!UICONTROL Display]** 탭을 사용하여 보�
 
 ### 필터링 옵션 정의 {#defining-the-filtering-options}
 
-**[!UICONTROL Reports]** 유니버스는 플랫폼에서 사용 가능한 모든 보고서를 표시하며, 연결된 연산자가 액세스 권한을 가지고 있습니다.
+**[!UICONTROL Reports]** 탭에는 플랫폼에서 사용 가능한 모든 보고서가 표시되며, 연결된 연산자에 액세스 권한이 있습니다.
 
 기본적으로 관련성별로 정렬되지만 다른 유형의 필터를 적용할 수 있습니다.알파벳순, 연령 등
 
