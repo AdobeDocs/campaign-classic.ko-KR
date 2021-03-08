@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 3%
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 ## 오퍼 시뮬레이션 수행 {#perform-an-offer-simulation}
 
-1. **[!UICONTROL Profiles and Targets]** 우주에서 **[!UICONTROL Simulations]** 링크를 클릭한 다음 **[!UICONTROL Create]** 단추를 클릭합니다.
+1. **[!UICONTROL Profiles and Targets]** 탭에서 **[!UICONTROL Simulations]** 링크를 클릭한 다음 **[!UICONTROL Create]** 단추를 클릭합니다.
 
    ![](assets/offer_simulation_001.png)
 
