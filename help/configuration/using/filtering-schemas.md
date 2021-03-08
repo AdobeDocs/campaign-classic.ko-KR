@@ -7,15 +7,15 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 
-# 스키마 필터링{#filtering-schemas}
+# 필터 스키마{#filtering-schemas}
 
 ## 시스템 필터 {#system-filters}
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 >
 >필터를 지정하지 않으면 모든 연산자는 스키마에 대한 읽기 및 쓰기 권한을 가집니다.
 
-## 내장 스키마 보호 {#protecting-built-in-schemas}
+## Protect 내장 스키마 {#protecting-built-in-schemas}
 
 기본적으로 기본 제공 스키마는 ADMINISTRATION 권한이 있는 연산자에 대해 WRITE 권한을 가진 경우에만 액세스할 수 있습니다.
 
