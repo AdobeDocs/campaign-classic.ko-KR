@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1098'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 가입자에 대한 자동 전달 또는 관련 확인 메시지와 함께 정보 서비스에 대한 가입을 만들고 관리할 수 있습니다.
 
-정보 서비스 맵에 액세스하려면 **[!UICONTROL Profiles and Targets]** 우주의 **[!UICONTROL Services and Subscriptions]** 링크를 클릭합니다.
+정보 서비스 맵에 액세스하려면 **[!UICONTROL Profiles and Targets]** 탭을 열고 **[!UICONTROL Services and Subscriptions]** 링크를 클릭합니다.
 
 ![](assets/s_ncs_user_services_new.png)
 
