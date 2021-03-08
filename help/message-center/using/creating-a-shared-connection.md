@@ -7,9 +7,9 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 translation-type: tm+mt
-source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '999'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 2%
 >
 >* 제어 또는 실행 인스턴스에서 [Message Center 기술 워크플로](../../message-center/using/technical-workflows.md)에 사용되는 스키마에 대해 수행된 스키마 확장은 Adobe Campaign 트랜잭션 메시징 모듈에서 사용하는 다른 인스턴스에 복제되어야 합니다.
 >* 제어 인스턴스와 실행 인스턴스를 다른 컴퓨터에 설치해야 합니다. 동일한 캠페인 인스턴스를 공유할 수 없습니다.
+
 >
 
 
@@ -137,11 +138,11 @@ ht-degree: 2%
 
 여러 제어 인스턴스를 사용하려면 이 구성을 모든 실행 인스턴스에 대해 수행해야 합니다.
 
-1. **[!UICONTROL Administration > Production > Message Center]** 노드에서 연산자당 하나의 폴더를 만듭니다.**폴더 1** 및 **폴더 2**. 폴더 및 보기 만들기에 대한 자세한 내용은 [플랫폼](../../platform/using/access-management.md#folders-and-views)을 참조하십시오.
+1. **[!UICONTROL Administration > Production > Message Center]** 노드에서 연산자당 하나의 폴더를 만듭니다.**폴더 1** 및 **폴더 2**. 폴더 및 보기 만들기에 대한 자세한 내용은 [이 페이지](../../platform/using/access-management-folders.md)를 참조하십시오.
 
    ![](assets/messagecenter_multi_control_3.png)
 
-1. 기본적으로 제공되는 메시지 센터 연산자(**mc**)를 복제하여 **mc1** 및 **mc2** 연산자를 만듭니다. 연산자 만들기에 대한 자세한 내용은 [이 섹션](../../platform/using/access-management.md#operators)을 참조하십시오.
+1. 기본적으로 제공되는 메시지 센터 연산자(**mc**)를 복제하여 **mc1** 및 **mc2** 연산자를 만듭니다. 연산자 만들기에 대한 자세한 내용은 [이 섹션](../../platform/using/access-management-operators.md)을 참조하십시오.
 
    ![](assets/messagecenter_multi_control_4.png)
 
