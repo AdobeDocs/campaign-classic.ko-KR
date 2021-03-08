@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 translation-type: tm+mt
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 연산자 및 권한 관리에 대한 자세한 내용은 이 [섹션](../../platform/using/access-management.md)을 참조하십시오.
 
-## 연산자 그룹 {#operator-groups}
+## 연산자 그룹 {#operator-groups-wf}
 
 다음 연산자 그룹이 워크플로우에 연결됩니다.
 
