@@ -7,7 +7,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 5%
@@ -29,7 +29,7 @@ ht-degree: 5%
 
 배달을 구성한 후에는 나중에 배달할 때 다시 사용하기 위해 템플릿으로 저장할 수 있습니다.
 
-**캠페인** 우주에서 선택한 제공을 엽니다. **템플릿으로 저장** 단추를 클릭하고 템플릿 이름을 지정한 다음 저장합니다.
+**캠페인** 탭에서 선택한 배달을 엽니다. **템플릿으로 저장** 단추를 클릭하고 템플릿 이름을 지정한 다음 저장합니다.
 
 ![](assets/dce_save_model.png)
 
