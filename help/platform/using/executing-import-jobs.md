@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '2960'
 ht-degree: 0%
 
 ---
@@ -291,7 +291,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
       >[!NOTE]
       >
-      >연산자의 기본 폴더는 연산자에 쓰기 액세스 권한이 있는 첫 번째 폴더입니다. [폴더 액세스 관리](../../platform/using/access-management.md#folder-access-management)를 참조하십시오.
+      >연산자의 기본 폴더는 연산자에 쓰기 액세스 권한이 있는 첫 번째 폴더입니다. [폴더 액세스 관리](../../platform/using/access-management-folders.md)에서 자세히 알아보십시오.
 
       가져오기 폴더를 선택하려면 **[!UICONTROL Folder]** 필드 오른쪽의 화살표를 클릭하고 관련 폴더를 선택합니다. **[!UICONTROL Select link]** 아이콘을 사용하여 새 창에 트리를 표시하거나 새 폴더를 만들 수도 있습니다.
 
