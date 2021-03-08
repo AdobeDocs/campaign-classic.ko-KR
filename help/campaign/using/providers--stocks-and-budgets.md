@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 0%
@@ -206,7 +206,7 @@ Adobe Campaign에서 재고 및 주문 관리를 설정하고 배송에 필요�
 
 ### 스톡 관리 {#stock-management}
 
-Adobe Campaign은 재고가 부족하거나 최소 임계값에 도달한 경우 연산자 그룹에 경고를 표시할 수 있습니다. 스톡 수준은 탐색 영역의 **[!UICONTROL Other choices]** 링크를 통해 **[!UICONTROL Campaigns]** 우주의 **[!UICONTROL Stocks]** 링크를 통해 액세스할 수 있습니다.
+Adobe Campaign은 재고가 부족하거나 최소 임계값에 도달한 경우 연산자 그룹에 경고를 표시할 수 있습니다. Stock 레벨은 탐색 영역의 **[!UICONTROL Other choices]** 링크를 통해 **[!UICONTROL Campaigns]** 탭의 **[!UICONTROL Stocks]** 링크를 통해 액세스할 수 있습니다.
 
 ![](assets/s_ncs_user_stocks_view.png)
 
