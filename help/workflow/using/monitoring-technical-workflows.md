@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
@@ -23,7 +23,7 @@ ht-degree: 8%
 
 ## 인스턴스 모니터링 대시보드 {#instance-monitoring-dashboard}
 
-인스턴스 모니터링 대시보드는 **[!UICONTROL Monitoring]** 우주를 통해 액세스할 수 있습니다.
+인스턴스 모니터링 대시보드는 **[!UICONTROL Monitoring]** 탭을 통해 액세스할 수 있습니다.
 
 ![](assets/monitoring_technical_workflows1.png)
 
