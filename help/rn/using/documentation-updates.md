@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: af2707c6d86215ff94911e670a1eb080572de23c
 workflow-type: tm+mt
-source-wordcount: '4092'
-ht-degree: 95%
+source-wordcount: '4151'
+ht-degree: 93%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 95%
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
 ## 2021년 3월 {#march-2021}
+
+[권한 관리 장](../../platform/using/access-management.md)이(가) 개선되어 [연산자](../../platform/using/access-management-operators.md) , [연산자 그룹](../../platform/using/access-management-groups.md), [명명된 권한](../../platform/using/access-management-named-rights.md) 및 [폴더 관리](../../platform/using/access-management-folders.md)에 대한 세부 정보를 포함하여 섹션으로 분할되었습니다.
+
+다음 새로운 페이지를 통해 캠페인을 만들고 관리하는 방법을 알아봅니다.
+* [캠페인 템플릿 만들기 및 구성](../../campaign/using/marketing-campaign-templates.md)
+* [마케팅 캠페인 게재](../../campaign/using/marketing-campaign-deliveries.md)
+* [캠페인 대상 선택](../../campaign/using/marketing-campaign-target.md)
+* [관련 문서 관리](../../campaign/using/marketing-campaign-assets.md)
+* [승인 프로세스 설정 및 관리](../../campaign/using/marketing-campaign-approval.md)
 
 작업을 종료하고 향후 회수를 방지하기 위해 task.setCompleted() 메서드를 사용하는 방법에 대한 정보가 **[!UICONTROL Advanced JavaScript]** 활동 섹션에 추가되었습니다. [자세한 내용](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
