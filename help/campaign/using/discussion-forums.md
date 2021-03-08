@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 
    ![](assets/platform_dashboard_operator_subscr_forums.png)
 
-   개인 대시보드에 대한 자세한 내용은 [이 섹션](../../platform/using/access-management.md#operators)을 참조하십시오.
+   개인 대시보드에 대한 자세한 내용은 [이 섹션](../../platform/using/access-management-operators.md)을 참조하십시오.
 
 * 포럼에 가입한 사용자를 보려면 메시지 목록 위의 **[!UICONTROL List of subscribers to this discussion forum]** 링크를 클릭합니다.
 
