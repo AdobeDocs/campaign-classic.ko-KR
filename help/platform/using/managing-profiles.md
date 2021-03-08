@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '229'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->데이터베이스에 있는 모든 받는 사람 목록을 표시하려면 뷰를 만들어야 합니다. [폴더 및 보기](../../platform/using/access-management.md#folders-and-views)를 참조하십시오.
+>데이터베이스에 있는 모든 받는 사람 목록을 표시하려면 뷰를 만들어야 합니다. [폴더 및 보기](../../platform/using/access-management-folders.md)에서 자세히 알아보십시오.
 
 ## 받는 사람 이동 중 {#moving-recipients}
 
