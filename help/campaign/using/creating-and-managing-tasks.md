@@ -7,9 +7,9 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '3733'
+source-wordcount: '3732'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Adobe Campaign을 사용하면 작업을 만들고 전체 라이프 사이클을
 
 작업은 캠페인에 연결되어 있고, 관련된 작업과 같은 종속성을 가질 수 있습니다. 각 작업의 상태, 우선 순위, 예상 로드 및 관련 비용이 있습니다.
 
-모든 작업은 **캠페인** 우주를 통해 액세스할 수 있는 목록으로 그룹화됩니다. 자세한 내용은 [작업 액세스](#accessing-tasks)를 참조하십시오.
+모든 작업은 **캠페인** 탭을 통해 액세스할 수 있는 목록으로 그룹화됩니다. 자세한 내용은 [작업 액세스](#accessing-tasks)를 참조하십시오.
 
 프로그램 일정에 표시할 수 있습니다.
 
@@ -35,13 +35,13 @@ Adobe Campaign을 사용하면 작업을 만들고 전체 라이프 사이클을
 
 ### 작업 표시 {#displaying-tasks}
 
-작업은 **[!UICONTROL Campaigns]** 우주를 통해 액세스할 수 있는 작업 목록에 표시됩니다.
+작업은 **[!UICONTROL Campaigns]** 탭을 통해 액세스할 수 있는 작업 목록에 표시됩니다.
 
 ![](assets/s_ncs_user_task_edit_view.png)
 
 연결된 연산자의 모든 작업을 볼 수 있습니다.
 
-자세한 내용은 작업[ 및 ](#execution-status-of-a-task)작업의 진행 상태[를 참조하십시오.](#progress-status-of-a-task)
+자세한 내용은 작업](#execution-status-of-a-task) 및 [작업의 진행 상태](#progress-status-of-a-task)를 참조하십시오.[
 
 ### 작업 필터링 {#filtering-tasks}
 
@@ -57,7 +57,7 @@ Adobe Campaign을 사용하면 작업을 만들고 전체 라이프 사이클을
 
 ## 새 작업 {#creating-a-new-task} 만들기
 
-작업을 만들려면 캠페인 우주의 **[!UICONTROL Tasks]** 링크를 클릭하고 **[!UICONTROL Create]**&#x200B;을 선택합니다.
+작업을 만들려면 **[!UICONTROL Campaigns]** 탭에서 **[!UICONTROL Tasks]** 링크를 클릭하고 **[!UICONTROL Create]**&#x200B;를 선택합니다.
 
 ![](assets/s_ncs_user_task_create_new.png)
 
