@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 5%
@@ -29,7 +29,7 @@ ht-degree: 5%
 
 오퍼의 시뮬레이션을 실행하려면 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Profiles and Targets]** 우주에서 **[!UICONTROL Simulations]** 링크를 클릭한 다음 **[!UICONTROL Create]** 단추를 클릭합니다.
+1. **[!UICONTROL Profiles and Targets]** 탭에서 **[!UICONTROL Simulations]** 링크를 클릭한 다음 **[!UICONTROL Create]** 단추를 클릭합니다.
 
    ![](assets/offer_simulation_001.png)
 
