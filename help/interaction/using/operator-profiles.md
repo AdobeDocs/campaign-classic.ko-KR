@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 * **[!UICONTROL Offer manager]** :오퍼를 만들고 유지 관리합니다. 오퍼가 워크플로우에 사용되는 경우 워크플로우를 실행하려면 연산자는 **[!UICONTROL Administrator]** 또는 **[!UICONTROL Offer managers]** 연산자 그룹에 있어야 합니다.
 * **[!UICONTROL Delivery manager]** :오퍼를 승인하고 사용합니다.
 
-상호 작용에만 적용되는 연산자를 만드는 단계는 플랫폼에서 다른 연산자를 모두 만드는 데 사용되는 연산자와 동일합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/access-management.md#creating-an-operator)을 참조하십시오. 운영자를 만드는 동안 권한이 구성됩니다.
+상호 작용에만 적용되는 연산자를 만드는 단계는 플랫폼에서 다른 연산자를 모두 만드는 데 사용되는 연산자와 동일합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/access-management.md)을 참조하십시오. 운영자를 만드는 동안 권한이 구성됩니다.
 
 ## 오퍼 관리자 {#offer-manager}
 
