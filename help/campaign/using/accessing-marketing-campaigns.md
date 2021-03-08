@@ -7,9 +7,9 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1045'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,11 @@ Adobe Campaign에 연결하면 홈 페이지가 표시됩니다.
 
 ![](assets/campaign_global_view.png)
 
-탐색 막대에서 링크를 클릭하여 다양한 우주에 액세스합니다.
+탐색 막대에서 링크를 클릭하여 다양한 기능에 액세스합니다.
 
-캠페인 요소는 **[!UICONTROL Campaigns]** 우주에서 찾을 수 있습니다.여기에서 마케팅 프로그램 및 캠페인과 하위 세트에 대한 개요를 볼 수 있습니다. 마케팅 프로그램은 게재, 작업, 연결된 리소스 등으로 구성된 캠페인으로 구성됩니다. 캠페인을 사용한 마케팅 캠페인 관리 컨텍스트에서는 캠페인에 납품, 예산, 검토자 및 연결된 문서에 대한 정보를 찾을 수 있습니다.
+캠페인 요소는 **[!UICONTROL Campaigns]** 탭에서 찾을 수 있습니다.여기에서 마케팅 프로그램 및 캠페인과 하위 세트에 대한 개요를 볼 수 있습니다. 마케팅 프로그램은 게재, 작업, 연결된 리소스 등으로 구성된 캠페인으로 구성됩니다. 캠페인을 사용한 마케팅 캠페인 관리 컨텍스트에서는 캠페인에 납품, 예산, 검토자 및 연결된 문서에 대한 정보를 찾을 수 있습니다.
 
-**[!UICONTROL Campaigns]** 우주의 탐색 블록은 인스턴스에 설치된 모듈에 따라 다양한 항목을 제공합니다. 예를 들어 다음 항목에 액세스할 수 있습니다.
+**[!UICONTROL Campaigns]** 탭의 **[!UICONTROL Browsing]** 블록은 인스턴스에 설치된 모듈에 따라 다양한 항목을 제공합니다. 예를 들어 다음 항목에 액세스할 수 있습니다.
 
 * **캠페인 달력**:일정(플랜, 마케팅 프로그램, 배달 및 캠페인) [캠페인 달력](#campaign-calendar)을 참조하십시오.
 * **캠페인**:모든 마케팅 프로그램에 포함된 캠페인에 대한 액세스.
@@ -46,7 +46,7 @@ Adobe Campaign에 연결하면 홈 페이지가 표시됩니다.
 
 ### 캠페인 달력 {#campaign-calendar}
 
-각 캠페인은 계획에 속한 프로그램에 속합니다. 플랜, 프로그램 및 캠페인은 **캠페인** 우주의 **[!UICONTROL Campaign calendar]** 메뉴를 통해 액세스합니다.
+각 캠페인은 계획에 속한 프로그램에 속합니다. 플랜, 프로그램 및 캠페인은 **캠페인** 탭의 **[!UICONTROL Campaign calendar]** 메뉴를 통해 액세스합니다.
 
 계획, 프로그램, 캠페인 또는 배달을 편집하려면 달력에서 해당 이름을 클릭한 다음 **[!UICONTROL Open...]**&#x200B;을 클릭합니다. 그런 다음 아래와 같이 새 탭에 표시됩니다.
 
@@ -95,7 +95,7 @@ Adobe Campaign에 연결하면 홈 페이지가 표시됩니다.
    ![](assets/campaign_op_edit.png)
 
 1. 프로그램의 **[!UICONTROL Schedule]** 탭을 통해 편집 모드는 캠페인 달력을 통해 동일한 것입니다.
-1. **[!UICONTROL Campaigns]** 우주의 **[!UICONTROL Campaigns]** 링크를 통해 편집할 캠페인 이름을 클릭합니다.
+1. **[!UICONTROL Campaigns]** 탭의 **[!UICONTROL Campaigns]** 링크를 통해 편집할 캠페인 이름을 클릭합니다.
 
    ![](assets/campaign_edit_from_list.png)
 
