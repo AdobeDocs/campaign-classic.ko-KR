@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -98,7 +98,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* 리소스는 **[!UICONTROL Campaigns]** 우주의 **[!UICONTROL Resources]** 링크를 통해 액세스한 마케팅 리소스 대시보드에서 생성되는 마케팅 리소스입니다.
+* 리소스는 **[!UICONTROL Campaigns]** 탭의 **[!UICONTROL Resources]** 링크를 통해 액세스한 마케팅 리소스 대시보드에서 생성되는 마케팅 리소스입니다.
 
    ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
