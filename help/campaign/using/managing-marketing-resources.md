@@ -7,9 +7,9 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1383'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Adobe Campaign을 통해 관리되는 각 마케팅 리소스의 상태 및 내�
 
 ## 마케팅 리소스 {#adding-a-marketing-resource} 추가
 
-마케팅 리소스는 캠페인 우주를 통해 액세스합니다.
+마케팅 리소스는 **[!UICONTROL Campaigns]** 탭을 통해 액세스합니다.
 
 리소스를 추가하려면 **[!UICONTROL Create]** 단추를 클릭합니다.
 
