@@ -7,9 +7,9 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 translation-type: tm+mt
-source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 4%
 
 ---
@@ -28,4 +28,4 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->실행 인스턴스에서 **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 폴더가 뷰로 설정되어 있으면 안 됩니다. 이로 인해 [액세스 권한](../../platform/using/access-management.md#about-permissions) 문제가 발생할 수 있습니다. 폴더를 보기로 설정하는 방법에 대한 자세한 내용은 [보기 정보](../../platform/using/access-management.md#about-views)를 참조하십시오.
+>실행 인스턴스에서 올바른 문제에 액세스할 수 있으므로 **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 폴더를 보기로 설정하지 않아야 합니다. 폴더를 보기로 설정하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/access-management-folders.md)을 참조하십시오.
