@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: add0efb4efd5a37129c649b942799622947f3143
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '4092'
 ht-degree: 95%
@@ -287,7 +287,7 @@ Adobe Target의 동적 오퍼를 Adobe Campaign의 전자 메일에 통합하는
 
 이제 Adobe Campaign에서 사용할 수 있는 다양한 언어를 설명하는 새 섹션을 사용할 수 있습니다. [자세한 내용](../../platform/using/adobe-campaign-workspace.md#languages)
 
-지정된 권한에 대한 추가 정보가 있는 액세스 관리 지침이 업데이트되었습니다. [자세한 내용](../../platform/using/access-management.md#named-rights)
+지정된 권한에 대한 추가 정보가 있는 액세스 관리 지침이 업데이트되었습니다. [자세한 내용](../../platform/using/access-management-named-rights.md)
 
 ## 2020년 2월 {#february-2020}
 
@@ -405,7 +405,7 @@ Adobe Campaign과 Adobe 실시간 고객 데이터 Platform 간의 통합이 이
 
 전자 메일을 보낼 때 사용되는 문자 인코딩을 강제 적용하는 방법을 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/sending-messages.md#character-encoding)
 
-액세스 관리 섹션이 **개인 정보 보호 권리**&#x200B;로 업데이트되었습니다. [자세한 내용](../../platform/using/access-management.md#named-rights)
+액세스 관리 섹션이 **개인 정보 보호 권리**&#x200B;로 업데이트되었습니다. [자세한 내용](../../platform/using/access-management-named-rights.md)
 
 개인화 필드 콘텐츠가 1024자를 초과할 수 없음을 지정하는 정보가 추가되었습니다. [자세한 내용](../../delivery/using/personalization-fields.md)
 
