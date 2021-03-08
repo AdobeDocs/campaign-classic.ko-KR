@@ -7,7 +7,7 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ### 1단계 - 큐브 {#step-1---creating-a-report-based-on-a-cube} 기반 보고서 만들기
 
-큐브를 기반으로 보고서를 만들려면 **[!UICONTROL Reports]** 우주의 **[!UICONTROL Create]** 단추를 클릭하고 사용할 큐브를 선택합니다.
+큐브를 기반으로 보고서를 만들려면 **[!UICONTROL Reports]** 탭에서 **[!UICONTROL Create]** 단추를 클릭하고 사용할 큐브를 선택합니다.
 
 이 프로세스는[큐브](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube)를 기반으로 보고서 만들기
 
@@ -152,7 +152,7 @@ ht-degree: 2%
 
    장바구니의 컨텐츠를 저장하거나 비울 수 있습니다.
 
-   관련 목록은 **[!UICONTROL Profiles and targets]** 우주를 통해 액세스합니다.
+   관련 목록은 **[!UICONTROL Profiles and targets]** 탭을 통해 액세스합니다.
 
    ![](assets/s_advuser_cube_in_report_config_02g.png)
 
