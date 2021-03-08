@@ -7,9 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 translation-type: tm+mt
-source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Anonymous access]**:이 옵션을 사용하면 보고서에 대한 무제한 액세스를 할 수 있습니다. 그러나 조작은 불가능합니다.
 
-   &#39;webapp&#39; 기술 운영자의 권한은 보고서 요소를 표시하는 데 사용됩니다. 이 섹션](../../platform/using/access-management.md#default-operators)에서 [에 대해 자세히 알아보십시오.
+   &#39;webapp&#39; 기술 연산자의 권한은 보고서 요소를 표시하는 데 사용됩니다. 이 섹션](../../platform/using/access-management-operators.md)에서 [에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL Access control]**:이 옵션을 사용하면 Adobe Campaign 연산자가 로그온한 후에 액세스할 수 있습니다.
 * **[!UICONTROL Specific account]**:이 옵션을 사용하면 필드에서 선택된 연산자의 권한으로 보고서를 실행할 수  **[!UICONTROL Operator]** 있습니다.
