@@ -7,7 +7,7 @@ audience: social
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 1%
@@ -109,7 +109,7 @@ Facebook 권한 요청 화면에 표시되도록 **[!UICONTROL Terms of service]
 
 Adobe Campaign Facebook 애플리케이션을 사용하면 Facebook 애플리케이션에 개인화된 컨텐츠를 표시할 수 있습니다. 각 Facebook 애플리케이션에 대해 Adobe Campaign에서 웹 애플리케이션을 만들어야 합니다. Facebook 웹 애플리케이션을 만들려면 다음과 같이 하십시오.
 
-1. **[!UICONTROL Social networks]** 우주의 **[!UICONTROL Applications]** 링크를 클릭한 다음 **[!UICONTROL Create]** 단추를 클릭합니다.
+1. **[!UICONTROL Social networks]** 탭으로 이동하여 **[!UICONTROL Applications]** 링크를 클릭한 다음 **[!UICONTROL Create]** 단추를 클릭합니다.
 
    ![](assets/social_webapp_001.png)
 
