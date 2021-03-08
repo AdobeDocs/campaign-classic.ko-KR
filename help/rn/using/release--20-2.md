@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 571821ce775a7c354d01404d14faee8d2a21c170
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '2556'
 ht-degree: 94%
@@ -191,7 +191,7 @@ _2020년 6월 8일_
 
 * 더 이상 자체 리트머스 계정을 사용하여 Adobe Campaign에서 받은 편지함 렌더링을 프로비저닝하고 사용할 수 없습니다. [자세히 알아보기](../../delivery/using/inbox-rendering.md)
 
-* 뷰를 폴더와 구분하기 위해 뷰 이름의 색상이 짙은 파란색에서 어두운 녹청색으로 변경되었습니다. [자세한 내용](../../platform/using/access-management.md#about-views)
+* 뷰를 폴더와 구분하기 위해 뷰 이름의 색상이 짙은 파란색에서 어두운 녹청색으로 변경되었습니다. [자세한 내용](../../platform/using/access-management-folders.md)
 
 * 이제 Campaign Classic을 영국, 인도 및 캐나다 지역에서 호스팅되는 Microsoft Dynamics CRM 계정에 연결할 수 있습니다. 이는 Office 365 및 온-프레미스(Dynamics 2015) 배포 유형에 적용됩니다.
 
