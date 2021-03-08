@@ -7,9 +7,9 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '2786'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -616,7 +616,7 @@ logInfo("Done");
 
 ### 맞춤형 보고서 {#personalized-reports}
 
-<!--If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
+<!--If you want to have the blue banner from v7 (allowing you access to the tabs), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
 
 ![](assets/migration_reports_1.png)
 -->
@@ -631,7 +631,7 @@ logInfo("Done");
 
 ### 식별된 웹 응용 프로그램 {#identified-web-applications}
 
-보고서의 경우와 마찬가지로([보고서](#reports) 참조), JavaScript를 추가한 경우 필요한 경우 확인하고 적응해야 합니다. v7 파란색 배너(유니버스 포함)를 활용하려면 웹 애플리케이션을 다시 게시해야 합니다. JavaScript 코드가 작동하면 v6.x 렌더링 엔진을 선택할 수 있습니다. 그렇지 않은 경우 코드를 조정하는 동안 v6.0 렌더링 엔진을 사용한 다음 v6.x 렌더링 엔진을 사용할 수 있습니다.
+보고서([자세한 내용](#reports))와 마찬가지로 JavaScript를 추가한 경우 필요한 경우 확인하고 적응해야 합니다. v7 파란색 배너(파란색 탭 포함)의 혜택을 받으려면 웹 애플리케이션을 다시 게시해야 합니다. JavaScript 코드가 작동하면 v6.x 렌더링 엔진을 선택할 수 있습니다. 그렇지 않은 경우 코드를 조정하는 동안 v6.0 렌더링 엔진을 사용한 다음 v6.x 렌더링 엔진을 사용할 수 있습니다.
 
 >[!NOTE]
 렌더링 엔진을 선택하는 단계는 보고서를 선택하는 단계와 동일합니다. [개인화된 보고서](#personalized-reports)를 참조하십시오.
