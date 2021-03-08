@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 450889f845b7c5adad1085d7eba70e23030e6609
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 97%
+source-wordcount: '797'
+ht-degree: 94%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe는 법률적 조언을 제공하지 않습니다. 따라서 사용자가 �
 
 계속 데이터를 사용할 수 있도록 특정 동의를 새로 고쳐야 하는 인스턴스가 있을 수 있습니다.
 
-마케터는 이러한 강화된 동의 요구 사항을 마케팅 환경에 미치는 위험으로 생각하기보다는 브랜드 참여 및 충성도의 지표와 고객 만족도 및 신뢰의 지표로 활용할 수 있습니다.
+마케터는 이러한 향상된 동의 요구 사항을 고객 만족도와 신뢰도에 대한 정확한 지표로 수용해야 합니다.
 
 ## 동의 관리 {#manage-consent}
 
