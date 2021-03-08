@@ -7,7 +7,7 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 translation-type: tm+mt
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 10%
@@ -89,7 +89,7 @@ ht-degree: 10%
 
 큐브에 사용되는 기본 컨텍스트는 다음과 같습니다.
 
-* 데이터 내보내기는 Adobe Campaign 플랫폼의 **[!UICONTROL Reports]** 우주에서 설계된 보고서에서 직접 수행할 수 있습니다.
+* 데이터 내보내기는 Adobe Campaign 플랫폼의 **[!UICONTROL Reports]** 탭에서 설계된 보고서에서 직접 수행할 수 있습니다.
 
    이렇게 하려면 새 보고서를 만들고 사용할 큐브를 선택합니다.
 
