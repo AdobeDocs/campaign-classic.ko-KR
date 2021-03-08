@@ -7,7 +7,7 @@ audience: social
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 2%
@@ -69,7 +69,7 @@ Adobe Campaign에서 Twitter 계정에 트윗을 보낼 수 있으려면 Twitter
 
    ![](assets/social_twitter_service_002.png)
 
-* **Adobe Campaign**:유니버스로  **[!UICONTROL Profiles and targets]** 이동하여  **[!UICONTROL Services and Subscriptions]** 링크를 클릭하고 단추를  **[!UICONTROL Create]** 클릭합니다.
+* **Adobe Campaign**:탭으로  **[!UICONTROL Profiles and targets]** 이동하여  **[!UICONTROL Services and Subscriptions]** 링크를 클릭하고 버튼을  **[!UICONTROL Create]** 클릭합니다.
 
    ![](assets/social_twitter_service_007.png)
 
