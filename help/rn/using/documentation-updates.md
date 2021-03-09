@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: af2707c6d86215ff94911e670a1eb080572de23c
+source-git-commit: 660b9ad4351fe611d99962f2b163858b1f70bc84
 workflow-type: tm+mt
-source-wordcount: '4151'
+source-wordcount: '4170'
 ht-degree: 93%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 93%
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
 ## 2021년 3월 {#march-2021}
+
+보안 및 개인 정보 보호에 대한 작업을 수행하기 위한 모범 사례 및 점검 기능이 추가된 새 섹션이 있습니다. [자세한 내용](../../installation/using/get-started-security-privacy.md)
 
 [권한 관리 장](../../platform/using/access-management.md)이(가) 개선되어 [연산자](../../platform/using/access-management-operators.md) , [연산자 그룹](../../platform/using/access-management-groups.md), [명명된 권한](../../platform/using/access-management-named-rights.md) 및 [폴더 관리](../../platform/using/access-management-folders.md)에 대한 세부 정보를 포함하여 섹션으로 분할되었습니다.
 
