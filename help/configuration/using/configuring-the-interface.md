@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 2%
@@ -70,7 +70,7 @@ Adobe Campaign에서는 &quot;Nms_DefaultRcpSchema&quot; 전역 변수를 사용
 
    >[!NOTE]
    >
-   >**navtree** 유형 파일에 대한 자세한 내용은 [이 페이지](../../configuration/using/about-navigation-hierarchy.md)을 참조하십시오.
+   >**navtree** 유형 파일에 대한 자세한 내용은 [이 페이지](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy)을 참조하십시오.
 
    현재 예에서 **navtree** 파일은 **cus:individual** 스키마를 기반으로 해야 하므로 다음 양식이 있어야 합니다.
 
