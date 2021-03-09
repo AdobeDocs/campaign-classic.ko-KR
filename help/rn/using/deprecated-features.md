@@ -9,9 +9,9 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 425b2e5748703a8349b6f70968d1ef4c71f72b21
+source-git-commit: f78fa94fb4fb9236222886a167a46d252497b2aa
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1712'
 ht-degree: 94%
 
 ---
@@ -99,7 +99,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <li>iOS</li>
    </ul>
   <p>이러한 커넥터 중 하나를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../delivery/using/sms-channel.md">자세히 알아보기</a></p> 
-  <p><a href="https://helpx.adobe.com/kr/campaign/kb/sms-connector.html">이 기술 문서</a>에서 레거시 커넥터를 마이그레이션하는 방법을 배웁니다.</p>
+  <p><a href="../../delivery/using/unsupported-connector-migration.md">이 기술 문서</a>에서 레거시 커넥터를 마이그레이션하는 방법을 배웁니다.</p>
   <p><em>타겟 제거 날짜: 2021년 4월</em></p>
   </td> 
  </tr>
