@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: 설명서
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 60b4565ec6dc3e7ffc4ffcff69fbcca9fa870614
 workflow-type: tm+mt
-source-wordcount: '2412'
-ht-degree: 57%
+source-wordcount: '2457'
+ht-degree: 56%
 
 ---
 
@@ -42,7 +42,9 @@ ht-degree: 57%
    + Adobe Campaign {#starting-with-adobe-campaign}로 시작
       + [Adobe Campaign Classic 시작](platform/using/about-adobe-campaign-classic.md)
       + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
-      + [Adobe Campaign 작업 영역](platform/using/adobe-campaign-workspace.md)
+      + Adobe Campaign 작업 영역{#campaign-workspace}
+         + [캠페인 UI 시작하기](platform/using/adobe-campaign-workspace.md)
+         + [목록 검색 및 사용자 정의](platform/using/adobe-campaign-ui-lists.md)
       + FAQ {#faq}
          + [주요 질문](platform/using/common-questions.md)
          + [전반적 개념](platform/using/faq-key-concepts.md)
@@ -55,7 +57,7 @@ ht-degree: 57%
          + [구성](platform/using/faq-campaign-config.md)
          + [보고서](platform/using/faq-reporting.md)
          + [개발](platform/using/faq-developers.md)
-      + [튜토리얼](platform/using/tutorials.md)
+         + [튜토리얼](platform/using/tutorials.md)
    + 개인 정보 {#privacy}
       + [개인 정보 및 동의](platform/using/privacy-and-recommendations.md)
       + [개인 정보 관리](platform/using/privacy-management.md)
@@ -140,6 +142,7 @@ ht-degree: 57%
       + [SMS 채널](delivery/using/sms-channel.md)
       + [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)
       + [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
+      + [확장 범용 SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
    + [LINE 메시지 보내기](delivery/using/line-channel.md)
    + 푸시 알림 보내기 {#sending-push-notifications}
       + [모바일 앱 채널 기본 정보](delivery/using/about-mobile-app-channel.md)
@@ -674,6 +677,14 @@ ht-degree: 57%
       + [데이터베이스에 연결](installation/using/connecting-to-database.md)
       + [데이터 스키마 만들기](installation/using/creating-data-schema.md)
       + [데이터 매핑 정의](installation/using/defining-data-mapping.md)
+   + 보안 및 개인 정보 확인 목록 {#security-privacy}
+      + [보안 및 개인 정보 시작하기](installation/using/get-started-security-privacy.md)
+      + [개인 정보](installation/using/privacy.md)
+      + [액세스 관리](installation/using/access-management.md)
+      + [스크립팅 및 코딩 지침](installation/using/scripting-coding-guidelines.md)
+      + [네트워크, 데이터베이스 및 SSL/TLS](installation/using/network-database.md)
+      + [서버 구성](installation/using/server-configuration.md)
+      + [웹 서버 구성](installation/using/web-server-configuration.md)
    + 부록 {#appendices}
       + [서버 구성 파일](installation/using/the-server-configuration-file.md)
       + [Campaign 네트워크 엔드포인트](installation/using/campaign-network-endpoints.md)
@@ -790,9 +801,8 @@ ht-degree: 57%
       + [JavaScript의 SOAP 메서드](configuration/using/soap-methods-in-javascript.md)
       + [추가 SQL 함수 추가](configuration/using/adding-additional-sql-functions.md)
    + 탐색 계층 {#navigation-hierarchy}
-      + [탐색 계층 기본 정보](configuration/using/about-navigation-hierarchy.md)
-      + [구성](configuration/using/configuration.md)
-      + [에디션](configuration/using/edition.md)
+      + [탐색기 계층 구성](configuration/using/configuration.md)
+      + [탐색기 계층 편집](configuration/using/edition.md)
    + 사용자 지정 수신자 테이블 사용 {#use-a-custom-recipient-table}
       + [사용자 지정 수신자 테이블 정보](configuration/using/about-custom-recipient-table.md)
       + [스키마 특성](configuration/using/schema-characteristics.md)
