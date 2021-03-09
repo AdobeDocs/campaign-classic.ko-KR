@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 660b9ad4351fe611d99962f2b163858b1f70bc84
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: '2038'
 ht-degree: 73%
 
 ---
@@ -25,7 +25,7 @@ Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양�
 
 * 요청하지 않은 이메일, 푸시 알림 및 SMS 메시지(&quot;스팸&quot;)를 보내지 마십시오. Adobe는 고객 생애의 가치 및 충성도를 향상하기 위해 허가 마케팅의 원칙을 강력하게 믿고 있습니다. 따라서 원치 않는 메시지 발송에 Adobe Campaign을 사용하는 것을 엄격히 금하고 있습니다.
 
-[보안 및 개인 정보 보호 체크리스트](https://helpx.adobe.com/kr/campaign/kb/acc-security.html)를 검토하여 보안 및 개인 정보에 대한 주요 요소를 알아보십시오.
+[보안 및 개인 정보 보호 체크리스트](../../installation/using/get-started-security-privacy.md)를 검토하여 보안 및 개인 정보에 대한 주요 요소를 알아보십시오.
 
 ### 개인 정보 보호 규정 {#privacy-regulations}
 
