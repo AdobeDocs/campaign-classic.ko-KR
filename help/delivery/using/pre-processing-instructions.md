@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
+source-git-commit: 3454af2faffacd43fa1ad852529dad175340a237
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 전달 마법사에서 직접 테스트할 수 있습니다. 이 URL은 컨텐츠 미리 보기에 적용되고 추적 단추를 클릭하면 URL 목록을 볼 수 있습니다.
 
-## &lt;>{#<%@-include}
+## &lt;>{#include}
 
 다음은 가장 일반적으로 사용되는 예입니다.
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 전달 마법사의 개인화 단추를 사용하여 올바른 구문을 가져옵니다.
 
-## &lt;>{#<%@-value}
+## &lt;>{#value}
 
 이 명령을 사용하면 모든 받는 사람에게 일정인 전달 매개 변수에 액세스할 수 있습니다.
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 * &quot;전달&quot;:현재 배달을 참조하십시오(아래 하위 섹션의 세부 사항 및 제한 사항 참조).
 * &quot;공급자&quot;:현재 배달 공급자/경로 지정(nms:externalAccount)에 대해 지정합니다.
 * 추가 스크립트 개체:객체를 다음 방법으로 컨텍스트에서 로드한 경우&#x200B;**속성** > **개인화** > **실행 컨텍스트에 개체 추가**.
-* 예측 루프의 항목:아래의 [예측](#<%@-foreach) 섹션을 참조하십시오.
+* 예측 루프의 항목:아래의 [예측](#foreach) 섹션을 참조하십시오.
 
 ### &quot;전달&quot; 개체 {#delivery-object}
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 >
 >`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
-### &lt;>{#<%@-value-in-javascript}
+### &lt;>{#value-in-javascript}
 
 스크립트 섹션에서 &lt;%@ 값을 사용할 수 있도록 두 개의 특수 객체가 &lt;% 및 %>로 대체됩니다.
 
@@ -96,7 +96,7 @@ ht-degree: 1%
 `<%@ value object='endScript' %> is expanded in something like <% var iMode = 1 if(iMode == 1) { ... } else { ... } %>.
 ```
 
-## &lt;>{#<%@-foreach}
+## &lt;>{#foreach}
 
 이 명령을 사용하면 전달에 로드된 객체의 배열에서 반복을 통해 객체와 관련된 개별 링크를 추적할 수 있습니다.
 
