@@ -6,7 +6,7 @@ description: 사용자 지정 구현을 위해 이벤트를 구성하는 방법 
 audience: integrations
 content-type: reference
 translation-type: tm+mt
-source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
+source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 0%
@@ -217,7 +217,7 @@ triggerType 필드는 데이터가 시작되는 트리거를 식별합니다.
 
 >[!NOTE]
 >
->파이프라인 이벤트 노드는 내장되어 있지 않으므로 추가해야 하며 관련 양식을 Campaign에서 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 내용은 다음 섹션을 참조하십시오.[탐색 계층 ](../../configuration/using/about-navigation-hierarchy.md) 및 [양식 편집](../../configuration/using/editing-forms.md).
+>파이프라인 이벤트 노드는 내장되어 있지 않으므로 추가해야 하며 관련 양식을 Campaign에서 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 내용은 다음 섹션을 참조하십시오.[탐색 계층](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy). 및 [양식 편집](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 
