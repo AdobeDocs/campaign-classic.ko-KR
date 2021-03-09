@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
+source-git-commit: e52d1963b72593c5dab8ced9e459d25b05044022
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 9%
@@ -41,7 +41,7 @@ Adobe Campaign의 추적 기능 덕분에에서 전송한 메시지를 추적하
 
 **추적 저장 중**
 
-추적을 구성하고 URL을 채운 후 추적 서버를 등록해야 합니다. [자세히 알아보기](../../installation/using/deploying-an-instance.md#tracking-configuration#saving-tracking)
+추적을 구성하고 URL을 채운 후 추적 서버를 등록해야 합니다. [자세히 알아보기](../../installation/using/deploying-an-instance.md#saving-tracking)
 
 ## 메시지 추적 {#message-tracking}
 
