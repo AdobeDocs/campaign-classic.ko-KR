@@ -7,15 +7,15 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d6993725ed4060f2affce98c4a8a5211bda03bdf
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 2%
+source-wordcount: '123'
+ht-degree: 1%
 
 ---
 
 
-# 에디션{#edition}
+# 캠페인 탐색기 탐색 트리 편집{#edition}
 
 탐색 계층 구성 문서를 만들고 구성하기 위한 화면은 **[!UICONTROL Administration > Configuration > Navigation hierarchies]** 노드를 통해 액세스할 수 있습니다.
 
