@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 2aa1a1c5da7b552cae916885c011aa4aaf9b61db
+source-git-commit: f78fa94fb4fb9236222886a167a46d252497b2aa
 workflow-type: tm+mt
-source-wordcount: '3148'
+source-wordcount: '3131'
 ht-degree: 20%
 
 ---
@@ -40,7 +40,7 @@ Adobe Campaign을 사용하면 SMS 메시지를 대량으로 개인화하여 전
 ### SMPP 외부 계정 {#creating-an-smpp-external-account} 만들기
 
 휴대폰에 SMS를 보내려면 먼저 SMPP 외부 계정을 만들어야 합니다.
-SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [기술 정보](https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html)를 참조하십시오.
+SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](../../delivery/using/sms-protocol.md)를 참조하십시오.
 
 이렇게 하려면 아래 단계를 수행합니다:
 
@@ -56,7 +56,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [기술 정보](ht
 
    >[!CAUTION]
    >
-   > 릴리스 20.2부터 레거시 커넥터는 사용되지 않으며 지원되지 않습니다. **[!UICONTROL Extended generic SMPP]** 커넥터를 사용하는 것이 좋습니다. 권장 커넥터로 마이그레이션하는 방법에 대한 자세한 내용은 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/sms-connector.html)를 참조하십시오.
+   > 릴리스 20.2부터 레거시 커넥터는 사용되지 않으며 지원되지 않습니다. **[!UICONTROL Extended generic SMPP]** 커넥터를 사용하는 것이 좋습니다. 권장 커넥터로 마이그레이션하는 방법에 대한 자세한 내용은 이 [페이지](../../delivery/using/unsupported-connector-migration.md)를 참조하십시오.
 
 1. **[!UICONTROL Enable verbose SMPP traces in the log file]** 옵션을 사용하면 모든 SMPP 트래픽을 로그 파일에 덤프할 수 있습니다. 커넥터의 문제를 해결하고 공급자가 보는 트래픽과 비교하려면 이 옵션을 활성화해야 합니다.
 
@@ -94,7 +94,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [기술 정보](ht
 
    그러나 특정 공급자가 &#39;+&#39; 접두사를 사용해야 하는 경우 공급자에게 확인하는 것이 좋습니다. 필요한 경우 이 옵션을 사용하도록 설정하는 것이 좋습니다.
 
-   **[!UICONTROL Enable TLS over SMPP]** 확인란을 사용하여 SMPP 트래픽을 암호화할 수 있습니다. 자세한 내용은 이 [기술 노트](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)를 참조하십시오.
+   **[!UICONTROL Enable TLS over SMPP]** 확인란을 사용하여 SMPP 트래픽을 암호화할 수 있습니다. 자세한 정보는 이 [페이지](../../delivery/using/sms-protocol.md)를 참조하십시오.
 
 1. **[!UICONTROL Extended generic SMPP]** 커넥터를 구성하는 경우 자동 답글을 설정할 수 있습니다.
 
