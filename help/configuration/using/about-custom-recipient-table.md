@@ -7,15 +7,15 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: 5871674ee26766cf08439768df3fb07ea0f99e7b
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '666'
 ht-degree: 2%
 
 ---
 
 
-# 사용자 지정 수신자 테이블 정보{#about-custom-recipient-table}
+# 사용자 지정 수신자 테이블 사용{#about-custom-recipient-table}
 
 이 섹션에서는 비표준 수신자 테이블을 사용하기 위한 원칙에 대해 자세히 설명합니다.
 
