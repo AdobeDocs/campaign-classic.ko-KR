@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: d6993725ed4060f2affce98c4a8a5211bda03bdf
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 폴더 액세스 관리{#folder-access-management}
 
-트리의 각 폴더에 첨부된 액세스 권한이 읽기, 쓰기 및 삭제됩니다. 파일에 액세스하려면 연산자 또는 연산자 그룹이 파일에 대한 읽기 권한을 적어도 가져야 합니다.
+탐색기 탐색 트리의 각 폴더에는 연결된 액세스 권한이 읽기, 쓰기 및 삭제됩니다. 파일에 액세스하려면 연산자 또는 연산자 그룹이 파일에 대한 읽기 권한을 적어도 가져야 합니다.
 
 ## 폴더에 대한 권한
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-트리의 다른 모든 폴더에서처럼 이러한 폴더에 권한을 부여할 수 있습니다. [폴더 액세스 관리](#folder-access-management)를 참조하십시오.
+탐색기 탐색 트리를 사용자 정의할 수 있습니다. 이 섹션](adobe-campaign-workspace.md)에서 구성 단계 및 우수 사례 [에 대해 알아봅니다.
 
 ### 보기 정보 {#about-views}
 
