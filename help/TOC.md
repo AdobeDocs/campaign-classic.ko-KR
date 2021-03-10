@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: 설명서
 translation-type: tm+mt
-source-git-commit: f170f554935700161c457bb34bace8c403f4262b
+source-git-commit: de017afc1e5d30b561ed2bb7485756f30ef8778a
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2461'
 ht-degree: 56%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 56%
    + [사용되지 않는 기능](rn/using/deprecated-features.md)
    + [호환성 매트릭스](rn/using/compatibility-matrix.md)
    + [기술 정보](technotes/technote.md)
+   + [iOS 인증서 업데이트](technotes/ios-certificate-update.md)
 + 시작 {#getting-started}
    + Adobe Campaign {#starting-with-adobe-campaign}로 시작
       + [Adobe Campaign Classic 시작](platform/using/about-adobe-campaign-classic.md)
