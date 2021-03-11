@@ -6,7 +6,7 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 248c74485e8e5889ca630c8f60ac2fa085204c51
+source-git-commit: 087abb5765b089aa707f3d3a6d33ad0949b26bc8
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 4%
@@ -50,7 +50,7 @@ ht-degree: 4%
 
    새 빌드는 최소 Campaign Classic 17.9 릴리스와 호환되지만 보안 간격을 방지하기 위해 모든 인스턴스를 새 빌드로 업그레이드할 것을 Adobe이 적극 권장합니다. 
 
-* 온-프레미스 고객은 마케팅 및 mid 소싱 인스턴스를 새 빌드로 업그레이드하도록 요청됩니다.
+* 온-프레미스 고객은 마케팅 및 mid 소싱 인스턴스를 최신 빌드로 업그레이드하도록 요청됩니다.
 
 >[!CAUTION]
 >
