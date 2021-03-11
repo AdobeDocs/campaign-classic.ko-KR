@@ -5,7 +5,7 @@ product: campaign
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 832d81c02c590afbe933f9ba63accbc0ba82f180
+source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 54%
@@ -21,7 +21,7 @@ ht-degree: 54%
 
 * **[APNs 인증서 업데이트2021년 3](technotes/ios-certificate-update.md)**<br/> 월 29일에 APNs 업데이트는 캠페인 iOS 채널에 영향을 줍니다. iOS 푸시 채널 중단을 방지하려면 구성을 업데이트해야 합니다.
 
-* **[IMS/Adobe ID을 통해 연결 최신 빌드](integrations/using/about-adobe-id.md)**<br/>로 업그레이드 IMS를 사용하여 Campaign에 연결하는 경우** 2021년 3월 31일 이후 캠페인에 연결할 수 있도록 업그레이드해야 합니다.**
+* **[IMS/Adobe ID을 통해 연결 최신 빌드](integrations/using/about-adobe-id.md)**<br/>로 업그레이드 IMS를 사용하여 캠페인에 연결하는 경우** 2021년 6월 30일 이후 캠페인에 연결할 수 있도록 업그레이드해야 합니다.**
 
 * **[캠페인 인스턴스 보안](https://helpx.adobe.com/kr/campaign/kb/gold-standard-upgrade.html)**<br/> 캠페인 플랫폼을 보호하기 위해 최신 빌드로 업데이트합니다.
 
