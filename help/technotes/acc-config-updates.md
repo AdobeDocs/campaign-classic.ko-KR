@@ -6,10 +6,10 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 87844fae046dff69193d3462c802057499f406ef
+source-git-commit: 248c74485e8e5889ca630c8f60ac2fa085204c51
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 5%
+source-wordcount: '896'
+ht-degree: 4%
 
 ---
 
@@ -69,23 +69,33 @@ IMS(Adobe Identity Service)는 2021년 6월 30일부터 이전 Internet Explorer
 
 **당신은 영향을 받습니까?**
 
-Adobe ID](../integrations/using/about-adobe-id.md)을 통해 IMS(Adobe ID 서비스)를 통해 캠페인 [에 연결하는 경우, 캠페인 서버와 클라이언트 콘솔 모두에서 2021년 6월 30일 이후 **Campaign에 연결할 수 있으려면 위에 나열된 새 버전 중 하나로 업그레이드해야 합니다.**
+IMS(Adobe ID 서비스)를 통해 Adobe ID](../integrations/using/about-adobe-id.md)을 통해 캠페인 [에 연결하는 경우 위에 나열된 새 버전 중 하나로 업그레이드해야 합니다. 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.**2021년 6월 30일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다**.
 
 **업데이트 방법**
 
 호스팅 고객으로서 어떠한 작업도 필요하지 않습니다.Adobe에서 이미 인스턴스를 새 버전으로 업그레이드했습니다.
 
-온-프레미스/하이브리드 고객인 경우 새 클라이언트 콘솔의 혜택을 받고 2021년 3월 31일 이전 **으로 원활하게 전환하도록 하려면 최신 버전 중 하나로 업그레이드해야 합니다.**
+온-프레미스/하이브리드 고객인 경우 새 클라이언트 콘솔의 혜택을 받고 2021년 6월 30일 이전 **으로 원활하게 전환하도록 하려면 최신 버전 중 하나로 업그레이드해야 합니다.**
+
+모든 인스턴스가 업그레이드되면 클라이언트 콘솔도 이 버전으로 업그레이드해야 합니다.
+
+* [Adobe 소프트웨어 배포](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)에 액세스하는 방법을 알아봅니다.
+
+* [캠페인 클라이언트 콘솔을 설치하는 방법을 알아봅니다](../installation/using/installing-the-client-console.md).
 
 ## Experience Cloud 트리거과 통합
 
-레거시 oAuth 인증 서비스가 사용이 중단되었습니다. 2021년 6월 30일에 종료됩니다. [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+레거시 oAuth 인증 서비스가 사용 종료되었습니다. 원래 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 통합 인증이 Adobe I/O으로 이동되었습니다.2021년 6월 30일에 종료됩니다. [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 
 **당신은 영향을 받습니까?**
 
 oAuth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 **Adobe I/O**&#x200B;으로 이동해야 합니다.
 
 **업데이트 방법**
+
+인스턴스가 새 버전으로 업그레이드되면 모든 고객은 [절차를 따라 새 인증 모드](../integrations/using/configuring-adobe-io.md)로 이동해야 합니다. 이를 위해서는 새 Adobe I/O 토큰을 생성하여 구현에서 사용해야 합니다.  
+
+또한 하이브리드 환경의 경우 고객은 mid-sourcing 인스턴스에 파이프라인이 구성되어 있는지 확인해야 합니다. [자세히 알아보기](../integrations/using/configuring-pipeline.md)
 
 [Adobe I/O으로 마이그레이션하는 방법을 알아봅니다](../integrations/using/configuring-adobe-io.md).
 
@@ -119,4 +129,4 @@ Campaign을 사용하여 iOS 장치에서 푸시 알림을 전송하는 경우 �
 
 온-프레미스/하이브리드 고객인 경우 **을 2021년 3월 29일 전에 원활하게 전환하도록 구성을 업데이트해야 합니다**.
 
-[새 인증서를 통합하는 방법 알아보기](ios-certificate-update.md)
+[새 인증서를 통합하는 방법을 알아봅니다](ios-certificate-update.md).
