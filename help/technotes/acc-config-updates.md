@@ -6,7 +6,7 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 93dc5a16ce4880c132f4f91c72794892b00e7259
+source-git-commit: 87844fae046dff69193d3462c802057499f406ef
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 5%
@@ -38,16 +38,17 @@ ht-degree: 5%
 
 최신 캠페인 버전에는 SSRF(Server Side Request 위조) 문제에 대한 보호를 강화하는 보안 픽스가 포함되어 있습니다. 이 페이지](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)에서 [에 대해 자세히 알아보십시오.
 
-### 당신은 영향을 받습니까?
+**당신은 영향을 받습니까?**
 
 환경이 Campaign 21.1보다 낮은 빌드에 있는 경우 영향을 받습니다.
 
-## 업데이트 방법
+**업데이트 방법**
 
 위에 나열된 최신 빌드 중 하나로 업그레이드해야 합니다.
 
 * 하이브리드 고객인 Adobe은 mid-sourcing 인스턴스를 새 버전으로 업그레이드하며 해당 마케팅 인스턴스도 업그레이드하는 것이 좋습니다.
-새 빌드는 최소 Campaign Classic 17.9 릴리스와 호환되지만 보안 간격을 방지하기 위해 모든 인스턴스를 새 빌드로 업그레이드할 것을 Adobe이 적극 권장합니다. 
+
+   새 빌드는 최소 Campaign Classic 17.9 릴리스와 호환되지만 보안 간격을 방지하기 위해 모든 인스턴스를 새 빌드로 업그레이드할 것을 Adobe이 적극 권장합니다. 
 
 * 온-프레미스 고객은 마케팅 및 mid 소싱 인스턴스를 새 빌드로 업그레이드하도록 요청됩니다.
 
@@ -64,13 +65,13 @@ ht-degree: 5%
 
 ## IMS를 통해 캠페인에 연결
 
-IMS(Adobe Identity Service)는 2021년 3월 31일부터 이전 Internet Explorer 버전 지원을 중단할 예정입니다. [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html) 캠페인 콘솔이 IMS와의 호환성을 보장하도록 업데이트되었습니다.
+IMS(Adobe Identity Service)는 2021년 6월 30일부터 이전 Internet Explorer 버전 지원을 중단할 예정입니다. [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html) 캠페인 콘솔이 IMS와의 호환성을 보장하도록 업데이트되었습니다.
 
-### 당신은 영향을 받습니까?
+**당신은 영향을 받습니까?**
 
-Adobe ID](../integrations/using/about-adobe-id.md)을(를) 통해 IMS(Adobe ID 서비스)를 통해 캠페인 [에 연결하는 경우, 캠페인 서버와 클라이언트 콘솔 모두에서 2021년 3월 31일&#x200B;**이후에 캠페인에 연결할 수 있으려면 위에 나열된 새 버전 중 하나로 업그레이드해야 합니다.**
+Adobe ID](../integrations/using/about-adobe-id.md)을 통해 IMS(Adobe ID 서비스)를 통해 캠페인 [에 연결하는 경우, 캠페인 서버와 클라이언트 콘솔 모두에서 2021년 6월 30일 이후 **Campaign에 연결할 수 있으려면 위에 나열된 새 버전 중 하나로 업그레이드해야 합니다.**
 
-### 업데이트 방법
+**업데이트 방법**
 
 호스팅 고객으로서 어떠한 작업도 필요하지 않습니다.Adobe에서 이미 인스턴스를 새 버전으로 업그레이드했습니다.
 
@@ -78,13 +79,13 @@ Adobe ID](../integrations/using/about-adobe-id.md)을(를) 통해 IMS(Adobe ID �
 
 ## Experience Cloud 트리거과 통합
 
-레거시 oAuth 인증 서비스가 사용 종료되었으며 2021년 4월 30일에 종료됩니다. [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+레거시 oAuth 인증 서비스가 사용이 중단되었습니다. 2021년 6월 30일에 종료됩니다. [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 
-### 당신은 영향을 받습니까?
+**당신은 영향을 받습니까?**
 
 oAuth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 **Adobe I/O**&#x200B;으로 이동해야 합니다.
 
-### 업데이트 방법
+**업데이트 방법**
 
 [Adobe I/O으로 마이그레이션하는 방법을 알아봅니다](../integrations/using/configuring-adobe-io.md).
 
@@ -92,11 +93,11 @@ oAuth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 
 
 2021년 3월 31일부로 Apple 푸시 알림 서비스(APNs)는 더 이상 레거시 이진 프로토콜을 지원하지 않습니다. [자세한 내용](https://developer.apple.com/kr/news/?id=c88acm2b).
 
-### 당신은 영향을 받습니까?
+**당신은 영향을 받습니까?**
 
 인스턴스가 Campaign 21.1 이전 버전에서 실행되고 레거시 Apple 이진 프로토콜로 푸시 알림을 전송하는 경우 HTTP/2 기반 APNs 공급자 API로 업데이트해야 합니다.
 
-### 업데이트 방법
+**업데이트 방법**
 
 호스팅 고객으로서 어떠한 작업도 필요하지 않습니다.Adobe에서 이미 인스턴스를 HTTP/2 기반 API로 업데이트했습니다.
 
@@ -108,11 +109,11 @@ oAuth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 
 
 이 페이지](https://developer.apple.com/news/?id=7gx0a2lp)에서 APNs 변경 사항 [에 대해 자세히 알아보십시오.
 
-### 당신은 영향을 받습니까?
+**당신은 영향을 받습니까?**
 
 Campaign을 사용하여 iOS 장치에서 푸시 알림을 전송하는 경우 영향을 받습니다.
 
-### 업데이트 방법
+**업데이트 방법**
 
 호스팅 고객으로서 어떠한 작업도 필요하지 않습니다.Adobe에서 이미 새 루트 인증서를 환경에 통합했습니다.
 
