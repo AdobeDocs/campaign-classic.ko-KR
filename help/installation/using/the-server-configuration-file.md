@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 translation-type: tm+mt
-source-git-commit: 2de8261feda6e64a84bd82e9fb71bc1fddf77113
+source-git-commit: 1bd40c6acaceb1bb4839807ae89c6956bc2b8d69
 workflow-type: tm+mt
-source-wordcount: '7929'
+source-wordcount: '7970'
 ht-degree: 5%
 
 ---
@@ -1690,6 +1690,8 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 ### relay {#relay}
 
 **mta > relay** 노드에서 다음 매개 변수를 구성합니다. 메시지 배달을 위한 메일 서버의 구성입니다.
+
+이 목록은 MX DNS 쿼리에서 반환된 MX 목록과 같은 방식으로 처리됩니다. 일반적으로 첫 번째 MX를 사용할 수 있는 한 사용하고 그 다음 MX를 사용하는 등의 방식으로 처리됩니다.
 
 자세한 내용은 [SMTP relay](../../installation/using/configuring-campaign-server.md#smtp-relay)을 참조하십시오.
 
