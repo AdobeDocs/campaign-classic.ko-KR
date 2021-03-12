@@ -6,9 +6,9 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 26d6e52a03d6123092c811a93612c8d05f75f6fb
+source-git-commit: 74610fa197dd9ef27342e08dd0ba3403c1a9acc0
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '918'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,11 @@ ht-degree: 4%
 
 호스팅 고객인 Adobe은 정기적으로 빌드 업그레이드에 대한 정보를 제공합니다. 규정을 준수하려면 권장 사항에 따라 업그레이드해야 합니다.
 
-온-프레미스/하이브리드 고객인 경우 위에 나열된 버전 중 하나로 업그레이드해야 합니다. 또한 Adobe 또는 제3자 시스템에서 변경될 수 있는 변경 사항에 대비하여 환경이 안전하고 준비되도록 몇 가지 수동 작업을 수행해야 합니다.
+온-프레미스/하이브리드 고객은 위에 나열된 버전 중 하나로 업그레이드해야 합니다. 또한 Adobe 또는 제3자 시스템에서 발생할 수 있는 변경 사항을 위해 환경이 안전하고 준비할 수 있도록 몇 가지 수동 작업을 수행해야 합니다.
+
+>[!NOTE]
+>
+>이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
 ## 보안 업데이트
 
@@ -48,13 +52,13 @@ ht-degree: 4%
 
 * 하이브리드 고객인 Adobe은 mid-sourcing 인스턴스를 새 버전으로 업그레이드하며 해당 마케팅 인스턴스도 업그레이드하는 것이 좋습니다.
 
-   새 빌드는 최소 Campaign Classic 17.9 릴리스와 호환되지만 보안 간격을 방지하기 위해 모든 인스턴스를 새 빌드로 업그레이드할 것을 Adobe이 적극 권장합니다. 
+   새 빌드는 최소 Campaign Classic 17.9 릴리스와 호환되지만 보안 격차를 방지하기 위해 모든 인스턴스를 새 빌드로 업그레이드할 것을 Adobe에서 적극 권장합니다. 
 
 * 온-프레미스 고객은 마케팅 및 mid 소싱 인스턴스를 최신 빌드로 업그레이드하도록 요청됩니다.
 
 >[!CAUTION]
 >
->지금 업그레이드할 수 없는 경우 **Adobe 고객 지원 센터에 연락하여 인스턴스**&#x200B;에 대한 보안 픽스를 수동으로 적용해야 합니다.
+>지금 업그레이드할 수 없는 경우 **Adobe 고객 지원 센터에 문의하여 인스턴스**&#x200B;에 대한 보안 픽스를 수동으로 적용해야 합니다.
 
 
 ## 캠페인 클라이언트 콘솔 업데이트
@@ -69,7 +73,7 @@ IMS(Adobe Identity Service)는 2021년 6월 30일부터 이전 Internet Explorer
 
 **당신은 영향을 받습니까?**
 
-IMS(Adobe ID 서비스)를 통해 Adobe ID](../integrations/using/about-adobe-id.md)을 통해 캠페인 [에 연결하는 경우 위에 나열된 새 버전 중 하나로 업그레이드해야 합니다. 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.**2021년 6월 30일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다**.
+IMS(Adobe ID 서비스)를 통해 Adobe ID](../integrations/using/about-adobe-id.md)을 통해 캠페인 [에 연결하는 경우 위에 나열된 새 버전 중 하나로 업그레이드해야 합니다. 이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다.**2021년 6월 30일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다**.
 
 **업데이트 방법**
 
