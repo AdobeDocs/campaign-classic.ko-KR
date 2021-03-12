@@ -6,9 +6,9 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: df04057716726a74196add3fbc400fffaca26fc9
+source-git-commit: 26d6e52a03d6123092c811a93612c8d05f75f6fb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '905'
 ht-degree: 4%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 이러한 빌드는 특정 캠페인 서비스의 연속성을 보장합니다.Experience Cloud 트리거 통합, APNs 인증 및 Adobe Identity Management 서비스(IMS) 인증 메커니즘에 영향을 주는 새 연결 프로토콜.
 
-호스팅 고객으로서 어떠한 작업도 필요하지 않습니다.Adobe은 사용자에 대한 빌드 업그레이드 및 구성 업데이트를 소유합니다.
+호스팅 고객인 Adobe은 정기적으로 빌드 업그레이드에 대한 정보를 제공합니다. 규정을 준수하려면 권장 사항에 따라 업그레이드해야 합니다.
 
 온-프레미스/하이브리드 고객인 경우 위에 나열된 버전 중 하나로 업그레이드해야 합니다. 또한 Adobe 또는 제3자 시스템에서 변경될 수 있는 변경 사항에 대비하여 환경이 안전하고 준비되도록 몇 가지 수동 작업을 수행해야 합니다.
 
