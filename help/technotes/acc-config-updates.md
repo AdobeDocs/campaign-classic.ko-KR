@@ -6,9 +6,9 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 74610fa197dd9ef27342e08dd0ba3403c1a9acc0
+source-git-commit: c9e3d12f8975b2c87f6f4aaf306fae71803786ad
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '941'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 **당신은 영향을 받습니까?**
 
-환경이 Campaign 21.1보다 낮은 빌드에 있는 경우 영향을 받습니다.
+환경이 Campaign 19.1.8, 19.2.4, 20.1.4, 20.2.4, 20.3.3 또는 Gold Standard 11보다 빌드가 낮은 경우 영향을 받습니다.
 
 **업데이트 방법**
 
@@ -66,6 +66,11 @@ ht-degree: 4%
 최신 Gold Standard 11 빌드는 배달에서 날짜 선택기 및 이미지 관리와 같은 콘솔의 일부 구성 요소를 사용할 수 없는 회귀 현상을 수정합니다. 콘솔 업그레이드는 필수입니다.
 
 [자세히 알아보기](../rn/using/gold-standard.md)
+
+
+>[!NOTE]
+>
+>다른 버전에 대한 업데이트는 곧 제공될 예정입니다.
 
 ## IMS를 통해 캠페인에 연결
 
@@ -93,7 +98,7 @@ IMS(Adobe ID 서비스)를 통해 Adobe ID](../integrations/using/about-adobe-id
 
 **당신은 영향을 받습니까?**
 
-oAuth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 **Adobe I/O**&#x200B;으로 이동해야 합니다.
+환경이 Campaign 19.1.8, 20.2.4, Gold Standard 11보다 빌드가 낮은 경우 이전 버전의 트리거 통합을 oAuth 인증을 통해 사용합니다.**Adobe I/O**&#x200B;으로 이동해야 합니다.
 
 **업데이트 방법**
 
