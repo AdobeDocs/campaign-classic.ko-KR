@@ -7,22 +7,26 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 151667637a12667f5eda1590e64e01de493be9ce
+source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 0%
+source-wordcount: '214'
+ht-degree: 6%
 
 ---
 
 
-# 개인화된 링크 추적 시작: {#tracking-personalized-links}
+# 개인화된 링크 추적 시작 {#tracking-personalized-links}
 
 개인화가 포함된 이메일 컨텐츠의 링크는 특정 구문을 추적해야 합니다.
 
 이메일 컨텐츠(HTML 또는 텍스트)에서 JavaScript를 사용하면 2가지 제한 사항과 함께 동적 컨텐츠를 생성하고 수신자에게 전송할 수 있습니다.
 
 * 스크립트가 데이터베이스에 직접 액세스할 수 없습니다(SQL 함수 및 API 함수를 사용할 수 없음).
-* Adobe Campaign은 링크를 추적할 수 있도록 URL을 감지할 수 있어야 합니다(이 문서의 목적).
+* Adobe Campaign은 링크를 추적할 수 있도록 URL을 감지할 수 있어야 합니다. [자세히 알아보기](detecting-tracking-urls.md)
+
+이러한 URL에 [특정 사전 처리 지침](pre-processing-instructions.md)을 추가할 수 있습니다.
+
+사전 처리 지침을 따릅니다.
 
 추적 감지를 위해 Adobe Campaign은 [Dilt](http://www.html-tidy.org/)을 포함하여 HTML 소스를 파싱하고 패턴을 검색합니다. 컨텐츠의 모든 URL이 나열되므로 개별적으로 추적할 수 있습니다. Adobe Campaign에서는 다시 [정리]를 사용하여 URL(`http://myurl.com`)을 Adobe Campaign 리디렉션 서버를 가리키는 URL로 바꿉니다.
 
