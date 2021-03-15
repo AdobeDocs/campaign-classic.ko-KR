@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 3454af2faffacd43fa1ad852529dad175340a237
+source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # 사전 처리 지침 {#pre-processing-instructions}
 
-&lt;%@ 지침은 JavaScript가 아닙니다. 이 구문은 Adobe Campaign에만 적용됩니다.
+전달 내용에서 특정 구문을 사용하여 지침을 추가하고 추적된 이메일의 URL을 스크립팅할 수 있습니다. &lt;%@ 지침은 JavaScript가 아닙니다.이 구문은 Adobe Campaign에만 적용됩니다.
 
 배달 컨텐츠 컨텍스트에서만 적용됩니다. URL 매개 변수 외에도 이메일의 URL을 스크립팅하고 계속 추적하는 유일한 방법입니다. 추적할 링크를 감지하기 전에 배달 분석 중에 적용된 자동 복사/붙여넣기로 볼 수 있습니다.
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 전달 마법사에서 직접 테스트할 수 있습니다. 이 URL은 컨텐츠 미리 보기에 적용되고 추적 단추를 클릭하면 URL 목록을 볼 수 있습니다.
 
-## &lt;>{#include}
+## [!DNL include] {#include}
 
 다음은 가장 일반적으로 사용되는 예입니다.
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 전달 마법사의 개인화 단추를 사용하여 올바른 구문을 가져옵니다.
 
-## &lt;>{#value}
+## [!DNL value] {#value}
 
 이 명령을 사용하면 모든 받는 사람에게 일정인 전달 매개 변수에 액세스할 수 있습니다.
 
@@ -53,18 +53,16 @@ ht-degree: 1%
 
 위치:
 
-* &quot;개체&quot;:객체의 이름(예:배달, 공급자 등).
-* &quot;xpath&quot;:필드의 xpath입니다.
-* &quot;index&quot;(선택 사항):&quot;object&quot;가 배열(추가 스크립트 객체의 경우)이면 배열의 항목 인덱스(0부터 시작)입니다.
-
+* **[!DNL object]**:객체의 이름(예:배달, 공급자 등).
 개체는 다음과 같습니다.
+   * &quot;전달&quot;:현재 배달을 참조하십시오(아래 하위 섹션의 세부 사항 및 제한 사항 참조).
+   * &quot;공급자&quot;:현재 배달 공급자/경로 지정(nms:externalAccount)에 대해 지정합니다.
+   * 추가 스크립트 개체:객체를 다음 방법으로 컨텍스트에서 로드한 경우&#x200B;**속성** > **개인화** > **실행 컨텍스트에 개체 추가**.
+   * 예측 루프의 항목:아래의 [예측](#foreach) 섹션을 참조하십시오.
+* **[!DNL xpath]**:필드의 xpath입니다.
+* **[!DNL index]** (선택 사항):배열 **[!DNL object]** 인 경우(추가 스크립트 객체의 경우) 배열의 항목 인덱스(0부터 시작)입니다.
 
-* &quot;전달&quot;:현재 배달을 참조하십시오(아래 하위 섹션의 세부 사항 및 제한 사항 참조).
-* &quot;공급자&quot;:현재 배달 공급자/경로 지정(nms:externalAccount)에 대해 지정합니다.
-* 추가 스크립트 개체:객체를 다음 방법으로 컨텍스트에서 로드한 경우&#x200B;**속성** > **개인화** > **실행 컨텍스트에 개체 추가**.
-* 예측 루프의 항목:아래의 [예측](#foreach) 섹션을 참조하십시오.
-
-### &quot;전달&quot; 개체 {#delivery-object}
+### [!DNL delivery] 개체 {#delivery-object}
 
 이메일 개인화의 경우 다음 두 가지 방법으로 전달 개체에 액세스할 수 있습니다.
 
@@ -82,9 +80,9 @@ ht-degree: 1%
 >
 >`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
-### &lt;>{#value-in-javascript}
+### [!DNL value] javascript 섹션  {#value-in-javascript}
 
-스크립트 섹션에서 &lt;%@ 값을 사용할 수 있도록 두 개의 특수 객체가 &lt;% 및 %>로 대체됩니다.
+Javascript 섹션에서 &lt;%@ 값을 사용할 수 있도록 두 개의 특수 개체가 &lt;% 및 %>로 대체됩니다.
 
 * `<%@ value object='startScript' %>`
 * `<%@ value object='endScript' %>`
@@ -96,7 +94,7 @@ ht-degree: 1%
 `<%@ value object='endScript' %> is expanded in something like <% var iMode = 1 if(iMode == 1) { ... } else { ... } %>.
 ```
 
-## &lt;>{#foreach}
+## [!DNL foreach] {#foreach}
 
 이 명령을 사용하면 전달에 로드된 객체의 배열에서 반복을 통해 객체와 관련된 개별 링크를 추적할 수 있습니다.
 
