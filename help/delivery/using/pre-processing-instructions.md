@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
+source-git-commit: 7a58da8fd20abbff9dcf8361536310de49a7905f
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '642'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 1%
 
 다음 3가지 유형의 지침이 있습니다.
 
-* &quot;**include**&quot;:옵션, 개인화 블록, 외부 파일 또는 페이지의 일부 코드 요인
-* &quot;**value**&quot;:배달에서 로드된 배달, 배달 변수 및 사용자 지정 개체에 대한 액세스 권한을 부여하려면
-* &quot;**예측**&quot;:를 클릭하여 사용자 지정 객체로 로드된 배열을 루프합니다.
+* **[!DNL include]**:주로 옵션, 개인화 블록, 외부 파일 또는 페이지의 일부 코드를 요인 화합니다. [자세히 알아보기](#include)
+* &quot;**[!DNL value]**&quot;:배달에서 로드된 배달, 배달 변수 및 사용자 지정 개체에 대한 액세스 권한을 제공합니다. [자세히 알아보기](#value)
+* &quot;**[!DNL foreach]**&quot;:를 클릭하여 사용자 지정 객체로 로드된 배열을 루프합니다. [자세히 알아보기](#foreach)
 
 전달 마법사에서 직접 테스트할 수 있습니다. 이 URL은 컨텐츠 미리 보기에 적용되고 추적 단추를 클릭하면 URL 목록을 볼 수 있습니다.
 
@@ -33,15 +33,33 @@ ht-degree: 1%
 
 다음은 가장 일반적으로 사용되는 예입니다.
 
-* 미러 페이지 링크 포함:`<%@ include view="MirrorPage" %>`
-* 페이지 URL 미러:&quot;`<a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page"`(으)로 보기
-* 기본 구독 취소 URL:`<%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>`
-* 기타 예:
-   * `<%@ include file='http://www.google.com' %>`
-   * `<%@ include file='file:///X:/france/service/test.html' %>`
-   * `<%@ include option='NmsServer_URL' %>`
+* 미러 페이지 링크 포함:
 
-전달 마법사의 개인화 단추를 사용하여 올바른 구문을 가져옵니다.
+   ```
+   <%@ include view="MirrorPage" %>  
+   ```
+
+* 페이지 URL 미러:
+
+   ```
+   View as a <a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page.
+   ```
+
+* 기본 구독 취소 URL:
+
+   ```
+   <%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>
+   ```
+
+* 기타 예:
+
+   ```
+   <%@ include file='http://www.google.com' %>
+   <%@ include file='file:///X:/france/service/test.html' %>
+   <%@ include option='NmsServer_URL' %>
+   ```
+
+   전달 마법사의 개인화 단추를 사용하여 올바른 구문을 가져옵니다.
 
 ## [!DNL value] {#value}
 
@@ -49,7 +67,9 @@ ht-degree: 1%
 
 구문:
 
-`<%@ value object="myObject" xpath="@myField" index="1" %>`
+```
+<%@ value object="myObject" xpath="@myField" index="1" %>
+```
 
 위치:
 
@@ -66,19 +86,30 @@ ht-degree: 1%
 
 이메일 개인화의 경우 다음 두 가지 방법으로 전달 개체에 액세스할 수 있습니다.
 
-* JavaScript에서. 예제: `<%= delivery.myField %>`.
+* JavaScript 사용:
+
+   ```
+   <%= delivery.myField %>`.
+   ```
 
    JavaScript 개체 배달 사용자 정의 필드는 지원되지 않습니다. MTA는 기본 제공 스키마에만 액세스할 수 있으므로 MTA에서는 미리 보기에서 작동하지만 MTA에서는 작동하지 않습니다.
 
-* `<%@ value object="delivery"` 사전 처리를 통해
+* 사전 처리 사용:
 
-`<%@ value object="delivery" xpath="@myCustomField" %>` 지시사항에 대해 중간 소싱을 통해 전송된 납품에 대한 또 다른 제한이 있습니다. 사용자 지정 필드 @myCustomField은 마케팅 및 중간 소싱 플랫폼 모두에서 nms:delivery 스키마에 추가해야 합니다.
+   ```
+   <%@ value object="delivery"
+   ```
+
 
 >[!NOTE]
 >
->배달 매개 변수/변수의 경우 다음 구문을 사용합니다(전달 객체 사용).
+>* `<%@ value object="delivery" xpath="@myCustomField" %>` 지시사항에 대해 중간 소싱을 통해 전송된 납품에 대한 또 다른 제한이 있습니다. 사용자 지정 필드 @myCustomField은 마케팅 및 중간 소싱 플랫폼 모두에서 nms:delivery 스키마에 추가해야 합니다.
+   >
+   >
+* 배달 매개 변수/변수의 경우 다음 구문을 사용합니다(전달 객체 사용).
 >
->`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
+>
+`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
 ### [!DNL value] javascript 섹션  {#value-in-javascript}
 
@@ -100,14 +131,16 @@ Javascript 섹션에서 &lt;%@ 값을 사용할 수 있도록 두 개의 특수 
 
 구문:
 
-`<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>`
+```
+<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>
+```
 
 위치:
 
-* &quot;개체&quot;:시작할 객체의 이름(일반적으로 추가 스크립트 객체)이지만 배달일 수 있습니다.
-* &quot;xpath&quot;(선택 사항):반복할 컬렉션의 xpath입니다. 기본값은 &quot;.&quot;입니다. 즉, 객체가 루프할 배열입니다.
-* &quot;index&quot;(선택 사항):xpath가 &quot;&quot;이(가) 아닌 경우 및 개체는 배열 자체이며 객체의 항목 인덱스입니다(0부터 시작).
-* &quot;item&quot;(선택 사항):예측 루프 내에 &lt;%@ 값을 사용하여 액세스할 수 있는 새 개체의 이름입니다. 스키마에 링크 이름이 있는 기본값입니다.
+* **[!DNL object]**:시작할 객체의 이름(일반적으로 추가 스크립트 객체)이지만 배달일 수 있습니다.
+* **[!DNL xpath]** (선택 사항):반복할 컬렉션의 xpath입니다. 기본값은 &quot;.&quot;입니다. 즉, 객체가 루프할 배열입니다.
+* **[!DNL index]** (선택 사항):xpath가 &quot;&quot;이(가) 아닌 경우 및 개체는 배열 자체이며 객체의 항목 인덱스입니다(0부터 시작).
+* **[!DNL item]** (선택 사항):액세스 가능한 새 개체의 이름  &lt;> 스키마에 링크 이름이 있는 기본값입니다.
 
 예제:
 
