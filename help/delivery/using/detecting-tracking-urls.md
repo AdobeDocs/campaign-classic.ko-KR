@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: 추적 URL 감지
-description: URL을 추적하는 권장 패턴에 대해 자세히 알아보십시오.
+description: URL을 추적하는 권장 패턴에 대해 자세히 알아보기
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 151667637a12667f5eda1590e64e01de493be9ce
+source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 2%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 0%
 >
 >다른 모든 패턴은 Adobe에서 지원되지 않으므로 잠재적인 보안 격차를 방지해야 합니다.
 
-## http://&lt;%=myURL%> 패턴에 대한 경고
+## 비보안 패턴
 
-`<a href="http://<%=myURL%>">` 구문은 안전하지 않으므로 다음과 같은 이유로 권장되지 않습니다.
+콘텐츠에 개인화된 링크를 추가할 때 잠재적인 보안 격차를 방지하기 위해 항상 URL의 호스트 이름 부분에 개인화를 사용하지 마십시오. [이 페이지](../../installation/using/privacy.md#url-personalization)에서 자세히 알아보십시오.
 
+예를 들어 `<a href="http://<%=myURL%>">` 구문은 **안전하지 않은**&#x200B;이므로 사용하지 않아야 합니다.
+
+* Adobe Campaign에서 생성한 링크에 하나 이상의 매개 변수가 포함되어 있으면 이 구문을 사용하면 보안 문제가 발생할 수 있습니다.
 * Clean은 임의로 발생할 수 있는 일부 링크를 잘못 패치할 수 있습니다. 일반적인 증상은 이메일 교정쇄에는 표시되지만 미리 보기에서는 표시되지 않는 HTML입니다.
 * URL을 이스케이프하는 데 문제가 있고 URL의 일부 문자로 인해 문제가 발생할 수 있습니다.
 * 리디렉션 URL에서 매개 변수와 충돌하는 ID라는 매개 변수는 사용할 수 없습니다.
-* 그러면 Adobe Campaign이 &quot;myURL&quot;의 모든 가능한 값을 다르게 추적하므로, 추적의 관심사는 전달에 대한 통계로 제한됩니다.
-
-자세한 내용은 [이 페이지](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy)를 참조하십시오.
-
+* 그러면 Adobe Campaign이 &quot;myURL&quot;의 모든 가능한 값을 다르게 추적하므로, 추적의 관심 사항은 전달에 대한 통계로 제한됩니다.
