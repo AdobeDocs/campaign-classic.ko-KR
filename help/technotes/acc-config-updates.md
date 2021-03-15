@@ -6,10 +6,10 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 504a948daa60155b7c4970be24bd6d2049e5395b
+source-git-commit: 1233eef1d7b454daea021e1e3077890284813d9a
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 6%
+source-wordcount: '1026'
+ht-degree: 7%
 
 ---
 
@@ -105,7 +105,15 @@ IMS(Adobe ID 서비스)를 통해 Adobe ID](../integrations/using/about-adobe-id
 
 **당신은 영향을 받습니까?**
 
-인스턴스가 캠페인 19.1.8, 20.2.4, Gold Standard 11 **보다 이전 버전에서 실행 중인 경우, 이전 버전의 트리거 통합을 oAuth 인증을 통해 사용하고 있습니다.** Adobe I/O **으로 이동해야 합니다.**
+인스턴스가 캠페인 19.1.8, 20.2.4, Gold Standard 11 **보다 이전 버전에서 실행 중인 경우, 이전 버전의 트리거 통합을 oAuth 인증을 통해 사용하고 있습니다.**&#x200B;새 버전으로 업그레이드하고 Adobe I/O **으로 이동해야 합니다.**
+
+아래 나열된 새 버전 중 하나로 업그레이드해야 합니다.
+
+* Gold Standard 11. [자세히 알아보기](../rn/using/gold-standard.md)
+* 캠페인 21.1.1 릴리스. [자세히 알아보기](../rn/using/latest-release.md)
+* 캠페인 20.3.3 릴리스. [자세히 알아보기](../rn/using/release--20-3.md)
+* 캠페인 20.2.4 릴리스. [자세히 알아보기](../rn/using/release--20-2.md)
+* 캠페인 19.1.8 릴리스. [자세히 알아보기](../rn/using/release--19-1.md)
 
 **업데이트 방법**
 
