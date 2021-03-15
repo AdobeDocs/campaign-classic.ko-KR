@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
+source-git-commit: 6b81d0ea22bf9d8f33e486535b4ce02fbae7b9ae
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 6%
+source-wordcount: '219'
+ht-degree: 7%
 
 ---
 
@@ -24,9 +24,7 @@ ht-degree: 6%
 * 스크립트가 데이터베이스에 직접 액세스할 수 없습니다(SQL 함수 및 API 함수를 사용할 수 없음).
 * Adobe Campaign은 링크를 추적할 수 있도록 URL을 감지할 수 있어야 합니다. [자세히 알아보기](detecting-tracking-urls.md)
 
-이러한 URL에 [특정 사전 처리 지침](pre-processing-instructions.md)을 추가할 수 있습니다.
-
-사전 처리 지침을 따릅니다.
+특정 사전 처리 지침을 추가하여 URL을 스크립팅하고 추적할 수 있습니다. [자세히 알아보기](pre-processing-instructions.md)
 
 추적 감지를 위해 Adobe Campaign은 [Dilt](http://www.html-tidy.org/)을 포함하여 HTML 소스를 파싱하고 패턴을 검색합니다. 컨텐츠의 모든 URL이 나열되므로 개별적으로 추적할 수 있습니다. Adobe Campaign에서는 다시 [정리]를 사용하여 URL(`http://myurl.com`)을 Adobe Campaign 리디렉션 서버를 가리키는 URL로 바꿉니다.
 
