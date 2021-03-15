@@ -6,10 +6,10 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: c9e3d12f8975b2c87f6f4aaf306fae71803786ad
+source-git-commit: 1a7ec4899bc0fab3935c25918c586a20afb88d1a
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 4%
+source-wordcount: '974'
+ht-degree: 5%
 
 ---
 
@@ -63,18 +63,17 @@ ht-degree: 4%
 
 ## 캠페인 클라이언트 콘솔 업데이트
 
-최신 Gold Standard 11 빌드는 배달에서 날짜 선택기 및 이미지 관리와 같은 콘솔의 일부 구성 요소를 사용할 수 없는 회귀 현상을 수정합니다. 콘솔 업그레이드는 필수입니다.
+최신 Gold Standard 11 빌드는 배달에서 날짜 선택기 및 이미지 관리와 같은 클라이언트 콘솔의 일부 구성 요소의 사용을 방해하는 회귀 현상을 수정합니다. 콘솔 업그레이드는 필수입니다.
 
 [자세히 알아보기](../rn/using/gold-standard.md)
 
-
 >[!NOTE]
 >
->다른 버전에 대한 업데이트는 곧 제공될 예정입니다.
+>다른 버전에 대한 새 클라이언트 콘솔을 곧 사용할 수 있습니다.
 
 ## IMS를 통해 캠페인에 연결
 
-IMS(Adobe Identity Service)는 2021년 6월 30일부터 이전 Internet Explorer 버전 지원을 중단할 예정입니다. [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html) 캠페인 콘솔이 IMS와의 호환성을 보장하도록 업데이트되었습니다.
+IMS(Adobe Identity Service)는 2021년 6월 30일부터 이전 Internet Explorer 버전 지원을 중단합니다&#x200B;**.** [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html) Adobe IMS와 호환되도록 캠페인 클라이언트 콘솔을 업데이트했습니다.
 
 **당신은 영향을 받습니까?**
 
@@ -90,7 +89,7 @@ IMS(Adobe ID 서비스)를 통해 Adobe ID](../integrations/using/about-adobe-id
 
 * [Adobe 소프트웨어 배포](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)에 액세스하는 방법을 알아봅니다.
 
-* [캠페인 클라이언트 콘솔을 설치하는 방법을 알아봅니다](../installation/using/installing-the-client-console.md).
+* [캠페인 클라이언트 콘솔 설치 방법에 대해 알아봅니다](../installation/using/installing-the-client-console.md).
 
 ## Experience Cloud 트리거과 통합
 
@@ -110,7 +109,7 @@ IMS(Adobe ID 서비스)를 통해 Adobe ID](../integrations/using/about-adobe-id
 
 ## HTTP/2 기반 APNs 공급자 API
 
-2021년 3월 31일부로 Apple 푸시 알림 서비스(APNs)는 더 이상 레거시 이진 프로토콜을 지원하지 않습니다. [자세한 내용](https://developer.apple.com/kr/news/?id=c88acm2b).
+APNs(Apple Push Notification 서비스)는 **2021년 3월 31일**&#x200B;에 따라 레거시 이진 프로토콜을 더 이상 지원하지 않습니다. [자세한 내용](https://developer.apple.com/kr/news/?id=c88acm2b).
 
 **당신은 영향을 받습니까?**
 
@@ -139,3 +138,11 @@ Campaign을 사용하여 iOS 장치에서 푸시 알림을 전송하는 경우 �
 온-프레미스/하이브리드 고객인 경우 **을 2021년 3월 29일 전에 원활하게 전환하도록 구성을 업데이트해야 합니다**.
 
 [새 인증서를 통합하는 방법을 알아봅니다](ios-certificate-update.md).
+
+
+## 유용한 링크
+
+* [환경 업그레이드](../production/using/build-upgrade.md)
+* [업그레이드 FAQ 구축](../platform/using/faq-build-upgrade.md)
+* [Campaign Classic 빌드 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [사용자가 새 클라이언트 콘솔을 사용할 수 있도록 설정](../installation/using/client-console-availability-for-windows.md)
