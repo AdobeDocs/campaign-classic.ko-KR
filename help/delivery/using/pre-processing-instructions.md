@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 7a58da8fd20abbff9dcf8361536310de49a7905f
+source-git-commit: 8aab4bc23d688aa225cfc636936cf2835840e410
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 1%
@@ -24,8 +24,8 @@ ht-degree: 1%
 다음 3가지 유형의 지침이 있습니다.
 
 * **[!DNL include]**:주로 옵션, 개인화 블록, 외부 파일 또는 페이지의 일부 코드를 요인 화합니다. [자세히 알아보기](#include)
-* &quot;**[!DNL value]**&quot;:배달에서 로드된 배달, 배달 변수 및 사용자 지정 개체에 대한 액세스 권한을 제공합니다. [자세히 알아보기](#value)
-* &quot;**[!DNL foreach]**&quot;:를 클릭하여 사용자 지정 객체로 로드된 배열을 루프합니다. [자세히 알아보기](#foreach)
+* **[!DNL value]**:배달에서 로드된 배달, 배달 변수 및 사용자 지정 개체에 대한 액세스 권한을 제공합니다. [자세히 알아보기](#value)
+* **[!DNL foreach]**:를 클릭하여 사용자 지정 객체로 로드된 배열을 루프합니다. [자세히 알아보기](#foreach)
 
 전달 마법사에서 직접 테스트할 수 있습니다. 이 URL은 컨텐츠 미리 보기에 적용되고 추적 단추를 클릭하면 URL 목록을 볼 수 있습니다.
 
@@ -75,8 +75,8 @@ ht-degree: 1%
 
 * **[!DNL object]**:객체의 이름(예:배달, 공급자 등).
 개체는 다음과 같습니다.
-   * &quot;전달&quot;:현재 배달을 참조하십시오(아래 하위 섹션의 세부 사항 및 제한 사항 참조).
-   * &quot;공급자&quot;:현재 배달 공급자/경로 지정(nms:externalAccount)에 대해 지정합니다.
+   * **[!DNL delivery]**:현재 배달을 참조하십시오(아래 하위 섹션의 세부 사항 및 제한 사항 참조).
+   * **[!DNL provider]**:현재 배달 공급자/경로 지정(nms:externalAccount)에 대해 지정합니다.
    * 추가 스크립트 개체:객체를 다음 방법으로 컨텍스트에서 로드한 경우&#x200B;**속성** > **개인화** > **실행 컨텍스트에 개체 추가**.
    * 예측 루프의 항목:아래의 [예측](#foreach) 섹션을 참조하십시오.
 * **[!DNL xpath]**:필드의 xpath입니다.
@@ -101,22 +101,28 @@ ht-degree: 1%
    ```
 
 
->[!NOTE]
->
->* `<%@ value object="delivery" xpath="@myCustomField" %>` 지시사항에 대해 중간 소싱을 통해 전송된 납품에 대한 또 다른 제한이 있습니다. 사용자 지정 필드 @myCustomField은 마케팅 및 중간 소싱 플랫폼 모두에서 nms:delivery 스키마에 추가해야 합니다.
-   >
-   >
-* 배달 매개 변수/변수의 경우 다음 구문을 사용합니다(전달 객체 사용).
->
->
-`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
+**주의 사항**
+
+mid-sourcing을 통해 전송된 납품에 대해 다음 지침을 사용하는 경우, 사용자 지정 필드 **@myCustomField**&#x200B;을 마케팅 및 중간 소싱 플랫폼 모두에서 nms:delivery 스키마에 추가해야 합니다.
+
+```
+<%@ value object="delivery" xpath="@myCustomField" %>
+```
+
+배달 매개 변수/변수의 경우 다음 구문을 사용합니다(전달 객체 사용).
+
+```
+<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>
+```
 
 ### [!DNL value] javascript 섹션  {#value-in-javascript}
 
 Javascript 섹션에서 &lt;%@ 값을 사용할 수 있도록 두 개의 특수 개체가 &lt;% 및 %>로 대체됩니다.
 
-* `<%@ value object='startScript' %>`
-* `<%@ value object='endScript' %>`
+```
+<%@ value object='startScript' %>
+<%@ value object='endScript' %>
+```
 
 예제:
 
