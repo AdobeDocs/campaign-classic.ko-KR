@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25673f33c626edd5b7f4c7ba240364b3ea8d616a
+source-git-commit: 42166334d361ffdac13842cd9d07ca7c9859bbb2
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '580'
 ht-degree: 6%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->oAuth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 **아래 설명에 따라 Adobe I/O으로 이동해야 합니다.** 레거시 oAuth 인증 모드는 2021년 4월 30일에 종료됩니다. [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>oAuth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 **아래 설명에 따라 Adobe I/O으로 이동해야 합니다.** 레거시 oAuth 인증 모드는 **2021년 4월 30일**&#x200B;에 종료됩니다. [자세히 알아보기](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)
 >
->이 Adobe I/O으로 이동하는 동안 일부 수신 트리거가 손실될 수 있습니다.
+>이 이동 중에 [!DNL Adobe I/O](으)로 들어오는 일부 트리거가 손실될 수 있습니다.
 
 ## 사전 요구 사항 {#adobe-io-prerequisites}
 
@@ -36,7 +36,7 @@ ht-degree: 6%
 
 ## 1단계:Adobe I/O 프로젝트 {#creating-adobe-io-project} 만들기/업데이트
 
-1. Adobe I/O에 액세스하고 IMS 조직에 대한 시스템 관리자 권한으로 로그인합니다.
+1. [!DNL Adobe I/O]에 액세스하고 IMS 조직에 대해 시스템 관리자 권한으로 로그인합니다.
 
    >[!NOTE]
    >
@@ -66,17 +66,22 @@ ht-degree: 6%
 
 1. 클라이언트 ID가 비어 있는 경우 **[!UICONTROL Generate a key pair]**&#x200B;을 선택하여 공개 및 개인 키 쌍을 만듭니다.
 
+   그러면 키는 기본 만료 날짜인 365일과 함께 자동으로 다운로드됩니다. 만료되면 새 키 쌍을 만들고 구성 파일의 통합을 업데이트해야 합니다. 옵션 2를 사용하여 더 긴 만료 날짜를 사용하여 **[!UICONTROL Public key]**&#x200B;을(를) 수동으로 만들고 업로드할 수 있습니다.
+
    ![](assets/do-not-localize/adobe_io_4.png)
 
-1. 공개 키를 업로드하고 **[!UICONTROL Next]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/do-not-localize/adobe_io_5.png)
 
-1. **Analytics-&lt; 조직 이름 >**&#x200B;이라는 제품 프로필을 선택하고 **[!UICONTROL Save configured API]**&#x200B;를 클릭합니다.
+1. 기존 **[!UICONTROL Product profile]**&#x200B;을 선택하거나 필요한 경우 새 을 만듭니다. 그런 다음 **[!UICONTROL Save configured API]**&#x200B;을 클릭합니다.
+
+   [!DNL Analytics] **[!UICONTROL Product Profiles]**&#x200B;에 대한 자세한 내용은 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console)를 참조하십시오.
 
    ![](assets/do-not-localize/adobe_io_6.png)
 
-1. 프로젝트에서 **[!UICONTROL Service Account (JWT)]**&#x200B;을 선택하고 다음 정보를 복사합니다.
+1. 프로젝트에서 **[!UICONTROL Adobe Analytics]**&#x200B;을 선택하고 **[!UICONTROL Service Account (JWT)]** 아래에 다음 정보를 복사합니다.
+
    * **[!UICONTROL Client ID]**
    * **[!UICONTROL Client Secret]**
    * **[!UICONTROL Technical account ID]**
@@ -96,9 +101,17 @@ Adobe Campaign에서 프로젝트 자격 증명을 추가하려면 Adobe Campaig
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
 ```
 
->[!NOTE]
->
->개인 키는 base64 UTF-8 형식으로 인코딩해야 합니다. 개인 키를 제외하고 인코딩 전에 키에서 새 행을 제거해야 합니다. 비공개 키는 통합을 만드는 데 사용한 키와 동일해야 합니다. 개인 키의 base64 인코딩을 테스트하려면 [이 웹 사이트](https://www.base64encode.org/)를 사용할 수 있습니다.
+개인 키는 base64 UTF-8 형식으로 인코딩해야 합니다. 방법은 다음과 같습니다.
+
+1. [1단계에서 생성된 개인 키를 사용합니다.Adobe I/O 프로젝트 섹션](#creating-adobe-io-project)을(를) 만들거나 업데이트합니다. 비공개 키는 통합을 만드는 데 사용된 키와 동일해야 합니다.
+
+1. 다음 명령을 사용하여 개인 키를 인코딩합니다.```base64 ./private.key```.
+
+   >[!NOTE]
+   >
+   >경우에 따라 개인 키를 복사/붙여 넣을 때 추가 줄이 자동으로 추가될 수 있습니다. 개인 키를 인코딩하기 전에 이를 제거해야 합니다.
+
+1. 아래의 자세한 명령을 실행하려면 새로 생성된 개인 키를 base64 UTF-8 형식으로 인코딩하십시오.
 
 ## 3단계:파이프라인 태그 {#update-pipelined-tag} 업데이트
 
