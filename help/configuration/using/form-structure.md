@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: f82f71f4eed44f4f12ab7a65188d25ff6c552d35
 workflow-type: tm+mt
 source-wordcount: '2384'
 ht-degree: 0%
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 * **visibleIf=&quot;@email=&#39;peter.martinezATneolane.net&#39;&quot;**:문자열 유형 데이터에 대한 동일성을 테스트합니다. 비교 값은 따옴표로 묶어야 합니다.
 * **visibleIf=&quot;@gender >= 1 and @gender != 2&quot;**:조건을 숫자 값으로 설정합니다.
-* **visibleIf=&quot;@boolean1==true 또는 @boolean2==false&quot;**:부울 필드에서 테스트합니다.
+* **visibleIf=&quot;@boolean1=true 또는 @boolean2=false&quot;**:부울 필드에서 테스트합니다.
 
 #### 컨테이너 {#enabling-container} 활성화
 
@@ -555,9 +555,9 @@ Target 선택 항목은 편집 필드를 통해 액세스할 수 있습니다. �
 
 ### 컨텍스트 {#updating-the-context} 업데이트
 
-양식 컨텍스트를 수정하려면 **`<set expr="<value>" xpath="<field>"/>`** 태그를 사용합니다. 여기서 **`<field>`**&#x200B;은 대상 필드이고 **`<value>`**&#x200B;는 업데이트 표현식 또는 값입니다.
+양식 컨텍스트를 수정하려면 `<set expr="<value>" xpath="<field>"/>` 태그를 사용합니다. 여기서 `<field>`은 대상 필드이고 `<value>`는 업데이트 표현식 또는 값입니다.
 
-**`<set>`** 태그의 사용 예:
+`<set>` 태그의 사용 예:
 
 * **`<set expr="'Test'" xpath="/tmp/@test" />`**:임시 위치 /tmp/@test1에 &#39;test&#39; 값을 배치합니다.
 * **`<set expr="'Test'" xpath="@lastName" />`**:&quot;lastName&quot; 특성의 &#39;Test&#39; 값으로 엔터티를 업데이트합니다.
