@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: 63b2e6b95812f1649e636580984a1f0dcc9c5c53
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 2%
 
 ## 데이터베이스
 
-데이터베이스 엔진 보안을 반드시 준수해야 합니다.
+데이터베이스 엔진 보안 우수 사례를 적용해야 합니다.
 
-### SSL/TLS 구성*
+## SSL/TLS 구성
 
 인증서를 확인하려면 Openssl을 사용할 수 있습니다. 활성 암호를 확인하려면 nmap을 사용할 수 있습니다.
 
