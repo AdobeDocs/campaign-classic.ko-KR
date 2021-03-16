@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 8%
 
 ---
@@ -105,6 +105,6 @@ Adobe 고객 지원 센터에 문의할 때마다 Adobe Campaign 클라이언트
 
 **관련 항목**:
 
-* [Adobe Campaign 도움말 및 지원 옵션](https://helpx.adobe.com/kr/campaign/kb/ac-support.html#acc-support)
+* [Adobe Campaign 도움말 및 지원 옵션](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)
 * [Adobe Campaign 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Adobe Experience Cloud 지원 및 전문가 세션](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
