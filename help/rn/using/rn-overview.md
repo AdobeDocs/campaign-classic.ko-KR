@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: e6f6cfe1c1aa0d896fb6400d63b6023a983c6192
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ## 지원 및 기타 유용한 링크{#support}
 
-* [도움말 및 지원](https://helpx.adobe.com/kr/campaign/kb/ac-support.html#acc-support)
+* [도움말 및 지원](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)
 * [Campaign 컨트롤 패널 릴리스](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 * [최신 설명서 업데이트](../../rn/using/documentation-updates.md)
 * [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md)
