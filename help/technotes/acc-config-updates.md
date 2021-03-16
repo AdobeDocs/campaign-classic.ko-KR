@@ -6,9 +6,9 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 1233eef1d7b454daea021e1e3077890284813d9a
+source-git-commit: 849a95c718f9dc58aeabc8a49d3bf8290ea79b86
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1031'
 ht-degree: 7%
 
 ---
@@ -101,7 +101,7 @@ IMS(Adobe ID 서비스)를 통해 Adobe ID](../integrations/using/about-adobe-id
 
 ## Experience Cloud 트리거과 통합
 
-레거시 oAuth 인증 서비스가 사용 종료되었습니다. 원래 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 통합 인증이 Adobe I/O으로 이동되었습니다.이 서비스는 **2021년 4월 30일에 종료됩니다**. [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+레거시 oAuth 인증 서비스가 사용 종료되었습니다. 원래 파이프라인에 액세스하기 위해 oAuth 인증 설정을 기반으로 한 통합 인증이 Adobe I/O으로 이동되었습니다.이 서비스는 **2021년 4월 30일에 종료됩니다**. [자세히 알아보기](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)
 
 **당신은 영향을 받습니까?**
 
