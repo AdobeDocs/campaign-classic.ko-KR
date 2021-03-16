@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: 설명서
 translation-type: tm+mt
-source-git-commit: 2a82c1f67d8bc6d8499383a600a003480e82510f
+source-git-commit: 4552b8c73f0d547a9bb2dc7d8489927ea687f575
 workflow-type: tm+mt
-source-wordcount: '2464'
-ht-degree: 56%
+source-wordcount: '2467'
+ht-degree: 57%
 
 ---
 
@@ -114,6 +114,7 @@ ht-degree: 56%
          + [Microsoft Dynamics 365와 연결](platform/using/crm-ms-dynamics.md)
          + [데이터를 CRM과 동기화](platform/using/crm-data-sync.md)
       + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector.md)
+   + [도움말 및 지원 옵션](support.md)
 + 메시지 만들기 및 보내기 {#sending-messages}
    + [메시지 시작](delivery/using/communication-channels.md)
    + 게재를 만들 때 주요 단계 {#key-steps-when-creating-a-delivery}
@@ -213,7 +214,7 @@ ht-degree: 56%
       + 개인화된 링크 추적 {#tracking-personalized-links}
          + [개인화된 링크 추적 시작](delivery/using/tracking-personalized-links.md)
          + [추적 URL 감지](delivery/using/detecting-tracking-urls.md)
-         + [추적을 위한 사전 처리 지침](delivery/using/pre-processing-instructions.md)
+         + [추적을 위한 전처리 지침](delivery/using/pre-processing-instructions.md)
       + [URL 추적 옵션 구성](delivery/using/personalizing-url-tracking.md)
       + [추적 로그 액세스](delivery/using/accessing-the-tracking-logs.md)
       + [테스트 추적](delivery/using/testing-tracking.md)
