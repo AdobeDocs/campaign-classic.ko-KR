@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 54ba9d2ee05b1bd7de7616142e8ad6bcbac5f8eb
+source-git-commit: bc35a95d7deed1f0fd432ef8639f307ecf4d8e1f
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 14%
@@ -38,8 +38,8 @@ ht-degree: 14%
 
 배달이 잘 되도록 몇 가지 지침을 따라야 한다. 배달 시 발생할 수 있는 일반적인 문제는 배달을 효율적으로 전송하는 데 도움이 될 수도 있습니다.
 
-* [전달 성능 및 모범 사례](../../delivery/using/list-of-deliveries.md)
-* [배달 전송 문제 해결](../../delivery/using/delivery-dashboard.md)
+* [전달 성능 및 모범 사례](../../delivery/using/delivery-performances.md)
+* [배달 전송 문제 해결](../../delivery/using/delivery-troubleshooting.md)
 
 <img src="assets/do-not-localize/icon_failure.svg" width="60px">
 
