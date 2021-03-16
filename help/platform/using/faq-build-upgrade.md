@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2015'
 ht-degree: 3%
 
 ---
@@ -168,7 +168,7 @@ RT(Message Center)에 대한 업그레이드가 발생하면 인스턴스에서 
 
 빌드 업그레이드 후 문제가 발생하면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 고객 지원 센터에서 빌드 날짜를 예약하고 업그레이드 관련 티켓 빌드를 엽니다.
 
-Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)에 대한 [도움말 및 지원 옵션에 자세히 알아보기
+Campaign Classic](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)에 대한 [도움말 및 지원 옵션에 자세히 알아보기
 
 ## 업그레이드 확인 목록 만들기 {#check-list}
 
@@ -208,5 +208,5 @@ API를 통해 새 레코드를 삽입할 수 있는지 확인합니다.
 
 * [빌드 업그레이드 수행](../../production/using/build-upgrade.md)
 * [Campaign Classic 릴리스 노트](../../rn/using/rn-overview.md)
-* [Campaign Classic 도움말 및 지원 옵션](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
+* [Campaign Classic 도움말 및 지원 옵션](https://helpx.adobe.com/campaign/kb/ac-support.html)
 * [Gold Standard 프로그램](https://helpx.adobe.com/campaign/kb/gold-standard.html)
