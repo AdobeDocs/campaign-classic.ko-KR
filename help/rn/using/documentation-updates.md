@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 660b9ad4351fe611d99962f2b163858b1f70bc84
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
-source-wordcount: '4170'
-ht-degree: 93%
+source-wordcount: '4193'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 93%
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
 ## 2021년 3월 {#march-2021}
+
+Campaign Classic에 대한 지원을 얻기 위한 지침과 참고가 포함된 새 페이지가 추가되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)
 
 보안 및 개인 정보 보호에 대한 작업을 수행하기 위한 모범 사례 및 점검 기능이 추가된 새 섹션이 있습니다. [자세한 내용](../../installation/using/get-started-security-privacy.md)
 
@@ -42,23 +44,23 @@ ht-degree: 93%
 
 새로운 **이메일 피드백 서비스** 기능(비공개 베타)이 [여기](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service)에 문서화되어 있습니다.
 
-**서버 구성 파일** 섹션이 IMS를 사용하여 다른 서비스에 연결하는 데 필요한 구성 매개 변수로 업데이트되었습니다. [자세한 내용](../../installation/using/the-server-configuration-file.md#ims)
+**서버 구성 파일** 섹션이 Campaign에서 IMS를 사용하여 다른 서비스에 연결하는 데 필요한 구성 매개 변수로 업데이트되었습니다. [자세한 내용](../../installation/using/the-server-configuration-file.md#ims)
 
-배달 상태 목록에서 **서비스 제공자가 고려하는**&#x200B;에 대한 설명이 업데이트되었습니다.이제 이 상태는 [이메일 피드백 서비스](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service)를 사용하여 보낸 이메일 배달에도 사용됩니다. [자세한 내용](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
+게재 상태 목록에서 **서비스 공급자가 고려하는**&#x200B;설명이 업데이트되었습니다. 이제 이 상태는 [이메일 피드백 서비스](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service)를 사용하여 보낸 이메일 게재에도 사용됩니다. [자세한 내용](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
 
-이제 Adobe Campaign에 연결하기 위해 새 로그온 화면에서 사용할 수 있는 키보드 단축키가 문서화되어 있습니다. [자세한 내용](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
+이제 Adobe Campaign에 연결하기 위해 새 로그온 화면에서 사용할 수 있는 키보드 단축키가 문서화되었습니다. [자세한 내용](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
 
 **기타 업데이트**
 
-워크플로우를 사용하여 A/B 테스트를 수행하는 방법에 대한 자세한 정보가 포함된 새 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/get-started-a-b-testing.md)
+워크플로우를 사용하여 A/B 테스트를 하는 방법에 대한 자세한 정보의 새 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/get-started-a-b-testing.md)
 
-Adobe Campaign 향상된 MTA 섹션이 [여기](../../delivery/using/sending-with-enhanced-mta.md)로 이동했습니다.
+Adobe Campaign Enhanced MTA 섹션이 [여기](../../delivery/using/sending-with-enhanced-mta.md)로 이동되었습니다.
 
-[!DNL Campaign Classic]의 추적 기능에 대한 개요를 제공하기 위해 새 페이지가 추가되었습니다. [자세한 내용](../../delivery/using/about-message-tracking.md)
+[!DNL Campaign Classic]의 추적 기능을 개략적으로 알려주는 새 페이지가 추가되었습니다. [자세한 내용](../../delivery/using/about-message-tracking.md)
 
 추적과 관련된 일반적인 문제를 해결하는 데 도움이 되는 문제 해결 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/tracking-troubleshooting.md)
 
-**이메일 전송** 섹션이 다시 개편되어 새 하위 섹션으로 명확해졌습니다. [자세한 내용](../../delivery/using/sending-messages.md)
+**이메일 전송** 섹션을 새 하위 섹션으로 재구성되고 명확해졌습니다. [자세한 내용](../../delivery/using/sending-messages.md)
 
 개인화할 수 있고 추적을 지원하는 이메일에 링크를 추가하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../delivery/using/tracking-personalized-links.md).
 
