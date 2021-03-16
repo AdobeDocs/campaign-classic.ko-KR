@@ -34,7 +34,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 
 <img src="platform/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### FAQ
+### FAQ {#faq-1}
 
 새 빌드로 업그레이드하는 방법 워크플로우 실행을 모니터링하는 방법 데이터베이스 정리 워크플로우란 무엇입니까?.. [상위 10개 질문 읽기](platform/using/common-questions.md).
 
