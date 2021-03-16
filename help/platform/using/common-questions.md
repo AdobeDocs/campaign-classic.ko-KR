@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '524'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Campaign Classic을 사용하여 작업하는 동안 도움이 필요하십니�
 * [자가 도움말 옵션 찾아보기](../../platform/using/tutorials.md#how-to-videos)
 * [시작 및 사용 사례 섹션 읽기](../../platform/using/tutorials.md#step-by-step-guides)
 * 답을 찾을 수 없습니까? [전문가에게 문의](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
-* 지원이 필요하십니까? [캠페인 도움말 및 지원 옵션 참조](https://helpx.adobe.com/kr/campaign/kb/ac-support.html#acc-support)
+* 지원이 필요하십니까? [캠페인 도움말 및 지원 옵션 참조](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)
 
 ## 1. Campaign을 최신 버전으로 업그레이드하려면 어떻게 해야 합니까? {#how-can-i-upgrade-campaign-to-the-latest-version-}
 
