@@ -7,7 +7,7 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '2787'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Adobe Campaign v7에는 **보안 영역**&#x200B;의 개념이 포함되어 있�
 
 **업그레이드**  후(서버를 다시 시작하기 전에) 보안 영역을 구성해야 합니다.
 
-보안 영역 구성이 [이 섹션](../../installation/using/configuring-campaign-server.md#defining-security-zones)에 있습니다.
+보안 영역 구성이 [이 섹션](../../installation/using/security-zones.md)에 있습니다.
 
 ### 사용자 암호 {#user-passwords}
 
