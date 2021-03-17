@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 0%
+source-wordcount: '1221'
+ht-degree: 1%
 
 ---
 
@@ -165,12 +165,7 @@ ht-degree: 0%
 
    자세한 내용은 [캠페인 서버 구성](../../installation/using/campaign-server-configuration.md)을 참조하십시오.
 
-1. 클라이언트 콘솔 설정 프로그램(**setup-client-7.XX**, **YYYY.exe**, v7 또는 **setup-client-6.XX**, **YYY.exe**)을 **/datakit/로 복사합니다. nl/eng/jsp** 폴더.
-
-   자세한 내용은 다음 섹션을 참조하십시오.
-
-   * Linux의 경우:[Linux용 클라이언트 콘솔 사용 가능 시기](../../installation/using/client-console-availability-for-linux.md)
-   * Windows의 경우:[Windows](../../installation/using/client-console-availability-for-windows.md)에 대한 클라이언트 콘솔 사용 가능 시기.
+1. 클라이언트 콘솔 설정 프로그램(**setup-client-7.XX**, **YYYY.exe**, v7 또는 **setup-client-6.XX**, **YYY.exe**)을 **/datakit/로 복사합니다. nl/eng/jsp** 폴더. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
 
 1. Adobe Campaign 서버(**Net start nlserver6**, Windows의 경우 **/etc/init.d/nlserver6 start**)를 시작하고 **nlserver dump** 명령을 한 번 더 실행하여 활성화된 모든 모듈의 존재를 확인합니다.
 
@@ -194,16 +189,11 @@ ht-degree: 0%
 
 1. URL을 사용하여 **nserver 웹** 모듈을 테스트합니다.[https://console.campaign.net/nl/jsp/logon.jsp](https://tracking.campaign.net/r/test).
 
-   이 URL을 통해 클라이언트 설정 프로그램의 다운로드 페이지에 액세스할 수 있습니다.
+   이 URL을 통해 클라이언트 설정 프로그램의 다운로드 페이지에 액세스할 수 있습니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
 
    액세스 제어 페이지에 도달하면 **내부** 로그인 및 관련 암호를 입력합니다.
 
    ![](assets/s_ncs_install_access_client.png)
-
-   자세한 내용은 다음 섹션을 참조하십시오.
-
-   * Linux의 경우:[Linux용 클라이언트 콘솔 사용 가능 시기](../../installation/using/client-console-availability-for-linux.md)
-   * Windows의 경우:[Windows](../../installation/using/client-console-availability-for-windows.md)에 대한 클라이언트 콘솔 가용성
 
 ### 응용 프로그램 서버 2 {#installing-and-configuring-the-application-server-2} 설치 및 구성
 
