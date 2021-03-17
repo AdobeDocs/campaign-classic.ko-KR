@@ -7,15 +7,15 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 12%
+source-wordcount: '142'
+ht-degree: 8%
 
 ---
 
 
-# Windows에서 Campaign 설치 사전 요구 사항{#prerequisites-of-campaign-installation-in-windows}
+# Windows {#prerequisites-of-campaign-installation-in-windows}에서 Campaign 설치 시작
 
 Adobe Campaign을 설치하는 데 필요한 기술 구성 및 소프트웨어는 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)에 있습니다.
 
