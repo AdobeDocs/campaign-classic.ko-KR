@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+source-git-commit: baa41d876b889d2746f593e97f6b624dfffa5911
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Adobe Managed Services을 사용하는 경우 Campaign Gold Standard 업그레�
 
 ## 3. 보안 영역을 구성하려면 어떻게 해야 합니까? {#how-can-i-configure-security-zones-}
 
-보안 영역 셀프 서비스 인터페이스는 Adobe Campaign Classic 배포의 VPN 보안 영역 구성의 항목을 관리하는 데 사용할 수 있습니다. Campaign의 보안 영역에 대해 알아보려면 [이 섹션을](../../installation/using/configuring-campaign-server.md#defining-security-zones) 참조하십시오.
+보안 영역 셀프 서비스 인터페이스는 Adobe Campaign Classic 배포의 VPN 보안 영역 구성의 항목을 관리하는 데 사용할 수 있습니다. Campaign의 보안 영역에 대해 알아보려면 [이 섹션을](../../installation/using/security-zones.md) 참조하십시오.
 
 보안 영역 셀프 서비스 UI에 대한 [자세한 내용을 보려면 여기를 클릭하십시오](https://helpx.adobe.com/kr/campaign/kb/configuring-security-zones-self-service.html).
 
