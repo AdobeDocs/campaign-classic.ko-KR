@@ -3,14 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: 호스팅 모델
 description: Discover 캠페인 호스팅 모델
-audience: installation
-content-type: reference
-topic-tags: architecture-and-hosting-models
+feature: 개요
+role: 건축가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 1%
+source-wordcount: '634'
+ht-degree: 2%
 
 ---
 
@@ -23,21 +23,50 @@ Adobe Campaign은 3가지 호스팅 모델 중에서 선택할 수 있는 유연
 >
 >Adobe 호스팅 환경의 경우 서버 구성 및 인스턴스 구성 파일 사용자 지정과 같은 Adobe에서만 기본 설치 및 구성 단계를 수행할 수 있습니다. 배포 모드 간의 주요 차이점에 대한 자세한 내용은 [이 페이지](../../installation/using/capability-matrix.md)를 참조하십시오.
 
-* **Managed Services(호스팅)**
+## Managed Services / 호스팅
 
-   Adobe Campaign은 관리 서비스로 배포할 수 있습니다.사용자 인터페이스, 실행 관리 엔진 및 고객의 캠페인 데이터베이스를 비롯한 Adobe Campaign의 모든 구성 요소는 이메일 실행, 미러 페이지, 추적 서버 및 가입 해지 페이지/기본 설정 센터 및 랜딩 페이지와 같은 외부적으로 대면하는 웹 구성 요소를 포함하여 Adobe에 의해 완벽하게 호스팅됩니다. Adobe은 Cloud에 개발, 테스트/스테이지 및 프로덕션에 최대 3개의 인스턴스를 할당합니다. 이 호스팅 모델에 대한 설치 및 구성 단계는 이 섹션](../../installation/using/hosted-model.md)에 [표시됩니다.
+Adobe Campaign은 관리 서비스로 배포할 수 있습니다.사용자 인터페이스, 실행 관리 엔진 및 고객의 캠페인 데이터베이스를 비롯한 Adobe Campaign의 모든 구성 요소는 이메일 실행, 미러 페이지, 추적 서버 및 가입 해지 페이지/기본 설정 센터 및 랜딩 페이지와 같은 외부적으로 대면하는 웹 구성 요소를 포함하여 Adobe에 의해 완벽하게 호스팅됩니다.
 
-   ![](assets/deployment_hosted.png)
+![](assets/deployment_hosted.png)
 
-* **온-프레미스**
+호스팅 고객인 경우 대부분의 설치 및 구성 단계는 Adobe에 의해 수행됩니다. 다음 섹션에 액세스하여 구현을 사용자 정의할 수 있습니다.
 
-   Adobe Campaign은 사내에서 배포할 수 있습니다.사용자 인터페이스, 실행 관리 엔진 및 데이터베이스를 포함한 Adobe Campaign의 모든 구성 요소는 고객 데이터 센터에 있는 사이트에 있습니다. 이 배포 모델에서 고객은 모든 소프트웨어 및 하드웨어 업데이트 및 업그레이드를 관리하며, 전용 데이터베이스 관리자는 캠페인 인스턴스 관리를 위해 유지 관리 및 최적화 작업을 수행해야 합니다. 온-프레미스 고객을 위한 배포 지침은 이 섹션](../../installation/using/before-starting.md)에 [표시됩니다.
+* 브랜드당 추적 및 페이지 URL을 미러링합니다. 트랜잭션 메시지에 대해서는 [이 섹션](../../message-center/using/configuring-multibranding.md)을 참조하십시오.
+* 클라이언트 콘솔을 설치합니다.이 섹션](../../installation/using/installing-the-client-console.md)에 대해 [을(를) 참조하십시오.
+* 제공 도구 및 우수 사례에 대한 자세한 내용은 [시작 안내서](../../delivery/using/deliverability-key-points.md) 및 [자세한 설명서](../../delivery/using/about-deliverability.md)를 참조하십시오.
+* 캠페인 옵션 구성:이 섹션](../../installation/using/configuring-campaign-options.md)에 대해 [을(를) 참조하십시오.
+* CRM 커넥터 구성:이 섹션](../../platform/using/crm-connectors.md)에 대해 [을(를) 참조하십시오.
 
-   ![](assets/deployment_onpremise.png)
+## 온-프레미스
 
-* **하이브리드**
+Adobe Campaign은 사내에서 배포할 수 있습니다.사용자 인터페이스, 실행 관리 엔진 및 데이터베이스를 포함한 Adobe Campaign의 모든 구성 요소는 고객 데이터 센터에 있는 사이트에 있습니다. 이 배포 모델에서 고객은 모든 소프트웨어 및 하드웨어 업데이트 및 업그레이드를 관리하며, 전용 데이터베이스 관리자는 캠페인 인스턴스 관리를 위해 유지 관리 및 최적화 작업을 수행해야 합니다.
 
-   하이브리드 모델로 배포할 때 Adobe Campaign 솔루션 소프트웨어는 고객 사이트에 사내에 있으며 실행 관리는 Adobe을 통해 클라우드 서비스로 제공됩니다. Adobe Campaign 마케팅 인스턴스는 고객의 방화벽 내에 설치되므로 PII(개인 식별 정보)는 내부에 유지되며 이메일을 개인화하는 데 필요한 데이터만 Cloud로 전송됩니다. 클라우드에 호스팅된 실행 인스턴스는 온-프레미스 인스턴스에서 이메일을 배달할 요청을 받습니다. 이 인스턴스는 모든 이메일을 개인화하여 전송합니다. 모든 유형의 데이터는 클라우드에 영구적으로 저장되지 않습니다. 이 호스팅 모델에 대한 설치 및 구성 단계는 이 섹션](../../installation/using/hybrid-model.md)에 [표시됩니다.
+![](assets/deployment_onpremise.png)
 
-   ![](assets/deployment_hybrid.png)
+온-프레미스 고객은 Campaign Classic 배포를 시작하기 전에 다음 사전 요구 사항 및 권장 사항을 처리합니다.
 
+* Adobe Campaign에 대해 지원되는 모든 시스템 및 구성 요소 버전을 나열하는 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 읽어 보십시오.
+* 환경에 따라 Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md)용 [사전 요구 사항 및 Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md)용 [사전 요구 사항을 참조하십시오.
+* 이 섹션](../../installation/using/database.md)에서 데이터베이스 엔진과 관련된 권장 사항에 대해 알아봅니다.[
+* 필요한 데이터베이스 액세스 레이어가 서버에 설치되어 있고 Adobe Campaign 계정에서 액세스할 수 있는지 확인합니다. [자세히 알아보기](../../installation/using/application-server.md)
+* 다른 사람과 통신하거나 LAN 및 인터넷에 액세스해야 하는 일부 프로세스에 따라 네트워크를 구성합니다. 즉, 이러한 프로세스에 대해 일부 TCP 포트를 열어야 합니다. [네트워크 ](../../installation/using/network-configuration.md) 구성 요구 사항에 대해 자세히 알아보십시오.
+* [캠페인 보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html)을 읽습니다.
+* 이 아티클](https://helpx.adobe.com/kr/campaign/kb/hardware-sizing-guide.html)에서 온-프레미스 배포용 하드웨어 요구 사항 추정에 대한 일반 지침을 확인하십시오.[
+
+## 하이브리드
+
+하이브리드 모델로 배포할 때 Adobe Campaign 솔루션 소프트웨어는 고객 사이트에 사내에 있으며 실행 관리는 Adobe을 통해 클라우드 서비스로 제공됩니다. Adobe Campaign 마케팅 인스턴스는 고객의 방화벽 내에 설치되므로 PII(개인 식별 정보)는 내부에 유지되며 이메일을 개인화하는 데 필요한 데이터만 Cloud로 전송됩니다. 클라우드에 호스팅된 실행 인스턴스는 온-프레미스 인스턴스에서 이메일을 배달할 요청을 받습니다. 이 인스턴스는 모든 이메일을 개인화하여 전송합니다. 모든 유형의 데이터는 클라우드에 영구적으로 저장되지 않습니다.
+
+![](assets/deployment_hybrid.png)
+
+하이브리드 고객인 경우 대부분의 설치 및 구성 단계는 Adobe에 의해 수행됩니다. 다음 섹션에 액세스하여 구현을 사용자 정의할 수 있습니다.
+
+* 트랜잭션 메시지 구성:이 섹션](../../message-center/using/transactional-messaging-architecture.md)에 대해 [을(를) 참조하십시오.
+* 브랜드당 추적 및 페이지 URL을 미러링합니다. 트랜잭션 메시지에 대해서는 [이 섹션](../../message-center/using/configuring-multibranding.md)을 참조하십시오.
+* 클라이언트 콘솔을 설치합니다.이 섹션](../../installation/using/installing-the-client-console.md)에 대해 [을(를) 참조하십시오.
+* 내장된 패키지 설치:이 섹션](../../installation/using/installing-campaign-standard-packages.md)에 대해 [을(를) 참조하십시오.
+* 제공 가능성:[MX 규칙](../../installation/using/email-deliverability.md#mx-configuration) 및 [이메일 형식](../../installation/using/email-deliverability.md#managing-email-formats)을 구성합니다. 제공 도구 및 우수 사례에 대한 자세한 내용은 [시작 안내서](../../delivery/using/deliverability-key-points.md) 및 [자세한 설명서](../../delivery/using/about-deliverability.md)를 참조하십시오.
+* 캠페인 옵션 구성:이 섹션](../../installation/using/configuring-campaign-options.md)에 대해 [을(를) 참조하십시오.
+* 외부 데이터베이스 구성(Federated Data Access):이 섹션](../../installation/using/about-fda.md)에 대해 [을(를) 참조하십시오.
+* CRM 커넥터 구성:이 섹션](../../platform/using/crm-connectors.md)에 대해 [을(를) 참조하십시오.
+* 중간 소싱 배포 원칙에 대한 자세한 내용은 [이 섹션](../../installation/using/mid-sourcing-deployment.md)을 참조하십시오.
