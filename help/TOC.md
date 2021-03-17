@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: 설명서
 translation-type: tm+mt
-source-git-commit: 4552b8c73f0d547a9bb2dc7d8489927ea687f575
+source-git-commit: baa41d876b889d2746f593e97f6b624dfffa5911
 workflow-type: tm+mt
-source-wordcount: '2467'
-ht-degree: 57%
+source-wordcount: '2470'
+ht-degree: 55%
 
 ---
 
@@ -380,11 +380,6 @@ ht-degree: 57%
       + [통합: [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [통합 구성 대상 [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [동적 이미지 삽입](integrations/using/inserting-a-dynamic-image.md)
-   + Adobe ID {#connecting-via-an-adobe-id}을 통해 연결
-      + [정보 [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
-      + [Adobe 구성 [!DNL IMS]](integrations/using/configuring-ims.md)
-      + [Adobe 구현 [!DNL IMS]](integrations/using/implementing-ims.md)
-      + [IMS 문제 해결](integrations/using/ims-troubleshooting.md)
    + ACS 커넥터 {#acs-connector}
       + [[!DNL ACS Connector] 원칙 및 데이터 주기](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [프로필 동기화](integrations/using/synchronizing-profiles.md)
@@ -562,7 +557,7 @@ ht-degree: 57%
       + [테스트 환경 만들기](interaction/using/creating-a-test-environment.md)
       + [후크](interaction/using/hooks.md)
       + [분산 아키텍처](interaction/using/distributed-architectures.md)
-      + [데이터 버퍼 영역](interaction/using/data-buffer-zone.md)
+      + [데이터 버퍼 구성](installation/using/interaction---data-buffer.md)
    + 사용 사례 {#case-study}
       + [프레젠테이션 규칙](interaction/using/presentation-rules.md)
       + [인바운드 채널에 대한 오퍼](interaction/using/offers-on-an-inbound-channel.md)
@@ -620,16 +615,8 @@ ht-degree: 57%
    + 아키텍처 원칙 {#architecture-and-hosting-models}
       + [일반 아키텍처](installation/using/general-architecture.md)
       + 호스팅 모델{#hosting-models-lp}
-         + [호스팅 모델 정보](installation/using/hosting-models.md)
-         + [하이브리드 모델](installation/using/hybrid-model.md)
-         + [호스팅 모델](installation/using/hosted-model.md)
+         + [캠페인 호스팅 모델](installation/using/hosting-models.md)
          + [기능 매트릭스](installation/using/capability-matrix.md)
-   + 배포 지침 {#deployment-guidelines}
-      + [사전 요구 사항](installation/using/before-starting.md)
-      + [데이터베이스 서버](installation/using/database.md)
-      + [애플리케이션 서버](installation/using/application-server.md)
-      + [메시징 서버](installation/using/messaging-server.md)
-      + [네트워크 구성](installation/using/network-configuration.md)
    + 배포 유형 {#deployment-types-}
       + [배포 유형 기본 정보](installation/using/about-deployment-types.md)
       + [독립형 배포](installation/using/standalone-deployment.md)
@@ -637,58 +624,70 @@ ht-degree: 57%
       + [엔터프라이즈 배포](installation/using/enterprise-deployment.md)
       + [중간 소싱 배포](installation/using/mid-sourcing-deployment.md)
       + [전원 부스터 및 전원 클러스터](installation/using/power-booster-and-power-cluster.md)
-   + Windows {#installing-campaign-in-windows-}의 Campaign
-      + [Windows에서 Campaign 설치 전](installation/using/prerequisites-of-campaign-installation-in-windows.md)
-      + [서버 설치](installation/using/installing-the-server.md)
-      + [웹 서버에 통합(Windows)](installation/using/integration-into-a-web-server-for-windows.md)
-      + [Windows용 클라이언트 콘솔 가용성](installation/using/client-console-availability-for-windows.md)
-      + [클라이언트 콘솔 설치](installation/using/installing-the-client-console.md)
-   + Linux {#installing-campaign-in-linux-}의 Campaign
-      + [Linux에 Campaign 설치 전](installation/using/prerequisites-of-campaign-installation-in-linux.md)
-      + [패키지 설치](installation/using/installing-packages-with-linux.md)
-      + [웹 서버에 통합(Linux)](installation/using/integration-into-a-web-server-for-linux.md)
-      + [Linux용 클라이언트 콘솔 가용성](installation/using/client-console-availability-for-linux.md)
-   + 초기 구성 {#initial-configuration}
+   + 보안 및 개인 정보 확인 목록 {#security-privacy}
+      + [보안 및 개인 정보 시작하기](installation/using/get-started-security-privacy.md)
+      + [개인화 및 개인 정보 보호](installation/using/privacy.md)
+      + [안전한 액세스 관리](installation/using/access-management.md)
+      + [스크립팅 및 코딩 지침](installation/using/scripting-coding-guidelines.md)
+      + [네트워크, 데이터베이스 및 SSL/TLS](installation/using/network-database.md)
+      + [서버 보안 설정](installation/using/server-configuration.md)
+      + [웹 서버 보안 설정](installation/using/web-server-configuration.md)
+   + 캠페인 설치(온-프레미스){#install-campaign-on-prem}
+      + 배포 지침 {#deployment-guidelines}
+         + [데이터베이스 서버](installation/using/database.md)
+         + [애플리케이션 서버](installation/using/application-server.md)
+         + [메시징 서버](installation/using/messaging-server.md)
+         + [네트워크 구성](installation/using/network-configuration.md)
+      + Windows {#installing-campaign-in-windows-}의 Campaign
+         + [시작](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+         + [서버 설치](installation/using/installing-the-server.md)
+         + [웹 서버에 통합(Windows)](installation/using/integration-into-a-web-server-for-windows.md)
+         + [Windows용 클라이언트 콘솔 가용성](installation/using/client-console-availability-for-windows.md)
+      + Linux {#installing-campaign-in-linux-}의 Campaign
+         + [사전 요구 사항](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+         + [패키지 설치](installation/using/installing-packages-with-linux.md)
+         + [웹 서버에 통합](installation/using/integration-into-a-web-server-for-linux.md)
+      + [시간대 관리](installation/using/time-zone-management.md)
+      + [중간 소싱 서버 설치](installation/using/mid-sourcing-server.md)
+   + 캠페인 배포(온-프레미스) {#initial-configuration}
       + [초기 구성 정보](installation/using/about-initial-configuration.md)
       + [인스턴스 만들기 및 로그온](installation/using/creating-an-instance-and-logging-on.md)
       + [데이터베이스 만들기 및 구성](installation/using/creating-and-configuring-the-database.md)
-      + [Campaign 서버 구성](installation/using/campaign-server-configuration.md)
+      + [캠페인 서버 구성](installation/using/campaign-server-configuration.md)
       + [인스턴스 배포](installation/using/deploying-an-instance.md)
-      + [Campaign Classic 내장 패키지 설치](installation/using/installing-campaign-standard-packages.md)
-   + 추가 구성 {#additional-configurations}
-      + [캠페인 서버 구성](installation/using/configuring-campaign-server.md)
-      + [LDAP를 통해 연결](installation/using/connecting-through-ldap.md)
+      + [내장된 패키지 설치](installation/using/installing-campaign-standard-packages.md)
+   + 캠페인 구성 {#additional-configurations}
+      + [캠페인 서버 설정](installation/using/configuring-campaign-server.md)
+      + [보안 영역 정의](installation/using/security-zones.md)
       + [기술 전자 메일 구성](installation/using/email-deliverability.md)
-      + [전자 메일 보관](installation/using/email-archiving.md)
-      + [시간대 관리](installation/using/time-zone-management.md)
+      + [이메일 BCC 구성](installation/using/email-archiving.md)
       + [스팸 암살자 구성](installation/using/configuring-spamassassin.md)
-      + [중간 소싱 서버](installation/using/mid-sourcing-server.md)
-      + [상호 작용 - 데이터 버퍼](installation/using/interaction---data-buffer.md)
+   + 캠페인{#connect-to-campaign}에 연결
+      + [클라이언트 콘솔 설치](installation/using/installing-the-client-console.md)
+      + Adobe ID {#connecting-via-an-adobe-id}을 통해 연결
+         + [정보 [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
+         + [Adobe 구성 [!DNL IMS]](integrations/using/configuring-ims.md)
+         + [Adobe 구현 [!DNL IMS]](integrations/using/implementing-ims.md)
+         + [IMS 문제 해결](integrations/using/ims-troubleshooting.md)
+      + [LDAP를 통해 연결](installation/using/connecting-through-ldap.md)
+   + 외부 시스템에 캠페인 연결 {#accessing-external-database}
       + [외부 계정 구성](installation/using/external-accounts.md)
-   + 외부 데이터베이스 {#accessing-external-database} 액세스
-      + [FDA 시작](installation/using/about-fda.md)
-      + 구성 지침 {#config-databases}
-         + [구성 단계](installation/using/configure-fda.md)
-         + [Snowflake 구성](installation/using/configure-fda-snowflake.md)
-         + [azure synapse 구성](installation/using/configure-fda-synapse.md)
-         + [hadoop 구성](installation/using/configure-fda-hadoop.md)
-         + [oracle 구성](installation/using/configure-fda-oracle.md)
-         + [netezza 구성](installation/using/configure-fda-netezza.md)
-         + [sybase IQ 구성](installation/using/configure-fda-sybase.md)
-         + [teradata 구성](installation/using/configure-fda-teradata.md)
-         + [SAP HANA 구성](installation/using/configure-fda-sap-hana.md)
-      + [원격 액세스 권한](installation/using/remote-database-access-rights.md)
-      + [데이터베이스에 연결](installation/using/connecting-to-database.md)
-      + [데이터 스키마 만들기](installation/using/creating-data-schema.md)
-      + [데이터 매핑 정의](installation/using/defining-data-mapping.md)
-   + 보안 및 개인 정보 확인 목록 {#security-privacy}
-      + [보안 및 개인 정보 시작하기](installation/using/get-started-security-privacy.md)
-      + [개인 정보](installation/using/privacy.md)
-      + [액세스 관리](installation/using/access-management.md)
-      + [스크립팅 및 코딩 지침](installation/using/scripting-coding-guidelines.md)
-      + [네트워크, 데이터베이스 및 SSL/TLS](installation/using/network-database.md)
-      + [서버 구성](installation/using/server-configuration.md)
-      + [웹 서버 구성](installation/using/web-server-configuration.md)
+      + 통합 데이터 액세스 구성{#configure-fda}
+         + [통합 데이터 액세스 시작](installation/using/about-fda.md)
+         + 구성 지침 {#config-databases}
+            + [구성 단계](installation/using/configure-fda.md)
+            + [Snowflake 구성](installation/using/configure-fda-snowflake.md)
+            + [azure synapse 구성](installation/using/configure-fda-synapse.md)
+            + [hadoop 구성](installation/using/configure-fda-hadoop.md)
+            + [oracle 구성](installation/using/configure-fda-oracle.md)
+            + [netezza 구성](installation/using/configure-fda-netezza.md)
+            + [sybase IQ 구성](installation/using/configure-fda-sybase.md)
+            + [teradata 구성](installation/using/configure-fda-teradata.md)
+            + [SAP HANA 구성](installation/using/configure-fda-sap-hana.md)
+         + [원격 액세스 권한](installation/using/remote-database-access-rights.md)
+         + [데이터베이스에 연결](installation/using/connecting-to-database.md)
+         + [데이터 스키마 만들기](installation/using/creating-data-schema.md)
+         + [데이터 매핑 정의](installation/using/defining-data-mapping.md)
    + 부록 {#appendices}
       + [서버 구성 파일](installation/using/the-server-configuration-file.md)
       + [Campaign 네트워크 엔드포인트](installation/using/campaign-network-endpoints.md)
