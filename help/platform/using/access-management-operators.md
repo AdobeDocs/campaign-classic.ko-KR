@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 >[!IMPORTANT]
 >
->연산자는 인스턴스에 로그온하려면 보안 영역에 연결해야 합니다. Adobe Campaign의 보안 영역에 대한 자세한 내용은 [이 페이지](../../installation/using/configuring-campaign-server.md#defining-security-zones)를 참조하십시오.
+>연산자는 인스턴스에 로그온하려면 보안 영역에 연결해야 합니다. Adobe Campaign의 보안 영역에 대한 자세한 내용은 [이 페이지](../../installation/using/security-zones.md)를 참조하십시오.
 
 사용자는 Adobe ID을 사용하여 Adobe Campaign에 직접 연결할 수도 있습니다. 자세한 정보는 이 [페이지](../../integrations/using/about-adobe-id.md)를 참조하십시오.
 
@@ -106,7 +106,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
    >계정이 비활성화되어도 운영자는 여전히 Campaign에서 알림 또는 알림을 받을 수 있습니다. 이 연산자에 대한 캠페인 알림 전송을 중지하려면 Adobe은 자신의 프로필에서 이메일 주소를 제거하는 것이 좋습니다.
 
 * **[!UICONTROL Forbid access from the rich client]** 옵션을 사용하면 Adobe Campaign의 사용을 [웹 액세스](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) 또는 API를 통해 제한할 수 있습니다.더 이상 Adobe Campaign 클라이언트 콘솔에 액세스할 수 없습니다.
-* 안전구역을 운영자와 연결시킬 수 있습니다 자세한 정보는 이 [페이지](../../installation/using/configuring-campaign-server.md#defining-security-zones)를 참조하십시오.
+* 안전구역을 운영자와 연결시킬 수 있습니다 자세한 정보는 이 [페이지](../../installation/using/security-zones.md)를 참조하십시오.
 * 적절한 링크를 사용하여 신뢰할 수 있는 IP 마스크를 정의할 수도 있습니다.
 
    IP 주소가 이 목록에 있는 경우 연산자를 사용하면 암호를 입력하지 않고도 Adobe Campaign에 연결할 수 있습니다.
