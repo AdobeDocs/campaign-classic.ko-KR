@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 1%
@@ -45,4 +45,4 @@ export TRACE_ADDR=localhost:<listening port>
 
 >[!NOTE]
 >
->보안 영역 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#defining-security-zones)을 참조하십시오.
+>보안 영역 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/security-zones.md)을 참조하십시오.
