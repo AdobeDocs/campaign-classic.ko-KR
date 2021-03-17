@@ -6,7 +6,7 @@ description: Campaign-AEM 통합을 구성하는 방법 학습
 audience: integrations
 content-type: reference
 translation-type: tm+mt
-source-git-commit: a157082070b22e3621cb81411a5ddde387fd5fcf
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Adobe Experience Manager을 통해 Adobe Campaign에 연결하려면 이 연산�
 
 >[!CAUTION]
 >
->보안 문제를 방지하기 위해 AEM 전용 보안 영역을 만드는 것이 좋습니다. 자세한 내용은 설치 [안내서](../../installation/using/configuring-campaign-server.md#defining-security-zones)를 참조하십시오.
+>보안 문제를 방지하기 위해 AEM 전용 보안 영역을 만드는 것이 좋습니다. 자세한 내용은 설치 [안내서](../../installation/using/security-zones.md)를 참조하십시오.
 
 캠페인 인스턴스가 Adobe에서 호스팅하는 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀에 문의하십시오. 온-프레미스를 사용하는 경우 아래 절차를 따르십시오.
 
