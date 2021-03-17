@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 0%
+source-wordcount: '1090'
+ht-degree: 1%
 
 ---
 
@@ -164,12 +164,7 @@ ht-degree: 0%
 
    자세한 내용은 [캠페인 서버 구성](../../installation/using/campaign-server-configuration.md)을 참조하십시오.
 
-1. 클라이언트 콘솔 설정 프로그램(**setup-client-7.XX**, **YYYY.exe**, v7 또는 **setup-client-6.XX**, **YYY.exe**)을 **/datakit/로 복사합니다. nl/eng/jsp** 폴더.
-
-   자세한 내용은 다음 섹션을 참조하십시오.
-
-   * Linux의 경우:[Linux용 클라이언트 콘솔 사용 가능 시기](../../installation/using/client-console-availability-for-linux.md)
-   * Windows의 경우:[Windows](../../installation/using/client-console-availability-for-windows.md)에 대한 클라이언트 콘솔 가용성
+1. 클라이언트 콘솔 설정 프로그램(**setup-client-7.XX**, **YYYY.exe**, v7 또는 **setup-client-6.XX**, **YYY.exe**)을 **/datakit/로 복사합니다. nl/eng/jsp** 폴더. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
 
 1. 다음 섹션에 설명된 웹 서버 통합 절차(IIS, Apache)를 따르십시오.
 
@@ -212,14 +207,9 @@ ht-degree: 0%
 
    이 URL을 통해 클라이언트 설정 프로그램의 다운로드 페이지에 액세스할 수 있습니다.
 
-   액세스 제어 페이지에 도달하면 **내부** 로그인 및 관련 암호를 입력합니다.
+   액세스 제어 페이지에 도달하면 **내부** 로그인 및 관련 암호를 입력합니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
 
    ![](assets/s_ncs_install_access_client.png)
-
-   자세한 내용은 다음 섹션을 참조하십시오.
-
-   * Linux의 경우:[Linux용 클라이언트 콘솔 사용 가능 시기](../../installation/using/client-console-availability-for-linux.md)
-   * Windows의 경우:[Windows](../../installation/using/client-console-availability-for-windows.md)에 대한 클라이언트 콘솔 가용성
 
 1. Adobe Campaign 클라이언트 콘솔을 시작(이전 다운로드 페이지에서 또는 Windows 설치의 경우 서버에서 직접 시작)하고 서버 연결 URL을 https://console.campaign.net으로 설정하고 **internal** 로그인을 사용하여 연결합니다.
 
