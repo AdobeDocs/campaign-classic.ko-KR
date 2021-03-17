@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
+source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 2%
 * [업데이트](#perform-an-update) 수행,
 * [웹 서버를 다시 부팅합니다](#reboot-the-web-server).
 
-클라이언트 콘솔을 업데이트하는 방법을 알아보려면 [이 섹션](../../installation/using/client-console-availability-for-linux.md)을 참조하십시오.
+[클라이언트 콘솔 가용성에 대해 자세히 알아보십시오](../../installation/using/client-console-availability-for-windows.md).
 
 >[!NOTE]
 >
