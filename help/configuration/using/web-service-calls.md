@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 translation-type: tm+mt
-source-git-commit: c366326f6a439dabaa42fdd799ec2e55c180a929
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 1%
@@ -188,7 +188,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;바인딩&quot;을 통해 프
 
 ## 연결 {#connectivity}
 
-Adobe Campaign은 세션 관리 설정과 함께 [이 섹션](../../installation/using/configuring-campaign-server.md#defining-security-zones)의 **보안 영역 정의** 장 참조)을 도입하여 인증 메커니즘에 대한 보안을 강화했습니다.
+Adobe Campaign은 세션 관리 설정과 함께 [이 섹션](../../installation/using/security-zones.md)의 **보안 영역 정의** 장 참조)을 도입하여 인증 메커니즘에 대한 보안을 강화했습니다.
 
 두 가지 인증 모드를 사용할 수 있습니다.
 
