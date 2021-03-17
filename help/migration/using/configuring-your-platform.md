@@ -7,7 +7,7 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 1%
@@ -109,7 +109,7 @@ Adobe Campaign v7으로 마이그레이션할 때 다음 요소를 구성해야 
 
 * 보안 영역.
 
-   서버를 시작하기 전에 보안 영역을 구성해야 합니다. 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#defining-security-zones) 및 [보안](../../migration/using/general-configurations.md#security) 섹션을 참조하십시오.
+   서버를 시작하기 전에 보안 영역을 구성해야 합니다. 자세한 내용은 [이 섹션](../../installation/using/security-zones.md) 및 [보안](../../migration/using/general-configurations.md#security) 섹션을 참조하십시오.
 
 * 스키마
 
