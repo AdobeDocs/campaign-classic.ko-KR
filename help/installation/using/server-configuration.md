@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1156'
 ht-degree: 3%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 3%
 >
 >
 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 자세히 나와 있는 단계를 따르십시오.
-
-보안 영역 셀프 서비스 UI를 사용하여 VPN 보안 영역 구성의 항목을 관리하는 방법에 대해 알아보려면 [이 기술 문서](https://helpx.adobe.com/kr/campaign/kb/configuring-security-zones-self-service.html)을 참조하십시오.
 
 * 역방향 프록시가 subNetwork에서 허용되지 않도록 하십시오. 이 경우 **모든** 트래픽이 이 로컬 IP에서 오는 것으로 검색되므로 신뢰할 수 있습니다.
 
@@ -127,6 +125,6 @@ Adobe Campaign에서는 `<dbcnx .../>` 요소에 일반 암호를 설정할 수 
 
 기본적으로 Adobe Campaign은 특정 IP에 세션을 붙이지 않지만 이 세션을 활성화하여 세션이 도난 당하지 않도록 할 수 있습니다. 이를 수행하려면 [serverConf.xml 파일](../../installation/using/the-server-configuration-file.md)에서 checkIPConsistent 속성을 `<authentication>` 노드의 **true**&#x200B;로 설정합니다.
 
-기본적으로 Adobe Campaign의 MTA는 보안 연결을 사용하여 컨텐츠를 SMTP 서버로 보내지 않습니다. 이 기능을 활성화해야 합니다(배달 속도를 줄일 수 있음). 이렇게 하려면 `<smtp ...>` 노드에서 enableTLS를 tr**으로 설정합니다.
+기본적으로 Adobe Campaign의 MTA는 보안 연결을 사용하여 컨텐츠를 SMTP 서버로 보내지 않습니다. 이 기능을 활성화해야 합니다(배달 속도를 줄일 수 있음). 이렇게 하려면 `<smtp ...>` 노드에서 **enableTLS**&#x200B;을 **true**&#x200B;로 설정합니다.
 
 인증 노드(sessionTimeOutSec 특성)에서 세션의 수명을 줄일 수 있습니다.
