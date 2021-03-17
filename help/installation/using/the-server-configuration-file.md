@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 translation-type: tm+mt
-source-git-commit: 1bd40c6acaceb1bb4839807ae89c6956bc2b8d69
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '7970'
 ht-degree: 5%
@@ -21,7 +21,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
 
 >[!NOTE]
 >
->서버측 구성은 Adobe에 의해 호스팅되는 배포에 대해서만 Adobe에서 수행할 수 있습니다. 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지](../../installation/using/capability-matrix.md)를 참조하십시오. 호스팅된 모델과 하이브리드 모델에 대한 설치 및 구성 단계는 이 [섹션](../../installation/using/hosted-model.md)에 있습니다.
+>서버측 구성은 Adobe에 의해 호스팅되는 배포에 대해서만 Adobe에서 수행할 수 있습니다. 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지](../../installation/using/capability-matrix.md)를 참조하십시오. 호스팅된 모델과 하이브리드 모델에 대한 설치 및 구성 단계는 이 [섹션](../../installation/using/hosting-models.md)에 있습니다.
 
 첫 번째 매개 변수는 **shared** 노드 내에 있습니다. 인스턴스와 관련이 있습니다. 이러한 명령은 모든 nlserver 명령(nlserver web, nlserver wfserver 등)에서 잠재적으로 사용됩니다. 다른 섹션은 특정 nlserver 하위 명령과 관련되어 있습니다.
 
@@ -2193,7 +2193,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 
 다음은 **securityZone** 노드의 다른 매개 변수입니다.
 
-자세한 내용은 [보안 영역 정의](../../installation/using/configuring-campaign-server.md#defining-security-zones)를 참조하십시오.
+자세한 내용은 [보안 영역 정의](../../installation/using/security-zones.md)를 참조하십시오.
 
 <table> 
  <thead> 
@@ -2291,7 +2291,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 
 다음은 **securityZone > subNetwork** 노드의 다른 매개 변수입니다.
 
-자세한 내용은 [보안 영역 정의](../../installation/using/configuring-campaign-server.md#defining-security-zones)를 참조하십시오.
+자세한 내용은 [보안 영역 정의](../../installation/using/security-zones.md)를 참조하십시오.
 
 <table> 
  <thead> 
