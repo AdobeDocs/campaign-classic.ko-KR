@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: f7e4f129a96e80ec169428057f661165d8b967c9
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Adobe Campaign에서는 다양한 연산자에 할당된 권한을 정의하고 
 
 권한은 연산자 프로필 또는 연산자 그룹에 적용됩니다.
 
-연산자의 연결 모드에 연결된 안전 매개 변수에 의해 완료됩니다. [이 페이지](../../installation/using/configuring-campaign-server.md#defining-security-zones)의 보안 영역에 대한 자세한 내용을 보려면
+연산자의 연결 모드에 연결된 안전 매개 변수에 의해 완료됩니다. [이 페이지](../../installation/using/security-zones.md)의 보안 영역에 대한 자세한 내용을 보려면
 
 사용자에게 부여할 수 있는 권한은 두 가지 있습니다.
 
