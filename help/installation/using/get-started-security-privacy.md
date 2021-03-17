@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: 45a77d3fc143ab9c6f9f17ab6118f8816254f6fd
+source-git-commit: 922603492d2c98d751683d3aa481e9ab19bca70c
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '450'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 보안 및 개인 정보 보호 시작하기 {#get-started-security-privacy}
 
-이 섹션에서는 보안 및 개인 정보를 확인할 수 있는 주요 요소를 소개합니다.
+이 섹션에서는 보안 및 개인 정보를 확인할 수 있는 주요 요소를 소개합니다. 일부 구성은 온-프레미스 고객만 수행할 수 있습니다.
 
 ## 개인 정보
 
@@ -52,9 +52,9 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발하는 경우 
 
 * **스크립팅**:SQL 문을 사용하지 말고 문자열 연결 대신 매개 변수가 있는 함수를 사용하십시오. 허용 목록에 사용할 SQL 함수를 추가하면 SQL 주입을 방지할 수 있습니다.
 
-* **데이터 모델 보안**:명명된 권한을 사용하여 연산자 작업을 제한하고 시스템 필터를 추가합니다(sysFilter).
+* **데이터 모델의 보안**:명명된 권한을 사용하여 연산자 작업을 제한하고 시스템 필터를 추가합니다(sysFilter).
 
-* **웹 응용 프로그램에 캡션 추가**:공개 랜딩 페이지 및 구독 페이지에서 캡처를 추가하는 방법을 알아봅니다.
+* **웹 애플리케이션에 캡처를 추가합니다**.공개 랜딩 페이지 및 구독 페이지에서 캡처를 추가하는 방법을 알아봅니다.
 
 [자세한 내용](../../installation/using/scripting-coding-guidelines.md)
 
@@ -92,9 +92,9 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발하는 경우 
 
 웹 서버(Apache/IIS)를 구성할 때는 몇 가지 우수 사례를 수행해야 합니다.
 
-* 이전 SSL 버전 및 암호 비활성화:
-* TRACE 메서드를 제거합니다.
-* 배너 제거:
+* 이전 SSL 버전 및 암호 비활성화
+* TRACE 메서드 제거
+* 배너 제거
 * 쿼리 크기를 제한하여 중요한 파일이 업로드되지 않도록 합니다.
 
 [자세한 내용](../../installation/using/web-server-configuration.md)
