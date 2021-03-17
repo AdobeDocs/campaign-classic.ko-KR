@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '925'
 ht-degree: 1%
 
 ---
@@ -101,11 +101,6 @@ ht-degree: 1%
 이러한 유형의 첨부 파일에 대해 다음 구성 단계를 적용합니다.
 
 1. 업로드할 파일을 선택합니다.
-
-   >[!NOTE]
-   >
-   >소스 파일은 LibreOffice에서 만들어야 합니다. 인스턴스는 [이 섹션](../../installation/using/before-starting.md)에 자세히 설명된 사전 요구 사항과 함께 구성해야 합니다.
-
 1. 필요한 경우 레이블을 지정합니다.
 1. **[!UICONTROL Upload file on the server]**&#x200B;을 선택하고 **[!UICONTROL Update on server]**&#x200B;을 클릭하여 전송을 시작합니다.
 1. 미리 보기를 표시할 수 있습니다. 이렇게 하려면 수신자를 선택합니다.
