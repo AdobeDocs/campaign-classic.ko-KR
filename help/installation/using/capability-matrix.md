@@ -7,15 +7,15 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 translation-type: tm+mt
-source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '305'
 ht-degree: 19%
 
 ---
 
 
-# 기능 매트릭스 {#capability-matrix-per-model}
+# 모델당 기능 매트릭스{#capability-matrix-per-model}
 
 Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니다. 이러한 모듈 및 모듈의 사용 가능 여부는 설치 배포 유형에 따라 다릅니다. 이 문서에서는 완전히 호스팅된(Managed Services)과 온-프레미스 배포 간의 특정 기능에 대한 주요 차이점에 대해 자세히 설명합니다.
 
