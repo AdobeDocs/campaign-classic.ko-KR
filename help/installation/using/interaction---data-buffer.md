@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '299'
 ht-degree: 3%
 
 ---
@@ -17,9 +17,7 @@ ht-degree: 3%
 
 # 상호 작용 - 데이터 버퍼{#interaction-data-buffer}
 
->[!NOTE]
->
->일부 구성은 Adobe에 의해 호스팅되는 배포에 대해서만 Adobe에서 수행할 수 있습니다. 예를 들어 서버 및 인스턴스 구성 파일에 액세스하려면 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지](../../installation/using/capability-matrix.md)를 참조하십시오.
+오퍼 제안 계산 동기화를 해제하여 인바운드 상호 작용 성능을 높이도록 데이터 버퍼 영역을 구성할 수 있습니다. 이 구성은 인스턴스의 자체 구성 파일(config-Instance.xml)에서 수행됩니다.
 
 Adobe Campaign에서 **데이터 버퍼 영역**&#x200B;이(가) 상호 작용 모듈에 도입되었습니다. 이렇게 하면 재고 및 오퍼 계산을 동기화하여 **인바운드 상호 작용의 성능**&#x200B;을 높일 수 있습니다.
 
@@ -27,12 +25,19 @@ Adobe Campaign에서 **데이터 버퍼 영역**&#x200B;이(가) 상호 작용 �
 
 수신자와 관련된 제안을 작성할 때 큐를 피하려면 새 w 프로세스에서 **데이터 버퍼 영역**&#x200B;을(를) 생성하므로 제안서는 **비동기적으로 작성될 수 있습니다**. 이 데이터 버퍼 영역은 정기적으로 읽히고 비워집니다. 기본 기간은 약 1초입니다. 따라서 제안 쓰기는 그룹화됩니다.
 
+>[!NOTE]
+>
+>이 매개 변수는 분산 아키텍처와 상호 작용을 사용하는 경우에 중요합니다.
+
 데이터 버퍼 영역 **구성**&#x200B;은 인스턴스의 구성 파일(config-Instance.xml)에서 수행할 수 있습니다.
 
->[!NOTE]
+>[!CAUTION]
+>
+>일부 구성은 Adobe에 의해 호스팅되는 배포에 대해서만 Adobe에서 수행할 수 있습니다. 예를 들어 서버 및 인스턴스 구성 파일에 액세스하려면 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지](../../installation/using/capability-matrix.md)를 참조하십시오.
 >
 >구성을 변경하려면 웹 서버(Apache:IIS)와 Adobe Campaign 프로세스를 다시 시작해야 합니다.\
 >데이터 버퍼 영역을 구성한 후 수정된 하드웨어 구성을 사용할 수 있는지 확인하십시오. (메모리 양).
+
 
 데이터 버퍼 영역을 구성한 후 수정된 하드웨어 구성을 사용할 수 있는지 확인하십시오. (메모리 양).
 
