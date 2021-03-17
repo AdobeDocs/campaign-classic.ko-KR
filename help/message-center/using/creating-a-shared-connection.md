@@ -7,7 +7,7 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 2%
@@ -93,7 +93,7 @@ ht-degree: 2%
 
 제어 인스턴스에서 암호를 지정하지 않고도 실행 인스턴스에 연결할 수 있도록 하려면 **메시지 센터** 액세스 권한 섹션에 제어 인스턴스의 IP 주소를 입력하면 됩니다. 그러나 기본적으로 빈 암호는 사용할 수 없습니다.
 
-빈 암호를 사용하려면 실행 인스턴스로 이동하고 이벤트를 전달하는 정보 시스템의 IP 주소로 제한된 보안 영역을 정의합니다. 이 보안 영역은 빈 암호를 허용하고 `<identifier> / <password>` 유형 연결을 허용해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#defining-security-zones)을 참조하십시오.
+빈 암호를 사용하려면 실행 인스턴스로 이동하고 이벤트를 전달하는 정보 시스템의 IP 주소로 제한된 보안 영역을 정의합니다. 이 보안 영역은 빈 암호를 허용하고 `<identifier> / <password>` 유형 연결을 허용해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/security-zones.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >**mc1** 과  **mc2** 는  **[!UICONTROL Message Center execution]** 권한이 있어야 하며 Adobe Campaign 클라이언트 콘솔에 액세스할 수 없습니다. 연산자는 항상 보안 영역과 연결되어 있어야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#defining-security-zones)을 참조하십시오.
+   >**mc1** 과  **mc2** 는  **[!UICONTROL Message Center execution]** 권한이 있어야 하며 Adobe Campaign 클라이언트 콘솔에 액세스할 수 없습니다. 연산자는 항상 보안 영역과 연결되어 있어야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/security-zones.md)을 참조하십시오.
 
 1. 각 연산자에 대해 **[!UICONTROL Restrict to information found in sub-folders of]** 상자를 선택하고 관련 폴더(**mc1** 연산자의 경우 **폴더 1**, **mc2** 연산자의 경우 **폴더 2**)를 선택합니다.
 
