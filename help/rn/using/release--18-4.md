@@ -1,15 +1,15 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 릴리스 18.4
-description: 릴리스 18.4
-audience: rn
-content-type: reference
-topic-tags: latest-release-notes
+title: Campaign 18.4 릴리스 노트
+description: Campaign 18.4에 대한 릴리스 노트
+feature: null
+role: null
+level: null
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2267'
 ht-degree: 7%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 7%
 * 설명이 포함된 문자(FDA/Teradata)이 포함된 필드를 쿼리할 때 발생하는 문제를 수정했습니다. 이제 외부 계정을 통해 Teradata 드라이버과 통신하는 데 사용되는 인코딩을 변경할 수 있습니다. (NEO-11818).
 * 푸시 알림의 추가 변수에 URL을 전달할 때 모바일 애플리케이션에서 받은 형식이 잘못되었거나 잘못된 데이터로 이어질 수 있는 추적 문제를 수정했습니다. (NEO-11468, NEO-11960)
 * 1:N 링크가 있는 값 배포를 사용할 때 표시 문제가 발생하는 문제를 수정했습니다. (NEO-11820)
-* teradata 16에서 벌크 로드가 작동하지 않는 문제를 해결했습니다.
+* 벌크 로드가 Teradata 16에서 작동하지 않는 문제를 해결했습니다.
 * 15.10 드라이버의 바인딩 문제를 방지하기 위해 Teradata의 타임스탬프에 대한 버퍼 크기를 늘렸습니다.
 * 업그레이드 후 문제를 야기할 수 있는 긴 이름 인덱스의 관리를 개선했습니다.
 * MTA(자식 처리) 중 사용 가능한 공유 메모리 시간이 개선되었습니다.
