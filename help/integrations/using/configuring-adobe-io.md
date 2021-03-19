@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 42166334d361ffdac13842cd9d07ca7c9859bbb2
+source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 6%
+source-wordcount: '579'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->oAuth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 **아래 설명에 따라 Adobe I/O으로 이동해야 합니다.** 레거시 oAuth 인증 모드는 **2021년 4월 30일**&#x200B;에 종료됩니다. [자세히 알아보기](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)
+>oAuth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 **아래 설명에 따라 Adobe I/O으로 이동해야 합니다.** Campaign이 있는 기존 OAuth 인증 모드는 2021년 11월 30일에 중단됩니다. [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 >
 >이 이동 중에 [!DNL Adobe I/O](으)로 들어오는 일부 트리거가 손실될 수 있습니다.
 
