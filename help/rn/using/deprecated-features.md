@@ -2,17 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Campaign Classic deprecated and removed features
-description: 이 페이지에는 Adobe Campaign Classic의 사용이 중단되거나 제거된 기능이 나열됩니다.
-audience: rn
-content-type: reference
-topic-tags: campaign-classic-deprecated-features
-internal: n
-snippet: y
+description: 이 페이지에는 Adobe Campaign Classic에서 사용되지 않는 기능 및 제거된 기능이 나열됩니다.
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: f78fa94fb4fb9236222886a167a46d252497b2aa
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 94%
+source-wordcount: '1716'
+ht-degree: 93%
 
 ---
 
