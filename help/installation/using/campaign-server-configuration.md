@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 2%
@@ -68,7 +68,7 @@ Adobe Campaign 데이터의 저장소 디렉토리(**var** 디렉토리)를 구�
 
    자세한 내용은 [매개 변수 개인화](../../installation/using/installing-packages-with-linux.md#personalizing-parameters)를 참조하십시오.
 
-## 프로세스 {#enabling-processes} 활성화
+## 프로세스 사용 {#enabling-processes}
 
 서버의 Adobe Campaign 프로세스는 **config-default.xml** 및 **`config-<instance>.xml`** 파일을 통해 활성화(비활성화됨)됩니다.
 
@@ -122,6 +122,6 @@ Adobe Campaign 데이터의 저장소 디렉토리(**var** 디렉토리)를 구�
    <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
    ```
 
-이 파일에서 사용할 수 있는 다른 배달 매개 변수는 [배달 매개 변수 개인화](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)에 있습니다.
+이 파일에서 사용할 수 있는 다른 전달 매개 변수는 [전달 매개 변수 개인화](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)에 있습니다.
 
 또한 [이메일 배달 가능 항목](../../installation/using/email-deliverability.md)을 참조하십시오.
