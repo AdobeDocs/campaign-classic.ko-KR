@@ -7,15 +7,15 @@ feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
+source-git-commit: 0ce968d8acdd0aea0211da248a085f05dfe70ae7
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 85%
+source-wordcount: '1056'
+ht-degree: 84%
 
 ---
 
 
-# Gold Standard 릴리스{#gold-standard}
+# Gold Standard 릴리스 노트{#gold-standard}
 
 이 페이지에는 Gold Standard 릴리스가 나열됩니다. 이 페이지](gs-overview.md)에서 캠페인 골드 표준 [에 대해 자세히 알아보십시오.
 
