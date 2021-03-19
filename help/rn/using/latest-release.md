@@ -3,14 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: 최신 릴리스
 description: 최신 Campaign Classic 릴리스 정보
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 14513d5ecbfdd5637b764c8f19bc01358e63c130
+source-git-commit: d1796224df95663c39fa5975e88c03a923c94878
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 99%
+source-wordcount: '908'
+ht-degree: 98%
 
 ---
 
@@ -82,7 +82,7 @@ _2021년 2월 22일_
 IOB-090020 Error in SSL library: 'IOB-090013 error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed (code 336134278)'
 ```
 
-* Target 데이터 개인화를 통한 새 게재를 보낼 수 없는 문제를 해결했습니다.
+* 타겟 데이터 개인화를 통한 새 게재가 전송되지 않는 문제를 해결했습니다(NEO-30323).
 * 마케팅 인스턴스에서 코어 파일을 발생시키는 몇 가지 충돌 문제를 해결습니다.
 * 다음 오류로 인해 **추적** 워크플로우가 실패하던 문제를 해결했습니다(NEO-25206).
 
