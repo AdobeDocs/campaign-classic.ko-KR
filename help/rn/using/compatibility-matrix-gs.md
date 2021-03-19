@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gold Standard 호환성 매트릭스
+title: Campaign Gold Standard용 호환성 표
 description: Gold Standard 릴리스의 Campaign Classic 호환성 매트릭스
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 9d1f5561098bb867b8a62e8bcdb14f60829be1ea
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '520'
+ht-degree: 98%
 
 ---
 
