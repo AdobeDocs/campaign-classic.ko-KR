@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: 릴리스 20.1
 description: 릴리스 20.1
-audience: rns
-content-type: reference
-topic-tags: campaign-release-notes, latest-release-notes
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1439'
 ht-degree: 10%
 
 ---
