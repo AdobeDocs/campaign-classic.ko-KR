@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 4%
@@ -42,7 +42,7 @@ nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 **`[rdbms]`** 매개 변수에는 다음 값을 사용할 수 있습니다.
 
 * **postgresql**:PostgreSQL의 경우,
-* **oracle**:oracle
+* **oracle**:oracle의 경우
 * **mssql**:Microsoft SQL Server용,
 * **DB2**:DB2 엔진에서 사용할 수 있습니다.
 
