@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 설명서 업데이트
-description: 이 페이지에서 Adobe Campaign Classic 릴리스의 새로운 기능과 설명서 업데이트 목록을 볼 수 있습니다.
-audience: rns
-content-type: reference
-topic-tags: latest-documentation-updates
+description: 이 페이지에는 Adobe Campaign Classic 설명서의 모든 새로운 기능과 업데이트가 나열됩니다.
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
 workflow-type: tm+mt
-source-wordcount: '4193'
-ht-degree: 97%
+source-wordcount: '4194'
+ht-degree: 96%
 
 ---
 
