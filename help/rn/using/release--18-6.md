@@ -1,15 +1,18 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 릴리스 18.6
-description: 릴리스 18.6
+title: Campaign 18.6 릴리스 노트
+description: Campaign 18.6에 대한 릴리스 노트
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '803'
 ht-degree: 6%
 
 ---
@@ -37,7 +40,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> 쿼리 밴딩<br /> </td> 
-   <td> <p>여러 Campaign 사용자가 동일한 FDA Teradata 외부 계정에 연결하면 이제 각 사용자별 쿼리 밴드(키/값 쌍)를 전달할 수 있습니다. Campaign 사용자가 Teradata 데이터베이스에 대해 쿼리를 수행할 때마다 Adobe Campaign은 이제 사용자와 연관된 메타 데이터를 보낼 수 있습니다. 키 및 값 목록으로 구성된 이러한 데이터는 감사 목적으로 Teradata 관리자가 사용하거나 액세스 권한을 관리할 수 있습니다(예:</p><p>자세한 내용은 <a href="../../installation/using/external-accounts.md">세부 설명서</a>를 참조하십시오.</p> </td>
+   <td> <p>여러 Campaign 사용자가 동일한 FDA Teradata 외부 계정에 연결하면 이제 각 사용자별 쿼리 밴드(키/값 쌍)를 전달할 수 있습니다. Campaign 사용자가 Teradata 데이터베이스에 대해 쿼리를 수행할 때마다 Adobe Campaign은 이제 사용자와 연관된 메타 데이터를 보낼 수 있습니다. 키 및 값 목록으로 구성된 이러한 데이터는 감사 목적으로 또는 액세스 권한 관리를 위해 Teradata 관리자가 사용할 수 있습니다.</p><p>자세한 내용은 <a href="../../installation/using/external-accounts.md">세부 설명서</a>를 참조하십시오.</p> </td>
   </tr> 
  </tbody> 
 </table>
