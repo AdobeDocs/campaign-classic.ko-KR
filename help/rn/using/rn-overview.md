@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: 업그레이드 시작
 description: Campaign Classic 업그레이드에 대한 자세한 내용
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ### Gold Standard{#upgrade-for-gold-standard-users}
 
-호스팅된 Gold Standard 사용자는 아무런 조치 없이 [최신 GA Gold Standard 빌드](../../rn/using/gold-standard.md#gs-11)로 Gold Standard 업그레이드를 자동으로 활용할 수 있습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html)
+호스팅된 Gold Standard 사용자는 아무런 조치 없이 [최신 GA Gold Standard 빌드](../../rn/using/gold-standard.md#gs-11)로 Gold Standard 업그레이드를 자동으로 활용할 수 있습니다. [자세히 알아보기](../../rn/using/gs-overview.md)
 
 >[!NOTE]
 >Gold Standard용 호환성 매트릭스는 [GA 호환성 매트릭스](../../rn/using/compatibility-matrix-gs.md)에서 사용할 수 있습니다.
