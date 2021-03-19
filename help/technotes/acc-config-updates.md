@@ -6,9 +6,9 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
+source-git-commit: 587daebd8a779bb9d0917fd2dfab4144494809e3
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1027'
 ht-degree: 7%
 
 ---
@@ -72,11 +72,11 @@ ht-degree: 7%
 
 IMS(Adobe Identity Service)는 2021년 6월 30일부터 이전 Internet Explorer 버전 지원을 중단합니다&#x200B;**.** [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
-캠페인 클라이언트 콘솔이 다음 캠페인 버전에서 Adobe IMS와 호환되도록 업데이트되었습니다.
+Adobe IMS와 호환되도록 캠페인 클라이언트 콘솔을 업데이트했습니다.
 
 **당신은 영향을 받습니까?**
 
-IMS(Adobe ID 서비스)를 통해 Adobe ID](../integrations/using/about-adobe-id.md)을 통해 캠페인 [에 연결하는 경우 아래 나열된 새 버전 중 하나로 업그레이드해야 합니다.
+Adobe ID](../integrations/using/about-adobe-id.md)을 통해 IMS(Identity Management Service)를 통해 캠페인 [에 연결하는 경우 아래 나열된 새 버전 중 하나로 업그레이드해야 합니다.
 
 * Gold Standard 11. [자세히 알아보기](../rn/using/gold-standard.md)
 * 캠페인 21.1.1 릴리스. [자세히 알아보기](../rn/using/latest-release.md)
