@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: 설명서
 translation-type: tm+mt
-source-git-commit: baa41d876b889d2746f593e97f6b624dfffa5911
+source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2474'
 ht-degree: 55%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 55%
    + [업그레이드 시작](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
    + Gold Standard 릴리스 {#gs-release}
+      + [Gold Standard 소개](rn/using/gs-overview.md)
       + [Gold Standard 릴리스 노트](rn/using/gold-standard.md)
       + [Gold Standard 호환성 표](rn/using/compatibility-matrix-gs.md)
    + 이전 릴리스 {#previous-releases}
