@@ -6,7 +6,7 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 587daebd8a779bb9d0917fd2dfab4144494809e3
+source-git-commit: cac3e22dd9aa8220f6980bef0d57c11d47c91163
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 7%
@@ -47,7 +47,7 @@ ht-degree: 7%
 
 위에 나열된 최신 빌드 중 하나로 업그레이드해야 합니다.
 
-* 하이브리드 고객인 Adobe은 mid-sourcing 인스턴스를 새 버전으로 업그레이드하며 해당 마케팅 인스턴스도 업그레이드하는 것이 좋습니다.
+* 하이브리드 고객인 Adobe은 마케팅 인스턴스를 새 버전으로 업그레이드하며 마케팅 인스턴스도 업그레이드하는 것이 좋습니다.
 
    새 빌드는 최소 Campaign Classic 17.9 릴리스와 호환되지만 보안 격차를 방지하기 위해 모든 인스턴스를 새 빌드로 업그레이드할 것을 Adobe에서 적극 권장합니다. 
 
