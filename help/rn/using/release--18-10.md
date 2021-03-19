@@ -1,15 +1,15 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 릴리스 18.10
-description: 릴리스 18.10
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+title: Campaign 18.10 릴리스 노트
+description: Campaign 18.10에 대한 릴리스 노트
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt
-source-wordcount: '2366'
+source-wordcount: '2375'
 ht-degree: 7%
 
 ---
@@ -147,7 +147,7 @@ ht-degree: 7%
 **개선 사항**
 
 * 이제 [전용 페이지](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)에서 Campaign Classic API를 사용할 수 있습니다. jsapi.chm 파일을 사용하는 경우 이제 새로운 온라인 버전을 참조해야 합니다.
-* PostgreSQL 10, Debian 9 및 Teradata 16.20이 지원됩니다. [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)를 참조하십시오.
+* 이제 PostgreSQL 10, Debian 9 및 Teradata 16.20이 지원됩니다. [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)를 참조하십시오.
 * 이제 SFTP 연결을 만들 때 프록시 인증을 사용할 수 있습니다. 자세한 내용은 [자세한 설명서](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration) (NEO-9868)를 참조하십시오.
 * 이제 DM 배달 템플릿을 사용하여 단일 배달을 만들 때 배달 속성에서 **날짜 계산 공식** 옵션을 사용할 수 있습니다. (NEO-9792)
 * 쿠키 추적 및 웹 응용 프로그램에 대한 도메인 이름 관리가 개선되었습니다. 자세한 내용은 아래의 &#39;기술 발전&#39; 섹션을 참조하십시오.
@@ -220,9 +220,9 @@ UTF-8 데이터 정렬을 사용할 때 이제 &quot;LIKE &#39;string%&#39;(또�
 * **프로필 및 Target** 화면에서 수신자를 검색하지 못하는 문제를 해결했습니다. (NEO-8228)
 * 기록 수가 많은 경우 이벤트 내역 폴더에 액세스할 때 시간 초과 오류가 발생하는 문제를 해결했습니다. (NEO-11738)
 * LINE 배달 수신자가 &quot;접근 불가&quot;로 잘못 반환될 수 있는 문제가 수정되었습니다. (NEO-10833)
-* oracle에서 추가 열이 있는 워크플로우 쿼리를 실행할 때 발생하는 문제가 해결되었습니다. (NEO-11615)
+* oracle에 추가 열이 있는 워크플로우 쿼리를 실행할 때 발생하는 문제가 해결되었습니다. (NEO-11615)
 * 연결 풀에 닫힌 연결이 너무 오랫동안 유지되지 않도록 개선되었습니다. (NEO-11392)
-* 타깃팅 워크플로우 활동(쿼리, 데이터 로드(RDBMS) 등)을 사용할 때 발생하는 문제가 해결되었습니다. UTF8 문자가 포함된 외부 Oracle 표에 FDA를 통해 연결됨(테이블 이름, 필드 이름 등) 또한 시스템에서 생성된 기본 제약 조건 이름의 기본 키 제약 조건을 포함합니다. (NEO-10714)
+* 타깃팅 워크플로우 활동(쿼리, 데이터 로드(RDBMS) 등)을 사용할 때 발생하는 문제가 해결되었습니다. UTF8 문자가 포함된 외부 Oracle 표(테이블 이름, 필드 이름 등)에 FDA를 통해 연결됨 또한 시스템에서 생성된 기본 제약 조건 이름의 기본 키 제약 조건을 포함합니다. (NEO-10714)
 * 게재의 HTML 컨텐츠를 삭제하지 못하는 문제를 해결했습니다. (NEO-11327)
 * 캠페인을 실행한 후 XML 및 CSV 파일을 DM으로 미리 보는 문제가 해결되었습니다. (NEO-11290)
 * 데이터 연계 강화 워크플로우 활동에서 데이터를 정렬할 때 발생하는 문제가 해결되었습니다. (NEO-11394)
@@ -233,11 +233,11 @@ UTF-8 데이터 정렬을 사용할 때 이제 &quot;LIKE &#39;string%&#39;(또�
 * 데이터 로드 활동을 사용하여 데이터 유형이 &#39;시간&#39;인 열을 가져올 때 발생하는 문제를 수정했습니다.시간 구분 문자는 제거한 후에도 재설정됩니다. (NEO-10743)
 * 반복 배달을 편집할 때 배달 속성의 실행 폴더 목록에 배달 폴더가 표시되지 않던 문제를 수정했습니다. (NEO-11094)
 * 워크플로우에서 쿼리 활동의 결과 대상으로 200개 이상의 레코드를 표시하는 [채우기 보기] 창의 문제를 해결했습니다. (NEO-11195)
-* 1,000개 이상의 요소를 선택한 상태로 DELETE 쿼리를 실행할 수 없는 Oracle 문제를 수정했습니다. (NEO-11171)
+* DELETE 쿼리가 1,000개 이상의 요소를 선택한 상태로 실행되지 않던 Oracle의 문제를 수정했습니다. (NEO-11171)
 * Android 푸시 알림 전달의 추가 매개 변수에서 추적된 URL로 URL을 인코딩하는 문제를 해결했습니다. (NEO-11468)
 * 매개 변수를 &#39;하루 간격&#39; 및 &#39;열기&#39;로 설정할 때 사용자 활동 보고서에서 발생하는 스크립트 오류를 수정했습니다. (NEO-11655)
 * 인증된 웹 프록시를 통해 중간 소싱 서버 또는 메시지 센터에 연결할 때 발생하는 문제를 수정했습니다. (NEO-11309)
-* SQL 보기&#x200B;**에 따라 특정 스키마**&#x200B;의 요소를 선택한 후 새 배달 컴포지션이 저장될 때 발생하는 Oracle 오류가 수정되었습니다. (NEO-11682)
+* SQL 보기&#x200B;**에 따라 특정 스키마**&#x200B;의 요소를 선택한 후 새 배달 컴포지션을 저장할 때 발생하는 Oracle 오류가 수정되었습니다. (NEO-11682)
 * 압축 해제 옵션을 사용하여 .csv를 포함하는 압축 파일을 처리할 때 잘못된 위치 정보를 포함하는 파일이 생성되던 문제를 수정했습니다.
 * xtkjoblog가 이제 정리 작업에 의해 삭제됩니다.
 
