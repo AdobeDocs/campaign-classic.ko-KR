@@ -1,15 +1,15 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 릴리스 20.3
-description: 릴리스 20.3
-audience: rns
-content-type: reference
-topic-tags: campaign-release-notes, latest-release-notes
+title: Campaign 20.3 릴리스 노트
+description: Campaign 20.3에 대한 릴리스 노트
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 1bd40c6acaceb1bb4839807ae89c6956bc2b8d69
+source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1952'
 ht-degree: 95%
 
 ---
@@ -32,7 +32,7 @@ _2020년 10월 27일_
 >
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 6월 30일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다&#x200B;**.**
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 이 페이지](../../integrations/using/configuring-adobe-io.md)에서 설명한 대로 Adobe I/O으로 이동해야 합니다. [ 레거시 oAuth 인증 모드는 **2021년 4월 30일**&#x200B;에 종료됩니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 이 페이지](../../integrations/using/configuring-adobe-io.md)에서 설명한 대로 Adobe I/O으로 이동해야 합니다. [ 캠페인이 포함된 레거시 인증 모드는 **2021년 11월 30일에 종료됩니다**.
 
 
 **새로운 기능**
