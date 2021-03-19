@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: 설명서
 translation-type: tm+mt
-source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
+source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2473'
 ht-degree: 55%
 
 ---
@@ -651,7 +651,7 @@ ht-degree: 55%
       + [시간대 관리](installation/using/time-zone-management.md)
       + [중간 소싱 서버 설치](installation/using/mid-sourcing-server.md)
    + 캠페인 배포(온-프레미스) {#initial-configuration}
-      + [초기 구성 정보](installation/using/about-initial-configuration.md)
+      + [주요 단계](installation/using/about-initial-configuration.md)
       + [인스턴스 만들기 및 로그온](installation/using/creating-an-instance-and-logging-on.md)
       + [데이터베이스 만들기 및 구성](installation/using/creating-and-configuring-the-database.md)
       + [캠페인 서버 구성](installation/using/campaign-server-configuration.md)
