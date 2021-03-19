@@ -1,29 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gold Standard 릴리스
-description: Campaign Classic Gold Standard 릴리스 정보
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+title: Gold Standard 릴리스 노트
+description: Campaign Classic Gold Standard 릴리스 노트
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
+source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 88%
+source-wordcount: '1055'
+ht-degree: 85%
 
 ---
 
 
 # Gold Standard 릴리스{#gold-standard}
 
-Gold Standard는 Campaign Classic 장기 지원 릴리스입니다. 호스팅된 Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전의 Gold Standard 업그레이드를 자동으로 활용할 수 있습니다. 온-프레미스 및 하이브리드 고객도 Gold Standard 릴리스를 활용할 수 있습니다.
-
-이전 빌드에서 마이그레이션하는 경우 먼저 이 버전으로 업그레이드하는 것이 좋습니다.
-
-이 페이지에는 Gold Standard 릴리스가 나열됩니다.
-
-Campaign Gold Standard 프로그램에 대한 자세한 내용은 [이 문서를](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html) 참조하십시오.
+이 페이지에는 Gold Standard 릴리스가 나열됩니다. 이 페이지](gs-overview.md)에서 캠페인 골드 표준 [에 대해 자세히 알아보십시오.
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 11 릴리스{#gs-11}
 
@@ -46,7 +40,7 @@ _2020년 12월 22일_
 >
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 6월 30일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다&#x200B;**.**
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 이 페이지](../../integrations/using/configuring-adobe-io.md)에서 설명한 대로 Adobe I/O으로 이동해야 합니다. [ 레거시 oAuth 인증 모드는 **2021년 4월 30일**&#x200B;에 종료됩니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 이 페이지](../../integrations/using/configuring-adobe-io.md)에서 설명한 대로 Adobe I/O으로 이동해야 합니다. [ 캠페인이 포함된 레거시 인증 모드는 **2021년 11월 30일에 종료됩니다**.
 
 >
 >
