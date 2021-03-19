@@ -7,21 +7,21 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 5%
+source-wordcount: '167'
+ht-degree: 3%
 
 ---
 
 
-# 초기 구성 정보{#about-initial-configuration}
+# 인스턴스 {#about-initial-configuration}을(를) 구성하고 배포하는 주요 단계
 
 Adobe Campaign 설치가 완료되면 제약 조건 및 기술 아키텍처로 효율적으로 작동하도록를 구성해야 합니다. Adobe Campaign 인스턴스를 구성하는 단계는 이 장에 자세히 설명되어 있습니다.
 
-1. 인스턴스와 관련 연결을 만드는 방법은 [인스턴스 만들기 및](../../installation/using/creating-an-instance-and-logging-on.md)에 로그온을 참조하십시오.
-1. 데이터베이스를 만들고 구성하는 방법은 [데이터베이스 만들기 및 구성을 참조하십시오](../../installation/using/creating-and-configuring-the-database.md).
-1. Adobe Campaign 서버를 구성하는 방법은 [캠페인 서버 구성](../../installation/using/campaign-server-configuration.md)을 참조하십시오.
+1. 인스턴스와 관련 연결을 만듭니다. [인스턴스 만들기 및](../../installation/using/creating-an-instance-and-logging-on.md)에 로그온을 참조하십시오.
+1. 데이터베이스를 만들고 구성하려면 [데이터베이스 만들기 및 구성을 참조하십시오](../../installation/using/creating-and-configuring-the-database.md).
+1. Adobe Campaign 서버를 구성합니다. [캠페인 서버 구성](../../installation/using/campaign-server-configuration.md)을 참조하십시오.
 1. 인스턴스를 배포하려면 [인스턴스 배포](../../installation/using/deploying-an-instance.md)를 참조하십시오.
 
 인스턴스를 구성하면 활성화 프로세스(웹, mta, wfserver 등)가 포함됩니다. 을 사용하여 전자 메일을 보내거나 추적을 위해 모듈을 구성할 수 있습니다. 각 인스턴스에 대해 Adobe Campaign 프로세스가 서버에서 활성화됩니다. 자세한 내용은 [프로세스 활성화](../../installation/using/campaign-server-configuration.md#enabling-processes)를 참조하십시오.
