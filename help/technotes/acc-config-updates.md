@@ -6,7 +6,7 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 849a95c718f9dc58aeabc8a49d3bf8290ea79b86
+source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 7%
@@ -25,6 +25,7 @@ ht-degree: 7%
 >[!NOTE]
 >
 >이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+
 
 ## 보안 업데이트
 
@@ -101,7 +102,7 @@ IMS(Adobe ID 서비스)를 통해 Adobe ID](../integrations/using/about-adobe-id
 
 ## Experience Cloud 트리거과 통합
 
-레거시 oAuth 인증 서비스가 사용 종료되었습니다. 원래 파이프라인에 액세스하기 위해 oAuth 인증 설정을 기반으로 한 통합 인증이 Adobe I/O으로 이동되었습니다.이 서비스는 **2021년 4월 30일에 종료됩니다**. [자세히 알아보기](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)
+레거시 oAuth 인증 서비스가 사용 종료되었습니다. 원래 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 통합 인증이 Adobe I/O으로 이동되었습니다.**2021년 11월 30일에 종료됩니다**. [자세히 알아보기](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)
 
 **당신은 영향을 받습니까?**
 
