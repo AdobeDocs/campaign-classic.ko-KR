@@ -7,9 +7,9 @@ feature: null
 role: null
 level: null
 translation-type: tm+mt
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+source-git-commit: 96f5709b4c67d1979286cc1f71069a64435c5c70
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1484'
 ht-degree: 11%
 
 ---
@@ -18,6 +18,16 @@ ht-degree: 11%
 # 릴리스 19.2{#release-19-2}
 
 ## ![](assets/do-not-localize/limited_2.png) 릴리스 19.2.4 - 빌드 9082 {#release-19-2-4-build-9082}
+
+_2021년 3월 22일_
+
+* 게시의 날짜 선택기 및 이미지 관리와 같이 콘솔의 일부 구성 요소를 사용할 수 없는 회귀 문제를 해결했습니다. (NEO-31453, NEO-31454)
+
+**콘솔 업그레이드는 필수 사항입니다. 서버를 업그레이드할 필요가 없습니다.**
+
+>[!NOTE]
+>
+> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하여 새 버전을 다운로드합니다. 이 페이지](../../installation/using/client-console-availability-for-windows.md)에서 모든 최종 사용자 [에게 콘솔 업데이트를 제안하는 방법에 대해 알아봅니다.
 
 _2020년 12월 23일_
 
