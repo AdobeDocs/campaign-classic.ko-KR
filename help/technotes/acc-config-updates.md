@@ -6,9 +6,9 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: cac3e22dd9aa8220f6980bef0d57c11d47c91163
+source-git-commit: 96f5709b4c67d1979286cc1f71069a64435c5c70
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1035'
 ht-degree: 7%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->다른 버전에 대한 새 클라이언트 콘솔을 곧 사용할 수 있습니다.
+>이 수정은 최신 [19.1.8](../rn/using/release--19-1.md#release-19-1-8-build-9039), [19.2.4](../rn/using/release--19-2.md#release-19-2-4-build-9082) 및 [20.1.4](../rn/using/release--20-1.md#release-20-1-4-build-9126)에도 있습니다. 다른 버전에 대한 새 클라이언트 콘솔을 곧 사용할 수 있습니다.
 
 ## Adobe Identity Management 시스템(IMS) 업데이트
 
