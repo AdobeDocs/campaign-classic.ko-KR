@@ -7,10 +7,10 @@ feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
+source-git-commit: d41119e61ee2088e1b8cab65354547420f8e7737
 workflow-type: tm+mt
-source-wordcount: '4194'
-ht-degree: 96%
+source-wordcount: '4250'
+ht-degree: 94%
 
 ---
 
@@ -37,6 +37,8 @@ Campaign Classic에 대한 지원을 얻기 위한 지침과 참고가 포함된
 * [승인 프로세스 설정 및 관리](../../campaign/using/marketing-campaign-approval.md)
 
 작업을 종료하고 향후 회수를 방지하기 위해 task.setCompleted() 메서드를 사용하는 방법에 대한 정보가 **[!UICONTROL Advanced JavaScript]** 활동 섹션에 추가되었습니다. [자세한 내용](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
+
+[Delivery](../../delivery/using/about-deliverability.md) 섹션이 업데이트되었으며 이제 새 [Adobe 제공 우수 사례 안내서](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)에 대한 링크가 포함되어 있습니다. 다양한 Adobe 솔루션에 적용될 수 있는 전달 능력과 관련된 모든 일반 정보는 [모범 사례 가이드 부록](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources)로 이동되었습니다.
 
 ## 2021년 2월 {#release-21.1}
 
@@ -130,7 +132,7 @@ Android용 푸시 알림 개선 - [자세한 내용](../../delivery/using/config
 
 사용되지 않거나 제거된 기능 페이지가 업데이트되었습니다. [자세한 내용](../../rn/using/deprecated-features.md)
 
-Gold Standard 릴리스의 릴리스 노트 및 호환성 매트릭스는 이제 전용 섹션에서 사용할 수 있습니다.
+이제 전용 섹션에서 [!DNL Gold Standard] 릴리스의 릴리스 노트 및 호환성 매트릭스를 사용할 수 있습니다.
 [자세한 내용](../../rn/using/gold-standard.md#gs-11).
 
 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합이 변경되었으며 Adobe I/O로 이동되었습니다. [자세히 알아보기](../../integrations/using/configuring-adobe-io.md)
@@ -167,7 +169,7 @@ Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추�
 
 전용 섹션에서 Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다. [자세한 내용](../../delivery/using/delivery-best-practices.md)
 
-게재 모범 사례 랜딩 페이지는 하위 섹션에 쉽게 액세스할 수 있도록 개선되었습니다. [자세한 내용](../../delivery/using/deliverability-key-points.md)
+게재 모범 사례 랜딩 페이지는 하위 섹션에 쉽게 액세스할 수 있도록 개선되었습니다. [자세한 내용](../../delivery/using/about-deliverability.md)
 
 이제 다음 주제에 관한 방법 비디오를 사용할 수 있습니다.
 
@@ -206,7 +208,7 @@ FTP 서버에 연결한 후 &quot;호스트 이름을 확인할 수 없습니다
 
 증분 쿼리를 사용하여 목록을 자동으로 업데이트하는 방법에 대한 사용 사례가 워크플로우 사용 사례에 추가되었습니다. [자세한 내용](../../workflow/using/about-workflow-use-cases.md)
 
-[릴리스 정보](../../rn/using/latest-release.md)가 다음과 같이 재구성되었습니다. 빌드 상태, 업그레이드 프로세스, 권장 사항 및 중요 링크에 대한 정보가 포함된 [개요 페이지](../../rn/using/latest-release.md)가 추가되었습니다. [Gold Standard 릴리스](../../rn/using/gold-standard.md)에 대한 전용 페이지가 추가되었으며 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)가 통합되었습니다.
+[릴리스 정보](../../rn/using/latest-release.md)가 다음과 같이 재구성되었습니다. 빌드 상태, 업그레이드 프로세스, 권장 사항 및 중요 링크에 대한 정보가 포함된 [개요 페이지](../../rn/using/latest-release.md)가 추가되었습니다. [[!DNL Gold Standard]  릴리스](../../rn/using/gold-standard.md)에 대한 전용 페이지가 추가되었으며 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)가 통합되었습니다.
 
 Campaign Classic 모니터링과 관련된 지침과 함께 새 섹션이 추가되었습니다. [자세한 내용](../../production/using/monitoring-guidelines.md)
 
@@ -266,7 +268,7 @@ Spam Assassin 설치 섹션이 새 설치 파일 이름으로 업데이트되었
 
 전달 능력 문제 해결 섹션이 이동되고 개선되었습니다. [자세한 내용](../../delivery/using/deliverability-faq.md)
 
-새 플랫폼 섹션을 시작할 때의 게재 기능 지침이 향상되었습니다. [자세한 내용](../../delivery/using/starting-new-platform.md)
+새 플랫폼을 시작할 때 제공 가능성 가이드라인이 향상되었습니다. [자세한 내용](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html#transition-process)
 
 첨부 파일이 있는 트랜잭션 전자 메일 전송 섹션이 이동 및 업데이트되었습니다. [자세한 내용](../../message-center/using/transactional-email-with-attachments.md)
 
@@ -476,7 +478,7 @@ Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이
 
 Campaign 서버 제거 단계를 설명하는 섹션이 추가되었습니다. [자세한 내용](../../installation/using/uninstalling-campaign.md)
 
-[보안](https://helpx.adobe.com/kr/campaign/kb/acc-security.html),[게재 기능](../../delivery/using/deliverability-key-points.md) 및 [개인 정보](../../platform/using/privacy-management.md) 시작 가이드가 업데이트되었습니다.
+[보안](https://helpx.adobe.com/kr/campaign/kb/acc-security.html),[게재 기능](../../delivery/using/about-deliverability.md) 및 [개인 정보](../../platform/using/privacy-management.md) 시작 가이드가 업데이트되었습니다.
 
 제품 변경 사항을 반영하도록 프로세스 전 워크플로우 옵션에 대한 설명이 업데이트되었습니다. [자세한 내용](../../workflow/using/data-loading--file-.md)
 
