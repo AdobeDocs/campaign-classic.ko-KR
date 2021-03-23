@@ -6,9 +6,9 @@ description: 파이프라인 구성 방법 알아보기
 audience: integrations
 content-type: reference
 translation-type: tm+mt
-source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 이 구성을 시작하기 전에 다음을 사용 중인지 확인하십시오.
 
-* Adobe Campaign 20.3, 20.2.4, 19.1.8 또는 Gold Standard 11 최소
+* Adobe Campaign 20.3, 20.2.4, 19.1.8 또는 [!DNL Gold Standard] 11 최소
 * Adobe Analytics Standard 버전
 
 또한 다음 작업이 필요합니다.
