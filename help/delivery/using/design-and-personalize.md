@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 2aa1a1c5da7b552cae916885c011aa4aaf9b61db
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1278'
 ht-degree: 7%
 
 ---
@@ -114,7 +114,7 @@ Adobe Campaign 데이터베이스에 저장되어 있거나 추적, 랜딩 페�
 
 * 이메일에서 **인증된 문자**&#x200B;의 사용:이메일 주소의 유효한 문자 목록은 &quot;XtkEmail_Characters&quot; 옵션에 정의됩니다. 이 섹션](../../installation/using/configuring-campaign-options.md)에서 캠페인 옵션 [에 액세스하는 방법을 알아봅니다. 특수 문자를 올바로 처리하려면 Adobe Campaign을 유니코드로 설치해야 합니다.
 
-* **이메일 인증**&#x200B;의 구성:이메일 헤더에 DKIM 서명이 포함되어 있는지 확인합니다. DKIM(Domain Keys Identified Mail) 인증을 통해 수신 이메일 서버는 메시지를 실제로 전송했다고 주장하는 사람 또는 엔티티가 메시지를 보냈는지, 메시지 컨텐츠가 원래 전송된 시간(및 DKIM &quot;signed&quot;) 및 수신한 시간 사이에 변경되었는지 여부를 확인할 수 있습니다. 이 표준은 일반적으로 보낸 사람 헤더의 도메인을 사용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/technical-recommendations.md#dkim)을 참조하십시오.
+* **이메일 인증**&#x200B;의 구성:이메일 헤더에 DKIM 서명이 포함되어 있는지 확인합니다. DKIM(Domain Keys Identified Mail) 인증을 통해 수신 이메일 서버는 메시지를 실제로 전송했다고 주장하는 사람 또는 엔티티가 메시지를 보냈는지, 메시지 컨텐츠가 원래 전송된 시간(및 DKIM &quot;signed&quot;) 및 수신한 시간 사이에 변경되었는지 여부를 확인할 수 있습니다. 이 표준은 일반적으로 보낸 사람 헤더의 도메인을 사용합니다. 자세한 내용은 [Adobe 제공 우수 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)를 참조하십시오.
 
 ### 반응형 이메일 디자인
 
