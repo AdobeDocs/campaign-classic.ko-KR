@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 19%
+source-wordcount: '296'
+ht-degree: 16%
 
 ---
 
@@ -56,5 +56,5 @@ Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보
 * [릴리스 정보](../../rn/using/latest-release.md)
 * [Campaign Classic 업그레이드](../../rn/using/rn-overview.md)
 * [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md)
-* [Gold Standard 릴리스](../../rn/using/gold-standard.md)
-* [Gold Standard 프로그램](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html)
+* [[!DNL Gold Standard] 릴리스](../../rn/using/gold-standard.md)
+* [[!DNL Gold Standard] 프로그램](../../rn/using/gs-overview.md)
