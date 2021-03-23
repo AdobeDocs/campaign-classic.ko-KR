@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
-source-wordcount: '2572'
+source-wordcount: '2580'
 ht-degree: 14%
 
 ---
@@ -205,7 +205,7 @@ ht-degree: 14%
    >
    >바운스 사서함의 구성은 [이 섹션](../../installation/using/deploying-an-instance.md#managing-bounced-emails)에 자세히 설명되어 있습니다.
 
-   [피드백 루프](../../delivery/using/technical-recommendations.md#feedback-loop)는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸으로 취급하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에 대한 모든 배달을 차단할 수 있습니다. 스팸으로 이메일을 자격을 부여받은 사용자에게 보낸 메시지는 이러한 목적으로 특별히 작성된 이메일 상자로 자동으로 리디렉션됩니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 차단 목록 않아도에 있습니다. 주소는 (**NmsAddress**) 격리 테이블에 있고 (**NmsRecipient**) 수신자 테이블에 차단 목록 없습니다.
+   [피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸으로 취급하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에 대한 모든 배달을 차단할 수 있습니다. 스팸으로 이메일을 자격을 부여받은 사용자에게 보낸 메시지는 이러한 목적으로 특별히 작성된 이메일 상자로 자동으로 리디렉션됩니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 차단 목록 않아도에 있습니다. 주소는 (**NmsAddress**) 격리 테이블에 있고 (**NmsRecipient**) 수신자 테이블에 차단 목록 없습니다.
 
    >[!NOTE]
    >
