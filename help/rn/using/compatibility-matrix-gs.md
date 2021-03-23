@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Campaign Gold Standard용 호환성 표
-description: Gold Standard 릴리스의 Campaign Classic 호환성 매트릭스
+title: 캠페인 [!DNL Gold Standard]에 대한 호환성 표
+description: ' [!DNL Gold Standard] 릴리스에 대한 Campaign Classic 호환성 표'
 feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '512'
 ht-degree: 98%
 
 ---
 
 
-# Gold Standard 호환성 매트릭스{#compatibility-matrix-gs}
+# [!DNL Gold Standard] 호환성 매트릭스{#compatibility-matrix-gs}
 
-이 문서에서는 **Adobe Campaign Classic Gold Standard** 19.1 빌드에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign 버전과 호환되지 않습니다.
+이 문서에서는 **Adobe Campaign Classic[!DNL Gold Standard]** 19.1 빌드에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign 버전과 호환되지 않습니다.
 
 ## 중요 정보{#important-notes-gs}
 
