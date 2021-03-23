@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
-source-wordcount: '2605'
+source-wordcount: '2613'
 ht-degree: 14%
 
 ---
@@ -125,7 +125,7 @@ Adobe Campaign은 배달 실패 유형 및 오류 메시지 자격 조건([바�
 * **하드 오류**: 해당 이메일 주소가 즉시 격리됩니다.
 * **소프트 오류**: 소프트 오류의 경우 주소가 즉시 격리되지는 않지만, 오류 카운터가 증가합니다. 자세한 내용은 [소프트 오류 관리](#soft-error-management)를 참조하십시오.
 
-사용자가 이메일을 스팸([피드백 루프](../../delivery/using/technical-recommendations.md#feedback-loop))으로 자격이 되는 경우, 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 격리되도록 전송됩니다.
+사용자가 이메일을 스팸([피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops))으로 자격이 되는 경우, 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 격리되도록 전송됩니다.
 
 격리된 주소 목록에서 **[!UICONTROL Error reason]** 필드는 선택한 주소를 격리된 이유를 나타냅니다. Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
 
