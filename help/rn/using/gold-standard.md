@@ -1,25 +1,25 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gold Standard 릴리스 노트
-description: Campaign Classic Gold Standard 릴리스 노트
+title: '[!DNL Gold Standard] 릴리스 노트'
+description: Campaign Classic [!DNL Gold Standard] 릴리스 노트
 feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: 0ce968d8acdd0aea0211da248a085f05dfe70ae7
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 84%
+source-wordcount: '1026'
+ht-degree: 83%
 
 ---
 
 
-# Gold Standard 릴리스 노트{#gold-standard}
+# [!DNL Gold Standard] 릴리스 노트{#gold-standard}
 
-이 페이지에는 Gold Standard 릴리스가 나열됩니다. 이 페이지](gs-overview.md)에서 캠페인 골드 표준 [에 대해 자세히 알아보십시오.
+이 페이지에는 [!DNL Gold Standard] 릴리스가 나열됩니다. 이 페이지](gs-overview.md)에서 캠페인 [!DNL Gold Standard] [에 대해 자세히 알아보십시오.
 
-## ![](assets/do-not-localize/green_2.png) Gold Standard 11 릴리스{#gs-11}
+## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] 11 릴리스{#gs-11}
 
 _2021년 3월 2일_
 
@@ -44,7 +44,7 @@ _2020년 12월 22일_
 
 >
 >
-[Gold Standard 11 업그레이드 FAQ](https://helpx.adobe.com/kr/campaign/kb/gold-standard-upgrade.html)에서 자세히 알아보십시오.
+[[!DNL Gold Standard] 11 업그레이드 FAQ](https://helpx.adobe.com/kr/campaign/kb/gold-standard-upgrade.html)에서 자세한 내용을 살펴보십시오.
 
 빌드 9032@d3b452f는 다음과 같은 개선 사항 및 수정 사항을 포함합니다.
 
@@ -58,7 +58,7 @@ _2020년 12월 22일_
 
 * **보강** 활동을 실행할 때 워크플로우가 실패할 수 있는 문제를 해결했습니다. (NEO-17338)
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 10 릴리스{#gs-10}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 10 릴리스{#gs-10}
 
 _2020년 7월 7일_
 
@@ -70,7 +70,7 @@ _2020년 7월 7일_
 >
 >이 릴리스에서 사용할 수 있는 클라이언트 콘솔을 업그레이드하는 것이 좋습니다. [이 페이지](../../installation/using/installing-the-client-console.md)를 참조하십시오
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 9 릴리스{#gs-9}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 9 릴리스{#gs-9}
 
 _2020년 6월 22일_
 
@@ -86,7 +86,7 @@ _2020년 6월 22일_
 * 피싱 방지 서비스 문제를 해결했습니다. (NEO-25283)
 * 특정 사용자 지정 추적 공식을 사용할 때의 추적 문제를 해결했습니다. (NEO-25277)
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 8 릴리스{#gs-8}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 8 릴리스{#gs-8}
 
 _2020년 4월 29일_
 
@@ -111,7 +111,7 @@ _2020년 4월 29일_
 * 정리 워크플로우가 충돌하는 회귀 문제를 해결했습니다.
 * 정리 워크플로우 로그에서 사소한 회귀 문제를 해결했습니다.
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 6 릴리스{#gs-6}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 6 릴리스{#gs-6}
 
 _2020년 3월 9일_
 
@@ -119,7 +119,7 @@ _2020년 3월 9일_
 
 * SSL을 통해 FTP를 사용하는 외부 계정 문제를 해결했습니다. (NEO-20498)
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 5 릴리스{#gs-5}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 5 릴리스{#gs-5}
 
 _2019년 12월 17일_
 
@@ -127,7 +127,7 @@ _2019년 12월 17일_
 
 * 모바일(SMS, MMS), 푸시(iOS, Android) 및 소셜 네트워크(Facebook, Twitter)와 같은 통신 채널의 추적 문제를 해결했습니다. (NEO-19595)
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 4 릴리스{#gs-4}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 4 릴리스{#gs-4}
 
 _2019년 12월 11일_
 
@@ -135,7 +135,7 @@ _2019년 12월 11일_
 
 * MSSQL 데이터베이스를 사용하여 메시지를 전송할 때 성능 문제를 해결했습니다. (NEO-17558)
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 3 릴리스{#gs-3}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 3 릴리스{#gs-3}
 
 _2019년 11월 20일_
 
@@ -145,7 +145,7 @@ _2019년 11월 20일_
 * 다중 게재에 대한 누적 보고서를 표시할 때 발생하는 문제를 해결했습니다. (NEO-18165)
 * 웹 서버 충돌을 차단하거나 야기할 수 있는 문제를 해결했습니다.
 
-## ![](assets/do-not-localize/red_2.png) Gold Standard 2 릴리스{#gs-2}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 2 릴리스{#gs-2}
 
 _2019년 9월 19일_
 
