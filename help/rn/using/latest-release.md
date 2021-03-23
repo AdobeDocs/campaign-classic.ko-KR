@@ -7,10 +7,10 @@ feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: d1796224df95663c39fa5975e88c03a923c94878
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 98%
+source-wordcount: '906'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 이 페이지에는 **최신 Campaign Classic 릴리스 후보 버전**&#x200B;에 포함된 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다.
 
-Campaign Classic Gold Standard 버전(최신 GA 빌드)의 경우 [이 페이지를 참조](../../rn/using/gold-standard.md)하십시오.
+Campaign Classic [!DNL Gold Standard] 버전(최신 GA 빌드)의 경우 [이 페이지](../../rn/using/gold-standard.md)를 참조하십시오.
 
 ## ![](assets/do-not-localize/blue_2.png) 릴리스 21.1.1 - 빌드 9277 {#release-21-1-1-build-9277}
 
