@@ -7,9 +7,9 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 translation-type: tm+mt
-source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
+source-git-commit: 313f15a3097fa4c53c1bd802de0e73801acd410b
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '191'
 ht-degree: 24%
 
 ---
@@ -31,7 +31,7 @@ IMS(Adobe Identity Management System)를 사용하여 관리자는 애플리케�
 >
 >IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, **2021년 6월 30일 이후 캠페인에 연결할 수 있도록 최신 빌드로 업그레이드해야 합니다.** 이 업그레이드는 Campaign 서버와 클라이언트 콘솔 모두에 필요합니다. 현재 버전에 따라 다음 릴리스 중 하나로 업그레이드해야 합니다.
 >
-> * [캠페인 Gold Standard 11](../../rn/using/gold-standard.md)
+> * [캠페인 [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
 > * [캠페인 20.3.3](../../rn/using/latest-release.md)
 > * [캠페인 20.2.4](../../rn/using/release--20-2.md)
 > * [캠페인 20.1.4](../../rn/using/release--20-1.md)
@@ -42,7 +42,7 @@ IMS(Adobe Identity Management System)를 사용하여 관리자는 애플리케�
 
 
 
-## 관련 항목
+## 추가 리소스
 
 | 유용한 페이지 | 추가 자료 |
 |---|---|
