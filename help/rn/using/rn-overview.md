@@ -7,10 +7,10 @@ feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ![](assets/do-not-localize/green3.png) GA(**General Availability**) - 프로덕션에서 검증되었으며 Adobe에서 권장합니다.
 
-마지막 **GA 빌드**&#x200B;는 [Gold Standard 11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [Campaign 20.2.4 릴리스](../../rn/using/release--20-2.md#release-20-2-4-build-9187)입니다.
+마지막 **GA 빌드**&#x200B;는 [[!DNL Gold Standard]  11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [Campaign 20.2.4 릴리스](../../rn/using/release--20-2.md#release-20-2-4-build-9187)입니다.
 
 ![](assets/do-not-localize/limited3.png) LA(**Limited Availability**) - 주문형 배포만 가능.
 
@@ -53,12 +53,12 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 온-프레미스 사용자는 업그레이드를 수행할 수 있습니다. 이를 위해서는 [안정적인 최신 빌드를 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)하고 모든 환경을 업그레이드해야 합니다. [업그레이드 프로세스](../../production/using/build-upgrade.md)에 대한 자세한 내용은 [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)를 참조하십시오.
 
-### Gold Standard{#upgrade-for-gold-standard-users}
+### [!DNL Gold Standard]{#upgrade-for-gold-standard-users}
 
-호스팅된 Gold Standard 사용자는 아무런 조치 없이 [최신 GA Gold Standard 빌드](../../rn/using/gold-standard.md#gs-11)로 Gold Standard 업그레이드를 자동으로 활용할 수 있습니다. [자세히 알아보기](../../rn/using/gs-overview.md)
+호스팅된 [!DNL Gold Standard] 사용자는 아무런 작업 없이 [최신 GA [!DNL Gold Standard] build](../../rn/using/gold-standard.md#gs-11)로 [!DNL Gold Standard] 업그레이드 혜택을 자동으로 받게 됩니다. [자세히 알아보기](../../rn/using/gs-overview.md)
 
 >[!NOTE]
->Gold Standard용 호환성 매트릭스는 [GA 호환성 매트릭스](../../rn/using/compatibility-matrix-gs.md)에서 사용할 수 있습니다.
+>[!DNL Gold Standard]에 대한 호환성 매트릭스는 [GA 호환성 매트릭스](../../rn/using/compatibility-matrix-gs.md)에서 사용할 수 있습니다.
 
 ## 지원 및 기타 유용한 링크{#support}
 
