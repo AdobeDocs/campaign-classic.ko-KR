@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 5b43412286762977c416665d296908a9bfc9b20a
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '458'
 ht-degree: 5%
 
 ---
@@ -53,6 +53,6 @@ ht-degree: 5%
 
 * **배달의 크기**:큰 배달은 완료하는 데 시간이 오래 걸릴 수 있습니다. MTA 하위는 대부분의 인스턴스에서 작동하는 기본 배치 크기를 처리하도록 구성되지만 배달이 지속적으로 느려질 때 확인해야 합니다.
 * **배달** 대상:배달 성능 제한은 다시 시도 구성에 따라 처리되는 소프트 바운스 오류에 영향을 받습니다. 오류 수가 많을수록 더 많은 재시도가 필요합니다.
-* **전체 플랫폼 로드**:여러 개의 큰 배달이 전송되면 전체 플랫폼에 영향을 줄 수 있습니다. 또한 IP 명성과 전달 가능성 문제를 확인할 수 있습니다. 자세한 내용은 Adobe Campaign [배달 가능 우수 사례 가이드](../../delivery/using/deliverability-key-points.md) 및 [이 페이지](../../delivery/using/about-deliverability.md)를 참조하십시오.
+* **전체 플랫폼 로드**:여러 개의 큰 배달이 전송되면 전체 플랫폼에 영향을 줄 수 있습니다. 또한 IP 명성과 전달 가능성 문제를 확인할 수 있습니다. 자세한 내용은 [이 섹션](../../delivery/using/about-deliverability.md)과 [Adobe 제공 우수 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)를 참조하십시오.
 
 플랫폼 및 데이터베이스 유지 관리도 전달 전송 성능에 영향을 줄 수 있습니다. 자세한 정보는 이 [페이지](../../production/using/database-performances.md)를 참조하십시오.
