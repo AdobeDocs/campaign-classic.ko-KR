@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 3%
+source-wordcount: '711'
+ht-degree: 2%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 * MTA 및 MTAChild 프로세스 및 메모리:**mta** 모듈은 **mtachild** 하위 모듈에 메시지를 배포합니다. 각 **mtachild**&#x200B;은 통계 서버에서 승인을 요청하고 이를 보내기 전에 메시지를 준비합니다. 자세한 내용은 이 [페이지](../../installation/using/email-deliverability.md)를 참조하십시오.
 * TLS 구성:처리량을 줄일 수 있으므로 TLS를 전역적으로 활성화하는 것이 권장되지 않습니다. 대신, 배달 가능 팀에서 관리하는 도메인당 TLS 설정은 필요에 따라 조정되어야 합니다. 자세한 내용은 이 [페이지](../../installation/using/email-deliverability.md#mx-configuration)를 참조하십시오.
-* DKIM:DKIM의 보안 수준을 보장하려면 1024b가 Best Practices 권장 암호화 크기입니다. 낮은 DKIM 키는 대부분의 액세스 공급자가 유효한 것으로 간주하지 않습니다. 이 [페이지](../../delivery/using/technical-recommendations.md#dkim)와 [기술 문서](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html)를 참조하십시오.
+* DKIM:DKIM의 보안 수준을 보장하려면 1024b가 권장되는 최적의 암호화 크기입니다. 낮은 DKIM 키는 대부분의 액세스 공급자가 유효한 것으로 간주하지 않습니다. [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)를 참조하십시오.
 
 ## 배달 가능성 문제 {#deliverability-issues}
 
@@ -67,4 +67,4 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->[배달 가능 키 포인트](../../delivery/using/deliverability-key-points.md) 섹션도 참조하십시오.
+>[Delivery](../../delivery/using/about-deliverability.md) 섹션도 참조하십시오. 제공 가능성에 대한 자세한 내용은 [Adobe 제공 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)를 참조하십시오.
