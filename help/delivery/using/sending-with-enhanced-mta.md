@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: c64b6eccd0ad45ebcf4ecc18150f4409f5c66bc2
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 2%
+source-wordcount: '1892'
+ht-degree: 3%
 
 ---
 
 
-# 향상된 MTA {#sending-with-enhanced-mta}로 보내기
+# Enhanced MTA로 보내기 {#sending-with-enhanced-mta}
 
 **Adobe Campaign Enhanced MTA**(메일 전송 에이전트)는 향상된 전송 인프라를 제공하여 배달, 평판, 처리량, 보고, 바운스 처리, IP 경사 업 및 연결 설정 관리를 개선할 수 있도록 해줍니다.
 
@@ -135,7 +135,7 @@ MX 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/em
 
 ### 게재 처리량
 
-캠페인 배달 처리량 그래프는 더 이상 이메일 수신자에게 처리량을 표시하지 않습니다. 이제 해당 그래프는 향상된 MTA로 Campaign에서 메시지를 릴레이 처리량을 보여줍니다.
+캠페인 배달 처리량 그래프는 더 이상 이메일 수신자에게 처리량을 표시하지 않습니다. 이제 해당 그래프는 향상된 MTA로 Campaign에서 메시지를 릴레이 처리량을 표시합니다.
 
 배달 처리량에 대한 자세한 내용은 [이 섹션](../../reporting/using/global-reports.md#delivery-throughput)을 참조하십시오.
 
@@ -152,7 +152,7 @@ MX 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/em
 ### DKIM-signing
 
 DKIM(DomainKeys Identified Mail) 이메일 인증 서명은 향상된 MTA를 통해 수행됩니다. 기본 캠페인 MTA의 DKIM 서명은 향상된 MTA 업그레이드의 일부로 도메인 관리 테이블 내에서 해제됩니다.
-DKIM에 대한 자세한 내용은 [이 섹션](../../delivery/using/technical-recommendations.md#dkim)을 참조하십시오.
+DKIM에 대한 자세한 내용은 [Adobe 제공 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)를 참조하십시오.
 
 ### 배달 성공 보고
 
