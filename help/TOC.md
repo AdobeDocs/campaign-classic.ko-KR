@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: 설명서
 translation-type: tm+mt
-source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
+source-git-commit: 0b3bc9547d756352f4af5dac713f85666c96c425
 workflow-type: tm+mt
-source-wordcount: '2473'
-ht-degree: 55%
+source-wordcount: '2448'
+ht-degree: 54%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 55%
 + 릴리스 정보 {#release-notes}
    + [업그레이드 시작](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
-   + Gold Standard 릴리스 {#gs-release}
-      + [Gold Standard 소개](rn/using/gs-overview.md)
-      + [Gold Standard 릴리스 노트](rn/using/gold-standard.md)
-      + [Gold Standard 호환성 표](rn/using/compatibility-matrix-gs.md)
+   + [!DNL Gold Standard] 릴리스  {#gs-release}
+      + [소개 [!DNL Gold Standard]](rn/using/gs-overview.md)
+      + [[!DNL Gold Standard] 릴리스 노트](rn/using/gold-standard.md)
+      + [[!DNL Gold Standard] 호환성 행렬](rn/using/compatibility-matrix-gs.md)
    + 이전 릴리스 {#previous-releases}
       + [릴리스 20.3](rn/using/release--20-3.md)
       + [릴리스 20.2](rn/using/release--20-2.md)
@@ -221,17 +221,11 @@ ht-degree: 55%
       + [테스트 추적](delivery/using/testing-tracking.md)
       + [추적 문제 해결](delivery/using/tracking-troubleshooting.md)
    + 게재 기능 관리 {#deliverability-management}
-      + [게재 기능 기본 정보](delivery/using/about-deliverability.md)
-      + [확인할 주요 사항](delivery/using/deliverability-key-points.md)
-      + [새 플랫폼 시작](delivery/using/starting-new-platform.md)
+      + [배달이 가능합니까?](delivery/using/about-deliverability.md)
       + [메시지 내용 제어](delivery/using/control-message-content.md)
-      + [평판 향상](delivery/using/improve-reputation.md)
-      + [기술 추천](delivery/using/technical-recommendations.md)
       + [게재 기능 모니터링](delivery/using/monitoring-deliverability.md)
       + [받은 편지함 렌더링](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
-      + [재참여 모범 사례](delivery/using/re-engagement-best-practices.md)
-      + [차단 목록 데이터베이스](delivery/using/block-list-databases.md)
       + [문제 해결](delivery/using/deliverability-faq.md)
    + 콘텐츠 관리 모듈 {#content-management}
       + [콘텐츠 관리 기본 정보](delivery/using/about-content-management.md)
