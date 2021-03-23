@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 6%
@@ -50,7 +50,7 @@ ht-degree: 6%
 
    * 이메일 수신 여부를 확인할 때는 다음 4가지 주요 카테고리에 주력해야 합니다.데이터 품질, 메시지 및 컨텐츠, 전송 인프라 및 명성을 높일 수 있습니다. 이 주제에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-deliverability.md)을 참조하십시오.
 
-* 이 문서](../../delivery/using/deliverability-key-points.md)에 자세한 권장 사항을 적용합니다.[
+* 이 문서](../../delivery/using/about-deliverability.md)에 자세한 권장 사항을 적용합니다.[
 
 * 도움이 필요하면 Adobe 담당자에게 문의하십시오.
 
