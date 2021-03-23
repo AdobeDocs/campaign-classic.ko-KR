@@ -7,9 +7,9 @@ feature: null
 role: null
 level: null
 translation-type: tm+mt
-source-git-commit: 96f5709b4c67d1979286cc1f71069a64435c5c70
+source-git-commit: 631e7a0f89a365626401a6157ef84442fa0fd59f
 workflow-type: tm+mt
-source-wordcount: '3200'
+source-wordcount: '3198'
 ht-degree: 20%
 
 ---
@@ -128,7 +128,7 @@ _2019년 8월 13일_
 
 >[!NOTE]
 >
->19.1.4 Gold Standard 릴리스는 이 [페이지](../../rn/using/gold-standard.md)에 나열되어 있습니다.
+>19.1.4 [!DNL Gold Standard] 릴리스가 이 [페이지](../../rn/using/gold-standard.md)에 나열됩니다.
 
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 19.1.2 - 빌드 9029{#release-19-1-2-build-9029}
