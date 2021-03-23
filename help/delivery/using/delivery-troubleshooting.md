@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: f3ba836bbb5a5f82d6a7868dcb15edc8e61b9a5b
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 * Adobe Campaign MTA 내에서 조절이 발생했을 수 있습니다. 이 문제는 다음 경우에 발생합니다.
 
-   * 보류 중인 메시지(**[!UICONTROL quotas met]** 메시지):Campaign에 정의된 선언적 MX 규칙으로 선언된 할당량이 충족되었습니다. 이 메시지에 대한 자세한 내용은 [이 페이지](../../delivery/using/deliverability-faq.md)를 참조하십시오. MX 규칙에 대한 자세한 내용은 [이 페이지](../../delivery/using/technical-recommendations.md#mx-rules)를 참조하십시오.
+   * 보류 중인 메시지(**[!UICONTROL quotas met]** 메시지):Campaign에 정의된 선언적 MX 규칙으로 선언된 할당량이 충족되었습니다. 이 메시지에 대한 자세한 내용은 [이 페이지](../../delivery/using/deliverability-faq.md)를 참조하십시오. MX 규칙에 대한 자세한 내용은 [이 섹션](../../installation/using/email-deliverability.md#about-mx-rules)을 참조하십시오.
 
    * 보류 중인 메시지(**[!UICONTROL dynamic flow control]** 메시지):캠페인 MTA가 오류 농도가 너무 커서 잠재적인에 부딪치는 등 둔화를 초래하는 지정된 ISP의 메시지를 전달하려고 할 때 오류가 차단 목록 발생했습니다.
 
