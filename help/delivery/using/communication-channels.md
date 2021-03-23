@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1204'
 ht-degree: 12%
 
 ---
@@ -23,7 +23,7 @@ Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및
 
 >[!NOTE]
 >
->Adobe Campaign은 수신 기능을 모니터링하고 이메일 전송을 최적화하는 일련의 툴을 제공합니다. 자세한 내용은 [Deliverability getting started](../../delivery/using/deliverability-key-points.md) 및 [Deliverability management](../../delivery/using/about-deliverability.md)을 참조하십시오.
+>Adobe Campaign은 수신 기능을 모니터링하고 이메일 전송을 최적화하는 일련의 툴을 제공합니다. [이 섹션](../../delivery/using/about-deliverability.md)에서 자세히 알아보십시오.
 
 전달 준비 및/또는 워크플로우 과정에서 전달을 전송하여 배달 전송을 자동화할 수 있습니다. 워크플로우의 배달 유형 활동에 대한 자세한 내용은 [이 섹션](../../workflow/using/about-action-activities.md)을 참조하십시오.
 
