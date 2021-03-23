@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 8%
+source-wordcount: '548'
+ht-degree: 7%
 
 ---
 
@@ -97,11 +97,11 @@ Adobe Campaign 연결을 끊으려면 아이콘 막대에서 첫 번째 아이�
 
 Adobe 고객 지원 센터에 문의할 때마다 Adobe Campaign 클라이언트 콘솔 및 애플리케이션 서버의 버전 번호와 빌드 번호를 제공해야 합니다.
 
-[Campaign Gold Standard 버전](../../rn/using/gold-standard.md)에서 실행 중인 경우 **[!UICONTROL About]** 상자에 표시된 SHA/1 문자도 공유해야 합니다. 예를 들어 Gold **Standard 10 릴리스**&#x200B;의 경우 빌드 번호는 아래와 같이 **빌드 9032@efd8a94**&#x200B;로 표시됩니다.
+[Campaign [!DNL Gold Standard] version](../../rn/using/gold-standard.md)에서 실행 중인 경우 **[!UICONTROL About]** 상자에 표시된 SHA/1 문자도 공유해야 합니다. 예를 들어 Gold **Standard 10 릴리스**&#x200B;의 경우 빌드 번호는 아래와 같이 **빌드 9032@efd8a94**&#x200B;로 표시됩니다.
 
 ![](assets/about-acc-gs.png)
 
-본 문서](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html)에서 Gold Standard [에 대해 자세히 알아보십시오.
+이 문서](../../rn/using/gs-overview.md)에서 [!DNL Gold Standard] [에 대해 자세히 알아보십시오.
 
 **관련 항목**:
 
