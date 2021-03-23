@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
+source-git-commit: cb24bc78b5cc09307ca470470464f204d9f41278
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1149'
 ht-degree: 2%
 
 ---
@@ -21,19 +21,20 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->업데이트하기 전에 각 인스턴스에 데이터베이스 백업을 만드는 것이 좋습니다. 자세한 내용은 [백업](../../production/using/backup.md)을 참조하십시오.\
->업그레이드를 수행하려면 인스턴스 및 로그에 액세스할 수 있는 기능과 권한이 있는지 확인합니다.
+>* Adobe은 업데이트 전에 각 인스턴스에서 데이터베이스 백업을 만드는 것이 좋습니다. 자세한 정보는 [이 섹션](../../production/using/backup.md)을 참조하십시오.
+>* 업그레이드를 수행하려면 인스턴스 및 로그에 액세스할 수 있는 기능과 권한이 있어야 합니다.
+>* 시작하기 전에 [이 섹션](../../installation/using/general-architecture.md)과 [빌드 업그레이드](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html) 장을 읽어 보십시오.
 
->[!NOTE]
 >
->또한 [설치 안내서](../../installation/using/general-architecture.md) 및 [빌드 업그레이드](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html)를 참조하십시오.
+
+
 
 ## Windows {#in-windows}
 
-새 빌드를 제공할 때 Adobe Campaign을 새 버전으로 업데이트하려면 Windows에서 다음 절차를 적용해야 합니다.
+Windows 환경에서 아래 절차에 따라 Adobe Campaign을 새 빌드로 업데이트하십시오.
 
 * [서비스](#shut-down-services) 종료,
-* [Adobe Campaign 서버 애플리케이션](#upgrade-the-adobe-campaign-server-application) 업그레이드,
+* [응용 프로그램 서버](#upgrade-the-adobe-campaign-server-application) 업그레이드,
 * [리소스](#synchronize-resources) 동기화,
 * [서비스를 다시 시작합니다](#restart-services).
 
@@ -88,9 +89,9 @@ ht-degree: 2%
 
 이렇게 하면 다음 작업을 수행할 수 있습니다.
 
-* 리소스 동기화,
-* 스키마 업데이트,
-* 데이터베이스를 업데이트합니다.
+* 리소스 동기화
+* 스키마 업데이트
+* 데이터베이스 업데이트
 
 >[!NOTE]
 >
@@ -110,17 +111,17 @@ ht-degree: 2%
 
 ## Linux {#in-linux}
 
-새 빌드가 제공될 때 새 버전에서 Adobe Campaign을 업데이트하려면 Linux에 대한 절차는 다음과 같습니다.
+Linux 환경에서 아래 절차에 따라 Adobe Campaign을 새 빌드로 업데이트하십시오.
 
-* [업데이트된 패키지](#obtain-updated-packages) 가져오기,
-* [업데이트](#perform-an-update) 수행,
+* [업데이트된 패키지를 다운로드합니다](#obtain-updated-packages).
+* [업데이트를 수행합니다](#perform-an-update).
 * [웹 서버를 다시 부팅합니다](#reboot-the-web-server).
 
 [클라이언트 콘솔 가용성에 대해 자세히 알아보십시오](../../installation/using/client-console-availability-for-windows.md).
 
 >[!NOTE]
 >
->빌드 8757에서 제3자 라이브러리는 더 이상 필요하지 않습니다.
+>빌드 8757에서 타사 라이브러리는 더 이상 필요하지 않습니다.
 
 ### 업데이트된 패키지 {#obtain-updated-packages} 가져오기
 
@@ -138,7 +139,7 @@ Adobe Campaign의 업데이트된 패키지를 모두 복구하는 것으로 시
    $rpm -Uvh nlserver6-v7-XXXX.rpm
    ```
 
-   여기서 XXX는 파일의 버전입니다.
+   여기서 XXX는 파일 버전입니다.
 
    rpm 파일에는 CentOS/Red Hat 배포에서 찾을 수 있는 패키지에 대한 종속성이 있습니다. 이러한 종속성 중 일부를 사용하지 않으려면 rpm의 &quot;nodeps&quot; 옵션을 사용해야 할 수 있습니다.
 
@@ -247,11 +248,7 @@ Apache를 다시 시작합니다.
 
 ### Windows {#in-windows-1}
 
-(**nlserver web**) Adobe Campaign 응용 프로그램 서버가 설치된 컴퓨터에서 파일을 다운로드하고 복사합니다
-
-**setup-client-6.XXXX.exe**
-
-**[응용 프로그램 경로]**datakitninjsp
+Adobe Campaign 응용 프로그램 서버가 설치된 컴퓨터(**nlserver web**)에서 응용 프로그램]/datakit/nl/eng/jsp **의** setup-client-6.XXXX.exe **파일을 다운로드하여 복사합니다.**[
 
 다음 번에 클라이언트 콘솔이 연결되면 사용자에게 업데이트 사용 가능 여부를 알리고 이를 다운로드하고 설치할 수 있는 기능을 제공합니다.
 
@@ -261,11 +258,7 @@ Apache를 다시 시작합니다.
 
 ### Linux {#in-linux-1}
 
-Adobe Campaign 응용 프로그램 서버(**nlserver web**)가 설치된 컴퓨터에서 다음 패키지를 검색합니다.
-
-**setup-client-6.XXXX.exe**
-
-복사하여 **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
+Adobe Campaign 응용 프로그램 서버(**nlserver web**)가 설치된 컴퓨터에서 **setup-client-6.XXXX.exe** 패키지를 검색하여 복사하여 **/usr/local/neolane/nl/datakit/nl/jsp**&#x200B;로 저장합니다.
 
 ```
  cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
