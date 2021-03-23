@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 100%
+source-wordcount: '758'
+ht-degree: 95%
 
 ---
 
@@ -41,9 +41,9 @@ Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 
 
 ## 전자 메일 게재 기능을 구성하는 방법 {#how-to-configure-email-deliverability-}
 
-[게재 기능 구성](../../delivery/using/about-deliverability.md#configuration) 섹션 외에 게재 기능 권장 사항을 참조하여 Campaign 게재 기능을 최대화하기 위해 인스턴스를 구성하는 방법을 이해합니다.
+[Adobe 제공 우수 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) 외에도 전달 기술 권장 사항을 참조하여 캠페인 제공 기능을 최대화하기 위해 인스턴스를 구성하는 방법을 이해합니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/technical-recommendations.md).
+[자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/about-deliverability.md).
 
 ## 콘텐츠 승인을 구현하려면 어떻게 해야 합니까? {#how-can-i-implement-content-approval-}
 
