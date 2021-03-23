@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '768'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,7 @@ Adobe Campaign은 GDPR 및 CCPA에 대한 개인 정보 보호 규정을 준수�
 >
 >잘못된 형식의 서명된 URL을 클릭하면 다음 오류가 반환됩니다.&quot;요청한 URL &#39;.. &#39;을(를) 찾을 수 없습니다.&quot;
 
-또한 Campaign 20.2 및 Gold Standard 릴리스를 시작으로 호스팅 및 하이브리드 고객은 향상된 기능을 사용하여 이전 빌드에서 생성된 URL을 비활성화할 수 있습니다. 이 옵션은 기본적으로 비활성화됩니다. [고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 연락하여 이 기능을 활성화할 수 있습니다.
+또한 Campaign 20.2 및 [!DNL Gold Standard] 릴리스를 시작하는 호스팅 및 하이브리드 고객은 향상된 기능을 사용하여 이전 빌드에서 생성된 URL을 비활성화할 수 있습니다. 이 옵션은 기본적으로 비활성화됩니다. [고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 연락하여 이 기능을 활성화할 수 있습니다.
 
 이 새 메커니즘을 활성화하려면 온-프레미스 고객이 모든 Campaign 서버에서 다음 단계를 수행해야 합니다.
 
@@ -65,7 +65,7 @@ Adobe Campaign은 GDPR 및 CCPA에 대한 개인 정보 보호 규정을 준수�
 1. **nlserver** 서비스를 다시 시작합니다.
 1. 추적 서버에서 웹 서버(Debian의 apache2, CentOS/RedHat의 httpd, Windows의 IIS)를 다시 시작합니다.
 
-Gold Standard 19.1.4에서 실행 중인 고객은 추적 링크를 사용하여 푸시 알림 배달 또는 앵커 태그를 사용한 배달과 관련된 문제를 경험할 수 있습니다. 이러한 경우 Adobe은 링크 추적을 위해 새 서명 메커니즘을 비활성화할 것을 권장합니다.
+[!DNL Gold Standard] 19.1.4에서 실행하는 고객은 추적 링크를 사용하여 푸시 알림 배달 또는 앵커 태그를 사용한 배달과 관련된 문제를 경험할 수 있습니다. 이러한 경우 Adobe은 링크 추적을 위해 새 서명 메커니즘을 비활성화할 것을 권장합니다.
 
 **호스팅 고객과 하이브리드** 고객은 이 메커니즘을  [비활성화하려면 고객 ](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 지원 센터에 문의해야 합니다.
 
