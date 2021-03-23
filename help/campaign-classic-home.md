@@ -5,10 +5,10 @@ product: campaign
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
+source-git-commit: 5097eea4cf842b93af77ee828693f76a7182a8fe
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 54%
+source-wordcount: '300'
+ht-degree: 52%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 54%
 
 * **[IMS/Adobe ID을 통해 연결 최신 빌드](integrations/using/about-adobe-id.md)**<br/>로 업그레이드 IMS를 사용하여 캠페인에 연결하는 경우** 2021년 6월 30일 이후 캠페인에 연결할 수 있도록 업그레이드해야 합니다.**
 
-* **[캠페인 인스턴스 보안](https://helpx.adobe.com/kr/campaign/kb/gold-standard-upgrade.html)**<br/> 캠페인 플랫폼을 보호하기 위해 최신 빌드로 업데이트합니다.
+* **[캠페인 인스턴스 보안](technotes/acc-config-updates.md)**<br/> 캠페인 플랫폼을 보호하기 위해 최신 빌드로 업데이트합니다.
 
 * **[잘못된 하드 ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> 바운스 제거지메일 작동 중단 후 잘못된 하드 바운스를 업데이트하는 방법 학습
 
@@ -88,6 +88,6 @@ ht-degree: 54%
 | [릴리스 정보](/help/rn/using/latest-release.md) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [사용법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko) | [Campaign 데이터 모델](configuration/using/about-data-model.md) |
 | [호환성 매트릭스](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| [Gold Standard 업그레이드](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html) | [추적 가이드](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html) |
+| [[!DNL Gold Standard] 업그레이드](rn/using/gs-overview.md) | [추적 가이드](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html) |
 | [사용되지 않는 기능](rn/using/deprecated-features.md) | [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html) |
 | [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) | [모니터링 지침](production/using/monitoring-guidelines.md) |
