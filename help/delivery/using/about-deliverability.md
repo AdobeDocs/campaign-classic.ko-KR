@@ -7,43 +7,112 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 0420de856d1506ab92d8f0e0824bf439e0ac7dc7
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 0%
+source-wordcount: '716'
+ht-degree: 5%
 
 ---
 
 
-# 게재 기능 기본 정보{#about-deliverability}
+# 제공 가능 여부{#about-deliverability}
 
-**제공** 은 바운싱 또는 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달하는 캠페인의 성공을 측정하는 데 포함됩니다.
+전달 기능을 사용하면 바운싱 또는 스팸으로 표시되지 않고도 수신자의 받은 편지함에 도달하는 캠페인의 성공을 측정할 수 있습니다. [탁월한 전달이 중요한 이유](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters) 살펴보기
 
-Adobe Campaign은 플랫폼의 제공 성능을 추적할 수 있는 다양한 툴을 제공합니다. 또한 이 섹션에서는 전달 능력을 관리 및 최적화할 때 고려해야 하는 주요 원칙을 강조 표시합니다.
+보다 정확하게 말하자면, 이메일 전달 기능은 컨텐츠 및 형식 측면에서 예상되는 품질과 함께, 짧은 시간 내에 개인 이메일 주소를 통해 해당 대상에 도달할 수 있는 메시지 기능을 결정하는 일련의 특성을 의미합니다.
 
-## 구성 {#configuration}
+제공 기능에 대한 자세한 내용과 주요 전달 조건, 개념 및 접근 방법에 대한 자세한 내용을 살펴보려면 [Adobe 제공 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)를 참조하십시오.
 
-이 기능은 Adobe Campaign의 전용 패키지를 통해 사용할 수 있습니다. 이 패키지를 사용하려면 이 패키지를 설치해야 합니다. 작업이 완료되면 패키지를 고려하여 서버를 다시 시작합니다.
-* 호스팅된 클라이언트와 하이브리드 클라이언트의 경우, **수신 가능성 모니터링**&#x200B;은 Adobe 기술 지원 및 컨설턴트가 사용자 인스턴스에 구성합니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
+## 제공 능력을 향상시키는 방법 {#deliverability-key-points}
 
-* 온-프레미스 설치의 경우 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** 메뉴를 통해 **[!UICONTROL Deliverability monitoring (Email Deliverability)]** 패키지를 설치해야 합니다. 자세한 내용은 [캠페인 내장 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
+제공 가능성 문제는 일반적으로 인터넷 서비스 제공업체와 메일 서버 관리자가 구현한 스팸으로부터 보호하기 위한 조치와 연결됩니다.
 
-Adobe Campaign에서 **배달 가능 모니터링**&#x200B;은 **[!UICONTROL Refresh for deliverability]** 작업 과정에서 관리됩니다. 기본적으로 모든 인스턴스에 설치되며 바운스 메일 자격 규칙 목록, 도메인 목록 및 MX 목록을 초기화할 수 있습니다. **[!UICONTROL Deliverability monitoring (Email Deliverability)]** 패키지가 설치되면 이 워크플로우는 매일 밤 실행되어 규칙 목록을 정기적으로 업데이트하고 플랫폼 제공 기능을 능동적으로 관리할 수 있습니다.
+* 성공적인 이메일 마케팅 캠페인을 디자인하는 방법에 대한 일반적인 권장 사항은 [배달 가능성 전략 및 정의](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html)를 참조하십시오.
 
-## 배경 {#background}
+* Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한 자세한 권장 사항을 보려면 이 섹션에 나열된 최상의 방법을 사용하는 것이 좋습니다.
 
-이메일 전달 기능은 마케터에게 수 천 건의 메시지를 전송하든 수 십억 건의 메시지를 전송하든 중요한 문제를 제시합니다. 메시지 5개 중 1개는 받은 편지함이나 받는 사람에게 도달하지 않습니다.
+>[!NOTE]
+>
+>ISP는 고객을 스팸으로부터 보호하기 위해 새로운 고급 필터링 기술을 지속적으로 개발해야 하기 때문에 이메일 전달은 항상 변화하는 기준과 규칙에 따라 결정됩니다. 정기적으로 업데이트되는 [Adobe 제공 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)를 참조해야 합니다.
 
-한때 IT 부서에 &quot;기술적 문제&quot;로 언급되었던 이메일 전달 능력이 마케팅 안건에 대해 높은 수준으로 계속해서 증가하고 있습니다. 이는 지능적인 마케터가 많은 요소가 본질적으로 기술적인 요소이지만, 배달성은 궁극적으로 엄청난 매출 의미를 갖는 비즈니스 문제라고 인식하기 때문입니다.
+### 배달 가능 비율
 
-이메일 마케팅 단계를 고려합니다. 제공 기능은 수신한 메시지 수를 결정하며, 이 수는 차례로 단계의 각 후속 단계에 영향을 줍니다. 수신한 이메일이 적을수록 열람이 줄고 클릭 수가 적으며 전환율도 적습니다. **대규모 데이터베이스를 보유한 기업에게, 평균 및 뛰어난 배달 능력의 차이는 말 그대로 수십만 달러에서 수백만 달러의 매출을 의미할 수 있습니다.**
+배달율은 배달된 메시지 수와 비교하여 받는 사람의 받은 편지함을 히트한 메시지 수입니다. 택배 능력을 개선하기 위해, 당신은 이 비율을 증가시키는 데 노력할 수 있다.
+
+Adobe Campaign을 사용하면 다음과 같은 여러 요인에 따라 배달 방법이 달라집니다.
+
+* 인스턴스의 올바른 구성:도움이 필요하면 Adobe 담당자에게 문의하십시오.
+* 올바른 네트워크 구성:[이 섹션](../../delivery/using/optimize-delivery.md#network-config) 및 [도메인 설정 및 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy)을 참조하십시오.
+* IP 주소 평판:[IP 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy)을 참조하십시오.
+* 타깃팅된 주소의 품질:[격리 관리](../../delivery/using/optimize-delivery.md#quarantine-management)를 참조하십시오.
+* [불만 사항](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) 및 [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) 비율이 낮습니다.
+* 메시지 내용:[이메일 컨텐트 제어](../../delivery/using/control-message-content.md)를 참조하십시오.
+* 메시지 인증(SPF, DKIM, DMARC):[이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)을 참조하십시오.
+* 보낸 사람 의견:기본 ISP가 보낸 사람의 명성을 평가하는 방법에 대해 알려면 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html)을 참조하십시오.
+
+## 캠페인 제공 도구 {#deliverability-tools}
+
+<!--Adobe Campaign provides a number of tools designed to ensure optimal deliverability.-->
+Adobe Campaign은 플랫폼의 제공 성능을 추적하고 개선하기 위한 여러 도구를 제공합니다. 또한 이 페이지에서는 Campaign 사용 시 전달 가능성을 최적화하기 위해 고려해야 하는 주요 원칙을 강조 표시합니다.
+
+### 메시지를 주의 깊게 작성
+
+메시지를 구성, 디자인 및 테스트할 때는 아래 나열된 섹션에 설명된 우수 사례를 따라야 합니다. Adobe Campaign에서 제공하는 모든 기능을 활용하면 제공 능력을 향상시킬 수 있습니다.
+
+* [게재 모범 사례](../../delivery/using/delivery-best-practices.md)
+* [이메일 콘텐츠 제어](../../delivery/using/control-message-content.md)
+* [받은 편지함 렌더링](../../delivery/using/inbox-rendering.md)
+* [증명 보내기](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)
+
+### 이중 옵트인 {#double-opt-in}을 통해 동의 확인
+
+잘못된 주소로 메시지를 보내지 않고, 부적절한 통신을 제한하며, 발신자의 명성을 높이기 위해, Adobe은 이중 옵트인 메커니즘을 구현할 것을 권장합니다. 이 방법을 사용하면 수신자가 의도적으로 가입했는지 확인할 수 있습니다.
+
+자세한 내용은 [이중 옵트인](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in)을(를) 사용하여 구독 양식 만들기를 참조하십시오.
+
+고객으로부터 데이터를 수집할 때의 모범 사례에 대한 자세한 내용은 [Adobe 제공 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene)를 참조하십시오.
+
+### 격리 관리 활용
+
+Adobe Campaign은 일관되게 발생하는 스팸 불만, 하드 바운스 및 소프트 바운스 수를 수집하는 목록을 관리합니다.
+
+배달 능력을 보호하기 위해 해당 목록에 있는 주소를 가진 수신자는 이러한 연락처로 보내는 것이 사용자의 전송 명성을 손상시킬 수 있으므로 기본적으로 이후의 모든 배달에서 제외됩니다.
+
+일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 격리 기능을 사용하면 이러한 제공자가에 추가하는 것을 차단 목록 방지할 수 있습니다.
+
+자세한 내용은 다음 섹션을 참조하십시오.
+
+* [게재 실패 이해](../../delivery/using/understanding-delivery-failures.md)
+* [격리 관리 이해](../../delivery/using/understanding-quarantine-management.md)
+* [격리 대 차단 목록](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+
+### 모니터링 및 보고 툴 사용
+
+Adobe Campaign에서 제공하는 기능을 사용하여 제공 여부를 모니터링할 수 있습니다.
+
+Adobe Campaign에서는 배달에 대한 인사이트를 개선하기 위해 내장된 실시간 지표 및 보고서를 통해 배달이 수행되는 방식을 확인할 수 있습니다.
+
+자세한 내용은 다음 섹션을 참조하십시오.
+
+* [게재 기능 모니터링](../../delivery/using/monitoring-deliverability.md)
+* [배달 모니터링 정보](../../delivery/using/about-delivery-monitoring.md)
+* [Campaign 기본 제공 보고서 기본 정보](../../reporting/using/about-campaign-built-in-reports.md)
+
+<!--TO REMOVE
+## Background {#background}
+
+Email deliverability presents a major challenge to marketers - whether they're sending a few thousand messages or several billion. One in five messages never reach the inbox, or their intended recipient.
+
+Once relegated as a "technical issue" for the IT department, email deliverability continues to move higher on the marketing agenda. That's because savvy marketers recognize that although many of its elements are technical in nature, deliverability is ultimately a business issue with significant revenue implications.
+
+Consider the email marketing funnel. Deliverability determines the number of messages received, which in turn impacts each subsequent stage of the funnel. Fewer emails received results in fewer opens, fewer clicks, and fewer conversions. **For companies with a large database, the difference between average and great deliverability could literally mean hundreds of thousands to millions of dollars in revenues.**
 
 ![](assets/deliverability_overview_1.png)
 
-마케터는 평균(80%) 제공 여부를 계산하여 상당한 전환율 및 달러(달러)를 책정하고 있습니다.
+By settling for average (80%) deliverability, marketers are leaving significant conversions - and dollars - on the table.
 
-이메일 배달은 정확히 무엇입니까? 마케터가 어떻게 고객 경로를 손쉽게 파악하고 이메일 캠페인을 통해 더 많은 결과를 얻을 수 있습니까?
+What exactly is email deliverability? And how can marketers improve deliverability rates to widen the mouth of the funnel and squeeze more results from their email campaigns?
 
-이메일 전달 능력은 메시지 전달 능력을 판별하는 일련의 특성을 의미하며, 컨텐트와 포맷에 있어서 예상되는 품질과 함께, 개인 이메일 주소를 통해 목적지에 도달할 수 있는 능력을 결정합니다. 이러한 특성은 4가지 주요 카테고리로 분류됩니다.데이터 품질, 메시지 및 컨텐츠, 전송 인프라 및 명성을 높일 수 있습니다. 성공적인 이메일 제공 프로그램의 기반이 됩니다. 이 개요는 이메일 전달 성공의 4가지 기본 사항을 간략히 설명하고 이메일 마케팅 프로그램의 수익을 높이고 받은 편지함에 도달하기 위한 모범 사례를 제공합니다.
+Email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format. These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program. This overview outlines the four fundamentals of email deliverability success and offers best practices for reaching the inbox and driving greater revenues from email marketing programs.
 
-<!--![](assets/deliverability_overview_2.png)-->
+![](assets/deliverability_overview_2.png)-->
