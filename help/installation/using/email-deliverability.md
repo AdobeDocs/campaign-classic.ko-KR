@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '2993'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
 >
 >일부 구성은 Adobe에 의해 호스팅되는 배포(예: 서버 및 인스턴스 구성 파일 액세스)를 위한 Adobe에서만 수행할 수 있습니다. 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지](../../installation/using/capability-matrix.md)를 참조하십시오.
 
-제공 능력과 관련된 개념과 우수 사례에 대한 자세한 내용은 이 [섹션](../../delivery/using/about-deliverability.md)을 참조하십시오.
+Adobe Campaign와의 제공 능력과 관련된 개념과 우수 사례에 대한 자세한 내용은 이 [섹션](../../delivery/using/about-deliverability.md)을 참조하십시오.
 
-Adobe Campaign 플랫폼을 통한 효율적인 이메일 전송 및 수신과 관련된 모든 기술 권장 사항은 이 [섹션](../../delivery/using/technical-recommendations.md)에서 확인할 수 있습니다.
+Adobe 플랫폼을 통해 이메일을 효율적으로 보내고 받는 것과 관련된 모든 기술 권장 사항을 비롯하여 제공 방법에 대한 자세한 내용을 살펴보려면 [Adobe 제공 가능성 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)를 참조하십시오.
 
 ## 운영 원칙 {#operating-principle}
 
