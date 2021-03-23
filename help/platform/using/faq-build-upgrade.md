@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2034'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ Adobe Campaign은 정기적으로 업데이트 됩니다. Adobe에서 게시한 
 
 Adobe 고객이 최신 버전의 Adobe Campaign을 실행하는 것은 매우 중요합니다. 또한 Adobe은 문제가 발생할 경우에 보다 효율적으로 도움을 줄 수 있습니다. 오래된 빌드에서 문제를 식별, 복제 및 수정하는 작업은 일반적으로 시간이 더 오래 걸리고, 일부 문제가 최근 빌드에서 이미 수정되었을 수도 있습니다.
 
-따라서 Adobe는 고객과 공동으로 작업하여 고객의 환경을 정기적으로 업그레이드하도록 [Gold Standard](https://helpx.adobe.com/kr/campaign/kb/gold-standard.html) 프로그램을 시작했습니다.
+[!DNL Gold Standard] Campaign Classic 장기 지원 릴리스입니다. 호스팅된 [!DNL Gold Standard] 사용자는 아무런 작업 없이 [!DNL Gold Standard] 업그레이드 시 자동으로 혜택을 받을 수 있습니다. 온-프레미스 및 하이브리드 고객도 [!DNL Gold Standard] 릴리스의 혜택을 받을 수 있습니다. 이전 빌드에서 마이그레이션하는 경우 먼저 이 버전으로 업그레이드하는 것이 좋습니다. [자세히 알아보기](../../rn/using/gs-overview.md)
 
 ## 빌드 업그레이드란 무엇입니까?
 
@@ -209,4 +209,4 @@ API를 통해 새 레코드를 삽입할 수 있는지 확인합니다.
 * [빌드 업그레이드 수행](../../production/using/build-upgrade.md)
 * [Campaign Classic 릴리스 노트](../../rn/using/rn-overview.md)
 * [Campaign Classic 도움말 및 지원 옵션](https://helpx.adobe.com/campaign/kb/ac-support.html)
-* [Gold Standard 프로그램](https://helpx.adobe.com/campaign/kb/gold-standard.html)
+* [[!DNL Gold Standard] 프로그램](../../rn/using/gs-overview.md)
