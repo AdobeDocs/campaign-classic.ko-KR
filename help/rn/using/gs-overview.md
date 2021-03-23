@@ -1,35 +1,35 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gold Standard 업그레이드
-description: 'Campaign Classic Gold Standard 소개 '
+title: '[!DNL Gold Standard] 업그레이드'
+description: Campaign Classic [!DNL Gold Standard] 이란 무엇입니까?
 feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 20%
+source-wordcount: '559'
+ht-degree: 12%
 
 ---
 
 
-# Gold Standard 릴리스 {#gs-overviews}
+# [!DNL Gold Standard] 릴리스  {#gs-overviews}
 
-## Gold Standard 소개
+## [!DNL Gold Standard] (이)란?
 
 Adobe과 Adobe Campaign은 Adobe 소프트웨어 솔루션을 통해 최상의 경험과 가치를 제공하기 위해 최선을 다하고 있습니다. 조직은 Adobe 솔루션이 해당 작업을 수행하는 데 활용하는 최신 버전의 관련 기술을 이용할 수 있도록 하기 위해 노력하고 있습니다.
 
 Adobe Campaign Classic은 특히 다양한 기술을 사용하여 가치를 전달하고 있습니다. 이러한 기술의 조합은 정기적인 Campaign Classic 인스턴스의 업그레이드를 요구하여 최신 버전이 뛰어난 보안, 안정성 및 성능을 제공하는 데 사용되도록 합니다.
 
-Gold Standard는 Campaign Classic 장기 지원 릴리스입니다. 호스팅된 Gold Standard 사용자는 아무런 조치 없이 최신 안정된 버전의 Gold Standard 업그레이드를 자동으로 활용할 수 있습니다. 온-프레미스 및 하이브리드 고객도 Gold Standard 릴리스를 활용할 수 있습니다. 이전 빌드에서 마이그레이션하는 경우 먼저 이 버전으로 업그레이드하는 것이 좋습니다.
+[!DNL Gold Standard] Campaign Classic 장기 지원 릴리스입니다. 호스팅된 [!DNL Gold Standard] 사용자는 아무런 작업 없이 [!DNL Gold Standard] 업그레이드 시 자동으로 혜택을 받을 수 있습니다. 온-프레미스 및 하이브리드 고객도 [!DNL Gold Standard] 릴리스의 혜택을 받을 수 있습니다. 이전 빌드에서 마이그레이션하는 경우 먼저 이 버전으로 업그레이드하는 것이 좋습니다.
 
 ## 조직에서 이 업그레이드가 필요한 이유는 무엇입니까?
 
 호스팅 고객으로서, 귀하의 계정이 현재 빌드 및/또는 버전을 업데이트하면서 Campaign Classic과 관련된 기술 중 하나 이상을 업그레이드할 필요가 있다고 판단되면, Adobe으로 바로 사용자에게 통지됩니다.
 
-이전 버전에서 온-프레미스 또는 하이브리드 고객인 Adobe은 최신 Gold Standard로 전환할 것을 권장합니다.
+이전 버전에서 실행되는 온-프레미스 또는 하이브리드 고객인 Adobe은 최신 [!DNL Gold Standard]으로 이동할 것을 권장합니다.
 
 이렇게 하면 업데이트된 성능 기술을 활용할 수 있을 뿐만 아니라, 취약점으로부터 계정을 안전하게 보호할 수 있습니다. 또한 이 업그레이드는 수작업 및 개입이 덜 요구되는 보다 쉽고 정기적으로 업그레이드할 수 있도록 계정을 배치합니다.
 
@@ -100,6 +100,6 @@ Adobe는 귀하에게 관련 프로젝트 및 연락처 정보를 제공하기 �
 
 ## 추가 리소스
 
-* [Gold Standard 릴리스 노트](gold-standard.md)
+* [[!DNL Gold Standard] 릴리스 노트](gold-standard.md)
 * [업그레이드 FAQ 구축](../../platform/using/faq-build-upgrade.md)
-* [Gold Standard 호환성 표](compatibility-matrix-gs.md)
+* [[!DNL Gold Standard] 호환성 행렬](compatibility-matrix-gs.md)
