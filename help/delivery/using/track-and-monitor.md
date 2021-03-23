@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 53e239c04f9c4239a5c32e4f25549cbc5f6ece50
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # 추적 및 모니터링 {#track-and-monitor}
 
-전송 버튼을 클릭하셨습니까? 어떻게 되는지 봅시다. 전달이 전송되면 Adobe Campaign을 통해 보낸 메시지를 추적하고 수신자가 전달에 어떻게 반응하는지 알 수 있습니다. 향후 전송을 개선하고 다음 캠페인을 최적화하는 데 도움이 됩니다.
+**보내기** 단추를 클릭했습니까? 어떻게 되는지 봅시다. 전달이 전송되면 Adobe Campaign을 통해 보낸 메시지를 추적하고 수신자가 전달에 어떻게 반응하는지 알 수 있습니다. 향후 전송을 개선하고 다음 캠페인을 최적화하는 데 도움이 됩니다.
 
 ## 게재 모니터링 {#monitoring-deliveries}
 
