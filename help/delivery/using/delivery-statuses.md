@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 29801740c10dc182bdb5f00114298d04385a3e1b
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '629'
 ht-degree: 4%
 
 ---
@@ -87,7 +87,7 @@ ajouter screenshot -->
  </tbody> 
 </table>
 
-Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한 자세한 내용은 Adobe Campaign [전달 가능성 우수 사례 가이드](../../delivery/using/deliverability-key-points.md) 및 [이 페이지](../../delivery/using/about-deliverability.md)를 참조하십시오.
+Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-deliverability.md)을 참조하십시오. 제공 가능성에 대한 자세한 내용은 [Adobe 제공 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)를 참조하십시오.
 
 ## 보류 중인 상태 {#pending-status}
 
