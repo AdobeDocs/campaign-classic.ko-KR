@@ -6,7 +6,7 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 01f4e4ee841a797f4be61ffc01096b7f651ce963
+source-git-commit: bdd746120f2162cf48eeb9d519513656bd4e75aa
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 7%
@@ -29,7 +29,7 @@ ht-degree: 7%
 >이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
 
-## 보안 업데이트
+## 보안 업데이트 {#acc-security-updates}
 
 최신 캠페인 버전에는 SSRF(Server Side Request 위조) 문제에 대한 보호를 강화하는 보안 픽스가 포함되어 있습니다. 이 페이지](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)에서 [에 대해 자세히 알아보십시오.
 
@@ -62,7 +62,7 @@ ht-degree: 7%
 >권장 기간 내에 업그레이드할 수 없는 경우 **Adobe 고객 지원 센터에 문의하여 인스턴스**&#x200B;에 대해 단기 수동 보안 픽스를 적용해야 합니다.
 
 
-## Campaign Classic 클라이언트 콘솔 업데이트
+## Campaign Classic 클라이언트 콘솔 업데이트 {#acc-cc-updates}
 
 최근에 식별된 회귀를 해결하려면 아래 **현재 사용 가능한** 콘솔 버전을 설치해야 합니다. 이 회귀로 인해 배달에서 날짜 선택기 및 이미지 관리와 같은 클라이언트 콘솔의 일부 구성 요소가 사용되지 않았습니다. **콘솔** 업그레이드는 필수입니다.
 
@@ -105,7 +105,7 @@ Adobe ID](../integrations/using/about-adobe-id.md)을 통해 IMS(Identity Manage
 
 * [캠페인 클라이언트 콘솔 설치 방법에 대해 알아봅니다](../installation/using/installing-the-client-console.md).
 
-## Experience Cloud 트리거과 통합
+## Experience Cloud 트리거 {#acc-triggers-updates}와의 통합
 
 레거시 oAuth 인증 서비스가 사용 종료되었습니다. 원래 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 통합 인증이 Adobe I/O으로 이동되었습니다.**2021년 11월 30일에 종료됩니다**. [자세히 알아보기](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)
 
@@ -131,7 +131,7 @@ Adobe ID](../integrations/using/about-adobe-id.md)을 통해 IMS(Identity Manage
 
 [Adobe I/O으로 마이그레이션하는 방법을 알아봅니다](../integrations/using/configuring-adobe-io.md).
 
-## APNs 업데이트
+## APNs 업데이트 {#acc-apns-updates}
 
 ### HTTP/2 기반 APNs 공급자 API
 
