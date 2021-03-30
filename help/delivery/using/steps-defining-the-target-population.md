@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: 8e0c6951be9d2f9fb0e58af213cb8db4079f2225
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1599'
 ht-degree: 2%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 2%
 
 ## 대상 모집단 {#about-target-populations} 정보
 
-각 게재에 대해 몇 가지 유형의 타겟 모집단을 정의할 수 있습니다. 아래 섹션에서는 선택 방법에 대한 자세한 정보를 제공합니다.
+각 게재에 대해 몇 가지 유형의 타겟 모집단을 정의할 수 있습니다.
 
-* 배달의 기본 받는 사람. [자세한 내용](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
-* 유효성 검사 주기를 설정하기 위해 증명 메시지의 받는 사람. [자세한 내용](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
-
-또한 배달을 마케팅 캠페인에 포함하는 경우 [시드 주소](../../delivery/using/about-seed-addresses.md) 및 [제어 그룹](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)을 정의할 수도 있습니다.
+* **기본 대상**:메시지를 받을 사람의 프로필을 표시합니다. [자세히 알아보기](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
+* **증명**:유효성 검사 주기에 관련된 증명 메시지 수신자. [자세히 알아보기](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
+* **시드 주소**:배달 대상을 벗어났으나 배달을 받을 받는 사람(마케팅 캠페인의 컨텍스트에서만 제공). [자세히 알아보기](../../delivery/using/about-seed-addresses.md)
+* **제어 그룹**:전달을 받지 못하는 모집단(마케팅 캠페인의 컨텍스트에서만)을 추적하기 위해 사용됨). [자세히 알아보기](../../campaign/using/marketing-campaign-target.md#defining-a-control-group)
 
 ## 배달 {#selecting-the-main-target}의 기본 받는 사람 선택
 
