@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: a2a99135bdd74d87c04262b53e074b6aa05e7915
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 2%
@@ -67,7 +67,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 전체 가져오기는 초기 로드에만 사용해야 합니다.
 
-## 일관성 유지{#maintaining-consistency}
+## 일관성 유지 {#maintaining-consistency}
 
 Adobe Campaign 데이터베이스에서 데이터 일관성을 유지하려면 아래 원칙을 따르십시오.
 
