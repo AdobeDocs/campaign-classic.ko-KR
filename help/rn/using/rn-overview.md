@@ -7,9 +7,9 @@ feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 93%
 
 ---
@@ -62,7 +62,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ## 지원 및 기타 유용한 링크{#support}
 
-* [도움말 및 지원](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)
+* [도움말 및 지원](../../support.md)
 * [Campaign 컨트롤 패널 릴리스](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 * [최신 설명서 업데이트](../../rn/using/documentation-updates.md)
 * [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md)
