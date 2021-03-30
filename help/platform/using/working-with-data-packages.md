@@ -7,15 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '2458'
-ht-degree: 3%
+source-wordcount: '2442'
+ht-degree: 2%
 
 ---
 
 
-# 데이터 패키지 작업{#working-with-data-packages}
+# 데이터 패키지 사용{#working-with-data-packages}
 
 ## 데이터 패키지 {#about-data-packages} 정보
 
@@ -95,7 +95,7 @@ XML 문서는 **`<package>`** 요소로 시작하고 끝나야 합니다. 문서
 
 패키지를 내보내면 해당 패키지와 추가된 모든 엔티티를 다른 Campaign 인스턴스로 가져올 수 있습니다.
 
-### 패키지 {#exporting-a-set-of-objects-in-a-package}의 객체 집합 내보내기
+### 패키지 {#exporting-a-set-of-objects-in-a-package}에 있는 객체 집합 내보내기
 
 패키지 내보내기 마법사는 Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Tools > Advanced > Export package...]** 메뉴를 통해 액세스할 수 있습니다.
 
@@ -224,8 +224,6 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ## 패키지 정의 관리 {#managing-package-definitions}
 
-### 패키지 정의 정보 {#about-package-definitions}
-
 패키지 정의를 사용하면 단일 패키지에서 나중에 내보낼 엔티티를 추가할 패키지 구조를 만들 수 있습니다. 그러면 이 패키지 및 추가된 모든 개체를 다른 Campaign 인스턴스로 가져올 수 있습니다.
 
 **관련 항목:**
@@ -253,7 +251,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ### 패키지 정의 {#adding-entities-to-a-package-definition}에 개체 추가
 
-**[!UICONTROL Content]** 탭에서 **[!UICONTROL Add]** 버튼을 클릭하여 패키지와 함께 내보낼 엔티티를 선택합니다. 개체를 선택할 때의 우수 사례는 [패키지](#exporting-a-set-of-objects-in-a-package) 섹션에서 개체 집합 내보내기에 있습니다.
+**[!UICONTROL Content]** 탭에서 **[!UICONTROL Add]** 버튼을 클릭하여 패키지와 함께 내보낼 엔티티를 선택합니다. 개체를 선택할 때의 우수 사례는 [이 섹션](#exporting-a-set-of-objects-in-a-package) 섹션에 있습니다.
 
 ![](assets/packagedefinition_addentities.png)
 
@@ -267,11 +265,11 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
    ![](assets/packagedefinition_packageselection.png)
 
-1. 엔터티가 패키지 정의에 추가되고 패키지와 함께 내보내집니다(패키지 정의](#exporting-packages-from-a-package-definition)에서 패키지 내보내기 참조).[
+1. 개체가 패키지 정의에 추가되면 패키지와 함께 내보내집니다([이 섹션](#exporting-packages-from-a-package-definition) 참조).
 
    ![](assets/packagedefinition_entityadded.png)
 
-### 패키지 정의 생성 구성 중 {#configuring-package-definitions-generation}
+### 패키지 정의 생성 {#configuring-package-definitions-generation} 구성
 
 패키지 생성 작업은 패키지 정의 **[!UICONTROL Content]** 탭에서 구성할 수 있습니다. 이렇게 하려면 **[!UICONTROL Generation parameters]** 링크를 클릭합니다.
 
@@ -301,9 +299,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
    ![](assets/packagedefinition_packageexport.png)
 
-## 패키지 {#importing-packages} 가져오기
-
-### 패키지 가져오기 정보 {#about-package-import}
+## 패키지 가져오기 {#importing-packages}
 
 패키지 가져오기 마법사는 Adobe Campaign 클라이언트 콘솔의 기본 메뉴 **[!UICONTROL Tools > Advanced > Package import...]**&#x200B;을 통해 액세스할 수 있습니다.
 
