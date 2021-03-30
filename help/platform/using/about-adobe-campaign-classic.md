@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 정보
 description: 주요 기능, 사용자 인터페이스 및 글로벌 지침을 살펴보십시오.
-audience: platform
-content-type: reference
-topic-tags: starting-with-adobe-campaign
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '915'
 ht-degree: 95%
 
 ---
