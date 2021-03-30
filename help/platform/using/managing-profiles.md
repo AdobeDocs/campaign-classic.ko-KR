@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 >
 >데이터베이스에 있는 모든 받는 사람 목록을 표시하려면 뷰를 만들어야 합니다. [폴더 및 보기](../../platform/using/access-management-folders.md)에서 자세히 알아보십시오.
 
-## 받는 사람 이동 중 {#moving-recipients}
+## 받는 사람 이동 {#moving-recipients}
 
 수신자를 하나 이상 선택하고 수신자 목록에서 수신자를 드래그하여 원하는 폴더에 놓을 수 있습니다. 이 작업을 확인하는 경고 메시지가 표시됩니다.
 
