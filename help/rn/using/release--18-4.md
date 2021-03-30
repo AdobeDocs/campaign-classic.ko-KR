@@ -7,7 +7,7 @@ feature: null
 role: null
 level: null
 translation-type: tm+mt
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 7%
@@ -144,7 +144,7 @@ ht-degree: 7%
 * 모든 연산자의 암호를 설정하거나 재설정할 수 있는 기능이 복원되었습니다. 이렇게 하려면 연산자를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]** > **[!UICONTROL Reset password]**&#x200B;을 선택하고 연산자의 새 암호를 설정합니다. 교환자가 처음 다시 연결할 때 암호를 변경하는 것이 좋습니다. 자세한 내용은 [세부 설명서](../../production/using/lost-password.md)를 참조하십시오.
 * 이제 Adobe Target의 새로운 다중 테넌트 기능을 지원하기 위해 Target과의 통합을 위한 옵션 및 외부 계정을 구성할 때 새로운 &quot;at_property&quot; 매개 변수를 URL에 추가할 수 있습니다. 이 매개 변수에 사용할 값은 Adobe Target에서 찾을 수 있으며 Target 호출을 수행할 때 Campaign에서 사용됩니다. 자세한 내용은 [세부 설명서](../../integrations/using/inserting-a-dynamic-image.md)를 참조하십시오.
 * 이제 Adobe Target에서 제공하는 이미지를 클릭할 때 열 기본 랜딩 페이지를 지정할 수 있습니다. 이전에는 해당 이미지를 클릭하는 것이 대신 이메일을 만들 때 기본 이미지 세트로 이어졌습니다. 자세한 내용은 [세부 설명서](../../integrations/using/inserting-a-dynamic-image.md)를 참조하십시오.
-* 추적 출력을 강제 적용하기 위해 외부 계정에 **SMPP 추적 사용** 확인란을 추가했습니다. 자세한 내용은 [세부 설명서](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)를 참조하십시오.
+* 추적 출력을 강제 적용하기 위해 외부 계정에 **SMPP 추적 사용** 확인란을 추가했습니다. 자세한 내용은 [세부 설명서](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
 
 **기술 진화**
 
