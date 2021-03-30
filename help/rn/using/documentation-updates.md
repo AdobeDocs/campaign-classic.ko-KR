@@ -7,9 +7,9 @@ feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: d41119e61ee2088e1b8cab65354547420f8e7737
+source-git-commit: 57c1ca827beac9a3c95e63ca17fdb43be237eb28
 workflow-type: tm+mt
-source-wordcount: '4250'
+source-wordcount: '4275'
 ht-degree: 94%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 94%
 
 ## 2021년 3월 {#march-2021}
 
-Campaign Classic에 대한 지원을 얻기 위한 지침과 참고가 포함된 새 페이지가 추가되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)
+[SMS 시작하기 섹션](../../delivery/using/sms-channel.md)이(가) 재구성되고 개선되었습니다. 이제 전용 섹션에서 [SMS 채널](../../delivery/using/sms-set-up.md), [SMS](../../delivery/using/sms-create.md), [SMS](../../delivery/using/sms-send.md)를 전송하고 추적하는 방법을 배울 수 있습니다.
+
+Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 핵심 문서에 통합되었습니다. [자세한 내용](../../support.md)
 
 보안 및 개인 정보 보호에 대한 작업을 수행하기 위한 모범 사례 및 점검 기능이 추가된 새 섹션이 있습니다. [자세한 내용](../../installation/using/get-started-security-privacy.md)
 
@@ -440,7 +442,7 @@ Adobe Analytics 데이터 커넥터에 대한 새 모범 사례 사례 페이지
 
 게재 모범 사례 시작 안내서가 이동 및 업데이트되었습니다. [자세한 내용](../../delivery/using/delivery-best-practices.md)
 
-동일한 공급자 계정의 확장된 일반 SMPP 커넥터를 사용하는 여러 외부 계정을 사용하는 경우 발생하는 문제를 방지하기 위해 SMS 채널 문서에 권장 사항이 추가되었습니다. [자세한 내용](../../delivery/using/sms-channel.md#automatic-reply)
+동일한 공급자 계정의 확장된 일반 SMPP 커넥터를 사용하는 여러 외부 계정을 사용하는 경우 발생하는 문제를 방지하기 위해 SMS 채널 문서에 권장 사항이 추가되었습니다. [자세한 내용](../../delivery/using/sms-set-up.md#automatic-reply)
 
 워크플로우의 동시 실행을 방지하는 방법에 대한 정보가 Scheduler 활동 설명서에 추가되었습니다. [자세한 내용](../../workflow/using/scheduler.md)
 
