@@ -5,10 +5,10 @@ product: campaign
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 9ce945af1ed1cabd5041a28812e540f814211071
+source-git-commit: 9f1c4110ef49c87719f1cc84ad08f687865561d1
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 52%
+source-wordcount: '295'
+ht-degree: 51%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 52%
 
 * **[HTTP/2 기반 APNs 공급자 ](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)**<br/> API로 이동레거시 이진 프로토콜을 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법 학습
 
-* **[지원 받기](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)**<br/>&#x200B;액세스 FAQ, 모범 사례, 도움말 리소스 및 도움말 요청
+* **[지원 받기](support.md)**<br/>액세스 FAQ, 모범 사례, 도움말 리소스 및 도움말 요청
 
 [추가 업데이트](/help/rn/using/documentation-updates.md)
 
