@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: 연산자 그룹 만들기 및 관리
 description: 연산자 그룹에 액세스 권한을 부여하는 방법에 대해 알아봅니다.
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: 액세스 관리
+role: 비즈니스 전문가, 관리자
+level: 초급
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,6 @@ ht-degree: 0%
 
    * **[!UICONTROL INSERT FOLDERS]**:Adobe Campaign 트리에 폴더를 삽입할 권리(관련 분기에 대한 편집 권한이 있는 경우),
    * **[!UICONTROL WORKFLOW]**:워크플로우 사용 권한
-
    >[!NOTE]
    >
    >이 그룹에서는 연산자가 배달을 시작할 수 없습니다.
@@ -100,6 +99,3 @@ ht-degree: 0%
 
    * **[!UICONTROL INSERT FOLDERS]**:Adobe Campaign 트리에 폴더를 삽입할 권리(관련 분기에 대한 편집 권한이 있는 경우),
    * **[!UICONTROL EDIT FOLDERS]**:내부 이름, 레이블, 연결된 이미지, 하위 폴더 순서 등과 같은 폴더 속성을 변경할 수 있는 권한입니다.
-
-
-
