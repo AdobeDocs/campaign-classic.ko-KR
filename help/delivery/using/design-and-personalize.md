@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: 40edacce1812a1722e5a23e5db7da11687c44ac8
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 7%
@@ -96,7 +96,7 @@ Adobe Campaign 데이터베이스에 저장되어 있거나 추적, 랜딩 페�
 기본적으로 SMS의 글자 수는 GSM(이동통신 글로벌 시스템) 표준을 충족합니다. GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 또는 여러 부분으로 나누어 전송되는 메시지의 경우 153자로 제한됩니다.
 
 변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다. SMS 메시지의 컨텐츠에 개인화 필드를 삽입하면 GSM 인코딩에 의해 고려되지 않는 문자가 표시될 수 있습니다. 해당 **[!UICONTROL External account]**의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다.
-이 섹션](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)에서 [에 대해 자세히 알아보십시오.
+이 섹션](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)에서 [에 대해 자세히 알아보십시오.
 
 **팁**:
 
@@ -104,7 +104,7 @@ Adobe Campaign 데이터베이스에 저장되어 있거나 추적, 랜딩 페�
 
 * 그러나 GSM 표준으로 고려하지 않은 많은 문자가 SMS 메시지에 포함되어 있는 경우 변환을 활성화하여 메시지 전송 비용을 제한합니다.
 
-이 섹션](../../delivery/using/sms-channel.md#about-character-transliteration)에서 [에 대해 자세히 알아보십시오.
+이 섹션](../../delivery/using/sms-set-up.md#about-character-transliteration)에서 [에 대해 자세히 알아보십시오.
 
 ## {#formatting} 서식에 대해 작업
 
