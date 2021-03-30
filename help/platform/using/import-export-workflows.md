@@ -7,21 +7,21 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
 
-# 워크플로우를 사용하여 데이터 가져오기 및 내보내기 {#import-export-workflows}
+# 워크플로우 {#import-export-workflows}을(를) 사용하여 데이터 가져오기 및 내보내기
 
 ## 데이터 수집 중 {#collecting-data-workflows}
 
 워크플로우는 일부 가져오기 프로세스를 자동화하는 유용한 방법입니다. 로컬 파일 또는 SFTP에서 데이터를 가져오더라도 워크플로우를 사용하여 데이터 관리 절차를 표준화할 수 있습니다.
 
-### 목록의 데이터 사용:목록 읽기 {#using-data-from-a-list--read-list}
+### 목록의 데이터를 사용합니다.목록 읽기 {#using-data-from-a-list--read-list}
 
 워크플로우에서 전송된 데이터는 데이터가 미리 준비하고 구조화된 목록에서 가져올 수 있습니다.
 
