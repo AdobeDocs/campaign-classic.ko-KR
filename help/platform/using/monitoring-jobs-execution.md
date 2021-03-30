@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * **[!UICONTROL Journal]** 탭에서는 실행에 관한 로그 메시지를 볼 수 있습니다.
-* **[!UICONTROL Rejects]** 탭에는 거부된 레코드가 포함되어 있습니다. 오류](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error)이(가) 발생한 경우 [동작을 참조하십시오.
+* **[!UICONTROL Rejects]** 탭에는 거부된 레코드가 포함되어 있습니다. [이 섹션](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error)을 참조하십시오.
 
 **[!UICONTROL General]** 탭에서 **[!UICONTROL Status]** 필드는 작업의 현재 상태를 나타냅니다.
 
