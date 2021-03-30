@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 3%
+source-wordcount: '1206'
+ht-degree: 2%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 3%
 
 ## 보안 영역 구성
 
->[!IMPORTANT]
->
->빌드 8977부터는 보안 영역 셀프 서비스 사용자 인터페이스를 더 이상 사용할 수 없습니다.
->
->* AWS에서 호스팅된 경우 허용 목록에 IP를 추가하는 작업은 Campaign 컨트롤 패널에서 수행해야 합니다. 자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)를 참조하십시오.
->* AWS에서 호스팅되지 않은 경우 Adobe 지원 팀에 연락하여 허용 목록에 IP를 추가합니다.
+빌드 8977부터는 보안 영역 셀프 서비스 사용자 인터페이스를 더 이상 사용할 수 없습니다. AWS에서 호스팅되지 않은 경우 Adobe 지원 팀에 연락하여 허용 목록에 IP를 추가합니다. 그렇지 않은 경우 허용 목록에 IP를 추가하려면 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)에서 수행해야 합니다.
 
+인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 따르십시오.
+
+>[!NOTE]
+> 
+>Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)에 자세히 설명되어 있습니다.
 >
->
-인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 자세히 나와 있는 단계를 따르십시오.
+>인스턴스는 AWS에서 호스팅되어야 하며 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 자신의 버전을 확인하는 방법을 알아봅니다.
+
 
 * 역방향 프록시가 subNetwork에서 허용되지 않도록 하십시오. 이 경우 **모든** 트래픽이 이 로컬 IP에서 오는 것으로 검색되므로 신뢰할 수 있습니다.
 
