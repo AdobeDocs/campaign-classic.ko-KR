@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: 6eb29742d5884096f2d06b763823aede48f5dcb3
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1921'
 ht-degree: 3%
 
 ---
@@ -98,7 +98,7 @@ Adobe Campaign 트랜잭션 메시징 기능을 사용하는 고객의 경우 �
 
 ### 향상된 MTA 헤더
 
-최신 Campaign Classic 인스턴스에는 모든 메시지에 필요한 향상된 MTA 헤더를 추가하는 코드가 포함되어 있습니다. Adobe Campaign 19.1(빌드 9032) 이상을 사용하는 경우 이 경우 &quot;useMomum=true&quot; 매개 변수를 마케팅 인스턴스 구성([serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) 파일)에 추가해야 합니다.
+최신 Campaign Classic 인스턴스에는 모든 메시지에 필요한 향상된 MTA 헤더를 추가하는 코드가 포함되어 있습니다. Adobe Campaign 19.1(빌드 9032) 이상을 사용하고 있는 경우, 이 경우가 아니면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 &quot;useMomentum=true&quot; 매개 변수를 실행 인스턴스 구성(마케팅 인스턴스인 [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) 파일)에 추가하도록 요청해야 합니다. 이 매개 변수는 마케팅 인스턴스일 수 있습니다. &lt;a4/ 구성에 따라 mid-sourcing 인스턴스](../../installation/using/mid-sourcing-server.md) 또는 [트랜잭션 메시징 실행 인스턴스](../../message-center/using/creating-a-shared-connection.md#execution-instance).[
 
 그러나 이 코드를 포함하지 않는 이전 인스턴스를 사용하는 경우, **[!UICONTROL Typology Rule for Enhanced MTAs]**이라는 새 분류 규칙을 캠페인 인스턴스의 모든 기존 유형 분류에 추가해야 합니다.
 이 규칙은 향상된 MTA 업그레이드의 일부로 설치된 **[!UICONTROL Typology]** 패키지에 의해 추가됩니다.
