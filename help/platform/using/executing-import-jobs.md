@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '2960'
+source-wordcount: '2955'
 ht-degree: 0%
 
 ---
@@ -244,7 +244,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 **[!UICONTROL Reject]** 및 **[!UICONTROL Ignore]** 옵션은 위에서 설명한 대로 작동합니다.
 
-### {#behavior-in-the-event-of-an-error} 오류가 발생한 경우 발생하는 동작
+### {#behavior-in-the-event-of-an-error} 오류가 발생한 경우
 
 대부분의 데이터 전송 작업은 다양한 유형의 오류(일관되지 않은 줄 형식, 잘못된 이메일 주소 등)를 생성합니다. 가져오기 엔진에서 생성된 모든 오류 및 모든 경고가 저장되고 가져오기 인스턴스에 연결됩니다.
 
@@ -311,7 +311,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
       ![](assets/s_ncs_user_import_wizard05_5.png)
 
-      **[!UICONTROL Select link]**&#x200B;을 클릭한 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 이러한 받는 사람의 새 목록을 만들 수 있습니다. 목록 만들기 및 관리는 [목록 만들기 및 관리에 제공됩니다](../../platform/using/creating-and-managing-lists.md).
+      **[!UICONTROL Select link]**&#x200B;을 클릭한 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 이러한 받는 사람의 새 목록을 만들 수 있습니다. 목록의 생성 및 관리는 [이 섹션](../../platform/using/creating-and-managing-lists.md)에 있습니다.
 
       ![](assets/s_ncs_user_import_wizard05_6.png)
 
