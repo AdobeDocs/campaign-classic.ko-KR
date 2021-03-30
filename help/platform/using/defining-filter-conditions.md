@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '3229'
 ht-degree: 37%
@@ -117,7 +117,7 @@ ht-degree: 37%
  </tbody> 
 </table>
 
-## AND 사용 또는 {#using-and--or--except} 제외
+## {#using-and--or--except}을 제외한 AND 또는
 
 여러 필터링 조건을 사용하는 쿼리의 경우 조건 사이의 링크를 정의해야 합니다. 다음과 같은 세 가지 링크가 있습니다.
 
@@ -146,7 +146,7 @@ ht-degree: 37%
 
 ![](assets/query_editor_nveau_31.png)
 
-## 조건 {#prioritizing-conditions} 우선 순위를 매깁니다.
+## 조건 우선 순위 지정 {#prioritizing-conditions}
 
 이 섹션에서는 도구 모음의 파란색 화살표 덕분에 조건의 우선 순위를 지정하는 방법을 설명합니다.
 
@@ -259,7 +259,7 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->* 표현식을 편집할 출력 열을 추가하려면 **[!UICONTROL Add]** 단추(사이드 아이콘 막대 위)를 사용합니다. 표현식 편집에 대한 자세한 내용은 [표현식 만들기](#building-expressions)를 참조하십시오.
+>* 표현식을 편집할 출력 열을 추가하려면 **[!UICONTROL Add]** 단추(사이드 아이콘 막대 위)를 사용합니다. 표현식 편집에 대한 자세한 내용은 [이 섹션](#building-expressions)을 참조하십시오.
 >* 빨간색 &#39;x&#39;(**삭제**)를 클릭하여 출력 열을 삭제합니다.
 >* 화살표를 사용하여 출력 열의 순서를 변경합니다.
 >* **[!UICONTROL Distribution of values]**&#x200B;은 선택한 필드의 값(예: 수신자 도시, 수신자 언어 등에 연결된 배포)의 배포를 보는 방법입니다.
