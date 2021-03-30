@@ -3,14 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: 권한 시작하기
 description: Campaign 기능에 대한 액세스 권한을 부여하는 방법에 대해 알아봅니다.
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: 액세스 관리
+role: 비즈니스 전문가, 관리자
+level: 초급
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 1%
+source-wordcount: '259'
+ht-degree: 2%
 
 ---
 
