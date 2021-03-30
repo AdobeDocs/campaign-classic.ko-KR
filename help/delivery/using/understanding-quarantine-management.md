@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
 source-wordcount: '2613'
 ht-degree: 14%
@@ -527,7 +527,7 @@ SMS 메시지의 격리 메커니즘은 전 세계적으로 일반 프로세스�
 
 **확장 범용 SMPP 커넥터의 경우**
 
-SMPP 프로토콜을 사용하여 SMS 메시지를 보낼 때 오류 관리는 다르게 처리됩니다. 확장 범용 SMPP 커넥터에 대한 자세한 내용은 [이 페이지](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)를 참조하십시오.
+SMPP 프로토콜을 사용하여 SMS 메시지를 보낼 때 오류 관리는 다르게 처리됩니다. 확장 범용 SMPP 커넥터에 대한 자세한 내용은 [이 페이지](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
 
 SMPP 커넥터는 정규 표현식(등록)을 사용하여 반환되는 SR(상태 보고서) 메시지의 데이터를 검색하여 내용을 필터링합니다. 그러면 이 데이터가 **[!UICONTROL Delivery log qualification]** 테이블에 있는 정보와 일치합니다(**[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** 메뉴를 통해 제공).
 
@@ -544,13 +544,13 @@ SR Generic DELIVRD 000|#MESSAGE#
 ```
 
 * 모든 오류 메시지는 **SR**&#x200B;으로 시작하여 SMS 오류 코드와 이메일 오류 코드를 구별합니다.
-* 오류 메시지의 두 번째 부분(**일반**)은 SMS 외부 계정의 **[!UICONTROL SMSC implementation name]** 필드에 정의된 것과 같은 SMSC 구현의 이름을 나타냅니다. [이 페이지](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)를 참조하십시오.
+* 오류 메시지의 두 번째 부분(**일반**)은 SMS 외부 계정의 **[!UICONTROL SMSC implementation name]** 필드에 정의된 것과 같은 SMSC 구현의 이름을 나타냅니다. [이 페이지](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
 
    동일한 오류 코드는 각 공급자에 대해 다른 의미를 가질 수 있으므로 이 필드에서 오류 코드를 생성한 공급자를 알 수 있습니다. 그런 다음 관련 공급자의 설명서에서 오류를 찾을 수 있습니다.
 
 * 오류 메시지의 세 번째 부분(**DELIVRD**)은 SMS 외부 계정에 정의된 상태 추출 규칙을 사용하여 SR에서 검색한 상태 코드에 해당합니다.
 
-   이 정규식은 외부 계정의 **[!UICONTROL SMSC specificities]** 탭에 지정됩니다. [이 페이지](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)를 참조하십시오.
+   이 정규식은 외부 계정의 **[!UICONTROL SMSC specificities]** 탭에 지정됩니다. [이 페이지](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
 
    ![](assets/tech_quarant_error_regex.png)
 
@@ -558,7 +558,7 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 * 오류 메시지의 네 번째 부분(**000** 이 예제의 경우)은 SMS 외부 계정에 정의된 오류 코드 추출 규칙을 사용하여 SR에서 추출되는 오류 코드에 해당합니다.
 
-   이 정규식은 외부 계정의 **[!UICONTROL SMSC specificities]** 탭에 지정됩니다. [이 페이지](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)를 참조하십시오.
+   이 정규식은 외부 계정의 **[!UICONTROL SMSC specificities]** 탭에 지정됩니다. [이 페이지](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
 
    기본적으로 regex는 **SMPP 3.4 사양**&#x200B;의 **부록 B** 섹션에 정의된 대로 **err:** 필드를 추출합니다.
 
