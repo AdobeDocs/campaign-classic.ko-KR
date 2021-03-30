@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Analytics 데이터 커넥터
 description: Adobe Analytics 데이터 커넥터
-audience: platform
-content-type: reference
-topic-tags: connectors
+feature: 개요
+role: 비즈니스 전문가, 관리자
+level: 초급
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1662'
 ht-degree: 1%
 
 ---
