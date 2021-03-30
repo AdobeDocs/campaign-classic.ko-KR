@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 584c11cc46d3a0cea3dcbbaef2700200fbdb8201
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 >
 >매개 변수를 교체할 수 있더라도 **[!UICONTROL Extended Generic SMPP]** 커넥터를 구성하려면 나머지 매개 변수를 채우는 데 필요한 정보를 제공하는 제공자와 상의해야 합니다. 자세한 정보는 이 [페이지](../../delivery/using/sms-protocol.md)를 참조하십시오.
 
-먼저 새 **[!UICONTROL Extended Generic SMPP]** 외부 계정을 만든 다음 일부 매개 변수를 교체할 수 있습니다. 이 [페이지](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)에서 자세한 단계를 찾을 수 있습니다.
+먼저 새 **[!UICONTROL Extended Generic SMPP]** 외부 계정을 만든 다음 일부 매개 변수를 교체할 수 있습니다. 이 [페이지](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)에서 자세한 단계를 찾을 수 있습니다.
 
 이제 새로 만든 **[!UICONTROL Extended Generic SMPP]** 외부 계정의 **[!UICONTROL Mobile]** 탭에서 이전 커넥터에 따라 매개 변수를 입력해야 합니다.
 
