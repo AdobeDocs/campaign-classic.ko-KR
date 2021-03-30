@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 새 내보내기 작업을 만든 후 내보내기 마법사가 표시됩니다([가져오기 및 내보내기 작업 만들기](../../platform/using/creating-import-export-jobs.md) 참조).
 
-## 1단계 - 내보내기 템플릿 {#step-1---choosing-the-export-template} 선택
+## 1단계 - 내보내기 템플릿 {#step-1---choosing-the-export-template}을 선택합니다.
 
 내보내기 마법사를 시작할 때 먼저 템플릿을 선택해야 합니다. 예를 들어 최근에 등록한 받는 사람의 내보내기를 구성하려면 아래 단계를 따르십시오.
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
    마지막 수정 날짜를 입력해야 합니다. 필드 또는 계산에서 검색할 수 있습니다.
 
-## 3단계 - 출력 형식 정의 {#step-3---defining-the-output-format}
+## 3단계 - 출력 형식 {#step-3---defining-the-output-format} 정의
 
 내보내기 파일의 출력 형식을 선택합니다. 다음 형식을 사용할 수 있습니다.텍스트, 고정 열 텍스트, CSV 및 XML
 
