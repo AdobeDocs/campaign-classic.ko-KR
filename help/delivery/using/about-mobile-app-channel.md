@@ -7,25 +7,23 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 1%
+source-wordcount: '659'
+ht-degree: 0%
 
 ---
 
 
-# 모바일 앱 채널 기본 정보{#about-mobile-app-channel}
+# 모바일 앱 채널 시작{#about-mobile-app-channel}
+
+**모바일 앱 채널**&#x200B;을 사용하면 Adobe Campaign 플랫폼을 사용하여 앱을 통해 개인화된 푸시 알림을 iOS 및 Android 터미널에 보낼 수 있습니다.
 
 >[!CAUTION]
 >
 >이 문서에서는 모바일 애플리케이션을 Adobe Campaign 플랫폼과 통합하는 프로세스를 자세히 설명합니다. 모바일 응용 프로그램을 만드는 방법 또는 알림을 관리하기 위해 이 응용 프로그램을 구성하는 방법에 대한 정보는 제공하지 않습니다. 이에 대한 자세한 내용은 공식 Apple [설명서](https://developer.apple.com/) 및 Android [설명서](https://developer.android.com/index.html)를 참조하십시오.
 
-아래 섹션에서는 모바일 앱 채널과 관련된 정보를 제공합니다.
-
-배달을 만드는 방법에 대한 글로벌 정보는 [이 섹션](../../delivery/using/steps-about-delivery-creation-steps.md)을 참조하십시오.
-
-**모바일 앱 채널**&#x200B;을 사용하면 Adobe Campaign 플랫폼을 사용하여 앱을 통해 개인화된 알림을 iOS 및 Android 터미널에 보낼 수 있습니다. 두 개의 전달 채널을 사용할 수 있습니다.
+두 개의 전달 채널을 사용할 수 있습니다.
 
 * Apple 모바일 장치에 알림을 보낼 수 있는 iOS 채널.
 
@@ -38,6 +36,7 @@ ht-degree: 1%
 이 두 채널에 해당하는 캠페인 워크플로우에는 두 개의 배달 활동이 있습니다.
 
 ![](assets/nmac_intro_3.png)
+
 
 >[!NOTE]
 >
@@ -56,7 +55,9 @@ ht-degree: 1%
 
 **[!UICONTROL NMAC opt-out management]**(mobileAppOptOutGt) 작업 과정은 모바일 장치에서 알림 구독 취소를 업데이트합니다. 이 워크플로에 대한 자세한 내용은 [기술 워크플로우 목록](../../workflow/using/about-technical-workflows.md)을 참조하십시오.
 
-Adobe Campaign은 HTTP/2 APN과 호환됩니다. 구성 단계에 대한 자세한 내용은 Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) 섹션에서 [모바일 응용 프로그램 구성을 참조하십시오.
+Adobe Campaign은 HTTP/2 APN과 호환됩니다. 구성 단계에 대한 자세한 내용은 [이 섹션](../../delivery/using/configuring-the-mobile-application.md) 섹션을 참조하십시오.
+
+배달을 만드는 방법에 대한 글로벌 정보는 [이 섹션](../../delivery/using/steps-about-delivery-creation-steps.md)을 참조하십시오.
 
 ## 데이터 경로 {#data-path}
 
