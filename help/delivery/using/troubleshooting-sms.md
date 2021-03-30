@@ -1,15 +1,15 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: SMS 커넥터 프로토콜 및 설정
-description: SMS 커넥터와 구성 방법에 대해 자세히 알아보십시오.
+title: SMS 문제 해결
+description: SMS 채널 문제를 해결하는 방법에 대한 자세한 내용
 audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2744'
 ht-degree: 0%
 
 ---
