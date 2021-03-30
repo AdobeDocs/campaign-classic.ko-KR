@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '928'
 ht-degree: 1%
 
 ---
 
 
-# 파일 첨부{#attaching-files}
+# 이메일{#attaching-files}에 파일 첨부
 
 ## 이메일 첨부 파일 정보 {#about-email-attachments}
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 >
 >이 유형의 구성은 일반적으로 배달 템플릿에서 수행됩니다. 자세한 내용은 [템플릿 정보](../../delivery/using/about-templates.md)를 참조하십시오.
 
-## 로컬 파일 첨부 {#attaching-a-local-file}
+## 로컬 파일 {#attaching-a-local-file} 첨부
 
 로컬 파일을 배달물에 첨부하려면 아래 단계를 따르십시오.
 
