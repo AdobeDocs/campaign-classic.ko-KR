@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: 목록 만들기 및 관리
 description: 목록 만들기 및 관리 방법 알아보기
-audience: platform
-content-type: reference
-topic-tags: profile-management
+feature: 프로필
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '808'
 ht-degree: 9%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # 목록 만들기 및 관리{#creating-and-managing-lists}
 
-## Adobe Campaign {#about-lists-in-adobe-campaign}의 목록 정보
+## 목록이란?{#about-lists-in-adobe-campaign}
 
 목록은 가져오기 작업 또는 워크플로우 실행 중에 배달 작업에서 타깃팅하거나 업데이트할 수 있는 정적 프로필 집합입니다. 예를 들어 쿼리를 통해 데이터베이스에서 추출한 모집단은 목록을 제공할 수 있습니다.
 
@@ -37,7 +37,7 @@ Adobe Campaign에서는 두 가지 유형의 목록을 사용할 수 있습니�
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#create-list-video)
 
-## {#creating-a-profile-list-from-a-group} 그룹에서 프로필 목록 만들기
+## 그룹 {#creating-a-profile-list-from-a-group}에서 프로필 목록 만들기
 
 **[!UICONTROL Group]** 링크를 통해 만든  **[!UICONTROL Profiles and targets]** 유형 목록은 기본 Adobe Campaign 프로필 테이블(nms:recipient)을 기반으로 해야 합니다.
 
@@ -69,7 +69,7 @@ Adobe Campaign에서는 두 가지 유형의 목록을 사용할 수 있습니�
 
 ![](assets/s_ncs_user_new_recipient_from_group.png)
 
-프로필 목록은 다른 목록과 마찬가지로 구성할 수 있습니다. [목록 구성](../../platform/using/adobe-campaign-workspace.md#configuring-lists)을 참조하십시오.
+프로필 목록은 다른 목록과 마찬가지로 구성할 수 있습니다. [이 섹션](../../platform/using/adobe-campaign-workspace.md#configuring-lists)을 참조하십시오.
 
 ## 데이터를 목록 {#linking-data-to-a-list}에 연결
 
@@ -118,7 +118,7 @@ Adobe Campaign 홈 페이지를 통해 목록을 편집할 수도 있습니다.*
 
    ![](assets/recipient_remove_a_list.png)
 
-## 프로필 목록 {#deleting-a-list-of-profiles} 삭제
+## 프로파일 목록 {#deleting-a-list-of-profiles} 삭제
 
 Adobe Campaign 트리의 그룹 목록에서 하나 이상의 목록을 삭제할 수 있습니다. 이렇게 하려면 Adobe Campaign 홈 페이지의 **[!UICONTROL Advanced > Explorer]** 링크를 통해 트리를 편집합니다. 관련 그룹을 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다. 삭제를 확인하는 경고 메시지가 표시됩니다.
 
@@ -136,7 +136,7 @@ Adobe Campaign 트리의 그룹 목록에서 하나 이상의 목록을 삭제�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-### 워크플로 {#create-list-in-a-wf-video}으로 받는 사람 목록을 만드는 방법
+### 작업 과정을 사용하여 받는 사람 목록을 만드는 방법 {#create-list-in-a-wf-video}
 
 수신자를 타깃팅하기 위해 워크플로우를 만드는 방법과 이메일 타겟에서 목록을 사용하기 전에 반복하는 방법을 알아봅니다.
 
