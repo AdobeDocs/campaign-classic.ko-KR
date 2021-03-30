@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 9%
+source-wordcount: '1158'
+ht-degree: 6%
 
 ---
 
@@ -43,9 +43,11 @@ SFTP 서버는 파일의 보존 및 삭제를 제어할 수 있는 임시 저장
 
 >[!NOTE]
 >
->인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic [Campaign 컨트롤 패널](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/sftp-storage-management.html)으로 SFTP 서버 스토리지를 모니터링할 수 있습니다.
+>인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic [Campaign 컨트롤 패널](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/sftp-storage-management.html)으로 SFTP 서버 스토리지를 모니터링할 수 있습니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 따르십시오.
 >
->인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 섹션](https://docs.adobe.com/content/help/ko-KR/control-panel/using/faq.html#ims-org-id)에 자세히 나와 있는 단계를 따르십시오 .
+>Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 액세스 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)에 자세히 설명되어 있습니다.
+>
+>인스턴스는 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 자신의 버전을 확인하는 방법을 알아봅니다.
 
 * 서버 크기 기능은 라이센스에 따라 다릅니다. 어떠한 경우든, 가능한 최소 데이터를 유지하고, 필요한 기간(최대 시간 제한은 15일)에 대해서만 데이터를 유지합니다.
 
