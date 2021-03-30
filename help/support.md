@@ -3,14 +3,11 @@ solution: Campaign Classic
 product: campaign
 title: 'Campaign Classic 도움말 및 지원 옵션 '
 description: Campaign Classic 지원이 필요하십니까? 제대로 오셨네요!
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 1d9c96d1cd8ba2a8099271165a1671d5589230fb
+source-git-commit: 108f6cf912bb855fd34263d9e069260769a3ef6a
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '771'
 ht-degree: 10%
 
 ---
@@ -34,7 +31,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 
 <img src="platform/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### FAQ {#faq-1}
+### FAQ
 
 새 빌드로 업그레이드하는 방법 워크플로우 실행을 모니터링하는 방법 데이터베이스 정리 워크플로우란 무엇입니까?.. [상위 10개 질문 읽기](platform/using/common-questions.md).
 
@@ -97,8 +94,14 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 
 ### Campaign 컨트롤 패널 소개
 
-Campaign 컨트롤 패널은 각 인스턴스에 대한 설정을 관리하고 사용을 추적할 수 있도록 함으로써 Campaign Classic의 제품 관리자로서 작업의 효율성을 높이는 데 도움이 됩니다.
+캠페인 Campaign 컨트롤 패널을 사용하면 각 인스턴스에 대한 설정을 관리하고 사용을 추적할 수 있으므로 Campaign Classic의 제품 관리자로서 작업의 효율성을 높일 수 있습니다.
 [자세한 ](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/key-features.html) 내용은 여기를 클릭하십시오.
+
+>[!NOTE]
+>
+>Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)에 자세히 설명되어 있습니다.
+>
+>인스턴스는 AWS에서 호스팅되어야 하며 최신 [Gold Standard](rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1)](rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 자신의 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 따르십시오.
 
 ### 제어판에 액세스하는 방법
 
