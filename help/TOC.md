@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: 설명서
 translation-type: tm+mt
-source-git-commit: 0b3bc9547d756352f4af5dac713f85666c96c425
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
-source-wordcount: '2448'
+source-wordcount: '2462'
 ht-degree: 54%
 
 ---
@@ -144,13 +144,16 @@ ht-degree: 54%
          + [일본 모바일에 보내기](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [파일 첨부](delivery/using/attaching-files.md)
    + SMS {#sending-messages-on-mobiles} 보내기
-      + [SMS 채널](delivery/using/sms-channel.md)
+      + [SMS 시작하기](delivery/using/sms-channel.md)
+      + [SMS 채널 구성](delivery/using/sms-set-up.md)
+      + [SMS 만들기](delivery/using/sms-create.md)
+      + [SMS 전송 및 추적](delivery/using/sms-send.md)
       + [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)
       + [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
       + [확장 범용 SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
    + [LINE 메시지 보내기](delivery/using/line-channel.md)
    + 푸시 알림 보내기 {#sending-push-notifications}
-      + [모바일 앱 채널 기본 정보](delivery/using/about-mobile-app-channel.md)
+      + [모바일 앱 채널 시작하기](delivery/using/about-mobile-app-channel.md)
       + [모바일 애플리케이션에 Campaign SDK 통합](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + 모바일 응용 프로그램 구성{#configure-the-mobile-app}
          + [앱 구성 시작](delivery/using/get-started-app-config.md)
