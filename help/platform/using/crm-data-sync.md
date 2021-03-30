@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 translation-type: tm+mt
-source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -82,9 +82,9 @@ Adobe Campaign의 CRM을 통해 데이터를 가져오려면 다음 유형의 �
 
    자세한 내용은 [변수 관리](#variable-management)를 참조하십시오.
 
-### 변수 관리 {#variable-management}
+### 변수 {#variable-management} 관리
 
-**[!UICONTROL Automatic index]** 옵션을 활성화하면 마지막 가져오기 이후에 수정된 개체만 수집할 수 있습니다.
+마지막 가져오기 이후에 수정된 개체만 수집하려면 **[!UICONTROL Automatic index]** 옵션을 활성화합니다.
 
 ![](assets/crm_task_import_option.png)
 
@@ -242,7 +242,7 @@ Adobe Campaign 데이터를 CRM으로 내보내면 전체 내용을 CRM 데이�
    >
    >요소 삭제 기간은 CRM에 대한 제한 사항과 일치해야 합니다. 즉, Salesforce.com의 경우, 예를 들어 30일 전에 삭제된 요소는 복구할 수 없습니다.
 
-## CRM {#deleting-objects-in-the-crm}에서 개체 삭제
+## CRM {#deleting-objects-in-the-crm}의 개체 삭제
 
 CRM 측에서 개체를 삭제하려면 삭제할 원격 요소의 기본 키를 지정해야 합니다.
 
