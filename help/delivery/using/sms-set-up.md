@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 64f5b108173806aff53f7240e8c9d499cc332d72
+source-git-commit: 5a084ebe5295d19de24cf92c721d4692f0f5deb8
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1677'
 ht-degree: 34%
 
 ---
 
 
-# SMS 채널 {#setting-up-sms-channel} 설정
+# SMS 채널 {#setting-up-sms-channel} 구성
 
 휴대폰으로 전송하려면 다음이 필요합니다.
 
@@ -123,7 +123,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](../../
   </tr> 
   <tr> 
    <td> £ </td> 
-   <td> _ </td> 
+   <td> ] </td> 
    <td> ! </td> 
    <td> 1 </td> 
    <td> A </td> 
@@ -286,7 +286,7 @@ CR: 캐리지 리턴
 
 ^ { } `[ ~ ]` | €
 
-## 텍스트 인코딩 정보 {#about-text-encodings}
+## 텍스트 인코딩 {#about-text-encodings}
 
 SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 텍스트 인코딩을 사용할 수 있습니다. 각 인코딩은 고유한 문자 세트를 가지며 SMS 메시지에 맞는 글자 수를 정합니다.
 
