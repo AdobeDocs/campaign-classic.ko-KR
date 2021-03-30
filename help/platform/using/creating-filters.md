@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,11 @@ ht-degree: 0%
 
 # 필터 만들기{#creating-filters}
 
-## 소개 {#introduction}
-
 Adobe Campaign 트리(홈 페이지의 **[!UICONTROL Explorer]** 메뉴에서)에서 탐색하면 데이터베이스에 포함된 데이터가 목록에 표시됩니다. 이러한 목록은 연산자에 필요한 데이터만 표시하도록 구성할 수 있습니다. 그러면 필터링된 데이터에 대해 작업을 시작할 수 있습니다. 필터 구성을 사용하면 목록 **[!UICONTROL dynamically]**&#x200B;에서 데이터를 선택할 수 있습니다. 데이터가 수정되면 필터링된 데이터가 업데이트됩니다.
 
 >[!NOTE]
 >
->디스플레이 구성은 워크스테이션 수준에서 로컬로 정의됩니다. 숨겨진 파일에 저장되며, 특히 데이터를 새로 고칠 때 문제가 발생하는 경우 이 데이터를 정리할 필요가 있을 수 있습니다. 이렇게 하려면 **[!UICONTROL File > Clear the local cache]** 메뉴를 사용합니다.
+>사용자 인터페이스 구성 설정은 장치 수준에서 로컬로 정의됩니다. 특히 데이터를 새로 고칠 때 문제가 발생하는 경우 이 데이터를 정리할 필요가 있을 수 있습니다. 이렇게 하려면 **[!UICONTROL File > Clear the local cache]** 메뉴를 사용합니다.
 
 ## 사용 가능한 필터 유형 {#typology-of-available-filters}
 
@@ -33,7 +31,7 @@ Adobe Campaign에서는 데이터 목록에 필터를 적용할 수 있습니다
 
 Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
-* 기본 필터
+* **기본 필터**
 
    목록 위에 있는 필드를 통해 **기본 필터**&#x200B;에 액세스할 수 있습니다. 미리 정의된 필드(수신자 프로필의 경우 기본적으로 이름 및 이메일 주소)를 필터링할 수 있습니다. 이 필드를 사용하여 필터링할 문자를 입력하거나 드롭다운 목록에서 필터 조건을 선택할 수 있습니다.
 
@@ -43,9 +41,9 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
   >
   >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an e-mail address in the domain "yahoo.com".
 -->
-목록의 기본 필터를 변경할 수 있습니다. 자세한 내용은 [기본 필터 변경](#altering-the-default-filter)을 참조하십시오.
+목록의 기본 필터를 변경할 수 있습니다. 자세한 내용은 [기본 필터](#altering-the-default-filter) 변경을 참조하십시오.
 
-* 단순 필터
+* **단순 필터**
 
    **단순** 필터는 열에 일회성 필터입니다. 표시된 열에 하나 이상의 간단한 검색 기준으로 정의됩니다.
 
@@ -53,9 +51,9 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
    ![](assets/filters_recipient_simple_filter.png)
 
-   단순 필터는 [단순 필터 만들기](#creating-a-simple-filter)에 자세히 설명되어 있습니다.
+   단순 필터는 [간단한 필터 만들기](#creating-a-simple-filter)에 자세히 설명되어 있습니다.
 
-* 고급 필터
+* **고급 필터**
 
    **데이터** 에 대한 쿼리 또는 쿼리 조합을 사용하여 고급 필터가 만들어집니다.
 
@@ -67,7 +65,7 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
    >
    >Adobe Campaign에서 쿼리 작성에 대한 자세한 내용은 [이 섹션](../../platform/using/about-queries-in-campaign.md)을 참조하십시오.
 
-* 사용자 필터
+* **사용자 필터**
 
    **응용 프로그램 필터**&#x200B;는 해당 구성을 다른 연산자와 사용하고 공유할 수 있도록 저장된 고급 필터입니다.
 
@@ -96,7 +94,7 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
    >
    >필터 정의 창은 [고급 필터 만들기](#creating-an-advanced-filter) 및 [필터 저장](#saving-a-filter)에 자세히 설명되어 있습니다.
 
-## 단순 필터 만들기 {#creating-a-simple-filter}
+## 단순 필터 {#creating-a-simple-filter} 만들기
 
 **단순 필터**&#x200B;를 만들려면 다음 단계를 적용합니다.
 
@@ -172,7 +170,7 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
 나중에 사용할 수 있도록 고급 필터를 저장할 수 있습니다. 이 유형의 필터에 대한 자세한 내용은 [필터 저장](#saving-a-filter)을 참조하십시오.
 
-### 함수 {#creating-an-advanced-filter-with-functions}을(를) 사용하여 고급 필터 만들기
+### {#creating-an-advanced-filter-with-functions} 함수가 있는 고급 필터 만들기
 
 고급 필터는 함수를 사용할 수 있습니다.**함수**&#x200B;가 있는 필터는 데이터베이스 데이터 및 고급 함수를 사용하여 공식을 만들 수 있는 표현식 편집기를 통해 만들어집니다. 함수가 있는 필터를 만들려면 고급 필터 만들기 단계 1, 2 및 3을 반복한 다음 다음과 같이 진행합니다.
 
@@ -196,7 +194,7 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
       >[!NOTE]
       >
-      >식을 기반으로 하는 필터 만들기의 예를 보려면 [생일이 ](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is)인 받는 사람 식별을 참조하십시오.
+      >식을 기반으로 하는 필터 생성의 예를 보려면 [이 섹션](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is)을 참조하십시오.
 
 ## 필터 {#saving-a-filter} 저장
 
@@ -224,7 +222,7 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
 ## 받는 사람 필터링 {#filtering-recipients}
 
-사전 정의된 필터([필터 저장](#saving-a-filter) 참조)를 사용하면 데이터베이스에 포함된 받는 사람의 프로필을 필터링할 수 있습니다. 트리의 **[!UICONTROL Profiles and Targets > Predefined filters]** 노드에서 필터를 편집할 수 있습니다. 필터는 작업 영역의 상단 섹션에 **[!UICONTROL Filters]** 단추를 통해 나열됩니다.
+사전 정의된 필터([필터 저장](#saving-a-filter) 참조)를 사용하여 데이터베이스에 포함된 받는 사람의 프로필을 필터링할 수 있습니다. 트리의 **[!UICONTROL Profiles and Targets > Predefined filters]** 노드에서 필터를 편집할 수 있습니다. 필터는 작업 영역의 상단 섹션에 **[!UICONTROL Filters]** 단추를 통해 나열됩니다.
 
 필터를 선택하여 해당 정의를 표시하고 필터링된 데이터의 미리 보기에 액세스합니다.
 
