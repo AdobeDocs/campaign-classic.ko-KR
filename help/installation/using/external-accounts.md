@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: f00c0bda0ab3f2e07c015f4cfe5e3942f5620841
+source-git-commit: bfe2e29ed904b6a04bab28455301437c63ab8118
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1612'
 ht-degree: 11%
 
 ---
@@ -35,6 +35,7 @@ Adobe Campaign에는 미리 정의된 외부 계정 집합이 포함되어 있�
 * [Amazon Simple Storage Service (S3) 외부 계정](#amazon-simple-storage-service--s3--external-account)
 * [Microsoft Dynamics CRM 외부 계정](#microsoft-dynamics-crm-external-account)
 * [Salesforce CRM 외부 계정](#salesforce-crm-external-account)
+* [Azure Blob 저장 공간 외부 계정](#azure-blob-external-account)
 
 ## 외부 계정 만들기 {#creating-an-external-account}
 
@@ -98,7 +99,7 @@ POP3 액세스용으로 구성된 모든 서버를 사용하여 회신 메일을
 다음 채널을 구성할 수 있습니다.
 
 * [이메일](../../installation/using/deploying-an-instance.md#email-channel-parameters)
-* [모바일(SMS)](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)
+* [모바일(SMS)](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)
 * [전화](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [DM](../../delivery/using/about-direct-mail-channel.md)
 * [에이전시](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
@@ -147,7 +148,7 @@ Campaign과 호환되는 외부 데이터베이스가 [호환성 매트릭스](.
 
 외부 계정 구성 설정은 데이터베이스 엔진에 따라 다릅니다. 다음 섹션에서 자세한 내용을 살펴보십시오.
 
-* [Azure Synapse](../../installation/using/configure-fda-synapse.md)에 대한 액세스 권한 구성
+* [Azure synapse](../../installation/using/configure-fda-synapse.md)에 대한 액세스 권한 구성
 * [Hadoop](../../installation/using/configure-fda-hadoop.md)에 대한 액세스 권한 구성
 * [Oracle](../../installation/using/configure-fda-oracle.md)에 대한 액세스 권한 구성
 * [Netezza](../../installation/using/configure-fda-netezza.md)에 대한 액세스 권한 구성
@@ -413,3 +414,23 @@ Salesforce CRM 외부 계정이 Adobe Campaign에서 작동하도록 구성하�
 이 외부 계정의 경우 구성 마법사를 사용하여 Salesforce CRM을 구성해야 합니다.
 
 이 구성에 대한 자세한 내용은 이 [페이지](../../platform/using/crm-connectors.md)를 참조하십시오.
+
+## Azure Blob 저장소 외부 계정(#azure-blob-external-account)
+
+**Azure Blob 저장소** 외부 계정을 사용하여 **[!UICONTROL Transfer file]** 워크플로 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 자세한 정보는 이 [섹션](../../workflow/using/file-transfer.md)을 참조하십시오.
+
+![](assets/ext_account_23.png)
+
+Adobe Campaign에서 작동하도록 **[!UICONTROL Azure external account]**&#x200B;을(를) 구성하려면 다음 세부 정보를 제공해야 합니다.
+
+* **[!UICONTROL Server]**
+
+   Azure Blob 저장소 서버의 URL입니다.
+
+* **[!UICONTROL Encryption]**
+
+   **[!UICONTROL None]** 또는 **[!UICONTROL SSL]** 사이의 선택한 암호화 유형입니다.
+
+* **[!UICONTROL Access key]**
+
+   **[!UICONTROL Access key]**&#x200B;의 위치를 알려면 이 [페이지](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)를 참조하십시오.
