@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: 명명된 권한을 사용하여 권한 설정
 description: 명명된 권한을 사용하여 권한을 설정하는 방법을 알아봅니다.
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: 액세스 관리
+role: 비즈니스 전문가, 관리자
+level: 초급
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '509'
 ht-degree: 4%
 
 ---
