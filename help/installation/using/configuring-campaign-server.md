@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 6d0ae3d597f9ee30515437d94901cb034d0ca3d5
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '3600'
-ht-degree: 3%
+source-wordcount: '3765'
+ht-degree: 4%
 
 ---
 
@@ -19,11 +19,15 @@ ht-degree: 3%
 
 아래 섹션에서는 요구 사항 및 환경 사양에 맞게 수행할 수 있는 서버측 구성에 대해 자세히 설명합니다.
 
->[!IMPORTANT]
+이러한 구성은 관리자가 수행해야 하고 **온-프레미스** 호스팅 모델에만 사용해야 합니다.
+
+**호스팅** 배포의 경우 서버측 설정은 Adobe에서만 구성할 수 있습니다. 그러나 Campaign 컨트롤 패널 내에서 일부 설정을 설정할 수 있습니다(예: IP 허용 목록에 추가하다 관리 또는 URL 권한).
+
+>[!NOTE]
 >
->이러한 구성은 관리자가 수행해야 하고 **온-프레미스** 호스팅 모델에만 사용해야 합니다.
+>Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)에 자세히 설명되어 있습니다.
 >
->**호스팅** 배포의 경우 서버측 설정은 Adobe에서만 구성할 수 있습니다. 그러나 Campaign 컨트롤 패널 내에서 일부 설정을 설정할 수 있습니다(예: IP 허용 목록에 추가하다 관리 또는 URL 권한).
+>인스턴스는 AWS에서 호스팅되어야 하며 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 자신의 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 따르십시오.
 
 자세한 내용은 다음 섹션을 참조하십시오.
 
@@ -345,6 +349,12 @@ URL 권한을 관리할 수 있는 방법은 호스팅 모델에 따라 다릅�
 
 * **하이브리더** 온-프레미스 ****:serverConf.xml 파일에 허용하도록 URL **을 추가합니다**. 자세한 정보는 아래 섹션에 있습니다.
 * **호스팅**:Campaign 컨트롤 패널을 통해 허용할 URL을  **추가합니다**. 자세한 내용은 [전용 설명서](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/url-permissions.html)를 참조하십시오.
+
+   >[!NOTE]
+   >
+   >Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)에 자세히 설명되어 있습니다.
+   >
+   >인스턴스는 AWS에서 호스팅되어야 하며 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 자신의 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 따르십시오.
 
 **하이브리드** 및 **온-프레미스** 호스팅 모델을 사용하여 관리자는 **serverConf.xml** 파일의 새 **urlPermission**&#x200B;을 참조해야 합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열됩니다.
 
