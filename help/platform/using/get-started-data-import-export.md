@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 12%
@@ -56,7 +56,7 @@ Campaign Classic을 사용하면 압축 또는 암호화된 파일을 가져오�
 
 자세한 정보는 다음 섹션을 참조하십시오.
 
-* [파일의 압축을 풀거나 해독합니다.](../../platform/using/unzip-decrypt.md)
+* [파일 압축 해제 또는 암호 해독](../../platform/using/unzip-decrypt.md)
 * [파일 압축 또는 암호화](../../platform/using/zip-encrypt.md)
 
 ## 모범 사례 및 문제 해결{#best-practices-troubleshooting}
