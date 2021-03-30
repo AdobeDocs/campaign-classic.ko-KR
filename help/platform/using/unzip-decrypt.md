@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '726'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,9 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 �
 
    >[!NOTE]
    >
-   >Campaign 컨트롤 패널은 AWS를 통해 호스팅되는 모든 고객에게 제공됩니다(마케팅 인스턴스를 사내에 호스트하는 고객 제외).
+   >Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 액세스 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)에 자세히 설명되어 있습니다.
+   >
+   >인스턴스는 AWS에서 호스팅되어야 하며 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 자신의 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 따르십시오.
 
 1. Adobe Campaign 설치가 Adobe을 통해 호스팅되는 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하여 서버에 필요한 유틸리티를 설치하도록 하십시오.
 1. Adobe Campaign의 설치를 온-프레미스 경우 사용할 유틸리티를 설치합니다(예:GPG, GZIP) 및 응용 프로그램 서버에 필요한 키(암호화 키)가 있습니다.
@@ -44,7 +46,7 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 �
 **관련 항목:**
 
 * [데이터 로드(파일) 활동](../../workflow/using/data-loading--file-.md).
-* [파일](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file) 압축 또는 암호화
+* [파일을 압축 또는 암호화합니다](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
 ## 사용 사례:Campaign 컨트롤 패널 {#use-case-gpg-decrypt}에서 생성된 키를 사용하여 암호화된 데이터 가져오기
 
