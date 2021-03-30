@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2024'
 ht-degree: 3%
 
 ---
@@ -168,7 +168,7 @@ RT(Message Center)에 대한 업그레이드가 발생하면 인스턴스에서 
 
 빌드 업그레이드 후 문제가 발생하면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 고객 지원 센터에서 빌드 날짜를 예약하고 업그레이드 관련 티켓 빌드를 엽니다.
 
-Campaign Classic](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)에 대한 [도움말 및 지원 옵션에 자세히 알아보기
+Campaign Classic](../../support.md)에 대한 [도움말 및 지원 옵션에 자세히 알아보기
 
 ## 업그레이드 확인 목록 만들기 {#check-list}
 
@@ -208,5 +208,5 @@ API를 통해 새 레코드를 삽입할 수 있는지 확인합니다.
 
 * [빌드 업그레이드 수행](../../production/using/build-upgrade.md)
 * [Campaign Classic 릴리스 노트](../../rn/using/rn-overview.md)
-* [Campaign Classic 도움말 및 지원 옵션](https://helpx.adobe.com/campaign/kb/ac-support.html)
+* [Campaign Classic 도움말 및 지원 옵션](../../support.md)
 * [[!DNL Gold Standard] 프로그램](../../rn/using/gs-overview.md)
