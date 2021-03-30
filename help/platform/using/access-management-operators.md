@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: 캠페인 연산자 시작하기
 description: 캠페인 사용자를 만들고 관리하는 방법에 대해 알아봅니다.
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: 액세스 관리
+role: 비즈니스 전문가, 관리자
+level: 초급
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1152'
 ht-degree: 2%
 
 ---
