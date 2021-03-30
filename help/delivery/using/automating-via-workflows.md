@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 translation-type: tm+mt
-source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 1%
+source-wordcount: '1185'
+ht-degree: 0%
 
 ---
 
 
-# 워크플로우를 통한 자동화{#automating-via-workflows}
+# 워크플로우 자동화{#automating-via-workflows}
 
 ## 콘텐츠 관리 활동 {#content-management-activity}
 
@@ -78,7 +78,7 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 
 ## 예제 {#examples}
 
-### 콘텐츠 만들기 및 전달 자동화 {#automating-content-creation-and-delivery}
+### 콘텐츠 제작 및 전달 자동화 {#automating-content-creation-and-delivery}
 
 다음 예제에서는 컨텐츠 블록의 작성 및 제공을 자동화합니다.
 
@@ -160,7 +160,7 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 
 활동을 완료하기 위한 마지막 단계는 배달을 준비한 다음 시작하는 것입니다.
 
-### 컨텐츠를 만들고 나중에 게시 {#creating-content-and-publishing-it-later}
+### 나중에 게시할 내용 만들기 {#creating-content-and-publishing-it-later}
 
 이 예제에서는 컨텐츠 블록을 만들고 특정 시간 지연 후에 파일 게시를 시작합니다.
 
@@ -192,7 +192,7 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 
 ![](assets/d_ncs_content_workflow9.png)
 
-### 배달 만들기 및 해당 컨텐츠 {#creating-the-delivery-and-its-content}
+### 배달 및 해당 컨텐츠 {#creating-the-delivery-and-its-content} 만들기
 
 이 예에서는 첫 번째 예와 동일한 개념을 사용하므로 첫 번째 단계에서만 전달 작업을 만듭니다.
 
@@ -214,11 +214,11 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 
 활동의 최종 동작은 배달을 준비하고 시작하는 것입니다.
 
-### FTP {#importing-content-from-ftp}에서 컨텐츠 가져오기
+### FTP {#importing-content-from-ftp}에서 콘텐트 가져오기
 
 배달 컨텐츠를 FTP 또는 SFTP 서버에 있는 HTML 파일에서 사용할 수 있는 경우 이 컨텐츠를 Adobe Campaign 배달으로 쉽게 로드할 수 있습니다. [이 예제](../../workflow/using/loading-delivery-content.md)를 참조하십시오.
 
-### Amazon Simple Storage Service (S3) 커넥터에서 내용 가져오기 {#importing-content-from-amazon-simple-storage-service--s3--connector}
+### Amazon Simple Storage Service (S3) 커넥터 {#importing-content-from-amazon-simple-storage-service--s3--connector}에서 내용 가져오기
 
 배달 컨텐츠가 Amazon Simple Storage Service (S3) 버킷에 있는 경우 이 컨텐츠를 Adobe Campaign 배달에 쉽게 로드할 수 있습니다. [이 예제](../../workflow/using/loading-delivery-content.md)를 참조하십시오.
 
