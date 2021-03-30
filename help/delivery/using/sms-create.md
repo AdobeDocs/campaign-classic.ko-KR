@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 64f5b108173806aff53f7240e8c9d499cc332d72
+source-git-commit: 5a084ebe5295d19de24cf92c721d4692f0f5deb8
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 2%
+source-wordcount: '432'
+ht-degree: 3%
 
 ---
 
 
-# SMS 배달 {#creating-a-sms-delivery} 만들기 및 보내기
+# SMS 게재 만들기 {#creating-a-sms-delivery}
 
 ## 배달 채널 {#selecting-the-delivery-channel} 선택
 
