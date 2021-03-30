@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 7%
+source-wordcount: '543'
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 7%
 
 ![](assets/acc-logon.png)
 
-## Adobe Campaign {#connecting-to-adobe-campaign}에 연결 중
+## Adobe Campaign {#connecting-to-adobe-campaign}에 연결
 
 Adobe ID을 사용하여 Adobe Campaign에 연결할 수 있습니다. 자세한 정보는 이 [페이지](../../integrations/using/about-adobe-id.md)를 참조하십시오.
 
@@ -74,7 +74,7 @@ Adobe ID을 사용하여 Adobe Campaign에 연결할 수 있습니다. 자세한
 
 이 기능은 [액세스 관리](../../platform/using/access-management.md) 섹션에 자세히 설명되어 있습니다.
 
-## Adobe Campaign {#disconnecting-from-adobe-campaign} 연결 해제
+## Adobe Campaign {#disconnecting-from-adobe-campaign}에서 연결 끊기
 
 Adobe Campaign 연결을 끊으려면 아이콘 막대에서 첫 번째 아이콘을 사용합니다.
 
@@ -84,7 +84,7 @@ Adobe Campaign 연결을 끊으려면 아이콘 막대에서 첫 번째 아이�
 >
 >먼저 로그오프하지 않고 응용 프로그램을 닫을 수도 있습니다.
 
-## Adobe Campaign 버전 {#getting-your-campaign-version}을(를) 가져오는 중
+## Adobe Campaign 버전 {#getting-your-campaign-version} 다운로드
 
 **[!UICONTROL Help > About...]** 메뉴를 통해 다음 정보에 액세스할 수 있습니다.
 
@@ -105,6 +105,6 @@ Adobe 고객 지원 센터에 문의할 때마다 Adobe Campaign 클라이언트
 
 **관련 항목**:
 
-* [Adobe Campaign 도움말 및 지원 옵션](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)
+* [Adobe Campaign 도움말 및 지원 옵션](../../support.md)
 * [Adobe Campaign 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Adobe Experience Cloud 지원 및 전문가 세션](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
