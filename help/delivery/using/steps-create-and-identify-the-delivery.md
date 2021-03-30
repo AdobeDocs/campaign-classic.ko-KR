@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 11%
@@ -52,7 +52,7 @@ ht-degree: 11%
 배달 컨텐츠를 구성할 준비가 되었습니다. 배달 컨텐츠 정의는 각 채널에 따라 다릅니다. 자세한 내용은 전용 섹션을 참조하십시오.
 
 * [전자 메일 콘텐츠 정의](../../delivery/using/defining-the-email-content.md)
-* [SMS 컨텐츠 정의](../../delivery/using/sms-channel.md#defining-the-sms-content)
+* [SMS 컨텐츠 정의](../../delivery/using/sms-create.md#defining-the-sms-content)
 * [DM 콘텐츠 정의](../../delivery/using/defining-the-direct-mail-content.md)
 * [푸시 알림](../../delivery/using/about-mobile-app-channel.md)
 
