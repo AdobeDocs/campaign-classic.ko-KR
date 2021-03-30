@@ -7,17 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
 
 
 # 열거형 관리{#managing-enumerations}
-
-## 열거형 정보 {#about-enumerations}
 
 열거형(&#39;항목별 목록&#39;이라고도 함)은 특정 필드를 채우기 위해 시스템에서 제안하는 값의 목록입니다. 열거형을 사용하면 이러한 필드의 값을 표준화할 수 있고 데이터 입력 또는 쿼리 내에서 사용할 수 있습니다.
 
@@ -112,7 +110,7 @@ ht-degree: 0%
 
 ![](assets/s_ncs_user_itemized_list_alias_detail2.png)
 
-#### 별칭 히트 {#retrieving-alias-hits} 검색 중
+#### 별칭 히트 {#retrieving-alias-hits} 검색
 
 사용자가 입력한 값을 별칭으로 변환할 수 있습니다. 실제로 사용자가 항목별 목록에 포함되지 않은 값을 입력하면 값이 **[!UICONTROL Alias]** 탭에 저장됩니다.
 
@@ -134,7 +132,7 @@ ht-degree: 0%
 
 데이터 정리를 실행하려면 **[!UICONTROL Start]** 단추를 클릭합니다.
 
-#### 항목 발생 횟수 {#calculating-entry-occurrences} 계산 중
+#### 항목 발생 횟수 {#calculating-entry-occurrences} 계산
 
 항목별 목록의 **[!UICONTROL Alias]** 하위 탭에는 입력한 모든 값 중 앨리어스 발생 횟수를 표시할 수 있습니다. 이 정보는 예상 정보이며 **[!UICONTROL Hits]** 열에 표시됩니다.
 
