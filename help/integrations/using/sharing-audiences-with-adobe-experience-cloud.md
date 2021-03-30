@@ -7,9 +7,9 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 40abbf1f981331b8a19d3607c57624aac22c91f2
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -36,3 +36,9 @@ Adobe Campaign을 사용하면 Adobe Experience Cloud 솔루션 및 핵심 서�
 
 * **방문자 ID**:이 유형의 식별자는 Adobe Experience Cloud 방문자를 Adobe Campaign 수신자와 중재합니다.
 * **선언된 ID**:이 유형의 식별자는 모든 유형의 데이터를 Adobe Campaign 데이터베이스의 요소와 조정합니다. Adobe Campaign에 사전 정의된 조정 키로 표시됩니다.
+
+   >[!NOTE]
+   >
+   > 선언된 ID 데이터 소스를 사람 핵심 서비스 통합에도 사용할 수 있습니다.
+   >
+   >People 코어 서비스 통합을 사용하고 Audience Manager 통합을 추가하려는 경우, Adobe Audience Manager 컨텍스트에서 이 선언된 ID 데이터 소스를 사용하여 전환할 때 수집된 모든 ID 동기화가 손실되지 않도록 Adobe Audience Manager 컨설턴트의 도움이 필요합니다.
