@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -94,7 +94,7 @@ ht-degree: 2%
 
    내보내기 마법사를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/executing-export-jobs.md)을 참조하십시오.
 
-## 서비스 {#subscribing-to-a-service} 가입
+## 서비스 {#subscribing-to-a-service} 구독
 
 대부분의 경우 수신자는 [이 섹션](../../delivery/using/managing-subscriptions.md)에 설명된 대로 전용 랜딩 페이지를 통해 뉴스레터에 가입합니다. 하지만 필터링된 수신자의 프로필은 서비스(뉴스레터 또는 입소문 서비스)에 수동으로 가입할 수 있습니다. 방법은 다음과 같습니다.
 
