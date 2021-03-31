@@ -7,10 +7,10 @@ feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
+source-git-commit: a25f9464a762defa5d9a3b45bb60a387c65b7c97
 workflow-type: tm+mt
-source-wordcount: '2562'
-ht-degree: 92%
+source-wordcount: '2833'
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,26 @@ ht-degree: 92%
 
 ![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 Campaign 컨트롤 패널 릴리스**. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
-## ![](assets/do-not-localize/green_2.png) 릴리스 20.2.4 - 빌드 9187 {#release-20-2-4-build-9187}
+## ![](assets/do-not-localize/green_2.png) 릴리스 20.2.5 - 빌드 9188 {#release-20-2-5-build-9188}
+
+_2020년 3월 31일_
+
+**개선 사항**
+
+* 잘못된 soap 호출에서 충돌이 발생하지 않도록 개선되었습니다. 이로 인해 특정 복잡한 쿼리를 실행하려고 할 때 인스턴스 작업이 중지될 수 있습니다. (NEO-28796, NEO-30553)
+* 호스트 이름 확인으로 인해 TLS가 있는 SMS 배달이 전송되지 않는 회귀 문제를 해결했습니다. (NEO-29581)
+* 일부 이메일 클라이언트에서 서명된 추적 링크가 작동하지 않던 문제를 수정했습니다. (NEO-28414, NEO-29615)
+* webApp 추적 태그를 사용할 때 중복 ID와 충돌할 수 있는 추적 ID 시퀀스를 수정했습니다. (NEO-27931)
+* 일별 wfserver를 다시 시작하여 실행 중인 워크플로우가 정지되는 문제를 해결했습니다. (NEO-30047)
+* Adobe Experience Manager 템플릿을 동기화하려고 할 때 관리자가 아닌 사용자가 API 호출을 사용하는 보안 문제를 해결했습니다. (NEO-32389, NEO-23487)
+* 템플릿으로 만든 게재에서 배달 대화 상자를 닫을 때 콘솔에 충돌이 발생하는 문제를 해결했습니다. (NEO-31547)
+* 캠페인의 **타깃팅 및 워크플로우** 탭 내에서 배달을 만들고 저장할 때 발생하는 문제를 수정했습니다.다음 오류가 발생하여 미리 보기가 실패합니다.(NEO-29440)
+* Tomcat 8.5에서 잘못된 응답을 전송하여 트랜잭션 메시지 로그에 오류가 발생하는 문제를 해결했습니다. (NEO-30858)
+* 외부 스레드 관리의 메모리 손상을 야기하고 성능에 영향을 주는 회귀 문제를 수정했습니다.
+* 사용자 지정 대상 매핑을 사용할 때 청구 워크플로우가 실패하던 문제를 수정했습니다. 사용자 정의 스키마의 기본 키는 정수 값만 허용되는 &#39;sourceId&#39; 열에 저장됩니다. 이제 문자열 값뿐만 아니라 정수도 사용할 수 있습니다. (NEO-25914, NEO-28146)
+* 게시의 날짜 선택기 및 이미지 관리와 같이 콘솔의 일부 구성 요소를 사용할 수 없는 회귀 문제를 해결했습니다. (NEO-31453)
+
+## ![](assets/do-not-localize/red_2.png) 릴리스 20.2.4 - 빌드 9187 {#release-20-2-4-build-9187}
 
 _2020년 12월 22일_
 
@@ -28,7 +47,6 @@ _2020년 12월 22일_
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 6월 30일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다&#x200B;**.**
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
 > * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 이 페이지](../../integrations/using/configuring-adobe-io.md)에서 설명한 대로 Adobe I/O으로 이동해야 합니다. [ 캠페인이 포함된 레거시 인증 모드는 **2021년 11월 30일에 종료됩니다**.
-
 
 
 **개선 사항**
