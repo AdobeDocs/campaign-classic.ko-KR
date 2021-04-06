@@ -1,19 +1,19 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Microsoft Dynamics CRM Connector
+title: 캠페인 - Microsoft Dynamics CRM 커넥터
 description: Connect Campaign 및 Microsoft Dynamics
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 translation-type: tm+mt
-source-git-commit: 521bc3bf9b2507947007d7f458679275d407f910
+source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
-
 
 # Connect 캠페인 및 Microsoft Dynamics 365{#connect-to-msdyn}
 
@@ -26,12 +26,6 @@ ht-degree: 1%
 * **온-프레미스** 배포의 경우 Office 365 키 단계를 적용합니다.
 
 데이터 동기화는 전용 워크플로우 활동을 통해 수행됩니다. [자세히 알아보기](../../platform/using/crm-data-sync.md)
-
-
->[!NOTE]
->
-> Campaign과 호환되는 CRM 시스템 버전은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md#CRMconnectors)에 나열됩니다.
-
 
 ## 구현 단계{#microsoft-dynamics-implementation-steps}
 
@@ -56,19 +50,19 @@ Campaign Classic:
 
 
 >[!CAUTION]
->
 > Adobe Campaign을 Microsoft Dynamics와 연결할 때 다음과 같은 작업을 수행할 수 없습니다.
 > * CRM 동작을 변경하고 Adobe Campaign와의 호환성 문제를 초래할 수 있는 플러그인 설치
 > * 여러 열거형 선택
+
 >
 
 
 
-## Microsoft Dynamics CRM구성 {#config-crm-microsoft}
+## Microsoft Dynamics CRM {#config-crm-microsoft} 구성
 
 액세스 토큰과 키를 생성하여 계정을 설정하려면 **전역 관리자** 자격 증명을 사용하여 [Microsoft Azure 디렉터리](https://portal.azure.com)에 로그인해야 합니다. 그런 다음 아래 설명된 단계를 수행합니다.
 
-### Microsoft Dynamics 클라이언트 ID가져오기 {#get-client-id-microsoft}
+### Microsoft Dynamics 클라이언트 ID {#get-client-id-microsoft} 가져오기
 
 클라이언트 ID를 가져오려면 Azure Active Directory에서 앱을 등록해야 합니다. 클라이언트 ID는 응용 프로그램 ID와 동일합니다.
 
@@ -107,7 +101,7 @@ Campaign Classic:
 1. **필수 권한**&#x200B;에서 **추가** 및 **API > Dynamics CRM Online**&#x200B;을 선택합니다.
 1. 그런 다음 **선택**&#x200B;을 클릭하고 **조직 사용자로 Dynamics 365에 액세스** 확인란을 활성화하고 **선택**&#x200B;을 클릭합니다.
 
-### 앱 사용자만들기 {#create-app-user-microsoft}
+### 앱 사용자 {#create-app-user-microsoft} 만들기
 
 앱 사용자는 위에 등록된 애플리케이션에서 사용할 사용자입니다. 위에 등록된 앱을 사용하여 Microsoft Dynamics에 변경한 내용은 이 사용자를 통해 수행됩니다.
 
