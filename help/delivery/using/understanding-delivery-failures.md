@@ -6,14 +6,14 @@ description: 전달 실패를 이해하는 방법 살펴보기
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: b7a3046600845781a7393a9d1e9659550d9bfcdd
 workflow-type: tm+mt
-source-wordcount: '2580'
+source-wordcount: '2614'
 ht-degree: 14%
 
 ---
-
 
 # 게재 실패 이해{#understanding-delivery-failures}
 
@@ -264,6 +264,10 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 컨텐츠(예: ID, 날
 
 ![](assets/deliverability_qualif_status.png)
 
+>[!NOTE]
+>
+>ISP가 중단되는 경우, Campaign을 통해 보낸 이메일은 바운스로 잘못 표시됩니다. 이 문제를 해결하려면 바운스 자격 조건을 업데이트해야 합니다. 자세한 내용은 [이 페이지](../../delivery/using/update-bounce-qualification.md)를 참조하십시오.
+
 ### 이메일 관리 규칙 {#email-management-rules}
 
 >[!IMPORTANT]
@@ -315,7 +319,7 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 컨텐츠(예: ID, 날
 * **보낸 사람 ID**, **도메인 키**, **DKIM** 및 **S/MIME**&#x200B;과 같은 특정 식별 표준 및 암호화 키를 활성화할지 여부를 선택할 수 있습니다.
 * **SMTP 릴레이** 매개 변수를 사용하여 특정 도메인에 대한 IP 주소와 릴레이 서버의 포트를 구성할 수 있습니다. 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#smtp-relay)을 참조하십시오.
 
-보낸 사람 주소에 **[!UICONTROL on behalf of]**&#x200B;이(가) 있는 Outlook에 메시지가 표시되는 경우, Microsoft의 구식 전자 메일 인증 표준인 **보낸 사람 ID**&#x200B;로 전자 메일을 서명하지 않았는지 확인하십시오. **[!UICONTROL Sender ID]** 옵션이 활성화되어 있으면 해당 상자의 선택을 취소하고 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 배달은 영향을 받지 않습니다.
+보낸 사람 주소에 **[!UICONTROL on behalf of]**&#x200B;이(가) 있는 Outlook에 메시지가 표시되는 경우, Microsoft의 구식 전자 메일 인증 표준인 **보낸 사람 ID**&#x200B;로 전자 메일을 서명하지 않았는지 확인하십시오. **[!UICONTROL Sender ID]** 옵션이 활성화되어 있으면 해당 상자의 선택을 취소하고 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 배달은 영향을 받지 않습니다.
 
 #### MX 관리 {#mx-management}
 
