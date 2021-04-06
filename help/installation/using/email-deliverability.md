@@ -1,19 +1,19 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 이메일 전달
-description: 이메일 전달
+title: 기술 이메일 구성
+description: 이메일을 전달할 때 인스턴스의 출력을 제어하도록 Campaign을 구성하는 방법을 알아봅니다.
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: c62caeacd374b31f597f3c4b23318b8705fbda61
 workflow-type: tm+mt
-source-wordcount: '2993'
+source-wordcount: '3022'
 ht-degree: 0%
 
 ---
-
 
 # 기술 전자 메일 구성{#email-deliverability}
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Adobe Campaign와의 제공 능력과 관련된 개념과 우수 사례에 대한 자세한 내용은 이 [섹션](../../delivery/using/about-deliverability.md)을 참조하십시오.
 
-Adobe 플랫폼을 통해 이메일을 효율적으로 보내고 받는 것과 관련된 모든 기술 권장 사항을 비롯하여 제공 방법에 대한 자세한 내용을 살펴보려면 [Adobe 제공 가능성 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)를 참조하십시오.
+Adobe 플랫폼을 통해 이메일을 효율적으로 보내고 받는 것과 관련된 모든 기술 권장 사항을 비롯하여 제공 방법에 대한 자세한 내용을 살펴보려면 [Adobe 제공 가능성 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하십시오.
 
 ## 운영 원칙 {#operating-principle}
 
@@ -135,9 +135,11 @@ Adobe 플랫폼을 통해 이메일을 효율적으로 보내고 받는 것과 �
 >
 >호스팅 또는 하이브리드 설치의 경우 [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우 **[!UICONTROL MX management]** 배달 처리량 규칙은 더 이상 사용되지 않습니다. 향상된 MTA는 고유한 MX 규칙을 사용하여 고유한 내역 이메일 명성을 기반으로 그리고 이메일을 보내는 도메인에서 오는 실시간 피드백을 바탕으로 처리량을 도메인별로 사용자 정의할 수 있습니다.
 
-아래 섹션은 기존 캠페인 MTA를 사용하는 온-프레미스 설치 및 호스트/하이브리드 설치에만 적용됩니다.
-
 ### MX 규칙 {#about-mx-rules} 정보
+
+>[!NOTE]
+>
+>이 섹션 및 아래 섹션은 이전 캠페인 MTA를 사용하는 온-프레미스 설치 및 호스트/하이브리드 설치에만 적용됩니다.
 
 MX 규칙(메일 교환기)은 전송 서버와 수신 서버 간의 통신을 관리하는 규칙입니다.
 
@@ -301,6 +303,10 @@ MX에 대해 준수되는 규칙은 트리의 **[!UICONTROL Administration > Cam
 구성 예:
 
 ![](assets/s_ncs_install_mx_mgt_rule_details.png)
+
+>[!NOTE]
+>
+>Adobe Campaign에서 MX 서버를 사용하는 방법에 대한 자세한 내용은 [이 섹션](../../installation/using/using-mx-servers.md)을 참조하십시오.
 
 ### 이메일 형식 관리 {#managing-email-formats}
 
