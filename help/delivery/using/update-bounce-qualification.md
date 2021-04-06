@@ -7,14 +7,14 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
+exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 0c93193ff30737870803f9fb25019f3162dcc96d
+source-git-commit: 3b5a6e6f03d9cb26ed372c3df069cbada36756a2
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 1%
 
 ---
-
 
 # ISP 중단 후 바운스 자격 업데이트 {#update-bounce-qualification.md}
 
@@ -63,4 +63,3 @@ ISP가 중단되는 경우, Campaign을 통해 전송된 이메일은 수신자�
 **관련 항목:**
 * [배달 오류 이해](../../delivery/using/understanding-delivery-failures.md)
 * [반송 메일 조건](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)
-
