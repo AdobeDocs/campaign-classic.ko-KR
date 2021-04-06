@@ -6,14 +6,14 @@ description: 최신 Campaign Classic 릴리스 정보
 feature: 개요
 role: 비즈니스 전문가
 level: 초급
+exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+source-git-commit: 3db426580ba72668cd9fa274b57f925600eda27b
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 97%
+source-wordcount: '905'
+ht-degree: 96%
 
 ---
-
 
 # 최신 릴리스{#latest-release}
 
@@ -21,12 +21,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->캠페인 **GA 빌드**&#x200B;는 다음과 같습니다.
->* [[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md#gs-11)
->* [Campaign 20.2.4 릴리스](../../rn/using/release--20-2.md#release-20-2-4-build-9187)
-
->
-
+>캠페인 **GA(일반 가용성) 빌드는**&#x200B;입니다.[[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [캠페인 20.2.5 릴리스](../../rn/using/release--20-2.md).
 
 
 ## ![](assets/do-not-localize/blue_2.png) 릴리스 21.1.1 - 빌드 9277 {#release-21-1-1-build-9277}
