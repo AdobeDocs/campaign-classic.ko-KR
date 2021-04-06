@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: 설명서
 translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
+source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
 workflow-type: tm+mt
-source-wordcount: '2462'
+source-wordcount: '2481'
 ht-degree: 54%
 
 ---
@@ -113,6 +113,7 @@ ht-degree: 54%
       + CRM 커넥터{#crm-connectors}
          + [CRM 커넥터 시작](platform/using/crm-connectors.md)
          + [Microsoft Dynamics 365와 연결](platform/using/crm-ms-dynamics.md)
+         + [Salesforce.com과 연결](platform/using/crm-sfdc.md)
          + [데이터를 CRM과 동기화](platform/using/crm-data-sync.md)
       + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector.md)
    + [도움말 및 지원 옵션](support.md)
@@ -211,6 +212,7 @@ ht-degree: 54%
       + [게재 문제 해결](delivery/using/delivery-troubleshooting.md)
       + [게재 상태](delivery/using/delivery-statuses.md)
       + [배달 오류 이해](delivery/using/understanding-delivery-failures.md)
+      + [ISP 중단 후 바운스 자격 업데이트](delivery/using/update-bounce-qualification.md)
       + [격리 관리 이해](delivery/using/understanding-quarantine-management.md)
    + 메시지 추적 {#tracking-messages}
       + [메시지 추적 기본 정보](delivery/using/about-message-tracking.md)
@@ -658,6 +660,7 @@ ht-degree: 54%
       + [캠페인 서버 설정](installation/using/configuring-campaign-server.md)
       + [보안 영역 정의](installation/using/security-zones.md)
       + [기술 전자 메일 구성](installation/using/email-deliverability.md)
+      + [Campaign에서 MX 서버 사용](installation/using/using-mx-servers.md)
       + [이메일 BCC 구성](installation/using/email-archiving.md)
       + [스팸 암살자 구성](installation/using/configuring-spamassassin.md)
    + 캠페인{#connect-to-campaign}에 연결
@@ -672,6 +675,7 @@ ht-degree: 54%
       + [외부 계정 구성](installation/using/external-accounts.md)
       + 통합 데이터 액세스 구성{#configure-fda}
          + [통합 데이터 액세스 시작](installation/using/about-fda.md)
+         + [모범 사례 및 제한 사항](installation/using/fda-best-practices.md)
          + 구성 지침 {#config-databases}
             + [구성 단계](installation/using/configure-fda.md)
             + [Snowflake 구성](installation/using/configure-fda-snowflake.md)
