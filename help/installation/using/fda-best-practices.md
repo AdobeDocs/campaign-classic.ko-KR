@@ -6,14 +6,14 @@ description: 외부 데이터베이스(FDA) 작업 시 모범 사례 및 제한 
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 translation-type: tm+mt
-source-git-commit: 0a92ebd6c9400f8caf43da8f633c7755a3fb77ce
+source-git-commit: 3b5a6e6f03d9cb26ed372c3df069cbada36756a2
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
 
 ---
-
 
 # 모범 사례 및 제한 사항
 
@@ -60,4 +60,3 @@ Adobe Campaign과 외부 데이터베이스를 모두 최대한 사용해야 하
 외부 데이터베이스의 데이터를 사용하여 게재에서 개인화를 수행하려는 경우 워크플로우에서 사용할 데이터를 수집하여 임시 테이블에서 사용할 수 있도록 합니다. 그런 다음 임시 테이블의 데이터를 사용하여 배달을 개인화합니다.
 
 FDA 옵션은 사용하는 외부 데이터베이스 시스템의 제한 사항을 따릅니다.
-
