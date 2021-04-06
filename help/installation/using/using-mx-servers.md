@@ -7,14 +7,14 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
+exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
 translation-type: tm+mt
-source-git-commit: 0c93193ff30737870803f9fb25019f3162dcc96d
+source-git-commit: 3b5a6e6f03d9cb26ed372c3df069cbada36756a2
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 0%
 
 ---
-
 
 # 캠페인 {#using-mx-servers}에서 MX 서버 사용
 
@@ -24,7 +24,7 @@ MX 서버가 Adobe Campaign Classic과 작동하는 방법을 알아봅니다.
 
 ### MX 서버란?
 
-MX 레코드(메일 교환기 레코드)는 도메인 대신 이메일 메시지를 수락하는 메일 서버를 지정하는 DNS(Domain Name System)의 리소스 레코드 유형입니다.
+MX 레코드(메일 교환기 레코드)는 도메인 대신 이메일 메시지를 수락하는 메일 서버를 지정하는 DNS(도메인 이름 시스템)의 리소스 레코드 유형입니다.
 
 ### MX 서버는 어떻게 작동합니까?
 
