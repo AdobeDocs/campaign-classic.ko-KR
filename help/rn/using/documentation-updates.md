@@ -2,18 +2,18 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 설명서 업데이트
-description: 이 페이지에는 Adobe Campaign Classic 설명서의 모든 새로운 기능과 업데이트가 나열됩니다.
+description: 이 페이지에는 Adobe Campaign Classic 설명서의 모든 새로운 기능과 업데이트가 있습니다.
 feature: 개요
-role: 비즈니스 전문가
-level: 초급
+role: Business Practitioner
+level: Beginner
+exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 translation-type: tm+mt
-source-git-commit: 57c1ca827beac9a3c95e63ca17fdb43be237eb28
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '4275'
-ht-degree: 94%
+source-wordcount: '4272'
+ht-degree: 96%
 
 ---
-
 
 # 설명서 업데이트 정보{#documentation-updates}
 
@@ -27,9 +27,9 @@ ht-degree: 94%
 
 Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 핵심 문서에 통합되었습니다. [자세한 내용](../../support.md)
 
-보안 및 개인 정보 보호에 대한 작업을 수행하기 위한 모범 사례 및 점검 기능이 추가된 새 섹션이 있습니다. [자세한 내용](../../installation/using/get-started-security-privacy.md)
+보안 및 개인 정보 보호 작업을 수행하기 위한 모범 사례 및 점검 기능이 새 섹션에 추가되었습니다. [자세한 내용](../../installation/using/get-started-security-privacy.md)
 
-[권한 관리 장](../../platform/using/access-management.md)이(가) 개선되어 [연산자](../../platform/using/access-management-operators.md) , [연산자 그룹](../../platform/using/access-management-groups.md), [명명된 권한](../../platform/using/access-management-named-rights.md) 및 [폴더 관리](../../platform/using/access-management-folders.md)에 대한 세부 정보를 포함하여 섹션으로 분할되었습니다.
+[권한 관리 챕터](../../platform/using/access-management.md)가 개선되어 [연산자](../../platform/using/access-management-operators.md) , [연산자 그룹](../../platform/using/access-management-groups.md), [명명된 권한](../../platform/using/access-management-named-rights.md) 및 [폴더 관리](../../platform/using/access-management-folders.md)에 대한 세부 정보를 포함하여 섹션으로 분할되었습니다.
 
 다음 새로운 페이지를 통해 캠페인을 만들고 관리하는 방법을 알아봅니다.
 * [캠페인 템플릿 만들기 및 구성](../../campaign/using/marketing-campaign-templates.md)
