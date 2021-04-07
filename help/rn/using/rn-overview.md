@@ -4,16 +4,16 @@ product: campaign
 title: 업그레이드 시작
 description: Campaign Classic 업그레이드에 대한 자세한 내용
 feature: 개요
-role: 비즈니스 전문가
-level: 초급
+role: Business Practitioner
+level: Beginner
+exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 translation-type: tm+mt
-source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '415'
 ht-degree: 93%
 
 ---
-
 
 # 업그레이드 시작{#rn-overview}
 
