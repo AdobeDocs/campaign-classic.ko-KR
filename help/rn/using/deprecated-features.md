@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Campaign Classic deprecated and removed features
-description: 이 페이지에는 Adobe Campaign Classic에서 사용되지 않는 기능 및 제거된 기능이 나열됩니다.
+description: 이 페이지에는 Adobe Campaign Classic의 사용이 중단되었거나 제거된 기능이 있습니다.
 feature: 개요
 role: 비즈니스 전문가
 level: 초급
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1716'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,16 +44,16 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <td><strong>교체</strong></td>
   </tr>
     <tr>
-  <td>기술 제공 모니터링 보고서<br></td>
-   <td><p>Campaign 21.1 릴리스를 시작하면 기술 제공 모니터링 보고서가 더 이상 사용되지 않습니다.</p>
+  <td>기술 게재성 모니터링 보고서<br></td>
+   <td><p>Campaign 21.1 릴리스부터는 기술 게재성 모니터링 보고서가 더 이상 사용되지 않습니다.</p>
    <p>필요한 경우 기능 제거 날짜까지 이 보고서를 이메일로 매일 받을 수 있습니다. 요청하려면 특정 <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">지원 사례</a>를 열고 인스턴스 이름과 보고서를 보낼 이메일 주소를 지정합니다.</p> 
-   <p>Adobe은 인스턴스 제공 성능을 모니터링하는 최상의 도구를 정의하려면 배달 능력 팀에 참여하는 것이 좋습니다.</p>
-  <p><em>Target 제거 날짜:2021년 말</em></p>
+   <p>Adobe는 인스턴스 전달성 기능을 모니터링하는 최상의 도구를 정의할 경우 게재 팀에 참여할 것을 권합니다.</p>
+  <p><em>Target 제거 날짜: 2021년 말</em></p>
   </td>
  </tr>
   <tr>
   <td>CRM 커넥터<br></td>
-   <td><p>Campaign 20.3 릴리스를 시작하면 다음 CRM 커넥터는 Campaign에서 더 이상 사용되지 않습니다.</p>
+   <td><p>Campaign 20.3 릴리스부터는 다음의 CRM 커넥터가 Campaign에 사용되지 않습니다.</p>
    <ul>
    <li>Soap API - 온-프레미스: 2007년, 2015년, 2016년</li>
    <li>Soap API - 온라인: 2015년, 2016년</li>
@@ -97,7 +97,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <li>iOS</li>
    </ul>
   <p>이러한 커넥터 중 하나를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../delivery/using/sms-channel.md">자세히 알아보기</a></p> 
-  <p><a href="../../delivery/using/unsupported-connector-migration.md">이 기술 문서</a>에서 레거시 커넥터를 마이그레이션하는 방법을 배웁니다.</p>
+  <p><a href="../../delivery/using/unsupported-connector-migration.md">이 테크노트</a>에서 레거시 커넥터를 마이그레이션하는 방법을 알아봅니다.</p>
   <p><em>타겟 제거 날짜: 2021년 4월</em></p>
   </td> 
  </tr>
