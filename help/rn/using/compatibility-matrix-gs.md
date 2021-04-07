@@ -4,16 +4,16 @@ product: campaign
 title: 캠페인 [!DNL Gold Standard]에 대한 호환성 표
 description: ' [!DNL Gold Standard] 릴리스에 대한 Campaign Classic 호환성 표'
 feature: 개요
-role: 비즈니스 전문가
-level: 초급
+role: Business Practitioner
+level: Beginner
+exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 98%
 
 ---
-
 
 # [!DNL Gold Standard] 호환성 매트릭스{#compatibility-matrix-gs}
 
