@@ -6,20 +6,20 @@ description: 구성
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
+exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 translation-type: tm+mt
-source-git-commit: 4a17b25516bd9cec409a16cff1e336c13f0df5a4
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 1%
 
 ---
 
-
 # 캠페인 탐색기 탐색 트리 구성{#configuration}
 
 전문가 사용자는 탐색기 트리에서 폴더를 추가하고 이를 사용자 정의할 수 있습니다.
 
-이 섹션](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy)에서 캠페인 탐색기 및 탐색 계층 [에 대해 자세히 알아보십시오.
+이 섹션](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy)에서 캠페인 탐색기 및 탐색 계층 [에 대해 자세히 알아보십시오.
 
 탐색 목록에 사용되는 폴더 유형은 **xtk:navtree** 스키마의 문법을 따르는 XML 문서에 설명되어 있습니다.
 
@@ -312,4 +312,3 @@ XML 문서에는 문서 이름 및 네임스페이스를 지정하는 **name** �
 ...
 </nodeModel>
 ```
-
