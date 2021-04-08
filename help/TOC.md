@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2483'
 ht-degree: 98%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 98%
       + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
       + Adobe Campaign 작업 영역{#campaign-workspace}
          + [Campaign UI 시작](platform/using/adobe-campaign-workspace.md)
+         + [캠페인 탐색기 사용](platform/using/adobe-campaign-explorer.md)
          + [목록 검색 및 사용자 지정](platform/using/adobe-campaign-ui-lists.md)
       + FAQ(질문과 대답) {#faq}
          + [주요 질문](platform/using/common-questions.md)
