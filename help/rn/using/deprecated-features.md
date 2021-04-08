@@ -4,16 +4,16 @@ product: campaign
 title: Campaign Classic deprecated and removed features
 description: 이 페이지에는 Adobe Campaign Classic의 사용이 중단되었거나 제거된 기능이 있습니다.
 feature: 개요
-role: 비즈니스 전문가
-level: 초급
-translation-type: ht
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
-workflow-type: ht
-source-wordcount: '1716'
-ht-degree: 100%
+role: Business Practitioner
+level: Beginner
+exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
+translation-type: tm+mt
+source-git-commit: 01daff5d95f4635182041b949a21c80cae5e4473
+workflow-type: tm+mt
+source-wordcount: '1713'
+ht-degree: 98%
 
 ---
-
 
 # 사용이 중단되거나 제거된 기능 {#deprecated-and-removed-features}
 
@@ -61,7 +61,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <li>웹 API - Microsoft Dynamics CRM 온라인: 2016, 2016 업데이트 1</li>
    <li>Oracle On Demand API</li>
    </ul>
-  <p><em>타겟 제거 날짜: 2021년 4월</em></p>
+  <p><em>Target 제거 날짜:2021년 5월</em></p>
   </td>
  </tr>
   <tr>
@@ -69,21 +69,21 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <td><p>Campaign 20.3 릴리스부터 iOS 레거시 바이너리 커넥터는 사용되지 않습니다.<p>
   <p> 이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다.
   <a href="https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html">자세히 알아보기</a></p>
-  <p><em>타겟 제거 날짜: 2021년 4월</em></p>
+  <p><em>Target 제거 날짜:2021년 5월</em></p>
   </td>
  </tr>
    <tr>
   <td>Demdex 도메인<br></td>
   <td><p> Campaign 20.3 릴리스부터 대상을 Adobe Experience Cloud으로 가져오고 내보내는 데 사용되는 demdex 도메인은 사용되지 않습니다.<p>
   <p>외부 계정 가져오기/내보내기에 demdex 도메인을 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">자세히 알아보기</a></p> 
-  <p><em>타겟 제거 날짜: 2021년 4월</em></p>
+  <p><em>Target 제거 날짜:2021년 5월</em></p>
   </td>
   <tr>
   <td>OAuth 인증(OAuth 및 JWT)<br></td>
   <td><p> Campaign 20.3 릴리스부터 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O로 이동되었습니다. <p>
   <p>트리거 통합을 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../integrations/using/configuring-adobe-io.md">자세히 알아보기</a></p> 
   <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지</a>를 참조하십시오</p> 
-  <p><em>타겟 제거 날짜: 2021년 4월</em></p>
+  <p><em>Target 제거 날짜:2021년 11월</em></p>
   </td>
   </tr>
   <td>SMS 커넥터<br></td>
@@ -98,14 +98,14 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    </ul>
   <p>이러한 커넥터 중 하나를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../delivery/using/sms-channel.md">자세히 알아보기</a></p> 
   <p><a href="../../delivery/using/unsupported-connector-migration.md">이 테크노트</a>에서 레거시 커넥터를 마이그레이션하는 방법을 알아봅니다.</p>
-  <p><em>타겟 제거 날짜: 2021년 4월</em></p>
+  <p><em>Target 제거 날짜:2021년 5월</em></p>
   </td> 
  </tr>
   <tr>  
    <td>팩스 채널<br></td>
    <td><p>Campaign 20.2 릴리스부터 팩스 채널은 사용 중단됩니다.</p> 
    <p>이 채널을 사용하는 경우 그에 따라 구현을 조정해야 합니다. Campaign 채널에 대해 <a href="../../delivery/using/steps-about-delivery-creation-steps.md">자세히 알아보십시오</a>.</p>
-   <p><em>타겟 제거 날짜: 2021년 4월</em></p></td>
+   <p><em>Target 제거 날짜:2021년 5월</em></p></td>
   </tr>
  </tbody> 
 </table>
