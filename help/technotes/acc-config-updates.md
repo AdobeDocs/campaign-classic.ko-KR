@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 translation-type: tm+mt
-source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1107'
 ht-degree: 8%
 
 ---
@@ -117,7 +117,6 @@ Adobe ID](../integrations/using/about-adobe-id.md)을 통해 IMS(Identity Manage
 
 * Gold Standard 11. [자세히 알아보기](../rn/using/gold-standard.md)
 * 캠페인 21.1.1 릴리스. [자세히 알아보기](../rn/using/latest-release.md)
-* 캠페인 20.3.3 릴리스. [자세히 알아보기](../rn/using/release--20-3.md)
 * 캠페인 20.2.5 릴리스. [자세히 알아보기](../rn/using/release--20-2.md)
 * 캠페인 19.1.8 릴리스. [자세히 알아보기](../rn/using/release--19-1.md)
 
@@ -135,7 +134,7 @@ Adobe ID](../integrations/using/about-adobe-id.md)을 통해 IMS(Identity Manage
 
 ### HTTP/2 기반 APNs 공급자 API
 
-APNs(Apple Push Notification 서비스)는 **2021년 3월 31일**&#x200B;에 따라 레거시 이진 프로토콜을 더 이상 지원하지 않습니다. [자세한 내용](https://developer.apple.com/kr/news/?id=c88acm2b).
+**2021년 3월 31일부터 APNs(Apple Push Notification service)는 더 이상 레거시 이진 프로토콜을 지원하지 않습니다.** [자세한 내용](https://developer.apple.com/kr/news/?id=c88acm2b).
 
 **당신은 영향을 받습니까?**
 
@@ -151,7 +150,7 @@ APNs(Apple Push Notification 서비스)는 **2021년 3월 31일**&#x200B;에 따
 
 ### APNs 루트 인증서 업데이트
 
-2021년 3월 29일에 APNs(Apple Push Notification 서비스) 인프라 업데이트는 Adobe Campaign Classic iOS 채널에 영향을 미칩니다. iOS 푸시 채널 중단을 방지하기 위해 OS 구성 변경은 **필수**&#x200B;입니다.
+2021년 3월 29일, APNs(Apple Push Notification 서비스) 인프라 업데이트는 Adobe Campaign Classic iOS 채널에 영향을 주었습니다. iOS 푸시 채널 중단을 방지하기 위해 OS 구성 변경은 **필수**&#x200B;입니다.
 
 이 페이지](https://developer.apple.com/news/?id=7gx0a2lp)에서 APNs 변경 사항 [에 대해 자세히 알아보십시오.
 
