@@ -6,14 +6,14 @@ description: 웹 서비스 호출
 audience: configuration
 content-type: reference
 topic-tags: api
+exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 0c83c989c7e3718a989a4943f5cde7ad4717fddc
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '939'
 ht-degree: 1%
 
 ---
-
 
 # 웹 서비스 호출{#web-service-calls}
 
@@ -188,7 +188,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;바인딩&quot;을 통해 프
 
 ## 연결 {#connectivity}
 
-Adobe Campaign은 세션 관리 설정과 함께 [이 섹션](../../installation/using/security-zones.md)의 **보안 영역 정의** 장 참조)을 도입하여 인증 메커니즘에 대한 보안을 강화했습니다.
+Adobe Campaign은 [보안 영역](../../installation/using/security-zones.md) 및 세션 관리 설정을 도입하여 인증 메커니즘에 대한 보안을 강화했습니다.
 
 두 가지 인증 모드를 사용할 수 있습니다.
 
