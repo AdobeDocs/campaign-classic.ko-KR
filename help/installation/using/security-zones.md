@@ -6,10 +6,11 @@ description: 보안 영역을 구성하는 방법 알아보기
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 830ec0ed80fdc6e27a8cc782b0e4b79abf033450
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,16 @@ ht-degree: 0%
 
 각 연산자를 인스턴스에 로그온하려면 영역에 연결해야 하며 연산자 IP를 보안 영역에 정의된 주소 또는 주소 세트에 포함해야 합니다. 보안 영역 구성은 Adobe Campaign 서버의 구성 파일에서 수행됩니다.
 
-연산자는 콘솔( **[!UICONTROL Administration > Access management > Operators]** 노드)의 프로파일에서 보안 영역에 연결됩니다. [이 섹션](#linking-a-security-zone-to-an-operator)에서 영역을 캠페인 연산자에 연결하는 방법을 알아봅니다.
+연산자는 콘솔의 프로필에서 보안 영역에 연결되며 **[!UICONTROL Administration > Access management > Operators]** 노드에서 액세스할 수 있습니다. [자세히 알아보기](#linking-a-security-zone-to-an-operator)
+
+>[!NOTE]
+>
+>이 절차는 **온-프레미스** 배포로 제한됩니다.
+>
+>**호스팅된** 고객으로서 [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)에 액세스할 수 있는 경우 보안 영역 셀프 서비스 인터페이스를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+>
+>다른 **하이브리드/hosted** 고객은 인스턴스에 대한 보안 영역을 설정하려면 Adobe에 문의해야 합니다.
+
 
 ## 보안 영역 만들기 {#creating-security-zones}
 
