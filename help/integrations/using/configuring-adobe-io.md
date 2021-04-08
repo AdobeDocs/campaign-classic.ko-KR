@@ -8,14 +8,14 @@ content-type: reference
 index: y
 internal: n
 snippet: y
+exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: f3ca92325f70cb3b9cca1ec5f6b7ddb5a02f9159
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '583'
 ht-degree: 4%
 
 ---
-
 
 # Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성 {#configuring-adobe-io}
 
@@ -74,9 +74,9 @@ ht-degree: 4%
 
    ![](assets/do-not-localize/adobe_io_5.png)
 
-1. 기존 **[!UICONTROL Product profile]**&#x200B;을 선택하거나 필요한 경우 새 을 만듭니다. 그런 다음 **[!UICONTROL Save configured API]**&#x200B;을 클릭합니다.
+1. 기존 **[!UICONTROL Product profile]**&#x200B;을 선택하거나 필요한 경우 새 을 만듭니다. 이 **[!UICONTROL Product profile]**&#x200B;에는 권한이 필요하지 않습니다. [!DNL Analytics] **[!UICONTROL Product Profiles]**&#x200B;에 대한 자세한 내용은 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console)를 참조하십시오.
 
-   [!DNL Analytics] **[!UICONTROL Product Profiles]**&#x200B;에 대한 자세한 내용은 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console)를 참조하십시오.
+   그런 다음 **[!UICONTROL Save configured API]**&#x200B;을 클릭합니다.
 
    ![](assets/do-not-localize/adobe_io_6.png)
 
