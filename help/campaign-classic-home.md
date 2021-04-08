@@ -4,14 +4,14 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 제품 설명서
 topic: Premium
+exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 translation-type: tm+mt
-source-git-commit: 9f1c4110ef49c87719f1cc84ad08f687865561d1
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '294'
 ht-degree: 51%
 
 ---
-
 
 # 도움말 센터 {#campaign-classic-documentation}
 
@@ -19,13 +19,13 @@ ht-degree: 51%
 
 ## 새로운 기능
 
-* **[APNs 인증서 업데이트2021년 3](technotes/ios-certificate-update.md)**<br/> 월 29일에 APNs 업데이트는 캠페인 iOS 채널에 영향을 줍니다. iOS 푸시 채널 중단을 방지하려면 구성을 업데이트해야 합니다.
+* **[APNs ](technotes/ios-certificate-update.md)**<br/> 인증서 업데이트2021년 3월 29일, APNs 업데이트에 영향을 받은 캠페인 iOS 채널. iOS 푸시 채널 중단을 방지하려면 구성을 업데이트해야 합니다.
 
 * **[IMS/Adobe ID을 통해 연결 최신 빌드](integrations/using/about-adobe-id.md)**<br/>로 업그레이드 IMS를 사용하여 캠페인에 연결하는 경우** 2021년 6월 30일 이후 캠페인에 연결할 수 있도록 업그레이드해야 합니다.**
 
 * **[캠페인 인스턴스 보안](technotes/acc-config-updates.md)**<br/> 캠페인 플랫폼을 보호하기 위해 최신 빌드로 업데이트합니다.
 
-* **[잘못된 하드 ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> 바운스 제거지메일 작동 중단 후 잘못된 하드 바운스를 업데이트하는 방법 학습
+* **[잘못된 하드 ](https://helpx.adobe.com/kr/campaign/kb/update-bounce-qualification.html)**<br/> 바운스 제거지메일 작동 중단 후 잘못된 하드 바운스를 업데이트하는 방법 학습
 
 * **[Adobe Experience Cloud Triggers ](integrations/using/configuring-adobe-io.md)**<br/> 통합 업데이트레거시 Auth 인증 서비스가 사용 종료되었습니다. Adobe I/O으로 마이그레이션하는 방법을 알아봅니다.
 
