@@ -5,14 +5,14 @@ title: 기술 문서
 description: 기술 문서
 hide: true
 hidefromtoc: true
+exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 translation-type: tm+mt
-source-git-commit: bdd746120f2162cf48eeb9d519513656bd4e75aa
+source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
-
 
 # Adobe Campaign 구성 업데이트 - 2021년 3월 {#acc-config-updates}
 
@@ -118,7 +118,7 @@ Adobe ID](../integrations/using/about-adobe-id.md)을 통해 IMS(Identity Manage
 * Gold Standard 11. [자세히 알아보기](../rn/using/gold-standard.md)
 * 캠페인 21.1.1 릴리스. [자세히 알아보기](../rn/using/latest-release.md)
 * 캠페인 20.3.3 릴리스. [자세히 알아보기](../rn/using/release--20-3.md)
-* 캠페인 20.2.4 릴리스. [자세히 알아보기](../rn/using/release--20-2.md)
+* 캠페인 20.2.5 릴리스. [자세히 알아보기](../rn/using/release--20-2.md)
 * 캠페인 19.1.8 릴리스. [자세히 알아보기](../rn/using/release--19-1.md)
 
 이 섹션](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 버전 [을 확인하는 방법을 알아봅니다.
@@ -147,7 +147,7 @@ APNs(Apple Push Notification 서비스)는 **2021년 3월 31일**&#x200B;에 따
 
 호스팅된 고객인 경우 새 빌드로 업그레이드한 경우 Adobe은 이미 인스턴스를 HTTP/2 기반 API로 업데이트했습니다.
 
-온-프레미스/호스팅 고객인 경우 구성을 업데이트해야 합니다. [HTTP/2로 마이그레이션하는 방법 알아보기](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)
+온-프레미스/하이브리드 고객인 경우 구성을 업데이트해야 합니다. [HTTP/2로 마이그레이션하는 방법 알아보기](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)
 
 ### APNs 루트 인증서 업데이트
 
@@ -170,6 +170,6 @@ Campaign을 사용하여 iOS 장치에서 푸시 알림을 전송하는 경우 �
 ## 유용한 링크
 
 * [환경 업그레이드](../production/using/build-upgrade.md)
-* [업그레이드 FAQ 구축](../platform/using/faq-build-upgrade.md)
+* [업그레이드 FAQ 빌드](../platform/using/faq-build-upgrade.md)
 * [Campaign Classic 빌드 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [사용자가 새 클라이언트 콘솔을 사용할 수 있도록 설정](../installation/using/client-console-availability-for-windows.md)
