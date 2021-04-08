@@ -5,14 +5,14 @@ title: 이벤트 구성
 description: 사용자 지정 구현을 위해 이벤트를 구성하는 방법 알아보기
 audience: integrations
 content-type: reference
+exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 translation-type: tm+mt
-source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 지정 구현을 위한 이벤트 구성 {#events}
 
@@ -217,7 +217,7 @@ triggerType 필드는 데이터가 시작되는 트리거를 식별합니다.
 
 >[!NOTE]
 >
->파이프라인 이벤트 노드는 내장되어 있지 않으므로 추가해야 하며 관련 양식을 Campaign에서 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 내용은 다음 섹션을 참조하십시오.[탐색 계층](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy). 및 [양식 편집](../../configuration/using/editing-forms.md).
+>파이프라인 이벤트 노드는 내장되어 있지 않으므로 추가해야 하며 관련 양식을 Campaign에서 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 내용은 다음 섹션을 참조하십시오.[탐색 계층](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). 및 [양식 편집](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 
