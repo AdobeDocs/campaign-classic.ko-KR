@@ -4,16 +4,16 @@ product: campaign
 title: 프로필 기본 정보
 description: 프로필 기본 정보
 feature: 프로필, 대상
-role: 비즈니스 전문가, 데이터 아키텍트
-level: 초급
+role: Business Practitioner, Data Architect
+level: Beginner
+exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 translation-type: tm+mt
-source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 14%
+source-wordcount: '994'
+ht-degree: 16%
 
 ---
-
 
 # 프로필 시작{#about-profiles}
 
@@ -79,11 +79,11 @@ Adobe Campaign을 사용하면 전체 라이프사이클에서 프로파일을 �
 
 ![](assets/d_ncs_user_interface01.png)
 
-Adobe Campaign 탐색기의 일반 레이아웃은 [이 섹션](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)에 표시됩니다.
+Adobe Campaign 탐색기의 일반 레이아웃은 [이 페이지](../../platform/using/adobe-campaign-explorer.md)에 표시됩니다.
 
 >[!NOTE]
 >
->Adobe Campaign 트리에서 **[!UICONTROL Profiles and targets > Recipients]** 링크를 클릭하여 이 목록의 고급 보기를 표시할 수도 있습니다. 목록 표시를 필요에 맞게 구성할 수 있습니다. 열을 추가하거나 삭제할 수 있고 열 순서를 정의할 수 있으며 데이터를 정렬할 수 있습니다. 목록 표시 구성은 [이 섹션](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)에 설명되어 있습니다.
+>Adobe Campaign 트리에서 **[!UICONTROL Profiles and targets > Recipients]** 링크를 클릭하여 이 목록의 고급 보기를 표시할 수도 있습니다. 목록 표시를 필요에 맞게 구성할 수 있습니다. 열을 추가하거나 삭제할 수 있고 열 순서를 정의할 수 있으며 데이터를 정렬할 수 있습니다. 목록 표시 구성은 [이 페이지](../../platform/using/adobe-campaign-ui-lists.md)에 설명되어 있습니다.
 >
 >수신자 뷰를 정의할 수도 있습니다. 이 기능에 대한 자세한 내용은 [이 섹션](../../platform/using/access-management-folders.md)을 참조하십시오.
 
@@ -97,7 +97,7 @@ AWS를 통해 호스팅되는 경우 Campaign 컨트롤 패널에서 직접 인�
 
 >[!NOTE]
 >
->Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)에 자세히 설명되어 있습니다.
+>Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
 >인스턴스는 AWS에서 호스팅되어야 하며 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 자신의 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 따르십시오.
 
