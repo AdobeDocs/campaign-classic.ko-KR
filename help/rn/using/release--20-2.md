@@ -4,24 +4,22 @@ product: campaign
 title: 릴리스 20.2
 description: 릴리스 20.2
 feature: 개요
-role: 비즈니스 전문가
-level: 초급
+role: Business Practitioner
+level: Beginner
+exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 translation-type: tm+mt
-source-git-commit: a25f9464a762defa5d9a3b45bb60a387c65b7c97
+source-git-commit: 65662a49aefdd6b5f85b39677908696f093779e8
 workflow-type: tm+mt
-source-wordcount: '2833'
-ht-degree: 84%
+source-wordcount: '2830'
+ht-degree: 88%
 
 ---
 
-
 # 릴리스 20.2{#release-20-2}
-
-![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 Campaign 컨트롤 패널 릴리스**. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
 ## ![](assets/do-not-localize/green_2.png) 릴리스 20.2.5 - 빌드 9188 {#release-20-2-5-build-9188}
 
-_2020년 3월 31일_
+_2021년 3월 31일_
 
 **개선 사항**
 
@@ -36,7 +34,7 @@ _2020년 3월 31일_
 * Tomcat 8.5에서 잘못된 응답을 전송하여 트랜잭션 메시지 로그에 오류가 발생하는 문제를 해결했습니다. (NEO-30858)
 * 외부 스레드 관리의 메모리 손상을 야기하고 성능에 영향을 주는 회귀 문제를 수정했습니다.
 * 사용자 지정 대상 매핑을 사용할 때 청구 워크플로우가 실패하던 문제를 수정했습니다. 사용자 정의 스키마의 기본 키는 정수 값만 허용되는 &#39;sourceId&#39; 열에 저장됩니다. 이제 문자열 값뿐만 아니라 정수도 사용할 수 있습니다. (NEO-25914, NEO-28146)
-* 게시의 날짜 선택기 및 이미지 관리와 같이 콘솔의 일부 구성 요소를 사용할 수 없는 회귀 문제를 해결했습니다. (NEO-31453)
+* 게재의 날짜 선택 및 이미지 관리와 같이 콘솔의 일부 구성 요소를 사용할 수 없는 회귀 문제를 해결했습니다. (NEO-31453)
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 20.2.4 - 빌드 9187 {#release-20-2-4-build-9187}
 
@@ -44,9 +42,9 @@ _2020년 12월 22일_
 
 >[!CAUTION]
 >
-> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 6월 30일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다&#x200B;**.**
+> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다.
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 이 페이지](../../integrations/using/configuring-adobe-io.md)에서 설명한 대로 Adobe I/O으로 이동해야 합니다. [ 캠페인이 포함된 레거시 인증 모드는 **2021년 11월 30일에 종료됩니다**.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. 캠페인이 포함된 레거시 OAuth 인증 모드는 **2021년 11월 30일**&#x200B;에 종료됩니다.
 
 
 **개선 사항**
@@ -63,6 +61,8 @@ _2020년 12월 22일_
 * 마케팅 인스턴스에서 큰 코어 덤프 파일을 생성한 POSIX 스레드 관리의 문제를 수정했습니다. (NEO-28117, NEO-29281)
 * 배달 준비 시 또는 반복 배달 미리 보기에서 웹 프로세스가 중단되는 문제를 해결했습니다. (NEO-27790, NEO-27517)
 * 관리자가 아닌 연산자에 의해 트리거될 때 게재 또는 증명 전송이 실패하는 문제를 해결했습니다. (NEO-28597)
+
+![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 Campaign 컨트롤 패널 릴리스**. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 20.2.3 - 빌드 9182 {#release-20-2-3-build-9182}
 
