@@ -6,14 +6,14 @@ description: 개인 정보 요청을 관리하는 방법에 대해 알아봅니�
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5b1c4426a0d59861aa61a7e53154b9adfda31d71
 workflow-type: tm+mt
-source-wordcount: '2444'
+source-wordcount: '2415'
 ht-degree: 21%
 
 ---
-
 
 # 개인 정보 요청 관리 {#privacy-requests}
 
@@ -23,9 +23,7 @@ ht-degree: 21%
 
 CPA에만 해당되는 개인 정보 판매 옵트아웃은 [이 섹션](#sale-of-personal-information-ccpa)에 설명되어 있습니다.
 
->[!IMPORTANT]
->
->이 문서에 설명된 설치 절차는 Campaign Classic 18.4(빌드 8931+)부터 해당됩니다. 이전 버전에서 실행 중인 경우 이 [기술 노트](https://helpx.adobe.com/kr/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html)를 참조하십시오.
+<!--Installation procedures described in this document are applicable starting Campaign Classic 18.4 (build 8931+). If you are running on a previous version, refer to this [technote](https://helpx.adobe.com/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html).-->
 
 ## 개인 정보 요청 정보 {#about-privacy-requests}
 
