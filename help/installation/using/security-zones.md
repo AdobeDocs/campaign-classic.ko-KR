@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 translation-type: tm+mt
-source-git-commit: 830ec0ed80fdc6e27a8cc782b0e4b79abf033450
+source-git-commit: e31d386af4def80cdf258457fc74205b1ca823b3
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
 
 
-# 보안 영역 정의 {#defining-security-zones}
+# 보안 영역 정의(온-프레미스){#defining-security-zones}
 
 각 연산자를 인스턴스에 로그온하려면 영역에 연결해야 하며 연산자 IP를 보안 영역에 정의된 주소 또는 주소 세트에 포함해야 합니다. 보안 영역 구성은 Adobe Campaign 서버의 구성 파일에서 수행됩니다.
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >**호스팅된** 고객으로서 [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)에 액세스할 수 있는 경우 보안 영역 셀프 서비스 인터페이스를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
 >
->다른 **하이브리드/hosted** 고객은 인스턴스에 대한 보안 영역을 설정하려면 Adobe에 문의해야 합니다.
+>다른 **하이브리드/hosted** 고객은 허용 목록에 IP를 추가하려면 Adobe 지원 팀에 문의해야 합니다.
 
 
 ## 보안 영역 만들기 {#creating-security-zones}
@@ -218,3 +218,36 @@ Adobe Campaign 서버에 액세스할 가능성이 있는 프록시의 IP 주소
    ![](assets/zone_operator_selection.png)
 
 1. **[!UICONTROL OK]**&#x200B;을 클릭하고 수정 내용을 저장하여 이러한 변경 내용을 적용합니다.
+
+
+
+## 추천
+
+* 역방향 프록시가 subNetwork에서 허용되지 않도록 하십시오. 이 경우 **모든** 트래픽이 이 로컬 IP에서 오는 것으로 검색되므로 신뢰할 수 있습니다.
+
+* sessionTokenOnly=&quot;true&quot; 세션의 사용을 최소화합니다.
+
+   * 경고:이 특성이 true로 설정된 경우 연산자는 **CRSF 공격**&#x200B;에 노출될 수 있습니다.
+   * 또한 sessionToken 쿠키는 httpOnly 플래그로 설정되어 있지 않으므로 일부 클라이언트측 javascript 코드가 이를 읽을 수 있습니다.
+   * 하지만 여러 실행 셀의 메시지 센터에 sessionTokenOnly가 필요합니다.sessionTokenOnly가 &quot;true&quot;로 설정된 새 보안 영역을 만들고 이 영역에 필요한 IP만 **추가합니다.**
+
+* 가능하면 모든 allowHTTP, showErrors를 false(localhost가 아님)로 설정하고 확인합니다.
+
+   * allowHTTP = &quot;false&quot;:연산자가 HTTPS를 사용하도록 강제 설정
+   * showErrors = &quot;false&quot;:기술적 오류(SQL 오류 포함)를 숨깁니다. 이렇게 하면 너무 많은 정보가 표시되지 않지만 마케터가 실수를 해결할 수 있는 기능이 줄어듭니다(관리자의 추가 정보 요청 없이).
+
+* 설문 조사, webApps 및 보고서를 만들어야 하는 마케팅 사용자/관리자가 사용하는 IP에 대해서만 allowDebug를 true로 설정합니다. 이 플래그를 사용하면 이러한 IP가 릴레이 규칙을 표시하고 디버깅할 수 있습니다.
+
+* allowEmptyPassword, allowUserPassword, allowSQLInjection을 true로 설정하지 마십시오. 다음 속성은 v5 및 v6.0에서 원활한 마이그레이션을 허용하기 위해서만 여기에 있습니다.
+
+   * **** allowEmptyPasswordlet 연산자는 빈 암호를 가집니다. 이러한 경우 모든 운영자에게 기한을 정하여 암호를 설정하도록 요청합니다. 이 마감일이 지나면 이 속성을 false로 변경합니다.
+
+   * **** allowUserPasswordlet 연산자는 자신의 자격 증명을 매개 변수로 보내기 때문에 apache/IIS/proxy로 기록됩니다. 이 기능은 이전에 API 사용을 단순화하기 위해 사용되었습니다. 일부 제3자 응용 프로그램에서 이것을 사용하는지 여부를 Cookbook(또는 사양에서)에 체크 인할 수 있습니다. 이러한 경우 API를 사용하는 방법을 변경하고 가능한 한 빨리 이 기능을 제거하도록 알려 주어야 합니다.
+
+   * **allow** SQLInjectionlet에서는 사용자가 이전 구문을 사용하여 SQL 주입을 수행할 수 있습니다. 이 속성을 false로 설정할 수 있도록 [이 페이지](../../migration/using/general-configurations.md)에 설명된 수정 사항을 가능한 한 빨리 수행하십시오. /nl/jsp/ping.jsp?zones=true를 사용하여 보안 영역 구성을 확인할 수 있습니다. 이 페이지에는 현재 IP에 대한 보안 조치의 활성 상태(이러한 보안 플래그로 계산됨)가 표시됩니다.
+
+* HttpOnly 쿠키/useSecurityToken:**sessionTokenOnly** 플래그를 참조하십시오.
+
+* 허용 목록에 추가된 IP 최소화:기본적으로 보안 영역에서 개인 네트워크의 3개 범위를 추가했습니다. 이러한 IP 주소를 모두 사용할 가능성은 없습니다. 필요한 것만 보관하세요
+
+* localhost에서만 액세스할 수 있도록 webApp/internal 연산자를 업데이트합니다.
