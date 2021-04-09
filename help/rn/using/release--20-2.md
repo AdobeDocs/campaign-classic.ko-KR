@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 translation-type: tm+mt
-source-git-commit: 65662a49aefdd6b5f85b39677908696f093779e8
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '2830'
 ht-degree: 88%
@@ -199,7 +199,7 @@ _2020년 6월 8일_
 
 * 이제 푸시 알림을 전송하기 전에 iOS HTTP2 커넥터를 사용하는 iOS 모바일 애플리케이션에 대한 인증서의 유효성을 검사하여 인증서 만료로 인해 게재의 실패를 방지합니다.
 
-* HTTP 프록시 연결 관리가 개선되었습니다. [자세히 알아보기](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)
+* HTTP 프록시 연결 관리가 개선되었습니다. [자세히 알아보기](../../installation/using/file-res-management.md)
 
 * 제한 후 실행을 중지하는 **[!UICONTROL Javascript Code]** 및 **[!UICONTROL Advanced Javascript Code]** 워크플로우 활동의 새 옵션입니다. 기본값은 1시간입니다. [자세히 알아보기](../../workflow/using/sql-code-and-javascript-code.md#javascript-code)
 
