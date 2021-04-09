@@ -6,14 +6,14 @@ description: 엔터프라이즈 배포
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
+exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 translation-type: tm+mt
-source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
-
 
 # 엔터프라이즈 배포{#enterprise-deployment}
 
@@ -113,7 +113,7 @@ ht-degree: 1%
    nlserver config -internalpassword
    ```
 
-   자세한 내용은 [내부 식별자](../../installation/using/campaign-server-configuration.md#internal-identifier)를 참조하십시오.
+   이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)을 참조하십시오.
 
 1. 추적을 위해 DNS 마스크가 있는 **demo** 인스턴스를 만들고(이 경우 **tracking.campaign.net**) 클라이언트 콘솔에 액세스합니다(이 경우 **console.campaign.net**). 두 가지 방법이 있습니다.
 
@@ -151,7 +151,7 @@ ht-degree: 1%
    </serverconf>
    ```
 
-   자세한 내용은 [프로세스 활성화](../../installation/using/campaign-server-configuration.md#enabling-processes)를 참조하십시오.
+   이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#enabling-processes)을 참조하십시오.
 
 1. **serverConf.xml** 파일을 편집하고 배달 도메인을 지정한 다음 MTA 모듈에서 MX 유형 DNS 쿼리에 응답하는 DNS 서버의 IP(또는 호스트) 주소를 지정합니다.
 
@@ -163,7 +163,7 @@ ht-degree: 1%
    >
    >**nameServers** 매개 변수는 Windows에서만 사용됩니다.
 
-   자세한 내용은 [캠페인 서버 구성](../../installation/using/campaign-server-configuration.md)을 참조하십시오.
+   자세한 내용은 [캠페인 서버 구성](../../installation/using/configuring-campaign-server.md)을 참조하십시오.
 
 1. 클라이언트 콘솔 설정 프로그램(**setup-client-7.XX**, **YYYY.exe**, v7 또는 **setup-client-6.XX**, **YYY.exe**)을 **/datakit/로 복사합니다. nl/eng/jsp** 폴더. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
 
@@ -229,7 +229,7 @@ ht-degree: 1%
    </serverconf>
    ```
 
-   자세한 내용은 [프로세스 활성화](../../installation/using/campaign-server-configuration.md#enabling-processes)를 참조하십시오.
+   이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#enabling-processes)을 참조하십시오.
 
 1. **serverConf.xml** 파일을 편집하고 MTA 모듈의 DNS 구성을 채웁니다.
 
@@ -241,7 +241,7 @@ ht-degree: 1%
    >
    >**nameServers** 매개 변수는 Windows에서만 사용됩니다.
 
-   자세한 내용은 [캠페인 서버 구성](../../installation/using/campaign-server-configuration.md)을 참조하십시오.
+   자세한 내용은 [캠페인 서버 구성](../../installation/using/configuring-campaign-server.md)을 참조하십시오.
 
 1. Adobe Campaign 서버를 시작합니다.
 
@@ -290,4 +290,3 @@ ht-degree: 1%
    * Windows의 경우:[웹 서버를 시작하고 구성](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)을 테스트합니다.
 
 1. Adobe Campaign 서버를 시작합니다.
-
