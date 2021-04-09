@@ -6,14 +6,14 @@ description: 구성 원칙
 audience: production
 content-type: reference
 topic-tags: production-procedures
+exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 4%
 
 ---
-
 
 # 구성 원칙{#configuration-principle}
 
@@ -25,7 +25,7 @@ Adobe Campaign 플랫폼은 Apache에서 사용하는 가상 호스트 개념과
 
    >[!IMPORTANT]
    >
-   >**내부** 식별자로 로그온하려면 사전에 암호를 정의해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/campaign-server-configuration.md#internal-identifier)을 참조하십시오.
+   >**내부** 식별자로 로그온하려면 사전에 암호를 정의해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)을 참조하십시오.
 
 * 다양한 기술 서버 구성:이러한 구성은 모두 인스턴스의 특정 구성에서 오버로드될 수 있습니다.
 
