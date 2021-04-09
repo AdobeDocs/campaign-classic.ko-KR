@@ -6,14 +6,14 @@ description: 웹 서버 구성 기본 우수 사례에 대해 자세히 알아�
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 translation-type: tm+mt
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
-
 
 # 웹 서버 구성 {#web-server-configuration}
 
@@ -58,7 +58,7 @@ ht-degree: 0%
    * ServerSignature **Off**
    * ServerTokens **Prod**
 
-   **IIS** ( [설명서](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs) 참조)에서 다음 구성을 수행하십시오.
+   **IIS에서** 다음 구성을 수행합니다.
 
    * **URLScan**&#x200B;을(를) 설치합니다.
    * **RemoveServerHeader=1**&#x200B;이(가) 있도록 **Urlscan.ini** 파일을 편집합니다.
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 * 쿼리 크기를 제한하여 중요한 파일이 업로드되지 않도록 합니다.
 
-   **Apache** ( [설명서](http://httpd.apache.org/docs/2.2/mod/core.html#limitrequestbody) 참조)에서 / 디렉토리에  **** LimitRequestBodydirective(바이트 크기)를 추가합니다.
+   **Apache에서** / 디렉토리에  **** LimitRequestBodydirective(바이트 크기)를 추가합니다.
 
    ```
    <Directory />
