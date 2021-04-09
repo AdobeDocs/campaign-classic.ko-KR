@@ -6,14 +6,14 @@ description: 일반 구성
 audience: migration
 content-type: reference
 topic-tags: configuration
+exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2786'
 ht-degree: 0%
 
 ---
-
 
 # 일반 구성{#general-configurations}
 
@@ -104,7 +104,7 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->**내부** 암호는 모든 추적 서버에 대해 동일해야 합니다. 자세한 내용은 [이 섹션](../../installation/using/campaign-server-configuration.md#internal-identifier) 및 [이 섹션](../../platform/using/access-management.md)을 참조하십시오.
+>**내부** 암호는 모든 추적 서버에 대해 동일해야 합니다. 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier) 및 [이 섹션](../../platform/using/access-management.md)을 참조하십시오.
 
 ### v7 {#new-features-in-v7}의 새로운 기능
 
@@ -473,7 +473,7 @@ allowSQLInjection="false"
 
 ## Tomcat {#tomcat}
 
-Adobe Campaign v7에 통합된 Tomcat 서버가 버전(Tomcat 7)을 변경했습니다. 따라서 설치 폴더(tomcat-6)도 변경되었습니다(tomcat 7). 업그레이드 후 경로가 업데이트된 폴더(**[!UICONTROL serverConf.xml]** 파일에서)에 링크되는지 확인하십시오.
+Adobe Campaign v7에 통합된 Tomcat 서버가 버전을 변경했습니다. 따라서 설치 폴더(tomcat-6)도 변경되었습니다(tomcat 7). 업그레이드 후 경로가 업데이트된 폴더(**[!UICONTROL serverConf.xml]** 파일에서)에 링크되는지 확인하십시오.
 
 ```
 $(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 
