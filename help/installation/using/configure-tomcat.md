@@ -6,11 +6,10 @@ description: 캠페인 Tomcat 구성
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: 8ab0aab42accbd1253d53e8133f5af0a38c724ea
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -21,6 +20,11 @@ ht-degree: 0%
 Adobe Campaign은 응용 프로그램과 외부 인터페이스(클라이언트 콘솔, 추적된 URL 링크, SOAP 호출 등) 사이의 HTTP/HTTPS 요청을 처리하기 위해 Apache Tomcat **라는 포함된 웹 서블릿을 사용합니다.** 외부 Adobe Campaign 인스턴스에 대해 이 서버 앞에 외부 웹 서버(일반적으로 IIS 또는 Apache)가 있는 경우가 많습니다.
 
 캠페인의 Tomcat에 대한 자세한 내용과 [이 페이지](../../production/using/locate-tomcat-version.md)에서 Tomcat 버전을 찾는 방법에 대해 알아보십시오.
+
+>[!NOTE]
+>
+>이 절차는 **온-프레미스** 배포로 제한됩니다.
+
 
 ## Apache Tomcat {#default-port-for-tomcat}의 기본 포트
 
