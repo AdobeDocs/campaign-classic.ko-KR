@@ -6,14 +6,14 @@ description: 배달 구성 및 보내기
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
+exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 translation-type: tm+mt
-source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 5%
 
 ---
-
 
 # 배달 {#configuring-and-sending-the-delivery} 구성 및 보내기
 
@@ -41,7 +41,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >mta를 호출하지 않도록 mid 소싱을 사용하여 설치하는 경우에는 이 옵션을 사용하는 것이 권장되지 않습니다. SMTP 서버 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)을 참조하십시오.
+   >mta를 호출하지 않도록 mid 소싱을 사용하여 설치하는 경우에는 이 옵션을 사용하는 것이 권장되지 않습니다. SMTP 서버 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#delivery-settings)을 참조하십시오.
 
 * **[!UICONTROL Email BCC]**:이 옵션을 사용하면 단순히 메시지 대상에 BCC 이메일 주소를 추가하여 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/sending-messages.md#archiving-emails)을 참조하십시오.
 
