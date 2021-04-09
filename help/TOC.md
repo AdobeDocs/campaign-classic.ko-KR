@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2489'
 ht-degree: 97%
 
 ---
@@ -659,7 +659,9 @@ ht-degree: 97%
       + [Campaign 서버 구성](installation/using/configuring-campaign-server.md)
       + [보안 영역 정의](installation/using/security-zones.md)
       + [URL 권한 설정](installation/using/url-permissions.md)
+      + [파일 및 리소스](installation/using/file-res-management.md)
       + [Tomcat 구성](installation/using/configure-tomcat.md)
+      + [배달 설정 구성](installation/using/configure-delivery-settings.md)
       + [기술 이메일 구성](installation/using/email-deliverability.md)
       + [Campaign에서 MX 서버 사용](installation/using/using-mx-servers.md)
       + [이메일 BCC 구성](installation/using/email-archiving.md)
