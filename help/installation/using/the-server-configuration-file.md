@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 translation-type: tm+mt
-source-git-commit: 0c83c989c7e3718a989a4943f5cde7ad4717fddc
+source-git-commit: e165af411d2580d69694f1730116cb198418bfe2
 workflow-type: tm+mt
 source-wordcount: '7970'
 ht-degree: 5%
@@ -2814,7 +2814,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 
 다음은 **web** 노드의 다른 매개 변수입니다. 웹 모듈의 구성입니다.
 
-자세한 내용은 이 [섹션](../../installation/using/configuring-campaign-server.md#default-port-for-tomcat)을 참조하십시오.
+자세한 내용은 이 [섹션](configuring-campaign-server.md#default-port-for-tomcat)을 참조하십시오.
 
 <table> 
  <thead> 
@@ -2858,13 +2858,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> controlPort<br /> </td> 
-   <td> Tomcat 수신 제어 포트:<a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>을 참조하십시오.<br /> </td> 
+   <td> Tomcat 수신 제어 포트:<a href="configure-tomcat.md" target="_blank">Configure Tomcat</a>을 참조하십시오.<br /> </td> 
    <td> 짧은 <br /> </td> 
    <td> 8005<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
-   <td> Tomcat HTTP 수신 대기 포트:<a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>을 참조하십시오.<br /> </td> 
+   <td> Tomcat HTTP 수신 대기 포트:<a href="configure-tomcat.md" target="_blank">Configure Tomcat</a>을 참조하십시오.<br /> </td> 
    <td> 짧은 <br /> </td> 
    <td> 8080<br /> </td> 
   </tr> 
@@ -3149,7 +3149,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> targetUrl<br /> </td> 
-   <td> 대상 페이지의 URL:<a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>을 참조하십시오.<br /> </td> 
+   <td> 대상 페이지의 URL:<a href="configure-tomcat.md" target="_blank">Configure Tomcat</a>을 참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
