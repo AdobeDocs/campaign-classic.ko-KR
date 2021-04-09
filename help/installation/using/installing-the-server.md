@@ -6,14 +6,14 @@ description: 서버 설치
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
+exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '402'
 ht-degree: 2%
 
 ---
-
 
 # 서버 설치{#installing-the-server}
 
@@ -139,7 +139,7 @@ nlserver stop web
 
 Adobe Campaign 서버는 모든 인스턴스에 대한 모든 권한이 있는 **internal**&#x200B;이라는 기술 로그인을 정의합니다. 설치 후 로그인에 암호가 없습니다. 하나를 반드시 정의해야 합니다.
 
-섹션 [내부 식별자](../../installation/using/campaign-server-configuration.md#internal-identifier)를 참조하십시오.
+[이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)에서 자세히 알아보십시오.
 
 ## Adobe Campaign 서비스 시작 중 {#starting-adobe-campaign-services}
 
@@ -164,4 +164,3 @@ net stop nlserver6
 ```
 OOO_BASIS_INSTALL_DIR="C:\Program Files (x86)\LibreOffice 6\"
 ```
-
