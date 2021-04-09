@@ -6,16 +6,16 @@ description: Adobe Campaign 인스턴스에 사용된 포함된 Tomcat 웹 서�
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
 translation-type: tm+mt
-source-git-commit: 49e49d5e35d14a31236cc4f78188cdf77353fbbf
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
 
 ---
 
-
-# Tomcat 버전 찾기{#locate-tomcat-version}
+# Tomcat 버전{#locate-tomcat-version} 찾기
 
 Adobe Campaign은 응용 프로그램과 외부 인터페이스(클라이언트 콘솔, 추적된 URL 링크, SOAP 호출 등) 사이의 HTTP/HTTPS 요청을 처리하기 위해 Apache Tomcat **라는 포함된 웹 서블릿을 사용합니다.** 외부 Adobe Campaign 인스턴스에 대해 이 서버 앞에 외부 웹 서버(일반적으로 IIS 또는 Apache)가 있는 경우가 많습니다.
 
