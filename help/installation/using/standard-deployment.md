@@ -6,14 +6,14 @@ description: 표준 배포
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
+exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '832'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
-
 
 # 표준 배포{#standard-deployment}
 
@@ -107,7 +107,7 @@ Adobe Campaign 응용 프로그램 서버에서 독립 실행형 인스턴스를
 
 1. **internal**&#x200B;을 응용 프로그램 서버와 동일하게 변경합니다.
 
-   자세한 내용은 [내부 식별자](../../installation/using/campaign-server-configuration.md#internal-identifier)를 참조하십시오.
+   이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)을 참조하십시오.
 
 1. 데이터베이스를 인스턴스에 연결:
 
@@ -117,7 +117,7 @@ Adobe Campaign 응용 프로그램 서버에서 독립 실행형 인스턴스를
 
 1. **config-default.xml** 및 **config-demo.xml** 파일에서 **web**, **trackinglogd** 및 **mta** 모듈을 활성화합니다.
 
-   자세한 내용은 [프로세스 활성화](../../installation/using/campaign-server-configuration.md#enabling-processes)를 참조하십시오.
+   이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#enabling-processes)을 참조하십시오.
 
 1. **serverConf.xml** 파일을 편집하고 다음을 채웁니다.
 
@@ -131,7 +131,7 @@ Adobe Campaign 응용 프로그램 서버에서 독립 실행형 인스턴스를
       >
       >**nameServers** 매개 변수는 Windows에서만 사용됩니다.
 
-      자세한 내용은 [배달 설정](../../installation/using/campaign-server-configuration.md#delivery-settings)을 참조하십시오.
+      자세한 내용은 [배달 설정](configuring-campaign-server.md#delivery-settings)을 참조하십시오.
 
    * 리디렉션 매개 변수의 중복 추적 서버:
 
@@ -177,4 +177,3 @@ Adobe Campaign 응용 프로그램 서버에서 독립 실행형 인스턴스를
    >[!NOTE]
    >
    >이전에 만든 두 추적 서버의 기존 인스턴스를 사용하고 **internal** 로그인을 사용합니다.
-
