@@ -8,21 +8,31 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: 8ab0aab42accbd1253d53e8133f5af0a38c724ea
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 27%
+source-wordcount: '338'
+ht-degree: 23%
 
 ---
 
 
-# URL 권한 구성 {#url-permissions}
+# URL 권한 구성(온-프레미스){#url-permissions}
 
 Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 제한되어 있습니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
 
 기본적으로 인스턴스는 외부 URL에 연결할 수 없습니다. 그러나 외부 URL을 승인된 URL 목록에 추가할 수 있으므로 인스턴스가 URL에 연결할 수 있습니다. 이렇게 하면 파일 및/또는 데이터를 전송할 수 있도록 SFTP 서버나 웹 사이트 등의 외부 시스템에 Campaign 인스턴스를 연결할 수 있습니다.
 
+>[!NOTE]
+>
+>이 절차는 **온-프레미스** 배포로 제한됩니다.
+>
+>**호스팅된** 고객으로서 [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)에 액세스할 수 있는 경우 URL 권한 셀프 서비스 인터페이스를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
+>
+>다른 **하이브리드/hosted** 고객은 허용 목록에 IP를 추가하려면 Adobe 지원 팀에 문의해야 합니다.
+
+
 **하이브리드** 및 **온-프레미스** 배포의 경우 관리자는 **serverConf.xml** 파일의 새 **urlPermission**&#x200B;을 참조해야 합니다.
+
 
 다음 3가지 연결 보호 모드를 사용할 수 있습니다.
 
