@@ -6,14 +6,14 @@ description: 인스턴스 만들기 및 로그온
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
-
 
 # 인스턴스 만들기 및 로그온{#creating-an-instance-and-logging-on}
 
@@ -21,11 +21,11 @@ ht-degree: 3%
 
 1. 연결을 만듭니다.
 1. 관련 인스턴스를 만들려면 로그온합니다.
-1. 데이터베이스를 만들고 구성합니다.
+1. 데이터베이스 만들기 및 구성.
 
 >[!NOTE]
 >
->**internal** 식별자만 이러한 작업을 수행할 수 있습니다. 자세한 내용은 [내부 식별자](../../installation/using/campaign-server-configuration.md#internal-identifier)를 참조하십시오.
+>**internal** 식별자만 이러한 작업을 수행할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)을 참조하십시오.
 
 Adobe Campaign 콘솔을 시작하면 로그인 페이지에 액세스합니다.
 
@@ -82,4 +82,3 @@ Adobe Campaign 콘솔을 시작하면 로그인 페이지에 액세스합니다.
    >[!NOTE]
    >
    >명령줄에서 인스턴스를 만들 수 있습니다. 자세한 내용은 [명령줄](../../installation/using/command-lines.md)을 참조하십시오.
-
