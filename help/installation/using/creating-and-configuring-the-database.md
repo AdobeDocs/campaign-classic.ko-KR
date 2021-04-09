@@ -6,14 +6,14 @@ description: 데이터베이스 만들기 및 구성
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '1296'
 ht-degree: 1%
 
 ---
-
 
 # 데이터베이스 만들기 및 구성{#creating-and-configuring-the-database}
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 >
 >데이터베이스, 사용자 및 스키마 이름은 숫자로 시작하거나 특수 문자를 포함하지 않아야 합니다.
 >
->**internal** 식별자만 이러한 작업을 수행할 수 있습니다. 자세한 내용은 [내부 식별자](../../installation/using/campaign-server-configuration.md#internal-identifier)를 참조하십시오.
+>**internal** 식별자만 이러한 작업을 수행할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)을 참조하십시오.
 
 ## 사례 1:데이터베이스 {#case-1--creating-recycling-a-database} 만들기/재활용
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
    >[!CAUTION]
    >
-   > 20.3부터 Windows NT 인증이 중단되었습니다. **[!UICONTROL SQL Server authentication]** 는 이제 Microsoft SQL Server에서 사용할 수 있는 유일한 인증 모드입니다. [자세한 내용](../../rn/using/deprecated-features.md)
+   > 20.3부터 Windows NT 인증이 중단되었습니다. **[!UICONTROL SQL Server authentication]** 는 이제 Microsoft SQL Server에서 사용할 수 있는 유일한 인증 모드입니다. [자세히 알아보기](../../rn/using/deprecated-features.md)
 
    ![](assets/s_ncs_install_db_mssql_creation01.png)
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 이렇게 하려면 데이터베이스에 액세스할 수 있는 권한이 있는 **관리 시스템 계정**&#x200B;의 이름 및 암호를 입력합니다.
 
-* **oracle 데이터베이스** 시스템,
+* **oracle 데이터베이스** 시스템
 * **Microsoft SQL Server 데이터베이스** 의 경우
 * **PostgreSQL 데이터베이스** 게시
 * **DB2 데이터베이스** 에 대한 db2inst1
@@ -245,4 +245,3 @@ ht-degree: 1%
 ```
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
 ```
-
