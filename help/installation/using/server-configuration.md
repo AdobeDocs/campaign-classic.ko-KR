@@ -1,25 +1,25 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 서버 구성
-description: 서버 구성 우수 사례에 대해 자세히 알아보십시오.
+title: 서버 보안 구성
+description: 서버 구성 우수 사례에 대한 자세한 내용
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 translation-type: tm+mt
-source-git-commit: e31d386af4def80cdf258457fc74205b1ca823b3
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 2%
+source-wordcount: '625'
+ht-degree: 3%
 
 ---
 
-# 서버 구성 {#server-configuration}
+# 서버 보안 설정 {#server-configuration}
 
 ## 파일 업로드 보호
 
-클라이언트/웹 인터페이스를 사용하여 서버에 업로드하는 파일의 종류를 운영 사용자에게 확인합니다. 비즈니스 요구 사항은 다음과 같습니다.
+캠페인 클라이언트 콘솔 또는 웹 인터페이스를 사용하여 서버에 업로드하는 파일의 종류를 운영 사용자에게 확인합니다. 비즈니스 요구 사항은 다음과 같습니다.
 
 * 이미지(jpg, gif, png, ...)
 * 콘텐트(zip, html, css, ...)
