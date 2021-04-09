@@ -8,73 +8,153 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 translation-type: tm+mt
-source-git-commit: 0c83c989c7e3718a989a4943f5cde7ad4717fddc
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '2810'
-ht-degree: 6%
+source-wordcount: '2575'
+ht-degree: 1%
 
 ---
 
-# Campaign 서버 구성{#configuring-campaign-server}
+# 캠페인 서버 구성 시작{#gs-campaign-server-config}
 
-아래 섹션에서는 요구 사항 및 환경 사양에 맞게 수행할 수 있는 서버측 구성에 대해 자세히 설명합니다.
+이 장에서는 요구 사항 및 환경 사양에 맞게 수행할 수 있는 서버측 구성에 대해 자세히 설명합니다.
 
-이러한 구성은 관리자가 수행해야 하고 **온-프레미스** 호스팅 모델에만 사용해야 합니다.
+## 제한 사항
 
-**호스팅** 배포의 경우 서버측 설정은 Adobe에서만 구성할 수 있습니다. 그러나 Campaign 컨트롤 패널 내에서 일부 설정을 설정할 수 있습니다(예: IP 허용 목록에 추가하다 관리 또는 URL 권한).
+이러한 절차는 **온-프레미스**/**하이브리드** 배포로 제한되며 관리 권한이 필요합니다.
 
->[!NOTE]
->
->Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
->
->인스턴스는 AWS에서 호스팅되어야 하며 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 자신의 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 따르십시오.
+**호스팅된** 배포의 경우 서버측 설정은 Adobe에서만 구성할 수 있습니다. 하지만 일부 설정은 [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) 내에서 IP 허용 목록에 추가하다 관리나 URL 권한과 같이 설정할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
 
 자세한 내용은 다음 섹션을 참조하십시오.
 
 * [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 * [호스팅 모델](../../installation/using/hosting-models.md)
 * [Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스](../../installation/using/capability-matrix.md)
-* [하이브리드 및 호스트 모델 구성 단계](../../installation/using/hosting-models.md)
+
+## 구성 파일
 
 Campaign Classic 구성 파일은 Adobe Campaign 설치 폴더의 **conf** 폴더에 저장됩니다. 구성은 2개의 파일에 분산됩니다.
 
 * **serverConf.xml**:모든 인스턴스에 대한 일반 구성. 이 파일은 Adobe Campaign 서버의 기술 매개 변수를 결합합니다.모든 인스턴스에서 공유됩니다. 이러한 매개 변수 중 일부에 대한 설명은 아래에 자세히 나와 있습니다. 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열된 다른 노드 및 매개 변수입니다.
 * **config-`<instance>`.xml** (여기서  **** instanceis the name of the instance):인스턴스의 특정 구성. 여러 인스턴스 간에 서버를 공유하는 경우 관련 파일의 각 인스턴스에 해당하는 매개 변수를 입력하십시오.
 
-## {#configuring-tomcat} Tomcat 구성
+일반 서버 구성 지침은 [캠페인 서버 구성](../../installation/using/configuring-campaign-server.md)에 자세히 설명되어 있습니다.
 
-### Tomcat {#default-port-for-tomcat}의 기본 포트
 
-Tomcat 서버의 8080 수신 대기 포트가 구성에 필요한 다른 애플리케이션으로 이미 사용 중인 경우 8080 포트를 무료 포트(예: 8090)로 교체해야 합니다. 변경하려면 Adobe Campaign 설치 폴더의 **/tomcat-8/conf** 디렉토리에 저장된 **server.xml** 파일을 편집합니다.
+## 구성 범위
 
-그런 다음 JSP 릴레이 페이지의 포트를 수정합니다. 이렇게 하려면 Adobe Campaign 설치 디렉토리의 **/conf** 디렉토리에 저장된 **serverConf.xml** 파일을 변경합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열됩니다.
+요구 사항 및 구성에 따라 Campaign 서버를 구성하거나 조정합니다. 다음을 수행할 수 있습니다.
+
+* [내부 식별자 ](#internal-identifier)에 보안을 설정합니다.
+* [캠페인 프로세스 사용](#enabling-processes)
+* [URL 권한 ](url-permissions.md) 구성
+* [보안 영역 정의](security-zones.md)
+* [Tomcat 설정](configure-tomcat.md) 구성
+* [배달 매개 변수 사용자 지정](#delivery-settings)
+* [동적 페이지 보안 정의 및 relays](#dynamic-page-security-and-relays)
+* [허용된 외부 명령 목록 제한](#restricting-authorized-external-commands)
+* [중복 추적 설정](#redundant-tracking)
+* [고가용성 및 워크플로우 친화성 관리](#high-availability-workflows-and-affinities)
+* 파일 관리 구성 - [자세한 내용](#file-and-resmanagement)
+   * 업로드 파일 형식 제한
+   * 공개 리소스에 대한 액세스 가능
+   * 프록시 연결 구성
+* [자동 프로세스 다시 시작](#automatic-process-restart)
+
+
+## 내부 식별자 {#internal-identifier}
+
+**internal** 식별자는 설치, 관리 및 유지 관리 목적으로 사용되는 기술 로그인입니다. 이 로그인은 인스턴스와 연결되어 있지 않습니다.
+
+이 로그인을 사용하여 연결된 연산자는 모든 인스턴스에 대한 모든 권한을 갖습니다. 새 설치 시 이 로그인에는 암호가 없습니다. 이 암호를 수동으로 정의해야 합니다.
+
+다음 명령을 사용하십시오.
 
 ```
-<serverConf>
-   ...
-   <web controlPort="8005" httpPort="8090"...
-   <url ... targetUrl="http://localhost:8090"...
+nlserver config -internalpassword
 ```
 
-### Tomcat {#mapping-a-folder-in-tomcat}의 폴더 매핑
-
-고객별 설정을 정의하려면 **contexts.xml** 파일도 포함하는 **/tomcat-8/conf** 폴더에 **user_contexts.xml** 파일을 만들 수 있습니다.
-
-이 파일에는 다음 정보 유형이 포함됩니다.
+그러면 다음 정보가 표시됩니다. 암호를 입력하고 확인합니다.
 
 ```
- <Context path='/foo' docBase='../customers/foo'   crossContext='true' debug='0' reloadable='true' trusted='false'/>
+17:33:57 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
+Enter the current password.
+Password:
+Enter the new password.
+Password: XXXX
+Confirmation: XXXX
+17:34:02 >   Password successfully changed for account 'internal' (authentication mode 'nl')
 ```
 
-필요한 경우 이 작업을 서버측에서 재현할 수 있습니다.
+## 프로세스 사용 {#enabling-processes}
 
-## 배달 매개 변수 사용자 정의 {#personalizing-delivery-parameters}
+서버의 Adobe Campaign 프로세스는 **config-default.xml** 및 **`config-<instance>.xml`** 파일을 통해 활성화(비활성화됨)됩니다.
 
-전달 매개 변수는 **serverConf.xml** 구성 파일에 정의됩니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열됩니다.
+이러한 파일에 변경 내용을 적용하려면 Adobe Campaign 서비스가 시작된 경우 **nlserver config -reload** 명령을 실행해야 합니다.
 
-일반 서버 구성 및 명령은 [캠페인 서버 구성](../../installation/using/campaign-server-configuration.md)에 자세히 설명되어 있습니다.
+두 가지 유형의 프로세스가 있습니다.다중 인스턴스 및 단일 인스턴스.
 
-필요에 따라 다음 구성을 수행할 수도 있습니다.
+* **다중 인스턴스**:하나의 단일 프로세스가 모든 인스턴스에 대해 시작됩니다. 이것은 **web**, **syslogd** 및 **trackinglogd** 프로세스에 대한 경우입니다.
+
+   지원은 **config-default.xml** 파일에서 구성할 수 있습니다.
+
+   클라이언트 콘솔에 액세스하고 리디렉션(추적)을 위해 Adobe Campaign 서버를 선언합니다.
+
+   ```
+   vi nl6/conf/config-default.xml
+   <web args="-tomcat" autoStart="true"/>  
+   <!-- to start if the machine is also a redirection server -->  
+   <trackinglogd autoStart="true"/>
+   ```
+
+   이 예에서 파일은 Linux에서 **vi** 명령을 사용하여 편집됩니다. **.txt** 또는 **.xml** 편집기를 사용하여 편집할 수 있습니다.
+
+* **모노 인스턴스**:각 인스턴스에 대해 하나의 프로세스가 시작됩니다(모듈: **mta** wfserver **,** inMail **,** smsand  ****   **** stat).
+
+   인스턴스의 구성 파일을 사용하여 지원을 구성할 수 있습니다.
+
+   ```
+   config-<instance>.xml
+   ```
+
+   배달 서버 선언, 워크플로 인스턴스 실행 및 바운스 메일 복구:
+
+   ```
+   <mta autoStart="true" statServerAddress="localhost"/>
+   <wfserver autoStart="true"/>  
+   <inMail autoStart="true"/>
+   <stat autoStart="true"/>
+   ```
+
+**캠페인 데이터 스토리지**
+
+Adobe Campaign 데이터의 저장소 디렉토리(**var** 디렉토리)를 구성할 수 있습니다(로그, 다운로드, 리디렉션 등). 이렇게 하려면 **XTK_VAR_DIR** 시스템 변수를 사용합니다.
+
+* Windows의 경우 **XTK_VAR_DIR** 시스템 변수에 다음 값을 지정합니다.
+
+   ```
+   D:\log\AdobeCampaign
+   ```
+
+* Linux에서 **customer.sh** 파일로 이동하여 다음을 표시합니다.**XTK_VAR_DIR=/app/log/AdobeCampaign** 내보내기
+
+   자세한 내용은 [매개 변수 개인화](../../installation/using/installing-packages-with-linux.md#personalizing-parameters)를 참조하십시오.
+
+## 배달 설정 구성 {#delivery-settings}
+
+배달 매개 변수는 **serverConf.xml** 폴더에 구성해야 합니다.
+
+* **DNS 구성**:MTA 모듈에서 MX 유형 DNS 쿼리에 응답하는 데 사용되는 DNS 서버의 배달 도메인 및 IP 주소(또는 호스트)를  **`<dnsconfig>`** 계속 지정합니다.
+
+   >[!NOTE]
+   >
+   >**nameServers** 매개 변수는 Windows에서 설치하는 데 반드시 필요합니다. Linux에서 설치하려면 비워 두어야 합니다.
+
+   ```
+   <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
+   ```
+
+필요에 따라 다음 구성을 수행할 수도 있습니다.[SMTP 릴레이](#smtp-relay)를 구성하고 [MTA 하위 프로세스](#mta-child-processes), [아웃바운드 SMTP 트래픽 관리](#managing-outbound-smtp-traffic-with-affinities) 수를 조정합니다.
 
 ### SMTP 릴레이 {#smtp-relay}
 
@@ -94,7 +174,7 @@ MTA 모듈은 SMTP 브로드캐스트(포트 25)에 대한 기본 메일 전송 
 
 ### MTA 하위 프로세스 {#mta-child-processes}
 
-서버의 CPU 성능 및 사용 가능한 네트워크 리소스에 따라 브로드캐스트 성능을 최적화하기 위해 하위 프로세스(기본적으로 maxSpareServer 2)의 채우기를 제어할 수 있습니다. 이 구성은 각 개별 컴퓨터에서 MTA 구성의 **`<master>`** 섹션에서 수행합니다.
+서버의 CPU 성능 및 사용 가능한 네트워크 리소스에 따라 브로드캐스트 성능을 최적화하기 위해 하위 프로세스(기본적으로 maxSpareServers) 수를 제어할 수 있습니다. 이 구성은 각 개별 컴퓨터에서 MTA 구성의 **`<master>`** 섹션에서 수행합니다.
 
 ```
 <master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
@@ -102,7 +182,7 @@ MTA 모듈은 SMTP 브로드캐스트(포트 25)에 대한 기본 메일 전송 
 
 또한 [이메일 전송 최적화](../../installation/using/email-deliverability.md#email-sending-optimization)를 참조하십시오.
 
-### 친화성 {#managing-outbound-smtp-traffic-with-affinities}이(가) 있는 아웃바운드 SMTP 트래픽 관리
+### {#managing-outbound-smtp-traffic-with-affinities} 친화성이 있는 아웃바운드 SMTP 트래픽 관리
 
 >[!IMPORTANT]
 >
@@ -141,52 +221,13 @@ IP 주소가 있는 친화성을 통해 아웃바운드 SMTP 트래픽을 개선
    >
    >[배달 서버 구성](../../installation/using/email-deliverability.md#delivery-server-configuration)을 참조할 수도 있습니다.
 
-## URL 권한 {#url-permissions}
 
-Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 제한되어 있습니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
-
-기본적으로 인스턴스는 외부 URL에 연결할 수 없습니다. 그러나 외부 URL을 승인된 URL 목록에 추가할 수 있으므로 인스턴스가 URL에 연결할 수 있습니다. 이렇게 하면 파일 및/또는 데이터를 전송할 수 있도록 SFTP 서버나 웹 사이트 등의 외부 시스템에 Campaign 인스턴스를 연결할 수 있습니다.
-
-추가한 URL은 인스턴스의 구성 파일(serverConf.xml)에서 참조됩니다.
-
-URL 권한을 관리할 수 있는 방법은 호스팅 모델에 따라 다릅니다.
-
-* **하이브리더** 온-프레미스 ****:serverConf.xml 파일에 허용하도록 URL **을 추가합니다**. 자세한 정보는 아래 섹션에 있습니다.
-* **호스팅**:Campaign 컨트롤 패널을 통해 허용할 URL을  **추가합니다**. 자세한 내용은 [전용 설명서](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/url-permissions.html)를 참조하십시오.
-
-   >[!NOTE]
-   >
-   >Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)에 자세히 설명되어 있습니다.
-   >
-   >인스턴스는 AWS에서 호스팅되어야 하며 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 자신의 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 따르십시오.
-
-**하이브리드** 및 **온-프레미스** 호스팅 모델을 사용하여 관리자는 **serverConf.xml** 파일의 새 **urlPermission**&#x200B;을 참조해야 합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열됩니다.
-
-연결 보호 모드는 다음과 같이 3가지가 있습니다.
-
-* **차단**:에 허용 목록에 추가하다 속하지 않은 모든 URL이 차단되고 오류 메시지가 표시됩니다. 업그레이드 후 기본 모드입니다.
-* **자유로운**:에 속하지 않는 모든 허용 목록에 추가하다 URL이 허용됩니다.
-* **경고**:에 속하지 않는 모든 URL은 허용 목록에 추가하다 허용되지만 JS 인터프리터는 관리자가 수집할 수 있도록 경고를 전송합니다. 이 모드에서는 JST-310027 경고 메시지가 추가됩니다.
-
-```
-<urlPermission action="warn" debugTrace="true">
-  <url dnsSuffix="abc.company1.com" urlRegEx=".*" />
-  <url dnsSuffix="def.partnerA_company1.com" urlRegEx=".*" />
-  <url dnsSuffix="xyz.partnerB_company1.com" urlRegEx=".*" />
-</urlPermission>
-```
-
->[!IMPORTANT]
->
->기본적으로 새 고객의 클라이언트는 **차단 모드**&#x200B;를 사용합니다. 새 URL을 허용해야 하는 경우 관리자에게 문의하여에 추가해야 허용 목록에 추가하다 합니다.
->
->마이그레이션에서 오는 기존 고객은 당분간 **경고 모드**&#x200B;를 사용할 수 있습니다. 동시에 URL을 인증하기 전에 아웃바운드 트래픽을 분석해야 합니다. 인증된 URL 목록이 정의된 후에는 관리자에게 문의하여 URL을에 추가하고 허용 목록에 추가하다 **차단 모드**&#x200B;를 활성화해야 합니다.
 
 ## 동적 페이지 보안 및 다시 표시 {#dynamic-page-security-and-relays}
 
-기본적으로 모든 동적 페이지는 웹 모듈이 시작된 컴퓨터의 **local** Tomcat 서버와 자동으로 연결됩니다. 이 구성은 **ServerConf.xml** 파일의 쿼리 릴레이 구성의 **`<url>`** 섹션에 입력됩니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열됩니다.
+기본적으로 모든 동적 페이지는 웹 모듈이 시작된 컴퓨터의 **local** Tomcat 서버와 자동으로 연결됩니다. 이 구성은 **ServerConf.xml** 파일의 쿼리 릴레이 구성의 **`<url>`** 섹션에 입력됩니다.
 
-**remote** 서버에서 동적 페이지의 실행을 중계하려면컴퓨터에서 웹 모듈이 활성화되지 않은 경우 이렇게 하려면 **localhost**&#x200B;를 JSP 및 JSSP, 웹 애플리케이션, 보고서 및 문자열에 대한 원격 컴퓨터의 이름으로 바꾸어야 합니다.
+**원격** 서버에서 동적 페이지의 실행을 릴레이 수 있습니다.컴퓨터에서 웹 모듈이 활성화되지 않은 경우 이렇게 하려면 **localhost**&#x200B;를 JSP 및 JSSP, 웹 애플리케이션, 보고서 및 문자열에 대한 원격 컴퓨터의 이름으로 바꾸어야 합니다.
 
 사용 가능한 다양한 매개 변수에 대한 자세한 내용은 **serverConf.xml** 구성 파일을 참조하십시오.
 
@@ -234,11 +275,24 @@ Adobe Campaign은 다음 JSP 페이지를 사용합니다.
 >
 >특히 특정 구성이 설치용으로 개발된 경우, 구성 및 네트워크 제한에 따라 값이 조정됩니다.
 
-## 허가된 외부 명령 제한 {#restricting-authorized-external-commands}
+### HTTP 헤더 관리 {#managing-http-headers}
 
->[!NOTE]
->
->다음 구성은 온-프레미스 설치에만 필요합니다.
+기본적으로 모든 HTTP 헤더는 전달되지 않습니다. 릴레이로 보낸 답글에 특정 헤더를 추가할 수 있습니다. 방법은 다음과 같습니다.
+
+1. **serverConf.xml** 파일로 이동합니다.
+1. **`<relay>`** 노드에서 릴레이된 HTTP 헤더 목록으로 이동합니다.
+1. 다음 특성을 사용하여 **`<responseheader>`** 요소를 추가합니다.
+
+   * **이름**:헤더 이름
+   * **값**:값 이름.
+
+   예제:
+
+   ```
+   <responseHeader name="Strict-Transport-Security" value="max-age=16070400; includeSubDomains"/>
+   ```
+
+## 허가된 외부 명령 {#restricting-authorized-external-commands} 제한
 
 기술 관리자는 빌드 8780에서 Adobe Campaign에서 사용할 수 있는 인증된 외부 명령 목록을 제한할 수 있습니다.
 
@@ -283,22 +337,6 @@ sh
 >
 >사용자 정의 sudo를 사용하면 안 됩니다. 표준 사용자를 시스템에 설치해야 합니다.
 
-## HTTP 헤더 관리 {#managing-http-headers}
-
-기본적으로 모든 HTTP 헤더는 전달되지 않습니다. 릴레이로 보낸 답글에 특정 헤더를 추가할 수 있습니다. 방법은 다음과 같습니다.
-
-1. **serverConf.xml** 파일로 이동합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열됩니다.
-1. **`<relay>`** 노드에서 릴레이된 HTTP 헤더 목록으로 이동합니다.
-1. 다음 특성을 사용하여 **`<responseheader>`** 요소를 추가합니다.
-
-   * **이름**:헤더 이름
-   * **값**:값 이름.
-
-   예제:
-
-   ```
-   <responseHeader name="Strict-Transport-Security" value="max-age=16070400; includeSubDomains"/>
-   ```
 
 ## 중복된 추적 {#redundant-tracking}
 
@@ -308,7 +346,7 @@ sh
 >
 >표준 또는 엔터프라이즈 아키텍처를 사용할 때는 각 컴퓨터에서 추적 정보를 업로드할 수 있는 기본 응용 프로그램 서버가 인증되어야 합니다.
 
-중복 서버의 URL은 리디렉션 구성에서 **serverConf.xml** 파일을 통해 지정해야 합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열됩니다.
+중복 서버의 URL은 리디렉션 구성에서 **serverConf.xml** 파일을 통해 지정해야 합니다.
 
 **예제:**
 
@@ -317,105 +355,31 @@ sh
 <spareserver enabledIf="$(hostname)!='front_srv2'" id="2" url="http://front_srv2:8080" />
 ```
 
-**enableIf** 속성은 선택 사항이며(기본적으로 비어 있음) 결과가 true인 경우에만 연결을 활성화할 수 있습니다.이렇게 하면 모든 리디렉션 서버에서 동일한 구성을 얻을 수 있습니다.
+**enableIf** 속성은 선택 사항이며(기본적으로 비어 있음) 결과가 true인 경우에만 연결을 활성화할 수 있습니다. 이렇게 하면 모든 리디렉션 서버에서 동일한 구성을 얻을 수 있습니다.
 
 컴퓨터의 호스트 이름을 얻으려면 다음 명령을 실행하십시오.**hostname -s**.
 
-## 공용 리소스 관리 {#managing-public-resources}
+## 파일 및 리소스 관리{#file-and-resmanagement}
 
-공용 리소스는 [공용 리소스 관리](../../installation/using/deploying-an-instance.md#managing-public-resources)에 제공됩니다.
+### 업로드 파일 형식 {#limiting-uploadable-files} 제한
 
-Adobe Campaign 설치 디렉토리의 **/var/res/instance** 디렉토리에 저장됩니다.
-
-일치하는 URL은 다음과 같습니다.**http://server/res/instance**&#x200B;여기서 **instance**&#x200B;은 추적 인스턴스의 이름입니다.
-
-서버에서 저장소를 구성하기 위해 **conf-`<instance>`.xml** 파일에 노드를 추가하여 다른 디렉토리를 지정할 수 있습니다. 즉, 다음 줄을 추가합니다.
-
-```
-<serverconf>
-  <shared>
-    <dataStore hosts="media*" lang="fra">
-      <virtualDir name="images" path="/var/www/images"/>
-     <virtualDir name="publicFileRes" path="$(XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)/"/>
-    </dataStore>
-  </shared>
-</serverconf>
-```
-
-이 경우 배포 마법사 창의 위쪽 부분에 있는 공개 리소스에 대한 새 URL은 이 폴더를 가리켜야 합니다.
-
-## 고가용성 워크플로우 및 친화성 {#high-availability-workflows-and-affinities}
-
-여러 워크플로 서버(wfserver)를 구성하고 두 대 이상의 컴퓨터에 배포할 수 있습니다. 이 유형의 아키텍처를 선택하는 경우 Adobe Campaign 액세스에 따라 부하 분산 장치의 연결 모드를 구성합니다.
-
-웹에서 액세스하려면 **부하 균형 조정기** 모드를 선택하여 연결 시간을 제한합니다.
-
-Adobe Campaign 콘솔을 통해 액세스하는 경우 **해시** 또는 **고정 ip** 모드를 선택합니다. 이렇게 하면 리치 클라이언트와 서버 간의 연결을 유지할 수 있으며 가져오기 또는 내보내기 작업 중 사용자 세션이 중단되는 것을 방지할 수 있습니다.
-
-특정 컴퓨터에서 워크플로우 또는 워크플로우 활동을 강제로 실행하도록 선택할 수 있습니다. 이를 수행하려면 관련 워크플로우 또는 활동에 대해 하나 이상의 친화성을 정의해야 합니다.
-
-1. **[!UICONTROL Affinity]** 필드에 워크플로우 또는 활동의 친화성을 입력합니다.
-
-   친화성 이름을 자유롭게 선택할 수 있습니다. 그러나 공백이나 구두점 표시를 사용하지 않도록 해야 합니다. 다른 서버를 사용하는 경우 다른 이름을 지정합니다.
-
-   ![](assets/s_ncs_install_server_wf_affinity01.png)
-
-   ![](assets/s_ncs_install_server_wf_affinity02.png)
-
-   드롭다운 목록에는 이전에 사용한 친화성이 포함되어 있습니다. 입력한 값이 다른 시간에 따라 완료됩니다.
-
-1. **nl6/conf/config-`<instance>.xml`** 파일을 엽니다.
-1. 다음과 같이 **[!UICONTROL wfserver]** 모듈과 일치하는 행을 수정합니다.
-
-   ```
-   <wfserver autoStart="true" affinity="XXX,"/>
-   ```
-
-   여러 친화성을 정의하는 경우 공백 없이 쉼표로 구분해야 합니다.
-
-   ```
-   <wfserver autoStart="true" affinity="XXX,YYY,"/>
-   ```
-
-   친화성이 정의되지 않은 워크플로우를 실행하려면 친화성 이름 뒤에 오는 쉼표가 필요합니다.
-
-   선호도가 정의된 워크플로우만 실행하려면 친화성 목록의 끝에 쉼표를 추가하지 마십시오. 예를 들어 다음과 같이 라인을 수정합니다.
-
-   ```
-   <wfserver autoStart="true" affinity="XXX"/>
-   ```
-
-## 자동 프로세스가 {#automatic-process-restart}을(를) 다시 시작합니다.
-
-기본적으로 서로 다른 Adobe Campaign 프로세스는 매일 오전 6시(서버 시간)에 자동으로 다시 시작됩니다.
-
-하지만 이 구성을 변경할 수 있습니다.
-
-이렇게 하려면 설치의 **conf** 저장소에 있는 **serverConf.xml** 파일로 이동합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열됩니다.
-
-이 파일에 구성된 각 프로세스에는 **processRestartTime** 특성이 있습니다. 이 속성의 값을 수정하여 각 프로세스의 재시작 시간을 필요에 따라 조정할 수 있습니다.
-
->[!IMPORTANT]
->
->이 특성을 삭제하지 마십시오. 모든 프로세스는 매일 다시 시작해야 합니다.
-
-## 업로드 가능한 파일 제한 {#limiting-uploadable-files}
-
-새 특성 **uploadWhiteList**&#x200B;을 사용하면 Adobe Campaign 서버에서 업로드할 수 있는 파일 유형을 제한할 수 있습니다.
+Adobe Campaign 서버에서 업로드할 수 있는 파일 유형을 제한하려면 **uploadWhiteList** 특성을 사용합니다.
 
 이 속성은 **serverConf.xml** 파일의 **dataStore** 요소 내에서 사용할 수 있습니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열됩니다.
 
-이 속성의 기본값은 **입니다.+**&#x200B;을(를) 사용하여 모든 파일 유형을 업로드할 수 있습니다.
+이 속성의 기본값은 **입니다.+** 및 모든 파일 유형을 업로드할 수 있습니다.
 
-가능한 형식을 제한하려면 속성 값을 유효한 java 정규 표현식으로 바꿔야 합니다. 여러 값을 쉼표로 구분하여 입력할 수 있습니다.
+가능한 형식을 제한하려면 속성 값을 유효한 java 정규 표현식으로 바꿉니다. 여러 값을 쉼표로 구분하여 입력할 수 있습니다.
 
 예:**uploadWhiteList=&quot;*.png,*.jpg&quot;**&#x200B;에서 PNG 및 JPG 형식을 서버에 업로드할 수 있습니다. 다른 형식은 허용되지 않습니다.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Internet Explorer에서 전체 파일 경로는 정규 표현식으로 확인해야 합니다.
 
-## 프록시 연결 구성 {#proxy-connection-configuration}
+웹 서버를 구성하여 중요한 파일을 업로드하지 못하도록 할 수도 있습니다. [자세히 알아보기](web-server-configuration.md)
+
+### 프록시 연결 구성 {#proxy-connection-configuration}
 
 예를 들어 **파일 전송** 워크플로우 활동을 사용하여 프록시를 통해 캠페인 서버를 외부 시스템에 연결할 수 있습니다. 이를 수행하려면 특정 명령을 통해 **serverConf.xml** 파일의 **proxyConfig** 섹션을 구성해야 합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
@@ -484,3 +448,81 @@ FTP/FTPS 연결은 proxyFTP 매개 변수에 정의됩니다.
 프록시를 통과해야 하는 내부 연결이 있는 경우 override 매개 변수에 추가합니다.
 
 일시적으로 프록시 연결을 비활성화하려면 enabled 매개 변수를 &quot;false&quot; 또는 &quot;0&quot;으로 설정합니다.
+
+### 공용 리소스 관리 {#managing-public-resources}
+
+공개적으로 사용할 수 있으려면 캠페인에 연결된 이메일 및 공개 리소스에 사용된 이미지가 외부에서 액세스 가능한 서버에 있어야 합니다. 그런 다음 외부 받는 사람 또는 연산자가 사용할 수 있습니다. [자세히 알아보기](../../installation/using/deploying-an-instance.md#managing-public-resources)
+
+공개 리소스는 Adobe Campaign 설치 디렉토리의 **/var/res/instance** 디렉토리에 저장됩니다.
+
+일치하는 URL은 다음과 같습니다.**http://server/res/instance**&#x200B;여기서 **instance**&#x200B;은 추적 인스턴스의 이름입니다.
+
+서버에서 저장소를 구성하기 위해 **conf-`<instance>`.xml** 파일에 노드를 추가하여 다른 디렉토리를 지정할 수 있습니다. 즉, 다음 줄을 추가합니다.
+
+```
+<serverconf>
+  <shared>
+    <dataStore hosts="media*" lang="fra">
+      <virtualDir name="images" path="/var/www/images"/>
+     <virtualDir name="publicFileRes" path="$(XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)/"/>
+    </dataStore>
+  </shared>
+</serverconf>
+```
+
+이 경우 배포 마법사 창의 위쪽 부분에 있는 공개 리소스에 대한 새 URL은 이 폴더를 가리켜야 합니다.
+
+## 고가용성 워크플로우 및 친화성 {#high-availability-workflows-and-affinities}
+
+여러 워크플로 서버(wfserver)를 구성하고 두 대 이상의 컴퓨터에 배포할 수 있습니다. 이 유형의 아키텍처를 선택하는 경우 Adobe Campaign 액세스에 따라 부하 분산 장치의 연결 모드를 구성합니다.
+
+웹에서 액세스하려면 **부하 균형 조정기** 모드를 선택하여 연결 시간을 제한합니다.
+
+Adobe Campaign 콘솔을 통해 액세스하는 경우 **해시** 또는 **고정 ip** 모드를 선택합니다. 이렇게 하면 리치 클라이언트와 서버 간의 연결을 유지할 수 있으며 가져오기 또는 내보내기 작업 중 사용자 세션이 중단되는 것을 방지할 수 있습니다.
+
+특정 컴퓨터에서 워크플로우 또는 워크플로우 활동을 강제로 실행하도록 선택할 수 있습니다. 이를 수행하려면 관련 워크플로우 또는 활동에 대해 하나 이상의 친화성을 정의해야 합니다.
+
+1. **[!UICONTROL Affinity]** 필드에 워크플로우 또는 활동의 친화성을 입력합니다.
+
+   친화성 이름을 선택할 수 있지만 공백이나 구두점 표시를 사용하지 않아야 합니다. 다른 서버를 사용하는 경우 다른 이름을 지정합니다.
+
+   ![](assets/s_ncs_install_server_wf_affinity01.png)
+
+   ![](assets/s_ncs_install_server_wf_affinity02.png)
+
+   드롭다운 목록에는 이전에 사용한 친화성이 포함되어 있습니다. 입력한 값이 다른 시간에 따라 완료됩니다.
+
+1. **nl6/conf/config-`<instance>.xml`** 파일을 엽니다.
+1. 다음과 같이 **[!UICONTROL wfserver]** 모듈과 일치하는 행을 수정합니다.
+
+   ```
+   <wfserver autoStart="true" affinity="XXX,"/>
+   ```
+
+   여러 친화성을 정의하는 경우 공백 없이 쉼표로 구분해야 합니다.
+
+   ```
+   <wfserver autoStart="true" affinity="XXX,YYY,"/>
+   ```
+
+   친화성이 정의되지 않은 워크플로우를 실행하려면 친화성 이름 뒤에 오는 쉼표가 필요합니다.
+
+   선호도가 정의된 워크플로우만 실행하려면 친화성 목록의 끝에 쉼표를 추가하지 마십시오. 예를 들어 다음과 같이 라인을 수정합니다.
+
+   ```
+   <wfserver autoStart="true" affinity="XXX"/>
+   ```
+
+## {#automatic-process-restart} 자동 다시 시작
+
+기본적으로 서로 다른 Adobe Campaign 프로세스는 매일 오전 6시(서버 시간)에 자동으로 다시 시작됩니다.
+
+하지만 이 구성을 변경할 수 있습니다.
+
+이렇게 하려면 설치의 **conf** 저장소에 있는 **serverConf.xml** 파일로 이동합니다.
+
+이 파일에 구성된 각 프로세스에는 **processRestartTime** 특성이 있습니다. 이 속성의 값을 수정하여 각 프로세스의 재시작 시간을 필요에 따라 조정할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>이 특성을 삭제하지 마십시오. 모든 프로세스는 매일 다시 시작해야 합니다.
