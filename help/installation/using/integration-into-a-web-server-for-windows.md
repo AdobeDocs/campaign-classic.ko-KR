@@ -6,14 +6,14 @@ description: Windows용 웹 서버에 통합
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
+exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 2%
 
 ---
-
 
 # Windows용 웹 서버에 통합{#integration-into-a-web-server-for-windows}
 
@@ -23,7 +23,7 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 응용 프로그램 서버의 시�
 
 이 경우:
 
-* 기본 의견 수렴 포트는 8080입니다. 변경하려면 [Configuring Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat)을 참조하십시오.
+* 기본 의견 수렴 포트는 8080입니다. 변경하려면 [이 섹션](../../installation/using/configure-tomcat.md)을 참조하십시오.
 * 그런 다음 클라이언트 콘솔은 [https:// `<computer>`:8080](https://myserver.adobe.com:8080)과 같은 URL을 사용하여 연결합니다.
 
 그러나 보안 및 관리상의 이유로 Adobe Campaign을 실행 중인 컴퓨터가 인터넷에 노출되어 네트워크 외부의 콘솔에 대한 액세스를 열려는 경우 전용 웹 서버를 HTTP 트래픽의 기본 시작 지점으로 사용하는 것이 좋습니다.
@@ -178,4 +178,3 @@ IIS 웹 서버를 구성할 때 서버에 업로드되는 세트 파일에 대�
 1. **existingResponse** 행에서 **PassThrough** 값을 선택합니다.
 
 ![](assets/ins_iis_httperrors.png)
-
