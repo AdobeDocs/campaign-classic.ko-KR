@@ -6,14 +6,14 @@ description: 이 섹션에서는 Campaign에서 mid 소싱 서버의 설치 및 
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '999'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # 중간 소싱 서버{#mid-sourcing-server}
 
@@ -61,7 +61,7 @@ ht-degree: 0%
    </serverconf>
    ```
 
-   자세한 내용은 [프로세스 활성화](../../installation/using/campaign-server-configuration.md#enabling-processes)를 참조하십시오.
+   이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#enabling-processes)을 참조하십시오.
 
 * **6**, **9** 및 **10** 단계는 필요하지 않습니다.
 * **12** 및 **13** 단계 동안 연결 URL에 8080 포트를 표시해야 합니다. 단, 콘솔은 웹 서버를 통해 직접 Tomcat와 통신하므로. URL은 [http://console.campaign.net:8080](http://console.campaign.net)이 됩니다. **13** 단계 동안 설치할 패키지뿐 아니라 **[!UICONTROL Issue towards Mid-sourcing]** 패키지를 선택합니다.
@@ -180,4 +180,3 @@ serverConf.xml 파일에서 mid 소싱 서버 설정을 변경해야 합니다. 
 메시지 전달을 여러 개의 중간 소싱 서버에서 관리하는 경우 **[!UICONTROL Routing with alternating mid-sourcing accounts]** 옵션을 선택하고 다른 서버를 지정합니다.
 
 ![](assets/s_ncs_install_midsourcing_tracking04.png)
-
