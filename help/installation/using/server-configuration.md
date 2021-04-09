@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
 * ETL(텍스트, csv, 탭, ...)
 * 등.
 
-serverConf/shared/datastore/@uploadAllowlist(유효한 Java 정규 표현식)에 모든 매개 변수를 추가합니다. [이 페이지](../../installation/using/configuring-campaign-server.md#limiting-uploadable-files)에서 자세히 알아보십시오.
+serverConf/shared/datastore/@uploadAllowlist(유효한 Java 정규 표현식)에 모든 매개 변수를 추가합니다. [이 페이지](../../installation/using/file-res-management.md)에서 자세히 알아보십시오.
 
 Adobe Campaign은 파일 크기를 제한하지 않습니다. 하지만 IIS/Apache를 구성하여 수행할 수 있습니다. [이 섹션](../../installation/using/web-server-configuration.md)에서 자세히 알아보십시오.
 
