@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 5%
@@ -127,7 +127,7 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한
 
 * 배달은 전송 서버에서 구성되지 않은 선호도를 사용하고 있을 수 있습니다.
 
-   이 경우 트래픽 관리(IP 친화성)의 구성을 확인하고 **[!UICONTROL Managing affinities with IP addresses]** 필드를 사용하여 친화성을 관리하는 MTA에 제공을 연결합니다. 친화성에 대한 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#delivery-settings)을 참조하십시오.
+   이 경우 트래픽 관리(IP 친화성)의 구성을 확인하고 **[!UICONTROL Managing affinities with IP addresses]** 필드를 사용하여 친화성을 관리하는 MTA에 제공을 연결합니다. 친화성에 대한 자세한 내용은 [이 섹션](../../installation/using/configure-delivery-settings.md)을 참조하십시오.
 
 * 너무 많은 캠페인이 실행 중이면 배달 상태가 &#39;보류 중&#39; 상태로 유지됩니다.
 
