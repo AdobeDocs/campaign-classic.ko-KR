@@ -6,14 +6,14 @@ description: 고급 매개 변수
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
+exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
-
 
 # 고급 매개 변수{#advanced-parameters}
 
@@ -49,7 +49,10 @@ ht-degree: 2%
 
 ## 친화성 {#affinity}
 
-이 필드를 사용하면 특정 컴퓨터에서 활동을 강제로 실행할 수 있습니다. 자세한 내용은 다음을 참조하십시오.[성향 관리](../../workflow/using/managing-propensity.md).
+특정 컴퓨터에서 워크플로우 또는 워크플로우 활동을 강제로 실행하도록 선택할 수 있습니다. 이를 수행하려면 워크플로우 또는 관련 활동 수준에서 하나 이상의 속성을 정의해야 합니다.
+
+고가용성 워크플로우 구성은 이 [섹션](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities)에 자세히 설명되어 있습니다.
+
 
 ## 맥스 실행 기간 {#max--execution-period}
 
