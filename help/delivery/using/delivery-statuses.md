@@ -6,14 +6,14 @@ description: 배달 대시보드에서 사용할 수 있는 상태에 대해 자
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 translation-type: tm+mt
-source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
-
 
 # 게재 상태 {#delivery-statuses}
 
@@ -87,7 +87,7 @@ ajouter screenshot -->
  </tbody> 
 </table>
 
-Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-deliverability.md)을 참조하십시오. 제공 가능성에 대한 자세한 내용은 [Adobe 제공 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)를 참조하십시오.
+Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-deliverability.md)을 참조하십시오. 제공 가능성에 대한 자세한 내용은 [Adobe 제공 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하십시오.
 
 ## 보류 중인 상태 {#pending-status}
 
@@ -127,7 +127,7 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한
 
 * 배달은 전송 서버에서 구성되지 않은 선호도를 사용하고 있을 수 있습니다.
 
-   이 경우 트래픽 관리(IP 친화성)의 구성을 확인하고 **[!UICONTROL Managing affinities with IP addresses]** 필드를 사용하여 친화성을 관리하는 MTA에 제공을 연결합니다. 친화성에 대한 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)을 참조하십시오.
+   이 경우 트래픽 관리(IP 친화성)의 구성을 확인하고 **[!UICONTROL Managing affinities with IP addresses]** 필드를 사용하여 친화성을 관리하는 MTA에 제공을 연결합니다. 친화성에 대한 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#delivery-settings)을 참조하십시오.
 
 * 너무 많은 캠페인이 실행 중이면 배달 상태가 &#39;보류 중&#39; 상태로 유지됩니다.
 
