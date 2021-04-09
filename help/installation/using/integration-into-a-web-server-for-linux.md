@@ -6,14 +6,14 @@ description: Campaign을 웹 서버에 통합하는 방법(Linux)
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
+exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 2%
 
 ---
-
 
 # Linux용 웹 서버와 통합{#integration-into-a-web-server-for-linux}
 
@@ -23,7 +23,7 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 응용 프로그램 서버의 시�
 
 이 경우:
 
-* 기본 의견 수렴 포트는 8080입니다. 변경하려면 [Configuring Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat)을 참조하십시오.
+* 기본 의견 수렴 포트는 8080입니다. 변경하려면 [이 섹션](configure-tomcat.md)을 참조하십시오.
 * 그러면 클라이언트 콘솔이 다음과 같은 URL을 사용하여 연결됩니다.
 
    ```
