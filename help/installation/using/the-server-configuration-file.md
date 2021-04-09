@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 translation-type: tm+mt
-source-git-commit: e165af411d2580d69694f1730116cb198418bfe2
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '7970'
 ht-degree: 5%
@@ -201,7 +201,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
   </tr> 
   <tr> 
    <td> uploadAllowlist<br /> </td> 
-   <td> ','로 구분하여 다운로드할 수 있는 권한이 있는 파일입니다. 문자열은 유효한 정규 java 표현식이어야 합니다. <a href="../../installation/using/configuring-campaign-server.md#limiting-uploadable-files" target="_blank">업로드 가능한 파일 제한</a>을 참조하십시오.<br /> </td> 
+   <td> ','로 구분하여 다운로드할 수 있는 권한이 있는 파일입니다. 문자열은 유효한 정규 java 표현식이어야 합니다. <a href="file-res-management.md" target="_blank">업로드 가능한 파일 제한</a>을 참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '.+' <br /> </td> 
   </tr> 
@@ -425,7 +425,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
 
 다음은 **dataStore > virtualDir** 노드의 다른 매개 변수입니다. 가상 디렉터리를 실제 디렉터리 매핑에 대한 구성입니다.
 
-자세한 내용은 [공개 리소스 관리](../../installation/using/configuring-campaign-server.md#managing-public-resources)를 참조하십시오.
+자세한 내용은 [공개 리소스 관리](file-res-management.md)를 참조하십시오.
 
 <table> 
  <thead> 
@@ -867,7 +867,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 다음은 **proxyConfig** 노드의 다른 매개 변수입니다. 프록시 매개 변수의 구성입니다.
 
-자세한 내용은 [프록시 연결 구성](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)을 참조하십시오.
+자세한 내용은 [프록시 연결 구성](file-res-management.md)을 참조하십시오.
 
 <table> 
  <thead> 
@@ -904,7 +904,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 **proxyConfig > HTTP 프록시 / 보안 프록시** 노드에서 다음 매개 변수를 구성합니다.
 
-자세한 내용은 [프록시 연결 구성](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)을 참조하십시오.
+자세한 내용은 [프록시 연결 구성](file-res-management.md)을 참조하십시오.
 
 <table> 
  <thead> 
