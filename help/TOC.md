@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '2483'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -509,7 +509,6 @@ ht-degree: 98%
       + [외부 데이터베이스 액세스](workflow/using/accessing-an-external-database--fda-.md)
       + [권한 관리](workflow/using/managing-rights.md)
       + [활동 이미지 관리](workflow/using/managing-activity-images.md)
-      + [성향 관리](workflow/using/managing-propensity.md)
       + [표준 시간대 관리](workflow/using/managing-time-zones.md)
       + [기술 워크플로우](workflow/using/about-technical-workflows.md)
 + 오퍼 관리 {#managing-offers}
@@ -625,7 +624,7 @@ ht-degree: 98%
       + [엔터프라이즈 배포](installation/using/enterprise-deployment.md)
       + [중간 소싱 배포](installation/using/mid-sourcing-deployment.md)
       + [전원 부스터 및 전원 클러스터](installation/using/power-booster-and-power-cluster.md)
-   + 보안 및 개인 정보 확인 목록 {#security-privacy}
+   + 보안 및 개인 정보 설정 {#security-privacy}
       + [보안 및 개인 정보 보호 시작](installation/using/get-started-security-privacy.md)
       + [개인화 및 개인 정보 보호](installation/using/privacy.md)
       + [보안 액세스 관리](installation/using/access-management.md)
@@ -654,12 +653,13 @@ ht-degree: 98%
       + [주요 단계](installation/using/about-initial-configuration.md)
       + [인스턴스 만들기 및 로그온](installation/using/creating-an-instance-and-logging-on.md)
       + [데이터베이스 만들기 및 구성](installation/using/creating-and-configuring-the-database.md)
-      + [캠페인 서버 구성](installation/using/campaign-server-configuration.md)
       + [인스턴스 배포](installation/using/deploying-an-instance.md)
       + [기본 제공 패키지 설치](installation/using/installing-campaign-standard-packages.md)
    + 캠페인 구성 {#additional-configurations}
-      + [캠페인 서버 설정](installation/using/configuring-campaign-server.md)
+      + [Campaign 서버 구성](installation/using/configuring-campaign-server.md)
       + [보안 영역 정의](installation/using/security-zones.md)
+      + [URL 권한 설정](installation/using/url-permissions.md)
+      + [Tomcat 구성](installation/using/configure-tomcat.md)
       + [기술 이메일 구성](installation/using/email-deliverability.md)
       + [Campaign에서 MX 서버 사용](installation/using/using-mx-servers.md)
       + [이메일 BCC 구성](installation/using/email-archiving.md)
