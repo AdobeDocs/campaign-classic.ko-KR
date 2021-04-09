@@ -6,14 +6,14 @@ description: Adobe Campaign 구성, 모니터링, 업그레이드 프로세스, 
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
 translation-type: tm+mt
-source-git-commit: 0f2986f88f72c191262248029ec620fad538c218
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
-
 
 # 프로덕션 문제 해결{#troubleshooting}
 
