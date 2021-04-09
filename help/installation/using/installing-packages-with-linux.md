@@ -6,14 +6,14 @@ description: Linux를 사용하여 패키지 설치
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
+exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
-
 
 # Linux를 사용하여 패키지 설치{#installing-packages-with-linux}
 
@@ -190,7 +190,7 @@ export neolane_LANG=fra
    export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
    ```
 
-   oracle_HOME 환경 변수의 내용은 Oracle 설치 디렉토리와 일치합니다.
+   oracle_HOME 환경 변수의 내용은 Oracle 설치 디렉터리와 일치합니다.
 
    TNS_ADMIN 변수의 내용은 **tnsnames.ora** 파일의 위치와 일치해야 합니다.
 
@@ -252,9 +252,9 @@ systemctl stop nlserver
 systemctl start nlserver
 ```
 
-### Linux의 oracle 클라이언트 {#oracle-client-in-linux}
+### Linux {#oracle-client-in-linux}의 oracle 클라이언트
 
-Adobe Campaign과 함께 Oracle을 사용하는 경우 Linux에서 Oracle 클라이언트 레이어를 구성해야 합니다.
+Adobe Campaign에서 Oracle을 사용할 때는 Linux에서 Oracle 클라이언트 레이어를 구성해야 합니다.
 
 * 전체 클라이언트 사용
 * TNS 정의
@@ -359,4 +359,4 @@ nlserver stop web
 
 Adobe Campaign 서버는 모든 인스턴스에 대한 모든 권한이 있는 **internal**&#x200B;이라는 기술 로그인을 정의합니다. 설치 후 로그인에 암호가 없습니다. 하나를 반드시 정의해야 합니다.
 
-섹션 [내부 식별자](../../installation/using/campaign-server-configuration.md#internal-identifier)를 참조하십시오.
+[이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)에서 자세히 알아보십시오.
