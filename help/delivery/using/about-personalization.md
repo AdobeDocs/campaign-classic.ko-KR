@@ -6,16 +6,16 @@ description: Adobe Campaign에서 메시지를 개인화하고 조건부 컨텐�
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
+exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
 translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
+source-git-commit: d3ef2783409a3a36badbd3f8248ba1bdf6acae7e
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 40%
 
 ---
 
-
-# 개인화 시작하기{#about-personalization}
+# 개인화 시작{#about-personalization}
 
 Adobe Campaign이 전달하는 메시지는 콘텐츠 또는 메시지 모양을 고려하여 여러 가지 방법으로 개인화할 수 있습니다. 이러한 방법은 특히 수신자 프로필에서 가져온 기준에 따라 결합할 수 있습니다. 이메일 전달의 경우 메시지의 **[!UICONTROL Source]** 탭에서 JavaScript로 직접 전달의 요소와 개인화 조건을 정의할 수 있습니다. 일반적으로 Adobe Campaign을 통해 다음을 수행할 수 있습니다.
 
