@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 translation-type: tm+mt
-source-git-commit: 815648f97d2f5e15c1d5ddc340d384d440d0d6b2
+source-git-commit: 69630f1450241e15d385dc03a3a2b02f6f7c850b
 workflow-type: tm+mt
 source-wordcount: '4304'
 ht-degree: 97%
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
-## 4월 2일°21 {#april-2021}
+## 2021년 4월 {#april-2021}
 
 새로운 섹션에서는 Adobe Experience Platform 소스 및 대상을 사용하여 Campaign Classic 및 Adobe 실시간 고객 데이터 플랫폼(RTCDP) 간에 데이터를 공유하는 방법에 대해 설명합니다. [자세히 알아보기](../../integrations/using/get-started-sources-destinations.md)
 
