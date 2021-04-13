@@ -6,14 +6,14 @@ description: 다른 Adobe 솔루션을 사용하여 다양한 기능을 Campaign
 audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
+exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 326ccbad77f3bd03a8eba22d7714084d52d2f02b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '772'
 ht-degree: 9%
 
 ---
-
 
 # Adobe Campaign 통합 시작 {#about-campaign-integrations}
 
@@ -60,7 +60,7 @@ Adobe Experience Cloud ID 서비스(ID 서비스)는 Experience Cloud의 모든 
  <tbody> 
   <tr> 
    <td> <strong>Adobe 실시간 고객 데이터 플랫폼(RTCDP)</strong><br /> </td> 
-   <td> Adobe Campaign과 Adobe RTCDP(실시간 고객 데이터 플랫폼) 간의 통합을 통해 세그먼트 데이터를 공유하고 Adobe Campaign으로 대상을 가져올 수 있습니다.<br /> <p><a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">캠페인 </a> - 실시간 고객 데이터 플랫폼 통합에 대한 자세한 내용을 살펴보십시오.</p><br /> </td> 
+   <td> Adobe Campaign과 Adobe RTCDP(실시간 고객 데이터 플랫폼) 간의 통합을 통해 세그먼트 데이터를 공유하고 Adobe Campaign으로 대상을 가져올 수 있습니다.<br /> <p><a href="../../integrations/using/get-started-sources-destinations.md">캠페인 </a> - 실시간 고객 데이터 플랫폼 통합에 대한 자세한 내용을 살펴보십시오.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Identity Management 시스템(IMS) - Adobe ID</strong><br /> </td> 
@@ -96,4 +96,3 @@ Adobe Experience Cloud ID 서비스(ID 서비스)는 Experience Cloud의 모든 
   </tr> 
  </tbody> 
 </table>
-
