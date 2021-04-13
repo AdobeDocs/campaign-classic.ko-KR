@@ -8,10 +8,10 @@ role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 translation-type: tm+mt
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+source-git-commit: 815648f97d2f5e15c1d5ddc340d384d440d0d6b2
 workflow-type: tm+mt
-source-wordcount: '4272'
-ht-degree: 96%
+source-wordcount: '4304'
+ht-degree: 97%
 
 ---
 
@@ -21,11 +21,15 @@ ht-degree: 96%
 
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
+## 4월 2일°21 {#april-2021}
+
+새로운 섹션에서는 Adobe Experience Platform 소스 및 대상을 사용하여 Campaign Classic 및 Adobe 실시간 고객 데이터 플랫폼(RTCDP) 간에 데이터를 공유하는 방법에 대해 설명합니다. [자세히 알아보기](../../integrations/using/get-started-sources-destinations.md)
+
 ## 2021년 3월 {#march-2021}
 
 [SMS 시작하기 섹션](../../delivery/using/sms-channel.md)이(가) 재구성되고 개선되었습니다. 이제 전용 섹션에서 [SMS 채널](../../delivery/using/sms-set-up.md), [SMS](../../delivery/using/sms-create.md), [SMS](../../delivery/using/sms-send.md)를 전송하고 추적하는 방법을 배울 수 있습니다.
 
-Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 핵심 문서에 통합되었습니다. [자세한 내용](../../support.md)
+Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 핵심 문서에 통합되었습니다. [자세히 알아보기](../../support.md)
 
 보안 및 개인 정보 보호 작업을 수행하기 위한 모범 사례 및 점검 기능이 새 섹션에 추가되었습니다. [자세한 내용](../../installation/using/get-started-security-privacy.md)
 
@@ -38,9 +42,9 @@ Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 
 * [관련 문서 관리](../../campaign/using/marketing-campaign-assets.md)
 * [승인 프로세스 설정 및 관리](../../campaign/using/marketing-campaign-approval.md)
 
-작업을 종료하고 향후 회수를 방지하기 위해 task.setCompleted() 메서드를 사용하는 방법에 대한 정보가 **[!UICONTROL Advanced JavaScript]** 활동 섹션에 추가되었습니다. [자세한 내용](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
+작업을 종료하고 향후 회수를 방지하기 위해 task.setCompleted() 메서드를 사용하는 방법에 대한 정보가 **[!UICONTROL Advanced JavaScript]** 활동 섹션에 추가되었습니다. [자세히 알아보기](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
-[Delivery](../../delivery/using/about-deliverability.md) 섹션이 업데이트되었으며 이제 새 [Adobe 제공 우수 사례 안내서](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)에 대한 링크가 포함되어 있습니다. 다양한 Adobe 솔루션에 적용될 수 있는 전달 능력과 관련된 모든 일반 정보는 [모범 사례 가이드 부록](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources)로 이동되었습니다.
+[전달성](../../delivery/using/about-deliverability.md) 섹션이 업데이트되었으며 이제 새 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)에 대한 링크를 포함합니다. 다양한 Adobe 솔루션에 적용될 수 있는 전달성과 관련된 모든 일반 정보는 [모범 사례 안내서 부록](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko#additional-resources)으로 이동되었습니다.
 
 ## 2021년 2월 {#release-21.1}
 
