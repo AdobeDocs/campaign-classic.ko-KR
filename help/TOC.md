@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 60ab99d006599edfcb997829ea0c452a2daea219
 workflow-type: tm+mt
-source-wordcount: '2489'
-ht-degree: 97%
+source-wordcount: '2516'
+ht-degree: 96%
 
 ---
 
@@ -394,6 +394,10 @@ ht-degree: 97%
       + [사용자 지정 구현을 위한 이벤트 구성](integrations/using/events.md)
       + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
       + [파이프라인 문제 해결](integrations/using/pipeline-troubleshooting.md)
+   + Adobe Experience Platform 소스 및 대상 {#aep-sources-destinations}
+      + [소스 및 대상 시작하기](integrations/using/get-started-sources-destinations.md)
+      + [Adobe Experience Platform 대상을 Campaign으로 인제스트](integrations/using/ingest-aep-data.md)
+      + [Campaign에서 Adobe Experience Platform으로 데이터 내보내기](integrations/using/export-campaign-data.md)
 + 워크플로우 자동화 {#automating-with-workflows}
    + 워크플로우 시작 {#introduction}
       + [워크플로우 정보](workflow/using/about-workflows.md)
