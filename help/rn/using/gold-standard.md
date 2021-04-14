@@ -8,10 +8,10 @@ role: Business Practitioner
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 translation-type: tm+mt
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+source-git-commit: ac01b3c064209362cc6142a716d2892c27753d76
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 96%
+source-wordcount: '1058'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,14 @@ ht-degree: 96%
 이 페이지에는 [!DNL Gold Standard] 릴리스가 나열됩니다. 이 페이지](gs-overview.md)에서 캠페인 [!DNL Gold Standard] [에 대해 자세히 알아보십시오.
 
 ## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] 11 릴리스{#gs-11}
+
+_2021년 4월 14일_
+
+빌드 9032@d030c36에는 다음 수정 사항이 포함되어 있습니다.
+
+* IMS 연결 화면에서 지속적인 오류 메시지를 발생시킨 클라이언트 콘솔 회귀 문제를 수정했습니다. (NEO-34821)
+
+**콘솔 업그레이드는 필수 사항입니다. 서버를 업그레이드할 필요가 없습니다.**
 
 _2021년 3월 2일_
 
