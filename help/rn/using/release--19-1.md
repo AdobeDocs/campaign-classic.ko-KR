@@ -6,36 +6,46 @@ description: Campaign 19.1에 대한 릴리스 노트
 feature: null
 role: null
 level: null
+exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
 translation-type: tm+mt
-source-git-commit: 631e7a0f89a365626401a6157ef84442fa0fd59f
+source-git-commit: 5271a23f7d815d432cfec00c57555c18be1fd3c7
 workflow-type: tm+mt
-source-wordcount: '3198'
-ht-degree: 20%
+source-wordcount: '3256'
+ht-degree: 25%
 
 ---
-
 
 # 릴리스 19.1{#release-19-1}
 
 ## ![](assets/do-not-localize/limited_2.png) 릴리스 19.1.8 - 빌드 9039 {#release-19-1-8-build-9039}
 
-_2021년 3월 22일_
+_2021년 4월 15일_
 
-* 게시의 날짜 선택기 및 이미지 관리와 같이 콘솔의 일부 구성 요소를 사용할 수 없는 회귀 문제를 해결했습니다. (NEO-31453, NEO-31454)
+* IMS 연결 화면에서 지속적인 오류 메시지를 발생시킨 클라이언트 콘솔 회귀 문제를 수정했습니다. (NEO-34821)
 
 **콘솔 업그레이드는 필수 사항입니다. 서버를 업그레이드할 필요가 없습니다.**
 
 >[!NOTE]
 >
-> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하여 새 버전을 다운로드합니다. 이 페이지](../../installation/using/client-console-availability-for-windows.md)에서 모든 최종 사용자 [에게 콘솔 업데이트를 제안하는 방법에 대해 알아봅니다.
+> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하여 새 버전을 다운로드합니다. [이 페이지에서](../../installation/using/client-console-availability-for-windows.md) 모든 최종 사용자에게 콘솔 업데이트를 제안하는 방법을 알아봅니다.
+
+_2021년 3월 22일_
+
+* 게재의 날짜 선택 및 이미지 관리와 같이 콘솔의 일부 구성 요소를 사용할 수 없는 회귀 문제를 해결했습니다. (NEO-31453, NEO-31454)
+
+**콘솔 업그레이드는 필수 사항입니다. 서버를 업그레이드할 필요가 없습니다.**
+
+>[!NOTE]
+>
+> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하여 새 버전을 다운로드합니다. [이 페이지에서](../../installation/using/client-console-availability-for-windows.md) 모든 최종 사용자에게 콘솔 업데이트를 제안하는 방법을 알아봅니다.
 
 _2020년 12월 16일_
 
 >[!CAUTION]
 >
-> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다.IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우, 2021년 6월 30일 이후 캠페인 서버와 클라이언트 콘솔 모두에서 캠페인에 연결할 수 있으려면 업그레이드가 필요합니다&#x200B;**.**
+> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다.
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 이 페이지](../../integrations/using/configuring-adobe-io.md)에서 설명한 대로 Adobe I/O으로 이동해야 합니다. [ 캠페인이 포함된 레거시 인증 모드는 **2021년 11월 30일에 종료됩니다**.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. 캠페인이 포함된 레거시 OAuth 인증 모드는 **2021년 11월 30일**&#x200B;에 종료됩니다.
 
 
 
@@ -205,16 +215,16 @@ _2019년 5월 30일_
 
 **보안, 견고함 및 확장성 향상**
 
-* 수명 - XtkNewId 시퀀스 사용 최적화:가장 많이 사용하는 테이블이 xtkNewId 시퀀스에서 전용 시퀀스로 이동되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* 수명 - XtkNewId 시퀀스 사용 최적화:가장 많이 사용하는 테이블이 xtkNewId 시퀀스에서 전용 시퀀스로 이동되었습니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * HTTP v2를 사용한 FDA:HTTP를 통한 FDA 프로토콜은 Hybrid 배포, 특히 광범위한 로그 검색 및 전달 준비에 널리 사용됩니다. 데이터 검색 또는 푸시 시 네트워크 문제와 가능한 오류를 방지하기 위해 견고성이 향상되었습니다. 이렇게 하려면 연결의 양쪽 끝에 있는 빌드가 최신 상태여야 하며 그렇지 않으면 이전 프로토콜은 계속 사용됩니다.
 * 추적 워크플로우:추적 워크플로우 견고성이 향상되었습니다. 추적 로그 삽입/업데이트 및 URL 추적 사용자 지정과 관련된 몇 가지 문제가 수정되었습니다. 또한 이제 추적 워크플로우에서 오류가 발생하고 작업 흐름을 중지할 수 있는 추적 로그 문제를 감지합니다. 이제 이러한 문제는 삭제되고 처리되지 않습니다.
 * 정리 워크플로:잠재적인 오류 및 중지를 피하기 위해 정리 워크플로우가 개선되었습니다. 데이터베이스 크기 및 성능을 최적화합니다.
 * 트랜잭션 메시지에 포함된 이미지:가능한 충돌 또는 누락된 이미지를 방지하기 위해 트랜잭션 메시지에 포함된 이미지에 대한 완벽한 지원을 추가했습니다.
 * 데이터베이스 크기 - XtkJobLog:이 테이블에 제거 메커니즘이 추가되었습니다. 이는 데이터베이스 크기에 긍정적인 영향을 줍니다.
-* 숨은 참조 보관:BCC 보관에 대한 기본 매개 변수가 보관 속도를 높이도록 변경되었습니다. [자세한 내용](../../installation/using/email-archiving.md#parameters)
+* 숨은 참조 보관:BCC 보관에 대한 기본 매개 변수가 보관 속도를 높이도록 변경되었습니다. [자세히 알아보기](../../installation/using/email-archiving.md#parameters)
 * 데이터베이스 구조 업데이트:데이터베이스 구조 업데이트 마법사로 생성된 SQL 요청이 더 빨리 실행되도록 개선되었습니다.
 * 연산자 작업에 대한 보증:운영자가 플랫폼의 무결성에 영향을 미칠 수 있는 작업을 수행하지 못하도록 몇 가지 보증인이 구현되었습니다. 내장 스키마는 더 이상 인터페이스를 통해 삭제할 수 없습니다. 또한 워크플로우 소스 XML은 관리자가 아닌 사용자가 더 이상 편집할 수 없습니다.
-* 2개의 새로운 옵션을 사용할 수 있습니다.**XtkSecurity_Restrict_EditXML**(전달 버전의 XML 코드를 사용하지 않도록 설정할 수 있음) 및 **NmsOperation_OperationMgtDebug**(작업을 모니터링할 수 있음)(기술 작업 흐름 실행을 모니터링할 수 있음) [자세한 내용](../../installation/using/configuring-campaign-options.md)
+* 2개의 새로운 옵션을 사용할 수 있습니다.**XtkSecurity_Restrict_EditXML**(전달 버전의 XML 코드를 사용하지 않도록 설정할 수 있음) 및 **NmsOperation_OperationMgtDebug**(작업을 모니터링할 수 있음)(기술 작업 흐름 실행을 모니터링할 수 있음) [자세히 알아보기](../../installation/using/configuring-campaign-options.md)
 
 **기타 변경 사항**
 
@@ -226,7 +236,7 @@ _2019년 5월 30일_
 * 이제 Analytics 통합에서 % 문자가 있는 AAM 세그먼트 데이터를 검색할 수 있습니다. (NEO-12025)
 * 누락된 데이터 문제를 해결하기 위해 워크플로우 히트맵의 10,000개 레코드 제한을 제거했습니다. (NEO-12329)
 * Open Office는 지원되지 않으며 이제 애플리케이션에서 완전히 제거됩니다. 계속 사용하고 있다면 19.1부터는 더 이상 작동하지 않을 것이므로 Libre Office로 이동하십시오.
-* 이제 sysfilter 속성을 사용하여 워크플로의 데이터 활동 업데이트에 대한 쓰기 액세스를 제한할 수 있습니다. [자세한 내용](../../configuration/using/filtering-schemas.md)
+* 이제 sysfilter 속성을 사용하여 워크플로의 데이터 활동 업데이트에 대한 쓰기 액세스를 제한할 수 있습니다. [자세히 알아보기](../../configuration/using/filtering-schemas.md)
 
 **패치**
 
