@@ -8,10 +8,10 @@ role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 translation-type: tm+mt
-source-git-commit: 6c893f52b01629f8b4fa510d35ccedcd33a329fb
+source-git-commit: abd5c7430c3f7a1a056a014ad46a0b94157e259f
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 98%
+source-wordcount: '921'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,14 @@ ht-degree: 98%
 >
 >캠페인 **GA(일반 가용성) 빌드는**&#x200B;입니다.[[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [캠페인 20.2.5 릴리스](../../rn/using/release--20-2.md).
 
-## ![](assets/do-not-localize/blue_2.png) 릴리스 21.1.1 - 빌드 9277 {#release-21-1-1-build-9277}
+## ![](assets/do-not-localize/blue_2.png) 릴리스 21.1.2 - 빌드 9282 {#release-21-1-2-build-9282}
+
+_2021년 4월 15일_
+
+* 보안을 최적화하기 위해 암호 관리가 향상되었습니다.
+* MTA 충돌을 발생시킬 수 있는 문제를 수정했습니다.
+
+## ![](assets/do-not-localize/red_2.png) 릴리스 21.1.1 - 빌드 9277 {#release-21-1-1-build-9277}
 
 _2021년 2월 22일_
 
