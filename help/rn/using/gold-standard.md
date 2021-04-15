@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 translation-type: tm+mt
-source-git-commit: ac01b3c064209362cc6142a716d2892c27753d76
+source-git-commit: 113a3535cd197f9b654fc1e50e20886e76ee886a
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 94%
@@ -40,7 +40,6 @@ _2021년 3월 2일_
 >[!NOTE]
 >
 > [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하여 새 버전을 다운로드합니다. [이 페이지에서](../../installation/using/client-console-availability-for-windows.md) 모든 최종 사용자에게 콘솔 업데이트를 제안하는 방법을 알아봅니다.
-
 
 _2020년 12월 22일_
 
