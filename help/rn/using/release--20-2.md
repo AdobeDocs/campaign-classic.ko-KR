@@ -8,16 +8,26 @@ role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 1c59afc7021af604559184cd0c21129af3759a8c
 workflow-type: tm+mt
-source-wordcount: '2830'
-ht-degree: 88%
+source-wordcount: '2970'
+ht-degree: 87%
 
 ---
 
 # 릴리스 20.2{#release-20-2}
 
 ## ![](assets/do-not-localize/green_2.png) 릴리스 20.2.5 - 빌드 9188 {#release-20-2-5-build-9188}
+
+_2021년 4월 15일_
+
+* IMS 연결 화면에서 지속적인 오류 메시지를 발생시킨 클라이언트 콘솔 회귀 문제를 수정했습니다. (NEO-34821)
+
+**콘솔 업그레이드는 필수 사항입니다. 서버를 업그레이드할 필요가 없습니다.**
+
+>[!NOTE]
+>
+> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하여 새 버전을 다운로드합니다. [이 페이지에서](../../installation/using/client-console-availability-for-windows.md) 모든 최종 사용자에게 콘솔 업데이트를 제안하는 방법을 알아봅니다.
 
 _2021년 3월 31일_
 
@@ -37,6 +47,17 @@ _2021년 3월 31일_
 * 게재의 날짜 선택 및 이미지 관리와 같이 콘솔의 일부 구성 요소를 사용할 수 없는 회귀 문제를 해결했습니다. (NEO-31453)
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 20.2.4 - 빌드 9187 {#release-20-2-4-build-9187}
+
+_2021년 4월 15일_
+
+* IMS 연결 화면에서 지속적인 오류 메시지를 발생시킨 클라이언트 콘솔 회귀 문제를 수정했습니다. (NEO-34821)
+* 게재의 날짜 선택 및 이미지 관리와 같이 콘솔의 일부 구성 요소를 사용할 수 없는 회귀 문제를 해결했습니다. (NEO-31453, NEO-31454)
+
+**콘솔 업그레이드는 필수 사항입니다. 서버를 업그레이드할 필요가 없습니다.**
+
+>[!NOTE]
+>
+> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하여 새 버전을 다운로드합니다. [이 페이지에서](../../installation/using/client-console-availability-for-windows.md) 모든 최종 사용자에게 콘솔 업데이트를 제안하는 방법을 알아봅니다.
 
 _2020년 12월 22일_
 
