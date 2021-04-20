@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign 작업 영역
 description: 캠페인 작업 영역을 사용하고 사용자 지정하는 방법 학습
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13

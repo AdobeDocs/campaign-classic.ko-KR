@@ -6,9 +6,9 @@ description: Campaign 18.6에 대한 릴리스 노트
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
-feature: 개요
-role: 비즈니스 전문가
-level: 초급
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 설명서 업데이트
 description: 이 페이지에는 Adobe Campaign Classic 설명서의 모든 새로운 기능과 업데이트가 있습니다.
-feature: 개요
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91

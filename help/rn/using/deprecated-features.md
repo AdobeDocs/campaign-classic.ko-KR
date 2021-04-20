@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Campaign Classic deprecated and removed features
 description: 이 페이지에는 Adobe Campaign Classic의 사용이 중단되었거나 제거된 기능이 있습니다.
-feature: 개요
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645

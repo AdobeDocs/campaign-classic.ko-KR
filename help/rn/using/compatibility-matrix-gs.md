@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: 캠페인 [!DNL Gold Standard]에 대한 호환성 표
 description: ' [!DNL Gold Standard] 릴리스에 대한 Campaign Classic 호환성 표'
-feature: 개요
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c

@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Analytics 데이터 커넥터
 description: Adobe Analytics 데이터 커넥터
-feature: 개요
-role: 비즈니스 전문가, 관리자
-level: 초급
+feature: Overview
+role: Business Practitioner, Administrator
+level: Beginner
 translation-type: tm+mt
 source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 정보
 description: 주요 기능, 사용자 인터페이스 및 글로벌 지침을 살펴보십시오.
-feature: 개요
-role: 비즈니스 전문가
-level: 초급
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt

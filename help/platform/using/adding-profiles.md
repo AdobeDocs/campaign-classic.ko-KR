@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: 프로필 추가
 description: 프로필 추가
-feature: 프로필
-role: 비즈니스 전문가
-level: 초급
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt

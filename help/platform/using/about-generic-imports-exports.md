@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: 일반 가져오기 및 내보내기 정보
 description: 일반 가져오기 및 내보내기에 대해 자세히 알아보십시오.
-feature: 개요
-role: 비즈니스 전문가, 데이터 아키텍트
-level: 초급
+feature: Overview
+role: Business Practitioner, Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt

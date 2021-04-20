@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: 업그레이드 시작
 description: Campaign Classic 업그레이드에 대한 자세한 내용
-feature: 개요
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499

@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: 릴리스 20.1
 description: 릴리스 20.1
-feature: 개요
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725

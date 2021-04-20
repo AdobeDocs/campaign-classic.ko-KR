@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Campaign의 쿼리 기본 정보
 description: Campaign의 쿼리 기본 정보
-feature: 쿼리 편집기
-role: 비즈니스 전문가, 데이터 아키텍트
-level: 초급
+feature: Query Editor
+role: Business Practitioner, Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt

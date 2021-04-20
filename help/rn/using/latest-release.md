@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: 최신 릴리스
 description: 최신 Campaign Classic 릴리스 정보
-feature: 개요
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c

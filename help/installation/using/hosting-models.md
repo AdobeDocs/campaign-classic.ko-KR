@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: 호스팅 모델
 description: Discover 캠페인 호스팅 모델
-feature: 개요
-role: 건축가
-level: 초급
+feature: Overview
+role: Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 09bd634142f643206c38ac5f881302a5d489ecaf
 workflow-type: tm+mt

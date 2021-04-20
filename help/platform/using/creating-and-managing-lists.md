@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: 목록 만들기 및 관리
 description: 목록 만들기 및 관리 방법 알아보기
-feature: 프로필
-role: 비즈니스 전문가
-level: 초급
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: 캠페인 폴더에 대한 액세스 관리
 description: 캠페인 폴더에 대한 액세스 권한을 부여하고 보기를 만드는 방법을 알아봅니다.
-feature: 응용 프로그램 설정
-role: 비즈니스 전문가, 관리자
-level: 초급
+feature: Application Settings
+role: Business Practitioner, Administrator
+level: Beginner
 translation-type: tm+mt
 source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
