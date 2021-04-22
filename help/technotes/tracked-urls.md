@@ -6,9 +6,9 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 5b552afa784b479853335daf13eb02e5e069eb4d
+source-git-commit: f47b0ecfd3e35d15a78779fd9f38cc93c798d5d2
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '336'
 ht-degree: 6%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 6%
 
 환경이 아래 나열된 버전 중 하나에서 실행되고 있는 경우, 영향을 받을 수 있습니다.
 
-* Gold Standard 7~11. [자세히 알아보기](../rn/using/gold-standard.md)
-* 캠페인 21.1.1 및 21.1.2 릴리스. [자세히 알아보기](../rn/using/latest-release.md)
+* Gold Standard 7 - 11. [자세히 알아보기](../rn/using/gold-standard.md)
+* 캠페인 21.1.1 - 21.1.2 릴리스. [자세히 알아보기](../rn/using/latest-release.md)
 * 캠페인 20.3.1 - 20.3.3 릴리스. [자세히 알아보기](../rn/using/release--20-3.md)
 * 캠페인 20.2.1 - 20.2.3 릴리스. [자세히 알아보기](../rn/using/release--20-2.md)
 * 캠페인 20.1.1 - 21.1.3 릴리스. [자세히 알아보기](../rn/using/release--20-1.md)
