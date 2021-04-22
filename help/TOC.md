@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 60ab99d006599edfcb997829ea0c452a2daea219
+source-git-commit: b741b10fd1d3a94a3e6c71e95ff43cc0ee54ebc7
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 96%
+source-wordcount: '2519'
+ht-degree: 97%
 
 ---
 
@@ -42,6 +42,7 @@ ht-degree: 96%
    + [테크노트](technotes/technote.md)
    + [iOS 인증서 업데이트](technotes/ios-certificate-update.md)
    + [Campaign 구성 업데이트](technotes/acc-config-updates.md)
+   + [추적된 URL 업데이트](technotes/tracked-urls.md)
 + 시작 {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic 시작](platform/using/about-adobe-campaign-classic.md)
@@ -396,7 +397,7 @@ ht-degree: 96%
       + [파이프라인 문제 해결](integrations/using/pipeline-troubleshooting.md)
    + Adobe Experience Platform 소스 및 대상 {#aep-sources-destinations}
       + [소스 및 대상 시작하기](integrations/using/get-started-sources-destinations.md)
-      + [Adobe Experience Platform 대상을 Campaign으로 인제스트](integrations/using/ingest-aep-data.md)
+      + [Adobe Experience Platform 대상자를 Campaign으로 수집](integrations/using/ingest-aep-data.md)
       + [Campaign에서 Adobe Experience Platform으로 데이터 내보내기](integrations/using/export-campaign-data.md)
 + 워크플로우 자동화 {#automating-with-workflows}
    + 워크플로우 시작 {#introduction}
