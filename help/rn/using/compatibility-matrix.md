@@ -3,15 +3,15 @@ solution: Campaign Classic
 product: campaign
 title: Campaign Classic용 호환성 매트릭스
 description: Campaign Classic 호환성 매트릭스
-feature: Overview
+feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 이 문서는 **Adobe Campaign Classic**&#x200B;의 [최신 빌드](../../rn/using/latest-release.md)에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
 
-[!DNL Gold Standard] 사용자는 [[!DNL Gold Standard] 호환성 매트릭스](../../rn/using/compatibility-matrix-gs.md)를 참조하십시오.
+[!DNL Gold Standard]사용자인 경우 [[!DNL Gold Standard] 호환성 매트릭스](../../rn/using/compatibility-matrix-gs.md)를 참조하십시오.
 
 ## 중요 정보{#important-notes}
 
@@ -154,7 +154,7 @@ ht-degree: 98%
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016년</p>
+<p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p>경고: Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">자세히 알아보기</a></p>
@@ -221,10 +221,10 @@ ht-degree: 98%
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019년</p>
-<p>2017년</p>
-<p>2016년</p>
-<p>2014년</p>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 </tr>
@@ -282,8 +282,8 @@ ht-degree: 98%
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2016년</p>
-<p>2012년</p>
+<p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>
