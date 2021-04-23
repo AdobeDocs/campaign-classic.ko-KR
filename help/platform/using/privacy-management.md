@@ -2,18 +2,18 @@
 solution: Campaign Classic
 product: campaign
 title: 개인 정보 관리
-description: 개인 정보 관리에 대한 자세한 내용
+description: 개인 정보 관리에 대해 자세히 알아보기
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: c86b2d377c66e79cf4f10053f588796b95e6877e
-workflow-type: tm+mt
+exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
-
 
 # 개인 정보 관리 {#privacy-management}
 
@@ -82,7 +82,7 @@ Adobe Campaign은 최신 **액세스 권한** 및 **잊혀질 권리** 기능 �
 
 동의 관리에 대한 자세한 내용은 [자세한 설명서](../../delivery/using/managing-subscriptions.md)를 참조하십시오.
 
-Adobe Campaign이 제공하는 동의 관리 도구 외에도, 개인 정보 판매를 고객이 옵트아웃했는지 여부를 추적할 수 있습니다. [이 섹션](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa)을 참조하십시오.
+Adobe Campaign이 제공하는 동의 관리 도구 외에도, 소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다. [이 섹션](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa)을 참조하십시오.
 
 ### 데이터 유지 {#data-retention}
 
@@ -90,17 +90,17 @@ Adobe Campaign이 제공하는 동의 관리 도구 외에도, 개인 정보 판
 
 기본 제공 테이블에 대한 기본 보존 값은 다음과 같습니다. 보존 구성은 구현 중에 Adobe 기술 관리자가 설정하며 고객 요구 사항에 따라 각 구현마다 값이 달라질 수 있습니다.
 
-* **통합 추적**:1년
+* **통합 추적**: 1년
 * **게재 로그**: 6개월
-* **추적 로그**:1년
-* **삭제된 배달**:1주
-* **가져오기 거부**:6개월
-* **방문자 프로필**:1개월
-* **제안**:1년
+* **추적 로그**: 1년
+* **삭제된 게재**: 1주
+* **가져오기 거부**: 6개월
+* **방문자 프로필**: 1개월
+* **오퍼 제안**: 1년
 * **이벤트**: 1개월
-* **이벤트 처리** 통계:1년
-* **보관된 이벤트**:1년
-* **파이프라인 이벤트 무시**:1개월
+* **이벤트 처리 통계**: 1개월
+* **보관된 이벤트**: 1년
+* **파이프라인 이벤트 무시**: 1개월
 
 또한 삭제와 유사하게 표준 워크플로우 기능을 사용하여 모든 사용자 지정 테이블에 대해 보존 기간을 설정할 수 있습니다.
 
