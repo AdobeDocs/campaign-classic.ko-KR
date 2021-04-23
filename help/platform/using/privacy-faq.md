@@ -2,18 +2,18 @@
 solution: Campaign Classic
 product: campaign
 title: 개인 정보 및 동의
-description: 개인 정보 및 동의에 대한 자세한 내용
+description: 개인 정보 및 동의에 대한 자세히 알아보기
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # 개인 정보 FAQ {#privacy-faq}
 
@@ -74,7 +74,7 @@ Adobe는 법률적 조언을 제공하지 않습니다. 따라서 사용자가 �
 
 계속 데이터를 사용할 수 있도록 특정 동의를 새로 고쳐야 하는 인스턴스가 있을 수 있습니다.
 
-마케터는 이러한 향상된 동의 요구 사항을 고객 만족도와 신뢰도에 대한 정확한 지표로 수용해야 합니다.
+마케터는 이러한 향상된 동의 요구 사항을 브랜드 참여, 충성도, 고객 만족도 및 신뢰도에 대한 정확한 지표로 수용해야 합니다.
 
 ## 동의 관리 {#manage-consent}
 
