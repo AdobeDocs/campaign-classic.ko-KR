@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 캠페인 [!DNL Gold Standard]에 대한 호환성 표
-description: ' [!DNL Gold Standard] 릴리스에 대한 Campaign Classic 호환성 표'
-feature: Overview
+title: Campaign용 호환성 매트릭스 [!DNL Gold Standard]
+description: ' [!DNL Gold Standard] 릴리스용 Campaign Classic 호환성 매트릭스'
+feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # [!DNL Gold Standard] 호환성 매트릭스{#compatibility-matrix-gs}
 
-이 문서에서는 **Adobe Campaign Classic[!DNL Gold Standard]** 19.1 빌드에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign 버전과 호환되지 않습니다.
+이 문서에서는 **Adobe Campaign Classic[!DNL Gold Standard]** 19.1 빌드에 대해 지원되는 모든 시스템 및 구성 요소가 나와 있습니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign 버전과 호환되지 않습니다.
 
 ## 중요 정보{#important-notes-gs}
 
@@ -141,7 +141,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016년</p>
+<p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p>경고: Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">자세히 알아보기</a></p>
@@ -221,10 +221,10 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019년</p>
-<p>2017년</p>
-<p>2016년</p>
-<p>2014년</p>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 </tr>
@@ -277,8 +277,8 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2016년</p>
-<p>2012년</p>
+<p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>
