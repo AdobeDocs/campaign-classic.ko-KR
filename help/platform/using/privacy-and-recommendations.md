@@ -2,18 +2,18 @@
 solution: Campaign Classic
 product: campaign
 title: 개인 정보 및 동의
-description: 개인 정보 및 동의에 대한 자세한 내용
+description: 개인 정보 및 동의에 대한 자세히 알아보기
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 660b9ad4351fe611d99962f2b163858b1f70bc84
-workflow-type: tm+mt
+exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2038'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
-
 
 # 개인 정보 및 동의{#privacy-and-recommendations}
 
@@ -36,11 +36,11 @@ Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양�
 * [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (상업용 이메일에 관한 규정 및 요구 사항에 설정된 미국 법)
 * [CPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (California Consumer Privacy Act)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Thailand Personal Data Protection Act)
-* [LGPD](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf) (브라질 일반 데이터 보호 법률) - 2020년 8월 16일부터 유효
+* [LGPD](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)(브라질 일반 데이터 보호 법률) - 2020년 8월 16일부터 유효
 
 >[!NOTE]
 >
->GDPR, CPA, PDPA 및 LGPD가 Adobe Campaign에 적용되는 방법에 대한 자세한 내용은 [이 페이지](../../platform/using/privacy-management.md#privacy-management-regulations)을 참조하십시오.
+>GDPR, CCPA, PDPA 및 LGPD가 Adobe Campaign에 적용되는 방법에 대한 자세한 내용은 [이 페이지](../../platform/using/privacy-management.md#privacy-management-regulations)를 참조하십시오.
 
 ### Adobe Experience Cloud 개인 정보 보호 {#experience-cloud-privacy}
 
@@ -52,7 +52,7 @@ Adobe Campaign은 Adobe Experience Cloud 솔루션의 일부입니다. Campaign�
 
    >[!NOTE]
    >
-   >모든 Adobe 제품에 대해 Campaign은 앱 및 웹 사이트 사용자에 대한 정보를 수집합니다. 자세한 내용은 [Adobe 개인 정보 보호 정책](https://www.adobe.com/privacy/policy.html)을 참조하십시오.
+   >모든 Adobe 제품에 대해 Campaign은 앱 및 웹 사이트 사용자에 대한 정보를 수집합니다. 자세한 내용은 [Adobe 개인 정보 보호 정책](https://www.adobe.com/kr/privacy/policy.html)을 참조하십시오.
 
 * **Adobe Experience Cloud을 정보를 수집하는 데 사용하는 방법**
 
@@ -68,9 +68,9 @@ Adobe Campaign은 Adobe Experience Cloud 솔루션의 일부입니다. Campaign�
 
    >[!NOTE]
    >
-   >모든 Adobe 제품에서 Campaign 사용자는 앱 및 웹 사이트를 통해 수집된 정보의 공유를 옵트아웃할 수 있습니다. 자세한 내용은 [Adobe Experience Cloud 사용 정보 FAQ](https://www.adobe.com/privacy/experience-cloud-usage-info-faq.html)를 참조하십시오.
+   >모든 Adobe 제품에서 Campaign 사용자는 앱 및 웹 사이트를 통해 수집된 정보의 공유를 옵트아웃할 수 있습니다. 자세한 내용은 [Adobe Experience Cloud 사용 정보 FAQ](https://www.adobe.com/kr/privacy/experience-cloud-usage-info-faq.html)를 참조하십시오.
 
-Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 페이지](https://www.adobe.com/privacy/marketing-cloud.html)를 참조하십시오.
+Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 페이지](https://www.adobe.com/kr/privacy/marketing-cloud.html)를 참조하십시오.
 
 ## 개인 데이터 및 가상 사용자 {#personal-data}
 
@@ -78,7 +78,7 @@ Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 �
 * **개인 데이터**&#x200B;는 살아있는 개인을 직접 또는 간접적으로 식별할 수 있는 정보입니다.
 * **중요한 개인 데이터**&#x200B;는 노동조합 멤버십뿐 아니라 개인의 인종, 정치적 관점, 종교적 신념, 범죄 기록, 유전자 정보, 건강 정보, 성적 선호도, 생체 인식 정보 등과 관련된 정보입니다.
 
-[Adobe Analytics](../../platform/using/adobe-analytics-data-connector.md), [Audience Manager 또는 사용자 핵심 서비스](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md) 또는 [CRM 커넥터](../../platform/using/crm-connectors.md)를 통해 다른 솔루션과 함께 대상을 다른 시스템으로 전송할 수 있는 다른 Experience Cloud 솔루션과 Campaign을 통합하는 경우, 개인 데이터 보호에 특별히 주의해야 합니다.
+[Adobe Analytic](../../platform/using/adobe-analytics-data-connector.md), [Audience Manager나 People 핵심 서비스](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md) 또는 [CRM Connector](../../platform/using/crm-connectors.md)를 통하는 기타 솔루션과 같이 대상을 다른 시스템으로 전송할 수 있는 기타 Experience Cloud 솔루션을 Campaign과 통합하면 개인 데이터 보호를 위해 추가 비용을 지불해야 합니다.
 
 [기본 규정](#privacy-regulations)은 다음과 같이 데이터를 관리하는 서로 다른 엔터티를 의미합니다.
 * **데이터 컨트롤러**&#x200B;는 개인 데이터를 수집, 사용 및 공유하는 방법과 목적을 결정하는 인증 기관입니다.
@@ -117,8 +117,8 @@ Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 �
 
 Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다.
 
-* 항상 수신자가 커뮤니케이션 수신에 동의하도록 합니다. 이를 위해서는 옵트아웃 요청을 최대한 빨리 준수하고 이중 옵트인 프로세스를 통해 동의를 확인하십시오. 자세한 내용은 [이중 옵트인](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in)을(를) 사용하여 구독 양식 만들기를 참조하십시오.
-* 사기 목록을 가져오고 시드 주소를 사용하여 클라이언트 파일이 잘못 사용되고 있는지 확인하십시오. 자세한 내용은 [시드 주소 ](../../delivery/using/about-seed-addresses.md)를 참조하십시오.
+* 항상 수신자가 커뮤니케이션 수신에 동의하도록 합니다. 이를 위해서는 옵트아웃 요청을 최대한 빨리 준수하고 이중 옵트인 프로세스를 통해 동의를 확인하십시오. 자세한 내용은 [이중 옵트인](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in)을 사용하여 구독 양식 만들기를 참조하십시오.
+* 사기성 목록을 가져와서 시드 주소로 사용하여 클라이언트 파일이 부정하게 사용되지 않고 있는지 확인하지 마십시오. 자세한 내용은 [시드 주소 정보](../../delivery/using/about-seed-addresses.md)를 참조하십시오.
 * 동의 및 권한 관리를 통해 수신자의 환경 설정을 추적할 수 있을 뿐만 아니라 조직 내에서 누가 어떤 데이터에 액세스할 수 있는지를 관리할 수 있습니다. 자세한 내용은 [이 섹션](#consent)을 참조하십시오.
 * 수신자의 개인 정보 보호 요청을 간편하게 지원하고 관리할 수 있습니다. 자세한 내용은 [이 섹션](#privacy-requests)을 참조하십시오.
 
@@ -131,7 +131,7 @@ Adobe Campaign은 개인 정보 관리를 위한 다양한 기능을 제공합�
 * 개인 정보 보호 요청(액세스 권한 및 잊혀질 권리). [이 섹션](#privacy-requests)을 참조하십시오.
 * 개인 정보 판매 옵트아웃 (CCPA-특정). [이 섹션](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa)을 참조하십시오.
 
-Campaign의 주요 개인 정보 보호 기능과 관련된 개인의 예가 [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-faq.html?lang=ko#getting-started)에 나와 있습니다.
+Campaign의 주요 개인 정보 보호 기능과 관련된 개인의 예가 [이 섹션](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)에 나와 있습니다.
 
 ### 동의, 보존 및 역할 {#consent}
 
@@ -159,29 +159,29 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 ### 쿠키 {#cookies}
 
-추적 기능 덕분에 Adobe Campaign을 사용하면 3가지 유형의 쿠키를 사용하여 배달 받는 사람의 검색을 추적할 수 있습니다.세션 쿠키와 2개의 영구 쿠키.
+추적 기능 덕분에 Adobe Campaign을 사용하면 3가지 유형의 쿠키를 사용하여 전달받는 사람의 검색을 추적할 수 있습니다.
 
-* **세션** 쿠키:**nlid** 쿠키에는 연락처(**broadlogId**)로 보낸 이메일의 ID와 메시지 템플릿(**deliveryId**)의 ID가 포함되어 있습니다. 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
+* **session** 쿠키: **nlid** 쿠키에는 연락처로 보낸 전자 메일의 식별자&#x200B;**broadlogId**)와 메시지 템플릿의 식별자(**deliveryId**)가 포함됩니다. 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
 
 * **영구** 쿠키 2개:
-   * Adobe Experience Cloud 솔루션 간에 **UUID**(유니버설 고유 IDentifier) 쿠키가 공유됩니다. 새 값이 생성될 때 클라이언트 브라우저에서 사라질 때까지 한 번 설정됩니다. 이 쿠키를 사용하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 랜딩 페이지(알 수 없는 고객 활동을 수신자에게 연결)나 배송을 통해 보관할 수 있습니다. 이 쿠키의 설명은 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=en#ec-cookies)에서 사용할 수 있습니다.
-   * **nllastdelid** 쿠키(Campaign Classic 20.3에서 도입됨)는 사용자가 링크를 클릭한 마지막 배달의 **deliveryId**&#x200B;가 포함된 영구 쿠키입니다. 이 쿠키는 세션 쿠키가 없을 때 사용될 추적 테이블을 식별하기 위해 사용됩니다.
+   * Adobe Experience Cloud 솔루션 간에 **UUID**(Universal Unique IDentifier) 쿠키가 공유됩니다. 새 값이 생성될 때 클라이언트 브라우저에서 사라질 때까지 한 번 설정됩니다. 이 쿠키를 사용하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 랜딩 페이지(알 수 없는 고객 활동을 수신자에게 연결)나 게재를 통해 보관할 수 있습니다. 이 쿠키의 설명은 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=kr#ec-cookies)에서 사용할 수 있습니다.
+   * **nllastdelid** 쿠키(Campaign Classic 20.3에서 도입됨)는 사용자가 링크를 클릭한 마지막 게재의 **deliveryId**&#x200B;가 포함된 영구 쿠키입니다. 이 쿠키는 세션 쿠키가 없을 때 사용될 추적 테이블을 식별하기 위해 사용됩니다.
 
-GDPR(General Data Protection Regulation)과 같은 규정에서는 회사가 쿠키를 설치하기 전에 웹 사이트 사용자의 계약을 요구하는 것을 명시합니다.
+GDPR(일반 데이터 보호 규정)과 같은 규정에서는 회사가 쿠키를 설치하기 전에 웹 사이트 사용자의 계약을 요구하는 것을 명시합니다.
 
-* 쿠키의 사용을 승인하는 확인란을 사용하여 사이트에 쿠키의 사용을 승인하거나 랜딩된 첫 번째 페이지의 상단에 배너를 추가하는 권한 요청을 통해(예: 페이지에 위로 올라오기) 웹 추적 도구가 설치되어 있음을 사용자에게 알려야 합니다.
+* 쿠키의 설치를 승인하는 확인란이 포함된 권한 부여 요청(예: 페이지 위로 올라오는 요청)을 통해 사이트가 웹 추적 도구를 갖추고 있음을 사용자에게 알리거나, 첫 번째 랜딩 페이지 등에 배너를 추가해야 합니다.
 * 팝업 창은 브라우저에 의해 종종 차단되므로 사용하지 않아야 합니다.
 
 ### 메시지 추적 {#message-tracking}
 
-Adobe Campaign을 사용하면 보낸 이메일과 배달 받는 사람의 동작을 추적할 수 있습니다.열기, 링크 클릭, 구독 취소 등. 자세한 내용은 [메시지 추적 정보](../../delivery/using/about-message-tracking.md)를 참조하십시오.
+Adobe Campaign을 사용하면 보낸 이메일과 전달받는 사람의 동작(열기, 링크 클릭, 구독 취소 등)을 추적할 수 있습니다. 자세한 내용은 [메시지 추적 정보](../../delivery/using/about-message-tracking.md)를 참조하십시오.
 
-이렇게 하려면 배달 대시보드의 [추적](../../delivery/using/delivery-dashboard.md#tracking-logs) 탭에서 배달 및 받는 사람 동작의 영향을 측정하기 위해 [추적된 링크](../../delivery/using/how-to-configure-tracked-links.md)를 메시지에 추가합니다. 추적 데이터는 [추적 표시기](../../reporting/using/delivery-reports.md#tracking-indicators) 보고서에서 해석됩니다.
+이렇게 하려면 게재 대시보드의 [추적](../../delivery/using/delivery-dashboard.md#tracking-logs) 탭에서 게재 및 받는 사람 동작의 영향을 측정하기 위해 [추적된 링크](../../delivery/using/how-to-configure-tracked-links.md)를 메시지에 추가합니다. 추적 데이터는 [추적 표시기](../../reporting/using/delivery-reports.md#tracking-indicators) 보고서에 해석되어 있습니다.
 
 ### 웹 추적 {#web-tracking}
 
-또한 받는 사람이 웹 사이트를 검색하는 방법을 모니터링할 수 있습니다.추적 태그를 삽입하여 웹 애플리케이션 페이지에서 정보를 수집하고 방문을 측정합니다. 자세한 내용은 [웹 응용 프로그램 추적](../../web/using/tracking-a-web-application.md)을 참조하십시오.
+또한 Adobe Campaign을 사용하면 받는 사람이 웹 사이트를 검색하는 방법을 모니터링할 수 있습니다. 추적 태그를 삽입하여 웹 애플리케이션 페이지에서 정보를 수집하고 방문을 측정합니다. 자세한 내용은 [웹 애플리케이션 추적](../../web/using/tracking-a-web-application.md)을 참조하십시오.
 
 웹 추적 구성은 [이 섹션](../../configuration/using/about-web-tracking.md)에 있습니다.
 
-추적을 추가로 관리하기 위해 Adobe Campaign에서는 옵트아웃 배너를 표시하여 행동 추적을 옵트아웃한 최종 사용자의 웹 동작 추적을 중지할 수 있습니다. 자세한 내용은 [웹 응용 프로그램 추적 옵트아웃](../../web/using/web-application-tracking-opt-out.md)을 참조하십시오.
+추적을 추가로 관리하기 위해 Adobe Campaign에서는 옵트아웃 배너를 표시하여 행동 추적을 옵트아웃한 최종 사용자의 웹 동작 추적을 중지할 수 있습니다. 자세한 내용은 [웹 애플리케이션 추적 옵트아웃](../../web/using/web-application-tracking-opt-out.md)을 참조하십시오.
