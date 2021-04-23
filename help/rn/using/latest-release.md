@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: 최신 릴리스
 description: 최신 Campaign Classic 릴리스 정보
-feature: Overview
+feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
@@ -11,17 +11,17 @@ translation-type: tm+mt
 source-git-commit: abd5c7430c3f7a1a056a014ad46a0b94157e259f
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
 # 최신 릴리스{#latest-release}
 
-이 페이지에는 **최신 Campaign Classic 릴리스 후보 버전**&#x200B;에 포함된 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다.
+이 페이지에는 **최신 Campaign Classic Release Candidate 버전**&#x200B;에 포함된 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다.
 
 >[!NOTE]
 >
->캠페인 **GA(일반 가용성) 빌드는**&#x200B;입니다.[[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [캠페인 20.2.5 릴리스](../../rn/using/release--20-2.md).
+>Campaign **GA(일반 가용성) 빌드**&#x200B;는 [[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [Campaign 20.2.5 릴리스](../../rn/using/release--20-2.md)입니다.
 
 ## ![](assets/do-not-localize/blue_2.png) 릴리스 21.1.2 - 빌드 9282 {#release-21-1-2-build-9282}
 
@@ -84,7 +84,7 @@ _2021년 2월 22일_
 * 게재 분석을 수행할 때 서버의 메모리 사용을 줄일 수 있는 문제를 해결했습니다.
 * 복잡한 특정 쿼리를 실행하려 할 때 인스턴스가 작동하지 않는 문제를 해결했습니다.
 * **Twitter 페이지 동기화** 기술 워크플로우가 실행되지 않는 문제를 해결했습니다. (NEO-28634)
-* **트윗(twitter)** 게재 템플릿을 사용하여 Twitter에 게시하려고 할 때 decryptPassword  기능과 관련된 오류 메시지를 표시할 수 있는 문제를 수정했습니다. (NEO-28216)
+* **트윗(twitter)** 게재 템플릿을 사용하여 Twitter에 게시하려고 할 때 decryptPassword 기능과 관련된 오류 메시지를 표시할 수 있는 문제를 수정했습니다. (NEO-28216)
 * 워크플로우에서 **JavaScript** 활동을 사용하여 HTTP 요청을 할 때 발생하는 문제를 해결했습니다. 호스트 이름에서 포트 번호를 정의한 후 다음 오류로 호출이 실패합니다(NEO-29146).
 
 ```
