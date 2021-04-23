@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b741b10fd1d3a94a3e6c71e95ff43cc0ee54ebc7
 workflow-type: tm+mt
 source-wordcount: '2519'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 97%
 + 릴리스 정보 {#release-notes}
    + [업그레이드 시작](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
-   + [!DNL Gold Standard] 릴리스  {#gs-release}
-      + [소개 [!DNL Gold Standard]](rn/using/gs-overview.md)
-      + [[!DNL Gold Standard] 릴리스 노트](rn/using/gold-standard.md)
-      + [[!DNL Gold Standard] 호환성 행렬](rn/using/compatibility-matrix-gs.md)
+   + [!DNL Gold Standard] 릴리스 {#gs-release}
+      + [ [!DNL Gold Standard]](rn/using/gs-overview.md)이란?
+      + [[!DNL Gold Standard] 릴리스 정보](rn/using/gold-standard.md)
+      + [[!DNL Gold Standard] 호환성 매트릭스](rn/using/compatibility-matrix-gs.md)
    + 이전 릴리스 {#previous-releases}
       + [릴리스 20.3](rn/using/release--20-3.md)
       + [릴리스 20.2](rn/using/release--20-2.md)
@@ -147,16 +147,16 @@ ht-degree: 97%
          + [일본어 모바일에서 보내기](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [파일 첨부](delivery/using/attaching-files.md)
    + SMS 보내기 {#sending-messages-on-mobiles}
-      + [SMS 시작하기](delivery/using/sms-channel.md)
+      + [SMS으로 시작](delivery/using/sms-channel.md)
       + [SMS 채널 구성](delivery/using/sms-set-up.md)
-      + [SMS 만들기](delivery/using/sms-create.md)
+      + [SMS 생성](delivery/using/sms-create.md)
       + [SMS 전송 및 추적](delivery/using/sms-send.md)
       + [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)
       + [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
       + [Extended Generic SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
    + [LINE 메시지 보내기](delivery/using/line-channel.md)
    + 푸시 알림 보내기 {#sending-push-notifications}
-      + [모바일 앱 채널 시작하기](delivery/using/about-mobile-app-channel.md)
+      + [모바일 앱 채널 시작](delivery/using/about-mobile-app-channel.md)
       + [모바일 애플리케이션에 Campaign SDK 통합](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + 모바일 애플리케이션 구성{#configure-the-mobile-app}
          + [앱 구성 시작](delivery/using/get-started-app-config.md)
@@ -227,10 +227,10 @@ ht-degree: 97%
       + [추적 로그 액세스](delivery/using/accessing-the-tracking-logs.md)
       + [테스트 추적](delivery/using/testing-tracking.md)
       + [추적 문제 해결](delivery/using/tracking-troubleshooting.md)
-   + 게재 기능 관리 {#deliverability-management}
-      + [배달이 가능합니까?](delivery/using/about-deliverability.md)
-      + [메시지 내용 제어](delivery/using/control-message-content.md)
-      + [게재 기능 모니터링](delivery/using/monitoring-deliverability.md)
+   + 게재 가능성 관리 {#deliverability-management}
+      + [게재 가능성이란?](delivery/using/about-deliverability.md)
+      + [메시지 콘텐츠 제어](delivery/using/control-message-content.md)
+      + [게재 가능성 모니터링](delivery/using/monitoring-deliverability.md)
       + [받은 편지함 렌더링](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [문제 해결](delivery/using/deliverability-faq.md)
@@ -264,7 +264,7 @@ ht-degree: 97%
       + [비용 제어](campaign/using/controlling-costs.md)
       + [마케팅 리소스 관리](campaign/using/managing-marketing-resources.md)
       + [토론 포럼](campaign/using/discussion-forums.md)
-   + 캠페인 최적화  {#campaign-optimization}
+   + 캠페인 최적화 {#campaign-optimization}
       + [캠페인 타이폴로지 기본 정보](campaign/using/about-campaign-typologies.md)
       + [압력 규칙](campaign/using/pressure-rules.md)
       + [일관성 규칙](campaign/using/consistency-rules.md)
@@ -666,9 +666,9 @@ ht-degree: 97%
       + [URL 권한 설정](installation/using/url-permissions.md)
       + [파일 및 리소스](installation/using/file-res-management.md)
       + [Tomcat 구성](installation/using/configure-tomcat.md)
-      + [배달 설정 구성](installation/using/configure-delivery-settings.md)
+      + [게재 설정 구성](installation/using/configure-delivery-settings.md)
       + [기술 이메일 구성](installation/using/email-deliverability.md)
-      + [Campaign에서 MX 서버 사용](installation/using/using-mx-servers.md)
+      + [Campaign으로 MX 서버 사용](installation/using/using-mx-servers.md)
       + [이메일 BCC 구성](installation/using/email-archiving.md)
       + [SpamAssassin 구성](installation/using/configuring-spamassassin.md)
    + 캠페인에 연결{#connect-to-campaign}
