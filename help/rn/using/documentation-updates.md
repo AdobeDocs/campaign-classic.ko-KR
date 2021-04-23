@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 설명서 업데이트
 description: 이 페이지에는 Adobe Campaign Classic 설명서의 모든 새로운 기능과 업데이트가 있습니다.
-feature: Overview
+feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 69630f1450241e15d385dc03a3a2b02f6f7c850b
 workflow-type: tm+mt
 source-wordcount: '4304'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 97%
 
 ## 2021년 3월 {#march-2021}
 
-[SMS 시작하기 섹션](../../delivery/using/sms-channel.md)이(가) 재구성되고 개선되었습니다. 이제 전용 섹션에서 [SMS 채널](../../delivery/using/sms-set-up.md), [SMS](../../delivery/using/sms-create.md), [SMS](../../delivery/using/sms-send.md)를 전송하고 추적하는 방법을 배울 수 있습니다.
+[SMS 시작하기 섹션](../../delivery/using/sms-channel.md)이 재구성되고 개선되었습니다. 이제 전용 섹션에서 [SMS 채널 구성](../../delivery/using/sms-set-up.md), [SMS 만들기](../../delivery/using/sms-create.md), [SMS 전송 및 추적](../../delivery/using/sms-send.md)하는 방법을 배울 수 있습니다.
 
-Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 핵심 문서에 통합되었습니다. [자세히 알아보기](../../support.md)
+Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 주 설명서에 통합되었습니다. [자세히 알아보기](../../support.md)
 
 보안 및 개인 정보 보호 작업을 수행하기 위한 모범 사례 및 점검 기능이 새 섹션에 추가되었습니다. [자세한 내용](../../installation/using/get-started-security-privacy.md)
 
@@ -138,7 +138,7 @@ Android용 푸시 알림 개선 - [자세한 내용](../../delivery/using/config
 
 사용되지 않거나 제거된 기능 페이지가 업데이트되었습니다. [자세한 내용](../../rn/using/deprecated-features.md)
 
-이제 전용 섹션에서 [!DNL Gold Standard] 릴리스의 릴리스 노트 및 호환성 매트릭스를 사용할 수 있습니다.
+ 릴리스의 릴리스 정보 및 호환성 매트릭스는 [!DNL Gold Standard]이제 전용 섹션에서 사용할 수 있습니다.
 [자세한 내용](../../rn/using/gold-standard.md#gs-11).
 
 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합이 변경되었으며 Adobe I/O로 이동되었습니다. [자세히 알아보기](../../integrations/using/configuring-adobe-io.md)
@@ -214,7 +214,7 @@ FTP 서버에 연결한 후 &quot;호스트 이름을 확인할 수 없습니다
 
 증분 쿼리를 사용하여 목록을 자동으로 업데이트하는 방법에 대한 사용 사례가 워크플로우 사용 사례에 추가되었습니다. [자세한 내용](../../workflow/using/about-workflow-use-cases.md)
 
-[릴리스 정보](../../rn/using/latest-release.md)가 다음과 같이 재구성되었습니다. 빌드 상태, 업그레이드 프로세스, 권장 사항 및 중요 링크에 대한 정보가 포함된 [개요 페이지](../../rn/using/latest-release.md)가 추가되었습니다. [[!DNL Gold Standard]  릴리스](../../rn/using/gold-standard.md)에 대한 전용 페이지가 추가되었으며 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)가 통합되었습니다.
+[릴리스 정보](../../rn/using/latest-release.md)가 다음과 같이 재구성되었습니다. 빌드 상태, 업그레이드 프로세스, 권장 사항 및 중요 링크에 대한 정보가 포함된 [개요 페이지](../../rn/using/latest-release.md)가 추가되었습니다. [[!DNL Gold Standard] 릴리스](../../rn/using/gold-standard.md)에 대한 전용 페이지가 추가되었으며 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)가 통합되었습니다.
 
 Campaign Classic 모니터링과 관련된 지침과 함께 새 섹션이 추가되었습니다. [자세한 내용](../../production/using/monitoring-guidelines.md)
 
@@ -274,7 +274,7 @@ Spam Assassin 설치 섹션이 새 설치 파일 이름으로 업데이트되었
 
 전달 능력 문제 해결 섹션이 이동되고 개선되었습니다. [자세한 내용](../../delivery/using/deliverability-faq.md)
 
-새 플랫폼을 시작할 때 제공 가능성 가이드라인이 향상되었습니다. [자세한 내용](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html#transition-process)
+새 플랫폼을 시작할 때의 게재 기능 지침이 보강되었습니다. [자세한 내용](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko#transition-process)
 
 첨부 파일이 있는 트랜잭션 전자 메일 전송 섹션이 이동 및 업데이트되었습니다. [자세한 내용](../../message-center/using/transactional-email-with-attachments.md)
 
