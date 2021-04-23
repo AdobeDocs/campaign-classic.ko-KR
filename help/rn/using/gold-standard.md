@@ -1,9 +1,9 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: '[!DNL Gold Standard] 릴리스 노트'
-description: Campaign Classic [!DNL Gold Standard] 릴리스 노트
-feature: Overview
+title: '[!DNL Gold Standard] 릴리스 정보'
+description: Campaign Classic  [!DNL Gold Standard]에 대한 릴리스 정보
+feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
@@ -11,13 +11,13 @@ translation-type: tm+mt
 source-git-commit: 113a3535cd197f9b654fc1e50e20886e76ee886a
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
-# [!DNL Gold Standard] 릴리스 노트{#gold-standard}
+# [!DNL Gold Standard] 릴리스 정보{#gold-standard}
 
-이 페이지에는 [!DNL Gold Standard] 릴리스가 나열됩니다. 이 페이지](gs-overview.md)에서 캠페인 [!DNL Gold Standard] [에 대해 자세히 알아보십시오.
+이 페이지에는 [!DNL Gold Standard] 릴리스가 나열됩니다. [이 페이지](gs-overview.md)에서 Campaign [!DNL Gold Standard]에 대해 자세히 알아보십시오.
 
 ## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] 11 릴리스{#gs-11}
 
@@ -51,7 +51,7 @@ _2020년 12월 22일_
 
 >
 >
-[[!DNL Gold Standard] 11 업그레이드 FAQ](https://helpx.adobe.com/kr/campaign/kb/gold-standard-upgrade.html)에서 자세한 내용을 살펴보십시오.
+[[!DNL Gold Standard] 11 업그레이드 FAQ](https://helpx.adobe.com/kr/campaign/kb/gold-standard-upgrade.html)에서 자세히 알아보십시오.
 
 빌드 9032@d3b452f는 다음과 같은 개선 사항 및 수정 사항을 포함합니다.
 
