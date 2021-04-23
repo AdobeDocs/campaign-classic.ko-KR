@@ -3,15 +3,15 @@ solution: Campaign Classic
 product: campaign
 title: 업그레이드 시작
 description: Campaign Classic 업그레이드에 대한 자세한 내용
-feature: Overview
+feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8294b522efb51cb1b961c9284675c7966132e957
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ![](assets/do-not-localize/green3.png) GA(**General Availability**) - 프로덕션에서 검증되었으며 Adobe에서 권장합니다.
 
-마지막 **GA 빌드**&#x200B;는 [[!DNL Gold Standard]  11 릴리스](../../rn/using/gold-standard.md) 및 [Campaign 20.2.5 릴리스](../../rn/using/release--20-2.md)입니다.
+**최신 GA 빌드**&#x200B;는 [[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md) 및 [Campaign 20.2.5 릴리스](../../rn/using/release--20-2.md)입니다.
 
 ![](assets/do-not-localize/limited3.png) LA(**Limited Availability**) - 주문형 배포만 가능.
 
@@ -55,10 +55,10 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ### [!DNL Gold Standard]{#upgrade-for-gold-standard-users}
 
-호스팅된 [!DNL Gold Standard] 사용자는 아무런 작업 없이 [최신 GA [!DNL Gold Standard] build](../../rn/using/gold-standard.md#gs-11)로 [!DNL Gold Standard] 업그레이드 혜택을 자동으로 받게 됩니다. [자세히 알아보기](../../rn/using/gs-overview.md)
+호스팅된 [!DNL Gold Standard]사용자는 아무런 조치 없이 [!DNL Gold Standard][최신 GA  [!DNL Gold Standard] 빌드](../../rn/using/gold-standard.md#gs-11)로 자동 업그레이드 혜택을 받을 수 있습니다. [자세히 알아보기](../../rn/using/gs-overview.md)
 
 >[!NOTE]
->[!DNL Gold Standard]에 대한 호환성 매트릭스는 [GA 호환성 매트릭스](../../rn/using/compatibility-matrix-gs.md)에서 사용할 수 있습니다.
+>[!DNL Gold Standard]용 호환성 매트릭스는 [GA 호환성 매트릭스에서 사용할 수 있습니다](../../rn/using/compatibility-matrix-gs.md).
 
 ## 지원 및 기타 유용한 링크{#support}
 
