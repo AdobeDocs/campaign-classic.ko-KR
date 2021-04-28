@@ -6,10 +6,10 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 65ff09dd8ded029178c4c85489bf01ef80d16e8d
+source-git-commit: e1b09767a8eed3a7dc90e4db0429238d86d39570
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 6%
+source-wordcount: '355'
+ht-degree: 5%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 6%
 
 환경이 아래 나열된 버전 중 하나에서 실행되고 있는 경우, 영향을 받을 수 있습니다.
 
-* Gold Standard 7~11. [자세히 알아보기](../rn/using/gold-standard.md)
-* 캠페인 21.1.1 - 21.1.2 릴리스. [자세히 알아보기](../rn/using/latest-release.md)
-* 캠페인 20.3.1 - 20.3.3 릴리스. [자세히 알아보기](../rn/using/release--20-3.md)
-* 캠페인 20.2.1 - 20.2.3 릴리스. [자세히 알아보기](../rn/using/release--20-2.md)
-* 캠페인 20.1.1 - 21.1.3 릴리스. [자세히 알아보기](../rn/using/release--20-1.md)
-* 캠페인 19.2.2 - 19.2.3 릴리스. [자세히 알아보기](../rn/using/release--19-2.md)
-* 캠페인 19.1.5 - 19.1.7 릴리스. [자세히 알아보기](../rn/using/release--19-1.md)
+* Gold Standard 8~11. [자세히 알아보기](../rn/using/gold-standard.md#gs-8)
+* 캠페인 21.1.1(빌드 9277)에서 21.1.2(빌드 9282) 릴리스로 이동합니다. [자세히 알아보기](../rn/using/latest-release.md)
+* 캠페인 20.3.1(빌드 9228)을 20.3.3(빌드 9234) 릴리스로 설정합니다. [자세히 알아보기](../rn/using/release--20-3.md)
+* 캠페인 20.2.1(빌드 9178)을 20.2.3(빌드 9182) 릴리스로 설정합니다. [자세히 알아보기](../rn/using/release--20-2.md)
+* 캠페인 20.1.1(빌드 9122)에서 21.1.3(빌드 9124) 릴리스로 이동합니다. [자세히 알아보기](../rn/using/release--20-1.md)
+* 캠페인 19.2.2(빌드 9080)을 19.2.3(빌드 9081) 릴리스로 설정합니다. [자세히 알아보기](../rn/using/release--19-2.md)
+* 캠페인 19.1.5(빌드 9033)에서 19.1.7(빌드 9036) 릴리스로 이동합니다. [자세히 알아보기](../rn/using/release--19-1.md)
 
 이 섹션](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 버전 [을 확인하는 방법을 알아봅니다.
 
@@ -66,5 +66,5 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+>이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
