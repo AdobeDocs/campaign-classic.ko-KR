@@ -9,27 +9,22 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 98f55ee27a1172ce4a0590f46affe8947fd58d0f
+source-git-commit: 7c161862a4ce2e86e7968fd61af6b8ca28d6623f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 4%
+source-wordcount: '425'
+ht-degree: 3%
 
 ---
 
-# ISP 중단 후 바운스 자격 업데이트 {#update-bounce-qualification.md}
+# Apple이 중단된 후 잘못된 하드 바운스 업데이트 {#update-bounce-qualification.md}
 
 ## 컨텍스트
 
-ISP가 중단되는 경우, Campaign을 통해 전송된 이메일은 수신자에게 성공적으로 배달될 수 없습니다.이러한 이메일은 바운스로 잘못 표시됩니다.
-
-2021년 4월 26일, Apple의 글로벌 문제로 인해 올바른 Apple 이메일 주소로 전송되는 일부 이메일 메시지가 바운스 다음 응답을 포함한 Apple 서버의 잘못된 이메일 주소로 반송되면서 잘못 반송되었습니다.
-
-
-```
-“550 5.1.1 <email address>: user lookup success but no user record found.”
-```
+2021년 4월 26일, Apple의 글로벌 문제로 인해 올바른 Apple 이메일 주소로 전송되는 일부 이메일 메시지가 바운스 다음 응답을 포함한 Apple 서버의 잘못된 이메일 주소로 반송되면서 잘못 반송되었습니다. &quot;550 5.1.1 <email address>:사용자 조회 성공했지만 사용자 레코드를 찾을 수 없습니다.&quot;
 
 이 문제는 4월 26일에 발생했으며 7시 - 동부 시간 오후 1시까지입니다.
+
+ISP가 중단되는 경우, Campaign을 통해 전송된 이메일은 수신자에게 성공적으로 배달될 수 없습니다.이러한 이메일은 바운스로 잘못 표시됩니다.
 
 >[!NOTE]
 >
