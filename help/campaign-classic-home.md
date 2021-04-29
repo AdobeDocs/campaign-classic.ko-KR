@@ -5,9 +5,9 @@ product: campaign
 title: Adobe Campaign Classic 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 translation-type: tm+mt
-source-git-commit: 52341396fd85e470257e37a1d9404eae775acda8
+source-git-commit: 9260b467119475e9e0352b6e521d6f2ca426165c
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '288'
 ht-degree: 51%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 51%
 
 ## 새로운 기능
 
-* **[잘못된 하드 ](https://helpx.adobe.com/kr/campaign/kb/update-bounce-qualification.html)**<br/> 바운스 제거Apple이 중단된 후 잘못된 하드 바운스를 업데이트하는 방법 학습
+* **[잘못된 하드 ](delivery/using/update-bounce-qualification.md)**<br/> 바운스 제거Apple이 중단된 후 잘못된 하드 바운스를 업데이트하는 방법 학습
 
 * **[APNs ](technotes/ios-certificate-update.md)**<br/> 인증서 업데이트2021년 3월 29일, APNs 업데이트에 영향을 받은 캠페인 iOS 채널. iOS 푸시 채널 중단을 방지하려면 구성을 업데이트해야 합니다.
 
