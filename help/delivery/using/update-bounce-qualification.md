@@ -9,10 +9,10 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 3b5a6e6f03d9cb26ed372c3df069cbada36756a2
+source-git-commit: ad7f0725a5ce1dea9b5b3ab236c839a816b29382
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 1%
+source-wordcount: '425'
+ht-degree: 4%
 
 ---
 
@@ -22,22 +22,19 @@ ht-degree: 1%
 
 ISP가 중단되는 경우, Campaign을 통해 전송된 이메일은 수신자에게 성공적으로 배달될 수 없습니다.이러한 이메일은 바운스로 잘못 표시됩니다.
 
-2020년 12월 Gmail의 글로벌 문제로 인해 올바른 Gmail 이메일 주소로 전송되는 일부 이메일 메시지가 바운스 다음 응답을 포함한 Gmail 서버의 잘못된 이메일 주소로 반송되면서 올바르게 반송되는 문제가 발생했습니다.*&quot;550-5.1.1 연결을 시도하려는 이메일 계정이 없습니다.&quot;*
-
-구글은 이 문제를 일으킨 지메일 정전과 혼란은 12월 14일 오전 6시 55분에 시작되었고 12월 15일 오후 6시 9분에 끝났다고 말했습니다. 우리의 데이터 분석은 또한 12월 16일 오전 2시 6분에 Gmail 바운스의 매우 짧은 급증을 보여주었으며, 대부분은 12월 15일 오후 2시 ~ 오후 6시 30분 사이에 발생합니다.
+2021년 4월 26일, Apple의 글로벌 문제로 인해 올바른 Apple 이메일 주소로 전송되는 일부 이메일 메시지가 바운스 다음 응답을 포함한 Apple 서버의 잘못된 이메일 주소로 반송되면서 잘못 반송되었습니다.*&quot;550 5.1.1 <email address>:사용자 조회 성공했지만 사용자 레코드를 찾을 수 없습니다.&quot;*이 문제는 4월 26일에 발생했으며 7시 - 동부 시간 오후 1시까지입니다.
 
 >[!NOTE]
 >
->[이 페이지](https://www.google.com/appsstatus#hl=en&amp;v=status)에서 Google 작업 공간 상태 대시보드를 확인할 수 있습니다.
-
+>[이 페이지](https://www.apple.com/support/systemstatus/)에서 Apple 시스템 상태 대시보드를 확인할 수 있습니다.
 
 표준 바운스 처리 로직마다 Adobe Campaign은 **[!UICONTROL Quarantine]**&#x200B;의 **[!UICONTROL Status]** 설정으로 이러한 받는 사람을 격리 목록에 자동으로 추가했습니다. 이 문제를 해결하려면 이러한 받는 사람을 찾아 제거하거나 해당 수신자의 **[!UICONTROL Status]**&#x200B;을 **[!UICONTROL Valid]**&#x200B;으로 변경하여 야간 정리 워크플로우가 해당 수신자를 제거하도록 Campaign에서 격리 테이블을 업데이트해야 합니다.
 
-이 Gmail 문제로 영향을 받은 수신자를 찾아보거나 다른 ISP에서 이 문제가 다시 발생하는 경우 아래 지침을 참조하십시오.
+이 문제로 영향을 받은 수신자를 찾거나 다른 ISP에서 이 문제가 다시 발생하는 경우 아래 지침을 참조하십시오.
 
 ## 업데이트 프로세스
 
-서비스 중단으로 인해 영향을 받을 수 있는 모든 Gmail(또는 기타 ISP) 수신자를 필터링하여 격리 목록에서 제거되고 향후 캠페인 이메일 전달에 포함될 수 있도록 격리 테이블에서 쿼리를 실행해야 합니다.
+격리 테이블에서 쿼리를 실행하여 서비스 중단에 영향을 받을 수 있는 모든 Apple 받는 사람(@icloud.com, @me.com, @mac.com 포함)을 필터링하면 격리 목록에서 제거되고 향후 캠페인 이메일 전달에 포함될 수 있습니다.
 
 사고 기간에 따라 이 쿼리에 대한 권장 지침은 아래에 있습니다.
 
@@ -47,16 +44,16 @@ ISP가 중단되는 경우, Campaign을 통해 전송된 이메일은 수신자�
 
 * 격리 목록의 **[!UICONTROL Error text]** 필드에 SMTP 바운스 응답 정보가 있는 캠페인 인스턴스의 경우:
 
-   * **오류 텍스트(격리 텍스트)** 에 &quot;550-5.1.1 연결하려고 시도한 전자 메일 계정이 없습니다&quot; 및  **오류 텍스트(격리 텍스트)** 에 &quot;support.google.com&quot;이 포함되어 있습니다**
-   * **12/14/2020 AM** 의 업데이트 상태(@lastModified)
-   * **12/16/2020 AM** 에 또는 그 전에 상태 업데이트(@lastModified)
+   * **오류 텍스트(격리 텍스트)** 에 &quot;사용자 조회 성공했지만 사용자 레코드를 찾을 수 없음&quot; 및  **오류 텍스트(격리 텍스트)** 에 &quot;support.apple.com&quot; **
+   * **4/26/2021 AM** 의 업데이트 상태(@lastModified)
+   * **4/26/2021 PM** 에 또는 그 전에 상태 업데이트(@lastModified)
 
 * 격리 목록의 **[!UICONTROL Error text]** 필드에 인바운드 이메일 규칙 정보가 있는 캠페인 인스턴스의 경우:
 
    * **오류 텍스트(격리 텍스트)** 에 &quot;Momain_Code10_InvalidRecipient&quot;가 포함되어 있습니다.
-   * **&quot;gmail.com&quot;** 과 같은 이메일 도메인(@domain) 또는 &quot;googemail.com&quot;과 동일한 이메일 도메인(@domain)
-   * **12/14/2020 AM** 의 업데이트 상태(@lastModified)
-   * **12/16/2020 AM** 에 또는 그 전에 상태 업데이트(@lastModified)
+   * **이메일 도메인(@domain)** 이 icloud.com&quot; OR 이메일 도메인(@domain)이 me.com&quot; OR 이메일 도메인(@domain)과 mac.com과 같습니다.&quot;
+   * **4/26/2021 AM** 의 업데이트 상태(@lastModified)
+   * **4/26/2021 PM** 에 또는 그 전에 상태 업데이트(@lastModified)
 
 영향을 받는 받는 받는 받는 받는 사람 목록이 있는 경우 **[!UICONTROL Valid]** 상태로 설정하여 **[!UICONTROL Database cleanup]** 작업 과정에 의해 격리 목록에서 제거하거나 표에서 해당 받는 사람 목록을 삭제합니다.
 
