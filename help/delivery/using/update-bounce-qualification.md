@@ -9,9 +9,9 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: ad7f0725a5ce1dea9b5b3ab236c839a816b29382
+source-git-commit: 98f55ee27a1172ce4a0590f46affe8947fd58d0f
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '417'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,14 @@ ht-degree: 4%
 
 ISP가 중단되는 경우, Campaign을 통해 전송된 이메일은 수신자에게 성공적으로 배달될 수 없습니다.이러한 이메일은 바운스로 잘못 표시됩니다.
 
-2021년 4월 26일, Apple의 글로벌 문제로 인해 올바른 Apple 이메일 주소로 전송되는 일부 이메일 메시지가 바운스 다음 응답을 포함한 Apple 서버의 잘못된 이메일 주소로 반송되면서 잘못 반송되었습니다.*&quot;550 5.1.1 <email address>:사용자 조회 성공했지만 사용자 레코드를 찾을 수 없습니다.&quot;*이 문제는 4월 26일에 발생했으며 7시 - 동부 시간 오후 1시까지입니다.
+2021년 4월 26일, Apple의 글로벌 문제로 인해 올바른 Apple 이메일 주소로 전송되는 일부 이메일 메시지가 바운스 다음 응답을 포함한 Apple 서버의 잘못된 이메일 주소로 반송되면서 잘못 반송되었습니다.
+
+
+```
+“550 5.1.1 <email address>: user lookup success but no user record found.”
+```
+
+이 문제는 4월 26일에 발생했으며 7시 - 동부 시간 오후 1시까지입니다.
 
 >[!NOTE]
 >
@@ -44,7 +51,7 @@ ISP가 중단되는 경우, Campaign을 통해 전송된 이메일은 수신자�
 
 * 격리 목록의 **[!UICONTROL Error text]** 필드에 SMTP 바운스 응답 정보가 있는 캠페인 인스턴스의 경우:
 
-   * **오류 텍스트(격리 텍스트)** 에 &quot;사용자 조회 성공했지만 사용자 레코드를 찾을 수 없음&quot; 및  **오류 텍스트(격리 텍스트)** 에 &quot;support.apple.com&quot; **
+   * **오류 텍스트(격리 텍스트)** 에 &quot;사용자 조회 성공했지만 사용자 레코드를 찾을 수 없음&quot; 및  **오류 텍스트(격리 텍스트)** 에 &quot;support.apple.com&quot;이 포함되어 있습니다.
    * **4/26/2021 AM** 의 업데이트 상태(@lastModified)
    * **4/26/2021 PM** 에 또는 그 전에 상태 업데이트(@lastModified)
 
