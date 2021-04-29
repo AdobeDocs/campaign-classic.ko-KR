@@ -9,7 +9,7 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 378be6d4ef4ff69818d45c608a61b9a3506398be
+source-git-commit: 9260b467119475e9e0352b6e521d6f2ca426165c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 3%
@@ -24,11 +24,11 @@ ht-degree: 3%
 
 이 문제는 4월 26일에 발생했으며 7시 - 동부 시간 오후 1시까지입니다.
 
-ISP가 중단되는 경우, Campaign을 통해 전송된 이메일은 수신자에게 성공적으로 배달될 수 없습니다.이러한 이메일은 바운스로 잘못 표시됩니다.
-
 >[!NOTE]
 >
 >[이 페이지](https://www.apple.com/support/systemstatus/)에서 Apple 시스템 상태 대시보드를 확인할 수 있습니다.
+
+ISP가 중단되는 경우, Campaign을 통해 전송된 이메일은 수신자에게 성공적으로 배달될 수 없습니다.이러한 이메일은 바운스로 잘못 표시됩니다.
 
 표준 바운스 처리 로직마다 Adobe Campaign은 **[!UICONTROL Quarantine]**&#x200B;의 **[!UICONTROL Status]** 설정으로 이러한 받는 사람을 격리 목록에 자동으로 추가했습니다. 이 문제를 해결하려면 이러한 받는 사람을 찾아 제거하거나 해당 수신자의 **[!UICONTROL Status]**&#x200B;을 **[!UICONTROL Valid]**&#x200B;으로 변경하여 야간 정리 워크플로우가 해당 수신자를 제거하도록 Campaign에서 격리 테이블을 업데이트해야 합니다.
 
