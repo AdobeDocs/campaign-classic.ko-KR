@@ -9,9 +9,9 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 7c161862a4ce2e86e7968fd61af6b8ca28d6623f
+source-git-commit: 378be6d4ef4ff69818d45c608a61b9a3506398be
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 ## 컨텍스트
 
-2021년 4월 26일, Apple의 글로벌 문제로 인해 올바른 Apple 이메일 주소로 전송되는 일부 이메일 메시지가 바운스 다음 응답을 포함한 Apple 서버의 잘못된 이메일 주소로 반송되면서 잘못 반송되었습니다. &quot;550 5.1.1 <email address>:사용자 조회 성공했지만 사용자 레코드를 찾을 수 없습니다.&quot;
+2021년 4월 26일, Apple의 글로벌 문제로 인해 올바른 Apple 이메일 주소로 전송되는 일부 이메일 메시지가 바운스 다음 응답을 포함한 Apple 서버의 잘못된 이메일 주소로 반송되면서 잘못 반송되었습니다. &quot;550 5.1.1 &#39;이메일 주소&#39;:사용자 조회 성공했지만 사용자 레코드를 찾을 수 없습니다.&quot;
 
 이 문제는 4월 26일에 발생했으며 7시 - 동부 시간 오후 1시까지입니다.
 
