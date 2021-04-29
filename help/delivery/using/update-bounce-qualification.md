@@ -9,7 +9,7 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 9260b467119475e9e0352b6e521d6f2ca426165c
+source-git-commit: 718b490d48c6cfabdb24ab18dffb6db664f2a46c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 3%
@@ -53,7 +53,7 @@ ISP가 중단되는 경우, Campaign을 통해 전송된 이메일은 수신자�
 * 격리 목록의 **[!UICONTROL Error text]** 필드에 인바운드 이메일 규칙 정보가 있는 캠페인 인스턴스의 경우:
 
    * **오류 텍스트(격리 텍스트)** 에 &quot;Momain_Code10_InvalidRecipient&quot;가 포함되어 있습니다.
-   * **이메일 도메인(@domain)** 이 icloud.com&quot; OR 이메일 도메인(@domain)이 me.com&quot; OR 이메일 도메인(@domain)과 mac.com과 같습니다.&quot;
+   * **icloud.com OR** 전자 메일 도메인(@domain) **me.com OR** 전자 메일 도메인(@domain) **과 mac.com** 과 동일한 전자 메일 도메인(@domain)입니다.
    * **4/26/2021 AM** 의 업데이트 상태(@lastModified)
    * **4/26/2021 PM** 에 또는 그 전에 상태 업데이트(@lastModified)
 
