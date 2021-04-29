@@ -7,11 +7,11 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 113a3535cd197f9b654fc1e50e20886e76ee886a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1058'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 _2021년 4월 14일_
 
-빌드 9032@d030c36에는 다음 수정 사항이 포함되어 있습니다.
+빌드 9032@d030c36에는 다음 수정 사항을 포함합니다.
 
 * IMS 연결 화면에서 지속적인 오류 메시지를 발생시킨 클라이언트 콘솔 회귀 문제를 수정했습니다. (NEO-34821)
 
@@ -99,11 +99,11 @@ _2020년 4월 29일_
 
 빌드 9032@3a9dc9c에는 다음 수정 사항이 포함되어 있습니다.
 
-* 전자 메일의 링크 추적 보안이 개선되었습니다. 모든 고객에 대해 기본적으로 활성화됩니다. 고객 지원 센터에 연락하여 활성화할 수 있는 향상된 추가 보안 기능을 사용할 수 있습니다. 호스팅되지 않은 고객이 이 기능을 사용하도록 설정하는 기능 및 단계에 대한 자세한 내용은 [보안 및 개인 정보 보호 체크리스트](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)에서 확인할 수 있습니다.
+* 전자 메일의 링크 추적 보안이 개선되었습니다. 모든 고객에 대해 기본적으로 활성화됩니다. 고객 지원 센터에 연락하여 활성화할 수 있는 향상된 추가 보안 기능을 사용할 수 있습니다. 호스팅되지 않은 고객이 이 기능을 사용하도록 설정하는 기능 및 단계에 대한 자세한 내용은 [보안 및 개인 정보 보호 체크리스트](https://helpx.adobe.com/kr/campaign/kb/acc-security.html#signature-mechanism)에서 확인할 수 있습니다.
 
 >[!CAUTION]
 >
->추적 링크를 사용한 푸시 알림 또는 앵커 태그를 사용한 게재 관련 문제가 발생하는 경우 링크 추적을 위해 새 서명 메커니즘을 비활성화하는 것이 좋습니다. 프로시저는 [이 페이지](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)에 자세히 설명되어 있습니다
+>추적 링크를 사용한 푸시 알림 또는 앵커 태그를 사용한 게재 관련 문제가 발생하는 경우 링크 추적을 위해 새 서명 메커니즘을 비활성화하는 것이 좋습니다. 프로시저는 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/acc-security.html#signature-mechanism)에 자세히 설명되어 있습니다
 
 * 라인 게재에서 이미지가 표시되지 않는 문제를 해결했습니다. (NEO-23207)
 * SFTP 키 기반 인증이 Debian 9에서 작동하지 않는 **파일 전송** 활동 문제를 해결했습니다. (NEO-23183)
