@@ -25,7 +25,7 @@ ht-degree: 100%
    + [업그레이드 시작](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
    + [!DNL Gold Standard] 릴리스 {#gs-release}
-      + [ [!DNL Gold Standard]](rn/using/gs-overview.md)이란?
+      + [ [!DNL Gold Standard]이란?](rn/using/gs-overview.md)
       + [[!DNL Gold Standard] 릴리스 정보](rn/using/gold-standard.md)
       + [[!DNL Gold Standard] 호환성 매트릭스](rn/using/compatibility-matrix-gs.md)
    + 이전 릴리스 {#previous-releases}
