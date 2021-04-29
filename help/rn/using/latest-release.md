@@ -7,11 +7,11 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: abd5c7430c3f7a1a056a014ad46a0b94157e259f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 98%
 
 _2021년 4월 15일_
 
-* 보안을 최적화하기 위해 암호 관리가 향상되었습니다.
-* MTA 충돌을 발생시킬 수 있는 문제를 수정했습니다.
+* 암호 관리가 보안을 최적화하기 위해 개선되었습니다.
+* MTA 작동 중단을 발생시킬 수 있는 문제를 수정했습니다.
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 21.1.1 - 빌드 9277 {#release-21-1-1-build-9277}
 
