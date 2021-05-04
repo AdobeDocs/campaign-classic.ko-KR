@@ -3,15 +3,15 @@ solution: Campaign Classic
 product: campaign
 title: 프로필 기본 정보
 description: 프로필 기본 정보
-feature: Profiles, Audiences
+feature: 프로필, 대상
 role: Business Practitioner, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 translation-type: tm+mt
-source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
+source-git-commit: c733b68a06fba9bb24cd1c1995ffc99a1277be87
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 16%
+source-wordcount: '906'
+ht-degree: 14%
 
 ---
 
@@ -93,13 +93,7 @@ Adobe Campaign 탐색기의 일반 레이아웃은 [이 페이지](../../platfor
 
 활성 프로필 수는 **마케팅 인스턴스**&#x200B;에만 사용할 수 있습니다. 실행 인스턴스에는 사용할 수 없습니다. 즉, MID(mid 소싱) 및 RT(메시지 센터/실시간 메시징) 인스턴스입니다.
 
-AWS를 통해 호스팅되는 경우 Campaign 컨트롤 패널에서 직접 인스턴스에 사용된 활성 프로파일 수를 모니터링할 수도 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)를 참조하십시오.
-
->[!NOTE]
->
->Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
->
->인스턴스는 AWS에서 호스팅되어야 하며 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 자신의 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 따르십시오.
+AWS를 통해 호스팅되는 경우 Campaign 컨트롤 패널에서 직접 인스턴스에 사용된 활성 프로파일 수를 모니터링할 수도 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html)를 참조하십시오.
 
 청구에는 **active**&#x200B;인 프로파일만 포함됩니다. 지난 12개월 동안 채널을 통해 프로파일을 타깃팅하거나 커뮤니케이션한 경우 프로파일이 활성 상태로 간주됩니다.
 
@@ -109,7 +103,7 @@ AWS를 통해 호스팅되는 경우 Campaign 컨트롤 패널에서 직접 인�
 >
 >페이스북과 트위터 채널은 고려되지 않습니다.
 
-Campaign Standard **[!UICONTROL Administration > Campaign Management > Customer metrics]** 메뉴에서 **[!UICONTROL Number of active profiles]**&#x200B;에 대한 개요를 알 수 있습니다. 실제 개수는 **[!UICONTROL Number of active billing profiles]**(**[!UICONTROL billingActiveContactCount]**) [기술 워크플로우](../../workflow/using/about-technical-workflows.md)에 의해 수행되며, 매일 실행되고 **[!UICONTROL Customer metrics]** 메뉴에서 현재 기간 동안 기존 보고서에 새 데이터를 추가합니다. 각 기간은 12개월 동안 지속됩니다.
+캠페인 **[!UICONTROL Administration > Campaign Management > Customer metrics]** 메뉴에서 **[!UICONTROL Number of active profiles]**&#x200B;에 대한 개요를 알 수 있습니다. 실제 개수는 **[!UICONTROL Number of active billing profiles]**(**[!UICONTROL billingActiveContactCount]**) [기술 워크플로우](../../workflow/using/about-technical-workflows.md)에 의해 수행되며, 매일 실행되고 **[!UICONTROL Customer metrics]** 메뉴에서 현재 기간 동안 기존 보고서에 새 데이터를 추가합니다. 각 기간은 12개월 동안 지속됩니다.
 
 ## 자습서 비디오 {#create-profiles-video}
 
