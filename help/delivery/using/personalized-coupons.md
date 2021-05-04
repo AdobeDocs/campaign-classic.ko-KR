@@ -6,14 +6,14 @@ description: 개인화된 쿠폰
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
+exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 translation-type: tm+mt
-source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 1%
 
 ---
-
 
 # 개인화된 쿠폰{#personalized-coupons}
 
@@ -115,7 +115,7 @@ ht-degree: 1%
 
       ![](assets/deliv_coup_11.png)
 
-      쿠폰은 지정된 이름이 아니라 코드로 메시지에 삽입됩니다. 코드는 캠페인 표준 데이터 모델 내에서 사용됩니다.
+      쿠폰은 지정된 이름이 아니라 코드로 메시지에 삽입됩니다. 이 코드는 캠페인 otb 데이터 모델 내에서 사용됩니다.
    ![](assets/deliv_coup_12.png)
 
 1. 테스트를 실행하여 쿠폰에 할당한 이름을 확인합니다. **[!UICONTROL Preview]** 탭으로 이동하여 **[!UICONTROL Test personalization]**&#x200B;를 클릭합니다. 테스트에 사용할 수신자를 선택합니다.
