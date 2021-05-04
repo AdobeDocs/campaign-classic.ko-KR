@@ -6,14 +6,14 @@ description: 워크플로우 실행 모니터링
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 translation-type: tm+mt
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
 workflow-type: tm+mt
 source-wordcount: '2000'
 ht-degree: 0%
 
 ---
-
 
 # 워크플로우 실행 모니터링 {#monitoring-workflow-execution}
 
@@ -261,7 +261,7 @@ Campaign Classic 인터페이스를 사용하면 사전 정의된 **views**&#x20
 * **[!UICONTROL Running]**: 실행 중인 모든 워크플로우를 나열합니다.
 * **[!UICONTROL Paused]**: 일시 중지된 모든 워크플로우를 나열합니다.
 * **[!UICONTROL Failed]**: 실패한 모든 워크플로우를 나열합니다.
-* **[!UICONTROL Start Pending]**: operationMgt 프로세스에 의해 시작되기를 기다리는 모든 워크플로우를 나열합니다. 이 보기는 **마케팅 캠페인** 패키지에만 사용할 수 있습니다([캠페인 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md) 참조).
+* **[!UICONTROL Start Pending]**: operationMgt 프로세스에 의해 시작되기를 기다리는 모든 워크플로우를 나열합니다. 이 보기는 **마케팅 캠페인** 패키지에만 사용할 수 있습니다([캠페인 기본 제공 패키지 설치](../../installation/using/installing-campaign-standard-packages.md) 참조).
 
 ![](assets/workflow-monitoring-views.png)
 
