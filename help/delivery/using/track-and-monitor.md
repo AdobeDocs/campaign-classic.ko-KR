@@ -5,14 +5,14 @@ title: 메시지 추적 및 모니터링
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
+exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
 translation-type: tm+mt
-source-git-commit: 53e239c04f9c4239a5c32e4f25549cbc5f6ece50
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '430'
 ht-degree: 3%
 
 ---
-
 
 # 추적 및 모니터링 {#track-and-monitor}
 
@@ -39,7 +39,7 @@ mta@instance 모듈이 MTA 서버에서 실행되는지 확인하고 필요한 �
 
 ## 추적 {#tracking-deliveries}
 
-수신자의 행동을 더 잘 이해하려면 수신자가 전달에 어떻게 반응하는지 추적할 수 있습니다.수신, 열기, 링크 클릭, 구독 취소 등을 수행할 수 있습니다. Campaign Classic에서, 이 정보는 게재의 대상이 되는 수신자의 추적 탭 및 게재의 추적 탭에 표시됩니다. Campaign Standard에서 게재의 추적 로그 탭에 표시됩니다.
+수신자의 행동을 더 잘 이해하려면 수신자가 전달에 어떻게 반응하는지 추적할 수 있습니다.수신, 열기, 링크 클릭, 구독 취소 등을 수행할 수 있습니다. Campaign Classic에서, 이 정보는 게재의 대상이 되는 수신자의 추적 탭 및 게재의 추적 탭에 표시됩니다.
 
 **팁**:메시지 추적은 기본적으로 활성화되어 있습니다. URL을 구성하려면 배달 마법사의 아래 섹션에서 URL 표시 옵션을 선택합니다. 메시지의 각 URL에 대해 추적을 활성화할지 여부를 선택할 수 있습니다.
 
