@@ -6,7 +6,7 @@ description: 기술 문서
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: e1b09767a8eed3a7dc90e4db0429238d86d39570
+source-git-commit: 51773f48bac90febe44c6796b8cc08fce072bab3
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 5%
@@ -30,7 +30,7 @@ ht-degree: 5%
 * Gold Standard 8~11. [자세히 알아보기](../rn/using/gold-standard.md#gs-8)
 * 캠페인 21.1.1(빌드 9277)에서 21.1.2(빌드 9282) 릴리스로 이동합니다. [자세히 알아보기](../rn/using/latest-release.md)
 * 캠페인 20.3.1(빌드 9228)을 20.3.3(빌드 9234) 릴리스로 설정합니다. [자세히 알아보기](../rn/using/release--20-3.md)
-* 캠페인 20.2.1(빌드 9178)을 20.2.3(빌드 9182) 릴리스로 설정합니다. [자세히 알아보기](../rn/using/release--20-2.md)
+* 캠페인 20.2.1(빌드 9178)을 20.2.4(빌드 9187) 릴리스로 설정합니다. [자세히 알아보기](../rn/using/release--20-2.md)
 * 캠페인 20.1.1(빌드 9122)에서 21.1.3(빌드 9124) 릴리스로 이동합니다. [자세히 알아보기](../rn/using/release--20-1.md)
 * 캠페인 19.2.2(빌드 9080)을 19.2.3(빌드 9081) 릴리스로 설정합니다. [자세히 알아보기](../rn/using/release--19-2.md)
 * 캠페인 19.1.5(빌드 9033)에서 19.1.7(빌드 9036) 릴리스로 이동합니다. [자세히 알아보기](../rn/using/release--19-1.md)
