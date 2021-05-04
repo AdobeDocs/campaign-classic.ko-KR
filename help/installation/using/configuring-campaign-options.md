@@ -6,14 +6,14 @@ description: 캠페인 옵션 구성 방법 알아보기
 audience: installation
 content-type: reference
 topic-tags: appendices
+exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
 workflow-type: tm+mt
 source-wordcount: '3927'
 ht-degree: 1%
 
 ---
-
 
 # Campaign Classic 옵션 목록{#configuring-campaign-options}
 
@@ -627,11 +627,11 @@ ht-degree: 1%
   </tr>  
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Adobe Campaign 표준 테이블의 데이터를 포함할 테이블스페이스 이름입니다.<br />데이터베이스  <a href="../../installation/using/creating-and-configuring-the-database.md">만들기 및 구성을 참조하십시오</a>.</td> 
+   <td> Adobe Campaign otb 테이블의 데이터를 포함할 테이블스페이스 이름입니다.<br />데이터베이스  <a href="../../installation/using/creating-and-configuring-the-database.md">만들기 및 구성을 참조하십시오</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Adobe Campaign 표준 테이블의 인덱스를 포함할 테이블스페이스 이름입니다.<br />데이터베이스  <a href="../../installation/using/creating-and-configuring-the-database.md">만들기 및 구성을 참조하십시오</a>.</td> 
+   <td> Adobe Campaign otb 테이블의 인덱스를 포함할 테이블스페이스 이름입니다.<br />데이터베이스  <a href="../../installation/using/creating-and-configuring-the-database.md">만들기 및 구성을 참조하십시오</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 
@@ -643,7 +643,7 @@ ht-degree: 1%
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> 백업 및 복제를 최적화하기 위해 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 옵션은 임시 데이터베이스의 이름에 해당합니다.작업 테이블이 지정된 경우 이 데이터베이스에 기록됩니다. 예:'tempdb.dbo' (이름은 마침표로 끝나야 합니다.) <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">자세한 내용</a> <br /> </td> 
+   <td> 백업 및 복제를 최적화하기 위해 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 옵션은 임시 데이터베이스의 이름에 해당합니다.작업 테이블이 지정된 경우 이 데이터베이스에 기록됩니다. 예:'tempdb.dbo' (이름은 마침표로 끝나야 합니다.) <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">자세히 알아보기</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
@@ -1042,4 +1042,3 @@ ht-degree: 1%
   </tr> 
  </tbody> 
 </table>
-
