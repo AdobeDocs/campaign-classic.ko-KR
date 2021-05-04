@@ -6,14 +6,14 @@ description: Adobe Campaign Classic에서 AMP를 사용하여 인터랙티브하
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
+exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 translation-type: tm+mt
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 2%
 
 ---
-
 
 # 대화형 콘텐츠 정의{#defining-interactive-content}
 
@@ -49,7 +49,7 @@ AMP 이메일 테스트 및 전송에 대한 자세한 내용은 [AMP 이메일 
 ## Adobe Campaign {#key-steps-to-use-amp}에서 이메일에 AMP를 사용하는 주요 단계
 
 Adobe Campaign에서 AMP 이메일을 성공적으로 테스트하고 보내려면 아래 단계를 따르십시오.
-1. **[!UICONTROL AMP support]** 패키지를 설치합니다. [Campaign 표준 패키지](../../installation/using/installing-campaign-standard-packages.md) 설치를 참조하십시오.
+1. **[!UICONTROL AMP support]** 패키지를 설치합니다. [Campaign 내장 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
 1. Adobe Campaign에서 이메일을 만들어 AMP 콘텐츠를 제작할 수 있습니다. [Adobe Campaign](#build-amp-email-content)로 AMP 이메일 콘텐츠 작성을 참조하십시오.
 1. AMP 형식을 지원하는 이메일 공급자의 모든 배포 요구 사항을 따라야 합니다. 이메일 배달 요구 사항](#amp-for-email-delivery-requirements)에 대한 [AMP를 참조하십시오.
 1. 대상을 정의할 때 AMP 형식을 표시할 수 있는 받는 사람을 선택해야 합니다. [AMP 이메일 타깃팅](#targeting-amp-email)을 참조하십시오.
