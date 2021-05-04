@@ -1,19 +1,19 @@
 ---
-solution: Campaign Standard
+solution: Campaign Classic
 product: campaign
 title: 가져오기 및 내보내기 모범 사례
 description: 데이터를 가져오거나 내보낼 때 따라야 할 최상의 방법에 대해 자세히 알아보십시오.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+exl-id: 03d35202-d221-4136-aad4-00704aabb356
 translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 2%
 
 ---
-
 
 # 가져오기 및 내보내기 모범 사례 {#import-export-best-practices}
 
