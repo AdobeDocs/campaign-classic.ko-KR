@@ -1,18 +1,18 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 전달 템플릿 사용
+title: 게재 템플릿 사용
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
+exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
-
 
 # 템플릿 사용 {#use-templates}
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Adobe Campaign에서 여러 브랜드를 관리하는 경우 Adobe은 브랜드당 하나의 하위 도메인을 가질 것을 권장합니다. 예를 들어 은행은 각 지역 기관에 해당하는 여러 하위 도메인을 가질 수 있습니다. 은행이 bluebank.com 도메인을 소유하는 경우 해당 하위 도메인은 @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com 등이 될 수 있습니다. 하위 도메인당 하나의 배달 템플릿을 사용하면 항상 각 브랜드에 대해 사전 구성된 올바른 매개 변수를 사용할 수 있으므로 오류를 방지하고 시간을 절약할 수 있습니다.
 
-**팁**:Campaign Standard에서 구성 오류를 방지하려면 새 템플릿을 만드는 대신 기본 템플릿을 복제하고 해당 속성을 변경하는 것이 좋습니다.
+**팁**:구성 오류를 방지하려면 새 템플릿을 만드는 대신 기본 템플릿을 복제하고 해당 속성을 변경하는 것이 좋습니다.
 
 ## 주소 구성
 
