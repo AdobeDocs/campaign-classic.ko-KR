@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 translation-type: tm+mt
-source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+source-git-commit: 9781e313e03489d203e14ab0c426aa1001c7a257
 workflow-type: tm+mt
 source-wordcount: '4297'
 ht-degree: 99%
@@ -44,7 +44,7 @@ Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 
 
 작업을 종료하고 향후 회수를 방지하기 위해 task.setCompleted() 메서드를 사용하는 방법에 대한 정보가 **[!UICONTROL Advanced JavaScript]** 활동 섹션에 추가되었습니다. [자세히 알아보기](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
-[전달성](../../delivery/using/about-deliverability.md) 섹션이 업데이트되었으며 이제 새 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)에 대한 링크를 포함합니다. 다양한 Adobe 솔루션에 적용될 수 있는 전달성과 관련된 모든 일반 정보는 [모범 사례 안내서 부록](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko#additional-resources)으로 이동되었습니다.
+[전달성](../../delivery/using/about-deliverability.md) 섹션이 업데이트되었으며 이제 새 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)에 대한 링크를 포함합니다. 다양한 Adobe 솔루션에 적용될 수 있는 전달성과 관련된 모든 일반 정보는 [모범 사례 안내서 부록](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources)으로 이동되었습니다.
 
 ## 2021년 2월 {#release-21.1}
 
