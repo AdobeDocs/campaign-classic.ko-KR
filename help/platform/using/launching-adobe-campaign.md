@@ -6,18 +6,23 @@ description: Adobe Campaign 시작
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 translation-type: tm+mt
-source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
+source-git-commit: 2c275751ab86e98652820bf461c617442480c725
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 6%
+source-wordcount: '558'
+ht-degree: 7%
 
 ---
-
 
 # Adobe Campaign 시작{#launching-adobe-campaign}
 
 캠페인 클라이언트 콘솔은 캠페인 응용 프로그램 서버에 연결할 수 있는 리치 클라이언트입니다. [이 페이지](../../installation/using/installing-the-client-console.md)에서 클라이언트 콘솔을 다운로드하고 구성하는 방법에 대해 알아봅니다.
+
+
+>[!CAUTION]
+>
+>[호환성 매트릭스](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)에서 Adobe Campaign 클라이언트 콘솔과 시스템 및 도구 호환성 확인
 
 ## Adobe Campaign {#starting-adobe-campaign} 시작
 
@@ -107,4 +112,4 @@ Adobe 고객 지원 센터에 문의할 때마다 Adobe Campaign 클라이언트
 
 * [Adobe Campaign 도움말 및 지원 옵션](../../support.md)
 * [Adobe Campaign 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
-* [Adobe Experience Cloud 지원 및 전문가 세션](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* [Adobe Experience Cloud 지원 및 전문가 세션](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
