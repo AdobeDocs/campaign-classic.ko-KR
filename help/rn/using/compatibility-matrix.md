@@ -7,11 +7,11 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2ce19e135ce1eb47d760c5407446312bc2d3c303
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 91%
 
 ---
 
@@ -154,7 +154,7 @@ ht-degree: 100%
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016년</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p>경고: Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">자세히 알아보기</a></p>
@@ -221,10 +221,10 @@ ht-degree: 100%
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
+<p>2019년</p>
+<p>2017년</p>
+<p>2016년</p>
+<p>2014년</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 </tr>
@@ -275,19 +275,25 @@ ht-degree: 100%
 </tbody>
 </table>
 
-## 클라이언트 콘솔 운영 체제{#ClientConsoleoperatingsystems}
+## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
+
+캠페인 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
+
+### 운영 체제
 
 <table>
 <tbody>
 <tr>
-<td>Windows Server</td>
+<td>Microsoft Windows Server</td>
 <td>
-<p>2016</p>
-<p>2012</p>
+<p>2016년</p>
+<p>2012년</p>
+</td>
+<td>
 </td>
 </tr>
 <tr>
-<td>Windows</td>
+<td>Microsoft Windows</td>
 <td>
 <p>8</p>
 <p>10(일본어 인스턴스에 권장)</p>
@@ -295,6 +301,30 @@ ht-degree: 100%
 </tr>
 </tbody>
 </table>
+
+### 브라우저
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge</p>
+</td>
+<td>
+<p>최신 버전</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Microsoft Internet Explorer</p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 모바일 SDK{#MobileSDK}
 
@@ -319,9 +349,53 @@ ht-degree: 100%
 
 ## 브라우저{#Browsers}
 
-Microsoft Edge, Mozilla Firefox, Google Chrome 및 Safari와 같은 브라우저의 경우 최신 버전이 지원됩니다.
+다음 브라우저는 웹 액세스에 대한 캠페인과 호환됩니다.
 
-Internet Explorer 11이 지원됩니다.
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge</p>
+</td>
+<td>
+<p>최신 버전</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Mozilla Firefox</p>
+</td>
+<td>
+<p>최신 버전</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Google Chrome</p>
+</td>
+<td>
+<p>최신 버전</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Safari</p>
+</td>
+<td>
+<p>최신 버전</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Microsoft Internet Explorer</p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 비슷한 항목 더 보기{#Morelikethis}
 
