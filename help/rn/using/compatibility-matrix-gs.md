@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
 translation-type: tm+mt
-source-git-commit: 2ce19e135ce1eb47d760c5407446312bc2d3c303
+source-git-commit: 62b2fdd807a654ab81d19a1b5c0d8ac88648e45c
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 90%
 
 ---
@@ -273,7 +273,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 
 ## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
 
-캠페인 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
+:경고:캠페인 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
 
 ### 운영 체제
 
@@ -284,8 +284,6 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <td>
 <p>2016년</p>
 <p>2012년</p>
-</td>
-<td>
 </td>
 </tr>
 <tr>
@@ -320,7 +318,6 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 </tr>
 </tbody>
 </table>
-
 
 ## 모바일 SDK{#MobileSDK}
 
