@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 translation-type: tm+mt
-source-git-commit: 2ce19e135ce1eb47d760c5407446312bc2d3c303
+source-git-commit: 62b2fdd807a654ab81d19a1b5c0d8ac88648e45c
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 91%
 
 ---
@@ -277,7 +277,7 @@ ht-degree: 91%
 
 ## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
 
-캠페인 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
+:경고:캠페인 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
 
 ### 운영 체제
 
@@ -288,8 +288,6 @@ ht-degree: 91%
 <td>
 <p>2016년</p>
 <p>2012년</p>
-</td>
-<td>
 </td>
 </tr>
 <tr>
