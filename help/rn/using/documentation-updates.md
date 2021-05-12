@@ -436,7 +436,7 @@ Adobe Campaign과 Adobe 실시간 고객 데이터 Platform 간의 통합이 이
 
 ## 2019년 10월 {#october-2019}
 
- Campaign에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+Campaign에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
 GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCPA를 포함한 개인 정보 관리 문서입니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)
 
@@ -496,7 +496,7 @@ Marketing Cloud Trigger 기술 정보가 업데이트되었습니다. [자세한
 
 Apache 구성 단계가 업데이트되었습니다. [자세한 내용](../../installation/using/integration-into-a-web-server-for-linux.md)
 
-Classic의 끝점 목록을 포함하여 새 페이지가 추가되었습니다. [자세한 내용](../../installation/using/campaign-network-endpoints.md)
+Classic의 엔드포인트 목록을 포함한 새 페이지가 추가되었습니다. [자세한 내용](../../installation/using/campaign-network-endpoints.md)
 
 데이터 패키지 모범 사례 문서가 업데이트되었습니다. [자세한 내용](../../configuration/using/data-model-best-practices.md)
 
