@@ -1,27 +1,26 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 워크플로우 열 지도
-description: Workflow HeatMap을 사용하여 캠페인 워크플로우 모니터링
+title: 캠페인 워크플로우 HeatMap
+description: Workflow HeatMap을 사용하여 워크플로우 모니터링
 audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-translation-type: tm+mt
-source-git-commit: 5b1c4426a0d59861aa61a7e53154b9adfda31d71
+source-git-commit: 53d8e2ff56481497c7805b92a7885a662a1924cf
 workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 # 워크플로우 열 지도 {#workflow-heatmap}
 
-Adobe Campaign Workflow HeatMap은 현재 실행 중인 모든 워크플로우를 색상으로 구분된 그래픽으로 표시합니다. 인스턴스 관리자만 사용할 수 있습니다.
+캠페인 워크플로우 HeatMap은 현재 실행 중인 모든 워크플로우를 색상으로 구분된 그래픽으로 표시합니다. **캠페인 관리자**&#x200B;만 사용할 수 있습니다.
 
-다른 캠페인 프로세스를 모니터링하는 추가 방법은 [이 페이지](../../production/using/monitoring-guidelines.md)에 있습니다.
+[이 페이지](../../production/using/monitoring-guidelines.md)에서 캠페인 프로세스를 모니터하는 추가 방법을 알아봅니다.
 
-## 워크플로 HeatMap {#about-the-workflow-heatmap} 정보
+## Workflow HeatMap {#about-the-workflow-heatmap} 시작하기
 
 Workflow HeatMap은 동시 작업 과정 수에 대한 빠른 개요를 제공함으로써 Adobe Campaign 플랫폼 관리자가 인스턴스의 로드를 모니터링하고 그에 따라 워크플로우를 계획할 수 있도록 합니다.
 
@@ -31,7 +30,7 @@ Workflow HeatMap은 동시 작업 과정 수에 대한 빠른 개요를 제공�
 * 기간별로 워크플로우를 필터링하여 문제가 발생할 수 있는 워크플로우 확인
 * 지속 기간별로 활동을 필터링하여 문제가 발생할 수 있는 활동을 확인합니다.
 * 개별 워크플로우 및 모든 관련 활동(해당 기간 포함)을 손쉽게 검색
-* 워크플로우 유형별로 검색([기술 워크플로우](../../workflow/using/building-a-workflow.md#technical-workflows) 또는 [캠페인 워크플로우](../../workflow/using/building-a-workflow.md#campaign-workflows))
+* 워크플로우 유형별로 필터링:[기술 워크플로우](../../workflow/using/building-a-workflow.md#technical-workflows) 또는 [캠페인 워크플로우](../../workflow/using/building-a-workflow.md#campaign-workflows)
 * 분석할 특정 워크플로우 검색
 
 >[!NOTE]
@@ -40,13 +39,11 @@ Workflow HeatMap은 동시 작업 과정 수에 대한 빠른 개요를 제공�
 
 Workflow HeatMap을 사용하려면 다음 개념을 잘 이해해야 합니다.[워크플로우](../../workflow/using/about-workflows.md), [활동](../../workflow/using/about-activities.md) 및 [워크플로우 우수 사례](../../workflow/using/workflow-best-practices.md).
 
-<!--The Workflow HeatMap is available by default in Adobe Campaign starting 18.10 release. If you have a build between 8700 and 8977 (18.10), you can also benefit from this capability. To request the corresponding package, contact the [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) and follow the instructions from [this page](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html) to understand how to install it.-->
-
-## HeatMap {#using-the-heatmap} 사용
+## 워크플로 HeatMap {#using-the-heatmap} 사용자 지정
 
 >[!NOTE]
 >
->관리 권한이 있는 사용자만 캠페인 워크플로우 HeatMap에 액세스할 수 있습니다.
+>Workflow HeatMap에 데이터가 표시되지 않으면 **[!UICONTROL Load data]** 단추를 클릭합니다.
 
 1. **[!UICONTROL Monitoring]**&#x200B;으로 이동하고 **[!UICONTROL Workflow HeatMap]** 링크를 클릭하여 **[!UICONTROL Campaign Workflow HeatMap]** 페이지를 표시합니다.
 
@@ -69,7 +66,7 @@ Workflow HeatMap을 사용하려면 다음 개념을 잘 이해해야 합니다.
 
    ![](assets/wkf_monitoring_filters_duration.png)
 
-1. **[!UICONTROL Workflows]** 목록에서 특정 워크플로우를 선택할 수도 있습니다.
+1. **[!UICONTROL Workflows]** 드롭다운 목록에서 특정 워크플로우를 선택할 수도 있습니다.
 
    ![](assets/wkf_monitoring_filters_workflows.png)
 
@@ -84,11 +81,9 @@ Workflow HeatMap을 사용하려면 다음 개념을 잘 이해해야 합니다.
 
 1. 이름별로 특정 워크플로우를 검색하려면 **[!UICONTROL Workflow name filter]** 필드를 사용할 수도 있습니다.
 
-   ![](assets/wkf_monitoring_filters_name.png)
-
 1. 그 사이에 몇 가지 워크플로우를 편집한 경우 **[!UICONTROL Reload data]** 단추를 클릭하여 격자에 표시되는 데이터를 새로 고칩니다.
 
-## HeatMap {#reading-the-heatmap} 읽기
+## 워크플로 HeatMap 해석 {#reading-the-heatmap}
 
 캠페인 워크플로우 HeatMap은 왼쪽 위에서 오른쪽 아래로 자연스럽게 읽을 수 있는 그리드로, 녹색-빨간색 코드 범위의 &quot;핫 존&quot;을 찾을 수 있습니다.
 
@@ -135,7 +130,7 @@ Workflow HeatMap을 사용하려면 다음 개념을 잘 이해해야 합니다.
    * 성능 문제가 발생하고 하나 이상의 빨간색 셀이 격자에 표시되는 경우 여러 워크플로우의 시작 시간을 변경하는 것이 좋습니다. 마케팅 사용자에게 작업(&quot;핫&quot;) 기간에서 사용 가능한 시간 슬롯으로 수동 워크플로우를 이동하도록 요청합니다. 이것은 하루 동안 안정된 활동 수준을 유지할 것입니다.
    * 최고점을 방지하고 인스턴스가 과부하를 방지하려면 새로운 워크플로우를 계획하기 전에 HeatMap을 살펴보고 최상의 시간을 선택하십시오. 새 워크플로우를 시작하려면 격자의 회색 또는 녹색 셀에 해당하는 시간 슬롯을 고려하십시오.
 
-### 성능 {#finding-long-running-workflows-that-impact-performance}에 영향을 주는 장시간 실행되는 워크플로우 찾기
+### 성능에 영향을 주는 긴 실행 워크플로우 찾기 {#finding-long-running-workflows-that-impact-performance}
 
 Workflow HeatMap은 캠페인 관리자로서, 활동을 느리게 할 수 있는 가장 긴 워크플로우를 찾을 수 있도록 도와줍니다.
 
@@ -151,7 +146,7 @@ Workflow HeatMap은 캠페인 관리자로서, 활동을 느리게 할 수 있�
    * 마케팅 사용자에게 처리 시간을 단축하기 위해 가장 긴 워크플로우를 분할할 것을 권장합니다.
    * 특정 워크플로우 및 특정 활동(예: JavaScript, 가져오기, 내보내기 등)에 대한 심층적인 분석을 시작하여 문제를 분리하여 보다 쉽게 해결할 수 있습니다.
 
-## 예:HeatMap을 사용하여 워크플로우 계획 개선{#example--using-the-heatmap-to-improve-workflow-planning}
+## HeatMap을 사용하여 워크플로우 계획 {#example--using-the-heatmap-to-improve-workflow-planning} 개선
 
 아래 예제는 Adobe Campaign Workflow HeatMap을 사용할 때 어떻게 계획을 보다 효율적으로 실행할 수 있으며 성능을 향상시킬 수 있는지 보여줍니다.
 
