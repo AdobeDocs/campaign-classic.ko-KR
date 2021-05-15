@@ -8,16 +8,15 @@ user-guide-description: 마케팅 투자에 대한 높은 수익을 제공하는
 solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
-translation-type: ht
-source-git-commit: b741b10fd1d3a94a3e6c71e95ff43cc0ee54ebc7
-workflow-type: ht
-source-wordcount: '2519'
-ht-degree: 100%
+source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
+workflow-type: tm+mt
+source-wordcount: '2521'
+ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Classic 안내서 {#using}
+# Adobe Campaign Classic v7 안내서 {#using}
 
 + [제품 설명서](campaign-classic-home.md)
 + [최신 업데이트](rn/using/documentation-updates.md)
@@ -138,7 +137,7 @@ ht-degree: 100%
    + 이메일 보내기 {#sending-emails}
       + [이메일 채널 정보](delivery/using/about-email-channel.md)
       + [이메일 게재를 만들기](delivery/using/creating-an-email-delivery.md)
-      + [이메일 콘텐츠 정의](delivery/using/defining-the-email-content.md)
+      + [이메일 콘텐츠를 정의합니다](delivery/using/defining-the-email-content.md)
       + [대화형 콘텐츠 정의](delivery/using/defining-interactive-content.md)
       + 이메일 게재 보내기 {#sending-an-email}
          + [이메일을 보내는 주요 단계](delivery/using/sending-messages.md)
@@ -170,7 +169,7 @@ ht-degree: 100%
       + [DM 콘텐츠 정의](delivery/using/defining-the-direct-mail-content.md)
       + [유효성 검사](delivery/using/validating.md)
    + 게재 템플릿 사용 {#using-delivery-templates}
-      + [템플릿 정보](delivery/using/about-templates.md)
+      + [템플릿 기본 정보](delivery/using/about-templates.md)
       + [게재 템플릿 만들기](delivery/using/creating-a-delivery-template.md)
       + [대상 매핑 선택](delivery/using/selecting-a-target-mapping.md)
       + [템플릿에서 게재 만들기](delivery/using/creating-a-delivery-from-a-template.md)
@@ -200,7 +199,7 @@ ht-degree: 100%
          + [게재 구성](delivery/using/a-b-testing-uc-configuring-deliveries.md)
          + [스크립트 만들기](delivery/using/a-b-testing-uc-script.md)
          + [최종 게재 정의](delivery/using/a-b-testing-uc-final-delivery.md)
-         + [워크플로우 시작](delivery/using/a-b-testing-uc-start-workflow.md)
+         + [워크플로우를 시작합니다](delivery/using/a-b-testing-uc-start-workflow.md)
          + [결과 분석](delivery/using/a-b-testing-uc-analyzing.md)
    + 서비스 및 구독 {#subscriptions-and-referrals}
       + [서비스 및 구독 정보](delivery/using/about-services-and-subscriptions.md)
@@ -375,7 +374,7 @@ ht-degree: 100%
       + [액세스 권한 구성 [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
       + [공유 자산 삽입](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [정보 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
+      + [ [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [통합 구성](integrations/using/configuring-the-integration.md)
       + [뉴스레터  [!DNL Experience Manager] 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
@@ -425,7 +424,7 @@ ht-degree: 100%
       + [셀](workflow/using/cells.md)
       + [셀별 오퍼](workflow/using/offers-by-cell.md)
       + [게재 개요](workflow/using/delivery-outline.md)
-      + [강화](workflow/using/enrichment.md)
+      + [데이터 보강](workflow/using/enrichment.md)
       + [스키마 편집](workflow/using/edit-schema.md)
       + [오퍼 엔진](workflow/using/offer-engine.md)
       + [중복 제거](workflow/using/deduplication.md)
@@ -674,7 +673,7 @@ ht-degree: 100%
    + 캠페인에 연결{#connect-to-campaign}
       + [클라이언트 콘솔 설치](installation/using/installing-the-client-console.md)
       + Adobe ID를 통해 연결 {#connecting-via-an-adobe-id}
-         + [정보 [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
+         + [ [!DNL Adobe ID] 정보](integrations/using/about-adobe-id.md)
          + [Adobe 구성 [!DNL IMS]](integrations/using/configuring-ims.md)
          + [Adobe 구현 [!DNL IMS]](integrations/using/implementing-ims.md)
          + [IMS 문제 해결](integrations/using/ims-troubleshooting.md)
@@ -731,7 +730,7 @@ ht-degree: 100%
       + [유니코드로 전환](production/using/switching-to-unicode.md)
       + [마이그레이션 프로시저](production/using/migration-procedures.md)
    + 데이터베이스 유지 관리 {#database-maintenance}
-      + [권장 사항](production/using/recommendations.md)
+      + [추천](production/using/recommendations.md)
       + [유지 관리할 표](production/using/tables-to-maintain.md)
       + [유지 관리 유형](production/using/types-of-maintenance.md)
       + [RDBMS 특정 권장 사항](production/using/rdbms-specific-recommendations.md)
