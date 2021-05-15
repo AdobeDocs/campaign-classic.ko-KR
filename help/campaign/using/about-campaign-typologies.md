@@ -6,16 +6,21 @@ description: 캠페인 타이폴로지 기본 정보
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-translation-type: tm+mt
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
+source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 13%
 
 ---
 
-
 # 캠페인 타이폴로지 기본 정보{#about-campaign-typologies}
+
+<!--
+>[!AVAILABILITY]
+>
+>:warning: This capability is not available in Campaign v8. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)
+-->
 
 캠페인 최적화는 게재 전송을 제어, 필터링 및 모니터링할 수 있는 Adobe Campaign 모듈입니다. 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제한 조건을 적용하여 다양한 조합을 테스트할 수 있습니다. 따라서 전송된 메시지는 고객과 회사 커뮤니케이션 정책의 요구 및 기대를 충족할 수 있습니다.
 
