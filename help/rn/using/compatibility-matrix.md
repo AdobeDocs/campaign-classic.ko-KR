@@ -7,11 +7,10 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-translation-type: tm+mt
 source-git-commit: 69f6fcd21b27f095781bca4a62153086382f3d7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -154,7 +153,7 @@ ht-degree: 91%
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016년</p>
+<p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p>경고: Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">자세히 알아보기</a></p>
@@ -180,13 +179,13 @@ ht-degree: 91%
 <tr>
 <td>Microsoft Dynamics 커넥터</td>
 <td>
-<p>웹 API:Dynamics 365 온-프레미스 및 온라인</p>
+<p>웹 API: Dynamics 365 온-프레미스 및 온라인</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## FDA (FEDERATED DATA ACCESS){#FederatedDataAccessFDA}
+## FDA (Federated Data Access){#FederatedDataAccessFDA}
 
 <table>
 <tbody>
@@ -221,10 +220,10 @@ ht-degree: 91%
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019년</p>
-<p>2017년</p>
-<p>2016년</p>
-<p>2014년</p>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 </tr>
@@ -277,7 +276,7 @@ ht-degree: 91%
 
 ## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
 
-:경고:캠페인 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
+:경고:Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
 
 ### 운영 체제
 
@@ -286,8 +285,8 @@ ht-degree: 91%
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016년</p>
-<p>2012년</p>
+<p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>
@@ -339,7 +338,7 @@ ht-degree: 91%
 
 ## 브라우저{#Browsers}
 
-다음 브라우저는 웹 액세스에 대한 캠페인과 호환됩니다.
+다음 브라우저는 웹 액세스에 대한 Campaign과 호환됩니다.
 
 <table>
 <tbody>
@@ -389,7 +388,7 @@ ht-degree: 91%
 
 ## 비슷한 항목 더 보기{#Morelikethis}
 
-* [Campaign Classic 릴리스 노트](../../rn/using/latest-release.md)
+* [Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)
 * [설치 안내서](../../installation/using/general-architecture.md)
 * [사용되지 않는 기능 및 시스템](../../rn/using/deprecated-features.md)
-* [빌드 업그레이드 프로시저](../../production/using/build-upgrade.md)
+* [업그레이드 프로시저 빌드](../../production/using/build-upgrade.md)
