@@ -7,11 +7,10 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-translation-type: tm+mt
 source-git-commit: 69f6fcd21b27f095781bca4a62153086382f3d7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +140,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016년</p>
+<p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p>경고: Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">자세히 알아보기</a></p>
@@ -221,10 +220,10 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019년</p>
-<p>2017년</p>
-<p>2016년</p>
-<p>2014년</p>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 </tr>
@@ -273,7 +272,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 
 ## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
 
-:경고:캠페인 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
+:경고:Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
 
 ### 운영 체제
 
@@ -282,8 +281,8 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016년</p>
-<p>2012년</p>
+<p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>
@@ -334,7 +333,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 
 ## 브라우저{#Browsers}
 
-다음 브라우저는 웹 액세스에 대한 캠페인과 호환됩니다.
+다음 브라우저는 웹 액세스에 대한 Campaign과 호환됩니다.
 
 <table>
 <tbody>
@@ -383,7 +382,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 
 ## 비슷한 항목 더 보기{#Morelikethis-gs}
 
-* [Campaign Classic 릴리스 노트](../../rn/using/latest-release.md)
+* [Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)
 * [설치 안내서](../../installation/using/general-architecture.md)
 * [사용되지 않는 기능 및 시스템](../../rn/using/deprecated-features.md)
-* [빌드 업그레이드 프로시저](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html)
+* [업그레이드 프로시저 빌드](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html)
