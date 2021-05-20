@@ -7,11 +7,10 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-translation-type: tm+mt
 source-git-commit: 9781e313e03489d203e14ab0c426aa1001c7a257
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4297'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +35,7 @@ Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 
 [권한 관리 챕터](../../platform/using/access-management.md)가 개선되어 [연산자](../../platform/using/access-management-operators.md) , [연산자 그룹](../../platform/using/access-management-groups.md), [명명된 권한](../../platform/using/access-management-named-rights.md) 및 [폴더 관리](../../platform/using/access-management-folders.md)에 대한 세부 정보를 포함하여 섹션으로 분할되었습니다.
 
 다음 새로운 페이지를 통해 캠페인을 만들고 관리하는 방법을 알아봅니다.
-* [캠페인 템플릿 만들기 및 구성](../../campaign/using/marketing-campaign-templates.md)
+* [Campaign 템플릿 만들기 및 구성](../../campaign/using/marketing-campaign-templates.md)
 * [마케팅 캠페인 게재](../../campaign/using/marketing-campaign-deliveries.md)
 * [캠페인 대상 선택](../../campaign/using/marketing-campaign-target.md)
 * [관련 문서 관리](../../campaign/using/marketing-campaign-assets.md)
@@ -44,7 +43,7 @@ Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 
 
 작업을 종료하고 향후 회수를 방지하기 위해 task.setCompleted() 메서드를 사용하는 방법에 대한 정보가 **[!UICONTROL Advanced JavaScript]** 활동 섹션에 추가되었습니다. [자세히 알아보기](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
-[전달성](../../delivery/using/about-deliverability.md) 섹션이 업데이트되었으며 이제 새 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)에 대한 링크를 포함합니다. 다양한 Adobe 솔루션에 적용될 수 있는 전달성과 관련된 모든 일반 정보는 [모범 사례 안내서 부록](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources)으로 이동되었습니다.
+[전달성](../../delivery/using/about-deliverability.md) 섹션이 업데이트되었으며 이제 새 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)에 대한 링크를 포함합니다. 다양한 Adobe 솔루션에 적용될 수 있는 전달성과 관련된 모든 일반 정보는 [모범 사례 안내서 부록](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko#additional-resources)으로 이동되었습니다.
 
 ## 2021년 2월 {#release-21.1}
 
@@ -179,9 +178,9 @@ Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추�
 
 이제 다음 주제에 관한 방법 비디오를 사용할 수 있습니다.
 
-* [분류 규칙 및 사전 정의된 필터를 사용하여 피로 관리를 설정하는 방법](../../campaign/using/about-campaign-typologies.md)
+* [유형 분류 규칙 및 사전 정의된 필터를 사용하여 피로 관리를 설정하는 방법](../../campaign/using/about-campaign-typologies.md)
 
-* [캠페인에서 이메일을 만드는 방법](../../campaign/using/marketing-campaign-deliveries.md)
+* [Campaign에서 이메일을 만드는 방법](../../campaign/using/marketing-campaign-deliveries.md)
 
 * [조건부 콘텐츠로 다국어 뉴스레터를 만드는 방법](../../delivery/using/conditional-content.md)
 
@@ -336,7 +335,7 @@ Hadoop FDA 커넥터 개선 사항 - [자세한 내용](../../installation/using
 
 설치 가이드가 업데이트 및 최신 버전의 호환성 매트릭스와 동기화되었습니다. 지원되는 새 시스템이 추가되었습니다. 사용되지 않는 시스템 및 지원되지 않는 시스템에 대한 항목이 제거되었습니다. [자세한 내용](../../installation/using/general-architecture.md)
 
-호환성 매트릭스가 Hadoop 3.0 및 Snowflake FDA 커넥터로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+호환성 매트릭스가 Hadoop 3.0 및 Snowflake FDA 커넥터로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
 설치 안내서에 IP 선호도에 대한 모범 사례가 추가되었습니다. [자세한 내용](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -354,7 +353,7 @@ URL 보고서 구성에 대한 새 매개 변수가 [여기](../../reporting/usi
 
 **Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스** 페이지가 새로운 FDA 커넥터로 업데이트되었습니다. [자세한 내용](../../installation/using/capability-matrix.md).
 
-**Campaign Classic 기능 매트릭스** 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+**Campaign Classic 기능 매트릭스** 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
 새 **[!UICONTROL Cleanup of Nmsaddress]** 워크플로우는 [여기에](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress) 설명되어 있습니다.
 
@@ -404,7 +403,7 @@ TLS(보안 SMS 메시지) - [자세한 내용](https://helpx.adobe.com/kr/campai
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-Adobe Campaign Enhanced MTA 설명서를 사용할 수 있습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA 설명서를 사용할 수 있습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acc-campaign-enhanced-mta.html)
 
 캠페인 내의 &quot;가능한 한 빨리 시작&quot; 상태에 있는 워크플로우 문제 해결 방법에 대한 새 섹션이 추가되었습니다. [자세한 내용](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -466,7 +465,7 @@ Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이
 
 **19.1 릴리스에 포함된 새로운 기능**
 
-제어판 - [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+제어판 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 
 감사 추적 - [자세한 내용](../../production/using/audit-trail.md)
 
@@ -474,7 +473,7 @@ Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이
 
 새로운 빌드 업그레이드 FAQ가 만들어졌습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/build-upgrade-faq.html)
 
-[호환성 매트릭스](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)가 업데이트되었습니다. 지원되는 데이터베이스 시스템 목록과 Android/iOS 버전 및 관련 SDK가 업데이트되었습니다. [19.0 호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix-19-0.html)가 보관되었습니다.
+[호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)가 업데이트되었습니다. 지원되는 데이터베이스 시스템 목록과 Android/iOS 버전 및 관련 SDK가 업데이트되었습니다. [19.0 호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix-19-0.html)가 보관되었습니다.
 
 &#39;Campaign Classic에서 사용하지 않거나 제거된 기능&#39; 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/deprecated-and-removed-features.html)
 
@@ -529,7 +528,7 @@ Campaign Classic에서 사용할 수 있는 다른 외부 계정 및 이를 구�
 공유 대상 통합에 대한 설명서가 업데이트되었습니다.
 [자세한 내용](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-다음 기술 정보가 업데이트되었습니다. [SMS 커넥터 프로토콜 및 설정](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) 및 [시퀀스 자동 생성](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
+다음 기술 정보가 업데이트되었습니다. [SMS 커넥터 프로토콜 및 설정](https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html) 및 [시퀀스 자동 생성](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
 기술 워크플로우 섹션이 업데이트되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
 
