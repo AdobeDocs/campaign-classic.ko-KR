@@ -8,17 +8,17 @@ user-guide-description: 마케팅 투자에 대한 높은 수익을 제공하는
 solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
-source-git-commit: 0bb3e853299c3ce0dc1bcbc2fd8a0bd4ef110bee
+source-git-commit: a9a32b383d4709d9f0adf1e886d2ec3a9d601652
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2522'
 ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Classic v7 안내서 {#using}
+# Adobe Campaign Classic v7 설명서 {#using}
 
-+ [제품 설명서](campaign-classic-home.md)
++ [Campaign v7 설명서](campaign-classic-home.md)
 + [최신 업데이트](rn/using/documentation-updates.md)
 + 릴리스 정보 {#release-notes}
    + [업그레이드 시작](rn/using/rn-overview.md)
