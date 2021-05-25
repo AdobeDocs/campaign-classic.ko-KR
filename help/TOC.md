@@ -1,24 +1,24 @@
 ---
-solution: Campaign Classic
+audience: end-user
+breadcrumb-title: 도움말 센터
 product: campaign
-sub-product: Aadobe Campaign Classic
-title: Adobe Campaign Classic v7 도움말 센터
-breadcrumb-title: Campaign Classic v7
+title: Campaign Classic 안내서
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: 마케팅 투자에 대한 높은 수익을 제공하는 크로스 채널 마케팅 Campaign을 설계, 계획, 실행, 관리 및 최적화할 수 있습니다.
-audience: end-user
+solution: Campaign Classic
+sub-product: Aadobe Campaign Classic
 type: Documentation
-source-git-commit: 43f49ecb651e37a7e166f8823c75d938338b952c
+source-git-commit: 0bb3e853299c3ce0dc1bcbc2fd8a0bd4ef110bee
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2521'
 ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Classic v7 설명서 {#campaign-v7}
+# Adobe Campaign Classic v7 안내서 {#using}
 
-+ [Campaign Classic v7 설명서](campaign-classic-home.md)
++ [제품 설명서](campaign-classic-home.md)
 + [최신 업데이트](rn/using/documentation-updates.md)
 + 릴리스 정보 {#release-notes}
    + [업그레이드 시작](rn/using/rn-overview.md)
