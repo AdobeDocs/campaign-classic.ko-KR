@@ -1,24 +1,24 @@
 ---
-audience: end-user
-breadcrumb-title: 도움말 센터
+solution: Campaign Classic
 product: campaign
-title: Campaign Classic 안내서
+sub-product: Aadobe Campaign Classic
+title: Adobe Campaign Classic v7 도움말 센터
+breadcrumb-title: Campaign Classic v7
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: 마케팅 투자에 대한 높은 수익을 제공하는 크로스 채널 마케팅 Campaign을 설계, 계획, 실행, 관리 및 최적화할 수 있습니다.
-solution: Campaign Classic
-sub-product: Aadobe Campaign Classic
+audience: end-user
 type: Documentation
-source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
+source-git-commit: 43f49ecb651e37a7e166f8823c75d938338b952c
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2522'
 ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Classic v7 안내서 {#using}
+# Adobe Campaign Classic v7 설명서 {#campaign-v7}
 
-+ [제품 설명서](campaign-classic-home.md)
++ [Campaign Classic v7 설명서](campaign-classic-home.md)
 + [최신 업데이트](rn/using/documentation-updates.md)
 + 릴리스 정보 {#release-notes}
    + [업그레이드 시작](rn/using/rn-overview.md)
@@ -55,7 +55,7 @@ ht-degree: 99%
          + [전반적 개념](platform/using/faq-key-concepts.md)
          + [빌드 업그레이드](platform/using/faq-build-upgrade.md)
          + [개인 정보](platform/using/privacy-faq.md)
-         + [대상](platform/using/faq-audiences.md)
+         + [대상자](platform/using/faq-audiences.md)
          + [메시지 디자인](platform/using/faq-designing.md)
          + [메시지 보내기](platform/using/faq-messages.md)
          + [워크플로우](platform/using/faq-workflows.md)
