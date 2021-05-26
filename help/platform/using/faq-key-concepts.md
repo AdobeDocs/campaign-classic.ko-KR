@@ -6,14 +6,13 @@ description: Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 99%
 
 ---
-
 
 # 주요 개념 {#key-concepts}
 
@@ -84,7 +83,7 @@ Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/about-email-channel.md).
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 방법 살펴보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 방법 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
 ## SMS 메시지를 보내는 방법 {#how-to-send-sms-messages-}
 
