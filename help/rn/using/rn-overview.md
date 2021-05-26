@@ -7,11 +7,10 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-translation-type: ht
-source-git-commit: 8294b522efb51cb1b961c9284675c7966132e957
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +62,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 ## 지원 및 기타 유용한 링크{#support}
 
 * [도움말 및 지원](../../support.md)
-* [Campaign 컨트롤 패널 릴리스](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
+* [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
 * [최신 설명서 업데이트](../../rn/using/documentation-updates.md)
 * [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md)
 
