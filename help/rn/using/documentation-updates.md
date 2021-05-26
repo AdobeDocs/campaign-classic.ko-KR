@@ -7,9 +7,9 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 3413a54b1f45d23dcec9bf363bcf714a94642245
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '4369'
+source-wordcount: '4367'
 ht-degree: 98%
 
 ---
@@ -441,7 +441,7 @@ Adobe Campaign과 Adobe 실시간 고객 데이터 Platform 간의 통합이 이
 
 개인화 필드 콘텐츠가 1024자를 초과할 수 없음을 지정하는 정보가 추가되었습니다. [자세한 내용](../../delivery/using/personalization-fields.md)
 
-제어판 설명서는 새로운 공동 작업 설명서 세트에 통합되었습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
+제어판 설명서는 새로운 공동 작업 설명서 세트에 통합되었습니다. [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 게재 모범 사례 시작 가이드가 업데이트되었습니다. [자세한 내용](../../delivery/using/delivery-best-practices.md)
 
@@ -477,7 +477,7 @@ Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이
 
 **19.1 릴리스에 포함된 새로운 기능**
 
-제어판 - [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+제어판 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 
 감사 추적 - [자세한 내용](../../production/using/audit-trail.md)
 
