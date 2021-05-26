@@ -5,30 +5,29 @@ title: Adobe Experience Manager 정보
 description: Adobe Experience Manager 정보
 audience: integrations
 content-type: reference
-translation-type: tm+mt
-source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
+exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Experience Manager 정보{#about-adobe-experience-manager}
 
-Adobe Campaign과 Adobe Experience Manager의 통합을 통해 Adobe Experience Manager에서 바로 양식 뿐만 아니라 이메일 전달 컨텐츠를 관리할 수 있습니다.
+Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 Adobe Experience Manager에서 직접 양식을 비롯한 이메일 게재 콘텐츠를 관리할 수 있습니다.
 
-Adobe Campaign에서 이메일 또는 랜딩 페이지를 편집하는 동안 AEM Assets 라이브러리에서 에셋을 직접 삽입할 수도 있습니다. 이 기능은 [자산](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md) 장에 자세히 설명되어 있습니다.
+Adobe Campaign에서 이메일이나 랜딩 페이지를 편집하는 동안 AEM Assets 라이브러리에서 자산을 직접 삽입할 수도 있습니다. 이 기능은 [Assets](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md) 장에 자세히 설명되어 있습니다.
 
-즉, Adobe Campaign의 전달 용량 외에도 AEM 컨텐츠 편집 기능을 모두 활용할 수 있습니다.
+즉, Adobe Campaign의 게재 기능뿐만 아니라 AEM 컨텐츠 편집 기능을 모두 활용할 수 있습니다.
 
-**사전 요구 사항**
+**필수 구성 요소**
 
 다음 요소가 있어야 합니다.
 
-* Adobe Experience Manager **authoring** 인스턴스입니다.
-* Adobe Experience Manager **게시** 인스턴스입니다.
-* Adobe Campaign 인스턴스입니다.
+* Adobe Experience Manager **authoring** 인스턴스.
+* Adobe Experience Manager **게시** 인스턴스.
+* Adobe Campaign 인스턴스.
 
 Adobe Campaign은 Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 및 6.5와 호환됩니다. 다음 섹션에서는 통합에 대한 개요를 제공합니다.
 
@@ -36,10 +35,4 @@ Adobe Campaign은 Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 및 6.5와 호환�
 >
 >Adobe Experience Manager 6.5에서는 Adobe Campaign Classic 템플릿을 더 이상 사용할 수 없습니다.
 
-자세한 내용은 해당 버전의 Adobe Experience Manager에 제공된 설명서를 참조하십시오.
-
-* [Adobe Experience Manager 6.1을 보려면 여기를 클릭하십시오.](https://docs.adobe.com/docs/en/aem/6-1/administer/integration/marketing-cloud/campaign/campaignonpremise.html)
-* [Adobe Experience Manager 6.2를 보려면 여기를 클릭하십시오.](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/campaign/campaignonpremise.html)
-* [Adobe Experience Manager 6.3을 보려면 여기를 클릭하십시오.](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/campaignonpremise.html)
-* [Adobe Experience Manager 6.4를 보려면 여기를 클릭하십시오.](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html)
-* [Adobe Experience Manager 6.5를 보려면 여기를 클릭하십시오.](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html)
+자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html) 를 참조하십시오
