@@ -1,27 +1,25 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 요소 및 속성
 description: 요소 및 속성
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: fb0862f9-5dcc-49f2-b99b-9822aaf3a680
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 7%
 
 ---
 
-
 # keyfield 요소 {#keyfield--element}
 
-## 컨텐트 모델 {#content-model-9}
+## 컨텐츠 모델 {#content-model-9}
 
 keyfield:==EMPTY
 
-## 특성 {#attributes-9}
+## 속성 {#attributes-9}
 
 * @xlink (MNTOKEN)
 * @xpath (MNTOKEN)
@@ -36,12 +34,12 @@ keyfield:==EMPTY
 
 ## 설명 {#description-9}
 
-이 요소는 색인 또는 키에 통합할 필드를 정의합니다.
+이 요소는 인덱스 또는 키에 통합할 필드를 정의합니다.
 
 ## 특성 설명 {#attribute-description-9}
 
 * **xlink(MNTOKEN)**:관계식 테이블(N-N 링크)에 대해 조인에 정의된 외래 키를 자동으로 참조할 수 있도록 해줍니다.
-* **xpath(MNTOKEN)**:요소에 대한 색인 또는 키의  `<attribute>`  정의입니다. 이 속성은 키 또는 인덱스를 정의하는 스키마 속성의 경로를 정의하는 Xpath를 받습니다.
+* **xpath(MNTOKEN)**:요소에 대한 인덱스 또는 키의  `<attribute>`  정의입니다. 이 속성은 키 또는 인덱스를 정의하는 스키마 속성의 경로를 정의하는 Xpath를 수신합니다.
 
 ## 예제 {#examples-}
 
