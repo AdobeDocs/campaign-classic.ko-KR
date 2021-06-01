@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 8%
@@ -112,7 +112,7 @@ POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일�
 
    운영자 폴더에 정의된 계정의 암호입니다.
 
-이 구성에 대한 자세한 내용은 이 [page](../../message-center/using/creating-a-shared-connection.md#control-instance)을 참조하십시오.
+이 구성에 대한 자세한 내용은 이 [page](../../message-center/using/configuring-instances.md#control-instance)을 참조하십시오.
 
 
 ## 외부 시스템 외부 계정에 대한 액세스
