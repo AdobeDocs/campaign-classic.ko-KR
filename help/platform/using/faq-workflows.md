@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 워크플로우 FAQ
 description: Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+exl-id: 7d1bb3c6-d056-4212-9500-75459a0046fa
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 97%
 
 ---
-
 
 # 워크플로우 FAQ {#workflows-faq}
 
@@ -25,7 +23,7 @@ Adobe Campaign 워크플로우를 통해 프로세스와 작업을 오케스트�
 
 ## Campaign에서 데이터를 가져오려면 어떻게 해야 합니까? {#how-can-i-import-data-in-campaign-}
 
-[이 섹션](../../platform/using/import-export-best-practices.md)에서 데이터를 가져오는 모범 사례에 대해 알아봅니다.
+[이 섹션](../../platform/using/import-export-best-practices.md)에서 데이터를 가져오는 모범 사례에 대해 배웁니다.
 
 ## 워크플로우 실행을 모니터링할 수 있습니까? {#can-i-monitor-workflow-execution-}
 
