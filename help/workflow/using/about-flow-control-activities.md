@@ -1,35 +1,32 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 흐름 제어 활동 정보
 description: 흐름 제어 활동 정보
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 7%
 
 ---
 
-
 # 흐름 제어 활동 정보{#about-flow-control-activities}
 
-다음 활동은 데이터베이스 활동입니다.그들의 주요 임무는 다른 활동을 조정하는 것이다.
+다음 활동은 데이터베이스 활동입니다.그들의 주요 임무는 다른 활동을 조정하는 것입니다.
 
-* **시작 및 종료**:워크플로우의 시작점과 끝점을 표시할 수 있습니다. [시작 및 종료](../../workflow/using/start-and-end.md)를 참조하십시오.
+* **시작 및 종료**:워크플로우의 시작 및 종료 지점을 표시할 수 있습니다. [시작 및 종료](../../workflow/using/start-and-end.md)를 참조하십시오.
 * **포크**:모든 아웃바운드 전환을 활성화할 수 있습니다. [포크](../../workflow/using/fork.md) 섹션을 참조하십시오.
-* **약속**:계속하기 전에 동시에 여러 작업이 완료될 때까지 기다릴 수 있습니다. [포크](../../workflow/using/fork.md) 섹션을 참조하십시오.
-* **스케줄러**:워크플로우 실행 일정을 정의할 수 있습니다. [스케줄러](../../workflow/using/scheduler.md)을 참조하십시오.
+* **약속**:작업을 진행하기 전에 동시에 여러 작업이 완료될 때까지 대기할 수 있습니다. [포크](../../workflow/using/fork.md) 섹션을 참조하십시오.
+* **스케줄러**:워크플로우 실행 일정을 정의할 수 있습니다. [스케줄러](../../workflow/using/scheduler.md)를 참조하십시오.
 * **테스트**:테스트 결과를 기반으로 전환을 활성화합니다. [테스트](../../workflow/using/test.md)를 참조하십시오.
-* **대기**:지정된 시간 제한 후 아웃바운드 전환을 활성화합니다. [대기](../../workflow/using/wait.md)를 참조하십시오.
+* **대기**:지정된 시간 제한 후 아웃바운드 전환을 활성화합니다. [Wait](../../workflow/using/wait.md)를 참조하십시오.
 * **시간 제한**:설정된 기간 동안 작업을 일시 중지할 수 있습니다. [시간 제한](../../workflow/using/time-constraint.md)을 참조하십시오.
-* **하위 워크플로우**:다른 워크플로우를 실행할 수 있습니다. [하위 워크플로](../../workflow/using/sub-workflow.md)를 참조하십시오.
-* **이동**:링크 없이 전환을 구현할 수 있습니다. [점프(시작 지점 및 종료 지점)](../../workflow/using/jump--start-point-and-end-point-.md)를 참조하십시오.
+* **하위 워크플로우**:다른 워크플로우를 실행할 수 있습니다. [하위 워크플로우](../../workflow/using/sub-workflow.md)를 참조하십시오.
+* **점프**:링크 없이 전환을 구현할 수 있습니다. [이동(시작점 및 끝점)](../../workflow/using/jump--start-point-and-end-point-.md)을 참조하십시오.
 * **외부 신호**:외부 신호를 받은 후 아웃바운드 전환을 활성화할 수 있습니다. [외부 신호](../../workflow/using/external-signal.md) 섹션을 참조하십시오.
-* **승인**:연산자 또는 연산자 그룹에 이메일을 보내고 승인을 기다리는 동안 실행을 계속할 수 있습니다. [승인](../../workflow/using/approval.md) 섹션을 참조하십시오.
+* **승인**:운영자 또는 운영자 그룹에 이메일을 전송하고 승인을 대기시켜 실행을 계속할 수 있습니다. [승인](../../workflow/using/approval.md) 섹션을 참조하십시오.
 * **경고**:연산자 또는 연산자 그룹에 경고를 보낼 수 있습니다. [경고](../../workflow/using/alert.md) 섹션을 참조하십시오.
 * **작업**:작업 실행을 구성할 수 있습니다. [작업](../../workflow/using/task.md) 섹션을 참조하십시오.
-
