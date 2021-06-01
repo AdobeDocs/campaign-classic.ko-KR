@@ -1,30 +1,28 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 추가 웹 추적 매개 변수
-description: 웹 추적을 위한 매개 변수에 대한 자세한 내용
+description: 웹 추적에 대한 매개 변수에 대해 자세히 알아보십시오
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
 
 ---
 
-
 # 추가 매개 변수{#additional-parameters}
 
 ## 매개 변수 정의 {#definition-of-parameters}
 
-Adobe Campaign 플랫폼은 표준으로 2개의 TRANSACTION 형식 웹 추적 매개 변수를 제공합니다.
+Adobe Campaign 플랫폼에서는 표준으로 두 개의 TRANSACTION-type 웹 추적 매개 변수를 제공합니다.
 
-* **금액**:트랜잭션 금액을 나타냅니다.
-* **아티클**:트랜잭션의 항목 수를 나타냅니다.
+* **금액**:거래 금액을 나타냅니다.
+* **문서**:거래의 항목 수를 나타냅니다.
 
-이러한 매개 변수는 **nms:webTrackingLog** 스키마에 정의되며 보고에 표시되는 표시기 중 일부입니다.
+이러한 매개 변수는 **nms:webTrackingLog** 스키마에 정의되어 있으며, 보고에 표시되는 일부 표시기입니다.
 
 추가 매개 변수를 정의하려면 이 스키마를 확장해야 합니다.
 
@@ -42,23 +40,23 @@ Adobe Campaign 플랫폼은 표준으로 2개의 TRANSACTION 형식 웹 추적 �
 </srcSchema>
 ```
 
-배달 또는 수신자의 추적 로그 목록을 구성하여 이러한 매개 변수의 값을 표시할 수 있습니다.
+추적 로그 목록(게재 또는 수신자)을 구성하여 이러한 매개 변수의 값을 표시할 수 있습니다.
 
 ## 리디렉션 서버 구성 {#redirection-server-configuration}
 
-서버 구성에서 웹 추적 매개 변수를 고려하여 사용할 최대 문자 수를 정의할 수 있습니다.
+서버 구성에서 웹 추적 매개 변수에 고려할 최대 문자 수를 정의할 수 있습니다.
 
 >[!IMPORTANT]
 >
 >고려할 최대 문자 수를 늘리면 플랫폼의 웹 추적 성능에 영향을 줄 수 있습니다.
 
-이렇게 하려면 **serverConf.xml** 파일에서 **`<trackinglogd>`** 요소의 **webTrackingParamSize** 특성을 수정합니다. 이 파일은 Adobe Campaign 설치 디렉토리의 **conf** 하위 디렉토리에 저장됩니다.
+이렇게 하려면 **serverConf.xml** 파일에서 **`<trackinglogd>`** 요소의 **webTrackingParamSize** 속성을 수정합니다. 이 파일은 Adobe Campaign 설치 디렉토리의 **conf** 하위 디렉토리에 저장됩니다.
 
 **예제**:
 
-기본값은 64자입니다. 이 값을 사용하면 **amount** 및 **article**(&quot;amount=xxxxxx&amp;article=xxxxxxxx&quot;) 표준 매개 변수를 고려할 수 있습니다.
+기본값은 64자입니다. 이 값을 사용하면 **amount** 및 **article**(&quot;amount=xxxxxxxxxx&amp;article=xxxxxxxx&quot;) 표준 매개 변수를 고려할 수 있습니다.
 
-위의 확장 스키마 예제에 표시된 매개 변수(이름 + 값 크기)를 모두 고려하여 100자를 고려하여 구성을 수정하여 계정에 포함할 수 있습니다(&quot;amount=xxxxxxxx&amp;article=xxxxxxxxxxxx&amp;mode=xxxxxxxxxx&amp;code=xxxxx&quot;).
+위의 확장 스키마 예에서 표시된 매개 변수(이름 + 값 크기)를 모두 고려하여 구성을 수정하여 100자를 고려하여 (&quot;amount=xxxxxxxxxx&amp;article=xxxxxxxxxxxxxxxx&amp;mode=xxxxxxxxxx&amp;code=xxxxxxxxx&quot;)할 수 있습니다.
 
 ```
 <trackinglogd args="" autoStart="false" initScript="" maxCreateFileRetry="5" maxLogsSizeOnDiskMb="500"
@@ -67,25 +65,25 @@ processRestartTime="06:00:00" purgeLogsPeriod="50000" runLevel="10"
 webTrackingParamSize="64"/>
 ```
 
-구성이 수정되면 다음을 수행해야 합니다.
+구성을 수정한 경우 다음을 수행해야 합니다.
 
-* 리디렉션 모듈(Apache, IIS 등)을 호스트하는 웹 서버를 중지합니다.
-* Adobe Campaign 서버를 중지합니다.Windows의 **net stop nlserver6**, Linux의 **/etc/init.d/nlserver6 stop**,
+* 리디렉션 모듈(Apache, IIS 등)을 호스팅하는 웹 서버를 중지합니다.
+* Adobe Campaign 서버를 중지합니다.**net stop nlserver6** in Windows, **/etc/init.d/nlserver6 stop** in Linux,
 
    >[!NOTE]
    >
-   >20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우).**systemctl stop nlserver**
+   >20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우).**systemctl stop nlserver**
 
 * Linux에서 **ipcrm** 명령을 사용하여 공유 메모리 세그먼트를 삭제합니다.
-* Adobe Campaign 서버를 다시 시작합니다.Windows의 **net start nlserver6**, Linux의 **/etc/init.d/nlserver6 start**
+* Adobe Campaign 서버를 다시 시작합니다.**net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux,
 
    >[!NOTE]
    >
-   >20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우).**systemctl 시작 nlserver**
+   >20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우).**systemctl start nlserver**
 
 * 웹 서버를 다시 시작합니다.
 
-**예**:Linux의 구성을 고려합니다.
+**예**:Linux에서 구성을 고려합니다.
 
 ```
 adobe@selma:~$ systemctl stop nlserver
@@ -111,5 +109,4 @@ adobe@selma:~$ systemctl start apache2
 
 >[!NOTE]
 >
->Linux의 경우 **webTrackingParamSize** 또는 **maxSharedLogs** 매개 변수의 크기를 늘리려면 공유 메모리(SHM)의 크기를 늘려야 할 수 있습니다.
-
+>Linux의 경우 **webTrackingParamSize** 또는 **maxSharedLogs** 매개 변수의 크기를 늘리는 경우 공유 메모리(SHM)의 크기를 늘려야 할 수 있습니다.
