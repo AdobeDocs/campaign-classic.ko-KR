@@ -1,37 +1,35 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 요소 및 속성
 description: 요소 및 속성
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 3%
 
 ---
 
-
 # 메서드 요소 {#method--element}
 
-## 컨텐트 모델 {#content-model-10}
+## 컨텐츠 모델 {#content-model-10}
 
-메서드:==( help | 매개 변수)
+메서드:==( 도움말 | 매개 변수)
 
-## 특성 {#attributes-10}
+## 속성 {#attributes-10}
 
-* @_operation (문자열)
-* @access (문자열)
-* @const (boolean)
-* @hidden (boolean)
-* @label (문자열)
-* @library (문자열)
+* @_operation (string)
+* @access (string)
+* @const (부울)
+* @hidden (부울)
+* @label (string)
+* @library (string)
 * @name (MNTOKEN)
-* @pkonly (boolean)
-* @static (boolean)
+* @pkonly (부울)
+* @static (부울)
 
 ## 부모 {#parents-10}
 
@@ -46,24 +44,24 @@ ht-degree: 3%
 
 이 요소를 사용하면 SOAP 메서드를 정의할 수 있습니다.
 
-## 사용 및 사용 상황{#use-and-context-of-use-7}
+## 사용 컨텍스트 {#use-and-context-of-use-7} 사용
 
 SOAP 메서드를 사용하면 응용 프로그램 프로세스를 사용할 수 있습니다.
 
-&quot;@library&quot;은 새 메서드(기본적으로 제공되지 않음)를 선언하는 데 필요합니다.네임스페이스와 라이브러리에 사용되는 이름은 선언이 있는 스키마의 이름 및 네임스페이스와 독립적입니다.
+@library은 새 메서드(비기본)를 선언하는 데 필요합니다.네임스페이스와 라이브러리에 사용되는 이름은 선언이 있는 스키마의 네임스페이스 및 이름과 독립적입니다.
 
 ## 특성 설명 {#attribute-description-10}
 
-* **액세스(문자열)**:이 속성은 메서드 사용에 대한 액세스 제어를 정의합니다. 이 속성이 없으면 식별은 필수입니다. 사용 가능한 값은 다음과 같습니다.&#39;anonymous&#39;, &#39;admin&#39; 및 &#39;sql&#39;.
-* **const (boolean)**:이 속성이 활성화되면 선언된 메서드에서 엔티티가
-* **label (string)**:메서드의 레이블입니다.
-* **라이브러리(문자열)**:이 메서드는 응용 프로그램이 고유하지 않습니다. 이 속성은 메서드 정의가 있는 메서드 라이브러리 값을 사용합니다(nms:mylibrary.js).
-* **이름(MNTOKEN)**:고유한 메서드 이름.
-* **정적(부울)**:이 속성을 활성화하면 이 메서드는 자치적인 것으로 간주되므로 호출될 때 메서드에 모든 매개 변수를 지정해야 합니다.
+* **액세스(문자열)**:이 속성은 메서드 사용에 대한 액세스 제어를 정의합니다. 이 속성이 없으면 식별이 필수입니다. 사용 가능한 값은 다음과 같습니다.&#39;anonymous&#39;, &#39;admin&#39; 및 &#39;sql&#39;.
+* **const(부울)**:활성화된 경우 이 속성은 선언된 메서드가 엔터티를 변경함을 의미합니다
+* **레이블(문자열)**:메서드의 레이블입니다.
+* **라이브러리(문자열)**:이 메서드는 응용 프로그램이 고유하지 않습니다. 이 속성은 메서드 정의가 있는 메서드 라이브러리 값을 가져옵니다(nms:mylibrary.js).
+* **이름(MNTOKEN)**:고유한 메서드 이름입니다.
+* **정적(부울)**:이 속성을 활성화하면 메서드가 자치적으로 간주되며, 메서드가 호출될 때 모든 매개 변수를 메서드에 지정해야 합니다.
 
 ## 예제 {#examples-7}
 
-&quot;구독&quot;의 정의:
+기본 제공 &quot;Subscribe&quot;에 대한 정의:
 
 ```
  
