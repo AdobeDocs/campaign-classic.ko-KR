@@ -8,10 +8,10 @@ user-guide-description: 마케팅 투자에 대한 높은 수익을 제공하는
 solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
-source-git-commit: a9a32b383d4709d9f0adf1e886d2ec3a9d601652
+source-git-commit: a9054fb8e10bef37675922b2f81c7615cd04c1bb
 workflow-type: tm+mt
-source-wordcount: '2522'
-ht-degree: 99%
+source-wordcount: '2477'
+ht-degree: 98%
 
 ---
 
@@ -567,40 +567,26 @@ ht-degree: 99%
       + [인바운드 채널에 대한 오퍼](interaction/using/offers-on-an-inbound-channel.md)
       + [아웃바운드 채널에 대한 오퍼](interaction/using/offers-on-an-outbound-channel.md)
 + 트랜잭션 메시지 {#transactional-messaging}
-   + 트랜잭션 메시지 시작 {#introduction}
-      + [트랜잭션 메시지 정보](message-center/using/about-transactional-messaging.md)
+   + [트랜잭션 메시지 시작](message-center/using/about-transactional-messaging.md)
+   + 트랜잭션 메시지 구성 {#configure-transactional-messaging}
       + [트랜잭션 메시지 아키텍처](message-center/using/transactional-messaging-architecture.md)
-      + [이벤트 설명](message-center/using/event-description.md)
-   + 인스턴스 구성 {#instance-configuration}
-      + [공유 연결 만들기](message-center/using/creating-a-shared-connection.md)
-      + [실행 인스턴스 식별](message-center/using/identifying-execution-instances.md)
-      + [임계값 모니터링](message-center/using/monitoring-thresholds.md)
-      + [이벤트 제거](message-center/using/purging-events.md)
-      + [기술 워크플로우](message-center/using/technical-workflows.md)
-      + [이벤트 유형 만들기](message-center/using/creating-event-types.md)
-      + [멀티브랜딩 구성](message-center/using/configuring-multibranding.md)
+      + [인스턴스 구성](message-center/using/configuring-instances.md)
+      + [추가 구성](message-center/using/additional-configurations.md)
    + 메시지 템플릿 {#message-templates}
-      + [트랜잭션 메시지 템플릿 정보](message-center/using/introduction.md)
-      + [메시지 템플릿 만들기](message-center/using/creating-the-message-template.md)
-      + [메시지 콘텐츠 만들기](message-center/using/creating-message-content.md)
-      + [트랜잭션 메시지의 시드 주소 관리](message-center/using/managing-seed-addresses-in-transactional-messages.md)
-      + [개인화 데이터](message-center/using/personalization-data.md)
-      + [트랜잭션 메시지 미리 보기](message-center/using/transactional-message-preview.md)
-      + [증명 보내기](message-center/using/sending-a-proof.md)
-      + [템플릿 게시](message-center/using/template-publication.md)
-      + [템플릿 게시 취소](message-center/using/template-unpublication.md)
-   + 이벤트 처리 {#event-processing}
-      + [이벤트 처리 정보](message-center/using/about-event-processing.md)
-      + [이벤트 컬렉션](message-center/using/event-collection.md)
-      + [템플릿을 향해 라우팅](message-center/using/routing-towards-a-template.md)
+      + [이벤트 유형 만들기](message-center/using/creating-event-types.md)
+      + [메시지 템플릿 디자인](message-center/using/creating-the-message-template.md)
+      + [메시지 템플릿 테스트](message-center/using/testing-message-templates.md)
+      + [메시지 템플릿 게시](message-center/using/publishing-message-templates.md)
+   + 트랜잭션 이벤트 처리 {#processing}
+      + [이벤트 설명](message-center/using/event-description.md)
+      + [이벤트 처리](message-center/using/about-event-processing.md)
       + [게재 실행](message-center/using/delivery-execution.md)
    + 보고서 {#reports}
-      + [트랜잭션 메시지 보고서 정보](message-center/using/about-transactional-messaging-reports.md)
+      + [트랜잭션 메시지 보고서에 액세스](message-center/using/about-transactional-messaging-reports.md)
       + [메시지 센터 이벤트 내역](message-center/using/history-of-message-center-events.md)
       + [메시지 센터 서비스 수준](message-center/using/message-center-service-level.md)
       + [메시지 센터 처리 시간](message-center/using/message-center-processing-time.md)
-   + 활용 사례 {#use-case}
-      + [첨부 파일이 있는 트랜잭션 이메일 보내기](message-center/using/transactional-email-with-attachments.md)
+   + [활용 사례](message-center/using/transactional-email-with-attachments.md)
 + 소셜 미디어와 통합 {#integrating-with-social-media}
    + [소셜 마케팅 정보](social/using/about-social-marketing.md)
    + 구성 {#configuration}
