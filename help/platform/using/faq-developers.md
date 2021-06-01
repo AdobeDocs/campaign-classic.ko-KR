@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 일반적인 질문
 description: Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 20552812-5c58-4d48-9636-d5135197685d
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 
 ---
-
 
 # 개발자 FAQ {#dev-faq}
 
@@ -41,7 +39,7 @@ Adobe Campaign에서 데이터 스키마는 다음 용도로 사용됩니다.
 
 Campaign에서 비표준 수신자 테이블을 만들고 구현하여 메시지를 보낼 수 있습니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오.](../../configuration/using/about-custom-recipient-table.md)
+[자세한 내용을 보려면 여기를 클릭하십시오](../../configuration/using/about-custom-recipient-table.md)
 
 ## Campaign에서 쿼리를 정의하는 모범 사례는 무엇입니까? {#what-are-the-best-practices-to-define-queries-in-campaign-}
 
