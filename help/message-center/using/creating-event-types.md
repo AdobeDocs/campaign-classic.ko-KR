@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 이벤트 유형 만들기
 description: Adobe Campaign Classic에서 전송하려는 트랜잭션 메시지와 일치하는 이벤트 유형을 만드는 방법을 알아봅니다.
@@ -7,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 98b7c827-f31d-46a6-a28d-40a78a4b4248
-source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 3%
