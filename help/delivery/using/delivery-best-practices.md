@@ -1,22 +1,20 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: 캠페인 전달 모범 사례
+title: Campaign 게재 모범 사례
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 24%
 
 ---
 
-
 # 게재 모범 사례 {#delivery-best-practices}
 
-Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다. 아래 링크를 사용하여 항목을 탐색하고 지침을 찾으십시오.
+Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다. 아래 링크를 사용하여 항목을 탐색하고 지침을 찾을 수 있습니다.
 
 <table>
 <tr>
@@ -30,7 +28,7 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
     </a>
     </div>
     <p>
-    <em>전송 프로세스의 보안 및 최적화</em>
+    <em>전송 프로세스 보안 및 최적화</em>
     <p>
   </td>
    <td>
@@ -43,7 +41,7 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
     </a>
     </div>
     <p>
-    <em>새 배달 지원 및 고정</em>
+    <em>새로운 게재를 간편하게 지원하고 신속하게 처리합니다</em>
     <p>
   </td>
   <td>
@@ -67,11 +65,11 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
     </a>
     <div>
       <a href="define-the-right-audience.md">
-    <strong>적합한 대상 정의</strong>
+    <strong>적합한 대상자 정의</strong>
     </a>
     </div>
     <p>
-    <em>타깃팅된 채우기가 핵심입니다.</em>
+    <em>타겟팅된 모집단이 핵심입니다.</em>
     <p>
   </td>
    <td>
@@ -84,7 +82,7 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
     </a>
     </div>
     <p>
-    <em>일반적인 실수 방지</em>
+    <em>일반적인 실수를 피하세요</em>
     <p>
   </td>
   <td>
@@ -97,16 +95,16 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
     </a>
     </div>
     <p>
-    <em>전송 및 문제 해결 제어</em>
+    <em>보내기 및 문제 해결 제어</em>
     <p>
   </td>
 </tr>
 </table>
 
-참조 항목:
+다음을 참조하십시오.
 
-* [전달 가능성 시작하기](../../delivery/using/about-deliverability.md)
+* [게재 기능 시작](../../delivery/using/about-deliverability.md)
 
-* [배달 만들기 단계](../../delivery/using/steps-about-delivery-creation-steps.md)
+* [게재 만들기 단계](../../delivery/using/steps-about-delivery-creation-steps.md)
 
 * [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html)
