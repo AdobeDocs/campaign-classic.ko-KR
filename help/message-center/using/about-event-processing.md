@@ -7,7 +7,7 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+source-git-commit: c41ca3d518391a648629ebc3fcd4c916e92c3a79
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 2%
@@ -23,6 +23,7 @@ ht-degree: 2%
 이벤트 데이터의 예:
 
 ![](assets/messagecenter_events_request_001.png)
+
 ## 이벤트 처리 단계 {#event-processing}
 
 트랜잭션 메시지 이벤트를 처리하려면 실행 인스턴스에 다음 단계가 적용됩니다.
