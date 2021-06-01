@@ -1,21 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: 기술 문서
-description: 기술 문서
+title: 기술 정보
+description: 기술 정보
 hide: true
 hidefromtoc: true
-translation-type: tm+mt
-source-git-commit: a50f094ae2f00060cfeb19dbc94534906728a28f
+exl-id: d288fe86-0564-45f2-8777-606abdea531f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '6'
 ht-degree: 0%
 
 ---
 
+# 기술 정보 {#about}
 
-# 기술 문서 {#about}
-
-[기술 문서 다운로드](guidelines.pdf)
-
-
+[기술 정보 다운로드](guidelines.pdf)
