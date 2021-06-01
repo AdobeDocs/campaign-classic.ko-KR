@@ -5,10 +5,9 @@ product: campaign
 title: Campaign Classic 안내서
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: 마케팅 투자에 대한 높은 수익을 제공하는 크로스 채널 마케팅 Campaign을 설계, 계획, 실행, 관리 및 최적화할 수 있습니다.
-solution: Campaign Classic
 sub-product: Aadobe Campaign Classic
 type: Documentation
-source-git-commit: a9054fb8e10bef37675922b2f81c7615cd04c1bb
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '2477'
 ht-degree: 98%
