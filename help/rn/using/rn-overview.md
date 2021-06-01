@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 업그레이드 시작
 description: Campaign Classic 업그레이드에 대한 자세한 내용
@@ -7,7 +6,7 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 98%
@@ -38,7 +37,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ![](assets/do-not-localize/red3.png) **사용되지 않음** - 배포가 없습니다. 기존 구현을 업그레이드해야 합니다.
 
-## 추천{#recommendations}
+## Recommendations{#recommendations}
 
 안정적인 구성을 위해서는 동일한 클라이언트 구성에서 실행 중인 모든 서버에 동일한 안정적인 빌드를 설치하는 것이 좋습니다.
 
