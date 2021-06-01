@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 보안 영역 구성
 description: 보안 영역을 구성하는 방법 알아보기
@@ -7,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 1%
