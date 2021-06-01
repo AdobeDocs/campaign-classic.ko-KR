@@ -6,9 +6,9 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
@@ -181,7 +181,7 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **marketing** �
 
 * 두 인스턴스에 **[!UICONTROL LINE Connect]** 패키지를 설치합니다.
 * 마케팅 인스턴스에 **[!UICONTROL Transactional message control]** 패키지, 실행 인스턴스에 **[!UICONTROL Transactional message execution]** 패키지를 설치합니다.
-* 동기화하기 위해 동일한 이름을 가진 두 인스턴스에 LINE **외부 계정** 및 **서비스**&#x200B;를 만듭니다. LINE 외부 계정 및 서비스를 만드는 방법에 대한 자세한 내용은 이 [page](../../delivery/using/line-channel.md#creating-a-line-account-and-an-external-account-)을 참조하십시오.
+* 동기화하기 위해 동일한 이름을 가진 두 인스턴스에 LINE **외부 계정** 및 **서비스**&#x200B;를 만듭니다. LINE 외부 계정 및 서비스를 만드는 방법에 대한 자세한 내용은 [이 섹션](../../delivery/using/line-channel.md#setting-up-line-channel)을 참조하십시오.
 
 그런 다음 **[!UICONTROL Explorer]** **[!UICONTROL Platform]** > **[!UICONTROL External account]**&#x200B;에서 두 인스턴스에 서로 다른 외부 계정을 구성해야 합니다.
 
@@ -248,4 +248,4 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **marketing** �
 
 
 
-1. 이제 트랜잭션 메시지 만들기를 시작할 수 있습니다. 자세한 정보는 이 [페이지](../../message-center/using/creating-the-message-template.md)를 참조하십시오.
+1. 이제 [트랜잭션 메시지 만들기](../../message-center/using/creating-the-message-template.md)를 시작할 수 있습니다.
