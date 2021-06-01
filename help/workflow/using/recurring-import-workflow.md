@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 반복 가져오기 설정
 description: 반복 가져오기에 대한 워크플로우 템플릿을 구성하는 방법을 알아봅니다.
@@ -7,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
