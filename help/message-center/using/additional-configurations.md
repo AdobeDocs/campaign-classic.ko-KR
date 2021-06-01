@@ -6,9 +6,9 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '747'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 ## 임계값 모니터링 {#monitoring-thresholds}
 
-**메시지 센터 서비스 수준** 및 **메시지 센터 처리 시간** 보고서에 표시되는 표시기의 경고 임계값(주황색) 및 경고 임계값(빨간색)을 구성할 수 있습니다([트랜잭션 메시지 보고서 정보](../../message-center/using/about-transactional-messaging-reports.md) 참조).
+**메시지 센터 서비스 수준** 및 **메시지 센터 처리 시간** 보고서에 표시되는 표시기의 경고 임계값(주황색)과 경고 임계값(빨간색)을 구성할 수 있습니다([트랜잭션 메시지 보고서 액세스](../../message-center/using/about-transactional-messaging-reports.md) 참조).
 
 이렇게 하려면 아래 단계를 수행합니다:
 
@@ -109,7 +109,7 @@ Once the control and execution modules are installed on the same instance, you m
 
    >[!NOTE]
    >
-   >[컨트롤 인스턴스](../../message-center/using/configuring-instances.md#control-instance) 섹션에서 실행 인스턴스 유형 외부 계정을 만드는 방법을 알아봅니다.
+   >[이 섹션](../../message-center/using/configuring-instances.md#control-instance)에서 실행 인스턴스 유형 외부 계정을 만드는 방법을 알아봅니다.
 
 1. nms:extAccount 스키마를 확장하여 추적 URL을 추가합니다.
 
