@@ -1,21 +1,19 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 정보
 description: 주요 기능, 사용자 인터페이스 및 글로벌 지침을 살펴보십시오.
-feature: Overview
+feature: 개요
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '912'
 ht-degree: 95%
 
 ---
 
-
-# Campaign Classic 시작{#about-adobe-campaign-classic}
+# Campaign Classic{#about-adobe-campaign-classic} 시작
 
 높은 수준의 고객 참여도와 훌륭한 경험을 제공하려면 브랜드는 모든 접점에서 일관된 고객 여정을 만들어야 합니다. 마케터는 이제 마케팅 투자에 대한 높은 수익을 제공하고 충성도를 높일 수 있는 크로스 채널 마케팅 캠페인을 효율적으로 디자인, 계획, 실행, 관리 및 최적화할 수 있습니다.
 
@@ -23,7 +21,7 @@ Adobe Campaign을 사용하면 대화형 마케팅 캠페인 만들기를 조정
 
 >[!NOTE]
 >
->Adobe Campaign Classic은 v6.11 및 v7에서 사용할 수 있습니다. 언급된 경우를 제외하고, 도움말 자료는 [최신 빌드](../../rn/using/latest-release.md)에서 두 버전 모두에 적용됩니다. 스크린샷은 Campaign Classic v7 사용자 인터페이스를 반영합니다.
+>Adobe Campaign Classic은 v6.11 및 v7에서 사용할 수 있습니다. 언급된 경우를 제외하고 도움말 자료는 [최신 빌드](../../rn/using/latest-release.md)에서 두 버전 모두에 적용됩니다. 스크린샷은 Campaign Classic v7 사용자 인터페이스를 반영합니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오의 주요 기능 및 기능 살펴보기](#video)
 
@@ -67,7 +65,7 @@ Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 
 
 ## 핵심 기능 및 추가 기능 {#core-capabilities-and-add-ons}
 
-Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 기능을 구현하고 최적화하는 데 도움이 되는 기능의 집합을 제공합니다. 일부는 핵심 기능이며 일부는 패키지 설치 및 구성에 따라 다릅니다. 자세한 제품 설명은 [Adobe Campaign Classic 제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic—product-description.html)에 나와 있습니다.
+Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 기능을 구현하고 최적화하는 데 도움이 되는 기능의 집합을 제공합니다. 일부는 핵심 기능이며 일부는 패키지 설치 및 구성에 따라 다릅니다. 자세한 제품 설명은 [Adobe Campaign Classic 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-classic---product-description.html)에 나와 있습니다.
 
 다음 기능을 사용할 수 있습니다. 사용권 계약에 따라 이러한 기능 중 일부를 사용자 인스턴스에 사용하거나 사용하지 않을 수 있습니다.
 
@@ -87,10 +85,10 @@ Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 �
 * [웹 서비스](../../configuration/using/about-web-services.md) - API/웹 서비스를 통해 캠페인 사용,
 * [보고](../../reporting/using/about-adobe-campaign-reporting-tools.md) - 기본 제공 보고서에 액세스하고 데이터를 분석하며 보고서를 디자인할 수 있습니다.
 
-## 자습서 비디오 {#video}
+## 튜토리얼 비디오 {#video}
 
 이 비디오에서는 Campaign Classic의 주요 기능과 기능을 제공합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
-추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Classic 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에 있습니다.
