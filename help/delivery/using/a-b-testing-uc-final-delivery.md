@@ -1,31 +1,29 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: 최종 배달 정의
-description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법을 살펴볼 수 있습니다.
+title: 최종 게재 정의
+description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법을 알아봅니다.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
-translation-type: tm+mt
-source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
+exl-id: bc23a444-a872-48fb-8bba-64b301541089
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
+# 최종 게재 정의 {#step-6--defining-the-final-delivery}
 
-# 최종 배달 정의 {#step-6--defining-the-final-delivery}
-
-A/B 테스트 우승자를 선택하기 위해 스크립트가 만들어지면 최종 전달의 매개 변수를 정의할 수 있습니다.
+스크립트가 만들어져서 A/B 테스트 승자를 선택하면 최종 게재의 매개 변수를 정의할 수 있습니다.
 
 1. **[!UICONTROL JavaScript code]** 활동을 나머지 **[!UICONTROL Delivery]** 활동에 연결합니다.
 1. **[!UICONTROL Delivery]** 활동을 엽니다.
-1. **[!UICONTROL Generate an outbound transition]** 옵션의 선택을 취소하여 이 활동과 함께 워크플로우를 완료합니다.
-1. 다른 옵션을 기본값으로 둡니다.
+1. **[!UICONTROL Generate an outbound transition]** 옵션의 선택을 취소하여 이 활동으로 워크플로우를 완료합니다.
+1. 다른 옵션은 기본값으로 둡니다.
 
    ![](assets/ab_test_final_delivery.png)
 
-전환(**[!UICONTROL Javascript Code]** 활동을 통해 정의됨)에 지정된 배달을 준비하면 다음 단계에 설명된 대로 승인하고 전송을 시작할 수 있습니다.
+전환(**[!UICONTROL Javascript Code]** 활동을 통해 정의됨)에 지정된 게재를 준비하면 다음 단계에 설명된 대로 승인하고 전송을 시작할 수 있습니다.
 
-이제 워크플로우를 시작할 수 있습니다([7단계 참조:워크플로](../../delivery/using/a-b-testing-uc-start-workflow.md))를 시작합니다.
+이제 워크플로우를 시작할 수 있습니다( [7단계 참조).워크플로우 시작](../../delivery/using/a-b-testing-uc-start-workflow.md)).
