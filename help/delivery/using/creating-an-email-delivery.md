@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 전자 메일 게재 만들기
 description: 전자 메일 게재 만들기
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 21%
 
 ---
-
 
 # 이메일 게재 만들기{#creating-an-email-delivery}
 
@@ -21,12 +19,12 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->배달 생성에 대한 글로벌 개념은 [이 섹션](../../delivery/using/steps-about-delivery-creation-steps.md)에 있습니다.
+>게재 만들기에 대한 글로벌 개념은 [이 섹션](../../delivery/using/steps-about-delivery-creation-steps.md)에 나와 있습니다.
 
-1. 배달 대시보드와 같은 새 배달을 만듭니다.
-1. 배달 템플릿 **이메일 배달(메일)** 또는 만든 이메일 배달 템플릿을 선택합니다. 배달 템플릿에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-templates.md)을 참조하십시오.
+1. 게재 대시보드와 같은 새 게재를 만듭니다.
+1. 게재 템플릿 **이메일 배달(메일)** 또는 만든 이메일 게재 템플릿을 선택합니다. 게재 템플릿에 대한 자세한 정보는 [이 섹션](../../delivery/using/about-templates.md)을 참조하십시오.
 
    ![](assets/s_ncs_user_wizard_email01_1.png)
 
-1. 레이블, 코드 및 설명을 사용하여 배달을 식별합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery)을 참조하십시오.
-1. 이 정보를 확인하고 메시지 구성 창을 표시하려면 **계속**&#x200B;을 클릭합니다.
+1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery)을 참조하십시오.
+1. **계속**&#x200B;을 클릭하여 이 정보를 확인하고 메시지 구성 창을 표시합니다.
