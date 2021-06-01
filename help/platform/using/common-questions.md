@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 일반적인 질문
 description: Adobe Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
+exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 97%
 
 ---
-
 
 # 일반적인 질문{#common-questions}
 
@@ -29,7 +27,7 @@ Campaign Classic을 사용하여 작업하는 동안 도움이 필요하십니�
 
 Adobe Campaign Classic은 특히 다양한 기술을 사용하여 가치를 전달하고 있습니다. 이러한 기술의 조합은 정기적인 Campaign Classic 인스턴스의 업그레이드를 요구하여 최신 버전이 뛰어난 보안, 안정성 및 성능을 제공하는 데 사용되도록 합니다.
 
-Adobe Managed Services를 사용하는 경우 캠페인 [!DNL Gold Standard] 업그레이드의 혜택을 받을 수 있습니다. 자세한 정보는 [이 문서](../../rn/using/gs-overview.md)를 참조하십시오.
+Adobe Managed Services를 사용하는 경우 Campaign [!DNL Gold Standard] 업그레이드를 활용할 수 있습니다. 자세한 정보는 [이 문서](../../rn/using/gs-overview.md)를 참조하십시오.
 
 [이 섹션을 참조](../../production/using/build-upgrade.md)하여 환경을 업데이트하고 이 특정 주제에 대한 [일반적인 질문](../../platform/using/faq-build-upgrade.md)을 읽는 방법을 알아봅니다.
 
@@ -75,4 +73,3 @@ Adobe Campaign Classic에 연결하려면 Adobe Campaign 클라이언트 콘솔�
 Adobe는 전자 메일 게재를 위해 DNS(Domain Name System)를 고려하며, 이를 통해 클라이언트는 도메인 이름과 함께 DNS 별칭을 사용하여 브랜드 이미지를 유지하고, Adobe는 전자 메일 전송 중에 게재 능력을 최적화할 수 있도록 하는 모든 기술 모범 사례를 자체적으로 구현할 수 있습니다.
 
 [자세한 내용을 보려면 여기를 클릭하십시오](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html).
-
