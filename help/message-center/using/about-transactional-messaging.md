@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 6%
@@ -40,7 +40,7 @@ ht-degree: 6%
 
 Adobe Campaign 트랜잭션 메시지 모듈은 개인화된 트랜잭션 메시지로 변경할 이벤트를 반환하는 정보 시스템에 통합됩니다. 이러한 메시지는 개별적으로 또는 이메일, SMS 또는 푸시 알림을 통해 일괄적으로 전송할 수 있습니다.
 
-이 기능은 **실행 인스턴스**&#x200B;가 **제어 인스턴스**&#x200B;에서 분리된 특정 아키텍처에 의존합니다. 이러한 배포는 가용성을 높이고 로드 관리를 향상시킵니다. 자세한 내용은 [트랜잭션 메시지 인스턴스](../../message-center/using/transactional-messaging-architecture.md)를 참조하십시오.
+이 기능은 **실행 인스턴스**&#x200B;가 **제어 인스턴스**&#x200B;에서 분리된 특정 아키텍처에 의존합니다. 이러한 배포는 가용성을 높이고 로드 관리를 향상시킵니다. 자세한 내용은 [트랜잭션 메시지 아키텍처](../../message-center/using/transactional-messaging-architecture.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -81,8 +81,8 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 
 트랜잭션 메시지 템플릿을 디자인하고 게시하면 해당 이벤트가 트리거되는 경우 아래 주요 단계는 **실행 인스턴스**&#x200B;에서 수행됩니다.
 
-1. 외부 정보 시스템에서 이벤트가 생성되면 관련 데이터가 **PushEvent** 및 **PushEvents** 메서드를 통해 Campaign으로 전송됩니다. [이벤트 컬렉션](#event-collection)을 참조하십시오.
-1. 이벤트는 적절한 메시지 템플릿에 연결됩니다. [템플릿을 향해 라우팅](#routing-towards-a-template)을 참조하십시오.
+1. 외부 정보 시스템에서 이벤트가 생성되면 관련 데이터가 **PushEvent** 및 **PushEvents** 메서드를 통해 Campaign으로 전송됩니다. [이벤트 컬렉션](../../message-center/using/about-event-processing.md#event-collection)을 참조하십시오.
+1. 이벤트는 적절한 메시지 템플릿에 연결됩니다. [템플릿을 향해 라우팅](../../message-center/using/about-event-processing.md#routing-towards-a-template)을 참조하십시오.
 1. 데이터 보강 단계가 완료되면 게재가 전송됩니다. [게재 실행](../../message-center/using/delivery-execution.md)을 참조하십시오. 타겟팅된 각 수신자는 개인화된 메시지를 수신합니다.
 
 ## 관련 항목 {#related-topics}
@@ -90,4 +90,4 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 * [소통 채널 시작](../../delivery/using/communication-channels.md)
 * [게재 만들기 주요 단계](../../delivery/using/steps-about-delivery-creation-steps.md)
 * [트랜잭션 메시지 아키텍처](../../message-center/using/transactional-messaging-architecture.md)
-* [트랜잭션 메시지 보고서 정보](../../message-center/using/about-transactional-messaging-reports.md)
+* [트랜잭션 메시지 보고서에 액세스](../../message-center/using/about-transactional-messaging-reports.md)
