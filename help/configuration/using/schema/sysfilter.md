@@ -1,27 +1,25 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 요소 및 속성
 description: 요소 및 속성
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: a0069688-fd05-42e9-91dd-adc10bea3461
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 18%
 
 ---
 
-
 # sysfilter 요소 {#sysfilter--element}
 
-## 컨텐트 모델 {#content-model-15}
+## 컨텐츠 모델 {#content-model-15}
 
 sysFilter:==condition
 
-## 특성 {#attributes-15}
+## 속성 {#attributes-15}
 
 없음
 
@@ -39,7 +37,7 @@ sysFilter:==condition
 
 ## 특성 설명 {#attribute-description-15}
 
-이 요소에는 속성이 없습니다.
+이 요소에는 특성이 없습니다.
 
 ## 예제 {#examples-12}
 
