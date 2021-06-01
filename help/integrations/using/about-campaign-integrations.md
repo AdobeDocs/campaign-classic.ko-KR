@@ -1,13 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: Campaign 통합 기본 정보
+title: Campaign 통합 정보
 description: 다른 Adobe 솔루션을 사용하여 다양한 기능을 Campaign과 결합할 수 있습니다.
 audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 9%
@@ -26,7 +25,7 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스의 �
 
 >[!CAUTION]
 >
->이러한 통합의 대부분은 Adobe ID을 통해 로그인하려면 IMS(Adobe Identity Management System)를 구현해야 합니다. [자세한 내용은 이 페이지에서 확인하십시오](../../integrations/using/about-adobe-id.md).
+>이러한 통합의 대부분은 Adobe ID을 통해 로그인하려면 IMS(Adobe Identity Management System)를 구현해야 합니다. [이 페이지](../../integrations/using/about-adobe-id.md)에서 자세히 알아보십시오.
 
 
 ## 솔루션 연결 {#working-with-experience-cloud-solutions}
