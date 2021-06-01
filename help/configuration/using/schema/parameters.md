@@ -1,27 +1,25 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 요소 및 속성
 description: 요소 및 속성
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: 54538c3e-3232-4bf7-a09c-dacf0f072be5
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 17%
 
 ---
 
-
 # 매개 변수 요소 {#parameters--element}
 
-## 컨텐트 모델 {#content-model-13}
+## 컨텐츠 모델 {#content-model-13}
 
 매개 변수:==param
 
-## 특성 {#attributes-13}
+## 속성 {#attributes-13}
 
 없음
 
@@ -35,9 +33,9 @@ ht-degree: 17%
 
 ## 설명 {#description-13}
 
-이 요소는 `<parameter>` 요소의 그룹을 정의합니다.
+이 요소는 `<parameter>` 요소 그룹을 정의합니다.
 
-## 사용 및 사용 상황{#use-and-context-of-use-8}
+## 사용 컨텍스트 {#use-and-context-of-use-8} 사용
 
 이 요소는 `<method>` 요소의 단일 `<param>` 하위 요소에 대해서도 필수입니다.
 
