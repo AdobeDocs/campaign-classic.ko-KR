@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 빌드 업그레이드 시작
 description: 새 빌드로 업그레이드하는 주요 단계를 배웁니다.
@@ -7,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 2%
