@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 파일 압축 또는 암호화
 description: 처리 전에 Campaign Classic에서 파일을 압축 또는 암호화하는 방법을 알아봅니다.
@@ -7,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -24,7 +23,7 @@ Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 내보�
 
    >[!NOTE]
    >
-   >Campaign 컨트롤 패널은 관리자 사용자로 제한되어 있으며, 특정 Campaign 버전에만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html)
+   >Campaign 컨트롤 패널은 관리자 사용자로 제한되어 있으며, 특정 Campaign 버전에만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)
 
 1. Adobe Campaign 설치가 Adobe에 의해 호스팅되는 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하여 서버에 필요한 유틸리티를 설치하도록 하십시오.
 1. Adobe Campaign의 설치를 온-프레미스하는 경우 사용할 유틸리티를 설치합니다(예:GPG, GZIP) 및 애플리케이션 서버에 필요한 키(암호화 키)가 포함되어 있습니다.
