@@ -1,33 +1,29 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: 일반 가져오기 및 내보내기 정보
+title: 일반 가져오기 및 내보내기 기본 정보
 description: 일반 가져오기 및 내보내기에 대해 자세히 알아보십시오.
-feature: Overview
+feature: 개요
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '118'
 ht-degree: 5%
 
 ---
 
+# 작업 가져오기 및 내보내기 {#about-generic-imports-exports} 시작
 
-# 가져오기 및 내보내기 작업 시작 {#about-generic-imports-exports}
-
-Adobe Campaign Classic은 일반적인 가져오기 및 내보내기를 제공합니다. 예를 들어 대상 인구의 일부로 될 고객 또는 잠재 고객 목록을 추출하거나 외부 파일의 데이터를 데이터베이스에 제공할 수 있습니다.
+Adobe Campaign Classic은 일반 가져오기 및 내보내기를 제공합니다. 예를 들어 대상 모집단의 일부가 될 고객 또는 잠재 고객 목록을 추출하거나 외부 파일의 데이터를 데이터베이스에 제공할 수 있습니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](../../platform/using/exporting-and-importing-profiles.md#import-profiles-video)
 
-일반 가져오기 및 내보내기 기능은 Adobe Campaign 트리의 **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** 노드에서 관리됩니다.
+일반 가져오기 및 내보내기는 Adobe Campaign 트리의 **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** 노드에서 관리됩니다.
 
 일반 가져오기 및 내보내기 작업을 수행하는 단계는 다음과 같습니다.
 
-1. [가져오기 또는 내보내기 템플릿을](../../platform/using/creating-import-export-templates.md)  만듭니다(선택 사항).
+1. [가져오기 또는 내보내기 템플릿을 만듭니다](../../platform/using/creating-import-export-templates.md) (선택 사항).
 1. [가져오기 또는 내보내기 작업을 만듭니다](../../platform/using/creating-import-export-jobs.md).
 1. [가져오기](../../platform/using/executing-import-jobs.md) 또는 [내보내기](../../platform/using/executing-export-jobs.md) 작업을 구성하고 실행합니다.
-1. [작업 ](../../platform/using/monitoring-jobs-execution.md) 실행을 모니터링합니다.
-
-
+1. [](../../platform/using/monitoring-jobs-execution.md) 작업 실행을 모니터링합니다.
