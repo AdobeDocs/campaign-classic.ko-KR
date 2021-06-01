@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 작업 실행 모니터링
-description: 가져오기 작업 실행을 모니터링하고 내보내는 방법을 알아봅니다.
+description: 가져오기 및 내보내기 작업 실행을 모니터링하는 방법을 알아봅니다.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
+exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
-
 
 # 작업 실행 모니터링 {#monitoring-job-execution}
 
@@ -26,17 +24,17 @@ ht-degree: 3%
 
 **[!UICONTROL General]** 탭에서 **[!UICONTROL Status]** 필드는 작업의 현재 상태를 나타냅니다.
 
-각 상태는 특수 아이콘과 레이블로 표시됩니다. 상태 및 아이콘은 다음과 같습니다.
+각 상태는 특수 아이콘 및 레이블로 표시됩니다. 상태 및 아이콘은 다음과 같습니다.
 
 ![](assets/s_ncs_user_export_status.png)
 
 * **편집 진행 중**
 
-   작업을 만드는 중입니다.
+   작업을 만들고 있습니다.
 
-* **실행 중**
+* **실행 진행 중**
 
-   작업을 실행 중입니다.
+   작업이 실행 중입니다.
 
 * **취소**
 
@@ -46,15 +44,15 @@ ht-degree: 3%
 
    취소 명령이 고려되었으며 작업이 취소되었습니다.
 
-* **일시 중지 진행 중**
+* **일시 정지 진행 중**
 
-   **[!UICONTROL Pause]**&#x200B;을 클릭합니다.작업이 일시 중단되고 있습니다.
+   **[!UICONTROL Pause]** 클릭:작업이 일시 중단되었습니다.
 
 * **일시 중지됨**
 
-   **[!UICONTROL Pause]**&#x200B;을 클릭합니다.작업이 일시 중단됩니다. **[!UICONTROL Start]**&#x200B;을 클릭하여 다시 시작할 수 있습니다.
+   **[!UICONTROL Pause]** 클릭:작업이 일시 중단되었습니다. **[!UICONTROL Start]** 을 클릭하여 다시 시작할 수 있습니다.
 
-* **완료**
+* **완료됨**
 
    작업 실행이 완료되었습니다.
 
@@ -64,4 +62,4 @@ ht-degree: 3%
 
 * **서버 종료 진행 중**
 
-   Adobe Campaign 서버가 종료되었기 때문에 진행 중인 작업이 중단됩니다.
+   Adobe Campaign 서버가 종료되었기 때문에 진행 중인 작업이 중단되었습니다.
