@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: SQL 코드 및 JavaScript 코드
-description: SQL 및 JavaScript 코드 워크플로우 활동에 대한 자세한 내용
+description: SQL 및 JavaScript 코드 워크플로우 활동에 대해 자세히 알아보기
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
-source-git-commit: add0efb4efd5a37129c649b942799622947f3143
+exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 3%
 
 ---
-
 
 # SQL 코드 및 JavaScript 코드{#sql-code-and-javascript-code}
 
@@ -41,7 +39,7 @@ ht-degree: 3%
 
 이러한 활동에서 사용할 수 있는 **[!UICONTROL Stop execution after]** 필드에서 이 지연을 변경할 수 있습니다.
 
-이 제한을 무시하려면 값을 **0**&#x200B;으로 설정해야 합니다.
+이 제한을 무시하려면 값을 **0**&#x200B;로 설정해야 합니다.
 
 ### JavaScript 코드 {#js-code-desc}
 
@@ -49,7 +47,7 @@ ht-degree: 3%
 
 * **[!UICONTROL Script]**:편집기의 중앙 영역에는 실행할 스크립트가 포함되어 있습니다.
 
-* **[!UICONTROL Process errors]**:처리  [오류를 참조하십시오](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+* **[!UICONTROL Process errors]**:처리  [오류](../../workflow/using/monitoring-workflow-execution.md#processing-errors)를 참조하십시오.
 
 ### 고급 JavaScript 코드 {#adv-js-code-desc}
 
@@ -58,9 +56,9 @@ ht-degree: 3%
 * **[!UICONTROL First call]**:편집기의 첫 번째 영역에는 첫 번째 호출 동안 실행할 스크립트가 포함됩니다.
 * **[!UICONTROL Next calls]**:편집기의 두 번째 영역에는 다음 호출 동안 실행할 스크립트가 포함됩니다.
 * **[!UICONTROL Transitions]**:여러 활동 출력 전환을 정의할 수 있습니다.
-* **[!UICONTROL Schedule]**:이  **[!UICONTROL Schedule]** 탭에서는 활동을 트리거할 시기를 예약할 수 있습니다.
+* **[!UICONTROL Schedule]**:탭 **[!UICONTROL Schedule]** 을 사용하면 활동을 트리거할 시기를 예약할 수 있습니다.
 
-고급 JavaScript는 지속적인 작업이며, 완료로 표시되지 않은 경우 정기적으로 호출됩니다. 작업을 종료하고 향후 리콜을 방지하려면 **[!UICONTROL Next calls]** 섹션에서 **task.setCompleted()** 메서드를 사용해야 합니다.
+고급 JavaScript는 영구적 작업이며, 완료로 표시되지 않은 경우 주기적으로 호출됩니다. 작업을 종료하고 향후 리콜을 방지하려면 **[!UICONTROL Next calls]** 섹션에서 **task.setCompleted()** 메서드를 사용해야 합니다.
 
 ```
 task.postEvent(task.transitionByName("ok")); // to transition to Ok branch
