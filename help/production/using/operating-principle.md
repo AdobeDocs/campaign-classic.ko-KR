@@ -1,31 +1,29 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 운영 원칙
 description: 운영 원칙
 audience: production
 content-type: reference
 topic-tags: production-procedures
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 1%
 
 ---
 
-
 # 운영 원칙{#operating-principle}
 
 기술적으로 Adobe Campaign 플랫폼은 여러 모듈을 기반으로 합니다.
 
-다양한 Adobe Campaign 모듈이 있습니다. 일부는 지속적으로 작동하지만, 다른 작업은 (예: 데이터베이스 연결 구성) 관리 작업을 수행하거나 반복적인 작업(예: 추적 정보 통합)을 실행하기 위해 종종 시작됩니다.
+많은 Adobe Campaign 모듈이 있습니다. 일부는 지속적으로 작동하지만 일부는 관리 작업(예: 데이터베이스 연결 구성)을 수행하거나 반복 작업(예: 추적 정보 통합)을 실행하기 위해 가끔 시작됩니다.
 
-다음과 같은 3가지 유형의 Adobe Campaign 모듈이 있습니다.
+다음과 같은 세 가지 유형의 Adobe Campaign 모듈이 있습니다.
 
-* 다중 인스턴스 모듈:하나의 프로세스가 모든 인스턴스에 대해 실행됩니다. 다음 모듈에도 적용됩니다.**web**, **syslogd**, **trackinglogd** 및 **watchdog**(**config-default.xml** 파일의 활동)
-* 모노 인스턴스 모듈:한 프로세스는 인스턴스당 실행됩니다. 다음 모듈에도 적용됩니다.**mta**, **wfserver**, **inMail**, **sms** 및 **stat**(**config-`<instance>`.xml** 파일의 활동)).
-* 유틸리티 모듈:이러한 모듈은 가끔 실행되어 종종 가끔 또는 반복적인 작업(**정리**, **config**, 추적 로그 다운로드 등)을 수행하는 모듈입니다.
+* 다중 인스턴스 모듈:모든 인스턴스에 대해 단일 프로세스가 실행됩니다. 이는 다음 모듈에 적용됩니다.**web**, **syslogd**, **trackinglogd** 및 **watchdog** (**config-default.xml** 파일의 활동)
+* 모노 인스턴스 모듈:하나의 프로세스는 인스턴스당 실행됩니다. 이는 다음 모듈에 적용됩니다.**mta**, **wfserver**, **inMail**, **sms** 및 **stat**(**config-`<instance>`.xml** 파일의 활동)
+* 유틸리티 모듈:이러한 모듈은 가끔 또는 반복적인 작업을 수행하기 위해 실행되는 모듈입니다(**cleanup**, **config**, 추적 로그 다운로드 등).
 
 모듈 관리는 설치 폴더의 **bin** 디렉토리에 설치된 명령줄 도구 **nlserver**&#x200B;를 사용하여 수행됩니다.
 
@@ -33,50 +31,50 @@ ht-degree: 1%
 
 **nlserver  `<command>``<command arguments>`**
 
-사용 가능한 모듈 목록은 **nlserver** 명령을 사용합니다.
+사용 가능한 모듈 목록에 대해서는 **nlserver** 명령을 사용합니다.
 
-사용 가능한 모듈은 다음 표에 자세히 나와 있습니다.
+사용 가능한 모듈은 다음 표에 자세히 설명되어 있습니다.
 
 | 명령 | 설명 |
 |---|---|
 | aliasCleaning | 열거형 값 표준화 |
-| 청구 | 시스템 활동 보고서를 billing@neolane.net으로 보내기 |
-| 정리 | 데이터베이스 정리:데이터베이스에서 오래된 데이터를 삭제하고 데이터베이스 엔진 최적기에 사용되는 통계 업데이트를 실행합니다. |
+| 과금 | 시스템 활동 보고서를 billing@neolane.net에 보내는 중 |
+| cleanup | 데이터베이스 정리:데이터베이스에서 오래된 데이터를 삭제하고 데이터베이스 엔진 최적기에서 사용하는 통계 업데이트를 실행합니다. |
 | config | 서버 구성 수정 |
-| 카피베이스 | 데이터베이스 복사본 |
-| 내보내기 | 명령줄로 내보내기:Adobe Campaign 클라이언트 콘솔에서 만든 내보내기 모델을 명령줄에 보낼 수 있습니다. |
+| copybase | 데이터베이스 복사 |
+| 내보내기 | 명령줄에서 내보내기:명령줄에서 Adobe Campaign 클라이언트 콘솔에서 만든 내보내기 모델을 보낼 수 있습니다. |
 | fileconvert | 설정된 크기 파일 변환 |
-| import | 명령줄에 가져오기:Adobe Campaign 클라이언트 콘솔에서 만든 가져오기 모델을 명령줄에서 전송할 수 있습니다. |
+| 가져오기 | 명령줄에서 가져오기:Adobe Campaign 클라이언트 콘솔에서 만든 가져오기 모델을 명령줄에서 보낼 수 있습니다. |
 | inMail | 인바운드 메일 분석기 |
 | 설치 프로그램 | 고객 설치 파일의 가용성 |
-| javascript | SOAP API에 대한 액세스 권한이 있는 JavaScript 스크립트 실행 |
-| job | 명령줄 처리 |
+| javascript | SOAP API에 대한 액세스를 사용하여 JavaScript 스크립트 실행. |
+| 작업 | 명령줄 처리 |
 | 병합 | 양식 병합 |
-| midSourcing | 중간 소싱 모드에서 납품 정보 복구 |
+| midSourcing | 중간 소싱 모드에서 게재 정보 복구 |
 | 모니터 | XML 서버 프로세스 및 예약된 작업의 상태를 인스턴스별로 표시합니다. |
 | mta | 주 에이전트 전송 메시지 |
-| package | 개체 패키지 파일 가져오기 또는 내보내기 |
+| 패키지 | 엔티티 패키지 파일 가져오기 또는 내보내기 |
 | pdump | 서버 프로세스 상태 표시 |
-| 준비 | 배달 작업 준비 |
-| 재시작 | 부분 서버 다시 시작 |
+| 준비 | 게재 작업 준비 |
+| 다시 시작 | 부분 서버 다시 시작 |
 | runwf | 워크플로우 인스턴스 실행 |
 | 종료 | 전체 시스템 종료 |
 | sms | SMS 알림 처리 |
 | sql | SQL 스크립트 실행 |
-| 시작 | 추가 시작 |
+| start | 추가 시작 |
 | stat | MTA 연결 통계 유지 |
 | stop | 부분 시스템 종료 |
-| 제출 | 배달 작업 제출 |
+| submitda | 게재 작업 제출 |
 | sylogd | 로그 및 추적 쓰기 서버 |
 | 추적 | 추적 로그 통합 및 검색 |
-| trackinglogs | 추적 로그 쓰기 및 제거 서버 |
+| trackinglogd | 추적 로그 쓰기 및 제거 서버 |
 | 감시 | 시작 및 모니터링 인스턴스 |
-| 웹 | 응용 프로그램 서버(HTTP 및 SOAP) |
-| wfserver | 워크플로 서버 |
+| 웹 | 애플리케이션 서버(HTTP 및 SOAP) |
+| wfserver | 워크플로우 서버 |
 
 >[!IMPORTANT]
 >
->마지막 모듈이 하나 있습니다.성능을 위해 기본 메커니즘을 통해 Apache 또는 IIS 웹 서버에 동적 라이브러리를 통해 통합된 추적 및 릴레이 모듈입니다. 이 모듈을 시작하거나 관리할 수 있는 Adobe Campaign 명령이 없습니다. 따라서 웹 서버 자체의 명령을 사용해야 합니다.
+>마지막 모듈이 하나 있습니다.애플리케이션 서버에 연결된 추적 및 릴레이 모듈은 성능을 위해 기본 메커니즘을 통해 동적 라이브러리를 통해 Apache 또는 IIS 웹 서버로 통합됩니다. 이 모듈을 시작하거나 관리할 수 있는 Adobe Campaign 명령이 없습니다. 따라서 웹 서버 자체의 명령을 사용해야 합니다.
 
 모듈 사용 및 해당 매개 변수의 구문은 다음 명령을 사용하여 표시됩니다.**nlserver `[module]` -?**
 
@@ -126,4 +124,3 @@ Usage: nlserver [-verbose:<verbose mode>] [-?|h|H] [-version] [-noconsole]
 -filter : applies the XTK filter contained in the file during loading of the schema entities.
 -setactivationkey : sets the activation key
 ```
-
