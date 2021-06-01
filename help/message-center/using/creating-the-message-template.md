@@ -6,9 +6,9 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >이벤트 유형을 미리 만들어야 합니다. 자세한 내용은 [이벤트 유형 만들기](../../message-center/using/creating-event-types.md)를 참조하십시오.
 
-트랜잭션 메시지 템플릿에는 트랜잭션 메시지를 개인화하는 데 필요한 정보가 포함되어 있습니다. 템플릿을 사용하여 최종 타겟에 게재하기 전에 메시지 미리 보기를 테스트하고 시드 주소를 사용하여 증명을 전송할 수도 있습니다. 자세한 내용은 [트랜잭션 메시지 템플릿 테스트](../../message-center/using/testing-message-templates.md)를 참조하십시오.
+트랜잭션 메시지 템플릿에는 트랜잭션 메시지를 개인화하는 데 필요한 정보가 포함되어 있습니다. 템플릿을 사용하여 최종 타겟에 게재하기 전에 메시지 미리 보기를 테스트하고 시드 주소를 사용하여 증명을 전송할 수도 있습니다. 자세한 내용은 [테스트 트랜잭션 메시지 템플릿](../../message-center/using/testing-message-templates.md)을 참조하십시오.
 
 ## 메시지 템플릿 만들기 {#creating-message-template}
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ## 메시지 콘텐츠 {#creating-message-content} 만들기
 
-트랜잭션 메시지 콘텐츠의 정의는 Adobe Campaign의 일반 게재와 동일합니다. 예를 들어 이메일 게재의 경우 HTML 또는 텍스트 형식으로 콘텐츠를 만들거나 첨부 파일을 추가하거나 게재 개체를 개인화할 수 있습니다. 자세한 내용은 [전자 메일 게재](../../delivery/using/about-email-channel.md)의 장을 참조하십시오.
+트랜잭션 메시지 콘텐츠의 정의는 Adobe Campaign의 일반 게재와 동일합니다. 예를 들어 이메일 게재의 경우 HTML 또는 텍스트 형식으로 콘텐츠를 만들거나 첨부 파일을 추가하거나 게재 개체를 개인화할 수 있습니다. 자세한 내용은 [전자 메일 배달](../../delivery/using/about-email-channel.md) 장을 참조하십시오.
 
 >[!IMPORTANT]
 >
