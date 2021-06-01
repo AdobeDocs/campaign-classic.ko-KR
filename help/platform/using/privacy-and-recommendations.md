@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 개인 정보 및 동의
 description: 개인 정보 및 동의에 대한 자세히 알아보기
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2038'
 ht-degree: 100%
 
