@@ -1,20 +1,19 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: 캠페인 타이폴로지 기본 정보
-description: 캠페인 타이폴로지 기본 정보
+title: 캠페인 유형 분류 정보
+description: 캠페인 유형 분류 정보
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 13%
 
 ---
 
-# 캠페인 타이폴로지 기본 정보{#about-campaign-typologies}
+# 캠페인 유형 분류 정보{#about-campaign-typologies}
 
 <!--
 >[!AVAILABILITY]
