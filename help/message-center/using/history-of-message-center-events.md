@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 메시지 센터 이벤트 내역
 description: 메시지 센터 이벤트 내역 보고서에 대해 자세히 알아보십시오 .
@@ -7,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
-source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 7%
