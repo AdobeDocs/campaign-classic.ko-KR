@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 유니코드로 전환
 description: 유니코드로 전환
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 4cfecf2f-cf98-42c1-b979-cdd26d5de48b
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 7%
 
 ---
-
 
 # 유니코드로 전환{#switching-to-unicode}
 
@@ -39,7 +37,7 @@ Linux/PostgreSQL의 기존 **prod** 인스턴스의 경우 유니코드로 전�
    createdb -E UNICODE mydatabase_unicode
    ```
 
-1. 데이터베이스 복원:
+1. 데이터베이스를 복원합니다.
 
    ```
    psql mydatabase_unicode < mydatabase.sql
@@ -95,8 +93,7 @@ Linux/PostgreSQL의 기존 **prod** 인스턴스의 경우 유니코드로 전�
    /etc/init.d/apache start
    ```
 
-1. 스위치를 확인합니다. 이렇게 하려면 Adobe Campaign 콘솔을 통해 연결하고 다음을 수행하십시오.
+1. 스위치를 확인합니다. 이렇게 하려면 Adobe Campaign 콘솔을 통해 연결 및 다음을 수행하십시오.
 
-   * 특히 강조된 문자에서 데이터가 올바르게 표시되는지 확인합니다.
-   * 배달을 실행하고 추적 검색이 작동하는지 확인합니다.
-
+   * 데이터가 특히 약화된 문자에서 올바르게 표시되는지 확인합니다.
+   * 게재를 시작하고 추적 검색이 작동하는지 확인합니다.
