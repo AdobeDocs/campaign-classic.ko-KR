@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 모니터링 지침
 description: Campaign 인스턴스 및 프로세스를 모니터링하기 위한 지침과 모범 사례를 알아봅니다.
@@ -7,10 +6,10 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -51,7 +50,7 @@ Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monit
 
 **컨트롤 패널**
 
-Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관리할 수 있습니다.URL 권한을 관리하고, 서버의 빌드 버전 등과 같은 인스턴스 세부 사항을 확인합니다. 또한 인스턴스에 연결된 SFTP 서버에서 사용 가능한 공간을 모니터링할 수도 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)하십시오.
+Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관리할 수 있습니다.URL 권한을 관리하고, 서버의 빌드 버전 등과 같은 인스턴스 세부 사항을 확인합니다. 또한 인스턴스에 연결된 SFTP 서버에서 사용 가능한 공간을 모니터링할 수도 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)하십시오.
 
 >[!NOTE]
 >
