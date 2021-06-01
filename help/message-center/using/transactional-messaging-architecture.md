@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 트랜잭션 메시지 아키텍처
 description: 이 섹션에서는 Adobe Campaign Classic 트랜잭션 메시지 아키텍처와 트랜잭션 메시지를 전달하는 데 사용할 수 있는 채널을 설명합니다.
@@ -7,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: a9054fb8e10bef37675922b2f81c7615cd04c1bb
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 1%
