@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 워크플로우 사용 사례 기본 정보
 description: Campaign Classic 워크플로우를 사용하여 수행할 수 있는 사용 사례에 대해 자세히 알아보십시오.
@@ -8,20 +7,19 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 346b72d522c947b2a2552176b910ded8d622f3ab
+exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 68%
 
 ---
 
-
 # 워크플로우 사용 사례 기본 정보 {#about-workflow-use-cases}
 
-이 섹션에서는 캠페인 워크플로우 기능을 활용하는 다양한 활용 사례를 확인할 수 있습니다.
+이 섹션에서는 Campaign 워크플로우 기능을 활용하는 다양한 사용 사례를 찾을 수 있습니다.
 
-워크플로우가 사용되고 필요에 따라 대응할 수 있는 다양한 컨텍스트를 파악하는 데 도움이 됩니다.
+워크플로우를 사용하고 요구 사항에 대응할 수 있는 다양한 컨텍스트를 발견하는 데 도움이 됩니다.
 
 ## 게재 {#deliveries}
 
@@ -32,7 +30,7 @@ ht-degree: 68%
 * [생일 전자 메일 보내기](../../workflow/using/sending-a-birthday-email.md)
 * [게재 콘텐츠 로드](../../workflow/using/loading-delivery-content.md)
 * [크로스 채널 게재 워크플로우](../../workflow/using/cross-channel-delivery-workflow.md)
-* [사용자 지정 날짜 필드를 사용한 전자 메일 강화](../../workflow/using/email-enrichment-with-custom-date-fields.md)
+* [사용자 정의 날짜 필드를 통한 이메일 강화](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 * [콘텐츠 만들기, 에디션 및 게시 자동화](../../delivery/using/automating-via-workflows.md#examples)
 
 ## 모니터링 {#monitoring}
@@ -52,7 +50,7 @@ ht-degree: 68%
 * [요약 목록 만들기](../../workflow/using/creating-a-summary-list.md)
 * [데이터 강화](../../workflow/using/enriching-data.md)
 * [집계 사용](../../workflow/using/using-aggregates.md)
-* [Campaign 컨트롤 패널에서 생성된 키를 사용하여 암호화된 데이터 가져오기](../../platform/using/unzip-decrypt.md)
+* [Campaign 컨트롤 패널에서 생성한 키를 사용하여 암호화된 데이터 가져오기](../../platform/using/unzip-decrypt.md)
 * [Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [증분 쿼리를 사용한 분기별 목록 업데이트](../../workflow/using/quarterly-list-update.md)
 * [중복 제거 활동의 병합 기능 사용](../../workflow/using/deduplication-merge.md)
