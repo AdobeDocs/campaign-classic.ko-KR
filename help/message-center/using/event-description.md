@@ -1,43 +1,42 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 메시지 센터 이벤트 설명
-description: 트랜잭션 메시징 이벤트에 대한 자세한 내용
+title: 이벤트 설명
+description: SOAP 메서드를 사용하여 Adobe Campaign Classic에서 트랜잭션 메시지 이벤트를 관리하는 방법을 알아봅니다.
 audience: message-center
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
-source-git-commit: 3a9c435a6469f291c4ecdb30eceb83c4f000f5e0
+exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
+source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
 
+# 이벤트 설명 {#event-description}
 
-# 이벤트 설명{#event-description}
+## 트랜잭션 메시지 데이터 모델 {#about-transactional-messaging-datamodel}
 
-## 트랜잭션 메시징 데이터 모델 {#about-transactional-messaging-datamodel} 정보
-
-트랜잭션 메시지는 Adobe Campaign 데이터 모델을 사용하여 별도의 두 개의 표를 추가로 사용합니다. 이러한 [표](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** 및 **NmsBatchEvent**&#x200B;에는 동일한 필드가 포함되어 있으며 한 번에 실시간 이벤트와 다른 한 쪽의 일괄 처리 이벤트를 관리할 수 있습니다.
+트랜잭션 메시지는 Adobe Campaign 데이터 모델을 기반으로 하며 두 개의 별도 테이블을 사용합니다. 이러한 [표](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** 및 **NmsBatchEvent**&#x200B;는 동일한 필드를 포함하며, 한 번에 실시간 이벤트를 관리하고 다른 한 손에서는 배치 이벤트를 관리할 수 있습니다.
 
 ## SOAP 메서드 {#soap-methods}
 
-이 섹션에서는 트랜잭션 메시지 모듈 스키마와 연관된 SOAP 방법에 대해 자세히 설명합니다.
+이 섹션에서는 트랜잭션 메시지 모듈 스키마와 연결된 SOAP 메서드에 대해 자세히 설명합니다.
 
-두 개의 **PushEvent** 또는 **PushEvents** SOAP 메서드는 두 개의 **nms:rtEvent** 및 **nms:BatchEvent** datasas에 연결되어 있습니다. 이벤트가 &quot;일괄 처리&quot; 또는 &quot;실시간&quot; 유형인지 결정하는 정보 시스템입니다.
+두 개의 **PushEvent** 또는 **PushEvents** SOAP 메서드는 두 개의 **nms:rtEvent** 및 **nms:BatchEvent** 데이터 스키마에 연결되어 있습니다. 이벤트가 &quot;일괄 처리&quot; 또는 &quot;실시간&quot; 유형인지 여부를 결정하는 정보 시스템입니다.
 
-* **PushEvents** 를 사용하여 메시지에 단일 이벤트를 삽입할 수 있습니다.
-* **PushEvents** 를 사용하면 메시지에 일련의 이벤트를 삽입할 수 있습니다.
+* **** PushEvents를 사용하여 메시지에 단일 이벤트를 삽입할 수 있습니다.
+* **** PushEvents를 사용하면 메시지에 일련의 이벤트를 삽입할 수 있습니다.
 
-두 메서드에 액세스하기 위한 WSDL 경로는 다음과 같습니다.
+두 메서드를 모두 액세스하기 위한 WSDL 경로는 다음과 같습니다.
 
-* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:** rtEvent를 사용하여 실시간 유형 스키마에 액세스합니다.
-* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:** batchEvents을 사용하여 배치 유형 스키마에 액세스합니다.
+* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:** rtEvent를 입력하여 실시간 유형 스키마에 액세스합니다.
+* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:** batchEventities를 사용하여 배치 유형 스키마에 액세스합니다.
 
-두 메서드 모두 트랜잭션 메시징 모듈에 로그온하기 위한 **`<urn:sessiontoken>`** 요소를 포함합니다. 신뢰할 수 있는 IP 주소를 통해 식별 방법을 사용하는 것이 좋습니다. 세션 토큰을 검색하려면 로그온 SOAP 호출을 수행한 다음 가져오기 토큰 뒤에 로그오프를 수행합니다. 여러 RT 호출에 동일한 토큰을 사용합니다. 이 섹션에 포함된 예는 권장되는 세션 토큰 방법을 사용하는 것입니다.
+두 메서드 모두 트랜잭션 메시지 모듈에 로그온하기 위한 **`<urn:sessiontoken>`** 요소를 포함합니다. 신뢰할 수 있는 IP 주소를 통해 식별 방법을 사용하는 것이 좋습니다. 세션 토큰을 검색하려면 로그온 SOAP 호출을 수행한 다음, 가져오기 토큰 뒤에 로그오프를 실행합니다. 여러 RT 호출에 동일한 토큰을 사용하십시오. 이 섹션에 포함된 예제는 권장되는 세션 토큰 메서드를 사용하는 것입니다.
 
-로드 밸런싱을 사용하는 경우 RT 메시지 수준에서 사용자/암호 인증을 사용할 수 있습니다. 예제:
+로드 밸런싱된 서버를 사용하는 경우 사용자/암호 인증(RT 메시지 수준에서)을 사용할 수 있습니다. 예제:
 
 ```
 <PushEvent xmlns="urn:nms:rtEvent">
@@ -77,7 +76,7 @@ PushEvent 사용 예:
 
 >[!NOTE]
 >
->**PushEvents** 메서드를 호출하는 경우 표준 XML을 준수하도록 부모 XML 요소를 추가해야 합니다. 이 XML 요소는 이벤트에 포함된 다양한 **`<rtevent>`** 요소의 프레임을 만듭니다.
+>**PushEvents** 메서드를 호출하는 경우 표준 XML을 준수하도록 부모 XML 요소를 추가해야 합니다. 이 XML 요소는 이벤트에 포함된 다양한 **`<rtevent>`** 요소의 프레임을 지정합니다.
 
 PushEvents 사용 예:
 
@@ -103,13 +102,13 @@ PushEvents 사용 예:
 </urn:PushEvents>
 ```
 
-**`<rtevent>`** 및 **`<batchevent>`** 요소에는 필수 하위 요소뿐만 아니라 속성 집합도 있습니다.**`<ctx>`** 메시지 데이터 통합을 위한 것입니다.
+**`<rtevent>`** 및 **`<batchevent>`** 요소에는 속성 집합과 필수 하위 요소가 있습니다.메시지 데이터를 통합하기 위한 **`<ctx>`**
 
 >[!NOTE]
 >
->**`<batchevent>`** 요소를 사용하면 이벤트를 &quot;일괄 처리&quot; 큐에 추가할 수 있습니다. **`<rtevent>`**&#x200B;은 이벤트를 &quot;실시간&quot; 큐에 추가합니다.
+>**`<batchevent>`** 요소를 사용하면 이벤트를 &quot;batch&quot; 큐에 추가할 수 있습니다. **`<rtevent>`** 은 이벤트를 &quot;실시간&quot; 큐에 추가합니다.
 
-**`<rtevent>`** 및 **`<batchevent>`** 요소의 필수 속성은 @type 및 @email. @type 값은 실행 인스턴스를 구성할 때 정의된 항목별 목록 값과 같아야 합니다. 이 값을 사용하면 배달 중에 이벤트 컨텐츠에 연결할 템플릿을 정의할 수 있습니다.
+**`<rtevent>`** 및 **`<batchevent>`** 요소의 필수 속성은 @type 및 @email. @type 값은 실행 인스턴스를 구성할 때 정의된 항목별 목록 값과 동일해야 합니다. 이 값을 사용하면 전달 중에 이벤트의 컨텐츠에 연결할 템플릿을 정의할 수 있습니다.
 
 `<rtevent> configuration example:`
 
@@ -117,21 +116,21 @@ PushEvents 사용 예:
 <rtEvent type="order_confirmation" email="john.doe@domain.com" origin="eCommerce" wishedChannel="0" externalId="1242" mobilePhone="+33620202020"> 
 ```
 
-이 예에서는 두 개의 채널이 제공됩니다.이메일 주소와 휴대폰 번호입니다. **wentChannel**&#x200B;을 사용하면 이벤트를 메시지로 변환할 때 사용할 채널을 선택할 수 있습니다. &quot;0&quot; 값은 이메일 채널, &quot;1&quot; 값은 모바일 채널 등에 해당합니다.
+이 예제에서 두 개의 채널이 제공됩니다.이메일 주소와 휴대폰 번호입니다. **WonderedChannel** 을 사용하면 이벤트를 메시지로 변환할 때 사용할 채널을 선택할 수 있습니다. &quot;0&quot; 값은 이메일 채널, &quot;1&quot; 값을 모바일 채널 등에 해당합니다.
 
-이벤트 배달을 연기하려면 원하는 날짜 뒤에 **[!UICONTROL scheduled]** 필드를 추가합니다. 이 날짜에 이벤트가 메시지로 바뀝니다.
+이벤트 배달을 연기하려면 기본 설정 날짜 뒤에 **[!UICONTROL scheduled]** 필드를 추가합니다. 이 날짜에 이벤트가 메시지로 변환됩니다.
 
-@wishedChannel 및 @emailFormat 속성을 숫자 값으로 채우는 것이 좋습니다. 데이터 스키마 설명에 숫자 값과 레이블을 연결하는 함수 테이블이 있습니다.
-
->[!NOTE]
->
->허가된 모든 속성에 대한 자세한 설명과 값은 **nms:rtEvent** 및 **nms:BatchEvent** 데이터스키마에 대한 설명에 사용할 수 있습니다.
-
-**`<ctx>`** 요소에는 메시지 데이터가 포함되어 있습니다. XML 내용이 열려 있으므로 전달할 컨텐츠에 따라 구성할 수 있습니다.
+@wishedChannel 및 @emailFormat 속성을 숫자 값으로 채우는 것이 좋습니다. 숫자 값과 레이블을 연결하는 함수 테이블은 데이터 스키마 설명에 있습니다.
 
 >[!NOTE]
 >
->전달 중에 서버가 오버로드되지 않도록 메시지에 포함된 XML 노드의 수와 크기를 최적화하는 것이 중요합니다.
+>승인된 모든 속성과 해당 값에 대한 자세한 설명은 **nms:rtEvent** 및 **nms:BatchEvent** 데이터 스키마 설명에 나와 있습니다.
+
+**`<ctx>`** 요소에 메시지 데이터가 포함되어 있습니다. XML 내용이 열려 있으므로 전달할 콘텐츠에 따라 구성할 수 있습니다.
+
+>[!NOTE]
+>
+>전달 중에 서버를 오버로드하지 않도록 메시지에 포함된 XML 노드의 수와 크기를 최적화하는 것이 중요합니다.
 
 데이터 예:
 
@@ -154,15 +153,15 @@ PushEvents 사용 예:
     </ctx>
 ```
 
-## SOAP 호출 {#information-returned-by-the-soap-call}에 의해 반환된 정보
+## SOAP 호출 {#information-returned-by-the-soap-call}에서 반환된 정보
 
-이벤트를 수신하면 Adobe Campaign은 고유한 반환 ID를 생성합니다. 보관된 이벤트 버전의 ID입니다.
+Adobe Campaign이 이벤트를 수신하면 고유한 반환 ID를 생성합니다. 보관된 이벤트 버전의 ID입니다.
 
 >[!IMPORTANT]
 >
->SOAP 호출을 받을 때 Adobe Campaign은 이메일 주소 형식을 확인합니다. 이메일 주소 형식이 잘못된 경우 오류가 반환됩니다.
+>SOAP 호출을 받을 때 Adobe Campaign은 이메일 주소 형식을 확인합니다. 이메일 주소의 형식이 잘못된 경우 오류가 반환됩니다.
 
-* 이벤트 처리가 성공한 경우 메서드에서 반환되는 식별자의 예:
+* 이벤트 처리가 성공하면 메서드에서 반환되는 식별자의 예:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -174,11 +173,11 @@ PushEvents 사용 예:
    </SOAP-ENV:Envelope>
    ```
 
-반환 식별자의 값이 0보다 엄격하게 크면 이벤트가 Adobe Campaign에서 성공적으로 보관되었음을 의미합니다.
+반환 식별자의 값이 0보다 크게 엄격하면 이벤트가 Adobe Campaign에 성공적으로 보관되었음을 의미합니다.
 
-그러나 이벤트를 처리하지 못하면 오류 메시지 또는 0과 같은 값을 반환합니다.
+하지만 이벤트를 처리하지 못하면 오류 메시지 또는 값이 0으로 반환됩니다.
 
-* 쿼리에 로그인이 포함되어 있지 않거나 지정한 연산자에 필요한 권한이 없는 경우 실패한 이벤트의 처리 예:
+* 쿼리에 로그인이 없거나 지정한 연산자에 필요한 권한이 없는 경우 실패한 이벤트 처리 예:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -192,7 +191,7 @@ PushEvents 사용 예:
    </SOAP-ENV:Envelope>
    ```
 
-* 쿼리의 오류로 인해 실패한 이벤트의 예(XML 분류가 준수하지 않음):
+* 쿼리의 오류로 인해 실패한 이벤트의 예(XML 분류를 준수하지 않음):
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -217,7 +216,7 @@ PushEvents 사용 예:
    </SOAP-ENV:Envelope>
    ```
 
-* 0의 식별자를 반환하고 실패하여 반환되는 이벤트의 예(잘못된 메서드 이름):
+* 실패 및 반환 이벤트의 예(잘못된 메서드 이름):
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -228,4 +227,3 @@ PushEvents 사용 예:
       </SOAP-ENV:Body>
    </SOAP-ENV:Envelope>
    ```
-
