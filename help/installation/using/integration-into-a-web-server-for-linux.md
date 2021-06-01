@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Linux용 웹 서버와 통합
-description: Campaign을 웹 서버에 통합하는 방법(Linux)
+description: Campaign을 웹 서버(Linux)에 통합하는 방법을 알아봅니다
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
-translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 2%
@@ -17,32 +15,32 @@ ht-degree: 2%
 
 # Linux용 웹 서버와 통합{#integration-into-a-web-server-for-linux}
 
-Adobe Campaign에는 HTTP(및 SOAP)를 통해 응용 프로그램 서버의 시작 지점 역할을 하는 Apache Tomcat이 포함되어 있습니다.
+Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 시작 지점 역할을 하는 Apache Tomcat이 포함되어 있습니다.
 
-이 통합된 Tomcat 서버를 사용하여 HTTP 요청을 제공할 수 있습니다.
+이러한 통합된 Tomcat 서버를 사용하여 HTTP 요청을 제공할 수 있습니다.
 
 이 경우:
 
-* 기본 의견 수렴 포트는 8080입니다. 변경하려면 [이 섹션](configure-tomcat.md)을 참조하십시오.
-* 그러면 클라이언트 콘솔이 다음과 같은 URL을 사용하여 연결됩니다.
+* 기본 수신 포트는 8080입니다. 변경하려면 [이 섹션](configure-tomcat.md)을 참조하십시오.
+* 그런 다음 클라이언트 콘솔은 다음과 같은 URL을 사용하여 연결합니다.
 
    ```
    http://<computer>:8080
    ```
 
-그러나 보안 및 관리상의 이유로 Adobe Campaign을 실행 중인 컴퓨터가 인터넷에 노출되어 네트워크 외부의 콘솔에 대한 액세스를 열려는 경우 전용 웹 서버를 HTTP 트래픽의 기본 시작 지점으로 사용하는 것이 좋습니다.
+그러나 보안 및 관리를 위해 Adobe Campaign을 실행 중인 컴퓨터가 인터넷에 노출되어 네트워크 외부의 콘솔에 대한 액세스를 열려는 경우 전용 웹 서버를 HTTP 트래픽의 기본 시작 지점으로 사용하는 것이 좋습니다.
 
-웹 서버를 사용하면 HTTP 프로토콜을 통해 데이터 기밀성을 보장할 수 있습니다.
+웹 서버에서도 HTTP 프로토콜을 통해 데이터 기밀성을 보장할 수 있습니다.
 
-마찬가지로 웹 서버에 대한 확장 모듈로만 사용할 수 있는 추적 기능을 사용하려면 웹 서버를 사용해야 합니다.
+마찬가지로, 웹 서버에 대한 확장 모듈로만 사용할 수 있는 추적 기능을 사용하려면 웹 서버를 사용해야 합니다.
 
 >[!NOTE]
 >
->추적 기능을 사용하지 않는 경우 Campaign으로 리디렉션을 사용하여 Apache 또는 IIS의 표준 설치를 수행할 수 있습니다. 추적 웹 서버 확장 모듈은 필요하지 않습니다.
+>추적 기능을 사용하지 않는 경우 Campaign으로 리디렉션하여 Apache 또는 IIS의 표준 설치를 수행할 수 있습니다. 추적 웹 서버 확장 모듈은 필요하지 않습니다.
 
 ## Debian {#configuring-the-apache-web-server-with-debian}으로 Apache 웹 서버 구성
 
-APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적용됩니다.
+APT를 기반으로 한 배포 아래에 Apache를 설치한 경우 이 프로세스가 적용됩니다.
 
 다음 단계를 적용합니다.
 
@@ -52,21 +50,21 @@ APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적�
    a2dismod auth_basic authn_file authz_default authz_user autoindex cgi dir env negotiation userdir
    ```
 
-   **별칭**, **authz_host** 및 **mime** 모듈이 여전히 활성화되어 있는지 확인합니다. 이렇게 하려면 다음 명령을 사용합니다.
+   **별칭**, **authz_host** 및 **mime** 모듈이 계속 활성화되어 있는지 확인합니다. 이렇게 하려면 다음 명령을 사용합니다.
 
    ```
    a2enmod  alias authz_host mime
    ```
 
-1. **/etc/apache2/mods-available**&#x200B;에서 **nlsrv.load** 파일을 만들고 다음 콘텐트를 삽입합니다.
+1. **/etc/apache2/mods-available**&#x200B;에서 **nlsrv.load** 파일을 만들고 다음 컨텐츠를 삽입합니다.
 
-   디비안 8에서:
+   Debian 8에서:
 
    ```
    LoadModule requesthandler24_module /usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so
    ```
 
-1. 다음 명령을 사용하여 **/etc/apache2/mods-available**&#x200B;에서 **nlsrv.conf** 파일을 만듭니다.
+1. 다음 명령을 사용하여 **/etc/apache2/mods-available**&#x200B;에 **nlsrv.conf** 파일을 만듭니다.
 
    ```
    ln -s /usr/local/[INSTALL]/nl6/conf/apache_neolane.conf /etc/apache2/mods-available/nlsrv.conf
@@ -78,7 +76,7 @@ APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적�
     a2enmod nlsrv
    ```
 
-   Adobe Campaign 페이지에 대해 **mod_rewrite** 모듈을 사용하는 경우 **nlsrv.load** 및 **nlsrv.conf** 파일의 이름을 **zlsrv.load** 및 **zz-nlsrv.conf**&#x200B;로 변경해야 합니다. 모듈을 활성화하려면 다음 명령을 실행합니다.
+   Adobe Campaign 페이지에 **mod_rewrite** 모듈을 사용하는 경우 **nlsrv.load** 및 **nlsrv.conf** 파일의 이름을 **zz-nlsrv.load** 및 **zz-nlsrv.conf**&#x200B;로 변경해야 합니다. 모듈을 활성화하려면 다음 명령을 실행합니다.
 
    ```
    a2enmod zz-nlsrv
@@ -92,9 +90,9 @@ APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적�
    export USERPATH=/usr/local/neolane
    ```
 
-   변경 내용을 저장합니다.
+   변경 사항을 저장합니다.
 
-1. 그런 다음 다음 다음 유형의 명령을 사용하여 Adobe Campaign 사용자를 Apache 사용자 그룹에 추가하고 그 반대의 경우도 마찬가지입니다.
+1. 그런 다음 다음 다음 유형의 명령을 사용하여 Adobe Campaign 사용자를 Apache 사용자 그룹에, 그 반대로 추가합니다.
 
    ```
    usermod neolane -G www-data
@@ -109,7 +107,7 @@ APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적�
 
 ## RHEL {#configuring-apache-web-server-in-rhel}에서 Apache 웹 서버 구성
 
-이 절차는 RPM(RHEL, CentOS 및 Suse) 기반 패키지에 Apache를 설치하고 보안을 설정한 경우에 적용됩니다.
+이 절차는 RPM(RHEL, CentOS 및 Suse) 기반 패키지 아래에 Apache를 설치 및 고정한 경우에 적용됩니다.
 
 다음 단계를 적용합니다.
 
@@ -136,7 +134,7 @@ APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적�
    userdir
    ```
 
-   비활성화된 모듈에 연결된 기능에 주석 추가:
+   비활성화된 모듈에 연결된 함수 설명:
 
    ```
    DirectoryIndex
@@ -152,7 +150,7 @@ APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적�
    ForceLanguagePriority
    ```
 
-1. `/etc/httpd/conf.d/` 폴더에 Adobe Campaign 특정 구성 파일을 만듭니다. 예제 `CampaignApache.conf`
+1. `/etc/httpd/conf.d/` 폴더에 Adobe Campaign 관련 구성 파일을 만듭니다. 예제 `CampaignApache.conf`
 
 1. **RHEL7**&#x200B;의 경우 파일에 다음 지침을 추가하십시오.
 
@@ -163,7 +161,7 @@ APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적�
 
 1. **RHEL7**&#x200B;의 경우:
 
-   다음 콘텐트와 함께 `/etc/systemd/system/httpd.service` 파일을 추가합니다.
+   다음 컨텐츠로 `/etc/systemd/system/httpd.service` 파일을 추가합니다.
 
    ```
    .include /usr/lib/systemd/system/httpd.service
@@ -178,14 +176,14 @@ APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적�
    systemctl daemon-reload
    ```
 
-1. 그런 다음 명령을 실행하여 Adobe Campaign 연산자를 Apache 연산자 그룹에 추가하거나 그 반대로 추가합니다.
+1. 그런 다음 명령을 실행하여 Adobe Campaign 연산자를 Apache 연산자 그룹에, 그 반대로 추가합니다.
 
    ```
    usermod -a -G neolane apache
    usermod -a -G apache neolane
    ```
 
-   사용할 그룹 이름은 Apache 구성 방법에 따라 다릅니다.
+   사용할 그룹 이름은 Apache 구성 방식에 따라 다릅니다.
 
 1. Apache 및 Adobe Campaign 서버를 실행합니다.
 
@@ -196,9 +194,9 @@ APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적�
    systemctl start nlserver
    ```
 
-## 웹 서버를 시작하고 구성{#launching-the-web-server-and-testing-the-configuration} 테스트
+## 웹 서버 시작 및 구성 테스트{#launching-the-web-server-and-testing-the-configuration}
 
-이제 Apache를 시작하여 구성을 테스트할 수 있습니다. 이제 Adobe Campaign 모듈이 콘솔에 해당 배너를 표시해야 합니다(특정 운영 체제의 배너 2개).
+이제 Apache를 시작하여 구성을 테스트할 수 있습니다. 이제 Adobe Campaign 모듈이 콘솔에 배너를 표시해야 합니다(특정 운영 체제에 두 개의 배너).
 
 ```
  /etc/init.d/apache start
@@ -215,9 +213,9 @@ APT 기반 배포 아래에 Apache를 설치한 경우 이 프로세스가 적�
 12:26:28 >   Server started
 ```
 
-다음으로 테스트 URL을 제출함으로써 응답하는지 확인합니다.
+다음 테스트 URL을 제출하여 응답하는지 확인합니다.
 
-다음을 실행하여 명령줄에서 테스트할 수 있습니다.
+다음을 실행하여 명령줄에서 이 작업을 테스트할 수 있습니다.
 
 ```
  telnet localhost 80  
