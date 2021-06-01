@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign 설정 FAQ
 description: Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
-
 
 # Campaign 설정 FAQ {#settings-faq}
 
@@ -41,7 +39,7 @@ Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 
 
 ## 전자 메일 게재 기능을 구성하는 방법 {#how-to-configure-email-deliverability-}
 
-[Adobe 제공 우수 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) 외에도 전달 기술 권장 사항을 참조하여 캠페인 제공 기능을 최대화하기 위해 인스턴스를 구성하는 방법을 이해합니다.
+[Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko) 외에 게재 기능 권장 사항을 참조하여 Campaign 게재 기능을 최대화하기 위해 인스턴스를 구성하는 방법을 이해합니다.
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/about-deliverability.md).
 
