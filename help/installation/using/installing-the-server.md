@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 서버 설치
 description: 서버 설치
@@ -7,8 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 2%
@@ -31,14 +29,14 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
 
    ![](assets/s_ncs_install_installer_01a.png)
 
-   다음과 같은 여러 설치 유형을 사용할 수 있습니다.
+   다음과 같은 몇 가지 설치 유형을 사용할 수 있습니다.
 
-   * **[!UICONTROL Installation of an application server]** :Adobe Campaign 응용 프로그램 서버와 클라이언트 콘솔을 설치합니다.
-   * **[!UICONTROL Minimal installation (Network)]** :네트워크에서 클라이언트 컴퓨터 설치. 필요한 경우 제한된 수의 DLL만 컴퓨터에 설치되고 다른 모든 구성 요소는 네트워크 드라이브에서 사용됩니다.
+   * **[!UICONTROL Installation of an application server]** :Adobe Campaign 애플리케이션 서버와 클라이언트 콘솔을 설치합니다.
+   * **[!UICONTROL Minimal installation (Network)]** :네트워크에서 클라이언트 컴퓨터 설치 필요한 경우 제한된 수의 DLL만 컴퓨터에 설치되고 다른 모든 구성 요소는 네트워크 드라이브에서 사용됩니다.
    * **[!UICONTROL Installation of a client]** :Adobe Campaign 클라이언트에 필요한 구성 요소 설치
    * **[!UICONTROL Custom installation]** :사용자가 설치할 요소를 선택합니다.
 
-   **응용 프로그램 서버 설치**&#x200B;를 선택하고 아래와 같이 다른 단계를 수행합니다.
+   **응용 프로그램 서버 설치**&#x200B;를 선택하고 다음과 같이 다른 단계를 수행하십시오.
 
    ![](assets/s_ncs_install_installer_02.png)
 
@@ -46,7 +44,7 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
 
    ![](assets/s_ncs_install_installer_03.png)
 
-1. **[!UICONTROL Finish]**&#x200B;을 클릭하여 설치를 시작합니다.
+1. **[!UICONTROL Finish]** 을 클릭하여 설치를 시작합니다.
 
    ![](assets/s_ncs_install_installer_04.png)
 
@@ -54,15 +52,15 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
 
    ![](assets/s_ncs_install_installer_05.png)
 
-   설치가 완료되면 다음과 같은 메시지가 나타납니다.
+   설치가 완료되면 사용자에게 다음과 같은 메시지가 나타납니다.
 
    ![](assets/s_ncs_install_installer_06.png)
 
    >[!NOTE]
    >
-   >서버 설치가 완료되면 네트워크 문제가 발생하지 않도록 서버를 다시 부팅해야 합니다.
+   >서버 설치가 완료되면 가능한 네트워크 문제를 방지하기 위해 서버를 재부팅해야 합니다.
 
-   설치가 완료되면 Adobe Campaign을 시작하여 구성 파일을 만듭니다. [서버](#first-start-up-of-the-server)의 첫 시작을 참조하십시오.
+   설치가 완료되면 Adobe Campaign을 시작하여 구성 파일을 만듭니다. [서버의 첫 번째 시작](#first-start-up-of-the-server)을 참조하십시오.
 
 ## 요약 설치 테스트 {#summary-installation-testing}
 
@@ -102,7 +100,7 @@ nlserver web
 15:30:12 >   Web server stop (pid=664, tid=4188)...
 ```
 
-프로세스를 중지하려면 **Ctrl+C**&#x200B;을 누른 다음 명령을 입력합니다.
+**Ctrl+C** 키를 눌러 프로세스를 중지한 다음 다음 명령을 입력합니다.
 
 ```
 nlserver start web
@@ -135,21 +133,21 @@ nlserver stop web
 12:18:31 >   Web server stopped (pid=29188, tid=-1224824320)...
 ```
 
-## 내부 식별자 {#password-for-the-internal-identifier} 암호
+## 내부 식별자 {#password-for-the-internal-identifier}에 대한 암호
 
 Adobe Campaign 서버는 모든 인스턴스에 대한 모든 권한이 있는 **internal**&#x200B;이라는 기술 로그인을 정의합니다. 설치 후 로그인에 암호가 없습니다. 하나를 반드시 정의해야 합니다.
 
-[이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)에서 자세히 알아보십시오.
+자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)을 참조하십시오.
 
-## Adobe Campaign 서비스 시작 중 {#starting-adobe-campaign-services}
+## Adobe Campaign 서비스 시작 {#starting-adobe-campaign-services}
 
-Adobe Campaign 서비스를 시작하려면 서비스 관리자를 사용하거나 명령줄에 다음을 입력합니다(적절한 권한 포함).
+Adobe Campaign 서비스를 시작하려면 서비스 관리자를 사용하거나 명령줄에서 적절한 권한을 사용하여 다음을 입력할 수 있습니다.
 
 ```
 net start nlserver6
 ```
 
-나중에 Adobe Campaign 프로세스를 중지해야 하는 경우 다음 명령을 사용합니다.
+나중에 Adobe Campaign 프로세스를 중지해야 하는 경우 다음 명령을 사용하십시오.
 
 ```
 net stop nlserver6
@@ -157,7 +155,7 @@ net stop nlserver6
 
 ## LibreOffice {#installing-libreoffice} 설치
 
-예를 들어 [https://www.libreoffice.org/download/libreoffice-fresh/](https://www.libreoffice.org/download/libreoffice-fresh/)에서 LibreOffice를 다운로드하고 일반적인 설치 단계를 따릅니다.
+예를 들어 [https://www.libreoffice.org/download/libreoffice-fresh/](https://www.libreoffice.org/download/libreoffice-fresh/)에서 LibreOffice를 다운로드하고 일반적인 설치 단계를 따르십시오.
 
 다음 환경 변수를 추가합니다.
 
