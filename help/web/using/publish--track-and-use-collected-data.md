@@ -1,31 +1,29 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 수집된 데이터 게시, 추적 및 사용
 description: 수집된 데이터 게시, 추적 및 사용
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 3%
 
 ---
 
-
 # 수집된 데이터 게시, 추적 및 사용{#publish-track-and-use-collected-data}
 
-양식을 만들고 구성하며 게시한 후에는 사용자와 링크를 공유하고 응답을 추적할 수 있습니다.
+양식을 만들고, 구성하고, 게시하면 대상자와 링크를 공유하고 응답을 추적할 수 있습니다.
 
 >[!NOTE]
 >
->Adobe Campaign에서의 설문 조사 라이프사이클과 게시 및 전달 모드는 웹 양식의 라이프사이클과 유사합니다.이러한 내용은 [이 섹션](../../web/using/about-web-forms.md)에 자세히 설명되어 있습니다.
+>Adobe Campaign의 설문 조사 수명 주기와 게시 및 전달 모드는 웹 양식의 라이프사이클과 유사합니다.이러한 내용은 [이 섹션](../../web/using/about-web-forms.md)에 자세히 설명되어 있습니다.
 
 ## 설문 조사 대시보드 {#survey-dashboard}
 
-각 설문 조사에는 상태, 설명, 공개 URL 및 가용성 일정을 볼 수 있는 고유한 대시보드가 있습니다. 사용 가능한 보고서를 볼 수도 있습니다. 자세한 내용은 [설문 조사 보고서](#reports-on-surveys)를 참조하십시오.
+각 설문 조사에는 상태, 설명, 공개 URL 및 가용성 일정을 볼 수 있는 자체 대시보드가 있습니다. 사용 가능한 보고서를 볼 수도 있습니다. 자세한 내용은 [설문 조사 보고서](#reports-on-surveys)를 참조하십시오.
 
 설문 조사의 공개 URL이 대시보드에 표시됩니다.
 
@@ -37,25 +35,25 @@ ht-degree: 3%
 
 ### 설문 조사 로그 {#survey-logs}
 
-배달된 각 설문 조사에 대해 **[!UICONTROL Logs]** 탭에서 응답을 추적할 수 있습니다. 이 탭에는 설문 조사를 완료한 사용자 목록과 원본 목록이 표시됩니다.
+전달된 각 설문 조사에 대해 **[!UICONTROL Logs]** 탭에서 응답을 추적할 수 있습니다. 이 탭에는 설문 조사를 완료한 사용자 목록과 해당 출처가 표시됩니다.
 
 ![](assets/s_ncs_admin_survey_logs.png)
 
-응답자가 입력한 설문 조사 양식을 표시하려면 행을 두 번 클릭합니다. 전체 설문 조사를 탐색하고 전체 답변에 액세스할 수 있습니다. 외부 파일로 내보낼 수 있습니다. 자세한 내용은 [답변 내보내기](#exporting-answers)를 참조하십시오.
+응답자가 입력한 대로 설문 조사 양식을 표시하려면 줄을 두 번 클릭합니다. 설문 조사를 완전히 탐색하고 답변에 완전히 액세스할 수 있습니다. 외부 파일로 내보낼 수 있습니다. 자세한 내용은 [답변 내보내기](#exporting-answers)를 참조하십시오.
 
-원본 문자는 다음 문자를 추가하여 설문 조사 URL에 표시됩니다.
+원본은 다음 문자를 추가하여 설문 조사 URL에 표시됩니다.
 
 ```
 ?origin=xxx
 ```
 
-설문 조사를 편집하는 동안 설문 조사 URL에 매개 변수 **[!UICONTROL __uuid]**&#x200B;이(가) 포함되어 있습니다. 매개 변수는 테스트 단계이며 아직 온라인 상태가 아님을 나타냅니다. 이 URL을 통해 설문 조사에 액세스하면 생성된 레코드가 추적(보고서)에서 고려되지 않습니다. 원점은 **[!UICONTROL Adobe Campaign]** 값으로 강제 지정됩니다.
+설문 조사를 편집하는 동안 해당 URL에 매개 변수 **[!UICONTROL __uuid]**&#x200B;이 포함되어 있습니다. 이는 설문 조사가 아직 온라인 상태가 아니며 테스트 단계에 있음을 나타냅니다. 이 URL을 통해 설문 조사에 액세스하면 생성된 레코드가 추적(보고서)에서 고려되지 않습니다. 원본은 **[!UICONTROL Adobe Campaign]** 값에 강제 적용됩니다.
 
 URL 매개 변수에 대한 자세한 내용은 [이 페이지](../../web/using/defining-web-forms-properties.md#form-url-parameters)를 참조하십시오.
 
 ### 설문 조사 보고서 {#reports-on-surveys}
 
-대시보드 탭을 사용하여 설문 조사 보고서에 액세스할 수 있습니다. 보고서 이름을 클릭하여 봅니다.
+대시보드 탭에서는 설문 조사 보고서에 액세스할 수 있습니다. 보고서 이름을 클릭하여 봅니다.
 
 ![](assets/s_ncs_admin_survey_report_doc.png)
 
@@ -65,7 +63,7 @@ URL 매개 변수에 대한 자세한 내용은 [이 페이지](../../web/using/
 
 * 일반
 
-   이 보고서에는 설문 조사에 대한 일반 정보가 포함되어 있습니다.시간에 따라 응답 수가 변경되는 방법 및 출처 및 언어별 배포.
+   이 보고서에는 설문 조사에 대한 일반 정보가 포함되어 있습니다.시간에 따라 응답 수가 변경되는 방법 및 원본 및 언어별 배포.
 
    일반 보고서의 예:
 
@@ -73,77 +71,77 @@ URL 매개 변수에 대한 자세한 내용은 [이 페이지](../../web/using/
 
 * 응답 분류
 
-   이 보고서는 각 질문에 대한 응답 분류를 보여줍니다. 이 분류는 **[!UICONTROL Question]** 유형 컨테이너에 저장된 필드에 지정된 응답에만 사용할 수 있습니다. 선택 컨트롤(예: 텍스트 필드에 대한 분류 없음)에만 유효합니다.
+   이 보고서는 각 질문에 대한 응답 분류를 표시합니다. 이 분류는 **[!UICONTROL Question]** 유형 컨테이너에 저장된 필드에 제공된 응답에만 사용할 수 있습니다. 선택 컨트롤(예: 텍스트 필드에 대한 분류 없음)에만 사용할 수 있습니다.
 
    ![](assets/s_ncs_admin_survey_report_2.png)
 
 ## 답변 내보내기 {#exporting-answers}
 
-설문 조사에 대한 답변을 외부 파일로 내보내 나중에 처리할 수 있습니다. 두 가지 방법이 있습니다.
+설문 조사에 대한 답변을 외부 파일로 내보내 나중에 처리할 수 있습니다. 다음 두 가지 방법으로 데이터를 수집할 수 있습니다.
 
 1. 보고서 데이터 내보내기
 
-   보고서 데이터를 내보내려면 **[!UICONTROL Export]** 단추를 클릭하고 내보내기 형식을 선택합니다.
+   보고서 데이터를 내보내려면 **[!UICONTROL Export]** 버튼을 클릭하고 내보내기 형식을 선택합니다.
 
    보고서 데이터 내보내기에 대한 자세한 내용은 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)을 참조하십시오.
 
 1. 답변 내보내기
 
-   답변을 내보내려면 설문 조사의 **[!UICONTROL Responses]** 탭을 클릭하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Export...]**&#x200B;을(를) 선택합니다.
+   답변을 내보내려면 설문 조사의 **[!UICONTROL Responses]** 탭을 클릭하고 마우스 오른쪽 단추를 클릭하십시오. **[!UICONTROL Export...]**&#x200B;을(를) 선택합니다.
 
    ![](assets/s_ncs_admin_survey_logs_export_menu.png)
 
-   내보낼 정보와 저장소 파일을 입력합니다.
+   그런 다음 내보낼 정보와 저장 파일을 입력합니다.
 
    내보내기 마법사에서 출력 파일의 내용과 형식을 구성할 수 있습니다.
 
    이를 통해 다음을 수행할 수 있습니다.
 
    * 출력 파일에 열을 추가하고 수신자 정보(데이터베이스에 저장됨)를 복구합니다.
-   * 내보낸 데이터의 형식 지정,
+   * 내보낸 데이터 형식 지정,
    * 파일의 정보에 대한 인코딩 형식을 선택합니다.
 
-   내보낼 설문 조사에 **[!UICONTROL Multi-line text]** 또는 **[!UICONTROL HTML text]** 필드가 몇 개 포함되어 있으면 **[!UICONTROL XML]** 형식으로 내보내야 합니다. 이렇게 하려면 아래와 같이 **[!UICONTROL Output format]** 필드의 드롭다운 목록에서 이 형식을 선택합니다.
+   내보내려는 설문 조사에 **[!UICONTROL Multi-line text]** 또는 **[!UICONTROL HTML text]** 필드가 여러 개 있는 경우 **[!UICONTROL XML]** 형식으로 내보내야 합니다. 이렇게 하려면 아래 표시된 대로 **[!UICONTROL Output format]** 필드의 드롭다운 목록에서 이 형식을 선택합니다.
 
    ![](assets/s_ncs_admin_survey_logs_export_xml.png)
 
-   **[!UICONTROL Start]**&#x200B;을 클릭하여 내보내기를 실행합니다.
+   **[!UICONTROL Start]** 을 클릭하여 내보내기를 실행합니다.
 
    >[!NOTE]
    >
    >데이터 내보내기 및 구성 단계는 [이 섹션](../../platform/using/about-generic-imports-exports.md)에 자세히 설명되어 있습니다.
 
-## 수집된 데이터 사용 {#using-the-collected-data}
+## 수집된 데이터 {#using-the-collected-data} 사용
 
 온라인 설문 조사를 통해 수집된 정보는 타깃팅 워크플로우의 프레임워크 내에서 복구할 수 있습니다. 이렇게 하려면 **[!UICONTROL Survey responses]** 상자를 사용합니다.
 
-다음 예제에서는 온라인 설문 조사에서 두 명 이상의 자녀와 점수가 가장 높은 5명의 받는 사람을 위한 웹 오퍼를 특별히 만들고 싶습니다. 이 설문 조사에 대한 대답은 다음과 같습니다.
+다음 예에서는 온라인 설문 조사에서 최소한 두 명의 자녀를 두고 점수가 가장 높은 5명의 수신자를 위해 특별히 웹 오퍼를 만들려고 합니다. 이 설문 조사에 대한 답변은 다음과 같습니다.
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_4.png)
 
-타깃팅 워크플로우에서 **[!UICONTROL Survey responses]**&#x200B;은 다음과 같이 구성됩니다.
+타깃팅 워크플로우에서 **[!UICONTROL Survey responses]**&#x200B;은(는) 다음과 같이 구성됩니다.
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_1.png)
 
-먼저 관련 설문 조사를 선택한 다음 창의 중앙 섹션에서 추출할 데이터를 선택합니다. 이 경우 5개의 가장 높은 점수를 복구하기 위해 분할 상자에 사용되므로 점수 열 이상을 추출해야 합니다.
+먼저 관련 설문 조사를 선택한 다음 창의 중앙 섹션에서 추출할 데이터를 선택합니다. 이 경우 점수 열은 5개의 가장 높은 점수를 복구하기 위해 분할 상자에 사용되기 때문에 최소 추출해야 합니다.
 
-**[!UICONTROL Edit query...]** 링크를 클릭하여 응답에 대한 필터링 조건을 표시합니다.
+**[!UICONTROL Edit query...]** 링크를 클릭하여 응답에 대한 필터링 조건을 지정합니다.
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_2.png)
 
-타깃팅 워크플로우를 시작합니다. 쿼리는 8명의 수신자를 복구합니다.
+타겟팅 워크플로우를 시작합니다. 쿼리는 8명의 수신자를 복구합니다.
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_5.png)
 
-컬렉션 상자의 출력 전환을 마우스 오른쪽 버튼으로 클릭하여 표시합니다.
+컬렉션 상자의 출력 전환을 마우스 오른쪽 단추로 클릭하여 봅니다.
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_6.png)
 
-그런 다음 워크플로우에 분할 상자를 가져와 점수가 가장 높은 5명의 수신자를 복구합니다.
+그런 다음 워크플로우에 분할 상자를 배치하여 점수가 가장 높은 5명의 수신자를 복구합니다.
 
-분할 상자를 편집하여 구성합니다.
+분할 상자를 편집하여 구성:
 
-* **[!UICONTROL General]** 탭에서 적절한 스키마를 선택한 다음 하위 세트를 구성합니다.
+* 먼저 **[!UICONTROL General]** 탭에서 적절한 스키마를 선택한 다음 하위 세트를 구성합니다.
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
 
@@ -159,7 +157,7 @@ URL 매개 변수에 대한 자세한 내용은 [이 페이지](../../web/using/
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_9.png)
 
-* **[!UICONTROL Finish]**&#x200B;을 클릭한 다음 타깃팅을 승인하기 위한 워크플로우를 다시 시작합니다.
+* **[!UICONTROL Finish]** 을 클릭한 다음 워크플로우를 다시 시작하여 타깃팅을 승인합니다.
 
 ## 데이터 표준화 {#standardizing-data}
 
