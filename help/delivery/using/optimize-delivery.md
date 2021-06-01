@@ -1,15 +1,14 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 메시지 게재 최적화
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 6%
 
 * 워크플로우 실행:플랫폼 성능 문제를 방지하려면 워크플로우를 모니터링해야 합니다. 이 문서](../../workflow/using/workflow-best-practices.md#execution-and-performance)에 나열된 지침을 따르십시오.[
 
-* 자격이 있는 경우 [Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html)을 활용하여 [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html) 기능을 사용하여 플랫폼을 모니터링할 수 있습니다.
+* 자격이 있는 경우 [Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)을 활용하여 [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html) 기능을 사용하여 플랫폼을 모니터링할 수 있습니다.
 
 ## 네트워크 구성 확인 중 {#network-config}
 
@@ -39,11 +38,11 @@ ht-degree: 6%
 
 **팁**:브랜드 웹 사이트에 해당하는 투명한 발신자 주소를 사용하십시오. 예를 들어, 여행사 회사는 발렌티노 호텔 체인을 관리한다. 이 회사는 웹 사이트에 대한 발렌티노.com 도메인을 소유하고 있습니다. 파리에 있는 발렌티노 호텔을 홍보하기 위해서, 그것은 paris.valentino.com 하위 도메인을 사용합니다. 따라서 관련 발신자 주소는 hotel@paris.valentino.com일 수 있습니다.
 
-## 게재 가능성 관리 {#deliverability-management}
+## 전달성 관리 {#deliverability-management}
 
 스팸으로 표시되거나 출력되지 않고 수신자의 받은 편지함에 도달하려면 메시지 게재 능력을 향상해야 합니다.
 
-* 게재 능력이란 무엇입니까?
+* 전달성의 정의?
 
    * 수신자 서버가 수락할 수 있는 기능을 결정하는 이메일의 요소를 참조합니다. ISP(인터넷 서비스 공급자)는 스팸으로 식별하는 이메일을 필터링하거나 이미지를 다운로드하지 못하도록 차단합니다. 특정 도메인이 너무 많은 이메일을 보내는 것으로 확인되면 해당 발신자로부터 받을 이메일 수에 제한을 설정합니다.
 
