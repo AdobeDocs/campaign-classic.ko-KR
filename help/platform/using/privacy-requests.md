@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 개인 정보 보호 요청
 description: 개인 정보 보호 요청을 관리하는 방법에 대해 알아봅니다.
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-translation-type: ht
-source-git-commit: 5b1c4426a0d59861aa61a7e53154b9adfda31d71
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2415'
 ht-degree: 100%
 
@@ -42,7 +40,7 @@ Adobe Campaign은 데이터 컨트롤러에게 개인 정보 보호 액세스 �
 >
 >개인 데이터 및 데이터를 관리하는 다른 엔터티(데이터 컨트롤러, 데이터 프로세서 및 데이터 주체)에 대한 자세한 내용은 [개인 데이터 및 가상 사용자](../../platform/using/privacy-and-recommendations.md#personal-data)를 참조하십시오.
 
-### 사전 요구 사항 {#prerequesites}
+### 필수 구성 요소 {#prerequesites}
 
 Adobe Campaign은 저장된 데이터에 대한 개인 정보 요청을 만들고 처리할 수 있는 데이터 컨트롤러 도구를 제공합니다. 하지만 데이터 주체(이메일, 고객 지원 센터 또는 웹 포털)와의 관계를 처리하는 것은 데이터 컨트롤러의 책임입니다.
 
