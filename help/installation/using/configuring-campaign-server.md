@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign 서버 구성
 description: Campaign 서버 구성
@@ -7,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -22,11 +21,11 @@ ht-degree: 1%
 
 이러한 절차는 **온-프레미스**/**하이브리드** 배포로 제한되어 있으며 관리 권한이 필요합니다.
 
-**호스팅된** 배포의 경우 서버측 설정은 Adobe로만 구성할 수 있습니다. 그러나 일부 설정은 [Campaign Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) 내에서 설정할 수 있습니다(예: IP 허용 목록에 추가하다 관리 또는 URL 권한). [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+**호스팅된** 배포의 경우 서버측 설정은 Adobe로만 구성할 수 있습니다. 그러나 일부 설정은 [Campaign Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko) 내에서 설정할 수 있습니다(예: IP 허용 목록에 추가하다 관리 또는 URL 권한). [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko)
 
 자세한 정보는 다음 섹션을 참조하십시오.
 
-* [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+* [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 * [호스팅 모델](../../installation/using/hosting-models.md)
 * [Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스](../../installation/using/capability-matrix.md)
 
