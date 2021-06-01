@@ -1,14 +1,13 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 'Campaign Classic 도움말 및 지원 옵션 '
 description: Campaign Classic 지원이 필요하십니까? 제대로 찾아오셨습니다.
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 57%
+ht-degree: 70%
 
 ---
 
@@ -30,7 +29,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 
 <img src="platform/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### FAQ(질문과 대답) 
+### FAQ
 
 새 빌드로 업그레이드하는 방법 워크플로우 실행을 모니터링하는 방법 데이터베이스 정리 워크플로우란 무엇입니까?.. [상위 10개 질문](platform/using/common-questions.md)을 참조하십시오.
 
@@ -56,7 +55,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
         <li><a href="workflow/using/workflow-best-practices.md">워크플로우 성능 최적화</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">워크플로우 실행 문제 해결</a></li>
         <li><a href="platform/using/sftp-server-usage.md">SFTP 서버 사용</a></li>
-        <li><a href="delivery/using/understanding-delivery-failures.md">게재 오류 이해</a></li>
+        <li><a href="delivery/using/understanding-delivery-failures.md">게재 실패 이해</a></li>
         </ul>
     </td>
    <td valign="top">
@@ -94,7 +93,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 ### Campaign 컨트롤 패널이란 무엇입니까?
 
 Campaign Campaign 컨트롤 패널을 사용하면 각 인스턴스의 사용 방식을 추적하고 설정을 관리하여 Campaign Classic의 제품 관리자 작업 효율성을 높일 수 있습니다.
-자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html)하십시오.
+자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)하십시오.
 
 >[!NOTE]
 >
@@ -104,7 +103,7 @@ Campaign Campaign 컨트롤 패널을 사용하면 각 인스턴스의 사용 �
 
 ### Campaign 컨트롤 패널에는 어떻게 액세스하나요?
 
-Campaign 컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 관리자에게만 액세스할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html)하십시오.
+Campaign 컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 관리자에게만 액세스할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ko)하십시오.
 
 ### Campaign 컨트롤 패널 FAQ
 
@@ -117,17 +116,17 @@ Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스
 ### 하위 도메인 및 인증서
 
 하위 도메인 및 해당 인증서를 모니터링할 수 있습니다. 자세한 내용은 다음 페이지에서 확인하십시오.
-* [하위 도메인 브랜딩](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
-* [새 하위 도메인 설정](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
-* [SSL 인증서 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
+* [하위 도메인 브랜딩](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko)
+* [새 하위 도메인 설정](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko)
+* [SSL 인증서 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ko)
 
 ### 인스턴스 설정
 
 Campaign 컨트롤 패널에서 Campaign Classic 인스턴스 설정을 관리하는 방법을 알아봅니다. 자세한 내용은 다음 페이지에서 확인하십시오.
-* [허용 목록에 IP를 추가하여 ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html) Campaign 인스턴스에 액세스합니다
-* [URL 권한 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
-* [액세스 인스턴스 세부 사항](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
-* [데이터 암호화에 대한 GPG 키 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
+* [허용 목록에 IP를 추가하여 ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko) Campaign 인스턴스에 액세스합니다
+* [URL 권한 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ko)
+* [액세스 인스턴스 세부 사항](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ko)
+* [데이터 암호화에 대한 GPG 키 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko)
 
 ## 도움 요청 {#support}
 
@@ -139,9 +138,9 @@ Campaign 컨트롤 패널에서 Campaign Classic 인스턴스 설정을 관리�
 
 Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.cadobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 
-### 캠페인 다운로드 센터 액세스
+### Campaign 다운로드 센터 액세스
 
-2020년 6월 현재, Experience Cloud 솔루션 소프트웨어 배포는 기존 Neolane 다운로드 센터를 대체하며, 소프트웨어, 패키지 및 도구를 찾고 다운로드할 수 있는 더욱 효율적인 환경을 제공합니다. [Experience Cloud 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) 에 액세스하려면 여기를 클릭하십시오.
+2020년 6월 현재, Experience Cloud 솔루션 소프트웨어 배포는 기존 Neolane 다운로드 센터를 대체하며, 소프트웨어, 패키지 및 도구를 찾고 다운로드할 수 있는 더욱 효율적인 환경을 제공합니다. [여기](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)를 클릭하여 Experience Cloud 소프트웨어 배포에 액세스합니다.
 이 페이지에서 새 다운로드 센터 [에 대해 자세히 알아보십시오.](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html)
 
 ### 티켓 만들기 또는 채팅 시작
