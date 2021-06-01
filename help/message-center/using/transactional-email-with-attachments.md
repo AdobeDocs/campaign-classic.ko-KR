@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 첨부 파일이 있는 트랜잭션 이메일 보내기
 description: Adobe Campaign Classic을 사용하여 개별 및/또는 개인화된 첨부 파일을 사용하여 트랜잭션 이메일을 보내는 방법을 알아봅니다.
@@ -7,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: use-case
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 2%
