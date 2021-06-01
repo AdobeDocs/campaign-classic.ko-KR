@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: b46a483594f210c4530a934194c6d2b73deaeaf9
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 2%
@@ -85,7 +85,7 @@ ht-degree: 2%
    * 방금 수집되었으며 아직 처리되지 않은 이벤트. **[!UICONTROL Number of errors]** 열에는 값 0이 표시됩니다. 전자 메일 템플릿이 아직 연결되어 있지 않습니다.
    * 처리되었지만 확인이 잘못된 이벤트입니다. **[!UICONTROL Number of errors]** 열에는 0이 아닌 값이 표시됩니다. 이 이벤트가 다시 처리되는 시기를 확인하려면 **[!UICONTROL Process requested on]** 열을 참조하십시오.
 
-* **게재 보류 중**:이벤트가 처리되고 게재 템플릿이 연결됩니다. 이메일이 게재 대기 중이며 클래식 게재 프로세스가 적용됩니다. 자세한 내용을 보려면 [배달](../../delivery/using/about-message-tracking.md)을 여십시오.
+* **게재 보류 중**:이벤트가 처리되고 게재 템플릿이 연결됩니다. 이메일이 게재 대기 중이며 클래식 게재 프로세스가 적용됩니다. 자세한 내용은 게재를 열 수 있습니다.
 * **전송**,  **** 무시 및  **배달 오류**:이러한 게재 상태는 updateEventsStatusworkflow를 통해  **** 복구됩니다. 자세한 내용은 관련 게재를 열 수 있습니다.
 * **이벤트가 포함되지 않음**:트랜잭션 메시지 라우팅 단계가 실패했습니다. 예를 들어 Adobe Campaign이 이벤트의 템플릿으로 작동하는 이메일을 찾지 못했습니다.
 * **이벤트 만료**:최대 전송 시도 수에 도달했습니다. 이벤트는 null로 간주됩니다.
