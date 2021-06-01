@@ -7,7 +7,7 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
 workflow-type: tm+mt
 source-wordcount: '4367'
 ht-degree: 98%
@@ -113,7 +113,7 @@ Adobe Campaign Enhanced MTA 섹션이 [여기](../../delivery/using/sending-with
 
 이제 SMS 커넥터 프로토콜 및 설정 페이지에 대한 자세한 설명은 [여기](../../delivery/using/sms-protocol.md)에서 볼 수 있습니다.
 
-액세스 권한 문제를 방지하기 위해 이벤트 폴더를 실행 인스턴스의 보기로 설정하지 말아야 한다는 경고를 하기 위해 **트랜잭션 메시지** 섹션에 메모가 추가되었습니다. [자세한 내용](../../message-center/using/event-collection.md)
+액세스 권한 문제를 방지하기 위해 이벤트 폴더를 실행 인스턴스의 보기로 설정하지 말아야 한다는 경고를 하기 위해 **트랜잭션 메시지** 섹션에 메모가 추가되었습니다. [자세한 내용](../../message-center/using/about-event-processing.md#event-collection)
 
 ## 2020년 11월 {#nov-2020}
 
@@ -259,7 +259,7 @@ Azure Synapse FDA 커넥터 - [자세한 내용](../../installation/using/config
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-트랜잭션 메시지 템플릿 게시를 취소할 수 있는 새 옵션이 [이 섹션에](../../message-center/using/template-unpublication.md) 설명되어 있습니다.
+트랜잭션 메시지 템플릿 게시를 취소할 수 있는 새 옵션이 [이 섹션에](../../message-center/using/publishing-message-templates.md#template-unpublication) 설명되어 있습니다.
 
 개인화된 URL과 첨부 파일에서 다운로드한 이미지가 포함된 전자 메일을 보낼 때 제한을 설정할 수 있는 새로운 옵션이 Campaign Classic 옵션 목록에 추가되었습니다. [자세한 내용](../../installation/using/configuring-campaign-options.md#delivery)
 
@@ -441,7 +441,7 @@ Adobe Campaign과 Adobe 실시간 고객 데이터 Platform 간의 통합이 이
 
 개인화 필드 콘텐츠가 1024자를 초과할 수 없음을 지정하는 정보가 추가되었습니다. [자세한 내용](../../delivery/using/personalization-fields.md)
 
-제어판 설명서는 새로운 공동 작업 설명서 세트에 통합되었습니다. [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+제어판 설명서는 새로운 공동 작업 설명서 세트에 통합되었습니다. [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 
 게재 모범 사례 시작 가이드가 업데이트되었습니다. [자세한 내용](../../delivery/using/delivery-best-practices.md)
 
@@ -519,7 +519,7 @@ Adobe Campaign Classic에서 오퍼 카탈로그를 사용하는 방법에 대�
 
 [Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스](../../installation/using/capability-matrix.md) 페이지가 이메일 BCC와 관련된 정보로 업데이트되었습니다.
 
-템플릿 게시에 대한 메모로 트랜잭션 메시지 설명서를 업데이트했습니다. [자세한 내용](../../message-center/using/template-publication.md)
+템플릿 게시에 대한 메모로 트랜잭션 메시지 설명서를 업데이트했습니다. [자세한 내용](../../message-center/using/publishing-message-templates.md#template-publication)
 
 처리되지 않은 바운스 메일 섹션이 전달 주소 및 오류 필드의 주소에 대한 자세한 정보로 업데이트되었습니다. [자세한 내용](../../installation/using/deploying-an-instance.md)
 
