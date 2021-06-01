@@ -6,9 +6,9 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1222'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   FDA(Federated Data Access)에 대한 자세한 내용은 [외부 데이터베이스 액세스](../../installation/using/about-fda.md)를 참조하십시오.
+   FDA(Federated Data Access)에 대한 자세한 내용은 [이 섹션](../../installation/using/about-fda.md)을 참조하십시오.
 
 1. **[!UICONTROL Test the connection]** 을 클릭하여 제어 인스턴스와 실행 인스턴스가 연결되어 있는지 확인합니다.
 
