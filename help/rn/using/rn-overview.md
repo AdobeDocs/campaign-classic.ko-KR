@@ -9,7 +9,7 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ![](assets/do-not-localize/red3.png) **사용되지 않음** - 배포가 없습니다. 기존 구현을 업그레이드해야 합니다.
 
-## Recommendations{#recommendations}
+## 추천{#recommendations}
 
 안정적인 구성을 위해서는 동일한 클라이언트 구성에서 실행 중인 모든 서버에 동일한 안정적인 빌드를 설치하는 것이 좋습니다.
 
@@ -61,8 +61,8 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 ## 지원 및 기타 유용한 링크{#support}
 
 * [도움말 및 지원](../../support.md)
-* [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
+* [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
 * [최신 설명서 업데이트](../../rn/using/documentation-updates.md)
 * [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md)
 
-새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 얻으려면 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)를 구독하십시오.
+새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 받으려면 [Adobe Priority Product Update](https://www.adobe.com/kr/subscription/priority-product-update.html)를 구독하십시오.
