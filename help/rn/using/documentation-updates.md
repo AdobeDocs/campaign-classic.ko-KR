@@ -6,9 +6,9 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 8d535439923d6753777b7edd7fb768f685ec5522
 workflow-type: tm+mt
-source-wordcount: '4367'
+source-wordcount: '4396'
 ht-degree: 98%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 98%
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
+
+## 2021년 6월 {#june-2021}
+
+**트랜잭션 메시지** 섹션이 프로세스를 더 잘 이해할 수 있도록 [향상된 스키마](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle)를 포함하는 새 시작 섹션으로 명확해지고 재구성되었습니다. [자세히 알아보기](../../message-center/using/about-transactional-messaging.md)
 
 ## 2021년 5월 {#may-2021}
 
