@@ -142,7 +142,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <p>2016년</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
-<p>경고: Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다.</p>
+<p>경고: Adobe Campaign 서버가 Linux에서 실행 중이면 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다.</p>
 </td>
 </tr>
 <tr>
