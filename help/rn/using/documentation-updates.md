@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 8d535439923d6753777b7edd7fb768f685ec5522
 workflow-type: tm+mt
 source-wordcount: '4396'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,17 +27,17 @@ ht-degree: 98%
 
 워크플로우 Heatmap 보고서 설명서를 업데이트 및 개선했습니다. [자세히 알아보기](../../workflow/using/heatmap.md)
 
-Campaign 클라이언트 콘솔 요구 사항이 호환성 매트릭스에서 업데이트되었습니다. [자세히 알아보기](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
+호환성 매트릭스에서 Campaign 클라이언트 콘솔 요구 사항이 업데이트되었습니다. [자세히 알아보기](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
 
-단계에 대한 Campaign 클라이언트 콘솔 설치가 개선되고 명확해졌습니다. [자세히 알아보기](../../installation/using/installing-the-client-console.md)
+Campaign 클라이언트 콘솔 설치 단계가 개선되었고 명확해졌습니다. [자세히 알아보기](../../installation/using/installing-the-client-console.md)
 
-추적된 URL 서명 문제에 대한 새로운 기술 정보를 만들었습니다. [자세히 알아보기](../../technotes/tracked-urls.md)
+추적된 URL 서명 문제에 대한 새로운 기술 정보가 생성되었습니다. [자세히 알아보기](../../technotes/tracked-urls.md)
 
 ## 2021년 4월 {#april-2021}
 
 새로운 섹션에서는 Adobe Experience Platform 소스 및 대상을 사용하여 Campaign Standard 및 Adobe RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공유하는 방법에 대해 설명합니다. [자세히 알아보기](../../integrations/using/get-started-sources-destinations.md)
 
-ISP 중단 후 바운스 자격을 업데이트하는 방법을 배우는 새 기술 정보를 만들었습니다. [자세히 알아보기](../../delivery/using/update-bounce-qualification.md)
+ISP 중단 후 바운스 자격을 업데이트하는 방법을 알려 주는 새로운 기술 정보가 생성되었습니다. [자세히 알아보기](../../delivery/using/update-bounce-qualification.md)
 
 ## 2021년 3월 {#march-2021}
 
