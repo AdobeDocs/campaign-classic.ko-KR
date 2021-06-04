@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: b99de2a47bac08578d6e660595eb14c0858bf9fd
 workflow-type: tm+mt
-source-wordcount: '3941'
+source-wordcount: '3961'
 ht-degree: 1%
 
 ---
@@ -51,6 +51,10 @@ ht-degree: 1%
    <td> <span class="uicontrol">DmRendering_SeedTargets</span> <br /> </td> 
    <td> 받은 편지함 렌더링에 테스트 주소를 사용할 스키마 목록입니다. (요소 이름은 쉼표로 구분됨) 예:custom_nms_recipient<br /> </td> 
   </tr> 
+  <tr> 
+   <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
+   <td> 향상된 MTA가 보낸 전자 메일의 원시 사본을 보내는 숨은 참조 전자 메일 주소입니다.<br /> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
    <td><p> 특정 연산자 또는 운영자 그룹이 게재 속성에서 게재를 시작하도록 지정된 경우 게재를 담당하는 연산자가 전송을 확인하도록 허용할 수 있습니다.</p><p> 이렇게 하려면 값으로 "1"을 입력하여 옵션을 활성화합니다. 이 옵션을 비활성화하려면 "0"을 입력합니다.</p><p> 전송 확인 프로세스는 기본값으로 작동합니다.게재 속성에서 전송을 위해 지정된 운영자 또는 그룹(또는 관리자)만 전송을 확인하고 수행할 수 있습니다. <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">이 섹션</a>을 참조하십시오.</p> </td> 
