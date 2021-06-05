@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Adobe Campaign은 함께 작동하는 서버측 프로세스 세트를 사용합
 
 * 추적:추적 로그 복구 및 통합. 이 기능을 사용하면 리디렉션 서버에서 로그를 검색하고 보고 모듈에서 사용하는 집계 지표를 만들 수 있습니다.
 * 정리:데이터베이스 정리. 이전 레코드를 제거하고 데이터베이스가 기하급수적으로 증가하는 것을 방지하는 데 사용됩니다.
-* 청구:플랫폼에 대한 활동 보고서 자동 전송(데이터베이스 크기, 마케팅 작업 수 등)
+* 청구:플랫폼에 대한 활동 보고서 자동 보내기(데이터베이스 크기, 마케팅 작업 수, 활성 프로필 수 등)
 
 **배달 서버** (nlserver mta)
 
