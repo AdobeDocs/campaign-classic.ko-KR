@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '381'
 ht-degree: 7%
 
 ---
@@ -74,18 +74,13 @@ Campaign 기본 제공 테이블 및 상호 작용에 대한 자세한 내용은
 
 네임스페이스를 사용하면 일련의 스키마를 관심 영역별로 그룹화할 수 있습니다. 예를 들어 **cus** 네임스페이스는 고객별 구성(**customers**)에 사용됩니다.
 
+스키마의 ID 키는 네임스페이스와 콜론으로 구분하여 이름을 사용하여 작성된 문자열입니다.예:**cus:recipient**.
+
 >[!IMPORTANT]
 >
->일반적으로 네임스페이스의 이름은 간결한 것이어야 하며 XML 이름 지정 규칙에 따라 인증된 문자만 포함해야 합니다.
+>네임스페이스 이름은 간결한 이름이어야 하며 XML 이름 지정 규칙에 따라 인증된 문자만 포함해야 합니다.
 >
 >식별자는 숫자 문자로 시작하면 안 됩니다.
+>
+>다음 네임스페이스는 Adobe Campaign 애플리케이션 작업에 필요한 시스템 엔터티에 대한 설명을 위해 예약되어 있으므로 사용하지 않아야 합니다.**xtk**, **nl**, **nms**, **ncm**, **temp**, **ncl**, **crm**, **xxl**
 
-특정 네임스페이스는 Adobe Campaign 애플리케이션 작업에 필요한 시스템 엔터티에 대한 설명을 위해 예약되어 있습니다.
-
-* **xtk**:플랫폼 시스템 데이터 관련
-* **nl**:응용 프로그램의 전체적인 사용에 관해
-* **nms**:게재(수신자, 게재, 추적 등)와 관련하여,
-* **ncm**:콘텐츠 관리 관련
-* **temp**:임시 스키마에 대해 예약되었습니다.
-
-스키마의 ID 키는 네임스페이스와 콜론으로 구분하여 이름을 사용하여 작성된 문자열입니다.예:**cus:recipient**.
