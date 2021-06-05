@@ -6,9 +6,9 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 28083eb0271c8c148955fa33978479dc3683eaed
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1953'
 ht-degree: 52%
 
 ---
@@ -23,14 +23,14 @@ ht-degree: 52%
 
 ## ![](assets/do-not-localize/blue_2.png) 릴리스 21.1.3 - 빌드 9330 {#release-21-1-3-build-9330}
 
-_2021년 6월 4일_
+_2021년 6월 5일_
 
 **새로운 기능**
 
 <table>
 <thead>
 <tr>
-<th><strong>Journey Orchestration 통합</strong><br/></th>
+<th><strong>Adobe Journey Orchestration과 통합</strong><br/></th>
 </tr>
 </thead>
 <tbody>
