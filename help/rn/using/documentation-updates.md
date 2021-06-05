@@ -6,10 +6,10 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: fc40dae282c045dd73547e34ea307297f64c66fa
 workflow-type: tm+mt
-source-wordcount: '4421'
-ht-degree: 98%
+source-wordcount: '4470'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,18 @@ ht-degree: 98%
 
 **트랜잭션 메시지** 섹션이 프로세스를 더 잘 이해할 수 있도록 [향상된 스키마](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle)를 포함하는 새 시작 섹션으로 명확해지고 재구성되었습니다. [자세히 알아보기](../../message-center/using/about-transactional-messaging.md)
 
+**21.1.3 릴리스와 함께 제공되는 설명서 업데이트**
+
+Adobe Journey Orchestration과 통합 - [자세히 알아보기](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html). 단계별 사용 사례는 [이 페이지](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html)에 나와 있습니다
+
+LINE 채널 개선 사항 - [자세히 알아보기](../../delivery/using/line-channel.md)
+
+새 Vertica FDA 커넥터 - [자세한 내용](../../installation/using/configure-fda-vertica.md)
+
+새 Google Big Query FDA 커넥터 - [자세히 알아보기](../../installation/using/configure-fda-google-big-query.md)
+
+이제 &quot;청구(청구)&quot; 기술 워크플로우 설명에 원래 &quot;활성 청구 프로필 수(billingActiveContactCount)&quot;에 의해 수행되는 작업이 포함됩니다. [자세히 알아보기](../../workflow/using/about-technical-workflows.md)
+
 ## 2021년 5월 {#may-2021}
 
 워크플로우 Heatmap 보고서 설명서를 업데이트 및 개선했습니다. [자세히 알아보기](../../workflow/using/heatmap.md)
@@ -32,10 +44,6 @@ ht-degree: 98%
 Campaign 클라이언트 콘솔 설치 단계가 개선되었고 명확해졌습니다. [자세히 알아보기](../../installation/using/installing-the-client-console.md)
 
 추적된 URL 서명 문제에 대한 새로운 기술 정보가 생성되었습니다. [자세히 알아보기](../../technotes/tracked-urls.md)
-
-**21.1.3 릴리스와 함께 제공되는 설명서 업데이트**
-
-이제 &quot;청구(청구)&quot; 기술 워크플로우 설명에 원래 &quot;활성 청구 프로필 수(billingActiveContactCount)&quot;에 의해 수행되는 작업이 포함됩니다. [자세히 알아보기](../../workflow/using/about-technical-workflows.md)
 
 ## 2021년 4월 {#april-2021}
 
