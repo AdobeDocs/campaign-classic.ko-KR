@@ -5,7 +5,7 @@ description: 웹 분석 패키지에 대해 자세히 알아보기
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 웹 분석{#web-analytics}
 
-아래 자세히 설명된 워크플로우는 기본적으로 **웹 Analytics 커넥터** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../platform/using/adobe-analytics-data-connector.md)을 참조하십시오.
+아래 자세히 설명된 워크플로우는 기본적으로 **웹 Analytics 커넥터** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../platform/using/adobe-analytics-connector.md)을 참조하십시오.
 
 <table> 
  <tbody> 
@@ -27,12 +27,12 @@ ht-degree: 3%
   <tr> 
    <td> <span class="uicontrol">지표 및 캠페인 속성 보내기</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsSendMetrics</span> <br /> </td> 
-   <td> 이 워크플로우에서는 Adobe® Genesis 커넥터를 통해 Adobe Campaign에서 Adobe Experience Cloud Suite로 이메일 캠페인 표시기를 전송할 수 있습니다. 관련 지표는 다음과 같습니다.<strong>전송됨</strong> (iSent), <strong>총 열기 수</strong> (iTotalRecipientOpen), <strong>Errors</strong> (iError), <strong>Opt-Out</strong> (opt-out) (iOpt-out)<br /></strong><strong> </strong></td> 
+   <td> 이 워크플로우에서는 Adobe® Analytics 커넥터를 통해 Adobe Campaign에서 Adobe Experience Cloud Suite로 이메일 캠페인 표시기를 보낼 수 있습니다. 관련 지표는 다음과 같습니다.<strong>전송됨</strong> (iSent), <strong>총 열기 수</strong> (iTotalRecipientOpen), <strong>Errors</strong> (iError), <strong>Opt-Out</strong> (opt-out) (iOpt-out)<br /></strong><strong> </strong></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">전환된 연락처 식별</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsFindConverted</span> <br /> </td> 
-   <td> 이 워크플로우는 재마케팅 캠페인 후 구매를 마친 사이트 방문자를 인덱싱합니다. 이 워크플로우에서 복구한 데이터는 <span class="uicontrol">리마케팅 효율성 보고서</span>에서 액세스할 수 있습니다(<a href="../../platform/using/adobe-analytics-data-connector.md#creating-a-re-marketing-campaign"> 페이지</a> 참조). <br /> </td> 
+   <td> 이 워크플로우는 재마케팅 캠페인 후 구매를 마친 사이트 방문자를 인덱싱합니다. 이 워크플로우에서 복구한 데이터는 <span class="uicontrol">리마케팅 효율성 보고서</span>에서 액세스할 수 있습니다(<a href="../../platform/using/adobe-analytics-connector.md#creating-a-re-marketing-campaign"> 페이지</a> 참조). <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">이벤트 삭제</span> <br /> </td> 
