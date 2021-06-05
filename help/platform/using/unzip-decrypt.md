@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 6f5e91a719553fbeb97811d30ce6318f857bec80
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '722'
 ht-degree: 11%
 
 ---
@@ -19,7 +19,7 @@ Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 가져�
 
 다음을 수행하십시오.
 
-1. [Campaign 컨트롤 패널](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)를 사용하여 공개/개인 키 쌍을 생성합니다.
+1. [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)를 사용하여 공개/개인 키 쌍을 생성합니다.
 
    >[!NOTE]
    >
@@ -54,7 +54,7 @@ Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 가져�
 
 이 사용 사례를 수행하는 단계는 다음과 같습니다.
 
-1. 키 쌍(공개/개인)을 생성하려면 Campaign 컨트롤 패널을 사용합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)에서 확인할 수 있습니다.
+1. 키 쌍(공개/개인)을 생성하려면 Campaign 컨트롤 패널을 사용합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)에서 확인할 수 있습니다.
 
    * 공개 키는 외부 시스템과 공유되며, 이 키를 사용하여 Campaign으로 전송할 데이터를 암호화합니다.
    * 개인 키는 들어오는 암호화된 데이터를 해독하는 데 Campaign Classic이 사용합니다.
