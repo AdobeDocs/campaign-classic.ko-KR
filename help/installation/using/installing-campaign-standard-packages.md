@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 6%
@@ -189,7 +189,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> 웹 Analytics 커넥터<br /> </td> 
-   <td> Adobe Campaign 및 Adobe Analytics이 Web Analytics 커넥터 패키지를 통해 상호 작용할 수 있습니다. 트랜잭션 메시지(메시지 센터 패키지)와 호환되지 않습니다. <a href="../../platform/using/adobe-analytics-data-connector.md">추가 정보</a><br /> </td> 
+   <td> Adobe Campaign 및 Adobe Analytics이 Web Analytics 커넥터 패키지를 통해 상호 작용할 수 있습니다. 트랜잭션 메시지(메시지 센터 패키지)와 호환되지 않습니다. <a href="../../platform/using/adobe-analytics-connector.md">추가 정보</a><br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
   <tr> 
