@@ -6,10 +6,10 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 100%
+source-wordcount: '1951'
+ht-degree: 52%
 
 ---
 
@@ -21,7 +21,144 @@ ht-degree: 100%
 >
 >Campaign **GA(일반 가용성) 빌드**&#x200B;는 [[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [Campaign 20.2.5 릴리스](../../rn/using/release--20-2.md)입니다.
 
-## ![](assets/do-not-localize/blue_2.png) 릴리스 21.1.2 - 빌드 9282 {#release-21-1-2-build-9282}
+## ![](assets/do-not-localize/blue_2.png) 릴리스 21.1.3 - 빌드 9330 {#release-21-1-3-build-9330}
+
+_2021년 6월 4일_
+
+**새로운 기능**
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Orchestration 통합</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Orchestration과 Adobe Campaign Classic 간의 통합이 GA됩니다. 이를 통해 Journey Orchestration은 Adobe Campaign Classic 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.</p>
+<p>Journey Orchestration 인스턴스와 Campaign Classic 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html">Journey Orchestration 설명서</a>를 참조하십시오. 이 <a href="https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html">섹션</a>에 단계별 사용 사례가 나와 있습니다</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>LINE 채널 개선 사항</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>LINE 채널에 다음과 같은 개선 사항이 추가되었습니다.
+</p>
+<ul> 
+<li><p>LINE 비디오 메시지 유형 지원</p></li>
+<li><p>LINE 파트너 등록 API 지원</p></li>
+<li><p>LINE 서버측 오류 또는 네트워크 시간 제한 이벤트에서 메시지 전송을 다시 시도할 수 있도록 지원합니다</p></li>
+</ul>
+<p>자세한 내용은 <a href="../../delivery/using/line-channel.md">세부 설명서</a>를 참조하십시오.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Vertica FDA 커넥터</strong><br/> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>이제 Adobe Campaign Classic 인스턴스를 Vertica 외부 데이터베이스에 연결할 수 있습니다. 이 연결은 새 외부 계정을 통해 관리됩니다.</p>
+<p>자세한 내용은 <a href="../../installation/using/configure-fda-vertica.md">세부 설명서</a>를 참조하십시오.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Google Big Query FDA 커넥터</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>이제 Adobe Campaign Classic 인스턴스를 Google Big Query 외부 데이터베이스에 연결할 수 있습니다. 이 연결은 새 외부 계정을 통해 관리됩니다.
+</p>
+<p>자세한 내용은 <a href="../../installation/using/configure-fda-google-big-query.md">세부 설명서</a>를 참조하십시오.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**향상된 보안 기능**
+
+* 전체 데이터베이스 연결 세부 정보를 반환하는 **xtk:session#GetCnxInfo** API 메서드에 대한 액세스는 이제 관리 사용자로만 제한됩니다. (NEO-27779)
+* 사용되지 않는 decryptString 함수가 CRM 관련 JavaScript 파일에서 decryptPassword로 대체되었습니다.
+* 추적 서명 기능은 타사 도구(이메일 클라이언트, 인터넷 브라우저, 안전한 링크 보안 도구)가 추적된 링크를 수정할 때 리디렉션 오류 추적을 줄이기 위해 개선되었습니다.
+* 대문자를 포함할 때 추적된 URL이 작동하지 않는 문제를 수정했습니다. 추적된 URL 서명 메커니즘은 이제 대/소문자를 구분합니다. (NEO-28414)
+
+**호환성 업데이트**
+
+이제 다음 시스템이 Campaign에서 지원됩니다.
+* Google Big Query FDA 커넥터
+* Vertica FDA 커넥터
+* PostgreSQL 13
+
+자세한 내용은 [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.
+
+**사용되지 않는 기능**
+
+* Campaign 21.1 릴리스부터 Adobe Analytics 데이터 커넥터는 사용 중단됩니다. 이 커넥터를 사용하는 경우 새로운 커넥터 Adobe Analytics 커넥터에 맞게 구현을 조정해야 합니다.
+자세한 내용은 [세부 설명서](../../platform/using/adobe-analytics-connector.md)를 참조하십시오.
+* Debian 8에 대한 지원은 이제 더 이상 사용되지 않습니다.
+* 20.3에서 Oracle CRM의 사용 중단 이후, 관련 외부 계정이 인터페이스에서 제거되었습니다.
+
+더 자세한 내용은 [사용되지 않거나 제거된 기능 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
+
+**개선 사항**
+
+* 워크플로우를 저장할 때 활동 이름이 고유하고 전환 뒤에 활동이 표시되는지 확인하기 위한 추가 검사가 추가되었습니다.
+* 이제 **청구(청구)** 기술 워크플로우에는 이전에 제거되었던 **활성 청구 프로필 수**(billingActiveContactCount) 워크플로우에서 수행한 작업이 포함됩니다. 워크플로우가 매월 보내는 이메일 보고서는 이제 인스턴스의 활성 프로필 수에 대한 정보를 제공합니다. [자세한 내용](../../workflow/using/about-technical-workflows.md).
+* 메모 데이터 작업에 키를 사용할 수 있도록 새 **_keyOnMData** 특성이 추가되었습니다.
+
+**기타 변경 사항**
+
+* Windows용 Campaign 타사 버전이 버전 1.1.1h로 업데이트되었습니다.
+* Debian 패키지 설명에서 nlserver가 Adobe Campaign Classic 서버로 변경되었습니다.
+
+**패치**
+
+* 사용자가 설정된 시간 후에도 계속 로그인한 특정 시간 후에 사용자를 로그아웃하도록 세션 시간 제한을 편집할 때 발생하는 문제를 수정했습니다.
+* 게재가 읽기 전용으로 표시되었지만 게재 속성에서 계속 편집할 수 있는 문제가 해결되었습니다.
+* 웹 애플리케이션을 디자인할 때 편집 도구 모음이 사라지는 오류를 수정했습니다.
+* 이메일에 링크를 추가할 때 Adobe Campaign Classic 헤더가 있는 이메일의 텍스트 버전을 표시하는 오류를 수정했습니다. (NEO-29211
+* HTTPs 연결을 통해 FDA를 사용할 때 **중간 소싱(게재 로그)**(defaultMidSourcingLog) 워크플로우가 **NmsMidSourcing_LogsPeriodHour** 옵션에 의해 설정된 시간대에 중단되었습니다. 이렇게 하면 이 설정 일정 후에 발생한 데이터로 레코드가 업데이트되지 않습니다. (NEO-30833)
+* 메시지 센터 동기화 워크플로우를 실행한 후 발생하는 문제를 해결했습니다. 게재 개체 폴더를 사용자 지정 폴더로 이동할 때마다 워크플로우는 게재를 일반 **트랜잭션 메시지 기록** 폴더로 다시 이동합니다. (NEO-27445)
+* **브로드캐스트 통계**, **추적 표시기** 및 **공유 활동의 통계** 보고서를 표시하려고 할 때 오류 메시지가 표시되는 문제를 수정했습니다.
+* oracle CRM 커넥터 사용 중단 후 인터페이스에서 **Oracle On Demand** 워크플로우 활동이 제거되었습니다.
+* 워크플로우 서버(wfserver) 모듈의 매일 다시 시작 후 처리 워크플로우 실행을 중지하던 문제를 해결했습니다. (NEO-30047)
+* MX 관리 문서가 업데이트되지 않고 IP 평판에 부정적인 영향을 줄 수 있는 문제를 해결했습니다. (NEO-29897)
+* SOAP 호출을 받을 때 웹 프로세스 충돌이 발생하는 문제를 해결했습니다. (NEO-28796) (NEO-29600)
+* SAP HANA FDA 색인 작성에 실패하는 문제를 해결했습니다. (NEO-29664)
+* 헤더가 포함된 SOAP 호출을 수행할 때 트랜잭션 메시지를 **대기 중** 상태로 유지할 수 있는 문제를 해결했습니다. (NEO-28737)
+* teradata FDA 커넥터를 사용할 때 발생하는 문제를 해결했습니다.모든 임시 테이블이 클러스터의 한 노드에서만 생성되었으며, 이로 인해 전체 스풀 공간이 소모되고 Teradata 충돌이 발생할 수 있습니다. 이제 임시 테이블이 여러 노드에서 생성됩니다. (NEO-28230)
+* 추적 태그가 **nms:trackingURL** 스키마에 잘못된 기본 키를 생성하는 웹 애플리케이션을 사용할 때 발생하는 문제를 수정했습니다. (NEO-27931)
+* 오류 메시지의 정확성을 보장하기 위해 ODBC 3.x와의 호환성이 향상되었습니다.
+* 사용자 지정 콘텐츠 템플릿을 이메일 게재에서 사용할 때 콘솔 충돌이 발생하는 문제를 수정했습니다. (NEO-31547)
+* 느린 연결 또는 큰 응답 크기로 인해 Tomcat에서 유효한 응답을 보내지 못하는 문제를 해결했습니다.
+* PostgreSQL 데이터베이스에서 UUID를 읽을 때 발생할 수 있는 문제를 수정했습니다.
+* 오퍼에 연결된 제안 데이터를 검색할 때 성능 문제가 발생하는 문제를 해결했습니다. (NEO-27554)
+* IMS 서비스가 활성화되었지만 응답이 없는 경우 웹 프로세스가 응답하지 않는 문제를 해결했습니다.
+* 게재 개인화에 실패한 특정 조인 메커니즘으로 인해 증명 그룹과 함께 게재를 보낼 수 없는 문제를 수정했습니다. (NEO-14391)
+* 쿼리 및 데이터 보강 활동이 게재 테이블을 타겟팅한 경우 경고 활동으로 경고를 보내지 못하는 문제를 해결했습니다. (NEO-25157)
+
+## ![](assets/do-not-localize/red_2.png) 릴리스 21.1.2 - 빌드 9282 {#release-21-1-2-build-9282}
 
 _2021년 4월 15일_
 
