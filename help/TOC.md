@@ -7,10 +7,10 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: 마케팅 투자에 대한 높은 수익을 제공하는 크로스 채널 마케팅 Campaign을 설계, 계획, 실행, 관리 및 최적화할 수 있습니다.
 sub-product: Aadobe Campaign Classic
 type: Documentation
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 99%
+source-wordcount: '2485'
+ht-degree: 98%
 
 ---
 
@@ -115,7 +115,8 @@ ht-degree: 99%
          + [Microsoft Dynamics 365와 연결](platform/using/crm-ms-dynamics.md)
          + [Salesforce.com과 연결](platform/using/crm-sfdc.md)
          + [CRM과 데이터 동기화](platform/using/crm-data-sync.md)
-      + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector.md)
+      + [Adobe Analytics 커넥터](platform/using/adobe-analytics-connector.md)
+      + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector-legacy.md)
    + [도움말 및 지원 옵션](support.md)
 + 메시지 만들기 및 보내기 {#sending-messages}
    + [메시지 시작](delivery/using/communication-channels.md)
@@ -670,7 +671,9 @@ ht-degree: 99%
          + [모범 사례 및 제한 사항](installation/using/fda-best-practices.md)
          + 구성 지침 {#config-databases}
             + [구성 단계](installation/using/configure-fda.md)
+            + [Vertica 구성](installation/using/configure-fda-vertica.md)
             + [Snowflake 구성](installation/using/configure-fda-snowflake.md)
+            + [Google BigQuery 구성](installation/using/configure-fda-google-big-query.md)
             + [Azure Synapse 구성](installation/using/configure-fda-synapse.md)
             + [Hadoop 구성](installation/using/configure-fda-hadoop.md)
             + [Oracle 구성](installation/using/configure-fda-oracle.md)
