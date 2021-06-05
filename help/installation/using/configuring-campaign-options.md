@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: c095d7ddde4b4ac23467ebd0fa8ee2fb613aacdc
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '3941'
+source-wordcount: '3972'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 1%
 # Campaign Classic 옵션 목록{#configuring-campaign-options}
 
 **[!UICONTROL Administration / Platform / Options]** 노드를 사용하여 Adobe Campaign 옵션을 구성할 수 있습니다. 일부는 Campaign을 설치할 때 기본적으로 제공되며, 필요한 경우 수동으로 추가할 수 있습니다. 사용 가능한 옵션은 인스턴스에 설치된 패키지에 따라 다릅니다.
+
 
 >[!CAUTION]
 >
@@ -399,6 +400,14 @@ ht-degree: 1%
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td> <span class="uicontrol">제한편집스키마편집</span> <br /> </td> 
+   <td> (21.1.3 릴리스 시작) 1을 선택한 경우(기본값) 이 옵션은 내장 스키마 버전을 비활성화합니다.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">RestrictEditingOOTBJavascript</span> <br /> </td> 
+   <td> (21.1.3 릴리스 시작) 1을 선택한 경우(기본값) 이 옵션은 내장 javascript 코드 버전을 비활성화합니다.<br /> </td> 
+  </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPassword</span> <br /> </td> 
    <td> (설치 호환성 모드:build&gt;6000) 활성화되면(값 "1") 이 옵션을 사용하면 데이터베이스에 저장된 이전 암호를 외부 계정 또는 인스턴스에 연결할 수 있습니다.<br /> </td> 
