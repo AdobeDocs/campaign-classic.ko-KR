@@ -6,9 +6,9 @@ feature: 개요
 role: Business Practitioner, Data Architect
 level: Beginner
 exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '194'
 ht-degree: 8%
 
 ---
@@ -21,7 +21,7 @@ Adobe Campaign은 외부 애플리케이션과 통신하고, 데이터베이스 
 
 * FDA 커넥터(**Federated Data Access**)를 사용하면 Campaign 데이터에 영향을 주지 않고 Campaign을 하나 이상의 외부 데이터베이스에 연결하고 데이터베이스에 저장된 정보를 처리할 수 있습니다. [자세히 알아보기](../../installation/using/about-fda.md)
 * CRM 커넥터를 사용하면 전용 워크플로우 활동을 사용하여 Adobe Campaign과 CRM 솔루션 간에 데이터를 교환할 수 있습니다. [자세히 알아보기](../../platform/using/crm-connectors.md)
-* Analytics Data Connectors (는 **Adobe Genesis**)를 사용하면 Adobe Campaign과 Adobe Analytics 간에 데이터를 공유할 수 있습니다. [자세히 알아보기](../../platform/using/adobe-analytics-data-connector.md)
+* Analytics 커넥터를 사용하면 Adobe Campaign과 Adobe Analytics 간에 데이터를 공유할 수 있습니다. [자세히 알아보기](../../platform/using/adobe-analytics-connector.md)
 
 Campaign을 다음과 같은 여러 다른 시스템과 통합할 수도 있습니다.
 
