@@ -6,10 +6,10 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 8d535439923d6753777b7edd7fb768f685ec5522
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '4396'
-ht-degree: 99%
+source-wordcount: '4421'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 99%
 Campaign 클라이언트 콘솔 설치 단계가 개선되었고 명확해졌습니다. [자세히 알아보기](../../installation/using/installing-the-client-console.md)
 
 추적된 URL 서명 문제에 대한 새로운 기술 정보가 생성되었습니다. [자세히 알아보기](../../technotes/tracked-urls.md)
+
+**21.1.3 릴리스와 함께 제공되는 설명서 업데이트**
+
+이제 &quot;청구(청구)&quot; 기술 워크플로우 설명에 원래 &quot;활성 청구 프로필 수(billingActiveContactCount)&quot;에 의해 수행되는 작업이 포함됩니다. [자세히 알아보기](../../workflow/using/about-technical-workflows.md)
 
 ## 2021년 4월 {#april-2021}
 
@@ -456,7 +460,7 @@ GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCP
 
 Campaign Classic에서 추적을 위해 새로운 문제 해결 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/classic-tracking-troubleshooting.html).
 
-Adobe Analytics 데이터 커넥터에 대한 새 모범 사례 사례 페이지가 추가되었습니다. [Adobe Analytics 데이터 커넥터에 대한 자세한 내용](../../platform/using/adobe-analytics-data-connector.md)
+Adobe Analytics 커넥터에 대한 새 모범 사례 사례 페이지가 추가되었습니다. [Adobe Analytics 커넥터에 대한 자세한 내용](../../platform/using/adobe-analytics-connector.md)
 
 게재 모범 사례 시작 안내서가 이동 및 업데이트되었습니다. [자세한 내용](../../delivery/using/delivery-best-practices.md)
 
@@ -534,8 +538,8 @@ Adobe Campaign Classic에서 오퍼 카탈로그를 사용하는 방법에 대�
 Campaign Classic에서 사용할 수 있는 다른 외부 계정 및 이를 구성하는 방법에 대한 정보가 추가되었습니다.
 [자세한 내용](../../installation/using/external-accounts.md)
 
-인터페이스 변경 사항을 반영하도록 Analytics 데이터 커넥터 섹션이 업데이트되었습니다.
-[자세한 내용](../../platform/using/adobe-analytics-data-connector.md)
+인터페이스 변경 사항을 반영하도록 Analytics 커넥터 섹션이 업데이트되었습니다.
+[자세한 내용](../../platform/using/adobe-analytics-connector.md)
 
 청구 보고서에 정보가 추가되었습니다.
 [자세한 내용](../../production/using/monitoring-processes.md)
