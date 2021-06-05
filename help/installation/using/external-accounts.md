@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1540'
 ht-degree: 8%
 
 ---
@@ -259,11 +259,11 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL 
 
 ## 웹 분석 {#web-analytics-external-account}
 
-**[!UICONTROL Web Analytics (Adobe Analytics - Data connector)]** 외부 계정을 사용하면 데이터를 Adobe Analytics에서 Adobe Campaign으로 세그먼트 형태로 전달할 수 있습니다. 반대로 Adobe Campaign에서 Adobe Analytics - Data Connector로 제공하는 이메일 캠페인의 지표와 특성을 보냅니다.
+**[!UICONTROL Web Analytics]** 외부 계정을 사용하면 데이터를 Adobe Analytics에서 Adobe Campaign으로 세그먼트 형태로 전달할 수 있습니다. 반대로 Adobe Campaign에서 Adobe Analytics 커넥터로 제공하는 이메일 캠페인의 지표와 특성을 보냅니다.
 
 ![](assets/ext_account_10.png)
 
-이 외부 계정의 경우, 추적된 URL에 대한 계산 수식을 보강하고 두 솔루션 간 연결을 승인해야 합니다. 자세한 정보는 이 [페이지](../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign)를 참조하십시오.
+이 외부 계정의 경우, 추적된 URL에 대한 계산 수식을 보강하고 두 솔루션 간 연결을 승인해야 합니다. 자세한 정보는 이 [페이지](../../platform/using/adobe-analytics-connector.md#external-account-classic)를 참조하십시오.
 
 ### Adobe Experience Manager {#adobe-experience-manager-external-account}
 
