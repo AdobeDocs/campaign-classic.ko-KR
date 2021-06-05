@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 5%
+source-wordcount: '1700'
+ht-degree: 3%
 
 ---
 
@@ -60,7 +60,6 @@ ht-degree: 5%
 | **중간 소싱(게재 카운터)** (defaultMidSourcingDlv) | 중간 소싱으로 전송 | 이 워크플로우는 중간 소싱 서버의 게재에 대한 카운트 정보를 수집합니다. 카운트 정보에는 전송된 게재 수 등과 같은 일반 게재 지표가 포함되어 있습니다. 열기와 같은 추적 정보는 포함되지 않습니다. 기본적으로 10분마다 트리거됩니다. |
 | **중간 소싱(게재 로그)** (defaultMidSourcingLog) | 중간 소싱으로 전송 | 이 워크플로우는 중간 소싱 서버에서 게재 로그를 수집합니다. 기본적으로 매시간 트리거됩니다. |
 | **NMAC 옵트아웃 관리** (mobileAppOptOutMgt) | 모바일 앱 채널 | 이 워크플로우는 모바일 장치의 알림 구독 취소를 업데이트합니다. 오전 1시부터 자정까지 6시간마다 시작됩니다. 자세한 내용은 [이 섹션](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)을 참조하십시오. |
-| **활성 청구 프로필 수** (billingActiveContactCount) | 게재 | 이 워크플로우는 활성 프로필 수를 계산합니다. 기본적으로 매일 밤 1시에 트리거됩니다. &quot;프로필&quot;은 최종 고객, 잠재 고객 또는 리드를 나타내는 정보의 기록(예: 쿠키 ID, 고객 ID, 모바일 식별자 또는 특정 채널과 관련된 기타 정보가 포함된 외부 테이블 또는 nmsRecipient 테이블의 레코드)을 나타냅니다. 청구에는 &quot;활성&quot; 상태인 프로필만 포함됩니다. 지난 12개월 내에 모든 채널을 통해 프로필을 타겟팅하거나 통신한 경우 프로필이 &quot;활성&quot;으로 간주됩니다. 페이스북과 트위터 채널은 고려되지 않습니다. 관리 > 캠페인 관리 > 고객 지표 메뉴에서 활성 프로필 수에 대한 개요를 알 수 있습니다. |
 | **오퍼 알림** (offerMgt) | 게재 | 이 워크플로우는 오퍼 카탈로그에 포함된 모든 카테고리와 온라인 환경에 승인된 오퍼를 배포합니다. |
 | **일시 중지된 워크플로우 정리** (cleanupPausedWorkflows) | 게재 | 이 워크플로우는 심각도가 정상으로 설정된 일시 중지된 워크플로우를 분석하고 너무 오랫동안 일시 중지되면 경고 및 알림을 트리거합니다. 한 달 후 일시 중지된 기술 워크플로우는 무조건 중지됩니다. 기본적으로 매주 월요일 오전 5시에 트리거됩니다. 자세한 내용은 [일시 중지된 워크플로우 처리](../../workflow/using/monitoring-workflow-execution.md#handling-of-paused-workflows)를 참조하십시오. |
 | **개인 정보 보호 요청 정리** (cleanupPrivacyRequests) | 개인 정보 보호 규정 | 이 워크플로우는 90일 이상 경과한 액세스 요청 파일을 지웁니다. |
@@ -69,7 +68,7 @@ ht-degree: 5%
 | **제안 동기화** (provisionSynch) | 실행 인스턴스를 사용하여 오퍼 엔진 제어 | 이 워크플로우는 마케팅 인스턴스와 상호 작용에 사용되는 실행 인스턴스 간의 제안을 동기화합니다. |
 | **웹 이벤트 복구** (webAnalyticsGetWebEvents) | 웹 Analytics 커넥터 | 매시간마다 이 워크플로우는 주어진 사이트의 인터넷 사용자 동작에 있는 세그먼트를 다운로드하고, Adobe Campaign 데이터베이스에 지정하고, 리마케팅 워크플로우를 시작합니다. |
 | **합계 보고** (reportingAggregates) | 게재 | 이 워크플로우 업데이트는 보고서에 사용되는 합계를 업데이트합니다. 기본적으로 매일 오전 2시에 트리거됩니다. |
-| **지표 및 캠페인 속성 보내기** (webAnalyticsSendMetrics) | 웹 Analytics 커넥터 | 이 워크플로우에서는 Adobe® Genesis 커넥터를 통해 Adobe Campaign에서 Adobe Experience Cloud Suite로 이메일 캠페인 표시기를 전송할 수 있습니다. 관련 지표는 다음과 같습니다. 전송(전송됨), 총 열기 수(iTotalRecipientOpen), 클릭한 총 수신자 수(iTotalRecipientClick), 오류(iError), 옵트아웃(옵트아웃). |
+| **지표 및 캠페인 속성 보내기** (webAnalyticsSendMetrics) | 웹 Analytics 커넥터 | 이 워크플로우에서는 Adobe® Analytics 커넥터를 통해 Adobe Campaign에서 Adobe Experience Cloud Suite로 이메일 캠페인 표시기를 보낼 수 있습니다. 관련 지표는 다음과 같습니다. 전송(전송됨), 총 열기 수(iTotalRecipientOpen), 클릭한 총 수신자 수(iTotalRecipientClick), 오류(iError), 옵트아웃(옵트아웃). |
 | **주식:주문 및 경고** (stockMgt) | 마케팅 캠페인(캠페인) | 이 워크플로우는 주문 라인에 대한 재고 계산을 시작하고 경고 경고를 관리합니다. |
 | **facebook 팬 동기화** (syncFacebookFans) | 소셜 네트워크(소셜 마케팅) | 이 워크플로우는 매일 오전 7시에 Facebook 팬을 Adobe Campaign으로 가져옵니다. |
 | **facebook 페이지 동기화** (syncFacebook) | 소셜 네트워크(소셜 마케팅) | 이 워크플로우는 매일 오전 7시에 Facebook 페이지를 Adobe Campaign과 동기화합니다. |
