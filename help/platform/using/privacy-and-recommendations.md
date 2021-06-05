@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
 source-wordcount: '2038'
 ht-degree: 100%
@@ -76,7 +76,7 @@ Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 �
 * **개인 데이터**&#x200B;는 살아있는 개인을 직접 또는 간접적으로 식별할 수 있는 정보입니다.
 * **중요한 개인 데이터**&#x200B;는 노동조합 멤버십뿐 아니라 개인의 인종, 정치적 관점, 종교적 신념, 범죄 기록, 유전자 정보, 건강 정보, 성적 선호도, 생체 인식 정보 등과 관련된 정보입니다.
 
-[Adobe Analytic](../../platform/using/adobe-analytics-data-connector.md), [Audience Manager나 People 핵심 서비스](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md) 또는 [CRM Connector](../../platform/using/crm-connectors.md)를 통하는 기타 솔루션과 같이 대상을 다른 시스템으로 전송할 수 있는 기타 Experience Cloud 솔루션을 Campaign과 통합하면 개인 데이터 보호를 위해 추가 비용을 지불해야 합니다.
+[Adobe Analytic](../../platform/using/adobe-analytics-connector.md), [Audience Manager나 People 핵심 서비스](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md) 또는 [CRM Connector](../../platform/using/crm-connectors.md)를 통하는 기타 솔루션과 같이 대상을 다른 시스템으로 전송할 수 있는 기타 Experience Cloud 솔루션을 Campaign과 통합하면 개인 데이터 보호를 위해 추가 비용을 지불해야 합니다.
 
 [기본 규정](#privacy-regulations)은 다음과 같이 데이터를 관리하는 서로 다른 엔터티를 의미합니다.
 * **데이터 컨트롤러**&#x200B;는 개인 데이터를 수집, 사용 및 공유하는 방법과 목적을 결정하는 인증 기관입니다.
