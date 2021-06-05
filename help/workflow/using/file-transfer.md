@@ -6,9 +6,9 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ S3 또는 SFTP 연결을 통해 Adobe 실시간 고객 데이터 플랫폼을 �
 
    ![](assets/file_transfert_edit.png)
 
-   **[!UICONTROL Use an external account]** 을 선택하여 트리의 **[!UICONTROL Administration > Platform > External accounts]** 노드에 구성된 S3, FTP 또는 SFTP 계정에서 계정을 선택합니다. 그런 다음 다운로드할 파일이 포함된 서버를 지정합니다.
+   **[!UICONTROL Use an external account]** 을 선택하여 트리의 **[!UICONTROL Administration > Platform > External accounts]** 노드에 구성된 Azure Blob 저장소, S3, FTP 또는 SFTP 계정에서 계정을 선택합니다. 그런 다음 다운로드할 파일이 포함된 서버를 지정합니다.
 
    ![](assets/file_transfert_edit_external.png)
 
@@ -87,7 +87,7 @@ S3 또는 SFTP 연결을 통해 Adobe 실시간 고객 데이터 플랫폼을 �
 
 * **[!UICONTROL Display the session logs]**
 
-   S3, FTP 또는 SFTP 전송의 로그를 복구하여 워크플로우 로그에 포함할 수 있습니다.
+   Azure Blob 저장 공간, S3, FTP 또는 SFTP 전송 로그를 복구하여 워크플로우 로그에 포함할 수 있습니다.
 
 * **[!UICONTROL Disable passive mode]**
 
