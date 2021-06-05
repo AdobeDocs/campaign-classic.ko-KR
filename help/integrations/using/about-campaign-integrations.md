@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '757'
 ht-degree: 9%
 
 ---
@@ -89,8 +89,8 @@ Adobe Experience Cloud Identity 서비스는 Experience Cloud의 모든 솔루�
    <td> <strong>트리거 핵심 서비스</strong> 와 Adobe Campaign 간의 통합을 통해 Adobe Analytics이 웹 사이트에서 추적한 특정 행동에 반응하여 고객에게 개인화된 이메일을 보낼 수 있습니다.<br /> <p><a href="https://helpx.adobe.com/kr/campaign/kb/triggers-and-campaign.html">Adobe Campaign </a> - Experience Cloud 트리거 통합에 대해 자세히 알아보십시오.</p><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Adobe Analytics - Data Connectors</strong><br /> </td> 
-   <td> <strong>Data Connectors</strong> (이전에 Adobe Genesis라고 함)를 사용하면 Adobe Campaign 및 Adobe Analytics이 이메일 캠페인 이후 사용자 행동에 관련된 세그먼트를 상호 작용할 수 있습니다. 반대로 Adobe Campaign에서 Adobe Analytics - Data Connector로 제공하는 이메일 캠페인의 지표와 특성을 보냅니다.<br /> <p><a href="../../platform/using/adobe-analytics-data-connector.md">Campaign - </a> Data Connectors 통합에 대해 자세히 알아보십시오.</p><br /> </td> 
+   <td> <strong>Adobe Analytics 커넥터</strong><br /> </td> 
+   <td> <strong>Adobe Analytics </strong> 커넥터를 사용하면 Adobe Campaign 및 Adobe Analytics이 이메일 캠페인 후 사용자 행동에 관련된 세그먼트를 상호 작용할 수 있습니다. 반대로 Adobe Campaign에서 Adobe Analytics으로 제공하는 이메일 캠페인의 지표와 특성을 보냅니다.<br /> <p><a href="../../platform/using/adobe-analytics-connector.md">Campaign - </a> Analytics Connectors 통합에 대해 자세히 알아보십시오.</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>
