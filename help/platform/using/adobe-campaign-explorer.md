@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f,f91d69a4-b794-40f0-b450-de862d7333e2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: bdc19e80744643097463e4e721b05a2ac8e51a2e
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->1600x900픽셀 이하의 해상도는 Adobe Campaign에서 지원합니다.
+>1600x900픽셀 이하의 해상도는 Adobe Campaign에서 지원하지 않습니다.
 
 **[!UICONTROL Explorer]** 작업 영역에서 **[!UICONTROL Details]** 영역의 일부 부분이 잘린 것으로 나타나면 영역 상단의 화살표를 사용하여 확장하거나 **[!UICONTROL Enlarge]** 단추를 클릭하십시오.
 
