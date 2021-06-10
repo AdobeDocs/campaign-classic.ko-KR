@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 11de485a97d112b308c145775537d9b6255f124f
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '331'
 ht-degree: 5%
 
 ---
@@ -40,6 +40,10 @@ FDA를 사용하여 외부 데이터베이스에 대한 액세스를 설정하�
 Adobe Campaign에서 액세스할 수 있는 외부 데이터베이스에 따라 특정 구성을 수행해야 합니다. 이러한 구성은 기본적으로 드라이버 설치 및 Adobe Campaign 서버의 각 RDBMS에 속하는 환경 변수 선언, 외부 계정 구성 등이 포함됩니다.
 
 자세한 내용은 아래 링크를 참조하십시오.
+
+* Campaign과 [Vertica](../../installation/using/configure-fda-vertica.md) 연결
+
+* Campaign과 [Google BigQuery 연결](../../installation/using/configure-fda-google-big-query.md)
 
 * Campaign과 [Azure synapse](../../installation/using/configure-fda-synapse.md) 연결
 
