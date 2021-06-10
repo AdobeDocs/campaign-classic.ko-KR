@@ -6,24 +6,14 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 1312f7c319c96851bc83ae21501164e2688d0dff
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 6%
+source-wordcount: '409'
+ht-degree: 7%
 
 ---
 
 # 모범 사례 및 제한 사항
-
-## 임시 스키마 만들기 {#create-temporary-schemas}
-
-FDA를 통해 Greenplum 외부 데이터베이스에 대한 몇 가지 액세스를 관리할 수 있습니다. 전용 옵션을 사용하면 외부 계정을 구성할 때 작업 스키마를 직접 만들 수 있습니다.
-
-![](assets/fda_work_table.png)
-
->[!NOTE]
->
->이 옵션은 PostgreSQL Greenplum에서만 사용할 수 있습니다.
 
 ## 외부 데이터 {#optimizing-email-personalization-with-external-data}로 이메일 개인화 최적화
 
