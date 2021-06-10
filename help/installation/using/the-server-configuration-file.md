@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 1312f7c319c96851bc83ae21501164e2688d0dff
 workflow-type: tm+mt
-source-wordcount: '7970'
+source-wordcount: '7969'
 ht-degree: 5%
 
 ---
@@ -335,7 +335,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
   </tr> 
   <tr> 
    <td> provider<br /> </td> 
-   <td> 유형(열거형). 가능한 값은 'Oracle', 'MSSQL'(Microsoft SQL Server), 'PostgreSQL'(PostgreSQL, Greenplum), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA'(SAP HANA), 'RedShift'(Amazon Redshift), 'ODBC'(ODBC(Sybase ASE, Sybase IQ)), 'HTTP 릴레이'(원격 데이터베이스에 대한 HTTP0)입니다.<br /> </td> 
+   <td> 유형(열거형). 가능한 값은 'Oracle', 'MSSQL'(Microsoft SQL Server), 'PostgreSQL'(PostgreSQL), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA'(SAP HANA), 'RedShift'(Amazon Redshift), 'ODBC'(ODBC(Sybase ASE, Sybase IQ)), 'Relay'(HTTP relay to remote database&lt;a0)입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 
