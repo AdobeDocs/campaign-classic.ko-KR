@@ -5,9 +5,9 @@ description: 통합 구성
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 45a84e1bf43678bbc31d8bac15a7e6520204fdc2
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
@@ -82,3 +82,9 @@ Analytics 타임스탬프가 Campaign에서 이벤트의 생성 날짜보다 훨
 1. 다시 시도할 수 있는 pipelined.log에서 오류를 찾습니다. 해당되는 경우 오류를 수정합니다.
 1. [!DNL pipelined] 상태 페이지에서 큐 크기를 확인합니다. 큐 크기가 큰 경우 JS 성능을 개선합니다.
 1. 지연이 볼륨에 따라 증가하는 것 같으므로 메시지 수를 줄여 Analytics에서 트리거를 구성합니다.
+
+**이전 인증에서 Adobe IO 인증으로 단계 인스턴스 업그레이드**
+
+스테이지 인스턴스에서 통합 인증을 변경해도 프로덕션 인스턴스의 구성에 영향을 주지 않습니다. 단계 인스턴스를 업그레이드한 다음 인증을 Adobe IO로 업데이트하고 단계 인스턴스에서 트리거를 테스트할 수 있습니다.
+
+프로덕션 인스턴스는 기존 인증을 계속 사용하며 이러한 변경의 영향을 받지 않습니다.
