@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 8c47027099559549320abf68016386cc85dcda5a
+source-git-commit: 11de485a97d112b308c145775537d9b6255f124f
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1552'
 ht-degree: 8%
 
 ---
@@ -178,6 +178,9 @@ Campaign과 호환되는 외부 데이터베이스는 [호환성 매트릭스](.
 
 외부 계정 구성 설정은 데이터베이스 엔진에 따라 다릅니다. 자세한 내용은 다음 섹션에서 알아보십시오.
 
+* [Vertica](../../installation/using/configure-fda-vertica.md)에 대한 액세스 구성
+* [Snowflake](../../installation/using/configure-fda-snowflake.md)에 대한 액세스 구성
+* [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)에 대한 액세스 구성
 * [Azure synapse](../../installation/using/configure-fda-synapse.md)에 대한 액세스 구성
 * [Hadoop](../../installation/using/configure-fda-hadoop.md)에 대한 액세스 구성
 * [Oracle](../../installation/using/configure-fda-oracle.md)에 대한 액세스 구성
