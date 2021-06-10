@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 8c47027099559549320abf68016386cc85dcda5a
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1539'
 ht-degree: 8%
 
 ---
@@ -411,7 +411,7 @@ Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe 
 
 액세스 키 ID 및 암호 액세스 키를 찾을 수 있는 위치를 알아보려면 Amazon 웹 서비스 [설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)를 참조하십시오.
 
-### Azure Blob 저장소(#azure-blob-external-account)
+### Azure Blob 저장소 {#azure-blob-external-account}
 
 **Azure Blob 저장 공간** 외부 계정을 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 통해 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 자세한 정보는 이 [섹션](../../workflow/using/file-transfer.md)을 참조하십시오.
 
