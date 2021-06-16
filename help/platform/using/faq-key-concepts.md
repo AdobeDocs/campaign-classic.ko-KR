@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 99%
@@ -90,7 +90,7 @@ Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체
 
 ## 푸시 알림을 전송하는 방법 {#how-to-send-push-notifications-}
 
-Adobe Campaign을 사용하여 앱을 통해 iOS 및 Android 디바이스에 [개인화된 푸시 알림 보내기](../../delivery/using/creating-notifications.md) 방법을 살펴볼 수 있습니다.
+Adobe Campaign을 사용하여 앱을 통해 iOS 및 Android 디바이스에 [개인화된 푸시 알림 보내기](../../delivery/using/create-notifications-ios.md) 방법을 살펴볼 수 있습니다.
 
 ## 온라인 설문 조사를 디자인하고 공유하는 방법 {#how-to-design-and-share-an-online-survey-}
 
