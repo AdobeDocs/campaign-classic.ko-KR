@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '137'
 ht-degree: 12%
 
 ---
@@ -20,15 +20,15 @@ Adobe Campaign을 사용하면 개인화된 전자 메시지를 대상 모집단
 전자 메일 전송을 시작하기 전:
 
 * 수신자 프로필에 이메일 주소 이상이 포함되어 있는지 확인하십시오.
-* Adobe Campaign [게재 우수 사례](../../delivery/using/delivery-best-practices.md)에 대해 자세히 알아보십시오.
-* [게재 기능](../../delivery/using/about-deliverability.md) 및 [게재 기능 관리](https://helpx.adobe.com/campaign/kb/acc-deliverability.html)에 대해 읽어 보십시오.
+* Adobe Campaign [게재 우수 사례](delivery-best-practices.md)에 대해 자세히 알아보십시오.
+* 게재 능력에 대한 자세한 내용을 보려면 다음 섹션을 참조하십시오.[Campaign](about-deliverability.md) 및 [게재 기능 우수 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)의 게재 기능 관리.
 
 전자 메일을 보내는 주요 단계는 다음과 같습니다.
 
-* [전자 메일 게재 만들기](../../delivery/using/creating-an-email-delivery.md)
+* [이메일 게재 만들기](../../delivery/using/creating-an-email-delivery.md)
 * [대상 모집단 정의](../../delivery/using/steps-defining-the-target-population.md)
-* [전자 메일 콘텐츠 정의](../../delivery/using/defining-the-email-content.md)
+* [이메일 콘텐츠 정의](../../delivery/using/defining-the-email-content.md)
 * [이메일 보내기](../../delivery/using/sending-messages.md)
 * [게재 모니터링](../../delivery/using/about-delivery-monitoring.md)
 
-아래 섹션에서는 이메일 채널에 해당하는 정보를 제공합니다. 게재를 만드는 방법에 대한 글로벌 정보는 [이 섹션](../../delivery/using/steps-about-delivery-creation-steps.md)을 참조하십시오.
+아래 섹션에서는 이메일 채널에 해당하는 정보를 제공합니다. 게재를 만드는 방법에 대한 글로벌 정보는 [이 섹션](steps-about-delivery-creation-steps.md)을 참조하십시오.
