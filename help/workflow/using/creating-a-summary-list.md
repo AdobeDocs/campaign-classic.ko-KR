@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 2%
@@ -110,7 +110,7 @@ Phone;500;London 5
 
 ![](assets/uc2_enrich_population1.png)
 
-## 2단계:&#39;구매&#39; 테이블 {#step-2--writing-enriched-data-to-the--purchases--table}에 보강된 데이터를 쓰는 중
+## 2단계:&#39;구매&#39; 테이블 {#step-2--writing-enriched-data-to-the--purchases--table}에 보강된 데이터를 작성합니다
 
 이 단계에서는 가져온 및 보강한 데이터를 &quot;구매&quot; 표에 작성하는 방법에 대해 자세히 설명합니다. 이렇게 하려면 **데이터 업데이트** 활동을 사용해야 합니다.
 
@@ -134,7 +134,7 @@ Phone;500;London 5
 
 ![](assets/uc2_enrich_miseajour.png)
 
-## 3단계:&#39;연락처&#39; 데이터 보강 {#step-3--enriching--contact--data-}
+## 3단계:&#39;Contact&#39; 데이터 {#step-3--enriching--contact--data-} 보강
 
 연락처 스키마는 &quot;구매&quot; 스키마에 실제로 연결됩니다. 즉, &quot;데이터 보강&quot; 옵션의 다른 옵션을 사용할 수 있습니다.필터링 차원에 연결된 데이터 추가
 
@@ -170,7 +170,7 @@ Phone;500;London 5
 
    ![](assets/uc2_enrich_enrich8.png)
 
-## 4단계:요약 목록 {#step-4--creating-and-adding-to-a-summary-list} 만들기 및 추가
+## 4단계:만들기 및 요약 목록 {#step-4--creating-and-adding-to-a-summary-list}에 추가
 
 마지막 단계에는 보강된 모든 데이터를 목록에 쓰는 작업이 포함됩니다.
 
