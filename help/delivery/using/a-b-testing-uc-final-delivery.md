@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: bc23a444-a872-48fb-8bba-64b301541089
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 7%
+source-wordcount: '108'
+ht-degree: 9%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 7%
 
 전환(**[!UICONTROL Javascript Code]** 활동을 통해 정의됨)에 지정된 게재를 준비하면 다음 단계에 설명된 대로 승인하고 전송을 시작할 수 있습니다.
 
-이제 워크플로우를 시작할 수 있습니다( [7단계 참조).워크플로우 시작](../../delivery/using/a-b-testing-uc-start-workflow.md)).
+이제 워크플로우를 시작할 수 있습니다. [자세히 알아보기](a-b-testing-uc-start-workflow.md)
