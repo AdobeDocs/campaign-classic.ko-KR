@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 6%
+source-wordcount: '85'
+ht-degree: 9%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 6%
 
 1. 세 번째 게재의 컨텐츠가 결정되면 타겟 및 컨텐츠를 승인합니다.
 
-이제 결과를 분석할 수 있습니다( [8단계 참조).결과 분석](../../delivery/using/a-b-testing-uc-analyzing.md)).
+이제 결과를 분석할 수 있습니다. [자세히 알아보기](a-b-testing-uc-analyzing.md)
