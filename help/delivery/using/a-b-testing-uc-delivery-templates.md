@@ -6,18 +6,18 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 17%
+source-wordcount: '86'
+ht-degree: 20%
 
 ---
 
 # 게재 템플릿 만들기 {#step-3--creating-two-delivery-templates}
 
-이제 두 개의 게재 템플릿을 만들려고 합니다. 각 템플릿은 **[!UICONTROL Split]** 활동에 연결된 **[!UICONTROL Email delivery]** 활동에서 참조됩니다. 자세한 정보는 이 [섹션](../../delivery/using/about-templates.md)을 참조하십시오.
+이제 두 개의 게재 템플릿을 만들려고 합니다. 각 템플릿은 **[!UICONTROL Split]** 활동에 연결된 **[!UICONTROL Email delivery]** 활동에서 참조됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](about-templates.md)을 참조하십시오.
 
-1. **[!UICONTROL Resources > Delivery template]** 폴더로 이동합니다.
+1. **[!UICONTROL Resources > Delivery template]** 폴더를 찾습니다.
 1. **[!UICONTROL Email]** 게재 템플릿을 복제합니다.
 
    ![](assets/use_case_abtesting_deliverymodel_001.png)
@@ -30,4 +30,4 @@ ht-degree: 17%
 
    ![](assets/use_case_abtesting_deliverymodel_003.png)
 
-이제 워크플로우에서 게재를 구성할 수 있습니다( [4단계 참조).워크플로우](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)에서 게재를 구성합니다.
+이제 워크플로우에서 게재를 구성할 수 있습니다. [자세히 알아보기](a-b-testing-uc-configuring-deliveries.md)
