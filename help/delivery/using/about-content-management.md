@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 콘텐츠 관리 정보{#about-content-management}
 
-Adobe Campaign Content Manager 모듈은 반복 뉴스레터 또는 웹 사이트를 만들기 위해 설치할 수 있는 특정 Campaign Classic [표준 패키지](../../installation/using/installing-campaign-standard-packages.md)입니다. 메시지를 만들고, 확인하고, 게시할 수 있습니다.
+Adobe Campaign Content Manager 모듈은 반복 뉴스레터 또는 웹 사이트를 만들기 위해 설치할 수 있는 특정 Campaign Classic [내장 패키지](../../installation/using/installing-campaign-standard-packages.md)입니다. 메시지를 만들고, 확인하고, 게시할 수 있습니다.
 
 >[!NOTE]
 >
