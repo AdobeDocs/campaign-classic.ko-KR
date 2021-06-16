@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 1%
+source-wordcount: '330'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 스크립트 {#example-of-a-script} 의 예
 
-다음 스크립트는 타깃팅 워크플로우에서 그대로 사용할 수 있습니다. 자세한 내용은 [구현](#implementation)을 참조하십시오.
+다음 스크립트는 타깃팅 워크플로우에서 그대로 사용할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](#implementation)을 참조하십시오.
 
 ```
  // query the database to find the winner (best open rate)
@@ -65,7 +65,7 @@ ht-degree: 1%
    vars.deliveryId = delivery.id
 ```
 
-스크립트에 대한 자세한 내용은 [스크립트 세부 정보](#details-of-the-script)를 참조하십시오.
+스크립트에 대한 자세한 내용은 [이 섹션](#details-of-the-script)을 참조하십시오.
 
 ## 구현 {#implementation}
 
@@ -168,4 +168,4 @@ ht-degree: 1%
 * 가장 낮은 구독 취소 비율:`[indicators/@optOutRatio]`,
 * 트랜잭션 금액:`[indicators/@amount]`
 
-이제 최종 게재를 정의할 수 있습니다( [6단계 참조).최종 배달](../../delivery/using/a-b-testing-uc-final-delivery.md))을 정의합니다.
+이제 최종 게재를 정의할 수 있습니다. [자세히 알아보기](a-b-testing-uc-final-delivery.md)
