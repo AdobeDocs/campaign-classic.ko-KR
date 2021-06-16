@@ -5,9 +5,9 @@ description: 파이프라인 구성 방법 알아보기
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: cf102a5e669ffe136e6ec2429343725ec6c3722e
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '914'
 ht-degree: 1%
 
 ---
@@ -22,11 +22,15 @@ ht-degree: 1%
 >
 >하이브리드 배포의 경우 파이프라인이 mid 인스턴스에 구성되어 있는지 확인하십시오.
 
-## 필수 구성 요소 {#prerequisites}
+## 기본 사항 {#prerequisites}
 
 이 구성을 시작하기 전에 다음을 사용 중인지 확인하십시오.
 
-* Adobe Campaign 20.3, 20.2.4, 19.1.8 또는 [!DNL Gold Standard] 11 최소
+* 최소, 다음 Adobe Campaign 빌드 중 하나:
+   * 19.1.8.9039
+   * 19.1.4.9032.GS.11
+   * 20.2.4.9187
+   * 20.3.1
 * Adobe Analytics Standard 버전
 
 다음을 수행해야 합니다.
