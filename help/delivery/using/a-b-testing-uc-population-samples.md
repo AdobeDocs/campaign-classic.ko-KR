@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 6%
+source-wordcount: '170'
+ht-degree: 7%
 
 ---
 
@@ -79,4 +79,4 @@ ht-degree: 6%
 
       ![](assets/use_case_abtesting_createrecipients_013.png)
 
-이제 두 개의 게재 템플릿을 만들 수 있습니다( [3단계 참조).두 개의 게재 템플릿](../../delivery/using/a-b-testing-uc-delivery-templates.md))을 만듭니다.
+이제 두 개의 게재 템플릿을 만들 수 있습니다. [자세히 알아보기](a-b-testing-uc-delivery-templates.md)).
