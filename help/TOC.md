@@ -7,9 +7,9 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign을 사용하면 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등을 통해 고객이 실제로 원하는 동적 캠페인을 제작, 조정 및 전달할 수 있습니다.
 sub-product: Aadobe Campaign Classic
 type: Documentation
-source-git-commit: a4fc52e68cbca861e1b942e0c7e41f3d5dc3df54
+source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2512'
 ht-degree: 97%
 
 ---
@@ -161,7 +161,9 @@ ht-degree: 97%
          + [앱 구성 시작](delivery/using/get-started-app-config.md)
          + [iOS용 구성 단계](delivery/using/configuring-the-mobile-application.md)
          + [Android용 구성 단계](delivery/using/configuring-the-mobile-application-android.md)
-      + [알림 만들기](delivery/using/creating-notifications.md)
+      + 푸시 알림 만들기{#create-a-push-msg}
+         + [iOS용 푸시 메시지 작성](delivery/using/create-notifications-ios.md)
+         + [Android용 푸시 메시지 만들기](delivery/using/create-notifications-android.md)
       + [문제 해결](delivery/using/troubleshooting.md)
    + DM 보내기 {#sending-direct-mail}
       + [DM 채널 정보](delivery/using/about-direct-mail-channel.md)
