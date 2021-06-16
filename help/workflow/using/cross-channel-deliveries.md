@@ -6,18 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 7%
+source-wordcount: '284'
+ht-degree: 8%
 
 ---
 
 # 크로스 채널 게재{#cross-channel-deliveries}
 
 크로스 채널 게재는 캠페인 워크플로우 활동의 **[!UICONTROL Deliveries]** 탭에서 사용할 수 있습니다.
-
-이를 통해 특정 채널에 맞는 게재를 만들 수 있습니다. 클래식 게재 마법사와 같은 방식으로 게재를 기반으로 할 템플릿과 해당 콘텐츠를 지정할 수 있습니다.
 
 사용할 수 있는 다양한 채널은 다음과 같습니다.
 
@@ -26,12 +24,14 @@ ht-degree: 7%
 * [모바일](../../delivery/using/sms-channel.md)
 * [Twitter](../../social/using/publishing-on-twitter.md)
 * [Facebook](../../social/using/publishing-on-facebook.md)
-* [iOS](../../delivery/using/creating-notifications.md#sending-notifications-on-ios)
-* [Android](../../delivery/using/creating-notifications.md#sending-notifications-on-android)
+* [iOS](../../delivery/using/create-notifications-ios.md)
+* [Android](../../delivery/using/create-notifications-android.md)
+
+게재를 기반으로 할 템플릿을 선택하고 해당 콘텐츠를 정의합니다.
 
 다른 타겟팅 활동을 사용하여 워크플로우의 게재 업스트림에 대한 타겟을 지정할 수 있습니다.
 
-예를 들어 여기서는 푸시 알림 구독자를 위한 이메일 또는 SMS를 보내는 워크플로우를 만든 다음 1주일 후 푸시 알림을 만듭니다. 방법은 다음과 같습니다.
+아래 예에서는 푸시 알림 가입자용 이메일 또는 SMS를 전송하는 워크플로우를 만든 다음 1주일 후 푸시 알림을 만듭니다. 방법은 다음과 같습니다.
 
 1. 캠페인 만들기.
 1. 캠페인의 **[!UICONTROL Targeting and workflows]** 탭에서 워크플로우에 **[!UICONTROL Query]** 를 추가합니다.
@@ -39,7 +39,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >푸시 알림의 경우 **가입자 응용 프로그램** 대상 차원을 사용해야 합니다.
+   >푸시 알림의 경우 **가입자 응용 프로그램** 대상 차원을 사용합니다.
 
    ![](assets/cross_channel_delivery_1.png)
 
