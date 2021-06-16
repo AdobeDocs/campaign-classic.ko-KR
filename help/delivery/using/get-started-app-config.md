@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 11%
+source-wordcount: '290'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합
 
 * Neotrapes 모바일 응용 프로그램에 대한 **[!UICONTROL Mobile application]** 유형 정보 서비스를 만듭니다. iOS](../../delivery/using/configuring-the-mobile-application.md#configuring-ios-service)에 대해서는 [이 섹션을 참조하십시오. 및 [Android](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service)에 대한 이 섹션.
 * 애플리케이션의 iOS 및 Android 버전을 이 서비스에 추가합니다.
-* iOS 및 Android 모두에 대한 게재를 만듭니다. [이 페이지](../../delivery/using/creating-notifications.md)를 참조하십시오.
+* [iOS](create-notifications-ios.md) 및 [Android](create-notifications-android.md)에 대한 게재를 만듭니다.
 
 ![](assets/nmac_service_diagram.png)
 
