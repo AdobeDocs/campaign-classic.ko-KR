@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 4%
+source-wordcount: '656'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,16 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Android용 앱을 구성하는 방법 및 Android용 게재를 만드는 방법에 대해 알아보려면 이 [섹션](../../delivery/using/configuring-the-mobile-application-android.md)을 참조하십시오.
+>Android용 앱을 구성하는 방법 및 Android용 게재를 만드는 방법에 대해 알아보려면 이 [섹션](configuring-the-mobile-application-android.md)을 참조하십시오.
+
+주요 단계는 다음과 같습니다.
+
+1. [iOS 외부 계정 구성](#configuring-external-account-ios)
+1. [iOS 서비스 구성](#configuring-ios-service)
+1. [Campaign에서 iOS 모바일 앱 통합](#creating-ios-app)
+
+그러면 [iOS 장치](create-notifications-ios.md)에 대한 푸시 알림을 만들 수 있습니다.
+
 
 ## iOS 외부 계정 구성 {#configuring-external-account-ios}
 
@@ -64,9 +73,9 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 
 1. iOS 개발 및 프로덕션 애플리케이션을 만듭니다. 자세한 정보는 이 [섹션](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app)을 참조하십시오.
 
-## iOS 모바일 애플리케이션 만들기 {#creating-ios-app}
+## iOS 모바일 앱 만들기 {#creating-ios-app}
 
-이제 서비스를 만든 후 iOS 애플리케이션을 만들어야 합니다.
+서비스를 만든 후 Campaign에서 iOS 애플리케이션을 만듭니다. 아래의 단계를 수행하십시오.
 
 1. 새로 만든 서비스에서 **[!UICONTROL Add]** 버튼을 클릭하여 애플리케이션 유형을 선택합니다.
 
@@ -118,40 +127,3 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
 이제 iOS 애플리케이션을 Campaign Classic에서 사용할 준비가 되었습니다.
-
-## iOS 리치 알림 만들기 {#creating-ios-delivery}
-
-iOS 10 이상을 사용하면 풍부한 알림을 생성할 수 있습니다. Adobe Campaign은 장치가 리치 알림을 표시할 수 있는 변수를 사용하여 알림을 전송할 수 있습니다.
-
-이제 새 게재를 만들고 만든 모바일 애플리케이션에 연결해야 합니다.
-
-1. **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**(으)로 이동합니다.
-
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
-
-   ![](assets/nmac_android_3.png)
-
-1. **[!UICONTROL Delivery template]** 드롭다운에서 **[!UICONTROL Deliver on iOS (ios)]** 을 선택합니다. 게재에 **[!UICONTROL Label]**&#x200B;을(를) 추가합니다.
-
-1. **[!UICONTROL To]** 을 클릭하여 타겟팅할 모집단을 정의합니다. 기본적으로 **[!UICONTROL Subscriber application]** 대상 매핑이 적용됩니다. **[!UICONTROL Add]** 을 클릭하여 이전에 만든 서비스를 선택합니다.
-
-   ![](assets/nmac_ios_9.png)
-
-1. **[!UICONTROL Target type]** 창에서 **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]** 을 선택하고 **[!UICONTROL Next]** 를 클릭합니다.
-
-1. **[!UICONTROL Service]** 드롭다운에서 앞에서 만든 서비스를 선택한 다음 타깃팅할 애플리케이션을 선택하고 **[!UICONTROL Finish]** 을 클릭합니다.
-**[!UICONTROL Application variables]**&#x200B;은 구성 단계 중에 추가된 내용에 따라 자동으로 추가됩니다.
-
-   ![](assets/nmac_ios_6.png)
-
-1. 리치 알림을 편집합니다.
-
-   ![](assets/nmac_ios_7.png)
-
-1. 모바일 애플리케이션에서 미디어 콘텐츠를 다운로드할 수 있도록 하려면 알림 편집 창에서 **[!UICONTROL Mutable content]** 상자를 선택합니다.
-
-1. **[!UICONTROL Save]** 을 클릭하고 게재를 전송합니다.
-
-구독자의 모바일 iOS 장치에서 수신한 경우 푸시 알림에 이미지 및 웹 페이지가 표시되어야 합니다.
-
-![](assets/nmac_ios_8.png)
