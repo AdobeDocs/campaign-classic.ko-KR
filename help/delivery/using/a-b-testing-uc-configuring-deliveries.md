@@ -1,21 +1,21 @@
 ---
 product: campaign
 title: 게재 구성
-description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법을 알아봅니다.
+description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법을 알아봅니다
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 1%
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
-# 워크플로우에서 게재 구성 {#step-4--configuring-the-deliveries-in-the-workflow}
+# 워크플로우 {#step-4--configuring-the-deliveries-in-the-workflow}에서 게재 구성
 
-다음 단계는 게재를 구성하는 것입니다. 이전 단계에서 생성된 세 개의 모집단으로 지정됩니다.[2단계:모집단 샘플 구성](#step-2--configuring-population-samples). 처음 두 게재에서는 모집단 A와 B로 서로 다른 콘텐츠를 전송할 수 있습니다. 세 번째 게재는 A와 B를 받지 않은 모집단에 대해 지정됩니다. 해당 컨텐츠는 스크립트로 계산되며 가장 높은 공개 비율 점수가 높은 A 또는 B와 동일합니다. 게재 A와 B의 결과를 확인하려면 세 번째 게재에 대한 대기 기간을 구성해야 합니다. 세 번째 게재에 **[!UICONTROL Wait]** 활동이 포함된 이유입니다.
+[모집단이 만들어지면](a-b-testing-uc-population-samples.md) 게재를 구성할 수 있습니다. 이 사용 사례에서 처음 두 게재를 사용하면 모집단 A와 B로 다른 콘텐츠를 전송할 수 있습니다. 세 번째 게재는 폴백 게재입니다.A 또는 B에 속하지 않는 수신자에게 전송됩니다. 해당 컨텐츠는 스크립트로 계산되며, 어떤 점수가 가장 높은 공개 비율에 따라 A 또는 B와 동일합니다. 게재 A와 B의 결과를 확인하려면 세 번째 게재에 대한 대기 기간을 구성해야 합니다. 세 번째 게재에 **[!UICONTROL Wait]** 활동이 포함된 이유입니다.
 
 1. **[!UICONTROL Split]** 활동으로 이동하고 모집단 A로 지정되는 전환을 워크플로우에 이미 있는 이메일 게재 중 하나에 연결합니다.
 
@@ -50,4 +50,4 @@ ht-degree: 1%
 
    ![](assets/use_case_abtesting_createdeliveries_008.png)
 
-이제 스크립트를 만들 수 있습니다( [5단계 참조).스크립트](../../delivery/using/a-b-testing-uc-script.md))를 만듭니다.
+이제 스크립트를 만들 수 있습니다. [자세히 알아보기](a-b-testing-uc-script.md)
