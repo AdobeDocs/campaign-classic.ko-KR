@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 10%
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합니다.
 
-* Neotrapes 모바일 응용 프로그램에 대한 **[!UICONTROL Mobile application]** 유형 정보 서비스를 만듭니다. iOS](../../delivery/using/configuring-the-mobile-application.md#configuring-ios-service)에 대해서는 [이 섹션을 참조하십시오. 및 [Android](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service)에 대한 이 섹션.
+* Neotrapes 모바일 응용 프로그램에 대한 **[!UICONTROL Mobile application]** 유형 정보 서비스를 만듭니다. iOS](configuring-the-mobile-application.md#configuring-ios-service)에 대해서는 [이 섹션을 참조하십시오. 및 [Android](configuring-the-mobile-application-android.md#configuring-android-service)에 대한 이 섹션.
 * 애플리케이션의 iOS 및 Android 버전을 이 서비스에 추가합니다.
 * [iOS](create-notifications-ios.md) 및 [Android](create-notifications-android.md)에 대한 게재를 만듭니다.
 
@@ -29,7 +29,7 @@ Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합
 >
 >서비스의 **[!UICONTROL Subscriptions]** 탭으로 이동하여 서비스 구독자 목록(예: 모바일에 애플리케이션을 설치했고 알림을 받는 데 동의한 모든 사용자)을 확인합니다.
 
-## 패키지 {#installing-package-ios} 설치
+## 패키지 설치 {#installing-package-ios}
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에 모바일 앱 패키지를 설치하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=en#sending-messages)
 
@@ -64,6 +64,6 @@ Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합
 이 단계를 완료하면 Android 및 iOS 앱을 구성할 수 있습니다.
 다음 섹션을 참조하십시오.
 
-* [iOS용 구성 단계](../../delivery/using/configuring-the-mobile-application.md)
+* [iOS용 구성 단계](configuring-the-mobile-application.md)
 
-* [Android용 구성 단계](../../delivery/using/configuring-the-mobile-application-android.md)
+* [Android용 구성 단계](configuring-the-mobile-application-android.md)
