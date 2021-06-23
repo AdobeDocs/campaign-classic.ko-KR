@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 7%
 
 ---
 
-# SMS 채널{#sms-channel} 시작
+# SMS 채널 시작{#sms-channel}
 
 
 Adobe Campaign을 사용하여 개인화된 SMS 메시지를 보냅니다.
@@ -21,7 +21,7 @@ Adobe Campaign을 사용하여 개인화된 SMS 메시지를 보냅니다.
 SMS 전송을 시작하기 전:
 
 * 수신자 프로필에 휴대폰 이상이 포함되어 있는지 확인하십시오.
-* Adobe Campaign [게재 우수 사례](../../delivery/using/delivery-best-practices.md)에 대해 자세히 알아보십시오.
+* Adobe Campaign [게재 우수 사례](delivery-best-practices.md)에 대해 자세히 알아보십시오.
 
 SMS를 전송하는 주요 단계는 다음과 같습니다.
 
@@ -34,10 +34,10 @@ SMS를 전송하는 주요 단계는 다음과 같습니다.
 
 또한 SMS 프로토콜 및 설정을 잘 알고 있어야 합니다. [이 문서에서 Adobe Campaign과 SMPP 공급자 간에 설정된 연결을 살펴봅니다.](sms-protocol.md)
 
-게재를 만드는 방법에 대한 글로벌 정보는 [이 섹션](../../delivery/using/steps-about-delivery-creation-steps.md)을 참조하십시오.
+게재를 만드는 방법에 대한 글로벌 정보는 [이 섹션](steps-about-delivery-creation-steps.md)을 참조하십시오.
 
 >[!NOTE]
 >
 >또한 Adobe Campaign을 사용하면 **Adobe Campaign 모바일 앱 채널(NMAC)** 옵션을 통해 모바일 터미널에 알림을 제출할 수도 있습니다.
 > 
->자세한 내용은 [모바일 앱 채널 시작](../../delivery/using/about-mobile-app-channel.md) 섹션을 참조하십시오.
+>자세한 내용은 [모바일 앱 채널 시작](about-mobile-app-channel.md) 섹션을 참조하십시오.
