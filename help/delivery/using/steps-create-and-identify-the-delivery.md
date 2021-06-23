@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 11%
@@ -30,7 +30,7 @@ ht-degree: 11%
 >
 >목록에서 제공되는 채널은 사용권 계약에 따라 다릅니다.
 
-필요에 맞게 특정 매개 변수를 사전 구성하기 위해 새 게재 템플릿을 만들 수 있습니다. 템플릿에 대한 자세한 정보는 [이 섹션](../../delivery/using/about-templates.md)을 참조하십시오.
+필요에 맞게 특정 매개 변수를 사전 구성하기 위해 새 게재 템플릿을 만들 수 있습니다. 템플릿에 대한 자세한 정보는 [이 섹션](about-templates.md)을 참조하십시오.
 
 ## 게재 식별 {#identifying-the-delivery}
 
@@ -49,7 +49,7 @@ ht-degree: 11%
 
 게재 콘텐츠를 구성할 준비가 되었습니다. 게재 콘텐츠 정의는 각 채널에 따라 다릅니다. 자세한 내용은 전용 섹션을 참조하십시오.
 
-* [전자 메일 콘텐츠 정의](../../delivery/using/defining-the-email-content.md)
-* [SMS 콘텐츠 정의](../../delivery/using/sms-create.md#defining-the-sms-content)
-* [DM 콘텐츠 정의](../../delivery/using/defining-the-direct-mail-content.md)
-* [푸시 알림](../../delivery/using/about-mobile-app-channel.md)
+* [전자 메일 콘텐츠 정의](defining-the-email-content.md)
+* [SMS 콘텐츠 정의](sms-create.md#defining-the-sms-content)
+* [DM 콘텐츠 정의](defining-the-direct-mail-content.md)
+* [푸시 알림](about-mobile-app-channel.md)
