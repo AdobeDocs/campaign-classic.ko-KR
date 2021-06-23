@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 9%
@@ -40,11 +40,11 @@ ht-degree: 9%
 Adobe Campaign을 사용하면 게재 가능한 비율은 많은 요인에 따라 달라집니다. 특히 다음과 같습니다.
 
 * 인스턴스의 올바른 구성:도움이 필요하면 Adobe 담당자에게 문의하십시오.
-* 올바른 네트워크 구성:[이 섹션](../../delivery/using/optimize-delivery.md#network-config) 및 [도메인 설정 및 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy)을 참조하십시오.
+* 올바른 네트워크 구성:[이 섹션](optimize-delivery.md#network-config) 및 [도메인 설정 및 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy)을 참조하십시오.
 * IP 주소 평판:[IP 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy)을 참조하십시오.
-* 타겟팅된 주소의 품질:[격리 관리](../../delivery/using/optimize-delivery.md#quarantine-management)를 참조하십시오.
+* 타겟팅된 주소의 품질:[격리 관리](optimize-delivery.md#quarantine-management)를 참조하십시오.
 * 낮은 [컴플레인](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) 및 [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) 비율.
-* 메시지 콘텐츠:[전자 메일 콘텐츠 제어](../../delivery/using/control-message-content.md)를 참조하십시오.
+* 메시지 콘텐츠:[전자 메일 콘텐츠 제어](control-message-content.md)를 참조하십시오.
 * 메시지 인증(SPF, DKIM, DMARC):[이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)을 참조하십시오.
 * 보낸 사람 평판:기본 ISP가 보낸 사람의 평판을 평가하는 방법에 대해 알려면 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html)을 참조하십시오.
 
@@ -57,12 +57,12 @@ Adobe Campaign은 플랫폼의 게재 성능을 추적하고 개선하기 위한
 
 메시지를 구성, 디자인 및 테스트할 때 아래 나열된 섹션에 언급된 우수 사례를 따라야 합니다. Adobe Campaign에서 제공하는 모든 기능을 활용하면 게재 능력을 향상시킬 수 있습니다.
 
-* [게재 모범 사례](../../delivery/using/delivery-best-practices.md)
-* [이메일 콘텐츠 제어](../../delivery/using/control-message-content.md)
-* [받은 편지함 렌더링](../../delivery/using/inbox-rendering.md)
-* [증명 보내기](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)
+* [게재 모범 사례](delivery-best-practices.md)
+* [이메일 콘텐츠 제어](control-message-content.md)
+* [받은 편지함 렌더링](inbox-rendering.md)
+* [증명 보내기](steps-validating-the-delivery.md#sending-a-proof)
 
-### 이중 옵트인 {#double-opt-in}을 통해 동의 확인
+### 이중 옵트인을 통해 동의 확인 {#double-opt-in}
 
 잘못된 주소로 메시지를 보내지 않고, 부적절한 통신을 제한하며, 발신자의 평판을 향상시키려면, Adobe은 이중 옵트인 메커니즘을 구현하는 것이 좋습니다. 이 방법을 사용하면 수신자가 의도적으로 구독했는지 확인할 수 있습니다.
 
@@ -80,9 +80,9 @@ Adobe Campaign은 일관되게 발생하는 스팸 불만, 하드 바운스 및 
 
 자세한 정보는 다음 섹션을 참조하십시오.
 
-* [게재 실패 이해](../../delivery/using/understanding-delivery-failures.md)
-* [격리 관리 이해](../../delivery/using/understanding-quarantine-management.md)
-* [격리와 차단 목록](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+* [게재 실패 이해](understanding-delivery-failures.md)
+* [격리 관리 이해](understanding-quarantine-management.md)
+* [격리와 차단 목록](understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ### 모니터링 및 보고 도구 사용
 
@@ -92,8 +92,8 @@ Adobe Campaign에서는 향상된 게재 통찰력을 위해 내장된 실시간
 
 자세한 정보는 다음 섹션을 참조하십시오.
 
-* [전달성 모니터링](../../delivery/using/monitoring-deliverability.md)
-* [게재 모니터링 기본 정보](../../delivery/using/about-delivery-monitoring.md)
+* [전달성 모니터링](monitoring-deliverability.md)
+* [게재 모니터링 기본 정보](about-delivery-monitoring.md)
 * [Campaign 기본 제공 보고서 기본 정보](../../reporting/using/about-campaign-built-in-reports.md)
 
 <!--TO REMOVE
