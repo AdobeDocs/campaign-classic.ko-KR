@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '8433'
 ht-degree: 0%
@@ -52,11 +52,11 @@ SMPP 프로토콜의 일부인 승인(RESP PDU)과 SR을 구분해야 합니다.
 
 승인 및 SR 모두 오류를 트리거할 수 있으며, 두 사항을 구분하는 것이 문제 해결에 도움이 됩니다.
 
-### SMS {#information-sms}에 의해 전달된 정보
+### SMS에서 전달하는 정보 {#information-sms}
 
 SMS는 문자보다 더 많은 정보를 전달한다. 다음은 SMS에서 찾을 수 있는 사항 목록입니다.
 
-* 텍스트는 140바이트로 제한되어 있으며, 인코딩에 따라 70~160자 사이의 문자를 의미합니다. 자세한 내용 및 제한 사항은 아래의 [SMS 텍스트 인코딩](../../delivery/using/sms-protocol.md#sms-text-encoding)을 참조하십시오.
+* 텍스트는 140바이트로 제한되어 있으며, 인코딩에 따라 70~160자 사이의 문자를 의미합니다. 자세한 내용 및 제한 사항은 아래의 [SMS 텍스트 인코딩](sms-protocol.md#sms-text-encoding)을 참조하십시오.
 
 * `ADC` 또는 `MSISDN`이라고도 하는 수신자 주소입니다. SMS를 수신할 모바일 수입니다.
 
@@ -114,7 +114,7 @@ Adobe Campaign에서는 바인딩 단계 동안 로그인 및 암호 전달을 �
 
 커넥터는 시스템 `openssl` 라이브러리에서 제공하는 기본 인증서를 사용합니다. 일반적으로 Debian의 `/etc/ssl/certs` 디렉토리에서 제공됩니다. 이 디렉토리는 기본적으로 &quot;ca-certificates&quot; 패키지에서 제공되지만 사용자 지정할 수 있습니다.
 
-### 각 PDU 종류 {#information-pdu} 정보
+### 각 PDU의 정보 {#information-pdu}
 
 각 종류의 PDU에는 서로 다른 정보를 전달하는 개별 필드가 있습니다. 이러한 PDU는 [SMPP 3.4 사양](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)에 자세히 설명되어 있습니다.
 
@@ -176,7 +176,7 @@ SMSC 적용 시 연결을 닫으면 안 됩니다. TCP 연결은 Adobe Campaign 
 
 * **registered_delivery**:는 SR 요청 여부를 알려줍니다. Adobe Campaign은 자동 답글을 제외하고 항상 이 플래그를 설정합니다. 다중 부분 메시지의 경우 첫 번째 부품에 대해서만 플래그가 설정됩니다. 모든 버전은 동일한 동작이 있습니다.
 
-* **data_coding**:텍스트 필드에 사용되는 인코딩을 나타냅니다. 자세한 내용은 [SMS 텍스트 인코딩](../../delivery/using/sms-protocol.md#sms-text-encoding) 섹션을 참조하십시오.
+* **data_coding**:텍스트 필드에 사용되는 인코딩을 나타냅니다. 자세한 내용은 [SMS 텍스트 인코딩](sms-protocol.md#sms-text-encoding) 섹션을 참조하십시오.
 
 * **short_message**:메시지의 텍스트입니다. UHD를 사용하는 경우 UHD 헤더도 포함됩니다.
 
@@ -208,7 +208,7 @@ Adobe Campaign은 다음과 같은 옵션 필드를 지원합니다.
 
 * **esm_class**:PDU가 MO인지 SR인지 확인하는 데 사용됩니다.
 
-* **short_message**:메시지의 텍스트입니다. SR의 경우, SMPP 프로토콜 사양의 부록 B에 설명된 데이터가 포함됩니다. 자세한 내용은 [SR 오류 관리](../../delivery/using/sms-protocol.md#sr-error-management)를 참조하십시오.
+* **short_message**:메시지의 텍스트입니다. SR의 경우, SMPP 프로토콜 사양의 부록 B에 설명된 데이터가 포함됩니다. 자세한 내용은 [SR 오류 관리](sms-protocol.md#sr-error-management)를 참조하십시오.
 
 Adobe Campaign에서 일부 구성을 사용하여 `receipted_message_id` 옵션 필드에서 메시지 ID를 읽을 수 있습니다.
 
@@ -230,7 +230,7 @@ Adobe Campaign Classic은 SR 및 MO가 데이터베이스에 삽입되면 이를
 
 ### 다중 부분 SMS(긴 SMS) {#multipart}
 
-다중 부분 SMS 또는 긴 SMS는 여러 부분으로 전송되는 SMS입니다. 모바일 네트워크 프로토콜의 기술 제한 사항으로 인해 SMS는 140바이트보다 크지 않거나 분할해야 합니다. SMS에 맞는 문자 수에 대한 자세한 내용은 [SMS 텍스트 인코딩](../../delivery/using/sms-protocol.md#sms-text-encoding) 섹션을 참조하십시오.
+다중 부분 SMS 또는 긴 SMS는 여러 부분으로 전송되는 SMS입니다. 모바일 네트워크 프로토콜의 기술 제한 사항으로 인해 SMS는 140바이트보다 크지 않거나 분할해야 합니다. SMS에 맞는 문자 수에 대한 자세한 내용은 [SMS 텍스트 인코딩](sms-protocol.md#sms-text-encoding) 섹션을 참조하십시오.
 
 긴 메시지의 각 부분은 개별 SMS입니다. 이러한 부품들은 네트워크상에서 독립적으로 이동하며 수신 휴대폰에 의해 조립된다. 다시 시도 및 연결 문제를 처리하기 위해 Adobe Campaign은 이러한 부품을 역방향 순서로 보내고 메시지의 첫 번째 부분인 마지막 전송된 SR만 요청합니다. 휴대폰은 첫 번째 부분을 받을 때만 메시지를 표시하므로 추가 부분에서 다시 시도해도 휴대폰에서 중복이 생성되지 않습니다.
 
@@ -242,13 +242,13 @@ Adobe Campaign Classic은 SR 및 MO가 데이터베이스에 삽입되면 이를
 
 * **message_payload**:전체 긴 메시지를 단일  `SUBMIT_SM PDU`로 전송하는 방법 공급자가 분할해야 하므로 Adobe Campaign에서 얼마나 많은 부품을 전송했는지 정확히 알 수 없습니다. 일부 공급자는 이 모드를 필요로 하지만 UGH를 지원하지 않는 경우에만 사용하는 것이 좋습니다.
 
-프로토콜 및 형식에 대한 자세한 내용은 [SUBMIT_SM PDU](../../delivery/using/sms-protocol.md#information-pdu)의 `esm_class`, `short_message` 및 `message_payload` 필드에 대한 설명을 참조하십시오.
+프로토콜 및 형식에 대한 자세한 내용은 [SUBMIT_SM PDU](sms-protocol.md#information-pdu)의 `esm_class`, `short_message` 및 `message_payload` 필드에 대한 설명을 참조하십시오.
 
 ### 처리량 최대 가용량 및 창 {#throughput-capping}
 
-대부분의 공급자는 각 SMPP 연결에 대해 처리량 제한이 필요합니다. 외부 계정에서 많은 SMS를 설정하여 이를 수행할 수 있습니다. 연결당 처리량 조절이 수행되며 총 유효 처리량은 연결당 제한과 총 연결 수를 곱한 것입니다. 이 내용은 [동시 연결](../../delivery/using/sms-protocol.md#connection-settings) 섹션에 자세히 설명되어 있습니다.
+대부분의 공급자는 각 SMPP 연결에 대해 처리량 제한이 필요합니다. 외부 계정에서 많은 SMS를 설정하여 이를 수행할 수 있습니다. 연결당 처리량 조절이 수행되며 총 유효 처리량은 연결당 제한과 총 연결 수를 곱한 것입니다. 이 내용은 [동시 연결](sms-protocol.md#connection-settings) 섹션에 자세히 설명되어 있습니다.
 
-가능한 최대 처리량에 도달하려면 최대 전송 기간을 미세 조정해야 합니다. 전송 창은 `SUBMIT_SM_RESP`을(를) 기다리지 않고 보낼 수 있는 `SUBMIT_SM PDU`의 수입니다. 자세한 내용은 [창 보내기 설정](../../delivery/using/sms-protocol.md#throughput-timeouts) 섹션을 참조하십시오.
+가능한 최대 처리량에 도달하려면 최대 전송 기간을 미세 조정해야 합니다. 전송 창은 `SUBMIT_SM_RESP`을(를) 기다리지 않고 보낼 수 있는 `SUBMIT_SM PDU`의 수입니다. 자세한 내용은 [창 보내기 설정](sms-protocol.md#throughput-timeouts) 섹션을 참조하십시오.
 
 ### SR 및 오류 관리(&quot;부록 B&quot;) {#sr-error-management}
 
@@ -289,7 +289,7 @@ ID 필드는 MT를 인정하는 `SUBMIT_SM_RESP PDU`에서 받은 ID입니다.
 
 마지막으로 텍스트 필드에는 일반적으로 MT의 텍스트 시작 부분이 포함됩니다. 이는 Adobe Campaign에서 무시되며, 일부 공급업체는 PII 누출 및 네트워크 대역폭 사용을 방지하기 위해 이 값을 전송하지 않습니다. 문제 해결 중에 이 필드를 읽으면 테스트 MT와 일치하는 SR을 더 쉽게 찾을 수 있습니다.
 
-### Adobe Campaign Classic 확장 일반 SMPP {#sr-processing}의 SR 처리 예
+### Adobe Campaign Classic 확장 일반 SMPP의 SR 처리 예 {#sr-processing}
 
 이 예는 부록 B 권장 사항, 외부 계정의 기본값 및 성공적인 SMS MT에 따른 구현 사례를 보여줍니다.
 
@@ -361,13 +361,13 @@ SMPP 프로토콜에서 GSM7 텍스트가 문자당 8비트로 확장되어 문�
 
 SMPP 프로토콜의 각 구현에는 다양한 변형이 있습니다. 호환성 및 적응성을 향상시키기 위해 SMPP 커넥터의 동작을 변경하는 데 많은 설정을 사용할 수 있습니다. 이 섹션에서는 모든 매개 변수와 커넥터에 미치는 영향에 대해 설명합니다.
 
-### 일반 매개 변수 및 라우팅 {#general-parameters-routing}
+### 일반 매개변수 및 공정순서 {#general-parameters-routing}
 
 **이 계정에 대한 MTA 인스턴스 제한**
 
 SMPP 공급자에 연결할 수 있는 MTA 인스턴스 수로 제한을 설정할 수 있습니다. 이 필드를 선택하면 최대 사용 가능한 MTA 수를 지정할 수 있습니다.
 
-이 옵션을 사용하면 연결 수를 보다 세밀하게 제어할 수 있습니다. [동시 연결](../../delivery/using/sms-protocol.md#connection-settings)을 참조하십시오.
+이 옵션을 사용하면 연결 수를 보다 세밀하게 제어할 수 있습니다. [동시 연결](sms-protocol.md#connection-settings)을 참조하십시오.
 
 실행 중인 MTA 수보다 큰 값을 설정하면 모든 MTA가 정상적으로 실행됩니다.이 옵션은 제한일 뿐이며 추가 MTA를 생성할 수 없습니다.
 
@@ -377,7 +377,7 @@ SMPP 공급자에 연결할 수 있는 MTA 인스턴스 수로 제한을 설정�
 
 #### SMSC 구현 이름 {#smsc-implementation-name}
 
-SMSC 구현의 이름을 설정합니다. 공급자의 이름으로 설정해야 합니다. 이 필드에 추가할 내용을 알려면 관리자 또는 게재 가능성 팀에 문의하십시오. 이 필드의 역할은 [SR 오류 관리](../../delivery/using/sms-protocol.md#sr-error-management) 섹션에 설명되어 있습니다.
+SMSC 구현의 이름을 설정합니다. 공급자의 이름으로 설정해야 합니다. 이 필드에 추가할 내용을 알려면 관리자 또는 게재 가능성 팀에 문의하십시오. 이 필드의 역할은 [SR 오류 관리](sms-protocol.md#sr-error-management) 섹션에 설명되어 있습니다.
 
 #### 서버 {#server}
 
@@ -419,7 +419,7 @@ Adobe Campaign Classic의 경우 서로 다른 수의 수신기 및 송신기 �
 
 TLS를 사용하여 공급자에 연결합니다. 연결이 암호화됩니다. TLS 연결은 OpenSSL 라이브러리에서 관리합니다. OpenSSL에 적용할 수 있는 모든 것은 이 연결에 대해 true입니다.
 
-#### 로그 파일 {#enable-verbose-log-file}에서 자세한 SMPP 추적을 활성화합니다.
+#### 로그 파일에서 자세한 SMPP 추적을 활성화합니다 {#enable-verbose-log-file}
 
 이 설정은 모든 SMPP 트래픽을 로그 파일에 덤프합니다. 초기 설정 중에 매개 변수를 조정하는 데 종종 필요합니다. 커넥터를 문제 해결할 때 활성화되고 공급자가 보는 트래픽과 비교해야 합니다.
 
@@ -429,7 +429,7 @@ Adobe Campaign Classic에서 로그 출력은 MT 관련 트래픽 및 MO 및 SR 
 
 이 섹션은 분리된 **송신기+수신기** 모드에서만 볼 수 있습니다.
 
-#### 받는 사람 {#receiver-parameters}에 대해 다른 매개 변수를 사용하십시오
+#### 수신기에 대해 다른 매개 변수 사용 {#receiver-parameters}
 
 상자를 선택 취소하면 동일한 설정이 전송자와 수신자에 사용됩니다.
 
@@ -449,15 +449,15 @@ Adobe Campaign Classic에서 로그 출력은 MT 관련 트래픽 및 MO 및 SR 
 
 이 상자를 선택하면 텍스트 인코딩이 실패하지 않고 문자열을 대략적인 버전으로 변환하려고 합니다. 일부 문자가 대상 인코딩에 상응하는 문자가 없으면 텍스트 인코딩이 실패합니다.
 
-인코딩 프로세스에 대한 일반적인 설명은 [인코딩 설정에 대한 특정 매핑 정의](../../delivery/using/sms-protocol.md#SMSC-specifics)를 참조하십시오.
+인코딩 프로세스에 대한 일반적인 설명은 [인코딩 설정에 대한 특정 매핑 정의](sms-protocol.md#SMSC-specifics)를 참조하십시오.
 
-#### 들어오는 MO를 데이터베이스에 저장 {#incoming-mo-storing}
+#### 데이터베이스에 들어오는 MO 저장 {#incoming-mo-storing}
 
 활성화되면 수신 MO가 데이터베이스의 inSMS 테이블에 저장됩니다. 모든 워크플로우의 쿼리 활동을 사용하여 이 테이블을 쿼리할 수 있습니다.
 
 Adobe Campaign Classic은 항상 모든 MO를 inSMS 데이터베이스에 저장하므로 이 옵션을 사용할 수 없습니다.
 
-#### SR 처리 중 실시간 KPI 업데이트 사용 {#real-time-kpi}
+#### SR 처리 중 실시간 KPI 업데이트 활성화 {#real-time-kpi}
 
 이 옵션이 활성화되면 오류 SR을 받을 때 기본 게재 페이지에서 KPI가 실시간으로 업데이트됩니다.
 
@@ -483,7 +483,7 @@ Adobe Campaign Classic에는 KPI에 대해 완전히 다른 메커니즘이 있�
 
 * 자동 차단 목록 회신 기능의 설정은 특정 짧은 코드에 대해서만 사용자를 격리하도록 보냅니다.
 
-#### 소스 TON/NPI, 대상 TON/NPI {#ton-npi}
+#### 소스 톤/NPI, 대상 톤/NPI {#ton-npi}
 
 TON(Type Of Number) 및 NPI(Numbering Plan Indicator)는 [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (page 117)의 섹션 5.2.5에 설명되어 있습니다. 이러한 값은 공급자의 필요에 따라 설정해야 합니다.
 
@@ -497,7 +497,7 @@ TON(Type Of Number) 및 NPI(Numbering Plan Indicator)는 [SMPP 3.4 specification
 
 이러한 설정은 SMPP 채널의 모든 시간 측면을 제어합니다. 일부 공급자는 메시지 비율, 창 및 다시 시도 시간을 매우 정확하게 제어해야 합니다. 이러한 설정은 공급자의 용량과 해당 계약에 표시된 조건과 일치하는 값으로 설정되어야 합니다.
 
-#### 보내는 중 창 {#sending-window}
+#### 보내는 창 {#sending-window}
 
 창은 일치하는 `SUBMIT_SM_RESP`을(를) 기다리지 않고 보낼 수 있는 `SUBMIT_SM PDU`의 수입니다.
 
@@ -527,11 +527,11 @@ TON(Type Of Number) 및 NPI(Numbering Plan Indicator)는 [SMPP 3.4 specification
 
 최종 아키텍처와 특별히 요청한 SMPP 공급자에서 제대로 벤치마킹하지 않는 한 이 수보다 정확한 처리량을 보장할 수 없으므로 이 설정을 1000으로 유지하는 것이 일반적으로 좋습니다. 1000MT/s 이상으로 연결되는 연결 수를 늘리는 것이 더 좋을 것입니다.
 
-#### 다시 연결하기 전 시간 {#time-reconnection}
+#### 재연결 전 시간 {#time-reconnection}
 
 TCP 연결이 끊기면 커넥터가 이 시간(초)을 기다린 후에 연결을 시도합니다.
 
-#### MT {#expiration-period}의 만료 기간
+#### MT의 만료 기간 {#expiration-period}
 
 `SUBMIT_SM` 과 일치하는 `SUBMIT_SM_RESP` 사이의 시간 제한. `RESP`을(를) 제 시간에 받지 못하면 메시지가 실패로 간주되고 MTA의 글로벌 다시 시도 정책이 적용됩니다.
 
@@ -539,7 +539,7 @@ TCP 연결이 끊기면 커넥터가 이 시간(초)을 기다린 후에 연결�
 
 TCP 연결 시도와 `BIND_*_RESP` 응답 사이의 시간 제한. 연결이 시간 초과되면 Adobe Campaign 커넥터에 의해 연결이 닫히고 다시 시도하기 전에 다시 연결하기 전에 시간이 대기합니다.
 
-#### inquestion_link 기간 {#enquire-link-period}
+#### inquisition_link 기간 {#enquire-link-period}
 
 `enquire_link` 은 연결을 유지하기 위해 전송되는 특별한 종류의 PDU입니다. 이 기간은 초 단위입니다. Campaign 커넥터는 대역폭을 절약하기 위해 연결이 유휴 상태일 때만 `enquire_link`을 보냅니다. 이 기간 후 RESP를 두 번 받지 못하면 연결이 끊어진 것으로 간주되고 다시 연결 프로세스가 트리거됩니다.
 
@@ -549,7 +549,7 @@ TCP 연결 시도와 `BIND_*_RESP` 응답 사이의 시간 제한. 연결이 시
 
 **인코딩의 특정 매핑 정의**
 
-텍스트 인코딩에 대한 자세한 내용은 [SMS 텍스트 인코딩](../../delivery/using/sms-protocol.md#sms-text-encoding) 섹션을 참조하십시오.
+텍스트 인코딩에 대한 자세한 내용은 [SMS 텍스트 인코딩](sms-protocol.md#sms-text-encoding) 섹션을 참조하십시오.
 
 이 설정을 사용하면 지정과 다른 사용자 지정 인코딩 매핑을 정의할 수 있습니다. 인코딩 목록과 해당 `data_coding` 값을 선언할 수 있습니다.
 
@@ -572,15 +572,15 @@ UCS-2는 Adobe Campaign에서 지원되는 모든 문자를 인코딩할 수 있
 
 메시지를 GSM으로 인코딩할 수 없는 경우 UCS-2로 인코딩되고 `data_coding`을 8로 설정합니다.
 
-#### message_payload {#enable-message-payload} 활성화
+#### message_payload 활성화 {#enable-message-payload}
 
 선택 취소하면 긴 SMS가 MTA로 분할되고 UGH를 사용하여 여러 `SUBMIT_SM PDU`로 전송됩니다. 이 메시지는 UGH 데이터에 따라 휴대폰에 의해 다시 작성됩니다.
 
-이 옵션을 선택하면 긴 SMS가 하나의 SUBMIT_SM PDU에 전송되고 message_payload 옵션 필드에 텍스트가 표시됩니다. 자세한 내용은 [SMPP 사양](../../delivery/using/sms-protocol.md#ACS-SMPP-connector)을 참조하십시오.
+이 옵션을 선택하면 긴 SMS가 하나의 SUBMIT_SM PDU에 전송되고 message_payload 옵션 필드에 텍스트가 표시됩니다. 자세한 내용은 [SMPP 사양](sms-protocol.md#ACS-SMPP-connector)을 참조하십시오.
 
 이 기능이 활성화되어 있으면 Adobe Campaign에서 SMS 부분을 개별적으로 카운트할 수 없습니다.모든 메시지는 한 부분으로 전송됩니다.
 
-#### 전체 전화 번호 {#send-full-phone-number} 보내기
+#### 전체 전화 번호 보내기 {#send-full-phone-number}
 
 이 확인란을 선택하지 않으면 전화 번호의 자릿수만 공급자에게 전송됩니다( `SUBMIT_SM` 필드의 `destination_addr` 필드). SMPP의 TON 및 NPI 필드로 대체되는 국제 번호 지표(일반적으로 + 접두어)가 대체되므로 이 동작은 기본 동작입니다.
 
@@ -602,7 +602,7 @@ TLS가 활성화되어 있으면 모든 인증서 검사를 건너뜁니다.
 * 호스트 이름 확인을 건너뜁니다.
 * 인증서 확인을 건너뜁니다.
 
-#### 바인딩 TON/NPI {#bind-ton-npi}
+#### 바인딩 톤/NPI {#bind-ton-npi}
 
 [SMPP 3.4 사양](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (117페이지)의 섹션 5.2.5에 설명된 TON(번호 유형) 및 NPI(번호 지정 계획 표시기) 이러한 값은 공급자가 필요로 하는 대로 설정해야 합니다.
 
@@ -612,7 +612,7 @@ BIND PDU의 `addr_ton` 및 `addr_npi` 필드에 있는 그대로 전송됩니다
 
 BIND PDU의 address_range 필드에 있는 그대로 전송됩니다. 이 값은 공급자가 필요한 대로 설정해야 합니다.
 
-#### 잘못된 ID 승인 수 {#invalid-id}
+#### 잘못된 ID 승인 수입니다. {#invalid-id}
 
 단일 SR에 대해 보낼 수 있는 **메시지 ID가 잘못된** `DELIVER_SM_RESP` 수를 제한합니다.
 
@@ -638,9 +638,9 @@ Fox 예: 를 2로 설정할 때
 
 이 필드를 1로 설정하면 ID가 유효하지 않은 경우에도 커넥터가 항상 &quot;확인&quot;에 응답합니다. 문제 해결을 위해 감독 하에 1로 설정해야 하며, 예를 들어 공급자 측 문제로부터 복구하려면 최소 시간 동안 설정해야 합니다.
 
-#### SR {#regex-extraction}에 있는 ID의 추출 ex
+#### SR에서 ID의 추출 ex {#regex-extraction}
 
-SR 형식은 SMPP 프로토콜 사양에서 엄격하게 적용되지 않습니다. 이는 사양의 [부록 B](../../delivery/using/sms-protocol.md#sr-error-management)(167페이지)에 설명된 권장 사항일 뿐입니다. 일부 SMPP 구현자는 이 필드의 형식을 다르게 지정하므로 Adobe Campaign에서 올바른 필드를 추출하는 방법이 필요합니다.
+SR 형식은 SMPP 프로토콜 사양에서 엄격하게 적용되지 않습니다. 이는 사양의 [부록 B](sms-protocol.md#sr-error-management)(167페이지)에 설명된 권장 사항일 뿐입니다. 일부 SMPP 구현자는 이 필드의 형식을 다르게 지정하므로 Adobe Campaign에서 올바른 필드를 추출하는 방법이 필요합니다.
 
 기본적으로 `id:` 뒤에 최대 10자의 영숫자를 캡처합니다.
 
@@ -650,11 +650,11 @@ regex에는 괄호 안에 포함된 부분이 있는 정확히 하나의 캡처 
 
 regex에 충분한 컨텍스트를 포함하지 않으면 다음과 같은 작은 보안 결함이 발생할 수 있습니다.메시지의 실제 내용은 SR에 포함될 수 있습니다. 컨텍스트(예: UUID)가 없는 특정 ID 형식만 일치시키면 실제 텍스트 컨텐츠를 구문 분석하는 것일 수 있습니다(예: ID 대신 텍스트 필드에 포함된 UUID).
 
-#### Regex가 적용되어 성공/오류 상태 {#regex-applied} 확인
+#### 성공/오류 상태를 확인하기 위해 적용된 Regex {#regex-applied}
 
 알 수 없는 상태/오류 필드 조합이 있는 메시지가 발생하면 시작 필드에 이러한 regex가 적용되어 SR이 성공인지 오류인지를 확인합니다. 이러한 레지스트리 값과 일치하지 않는 시작 값이 있는 SR은 무시됩니다.
 
-기본적으로 `DELIV`(으)로 시작하는 시작 값(예:[부록 B](../../delivery/using/sms-protocol.md#sr-error-management)의 `DELIVRD`은 성공적으로 배달된 것으로 간주되며 오류와 일치하는 모든 상태 값으로 간주됩니다(예: ).`REJECTED`, `UNDELIV` 는 오류로 간주됩니다.
+기본적으로 `DELIV`(으)로 시작하는 시작 값(예:[부록 B](sms-protocol.md#sr-error-management)의 `DELIVRD`은 성공적으로 배달된 것으로 간주되며 오류와 일치하는 모든 상태 값으로 간주됩니다(예: ).`REJECTED`, `UNDELIV` 는 오류로 간주됩니다.
 
 #### MT 확인의 ID 형식 {#id-format-mt}
 
@@ -668,7 +668,7 @@ regex에 충분한 컨텍스트를 포함하지 않으면 다음과 같은 작�
 
 * **16진수 문자열**:ID는 16진수로 인코딩된 바이트 문자열인 ASCII 인코딩된 텍스트여야 합니다. 예를 들어 PDU에서 `0x34 0x31 0x34 0x32 0x34 0x33`을 찾을 수 있습니다. 이 값은 ASCII &quot;414243&quot;으로 변환됩니다. 이 문자열은 16진수 바이트 문자열로 디코딩되고 결과적으로 &quot;ABC&quot;를 가져옵니다.ID &quot;ABC&quot;를 데이터베이스에 저장합니다.
 
-#### SR {#id-format-sr} 의 ID 형식
+#### SR의 ID 형식 {#id-format-sr}
 
 이는 SR에서 ID의 `Extraction` regex에 의해 캡처된 ID의 형식을 나타냅니다. 값은 위의 MT의 형식과 같은 의미와 동작이 같습니다.
 
@@ -738,7 +738,7 @@ regex에 충분한 컨텍스트를 포함하지 않으면 다음과 같은 작�
 
 일부 매개 변수는 게재 템플릿별로 설정할 수 있습니다.
 
-### 시작 필드 {#from-field}
+### From 필드 {#from-field}
 
 이 필드는 선택 사항입니다. ADC(발신자 주소)를 재정의할 수 있습니다. 이 필드의 콘텐츠는 `SUBMIT_SM PDU` 의 `source_addr` 필드에 배치됩니다.
 
@@ -820,7 +820,7 @@ SMS 프로세스는 분당 전체 줄을 확인한 다음 비동기식으로 처
 
 동일한 Adobe Campaign 인스턴스에 동일한 공급자에 연결하는 계정이 여러 개 있는 경우 해당 공급자가 이러한 계정 간에 실제로 연결을 구분하는지 확인하려면 공급자에게 문의하십시오. 동일한 로그인을 사용하는 여러 계정이 있는 경우 추가 구성이 필요합니다.
 
-### 확인 중에 자세한 SMPP 추적을 활성화합니다. {#enable-verbose}
+### 확인하는 동안 자세한 SMPP 추적을 활성화합니다 {#enable-verbose}
 
 확인하는 동안 항상 자세한 SMPP 추적을 활성화해야 합니다.
 로그를 직접 확인할 수 없어도 [고객 지원 센터 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에서 제공하는 것이 더 쉽습니다.
@@ -852,7 +852,7 @@ SMS 프로세스는 분당 전체 줄을 확인한 다음 비동기식으로 처
 
 `BIND_* PDUs`이(가) 올바르게 전송되었는지 확인합니다. 확인해야 할 가장 중요한 사항은 공급자가 항상 성공한 `BIND_*_RESP PDUs`(command_status = 0)을 반환한다는 것입니다.
 
-`BIND_* PDU`이 너무 많지 않은지 확인하십시오.너무 많은 경우 연결이 불안정하다는 것을 나타낼 수 있습니다. 자세한 내용은 [불안정한 연결 문제](../../delivery/using/sms-protocol.md#issues-unstable-connection) 섹션을 참조하십시오.
+`BIND_* PDU`이 너무 많지 않은지 확인하십시오.너무 많은 경우 연결이 불안정하다는 것을 나타낼 수 있습니다. 자세한 내용은 [불안정한 연결 문제](sms-protocol.md#issues-unstable-connection) 섹션을 참조하십시오.
 
 #### INQUIRE_LINK {#enquire-link-pdus}
 
@@ -889,6 +889,6 @@ SMS 프로세스는 분당 전체 줄을 확인한 다음 비동기식으로 처
 
 SMS가 성공하더라도 공급자에게 문의하여 모든 것이 제대로 작동하는지 확인하십시오.
 
-### 세부 정보 SMPP 추적 비활성화 {#disable-verbose}
+### 자세한 SMPP 추적 비활성화 {#disable-verbose}
 
 모든 검사가 완료되면 마지막 작업은 너무 많은 로그를 생성하지 않도록 **자세한 SMPP 추적 비활성화**&#x200B;입니다. 프로덕션 시스템에서도 문제 해결 목적으로 다시 활성화할 수 있습니다.
