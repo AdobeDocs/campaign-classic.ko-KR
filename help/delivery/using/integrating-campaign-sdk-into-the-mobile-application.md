@@ -7,14 +7,14 @@ content-type: reference
 topic-tags: sending-push-notifications
 version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: a4fc52e68cbca861e1b942e0c7e41f3d5dc3df54
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
 
-# Campaign SDK와 앱 {#integrating-campaign-sdk-into-the-mobile-application} 통합
+# Campaign SDK와 앱 통합 {#integrating-campaign-sdk-into-the-mobile-application}
 
 iOS 및 Android용 Campaign SDK는 모바일 앱 채널 모듈의 구성 요소 중 하나입니다.
 
@@ -26,7 +26,7 @@ SDK의 목표는 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽
 
 지원되는 다양한 Android 및 iOS 버전에 대한 자세한 내용은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md#MobileSDK) 를 참조하십시오.
 
-## Campaign SDK {#loading-campaign-sdk} 로드
+## Campaign SDK 로드 {#loading-campaign-sdk}
 
 * **Android에서**:neolane_ **sdk-release.** aarfile은 프로젝트에 연결되어 있어야 합니다.
 
@@ -62,7 +62,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
    >[!NOTE]
    >
-   >이 통합 키는 모바일 애플리케이션 전용 서비스의 **[!UICONTROL Information]** 탭에 있는 Adobe Campaign 콘솔에 입력합니다. [Adobe Campaign에서 모바일 애플리케이션 구성](../../delivery/using/configuring-the-mobile-application.md)을 참조하십시오.
+   >이 통합 키는 모바일 애플리케이션 전용 서비스의 **[!UICONTROL Information]** 탭에 있는 Adobe Campaign 콘솔에 입력합니다. [Adobe Campaign에서 모바일 애플리케이션 구성](configuring-the-mobile-application.md)을 참조하십시오.
 
 * **추적 URL**:Adobe Campaign 추적 서버의 주소와 일치합니다.
 * **마케팅 URL**:을 클릭하여 구독을 수집할 수 있습니다.
@@ -530,7 +530,7 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 
 ## 변수 {#variables}
 
-변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드와 Adobe Campaign 콘솔의 전용 모바일 애플리케이션 서비스의 **[!UICONTROL Variables]** 탭에서 정의해야 합니다([Adobe Campaign에서 모바일 애플리케이션 구성](../../delivery/using/configuring-the-mobile-application.md) 참조). 다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있도록 하는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
+변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드와 Adobe Campaign 콘솔의 전용 모바일 애플리케이션 서비스의 **[!UICONTROL Variables]** 탭에서 정의해야 합니다([Adobe Campaign에서 모바일 애플리케이션 구성](configuring-the-mobile-application.md) 참조). 다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있도록 하는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
 
 * **Android에서**:
 
