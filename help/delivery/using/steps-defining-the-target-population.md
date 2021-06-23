@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 2%
@@ -15,18 +15,18 @@ ht-degree: 2%
 
 # 대상 모집단 정의 {#defining-the-target-population}
 
-## 대상 모집단 정보 {#about-target-populations}
+## 대상 모집단 기본 정보 {#about-target-populations}
 
 각 게재에 대해 몇 가지 유형의 대상 모집단을 정의할 수 있습니다.
 
-* **기본 대상**:메시지를 받을 프로필. [자세히 알아보기](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
-* **증명**:유효성 검사 주기에 관련된 증명 메시지 수신자 [자세히 알아보기](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
-* **시드 주소**:게재 타겟이 아니지만 게재를 받을 수신자(마케팅 캠페인의 컨텍스트에서만)입니다. [자세히 알아보기](../../delivery/using/about-seed-addresses.md)
+* **기본 대상**:메시지를 받을 프로필. [자세히 알아보기](steps-defining-the-target-population.md#selecting-the-main-target)
+* **증명**:유효성 검사 주기에 관련된 증명 메시지 수신자 [자세히 알아보기](steps-defining-the-target-population.md#defining-a-specific-proof-target)
+* **시드 주소**:게재 타겟이 아니지만 게재를 받을 수신자(마케팅 캠페인의 컨텍스트에서만)입니다. [자세히 알아보기](about-seed-addresses.md)
 * **컨트롤 그룹**:게재를 받지 않고, 동작 및 캠페인 영향을 추적하는 데 사용되는 모집단(마케팅 캠페인의 컨텍스트에서만). [자세히 알아보기](../../campaign/using/marketing-campaign-target.md#defining-a-control-group)
 
-## 게재의 기본 수신자 선택 {#selecting-the-main-target}
+## 게재의 주요 수신자 선택 {#selecting-the-main-target}
 
-대부분의 경우 기본 타겟은 Adobe Campaign 데이터베이스(기본 모드)에서 추출됩니다. 그러나 수신자는 외부 파일에도 저장할 수 있습니다. 자세한 내용은 [이 섹션](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients)을 참조하십시오.
+대부분의 경우 기본 타겟은 Adobe Campaign 데이터베이스(기본 모드)에서 추출됩니다. 그러나 수신자는 외부 파일에도 저장할 수 있습니다. 자세한 내용은 [이 섹션](steps-defining-the-target-population.md#selecting-external-recipients)을 참조하십시오.
 
 게재 수신자를 선택하려면 아래 단계를 수행하십시오.
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Target mapping]** 드롭다운 목록에서 대상 매핑을 선택합니다. Adobe Campaign 기본 대상 매핑은 **nms:recipient** 스키마를 기반으로 하여 **[!UICONTROL Recipients]**&#x200B;입니다.
 
-   다른 대상 매핑을 사용할 수 있으며, 일부는 특정 구성과 관련되어 있을 수 있습니다. 대상 매핑에 대한 자세한 내용은 [대상 매핑 선택](../../delivery/using/selecting-a-target-mapping.md)을 참조하십시오.
+   다른 대상 매핑을 사용할 수 있으며, 일부는 특정 구성과 관련되어 있을 수 있습니다. 대상 매핑에 대한 자세한 내용은 [대상 매핑 선택](selecting-a-target-mapping.md)을 참조하십시오.
 
 1. **[!UICONTROL Add]** 단추를 클릭하여 제한 필터를 정의합니다.
 
@@ -96,7 +96,7 @@ ht-degree: 2%
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. 기본적으로 수신자는 데이터베이스에 가져옵니다. **[!UICONTROL Target mapping]**&#x200B;을 선택해야 합니다. 대상 매핑에 대한 자세한 내용은 [대상 매핑 선택](../../delivery/using/selecting-a-target-mapping.md)을 참조하십시오
+1. 기본적으로 수신자는 데이터베이스에 가져옵니다. **[!UICONTROL Target mapping]**&#x200B;을 선택해야 합니다. 대상 매핑에 대한 자세한 내용은 [대상 매핑 선택](selecting-a-target-mapping.md)을 참조하십시오
 
    **[!UICONTROL Do not import the recipients into the database]**&#x200B;을 선택할 수도 있습니다.
 
@@ -110,7 +110,7 @@ ht-degree: 2%
 >
 >이메일 전송을 위한 메시지 콘텐츠를 정의할 때 미러 페이지에 대한 링크를 포함하지 마십시오.이 게재 모드에서는 생성할 수 없습니다.
 
-### 제외 설정 설정 {#customizing-exclusion-settings} 설정
+### 제외 설정 설정 {#customizing-exclusion-settings}
 
 주소 오류 및 품질 등급은 서비스 공급자(IAP)에서 제공합니다. 이 정보는 게재 작업 및 서비스 공급자가 반환하는 파일과 함께 수신자 프로필에서 자동으로 업데이트됩니다. 프로필에서 읽기 전용으로 볼 수 있습니다.
 
@@ -150,17 +150,17 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >격리 관리에 대한 자세한 내용은 [격리 관리 이해](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
+   >격리 관리에 대한 자세한 내용은 [격리 관리 이해](understanding-quarantine-management.md)를 참조하십시오.
 
 * **[!UICONTROL Limit delivery]** 메시지를 지정된 개수의 메시지로 표시합니다. 이 옵션을 사용하면 보낼 최대 메시지 수를 입력할 수 있습니다. 타겟 콘텐츠가 표시된 메시지 수를 초과하는 경우 임의 선택이 대상에 적용됩니다.
 
-### 대상 모집단 {#reducing-the-size-of-the-target-population} 크기 축소
+### 대상 모집단 크기 축소 {#reducing-the-size-of-the-target-population}
 
 대상 모집단 크기를 줄일 수 있습니다. 이렇게 하려면 **[!UICONTROL Requested quantity]** 필드에 내보낼 수신자 수를 지정합니다.
 
 ![](assets/s_ncs_user_edit_del_exe_tab.png)
 
-## 증명 메시지의 받는 사람 선택 {#selecting-the-proof-target}
+## 증명 메시지 수신자 선택 {#selecting-the-proof-target}
 
 증명은 주요 타겟에게 보내기 전에 게재를 테스트할 수 있는 특수 메시지입니다. 증명 수신자는 메시지의 양식과 콘텐츠를 모두 승인할 책임이 있습니다.
 
@@ -181,13 +181,13 @@ ht-degree: 2%
 
 증명 대상을 선택할 때 **[!UICONTROL Definition of a specific proof target]** 옵션을 사용하면 데이터베이스의 프로필에서 증명 수신자를 선택할 수 있습니다.
 
-기본 대상을 정의하는 경우와 같이 **[!UICONTROL Add]** 버튼을 사용하여 수신자를 선택하려면 이 옵션을 선택합니다. [기본 대상 선택](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)을 참조하십시오.
+기본 대상을 정의하는 경우와 같이 **[!UICONTROL Add]** 버튼을 사용하여 수신자를 선택하려면 이 옵션을 선택합니다. [기본 대상 선택](steps-defining-the-target-population.md#selecting-the-main-target)을 참조하십시오.
 
 ![](assets/s_ncs_user_wizard_email01_143.png)
 
-증명 전송에 대한 자세한 정보는 [이 섹션](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)을 참조하십시오.
+증명 전송에 대한 자세한 정보는 [이 섹션](steps-validating-the-delivery.md#sending-a-proof)을 참조하십시오.
 
-### 증명 {#using-address-substitution-in-proof}에서 주소 대체 사용
+### 증명 시 주소 대체 사용 {#using-address-substitution-in-proof}
 
 데이터베이스에서 전용 수신자를 선택하는 대신 **[!UICONTROL Substitution of the address]** 옵션을 사용할 수 있습니다.
 
@@ -219,15 +219,15 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->시드 주소는 [시드 주소 정보](../../delivery/using/about-seed-addresses.md)에 나와 있습니다.
+>시드 주소는 [시드 주소 정보](about-seed-addresses.md)에 나와 있습니다.
 
 **[!UICONTROL Specific target and Seed addresses]** 옵션을 사용하여 특정 증명 대상의 정의와 시드 주소의 사용을 결합할 수 있습니다. 그런 다음 관련 구성이 두 개의 개별 하위 탭에서 정의됩니다.
 
 다음을 참조하십시오.
 
 * [증명 대상 선택](#selecting-the-proof-target)
-* [시드 주소 정보](../../delivery/using/about-seed-addresses.md)
-* [사용 사례: 기준 시드 주소 선택](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+* [시드 주소 정보](about-seed-addresses.md)
+* [사용 사례: 기준 시드 주소 선택](use-case--selecting-seed-addresses-on-criteria.md)
 
 ## 튜토리얼 비디오 {#seeds-and-proofs-video}
 
