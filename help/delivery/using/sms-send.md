@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 3%
 
 ---
 
-# SMS 게재 보내기, 모니터링 및 추적{#sms-properties}
+# SMS 게재 전송, 모니터링 및 추적{#sms-properties}
 
 ## SMS 메시지 보내기 {#sending-sms-messages}
 
@@ -21,8 +21,8 @@ ht-degree: 3%
 
 게재를 확인하고 전송할 때 세부 프로세스는 아래 섹션에 나와 있습니다.
 
-* [게재 유효성 검사](../../delivery/using/steps-validating-the-delivery.md)
-* [게재 보내기](../../delivery/using/steps-sending-the-delivery.md)
+* [게재 유효성 검사](steps-validating-the-delivery.md)
+* [게재 보내기](steps-sending-the-delivery.md)
 
 ## 고급 매개 변수 {#advanced-parameters}
 
@@ -56,13 +56,13 @@ ht-degree: 3%
 
 * **메시지당 최대 SMS 수**:이 옵션을 사용하면 메시지를 보내는 데 사용할 SMS 수를 설정할 수 있습니다. 번호가 0으로 설정된 경우 SMS를 사용하여 메시지를 전달할 수 있습니다. 예를 들어 SMS 수가 1 또는 2로 설정되어 있고 메시지가 이 임계값을 초과하는 경우 전송되지 않습니다.
 
-## SMS {#monitoring-and-tracking-sms-deliveries} 모니터링 및 추적
+## SMS 모니터링 및 추적 {#monitoring-and-tracking-sms-deliveries}
 
 메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오.
 
-* [게재 모니터링](../../delivery/using/about-delivery-monitoring.md)
-* [게재 실패 이해](../../delivery/using/understanding-delivery-failures.md)
-* [메시지 추적 정보](../../delivery/using/about-message-tracking.md)
+* [게재 모니터링](about-delivery-monitoring.md)
+* [게재 실패 이해](understanding-delivery-failures.md)
+* [메시지 추적 정보](about-message-tracking.md)
 
 ## 인바운드 메시지 처리 {#processing-inbound-messages}
 
@@ -165,6 +165,6 @@ InSMS 스키마에는 수신 SMS와 관련된 정보가 포함되어 있습니�
 
 >[!IMPORTANT]
 >
->이런 종류의 자동 메시지는 기록되지 않는다. 따라서 게재 대시보드에 표시되지 않습니다. [자세히 알아보기](../../delivery/using/delivery-dashboard.md)
+>이런 종류의 자동 메시지는 기록되지 않는다. 따라서 게재 대시보드에 표시되지 않습니다. [자세히 알아보기](delivery-dashboard.md)
 >
 >이 메시지들은 상업적인 압력 규정에서 고려하지 않는다. [자세히 알아보기](../../campaign/using/pressure-rules.md)
