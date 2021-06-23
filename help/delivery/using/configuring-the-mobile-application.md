@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 5%
@@ -71,7 +71,7 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 
    ![](assets/nmac_service_2.png)
 
-1. iOS 개발 및 프로덕션 애플리케이션을 만듭니다. 자세한 정보는 이 [섹션](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app)을 참조하십시오.
+1. iOS 개발 및 프로덕션 애플리케이션을 만듭니다. 자세한 정보는 이 [섹션](configuring-the-mobile-application.md#creating-ios-app)을 참조하십시오.
 
 ## iOS 모바일 앱 만들기 {#creating-ios-app}
 
@@ -100,7 +100,7 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 
 1. **[!UICONTROL Next]** 을 클릭하여 개발 응용 프로그램 구성을 시작합니다.
 
-1. 동일한 **[!UICONTROL Integration key]**&#x200B;이 Adobe Campaign과 SDK를 통해 애플리케이션 코드에 정의되어 있는지 확인합니다. 자세한 내용은 다음을 참조하십시오.[모바일 애플리케이션에 Campaign SDK 통합](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md). 각 애플리케이션에만 해당하는 이 통합 키를 사용하면 모바일 애플리케이션을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
+1. 동일한 **[!UICONTROL Integration key]**&#x200B;이 Adobe Campaign과 SDK를 통해 애플리케이션 코드에 정의되어 있는지 확인합니다. 자세한 내용은 다음을 참조하십시오.[모바일 애플리케이션에 Campaign SDK 통합](integrating-campaign-sdk-into-the-mobile-application.md). 각 애플리케이션에만 해당하는 이 통합 키를 사용하면 모바일 애플리케이션을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
 
    >[!NOTE]
    >
