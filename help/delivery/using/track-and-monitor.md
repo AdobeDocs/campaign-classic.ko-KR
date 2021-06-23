@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 캠페인을 제어하려면 메시지가 수신자에게 실제로 전달되었는지 확인해야 합니다.
 
 Campaign 게재 대시보드에서 처리된 메시지 및 게재 감사 로그를 확인할 수 있습니다.
-게재 로그에서 메시지 상태를 제어할 수도 있습니다. [자세히 알아보기](../../delivery/using/about-delivery-monitoring.md)
+게재 로그에서 메시지 상태를 제어할 수도 있습니다. [자세히 알아보기](about-delivery-monitoring.md)
 
 게재가 전송되지 않고 상태가 **보류 중**&#x200B;으로 남아 있으면 어떻게 합니까?
 
@@ -41,7 +41,7 @@ mta@instance 모듈이 MTA 서버에서 시작되었는지 확인하고 필요�
 
 **팁**:메시지 추적은 기본적으로 활성화되어 있습니다. URL을 구성하려면 게재 마법사의 아래 섹션에서 URL 표시 옵션을 선택합니다. 메시지의 각 URL에 대해 추적을 활성화할지 여부를 선택할 수 있습니다.
 
-자세한 내용은 [추적 구성](../../delivery/using/how-to-configure-tracked-links.md) 섹션과 [추적 표시기](../../reporting/using/delivery-reports.md#tracking-indicators) 설명을 참조하십시오.
+자세한 내용은 [추적 구성](how-to-configure-tracked-links.md) 섹션과 [추적 표시기](../../reporting/using/delivery-reports.md#tracking-indicators) 설명을 참조하십시오.
 
 ## 게재 성능 {#delivery-performances}
 
@@ -63,6 +63,6 @@ mta@instance 모듈이 MTA 서버에서 시작되었는지 확인하고 필요�
 
 * [이미지 표시 문제](../../production/using/image-display-issues.md)
 
-* [게재 성능 문제](../../delivery/using/delivery-performances.md)
+* [게재 성능 문제](delivery-performances.md)
 
 * [임시 파일 문제](../../production/using/temporary-files.md)  -  *온-프레미스 고객만*
