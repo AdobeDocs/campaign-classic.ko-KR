@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '2613'
 ht-degree: 14%
@@ -29,7 +29,7 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 
 일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 격리 를 사용하면 이러한 제공 업체에 의해 차단 목록에 추가되지 않습니다.
 
-또한 격리를 통해 잘못된 전화번호를 게재에서 제외하면 SMS를 보내는 비용을 줄이는 데 도움이 됩니다. 게재 보안 향상 및 최적화 모범 사례를 더 알아보려면 [이 페이지](../../delivery/using/delivery-best-practices.md)를 참조하십시오 .
+또한 격리를 통해 잘못된 전화번호를 게재에서 제외하면 SMS를 보내는 비용을 줄이는 데 도움이 됩니다. 게재 보안 향상 및 최적화 모범 사례를 더 알아보려면 [이 페이지](delivery-best-practices.md)를 참조하십시오 .
 
 ### 격리와 차단 목록 {#quarantine-vs-denylist}
 
@@ -49,7 +49,7 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 
 ### 게재에 대해 격리된 주소 확인 {#identifying-quarantined-addresses-for-a-delivery}
 
-특정 게재에 대해 격리된 주소 목록은 게재 준비 단계 중 게재 대시보드의 게재 로그에서 확인할 수 있습니다([게재 로그 및 내역](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) 참조).
+특정 게재에 대해 격리된 주소 목록은 게재 준비 단계 중 게재 대시보드의 게재 로그에서 확인할 수 있습니다([게재 로그 및 내역](delivery-dashboard.md#delivery-logs-and-history) 참조).
 
 ### 플랫폼 전체에 대해 격리된 주소 확인 {#identifying-quarantined-addresses-for-the-entire-platform}
 
@@ -84,13 +84,13 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 
 플랫폼의 모든 게재(**[!UICONTROL Home page > Reports]**)나 특정 게재에 대해 이 정보를 조회할 수 있습니다. 사용자 지정 보고서를 만들고 표시할 정보를 선택할 수도 있습니다.
 
-### 받는 사람 {#identifying-quarantined-addresses-for-a-recipient}에 대해 격리된 주소 확인
+### 수신자에 대해 격리된 주소 확인 {#identifying-quarantined-addresses-for-a-recipient}
 
 수신자의 이메일 주소 상태를 조회할 수 있습니다. 이렇게 하려면 수신자 프로필을 선택하고 **[!UICONTROL Deliveries]** 탭을 클릭합니다. 해당 수신자에 대한 모든 게재의 경우, 주소가 실패했는지, 분석 중 격리되었는지 등을 확인할 수 있습니다. 각 폴더에 대해 이메일 주소가 격리된 수신자만 표시할 수 있습니다. 이렇게 하려면 **[!UICONTROL Quarantined email address]** 애플리케이션 필터를 사용합니다.
 
 ![](assets/tech_quarant_recipients_filter.png)
 
-### 격리된 주소 {#removing-a-quarantined-address} 제거
+### 격리된 주소 제거 {#removing-a-quarantined-address}
 
 필요한 경우 격리 목록에서 주소를 수동으로 제거할 수 있습니다. 또한 특정 조건과 일치하는 주소는 **[!UICONTROL Database cleanup]** 워크플로우에 의해 격리 목록에서 자동으로 삭제됩니다.
 
@@ -117,7 +117,7 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 
 ## 주소를 격리하는 조건 {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당된 이유에 따라 격리를 관리합니다( [반송 메일 자격](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) 참조) 및 [게재 실패 유형 및 이유](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)를 참조하십시오.
+Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당된 이유에 따라 격리를 관리합니다( [반송 메일 자격](understanding-delivery-failures.md#bounce-mail-qualification) 참조) 및 [게재 실패 유형 및 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons)를 참조하십시오.
 
 * **무시된 오류**: 오류가 무시된 경우 주소가 격리되지 않습니다.
 * **하드 오류**: 해당 이메일 주소가 즉시 격리됩니다.
@@ -135,7 +135,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
 * 오류 카운터가 제한 임계값에 도달하면 주소가 격리됩니다.
 * 기본 구성에서 오류 임계값은 5로 설정되며, 두 오류가 최소 24시간 간격으로 발생하면 유효한 오류 두 개로 취급됩니다. 다섯 번째 오류 발생 시 주소가 격리됩니다.
-* 오류 카운터 임계값은 수정할 수 있습니다. 자세한 내용은 [일시적 게재 실패 후 다시 시도를 참조하십시오](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+* 오류 카운터 임계값은 수정할 수 있습니다. 자세한 내용은 [일시적 게재 실패 후 다시 시도를 참조하십시오](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 10일 이전에 마지막으로 중요한 오류가 발생한 경우 오류 카운터는 다시 초기화됩니다. 그런 다음 주소 상태가 **유효**&#x200B;으로 변경되며, **데이터베이스 정리** 워크플로우에 의해 격리 목록에서 삭제됩니다.
 
@@ -525,14 +525,14 @@ SMS 메시지의 격리 메커니즘은 전반적인 프로세스와 전체적�
 
 **확장된 일반 SMPP 커넥터의 경우**
 
-SMPP 프로토콜을 사용하여 SMS 메시지를 보낼 때 오류 관리는 다르게 처리됩니다. 확장 일반 SMPP 커넥터에 대한 자세한 내용은 [이 페이지](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
+SMPP 프로토콜을 사용하여 SMS 메시지를 보낼 때 오류 관리는 다르게 처리됩니다. 확장 일반 SMPP 커넥터에 대한 자세한 내용은 [이 페이지](sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
 
 SMPP 커넥터는 정규 표현식(regexes)을 사용하여 반환되는 SR(상태 보고서) 메시지에서 데이터를 검색하여 컨텐츠를 필터링합니다. 그러면 이 데이터가 **[!UICONTROL Delivery log qualification]** 테이블에 있는 정보와 일치합니다( **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** 메뉴를 통해 제공).
 
 새 유형의 오류가 검증되기 전에 기본적으로 실패 이유는 항상 **Receeded**&#x200B;로 설정됩니다.
 
 >[!NOTE]
-실패 유형 및 실패 이유는 이메일과 동일합니다. [게재 실패 유형 및 이유](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)를 참조하십시오.
+실패 유형 및 실패 이유는 이메일과 동일합니다. [게재 실패 유형 및 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons)를 참조하십시오.
 게재 로그 자격 테이블에서 적절한 실패 유형 및 실패 이유를 설정하려면 상태 및 오류 코드 목록을 공급자에게 문의하십시오.
 
 생성된 메시지의 예:
@@ -542,13 +542,13 @@ SR Generic DELIVRD 000|#MESSAGE#
 ```
 
 * 모든 오류 메시지는 **SR**&#x200B;로 시작하여 SMS 오류 코드와 이메일 오류 코드를 구분합니다.
-* 오류 메시지의 두 번째 부분(**일반**)은 SMS 외부 계정의 **[!UICONTROL SMSC implementation name]** 필드에 정의된 대로 SMSC 구현의 이름을 참조합니다. [이 페이지](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
+* 오류 메시지의 두 번째 부분(**일반**)은 SMS 외부 계정의 **[!UICONTROL SMSC implementation name]** 필드에 정의된 대로 SMSC 구현의 이름을 참조합니다. [이 페이지](sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
 
    동일한 오류 코드에는 각 공급자에 대해 다른 의미가 있을 수 있으므로 이 필드에서 오류 코드를 생성한 공급자를 파악할 수 있습니다. 그런 다음 관련 공급자 설명서에서 오류를 찾을 수 있습니다.
 
 * 오류 메시지의 세 번째 부분(**DELIVRD** )은 SMS 외부 계정에 정의된 상태 추출 regex를 사용하여 SR에서 검색한 상태 코드에 해당합니다.
 
-   이 정규식은 외부 계정의 **[!UICONTROL SMSC specificities]** 탭에 지정됩니다. [이 페이지](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
+   이 정규식은 외부 계정의 **[!UICONTROL SMSC specificities]** 탭에 지정됩니다. [이 페이지](sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
 
    ![](assets/tech_quarant_error_regex.png)
 
@@ -556,10 +556,10 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 * 오류 메시지의 네 번째 부분(**000** )은 SMS 외부 계정에 정의된 오류 코드 추출 regex를 사용하여 SR에서 추출된 오류 코드에 해당합니다.
 
-   이 정규식은 외부 계정의 **[!UICONTROL SMSC specificities]** 탭에 지정됩니다. [이 페이지](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
+   이 정규식은 외부 계정의 **[!UICONTROL SMSC specificities]** 탭에 지정됩니다. [이 페이지](sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
 
    기본적으로 regex는 **오류:** 필드를 **SMPP 3.4 사양**&#x200B;의 **부록 B** 섹션에 정의된 대로 추출합니다.
 
-* 파이프 기호(|) 다음에 오는 모든 것은 **[!UICONTROL Delivery log qualification]** 테이블의 **[!UICONTROL First text]** 열에만 표시됩니다. 메시지가 표준화된 후 이 컨텐츠는 항상 **#MESSAGE#**&#x200B;로 대체됩니다. 이 프로세스는 유사한 오류에 대한 여러 항목을 사용하지 않으며 이메일과 동일합니다. 자세한 내용은 [반송 메일 자격](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)을 참조하십시오.
+* 파이프 기호(|) 다음에 오는 모든 것은 **[!UICONTROL Delivery log qualification]** 테이블의 **[!UICONTROL First text]** 열에만 표시됩니다. 메시지가 표준화된 후 이 컨텐츠는 항상 **#MESSAGE#**&#x200B;로 대체됩니다. 이 프로세스는 유사한 오류에 대한 여러 항목을 사용하지 않으며 이메일과 동일합니다. 자세한 내용은 [반송 메일 자격](understanding-delivery-failures.md#bounce-mail-qualification)을 참조하십시오.
 
 확장 일반 SMPP 커넥터는 현별 기본값을 찾기 위해 휴리스틱을 적용합니다.상태가 **DELIVV**&#x200B;로 시작하는 경우 대부분의 공급자가 사용하는 일반적인 상태 **DELIVRD** 또는 **DELIVERED**&#x200B;와 일치하므로 성공으로 간주됩니다. 다른 모든 상태는 하드 실패로 이어집니다.
