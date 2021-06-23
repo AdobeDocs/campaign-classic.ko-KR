@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 3%
@@ -37,4 +37,4 @@ ht-degree: 3%
 
 이제 워크플로우를 시작할 수 있습니다. 게재가 전송되면 가장 성공적인 주체를 확인하기 위해 게재 로그에서 세 개의 하위 세트의 동작을 추적할 수 있습니다.
 
-또한 워크플로우를 사용하면 보다 잘 수행된 게재 변형을 자동으로 식별한 다음 나머지 모집단으로 전송하여 프로세스를 자동화할 수 있습니다. 자세한 내용은 이 전용 [사용 사례](../../delivery/using/a-b-testing-use-case.md)를 참조하십시오.
+또한 워크플로우를 사용하면 보다 잘 수행된 게재 변형을 자동으로 식별한 다음 나머지 모집단으로 전송하여 프로세스를 자동화할 수 있습니다. 자세한 내용은 이 전용 [사용 사례](a-b-testing-use-case.md)를 참조하십시오.
