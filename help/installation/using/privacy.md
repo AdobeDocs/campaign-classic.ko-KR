@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: f31591949bb033ff250cf4b33eddcc2c1d31cc6c
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 5%
+source-wordcount: '889'
+ht-degree: 4%
 
 ---
 
@@ -47,27 +47,35 @@ Adobe Campaign은 GDPR 및 CCPA에 대한 개인 정보 보호 규정을 준수�
 
 <img src="assets/privacy-query-dynamic-url.png">
 
-### 서명 메커니즘
+### URL 서명
 
-보안을 향상하기 위해 이메일의 링크 추적을 위한 새 서명 메커니즘이 빌드 19.1.4(9032@3a9dc9c)에 도입되었으며 빌드 19.1.4(9032@3a9dc9c) 및 Campaign 20.2에서 사용할 수 있습니다. 이 옵션은 모든 고객에 대해 기본적으로 활성화됩니다.
+보안을 개선하기 위해 이메일의 링크를 추적하는 서명 메커니즘이 도입되었습니다. 빌드 19.1.4(9032@3a9dc9c) 및 Campaign 20.2에서 사용할 수 있습니다. 이 기능은 기본적으로 활성화되어 있습니다.
 
 >[!NOTE]
 >
->잘못된 형식의 서명된 URL을 클릭하면 다음 오류가 반환됩니다.&quot;요청된 URL &#39;.. &#39;을(를) 찾을 수 없습니다.&quot;
+>잘못된 형식의 서명된 URL을 클릭하면 이 오류가 반환됩니다.&quot;요청된 URL &#39;..&#39;을(를) 찾을 수 없습니다.&quot;
 
-또한 Campaign 20.2 및 [!DNL Gold Standard] 릴리스부터 호스팅된 및 하이브리드 고객은 개선 사항을 사용하여 이전 빌드에서 생성된 URL을 비활성화할 수 있습니다. 이 옵션은 기본적으로 비활성화됩니다. [고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 연락하여 이 기능을 활성화할 수 있습니다.
+또한 Campaign 20.2와 [!DNL Gold Standard] 릴리스 이후 개선 사항을 사용하여 이전 빌드에서 생성된 URL을 비활성화할 수 있습니다. 이 기능은 기본적으로 비활성화됩니다. [고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 연락하여 이 기능을 활성화할 수 있습니다.
 
-이 새 메커니즘을 활성화하려면 온-프레미스 고객은 모든 Campaign 서버에서 다음 단계를 수행해야 합니다.
+[!DNL Gold Standard] 19.1.4를 실행하는 경우 추적 링크를 사용한 푸시 알림 게재 또는 앵커 태그를 사용한 게재에 문제가 발생할 수 있습니다. 그럴 경우 URL 서명을 비활성화하는 것이 좋습니다.
+
+Campaign을 온-프레미스에서 실행 중인지 아니면 하이브리드 아키텍처에서 실행 중인지 여부에 따라 [고객 지원 센터](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 연락하여 URL 서명을 비활성화해야 합니다.
+
+하이브리드 아키텍처에서 Campaign을 실행하는 경우 URL 서명을 사용하기 전에 호스팅된 중간 소싱 인스턴스가 다음과 같이 업그레이드되었는지 확인하십시오.
+* 온-프레미스 마케팅 인스턴스 전
+* 온-프레미스 마케팅 인스턴스와 동일한 버전 또는 약간 더 높은 버전으로 마이그레이션
+
+그렇지 않으면 이러한 문제 중 일부가 발생할 수 있습니다.
+* 중간 소싱 인스턴스를 업그레이드하기 전에 이 인스턴스를 통해 URL이 서명 없이 전송됩니다.
+* 중간 소싱 인스턴스가 업그레이드되고 두 인스턴스에서 URL 서명이 활성화되면 서명 없이 이전에 전송된 URL이 거부됩니다. 이유는 마케팅 인스턴스에서 제공한 추적 파일에 의해 서명이 요청되기 때문입니다.
+
+이전 빌드에서 생성된 URL을 비활성화하려면 모든 Campaign 서버에서 동시에 다음 단계를 수행하십시오.
 
 1. 서버 구성 파일(serverConf.xml)에서 **blockRedirectForUnsignedTrackingLink**&#x200B;을 **true**&#x200B;로 변경합니다.
 1. **nlserver** 서비스를 다시 시작합니다.
 1. 추적 서버에서 웹 서버(Debian의 apache2, CentOS/RedHat의 httpd, Windows의 IIS)를 다시 시작합니다.
 
-[!DNL Gold Standard] 19.1.4에서 실행되는 고객은 추적 링크를 사용한 푸시 알림 게재 또는 앵커 태그를 사용한 게재 관련 문제를 경험할 수 있습니다. 그럴 경우 링크 추적을 위해 새 서명 메커니즘을 비활성화하는 것이 좋습니다.
-
-**호스팅 및 하이브리드** 고객은 이 메커니즘을  [비활성화하려면 ](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 고객 지원 센터에 문의해야 합니다.
-
-**온-프레미스 고객** 은 아래 단계를 따르십시오.
+URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 단계를 수행하십시오.
 
 1. 서버 구성 파일(serverConf.xml)에서 **signEmailLinks**&#x200B;을 **false**&#x200B;로 변경합니다.
 1. **nlserver** 서비스를 다시 시작합니다.
