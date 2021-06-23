@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#delivery-template-video)
 
-## 기존 게재를 템플릿 {#converting-an-existing-delivery-to-a-template}(으)로 변환
+## 기존 게재를 템플릿으로 변환 {#converting-an-existing-delivery-to-a-template}
 
 게재를 새로운 반복 게재 작업을 위해 템플릿으로 변환할 수 있습니다. 게재를 템플릿으로 변환하려면 트리의 **[!UICONTROL Campaign management]** 노드를 통해 액세스할 수 있는 게재 목록에서 해당 게재를 선택합니다.
 
@@ -29,7 +29,7 @@ ht-degree: 7%
 
 ![](assets/s_ncs_user_campaign_save_as_scenario_a.png)
 
-구성 모드에 대한 자세한 내용은 [템플릿을 게재](../../delivery/using/creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery)에 연결 을 참조하십시오.
+구성 모드에 대한 자세한 내용은 [템플릿을 게재](creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery)에 연결 을 참조하십시오.
 
 ## 새 템플릿 만들기 {#creating-a-new-template}
 
@@ -70,7 +70,7 @@ ht-degree: 7%
 
 ### 게재 템플릿을 구성하는 방법
 
-다음 비디오에서는 Ad Hoc 전달을 위한 템플릿을 구성하는 방법을 보여 줍니다.
+다음 비디오에서는 임시 게재용 템플릿을 구성하는 방법을 보여 줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
 
