@@ -6,16 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 1%
 
 ---
 
-# 전자 메일{#attaching-files}에 파일 첨부
+# 전자 메일에 파일 첨부{#attaching-files}
 
-## 전자 메일 첨부 파일 정보 {#about-email-attachments}
+## 전자 메일 첨부 파일 기본 정보 {#about-email-attachments}
 
 전자 메일 게재에 하나 이상의 파일을 첨부할 수 있습니다.
 
@@ -30,9 +30,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 유형의 구성은 일반적으로 게재 템플릿에서 수행됩니다. 자세한 내용은 [템플릿 정보](../../delivery/using/about-templates.md)를 참조하십시오.
+>이 유형의 구성은 일반적으로 게재 템플릿에서 수행됩니다. 자세한 내용은 [템플릿 정보](about-templates.md)를 참조하십시오.
 
-## 로컬 파일 {#attaching-a-local-file} 첨부
+## 로컬 파일 첨부 {#attaching-a-local-file}
 
 로컬 파일을 게재에 첨부하려면 아래 단계를 따르십시오.
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_wizard_email_attachement_e.png)
 
-## 계산된 첨부 파일 만들기 {#creating-a-calculated-attachment}
+## 계산된 첨부 만들기 {#creating-a-calculated-attachment}
 
 계산된 첨부 파일을 만들 때 각 메시지의 분석 또는 전달 중에 첨부 파일의 이름을 계산할 수 있으며 수신자에 따라 달라질 수 있습니다. 또한 개인화되고 PDF로 변환할 수 있습니다.
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 * **파일 이름은 게재 분석 중에 계산됩니다(수신자 프로필에 따라 달라질 수 없음)**
 * **파일 이름은 각 수신자에 대해 전달 시 계산됩니다(수신자에 따라 달라질 수 있음)**
 
-### 로컬 파일 {#attach-a-local-file} 첨부
+### 로컬 파일 첨부 {#attach-a-local-file}
 
 첨부 파일이 로컬 파일인 경우 옵션을 선택합니다.**[!UICONTROL File name is specified when creating the delivery template]** 로컬에서 파일을 선택하고 서버에 업로드합니다. 아래의 단계를 수행하십시오.
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 그런 다음 서버에서 파일을 사용하여 이 템플릿에서 만든 다른 게재에 첨부할 수 있습니다.
 
-### 개인화된 메시지 {#attach-a-personalized-message} 첨부
+### 개인화된 메시지 첨부 {#attach-a-personalized-message}
 
 **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** 옵션을 사용하면 의도한 수신자의 성 및 이름과 같은 개인화 필드가 있는 파일을 선택할 수 있습니다.
 
@@ -115,7 +115,7 @@ ht-degree: 1%
 >
 >성능 문제를 방지하려면 개인화된 URL에서 즉시 다운로드한 이미지를 첨부 파일로 포함하는 경우 각 이미지 크기가 기본적으로 10만 바이트를 초과해서는 안 됩니다. 이 권장 임계값은 [Campaign Classic 옵션 목록에서 구성할 수 있습니다](../../installation/using/configuring-campaign-options.md#delivery).
 
-### 계산된 파일 {#attach-a-calculated-file} 첨부
+### 계산된 파일 첨부 {#attach-a-calculated-file}
 
 게재를 준비하는 동안 첨부 파일 이름을 계산할 수 있습니다. 이렇게 하려면 **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]** 옵션을 선택합니다.
 
@@ -138,7 +138,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 
-### 개인화된 파일 {#attach-a-personalized-file} 첨부
+### 개인화된 파일 첨부 {#attach-a-personalized-file}
 
 첨부 파일을 선택할 때 **[!UICONTROL The file name is calculated during delivery for each recipient (it can depend on the recipient)]** 옵션을 선택할 수 있습니다. 그런 다음 전송할 파일의 이름으로 수신자 개인화 데이터를 매핑할 수 있습니다.
 
