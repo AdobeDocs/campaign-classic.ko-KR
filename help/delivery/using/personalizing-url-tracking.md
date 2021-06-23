@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 12%
@@ -19,7 +19,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->전자 메일의 이미지 관리도 이 창에서 구성됩니다. [이미지 추가](../../delivery/using/defining-the-email-content.md#adding-images)를 참조하십시오.
+>전자 메일의 이미지 관리도 이 창에서 구성됩니다. [이미지 추가](defining-the-email-content.md#adding-images)를 참조하십시오.
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 
@@ -37,7 +37,7 @@ ht-degree: 12%
 
 추적된 URL은 중앙 창에 트리 형태로 나열됩니다.
 
-메시지의 각 URL에 대해 개별적으로 추적을 활성화하거나 비활성화할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/how-to-configure-tracked-links.md)을 참조하십시오.
+메시지의 각 URL에 대해 개별적으로 추적을 활성화하거나 비활성화할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](how-to-configure-tracked-links.md)을 참조하십시오.
 
 **[!UICONTROL Advanced]** 탭에서는 추적된 URL 및 열기 URL의 계산 공식을 개인화할 수 있습니다.
 
