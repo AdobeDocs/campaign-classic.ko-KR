@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 8%
 
 ## 개인화 최적화 {#optimizing-personalization}
 
-전용 옵션을 사용하여 개인화를 최적화할 수 있습니다.**[!UICONTROL Prepare the personalization data with a workflow]**, 게재 속성의 **[!UICONTROL Analysis]** 탭에서 사용할 수 있습니다. 게재 분석에 대한 자세한 내용은 [이 섹션](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하십시오.
+전용 옵션을 사용하여 개인화를 최적화할 수 있습니다.**[!UICONTROL Prepare the personalization data with a workflow]**, 게재 속성의 **[!UICONTROL Analysis]** 탭에서 사용할 수 있습니다. 게재 분석에 대한 자세한 내용은 [이 섹션](steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하십시오.
 
 게재 분석 중에 이 옵션은 FDA에 연결된 테이블의 데이터를 포함하여 타겟에 연결된 모든 데이터를 임시 테이블에 저장하는 워크플로우를 자동으로 만들고 실행합니다.
 
@@ -102,7 +102,7 @@ ht-degree: 8%
 
 ![](assets/perso_optimization_temp_table.png)
 
-## 개인화 시간 제한 단계 {#timing-out-personalization}
+## 시간 제한 개인화 단계 {#timing-out-personalization}
 
 게재 보호를 개선하기 위해 개인화 단계에 대한 시간 초과 기간을 설정할 수 있습니다.
 
