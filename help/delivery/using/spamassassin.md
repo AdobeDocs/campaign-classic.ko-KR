@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 6%
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # SpamAssassin{#spamassassin}
 
-## SpamAssassin {#about-spamassassin} 정보
+## SpamAssassin 정보 {#about-spamassassin}
 
 Adobe Campaign은 이메일 스팸 필터링에 사용되는 타사 서비스인 [SpamAssassin](https://spamassassin.apache.org)과 작동하도록 구성할 수 있습니다. 이를 통해 이메일에 점수를 매겨 수신 시 사용되는 스팸 방지 도구에 의해 메시지가 스팸으로 간주될 위험이 있는지 여부를 결정할 수 있습니다.
 
@@ -33,11 +33,11 @@ SpamAssassin은 다음과 같은 다양한 스팸 감지 기술을 활용합니�
 >
 >요소가 스팸인지 여부를 제어하는 규칙은 SpamAssassin을 통해 관리되며 권한이 있는 관리자가 편집할 수 있습니다.
 
-## SpamAssassin {#using-spamassassin} 사용
+## SpamAssassin 사용 {#using-spamassassin}
 
 전자 메일 게재를 만들고 해당 콘텐츠를 정의했으면 아래 단계에 따라 위험을 평가하십시오.
 
-게재 만들기 및 디자인에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-email-channel.md)을 참조하십시오.
+게재 만들기 및 디자인에 대한 자세한 내용은 [이 섹션](about-email-channel.md)을 참조하십시오.
 
 1. **[!UICONTROL Preview]** 탭으로 이동합니다. 
 1. 게재를 미리 볼 수신자를 선택합니다.
