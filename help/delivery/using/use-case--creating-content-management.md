@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 2%
@@ -58,7 +58,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 >
 >Adobe Campaign에서 데이터 스키마를 만들고 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../configuration/using/about-schema-edition.md)을 참조하십시오.
 >
->컨텐츠 관리와 관련된 구성 요소는 [데이터 스키마](../../delivery/using/data-schemas.md)에 자세히 설명되어 있습니다.
+>컨텐츠 관리와 관련된 구성 요소는 [데이터 스키마](data-schemas.md)에 자세히 설명되어 있습니다.
 
 데이터 스키마를 만들려면 다음 단계를 수행합니다.
 
@@ -82,7 +82,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 
    ![](assets/s_ncs_content_param_schema_step2.png)
 
-   자세한 내용은 [스키마 편집](../../delivery/using/data-schemas.md#editing-schemas)을 참조하십시오.
+   자세한 내용은 [스키마 편집](data-schemas.md#editing-schemas)을 참조하십시오.
 
    컨텐츠에서 참조되는 각 요소에 대해 일치하는 유형을 선택해야 합니다.
 
@@ -170,7 +170,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 >
 >Adobe Campaign에서 양식 만들기 및 구성에 대한 자세한 내용은 [이 섹션](../../configuration/using/identifying-a-form.md)을 참조하십시오.
 >
->컨텐츠 관리와 관련된 구성 요소는 [입력 양식](../../delivery/using/input-forms.md)에 자세히 설명되어 있습니다.
+>컨텐츠 관리와 관련된 구성 요소는 [입력 양식](input-forms.md)에 자세히 설명되어 있습니다.
 
 컨텐츠 관리를 위한 입력 양식을 만들려면 다음 단계를 수행합니다.
 
@@ -212,7 +212,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 
 1. 입력 양식을 만들려면 **[!UICONTROL Save]** 을 클릭하십시오.
 
-## 4단계 - 구성 템플릿 만들기 {#step-4---creating-the-construction-template}
+## 4단계 - 구성 템플리트 생성 {#step-4---creating-the-construction-template}
 
 XSLT 언어를 사용하면 XML 문서를 다른 출력 문서로 변환할 수 있습니다. 이 변환은 스타일시트라는 문서의 XML에 설명되어 있습니다.
 
@@ -220,7 +220,7 @@ XSLT 언어를 사용하면 XML 문서를 다른 출력 문서로 변환할 수 
 
 >[!NOTE]
 >
->문서 작성(JavaScript 또는 XSL 템플릿)에 연결된 제약 조건은 [서식 지정](../../delivery/using/formatting.md)에 자세히 설명되어 있습니다.
+>문서 작성(JavaScript 또는 XSL 템플릿)에 연결된 제약 조건은 [서식 지정](formatting.md)에 자세히 설명되어 있습니다.
 
 Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 적용합니다.
 
@@ -231,7 +231,7 @@ Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 �
 1. 템플릿 이름을 입력하고 컨텐츠 관리를 위해 만든 스키마를 선택합니다.
 1. 메시지에 표시할 세트 콘텐츠를 가져옵니다.
 
-   [JavaScript 템플릿](../../delivery/using/formatting.md#javascript-templates)에 설명된 구문을 준수하면서 변수 요소를 추가합니다.
+   [JavaScript 템플릿](formatting.md#javascript-templates)에 설명된 구문을 준수하면서 변수 요소를 추가합니다.
 
    예제에 표시된 컨텐츠를 표시하려면 JavaScript 템플릿에 다음 요소가 포함되어야 합니다.
 
@@ -324,7 +324,7 @@ Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 �
    </html>
    ```
 
-   템플릿 시작 시 함수를 호출하면 Adobe Campaign 데이터베이스에서 가져온 개인화 데이터에 대한 호출을 설정할 수 있습니다(이 경우:recipient.firstName 및 recipient.lastName)으로 설정되므로 게재에 사용할 때 해석할 수 있습니다. 자세한 내용은 [JavaScript 템플릿 포함](../../delivery/using/formatting.md#including-a-javascript-template)을 참조하십시오.
+   템플릿 시작 시 함수를 호출하면 Adobe Campaign 데이터베이스에서 가져온 개인화 데이터에 대한 호출을 설정할 수 있습니다(이 경우:recipient.firstName 및 recipient.lastName)으로 설정되므로 게재에 사용할 때 해석할 수 있습니다. 자세한 내용은 [JavaScript 템플릿 포함](formatting.md#including-a-javascript-template)을 참조하십시오.
 
    이 예제에서 함수에는 다음 코드가 포함됩니다.
 
@@ -353,13 +353,13 @@ Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 �
 
 >[!NOTE]
 >
->컨텐츠 게시 템플릿에 대한 자세한 내용은 [게시 템플릿](../../delivery/using/publication-templates.md)을 참조하십시오.
+>컨텐츠 게시 템플릿에 대한 자세한 내용은 [게시 템플릿](publication-templates.md)을 참조하십시오.
 
 이 예에서 단계는 다음과 같습니다.
 
 1. **[!UICONTROL Administration > Configuration > Publication templates]** 노드를 통해 새 게시 템플릿을 만듭니다.
 1. 이름과 레이블을 입력하고 사용할 스키마와 양식을 선택합니다.
-1. 그런 다음 템플릿 이름을 입력하고 적용할 렌더링 모드를 선택합니다. 여기서는 위에서 만든 템플릿을 기반으로 한 **[!UICONTROL JavaScript]** 유형 렌더링이 있습니다.
+1. 그런 다음 템플릿의 이름을 입력하고 적용할 렌더링 모드를 선택합니다. 여기서는 위에서 만든 템플릿을 기반으로 한 **[!UICONTROL JavaScript]** 유형 렌더링이 있습니다.
 
    ![](assets/s_ncs_content_param_form_publish.png)
 
@@ -379,7 +379,7 @@ Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 �
 
 >[!NOTE]
 >
->콘텐츠 만들기에 대한 자세한 내용은 [콘텐츠 템플릿 사용](../../delivery/using/using-a-content-template.md)을 참조하십시오.
+>콘텐츠 만들기에 대한 자세한 내용은 [콘텐츠 템플릿 사용](using-a-content-template.md)을 참조하십시오.
 
 ### 게재 마법사에서 컨텐츠 만들기 {#creating-content-in-the-delivery-wizard}
 
