@@ -6,16 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 3%
 
 ---
 
-# iOS{#create-notifications-ios}에 대한 알림 만들기
+# iOS용 알림 만들기{#create-notifications-ios}
 
-이 섹션에서는 iOS 알림 전달과 관련된 요소에 대해 자세히 설명합니다. 게재 만들기에 대한 글로벌 개념은 [이 섹션](../../delivery/using/steps-about-delivery-creation-steps.md)에 나와 있습니다.
+이 섹션에서는 iOS 알림 전달과 관련된 요소에 대해 자세히 설명합니다. 게재 만들기에 대한 글로벌 개념은 [이 섹션](steps-about-delivery-creation-steps.md)에 나와 있습니다.
 
 먼저 새 게재를 만듭니다.
 
@@ -37,7 +37,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 수행하십
    >
    >개인화 필드 사용에 대한 자세한 정보는 [이 섹션](about-personalization.md)을 참조하십시오.
    >
-   >시드 목록 포함에 대한 자세한 내용은 [시드 주소 정보](../../delivery/using/about-seed-addresses.md)를 참조하십시오.
+   >시드 목록 포함에 대한 자세한 내용은 [시드 주소 정보](about-seed-addresses.md)를 참조하십시오.
 
 1. **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]** 을 선택하고 모바일 애플리케이션과 관련된 서비스(이 경우 Neotrip)를 선택한 다음, 애플리케이션의 iOS 버전을 선택합니다.
 
@@ -63,7 +63,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 수행하십
    >
    >**[!UICONTROL Badge]** 및  **[!UICONTROL Alert and badge]** 유형 알림을 사용하면 배지의 값(모바일 애플리케이션 로고 위의 번호)을 수정할 수 있습니다. 배지를 새로 고침하려면 0을 값으로 입력하기만 하면 됩니다. 필드가 비어 있으면 배지 값이 변경되지 않습니다.
 
-1. 푸시 알림에 이모티콘을 삽입하려면 **[!UICONTROL Insert emoticon]** 아이콘을 클릭합니다. 이모티콘 목록을 사용자 지정하려면 [이 섹션](../../delivery/using/customizing-emoticon-list.md)을 참조하십시오
+1. 푸시 알림에 이모티콘을 삽입하려면 **[!UICONTROL Insert emoticon]** 아이콘을 클릭합니다. 이모티콘 목록을 사용자 지정하려면 [이 섹션](customizing-emoticon-list.md)을 참조하십시오
 
 1. **[!UICONTROL Action button]**&#x200B;을(를) 사용하면 경고 알림(**action_loc_key** 페이로드의 필드)에 나타나는 작업 단추에 대한 레이블을 정의할 수 있습니다. iOS 응용 프로그램이 지역화 가능한 문자열(**Localizable.strings**)을 관리하는 경우 이 필드에 해당 키를 입력합니다. 응용 프로그램에서 지역화 가능한 텍스트를 관리하지 않는 경우 작업 단추에 표시할 레이블을 입력합니다. 지역화 가능한 문자열에 대한 자세한 내용은 [Apple 설명서](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1) 를 참조하십시오.
 1. 알림을 받을 때 모바일 터미널에서 재생할 사운드를 **[!UICONTROL Play a sound]** 필드에서 선택합니다.
@@ -92,9 +92,9 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 수행하십
 
 메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오.
 
-* [푸시 알림 격리](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [게재 모니터링](../../delivery/using/about-delivery-monitoring.md)
-* [게재 실패 이해](../../delivery/using/understanding-delivery-failures.md)
+* [푸시 알림 격리](understanding-quarantine-management.md#push-notification-quarantines)
+* [게재 모니터링](about-delivery-monitoring.md)
+* [게재 실패 이해](understanding-delivery-failures.md)
 
 
 ## iOS 리치 알림 만들기 {#creating-ios-delivery}
