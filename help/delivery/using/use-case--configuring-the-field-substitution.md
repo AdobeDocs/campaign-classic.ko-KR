@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 4%
@@ -32,13 +32,13 @@ ht-degree: 4%
 
 ## 게재 만들기 {#step-1---creating-a-delivery}
 
-게재를 만드는 단계는 [이메일 게재 만들기](../../delivery/using/creating-an-email-delivery.md) 섹션에 자세히 설명되어 있습니다.
+게재를 만드는 단계는 [이메일 게재 만들기](creating-an-email-delivery.md) 섹션에 자세히 설명되어 있습니다.
 
 이 예에서는 게재 관리자가 뉴스레터를 만들었습니다.
 
 ![](assets/dlv_seeds_usecase_24.png)
 
-## 시드 주소 데이터 스키마 {#editing-the-seed-addresses-data-schema} 편집
+## 시드 주소 데이터 스키마 편집 {#editing-the-seed-addresses-data-schema}
 
 데이터 스키마를 수정하는 방법에 대한 지침은 섹션에 자세히 설명되어 있습니다.
 
@@ -51,7 +51,7 @@ ht-degree: 4%
 
 이 열거형을 사용하면 사용자가 클라이언트의 좋아하는 문학 장르를 지정할 수 있습니다.
 
-이 데이터 스키마를 수정하여 시드 주소 **입력 양식**&#x200B;에서 볼 수 있도록 하려면 업데이트해야 합니다. [입력 양식 업데이트](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) 섹션을 참조하십시오.
+이 데이터 스키마를 수정하여 시드 주소 **입력 양식**&#x200B;에서 볼 수 있도록 하려면 업데이트해야 합니다. [입력 양식 업데이트](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) 섹션을 참조하십시오.
 
 ## 개인화 구성 {#configuring-personalization}
 
@@ -61,7 +61,7 @@ ht-degree: 4%
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. 게재 목록 및 시드 주소를 구성합니다. [대상 모집단 식별](../../delivery/using/steps-defining-the-target-population.md)을 참조하십시오.
+1. 게재 목록 및 시드 주소를 구성합니다. [대상 모집단 식별](steps-defining-the-target-population.md)을 참조하십시오.
 
    이 예에서 사용자는 **즐겨찾는 문학적 장르**&#x200B;이 Sci-Fi를 주요 대상 모집단으로 사용하는 사용자를 선택합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Edit the dynamic condition...]** 링크에 대한 자세한 내용은 [사용 사례:기준](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)에서 시드 주소 선택.
+   >**[!UICONTROL Edit the dynamic condition...]** 링크에 대한 자세한 내용은 [사용 사례:기준](use-case--selecting-seed-addresses-on-criteria.md)에서 시드 주소 선택.
 
 1. **[!UICONTROL Preview]** 탭을 클릭한 다음 시드 주소를 선택하여 개인화를 테스트합니다.
 
