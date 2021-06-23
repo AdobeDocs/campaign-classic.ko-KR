@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e3e2ac09de6a9e846e9f9262d522b9395a725648
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 6%
+source-wordcount: '128'
+ht-degree: 7%
 
 ---
 
@@ -27,6 +27,6 @@ ht-degree: 6%
 >
 >역방향 링크에서 특정 종속성 문제를 해결하기 위해 예를 들어 모든 스키마를 강제로 재생해야 하는 경우 Adobe Campaign 애플리케이션 서버에서 다음 명령을 시작할 수 있습니다.
 >
->**nlserver 구성 -postupgrade-instance:&#39;&lt;instance_name>&#39;-force**
+> `nlserver config -postupgrade -instance:`&lt;instance_name>` -force`
 >
 >그런 다음 Adobe Campaign 애플리케이션 서버를 다시 시작하고 클라이언트 콘솔에 연결 끊기/다시 연결해야 합니다.
