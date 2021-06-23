@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '857'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 >
 >개인화 블록은 **[!UICONTROL Digital Content Editor (DCE)]** 에서도 사용할 수 있습니다. 자세한 정보는 이 [페이지](../../web/using/editing-content.md#inserting-a-personalization-block)를 참조하십시오.
 
-## 개인화 블록 {#inserting-personalization-blocks} 삽입
+## 개인화 블록 삽입 {#inserting-personalization-blocks}
 
 메시지에 개인화 블록을 삽입하려면 아래 단계를 수행하십시오.
 
@@ -68,7 +68,7 @@ HTML 소스 코드가 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
 
 >[!NOTE]
 >
->미러 페이지 생성에 대한 자세한 내용은 [미러 페이지 생성](../../delivery/using/sending-messages.md#generating-the-mirror-page)을 참조하십시오.
+>미러 페이지 생성에 대한 자세한 내용은 [미러 페이지 생성](sending-messages.md#generating-the-mirror-page)을 참조하십시오.
 
 1. 새 게재를 만들거나 기존 이메일 유형 게재를 엽니다.
 1. 게재 마법사에서 **[!UICONTROL Subject]** 을 클릭하여 메시지 제목을 편집하고 제목을 입력합니다.
@@ -100,24 +100,12 @@ HTML 소스 코드가 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
 
    >[!NOTE]
    >
-   >미러 페이지 생성에 대한 자세한 내용은 [미러 페이지 생성](../../delivery/using/sending-messages.md#generating-the-mirror-page)을 참조하십시오.
+   >미러 페이지 생성에 대한 자세한 내용은 [미러 페이지 생성](sending-messages.md#generating-the-mirror-page)을 참조하십시오.
 
 * **[!UICONTROL Link to mirror page]** :미러 페이지에 대한 링크를 삽입합니다.&quot;이 메시지를 올바르게 볼 수 없는 경우 여기를 클릭하십시오.&quot;
 * **[!UICONTROL Unsubscription link]** :모든 게재에서 구독을 취소할 수 있는 링크를 차단 목록 삽입합니다.
-* **[!UICONTROL Formatting function for proper nouns]** :는  **[!UICONTROL toSmartCase]** 각 단어의 첫 번째 문자를 대문자로 변경하는 Javascript 함수를 생성합니다. 이 블록은 게재의 소스 코드에서 **`<script>...</script>`** 태그에 삽입해야 합니다.
-
-   아래 예제에서 함수는 &quot;My header&quot; 요소를 &quot;My new header&quot;로 각 단어의 대문자로 바꾸는 데 사용됩니다.
-
-   ```
-   <h1 id="sample">My header</h1>
-   <script><%@ include view='toSmartCase'%>;
-   document.getElementById("sample").innerHTML = toSmartCase("My new header");
-   </script>
-   ```
-
-   ![](assets/s_ncs_user_personalized_block_uppercasefunction.png)
-
-* **[!UICONTROL Registration page URL]** :구독 URL을 삽입합니다( [서비스 및 구독 정보 참조](../../delivery/using/about-services-and-subscriptions.md)).
+* **[!UICONTROL Formatting function for proper nouns]** :는  **[!UICONTROL toSmartCase]** 각 단어의 첫 번째 문자를 대문자로 변경하는 Javascript 함수를 생성합니다.
+* **[!UICONTROL Registration page URL]** :구독 URL을 삽입합니다( [서비스 및 구독 정보 참조](about-services-and-subscriptions.md)).
 * **[!UICONTROL Registration link]** :구독 링크를 삽입합니다. 인스턴스를 구성할 때 정의된 인스턴스 수입니다.
 * **[!UICONTROL Registration link (with referrer)]** :방문자 및 게재를 식별할 수 있도록 구독 링크를 삽입합니다. 인스턴스를 구성할 때 링크가 정의되어 있습니다.
 
@@ -126,7 +114,7 @@ HTML 소스 코드가 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
    >이 블록은 방문자만 타깃팅하는 게재에서 사용할 수 있습니다.
 
 * **[!UICONTROL Registration confirmation]** :구독을 확인하는 링크를 삽입합니다.
-* **[!UICONTROL Social network sharing links]** :수신자가 이메일 클라이언트, Facebook, Twitter 및 LinkedIn과 미러 페이지 컨텐츠에 대한 링크를 공유할 수 있는 단추를 삽입합니다( [바이럴 마케팅 참조:친구에게 전달](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
+* **[!UICONTROL Social network sharing links]** :수신자가 이메일 클라이언트, Facebook, Twitter 및 LinkedIn과 미러 페이지 컨텐츠에 대한 링크를 공유할 수 있는 단추를 삽입합니다( [바이럴 마케팅 참조:친구에게 전달](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
 * **[!UICONTROL Style of content emails]** 및  **[!UICONTROL Notification style]** :사전 정의된 HTML 스타일로 전자 메일의 형식을 지정하는 코드를 생성합니다. 이러한 블록은 **[!UICONTROL ...]** 섹션의 게재 소스 코드에 삽입해야 합니다. **`<style>...</style>`** 태그입니다.
 * **[!UICONTROL Offer acceptance URL in unitary mode]** :상호 작용 오퍼를 로 설정할 수 있는 URL을  **[!UICONTROL Accepted]** 삽입합니다( [이 섹션](../../interaction/using/offer-analysis-report.md) 참조).
 
