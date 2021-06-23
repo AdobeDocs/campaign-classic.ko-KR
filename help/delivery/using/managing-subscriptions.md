@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >이중 옵트인이 있는 구독 양식을 만드는 샘플은 [이 섹션](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in)에 자세히 설명되어 있습니다.
 
-## 정보 서비스 {#creating-an-information-service} 만들기
+## 정보 서비스 만들기 {#creating-an-information-service}
 
 가입자에게 관련 확인 메시지나 자동 게재와 함께 정보 서비스 구독을 만들고 관리할 수 있습니다.
 
@@ -54,10 +54,10 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >Facebook 및 Twitter 가입은 [이 섹션에 자세히 설명되어 있습니다](../../social/using/about-social-marketing.md). 모바일 애플리케이션 구독은 [모바일 앱 채널 정보](../../delivery/using/about-mobile-app-channel.md)에 자세히 설명되어 있습니다.
+   >Facebook 및 Twitter 가입은 [이 섹션에 자세히 설명되어 있습니다](../../social/using/about-social-marketing.md). 모바일 애플리케이션 구독은 [모바일 앱 채널 정보](about-mobile-app-channel.md)에 자세히 설명되어 있습니다.
 
 * 이메일 유형 서비스의 경우 **배달 모드**&#x200B;를 선택합니다. 가능한 모드는 다음과 같습니다.**[!UICONTROL Newsletter]** 또는 **[!UICONTROL Viral]**
-* 구독 또는 구독 취소에 대해 **확인 메시지**&#x200B;를 보낼 수 있습니다. 이렇게 하려면 **[!UICONTROL Subscription]** 및 **[!UICONTROL Unsubscription]** 필드에서 해당 게재를 만드는 데 사용할 게재 템플릿을 선택합니다. 이러한 템플릿은 정의된 대상 없이 **[!UICONTROL Subscription]** 유형 대상 매핑으로 구성해야 합니다. 섹션 [이메일 채널 정보](../../delivery/using/about-email-channel.md)를 참조하십시오.
+* 구독 또는 구독 취소에 대해 **확인 메시지**&#x200B;를 보낼 수 있습니다. 이렇게 하려면 **[!UICONTROL Subscription]** 및 **[!UICONTROL Unsubscription]** 필드에서 해당 게재를 만드는 데 사용할 게재 템플릿을 선택합니다. 이러한 템플릿은 정의된 대상 없이 **[!UICONTROL Subscription]** 유형 대상 매핑으로 구성해야 합니다. 섹션 [이메일 채널 정보](about-email-channel.md)를 참조하십시오.
 * 기본적으로 구독은 무제한 제공됩니다. **[!UICONTROL Unlimited]** 옵션을 선택 해제하여 서비스에 대한 유효 기간을 정의할 수 있습니다. 기간은 일(**[!UICONTROL d]** ) 또는 개월(**[!UICONTROL m]** )로 지정할 수 있습니다.
 
 서비스가 저장되면 서비스 및 구독 목록에 추가됩니다.해당 이름을 클릭하여 편집합니다. 몇 개의 탭을 사용할 수 있습니다. **[!UICONTROL Subscriptions]** 탭에서는 정보 서비스(**[!UICONTROL Active subscriptions]** 탭) 또는 구독/구독 취소 내역(**[!UICONTROL History]** 탭)의 구독자 목록을 볼 수 있습니다. 이 탭에서 구독자를 추가 및 삭제할 수도 있습니다. [구독자 추가 및 삭제](#adding-and-deleting-subscribers)를 참조하십시오.
@@ -84,7 +84,7 @@ ht-degree: 2%
 
 [구독 및 구독 취소 메커니즘](#subscription-and-unsubscription-mechanisms)을 참조하십시오.
 
-## 서비스 {#delivering-to-the-subscribers-of-a-service} 구독자에게 제공
+## 서비스 가입자에게 제공 {#delivering-to-the-subscribers-of-a-service}
 
 정보 서비스 가입자에게 게재하기 위해 다음 예와 같이 관련 정보 서비스의 구독자를 타깃팅할 수 있습니다.
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_user_subscribe_confirmation.png)
 
-### 서비스 {#subscribing-a-recipient-to-a-service} 수신자 가입
+### 서비스에 수신자 가입 {#subscribing-a-recipient-to-a-service}
 
 정보 서비스에 수신자를 등록하려면 다음 작업을 수행할 수 있습니다.
 
@@ -140,15 +140,15 @@ ht-degree: 2%
 
    워크플로우와 워크플로우 사용 방법은 [이 섹션](../../workflow/using/about-workflows.md)에 자세히 설명되어 있습니다.
 
-### 서비스 {#unsubscribing-a-recipient-from-a-service}에서 수신자 가입 해지
+### 서비스에서 수신자 가입 해지 {#unsubscribing-a-recipient-from-a-service}
 
 #### 수동 구독 취소 {#manual-unsubscribing}
 
 이메일 게재에는 법에 따라 구독 취소 링크가 포함되어야 합니다. 수신자는 이 링크를 클릭하여 프로필을 업데이트하며 향후 게재 타겟에서 제외할 수 있습니다.
 
-기본 구독 취소 링크는 게재 마법사에 제공된 컨텐츠 편집기의 도구 모음에 있는 마지막 단추를 통해 삽입됩니다( [개인화 정보](../../delivery/using/about-personalization.md) 참조). 수신자가 이 링크를 클릭하면 프로필이차단 목록(옵트아웃)에 추가됩니다. 즉, 이 수신자를 더 이상 게재 작업의 타깃팅이 되지 않습니다.
+기본 구독 취소 링크는 게재 마법사에 제공된 컨텐츠 편집기의 도구 모음에 있는 마지막 단추를 통해 삽입됩니다( [개인화 정보](about-personalization.md) 참조). 수신자가 이 링크를 클릭하면 프로필이차단 목록(옵트아웃)에 추가됩니다. 즉, 이 수신자를 더 이상 게재 작업의 타깃팅이 되지 않습니다.
 
-그러나 수신자는 모든 서비스의 구독을 취소하지 않고 서비스 구독을 취소하도록 선택할 수 있습니다. 이를 위해 웹 양식을 사용하거나([이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes) 참조), 개인화된 구독 취소 링크를 삽입할 수 있습니다([개인화 블록](../../delivery/using/personalization-blocks.md) 참조).
+그러나 수신자는 모든 서비스의 구독을 취소하지 않고 서비스 구독을 취소하도록 선택할 수 있습니다. 이를 위해 웹 양식을 사용하거나([이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes) 참조), 개인화된 구독 취소 링크를 삽입할 수 있습니다([개인화 블록](personalization-blocks.md) 참조).
 
 수신자 프로필에서 수동으로 수신자의 가입을 해지할 수도 있습니다. 이렇게 하려면 관련 받는 사람의 **[!UICONTROL Subscriptions]** 탭을 클릭하고 관련 정보 서비스를 선택한 다음 **[!UICONTROL Delete]** 를 클릭하십시오.
 
