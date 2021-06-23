@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 몇 가지 요소가 서버 성능에 직접 영향을 주고 플랫폼의 속도를 저하할 수 있습니다.
 
-* 개인화 요소의 수 및 유형:이메일의 개인화는 각 수신자에 대한 데이터베이스에서 데이터를 가져옵니다. 개인화 요소가 많으면 게재를 준비하는 데 필요한 데이터 양이 증가합니다.  [이 섹션](../../delivery/using/about-personalization.md)에서 개인화에 대해 자세히 알아보십시오
+* 개인화 요소의 수 및 유형:이메일의 개인화는 각 수신자에 대한 데이터베이스에서 데이터를 가져옵니다. 개인화 요소가 많으면 게재를 준비하는 데 필요한 데이터 양이 증가합니다.  [이 섹션](about-personalization.md)에서 개인화에 대해 자세히 알아보십시오
 
 * 서버 로드:마케팅 서버가 동시에 많은 다른 작업을 처리할 때 성능이 저하될 수 있습니다. 마케팅 서버는 데이터가 올바르고 제시간에 맞게 모든 게재에 대해 수신 및 발신 데이터를 모두 조정해야 합니다.
 
@@ -32,7 +32,7 @@ ht-degree: 8%
 
 * 자격이 있는 경우 [Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)을 활용하여 [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html) 기능을 사용하여 플랫폼을 모니터링할 수 있습니다.
 
-## 네트워크 구성 확인 중 {#network-config}
+## 네트워크 구성을 확인하는 중 {#network-config}
 
 대용량 볼륨의 이메일을 처리할 때 게재를 최적화하고 스팸으로 오인되지 않도록 서버 ID를 숨기려 하지 않는 올바른 네트워크 구성이 있는지 확인하십시오.
 
@@ -46,9 +46,9 @@ ht-degree: 8%
 
    * 수신자 서버가 수락할 수 있는 기능을 결정하는 이메일의 요소를 참조합니다. ISP(인터넷 서비스 공급자)는 스팸으로 식별하는 이메일을 필터링하거나 이미지를 다운로드하지 못하도록 차단합니다. 특정 도메인이 너무 많은 이메일을 보내는 것으로 확인되면 해당 발신자로부터 받을 이메일 수에 제한을 설정합니다.
 
-   * 게재 기능을 위해 이메일을 확인할 때 네 가지 주요 카테고리에 중점을 두려고 합니다.데이터 품질, 메시지 및 컨텐츠, 전송 인프라, 평판. 이 항목에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-deliverability.md)을 참조하십시오.
+   * 게재 기능을 위해 이메일을 확인할 때 네 가지 주요 카테고리에 중점을 두려고 합니다.데이터 품질, 메시지 및 컨텐츠, 전송 인프라, 평판. 이 항목에 대한 자세한 내용은 [이 섹션](about-deliverability.md)을 참조하십시오.
 
-* 이 문서](../../delivery/using/about-deliverability.md)에 자세히 설명된 권장 사항을 적용합니다.[
+* 이 문서](about-deliverability.md)에 자세히 설명된 권장 사항을 적용합니다.[
 
 * 도움이 필요하면 Adobe 담당자에게 문의하십시오.
 
@@ -64,7 +64,7 @@ ht-degree: 8%
 
 * 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외됩니다.타겟팅되지 않았습니다. 이를 통해 게재 속도를 높일 수 있습니다. 오류율은 게재 속도에 상당한 영향을 미치기 때문입니다. 받은 편지함이 가득 찼거나 주소가 없는 경우 등 전자 메일 주소를 격리할 수 있습니다. [자세히 알아보기](#identifying-quarantined-addresses-for-a-delivery)
 
-* Adobe Campaign은 반환된 오류 유형에 따라 잘못된 주소를 관리합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/understanding-quarantine-management.md)을 참조하십시오.
+* Adobe Campaign은 반환된 오류 유형에 따라 잘못된 주소를 관리합니다. 이 작업에 대한 자세한 정보는 [이 섹션](understanding-quarantine-management.md)을 참조하십시오.
 
 
 * 일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 격리 를 사용하면 이러한 제공 업체에 의해 차단 목록에 추가되지 않습니다.
