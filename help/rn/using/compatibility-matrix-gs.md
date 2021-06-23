@@ -6,10 +6,10 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 9703e9d5cf0dba91d3f38d265756bdae69267c28
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 97%
 
 ---
 
@@ -176,11 +176,6 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <p>API 버전 15</p>
 </td>
 </tr>
-<tr><td>Oracle On Demand API</td>
-<td>
-<p>웹 서비스 v1.0 API</p>
-</td>
-</tr>
 <tr>
 <td>Microsoft Dynamics</td>
 <td>
@@ -192,7 +187,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 </tbody>
 </table>
 
-## FDA (FEDERATED DATA ACCESS){#FederatedDataAccessFDA-gs}
+## FDA(Federated Data Access){#FederatedDataAccessFDA-gs}
 
 <table>
 <tbody>
@@ -271,7 +266,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 
 ## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
 
-:경고:Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
+:warning: Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
 
 ### 운영 체제
 
