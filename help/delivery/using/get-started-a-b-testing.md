@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 3%
@@ -23,7 +23,7 @@ A/B 테스트를 사용하면 타겟팅된 모집단에 가장 큰 영향을 줄
 
 ![](assets/a-b-testing-schema.png)
 
-Campaign Classic을 사용할 때 A/B 테스트는 타겟팅할 모집단과 각 변형을 받을 그룹을 지정하는 워크플로우를 통해 구현됩니다( [a/b 테스트 구성](../../delivery/using/configuring-a-b-testing.md) 참조).
+Campaign Classic을 사용할 때 A/B 테스트는 타겟팅할 모집단과 각 변형을 받을 그룹을 지정하는 워크플로우를 통해 구현됩니다( [a/b 테스트 구성](configuring-a-b-testing.md) 참조).
 
 주요 단계는 다음과 같습니다.
 
@@ -37,4 +37,4 @@ Campaign Classic을 사용할 때 A/B 테스트는 타겟팅할 모집단과 각
 
 >[!NOTE]
 >
->또한 워크플로우를 사용하면 보다 잘 수행된 게재 변형을 자동으로 식별한 다음 나머지 모집단으로 전송하여 프로세스를 자동화할 수 있습니다. 자세한 내용은 이 전용 [사용 사례](../../delivery/using/a-b-testing-use-case.md)를 참조하십시오.
+>또한 워크플로우를 사용하면 보다 잘 수행된 게재 변형을 자동으로 식별한 다음 나머지 모집단으로 전송하여 프로세스를 자동화할 수 있습니다. 자세한 내용은 이 전용 [사용 사례](a-b-testing-use-case.md)를 참조하십시오.
