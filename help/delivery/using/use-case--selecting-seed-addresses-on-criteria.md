@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 3%
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ## 1단계 - 게재 만들기 {#step-1---creating-a-delivery}
 
-게재를 만드는 단계는 [이메일 게재 만들기](../../delivery/using/creating-an-email-delivery.md) 섹션에 자세히 설명되어 있습니다.
+게재를 만드는 단계는 [이메일 게재 만들기](creating-an-email-delivery.md) 섹션에 자세히 설명되어 있습니다.
 
 이 예에서는 게재 관리자가 뉴스레터를 만들고 수신자를 선택했습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 3%
 
 예제(구매 부서)의 공통 값과 같은 공통 값을 만들려면 먼저 시드 주소의 **데이터 스키마**&#x200B;를 확장하고 관련 입력 양식을 편집해야 합니다.
 
-### 데이터 스키마 {#extending-the-data-schema} 확장
+### 데이터 스키마 확장 {#extending-the-data-schema}
 
 스키마 확장에 대한 자세한 내용은 [구성 안내서](../../configuration/using/data-schemas.md)를 참조하십시오.
 
@@ -95,7 +95,7 @@ ht-degree: 3%
 
 1. 연결을 끊은 다음 Adobe Campaign에 다시 연결합니다. 이제 시드 주소 데이터 스키마에서 변경된 사항이 적용됩니다. 시드 주소 화면에서 표시되도록 하려면 연결된 **[!UICONTROL Input form]**&#x200B;을 업데이트해야 합니다. [입력 양식 업데이트](#updating-the-input-form) 섹션을 참조하십시오.
 
-#### 연결된 테이블 {#extending-the-data-schema-from-a-linked-table}에서 데이터 스키마 확장
+#### 연결된 테이블에서 데이터 스키마 확장 {#extending-the-data-schema-from-a-linked-table}
 
 시드 주소 데이터 스키마는 수신자 데이터 스키마 - 수신자(nms)에 연결된 테이블의 값을 사용할 수 있습니다.
 
@@ -131,7 +131,7 @@ ht-degree: 3%
 
 [입력 양식 업데이트](#updating-the-input-form) 섹션을 참조하십시오.
 
-#### 입력 양식 {#updating-the-input-form} 업데이트
+#### 입력 양식 업데이트 {#updating-the-input-form}
 
 1. **[!UICONTROL Administration > Configuration > Input forms]** 노드에서 시드 주소 입력 양식을 찾습니다.
 
