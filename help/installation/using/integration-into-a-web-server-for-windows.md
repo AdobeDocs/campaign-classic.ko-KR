@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 3958fff140cc9bf6c371f0c4207cafc9a27bb725
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '971'
 ht-degree: 2%
 
 ---
@@ -108,6 +108,9 @@ IIS 7에서는 표준 서비스 외에도 ISAPI 확장 및 ISAPI 필터를 설�
 이렇게 하려면 다음 절차를 적용합니다.
 
 1. **iisreset** 명령줄을 사용하여 IIS 서버를 다시 시작합니다.
+
+1. Adobe Campaign 서비스를 시작한 다음 실행 중인지 확인합니다.
+
 1. 웹 브라우저에 다음 URL을 삽입하여 추적 모듈을 테스트합니다.
 
    ```
@@ -164,7 +167,7 @@ IIS 웹 서버를 구성할 때 서버에 업로드되는 집합 파일에 대�
 >
 >이 IIS 옵션에 대한 자세한 내용은 [공식 설명서](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)의 &quot;방법&quot; 섹션을 참조하십시오.
 
-### http 오류 메시지 표시 구성 {#configuring-http-error-message-display}
+### HTTP 오류 메시지 표시 구성 {#configuring-http-error-message-display}
 
 6.1 버전 IIS 서버를 사용하는 경우 메시지에 표시되는 원치 않는 HTML 코드로 인해 생성된 오류 메시지를 읽기 어려울 수 있습니다.
 
