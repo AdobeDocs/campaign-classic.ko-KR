@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 2%
 
 ---
 
-# 배달 가능성 문제 해결{#deliverability-faq}
+# 게재 기능 문제 해결{#deliverability-faq}
 
 게재 능력에 문제가 있습니까? 여기서 해결 방법을 찾을 수 있습니다.
 
@@ -31,7 +31,7 @@ Adobe Campaign에는 전송할 수 있는 시간당 이메일 수와 관련된 �
 
 MX 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/email-deliverability.md#mx-configuration)을 참조하십시오.
 
-## ISP {#same-error-for-an-isp}에 대한 동일한 오류 메시지
+## ISP에 대해 동일한 오류 메시지 {#same-error-for-an-isp}
 
 **특정 ISP에 대해 항상 동일한 오류 메시지가 표시되는 이유는 무엇입니까?**
 
@@ -42,22 +42,22 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우, 이메�
 
 문제가 지속되면 커머셜 또는 게재 가능성 서비스, [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
-## 대차단 목록의 격리 {#denylist-versus-quarantine}
+## 격리 차단 목록과 비교 {#denylist-versus-quarantine}
 
 * **의 이메일 주소와 격리된 이메일 차단 목록 주소 간의 차이점은 무엇입니까?**
 
    * 상태 **[!UICONTROL Denylisted]**&#x200B;은 피드백 루프의 결과입니다(사용자가 메시지를 스팸으로 보고할 때).
 
    * 상태 **[!UICONTROL Quarantined]**&#x200B;은(는) 소프트 또는 하드 바운스의 결과입니다.
-   자세한 내용은 [이 섹션](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)을 참조하십시오.
+   자세한 내용은 [이 섹션](understanding-quarantine-management.md#quarantine-vs-denylist)을 참조하십시오.
 
 * **다른 격리 오류 이유는 무엇입니까?**
 
    다음은 10가지 가능한 이유입니다.정의되지 않음, 사용자 알 수 없음, 잘못된 도메인, 도메인 차단 목록, 거부, 오류 무시, 접근 불가, 계정 사용 안 함, 사서함 가득 참, 연결되지 않음.
 
-   자세한 내용은 [격리 관리 이해](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
+   자세한 내용은 [격리 관리 이해](understanding-quarantine-management.md)를 참조하십시오.
 
-## {#remove-from-denylist}차단 목록에서 제거 중
+## 에서 차단 목록 제거 {#remove-from-denylist}
 
 * **받는 사람 중 한 명이 실수로에 차단 목록 추가되었습니다. 메시지를 다시 전송할 수 있도록 데니스트에서 제거하려면 어떻게 합니까?**
 
