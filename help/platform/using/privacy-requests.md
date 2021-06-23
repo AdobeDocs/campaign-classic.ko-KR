@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 0a80912aae4cab58b6f06918a673aaca3883fbdf
 workflow-type: tm+mt
 source-wordcount: '2415'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Adobe Campaign은 데이터 컨트롤러에게 개인 정보 보호 액세스 �
 >
 >개인 데이터 및 데이터를 관리하는 다른 엔터티(데이터 컨트롤러, 데이터 프로세서 및 데이터 주체)에 대한 자세한 내용은 [개인 데이터 및 가상 사용자](../../platform/using/privacy-and-recommendations.md#personal-data)를 참조하십시오.
 
-### 필수 구성 요소 {#prerequesites}
+### 기본 사항 {#prerequesites}
 
 Adobe Campaign은 저장된 데이터에 대한 개인 정보 요청을 만들고 처리할 수 있는 데이터 컨트롤러 도구를 제공합니다. 하지만 데이터 주체(이메일, 고객 지원 센터 또는 웹 포털)와의 관계를 처리하는 것은 데이터 컨트롤러의 책임입니다.
 
@@ -165,7 +165,7 @@ Access 요청을 처리할 때 Adobe Campaign은 데이터베이스에서 수신
 
 다음은 데이터 주체의 데이터 파일 예입니다.
 
-![](assets/privacy-access-file.png)
+![](assets/do-not-localize/privacy-access-file.png)
 
 데이터 컨트롤러는 해당 JSSP URL을 포함하는 웹 애플리케이션을 쉽게 만들어 데이터 주체의 데이터 파일을 웹 페이지에서 사용할 수 있도록 할 수 있습니다.
 
@@ -257,7 +257,7 @@ API를 사용하여 개인 정보 보호 요청을 제출하는 경우 반환된
 
 1. &quot;Logon&quot; 메서드를 사용하고 사용자 이름 및 암호를 요청의 매개 변수로 전달합니다. 세션 토큰이 포함된 응답을 가져옵니다. 다음은 SoapUI를 사용하는 예제입니다.
 
-   ![](assets/privacy-api.png)
+   ![](assets/do-not-localize/privacy-api.png)
 
 1. 반환된 세션 토큰을 모든 하위 시퀀스 API 호출에 대한 인증으로 사용합니다. 24시간 후에 만료됩니다.
 
@@ -269,7 +269,7 @@ API를 사용하여 개인 정보 보호 요청을 제출하는 경우 반환된
 
    다음은 **[!UICONTROL CreateRequestByName]**&#x200B;을(를) 사용하는 예제입니다. 위에서 제공한 세션 토큰을 인증으로 사용하는 방법을 참고하십시오. 응답은 생성된 요청의 ID입니다.
 
-   ![](assets/privacy-api-2.png)
+   ![](assets/do-not-localize/privacy-api-2.png)
 
    위의 단계를 수행하는 데 도움이 되도록 다음 사항을 고려하십시오.
 
