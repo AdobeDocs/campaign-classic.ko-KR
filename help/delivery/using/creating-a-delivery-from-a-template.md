@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 10%
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # 템플릿에서 게재 만들기{#creating-a-delivery-from-a-template}
 
-## 템플릿을 게재 {#linking-the-template-to-a-delivery}에 연결
+## 템플릿을 게재에 연결 {#linking-the-template-to-a-delivery}
 
 기존 템플릿을 기반으로 게재를 만들려면 사용 가능한 게재 템플릿 목록에서 템플릿을 선택합니다.
 
@@ -29,7 +29,7 @@ ht-degree: 10%
 
 사용할 게재 템플릿을 선택하고 **[!UICONTROL Ok]** 을 클릭합니다.
 
-## 템플릿 {#executing-the-template} 실행
+## 템플릿 실행 {#executing-the-template}
 
 먼저 게재를 만들지 않고 템플릿 목록에서 직접 템플릿 실행을 시작할 수 있습니다. 이렇게 하려면 실행할 템플릿을 선택하고 마우스 오른쪽 버튼을 클릭합니다. **[!UICONTROL Actions>Execute the delivery template...]**&#x200B;을(를) 선택합니다.
 
@@ -43,4 +43,4 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->게재 구성에 대한 자세한 내용은 [전자 메일 콘텐츠 정의](../../delivery/using/defining-the-email-content.md)를 참조하십시오.
+>게재 구성에 대한 자세한 내용은 [전자 메일 콘텐츠 정의](defining-the-email-content.md)를 참조하십시오.
