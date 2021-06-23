@@ -6,16 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 1%
 
 ---
 
-# Android{#create-notificaations-android}에 대한 알림 만들기
+# Android용 알림 만들기{#create-notificaations-android}
 
-Adobe Campaign을 사용하여 Android 장치에서 푸시 알림을 보냅니다. 게재 만들기에 대한 글로벌 개념은 [이 섹션](../../delivery/using/steps-about-delivery-creation-steps.md)에 나와 있습니다.
+Adobe Campaign을 사용하여 Android 장치에서 푸시 알림을 보냅니다. 게재 만들기에 대한 글로벌 개념은 [이 섹션](steps-about-delivery-creation-steps.md)에 나와 있습니다.
 
 먼저 새 게재를 만듭니다.
 
@@ -31,7 +31,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중 하�
 
 Firebase Cloud 메시지 유형에 대한 자세한 내용은 [FCM 설명서](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages)를 참조하십시오.
 
-## 데이터 메시지 {#creating-data-message} 만들기
+## 데이터 메시지 만들기 {#creating-data-message}
 
 1. **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**(으)로 이동합니다.
 
@@ -66,11 +66,11 @@ Firebase Cloud 메시지 유형에 대한 자세한 내용은 [FCM 설명서](ht
 
 ![](assets/nmac_android_4.png)
 
-## 알림 메시지 {#creating-notification-message} 만들기
+## 알림 메시지 만들기 {#creating-notification-message}
 
 >[!NOTE]
 >
->알림 메시지에 대한 추가 옵션은 HTTP v1 API 구성에서만 사용할 수 있습니다. 자세한 정보는 이 [섹션](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)을 참조하십시오.
+>알림 메시지에 대한 추가 옵션은 HTTP v1 API 구성에서만 사용할 수 있습니다. 자세한 정보는 이 [섹션](configuring-the-mobile-application-android.md#android-service-httpv1)을 참조하십시오.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 푸시 알림을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=en#additional-resources)
 
