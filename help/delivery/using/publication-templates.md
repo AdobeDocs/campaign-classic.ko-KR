@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 * 입력 양식,
 * 각 출력 문서에 대한 변환 템플릿입니다.
 
-## 게시 템플릿 {#identification-of-a-publication-template} 식별
+## 게시 템플릿 식별 {#identification-of-a-publication-template}
 
 게시 템플릿은 해당 이름 및 네임스페이스로 식별됩니다.
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >컨텐츠 생성에 대한 자세한 내용은 [컨텐츠 인스턴스 만들기](../../delivery/using/using-a-content-template.md#creating-a-content-instance)를 참조하십시오.
+   >컨텐츠 생성에 대한 자세한 내용은 [컨텐츠 인스턴스 만들기](using-a-content-template.md#creating-a-content-instance)를 참조하십시오.
 
 ### 게재 {#delivery}
 
@@ -95,13 +95,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->컨텐츠를 기반으로 하는 게재 만들기의 예는 [컨텐츠 인스턴스 제공](../../delivery/using/using-a-content-template.md#delivering-a-content-instance)을 참조하십시오.
+>컨텐츠를 기반으로 하는 게재 만들기의 예는 [컨텐츠 인스턴스 제공](using-a-content-template.md#delivering-a-content-instance)을 참조하십시오.
 
 ### 누적 {#aggregator}
 
 스크립트나 쿼리 목록에서 데이터를 집계하면 콘텐츠 데이터로 XML 문서를 보강할 수 있습니다. 목적은 링크가 참조하는 특정 정보를 보완하거나 데이터베이스에서 요소를 추가하는 것입니다.
 
-### 다중 파일 생성 {#multi-file-generation}
+### 여러 파일 생성 {#multi-file-generation}
 
 여러 파일 생성을 활성화하려면 게시 모델에서 **[!UICONTROL Multi-file generation]** 옵션을 선택합니다. 이 옵션을 사용하면 출력 문서의 각 페이지 시작 부분에 대해 스타일시트에 분할 태그를 지정할 수 있습니다. 컨텐츠를 생성하면 발생한 각 분할 태그에 대한 파일이 생성됩니다.
 
