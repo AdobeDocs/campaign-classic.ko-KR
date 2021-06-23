@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 5%
@@ -23,13 +23,13 @@ ajouter screenshot -->
 
 ![](assets/delivery-status.png)
 
-발생할 수 있는 여러 게재 실패와 그 해결 방법에 대한 자세한 내용은 [이 페이지](../../delivery/using/understanding-delivery-failures.md)를 참조하십시오.
+발생할 수 있는 여러 게재 실패와 그 해결 방법에 대한 자세한 내용은 [이 페이지](understanding-delivery-failures.md)를 참조하십시오.
 
 **관련 항목:**
 
-* [게재 대시보드](../../delivery/using/delivery-dashboard.md)
-* [게재 문제 해결](../../delivery/using/delivery-troubleshooting.md)
-* [게재 기능 기본 정보](../../delivery/using/about-deliverability.md)
+* [게재 대시보드](delivery-dashboard.md)
+* [게재 문제 해결](delivery-troubleshooting.md)
+* [게재 기능 기본 정보](about-deliverability.md)
 
 ## 게재 상태 목록 {#list-delivery-statuses}
 
@@ -51,7 +51,7 @@ ajouter screenshot -->
   </tr> 
   <tr> 
    <td> 실패<br /> </td> 
-   <td> 예를 들어 잘못된 주소 또는 전체 받은 편지함으로 인해 게재를 받는 사람에게 연결할 수 없습니다. 스키마가 게재 매핑과 일치하지 않을 때 오류를 생성할 수 있으므로 개인화 블록 문제에 연결할 수도 있습니다. <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">게재 실패 이해</a><br /> 를 참조하십시오. </td> 
+   <td> 예를 들어 잘못된 주소 또는 전체 받은 편지함으로 인해 게재를 받는 사람에게 연결할 수 없습니다. 스키마가 게재 매핑과 일치하지 않을 때 오류를 생성할 수 있으므로 개인화 블록 문제에 연결할 수도 있습니다. <a href="understanding-delivery-failures.md" target="_blank">게재 실패 이해</a><br /> 를 참조하십시오. </td> 
   </tr>
   <tr> 
    <td> 보류 중<br /> </td> 
@@ -67,7 +67,7 @@ ajouter screenshot -->
   </tr> 
   <tr> 
    <td> 서비스 공급자<br />에 의해 고려됩니다. </td> 
-   <td> SMS 서비스 공급자가 게재를 받았습니다.<br /> 호스팅 또는 하이브리드 설치의 경우  <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">향상된 MTA</a>로 업그레이드한 경우 메시지가 Campaign에서 향상된 MTA로 성공적으로 중계되었습니다.</td> 
+   <td> SMS 서비스 공급자가 게재를 받았습니다.<br /> 호스팅 또는 하이브리드 설치의 경우  <a href="sending-with-enhanced-mta.md" target="_blank">향상된 MTA</a>로 업그레이드한 경우 메시지가 Campaign에서 향상된 MTA로 성공적으로 중계되었습니다.</td> 
   </tr> 
   <tr> 
    <td> 모바일<br />에서 수신됨 </td> 
@@ -85,13 +85,13 @@ ajouter screenshot -->
  </tbody> 
 </table>
 
-Adobe Campaign 전자 메일의 게재 능력을 최적화하는 방법에 대해 알아보려면 [이 섹션](../../delivery/using/about-deliverability.md)을 참조하십시오. 게재 능력에 대한 자세한 내용은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하십시오.
+Adobe Campaign 전자 메일의 게재 능력을 최적화하는 방법에 대해 알아보려면 [이 섹션](about-deliverability.md)을 참조하십시오. 게재 능력에 대한 자세한 내용은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하십시오.
 
-## 보류 중인 상태 {#pending-status}
+## 보류 중 상태 {#pending-status}
 
 게재를 확인한 후 게재 상태가 **[!UICONTROL Pending]**&#x200B;임을 확인할 수 있습니다. 이 상태는 실행 프로세스가 일부 리소스의 가용성을 기다리고 있음을 의미합니다.
 
-**[!UICONTROL Pending]** 상태는 먼저 게재를 예약했으며 지정된 날짜까지 보류 중임을 의미합니다. 자세한 내용은 [배달 예약](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending) 섹션을 참조하십시오.
+**[!UICONTROL Pending]** 상태는 먼저 게재를 예약했으며 지정된 날짜까지 보류 중임을 의미합니다. 자세한 내용은 [배달 예약](steps-sending-the-delivery.md#scheduling-the-delivery-sending) 섹션을 참조하십시오.
 
 게재가 전송되지 않고 해당 상태가 **[!UICONTROL Pending]**&#x200B;으로 남아 있는 경우, 다음 결과의 결과일 수 있습니다.
 
@@ -137,5 +137,5 @@ Adobe Campaign 전자 메일의 게재 능력을 최적화하는 방법에 대�
 **관련 항목:**
 
 * [게재 로그 및 내역](#delivery-logs-and-history)
-* [게재 실패 이해](../../delivery/using/understanding-delivery-failures.md)
-* [게재 실패 유형 및 이유](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)
+* [게재 실패 이해](understanding-delivery-failures.md)
+* [게재 실패 유형 및 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons)
