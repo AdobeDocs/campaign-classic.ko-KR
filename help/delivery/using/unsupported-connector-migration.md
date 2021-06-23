@@ -7,14 +7,14 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 hidefromtoc: true
 exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 1%
 
 ---
 
-# 지원되지 않는 SMS 커넥터를 확장 일반 SMPP 커넥터{#unsupported-connector-migration}로 마이그레이션합니다.
+# 지원되지 않는 SMS 커넥터를 확장된 일반 SMPP 커넥터로 마이그레이션합니다{#unsupported-connector-migration}
 
 릴리스 20.2부터 레거시 커넥터는 사용되지 않습니다. 이 문서는 이전 시스템에서 아직 실행 중인 커넥터를 권장 SMPP 커넥터로 마이그레이션하는 데 도움이 됩니다.
 
@@ -39,17 +39,17 @@ ht-degree: 1%
 
 이전 SMS 커넥터는 웹 프로세스를 오버로드하는 Java SMS 커넥터를 사용합니다. 새 **[!UICONTROL Extended Generic SMPP]** 커넥터로 마이그레이션하면 이 로드를 지원할 수 있는 MTA로 이동합니다.
 
-## 확장 일반 SMPP 커넥터 {#migrating-extended-generic-smpp}로 마이그레이션
+## 확장 일반 SMPP 커넥터로 마이그레이션 {#migrating-extended-generic-smpp}
 
 >[!CAUTION]
 >
->매개 변수를 바꿀 수 있더라도 **[!UICONTROL Extended Generic SMPP]** 커넥터를 구성하려면 공급자에게 문의하여 나머지 매개 변수를 채우는 데 필요한 정보를 제공합니다. 자세한 정보는 이 [페이지](../../delivery/using/sms-protocol.md)를 참조하십시오.
+>매개 변수를 바꿀 수 있더라도 **[!UICONTROL Extended Generic SMPP]** 커넥터를 구성하려면 공급자에게 문의하여 나머지 매개 변수를 채우는 데 필요한 정보를 제공합니다. 자세한 정보는 이 [페이지](sms-protocol.md)를 참조하십시오.
 
-먼저 새 **[!UICONTROL Extended Generic SMPP]** 외부 계정을 만들어야 합니다. 그런 다음 일부 매개 변수를 바꿀 수 있습니다. 이 [page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)에서 자세한 단계를 찾을 수 있습니다.
+먼저 새 **[!UICONTROL Extended Generic SMPP]** 외부 계정을 만들어야 합니다. 그런 다음 일부 매개 변수를 바꿀 수 있습니다. 이 [page](sms-set-up.md#creating-an-smpp-external-account)에서 자세한 단계를 찾을 수 있습니다.
 
 이제 이전 커넥터에 따라 새로 만든 **[!UICONTROL Extended Generic SMPP]** 외부 계정의 **[!UICONTROL Mobile]** 탭에서 매개 변수를 입력해야 합니다.
 
-### 일반 커넥터 {#from-generic-connector}에서
+### 일반 커넥터에서 {#from-generic-connector}
 
 **[!UICONTROL Generic]** 커넥터를 선택할 때 각 상황에 맞는 사용자 지정 JavaScript 커넥터가 있어야 합니다.
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 * **[!UICONTROL Server]**
 * **[!UICONTROL Port]**
 
-### 일반 SMPP 커넥터 {#from-generic-smpp-connector}에서
+### 일반 SMPP 커넥터에서 {#from-generic-smpp-connector}
 
 **[!UICONTROL Generic SMPP]** 커넥터에서 새로 만든 **[!UICONTROL Extended SMPP]** 계정으로 이동할 수 있습니다.
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 * **[!UICONTROL Coding when sending]** 에 해당함  **[!UICONTROL ID Format in MT acknowledgement]**
 * **[!UICONTROL Coding when receiving]** 에 해당함  **[!UICONTROL ID Format in the SR]**
 
-### Sybase365 커넥터 {#from-sybase}에서
+### Sybase365 커넥터에서 {#from-sybase}
 
 **[!UICONTROL Sybase365]** 커넥터에서 새로 만든 **[!UICONTROL Extended SMPP]** 계정으로 이동할 수 있습니다.
 
