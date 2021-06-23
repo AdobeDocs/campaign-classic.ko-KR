@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 3%
@@ -19,7 +19,7 @@ Adobe Campaign Content Manager 모듈은 반복 뉴스레터 또는 웹 사이�
 
 >[!NOTE]
 >
->이 섹션은 콘텐츠 관리 모듈을 참조합니다. 전자 메일 게재 콘텐츠를 디자인하는 방법에 대한 자세한 내용은 [이 섹션](../../delivery/using/defining-the-email-content.md)을 참조하십시오.
+>이 섹션은 콘텐츠 관리 모듈을 참조합니다. 전자 메일 게재 콘텐츠를 디자인하는 방법에 대한 자세한 내용은 [이 섹션](defining-the-email-content.md)을 참조하십시오.
 
 컨텐츠 관리 모듈에는 작업 그룹, 워크플로우 및 컨텐츠 수집 기능이 포함되어 있습니다. 이렇게 하면 메시지 형식을 자동으로 지정할 수 있습니다.이메일, 메일, SMS, 웹 등
 
