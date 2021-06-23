@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 0e0912c68d132919eeac9b91b93960e70011153e
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 13%
+source-wordcount: '582'
+ht-degree: 10%
 
 ---
 
@@ -21,10 +21,17 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->개인화가 포함된 이메일 콘텐츠의 링크에는 특정 구문을 추적해야 합니다. 개인화할 수 있고 추적을 지원하는 이메일에 링크를 추가하는 방법에 대한 자세한 내용은 [이 섹션](../../delivery/using/tracking-personalized-links.md)을 참조하십시오.
+>개인화가 포함된 이메일 콘텐츠의 링크에는 특정 구문을 추적해야 합니다. 개인화할 수 있고 추적을 지원하는 이메일에 링크를 추가하는 방법에 대한 자세한 내용은 [이 섹션](tracking-personalized-links.md)을 참조하십시오.
 
+추적 공식을 적용하기 전에 **[!UICONTROL Text content]** 탭에서 구분 기호로 URL을 묶는 것이 좋습니다. 이 탭에 입력하는 URL 구분 기호는 Adobe Campaign에서 문자 문자열 내의 URL을 식별하는 데 사용됩니다. 다음 구분 기호 쌍을 사용할 수 있습니다.
+* 괄호 ( )
+* Brackets [ ]
+* 중괄호 { }
 
-
+이 예에서 URL https://www.adobe.com 뒤에는 세미콜론(;)이 옵니다. 세미콜론은 수신자 이메일 클라이언트가 URL의 일부로 해석할 수 있습니다. 따라서 링크가 끊어질 수 있습니다. 이 문제를 방지하려면 다음 방법 중 하나로 URL을 구분 기호로 묶을 수 있습니다.
+* (https://www.adobe.com)
+* [https://www.adobe.com];
+* {https://www.adobe.com};
 
 메시지 추적은 기본적으로 활성화되어 있습니다. URL을 추적하는 방법을 개인화하려면 아래 단계를 따르십시오.
 
