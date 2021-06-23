@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 4%
@@ -29,7 +29,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->전자 메일 콘텐츠 편집에 대한 자세한 내용은 [전자 메일 콘텐츠 정의](../../delivery/using/defining-the-email-content.md) 및 [개인화된 콘텐츠 빌드](../../delivery/using/design-and-personalize.md)를 참조하십시오.
+>전자 메일 콘텐츠 편집에 대한 자세한 내용은 [전자 메일 콘텐츠 정의](defining-the-email-content.md) 및 [개인화된 콘텐츠 빌드](design-and-personalize.md)를 참조하십시오.
 
 ## 보낸 사람 주소 {#sender-address}
 
@@ -37,23 +37,23 @@ ht-degree: 4%
 
 인스턴스 수준(메뉴 **[!UICONTROL Tools > Advanced > Deployment wizard...]**)이나 가장 자주 사용하는 시나리오에서 올바른 주소가 지정되었는지 확인해야 합니다.
 
-자세한 내용은 [보낸 사람 정의](../../delivery/using/defining-the-email-content.md)를 참조하십시오.
+자세한 내용은 [보낸 사람 정의](defining-the-email-content.md)를 참조하십시오.
 
 ## 개인화 {#personalization}
 
 Adobe Campaign을 사용하면 수신자의 경험을 향상하고 이메일을 열도록 할 수 있으므로 메시지를 개인화할 수 있습니다.
 
-Adobe Campaign에서 개인화 필드 사용에 대한 자세한 내용은 [이 섹션](../../delivery/using/personalization-fields.md)을 참조하십시오.
+Adobe Campaign에서 개인화 필드 사용에 대한 자세한 내용은 [이 섹션](personalization-fields.md)을 참조하십시오.
 
-컨텐츠를 작성할 때 개인화를 최적화하는 몇 가지 팁은 [이 섹션](../../delivery/using/design-and-personalize.md#optimize-personalization)에 나와 있습니다.
+컨텐츠를 작성할 때 개인화를 최적화하는 몇 가지 팁은 [이 섹션](design-and-personalize.md#optimize-personalization)에 나와 있습니다.
 
 ## 옵트아웃 링크 및 양식 {#opt-out}
 
-기본적으로 메시지를 분석할 때 [유형화 규칙](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)은(는) 옵트아웃 링크가 포함되어 있는지 여부를 확인하고 누락된 경우 경고를 생성합니다. 간단한 경고 대신 오류가 발생하도록 이 규칙을 변경하고 이 링크 없이 게재가 종료되지 않도록 중단할 수 있습니다.
+기본적으로 메시지를 분석할 때 [유형화 규칙](steps-validating-the-delivery.md#validation-process-with-typologies)은(는) 옵트아웃 링크가 포함되어 있는지 여부를 확인하고 누락된 경우 경고를 생성합니다. 간단한 경고 대신 오류가 발생하도록 이 규칙을 변경하고 이 링크 없이 게재가 종료되지 않도록 중단할 수 있습니다.
 
 보낼 때마다 옵트아웃 링크가 올바르게 작동하는지 확인해야 합니다. 예를 들어, 증명을 보낼 때 링크가 유효한지, 양식이 온라인 상태인지 그리고 이를 확인하면 **[!UICONTROL No longer contact this recipient]** 필드 값이 **[!UICONTROL Yes]**&#x200B;로 변경되는지 확인하십시오. 링크를 입력하거나 양식을 변경할 때 항상 인간 오류가 가능하므로 이 검사를 체계적으로 수행해야 합니다.
 
-이 섹션](../../delivery/using/personalization-blocks.md#personalization-blocks-example)에 옵트아웃 링크 [를 삽입하는 방법을 알아봅니다.
+이 섹션](personalization-blocks.md#personalization-blocks-example)에 옵트아웃 링크 [를 삽입하는 방법을 알아봅니다.
 
 게재 시작 후 구독 취소에 대한 문제가 감지되면, 옵트아웃 링크를 클릭하는 수신자에 대해, 예를 들어, 일괄 업데이트 기능을 사용하여 수동으로 구독 취소를 수행할 수 있습니다. 수신자가 선택을 확인할 수 없어도 됩니다.
 
@@ -67,7 +67,7 @@ Adobe Campaign에서 개인화 필드 사용에 대한 자세한 내용은 [이 
 
 이를 위해 Adobe Campaign은 렌더링을 캡처하여 전용 보고서에서 사용할 수 있도록 합니다. 이렇게 하면 수신되었을 수 있는 다른 컨텍스트에서 전송된 메시지를 미리 볼 수 있습니다.
 
-자세한 내용은 [받은 편지함 렌더링](../../delivery/using/inbox-rendering.md)을 참조하십시오.
+자세한 내용은 [받은 편지함 렌더링](inbox-rendering.md)을 참조하십시오.
 
 ## SpamAssassin {#spamassassin}
 
@@ -75,4 +75,4 @@ Adobe Campaign이 SpamAssassin에서 작동하도록 구성할 수 있습니다.
 
 게재를 시작하기 전에 **[!UICONTROL Preview]** 탭을 사용하여 위험을 평가할 수 있습니다. 경고 메시지에 테스트 결과가 표시됩니다.
 
-자세한 내용은 이 [섹션](../../delivery/using/spamassassin.md)을 참조하십시오.
+자세한 내용은 이 [섹션](spamassassin.md)을 참조하십시오.
