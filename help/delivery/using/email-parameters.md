@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 8%
@@ -45,7 +45,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 숨은 참조 이메일 주�
 >
 >BCC 주소로 전송된 이메일이 열려 클릭스루되는 경우 전송 분석에서 **[!UICONTROL Total opens]** 및 **[!UICONTROL Clicks]**&#x200B;에 고려되므로 계산 오류가 발생할 수 있습니다.
 
-## 메시지 형식 {#selecting-message-formats} 선택
+## 메시지 형식 선택 {#selecting-message-formats}
 
 전송된 이메일 메시지 형식을 변경할 수 있습니다. 이렇게 하려면 게재 속성을 편집하고 **[!UICONTROL Delivery]** 탭을 클릭합니다.
 
@@ -71,13 +71,13 @@ Adobe Campaign을 사용하면 메시지 타겟에 숨은 참조 이메일 주�
 
 >[!NOTE]
 >
->전자 메일 콘텐츠 정의에 대한 자세한 내용은 [이 섹션](../../delivery/using/defining-the-email-content.md)을 참조하십시오.
+>전자 메일 콘텐츠 정의에 대한 자세한 내용은 [이 섹션](defining-the-email-content.md)을 참조하십시오.
 
-## 미러 페이지 {#generating-mirror-page} 생성
+## 미러 페이지 생성 {#generating-mirror-page}
 
 미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 이메일과 동일합니다.
 
-기본적으로 링크가 메일 콘텐츠에 삽입되면 미러 페이지가 생성됩니다. 개인화 블록 삽입에 대한 자세한 내용은 [개인화 블록](../../delivery/using/personalization-blocks.md)을 참조하십시오.
+기본적으로 링크가 메일 콘텐츠에 삽입되면 미러 페이지가 생성됩니다. 개인화 블록 삽입에 대한 자세한 내용은 [개인화 블록](personalization-blocks.md)을 참조하십시오.
 
 게재 속성에서 **[!UICONTROL Validity]** 탭의 **[!UICONTROL Mode]** 필드를 사용하면 이 페이지의 생성 모드를 수정할 수 있습니다.
 
@@ -107,7 +107,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 숨은 참조 이메일 주�
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
 
-## 바운스 전자 메일 관리 {#managing-bounce-emails}
+## 바운스 이메일 관리 {#managing-bounce-emails}
 
 게재 매개 변수의 **[!UICONTROL SMTP]** 탭에서는 바운스 메일 관리를 구성할 수 있습니다.
 
@@ -117,9 +117,9 @@ Adobe Campaign을 사용하면 메시지 타겟에 숨은 참조 이메일 주�
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-바운스 메일 관리에 대한 자세한 내용은 [이 섹션](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management)을 참조하십시오.
+바운스 메일 관리에 대한 자세한 내용은 [이 섹션](understanding-delivery-failures.md#bounce-mail-management)을 참조하십시오.
 
-## SMTP 헤더 추가 중 {#adding-smtp-headers}
+## SMTP 헤더 추가 {#adding-smtp-headers}
 
 게재에 SMTP 헤더를 추가할 수 있습니다. 이렇게 하려면 게재에서 **[!UICONTROL SMTP]** 탭의 관련 섹션을 사용합니다.
 
