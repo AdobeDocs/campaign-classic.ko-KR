@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서에서 �
 
 문서를 개인화하기 위해 이메일 개인화와 동일한 JavaScript 기능을 사용할 수 있습니다.
 
-**[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** 옵션을 활성화해야 합니다. 이 옵션은 파일을 게재 전자 메일에 첨부할 때 액세스할 수 있습니다. 계산된 파일 첨부에 대한 자세한 내용은 [파일 첨부](../../delivery/using/attaching-files.md) 섹션을 참조하십시오.
+**[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** 옵션을 활성화해야 합니다. 이 옵션은 파일을 게재 전자 메일에 첨부할 때 액세스할 수 있습니다. 계산된 파일 첨부에 대한 자세한 내용은 [파일 첨부](attaching-files.md) 섹션을 참조하십시오.
 
 송장 헤더 개인화의 예:
 
@@ -31,7 +31,7 @@ Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서에서 �
 
 URL을 통해 동적 테이블을 생성하거나 이미지를 포함하려면 특정 프로세스를 따라야 합니다.
 
-## 동적 테이블 {#generating-dynamic-tables} 생성
+## 동적 테이블 생성 {#generating-dynamic-tables}
 
 동적 테이블을 생성하는 절차는 다음과 같습니다.
 
@@ -45,7 +45,7 @@ URL을 통해 동적 테이블을 생성하거나 이미지를 포함하려면 �
 
    ![](assets/s_ncs_pdf_table.png)
 
-## 외부 이미지 {#inserting-external-images} 삽입
+## 외부 이미지 삽입 {#inserting-external-images}
 
 외부 이미지를 삽입하는 것은 수신자 필드에 URL을 입력한 이미지를 사용하여 문서를 개인화하려는 경우 유용합니다.
 
