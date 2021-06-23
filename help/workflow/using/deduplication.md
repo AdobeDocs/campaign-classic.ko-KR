@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e3e2ac09de6a9e846e9f9262d522b9395a725648
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 10%
@@ -40,7 +40,7 @@ ht-degree: 10%
 | 05/19/2020 | 로버트 | 티너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 | 07/22/2020 | 바비 | 티너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
-## 권장사항 {#best-practices}
+## 모범 사례 {#best-practices}
 
 중복 제거 중에 인바운드 흐름이 별도로 처리됩니다. 인스턴스 수신자 A가 쿼리 1의 결과와 쿼리 2의 결과에 있는 경우 중복 제거되지 않습니다.
 
@@ -133,7 +133,7 @@ ht-degree: 10%
 
 워크플로우를 실행할 때 중복으로 식별된 모든 수신자는 결과에서 제외되고(따라서 게재)가 중복 목록에 추가됩니다. 이 목록은 중복을 다시 식별하지 않고 다시 사용할 수 있습니다.
 
-## 필드를 단일 데이터 레코드 {#merging-fields-into-single-record}에 병합
+## 필드를 단일 데이터 레코드에 병합 {#merging-fields-into-single-record}
 
 **[!UICONTROL Merge]** 기능을 사용하면 중복 제거에 대한 규칙 세트를 구성하여 하나의 결과 데이터 레코드로 병합할 필드 또는 필드 그룹을 정의할 수 있습니다.
 
