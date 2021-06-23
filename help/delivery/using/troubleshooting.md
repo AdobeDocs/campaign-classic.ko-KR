@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 4%
@@ -28,4 +28,4 @@ HTTP/2 커넥터:다음 서버와의 통신을 허용해야 합니다.
 
 >[!NOTE]
 >
->두 커넥터에 대한 자세한 내용은 [Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md)에서 모바일 애플리케이션 구성 을 참조하십시오.
+>두 커넥터에 대한 자세한 내용은 [Adobe Campaign](configuring-the-mobile-application.md)에서 모바일 애플리케이션 구성 을 참조하십시오.
