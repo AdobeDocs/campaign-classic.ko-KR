@@ -6,36 +6,36 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
 
 ---
 
-# 배달 전송 문제 해결 {#delivery-troubleshooting}
+# 게재 전송 문제 해결 {#delivery-troubleshooting}
 
 이 섹션에는 게재를 보낼 때 발생할 수 있는 일반적인 문제와 이러한 문제를 해결하는 방법이 나와 있습니다.
 
-또한 [이 페이지](../../delivery/using/delivery-performances.md)에 자세히 나와 있는 우수 사례 및 검사 목록을 따라 게재가 제대로 수행되는지 확인하십시오.
+또한 [이 페이지](delivery-performances.md)에 자세히 나와 있는 우수 사례 및 검사 목록을 따라 게재가 제대로 수행되는지 확인하십시오.
 
 **관련 항목:**
 
-* [게재 상태](../../delivery/using/delivery-statuses.md)
-* [게재 대시보드](../../delivery/using/delivery-dashboard.md)
-* [게재 실패 이해](../../delivery/using/understanding-delivery-failures.md)
+* [게재 상태](delivery-statuses.md)
+* [게재 대시보드](delivery-dashboard.md)
+* [게재 실패 이해](understanding-delivery-failures.md)
 
 ## 느린 게재 {#slow-deliveries}
 
 **[!UICONTROL Send]** 단추를 클릭하면 배달이 평소보다 오래 걸리는 것 같습니다. 이 문제는 다른 요소에 의해 발생할 수 있습니다.
 
-* 일부 이메일 공급자가 사용자의 IP 주소를에 추가했을 수 차단 목록 있습니다. 이 경우 브로드로그를 확인하고 [이 섹션](../../delivery/using/about-deliverability.md)을 참조하십시오.
+* 일부 이메일 공급자가 사용자의 IP 주소를에 추가했을 수 차단 목록 있습니다. 이 경우 브로드로그를 확인하고 [이 섹션](about-deliverability.md)을 참조하십시오.
 
-* 게재 크기가 너무 커서 빠르게 처리할 수 없거나, 높은 JavaScript 개인화와 함께 발생할 수 있으며, 게재 무게가 60KB 이상인 경우 발생할 수 있습니다. 컨텐츠 지침에 대해 알려면 Adobe Campaign [게재 우수 사례](../../delivery/using/delivery-best-practices.md) 를 참조하십시오.
+* 게재 크기가 너무 커서 빠르게 처리할 수 없거나, 높은 JavaScript 개인화와 함께 발생할 수 있으며, 게재 무게가 60KB 이상인 경우 발생할 수 있습니다. 컨텐츠 지침에 대해 알려면 Adobe Campaign [게재 우수 사례](delivery-best-practices.md) 를 참조하십시오.
 
 * Adobe Campaign MTA 내에서 전송률 조절이 발생했을 수 있습니다. 이 문제는 다음 원인으로 인해 발생합니다.
 
-   * 보류 중인 메시지(**[!UICONTROL quotas met]** 메시지):Campaign에 정의된 선언적 MX 규칙으로 선언된 할당량이 충족되었습니다. 이 메시지에 대한 자세한 내용은 [이 페이지](../../delivery/using/deliverability-faq.md)를 참조하십시오. MX 규칙에 대한 자세한 내용은 [이 섹션](../../installation/using/email-deliverability.md#about-mx-rules)을 참조하십시오.
+   * 보류 중인 메시지(**[!UICONTROL quotas met]** 메시지):Campaign에 정의된 선언적 MX 규칙으로 선언된 할당량이 충족되었습니다. 이 메시지에 대한 자세한 내용은 [이 페이지](deliverability-faq.md)를 참조하십시오. MX 규칙에 대한 자세한 내용은 [이 섹션](../../installation/using/email-deliverability.md#about-mx-rules)을 참조하십시오.
 
    * 보류 중인 메시지(**[!UICONTROL dynamic flow control]** 메시지):Campaign MTA가 주어진 ISP에 메시지를 전달하려고 할 때 오류가 발생하여 오류 밀도가 너무 커 잠재적이 발생하지 차단 목록 않습니다.
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 예를 들어 중간 소싱 인스턴스가 브리즈번 시간대에 있고 프로덕션 인스턴스가 다윈의 시간대에 있는 경우 두 시간대가 30분 정도 떨어져 있는 경우 감사 로그에 게재가 11:56에 생산되도록 스케줄링된 경우 mid에 대해 스케줄링된 동일한 게재가 30분의 1 차이가 있는 12:26이 될 것임을 분명히 알 수 있습니다.
 
-## 실패한 상태 {#failed-status}
+## 실패 상태 {#failed-status}
 
 이메일 게재 상태가 **[!UICONTROL Failed]**&#x200B;이면 개인화 블록 문제에 연결할 수 있습니다. 예를 들어, 게재의 개인화 블록은 스키마가 게재 매핑과 일치하지 않을 때 오류를 생성할 수 있습니다.
 
