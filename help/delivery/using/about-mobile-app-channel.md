@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 1%
@@ -53,9 +53,9 @@ ht-degree: 1%
 
 **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) 워크플로우는 모바일 장치의 알림 구독 취소를 업데이트합니다. 이 워크플로우에 대한 자세한 내용은 [기술 워크플로우 목록](../../workflow/using/about-technical-workflows.md)을 참조하십시오.
 
-Adobe Campaign은 HTTP/2 APNs와 호환됩니다. 구성 단계에 대한 자세한 내용은 [이 섹션](../../delivery/using/configuring-the-mobile-application.md) 섹션을 참조하십시오.
+Adobe Campaign은 HTTP/2 APNs와 호환됩니다. 구성 단계에 대한 자세한 내용은 [이 섹션](configuring-the-mobile-application.md) 섹션을 참조하십시오.
 
-게재를 만드는 방법에 대한 글로벌 정보는 [이 섹션](../../delivery/using/steps-about-delivery-creation-steps.md)을 참조하십시오.
+게재를 만드는 방법에 대한 글로벌 정보는 [이 섹션](steps-about-delivery-creation-steps.md)을 참조하십시오.
 
 ## 데이터 경로 {#data-path}
 
