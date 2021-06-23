@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '2744'
 ht-degree: 0%
@@ -45,10 +45,10 @@ Adobe Campaign은 외부 계정을 관련 없는 엔티티로 처리합니다.
    * 일부 외부 계정은 동일한 로그인/암호 조합을 공유합니다.
 공급자는 `BIND PDU`이(가) 어느 외부 계정에서 오고 있는지 알 수 있는 방법이 없으므로 여러 계정의 모든 연결을 하나의 계정으로 처리합니다. MO와 SR을 두 개의 계정에 임의로 라우팅하여 문제가 발생할 수 있습니다.
 공급자가 동일한 로그인/암호 조합에 대해 여러 개의 짧은 코드를 지원하는 경우 `BIND PDU`에 해당 짧은 코드를 넣을 위치를 요청해야 합니다. `BIND PDU`가 MO를 올바르게 라우팅할 수 있는 유일한 장소이므로 이 정보는 `BIND PDU` 내부에 넣어야 하며 `SUBMIT_SM`에는 삽입하지 않아야 합니다.
-`BIND PDU`에서 사용할 수 있는 필드를 알려면 위의 [각 PDU](../../delivery/using/sms-protocol.md#information-pdu) 섹션에 있는 정보를 참조하십시오. 일반적으로 `address_range`에 짧은 코드를 추가하지만, 이 경우 공급자의 특별한 지원이 필요합니다. 여러 짧은 코드를 독립적으로 라우팅하는 방법을 알아보려면 해당 팀에 문의하십시오.
+`BIND PDU`에서 사용할 수 있는 필드를 알려면 위의 [각 PDU](sms-protocol.md#information-pdu) 섹션에 있는 정보를 참조하십시오. 일반적으로 `address_range`에 짧은 코드를 추가하지만, 이 경우 공급자의 특별한 지원이 필요합니다. 여러 짧은 코드를 독립적으로 라우팅하는 방법을 알아보려면 해당 팀에 문의하십시오.
 Adobe Campaign에서는 동일한 외부 계정에서 여러 개의 짧은 코드 처리를 지원합니다.
 
-## 일반 {#external-account-issues}의 외부 계정 문제
+## 일반적으로 외부 계정 문제 {#external-account-issues}
 
 * 커넥터가 최근에 변경되었는지, 누가 변경되었는지 확인합니다(외부 계정을 그룹으로 확인).
 
@@ -67,13 +67,13 @@ Adobe Campaign에서는 동일한 외부 계정에서 여러 개의 짧은 코�
 * 시스템이 업그레이드되었는지 여부와 시기를 조사합니다(/postupgrade 디렉토리).
 * SMS에 영향을 주는 패키지가 최근에 업그레이드되었는지(/var/log/dpkg.log) 확인합니다.
 
-## 중간 소싱(호스팅){#issue-mid-sourcing} 문제
+## 중간 소싱(호스팅) 문제{#issue-mid-sourcing}
 
 * 중간 소싱 환경에서 문제가 발생하면 중간 소싱 서버에서 게재 및 브로드 로그가 제대로 작성되고 업데이트되는지 확인하십시오. 그렇지 않은 경우 SMS 문제가 아닙니다.
 
 * mid 서버와 SMS에서 모든 것이 제대로 전송되지만 마케팅 인스턴스가 제대로 업데이트되지 않으면 중간 동기화 문제가 발생할 수 있습니다.
 
-## 공급자 {#issue-provider}에 연결할 때 발생하는 문제
+## 공급자에 연결할 때 발생하는 문제 {#issue-provider}
 
 * `BIND PDU`이 0이 아닌 `command_status` 코드를 반환하는 경우, 공급자에게 자세한 정보를 요청하십시오.
 
@@ -83,11 +83,11 @@ Adobe Campaign에서는 동일한 외부 계정에서 여러 개의 짧은 코�
 
 * **외부 계정** 설정을 확인합니다. 공급자에게 필드 값을 요청하십시오.
 
-* 연결이 성공했지만 불안정하면 [연결이 불안정하면 문제](../../delivery/using/troubleshooting-sms.md#issues-unstable-connection) 섹션을 확인합니다.
+* 연결이 성공했지만 불안정하면 [연결이 불안정하면 문제](troubleshooting-sms.md#issues-unstable-connection) 섹션을 확인합니다.
 
 * 연결 문제를 진단하기 어려운 경우 네트워크 캡처에서 정보를 제공할 수 있습니다. 문제가 나타나는 동안 네트워크 캡처가 동시에 실행되어 효율적으로 분석할 수 있는지 확인하십시오. 또한 문제가 표시되는 정확한 시간을 기록해야 합니다.
 
-## 불안정한 연결 {#issues-unstable-connection} 문제
+## 불안정한 연결 문제 {#issues-unstable-connection}
 
 다음 중 하나가 발생하면 연결이 불안정으로 간주됩니다.
 
@@ -113,11 +113,11 @@ Adobe Campaign에서는 동일한 외부 계정에서 여러 개의 짧은 코�
 
 * 오류 코드와 함께 `DELIVER_SM_RESP` 같은 클린 오류를 보낸 후 공급자가 연결을 닫는 경우 다른 종류의 메시지가 전송되지 않도록 커넥터를 수정해야 하며 MTA 조절을 트리거합니다. 이는 연결을 닫으면 MT 및 SR 모두에 영향을 주는 송수신 모드에서 특히 중요합니다.
 
-## MT(일반 사용자에게 전송된 일반 SMS)를 보낼 때 발생하는 문제{#issue-MT}
+## MT(최종 사용자에게 전송된 일반 SMS)를 보낼 때 발생하는 문제{#issue-MT}
 
-* 연결이 안정되었는지 확인합니다. SMPP 연결은 Adobe Campaign Classic의 발신자를 제외하고 최소 1시간 동안 지속적으로 유지되어야 합니다. 섹션 [이(가) 불안정한 연결 문제](../../delivery/using/sms-protocol.md#issues-unstable-connection)를 참조하십시오.
+* 연결이 안정되었는지 확인합니다. SMPP 연결은 Adobe Campaign Classic의 발신자를 제외하고 최소 1시간 동안 지속적으로 유지되어야 합니다. 섹션 [이(가) 불안정한 연결 문제](sms-protocol.md#issues-unstable-connection)를 참조하십시오.
 
-* MTA를 다시 시작하면 전송 MT가 잠시 동안 다시 작동하게 되면 불안정한 연결로 인해 전송이 제한될 수 있습니다. 섹션 [이(가) 불안정한 연결 문제](../../delivery/using/troubleshooting-sms.md#issues-unstable-connection)를 참조하십시오.
+* MTA를 다시 시작하면 전송 MT가 잠시 동안 다시 작동하게 되면 불안정한 연결로 인해 전송이 제한될 수 있습니다. 섹션 [이(가) 불안정한 연결 문제](troubleshooting-sms.md#issues-unstable-connection)를 참조하십시오.
 
 * 브로드 로그가 있고 올바른 날짜가 있는 올바른 상태로 있는지 확인하십시오. 없는 경우 게재 또는 게재 준비 문제일 수 있습니다.
 
@@ -139,13 +139,13 @@ Adobe Campaign에서는 동일한 외부 계정에서 여러 개의 짧은 코�
 
 * 정확히 60초 간격으로 전송된 중복 항목이 표시되면 공급자 측에서 문제가 될 수 있으며 `SUBMIT_SM_RESP`을 충분히 빠르게 보내지 않습니다.
 
-* `BIND/UNBIND`이 많으면 연결이 불안정합니다. 중복 메시지 문제를 해결하기 전에 솔루션에 대해[불안정한 연결 문제](../../delivery/using/troubleshooting-sms.md#issues-unstable-connection) 섹션을 참조하십시오.
+* `BIND/UNBIND`이 많으면 연결이 불안정합니다. 중복 메시지 문제를 해결하기 전에 솔루션에 대해[불안정한 연결 문제](troubleshooting-sms.md#issues-unstable-connection) 섹션을 참조하십시오.
 
 다시 시도할 때 중복 수 감소:
 
 * 전송 창을 낮춥니다. 전송 창은 `SUBMIT_SM_RESP` 지연을 덮을 만큼 커야 합니다. 이 값은 창이 가득 찬 동안 오류가 발생하는 경우 복제할 수 있는 최대 메시지 수를 나타냅니다.
 
-## SR(납품 입고) {#issue-process-SR} 처리 시 발생하는 문제
+## SR(납품 입고) 처리 시 발생하는 문제 {#issue-process-SR}
 
 * 모든 종류의 SR 문제 해결을 수행하려면 SMPP 추적을 사용하도록 설정해야 합니다.
 
@@ -159,11 +159,11 @@ Adobe Campaign에서는 동일한 외부 계정에서 여러 개의 짧은 코�
 
 * 오류가 `broadLogMsg` 테이블에서 제대로 프로비저닝되었는지 확인합니다.
 
-Adobe Campaign Classic 확장 SMPP 커넥터에서 `DELIVER_SM PDU`을 확인했지만 broadLog가 제대로 업데이트되지 않은 경우 [MT, SR 및 broadlog entries](../../delivery/using/sms-protocol.md#matching-mt) 섹션에 설명된 ID 조정 프로세스를 확인하십시오.
+Adobe Campaign Classic 확장 SMPP 커넥터에서 `DELIVER_SM PDU`을 확인했지만 broadLog가 제대로 업데이트되지 않은 경우 [MT, SR 및 broadlog entries](sms-protocol.md#matching-mt) 섹션에 설명된 ID 조정 프로세스를 확인하십시오.
 
 모든 문제를 해결했지만 일부 잘못된 SR이 여전히 공급자의 버퍼에 있는 경우 &quot;잘못된 ID 승인 카운트&quot; 옵션을 사용하여 건너뛸 수 있습니다. 이 값은 버퍼가 정리 된 후 가능한 한 빨리 0으로 재설정하고 주의해서 사용해야 합니다.
 
-## MO(및 블랙리스트/자동 회신){#issue-process-MO}를 처리할 때 발생하는 문제
+## MO(및 블랙리스트/자동 회신)를 처리할 때 발생하는 문제{#issue-process-MO}
 
 * 테스트 중에 SMPP 추적을 사용하도록 설정합니다. TLS를 활성화하지 않는 경우 MO를 문제 해결할 때 네트워크 캡처를 수행하여 PDU에 올바른 정보가 포함되어 있고 올바르게 포맷되어 있는지 확인해야 합니다.
 
@@ -177,9 +177,9 @@ Adobe Campaign Classic 확장 SMPP 커넥터에서 `DELIVER_SM PDU`을 확인했
 
 * 답글이 포함된 `SUBMIT_SM MT PDU`이 추적에 나와 있지만 SMS가 휴대폰에 도달하지 않는 경우, 문제 해결에 대한 지원이 필요하면 공급자에게 문의해야 합니다.
 
-## 게재를 준비하는 동안 격리된 수신자(자동 회신 기능으로 격리됨)를 제외하지 않는 문제가 발생했습니다. {#issue-delivery-preparation}
+## 게재를 준비하는 동안 격리된 수신자(자동 회신 기능으로 격리됨)를 제외하지 않는 문제가 발생했습니다 {#issue-delivery-preparation}
 
-* 격리 테이블과 게재 로그에서 전화 번호 형식이 정확히 같은지 확인합니다. 없는 경우 국제 전화 번호 형식의 더하기 접두사에 문제가 있는 경우 이 [섹션](../../delivery/using/sms-protocol.md#automatic-reply)을 참조하십시오.
+* 격리 테이블과 게재 로그에서 전화 번호 형식이 정확히 같은지 확인합니다. 없는 경우 국제 전화 번호 형식의 더하기 접두사에 문제가 있는 경우 이 [섹션](sms-protocol.md#automatic-reply)을 참조하십시오.
 
 * 짧은 코드를 확인합니다. 수신자의 짧은 코드가 외부 계정에 정의된 코드와 동일하거나 비어 있는 경우(empty = any shortcode) 제외가 발생할 수 있습니다. 전체 Adobe Campaign 인스턴스에 짧은 코드가 한 개만 사용되는 경우 모든 **짧은 코드** 필드를 비워 두면 더 쉽습니다.
 
@@ -213,7 +213,7 @@ Adobe Campaign Classic 확장 SMPP 커넥터에서 `DELIVER_SM PDU`을 확인했
 
 테스트할 때 다양한 종류의 특수 문자를 보냅니다. 예를 들어 GSM7 인코딩에는 16진수 형태로 매우 구별되는 확장 문자가 포함되어 있으므로 다른 인코딩에 나타나지 않으므로 쉽게 찾을 수 있습니다.
 
-## SMS 문제 {#element-include}에 대해 통신할 때 포함할 요소
+## SMS 문제에 대해 통신할 때 포함할 요소 {#element-include}
 
 SMS 문제에 대한 지원을 요청할 때마다, Adobe Campaign에 대한 지원 티켓을 열지, SMS 공급자에게 보내거나, 문제에 대한 모든 커뮤니케이션을 공개하려면 다음 정보를 포함하여 제대로 된 자격이 있는지 확인해야 합니다. 문제가 빨리 해결되도록 적절한 조건을 갖춘 것이 중요합니다.
 
@@ -267,7 +267,7 @@ SMS 문제에 대한 지원을 요청할 때마다, Adobe Campaign에 대한 지
 
 * 실제 SMPP 트래픽이 포함되지 않은 오류:게재 준비, 메시지 센터 API 문제, 워크플로우 문제 등은
 
-## SMPP 추적을 사용하도록 설정하는 중 {#enabling-smpp-traces}
+## SMPP 추적 사용 {#enabling-smpp-traces}
 
 새로운 커넥터는 추적을 통해 확장된 로깅을 지원합니다.SMPP. 추적은 표준 출력이 아니라 MTA 로그에 출력됩니다.
 
@@ -289,7 +289,7 @@ SMS 문제에 대한 지원을 요청할 때마다, Adobe Campaign에 대한 지
 <sms args="-tracefilter:SMPP"/>
 ```
 
-## 컨테이너 {#open-connections}에서 열린 연결 수 확인
+## 컨테이너에서 열린 연결 수 확인 {#open-connections}
 
 컨테이너에서 열린 연결 수를 확인하려면 다음 명령을 사용할 수 있습니다.
 
