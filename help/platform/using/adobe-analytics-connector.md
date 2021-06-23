@@ -7,22 +7,26 @@ feature: 개요
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
-source-git-commit: 46e5cac1df419de933d96a3f35f7ac491a1defa5
+source-git-commit: c612b47463427751eff27d6092e371c918c87d93
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
 
 # Adobe Analytics 커넥터{#adobe-analytics-connector}
 
-## Adobe Analytics 커넥터 통합 정보 {#about-analytics-connector-integration}
+## Adobe Analytics 커넥터 통합 기본 정보 {#about-analytics-connector-integration}
+
+Adobe Analytics 커넥터를 사용하면 Adobe Campaign 및 Adobe Analytics이 **[!UICONTROL Web Analytics connectors]** 패키지를 통해 상호 작용할 수 있습니다. 이메일 캠페인 후 사용자 행동에 대한 세그먼트 형태로 Adobe Campaign에 데이터를 전달합니다. 반대로 Adobe Analytics에서 제공하는 이메일 캠페인의 지표와 특성을 보냅니다.
 
 >[!CAUTION]
 >
->Adobe Analytics 커넥터가 트랜잭션 메시지(메시지 센터)와 호환되지 않습니다.
+>* Adobe Analytics 커넥터가 트랜잭션 메시지(메시지 센터)와 호환되지 않습니다.
+   >
+   >
+* 시작하기 전에 IMS(Adobe Identity Management 시스템)가 Campaign에서 구현되어 있는지 확인하십시오. [자세한 내용은 이 페이지](../../integrations/using/about-adobe-id.md)를 참조하세요.
 
-Adobe Analytics 커넥터를 사용하면 Adobe Campaign 및 Adobe Analytics이 **[!UICONTROL Web Analytics connectors]** 패키지를 통해 상호 작용할 수 있습니다. 이메일 캠페인 후 사용자 행동에 대한 세그먼트 형태로 Adobe Campaign에 데이터를 전달합니다. 반대로 Adobe Analytics에서 제공하는 이메일 캠페인의 지표와 특성을 보냅니다.
 
 Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상자(Web Analytics)를 측정하는 방법이 있습니다. 이러한 통합 덕분에 Adobe Campaign은 마케팅 캠페인 후 하나 이상의 사이트에 대한 방문자 동작에 대한 데이터를 복구한 다음(분석 후)보기 로 재마케팅 캠페인을 실행하여 바이어로 전환할 수 있습니다. 반대로 웹 분석 도구를 사용하면 Adobe Campaign에서 지표와 캠페인 속성을 플랫폼에 전달할 수 있습니다.
 
@@ -39,7 +43,7 @@ Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상�
    1. 세그먼트 복구 및 분석
    1. 재마케팅 캠페인을 트리거합니다.
 
-## 통합 {#setting-up-the-integration} 설정
+## 통합 설정 {#setting-up-the-integration}
 
 Data Connector를 설정하려면 Adobe Campaign 인스턴스에 연결하고 다음 작업을 수행해야 합니다.
 
@@ -47,7 +51,7 @@ Data Connector를 설정하려면 Adobe Campaign 인스턴스에 연결하고 �
 1. [전환 변수 및 성공 이벤트 구성](#configure-conversion-success)
 1. [Adobe Campaign Classic에서 외부 계정 구성](#external-account-classic)
 
-### Adobe Analytics {#report-suite-analytics}에서 보고서 세트 만들기
+### Adobe Analytics에서 보고서 세트 만들기 {#report-suite-analytics}
 
 Adobe Analytics/Adobe Campaign Classic 통합을 설정하려면 [!DNL Adobe Analytics] 인스턴스에 연결하고 다음 작업을 수행해야 합니다.
 
@@ -122,7 +126,7 @@ Adobe Analytics/Adobe Campaign Classic 통합을 설정하려면 [!DNL Adobe Ana
 
 보고서 세트가 구성되면 Adobe Campaign Classic에서 **[!UICONTROL External accounts]**&#x200B;을 구성해야 합니다.
 
-### Adobe Campaign Classic {#external-account-classic}에서 외부 계정 구성
+### Adobe Campaign Classic에서 외부 계정 구성 {#external-account-classic}
 
 >[!IMPORTANT]
 >
@@ -243,7 +247,7 @@ Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작
 
 
 
-## Adobe Campaign {#tracking-deliveries-in-adobe-campaign}에서 게재 추적
+## Adobe Campaign에서 게재 추적 {#tracking-deliveries-in-adobe-campaign}
 
 Adobe Campaign에서 게재를 보낸 후 Adobe Experience Cloud이 사이트에서 활동을 추적할 수 있도록 하려면 게재 속성에서 일치하는 커넥터를 참조해야 합니다. 이렇게 하려면 다음 단계를 적용합니다.
 
