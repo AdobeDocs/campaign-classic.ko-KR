@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 3%
@@ -45,18 +45,18 @@ ISP가 중단되는 경우, Campaign을 통해 전송된 이메일을 수신자�
 * 격리 목록의 **[!UICONTROL Error text]** 필드에 SMTP 바운스 응답 정보가 있는 Campaign 인스턴스의 경우:
 
    * **오류 텍스트(격리 텍스트)** 에 &quot;사용자 조회 성공했지만 사용자 레코드를 찾을 수 없음&quot;이 포함되어 있으며,  **오류 텍스트(격리 텍스트)** 에 &quot;support.apple.com&quot;이 포함되어 있습니다
-   * **4/26/2021 AEM 또는 07:00:00 후 상태 업데이트(@lastModified)** 
-   * **4/26/2021 PM 또는 그 전** 에 상태 업데이트(@lastModified)01:00:00
+   * **4/26/2021 07** 오전 :00:00시 또는 그 이후의 업데이트 상태(@lastModified)
+   * **4/26/2021 01** 일 또는 그 전:00: 오후 업데이트 상태(@lastModified)
 
 * 격리 목록의 **[!UICONTROL Error text]** 필드에 인바운드 전자 메일 규칙 정보가 있는 Campaign 인스턴스의 경우:
 
    * **오류 텍스트(격리 텍스트)** 에 &quot;Momen_Code10_InvalidRecipient&quot;가 포함되어 있습니다.
    * **이메일 도메인(@domain)** icloud.com 또는  **이메일 도메인(@domain)** me.com 또는  **이메일 도메인(@domain)** 과 mac.com과 같음
-   * **4/26/2021 AEM 또는 07:00:00 후 상태 업데이트(@lastModified)** 
-   * **4/26/2021 PM 또는 그 전** 에 상태 업데이트(@lastModified)01:00:00
+   * **4/26/2021 07** 오전 :00:00시 또는 그 이후의 업데이트 상태(@lastModified)
+   * **4/26/2021 01** 일 또는 그 전:00: 오후 업데이트 상태(@lastModified)
 
 영향을 받는 수신자 목록이 있으면 **[!UICONTROL Valid]** 상태로 설정하여 **[!UICONTROL Database cleanup]** 워크플로에 의해 격리 목록에서 제거하거나 테이블에서 삭제할 수 있습니다.
 
 **관련 항목:**
-* [게재 실패 이해](../../delivery/using/understanding-delivery-failures.md)
-* [반송 메일 조건](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)
+* [게재 실패 이해](understanding-delivery-failures.md)
+* [반송 메일 조건](understanding-delivery-failures.md#bounce-mail-qualification)
