@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 24%
@@ -103,8 +103,8 @@ Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사�
 
 다음을 참조하십시오.
 
-* [게재 기능 시작](../../delivery/using/about-deliverability.md)
+* [게재 기능 시작](about-deliverability.md)
 
-* [게재 만들기 단계](../../delivery/using/steps-about-delivery-creation-steps.md)
+* [게재 만들기 단계](steps-about-delivery-creation-steps.md)
 
 * [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html)
