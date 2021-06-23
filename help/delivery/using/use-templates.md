@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 게재 템플릿을 사용하면 대부분의 일반적인 활동 유형에 대해 준비된 시나리오를 제공하여 효율성을 높일 수 있습니다. 마케터는 템플릿을 사용하여 짧은 시간에 최소한의 사용자 지정으로 새 캠페인을 배포할 수 있습니다.
 
-[이 섹션](../../delivery/using/creating-a-delivery-template.md)에서 게재 템플릿에 대해 자세히 알아보십시오.
+[이 섹션](creating-a-delivery-template.md)에서 게재 템플릿에 대해 자세히 알아보십시오.
 
-## 게재 템플릿 {#gs-templates} 시작
+## 게재 템플릿 시작 {#gs-templates}
 
-[게재 템플릿](../../delivery/using/creating-a-delivery-template.md)을(를) 사용하면 사용자의 요구 사항에 맞는 기술 및 기능 속성 세트를 정의하고 향후 게재에 다시 사용할 수 있습니다. 그런 다음 시간을 절약하고 필요한 경우 게재를 표준화할 수 있습니다.
+[게재 템플릿](creating-a-delivery-template.md)을(를) 사용하면 사용자의 요구 사항에 맞는 기술 및 기능 속성 세트를 정의하고 향후 게재에 다시 사용할 수 있습니다. 그런 다음 시간을 절약하고 필요한 경우 게재를 표준화할 수 있습니다.
 
 Adobe Campaign에서 여러 브랜드를 관리하는 경우, 브랜드당 하나의 하위 도메인이 있는 것이 좋습니다. 예를 들어 은행은 각 지역 기관에 해당하는 여러 하위 도메인을 가질 수 있습니다. 블루뱅크 도메인은 은행@ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com 등이 될 수 있습니다. 하위 도메인당 하나의 게재 템플릿을 사용하면 각 브랜드에 대해 항상 올바른 사전 구성된 매개 변수를 사용할 수 있으므로 오류를 방지하고 시간을 절약할 수 있습니다.
 
@@ -40,7 +40,7 @@ Adobe Campaign에서 여러 브랜드를 관리하는 경우, 브랜드당 하�
 
 Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 수행하십시오.
 
-1. [게재 템플릿](../../delivery/using/creating-a-delivery-template.md)에서 **[!UICONTROL From]** 링크를 클릭합니다. **[!UICONTROL Email header parameters]** 창에서 다음 필드를 입력합니다.
+1. [게재 템플릿](creating-a-delivery-template.md)에서 **[!UICONTROL From]** 링크를 클릭합니다. **[!UICONTROL Email header parameters]** 창에서 다음 필드를 입력합니다.
 
    ![](assets/d_best_practices_email_header.png)
 
