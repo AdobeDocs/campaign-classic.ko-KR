@@ -6,20 +6,20 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 0e0912c68d132919eeac9b91b93960e70011153e
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1179'
 ht-degree: 1%
 
 ---
 
 # RDBMS 특정 권장 사항{#rdbms-specific-recommendations}
 
-유지 관리 계획을 설정하는 데 도움이 되도록 이 섹션에는 Adobe Campaign에서 지원하는 다양한 RDBMS 엔진에 맞는 몇 가지 권장 사항/모범 사례가 나와 있습니다. 하지만 이는 권장 사항일 뿐입니다. 내부 절차와 제한 조건을 유지하면서 필요에 맞게 조정하는 것은 여러분에게 달려 있습니다. 데이터베이스 관리자는 이러한 계획을 작성하고 실행할 책임이 있습니다.
+유지 관리 계획을 설정하는 데 도움이 되도록 이 섹션에는 Adobe Campaign에서 지원하는 다양한 RDBMS 엔진에 맞는 몇 가지 권장 사항과 모범 사례가 나와 있습니다. 하지만 이는 권장 사항일 뿐입니다. 내부 절차와 제한 조건을 유지하면서 필요에 맞게 조정하는 것은 여러분에게 달려 있습니다. 데이터베이스 관리자는 이러한 계획을 작성하고 실행할 책임이 있습니다.
 
 ## PostgreSQL {#postgresql}
 
-### 큰 테이블 {#detecting-large-tables} 검색
+### 큰 테이블 검색 {#detecting-large-tables}
 
 1. 데이터베이스에 다음 보기를 추가할 수 있습니다.
 
@@ -36,63 +36,121 @@ ht-degree: 1%
     ORDER BY 3 DESC, 1, 2 DESC;
    ```
 
-1. 다음 명령을 실행하면 큰 테이블과 인덱스를 찾을 수 있습니다.
+1. 이 쿼리를 실행하여 큰 테이블 및 인덱스를 찾을 수 있습니다.
 
    ```
-   select * from uvSpace;
+   SELECT * FROM uvSpace;
    ```
 
-### 단순 유지 관리 {#simple-maintenance}
+   또는 이 쿼리를 실행하여 모든 인덱스 크기를 전체적으로 확인할 수 있습니다.
 
-PostgreSQL에서 사용할 수 있는 일반적인 명령은 **진공 full** 및 **reindex**&#x200B;입니다.
+   ```
+   SELECT
+      tablename,
+      sum(size_mbytes) AS "sizeMB_all",
+      (
+         SELECT sum(size_mbytes)
+         FROM uvspace
+         AS uv2
+         WHERE
+            INDEXNAME IS NULL
+            AND uv1.tablename = uv2.tablename
+      ) AS "sizeMB_data",
+      (
+         SELECT sum(size_mbytes)
+         FROM uvspace 
+         AS uv2 
+         WHERE
+            INDEXNAME IS NOT NULL
+            AND uv1.tablename = uv2.tablename
+      ) AS "sizeMB_index",
+      (
+         SELECT ROW_COUNT
+         FROM uvspace
+         AS uv2
+         WHERE
+            INDEXNAME IS NULL
+            AND uv1.tablename = uv2.tablename
+      ) AS ROWS FROM uvspace AS uv1
+      GROUP BY tablename
+      ORDER BY 2 DESC
+   ```
 
-다음은 이러한 두 명령을 사용하여 정기적으로 실행되는 SQL 유지 관리 계획의 일반적인 예입니다.
+### 간편한 유지 관리 {#simple-maintenance}
+
+PostgreSQL에서는 다음과 같은 일반적인 키워드를 사용할 수 있습니다.
+
+* 진공(전체, 분석, 세부 정보)
+* 다시 색인화
+
+VACUUM 작업을 실행하고 분석 및 시간을 수행하려면 다음 구문을 사용할 수 있습니다.
 
 ```
-vacuum full nmsdelivery;
- reindex table nmsdelivery;
- 
- vacuum full nmsdeliverystat;
- reindex table nmsdeliverystat;
- 
- vacuum full xtkworkflow;
- reindex table xtkworkflow;
- 
- vacuum full xtkworkflowevent;
- reindex table xtkworkflowevent;
- 
- vacuum full xtkworkflowjob;
- reindex table xtkworkflowjob;
- 
- vacuum full xtkworkflowlog;
- reindex table xtkworkflowlog;
- 
- vacuum full xtkworkflowtask;
- reindex table xtkworkflowtask;
- 
- vacuum full xtkjoblog;
- reindex table xtkjoblog;
- 
- vacuum full xtkjob;
- reindex table xtkjob;
- 
- vacuum full nmsaddress;
- reindex table nmsaddress;
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) <table>;
+```
 
- vacuum full nmsdeliverypart;
- reindex table nmsdeliverypart;
- 
- vacuum full nmsmirrorpageinfo;
- reindex table nmsmirrorpageinfo;
+ANALYZE 문을 생략하지 않는 것이 좋습니다. 그렇지 않으면, 진공 테이블은 통계가 없는 상태로 남게 됩니다. 이유는 새 테이블이 만들어진 후 이전 테이블이 삭제되기 때문입니다. 따라서 테이블의 OID(객체 ID)가 변경되지만 통계가 계산되지 않습니다. 따라서 즉시 성능 문제가 발생합니다.
+
+다음은 정기적으로 실행되는 SQL 유지 관리 계획의 일반적인 예입니다.
+
+```
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsdelivery;
+REINDEX TABLE nmsdelivery;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsdeliverystat;
+REINDEX TABLE nmsdeliverystat;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflow;
+REINDEX TABLE xtkworkflow;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowevent;
+REINDEX TABLE xtkworkflowevent;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowjob;
+REINDEX TABLE xtkworkflowjob;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowlog;
+REINDEX TABLE xtkworkflowlog;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowtask;
+REINDEX TABLE xtkworkflowtask;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkjoblog;
+REINDEX TABLE xtkjoblog;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkjob;
+REINDEX TABLE xtkjob;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsaddress;
+REINDEX TABLE nmsaddress;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsdeliverypart;
+REINDEX TABLE nmsdeliverypart;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
+REINDEX TABLE nmsmirrorpageinfo;
 ```
 
 >[!NOTE]
 >
->* Adobe은 더 작은 표로 시작하는 것이 좋습니다.큰 테이블에서 프로세스가 실패하는 경우(실패 위험이 가장 높은 경우), 유지 관리의 적어도 일부가 완료된 것입니다.
->* Adobe 재명령을 사용하여 데이터 모델에 해당하는 테이블을 추가하여 상당한 업데이트를 적용할 수 있습니다. 일별 데이터 복제 흐름이 큰 경우 **NmsRecipient**&#x200B;에 해당할 수 있습니다.
->* **진공** 및 **다시 색인화** 명령은 테이블을 잠급니다. 이 명령은 유지 관리가 수행되는 동안 일부 프로세스를 일시 중지합니다.
->* 매우 큰 테이블(일반적으로 5Gb 이상)의 경우 **진공 전체**&#x200B;는 매우 비효율적이고 오랜 시간이 걸릴 수 있습니다. Adobe은 **YyyNmsBroadLogXxx** 테이블에 사용하지 않는 것이 좋습니다.
->* 이 유지 관리 작업은 **[!UICONTROL SQL]** 활동을 사용하여 Adobe Campaign 워크플로우에서 구현할 수 있습니다(자세한 내용은 [이 섹션](../../workflow/using/architecture.md) 참조). 백업 윈도우와 충돌하지 않는 낮은 작업 시간에 대한 유지 관리를 예약해야 합니다.
+>* Adobe은 더 작은 표로 시작하는 것이 좋습니다.이 방법으로 큰 테이블에서 프로세스가 실패하는 경우(실패 위험이 가장 높은 경우) 유지 관리의 적어도 일부가 완료되었습니다.
+>* Adobe은 데이터 모델에 해당하는 테이블을 추가하여 중요한 업데이트를 적용할 수 있습니다. 일별 데이터 복제 흐름이 큰 경우 **NmsRecipient**&#x200B;에 해당할 수 있습니다.
+>* VACUUM 및 REINDEX 문은 테이블을 잠가 유지 관리가 수행되는 동안 일부 프로세스를 일시 중지합니다.
+>* 매우 큰 테이블(일반적으로 5Gb 이상)의 경우, INVACUM FULL 문은 매우 비효율적이고 오랜 시간이 걸릴 수 있습니다. Adobe은 **YyyNmsBroadLogXxx** 테이블에 사용하지 않는 것이 좋습니다.
+>* 이 유지 관리 작업은 **[!UICONTROL SQL]** 활동을 사용하여 Adobe Campaign 워크플로우에서 구현할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/architecture.md)을 참조하십시오. 백업 윈도우와 충돌하지 않는 낮은 작업 시간에 대한 유지 관리를 예약해야 합니다.
 
 >
 
@@ -100,7 +158,7 @@ vacuum full nmsdelivery;
 
 ### 데이터베이스 다시 구축 {#rebuilding-a-database}
 
-PostgreSQL은 **진공 full**&#x200B;이 테이블을 잠근 상태이기 때문에 온라인 테이블 재작성을 수행하는 쉬운 방법을 제공하지 않으므로, 일반 생산이 방지됩니다. 즉, 테이블을 사용하지 않을 때는 유지 관리를 수행해야 합니다. 다음 중 하나를 수행할 수 있습니다.
+PostgreSQL은 INVACUUM FULL 문이 테이블을 잠근 상태이므로 온라인 테이블 재작성을 수행하는 쉬운 방법을 제공하지 않으므로, 일반 생산이 방지됩니다. 즉, 테이블을 사용하지 않을 때는 유지 관리를 수행해야 합니다. 다음 중 하나를 수행할 수 있습니다.
 
 * Adobe Campaign 플랫폼이 중지되면 유지 관리를 수행합니다.
 * 다시 빌드하고 있는 표에 쓸 수 있는 다양한 Adobe Campaign 하위 서비스를 중지합니다(**nlserver stop wfserver instance_name**).
@@ -379,7 +437,7 @@ function sqlGetMemo(strSql)
 
 1. 드롭다운 목록에서 **[!UICONTROL Database Check Integrity]** 작업을 실행할 데이터베이스를 선택합니다.
 1. 데이터베이스를 선택하고 **[!UICONTROL OK]** 을 클릭한 다음 **[!UICONTROL Next]** 를 클릭합니다.
-1. 데이터베이스에 할당된 최대 크기를 구성한 다음 **[!UICONTROL Next]** 을 클릭합니다.
+1. 데이터베이스에 할당된 최대 크기를 구성한 다음 **[!UICONTROL Next]**&#x200B;을 클릭합니다.
 
    >[!NOTE]
    >
@@ -389,7 +447,7 @@ function sqlGetMemo(strSql)
 
    * 인덱스 단편화 비율이 10%와 40% 사이인 경우 재구성이 권장됩니다.
 
-      재구성할 데이터베이스 및 개체(테이블 또는 보기)를 선택한 다음 **[!UICONTROL Next]** 를 클릭합니다.
+      재구성할 데이터베이스 및 개체(테이블 또는 뷰)를 선택한 다음 **[!UICONTROL Next]**&#x200B;을 클릭합니다.
 
       >[!NOTE]
       >
@@ -397,13 +455,13 @@ function sqlGetMemo(strSql)
 
    * 인덱스 단편화 비율이 40%보다 높은 경우 다시 작성하는 것이 좋습니다.
 
-      인덱스 다시 작성 작업에 적용할 옵션을 선택한 다음 **[!UICONTROL Next]** 을 클릭합니다.
+      인덱스 다시 작성 작업에 적용할 옵션을 선택한 다음 **[!UICONTROL Next]**&#x200B;을 클릭합니다.
 
       >[!NOTE]
       >
-      >인덱스 재구축 프로세스는 프로세서 사용 측면에서 더욱 제한적이며 데이터베이스 리소스를 잠급니다. 다시 빌드하는 동안 인덱스를 사용할 수 있도록 하려면 **[!UICONTROL Keep index online while reindexing]** 옵션을 확인 표시합니다.
+      >인덱스 재구축 프로세스는 프로세서 사용 측면에서 더욱 제한적이며 데이터베이스 리소스를 잠급니다. 다시 작성하는 동안 인덱스를 사용할 수 있도록 하려면 **[!UICONTROL Keep index online while reindexing]** 옵션을 선택합니다.
 
-1. 활동 보고서에 표시할 옵션을 선택한 다음 **[!UICONTROL Next]** 를 클릭합니다.
+1. 활동 보고서에 표시할 옵션을 선택한 다음 **[!UICONTROL Next]** 을 클릭합니다.
 1. 유지 관리 계획에 대해 구성된 작업 목록을 확인한 다음 **[!UICONTROL Finish]** 을 클릭합니다.
 
    유지 관리 계획 및 여러 단계의 상태에 대한 요약이 표시됩니다.
@@ -428,6 +486,6 @@ function sqlGetMemo(strSql)
 
 이 옵션은 작업 테이블(예: 워크플로우를 실행하는 동안 만든 테이블)을 다른 데이터베이스에서 만들려면 사용할 수 있습니다.
 
-옵션을 &quot;tempdb.dbo&quot;로 설정하면 Microsoft SQL Server의 기본 임시 데이터베이스에 작업 테이블이 만들어집니다. 데이터베이스 관리자가 tempdb 데이터베이스에 대한 쓰기 액세스를 허용해야 합니다.
+옵션을 &quot;tempdb.dbo&quot;로 설정하면 작업 테이블이 Microsoft SQL Server의 기본 임시 데이터베이스에 생성됩니다. 데이터베이스 관리자가 tempdb 데이터베이스에 대한 쓰기 액세스를 허용해야 합니다.
 
-이 옵션을 설정하면 Adobe Campaign에 구성된 모든 Microsoft SQL Server 데이터베이스(기본 데이터베이스 및 외부 계정)에서 사용됩니다. 두 외부 계정이 동일한 서버를 공유하는 경우 tempdb가 고유하므로 충돌이 발생할 수 있습니다. 동일한 방법으로 두 Campaign 인스턴스가 동일한 MSSQL 서버를 사용하는 경우 동일한 tempdb를 사용할 경우 충돌이 발생할 수 있습니다.
+이 옵션을 설정하면 Adobe Campaign에 구성된 모든 Microsoft SQL Server 데이터베이스(기본 데이터베이스 및 외부 계정)에서 사용됩니다. 두 외부 계정이 동일한 서버를 공유하는 경우 tempdb가 고유하므로 충돌이 발생할 수 있습니다. 동일한 방법으로 두 Campaign 인스턴스가 동일한 MSSQL 서버를 사용하는 경우 동일한 tempdb를 사용하는 경우 충돌이 발생할 수 있습니다.
