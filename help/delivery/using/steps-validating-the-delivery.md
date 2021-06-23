@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 5%
@@ -23,7 +23,7 @@ ht-degree: 5%
 
    분석 중에 적용된 규칙은 [이 섹션](#validation-process-with-typologies)에 나와 있습니다. 사용 가능한 유효성 검사 모드는 [승인 모드 변경](#changing-the-approval-mode) 섹션에 자세히 설명되어 있습니다.
 
-1. **증명 보내기**:이 단계에서는 컨텐츠, URL, 개인화 등을 제어할 수 있습니다. [증명 보내기](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) 및 [특정 증명 대상 정의](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)에서 자세히 알아보십시오.
+1. **증명 보내기**:이 단계에서는 컨텐츠, URL, 개인화 등을 제어할 수 있습니다. [증명 보내기](steps-validating-the-delivery.md#sending-a-proof) 및 [특정 증명 대상 정의](steps-defining-the-target-population.md#defining-a-specific-proof-target)에서 자세히 알아보십시오.
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 분석은 대상 모집단을 계산하고 게재 콘텐츠가 준비되는 단계입니다. 완료되면 게재를 보낼 수 있습니다.
 
-### 분석 {#launching-the-analysis} 시작
+### 분석 시작 {#launching-the-analysis}
 
 1. 게재 분석을 시작하려면 **[!UICONTROL Send]** 을 클릭합니다.
 1. **[!UICONTROL Deliver as soon as possible]**&#x200B;을(를) 선택합니다.
@@ -48,7 +48,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >분석 중에 사용된 유효성 검사 규칙은 [유형화가 포함된 유효성 검사 프로세스에 설명되어 있습니다](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+   >분석 중에 사용된 유효성 검사 규칙은 [유형화가 포함된 유효성 검사 프로세스에 설명되어 있습니다](steps-validating-the-delivery.md#validation-process-with-typologies).
 
 1. 언제든지 **[!UICONTROL Stop]** 을 클릭하여 분석을 중지할 수 있습니다.
 
@@ -92,7 +92,7 @@ ht-degree: 5%
 * **[!UICONTROL Label and code of the delivery]** :이 섹션의 옵션은 게재 분석 단계 동안 이러한 필드의 값을 계산하는 데 사용됩니다. **[!UICONTROL Compute the execution folder during the delivery analysis]** 필드는 분석 단계 동안 이 게재 작업을 포함할 폴더의 이름을 계산합니다.
 * **[!UICONTROL Approval mode]** :이 필드를 사용하면 분석이 완료되면 수동 또는 자동 배달을 정의할 수 있습니다. 검증 모드는 [승인 모드 변경](#changing-the-approval-mode) 섹션에 나와 있습니다.
 * **[!UICONTROL Prepare the delivery parts in the database]** :이 옵션을 사용하면 게재 분석 성능을 향상시킬 수 있습니다. 자세한 내용은 [이 섹션](#improving-delivery-analysis)을 참조하십시오.
-* **[!UICONTROL Prepare the personalization data with a workflow]** :이 옵션을 사용하면 자동 워크플로우에서 게재에 포함된 개인화 데이터를 준비할 수 있으므로 개인화 실행을 위한 상당한 성능 향상을 달성할 수 있습니다. 자세한 내용은 [개인화 최적화](../../delivery/using/personalization-fields.md#optimizing-personalization)를 참조하십시오.
+* **[!UICONTROL Prepare the personalization data with a workflow]** :이 옵션을 사용하면 자동 워크플로우에서 게재에 포함된 개인화 데이터를 준비할 수 있으므로 개인화 실행을 위한 상당한 성능 향상을 달성할 수 있습니다. 자세한 내용은 [개인화 최적화](personalization-fields.md#optimizing-personalization)를 참조하십시오.
 * **[!UICONTROL Start job in a detached process]** :이 옵션을 사용하면 별도의 프로세스에서 게재 분석을 시작할 수 있습니다. 분석 함수는 기본적으로 Adobe Campaign 애플리케이션 서버 프로세스(웹 nlserver)를 사용합니다. 이 옵션을 선택하면 애플리케이션 서버 장애 시에도 분석이 완료됩니다.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** :이 옵션은 분석 단계 동안 게재 저널에 SQL 쿼리 로그를 추가합니다.
 * **[!UICONTROL Ignore personalization scripts during sending]** :이 옵션을 사용하면 HTML 컨텐츠에 있는 JavaScript 지시문의 해석을 무시할 수 있습니다. 전달된 컨텐츠에 그대로 표시됩니다. 이러한 지시문은 **&lt;%=** 태그와 함께 도입됩니다.
@@ -109,7 +109,7 @@ ht-degree: 5%
 * 외부 파일에서 만든 모집단은 타겟팅할 수 없습니다. 단일 게재의 경우 **[!UICONTROL Email parameters]**&#x200B;에서 **[!UICONTROL To]** 링크를 클릭하고 **[!UICONTROL Defined in the database]** 옵션이 선택되어 있는지 확인합니다. 워크플로우에 사용되는 게재의 경우 수신자가 **[!UICONTROL Delivery]** 탭에서 **[!UICONTROL Specified by the inbound event(s)]**&#x200B;인지 확인합니다.
 * PostgreSQL 데이터베이스를 사용하고 있어야 합니다.
 
-### 분석 우선 순위 {#analysis-priority-} 구성
+### 분석 우선 순위 구성 {#analysis-priority-}
 
 게재가 캠페인의 일부인 경우 **[!UICONTROL Advanced]** 탭에서는 추가 옵션을 제공합니다. 이렇게 하면 동일한 캠페인에서 게재에 대한 처리 순서를 구성할 수 있습니다.
 
@@ -131,8 +131,8 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->* 사용 가능한 유효성 검사 모드는 [승인 모드 변경](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode)에 자세히 설명되어 있습니다.
->* 증명 타겟의 구성은 [특정 증명 대상을 정의합니다](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)에 설명되어 있습니다.
+>* 사용 가능한 유효성 검사 모드는 [승인 모드 변경](steps-validating-the-delivery.md#changing-the-approval-mode)에 자세히 설명되어 있습니다.
+>* 증명 타겟의 구성은 [특정 증명 대상을 정의합니다](steps-defining-the-target-population.md#defining-a-specific-proof-target)에 설명되어 있습니다.
 
 >
 
@@ -140,15 +140,15 @@ ht-degree: 5%
 
 증명을 보내려면 아래 단계를 따르십시오.
 
-1. 증명 대상이 [특정 증명 대상 정의](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)에 설명된 대로 구성되었는지 확인합니다.
+1. 증명 대상이 [특정 증명 대상 정의](steps-defining-the-target-population.md#defining-a-specific-proof-target)에 설명된 대로 구성되었는지 확인합니다.
 1. 게재 마법사의 맨 위 막대에서 **[!UICONTROL Send a proof]** 을 클릭합니다.
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
 
-1. 메시지 분석을 시작합니다. [게재 분석](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하십시오.
-1. 이제 게재를 보낼 수 있습니다([게재 보내기](../../delivery/using/steps-sending-the-delivery.md) 참조).
+1. 메시지 분석을 시작합니다. [게재 분석](steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하십시오.
+1. 이제 게재를 보낼 수 있습니다([게재 보내기](steps-sending-the-delivery.md) 참조).
 
-   게재가 전송되면 증명이 게재 목록에 표시되고 자동으로 만들어지고 번호가 매겨집니다. 콘텐츠 및 속성에 액세스하려는 경우 편집할 수 있습니다. 자세한 정보는 이 [페이지](../../delivery/using/about-delivery-monitoring.md)를 참조하십시오.
+   게재가 전송되면 증명이 게재 목록에 표시되고 자동으로 만들어지고 번호가 매겨집니다. 콘텐츠 및 속성에 액세스하려는 경우 편집할 수 있습니다. 자세한 정보는 이 [페이지](about-delivery-monitoring.md)를 참조하십시오.
 
    ![](assets/s_ncs_user_delivery_validation_cycle_03a.png)
 
@@ -173,11 +173,11 @@ ht-degree: 5%
 다음 옵션을 사용할 수 있습니다.
 
 * 첫 번째 옵션을 사용하면 증명 double을 유지할 수 있습니다.
-* 다음 두 옵션을 모두 사용하면 중인 수신자와 주소를 격리할 차단 목록 수 있습니다. [제외 설정 사용자 지정](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings)에서 기본 대상에 대해 이러한 옵션에 대한 설명을 참조하십시오. 이러한 주소는 기본적으로 제외되는 게재 타겟과 달리, 증명 대상에 대해서는 기본적으로 유지됩니다.
+* 다음 두 옵션을 모두 사용하면 중인 수신자와 주소를 격리할 차단 목록 수 있습니다. [제외 설정 사용자 지정](steps-defining-the-target-population.md#customizing-exclusion-settings)에서 기본 대상에 대해 이러한 옵션에 대한 설명을 참조하십시오. 이러한 주소는 기본적으로 제외되는 게재 타겟과 달리, 증명 대상에 대해서는 기본적으로 유지됩니다.
 * **[!UICONTROL Keep the delivery code for the proof]** 옵션을 사용하면 증표에 게재에 대해 정의된 배달 코드와 동일한 배달 코드를 제공할 수 있습니다. 이 코드는 게재 마법사의 첫 번째 단계에서 지정됩니다.
 * 기본적으로 증명의 제목에는 &#39;Proof #&#39; 접두사가 붙습니다. 여기서 #은 증명의 번호입니다. **[!UICONTROL Label prefix]** 필드에서 이 접두사를 변경할 수 있습니다.
 
-## {#validation-process-with-typologies} 유형화를 사용한 유효성 검사 프로세스
+## 유형화를 사용한 유효성 검사 프로세스 {#validation-process-with-typologies}
 
 메시지를 보내기 전에 캠페인을 분석하여 해당 콘텐츠와 구성을 승인해야 합니다. 분석 단계 동안 적용된 확인 규칙은 **유형화**&#x200B;에 정의됩니다. 기본적으로 이메일의 경우 분석은 다음 사항을 다룹니다.
 
@@ -209,7 +209,7 @@ ht-degree: 5%
 >
 >**[!UICONTROL Arbitration]** 유형 유형화는 판매 압력 관리 프레임워크에서 사용됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/about-marketing-resource-management.md)을 참조하십시오.
 
-## 승인 모드 {#changing-the-approval-mode} 변경
+## 승인 모드 변경 {#changing-the-approval-mode}
 
 게재 속성의 **[!UICONTROL Analysis]** 탭에서는 유효성 검사 모드를 선택할 수 있습니다. 분석 중에 경고가 생성된 경우(예: 특정 문자가 게재의 주체에 입력되는 경우 등) 게재를 구성하여 여전히 실행해야 하는지 여부를 정의할 수 있습니다. 기본적으로 사용자는 분석 단계가 끝날 때 메시지 전송을 확인해야 합니다.**수동** 유효성 검사입니다.
 
