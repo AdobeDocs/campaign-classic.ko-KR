@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 1%
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 # 유효성 검사{#validating}
 
-게재 유효성 검사 시 전반적 개념이 [이 섹션](../../delivery/using/steps-validating-the-delivery.md)에 표시됩니다.
+게재 유효성 검사 시 전반적 개념이 [이 섹션](steps-validating-the-delivery.md)에 표시됩니다.
 
-게재 분석 중에 DM 게재의 출력 파일이 생성됩니다. 파일의 컨텐츠는 선택한 출력 열에 따라 다릅니다( [추출 파일](../../delivery/using/defining-the-direct-mail-content.md#extraction-file) 참조).
+게재 분석 중에 DM 게재의 출력 파일이 생성됩니다. 파일의 컨텐츠는 선택한 출력 열에 따라 다릅니다( [추출 파일](defining-the-direct-mail-content.md#extraction-file) 참조).
 
 >[!NOTE]
 >
->분석 단계는 [게재 분석](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)에 자세히 설명되어 있습니다.
+>분석 단계는 [게재 분석](steps-validating-the-delivery.md#analyzing-the-delivery)에 자세히 설명되어 있습니다.
 
 분석 단계 동안 파일이 생성되지만 수신자(즉, 게재 로그)에 대한 정보는 업데이트되지 않습니다. 따라서 위험 요소를 실행하지 않고 이 작업을 취소할 수 있습니다.
 
