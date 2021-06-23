@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 8%
@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # 받은 편지함 렌더링{#inbox-rendering}
 
-## 받은 편지함 렌더링 정보 {#about-inbox-rendering}
+## 받은 편지함 렌더링 기본 정보 {#about-inbox-rendering}
 
 **보내기** 단추를 누르기 전에 메시지가 다양한 웹 클라이언트, 웹 메일 및 장치에서 수신자에게 최적의 방식으로 표시되는지 확인하십시오.
 
@@ -27,9 +27,9 @@ Adobe Campaign의 **받은 편지함 렌더링에 사용할 수 있는 모바일
 
 >[!NOTE]
 >
->수신함 렌더링은 게재의 개인화를 테스트하는 데 필요하지 않습니다. **[!UICONTROL Preview]** 및 [증명](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)과 같은 Adobe Campaign 도구를 사용하여 개인화를 확인할 수 있습니다.
+>수신함 렌더링은 게재의 개인화를 테스트하는 데 필요하지 않습니다. **[!UICONTROL Preview]** 및 [증명](steps-validating-the-delivery.md#sending-a-proof)과 같은 Adobe Campaign 도구를 사용하여 개인화를 확인할 수 있습니다.
 
-## 받은 편지함 렌더링 활성화 {#activating-inbox-rendering}
+## 받은 편지함 렌더링 활성화 {#activating-inbox-rendering}
 
 호스팅 및 하이브리드 클라이언트의 경우, 받은 편지함 렌더링은 Adobe 기술 지원 및 컨설턴트에 의해 인스턴스에 구성됩니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
 
@@ -97,14 +97,14 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
 전자 메일 게재를 만들고 타겟팅된 모집단과 해당 컨텐츠까지 정의했으면 아래 단계를 따르십시오.
 
-게재 만들기, 디자인 및 타겟팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-email-channel.md)을 참조하십시오.
+게재 만들기, 디자인 및 타겟팅에 대한 자세한 내용은 [이 섹션](about-email-channel.md)을 참조하십시오.
 
 1. 게재 상단 막대에서 **[!UICONTROL Inbox rendering]** 버튼을 클릭합니다.
 1. **[!UICONTROL Analyze]** 을 선택하여 캡처 프로세스를 시작합니다.
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   증명을 보냅니다. 전자 메일을 보낸 후 몇 분 후에 렌더링 미리 보기에 액세스할 수 있습니다. 증명 보내기에 대한 자세한 내용은 [이 섹션](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)을 참조하십시오.
+   증명을 보냅니다. 전자 메일을 보낸 후 몇 분 후에 렌더링 미리 보기에 액세스할 수 있습니다. 증명 보내기에 대한 자세한 내용은 [이 섹션](steps-validating-the-delivery.md#sending-a-proof)을 참조하십시오.
 
 1. 전송 후 전송 목록에 증명이 나타납니다. 두 번 클릭합니다.
 
