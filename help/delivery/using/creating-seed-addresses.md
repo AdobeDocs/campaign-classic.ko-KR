@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 1%
@@ -58,4 +58,4 @@ ht-degree: 1%
 
    ![](assets/s_ncs_user_seedlist_folder_is_model.png)
 
-   이제 이 폴더에 저장된 주소를 주소 템플릿으로 사용할 수 있습니다. 게재 또는 캠페인으로 가져와서 관련된 게재 및 캠페인의 특정 요구 사항에 따라 조정할 수 있습니다([시드 주소 추가](../../delivery/using/adding-seed-addresses.md) 참조).
+   이제 이 폴더에 저장된 주소를 주소 템플릿으로 사용할 수 있습니다. 게재 또는 캠페인으로 가져와서 관련된 게재 및 캠페인의 특정 요구 사항에 따라 조정할 수 있습니다([시드 주소 추가](adding-seed-addresses.md) 참조).
