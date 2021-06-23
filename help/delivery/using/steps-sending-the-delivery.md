@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 >
 >게재 소유자만 게재를 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 게재를 시작할 수 있으려면 **[!UICONTROL Delivery start:]** 필드에 검토자로 추가해야 합니다. 자세한 정보는 [이 섹션](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)을 참조하십시오.
 
-## 추가 매개 변수 {#delivery-additiona-parameters} 전달
+## 게재 추가 매개 변수 {#delivery-additiona-parameters}
 
 게재를 보내기 전에 **[!UICONTROL Delivery]** 탭을 통해 게재 속성에서 전송 매개 변수를 정의할 수 있습니다.
 
@@ -41,13 +41,13 @@ ht-degree: 5%
    >
    >mta를 호출하지 않도록 중간 소싱을 사용하여 을 설치할 때는 이 옵션을 사용하지 않는 것이 좋습니다. SMTP 서버 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/configure-delivery-settings.md)을 참조하십시오.
 
-* **[!UICONTROL Email BCC]**:이 옵션을 사용하면 메시지 타겟에 숨은 참조 이메일 주소를 추가하면 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/sending-messages.md#archiving-emails)을 참조하십시오.
+* **[!UICONTROL Email BCC]**:이 옵션을 사용하면 메시지 타겟에 숨은 참조 이메일 주소를 추가하면 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](sending-messages.md#archiving-emails)을 참조하십시오.
 
-## 배달 확인 {#confirming-delivery}
+## 게재 확인 {#confirming-delivery}
 
 게재를 구성하고 전송할 준비가 되면 게재 분석을 실행했는지 확인하십시오.
 
-이렇게 하려면 **[!UICONTROL Send]** 을 클릭하고 원하는 작업을 선택한 다음 **[!UICONTROL Analyze]** 를 클릭합니다. 자세한 내용은 [분석 시작](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하십시오.
+이렇게 하려면 **[!UICONTROL Send]** 을 클릭하고 원하는 작업을 선택한 다음 **[!UICONTROL Analyze]** 를 클릭합니다. 자세한 내용은 [분석 시작](steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하십시오.
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -57,11 +57,11 @@ ht-degree: 5%
 
 메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오.
 
-* [게재 모니터링](../../delivery/using/about-delivery-monitoring.md)
-* [게재 실패 이해](../../delivery/using/understanding-delivery-failures.md)
-* [메시지 추적 정보](../../delivery/using/about-message-tracking.md)
+* [게재 모니터링](about-delivery-monitoring.md)
+* [게재 실패 이해](understanding-delivery-failures.md)
+* [메시지 추적 정보](about-message-tracking.md)
 
-## 배달 전송 예약 {#scheduling-the-delivery-sending}
+## 게재 전송 예약 {#scheduling-the-delivery-sending}
 
 게재 예약이나 판매 압력을 관리하고 모집단을 지나치게 모집하지 않기 위해 메시지 게재를 연기할 수 있습니다.
 
@@ -131,15 +131,15 @@ ht-degree: 5%
       아래 예에서 첫 번째 물결은 게재에 포함된 총 메시지 수의 25%를 나타내며 즉시 시작됩니다. 다음 두 파도는 게재를 완료하고 6시간 간격으로 시작됩니다.
 
       ![](assets/s_ncs_user_wizard_waves_create.png)
-   특정 유형화 규칙인 **[!UICONTROL Wave scheduling check]**&#x200B;은(는) 게재 유효성 제한 전에 마지막 물결이 계획되도록 합니다. 게재 속성의 **[!UICONTROL Typology]** 탭에 구성된 캠페인 유형화와 해당 규칙은 [유형화를 사용하는 유효성 검사 프로세스에 표시됩니다](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+   특정 유형화 규칙인 **[!UICONTROL Wave scheduling check]**&#x200B;은(는) 게재 유효성 제한 전에 마지막 물결이 계획되도록 합니다. 게재 속성의 **[!UICONTROL Typology]** 탭에 구성된 캠페인 유형화와 해당 규칙은 [유형화를 사용하는 유효성 검사 프로세스에 표시됩니다](steps-validating-the-delivery.md#validation-process-with-typologies).
 
    >[!IMPORTANT]
    >
    >마지막 웨이브가 **[!UICONTROL Validity]** 탭에 정의된 배달 기한을 초과하지 않도록 합니다. 그렇지 않으면 일부 메시지가 전송되지 않을 수 있습니다.
    >
-   >마지막 웨이브를 구성할 때 다시 시도할 시간을 충분히 허용해야 합니다. [이 섹션](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)을 참조하십시오.
+   >마지막 웨이브를 구성할 때 다시 시도할 시간을 충분히 허용해야 합니다. [이 섹션](steps-sending-the-delivery.md#configuring-retries)을 참조하십시오.
 
-1. 전송을 모니터링하려면 게재 로그로 이동합니다. [이 페이지](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)를 참조하십시오.
+1. 전송을 모니터링하려면 게재 로그로 이동합니다. [이 페이지](delivery-dashboard.md#delivery-logs-and-history)를 참조하십시오.
 
    이미 처리된 웨이브(**[!UICONTROL Sent]** 상태)로 전송된 게재와 나머지 웨이브(**[!UICONTROL Pending]** 상태)에서 전송할 게재를 볼 수 있습니다.
 
@@ -167,11 +167,11 @@ ht-degree: 5%
 
 ## 다시 시도 구성 {#configuring-retries}
 
-**Soft** 또는 **Ignored** 오류로 인해 일시적으로 게재되지 않은 메시지는 자동 다시 시도할 수 있습니다. 게재 실패 유형 및 이유는 이 [섹션](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)에 나와 있습니다.
+**Soft** 또는 **Ignored** 오류로 인해 일시적으로 게재되지 않은 메시지는 자동 다시 시도할 수 있습니다. 게재 실패 유형 및 이유는 이 [섹션](understanding-delivery-failures.md#delivery-failure-types-and-reasons)에 나와 있습니다.
 
 >[!IMPORTANT]
 >
->호스팅 또는 하이브리드 설치의 경우 [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우 게재의 다시 시도 설정은 Campaign에서 더 이상 사용되지 않습니다. 소프트 바운스 다시 시도 및 그 사이의 시간은 메시지의 이메일 도메인에서 돌아오는 바운스 응답의 유형과 심각도를 기반으로 Enhanced MTA에 의해 결정됩니다.
+>호스팅 또는 하이브리드 설치의 경우 [Enhanced MTA](sending-with-enhanced-mta.md)로 업그레이드한 경우 게재의 다시 시도 설정은 Campaign에서 더 이상 사용되지 않습니다. 소프트 바운스 다시 시도 및 그 사이의 시간은 메시지의 이메일 도메인에서 돌아오는 바운스 응답의 유형과 심각도를 기반으로 Enhanced MTA에 의해 결정됩니다.
 
 기존 Campaign MTA를 사용하는 온-프레미스 설치 및 호스팅/하이브리드 설치의 경우 게재 매개 변수에 대한 **[!UICONTROL Delivery]** 탭의 중앙 섹션은 게재 후 하루 동안 몇 번 다시 시도해야 하는지, 다시 시도 사이의 최소 지연을 나타냅니다.
 
@@ -191,7 +191,7 @@ ht-degree: 5%
 
    >[!IMPORTANT]
    >
-   >호스팅 또는 하이브리드 설치의 경우 [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) 로 업그레이드한 경우 Campaign 이메일 게재의 **[!UICONTROL Delivery duration]** 설정은 **3.5일 이하**&#x200B;로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다.
+   >호스팅 또는 하이브리드 설치의 경우 [Enhanced MTA](sending-with-enhanced-mta.md) 로 업그레이드한 경우 Campaign 이메일 게재의 **[!UICONTROL Delivery duration]** 설정은 **3.5일 이하**&#x200B;로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다.
 
 * **리소스의 유효성 제한**:필드 **[!UICONTROL Validity limit]** 는 주로 미러 페이지와 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하기 위함).
 
