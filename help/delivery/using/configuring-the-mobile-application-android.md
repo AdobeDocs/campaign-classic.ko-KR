@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 3%
@@ -58,7 +58,7 @@ Android의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
 
    * **maxGCMConnectPerChild**:각 하위 서버에서 시작한 FCM에 대한 병렬 HTTP 요청의 최대 제한(기본적으로 8개).
 
-## Android 서비스 {#configuring-android-service} 구성
+## Android 서비스 구성 {#configuring-android-service}
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 서비스를 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=en#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
 
@@ -79,9 +79,9 @@ Android의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
 
    ![](assets/nmac_service_2.png)
 
-1. Android 애플리케이션을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/configuring-the-mobile-application-android.md#creating-android-app)을 참조하십시오.
+1. Android 애플리케이션을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](configuring-the-mobile-application-android.md#creating-android-app)을 참조하십시오.
 
-## Android 모바일 애플리케이션 {#creating-android-app} 만들기
+## Android 모바일 애플리케이션 만들기 {#creating-android-app}
 
 이제 서비스를 만든 후 Android 애플리케이션을 만들어야 합니다.
 
@@ -93,7 +93,7 @@ Android의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
 
    ![](assets/nmac_android.png)
 
-1. 동일한 **[!UICONTROL Integration key]**&#x200B;이 Adobe Campaign과 SDK를 통해 애플리케이션 코드에 정의되어 있는지 확인합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)을 참조하십시오.
+1. 동일한 **[!UICONTROL Integration key]**&#x200B;이 Adobe Campaign과 SDK를 통해 애플리케이션 코드에 정의되어 있는지 확인합니다. 이 작업에 대한 자세한 정보는 [이 섹션](integrating-campaign-sdk-into-the-mobile-application.md)을 참조하십시오.
 
    >[!NOTE]
    >
@@ -107,12 +107,12 @@ Android의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
 
 기본적으로 Adobe Campaign은 **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** 테이블의 **[!UICONTROL User identifier]** (@userKey) 필드에 키를 저장합니다. 이 키를 사용하면 구독을 수신자에게 연결할 수 있습니다. 추가 데이터(예: 복잡한 조정 키)를 수집하려면 다음 구성을 적용해야 합니다.
 
-### API 버전{#select-api-version} 을 선택합니다.
+### API 버전을 선택합니다{#select-api-version}
 
 서비스 및 새 모바일 애플리케이션을 만든 후 선택한 API 버전에 따라 모바일 애플리케이션을 구성해야 합니다.
 
-* **HTTP v1** 구성은  [이 섹션에 자세히 설명되어 있습니다](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
-* **HTTP(기존)** 구성은  [이 섹션에 자세히 설명되어 있습니다](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
+* **HTTP v1** 구성은  [이 섹션에 자세히 설명되어 있습니다](configuring-the-mobile-application-android.md#android-service-httpv1).
+* **HTTP(기존)** 구성은  [이 섹션에 자세히 설명되어 있습니다](configuring-the-mobile-application-android.md#android-service-http).
 
 #### HTTP v1 API 구성{#android-service-httpv1}
 
@@ -188,4 +188,4 @@ HTTP(기존) API 버전을 구성하려면 아래 단계를 수행하십시오.
 
    >[!CAUTION]
    >
-   >**[!UICONTROL Subscription parameters]** 탭의 구성 이름이 모바일 애플리케이션 코드의 구성 이름과 동일한지 확인합니다. [이 섹션](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)을 참조하십시오.
+   >**[!UICONTROL Subscription parameters]** 탭의 구성 이름이 모바일 애플리케이션 코드의 구성 이름과 동일한지 확인합니다. [이 섹션](integrating-campaign-sdk-into-the-mobile-application.md)을 참조하십시오.
