@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 1%
@@ -58,7 +58,7 @@ ht-degree: 1%
    >
    >개별 쿠폰은 일괄적으로 가져올 수 있습니다. 가져오기 및 내보내기에 대한 자세한 내용은 [이 섹션](../../platform/using/get-started-data-import-export.md)을 참조하십시오.
 
-### 개별 쿠폰 구성 중 {#configuring-individual-coupons}
+### 개별 쿠폰 구성 {#configuring-individual-coupons}
 
 ![](assets/deliv_coup_03.png)
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 ## 이메일 게재에 쿠폰 삽입 {#inserting-a-coupon-into-an-email-delivery}
 
-아래 예에서는 게재가 홈 페이지에서 만들어집니다. 게재를 만드는 방법에 대한 자세한 지침은 [이 섹션](../../delivery/using/about-email-channel.md)을 참조하십시오. 워크플로우에서 게재에 쿠폰을 추가할 수도 있습니다.
+아래 예에서는 게재가 홈 페이지에서 만들어집니다. 게재를 만드는 방법에 대한 자세한 지침은 [이 섹션](about-email-channel.md)을 참조하십시오. 워크플로우에서 게재에 쿠폰을 추가할 수도 있습니다.
 
 1. **[!UICONTROL Campaigns]**(으)로 이동하고 **[!UICONTROL Deliveries]** 을 선택합니다.
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
@@ -149,7 +149,7 @@ ht-degree: 1%
 >
 >기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. 다른 테이블을 사용하는 방법에 대한 지침은 [스키마 편집](../../configuration/using/data-schemas.md)을 참조하십시오.
 
-## 부족한 쿠폰 관리 {#managing-insufficient-coupons}
+## 쿠폰 부족 관리 {#managing-insufficient-coupons}
 
 메시지보다 쿠폰이 적은 경우 게재 분석이 중지됩니다. 이러한 경우 쿠폰을 더 많이 가져오거나 메시지 수를 제한할 수 있습니다. 메시지 수를 제한하려면 아래 지침을 따르십시오.
 
