@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 컨텐츠 인스턴스를 만드는 데 사용할 수도 있습니다. 생성된 인스턴스는 이러한 인스턴스를 게재할 준비가 되었습니다( [컨텐츠 인스턴스 제공](#delivering-a-content-instance) 참조) 또는 내보낼 준비가 되었습니다([컨텐츠 인스턴스 만들기](#creating-a-content-instance) 참조).
 
-## 컨텐츠 관리 {#creating-a-delivery-via-content-management}를 통해 게재 만들기
+## 콘텐츠 관리를 통해 게재 만들기 {#creating-a-delivery-via-content-management}
 
 입력 필드를 사용하여 컨텐츠를 입력하는 보기에서 게재에서 컨텐츠 템플릿을 참조할 수 있습니다. 게재 콘텐츠를 정의하기 위한 추가 탭이 게재 마법사에 추가됩니다.
 
@@ -31,9 +31,9 @@ ht-degree: 2%
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-자세한 내용은 전체 구현 예를 참조하십시오.[게재 마법사에서 컨텐츠 만들기](../../delivery/using/use-case--creating-content-management.md#creating-content-in-the-delivery-wizard)
+자세한 내용은 전체 구현 예를 참조하십시오.[게재 마법사에서 컨텐츠 만들기](use-case--creating-content-management.md#creating-content-in-the-delivery-wizard)
 
-## 컨텐츠 인스턴스 {#creating-a-content-instance} 만들기
+## 컨텐츠 인스턴스 만들기 {#creating-a-content-instance}
 
 워크플로우에서 사용하거나 내보내거나 새 게재에 직접 삽입할 Adobe Campaign 트리에서 직접 컨텐츠를 만들 수 있습니다.
 
@@ -69,13 +69,13 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >승인되지 않은 컨텐츠의 생성을 승인할 수 있습니다. 이렇게 하려면 게시 템플릿에서 관련 옵션을 변경합니다. 자세한 내용은 [템플릿 만들기 및 구성](../../delivery/using/publication-templates.md#creating-and-configuring-the-template)을 참조하십시오.
+   >승인되지 않은 컨텐츠의 생성을 승인할 수 있습니다. 이렇게 하려면 게시 템플릿에서 관련 옵션을 변경합니다. 자세한 내용은 [템플릿 만들기 및 구성](publication-templates.md#creating-and-configuring-the-template)을 참조하십시오.
 
    HTML 및 텍스트 컨텐츠는 기본적으로 Adobe Campaign 인스턴스의 **publishing** 폴더에서 생성됩니다. **NcmPublishingDir** 옵션 덕분에 게시 폴더를 변경할 수 있습니다.
 
-## 컨텐츠 인스턴스 {#delivering-a-content-instance} 제공
+## 콘텐츠 인스턴스 제공 {#delivering-a-content-instance}
 
-컨텐츠 인스턴스를 만들고 게재하려면 이 컨텐츠를 생성하는 데 사용되는 게시 템플릿에 게재 템플릿을 연결해야 합니다. 자세한 내용은 [배달](../../delivery/using/publication-templates.md#delivery)을 참조하십시오.
+컨텐츠 인스턴스를 만들고 게재하려면 이 컨텐츠를 생성하는 데 사용되는 게시 템플릿에 게재 템플릿을 연결해야 합니다. 자세한 내용은 [배달](publication-templates.md#delivery)을 참조하십시오.
 
 또한 컨텐츠 저장소 폴더는 이 게시 템플릿에서 가져온 컨텐츠에만 사용해야 합니다(컨텐츠 폴더를 통해 여러 유형의 컨텐츠를 생성할 수 있는 경우 게재를 자동으로 만들 수 없음).
 
