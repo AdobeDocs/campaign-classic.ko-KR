@@ -6,16 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 94e609f3df94c553e2ec84ee427887a767b9af21
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
 # Adobe Target과 통합 구성{#configuring-the-integration-with-adobe-target}
 
-## 필수 구성 요소 {#prerequisites}
+## 기본 사항 {#prerequisites}
 
 Adobe Campaign과 Adobe Target 간의 통합을 사용하려면 다음을 수행해야 합니다.
 
@@ -32,4 +32,9 @@ Adobe Campaign을 구성하려면:
 
    * **[!UICONTROL TNT_EdgeServer]** :통합에 사용되는 Adobe Target 서버입니다. 이 옵션은 기본적으로 이미 선택되어 있습니다. 이 값은 Adobe Target **[!UICONTROL Domain Server]** 다음에 **/m2** 값이 옵니다. 예:**tt.omtrdc.net/m2**
    * **[!UICONTROL TNT_TenantName]** :Adobe Target 조직 이름. 이 값은 Adobe Target **[!UICONTROL Client]**&#x200B;의 이름에 해당합니다.
+
    ![](assets/tar_options.png)
+
+>[!CAUTION]
+>
+>하이브리드 및 호스팅 아키텍처의 경우 이러한 옵션은 [중간 소싱 서버](../../installation/using/mid-sourcing-server.md) 및 [실행 인스턴스](../../message-center/using/configuring-instances.md#execution-instance)를 포함하여 모든 서버에서 설정해야 합니다.
