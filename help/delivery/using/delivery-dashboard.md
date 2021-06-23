@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 4%
@@ -32,10 +32,10 @@ ht-degree: 4%
 
 **관련 항목:**
 
-* [게재 실패 이해](../../delivery/using/understanding-delivery-failures.md)
-* [격리 관리 이해](../../delivery/using/understanding-quarantine-management.md)
-* [게재 모범 사례](../../delivery/using/delivery-best-practices.md)
-* [게재 기능 관리](../../delivery/using/about-deliverability.md)
+* [게재 실패 이해](understanding-delivery-failures.md)
+* [격리 관리 이해](understanding-quarantine-management.md)
+* [게재 모범 사례](delivery-best-practices.md)
+* [게재 기능 관리](about-deliverability.md)
 
 ## 게재 요약 {#delivery-summary}
 
@@ -49,11 +49,11 @@ ht-degree: 4%
 
 ![](assets/delivery-report.png)
 
-## 게재 로그, 기록 및 제외 {#delivery-logs-and-history}
+## 게재 로그, 내역 및 제외 {#delivery-logs-and-history}
 
 **[!UICONTROL Delivery]** 탭에는 이 게재의 발생 내역이 표시됩니다. 여기에는 게재 로그, 즉 전송된 메시지 목록 및 해당 상태 및 관련 메시지가 포함되어 있습니다.
 
-게재의 경우 게재 실패 또는 주소가 격리된 수신자만 표시(예:)할 수 있습니다. 이렇게 하려면 **[!UICONTROL Filters]** 버튼을 클릭하고 **[!UICONTROL By state]** 을 선택합니다. 그런 다음 드롭다운 목록에서 상태를 선택합니다. [이 페이지](../../delivery/using/delivery-statuses.md)에 다양한 상태가 나열됩니다.
+게재의 경우 게재 실패 또는 주소가 격리된 수신자만 표시(예:)할 수 있습니다. 이렇게 하려면 **[!UICONTROL Filters]** 버튼을 클릭하고 **[!UICONTROL By state]** 을 선택합니다. 그런 다음 드롭다운 목록에서 상태를 선택합니다. [이 페이지](delivery-statuses.md)에 다양한 상태가 나열됩니다.
 
 >[!NOTE]
 >
@@ -63,11 +63,11 @@ ht-degree: 4%
 
 **[!UICONTROL Display the mirror page for this message...]** 링크를 사용하면 새 창의 목록에서 선택한 게재의 내용에 대한 미러 페이지를 볼 수 있습니다.
 
-미러 페이지는 HTML 컨텐츠가 정의된 게재에만 사용할 수 있습니다. 자세한 내용은 [미러 페이지 생성](../../delivery/using/sending-messages.md#generating-the-mirror-page)을 참조하십시오.
+미러 페이지는 HTML 컨텐츠가 정의된 게재에만 사용할 수 있습니다. 자세한 내용은 [미러 페이지 생성](sending-messages.md#generating-the-mirror-page)을 참조하십시오.
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
-## 게재 추적 로그 및 기록 {#tracking-logs}
+## 게재 추적 로그 및 내역 {#tracking-logs}
 
 **[!UICONTROL Tracking]** 탭에는 이 게재의 추적 내역이 나열됩니다. 이 탭에는 Adobe Campaign에서 추적하는 모든 URL과 같은 전송된 메시지에 대한 추적 데이터가 표시됩니다. 추적 데이터가 시간별로 업데이트됩니다.
 
@@ -75,7 +75,7 @@ ht-degree: 4%
 >
 >게재에 대해 추적이 활성화되어 있지 않으면 이 탭이 표시되지 않습니다.
 
-추적 구성은 게재 마법사의 적절한 단계에서 수행됩니다. [추적된 링크를 구성하는 방법](../../delivery/using/how-to-configure-tracked-links.md)을 참조하십시오.
+추적 구성은 게재 마법사의 적절한 단계에서 수행됩니다. [추적된 링크를 구성하는 방법](how-to-configure-tracked-links.md)을 참조하십시오.
 
 **[!UICONTROL Tracking]** 데이터는 게재 보고서에서 해석됩니다. [이 섹션](../../reporting/using/delivery-reports.md)을 참조하십시오.
 
@@ -87,7 +87,7 @@ ht-degree: 4%
 
 이러한 방식으로 다양한 웹 클라이언트, 웹 메일 및 장치에서 메시지가 수신자에게 최적의 방식으로 표시되도록 할 수 있습니다.
 
-받은 편지함 렌더링에 대한 자세한 내용은 [이 페이지](../../delivery/using/inbox-rendering.md)를 참조하십시오
+받은 편지함 렌더링에 대한 자세한 내용은 [이 페이지](inbox-rendering.md)를 참조하십시오
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -97,7 +97,7 @@ ht-degree: 4%
 
 **[!UICONTROL Refresh]** 단추를 사용하면 데이터를 업데이트할 수 있습니다. **[!UICONTROL Filters]** 단추를 사용하여 데이터에 필터를 정의합니다.
 
-특수 아이콘을 사용하여 오류 또는 경고를 식별할 수 있습니다. [게재 분석](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하십시오.
+특수 아이콘을 사용하여 오류 또는 경고를 식별할 수 있습니다. [게재 분석](steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하십시오.
 
 **[!UICONTROL Proofs]** 하위 탭에서는 전송된 증명 목록을 볼 수 있습니다.
 
@@ -121,7 +121,7 @@ ht-degree: 4%
 
 게재 대시보드를 통해 다른 보고서로 게재를 추적할 수도 있습니다. 자세한 정보는 이 [섹션](../../reporting/using/delivery-reports.md)을 참조하십시오.
 
-## 사용 사례:보낸 사람의 IP 주소를 로그에 추가 {#use-case}
+## 사용 사례:로그에 보낸 사람의 IP 주소 추가 {#use-case}
 
 이 섹션에서는 게재 시 각 이메일을 보낸 IP 주소에 대한 게재 로그 정보에 을 추가하는 방법을 배웁니다.
 
