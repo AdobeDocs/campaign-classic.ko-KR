@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1162'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 1. [컨텐츠 유형 구성](#defining-the-content)
 1. [게재 모니터링(추적, 격리, 보고서 등)](#accessing-reports)
 
-## LINE 채널 {#setting-up-line-channel} 설정
+## LINE 채널 설정 {#setting-up-line-channel}
 
 [!DNL LINE] 계정 및 외부 계정을 만들려면 먼저 인스턴스에 LINE 패키지를 설치해야 합니다. 자세한 내용은 설치 가이드의 [LINE](../../installation/using/installing-campaign-standard-packages.md#line-package) 섹션을 참조하십시오.
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 [!DNL LINE] 계정을 만들고 구성하려면 [LINE 개발자 설명서](https://developers.line.me/)를 참조하십시오.
 
-### LINE 서비스 {#configure-line-service} 만들기 및 구성
+### LINE 서비스 생성 및 구성 {#configure-line-service}
 
 [!DNL LINE] 서비스를 만들려면:
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-구독 및 서비스에 대한 자세한 내용은 [구독 관리](../../delivery/using/managing-subscriptions.md)를 참조하십시오.
+구독 및 서비스에 대한 자세한 내용은 [구독 관리](managing-subscriptions.md)를 참조하십시오.
 
 ### LINE 외부 계정 구성 {#configure-line-external}
 
@@ -103,13 +103,13 @@ ht-degree: 2%
 
    ![](assets/line_message_01.png)
 
-1. **[!UICONTROL Label]**, **[!UICONTROL Delivery code]** 및 **[!UICONTROL Description]**&#x200B;로 게재를 식별합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery)을 참조하십시오.
+1. **[!UICONTROL Label]**, **[!UICONTROL Delivery code]** 및 **[!UICONTROL Description]**&#x200B;로 게재를 식별합니다. 이 작업에 대한 자세한 정보는 [이 섹션](steps-create-and-identify-the-delivery.md#identifying-the-delivery)을 참조하십시오.
 
 1. **[!UICONTROL Continue]** 을 클릭하여 게재를 만듭니다.
 
 1. 게재 편집기에서 **[!UICONTROL To]** 을 선택하여 [!DNL LINE] 게재의 수신자를 타겟팅합니다. 타깃팅이 **[!UICONTROL Visitor subscriptions (nms:visitorSub)]**&#x200B;에 수행됩니다.
 
-   자세한 내용은 [대상 모집단 식별](../../delivery/using/steps-defining-the-target-population.md)을 참조하십시오.
+   자세한 내용은 [대상 모집단 식별](steps-defining-the-target-population.md)을 참조하십시오.
 
    ![](assets/line_message_08.png)
 
@@ -131,13 +131,13 @@ ht-degree: 2%
 
 1. 게재를 만들고 올바르게 구성하면 이전에 정의한 타겟에 전달할 수 있습니다.
 
-   게재 전송에 대한 자세한 내용은 [메시지 보내기](../../delivery/using/sending-messages.md)를 참조하십시오.
+   게재 전송에 대한 자세한 내용은 [메시지 보내기](sending-messages.md)를 참조하십시오.
 
 1. 메시지를 보낸 후 보고서에 액세스하여 게재 효과를 측정합니다.
 
    [!DNL LINE] 보고서에 대한 자세한 내용은 [보고서 액세스](#accessing-reports)를 참조하십시오.
 
-## 컨텐츠 유형 {#defining-the-content} 정의
+## 컨텐츠 유형 정의 {#defining-the-content}
 
 [!DNL LINE] 게재의 콘텐츠를 정의하려면 먼저 게재에 메시지 유형을 추가해야 합니다. 각 [!DNL LINE] 게재에는 최대 5개의 메시지가 포함될 수 있습니다.
 
@@ -147,7 +147,7 @@ ht-degree: 2%
 * [이미지 및 링크](#configuring-an-image-and-link-delivery)
 * [비디오 메시지](#configuring-a-video-message-delivery)
 
-### 텍스트 메시지 배달 구성 {#configuring-a-text-message-delivery}
+### 텍스트 메시지 게재 구성 {#configuring-a-text-message-delivery}
 
 >[!NOTE]
 >
@@ -157,7 +157,7 @@ ht-degree: 2%
 
 ![](assets/line_message_02.png)
 
-이 유형의 메시지에 대한 구성은 이메일의 **[!UICONTROL Text]** 구성과 비슷합니다. 자세한 내용은 이 [page](../../delivery/using/defining-the-email-content.md#message-content)을 참조하십시오.
+이 유형의 메시지에 대한 구성은 이메일의 **[!UICONTROL Text]** 구성과 비슷합니다. 자세한 내용은 이 [page](defining-the-email-content.md#message-content)을 참조하십시오.
 
 ### 이미지 및 링크 전달 구성 {#configuring-an-image-and-link-delivery}
 
@@ -193,7 +193,7 @@ ht-degree: 2%
 
    그런 다음 수신자의 모바일 장치에 표시되는 대체 텍스트를 추가해야 합니다.
 
-* 및 **[!UICONTROL Links]**
+* 및 **[!UICONTROL Links]**.
 
    **[!UICONTROL Links]** 섹션에서는 클릭 가능한 여러 영역에서 이미지를 분할하는 다양한 레이아웃 중에서 선택할 수 있습니다. 그런 다음 각각 전용 **[!UICONTROL Link URL]**&#x200B;을 할당할 수 있습니다.
 
@@ -225,7 +225,7 @@ ht-degree: 2%
 
 ![](assets/line_reports.png)
 
-## 예:개인화된 LINE 메시지 {#example--create-and-send-a-personalized-line-message} 만들기 및 보내기
+## 예:개인화된 LINE 메시지 작성 및 보내기 {#example--create-and-send-a-personalized-line-message}
 
 이 예제에서는 수신자에 따라 개인화할 데이터가 포함된 텍스트 메시지와 이미지를 만들어 구성하려고 합니다.
 
@@ -239,7 +239,7 @@ ht-degree: 2%
 
 1. 게재 구성 창에서 대상 모집단을 선택합니다.
 
-   자세한 내용은 [대상 모집단 식별](../../delivery/using/steps-defining-the-target-population.md)을 참조하십시오.
+   자세한 내용은 [대상 모집단 식별](steps-defining-the-target-population.md)을 참조하십시오.
 
    ![](assets/line_usecase_02.png)
 
