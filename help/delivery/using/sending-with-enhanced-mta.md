@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1921'
 ht-degree: 3%
@@ -129,7 +129,7 @@ Campaign **[!UICONTROL Delivery log qualification]** 테이블의 반송 조건�
 >
 >Enhanced MTA는 SMTP 바운스를 자격을 부여하고 해당 자격을 Campaign 반송 이유 및 자격에 매핑된 반송 코드 형태로 Campaign에 다시 전송합니다.
 
-바운스 자격에 대한 자세한 내용은 [이 섹션](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)을 참조하십시오.
+바운스 자격에 대한 자세한 내용은 [이 섹션](understanding-delivery-failures.md#bounce-mail-qualification)을 참조하십시오.
 
 ### 게재 처리량
 
@@ -145,7 +145,7 @@ Campaign 게재의 유효 기간 설정은 **3.5일 이하**&#x200B;로 설정�
 
 메시지가 3.5일 동안 Enhanced MTA 큐에 있고 게재에 실패하면 시간이 초과되고 게재 로그에서 해당 상태가 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 업데이트됩니다.
 
-유효 기간에 대한 자세한 내용은 [이 섹션](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)을 참조하십시오.
+유효 기간에 대한 자세한 내용은 [이 섹션](steps-sending-the-delivery.md#defining-validity-period)을 참조하십시오.
 
 ### DKIM 서명
 
@@ -154,13 +154,13 @@ DKIM에 대한 자세한 내용은 [Adobe 게재 가능성 모범 사례 안내�
 
 ### 게재 성공 보고
 
-전자 메일 게재 [대시보드](../../delivery/using/delivery-dashboard.md)의 **[!UICONTROL Summary]** 보기에서, 소프트 및 하드 바운스가 Enhanced MTA에서 Campaign으로 다시 보고되므로 **[!UICONTROL Success]** 비율은 100%에서 시작된 다음 게재 [유효 기간](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period) 내내 점진적으로 줄어듭니다.
+전자 메일 게재 [대시보드](delivery-dashboard.md)의 **[!UICONTROL Summary]** 보기에서, 소프트 및 하드 바운스가 Enhanced MTA에서 Campaign으로 다시 보고되므로 **[!UICONTROL Success]** 비율은 100%에서 시작된 다음 게재 [유효 기간](steps-sending-the-delivery.md#defining-validity-period) 내내 점진적으로 줄어듭니다.
 
-실제로, 모든 메시지는 Campaign에서 Enhanced MTA로 성공적으로 중계되는 즉시 [전송 로그](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)에 **[!UICONTROL Sent]** 로 표시됩니다. 해당 메시지에 대한 [바운스](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)가 Enhanced MTA에서 Campaign으로 다시 전달되지 않는 한 또는 그 때까지는 해당 상태로 유지됩니다.
+실제로, 모든 메시지는 Campaign에서 Enhanced MTA로 성공적으로 중계되는 즉시 [전송 로그](delivery-dashboard.md#delivery-logs-and-history)에 **[!UICONTROL Sent]** 로 표시됩니다. 해당 메시지에 대한 [바운스](understanding-delivery-failures.md#delivery-failure-types-and-reasons)가 Enhanced MTA에서 Campaign으로 다시 전달되지 않는 한 또는 그 때까지는 해당 상태로 유지됩니다.
 
 하드 바운스 메시지가 Enhanced MTA에서 다시 보고되면 상태가 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 변경되고 **[!UICONTROL Success]** 백분율이 그에 따라 감소합니다.
 
-소프트 바운스 메시지가 Enhanced MTA에서 다시 보고되면 여전히 **[!UICONTROL Sent]**(으)로 표시되고 **[!UICONTROL Success]** 백분율이 아직 업데이트되지 않습니다. 소프트 바운스 메시지는 배달 유효 기간 동안 [다시 시도됩니다.](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
+소프트 바운스 메시지가 Enhanced MTA에서 다시 보고되면 여전히 **[!UICONTROL Sent]**(으)로 표시되고 **[!UICONTROL Success]** 백분율이 아직 업데이트되지 않습니다. 소프트 바운스 메시지는 배달 유효 기간 동안 [다시 시도됩니다.](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
 * 유효성 기간이 종료되기 전에 다시 시도하면 메시지 상태는 **[!UICONTROL Sent]**&#x200B;으로 유지되며 **[!UICONTROL Success]** 백분율은 변경되지 않습니다.
 
@@ -192,7 +192,7 @@ DKIM에 대한 자세한 내용은 [Adobe 게재 가능성 모범 사례 안내�
 
 하드 바운스 메시지가 Enhanced MTA에서 다시 보고되면 로그 상태가 **[!UICONTROL Taken into account by the service provider]**&#x200B;에서 **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->(으)로 변경됩니다.
 
-소프트 바운스 메시지가 Enhanced MTA에서 다시 보고되면 로그 상태가 변경되지 않은 상태로 유지됩니다(**[!UICONTROL Taken into account by the service provider]**).[오류 이유](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)만<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->에 업데이트됩니다. **[!UICONTROL Success]** 백분율은 변경되지 않은 상태로 유지됩니다. 그런 다음 소프트 바운스 메시지는 배달 [유효 기간](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period) 동안 다시 시도됩니다.
+소프트 바운스 메시지가 Enhanced MTA에서 다시 보고되면 로그 상태가 변경되지 않은 상태로 유지됩니다(**[!UICONTROL Taken into account by the service provider]**).[오류 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons)만<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->에 업데이트됩니다. **[!UICONTROL Success]** 백분율은 변경되지 않은 상태로 유지됩니다. 그런 다음 소프트 바운스 메시지는 배달 [유효 기간](steps-sending-the-delivery.md#defining-validity-period) 동안 다시 시도됩니다.
 
 * 유효 기간이 종료되기 전에 다시 시도하면 메시지 상태가 **[!UICONTROL Sent]**&#x200B;으로 변경되고 **[!UICONTROL Success]** 백분율이 그에 따라 증가합니다.
 
@@ -200,9 +200,9 @@ DKIM에 대한 자세한 내용은 [Adobe 게재 가능성 모범 사례 안내�
 
 >[!NOTE]
 >
->하드 바운스와 소프트 바운스에 대한 자세한 내용은 [이 섹션](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)을 참조하십시오.
+>하드 바운스와 소프트 바운스에 대한 자세한 내용은 [이 섹션](understanding-delivery-failures.md#delivery-failure-types-and-reasons)을 참조하십시오.
 >
->일시적 게재 실패 후 다시 시도하는 방법에 대한 자세한 내용은 [이 섹션](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)을 참조하십시오.
+>일시적 게재 실패 후 다시 시도하는 방법에 대한 자세한 내용은 [이 섹션](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)을 참조하십시오.
 
 
 아래 표는 EFS 기능에서 도입된 KPI 및 전송 로그 상태의 변경 사항을 보여줍니다.
