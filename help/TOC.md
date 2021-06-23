@@ -7,10 +7,10 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign을 사용하면 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등을 통해 고객이 실제로 원하는 동적 캠페인을 제작, 조정 및 전달할 수 있습니다.
 sub-product: Aadobe Campaign Classic
 type: Documentation
-source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
+source-git-commit: 9febe6bc68c8bc31714a74455fa70ef83920ded9
 workflow-type: tm+mt
-source-wordcount: '2512'
-ht-degree: 97%
+source-wordcount: '2518'
+ht-degree: 96%
 
 ---
 
@@ -38,9 +38,11 @@ ht-degree: 97%
    + [사용되지 않는 기능](rn/using/deprecated-features.md)
    + [호환성 매트릭스](rn/using/compatibility-matrix.md)
    + [기술 노트](technotes/technote.md)
+   + [Adobe Analytics 커넥터 FAQ](technotes/aa-connector-migration.md)
    + [iOS 인증서 업데이트](technotes/ios-certificate-update.md)
    + [Campaign 구성 업데이트](technotes/acc-config-updates.md)
    + [추적된 URL 업데이트](technotes/tracked-urls.md)
+   + [IMS 업데이트](technotes/ims-updates.md)
 + 시작 {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic 시작](platform/using/about-adobe-campaign-classic.md)
