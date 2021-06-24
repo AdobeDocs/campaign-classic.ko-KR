@@ -3,7 +3,7 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: a9120e2db43fcb035e9760819e9c53148979da4f
+source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 50%
@@ -20,9 +20,9 @@ ht-degree: 50%
 
 * **[Apple Mail Privacy Protection ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> FAQiOS 15에 대한 Apple의 발표에 대한 초기 지침을 찾습니다
 
-* **[잘못된 하드 바운스 ](delivery/using/update-bounce-qualification.md)**<br/> 제거Apple 중단 후 잘못된 하드 바운스를 업데이트하는 방법을 알아봅니다
+* **[IMS/Adobe ID을 통해 연결하시겠습니까? 최신 빌드](technotes/ims-updates.md)**<br/>로 업그레이드하십시오. IMS를 사용하여 Campaign에 연결하는 경우** 2021년 6월 30일 이후에 Campaign에 연결할 수 있도록 업그레이드해야 합니다.**
 
-* **[IMS/Adobe ID을 통해 연결하시겠습니까? 최신 빌드](integrations/using/about-adobe-id.md)**<br/>로 업그레이드하십시오. IMS를 사용하여 Campaign에 연결하는 경우** 2021년 6월 30일 이후에 Campaign에 연결할 수 있도록 업그레이드해야 합니다.**
+* **[잘못된 하드 바운스 ](delivery/using/update-bounce-qualification.md)**<br/> 제거Apple 중단 후 잘못된 하드 바운스를 업데이트하는 방법을 알아봅니다
 
 * **[Campaign 인스턴스 ](technotes/acc-config-updates.md)**<br/> 보안 설정Campaign 플랫폼을 보호하기 위해 최신 빌드로 업데이트
 
