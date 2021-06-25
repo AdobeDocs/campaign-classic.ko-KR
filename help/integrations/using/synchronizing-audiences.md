@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Campaign Standard에서 복제되지 않은 추가 데이터를 포함하는 복
 >
 >필요한 모든 데이터가 이미 복제되어 있는 경우 Adobe Campaign Standard의 집계 및 컬렉션을 사용하여 데이터를 보강할 수도 있습니다.
 
-## 필수 구성 요소 {#prerequisites}
+## 기본 사항 {#prerequisites}
 
 이를 위해서는 다음을 수행해야 합니다.
 
@@ -36,7 +36,7 @@ Campaign Standard에서 복제되지 않은 추가 데이터를 포함하는 복
 * Campaign v7 및 Campaign Standard 모두에서 워크플로우를 실행할 수 있는 권한.
 * Campaign Standard에서 게재를 만들고 실행할 수 있는 권한.
 
-## Campaign v7 {#create-a-targeting-workflow-with-additional-data-in-campaign-v7}에서 추가 데이터를 사용하여 타깃팅 워크플로우를 만듭니다.
+## Campaign v7에서 추가 데이터를 사용하여 타겟팅 워크플로우 만들기 {#create-a-targeting-workflow-with-additional-data-in-campaign-v7}
 
 Campaign Standard에서 복제되지 않은 추가 데이터를 포함하는 복잡한 타깃팅은 Campaign v7만 사용하면 됩니다.
 
@@ -90,7 +90,7 @@ Campaign Standard에서 복제되지 않은 추가 데이터를 포함하는 복
 
 1. 워크플로우를 저장합니다. 다음 섹션에서는 ACS와 모집단을 공유하는 방법을 보여줍니다.
 
-## Campaign Standard {#share-the-target-with-campaign-standard}과 대상 공유
+## Campaign Standard과 대상 공유 {#share-the-target-with-campaign-standard}
 
 대상 모집단이 정의되면 **[!UICONTROL List update]** 활동을 통해 ACS와 공유할 수 있습니다.
 
@@ -108,7 +108,7 @@ Campaign Standard에서 복제되지 않은 추가 데이터를 포함하는 복
 
 **[!UICONTROL List update]** 활동에서 오류가 발생하면 Campaign Standard과 동기화에 실패했을 수 있습니다. 잘못된 내용에 대한 자세한 내용을 보려면 **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]**&#x200B;로 이동하십시오. 이 폴더에는 **[!UICONTROL List update]** 활동 실행에 의해 트리거되는 동기화 워크플로우가 포함되어 있습니다. [ACS 커넥터 문제 해결](../../integrations/using/troubleshooting-the-acs-connector.md) 섹션을 참조하십시오.
 
-## Campaign Standard에서 데이터를 검색하고 배달 {#retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery}에서 사용합니다.
+## Campaign Standard에서 데이터를 검색하고 게재에서 사용합니다 {#retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery}
 
 Campaign v7에서 타깃팅 워크플로우를 실행하면 Campaign Standard의 **[!UICONTROL Audiences]** 메뉴에서 읽기 전용 모드로 목록 대상자를 찾을 수 있습니다.
 
@@ -121,7 +121,7 @@ Campaign Standard에서 게재 워크플로우를 만들면 이 대상자와 게
 
    이 활동은 선택한 대상자의 데이터를 검색하는 데 사용됩니다. 필요한 경우 이 활동의 해당하는 탭을 사용하여 추가 **[!UICONTROL Source Filtering]**&#x200B;을 적용할 수도 있습니다.
 
-1. **[!UICONTROL Email delivery]** 활동을 추가하고 다른 [이메일 게재 활동](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html)으로 구성합니다.
+1. **[!UICONTROL Email delivery]** 활동을 추가하고 다른 [이메일 게재 활동](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html)으로 구성합니다.
 1. 게재 콘텐츠를 엽니다.
 1. 개인화 필드 추가. 팝업에서 **[!UICONTROL Additional data (targetData)]** 노드를 찾습니다. 이 노드에는 초기 타겟팅 워크플로우에서 계산된 대상자의 추가 데이터가 포함되어 있습니다. 이를 다른 개인화 필드로 사용할 수 있습니다.
 
