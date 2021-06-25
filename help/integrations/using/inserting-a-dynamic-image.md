@@ -6,14 +6,14 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
 
-# Target 동적 컨텐츠 {#inserting-a-dynamic-image} 삽입
+# Target 동적 콘텐츠 삽입 {#inserting-a-dynamic-image}
 
 이 안내서에서는 Target의 동적 오퍼를 Adobe Campaign의 이메일에 통합하는 방법을 제시합니다.
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 1. [경험 타깃팅 활동 만들기](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
 1. [이메일 미리 보기 및 보내기](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
-## 전자 메일 {#inserting-dynamic-offer}에 동적 오퍼 삽입
+## 이메일에 동적 오퍼 삽입 {#inserting-dynamic-offer}
 
 Adobe Campaign에서 전자 메일의 대상 및 콘텐츠를 정의한 후 Target에서 동적 이미지를 삽입할 수 있습니다.
 
@@ -62,7 +62,7 @@ Adobe Target의 설정에서 엔터프라이즈 권한을 사용하는 경우 �
 
 ![](assets/target_13.png)
 
-## 리디렉션 오퍼 {#create-redirect-offers} 만들기
+## 리디렉션 오퍼 만들기 {#create-redirect-offers}
 
 Target에서 오퍼의 다른 버전을 만들 수 있습니다. 각 사용자 경험에 따라 리디렉션 오퍼를 만들고 표시할 이미지를 지정할 수 있습니다.
 
@@ -78,7 +78,7 @@ Target에서 오퍼의 다른 버전을 만들 수 있습니다. 각 사용자 �
 
    ![](assets/target_6.png)
 
-1. 나머지 리디렉션 오퍼에 대해 동일한 절차를 따르십시오. 자세한 정보는 이 [페이지](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html)를 참조하십시오.
+1. 나머지 리디렉션 오퍼에 대해 동일한 절차를 따르십시오. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html)를 참조하십시오.
 
 ## 대상자 만들기 {#audiences-target}
 
@@ -148,7 +148,7 @@ Target에서 경험 타깃팅 활동을 만들고, 다른 경험을 정의하고
 
 ![](assets/target_experience_2.png)
 
-## {#preview-send-email} Campaign Classic에서 이메일 미리 보기 및 보내기
+## Campaign Classic에서 이메일 미리 보기 및 보내기 {#preview-send-email}
 
 이제 Adobe Campaign에서 이메일을 미리 보고 다른 수신자로부터 전자 메일의 렌더링을 테스트할 수 있습니다. 그러면 생성된 다양한 경험에 따라 이미지가 변경됩니다. 전자 메일 만들기에 대한 자세한 내용은 이 [페이지](../../delivery/using/defining-the-email-content.md)를 참조하십시오.
 
