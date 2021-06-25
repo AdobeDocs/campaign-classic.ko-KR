@@ -6,9 +6,9 @@ feature: null
 role: null
 level: null
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
-source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
+source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1542'
 ht-degree: 21%
 
 ---
@@ -108,7 +108,7 @@ _2019년 12월 2일_
   <tr> 
 <td> <p>Adobe Campaign을 사용하면 새로운 대화형 <a href="https://amp.dev/about/email/">AMP for Email</a> 형식을 사용해 볼 수 있습니다. 이 이메일 형식을 통해 마케터는 메시지 내에 AMP 구성 요소를 포함시켜 메시지 자체에서 직접 실행 가능한 풍부하고 동적인 대화형 컨텐츠로 이메일 경험을 향상시킬 수 있습니다.</p>
    <p>이 기능은 공개 베타로 출시됩니다.</p>
-   <p>자세한 내용은 <a href="../../delivery/using/defining-interactive-content.md">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">튜토리얼 비디오</a>를 참조하십시오.</p><br /></td> 
+   <p>자세한 내용은 <a href="../../delivery/using/defining-interactive-content.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">튜토리얼 비디오</a>를 참조하십시오.</p><br /></td> 
   </tr> 
  </tbody> 
 </table>
