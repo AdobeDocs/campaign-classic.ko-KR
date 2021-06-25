@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: 0e0912c68d132919eeac9b91b93960e70011153e
+source-git-commit: 98bbbb36c9f8156cc34e826a024ff6e6e3f3fee3
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 10%
@@ -28,7 +28,7 @@ ht-degree: 10%
 * Brackets [ ]
 * 중괄호 { }
 
-이 예에서 URL https://www.adobe.com 뒤에는 세미콜론(;)이 옵니다. 세미콜론은 수신자 이메일 클라이언트가 URL의 일부로 해석할 수 있습니다. 따라서 링크가 끊어질 수 있습니다. 이 문제를 방지하려면 다음 방법 중 하나로 URL을 구분 기호로 묶을 수 있습니다.
+이 예에서 URL https://www.adobe.com 뒤에는 세미콜론이 있습니다. 세미콜론은 수신자 이메일 클라이언트가 URL의 일부로 해석할 수 있습니다. 따라서 링크가 끊어질 수 있습니다. 이 문제를 방지하려면 다음 방법 중 하나로 URL을 구분 기호로 묶을 수 있습니다.
 * (https://www.adobe.com)
 * [https://www.adobe.com];
 * {https://www.adobe.com};
