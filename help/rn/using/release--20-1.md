@@ -6,10 +6,10 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
-source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
+source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 19%
+source-wordcount: '1560'
+ht-degree: 20%
 
 ---
 
@@ -77,7 +77,7 @@ _2020년 2월 17일_
  <tbody> 
   <tr> 
    <td> <p>Snowflake은 스토리지 및 컴퓨팅 수준 모두에서 확장 가능하도록 구축된 완전히 관리되는 클라우드 데이터 웨어하우스입니다. 이 새로운 커넥터를 사용하면 이제 Adobe Campaign은 Snowflake의 기능을 활용하여 빅데이터 세그멘테이션을 수행할 수 있습니다. 이 커넥터는 Adobe에서 호스팅한 모든 고객에게 제공됩니다.</p>
-    <p>자세한 내용은 <a href="../../installation/using/configure-fda-snowflake.md">상세 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">자습서 비디오</a>를 참조하십시오.</p>
+    <p>자세한 내용은 <a href="../../installation/using/configure-fda-snowflake.md">상세 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">자습서 비디오</a>를 참조하십시오.</p>
    </td> 
   </tr> 
  </tbody> 
