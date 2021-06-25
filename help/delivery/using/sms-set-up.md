@@ -182,7 +182,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
   <tr> 
    <td> ì </td> 
    <td> <img height="21px" src="assets/psi.png" /> </td> 
-   <td> ` </td> 
+   <td> &grave; </td> 
    <td> 7 </td> 
    <td> G </td> 
    <td> W </td> 
