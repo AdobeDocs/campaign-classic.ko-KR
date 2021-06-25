@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 8%
+source-wordcount: '394'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign의 직관적인 단계별 안내서를 참조하여을 시작하�
 
 * [Adobe Experience Manager을 사용하여 이메일 콘텐츠 편집](https://helpx.adobe.com/campaign/kb/acc-aem.html):Adobe Campaign과 Experience Manager 간의 통합을 시작하는 기본 사항에 대해 알아봅니다.
 * [개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html):Adobe 서비스를 사용할 때 Adobe Campaign Classic에서 개인 정보 보호 규정을 준수하는 데 도움이 되는 기능을 살펴보십시오.
-* [이메일에 동적 콘텐츠 통합](https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html):Campaign Classic과 Target Standard 간의 통합을 시작할 수 있는 기본 사항을 알아봅니다.
+* [이메일에 동적 콘텐츠 통합](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html):Campaign Classic과 Target Standard 간의 통합을 시작할 수 있는 기본 사항을 알아봅니다.
 * [게재 기능 관리](../../delivery/using/about-deliverability.md):게재 전송을 최적화하기 위해 Adobe Campaign Classic에서 제공하는 도구 뿐만 아니라 게재 능력과 관련된 개념과 모범 사례에 대해 알아봅니다.
 * [게재 모범 사례](../../delivery/using/delivery-best-practices.md):Adobe Campaign Classic을 사용한 게재 디자인 및 전송과 관련된 모범 사례에 대해 배웁니다.
 * [빌드 업그레이드 수행](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html):이 안내서에서는 Campaign Classic을 사용하여 빌드 업그레이드를 수행하는 주요 단계 및 모범 사례를 제공합니다.
@@ -35,13 +35,13 @@ Adobe Campaign의 직관적인 단계별 안내서를 참조하여을 시작하�
 * [개요 만들기](../../web/using/use-cases--creating-overviews.md):개요 유형 웹 응용 프로그램을 만들어 데이터베이스의 모든 웹 응용 프로그램을 표시합니다.
 * [워크플로우 사용 사례](../../workflow/using/about-workflow-use-cases.md):워크플로우를 사용하는 다양한 방법을 사용하여 이러한 사용 사례를 살펴봅니다.
 
-## 자체 도움말 {#how-to-videos}
+## 사용자 도움말 {#how-to-videos}
 
 제품 설명서 외에 아래 나열된 Campaign 자습 리소스에 액세스할 수 있습니다.
 
 ### 튜토리얼 비디오
 
-비디오에서 Adobe Campaign의 주요 기능을 살펴보십시오. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/overview.html)
+비디오에서 Adobe Campaign의 주요 기능을 살펴보십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)
 
 ### 교육 세션 및 비디오
 
