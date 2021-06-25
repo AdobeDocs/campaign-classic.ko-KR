@@ -5,9 +5,9 @@ description: 기술 정보
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 037e56040bd63edfdfee5ab6bf73b45d3a138072
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1099'
 ht-degree: 11%
 
 ---
@@ -37,7 +37,6 @@ Managed Services은 **호스팅 또는 Adobe 고객**&#x200B;으로 정기적으
 
 * Gold Standard 11. [자세히 알아보기](../rn/using/gold-standard.md)
 * Campaign 21.1.1 릴리스. [자세히 알아보기](../rn/using/latest-release.md)
-* Campaign 20.3.3 릴리스. [자세히 알아보기](../rn/using/release--20-3.md)
 * Campaign 20.2.4 릴리스. [자세히 알아보기](../rn/using/release--20-2.md)
 * Campaign 20.1.4 릴리스. [자세히 알아보기](../rn/using/release--20-1.md)
 * Campaign 19.2.4 릴리스. [자세히 알아보기](../rn/using/release--19-2.md)
@@ -60,7 +59,7 @@ Managed Services은 **호스팅 또는 Adobe 고객**&#x200B;으로 정기적으
 >권장 기간 내에 업그레이드할 수 없는 경우 **Adobe 고객 지원 센터에 문의하여 인스턴스**&#x200B;에 단기 수동 보안 수정 사항을 적용해야 합니다.
 
 
-## Campaign Classic 클라이언트 콘솔 업데이트 {#acc-cc-updates}
+## Campaign Classic 클라이언트 콘솔 업데이트  {#acc-cc-updates}
 
 최근에 식별된 회귀를 해결하기 위해 아래의 **이제 사용할 수 있는** 콘솔 버전을 설치해야 합니다. 이 회귀로 인해 게재에서 날짜 선택기 및 이미지 관리와 같은 클라이언트 콘솔의 일부 구성 요소를 사용할 수 없습니다. **콘솔** 업그레이드는 필수입니다.
 
@@ -81,7 +80,6 @@ Adobe ID](../integrations/using/about-adobe-id.md)을 통해 Campaign [에 연�
 
 * Gold Standard 11. [자세히 알아보기](../rn/using/gold-standard.md)
 * Campaign 21.1.1 릴리스. [자세히 알아보기](../rn/using/latest-release.md)
-* Campaign 20.3.3 릴리스. [자세히 알아보기](../rn/using/release--20-3.md)
 * Campaign 20.2.4 릴리스. [자세히 알아보기](../rn/using/release--20-2.md)
 * Campaign 20.1.4 릴리스. [자세히 알아보기](../rn/using/release--20-1.md)
 * Campaign 19.2.4 릴리스. [자세히 알아보기](../rn/using/release--19-2.md)
