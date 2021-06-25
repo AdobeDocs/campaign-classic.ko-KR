@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1195'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ACS 커넥터는 Campaign v7에서 Campaign Standard으로 데이터를 복제�
 * **Campaign Standard**&#x200B;에서 게재 만들기:워크플로우를 따라 게재를 전송합니다. [게재 만들기](#creating-a-delivery)를 참조하십시오.
 * **구독 취소 링크를 확인합니다**.Campaign v7 웹 애플리케이션을 사용하여 수신자가 선택한 서비스 구독을 Campaign v7 데이터베이스로 전송하도록 합니다. 서비스 수신을 중지하는 옵션이 Campaign Standard에 복제됩니다. [구독 취소 링크](#changing-the-unsubscription-link) 변경을 참조하십시오.
 
-## 필수 구성 요소 {#prerequisites}
+## 기본 사항 {#prerequisites}
 
 다음 섹션에서는 ACS 커넥터가 Campaign v7에서 수신자를 추가 및 편집한 다음 Campaign Standard 전달에서 사용하는 방법을 설명합니다. ACS Connector에는 다음이 필요합니다.
 
@@ -31,7 +31,7 @@ ACS 커넥터는 Campaign v7에서 Campaign Standard으로 데이터를 복제�
 * Campaign v7 및 Campaign Standard 모두에서 워크플로우를 실행할 사용자 권한.
 * Campaign Standard에서 게재를 만들고 실행할 사용자 권한.
 
-## 구독 취소 링크 {#changing-the-unsubscription-link} 변경
+## 구독 취소 링크 변경 {#changing-the-unsubscription-link}
 
 수신자가 Campaign Standard이 보낸 이메일에서 구독 취소 링크를 클릭하면 Campaign Standard의 해당 프로필이 업데이트됩니다. 복제된 프로필에 서비스 구독을 취소할 수 있는 사용자가 선택하도록 하려면 Campaign Standard이 아닌 Campaign v7로 정보를 전송해야 합니다. 변경 사항을 실행하기 위해, 구독 취소 서비스는 Campaign Standard이 아닌 Campaign v7 웹 애플리케이션에 연결됩니다.
 
@@ -39,19 +39,19 @@ ACS 커넥터는 Campaign v7에서 Campaign Standard으로 데이터를 복제�
 >
 >아래 단계를 수행하기 전에 컨설턴트에게 구독 취소 서비스에 대한 웹 애플리케이션을 구성하도록 요청하십시오.
 
-## 새 받는 사람 {#creating-a-new-recipient} 만들기
+## 새 수신자 만들기 {#creating-a-new-recipient}
 
 1. Campaign v7에서 Campaign Standard에 복제할 새 수신자를 만듭니다. 수신자의 성, 이름, 이메일 주소 및 우편 주소 등 가능한 많은 정보를 입력합니다. 그러나 **[!UICONTROL Salutation]**&#x200B;이(가) 다음 섹션인 [받는 사람 편집](#editing-a-recipient)에 추가되므로 선택하지 마십시오. 자세한 내용은 [수신자 추가](../../platform/using/adding-profiles.md)를 참조하십시오.
 
    ![](assets/acs_connect_profile_sync_01.png)
 
-1. 새 수신자가 Campaign Standard에 추가되었는지 확인합니다. 프로필을 검토할 때 Campaign v7에 입력한 데이터를 Campaign Standard에서도 사용할 수 있는지 확인합니다. Campaign Standard에서 프로필을 찾을 수 있는 위치를 알려면 [탐색 기본 사항](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html)을 참조하십시오.
+1. 새 수신자가 Campaign Standard에 추가되었는지 확인합니다. 프로필을 검토할 때 Campaign v7에 입력한 데이터를 Campaign Standard에서도 사용할 수 있는지 확인합니다. Campaign Standard에서 프로필을 찾을 수 있는 위치를 알려면 [탐색 기본 사항](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=ko)을 참조하십시오.
 
    ![](assets/acs_connect_profile_sync_02.png)
 
    기본적으로 ACS 커넥터에 대한 주기적 복제는 15분마다 한 번씩 수행됩니다. 자세한 내용은 [데이터 복제](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication)를 참조하십시오.
 
-## 수신자 {#editing-a-recipient} 편집
+## 수신자 편집 {#editing-a-recipient}
 
 단일 데이터 포인트를 변경하는 아래 단계는 데이터 복제를 사용할 때 Campaign v7이 Campaign Standard의 기본 데이터베이스가 되는 방법의 간단한 예를 제공합니다. Campaign v7에서 복제된 데이터를 수정하거나 삭제하면 Campaign Standard의 해당 데이터에도 동일한 효과가 있습니다.
 
@@ -59,7 +59,7 @@ ACS 커넥터는 Campaign v7에서 Campaign Standard으로 데이터를 복제�
 
    ![](assets/acs_connect_profile_sync_03.png)
 
-1. 수신자의 이름이 Campaign Standard에서 업데이트되었는지 확인합니다. Campaign Standard에서 프로필을 찾을 수 있는 위치를 알려면 [탐색 기본 사항](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html)을 참조하십시오.
+1. 수신자의 이름이 Campaign Standard에서 업데이트되었는지 확인합니다. Campaign Standard에서 프로필을 찾을 수 있는 위치를 알려면 [탐색 기본 사항](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html)을 참조하십시오.
 
    ![](assets/acs_connect_profile_sync_04.png)
 
@@ -156,7 +156,7 @@ Campaign Standard 워크플로우에 대한 자세한 내용과 전체 지침은
 
    ![](assets/acs_connect_profile_sync_19.png)
 
-## 구독 취소 서비스 {#verifying-the-unsubscription-service}를 확인하는 중
+## 구독 취소 서비스를 확인하는 중 {#verifying-the-unsubscription-service}
 
 아래 단계로 이동하기 전에 [워크플로우 만들기](#creating-a-workflow) 및 [게재 만들기](#creating-a-delivery)의 지침을 따르십시오.
 
@@ -172,6 +172,6 @@ Campaign Standard 워크플로우에 대한 자세한 내용과 전체 지침은
 
    ![](assets/acs_connect_profile_sync_22.png)
 
-1. Campaign Standard으로 이동하여 수신자에 대한 프로필 세부 사항을 엽니다. **[!UICONTROL No longer contact (by any channel)]** 옆에 확인란이 표시되는지 확인합니다. Campaign Standard에서 프로필을 찾을 수 있는 위치를 알려면 [탐색 기본 사항](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html)을 참조하십시오.
+1. Campaign Standard으로 이동하여 수신자에 대한 프로필 세부 사항을 엽니다. **[!UICONTROL No longer contact (by any channel)]** 옆에 확인란이 표시되는지 확인합니다. Campaign Standard에서 프로필을 찾을 수 있는 위치를 알려면 [탐색 기본 사항](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html)을 참조하십시오.
 
    ![](assets/acs_connect_profile_sync_23.png)
