@@ -8,9 +8,9 @@ level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
-source-git-commit: 6059693522850c13569b2c8f33137531276a3bd0
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1682'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 >Adobe Analytics 데이터 커넥터는 이제 더 이상 사용되지 않습니다. 사용 중단되는 기능은 계속 사용할 수는 있지만 더 이상 향상 또는 지원되지 않습니다. 이 페이지에서 [을 자세히 알아보십시오](../../rn/using/deprecated-features.md).
 
-## 데이터 커넥터 통합 정보 {#about-data-connector-integration}
+## Data Connector 통합 기본 정보 {#about-data-connector-integration}
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ Adobe Campaign과 Adobe Analytics 통합의 구현에 대한 자세한 내용은
    1. 세그먼트 복구 및 분석
    1. 재마케팅 캠페인을 트리거합니다.
 
-## 통합 {#setting-up-the-integration} 설정
+## 통합 설정 {#setting-up-the-integration}
 
 Data Connector를 설정하려면 Adobe Campaign 인스턴스에 연결하고 다음 작업을 수행해야 합니다.
 
@@ -54,7 +54,7 @@ Data Connector를 설정하려면 Adobe Campaign 인스턴스에 연결하고 �
 * [2단계:Campaign에서 외부 계정 만들기](#step-2--create-the-external-account-in-campaign)
 * [3단계:Adobe Campaign 및 Adobe Analytics 동기화](#step-3--synchronize-adobe-campaign-and-adobe-analytics)
 
-### 1단계:Analytics {#step-1--configure-integration-in-analytics}에서 통합 구성
+### 1단계:Analytics에서 통합 구성 {#step-1--configure-integration-in-analytics}
 
 다음 단계에서는 마법사를 사용하여 Data Connector 구성을 자세히 설명합니다.
 
@@ -68,7 +68,7 @@ Data Connector를 설정하려면 Adobe Campaign 인스턴스에 연결하고 �
 
 1. **[!UICONTROL Admin]** 탭에서 **[!UICONTROL Data Connectors]** 을 선택합니다.
 
-   **[!UICONTROL Data Connectors]** 메뉴에 액세스하려면 다음 Analytics 도구 권한이 있어야 합니다. 자세한 정보는 이 [페이지](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)를 참조하십시오
+   **[!UICONTROL Data Connectors]** 메뉴에 액세스하려면 다음 Analytics 도구 권한이 있어야 합니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)를 참조하십시오
    * 통합(만들기)
    * 통합(업데이트)
    * 통합(삭제)
@@ -117,7 +117,7 @@ Data Connector를 설정하려면 Adobe Campaign 인스턴스에 연결하고 �
 
    이제 데이터 커넥터가 구성되었습니다.
 
-### 2단계:Campaign {#step-2--create-the-external-account-in-campaign}에서 외부 계정을 만듭니다
+### 2단계:Campaign에서 외부 계정 만들기 {#step-2--create-the-external-account-in-campaign}
 
 Analytics 플랫폼에 Adobe Campaign을 통합하는 작업은 커넥터를 사용하여 수행됩니다. 응용 프로그램을 동기화하려면 다음 프로세스를 적용합니다.
 
@@ -155,7 +155,7 @@ Analytics 플랫폼에 Adobe Campaign을 통합하는 작업은 커넥터를 사
 >
 >여러 대상 측정 도구를 사용하는 경우 외부 계정을 만들 때 **[!UICONTROL Partners]** 드롭다운 목록에서 **[!UICONTROL Other]** 을 선택할 수 있습니다. 게재 속성에서 하나의 외부 계정만 참조할 수 있습니다.따라서 Adobe에서 기대하는 매개 변수와 사용된 다른 모든 측정 도구를 추가하여 추적된 URL의 공식을 조정해야 합니다.
 
-### 3단계:Adobe Campaign과 Adobe Analytics 동기화 {#step-3--synchronize-adobe-campaign-and-adobe-analytics}
+### 3단계:Adobe Campaign 및 Adobe Analytics 동기화 {#step-3--synchronize-adobe-campaign-and-adobe-analytics}
 
 외부 계정을 만든 후에는 두 응용 프로그램을 모두 동기화해야 합니다.
 
@@ -235,7 +235,7 @@ Adobe Campaign과 Adobe Analytics 간의 데이터 교환 - Data Connector는 �
 
 
 
-## Adobe Campaign {#tracking-deliveries-in-adobe-campaign}에서 게재 추적
+## Adobe Campaign에서 게재 추적 {#tracking-deliveries-in-adobe-campaign}
 
 Adobe Campaign에서 게재를 보낸 후 Adobe Experience Cloud이 사이트에서 활동을 추적할 수 있도록 하려면 게재 속성에서 일치하는 커넥터를 참조해야 합니다. 이렇게 하려면 다음 단계를 적용합니다.
 
