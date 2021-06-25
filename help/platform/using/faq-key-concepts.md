@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 99%
+source-wordcount: '881'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ Campaign 클라이언트 콘솔의 **도움말 > 정보...[ 메뉴에서 버전 
 
 Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니다. 이러한 모듈 및 구성 가용성은 설치 [배포 유형](../../installation/using/hosting-models.md)이 호스팅(Managed Services), hybrid 또는 온프레미스인지에 따라 달라질 수 있습니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](../../installation/using/capability-matrix.md).
+자세한 내용을 보려면 [여기](../../installation/using/capability-matrix.md)를 클릭하십시오.
 
 ## 사용자 권한을 설정하려면 어떻게 해야 합니까? {#how-can-i-set-up-user-permissions-}
 
@@ -50,7 +50,7 @@ Campaign 관리자는 조직의 사용자에 대한 권한을 설정할 수 있�
 
 사용자 권한에 대한 [자세한 내용을 보려면 여기를 클릭하십시오](../../platform/using/access-management.md).
 
-## Campaign을 통한 개인 정보 보호 규정 준수 방법 {#how-to-be-gdpr-compliant-with-campaign-}
+## Campaign을 통한 개인 정보 보호 규정 준수 방법  {#how-to-be-gdpr-compliant-with-campaign-}
 
 Adobe Campaign은 GDPR 및 CCPA에 대한 개인 정보 보호 규정을 준수하는 데 도움이 되는 도구를 제공합니다.
 
@@ -60,7 +60,7 @@ Adobe 서비스를 사용할 때 GDPR 준수를 위해 Adobe Campaign이 제공�
 
 Adobe Campaign 작업 영역의 기본 사항에 대한 자세한 내용은 [이 섹션을](../../platform/using/adobe-campaign-workspace.md) 참조하십시오.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 캠페인 작업 영역 살펴보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 캠페인 작업 영역 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 ## 메시지 대상자를 선택하려면 어떻게 해야 합니까? {#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -78,25 +78,25 @@ Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체
 
 워크플로우에 대한 [자세한 내용을 살펴보려면 여기를 클릭하십시오](../../workflow/using/about-workflows.md). 또한 [워크플로우 모범 사례](../../workflow/using/building-a-workflow.md)를 참조할 수 있습니다.
 
-## 첫 번째 전자 메일을 만들고 보내는 방법 {#how-to-create-and-send-a-first-email-}
+## 첫 번째 전자 메일을 만들고 보내는 방법  {#how-to-create-and-send-a-first-email-}
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/about-email-channel.md).
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 방법 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
-## SMS 메시지를 보내는 방법 {#how-to-send-sms-messages-}
+## SMS 메시지를 보내는 방법  {#how-to-send-sms-messages-}
 
 [이 섹션](../../delivery/using/sms-channel.md)에서 플랫폼을 구성하고 SMS 메시지를 전송하는 방법을 살펴보십시오.
 
-## 푸시 알림을 전송하는 방법 {#how-to-send-push-notifications-}
+## 푸시 알림을 전송하는 방법  {#how-to-send-push-notifications-}
 
 Adobe Campaign을 사용하여 앱을 통해 iOS 및 Android 디바이스에 [개인화된 푸시 알림 보내기](../../delivery/using/create-notifications-ios.md) 방법을 살펴볼 수 있습니다.
 
-## 온라인 설문 조사를 디자인하고 공유하는 방법 {#how-to-design-and-share-an-online-survey-}
+## 온라인 설문 조사를 디자인하고 공유하는 방법  {#how-to-design-and-share-an-online-survey-}
 
 Campaign Classic을 사용하여 [온라인 설문 조사를 만들기](../../web/using/getting-started-with-surveys.md)위해 디자인하고 게재하는 주요 단계를 배웁니다.
 
-## 랜딩 페이지를 만드는 방법 {#how-to-create-landing-page-}
+## 랜딩 페이지를 만드는 방법  {#how-to-create-landing-page-}
 
 Adobe Campaign 디지털 콘텐츠 편집기를 사용하여 랜딩 페이지를 디자인하고 데이터베이스 필드가 있는 매핑을 정의할 수 있습니다.
 
@@ -108,11 +108,11 @@ Adobe Campaign 디지털 콘텐츠 편집기를 사용하여 랜딩 페이지를
 
 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html)에서 Campaign의 추적 관리에 대해 자세히 알아보십시오.
 
-## 보안 모범 사례 (온-프레미스)란 무엇입니까? {#what-are-security-best-practices--on-premise--}
+## 보안 모범 사례 (온-프레미스)란 무엇입니까?  {#what-are-security-best-practices--on-premise--}
 
 [보안 구성 체크리스트를](https://helpx.adobe.com/kr/campaign/kb/acc-security.html) 참조하여 보안 구성 및 온-프레미스 배포에 대한 보안 구성 및 강화 위한 주요 요소를 탐색합니다.
 
-## 오류 메시지를 번역하는 방법 {#how-to-translate-an-error-message-}
+## 오류 메시지를 번역하는 방법  {#how-to-translate-an-error-message-}
 
 외국어로 오류 메시지가 표시됩니까? 모든 오류 메시지와 해당 번역이 [이 페이지](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)에 나열됩니다.
 
@@ -128,6 +128,6 @@ Adobe는 제품 및 시간의 경과에 따라 기능을 보다 강력한 버전
 
 ## 새로운 설명서 업데이트 및 도움말 자료가 출시됩니까? {#are-there-new-documentation-updates-and-help-materials-released-}
 
-최신 Campaign Classic 설명서 업데이트가 [이 페이지](https://docs.adobe.com/content/help/ko-KR/campaign-classic/using/documentation-updates.html)에 나열됩니다.
+최신 Campaign Classic 설명서 업데이트가 [이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html)에 나열됩니다.
 
 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/article-list.html)에 나열된 최신 기술 노트를 참조할 수도 있습니다.
