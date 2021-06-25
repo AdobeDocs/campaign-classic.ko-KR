@@ -6,9 +6,9 @@ feature: null
 role: null
 level: null
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
-source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
+source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
 workflow-type: tm+mt
-source-wordcount: '3258'
+source-wordcount: '3252'
 ht-degree: 26%
 
 ---
@@ -171,11 +171,11 @@ _2019년 5월 30일_
  <tbody> 
   <tr> 
    <td> Campaign 컨트롤 패널<br /> </td> 
-   <td> <p>관리자로서 작업의 효율성을 높이려면 저장소 모니터링을 통해 SFTP 서버의 설정을 관리하고, 저장소에 IP 주소허용 목록에 추가하다를 추가하고, 각 인스턴스에 대해 SSH 키를 설치하도록 합니다. Campaign 컨트롤 패널은 현재 AWS에서 호스팅되는 고객에게만 제공됩니다(<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">오늘 Experience Cloud을 통해 로그인</a>).</p> <p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/control-panel/control-panel-overview.html">방법 비디오</a>를 참조하십시오. </p><p>참고:Campaign 컨트롤 패널에 액세스하려면 최신 Campaign 빌드로 업그레이드할 필요가 없습니다.</p> </td> 
+   <td> <p>관리자로서 작업의 효율성을 높이려면 저장소 모니터링을 통해 SFTP 서버의 설정을 관리하고, 저장소에 IP 주소허용 목록에 추가하다를 추가하고, 각 인스턴스에 대해 SSH 키를 설치하도록 합니다. Campaign 컨트롤 패널은 현재 AWS에서 호스팅되는 고객에게만 제공됩니다(<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">오늘 Experience Cloud을 통해 로그인</a>).</p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko">방법 비디오</a>를 참조하십시오. </p><p>참고:Campaign 컨트롤 패널에 액세스하려면 최신 Campaign 빌드로 업그레이드할 필요가 없습니다.</p> </td> 
   </tr> 
     <tr> 
    <td> 감사 추적<br /> </td> 
-   <td> <p>관리자는 Adobe Campaign Classic 인스턴스 내에서 수행된 변경 사항을 모니터링하고 관리하여 생산성을 높입니다. 감사 추적에서는 소스 스키마, 워크플로우 및 옵션에서 수행한 작업을 기록합니다. 요소의 생성, 수정 또는 삭제 여부를 빠르게 확인할 수 있습니다.</p><p>자세한 내용은 <a href="../../production/using/audit-trail.md">상세 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/monitoring/audit-trail.html">방법 비디오</a>를 참조하십시오.</p></td> 
+   <td> <p>관리자는 Adobe Campaign Classic 인스턴스 내에서 수행된 변경 사항을 모니터링하고 관리하여 생산성을 높입니다. 감사 추적에서는 소스 스키마, 워크플로우 및 옵션에서 수행한 작업을 기록합니다. 요소의 생성, 수정 또는 삭제 여부를 빠르게 확인할 수 있습니다.</p><p>자세한 내용은 <a href="../../production/using/audit-trail.md">상세 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/monitoring/audit-trail.html">방법 비디오</a>를 참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td> 보호, 견고성 및 확장성<br /> </td> 
