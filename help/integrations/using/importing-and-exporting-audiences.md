@@ -6,16 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '626'
 ht-degree: 4%
 
 ---
 
 # 대상 가져오기 및 내보내기{#importing-and-exporting-audiences}
 
-## 대상 {#importing-an-audience} 가져오기
+## 대상자 가져오기 {#importing-an-audience}
 
 수신자 목록을 통해 Audience Manager 또는 People 핵심 서비스의 대상/세그먼트를 Adobe Campaign으로 가져올 수 있습니다.
 
@@ -49,7 +49,7 @@ ht-degree: 4%
 
 대상 데이터는 동기화될 때마다 완전히 교체됩니다. 세그먼트만 가져올 수 있습니다. 키-값 쌍, 트레이트 및 규칙을 포함한 세부적인 데이터는 지원되지 않습니다.
 
-## 대상 {#exporting-an-audience} 내보내기
+## 대상 내보내기 {#exporting-an-audience}
 
 워크플로우를 사용하여 대상을 Adobe Campaign에서 Audience Manager 또는 People 핵심 서비스로 내보낼 수 있습니다. 워크플로우를 만들고 사용하는 프로세스는 [이 문서](../../workflow/using/building-a-workflow.md)에 자세히 설명되어 있습니다. 내보낸 대상은 People 핵심 서비스에 세그먼트로 저장됩니다.
 
@@ -75,7 +75,7 @@ ht-degree: 4%
 
 대상자를 내보냅니다. 대상자 저장 활동에는 두 개의 아웃바운드 전환이 있습니다. 기본 전환에는 성공적으로 내보낸 수신자가 포함되어 있습니다. 추가 전환에는 방문자 ID나 선언된 ID로 매핑되지 않은 수신자가 포함되어 있습니다.
 
-Adobe Campaign과 People 핵심 서비스 간의 동기화는 24-36시간이 소요됩니다. 이 기간 이후에는 사람 핵심 서비스에서 새 대상자를 찾아 다른 Adobe Experience Cloud 솔루션에서 재사용할 수 있습니다. Adobe 사용자 핵심 서비스에서 Adobe Campaign 공유 대상을 사용하는 방법에 대한 자세한 내용은 이 [설명서](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html)를 참조하십시오.
+Adobe Campaign과 People 핵심 서비스 간의 동기화는 24-36시간이 소요됩니다. 이 기간 이후에는 사람 핵심 서비스에서 새 대상자를 찾아 다른 Adobe Experience Cloud 솔루션에서 재사용할 수 있습니다. Adobe 사용자 핵심 서비스에서 Adobe Campaign 공유 대상을 사용하는 방법에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html)를 참조하십시오.
 
 >[!NOTE]
 >
