@@ -4,7 +4,7 @@ title: IMS를 통해 Adobe Campaign에 연결하도록 환경을 업데이트합
 description: Campaign - IMS 업데이트
 hide: true
 hidefromtoc: true
-source-git-commit: b8f3ba60e34f6c5429c63ed934083ebae180cf43
+source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 9%
@@ -38,13 +38,13 @@ Adobe ID](../integrations/using/about-adobe-id.md)을 통해 Campaign [에 연�
    아래 나열된 새 버전 중 하나로 업그레이드해야 합니다.
 
    * Gold Standard 11. [자세히 알아보기](../rn/using/gold-standard.md)
-   * Campaign 20.3.3 릴리스. [자세히 알아보기](../rn/using/release--20-3.md)
+   * Campaign 21.1.3 릴리스. [자세히 알아보기](../rn/using/latest-release.md)
    * Campaign 20.2.4 릴리스. [자세히 알아보기](../rn/using/release--20-2.md)
    * Campaign 20.1.4 릴리스. [자세히 알아보기](../rn/using/release--20-1.md)
    * Campaign 19.2.4 릴리스. [자세히 알아보기](../rn/using/release--19-2.md)
    * Campaign 19.1.8 릴리스. [자세히 알아보기](../rn/using/release--19-1.md)
 
-이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 업그레이드는 Campaign 서버와 클라이언트 콘솔 모두에 필수입니다.모든 인스턴스가 업그레이드되면 2021년 6월 30일&#x200B;**6월 30일 이후에 Campaign에 연결할 수 있을 뿐만 아니라 클라이언트 콘솔을 이 버전으로 업그레이드해야 합니다**.
+   이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 업그레이드는 Campaign 서버와 클라이언트 콘솔 모두에 필수입니다.모든 인스턴스가 업그레이드되면 2021년 6월 30일&#x200B;**6월 30일 이후에 Campaign에 연결할 수 있을 뿐만 아니라 클라이언트 콘솔을 이 버전으로 업그레이드해야 합니다**.
 
 또한 **Internet Explorer 11** 내장 [Windows 버전](../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)의 최신 업데이트가 각 사용자의 컴퓨터에 설치되어 있는지 확인하십시오.
 
