@@ -6,7 +6,7 @@ feature: 개요
 role: Architect
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Adobe Campaign은 온-프레미스에서 배포할 수 있습니다.사용자 �
 
 ![](assets/deployment_onpremise.png)
 
-Campaign Classic 배포를 시작하기 전에 온-프레미스 고객으로서 다음 사전 요구 사항 및 권장 사항을 확인하십시오.
+온-프레미스 고객은 Campaign Classic 배포를 시작하기 전에 다음 사전 요구 사항과 권장 사항을 충족해야 합니다.
 
 * Adobe Campaign에 대해 지원되는 모든 시스템 및 구성 요소 버전을 나열하는 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.
 * 사용자 환경에 따라 Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) 및 [Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md)용 사전 요구 사항을 참조하십시오.[
