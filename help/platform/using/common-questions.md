@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '510'
 ht-degree: 97%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 Campaign Classic을 사용하여 작업하는 동안 도움이 필요하십니까? 아래의 상위 10개 질문과 해당 페이지의 기타 FAQ를 참조하십시오. 다음을 수행할 수도 있습니다.
 
-* [튜토리얼 비디오 보기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/overview.html)
+* [튜토리얼 비디오 보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)
 * [자가 도움말 옵션 찾아보기](../../platform/using/tutorials.md#how-to-videos)
 * [시작 및 사용 사례 섹션 읽기](../../platform/using/tutorials.md#step-by-step-guides)
 * 답을 찾을 수 없습니까? [전문가에게 문의](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
