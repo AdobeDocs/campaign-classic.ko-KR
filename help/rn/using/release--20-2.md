@@ -6,9 +6,9 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
+source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
 workflow-type: tm+mt
-source-wordcount: '2972'
+source-wordcount: '2968'
 ht-degree: 88%
 
 ---
@@ -81,7 +81,7 @@ _2020년 12월 22일_
 * 게재를 준비하거나 되풀이하는 게재 미리 보기를 사용할 때 웹 프로세스가 충돌할 수 있는 문제를 해결했습니다. (NEO-27790, NEO-27517)
 * 관리자가 아닌 연산자에 의해 트리거될 때 게재 또는 증명 전송이 실패하는 문제를 해결했습니다. (NEO-28597)
 
-![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 Campaign 컨트롤 패널 릴리스**. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
+![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 Campaign 컨트롤 패널 릴리스**. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 20.2.3 - 빌드 9182 {#release-20-2-3-build-9182}
 
@@ -119,7 +119,7 @@ _2020년 7월 22일_
 * [새 시퀀스 ID 메커니즘](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)으로 전환에 따라서 수신자 테이블을 업데이트하는 모든 웹 애플리케이션은 업그레이드 후 다시 게시됩니다.
 * 게재 콘텐츠의 잠재적 XSS 취약성 문제를 해결했습니다. (NEO-17987, NEO-26073)
 
-![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
+![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 20.2.1 - 빌드 9178 {#release-20-2-1-build-9178}
 
