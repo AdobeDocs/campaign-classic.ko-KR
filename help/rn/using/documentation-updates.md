@@ -6,14 +6,14 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: fc40dae282c045dd73547e34ea307297f64c66fa
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '4470'
+source-wordcount: '4466'
 ht-degree: 97%
 
 ---
 
-# 설명서 업데이트 정보{#documentation-updates}
+# 설명서 업데이트{#documentation-updates}
 
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
@@ -128,7 +128,7 @@ Adobe Campaign Enhanced MTA 섹션이 [여기](../../delivery/using/sending-with
 
 이제 SMS 커넥터 프로토콜 및 설정 페이지에 대한 자세한 설명은 [여기](../../delivery/using/sms-protocol.md)에서 볼 수 있습니다.
 
-액세스 권한 문제를 방지하기 위해 이벤트 폴더를 실행 인스턴스의 보기로 설정하지 말아야 한다는 경고를 하기 위해 **트랜잭션 메시지** 섹션에 메모가 추가되었습니다. [자세한 내용](../../message-center/using/about-event-processing.md#event-collection)
+액세스 권한 문제를 방지하기 위해 이벤트 폴더를 실행 인스턴스의 보기로 설정하지 말아야 한다는 경고를 하기 위해 **트랜잭션 메시지** 섹션에 메모가 추가되었습니다. [자세히 알아보기](../../message-center/using/about-event-processing.md#event-collection)
 
 ## 2020년 11월 {#nov-2020}
 
@@ -252,7 +252,7 @@ Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요�
 
 오류 발생 시 하위 워크플로우 로그 및 동작에 정보가 추가되었습니다. [자세한 내용](../../workflow/using/sub-workflow.md)
 
-**[!UICONTROL Scheduler]** 활동 섹션에 모범 사례가 추가되었습니다. [자세한 내용](../../workflow/using/scheduler.md)
+**[!UICONTROL Scheduler]** 활동 섹션에 모범 사례가 추가되었습니다. [자세히 알아보기](../../workflow/using/scheduler.md)
 
 ## 2020년 6월 {#june-2020}
 
@@ -304,7 +304,7 @@ Spam Assassin 설치 섹션이 새 설치 파일 이름으로 업데이트되었
 
 첨부 파일이 있는 트랜잭션 전자 메일 전송 섹션이 이동 및 업데이트되었습니다. [자세한 내용](../../message-center/using/transactional-email-with-attachments.md)
 
-데이터 패키지 모범 사례 섹션이 이동 및 업데이트되었습니다. [자세한 내용](../../platform/using/working-with-data-packages.md#data-package-best-practices)
+데이터 패키지 모범 사례 섹션이 이동 및 업데이트되었습니다. [자세히 알아보기](../../platform/using/working-with-data-packages.md#data-package-best-practices)
 
 ## 2020년 4월 {#april-2020}
 
@@ -334,7 +334,7 @@ Adobe Target의 동적 오퍼를 Adobe Campaign의 전자 메일에 통합하는
 
 이제 Adobe Campaign에서 사용할 수 있는 다양한 언어를 설명하는 새 섹션을 사용할 수 있습니다. [자세한 내용](../../platform/using/adobe-campaign-workspace.md#languages)
 
-지정된 권한에 대한 추가 정보가 있는 액세스 관리 지침이 업데이트되었습니다. [자세한 내용](../../platform/using/access-management-named-rights.md)
+지정된 권한에 대한 추가 정보가 있는 액세스 관리 지침이 업데이트되었습니다. [자세히 알아보기](../../platform/using/access-management-named-rights.md)
 
 ## 2020년 2월 {#february-2020}
 
@@ -492,7 +492,7 @@ Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이
 
 **19.1 릴리스에 포함된 새로운 기능**
 
-제어판 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
+제어판 - [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 감사 추적 - [자세한 내용](../../production/using/audit-trail.md)
 
@@ -599,4 +599,4 @@ Marketing Cloud Trigger 기술 정보가 업데이트되었습니다. [자세한
 
 워크플로우에서 데이터 보강 활동을 사용하여 사용자 지정 필드가 있는 전자 메일을 보내는 방법에 대한 사용 사례를 추가했습니다. [자세한 내용](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 
-기능 비디오가 [여기](https://docs.adobe.com/content/help/ko-KR/campaign-classic-learn/tutorials/overview.html)로 이동되었습니다.
+기능 비디오가 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)로 이동되었습니다.
