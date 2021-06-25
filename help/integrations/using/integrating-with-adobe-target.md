@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 4%
+source-wordcount: '203'
+ht-degree: 0%
 
 ---
 
@@ -32,4 +32,4 @@ Adobe Target에서는 몇 가지 유형의 데이터를 사용할 수 있습니�
 
 >[!NOTE]
 >
->또한 [Adobe Target 도움말 페이지](https://docs.adobe.com/content/help/ko-KR/target/using/integrate/campaign-and-target.html)에서 Adobe Campaign과 Adobe Target 간의 통합에 대한 정보를 찾을 수 있습니다.
+>또한 [Adobe Target 도움말 페이지](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)에서 Adobe Campaign과 Adobe Target 간의 통합에 대한 정보를 찾을 수 있습니다.
