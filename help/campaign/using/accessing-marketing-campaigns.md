@@ -6,9 +6,9 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Adobe Campaign에 연결하면 홈 페이지가 표시됩니다.
 * **캠페인 달력**:계획, 마케팅 프로그램, 게재 및 캠페인 일정. [캠페인 달력](#campaign-calendar)을 참조하십시오.
 * **캠페인**:모든 마케팅 프로그램에 포함된 캠페인에 액세스할 수 있습니다.
 * **게재**:캠페인에 연결된 게재에 액세스합니다.
-* **웹 애플리케이션**:웹 응용 프로그램(양식, 설문 조사 등)에 대한 액세스 권한
+* **웹 애플리케이션**:웹 애플리케이션(양식, 랜딩 페이지 등)에 대한 액세스 권한.
 
 >[!NOTE]
 >
@@ -62,11 +62,11 @@ Adobe Campaign에 연결하면 홈 페이지가 표시됩니다.
 
 각 항목에 연결된 아이콘을 사용하여 상태를 볼 수 있습니다.완료, 진행 중, 편집 중 등
 
-### 마케팅 프로그램 {#browsing-in-a-marketing-program} 검색
+### 마케팅 프로그램에서 찾아보기 {#browsing-in-a-marketing-program}
 
 Campaign을 사용하면 다양한 마케팅 캠페인으로 구성된 프로그램 세트를 관리할 수 있습니다. 각 캠페인에는 게재, 관련 프로세스 및 리소스가 포함되어 있습니다.
 
-#### 프로그램 찾아보기 {#browsing-a-program}
+#### 프로그램 탐색 {#browsing-a-program}
 
 프로그램을 편집할 때 아래 설명된 탭을 사용하여 프로그램을 탐색하고 구성합니다.
 
@@ -80,7 +80,7 @@ Campaign을 사용하면 다양한 마케팅 캠페인으로 구성된 프로그
 
    ![](assets/s_ncs_user_interface_campaign05.png)
 
-#### 캠페인 찾아보기 {#browsing-campaigns}
+#### 캠페인 탐색 {#browsing-campaigns}
 
 캠페인 달력, 프로그램의 **[!UICONTROL Schedule]** 탭 또는 캠페인 목록을 통해 캠페인에 액세스할 수 있습니다.
 
@@ -125,7 +125,7 @@ Adobe Campaign을 사용하면 다양한 마케팅 및 커뮤니케이션 캠페
 
 각 캠페인에 대해 운영자는 전용 포럼을 통해 메시지를 교환할 수 있습니다.
 
-자세한 내용은 [토론 포럼](../../campaign/using/discussion-forums.md)을 참조하십시오.
+자세한 내용은 [토론 포럼](../../mrm/using/discussion-forums.md)을 참조하십시오.
 
 #### 보고서 {#reports}
 
