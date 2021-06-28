@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_survey_properties_general_tab.png)
 
-양식 서식 파일은 양식을 만드는 동안 선택됩니다. 나중에 변경할 수 없습니다. 양식 템플릿 만들기 및 관리에 대한 자세한 내용은 [웹 양식 템플릿 사용](../../web/using/using-a-web-form-template.md) 을 참조하십시오.
+양식 서식 파일은 양식을 만드는 동안 선택됩니다. 나중에 변경할 수 없습니다. 양식 템플릿 만들기 및 관리에 대한 자세한 내용은 [웹 양식 템플릿 사용](using-a-web-form-template.md) 을 참조하십시오.
 
 ## 양식 데이터 저장소 {#form-data-storage}
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 기본적으로 응답은 **수신자 양식** 표에 저장됩니다.
 
-## 오류 페이지 {#setting-up-an-error-page} 설정
+## 오류 페이지 설정 {#setting-up-an-error-page}
 
 오류 페이지를 구성할 수 있습니다.양식 실행 중에 오류가 발생하는 경우 이 페이지가 표시됩니다.
 
@@ -49,11 +49,11 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_survey_error_page.png)
 
-## 양식 현지화 {#form-localization}
+## 양식 로컬라이제이션 {#form-localization}
 
 **[!UICONTROL Localization]** 탭에서는 웹 양식의 디자인 및 표시 언어를 선택할 수 있습니다.
 
-[웹 양식 번역](../../web/using/translating-a-web-form.md)을 참조하십시오.
+[웹 양식 번역](translating-a-web-form.md)을 참조하십시오.
 
 ## 양식 탐색 및 렌더링 {#form-browsing-and-rendering}
 
@@ -77,21 +77,21 @@ ht-degree: 1%
 
 **[!UICONTROL Rendering]** 탭의 **[!UICONTROL Template]** 필드에서 사용 가능한 테마를 선택할 수 있습니다.
 
-테마는 트리의 **[!UICONTROL Administration>Configuration>Form rendering]** 노드에 저장됩니다. [양식 렌더링 템플릿 선택](../../web/using/form-rendering.md#selecting-the-form-rendering-template) 을 참조하십시오
+테마는 트리의 **[!UICONTROL Administration>Configuration>Form rendering]** 노드에 저장됩니다. [양식 렌더링 템플릿 선택](form-rendering.md#selecting-the-form-rendering-template) 을 참조하십시오
 
 속성 창의 아래쪽에 샘플 렌더링이 표시됩니다. **[!UICONTROL Edit link]** 아이콘을 사용하면 선택한 테마의 구성을 볼 수 있습니다.
 
 ![](assets/s_ncs_admin_survey_properties_render.png)
 
-## {#texts-in-the-form} 형식의 텍스트
+## 양식의 텍스트 {#texts-in-the-form}
 
-**[!UICONTROL Page]** 탭에서는 양식 머리글 및 바닥글의 컨텐츠를 정의할 수 있습니다. [머리글 및 바닥글 정의](../../web/using/form-rendering.md#defining-headers-and-footers)를 참조하십시오.
+**[!UICONTROL Page]** 탭에서는 양식 머리글 및 바닥글의 컨텐츠를 정의할 수 있습니다. [머리글 및 바닥글 정의](form-rendering.md#defining-headers-and-footers)를 참조하십시오.
 
-또한 번역을 관리할 수 있습니다. [웹 양식 번역](../../web/using/translating-a-web-form.md)을 참조하십시오.
+또한 번역을 관리할 수 있습니다. [웹 양식 번역](translating-a-web-form.md)을 참조하십시오.
 
-## {#accessibility-of-the-form} 형식의 액세스 가능성
+## 양식의 액세스 가능성 {#accessibility-of-the-form}
 
-웹 양식은 **[!UICONTROL Online]**&#x200B;이고 현재 날짜가 유효 기간 내에 있는 경우 사용자가 액세스할 수 있습니다. 양식 상태는 게시 단계 동안 수정됩니다( [양식 게시](../../web/using/publishing-a-web-form.md#publishing-a-form) 참조). 상태는 속성 창의 **[!UICONTROL General]** 탭에 있는 **Project** 섹션에 표시됩니다.
+웹 양식은 **[!UICONTROL Online]**&#x200B;이고 현재 날짜가 유효 기간 내에 있는 경우 사용자가 액세스할 수 있습니다. 양식 상태는 게시 단계 동안 수정됩니다( [양식 게시](publishing-a-web-form.md#publishing-a-form) 참조). 상태는 속성 창의 **[!UICONTROL General]** 탭에 있는 **Project** 섹션에 표시됩니다.
 
 유효 기간은 **[!UICONTROL Start]** 날짜에서 **[!UICONTROL End date]**&#x200B;로 실행됩니다. 이러한 필드에 날짜가 지정되지 않은 경우 양식은 영구적으로 유효합니다.
 
@@ -144,13 +144,13 @@ ht-degree: 1%
    >
    >**_uuid** 매개 변수가 있는 URL을 통해 양식이 표시되면 **[!UICONTROL origin]** 매개 변수의 값은 **Adobe Campaign**&#x200B;에 강제 표시됩니다.
 
-## 매개 변수 {#adding-parameters} 추가
+## 매개 변수 추가 {#adding-parameters}
 
 양식의 속성 창에서 **[!UICONTROL Parameters...]** 탭을 통해 매개 변수를 추가할 수 있습니다. 다음과 같이 필수로 지정할 수 있습니다.
 
 ![](assets/s_ncs_admin_survey_properties_param.png)
 
-매개변수 값을 검색할 저장 위치를 지정해야 합니다. 이렇게 하려면 저장소 옵션 중 하나를 선택한 다음 **[!UICONTROL Storage]** 탭을 클릭하여 관련 필드나 변수를 선택합니다. 저장소 옵션은 [응답 저장소 필드](../../web/using/web-forms-answers.md#response-storage-fields)에 자세히 설명되어 있습니다.
+매개변수 값을 검색할 저장 위치를 지정해야 합니다. 이렇게 하려면 저장소 옵션 중 하나를 선택한 다음 **[!UICONTROL Storage]** 탭을 클릭하여 관련 필드나 변수를 선택합니다. 저장소 옵션은 [응답 저장소 필드](web-forms-answers.md#response-storage-fields)에 자세히 설명되어 있습니다.
 
 그런 다음 양식에 액세스하기 위해 URL에 응답자 상태(0, 1 또는 다른 값)를 추가할 수 있습니다. 이 정보는 양식의 페이지 또는 테스트 상자에서 다시 사용할 수 있습니다. 표시된 페이지는 아래와 같이 컨텍스트의 값을 기준으로 조건을 지정할 수 있습니다.
 
