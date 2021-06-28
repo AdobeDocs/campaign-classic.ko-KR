@@ -6,9 +6,9 @@ audience: social
 content-type: reference
 topic-tags: annexes
 exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '2222'
 ht-degree: 1%
 
 ---
@@ -41,14 +41,14 @@ ht-degree: 1%
 >
 >이러한 간단한 사용 사례는 Facebook 유형 웹 애플리케이션의 기능을 보여주는 예로서 제공됩니다.
 
-## Recommendations {#recommendations}
+## 추천 {#recommendations}
 
 다음 제한 사항은 Facebook에 직접 연결됩니다.
 
 * HTTPS로 모든 웹 애플리케이션을 빌드해야 합니다.
 * 탭을 통해 표시되는 Facebook 애플리케이션의 너비는 810픽셀입니다.
 
-## 빠른 시작:7단계 {#quick-start--creating-a-facebook-application-in-7-steps}에서 Facebook 애플리케이션 만들기
+## 빠른 시작:7단계로 Facebook 애플리케이션 만들기 {#quick-start--creating-a-facebook-application-in-7-steps}
 
 이 예제는 Facebook에서 Adobe Campaign 기본 제공 애플리케이션을 표시하는 방법에 대한 단계별 프로세스를 제공합니다. 이 경우 사용자가 애플리케이션 탭(**App01**)을 클릭할 때 **Welcome** 메시지를 표시할 수 있는 애플리케이션을 만들려고 합니다.
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 ![](assets/social_webapp_042.png)
 
-## facebook 애플리케이션에 설정을 전달하는 방법{#how-to-forward-settings-to-a-facebook-application-}
+## facebook 애플리케이션에 설정을 전달하는 방법 {#how-to-forward-settings-to-a-facebook-application-}
 
 >[!IMPORTANT]
 >
@@ -120,7 +120,7 @@ facebook이 Adobe Campaign에 보내는 익명 데이터 중 **[!UICONTROL Appli
 
 ![](assets/social_webapp_018.png)
 
-## 팬 데이터를 얻는 방법{#how-to-acquire-fan-data-}
+## 팬 데이터를 얻는 방법 {#how-to-acquire-fan-data-}
 
 >[!IMPORTANT]
 >
@@ -257,7 +257,7 @@ facebook에 연결된 표시 오류를 옆으로 이동하려면 **[!UICONTROL U
 
 ![](assets/social_webapp_027.png)
 
-### 방문자 {#details-screen-of-a-visitor} 세부 정보 화면
+### 방문자의 세부 사항 화면 {#details-screen-of-a-visitor}
 
 twitter 팔로워의 경우처럼 다음을 참조하십시오.[운영 원칙](../../social/using/publishing-on-twitter.md#operating-principle))에서 복구된 Facebook 프로필은 방문자 표에 저장됩니다. 방문자 목록을 표시하려면 **[!UICONTROL Profiles and Targets > Visitors]** 노드로 이동합니다.
 
@@ -297,7 +297,7 @@ twitter 팔로워의 경우처럼 다음을 참조하십시오.[운영 원칙](.
    >
    >Adobe Campaign에서 팬의 체크 인을 수집하려면 서비스 구성 화면에서 **[!UICONTROL Subscribe]** 버튼을 클릭해야 합니다. 자세한 내용은 [외부 계정 구성](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)을 참조하십시오.
 
-## facebook 프로필 데이터 {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}를 사용하여 양식의 필드를 미리 로드하는 방법
+## facebook 프로필 데이터를 사용하여 양식을 미리 로드하는 방법 {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
 
 또한 **[!UICONTROL Social Marketing]** 응용 프로그램을 사용하면 Facebook 프로필 정보를 사용하여 필드를 미리 로드할 수 있도록 양식에 단추를 추가할 수 있습니다. 모든 웹 응용 프로그램 템플릿(**[!UICONTROL Page]** 유형 활동)에서 사용할 수 있는 이 옵션은 [이 섹션에 자세히 설명되어 있습니다.](../../web/using/static-elements-in-a-web-form.md#inserting-html-content)
 
@@ -306,3 +306,55 @@ twitter 팔로워의 경우처럼 다음을 참조하십시오.[운영 원칙](.
 >[!NOTE]
 >
 >이 함수 사용을 시작하기 전에 Facebook 애플리케이션을 만들고 **[!UICONTROL Facebook Connect]** 유형 외부 계정을 만들어야 합니다. 자세한 내용은 [외부 계정 구성](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)을 참조하십시오.
+
+**facebook 프로필에서 가져온 데이터로 양식 필드를 미리 로드합니다**
+
+웹 양식을 만들고 사용자가 양식 페이지에 상호 작용이 없는 요소를 포함합니다.이미지, HTML 콘텐츠, 가로 막대 또는 하이퍼텍스트 링크와 같은 정적 요소입니다. [이 페이지](../../web/using/static-elements-in-a-web-form.md)에서 웹 양식의 정적 요소에 대해 자세히 알아보십시오.
+
+정적 요소를 삽입할 때 **[!UICONTROL Preload with Facebook]** 옵션을 사용하면 Facebook 프로필 정보를 사용하여 필드를 미리 로드하기 위해 양식에 단추를 삽입할 수 있습니다.
+
+![](assets/web_social_webapp_037.png)
+
+사용자가 **[!UICONTROL Fill in automatically]** 버튼을 클릭하면 Facebook 권한 요청 창이 열립니다.
+
+![](assets/web_social_webapp_029.png)
+
+>[!NOTE]
+>
+>외부 계정을 구성할 때 확장 권한 목록을 변경할 수 있습니다. 확장 권한이 구성되지 않은 경우 Facebook은 기본적으로 기본 프로필 정보를 전달합니다.\
+>확장 권한 목록과 구문을 보려면 [Facebook 설명서](https://developers.facebook.com/docs/reference/api/permissions)를 참조하십시오.
+
+사용자가 정보를 공유하기로 동의하면 양식의 필드가 미리 로드됩니다.
+
+![](assets/web_social_webapp_030.png)
+
+이 사용 사례에서는 다음 요소로 구성된 웹 애플리케이션을 만들었습니다.
+
+* 양식이 포함된 페이지
+* **[!UICONTROL Record]** 활동
+* **[!UICONTROL End]** 활동
+
+![](assets/social_webapp_031.png)
+
+미리 로드 단추를 추가하려면 다음 단계를 수행합니다.
+
+1. 양식을 만듭니다.
+
+   ![](assets/social_webapp_032.png)
+
+1. 양식의 필드와 동일한 수준으로 이동하여 링크를 추가합니다.
+
+   ![](assets/social_webapp_033.png)
+
+1. 레이블을 입력하고 **[!UICONTROL Button]** 유형을 선택합니다.
+
+   ![](assets/social_webapp_034.png)
+
+1. **[!UICONTROL Action]** 필드로 이동하고 **[!UICONTROL Preload with Facebook]** 을 선택합니다.
+
+   ![](assets/social_webapp_035.png)
+
+1. **[!UICONTROL Application]** 필드로 이동하고 이전에 만든 **[!UICONTROL Facebook Connect]** 유형 외부 계정을 선택합니다. 자세한 정보는 이 [페이지](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)를 참조하십시오.
+
+   ![](assets/social_webapp_036.png)
+
