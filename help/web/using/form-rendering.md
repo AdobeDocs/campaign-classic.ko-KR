@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 양식 렌더링{#form-rendering}
 
-## 양식 렌더링 템플릿 {#selecting-the-form-rendering-template} 선택
+## 양식 렌더링 템플릿 선택 {#selecting-the-form-rendering-template}
 
 양식 설정을 사용하면 페이지를 생성하는 데 사용되는 템플릿을 선택할 수 있습니다. 액세스하려면 양식 세부 사항 도구 모음에서 **[!UICONTROL Settings]** 버튼을 클릭하고 **[!UICONTROL Rendering]** 탭을 선택합니다. 기본적으로 사용할 수 있는 템플릿(스타일 시트)이 여러 개 있습니다.
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 ## 양식 렌더링 사용자 지정 {#customizing-form-rendering}
 
-### 요소 {#changing-the-layout-of-elements} 레이아웃 변경
+### 요소 레이아웃 변경 {#changing-the-layout-of-elements}
 
 양식의 각 요소(입력 필드, 이미지, 라디오 단추 등)에 대해 스타일 시트를 오버로드할 수 있습니다.
 
@@ -69,9 +69,9 @@ ht-degree: 2%
 
 다음과 같은 속성을 정의할 수 있습니다.
 
-* **[!UICONTROL Label position]**:레이블  [위치 정의를 참조하십시오](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels).
+* **[!UICONTROL Label position]**:레이블  [위치 정의를 참조하십시오](defining-web-forms-layout.md#defining-the-position-of-labels).
 * **[!UICONTROL Label format]**:자동 줄바꿈 또는 자동 줄 바꿈 없음
-* **[!UICONTROL Number of cells]** :페이지 [에 필드 위치 지정](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page)을 참조하십시오.
+* **[!UICONTROL Number of cells]** :페이지 [에 필드 위치 지정](defining-web-forms-layout.md#positioning-the-fields-on-the-page)을 참조하십시오.
 * **[!UICONTROL Horizontal alignment]** (왼쪽, 오른쪽, 가운데) 및  **[!UICONTROL Vertical alignment]** (높음, 낮음, 중간),
 * **[!UICONTROL Width]** 영역:백분율이나 em, 포인트 또는 픽셀(기본값)로 표시될 수 있습니다.
 * 최대 **[!UICONTROL Length]**:허용되는 최대 문자 수(텍스트, 숫자 및 암호 유형 컨트롤),
@@ -96,7 +96,7 @@ ht-degree: 2%
 
 ![](assets/webform_header_page_tab.png)
 
-## 제어 설정 정의 {#defining-control-settings}
+## 컨트롤 설정 정의 {#defining-control-settings}
 
 사용자가 양식을 작성하면 형식이나 구성에 따라 특정 필드에 자동으로 확인이 수행됩니다. 이렇게 하면 특정 필드를 필수로 만들거나([필수 필드 정의](#defining-mandatory-fields) 참조) 입력한 데이터의 형식을 확인할 수 있습니다( [데이터 형식 확인](#checking-data-format) 참조). 검사는 페이지 승인 중에 수행됩니다(출력 전환을 활성화하는 링크 또는 단추를 클릭하여).
 
@@ -118,7 +118,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_admin_survey_required_custom_msg2.png)
 
-### 데이터 형식 {#checking-data-format} 확인 중
+### 데이터 형식 확인 {#checking-data-format}
 
 데이터베이스의 기존 필드에 값이 저장되어 있는 양식을 확인하는 경우 저장소 필드에 대한 규칙이 적용됩니다.
 
@@ -146,19 +146,19 @@ ht-degree: 2%
 
 * 기본 트리에는 양식 컨텍스트의 매개 변수가 포함되어 있습니다. 기본 매개 변수는 수신자의 암호화된 식별자와 일치하는 식별자, 언어 및 원본입니다.
 
-   자세한 정보는 이 [페이지](../../web/using/defining-web-forms-properties.md#form-url-parameters)를 참조하십시오.
+   자세한 정보는 이 [페이지](defining-web-forms-properties.md#form-url-parameters)를 참조하십시오.
 
 * **[!UICONTROL Recipients]** 하위 트리에는 양식에 삽입되어 데이터베이스에 저장된 입력 필드가 포함되어 있습니다.
 
-   자세한 내용은 [데이터베이스에 데이터 저장](../../web/using/web-forms-answers.md#storing-data-in-the-database)을 참조하십시오.
+   자세한 내용은 [데이터베이스에 데이터 저장](web-forms-answers.md#storing-data-in-the-database)을 참조하십시오.
 
-* **[!UICONTROL Variables]** 하위 트리에는 이 양식에 사용할 수 있는 변수가 포함되어 있습니다. 자세한 내용은 [로컬 변수에 데이터 저장](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable)을 참조하십시오.
+* **[!UICONTROL Variables]** 하위 트리에는 이 양식에 사용할 수 있는 변수가 포함되어 있습니다. 자세한 내용은 [로컬 변수에 데이터 저장](web-forms-answers.md#storing-data-in-a-local-variable)을 참조하십시오.
 
-자세한 내용은 다음 사용 사례를 참조하십시오.[선택한 값에 따라 다른 옵션을 표시합니다](../../web/using/use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
+자세한 내용은 다음 사용 사례를 참조하십시오.[선택한 값에 따라 다른 옵션을 표시합니다](use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
 
-**[!UICONTROL Test]** 개체를 사용하여 양식 페이지의 표시를 조건화할 수도 있습니다. 자세한 정보는 이 [페이지](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display)를 참조하십시오.
+**[!UICONTROL Test]** 개체를 사용하여 양식 페이지의 표시를 조건화할 수도 있습니다. 자세한 정보는 이 [페이지](defining-web-forms-page-sequencing.md#conditional-page-display)를 참조하십시오.
 
-## 기존 양식 {#importing-elements-from-an-existing-form}에서 요소 가져오기
+## 기존 양식에서 요소 가져오기 {#importing-elements-from-an-existing-form}
 
 다른 웹 양식에서 필드나 컨테이너를 가져올 수 있습니다. 주소 블록, 뉴스레터 구독 영역 등과 같은 양식에 삽입할 재사용 가능한 블록 라이브러리를 만들 수 있습니다.
 
