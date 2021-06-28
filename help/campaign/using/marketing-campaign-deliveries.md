@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 2%
@@ -114,7 +114,7 @@ ht-degree: 2%
 >
 >비용 계산 및 주식 관리에 대한 자세한 내용은 [공급자, 주식 및 예산](../../campaign/using/providers--stocks-and-budgets.md)을 참조하십시오.
 
-## 연결된 문서 관리 {#managing-associated-documents}
+## 관련 문서 관리 {#managing-associated-documents}
 
 보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인에 연결할 수 있습니다. 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 사용할 수 있습니다. 이 섹션](../../campaign/using/marketing-campaign-assets.md)에서 문서를 캠페인 [에 연결하는 방법을 알아봅니다.
 
@@ -126,9 +126,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->MRM을 사용하는 경우 여러 참여자가 공동 작업을 위해 사용할 수 있는 마케팅 리소스 라이브러리를 관리할 수도 있습니다. [마케팅 리소스 관리](../../campaign/using/managing-marketing-resources.md)를 참조하십시오.
+>MRM을 사용하는 경우 여러 참여자가 공동 작업을 위해 사용할 수 있는 마케팅 리소스 라이브러리를 관리할 수도 있습니다. [마케팅 리소스 관리](../../mrm/using/managing-marketing-resources.md)를 참조하십시오.
 
-### 문서 {#adding-documents} 추가
+### 문서 추가 {#adding-documents}
 
 문서는 캠페인 수준(상황별 문서) 또는 프로그램 수준(일반 문서)에서 연결할 수 있습니다.
 
@@ -155,7 +155,7 @@ ht-degree: 2%
 
 이 보기에서 편집하고 수정할 수도 있습니다.
 
-### 게재 개요 {#associating-and-structuring-resources-linked-via-a-delivery-outline}를 통해 연결된 리소스 연결 및 구조화
+### 게재 아웃라인을 통해 연결된 리소스 연결 및 구조화 {#associating-and-structuring-resources-linked-via-a-delivery-outline}
 
 >[!NOTE]
 >
@@ -203,9 +203,9 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >마케팅 리소스에 대한 자세한 내용은 [마케팅 리소스 관리](../../campaign/using/managing-marketing-resources.md)를 참조하십시오.
+   >마케팅 리소스에 대한 자세한 내용은 [마케팅 리소스 관리](../../mrm/using/managing-marketing-resources.md)를 참조하십시오.
 
-#### 개요 선택 {#selecting-an-outline}
+#### 아웃라인 선택 {#selecting-an-outline}
 
 각 게재에 대해 다음 예와 같이 추출 아웃라인에 예약된 섹션에서 연결할 아웃라인을 선택할 수 있습니다.
 
