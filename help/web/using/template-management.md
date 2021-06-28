@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 69805e60-8fc6-45d1-9087-5f7d949cc76a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 5%
@@ -21,9 +21,9 @@ ht-degree: 5%
 
 ![](assets/dce_popup_templatechoice.png)
 
-템플릿을 추가하려면 [전역 옵션](../../web/using/content-editor-interface.md#global-options)을 참조하십시오.
+템플릿을 추가하려면 [전역 옵션](content-editor-interface.md#global-options)을 참조하십시오.
 
-## 게재를 템플릿 {#saving-a-delivery-as-a-template}(으)로 저장
+## 게재를 템플릿으로 저장 {#saving-a-delivery-as-a-template}
 
 게재를 구성한 후 템플릿으로 저장하여 향후 게재에 다시 사용할 수 있습니다.
 
