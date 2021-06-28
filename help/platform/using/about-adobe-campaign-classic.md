@@ -6,14 +6,14 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 95%
 
 ---
 
-# Campaign Classic{#about-adobe-campaign-classic} 시작
+# Campaign Classic 시작{#about-adobe-campaign-classic}
 
 높은 수준의 고객 참여도와 훌륭한 경험을 제공하려면 브랜드는 모든 접점에서 일관된 고객 여정을 만들어야 합니다. 마케터는 이제 마케팅 투자에 대한 높은 수익을 제공하고 충성도를 높일 수 있는 크로스 채널 마케팅 캠페인을 효율적으로 디자인, 계획, 실행, 관리 및 최적화할 수 있습니다.
 
@@ -33,7 +33,7 @@ Adobe Campaign의 마케팅 캠페인 주기는 제품의 주요 기능을 보�
 
 ![](assets/d_ncs_user_emarketing.png)
 
-### Integrated customer profile {#integrated-customer-profile}
+### 통합 고객 프로필 {#integrated-customer-profile}
 
 프로필(고객, 잠재 고객, 뉴스레터 구독자 등) 은 Adobe Campaign 데이터베이스에 중앙 집중화됩니다. 프로필을 가져오고 이 데이터베이스를 빌드하는 데 사용할 수 있는 메커니즘은 웹 양식을 통한 온라인 수집, 텍스트 파일 수동 또는 자동 가져오기, 회사 데이터베이스 또는 기타 정보 시스템을 사용한 복제와 같이 다양합니다. Adobe Campaign을 사용하면 마케팅 기록, 구매 정보, 환경 설정, CRM 데이터 및 관련 PII 데이터를 통합 뷰에 통합하여 분석하고 조치를 취할 수 있습니다.
 
@@ -49,11 +49,11 @@ Adobe Campaign은 고도로 타겟팅되고 차별화된 오퍼를 만들 수 �
 
 ### 크로스 채널 캠페인 오케스트레이션 {#cross-channel-campaign-orchestration}
 
-Adobe Campaign을 사용하면 타겟팅되고 개인화된 캠페인을 전자 메일, DM, SMS, 푸시 알림과 같은 다양한 채널에 디자인 및 오케스트레이션 할 수 있습니다. 단일 인터페이스는 모든 캠페인 및 커뮤니케이션을 일정 계획, 오케스트레이션, 구성, 개인화, 자동화, 실행 및 측정하는 데 필요한 모든 기능을 제공합니다. 캠페인 일정 예약 및 실행에 대한 자세한 내용은 [이 페이지](../../campaign/using/setting-up-marketing-campaigns.md)를 참조하십시오.
+Adobe Campaign을 사용하면 타기팅되고 개인화된 캠페인을 이메일, DM, SMS, 푸시 알림과 같은 다양한 채널에 디자인 및 오케스트레이션 할 수 있습니다. 단일 인터페이스는 모든 캠페인 및 커뮤니케이션을 일정 계획, 오케스트레이션, 구성, 개인화, 자동화, 실행 및 측정하는 데 필요한 모든 기능을 제공합니다. 캠페인 일정 예약 및 실행에 대한 자세한 내용은 [이 페이지](../../campaign/using/setting-up-marketing-campaigns.md)를 참조하십시오.
 
 ### 개인화 및 실시간 상호 작용 {#personalization-and-real-time-interaction}
 
-고객 프로필과 기본 설정을 기반으로 한 메시지 콘텐츠와 헤더의 고급 개인화 덕분에 고객의 관심을 유도하고 응답률을 향상시킬 수 있습니다. 메시지 콘텐츠 관리 및 개인화에 대한 자세한 내용은 [이 페이지](../../delivery/using/about-personalization.md)를 참조하십시오. 콘텐츠, 알림 및 승인 회로의 공동 관리 기능은 [이 섹션](../../campaign/using/about-marketing-resource-management.md)에 자세히 설명되어 있습니다.
+고객 프로필과 기본 설정을 기반으로 한 메시지 콘텐츠와 헤더의 고급 개인화 덕분에 고객의 관심을 유도하고 응답률을 향상시킬 수 있습니다. 메시지 콘텐츠 관리 및 개인화에 대한 자세한 내용은 [이 페이지](../../delivery/using/about-personalization.md)를 참조하십시오. 콘텐츠, 알림 및 승인 회로의 공동 관리 기능은 [이 섹션](../../mrm/using/about-marketing-resource-management.md)에 자세히 설명되어 있습니다.
 
 ### 분석 및 보고 {#analysis-and-reporting}
 
@@ -71,13 +71,13 @@ Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 �
 
 * [채널](../../delivery/using/steps-about-delivery-creation-steps.md) - 다양한 채널에서 게재를 디자인 및 전송합니다. 전자 메일, SMS, Line, 모바일 앱, DM,
 * [캠페인](../../campaign/using/designing-marketing-campaigns.md) - 크로스 채널 캠페인 오케스트레이션,
-* [MRM](../../campaign/using/about-marketing-resource-management.md) - 마케팅 리소스 및 예산 관리,
+* [MRM](../../mrm/using/about-marketing-resource-management.md) - 마케팅 리소스 및 예산 관리,
 * [상호 작용](../../interaction/using/interaction-and-offer-management.md) - 캠페인으로 오퍼 관리,
 * [메시지 센터](../../message-center/using/about-transactional-messaging.md) - 전자 메일, SMS 또는 모바일 앱으로 트랜잭션 메시지를 보낼 수 있습니다.
 * [소셜 마케팅](../../social/using/about-social-marketing.md) - Facebook, Twitter와 같은 소셜 미디어에서 커뮤니케이션,
 * [워크플로우](../../workflow/using/about-workflows.md) /데이터 관리 - 워크플로우를 통해 프로세스 자동화 및 데이터 관리
 * [웹 애플리케이션](../../web/using/about-web-applications.md) - 웹 페이지 및 양식 만들기,
-* [설문 조사 관리자](../../web/using/about-surveys.md) - 온라인 설문 조사 및 투표 만들기,
+* [설문 조사 관리자](../../surveys/using/about-surveys.md) - 온라인 설문 조사 및 투표 만들기,
 * [Content Manager](../../delivery/using/about-content-management.md) - 전자 메일 콘텐츠 관리,
 * [분산 마케팅](../../campaign/using/about-distributed-marketing.md) - 중앙/지방 에이전시의 캠페인 조정
 * [응답 관리자](../../campaign/using/about-response-manager.md) - 고객 응답 관리,
