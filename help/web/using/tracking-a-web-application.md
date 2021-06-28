@@ -6,16 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '397'
 ht-degree: 3%
 
 ---
 
 # 웹 애플리케이션에서 방문 수 추적{#tracking-a-web-application}
 
-Adobe Campaign에서는 추적 태그를 삽입하여 웹 애플리케이션 페이지의 방문을 추적하고 측정할 수 있습니다. 이 기능은 모든 웹 애플리케이션 유형(양식, 온라인 설문 조사, DCE를 사용하여 만든 웹 페이지 등)에 사용할 수 있습니다.
+Adobe Campaign에서는 추적 태그를 삽입하여 웹 애플리케이션 페이지의 방문을 추적하고 측정할 수 있습니다. 이 기능은 모든 웹 애플리케이션 유형(양식, 웹 페이지 등)에 사용할 수 있습니다.
 
 따라서 여러 탐색 경로를 정의하고 그 성공을 평가할 수 있습니다. 그런 다음 각 애플리케이션의 보고서에서 복구된 데이터를 사용할 수 있습니다.
 
@@ -55,13 +55,11 @@ Adobe Campaign에서는 추적 태그를 삽입하여 웹 애플리케이션 페
 
 >[!NOTE]
 >
->익명 추적은 배포 마법사에서 해당 옵션을 활성화한 경우에만 가능합니다.
->
->자세한 내용은 [설치 안내서](../../installation/using/deploying-an-instance.md)를 참조하십시오.
+>익명 추적은 Campaign을 설치할 때 배포 마법사에서 옵션이 활성화된 경우에만 사용할 수 있습니다.
 
-## 디지털 콘텐츠 편집기(DCE)로 디자인된 웹 응용 프로그램 {#web-applications-designed-with-digital-content-editor--dce-}
+## DCE(디지털 콘텐츠 편집기)로 설계된 웹 애플리케이션 {#web-applications-designed-with-digital-content-editor--dce-}
 
-HTML 콘텐츠 편집기를 사용하여 웹 응용 프로그램을 만들 때 - **디지털 콘텐츠 편집기(DCE)** - 추적 태그가 편집기의 **[!UICONTROL Properties]** 탭에서 삽입됩니다. DCE(디지털 콘텐츠 편집기)에 대한 자세한 내용은 [이 섹션](../../web/using/about-campaign-html-editor.md)을 참조하십시오.
+HTML 콘텐츠 편집기를 사용하여 웹 응용 프로그램을 만들 때 - **디지털 콘텐츠 편집기(DCE)** - 추적 태그가 편집기의 **[!UICONTROL Properties]** 탭에서 삽입됩니다. DCE(디지털 콘텐츠 편집기)에 대한 자세한 내용은 [이 섹션](about-campaign-html-editor.md)을 참조하십시오.
 
 ![](assets/trackers_2.png)
 
