@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 3%
@@ -47,7 +47,7 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 
 >[!NOTE]
 >
->웹 응용 프로그램 만들기에 대한 자세한 내용은 [이 섹션](../../web/using/creating-a-new-web-application.md)을 참조하십시오.
+>웹 응용 프로그램 만들기에 대한 자세한 내용은 [이 섹션](creating-a-new-web-application.md)을 참조하십시오.
 
 ## 1단계 - 템플릿 선택 및 로드 {#step-1---selecting-and-loading-templates}
 
@@ -96,7 +96,7 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 
 ![](assets/dce_uc1_lp_enchainement.png)
 
-### 컨텐츠 {#modifying-content} 수정
+### 콘텐츠 수정 {#modifying-content}
 
 먼저 페이지의 색상을 변경하겠습니다. 방법은 다음과 같습니다.
 
@@ -128,7 +128,7 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 
 ![](assets/dce_uc1_fieldmandatory.png)
 
-### 다음 페이지 {#creating-a-link-to-the-next-page} 링크 만들기
+### 다음 페이지에 대한 링크 만들기 {#creating-a-link-to-the-next-page}
 
 이 단계는 웹 응용 프로그램에서 다음 단계의 시퀀스를 결정할 수 있도록 허용하므로 필수입니다.수집된 데이터를 데이터베이스에 저장한 다음 다음 페이지(**감사 인사** 페이지)를 표시합니다.
 
