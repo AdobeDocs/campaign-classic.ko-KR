@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -25,9 +25,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Campaign 마케팅 리소스 관리 모듈을 사용하는 경우 공동 작업을 위해 여러 사용자가 사용할 수 있는 마케팅 리소스 라이브러리를 관리할 수도 있습니다. [자세히 알아보기](../../campaign/using/managing-marketing-resources.md)
+>Campaign 마케팅 리소스 관리 모듈을 사용하는 경우 공동 작업을 위해 여러 사용자가 사용할 수 있는 마케팅 리소스 라이브러리를 관리할 수도 있습니다. [자세히 알아보기](../../mrm/using/managing-marketing-resources.md)
 
-## 문서 {#adding-documents} 추가
+## 문서 추가 {#adding-documents}
 
 문서는 캠페인 수준(상황별 문서) 또는 프로그램 수준(일반 문서)에서 연결할 수 있습니다.
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 이 보기에서 편집하고 수정할 수도 있습니다.
 
-## 게재 개요 {#associating-and-structuring-resources-linked-via-a-delivery-outline}를 통해 연결된 리소스 연결 및 구조
+## 게재 아웃라인을 통해 연결된 리소스 연결 및 구조 {#associating-and-structuring-resources-linked-via-a-delivery-outline}
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 캠페인의 경우, 게재 개요를 사용하면 특정 기준에 따라 게재와 연결할 외부 요소를 구성할 수 있습니다.관련 분기, 프로모션 오퍼 제공, 로컬 이벤트 초대 등
 
-### 개요 {#creating-an-outline} 만들기
+### 개요 만들기 {#creating-an-outline}
 
 개요를 만들려면 관련 캠페인의 **[!UICONTROL Edit > Documents]** 탭에서 **[!UICONTROL Delivery outlines]** 하위 탭을 클릭합니다.
 
@@ -102,9 +102,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >마케팅 리소스에 대한 자세한 내용은 [이 섹션](../../campaign/using/managing-marketing-resources.md)을 참조하십시오.
+   >마케팅 리소스에 대한 자세한 내용은 [이 섹션](../../mrm/using/managing-marketing-resources.md)을 참조하십시오.
 
-### 개요 {#selecting-an-outline} 선택
+### 아웃라인 선택 {#selecting-an-outline}
 
 각 게재에 대해 다음 예와 같이 추출 아웃라인에 예약된 섹션에서 연결할 아웃라인을 선택할 수 있습니다.
 
