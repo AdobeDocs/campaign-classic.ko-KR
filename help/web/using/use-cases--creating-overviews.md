@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ![](assets/s_ncs_configuration_webapp_overview.png)
 
-## 단일 페이지 웹 응용 프로그램 만들기 {#creating-a-single-page-web-application}
+## 단일 페이지 웹 애플리케이션 만들기 {#creating-a-single-page-web-application}
 
 1. 단일 **[!UICONTROL Page]** 웹 애플리케이션을 만들고 아웃바운드 전환 및 다음 페이지로 전환을 비활성화합니다.
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_configuration_webapp_preview.png)
 
-## {#adding-a-filter-on-a-folder} 폴더에 필터 추가
+## 폴더에 필터 추가 {#adding-a-filter-on-a-folder}
 
 개요에서는 Adobe Campaign 트리의 위치에 따라 데이터에 액세스하도록 선택할 수 있습니다. 폴더의 필터입니다. 다음 프로세스를 적용하여 개요에 추가합니다.
 
@@ -80,7 +80,7 @@ ht-degree: 0%
    >
    >이 단계에서는 웹 응용 프로그램이 응용 프로그램 컨텍스트 내에 있지 않으므로 폴더에서 필터를 테스트할 수 없습니다.
 
-## 새 웹 응용 프로그램 {#adding-a-button-to-configure-a-new-web-application} 구성을 위한 단추 추가
+## 새 웹 응용 프로그램을 구성하는 단추 추가 {#adding-a-button-to-configure-a-new-web-application}
 
 1. 커서를 **[!UICONTROL Page]** 요소에 놓고 링크(**[!UICONTROL Static elements > Link]**)를 추가합니다.
 1. 개요 단추에 표시되므로 링크 레이블을 수정합니다.
@@ -158,7 +158,7 @@ ht-degree: 0%
 >
 >JavaScript 라이브러리를 서버에서 새로 고치는 데 5분이 소요됩니다. 이 지연을 기다리지 않도록 서버를 다시 시작할 수 있습니다.
 
-## 목록 {#filtering-and-updating-the-list} 필터링 및 업데이트
+## 목록 필터링 및 업데이트 {#filtering-and-updating-the-list}
 
 이 섹션에서는 특정 연산자가 생성한 웹 응용 프로그램의 개요를 표시하는 필터를 만듭니다. 이 필터는 링크 편집기를 사용하여 만듭니다. 연산자를 선택하면 목록을 새로 고쳐 필터를 적용합니다.새로 고침 링크를 만들어야 합니다.
 
@@ -169,7 +169,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_configuration_webapp_container.png)
 
-   요소 레이아웃에 대한 자세한 내용은 [이 섹션](../../web/using/about-web-forms.md)을 참조하십시오.
+   요소 레이아웃에 대한 자세한 내용은 [이 섹션](about-web-forms.md)을 참조하십시오.
 
 1. **점선 필터**&#x200B;를 적용합니다.
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_configuration_webapp_container002.png)
 
-### 링크 편집기 {#creating-a-filter-using-a-link-editor}를 사용하여 필터 만들기
+### 링크 편집기를 사용하여 필터 만들기 {#creating-a-filter-using-a-link-editor}
 
 1. 이전 단계 동안 만든 컨테이너에 커서를 놓고 **[!UICONTROL Advanced controls]** 메뉴를 통해 링크 편집기를 삽입합니다.
 1. 자동으로 열리는 저장소 창에서 **[!UICONTROL Variables]** 옵션을 선택한 다음 **[!UICONTROL Edit variables]** 링크를 클릭하고 데이터를 필터링할 XML 변수를 만듭니다.
@@ -205,7 +205,7 @@ ht-degree: 0%
 >
 >웹 애플리케이션 사용자는 정보에 액세스하려면 해당 Adobe Campaign 권한이 있는 식별된 연산자여야 합니다. 이 유형의 구성은 익명 웹 응용 프로그램에서 작동하지 않습니다.
 
-### 새로 고침 링크 {#creating-a-refresh-link} 만들기
+### 새로 고침 링크 만들기 {#creating-a-refresh-link}
 
 1. 컨테이너에 커서를 놓고 **[!UICONTROL Static elements]** 메뉴를 통해 **[!UICONTROL Link]** 를 삽입합니다.
 1. 레이블을 수정합니다.
