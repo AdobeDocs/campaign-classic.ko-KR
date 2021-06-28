@@ -4,10 +4,10 @@ title: Adobe Analytics 커넥터로 마이그레이션
 description: Campaign - Analytics 커넥터 FAQ
 hide: true
 hidefromtoc: true
-source-git-commit: 248bd7774c01adb44ce33d0499c2b01d013e75bd
+source-git-commit: cde4ed65abb2458fc40639b92314f8d56b18b78c
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 6%
+source-wordcount: '840'
+ht-degree: 5%
 
 ---
 
@@ -22,12 +22,12 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 
 >[!NOTE]
 >
->이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+>이러한 변경 사항에 대한 질문이 있으면 [FAQ](#faq-aa)를 참조하십시오. 자세한 내용은 [고객 지원 센터 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
 
 ## 변경 사항
 
-이제 Campaign Classic과 Adobe Analytics 간의 새로운 통합을 사용할 수 있습니다. 주요 변경 사항은 아래에 나와 있습니다.
+이제 Campaign Classic v7와 Adobe Analytics 간의 새로운 통합을 사용할 수 있습니다. 주요 변경 사항은 아래에 나와 있습니다.
 
 * Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합이 사용자/암호에서 IMS(Adobe Identity Management Service)로 이동되었습니다. 따라서 Analytics 커넥터 구현을 시작하기 전에 Adobe IMS를 구현하고 Adobe ID](../integrations/using/about-adobe-id.md)을 통해 Campaign [에 연결해야 합니다.
 
@@ -58,7 +58,7 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 모든 인스턴스가 업그레이드되면 [새 통합](../platform/using/adobe-analytics-connector.md)을 Adobe Analytics Connector로 구현하고 원활하게 전환할 수 있습니다.
 
 
-## FAQ
+## FAQ{#faq-aa}
 
 **로그를 가져오려면 어떻게 해야 합니까?**
 
@@ -71,17 +71,21 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 * 사용자 인터페이스에 대한 세부 사항 모드를 활성화하려면세부 정보 표시 모드에서 `web` 프로세스를 다시 실행합니다.
 * **webAnalytics** 워크플로우에 대한 세부 정보 표시 모드를 활성화하려면워크플로우 속성에서 **엔진에서 실행** 옵션을 선택하고 세부 정보 표시 모드로 `wfserver`를 다시 실행합니다.
 
-**통합 소유자가 관리자가 아님**
+**통합 소유자가 관리자가 아님 오류가 의미하는 것은 무엇입니까?**
 
 [이 페이지](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error)에 있는 Data Connectors &quot;Integration Owner Not Admin&quot; 오류에 대해 자세히 알아보십시오.
 
-**분석에 있는 기존 evar/events/reportsuite가 Campaign에 표시되지 않습니다.**
+**새 커넥터로 마이그레이션한 후 이전 데이터와 보고서 세트는 어떻게 됩니까?**
+
+마이그레이션 후 새 커넥터(이전 커넥터에서 마이그레이션됨)가 데이터를 동일한 보고서 세트로 푸시하기 시작하며 기존 데이터는 영향을 받지 않습니다.기존 데이터에 추가됩니다.
+
+**Analytics에 있는 일부 기존 evar/이벤트/보고서 세트는 Campaign에 표시되지 않습니다. 어떻게 해야 합니까?**
 
 통합은 일상적인 작업을 위해 기술 계정 토큰에 있는 데이터를 사용합니다. 기술 계정 사용자와 연결된 제품 프로필에서 차원/지표/보고서 세트에 대한 권한이 없는 경우 Adobe에서 사용하는 API는 해당 요청에 대해 단지 실패합니다.
 
 Analytics 구성 요소의 세부 사항을 읽는 경우(지표/차원/세그먼트/보고서 세트 등) API는 결과에 이러한 구성 요소를 반환하지 않습니다(Analytics 측에서 삭제되었거나 존재하지 않을 수 있음). Analytics API는 이러한 요청 및 오류를 거부합니다.
 
-이 솔루션은 [Adobe Admin Console](https://adminconsole.adobe.com/)에 이러한 구성 요소를 추가하여 기술 사용자 토큰의 Analytics 사용자 컨텍스트에서 제품 프로필을 새로 만들거나 누락된 구성 요소로 업데이트하는 것입니다.
+해결 방법은 [Adobe Admin Console](https://adminconsole.adobe.com/)에 이러한 구성 요소를 추가하여 기술 사용자 토큰의 Analytics 사용자 컨텍스트에서 **제품 프로필**&#x200B;을 새로 만들거나 누락된 구성 요소로 업데이트하는 것입니다. 자세한 내용은 [고객 지원 센터 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
 ## 유용한 링크
 
