@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 5%
@@ -207,7 +207,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->**[!UICONTROL Arbitration]** 유형 유형화는 판매 압력 관리 프레임워크에서 사용됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/about-marketing-resource-management.md)을 참조하십시오.
+>**[!UICONTROL Arbitration]** 유형 유형화는 판매 압력 관리 프레임워크에서 사용됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../mrm/using/about-marketing-resource-management.md)을 참조하십시오.
 
 ## 승인 모드 변경 {#changing-the-approval-mode}
 
