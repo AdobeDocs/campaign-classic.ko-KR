@@ -7,7 +7,7 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign을 사용하면 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등을 통해 고객이 실제로 원하는 동적 캠페인을 제작, 조정 및 전달할 수 있습니다.
 sub-product: Aadobe Campaign Classic
 type: Documentation
-source-git-commit: 9febe6bc68c8bc31714a74455fa70ef83920ded9
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
 source-wordcount: '2518'
 ht-degree: 96%
@@ -261,12 +261,6 @@ ht-degree: 96%
       + [승인 설정 및 관리](campaign/using/marketing-campaign-approval.md)
       + [캠페인 모니터링](campaign/using/marketing-campaign-monitoring.md)
       + [공급자, 재고 및 예산](campaign/using/providers--stocks-and-budgets.md)
-   + 작업, 리소스 및 예산 {#tasks--resources-and-budgets}
-      + [마케팅 리소스 관리 정보](campaign/using/about-marketing-resource-management.md)
-      + [작업 만들기 및 관리](campaign/using/creating-and-managing-tasks.md)
-      + [비용 제어](campaign/using/controlling-costs.md)
-      + [마케팅 리소스 관리](campaign/using/managing-marketing-resources.md)
-      + [토론 포럼](campaign/using/discussion-forums.md)
    + 캠페인 최적화 {#campaign-optimization}
       + [캠페인 유형 분류 정보](campaign/using/about-campaign-typologies.md)
       + [압력 규칙](campaign/using/pressure-rules.md)
@@ -275,20 +269,26 @@ ht-degree: 96%
       + [필터링 규칙](campaign/using/filtering-rules.md)
       + [규칙 적용](campaign/using/applying-rules.md)
       + [캠페인 시뮬레이션](campaign/using/campaign-simulations.md)
-   + 분산 마케팅 {#distributed-marketing}
-      + [분산 마케팅 정보](campaign/using/about-distributed-marketing.md)
-      + [로컬 캠페인 만들기](campaign/using/creating-a-local-campaign.md)
-      + [공동 캠페인 만들기](campaign/using/creating-a-collaborative-campaign.md)
-      + [캠페인 패키지 게시](campaign/using/publishing-the-campaign-package.md)
-      + [캠페인 액세스](campaign/using/accessing-campaigns.md)
-      + [캠페인 추적](campaign/using/tracking-a-campaign.md)
-      + [활용 사례](campaign/using/examples.md)
-   + 응답 관리자 {#response-manager}
-      + [응답 관리자 시작](campaign/using/about-response-manager.md)
-      + [구성](campaign/using/configuration.md)
-      + [가설 템플릿](campaign/using/hypothesis-templates.md)
-      + [가설 만들기](campaign/using/creating-hypotheses.md)
-      + [가설 추적](campaign/using/hypothesis-tracking.md)
++ 마케팅 리소스 관리 {#mrm}
+   + [마케팅 리소스 관리 정보](mrm/using/about-marketing-resource-management.md)
+   + [작업 만들기 및 관리](mrm/using/creating-and-managing-tasks.md)
+   + [비용 제어](mrm/using/controlling-costs.md)
+   + [마케팅 리소스 관리](mrm/using/managing-marketing-resources.md)
+   + [토론 포럼](mrm/using/discussion-forums.md)
++ 분산 마케팅 {#distributed-marketing}
+   + [분산 마케팅 정보](campaign/using/about-distributed-marketing.md)
+   + [로컬 캠페인 만들기](campaign/using/creating-a-local-campaign.md)
+   + [공동 캠페인 만들기](campaign/using/creating-a-collaborative-campaign.md)
+   + [캠페인 패키지 게시](campaign/using/publishing-the-campaign-package.md)
+   + [캠페인 액세스](campaign/using/accessing-campaigns.md)
+   + [캠페인 추적](campaign/using/tracking-a-campaign.md)
+   + [활용 사례](campaign/using/examples.md)
++ 응답 관리자 {#response-manager}
+   + [응답 관리자 시작](campaign/using/about-response-manager.md)
+   + [구성](campaign/using/configuration.md)
+   + [가설 템플릿](campaign/using/hypothesis-templates.md)
+   + [가설 만들기](campaign/using/creating-hypotheses.md)
+   + [가설 추적](campaign/using/hypothesis-tracking.md)
 + 보고서 디자인 및 공유 {#reporting}
    + 보고 시작하기 {#reporting-in-adobe-campaign}
       + [보고 도구](reporting/using/about-adobe-campaign-reporting-tools.md)
@@ -326,7 +326,6 @@ ht-degree: 96%
       + [표시기 만들기](reporting/using/creating-indicators.md)
       + [큐브로 데이터 탐색](reporting/using/using-cubes-to-explore-data.md)
       + [개념 및 방법](reporting/using/concepts-and-methodology.md)
-      + [활용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + 웹 콘텐츠 디자인 {#designing-content}
    + 웹 애플리케이션 {#web-applications}
       + [웹 애플리케이션 시작](web/using/about-web-applications.md)
@@ -357,14 +356,15 @@ ht-degree: 96%
       + [웹 양식 속성 정의](web/using/defining-web-forms-properties.md)
       + [웹 양식 번역](web/using/translating-a-web-form.md)
       + [활용 사례: 웹 양식](web/using/use-cases--web-forms.md)
-   + 온라인 설문 조사 {#online-surveys}
-      + [설문 조사 시작](web/using/about-surveys.md)
-      + [설문 조사 만들기의 주요 단계](web/using/getting-started-with-surveys.md)
-      + [설문 조사 디자인](web/using/building-a-survey.md)
-      + [답변 관리](web/using/managing-answers.md)
-      + [수집된 데이터 게시, 추적 및 사용](web/using/publish--track-and-use-collected-data.md)
-      + [설문 조사 구성](web/using/configuring-surveys.md)
-      + [활용 사례: 참조 양식 만들기](web/using/use-case--creating-a-refer-a-friend-form.md)
++ 온라인 설문 조사 만들기 {#online-surveys}
+   + [설문 조사 시작](surveys/using/about-surveys.md)
+   + [설문 조사 만들기의 주요 단계](surveys/using/getting-started-with-surveys.md)
+   + [설문 조사 디자인](surveys/using/building-a-survey.md)
+   + [답변 관리](surveys/using/managing-answers.md)
+   + [수집된 데이터 게시, 추적 및 사용](surveys/using/publish--track-and-use-collected-data.md)
+   + [설문 조사 구성](surveys/using/configuring-surveys.md)
+   + [활용 사례: 참조 양식 만들기](surveys/using/use-case--creating-a-refer-a-friend-form.md)
+   + [활용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Adobe Experience Cloud와 통합 {#integrating-with-adobe-experience-cloud}
    + [Campaign 통합 정보](integrations/using/about-campaign-integrations.md)
    + 대상자 공유 {#audience-sharing}
