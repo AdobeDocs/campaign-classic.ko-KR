@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 * **분할**:대상을 여러 하위 집합으로 분할할 수 있습니다. [분할](../../workflow/using/split.md) 섹션을 참조하십시오.
 * **셀**:에서는 데이터 열 형태로 다양한 하위 세트를 볼 수 있으며, 하위 세트가 많을 경우 이러한 하위 집합을 쉽게 조작할 수 있습니다. 자세한 내용은 [셀](../../workflow/using/cells.md) 섹션을 참조하십시오.
 * **셀별 오퍼**:다른 오퍼를 모집단의 각 하위 세트에 연결할 수 있습니다. [셀별 오퍼](../../workflow/using/offers-by-cell.md) 섹션을 참조하십시오.
-* **설문 조사 답변**:설문 조사 중에 수집된 정보를 복구할 수 있습니다. 자세한 정보는 이 [섹션](../../web/using/getting-started-with-surveys.md)을 참조하십시오.
+* **설문 조사 답변**:설문 조사 중에 수집된 정보를 복구할 수 있습니다. 자세한 정보는 이 [섹션](../../surveys/using/getting-started-with-surveys.md)을 참조하십시오.
 * **게재 개요**:게재 개요를 추가할 수 있습니다. [게재 개요](../../workflow/using/delivery-outline.md) 섹션을 참조하십시오.
 * **데이터 보강**:작업 테이블 또는 워크플로우에 열을 추가할 수 있습니다. [데이터 보강](../../workflow/using/enrichment.md) 섹션을 참조하십시오.
 * **스키마 편집**:변환, 표준화 및 필요한 경우 데이터를 보강할 수 있습니다. 자세한 내용은 [스키마 편집](../../workflow/using/edit-schema.md) 섹션을 참조하십시오.
