@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
-source-wordcount: '3058'
+source-wordcount: '3048'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Adobe Campaign 클라이언트 콘솔에서 사용할 수 있는 그래픽 마�
 
 이러한 매개 변수는 게재 템플릿에서 오버로드될 수 있으며 각 게재에 대해 개별적으로 오버로드될 수 있습니다(사용자에게 필요한 권한이 있는 경우).
 
-### 배달된 전자 메일의 매개 변수 {#parameters-for-delivered-emails}
+### 배달된 이메일의 매개 변수 {#parameters-for-delivered-emails}
 
 ![](assets/s_ncs_install_deployment_wiz_04.png)
 
@@ -84,7 +84,7 @@ Adobe Campaign 클라이언트 콘솔에서 사용할 수 있는 그래픽 마�
 
 이 외에도 보낸 사람 주소와 오류 주소에 대해 허가된 **마스크**&#x200B;를 지정할 수 있습니다. 필요한 경우 쉼표를 사용하여 마스크를 분리할 수 있습니다. 이 구성은 선택 사항입니다. 필드를 입력하면 Adobe Campaign은 배달 시(주소에 변수가 포함되어 있지 않은 경우 분석 중에) 주소가 유효한지 확인합니다. 이 운영 모드에서는 배달 문제를 트리거할 수 있는 주소가 사용되지 않습니다. 게재 주소는 게재 서버에서 구성해야 합니다.
 
-### 주소에 허용되는 문자 {#characters-authorized-in-addresses}
+### 주소에 인증된 문자 {#characters-authorized-in-addresses}
 
 <!--This window enables you to define, for all email campaigns, the delivery and address-quality management options.-->
 
@@ -130,7 +130,7 @@ Adobe Campaign 데이터베이스에서 모든 이메일 주소는 다음과 같
 
 ![](assets/s_ncs_install_deployment_wiz_06.png)
 
-### 받는 메일 {#pop-account-used-to-retrieve-incoming-mails}을 검색하는 데 사용되는 POP 계정
+### 받는 메일을 검색하는 데 사용되는 POP 계정 {#pop-account-used-to-retrieve-incoming-mails}
 
 수신 전자 메일 검색을 위한 계정에 연결할 매개 변수를 지정합니다.
 
@@ -204,7 +204,7 @@ POP 설정이 지정되면 **테스트**&#x200B;를 클릭하여 설정이 올�
 
    ![](assets/s_ncs_install_deployment_wiz_18.png)
 
-### 추적 {#saving-tracking} 저장 중
+### 추적 저장 {#saving-tracking}
 
 URL을 채운 후에는 추적 서버를 등록해야 합니다.
 
@@ -275,7 +275,7 @@ URL 검색 **에 연결된 매개 변수는 표준 설치를 위해**&#x200B;을
 * **[!UICONTROL Label]** :이 SMS/Wap 푸시 계정의 이름을 입력합니다. 예를 들어 라우터의 이름을 사용할 수 있습니다.
 * **[!UICONTROL Server]**, **[!UICONTROL Port]**, **[!UICONTROL Account]**, **[!UICONTROL Password]**, **[!UICONTROL Connector]**, **[!UICONTROL Send Endpoint]**, **[!UICONTROL Reception Endpoint]**, **[!UICONTROL Notification Endpoint]** 필드의 경우:필요한 설정은 서비스 공급업체에 문의하십시오.
 
-### {#parameters-of-sms-sent}을(를) 보낸 SMS의 매개 변수
+### 보낸 SMS의 매개 변수 {#parameters-of-sms-sent}
 
 **우선순위** 드롭다운 목록에서 다음을 수행합니다.전송할 메시지에 적용하려면 &quot;일반&quot;, &quot;높음&quot; 또는 &quot;긴급&quot;을 선택합니다.
 
@@ -301,7 +301,7 @@ URL 검색 **에 연결된 매개 변수는 표준 설치를 위해**&#x200B;을
 * **[!UICONTROL Consider all phone numbers as international ones]** :이 옵션을 선택하면 응용 프로그램에서 국제 형식을 전화 번호에 적용합니다. 이때 국가 접두사는 서식을 적용하기 전에 자릿수를 확인하지 않으므로 필수입니다. 이 옵션을 선택하지 않으면 국제전화 번호 앞에 &quot;+&quot; 또는 &quot;00&quot;을 붙여야 합니다.
 * **[!UICONTROL Store all phone numbers using the international format]** :이 옵션은  **** 가져오거나 편집된 국내 전화 번호에만 적용됩니다. 국내 형식(예: 425 55 0150)을 사용할지, 국제 형식(예:+1 425 555 0150)
 
-## 인터넷 {#access-from-the-internet}에서 액세스
+## 인터넷에서 액세스 {#access-from-the-internet}
 
 >[!IMPORTANT]
 >
@@ -313,7 +313,7 @@ URL 검색 **에 연결된 매개 변수는 표준 설치를 위해**&#x200B;을
 
 ![](assets/s_ncs_install_deployment_wiz_15.png)
 
-### 웹 {#servers-exposed-on-the-web}에 노출된 서버
+### 웹에 노출된 서버 {#servers-exposed-on-the-web}
 
 이 페이지에서는 다음 작업을 수행할 서버 URL을 채울 수 있습니다.
 
@@ -325,7 +325,7 @@ URL 검색 **에 연결된 매개 변수는 표준 설치를 위해**&#x200B;을
 
 Adobe Campaign을 사용하면 이러한 3개의 URL을 구분하여 로드를 여러 플랫폼에 분산할 수 있습니다.
 
-## 공용 리소스 관리 {#managing-public-resources}
+## 공개 리소스 관리 {#managing-public-resources}
 
 >[!IMPORTANT]
 >
@@ -345,7 +345,7 @@ Adobe Campaign을 사용하면 이러한 3개의 URL을 구분하여 로드를 �
 
 ![](assets/install_pub_resources_view.png)
 
-### 공용 리소스 URL {#public-resources-url}
+### 공개 리소스 URL {#public-resources-url}
 
 첫 번째 필드를 사용하면 업로드한 후 리소스에 사용되는 URL의 시작을 지정할 수 있습니다. 업로드하면 이 새 URL을 통해 리소스에 액세스할 수 있습니다.
 
@@ -357,7 +357,7 @@ Adobe Campaign을 사용하면 이러한 3개의 URL을 구분하여 로드를 �
 
 * 공개 리소스의 경우 URL **https://** server **/res/**&#x200B;인스턴스&#x200B;****입니다. 여기서&#x200B;**인스턴스**는 추적 인스턴스의 이름입니다.
 
-### 배달 이미지 탐지 {#delivery-image-detection}
+### 게재 이미지 탐지 {#delivery-image-detection}
 
 게재에서는 공용 리소스 라이브러리에 저장된 이미지나 서버에 저장된 기타 로컬 이미지나 이미지를 사용할 수 있습니다.
 
@@ -372,7 +372,7 @@ Adobe Campaign을 사용하면 이러한 3개의 URL을 구분하여 로드를 �
 
 ### 게시 모드 {#publication-modes}
 
-마법사의 아래쪽 섹션에서 공개 리소스 및 이미지의 게시 옵션을 선택할 수 있습니다. 이러한 옵션은 웹 양식 및 설문 조사에도 사용할 수 있습니다.
+마법사의 아래쪽 섹션에서 공개 리소스 및 이미지의 게시 옵션을 선택할 수 있습니다.
 
 다음 게시 모드를 사용할 수 있습니다.
 
