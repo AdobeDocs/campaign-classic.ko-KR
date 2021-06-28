@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '980'
 ht-degree: 6%
 
 ---
@@ -21,17 +21,17 @@ Adobe Campaign 데이터베이스의 개념적 데이터 모델은 내장된 테
 
 Adobe Campaign은 함께 연결된 테이블이 들어 있는 관계형 데이터베이스를 사용합니다. Adobe Campaign 데이터 모델의 기본 구조는 다음과 같이 설명될 수 있습니다.
 
-### 받는 사람 테이블 {#recipient-table}
+### 수신자 테이블 {#recipient-table}
 
 데이터 모델은 기본적으로 수신자 테이블(**NmsRecipient**)인 기본 테이블을 사용합니다. 이 테이블을 사용하면 모든 마케팅 프로필을 저장할 수 있습니다.
 
 수신자 테이블에 대한 자세한 내용은 [이 섹션](#default-recipient-table)을 참조하십시오.
 
-### 배달 테이블 {#delivery-table}
+### 게재 테이블 {#delivery-table}
 
 데이터 모델에는 모든 마케팅 활동을 저장하도록 구성된 파트도 포함되어 있습니다. 일반적으로 배달 테이블(**NmsDelivery**)입니다. 이 테이블의 각 레코드는 게재 작업 또는 게재 템플릿을 나타냅니다. 여기에는 Target, 콘텐츠 등과 같은 게재를 수행하는 데 필요한 모든 매개 변수가 포함되어 있습니다.
 
-### 테이블 {#log-tables} 로그
+### 로그 테이블 {#log-tables}
 
 데이터 모델의 다른 부분에서 캠페인 실행과 연관된 모든 로그를 일시적으로 저장할 수 있습니다.
 
@@ -43,13 +43,13 @@ Adobe Campaign은 함께 연결된 테이블이 들어 있는 관계형 데이�
 
 마지막으로, 데이터 모델의 일부는 연산자 및 사용자 권한(**NmsGroup**), 폴더(**XtkFolder**)를 포함하여 응용 프로그램 프로세스에 사용되는 기술 데이터에 포함되어 있습니다.
 
-## 기본 수신자 테이블 {#default-recipient-table} 사용
+## 기본 제공 수신자 테이블 사용 {#default-recipient-table}
 
-Adobe Campaign의 바로 사용 가능한 수신자 테이블은 데이터 모델을 구축하는 데 적합한 시작점을 제공합니다. 미리 정의된 필드 및 테이블 링크를 많이 포함하며 쉽게 확장할 수 있습니다. 이 기능은 간단한 수신자 중심 데이터 모델에 적합하므로 주로 수신자를 타겟팅하는 경우에 특히 유용합니다.
+Adobe Campaign의 기본 제공 수신자 테이블은 데이터 모델을 구축하는 데 적합한 시작점을 제공합니다. 미리 정의된 필드 및 테이블 링크를 많이 포함하며 쉽게 확장할 수 있습니다. 이 기능은 간단한 수신자 중심 데이터 모델에 적합하므로 주로 수신자를 타겟팅하는 경우에 특히 유용합니다.
 
-표준 수신자 테이블을 사용하면 다음과 같은 이점이 있습니다.
+기본 제공 수신자 테이블을 사용하면 다음과 같은 이점이 있습니다.
 
-* 구독, 시드 목록, 설문 조사, 소셜 등과 같은 기능을 기본적으로 사용할 수 있습니다.
+* 구독, 시드 목록 등과 같은 기능을 기본으로 사용하여 작업하는 방법
 * 수신자 중심 데이터 모델을 마케팅 데이터베이스에 제공합니다.
 * 더욱 신속한 구현.
 * 지원 및 파트너의 간편한 유지 관리
@@ -62,7 +62,7 @@ Adobe Campaign의 바로 사용 가능한 수신자 테이블은 데이터 모�
 
 또한 수신자 테이블은 제품의 일부이므로 제품과 연관된 양식은 모두 제품이 변경될 때 발전합니다. 따라서 업그레이드 시 모든 확장이 계속 유효한지 확인하려면 추가 유지 관리가 필요합니다.
 
-## 데이터 모델 {#extending-data-model} 확장
+## 데이터 모델 확장 {#extending-data-model}
 
 Adobe Campaign을 시작할 때 기본 데이터 모델을 평가하여 마케팅 데이터를 저장하는 데 가장 적합한 테이블을 확인해야 합니다.
 
@@ -79,7 +79,7 @@ Adobe Campaign을 시작할 때 기본 데이터 모델을 평가하여 마케�
 >
 >데이터 모델 확장은 고급 사용자를 위해 예약되어 있습니다.
 
-## 사용자 지정 수신자 테이블 {#custom-recipient-table} 사용
+## 사용자 지정 수신자 테이블 사용 {#custom-recipient-table}
 
 Adobe Campaign 데이터 모델을 디자인할 때 [즉시 사용 가능한 수신자 테이블](#default-recipient-table)을 사용하거나 [사용자 지정 수신자 테이블](../../configuration/using/about-custom-recipient-table.md) 테이블을 만들어 마케팅 프로필을 저장할 수 있습니다.
 
