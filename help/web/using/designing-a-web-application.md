@@ -6,28 +6,22 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 3%
+source-wordcount: '256'
+ht-degree: 4%
 
 ---
 
 # 웹 애플리케이션 디자인{#designing-a-web-application}
 
-웹 응용 프로그램은 [온라인 설문 조사](../../web/using/about-surveys.md)와 동일한 원칙에 따라 생성 및 관리됩니다.
-
-그러나 기능 차이점은 다음과 같습니다.
-
-* 웹 응용 프로그램은 아카이브된 필드를 사용하지 않습니다. 따라서 데이터는 데이터베이스 필드나 로컬 변수만 저장할 수 있습니다.
-* 웹 응용 프로그램에 기본 제공된 보고서가 없습니다.
-* 표 및 차트 작성을 위해 추가 필드가 제공됩니다.
+웹 응용 프로그램은 [웹 양식](about-web-forms.md)과 동일한 원칙에 따라 생성 및 관리됩니다.
 
 >[!CAUTION]
 >
->웹 애플리케이션 구성 프로세스의 초기에 오류를 탐지하기 위해 적용된 구성을 계속 확인하는 것이 좋습니다. 수정 사항 렌더링을 확인하려면 애플리케이션을 저장한 다음 **[!UICONTROL Preview]** 하위 탭을 클릭합니다.
+>웹 응용 프로그램 디자인 중 오류를 확인하려면 **[!UICONTROL Preview]** 하위 탭을 사용하십시오.
 >
->웹 응용 프로그램이 게시되기 전에는 최종 사용자가 변경 내용을 볼 수 없습니다.
+>웹 응용 프로그램이 게시될 때까지 변경 사항은 최종 사용자에게 표시되지 않습니다.
 
 ## 웹 응용 프로그램에 차트 삽입 {#inserting-charts-in-a-web-application}
 
@@ -49,7 +43,7 @@ ht-degree: 3%
 
 ![](assets/s_ncs_admin_webapps_table.png)
 
-## 개요 유형 웹 응용 프로그램 {#overview-type-web-applications}
+## 개요 유형 웹 애플리케이션 {#overview-type-web-applications}
 
 Adobe Campaign 인터페이스는 많은 웹 애플리케이션을 사용하여 수신자, 게재, 캠페인, 주식 등에 액세스하고, 관리하고, 상호 작용합니다.
 
@@ -57,7 +51,7 @@ Adobe Campaign 인터페이스는 많은 웹 애플리케이션을 사용하여 
 
 기본 제공 웹 응용 프로그램은 **[!UICONTROL Administration > Configuration > Web applications]** 노드에 저장됩니다.
 
-## 양식 유형 웹 응용 프로그램 편집 {#edit-forms-type-web-applications}
+## 양식 형식의 웹 응용 프로그램 편집 {#edit-forms-type-web-applications}
 
 엑스트라넷용 양식 웹 응용 프로그램은 다음과 같은 특징이 있습니다.
 
@@ -70,4 +64,3 @@ Adobe Campaign 인터페이스는 많은 웹 애플리케이션을 사용하여 
 
    &quot;개요&quot; 유형 웹 응용 프로그램에는 모두 단일 페이지가 있지만, 편집 양식은 특정 기준(테스트, 선택, 연결된 연산자의 프로필 등)에 따라 일련의 페이지를 제공할 수 있습니다.
 
-이 유형의 웹 응용 프로그램의 작업은 **설문 조사**&#x200B;와 유사하지만 기록 관리나 필드 보관이 없습니다. 사용자는 일반적으로 자신을 식별해야 하는 로그인 페이지를 통해 액세스합니다.
