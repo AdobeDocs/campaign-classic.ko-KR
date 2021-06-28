@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 82c5c610-8161-4686-aa79-1b690e763765
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 5%
@@ -21,7 +21,7 @@ Adobe Campaign DCE(디지털 콘텐츠 편집기)로 만든 웹 애플리케이�
 
 이 옵션을 사용하면 블록 컨텐츠를 번역해야 하는지 여부를 나타낼 수 있습니다.
 
-변환할 문자열은 응용 프로그램의 **[!UICONTROL Translations]** 탭을 통해 웹 응용 프로그램의 다른 문자열과 동일한 방법으로 수집됩니다. 자세한 정보는 이 [페이지](../../web/using/translating-a-web-form.md)를 참조하십시오.
+변환할 문자열은 응용 프로그램의 **[!UICONTROL Translations]** 탭을 통해 웹 응용 프로그램의 다른 문자열과 동일한 방법으로 수집됩니다. 자세한 정보는 이 [페이지](translating-a-web-form.md)를 참조하십시오.
 
 변환할 문자열에 플래그를 지정하려면 다음을 수행하십시오.
 
