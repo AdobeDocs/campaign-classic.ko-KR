@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여할 서비스 공급자를 정의할 수 있습니다. 서비스 공급자 및 관련 비용 구조에 대한 정보는 기본 보기에서 Adobe Campaign 관리자가 정의합니다. 서비스 공급자가 게재에서 참조되고, 비용 구조를 통해 이 게재와 관련된 비용과 해당 주식의 관리를 계산할 수 있습니다.
 
-## 서비스 공급자 및 비용 구조를 만드는 중 {#creating-service-providers-and-their-cost-structures}
+## 서비스 공급자 및 비용 구조 생성 {#creating-service-providers-and-their-cost-structures}
 
 각 서비스 공급자는 연락처 정보, 서비스 템플릿 및 관련 작업이 있는 파일에 저장됩니다.
 
@@ -41,9 +41,9 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
    [서비스를 캠페인과 연결](#associating-a-service-with-a-campaign)을 참조하십시오.
 
-### 서비스 공급자 및 해당 비용 범주 만들기 {#creating-a-service-provider-and-its-cost-categories}
+### 서비스 공급자 및 해당 비용 범주 생성 {#creating-a-service-provider-and-its-cost-categories}
 
-#### 서비스 공급자 {#adding-a-service-provider} 추가
+#### 서비스 공급자 추가 {#adding-a-service-provider}
 
 게재에 필요한 수만큼 서비스 공급자를 만들 수 있습니다. 서비스 공급자를 추가하는 절차는 다음과 같습니다.
 
@@ -54,7 +54,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 1. 서비스 공급자를 목록에 추가하려면 **[!UICONTROL Save]** 버튼을 클릭합니다.
 
-#### 비용 범주 정의 {#defining-cost-categories}
+#### 원가 범주 정의 {#defining-cost-categories}
 
 서비스 템플릿을 각 서비스 공급자와 연결해야 합니다. 이러한 템플릿에서 먼저 비용 범주와 필요한 경우 해당 주식을 식별해야 합니다. 그런 다음 원가 구조를 통해 각 범주에 대한 원가 계산 규칙을 생성해야 합니다.
 
@@ -91,7 +91,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
    ![](assets/s_ncs_user_supplier_default_cost.png)
 
-### 비용 구조 정의 {#defining-the-cost-structure}
+### 원가 구조 정의 {#defining-the-cost-structure}
 
 각 원가 유형에 대해 원가 구조는 적용할 계산 규칙을 지정합니다.
 
@@ -137,7 +137,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 ![](assets/s_ncs_user_supplier_cost_structure_calc_04.png)
 
-### 서비스 {#configuring-processes-associated-with-a-service}에 연결된 프로세스 구성
+### 서비스와 연결된 프로세스 구성 {#configuring-processes-associated-with-a-service}
 
 **[!UICONTROL Processes]** 탭을 통해 서비스와 연결된 프로세스에 대한 정보를 연결할 수 있습니다.
 
@@ -155,7 +155,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 * **[!UICONTROL Post-processing]** 섹션에서는 게재를 승인한 후 시작할 워크플로우를 선택할 수 있습니다. 워크플로우 템플릿을 입력하면 승인이 적용된 즉시 워크플로우 인스턴스가 자동으로 만들어지고 실행됩니다. 이 워크플로우는 예를 들어 처리를 위해 추출 파일을 외부 서비스 공급자에게 보낼 수 있습니다.
 
-### 서비스를 캠페인 {#associating-a-service-with-a-campaign}과 연결
+### 캠페인과 서비스 연결 {#associating-a-service-with-a-campaign}
 
 서비스는 게재 또는 작업을 통해 캠페인과 연결됩니다. 서비스 공급자는 이 템플릿을 통해 만든 게재에서 서비스를 제공하기 위해 게재 템플릿에 연결됩니다.
 
@@ -180,7 +180,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 ![](assets/s_ncs_user_supplier_cost_structure_select.png)
 
-## 재고 및 주문 관리 {#stock-and-order-management}
+## 주식 및 주문 관리 {#stock-and-order-management}
 
 경고, 공급 추적 및 실행 주문을 처리하기 위해 원가 유형을 재고 라인과 연관시킬 수 있습니다.
 
@@ -208,7 +208,7 @@ Adobe Campaign은 재고가 부족하거나 최소 임계값에 도달하면 연
 
 ![](assets/s_ncs_user_stocks_view.png)
 
-#### 재고 만들기 {#creating-a-stock}
+#### 스톡 만들기 {#creating-a-stock}
 
 다음 단계를 적용하여 새 주식을 만듭니다.
 
@@ -241,7 +241,7 @@ Adobe Campaign은 재고가 부족하거나 최소 임계값에 도달하면 연
 
 * **[!UICONTROL Alert level]** 필드에서 주문 주식에 대해 경고해야 하는 연산자의 임계값을 나타냅니다. 경고 수준에 도달하면 이 재고를 사용하여 게재의 승인 창에 경고 메시지가 표시됩니다.
 
-#### 재고 및 비용 범주 연결 {#associating-a-stock-with-cost-categories}
+#### 재고 및 원가 범주 연관 {#associating-a-stock-with-cost-categories}
 
 특정 서비스 공급자의 경우, 서비스 내에서 다음과 같이 비용 범주 중 하나에서 스톡 라인을 참조할 수 있습니다.
 
@@ -249,7 +249,7 @@ Adobe Campaign은 재고가 부족하거나 최소 임계값에 도달하면 연
 
 ### 스톡 추적 {#stock-tracking}
 
-#### 경고 연산자 {#alerting-operators}
+#### 경고 운영자 {#alerting-operators}
 
 게재에서 참조된 재고가 충분하지 않으면 경고가 표시됩니다. 예를 들어 추출 파일이 승인되면 다음 경고가 표시됩니다.
 
@@ -285,8 +285,8 @@ Adobe Campaign은 재고가 부족하거나 최소 임계값에 도달하면 연
 
 ### 구현 {#implementation}
 
-캠페인에서 예산을 선택하는 경우 초기 금액을 입력해야 합니다. 계산된 비용은 입력된 금액의 약정 레벨(비용, 예상, 예약, 약정)에 따라 자동으로 갱신됩니다. [금액 계산](../../campaign/using/controlling-costs.md#calculating-amounts)을 참조하십시오.
+캠페인에서 예산을 선택하는 경우 초기 금액을 입력해야 합니다. 계산된 비용은 입력된 금액의 약정 레벨(비용, 예상, 예약, 약정)에 따라 자동으로 갱신됩니다. [금액 계산](../../mrm/using/controlling-costs.md#calculating-amounts)을 참조하십시오.
 
 >[!NOTE]
 >
->예산 생성 절차는 [예산 생성](../../campaign/using/controlling-costs.md#creating-a-budget)에 나와 있습니다.
+>예산 생성 절차는 [예산 생성](../../mrm/using/controlling-costs.md#creating-a-budget)에 나와 있습니다.
