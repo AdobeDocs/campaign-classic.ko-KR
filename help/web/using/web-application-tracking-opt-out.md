@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너�
 >
 >자신만의 배너를 만들려면 기본 배너를 개인화해야 합니다.
 
-배너를 활성화하려면 웹 애플리케이션 속성을 구성해야 합니다. [웹 애플리케이션 디자인](../../web/using/designing-a-web-application.md) 섹션을 참조하십시오.
+배너를 활성화하려면 웹 애플리케이션 속성을 구성해야 합니다. [웹 애플리케이션 디자인](designing-a-web-application.md) 섹션을 참조하십시오.
 
 웹 추적이 활성화되면 다음 중 하나를 수행할 수 있습니다.
 
@@ -64,9 +64,9 @@ Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너�
 
 **메시지를 여기**&#x200B;에 삽입하십시오. 추적 정보가 포함된 블록으로 바꾸십시오. 이 대체는 옵트아웃 배너와 관련된 새로운 개인화 블록에서 실행해야 합니다.
 
-배너는 특정 CSS와 함께 제공됩니다. 그러나 웹 페이지를 만들고 구성할 때 스타일을 덮어쓸 수 있습니다. [이 페이지](../../web/using/content-editor-interface.md)를 참조하십시오.
+배너는 특정 CSS와 함께 제공됩니다. 그러나 웹 페이지를 만들고 구성할 때 스타일을 덮어쓸 수 있습니다. [이 페이지](content-editor-interface.md)를 참조하십시오.
 
-## API {#setting-the-opt-out-cookie-using-api}를 사용하여 옵트아웃 쿠키 설정
+## API를 사용하여 옵트아웃 쿠키 설정 {#setting-the-opt-out-cookie-using-api}
 
 Adobe Campaign은 쿠키 값을 관리하고 사용자 환경 설정을 검색할 수 있도록 해주는 API와 함께 제공됩니다.
 
