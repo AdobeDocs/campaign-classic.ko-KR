@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '3253'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # 압력 규칙{#pressure-rules}
 
-## 마케팅 피로도 정보 {#about-marketing-fatigue}
+## 마케팅 피로도 기본 정보 {#about-marketing-fatigue}
 
 판매 압력 관리 를 구현하면 마케팅 피로도 알려진 데이터베이스에서 모집단을 지나치게 모집하지 않도록 할 수 있습니다. 이를 위해 수신자당 최대 메시지 수를 정의할 수 있습니다. 또한 타깃팅된 대상자에게 최상의 메시지를 보내기 위해 캠페인 간 중재 규칙을 구현할 수도 있습니다.
 
@@ -111,7 +111,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 
 ![](assets/campaign_opt_pressure_sample.png)
 
-임계값을 정의하려면 타겟팅 차원에 연결된 차원을 사용할 수 있습니다.예를 들어 방문자 표에 저장된 수신자 프로필로 전달된 메시지를 포함하거나(방문자 테이블에 대한 자세한 내용은 [이 섹션](../../web/using/use-case--creating-a-refer-a-friend-form.md))을 참조하거나 수신자와 연결된 차원에서 식별된 동일한 가구에 매주 두 개 이상의 메시지(여러 이메일 주소를 참조할 수 있음)를 보내지 않습니다.
+임계값을 정의하려면 타겟팅 차원에 연결된 차원을 사용할 수 있습니다.예를 들어 방문자 표에 저장된 수신자 프로필로 전달된 메시지를 포함하거나(방문자 테이블에 대한 자세한 내용은 [이 섹션](../../surveys/using/use-case--creating-a-refer-a-friend-form.md))을 참조하거나 수신자와 연결된 차원에서 식별된 동일한 가구에 매주 두 개 이상의 메시지(여러 이메일 주소를 참조할 수 있음)를 보내지 않습니다.
 
 이렇게 하려면 **[!UICONTROL Count messages on a linked dimension]** 옵션을 선택한 다음 방문자 또는 연락처 테이블을 선택합니다.
 
@@ -137,7 +137,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 
 1. 이 규칙을 다음 항목이 있는 메시지에 적용합니다.뉴스레터, 특별 오퍼 등 이러한 게재의 가중치 및 따라서 게재의 우선 순위 수준은 각 수신자의 성향 점수에 따라 달라집니다.
 
-## 기간 {#setting-the-period} 설정
+## 기간 설정 {#setting-the-period}
 
 압력 규칙은 **n**-일 순환 기간에 정의됩니다.
 
@@ -214,9 +214,9 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 >
 >여러 게재에 동일한 점수가 있는 경우, 가장 이른 날짜에 예약된 캠페인이 전송됩니다.
 
-## 압력 규칙에 대한 사용 사례 {#use-cases-on-pressure-rules}
+## 압력 규칙의 사용 사례 {#use-cases-on-pressure-rules}
 
-### 기준 {#adapting-the-threshold-based-on-criterion}을(를) 기준으로 임계값 적용
+### 기준에 따라 임계값 적용 {#adapting-the-threshold-based-on-criterion}
 
 고객에게 매주 4개 이상의 메시지와 잠재 고객에게 매주 2개 이상의 메시지를 게재하지 않도록 유형화 규칙을 만들려고 합니다.
 
@@ -286,7 +286,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 
    ![](assets/campaign_opt_pressure_sample_1_10.png)
 
-### 동작 {#calculating-the-delivery-weight-based-on-behavior} 을 기반으로 게재 가중치 계산
+### 동작을 기반으로 게재 가중치 계산 {#calculating-the-delivery-weight-based-on-behavior}
 
 수신자 행동에 따라 압력 규칙을 정의할 수 있습니다.따라서, 게재 가중치는 수신자마다 다른 기준에 맞게 조정될 수 있다. 예를 들어, 수신자가 여러분의 인터넷 사이트를 방문했는지, 마지막 뉴스레터의 특정 섹션을 클릭했는지, 정보 서비스를 구독했는지 또는 설문 조사, 온라인 게임 등에 대한 답변을 기반으로 메시지를 전송할지를 결정할 수 있습니다.
 
@@ -312,7 +312,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 1. **[!UICONTROL Finish]** 을 클릭하여 이 규칙을 저장합니다.
 1. 규칙을 캠페인 유형화에 연결하고 게재에서 이 유형화를 참조하여 승인합니다.
 
-### 가중치가 가장 높은 메시지 {#sending-only-the-highest-weighted-messages}만 보내기
+### 가중치가 가장 높은 메시지만 보내기 {#sending-only-the-highest-weighted-messages}
 
 동일한 주 내에 하루에 메시지 2개로 제한되는 2개 이하의 메시지를 각 수신자에게 전송하려고 하며 가중치가 높은 메시지만 배달할 수 있습니다.
 
