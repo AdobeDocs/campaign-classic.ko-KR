@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
@@ -27,7 +27,7 @@ ht-degree: 2%
 
    ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* **[!UICONTROL Tasks]** 하위 탭은 캠페인에 연결된 모든 작업을 그룹화합니다. 이 보기에서는 편집하거나 삭제할 수 있습니다. 작업은 MRM 애플리케이션에서 사용할 수 있습니다. 이 내용은 [이 섹션](../../campaign/using/creating-and-managing-tasks.md)에 자세히 설명되어 있습니다.
+* **[!UICONTROL Tasks]** 하위 탭은 캠페인에 연결된 모든 작업을 그룹화합니다. 이 보기에서는 편집하거나 삭제할 수 있습니다. 작업은 MRM 애플리케이션에서 사용할 수 있습니다. 이 내용은 [이 섹션](../../mrm/using/creating-and-managing-tasks.md)에 자세히 설명되어 있습니다.
 
    ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
