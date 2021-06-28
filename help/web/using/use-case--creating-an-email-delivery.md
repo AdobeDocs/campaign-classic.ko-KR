@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Adobe의 최종 목표는 다음 사항을 포함하는 개인화된 템플릿�
 >
 >시작하기 전에 적어도 하나 이상의 **HTML 템플릿**&#x200B;이(가) 향후 게재의 컨텐츠를 호스팅하도록 구성되어 있어야 합니다.
 >
->게재 **[!UICONTROL Properties]**&#x200B;에서 **[!UICONTROL Content editing mode]**(**[!UICONTROL Advanced]** 탭에서)이 **[!UICONTROL DCE]**&#x200B;로 설정되어 있는지 확인하십시오. 편집기의 최적 작업을 확인하려면 [컨텐츠 편집 모범 사례](../../web/using/content-editing-best-practices.md)를 참조하십시오.
+>게재 **[!UICONTROL Properties]**&#x200B;에서 **[!UICONTROL Content editing mode]**(**[!UICONTROL Advanced]** 탭에서)이 **[!UICONTROL DCE]**&#x200B;로 설정되어 있는지 확인하십시오. 편집기의 최적 작업을 확인하려면 [컨텐츠 편집 모범 사례](content-editing-best-practices.md)를 참조하십시오.
 
 ## 1단계 - 게재 만들기 {#step-1---creating-a-delivery}
 
@@ -54,7 +54,7 @@ Adobe의 최종 목표는 다음 사항을 포함하는 개인화된 템플릿�
 
 ![](assets/dce_select_from_file_template.png)
 
-나중에 사용할 수 있도록 이 컨텐츠를 템플릿으로 저장할 수 있습니다. 개인화된 콘텐츠 템플릿을 만들면 템플릿 목록에서 미리 볼 수 있습니다. 자세한 내용은 [템플릿 관리](../../web/using/template-management.md)를 참조하십시오.
+나중에 사용할 수 있도록 이 컨텐츠를 템플릿으로 저장할 수 있습니다. 개인화된 콘텐츠 템플릿을 만들면 템플릿 목록에서 미리 볼 수 있습니다. 자세한 내용은 [템플릿 관리](template-management.md)를 참조하십시오.
 
 >[!CAUTION]
 >
@@ -70,7 +70,7 @@ Adobe의 최종 목표는 다음 사항을 포함하는 개인화된 템플릿�
 
 * 이미지에 링크 삽입
 
-   이미지를 통해 게재 수신자를 외부 주소로 가져오려면 관련 이미지를 클릭하여 팝업 도구 모음을 표시하고 첫 번째 아이콘에 커서를 놓고 **[!UICONTROL Link to an external URL]** 를 클릭합니다. 자세한 내용은 [링크 추가](../../web/using/editing-content.md#adding-a-link)를 참조하십시오.
+   이미지를 통해 게재 수신자를 외부 주소로 가져오려면 관련 이미지를 클릭하여 팝업 도구 모음을 표시하고 첫 번째 아이콘에 커서를 놓고 **[!UICONTROL Link to an external URL]** 를 클릭합니다. 자세한 내용은 [링크 추가](editing-content.md#adding-a-link)를 참조하십시오.
 
    ![](assets/dce_externalpage.png)
 
@@ -80,7 +80,7 @@ Adobe의 최종 목표는 다음 사항을 포함하는 개인화된 템플릿�
 
 * 텍스트에 링크 삽입
 
-   외부 링크를 게재의 텍스트에 통합하려면 일부 텍스트나 텍스트 블록을 선택한 다음 팝업 도구 모음에서 첫 번째 아이콘을 클릭합니다. **[!UICONTROL Link to an external URL]** 을 클릭하고 링크 주소를 **[!UICONTROL URL]** 필드에 입력합니다. 자세한 내용은 [링크 추가](../../web/using/editing-content.md#adding-a-link)를 참조하십시오.
+   외부 링크를 게재의 텍스트에 통합하려면 일부 텍스트나 텍스트 블록을 선택한 다음 팝업 도구 모음에서 첫 번째 아이콘을 클릭합니다. **[!UICONTROL Link to an external URL]** 을 클릭하고 링크 주소를 **[!UICONTROL URL]** 필드에 입력합니다. 자세한 내용은 [링크 추가](editing-content.md#adding-a-link)를 참조하십시오.
 
    언제든지 창 오른쪽의 섹션을 사용하여 링크를 변경할 수 있습니다.
 
@@ -102,7 +102,7 @@ Adobe의 최종 목표는 다음 사항을 포함하는 개인화된 템플릿�
 
 * 웹 애플리케이션에 대한 링크 통합
 
-   디지털 콘텐츠 편집기를 사용하면 랜딩 페이지나 양식 페이지와 같은 Adobe Campaign 콘솔에서 웹 애플리케이션에 대한 링크를 통합할 수 있습니다. 자세한 내용은 [웹 응용 프로그램에 연결](../../web/using/editing-content.md#link-to-a-web-application)을 참조하십시오.
+   디지털 콘텐츠 편집기를 사용하면 랜딩 페이지나 양식 페이지와 같은 Adobe Campaign 콘솔에서 웹 애플리케이션에 대한 링크를 통합할 수 있습니다. 자세한 내용은 [웹 응용 프로그램에 연결](editing-content.md#link-to-a-web-application)을 참조하십시오.
 
    웹 응용 프로그램에 대한 링크의 텍스트 필드를 선택한 다음 첫 번째 아이콘을 클릭합니다. **[!UICONTROL Link to a Web application]** 을 선택한 다음 **웹 응용 프로그램** 필드 끝에 있는 아이콘을 클릭하여 원하는 응용 프로그램을 선택합니다.
 
@@ -114,6 +114,6 @@ Adobe의 최종 목표는 다음 사항을 포함하는 개인화된 템플릿�
    >
    >이 단계를 수행하려면 미리 하나 이상의 웹 응용 프로그램을 저장해야 합니다. 속성은 콘솔의 **[!UICONTROL Campaigns > Web applications]** 탭에서 찾을 수 있습니다.
 
-## 5단계 - 게재 {#step-5---saving-the-delivery} 저장
+## 5단계 - 게재 저장 {#step-5---saving-the-delivery}
 
 컨텐츠가 통합되면 **저장**&#x200B;을 클릭하여 게재를 저장합니다. 이제 **[!UICONTROL Campaigns > Deliveries]** 탭에 있는 게재 목록에 표시됩니다.
