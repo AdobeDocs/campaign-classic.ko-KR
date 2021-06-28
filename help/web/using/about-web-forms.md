@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 5%
@@ -23,7 +23,7 @@ Adobe Campaign은 웹 양식을 정의하고 게시하기 위한 그래픽 모�
 >
 >개인 정보용으로 모든 외부 리소스에 HTTPS를 사용하는 것이 좋습니다.
 
-## 웹 양식 {#steps-for-creating-a-web-form} 만들기 단계
+## 웹 양식을 만드는 단계 {#steps-for-creating-a-web-form}
 
 이 장에서는 Adobe Campaign에서 **webForm** 유형 양식을 디자인하는 데 필요한 단계와 사용 가능한 옵션 및 구성을 자세히 설명합니다. Adobe Campaign을 사용하면 이 웹 양식을 사용자가 사용할 수 있도록 만들 수 있을 뿐만 아니라 데이터베이스에 있는 답변을 수집 및 보관할 수 있습니다.
 
@@ -57,22 +57,22 @@ Adobe Campaign은 웹 양식을 정의하고 게시하기 위한 그래픽 모�
 
 * 표시할 페이지 순서 및 조건을 정의합니다.
 
-   이 단계는 [웹 양식 페이지 순서 정의](../../web/using/defining-web-forms-page-sequencing.md)에 자세히 설명되어 있습니다.
+   이 단계는 [웹 양식 페이지 순서 정의](defining-web-forms-page-sequencing.md)에 자세히 설명되어 있습니다.
 
 * 필요한 경우 컨텐츠를 번역합니다.
 
-   이 단계는 [웹 양식 번역](../../web/using/translating-a-web-form.md)에 자세히 설명되어 있습니다.
+   이 단계는 [웹 양식 번역](translating-a-web-form.md)에 자세히 설명되어 있습니다.
 
 ## 웹 양식 디자인 정보 {#about-web-forms-designing}
 
-양식의 페이지는 입력 영역(텍스트), 선택 필드(목록, 확인란 등)를 정의하고 구성할 수 있는 특정 편집기를 통해 만들어집니다. 및 정적 요소(이미지, HTML 콘텐츠 등)는 컨테이너로 그룹화할 수 있으며 사용자의 요구 사항에 맞게 레이아웃을 변경할 수 있습니다(자세한 내용은 [컨테이너 만들기](../../web/using/defining-web-forms-layout.md#creating-containers) 참조).
+양식의 페이지는 입력 영역(텍스트), 선택 필드(목록, 확인란 등)를 정의하고 구성할 수 있는 특정 편집기를 통해 만들어집니다. 및 정적 요소(이미지, HTML 콘텐츠 등)는 컨테이너로 그룹화할 수 있으며 사용자의 요구 사항에 맞게 레이아웃을 변경할 수 있습니다(자세한 내용은 [컨테이너 만들기](defining-web-forms-layout.md#creating-containers) 참조).
 
 다음 섹션에서는 양식 화면의 콘텐츠 및 레이아웃을 정의하는 방법을 자세히 설명합니다.
 
-* [웹 양식에 필드 추가](../../web/using/adding-fields-to-a-web-form.md),
-* [HTML 컨텐츠 삽입](../../web/using/static-elements-in-a-web-form.md#inserting-html-content),
-* [웹 양식의 정적 요소](../../web/using/static-elements-in-a-web-form.md),
-* [웹 양식 레이아웃 정의](../../web/using/defining-web-forms-layout.md).
+* [웹 양식에 필드 추가](adding-fields-to-a-web-form.md),
+* [HTML 컨텐츠 삽입](static-elements-in-a-web-form.md#inserting-html-content),
+* [웹 양식의 정적 요소](static-elements-in-a-web-form.md),
+* [웹 양식 레이아웃 정의](defining-web-forms-layout.md).
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ Adobe Campaign은 웹 양식을 정의하고 게시하기 위한 그래픽 모�
 
 
 
-### 도구 모음 {#using-the-icons-in-the-toolbar} 의 아이콘 사용
+### 도구 모음에서 아이콘 사용 {#using-the-icons-in-the-toolbar}
 
 도구 모음에서 아이콘을 사용하거나 마우스 오른쪽 단추를 클릭하여 입력 영역을 삽입할 수도 있습니다.
 
