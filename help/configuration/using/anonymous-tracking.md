@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '207'
 ht-degree: 6%
 
 ---
@@ -29,6 +29,6 @@ Adobe Campaign을 사용하면 수집된 웹 추적 정보를 수신자가 익�
 
    ![](assets/webtracking_anonymous_set.png)
 
-* 웹 양식 및 설문 조사는 추적 서버에서 게시 및 실행해야 합니다. 배포 마법사에서 일치 옵션을 선택해야 합니다.
+* 웹 양식은 추적 서버에서 게시 및 실행해야 합니다. 배포 마법사에서 일치 옵션을 선택해야 합니다.
 
    ![](assets/webtracking_publication_set_for_webapps.png)
