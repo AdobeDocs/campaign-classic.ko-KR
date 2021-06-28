@@ -4,9 +4,9 @@ title: Adobe Analytics 커넥터로 마이그레이션
 description: Campaign - Analytics 커넥터 FAQ
 hide: true
 hidefromtoc: true
-source-git-commit: cde4ed65abb2458fc40639b92314f8d56b18b78c
+source-git-commit: 41478c656ffd4e113788149e6cca9ed00602789e
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '836'
 ht-degree: 5%
 
 ---
@@ -71,9 +71,9 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 * 사용자 인터페이스에 대한 세부 사항 모드를 활성화하려면세부 정보 표시 모드에서 `web` 프로세스를 다시 실행합니다.
 * **webAnalytics** 워크플로우에 대한 세부 정보 표시 모드를 활성화하려면워크플로우 속성에서 **엔진에서 실행** 옵션을 선택하고 세부 정보 표시 모드로 `wfserver`를 다시 실행합니다.
 
-**통합 소유자가 관리자가 아님 오류가 의미하는 것은 무엇입니까?**
+**통합 소유자가 관리자가 아님 오류는 무엇을 의미합니까?**
 
-[이 페이지](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error)에 있는 Data Connectors &quot;Integration Owner Not Admin&quot; 오류에 대해 자세히 알아보십시오.
+[이 페이지](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error)의 Data Connectors `Integration Owner Not Admin` 오류에 대해 자세히 알아보십시오.
 
 **새 커넥터로 마이그레이션한 후 이전 데이터와 보고서 세트는 어떻게 됩니까?**
 
