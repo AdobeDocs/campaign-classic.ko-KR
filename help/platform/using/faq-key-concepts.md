@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 97%
@@ -94,7 +94,7 @@ Adobe Campaign을 사용하여 앱을 통해 iOS 및 Android 디바이스에 [�
 
 ## 온라인 설문 조사를 디자인하고 공유하는 방법  {#how-to-design-and-share-an-online-survey-}
 
-Campaign Classic을 사용하여 [온라인 설문 조사를 만들기](../../web/using/getting-started-with-surveys.md)위해 디자인하고 게재하는 주요 단계를 배웁니다.
+Campaign Classic을 사용하여 [온라인 설문 조사를 만들기](../../surveys/using/getting-started-with-surveys.md)위해 디자인하고 게재하는 주요 단계를 배웁니다.
 
 ## 랜딩 페이지를 만드는 방법  {#how-to-create-landing-page-}
 
