@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 19%
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. Adobe Campaign은 마케팅 전략을 위한 통합 주문 및 실행 센터 역할을 합니다. 자세한 내용은 [캠페인 액세스](../../campaign/using/accessing-campaigns.md) 및 [마케팅 캠페인 만들기](../../campaign/using/setting-up-marketing-campaigns.md)를 참조하십시오.
 
-또한 **MRM(마케팅 리소스 관리)** 모듈을 사용하면 관련 작업, 예산 및 마케팅 리소스에 대한 완벽한 관리 및 실시간 추적을 제공하여 공동 작업 모드에서 마케팅 작업을 제어할 수 있습니다. 마케팅 리소스 관리를 사용하면 내부 및 외부 프로세스, 리소스 및 마케팅 캠페인과 제3자 관계(에이전시, 프린터 등)의 관리를 최적화 및 제어할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/about-marketing-resource-management.md)을 참조하십시오.
+또한 **MRM(마케팅 리소스 관리)** 모듈을 사용하면 관련 작업, 예산 및 마케팅 리소스에 대한 완벽한 관리 및 실시간 추적을 제공하여 공동 작업 모드에서 마케팅 작업을 제어할 수 있습니다. 마케팅 리소스 관리를 사용하면 내부 및 외부 프로세스, 리소스 및 마케팅 캠페인과 제3자 관계(에이전시, 프린터 등)의 관리를 최적화 및 제어할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../mrm/using/about-marketing-resource-management.md)을 참조하십시오.
 
 >[!NOTE]
 >
