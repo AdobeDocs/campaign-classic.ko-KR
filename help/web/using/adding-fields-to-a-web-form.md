@@ -6,9 +6,9 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2371'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 * 다운로드 단추. [파일 업로드](#uploading-a-file).
 * 숨겨진 상수. [숨겨진 상수 삽입](#inserting-a-hidden-constant)을 참조하십시오.
 
-응답 저장소 모드를 지정하십시오.데이터베이스의 필드를 업데이트하거나(마지막 값만 저장) 변수에 저장합니다(응답이 저장되지 않음). 자세한 내용은 [응답 저장소 필드](../../web/using/web-forms-answers.md#response-storage-fields)를 참조하십시오.
+응답 저장소 모드를 지정하십시오.데이터베이스의 필드를 업데이트하거나(마지막 값만 저장) 변수에 저장합니다(응답이 저장되지 않음). 자세한 내용은 [응답 저장소 필드](web-forms-answers.md#response-storage-fields)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 * **번호**:사용자가 한 줄에 숫자를 입력할 수 있습니다. 자세한 내용은 [숫자 추가](#adding-numbers)를 참조하십시오.
 
-   페이지가 승인되면, 필드 컨텐츠를 확인하여 입력한 값이 필드와 호환되는지 확인합니다. 자세한 내용은 [컨트롤 설정 정의](../../web/using/form-rendering.md#defining-control-settings)를 참조하십시오.
+   페이지가 승인되면, 필드 컨텐츠를 확인하여 입력한 값이 필드와 호환되는지 확인합니다. 자세한 내용은 [컨트롤 설정 정의](form-rendering.md#defining-control-settings)를 참조하십시오.
 
 * **암호**:사용자가 한 줄에 텍스트를 입력할 수 있도록 해줍니다. 텍스트 입력 중에 문자는 마침표로 바뀝니다.
 
@@ -90,9 +90,7 @@ ht-degree: 1%
 
    >[!CAUTION]
    >
-   >여러 줄 텍스트 필드는 캐리지 리턴을 포함할 수 있는 특정 필드입니다. 저장소 공간은 XML 특성이 아니라 XML 요소에 매핑된 필드와 연결해야 합니다. 스키마의 데이터 유형에 대한 자세한 내용은 [이 섹션](../../configuration/using/about-schema-reference.md)의 &quot;스키마 참조&quot; 장을 참조하십시오.
-   >   
-   >**Survey** 모듈을 사용하는 경우 이러한 유형의 필드를 형식에 자동으로 적용되는 보관된 필드에 저장할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../web/using/about-surveys.md)을 참조하십시오.
+   >여러 줄 텍스트 필드는 캐리지 리턴을 포함할 수 있는 특정 필드입니다. 저장소 공간은 XML 특성이 아니라 XML 요소에 매핑된 필드와 연결해야 합니다.
 
 * **여러 줄 텍스트가 보강되었습니다**.사용자가 HTML 형식으로 저장할 레이아웃으로 텍스트를 입력할 수 있도록 해줍니다.
 
@@ -118,9 +116,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->저장 모드는 [응답 저장 필드](../../web/using/web-forms-answers.md#response-storage-fields)에 자세히 설명되어 있습니다
+>저장 모드는 [응답 저장 필드](web-forms-answers.md#response-storage-fields)에 자세히 설명되어 있습니다
 
-**[!UICONTROL Advanced]** 탭에서는 필드에 대한 표시 매개 변수(레이블 위치, 정렬 등)를 정의할 수 있습니다. [웹 양식 레이아웃 정의](../../web/using/defining-web-forms-layout.md)를 참조하십시오.
+**[!UICONTROL Advanced]** 탭에서는 필드에 대한 표시 매개 변수(레이블 위치, 정렬 등)를 정의할 수 있습니다. [웹 양식 레이아웃 정의](defining-web-forms-layout.md)를 참조하십시오.
 
 ## 드롭다운 목록 추가 {#adding-drop-down-lists}
 
@@ -174,7 +172,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_survey_check_box_enum.png)
 
-## 예:상자를 선택한 경우 필드에 값을 할당합니다. {#example--assign-a-value-to-a-field-if-a-box-is-checked}
+## 예:상자를 선택하면 필드에 값을 할당합니다 {#example--assign-a-value-to-a-field-if-a-box-is-checked}
 
 아래와 같이 유지 관리 요청을 보내기 위한 확인란을 양식에 삽입하려고 합니다.
 
@@ -188,7 +186,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_survey_check_box_ex_edit.png)
 
-## 라디오 단추 {#adding-radio-buttons} 추가
+## 라디오 단추 추가 {#adding-radio-buttons}
 
 라디오 단추를 사용하면 사용자에게 선택할 수 있는 일련의 고급 옵션을 제공할 수 있습니다. 동일한 필드에 대해 다른 값입니다.
 
@@ -206,7 +204,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_survey_radio_button_sample.png)
 
-라디오 단추는 확인란과 유사한 방식으로 구성됩니다( [확인란 추가](#adding-checkboxes) 참조). 그러나 옵션을 선택하지 않으면 값이 할당되지 않습니다. 여러 단추가 상호 종속되도록 하려면, 즉 하나를 선택하면 다른 단추가 자동으로 선택 취소되므로 동일한 필드에 저장해야 합니다. 데이터베이스에 저장되지 않은 경우 임시 저장소에 동일한 로컬 변수를 사용해야 합니다. [응답 저장소 필드](../../web/using/web-forms-answers.md#response-storage-fields)를 참조하십시오.
+라디오 단추는 확인란과 유사한 방식으로 구성됩니다( [확인란 추가](#adding-checkboxes) 참조). 그러나 옵션을 선택하지 않으면 값이 할당되지 않습니다. 여러 단추가 상호 종속되도록 하려면, 즉 하나를 선택하면 다른 단추가 자동으로 선택 취소되므로 동일한 필드에 저장해야 합니다. 데이터베이스에 저장되지 않은 경우 임시 저장소에 동일한 로컬 변수를 사용해야 합니다. [응답 저장소 필드](web-forms-answers.md#response-storage-fields)를 참조하십시오.
 
 ### 단추 목록 추가 {#add-a-list-of-buttons}
 
@@ -218,10 +216,10 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->웹 양식은 여러 값의 선택을 승인하지 않습니다. **Survey** 형식 양식에만 여러 가지 선택을 활성화할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../web/using/about-surveys.md)을 참조하십시오.\
->그러나 **[!UICONTROL Multiple choice]** 유형 필드를 웹 애플리케이션에 삽입할 수 있습니다.그러나 여러 값을 선택할 수 있는 권한이 없습니다.제공되는 옵션은 라디오 단추를 사용하여 선택할 수 있습니다.
+>웹 응용 프로그램에서 다중 선택을 활성화할 수 없습니다.
+>그러나 웹 응용 프로그램에 **[!UICONTROL Multiple choice]** 유형 필드를 삽입할 수는 있지만 여러 값을 선택할 수는 없습니다.
 
-## 격자 추가 {#adding-grids}
+## 그리드 추가 {#adding-grids}
 
 그리드는 웹 응용 프로그램에서 투표 페이지를 디자인하는 데 사용됩니다. 다음과 같이 설문 조사 또는 평가 유형 웹 양식에 응답하기 위한 라디오 단추 목록을 제공할 수 있습니다.
 
@@ -239,13 +237,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 예제에서는 격자의 레이블이 숨겨집니다. 이렇게 하려면 **[!UICONTROL Advanced]** 탭으로 이동합니다. **[!UICONTROL Label position]** 표시에 **[!UICONTROL Hidden]** 가 정의되어 있습니다. [레이블 위치 정의](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels)를 참조하십시오.
+>이 예제에서는 격자의 레이블이 숨겨집니다. 이렇게 하려면 **[!UICONTROL Advanced]** 탭으로 이동합니다. **[!UICONTROL Label position]** 표시에 **[!UICONTROL Hidden]** 가 정의되어 있습니다. [레이블 위치 정의](defining-web-forms-layout.md#defining-the-position-of-labels)를 참조하십시오.
 
 ## 날짜 및 숫자 추가 {#adding-dates-and-numbers}
 
 양식 필드의 콘텐츠는 데이터베이스에 저장된 데이터와 일치하거나 특정 요구 사항을 충족하도록 서식을 지정할 수 있습니다. 숫자 및 날짜 입력에 적합한 필드를 만들 수 있습니다.
 
-### 날짜 {#adding-dates} 추가
+### 날짜 추가 {#adding-dates}
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
@@ -265,7 +263,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->기본적으로 양식에 사용된 날짜는 달력을 통해 입력됩니다. 다국어 양식은 사용된 모든 언어로 달력을 사용할 수 있는지 확인하십시오. [웹 양식 번역](../../web/using/translating-a-web-form.md)을 참조하십시오.
+>기본적으로 양식에 사용된 날짜는 달력을 통해 입력됩니다. 다국어 양식은 사용된 모든 언어로 달력을 사용할 수 있는지 확인하십시오. [웹 양식 번역](translating-a-web-form.md)을 참조하십시오.
 
 그러나 경우에 따라(예: 생년월일 입력) 드롭다운 목록을 사용하는 것이 더 쉬워질 수 있습니다.
 
@@ -279,7 +277,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_survey_date_first_last_y.png)
 
-### 숫자 {#adding-numbers} 추가
+### 숫자 추가 {#adding-numbers}
 
 숫자 입력에 적합한 필드를 만들 수 있습니다.
 
@@ -323,9 +321,7 @@ ht-degree: 1%
 >
 >사용자가 이미 정보 서비스를 구독하고 있으며 양식을 승인할 때 이 서비스에 연결된 상자를 선택하지 않으면 이 사용자는 구독을 취소하게 됩니다.
 
-구독 및 레퍼러의 예는 [이 섹션](../../web/using/about-surveys.md)에서 확인할 수 있습니다.
-
-## captcha {#inserting-a-captcha} 삽입
+## Captcha 삽입 {#inserting-a-captcha}
 
 **captcha** 테스트의 목적은 웹 양식의 부정 사용을 방지하기 위한 것입니다.
 
@@ -361,7 +357,7 @@ Captcha는 시각적 아래에 입력 필드가 배치된 페이지에 삽입됩
 >
 >캡처는 항상 8자입니다. 이 값은 수정할 수 없습니다.
 
-## {#uploading-a-file} 파일 업로드
+## 파일 업로드 {#uploading-a-file}
 
 페이지에 업로드 필드를 추가할 수 있습니다. 이 기능은 예를 들어 인트라넷 파일 공유에 유용합니다.
 
@@ -384,7 +380,7 @@ Captcha는 시각적 아래에 입력 필드가 배치된 페이지에 삽입됩
 
 
 
-## 숨겨진 상수 {#inserting-a-hidden-constant} 삽입
+## 숨겨진 상수 삽입 {#inserting-a-hidden-constant}
 
 사용자가 양식 페이지 중 하나의 유효성을 확인할 때 특정 값을 해당 프로필의 필드 또는 변수로 설정할 수 있습니다.
 
