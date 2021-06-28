@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
@@ -41,7 +41,7 @@ ht-degree: 1%
 >
 >기본 참조 문서는 **nms:recipient** 스키마입니다. 보거나 새 양식을 선택하려면 목록에서 양식을 선택하고 **[!UICONTROL Properties]** 버튼을 클릭합니다.
 
-### 로컬 변수 {#storing-data-in-a-local-variable}에 데이터 저장
+### 로컬 변수에 데이터 저장 {#storing-data-in-a-local-variable}
 
 로컬 변수를 사용하여 데이터가 데이터베이스에 저장되지 않더라도 페이지 또는 다른 페이지에서 다시 사용할 수 있습니다. 예를 들어 필드 표시에 조건을 배치하거나 메시지를 개인화할 수 있습니다.
 
@@ -107,7 +107,7 @@ Professional 옵션을 선택하면 가시성 조건에 명시된 대로 상용 
    >
    >`<%=` 문자가 이스케이프 문자로 대체되는 다른 필드와 달리, HTML 콘텐츠는 `<%==` 구문을 사용하여 그대로 저장됩니다.
 
-## 웹 양식을 저장하는 중 응답 {#saving-web-forms-answers}
+## 웹 양식 답변 저장 {#saving-web-forms-answers}
 
 양식의 페이지에 수집된 정보를 저장하려면 다이어그램에 저장 상자를 배치해야 합니다.
 
@@ -115,9 +115,9 @@ Professional 옵션을 선택하면 가시성 조건에 명시된 대로 상용 
 
 이 상자를 사용하는 방법에는 두 가지가 있습니다.
 
-* 전자 메일로 전송된 링크를 통해 웹 양식에 액세스한 경우, 응용 프로그램에 액세스하는 사용자가 이미 데이터베이스에 있는 경우 **[!UICONTROL Update the preloaded record]** 옵션을 선택할 수 있습니다. 자세한 내용은 [이메일을 통해 양식 제공](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email)을 참조하십시오.
+* 전자 메일로 전송된 링크를 통해 웹 양식에 액세스한 경우, 응용 프로그램에 액세스하는 사용자가 이미 데이터베이스에 있는 경우 **[!UICONTROL Update the preloaded record]** 옵션을 선택할 수 있습니다. 자세한 내용은 [이메일을 통해 양식 제공](publishing-a-web-form.md#delivering-a-form-via-email)을 참조하십시오.
 
-   이 경우 Adobe Campaign은 Adobe Campaign에서 각 프로필에 할당된 고유 식별자인 사용자 프로필의 암호화된 기본 키를 사용합니다. 사전 로드 상자를 통해 미리 로드하도록 정보를 구성해야 합니다. 자세한 내용은 [양식 데이터 미리 로드](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data)를 참조하십시오.
+   이 경우 Adobe Campaign은 Adobe Campaign에서 각 프로필에 할당된 고유 식별자인 사용자 프로필의 암호화된 기본 키를 사용합니다. 사전 로드 상자를 통해 미리 로드하도록 정보를 구성해야 합니다. 자세한 내용은 [양식 데이터 미리 로드](publishing-a-web-form.md#pre-loading-the-form-data)를 참조하십시오.
 
    >[!CAUTION]
    >
