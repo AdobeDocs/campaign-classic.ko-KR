@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 6%
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Campaign Classic 기본 제공 패키지 설치{#installing-campaign-standard-packages}
 
-## 기본 제공 패키지 정보 {#campaign-standard-packages}
+## 기본 제공 패키지 기본 정보 {#campaign-standard-packages}
 
 기본 제공 패키지에는 사용자의 요구 사항과 계약에 따라 설치할 수 있는 기능 세트가 들어 있습니다. Campaign 기본 제공 패키지의 전체 목록은 아래에서 확인할 수 있습니다.
 
@@ -68,7 +68,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> 마케팅 리소스(MRM)<br /> </td> 
-   <td> 작업, 예산 및 마케팅 리소스에 대한 관리 및 추적을 제공하여 협업 모드에서 마케팅 작업을 제어합니다. <a href="../../campaign/using/about-marketing-resource-management.md">추가 정보</a> <br /> </td> 
+   <td> 작업, 예산 및 마케팅 리소스에 대한 관리 및 추적을 제공하여 협업 모드에서 마케팅 작업을 제어합니다. <a href="../../mrm/using/about-marketing-resource-management.md">추가 정보</a> <br /> </td> 
    <td> 마케팅</td> 
   </tr> 
   <tr> 
@@ -139,7 +139,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> 온라인 설문 조사(설문 조사 관리자)<br /> </td> 
-   <td> 온라인 양식을 만들고 관리하여 프로필 정보를 추가 또는 수정하고 구독하거나 구독 취소하거나 대회 시작 양식을 만들 수 있습니다. 선택 사항입니다. <a href="../../web/using/about-surveys.md">추가 정보</a> <br /> </td> 
+   <td> 온라인 양식을 만들고 관리하여 프로필 정보를 추가 또는 수정하고 구독하거나 구독 취소하거나 대회 시작 양식을 만들 수 있습니다. 선택 사항입니다. <a href="../../surveys/using/about-surveys.md">추가 정보</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
