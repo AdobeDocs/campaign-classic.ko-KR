@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 9%
@@ -71,7 +71,7 @@ Campaign Classic 추적 기능을 사용하면 개인화할 수 있고 추적을
 
 **웹 애플리케이션 추적**
 
-추적 태그가 있는 웹 애플리케이션 페이지에서 방문을 추적하고 측정할 수도 있습니다. 이 기능은 양식 및 온라인 설문 조사와 같은 모든 웹 응용 프로그램 유형에 사용할 수 있습니다. [자세히 알아보기](../../web/using/tracking-a-web-application.md)
+추적 태그가 있는 웹 애플리케이션 페이지에서 방문을 추적하고 측정할 수도 있습니다. 이 기능은 양식 및 랜딩 페이지와 같은 모든 웹 애플리케이션 유형에 사용할 수 있습니다. [자세히 알아보기](../../web/using/tracking-a-web-application.md)
 
 **웹 애플리케이션 추적 옵트아웃**
 
