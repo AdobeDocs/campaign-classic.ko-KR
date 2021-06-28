@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 >
 >드롭다운 메뉴와 같이 보이지 않는 동적 블록은 편집할 수 없습니다.
 
-## 테두리 및 배경 {#adding-a-border-and-background} 추가
+## 테두리 및 배경 추가 {#adding-a-border-and-background}
 
 선택한 블록에 **테두리**&#x200B;를 추가할 수 있습니다. 테두리는 다음 세 가지 옵션을 사용하여 정의됩니다.스타일, 크기 및 색상.
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ## 양식 편집 {#editing-forms}
 
-### {#changing-the-data-properties-for-a-form} 양식의 데이터 속성 변경
+### 양식의 데이터 속성 변경 {#changing-the-data-properties-for-a-form}
 
 데이터베이스 필드를 입력 영역, 라디오 버튼 또는 체크박스 유형 블록과 연결할 수 있습니다.
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 
    ![](assets/dce_toolbar_formblock_edition.png)
 
-## 단추 {#adding-an-action-to-a-button}에 작업 추가
+## 단추에 작업 추가 {#adding-an-action-to-a-button}
 
 사용자가 버튼을 클릭하면 관련 작업을 정의할 수 있습니다. 이렇게 하려면 드롭다운 목록에서 수행할 작업을 선택합니다.
 
@@ -109,7 +109,7 @@ ht-degree: 1%
 
 해당 필드의 단추에 연결된 레이블을 수정할 수 있습니다.
 
-## 링크 {#adding-a-link} 추가
+## 링크 추가 {#adding-a-link}
 
 링크를 임의의 페이지 요소에 삽입할 수 있습니다.이미지, 단어, 단어 그룹, 텍스트 블록 등
 
@@ -140,7 +140,7 @@ ht-degree: 1%
 
 
 
-### URL {#link-to-a-url}에 연결
+### URL에 연결 {#link-to-a-url}
 
 **외부 URL에 연결** 옵션을 사용하면 소스 컨텐츠에서 URL을 열 수 있습니다.
 
@@ -148,7 +148,7 @@ ht-degree: 1%
 
 해당 링크 주소를 **URL** 필드에 입력합니다. URL 필드는 다음과 같이 입력해야 합니다.**https://www.myURL.com**
 
-### 웹 응용 프로그램 {#link-to-a-web-application} 링크
+### 웹 응용 프로그램에 연결 {#link-to-a-web-application}
 
 **웹 응용 프로그램에 연결** 옵션을 사용하면 Adobe Campaign 웹 응용 프로그램에 액세스할 수 있습니다.
 
@@ -158,7 +158,7 @@ ht-degree: 1%
 
 제안된 웹 응용 프로그램 목록은 **[!UICONTROL Resources > Online > Web Applications]** 노드에서 사용 가능한 응용 프로그램에 해당합니다.
 
-### 작업 {#link-to-an-action}에 연결
+### 작업에 대한 링크 {#link-to-an-action}
 
 작업&#x200B;**옵션을 정의하는**&#x200B;링크 를 사용하면 소스 요소를 클릭할 때 작업을 구성할 수 있습니다.
 
@@ -168,7 +168,7 @@ ht-degree: 1%
 >
 >사용 가능한 작업은 [버튼](#adding-an-action-to-a-button) 섹션에 작업을 추가하는 방법에 자세히 설명되어 있습니다.
 
-### 링크 {#delete-a-link} 삭제
+### 링크 삭제 {#delete-a-link}
 
 링크가 삽입되면 도구 모음에는 두 개의 새 아이콘이 표시됩니다.**링크** 및 **생성된 링크와 상호 작용할 수 있는 링크를 중단합니다.**
 
@@ -241,7 +241,7 @@ ht-degree: 1%
 
    ![](assets/dce_popup_imgsize.png)
 
-## 개인화 컨텐츠 추가 {#adding-personalization-content}
+## 개인화 콘텐츠 추가 {#adding-personalization-content}
 
 ### 개인화 필드 삽입 {#inserting-a-personalization-field}
 
@@ -253,9 +253,9 @@ ht-degree: 1%
 
 필드 이름이 편집기에 나타나고 노란색으로 강조 표시됩니다. 개인화가 생성되면(예를 들어 랜딩 페이지를 미리 볼 때) 타깃팅된 수신자의 프로필로 대체됩니다.
 
-[개인화 필드 삽입](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field) 섹션에 예제가 나와 있습니다.
+[개인화 필드 삽입](creating-a-landing-page.md#inserting-a-personalization-field) 섹션에 예제가 나와 있습니다.
 
-### 개인화 블록 {#inserting-a-personalization-block} 삽입
+### 개인화 블록 삽입 {#inserting-a-personalization-block}
 
 **개인화 블록** 옵션을 사용하면 컨텐츠에 동적 및 개인화된 블록을 삽입할 수 있습니다. 예를 들어 로고나 인사말 메시지를 추가할 수 있습니다. 텍스트 유형 블록에는 사용할 수 없습니다.
 
