@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ![](assets/mrm_task_in_workflow.png)
 
-작업을 구성하고 운영하는 방법은 이 [섹션](../../campaign/using/creating-and-managing-tasks.md)에 자세히 설명되어 있습니다.
+작업을 구성하고 운영하는 방법은 이 [섹션](../../mrm/using/creating-and-managing-tasks.md)에 자세히 설명되어 있습니다.
 
 ![](assets/wkf_task_activity.png)
 
