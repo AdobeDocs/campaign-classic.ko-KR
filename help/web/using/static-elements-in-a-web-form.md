@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 4%
+source-wordcount: '1034'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 4%
    >
    >서버 측에서 스크립트는 [Campaign JSAPI 설명서](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)에 정의된 함수를 사용할 수 있습니다.
 
-## HTML 컨텐츠 {#inserting-html-content} 삽입
+## HTML 콘텐츠 삽입 {#inserting-html-content}
 
 양식 페이지에 HTML 컨텐츠를 포함할 수 있습니다.하이퍼텍스트 링크, 이미지, 형식이 지정된 단락, 비디오 등
 
@@ -46,9 +46,9 @@ HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력
 
 >[!NOTE]
 >
->HTML 편집기에 입력한 문자열은 **[!UICONTROL Texts]** 하위 탭에 정의된 경우에만 번역됩니다. 그렇지 않으면 수집되지 않습니다. 자세한 내용은 [웹 양식 번역](../../web/using/translating-a-web-form.md)을 참조하십시오.
+>HTML 편집기에 입력한 문자열은 **[!UICONTROL Texts]** 하위 탭에 정의된 경우에만 번역됩니다. 그렇지 않으면 수집되지 않습니다. 자세한 내용은 [웹 양식 번역](translating-a-web-form.md)을 참조하십시오.
 
-### 링크 {#inserting-a-link} 삽입
+### 링크 삽입 {#inserting-a-link}
 
 다음 예와 같이 편집 창의 필드를 채웁니다.
 
@@ -85,7 +85,7 @@ HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력
 
    ![](assets/s_ncs_admin_survey_link_next.png)
 
-   **[!UICONTROL Next]** 및/또는 **[!UICONTROL Back]** 단추가 링크로 대체되는 경우 숨길 수 있습니다. 이 [page](../../web/using/defining-web-forms-page-sequencing.md)을 참조하십시오.
+   **[!UICONTROL Next]** 및/또는 **[!UICONTROL Back]** 단추가 링크로 대체되는 경우 숨길 수 있습니다. 이 [page](defining-web-forms-page-sequencing.md)을 참조하십시오.
 
    링크는 기본적으로 사용되는 **[!UICONTROL Next]** 단추를 대체합니다.
 
@@ -107,60 +107,7 @@ HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력
 
    >[!NOTE]
    >
-   >웹 양식의 페이지 시퀀싱에 대한 자세한 내용은 [웹 양식 페이지 순서 정의](../../web/using/defining-web-forms-page-sequencing.md)를 참조하십시오.
-
-* facebook 프로필에서 가져온 데이터로 양식 필드를 미리 로드합니다
-
-   >[!CAUTION]
-   >
-   >이 함수는 **[!UICONTROL Social Marketing]** 응용 프로그램을 설치한 경우에만 사용할 수 있습니다. 이 옵션을 사용하려면 **[!UICONTROL Facebook Connect]** 유형 외부 계정과 함께 Facebook 애플리케이션을 만들어야 합니다. 자세한 정보는 이 [페이지](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)를 참조하십시오.
-
-   **[!UICONTROL Preload with Facebook]** 옵션을 사용하면 Facebook 프로필 정보를 사용하여 필드를 미리 로드하기 위해 양식에 단추를 삽입할 수 있습니다.
-
-   ![](assets/web_social_webapp_037.png)
-
-   사용자가 **[!UICONTROL Fill in automatically]** 버튼을 클릭하면 Facebook 권한 요청 창이 열립니다.
-
-   ![](assets/web_social_webapp_029.png)
-
-   >[!NOTE]
-   >
-   >외부 계정을 구성할 때 확장 권한 목록을 변경할 수 있습니다. 확장 권한을 입력하지 않으면 Facebook은 기본적으로 기본 프로필 정보를 전달합니다.\
-   >확장 권한 목록 및 해당 구문을 보려면 여기를 클릭하십시오.[https://developers.facebook.com/docs/reference/api/permissions/](https://developers.facebook.com/docs/reference/api/permissions/)
-
-   사용자가 정보를 공유하기로 동의하면 양식의 필드가 미리 로드됩니다.
-
-   ![](assets/web_social_webapp_030.png)
-
-이 사용 사례에서는 다음 요소로 구성된 웹 애플리케이션을 만들었습니다.
-
-* 양식이 포함된 페이지
-* **[!UICONTROL Record]** 활동
-* **[!UICONTROL End]** 활동
-
-![](assets/social_webapp_031.png)
-
-미리 로드 단추를 추가하려면 다음 단계를 수행합니다.
-
-1. 양식을 만듭니다.
-
-   ![](assets/social_webapp_032.png)
-
-1. 양식의 필드와 동일한 수준으로 이동하여 링크를 추가합니다.
-
-   ![](assets/social_webapp_033.png)
-
-1. 레이블을 입력하고 **[!UICONTROL Button]** 유형을 선택합니다.
-
-   ![](assets/social_webapp_034.png)
-
-1. **[!UICONTROL Action]** 필드로 이동하고 **[!UICONTROL Preload with Facebook]** 을 선택합니다.
-
-   ![](assets/social_webapp_035.png)
-
-1. **[!UICONTROL Application]** 필드로 이동하고 이전에 만든 **[!UICONTROL Facebook Connect]** 유형 외부 계정을 선택합니다. 자세한 정보는 이 [페이지](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)를 참조하십시오.
-
-   ![](assets/social_webapp_036.png)
+   >웹 양식의 페이지 시퀀싱에 대한 자세한 내용은 [웹 양식 페이지 순서 정의](defining-web-forms-page-sequencing.md)를 참조하십시오.
 
 ### HTML 콘텐츠 개인화 {#personalizing-html-content}
 
@@ -168,7 +115,7 @@ HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력
 
 ![](assets/s_ncs_admin_survey_tag_ctx_1.png)
 
-개인화 필드를 사용하여 사용자 이름과 선택한 브랜드를 다음 페이지에 다시 삽입할 수 있습니다. 사용할 구문은 정보 저장 모드에 따라 다릅니다. 자세한 내용은 [수집된 정보 사용](../../web/using/web-forms-answers.md#using-collected-information)을 참조하십시오.
+개인화 필드를 사용하여 사용자 이름과 선택한 브랜드를 다음 페이지에 다시 삽입할 수 있습니다. 사용할 구문은 정보 저장 모드에 따라 다릅니다. 자세한 내용은 [수집된 정보 사용](web-forms-answers.md#using-collected-information)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -191,7 +138,7 @@ HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력
 
 **[!UICONTROL Text]** 탭에서는 다음 구문을 사용하여 &lt;%= 및 %> 문자 사이에 HTML에서 사용할 수 있는 변수 필드를 만들 수 있습니다.**$(IDENTIFIER)**
 
-이 메서드를 사용하여 문자열을 쉽게 현지화할 수 있습니다. [웹 양식 번역](../../web/using/translating-a-web-form.md)을 참조하십시오
+이 메서드를 사용하여 문자열을 쉽게 현지화할 수 있습니다. [웹 양식 번역](translating-a-web-form.md)을 참조하십시오
 
 예를 들어 HTML 콘텐츠에 &quot;마지막 연락처의 날짜:&quot; 문자열을 표시할 수 있는 **Contact** 필드를 만들 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
 
@@ -214,9 +161,9 @@ HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-이 운영 모드에서는 웹 양식의 텍스트를 한 번만 정의하고 통합 번역 도구를 사용하여 번역을 관리할 수 있습니다. 자세한 내용은 [웹 양식 번역](../../web/using/translating-a-web-form.md)을 참조하십시오.
+이 운영 모드에서는 웹 양식의 텍스트를 한 번만 정의하고 통합 번역 도구를 사용하여 번역을 관리할 수 있습니다. 자세한 내용은 [웹 양식 번역](translating-a-web-form.md)을 참조하십시오.
 
-## 이미지 {#inserting-images} 삽입
+## 이미지 삽입 {#inserting-images}
 
 양식에 포함할 이미지를 외부에서 액세스할 수 있는 서버에 저장해야 합니다.
 
