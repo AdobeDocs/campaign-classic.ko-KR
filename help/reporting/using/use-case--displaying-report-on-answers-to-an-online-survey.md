@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 5%
@@ -35,7 +35,7 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
 설문 조사에 대한 답변을 수집하려면 다음 단계를 수행합니다.
 
-1. 워크플로우를 만들고 **[!UICONTROL Answers to a survey]** 활동을 배치합니다. 이 활동 사용에 대한 자세한 정보는 [이 섹션](../../web/using/publish--track-and-use-collected-data.md#using-the-collected-data)을 참조하십시오.
+1. 워크플로우를 만들고 **[!UICONTROL Answers to a survey]** 활동을 배치합니다. 이 활동 사용에 대한 자세한 정보는 [이 섹션](../../surveys/using/publish--track-and-use-collected-data.md#using-the-collected-data)을 참조하십시오.
 1. 활동을 편집하고 답변을 분석할 설문 조사를 선택합니다.
 1. 모든 정보를 수집하려면 **[!UICONTROL Select all the answer data]** 옵션을 활성화합니다.
 
@@ -63,7 +63,7 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
    **[!UICONTROL List update]** 및 **[!UICONTROL Scheduler]** 활동이에 자세히 설명되어 있습니다.
 
-## 2단계 - 큐브, 측정 단위 및 표시기 만들기 {#step-2---creating-the-cube--its-measures-and-its-indicators}
+## 2단계 - 큐브, 측정 단위 및 해당 표시기 생성 {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
 그런 다음 큐브를 만들고 측정 단위를 구성할 수 있습니다.보고서 세트에 표시될 지표를 만드는 데 사용됩니다. 큐브 만들기 및 구성에 대한 자세한 내용은 [큐브 정보](../../reporting/using/about-cubes.md)를 참조하십시오.
 
@@ -77,7 +77,7 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
 **[!UICONTROL Preview]** 탭에서는 보고서 렌더링을 제어할 수 있습니다.
 
-## 3단계 - 보고서 만들기 및 테이블 {#step-3---creating-the-report-and-configuring-the-data-layout-within-the-table} 내에서 데이터 레이아웃 구성
+## 3단계 - 보고서 만들기 및 테이블 내 데이터 레이아웃 구성 {#step-3---creating-the-report-and-configuring-the-data-layout-within-the-table}
 
 그런 다음 이 큐브를 기반으로 보고서를 만들고 데이터 및 정보를 처리할 수 있습니다.
 
