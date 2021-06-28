@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 1%
@@ -45,13 +45,13 @@ Adobe Campaign에는 다국어 번역을 번역하고 관리하는 도구가 포
 
 ## 편집기에서 번역 관리 {#managing-translations-in-the-editor}
 
-### 문자열 {#collecting-strings} 수집
+### 문자열 수집 {#collecting-strings}
 
 **[!UICONTROL Translations]** 탭에서는 웹 응용 프로그램을 구성하는 문자 문자열에 대한 번역을 입력할 수 있습니다.
 
 이 탭을 처음 열면 데이터가 포함되지 않습니다. 웹 응용 프로그램의 문자열을 업데이트하려면 **[!UICONTROL Collect the strings to translate]** 링크를 클릭하십시오.
 
-Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의된 필드 및 문자열의 레이블을 수집합니다.HTML 블록, Javascript 등 정적 요소는 웹 양식의 [정적 요소에 자세히 설명되어 있습니다](../../web/using/static-elements-in-a-web-form.md).
+Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의된 필드 및 문자열의 레이블을 수집합니다.HTML 블록, Javascript 등 정적 요소는 웹 양식의 [정적 요소에 자세히 설명되어 있습니다](static-elements-in-a-web-form.md).
 
 ![](assets/s_ncs_admin_survey_trad_tab.png)
 
@@ -77,7 +77,7 @@ Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의�
 
 번역되지 않은 문자열만 표시하려면 **[!UICONTROL Status]** 드롭다운 상자에서 **[!UICONTROL To translate]** 을 선택합니다. 번역되거나 승인된 문자열만 표시할 수도 있습니다.
 
-### 문자열 번역 중 {#translating-strings}
+### 문자열 번역 {#translating-strings}
 
 1. 단어를 번역하려면 문자열 목록에서 해당 줄을 두 번 클릭합니다.
 
@@ -134,7 +134,7 @@ Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의�
 
 **CSV 형식**&#x200B;으로 파일을 내보내면 각 언어가 상태 및 승인 상태에 연결됩니다. **승인?** 열에서 번역을 승인할 수 있습니다. 이 열에는 **Yes** 또는 **No** 값이 포함될 수 있습니다. 통합 편집기의 경우([편집기에서 번역 관리 참조), 번역 승인이 선택 사항이며 프로세스를 차단하지 않습니다.](#managing-translations-in-the-editor)
 
-### {#importing-files} 파일을 가져오는 중
+### 파일 가져오기 {#importing-files}
 
 외부 번역이 완료되면 번역된 파일을 가져올 수 있습니다.
 
@@ -154,7 +154,7 @@ Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의�
 >
 >외부 번역은 항상 내부 번역에 우선합니다. 충돌하는 경우 내부 번역이 외부 번역으로 덮어써집니다.
 
-## 양식 변경 표시 언어 {#changing-forms-display-language}
+## 양식 표시 언어 변경 {#changing-forms-display-language}
 
 웹 양식은 웹 응용 프로그램 속성의 **[!UICONTROL Localization]** 탭에 지정된 기본 언어로 표시됩니다. 언어를 변경하려면 URL 끝에 다음 문자를 추가해야 합니다. 여기서 **xx**&#x200B;은(는) 언어의 기호입니다.
 
@@ -410,7 +410,7 @@ url의 언어 앞에 다른 매개 변수가 있는 경우. 예:**https://myserv
 >
 >기본적으로 제공되는 언어 이외의 다른 언어를 추가하려면 [번역 언어 추가](#adding-a-translation-language)를 참조하십시오
 
-## 예:여러 언어로 웹 응용 프로그램 표시 {#example--displaying-a-web-application-in-several-languages}
+## 예:여러 언어로 웹 애플리케이션 표시 {#example--displaying-a-web-application-in-several-languages}
 
 다음 웹 양식은 4개 언어로 사용할 수 있습니다.영어 프랑스어 독일어 스페인어 문자 문자열이 모두 웹 양식의 **[!UICONTROL Translation]** 탭을 통해 번역되었습니다. 기본 언어는 영문이므로 설문 조사가 게시되면 표준 URL을 사용하여 영어로 표시합니다.
 
@@ -437,7 +437,7 @@ URL의 끝에 **?lang=fr**&#x200B;을 추가하여 프랑스어로 표시합니�
 >
 >이 섹션은 전문가 사용자만을 위한 것입니다.
 
-### 시스템 문자열 번역{#translating-the-system-strings}
+### 시스템 문자열 번역 {#translating-the-system-strings}
 
 시스템 문자열은 모든 웹 응용 프로그램에서 사용하는 기본 문자 문자열입니다. 예:**[!UICONTROL Next]** , **[!UICONTROL Previous]**, **[!UICONTROL Approve]** 단추, **[!UICONTROL Loading]** 메시지 등 기본적으로 일부 언어에는 이러한 문자열에 대한 번역이 있는 사전이 포함되어 있습니다. 언어 목록은 [양식 변경: 표시 언어](#changing-forms-display-language)에 자세히 설명되어 있습니다.
 
