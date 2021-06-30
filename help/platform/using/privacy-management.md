@@ -49,7 +49,7 @@ Adobe Campaign의 기능은 다음과 같은 규정을 준수하는 데 도움�
 >
 >개인 데이터 및 데이터를 관리하는 다양한 엔터티(데이터 컨트롤러, 데이터 프로세서 및 데이터 주체)에 대한 자세한 내용은 [개인 데이터 및 가상 사용자를 참조하십시오](../../platform/using/privacy-and-recommendations.md#personal-data).
 
-## 액세스 권한 및 잊혀질 권리 {#right-access-forgotten}
+## 액세스 권리 및 잊혀질 권리 {#right-access-forgotten}
 
 Adobe Campaign을 사용하면 개인정보 보호 준비를 원활히 수행할 수 있도록 **액세스** 및 **삭제** 요청을 처리할 수 있습니다 .
 
