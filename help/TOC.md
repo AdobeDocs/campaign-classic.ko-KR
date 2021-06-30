@@ -10,7 +10,7 @@ type: Documentation
 source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
 source-wordcount: '2518'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -586,7 +586,7 @@ ht-degree: 96%
       + [이벤트 처리](message-center/using/about-event-processing.md)
       + [게재 실행](message-center/using/delivery-execution.md)
    + 보고서 {#reports}
-      + [트랜잭션 메시지 보고서에 액세스](message-center/using/about-transactional-messaging-reports.md)
+      + [트랜잭션 메시지 보고서 액세스](message-center/using/about-transactional-messaging-reports.md)
       + [메시지 센터 이벤트 내역](message-center/using/history-of-message-center-events.md)
       + [메시지 센터 서비스 수준](message-center/using/message-center-service-level.md)
       + [메시지 센터 처리 시간](message-center/using/message-center-processing-time.md)
