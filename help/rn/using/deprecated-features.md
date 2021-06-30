@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: c612b47463427751eff27d6092e371c918c87d93
 workflow-type: tm+mt
 source-wordcount: '1634'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -82,7 +82,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <td><p>Campaign 21.1.3 릴리스부터 팩스 채널을 더 이상 사용할 수 없습니다. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">자세히 알아보기</a></p>
   <tr>
   <td>Demdex 도메인<br></td>
-  <td><p> Campaign 21.1.3 릴리스부터 대상을 Adobe Experience Cloud으로 가져오고 내보내는 데 사용되는 demdex 도메인은 더 이상 사용할 수 없습니다. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">자세히 알아보기</a></p> 
+  <td><p> Campaign 21.1.3 릴리스부터 대상을 Adobe Experience Cloud으로 가져오고 내보내는 데 사용되는 demdex 도메인은 사용되지 않습니다. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">자세히 알아보기</a></p> 
   </td>
   </td>
   </tr>
@@ -156,7 +156,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 
 ### 운영 체제 {#o-s-eol}
 
-21.1.3 릴리스부터 Debian 8에 대한 지원은 더 이상 사용되지 않습니다.
+21.1.3 릴리스부터 Debian 8은 더 이상 지원되지 않습니다.
 
 19.1 릴리스부터 Adobe Campaign은 더 이상 다음 운영 체제와 호환되지 않습니다.
 
@@ -178,7 +178,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 도구와 호환되지 않습니다.
 
 * Java JDK 7. [자세히 알아보기](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
-* Libre Office 3.5 / 4.3 / 5.x(다른 도구에 포함된 경우 제외) [자세히 알아보기](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
+* Libre Office 3.5/4.3/5.x(다른 도구에 내장된 경우 제외) [자세히 알아보기](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### 데이터베이스 엔진 {#dbe-eol}
 
@@ -220,7 +220,7 @@ Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 
 
 **RDBMS 서버**
 
-19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 RDBMS 서버와 호환되지 않습니다:
+19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 RDBMS 서버와 호환되지 않습니다.
 
 * Oracle 10GR2
 * PostgreSQL 9.0 - 9.3
