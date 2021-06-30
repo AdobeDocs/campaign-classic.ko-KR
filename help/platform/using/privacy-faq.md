@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
 ht-degree: 100%
 
@@ -25,10 +25,10 @@ ht-degree: 100%
 
 * [개인 정보 관리에 관한 규정](../../platform/using/privacy-management.md#privacy-management-regulations)
 * [개인 데이터 및 가상 사용자](../../platform/using/privacy-and-recommendations.md#personal-data)
-* [액세스 권한 및 잊혀질 권리](../../platform/using/privacy-management.md#right-access-forgotten)
+* [액세스 권리 및 잊혀질 권리](../../platform/using/privacy-management.md#right-access-forgotten)
 * [동의, 보존 및 역할](../../platform/using/privacy-management.md#consent-retention-roles)
 
-## 개인 정보 보호 규정 준비 {#privacy-regulations-readiness}
+## 개인 정보 보호 규정 준비 태세 {#privacy-regulations-readiness}
 
 ### 최신 개인 정보 보호 규정을 준수하기 위한 Adobe Campaign의 제안은 무엇입니까?
 
