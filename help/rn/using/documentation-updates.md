@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
 source-wordcount: '4466'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 97%
 
 ## 2021년 6월 {#june-2021}
 
-**트랜잭션 메시지** 섹션이 프로세스를 더 잘 이해할 수 있도록 [향상된 스키마](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle)를 포함하는 새 시작 섹션으로 명확해지고 재구성되었습니다. [자세히 알아보기](../../message-center/using/about-transactional-messaging.md)
+**트랜잭션 메시지** 섹션이 프로세스를 더 잘 이해할 수 있도록 [향상된 스키마](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle)를 포함해서 새 시작 섹션으로 재구성되고 명확해졌습니다. [자세한 내용](../../message-center/using/about-transactional-messaging.md)
 
-**21.1.3 릴리스와 함께 제공되는 설명서 업데이트**
+**릴리스 21.1.3과 함께 제공되는 설명서 업데이트**
 
-Adobe Journey Orchestration과 통합 - [자세히 알아보기](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html). 단계별 사용 사례는 [이 페이지](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html)에 나와 있습니다
+Adobe Journey Orchestration과 통합 - [자세히 알아보기](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=ko). 단계별 사용 사례는 이 [페이지](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=ko)에 나와 있습니다.
 
 LINE 채널 개선 사항 - [자세히 알아보기](../../delivery/using/line-channel.md)
 
-새 Vertica FDA 커넥터 - [자세한 내용](../../installation/using/configure-fda-vertica.md)
+새 Vertica FDA 커넥터 - [자세히 알아보기](../../installation/using/configure-fda-vertica.md)
 
-새 Google Big Query FDA 커넥터 - [자세히 알아보기](../../installation/using/configure-fda-google-big-query.md)
+새 Google BigQuery FDA 커넥터 - [자세히 알아보기](../../installation/using/configure-fda-google-big-query.md)
 
-이제 &quot;청구(청구)&quot; 기술 워크플로우 설명에 원래 &quot;활성 청구 프로필 수(billingActiveContactCount)&quot;에 의해 수행되는 작업이 포함됩니다. [자세히 알아보기](../../workflow/using/about-technical-workflows.md)
+이제 &quot;청구(billing)&quot; 기술 워크플로우 설명에 원래는 &quot;활성 청구 프로필 수(billingActiveContactCount)&quot;에 의해 수행되는 작업이 포함됩니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
 
 ## 2021년 5월 {#may-2021}
 
@@ -43,13 +43,13 @@ LINE 채널 개선 사항 - [자세히 알아보기](../../delivery/using/line-c
 
 Campaign 클라이언트 콘솔 설치 단계가 개선되었고 명확해졌습니다. [자세히 알아보기](../../installation/using/installing-the-client-console.md)
 
-추적된 URL 서명 문제에 대한 새로운 기술 정보가 생성되었습니다. [자세히 알아보기](../../technotes/tracked-urls.md)
+추적된 URL 서명 문제에 대한 새로운 기술 정보가 생성되었습니다. [자세한 내용](../../technotes/tracked-urls.md)
 
 ## 2021년 4월 {#april-2021}
 
 새로운 섹션에서는 Adobe Experience Platform 소스 및 대상을 사용하여 Campaign Standard 및 Adobe RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공유하는 방법에 대해 설명합니다. [자세히 알아보기](../../integrations/using/get-started-sources-destinations.md)
 
-ISP 중단 후 바운스 자격을 업데이트하는 방법을 알려 주는 새로운 기술 정보가 생성되었습니다. [자세히 알아보기](../../delivery/using/update-bounce-qualification.md)
+ISP 중단 후 바운스 자격을 업데이트하는 방법을 알려 주는 새로운 기술 정보가 생성되었습니다. [자세한 내용](../../delivery/using/update-bounce-qualification.md)
 
 ## 2021년 3월 {#march-2021}
 
@@ -128,7 +128,7 @@ Adobe Campaign Enhanced MTA 섹션이 [여기](../../delivery/using/sending-with
 
 이제 SMS 커넥터 프로토콜 및 설정 페이지에 대한 자세한 설명은 [여기](../../delivery/using/sms-protocol.md)에서 볼 수 있습니다.
 
-액세스 권한 문제를 방지하기 위해 이벤트 폴더를 실행 인스턴스의 보기로 설정하지 말아야 한다는 경고를 하기 위해 **트랜잭션 메시지** 섹션에 메모가 추가되었습니다. [자세히 알아보기](../../message-center/using/about-event-processing.md#event-collection)
+액세스 권한 문제를 방지하기 위해 이벤트 폴더를 실행 인스턴스의 보기로 설정하지 말아야 한다는 경고를 하기 위해 **트랜잭션 메시지** 섹션에 메모가 추가되었습니다. [자세한 내용](../../message-center/using/about-event-processing.md#event-collection)
 
 ## 2020년 11월 {#nov-2020}
 
@@ -252,7 +252,7 @@ Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요�
 
 오류 발생 시 하위 워크플로우 로그 및 동작에 정보가 추가되었습니다. [자세한 내용](../../workflow/using/sub-workflow.md)
 
-**[!UICONTROL Scheduler]** 활동 섹션에 모범 사례가 추가되었습니다. [자세히 알아보기](../../workflow/using/scheduler.md)
+**[!UICONTROL Scheduler]** 활동 섹션에 모범 사례가 추가되었습니다. [자세한 내용](../../workflow/using/scheduler.md)
 
 ## 2020년 6월 {#june-2020}
 
@@ -304,7 +304,7 @@ Spam Assassin 설치 섹션이 새 설치 파일 이름으로 업데이트되었
 
 첨부 파일이 있는 트랜잭션 전자 메일 전송 섹션이 이동 및 업데이트되었습니다. [자세한 내용](../../message-center/using/transactional-email-with-attachments.md)
 
-데이터 패키지 모범 사례 섹션이 이동 및 업데이트되었습니다. [자세히 알아보기](../../platform/using/working-with-data-packages.md#data-package-best-practices)
+데이터 패키지 모범 사례 섹션이 이동 및 업데이트되었습니다. [자세한 내용](../../platform/using/working-with-data-packages.md#data-package-best-practices)
 
 ## 2020년 4월 {#april-2020}
 
@@ -334,7 +334,7 @@ Adobe Target의 동적 오퍼를 Adobe Campaign의 전자 메일에 통합하는
 
 이제 Adobe Campaign에서 사용할 수 있는 다양한 언어를 설명하는 새 섹션을 사용할 수 있습니다. [자세한 내용](../../platform/using/adobe-campaign-workspace.md#languages)
 
-지정된 권한에 대한 추가 정보가 있는 액세스 관리 지침이 업데이트되었습니다. [자세히 알아보기](../../platform/using/access-management-named-rights.md)
+지정된 권한에 대한 추가 정보가 있는 액세스 관리 지침이 업데이트되었습니다. [자세한 내용](../../platform/using/access-management-named-rights.md)
 
 ## 2020년 2월 {#february-2020}
 
@@ -468,7 +468,7 @@ GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCP
 
 Campaign Classic에서 추적을 위해 새로운 문제 해결 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/classic-tracking-troubleshooting.html).
 
-Adobe Analytics 커넥터에 대한 새 모범 사례 사례 페이지가 추가되었습니다. [Adobe Analytics 커넥터에 대한 자세한 내용](../../platform/using/adobe-analytics-connector.md)
+Adobe Analytics 데이터 커넥터에 대한 새 모범 사례 페이지가 추가되었습니다. [Adobe Analytics 커넥터에 대한 자세한 내용](../../platform/using/adobe-analytics-connector.md)
 
 게재 모범 사례 시작 안내서가 이동 및 업데이트되었습니다. [자세한 내용](../../delivery/using/delivery-best-practices.md)
 
