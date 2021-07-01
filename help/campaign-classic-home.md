@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
+source-git-commit: 8a0535180640c63201d1a59539eac8c91a53cb8b
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 50%
+source-wordcount: '257'
+ht-degree: 56%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 50%
 
 * **[6월 릴리스가 라이브입니다!](rn/using/latest-release.md)**<br/> 릴리스 노트의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오
 
-* **[Apple Mail Privacy Protection ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> FAQiOS 15에 대한 Apple의 발표에 대한 초기 지침을 찾습니다
+* **[Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ko)**<br/> iOS 15에 대한 Apple의 공지의 초기 지침을 찾습니다
 
 * **[IMS/Adobe ID을 통해 연결하시겠습니까? 최신 빌드](technotes/ims-updates.md)**<br/>로 업그레이드하십시오. IMS를 사용하여 Campaign에 연결하는 경우** 2021년 6월 30일 이후에 Campaign에 연결할 수 있도록 업그레이드해야 합니다.**
 
@@ -80,7 +80,7 @@ ht-degree: 50%
 
 | 유용한 페이지 | 개발자를 위한 자료 |
 |---|---|
-| [릴리스 정보](/help/rn/using/latest-release.md) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [릴리스 정보](/help/rn/using/latest-release.md) | [오류 메시지 목록](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [사용법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko) | [Campaign 데이터 모델](configuration/using/about-data-model.md) |
 | [호환성 매트릭스](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [[!DNL Gold Standard] 업그레이드](rn/using/gs-overview.md) | [추적 가이드](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html) |
