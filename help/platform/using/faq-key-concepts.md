@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
+source-git-commit: 8a0535180640c63201d1a59539eac8c91a53cb8b
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '876'
 ht-degree: 97%
 
 ---
@@ -114,7 +114,7 @@ Adobe Campaign 디지털 콘텐츠 편집기를 사용하여 랜딩 페이지를
 
 ## 오류 메시지를 번역하는 방법  {#how-to-translate-an-error-message-}
 
-외국어로 오류 메시지가 표시됩니까? 모든 오류 메시지와 해당 번역이 [이 페이지](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)에 나열됩니다.
+외국어로 오류 메시지가 표시됩니까? 모든 오류 메시지와 해당 번역이 [이 페이지](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)에 나열됩니다.
 
 ## 웹 양식을 만들고 Campaign에서 답변을 수집할 수 있습니까? {#can-i-create-a-webform-and-collect-answers-in-campaign-}
 
