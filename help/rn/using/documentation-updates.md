@@ -6,9 +6,9 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 8a0535180640c63201d1a59539eac8c91a53cb8b
 workflow-type: tm+mt
-source-wordcount: '4466'
+source-wordcount: '4456'
 ht-degree: 99%
 
 ---
@@ -462,7 +462,7 @@ Adobe Campaign과 Adobe 실시간 고객 데이터 Platform 간의 통합이 이
 
 ## 2019년 10월 {#october-2019}
 
-Campaign에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+Campaign에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCPA를 포함한 개인 정보 관리 문서입니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)
 
@@ -516,7 +516,7 @@ Campaign 서버 제거 단계를 설명하는 섹션이 추가되었습니다. [
 
 Marketing Cloud Trigger 기술 정보가 업데이트되었습니다. [자세한 내용](../../integrations/using/about-triggers.md)
 
-오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 트랜잭션 메시지을 위한 SOAP 인증 방법에 대한 자세한 내용을 추가했습니다. [자세한 내용](../../message-center/using/event-description.md)
 
