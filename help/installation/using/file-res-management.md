@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 939552f127207f258448b2a82bb8c4c000371694
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 1%
+source-wordcount: '612'
+ht-degree: 0%
 
 ---
 
@@ -101,7 +101,20 @@ FTP/FTPS 연결은 proxyFTP 매개 변수에서 정의됩니다.
 
 프록시를 통과해야 하는 내부 연결이 있는 경우 재정의 매개 변수에 추가합니다.
 
-일시적으로 프록시 연결을 비활성화하려면 enabled 매개 변수를 &quot;false&quot; 또는 &quot;0&quot;으로 설정합니다.
+프록시 연결을 일시적으로 비활성화하려면 enabled 매개 변수를 &quot;false&quot; 또는 &quot;0&quot;으로 설정합니다.
+
+프록시를 통해 iOS HTTP/2 커넥터를 사용해야 하는 경우 다음 HTTP 프록시 모드가 지원됩니다.
+
+* 인증이 없는 HTTP
+* HTTP 기본 인증
+
+프록시 모드를 활성화하려면 `serverconf.xml` 파일에서 다음 변경 작업을 수행해야 합니다.
+
+```
+<nmac useHTTPProxy="true">
+```
+
+이 iOS HTTP/2 커넥터에 대한 자세한 내용은 이 [page](../../delivery/using/about-mobile-app-channel.md) 를 참조하십시오.
 
 ## 공개 리소스 관리 {#managing-public-resources}
 
