@@ -3,10 +3,10 @@ product: campaign
 title: Adobe Campaign Classic 설명서 업데이트
 description: 이 페이지에는 Adobe Campaign Classic 설명서의 모든 새로운 기능과 업데이트가 있습니다.
 feature: 개요
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 8a0535180640c63201d1a59539eac8c91a53cb8b
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '4456'
 ht-degree: 99%
