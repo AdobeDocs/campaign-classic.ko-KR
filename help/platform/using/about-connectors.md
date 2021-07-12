@@ -3,10 +3,10 @@ product: campaign
 title: 커넥터 정보
 description: 커넥터 정보
 feature: 개요
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
 exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 8%
@@ -25,7 +25,7 @@ Adobe Campaign은 외부 애플리케이션과 통신하고, 데이터베이스 
 
 Campaign을 다음과 같은 여러 다른 시스템과 통합할 수도 있습니다.
 
-* Adobe Experience Cloud 솔루션:Adobe Experience Manager, Adobe Target, Adobe Audience Manager, Experience Cloud 트리거 등 [자세히 알아보기](../../integrations/using/about-campaign-integrations.md)
+* Adobe Experience Cloud 솔루션: Adobe Experience Manager, Adobe Target, Adobe Audience Manager, Experience Cloud 트리거 등 [자세히 알아보기](../../integrations/using/about-campaign-integrations.md)
 * Adobe IMS/SSO를 사용하여 Campaign 인스턴스에 대한 액세스를 보호하고 다른 Adobe Experience Cloud 솔루션과 동일한 Adobe ID을 사용하여 Adobe Campaign에 연결합니다. [자세히 알아보기](../../integrations/using/about-adobe-id.md)
 * 액세스 관리를 통합하기 위한 LDAP 디렉토리 [자세히 알아보기](../../installation/using/connecting-through-ldap.md)
 
