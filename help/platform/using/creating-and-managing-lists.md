@@ -3,10 +3,10 @@ product: campaign
 title: 목록 만들기 및 관리
 description: 목록을 만들고 관리하는 방법을 알아봅니다
 feature: 프로필
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 9%
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # 목록 만들기 및 관리{#creating-and-managing-lists}
 
-## 목록이 무엇입니까?{#about-lists-in-adobe-campaign}
+## 목록이 무엇입니까? {#about-lists-in-adobe-campaign}
 
 목록은 게재 작업에서 타겟팅되거나 가져오기 작업 또는 워크플로우 실행 중에 업데이트될 수 있는 정적 프로필 세트입니다. 예를 들어 쿼리를 통해 데이터베이스에서 추출한 모집단은 목록을 제공할 수 있습니다.
 
@@ -25,17 +25,17 @@ ht-degree: 9%
 
 Adobe Campaign에서는 두 가지 유형의 목록을 사용할 수 있습니다.
 
-* **[!UICONTROL Group]** 유형:유형  **[!UICONTROL Group]** 목록은  **** 특정 기준에 따라 선택한 사람들의 통계에 속합니다. 목록은 프로필 집합의 스냅샷과 같습니다. 데이터베이스에 프로필을 추가하는 경우 자동으로 업데이트되지 않습니다.
+* **[!UICONTROL Group]** 유형: 유형  **[!UICONTROL Group]** 목록은  **** 특정 기준에 따라 선택한 사람들의 통계에 속합니다. 목록은 프로필 집합의 스냅샷과 같습니다. 데이터베이스에 프로필을 추가하는 경우 자동으로 업데이트되지 않습니다.
 
    **[!UICONTROL Group]** 유형 목록을 만드는 방법에 대한 자세한 내용은 이 [page](#creating-a-profile-list-from-a-group)를 참조하십시오.
 
-* **[!UICONTROL List]** 유형:유형  **[!UICONTROL List]** 목록을 사용하면 워크플로우를 사용하여 목록을 만들고 관리할 수 있습니다. 이러한 목록은 데이터 가져오기로 인해 발생하는 특정 목록이며, 전용 **[!UICONTROL List update]** 워크플로우 활동을 통해 업데이트할 수 있습니다.
+* **[!UICONTROL List]** 유형: 유형  **[!UICONTROL List]** 목록을 사용하면 워크플로우를 사용하여 목록을 만들고 관리할 수 있습니다. 이러한 목록은 데이터 가져오기로 인해 발생하는 특정 목록이며, 전용 **[!UICONTROL List update]** 워크플로우 활동을 통해 업데이트할 수 있습니다.
 
    **[!UICONTROL Group]** 유형 목록과 달리, 이 유형 목록은 **[!UICONTROL Scheduler]** 활동으로 자동으로 업데이트할 수 있습니다. **[!UICONTROL List]** 유형 목록을 만드는 방법에 대한 예는 [이 페이지](../../workflow/using/list-update.md)를 참조하십시오.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#create-list-video)
 
-## 그룹 {#creating-a-profile-list-from-a-group}에서 프로필 목록 만들기
+## 그룹에서 프로필 목록 만들기 {#creating-a-profile-list-from-a-group}
 
 **[!UICONTROL Group]** 링크를 통해 만든 유형  **[!UICONTROL Profiles and targets]** 목록은 기본 Adobe Campaign 프로필 테이블(nms:recipient)을 기반으로 해야 합니다.
 
@@ -53,7 +53,7 @@ Adobe Campaign에서는 두 가지 유형의 목록을 사용할 수 있습니�
 
    * **[!UICONTROL Label]** 필드에 목록 이름을 입력하고 필요한 경우 내부 이름을 변경합니다.
    * 이 목록에 대한 설명을 추가합니다.
-   * 만료 날짜를 지정할 수 있습니다.이 날짜에 도달하면 목록이 삭제되고 자동으로 삭제됩니다.
+   * 만료 날짜를 지정할 수 있습니다. 이 날짜에 도달하면 목록이 삭제되고 자동으로 삭제됩니다.
 
       ![](assets/list_expiration_date.png)
 
@@ -69,7 +69,7 @@ Adobe Campaign에서는 두 가지 유형의 목록을 사용할 수 있습니�
 
 프로필 목록은 다른 목록처럼 구성할 수 있습니다. [이 섹션](../../platform/using/adobe-campaign-workspace.md#configuring-lists)을 참조하십시오.
 
-## 데이터를 목록에 연결 {#linking-data-to-a-list}
+## 목록에 데이터 연결 {#linking-data-to-a-list}
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Adobe Campaign에서는 두 가지 유형의 목록을 사용할 수 있습니�
 
 ![](assets/s_ncs_user_add_selection_to_group_4.png)
 
-Adobe Campaign 홈페이지에서 목록을 편집할 수도 있습니다.**[!UICONTROL Profiles and Targets > Lists]** 메뉴를 클릭하고 관련 목록을 선택합니다. **[!UICONTROL Content]** 탭에는 이 목록에 연결된 프로필이 표시됩니다.
+Adobe Campaign 홈페이지에서 목록을 편집할 수도 있습니다. **[!UICONTROL Profiles and Targets > Lists]** 메뉴를 클릭하고 관련 목록을 선택합니다. **[!UICONTROL Content]** 탭에는 이 목록에 연결된 프로필이 표시됩니다.
 
 ![](assets/s_ncs_user_add_selection_to_group_5.png)
 
