@@ -6,10 +6,10 @@ audience: rn
 content-type: reference
 topic-tags: latest-release-notes
 feature: 개요
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 7%
@@ -65,9 +65,9 @@ ht-degree: 7%
 
 teradata 외부 계정에 새 탭이 추가되었습니다. **[!UICONTROL Query banding]** 탭에는 다음 옵션이 포함되어 있습니다.
 
-* **[!UICONTROL Active]**:이 확인란을 선택하여 기능을 활성화합니다.
-* **[!UICONTROL Default]**:사용자에게 연관된 쿼리 밴딩이 없는 경우 사용할 기본 쿼리 밴딩을 입력합니다. 정의된 기본 쿼리 밴딩이 없는 경우 연결된 쿼리 밴딩이 없는 사용자는 Teradata을 사용할 수 없습니다.
-* **[!UICONTROL Users]**:각 사용자에 대해 쿼리 밴딩을 지정합니다. 필요한 만큼 키/값 쌍을 추가할 수 있습니다. 예:&#39;priority=1;workload=high;&#39;
+* **[!UICONTROL Active]**: 이 확인란을 선택하여 기능을 활성화합니다.
+* **[!UICONTROL Default]**: 사용자에게 연관된 쿼리 밴딩이 없는 경우 사용할 기본 쿼리 밴딩을 입력합니다. 정의된 기본 쿼리 밴딩이 없는 경우 연결된 쿼리 밴딩이 없는 사용자는 Teradata을 사용할 수 없습니다.
+* **[!UICONTROL Users]**: 각 사용자에 대해 쿼리 밴딩을 지정합니다. 필요한 만큼 키/값 쌍을 추가할 수 있습니다. 예: &#39;priority=1;workload=high;&#39;
 
 쿼리 밴딩에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
