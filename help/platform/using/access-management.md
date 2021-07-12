@@ -3,13 +3,13 @@ product: campaign
 title: 사용 권한 시작
 description: Campaign 기능에 대한 액세스 권한을 부여하는 방법을 알아봅니다
 feature: 액세스 관리
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign을 사용하면 다양한 운영자에게 할당된 권한을 정
 
 다음 섹션에서 액세스 권한을 부여하고 권한을 설정하는 방법을 알아봅니다.
 
-* [연산자 만들기](access-management-operators.md)
+* [운영자 만들기](access-management-operators.md)
 
 * [그룹 정의](access-management-groups.md)
 
@@ -48,7 +48,7 @@ Adobe Campaign을 사용하면 다양한 운영자에게 할당된 권한을 정
 * [액세스 권한 매트릭스](access-management-named-rights.md#access-rights-matrix)
 
 
-다음을 참조하십시오.
+또한 다음을 참조하십시오:
 
 * [워크플로우에 대한 권한 관리](../../workflow/using/managing-rights.md)
 * [분산 마케팅에 대한 권한 관리](../../campaign/using/about-distributed-marketing.md#operators-and-entities)
