@@ -3,10 +3,10 @@ product: campaign
 title: Campaign 폴더에 대한 액세스 관리
 description: Campaign 폴더에 대한 액세스 권한을 부여하고 보기를 만드는 방법을 알아봅니다
 feature: 애플리케이션 설정
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 폴더 및 보기 {#folders-and-views}
 
-### {#about-folders} 폴더란 무엇입니까?
+### 폴더란? {#about-folders}
 
 폴더는 Adobe Campaign 트리의 노드입니다. 이러한 노드는 **[!UICONTROL Add new folder]** 메뉴를 통해 트리를 마우스 오른쪽 버튼으로 클릭하여 만들어집니다. 기본적으로 첫 번째 메뉴를 사용하면 현재 컨텍스트에 해당하는 폴더를 추가할 수 있습니다.
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 탐색기 탐색 트리를 사용자 정의할 수 있습니다. 이 섹션](adobe-campaign-workspace.md)에서 구성 단계 및 모범 사례 [에 대해 알아봅니다.
 
-### 보기 {#about-views}란 무엇입니까?
+### 보기란 무엇입니까 {#about-views}
 
 또한 데이터 액세스를 제한하고 요구 사항에 맞게 트리의 컨텐츠를 정리하기 위해 보기를 만들 수 있습니다. 그런 다음 보기에 권한을 할당할 수 있습니다.
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_user_add_folder_exple01.png)
 
-1. 창의 가운데 섹션에 있는 쿼리 편집기에서 게재 필터 기준을 정의합니다.그러면 정의된 필터에 해당하는 캠페인이 표시됩니다.
+1. 창의 가운데 섹션에 있는 쿼리 편집기에서 게재 필터 기준을 정의합니다. 그러면 정의된 필터에 해당하는 캠페인이 표시됩니다.
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 ## 폴더에 대한 권한
 
-### 폴더 {#edit-permissions-on-a-folder}에 대한 권한 편집
+### 폴더의 권한 편집 {#edit-permissions-on-a-folder}
 
 트리의 특정 폴더에 대한 권한을 편집하려면 아래 단계를 따르십시오.
 
@@ -104,7 +104,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_user_folder_properties_security03.png)
 
-### 권한 전달 {#propagate-permissions}
+### 권한 전파 {#propagate-permissions}
 
 권한 및 액세스 권한을 전파할 수 있습니다. 이렇게 하려면 폴더 속성에서 **[!UICONTROL Propagate]** 옵션을 선택합니다.
 
@@ -114,7 +114,7 @@ ht-degree: 1%
 >
 >폴더에 대해 이 옵션을 지우는 것은 하위 폴더에 대해 자동으로 지워지지 않습니다. 각 하위 폴더에 대해 명시적으로 지워야 합니다.
 
-### 모든 연산자 {#grant-access-to-all-operators}에 대한 액세스 권한 부여
+### 모든 연산자에 대한 액세스 권한 부여 {#grant-access-to-all-operators}
 
 **[!UICONTROL Security]** 탭에서 **[!UICONTROL System folder]** 옵션을 선택하면 모든 연산자가 해당 권한에 관계없이 이 데이터에 액세스할 수 있습니다. 이 옵션이 지워지면 운영자(또는 그 그룹)를 권한 목록에 명시적으로 추가해야 사용자가 액세스할 수 있습니다.
 
