@@ -3,10 +3,10 @@ product: campaign
 title: Campaign 운영자 시작
 description: Campaign 사용자를 만들고 관리하는 방법을 알아봅니다
 feature: 액세스 관리
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 운영자 만들기 및 관리 {#operators}
 
-## Campaign 연산자 {#about-operators} 시작
+## Campaign 운영자 시작  {#about-operators}
 
 연산자는 로그인 및 작업을 수행할 수 있는 권한이 있는 Adobe Campaign 사용자입니다.
 
@@ -35,7 +35,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 사용자는 Adobe ID을 사용하여 Adobe Campaign에 직접 연결할 수도 있습니다. 자세한 정보는 이 [페이지](../../integrations/using/about-adobe-id.md)를 참조하십시오.
 
-## 연산자 {#creating-an-operator} 만들기
+## 연산자 만들기 {#creating-an-operator}
 
 새 연산자를 만들고 권한을 부여하려면 아래 단계를 수행하십시오.
 
@@ -43,7 +43,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
    ![](assets/s_ncs_user_operator_new.png)
 
-1. 사용자의 **[!UICONTROL Identification parameters]** 지정:로그인, 암호 및 이름입니다. 연산자가 Adobe Campaign에 로그온하는 데 로그인 및 암호를 사용합니다. 사용자가 로그온하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 예를 들어 승인 처리 시 연산자가 알림을 받을 수 있으므로 연산자의 이메일이 필수입니다.
+1. 사용자의 **[!UICONTROL Identification parameters]** 지정: 로그인, 암호 및 이름입니다. 연산자가 Adobe Campaign에 로그온하는 데 로그인 및 암호를 사용합니다. 사용자가 로그온하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 예를 들어 승인 처리 시 연산자가 알림을 받을 수 있으므로 연산자의 이메일이 필수입니다.
 
    또한 이 섹션에서는 연산자를 조직 엔터티에 연결할 수도 있습니다. 자세한 내용은 [이 페이지](../../campaign/using/about-distributed-marketing.md)를 참조하십시오.
 
@@ -59,7 +59,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
    할당할 그룹 및/또는 명명된 권한을 선택하고 **[!UICONTROL OK]** 을 클릭하여 유효성을 확인합니다.
 
-1. **[!UICONTROL Ok]** 을 클릭하여 연산자를 만듭니다.기존 연산자 목록에 프로필이 추가됩니다.
+1. **[!UICONTROL Ok]** 을 클릭하여 연산자를 만듭니다. 기존 연산자 목록에 프로필이 추가됩니다.
 
    ![](assets/operator_profile_new.png)
 
@@ -75,7 +75,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 >
 >**[!UICONTROL Session timeout]** 필드를 사용하면 FDA 세션 시간 초과 전에 지연을 조정할 수 있습니다. 자세한 내용은 [페더레이션 데이터 액세스 정보](../../installation/using/about-fda.md)를 참조하십시오.
 
-## 연산자의 시간대 {#time-zone-of-the-operator} 정의
+## 연산자의 시간대를 정의합니다. {#time-zone-of-the-operator}
 
 **[!UICONTROL General]** 탭에서 연산자의 시간대를 선택할 수 있습니다. 기본적으로 연산자는 서버 시간대에서 작동합니다. 그러나 드롭다운 목록을 사용하여 다른 시간대를 선택할 수 있습니다.
 
@@ -83,7 +83,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 >[!NOTE]
 >
->다양한 시간대 내의 공동 작업은 UTC로 날짜를 저장해야 합니다. 날짜는 다음 컨텍스트의 해당 시간대에서 변환됩니다.사용자 시간대에 날짜가 표시되면 파일을 가져오고 내보낼 때 이메일 게재를 예약할 때 워크플로우에서 활동이 예약되는 시간(스케줄러, 대기, 시간 제한 등)
+>다양한 시간대 내의 공동 작업은 UTC로 날짜를 저장해야 합니다. 날짜는 다음 컨텍스트의 해당 시간대에서 변환됩니다. 사용자 시간대에 날짜가 표시되면 파일을 가져오고 내보낼 때 이메일 게재를 예약할 때 워크플로우에서 활동이 예약되는 시간(스케줄러, 대기, 시간 제한 등)
 >
 >이러한 컨텍스트에 연결된 제한 및 권장 사항은 Adobe Campaign 설명서의 관련 섹션에 나와 있습니다.
 
@@ -97,13 +97,13 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 **[!UICONTROL Edit the access parameters...]** 링크를 통해 다음 옵션에 액세스할 수 있습니다.
 
-* **[!UICONTROL Disable account]** 옵션을 사용하면 연산자의 계정을 비활성화할 수 있습니다.더 이상 Adobe Campaign에 액세스할 수 없습니다.
+* **[!UICONTROL Disable account]** 옵션을 사용하면 연산자의 계정을 비활성화할 수 있습니다. 더 이상 Adobe Campaign에 액세스할 수 없습니다.
 
    >[!NOTE]
    >
    >계정이 비활성화되었더라도 운영자가 Campaign에서 경고나 알림을 계속 받을 수 있습니다. 이 운영자에게 Campaign 알림 전송을 중단하려면 Adobe에서 이 프로필에서 이메일 주소를 제거하는 것이 좋습니다.
 
-* **[!UICONTROL Forbid access from the rich client]** 옵션을 사용하면 Adobe Campaign을 [웹 액세스](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) 또는 API를 통해 사용하도록 제한할 수 있습니다.Adobe Campaign 클라이언트 콘솔에 대한 액세스를 더 이상 사용할 수 없습니다.
+* **[!UICONTROL Forbid access from the rich client]** 옵션을 사용하면 Adobe Campaign을 [웹 액세스](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) 또는 API를 통해 사용하도록 제한할 수 있습니다. Adobe Campaign 클라이언트 콘솔에 대한 액세스를 더 이상 사용할 수 없습니다.
 * 작동자에게 안전구역을 연결할 수 있습니다 자세한 정보는 이 [페이지](../../installation/using/security-zones.md)를 참조하십시오.
 * 적절한 링크를 사용하여 신뢰할 수 있는 IP 마스크를 정의할 수도 있습니다.
 
@@ -123,7 +123,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
    >[!IMPORTANT]
    >
-   >이것은 매우 엄격한 제한이므로 주의해서 사용해야 한다. 이 유형의 권한으로 로그인한 연산자는 지정된 폴더의 컨텐츠만 볼 수 있으며 탐색기를 통해 트리의 다른 노드에 액세스할 수 없습니다. 그러나 액세스 권한이 있는 기능에 따라(예:워크플로우)를 채울 수 있으며 일반적으로 볼 수 없는 노드에 저장된 데이터를 표시할 수 있습니다.
+   >이것은 매우 엄격한 제한이므로 주의해서 사용해야 한다. 이 유형의 권한으로 로그인한 연산자는 지정된 폴더의 컨텐츠만 볼 수 있으며 탐색기를 통해 트리의 다른 노드에 액세스할 수 없습니다. 그러나 액세스 권한이 있는 기능에 따라(예: 워크플로우)를 채울 수 있으며 일반적으로 볼 수 없는 노드에 저장된 데이터를 표시할 수 있습니다.
 
 ### 설정 확인 {#check-settings}
 
@@ -149,7 +149,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 ## 기본 연산자 {#default-operators}
 
-Adobe Campaign은 기본적으로 구성된 프로필과 함께 기술 운영자를 사용합니다.관리자(&#39;admin&#39;), 청구(&#39;billing&#39;), 모니터링, 웹 애플리케이션 에이전트(&#39;webapp&#39;) 등 이러한 옵션 중 일부는 플랫폼에 설치된 애플리케이션 및 옵션에 따라 다릅니다.예를 들어 &#39;central&#39; 및 &#39;local&#39; 연산자는 분산 마케팅 옵션이 설치된 경우에만 표시됩니다.
+Adobe Campaign은 기본적으로 구성된 프로필과 함께 기술 운영자를 사용합니다. 관리자(&#39;admin&#39;), 청구(&#39;billing&#39;), 모니터링, 웹 애플리케이션 에이전트(&#39;webapp&#39;) 등 이러한 옵션 중 일부는 플랫폼에 설치된 애플리케이션 및 옵션에 따라 다릅니다. 예를 들어 &#39;central&#39; 및 &#39;local&#39; 연산자는 분산 마케팅 옵션이 설치된 경우에만 표시됩니다.
 
 >[!IMPORTANT]
 >
