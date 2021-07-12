@@ -3,17 +3,17 @@ product: campaign
 title: 일반 가져오기 및 내보내기 기본 정보
 description: 일반 가져오기 및 내보내기에 대해 자세히 알아보십시오.
 feature: 개요
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
 exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 5%
 
 ---
 
-# 작업 가져오기 및 내보내기 {#about-generic-imports-exports} 시작
+# 가져오기 및 내보내기 작업 시작 {#about-generic-imports-exports}
 
 Adobe Campaign Classic은 일반 가져오기 및 내보내기를 제공합니다. 예를 들어 대상 모집단의 일부가 될 고객 또는 잠재 고객 목록을 추출하거나 외부 파일의 데이터를 데이터베이스에 제공할 수 있습니다.
 
