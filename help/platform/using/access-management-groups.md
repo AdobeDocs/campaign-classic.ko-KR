@@ -3,21 +3,21 @@ product: campaign
 title: 운영자 그룹 만들기 및 관리
 description: 운영자 그룹에 대한 액세스 권한을 부여하는 방법 알아보기
 feature: 액세스 관리
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
 
 ---
 
-# 연산자 그룹 {#operator-groups} 만들기 및 관리
+# 운영자 그룹 만들기 및 관리 {#operator-groups}
 
 연산자 그룹은 트리의 **[!UICONTROL Administration > Access management > Operator groups]** 노드를 통해 만들어집니다.
 
-## 새 연산자 그룹 {#creating-a-new-operator-group} 만들기
+## 새 연산자 그룹 만들기 {#creating-a-new-operator-group}
 
 새 운영자 그룹을 생성하려면 다음 단계를 수행합니다.
 
@@ -47,25 +47,25 @@ ht-degree: 0%
 
    이 그룹에는 이름이 지정된 다음 권한이 포함되어 있습니다.
 
-   * **[!UICONTROL ADMINISTRATION]**:워크플로우, 게재, 스크립트 등과 같은 모든 객체를 실행/생성/편집/삭제할 수 있는 권한.
+   * **[!UICONTROL ADMINISTRATION]**: 워크플로우, 게재, 스크립트 등과 같은 모든 객체를 실행/생성/편집/삭제할 수 있는 권한.
 
 1. **[!UICONTROL Delivery operators]**
 
-   이 그룹의 연산자는 게재 관리를 담당합니다.게재를 만들고 준비하는 데 필요한 기본 리소스(캠페인 유형화, 게재 매핑, 기본 템플릿, 개인화 블록 등)에 액세스할 수 있습니다.
+   이 그룹의 연산자는 게재 관리를 담당합니다. 게재를 만들고 준비하는 데 필요한 기본 리소스(캠페인 유형화, 게재 매핑, 기본 템플릿, 개인화 블록 등)에 액세스할 수 있습니다.
 
    이 그룹에는 다음과 같은 명명된 권한이 포함되어 있습니다.
 
-   * **[!UICONTROL PREPARE DELIVERIES]**:게재 분석을 만들고, 편집하고, 시작할 수 있는 권한
-   * **[!UICONTROL START DELIVERIES]**:이전에 분석한 게재를 승인할 수 있는 권한.
+   * **[!UICONTROL PREPARE DELIVERIES]**: 게재 분석을 만들고, 편집하고, 시작할 수 있는 권한
+   * **[!UICONTROL START DELIVERIES]**: 이전에 분석한 게재를 승인할 수 있는 권한.
 
 1. **[!UICONTROL Campaign managers]**
 
-   이 그룹의 운영자는 마케팅 캠페인을 관리할 수 있습니다.캠페인(계획, 프로그램, 워크플로우, 예산 등)에 연결된 객체에 액세스할 수 있습니다. **[!UICONTROL Campaign]** 프레임워크 내에서 (선택적 Adobe Campaign 모듈)
+   이 그룹의 운영자는 마케팅 캠페인을 관리할 수 있습니다. 캠페인(계획, 프로그램, 워크플로우, 예산 등)에 연결된 객체에 액세스할 수 있습니다. **[!UICONTROL Campaign]** 프레임워크 내에서 (선택적 Adobe Campaign 모듈)
 
    이 그룹에는 다음과 같은 명명된 권한이 포함되어 있습니다.
 
-   * **[!UICONTROL INSERT FOLDERS]**:Adobe Campaign 트리에 폴더를 삽입할 수 있는 권한(관련 분기에 대한 편집 권한이 있는 경우),
-   * **[!UICONTROL WORKFLOW]**:워크플로우를 사용할 수 있는 권한.
+   * **[!UICONTROL INSERT FOLDERS]**: Adobe Campaign 트리에 폴더를 삽입할 수 있는 권한(관련 분기에 대한 편집 권한이 있는 경우),
+   * **[!UICONTROL WORKFLOW]**: 워크플로우를 사용할 수 있는 권한.
    >[!NOTE]
    >
    >이 그룹에서는 연산자가 게재를 시작할 수 없습니다.
@@ -95,5 +95,5 @@ ht-degree: 0%
    이 그룹의 연산자는 오퍼를 만들고 유지 관리할 수 있습니다. 자세한 내용은 이 [페이지](../../interaction/using/operator-profiles.md)를 참조하십시오.
 이 그룹에는 다음과 같은 명명된 권한이 포함되어 있습니다.
 
-   * **[!UICONTROL INSERT FOLDERS]**:Adobe Campaign 트리에 폴더를 삽입할 수 있는 권한(관련 분기에 대한 편집 권한이 있는 경우),
-   * **[!UICONTROL EDIT FOLDERS]**:내부 이름, 레이블, 연결된 이미지, 하위 폴더 순서 등과 같은 폴더 속성을 변경할 수 있는 권한.
+   * **[!UICONTROL INSERT FOLDERS]**: Adobe Campaign 트리에 폴더를 삽입할 수 있는 권한(관련 분기에 대한 편집 권한이 있는 경우),
+   * **[!UICONTROL EDIT FOLDERS]**: 내부 이름, 레이블, 연결된 이미지, 하위 폴더 순서 등과 같은 폴더 속성을 변경할 수 있는 권한.
