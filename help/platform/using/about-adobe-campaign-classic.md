@@ -3,10 +3,10 @@ product: campaign
 title: Adobe Campaign Classic 정보
 description: 주요 기능, 사용자 인터페이스 및 글로벌 지침을 살펴보십시오.
 feature: 개요
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 95%
@@ -33,7 +33,7 @@ Adobe Campaign의 마케팅 캠페인 주기는 제품의 주요 기능을 보�
 
 ![](assets/d_ncs_user_emarketing.png)
 
-### 통합 고객 프로필 {#integrated-customer-profile}
+### Integrated Customer Profile {#integrated-customer-profile}
 
 프로필(고객, 잠재 고객, 뉴스레터 구독자 등) 은 Adobe Campaign 데이터베이스에 중앙 집중화됩니다. 프로필을 가져오고 이 데이터베이스를 빌드하는 데 사용할 수 있는 메커니즘은 웹 양식을 통한 온라인 수집, 텍스트 파일 수동 또는 자동 가져오기, 회사 데이터베이스 또는 기타 정보 시스템을 사용한 복제와 같이 다양합니다. Adobe Campaign을 사용하면 마케팅 기록, 구매 정보, 환경 설정, CRM 데이터 및 관련 PII 데이터를 통합 뷰에 통합하여 분석하고 조치를 취할 수 있습니다.
 
@@ -41,9 +41,9 @@ Adobe Campaign에서 수신자는 게재(전자 메일, SMS 등)를 보낼 타�
 
 프로필 관리 기본 사항은 [프로필 정보](../../platform/using/about-profiles.md)에서 설명합니다.
 
-### 타겟팅된 세분화 {#targeted-segmentation}
+### 타기팅된 세분화 {#targeted-segmentation}
 
-Adobe Campaign은 고도로 타겟팅되고 차별화된 오퍼를 만들 수 있는 강력하고 사용자 친화적인 세분화 및 타겟팅 기능을 제공합니다. 설명 분석 기능을 사용하면 마케팅 캠페인의 업스트림 및 다운스트림에 대한 정보를 분석할 수 있으며 필터 관리 및 [그래픽 쿼리 편집기](../../platform/using/about-queries-in-campaign.md) 기능을 사용하면 구독자 모집단을 필터링하고 기준을 제한 없이 대상 그룹을 샘플링하거나 만들 수 있습니다. 분석 및 타겟팅 기능은 [이 페이지](../../reporting/using/about-descriptive-analysis.md) 및 [필터 만들기](../../platform/using/creating-filters.md) 섹션에 설명되어 있습니다.
+Adobe Campaign은 고도로 타기팅되고 차별화된 오퍼를 만들 수 있는 강력하고 사용자 친화적인 세분화 및 타기팅 기능을 제공합니다. 설명 분석 기능을 사용하면 마케팅 캠페인의 업스트림 및 다운스트림에 대한 정보를 분석할 수 있으며 필터 관리 및 [그래픽 쿼리 편집기](../../platform/using/about-queries-in-campaign.md) 기능을 사용하면 구독자 모집단을 필터링하고 기준을 제한 없이 대상 그룹을 샘플링하거나 만들 수 있습니다. 분석 및 타겟팅 기능은 [이 페이지](../../reporting/using/about-descriptive-analysis.md) 및 [필터 만들기](../../platform/using/creating-filters.md) 섹션에 설명되어 있습니다.
 
 고급 데이터 관리 기능은 데이터 처리 기능을 확장합니다. 데이터 마트에서 모델링되지 않은 데이터를 포함하여 타겟팅 프로세스를 단순화하고 최적화합니다. 이 기능은 [이 페이지에](../../workflow/using/targeting-data.md#data-management) 자세히 설명되어 있습니다.
 
