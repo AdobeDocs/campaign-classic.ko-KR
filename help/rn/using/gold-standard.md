@@ -6,9 +6,9 @@ feature: 개요
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: c5e1b10b82c8ea1cf8bcb617ee48fe13e16fbfd9
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1066'
 ht-degree: 95%
 
 ---
@@ -24,19 +24,19 @@ _2021년 4월 14일_
 빌드 9032@d030c36에는 다음 수정 사항을 포함합니다.
 
 * IMS 연결 화면에서 지속적인 오류 메시지를 발생시킨 클라이언트 콘솔 회귀 문제를 수정했습니다. (NEO-34821)
+* 이 콘솔 빌드는 [IMS 액세스](../../technotes/ims-updates.md)를 유지 관리하는 데 필요합니다.
 
 **콘솔 업그레이드는 필수 사항입니다. 서버를 업그레이드할 필요가 없습니다.**
 
 >[!CAUTION]
 >
-> * Campaign과 Adobe ID에 연결하는 경우 IMS(Adobe Identity Service)를 통해 Campaign 서버 및 클라이언트 콘솔에서 모두 **2021년 6월 30일 이후** Campaign에 연결할 수 있으려면 업그레이드가 필요합니다. [자세히 알아보기](../../technotes/ims-updates.md)
+> * Campaign과 Adobe ID에 연결하는 경우 IMS(Campaign Identity Management Service)를 통해 Campaign 서버 및 클라이언트 콘솔에서 모두 **2021년 6월 30일 이후** Campaign에 연결할 수 있으려면 업그레이드가 필요합니다. [자세히 알아보기](../../technotes/ims-updates.md)
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
 > * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. 캠페인이 포함된 레거시 OAuth 인증 모드는 **2021년 11월 30일**&#x200B;에 종료됩니다.
 
 >
 >
 [[!DNL Gold Standard] 11 업그레이드 FAQ](https://helpx.adobe.com/kr/campaign/kb/gold-standard-upgrade.html)에서 자세히 알아보십시오
-
 
 _2021년 3월 2일_
 
