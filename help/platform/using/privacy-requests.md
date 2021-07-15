@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: 0a80912aae4cab58b6f06918a673aaca3883fbdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2415'
 ht-degree: 100%
 
@@ -374,7 +374,7 @@ API를 사용하여 개인 정보 보호 요청을 제출하는 경우 반환된
    // User can use a simple queryDef with requestID as a parameter to check request status.
    ```
 
-## 개인 정보 판매 옵트아웃 (CCPA) {#sale-of-personal-information-ccpa}
+## 개인 정보 판매 옵트아웃(CCPA) {#sale-of-personal-information-ccpa}
 
 **CCPA**(California Consumer Privacy Act)는 캘리포니아 거주자들에게 개인 정보에 대한 새로운 권리를 제공하고 캘리포니아에서 비즈니스를 수행하는 특정 엔터티에 데이터 보호 책임을 부과합니다.
 
