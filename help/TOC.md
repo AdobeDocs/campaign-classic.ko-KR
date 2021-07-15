@@ -4,13 +4,13 @@ breadcrumb-title: Campaign Classic v7 설명서
 product: campaign
 title: Campaign Classic v7 안내서
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: Adobe Campaign을 사용하면 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등을 통해 고객이 실제로 원하는 동적 캠페인을 제작, 조정 및 전달할 수 있습니다.
+user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: Aadobe Campaign Classic
 type: Documentation
 source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2518'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ ht-degree: 97%
          + [iOS용 구성 단계](delivery/using/configuring-the-mobile-application.md)
          + [Android용 구성 단계](delivery/using/configuring-the-mobile-application-android.md)
       + 푸시 알림 만들기{#create-a-push-msg}
-         + [iOS용 푸시 메시지 작성](delivery/using/create-notifications-ios.md)
+         + [iOS용 푸시 메시지 만들기](delivery/using/create-notifications-ios.md)
          + [Android용 푸시 메시지 만들기](delivery/using/create-notifications-android.md)
       + [문제 해결](delivery/using/troubleshooting.md)
    + DM 보내기 {#sending-direct-mail}
@@ -364,7 +364,7 @@ ht-degree: 97%
    + [수집된 데이터 게시, 추적 및 사용](surveys/using/publish--track-and-use-collected-data.md)
    + [설문 조사 구성](surveys/using/configuring-surveys.md)
    + [활용 사례: 참조 양식 만들기](surveys/using/use-case--creating-a-refer-a-friend-form.md)
-   + [활용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
+   + [사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Adobe Experience Cloud와 통합 {#integrating-with-adobe-experience-cloud}
    + [Campaign 통합 정보](integrations/using/about-campaign-integrations.md)
    + 대상자 공유 {#audience-sharing}
