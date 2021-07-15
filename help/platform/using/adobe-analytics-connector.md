@@ -10,7 +10,7 @@ exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1551'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Analytics 커넥터를 사용하면 Adobe Campaign 및 Adobe Analytics이 
 >* Adobe Analytics 커넥터는 트랜잭션 메시지(메시지 센터)와 호환되지 않습니다.
    >
    >
-* 시작하기 전에 IMS(Adobe Identity Management 시스템)가 Campaign에서 구현되어 있는지 확인하십시오. [이 페이지](../../integrations/using/about-adobe-id.md)에서 자세히 알아보십시오.
+* 시작하기 전에 Adobe IMS(Identity Management System)가 Campaign에서 구현되어 있는지 확인하십시오. [이 페이지에서 자세히 알아보십시오](../../integrations/using/about-adobe-id.md).
 
 
 Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상자를 측정하는 방법(웹 분석)이 있습니다. 이러한 통합 덕분에 Adobe Campaign은 마케팅 캠페인 후 하나 이상의 사이트에 대한 방문자 동작에 대한 데이터를 복구한 다음 (분석 후) 재마케팅 캠페인을 실행하여 방문자를 바이어로 전환할 수 있습니다. 반대로 웹 분석 도구를 사용하면 Adobe Campaign에서 지표와 캠페인 속성을 플랫폼에 전달할 수 있습니다.
@@ -43,7 +43,7 @@ Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상�
    1. 세그먼트를 복구하고 분석합니다.
    1. 리마케팅 캠페인을 트리거합니다.
 
-## 통합설정 {#setting-up-the-integration}
+## 통합 설정 {#setting-up-the-integration}
 
 데이터 커넥터를 설정하려면 Adobe Campaign 인스턴스에 연결하고 다음 작업을 수행해야 합니다.
 
@@ -247,7 +247,7 @@ Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작
 
 
 
-## Adobe Campaign 에서 게재 추적 {#tracking-deliveries-in-adobe-campaign}
+## Adobe Campaign에서 게재 추적 {#tracking-deliveries-in-adobe-campaign}
 
 Adobe Campaign에서 게재를 보낸 후 Adobe Experience Cloud가 사이트에서 활동을 추적할 수 있도록 하려면 게재 속성에서 일치하는 커넥터를 참조해야 합니다. 그렇게 하려면 다음 단계를 적용합니다.
 
