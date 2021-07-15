@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '4456'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ LINE 채널 개선 사항 - [자세히 알아보기](../../delivery/using/line-c
 
 Campaign 클라이언트 콘솔 설치 단계가 개선되었고 명확해졌습니다. [자세히 알아보기](../../installation/using/installing-the-client-console.md)
 
-추적된 URL 서명 문제에 대한 새로운 기술 정보가 생성되었습니다. [자세한 내용](../../technotes/tracked-urls.md)
+추적된 URL 서명 문제에 대한 새로운 기술 정보가 생성되었습니다. [자세히 표시](../../technotes/tracked-urls.md)
 
 ## 2021년 4월 {#april-2021}
 
@@ -128,7 +128,7 @@ Adobe Campaign Enhanced MTA 섹션이 [여기](../../delivery/using/sending-with
 
 이제 SMS 커넥터 프로토콜 및 설정 페이지에 대한 자세한 설명은 [여기](../../delivery/using/sms-protocol.md)에서 볼 수 있습니다.
 
-액세스 권한 문제를 방지하기 위해 이벤트 폴더를 실행 인스턴스의 보기로 설정하지 말아야 한다는 경고를 하기 위해 **트랜잭션 메시지** 섹션에 메모가 추가되었습니다. [자세한 내용](../../message-center/using/about-event-processing.md#event-collection)
+액세스 권한 문제를 방지하기 위해 이벤트 폴더를 실행 인스턴스의 보기로 설정하지 말아야 한다는 경고를 하기 위해 **트랜잭션 메시지** 섹션에 메모가 추가되었습니다. [자세히 표시](../../message-center/using/about-event-processing.md#event-collection)
 
 ## 2020년 11월 {#nov-2020}
 
@@ -462,7 +462,7 @@ Adobe Campaign과 Adobe 실시간 고객 데이터 Platform 간의 통합이 이
 
 ## 2019년 10월 {#october-2019}
 
-Campaign에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
+Campaign에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
 
 GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCPA를 포함한 개인 정보 관리 문서입니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)
 
