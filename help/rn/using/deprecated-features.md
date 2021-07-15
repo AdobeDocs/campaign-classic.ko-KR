@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1634'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,9 +43,9 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr>
     <tr>
   <td>Adobe Analytics 데이터 커넥터<br></td>
-   <td><p>Campaign 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터는 사용 중단됩니다.</p>
+   <td><p>Campaign 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터는 사용이 중단됩니다.</p>
    <p>이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../platform/using/adobe-analytics-connector.md">자세히 알아보기</a></p>
-  <p><em>Target 제거 날짜: 2022년 3월 1일</em></p>
+  <p><em>타깃 제거 날짜: 2022년 3월 1일</em></p>
   </td>
  </tr>
     <tr>
