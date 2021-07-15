@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Adobe Campaign이 GDPR 및 기타 개인 정보 보호 규정을 준수하도록
 
 It also contains information on important features to manage Privacy ([Consent, Retention and Roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
-## 개인 정보 관리에 관한 규정 {#privacy-management-regulations}
+## 개인 정보 보호 관리에 관한 규정 {#privacy-management-regulations}
 
 Adobe Campaign의 기능은 다음과 같은 규정을 준수하는 데 도움이 됩니다.
 
