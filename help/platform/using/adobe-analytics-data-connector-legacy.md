@@ -11,7 +11,7 @@ hide: true
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1682'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Campaign과 Adobe Analytics 통합의 구현에 대한 자세한 내용은
    1. 세그먼트를 복구하고 분석합니다.
    1. 리마케팅 캠페인을 트리거합니다.
 
-## 통합설정 {#setting-up-the-integration}
+## 통합 설정 {#setting-up-the-integration}
 
 데이터 커넥터를 설정하려면 Adobe Campaign 인스턴스에 연결하고 다음 작업을 수행해야 합니다.
 
@@ -68,7 +68,7 @@ Adobe Campaign과 Adobe Analytics 통합의 구현에 대한 자세한 내용은
 
 1. **[!UICONTROL Admin]** 탭에서, **[!UICONTROL Data Connectors]**&#x200B;를 선택합니다.
 
-   **[!UICONTROL Data Connectors]** 메뉴에 액세스하려면 다음 Analytics 도구 권한이 있어야 합니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)를 참조하십시오.
+   **[!UICONTROL Data Connectors]** 메뉴에 액세스하려면 다음 Analytics 도구 권한이 있어야 합니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ko)를 참조하십시오.
    * 통합(만들기)
    * 통합(업데이트)
    * 통합(삭제)
@@ -235,7 +235,7 @@ Adobe Campaign과 Adobe Analytics - 데이터 커넥터 간의 데이터 교환�
 
 
 
-## Adobe Campaign 에서 게재 추적 {#tracking-deliveries-in-adobe-campaign}
+## Adobe Campaign에서 게재 추적 {#tracking-deliveries-in-adobe-campaign}
 
 Adobe Campaign에서 게재를 보낸 후 Adobe Experience Cloud가 사이트에서 활동을 추적할 수 있도록 하려면 게재 속성에서 일치하는 커넥터를 참조해야 합니다. 그렇게 하려면 다음 단계를 적용합니다.
 
