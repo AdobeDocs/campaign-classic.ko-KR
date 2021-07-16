@@ -23,9 +23,8 @@ Adobe Analytics 커넥터를 사용하면 Adobe Campaign 및 Adobe Analytics이 
 >[!CAUTION]
 >
 >* Adobe Analytics 커넥터는 트랜잭션 메시지(메시지 센터)와 호환되지 않습니다.
-   >
-   >
-* 시작하기 전에 Adobe IMS(Identity Management System)가 Campaign에서 구현되어 있는지 확인하십시오. [이 페이지에서 자세히 알아보십시오](../../integrations/using/about-adobe-id.md).
+>
+>* 시작하기 전에 Adobe IMS(Identity Management System)가 Campaign에서 구현되어 있는지 확인하십시오. [이 페이지에서 자세히 알아보십시오](../../integrations/using/about-adobe-id.md).
 
 
 Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상자를 측정하는 방법(웹 분석)이 있습니다. 이러한 통합 덕분에 Adobe Campaign은 마케팅 캠페인 후 하나 이상의 사이트에 대한 방문자 동작에 대한 데이터를 복구한 다음 (분석 후) 재마케팅 캠페인을 실행하여 방문자를 바이어로 전환할 수 있습니다. 반대로 웹 분석 도구를 사용하면 Adobe Campaign에서 지표와 캠페인 속성을 플랫폼에 전달할 수 있습니다.
