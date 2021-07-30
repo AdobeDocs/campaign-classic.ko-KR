@@ -6,14 +6,14 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 6f5e91a719553fbeb97811d30ce6318f857bec80
+source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 11%
 
 ---
 
-# 파일 {#unzipping-or-decrypting-a-file-before-processing} 압축 해제 또는 해독
+# 파일 압축 해제 또는 암호 해독 {#unzipping-or-decrypting-a-file-before-processing}
 
 Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 가져올 수 있습니다. [데이터 로드(파일)](../../workflow/using/data-loading--file-.md) 활동에서 읽기 전에 사전 처리를 정의하여 압축을 해제하거나 파일을 해독할 수 있습니다.
 
@@ -25,10 +25,10 @@ Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 가져�
    >
    >Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
    >
-   >인스턴스는 AWS에서 호스팅하고 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
+   >인스턴스는 AWS에서 호스팅하고 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1.3)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
 
 1. Adobe Campaign 설치가 Adobe에 의해 호스팅되는 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하여 서버에 필요한 유틸리티를 설치하도록 하십시오.
-1. Adobe Campaign의 설치를 온-프레미스하는 경우 사용할 유틸리티를 설치합니다(예:GPG, GZIP) 및 애플리케이션 서버에 필요한 키(암호화 키)가 포함되어 있습니다.
+1. Adobe Campaign의 설치를 온-프레미스하는 경우 사용할 유틸리티를 설치합니다(예: GPG, GZIP) 및 애플리케이션 서버에 필요한 키(암호화 키)가 포함되어 있습니다.
 
 그런 다음 원하는 사전 처리 명령을 워크플로우에 사용할 수 있습니다.
 
@@ -46,7 +46,7 @@ Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 가져�
 * [데이터 로드(파일) 활동](../../workflow/using/data-loading--file-.md).
 * [파일을 압축 또는 암호화합니다](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
-## 사용 사례:Campaign 컨트롤 패널 {#use-case-gpg-decrypt}에서 생성한 키를 사용하여 암호화된 데이터 가져오기
+## 사용 사례: Campaign 컨트롤 패널에서 생성된 키를 사용하여 암호화된 데이터 가져오기 {#use-case-gpg-decrypt}
 
 이 사용 사례에서는 Campaign 컨트롤 패널에서 생성된 키를 사용하여 외부 시스템에서 암호화된 데이터를 가져오기 위한 워크플로우를 빌드합니다.
 
@@ -67,8 +67,8 @@ Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 가져�
 
    ![](assets/gpg_import_workflow.png)
 
-   * **[!UICONTROL File transfer]** 활동:외부 소스에서 Campaign Classic으로 파일을 전송합니다. 이 예제에서는 SFTP 서버에서 파일을 전송하려고 합니다.
-   * **[!UICONTROL Data loading (file)]** 활동:파일의 데이터를 데이터베이스에 로드하고 Campaign 컨트롤 패널에서 생성된 개인 키를 사용하여 암호를 해독합니다.
+   * **[!UICONTROL File transfer]** 활동: 외부 소스에서 Campaign Classic으로 파일을 전송합니다. 이 예제에서는 SFTP 서버에서 파일을 전송하려고 합니다.
+   * **[!UICONTROL Data loading (file)]** 활동: 파일의 데이터를 데이터베이스에 로드하고 Campaign 컨트롤 패널에서 생성된 개인 키를 사용하여 암호를 해독합니다.
 
 1. **[!UICONTROL File transfer]** 활동을 열고 암호화된 .gpg 파일을 가져올 외부 계정을 지정합니다.
 
