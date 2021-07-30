@@ -4,14 +4,14 @@ title: 'Campaign Classic 도움말 및 지원 옵션 '
 description: Campaign Classic 지원이 필요하십니까? 제대로 찾아오셨습니다.
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
-# Campaign Classic {#help-support-options} 도움말 및 지원 옵션
+# Campaign Classic 도움말 및 지원 옵션 {#help-support-options}
 
 Campaign Classic 지원이 필요하십니까? 제대로 찾아오셨습니다.
 
@@ -29,7 +29,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 
 <img src="platform/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### FAQ {#faq-1}
+### FAQ
 
 새 빌드로 업그레이드하는 방법 워크플로우 실행을 모니터링하는 방법 데이터베이스 정리 워크플로우란 무엇입니까?.. [상위 10개 질문](platform/using/common-questions.md)을 참조하십시오.
 
@@ -99,7 +99,7 @@ Campaign Campaign 컨트롤 패널을 사용하면 각 인스턴스의 사용 �
 >
 >Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
->인스턴스는 AWS에서 호스팅하고 최신 [Gold Standard](rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1)](rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
+>인스턴스는 AWS에서 호스팅하고 최신 [Gold Standard](rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1.3)](rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
 
 ### Campaign 컨트롤 패널에는 어떻게 액세스하나요?
 
@@ -141,7 +141,7 @@ Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나
 ### Campaign 다운로드 센터 액세스
 
 2020년 6월 현재, Experience Cloud 솔루션 소프트웨어 배포는 기존 Neolane 다운로드 센터를 대체하며, 소프트웨어, 패키지 및 도구를 찾고 다운로드할 수 있는 더욱 효율적인 환경을 제공합니다. [여기](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)를 클릭하여 Experience Cloud 소프트웨어 배포에 액세스합니다.
-이 페이지에서 새 다운로드 센터 [에 대해 자세히 알아보십시오.](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html)
+이 페이지에서 새 다운로드 센터 [에 대해 자세히 알아보십시오.](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko)
 
 ### 티켓 만들기 또는 채팅 시작
 
