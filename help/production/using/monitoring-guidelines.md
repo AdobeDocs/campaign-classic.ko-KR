@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 21%
@@ -19,7 +19,7 @@ ht-degree: 21%
 
 Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monitoring]** 탭은 인스턴스를 모니터링하는 데 도움이 되는 기본 시작 지점입니다.
 
-인스턴스에서 발생하는 사항에 대한 대시보드를 제공합니다.상태(빌드 버전, 설치된 패키지 등), 시스템 지표, 로그, 현재 실행 중인 워크플로우, 마지막 전송 상태 등
+인스턴스에서 발생하는 사항에 대한 대시보드를 제공합니다. 상태(빌드 버전, 설치된 패키지 등), 시스템 지표, 로그, 현재 실행 중인 워크플로우, 마지막 전송 상태 등
 
 자세한 정보는 [여기](../../production/using/monitoring-processes.md)에서 확인할 수 있습니다.
 
@@ -50,13 +50,13 @@ Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monit
 
 **컨트롤 패널**
 
-Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관리할 수 있습니다.URL 권한을 관리하고, 서버의 빌드 버전 등과 같은 인스턴스 세부 사항을 확인합니다. 또한 인스턴스에 연결된 SFTP 서버에서 사용 가능한 공간을 모니터링할 수도 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)하십시오.
+Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관리할 수 있습니다. URL 권한을 관리하고, 서버의 빌드 버전 등과 같은 인스턴스 세부 사항을 확인합니다. 또한 인스턴스에 연결된 SFTP 서버에서 사용 가능한 공간을 모니터링할 수도 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)하십시오.
 
 >[!NOTE]
 >
 >Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
->인스턴스는 AWS에서 호스팅하고 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
+>인스턴스는 AWS에서 호스팅하고 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1.3)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
 
 ### 워크플로우 모니터링 {#monitoring-workflows}
 
