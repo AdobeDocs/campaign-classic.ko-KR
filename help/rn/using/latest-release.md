@@ -6,22 +6,22 @@ feature: 개요
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: f2fae5954fbbab4b8a4f9444404316ff1576d5e4
 workflow-type: tm+mt
-source-wordcount: '1953'
-ht-degree: 100%
+source-wordcount: '1951'
+ht-degree: 99%
 
 ---
 
 # 최신 릴리스{#latest-release}
 
-이 페이지에는 **최신 Campaign Classic Release Candidate 버전**&#x200B;에 포함된 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다.
+이 페이지에는 **최신 Campaign Classic 릴리스**&#x200B;에 포함된 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다.
 
 >[!NOTE]
 >
->Campaign **GA(일반 가용성) 빌드**&#x200B;는 [[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [Campaign 20.2.5 릴리스](../../rn/using/release--20-2.md)입니다.
+>Campaign **GA(일반 가용성) 빌드**&#x200B;는 [[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [Campaign 21.1.3 릴리스](../../rn/using/latest-release.md#release-21-1-3-build-9330)입니다.
 
-## ![](assets/do-not-localize/blue_2.png) 릴리스 21.1.3 - 빌드 9330 {#release-21-1-3-build-9330}
+## ![](assets/do-not-localize/green_2.png) 릴리스 21.1.3 - 빌드 9330 {#release-21-1-3-build-9330}
 
 _2021년 6월 5일_
 
