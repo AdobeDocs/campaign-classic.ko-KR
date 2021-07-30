@@ -6,9 +6,9 @@ feature: 개요
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 23d22283df418bb32eb7d2cb226bb7926e73bd0c
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1647'
 ht-degree: 100%
 
 ---
@@ -212,11 +212,6 @@ Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 
 * AsterData 5.0. AsterData는 수명이 종료되었습니다. [자세히 알아보기](https://en.wikipedia.org/wiki/Aster_Data_Systems)
 * Sybase IQ 15.2, 15.4, 15.5 및 Sybase ASE 15.0이 지원됩니다. Sybase의 최신 버전은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://sites.google.com/site/dbatipsandtricks/time-tracker)
 * HiveSQL을 통한 Hadoop: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic에서는 여전히 FDA(Federated Data Access)를 통해 HiveSQL을 통해 나열된 Hadoop 버전을 지원하지만, 이러한 버전은 다음과 병합됩니다. HortonWorks(HDP 2.4.X, 2.5.x, 2.6.x) 및 HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)
-* Soap API - 온-프레미스: 2007년, 2015년, 2016년
-* Soap API - 온라인: 2015년, 2016년
-* 웹 API - Microsoft Dynamics CRM 온-프레미스: 2016, 2016 업데이트 1
-* 웹 API - Microsoft Dynamics CRM 온라인: 2016, 2016 업데이트 1
-* Oracle On Demand API&lt;
 
 **RDBMS 서버**
 
@@ -238,3 +233,13 @@ Adobe Campaign은 다음 SMS 커넥터와 호환되지 않습니다.
 * Tele2
 * O2
 * iOS
+
+### CRM 커넥터 {#crm-connectors}
+
+Campaign 21.1 릴리스부터는 다음의 CRM 커넥터가 Campaign에 사용되지 않습니다.
+
+* Soap API - 온-프레미스: 2007년, 2015년, 2016년
+* Soap API - 온라인: 2015년, 2016년
+* 웹 API - Microsoft Dynamics CRM 온-프레미스: 2016, 2016 업데이트 1
+* 웹 API - Microsoft Dynamics CRM 온라인: 2016, 2016 업데이트 1
+* Oracle On Demand API
