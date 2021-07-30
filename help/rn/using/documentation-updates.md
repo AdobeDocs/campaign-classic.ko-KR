@@ -6,9 +6,9 @@ feature: 개요
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
 workflow-type: tm+mt
-source-wordcount: '4456'
+source-wordcount: '4465'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 100%
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
+
+## 2021년 7월 {#july-2021}
+
+[Campaign 21.1.3 릴리스](../../rn/using/latest-release.md#release-21-1-3-build-9330)가 GA(General Availability)로 이동되었습니다.
+
 
 ## 2021년 6월 {#june-2021}
 
@@ -187,7 +192,7 @@ Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추�
 
 보고서 속성 페이지가 구성 편의를 위해 재구성되고 보강되었습니다. [자세한 내용](../../reporting/using/properties-of-the-report.md)
 
-레거시 이진 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법에 대한 세부 사항을 포함한 새로운 기술 문서를 만들었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)
+레거시 이진 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법에 대한 세부 사항을 포함한 새로운 기술 문서를 만들었습니다. [자세히 표시](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)
 
 ## 2020년 9월 {#september-2020}
 
