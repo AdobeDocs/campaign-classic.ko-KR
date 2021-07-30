@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 14%
@@ -31,7 +31,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 * SFTP 연결을 시작하려는 공용 IP를 Campaign 인스턴스의에 추가해야 허용 목록에 추가하다 합니다. IP 주소허용 목록에 추가하다를 Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)를 통해에 추가할 수 있습니다.[
 
-## 데이터베이스 사용 우수 사례 {#sftp-server-best-practices}
+## 데이터베이스 사용 모범 사례 {#sftp-server-best-practices}
 
 SFTP 서버는 파일의 보관 및 삭제를 제어할 수 있는 임시 저장 공간으로 설계되었습니다.
 
@@ -45,7 +45,7 @@ SFTP 서버는 파일의 보관 및 삭제를 제어할 수 있는 임시 저장
 >
 >Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
->인스턴스는 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다.
+>인스턴스는 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1.3)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다.
 
 * 서버 크기 기능은 라이센스에 따라 다릅니다. 어떤 경우든 최소 데이터를 가능한 한 유지하고 필요한 기간(15일은 최대 시간 제한)에만 데이터를 유지합니다.
 
@@ -64,7 +64,7 @@ SFTP 서버는 파일의 보관 및 삭제를 제어할 수 있는 임시 저장
 * SFTP 서버가 **Windows**&#x200B;에 있는 경우 항상 상대 경로를 사용하십시오.
 * STP 서버가 **Linux**&#x200B;에 있는 경우, 항상 홈(&quot;~/&quot;로 시작)에 상대적인 경로나 절대 경로(&quot;/&quot;로 시작)를 사용하십시오.
 
-## 호스팅된 Adobe의 SFTP 서버 {#sftp-server-troubleshooting} 연결 문제
+## Adobe 호스팅 SFTP 서버와 관련된 연결 문제 {#sftp-server-troubleshooting}
 
 아래 섹션에는 호스팅된 SFTP 서버와 연결 문제가 발생할 때 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)를 통해 Adobe 지원 팀에 제공하고 확인할 정보가 나와 있습니다.
 
