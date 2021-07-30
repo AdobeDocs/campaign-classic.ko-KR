@@ -6,7 +6,7 @@ feature: 개요
 role: User
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 92ec5df08d188b6786158d85103ed858d34c6106
 workflow-type: tm+mt
 source-wordcount: '2968'
 ht-degree: 88%
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 # 릴리스 20.2{#release-20-2}
 
-## ![](assets/do-not-localize/green_2.png) 릴리스 20.2.5 - 빌드 9188 {#release-20-2-5-build-9188}
+## ![](assets/do-not-localize/limited_2.png) 릴리스 20.2.5 - 빌드 9188 {#release-20-2-5-build-9188}
 
 _2021년 4월 15일_
 
