@@ -6,10 +6,10 @@ feature: 개요
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 4420aab0067048d1fb47b184ede579235dcd9819
+source-git-commit: 9c73d13fe3d062ce69c948dba7d57dad573f6856
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 99%
+source-wordcount: '1646'
+ht-degree: 98%
 
 ---
 
@@ -240,6 +240,6 @@ Campaign 21.1 릴리스부터 다음 CRM 커넥터는 더 이상 Campaign과 호
 
 * Soap API - 온-프레미스: 2007년, 2015년, 2016년
 * Soap API - 온라인: 2015년, 2016년
-* 웹 API - Microsoft Dynamics CRM 온-프레미스: 2016, 2016 업데이트 1
-* 웹 API - Microsoft Dynamics CRM 온라인: 2016, 2016 업데이트 1
+* 웹 API - Microsoft Dynamics CRM 2016
+* 웹 API - Microsoft Dynamics CRM 2016 업데이트 1
 * Oracle On Demand API
