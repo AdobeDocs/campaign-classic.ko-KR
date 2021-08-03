@@ -6,10 +6,10 @@ feature: 개요
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 571dd96d1f3bff5c3dab05dce5319f913f29a670
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 100%
+source-wordcount: '545'
+ht-degree: 99%
 
 ---
 
@@ -178,13 +178,13 @@ ht-degree: 100%
 <tr>
 <td>Microsoft Dynamics 커넥터</td>
 <td>
-<p>웹 API: Dynamics 365 온-프레미스 및 온라인</p>
+<p>웹 API</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## FDA (Federated Data Access){#FederatedDataAccessFDA}
+## FDA(Federated Data Access){#FederatedDataAccessFDA}
 
 <table>
 <tbody>
