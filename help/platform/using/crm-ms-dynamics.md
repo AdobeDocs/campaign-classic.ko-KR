@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 9fb5b1a256a7c77e64a449aea9a4489de1f9123a
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 2%
+source-wordcount: '1049'
+ht-degree: 3%
 
 ---
 
@@ -17,11 +17,7 @@ ht-degree: 2%
 
 이 페이지에서는 Campaign Classic을 **Microsoft Dynamics CRM 365**&#x200B;에 연결하는 방법을 알아봅니다.
 
-가능한 배포는 다음과 같습니다.
-
-* 를 통해 **웹 API**(권장) Microsoft Dynamics와의 연결을 설정하는 단계를 알아보려면 [ 아래 섹션을 참조하십시오.](#microsoft-dynamics-implementation-step)
-* **Office 365** 사용 이 통합을 설정하는 주요 단계를 알려면 [이 비디오](#microsoft-dynamics-office-365)를 참조하십시오.
-* **온-프레미스** 배포의 경우 Office 365 주요 단계를 적용합니다.
+가능한 배포는 **웹 API**&#x200B;를 통해 수행할 수 있습니다(권장). Microsoft Dynamics와의 연결을 설정하는 단계를 알아보려면 [ 아래 섹션을 참조하십시오.](#microsoft-dynamics-implementation-step)
 
 데이터 동기화는 전용 워크플로우 활동을 통해 수행됩니다. [자세히 알아보기](../../platform/using/crm-data-sync.md)
 
@@ -36,7 +32,7 @@ Microsoft Dynamics CRM에서:
 1. 앱 사용자 만들기
 1. 개인 키 인코딩
 
-[자세한 내용은 이 섹션에서 확인하십시오](#config-crm-microsoft)
+[이 섹션에서 자세히 알아보기](#config-crm-microsoft)
 
 Campaign Classic:
 1. 새 외부 계정 만들기
@@ -44,7 +40,7 @@ Campaign Classic:
 1. 구성 마법사를 사용하여 테이블을 매핑하고 열거형을 동기화합니다
 1. 동기화 워크플로우 만들기
 
-[자세한 내용은 이 섹션에서 확인하십시오](#configure-acc-for-microsoft)
+[이 섹션에서 자세히 알아보기](#configure-acc-for-microsoft)
 
 
 >[!CAUTION]
@@ -52,15 +48,12 @@ Campaign Classic:
 > * CRM의 동작을 변경하고 Adobe Campaign와의 호환성 문제가 발생할 수 있는 플러그인을 설치합니다
 > * 여러 열거형 선택
 
->
-
-
 
 ## Microsoft Dynamics CRM 구성 {#config-crm-microsoft}
 
 액세스 토큰 및 키를 생성하여 계정을 설정하려면 **전역 관리자** 자격 증명을 사용하여 [Microsoft Azure 디렉토리](https://portal.azure.com)에 로그인해야 합니다. 그런 다음 아래 설명된 단계를 수행합니다.
 
-### Microsoft Dynamics 클라이언트 ID {#get-client-id-microsoft} 가져오기
+### Microsoft Dynamics 클라이언트 ID 가져오기 {#get-client-id-microsoft}
 
 클라이언트 ID를 가져오려면 Azure Active Directory에서 앱을 등록해야 합니다. 클라이언트 ID는 애플리케이션 ID와 동일합니다.
 
@@ -88,35 +81,60 @@ Campaign Classic:
    - openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout '<'private key name'>' -out '<'public certificate name'>
    ```
 
-1. **manifest** 링크를 클릭하여 **인증서 키 식별자** 및 **키 ID**&#x200B;를 가져옵니다.
+   >[!NOTE]
+   >
+   >여기서 `-days 365` 일 수는 더 긴 인증서 유효 기간 동안 코드 샘플에서 변경할 수 있습니다.
+
+1. 그런 다음 base64에서 인코딩해야 합니다. 이렇게 하려면 Base64 인코더의 도움을 받거나 Linux용 명령줄 `base64 -w0 private.key`을 사용할 수 있습니다.
+
+1. **Manifest** 링크를 클릭하여 **인증서 키 식별자(customKeyIdentifier)** 및 **키 ID(keyId)**&#x200B;를 가져옵니다.
 
 ### 권한 구성 {#config-permissions-microsoft}
 
-생성된 앱에 대해 **필수 권한**&#x200B;을 구성해야 합니다.
+**1단계**: 생성된  **앱** 에 대한 필수 권한을 구성합니다.
 
 1. **Azure Active Directory > 앱 등록**&#x200B;으로 이동하여 이전에 만든 응용 프로그램을 선택합니다.
 1. 왼쪽 상단에 있는 **설정**&#x200B;을 클릭합니다.
 1. **필수 권한**&#x200B;추가&#x200B;**및** API > Dynamics CRM Online **을 클릭합니다.**
-1. 그런 다음 **선택**&#x200B;을 클릭하고 **조직 사용자로 Dynamics 365에 액세스** 확인란을 활성화하고 **선택**&#x200B;을 클릭합니다.
+1. **선택**&#x200B;을 클릭하고, **조직 사용자로 Dynamics 365에 액세스** 확인란을 활성화하고 **선택**&#x200B;을 클릭합니다.
+1. 그런 다음 앱에서 **관리** 메뉴에서 **매니페스트**&#x200B;를 선택합니다.
+
+1. **Manifest** 편집기에서 `allowPublicClient` 속성을 `null`에서 `true`로 설정하고 **저장**&#x200B;을 클릭합니다.
+
+**2단계**: 관리자 동의 부여
+
+1. **Azure Active Directory > Enterprise 응용 프로그램**&#x200B;으로 이동합니다.
+
+1. 임차인 전체 관리자 동의를 부여할 애플리케이션을 선택합니다.
+
+1. 왼쪽 창 메뉴에서 **보안**&#x200B;에서 **권한**&#x200B;을 선택합니다.
+
+1. **관리자 동의 부여**&#x200B;를 클릭합니다.
+
+자세한 내용은 [Azure 설명서](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal)를 참조하십시오.
 
 ### 앱 사용자 만들기 {#create-app-user-microsoft}
 
+>[!NOTE]
+>
+> 이 단계는 **[!UICONTROL Password credentials]** 인증 시 선택 사항입니다.
+
 앱 사용자는 위에 등록된 애플리케이션이 사용할 사용자입니다. 위에 등록된 앱을 사용하여 Microsoft Dynamics에 변경한 내용은 이 사용자를 통해 수행됩니다.
 
-**1단계**:Azure active directory에서 비대화형 사용자 만들기
+**1단계**: Azure active directory에서 비대화형 사용자 만들기
 
 1. **Azure Active Directory > 사용자**&#x200B;를 클릭하고 **새 사용자**&#x200B;를 클릭합니다.
 1. 사용할 이름을 지정하고 사용자 이름은 이메일 형식이어야 합니다.
 1. **디렉터리 역할**&#x200B;에서 **Dynamics 365 관리자**&#x200B;를 선택합니다.
 
-**2단계**:생성된 사용자에게 적절한 라이센스 할당
+**2단계**: 생성된 사용자에게 적절한 라이센스 할당
 
 1. [Microsoft Azure](https://portal.azure.com)에서 **관리 앱**&#x200B;을 클릭합니다.
 1. **사용자 > 활성 사용자**&#x200B;로 이동하여 새로 만든 사용자를 클릭합니다.
 1. **제품 라이선스 편집**&#x200B;을 클릭하고 **Dynamics 365 고객 참여 계획**&#x200B;을(를) 선택합니다.
 1. **닫기**&#x200B;를 클릭합니다.
 
-**3단계**:Dynamics CRM에서 응용 프로그램 사용자 만들기
+**3단계**: Dynamics CRM에서 응용 프로그램 사용자 만들기
 
 1. [Microsoft Azure](https://portal.azure.com)에서 **설정 > 보안 > 사용자**&#x200B;로 이동합니다.
 1. 드롭다운을 클릭하고 **응용 프로그램 사용자**&#x200B;를 선택한 다음 **새로 만들기**&#x200B;를 클릭합니다.
@@ -131,25 +149,25 @@ Campaign Classic:
 
 ## Campaign 구성 {#configure-acc-for-microsoft}
 
-Microsoft Dynamics 365 및 Campaign을 연결하려면 Campaign에서 전용 외부 계정을 만들고 구성해야 합니다.
+>[!NOTE]
+>
+> Microsoft](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#microsoft-dynamics-crm-2011-endpoint)에서 [RDS의 제거를 게시하면 온-프레미스 및 Office 365 유형의 CRM 배포는 더 이상 Campaign과 호환되지 않습니다. 이제 Adobe Campaign은 CRM 버전 **Dynamic CRM 365**&#x200B;에 대해서만 웹 API 배포를 지원합니다. [자세히 알아보기](../../rn/using/deprecated-features.md#crm-connectors)
+
+Microsoft Dynamics 365 및 Campaign을 연결하려면 Campaign에서 전용 **[!UICONTROL External Account]**&#x200B;을(를) 만들고 구성해야 합니다.
 
 1. **[!UICONTROL Administration > Platform > External accounts]**&#x200B;으로 이동합니다.
 
-1. 새 외부 계정을 만들고 유형 **[!UICONTROL Microsoft Dynamics CRM]** 및 **[!UICONTROL Enable]** 옵션을 선택합니다.
+1. **[!UICONTROL Microsoft Dynamics CRM]** 외부 계정을 선택합니다. **[!UICONTROL Enabled]** 옵션을 선택합니다.
 
-1. **[!UICONTROL Web API]** 배포 유형을 선택합니다.
-
-   Adobe Campaign Classic은 **[!UICONTROL Certificate]** 또는 **[!UICONTROL Password Credentials]**&#x200B;을 사용하여 인증을 위해 OAuth 프로토콜을 사용하는 Dynamics 365 REST 인터페이스를 지원합니다.
-
-   Azure 디렉터리에서 이전에 정의된 [ 설정을 사용하여 외부 계정을 구성합니다.](#get-client-id-microsoft)
-
-   ![](assets/crm-ms-dynamics-ext-account.png)
+1. Microsoft Dynamics 365 및 Campaign을 연결하는 데 필요한 정보를 입력합니다.
 
    >[!NOTE]
    >
-   >Microsoft Dynamics CRM 외부 계정 구성은 이 섹션 [에 자세히 설명되어 있습니다](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account).
+   >각 **[!UICONTROL CRM O-Auth type]**&#x200B;이 있는 Microsoft Dynamics CRM 외부 계정 구성은 이 섹션](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)에 [에 자세히 설명되어 있습니다.
 
-1. **[!UICONTROL Microsoft CRM configuration wizard...]** 링크를 클릭합니다.Adobe Campaign은 Microsoft Dynamics 데이터 템플릿에서 테이블을 자동으로 검색합니다.
+   ![](assets/crm-ms-dynamics-ext-account.png)
+
+1. **[!UICONTROL Microsoft CRM configuration wizard...]** 링크를 클릭합니다. Adobe Campaign은 Microsoft Dynamics 데이터 템플릿에서 테이블을 자동으로 검색합니다.
 
    ![](assets/crm_connectors_msdynamics_02.png)
 
@@ -175,21 +193,14 @@ Microsoft Dynamics 365 및 Campaign을 연결하려면 Campaign에서 전용 외
 
 이제 Campaign과 Microsoft Dynamics가 연결되었습니다. 두 시스템 간에 데이터 동기화를 설정할 수 있습니다. 자세한 내용은 [데이터 동기화](../../platform/using/crm-data-sync.md) 섹션에서 알아보십시오.
 
-## Microsoft Dynamics CRM Office 365 통합 구성{#microsoft-dynamics-office-365}
-
-Office 365 배포의 컨텍스트에서 Dynamics 365를 Adobe Campaign Classic과 통합하는 방법을 알아보려면 이 비디오를 시청하십시오.
-
->[!VIDEO](https://video.tv.adobe.com/v/23837?quality=12)
-
-
-## 지원되는 필드 데이터 형식 {#ms-dyn-supported-types}
+## 지원되는 필드 데이터 유형 {#ms-dyn-supported-types}
 
 Microsoft Dynamics 365의 경우 지원되는/지원되지 않는 특성 유형은 아래에 나와 있습니다.
 
 
 | 속성 유형 | 지원됨 |
 | --------------------------------------------------------------------------------- | --------- |
-| 기본 유형 :부울, datetime, decimal, float, double, 정수, bigint, 문자열 | 예 |
+| 기본 유형 : 부울, datetime, decimal, float, double, 정수, bigint, 문자열 | 예 |
 | 돈(이중) | 예 |
 | 메모, entityname , primarykey, uniqueidentifier (as string) | 예 |
 | 상태, picklist(가능한 값을 열거형에 저장함), 상태(문자열) | 예 |
