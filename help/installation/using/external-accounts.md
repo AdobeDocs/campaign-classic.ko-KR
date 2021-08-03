@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 11de485a97d112b308c145775537d9b6255f124f
+source-git-commit: 94664ec56d269afef926663c52b84ccaaab02480
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 8%
+source-wordcount: '1636'
+ht-degree: 7%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Campaign에는 미리 정의된 외부 계정 집합이 포함되어 있�
    필요한 정보는 일반적으로 연결 중인 서버 공급자가 제공합니다.
 
 1. **[!UICONTROL Enabled]** 옵션을 선택하여 연결을 활성화합니다.
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
 외부 계정이 만들어지고 외부 계정 목록에 추가됩니다.
 
@@ -93,7 +93,7 @@ POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일�
 * [Android 채널](../../delivery/using/configuring-the-mobile-application-android.md)
 
 
-### 실행 인스턴스 {#execution-instance-external-account}
+### 실행 인스턴스  {#execution-instance-external-account}
 
 세분화된 아키텍처가 있는 경우 제어 인스턴스에 연결된 실행 인스턴스를 지정하고 연결해야 합니다. 트랜잭션 메시지 템플릿은 실행 인스턴스에 배포됩니다
 
@@ -190,7 +190,7 @@ Campaign과 호환되는 외부 데이터베이스는 [호환성 매트릭스](.
 * [Sybase IQ](../../installation/using/configure-fda-sybase.md)에 대한 액세스 구성
 * [Teradata](../../installation/using/configure-fda-teradata.md)에 대한 액세스 구성
 
-### Facebook 연결 {#facebook-connect-external-account}
+### Facebook connect {#facebook-connect-external-account}
 
 **[!UICONTROL Facebook Connect]** 외부 계정을 사용하면 Facebook 애플리케이션에서 개인화된 콘텐츠를 표시할 수 있으므로 이 소셜 네트워크를 통해 잠재 고객을 더 쉽게 확보할 수 있습니다.
 
@@ -288,19 +288,17 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL 
 
 자세한 정보는 이 [섹션](../../integrations/using/about-adobe-experience-manager.md)을 참조하십시오.
 
-
-
 ## CRM 커넥터 외부 계정
 
 ### Microsoft Dynamics CRM {#microsoft-dynamics-crm-external-account}
 
-**[!UICONTROL Microsoft Dynamics CRM]** 외부 계정을 사용하면 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
-
-Campaign - 이 [페이지](../../platform/using/crm-ms-dynamics.md)에서 Microsoft Dynamics CRM 커넥터에 대해 자세히 알아보십시오.
-
 >[!NOTE]
 >
 > **[!UICONTROL On-premise]** 및  **[!UICONTROL Office 365]** 배포 유형은 이제 더 이상 사용되지 않습니다. [자세히 알아보기](../../rn/using/deprecated-features.md)
+
+**[!UICONTROL Microsoft Dynamics CRM]** 외부 계정을 사용하면 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
+
+Campaign - 이 [페이지](../../platform/using/crm-ms-dynamics.md)에서 Microsoft Dynamics CRM 커넥터에 대해 자세히 알아보십시오.
 
 **[!UICONTROL Web API]** 배포 유형 및 **[!UICONTROL Password credentials]** 인증을 사용하여 다음 세부 정보를 제공해야 합니다.
 
@@ -314,13 +312,15 @@ Campaign - 이 [페이지](../../platform/using/crm-ms-dynamics.md)에서 Micros
 
    Microsoft CRM 서버의 URL입니다.
 
+   Microsoft CRM **[!UICONTROL Server URL]**&#x200B;을 찾으려면 Microsoft Dynamics CRM 계정에 액세스한 다음 **Dynamics 365**&#x200B;를 클릭하고 앱을 선택하십시오. 그런 다음 브라우저의 주소 표시줄에 **[!UICONTROL Server URL]**&#x200B;를 찾을 수 있습니다(예: `https://myserver.crm.dynamics.com/`.
+
 * **[!UICONTROL Client identifier]**
 
    Microsoft Azure 관리 포털에서 **[!UICONTROL Update your code]** 카테고리, **[!UICONTROL Client ID]** 필드에 있는 클라이언트 ID입니다.
 
 * **[!UICONTROL CRM version]**
 
-   **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** 또는 **[!UICONTROL Dynamics CRM 2016]** 사이의 CRM 버전입니다.
+   **[!UICONTROL Dynamics CRM 365]** CRM 버전을 선택합니다.
 
 **[!UICONTROL Web API]** 배포 유형 및 **[!UICONTROL Certificate]** 인증을 사용하여 다음 세부 정보를 제공해야 합니다.
 
@@ -330,9 +330,13 @@ Campaign - 이 [페이지](../../platform/using/crm-ms-dynamics.md)에서 Micros
 
    Microsoft CRM 서버의 URL입니다.
 
+   Microsoft CRM **[!UICONTROL Server URL]**&#x200B;을 찾으려면 Microsoft Dynamics CRM 계정에 액세스한 다음 **Dynamics 365**&#x200B;를 클릭하고 앱을 선택하십시오. 그런 다음 브라우저의 주소 표시줄에 **[!UICONTROL Server URL]**&#x200B;를 찾을 수 있습니다(예: `https://myserver.crm.dynamics.com/`.
+
 * **[!UICONTROL Private Key (Base64 encoded)]**
 
-   Base64로 인코딩된 개인 키
+   개인 키는 Base64로 인코딩해야 합니다.
+
+   이렇게 하려면 Base64 인코더의 도움을 받거나 Linux용 명령줄 `base64 -w0 private.key`을 사용할 수 있습니다.
 
 * **[!UICONTROL Custom Key identifier]**
 
@@ -348,7 +352,7 @@ Campaign - 이 [페이지](../../platform/using/crm-ms-dynamics.md)에서 Micros
 
 이 구성에 대한 자세한 내용은 이 [page](../../platform/using/crm-connectors.md)을 참조하십시오.
 
-### Salesforce.com CRM {#salesforce-crm-external-account}
+### Salesforce.com CRM  {#salesforce-crm-external-account}
 
 **[!UICONTROL Salesforce CRM]** 외부 계정을 사용하면 Salesforce 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
 
