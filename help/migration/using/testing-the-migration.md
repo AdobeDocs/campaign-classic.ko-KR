@@ -6,20 +6,20 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 571dd96d1f3bff5c3dab05dce5319f913f29a670
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '701'
 ht-degree: 1%
 
 ---
 
 # 마이그레이션 테스트{#testing-the-migration}
 
-## 일반 프로시저 {#general-procedure}
+## 일반 절차 {#general-procedure}
 
 구성에 따라 마이그레이션 테스트를 수행하는 방법에는 몇 가지가 있습니다.
 
-마이그레이션 테스트를 수행하려면 테스트/개발 환경이 있어야 합니다. 개발 환경은 라이센스 대상입니다.라이선스 계약을 확인하거나 Adobe Campaign의 영업 서비스에 문의하십시오.
+마이그레이션 테스트를 수행하려면 테스트/개발 환경이 있어야 합니다. 개발 환경은 라이센스 대상입니다. 라이선스 계약을 확인하거나 Adobe Campaign의 영업 서비스에 문의하십시오.
 
 1. 진행 중인 모든 개발 작업을 중지하고 프로덕션 환경으로 이동하십시오.
 1. 개발 환경 데이터베이스를 백업하십시오.
@@ -156,7 +156,13 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> 오류<br /> </td> 
-   <td> 이러한 유형의 오류로 인해 마이그레이션 오류가 발생합니다. <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>를 참조하십시오. 개요 유형 웹 응용 프로그램 오류 로그(v6.02에서 마이그레이션)가 나타나면 <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">웹 응용 프로그램</a>.<br /> 을 참조하십시오. </td> 
+   <td> 이러한 유형의 오류로 인해 마이그레이션 오류가 발생합니다. <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>를 참조하십시오. 개요 유형 웹 애플리케이션 오류 로그(v6.02에서 마이그레이션)가 표시되는 경우 <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Campaign 구성</a>.<br /> 을 참조하십시오. </td> 
+  </tr>
+  <tr> 
+   <td> crmDeploymentType="onpremise"<br /> </td> 
+   <td> PU-0007<br /> </td> 
+   <td> 오류<br /> </td> 
+   <td> 이 유형의 배포는 더 이상 지원되지 않습니다. 이제 Office 365 및 온-프레미스 Microsoft CRM 커넥터 배포 유형이 더 이상 사용되지 않습니다</a>. 웹 API 배포로 변경하려면 <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">웹 응용 프로그램</a>.<br /> 을 참조하십시오 </td>
   </tr> 
  </tbody> 
 </table>
@@ -173,7 +179,7 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 
 >[!NOTE]
 >
->절대 폴더 경로를 사용하고 폴더 트리 구조를 유지하는 것이 좋습니다. 예:backupFolder\nms\srcSchema\billing.xml
+>절대 폴더 경로를 사용하고 폴더 트리 구조를 유지하는 것이 좋습니다. 예: backupFolder\nms\srcSchema\billing.xml
 
 ### 마이그레이션 다시 시작 {#resuming-migration}
 
