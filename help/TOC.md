@@ -7,10 +7,10 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: Aadobe Campaign Classic
 type: Documentation
-source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: ht
-source-wordcount: '2518'
-ht-degree: 100%
+source-git-commit: a54a6f9b8afedf8a200b80b027f908163faebeaa
+workflow-type: tm+mt
+source-wordcount: '2525'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 100%
    + [사용되지 않는 기능](rn/using/deprecated-features.md)
    + [호환성 매트릭스](rn/using/compatibility-matrix.md)
    + [기술 노트](technotes/technote.md)
-   + [Adobe Analytics 커넥터 FAQ](technotes/aa-connector-migration.md)
    + [iOS 인증서 업데이트](technotes/ios-certificate-update.md)
    + [Campaign 구성 업데이트](technotes/acc-config-updates.md)
    + [추적된 URL 업데이트](technotes/tracked-urls.md)
@@ -117,8 +116,10 @@ ht-degree: 100%
          + [Microsoft Dynamics 365와 연결](platform/using/crm-ms-dynamics.md)
          + [Salesforce.com과 연결](platform/using/crm-sfdc.md)
          + [CRM과 데이터 동기화](platform/using/crm-data-sync.md)
-      + [Adobe Analytics 커넥터](platform/using/adobe-analytics-connector.md)
-      + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector-legacy.md)
+      + Adobe Analytics 커넥터{#analytics-connector}
+         + [Adobe Analytics 커넥터 통합](platform/using/adobe-analytics-connector.md)
+         + [Adobe Analytics Connector로 마이그레이션하는 방법](technotes/aa-connector-migration.md)
+         + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector-legacy.md)
    + [도움말 및 지원 옵션](support.md)
 + 메시지 만들기 및 보내기 {#sending-messages}
    + [메시지 시작](delivery/using/communication-channels.md)
