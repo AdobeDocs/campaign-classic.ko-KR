@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 94664ec56d269afef926663c52b84ccaaab02480
+source-git-commit: 7adde72f615e7c697fa2284235e180c29bc6d470
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 7%
@@ -92,7 +92,6 @@ POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일�
 * [iOS 채널](../../delivery/using/configuring-the-mobile-application.md)
 * [Android 채널](../../delivery/using/configuring-the-mobile-application-android.md)
 
-
 ### 실행 인스턴스  {#execution-instance-external-account}
 
 세분화된 아키텍처가 있는 경우 제어 인스턴스에 연결된 실행 인스턴스를 지정하고 연결해야 합니다. 트랜잭션 메시지 템플릿은 실행 인스턴스에 배포됩니다
@@ -112,7 +111,6 @@ POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일�
    운영자 폴더에 정의된 계정의 암호입니다.
 
 이 구성에 대한 자세한 내용은 이 [page](../../message-center/using/configuring-instances.md#control-instance)을 참조하십시오.
-
 
 ## 외부 시스템 외부 계정에 대한 액세스
 
