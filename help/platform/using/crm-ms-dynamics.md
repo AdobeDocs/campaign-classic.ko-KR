@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: 9fb5b1a256a7c77e64a449aea9a4489de1f9123a
+source-git-commit: 7adde72f615e7c697fa2284235e180c29bc6d470
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1097'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 Microsoft Dynamics CRM에서:
 1. Microsoft Dynamics 클라이언트 ID 가져오기
-1. Microsoft Dynamics 클라이언트 암호 생성
+1. Microsoft Dynamics 인증서 키 식별자 및 키 ID 생성
 1. 권한 구성
 1. 앱 사용자 만들기
 1. 개인 키 인코딩
@@ -66,9 +66,9 @@ Campaign Classic:
 
 [이 페이지](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)에서 자세히 알아보십시오.
 
-### Microsoft Dynamics 클라이언트 암호 생성 {#config-client-secret-microsoft}
+### Microsoft Dynamics 인증서 키 식별자 및 키 ID 생성 {#config-certificate-key-id}
 
-클라이언트 암호는 클라이언트 ID에 고유한 키입니다. 인증서 키 식별자를 얻으려면 아래 단계를 수행하십시오.
+**인증서 키 식별자(customKeyIdentifier)** 및 **키 ID(keyId)**&#x200B;를 가져오려면 아래 단계를 수행하십시오.
 
 1. **Azure Active Directory > 앱 등록**&#x200B;으로 이동하여 이전에 만든 응용 프로그램을 선택합니다.
 1. **Certificates 및 Secret**&#x200B;을 클릭합니다.
@@ -88,6 +88,8 @@ Campaign Classic:
 1. 그런 다음 base64에서 인코딩해야 합니다. 이렇게 하려면 Base64 인코더의 도움을 받거나 Linux용 명령줄 `base64 -w0 private.key`을 사용할 수 있습니다.
 
 1. **Manifest** 링크를 클릭하여 **인증서 키 식별자(customKeyIdentifier)** 및 **키 ID(keyId)**&#x200B;를 가져옵니다.
+
+**인증서 키 식별자(customKeyIdentifier)** 및 **키 ID(keyId)**&#x200B;가 나중에 **[!UICONTROL CRM O-Auth type]** 인증서를 사용하여 Microsoft Dynamics CRM 외부 계정을 구성해야 합니다.
 
 ### 권한 구성 {#config-permissions-microsoft}
 
@@ -192,6 +194,10 @@ Microsoft Dynamics 365 및 Campaign을 연결하려면 Campaign에서 전용 **[
    ![](assets/crm_connectors_msdynamics_06.png)
 
 이제 Campaign과 Microsoft Dynamics가 연결되었습니다. 두 시스템 간에 데이터 동기화를 설정할 수 있습니다. 자세한 내용은 [데이터 동기화](../../platform/using/crm-data-sync.md) 섹션에서 알아보십시오.
+
+>[!NOTE]
+>
+> 허용 목록에 다음 두 URL을 추가해야 합니다. 서버 구성의 서버 URL 및 `login.microsoftonline.com`
 
 ## 지원되는 필드 데이터 유형 {#ms-dyn-supported-types}
 
