@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 934964b31c4f8f869253759eaf49961fa5589bff
+source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 4%
@@ -23,17 +23,17 @@ ht-degree: 4%
 >
 >이 이동 중에 [!DNL Adobe I/O](으)로 이동하면 일부 수신 트리거가 손실될 수 있습니다.
 
-## 사전 요구 사항 {#adobe-io-prerequisites}
+## 필수 구성 요소 {#adobe-io-prerequisites}
 
-이 통합은 **Campaign Classic 20.3, 20.2.4, 19.1.8 및 [!DNL Gold Standard] 11 릴리스**&#x200B;만 적용됩니다.
+이 통합은 **Campaign Classic 20.3, 19.1.8 및 [!DNL Gold Standard] 11 릴리스**&#x200B;만 적용됩니다.
 
 이 구현을 시작하기 전에 다음 내용이 있는지 확인하십시오.
 
-* 유효한 **조직 식별자**:ims(Identity Management 시스템) 조직 식별자는 Adobe Experience Cloud 내의 고유 식별자로, 방문자 ID 서비스 및 IMS SSO(Single-Sign On)와 같이 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
+* 유효한 **조직 식별자**: ims(Identity Management 시스템) 조직 식별자는 Adobe Experience Cloud 내의 고유 식별자로, 방문자 ID 서비스 및 IMS SSO(Single-Sign On)와 같이 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
 * 조직에 대한 **개발자 액세스** IMS 조직의 시스템 관리자는 **단일 제품 프로필에 개발자 추가**를 따라야 합니다
 프로시저는 트리거와 연결된 Adobe Analytics 제품의 `Analytics - {tenantID}` 제품 프로필에 대한 개발자 액세스 권한을 제공하기 위해 이 페이지](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)에 [에 자세히 설명되어 있습니다.
 
-## 1단계:Adobe I/O 프로젝트 {#creating-adobe-io-project} 만들기/업데이트
+## 1단계: Adobe I/O 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
 
 1. [!DNL Adobe I/O]에 액세스하여 IMS 조직의 개발자 액세스 권한으로 로그인합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 4%
 
    ![](assets/do-not-localize/adobe_io_4.png)
 
-1. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
 
    ![](assets/do-not-localize/adobe_io_5.png)
 
@@ -96,17 +96,17 @@ ht-degree: 4%
 >
 >Adobe I/O 인증서는 12개월 후에 만료됩니다. 매년 새 키 쌍을 만들어야 합니다.
 
-## 2단계:Adobe Campaign {#add-credentials-campaign}에 프로젝트 자격 증명을 추가합니다.
+## 2단계: Adobe Campaign에서 프로젝트 자격 증명 추가 {#add-credentials-campaign}
 
 >[!NOTE]
 >
->클라이언트 식별자가 [1단계에서 비어 있지 않은 경우 이 단계는 필요하지 않습니다.Adobe I/O 프로젝트 ](#creating-adobe-io-project) 만들기/업데이트.
+>클라이언트 식별자가 [1단계에서 비어 있지 않은 경우 이 단계는 필요하지 않습니다. Adobe I/O 프로젝트 ](#creating-adobe-io-project) 만들기/업데이트.
 
 개인 키는 base64 UTF-8 형식으로 인코딩해야 합니다. 방법은 다음과 같습니다.
 
-1. [1단계에서 생성된 개인 키를 사용하십시오.Adobe I/O 프로젝트 섹션](#creating-adobe-io-project) 만들기/업데이트. 개인 키는 통합을 만드는 데 사용되는 키와 같아야 합니다.
+1. [1단계에서 생성된 개인 키를 사용하십시오. Adobe I/O 프로젝트 섹션](#creating-adobe-io-project) 만들기/업데이트. 개인 키는 통합을 만드는 데 사용되는 키와 같아야 합니다.
 
-1. 다음 명령을 사용하여 개인 키를 인코딩합니다.`base64 ./private.key > private.key.base64` 이렇게 하면 base64 컨텐츠가 새 파일 `private.key.base64`에 저장됩니다.
+1. 다음 명령을 사용하여 개인 키를 인코딩합니다. `base64 ./private.key > private.key.base64` 이렇게 하면 base64 컨텐츠가 새 파일 `private.key.base64`에 저장됩니다.
 
    >[!NOTE]
    >
@@ -120,11 +120,11 @@ ht-degree: 4%
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
 
-## 3단계:파이프라인 태그 {#update-pipelined-tag} 업데이트
+## 3단계: 파이프라인 태그 업데이트 {#update-pipelined-tag}
 
 >[!NOTE]
 >
->클라이언트 식별자가 [1단계에서 비어 있지 않은 경우 이 단계는 필요하지 않습니다.Adobe I/O 프로젝트 ](#creating-adobe-io-project) 만들기/업데이트.
+>클라이언트 식별자가 [1단계에서 비어 있지 않은 경우 이 단계는 필요하지 않습니다. Adobe I/O 프로젝트 ](#creating-adobe-io-project) 만들기/업데이트.
 
 [!DNL pipelined] 태그를 업데이트하려면 다음과 같이 구성 파일 **config-&lt; instance-name >.xml**&#x200B;에서 인증 유형을 Adobe I/O 프로젝트로 업데이트해야 합니다.
 
