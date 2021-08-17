@@ -5,9 +5,9 @@ description: 파이프라인 구성 방법 알아보기
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: cf102a5e669ffe136e6ec2429343725ec6c3722e
+source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 1%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 1%
 >
 >하이브리드 배포의 경우 파이프라인이 mid 인스턴스에 구성되어 있는지 확인하십시오.
 
-## 기본 사항 {#prerequisites}
+## 필수 구성 요소 {#prerequisites}
 
 이 구성을 시작하기 전에 다음을 사용 중인지 확인하십시오.
 
 * 최소, 다음 Adobe Campaign 빌드 중 하나:
    * 19.1.8.9039
-   * 19.1.4.9032.GS.11
+   * 19.1.4.9032 - Gold Standard 11
    * 20.2.4.9187
    * 20.3.1
 * Adobe Analytics Standard 버전
@@ -46,13 +46,13 @@ Adobe Experience Cloud에서 파이프라인이 호스팅되므로 인증이 필
 공개 키와 개인 키 쌍을 사용합니다. 이 프로세스는 사용자/암호와 동일한 기능을 가지지만 더 안전합니다.
 Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩니다.
 
-## 1단계:Adobe I/O 프로젝트 {#creating-adobe-io-project} 만들기/업데이트
+## 1단계: Adobe I/O 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
 
 호스팅된 고객의 경우 트리거 통합을 위해 기술 계정 토큰 Adobe I/O으로 조직을 활성화하도록 고객 지원 티켓을 만들 수 있습니다.
 
 온-프레미스 고객의 경우 [Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성](../../integrations/using/configuring-adobe-io.md) 페이지를 참조하십시오. Adobe I/O 자격 증명에 API를 추가하는 동안 **[!UICONTROL Adobe Analytics]** 을 선택해야 합니다.
 
-## 2단계:NmsPipeline_Config 파이프라인 옵션 구성 {#configuring-nmspipeline}
+## 2단계: NmsPipeline_Config 파이프라인 옵션 구성 {#configuring-nmspipeline}
 
 인증이 설정되면 파이프라인이 이벤트를 검색합니다. 이 워크플로우는 Adobe Campaign에 구성된 트리거만 처리합니다. 트리거가 Adobe Analytics에서 생성되어 Adobe Campaign에 구성된 트리거만 처리하는 파이프라인에 푸시되어 있어야 합니다.
 이름에 관계없이 모든 트리거를 캐싱하기 위해 와일드카드로 옵션을 구성할 수도 있습니다.
@@ -104,7 +104,7 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 
 ### 소비자 매개 변수 {#consumer-parameter}
 
-파이프라인은 공급자 및 소비자 모델과 같이 작동합니다. 메시지는 개별 소비자에 대해서만 사용됩니다.각 소비자는 고유한 메시지 복사본을 가져옵니다.
+파이프라인은 공급자 및 소비자 모델과 같이 작동합니다. 메시지는 개별 소비자에 대해서만 사용됩니다. 각 소비자는 고유한 메시지 복사본을 가져옵니다.
 
 **Consumer** 매개 변수는 인스턴스를 이러한 소비자 중 하나로 식별합니다. 인스턴스의 ID가 파이프라인을 호출합니다. 클라이언트 콘솔의 모니터링 페이지에서 찾을 수 있는 인스턴스 이름으로 입력할 수 있습니다.
 
@@ -121,7 +121,7 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 * 파이프라인은 &quot;별칭&quot; 항목도 지원합니다.
 * 변경한 후에는 항상 파이프라인을 다시 시작해야 합니다.
 
-## 3단계:옵션 구성 {#step-optional}
+## 3단계: 옵션 구성 {#step-optional}
 
 로드 요구 사항에 따라 일부 내부 매개 변수를 변경할 수 있지만, 프로덕션 상태에 적용하기 전에 테스트해야 합니다.
 
@@ -129,14 +129,14 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 
 | 옵션 | 설명 |
 |:-:|:-:|
-| appName(기존) | 공개 키가 업로드된 Legacy Oath 애플리케이션에 등록된 OAuth 애플리케이션의 AppID입니다. 자세한 정보는 이 [페이지](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md.)를 참조하십시오 |
-| authGatewayEndpoint(이전) | 게이트웨이 토큰을 가져오는 URL. 기본값:```https://api.omniture.com``` |
-| authPrivateKey(이전) | 개인 키, 기존 Oath 응용 프로그램에 업로드된 공개 부분, XtkKey 옵션으로 암호화된 AES:```cryptString("PRIVATE_KEY")``` |
+| appName(기존) | 공개 키가 업로드된 Legacy Oath 애플리케이션에 등록된 OAuth 애플리케이션의 AppID입니다. 자세한 정보는 이 [페이지](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md.)를 참조하십시오. |
+| authGatewayEndpoint(이전) | 게이트웨이 토큰을 가져오는 URL. 기본값: ```https://api.omniture.com``` |
+| authPrivateKey(이전) | 개인 키, 기존 Oath 응용 프로그램에 업로드된 공개 부분, XtkKey 옵션으로 암호화된 AES: ```cryptString("PRIVATE_KEY")``` |
 | disableAuth(기존) | 인증을 비활성화하십시오. 게이트웨이 토큰 없이 연결하는 것은 일부 개발 파이프라인 끝점에서만 허용됩니다. |
-| discoverPipelineEndpoint | 이 테넌트에 사용할 파이프라인 서비스 끝점을 찾는 URL입니다. 기본값:```https://producer-pipeline-pnw.adobe.net``` |
-| dumpStatePeriodSec | ```var/INSTANCE/pipelined.json.``` <br> 내부 상태도 여기에서 필요할 때 액세스할 수 있습니다.```http://INSTANCE:7781/pipelined/status``` |
+| discoverPipelineEndpoint | 이 테넌트에 사용할 파이프라인 서비스 끝점을 찾는 URL입니다. 기본값: ```https://producer-pipeline-pnw.adobe.net``` |
+| dumpStatePeriodSec | ```var/INSTANCE/pipelined.json.``` <br> 내부 상태도 여기에서 필요할 때 액세스할 수 있습니다. ```http://INSTANCE:7781/pipelined/status``` |
 | forcedPipelineEndpoint | PipelineServicesEndpoint의 검색을 비활성화하여 강제 적용 |
-| monitorServerPort | 파이프라인 프로세스는 여기서 내부 상태 프로세스를 제공하기 위해 이 포트를 수신합니다.```http://INSTANCE:PORT/pipelined/status``` <br>기본값은 7781입니다 |
+| monitorServerPort | 파이프라인 프로세스는 여기서 내부 상태 프로세스를 제공하기 위해 이 포트를 수신합니다. ```http://INSTANCE:PORT/pipelined/status``` <br>기본값은 7781입니다 |
 | pointerFlushMessageCount | 이 수의 메시지가 처리되면 오프셋이 데이터베이스에 저장됩니다. <br> 기본값은 1000입니다. |
 | pointerFlushPeriodSec | 이 기간 이후에는 오프셋이 데이터베이스에 저장됩니다. <br>기본값은 5초입니다. |
 | processingJSONhreads | 사용자 지정 JS 커넥터를 사용하는 전용 스레드 처리 메시지 수입니다. <br> 기본값은 4입니다. |
@@ -154,7 +154,7 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
  <pipelined autoStart="true" ... "/>
 ```
 
-### 파이프라인 프로세스가 다시 시작됩니다. {#pipelined-process-restart}
+### 파이프라인 프로세스 재시작 {#pipelined-process-restart}
 
 변경 사항을 적용하려면 다시 시작해야 합니다.
 
@@ -162,7 +162,7 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 nlserver restart pipelined@instance
 ```
 
-## 4단계:유효성 검사 {#step-validation}
+## 4단계: 유효성 검사 {#step-validation}
 
 프로비저닝에 대한 파이프라인 설정의 유효성을 검사하려면 아래 단계를 수행하십시오.
 
