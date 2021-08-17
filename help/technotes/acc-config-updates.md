@@ -5,7 +5,7 @@ description: 기술 정보
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 037e56040bd63edfdfee5ab6bf73b45d3a138072
+source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 11%
@@ -29,7 +29,7 @@ Managed Services은 **호스팅 또는 Adobe 고객**&#x200B;으로 정기적으
 
 ## 보안 업데이트 {#acc-security-updates}
 
-최신 Campaign 버전은 SSRF(Server Side Request Forgery) 공격으로부터 보호를 강화하는 보안 수정 사항이 포함되어 있습니다. 이 페이지에서 [을 자세히 알아보십시오](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html).
+최신 Campaign 버전은 SSRF(Server Side Request Forgery) 공격으로부터 보호를 강화하는 보안 수정 사항이 포함되어 있습니다. [이 페이지](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)에서 자세히 알아보십시오.
 
 **영향을 받습니까?**
 
@@ -80,12 +80,12 @@ Adobe ID](../integrations/using/about-adobe-id.md)을 통해 Campaign [에 연�
 
 * Gold Standard 11. [자세히 알아보기](../rn/using/gold-standard.md)
 * Campaign 21.1.1 릴리스. [자세히 알아보기](../rn/using/latest-release.md)
-* Campaign 20.2.4 릴리스. [자세히 알아보기](../rn/using/release--20-2.md)
+* Campaign 20.2.5 릴리스. [자세히 알아보기](../rn/using/release--20-2.md)
 * Campaign 20.1.4 릴리스. [자세히 알아보기](../rn/using/release--20-1.md)
 * Campaign 19.2.4 릴리스. [자세히 알아보기](../rn/using/release--19-2.md)
 * Campaign 19.1.8 릴리스. [자세히 알아보기](../rn/using/release--19-1.md)
 
-이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다.**2021년 6월 30일 이후 Campaign 서버와 클라이언트 콘솔 모두에서 Campaign에 연결할 수 있도록 업그레이드는 필수입니다**.
+이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다. **2021년 6월 30일 이후 Campaign 서버와 클라이언트 콘솔 모두에서 Campaign에 연결할 수 있도록 업그레이드는 필수입니다**.
 
 이 섹션](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 버전 [을 확인하는 방법을 알아봅니다.
 
@@ -103,7 +103,7 @@ Adobe ID](../integrations/using/about-adobe-id.md)을 통해 Campaign [에 연�
 
 ## Experience Cloud 트리거과 통합 {#acc-triggers-updates}
 
-기존 oAuth 인증 서비스가 수명이 종료되었습니다. 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 Adobe I/O으로 이동되었습니다.**2021년 11월 30일에 사용이 중단됩니다**. [자세히 알아보기](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)
+기존 oAuth 인증 서비스가 수명이 종료되었습니다. 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 Adobe I/O으로 이동되었습니다. **2021년 11월 30일에 사용이 중단됩니다**. [자세히 알아보기](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)
 
 **영향을 받습니까?**
 
@@ -156,7 +156,7 @@ Campaign을 사용하여 iOS 장치에서 푸시 알림을 전송하는 경우 �
 
 **업데이트 방법**
 
-호스팅된 고객으로서 아무 작업도 필요하지 않습니다.Adobe이 이미 새 루트 인증서를 환경에 통합했습니다.
+호스팅된 고객으로서 아무 작업도 필요하지 않습니다. Adobe이 이미 새 루트 인증서를 환경에 통합했습니다.
 
 온-프레미스/하이브리드 고객은 2021년 3월 29일 전에 **이 원활하게 전환되도록 구성을 업데이트해야 합니다.**
 
@@ -166,5 +166,5 @@ Campaign을 사용하여 iOS 장치에서 푸시 알림을 전송하는 경우 �
 
 * [환경 업그레이드](../production/using/build-upgrade.md)
 * [빌드 업그레이드 FAQ](../platform/using/faq-build-upgrade.md)
-* [Campaign Classic 빌드 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Campaign Classic 빌드 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)
 * [새 클라이언트 콘솔을 사용자가 사용할 수 있게 만들기](../installation/using/client-console-availability-for-windows.md)
