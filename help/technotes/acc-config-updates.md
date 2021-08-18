@@ -5,9 +5,9 @@ description: 기술 정보
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: f4c6e416353d6b921cefced830b3380996f10751
+source-git-commit: 8e18a3633e6b806a971678d985c55c123854438e
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1099'
 ht-degree: 11%
 
 ---
@@ -103,7 +103,7 @@ Adobe ID](../integrations/using/about-adobe-id.md)을 통해 Campaign [에 연�
 
 ## Experience Cloud 트리거과 통합 {#acc-triggers-updates}
 
-기존 oAuth 인증 서비스가 수명이 종료되었습니다. 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 Adobe I/O으로 이동되었습니다. 이 서비스는 하이브리드 및 온-프레미스 환경의 경우 및 **2021년 8월 18일에, 호스팅된 환경의 경우** 11월 30일에 사용이 중단됩니다&#x200B;**.** [자세히 알아보기](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)
+기존 oAuth 인증 서비스가 수명이 종료되었습니다. 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 Adobe I/O으로 이동되었습니다. **2021년 11월 30일에 사용이 중단됩니다**. [자세히 알아보기](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)
 
 **영향을 받습니까?**
 
