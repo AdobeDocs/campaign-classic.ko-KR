@@ -6,10 +6,10 @@ feature: null
 role: null
 level: null
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
-source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
+source-git-commit: f4c6e416353d6b921cefced830b3380996f10751
 workflow-type: tm+mt
-source-wordcount: '3252'
-ht-degree: 26%
+source-wordcount: '3263'
+ht-degree: 25%
 
 ---
 
@@ -25,7 +25,7 @@ _2021년 4월 15일_
 
 >[!NOTE]
 >
-> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하여 새 버전을 다운로드합니다. [이 페이지에서](../../installation/using/client-console-availability-for-windows.md) 모든 최종 사용자에게 콘솔 업데이트를 제안하는 방법을 알아봅니다.
+> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에 연결하여 새 버전을 다운로드합니다. [이 페이지에서](../../installation/using/client-console-availability-for-windows.md) 모든 최종 사용자에게 콘솔 업데이트를 제안하는 방법을 알아봅니다.
 
 _2021년 3월 22일_
 
@@ -43,7 +43,7 @@ _2020년 12월 16일_
 >
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다. [자세히 알아보기](../../technotes/ims-updates.md)
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. 캠페인이 포함된 레거시 OAuth 인증 모드는 **2021년 11월 30일**&#x200B;에 종료됩니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign이 있는 기존 oAuth 인증 모드는 하이브리드 및 온-프레미스 환경의 경우 **8월 18일, 호스팅된 환경의 경우** 2021년 11월 30일&#x200B;**에서 사용이 중단됩니다.**
 
 
 
@@ -171,7 +171,7 @@ _2019년 5월 30일_
  <tbody> 
   <tr> 
    <td> Campaign 컨트롤 패널<br /> </td> 
-   <td> <p>관리자로서 작업의 효율성을 높이려면 저장소 모니터링을 통해 SFTP 서버의 설정을 관리하고, 저장소에 IP 주소허용 목록에 추가하다를 추가하고, 각 인스턴스에 대해 SSH 키를 설치하도록 합니다. Campaign 컨트롤 패널은 현재 AWS에서 호스팅되는 고객에게만 제공됩니다(<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">오늘 Experience Cloud을 통해 로그인</a>).</p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko">방법 비디오</a>를 참조하십시오. </p><p>참고:Campaign 컨트롤 패널에 액세스하려면 최신 Campaign 빌드로 업그레이드할 필요가 없습니다.</p> </td> 
+   <td> <p>관리자로서 작업의 효율성을 높이려면 저장소 모니터링을 통해 SFTP 서버의 설정을 관리하고, 저장소에 IP 주소허용 목록에 추가하다를 추가하고, 각 인스턴스에 대해 SSH 키를 설치하도록 합니다. Campaign 컨트롤 패널은 현재 AWS에서 호스팅되는 고객에게만 제공됩니다(<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">오늘 Experience Cloud을 통해 로그인</a>).</p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko">방법 비디오</a>를 참조하십시오. </p><p>참고: Campaign 컨트롤 패널에 액세스하려면 최신 Campaign 빌드로 업그레이드할 필요가 없습니다.</p> </td> 
   </tr> 
     <tr> 
    <td> 감사 추적<br /> </td> 
@@ -197,7 +197,7 @@ _2019년 5월 30일_
 
 **향상된 보안 기능**
 
-* 보안상의 이유로 **[!UICONTROL Data loading (file)]** 워크플로우 활동에서 **[!UICONTROL Pre-process the file]** 옵션을 사용할 때 더 이상 임의 명령을 삽입할 수 없습니다. 이제 3가지 옵션 중에서 선택할 수 있는 드롭다운 목록을 사용할 수 있습니다.**[!UICONTROL None]**, **[!UICONTROL Decompression]**(zcat) 또는 **[!UICONTROL Decrypt]** (gpg) XtkSecurity_Disable_Preproc 보안 플래그가 추가되었습니다. 새 고객의 경우 이 옵션이 0으로 설정됩니다. 기존 고객의 경우 이 옵션은 이전 동작을 유지하기 위해 업그레이드 후 가 1로 설정됩니다. 이 [섹션](../../workflow/using/data-loading--file-.md)을 참조하십시오.
+* 보안상의 이유로 **[!UICONTROL Data loading (file)]** 워크플로우 활동에서 **[!UICONTROL Pre-process the file]** 옵션을 사용할 때 더 이상 임의 명령을 삽입할 수 없습니다. 이제 3가지 옵션 중에서 선택할 수 있는 드롭다운 목록을 사용할 수 있습니다. **[!UICONTROL None]**, **[!UICONTROL Decompression]**(zcat) 또는 **[!UICONTROL Decrypt]** (gpg) XtkSecurity_Disable_Preproc 보안 플래그가 추가되었습니다. 새 고객의 경우 이 옵션이 0으로 설정됩니다. 기존 고객의 경우 이 옵션은 이전 동작을 유지하기 위해 업그레이드 후 가 1로 설정됩니다. 이 [섹션](../../workflow/using/data-loading--file-.md)을 참조하십시오.
 * 표준 시간대가 설정되지 않은 FDA 외부 계정의 연결을 테스트할 때 발생하는 암호 가시성 문제를 해결했습니다.
 * PDFBox 라이브러리가 제거되었습니다.
 * Tomcat이 버전 7.0.93으로 업데이트되었습니다.
@@ -213,28 +213,28 @@ _2019년 5월 30일_
 
 **보호, 견고성 및 확장성 개선 사항**
 
-* 수명 - XtkNewId 시퀀스 사용 최적화:가장 많이 사용하는 테이블이 xtkNewId 시퀀스에서 전용 시퀀스로 이동되었습니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
-* HTTP v2를 통한 FDA:HTTP를 통한 FDA 프로토콜은 Hybrid 배포, 특히 broadLog 검색 및 게재 준비에 널리 사용됩니다. 데이터 검색 또는 푸싱과 같은 네트워크 문제와 가능한 오류를 방지하기 위해 견고성 기능이 향상되었습니다. 이렇게 하려면 연결의 양쪽 끝에서 빌드가 최신 상태여야 하며 그렇지 않으면 이전 프로토콜은 계속 사용됩니다.
-* 추적 워크플로우:추적 워크플로우 견고성이 향상되었습니다. 추적 로그 삽입/업데이트 및 URL 추적 사용자 지정과 관련된 몇 가지 문제가 수정되었습니다. 또한 이제 추적 워크플로우에서 오류로 인해 워크플로우를 중지할 수 있는 추적 로그 문제를 감지합니다. 이제 이러한 문제가 삭제되고 처리되지 않습니다.
-* 정리 워크플로우:잠재적인 오류 및 중지를 방지하기 위해 정리 워크플로우가 개선되었습니다. 데이터베이스 크기와 성능을 최적화합니다.
-* 트랜잭션 메시지에 포함된 이미지:가능한 충돌 또는 누락된 이미지를 방지하기 위해 트랜잭션 메시지에 포함된 이미지에 대한 전체 지원을 추가했습니다.
-* 데이터베이스 크기 - XtkJobLog:이 테이블에 제거 메커니즘이 추가되었습니다. 이는 데이터베이스 크기에 긍정적인 영향을 줍니다.
-* 숨은 참조 보관:숨은 참조 보관에 대한 기본 매개 변수가 보관 속도를 증가하도록 변경되었습니다. [자세히 알아보기](../../installation/using/email-archiving.md#parameters)
-* 데이터베이스 구조 업데이트:데이터베이스 구조 업데이트 마법사에서 생성한 SQL 요청이 개선되어 실행 속도가 빨라졌습니다.
-* 운영자 작업에 대한 보호 기능:연산자가 플랫폼의 무결성에 영향을 줄 수 있는 작업을 수행하지 못하도록 몇 가지 보안 기능이 구현되었습니다. 기본 제공 스키마는 더 이상 인터페이스를 통해 삭제할 수 없습니다. 또한 관리자가 아닌 사용자는 워크플로우 소스 XML을 더 이상 편집할 수 없습니다.
-* 두 가지 새로운 옵션을 사용할 수 있습니다.**XtkSecurity_Restrict_EditXML**(게재 XML 코드 버전을 비활성화할 수 있음) 및 **NmsOperation_OperationMgtDebug**(operationMgt 기술 워크플로우 실행을 모니터링할 수 있음). [자세히 알아보기](../../installation/using/configuring-campaign-options.md)
+* 수명 - XtkNewId 시퀀스 사용 최적화: 가장 많이 사용하는 테이블이 xtkNewId 시퀀스에서 전용 시퀀스로 이동되었습니다. [자세히 표시](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* HTTP v2를 통한 FDA: HTTP를 통한 FDA 프로토콜은 Hybrid 배포, 특히 broadLog 검색 및 게재 준비에 널리 사용됩니다. 데이터 검색 또는 푸싱과 같은 네트워크 문제와 가능한 오류를 방지하기 위해 견고성 기능이 향상되었습니다. 이렇게 하려면 연결의 양쪽 끝에서 빌드가 최신 상태여야 하며 그렇지 않으면 이전 프로토콜은 계속 사용됩니다.
+* 추적 워크플로우: 추적 워크플로우 견고성이 향상되었습니다. 추적 로그 삽입/업데이트 및 URL 추적 사용자 지정과 관련된 몇 가지 문제가 수정되었습니다. 또한 이제 추적 워크플로우에서 오류로 인해 워크플로우를 중지할 수 있는 추적 로그 문제를 감지합니다. 이제 이러한 문제가 삭제되고 처리되지 않습니다.
+* 정리 워크플로우: 잠재적인 오류 및 중지를 방지하기 위해 정리 워크플로우가 개선되었습니다. 데이터베이스 크기와 성능을 최적화합니다.
+* 트랜잭션 메시지에 포함된 이미지: 가능한 충돌 또는 누락된 이미지를 방지하기 위해 트랜잭션 메시지에 포함된 이미지에 대한 전체 지원을 추가했습니다.
+* 데이터베이스 크기 - XtkJobLog: 이 테이블에 제거 메커니즘이 추가되었습니다. 이는 데이터베이스 크기에 긍정적인 영향을 줍니다.
+* 숨은 참조 보관: 숨은 참조 보관에 대한 기본 매개 변수가 보관 속도를 증가하도록 변경되었습니다. [자세히 표시](../../installation/using/email-archiving.md#parameters)
+* 데이터베이스 구조 업데이트: 데이터베이스 구조 업데이트 마법사에서 생성한 SQL 요청이 개선되어 실행 속도가 빨라졌습니다.
+* 운영자 작업에 대한 보호 기능: 연산자가 플랫폼의 무결성에 영향을 줄 수 있는 작업을 수행하지 못하도록 몇 가지 보안 기능이 구현되었습니다. 기본 제공 스키마는 더 이상 인터페이스를 통해 삭제할 수 없습니다. 또한 관리자가 아닌 사용자는 워크플로우 소스 XML을 더 이상 편집할 수 없습니다.
+* 두 가지 새로운 옵션을 사용할 수 있습니다. **XtkSecurity_Restrict_EditXML**(게재 XML 코드 버전을 비활성화할 수 있음) 및 **NmsOperation_OperationMgtDebug**(operationMgt 기술 워크플로우 실행을 모니터링할 수 있음). [자세히 표시](../../installation/using/configuring-campaign-options.md)
 
 **기타 변경 사항**
 
-* 푸시 알림:이제 iOS 푸시에 대한 스레드 ID 옵션이 지원됩니다.
+* 푸시 알림: 이제 iOS 푸시에 대한 스레드 ID 옵션이 지원됩니다.
 * 업그레이드 후 문제를 일으킬 수 있는 긴 이름 인덱스 관리를 개선했습니다.
-* 이제 디메일 게재를 분석하는 동안 배포 마법사에서 게시 모드가 **[!UICONTROL None]** 로 설정된 경우 오류가 기록되고 분석이 중지됩니다.&quot;게시 모드가 &#39;없음&#39;으로 설정되어 있습니다.이미지를 포함할 수 없습니다. 기능 휴대폰에는 이미지가 표시되지 않습니다.&quot; (NEO-12208)
+* 이제 디메일 게재를 분석하는 동안 배포 마법사에서 게시 모드가 **[!UICONTROL None]** 로 설정된 경우 오류가 기록되고 분석이 중지됩니다. &quot;게시 모드가 &#39;없음&#39;으로 설정되어 있습니다. 이미지를 포함할 수 없습니다. 기능 휴대폰에는 이미지가 표시되지 않습니다.&quot; (NEO-12208)
 * 트랜잭션 메시징을 위해 브로드로그 관리가 개선되었습니다. 브로드로그가 실행 인스턴스에서 제어 인스턴스로 동기화되면 @lastModified 필드가 시스템의 현재 날짜로 업데이트됩니다. 제어 인스턴스에 대해 MC_Update_BlLastModified 옵션이 추가되었습니다. True는 컨트롤 인스턴스(기본 동작)에서 현재 날짜가 사용됨을 의미합니다. False는 실행 인스턴스 브로드로그의 @lastModified 날짜를 사용함을 의미합니다. (NEO-12579)
 * 게재 전송을 최적화하기 위해 쿠폰 임시 테이블에 인덱스가 추가되었습니다. (NEO-12437)
 * Analytics 통합에서 이제 % 문자로 AAM 세그먼트 데이터를 검색할 수 있습니다. (NEO-12025)
 * 누락된 데이터 문제를 해결하기 위해 워크플로우 Heatmap에서 10,000개의 레코드 제한을 제거했습니다. (NEO-12329)
 * Open Office는 지원되지 않으며 이제 응용 프로그램에서 완전히 제거됩니다. 계속 사용 중인 경우 19.1부터 더 이상 작동하지 않으므로 Libre Office로 이동합니다.
-* 이제 sysfilter 속성을 사용하여 워크플로우에서 데이터 업데이트 활동에 대한 쓰기 액세스를 제한할 수 있습니다. [자세히 알아보기](../../configuration/using/filtering-schemas.md)
+* 이제 sysfilter 속성을 사용하여 워크플로우에서 데이터 업데이트 활동에 대한 쓰기 액세스를 제한할 수 있습니다. [자세히 표시](../../configuration/using/filtering-schemas.md)
 
 **패치**
 
