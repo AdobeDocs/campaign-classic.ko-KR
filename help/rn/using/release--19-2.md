@@ -2,11 +2,8 @@
 product: campaign
 title: 릴리스 19.2
 description: Campaign 19.2 릴리스 노트
-feature: null
-role: null
-level: null
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
-source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
+source-git-commit: 2a92cfc705e27332cfdf8c7357a6a03c84dc6c9f
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 21%
@@ -25,7 +22,7 @@ _2021년 4월 15일_
 
 >[!NOTE]
 >
-> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하여 새 버전을 다운로드합니다. [이 페이지에서](../../installation/using/client-console-availability-for-windows.md) 모든 최종 사용자에게 콘솔 업데이트를 제안하는 방법을 알아봅니다.
+> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에 연결하여 새 버전을 다운로드합니다. [이 페이지에서](../../installation/using/client-console-availability-for-windows.md) 모든 최종 사용자에게 콘솔 업데이트를 제안하는 방법을 알아봅니다.
 
 _2021년 3월 22일_
 
@@ -77,8 +74,8 @@ _2019년 12월 2일_
    <td> <p>CCPA는 2020년 1월 1일부터 시행된 데이터 보호 요구 사항을 통합하고 현대화한 캘리포니아 주의 새로운 개인 정보 보호 법입니다. CCPA는 캘리포니아에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p>
     <p>Adobe Campaign은 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 외에도 CPA에 대한 준비를 용이하게 합니다.</p>
     <ul>
-      <li>액세스 권한 및 삭제 권한:adobe는 GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">자세히 알아보기</a></li>
-      <li>소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다. 이를 위해 프로필 테이블을 확장하고 <strong>CCPA에 대한 옵트아웃</strong> 필드를 추가해야 합니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">자세히 알아보기</a></li></td> 
+      <li>액세스 권한 및 삭제 권한: adobe는 GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">자세히 표시</a></li>
+      <li>소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다. 이를 위해 프로필 테이블을 확장하고 <strong>CCPA에 대한 옵트아웃</strong> 필드를 추가해야 합니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">자세히 표시</a></li></td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +89,7 @@ _2019년 12월 2일_
  <tbody> 
   <tr> 
    <td> <p>이제 사전 정의된 보기를 사용하여 인스턴스에 있는 모든 워크플로우의 실행 상태를 모니터링할 수 있습니다.</p>
-   <p>자세한 내용은 <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">세부 설명서</a>를 참조하십시오.</p></td> 
+   <p>자세한 내용은 <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">세부 설명서</a>를 참조하세요.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -122,7 +119,7 @@ _2019년 12월 2일_
  </thead> 
  <tbody> 
   <tr> 
-<td> <p>보안 SMS는 이제 확장된 일반 SMPP 커넥터를 통해 지원됩니다. 이를 통해 공급자에 암호화된 연결을 허용할 수 있습니다.</p> <p><strong></strong> 경고 이 기능을 사용하려면 모든 서버에 최신 인증서가 필요합니다. 인증서가 잘못되었거나, 해지되었거나, 만료된 경우 전체 SMS 전송 기능에 영향을 주는 오류가 발생합니다.</p><p>자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html">세부 설명서</a>를 참조하십시오. </p> </td> 
+<td> <p>보안 SMS는 이제 확장된 일반 SMPP 커넥터를 통해 지원됩니다. 이를 통해 공급자에 암호화된 연결을 허용할 수 있습니다.</p> <p><strong></strong> 경고 이 기능을 사용하려면 모든 서버에 최신 인증서가 필요합니다. 인증서가 잘못되었거나, 해지되었거나, 만료된 경우 전체 SMS 전송 기능에 영향을 주는 오류가 발생합니다.</p><p>자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html">세부 설명서</a>를 참조하세요. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -135,20 +132,20 @@ _2019년 12월 2일_
 **개선 사항**
 
 * 푸시 알림에 대한 메모리 사용량 최적화.
-* 성능 및 저장 공간 최적화를 위해 **logins.log** 파일의 처리가 향상되었습니다. 이제 파일은 여러 파일로 분할되어 매일 한 개씩 최대 365개의 파일이 유지됩니다. [자세히 알아보기](../../production/using/log-files.md)
-* 이제 암호 자격 증명(암호 + 사용자 이름) 또는 인증서(개인 키)를 사용하여 Microsoft Dynamics CRM 외부 계정을 구성할 수 있습니다. [자세히 알아보기](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
+* 성능 및 저장 공간 최적화를 위해 **logins.log** 파일의 처리가 향상되었습니다. 이제 파일은 여러 파일로 분할되어 매일 한 개씩 최대 365개의 파일이 유지됩니다. [자세히 표시](../../production/using/log-files.md)
+* 이제 암호 자격 증명(암호 + 사용자 이름) 또는 인증서(개인 키)를 사용하여 Microsoft Dynamics CRM 외부 계정을 구성할 수 있습니다. [자세히 표시](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
 * 안정성을 개선하기 위해 Hadoop FDA 커넥터에 몇 가지 개선 사항이 추가되었습니다
 * 서버에 공개 리소스를 업로드하기 전에 디스크 공간을 확인하기 위해 특정 보호 기능이 추가되었습니다.
 * 새 [캠페인 옵션](../../installation/using/configuring-campaign-options.md)이 추가되었습니다.
    * **WdbcKillSessionPolicy** 구성 옵션을 사용하면 모든 워크플로우 및 PostgreSQL 데이터베이스 쿼리에 대해 **무조건적 정지** 동작에 영향을 줄 수 있습니다.
    * **NmsOperation_DeliveryPreparationWindow** 옵션을 사용하면 실행 중인 게재 수에서 불일치 상태의 게재를 제외할 일 수를 정의할 수 있습니다.
-   * **WdbcOptions_TempDbName** 옵션을 사용하면 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 백업 및 복제를 최적화합니다. [자세히 알아보기](../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)
-   * PostgreSQL에 대해 **XtkCleanup_NoStats** 옵션이 개선되어 데이터베이스 정리 워크플로우의 저장소 최적화 단계의 동작을 더 잘 제어할 수 있습니다. [자세히 알아보기](../../production/using/database-cleanup-workflow.md#statistics-update)
+   * **WdbcOptions_TempDbName** 옵션을 사용하면 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 백업 및 복제를 최적화합니다. [자세히 표시](../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)
+   * PostgreSQL에 대해 **XtkCleanup_NoStats** 옵션이 개선되어 데이터베이스 정리 워크플로우의 저장소 최적화 단계의 동작을 더 잘 제어할 수 있습니다. [자세히 표시](../../production/using/database-cleanup-workflow.md#statistics-update)
 * 계정 잠금 메커니즘이 **logon()** API에 추가되었습니다. 지정된 기간 내에서 일정 수의 연속적인 로그인 시도 실패 후 추가적인 로그인 시도를 방지합니다.
-* 게재 속성의 새로운 **최대 개인화 실행 시간** 옵션을 사용하면 개인화 단계가 너무 오랫동안 실행되지 않도록 하기 위해 개인화 실행 시간에 대한 시간 초과 기간을 정의할 수 있습니다. [자세히 알아보기](../../delivery/using/personalization-fields.md#timing-out-personalization)
-* SFTP 연결에 프록시 구성을 사용할 수 있도록 **ftp 프로토콜** 옵션이 추가되었습니다. [자세히 알아보기](../../installation/using/file-res-management.md)
+* 게재 속성의 새로운 **최대 개인화 실행 시간** 옵션을 사용하면 개인화 단계가 너무 오랫동안 실행되지 않도록 하기 위해 개인화 실행 시간에 대한 시간 초과 기간을 정의할 수 있습니다. [자세히 표시](../../delivery/using/personalization-fields.md#timing-out-personalization)
+* SFTP 연결에 프록시 구성을 사용할 수 있도록 **ftp 프로토콜** 옵션이 추가되었습니다. [자세히 표시](../../installation/using/file-res-management.md)
 * 온-프레미스 환경을 위한 SFTP 외부 서버에 대한 프록시 액세스에 대한 새로운 지원.
-* Campaign 인스턴스와 호환되지 않는 패키지를 설치하지 않도록 특정 보호 기능이 추가되었습니다. [자세히 알아보기](../../installation/using/installing-campaign-standard-packages.md)
+* Campaign 인스턴스와 호환되지 않는 패키지를 설치하지 않도록 특정 보호 기능이 추가되었습니다. [자세히 표시](../../installation/using/installing-campaign-standard-packages.md)
 
 _사용되지 않는 시스템_
 
@@ -156,7 +153,7 @@ _사용되지 않는 시스템_
 * Apache 2.2
 * Centos 6
 
-최신 Campaign 호환성 매트릭스에 나열된 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
+최신 Campaign 호환성 매트릭스에 나열된 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오. [자세히 표시](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
 _Campaign Mobile SDK_
 
