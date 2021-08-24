@@ -5,9 +5,9 @@ description: 파이프라인 구성 방법 알아보기
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
+source-git-commit: b6aa797133e6f916bf085794aeb99d61a8f7bc40
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 1%
 고객 ID, 개인 키 및 인증 끝점과 같은 인증 매개 변수는 인스턴스 구성 파일에 구성됩니다.
 처리할 트리거 목록은 JSON 형식의 옵션으로 구성됩니다.
 트리거는 이메일을 보내는 캠페인 워크플로우에서 타겟팅하는 데 사용됩니다. 이 캠페인은 트리거 이벤트가 모두 있는 고객이 이메일을 수신하도록 설정되어 있습니다.
-
->[!CAUTION]
->
->하이브리드 배포의 경우 파이프라인이 mid 인스턴스에 구성되어 있는지 확인하십시오.
 
 ## 필수 구성 요소 {#prerequisites}
 
