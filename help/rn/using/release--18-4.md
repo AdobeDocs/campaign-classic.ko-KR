@@ -2,11 +2,8 @@
 product: campaign
 title: Campaign 18.4 릴리스 노트
 description: Campaign 18.4 릴리스 노트
-feature: null
-role: null
-level: null
 exl-id: bbad81ba-a09f-4d67-9309-628ea7a08c9b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 2a92cfc705e27332cfdf8c7357a6a03c84dc6c9f
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 7%
@@ -57,7 +54,7 @@ ht-degree: 7%
 * XML에 저장된 데이터를 **[!UICONTROL Survey answers]** 워크플로우 활동에서 사용할 때 발생하는 문제를 해결했습니다. (NEO-10816)
 * 빌드 8935로 서버 업그레이드를 수행할 때 발생하는 문제를 해결했습니다.
 * **[!UICONTROL Survey answers]** 워크플로우 활동이 완전히 구성되지 않은 경우 업그레이드 후 로그에 불필요한 오류가 표시되는 문제를 해결했습니다.
-* FDA Teradata:SQL 테이블의 자동 증분 필드 및 색인 문제를 해결했습니다.
+* FDA Teradata: SQL 테이블의 자동 증분 필드 및 색인 문제를 해결했습니다.
 
 ## 릴리스 18.4.3 - 빌드 8935{#release-18-4-3-build-8935}
 
@@ -102,17 +99,17 @@ ht-degree: 7%
    <td> 유럽 연합 개인 정보 보호 규정(GDPR)<br /> </td> 
    <td> <p>GDPR은 2018년 5월 25일부터 시행된 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 새로운 개인 정보 보호법입니다. GDPR은 유럽 연합에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p> <p>Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보존 설정 및 사용자 역할 포함) 외에도 Adobe는 데이터 프로세서로서의 Adobe의 역할을 통해 특정 GDPR 요청에 대해 데이터 컨트롤러로서의 준비를 용이하게 하기 위해 추가 기능을 포함하고 있습니다.</p> 
     <ul> 
-     <li> <p>액세스 권한:데이터 주체는 데이터 통제자가 캡처한 개인 데이터의 사본을 받을 수 있도록 하며, 여기에는 Adobe Campaign에 저장된 데이터가 포함될 수 있습니다.</p> </li> 
-     <li> <p>삭제 권한:데이터 주체는 데이터 통제자가 캡처한 개인 데이터를 삭제하여 잠재적으로 Adobe Campaign에 저장된 데이터를 포함할 수 있습니다.</p> </li> 
-    </ul> 자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html">세부 설명서</a>를 참조하십시오.<br /> </td> 
+     <li> <p>액세스 권한: 데이터 주체는 데이터 통제자가 캡처한 개인 데이터의 사본을 받을 수 있도록 하며, 여기에는 Adobe Campaign에 저장된 데이터가 포함될 수 있습니다.</p> </li> 
+     <li> <p>삭제 권한: 데이터 주체는 데이터 통제자가 캡처한 개인 데이터를 삭제하여 잠재적으로 Adobe Campaign에 저장된 데이터를 포함할 수 있습니다.</p> </li> 
+    </ul> 자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 활성 프로필<br /> </td> 
-   <td> <p>이제 Adobe Campaign은 전용 워크플로우를 통해 매월 업데이트되는 활성 프로필 목록을 제공합니다.</p> <p>자세한 내용은 <a href="../../platform/using/about-profiles.md#active-profiles">세부 설명서</a>를 참조하십시오.</p> </td> 
+   <td> <p>이제 Adobe Campaign은 전용 워크플로우를 통해 매월 업데이트되는 활성 프로필 목록을 제공합니다.</p> <p>자세한 내용은 <a href="../../platform/using/about-profiles.md#active-profiles">세부 설명서</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td> Android 푸시 커넥터 향상<br /> </td> 
-   <td> <p>Android 커넥터가 향상된 처리량을 지원합니다. </p> <p>자세한 내용은 <a href="../../delivery/using/configuring-the-mobile-application.md">세부 설명서</a>를 참조하십시오.</p> </td> 
+   <td> <p>Android 커넥터가 향상된 처리량을 지원합니다. </p> <p>자세한 내용은 <a href="../../delivery/using/configuring-the-mobile-application.md">세부 설명서</a>를 참조하세요.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,23 +123,23 @@ ht-degree: 7%
 
 **개선 사항**
 
-* **LINE 채널 - 아키텍처 향상**:Adobe Campaign의 다른 모든 채널과 마찬가지로, 이제 모든 배포 유형에서 LINE 채널이 지원됩니다.호스팅, 하이브리드 및 온-프레미스.
-* **시퀀스 자동 생성**:대량의 개체가 있는 Campaign 인스턴스의 수명을 늘리기 위해 ID 생성 메커니즘이 개선되었습니다. 자세한 내용은 이 [기술 정보](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html)를 참조하십시오.
+* **LINE 채널 - 아키텍처 향상**: Adobe Campaign의 다른 모든 채널과 마찬가지로, 이제 모든 배포 유형에서 LINE 채널이 지원됩니다. 호스팅, 하이브리드 및 온-프레미스.
+* **시퀀스 자동 생성**: 대량의 개체가 있는 Campaign 인스턴스의 수명을 늘리기 위해 ID 생성 메커니즘이 개선되었습니다. 자세한 내용은 이 [기술 정보](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html)를 참조하십시오.
 
 **기타 변경 사항**
 
 * 명령줄을 사용하여 패키지를 가져올 때 새 모드를 사용할 수 있으므로 순환 종속성이 가능합니다(큰 패키지에는 권장되지 않음). 자세한 내용은 &#39;기술 진화&#39; 섹션을 참조하십시오. (NEO-8979)
 * teradata에서 많은 양의 데이터 로드를 위한 성능이 개선되고 로그에서 처리된 데이터의 올바른 값이 표시되지 않는 문제가 해결되었습니다. (NEO-10429)
 * 이제 Audience Manager에서 대상을 가져오는 작업이 분할 파일에서 작동합니다. 이전에는 importSharedAudience 기술 워크플로우에서 세그먼트의 마지막 파일만 가져왔습니다. (NEO-10156)
-* Windows에서 Campaign 서버의 기본 설치 경로가 변경되었습니다. 64비트 버전 설정을 시작할 때 기본 설치 경로는 다음과 같습니다.**C:\Program Files\Adobe\Adobe Campaign Classic v7** 대신 C:\Program Files (x86)\Adobe\Adobe Campaign Classic v7 ****
+* Windows에서 Campaign 서버의 기본 설치 경로가 변경되었습니다. 64비트 버전 설정을 시작할 때 기본 설치 경로는 다음과 같습니다. **C:\Program Files\Adobe\Adobe Campaign Classic v7** 대신 C:\Program Files (x86)\Adobe\Adobe Campaign Classic v7 ****
 * 더 많은 도메인을 포함하고 처리량을 최적화하도록 기본 MX 규칙이 향상되었습니다.
 * 배포 마법사 SOAP 호출에 대한 액세스 제한 적용(xtk:serverOptions#SaveOptions).
 * weka.jar 오래된 라이브러리가 제거되고 보안 최적화를 위해 OpenSSL 라이브러리가 업데이트되었습니다.
 * 인스턴스 성능을 보호하기 위해 청구 기술 워크플로우가 개선되었습니다.
-* 관리자가 모든 연산자의 암호를 설정하거나 재설정할 수 있는 기능이 복원되었습니다. 이렇게 하려면 연산자를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]** > **[!UICONTROL Reset password]** 을 선택하고 연산자의 새 암호를 설정합니다. 운영자가 처음 다시 연결할 때 암호를 변경하는 것이 좋습니다. 자세한 내용은 [세부 설명서](../../production/using/lost-password.md)를 참조하십시오.
-* Adobe Target의 새로운 멀티 테넌트 기능을 지원하기 위해 이제 Target과 통합을 위한 옵션 및 외부 계정을 구성할 때 새로운 &quot;at_property&quot; 매개 변수를 URL에 추가할 수 있습니다. 이 매개 변수에 사용할 값은 Adobe Target에서 찾을 수 있으며, Target 호출을 수행할 때 Campaign에서 사용합니다. 자세한 내용은 [세부 설명서](../../integrations/using/inserting-a-dynamic-image.md)를 참조하십시오.
-* 이제 Adobe Target에서 제공하는 이미지를 클릭하면 열 기본 랜딩 페이지를 지정할 수 있습니다. 이전에는 해당 이미지를 클릭하면 대신 이메일을 만들 때 기본 이미지 세트가 표시되었습니다. 자세한 내용은 [세부 설명서](../../integrations/using/inserting-a-dynamic-image.md)를 참조하십시오.
-* 추적 출력을 강제 적용하기 위해 외부 계정에 **SMPP 추적 활성화** 확인란이 추가되었습니다. 자세한 내용은 [세부 설명서](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
+* 관리자가 모든 연산자의 암호를 설정하거나 재설정할 수 있는 기능이 복원되었습니다. 이렇게 하려면 연산자를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]** > **[!UICONTROL Reset password]** 을 선택하고 연산자의 새 암호를 설정합니다. 운영자가 처음 다시 연결할 때 암호를 변경하는 것이 좋습니다. 자세한 내용은 [세부 설명서](../../production/using/lost-password.md)를 참조하세요.
+* Adobe Target의 새로운 멀티 테넌트 기능을 지원하기 위해 이제 Target과 통합을 위한 옵션 및 외부 계정을 구성할 때 새로운 &quot;at_property&quot; 매개 변수를 URL에 추가할 수 있습니다. 이 매개 변수에 사용할 값은 Adobe Target에서 찾을 수 있으며, Target 호출을 수행할 때 Campaign에서 사용합니다. 자세한 내용은 [세부 설명서](../../integrations/using/inserting-a-dynamic-image.md)를 참조하세요.
+* 이제 Adobe Target에서 제공하는 이미지를 클릭하면 열 기본 랜딩 페이지를 지정할 수 있습니다. 이전에는 해당 이미지를 클릭하면 대신 이메일을 만들 때 기본 이미지 세트가 표시되었습니다. 자세한 내용은 [세부 설명서](../../integrations/using/inserting-a-dynamic-image.md)를 참조하세요.
+* 추적 출력을 강제 적용하기 위해 외부 계정에 **SMPP 추적 활성화** 확인란이 추가되었습니다. 자세한 내용은 [세부 설명서](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)를 참조하세요.
 
 **기술 진화**
 
