@@ -6,18 +6,14 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
-source-git-commit: 46c8807a433d87a091a06fe60cf684919fddb5c6
+source-git-commit: d399c4800fe6c5b128a6ccb5fec15262cbef5ee8
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 6%
+source-wordcount: '219'
+ht-degree: 7%
 
 ---
 
 # 공유 자산 삽입{#inserting-a-shared-asset}
-
->[!CAUTION]
->
-> 이제 Experience Cloud 자산이 폐기되었습니다. 새로운 구현을 위해 더 이상 Experience Cloud 자산을 Adobe Campaign Classic과 통합할 수 없습니다.
 
 Adobe Experience Cloud에서 공유한 자산은 다음과 같이 이메일 및 랜딩 페이지에서 사용할 수 있습니다.
 
