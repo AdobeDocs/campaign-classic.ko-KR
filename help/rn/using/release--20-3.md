@@ -2,18 +2,20 @@
 product: campaign
 title: Campaign 20.3 릴리스 노트
 description: Campaign 20.3 릴리스 노트
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
-source-git-commit: 550c4afc5cc77867b56d17565bef3f18b1df12a2
+source-git-commit: 01f91abe127629e2d3d0889172969f2f4ba09f46
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 96%
+source-wordcount: '2006'
+ht-degree: 95%
 
 ---
 
 # 릴리스 20.3{#release-20-3}
+
+![](../../assets/v7-only.svg)
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 20.3.3 - 빌드 9234 {#release-20-3-3-build-9234}
 
@@ -28,7 +30,7 @@ _2020년 10월 27일_
 
 >[!CAUTION]
 >
-> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다. [자세히 알아보기](../../technotes/ims-updates.md)
+> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다. [자세히 알아보기](../../technotes/using/ims-updates.md)
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
 > * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign [이(가) 있는 기존 oAuth 인증 모드가 2021년 8월 18일에 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)중단되었습니다. **** 호스팅된 환경은 **2021년 11월 30일까지 확장의 혜택을 받습니다**. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2021년 11월 30일까지 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
 
@@ -167,3 +169,4 @@ linux의 경우 _apache_neolane.conf_&#x200B;가 이제 `conf` 디렉터리에 �
 * 워크플로우에서 **분할** 작업 중 나머지 부분의 타겟 데이터를 표시할 때 서버가 충돌하는 문제를 해결했습니다.
 * 식 구문 분석기를 지울 때 메모리 손상을 방지하여 서버 충돌 문제를 해결했습니다. (NEO-26856)
 * 관리자가 아닌 사용자가 인스턴스 변수를 정의했던 데이터 연계 강화 작업의 문제를 해결했습니다. (NEO-25653)
+* FDA 데이터베이스로 워크플로우 데이터 내보내기를 차단할 수 있는 회귀 문제를 해결했습니다(적응형, Snowflake).
