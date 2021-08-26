@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-source-git-commit: eb630b29dba8cc34046e2f14e9ed6ba8c017ea5d
+source-git-commit: 7bcd80a9b89982542ae6944ae0c96c02d83cd198
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 >이러한 통합은 동시에 수행됩니다. 구성을 수행하기 전에 다음 정보를 자세히 읽어보십시오.
 
 * **Experience Cloud 자산**&#x200B;과 통합: 이 통합을 통해 Adobe Experience Cloud 라이브러리의 이미지를 삽입할 수 있습니다. 이 통합은 Adobe Campaign에 **[!UICONTROL Integration with the Adobe Experience Cloud]** 기본 제공 패키지를 설치하여 설정해야 합니다.
-* **AEM Assets**&#x200B;과 통합: 이 통합을 통해 Adobe Experience Manager Assets 라이브러리의 이미지를 삽입할 수 있습니다. 이 통합은 Adobe Campaign에 **[!UICONTROL AEM Integration]** 기본 제공 패키지를 설치하여 설정해야 합니다. 이 통합은 Adobe Experience Manager 6.5에서 더 이상 사용할 수 없습니다.
+* **AEM Assets**&#x200B;과 통합: 이 통합을 통해 Adobe Experience Manager Assets 라이브러리의 이미지를 삽입할 수 있습니다. 이 통합은 Adobe Campaign에 **[!UICONTROL AEM Integration]** 기본 제공 패키지를 설치하여 설정해야 합니다. 이 통합은 Adobe Experience Manager 6.4부터 더 이상 사용할 수 없습니다.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Adobe Campaign과 Adobe Experience Cloud 간에 연결을 활성화하려면 IMS
 
 >[!CAUTION]
 >
->이 기능은 Adobe Experience Manager 6.5부터 해제되었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/deprecated-removed-features.html?lang=en#removed-features)
+>이 기능은 Adobe Experience Manager 6.4부터 해제되었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=en#removed-features)
 
 AEM Assets을 Adobe Campaign과 통합하려면 먼저 Adobe Experience Manager과 Adobe Campaign 간의 통합을 구성해야 합니다. 이 구성에는 주로 다음이 필요합니다.
 
@@ -71,4 +71,4 @@ AEM Assets을 Adobe Campaign과 통합하려면 먼저 Adobe Experience Manager�
 
 >[!NOTE]
 >
->**[!UICONTROL Integration with the Adobe Experience Cloud]** 패키지가 Adobe Campaign 인스턴스에도 설치되어 있으면 Adobe Experience Cloud 라이브러리에서 사용할 수 있는 자산만 사용할 수 있습니다. AEM Assets 라이브러리의 자산에도 액세스하려면 AEM Assets과 Adobe Experience Cloud을 동기화해야 합니다. 그러면 AEM Assets의 자산을 Adobe Experience Cloud 라이브러리에서도 사용할 수 있습니다. 이 경우 특정 게재 템플릿을 만들 필요가 없습니다. AEM Assets과 Adobe Experience Cloud 간의 동기화에 대한 자세한 내용은 [상세 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/configure-assets-cc-integration.html#integration) 를 참조하십시오.
+>**[!UICONTROL Integration with the Adobe Experience Cloud]** 패키지가 Adobe Campaign 인스턴스에도 설치되어 있으면 Adobe Experience Cloud 라이브러리에서 사용할 수 있는 자산만 사용할 수 있습니다. AEM Assets 라이브러리의 자산에도 액세스하려면 AEM Assets과 Adobe Experience Cloud을 동기화해야 합니다. 그러면 AEM Assets의 자산을 Adobe Experience Cloud 라이브러리에서도 사용할 수 있습니다. 이 경우 특정 게재 템플릿을 만들 필요가 없습니다.
