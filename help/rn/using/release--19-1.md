@@ -3,7 +3,7 @@ product: campaign
 title: Campaign 19.1 릴리스 노트
 description: Campaign 19.1 릴리스 노트
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
-source-git-commit: 01f91abe127629e2d3d0889172969f2f4ba09f46
+source-git-commit: d5585f0130611db399811536e80e76b61c998b9c
 workflow-type: tm+mt
 source-wordcount: '3308'
 ht-degree: 25%
@@ -19,7 +19,7 @@ ht-degree: 25%
 _2021년 4월 15일_
 
 * IMS 연결 화면에서 지속적인 오류 메시지를 발생시킨 클라이언트 콘솔 회귀 문제를 수정했습니다. (NEO-34821)
-* FDA 데이터베이스로 워크플로우 데이터 내보내기를 차단할 수 있는 회귀 문제를 해결했습니다(적응형, Snowflake).
+* FDA 데이터베이스(Teradata, Snowflake)으로 워크플로우 데이터 내보내기를 차단할 수 있는 회귀 문제를 해결했습니다.
 
 **콘솔 업그레이드는 필수 사항입니다. 서버를 업그레이드할 필요가 없습니다.**
 

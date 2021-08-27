@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
-source-git-commit: 01f91abe127629e2d3d0889172969f2f4ba09f46
+source-git-commit: d5585f0130611db399811536e80e76b61c998b9c
 workflow-type: tm+mt
 source-wordcount: '2006'
 ht-degree: 95%
@@ -169,4 +169,4 @@ linux의 경우 _apache_neolane.conf_&#x200B;가 이제 `conf` 디렉터리에 �
 * 워크플로우에서 **분할** 작업 중 나머지 부분의 타겟 데이터를 표시할 때 서버가 충돌하는 문제를 해결했습니다.
 * 식 구문 분석기를 지울 때 메모리 손상을 방지하여 서버 충돌 문제를 해결했습니다. (NEO-26856)
 * 관리자가 아닌 사용자가 인스턴스 변수를 정의했던 데이터 연계 강화 작업의 문제를 해결했습니다. (NEO-25653)
-* FDA 데이터베이스로 워크플로우 데이터 내보내기를 차단할 수 있는 회귀 문제를 해결했습니다(적응형, Snowflake).
+* FDA 데이터베이스(Teradata, Snowflake)으로 워크플로우 데이터 내보내기를 차단할 수 있는 회귀 문제를 해결했습니다.
