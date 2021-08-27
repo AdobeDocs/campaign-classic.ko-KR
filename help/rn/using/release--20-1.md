@@ -2,18 +2,20 @@
 product: campaign
 title: 릴리스 20.1
 description: 릴리스 20.1
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 20%
+source-wordcount: '1559'
+ht-degree: 19%
 
 ---
 
 # 릴리스 20.1{#release-20-1}
+
+![](../../assets/v7-only.svg)
 
 ## ![](assets/do-not-localize/limited_2.png) 릴리스 20.1.4 - 빌드 9126 {#release-20-1-4-build-9126}
 
@@ -25,7 +27,7 @@ _2021년 4월 15일_
 
 >[!NOTE]
 >
-> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하여 새 버전을 다운로드합니다. [이 페이지에서](../../installation/using/client-console-availability-for-windows.md) 모든 최종 사용자에게 콘솔 업데이트를 제안하는 방법을 알아봅니다.
+> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에 연결하여 새 버전을 다운로드합니다. [이 페이지에서](../../installation/using/client-console-availability-for-windows.md) 모든 최종 사용자에게 콘솔 업데이트를 제안하는 방법을 알아봅니다.
 
 _2021년 3월 22일_
 
@@ -41,10 +43,9 @@ _2020년 12월 23일_
 
 >[!CAUTION]
 >
-> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다. [자세히 알아보기](../../technotes/ims-updates.md)
-   >
-   > 
-* 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
+> * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다. [자세히 알아보기](../../technotes/using/ims-updates.md)
+>
+> * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
 
 
 * 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
@@ -92,7 +93,7 @@ _2020년 2월 17일_
  <tbody> 
   <tr> 
    <td> <p>Cloudera와 Hadoop 3.0을 지원하도록 Hadoop FDA 커넥터가 개선되었습니다.</p>
-    <p>자세한 내용은 <a href="../../installation/using/configure-fda-hadoop.md">세부 설명서</a>를 참조하십시오.</p>
+    <p>자세한 내용은 <a href="../../installation/using/configure-fda-hadoop.md">세부 설명서</a>를 참조하세요.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -116,21 +117,21 @@ _2020년 2월 17일_
 
 * 이제 iOS 13이 HTTP2 커넥터에서 지원됩니다.
 
-* 푸시 알림 기능에 사용되는 테이블의 격리 관리 및 정리를 개선했습니다(nms:address 및 nms:appSubscriptionRcp). iOS(HTTP2 커넥터만 해당)의 경우 이제 비활성화된 토큰이 Android와 동일한 방식으로 처리됩니다. 이제 비활성화 플래그가 NmsAppSubscriptionRcp 테이블에 설정됩니다. [자세한 내용](../../production/using/database-cleanup-workflow.md#subscription-cleanup--nmac-)
+* 푸시 알림 기능에 사용되는 테이블의 격리 관리 및 정리를 개선했습니다(nms:address 및 nms:appSubscriptionRcp). iOS(HTTP2 커넥터만 해당)의 경우 이제 비활성화된 토큰이 Android와 동일한 방식으로 처리됩니다. 이제 비활성화 플래그가 NmsAppSubscriptionRcp 테이블에 설정됩니다. [자세히 표시](../../production/using/database-cleanup-workflow.md#subscription-cleanup--nmac-)
 
-* 시간 초과 기간을 정의하는 새 옵션이 **JavaScript 코드** 및 **고급 JavaScript 코드** 워크플로우 활동에 추가되었습니다. 따라서 Javascript 실행 단계가 너무 오랫동안 실행되지 않습니다. 시간 초과 기간이 경과하면 워크플로우가 중지됩니다. 기본 시간 제한은 1시간입니다. [자세한 내용](../../workflow/using/sql-code-and-javascript-code.md)
+* 시간 초과 기간을 정의하는 새 옵션이 **JavaScript 코드** 및 **고급 JavaScript 코드** 워크플로우 활동에 추가되었습니다. 따라서 Javascript 실행 단계가 너무 오랫동안 실행되지 않습니다. 시간 초과 기간이 경과하면 워크플로우가 중지됩니다. 기본 시간 제한은 1시간입니다. [자세히 표시](../../workflow/using/sql-code-and-javascript-code.md)
 
 * 이제 중간 소싱 서버에서 일치하는 친화성을 찾을 수 없고 해당 오류 메시지가 표시되면 게재 분석이 중지됩니다.
 
 * 이제 Postgres에 대한 데이터베이스 페일오버가 지원됩니다. 이제 데이터베이스 서버가 충돌하고 다시 시작하면 Campaign이 자동으로 다시 연결됩니다.
 
-* **보류 중 시작** 보기가 관리 > 감사 > 워크플로우 상태 노드에 추가되었습니다. 이를 통해 **operationMgt** 프로세스에 의해 시작되기를 기다리는 인스턴스의 모든 워크플로우를 모니터링할 수 있습니다. 이 보기는 마케팅 캠페인 패키지와 함께 제공됩니다. [자세한 내용](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+* **보류 중 시작** 보기가 관리 > 감사 > 워크플로우 상태 노드에 추가되었습니다. 이를 통해 **operationMgt** 프로세스에 의해 시작되기를 기다리는 인스턴스의 모든 워크플로우를 모니터링할 수 있습니다. 이 보기는 마케팅 캠페인 패키지와 함께 제공됩니다. [자세히 표시](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
 **기타 변경 사항**
 
 * Linux에서 nlserver 서비스 시작은 이제 /etc/init.d/nlserver6 스크립트 대신 시스템 단위를 사용합니다. 새 시작 구성표로 마이그레이션은 20.1 패키지를 설치할 때 자동으로 수행됩니다. /etc/init.d/nlserver6는 여전히 제공되지만 nlserver 서비스(시작, 다시 시작, 중지 등)와 상호 작용하기 위해 systemctl 명령을 직접 사용하는 것이 좋습니다.
 
-* 가장 많이 사용하는 사용자 지정 테이블이 **xtkNewId** 시퀀스에서 전용 시퀀스로 이동되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* 가장 많이 사용하는 사용자 지정 테이블이 **xtkNewId** 시퀀스에서 전용 시퀀스로 이동되었습니다. [자세히 표시](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 
 * 불필요한 데이터베이스 연결의 영향을 받을 수 있는 쿼리 성능이 개선되었습니다.
 
@@ -140,7 +141,7 @@ _2020년 2월 17일_
 
 * 연결 풀의 견고성이 개선되어 예기치 않은 연결 오류가 너무 자주 발생하는 것을 방지할 수 있습니다.
 
-* 소프트 오류가 발생한 경우 격리할 주소를 보내기 위한 이메일 주소 유효성 검사 규칙이 개선되었습니다. [자세한 내용](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
+* 소프트 오류가 발생한 경우 격리할 주소를 보내기 위한 이메일 주소 유효성 검사 규칙이 개선되었습니다. [자세히 표시](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
 * Debian의 경우, 이제 Campaign은 시스템 PCRE 라이브러리를 사용할 수 있을 때 사용합니다.
 

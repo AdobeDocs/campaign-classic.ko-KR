@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2910'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 데이터베이스 정리 워크플로우{#database-cleanup-workflow}
+
+![](../../assets/v7-only.svg)
 
 ## 소개 {#introduction}
 
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 ## 구성 {#configuration}
 
-데이터베이스 정리는 두 가지 수준에서 구성됩니다.워크플로우 스케줄러와 배포 마법사에서 을 선택합니다.
+데이터베이스 정리는 두 가지 수준에서 구성됩니다. 워크플로우 스케줄러와 배포 마법사에서 을 선택합니다.
 
 ### 워크플로우 스케줄러 {#the-scheduler}
 
@@ -52,30 +54,30 @@ ht-degree: 0%
 
 **[!UICONTROL Purge of data]** 창의 필드는 다음 옵션과 일치합니다. 이러한 작업은 **[!UICONTROL Database cleanup]** 워크플로우에서 실행되는 일부 작업에 사용됩니다.
 
-* 통합 추적:**NmsCleanup_TrackingStatPurgeDelay**(추적 로그 정리](#cleanup-of-tracking-logs) 참조)[
-* 게재 로그:**NmsCleanup_BroadLogPurgeDelay**([게재 로그 정리](#cleanup-of-delivery-logs) 참조)
-* 추적 로그:**NmsCleanup_TrackingLogPurgeDelay**(추적 로그 정리](#cleanup-of-tracking-logs) 참조)[
-* 삭제된 게재:**NmsCleanup_RecypiedDeliveryPurgeDelay** ([삭제되거나 재생되는 게재 정리](#cleanup-of-deliveries-to-be-deleted-or-recycled) 참조)
-* 가져오기 거부:**NmsCleanup_RejectsPurgeDelay**(가져오기](#cleanup-of-rejects-generated-by-imports-)로 생성된 거부의 정리 참조)[
-* 방문자 프로필:**NmsCleanup_VisitorPurgeDelay**([방문자 정리](#cleanup-of-visitors) 참조)
-* 오퍼 제안:**NmsCleanup_PropositionPurgeDelay**([proposition 정리](#cleanup-of-propositions) 참조)
+* 통합 추적: **NmsCleanup_TrackingStatPurgeDelay**(추적 로그 정리](#cleanup-of-tracking-logs) 참조)[
+* 게재 로그: **NmsCleanup_BroadLogPurgeDelay**([게재 로그 정리](#cleanup-of-delivery-logs) 참조)
+* 추적 로그: **NmsCleanup_TrackingLogPurgeDelay**(추적 로그 정리](#cleanup-of-tracking-logs) 참조)[
+* 삭제된 게재: **NmsCleanup_RecypiedDeliveryPurgeDelay** ([삭제되거나 재생되는 게재 정리](#cleanup-of-deliveries-to-be-deleted-or-recycled) 참조)
+* 가져오기 거부: **NmsCleanup_RejectsPurgeDelay**(가져오기](#cleanup-of-rejects-generated-by-imports-)로 생성된 거부의 정리 참조)[
+* 방문자 프로필: **NmsCleanup_VisitorPurgeDelay**([방문자 정리](#cleanup-of-visitors) 참조)
+* 오퍼 제안: **NmsCleanup_PropositionPurgeDelay**([proposition 정리](#cleanup-of-propositions) 참조)
 
    >[!NOTE]
    >
    >**[!UICONTROL Offer propositions]** 필드는 **Interaction** 모듈이 설치된 경우에만 사용할 수 있습니다.
 
-* 이벤트:**NmsCleanup_EventPurgeDelay**([만료된 이벤트 정리](#cleansing-expired-events) 참조)
-* 보관된 이벤트:**NmsCleanup_EventHistoPurgeDelay**([만료된 이벤트 정리](#cleansing-expired-events) 참조)
+* 이벤트: **NmsCleanup_EventPurgeDelay**([만료된 이벤트 정리](#cleansing-expired-events) 참조)
+* 보관된 이벤트: **NmsCleanup_EventHistoPurgeDelay**([만료된 이벤트 정리](#cleansing-expired-events) 참조)
 
    >[!NOTE]
    >
    >**[!UICONTROL Events]** 및 **[!UICONTROL Archived events]** 필드는 **메시지 센터** 모듈이 설치된 경우에만 사용할 수 있습니다.
 
-* 감사 추적:**XtkCleanup_AuditTrailPurgeDelay** ([감사 추적 정리](#cleanup-of-audit-trail) 참조)
+* 감사 추적: **XtkCleanup_AuditTrailPurgeDelay** ([감사 추적 정리](#cleanup-of-audit-trail) 참조)
 
 **[!UICONTROL Database cleanup]** 워크플로우에서 실행되는 모든 작업은 다음 섹션에 설명되어 있습니다.
 
-## 데이터베이스 정리 워크플로우에서 수행하는 작업 {#tasks-carried-out-by-the-database-cleanup-workflow}
+## 데이터베이스 정리 워크플로우에서 수행한 작업 {#tasks-carried-out-by-the-database-cleanup-workflow}
 
 워크플로우 스케줄러에 정의된 날짜 및 시간( [스케줄러](#the-scheduler) 참조)에서 워크플로우 엔진은 데이터베이스 정리 프로세스를 시작합니다. 데이터베이스 정리 는 데이터베이스에 연결되고 아래 표시된 순서대로 작업을 실행합니다.
 
@@ -88,7 +90,7 @@ ht-degree: 0%
 >
 >데이터베이스 정리 워크플로우에서 수행하는 작업을 설명하는 아래 섹션은 데이터베이스 관리자 또는 SQL 언어에 익숙한 사용자를 위해 예약되어 있습니다.
 
-### 정리 {#lists-to-delete-cleanup}을(를) 삭제할 목록
+### 정리 삭제 목록 {#lists-to-delete-cleanup}
 
 **[!UICONTROL Database cleanup]** 워크플로우에서 실행하는 첫 번째 작업은 **deleteStatus 가 있는 모든 그룹을 삭제합니다!=** NmsGroup **의 0** 속성. 이러한 그룹에 연결된 레코드와 다른 테이블에 있는 레코드도 삭제됩니다.
 
@@ -120,7 +122,7 @@ ht-degree: 0%
 
    여기서 **$(l)**&#x200B;은 목록 식별자입니다
 
-### 삭제하거나 재활용할 게재 정리 {#cleanup-of-deliveries-to-be-deleted-or-recycled}
+### 삭제 또는 재활용할 게재 정리 {#cleanup-of-deliveries-to-be-deleted-or-recycled}
 
 이 작업은 삭제하거나 재활용할 모든 게재를 삭제합니다.
 
@@ -170,7 +172,7 @@ ht-degree: 0%
 
    여기서 **$(l)**&#x200B;은(는) 게재의 식별자입니다.
 
-#### 중간 소싱 {#deliveries-using-mid-sourcing}을 사용한 게재
+#### 중간 소싱을 사용한 게재 {#deliveries-using-mid-sourcing}
 
 **[!UICONTROL Database cleanup]** 워크플로우는 중간 소싱 서버에서도 게재를 삭제합니다.
 
@@ -297,7 +299,7 @@ ht-degree: 0%
    DROP TABLE wkDlv_15487_1;
    ```
 
-### {#cleanup-of-rejects-generated-by-imports-} 가져오기로 생성된 거부의 정리
+### 가져오기로 생성된 거부의 정리 {#cleanup-of-rejects-generated-by-imports-}
 
 이 단계를 사용하면 가져오는 동안 모든 데이터가 처리되지 않은 레코드를 삭제할 수 있습니다.
 
@@ -402,7 +404,7 @@ DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WH
 
 여기서 **$(tsDate)**&#x200B;은(는) 현재 서버 날짜로서, **NmsCleanup_VisitorPurgeDelay** 옵션에 대해 정의된 기간을 뺀 날짜입니다.
 
-### NAPI {#cleanup-of-npai} 정리
+### NAPI 정리 {#cleanup-of-npai}
 
 이 작업을 사용하면 **NmsAddress** 테이블에서 유효한 주소와 일치하는 레코드를 삭제할 수 있습니다. 다음 질의는 대량 삭제를 수행하는 데 사용됩니다.
 
@@ -473,12 +475,12 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
    여기서 **$(옵션)**&#x200B;은 **NmsCleanup_BroadLogPurgeDelay** 옵션에 대해 정의된 날짜와 일치합니다([배포 마법사](#deployment-wizard) 참조).
 
-### NmsEmailErrorStat 테이블 {#cleanup-of-the-nmsemailerrorstat-table-} 정리
+### NmsEmailErrorStat 테이블 정리 {#cleanup-of-the-nmsemailerrorstat-table-}
 
 이 작업은 **NmsEmailErrorStat** 테이블을 정리합니다. 기본 프로그램(**coalesceErrors**)은 두 개의 날짜를 정의합니다.
 
-* **시작 날짜**:NmsLastErrorStatCoalesceoption 또는 테이블의  **** 가장 최근 날짜와 일치하는 다음 프로세스의 날짜입니다.
-* **종료 날짜**:현재 서버 날짜
+* **시작 날짜**: NmsLastErrorStatCoalesceoption 또는 테이블의  **** 가장 최근 날짜와 일치하는 다음 프로세스의 날짜입니다.
+* **종료 날짜**: 현재 서버 날짜
 
 시작 날짜가 종료 날짜보다 크거나 같은 경우 프로세스가 발생하지 않습니다. 이 경우 **coalesceUpToDate** 메시지가 나타납니다.
 
@@ -521,7 +523,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
 정리 작업은 **NmsEmailError** 및 **cleanupNmsMxDomain** 테이블에서 실행됩니다.
 
-### NmsEmailError 테이블 {#cleanup-of-the-nmsemailerror-table-} 정리
+### NmsEmailError 테이블 정리 {#cleanup-of-the-nmsemailerror-table-}
 
 다음 쿼리가 사용됩니다.
 
@@ -531,7 +533,7 @@ DELETE FROM NmsEmailError WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmai
 
 이 쿼리는 **NmsEmailError** 테이블의 **NmsEmailErrorStat**&#x200B;에 연결된 레코드가 없는 모든 행을 삭제합니다.
 
-### NmsMxDomain 테이블 {#cleanup-of-the-nmsmxdomain-table-} 정리
+### NmsMxDomain 테이블 정리 {#cleanup-of-the-nmsmxdomain-table-}
 
 다음 쿼리가 사용됩니다.
 
@@ -539,9 +541,9 @@ DELETE FROM NmsEmailError WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmai
 DELETE FROM NmsMxDomain WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailErrorStat)
 ```
 
-이 쿼리는 **NmsMxDomain** 테이블의 **NmsEmailErrorStat** 테이블에 연결된 레코드 없이 모든 줄을 삭제합니다.
+이 쿼리는 **NmsMxDomain** 테이블의 **NmsEmailErrorStat** 테이블에 연결된 레코드 없이 모든 행을 삭제합니다.
 
-### 프로필 정리 {#cleanup-of-propositions}
+### 제안 정리 {#cleanup-of-propositions}
 
 **Interaction** 모듈이 설치된 경우 이 작업이 실행되어 **NmsProgendationXxx** 테이블을 삭제합니다.
 
@@ -563,7 +565,7 @@ DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FRO
    SELECT iSimulationId FROM NmsSimulation WHERE iSimulationId<>0
    ```
 
-1. 삭제할 테이블의 이름은 **wkSimu_** 접두사 뒤에 시뮬레이션의 식별자가 옵니다(예:**wkSimu_456831_aggr**):
+1. 삭제할 테이블의 이름은 **wkSimu_** 접두사 뒤에 시뮬레이션의 식별자가 옵니다(예: **wkSimu_456831_aggr**):
 
    ```
    DROP TABLE wkSimu_456831_aggr
@@ -579,7 +581,7 @@ DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
 
 여기서 **$(tsDate)**&#x200B;은 **XtkCleanup_AuditTrailPurgeDelay** 옵션에 대해 정의된 기간이 하위 구조화된 현재 서버 날짜입니다.
 
-### Nmsaddress {#cleanup-of-nmsaddress} 정리
+### Nmsaddress 정리 {#cleanup-of-nmsaddress}
 
 다음 쿼리가 사용됩니다.
 
@@ -589,15 +591,15 @@ DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WH
 
 이 쿼리는 iOS 및 Android와 관련된 모든 항목을 삭제합니다.
 
-### 통계 업데이트 및 저장소 최적화 {#statistics-update}
+### 통계 업데이트 및 스토리지 최적화 {#statistics-update}
 
 **XtkCleanup_NoStats** 옵션을 사용하면 정리 워크플로우의 스토리지 최적화 단계의 동작을 제어할 수 있습니다.
 
-**XtkCleanup_NoStats** 옵션이 없거나 해당 값이 0인 경우, PostgreSQL에서 세부 정보 표시 모드(VACY VERBOSE ANALYZE)로 저장소 최적화를 실행하고 다른 모든 데이터베이스의 통계를 업데이트합니다. 이 명령이 실행되었는지 확인하려면 PostgreSQL 로그를 확인합니다. INFOAM은 다음 형식으로 라인을 출력합니다.`INFO: vacuuming "public.nmsactivecontact"` 및 ANALYZE는 다음 형식으로 라인을 출력합니다.`INFO: analyzing "public.nmsactivecontact"`.
+**XtkCleanup_NoStats** 옵션이 없거나 해당 값이 0인 경우, PostgreSQL에서 세부 정보 표시 모드(VACY VERBOSE ANALYZE)로 저장소 최적화를 실행하고 다른 모든 데이터베이스의 통계를 업데이트합니다. 이 명령이 실행되었는지 확인하려면 PostgreSQL 로그를 확인합니다. INFOAM은 다음 형식으로 라인을 출력합니다. `INFO: vacuuming "public.nmsactivecontact"` 및 ANALYZE는 다음 형식으로 라인을 출력합니다. `INFO: analyzing "public.nmsactivecontact"`.
 
-옵션 값이 1이면 데이터베이스에서 통계 업데이트가 실행되지 않습니다. 워크플로우 로그에 다음 로그 줄이 나타납니다.`Option 'XtkCleanup_NoStats' is set to '1'`
+옵션 값이 1이면 데이터베이스에서 통계 업데이트가 실행되지 않습니다. 워크플로우 로그에 다음 로그 줄이 나타납니다. `Option 'XtkCleanup_NoStats' is set to '1'`
 
-옵션 값이 2이면 PostgreSQL의 세부 정보 표시 모드(ANALYZE VERBOSE)로 저장소 분석을 실행하고 다른 모든 데이터베이스의 통계를 업데이트합니다. 이 명령이 실행되었는지 확인하려면 PostgreSQL 로그를 확인합니다. ANALYZE는 다음 형식으로 라인을 출력합니다.`INFO: analyzing "public.nmsactivecontact"`
+옵션 값이 2이면 PostgreSQL의 세부 정보 표시 모드(ANALYZE VERBOSE)로 저장소 분석을 실행하고 다른 모든 데이터베이스의 통계를 업데이트합니다. 이 명령이 실행되었는지 확인하려면 PostgreSQL 로그를 확인합니다. ANALYZE는 다음 형식으로 라인을 출력합니다. `INFO: analyzing "public.nmsactivecontact"`
 
 ### 구독 정리(NMAC) {#subscription-cleanup--nmac-}
 
@@ -613,7 +615,7 @@ SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema I
 
 또한 이 정리 워크플로우는 **NmsCleanup_AppSubscriptionRcpPurgeDelay** 옵션에 설정된 시간 이후 업데이트되지 않은 isabled = 1인 모든 항목을 삭제합니다.
 
-### 세션 정보 정리 중 {#cleansing-session-information}
+### 세션 정보 정리 {#cleansing-session-information}
 
 이 작업은 **sessionInfo** 테이블에서 정보를 정리하므로 다음 쿼리가 사용됩니다.
 
@@ -621,10 +623,10 @@ SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema I
  DELETE FROM XtkSessionInfo WHERE tsexpiration < $(curdate) 
 ```
 
-### 만료된 이벤트 정리 중 {#cleansing-expired-events}
+### 만료된 이벤트 정리 {#cleansing-expired-events}
 
 이 작업은 수신 및 저장된 이벤트를 제어 인스턴스에 보관된 실행 인스턴스와 이벤트에 정리합니다.
 
-### 정리 반응 {#cleansing-reactions}
+### 세정 반응 {#cleansing-reactions}
 
 이 작업은 가설이 삭제된 반응(테이블 **NmsRemaMatchRcp**)을 정리합니다.

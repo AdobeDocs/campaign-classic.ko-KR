@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 1%
@@ -15,11 +15,13 @@ ht-degree: 1%
 
 # 데이터 강화{#enriching-data}
 
-## 데이터 보강 정보 {#about-enriching-data}
+![](../../assets/common.svg)
 
-이 사용 사례 세부 사항에서는 타깃팅 워크플로우에서 **[!UICONTROL Enrichment]** 활동을 사용할 수 있습니다. **[!UICONTROL Enrichment]** 활동 사용에 대한 자세한 내용은 다음을 참조하십시오.[데이터 보강](../../workflow/using/enrichment.md)
+## 데이터 강화 정보 {#about-enriching-data}
 
-사용자 지정 날짜로 이메일 게재를 보강하는 방법에 대한 사용 사례는 [이 섹션](../../workflow/using/email-enrichment-with-custom-date-fields.md)에서도 사용할 수 있습니다.
+이 사용 사례 세부 사항에서는 타깃팅 워크플로우에서 **[!UICONTROL Enrichment]** 활동을 사용할 수 있습니다. **[!UICONTROL Enrichment]** 활동 사용에 대한 자세한 내용은 다음을 참조하십시오. [데이터 보강](enrichment.md)
+
+사용자 지정 날짜로 이메일 게재를 보강하는 방법에 대한 사용 사례는 [이 섹션](email-enrichment-with-custom-date-fields.md)에서도 사용할 수 있습니다.
 
 마케팅 데이터베이스에 있는 연락처는 웹 애플리케이션을 통해 대회에 참가하도록 초대장을 보냅니다. 경쟁 결과는 **[!UICONTROL Competition results]** 표에 있습니다. 이 테이블은 연락처 테이블(**[!UICONTROL Recipients]**)에 연결되어 있습니다. **[!UICONTROL Competition results]** 표에는 다음 필드가 포함되어 있습니다.
 
@@ -46,7 +48,7 @@ ht-degree: 1%
 1. **[!UICONTROL Split]** 유형 활동을 통해 점수를 기반으로 수신자 하위 세트를 만들 수 있습니다.
 1. 각 하위 세트에 대해 **[!UICONTROL Delivery]** 유형 활동이 추가됩니다.
 
-## 1단계:타깃팅 {#step-1--targeting}
+## 1단계: 타깃팅 {#step-1--targeting}
 
 첫 번째 쿼리를 사용하면 지난 6개월 내에 데이터베이스에 추가된 수신자를 타겟팅할 수 있습니다.
 
@@ -58,7 +60,7 @@ ht-degree: 1%
 
 그런 다음 **[!UICONTROL Intersection]** 유형 활동을 추가하여 지난 6개월 내에 데이터베이스에 추가된 수신자를 대상으로 마지막 경쟁에 들어갔습니다.
 
-## 2단계:데이터 보강 {#step-2--enrichment}
+## 2단계: 데이터 보강 {#step-2--enrichment}
 
 이 예제에서는 **[!UICONTROL Competition results]** 테이블에 저장된 **[!UICONTROL Score]** 필드에 따라 게재를 개인화하려고 합니다. 이 테이블에는 수신자 테이블과 1n 유형의 관계가 있습니다. **[!UICONTROL Enrichment]** 활동을 사용하면 필터링 차원에 연결된 테이블의 데이터를 워크플로우의 작업 테이블에 추가할 수 있습니다.
 
@@ -70,19 +72,19 @@ ht-degree: 1%
 
    ![](assets/uc1_enrich_7.png)
 
-1. ID와 레이블을 입력하고 **[!UICONTROL Data collected]** 필드에서 **[!UICONTROL Limit the line count]** 옵션을 선택합니다. **[!UICONTROL Lines to retrieve]** 필드에서 &#39;1&#39;을 값으로 선택합니다. 각 수신자에 대해 데이터 보강 활동은 **[!UICONTROL Competition results]** 테이블의 단일 행을 워크플로우의 작업 테이블에 추가합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. ID와 레이블을 입력하고 **[!UICONTROL Data collected]** 필드에서 **[!UICONTROL Limit the line count]** 옵션을 선택합니다. **[!UICONTROL Lines to retrieve]** 필드에서 &#39;1&#39;을 값으로 선택합니다. 각 수신자에 대해 데이터 보강 활동은 **[!UICONTROL Competition results]** 테이블의 단일 행을 워크플로우의 작업 테이블에 추가합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
 
    ![](assets/uc1_enrich_8.png)
 
-1. 이 예에서는 수신자의 가장 높은 점수를 복구하려고 하지만 마지막 경쟁에서만 복구하려고 합니다. 이렇게 하려면 **[!UICONTROL Competition name]** 필드에 필터를 추가하여 이전 대회와 관련된 모든 줄을 제외합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. 이 예에서는 수신자의 가장 높은 점수를 복구하려고 하지만 마지막 경쟁에서만 복구하려고 합니다. 이렇게 하려면 **[!UICONTROL Competition name]** 필드에 필터를 추가하여 이전 대회와 관련된 모든 줄을 제외합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
 
    ![](assets/uc1_enrich_9.png)
 
-1. **[!UICONTROL Sort]** 화면으로 이동하여 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Score]** 필드를 선택한 다음 **[!UICONTROL descending]** 열의 상자를 선택하여 **[!UICONTROL Score]** 필드의 항목을 내림차순으로 정렬합니다. 각 수신자에 대해 데이터 보강 활동은 마지막 게임에서 가장 높은 점수를 매기는 줄을 추가합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Sort]** 화면으로 이동하여 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Score]** 필드를 선택한 다음 **[!UICONTROL descending]** 열의 상자를 선택하여 **[!UICONTROL Score]** 필드의 항목을 내림차순으로 정렬합니다. 각 수신자에 대해 데이터 보강 활동은 마지막 게임에서 가장 높은 점수를 매기는 줄을 추가합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
 
    ![](assets/uc1_enrich_10.png)
 
-1. **[!UICONTROL Data to add]** 창에서 **[!UICONTROL Score]** 필드를 두 번 클릭합니다. 각 수신자에 대해 데이터 보강 활동은 **[!UICONTROL Score]** 필드만 추가합니다. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Data to add]** 창에서 **[!UICONTROL Score]** 필드를 두 번 클릭합니다. 각 수신자에 대해 데이터 보강 활동은 **[!UICONTROL Score]** 필드만 추가합니다. **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
 
    ![](assets/uc1_enrich_11.png)
 
@@ -102,7 +104,7 @@ ht-degree: 1%
 
 ![](assets/uc1_enrich_14.png)
 
-## 3단계:분할 및 전달 {#step-3--split-and-delivery}
+## 3단계: 분할 및 전달 {#step-3--split-and-delivery}
 
 점수를 기준으로 수신자를 정렬하려면 데이터 보강 후 **[!UICONTROL Split]** 활동이 추가됩니다.
 

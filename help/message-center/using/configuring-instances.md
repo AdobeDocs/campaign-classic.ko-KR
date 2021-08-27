@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 
 
 # 인스턴스 구성 {#creating-a-shared-connection}
+
+![](../../assets/v7-only.svg)
 
 트랜잭션 메시지 기능을 사용하려면 제어 및 실행 인스턴스를 구성해야 합니다. 다음 중 하나를 사용할 수 있습니다.
 * [하나 ](#control-instance) 이상의 실행 인스턴스와 연결된 하나의 제어 인스턴스
@@ -32,7 +34,7 @@ ht-degree: 1%
 >
 >제어 인스턴스와 실행 인스턴스는 다른 컴퓨터에 설치해야 합니다. 동일한 Campaign 인스턴스를 공유할 수 없습니다.
 
-## 컨트롤 인스턴스 {#control-instance} 구성
+## 컨트롤 인스턴스 구성 {#control-instance}
 
 제어 인스턴스와 실행 인스턴스를 연결하려면 먼저 제어 인스턴스&#x200B;**에서&#x200B;**[!UICONTROL Execution instance]**유형 외부 계정**&#x200B;을 만들고 구성해야 합니다. 따라서 [게시된](../../message-center/using/publishing-message-templates.md#template-publication)후에는 트랜잭션 메시지 템플릿을 실행 인스턴스에 배포할 수 있습니다.
 
@@ -148,11 +150,11 @@ ht-degree: 1%
 
 여러 실행 인스턴스를 사용하는 경우 각 실행 인스턴스에 대해 이러한 단계를 반복합니다.
 
-## 여러 제어 인스턴스 사용 {#using-several-control-instances}
+## 여러 컨트롤 인스턴스 사용 {#using-several-control-instances}
 
 실행 클러스터를 다양한 제어 인스턴스와 공유할 수 있습니다. 이러한 유형의 아키텍처에는 다음 구성이 필요합니다.
 
-예를 들어, 회사에서 각각 고유한 제어 인스턴스를 사용하여 두 브랜드를 관리한다고 가정해 보겠습니다.**Control 1** 및 **Control 2** 두 개의 실행 인스턴스도 사용됩니다. 각 제어 인스턴스에 대해 다른 메시지 센터 연산자를 입력해야 합니다.**Control 2** 인스턴스에 대해 **Control 1** 인스턴스에 대한 **mc1** 연산자와 **mc2** 연산자가 제공됩니다.
+예를 들어, 회사에서 각각 고유한 제어 인스턴스를 사용하여 두 브랜드를 관리한다고 가정해 보겠습니다. **Control 1** 및 **Control 2** 두 개의 실행 인스턴스도 사용됩니다. 각 제어 인스턴스에 대해 다른 메시지 센터 연산자를 입력해야 합니다. **Control 2** 인스턴스에 대해 **Control 1** 인스턴스에 대한 **mc1** 연산자와 **mc2** 연산자가 제공됩니다.
 
 모든 실행 인스턴스의 트리에서 연산자(**폴더 1** 및 **폴더 2**)당 하나의 폴더를 만들고 각 연산자의 데이터 액세스 권한을 해당 폴더에 제한합니다.
 
@@ -182,7 +184,7 @@ ht-degree: 1%
 
 여러 제어 인스턴스를 사용하려면 ALL 실행 인스턴스에서 이 구성을 수행해야 합니다.
 
-1. **[!UICONTROL Administration > Production > Message Center]** 노드에서 연산자당 하나의 폴더를 만듭니다.**폴더 1** 및 **폴더 2**. 폴더 및 보기 만들기에 대한 자세한 내용은 [이 페이지](../../platform/using/access-management-folders.md)를 참조하십시오.
+1. **[!UICONTROL Administration > Production > Message Center]** 노드에서 연산자당 하나의 폴더를 만듭니다. **폴더 1** 및 **폴더 2**. 폴더 및 보기 만들기에 대한 자세한 내용은 [이 페이지](../../platform/using/access-management-folders.md)를 참조하십시오.
 
    ![](assets/messagecenter_multi_control_3.png)
 

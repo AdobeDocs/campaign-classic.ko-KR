@@ -6,20 +6,22 @@ audience: message-center
 content-type: reference
 topic-tags: use-case
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 7f4bbf3e79d6cdaf17987b9307ebf12801abad22
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 2%
 
 ---
 
-# 사용 사례:첨부 파일이 있는 트랜잭션 전자 메일 보내기 {#transactional-email-with-attachments}
+# 사용 사례: 첨부 파일이 있는 트랜잭션 전자 메일 보내기 {#transactional-email-with-attachments}
+
+![](../../assets/v7-only.svg)
 
 이 사용 사례의 목적은 아웃바운드 디스패치에 전자 메일 첨부 파일을 즉시 추가하는 것입니다.
 
 ## 주요 단계 {#key-steps}
 
-이 시나리오에서는 개별 및/또는 개인화된 첨부 파일이 있는 트랜잭션 이메일을 보내는 방법을 알아봅니다. 첨부 파일은 트랜잭션 메시지 서버에 미리 업로드되지 않습니다.대신 즉시 생성됩니다.
+이 시나리오에서는 개별 및/또는 개인화된 첨부 파일이 있는 트랜잭션 이메일을 보내는 방법을 알아봅니다. 첨부 파일은 트랜잭션 메시지 서버에 미리 업로드되지 않습니다. 대신 즉시 생성됩니다.
 
 고객 상호 작용이나 세부 정보를 캡처할 경우 프로세스 종료 시 이 정보를 고객에게 다시 보내야 할 수 있습니다. 예를 들어 전자 메일에 첨부된 PDF 파일입니다.
 
@@ -75,7 +77,7 @@ ht-degree: 2%
 1. **[!UICONTROL Attachment definition]** 화면에서 SOAP 첨부 파일 매개 변수를 입력합니다.
 
    ```
-   <%= rtEvent.ctx.attachementUrl %>
+   <%= rtEvent.ctx.attachmentUrl %>
    ```
 
 1. 메시지가 처리되면 시스템은 원격 위치(타사 서버)에서 파일을 가져와 개별 메시지에 첨부합니다.

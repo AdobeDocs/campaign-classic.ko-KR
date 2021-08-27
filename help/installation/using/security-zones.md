@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 
 
 # 보안 영역 정의(온-프레미스){#defining-security-zones}
+
+![](../../assets/v7-only.svg)
 
 각 연산자는 인스턴스에 로그온하기 위해 영역에 연결해야 하며 운영자 IP는 보안 영역에 정의된 주소 또는 주소 세트에 포함해야 합니다. 보안 영역 구성은 Adobe Campaign 서버의 구성 파일에서 수행됩니다.
 
@@ -27,7 +29,6 @@ ht-degree: 1%
 >**호스팅된** 고객으로서, [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)에 액세스할 수 있는 경우 보안 영역 셀프 서비스 인터페이스를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko)
 >
 >다른 **하이브리드/호스팅** 고객은 Adobe 지원 팀에 연락하여 허용 목록에 IP를 추가해야 합니다.
-
 
 ## 보안 영역 만들기 {#creating-security-zones}
 
@@ -53,7 +54,7 @@ ht-degree: 1%
 >**각 연산자는 영역에 연결해야 합니다**. 연산자의 IP 주소가 영역에 의해 정의된 범위에 속하면 연산자가 인스턴스에 로그온할 수 있습니다.\
 >연산자의 IP 주소는 여러 영역에서 정의할 수 있습니다. 이 경우 연산자는 각 영역에 대해 사용 가능한 권한의 **set**&#x200B;을 수신합니다.
 
-즉시 사용 가능한 **serverConf.xml** 파일에는 다음 세 개의 영역이 포함되어 있습니다.**공용, VPN 및 LAN**
+즉시 사용 가능한 **serverConf.xml** 파일에는 다음 세 개의 영역이 포함되어 있습니다. **공용, VPN 및 LAN**
 
 >[!NOTE]
 >
@@ -85,12 +86,12 @@ ht-degree: 1%
 
 영역을 정의하는 모든 권한은 다음과 같습니다.
 
-* **allowDebug**:webApp을 &quot;debug&quot; 모드로 실행할 수 있도록 설정
-* **allowEmptyPassword**:암호 없이 인스턴스에 연결 허용
-* **allowHTTP**:HTTPS 프로토콜을 사용하지 않고 세션을 만들 수 있습니다
-* **allowUserPassword**:세션 토큰에는 &quot;`<login>/<password>`&quot; 양식이 있을 수 있습니다.
-* **sessionTokenOnly**:연결 URL에 보안 토큰이 필요하지 않습니다
-* **showErrors**:서버 측 오류가 전달되어 표시됩니다
+* **allowDebug**: webApp을 &quot;debug&quot; 모드로 실행할 수 있도록 설정
+* **allowEmptyPassword**: 암호 없이 인스턴스에 연결 허용
+* **allowHTTP**: HTTPS 프로토콜을 사용하지 않고 세션을 만들 수 있습니다
+* **allowUserPassword**: 세션 토큰에는 &quot;`<login>/<password>`&quot; 양식이 있을 수 있습니다.
+* **sessionTokenOnly**: 연결 URL에 보안 토큰이 필요하지 않습니다
+* **showErrors**: 서버 측 오류가 전달되어 표시됩니다
 
 >[!IMPORTANT]
 >
@@ -130,7 +131,7 @@ ht-degree: 1%
       <subNetwork id="cus1" mask="a.b.c.d/xx"/>
 ```
 
-## 보안 영역 {#sub-networks-and-proxies-in-a-security-zone}의 하위 네트워크 및 프록시
+## 보안 영역의 하위 네트워크 및 프록시 {#sub-networks-and-proxies-in-a-security-zone}
 
 **proxy** 매개 변수는 **subNetwork** 요소에서 사용하여 보안 영역에서 프록시 사용을 지정할 수 있습니다.
 
@@ -146,15 +147,15 @@ ht-degree: 1%
 
 다음과 같은 여러 가지 경우가 발생할 수 있습니다.
 
-* 하위 네트워크는 보안 영역에서 직접 참조되며 프록시는 구성되지 않습니다.하위 네트워크 사용자는 Adobe Campaign 서버에 직접 연결할 수 있습니다.
+* 하위 네트워크는 보안 영역에서 직접 참조되며 프록시는 구성되지 않습니다. 하위 네트워크 사용자는 Adobe Campaign 서버에 직접 연결할 수 있습니다.
 
    ![](assets/8101_proxy1.png)
 
-* 보안 영역의 하위 네트워크에 대해 프록시가 지정됩니다.이 하위 네트워크의 사용자는 이 프록시를 통해 Adobe Campaign 서버에 액세스할 수 있습니다.
+* 보안 영역의 하위 네트워크에 대해 프록시가 지정됩니다. 이 하위 네트워크의 사용자는 이 프록시를 통해 Adobe Campaign 서버에 액세스할 수 있습니다.
 
    ![](assets/8101_proxy2.png)
 
-* 프록시는 보안 영역 하위 네트워크에 포함됩니다.원본에 관계없이 이 프록시를 통해 액세스할 수 있는 사용자는 Adobe Campaign 서버에 액세스할 수 있습니다.
+* 프록시는 보안 영역 하위 네트워크에 포함됩니다. 원본에 관계없이 이 프록시를 통해 액세스할 수 있는 사용자는 Adobe Campaign 서버에 액세스할 수 있습니다.
 
    ![](assets/8101_proxy3.png)
 
@@ -185,7 +186,7 @@ Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소는 해�
 
 영역이 정의되면 각 연산자가 하나의 연산자에 연결되어 인스턴스에 로그인할 수 있어야 하며 연산자의 IP 주소가 해당 영역에서 참조되는 주소 또는 주소 범위에 포함되어야 합니다.
 
-영역의 기술 구성은 Campaign Server의 구성 파일에서 수행됩니다.**serverConf.xml**
+영역의 기술 구성은 Campaign Server의 구성 파일에서 수행됩니다. **serverConf.xml**
 
 먼저 **serverConf.xml** 파일에 정의된 영역의 내부 이름에 레이블을 연결하려면 바로 사용 가능한 **[!UICONTROL Security zone]** 열거형을 구성해야 합니다.
 
@@ -219,20 +220,20 @@ Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소는 해�
 
 
 
-## Recommendations
+## 추천
 
 * 하위 네트워크에서 역방향 프록시가 허용되지 않는지 확인하십시오. 이 경우 **모든** 트래픽이 이 로컬 IP에서 온 것으로 검색되므로 신뢰할 수 있습니다.
 
 * sessionTokenOnly=&quot;true&quot;의 사용을 최소화하십시오.
 
-   * 경고:이 특성이 true로 설정되면 연산자가 **CRSF 공격**&#x200B;에 노출될 수 있습니다.
+   * 경고: 이 특성이 true로 설정되면 연산자가 **CRSF 공격**&#x200B;에 노출될 수 있습니다.
    * 또한 sessionToken 쿠키가 httpOnly 플래그로 설정되지 않으므로 일부 클라이언트측 javascript 코드는 이를 읽을 수 있습니다.
-   * 그러나 여러 실행 셀의 메시지 센터에는 sessionTokenOnly가 필요합니다.sessionTokenOnly가 &quot;true&quot;로 설정된 새 보안 영역을 만들고 이 영역에 필요한 IP만 **추가합니다.**
+   * 그러나 여러 실행 셀의 메시지 센터에는 sessionTokenOnly가 필요합니다. sessionTokenOnly가 &quot;true&quot;로 설정된 새 보안 영역을 만들고 이 영역에 필요한 IP만 **추가합니다.**
 
 * 가능하면 모든 allowHTTP, showErrors를 false(localhost가 아님)로 설정하고 확인합니다.
 
-   * allowHTTP = &quot;false&quot;:연산자가 HTTPS를 사용하도록 강제 적용
-   * showErrors = &quot;false&quot;:기술 오류(SQL 오류 포함)를 숨깁니다. 이렇게 하면 너무 많은 정보가 표시되지 않지만 마케터가 실수를 해결할 수 있는 기능이 줄어듭니다(관리자의 추가 정보 요청 없이)
+   * allowHTTP = &quot;false&quot;: 연산자가 HTTPS를 사용하도록 강제 적용
+   * showErrors = &quot;false&quot;: 기술 오류(SQL 오류 포함)를 숨깁니다. 이렇게 하면 너무 많은 정보가 표시되지 않지만 마케터가 실수를 해결할 수 있는 기능이 줄어듭니다(관리자의 추가 정보 요청 없이)
 
 * 설문 조사, webApps 및 보고서를 만들어야 하는 마케팅 사용자/관리자가 사용하는 IP에서만 allowDebug를 true로 설정합니다. 이 플래그를 사용하면 이러한 IP가 릴레이 규칙을 표시하고 디버깅할 수 있습니다.
 
@@ -244,8 +245,8 @@ Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소는 해�
 
    * **** allowSQLInjection사용자가 이전 구문을 사용하여 SQL 주입을 수행할 수 있습니다. 이 속성을 false로 설정할 수 있도록 [이 페이지](../../migration/using/general-configurations.md)에 설명된 수정 사항을 가능한 한 빨리 수행합니다. /nl/jsp/ping.jsp?zone=true 를 사용하여 보안 영역 구성을 확인할 수 있습니다. 이 페이지에는 현재 IP에 대한 보안 조치의 활성 상태(이러한 보안 플래그로 계산됨)가 표시됩니다.
 
-* HttpOnly cookie/useSecurityToken:**sessionTokenOnly** 플래그를 참조하십시오.
+* HttpOnly cookie/useSecurityToken: **sessionTokenOnly** 플래그를 참조하십시오.
 
-* 허용 목록에 추가된 IP를 최소화합니다.기본 제공되는 보안 영역에서 개인 네트워크에 대한 3개의 범위를 추가했습니다. 이러한 모든 IP 주소를 사용할 가능성은 없습니다. 필요한 것만 보관하세요
+* 허용 목록에 추가된 IP를 최소화합니다. 기본 제공되는 보안 영역에서 개인 네트워크에 대한 3개의 범위를 추가했습니다. 이러한 모든 IP 주소를 사용할 가능성은 없습니다. 필요한 것만 보관하세요
 
 * localhost에서만 액세스할 수 있도록 webApp/internal 연산자를 업데이트합니다.

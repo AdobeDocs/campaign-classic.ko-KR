@@ -6,20 +6,22 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
 # SMS 채널 구성 {#setting-up-sms-channel}
 
+![](../../assets/common.svg)
+
 휴대폰에 보내려면 다음이 필요합니다.
 
 1. 커넥터와 메시지 유형을 지정하는 외부 계정입니다.
 
-   레거시 커넥터는 이제 사용되지 않습니다. 사용 중단되는 기능은 계속 사용할 수는 있지만 더 이상 향상 또는 지원되지 않습니다. 이 페이지에서 [을 자세히 알아보십시오](../../rn/using/deprecated-features.md).
+   레거시 커넥터는 이제 사용되지 않습니다. 사용 중단되는 기능은 계속 사용할 수는 있지만 더 이상 향상 또는 지원되지 않습니다. [이 페이지](../../rn/using/deprecated-features.md)에서 자세히 알아보십시오.
 
 1. 이 외부 계정을 참조하는 게재 템플릿입니다.
 
@@ -93,7 +95,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
 변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다.
 
 * 변환이 **[!UICONTROL authorized]**&#x200B;이면 고려하지 않는 각 문자는 메시지를 보낼 때 GSM 문자로 바뀝니다. 예를 들어 &quot;ë&quot;라는 글자는 &quot;e&quot;로 대체됩니다. 따라서 메시지는 약간 변경되지만 글자 수 제한은 그대로 유지됩니다.
-* 음역이 **[!UICONTROL not authorized]**&#x200B;이면 고려하지 않는 문자가 포함된 각 메시지가 이진 형식(유니코드)으로 전송됩니다.따라서 모든 문자가 그대로 전송됩니다. 그러나 유니코드를 사용하는 SMS 메시지는 70자(또는 여러 부분으로 나누어 보내는 SMS의 경우 67자)로 제한됩니다. 최대 글자 수를 초과하면 메시지가 여러 개로 보내져 추가 비용이 발생할 수 있습니다.
+* 음역이 **[!UICONTROL not authorized]**&#x200B;이면 고려하지 않는 문자가 포함된 각 메시지가 이진 형식(유니코드)으로 전송됩니다. 따라서 모든 문자가 그대로 전송됩니다. 그러나 유니코드를 사용하는 SMS 메시지는 70자(또는 여러 부분으로 나누어 보내는 SMS의 경우 67자)로 제한됩니다. 최대 글자 수를 초과하면 메시지가 여러 개로 보내져 추가 비용이 발생할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -182,7 +184,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
   <tr> 
    <td> ì </td> 
    <td> <img height="21px" src="assets/psi.png" /> </td> 
-   <td> &grave; </td> 
+   <td> ` </td> 
    <td> 7 </td> 
    <td> G </td> 
    <td> W </td> 
@@ -288,13 +290,13 @@ CR: 캐리지 리턴
 
 SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 텍스트 인코딩을 사용할 수 있습니다. 각 인코딩은 고유한 문자 세트를 가지며 SMS 메시지에 맞는 글자 수를 정합니다.
 
-새 SMPP 모바일 게재 외부 계정을 구성할 때 **[!UICONTROL Mobile]** 탭에서 **[!UICONTROL Mapping of encodings]**&#x200B;을(를) 정의할 수 있습니다.**[!UICONTROL data_coding]** 필드를 사용하면 Adobe Campaign에서 SMSC에 사용되는 인코딩을 전달할 수 있습니다.
+새 SMPP 모바일 게재 외부 계정을 구성할 때 **[!UICONTROL Mobile]** 탭에서 **[!UICONTROL Mapping of encodings]**&#x200B;을(를) 정의할 수 있습니다. **[!UICONTROL data_coding]** 필드를 사용하면 Adobe Campaign에서 SMSC에 사용되는 인코딩을 전달할 수 있습니다.
 
 >[!NOTE]
 >
->**data_coding** 값과 실제로 사용되는 인코딩 간의 매핑은 표준화되어 있습니다. 그러나 특정 SMSC에는 고유한 매핑이 있습니다.이 경우 **Adobe Campaign** 관리자가 이 매핑을 선언해야 합니다. 자세한 내용은 공급자에게 문의하십시오.
+>**data_coding** 값과 실제로 사용되는 인코딩 간의 매핑은 표준화되어 있습니다. 그러나 특정 SMSC에는 고유한 매핑이 있습니다. 이 경우 **Adobe Campaign** 관리자가 이 매핑을 선언해야 합니다. 자세한 내용은 공급자에게 문의하십시오.
 
-**data_codings**&#x200B;를 선언할 수 있으며, 필요한 경우 인코딩을 강제 적용할 수 있습니다.이렇게 하려면 표에 단일 인코딩을 지정합니다.
+**data_codings**&#x200B;를 선언할 수 있으며, 필요한 경우 인코딩을 강제 적용할 수 있습니다. 이렇게 하려면 표에 단일 인코딩을 지정합니다.
 
 * 인코딩의 매핑이 정의되지 않은 경우 커넥터가 일반 동작을 수행합니다.
 
@@ -321,7 +323,7 @@ Adobe Campaign을 통해 보낸 SMS 메시지에 가입자가 답장하고 해�
 
 각 키워드에 대해 짧은 코드(일반적으로 게재를 보내는 데 사용되고 발신자 이름으로 사용되는 숫자)를 지정한 다음 구독자에게 전송할 메시지를 입력합니다.
 
-작업을 자동 응답에 연결할 수도 있습니다.**[!UICONTROL Send to quarantine]** 또는 **[!UICONTROL Remove from quarantine]** 예를 들어 수신자가 &quot;STOP&quot; 키워드를 전송하는 경우 자동으로 구독 취소 확인을 받고 격리로 전송됩니다.
+작업을 자동 응답에 연결할 수도 있습니다. **[!UICONTROL Send to quarantine]** 또는 **[!UICONTROL Remove from quarantine]** 예를 들어 수신자가 &quot;STOP&quot; 키워드를 전송하는 경우 자동으로 구독 취소 확인을 받고 격리로 전송됩니다.
 
 ![](assets/extended_smpp_reply.png)
 
@@ -333,7 +335,7 @@ Adobe Campaign을 통해 보낸 SMS 메시지에 가입자가 답장하고 해�
 * 키워드가 무엇이든 동일한 답글을 보내려면 **[!UICONTROL Keyword]** 열을 비워 둡니다.
 * 응답을 보내지 않고 작업을 수행하려면 **[!UICONTROL Response]** 열을 비워 둡니다. 예를 들어 &quot;STOP&quot; 이외의 메시지로 답장하는 사용자를 격리시키지 않도록 할 수 있습니다.
 
-동일한 공급자 계정의 확장 일반 SMPP 커넥터를 사용하는 외부 계정이 여러 개 있는 경우 다음 문제가 발생할 수 있습니다.짧은 코드에 답글을 보낼 때 외부 계정 연결 시 수신될 수 있습니다. 따라서, 전송되는 자동 응답이 예상 메시지가 될 수 없습니다.
+동일한 공급자 계정의 확장 일반 SMPP 커넥터를 사용하는 외부 계정이 여러 개 있는 경우 다음 문제가 발생할 수 있습니다. 짧은 코드에 답글을 보낼 때 외부 계정 연결 시 수신될 수 있습니다. 따라서, 전송되는 자동 응답이 예상 메시지가 될 수 없습니다.
 이를 방지하려면 사용 중인 공급자에 따라 다음 솔루션 중 하나를 적용합니다.
 
 * 각 외부 계정에 대해 공급자 계정을 하나씩 만듭니다.
@@ -362,7 +364,7 @@ SMS 채널을 통해 게재하려면 채널 커넥터를 참조하는 템플릿�
 
    ![](assets/s_user_mobile_template_change_02.png)
 
-1. **[!UICONTROL Properties]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Properties]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL General]** 탭에서 이전 단계에서 만든 외부 계정에 해당하는 라우팅 모드를 선택합니다.
 
    ![](assets/s_user_mobile_template_change_03.png)

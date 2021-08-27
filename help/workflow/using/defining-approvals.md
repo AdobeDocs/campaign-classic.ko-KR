@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: 승인 정의
-description: 승인 을 사용하면 연산자가 워크플로우를 관리하는 결정을 하거나 실행을 계속 확인할 수 있습니다
+description: 승인을 사용하면 운영자가 워크플로우를 관리하는 결정을 하거나 워크플로우의 지속적인 실행을 확인할 수 있습니다
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 # 승인 정의 {#defining-approvals}
 
-승인 을 사용하면 운영자가 워크플로우를 관리하는 결정을 하거나 실행을 확인할 수 있습니다.
+![](../../assets/common.svg)
+
+승인을 사용하면 운영자가 워크플로우를 관리하는 결정을 하거나 워크플로우의 지속적인 실행을 확인할 수 있습니다.
 
 운영자 그룹에 메시지가 전송되고 워크플로우는 재개하기 전에 응답을 기다립니다. 워크플로우가 중지되지 않고 다른 작업이 수행될 수 있습니다. 예를 들어 여러 개의 동시 승인이 보류 중일 수 있습니다.
 
@@ -29,7 +31,7 @@ ht-degree: 0%
 
 승인 예는 이 [섹션](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)에서 찾을 수 있습니다.
 
-연산자는 다음 두 가지 방법 중 하나로 응답할 수 있습니다.이메일 메시지 또는 콘솔을 통해 연결된 웹 페이지를 사용하여 유효성을 검사하는 중입니다.
+연산자는 다음 두 가지 방법 중 하나로 응답할 수 있습니다. 이메일 메시지 또는 콘솔을 통해 연결된 웹 페이지를 사용하여 유효성을 검사하는 중입니다.
 
 >[!NOTE]
 >
@@ -41,11 +43,11 @@ ht-degree: 0%
 
 운영자 관리에 대해서는 이 [섹션](../../platform/using/access-management.md)에 자세히 설명되어 있습니다.
 
-승인 이메일은 계속 전송됩니다. 기본 게재 템플릿은 **[!UICONTROL notifyAssignee]**&#x200B;입니다.**[!UICONTROL Administration > Campaign management > Technical delivery templates]** 폴더에 저장됩니다. 이 시나리오를 사용자 지정할 수 있으며, 각 활동에 대한 템플릿을 복사하고 변경하는 것도 좋습니다.
+승인 이메일은 계속 전송됩니다. 기본 게재 템플릿은 **[!UICONTROL notifyAssignee]**&#x200B;입니다. **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 폴더에 저장됩니다. 이 시나리오를 사용자 지정할 수 있으며, 각 활동에 대한 템플릿을 복사하고 변경하는 것도 좋습니다.
 
 이 템플릿을 통해 생성된 게재는 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]** 폴더에 저장됩니다.
 
-## 콘솔 {#approval-via-the-console}을 통한 승인
+## 콘솔을 통한 승인 {#approval-via-the-console}
 
 작업에서 승인할 요소가 캠페인 대시보드에 표시됩니다.
 
@@ -79,14 +81,14 @@ ht-degree: 0%
 >
 >시간 순서대로 처리되므로 만료에 대한 순서를 지정할 필요가 없습니다.
 
-**[!UICONTROL Do not terminate the task]** 옵션은 지연이 오버런 시 승인을 활성 상태로 유지합니다. 이 모드에서는 승인을 활성 상태로 두는 동안 미리 알림을 관리할 수 있습니다.연산자가 여전히 응답할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있으므로 작업이 만료 시 완료된 것으로 간주되며 연산자가 더 이상 응답하지 않을 수 있습니다.
+**[!UICONTROL Do not terminate the task]** 옵션은 지연이 오버런 시 승인을 활성 상태로 유지합니다. 이 모드에서는 승인을 활성 상태로 두는 동안 미리 알림을 관리할 수 있습니다. 연산자가 여전히 응답할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있으므로 작업이 만료 시 완료된 것으로 간주되며 연산자가 더 이상 응답하지 않을 수 있습니다.
 
 다음 네 가지 유형의 만료를 만들 수 있습니다.
 
-* **작업 시작 후 지연**:만료는 승인이 활성화된 날짜에 지정된 시간을 추가하여 계산됩니다.
-* **지정된 날짜 이후 지연**:만료는 지정한 날짜에 시간 길이를 추가하여 계산됩니다.
-* **지정된 날짜보다 지연**:만료는 지정한 날짜에서 시간 길이를 뺀 값으로 계산됩니다.
-* **스크립트로 계산된 만료**:만료는 JavaScript를 사용하여 계산됩니다.
+* **작업 시작 후 지연**: 만료는 승인이 활성화된 날짜에 지정된 시간을 추가하여 계산됩니다.
+* **지정된 날짜 이후 지연**: 만료는 지정한 날짜에 시간 길이를 추가하여 계산됩니다.
+* **지정된 날짜보다 지연**: 만료는 지정한 날짜에서 시간 길이를 뺀 값으로 계산됩니다.
+* **스크립트로 계산된 만료**: 만료는 JavaScript를 사용하여 계산됩니다.
 
    다음 예제에서는 게재 시작 날짜(**vars.deliveryId**&#x200B;로 식별됨)보다 24시간 전에 만료를 계산합니다.
 

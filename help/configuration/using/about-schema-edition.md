@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 7%
@@ -14,6 +14,8 @@ ht-degree: 7%
 ---
 
 # 스키마 편집 정보{#about-schema-edition}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 
@@ -23,7 +25,7 @@ Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 
 Campaign 기본 제공 테이블 및 그 상호 작용에 대한 자세한 내용은 [이 섹션](https://helpx.adobe.com/kr/campaign/kb/acc-datamodel.html)을 참조하십시오.
 
-## 스키마 {#extending-or-creating-schemas} 확장 또는 만들기
+## 스키마 확장 또는 만들기 {#extending-or-creating-schemas}
 
 필드 또는 인덱스 또는 기타 요소를 Campaign의 핵심 데이터 스키마(예: 수신자 테이블(nms:recipient) 중 하나에 추가하려면 해당 스키마를 확장해야 합니다. 자세한 내용은 [스키마 확장](../../configuration/using/extending-a-schema.md) 섹션을 참조하십시오.
 
@@ -176,7 +178,7 @@ SQL 필드에 저장되고 **@dataPolicy** 특성이 있는 XML 필드의 예입
 
 링크는 링크가 연결된 테이블의 **외래 키**&#x200B;가 포함된 스키마에 선언됩니다.
 
-카디널리티는 다음 세 가지 유형이 있습니다.1-1, 1-N 및 N-N기본적으로 사용되는 1-N 유형입니다.
+카디널리티는 다음 세 가지 유형이 있습니다. 1-1, 1-N 및 N-N 기본적으로 사용되는 1-N 유형입니다.
 
 ### 예제 {#examples-1}
 

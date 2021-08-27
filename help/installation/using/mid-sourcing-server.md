@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 중간 소싱 서버{#mid-sourcing-server}
+
+![](../../assets/v7-only.svg)
 
 이 섹션에서는 중간 소싱 서버의 설치 및 구성과 타사에서 **중간 소싱** 모드로 메시지를 보낼 수 있는 인스턴스의 배포에 대해 자세히 설명합니다.
 
@@ -25,9 +27,9 @@ ht-degree: 1%
 >
 >중간 소싱 서버가 설정되고 [동기화 워크플로우](../../workflow/using/about-technical-workflows.md)가 처음 실행되면 중간 소싱 외부 계정의 내부 이름을 업데이트하지 않도록 하십시오.
 
-## 인스턴스 {#steps-for-installing-and-configuring-an-instance} 설치 및 구성 단계
+## 인스턴스 설치 및 구성 단계 {#steps-for-installing-and-configuring-an-instance}
 
-### 인스턴스 {#prerequisites-for-installing-and-configuring-an-instance} 설치 및 구성을 위한 사전 요구 사항
+### 인스턴스 설치 및 구성을 위한 사전 요구 사항 {#prerequisites-for-installing-and-configuring-an-instance}
 
 * 애플리케이션 서버의 JDK입니다.
 * 응용 프로그램 서버의 데이터베이스 서버에 액세스합니다.
@@ -70,7 +72,7 @@ ht-degree: 1%
    >
    >기술 게재의 기본 라우팅은 중간 소싱을 통해 전자 메일 라우팅으로 자동 대체됩니다.
 
-### 중간 소싱 서버 {#installing-and-configuring-the-mid-sourcing-server} 설치 및 구성
+### 중간 소싱 서버 설치 및 구성 {#installing-and-configuring-the-mid-sourcing-server}
 
 클라이언트 콘솔에서 중간 소싱&#x200B;**중간 소싱 계정을 사용하여**&#x200B;전자 메일 라우팅을 찾습니다( **/Administration/External 계정/** 폴더). 서버&#x200B;**,**&#x200B;계정&#x200B;**,**&#x200B;암호&#x200B;**및**&#x200B;미러 페이지 URL **설정을 중간 소싱 서버를 호스팅하는 서버 공급자가 제공하는 정보로 채웁니다.** 연결을 테스트합니다.
 
@@ -78,7 +80,7 @@ ht-degree: 1%
 >
 >**중간 소싱Emitter** 옵션은 두 개의 **중간 소싱** 워크플로우를 만듭니다. 기본적으로 1시간 20분마다 실행되고 중간 소싱 서버에서 게재 정보를 수집하는 프로세스입니다.
 
-## 중간 소싱 서버 {#deploying-a-mid-sourcing-server} 배포
+## 중간 소싱 서버 배포 {#deploying-a-mid-sourcing-server}
 
 1. 애플리케이션 서버 설치:
 
@@ -92,11 +94,11 @@ ht-degree: 1%
 
 1. 중간 소싱 모드에서 수신하기 위한 구성
 
-   제출 계정 암호를 설정합니다.**/Mid-sourcing/Access Management/Operators/** 폴더에서 **mid** 연산자는 중간 소싱 모드에서 제출을 위해 원격 인스턴스에서 사용합니다. 이 연산자에 대한 암호를 설정하고 제출 인스턴스의 관리자에게 제공해야 합니다.
+   제출 계정 암호를 설정합니다. **/Mid-sourcing/Access Management/Operators/** 폴더에서 **mid** 연산자는 중간 소싱 모드에서 제출을 위해 원격 인스턴스에서 사용합니다. 이 연산자에 대한 암호를 설정하고 제출 인스턴스의 관리자에게 제공해야 합니다.
 
    **중간 소싱 플랫폼** 옵션은 제출된 게재를 저장할 기본 폴더를 만들고 제출을 수행하는 기본 연산자를 만듭니다.
 
-## 중간 소싱 서버 {#multiplexing-the-mid-sourcing-server} 멀티플렉싱
+## 중간 소싱 서버 멀티플렉싱 {#multiplexing-the-mid-sourcing-server}
 
 >[!CAUTION]
 >
@@ -104,8 +106,8 @@ ht-degree: 1%
 
 중간 소싱 인스턴스를 여러 제출 인스턴스로 공유할 수 있습니다. 이러한 각 인스턴스는 중간 소싱 데이터베이스의 연산자와 연결되어야 합니다. 중간 소싱 서버에서 두 번째 계정을 생성하려면
 
-1. 기본 중간 소싱 계정과 연결할 **[!UICONTROL Mid-sourcing > Deliveries]** 노드에서 폴더를 만듭니다(예:prod)에 속해 있어야 합니다.
-1. 계정과 동일한 이름의 **[!UICONTROL Mid-sourcing > Deliveries]** 노드에서 폴더를 만듭니다(예:accept_test).
+1. 기본 중간 소싱 계정과 연결할 **[!UICONTROL Mid-sourcing > Deliveries]** 노드에서 폴더를 만듭니다(예: prod)에 속해 있어야 합니다.
+1. 계정과 동일한 이름의 **[!UICONTROL Mid-sourcing > Deliveries]** 노드에서 폴더를 만듭니다(예: accept_test).
 
    ![](assets/mid_recette_account.png)
 
@@ -121,7 +123,7 @@ ht-degree: 1%
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. 다음 명령을 사용하여 웹 모듈을 다시 시작합니다.**nlserver가 web**&#x200B;을 다시 시작합니다.
+1. 다음 명령을 사용하여 웹 모듈을 다시 시작합니다. **nlserver가 web**&#x200B;을 다시 시작합니다.
 
 serverConf.xml 파일에서 중간 소싱 서버 설정을 변경해야 합니다. 기존 라인 아래의 &quot;IP 주소가 있는 관심 영역 관리&quot; 섹션에 다음 줄을 추가해야 합니다.
 
@@ -141,7 +143,7 @@ serverConf.xml 파일에서 중간 소싱 서버 설정을 변경해야 합니�
 
 수정을 고려하려면 서버를 중지한 다음 다시 시작해야 합니다.
 
-## 중간 소싱 서버 {#configuring-tracking-on-a-mid-sourcing-server}에 대한 추적 구성
+## 중간 소싱 서버에서 추적 구성 {#configuring-tracking-on-a-mid-sourcing-server}
 
 **중간 소싱 서버 구성**
 

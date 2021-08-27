@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -15,12 +15,14 @@ ht-degree: 2%
 
 # 마법사를 통해 오퍼 통합{#integrating-an-offer-via-the-wizard}
 
+![](../../assets/v7-only.svg)
+
 게재를 만들 때 오퍼를 통합하는 두 가지 가능한 방법이 있습니다.
 
 * 게재 본문에서 오퍼 엔진을 호출합니다.
 * 캠페인의 게재 개요를 통해 오퍼를 참조합니다. 이 방법은 일반적으로 종이 캠페인에 사용됩니다.
 
-## 오퍼 엔진 {#delivering-with-a-call-to-the-offer-engine} 호출을 사용하여 게재
+## 오퍼 엔진에 대한 호출을 사용하여 제공 {#delivering-with-a-call-to-the-offer-engine}
 
 마케팅 캠페인 중에 오퍼를 제공하려면 선택한 채널을 기반으로 클래식 게재 작업을 만드십시오. 게재 컨텐츠가 정의될 때 오퍼 엔진이 도구 모음에서 사용 가능한 **[!UICONTROL Offers]** 아이콘을 클릭하여 호출됩니다.
 
@@ -66,16 +68,16 @@ ht-degree: 2%
 
    ![](assets/offer_delivery_010.png)
 
-### 오퍼 엔진 {#parameters-for-calling-offer-engine} 호출을 위한 매개 변수
+### 오퍼 엔진 호출을 위한 매개 변수 {#parameters-for-calling-offer-engine}
 
-* **[!UICONTROL Space]** :오퍼 엔진을 활성화하기 위해 선택해야 하는 오퍼 환경의 공간입니다.
-* **[!UICONTROL Category]** :오퍼가 정렬되는 특정 폴더입니다. 카테고리를 지정하지 않으면 테마를 선택하지 않은 한 환경에 포함된 모든 오퍼가 오퍼 엔진에서 고려됩니다.
-* **[!UICONTROL Themes]** :카테고리에서 업스트림으로 정의된 주요 단어입니다. 오퍼는 필터로서 작동하며 카테고리 집합에서 오퍼를 선택하여 표시할 오퍼의 수를 개선할 수 있도록 해줍니다.
-* **[!UICONTROL Number of propositions]** :게재 본문에 삽입할 수 있는 엔진에서 반환한 오퍼 수입니다. 오퍼가 메시지에 삽입되지 않으면 오퍼가 계속 생성되지만 표시되지 않습니다.
-* **[!UICONTROL Exclude non-eligible recipients]** :이 옵션을 사용하면 적합한 오퍼가 충분하지 않은 수신자의 제외를 활성화하거나 비활성화할 수 있습니다. 해당 Proposition 수는 요청된 Proposition 수보다 작을 수 있습니다. 이 확인란을 선택하면 적절한 위치가 없는 수신자는 게재에서 제외됩니다. 이 옵션을 선택하지 않으면 이러한 수신자는 제외되지 않지만 요청된 프로필 수가 없습니다.
-* **[!UICONTROL Do not display anything if no offer is selected]** :이 옵션을 사용하면 프로필 중 하나가 없는 경우 메시지를 처리하는 방법을 선택할 수 있습니다. 이 상자를 선택하면 누락된 제안 표시가 표시되지 않고 이 제안에 대한 메시지에 콘텐츠가 표시되지 않습니다. 상자를 선택하지 않으면 메시지 자체가 전송 중에 취소되고 수신자는 더 이상 메시지를 받지 않습니다.
+* **[!UICONTROL Space]** : 오퍼 엔진을 활성화하기 위해 선택해야 하는 오퍼 환경의 공간입니다.
+* **[!UICONTROL Category]** : 오퍼가 정렬되는 특정 폴더입니다. 카테고리를 지정하지 않으면 테마를 선택하지 않은 한 환경에 포함된 모든 오퍼가 오퍼 엔진에서 고려됩니다.
+* **[!UICONTROL Themes]** : 카테고리에서 업스트림으로 정의된 주요 단어입니다. 오퍼는 필터로서 작동하며 카테고리 집합에서 오퍼를 선택하여 표시할 오퍼의 수를 개선할 수 있도록 해줍니다.
+* **[!UICONTROL Number of propositions]** : 게재 본문에 삽입할 수 있는 엔진에서 반환한 오퍼 수입니다. 오퍼가 메시지에 삽입되지 않으면 오퍼가 계속 생성되지만 표시되지 않습니다.
+* **[!UICONTROL Exclude non-eligible recipients]** : 이 옵션을 사용하면 적합한 오퍼가 충분하지 않은 수신자의 제외를 활성화하거나 비활성화할 수 있습니다. 해당 Proposition 수는 요청된 Proposition 수보다 작을 수 있습니다. 이 확인란을 선택하면 적절한 위치가 없는 수신자는 게재에서 제외됩니다. 이 옵션을 선택하지 않으면 이러한 수신자는 제외되지 않지만 요청된 프로필 수가 없습니다.
+* **[!UICONTROL Do not display anything if no offer is selected]** : 이 옵션을 사용하면 프로필 중 하나가 없는 경우 메시지를 처리하는 방법을 선택할 수 있습니다. 이 상자를 선택하면 누락된 제안 표시가 표시되지 않고 이 제안에 대한 메시지에 콘텐츠가 표시되지 않습니다. 상자를 선택하지 않으면 메시지 자체가 전송 중에 취소되고 수신자는 더 이상 메시지를 받지 않습니다.
 
-### 전달 {#inserting-an-offer-proposition-into-a-delivery}에 오퍼 제안 삽입
+### 게재에 오퍼 제안 삽입 {#inserting-an-offer-proposition-into-a-delivery}
 
 표시할 오퍼의 표현은 병합 필드를 통해 게재 본문에 삽입됩니다. 제안 수는 오퍼 엔진 호출의 매개 변수에 정의됩니다.
 
@@ -83,7 +85,7 @@ ht-degree: 2%
 
 ![](assets/offer_delivery_011.png)
 
-## 게재 개요 {#delivering-with-delivery-outlines} 를 사용하여 제공
+## 게재 개요 제공 {#delivering-with-delivery-outlines}
 
 게재 개요를 사용하여 오퍼를 게재에 표시할 수도 있습니다.
 

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 사용자 정의 날짜 필드를 통한 이메일 강화{#email-enrichment-with-custom-date-fields}
+
+![](../../assets/common.svg)
 
 이 예제에서는 이번 달에 생일을 맞는 수신자에게 사용자 지정 데이터 필드가 포함된 이메일을 보내려고 합니다. 그 이메일에는 생일 전후로 일주일간 유효한 쿠폰이 포함될 것이다.
 
@@ -37,9 +39,9 @@ ht-degree: 3%
 
    ![](assets/uc_enrichment_3.png)
 
-1. **[!UICONTROL Advanced Selection]** 를 클릭한 다음 **[!UICONTROL Edit the formula using an expression]** 표현식을 추가합니다.월(@birthDate).
+1. **[!UICONTROL Advanced Selection]** 를 클릭한 다음 **[!UICONTROL Edit the formula using an expression]** 표현식을 추가합니다. 월(@birthDate).
 1. **[!UICONTROL Operator]** 열에서 **[!UICONTROL equal to]** 을 선택합니다.
-1. 현재 날짜의 **[!UICONTROL Value]** 월을 추가하여 조건을 추가로 필터링합니다.Month(GetDate()).
+1. 현재 날짜의 **[!UICONTROL Value]** 월을 추가하여 조건을 추가로 필터링합니다. Month(GetDate()).
 
    이렇게 하면 생일 월이 현재 달에 해당하는 수신자를 질의합니다.
 
@@ -70,11 +72,11 @@ ht-degree: 3%
 
    ![](assets/uc_enrichment_10.png)
 
-1. 먼저, 다음 **[!UICONTROL Expression]**&#x200B;을 사용하여 생년월일 전 주를 **유효성 시작 날짜**&#x200B;로 타깃팅해야 합니다.`SubDays([target/@birthDate], 7)`.
+1. 먼저, 다음 **[!UICONTROL Expression]**&#x200B;을 사용하여 생년월일 전 주를 **유효성 시작 날짜**&#x200B;로 타깃팅해야 합니다. `SubDays([target/@birthDate], 7)`.
 
    ![](assets/uc_enrichment_11.png)
 
-1. 그런 다음, 생년월일 다음 주를 타겟팅하는 사용자 지정 날짜 필드 **유효성 종료 날짜**&#x200B;를 만들려면 **[!UICONTROL Expression]**&#x200B;를 추가해야 합니다.`AddDays([target/@birthDate], 7)`.
+1. 그런 다음, 생년월일 다음 주를 타겟팅하는 사용자 지정 날짜 필드 **유효성 종료 날짜**&#x200B;를 만들려면 **[!UICONTROL Expression]**&#x200B;를 추가해야 합니다. `AddDays([target/@birthDate], 7)`.
 
    표현식에 레이블을 추가할 수 있습니다.
 
@@ -107,7 +109,7 @@ ht-degree: 3%
            formatDate(targetData.alias of your expression,"%2D.%2M")  %>
    ```
 
-1. ![](assets/uc_enrichment_16.png)을(를) 클릭합니다. **[!UICONTROL Target extension]** 을 선택하고 **[!UICONTROL Enrichment]** 활동을 사용하여 이전에 만든 사용자 지정 유효성 날짜를 선택하여 formatDate 표현식에 확장을 추가합니다.
+1. ![](assets/uc_enrichment_16.png)를 클릭합니다. **[!UICONTROL Target extension]** 을 선택하고 **[!UICONTROL Enrichment]** 활동을 사용하여 이전에 만든 사용자 지정 유효성 날짜를 선택하여 formatDate 표현식에 확장을 추가합니다.
 
    ![](assets/uc_enrichment_19.png)
 

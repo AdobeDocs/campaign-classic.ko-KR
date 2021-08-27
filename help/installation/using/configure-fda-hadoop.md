@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 1%
 
 ---
 
-# hadoop {#configure-access-to-hadoop}에 대한 액세스 구성
+# hadoop 액세스 구성 {#configure-access-to-hadoop}
+
+![](../../assets/v7-only.svg)
 
 Campaign **Federated Data Access** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. hadoop 액세스를 구성하려면 아래 단계를 따르십시오.
 
@@ -37,29 +39,29 @@ FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서
 
 1. 그런 다음 Campaign Classic에서 [!DNL Hadoop] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#hadoop-external)을 참조하십시오.
 
-## Hadoop 외부 계정 {#hadoop-external}
+## 외부 계정 hadoop {#hadoop-external}
 
 [!DNL Hadoop] 외부 계정을 사용하면 Campaign 인스턴스를 Hadoop 외부 데이터베이스에 연결할 수 있습니다.
 
 1. Campaign Classic에서 [!DNL Hadoop] 외부 계정을 구성합니다. **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**&#x200B;를 클릭합니다.
 
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
 1. 외부 계정의 **[!UICONTROL Type]**(으)로 **[!UICONTROL External database]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Hadoop]** 외부 계정을 구성합니다. 다음을 지정해야 합니다.
 
-   * **[!UICONTROL Type]**:ODBC(Sybase ASE, Sybase IQ)
+   * **[!UICONTROL Type]**: ODBC(Sybase ASE, Sybase IQ)
 
-   * **[!UICONTROL Server]**:DNS 이름
+   * **[!UICONTROL Server]**: DNS 이름
 
-   * **[!UICONTROL Account]**:사용자의 이름
+   * **[!UICONTROL Account]**: 사용자의 이름
 
-   * **[!UICONTROL Password]**:사용자 계정 암호
+   * **[!UICONTROL Password]**: 사용자 계정 암호
 
-   * **[!UICONTROL Database]**:DSN에 지정되지 않은 경우 데이터베이스의 이름입니다. DSN에 지정된 경우 비워 둘 수 있습니다
+   * **[!UICONTROL Database]**: DSN에 지정되지 않은 경우 데이터베이스의 이름입니다. DSN에 지정된 경우 비워 둘 수 있습니다
 
-   * **[!UICONTROL Time zone]**:서버 시간대
+   * **[!UICONTROL Time zone]**: 서버 시간대
 
    ![](assets/hadoop3.png)
 
@@ -108,7 +110,7 @@ hadoop 2.1에 연결해야 하는 경우 [Windows](#for-windows) 또는 [Linux](
    apt-get install unixodbc
    ```
 
-1. HortonWorks에서 Apache Hive용 ODBC 드라이버를 다운로드하고 설치합니다.[https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html)
+1. HortonWorks에서 Apache Hive용 ODBC 드라이버를 다운로드하고 설치합니다. [https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html)
 
    ```
    dpkg -i hive-odbc-native_2.1.10.1014-2_amd64.deb

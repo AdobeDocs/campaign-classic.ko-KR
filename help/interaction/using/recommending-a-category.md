@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cb062cb2-dfea-46aa-8d9e-580e4dc7bb25
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 카테고리 추천{#recommending-a-category}
+
+![](../../assets/v7-only.svg)
 
 수신자가 모든 오퍼에 대한 자격이 없는 것으로 간주될 수 있습니다. 모든 수신자가 오퍼 제안을 수신하도록 하기 위해 추천에 하나 또는 여러 오퍼 카테고리를 체계적으로 추가할 수 있습니다. 기본 오퍼와 달리, 이러한 &quot;백업&quot; 오퍼는 가중치가 낮지만 0은 아니어야 하므로, 높은 가중치 오퍼가 적합하지 않은 경우에만 고려됩니다. 또한 이러한 오퍼가 항상 권장 사항에 포함되도록 하려면 이러한 오퍼에 적용된 프레젠테이션 규칙이 없어야 합니다. 즉, 제안 중에 고중량 오퍼를 사용할 수 없는 경우 수신자는 이 카테고리에서 적어도 하나의 오퍼를 수신하게 됩니다.
 

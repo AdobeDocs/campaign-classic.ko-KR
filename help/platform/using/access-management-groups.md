@@ -2,18 +2,20 @@
 product: campaign
 title: 운영자 그룹 만들기 및 관리
 description: 운영자 그룹에 대한 액세스 권한을 부여하는 방법 알아보기
-feature: 액세스 관리
+feature: Access Management
 role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
 # 운영자 그룹 만들기 및 관리 {#operator-groups}
+
+![](../../assets/common.svg)
 
 연산자 그룹은 트리의 **[!UICONTROL Administration > Access management > Operator groups]** 노드를 통해 만들어집니다.
 

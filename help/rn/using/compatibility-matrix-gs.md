@@ -2,18 +2,20 @@
 product: campaign
 title: Campaign용 호환성 매트릭스 [!DNL Gold Standard]
 description: ' [!DNL Gold Standard] 릴리스용 Campaign Classic 호환성 매트릭스'
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '513'
 ht-degree: 100%
 
 ---
 
 # [!DNL Gold Standard] 호환성 매트릭스{#compatibility-matrix-gs}
+
+![](../../assets/v7-only.svg)
 
 이 문서에서는 **Adobe Campaign Classic[!DNL Gold Standard]** 19.1 빌드에 대해 지원되는 모든 시스템 및 구성 요소가 나와 있습니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign 버전과 호환되지 않습니다.
 

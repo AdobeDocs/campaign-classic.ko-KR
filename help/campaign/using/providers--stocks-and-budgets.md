@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 공급자, 재고 및 예산{#providers-stocks-and-budgets}
+
+![](../../assets/common.svg)
 
 Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여할 서비스 공급자를 정의할 수 있습니다. 서비스 공급자 및 관련 비용 구조에 대한 정보는 기본 보기에서 Adobe Campaign 관리자가 정의합니다. 서비스 공급자가 게재에서 참조되고, 비용 구조를 통해 이 게재와 관련된 비용과 해당 주식의 관리를 계산할 수 있습니다.
 
@@ -74,7 +76,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
    ![](assets/s_ncs_user_supplier_node_03.png)
 
-   * 이 원가 범주에 대한 레이블을 입력하고 관련 프로세스 유형을 선택합니다.**[!UICONTROL Direct mail]**, **[!UICONTROL E-mail]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]** 또는 **[!UICONTROL Task]**&#x200B;에 의한 배달.
+   * 이 원가 범주에 대한 레이블을 입력하고 관련 프로세스 유형을 선택합니다. **[!UICONTROL Direct mail]**, **[!UICONTROL E-mail]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]** 또는 **[!UICONTROL Task]**&#x200B;에 의한 배달.
    * **[!UICONTROL Add]** 버튼을 클릭하여 이 범주와 연관된 비용 유형을 정의합니다.
    * 필요한 경우 사용된 수량이 기존 주식과 자동으로 관련되도록 재고 라인을 각 원가 유형과 연관시킵니다.
 
@@ -101,9 +103,9 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 * 원가 구조를 생성하려면 드롭다운 목록에서 메시지 유형 및 관련 비용 범주를 선택하고, 계산 규칙이 적용될 원가 유형을 선택합니다. 이러한 드롭다운 목록의 내용은 **[!UICONTROL Cost categories]** 탭을 통해 입력한 정보에서 가져옵니다.
 
-   원가 구조에 레이블을 지정해야 합니다. 기본적으로 다음과 같은 게재 아웃라인이 있습니다.**비용 범주 - 비용 유형**.
+   원가 구조에 레이블을 지정해야 합니다. 기본적으로 다음과 같은 게재 아웃라인이 있습니다. **비용 범주 - 비용 유형**.
 
-   그러나 이름을 바꿀 수 있습니다.**[!UICONTROL Label]** 필드에 원하는 값을 직접 입력합니다.
+   그러나 이름을 바꿀 수 있습니다. **[!UICONTROL Label]** 필드에 원하는 값을 직접 입력합니다.
 
 * 원가 계산 공식은 창의 하부에 정의됩니다.
 

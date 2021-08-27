@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-# Tomcat 버전{#locate-tomcat-version} 찾기
+# Tomcat 버전 찾기{#locate-tomcat-version}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign은 Apache Tomcat **이라는 포함된 웹 서블릿을 사용하여 애플리케이션과 외부 인터페이스(클라이언트 콘솔, 추적된 URL 링크, SOAP 호출 등) 간의 HTTP/HTTPS 요청을 처리합니다.** 외부 대면 Adobe Campaign 인스턴스에 대한 외부 웹 서버(일반적으로 IIS 또는 Apache)가 이 서버 앞에 있는 경우가 많습니다.
 
@@ -43,7 +45,7 @@ Adobe Campaign 인스턴스에서 포함된 Tomcat 버전을 찾으려면 아래
 
 1. 복사한 파일의 압축을 해제합니다. 이렇게 되면 많은 하위 폴더와 파일이 생성됩니다.
 
-1. 압축을 푼 파일/폴더 내에서 텍스트 편집기를 사용하여 다음 포함된 파일을 열거나 읽습니다.*org/apache/catalina/util/ServerInfo.properties* 텍스트 편집기를 사용하여 쉽게 열기 위해 .txt 확장자를 추가해야 할 수 있습니다.
+1. 압축을 푼 파일/폴더 내에서 텍스트 편집기를 사용하여 다음 포함된 파일을 열거나 읽습니다. *org/apache/catalina/util/ServerInfo.properties* 텍스트 편집기를 사용하여 쉽게 열기 위해 .txt 확장자를 추가해야 할 수 있습니다.
 
 1. 완료되면 서버 컴퓨터에 있는 경우 만든 임시 파일을 삭제합니다.
 
@@ -53,7 +55,7 @@ Adobe Campaign 인스턴스에서 포함된 Tomcat 버전을 찾으려면 아래
 
 *server.number=8.5.X.Y*
 
-*server.build=MM DD YYY HH:MM:SS*
+*server.build=MM DD YYY :MM:HSS*
 
 특정 인스턴스에 사용된 정확한 버전의 Tomcat을 설정할 수 있게 되면 Tomcat 관련 문제를 해결하는 데 도움이 될 수 있습니다.
 

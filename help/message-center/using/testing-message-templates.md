@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 트랜잭션 메시지 템플릿 테스트 {#testing-message-templates}
+
+![](../../assets/v7-only.svg)
 
 [메시지 템플릿](../../message-center/using/creating-the-message-template.md)이 준비되면 아래 단계에 따라 미리 보고 테스트하십시오.
 
@@ -35,7 +37,7 @@ ht-degree: 2%
 
    ![](assets/messagecenter_create_seedaddr_003.png)
 
-1. 외부 식별자를 입력합니다.이 선택적 필드를 사용하면 비즈니스 키(고유 ID, 이름 + 이메일 등)를 입력할 수 있습니다. 이는 프로필을 식별하는 데 사용되는 웹 사이트의 모든 애플리케이션에서 일반적으로 사용됩니다. 이 필드가 Adobe Campaign 마케팅 데이터베이스에도 있으면 데이터베이스의 프로필로 이벤트를 조정할 수 있습니다.
+1. 외부 식별자를 입력합니다. 이 선택적 필드를 사용하면 비즈니스 키(고유 ID, 이름 + 이메일 등)를 입력할 수 있습니다. 이는 프로필을 식별하는 데 사용되는 웹 사이트의 모든 애플리케이션에서 일반적으로 사용됩니다. 이 필드가 Adobe Campaign 마케팅 데이터베이스에도 있으면 데이터베이스의 프로필로 이벤트를 조정할 수 있습니다.
 
    ![](assets/messagecenter_create_seedaddr_003bis.png)
 
@@ -73,7 +75,7 @@ ht-degree: 2%
 
    ![](assets/messagecenter_create_custo_001.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
 ## 트랜잭션 메시지 미리 보기 {#transactional-message-preview}
 

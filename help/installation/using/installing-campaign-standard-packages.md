@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 6%
@@ -14,6 +14,8 @@ ht-degree: 6%
 ---
 
 # Campaign Classic 기본 제공 패키지 설치{#installing-campaign-standard-packages}
+
+![](../../assets/v7-only.svg)
 
 ## 기본 제공 패키지 기본 정보 {#campaign-standard-packages}
 
@@ -23,7 +25,7 @@ ht-degree: 6%
 >
 >라이선스 계약에 언급된 옵션에 해당하는 패키지만 설치할 수 있습니다.
 >
->새 패키지를 설치하면 모든 플랫폼에 영향을 줄 수 있습니다.최종 배포 전에 테스트 및 유효성 검사를 수행해야 합니다.
+>새 패키지를 설치하면 모든 플랫폼에 영향을 줄 수 있습니다. 최종 배포 전에 테스트 및 유효성 검사를 수행해야 합니다.
 >
 >패키지가 설치되면 제거할 수 없습니다.
 
@@ -37,7 +39,7 @@ ht-degree: 6%
    >패키지가 회색으로 표시되면 이미 설치되어 있거나 해당 인스턴스와 호환되지 않음을 의미합니다. 호환성은 아래 표에 자세히 설명되어 있습니다.
 1. **[!UICONTROL Next]** 를 클릭한 다음 **[!UICONTROL Start]** 을 클릭하여 패키지 설치를 시작합니다.
 
-   패키지가 설치되면 진행률 표시줄에 **100%**&#x200B;가 표시되며 설치 로그에 다음 메시지가 표시됩니다.**[!UICONTROL Installation of packages successful]**
+   패키지가 설치되면 진행률 표시줄에 **100%**&#x200B;가 표시되며 설치 로그에 다음 메시지가 표시됩니다. **[!UICONTROL Installation of packages successful]**
 
 1. **[!UICONTROL Close]** 설치 창
 
@@ -149,7 +151,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> 반응 관리자<br /> </td> 
-   <td> 마케팅 캠페인의 성공 및 수익성을 측정하거나 모든 커뮤니케이션 채널에 대한 제안 위치를 제공합니다.  선택 사항입니다. <a href="../../campaign/using/about-response-manager.md">추가 정보</a> <br /> </td> 
+   <td> 마케팅 캠페인의 성공 및 수익성을 측정하거나 모든 커뮤니케이션 채널에 대한 제안 위치를 제공합니다.  선택 사항입니다. <a href="../../response/using/about-response-manager.md">추가 정보</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
@@ -159,7 +161,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> 캠페인 최적화<br /> </td> 
-   <td> 게재 전송을 제어, 필터링 및 모니터링하여 회사 커뮤니케이션 정책과 함께 전송된 메시지가 고객의 요구 사항과 기대를 가장 잘 충족하도록 합니다. 선택 사항입니다. <a href="../../campaign/using/about-campaign-typologies.md">추가 정보</a> <br /> </td> 
+   <td> 게재 전송을 제어, 필터링 및 모니터링하여 회사 커뮤니케이션 정책과 함께 전송된 메시지가 고객의 요구 사항과 기대를 가장 잘 충족하도록 합니다. 선택 사항입니다. <a href="../../campaign-opt/using/about-campaign-typologies.md">추가 정보</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
@@ -179,7 +181,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> 중앙/로컬 마케팅(분산 마케팅)<br /> </td> 
-   <td> 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 캠페인을 구현합니다. 및 지역 개체(영업 지점, 지역 기관 등)를 참조하십시오. 선택 사항입니다. <a href="../../campaign/using/about-distributed-marketing.md">추가 정보</a><br /> </td> 
+   <td> 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 캠페인을 구현합니다. 및 지역 개체(영업 지점, 지역 기관 등)를 참조하십시오. 선택 사항입니다. <a href="../../distributed/using/about-distributed-marketing.md">추가 정보</a><br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
   <tr> 

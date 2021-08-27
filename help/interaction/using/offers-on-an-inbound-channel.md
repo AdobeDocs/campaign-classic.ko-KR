@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2088'
 ht-degree: 0%
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 # 인바운드 채널에 대한 오퍼{#offers-on-an-inbound-channel}
 
-## 익명 방문자 {#presenting-an-offer-to-an-anonymous-visitor}에게 오퍼 표시
+![](../../assets/v7-only.svg)
+
+## 익명의 방문자에게 오퍼 표시 {#presenting-an-offer-to-an-anonymous-visitor}
 
 네이빈 사이트는 해당 페이지를 검색하는 식별되지 않은 방문자를 대상으로 한 웹 사이트에 오퍼를 표시하려고 합니다.
 
@@ -80,7 +82,7 @@ ht-degree: 0%
 
 1. 오퍼 공간을 저장합니다.
 
-### 오퍼 카테고리 및 테마 {#creating-an-offer-category-and-a-theme} 만들기
+### 오퍼 카테고리 및 테마 만들기 {#creating-an-offer-category-and-a-theme}
 
 1. 방금 만든 환경 내의 **[!UICONTROL Offer catalog]** 노드로 이동합니다.
 1. **[!UICONTROL Offer catalog]** 노드를 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL Create a new 'Offer category' folder]** 를 선택합니다.
@@ -94,7 +96,7 @@ ht-degree: 0%
 ### 익명 오퍼 만들기 {#creating-anonymous-offers}
 
 1. 방금 만든 카테고리로 이동합니다.
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
    ![](assets/offer_inbound_anonymous_example_013.png)
 
@@ -127,7 +129,7 @@ ht-degree: 0%
 1. **[!UICONTROL Eligibility]** 탭으로 이동하여 첫 번째 오퍼와 동일한 가중치를 적용합니다.
 1. 각 오퍼에 대한 승인 주기를 실행하여 오퍼와 승인된 오퍼 공간을 온라인 환경에서 사용할 수 있도록 합니다.
 
-### 웹 사이트 {#configure-the-web-offer-space-on-the-website}에서 웹 오퍼 공간을 구성합니다
+### 웹 사이트에서 웹 오퍼 공간 구성 {#configure-the-web-offer-space-on-the-website}
 
 방금 구성한 오퍼를 웹 사이트에 표시하려면 사이트의 HTML 페이지에 JavaScript 코드를 삽입하여 상호 작용 엔진을 호출하십시오(자세한 내용은 [인바운드 채널 정보](../../interaction/using/about-inbound-channels.md) 참조).
 
@@ -147,7 +149,7 @@ ht-degree: 0%
 
 두 페이지 모두 동일한 가중치가 지정되었으므로 여러 번 페이지를 방문하는 사용자는 카테고리의 하나 또는 다른 오퍼를 볼 수 있습니다.
 
-## 식별되지 않은 연락처가 {#switching-to-an-anonymous-environment-in-case-of-unidentified-contacts}인 경우 익명 환경으로 전환
+## 식별되지 않은 연락처의 경우 익명 환경으로 전환 {#switching-to-an-anonymous-environment-in-case-of-unidentified-contacts}
 
 Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성하려고 합니다. 익명 웹 사이트 브라우저에 대한 일반 오퍼를 표시하려고 합니다. 이 사용자 중 하나가 Neobank에서 제공하는 식별자를 사용하는 고객인 경우 회사는 로그온하는 즉시 개인화된 오퍼를 수신하려고 합니다.
 
@@ -157,7 +159,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
    ![](assets/offer_inbound_fallback_example_050.png)
 
-   페이지에 다음과 같은 세 개의 익명 오퍼가 표시됩니다.두 개의 **Neobank 제품에 대한 Best Offer** 오퍼와 Neobank 파트너의 하나의 오퍼입니다.
+   페이지에 다음과 같은 세 개의 익명 오퍼가 표시됩니다. 두 개의 **Neobank 제품에 대한 Best Offer** 오퍼와 Neobank 파트너의 하나의 오퍼입니다.
 
    ![](assets/offer_inbound_fallback_example_051.png)
 
@@ -169,7 +171,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
    ![](assets/offer_inbound_fallback_example_053.png)
 
-이 사례 연구를 구현하려면 두 가지 오퍼 환경이 있어야 합니다.익명의 상호 작용용 및 식별된 연락처에 대해 특별히 구성된 오퍼가 있는 상호 작용용. 식별된 오퍼 환경은 연락처가 로그온되어 있지 않아 식별되지 않는 경우 익명 오퍼 환경으로 자동으로 전환하도록 구성됩니다.
+이 사례 연구를 구현하려면 두 가지 오퍼 환경이 있어야 합니다. 익명의 상호 작용용 및 식별된 연락처에 대해 특별히 구성된 오퍼가 있는 상호 작용용. 식별된 오퍼 환경은 연락처가 로그온되어 있지 않아 식별되지 않는 경우 익명 오퍼 환경으로 자동으로 전환하도록 구성됩니다.
 
 다음 단계를 적용합니다.
 
@@ -191,7 +193,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
    1. [웹 페이지에서 오퍼 공간 구성](#configuring-offer-spaces-on-the-web-page)
    1. [식별된 오퍼 공간의 고급 설정 지정](#specifying-the-advanced-settings-of-the-identified-offer-spaces)
 
-### 익명 연락처 {#creating-an-environment-for-anonymous-contacts} 환경을 만드는 중
+### 익명 연락처에 대한 환경 만들기 {#creating-an-environment-for-anonymous-contacts}
 
 1. 게재 매핑 마법사(**방문자** 매핑)를 통해 익명의 인바운드 상호 작용에 대한 오퍼 환경을 만듭니다. 자세한 내용은 [오퍼 환경 만들기](../../interaction/using/live-design-environments.md#creating-an-offer-environment)를 참조하십시오.
 
@@ -199,7 +201,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
 ### 익명 환경에 대한 오퍼 공간 구성 {#configuring-offer-spaces-for-the-anonymous-environment}
 
-웹 사이트에서 제공해야 하는 오퍼는 두 가지 다른 카테고리에 속합니다.**Best Offer** 및 **Partner**. 이 예제에서는 각 카테고리에 대한 특정 오퍼 공간을 만듭니다.
+웹 사이트에서 제공해야 하는 오퍼는 두 가지 다른 카테고리에 속합니다. **Best Offer** 및 **Partner**. 이 예제에서는 각 카테고리에 대한 특정 오퍼 공간을 만듭니다.
 
 **최상의 오퍼** 카테고리와 일치하는 오퍼 공간을 만들려면 다음 프로세스를 적용합니다.
 
@@ -211,7 +213,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
    ![](assets/offer_inbound_fallback_example_024.png)
 
-1. 레이블 입력:예를 들어 **웹 최고 익명 오퍼**
+1. 레이블 입력: 예를 들어 **웹 최고 익명 오퍼**
 1. 이 오퍼 공간에 사용되는 오퍼 콘텐츠 필드를 추가하고 렌더링 함수를 구성합니다.
 
    ![](assets/offer_inbound_fallback_example_025.png)
@@ -226,7 +228,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
 ### 익명 환경에서 오퍼 카테고리 만들기 {#creating-offer-categories-in-an-anonymous-environment}
 
-먼저 두 개의 오퍼 카테고리를 만듭니다.**Best Offer** 카테고리와 **Partner** 카테고리. 각 카테고리에는 익명의 연락처에 대한 두 개의 오퍼가 포함됩니다.
+먼저 두 개의 오퍼 카테고리를 만듭니다. **Best Offer** 카테고리와 **Partner** 카테고리. 각 카테고리에는 익명의 연락처에 대한 두 개의 오퍼가 포함됩니다.
 
 1. 방금 생성한 익명 환경의 **[!UICONTROL Offer catalog]**&#x200B;으로 이동합니다.
 1. **최상의 오퍼**&#x200B;를 레이블로 사용하여 **[!UICONTROL Offer category]** 폴더를 추가하십시오.
@@ -237,7 +239,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
    ![](assets/offer_inbound_fallback_example_028.png)
 
-### 익명 방문자를 위한 오퍼 만들기 {#creating-offers-for-anonymous-visitors}
+### 익명의 방문자를 위한 오퍼 만들기 {#creating-offers-for-anonymous-visitors}
 
 이제 위에 만든 각 카테고리에 두 개의 오퍼를 만듭니다.
 
@@ -276,9 +278,9 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
 1. 각 오퍼에 대한 승인 주기를 실행하여 오퍼를 라이브로 만듭니다. 컨텐츠를 승인할 때 오퍼에 따라 **Partner** 또는 **Best Offer** 오퍼 공간을 활성화합니다.
 
-### 식별된 환경 {#configure-the-offer-spaces-in-the-identified-environment}에서 오퍼 공간을 구성합니다
+### 식별된 환경에서 오퍼 공간 구성 {#configure-the-offer-spaces-in-the-identified-environment}
 
-웹 사이트에 제공할 오퍼는 두 가지 다른 카테고리에서 가져옵니다.**Best Offer** 및 **Partner**. 이 예제에서는 각 카테고리에 대해 특정 공간을 만들려고 합니다.
+웹 사이트에 제공할 오퍼는 두 가지 다른 카테고리에서 가져옵니다. **Best Offer** 및 **Partner**. 이 예제에서는 각 카테고리에 대해 특정 공간을 만들려고 합니다.
 
 두 오퍼 공백을 만들려면 익명 오퍼 공간과 동일한 절차를 적용합니다. 익명 환경에 대한 오퍼 공간 구성](#configuring-offer-spaces-for-the-anonymous-environment)을 참조하십시오.[
 
@@ -295,7 +297,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
    ![](assets/offer_inbound_fallback_example_007.png)
 
-### 식별된 오퍼 공간 {#specifying-the-advanced-settings-of-the-identified-offer-spaces}의 고급 설정 지정
+### 식별된 오퍼 공간의 고급 설정 지정 {#specifying-the-advanced-settings-of-the-identified-offer-spaces}
 
 이 예에서는 Adobe Campaign 데이터베이스의 이메일 주소 덕분에 연락처 식별이 수행됩니다. 스페이스에 수신자 이메일을 추가하려면 다음 프로세스를 적용합니다.
 
@@ -319,7 +321,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
 ### 식별된 환경에서 오퍼 카테고리 만들기 {#creating-offer-categories-in-an-identified-environment}
 
-두 가지 카테고리를 만들 예정입니다.**우수 오퍼** 카테고리와 **Partner** 카테고리는 각각 개인화된 두 개의 오퍼가 있습니다.
+두 가지 카테고리를 만들 예정입니다. **우수 오퍼** 카테고리와 **Partner** 카테고리는 각각 개인화된 두 개의 오퍼가 있습니다.
 
 1. 식별된 환경의 **[!UICONTROL Offer catalogs]** 노드로 이동합니다.
 1. 익명 환경에서처럼 **Best Offer** 및 **Partner**&#x200B;를 레이블로 두 개의 **[!UICONTROL Offer category]** 폴더를 추가하십시오.
@@ -363,7 +365,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
 ### 웹 페이지에서 오퍼 공간 구성 {#configuring-offer-spaces-on-the-web-page}
 
-Neobank 회사의 웹 사이트에는 오퍼를 위한 세 개의 공간이 있습니다.**우수 오퍼** 카테고리의 은행 관련 오퍼에 대해 두 개, **Partner** 카테고리의 오퍼에 대해 한 개.
+Neobank 회사의 웹 사이트에는 오퍼를 위한 세 개의 공간이 있습니다. **우수 오퍼** 카테고리의 은행 관련 오퍼에 대해 두 개, **Partner** 카테고리의 오퍼에 대해 한 개.
 
 ![](assets/offer_inbound_fallback_example_038.png)
 
@@ -399,7 +401,7 @@ Neobank 회사의 웹 사이트에는 오퍼를 위한 세 개의 공간이 있�
 
    URL에 식별된 환경의 내부 이름인 **EnvNeobankRecip**&#x200B;가 포함되어 있습니다.
 
-웹 페이지를 열 때;스크립트를 사용하면 상호 작용 엔진을 호출하여 웹 페이지의 관련 공간에 오퍼 콘텐츠를 표시할 수 있습니다. Adobe Campaign 서버에 대한 단일 호출에서 엔진은 선택할 환경, 오퍼 공간 및 카테고리를 결정합니다.
+웹 페이지를 열 때; 스크립트를 사용하면 상호 작용 엔진을 호출하여 웹 페이지의 관련 공간에 오퍼 콘텐츠를 표시할 수 있습니다. Adobe Campaign 서버에 대한 단일 호출에서 엔진은 선택할 환경, 오퍼 공간 및 카테고리를 결정합니다.
 
 이 예에서 엔진은 식별된 환경(**EnvNeobankIdnRecip**)을 인식합니다. 이 ID는 웹 페이지의 첫 번째 및 두 번째 오퍼 공간에 대한 오퍼 공간(**OSWebBestOfferIdentified**) 및 **Best Offer** 카테고리(**CatBestOffer**)와 (**OSWebPartnerIdentified**) 오퍼 공간과 **Partner** 카테고리(**)를 식별합니다. 를 사용하십시오.**
 

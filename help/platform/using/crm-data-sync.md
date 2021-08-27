@@ -6,16 +6,18 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
 
-# Campaign과 CRM {#data-synchronization} 간의 데이터 동기화
+# Campaign과 CRM 간에 데이터 동기화 {#data-synchronization}
 
-Adobe Campaign과 CRM 간의 데이터 동기화는 전용 워크플로우 활동을 통해 수행됩니다.[CRM 커넥터](../../workflow/using/crm-connector.md)
+![](../../assets/common.svg)
+
+Adobe Campaign과 CRM 간의 데이터 동기화는 전용 워크플로우 활동을 통해 수행됩니다. [CRM 커넥터](../../workflow/using/crm-connector.md)
 
 예를 들어 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오려면 다음 유형의 워크플로우를 만드십시오.
 
@@ -36,13 +38,13 @@ Adobe Campaign과 CRM 간의 데이터 동기화는 전용 워크플로우 활�
 
 ![](assets/crm_task_select_op.png)
 
-동기화를 구성할 CRM과 일치하는 외부 계정을 선택한 다음 동기화할 개체를 선택합니다.계정, 기회, 리드, 연락처 등
+동기화를 구성할 CRM과 일치하는 외부 계정을 선택한 다음 동기화할 개체를 선택합니다. 계정, 기회, 리드, 연락처 등
 
 ![](assets/crm_task_select_obj.png)
 
 이 활동의 구성은 수행할 프로세스에 따라 다릅니다. 다양한 구성은 아래에 자세히 설명되어 있습니다.
 
-## CRM {#importing-from-the-crm}에서 가져오기
+## CRM에서 가져오기 {#importing-from-the-crm}
 
 Adobe Campaign에서 CRM을 통해 데이터를 가져오려면 다음 유형의 워크플로우를 만들어야 합니다.
 
@@ -86,13 +88,13 @@ Adobe Campaign에서 CRM을 통해 데이터를 가져오려면 다음 유형의
 
 ![](assets/crm_task_import_option.png)
 
-마지막 동기화 날짜는 기본적으로 구성 창에 지정된 옵션에 저장됩니다.**LASTIMPORT_&lt;%=instance.internalName%>_&lt;%=activityName%>**.
+마지막 동기화 날짜는 기본적으로 구성 창에 지정된 옵션에 저장됩니다. **LASTIMPORT_&lt;%=instance.internalName%>_&lt;%=activityName%>**.
 
 >[!NOTE]
 >
 >이 메모는 일반 **[!UICONTROL CRM Connector]** 활동에만 적용됩니다. 다른 CRM 활동의 경우 이 프로세스는 자동으로 수행됩니다.
 >
->이 옵션은 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**&#x200B;에서 수동으로 만들고 채워야 합니다. 텍스트 옵션이어야 하며 해당 값이 다음 형식과 일치해야 합니다.**yyyy/MM/dd hh:mm:ss**.
+>이 옵션은 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**&#x200B;에서 수동으로 만들고 채워야 합니다. 텍스트 옵션이어야 하며 해당 값이 다음 형식과 일치해야 합니다. **yyyy/MM/dd hh:mm:ss**.
 > 
 >추가로 가져오려면 이 옵션을 수동으로 업데이트해야 합니다.
 
@@ -100,18 +102,18 @@ Adobe Campaign에서 CRM을 통해 데이터를 가져오려면 다음 유형의
 
 기본적으로 다음 필드가 사용됩니다(지정된 순서로).
 
-* Microsoft Dynamics의 경우:**수정**,
-* Salesforce.com의 경우:**LastModifiedDate**, **SystemModstamp**.
+* Microsoft Dynamics의 경우: **수정**,
+* Salesforce.com의 경우: **LastModifiedDate**, **SystemModstamp**.
 
 **[!UICONTROL Automatic index]** 옵션을 활성화하면 **[!UICONTROL JavaScript code]** 유형 활동을 통해 동기화 워크플로우에서 사용할 수 있는 세 개의 변수가 생성됩니다. 이러한 활동은 다음과 같습니다.
 
-* **vars.crmOptionName**:마지막 가져오기 날짜가 포함된 옵션의 이름을 나타냅니다.
-* **vars.crmStartImport**:마지막 데이터 복구의 시작 날짜(포함)를 나타냅니다.
-* **vars.crmEndDate**:마지막 데이터 복구의 종료 날짜(제외)를 나타냅니다.
+* **vars.crmOptionName**: 마지막 가져오기 날짜가 포함된 옵션의 이름을 나타냅니다.
+* **vars.crmStartImport**: 마지막 데이터 복구의 시작 날짜(포함)를 나타냅니다.
+* **vars.crmEndDate**: 마지막 데이터 복구의 종료 날짜(제외)를 나타냅니다.
 
    >[!NOTE]
    >
-   >이 날짜는 다음 형식으로 표시됩니다.**yyyy/MM/dd hh:mm:ss**.
+   >이 날짜는 다음 형식으로 표시됩니다. **yyyy/MM/dd hh:mm:ss**.
 
 ### 데이터 필터링 {#filtering-data}
 
@@ -131,7 +133,7 @@ Adobe Campaign에서 CRM을 통해 데이터를 가져오려면 다음 유형의
 
 ![](assets/crm_import_wrong_filter.png)
 
-### {#order-by} 정렬
+### 정렬 기준 {#order-by}
 
 Microsoft Dynamics 및 Salesforce.com에서는 가져올 원격 필드를 오름차순이나 내림차순으로 정렬할 수 있습니다.
 
@@ -141,7 +143,7 @@ Microsoft Dynamics 및 Salesforce.com에서는 가져올 원격 필드를 오름
 
 ![](assets/crm_import_order.png)
 
-### 레코드 식별 {#record-identification}
+### 기록 식별 {#record-identification}
 
 CRM에 포함된(및 필터링될 수 있는) 요소를 가져오는 대신 워크플로우에서 미리 계산된 모집단을 사용할 수 있습니다.
 
@@ -151,7 +153,7 @@ CRM에 포함된(및 필터링될 수 있는) 요소를 가져오는 대신 워�
 
 ![](assets/crm_wf_import_calculated_population.png)
 
-## CRM {#exporting-to-the-crm}으로 내보내기
+## CRM으로 내보내기 {#exporting-to-the-crm}
 
 Adobe Campaign 데이터를 CRM에 내보내면 전체 컨텐츠를 CRM 데이터베이스에 복사할 수 있습니다.
 
@@ -176,7 +178,7 @@ CRM으로 데이터를 내보내려면 다음 유형의 워크플로우를 만�
 
    >[!NOTE]
    >
-   >주어진 필드의 경우 CRM 측에 일치하는 항목이 정의되지 않으면 값을 업데이트할 수 없습니다.CRM에 바로 삽입됩니다.
+   >주어진 필드의 경우 CRM 측에 일치하는 항목이 정의되지 않으면 값을 업데이트할 수 없습니다. CRM에 바로 삽입됩니다.
 
    필요한 경우 **[!UICONTROL Conversion]** 열의 드롭다운 목록을 통해 데이터 형식을 변경합니다. 가능한 변환 유형은 [데이터 형식](#data-format)에 자세히 설명되어 있습니다.
 
@@ -198,11 +200,11 @@ CRM에서 또는 CRM으로 가져올 때 데이터 형식을 즉시 변환할 �
 
 가능한 기타 전환은 다음과 같습니다.
 
-* **[!UICONTROL Date only]**:이 모드에서는 날짜 + 시간 유형 필드가 삭제됩니다.
-* **[!UICONTROL Without time offset]**:이 모드는 기본 모드에서 적용된 시간대 관리를 취소합니다.
-* **[!UICONTROL Copy/Paste]**:이 모드는 문자열(변환 없음)과 같은 원시 데이터를 사용합니다.
+* **[!UICONTROL Date only]**: 이 모드에서는 날짜 + 시간 유형 필드가 삭제됩니다.
+* **[!UICONTROL Without time offset]**: 이 모드는 기본 모드에서 적용된 시간대 관리를 취소합니다.
+* **[!UICONTROL Copy/Paste]**: 이 모드는 문자열(변환 없음)과 같은 원시 데이터를 사용합니다.
 
-### {#error-processing} 처리 중 오류가 발생했습니다.
+### 처리 오류 {#error-processing}
 
 데이터 가져오기 또는 내보내기의 프레임워크 내에서 특정 프로세스를 오류 및 거부에 적용할 수 있습니다. 이렇게 하려면 **[!UICONTROL Behavior]** 탭에서 **[!UICONTROL Process rejects]** 및 **[!UICONTROL Process errors]** 옵션을 선택합니다.
 
@@ -228,7 +230,7 @@ CRM에서 또는 CRM으로 가져올 때 데이터 형식을 즉시 변환할 �
 
 광범위한 데이터 동기화 프로세스를 설정하기 위해 CRM에서 삭제된 개체를 Adobe Campaign에 가져올 수 있습니다.
 
-이렇게 하려면 다음 단계를 적용합니다.
+그렇게 하려면 다음 단계를 적용합니다.
 
 1. **[!UICONTROL Import objects deleted in the CRM]** 작업을 선택합니다.
 1. **[!UICONTROL Remote object]** 드롭다운 목록으로 이동한 후 프로세스에 관련된 객체를 선택합니다. 이 개체는 커넥터 구성 중에 Adobe Campaign에서 만든 표 중 하나와 일치합니다.
@@ -240,7 +242,7 @@ CRM에서 또는 CRM으로 가져올 때 데이터 형식을 즉시 변환할 �
    >
    >요소 삭제 기간은 CRM에 관련된 제한 사항과 일치해야 합니다. 즉, Salesforce.com의 경우, 예를 들어 30일 전에 삭제된 요소는 복구할 수 없습니다.
 
-## CRM {#deleting-objects-in-the-crm}에서 개체 삭제
+## CRM에서 개체 삭제 {#deleting-objects-in-the-crm}
 
 CRM 측에서 개체를 삭제하려면 삭제할 원격 요소의 기본 키를 지정해야 합니다.
 
@@ -251,4 +253,3 @@ CRM 측에서 개체를 삭제하려면 삭제할 원격 요소의 기본 키를
 >[!NOTE]
 >
 >**[!UICONTROL Process rejects]** 옵션이 비활성화된 경우에도 거부된 각 열에 대한 경고가 생성됩니다.
-

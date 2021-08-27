@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2468'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 비용 제어{#controlling-costs}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign을 사용하면 예약, 약정 및 송장 발행 마케팅 비용을 제어하고 마케팅 리소스 관리 모듈을 사용하여 카테고리별로 분류할 수 있습니다.
 
@@ -269,7 +271,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 1. 캠페인에 대한 워크플로우를 만들고 쿼리 활동을 배치하여 타겟을 선택합니다(경고: 수신자 우편 주소를 지정해야 함).
 
-1. DM 게재를 만들고 2단계에서 만든 서비스 공급자를 선택합니다.원가 범주가 자동으로 표시됩니다.
+1. DM 게재를 만들고 2단계에서 만든 서비스 공급자를 선택합니다. 원가 범주가 자동으로 표시됩니다.
 
 1. 봉투의 비용을 무시하고 고정 비용을 추가합니다. 또한 이러한 비용에 관련된 카테고리를 선택합니다.
 
@@ -315,7 +317,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
    작업이 완료되면(상태 **[!UICONTROL Finished]**), 계산된 비용이 비용 구조에 입력된 대로 Large Room 비용으로 자동 업데이트됩니다. 이 비용은 분류에서 이 카테고리에 나타납니다.
 
-1. 그런 다음 동일한 절차에 따라 두 번째 작업을 만듭니다.5일 동안 예약되며 이전에 만든 비용 구조와 관련되어 있습니다.
+1. 그런 다음 동일한 절차에 따라 두 번째 작업을 만듭니다. 5일 동안 예약되며 이전에 만든 비용 구조와 관련되어 있습니다.
 
    ![](assets/s_user_cost_mgmt_sample_16.png)
 

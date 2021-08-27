@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 6%
@@ -15,9 +15,11 @@ ht-degree: 6%
 
 # 이 활용 사례 정보 {#about-use-case}
 
-이 사용 사례에서는 타겟팅 워크플로우를 통해 두 개의 이메일 게재 콘텐츠를 비교하려고 합니다. 메시지와 텍스트는 두 게재에서 동일합니다.레이아웃만 변경됩니다.
+![](../../assets/common.svg)
 
-타겟팅된 모집단은 다음 세 개로 나누어집니다.두 개의 테스트 그룹과 나머지 모집단. 각 테스트 그룹에 다른 버전의 게재가 전송됩니다.
+이 사용 사례에서는 타겟팅 워크플로우를 통해 두 개의 이메일 게재 콘텐츠를 비교하려고 합니다. 메시지와 텍스트는 두 게재에서 동일합니다. 레이아웃만 변경됩니다.
+
+타겟팅된 모집단은 다음 세 개로 나누어집니다. 두 개의 테스트 그룹과 나머지 모집단. 각 테스트 그룹에 다른 버전의 게재가 전송됩니다.
 
 게재 후 가장 높은 공개 비율의 결과를 수집하기 전에 5일 대기 기간이 구성됩니다. 점수가 가장 높은 게재 컨텐츠는 스크립트로 복구되고 테스트 그룹으로 사용되지 않은 모집단에 전송됩니다.
 
@@ -27,14 +29,14 @@ ht-degree: 6%
 
 이 사용 사례를 수행하는 주요 단계는 다음과 같습니다.
 
-* [1단계:타겟팅 워크플로우 만들기](a-b-testing-uc-targeting-workflow.md)
-* [2단계:모집단 샘플 구성](a-b-testing-uc-population-samples.md)
-* [3단계:두 개의 게재 템플릿 만들기](a-b-testing-uc-delivery-templates.md)
-* [4단계:워크플로우에서 게재 구성](a-b-testing-uc-configuring-deliveries.md)
-* [5단계:스크립트 만들기](a-b-testing-uc-script.md)
-* [6단계:최종 게재 정의](a-b-testing-uc-final-delivery.md)
-* [7단계:워크플로우 시작](a-b-testing-uc-start-workflow.md)
-* [8단계:결과 분석](a-b-testing-uc-analyzing.md)
+* [1단계: 타겟팅 워크플로우 만들기](a-b-testing-uc-targeting-workflow.md)
+* [2단계: 모집단 샘플 구성](a-b-testing-uc-population-samples.md)
+* [3단계: 두 개의 게재 템플릿 만들기](a-b-testing-uc-delivery-templates.md)
+* [4단계: 워크플로우에서 게재 구성](a-b-testing-uc-configuring-deliveries.md)
+* [5단계: 스크립트 만들기](a-b-testing-uc-script.md)
+* [6단계: 최종 게재 정의](a-b-testing-uc-final-delivery.md)
+* [7단계: 워크플로우 시작](a-b-testing-uc-start-workflow.md)
+* [8단계: 결과 분석](a-b-testing-uc-analyzing.md)
 
 **관련 항목:**
 

@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7d1bb3c6-d056-4212-9500-75459a0046fa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 97%
@@ -14,6 +14,8 @@ ht-degree: 97%
 ---
 
 # 워크플로우 FAQ {#workflows-faq}
+
+![](../../assets/common.svg)
 
 Adobe Campaign 워크플로우를 통해 프로세스와 작업을 오케스트레이션하는 방법을 배웁니다.
 
@@ -27,7 +29,7 @@ Adobe Campaign 워크플로우를 통해 프로세스와 작업을 오케스트�
 
 ## 워크플로우 실행을 모니터링할 수 있습니까? {#can-i-monitor-workflow-execution-}
 
-[이 페이지](../../workflow/using/starting-a-workflow.md)에서 Campaign 워크플로우 실행을 모니터링하는 방법을 이해합니다.
+[이 페이지](../../workflow/using/starting-a-workflow.md)에서 캠페인 워크플로우 실행을 모니터링하는 방법을 이해합니다.
 
 ## 워크플로우로 Campaign 데이터를 어떻게 업데이트할 수 있습니까? {#how-can-i-update-campaign-data-with-a-workflow-}
 

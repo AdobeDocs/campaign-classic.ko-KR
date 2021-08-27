@@ -6,7 +6,7 @@ description: FDA에서 Vertica에 대한 액세스를 구성하는 방법을 알
 audience: platform
 content-type: reference
 topic-tags: connectors
-source-git-commit: a7c080fe4db72f659659c7cac8f2c02031822e04
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 4%
@@ -14,7 +14,9 @@ ht-degree: 4%
 ---
 
 
-# Vertica {#configure-fda-vertica}에 대한 액세스 구성
+# Vertica에 대한 액세스 구성 {#configure-fda-vertica}
+
+![](../../assets/v7-only.svg)
 
 Campaign **Federated Data Access** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 [!DNL Vertica]에 대한 액세스를 구성하십시오.
 
@@ -90,7 +92,7 @@ CentOS에서 [!DNL Vertica]을 구성하려면 아래 단계를 수행하십시�
 
 1. 그런 다음 Adobe Campaign에서 [!DNL Vertica] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#vertical-external)을 참조하십시오.
 
-## Vertica on Debian {#vertica-debian}
+## 베르티카 온 데비안 {#vertica-debian}
 
 1. [!DNL Vertica]용 ODBC 드라이버를 다운로드합니다. [다운로드 ](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) 재시작 을 클릭합니다.
 
@@ -150,7 +152,7 @@ Campaign 인스턴스를 [!DNL Vertica] 외부 데이터베이스에 연결하�
 
 1. Campaign **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** &#39; **[!UICONTROL Platform]**&#39; **[!UICONTROL External accounts]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
 1. 외부 계정의 **[!UICONTROL Type]**(으)로 **[!UICONTROL External database]**&#x200B;을(를) 선택합니다.
 
@@ -158,11 +160,11 @@ Campaign 인스턴스를 [!DNL Vertica] 외부 데이터베이스에 연결하�
 
    * **[!UICONTROL Type]**: [!DNL Vertica Analytics]
 
-   * **[!UICONTROL Server]**:서버의  [!DNL Vertica] URL
+   * **[!UICONTROL Server]**: 서버의  [!DNL Vertica] URL
 
-   * **[!UICONTROL Account]**:사용자의 이름
+   * **[!UICONTROL Account]**: 사용자의 이름
 
-   * **[!UICONTROL Password]**:사용자 계정 암호
+   * **[!UICONTROL Password]**: 사용자 계정 암호
 
-   * **[!UICONTROL Database]**:데이터베이스 이름
+   * **[!UICONTROL Database]**: 데이터베이스 이름
    ![](assets/vertica.png)

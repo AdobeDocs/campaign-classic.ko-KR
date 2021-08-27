@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 데이터베이스에 연결 {#connecting-to-the-database}
+
+![](../../assets/v7-only.svg)
 
 외부 데이터베이스에 대한 연결을 활성화하려면 연결 매개 변수(즉, 대상 데이터 소스 및 로드가 필요한 데이터가 있는 테이블 이름)를 표시해야 합니다.
 
@@ -46,7 +48,7 @@ ht-degree: 2%
 
 ## 임시 연결 만들기 {#creating-a-temporary-connection}
 
-워크플로우 활동에서 외부 데이터베이스에 대한 연결을 직접 정의할 수 있습니다. 이 경우 현재 워크플로우 내에서 사용하도록 예약된 로컬 외부 데이터베이스에 있습니다.외부 계정에는 저장되지 않습니다. 이러한 유형의 정확한 연결은 워크플로우의 다른 활동, 특히 **[!UICONTROL Query]**, **[!UICONTROL Data loading (RDBMS)]**, **[!UICONTROL Enrichment]** 활동 또는 **[!UICONTROL Split]** 활동에서 만들 수 있습니다.
+워크플로우 활동에서 외부 데이터베이스에 대한 연결을 직접 정의할 수 있습니다. 이 경우 현재 워크플로우 내에서 사용하도록 예약된 로컬 외부 데이터베이스에 있습니다. 외부 계정에는 저장되지 않습니다. 이러한 유형의 정확한 연결은 워크플로우의 다른 활동, 특히 **[!UICONTROL Query]**, **[!UICONTROL Data loading (RDBMS)]**, **[!UICONTROL Enrichment]** 활동 또는 **[!UICONTROL Split]** 활동에서 만들 수 있습니다.
 
 >[!CAUTION]
 >
@@ -92,7 +94,7 @@ ht-degree: 2%
 
 외부 FDA 계정을 구성할 때 외부 데이터베이스에 대한 액세스 권한을 보호할 수 있습니다.
 
-이렇게 하려면 사용된 포트의 서버 주소와 주소 뒤에 &quot;**:ssl**&quot;을 추가합니다. 예:**192.168.0.52:4501:ssl**
+이렇게 하려면 사용된 포트의 서버 주소와 주소 뒤에 &quot;**:ssl**&quot;을 추가합니다. 예: **192.168.0.52:4501:ssl**
 
 그러면 보안 SSL 프로토콜을 통해 데이터가 전송됩니다.
 

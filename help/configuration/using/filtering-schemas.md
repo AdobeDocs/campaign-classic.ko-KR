@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -15,19 +15,21 @@ ht-degree: 0%
 
 # 스키마 필터링{#filtering-schemas}
 
+![](../../assets/v7-only.svg)
+
 ## 시스템 필터 {#system-filters}
 
 사용 권한에 따라 특정 사용자에 대한 스키마 액세스를 필터링할 수 있습니다. 시스템 필터를 사용하면 **readAccess** 및 **writeAccess** 매개 변수를 사용하여 스키마에 자세히 나와 있는 엔터티의 읽기 및 쓰기 권한을 관리할 수 있습니다.
 
 >[!NOTE]
 >
->이 제한 사항은 기술 전문가가 아닌 사용자만 적용됩니다.관련 권한이 있거나 워크플로우를 사용하는 기술 사용자는 데이터를 검색하고 업데이트할 수 있습니다.
+>이 제한 사항은 기술 전문가가 아닌 사용자만 적용됩니다. 관련 권한이 있거나 워크플로우를 사용하는 기술 사용자는 데이터를 검색하고 업데이트할 수 있습니다.
 
-* **readAccess**:스키마 데이터에 대한 읽기 전용 액세스 권한을 제공합니다.
+* **readAccess**: 스키마 데이터에 대한 읽기 전용 액세스 권한을 제공합니다.
 
    **경고**  - 연결된 모든 테이블은 동일한 제한을 사용하여 설정해야 합니다. 이 구성은 성능에 영향을 줄 수 있습니다.
 
-* **writeAccess**:스키마 데이터에 대한 쓰기 액세스를 제공합니다.
+* **writeAccess**: 스키마 데이터에 대한 쓰기 액세스를 제공합니다.
 
 이러한 필터는 스키마의 기본 **요소** 수준에서 입력되며, 다음 예와 같이 액세스를 제한하려면 형식을 지정할 수 있습니다.
 

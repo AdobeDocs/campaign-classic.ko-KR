@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # 기술 워크플로우 모니터링 {#monitoring-technical-workflows}
+
+![](../../assets/common.svg)
 
 기술 워크플로우를 모니터링해야 하며 실패한 경우 작업을 수행해야 합니다.
 
@@ -37,26 +39,26 @@ ht-degree: 8%
 
 기술 워크플로우에 따라 아래 자세한 단계에 따라 모든 것이 예상대로 작동하는지 확인합니다.
 
-각 기술 워크플로우의 작업을 더 잘 이해하려면 이 [섹션](../../workflow/using/about-technical-workflows.md)을 참조하십시오.
+각 기술 워크플로우의 작업을 더 잘 이해하려면 이 [섹션](about-technical-workflows.md)을 참조하십시오.
 
 **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**&#x200B;의 경우:
 
-1. **[!UICONTROL Database Cleanup]** 워크플로우가 매일 성공적으로 실행되고 완료되는지 확인합니다. 자세한 정보는 이 [페이지](../../workflow/using/delivery.md)를 참조하십시오.
+1. **[!UICONTROL Database Cleanup]** 워크플로우가 매일 성공적으로 실행되고 완료되는지 확인합니다. 자세한 정보는 이 [페이지](delivery.md)를 참조하십시오.
 1. 저널을 확인하여 경과 시간이 시간에 따라 상대적으로 일정하며 다른 워크플로우를 방해하지 않는지 확인합니다.
 1. 자세한 내용은 이 [page](../../production/using/database-cleanup-workflow.md)을 참조하십시오.
 
 **[!UICONTROL Tracking workflow (‘tracking’)]**&#x200B;의 경우:
 
-추적 워크플로우가 예약된 대로(기본적으로 매시간) 실행되는지 그리고 저널에 반복 오류가 강조 표시되지 않는지 확인합니다. 자세한 정보는 이 [섹션](../../workflow/using/delivery.md)을 참조하십시오.
+추적 워크플로우가 예약된 대로(기본적으로 매시간) 실행되는지 그리고 저널에 반복 오류가 강조 표시되지 않는지 확인합니다. 자세한 정보는 이 [섹션](delivery.md)을 참조하십시오.
 
 **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**&#x200B;의 경우:
 
-1. **[!UICONTROL Deliverability update]** 워크플로우가 매일 성공적으로 실행되고 완료되는지 확인합니다. 자세한 정보는 이 [페이지](../../workflow/using/delivery.md)를 참조하십시오.
+1. **[!UICONTROL Deliverability update]** 워크플로우가 매일 성공적으로 실행되고 완료되는지 확인합니다. 자세한 정보는 이 [페이지](delivery.md)를 참조하십시오.
 1. 규칙이 정기적으로 업데이트되는지 저널에서 확인합니다.
 
 **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**&#x200B;의 경우:
 
-1. **[!UICONTROL Campaign process]** 폴더 아래에 있는 모든 워크플로우를 확인합니다. 자세한 정보는 이 [페이지](../../workflow/using/about-technical-workflows.md)를 참조하십시오.
+1. **[!UICONTROL Campaign process]** 폴더 아래에 있는 모든 워크플로우를 확인합니다. 자세한 정보는 이 [페이지](about-technical-workflows.md)를 참조하십시오.
 1. 워크플로우가 예약됨으로 실행되며 저널에 재귀 오류가 강조 표시되지 않는지 확인합니다.
 
 ## 워크플로우 감독 {#workflow-supervision}

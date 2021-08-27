@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 마케팅 캠페인 액세스{#accessing-marketing-campaigns}
+
+![](../../assets/common.svg)
 
 Adobe Campaign을 사용하면 마케팅 캠페인을 만들고, 구성하고, 실행하고, 분석할 수 있습니다. 모든 마케팅 캠페인은 통합 제어 센터에서 관리할 수 있습니다.
 
@@ -27,14 +29,14 @@ Adobe Campaign에 연결하면 홈 페이지가 표시됩니다.
 
 탐색 막대의 링크를 클릭하여 다양한 기능에 액세스합니다.
 
-캠페인 요소는 **[!UICONTROL Campaigns]** 탭에 있습니다.여기에서 마케팅 프로그램 및 캠페인과 하위 세트에 대한 개요를 볼 수 있습니다. 마케팅 프로그램은 게재, 작업, 연결된 리소스 등으로 구성된 캠페인으로 구성됩니다. Campaign을 사용한 마케팅 캠페인 관리 컨텍스트에서 게재, 예산, 검토자 및 연결된 문서에 대한 정보가 캠페인에서 제공됩니다.
+캠페인 요소는 **[!UICONTROL Campaigns]** 탭에 있습니다. 여기에서 마케팅 프로그램 및 캠페인과 하위 세트에 대한 개요를 볼 수 있습니다. 마케팅 프로그램은 게재, 작업, 연결된 리소스 등으로 구성된 캠페인으로 구성됩니다. Campaign을 사용한 마케팅 캠페인 관리 컨텍스트에서 게재, 예산, 검토자 및 연결된 문서에 대한 정보가 캠페인에서 제공됩니다.
 
 **[!UICONTROL Campaigns]** 탭의 **[!UICONTROL Browsing]** 블록은 인스턴스에 설치된 모듈에 따라 다양한 항목을 제공합니다. 예를 들어 다음 항목에 액세스할 수 있습니다.
 
-* **캠페인 달력**:계획, 마케팅 프로그램, 게재 및 캠페인 일정. [캠페인 달력](#campaign-calendar)을 참조하십시오.
-* **캠페인**:모든 마케팅 프로그램에 포함된 캠페인에 액세스할 수 있습니다.
-* **게재**:캠페인에 연결된 게재에 액세스합니다.
-* **웹 애플리케이션**:웹 애플리케이션(양식, 랜딩 페이지 등)에 대한 액세스 권한.
+* **캠페인 달력**: 계획, 마케팅 프로그램, 게재 및 캠페인 일정. [캠페인 달력](#campaign-calendar)을 참조하십시오.
+* **캠페인**: 모든 마케팅 프로그램에 포함된 캠페인에 액세스할 수 있습니다.
+* **게재**: 캠페인에 연결된 게재에 액세스합니다.
+* **웹 애플리케이션**: 웹 애플리케이션(양식, 랜딩 페이지 등)에 대한 액세스 권한.
 
 >[!NOTE]
 >
@@ -60,7 +62,7 @@ Adobe Campaign에 연결하면 홈 페이지가 표시됩니다.
 
 **[!UICONTROL Search]** 필드를 사용하여 표시된 항목을 필터링할 수도 있습니다.
 
-각 항목에 연결된 아이콘을 사용하여 상태를 볼 수 있습니다.완료, 진행 중, 편집 중 등
+각 항목에 연결된 아이콘을 사용하여 상태를 볼 수 있습니다. 완료, 진행 중, 편집 중 등
 
 ### 마케팅 프로그램에서 찾아보기 {#browsing-in-a-marketing-program}
 
@@ -76,7 +78,7 @@ Campaign을 사용하면 다양한 마케팅 캠페인으로 구성된 프로그
 
    ![](assets/s_ncs_user_interface_campaign02.png)
 
-* **편집** 탭에서는 프로그램을 개인화할 수 있습니다.이름, 시작 및 종료 날짜, 예산, 링크된 문서 등
+* **편집** 탭에서는 프로그램을 개인화할 수 있습니다. 이름, 시작 및 종료 날짜, 예산, 링크된 문서 등
 
    ![](assets/s_ncs_user_interface_campaign05.png)
 
@@ -103,11 +105,11 @@ Campaign을 사용하면 다양한 마케팅 캠페인으로 구성된 프로그
 
 각 캠페인에 대해 작업, 리소스 및 게재가 하나의 화면 즉 대시보드에 중앙 집중화되므로 다른 사용자와 협력하여 마케팅 작업을 관리할 수 있습니다.
 
-캠페인의 대시보드는 컨트롤 인터페이스로 사용됩니다. 기본 캠페인 만들기 및 관리 단계에 직접 액세스합니다.게재, 추출 파일, 알림, 예산 등
+캠페인의 대시보드는 컨트롤 인터페이스로 사용됩니다. 기본 캠페인 만들기 및 관리 단계에 직접 액세스합니다. 게재, 추출 파일, 알림, 예산 등
 
 ![](assets/s_ncs_user_op_board_start_del.png)
 
-Adobe Campaign을 사용하면 다양한 마케팅 및 커뮤니케이션 캠페인 단계의 작성 및 승인을 위한 공동 작업 프로세스를 설정할 수 있습니다.예산, 대상, 콘텐츠 등의 승인
+Adobe Campaign을 사용하면 다양한 마케팅 및 커뮤니케이션 캠페인 단계의 작성 및 승인을 위한 공동 작업 프로세스를 설정할 수 있습니다. 예산, 대상, 콘텐츠 등의 승인
 
 ![](assets/s_ncs_user_op_board_validate.png)
 
@@ -117,7 +119,7 @@ Adobe Campaign을 사용하면 다양한 마케팅 및 커뮤니케이션 캠페
 
 #### 예약 {#schedule}
 
-캠페인은 게재 집합을 중앙 집중화합니다. 각 캠페인에 대해 예약은 모든 구성 요소에 대한 전역 보기를 제공합니다.이를 통해 작업 및 게재를 표시하고 쉽게 액세스할 수 있습니다.
+캠페인은 게재 집합을 중앙 집중화합니다. 각 캠페인에 대해 예약은 모든 구성 요소에 대한 전역 보기를 제공합니다. 이를 통해 작업 및 게재를 표시하고 쉽게 액세스할 수 있습니다.
 
 ![](assets/campaign_planning_tab.png)
 
@@ -141,11 +143,11 @@ Adobe Campaign을 사용하면 다양한 마케팅 및 커뮤니케이션 캠페
 
 캠페인은 캠페인 템플릿을 통해 만들어집니다. 일부 옵션을 선택하고 다른 설정이 이미 저장된 재사용 가능한 템플릿을 구성할 수 있습니다. 각 캠페인에 대해 다음 기능이 제공됩니다.
 
-* 문서 및 리소스 참조:캠페인에 문서(개요, 보고서, 이미지 등)를 연결할 수 있습니다. 모든 문서 형식이 지원됩니다. [연결된 문서 관리](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)를 참조하십시오.
-* 비용 정의:Adobe Campaign에서는 각 캠페인에 대해 마케팅 캠페인을 만들 때 사용할 수 있는 비용 항목 및 비용 계산 구조를 정의할 수 있습니다. 예:인쇄비, 외부 기관의 사용, 객실 대여 등 [비용 범주 정의](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories)를 참조하십시오.
-* 목표 정의:캠페인의 수량 가능한 목표(예: 구독자 수, 비즈니스 볼륨 등)를 정의할 수 있습니다. 이 정보는 나중에 캠페인 보고서에서 사용됩니다.
+* 문서 및 리소스 참조: 캠페인에 문서(개요, 보고서, 이미지 등)를 연결할 수 있습니다. 모든 문서 형식이 지원됩니다. [연결된 문서 관리](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)를 참조하십시오.
+* 비용 정의: Adobe Campaign에서는 각 캠페인에 대해 마케팅 캠페인을 만들 때 사용할 수 있는 비용 항목 및 비용 계산 구조를 정의할 수 있습니다. 예: 인쇄비, 외부 기관의 사용, 객실 대여 등 [비용 범주 정의](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories)를 참조하십시오.
+* 목표 정의: 캠페인의 수량 가능한 목표(예: 구독자 수, 비즈니스 볼륨 등)를 정의할 수 있습니다. 이 정보는 나중에 캠페인 보고서에서 사용됩니다.
 * 시드 주소 관리(자세한 내용은 [이 섹션](../../delivery/using/about-seed-addresses.md))와 컨트롤 그룹([컨트롤 그룹 정의](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group) 참조)을 참조하십시오.
-* 승인 관리:승인할 처리를 선택할 수 있으며, 필요한 경우 검토 연산자 또는 연산자 그룹을 선택합니다. [게재 확인 및 승인](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)을 참조하십시오.
+* 승인 관리: 승인할 처리를 선택할 수 있으며, 필요한 경우 검토 연산자 또는 연산자 그룹을 선택합니다. [게재 확인 및 승인](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)을 참조하십시오.
 
 >[!NOTE]
 >

@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 7%
@@ -14,6 +14,8 @@ ht-degree: 7%
 ---
 
 # 추가 구성 {#mc-additional-configurations}
+
+![](../../assets/v7-only.svg)
 
 ## 임계값 모니터링 {#monitoring-thresholds}
 
@@ -58,7 +60,7 @@ ht-degree: 7%
 
 트랜잭션 메시지(메시지 센터)와 관련된 다양한 기술 워크플로우는 제어 인스턴스와 실행 인스턴스 간에 분류됩니다.
 
-### 제어 인스턴스 워크플로우 {#control-instance-workflows}
+### 인스턴스 워크플로우 제어 {#control-instance-workflows}
 
 제어 인스턴스에서 하나 또는 여러 개의 실행 인스턴스가 등록된 경우 각각 **[!UICONTROL Message Center execution instance]** 외부 계정에 대해 하나의 보관 워크플로우를 만들어야 합니다. **[!UICONTROL Create the archiving workflow]** 단추를 클릭하여 워크플로우를 만들고 시작합니다.
 
@@ -76,18 +78,18 @@ Once the control and execution modules are installed on the same instance, you m
 
 실행 인스턴스에서 **관리 > 프로덕션 > 메시지 센터** 폴더에서 트랜잭션 메시지를 위한 기술 워크플로우에 액세스할 수 있습니다. 그냥 시작하기만 하면 돼 목록의 워크플로우는 다음과 같습니다.
 
-* **[!UICONTROL Processing batch events]** (내부 이름: **[!UICONTROL batchEventsProcessing]** ):이 워크플로우를 사용하면 메시지 템플릿에 연결하기 전에 큐에서 배치 이벤트를 분류할 수 있습니다.
-* **[!UICONTROL Processing real time events]** (내부 이름: **[!UICONTROL rtEventsProcessing]** ):이 워크플로우를 사용하면 메시지 템플릿에 연결하기 전에 큐의 실시간 이벤트를 분류할 수 있습니다.
-* **[!UICONTROL Update event status]** (내부 이름: **[!UICONTROL updateEventStatus]** ):이 워크플로우를 통해 이벤트 상태를 지정할 수 있습니다.
+* **[!UICONTROL Processing batch events]** (내부 이름:  **[!UICONTROL batchEventsProcessing]** ): 이 워크플로우를 사용하면 메시지 템플릿에 연결하기 전에 큐에서 배치 이벤트를 분류할 수 있습니다.
+* **[!UICONTROL Processing real time events]** (내부 이름:  **[!UICONTROL rtEventsProcessing]** ): 이 워크플로우를 사용하면 메시지 템플릿에 연결하기 전에 큐의 실시간 이벤트를 분류할 수 있습니다.
+* **[!UICONTROL Update event status]** (내부 이름:  **[!UICONTROL updateEventStatus]** ): 이 워크플로우를 통해 이벤트 상태를 지정할 수 있습니다.
 
    다음 이벤트 상태를 사용할 수 있습니다.
 
-   * **[!UICONTROL Pending]** :이벤트가 큐에 있습니다. 메시지 템플릿이 아직 할당되지 않았습니다.
-   * **[!UICONTROL Pending delivery]** :이벤트가 큐에 있고 메시지 템플릿이 할당되어 게재에 의해 처리되는 중입니다.
-   * **[!UICONTROL Sent]** :이 상태는 게재 로그에서 복사됩니다. 게재가 전송되었음을 의미합니다.
-   * **[!UICONTROL Ignored by the delivery]** :이 상태는 게재 로그에서 복사됩니다. 게재가 무시되었다는 뜻입니다.
-   * **[!UICONTROL Delivery failed]** :이 상태는 게재 로그에서 복사됩니다. 게재에 실패했다는 뜻입니다.
-   * **[!UICONTROL Event not taken into account]** :이벤트를 메시지 템플릿에 연결할 수 없습니다. 이벤트가 처리되지 않습니다.
+   * **[!UICONTROL Pending]** : 이벤트가 큐에 있습니다. 메시지 템플릿이 아직 할당되지 않았습니다.
+   * **[!UICONTROL Pending delivery]** : 이벤트가 큐에 있고 메시지 템플릿이 할당되어 게재에 의해 처리되는 중입니다.
+   * **[!UICONTROL Sent]** : 이 상태는 게재 로그에서 복사됩니다. 게재가 전송되었음을 의미합니다.
+   * **[!UICONTROL Ignored by the delivery]** : 이 상태는 게재 로그에서 복사됩니다. 게재가 무시되었다는 뜻입니다.
+   * **[!UICONTROL Delivery failed]** : 이 상태는 게재 로그에서 복사됩니다. 게재에 실패했다는 뜻입니다.
+   * **[!UICONTROL Event not taken into account]** : 이벤트를 메시지 템플릿에 연결할 수 없습니다. 이벤트가 처리되지 않습니다.
 
 ## 멀티브랜딩 구성 {#configuring-multibranding}
 
@@ -152,7 +154,7 @@ Once the control and execution modules are installed on the same instance, you m
    >
    >이러한 변경 사항으로 인해 업그레이드할 때 충돌이 발생할 수 있습니다. 이러한 공식을 새 버전과 수동으로 병합해야 할 수 있습니다.
 
-### 제어 인스턴스 {#control-instance}
+### 컨트롤 인스턴스 {#control-instance}
 
 제어 인스턴스에서 게재 템플릿과 외부 계정을 연결해야 합니다.
 

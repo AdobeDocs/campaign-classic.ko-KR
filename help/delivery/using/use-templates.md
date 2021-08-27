@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # 템플릿 사용 {#use-templates}
+
+![](../../assets/common.svg)
 
 게재 템플릿을 사용하면 대부분의 일반적인 활동 유형에 대해 준비된 시나리오를 제공하여 효율성을 높일 수 있습니다. 마케터는 템플릿을 사용하여 짧은 시간에 최소한의 사용자 지정으로 새 캠페인을 배포할 수 있습니다.
 
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 Adobe Campaign에서 여러 브랜드를 관리하는 경우, 브랜드당 하나의 하위 도메인이 있는 것이 좋습니다. 예를 들어 은행은 각 지역 기관에 해당하는 여러 하위 도메인을 가질 수 있습니다. 블루뱅크 도메인은 은행@ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com 등이 될 수 있습니다. 하위 도메인당 하나의 게재 템플릿을 사용하면 각 브랜드에 대해 항상 올바른 사전 구성된 매개 변수를 사용할 수 있으므로 오류를 방지하고 시간을 절약할 수 있습니다.
 
-**팁**:구성 오류를 방지하려면 새 템플릿을 만들지 않고 기본 템플릿을 복제하고 해당 속성을 변경하는 것이 좋습니다.
+**팁**: 구성 오류를 방지하려면 새 템플릿을 만들지 않고 기본 템플릿을 복제하고 해당 속성을 변경하는 것이 좋습니다.
 
 ## 주소 구성
 
@@ -66,4 +68,4 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 수행
 
 예를 들어 아웃바운드 트래픽을 더 잘 제어하기 위해 하위 도메인당 하나의 친화성을 정의하고 친화성당 하나의 유형화를 만들어 사용할 수 있는 IP 주소를 정의할 수 있습니다. 인스턴스의 구성 파일에 관심도가 정의됩니다. Adobe Campaign 관리자에게 문의하십시오.
 
-유형화에 대한 자세한 정보는 [이 섹션](../../campaign/using/about-campaign-typologies.md)을 참조하십시오.
+유형화에 대한 자세한 정보는 [이 섹션](../../campaign-opt/using/about-campaign-typologies.md)을 참조하십시오.

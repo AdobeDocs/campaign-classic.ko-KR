@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 6%
@@ -14,6 +14,8 @@ ht-degree: 6%
 ---
 
 # 전원 부스터 및 전원 클러스터{#power-booster-and-power-cluster}
+
+![](../../assets/v7-only.svg)
 
 ## 개요 {#overview}
 
@@ -29,7 +31,7 @@ Adobe Campaign에서는 배포를 차원화하기 위해 두 개의 사전 패�
 
 ![](assets/architectural_options_diagram.png)
 
-## 응용 프로그램 {#eligible-applications}
+## 적합한 애플리케이션 {#eligible-applications}
 
 전원 부스터 및 전원 클러스터 옵션은 다음 응용 프로그램에서 사용할 수 있습니다.
 
@@ -54,7 +56,7 @@ Adobe Campaign에서는 배포를 차원화하기 위해 두 개의 사전 패�
    <td> 매월 1억 개 이상의 이메일<br /> </td> 
   </tr> 
   <tr> 
-   <td> 트랜잭션 메시지<br /> </td> 
+   <td> 트랜잭션 메시지 <br /> </td> 
    <td> 실행 서버당 시간당 50,000개<br /> </td> 
    <td> 실행 서버당 시간당 50,000개<br /> </td> 
    <td> 실행 서버당 시간당 50,000개<br /> </td> 
@@ -75,12 +77,12 @@ Adobe Campaign에서는 배포를 차원화하기 위해 두 개의 사전 패�
    <td> 배포 템플릿<br /> </td> 
    <td> 한 사이트의 모든 사이트(온-프레미스 또는 클라우드에 있을 수 있음)<br /> </td> 
    <td> 클라우드에서 실행되며 온-프레미스 마케팅<br /> </td> 
-   <td> 클라우드에서 실행되는 On-Premise 마케팅다른 지리적 위치에서 가능한 실행<br /> </td> 
+   <td> 클라우드에서 실행되는 On-Premise 마케팅 다른 지리적 위치에서 가능한 실행<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Recommendations {#recommendations}
+## 추천 {#recommendations}
 
 * 실행 인스턴스는 서비스 전용이어야 합니다. 구독하지 않은 서비스에 대한 패키지를 설치할 수 없습니다. 예를 들어 **메시지 센터** 서비스의 **전원 부스터** 옵션에 가입하는 경우 전용 실행 인스턴스에만 **[!UICONTROL Execution of transactional messages]** 패키지를 설치할 수 있습니다. 사용권 계약을 확인하십시오.
 * 전용 인스턴스(또는 클러스터)는 Adobe Campaign 인스턴스이므로, 권장 사항은 기본 인스턴스와 동일합니다. 자세한 내용은 [이 문서](../../production/using/foreword.md)를 참조하십시오.

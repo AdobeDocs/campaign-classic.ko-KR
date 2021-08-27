@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 1%
@@ -15,7 +15,9 @@ ht-degree: 1%
 
 # 구성{#configuration}
 
-## syslogd 수신 포트 {#changing-the-syslogd-listening-port} 변경
+![](../../assets/v7-only.svg)
+
+## syslogd 수신 포트 변경 {#changing-the-syslogd-listening-port}
 
 기본적으로 **syslogd** 수신 포트는 666(udp)입니다. 필요한 경우 환경 변수를 사용하여 변경할 수 있습니다.
 
@@ -29,9 +31,9 @@ ht-degree: 1%
 export TRACE_ADDR=localhost:<listening port>
 ```
 
-### Windows {#in-windows}에서
+### Windows에서 {#in-windows}
 
-**TRACE_ADDR** 환경 변수를 **localhost** 값으로 만들어야 합니다.**`<listening port="" />`**
+**TRACE_ADDR** 환경 변수를 **localhost** 값으로 만들어야 합니다. **`<listening port="" />`**
 
 >[!IMPORTANT]
 >

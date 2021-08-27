@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 양식화{#formatting}
+
+![](../../assets/common.svg)
 
 ## JavaScript 템플릿 {#javascript-templates}
 
@@ -43,8 +45,8 @@ JavaScript 템플릿은 스키마 및 양식처럼 이름 및 네임스페이스
 
 다양한 JavaScript 지시문은 다음 양식에 나타납니다.
 
-* 필드 병합:**`<%= <source> %>`** 구문을 사용하여 데이터의 콘텐츠를 표시합니다. 여기서 `<source>`은(는) 표시할 데이터의 소스 필드입니다.
-* 명령 블록:&lt;%와 %> 태그 사이에 포함된 일련의 JavaScript 지침을 실행합니다.
+* 필드 병합: **`<%= <source> %>`** 구문을 사용하여 데이터의 콘텐츠를 표시합니다. 여기서 `<source>`은(는) 표시할 데이터의 소스 필드입니다.
+* 명령 블록: &lt;%와 %> 태그 사이에 포함된 일련의 JavaScript 지침을 실행합니다.
 
 **content** 개체는 입력 XML 문서의 기본 요소를 나타냅니다.
 
@@ -66,12 +68,12 @@ JavaScript 템플릿은 스키마 및 양식처럼 이름 및 네임스페이스
 
 **예제**:
 
-* **컨텐츠 배포.@name**:주 요소의 &quot;name&quot; 속성 값을 검색합니다
-* **컨텐츠 배포.@`['name']`**:**컨텐츠와 동일합니다.@name** 구문
-* **content.chapter.length**: `<chapter` 컬렉션 요소의 요소 수 반환
-* **content.chapter`[0]`.@name**:첫 번째 `<chapter>` 요소의 이름을 검색합니다.
-* **chapter.name()**:요소의 이름  `<chapter>` 반환
-* **chapter.parent().name()**:의 상위 요소의 이름을 반환합니다.  `<chapter>`
+* **컨텐츠 배포.@name**: 주 요소의 &quot;name&quot; 속성 값을 검색합니다
+* **컨텐츠 배포.@`['name']`**: **컨텐츠와 동일합니다.@name** 구문
+* **content.chapter.length**:  `<chapter` 컬렉션 요소의 요소 수 반환
+* **content.chapter`[0]`.@name**: 첫 번째 `<chapter>` 요소의 이름을 검색합니다.
+* **chapter.name()**: 요소의 이름  `<chapter>` 반환
+* **chapter.parent().name()**: 의 상위 요소의 이름을 반환합니다.  `<chapter>`
 
 >[!CAUTION]
 >
@@ -159,7 +161,7 @@ JavaScript 템플릿은 스키마 및 양식처럼 이름 및 네임스페이스
 
 나중에 사용할 수 있도록 함수 또는 변수 라이브러리를 구성할 수 있습니다. 이렇게 하려면 **eval** 함수로 JavaScript 템플릿을 가져옵니다. 이를 통해 다른 JavaScript 템플릿에서 선언된 추가 함수를 사용하여 컨텍스트를 보강할 수 있습니다.
 
-**예**:common. **jsptemplate** 가져오는 중
+**예**: common. **jsptemplate** 가져오는 중
 
 ```
 <% eval(xtk.javascript.get("cus:common.js").data);  %>
@@ -191,7 +193,7 @@ JavaScript 템플릿은 스키마 및 양식처럼 이름 및 네임스페이스
 
 이 예에는 다음 단계가 포함됩니다.
 
-1. 다음 스키마를 만듭니다(이 경우).**neo:news**):
+1. 다음 스키마를 만듭니다(이 경우). **neo:news**):
 
    ```
    <srcSchema _cs="Invitation (neo)"   entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Invitation" mappingType="sql" name="news" namespace="neo" xtkschema="xtk:srcSchema">
@@ -376,7 +378,7 @@ XSLT 언어를 사용하면 XML 문서를 출력 문서로 변경할 수 있습�
 
 스타일시트는 스키마와 폼처럼 이름과 네임스페이스로 식별됩니다. 그러나 스타일시트의 이름에 **.xsl** 확장을 추가하는 것이 좋습니다.
 
-스타일시트의 식별 키는 네임스페이스와 콜론으로 구분된 이름으로 구성된 문자열입니다.예:**cus:book.xsl**
+스타일시트의 식별 키는 네임스페이스와 콜론으로 구분된 이름으로 구성된 문자열입니다. 예: **cus:book.xsl**
 
 ### 스타일시트의 구조 {#structure-of-a-stylesheet}
 
@@ -482,7 +484,7 @@ XSLT 언어를 사용하면 XML 문서를 출력 문서로 변경할 수 있습�
 
 **`<xsl:include>`** 지시문은 문서에 포함할 스타일시트의 이름을 나타냅니다.
 
-**예**:&quot;common.xsl&quot; 스타일 시트 포함
+**예**: &quot;common.xsl&quot; 스타일 시트 포함
 
 ```
 <? xml version="1.0" encoding="ISO-8859-1" ?>
@@ -564,13 +566,13 @@ HTML 출력 문서에 입력된 이미지를 절대 또는 상대 참조로 참�
 
 ## 날짜 표시 {#date-display}
 
-XML 입력 문서에서 날짜는 내부 XML 형식으로 저장됩니다.**YYYY/MM/DD HH:MM:SS**(예: 2018/10/01 12:23:30).
+XML 입력 문서에서 날짜는 내부 XML 형식으로 저장됩니다. **YYYY/MM/DD HH:MM:SS**(예: 2018/10/01 12:23:30).
 
 Adobe Campaign은 아래에 자세히 설명된 JavaScript 템플릿 및 XSL 스타일시트에 대한 날짜 서식 지정 기능을 제공합니다.
 
 ### JavaScript 날짜 형식 {#javascript-date-formatting}
 
-날짜를 원하는 형식으로 표시하기 위해 Adobe Campaign에서는 날짜의 내용을 입력받는 **formatDate** 함수와 다음 구문을 사용하여 출력 형식을 지정하는 문자열을 제공합니다.**%4Y/%2M/%2D %2H%2N%2S**
+날짜를 원하는 형식으로 표시하기 위해 Adobe Campaign에서는 날짜의 내용을 입력받는 **formatDate** 함수와 다음 구문을 사용하여 출력 형식을 지정하는 문자열을 제공합니다. **%4Y/%2M/%2D %2H%2N%2S**
 
 예제:
 
@@ -601,7 +603,7 @@ Adobe Campaign은 아래에 자세히 설명된 JavaScript 템플릿 및 XSL 스
 
 ### XSL 날짜 형식 {#xsl-date-formatting}
 
-XSLT 구문에 표준 날짜 관리 기능이 없습니다. 원하는 형식으로 날짜를 표시하기 위해 Adobe Campaign에서는 외부 함수 **date-format**&#x200B;을 제공합니다. 이 함수는 날짜의 내용을 입력하고 다음 구문을 사용하여 출력 형식을 지정하는 문자열로 가져옵니다.**%4Y/%2M/%2D %2H%2N%2S**
+XSLT 구문에 표준 날짜 관리 기능이 없습니다. 원하는 형식으로 날짜를 표시하기 위해 Adobe Campaign에서는 외부 함수 **date-format**&#x200B;을 제공합니다. 이 함수는 날짜의 내용을 입력하고 다음 구문을 사용하여 출력 형식을 지정하는 문자열로 가져옵니다. **%4Y/%2M/%2D %2H%2N%2S**
 
 예제:
 

@@ -5,14 +5,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
 # 게재 모범 사례 {#delivery-best-practices}
+
+![](../../assets/common.svg)
 
 Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다. 아래 링크를 사용하여 항목을 탐색하고 지침을 찾을 수 있습니다.
 
@@ -101,7 +103,7 @@ Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사�
 </tr>
 </table>
 
-다음을 참조하십시오.
+또한 다음을 참조하십시오:
 
 * [게재 기능 시작](about-deliverability.md)
 

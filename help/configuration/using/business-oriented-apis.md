@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 비즈니스 지향 API{#business-oriented-apis}
+
+![](../../assets/v7-only.svg)
 
 비즈니스 API는 각 개체 유형별로 다릅니다. 이 변수는 다음과 같은 효과를 갖습니다.
 
@@ -32,7 +34,7 @@ ht-degree: 3%
 
 * 콘텐츠 관리
 * 구독 관리에서 [구독 (nms:subscription)](#subscribe--nms-subscription-) 및 [구독 취소(nms:subscription)](#unsubscribe--nms-subscription-)를 참조하십시오.
-* 데이터 프로세스:가져오기, 내보내기.
+* 데이터 프로세스: 가져오기, 내보내기.
 
 이 섹션에서는 &quot;구독&quot;, &quot;구독 취소&quot; 및 &quot;SubmitDelivery&quot; 서비스의 사용에 대해 자세히 설명합니다.
 
@@ -40,7 +42,7 @@ ht-degree: 3%
 >
 >[Campaign JSAPI ](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) 설명서에는 Adobe Campaign에서 SOAP 호출 및 Javascript 사용에 대한 추가 정보와 애플리케이션에서 사용되는 모든 메서드 및 함수에 대한 전체 참조가 포함되어 있습니다.
 
-## 구독 (nms:subscription) {#subscribe--nms-subscription-}
+## 구독(nms:subscription) {#subscribe--nms-subscription-}
 
 이 서비스를 사용하면 수신자를 정보 서비스에 구독하고 수신자 프로필을 업데이트할 수 있습니다.
 
@@ -69,7 +71,7 @@ ht-degree: 3%
 
 ### 예제 {#examples}
 
-전자 메일 주소에서 수신자 조정 키를 사용한 구독:입력 XML 문서는 이 필드에 있는 전자 메일 주소와 키의 정의를 참조해야 합니다.
+전자 메일 주소에서 수신자 조정 키를 사용한 구독: 입력 XML 문서는 이 필드에 있는 전자 메일 주소와 키의 정의를 참조해야 합니다.
 
 ```
 <recipient _key="email" email= "john.doe@adobe.com"/>
@@ -174,7 +176,7 @@ nms:subscription 스키마의 &quot;Subscription&quot; 메서드에 대한 설�
 </SOAP-ENV:Envelope>
 ```
 
-## SubmitDelivery (nms:delivery) {#submitdelivery--nms-delivery-}
+## SubmitDelivery(nms:delivery) {#submitdelivery--nms-delivery-}
 
 이 서비스를 통해 게재 작업을 만들고 제출할 수 있습니다.
 

@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 백업{#backup}
+
+![](../../assets/v7-only.svg)
 
 시스템에서 문제가 발생할 경우(물리적 또는 시스템 관련) 데이터가 손실되지 않도록 백업해야 합니다.
 
@@ -36,7 +38,7 @@ ht-degree: 2%
 
    이들은 추적(일명 &#39;전두부&#39;) 서버에 있으며 모든 이전 캠페인 리디렉션을 포함합니다. 이전 캠페인에서 여전히 사용됩니다.
 
-* 로그 파일:**nl6/var/`<instancename>`/log**
+* 로그 파일: **nl6/var/`<instancename>`/log**
 
    이는 문제를 추적하는 데 사용할 수 있습니다.
 

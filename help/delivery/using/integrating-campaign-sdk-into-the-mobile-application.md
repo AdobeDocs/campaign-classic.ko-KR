@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-push-notifications
 version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Campaign SDK와 앱 통합 {#integrating-campaign-sdk-into-the-mobile-application}
+
+![](../../assets/common.svg)
 
 iOS 및 Android용 Campaign SDK는 모바일 앱 채널 모듈의 구성 요소 중 하나입니다.
 
@@ -28,7 +30,7 @@ SDK의 목표는 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽
 
 ## Campaign SDK 로드 {#loading-campaign-sdk}
 
-* **Android에서**:neolane_ **sdk-release.** aarfile은 프로젝트에 연결되어 있어야 합니다.
+* **Android에서**: neolane_ **sdk-release.** aarfile은 프로젝트에 연결되어 있어야 합니다.
 
    다음 권한을 통해 Adobe Campaign 서버에 대한 액세스 권한을 부여합니다.
 
@@ -48,7 +50,7 @@ SDK의 목표는 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽
 
    SDK 버전 1.0.26에서 이 권한은 더 이상 사용되지 않습니다.
 
-* **iOS에서**:libNeolaneSDK. **및** Neolane_SDK. **** 파일은 프로젝트에 연결되어 있어야 합니다. SDK 버전 1.0.24부터 **ENABLE_BITRCODE** 옵션이 활성화됩니다.
+* **iOS에서**: libNeolaneSDK. **및** Neolane_SDK. **** 파일은 프로젝트에 연결되어 있어야 합니다. SDK 버전 1.0.24부터 **ENABLE_BITRCODE** 옵션이 활성화됩니다.
 
    >[!NOTE]
    >
@@ -58,14 +60,14 @@ SDK의 목표는 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽
 
 Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자가 개발자에게 다음 정보를 제공해야 합니다.
 
-* **통합 키**:Adobe Campaign 플랫폼을 활성화하여 모바일 애플리케이션을 식별합니다.
+* **통합 키**: Adobe Campaign 플랫폼을 활성화하여 모바일 애플리케이션을 식별합니다.
 
    >[!NOTE]
    >
    >이 통합 키는 모바일 애플리케이션 전용 서비스의 **[!UICONTROL Information]** 탭에 있는 Adobe Campaign 콘솔에 입력합니다. [Adobe Campaign에서 모바일 애플리케이션 구성](configuring-the-mobile-application.md)을 참조하십시오.
 
-* **추적 URL**:Adobe Campaign 추적 서버의 주소와 일치합니다.
-* **마케팅 URL**:을 클릭하여 구독을 수집할 수 있습니다.
+* **추적 URL**: Adobe Campaign 추적 서버의 주소와 일치합니다.
+* **마케팅 URL**: 을 클릭하여 구독을 수집할 수 있습니다.
 
 * **Android에서**:
 

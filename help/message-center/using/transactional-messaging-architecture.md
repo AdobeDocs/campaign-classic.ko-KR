@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 트랜잭션 메시지 아키텍처 {#transactional-messaging-architecture}
+
+![](../../assets/v7-only.svg)
 
 트랜잭션 메시지는 몇 가지 인스턴스로 구성된 특정 아키텍처에 의존합니다.
 
@@ -27,7 +29,7 @@ ht-degree: 1%
 |--- |--- |
 | Adobe Campaign 사용자는 제어 인스턴스에 로그온하여 다음을 수행합니다. <ul><li>트랜잭션 메시지 템플릿 만들기</li><li>시드 목록을 사용하여 메시지 미리 보기 생성</li><li>보고서 표시</li><li>실행 인스턴스 모니터링</li></ul> | 실행 인스턴스는 다음과 같습니다. <ul><li>이벤트 수신</li><li>트랜잭션 메시지 템플릿에 연결</li><li>각 수신자에게 개인화된 메시지 보내기</li></ul> |
 
-## 인스턴스 {#installing-instances} 설치
+## 인스턴스 설치 {#installing-instances}
 
 트랜잭션 메시지 패키지를 설치할 때 몇 가지 주의해야 할 사항이 있습니다. Adobe은 프로덕션에 투입하기 전에 테스트 환경에서 작업할 것을 권장합니다. 또한 호환되는 Adobe Campaign 라이센스가 있어야 합니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
 
@@ -37,7 +39,7 @@ ht-degree: 1%
 
 여러 채널을 사용해야 하는 경우 트랜잭션 메시지 패키지를 설치하기 전에 관련 패키지를 설치하고 구성해야 합니다. 자세한 내용은 [게재 채널 추가](#adding-a-delivery-channel)를 참조하십시오.
 
-## 제어 인스턴스 {#control-instance}
+## 컨트롤 인스턴스 {#control-instance}
 
 컴퓨터에 제어 인스턴스를 설치하려면 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** 메뉴를 통해 **[!UICONTROL Transactional message control]** 패키지를 선택합니다. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
 
@@ -45,7 +47,7 @@ ht-degree: 1%
 
 컨트롤 인스턴스를 구성하는 자세한 단계는 [이 섹션](../../message-center/using/configuring-instances.md#control-instance)에 나와 있습니다.
 
-### 여러 제어 인스턴스 지원 {#supporting-several-control-instances}
+### 여러 컨트롤 인스턴스 지원 {#supporting-several-control-instances}
 
 >[!IMPORTANT]
 >
@@ -75,7 +77,7 @@ ht-degree: 1%
 >
 >게재 채널 추가(모바일 채널, 모바일 앱 채널 등) 트랜잭션 메시지 패키지를 설치하기 전에 수행해야 합니다.
 
-### 게재 채널 {#adding-a-delivery-channel} 추가
+### 게재 채널 추가 {#adding-a-delivery-channel}
 
 Adobe은 트랜잭션 메시지 패키지&#x200B;**를 설치하기 전에 항상 배달 채널 패키지를 추가하는 것을 권장합니다.**
 
@@ -143,7 +145,7 @@ You also have to enable the unitary mode on your offer spaces. For more on this,
 
 * 모바일 장치 ID(**registrationId**, iOS용 **deviceToken**)입니다. 이 ID는 알림을 전송할 &quot;주소&quot;를 나타냅니다.
 * 모바일 애플리케이션 또는 통합 키(**uuid**)에 연결되는 링크로서, 애플리케이션 고유의 연결 정보를 복구할 수 있습니다.
-* 알림을 전송할 채널(**WonderedChannel**):iOS용 41 및 Android용 42
+* 알림을 전송할 채널(**WonderedChannel**): iOS용 41 및 Android용 42
 * 개인화에 유용한 모든 데이터
 
 다음은 이 정보를 포함하는 이벤트의 예입니다.
@@ -189,22 +191,22 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **marketing** �
 
    ![](assets/line_config_mc.png)
 
-   * **[!UICONTROL Label]** 및  **[!UICONTROL Internal name]** :필요에 따라 외부 계정에 이름을 지정합니다.
-   * **[!UICONTROL Type]** :을(를) 선택합니다  **[!UICONTROL External database]** .
+   * **[!UICONTROL Label]** 및  **[!UICONTROL Internal name]** : 필요에 따라 외부 계정에 이름을 지정합니다.
+   * **[!UICONTROL Type]** : 을(를) 선택합니다  **[!UICONTROL External database]** .
    * **[!UICONTROL Enabled]** 상자를 선택해야 합니다.
 
    **[!UICONTROL Connection]** 범주에서:
 
-   * **[!UICONTROL Type]** :데이터베이스 서버(예: PostgresSQL)를 선택합니다.
-   * **[!UICONTROL Server]** :데이터베이스 서버 URL을 입력합니다.
-   * **[!UICONTROL Account]** :데이터베이스 계정을 입력합니다.
+   * **[!UICONTROL Type]** : 데이터베이스 서버(예: PostgresSQL)를 선택합니다.
+   * **[!UICONTROL Server]** : 데이터베이스 서버 URL을 입력합니다.
+   * **[!UICONTROL Account]** : 데이터베이스 계정을 입력합니다.
 
       >[!NOTE]
       >
-      >FDA 연결을 위해서는 데이터베이스 사용자에게 다음 표에 대한 읽기 권한이 있어야 합니다.XtkOption, NmsVisitor, NmsVisitorSub, NmsService, NmsBroadLogRtEvent, NmsBroadLogBatchEvent, NmsTrackingLogBatchEvent, NmsRtEvent, NmsBroadLogBatchEvent, NmsNmsNmsDeliveryUrl, Tracking WebTrackingLogXtkFolder입니다.
+      >FDA 연결을 위해서는 데이터베이스 사용자에게 다음 표에 대한 읽기 권한이 있어야 합니다. XtkOption, NmsVisitor, NmsVisitorSub, NmsService, NmsBroadLogRtEvent, NmsBroadLogBatchEvent, NmsTrackingLogBatchEvent, NmsRtEvent, NmsBroadLogBatchEvent, NmsNmsNmsDeliveryUrl, Tracking WebTrackingLogXtkFolder입니다.
 
-   * **[!UICONTROL Password]** :데이터베이스 계정의 암호를 입력합니다.
-   * **[!UICONTROL Database]** :실행 인스턴스의 데이터베이스 이름을 입력합니다.
+   * **[!UICONTROL Password]** : 데이터베이스 계정의 암호를 입력합니다.
+   * **[!UICONTROL Database]** : 실행 인스턴스의 데이터베이스 이름을 입력합니다.
    * **[!UICONTROL Target of an HTTP relay to remote database's account]** 상자를 선택해야 합니다.
 
 
@@ -212,37 +214,37 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **marketing** �
 
    ![](assets/line_config_mc_1.png)
 
-   * **[!UICONTROL Label]** 및  **[!UICONTROL Internal name]** :필요에 따라 외부 계정에 이름을 지정합니다.
-   * **[!UICONTROL Type]** :을(를) 선택합니다  **[!UICONTROL External database]** .
+   * **[!UICONTROL Label]** 및  **[!UICONTROL Internal name]** : 필요에 따라 외부 계정에 이름을 지정합니다.
+   * **[!UICONTROL Type]** : 을(를) 선택합니다  **[!UICONTROL External database]** .
    * Enabled 상자를 선택해야 합니다.
 
    **[!UICONTROL Connection]** 범주에서:
 
-   * **[!UICONTROL Type]** :을(를) 선택합니다  **[!UICONTROL HTTP relay to remote Database]** .
-   * **[!UICONTROL Server]** :실행 인스턴스의 캠페인의 서버 URL을 입력합니다.
-   * **[!UICONTROL Account]** :실행 인스턴스에 액세스하는 데 사용된 계정을 입력합니다.
-   * **[!UICONTROL Password]** :실행 인스턴스에 액세스하는 데 사용된 계정의 암호를 입력합니다.
-   * **[!UICONTROL Data Source]** :다음 구문을 입력합니다  **[!UICONTROL nms:extAccount:ID of your external database account in the execution instance]** .
+   * **[!UICONTROL Type]** : 을(를) 선택합니다  **[!UICONTROL HTTP relay to remote Database]** .
+   * **[!UICONTROL Server]** : 실행 인스턴스의 캠페인의 서버 URL을 입력합니다.
+   * **[!UICONTROL Account]** : 실행 인스턴스에 액세스하는 데 사용된 계정을 입력합니다.
+   * **[!UICONTROL Password]** : 실행 인스턴스에 액세스하는 데 사용된 계정의 암호를 입력합니다.
+   * **[!UICONTROL Data Source]** : 다음 구문을 입력합니다  **[!UICONTROL nms:extAccount:ID of your external database account in the execution instance]** .
 
 
 1. 다음 구성을 사용하여 **marketing** 인스턴스에서 **[!UICONTROL Execution instance]** 외부 계정을 만들어 데이터 동기화 워크플로우를 만듭니다.
 
    ![](assets/line_config_mc_2.png)
 
-   * **[!UICONTROL Label]** 및  **[!UICONTROL Internal name]** :필요에 따라 외부 계정에 이름을 지정합니다.
-   * **[!UICONTROL Type]** :을(를) 선택합니다  **[!UICONTROL Execution instance]** .
+   * **[!UICONTROL Label]** 및  **[!UICONTROL Internal name]** : 필요에 따라 외부 계정에 이름을 지정합니다.
+   * **[!UICONTROL Type]** : 을(를) 선택합니다  **[!UICONTROL Execution instance]** .
    * Enabled 상자를 선택해야 합니다.
 
    **[!UICONTROL Connection]** 범주에서:
 
-   * **[!UICONTROL URL]** :실행 인스턴스의 URL을 입력합니다.
-   * **[!UICONTROL Account]** :실행 인스턴스에 액세스하는 데 사용한 계정을 입력합니다.
-   * **[!UICONTROL Password]** :실행 인스턴스에 액세스하는 데 사용된 계정의 암호를 입력합니다.
+   * **[!UICONTROL URL]** : 실행 인스턴스의 URL을 입력합니다.
+   * **[!UICONTROL Account]** : 실행 인스턴스에 액세스하는 데 사용한 계정을 입력합니다.
+   * **[!UICONTROL Password]** : 실행 인스턴스에 액세스하는 데 사용된 계정의 암호를 입력합니다.
 
    **[!UICONTROL Account connection method]** 범주에서:
 
-   * **[!UICONTROL Method]** :을(를) 선택합니다  **[!UICONTROL Federated Data Access (FDA)]** .
-   * **[!UICONTROL FDA account]** :드롭다운에서 FDA 계정을 선택합니다.
+   * **[!UICONTROL Method]** : 을(를) 선택합니다  **[!UICONTROL Federated Data Access (FDA)]** .
+   * **[!UICONTROL FDA account]** : 드롭다운에서 FDA 계정을 선택합니다.
    * **[!UICONTROL Create the archiving workflow]** 버튼을 클릭합니다.
    * **[!UICONTROL Create data synchronization workflow]** 단추를 클릭하여 LINE 데이터 동기화 워크플로우를 만듭니다.
 

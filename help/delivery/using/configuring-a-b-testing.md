@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # A/B 테스트 구성 {#configuring-a-b-testing}
+
+![](../../assets/common.svg)
 
 이 섹션에서는 A/B 테스트를 수행하는 워크플로우를 작성하는 방법에 대해 자세히 설명합니다.
 

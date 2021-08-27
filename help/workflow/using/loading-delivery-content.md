@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 게재 콘텐츠 로드{#loading-delivery-content}
+
+![](../../assets/common.svg)
 
 게재 컨텐츠가 Amazon S3, FTP 또는 SFTP 서버에 있는 HTML 파일에서 사용할 수 있는 경우 Adobe Campaign 게재에 이 컨텐츠를 쉽게 로드할 수 있습니다.
 
@@ -35,10 +37,10 @@ ht-degree: 3%
 
 1. **[!UICONTROL Delivery]** 활동을 추가하고 **[!UICONTROL File transfer]** 활동의 아웃바운드 전환에 연결합니다. 다음과 같이 구성합니다.
 
-   * 배달:필요에 따라 시스템에서 이미 생성된 특정 게재이거나 기존 템플릿을 기반으로 새 게재일 수 있습니다.
-   * 수신자:이 예에서는 대상이 게재 자체에 지정된 것으로 간주됩니다.
-   * 컨텐츠:콘텐츠를 이전 활동에서 가져오더라도 **[!UICONTROL Specified in the delivery]** 을 선택합니다. 컨텐츠는 원격 서버에 있는 파일에서 직접 가져오므로 워크플로우에서 처리할 때 식별자가 없으며 인바운드 이벤트에서 온 것으로 식별할 수 없습니다.
-   * 수행할 작업:**[!UICONTROL Save]** 을 선택하여 게재를 저장하고 워크플로우가 실행되면 **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**&#x200B;에서 액세스할 수 있습니다.
+   * 배달: 필요에 따라 시스템에서 이미 생성된 특정 게재이거나 기존 템플릿을 기반으로 새 게재일 수 있습니다.
+   * 수신자: 이 예에서는 대상이 게재 자체에 지정된 것으로 간주됩니다.
+   * 컨텐츠: 콘텐츠를 이전 활동에서 가져오더라도 **[!UICONTROL Specified in the delivery]** 을 선택합니다. 컨텐츠는 원격 서버에 있는 파일에서 직접 가져오므로 워크플로우에서 처리할 때 식별자가 없으며 인바운드 이벤트에서 온 것으로 식별할 수 없습니다.
+   * 수행할 작업: **[!UICONTROL Save]** 을 선택하여 게재를 저장하고 워크플로우가 실행되면 **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**&#x200B;에서 액세스할 수 있습니다.
 
    ![](assets/delivery_loadcontent_activityexample.png)
 

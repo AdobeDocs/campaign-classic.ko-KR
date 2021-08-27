@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: f2300b265fa97e5b208519ab2446927d14f5f91c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 전자 메일 콘텐츠 정의 {#defining-the-email-content}
+
+![](../../assets/common.svg)
 
 ## 보낸 사람 {#sender}
 
@@ -187,9 +189,8 @@ HTML 형식 이메일 게재에는 이미지가 포함될 수 있습니다. 게�
 >[!IMPORTANT]
 >
 >* 이미지 액세스 경로는 수동 업로드 중 또는 메시지를 전송할 때 수정됩니다.
-   > 
-   >
-* 성능 문제를 방지하려면 개인화된 URL에서 즉시 다운로드한 이미지를 [첨부 파일](attaching-files.md)로 포함하는 경우 각 이미지 크기는 기본적으로 100,000바이트를 초과해서는 안 됩니다. 이 권장 임계값은 [Campaign Classic 옵션 목록에서 구성할 수 있습니다](../../installation/using/configuring-campaign-options.md#delivery).
+> 
+>* 성능 문제를 방지하려면 개인화된 URL에서 즉시 다운로드한 이미지를 [첨부 파일](attaching-files.md)로 포함하는 경우 각 이미지 크기는 기본적으로 100,000바이트를 초과해서는 안 됩니다. 이 권장 임계값은 [Campaign Classic 옵션 목록에서 구성할 수 있습니다](../../installation/using/configuring-campaign-options.md#delivery).
 
 
 **사용 사례: 이미지로 메시지 보내기**

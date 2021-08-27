@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: tracking-offers
 exl-id: 480d49e7-0237-4c87-abe8-445b7bf91a30
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 15%
@@ -14,6 +14,8 @@ ht-degree: 15%
 ---
 
 # 오퍼 제안 내역{#offer-proposition-history}
+
+![](../../assets/v7-only.svg)
 
 오퍼 제안 사항이 작성되면 프레젠테이션 내역을 볼 수 있습니다.
 

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
@@ -15,24 +15,26 @@ ht-degree: 0%
 
 # 반복 가져오기 워크플로우 설정 {#setting-up-a-recurring-import}
 
+![](../../assets/common.svg)
+
 워크플로우 템플릿을 사용하는 것은 구조가 동일한 파일을 정기적으로 가져와야 하는 경우에 가장 좋습니다.
 
-이 예제에서는 Adobe Campaign 데이터베이스의 CRM에 있는 프로필을 가져올 때 다시 사용할 수 있는 워크플로우를 미리 설정하는 방법을 보여 줍니다. 각 활동에 대해 가능한 모든 설정에 대한 자세한 내용은 이 [섹션](../../workflow/using/about-activities.md)을 참조하십시오.
+이 예제에서는 Adobe Campaign 데이터베이스의 CRM에 있는 프로필을 가져올 때 다시 사용할 수 있는 워크플로우를 미리 설정하는 방법을 보여 줍니다. 각 활동에 대해 가능한 모든 설정에 대한 자세한 내용은 이 [섹션](about-activities.md)을 참조하십시오.
 
 1. **[!UICONTROL Resources > Templates > Workflow templates]**&#x200B;에서 새 워크플로 템플릿을 만듭니다.
 1. 다음 활동을 추가합니다.
 
-   * **[!UICONTROL Data loading (file)]**:가져올 데이터가 포함된 파일의 예상 구조를 정의합니다.
-   * **[!UICONTROL Enrichment]**:가져온 데이터를 데이터베이스 데이터로 조정합니다.
-   * **[!UICONTROL Split]**:필터를 만들어 레코드를 조정할 수 있는지 여부에 따라 다르게 처리합니다.
-   * **[!UICONTROL Deduplication]**:데이터베이스에 삽입되기 전에 들어오는 파일에서 데이터를 중복 제거합니다.
-   * **[!UICONTROL Update data]**:가져온 프로필로 데이터베이스를 업데이트합니다.
+   * **[!UICONTROL Data loading (file)]**: 가져올 데이터가 포함된 파일의 예상 구조를 정의합니다.
+   * **[!UICONTROL Enrichment]**: 가져온 데이터를 데이터베이스 데이터로 조정합니다.
+   * **[!UICONTROL Split]**: 필터를 만들어 레코드를 조정할 수 있는지 여부에 따라 다르게 처리합니다.
+   * **[!UICONTROL Deduplication]**: 데이터베이스에 삽입되기 전에 들어오는 파일에서 데이터를 중복 제거합니다.
+   * **[!UICONTROL Update data]**: 가져온 프로필로 데이터베이스를 업데이트합니다.
 
    ![](assets/import_template_example0.png)
 
 1. **[!UICONTROL Data Loading (file)]** 활동을 구성합니다.
 
-   * 샘플 파일을 업로드하여 예상 구조를 정의합니다. 샘플 파일에는 몇 줄만 포함해야 하지만 가져오기에 필요한 모든 열이 포함되어 있어야 합니다. 파일 형식을 확인하고 편집하여 각 열의 유형이 올바르게 설정되었는지 확인합니다.텍스트, 날짜, 정수 등 예제:
+   * 샘플 파일을 업로드하여 예상 구조를 정의합니다. 샘플 파일에는 몇 줄만 포함해야 하지만 가져오기에 필요한 모든 열이 포함되어 있어야 합니다. 파일 형식을 확인하고 편집하여 각 열의 유형이 올바르게 설정되었는지 확인합니다. 텍스트, 날짜, 정수 등 예제:
 
       ```
       lastname;firstname;birthdate;email;crmID
@@ -60,13 +62,13 @@ ht-degree: 0%
 
    * 활동의 **[!UICONTROL General]** 탭에서 필터링 설정으로 **[!UICONTROL Use the additional data only]** 을 선택하고 **[!UICONTROL Targeting dimension]**&#x200B;이(가) 자동으로 **[!UICONTROL Enrichment]**(으)로 설정되었는지 확인합니다.
 
-      데이터베이스에 레코드를 삽입할 수 없는지 확인하려면 **[!UICONTROL Generate complement]** 옵션을 선택합니다. 필요한 경우 보완 데이터에 추가 처리를 적용할 수 있습니다.파일 내보내기, 목록 업데이트 등
+      데이터베이스에 레코드를 삽입할 수 없는지 확인하려면 **[!UICONTROL Generate complement]** 옵션을 선택합니다. 필요한 경우 보완 데이터에 추가 처리를 적용할 수 있습니다. 파일 내보내기, 목록 업데이트 등
 
    * **[!UICONTROL Subsets]** 탭의 첫 번째 하위 집합에서 수신자 기본 키가 0이 아닌 레코드만 선택하려면 인바운드 모집단에 필터링 조건을 추가하십시오. 이렇게 하면 데이터베이스의 수신자와 조정된 파일의 데이터가 해당 하위 집합에서 선택됩니다.
 
       ![](assets/import_template_example3.png)
 
-   * 데이터베이스에 삽입할 충분한 데이터가 있는 조정되지 않은 레코드를 선택하는 두 번째 하위 집합을 추가합니다. 예:이메일 주소, 이름 및 성
+   * 데이터베이스에 삽입할 충분한 데이터가 있는 조정되지 않은 레코드를 선택하는 두 번째 하위 집합을 추가합니다. 예: 이메일 주소, 이름 및 성
 
       하위 집합은 생성 순서로 처리됩니다. 즉, 이 두 번째 하위 집합이 처리되면 데이터베이스에 이미 존재하는 모든 레코드가 첫 번째 하위 집합에서 이미 선택됩니다.
 

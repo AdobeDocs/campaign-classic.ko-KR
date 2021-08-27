@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 9%
@@ -15,6 +15,8 @@ ht-degree: 9%
 
 # 네트워크, 데이터베이스 및 SSL/TLS {#network-database}
 
+![](../../assets/v7-only.svg)
+
 ## 네트워크 구성
 
 온-프레미스 유형의 아키텍처를 배포할 때 확인해야 할 중요한 사항은 [네트워킹 구성](../../installation/using/network-configuration.md)입니다. Tomcat 서버가 서버 외부에서 직접 액세스할 수 없는지 확인합니다.
@@ -22,7 +24,7 @@ ht-degree: 9%
 * 외부 IP에서 Tomcat 포트(8080)를 닫습니다(localhost에서 작동해야 함).
 * 표준 HTTP 포트(80)를 Tomcat 1(8080)에 매핑하지 마십시오
 
-가능하면 보안 채널을 사용하십시오.POP3 대신 POP3S(또는 TLS를 통한 POP3).
+가능하면 보안 채널을 사용하십시오. POP3 대신 POP3S(또는 TLS를 통한 POP3).
 
 ## 데이터베이스
 

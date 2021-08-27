@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 관리{#administration}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign 모듈(**웹**, **mta**, **wfserver** 등)의 자동 시작 는 **nlserver** 서버에서 제공합니다.
 
@@ -33,11 +35,11 @@ Adobe Campaign을 설치하면 부팅 시퀀스 동안 **nlserver** 서비스가
 
 >[!NOTE]
 >
->20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우).**systemctl start nlserver** / **systemctl stop nlserver**
+>20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver** / **systemctl stop nlserver**
 
 다음은 Linux에서 액세스할 수 있는 일반적인 관리 명령 목록입니다( **Adobe Campaign**).
 
-* 시작된 모든 Adobe Campaign 모듈을 표시합니다.**/etc/init.d/nlserver6 pdump** 또는 **/etc/init.d/nlserver6 status**
+* 시작된 모든 Adobe Campaign 모듈을 표시합니다. **/etc/init.d/nlserver6 pdump** 또는 **/etc/init.d/nlserver6 status**
 
    >[!NOTE]
    >
@@ -80,17 +82,13 @@ Adobe Campaign을 설치하면 부팅 시퀀스 동안 **nlserver** 서비스가
    >* 프로세스 작업에 대한 추가 정보를 표시하려면 **-verbose** 옵션을 사용합니다.
 
       >
-      >   
-      예제:
+      >   예제:
       >
-      >   
-      **nlserver 다시 시작 웹 -verbose**
+      >   **nlserver 다시 시작 웹 -verbose**
       >
-      >   
-      **nlserver 시작 mta@myinstance -verbose**
+      >   **nlserver 시작 mta@myinstance -verbose**
       >
-      >   
-      이 옵션은 추가 로그를 추가합니다. 로그를 오버로드하는 것을 방지하기 위해 원하는 정보를 찾은 경우 **-verbose** 옵션 없이 프로세스를 다시 시작하는 것이 좋습니다.
+      >   이 옵션은 추가 로그를 추가합니다. 로그를 오버로드하는 것을 방지하기 위해 원하는 정보를 찾은 경우 **-verbose** 옵션 없이 프로세스를 다시 시작하는 것이 좋습니다.
 
 
 * 모든 Adobe Campaign 프로세스를 시작합니다(**nlserver6** 서비스 시작에 해당):
@@ -107,4 +105,4 @@ Adobe Campaign을 설치하면 부팅 시퀀스 동안 **nlserver** 서비스가
 
    >[!NOTE]
    >
-   >일부 구성 변경 사항은 동적으로 고려되지 않습니다.Adobe Campaign을 종료한 다음 다시 시작해야 합니다.
+   >일부 구성 변경 사항은 동적으로 고려되지 않습니다. Adobe Campaign을 종료한 다음 다시 시작해야 합니다.

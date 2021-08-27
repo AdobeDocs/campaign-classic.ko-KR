@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 캠페인 대상 선택 {#marketing-campaign-deliveries}
+
+![](../../assets/common.svg)
 
 마케팅 캠페인에서 각 게재에 대해 다음을 정의할 수 있습니다.
 
@@ -39,15 +41,15 @@ ht-degree: 2%
 
 ![](assets/s_user_target_group_next.png)
 
-## 캠페인 워크플로우 {#building-the-main-target-in-a-workflow}에서 대상을 작성합니다
+## 캠페인 워크플로우에서 대상자 작성 {#building-the-main-target-in-a-workflow}
 
-게재의 주요 타겟은 캠페인 워크플로우에서도 정의할 수 있습니다.이 그래픽 환경을 사용하면 쿼리, 테스트 및 연산자를 사용하여 대상을 작성할 수 있습니다.결합, 중복 제거, 공유 등
+게재의 주요 타겟은 캠페인 워크플로우에서도 정의할 수 있습니다. 이 그래픽 환경을 사용하면 쿼리, 테스트 및 연산자를 사용하여 대상을 작성할 수 있습니다. 결합, 중복 제거, 공유 등
 
 >[!IMPORTANT]
 >
 >캠페인에 28개 이상의 워크플로우를 추가할 수 없습니다. 이 제한 이후에는 인터페이스에 추가 워크플로우가 표시되지 않으며 오류를 생성할 수 있습니다.
 
-### 워크플로우 {#creating-a-targeting-workflow} 만들기
+### 워크플로우 만들기 {#creating-a-targeting-workflow}
 
 워크플로우의 그래픽 시퀀스에서 필터링 조건을 결합하여 타깃팅을 만들 수 있습니다. 요구 사항에 따라 타겟팅할 모집단 및 하위 모집단을 만들 수 있습니다. 워크플로우 편집기를 표시하려면 캠페인 대시보드에서 **[!UICONTROL Targeting and workflows]** 탭을 클릭합니다.
 
@@ -86,13 +88,13 @@ ht-degree: 2%
 1. **[!UICONTROL New workflow]** 템플릿을 선택하고 이 워크플로우의 이름을 지정합니다.
 1. **[!UICONTROL OK]** 을 클릭하여 워크플로우 만들기를 확인한 다음 이 워크플로우에 대한 다이어그램을 만듭니다.
 
-### 워크플로우 {#executing-a-workflow} 실행
+### 워크플로우 실행 {#executing-a-workflow}
 
 적절한 권한이 있는 경우 도구 모음의 **[!UICONTROL Start]** 버튼을 통해 수동으로 타깃팅 워크플로우를 시작할 수 있습니다.
 
 상기 타깃팅은 일정(스케줄러) 또는 이벤트(외부 신호, 파일 가져오기 등)에 따라 자동 실행되도록 프로그래밍할 수 있습니다.
 
-타겟팅 워크플로우 실행(실행, 중지, 일시 중지 등)과 관련된 작업 **비동기** 프로세스:명령이 저장되고 서버가 적용되는 즉시 적용됩니다.
+타겟팅 워크플로우 실행(실행, 중지, 일시 중지 등)과 관련된 작업 **비동기** 프로세스: 명령이 저장되고 서버가 적용되는 즉시 적용됩니다.
 
 도구 모음 아이콘을 사용하면 타겟팅 워크플로우 실행에 대한 작업을 수행할 수 있습니다.
 
@@ -167,18 +169,18 @@ ht-degree: 2%
 
    ![](assets/s_user_segmentation_stop_unconditional.png)
 
-## 컨트롤 그룹 {#defining-a-control-group} 추가
+## 컨트롤 그룹 추가 {#defining-a-control-group}
 
-컨트롤 그룹은 게재를 받지 않는 모집단입니다.게재를 받은 대상 모집단 행동과의 비교를 통해 게재 후 동작 및 캠페인 영향을 추적하는 데 사용됩니다.
+컨트롤 그룹은 게재를 받지 않는 모집단입니다. 게재를 받은 대상 모집단 행동과의 비교를 통해 게재 후 동작 및 캠페인 영향을 추적하는 데 사용됩니다.
 
 컨트롤 그룹은 기본 대상에서 추출하거나 특정 그룹 또는 쿼리에서 추출할 수 있습니다.
 
-### 캠페인 {#activating-the-control-group-for-a-campaign}에 대한 컨트롤 그룹 활성화
+### 캠페인에 대한 컨트롤 그룹 활성화 {#activating-the-control-group-for-a-campaign}
 
 캠페인 수준에서 컨트롤 그룹을 정의할 수 있습니다. 이 경우 컨트롤 그룹이 해당 캠페인의 각 게재에 적용됩니다.
 
 1. 관련 캠페인을 편집하고 **[!UICONTROL Edit]** 탭을 클릭합니다.
-1. **[!UICONTROL Advanced campaign settings]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Advanced campaign settings]**&#x200B;를 클릭합니다.
 
    ![](assets/s_ncs_user_edit_op_target.png)
 
@@ -189,7 +191,7 @@ ht-degree: 2%
 
 구성 프로시저는 [기본 대상](#extracting-the-control-group-from-the-main-target) 및 [컨트롤 그룹 추가](#adding-a-population)에 나와 있습니다.
 
-### 배달 {#activating-the-control-group-for-a-delivery} 컨트롤 그룹 활성화
+### 게재할 컨트롤 그룹 활성화 {#activating-the-control-group-for-a-delivery}
 
 전달 수준에서 컨트롤 그룹을 정의할 수 있습니다. 이 경우 컨트롤 그룹이 해당 캠페인의 각 게재에 적용됩니다.
 
@@ -208,15 +210,15 @@ ht-degree: 2%
 
 구성 프로시저는 [기본 대상](#extracting-the-control-group-from-the-main-target) 및 [컨트롤 그룹 추가](#adding-a-population)에 나와 있습니다.
 
-### 기본 대상 {#extracting-the-control-group-from-the-main-target}에서 컨트롤 그룹 추출
+### 기본 대상에서 컨트롤 그룹 추출 {#extracting-the-control-group-from-the-main-target}
 
 게재의 기본 대상에서 수신자를 추출할 수 있습니다. 이 경우 수신자는 이 구성의 영향을 받는 게재 작업 대상에서 제거됩니다. 이 추출은 임의로 또는 수신자를 정렬한 결과일 수 있습니다.
 
 ![](assets/s_ncs_user_extract_from_target_population.png)
 
-컨트롤 그룹을 추출하려면 캠페인이나 게재에 대해 컨트롤 그룹을 활성화하고 다음 옵션 중 하나를 선택합니다.**[!UICONTROL Activate random sampling]** 또는 **[!UICONTROL Keep only the first records after sorting]**
+컨트롤 그룹을 추출하려면 캠페인이나 게재에 대해 컨트롤 그룹을 활성화하고 다음 옵션 중 하나를 선택합니다. **[!UICONTROL Activate random sampling]** 또는 **[!UICONTROL Keep only the first records after sorting]**
 
-* **[!UICONTROL Activate random sampling]** :이 옵션은 타겟팅된 모집단의 수신자에게 무작위 샘플링을 적용합니다. 그런 다음 임계값을 100으로 설정하면 대상 모집단에서 임의로 선택한 100명의 수신자로 컨트롤 그룹이 구성됩니다. 임의 샘플링은 데이터베이스 엔진에 따라 다릅니다.
+* **[!UICONTROL Activate random sampling]** : 이 옵션은 타겟팅된 모집단의 수신자에게 무작위 샘플링을 적용합니다. 그런 다음 임계값을 100으로 설정하면 대상 모집단에서 임의로 선택한 100명의 수신자로 컨트롤 그룹이 구성됩니다. 임의 샘플링은 데이터베이스 엔진에 따라 다릅니다.
 * **[!UICONTROL Keep only the first records after sorting]** : 이 옵션을 사용하면 하나 이상의 정렬 명령을 기준으로 제한을 정의할 수 있습니다. **[!UICONTROL Age]** 필드를 정렬 기준으로 선택한 다음 100을 임계값으로 정의하는 경우 컨트롤 그룹은 100명의 가장 어린 수신자로 구성됩니다. 예를 들어 구매를 거의 하지 않는 수신자나 구매 횟수가 많은 수신자를 포함하는 컨트롤 그룹을 정의하고, 해당 행동을 연락을 한 수신자의 행동과 비교해보면 좋은 정보를 얻을 수 있습니다.
 
 **[!UICONTROL Next]** 을 클릭하여 정렬 순서를 정의하고(필요한 경우) 수신자 제한 모드를 선택합니다.
@@ -225,7 +227,7 @@ ht-degree: 2%
 
 이 구성은 워크플로우의 공유 활동과 같습니다. 이 활동을 통해 대상을 하위 집합으로 분류할 수 있습니다. 컨트롤 그룹은 이러한 하위 집합 중 하나입니다. 자세한 내용은 [이 섹션](../../workflow/using/architecture.md)을 참조하십시오.
 
-### 새 모집단을 컨트롤 그룹 {#adding-a-population}으로 사용
+### 새 모집단을 컨트롤 그룹으로 사용 {#adding-a-population}
 
 컨트롤 그룹으로 사용할 새 모집단을 정의할 수 있습니다. 이 모집단은 수신자 그룹에서 만들거나 특정 쿼리를 통해 만들 수 있습니다.
 

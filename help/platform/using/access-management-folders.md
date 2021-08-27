@@ -2,18 +2,20 @@
 product: campaign
 title: Campaign 폴더에 대한 액세스 관리
 description: Campaign 폴더에 대한 액세스 권한을 부여하고 보기를 만드는 방법을 알아봅니다
-feature: 애플리케이션 설정
+feature: Application Settings
 role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
 
 # 폴더 액세스 관리{#folder-access-management}
+
+![](../../assets/common.svg)
 
 탐색기 탐색 트리의 각 폴더에는 읽기, 쓰기 및 삭제 액세스 권한이 첨부되어 있습니다. 파일에 액세스하려면 연산자나 연산자 그룹이 파일에 대한 읽기 액세스 권한을 적어도 가져야 합니다.
 

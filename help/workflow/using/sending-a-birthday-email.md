@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 생일 전자 메일 보내기{#sending-a-birthday-email}
+
+![](../../assets/common.svg)
 
 ## 소개 {#introduction}
 
@@ -31,18 +33,18 @@ ht-degree: 1%
 
 그런 다음 다음 단계를 수행합니다.
 
-## 전송 {#configuring-the-scheduler} 예약
+## 전송 예약 {#configuring-the-scheduler}
 
 1. 먼저 **스케줄러**&#x200B;를 추가하여 매일 게재 전송을 트리거합니다. 아래 예에서는 게재가 매일 오전 6시에 만들어집니다.
 
    ![](assets/recur_delivery2.png)
 
 
-## 생일이 {#identifying-recipients-whose-birthday-it-is}인 수신자 식별
+## 생일인 수신자 식별 {#identifying-recipients-whose-birthday-it-is}
 
 워크플로우가 매일 시작되도록 **[!UICONTROL Scheduler]** 활동을 구성한 후 생년월일이 현재 날짜와 같은 수신자를 모두 식별합니다.
 
-이렇게 하려면 다음 단계를 적용합니다.
+그렇게 하려면 다음 단계를 적용합니다.
 
 1. **[!UICONTROL Query]** 활동을 워크플로우에 끌어다 놓고 두 번 클릭합니다.
 1. **쿼리** 편집 링크를 클릭하고 **[!UICONTROL Filtering conditions]**&#x200B;를 선택합니다.
@@ -112,7 +114,7 @@ ht-degree: 1%
 
 현재 연도 **이(가) 윤년이 아니고 3월 1일에 워크플로우가 실행되는 경우 어제(2월 29일) 생일이 발생한 모든 수신자를 선택하고 수신자 목록에 추가해야 합니다.** 다른 경우에는 추가 작업이 필요하지 않습니다.
 
-### 1단계:수신자 {#step-1--selecting-the-recipients} 선택
+### 1단계: 수신자 선택 {#step-1--selecting-the-recipients}
 
 워크플로우가 매일 시작되도록 **[!UICONTROL Scheduler]** 활동을 구성한 후 기념일이 현재 날짜인 모든 수신자를 식별합니다.
 
@@ -124,7 +126,7 @@ ht-degree: 1%
 
 생일이 현재 날짜에 해당하는 수신자를 선택하는 방법은 [생일이](#identifying-recipients-whose-birthday-it-is) 인 수신자 식별 섹션에 나와 있습니다.
 
-### 2단계:윤년인지 여부를 선택합니다 {#step-2--select-whether-or-not-it-is-a-leap-year}
+### 2단계: 윤년인지 여부를 선택합니다 {#step-2--select-whether-or-not-it-is-a-leap-year}
 
 **[!UICONTROL Test]** 활동을 통해 윤년인지 여부 및 현재 날짜가 3월 1일인지 여부를 확인할 수 있습니다.
 
@@ -184,7 +186,7 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 
 ![](assets/birthday-workflow_usecase_4.png)
 
-### 3단계:2월 29일 {#step-3--select-any-recipients-born-on-february-29th}에 출생한 수신자를 선택하십시오.
+### 3단계: 2월 29일에 출생한 수신자를 선택합니다. {#step-3--select-any-recipients-born-on-february-29th}
 
 **[!UICONTROL Fork]** 활동을 만들고 아웃바운드 전환 중 하나를 **[!UICONTROL Query]** 활동에 연결합니다.
 
@@ -202,7 +204,7 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 
 >[!CAUTION]
 >
->워크플로우를 실행하려면 캠페인 패키지와 관련된 기술 워크플로우를 시작해야 합니다. 자세한 내용은 [기술 워크플로우 목록](../../workflow/using/about-technical-workflows.md) 섹션을 참조하십시오.
+>워크플로우를 실행하려면 캠페인 패키지와 관련된 기술 워크플로우를 시작해야 합니다. 자세한 내용은 [기술 워크플로우 목록](about-technical-workflows.md) 섹션을 참조하십시오.
 >
 >캠페인에 대해 승인 단계를 활성화하면 이러한 단계를 확인한 후에만 게재가 전송됩니다. 자세한 내용은 [승인할 프로세스 선택](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) 섹션을 참조하십시오.
 

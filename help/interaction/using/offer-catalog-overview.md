@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 464a6548-1b91-4e09-b620-3b820ef69653
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 오퍼 카탈로그 개요{#offer-catalog-overview}
+
+![](../../assets/v7-only.svg)
 
 오퍼 카탈로그는 항상 하위 카테고리 또는 오퍼를 직접 포함하는 카테고리로 구성됩니다.
 

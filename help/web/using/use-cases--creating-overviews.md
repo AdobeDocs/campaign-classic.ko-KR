@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%
 
 ---
 
-# 사용 사례:개요 페이지 만들기{#use-cases-creating-overviews}
+# 사용 사례: 개요 페이지 만들기{#use-cases-creating-overviews}
+
+![](../../assets/common.svg)
 
 다음 예제에서는 개요형 웹 응용 프로그램을 만들어 데이터베이스의 모든 웹 응용 프로그램을 표시합니다. 다음 요소를 구성합니다.
 
@@ -62,7 +64,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >변수 이름은 폴더에 연결된 요소(즉, 스키마에 정의됨)의 이름과 일치해야 합니다.이 경우 **folder** 테이블을 참조할 때는 이 이름을 다시 사용해야 합니다.
+   >변수 이름은 폴더에 연결된 요소(즉, 스키마에 정의됨)의 이름과 일치해야 합니다. 이 경우 **folder** 테이블을 참조할 때는 이 이름을 다시 사용해야 합니다.
 
 1. 변수에 **[!UICONTROL XML]** 유형을 적용합니다.
 
@@ -72,7 +74,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_configuration_webapp_variable.png)
 
-1. 목록에 커서를 놓고 **[!UICONTROL Advanced]** 탭에서 목록의 **[!UICONTROL Folder filter XPath]** 탭에서 이전에 만든 변수를 참조합니다. 폴더 링크와 관련된 요소의 이름(예:**폴더**
+1. 목록에 커서를 놓고 **[!UICONTROL Advanced]** 탭에서 목록의 **[!UICONTROL Folder filter XPath]** 탭에서 이전에 만든 변수를 참조합니다. 폴더 링크와 관련된 요소의 이름(예: **폴더**
 
    ![](assets/s_ncs_configuration_webapp_variable002.png)
 
@@ -87,7 +89,7 @@ ht-degree: 0%
 
    이 예제에서 레이블은 **New**&#x200B;입니다.
 
-1. URL 필드에 다음 URL을 삽입합니다.**xtk://open/?schema=nms:webApp&amp;form=nms:newWebApp**
+1. URL 필드에 다음 URL을 삽입합니다. **xtk://open/?schema=nms:webApp&amp;form=nms:newWebApp**
 
    >[!NOTE]
    >
@@ -96,7 +98,7 @@ ht-degree: 0%
    >**nms:** newWebApp이 새 웹 응용 프로그램 만들기 마법사와 일치합니다.
 
 1. 동일한 창에 URL을 표시하도록 선택합니다.
-1. 이미지 필드에 웹 애플리케이션 아이콘을 추가합니다.**/nms/img/webApp.png**
+1. 이미지 필드에 웹 애플리케이션 아이콘을 추가합니다. **/nms/img/webApp.png**
 
    이 아이콘은 **[!UICONTROL New]** 단추에 나타납니다.
 
@@ -160,7 +162,7 @@ ht-degree: 0%
 
 ## 목록 필터링 및 업데이트 {#filtering-and-updating-the-list}
 
-이 섹션에서는 특정 연산자가 생성한 웹 응용 프로그램의 개요를 표시하는 필터를 만듭니다. 이 필터는 링크 편집기를 사용하여 만듭니다. 연산자를 선택하면 목록을 새로 고쳐 필터를 적용합니다.새로 고침 링크를 만들어야 합니다.
+이 섹션에서는 특정 연산자가 생성한 웹 응용 프로그램의 개요를 표시하는 필터를 만듭니다. 이 필터는 링크 편집기를 사용하여 만듭니다. 연산자를 선택하면 목록을 새로 고쳐 필터를 적용합니다. 새로 고침 링크를 만들어야 합니다.
 
 이러한 두 요소는 개요에서 그래픽으로 그룹화하기 위해 동일한 컨테이너로 그룹화됩니다.
 
@@ -214,7 +216,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_configuration_webapp_refreshlink.png)
 
-1. **[!UICONTROL Image]** 필드에 새로 고침 아이콘을 추가합니다.**/xtk/img/refresh.png**
+1. **[!UICONTROL Image]** 필드에 새로 고침 아이콘을 추가합니다. **/xtk/img/refresh.png**
 1. 정렬 순서 화살표를 사용하여 아래에서 보듯이 웹 애플리케이션의 다양한 요소를 재구성합니다.
 
    ![](assets/s_ncs_configuration_webapp_orderelements.png)

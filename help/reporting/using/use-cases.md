@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 0%
 
 ---
 
-# 사용 사례{#use-cases}
+# 활용 사례{#use-cases}
+
+![](../../assets/common.svg)
 
 ## 모집단 분석 {#analyzing-a-population}
 
@@ -31,7 +33,7 @@ ht-degree: 0%
 
 ### 분석 유형 선택 {#selecting-a-type-of-analysis}
 
-도우미의 첫 번째 단계에서 사용할 설명 분석 템플릿을 선택할 수 있습니다. 기본적으로 Adobe Campaign에서는 두 가지 템플릿을 제공합니다.**[!UICONTROL Qualitative distribution]** 및 **[!UICONTROL Quantitative distribution]** 자세한 내용은 [정성 배포 템플릿 구성](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-qualitative-distribution-template) 섹션을 참조하십시오. 다양한 렌더링은 [설명 분석 정보](../../reporting/using/about-descriptive-analysis.md) 섹션에 나와 있습니다.
+도우미의 첫 번째 단계에서 사용할 설명 분석 템플릿을 선택할 수 있습니다. 기본적으로 Adobe Campaign에서는 두 가지 템플릿을 제공합니다. **[!UICONTROL Qualitative distribution]** 및 **[!UICONTROL Quantitative distribution]** 자세한 내용은 [정성 배포 템플릿 구성](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-qualitative-distribution-template) 섹션을 참조하십시오. 다양한 렌더링은 [설명 분석 정보](../../reporting/using/about-descriptive-analysis.md) 섹션에 나와 있습니다.
 
 이 예제에서는 **[!UICONTROL Qualitative distribution]** 템플릿을 선택하고 차트와 테이블(배열)이 있는 표시를 선택합니다. 보고서에 이름을 지정하고(&quot;설명 분석&quot;) **[!UICONTROL Next]**&#x200B;을 클릭합니다.
 
@@ -57,7 +59,7 @@ ht-degree: 0%
 
 ![](assets/reporting_descriptive_quickstart_step_2b.png)
 
-### 표시 형식 {#defining-the-display-format} 정의
+### 표시 형식 정의 {#defining-the-display-format}
 
 마법사의 다음 단계에서는 생성할 차트 유형을 선택할 수 있습니다.
 
@@ -67,7 +69,7 @@ ht-degree: 0%
 
 다른 그래픽의 가능한 구성은 [분석 보고서 차트 옵션](../../reporting/using/processing-a-report.md#analysis-report-chart-options) 섹션에 자세히 설명되어 있습니다.
 
-### {#configuring-the-statistic-to-calculate} 계산을 위한 통계 구성
+### 계산할 통계 구성 {#configuring-the-statistic-to-calculate}
 
 그런 다음 수집된 데이터에 적용할 계산을 지정합니다. 기본적으로 설명 분석 마법사는 간단한 값 개수를 수행합니다.
 
@@ -85,11 +87,11 @@ ht-degree: 0%
 
 ![](assets/reporting_descriptive_quickstart_step_5.png)
 
-## 질적 데이터 분석 {#qualitative-data-analysis}
+## 정성 데이터 분석 {#qualitative-data-analysis}
 
-### 차트 표시 예 {#example-of-a-chart-display}
+### 차트 표시의 예 {#example-of-a-chart-display}
 
-**Target**:잠재 고객 또는 고객의 위치에 대한 분석 보고서를 생성합니다.
+**Target**: 잠재 고객 또는 고객의 위치에 대한 분석 보고서를 생성합니다.
 
 1. 설명 분석 마법사를 열고 **[!UICONTROL Chart]**&#x200B;만 선택합니다.
 
@@ -113,9 +115,9 @@ ht-degree: 0%
 
    ![](assets/s_ncs_user_report_wizard_06png.png)
 
-### 테이블 표시 예 {#example-of-a-table-display}
+### 테이블 표시의 예 {#example-of-a-table-display}
 
-**Target**:회사 이메일 도메인을 분석합니다.
+**Target**: 회사 이메일 도메인을 분석합니다.
 
 1. 설명 분석 마법사를 열고 **[!UICONTROL Array]** 표시 모드만 선택합니다.
 
@@ -124,13 +126,13 @@ ht-degree: 0%
    이 단계를 승인하려면 **[!UICONTROL Next]** 단추를 클릭하십시오.
 
 1. **[!UICONTROL Company]** 변수를 열로 선택하고 **[!UICONTROL Email domain]** 변수를 행으로 선택합니다.
-1. 통계 방향에 대해 **[!UICONTROL By rows]** 옵션을 유지합니다.통계 계산이 **[!UICONTROL Email domain]** 변수 오른쪽에 표시됩니다.
+1. 통계 방향에 대해 **[!UICONTROL By rows]** 옵션을 유지합니다. 통계 계산이 **[!UICONTROL Email domain]** 변수 오른쪽에 표시됩니다.
 
    ![](assets/s_ncs_user_report_wizard_03b.png)
 
    이 단계를 승인하려면 **[!UICONTROL Next]** 을 클릭하십시오.
 
-1. 그런 다음 계산할 통계를 입력합니다.기본 카운트를 유지하고 새 통계를 만듭니다. 이렇게 하려면 **[!UICONTROL Add]** 을 클릭하고 **[!UICONTROL Total percentage distribution]** 을 연산자로 선택합니다.
+1. 그런 다음 계산할 통계를 입력합니다. 기본 카운트를 유지하고 새 통계를 만듭니다. 이렇게 하려면 **[!UICONTROL Add]** 을 클릭하고 **[!UICONTROL Total percentage distribution]** 을 연산자로 선택합니다.
 
    ![](assets/s_ncs_user_report_wizard_03.png)
 
@@ -142,7 +144,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_user_report_wizard_06.png)
 
-1. 분석 보고서가 생성되면 구성을 변경하지 않고 필요에 따라 디스플레이를 조정할 수 있습니다. 예를 들어 다음 축을 전환할 수 있습니다.도메인 이름을 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **[!UICONTROL Turn]** 을 선택합니다.
+1. 분석 보고서가 생성되면 구성을 변경하지 않고 필요에 따라 디스플레이를 조정할 수 있습니다. 예를 들어 다음 축을 전환할 수 있습니다. 도메인 이름을 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **[!UICONTROL Turn]** 을 선택합니다.
 
    ![](assets/s_ncs_user_report_wizard_07.png)
 
@@ -152,7 +154,7 @@ ht-degree: 0%
 
 ## 수량 데이터 분석 {#quantitative-data-analysis}
 
-**Target**:수신자 연령을 정량적 분석 보고서를 생성하려면
+**Target**: 수신자 연령을 정량적 분석 보고서를 생성하려면
 
 1. 설명 분석 마법사를 열고 드롭다운 목록에서 **[!UICONTROL Quantitative distribution]** 을 선택합니다.
 
@@ -164,7 +166,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_user_report_wizard_011.png)
 
-1. **[!UICONTROL Deciles]**, **[!UICONTROL Distribution]** 및 **[!UICONTROL Sum]** 통계를 삭제합니다.여긴 필요 없어요
+1. **[!UICONTROL Deciles]**, **[!UICONTROL Distribution]** 및 **[!UICONTROL Sum]** 통계를 삭제합니다. 여긴 필요 없어요
 
    ![](assets/s_ncs_user_report_wizard_012.png)
 
@@ -172,9 +174,9 @@ ht-degree: 0%
 
    ![](assets/s_ncs_user_report_wizard_013.png)
 
-## 워크플로우 {#analyzing-a-transition-target-in-a-workflow}에서 전환 대상 분석
+## 워크플로우에서 전환 타겟 분석 {#analyzing-a-transition-target-in-a-workflow}
 
-**Target**:타겟팅 워크플로우의 모집단에 대한 보고서를 생성하려면
+**Target**: 타겟팅 워크플로우의 모집단에 대한 보고서를 생성하려면
 
 1. 원하는 타겟팅 워크플로우를 엽니다.
 1. 수신자 테이블을 가리키는 전환을 마우스 오른쪽 단추로 클릭합니다.
@@ -207,13 +209,13 @@ ht-degree: 0%
 >**[!UICONTROL Keep the result of interim populations between two executions]** 옵션은 개발 단계에만 사용해야 하지만 프로덕션 환경에는 사용하지 않아야 합니다.\
 >보존 기간이 만료되면 임시 모집단은 자동으로 삭제됩니다. 이 마감일은 워크플로우 속성 **[!UICONTROL Execution]** 탭에 지정됩니다.
 
-## 수신자 추적 로그 분석 중 {#analyzing-recipient-tracking-logs}
+## 수신자 추적 로그 분석 {#analyzing-recipient-tracking-logs}
 
 설명 분석 마법사는 다른 작업 테이블에 대한 보고서를 생성할 수 있습니다. 즉, 전용 보고서를 만들어 게재 로그를 분석할 수 있습니다.
 
 이 예에서는 뉴스레터 수신자의 반응성 비율을 분석하려고 합니다.
 
-이렇게 하려면 다음 단계를 적용합니다.
+그렇게 하려면 다음 단계를 적용합니다.
 
 1. **[!UICONTROL Tools > Descriptive analysis]** 메뉴를 통해 설명 분석 마법사를 열고 기본 작업 테이블을 변경합니다. **[!UICONTROL Recipient tracking log]** 을 선택하고 필터를 추가하여 증명을 제외하고 뉴스레터를 포함합니다.
 
@@ -229,9 +231,9 @@ ht-degree: 0%
 
 1. 기본 카운트를 삭제하고 3개의 통계를 만들어 테이블에 표시할 통계를 구성합니다.
 
-   여기서는 각 뉴스레터에 대해 테이블에 다음이 표시됩니다.열기 수, 클릭 수, 반응성 비율(백분율)
+   여기서는 각 뉴스레터에 대해 테이블에 다음이 표시됩니다. 열기 수, 클릭 수, 반응성 비율(백분율)
 
-1. 클릭 수를 계산할 통계를 추가합니다.**[!UICONTROL Filter]** 탭에서 관련 필터를 정의합니다.
+1. 클릭 수를 계산할 통계를 추가합니다. **[!UICONTROL Filter]** 탭에서 관련 필터를 정의합니다.
 
    ![](assets/reporting_descriptive_sample_tracking_3.png)
 
@@ -261,7 +263,7 @@ ht-degree: 0%
 
    ![](assets/reporting_descriptive_sample_tracking_8.png)
 
-   마지막으로 값을 백분율로 표시할지 여부를 지정합니다.이렇게 하려면 **[!UICONTROL Advanced]** 탭에서 **[!UICONTROL Default formatting]** 옵션을 선택 취소하고 소수점 없이 **[!UICONTROL Percentage]**&#x200B;을(를) 선택합니다.
+   마지막으로 값을 백분율로 표시할지 여부를 지정합니다. 이렇게 하려면 **[!UICONTROL Advanced]** 탭에서 **[!UICONTROL Default formatting]** 옵션을 선택 취소하고 소수점 없이 **[!UICONTROL Percentage]**&#x200B;을(를) 선택합니다.
 
    ![](assets/reporting_descriptive_sample_tracking_10.png)
 
@@ -269,7 +271,7 @@ ht-degree: 0%
 
    ![](assets/reporting_descriptive_sample_tracking_9.png)
 
-## 게재 제외 로그 분석 중 {#analyzing-delivery-exclusion-logs}
+## 게재 제외 로그 분석 {#analyzing-delivery-exclusion-logs}
 
 분석에서 게재와 관련된 경우 제외된 모집단을 분석할 수 있습니다. 이렇게 하려면 분석할 게재를 선택하고 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL Action > Explore exclusions]** 메뉴에 액세스합니다.
 

@@ -6,7 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 1%
@@ -15,15 +15,17 @@ ht-degree: 1%
 
 # Linux에서 Adobe Campaign v7으로 마이그레이션{#migrating-in-linux-for-adobe-campaign-v}
 
-## 일반 프로시저 {#general-procedure}
+![](../../assets/v7-only.svg)
+
+## 일반 절차 {#general-procedure}
 
 Linux의 마이그레이션 단계는 다음과 같습니다.
 
-1. 서비스 중지:[서비스 중지](#service-stop)를 참조하십시오.
-1. 데이터베이스를 저장합니다.[데이터베이스 및 기존 설치 백업](#back-up-the-database-and-the-existing-installation)을 참조하십시오.
-1. 이전 Adobe Campaign 버전 패키지 제거:[Adobe Campaign 이전 버전 패키지 제거](#uninstalling-adobe-campaign-previous-version-packages)를 참조하십시오.
-1. 플랫폼 마이그레이션:[Adobe Campaign v7 배포](#deploying-adobe-campaign-v7)를 참조하십시오.
-1. 서비스 다시 시작:[서비스 다시 시작](#re-starting-services)을 참조하십시오.
+1. 서비스 중지: [서비스 중지](#service-stop)를 참조하십시오.
+1. 데이터베이스를 저장합니다. [데이터베이스 및 기존 설치 백업](#back-up-the-database-and-the-existing-installation)을 참조하십시오.
+1. 이전 Adobe Campaign 버전 패키지 제거: [Adobe Campaign 이전 버전 패키지 제거](#uninstalling-adobe-campaign-previous-version-packages)를 참조하십시오.
+1. 플랫폼 마이그레이션: [Adobe Campaign v7 배포](#deploying-adobe-campaign-v7)를 참조하십시오.
+1. 서비스 다시 시작: [서비스 다시 시작](#re-starting-services)을 참조하십시오.
 
 ## 서비스 중지 {#service-stop}
 
@@ -69,7 +71,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
    killall -9 nlserver
    ```
 
-## 데이터베이스 및 기존 설치 {#back-up-the-database-and-the-existing-installation} 백업
+## 데이터베이스 및 기존 설치 백업 {#back-up-the-database-and-the-existing-installation}
 
 절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
 
@@ -143,7 +145,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
    </serverconf>
    ```
 
-### Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6-1}에서 마이그레이션
+### Adobe Campaign v6.1에서 마이그레이션 {#migrating-from-adobe-campaign-v6-1}
 
 1. Adobe Campaign 데이터베이스를 백업합니다.
 1. **neolane**&#x200B;로 로그인하고 다음 명령을 사용하여 **nl6** 디렉토리를 백업하십시오.
@@ -157,11 +159,11 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
    >
    >예방 차원에서 **nl6.back** 폴더를 압축하고 서버 이외의 보안 위치에 저장하는 것이 좋습니다.
 
-## Adobe Campaign 이전 버전 패키지 {#uninstalling-adobe-campaign-previous-version-packages} 제거
+## Adobe Campaign 이전 버전 패키지 제거 {#uninstalling-adobe-campaign-previous-version-packages}
 
 절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
 
-### Adobe Campaign v5 패키지 제거 중 {#uninstalling-adobe-campaign-v5-packages}
+### Adobe Campaign v5 패키지 제거 {#uninstalling-adobe-campaign-v5-packages}
 
 1. **root**&#x200B;로 로그인합니다.
 1. 다음 명령을 사용하여 설치된 Adobe Campaign 패키지를 식별합니다.
@@ -199,7 +201,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
       rprm -ev nlserver5 nlthirdparty5
       ```
 
-### Adobe Campaign v6 패키지 제거 중 {#uninstalling-adobe-campaign-v6-packages}
+### Adobe Campaign v6 패키지 제거 {#uninstalling-adobe-campaign-v6-packages}
 
 이 섹션에서는 Adobe Campaign v6.02 또는 v6.1 패키지를 제거하는 방법을 보여줍니다.
 
@@ -247,8 +249,8 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 
 Adobe Campaign 배포에는 두 단계가 있습니다.
 
-* Adobe Campaign v7 패키지 설치:이 작업은 각 서버에서 수행해야 합니다.
-* 업그레이드 후:이 명령은 각 인스턴스에서 시작해야 합니다.
+* Adobe Campaign v7 패키지 설치: 이 작업은 각 서버에서 수행해야 합니다.
+* 업그레이드 후: 이 명령은 각 인스턴스에서 시작해야 합니다.
 
 Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
@@ -273,7 +275,7 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
    >
    >v5.11에서 마이그레이션할 때 Adobe Campaign은 기본적으로 **/usr/local/neolane/nl6/** 디렉토리에 설치됩니다.
    >
-   >패키지가 설치되면 다음 메시지가 표시됩니다.**&#39;WdbcTimeZone&#39; 옵션이 없습니다**. 이는 정상적인 현상입니다.
+   >패키지가 설치되면 다음 메시지가 표시됩니다. **&#39;WdbcTimeZone&#39; 옵션이 없습니다**. 이는 정상적인 현상입니다.
 
 1. 클라이언트 콘솔 설치 프로그램을 사용 가능하게 하려면 Adobe Campaign 설치 디렉토리에 복사합니다.
 
@@ -294,7 +296,7 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >**neolane**(으)로 로그인하면 다음 메시지가 표시됩니다.**nl5/env.sh :해당 파일 또는 디렉터리가 없습니다**. 이는 정상적인 현상입니다.
+   >**neolane**(으)로 로그인하면 다음 메시지가 표시됩니다. **nl5/env.sh : 해당 파일 또는 디렉터리가 없습니다**. 이는 정상적인 현상입니다.
 
    파일의 끝 부분에서 **nl5/env.sh**&#x200B;을 **nl6/env.sh**&#x200B;로 바꾸십시오.
 
@@ -312,7 +314,7 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >이러한 명령을 사용하여 Adobe Campaign v6 내부 파일 시스템을 만들 수 있습니다.**conf** 디렉토리(**config-default.xml** 및 **serverConf.xml** 파일 사용), **var** 디렉토리.
+   >이러한 명령을 사용하여 Adobe Campaign v6 내부 파일 시스템을 만들 수 있습니다. **conf** 디렉토리(**config-default.xml** 및 **serverConf.xml** 파일 사용), **var** 디렉토리.
 
 1. **nl5.back** 백업 폴더로 이동하고 각 인스턴스의 구성 파일과 하위 폴더를 복사(덮어쓰기)합니다. **neolane**(으)로 로그인하고 다음 명령을 실행합니다.
 
@@ -360,7 +362,7 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
    >[!IMPORTANT]
    >
-   >업그레이드 후 참조용으로 사용할 시간대를 지정해야 합니다( **-timezone** 옵션 사용). 이 경우 유럽/파리 시간대 **-timezone을 사용합니다.&quot;유럽/파리&quot;**.
+   >업그레이드 후 참조용으로 사용할 시간대를 지정해야 합니다( **-timezone** 옵션 사용). 이 경우 유럽/파리 시간대 **-timezone을 사용합니다. &quot;유럽/파리&quot;**.
 
    >[!NOTE]
    >
@@ -368,14 +370,14 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
 >[!IMPORTANT]
 >
->아직 Adobe Campaign 서비스를 시작하지 마십시오.여전히 Apache에서 변경 작업을 수행해야 합니다.
+>아직 Adobe Campaign 서비스를 시작하지 마십시오. 여전히 Apache에서 변경 작업을 수행해야 합니다.
 
 ### Adobe Campaign v6.02에서 마이그레이션 {#migrating-from-adobe-campaign-v6_02-1}
 
 Adobe Campaign 배포에는 두 단계가 있습니다.
 
-* Adobe Campaign v7 패키지 설치:이 작업은 각 서버에서 수행해야 합니다.
-* 업그레이드 후:이 명령은 각 인스턴스에서 시작해야 합니다.
+* Adobe Campaign v7 패키지 설치: 이 작업은 각 서버에서 수행해야 합니다.
+* 업그레이드 후: 이 명령은 각 인스턴스에서 시작해야 합니다.
 
 Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
@@ -398,7 +400,7 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >Adobe Campaign v7는 기본적으로 Adobe Campaign v6.02와 동일한 디렉토리에 설치됩니다.**/usr/local/neolane/nl6/**
+   >Adobe Campaign v7는 기본적으로 Adobe Campaign v6.02와 동일한 디렉토리에 설치됩니다. **/usr/local/neolane/nl6/**
 
 1. 클라이언트 콘솔 설치 프로그램을 사용 가능하게 하려면 Adobe Campaign 설치 디렉토리에 복사합니다.
 
@@ -448,12 +450,12 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
    >
    >&quot;다중 시간대&quot; 모드는 PostgreSQL 데이터베이스 엔진용 v6.02에서만 사용할 수 있습니다. 이제 사용 중인 데이터베이스 엔진 버전에 관계없이 사용할 수 있습니다. 기본 시간대를 &quot;다중 시간대&quot;로 업그레이드하는 것이 좋습니다. 시간대 옵션에 대한 자세한 내용은 [시간대](../../migration/using/general-configurations.md#time-zones) 섹션을 참조하십시오.
 
-### Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6_1-1}에서 마이그레이션
+### Adobe Campaign v6.1에서 마이그레이션 {#migrating-from-adobe-campaign-v6_1-1}
 
 Adobe Campaign 배포에는 두 단계가 있습니다.
 
-* Adobe Campaign v7 패키지 설치:이 작업은 각 서버에서 수행해야 합니다.
-* 업그레이드 후:이 명령은 각 인스턴스에서 시작해야 합니다.
+* Adobe Campaign v7 패키지 설치: 이 작업은 각 서버에서 수행해야 합니다.
+* 업그레이드 후: 이 명령은 각 인스턴스에서 시작해야 합니다.
 
 Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
@@ -512,13 +514,13 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
    nlserver config -postupgrade -instance:<instance name>
    ```
 
-## 리디렉션 서버(Apache) {#migrating-the-redirection-server--apache-} 마이그레이션
+## 리디렉션 서버 마이그레이션(Apache) {#migrating-the-redirection-server--apache-}
 
 >[!NOTE]
 >
 >이 섹션은 Adobe Campaign v5.11에서 마이그레이션할 때만 적용됩니다.
 
-이 단계에서 Apache를 중지해야 합니다. 다음을 참조하십시오.[서비스 중지](#service-stop).
+이 단계에서 Apache를 중지해야 합니다. 다음을 참조하십시오. [서비스 중지](#service-stop).
 
 1. **root**&#x200B;로 로그인합니다.
 1. Apache 환경 변수를 변경하여 **nl6** 디렉토리에 연결합니다.
@@ -640,7 +642,7 @@ v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하
 
 새 설치를 완전히 테스트하고, 다시 사용되지 않는지 확인하고 [일반 구성](../../migration/using/general-configurations.md) 섹션의 모든 권장 사항을 수행하여 모든 것이 올바르게 작동하는지 확인합니다.
 
-### Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6_1-2}에서 마이그레이션
+### Adobe Campaign v6.1에서 마이그레이션 {#migrating-from-adobe-campaign-v6_1-2}
 
 다음 각 서버에서 Apache 및 Adobe Campaign 서비스를 시작합니다.
 
@@ -650,7 +652,7 @@ v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하
 
 새 설치를 완전히 테스트하고, 다시 사용되지 않는지 확인하고 [일반 구성](../../migration/using/general-configurations.md) 섹션의 모든 권장 사항을 수행하여 모든 것이 올바르게 작동하는지 확인합니다.
 
-## Adobe Campaign v5 {#deleting-and-cleansing-adobe-campaign-v5} 삭제 및 정리
+## Adobe Campaign v5 삭제 및 정리 {#deleting-and-cleansing-adobe-campaign-v5}
 
 >[!NOTE]
 >

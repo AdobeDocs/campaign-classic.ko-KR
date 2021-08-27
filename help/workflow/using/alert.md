@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 21698e85-7b58-4bde-bbd2-0ee06ac90307
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 경고{#alert}
+
+![](../../assets/common.svg)
 
 **경고** 활동은 연산자 그룹에 메시지를 보냅니다. 승인 활동과 동일한 방식으로 작동하지만 이 경우에는 응답이 필요하지 않습니다.
 

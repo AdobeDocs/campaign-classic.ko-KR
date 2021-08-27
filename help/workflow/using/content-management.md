@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 콘텐츠 관리{#content-management}
+
+![](../../assets/common.svg)
 
 **컨텐츠 관리** 활동을 사용하면 컨텐츠를 만들고 조작하고 이 컨텐츠를 기반으로 파일을 생성할 수 있습니다. 그런 다음 &#39;배달&#39; 활동을 통해 이 콘텐츠를 전달할 수 있습니다.
 
@@ -23,9 +25,9 @@ ht-degree: 2%
 
 활동의 속성은 다음 세 단계로 나누어집니다.
 
-* **컨텐츠 선택**:콘텐츠는 이전에 만들거나 활동을 통해 만들 수 있습니다.
-* **콘텐츠 업데이트**:작업은 컨텐츠의 제목을 수정하거나 모든 XML 내용을 가져올 수 있습니다.
-* **작업**:결과 컨텐츠를 저장하거나 생성할 수 있습니다.
+* **컨텐츠 선택**: 콘텐츠는 이전에 만들거나 활동을 통해 만들 수 있습니다.
+* **콘텐츠 업데이트**: 작업은 컨텐츠의 제목을 수정하거나 모든 XML 내용을 가져올 수 있습니다.
+* **작업**: 결과 컨텐츠를 저장하거나 생성할 수 있습니다.
 
    ![](assets/content_mgmt_edit.png)
 

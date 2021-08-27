@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 상호 작용 - 데이터 버퍼{#interaction-data-buffer}
+
+![](../../assets/v7-only.svg)
 
 오퍼 제안 계산을 동기화하여 인바운드 상호 작용 성능을 증가하도록 데이터 버퍼 영역을 구성할 수 있습니다. 이 구성은 인스턴스의 고유한 구성 파일(config-Instance.xml)에서 수행됩니다.
 
@@ -39,7 +41,7 @@ Adobe Campaign에서 **데이터 버퍼 영역**&#x200B;이(가) 상호 작용 �
 
 데이터 버퍼 영역을 구성한 후 수정된 하드웨어 구성을 사용할 수 있는지 확인하십시오. (메모리 양).
 
-쓰기 데몬에 대한 정의(이름이 지정된 프로세스:상호 작용)은 다음과 같습니다.
+쓰기 데몬에 대한 정의(이름이 지정된 프로세스: 상호 작용)은 다음과 같습니다.
 
 ```
 <interactiond args="" autoStart="false" callDataSize="0" initScript="" maxProcessMemoryAlertMb="1800"

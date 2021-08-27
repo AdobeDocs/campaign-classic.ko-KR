@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 1%
@@ -15,11 +15,13 @@ ht-degree: 1%
 
 # 설명 분석 마법사 사용{#using-the-descriptive-analysis-wizard}
 
+![](../../assets/common.svg)
+
 설명 분석 보고서를 생성하려면 전용 마법사를 사용합니다. 구성은 분석할 데이터와 원하는 렌더링에 따라 다릅니다.
 
-## 데이터베이스 {#analyzing-data-in-the-database}의 데이터 분석
+## 데이터베이스의 데이터 분석 {#analyzing-data-in-the-database}
 
-설명 분석 마법사는 **[!UICONTROL Tools > Descriptive analysis]** 메뉴를 통해 시작할 수 있습니다.이 경우 분석은 기본적으로 수신자에 대한 관심입니다(**nms:recipient**). Adobe Campaign 데이터베이스의 모든 데이터에 적용됩니다.
+설명 분석 마법사는 **[!UICONTROL Tools > Descriptive analysis]** 메뉴를 통해 시작할 수 있습니다. 이 경우 분석은 기본적으로 수신자에 대한 관심입니다(**nms:recipient**). Adobe Campaign 데이터베이스의 모든 데이터에 적용됩니다.
 
 ![](assets/reporting_descriptive_wz_launch.png)
 
@@ -27,7 +29,7 @@ ht-degree: 1%
 
 ![](assets/reporting_descriptive_other_schema.png)
 
-데이터의 일부에 대한 통계를 생성하려는 경우 필터를 정의할 수 있습니다.이렇게 하려면 **[!UICONTROL Advanced settings...]** 링크를 클릭하고 아래와 같이 적용할 필터를 정의합니다.
+데이터의 일부에 대한 통계를 생성하려는 경우 필터를 정의할 수 있습니다. 이렇게 하려면 **[!UICONTROL Advanced settings...]** 링크를 클릭하고 아래와 같이 적용할 필터를 정의합니다.
 
 ![](assets/reporting_descriptive_wz_filter.png)
 
@@ -35,7 +37,7 @@ ht-degree: 1%
 
 ## 데이터 집합 분석 {#analyzing-a-set-of-data}
 
-다른 컨텍스트를 통해 설명 분석 마법사를 사용할 수 있습니다.목록, 워크플로우 전환, 하나 이상의 게재, 수신자 선택 등
+다른 컨텍스트를 통해 설명 분석 마법사를 사용할 수 있습니다. 목록, 워크플로우 전환, 하나 이상의 게재, 수신자 선택 등
 
 수신자 테이블을 가리키는 Adobe Campaign 트리의 여러 노드를 통해 액세스할 수 있습니다.
 
@@ -47,7 +49,7 @@ ht-degree: 1%
 
    폴더 또는 현재 필터의 모든 수신자를 선택하려면 Ctrl+A 단축키를 사용합니다. 즉, 표시되지 않은 수신자도 선택됩니다.
 
-   수신자를 설명하는 분석의 예는 다음을 참조하십시오.[정성인 데이터 분석](../../reporting/using/use-cases.md#qualitative-data-analysis).
+   수신자를 설명하는 분석의 예는 다음을 참조하십시오. [정성인 데이터 분석](../../reporting/using/use-cases.md#qualitative-data-analysis).
 
 * **워크플로우** 컨텍스트에서 수신자 테이블을 가리키는 전환에 커서를 놓고 마우스 오른쪽 단추를 클릭한 다음 **[!UICONTROL Analyze target]** 를 선택합니다. 자세한 내용은 워크플로우](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow)에서 전환 대상 분석 의 예를 참조하십시오.[
 * **목록**&#x200B;에 대해 하나 이상의 목록을 선택하고 수신자와 동일한 프로세스를 적용합니다.
@@ -55,7 +57,7 @@ ht-degree: 1%
 
    ![](assets/reporting_descriptive_from_deliveries.png)
 
-   게재에 대한 설명 분석 예는 다음과 같습니다.[모집단 분석](../../reporting/using/use-cases.md#analyzing-a-population) 및 위치:[수신자 추적 로그 분석](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
+   게재에 대한 설명 분석 예는 다음과 같습니다. [모집단 분석](../../reporting/using/use-cases.md#analyzing-a-population) 및 위치: [수신자 추적 로그 분석](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
 
 ## 질적 배포 템플릿 구성 {#configuring-the-qualitative-distribution-template}
 
@@ -65,7 +67,7 @@ ht-degree: 1%
 
 설명 분석 마법사를 사용하여 데이터를 분석하는 경우 사용 가능한 옵션은 선택한 설정에 따라 다릅니다. 다음은 아래에 자세히 설명되어 있습니다.
 
-### 데이터 시작 {#data-binning}
+### 데이터 바인딩 {#data-binning}
 
 표시할 변수를 선택할 때 데이터 바인딩을 정의할 수 있습니다. 즉, 선택한 데이터에 대한 그룹화 기준을 구성합니다.
 
@@ -77,16 +79,16 @@ ht-degree: 1%
 
 옵션은 필드의 컨텐츠에 따라 달라집니다.
 
-* **[!UICONTROL None]** :이 옵션을 사용하면 시작 없이 변수에 사용 가능한 모든 값을 표시할 수 있습니다.
+* **[!UICONTROL None]** : 이 옵션을 사용하면 시작 없이 변수에 사용 가능한 모든 값을 표시할 수 있습니다.
 
    >[!CAUTION]
    >
-   >이 옵션은 주의해서 사용해야 합니다.보고서 및 시스템 성능에 큰 영향을 줄 수 있습니다.
+   >이 옵션은 주의해서 사용해야 합니다. 보고서 및 시스템 성능에 큰 영향을 줄 수 있습니다.
 
-* **[!UICONTROL Auto]** :이 옵션을 사용하면 가장 자주 표시되는 값 n개를 표시할 수 있습니다. 자동으로 계산되며, 각각 저장소 수와 비교하여 변수의 백분율을 나타냅니다. 숫자 값의 경우 Adobe Campaign은 자동으로 n 클래스를 생성하여 데이터를 로 정렬합니다.
-* **[!UICONTROL Manual]** :이 옵션은 이러한 값을  **[!UICONTROL Auto]** 수동으로 설정할 수 있다는 점을 제외하고, 옵션과 같이 작동합니다. 이렇게 하려면 값 테이블 오른쪽에 있는 **[!UICONTROL Add]** 버튼을 클릭합니다.
+* **[!UICONTROL Auto]** : 이 옵션을 사용하면 가장 자주 표시되는 값 n개를 표시할 수 있습니다. 자동으로 계산되며, 각각 저장소 수와 비교하여 변수의 백분율을 나타냅니다. 숫자 값의 경우 Adobe Campaign은 자동으로 n 클래스를 생성하여 데이터를 로 정렬합니다.
+* **[!UICONTROL Manual]** : 이 옵션은 이러한 값을  **[!UICONTROL Auto]** 수동으로 설정할 수 있다는 점을 제외하고, 옵션과 같이 작동합니다. 이렇게 하려면 값 테이블 오른쪽에 있는 **[!UICONTROL Add]** 버튼을 클릭합니다.
 
-   개인화 전에 Adobe Campaign에서 값을 자동으로 초기화할 수 있습니다.이렇게 하려면 생성할 저장소 수를 입력하고 아래와 같이 **[!UICONTROL Initialize with]** 링크를 클릭합니다.
+   개인화 전에 Adobe Campaign에서 값을 자동으로 초기화할 수 있습니다. 이렇게 하려면 생성할 저장소 수를 입력하고 아래와 같이 **[!UICONTROL Initialize with]** 링크를 클릭합니다.
 
    ![](assets/reporting_descriptive_initialize.png)
 
@@ -98,7 +100,7 @@ ht-degree: 1%
 
    ![](assets/reporting_descriptive_group_by_year.png)
 
-* **[!UICONTROL Modulo]** :숫자 값의 경우 값 그룹을 만들 수 있습니다. 예를 들어 값이 10인 모듈로를 사용하면 10씩 변경되는 값의 간격을 만들 수 있습니다.
+* **[!UICONTROL Modulo]** : 숫자 값의 경우 값 그룹을 만들 수 있습니다. 예를 들어 값이 10인 모듈로를 사용하면 10씩 변경되는 값의 간격을 만들 수 있습니다.
 
    ![](assets/reporting_descriptive_initialize_modulo.png)
 
@@ -106,9 +108,9 @@ ht-degree: 1%
 
    ![](assets/reporting_descriptive_initialize_modulo_result.png)
 
-### 테이블 {#displaying-data-in-the-table}에 데이터 표시
+### 표에 데이터 표시 {#displaying-data-in-the-table}
 
-도구 모음을 사용하여 표에 있는 변수 표시를 개인화합니다.열을 삭제하고, 데이터를 열이 아닌 라인으로 표시하고, 열을 왼쪽이나 오른쪽으로 이동하거나, 값 계산을 보거나 변경할 수 있습니다.
+도구 모음을 사용하여 표에 있는 변수 표시를 개인화합니다. 열을 삭제하고, 데이터를 열이 아닌 라인으로 표시하고, 열을 왼쪽이나 오른쪽으로 이동하거나, 값 계산을 보거나 변경할 수 있습니다.
 
 ![](assets/s_ncs_user_report_wizard_toolbar.png)
 
@@ -116,7 +118,7 @@ ht-degree: 1%
 
 통계 이름과 소계를 표시하거나 숨기고 통계 방향을 선택할 수 있습니다. 자세한 내용은 [분석 보고서 표시 설정](../../reporting/using/processing-a-report.md#analysis-report-display-settings)을 참조하십시오.
 
-### 차트 {#displaying-data-in-the-chart}에 데이터 표시
+### 차트에 데이터 표시 {#displaying-data-in-the-chart}
 
 설명 분석 마법사의 첫 번째 단계에서는 테이블 없이 데이터를 차트 양식으로만 표시하도록 선택할 수 있습니다. 이 경우 그래픽을 구성할 때 변수 선택을 수행해야 합니다. 먼저 표시할 변수 수를 선택하고 관련 데이터베이스에서 필드를 선택해야 합니다.
 
@@ -160,7 +162,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Calculated field]** 개인화된 연산자를 만들려면(테이블에만 사용 가능) **[!UICONTROL User function]** 필드를 사용하면 데이터에 적용할 계산을 입력할 수 있습니다.
 
-   예:국가 및 출처를 기준으로 고객당 평균 구매 금액 계산
+   예: 국가 및 출처를 기준으로 고객당 평균 구매 금액 계산
 
    ![](assets/report_compute_data_sample1.png)
 
@@ -176,7 +178,7 @@ ht-degree: 1%
 
       ![](assets/report_compute_data_sample3.png)
 
-   1. 새 **[!UICONTROL Calculated field]** 유형 통계를 작성하고 **[!UICONTROL User function]** 필드에 다음 공식을 입력합니다.**@purchases/@count**.
+   1. 새 **[!UICONTROL Calculated field]** 유형 통계를 작성하고 **[!UICONTROL User function]** 필드에 다음 공식을 입력합니다. **@purchases/@count**.
 
       ![](assets/report_compute_data_sample4.png)
 
@@ -192,11 +194,11 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_report_wizard_029.png)
 
-보고서에 차트가 포함되어 있으면 범례 레이블을 사용하여 표시된 정보를 필터링할 수 있습니다.차트에서 표시를 활성화/비활성화하려면 레이블을 클릭합니다.
+보고서에 차트가 포함되어 있으면 범례 레이블을 사용하여 표시된 정보를 필터링할 수 있습니다. 차트에서 표시를 활성화/비활성화하려면 레이블을 클릭합니다.
 
 ![](assets/report_display_data_in_graph.png)
 
-## 수량 배포 템플릿 {#configuring-the-quantitative-distribution-template} 구성
+## 수량 분배 템플릿 구성 {#configuring-the-quantitative-distribution-template}
 
 설명 분석을 직접 생성하려면 기본적으로 설정되지 않은 경우 템플릿&#x200B;**옵션에서**&#x200B;새로운 설명 분석 을 선택합니다.
 

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
-# Campaign 및 Salesforce.com{#connect-to-sfdc} 연결
+# Campaign 및 Salesforce.com 연결{#connect-to-sfdc}
+
+![](../../assets/common.svg)
 
 이 페이지에서는 Campaign Classic을 **Salesforce**&#x200B;에 연결하는 방법을 알아봅니다.
 
@@ -45,7 +47,7 @@ Salesforce CRM에 로그인하는 데 사용되는 암호입니다.
 
    * **[!UICONTROL API version]**
 API 버전을 선택합니다.
-1. 구성 마법사를 실행하여 사용 가능한 CRM 테이블을 생성합니다.구성 마법사를 사용하여 테이블을 수집하고 일치하는 스키마를 만들 수 있습니다.
+1. 구성 마법사를 실행하여 사용 가능한 CRM 테이블을 생성합니다. 구성 마법사를 사용하여 테이블을 수집하고 일치하는 스키마를 만들 수 있습니다.
 
    ![](assets/crm_connectors_sfdc_launch.png)
 
@@ -69,7 +71,7 @@ API 버전을 선택합니다.
 
    >[!NOTE]
    >
-   >Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니다.이렇게 하려면 **[!UICONTROL Replace]** 열에서 **[!UICONTROL Yes]** 을 선택합니다.
+   >Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니다. 이렇게 하려면 **[!UICONTROL Replace]** 열에서 **[!UICONTROL Yes]** 을 선택합니다.
 
 
    **[!UICONTROL Next]** 을 클릭한 다음 **[!UICONTROL Start]** 을 클릭하여 목록 가져오기를 시작합니다.

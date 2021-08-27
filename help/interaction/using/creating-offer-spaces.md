@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 1%
@@ -15,9 +15,11 @@ ht-degree: 1%
 
 # 오퍼 공간 만들기{#creating-offer-spaces}
 
+![](../../assets/v7-only.svg)
+
 오퍼 공간 만들기는 **기술 관리자**&#x200B;가 오퍼 공간 하위 폴더에 액세스할 때만 수행할 수 있습니다. 오퍼 공간은 디자인 환경에서만 만들 수 있으며, 오퍼 승인 중에 라이브 환경에 자동으로 복제됩니다.
 
-카탈로그 오퍼의 컨텐츠는 오퍼 공간에 구성됩니다. 기본적으로 컨텐츠에는 다음 필드가 포함될 수 있습니다.**[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** 및 **[!UICONTROL Text content]**. 필드 시퀀스는 오퍼 공간에서 구성됩니다.
+카탈로그 오퍼의 컨텐츠는 오퍼 공간에 구성됩니다. 기본적으로 컨텐츠에는 다음 필드가 포함될 수 있습니다. **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** 및 **[!UICONTROL Text content]**. 필드 시퀀스는 오퍼 공간에서 구성됩니다.
 
 고급 매개 변수를 사용하면 연락처 식별 키(예: 이름 및 이메일 필드)를 동시에 지정할 수 있습니다. 자세한 내용은 [식별된 오퍼 표시](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) 섹션을 참조하십시오.
 
@@ -44,7 +46,7 @@ ht-degree: 1%
 
    ![](assets/offer_space_create_003.png)
 
-1. **[!UICONTROL Content]** 노드로 이동하고 다음 순서로 필드를 선택합니다.**[!UICONTROL Title]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]**, **[!UICONTROL Destination URL]** 순으로 선택합니다.
+1. **[!UICONTROL Content]** 노드로 이동하고 다음 순서로 필드를 선택합니다. **[!UICONTROL Title]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]**, **[!UICONTROL Destination URL]** 순으로 선택합니다.
 
    ![](assets/offer_space_create_004.png)
 
@@ -58,7 +60,7 @@ ht-degree: 1%
 
 1. 렌더링 함수를 만들려면 **[!UICONTROL Edit functions]** 을 클릭하십시오.
 
-   이러한 함수는 오퍼 공간에 대한 오퍼 표현을 생성하는 데 사용됩니다. 다음과 같은 몇 가지 가능한 형식이 있습니다.아웃바운드 상호 작용 및 인바운드 상호 작용을 위한 XML용 HTML 또는 텍스트입니다.
+   이러한 함수는 오퍼 공간에 대한 오퍼 표현을 생성하는 데 사용됩니다. 다음과 같은 몇 가지 가능한 형식이 있습니다. 아웃바운드 상호 작용 및 인바운드 상호 작용을 위한 XML용 HTML 또는 텍스트입니다.
 
    ![](assets/offer_space_create_006.png)
 
@@ -88,13 +90,13 @@ ht-degree: 1%
 * **[!UICONTROL Presented]**.
 * **[!UICONTROL Rejected]**.
 
-이러한 값은 기본적으로 적용되지 않습니다.구성해야 합니다.
+이러한 값은 기본적으로 적용되지 않습니다. 구성해야 합니다.
 
 >[!NOTE]
 >
 >오퍼가 &quot;전송됨&quot; 상태가 있는 게재에 연결된 경우 오퍼 제안 상태가 자동으로 &quot;제공됨&quot;으로 변경됩니다.
 
-### 제안 생성 시 상태 구성 {#configuring-the-status-when-the-proposition-is-created}
+### 제안을 만들 때 상태 구성 {#configuring-the-status-when-the-proposition-is-created}
 
 상호 작용 엔진에 의해 오퍼 제안을 만들면 상태가 변경되며 이것은 인바운드 또는 아웃바운드 상호 작용인지 입니다. 이 두 값 간의 선택은 **[!UICONTROL Design]** 환경에서 오퍼 공간이 구성되는 방식에 따라 달라집니다
 
@@ -107,7 +109,7 @@ ht-degree: 1%
 
    ![](assets/offer_update_status_001.png)
 
-### 제안을 수락할 때 상태 구성 {#configuring-the-status-when-the-proposition-is-accepted}
+### 제안이 수락될 때 상태 구성 {#configuring-the-status-when-the-proposition-is-accepted}
 
 제안 제안이 수락되면 기본적으로 제공되는 값 중 하나를 사용하여 제안 상태의 새 상태를 구성할 수 있습니다. 이 업데이트는 수신자가 상호 작용 엔진을 호출하는 오퍼의 링크를 클릭할 때 효과적입니다.
 
@@ -136,7 +138,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->URL에 다른 상태를 지정하려면(예: 오퍼 제안이 거부되는 경우) 원하는 상태에 해당하는 값을 사용하십시오. 예:**[!UICONTROL Rejected]** = &quot;5&quot;, **[!UICONTROL Presented]** = &quot;1&quot; 등.
+>URL에 다른 상태를 지정하려면(예: 오퍼 제안이 거부되는 경우) 원하는 상태에 해당하는 값을 사용하십시오. 예: **[!UICONTROL Rejected]** = &quot;5&quot;, **[!UICONTROL Presented]** = &quot;1&quot; 등.
 >
 >상태 및 값은 **[!UICONTROL Offer propositions (nms)]** 데이터 스키마에서 검색할 수 있습니다. 자세한 정보는 이 [페이지](../../configuration/using/data-schemas.md)를 참조하십시오.
 

@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 1%
@@ -15,9 +15,11 @@ ht-degree: 1%
 
 # 콘텐츠 편집{#editing-content}
 
+![](../../assets/common.svg)
+
 ## 가시성 조건 정의 {#defining-a-visibility-condition}
 
-웹 페이지 요소에 가시성 조건을 지정할 수 있습니다.이 요소는 조건이 존중되는 경우에만 표시됩니다.
+웹 페이지 요소에 가시성 조건을 지정할 수 있습니다. 이 요소는 조건이 존중되는 경우에만 표시됩니다.
 
 가시성 조건을 추가하려면 블록을 선택하고 표현식 편집기를 사용하여 **[!UICONTROL Visibility condition]** 필드에 조건을 입력합니다.
 
@@ -37,7 +39,7 @@ ht-degree: 1%
 
 ## 테두리 및 배경 추가 {#adding-a-border-and-background}
 
-선택한 블록에 **테두리**&#x200B;를 추가할 수 있습니다. 테두리는 다음 세 가지 옵션을 사용하여 정의됩니다.스타일, 크기 및 색상.
+선택한 블록에 **테두리**&#x200B;를 추가할 수 있습니다. 테두리는 다음 세 가지 옵션을 사용하여 정의됩니다. 스타일, 크기 및 색상.
 
 ![](assets/dce_popup_border.png)
 
@@ -99,9 +101,9 @@ ht-degree: 1%
 
 사용 가능한 작업은 다음과 같습니다.
 
-* **[!UICONTROL Refresh]** :현재 페이지를 새로 고칩니다.
-* **[!UICONTROL Next page]** :웹 응용 프로그램에서 다음 페이지에 대한 링크를 만듭니다.
-* **[!UICONTROL Previous page]** :웹 애플리케이션에서 이전 페이지에 대한 링크를 만듭니다.
+* **[!UICONTROL Refresh]** : 현재 페이지를 새로 고칩니다.
+* **[!UICONTROL Next page]** : 웹 응용 프로그램에서 다음 페이지에 대한 링크를 만듭니다.
+* **[!UICONTROL Previous page]** : 웹 애플리케이션에서 이전 페이지에 대한 링크를 만듭니다.
 
 >[!NOTE]
 >
@@ -111,7 +113,7 @@ ht-degree: 1%
 
 ## 링크 추가 {#adding-a-link}
 
-링크를 임의의 페이지 요소에 삽입할 수 있습니다.이미지, 단어, 단어 그룹, 텍스트 블록 등
+링크를 임의의 페이지 요소에 삽입할 수 있습니다. 이미지, 단어, 단어 그룹, 텍스트 블록 등
 
 이렇게 하려면 요소를 선택한 다음 팝업 메뉴에서 첫 번째 아이콘을 사용합니다.
 
@@ -125,7 +127,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->각 링크 유형에 대해 열기 모드를 구성할 수 있습니다.**Target** 드롭다운 목록에서 대상 창을 선택합니다. 이 값은 **`<target>`** HTML 태그에 해당합니다.
+>각 링크 유형에 대해 열기 모드를 구성할 수 있습니다. **Target** 드롭다운 목록에서 대상 창을 선택합니다. 이 값은 **`<target>`** HTML 태그에 해당합니다.
 >
 >사용 가능한 **target** 목록은 다음과 같습니다.
 >
@@ -139,14 +141,13 @@ ht-degree: 1%
 >
 
 
-
 ### URL에 연결 {#link-to-a-url}
 
 **외부 URL에 연결** 옵션을 사용하면 소스 컨텐츠에서 URL을 열 수 있습니다.
 
 ![](assets/dce_toolbar_imgblock_externallink.png)
 
-해당 링크 주소를 **URL** 필드에 입력합니다. URL 필드는 다음과 같이 입력해야 합니다.**https://www.myURL.com**
+해당 링크 주소를 **URL** 필드에 입력합니다. URL 필드는 다음과 같이 입력해야 합니다. **https://www.myURL.com**
 
 ### 웹 응용 프로그램에 연결 {#link-to-a-web-application}
 
@@ -170,7 +171,7 @@ ht-degree: 1%
 
 ### 링크 삭제 {#delete-a-link}
 
-링크가 삽입되면 도구 모음에는 두 개의 새 아이콘이 표시됩니다.**링크** 및 **생성된 링크와 상호 작용할 수 있는 링크를 중단합니다.**
+링크가 삽입되면 도구 모음에는 두 개의 새 아이콘이 표시됩니다. **링크** 및 **생성된 링크와 상호 작용할 수 있는 링크를 중단합니다.**
 
 * **[!UICONTROL Edit link]** 링크의 모든 매개 변수를 보여주는 창을 표시할 수 있습니다.
 * **[!UICONTROL Break the link]** 확인 후 링크 및 모든 관련 매개 변수를 삭제할 수 있습니다.
@@ -187,23 +188,22 @@ ht-degree: 1%
 
 사용 가능한 옵션은 다음과 같습니다.
 
-* **폰티콘** 확대:선택한 텍스트의 크기를 늘립니다(추가  `<span style="font size:">`).
-* **폰티콘** 감소:선택한 텍스트의 크기를 줄입니다(추가  `<span style="font size:">`).
-* **** 볼디콘:선택한 텍스트를 굵게 표시(태그로 텍스트  `<strong> </strong>` 줄바꿈)
-* **** 기울임꼴 아이콘:선택한 텍스트를 기울임체로 만듭니다(  `<em> </em>` 태그로 텍스트 줄바꿈).
-* **** 밑줄 아이콘:선택한 텍스트에 밑줄을 긋습니다( `<span style="text-decoration: underline;">` 태그로 텍스트 줄바꿈).
-* **왼쪽** 티콘 정렬:선택한 블록의 왼쪽으로 텍스트를 정렬합니다(style=&quot;text-align:left;&quot;
-* **** 센터 아이콘:선택한 블록의 가운데로 텍스트를 정렬합니다(style=&quot;text-align:center;&quot;)
-* **오른쪽** 맞춤:선택한 블록의 오른쪽으로 텍스트를 정렬합니다(style=&quot;text-align:right;&quot;
-* **배경 색상** 아이콘 변경:선택한 블록의 배경색을 변경할 수 있습니다(style=&quot;background-color 추가:rgba(170, 86, 255, 0.87)
-* **텍스트** 색상 변경 아이콘:선택한 블록의 텍스트 색상을 변경하거나 선택한 텍스트(`<span style="color: #CODE">`)만 변경할 수 있습니다
+* **폰티콘** 확대: 선택한 텍스트의 크기를 늘립니다(추가  `<span style="font size:">`).
+* **폰티콘** 감소: 선택한 텍스트의 크기를 줄입니다(추가  `<span style="font size:">`).
+* **** 볼디콘: 선택한 텍스트를 굵게 표시(태그로 텍스트  `<strong> </strong>` 줄바꿈)
+* **** 기울임꼴 아이콘: 선택한 텍스트를 기울임체로 만듭니다(  `<em> </em>` 태그로 텍스트 줄바꿈).
+* **** 밑줄 아이콘: 선택한 텍스트에 밑줄을 긋습니다( `<span style="text-decoration: underline;">` 태그로 텍스트 줄바꿈).
+* **왼쪽** 티콘 정렬: 선택한 블록의 왼쪽으로 텍스트를 정렬합니다(style=&quot;text-align: left;&quot;
+* **** 센터 아이콘: 선택한 블록의 가운데로 텍스트를 정렬합니다(style=&quot;text-align: center;&quot;)
+* **오른쪽** 맞춤: 선택한 블록의 오른쪽으로 텍스트를 정렬합니다(style=&quot;text-align: right;&quot;
+* **배경 색상** 아이콘 변경: 선택한 블록의 배경색을 변경할 수 있습니다(style=&quot;background-color 추가: rgba(170, 86, 255, 0.87)
+* **텍스트** 색상 변경 아이콘: 선택한 블록의 텍스트 색상을 변경하거나 선택한 텍스트(`<span style="color: #CODE">`)만 변경할 수 있습니다
 
 >[!NOTE]
 >
->* **** Deleteicon:블록 및 모든 해당 콘텐츠를 삭제합니다.
-   >
-   >
-* **** 복제 아이콘:블록 및 블록과 관련된 모든 스타일을 복제합니다.
+>* **** Deleteicon: 블록 및 모든 해당 콘텐츠를 삭제합니다.
+>
+>* **** 복제 아이콘: 블록 및 블록과 관련된 모든 스타일을 복제합니다.
 
 
 ## 이미지 및 애니메이션 관리 {#managing-images-and-animations}

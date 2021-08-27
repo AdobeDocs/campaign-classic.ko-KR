@@ -5,7 +5,7 @@ description: 이 섹션에서는 받은 편지함 렌더링 패키지와 함께 
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 
 
 # 받은 편지함 렌더링(IR){#inbox-rendering}
+
+![](../../assets/common.svg)
 
 아래 자세히 설명된 워크플로우는 기본적으로 **받은 편지함 렌더링(IR)** 모듈과 함께 설치됩니다. 받은 편지함 렌더링에 대한 자세한 내용은 이 [섹션](../../delivery/using/inbox-rendering.md)을 참조하십시오.
 

@@ -5,7 +5,7 @@ description: 분산 마케팅 패키지에 대해 자세히 알아보기
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 8%
@@ -15,7 +15,9 @@ ht-degree: 8%
 
 # 분산 마케팅{#distributed-marketing}
 
-아래 자세히 설명된 워크플로우는 기본적으로 **분산 마케팅** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../campaign/using/about-distributed-marketing.md)을 참조하십시오.
+![](../../assets/common.svg)
+
+아래 자세히 설명된 워크플로우는 기본적으로 **분산 마케팅** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../distributed/using/about-distributed-marketing.md)을 참조하십시오.
 
 <table> 
  <tbody> 

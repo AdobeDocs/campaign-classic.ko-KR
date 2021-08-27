@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 서버 보안 설정 {#server-configuration}
+
+![](../../assets/v7-only.svg)
 
 ## 파일 업로드 보호
 
@@ -46,9 +48,9 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 다음 세 가지 연결 보호 모드가 있습니다.
 
-* **차단** :허용 목록에 속하지 않는 모든 URL이 차단되며 오류 메시지가 표시됩니다. 업그레이드 후 기본 모드입니다.
-* **허용** :허용 목록에 속하지 않는 모든 URL이 허용됩니다.
-* **경고** :허용 목록에 있는 모든 URL이 허용되지 않지만 JS 인터프리터가 경고를 출력하여 관리자가 수집할 수 있습니다. 이 모드에서는 JST-310027 경고 메시지가 추가됩니다.
+* **차단** : 허용 목록에 속하지 않는 모든 URL이 차단되며 오류 메시지가 표시됩니다. 업그레이드 후 기본 모드입니다.
+* **허용** : 허용 목록에 속하지 않는 모든 URL이 허용됩니다.
+* **경고** : 허용 목록에 있는 모든 URL이 허용되지 않지만 JS 인터프리터가 경고를 출력하여 관리자가 수집할 수 있습니다. 이 모드에서는 JST-310027 경고 메시지가 추가됩니다.
 
 ```
 <urlPermission action="warn" debugTrace="true">

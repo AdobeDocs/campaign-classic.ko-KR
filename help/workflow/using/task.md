@@ -6,20 +6,26 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 2%
+source-wordcount: '103'
+ht-degree: 3%
 
 ---
 
 # 작업{#task}
 
-캠페인 워크플로우에서 **[!UICONTROL Task]** 활동을 사용하면 두 가지 시나리오를 지정할 수 있습니다.작업이 완료된 경우 첫 번째, 작업이 완료되지 않은 경우 두 번째, 수동으로 완료되지 않은 것으로 표시된 경우 또는 작업이 만료된 경우 두 번째.
+![](../../assets/common.svg)
+
+>[!AVAILABILITY]
+>
+>:warning: 이 기능은 Campaign Classic v7에서만 사용할 수 있습니다. [자세히 알아보기](../../mrm/using/creating-and-managing-tasks.md)
+
+캠페인 워크플로우에서 **[!UICONTROL Task]** 활동을 사용하면 두 가지 시나리오를 지정할 수 있습니다. 작업이 완료된 경우 첫 번째, 작업이 완료되지 않은 경우 두 번째, 수동으로 완료되지 않은 것으로 표시된 경우 또는 작업이 만료된 경우 두 번째.
 
 ![](assets/mrm_task_in_workflow.png)
 
-작업을 구성하고 운영하는 방법은 이 [섹션](../../mrm/using/creating-and-managing-tasks.md)에 자세히 설명되어 있습니다.
+작업을 구성하고 운영하는 방법은 [Campaign Classic v7 설명서](../../mrm/using/creating-and-managing-tasks.md)에 자세히 설명되어 있습니다.
 
 ![](assets/wkf_task_activity.png)
 

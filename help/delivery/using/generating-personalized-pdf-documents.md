@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 2%
@@ -15,11 +15,13 @@ ht-degree: 2%
 
 # 맞춤형 PDF 문서 생성{#generating-personalized-pdf-documents}
 
+![](../../assets/common.svg)
+
 ## 변수 PDF 문서 정보 {#about-variable-pdf-documents}
 
 Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서에서 전자 메일 첨부 파일, DM 전달용 변수 PDF 문서를 생성할 수 있습니다.
 
-지원되는 확장:&quot;.docx&quot;, &quot;.doc&quot; 및 &quot;.odt&quot;.
+지원되는 확장: &quot;.docx&quot;, &quot;.doc&quot; 및 &quot;.odt&quot;.
 
 문서를 개인화하기 위해 이메일 개인화와 동일한 JavaScript 기능을 사용할 수 있습니다.
 
@@ -51,16 +53,16 @@ URL을 통해 동적 테이블을 생성하거나 이미지를 포함하려면 �
 
 이렇게 하려면 개인화 블록을 구성한 다음 첨부 파일에 개인화 블록에 대한 호출을 포함해야 합니다.
 
-**예:수신자의 국가에 따라 개인화된 로고 삽입**
+**예: 수신자의 국가에 따라 개인화된 로고 삽입**
 
-**1단계:첨부 파일 만들기:**
+**1단계: 첨부 파일 만들기:**
 
-* 개인화 블록에 대한 호출을 삽입합니다.**&lt;%@ include view=&quot;blockname&quot; %>**
+* 개인화 블록에 대한 호출을 삽입합니다. **&lt;%@ include view=&quot;blockname&quot; %>**
 * 컨텐츠(개인화되었거나 아님)를 파일의 본문에 삽입합니다.
 
 ![](assets/s_ncs_open_office_blocdeperso.png)
 
-**2단계:개인화 블록 만들기:**
+**2단계: 개인화 블록 만들기:**
 
 * Adobe Campaign 콘솔의 **[!UICONTROL Resources > Campaign management > Personalization blocks]** 메뉴로 이동합니다.
 * 내부 이름으로 &quot;My_Logo&quot;를 사용하여 새 &quot;My Logo&quot; 개인화 블록을 만듭니다.

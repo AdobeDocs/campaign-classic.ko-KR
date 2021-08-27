@@ -2,18 +2,20 @@
 product: campaign
 title: 업그레이드 시작
 description: Campaign Classic 업그레이드에 대한 자세한 내용
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '412'
 ht-degree: 97%
 
 ---
 
 # 업그레이드 시작{#rn-overview}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign은 정기적으로 업데이트 됩니다. 새로운 기능, 개선 사항 및 수정 사항이 포함된 평균 2~3개의 부 버전이 매년 릴리스됩니다. 또한 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다.
 

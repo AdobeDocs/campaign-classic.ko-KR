@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # 받은 편지함 렌더링{#inbox-rendering}
+
+![](../../assets/common.svg)
 
 ## 받은 편지함 렌더링 기본 정보 {#about-inbox-rendering}
 
@@ -38,11 +40,11 @@ Adobe Campaign의 **받은 편지함 렌더링에 사용할 수 있는 모바일
 1. **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** 메뉴를 통해 **[!UICONTROL Inbox rendering (IR)]** 패키지를 설치합니다. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
 1. **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** 노드를 통해 HTTP 유형의 외부 계정을 구성합니다. 자세한 내용은 [외부 계정 만들기](../../installation/using/external-accounts.md#creating-an-external-account)를 참조하십시오.
 1. 외부 계정 매개 변수를 다음과 같이 설정합니다.
-   * **[!UICONTROL Label]**:게재 기능 서버 정보
-   * **[!UICONTROL Internal name]**:deliverabilityInstance
+   * **[!UICONTROL Label]**: 게재 기능 서버 정보
+   * **[!UICONTROL Internal name]**: deliverabilityInstance
    * **[!UICONTROL Type]**: HTTP
-   * **[!UICONTROL Server]**:https://deliverability-app.neolane.net/deliverability
-   * **[!UICONTROL Encryption]**:없음
+   * **[!UICONTROL Server]**: https://deliverability-app.neolane.net/deliverability
+   * **[!UICONTROL Encryption]**: 없음
    * **[!UICONTROL Enabled]** 옵션을 선택합니다.
 
    ![](assets/s_tn_inbox_rendering_external-account.png)
@@ -80,11 +82,10 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 >
 >토큰은 각 개별 렌더링에 대해 계산되며 전체 받은 편지함 렌더링 보고서가 아닙니다. 즉, 다음과 같습니다.
 >
->* 받은 편지함 렌더링 보고서가 생성될 때마다 메시징 클라이언트당 하나의 토큰이 공제됩니다.Outlook 2000 렌더링을 위한 토큰 1개, Outlook 2010 렌더링을 위한 토큰, Apple Mail 9 렌더링을 위한 토큰 등.
+>* 받은 편지함 렌더링 보고서가 생성될 때마다 메시징 클라이언트당 하나의 토큰이 공제됩니다. Outlook 2000 렌더링을 위한 토큰 1개, Outlook 2010 렌더링을 위한 토큰, Apple Mail 9 렌더링을 위한 토큰 등.
 >* 동일한 게재의 경우, 받은 편지함 렌더링을 다시 생성하는 경우 사용 가능한 토큰 수가 생성된 렌더링 수로 다시 감소합니다.
 
 >
-
 
 
 나머지 사용 가능한 토큰 수는 [받은 편지함 렌더링 보고서](#inbox-rendering-report)의 **[!UICONTROL General summary]**&#x200B;에 표시됩니다.
@@ -118,7 +119,7 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
 ## 받은 편지함 렌더링 보고서 {#inbox-rendering-report}
 
-이 보고서는 수신자에게 표시되는 받은 편지함 렌더링을 표시합니다. 렌더링은 수신자가 전자 메일 게재를 여는 방법에 따라 다를 수 있습니다.브라우저, 모바일 장치 또는 이메일 애플리케이션을 통해서입니다.
+이 보고서는 수신자에게 표시되는 받은 편지함 렌더링을 표시합니다. 렌더링은 수신자가 전자 메일 게재를 여는 방법에 따라 다를 수 있습니다. 브라우저, 모바일 장치 또는 이메일 애플리케이션을 통해서입니다.
 
 **[!UICONTROL General summary]**&#x200B;은(는) 받은 메시지, 원치 않는 메시지(스팸), 받지 못한 메시지 또는 수신 대기 중인 메시지 수를 목록 및 그래픽 색상 코딩된 표현을 통해 보여 줍니다.
 
@@ -126,7 +127,7 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
 차트 위로 마우스를 가져가면 각 색상에 대한 세부 정보가 표시됩니다.
 
-보고서 본문은 세 부분으로 나뉘어져 있습니다.**[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]** 및 **[!UICONTROL Webmails]** 보고서를 아래로 스크롤하여 이 세 가지 범주로 그룹화된 모든 렌더링을 표시합니다.
+보고서 본문은 세 부분으로 나뉘어져 있습니다. **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]** 및 **[!UICONTROL Webmails]** 보고서를 아래로 스크롤하여 이 세 가지 범주로 그룹화된 모든 렌더링을 표시합니다.
 
 ![](assets/s_tn_inbox_rendering_report.png)
 

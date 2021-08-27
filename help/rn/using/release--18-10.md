@@ -2,18 +2,20 @@
 product: campaign
 title: Campaign 18.10 릴리스 노트
 description: Campaign 18.10 릴리스 노트
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2369'
 ht-degree: 7%
 
 ---
 
 # 릴리스 18.10{#release-18-10}
+
+![](../../assets/v7-only.svg)
 
 ## 릴리스 18.10.6 - 빌드 8985{#release-18-10-6-build-8985}
 
@@ -121,15 +123,15 @@ ht-degree: 7%
      <li> <p>iOS에서 자동 알림 추적 </p> </li> 
      <li> <p>iOS에서 등록 호출에 대한 피드백 구현</p> </li> 
      <li> <p>iOS 게재 준비 속도 개선</p> </li> 
-    </ul> <p>Google에서 GCM 감가상각의 일부로, 이제 Android V2 커넥터에서 FCM 서버에만 연결을 허용합니다.</p><p>자세한 내용은 <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">세부 설명서</a>를 참조하십시오. FCM으로의 수동 업그레이드는 이 <a href="https://helpx.adobe.com/kr/campaign/kb/migrate-to-fcm.html">문서</a>에 자세히 설명되어 있습니다. </p> </td> 
+    </ul> <p>Google에서 GCM 감가상각의 일부로, 이제 Android V2 커넥터에서 FCM 서버에만 연결을 허용합니다.</p><p>자세한 내용은 <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">세부 설명서</a>를 참조하세요. FCM으로의 수동 업그레이드는 이 <a href="https://helpx.adobe.com/kr/campaign/kb/migrate-to-fcm.html">문서</a>에 자세히 설명되어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td> SQL 데이터 관리 활동<br /> </td> 
-   <td> <p>새로운 데이터 관리 워크플로우 활동을 추가했습니다. <strong>SQL 데이터 관리</strong> 활동을 사용하면 고유한 SQL 스크립트를 작성하거나 복사하여 붙여넣기를 사용하여 작업 테이블(FDA 전용)을 작성하고 채울 수 있습니다. </p> <p>자세한 내용은 <a href="../../workflow/using/sql-data-management.md">세부 설명서</a>를 참조하십시오.</p></td> 
+   <td> <p>새로운 데이터 관리 워크플로우 활동을 추가했습니다. <strong>SQL 데이터 관리</strong> 활동을 사용하면 고유한 SQL 스크립트를 작성하거나 복사하여 붙여넣기를 사용하여 작업 테이블(FDA 전용)을 작성하고 채울 수 있습니다. </p> <p>자세한 내용은 <a href="../../workflow/using/sql-data-management.md">세부 설명서</a>를 참조하세요.</p></td> 
   </tr> 
   <tr> 
    <td> 워크플로우 모니터링<br /> </td> 
-   <td> <p>새로운 Adobe Campaign Workflow HeatMap을 사용하면 플랫폼 관리자가 모든 동시 실행 워크플로우를 빠른 그래픽으로 표시하여 인스턴스의 로드를 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다.</p> <p>자세한 내용은 <a href="../../workflow/using/heatmap.md">세부 설명서</a>를 참조하십시오.</p> <p>Workflow HeatMap 패키지는 8977(빌드 8700 시작) 이전 빌드에 대한 수요에서도 사용할 수 있습니다. 요청 및 설치에 대한 자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html">이 페이지</a>를 참조하십시오.</p> </td> 
+   <td> <p>새로운 Adobe Campaign Workflow HeatMap을 사용하면 플랫폼 관리자가 모든 동시 실행 워크플로우를 빠른 그래픽으로 표시하여 인스턴스의 로드를 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다.</p> <p>자세한 내용은 <a href="../../workflow/using/heatmap.md">세부 설명서</a>를 참조하세요.</p> <p>Workflow HeatMap 패키지는 8977(빌드 8700 시작) 이전 빌드에 대한 수요에서도 사용할 수 있습니다. 요청 및 설치에 대한 자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html">이 페이지</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>

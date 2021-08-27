@@ -2,18 +2,20 @@
 product: campaign
 title: Adobe Campaign Classic 설명서 업데이트
 description: 이 페이지에는 Adobe Campaign Classic 설명서의 모든 새로운 기능과 업데이트가 있습니다.
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
-source-wordcount: '4465'
+source-wordcount: '4464'
 ht-degree: 100%
 
 ---
 
 # 설명서 업데이트{#documentation-updates}
+
+![](../../assets/v7-only.svg)
 
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
@@ -48,7 +50,7 @@ LINE 채널 개선 사항 - [자세히 알아보기](../../delivery/using/line-c
 
 Campaign 클라이언트 콘솔 설치 단계가 개선되었고 명확해졌습니다. [자세히 알아보기](../../installation/using/installing-the-client-console.md)
 
-추적된 URL 서명 문제에 대한 새로운 기술 정보가 생성되었습니다. [자세히 표시](../../technotes/tracked-urls.md)
+추적된 URL 서명 문제에 대한 새로운 기술 정보가 생성되었습니다. [자세히 표시](../../technotes/using/tracked-urls.md)
 
 ## 2021년 4월 {#april-2021}
 
@@ -210,7 +212,7 @@ Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추�
 
 이제 다음 주제에 관한 방법 비디오를 사용할 수 있습니다.
 
-* [유형 분류 규칙 및 사전 정의된 필터를 사용하여 피로 관리를 설정하는 방법](../../campaign/using/about-campaign-typologies.md)
+* [유형 분류 규칙 및 사전 정의된 필터를 사용하여 피로 관리를 설정하는 방법](../../campaign-opt/using/about-campaign-typologies.md)
 
 * [Campaign에서 이메일을 만드는 방법](../../campaign/using/marketing-campaign-deliveries.md)
 

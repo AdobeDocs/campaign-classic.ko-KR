@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 전자 메일에 파일 첨부{#attaching-files}
+
+![](../../assets/common.svg)
 
 ## 전자 메일 첨부 파일 기본 정보 {#about-email-attachments}
 
@@ -26,7 +28,7 @@ ht-degree: 1%
 다음 두 가지 가능한 경우가 있습니다.
 
 * 파일을 선택하여 게재에 있는 그대로 첨부합니다.
-* 각 수신자에 대한 첨부 파일의 컨텐츠를 개인화합니다. 이 경우 **계산된 첨부 파일**&#x200B;을 만들어야 합니다.첨부 파일의 이름은 수신자에 따라 각 메시지에 대한 게재 시 계산됩니다. **가변 디지털 인쇄** 옵션이 있는 경우, 컨텐츠를 개인화하고 전달 시 PDF 형식으로 변환할 수도 있습니다.
+* 각 수신자에 대한 첨부 파일의 컨텐츠를 개인화합니다. 이 경우 **계산된 첨부 파일**&#x200B;을 만들어야 합니다. 첨부 파일의 이름은 수신자에 따라 각 메시지에 대한 게재 시 계산됩니다. **가변 디지털 인쇄** 옵션이 있는 경우, 컨텐츠를 개인화하고 전달 시 PDF 형식으로 변환할 수도 있습니다.
 
 >[!NOTE]
 >
@@ -77,7 +79,7 @@ ht-degree: 1%
 
 ### 로컬 파일 첨부 {#attach-a-local-file}
 
-첨부 파일이 로컬 파일인 경우 옵션을 선택합니다.**[!UICONTROL File name is specified when creating the delivery template]** 로컬에서 파일을 선택하고 서버에 업로드합니다. 아래의 단계를 수행하십시오.
+첨부 파일이 로컬 파일인 경우 옵션을 선택합니다. **[!UICONTROL File name is specified when creating the delivery template]** 로컬에서 파일을 선택하고 서버에 업로드합니다. 아래의 단계를 수행하십시오.
 
 1. **[!UICONTROL Local file]** 필드에서 업로드할 파일을 선택합니다.
 1. 필요한 경우 레이블을 지정합니다. 이 레이블은 메시징 시스템에서 볼 때 파일 이름을 대체합니다. 아무 것도 지정하지 않으면 기본적으로 파일 이름이 사용됩니다.

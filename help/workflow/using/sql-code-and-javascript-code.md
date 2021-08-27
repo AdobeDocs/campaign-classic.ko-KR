@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # SQL 코드 및 JavaScript 코드{#sql-code-and-javascript-code}
+
+![](../../assets/common.svg)
 
 ## SQL 코드 {#sql-code}
 
@@ -27,11 +29,11 @@ ht-degree: 3%
 
 * **[!UICONTROL Processing errors]**
 
-   [처리 오류](../../workflow/using/monitoring-workflow-execution.md#processing-errors)를 참조하십시오.
+   [처리 오류](monitoring-workflow-execution.md#processing-errors)를 참조하십시오.
 
 ## JavaScript 코드 및 고급 JavaScript 코드 {#javascript-code}
 
-**[!UICONTROL JavaScript code]** 및  **[!UICONTROL Advanced JavaScript code]** 활동은 워크플로우의 컨텍스트에서 JavaScript 스크립트를 실행합니다. 스크립팅에 대한 자세한 내용은 [JavaScript 스크립트 및 템플릿](../../workflow/using/javascript-scripts-and-templates.md) 섹션을 참조하십시오.
+**[!UICONTROL JavaScript code]** 및  **[!UICONTROL Advanced JavaScript code]** 활동은 워크플로우의 컨텍스트에서 JavaScript 스크립트를 실행합니다. 스크립팅에 대한 자세한 내용은 [JavaScript 스크립트 및 템플릿](javascript-scripts-and-templates.md) 섹션을 참조하십시오.
 
 ### 실행 지연 {#exec-delay}
 
@@ -45,18 +47,18 @@ ht-degree: 3%
 
 ![](assets/javascript_code.png)
 
-* **[!UICONTROL Script]**:편집기의 중앙 영역에는 실행할 스크립트가 포함되어 있습니다.
+* **[!UICONTROL Script]**: 편집기의 중앙 영역에는 실행할 스크립트가 포함되어 있습니다.
 
-* **[!UICONTROL Process errors]**:처리  [오류](../../workflow/using/monitoring-workflow-execution.md#processing-errors)를 참조하십시오.
+* **[!UICONTROL Process errors]**: 처리  [오류](monitoring-workflow-execution.md#processing-errors)를 참조하십시오.
 
 ### 고급 JavaScript 코드 {#adv-js-code-desc}
 
 ![](assets/advanced_javascript_code.png)
 
-* **[!UICONTROL First call]**:편집기의 첫 번째 영역에는 첫 번째 호출 동안 실행할 스크립트가 포함됩니다.
-* **[!UICONTROL Next calls]**:편집기의 두 번째 영역에는 다음 호출 동안 실행할 스크립트가 포함됩니다.
-* **[!UICONTROL Transitions]**:여러 활동 출력 전환을 정의할 수 있습니다.
-* **[!UICONTROL Schedule]**:탭 **[!UICONTROL Schedule]** 을 사용하면 활동을 트리거할 시기를 예약할 수 있습니다.
+* **[!UICONTROL First call]**: 편집기의 첫 번째 영역에는 첫 번째 호출 동안 실행할 스크립트가 포함됩니다.
+* **[!UICONTROL Next calls]**: 편집기의 두 번째 영역에는 다음 호출 동안 실행할 스크립트가 포함됩니다.
+* **[!UICONTROL Transitions]**: 여러 활동 출력 전환을 정의할 수 있습니다.
+* **[!UICONTROL Schedule]**: 탭 **[!UICONTROL Schedule]** 을 사용하면 활동을 트리거할 시기를 예약할 수 있습니다.
 
 고급 JavaScript는 영구적 작업이며, 완료로 표시되지 않은 경우 주기적으로 호출됩니다. 작업을 종료하고 향후 리콜을 방지하려면 **[!UICONTROL Next calls]** 섹션에서 **task.setCompleted()** 메서드를 사용해야 합니다.
 

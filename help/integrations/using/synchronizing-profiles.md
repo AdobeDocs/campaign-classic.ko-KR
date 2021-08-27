@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 3%
@@ -15,15 +15,17 @@ ht-degree: 3%
 
 # 프로필 동기화{#synchronizing-profiles}
 
+![](../../assets/v7-only.svg)
+
 ACS 커넥터는 Campaign v7에서 Campaign Standard으로 데이터를 복제합니다. Campaign v7에서 받은 데이터를 Campaign Standard에서 사용하여 게재를 만들 수 있습니다. 아래 나열된 작업을 수행하여 프로필이 어떻게 동기화되는지 확인할 수 있습니다.
 
-* **새 수신자 추가**:Campaign v7에서 새 수신자를 만들고 해당 프로필이 Campaign Standard에 복제되었는지 확인합니다. [새 수신자 만들기](#creating-a-new-recipient)를 참조하십시오.
-* **수신자 업데이트**:Campaign v7에서 새 수신자를 편집하고 Campaign Standard에서 해당 프로필을 보고 업데이트가 복제되었는지 확인합니다. [수신자 편집](#editing-a-recipient)을 참조하십시오.
-* **Campaign Standard에서 워크플로우 구축**:Campaign v7에서 복제된 대상 또는 프로필이 있는 쿼리를 포함하는 Campaign Standard에서 워크플로우를 만듭니다. [워크플로우 만들기](#creating-a-workflow)를 참조하십시오.
-* **Campaign Standard**&#x200B;에서 게재 만들기:워크플로우를 따라 게재를 전송합니다. [게재 만들기](#creating-a-delivery)를 참조하십시오.
-* **구독 취소 링크를 확인합니다**.Campaign v7 웹 애플리케이션을 사용하여 수신자가 선택한 서비스 구독을 Campaign v7 데이터베이스로 전송하도록 합니다. 서비스 수신을 중지하는 옵션이 Campaign Standard에 복제됩니다. [구독 취소 링크](#changing-the-unsubscription-link) 변경을 참조하십시오.
+* **새 수신자 추가**: Campaign v7에서 새 수신자를 만들고 해당 프로필이 Campaign Standard에 복제되었는지 확인합니다. [새 수신자 만들기](#creating-a-new-recipient)를 참조하십시오.
+* **수신자 업데이트**: Campaign v7에서 새 수신자를 편집하고 Campaign Standard에서 해당 프로필을 보고 업데이트가 복제되었는지 확인합니다. [수신자 편집](#editing-a-recipient)을 참조하십시오.
+* **Campaign Standard에서 워크플로우 구축**: Campaign v7에서 복제된 대상 또는 프로필이 있는 쿼리를 포함하는 Campaign Standard에서 워크플로우를 만듭니다. [워크플로우 만들기](#creating-a-workflow)를 참조하십시오.
+* **Campaign Standard**&#x200B;에서 게재 만들기: 워크플로우를 따라 게재를 전송합니다. [게재 만들기](#creating-a-delivery)를 참조하십시오.
+* **구독 취소 링크를 확인합니다**. Campaign v7 웹 애플리케이션을 사용하여 수신자가 선택한 서비스 구독을 Campaign v7 데이터베이스로 전송하도록 합니다. 서비스 수신을 중지하는 옵션이 Campaign Standard에 복제됩니다. [구독 취소 링크](#changing-the-unsubscription-link) 변경을 참조하십시오.
 
-## 기본 사항 {#prerequisites}
+## 필수 구성 요소 {#prerequisites}
 
 다음 섹션에서는 ACS 커넥터가 Campaign v7에서 수신자를 추가 및 편집한 다음 Campaign Standard 전달에서 사용하는 방법을 설명합니다. ACS Connector에는 다음이 필요합니다.
 
@@ -73,9 +75,9 @@ Campaign Standard 워크플로우에 대한 자세한 내용과 전체 지침은
 
 1. Campaign Standard으로 이동하고 **[!UICONTROL Marketing Activities]** 을 클릭합니다.
 1. 오른쪽 상단에 있는 **[!UICONTROL Create]** 을 클릭합니다.
-1. **[!UICONTROL Workflow]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Workflow]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL New workflow]** 및 **[!UICONTROL Next]** 를 클릭합니다.
-1. **[!UICONTROL Label]** 필드에 워크플로우의 이름과 필요한 경우 추가 정보를 입력합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Label]** 필드에 워크플로우의 이름과 필요한 경우 추가 정보를 입력합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
 1. 왼쪽의 **[!UICONTROL Targeting]**&#x200B;에서 **[!UICONTROL Query]** 대상을 작업 공간으로 드래그합니다.
 
    ![](assets/acs_connect_profile_sync_05.png)
@@ -109,7 +111,7 @@ Campaign Standard 워크플로우에 대한 자세한 내용과 전체 지침은
 
    ![](assets/acs_connect_profile_sync_08.png)
 
-1. **[!UICONTROL Label]** 필드에 게재의 이름과 필요한 경우 추가 정보를 입력합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Label]** 필드에 게재의 이름과 필요한 경우 추가 정보를 입력합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
 
    ![](assets/acs_connect_profile_sync_09.png)
 
@@ -118,7 +120,7 @@ Campaign Standard 워크플로우에 대한 자세한 내용과 전체 지침은
 
    ![](assets/acs_connect_profile_sync_10.png)
 
-1. 서비스 구독을 취소할 링크가 포함된 콘텐츠를 선택합니다. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
+1. 서비스 구독을 취소할 링크가 포함된 콘텐츠를 선택합니다. **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
 
    ![](assets/acs_connect_profile_sync_11.png)
 
@@ -131,7 +133,7 @@ Campaign Standard 워크플로우에 대한 자세한 내용과 전체 지침은
    ![](assets/acs_connect_profile_sync_13.png)
 
 1. 커서를 사용하여 텍스트를 강조 표시하고 체인 아이콘을 클릭합니다.
-1. **[!UICONTROL Link to a landing page]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Link to a landing page]**&#x200B;를 클릭합니다.
 
    ![](assets/acs_connect_profile_sync_14.png)
 
@@ -143,7 +145,7 @@ Campaign Standard 워크플로우에 대한 자세한 내용과 전체 지침은
 
    ![](assets/acs_connect_profile_sync_16.png)
 
-1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Create]**&#x200B;를 클릭합니다.
 1. 게재 이름을 클릭하여 워크플로우로 돌아갑니다.
 
    ![](assets/acs_connect_profile_sync_17.png)

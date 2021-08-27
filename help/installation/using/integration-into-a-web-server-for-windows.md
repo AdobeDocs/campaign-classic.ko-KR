@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: 3958fff140cc9bf6c371f0c4207cafc9a27bb725
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 # Windows용 웹 서버에 통합{#integration-into-a-web-server-for-windows}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 시작 지점 역할을 하는 Apache Tomcat이 포함되어 있습니다.
 
@@ -36,7 +38,7 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 �
 
 ## IIS 웹 서버 구성 {#configuring-the-iis-web-server}
 
-IIS 웹 서버의 구성 프로시저는 대부분 그래픽 방식입니다. 여기에는 웹 사이트(이미 생성되었거나 생성 보류 중인)를 사용하여 Adobe Campaign 서버의 리소스에 액세스해야 합니다.Java(.jsp) 파일, 스타일시트(.css, .xsl), 이미지(.png), 리디렉션 등용 ISAPI DLL.
+IIS 웹 서버의 구성 프로시저는 대부분 그래픽 방식입니다. 여기에는 웹 사이트(이미 생성되었거나 생성 보류 중인)를 사용하여 Adobe Campaign 서버의 리소스에 액세스해야 합니다. Java(.jsp) 파일, 스타일시트(.css, .xsl), 이미지(.png), 리디렉션 등용 ISAPI DLL.
 
 IIS 7의 다음 섹션 세부 구성 IIS8에 대한 구성은 기본적으로 동일합니다.
 
@@ -73,7 +75,7 @@ IIS 7에서는 표준 서비스 외에도 ISAPI 확장 및 ISAPI 필터를 설�
 
    웹 서버가 추적 리디렉션 서버로 사용되는 경우 **[!UICONTROL OK]**&#x200B;을 클릭하고 그렇지 않으면 **[!UICONTROL Cancel]**&#x200B;을 클릭합니다.
 
-   웹 서버에 여러 사이트가 이미 구성되어 있으면 중간 페이지가 표시되어 설치 시 적용되는 웹 사이트를 지정합니다.사이트에 연결된 번호를 입력하고 **[!UICONTROL OK]** 을 클릭합니다.
+   웹 서버에 여러 사이트가 이미 구성되어 있으면 중간 페이지가 표시되어 설치 시 적용되는 웹 사이트를 지정합니다. 사이트에 연결된 번호를 입력하고 **[!UICONTROL OK]** 을 클릭합니다.
 
    ![](assets/s_ncs_install_iis7_parameters_step3.png)
 
@@ -91,7 +93,7 @@ IIS 7에서는 표준 서비스 외에도 ISAPI 확장 및 ISAPI 필터를 설�
 
 다음에 Adobe Campaign 설치 디렉터리에서 ISAPI DLL과 리소스에 대한 보안 설정을 구성해야 합니다.
 
-이렇게 하려면 다음 단계를 적용합니다.
+그렇게 하려면 다음 단계를 적용합니다.
 
 1. **[!UICONTROL Features View]** 탭을 선택하고 **Authentication** 링크를 두 번 클릭합니다.
 
@@ -138,7 +140,7 @@ webmdl@default (1644) - 18.2 Mo
 
 ISAPI DLL이 올바르게 로드되었는지 확인할 수도 있습니다.
 
-이렇게 하려면 다음 단계를 적용합니다.
+그렇게 하려면 다음 단계를 적용합니다.
 
 1. **[!UICONTROL Driver mapping]** 아이콘을 클릭하여 Adobe Campaign 사이트의 ISAPI 필터를 편집합니다.
 1. ISAPI 필터의 콘텐츠를 확인합니다.

@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1921'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # Enhanced MTA로 보내기 {#sending-with-enhanced-mta}
+
+![](../../assets/common.svg)
 
 **Adobe Campaign Enhanced MTA**(메일 전송 에이전트)는 향상된 전송 인프라를 제공하여 게재 능력, 평판, 처리량, 보고, 반송 처리, IP 램프 업 및 연결 설정 관리를 가능하게 합니다.
 
@@ -39,7 +41,7 @@ ht-degree: 3%
 
 이제 Adobe Campaign을 업그레이드하여 SparkPost의 상업용 이메일 MTA인 **Moument**&#x200B;를 실행하는 새 MTA(메일 전송 에이전트)를 사용할 수 있습니다.
 
-모멘텀은 보다 스마트한 반송 처리 및 보낸 사람이 최적의 받은 편지함 배달률을 달성하고 유지하는 데 도움이 되는 자동화된 게재 기능 최적화 기능을 포함하는 혁신적이고 고성능 MTA 기술을 나타냅니다.<!--More than 37% of the world’s business email is sent using SparkPost’s MTA technology.-->
+모멘텀은 보다 스마트한 반송 처리 및 보낸 사람이 최적의 받은 편지함 배달률을 달성하고 유지하는 데 도움이 되는 자동화된 게재 기능 최적화 기능을 포함하는 혁신적이고 고성능 MTA 기술을 나타냅니다. <!--More than 37% of the world’s business email is sent using SparkPost’s MTA technology.-->
 
 **어떤 이점이 있습니까?**
 
@@ -113,7 +115,7 @@ Adobe Campaign 트랜잭션 메시지 기능을 사용하는 고객의 경우 �
 >
 >Adobe Campaign 팀이 **[!UICONTROL Typology]** 패키지를 설치하는 방법에 대해 제공하는 지침은 신중하게 수행해야 합니다. 그렇지 않으면 이메일을 전송하는 데 사용되는 IP에 중요한 문제가 발생할 수 있습니다.
 
-유형화에 대한 자세한 내용은 [이 섹션](../../campaign/using/about-campaign-typologies.md)을 참조하십시오.
+유형화에 대한 자세한 내용은 [이 섹션](../../campaign-opt/using/about-campaign-typologies.md)을 참조하십시오.
 
 ### 새 MX 규칙
 
@@ -192,7 +194,7 @@ DKIM에 대한 자세한 내용은 [Adobe 게재 가능성 모범 사례 안내�
 
 하드 바운스 메시지가 Enhanced MTA에서 다시 보고되면 로그 상태가 **[!UICONTROL Taken into account by the service provider]**&#x200B;에서 **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->(으)로 변경됩니다.
 
-소프트 바운스 메시지가 Enhanced MTA에서 다시 보고되면 로그 상태가 변경되지 않은 상태로 유지됩니다(**[!UICONTROL Taken into account by the service provider]**).[오류 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons)만<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->에 업데이트됩니다. **[!UICONTROL Success]** 백분율은 변경되지 않은 상태로 유지됩니다. 그런 다음 소프트 바운스 메시지는 배달 [유효 기간](steps-sending-the-delivery.md#defining-validity-period) 동안 다시 시도됩니다.
+소프트 바운스 메시지가 Enhanced MTA에서 다시 보고되면 로그 상태가 변경되지 않은 상태로 유지됩니다(**[!UICONTROL Taken into account by the service provider]**). [오류 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons)만<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->에 업데이트됩니다. **[!UICONTROL Success]** 백분율은 변경되지 않은 상태로 유지됩니다. 그런 다음 소프트 바운스 메시지는 배달 [유효 기간](steps-sending-the-delivery.md#defining-validity-period) 동안 다시 시도됩니다.
 
 * 유효 기간이 종료되기 전에 다시 시도하면 메시지 상태가 **[!UICONTROL Sent]**&#x200B;으로 변경되고 **[!UICONTROL Success]** 백분율이 그에 따라 증가합니다.
 

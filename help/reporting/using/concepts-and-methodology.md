@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 1%
@@ -15,14 +15,16 @@ ht-degree: 1%
 
 # 큐브에 대한 우수 사례{#concepts-and-methodology}
 
-## 데이터 시작 {#data-binning}
+![](../../assets/common.svg)
+
+## 데이터 바인딩 {#data-binning}
 
 시작 을 사용하면 기준에 따라 값을 그룹화하여 데이터 표시를 단순화할 수 있습니다. 사용 가능한 정보에 따라 페이지 그룹을 정의하고, 전자 메일 도메인을 함께 그룹화하고, 값 열거형으로 제한하며, 표시할 데이터를 명시적으로 제한하고, 전용 줄이나 열에 있는 다른 모든 데이터를 그룹화하는 등의 작업을 수행할 수 있습니다.
 
 전체적으로 세 가지 유형의 이닝을 사용할 수 있습니다.
 
 1. 수동으로 정의된 값 범위 사용. 예를 들어 연령, 평균 장바구니, 열린 게재 수 등이 있습니다. 자세한 내용은 [각 bin](#defining-each-bin) 정의를 참조하십시오.
-1. 열거형의 값에 따라 동적으로 다음을 수행합니다.열거형에 포함된 값만 표시합니다. 다른 모든 값은 &#39;Others&#39;로 그룹화됩니다. 자세한 내용은 [저장소 동적으로 관리](#dynamically-managing-bins)를 참조하십시오.
+1. 열거형의 값에 따라 동적으로 다음을 수행합니다. 열거형에 포함된 값만 표시합니다. 다른 모든 값은 &#39;Others&#39;로 그룹화됩니다. 자세한 내용은 [저장소 동적으로 관리](#dynamically-managing-bins)를 참조하십시오.
 1. 값 범위를 사용하여 그룹화하는 다른 항목은 모두 예를 들어, 18세에서 25세, 26세에서 59세, 그리고 다른 아이들이 있습니다. 자세한 내용은 [값 범위 만들기](#creating-value-ranges)를 참조하십시오.
 
 시작하기를 활성화하려면 차원을 생성할 때 적절한 상자를 선택합니다.
@@ -31,7 +33,7 @@ ht-degree: 1%
 
 저장소를 수동으로 만들거나 기존 열거형에 연결할 수 있습니다.
 
-Adobe Campaign은 자동 이닝을 위한 도우미도 제공합니다.값은 N 그룹으로 분류하거나 데이터베이스에서 가장 자주 사용하는 값에 따라 그룹화할 수 있습니다.
+Adobe Campaign은 자동 이닝을 위한 도우미도 제공합니다. 값은 N 그룹으로 분류하거나 데이터베이스에서 가장 자주 사용하는 값에 따라 그룹화할 수 있습니다.
 
 ### 각 저장소 정의 {#defining-each-bin}
 
@@ -43,7 +45,7 @@ Adobe Campaign은 자동 이닝을 위한 도우미도 제공합니다.값은 N 
 
 ![](assets/s_advuser_cube_class_02.png)
 
-다음 예제에서는 언어를 세 가지 범주로 그룹화합니다.영어/독일어/네덜란드어, 프랑스어/이탈리아어/스페인어 및 기타.
+다음 예제에서는 언어를 세 가지 범주로 그룹화합니다. 영어/독일어/네덜란드어, 프랑스어/이탈리아어/스페인어 및 기타.
 
 ![](assets/s_advuser_cube_class_03.png)
 
@@ -118,7 +120,7 @@ Adobe Campaign은 또한 다음 예와 같이 데이터베이스에 있는 모�
 
 **[!UICONTROL Domains]** 열거형은 도메인 목록을 표시하는 기본 제공 보고서를 생성하는 데 사용됩니다. 이러한 보고서의 컨텐츠를 조정하기 위해 이 목록을 편집할 수 있습니다.
 
-시작 예약된 다른 열거형을 만들어 다른 큐브에 사용할 수 있습니다.모든 별칭 값은 첫 번째 열거형 탭에 지정된 저장소에 다시 그룹화됩니다.
+시작 예약된 다른 열거형을 만들어 다른 큐브에 사용할 수 있습니다. 모든 별칭 값은 첫 번째 열거형 탭에 지정된 저장소에 다시 그룹화됩니다.
 
 ## 합계 계산 및 사용 {#calculating-and-using-aggregates}
 
@@ -150,17 +152,17 @@ Adobe Campaign은 또한 다음 예와 같이 데이터베이스에 있는 모�
    ![](assets/s_advuser_cube_agregate_04.png)
 
    * **[!UICONTROL Scheduler]** 활동을 통해 계산 업데이트 빈도를 정의할 수 있습니다. 스케줄러는 [이 섹션](../../workflow/using/scheduler.md)에 자세히 설명되어 있습니다.
-   * **[!UICONTROL Aggregate update]** 활동을 사용하면 적용할 업데이트 모드를 선택할 수 있습니다.전체 또는 일부.
+   * **[!UICONTROL Aggregate update]** 활동을 사용하면 적용할 업데이트 모드를 선택할 수 있습니다. 전체 또는 일부.
 
       기본적으로 각 계산 중에 전체 업데이트가 수행됩니다. 부분 업데이트를 활성화하려면 관련 옵션을 선택하고 업데이트 조건을 정의합니다.
 
       ![](assets/s_advuser_cube_agregate_05.png)
 
-## 측정값 {#defining-measures} 정의
+## 측정값 정의 {#defining-measures}
 
 측정 단위 유형은 큐브의 **[!UICONTROL Measures]** 탭에 정의됩니다. 합계, 평균, 편차 등을 계산할 수 있습니다.
 
-필요한 만큼 조치를 생성할 수 있습니다.그런 다음 테이블에 표시하거나 숨길 측정값을 선택합니다. 자세한 내용은 [측정값 표시](#displaying-measures)를 참조하십시오.
+필요한 만큼 조치를 생성할 수 있습니다. 그런 다음 테이블에 표시하거나 숨길 측정값을 선택합니다. 자세한 내용은 [측정값 표시](#displaying-measures)를 참조하십시오.
 
 새 측정 단위를 정의하려면 다음 단계를 적용합니다.
 
@@ -180,19 +182,19 @@ Adobe Campaign은 또한 다음 예와 같이 데이터베이스에 있는 모�
 
 1. 측정 단위 레이블을 입력하고 설명을 추가한 다음 **[!UICONTROL Finish]** 을 클릭하여 만듭니다.
 
-## 측정값 {#displaying-measures} 표시
+## 측정값 표시 {#displaying-measures}
 
 필요에 따라 테이블에서 측정 단위 표시를 구성할 수 있습니다.
 
 * 측정 단위의 표시 순서([표시 시퀀스](#display-sequence) 참조),
 * 보고서에 표시/숨길 정보( [디스플레이 구성](#configuring-the-display) 참조)
-* 표시할 측정값:백분율, 총, 소수 수 등 ([표시된 측정값 유형 변경](#changing-the-type-of-measure-displayed) 참조).
+* 표시할 측정값: 백분율, 총, 소수 수 등 ([표시된 측정값 유형 변경](#changing-the-type-of-measure-displayed) 참조).
 
-### 시퀀스 {#display-sequence} 표시
+### 표시 시퀀스 {#display-sequence}
 
 큐브에서 계산된 측정 단위는 **[!UICONTROL Measures]** 버튼을 통해 구성됩니다.
 
-표시 순서를 변경하려면 라인을 이동합니다. 다음 예제에서는 프랑스어 데이터를 목록의 맨 아래로 이동합니다.즉, 마지막 열에 표시됩니다.
+표시 순서를 변경하려면 라인을 이동합니다. 다음 예제에서는 프랑스어 데이터를 목록의 맨 아래로 이동합니다. 즉, 마지막 열에 표시됩니다.
 
 ![](assets/s_advuser_cube_in_report_config_04.png)
 
@@ -210,7 +212,7 @@ Adobe Campaign은 또한 다음 예와 같이 데이터베이스에 있는 모�
 
 ![](assets/s_advuser_cube_in_report_config_06.png)
 
-### 표시된 측정값 유형 변경 {#changing-the-type-of-measure-displayed}
+### 표시되는 측정값 유형 변경 {#changing-the-type-of-measure-displayed}
 
 각 측정값 내에서 적용할 단위와 형식을 정의할 수 있습니다.
 
@@ -256,7 +258,7 @@ Adobe Campaign은 또한 다음 예와 같이 데이터베이스에 있는 모�
 
    십자가를 클릭하여 삭제합니다.
 
-   필요한 만큼 필터를 결합할 수 있습니다.그들은 모두 이 지역에서 보여질 것입니다.
+   필요한 만큼 필터를 결합할 수 있습니다. 그들은 모두 이 지역에서 보여질 것입니다.
 
    ![](assets/neolap_multiple_filters.png)
 

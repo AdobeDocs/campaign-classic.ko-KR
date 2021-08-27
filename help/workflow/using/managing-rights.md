@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 워크플로우 권한 관리{#managing-rights}
+
+![](../../assets/common.svg)
 
 관리자가 아닌 경우 Adobe Campaign 운영자가 워크플로우를 작성, 실행 또는 수정하기 위한 액세스 권한이 필요합니다.
 
@@ -23,17 +25,17 @@ ht-degree: 0%
 
 연산자 및 권한 관리에 대한 자세한 내용은 이 [섹션](../../platform/using/access-management.md)을 참조하십시오.
 
-## 연산자 그룹 {#operator-groups-wf}
+## 운영자 그룹 {#operator-groups-wf}
 
 다음 운영자 그룹은 워크플로우와 연관되어 있습니다.
 
-* **[!UICONTROL Workflow execution]** 그룹을 사용하여 타깃팅 워크플로우의 실행 및 승인을 제어할 수 있습니다.오른쪽 워크플로우가 이 그룹의 연산자에 매핑됩니다. 데이터 파일에 대한 액세스 권한 외에 워크플로우의 모든 작업에 필요합니다. 기본적으로 **[!UICONTROL Workflow execution]** 그룹은 표준 타깃팅 워크플로우 파일 및 워크플로우 템플릿에 대한 읽기 전용 액세스 권한을 갖습니다. 이 그룹의 연산자도 보류 중인 승인 파일에 대한 읽기 및 쓰기 액세스 권한도 갖습니다.
+* **[!UICONTROL Workflow execution]** 그룹을 사용하여 타깃팅 워크플로우의 실행 및 승인을 제어할 수 있습니다. 오른쪽 워크플로우가 이 그룹의 연산자에 매핑됩니다. 데이터 파일에 대한 액세스 권한 외에 워크플로우의 모든 작업에 필요합니다. 기본적으로 **[!UICONTROL Workflow execution]** 그룹은 표준 타깃팅 워크플로우 파일 및 워크플로우 템플릿에 대한 읽기 전용 액세스 권한을 갖습니다. 이 그룹의 연산자도 보류 중인 승인 파일에 대한 읽기 및 쓰기 액세스 권한도 갖습니다.
 * **[!UICONTROL Workflow supervisors]** 그룹을 사용하면 운영자가 워크플로우 승인을 관리할 수 있습니다.
 * 캠페인 워크플로우에 액세스하려면 **[!UICONTROL Operation Managers]** 그룹
 
 ## 명명된 권한 {#named-rights}
 
-워크플로우에는 오른쪽(오른쪽)이라는 워크플로우 만 있습니다.워크플로우를 만들고, 시작하고, 중지할 수 있습니다. 명명된 권한을 적용할 수 있으려면 워크플로우 파일에 대한 읽기 권한이 필요합니다. 타겟팅 워크플로우의 경우 **[!UICONTROL Profiles and Targets]** 파일의 읽기 권한이 필요합니다.
+워크플로우에는 오른쪽(오른쪽)이라는 워크플로우 만 있습니다. 워크플로우를 만들고, 시작하고, 중지할 수 있습니다. 명명된 권한을 적용할 수 있으려면 워크플로우 파일에 대한 읽기 권한이 필요합니다. 타겟팅 워크플로우의 경우 **[!UICONTROL Profiles and Targets]** 파일의 읽기 권한이 필요합니다.
 
 ## 워크플로우 실행 계정 {#workflow-execution-account}
 

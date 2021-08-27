@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 1%
@@ -15,9 +15,11 @@ ht-degree: 1%
 
 # 웹 추적 모드{#web-tracking-mode}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign을 사용하면 추적 로그가 애플리케이션에서 처리되는 방식을 정의하는 웹 추적 모드를 선택할 수 있습니다.
 
-사용할 수 있는 웹 추적 모드로는 세 가지가 있습니다.**&quot;세션 추적&quot;**,**&quot;영구 추적&quot;** 및 **&quot;익명 추적&quot;**.
+사용할 수 있는 웹 추적 모드로는 세 가지가 있습니다. **&quot;세션 추적&quot;**,**&quot;영구 추적&quot;** 및 **&quot;익명 추적&quot;**.
 
 ![](assets/s_ncs_install_deployment_wiz_tracking_mode.png)
 
@@ -40,7 +42,7 @@ Adobe Campaign을 사용하면 추적 로그가 애플리케이션에서 처리�
 </dbindex>
 ```
 
-**** 영구 및  **** 익명 웹 추적 모드에는 두 가지 옵션이 있습니다. **강제** 게재 및  **마지막 게재**.
+**** 영구 및  **** 익명 웹 추적 모드에는 두 가지 옵션이 있습니다.  **강제** 게재 및  **마지막 게재**.
 
 **강제 배달** 옵션을 사용하면 추적 중에 게재(@jobid)의 식별자를 지정할 수 있습니다.
 

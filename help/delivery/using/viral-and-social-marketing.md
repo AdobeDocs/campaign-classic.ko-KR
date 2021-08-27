@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 2%
@@ -15,11 +15,13 @@ ht-degree: 2%
 
 # 바이럴 및 소셜 마케팅{#viral-and-social-marketing}
 
-## 바이럴 마케팅 정보 {#about-viral-marketing}
+![](../../assets/common.svg)
+
+## 바이럴 마케팅 기본 정보 {#about-viral-marketing}
 
 Adobe Campaign을 사용하면 바이럴 마케팅을 권장하는 도구를 설정할 수 있습니다.
 
-이를 통해 게재 수신자 또는 웹 사이트 방문자가 자신의 네트워크와 정보를 공유할 수 있습니다.facebook 또는 Twitter 프로필에 대한 링크 추가에서 친구에게 메시지 전송에 이르기까지 다양한 정보를 제공합니다.
+이를 통해 게재 수신자 또는 웹 사이트 방문자가 자신의 네트워크와 정보를 공유할 수 있습니다. facebook 또는 Twitter 프로필에 대한 링크 추가에서 친구에게 메시지 전송에 이르기까지 다양한 정보를 제공합니다.
 
 ![](assets/s_ncs_user_viral_icons.png)
 
@@ -27,7 +29,7 @@ Adobe Campaign을 사용하면 바이럴 마케팅을 권장하는 도구를 설
 >
 >추가된 링크가 제대로 작동하려면 일치하는 미러 페이지를 사용할 수 있어야 합니다. 이렇게 하려면 게재에 미러 페이지에 대한 링크를 포함합니다.
 
-## 소셜 네트워크:링크 {#social-networks--sharing-a-link} 공유
+## 소셜 네트워크: 링크 공유 {#social-networks--sharing-a-link}
 
 게재 수신자가 메시지 콘텐츠를 네트워크의 멤버와 공유할 수 있도록 하려면 일치하는 개인화 블록을 포함해야 합니다.
 
@@ -49,9 +51,9 @@ Adobe Campaign을 사용하면 바이럴 마케팅을 권장하는 도구를 설
 >
 >이 개인화 블록에는 모든 링크(모든 소셜 네트워크와의 메시지 전송 및 공유용)가 포함되어 있습니다. 필요에 맞게 변경할 수 있습니다. 그러나 구성은 고급 사용자를 위해 예약되어 있습니다. 일치하는 개인화 블록을 편집하려면 Adobe Campaign 트리의 **[!UICONTROL Resources > Campaign management > Personalization blocks]** 노드로 이동합니다.
 
-## 바이럴 마케팅:친구에게 {#viral-marketing--forward-to-a-friend} 전달
+## 바이럴 마케팅: 친구에게 전하다 {#viral-marketing--forward-to-a-friend}
 
-바이럴 서비스를 사용하면 참조 형식의 작업을 수행할 수 있습니다.이러한 작업을 수행하면 친구에게 메시지를 전달할 수 있습니다. 심판의 프로필은 데이터베이스에 임시로 저장됩니다(전용 테이블). 전달된 메시지에는 심판이 가입할 수 있는 링크가 포함되어 있습니다.그런 경우 Adobe Campaign 데이터베이스에 추가됩니다.
+바이럴 서비스를 사용하면 참조 형식의 작업을 수행할 수 있습니다. 이러한 작업을 수행하면 친구에게 메시지를 전달할 수 있습니다. 심판의 프로필은 데이터베이스에 임시로 저장됩니다(전용 테이블). 전달된 메시지에는 심판이 가입할 수 있는 링크가 포함되어 있습니다. 그런 경우 Adobe Campaign 데이터베이스에 추가됩니다.
 
 메시지 전달은 소셜 네트워크 링크와 동일한 원칙을 기반으로 합니다.
 
@@ -84,7 +86,7 @@ Adobe Campaign을 사용하면 바이럴 마케팅을 권장하는 도구를 설
    >
    >웹 응용 프로그램에 대한 자세한 내용은 [이 섹션](../../web/using/about-web-applications.md)을 참조하십시오.
 
-   유효성 검사를 수행하면 확인 메시지가 전송됩니다.확인 메시지에서 링크를 활성화한 후에만 등록됩니다. 이 메시지는 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 노드에 저장된 **[!UICONTROL Registration confirmation]** 템플릿을 기반으로 만들어집니다.
+   유효성 검사를 수행하면 확인 메시지가 전송됩니다. 확인 메시지에서 링크를 활성화한 후에만 등록됩니다. 이 메시지는 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 노드에 저장된 **[!UICONTROL Registration confirmation]** 템플릿을 기반으로 만들어집니다.
 
    심판은 데이터베이스의 **수신자** 폴더에 추가되며 **뉴스레터** 정보 서비스에 (기본적으로) 가입됩니다.
 

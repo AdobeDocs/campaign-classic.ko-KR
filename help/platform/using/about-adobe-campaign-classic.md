@@ -2,26 +2,31 @@
 product: campaign
 title: Adobe Campaign Classic 정보
 description: 주요 기능, 사용자 인터페이스 및 글로벌 지침을 살펴보십시오.
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 95%
+source-wordcount: '923'
+ht-degree: 92%
 
 ---
 
 # Campaign Classic 시작{#about-adobe-campaign-classic}
 
+![](../../assets/v7-only.svg)
+
 높은 수준의 고객 참여도와 훌륭한 경험을 제공하려면 브랜드는 모든 접점에서 일관된 고객 여정을 만들어야 합니다. 마케터는 이제 마케팅 투자에 대한 높은 수익을 제공하고 충성도를 높일 수 있는 크로스 채널 마케팅 캠페인을 효율적으로 디자인, 계획, 실행, 관리 및 최적화할 수 있습니다.
 
 Adobe Campaign을 사용하면 대화형 마케팅 캠페인 만들기를 조정할 수 있습니다. Adobe Campaign에는 마케팅 및 고객 커뮤니케이션 프로세스를 모델, 간소화 및 자동화하는 혁신적인 기능이 있습니다.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Adobe Campaign Classic은 v6.11 및 v7에서 사용할 수 있습니다. 언급된 경우를 제외하고 도움말 자료는 [최신 빌드](../../rn/using/latest-release.md)에서 두 버전 모두에 적용됩니다. 스크린샷은 Campaign Classic v7 사용자 인터페이스를 반영합니다.
+>* 이 컬렉션의 도움말 자료는 [최신 빌드](../../rn/using/latest-release.md)의 Campaign Classic v7에 적용됩니다. 특정 배지는 Campaign v8에도 섹션이 적용될 때 사용할 수 있습니다.
+>
+>* Adobe Campaign v8 설명서는 [여기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)에 있습니다.
+
 
 ![](assets/do-not-localize/how-to-video.png) [비디오의 주요 기능 및 기능 살펴보기](#video)
 
@@ -79,8 +84,8 @@ Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 �
 * [웹 애플리케이션](../../web/using/about-web-applications.md) - 웹 페이지 및 양식 만들기,
 * [설문 조사 관리자](../../surveys/using/about-surveys.md) - 온라인 설문 조사 및 투표 만들기,
 * [Content Manager](../../delivery/using/about-content-management.md) - 전자 메일 콘텐츠 관리,
-* [분산 마케팅](../../campaign/using/about-distributed-marketing.md) - 중앙/지방 에이전시의 캠페인 조정
-* [응답 관리자](../../campaign/using/about-response-manager.md) - 고객 응답 관리,
+* [분산 마케팅](../../distributed/using/about-distributed-marketing.md) - 중앙/지방 에이전시의 캠페인 조정
+* [응답 관리자](../../response/using/about-response-manager.md) - 고객 응답 관리,
 * [커넥터](../../platform/using/about-connectors.md) - 커넥터를 사용하여 외부 솔루션 및 데이터베이스 엔진과 커뮤니케이션합니다.
 * [웹 서비스](../../configuration/using/about-web-services.md) - API/웹 서비스를 통해 캠페인 사용,
 * [보고](../../reporting/using/about-adobe-campaign-reporting-tools.md) - 기본 제공 보고서에 액세스하고 데이터를 분석하며 보고서를 디자인할 수 있습니다.

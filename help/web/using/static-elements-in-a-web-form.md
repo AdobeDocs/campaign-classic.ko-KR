@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
-source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 3%
@@ -15,7 +15,9 @@ ht-degree: 3%
 
 # 웹 양식의 정적 요소{#static-elements-in-a-web-form}
 
-사용자가 양식 페이지에 상호 작용이 없는 요소를 포함할 수 있습니다.이미지, HTML 콘텐츠, 가로 막대 또는 하이퍼텍스트 링크와 같은 정적 요소입니다. 이러한 요소는 **[!UICONTROL Static elements]** 을 선택하여 도구 모음의 첫 번째 버튼을 통해 만들어집니다.
+![](../../assets/common.svg)
+
+사용자가 양식 페이지에 상호 작용이 없는 요소를 포함할 수 있습니다. 이미지, HTML 콘텐츠, 가로 막대 또는 하이퍼텍스트 링크와 같은 정적 요소입니다. 이러한 요소는 **[!UICONTROL Static elements]** 을 선택하여 도구 모음의 첫 번째 버튼을 통해 만들어집니다.
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)
 
@@ -32,7 +34,7 @@ ht-degree: 3%
 
 ## HTML 콘텐츠 삽입 {#inserting-html-content}
 
-양식 페이지에 HTML 컨텐츠를 포함할 수 있습니다.하이퍼텍스트 링크, 이미지, 형식이 지정된 단락, 비디오 등
+양식 페이지에 HTML 컨텐츠를 포함할 수 있습니다. 하이퍼텍스트 링크, 이미지, 형식이 지정된 단락, 비디오 등
 
 HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력할 수 있습니다. 편집기를 열려면 **[!UICONTROL Static elements]** > **[!UICONTROL HTML]** 를 클릭합니다.
 
@@ -57,7 +59,7 @@ HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력
 ![](assets/s_ncs_admin_survey_add_link.png)
 
 * **[!UICONTROL Label]** 은 양식 페이지에 표시될 하이퍼텍스트 링크의 컨텐츠입니다.
-* **[!UICONTROL URL]** 은 원하는 주소입니다(예: ).웹 사이트의 경우 [https://www.adobe.com](https://www.adobe.com) 또는 [info@adobe.com](mailto:info@adobe.com) 를 사용하여 메시지를 보냅니다.
+* **[!UICONTROL URL]** 은 원하는 주소입니다(예: ). 웹 사이트의 경우 [https://www.adobe.com](https://www.adobe.com) 또는 [info@adobe.com](mailto:info@adobe.com) 를 사용하여 메시지를 보냅니다.
 * **[!UICONTROL Window]** 필드를 사용하면 사이트의 경우 링크에 대한 표시 모드를 선택할 수 있습니다. 새 창, 현재 창 또는 다른 창에서 링크를 열도록 결정할 수 있습니다.
 * 다음과 같이 도구 설명을 추가할 수 있습니다.
 
@@ -136,7 +138,7 @@ HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력
 
 ### 텍스트 변수 사용 {#using-text-variables}
 
-**[!UICONTROL Text]** 탭에서는 다음 구문을 사용하여 &lt;%= 및 %> 문자 사이에 HTML에서 사용할 수 있는 변수 필드를 만들 수 있습니다.**$(IDENTIFIER)**
+**[!UICONTROL Text]** 탭에서는 다음 구문을 사용하여 &lt;%= 및 %> 문자 사이에 HTML에서 사용할 수 있는 변수 필드를 만들 수 있습니다. **$(IDENTIFIER)**
 
 이 메서드를 사용하여 문자열을 쉽게 현지화할 수 있습니다. [웹 양식 번역](translating-a-web-form.md)을 참조하십시오
 
@@ -169,10 +171,10 @@ HTML 편집기를 사용하면 양식 페이지에 삽입할 컨텐츠를 입력
 
 **[!UICONTROL Static elements]** > **[!UICONTROL Image]** 메뉴를 선택합니다.
 
-삽입할 이미지의 소스를 선택합니다.공용 리소스 라이브러리에서 가져오거나 외부에서 액세스할 수 있는 외부 서버에 저장할 수 있습니다.
+삽입할 이미지의 소스를 선택합니다. 공용 리소스 라이브러리에서 가져오거나 외부에서 액세스할 수 있는 외부 서버에 저장할 수 있습니다.
 
 ![](assets/s_ncs_admin_survey_add_img.png)
 
-라이브러리의 이미지인 경우 필드의 콤보 상자에서 선택합니다.외부 파일에 있는 경우 액세스 경로를 입력합니다. 이미지 위에 커서를 전달하거나(HTML의 ALT 필드와 일치함) 이미지가 표시되지 않을 때 레이블이 표시됩니다.
+라이브러리의 이미지인 경우 필드의 콤보 상자에서 선택합니다. 외부 파일에 있는 경우 액세스 경로를 입력합니다. 이미지 위에 커서를 전달하거나(HTML의 ALT 필드와 일치함) 이미지가 표시되지 않을 때 레이블이 표시됩니다.
 
 이미지는 편집기의 중앙 섹션에서 볼 수 있습니다.

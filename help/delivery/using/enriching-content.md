@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 콘텐츠 강화{#enriching-content}
+
+![](../../assets/common.svg)
 
 집계를 사용하면 외부 데이터로 컨텐츠를 보강할 수 있습니다. 이 데이터는 일반 쿼리 또는 연결된 테이블에서 가져옵니다.
 
@@ -35,9 +37,9 @@ ht-degree: 0%
 </book>
 ```
 
-**`<collection-recipient>`** 요소는 쿼리에서 얻은 문서의 입력 요소를 나타냅니다. 검색된 데이터가 이 요소 아래에 반환됩니다.이 예제에서는 수신자 목록입니다.
+**`<collection-recipient>`** 요소는 쿼리에서 얻은 문서의 입력 요소를 나타냅니다. 검색된 데이터가 이 요소 아래에 반환됩니다. 이 예제에서는 수신자 목록입니다.
 
-### 쿼리 {#adding-a-query} 추가
+### 쿼리 추가 {#adding-a-query}
 
 쿼리 매개 변수는 마법사를 사용하여 편집됩니다.
 
@@ -61,16 +63,16 @@ ht-degree: 0%
 
    ![](assets/d_ncs_content_query4.png)
 
-## 연결된 테이블 {#linked-tables}
+## 연결된 표 {#linked-tables}
 
 링크를 사용하면 컨텐츠에 연결된 외부 데이터를 검색할 수 있습니다.
 
 연결된 데이터에는 두 가지 유형이 있습니다.
 
-* 컨텐츠 링크:기본 컨텐츠 관리 모드입니다. 링크의 컨텐츠는 XML 출력 문서에 자동으로 통합됩니다.
+* 컨텐츠 링크: 기본 컨텐츠 관리 모드입니다. 링크의 컨텐츠는 XML 출력 문서에 자동으로 통합됩니다.
 * 외부 테이블에 대한 링크를 사용하면 집계를 사용하여 선택한 링크의 데이터를 검색하는 제약 조건으로 데이터베이스의 다른 모든 테이블에 액세스할 수 있습니다.
 
-### 컨텐츠 스키마 {#link-to-a-content-schema}에 연결
+### 컨텐츠 스키마에 대한 링크 {#link-to-a-content-schema}
 
 컨텐츠 링크는 데이터 스키마에 다음과 같이 선언됩니다.
 
@@ -128,7 +130,7 @@ ht-degree: 0%
 
 대상 요소의 **계산 문자열**&#x200B;을 보기 위해 기본 열이 표시됩니다.
 
-### 외부 테이블 {#links-to-external-tables} 링크
+### 외부 테이블에 대한 링크 {#links-to-external-tables}
 
 외부 테이블에 대한 링크는 데이터 스키마에서 다음과 같이 선언됩니다.
 
@@ -208,7 +210,7 @@ ht-degree: 0%
 
 JavaScript 스크립트는 SOAP 쿼리를 통해 링크의 컨텐츠를 보강하는 데 사용됩니다.
 
-**예**:받는 사람 이름을 &quot;mainContact&quot; 링크 및 &quot;contact&quot; 컬렉션 링크에 추가:
+**예**: 받는 사람 이름을 &quot;mainContact&quot; 링크 및 &quot;contact&quot; 컬렉션 링크에 추가:
 
 ```
 // Update <mainContact> link

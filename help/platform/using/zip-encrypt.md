@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 8%
 
 ---
 
-# 파일 {#zipping-or-encrypting-a-file} 압축 또는 암호화
+# 파일 압축 또는 암호화 {#zipping-or-encrypting-a-file}
+
+![](../../assets/common.svg)
 
 Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 내보낼 수 있습니다. **[!UICONTROL Data extraction (file)]** 활동을 통해 내보내기를 정의할 때 zip 또는 암호화할 사후 처리를 정의할 수 있습니다.
 
@@ -26,7 +28,7 @@ Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 내보�
    >Campaign 컨트롤 패널은 관리자 사용자로 제한되어 있으며, 특정 Campaign 버전에만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)
 
 1. Adobe Campaign 설치가 Adobe에 의해 호스팅되는 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하여 서버에 필요한 유틸리티를 설치하도록 하십시오.
-1. Adobe Campaign의 설치를 온-프레미스하는 경우 사용할 유틸리티를 설치합니다(예:GPG, GZIP) 및 애플리케이션 서버에 필요한 키(암호화 키)가 포함되어 있습니다.
+1. Adobe Campaign의 설치를 온-프레미스하는 경우 사용할 유틸리티를 설치합니다(예: GPG, GZIP) 및 애플리케이션 서버에 필요한 키(암호화 키)가 포함되어 있습니다.
 
 그런 다음 활동의 **[!UICONTROL Script]** 탭 또는 **[!UICONTROL JavaScript code]** 활동에서 명령이나 코드를 사용할 수 있습니다. 아래 사용 사례에는 예제가 나와 있습니다.
 
@@ -35,7 +37,7 @@ Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 내보�
 * [처리하기 전에 파일 압축 풀기 또는 암호 해독](../../platform/using/unzip-decrypt.md)
 * [데이터 추출(파일) 활동](../../workflow/using/extraction--file-.md).
 
-## 사용 사례:Campaign 컨트롤 패널 {#use-case-gpg-encrypt}에 설치된 키를 사용하여 데이터를 암호화하고 내보냅니다
+## 사용 사례: Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기 {#use-case-gpg-encrypt}
 
 이 사용 사례에서는 Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터를 암호화하고 내보내기 위해 워크플로우를 빌드합니다.
 
@@ -49,10 +51,10 @@ Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 내보�
 
    ![](assets/gpg-workflow-encrypt.png)
 
-   * **[!UICONTROL Query]** 활동:이 예제에서는 내보낼 데이터베이스의 데이터를 타겟팅하는 쿼리를 실행하려고 합니다.
-   * **[!UICONTROL Data extraction (file)]** 활동:데이터를 파일에 추출합니다.
-   * **[!UICONTROL JavaScript code]** 활동:추출할 데이터를 암호화합니다.
-   * **[!UICONTROL File transfer]** 활동:외부 소스(이 예제의 경우 SFTP 서버)로 데이터를 전송합니다.
+   * **[!UICONTROL Query]** 활동: 이 예제에서는 내보낼 데이터베이스의 데이터를 타겟팅하는 쿼리를 실행하려고 합니다.
+   * **[!UICONTROL Data extraction (file)]** 활동: 데이터를 파일에 추출합니다.
+   * **[!UICONTROL JavaScript code]** 활동: 추출할 데이터를 암호화합니다.
+   * **[!UICONTROL File transfer]** 활동: 외부 소스(이 예제의 경우 SFTP 서버)로 데이터를 전송합니다.
 
 1. 데이터베이스에서 원하는 데이터를 타겟팅하도록 **[!UICONTROL Query]** 활동을 구성합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/query.md)을 참조하십시오.
 

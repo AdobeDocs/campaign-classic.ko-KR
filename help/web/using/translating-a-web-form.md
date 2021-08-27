@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 1%
@@ -15,13 +15,15 @@ ht-degree: 1%
 
 # 웹 양식 번역{#translating-a-web-form}
 
+![](../../assets/common.svg)
+
 웹 애플리케이션을 여러 언어로 현지화할 수 있습니다.
 
 Adobe Campaign 콘솔에서 직접 번역을 수행하거나([편집기 내에서 번역 관리 참조), 문자열을 내보내고 가져와서 번역을 외부화할 수 있습니다( [번역 외부화](#externalizing-translation) 참조).](#managing-translations-in-the-editor)
 
 기본적으로 사용할 수 있는 번역 언어 목록은 [양식 변경: 표시 언어](#changing-forms-display-language)에 자세히 설명되어 있습니다.
 
-웹 응용 프로그램은 편집 언어로 디자인되었습니다.번역할 레이블과 기타 컨텐츠를 입력하는 데 사용되는 참조 언어입니다.
+웹 응용 프로그램은 편집 언어로 디자인되었습니다. 번역할 레이블과 기타 컨텐츠를 입력하는 데 사용되는 참조 언어입니다.
 
 기본 언어는 해당 액세스 URL에 언어 설정이 추가되지 않는 경우 웹 응용 프로그램이 표시되는 언어입니다.
 
@@ -51,7 +53,7 @@ Adobe Campaign에는 다국어 번역을 번역하고 관리하는 도구가 포
 
 이 탭을 처음 열면 데이터가 포함되지 않습니다. 웹 응용 프로그램의 문자열을 업데이트하려면 **[!UICONTROL Collect the strings to translate]** 링크를 클릭하십시오.
 
-Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의된 필드 및 문자열의 레이블을 수집합니다.HTML 블록, Javascript 등 정적 요소는 웹 양식의 [정적 요소에 자세히 설명되어 있습니다](static-elements-in-a-web-form.md).
+Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의된 필드 및 문자열의 레이블을 수집합니다. HTML 블록, Javascript 등 정적 요소는 웹 양식의 [정적 요소에 자세히 설명되어 있습니다](static-elements-in-a-web-form.md).
 
 ![](assets/s_ncs_admin_survey_trad_tab.png)
 
@@ -69,7 +71,7 @@ Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의�
 
 ### 문자열 필터링 {#filtering-strings}
 
-기본적으로 웹 애플리케이션의 각 번역 언어가 표시됩니다. 다음 두 가지 기본 필터가 있습니다.언어 및 상태. **[!UICONTROL Filters]** 단추를 클릭한 다음 **[!UICONTROL By language or status]** 을 클릭하여 일치하는 드롭다운 상자를 표시합니다. 고급 필터를 만들 수도 있습니다. 자세한 정보는 이 [페이지](../../platform/using/creating-filters.md#creating-an-advanced-filter)를 참조하십시오.
+기본적으로 웹 애플리케이션의 각 번역 언어가 표시됩니다. 다음 두 가지 기본 필터가 있습니다. 언어 및 상태. **[!UICONTROL Filters]** 단추를 클릭한 다음 **[!UICONTROL By language or status]** 을 클릭하여 일치하는 드롭다운 상자를 표시합니다. 고급 필터를 만들 수도 있습니다. 자세한 정보는 이 [페이지](../../platform/using/creating-filters.md#creating-an-advanced-filter)를 참조하십시오.
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 
@@ -109,15 +111,15 @@ Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의�
 
 1. **[!UICONTROL Export strategy]** 을 선택합니다.
 
-   * **[!UICONTROL One file per language]**:내보내기는 번역 언어당 하나의 파일을 생성합니다. 각 파일은 선택한 모든 웹 응용 프로그램에 공통으로 사용됩니다.
-   * **[!UICONTROL One file per Web application]**:내보내기는 선택한 웹 응용 프로그램당 하나의 파일을 생성합니다. 각 파일에는 모든 번역 언어가 포함됩니다.
+   * **[!UICONTROL One file per language]**: 내보내기는 번역 언어당 하나의 파일을 생성합니다. 각 파일은 선택한 모든 웹 응용 프로그램에 공통으로 사용됩니다.
+   * **[!UICONTROL One file per Web application]**: 내보내기는 선택한 웹 응용 프로그램당 하나의 파일을 생성합니다. 각 파일에는 모든 번역 언어가 포함됩니다.
 
       >[!NOTE]
       >
       >이 유형의 내보내기는 XLIFF 내보내기에서 사용할 수 없습니다.
 
-   * **[!UICONTROL One file per language and per Web application]**:내보내기에 여러 파일이 생성됩니다. 각 파일에는 웹 애플리케이션당 하나의 번역 언어가 포함됩니다.
-   * **[!UICONTROL One file for all]**:내보내기는 모든 웹 응용 프로그램에 대해 단일 다국어 파일을 생성합니다. 선택한 모든 웹 응용 프로그램에 대한 모든 번역 언어가 포함됩니다.
+   * **[!UICONTROL One file per language and per Web application]**: 내보내기에 여러 파일이 생성됩니다. 각 파일에는 웹 애플리케이션당 하나의 번역 언어가 포함됩니다.
+   * **[!UICONTROL One file for all]**: 내보내기는 모든 웹 응용 프로그램에 대해 단일 다국어 파일을 생성합니다. 선택한 모든 웹 응용 프로그램에 대한 모든 번역 언어가 포함됩니다.
 
       >[!NOTE]
       >
@@ -162,19 +164,19 @@ Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의�
 ?lang=xx
 ```
 
-언어가 URL의 첫 번째 또는 유일한 매개 변수인 경우 예:**https://myserver/webApp/APP34?lang=en**
+언어가 URL의 첫 번째 또는 유일한 매개 변수인 경우 예: **https://myserver/webApp/APP34?lang=en**
 
 ```
 &lang=xx
 ```
 
-url의 언어 앞에 다른 매개 변수가 있는 경우. 예:**https://myserver/webApp/APP34?status=1&amp;lang=en**
+url의 언어 앞에 다른 매개 변수가 있는 경우. 예: **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 기본적으로 사용할 수 있는 번역 언어와 사전은 아래에 나와 있습니다.
 
-**기본 시스템 사전**:일부 언어에는 시스템 문자열의 번역을 포함하는 기본 사전이 포함되어 있습니다. 자세한 내용은 [시스템 문자열 번역](#translating-the-system-strings)을 참조하십시오.
+**기본 시스템 사전**: 일부 언어에는 시스템 문자열의 번역을 포함하는 기본 사전이 포함되어 있습니다. 자세한 내용은 [시스템 문자열 번역](#translating-the-system-strings)을 참조하십시오.
 
-**달력 관리**:웹 응용 프로그램의 페이지에는 날짜를 입력하기 위한 달력이 포함될 수 있습니다. 기본적으로 이 달력은 여러 언어(일 번역, 날짜 형식)로 사용할 수 있습니다.
+**달력 관리**: 웹 응용 프로그램의 페이지에는 날짜를 입력하기 위한 달력이 포함될 수 있습니다. 기본적으로 이 달력은 여러 언어(일 번역, 날짜 형식)로 사용할 수 있습니다.
 
 <table> 
  <tbody> 
@@ -410,9 +412,9 @@ url의 언어 앞에 다른 매개 변수가 있는 경우. 예:**https://myserv
 >
 >기본적으로 제공되는 언어 이외의 다른 언어를 추가하려면 [번역 언어 추가](#adding-a-translation-language)를 참조하십시오
 
-## 예:여러 언어로 웹 애플리케이션 표시 {#example--displaying-a-web-application-in-several-languages}
+## 예: 여러 언어로 웹 애플리케이션 표시 {#example--displaying-a-web-application-in-several-languages}
 
-다음 웹 양식은 4개 언어로 사용할 수 있습니다.영어 프랑스어 독일어 스페인어 문자 문자열이 모두 웹 양식의 **[!UICONTROL Translation]** 탭을 통해 번역되었습니다. 기본 언어는 영문이므로 설문 조사가 게시되면 표준 URL을 사용하여 영어로 표시합니다.
+다음 웹 양식은 4개 언어로 사용할 수 있습니다. 영어 프랑스어 독일어 스페인어 문자 문자열이 모두 웹 양식의 **[!UICONTROL Translation]** 탭을 통해 번역되었습니다. 기본 언어는 영문이므로 설문 조사가 게시되면 표준 URL을 사용하여 영어로 표시합니다.
 
 ![](assets/s_ncs_admin_survey_trad_sample_fr.png)
 
@@ -429,7 +431,7 @@ URL의 끝에 **?lang=fr**&#x200B;을 추가하여 프랑스어로 표시합니�
 >[!NOTE]
 >
 >이 웹 응용 프로그램에 다른 매개 변수가 이미 사용된 경우 **&amp;lang=**&#x200B;을 추가합니다.\
->예:**https://myserver/webApp/APP34?status=1&amp;lang=en**
+>예: **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 ## 고급 번역 구성 {#advanced-translation-configuration}
 
@@ -439,7 +441,7 @@ URL의 끝에 **?lang=fr**&#x200B;을 추가하여 프랑스어로 표시합니�
 
 ### 시스템 문자열 번역 {#translating-the-system-strings}
 
-시스템 문자열은 모든 웹 응용 프로그램에서 사용하는 기본 문자 문자열입니다. 예:**[!UICONTROL Next]** , **[!UICONTROL Previous]**, **[!UICONTROL Approve]** 단추, **[!UICONTROL Loading]** 메시지 등 기본적으로 일부 언어에는 이러한 문자열에 대한 번역이 있는 사전이 포함되어 있습니다. 언어 목록은 [양식 변경: 표시 언어](#changing-forms-display-language)에 자세히 설명되어 있습니다.
+시스템 문자열은 모든 웹 응용 프로그램에서 사용하는 기본 문자 문자열입니다. 예: **[!UICONTROL Next]** , **[!UICONTROL Previous]**, **[!UICONTROL Approve]** 단추, **[!UICONTROL Loading]** 메시지 등 기본적으로 일부 언어에는 이러한 문자열에 대한 번역이 있는 사전이 포함되어 있습니다. 언어 목록은 [양식 변경: 표시 언어](#changing-forms-display-language)에 자세히 설명되어 있습니다.
 
 웹 응용 프로그램을 시스템 사전이 번역되지 않은 언어로 번역하면 일부 번역이 누락되었다는 경고 메시지가 나타납니다.
 

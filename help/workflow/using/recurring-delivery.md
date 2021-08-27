@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 11%
+ht-degree: 21%
 
 ---
 
 # 반복 게재{#recurring-delivery}
+
+![](../../assets/common.svg)
 
 **[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인에 고유한 게재 템플릿 발생을 구성할 수 있습니다.
 
@@ -31,7 +33,7 @@ ht-degree: 11%
 
 이 활동에 대한 구성 프로세스는 사용 가능한 옵션 측면에서 게재 템플릿을 만드는 프로세스와 유사합니다. 자세한 정보는 이 [섹션](../../delivery/using/about-templates.md)을 참조하십시오.
 
-사용 중인 이 활동의 예제는 이 [section](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)을 참조하십시오.
+사용 중인 이 활동의 예제는 이 [section](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)을 참조하십시오.
 
 ## 반복 게재를 설정하는 방법
 
@@ -42,7 +44,7 @@ ht-degree: 11%
 >[!NOTE]
 >
 >**[!UICONTROL Recurring delivery]** 유형 활동에서 증명을 보낼 수 없습니다.\
->캠페인 워크플로우를 통해 직접 게재를 만들려면 미리 구성된 채널별 활동(예:**[!UICONTROL Email delivery]**)
+>캠페인 워크플로우를 통해 직접 게재를 만들려면 미리 구성된 채널별 활동(예: **[!UICONTROL Email delivery]**)
 
 ## 튜토리얼 비디오 (#recurring-delivery-video)
 

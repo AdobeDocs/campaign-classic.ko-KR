@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 프로필 관리{#managing-profiles}
+
+![](../../assets/common.svg)
 
 ## 받는 사람 트리 {#recipient-tree}
 
@@ -27,11 +29,11 @@ ht-degree: 2%
 >
 >데이터베이스에 있는 모든 수신자 목록을 표시하려면 보기를 만들어야 합니다. 자세한 내용은 [폴더 및 보기](../../platform/using/access-management-folders.md)를 참조하십시오.
 
-## 받는 사람 이동 {#moving-recipients}
+## 수신자 이동 {#moving-recipients}
 
 한 명 이상의 수신자를 선택하고 수신자 목록에서 끌어서 원하는 폴더에 놓을 수 있습니다. 이 작업을 확인하는 경고 메시지가 표시됩니다.
 
-## 받는 사람 {#copying-a-recipient} 복사
+## 수신자 복사 {#copying-a-recipient}
 
 원하는 수신자를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Copy]** 을 선택하여 동일한 폴더에 수신자를 복사할 수 있습니다.
 

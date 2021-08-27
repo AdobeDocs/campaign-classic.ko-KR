@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 데이터 추출(파일){#extraction-file}
+
+![](../../assets/common.svg)
 
 **[!UICONTROL Data extraction (file)]** 활동을 사용하여 외부 파일의 워크플로우 테이블에서 데이터를 추출할 수 있습니다.
 
@@ -23,7 +25,7 @@ ht-degree: 1%
 
 데이터 추출을 구성하려면 다음 단계를 수행합니다.
 
-1. 출력 파일의 이름을 지정합니다.이 이름에는 필드 오른쪽의 개인화 단추를 통해 삽입되는 변수가 포함될 수 있습니다.
+1. 출력 파일의 이름을 지정합니다. 이 이름에는 필드 오른쪽의 개인화 단추를 통해 삽입되는 변수가 포함될 수 있습니다.
 1. **[!UICONTROL Edit the file format...]** 을 클릭하여 추출할 데이터를 선택합니다.
 
    ![](assets/s_advuser_extract_file_param.png)
@@ -48,7 +50,7 @@ ht-degree: 1%
 
 데이터 추출 중에 실행할 사후 프로세스를 정의하여 파일을 압축하거나 암호화할 수 있습니다. 이를 수행하려면 활동의 **[!UICONTROL Script]** 탭에 원하는 명령을 추가해야 합니다.
 
-자세한 정보는 다음 섹션을 참조하십시오.[파일](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file)을 지핑하거나 암호화합니다.
+자세한 정보는 다음 섹션을 참조하십시오. [파일](how-to-use-workflow-data.md#zipping-or-encrypting-a-file)을 지핑하거나 암호화합니다.
 
 ![](assets/postprocessing_dataextraction.png)
 

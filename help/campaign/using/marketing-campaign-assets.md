@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -15,7 +15,9 @@ ht-degree: 1%
 
 # 관련 문서 관리 {#managing-associated-documents}
 
-다양한 문서를 캠페인과 연결할 수 있습니다.보고서, 사진, 웹 페이지, 다이어그램 등 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 사용할 수 있습니다.
+![](../../assets/common.svg)
+
+다양한 문서를 캠페인과 연결할 수 있습니다. 보고서, 사진, 웹 페이지, 다이어그램 등 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -62,9 +64,9 @@ ht-degree: 1%
 
 게재 아웃라인은 구조화된 요소 세트(문서, 상점, 프로모션 쿠폰 등)를 나타냅니다. 회사 및 특정 캠페인에 의해 만들어집니다.
 
-이러한 요소는 게재 아웃라인에서 그룹화되며, 각 게재 아웃라인은 게재와 연결됩니다.게재에 첨부하기 위해 **서비스 공급자**&#x200B;에 전송된 추출 파일에서 참조됩니다. 예를 들어, 분기 및 고객이 사용하는 마케팅 브로셔를 참조하는 게재 아웃라인을 만들 수 있습니다.
+이러한 요소는 게재 아웃라인에서 그룹화되며, 각 게재 아웃라인은 게재와 연결됩니다. 게재에 첨부하기 위해 **서비스 공급자**&#x200B;에 전송된 추출 파일에서 참조됩니다. 예를 들어, 분기 및 고객이 사용하는 마케팅 브로셔를 참조하는 게재 아웃라인을 만들 수 있습니다.
 
-캠페인의 경우, 게재 개요를 사용하면 특정 기준에 따라 게재와 연결할 외부 요소를 구성할 수 있습니다.관련 분기, 프로모션 오퍼 제공, 로컬 이벤트 초대 등
+캠페인의 경우, 게재 개요를 사용하면 특정 기준에 따라 게재와 연결할 외부 요소를 구성할 수 있습니다. 관련 분기, 프로모션 오퍼 제공, 로컬 이벤트 초대 등
 
 ### 개요 만들기 {#creating-an-outline}
 

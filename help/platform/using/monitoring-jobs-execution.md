@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 작업 실행 모니터링 {#monitoring-job-execution}
+
+![](../../assets/common.svg)
 
 가져오기/내보내기 작업 목록에서 직접 가져오기 및 내보내기 작업의 실행을 추적할 수 있습니다.
 
@@ -38,7 +40,7 @@ ht-degree: 4%
 
 * **취소**
 
-   **[!UICONTROL Cancel]** 단추를 클릭합니다.진행 중인 작업이 취소되었습니다.
+   **[!UICONTROL Cancel]** 단추를 클릭합니다. 진행 중인 작업이 취소되었습니다.
 
 * **취소 진행 중**
 
@@ -46,11 +48,11 @@ ht-degree: 4%
 
 * **일시 정지 진행 중**
 
-   **[!UICONTROL Pause]** 클릭:작업이 일시 중단되었습니다.
+   **[!UICONTROL Pause]** 클릭: 작업이 일시 중단되었습니다.
 
 * **일시 중지됨**
 
-   **[!UICONTROL Pause]** 클릭:작업이 일시 중단되었습니다. **[!UICONTROL Start]** 을 클릭하여 다시 시작할 수 있습니다.
+   **[!UICONTROL Pause]** 클릭: 작업이 일시 중단되었습니다. **[!UICONTROL Start]** 을 클릭하여 다시 시작할 수 있습니다.
 
 * **완료됨**
 

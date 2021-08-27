@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: 8c47027099559549320abf68016386cc85dcda5a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 파일 전송{#file-transfer}
+
+![](../../assets/common.svg)
 
 **파일 전송** 활동을 사용하면 파일을 받거나 보내고, 파일이 있는지 테스트하거나, 서버에서 파일을 나열할 수 있습니다. 사용되는 프로토콜은 Azure Blob Storage, Amazon Simple Storage Service(S3), FTP 또는 SFTP입니다.
 S3, Azure Blob 저장 공간 또는 SFTP 연결을 통해 Adobe 실시간 고객 데이터 플랫폼을 통해 Adobe Campaign으로 세그먼트 데이터를 가져올 수도 있습니다. 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html)를 참조하십시오.
@@ -71,7 +73,7 @@ S3, Azure Blob 저장 공간 또는 SFTP 연결을 통해 Adobe 실시간 고객
 모든 파일 전송 옵션에 대해 두 가지 가능한 옵션이 있습니다.
 
 * **[!UICONTROL Process missing file]** 옵션은 지정된 디렉토리에 파일이 없을 경우 활성화되는 전환을 추가합니다.
-* **[!UICONTROL Process errors]** 옵션은 [처리 오류](../../workflow/using/monitoring-workflow-execution.md#processing-errors)에 자세히 설명되어 있습니다.
+* **[!UICONTROL Process errors]** 옵션은 [처리 오류](monitoring-workflow-execution.md#processing-errors)에 자세히 설명되어 있습니다.
 
 **[!UICONTROL Advanced parameters...]** 링크를 통해 다음 옵션에 액세스할 수 있습니다.
 
@@ -93,7 +95,7 @@ S3, Azure Blob 저장 공간 또는 SFTP 연결을 통해 Adobe 실시간 고객
 
    데이터 전송에 사용할 연결 포트를 지정할 수 있습니다.
 
-**[!UICONTROL File historization settings...]** 링크는 [웹 다운로드](../../workflow/using/web-download.md)(**[!UICONTROL File historization]** 단계)에 설명된 옵션에 액세스할 수 있습니다.
+**[!UICONTROL File historization settings...]** 링크는 [웹 다운로드](web-download.md)(**[!UICONTROL File historization]** 단계)에 설명된 옵션에 액세스할 수 있습니다.
 
 ## 입력 매개 변수 {#input-parameters}
 

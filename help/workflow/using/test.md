@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 테스트{#test}
+
+![](../../assets/common.svg)
 
 **테스트** 유형 활동은 연결된 조건을 충족하는 첫 번째 전환을 활성화합니다. 충족된 조건이 없고 **[!UICONTROL Use the default fork]** 옵션이 활성화된 경우, 기본 전환이 활성화됩니다.
 
@@ -23,7 +25,7 @@ ht-degree: 5%
 
 워크플로우 JavaScript를 통해 액세스할 수 있는 애플리케이션 서버의 모든 추가 JavaScript 함수 및 SOAP 메서드에 대한 자세한 내용은 [JSAPI 설명서](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)를 참조하십시오.
 
-이 편집기에서 직접 변수를 삽입할 수도 있습니다. 변수를 사용하는 방법에 대한 자세한 내용은 [이 섹션](../../workflow/using/javascript-scripts-and-templates.md#variables)을 참조하십시오.
+이 편집기에서 직접 변수를 삽입할 수도 있습니다. 변수를 사용하는 방법에 대한 자세한 내용은 [이 섹션](javascript-scripts-and-templates.md#variables)을 참조하십시오.
 
 활동 속성 편집 창에서 조건을 추가, 삭제 또는 정렬할 수 있지만 전환에서 수정할 수도 있습니다.
 

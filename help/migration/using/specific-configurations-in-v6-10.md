@@ -6,7 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 63e515c8-4391-412e-a1ba-2444f47aa7fd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 12%
@@ -15,9 +15,11 @@ ht-degree: 12%
 
 # v6.10의 특정 구성{#specific-configurations-in-v6-10}
 
+![](../../assets/v7-only.svg)
+
 보안을 최적화하기 위해 Adobe Campaign v7에서 특정 개선 사항이 수행되었습니다.
 
-6.10 플랫폼에서 마이그레이션하고 클라이언트 콘솔이 8104 빌드보다 오래된 경우 업데이트해야 합니다. 마이그레이션하기 전에 이 작업이 수행되지 않으면 다시 연결할 때 클라이언트 콘솔을 업데이트하라는 메시지가 표시됩니다. **[!UICONTROL Yes]**&#x200B;을(를) 클릭합니다.
+6.10 플랫폼에서 마이그레이션하고 클라이언트 콘솔이 8104 빌드보다 오래된 경우 업데이트해야 합니다. 마이그레이션하기 전에 이 작업이 수행되지 않으면 다시 연결할 때 클라이언트 콘솔을 업데이트하라는 메시지가 표시됩니다. **[!UICONTROL Yes]**&#x200B;를 클릭합니다.
 
 >[!IMPORTANT]
 >

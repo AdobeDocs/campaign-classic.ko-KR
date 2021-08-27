@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 7%
@@ -14,6 +14,8 @@ ht-degree: 7%
 ---
 
 # 스키마 참조 정보{#about-schema-reference}
+
+![](../../assets/v7-only.svg)
 
 이 장에서는 Adobe Campaign 데이터베이스의 개념적 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법에 대해 설명합니다.
 
@@ -74,7 +76,7 @@ Campaign 기본 제공 테이블 및 상호 작용에 대한 자세한 내용은
 
 네임스페이스를 사용하면 일련의 스키마를 관심 영역별로 그룹화할 수 있습니다. 예를 들어 **cus** 네임스페이스는 고객별 구성(**customers**)에 사용됩니다.
 
-스키마의 ID 키는 네임스페이스와 콜론으로 구분하여 이름을 사용하여 작성된 문자열입니다.예:**cus:recipient**.
+스키마의 ID 키는 네임스페이스와 콜론으로 구분하여 이름을 사용하여 작성된 문자열입니다. 예: **cus:recipient**.
 
 >[!IMPORTANT]
 >
@@ -82,5 +84,5 @@ Campaign 기본 제공 테이블 및 상호 작용에 대한 자세한 내용은
 >
 >식별자는 숫자 문자로 시작하면 안 됩니다.
 >
->다음 네임스페이스는 Adobe Campaign 애플리케이션 작업에 필요한 시스템 엔터티에 대한 설명을 위해 예약되어 있으므로 사용하지 않아야 합니다.**xtk**, **nl**, **nms**, **ncm**, **temp**, **ncl**, **crm**, **xxl**
+>다음 네임스페이스는 Adobe Campaign 애플리케이션 작업에 필요한 시스템 엔터티에 대한 설명을 위해 예약되어 있으므로 사용하지 않아야 합니다. **xtk**, **nl**, **nms**, **ncm**, **temp**, **ncl**, **crm**, **xxl**
 

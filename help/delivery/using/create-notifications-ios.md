@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # iOS용 알림 만들기{#create-notifications-ios}
+
+![](../../assets/common.svg)
 
 이 섹션에서는 iOS 알림 전달과 관련된 요소에 대해 자세히 설명합니다. 게재 만들기에 대한 글로벌 개념은 [이 섹션](steps-about-delivery-creation-steps.md)에 나와 있습니다.
 
@@ -43,7 +45,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 수행하십
 
    ![](assets/nmac_delivery_ios_3.png)
 
-1. 알림 유형을 선택합니다.**[!UICONTROL Alert]**, **[!UICONTROL Badge]**, **[!UICONTROL Alert and badge]** 또는 **[!UICONTROL Silent Push]**.
+1. 알림 유형을 선택합니다. **[!UICONTROL Alert]**, **[!UICONTROL Badge]**, **[!UICONTROL Alert and badge]** 또는 **[!UICONTROL Silent Push]**.
 
    ![](assets/nmac_delivery_ios_4.png)
 
@@ -72,7 +74,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 수행하십
    >
    >사운드는 응용 프로그램에 포함되고 서비스를 만들 때 정의해야 합니다. [이 섹션](configuring-the-mobile-application.md#configuring-external-account-ios)을 참조하십시오.
 
-1. **[!UICONTROL Application variables]** 필드에 각 변수의 값을 입력합니다. 애플리케이션 변수를 사용하면 알림 동작을 정의할 수 있습니다.예를 들어 사용자가 알림을 활성화하면 표시되는 특정 애플리케이션 화면을 구성할 수 있습니다.
+1. **[!UICONTROL Application variables]** 필드에 각 변수의 값을 입력합니다. 애플리케이션 변수를 사용하면 알림 동작을 정의할 수 있습니다. 예를 들어 사용자가 알림을 활성화하면 표시되는 특정 애플리케이션 화면을 구성할 수 있습니다.
 
    >[!NOTE]
    >
@@ -105,7 +107,7 @@ iOS 10 이상을 사용하면 풍부한 알림을 생성할 수 있습니다. Ad
 
 1. **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**(으)로 이동합니다.
 
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
    ![](assets/nmac_android_3.png)
 

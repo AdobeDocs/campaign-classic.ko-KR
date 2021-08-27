@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 아웃바운드 채널 정보{#about-outbound-channels}
+
+![](../../assets/v7-only.svg)
 
 오퍼는 인바운드 또는 아웃바운드 채널을 사용하여 다양한 공간에 표시할 수 있습니다. 이 장에서는 아웃바운드 채널에 대해 자세히 설명합니다.
 

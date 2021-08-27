@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 5%
@@ -15,15 +15,17 @@ ht-degree: 5%
 
 # 게재 유효성 검사 {#validating-the-delivery}
 
+![](../../assets/common.svg)
+
 게재를 만들고 구성한 경우 기본 타겟으로 보내기 전에 유효성 검사를 해야 합니다.
 
 방법은 다음과 같습니다.
 
-1. **게재를 분석합니다**.이 단계에서는 전달할 메시지를 준비할 수 있습니다. [자세히 알아보기](#analyzing-the-delivery)
+1. **게재를 분석합니다**. 이 단계에서는 전달할 메시지를 준비할 수 있습니다. [자세히 알아보기](#analyzing-the-delivery)
 
    분석 중에 적용된 규칙은 [이 섹션](#validation-process-with-typologies)에 나와 있습니다. 사용 가능한 유효성 검사 모드는 [승인 모드 변경](#changing-the-approval-mode) 섹션에 자세히 설명되어 있습니다.
 
-1. **증명 보내기**:이 단계에서는 컨텐츠, URL, 개인화 등을 제어할 수 있습니다. [증명 보내기](steps-validating-the-delivery.md#sending-a-proof) 및 [특정 증명 대상 정의](steps-defining-the-target-population.md#defining-a-specific-proof-target)에서 자세히 알아보십시오.
+1. **증명 보내기**: 이 단계에서는 컨텐츠, URL, 개인화 등을 제어할 수 있습니다. [증명 보내기](steps-validating-the-delivery.md#sending-a-proof) 및 [특정 증명 대상 정의](steps-defining-the-target-population.md#defining-a-specific-proof-target)에서 자세히 알아보십시오.
 
 >[!IMPORTANT]
 >
@@ -89,13 +91,13 @@ ht-degree: 5%
 
 이 탭에서는 다음 옵션에 액세스할 수 있습니다.
 
-* **[!UICONTROL Label and code of the delivery]** :이 섹션의 옵션은 게재 분석 단계 동안 이러한 필드의 값을 계산하는 데 사용됩니다. **[!UICONTROL Compute the execution folder during the delivery analysis]** 필드는 분석 단계 동안 이 게재 작업을 포함할 폴더의 이름을 계산합니다.
-* **[!UICONTROL Approval mode]** :이 필드를 사용하면 분석이 완료되면 수동 또는 자동 배달을 정의할 수 있습니다. 검증 모드는 [승인 모드 변경](#changing-the-approval-mode) 섹션에 나와 있습니다.
-* **[!UICONTROL Prepare the delivery parts in the database]** :이 옵션을 사용하면 게재 분석 성능을 향상시킬 수 있습니다. 자세한 내용은 [이 섹션](#improving-delivery-analysis)을 참조하십시오.
-* **[!UICONTROL Prepare the personalization data with a workflow]** :이 옵션을 사용하면 자동 워크플로우에서 게재에 포함된 개인화 데이터를 준비할 수 있으므로 개인화 실행을 위한 상당한 성능 향상을 달성할 수 있습니다. 자세한 내용은 [개인화 최적화](personalization-fields.md#optimizing-personalization)를 참조하십시오.
-* **[!UICONTROL Start job in a detached process]** :이 옵션을 사용하면 별도의 프로세스에서 게재 분석을 시작할 수 있습니다. 분석 함수는 기본적으로 Adobe Campaign 애플리케이션 서버 프로세스(웹 nlserver)를 사용합니다. 이 옵션을 선택하면 애플리케이션 서버 장애 시에도 분석이 완료됩니다.
-* **[!UICONTROL Log SQL queries generated during the analysis in the journal]** :이 옵션은 분석 단계 동안 게재 저널에 SQL 쿼리 로그를 추가합니다.
-* **[!UICONTROL Ignore personalization scripts during sending]** :이 옵션을 사용하면 HTML 컨텐츠에 있는 JavaScript 지시문의 해석을 무시할 수 있습니다. 전달된 컨텐츠에 그대로 표시됩니다. 이러한 지시문은 **&lt;%=** 태그와 함께 도입됩니다.
+* **[!UICONTROL Label and code of the delivery]** : 이 섹션의 옵션은 게재 분석 단계 동안 이러한 필드의 값을 계산하는 데 사용됩니다. **[!UICONTROL Compute the execution folder during the delivery analysis]** 필드는 분석 단계 동안 이 게재 작업을 포함할 폴더의 이름을 계산합니다.
+* **[!UICONTROL Approval mode]** : 이 필드를 사용하면 분석이 완료되면 수동 또는 자동 배달을 정의할 수 있습니다. 검증 모드는 [승인 모드 변경](#changing-the-approval-mode) 섹션에 나와 있습니다.
+* **[!UICONTROL Prepare the delivery parts in the database]** : 이 옵션을 사용하면 게재 분석 성능을 향상시킬 수 있습니다. 자세한 내용은 [이 섹션](#improving-delivery-analysis)을 참조하십시오.
+* **[!UICONTROL Prepare the personalization data with a workflow]** : 이 옵션을 사용하면 자동 워크플로우에서 게재에 포함된 개인화 데이터를 준비할 수 있으므로 개인화 실행을 위한 상당한 성능 향상을 달성할 수 있습니다. 자세한 내용은 [개인화 최적화](personalization-fields.md#optimizing-personalization)를 참조하십시오.
+* **[!UICONTROL Start job in a detached process]** : 이 옵션을 사용하면 별도의 프로세스에서 게재 분석을 시작할 수 있습니다. 분석 함수는 기본적으로 Adobe Campaign 애플리케이션 서버 프로세스(웹 nlserver)를 사용합니다. 이 옵션을 선택하면 애플리케이션 서버 장애 시에도 분석이 완료됩니다.
+* **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : 이 옵션은 분석 단계 동안 게재 저널에 SQL 쿼리 로그를 추가합니다.
+* **[!UICONTROL Ignore personalization scripts during sending]** : 이 옵션을 사용하면 HTML 컨텐츠에 있는 JavaScript 지시문의 해석을 무시할 수 있습니다. 전달된 컨텐츠에 그대로 표시됩니다. 이러한 지시문은 **&lt;%=** 태그와 함께 도입됩니다.
 
 ### 게재 분석 성능 개선 {#improving-delivery-analysis}
 
@@ -135,7 +137,6 @@ ht-degree: 5%
 >* 증명 타겟의 구성은 [특정 증명 대상을 정의합니다](steps-defining-the-target-population.md#defining-a-specific-proof-target)에 설명되어 있습니다.
 
 >
-
 
 
 증명을 보내려면 아래 단계를 따르십시오.
@@ -195,7 +196,7 @@ ht-degree: 5%
 
 이 노드에서 새 규칙을 만들고 새 유형화를 정의할 수 있습니다. 하지만 이러한 작업은 JavaScript를 알고 있는 전문가 사용자를 위해 예약되어 있습니다.
 
-유형화 규칙에 대한 자세한 정보는 [이 페이지](../../campaign/using/about-campaign-typologies.md)를 참조하십시오.
+유형화 규칙에 대한 자세한 정보는 [이 페이지](../../campaign-opt/using/about-campaign-typologies.md)를 참조하십시오.
 
 현재 유형화를 편집하려면 **[!UICONTROL Typology]** 필드 오른쪽에 있는 **[!UICONTROL Edit link]** 아이콘을 클릭합니다.
 
@@ -211,7 +212,7 @@ ht-degree: 5%
 
 ## 승인 모드 변경 {#changing-the-approval-mode}
 
-게재 속성의 **[!UICONTROL Analysis]** 탭에서는 유효성 검사 모드를 선택할 수 있습니다. 분석 중에 경고가 생성된 경우(예: 특정 문자가 게재의 주체에 입력되는 경우 등) 게재를 구성하여 여전히 실행해야 하는지 여부를 정의할 수 있습니다. 기본적으로 사용자는 분석 단계가 끝날 때 메시지 전송을 확인해야 합니다.**수동** 유효성 검사입니다.
+게재 속성의 **[!UICONTROL Analysis]** 탭에서는 유효성 검사 모드를 선택할 수 있습니다. 분석 중에 경고가 생성된 경우(예: 특정 문자가 게재의 주체에 입력되는 경우 등) 게재를 구성하여 여전히 실행해야 하는지 여부를 정의할 수 있습니다. 기본적으로 사용자는 분석 단계가 끝날 때 메시지 전송을 확인해야 합니다. **수동** 유효성 검사입니다.
 
 해당 필드의 드롭다운 목록에서 다른 승인 모드를 선택합니다.
 
@@ -219,6 +220,6 @@ ht-degree: 5%
 
 다음 승인 모드를 사용할 수 있습니다.
 
-* **[!UICONTROL Manual]**:분석 단계가 끝날 때 사용자는 게재를 확인하여 전송을 시작해야 합니다. 이렇게 하려면 **[!UICONTROL Start]** 버튼을 클릭하여 게재를 시작합니다.
-* **[!UICONTROL Semi-automatic]**:분석 단계에서 경고 메시지가 생성되지 않으면 전송이 자동으로 시작됩니다.
-* **[!UICONTROL Automatic]**:전송은 결과와 관계없이 분석 단계가 끝날 때 자동으로 시작됩니다.
+* **[!UICONTROL Manual]**: 분석 단계가 끝날 때 사용자는 게재를 확인하여 전송을 시작해야 합니다. 이렇게 하려면 **[!UICONTROL Start]** 버튼을 클릭하여 게재를 시작합니다.
+* **[!UICONTROL Semi-automatic]**: 분석 단계에서 경고 메시지가 생성되지 않으면 전송이 자동으로 시작됩니다.
+* **[!UICONTROL Automatic]**: 전송은 결과와 관계없이 분석 단계가 끝날 때 자동으로 시작됩니다.

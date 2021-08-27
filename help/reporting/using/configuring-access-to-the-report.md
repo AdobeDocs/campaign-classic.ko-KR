@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 보고서에 대한 액세스 구성{#configuring-access-to-the-report}
+
+![](../../assets/common.svg)
 
 ## 보고서 표시 컨텍스트 {#report-display-context}
 
@@ -25,17 +27,17 @@ Adobe Campaign 플랫폼에서 보고서의 표시 컨텍스트를 **[!UICONTROL
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 
-* **[!UICONTROL Single selection]** :보고서는 특정 엔티티를 선택한 경우에만 액세스할 수 있습니다.
-* **[!UICONTROL Multiple selection]** :여러 엔티티를 선택하면 보고서에 액세스할 수 있습니다.
-* **[!UICONTROL Global]** :이 보고서는 탭의 사용 가능한 보고서 목록을 통해 액세스할 수  **[!UICONTROL Reports]** 있습니다.
+* **[!UICONTROL Single selection]** : 보고서는 특정 엔티티를 선택한 경우에만 액세스할 수 있습니다.
+* **[!UICONTROL Multiple selection]** : 여러 엔티티를 선택하면 보고서에 액세스할 수 있습니다.
+* **[!UICONTROL Global]** : 이 보고서는 탭의 사용 가능한 보고서 목록을 통해 액세스할 수  **[!UICONTROL Reports]** 있습니다.
 
-### 시퀀스 {#display-sequence} 표시
+### 표시 시퀀스 {#display-sequence}
 
 **[!UICONTROL Sequence]** 필드를 사용하면 목록에서 보고서의 표시 순서를 지정하는 숫자 값을 입력할 수 있습니다.
 
-기본적으로 보고서는 관련성에 따라 표시됩니다.이 필드에 입력한 값을 사용하면 관련 있는 가장 작은 값(가장 높은 값)에서 가장 작은 값(가장 높은 값)으로 보고서를 정렬할 수 있습니다.
+기본적으로 보고서는 관련성에 따라 표시됩니다. 이 필드에 입력한 값을 사용하면 관련 있는 가장 작은 값(가장 높은 값)에서 가장 작은 값(가장 높은 값)으로 보고서를 정렬할 수 있습니다.
 
-필요에 따라 사용할 스케일을 선택할 수 있습니다.1~10, 0~100, -10~10 등
+필요에 따라 사용할 스케일을 선택할 수 있습니다. 1~10, 0~100, -10~10 등
 
 ### 조건 표시 {#display-conditions}
 
@@ -49,7 +51,7 @@ Adobe Campaign 플랫폼에서 보고서의 표시 컨텍스트를 **[!UICONTROL
 
 즉, 캠페인의 기본 채널이 DM인 경우 캠페인 보고서에서 보고서를 사용할 수 없습니다.
 
-### 액세스 권한 {#access-authorization}
+### 권한 부여 액세스 {#access-authorization}
 
 보고서를 다른 연산자와 공유할 수 있습니다.
 
@@ -63,7 +65,7 @@ Adobe Campaign 플랫폼에서 보고서의 표시 컨텍스트를 **[!UICONTROL
 
 **[!UICONTROL Reports]** 탭에는 플랫폼에서 사용 가능한 모든 보고서가 표시되며, 연결된 연산자가 액세스 권한을 가지고 있습니다.
 
-기본적으로 관련성을 기준으로 정렬되지만 다른 유형의 필터를 적용할 수 있습니다.알파벳, 나이 등
+기본적으로 관련성을 기준으로 정렬되지만 다른 유형의 필터를 적용할 수 있습니다. 알파벳, 나이 등
 
 보고서 카테고리를 기반으로 표시를 필터링할 수도 있습니다.
 
@@ -75,7 +77,7 @@ Adobe Campaign 플랫폼에서 보고서의 표시 컨텍스트를 **[!UICONTROL
 
 여기에 새 카테고리를 입력하고 사용 가능한 카테고리 목록에 추가할 수 있습니다. 일치하는 열거형이 자동으로 업데이트됩니다.
 
-## 보고서 {#creating-a-link-to-a-report-} 링크 만들기
+## 보고서에 대한 링크 만들기 {#creating-a-link-to-a-report-}
 
 목록, 수신자, 게재 등과 같은 트리의 특정 노드를 통해 보고서에 액세스할 수 있도록 할 수 있습니다. 이렇게 하려면 관련 보고서에 대한 링크를 만들고 사용할 엔티티를 지정하기만 하면 됩니다.
 
@@ -101,7 +103,7 @@ Adobe Campaign 플랫폼에서 보고서의 표시 컨텍스트를 **[!UICONTROL
    ![](assets/s_ncs_advuser_report_wizard_link_04.png)
 
 1. 보고서를 게시합니다.
-1. 수신자 목록 중 하나로 이동하고 **[!UICONTROL Reports]** 링크를 클릭합니다.방금 만든 보고서에 액세스할 수 있습니다.
+1. 수신자 목록 중 하나로 이동하고 **[!UICONTROL Reports]** 링크를 클릭합니다. 방금 만든 보고서에 액세스할 수 있습니다.
 
    ![](assets/s_ncs_advuser_report_wizard_link_05.png)
 

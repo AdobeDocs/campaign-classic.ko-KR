@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -15,13 +15,15 @@ ht-degree: 0%
 
 # 교차{#intersection}
 
+![](../../assets/common.svg)
+
 **교차** 유형 활동은 수신한 대상의 교차 지점에서 대상을 만듭니다.
 
-교차 기능을 사용하면 모든 인바운드 활동 결과에 공통인 모집단만 추출할 수 있습니다. 수신한 모든 결과가 있는 대상이 만들어집니다.따라서 교차를 실행하기 전에 모든 이전 활동을 완료해야 합니다. 이 활동을 구성하려면 결과와 관련된 옵션뿐만 아니라 해당 활동에 대한 레이블을 입력해야 합니다.
+교차 기능을 사용하면 모든 인바운드 활동 결과에 공통인 모집단만 추출할 수 있습니다. 수신한 모든 결과가 있는 대상이 만들어집니다. 따라서 교차를 실행하기 전에 모든 이전 활동을 완료해야 합니다. 이 활동을 구성하려면 결과와 관련된 옵션뿐만 아니라 해당 활동에 대한 레이블을 입력해야 합니다.
 
 ![](assets/s_user_segmentation_inter.png)
 
-교차 활동 구성 및 사용에 대한 자세한 내용은 [연결 데이터 추출(교차)](../../workflow/using/targeting-data.md#extracting-joint-data--intersection-)을 참조하십시오.
+교차 활동 구성 및 사용에 대한 자세한 내용은 [연결 데이터 추출(교차)](targeting-data.md#extracting-joint-data--intersection-)을 참조하십시오.
 
 나머지 모집단을 처리하려면 **[!UICONTROL Generate complement]** 옵션을 선택합니다. 보완 작업에는 모든 인바운드 활동의 결과에서 교차를 제외한 모든 인바운드 활동의 결과가 포함됩니다. 그런 다음 다음과 같이 활동에 추가 아웃바운드 전환이 추가됩니다.
 
@@ -33,7 +35,7 @@ ht-degree: 0%
 
 1. 세 개의 간단한 쿼리 후에 **[!UICONTROL Intersection]** -type 활동을 삽입합니다.
 
-   이 예제에서는이 쿼리는 각각 18세에서 30세 사이의 남녀 수신자, 파리에 거주하는 수신자 및 18세에서 30세 사이의 수신자 등을 대상으로 합니다.
+   이 예제에서는 이 쿼리는 각각 18세에서 30세 사이의 남녀 수신자, 파리에 거주하는 수신자 및 18세에서 30세 사이의 수신자 등을 대상으로 합니다.
 
 1. 교차를 구성합니다. 이렇게 하려면 쿼리로 인한 모집단에 일관된 데이터가 포함되므로 **[!UICONTROL Keys only]** 조정 방법을 선택합니다.
 1. 쿼리에 대한 추가 데이터를 입력한 경우 관련 상자를 선택하여 수신자가 공유하는 데이터만 유지할 수 있습니다.

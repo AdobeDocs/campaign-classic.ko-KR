@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '3229'
 ht-degree: 37%
@@ -15,7 +15,9 @@ ht-degree: 37%
 
 # 필터 조건 정의{#defining-filter-conditions}
 
-## 연산자 {#choosing-the-operator} 선택
+![](../../assets/common.svg)
+
+## 연산자 선택 {#choosing-the-operator}
 
 필터링 조건 내에서 연산자를 사용하여 두 값을 함께 연결해야 합니다.
 
@@ -40,7 +42,7 @@ ht-degree: 37%
   <tr> 
    <td> <span class="uicontrol">보다 큼</span> <br /> </td> 
    <td> 입력한 값보다 큰 값을 반환합니다.<br /> </td> 
-   <td> <strong>나이(@age)이 50</strong>보다 큰 값은 '50'보다 큰 모든 값(즉,'51', '52' 등<br /> </td> 
+   <td> <strong>나이(@age)이 50</strong>보다 큰 값은 '50'보다 큰 모든 값(즉, '51', '52' 등<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">보다 작음</span> <br /> </td> 
@@ -115,7 +117,7 @@ ht-degree: 37%
  </tbody> 
 </table>
 
-## {#using-and--or--except} 이외의 AND 또는 를 사용하십시오.
+## AND 또는, 제외 {#using-and--or--except}
 
 여러 필터링 조건을 사용하는 쿼리의 경우 조건 사이에 링크를 정의해야 합니다. 다음 세 가지 가능한 링크가 있습니다.
 
@@ -127,20 +129,20 @@ ht-degree: 37%
 
 ![](assets/query_condition_modif_01.png)
 
-* **[!UICONTROL And]**:조건을 추가하고 오버필터링을 활성화합니다.
-* **[!UICONTROL Or]**:조건을 추가하고 오버필터링을 활성화합니다.
+* **[!UICONTROL And]**: 조건을 추가하고 오버필터링을 활성화합니다.
+* **[!UICONTROL Or]**: 조건을 추가하고 오버필터링을 활성화합니다.
 
    다음 예를 사용하면 이메일 도메인에 &quot;orange.co.uk&quot;이 포함되어 있거나 게시물 코드가 &quot;NW&quot;로 시작하는 수신자를 찾을 수 있습니다.
 
    ![](assets/query_condition_modif_02.png)
 
-* **[!UICONTROL Except]**:두 개의 필터가 있고 첫 번째 필터가 값을 반환하지 않는 경우, 이 유형의 링크는 예외를 만듭니다.
+* **[!UICONTROL Except]**: 두 개의 필터가 있고 첫 번째 필터가 값을 반환하지 않는 경우, 이 유형의 링크는 예외를 만듭니다.
 
    다음 예에서는 수신자의 성이 &quot;Smith&quot;인 경우를 제외하고 이메일 도메인에 &quot;orange.co.uk&quot;이 포함된 수신자를 반환하려고 합니다.
 
    ![](assets/query_condition_modif_03.png)
 
-다음 예에서는 을 표시할 수 있는 필터를 보여줍니다.스페인어를 하거나 또는 휴대폰 번호를 가진 여성 또는 계좌 번호가 없는 수신자이고 회사 이름이 &quot;N&quot;자로 시작하는 수신자
+다음 예에서는 을 표시할 수 있는 필터를 보여줍니다. 스페인어를 하거나 또는 휴대폰 번호를 가진 여성 또는 계좌 번호가 없는 수신자이고 회사 이름이 &quot;N&quot;자로 시작하는 수신자
 
 ![](assets/query_editor_nveau_31.png)
 
@@ -155,7 +157,7 @@ ht-degree: 37%
 
 * 세로 화살표를 사용하면 조건을 이동하여 실행 순서를 변경할 수 있습니다.
 
-다음 예제에서는 화살표를 사용하여 괄호 레벨을 삭제하는 방법을 보여 줍니다. 다음 필터링 조건에서 시작합니다.**[!UICONTROL City equal to London OR gender equal to male and mobile not indicated OR account # starts with "95" and company name starts with "A"]**
+다음 예제에서는 화살표를 사용하여 괄호 레벨을 삭제하는 방법을 보여 줍니다. 다음 필터링 조건에서 시작합니다. **[!UICONTROL City equal to London OR gender equal to male and mobile not indicated OR account # starts with "95" and company name starts with "A"]**
 
 **[!UICONTROL Gender (@gender) equal to Male]** 필터링 조건에 커서를 놓고 **[!UICONTROL Remove a parenthesis level]** 화살표를 클릭합니다.
 
@@ -163,7 +165,7 @@ ht-degree: 37%
 
 **[!UICONTROL Gender (@gender) equal to Male]** 조건이 괄호에서 제거되었습니다. 그것은 &quot;런던과 동일한 도시&quot; 조건과 같은 수준으로 이동했다. 이러한 조건은 함께 연결됩니다(**[!UICONTROL And]**).
 
-## 데이터를 선택하여 {#selecting-data-to-extract} 추출
+## 추출할 데이터 선택 {#selecting-data-to-extract}
 
 사용 가능한 필드는 테이블마다 다릅니다. 모든 필드는 **[!UICONTROL Main element]**&#x200B;이라는 주 노드에 저장됩니다. 다음 예에서는 사용 가능한 필드가 수신자 테이블에 있습니다. 필드는 항상 알파벳순으로 표시됩니다.
 
@@ -225,7 +227,7 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_50.png" /> </td> 
-   <td> 인덱싱된 SQL 필드.<br /> </td> 
+   <td> 인덱싱된 SQL 필드. <br /> </td> 
    <td> 전체 이름, ISO 코드 등 <br /> </td> 
   </tr> 
  </tbody> 
@@ -265,25 +267,25 @@ ht-degree: 37%
 
 ## 계산된 필드 만들기 {#creating-calculated-fields}
 
-필요한 경우 데이터 형식 지정 중에 열을 추가합니다. 계산된 필드가 데이터 미리 보기 섹션에 열을 추가합니다. **[!UICONTROL Add a calculated field]**&#x200B;을(를) 클릭합니다.
+필요한 경우 데이터 형식 지정 중에 열을 추가합니다. 계산된 필드가 데이터 미리 보기 섹션에 열을 추가합니다. **[!UICONTROL Add a calculated field]**&#x200B;를 클릭합니다.
 
 ![](assets/query_editor_nveau_43.png)
 
 다음 네 가지 유형의 계산된 필드가 있습니다.
 
-* **[!UICONTROL Fixed string]**:문자열을 추가할 수 있습니다.
+* **[!UICONTROL Fixed string]**: 문자열을 추가할 수 있습니다.
 
    ![](assets/query_editor_nveau_60.png)
 
-* **[!UICONTROL String with JavaScript tags]**:계산된 필드의 값은 문자열과 JavaScript 지시어를 결합합니다.
+* **[!UICONTROL String with JavaScript tags]**: 계산된 필드의 값은 문자열과 JavaScript 지시어를 결합합니다.
 
    ![](assets/query_editor_nveau_61.png)
 
-* **[!UICONTROL JavaScript expression]**:계산된 필드의 값은 JavaScript 함수 평가의 결과입니다. 반환된 값을 입력할 수 있습니다(숫자, 날짜 등).
+* **[!UICONTROL JavaScript expression]**: 계산된 필드의 값은 JavaScript 함수 평가의 결과입니다. 반환된 값을 입력할 수 있습니다(숫자, 날짜 등).
 
    ![](assets/query_editor_nveau_62.png)
 
-* **[!UICONTROL Enumerations]**:이 유형의 필드를 사용하면 새 열에 있는 출력 열 중 하나의 컨텐츠를 사용/수정할 수 있습니다.
+* **[!UICONTROL Enumerations]**: 이 유형의 필드를 사용하면 새 열에 있는 출력 열 중 하나의 컨텐츠를 사용/수정할 수 있습니다.
 
    열의 소스 값을 사용하여 대상 값을 지정할 수 있습니다. 이 대상 값은 새 출력 열에 표시됩니다.
 
@@ -304,7 +306,7 @@ ht-degree: 37%
 
 ![](assets/query_editor_nveau_58.png)
 
-## 표현식 {#building-expressions} 작성
+## 표현식 작성 {#building-expressions}
 
 표현식 편집 도구를 사용하여 합계를 계산하거나, 함수를 생성하거나, 표현식을 사용하여 수식을 편집할 수 있습니다.
 
@@ -314,9 +316,9 @@ ht-degree: 37%
 
 1. **[!UICONTROL Data to extract]** 창에서 **[!UICONTROL Add]** 을 클릭합니다. **[!UICONTROL Formula type]** 창에서 수식 유형을 선택하여 표현식을 입력합니다.
 
-   사용 가능한 공식 유형은 다음과 같습니다.**[!UICONTROL Field only]**, **[!UICONTROL Aggregate]**, **[!UICONTROL Expression]**.
+   사용 가능한 공식 유형은 다음과 같습니다. **[!UICONTROL Field only]**, **[!UICONTROL Aggregate]**, **[!UICONTROL Expression]**.
 
-   **[!UICONTROL Process on an aggregate function]** 및 **[!UICONTROL Count]** 을 선택합니다.**[!UICONTROL Next]** 를 클릭합니다.
+   **[!UICONTROL Process on an aggregate function]** 및 **[!UICONTROL Count]** 을 선택합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
 
    ![](assets/query_editor_nveau_54.png)
 
@@ -347,7 +349,7 @@ ht-degree: 37%
 
 ## 함수 목록 {#list-of-functions}
 
-**[!UICONTROL Expression]** 유형 수식을 선택하면 &quot;표현식 편집&quot; 창으로 이동합니다. 사용 가능한 필드에 다양한 함수 카테고리를 연결할 수 있습니다.**[!UICONTROL Aggregates]**, **[!UICONTROL String]**, **[!UICONTROL Date]**, **[!UICONTROL Numerical]**, **[!UICONTROL Currency]**, **[!UICONTROL Geomarketing]**, **[!UICONTROL Windowing function]** 및 **[!UICONTROL Others]**.
+**[!UICONTROL Expression]** 유형 수식을 선택하면 &quot;표현식 편집&quot; 창으로 이동합니다. 사용 가능한 필드에 다양한 함수 카테고리를 연결할 수 있습니다. **[!UICONTROL Aggregates]**, **[!UICONTROL String]**, **[!UICONTROL Date]**, **[!UICONTROL Numerical]**, **[!UICONTROL Currency]**, **[!UICONTROL Geomarketing]**, **[!UICONTROL Windowing function]** 및 **[!UICONTROL Others]**.
 
 표현식 편집기는 다음과 같습니다.
 

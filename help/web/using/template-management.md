@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 69805e60-8fc6-45d1-9087-5f7d949cc76a
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 템플릿 관리{#template-management}
+
+![](../../assets/common.svg)
 
 디지털 컨텐츠 편집기는 웹 애플리케이션 및 게재에 대한 **표준 템플릿**&#x200B;을 제공합니다.
 

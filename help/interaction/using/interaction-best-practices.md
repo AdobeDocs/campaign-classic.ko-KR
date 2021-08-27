@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 98413cde-50c9-416c-8316-85837f724c27
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 상호 작용 모범 사례{#interaction-best-practices}
+
+![](../../assets/v7-only.svg)
 
 ## 일반 권장 사항 {#general-recommendations}
 
@@ -49,12 +51,12 @@ Adobe Campaign에서 상호 작용하려면 효율적으로 작동하도록 신�
 다음은 제안 표와 관련된 몇 가지 우수 사례 목록입니다.
 
 * 가능한 한 빨리 처리하려면 최소 수의 규칙을 사용하십시오.
-* 제안 테이블에 있는 레코드 수를 제한합니다.상태 업데이트를 추적하는 데 필요한 레코드와 규칙에 필요한 레코드만 보관하고 다른 시스템에 보관합니다.
+* 제안 테이블에 있는 레코드 수를 제한합니다. 상태 업데이트를 추적하는 데 필요한 레코드와 규칙에 필요한 레코드만 보관하고 다른 시스템에 보관합니다.
 * 인덱스 재구축이나 테이블 재생성과 같이 제안 테이블에서 데이터베이스 유지 관리를 집중적으로 수행합니다.
 * 대상당 필요한 제안 수를 제한합니다. 실제로 사용할 것 이상을 설정하지 마십시오.
 * 규칙 기준에서 가능한 한 조인을 사용하지 마십시오.
 
-## 오퍼 관리 팁과 트릭 {#tips-managing-offers}
+## 오퍼 관리에 대한 팁과 트릭 {#tips-managing-offers}
 
 이 섹션에서는 오퍼를 관리하고 Adobe Campaign Classic에서 상호 작용 모듈을 사용하는 방법에 대한 자세한 조언을 제공합니다.
 
@@ -74,17 +76,17 @@ Adobe Campaign에서 상호 작용하려면 효율적으로 작동하도록 신�
 
 ![](assets/Interaction-best-practices-HTML-rendering.png)
 
-이 함수는 다음과 같은 코드를 삽입합니다.`<%@ include proposition="targetData.proposition" view="rendering/html" %>`
+이 함수는 다음과 같은 코드를 삽입합니다. `<%@ include proposition="targetData.proposition" view="rendering/html" %>`
 
 제안을 선택하면 **[!UICONTROL view]** 속성의 값은 다음과 같습니다.
-* &quot;rendering/html&quot;:html 렌더링. HTML 렌더링 기능을 사용합니다.
-* &quot;offer/view/html&quot;:html 콘텐츠. HTML 렌더링 함수를 사용하지 않습니다. 여기에는 HTML 필드만 포함됩니다.
+* &quot;rendering/html&quot;: html 렌더링. HTML 렌더링 기능을 사용합니다.
+* &quot;offer/view/html&quot;: html 콘텐츠. HTML 렌더링 함수를 사용하지 않습니다. 여기에는 HTML 필드만 포함됩니다.
 
 단일 이메일 게재에 여러 오퍼 공백을 포함하고, 일부 오퍼에 렌더링 기능이 있고 일부 오퍼에는 렌더링 기능이 없는 경우, 어떤 오퍼에서 어느 오퍼 공간을 사용하고 어떤 오퍼 공간에는 렌더링 기능이 있는지 기억해야 합니다.
 
 따라서 문제를 방지하려면 오퍼 공간에 HTML 콘텐츠만 필요한 경우에도 모든 오퍼 공간에 HTML 렌더링 기능이 정의된 것이 좋습니다.
 
-### 제안 로그 테이블 {#rank-proposition-log-table}에서 순위 설정
+### 제안 로그 표에서 등급 설정 {#rank-proposition-log-table}
 
 오퍼 공백은 proposition이 생성되거나 수락될 때 제안 테이블에 데이터를 저장할 수 있습니다.
 
@@ -118,7 +120,7 @@ Adobe Campaign에서 상호 작용하려면 효율적으로 작동하도록 신�
 
 ![](assets/Interaction-best-practices-manual-offer-combined.png)
 
-### nms:offer 스키마 {#extending-nms-offer-schema} 확장
+### nms:오퍼 스키마 확장 {#extending-nms-offer-schema}
 
 nms:offer 스키마를 확장할 때는 이미 설정된 기본 구조를 따라야 합니다.
 * `<element name="view">` 아래에 컨텐츠 저장소에 대한 새 필드를 정의합니다.

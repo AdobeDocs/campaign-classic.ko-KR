@@ -6,16 +6,18 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# 워크플로우 {#step-4--configuring-the-deliveries-in-the-workflow}에서 게재 구성
+# 워크플로우에서 게재 구성 {#step-4--configuring-the-deliveries-in-the-workflow}
 
-[모집단이 만들어지면](a-b-testing-uc-population-samples.md) 게재를 구성할 수 있습니다. 이 사용 사례에서 처음 두 게재를 사용하면 모집단 A와 B로 다른 콘텐츠를 전송할 수 있습니다. 세 번째 게재는 폴백 게재입니다.A 또는 B에 속하지 않는 수신자에게 전송됩니다. 해당 컨텐츠는 스크립트로 계산되며, 어떤 점수가 가장 높은 공개 비율에 따라 A 또는 B와 동일합니다. 게재 A와 B의 결과를 확인하려면 세 번째 게재에 대한 대기 기간을 구성해야 합니다. 세 번째 게재에 **[!UICONTROL Wait]** 활동이 포함된 이유입니다.
+![](../../assets/common.svg)
+
+[모집단이 만들어지면](a-b-testing-uc-population-samples.md) 게재를 구성할 수 있습니다. 이 사용 사례에서 처음 두 게재를 사용하면 모집단 A와 B로 다른 콘텐츠를 전송할 수 있습니다. 세 번째 게재는 폴백 게재입니다. A 또는 B에 속하지 않는 수신자에게 전송됩니다. 해당 컨텐츠는 스크립트로 계산되며, 어떤 점수가 가장 높은 공개 비율에 따라 A 또는 B와 동일합니다. 게재 A와 B의 결과를 확인하려면 세 번째 게재에 대한 대기 기간을 구성해야 합니다. 세 번째 게재에 **[!UICONTROL Wait]** 활동이 포함된 이유입니다.
 
 1. **[!UICONTROL Split]** 활동으로 이동하고 모집단 A로 지정되는 전환을 워크플로우에 이미 있는 이메일 게재 중 하나에 연결합니다.
 

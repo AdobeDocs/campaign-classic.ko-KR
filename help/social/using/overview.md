@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 263e5ffe-9302-4823-a814-fdc955e3f90a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 개요{#overview}
+
+![](../../assets/v7-only.svg)
 
 Social Marketing을 사용하면 수신자 프로필이 아니라 다양한 Facebook 페이지 및 Twitter 계정에 게재를 보낼 수 있습니다. facebook에서 게재 컨텐츠는 페이지 벽에 게시물 형태로 표시되며 모든 페이지 팬의 뉴스 피드에도 표시됩니다. twitter 시 게재 컨텐츠가 트윗으로 표시되고 계정 팔로워의 홈 페이지에 표시됩니다. 사용자가 수집하는 계정 팔로워에게 직접 메시지를 보낼 수도 있습니다.
 

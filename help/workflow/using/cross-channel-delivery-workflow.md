@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 3%
@@ -15,7 +15,9 @@ ht-degree: 3%
 
 # 크로스 채널 게재 워크플로우{#cross-channel-delivery-workflow}
 
-이 사용 사례에서는 채널 간 게재 워크플로우와 관련된 예를 제공합니다. 크로스 채널 게재에 대한 일반적인 개념은 [이 섹션에 나와 있습니다](../../workflow/using/cross-channel-deliveries.md).
+![](../../assets/common.svg)
+
+이 사용 사례에서는 채널 간 게재 워크플로우와 관련된 예를 제공합니다. 크로스 채널 게재에 대한 일반적인 개념은 [이 섹션에 나와 있습니다](cross-channel-deliveries.md).
 
 목표는 데이터베이스의 수신자로부터 대상자를 다른 그룹으로 세분화하여 그룹에 전자 메일을 보내고 다른 그룹에 SMS 메시지를 보내는 것입니다.
 
@@ -31,12 +33,12 @@ ht-degree: 3%
 
 ![](assets/wkf_cross-channel_7.png)
 
-## 1단계:대상 {#step-1--targeting-the-audience} 타겟팅
+## 1단계: 대상자 타겟팅 {#step-1--targeting-the-audience}
 
 대상을 정의하려면 수신자를 식별하는 쿼리를 만듭니다.
 
 1. 캠페인 만들기. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
-1. 캠페인의 **[!UICONTROL Targeting and workflows]** 탭에서 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 정보는 [이 섹션](../../workflow/using/query.md)을 참조하십시오.
+1. 캠페인의 **[!UICONTROL Targeting and workflows]** 탭에서 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 정보는 [이 섹션](query.md)을 참조하십시오.
 1. 게재를 받을 수신자를 정의합니다. 예를 들어 &#39;골드&#39; 멤버를 대상 차원으로 선택합니다.
 1. 쿼리에 필터링 조건을 추가합니다. 이 예제에서는 이메일 주소와 모바일 번호가 있는 수신자를 선택합니다.
 
@@ -44,7 +46,7 @@ ht-degree: 3%
 
 1. 변경 내용을 저장합니다.
 
-## 2단계:오퍼 {#step-2--creating-an-email-including-an-offer}를 포함하는 이메일 만들기
+## 2단계: 오퍼가 포함된 이메일 만들기 {#step-2--creating-an-email-including-an-offer}
 
 1. **[!UICONTROL Email delivery]** 활동을 만들고 워크플로우에서 두 번 클릭하여 편집합니다. 전자 메일 만들기에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-email-channel.md)을 참조하십시오.
 1. 메시지를 디자인하고 오퍼가 포함된 링크를 컨텐츠에 삽입합니다.
@@ -65,11 +67,11 @@ ht-degree: 3%
 
    ![](assets/wkf_cross-channel_4.png)
 
-## 3단계:결과 대상 {#step-3--segmenting-the-resulting-audience} 세그먼트화
+## 3단계: 결과 대상 세그먼트화 {#step-3--segmenting-the-resulting-audience}
 
 타겟이 식별되고 첫 번째 게재를 만든 후에는 필터링 조건을 사용하여 대상을 다른 모집단으로 세분해야 합니다.
 
-1. 워크플로우에 **분할** 활동을 추가하고 엽니다. 이 활동 사용에 대한 자세한 정보는 [이 섹션](../../workflow/using/split.md)을 참조하십시오.
+1. 워크플로우에 **분할** 활동을 추가하고 엽니다. 이 활동 사용에 대한 자세한 정보는 [이 섹션](split.md)을 참조하십시오.
 1. 쿼리에서 업스트림 계산된 모집단에서 세 개의 세그먼트를 만듭니다.
 
    ![](assets/wkf_cross-channel_6.png)
@@ -82,7 +84,7 @@ ht-degree: 3%
 
    ![](assets/wkf_cross-channel_9.png)
 
-1. 필터 설정의 **[!UICONTROL Behavior]** 드롭다운 목록에서 **[!UICONTROL Recipients who have not opened or clicked (email)]** 을(를) 선택하고 게재 목록에서 전송할 오퍼가 포함된 이메일을 선택합니다. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
+1. 필터 설정의 **[!UICONTROL Behavior]** 드롭다운 목록에서 **[!UICONTROL Recipients who have not opened or clicked (email)]** 을(를) 선택하고 게재 목록에서 전송할 오퍼가 포함된 이메일을 선택합니다. **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
 
    ![](assets/wkf_cross-channel_10.png)
 
@@ -101,7 +103,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL Finish]** 을 클릭하여 변경 내용을 저장합니다.
 
-## 4단계:워크플로우 {#step-4--finalizing-the-workflow} 완료
+## 4단계: 워크플로우 완료 {#step-4--finalizing-the-workflow}
 
 1. **[!UICONTROL Split]** 활동 결과로 생성되는 세 개의 하위 세트 뒤에 관련 활동을 워크플로우에 추가합니다.
 

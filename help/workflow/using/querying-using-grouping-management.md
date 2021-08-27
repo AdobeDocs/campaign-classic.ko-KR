@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 그룹 관리를 사용하여 쿼리 {#querying-using-grouping-management}
+
+![](../../assets/common.svg)
 
 이 예제에서는 쿼리를 실행하여 이전 게재 동안 30번 이상 타겟팅된 모든 이메일 도메인을 검색하려고 합니다.
 
@@ -43,7 +45,7 @@ ht-degree: 4%
 
    ![](assets/query_editor_nveau_29.png)
 
-1. **[!UICONTROL Sorting]** 창에서 전자 메일 도메인을 내림차순으로 정렬합니다. 이렇게 하려면 **[!UICONTROL Descending sort]** 열에서 **[!UICONTROL Yes]** 을 선택합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Sorting]** 창에서 전자 메일 도메인을 내림차순으로 정렬합니다. 이렇게 하려면 **[!UICONTROL Descending sort]** 열에서 **[!UICONTROL Yes]** 을 선택합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
 
    ![](assets/query_editor_nveau_70.png)
 
@@ -56,11 +58,11 @@ ht-degree: 4%
 
 1. **[!UICONTROL Grouping condition]** 창에서 30번 이상 타겟팅된 이메일 도메인만 결과로 반환되도록 하기 때문에 기본 키 카운트가 30보다 큰 것을 나타냅니다.
 
-   이 창은 **[!UICONTROL Manage groupings (GROUP BY + HAVING)]** 상자를 선택하면 나타납니다.여기서 그룹화 결과가 필터링됩니다(HAVING).
+   이 창은 **[!UICONTROL Manage groupings (GROUP BY + HAVING)]** 상자를 선택하면 나타납니다. 여기서 그룹화 결과가 필터링됩니다(HAVING).
 
    ![](assets/query_editor_blocklist_05.png)
 
-1. **[!UICONTROL Data formatting]** 창에서 **[!UICONTROL Next]** 를 클릭합니다.여기에 서식을 지정할 필요가 없습니다.
-1. 데이터 미리 보기 창에서 **[!UICONTROL Launch data preview]** 을 클릭합니다.여기서는 30번 이상 타겟팅된 세 개의 다른 이메일 도메인이 반환됩니다.
+1. **[!UICONTROL Data formatting]** 창에서 **[!UICONTROL Next]** 를 클릭합니다. 여기에 서식을 지정할 필요가 없습니다.
+1. 데이터 미리 보기 창에서 **[!UICONTROL Launch data preview]** 을 클릭합니다. 여기서는 30번 이상 타겟팅된 세 개의 다른 이메일 도메인이 반환됩니다.
 
    ![](assets/query_editor_blocklist_06.png)

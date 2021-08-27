@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 조인 요소 {#join--element}
+
+![](../../../assets/v7-only.svg)
 
 ## 컨텐츠 모델 {#content-model-7}
 
@@ -37,7 +39,7 @@ join:==EMPTY
 
 SQL 테이블 간에 조인을 만드는 필드를 정의할 수 있습니다.
 
-## 사용 컨텍스트 {#use-and-context-of-use-5} 사용
+## 사용 및 사용 컨텍스트 {#use-and-context-of-use-5}
 
 `<join>` 요소는 상위 `<element>` 요소가 &#39;link&#39; 유형인 경우에만 사용할 수 있습니다. 즉, 상위 요소에는 &quot;@type=link&quot; 속성이 선언되어야 합니다.
 
@@ -47,11 +49,11 @@ SQL 테이블 간에 조인을 만드는 필드를 정의할 수 있습니다.
 
 링크 유형 요소가 정의될 때 `<join>` 요소가 지정되지 않으면 링크가 두 테이블의 기본 키에 자동으로 배치됩니다.
 
-## 특성 설명 {#attribute-description-7}
+## 속성 설명 {#attribute-description-7}
 
-* **dstFilterExpr(문자열)**:이 속성을 사용하면 원격 테이블에서 적합한 값의 수를 제한할 수 있습니다.
-* **xpath-dst(문자열)**:이 속성은 Xpath(원격 테이블의 @name 특성)를 수신합니다.
-* **xpath-src(문자열)**:이 속성은 Xpath(현재 스키마의 @name 특성)를 수신합니다.
+* **dstFilterExpr(문자열)**: 이 속성을 사용하면 원격 테이블에서 적합한 값의 수를 제한할 수 있습니다.
+* **xpath-dst(문자열)**: 이 속성은 Xpath(원격 테이블의 @name 특성)를 수신합니다.
+* **xpath-src(문자열)**: 이 속성은 Xpath(현재 스키마의 @name 특성)를 수신합니다.
 
 ## 예제 {#examples-6}
 

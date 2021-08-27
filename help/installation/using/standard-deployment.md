@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 표준 배포{#standard-deployment}
+
+![](../../assets/v7-only.svg)
 
 이 구성의 경우 3대의 컴퓨터가 필요합니다.
 
@@ -36,7 +38,7 @@ LAN의 응용 프로그램 서버는 최종 사용자를 제공하고 모든 반
 
 ### 장점 {#advantages}
 
-* 페일오버 기능:다른 컴퓨터에서 하드웨어 문제가 발생할 경우 프로세스를 하나의 컴퓨터로 전환할 수 있습니다.
+* 페일오버 기능: 다른 컴퓨터에서 하드웨어 문제가 발생할 경우 프로세스를 하나의 컴퓨터로 전환할 수 있습니다.
 * 부하 분산 장치 뒤의 두 컴퓨터에 MTA 및 리디렉션 기능을 배포할 수 있으므로 전반적인 성능이 향상됩니다. 두 개의 활성 MTA와 충분한 대역폭을 사용하여 시간당 100,000개의 메일들의 방송속도를 달성할 수 있습니다.
 
 ## 설치 및 구성 단계 {#installation-and-configuration-steps}
@@ -54,7 +56,7 @@ LAN의 응용 프로그램 서버는 최종 사용자를 제공하고 모든 반
 
 * STMP(25), DNS(53), HTTP(80), HTTPS(443), SQL(Oracle의 경우 1521, PostgreSQL의 경우 5432)를 열도록 구성된 방화벽 포트. 자세한 내용은 [데이터베이스 액세스](../../installation/using/network-configuration.md#database-access) 섹션을 참조하십시오.
 
-### 응용 프로그램 서버 {#installing-the-application-server} 설치
+### 애플리케이션 서버 설치 {#installing-the-application-server}
 
 Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치하는 단계에 따라 데이터베이스를 만듭니다(12단계). [설치 및 구성(단일 컴퓨터)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-)을 참조하십시오.
 
@@ -62,12 +64,12 @@ Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치�
 
 다음 예에서 인스턴스의 매개 변수는 다음과 같습니다.
 
-* 인스턴스 이름:**데모**
-* DNS 마스크:**console.campaign.net*** (클라이언트 콘솔 연결 및 보고서에만 해당)
-* 언어:영어
-* 데이터베이스:**campaign:demo@dbsrv**
+* 인스턴스 이름: **데모**
+* DNS 마스크: **console.campaign.net*** (클라이언트 콘솔 연결 및 보고서에만 해당)
+* 언어: 영어
+* 데이터베이스: **campaign:demo@dbsrv**
 
-### 두 개의 전면 서버 {#installing-the-two-frontal-servers} 설치
+### 2개의 전면 서버 설치 {#installing-the-two-frontal-servers}
 
 설치 및 구성 절차는 두 컴퓨터 모두에서 동일합니다.
 
@@ -79,8 +81,8 @@ Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치�
 
 1. 다음 섹션에 설명된 웹 서버 통합 절차(IIS, Apache)를 따르십시오.
 
-   * Linux의 경우:[Linux용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-linux.md)
-   * Windows의 경우:[Windows용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-windows.md)
+   * Linux의 경우: [Linux용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-linux.md)
+   * Windows의 경우: [Windows용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-windows.md)
 
 1. **데모** 인스턴스를 만듭니다. 다음 두 가지 방법으로 데이터를 수집할 수 있습니다.
 
@@ -140,7 +142,7 @@ Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치�
 
       자세한 내용은 [중복 추적](configuring-campaign-server.md#redundant-tracking)을 참조하십시오.
 
-1. 웹 사이트를 시작하고 URL에서 리디렉션을 테스트합니다.[https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test)
+1. 웹 사이트를 시작하고 URL에서 리디렉션을 테스트합니다. [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test)
 
    브라우저에 로드 밸런서에서 리디렉션하는 URL에 따라 다음 메시지가 표시됩니다.
 
@@ -156,8 +158,8 @@ Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치�
 
    자세한 정보는 다음 섹션을 참조하십시오.
 
-   * Linux의 경우:[웹 서버 시작 및 구성 테스트](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
-   * Windows의 경우:[웹 서버 시작 및 구성 테스트](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
+   * Linux의 경우: [웹 서버 시작 및 구성 테스트](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
+   * Windows의 경우: [웹 서버 시작 및 구성 테스트](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Adobe Campaign 서버를 시작합니다.
 1. Adobe Campaign 콘솔에서 암호 없이 **admin** 로그인을 사용하여 연결하고 배포 마법사를 시작합니다.

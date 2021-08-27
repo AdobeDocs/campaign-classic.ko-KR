@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 24%
@@ -14,6 +14,8 @@ ht-degree: 24%
 ---
 
 # Adobe ID 정보{#about-adobe-id}
+
+![](../../assets/common.svg)
 
 IMS(Identity Management System) Adobe은 관리자가 애플리케이션 및 서비스에 대한 사용자의 액세스를 만들고 관리하는 데 도움이 됩니다. 다른 유형의 Adobe ID에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/enterprise/using/identity.html)를 참조하십시오.
 
@@ -29,15 +31,15 @@ Campaign 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결�
 >
 >IMS(Adobe Identity Service)를 통해 Campaign에 연결하는 경우 **2021년 6월 30일 이후 Campaign에 연결할 수 있도록 최신 빌드로 업그레이드해야 합니다**. 이 업그레이드는 Campaign 서버와 클라이언트 콘솔에 모두 필수입니다. 현재 버전에 따라 다음 릴리스 중 하나로 업그레이드해야 합니다.
 >
-> * [Campaign [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
-* [Campaign 21.1.3](../../rn/using/latest-release.md)
-* [Campaign 20.2.5](../../rn/using/release--20-2.md)
-* [Campaign 20.1.4](../../rn/using/release--20-1.md)
-* [Campaign 19.2.4](../../rn/using/release--19-2.md)
-* [Campaign 19.1.8](../../rn/using/release--19-1.md)
+> * [캠페인 [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
+> * [Campaign 21.1.3](../../rn/using/latest-release.md)
+> * [Campaign 20.2.5](../../rn/using/release--20-2.md)
+> * [Campaign 20.1.4](../../rn/using/release--20-1.md)
+> * [Campaign 19.2.4](../../rn/using/release--19-2.md)
+> * [Campaign 19.1.8](../../rn/using/release--19-1.md)
 
-[!DNL :bulb:] [IMS 업데이트에 대해 자세히 알아보기](../../technotes/ims-updates.md)
-
+>
+> [!DNL :bulb:] [IMS 업데이트에 대해 자세히 알아보기](../../technotes/using/ims-updates.md)
 
 ## 추가 리소스
 

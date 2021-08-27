@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 이모티콘 목록 사용자 정의 {#customize-emoticons}
+
+![](../../assets/common.svg)
 
 팝업에 표시되는 이모티콘 목록은 목록에 값을 표시하여 사용자가 특정 필드에 대해 선택한 옵션을 제한할 수 있는 열거형으로 결정됩니다.
 이모티콘 목록 순서를 사용자 지정할 수 있으며 목록에 다른 이모티콘을 추가할 수도 있습니다.
@@ -35,14 +37,14 @@ ht-degree: 3%
 
    ![](assets/emoticon_1.png)
 
-1. **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Add]**&#x200B;를 클릭합니다.
 
 1. 다음 필드를 채웁니다.
 
-   * **[!UICONTROL U+]**:새로운 이모티콘 코드. 이 [페이지](https://unicode.org/emoji/charts/full-emoji-list.html)에서 이모티콘 코드 목록을 찾을 수 있습니다.
+   * **[!UICONTROL U+]**: 새로운 이모티콘 코드. 이 [페이지](https://unicode.org/emoji/charts/full-emoji-list.html)에서 이모티콘 코드 목록을 찾을 수 있습니다.
 호환성 문제를 방지하려면 브라우저 및 모든 운영 체제에서 지원되는 이모티콘을 선택하는 것이 좋습니다.
 
-   * **[!UICONTROL Label]**:새 이모티콘의 레이블입니다.
+   * **[!UICONTROL Label]**: 새 이모티콘의 레이블입니다.
 
    ![](assets/emoticon_5.png)
 

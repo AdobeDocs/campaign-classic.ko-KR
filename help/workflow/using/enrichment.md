@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 1%
+source-wordcount: '1291'
+ht-degree: 2%
 
 ---
 
 # 데이터 보강{#enrichment}
+
+![](../../assets/common.svg)
 
 **[!UICONTROL Enrichment]** 활동을 사용하면 프로필 목록에 정보를 추가하고 기존 테이블에 연결합니다(새 조인을 만듭니다). 데이터베이스에 있는 프로필의 조정 기준도 정의할 수 있습니다.
 
@@ -27,8 +29,8 @@ ht-degree: 1%
 
 **[!UICONTROL Data linked to the filtering dimension]** 옵션을 사용하면 다음 항목에 액세스할 수 있습니다.
 
-* 필터링 차원의 데이터:작업 테이블 데이터 액세스
-* 필터링 차원에 연결된 데이터:작업 테이블에 연결된 데이터에 대한 액세스
+* 필터링 차원의 데이터: 작업 테이블 데이터 액세스
+* 필터링 차원에 연결된 데이터: 작업 테이블에 연결된 데이터에 대한 액세스
 
 ![](assets/wf_enrich_linkoptions.png)
 
@@ -38,29 +40,29 @@ ht-degree: 1%
 
 링크의 유형은 다음 네 가지가 있습니다.
 
-* **[!UICONTROL Define a collection]**:테이블 사이에 1-N 카디널리티를 사용하는 링크를 정의할 수 있습니다.
-* **[!UICONTROL Define a link whose target is still available]**:테이블 간에 1-1 카디널리티를 사용하는 링크를 정의할 수 있습니다. 조인 조건은 대상 테이블의 단일 레코드로 정의되어야 합니다.
-* **[!UICONTROL Define a link whose target does not necessarily exist in the base]**:테이블 간에 0-1 카디널리티를 사용하는 링크를 정의할 수 있습니다. 조인 조건은 0 또는 1(최대)으로 정의되어야 합니다. 레코드를 타겟 테이블에 추가합니다.
+* **[!UICONTROL Define a collection]**: 테이블 사이에 1-N 카디널리티를 사용하는 링크를 정의할 수 있습니다.
+* **[!UICONTROL Define a link whose target is still available]**: 테이블 간에 1-1 카디널리티를 사용하는 링크를 정의할 수 있습니다. 조인 조건은 대상 테이블의 단일 레코드로 정의되어야 합니다.
+* **[!UICONTROL Define a link whose target does not necessarily exist in the base]**: 테이블 간에 0-1 카디널리티를 사용하는 링크를 정의할 수 있습니다. 조인 조건은 0 또는 1(최대)으로 정의되어야 합니다. 레코드를 타겟 테이블에 추가합니다.
 
    이 옵션은 **[!UICONTROL Simple Join]** 탭에서 **[!UICONTROL Enrichment]** 활동의 **[!UICONTROL Edit additional data]** 링크를 통해 액세스할 수 있습니다.
 
-* **[!UICONTROL Define a link by searching for a reference among several options]**:이 유형의 링크는 고유한 레코드에 대한 조정을 정의합니다. Adobe Campaign은 대상 테이블에 고유한 레코드에 대한 참조를 저장하기 위한 외래 키를 추가하여 대상 테이블에 대한 링크를 생성합니다.
+* **[!UICONTROL Define a link by searching for a reference among several options]**: 이 유형의 링크는 고유한 레코드에 대한 조정을 정의합니다. Adobe Campaign은 대상 테이블에 고유한 레코드에 대한 참조를 저장하기 위한 외래 키를 추가하여 대상 테이블에 대한 링크를 생성합니다.
 
    이 옵션은 **[!UICONTROL Reconciliation and deduplication]** 탭에서 **[!UICONTROL Enrichment]** 활동의 **[!UICONTROL Edit additional data]** 링크를 통해 액세스할 수 있습니다.
 
 컨텍스트에서 데이터 보강 활동 운영을 자세히 설명하는 사용 사례는 다음 섹션에서도 사용할 수 있습니다.
 
-* [사용자 지정 날짜 필드를 사용한 전자 메일 강화](../../workflow/using/email-enrichment-with-custom-date-fields.md).
-* [데이터 강화](../../workflow/using/enriching-data.md)
-* [요약 목록 만들기](../../workflow/using/creating-a-summary-list.md)
+* [사용자 지정 날짜 필드를 사용한 전자 메일 강화](email-enrichment-with-custom-date-fields.md).
+* [데이터 강화](enriching-data.md)
+* [요약 목록 만들기](creating-a-summary-list.md)
 
-## 정보 추가 중 {#adding-information}
+## 정보 추가 {#adding-information}
 
-작업 테이블에 열을 추가하려면 **[!UICONTROL Enrichment]** 활동을 사용하십시오.이 활동은 쿼리 활동을 보완하는 것으로 사용할 수 있습니다.
+작업 테이블에 열을 추가하려면 **[!UICONTROL Enrichment]** 활동을 사용하십시오. 이 활동은 쿼리 활동을 보완하는 것으로 사용할 수 있습니다.
 
-추가 열 구성은 [데이터 추가](../../workflow/using/query.md#adding-data)에 자세히 설명되어 있습니다.
+추가 열 구성은 [데이터 추가](query.md#adding-data)에 자세히 설명되어 있습니다.
 
-**[!UICONTROL Primary set]** 필드를 사용하면 인바운드 전환을 선택할 수 있습니다.이 활동의 작업 테이블에 대한 데이터가 보강됩니다.
+**[!UICONTROL Primary set]** 필드를 사용하면 인바운드 전환을 선택할 수 있습니다. 이 활동의 작업 테이블에 대한 데이터가 보강됩니다.
 
 **[!UICONTROL Add data]** 링크를 클릭하고 추가할 데이터 유형을 선택합니다. 제공되는 데이터 유형 목록은 플랫폼에 설치된 모듈 및 옵션에 따라 다릅니다. 최소 구성에서는 항상 필터링 차원 및 링크에 연결된 데이터를 추가할 수 있습니다.
 
@@ -98,13 +100,13 @@ ht-degree: 1%
 
 ![](assets/enrichment_content_after_without_additional.png)
 
-## 링크 {#creating-a-link} 만들기
+## 링크 만들기 {#creating-a-link}
 
-데이터 보강 활동을 사용하여 작업 데이터와 Adobe Campaign 데이터베이스 간에 링크를 만들 수 있습니다.인바운드 데이터 간 워크플로우에 대한 로컬 링크입니다.
+데이터 보강 활동을 사용하여 작업 데이터와 Adobe Campaign 데이터베이스 간에 링크를 만들 수 있습니다. 인바운드 데이터 간 워크플로우에 대한 로컬 링크입니다.
 
 예를 들어, 계정 번호, 국가 및 수신자 전자 메일이 포함된 파일의 데이터를 로드하는 경우 해당 프로필에서 이 정보를 업데이트하려면 국가 테이블에 대한 링크를 만들어야 합니다.
 
-이렇게 하려면 다음 단계를 적용합니다.
+그렇게 하려면 다음 단계를 적용합니다.
 
 1. 다음 유형의 파일을 수집하고 로드합니다.
 
@@ -139,7 +141,7 @@ ht-degree: 1%
 
 데이터 보강 활동을 사용하여 데이터베이스에 데이터가 로드되면 포함하여 데이터 조정을 구성할 수 있습니다. 이 경우 **[!UICONTROL Reconciliation]** 탭에서는 Adobe Campaign 데이터베이스의 데이터와 작업 테이블의 데이터 간의 링크를 정의할 수 있습니다.
 
-**[!UICONTROL Identify the targeting document based on work data]** 옵션을 선택하고 링크를 생성할 스키마를 지정하고 조인 조건을 정의합니다.이렇게 하려면 작업 데이터(**[!UICONTROL Source expression]**) 및 타겟팅 차원(**[!UICONTROL Destination expression]**)에서 조정할 필드를 선택합니다.
+**[!UICONTROL Identify the targeting document based on work data]** 옵션을 선택하고 링크를 생성할 스키마를 지정하고 조인 조건을 정의합니다. 이렇게 하려면 작업 데이터(**[!UICONTROL Source expression]**) 및 타겟팅 차원(**[!UICONTROL Destination expression]**)에서 조정할 필드를 선택합니다.
 
 하나 이상의 조정 기준을 사용할 수 있습니다.
 
@@ -147,17 +149,17 @@ ht-degree: 1%
 
 여러 조인 조건을 지정하는 경우 데이터를 함께 연결할 수 있도록 모든 조인 조건을 확인해야 합니다.
 
-## 오퍼 제안 {#inserting-an-offer-proposition} 삽입
+## 오퍼 제안 삽입 {#inserting-an-offer-proposition}
 
 데이터 보강 활동을 통해 게재 수신자를 위한 오퍼에 오퍼나 링크를 추가할 수 있습니다.
 
-데이터 보강 활동에 대한 자세한 내용은 이 [섹션](../../workflow/using/enrichment.md)을 참조하십시오.
+데이터 보강 활동에 대한 자세한 내용은 이 [섹션](enrichment.md)을 참조하십시오.
 
 예를 들어 게재 전에 수신자 쿼리의 데이터를 보강할 수 있습니다.
 
 ![](assets/int_enrichment_offer1.png)
 
-쿼리를 구성한 후( 이 [섹션](../../workflow/using/query.md) 참조):
+쿼리를 구성한 후( 이 [섹션](query.md) 참조):
 
 1. 데이터 보강 활동을 추가하고 엽니다.
 1. **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;를 선택합니다.
@@ -168,21 +170,21 @@ ht-degree: 1%
 1. 추가할 제안에 대한 레이블과 식별자를 지정합니다.
 1. 오퍼 선택을 지정합니다. 다음 두 가지 옵션을 사용할 수 있습니다.
 
-   * **[!UICONTROL Search for the best offer in a category]**:이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마), 연락 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. 두 필드를 동시에 완료하지 않고 **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드를 완료하는 것이 좋습니다.
+   * **[!UICONTROL Search for the best offer in a category]**: 이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마), 연락 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. 두 필드를 동시에 완료하지 않고 **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드를 완료하는 것이 좋습니다.
 
       ![](assets/int_enrichment_offer3.png)
 
-   * **[!UICONTROL A predefined offer]**:오퍼 엔진을 호출하지 않고 추가할 오퍼를 직접 구성하려면 이 옵션을 선택하고 오퍼 공간, 특정 오퍼 및 연락 날짜를 지정합니다.
+   * **[!UICONTROL A predefined offer]**: 오퍼 엔진을 호출하지 않고 추가할 오퍼를 직접 구성하려면 이 옵션을 선택하고 오퍼 공간, 특정 오퍼 및 연락 날짜를 지정합니다.
 
       ![](assets/int_enrichment_offer4.png)
 
-1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [채널 간 게재](../../workflow/using/cross-channel-deliveries.md)를 참조하십시오.
+1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [채널 간 게재](cross-channel-deliveries.md)를 참조하십시오.
 
    미리 보기에 사용할 수 있는 proposition 수는 게재에서 직접 수행되는 구성 대신 데이터 보강 활동에서 수행되는 구성에 따라 다릅니다.
 
 오퍼 제안을 지정하려면 오퍼에 대한 링크를 참조하도록 선택할 수도 있습니다. 이에 대한 자세한 내용은 다음 섹션 [오퍼](#referencing-a-link-to-an-offer)에 대한 링크 참조 을 참조하십시오.
 
-## 오퍼 {#referencing-a-link-to-an-offer} 링크 참조
+## 오퍼 링크 참조 {#referencing-a-link-to-an-offer}
 
 데이터 보강 활동에서 오퍼에 대한 링크를 참조할 수도 있습니다.
 
@@ -198,7 +200,7 @@ ht-degree: 1%
 
    ![](assets/int_enrichment_link2.png)
 
-1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [채널 간 게재](../../workflow/using/cross-channel-deliveries.md)를 참조하십시오.
+1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [채널 간 게재](cross-channel-deliveries.md)를 참조하십시오.
 
    >[!NOTE]
    >
@@ -212,7 +214,7 @@ ht-degree: 1%
 
 그러나 다음과 같이 이 정보를 저장할 수 있습니다.
 
-1. 쿼리 뒤에, 게재 활동 전에 배치된 데이터 보강 활동에서 오퍼 엔진에 대한 호출을 만듭니다. 이 [섹션](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine)을 참조하십시오.
+1. 쿼리 뒤에, 게재 활동 전에 배치된 데이터 보강 활동에서 오퍼 엔진에 대한 호출을 만듭니다.
 1. 활동의 기본 창에서 **[!UICONTROL Edit additional data...]** 을 선택합니다.
 
    ![](assets/ita_enrichment_rankweight_1.png)

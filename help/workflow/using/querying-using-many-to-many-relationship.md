@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
-# 다대다 관계 {#querying-using-a-many-to-many-relationship}을 사용하여 쿼리
+# 다대다 관계를 사용하여 쿼리 {#querying-using-a-many-to-many-relationship}
+
+![](../../assets/common.svg)
 
 이 예제에서는 지난 7일 동안 연락하지 않은 수신자를 복구하려고 합니다. 이 쿼리는 모든 게재와 관련이 있습니다.
 

@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 4%
@@ -15,15 +15,17 @@ ht-degree: 4%
 
 # 메시지 콘텐츠 제어{#control-message-content}
 
+![](../../assets/common.svg)
+
 이메일이 수신자에게 도달하고 전자 메일 게재 가능성을 향상하기 위해 많은 규칙을 준수해야 합니다. 그렇지 않으면 특정 메시지의 콘텐츠가 스팸으로 감지될 수 있습니다. Adobe Campaign은 콘텐츠를 이러한 규칙을 준수하도록 하는 몇 가지 도구를 제공합니다.
 
 메시지 콘텐츠를 디자인할 때 아래 나열된 원칙을 따르십시오.
 
-* [보낸 사람 주소](#sender-address):주소는 발신자를 명시적으로 식별해야 합니다. 도메인은 의 소유가 되어야 하며 발신자에게 등록해야 합니다. 도메인 레지스트리를 민영화해서는 안 됩니다.
-* [개인화](#personalization):콘텐츠를 개인화하고 수신자당 전송 시간을 정의하면 메시지가 열릴 가능성이 높아집니다.
-* 이미지 및 텍스트:적절한 텍스트/이미지 비율(예: 60% 텍스트 및 40% 이미지)을 준수합니다.
-* [구독 ](#opt-out) 취소 링크 및 랜딩 페이지:구독 취소 링크는 필수입니다. 이 변수는 표시적이고 유효해야 하며 양식이 작동해야 합니다.
-* 미리 보기:Adobe Campaign에서 제공하는 도구를 사용하여 전자 메일의 콘텐츠를 확인 및 최적화합니다([받은 편지함 렌더링](#message-responsiveness), [SpamAssassin](#spamassassin)).
+* [보낸 사람 주소](#sender-address): 주소는 발신자를 명시적으로 식별해야 합니다. 도메인은 의 소유가 되어야 하며 발신자에게 등록해야 합니다. 도메인 레지스트리를 민영화해서는 안 됩니다.
+* [개인화](#personalization): 콘텐츠를 개인화하고 수신자당 전송 시간을 정의하면 메시지가 열릴 가능성이 높아집니다.
+* 이미지 및 텍스트: 적절한 텍스트/이미지 비율(예: 60% 텍스트 및 40% 이미지)을 준수합니다.
+* [구독 ](#opt-out) 취소 링크 및 랜딩 페이지: 구독 취소 링크는 필수입니다. 이 변수는 표시적이고 유효해야 하며 양식이 작동해야 합니다.
+* 미리 보기: Adobe Campaign에서 제공하는 도구를 사용하여 전자 메일의 콘텐츠를 확인 및 최적화합니다([받은 편지함 렌더링](#message-responsiveness), [SpamAssassin](#spamassassin)).
 
 콘텐츠를 디자인할 때 게재 능력을 최적화하는 추가 팁은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html)를 참조하십시오.
 
@@ -59,7 +61,7 @@ Adobe Campaign에서 개인화 필드 사용에 대한 자세한 내용은 [이 
 
 일반적으로, 예를 들어 이메일 주소나 이름과 같은 필드를 작성할 것을 요구하여 옵트아웃하려는 수신자의 방해가 되지 않도록 하십시오. 양식에는 하나의 유효성 검사 단추만 있어야 하며, 암호화된 식별자에서만 조정을 수행해야 합니다.
 
-추가 확인 요청을 신뢰할 수 없습니다.사용자는 두 개의 이메일 주소를 동일한 상자로 리디렉션할 수 있습니다(예:firstname.lastname@club.com 및 firstname.lastname@internet-club.com). 수신자가 첫 번째 주소만 기억할 수 있고 다른 주소로 전송된 메시지를 통해 구독을 취소하려는 경우, 암호화된 식별자와 입력한 이메일 주소가 일치하지 않으므로 양식이 이를 거부합니다.
+추가 확인 요청을 신뢰할 수 없습니다. 사용자는 두 개의 이메일 주소를 동일한 상자로 리디렉션할 수 있습니다(예: firstname.lastname@club.com 및 firstname.lastname@internet-club.com). 수신자가 첫 번째 주소만 기억할 수 있고 다른 주소로 전송된 메시지를 통해 구독을 취소하려는 경우, 암호화된 식별자와 입력한 이메일 주소가 일치하지 않으므로 양식이 이를 거부합니다.
 
 ## 받은 편지함 렌더링 {#message-responsiveness}
 

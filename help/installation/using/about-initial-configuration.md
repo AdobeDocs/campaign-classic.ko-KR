@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f77ba178-0dfb-4a2e-b33b-971765d42298
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # 인스턴스 구성 및 배포 주요 단계{#about-initial-configuration}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign 설치가 완료되면 제한 조건 및 기술 아키텍처로 효율적으로 작동하도록 구성해야 합니다. Adobe Campaign 인스턴스를 구성하는 단계는 이 장의 다음 순서에 따라 자세히 설명되어 있습니다.
 

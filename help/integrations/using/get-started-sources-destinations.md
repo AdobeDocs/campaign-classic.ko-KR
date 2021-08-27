@@ -5,7 +5,7 @@ description: Adobe Experience Platform 소스 및 대상에 대해 자세히 알
 audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 6%
@@ -13,6 +13,8 @@ ht-degree: 6%
 ---
 
 # 소스 및 대상 시작 {#rtcdp}
+
+![](../../assets/common.svg)
 
 ## 소스 및 대상 정보
 

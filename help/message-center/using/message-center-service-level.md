@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 메시지 센터 서비스 수준 {#message-center-service-level}
+
+![](../../assets/v7-only.svg)
 
 이 보고서는 트랜잭션 메시지와 관련된 게재 통계 및 오류 분류를 표시합니다. 오류 유형을 클릭하여 세부 정보를 표시할 수 있습니다.
 
@@ -25,12 +27,12 @@ ht-degree: 3%
 
 **[!UICONTROL Indicators over the period]** 섹션에 표시되는 표시기는 선택한 기간 동안 계산됩니다.
 
-* **[!UICONTROL Incoming (throughput event/h)]** :메시지 센터 큐에 입력된 평균 시간별 이벤트 수
-* **[!UICONTROL Incoming (event vol)]** :메시지 센터 큐에 입력한 이벤트 수입니다.
-* **[!UICONTROL Outgoing (throughput msg/h)]** :성공적으로 보내는 메시지 센터 이벤트(게재에서 보낸)의 평균 시간별 수입니다.
-* **[!UICONTROL Outgoing (msg vol)]** :발신 성공 메시지 센터 이벤트 수(게재에서 전송됨).
-* **[!UICONTROL Average sending time (seconds)]** :성공적으로 처리된 이벤트에 대한 메시지 센터에서 보낸 평균 시간입니다. 계산에는 처리 시간 및 데이터 전송 시간이 고려됩니다.
-* **[!UICONTROL Error rate]** :오류가 있는 이벤트 수를 메시지 센터 큐에 입력한 이벤트 수와 비교한 것입니다. 다음 오류가 고려됩니다.라우팅 오류, 만료된 이벤트(큐에 너무 오래 있는 이벤트), 게재 오류, 게재에 의해 무시된 배달(격리 등)
+* **[!UICONTROL Incoming (throughput event/h)]** : 메시지 센터 큐에 입력된 평균 시간별 이벤트 수
+* **[!UICONTROL Incoming (event vol)]** : 메시지 센터 큐에 입력한 이벤트 수입니다.
+* **[!UICONTROL Outgoing (throughput msg/h)]** : 성공적으로 보내는 메시지 센터 이벤트(게재에서 보낸)의 평균 시간별 수입니다.
+* **[!UICONTROL Outgoing (msg vol)]** : 발신 성공 메시지 센터 이벤트 수(게재에서 전송됨).
+* **[!UICONTROL Average sending time (seconds)]** : 성공적으로 처리된 이벤트에 대한 메시지 센터에서 보낸 평균 시간입니다. 계산에는 처리 시간 및 데이터 전송 시간이 고려됩니다.
+* **[!UICONTROL Error rate]** : 오류가 있는 이벤트 수를 메시지 센터 큐에 입력한 이벤트 수와 비교한 것입니다. 다음 오류가 고려됩니다. 라우팅 오류, 만료된 이벤트(큐에 너무 오래 있는 이벤트), 게재 오류, 게재에 의해 무시된 배달(격리 등)
 
 >[!NOTE]
 >

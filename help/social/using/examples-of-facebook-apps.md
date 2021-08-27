@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: annexes
 exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
-source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2222'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Facebook 앱의 예{#examples-of-facebook-apps}
+
+![](../../assets/v7-only.svg)
 
 사용자가 Facebook 애플리케이션의 탭을 클릭하면 폭이 810픽셀인 공간에 표시됩니다. Adobe Campaign은 Facebook 유형 웹 애플리케이션을 사용하여 Facebook 애플리케이션에 표시되는 컨텐츠를 정의하고 개인화할 수 있으므로 프로필을 보다 쉽게 획득할 수 있습니다.
 
@@ -33,7 +35,7 @@ ht-degree: 1%
 
 여기에 자세히 설명된 Facebook 유형 웹 애플리케이션의 예는 다음과 같습니다.
 
-* 7단계로 Facebook 애플리케이션을 만드는 방법입니다. [빠른 시작 을 참조하십시오.7단계로 Facebook 애플리케이션 만들기](#quick-start--creating-a-facebook-application-in-7-steps).
+* 7단계로 Facebook 애플리케이션을 만드는 방법입니다. [빠른 시작 을 참조하십시오. 7단계로 Facebook 애플리케이션 만들기](#quick-start--creating-a-facebook-application-in-7-steps).
 * facebook 애플리케이션에 설정을 전달하는 방법 [설정을 Facebook 애플리케이션에 전달하는 방법?](#how-to-forward-settings-to-a-facebook-application-)을 참조하십시오.
 * 팬 데이터를 얻는 방법 팬 데이터를 얻는 방법 [을 참조하십시오.](#how-to-acquire-fan-data-)
 
@@ -48,25 +50,25 @@ ht-degree: 1%
 * HTTPS로 모든 웹 애플리케이션을 빌드해야 합니다.
 * 탭을 통해 표시되는 Facebook 애플리케이션의 너비는 810픽셀입니다.
 
-## 빠른 시작:7단계로 Facebook 애플리케이션 만들기 {#quick-start--creating-a-facebook-application-in-7-steps}
+## 빠른 시작: 7단계로 Facebook 애플리케이션 만들기 {#quick-start--creating-a-facebook-application-in-7-steps}
 
 이 예제는 Facebook에서 Adobe Campaign 기본 제공 애플리케이션을 표시하는 방법에 대한 단계별 프로세스를 제공합니다. 이 경우 사용자가 애플리케이션 탭(**App01**)을 클릭할 때 **Welcome** 메시지를 표시할 수 있는 애플리케이션을 만들려고 합니다.
 
 이 응용 프로그램을 만들려면 다음 단계를 수행합니다.
 
-1. facebook에서 애플리케이션을 만듭니다( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)). 자세한 내용은 다음을 참조하십시오.[Facebook 응용 프로그램 만들기](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
+1. facebook에서 애플리케이션을 만듭니다( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)). 자세한 내용은 다음을 참조하십시오. [Facebook 응용 프로그램 만들기](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
 
    ![](assets/social_create_facebook_app_002.png)
 
-1. **[!UICONTROL Facebook Connect]** 유형을 외부 계정으로 만들고 Facebook 응용 프로그램의 매개 변수를 입력합니다. 자세한 내용은 다음을 참조하십시오.[외부 계정 구성](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)
+1. **[!UICONTROL Facebook Connect]** 유형을 외부 계정으로 만들고 Facebook 응용 프로그램의 매개 변수를 입력합니다. 자세한 내용은 다음을 참조하십시오. [외부 계정 구성](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)
 
    ![](assets/social_quick_start_2.png)
 
-1. facebook 권한 요청 화면에 표시할 **[!UICONTROL Terms of service]** 및 **[!UICONTROL Privacy policy]** 링크를 입력합니다. 자세한 내용은 다음을 참조하십시오.[서비스 약관 및 개인 정보 보호 정책 링크 입력](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links).
+1. facebook 권한 요청 화면에 표시할 **[!UICONTROL Terms of service]** 및 **[!UICONTROL Privacy policy]** 링크를 입력합니다. 자세한 내용은 다음을 참조하십시오. [서비스 약관 및 개인 정보 보호 정책 링크 입력](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links).
 
    ![](assets/social_quick_start_1.png)
 
-1. Adobe Campaign에서 Facebook 유형 웹 애플리케이션을 만듭니다. 자세한 내용은 다음을 참조하십시오.[Facebook 유형 웹 응용 프로그램을 만드는 중](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application).
+1. Adobe Campaign에서 Facebook 유형 웹 애플리케이션을 만듭니다. 자세한 내용은 다음을 참조하십시오. [Facebook 유형 웹 응용 프로그램을 만드는 중](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application).
 
    ![](assets/social_webapp_005.png)
 
@@ -78,7 +80,7 @@ ht-degree: 1%
 
    ![](assets/social_webapp_004.png)
 
-1. facebook 페이지에서 Facebook 애플리케이션이 탭으로 표시되도록 구성합니다. 자세한 내용은 다음을 참조하십시오.[Facebook 탭 구성](../../social/using/creating-a-facebook-application.md#configuring-facebook-tabs)
+1. facebook 페이지에서 Facebook 애플리케이션이 탭으로 표시되도록 구성합니다. 자세한 내용은 다음을 참조하십시오. [Facebook 탭 구성](../../social/using/creating-a-facebook-application.md#configuring-facebook-tabs)
 
    ![](assets/social_quick_start_5.png)
 
@@ -159,9 +161,9 @@ facebook이 Adobe Campaign에 보내는 익명 데이터 중 **[!UICONTROL Appli
 
 그것은 세 개의 지기로 구성되어 있습니다.
 
-* **[!UICONTROL identifier (UID) is empty]** :사용자가 이미 정보를 공유하기로 동의한 경우에만 식별자가 Facebook에 의해 전달됩니다. **[!UICONTROL Test]** 활동의 첫 번째 분기를 사용하면 입장한 적이 없는 사용자(예: 빈 ID가 있는 사용자)에게만 경쟁을 사용할 수 있도록 할 수 있습니다.
-* **[!UICONTROL application parameter equals 'thanks']** :facebook에 연결된 표시 오류를 사이드 단계로 이동하려면 웹 애플리케이션 종료 페이지는  **[!UICONTROL app_data]** 값 사용에 추가된  **[!UICONTROL thanks]** Facebook 애플리케이션의 URL을 가리킵니다. 자세한 내용은 다음을 참조하십시오. [종료 활동](#end-activity)). 두 번째 분기를 사용하면 사용자가 첫 번째 분기의 **[!UICONTROL End]** 활동에서 왔는지(그리고 방금 경쟁에 들어갔는지) 확인하여 감사 메시지를 표시할 수 있습니다. 추가 URL 매개 변수 사용에 대한 자세한 내용은 다음을 참조하십시오.[설정을 Facebook 애플리케이션에 전달하는 방법?](#how-to-forward-settings-to-a-facebook-application-)
-* **[!UICONTROL Default branch]** :사용자가 이전 날짜(와 다른 애플리케이션 매개 변수)에 이미 경쟁 제품(ID)에  **[!UICONTROL thanks]**&#x200B;입장한 경우 이미 입력했음을 나타내는 페이지가 표시됩니다.
+* **[!UICONTROL identifier (UID) is empty]** : 사용자가 이미 정보를 공유하기로 동의한 경우에만 식별자가 Facebook에 의해 전달됩니다. **[!UICONTROL Test]** 활동의 첫 번째 분기를 사용하면 입장한 적이 없는 사용자(예: 빈 ID가 있는 사용자)에게만 경쟁을 사용할 수 있도록 할 수 있습니다.
+* **[!UICONTROL application parameter equals 'thanks']** : facebook에 연결된 표시 오류를 사이드 단계로 이동하려면 웹 애플리케이션 종료 페이지는  **[!UICONTROL app_data]** 값 사용에 추가된  **[!UICONTROL thanks]** Facebook 애플리케이션의 URL을 가리킵니다. 자세한 내용은 다음을 참조하십시오.  [종료 활동](#end-activity)). 두 번째 분기를 사용하면 사용자가 첫 번째 분기의 **[!UICONTROL End]** 활동에서 왔는지(그리고 방금 경쟁에 들어갔는지) 확인하여 감사 메시지를 표시할 수 있습니다. 추가 URL 매개 변수 사용에 대한 자세한 내용은 다음을 참조하십시오. [설정을 Facebook 애플리케이션에 전달하는 방법?](#how-to-forward-settings-to-a-facebook-application-)
+* **[!UICONTROL Default branch]** : 사용자가 이전 날짜(와 다른 애플리케이션 매개 변수)에 이미 경쟁 제품(ID)에  **[!UICONTROL thanks]**&#x200B;입장한 경우 이미 입력했음을 나타내는 페이지가 표시됩니다.
 
 ### 경쟁 페이지 {#competition-page}
 
@@ -171,7 +173,7 @@ facebook에 연결된 표시 오류를 사이드 단계로 이동하려면 경�
 
 ### 액세스 제어 활동 {#access-control-activity}
 
-**[!UICONTROL Access control]** 활동을 사용하면 사용자가 경쟁에 입장할 때 Facebook 권한 요청 페이지를 표시할 수 있습니다. 이들이 자신의 정보를 공유하는 데 동의하면 사전 로드 중에 복구됩니다. 자세한 내용은 다음을 참조하십시오.[활동 미리 로드](#pre-loading-activity).
+**[!UICONTROL Access control]** 활동을 사용하면 사용자가 경쟁에 입장할 때 Facebook 권한 요청 페이지를 표시할 수 있습니다. 이들이 자신의 정보를 공유하는 데 동의하면 사전 로드 중에 복구됩니다. 자세한 내용은 다음을 참조하십시오. [활동 미리 로드](#pre-loading-activity).
 
 웹 응용 프로그램을 만들 때 이전에 외부 계정을 입력한 경우( [Facebook 유형 웹 응용 프로그램 만들기](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application) 참조) 활동을 편집할 필요가 없습니다. 없는 경우 **[!UICONTROL Application]** 필드로 이동하고 Facebook 애플리케이션에 연결된 외부 계정을 선택합니다.
 
@@ -181,8 +183,8 @@ facebook에 연결된 표시 오류를 사이드 단계로 이동하려면 경�
 
 미리 로드하는 데 사용할 데이터 소스를 선택합니다.
 
-* **[!UICONTROL Marketing database]** :이 옵션을 사용하면 Adobe Campaign 데이터베이스를 통해 데이터를 미리 로드할 수 있습니다.
-* **[!UICONTROL Facebook]** :이 옵션을 사용하면 Facebook을 사용하여 데이터를 미리 로드할 수 있습니다.
+* **[!UICONTROL Marketing database]** : 이 옵션을 사용하면 Adobe Campaign 데이터베이스를 통해 데이터를 미리 로드할 수 있습니다.
+* **[!UICONTROL Facebook]** : 이 옵션을 사용하면 Facebook을 사용하여 데이터를 미리 로드할 수 있습니다.
 
 ![](assets/social_webapp_029.png)
 
@@ -204,13 +206,13 @@ facebook에 연결된 표시 오류를 사이드 단계로 이동하려면 경�
 
 **[!UICONTROL Database information]** 옵션을 사용하면 다음 데이터를 수집할 수 있습니다.
 
-* **[!UICONTROL External ID]**:사용자 ID
-* **[!UICONTROL Gender]**:사용자의 성별
-* **[!UICONTROL Verified]** :이 필드는 사용자에게 확인된 Facebook 계정이 있는지 여부를 지정합니다.
-* **[!UICONTROL Full name]**:사용자의 전체 이름
-* **[!UICONTROL First name]**:사용자 이름
-* **[!UICONTROL Last name]**:사용자의 성
-* **[!UICONTROL Language]**:사용자 언어
+* **[!UICONTROL External ID]**: 사용자 ID
+* **[!UICONTROL Gender]**: 사용자의 성별
+* **[!UICONTROL Verified]** : 이 필드는 사용자에게 확인된 Facebook 계정이 있는지 여부를 지정합니다.
+* **[!UICONTROL Full name]**: 사용자의 전체 이름
+* **[!UICONTROL First name]**: 사용자 이름
+* **[!UICONTROL Last name]**: 사용자의 성
+* **[!UICONTROL Language]**: 사용자 언어
 
 해당 상자를 선택하여 프로필 사진, 친구 목록, 이메일 주소, 생년월일, 관심사 및 위치를 수집하도록 결정할 수도 있습니다.
 
@@ -237,9 +239,9 @@ facebook에 연결된 표시 오류를 사이드 단계로 이동하려면 경�
 1. **[!UICONTROL Visitor creation folder]** 필드에서 프로필을 만들 폴더를 선택합니다. facebook 유형 웹 애플리케이션의 경우 기본 생성 폴더는 **[!UICONTROL Visitors]**&#x200B;입니다.
 1. **[!UICONTROL Reconciliation mode]** 필드에서 사용할 조정 모드를 선택합니다.
 
-   * **[!UICONTROL Automatic]** :조정은 이메일, 성, 이름 및 생년월일에 따라 수행됩니다.
-   * **[!UICONTROL Manual]** :조정 키를 하나 이상 선택하십시오.
-   * **[!UICONTROL None]** :어떠한 화해도 일어나지 않을 것이다.
+   * **[!UICONTROL Automatic]** : 조정은 이메일, 성, 이름 및 생년월일에 따라 수행됩니다.
+   * **[!UICONTROL Manual]** : 조정 키를 하나 이상 선택하십시오.
+   * **[!UICONTROL None]** : 어떠한 화해도 일어나지 않을 것이다.
 
 1. **[!UICONTROL Mapping]** 필드에서 조정을 수행할 스키마를 선택합니다.
 
@@ -251,7 +253,7 @@ facebook에 연결된 표시 오류를 사이드 단계로 이동하려면 경�
 
 ### 종료 활동 {#end-activity}
 
-facebook에 연결된 표시 오류를 옆으로 이동하려면 **[!UICONTROL Use an external URL]** 상자를 선택하고 Facebook 애플리케이션의 URL을 입력한 후 **[!UICONTROL app_data]** 매개 변수와 값을 입력해야 합니다. 이 값은 **[!UICONTROL Test]** 활동에서 사용자가 방금 경쟁사에 참가했는지 여부를 감지하고 해당하는 경우 감사 메시지를 표시하는 데 사용됩니다. 자세한 내용은 다음을 참조하십시오.[테스트 활동](#test-activity).
+facebook에 연결된 표시 오류를 옆으로 이동하려면 **[!UICONTROL Use an external URL]** 상자를 선택하고 Facebook 애플리케이션의 URL을 입력한 후 **[!UICONTROL app_data]** 매개 변수와 값을 입력해야 합니다. 이 값은 **[!UICONTROL Test]** 활동에서 사용자가 방금 경쟁사에 참가했는지 여부를 감지하고 해당하는 경우 감사 메시지를 표시하는 데 사용됩니다. 자세한 내용은 다음을 참조하십시오. [테스트 활동](#test-activity).
 
 이 예제에서 사용된 값은 **thanks**&#x200B;입니다.
 
@@ -259,9 +261,9 @@ facebook에 연결된 표시 오류를 옆으로 이동하려면 **[!UICONTROL U
 
 ### 방문자의 세부 사항 화면 {#details-screen-of-a-visitor}
 
-twitter 팔로워의 경우처럼 다음을 참조하십시오.[운영 원칙](../../social/using/publishing-on-twitter.md#operating-principle))에서 복구된 Facebook 프로필은 방문자 표에 저장됩니다. 방문자 목록을 표시하려면 **[!UICONTROL Profiles and Targets > Visitors]** 노드로 이동합니다.
+twitter 팔로워의 경우처럼 다음을 참조하십시오. [운영 원칙](../../social/using/publishing-on-twitter.md#operating-principle))에서 복구된 Facebook 프로필은 방문자 표에 저장됩니다. 방문자 목록을 표시하려면 **[!UICONTROL Profiles and Targets > Visitors]** 노드로 이동합니다.
 
-프로필 정보를 공유하는 데 동의한 각 Facebook 잠재 고객이 방문자 목록에 추가됩니다. **[!UICONTROL Friends]** 상자가 **[!UICONTROL Pre-load]** 활동에서 선택된 경우 다음을 참조하십시오.[활동 미리 로드](#pre-loading-activity))인 친구도 추가됩니다.
+프로필 정보를 공유하는 데 동의한 각 Facebook 잠재 고객이 방문자 목록에 추가됩니다. **[!UICONTROL Friends]** 상자가 **[!UICONTROL Pre-load]** 활동에서 선택된 경우 다음을 참조하십시오. [활동 미리 로드](#pre-loading-activity))인 친구도 추가됩니다.
 
 ![](assets/social_webapp_037.png)
 
@@ -283,7 +285,7 @@ twitter 팔로워의 경우처럼 다음을 참조하십시오.[운영 원칙](.
 
 방문자 세부 사항 페이지의 **[!UICONTROL Activities]** 화면에는 다음 정보가 포함됩니다.
 
-* &quot;Open Graph&quot; 유형 팬 활동:음악 재생, 비디오 시청, 문서 읽기 및 설치된 애플리케이션(Deezer, Spotify, Dailymotion, Yahoo News 등)
+* &quot;Open Graph&quot; 유형 팬 활동: 음악 재생, 비디오 시청, 문서 읽기 및 설치된 애플리케이션(Deezer, Spotify, Dailymotion, Yahoo News 등)
 
    ![](assets/social_facebook_activities.png)
 
@@ -309,7 +311,7 @@ twitter 팔로워의 경우처럼 다음을 참조하십시오.[운영 원칙](.
 
 **facebook 프로필에서 가져온 데이터로 양식 필드를 미리 로드합니다**
 
-웹 양식을 만들고 사용자가 양식 페이지에 상호 작용이 없는 요소를 포함합니다.이미지, HTML 콘텐츠, 가로 막대 또는 하이퍼텍스트 링크와 같은 정적 요소입니다. [이 페이지](../../web/using/static-elements-in-a-web-form.md)에서 웹 양식의 정적 요소에 대해 자세히 알아보십시오.
+웹 양식을 만들고 사용자가 양식 페이지에 상호 작용이 없는 요소를 포함합니다. 이미지, HTML 콘텐츠, 가로 막대 또는 하이퍼텍스트 링크와 같은 정적 요소입니다. [이 페이지](../../web/using/static-elements-in-a-web-form.md)에서 웹 양식의 정적 요소에 대해 자세히 알아보십시오.
 
 정적 요소를 삽입할 때 **[!UICONTROL Preload with Facebook]** 옵션을 사용하면 Facebook 프로필 정보를 사용하여 필드를 미리 로드하기 위해 양식에 단추를 삽입할 수 있습니다.
 

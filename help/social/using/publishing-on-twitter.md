@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: e030c029-d1ee-4749-94e3-6bdfc8d89a34
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # Twitter에서 게시{#publishing-on-twitter}
+
+![](../../assets/v7-only.svg)
 
 ## twitter 계정에 게시 {#publishing-on-your-twitter-accounts}
 
@@ -32,7 +34,7 @@ ht-degree: 5%
 
 ![](assets/social_twitter_delivery_001.png)
 
-### 기본 대상 {#selecting-the-main-target} 선택
+### 기본 대상 선택 {#selecting-the-main-target}
 
 트윗을 전송할 계정을 선택합니다.
 
@@ -52,7 +54,7 @@ ht-degree: 5%
 
    ![](assets/social_twitter_delivery_011.png)
 
-### 증명 {#selecting-the-target-of-the-proof} 대상 선택
+### 증명 대상 선택 {#selecting-the-target-of-the-proof}
 
 **[!UICONTROL Target of the proofs]** 탭에서는 최종 게재 전에 테스트 게재에 사용할 Twitter 계정을 정의할 수 있습니다. 따라서 증명 보내기에 전용 개인 Twitter 계정을 만드는 것이 좋습니다. 개인 Twitter 계정을 만드는 방법에 대한 자세한 내용은 [Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter)에 테스트 계정 만들기를 참조하십시오. 증명 대상을 선택하는 단계는 기본 대상을 선택하는 단계와 동일합니다. [Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter)에 테스트 계정 만들기를 참조하십시오.
 
@@ -68,7 +70,7 @@ ht-degree: 5%
 
 ![](assets/social_twitter_delivery_005.png)
 
-### 미리 보기 {#viewing-the-preview} 보기
+### 미리 보기 보기 보기 {#viewing-the-preview}
 
 **[!UICONTROL Preview]** 탭에서는 트윗의 렌더링을 볼 수 있습니다.
 
@@ -97,13 +99,13 @@ ht-degree: 5%
 >
 >트윗을 분석하는 로봇과 실제로 클릭하는 사용자 간의 차이를 알 수 없습니다.
 
-### 증명 {#sending-the-proof} 보내기
+### 증명 보내기 {#sending-the-proof}
 
 개인 Twitter 테스트 페이지에서 발행물의 정확한 렌더링을 얻으려면 최종 게재 전에 발행물 증명을 보내는 것이 좋습니다. 비공개 Twitter 계정 만들기에 대한 자세한 내용은 [Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter)에 테스트 계정 만들기를 참조하십시오. 증명 대상을 선택하는 단계는 [증명 대상 선택](#selecting-the-target-of-the-proof)에 자세히 설명되어 있습니다.
 
 증명 게재는 이메일 게재와 동일합니다. [이 섹션](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)을 참조하십시오.
 
-### 메시지 {#sending-the-message} 보내기
+### 메시지 보내기 {#sending-the-message}
 
 1. 컨텐츠가 승인되면 **[!UICONTROL Send]** 버튼을 클릭합니다.
 1. **[!UICONTROL Deliver as soon as possible]** 을 선택하고 **[!UICONTROL Analyze]** 버튼을 클릭합니다.
@@ -123,24 +125,24 @@ ht-degree: 5%
 
 ### 운영 원칙 {#operating-principle}
 
-**[!UICONTROL Synchronize Twitter accounts]** 워크플로우([Twitter 계정 동기화](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts) 참조)는 직접 메시지를 보낼 수 있도록 Twitter 구독자 목록을 복구합니다. 복구된 팔로워는 특정 테이블에 저장됩니다.방문자 테이블입니다. twitter 팔로워의 목록을 표시하려면 **[!UICONTROL Profiles and Targets > Visitors]** 노드로 이동합니다.
+**[!UICONTROL Synchronize Twitter accounts]** 워크플로우([Twitter 계정 동기화](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts) 참조)는 직접 메시지를 보낼 수 있도록 Twitter 구독자 목록을 복구합니다. 복구된 팔로워는 특정 테이블에 저장됩니다. 방문자 테이블입니다. twitter 팔로워의 목록을 표시하려면 **[!UICONTROL Profiles and Targets > Visitors]** 노드로 이동합니다.
 
 ![](assets/social_twitter_visitors_001.png)
 
 >[!IMPORTANT]
 >
->워크플로우가 Twitter 팔로워 목록을 복구하려면 계정에 연결된 서비스의 편집 화면에서 **[!UICONTROL Synchronize Twitter accounts]** 상자를 선택해야 합니다. 자세한 내용은 다음을 참조하십시오.[Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign)에 대한 쓰기 액세스 권한을 위임합니다.
+>워크플로우가 Twitter 팔로워 목록을 복구하려면 계정에 연결된 서비스의 편집 화면에서 **[!UICONTROL Synchronize Twitter accounts]** 상자를 선택해야 합니다. 자세한 내용은 다음을 참조하십시오. [Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign)에 대한 쓰기 액세스 권한을 위임합니다.
 
 Adobe Campaign은 각 팔로어에 대해 다음 정보를 복구합니다.
 
-* **[!UICONTROL Origin]**:소셜 네트워크 이름(이 **** 경우 Twitter)
-* **[!UICONTROL External ID]**:사용자 식별자
-* **[!UICONTROL User name]**:사용자의 계정 이름
-* **[!UICONTROL Full name]**:사용자 이름
-* **[!UICONTROL Language]**:사용자 언어
-* **[!UICONTROL Number of friends]**:팔로워 수
-* **[!UICONTROL Time zone]**:사용자 시간대
-* **[!UICONTROL Verified]**:이 필드는 사용자가 확인된 Twitter 계정을 가지고 있는지 여부를 나타냅니다
+* **[!UICONTROL Origin]**: 소셜 네트워크 이름(이 **** 경우 Twitter)
+* **[!UICONTROL External ID]**: 사용자 식별자
+* **[!UICONTROL User name]**: 사용자의 계정 이름
+* **[!UICONTROL Full name]**: 사용자 이름
+* **[!UICONTROL Language]**: 사용자 언어
+* **[!UICONTROL Number of friends]**: 팔로워 수
+* **[!UICONTROL Time zone]**: 사용자 시간대
+* **[!UICONTROL Verified]**: 이 필드는 사용자가 확인된 Twitter 계정을 가지고 있는지 여부를 나타냅니다
 
 ### 제한 사항 {#limitations-1}
 
@@ -156,7 +158,7 @@ Adobe Campaign은 각 팔로어에 대해 다음 정보를 복구합니다.
 
 ![](assets/social_twitter_delivery_010.png)
 
-### 기본 대상 {#selecting-the-main-target-1} 선택
+### 기본 대상 선택 {#selecting-the-main-target-1}
 
 직접 메시지를 보낼 팔로워를 선택합니다.
 
@@ -182,7 +184,7 @@ Adobe Campaign은 각 팔로어에 대해 다음 정보를 복구합니다.
 
       ![](assets/social_twitter_delivery_018.png)
 
-### 증명 {#selecting-the-target-of-the-proof-1} 대상 선택
+### 증명 대상 선택 {#selecting-the-target-of-the-proof-1}
 
 **[!UICONTROL Target of the proofs]** 탭에서는 직접 메시지 증명을 받을 팔로워를 선택할 수 있습니다. 선택 프로세스는 기본 타겟과 동일합니다. [기본 대상 선택](#selecting-the-main-target)을 참조하십시오.
 

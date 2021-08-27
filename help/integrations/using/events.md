@@ -5,7 +5,7 @@ description: 사용자 지정 구현을 위한 이벤트를 구성하는 방법 
 audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # 사용자 지정 구현을 위한 이벤트 구성 {#events}
+
+![](../../assets/common.svg)
 
 이 구성의 일부는 사용자 정의 개발이며, 다음을 필요로 합니다.
 
@@ -50,7 +52,7 @@ function processPipelineMessage(xmlTrigger) {}
 
 Javascript를 편집한 후 [!DNL pipelined]을 다시 시작해야 합니다.
 
-### 데이터 형식 {#trigger-format} 트리거
+### 데이터 형식 트리거 {#trigger-format}
 
 [!DNL trigger] 데이터는 XML 형식으로 JS 함수에 전달됩니다.
 
@@ -68,7 +70,7 @@ Javascript를 편집한 후 [!DNL pipelined]을 다시 시작해야 합니다.
  </trigger>
 ```
 
-### 데이터 형식 보강 {#enrichment-format}
+### 데이터 형식 강화 {#enrichment-format}
 
 >[!NOTE]
 >
@@ -148,7 +150,7 @@ function processPipelineMessage(xmlTrigger)
 오류를 방지하려면 구문 분석 시 주의하십시오.
 이 코드는 모든 트리거에 사용되므로 대부분의 데이터가 필요하지 않습니다. 따라서 존재하지 않을 때 비워 둘 수 있습니다.
 
-### 트리거 {#storing-triggers-js} 저장
+### 트리거 저장 {#storing-triggers-js}
 
 >[!NOTE]
 >
@@ -184,7 +186,7 @@ function processPipelineMessage(xmlTrigger)
 
 더 빠른 처리를 위해 이 스크립트의 여러 스레드가 동시에 실행됩니다. 코드가 스레드로부터 안전해야 합니다.
 
-## 이벤트 {#store-events} 저장
+## 이벤트 저장 {#store-events}
 
 >[!NOTE]
 >
@@ -209,19 +211,19 @@ triggerType 필드는 데이터를 트리거하는 대상을 식별합니다.
 | lastModified | Datetime | 마지막 수정 날짜 | Adobe에서 이벤트가 마지막으로 수정된 시간입니다. |
 | timeGMT | Datetime | Timestamp | Analytics에서 이벤트가 생성된 시간입니다. |
 
-### 이벤트 {#display-events} 표시
+### 이벤트 표시 {#display-events}
 
 이벤트 스키마를 기반으로 하여 간단한 양식으로 이벤트를 표시할 수 있습니다.
 
 >[!NOTE]
 >
->파이프라인 이벤트 노드는 내장된 것이 아니며, Campaign에서 관련 양식을 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 정보는 다음 섹션을 참조하십시오.[탐색 계층](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). 및 [양식 편집](../../configuration/using/editing-forms.md)
+>파이프라인 이벤트 노드는 내장된 것이 아니며, Campaign에서 관련 양식을 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 정보는 다음 섹션을 참조하십시오. [탐색 계층](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). 및 [양식 편집](../../configuration/using/editing-forms.md)
 
 ![](assets/triggers_7.png)
 
-## 이벤트 {#processing-the-events} 처리
+## 이벤트 처리 {#processing-the-events}
 
-### 조정 작업 과정 {#reconciliation-workflow}
+### 조정 워크플로우 {#reconciliation-workflow}
 
 조정 은 Adobe Analytics의 고객을 Adobe Campaign 데이터베이스에 연결하는 프로세스입니다. 예를 들어 일치하기 위한 기준은 shopper_id일 수 있습니다.
 
@@ -234,7 +236,7 @@ JavaScript에서 각 트리거에 대한 조정 쿼리를 실행할 수 있습�
 
 shopper_id에 인덱스가 설정되어 있지 않으면 구현하기 어려울 수 있습니다. 마케팅 서버가 아닌 별도의 데이터베이스 서버에 있는 기준의 경우 데이터베이스 링크를 사용하므로 성능이 저하됩니다.
 
-### 워크플로우 삭제 {#purge-workflow}
+### 워크플로우 제거 {#purge-workflow}
 
 트리거는 1시간 내에 처리됩니다. 볼륨은 시간당 약 100만 개의 트리거일 수 있습니다. 이렇게 하면 제거 워크플로우가 제자리에 놓여야 하는 이유를 설명합니다. 제거는 하루에 한 번 실행되며 3일 이상 경과한 모든 트리거를 삭제합니다.
 

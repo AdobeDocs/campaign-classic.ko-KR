@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 61bb184e-affa-430c-8571-56e911cd5a3d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 3%
@@ -15,14 +15,16 @@ ht-degree: 3%
 
 # 문제 해결{#troubleshooting}
 
+![](../../assets/common.svg)
+
 오류가 발생하는 경우 다음 요소가 올바르게 구성되어 있는지 확인하십시오.
 
 * **외부 계정**
 
    **[!UICONTROL Administration > Platform > External accounts]**&#x200B;에서 다음 외부 SFTP 계정이 올바르게 구성되었는지 확인합니다. 언급된 SFTP 서버는 컨설턴트가 Adobe Experience Cloud에 구성했어야 합니다.
 
-   * **[!UICONTROL importSharedAudience]** :대상을 가져오는 데 사용되는 SFTP 계정입니다.
-   * **[!UICONTROL exportSharedAudience]** :대상 내보내기를 위한 SFTP 계정입니다.
+   * **[!UICONTROL importSharedAudience]** : 대상을 가져오는 데 사용되는 SFTP 계정입니다.
+   * **[!UICONTROL exportSharedAudience]** : 대상 내보내기를 위한 SFTP 계정입니다.
 
 * **AMC 데이터 소스**
 

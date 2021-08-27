@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 0%
 
 ---
 
-# teradata {#configure-access-to-teradata}에 대한 액세스 구성
+# teradata 액세스 구성 {#configure-access-to-teradata}
+
+![](../../assets/v7-only.svg)
 
 Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 Teradata 액세스를 구성합니다.
 
@@ -33,7 +35,7 @@ Campaign에 대한 연결을 구현하려면 Teradata에 드라이버를 설치�
    * tdicu1510(setup_wrapper.sh를 사용하여 설치)
    * tdobc1510(setup_wrapper.sh를 사용하여 설치)
 
-1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다.일반 매개 변수의 경우 /etc/odbc.ini **, 드라이버 선언의 경우 /etc/odbcinst.ini:**
+1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다. 일반 매개 변수의 경우 /etc/odbc.ini **, 드라이버 선언의 경우 /etc/odbcinst.ini:**
 
    * **/etc/odbc.ini**
 
@@ -60,14 +62,13 @@ Campaign에 대한 연결을 구현하려면 Teradata에 드라이버를 설치�
 
 1. Adobe Campaign 서버의 환경 변수를 지정합니다.
 
-   * **LD_LIBRARY_PATH**:/opt/teradata/client/15.10/lib64 및 /opt/teradata/client/15.10/odbc_64/lib.
-   * **오디치니**:odbc.ini 파일의 위치(예: /etc/odbc.ini)입니다.
-   * **NLSPATH**:opermsgs.cat 파일의 위치(/opt/teradata/client/15.10/msg/opermsgs.cat)
+   * **LD_LIBRARY_PATH**: /opt/teradata/client/15.10/lib64 및 /opt/teradata/client/15.10/odbc_64/lib.
+   * **오디치니**: odbc.ini 파일의 위치(예: /etc/odbc.ini)입니다.
+   * **NLSPATH**: opermsgs.cat 파일의 위치(/opt/teradata/client/15.10/msg/opermsgs.cat)
 
 >[!NOTE]
 >
 >FDA에서 Teradata 외부 데이터베이스에 연결하려면 Adobe Campaign 서버에서 추가 구성 단계를 수행해야 합니다. [자세히 알아보기](#teradata-additional-configurations)
-
 
 ## Teradata 외부 계정{#teradata-external}
 
@@ -81,19 +82,19 @@ teradata 외부 계정을 사용하면 Campaign 인스턴스를 Teradata 외부 
 
 1. **[!UICONTROL Teradata]** 외부 계정을 구성하려면 다음을 지정해야 합니다.
 
-   * **[!UICONTROL Type]**:유형을  **[!UICONTROL Teradata]** 선택합니다.
+   * **[!UICONTROL Type]**: 유형을  **[!UICONTROL Teradata]** 선택합니다.
 
-   * **[!UICONTROL Server]**:teradata 서버의 URL 또는 이름
+   * **[!UICONTROL Server]**: teradata 서버의 URL 또는 이름
 
-   * **[!UICONTROL Account]**:teradata 데이터베이스에 액세스하는 데 사용되는 계정의 이름입니다
+   * **[!UICONTROL Account]**: teradata 데이터베이스에 액세스하는 데 사용되는 계정의 이름입니다
 
-   * **[!UICONTROL Password]**:teradata 데이터베이스에 연결하는 데 사용되는 암호
+   * **[!UICONTROL Password]**: teradata 데이터베이스에 연결하는 데 사용되는 암호
 
-   * **[!UICONTROL Database]**:데이터베이스 이름(선택 사항)
+   * **[!UICONTROL Database]**: 데이터베이스 이름(선택 사항)
 
-   * **[!UICONTROL Options]**:teradata을 통해 전달할 옵션입니다. 다음 형식을 사용하십시오.&#39;parameter=value&#39;. 반열을 값 사이의 구분자로 사용합니다.
+   * **[!UICONTROL Options]**: teradata을 통해 전달할 옵션입니다. 다음 형식을 사용하십시오. &#39;parameter=value&#39;. 반열을 값 사이의 구분자로 사용합니다.
 
-   * **[!UICONTROL Timezone]**:teradata에서 설정된 시간대. [자세히 알아보기](#timezone)
+   * **[!UICONTROL Timezone]**: teradata에서 설정된 시간대. [자세히 알아보기](#timezone)
 
 ### 쿼리 밴딩
 
@@ -117,9 +118,9 @@ teradata 외부 계정을 사용하면 Campaign 인스턴스를 Teradata 외부 
 
 #### 외부 계정 문제 해결 {#external-account-troubleshooting}
 
-연결 **TIM-030008 날짜 &#39;2&#39;를 테스트하는 동안 다음 오류가 표시되는 경우:누락된 문자(s)(iRc=-53)** ODBC 드라이버가 올바르게 설치되어 있고 Campaign 서버에 대해 LD_LIBRARY_PATH(Linux) / PATH(Windows)가 설정되어 있는지 확인합니다.
+연결 **TIM-030008 날짜 &#39;2&#39;를 테스트하는 동안 다음 오류가 표시되는 경우: 누락된 문자(s)(iRc=-53)** ODBC 드라이버가 올바르게 설치되어 있고 Campaign 서버에 대해 LD_LIBRARY_PATH(Linux) / PATH(Windows)가 설정되어 있는지 확인합니다.
 
-오류 **ODB-240000 ODBC 오류:[Microsoft][ODBC Driver Manager] 데이터 원본 이름을 찾을 수 없고 기본 드라이버가 지정되지 않았습니다.** 16.X 드라이버를 사용하는 경우 Windows에서 발생합니다. Adobe Campaign에서는 odbcinst.ini에서 &#39;{teradata}&#39; 이름을 지정해야 합니다.
+오류 **ODB-240000 ODBC 오류: [Microsoft][ODBC Driver Manager] 데이터 원본 이름을 찾을 수 없고 기본 드라이버가 지정되지 않았습니다.** 16.X 드라이버를 사용하는 경우 Windows에서 발생합니다. Adobe Campaign에서는 odbcinst.ini에서 &#39;{teradata}&#39; 이름을 지정해야 합니다.
 
 * Campaign 18.10부터 외부 계정의 옵션에 ODBCDriverName=&quot;Teradata 데이터베이스 ODBC 드라이버 16.10&quot;을 추가할 수 있습니다. 버전 번호를 변경할 수 있으며, 정확한 이름은 odbcad32.exe를 실행하고 드라이버 탭에 액세스하여 찾을 수 있습니다.
 
@@ -150,7 +151,7 @@ Customers with a Latin-1 Teradata database migrating to a recent Campaign Classi
 
 ### 사용자 구성 {#user-configuration}
 
-외부 데이터베이스에 대해 다음 권한이 필요합니다.사용자 지정 절차 만들기/놓기/실행, 테이블 만들기/놓기/삽입/선택 Adobe Campaign 인스턴스에서 md5 및 sha2 함수를 사용하려면 사용자 모드 함수를 만들어야 할 수도 있습니다.
+외부 데이터베이스에 대해 다음 권한이 필요합니다. 사용자 지정 절차 만들기/놓기/실행, 테이블 만들기/놓기/삽입/선택 Adobe Campaign 인스턴스에서 md5 및 sha2 함수를 사용하려면 사용자 모드 함수를 만들어야 할 수도 있습니다.
 
 올바른 시간대를 구성해야 합니다. Adobe Campaign 인스턴스에서 만든 외부 계정에서 설정할 내용과 일치해야 합니다.
 
@@ -282,7 +283,7 @@ ODBC 드라이버를 설치하려면
 
 1. libteapi.so 파일은 /opt/teradata/client/16.20/lib64에서 사용할 수 있습니다.
 
-## Windows {#campaign-server-windows}에 대한 Campaign 서버 구성
+## Windows용 Campaign 서버 구성 {#campaign-server-windows}
 
 먼저 Windows용 Teradata 도구 및 유틸리티를 다운로드해야 합니다. 이 [페이지](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-windows-installation-package)에서 다운로드할 수 있습니다
 
@@ -294,7 +295,7 @@ ODBC 드라이버와 Teradata Parallel Transporter Base를 설치해야 합니�
 
 Teradata은 표준이 아닌 표준 시간대 이름을 사용하므로 [Teradata 사이트](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/oGKvgl7gCeBMTGrp59BnwA)에서 목록을 찾을 수 있습니다. Adobe Campaign은 외부 구성에 지정된 시간대를 Teradata이 이해할 수 있는 시간대로 변환하려고 합니다. 서신이 없으면 세션에 대한 옷장 GMT+X(또는 GMT-X) 시간대를 찾아 로그에 경고가 표시됩니다.
 
-변환은 다음 데이터 키트 디렉토리에 있어야 하는 teradata_timezone.txt 파일을 읽습니다.linux의 /usr/local/neolane/nl6/datakit 이 파일을 편집하는 경우 Adobe Campaign 팀에 연락하여 소스 코드를 변경해야 합니다. 그렇지 않으면 다음 Campaign 업데이트 중에 이 파일을 덮어씁니다.
+변환은 다음 데이터 키트 디렉토리에 있어야 하는 teradata_timezone.txt 파일을 읽습니다. linux의 /usr/local/neolane/nl6/datakit 이 파일을 편집하는 경우 Adobe Campaign 팀에 연락하여 소스 코드를 변경해야 합니다. 그렇지 않으면 다음 Campaign 업데이트 중에 이 파일을 덮어씁니다.
 
 연결하는 데 사용되는 시간대는 -verbose 스위치를 사용하여 nlserver를 실행할 때 표시됩니다. 예:
 

@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 7%
@@ -15,13 +15,15 @@ ht-degree: 7%
 
 # 암호 분실{#lost-password}
 
+![](../../assets/v7-only.svg)
+
 분실된 암호를 변경하거나 복구할 수 있습니다.
 다음 두 가지 가능한 시나리오가 있습니다.
 
 * [Adobe Campaign 연산자에 의해 암호 분실](#password-lost-by-campaign-operator)
 * [내부 암호 분실](#internal-password-lost) (온-프레미스 고객만 해당)
 
-## Campaign 연산자 {#password-lost-by-campaign-operator}에 의해 암호가 손실되었습니다.
+## Campaign 연산자에 의해 암호 분실 {#password-lost-by-campaign-operator}
 
 Adobe Campaign 연산자가 암호를 잃어버리면 변경할 수 있습니다.
 이렇게 하려면 아래 단계를 수행합니다:
@@ -34,7 +36,7 @@ Adobe Campaign 연산자가 암호를 잃어버리면 변경할 수 있습니다
 
 1. 연산자의 새 암호를 설정합니다. 연산자가 처음 다시 연결할 때 암호를 변경하는 것이 좋습니다.
 
-## 내부 암호가 손실됨 {#internal-password-lost}
+## 내부 암호 분실 {#internal-password-lost}
 
 >[!NOTE]
 >
@@ -52,7 +54,7 @@ Adobe Campaign 연산자가 암호를 잃어버리면 변경할 수 있습니다
    <xtk internalPassword="myPassword"/>
    ```
 
-1. 이 경우 문자열을 따옴표로 삭제합니다.**myPassword**
+1. 이 경우 문자열을 따옴표로 삭제합니다. **myPassword**
 
    따라서 다음 라인을 얻을 수 있습니다.
 

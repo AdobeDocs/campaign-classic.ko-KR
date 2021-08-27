@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 25%
@@ -14,6 +14,8 @@ ht-degree: 25%
 ---
 
 # 게재 모니터링 시작 {#about-delivery-monitoring}
+
+![](../../assets/common.svg)
 
 메시지를 게재한 후 마케팅 캠페인이 효율적이고 고객에게 도달하는지 확인하는 데 있어 게재 모니터링은 중요한 단계입니다.
 
@@ -25,7 +27,7 @@ ht-degree: 25%
 
 게재 목록을 사용하면 생성된 모든 게재를 하나의 위치에 볼 수 있습니다.
 
-각 게재에 대해 전용 대시보드를 사용할 수 있습니다. 이를 통해 전송 중에 발생하는 최종 문제와 게재와 관련된 다양한 유형의 정보를 모니터링할 수 있습니다.보고서, 미러 페이지, 제외, 추적 로그, 렌더링 등
+각 게재에 대해 전용 대시보드를 사용할 수 있습니다. 이를 통해 전송 중에 발생하는 최종 문제와 게재와 관련된 다양한 유형의 정보를 모니터링할 수 있습니다. 보고서, 미러 페이지, 제외, 추적 로그, 렌더링 등
 
 * [게재 목록 액세스](list-of-deliveries.md)
 * [게재 대시보드](delivery-dashboard.md)

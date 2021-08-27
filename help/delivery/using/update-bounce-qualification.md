@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 3%
@@ -16,9 +16,11 @@ ht-degree: 3%
 
 # Apple 중단 후 잘못된 하드 바운스 업데이트 {#update-bounce-qualification.md}
 
+![](../../assets/common.svg)
+
 ## 컨텍스트
 
-2021년 4월 26일, Apple의 글로벌 문제로 인해 유효한 Apple 이메일 주소로 전송된 일부 이메일 메시지가 바운스 다음 응답이 있는 Apple 서버의 잘못된 이메일 주소로 잘못 바운스되었습니다. &quot;550 5.1.1 &#39;이메일 주소&#39;:사용자 조회 성공했지만 사용자 레코드가 없습니다.&quot;
+2021년 4월 26일, Apple의 글로벌 문제로 인해 유효한 Apple 이메일 주소로 전송된 일부 이메일 메시지가 바운스 다음 응답이 있는 Apple 서버의 잘못된 이메일 주소로 잘못 바운스되었습니다.  &quot;550 5.1.1 &#39;이메일 주소&#39;: 사용자 조회 성공했지만 사용자 레코드가 없습니다.&quot;
 
 이 문제는 4/26 오전 7시 - 오후 1시에 발생했습니다.
 
@@ -26,7 +28,7 @@ ht-degree: 3%
 >
 >[이 페이지에서 Apple 시스템 상태 대시보드를 확인할 수 있습니다](https://www.apple.com/support/systemstatus/).
 
-ISP가 중단되는 경우, Campaign을 통해 전송된 이메일을 수신자에게 전달할 수 없습니다.이 이메일은 반송 행위로 잘못 표시될 것입니다.
+ISP가 중단되는 경우, Campaign을 통해 전송된 이메일을 수신자에게 전달할 수 없습니다. 이 이메일은 반송 행위로 잘못 표시될 것입니다.
 
 표준 바운스 처리 논리에 따라 Adobe Campaign은 **[!UICONTROL Quarantine]** 의 **[!UICONTROL Status]** 설정을 사용하여 이러한 수신자를 격리 목록에 자동으로 추가했습니다. 이 문제를 해결하려면 야간 정리 워크플로우가 제거할 수 있도록 이러한 수신자를 찾아 제거하거나 **[!UICONTROL Status]** 을 **[!UICONTROL Valid]**(으)로 변경하여 Campaign에서 격리 테이블을 업데이트해야 합니다.
 

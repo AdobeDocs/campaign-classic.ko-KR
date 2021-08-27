@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 아웃바운드 채널에 대한 오퍼{#offers-on-an-outbound-channel}
+
+![](../../assets/v7-only.svg)
 
 ## 이메일 오퍼 게재 {#email-offer-delivery}
 
@@ -56,7 +58,7 @@ ht-degree: 3%
    ![](assets/offer_delivery_example_009.png)
 
 1. 게재를 저장하고 타깃팅 워크플로우를 시작합니다.
-1. 게재를 열고 게재의 **[!UICONTROL Audit]** 탭을 클릭합니다.오퍼 엔진이 카탈로그의 여러 오퍼에서 만들 제안을 선택했음을 확인할 수 있습니다.
+1. 게재를 열고 게재의 **[!UICONTROL Audit]** 탭을 클릭합니다. 오퍼 엔진이 카탈로그의 여러 오퍼에서 만들 제안을 선택했음을 확인할 수 있습니다.
 
    ![](assets/offer_delivery_example_010.png)
 

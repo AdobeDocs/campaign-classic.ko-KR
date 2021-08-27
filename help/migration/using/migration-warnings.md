@@ -6,7 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: migration-overview
 exl-id: 46b46fc9-c7c9-4c74-b5f3-7935d5368520
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 마이그레이션 경고{#migration-warnings}
+
+![](../../assets/v7-only.svg)
 
 * 마이그레이션 프로세스는 전문가 사용자를 위해 예약되어 있습니다. Adobe Campaign의 데이터베이스 전문가, 시스템 관리자 및 애플리케이션 개발자의 지원을 받아야 합니다.
 * 마이그레이션을 시작하기 전에 사용하는 시스템 및 시스템 구성 요소가 v7과 실제로 호환되는지 확인하십시오. [호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.

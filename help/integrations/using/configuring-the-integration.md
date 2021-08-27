@@ -5,7 +5,7 @@ description: Campaign-AEM 통합을 구성하는 방법 알아보기
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 4%
@@ -14,7 +14,9 @@ ht-degree: 4%
 
 # 통합 구성{#configuring-the-integration}
 
-## Adobe Campaign {#configuring-in-adobe-campaign}에서 구성
+![](../../assets/common.svg)
+
+## Adobe Campaign에서 구성 {#configuring-in-adobe-campaign}
 
 이 두 솔루션을 함께 사용하려면 서로 연결하도록 구성해야 합니다.
 
@@ -26,7 +28,7 @@ ht-degree: 4%
 
 개인화 필드 및 블록 관리와 같은 고급 구성의 경우. Adobe Experience Manager [설명서](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html)를 참조하십시오.
 
-### Adobe Campaign {#install-the-aem-integration-package-in-adobe-campaign}에 AEM 통합 패키지를 설치합니다
+### Adobe Campaign에 AEM 통합 패키지 설치 {#install-the-aem-integration-package-in-adobe-campaign}
 
 먼저 **[!UICONTROL AEM integration]** 패키지를 설치해야 합니다.
 
@@ -42,7 +44,7 @@ ht-degree: 4%
 
 1. 다음 창에서 **[!UICONTROL Start]** 버튼을 클릭하여 패키지 설치를 시작합니다. 설치가 완료되면 창을 닫습니다.
 
-### AEM 연산자 {#configure-the-security-zone-for-aem-operator}에 대한 보안 영역을 구성합니다.
+### AEM 연산자에 대한 보안 영역 구성 {#configure-the-security-zone-for-aem-operator}
 
 **[!UICONTROL AEM integration]** 패키지는 Campaign에서 **[!UICONTROL aemserver]** 연산자를 설정합니다. 이 연산자는 Adobe Experience Manager 서버를 Adobe Campaign에 연결하는 데 사용됩니다.
 
@@ -109,7 +111,7 @@ AEM 외부 계정을 구성하려면 아래 단계를 수행하십시오.
 
    ![](assets/aem_config_5.png)
 
-## Adobe Experience Manager {#configuring-in-adobe-experience-manager}에서 구성
+## Adobe Experience Manager에서 구성 {#configuring-in-adobe-experience-manager}
 
 아래 절차에 따라 Adobe Experience Manager에서 구성을 시작하십시오.
 

@@ -6,14 +6,16 @@ audience: migration
 content-type: reference
 topic-tags: migration-overview
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 4%
 
 ---
 
-# Campaign Classic{#about-migration}으로 마이그레이션
+# Campaign Classic으로 마이그레이션{#about-migration}
+
+![](../../assets/v7-only.svg)
 
 이 문서에서는 마이그레이션에 대한 사전 요구 사항, Adobe Campaign Classic(v7)으로 마이그레이션하기 위한 단계, 구성에 따른 추가 필수 및 선택적 설정에 대해 자세히 설명합니다.
 

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 2%
@@ -15,11 +15,13 @@ ht-degree: 2%
 
 # 워크플로우 수명 주기 {#workflow-life-cycle}
 
+![](../../assets/common.svg)
+
 워크플로우 주기에는 세 가지 주요 단계가 있습니다.
 
 * **편집 중**
 
-   초기 설계 단계입니다.새 워크플로우가 만들어지면 해당 상태는 &#39;편집 중&#39;입니다. 워크플로우는 아직 서버에서 처리하지 않으며 위험 없이 수정할 수 있습니다.
+   초기 설계 단계입니다. 새 워크플로우가 만들어지면 해당 상태는 &#39;편집 중&#39;입니다. 워크플로우는 아직 서버에서 처리하지 않으며 위험 없이 수정할 수 있습니다.
 
 * **시작됨**
 
@@ -41,4 +43,4 @@ ht-degree: 2%
 
 운영자 관리에 대해서는 이 [섹션](../../platform/using/access-management.md)에 자세히 설명되어 있습니다.
 
-워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [이 섹션](../../workflow/using/monitoring-workflow-execution.md)을 참조하십시오.
+워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [이 섹션](monitoring-workflow-execution.md)을 참조하십시오.

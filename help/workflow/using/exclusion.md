@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -15,15 +15,17 @@ ht-degree: 0%
 
 # 예외{#exclusion}
 
+![](../../assets/common.svg)
+
 **제외** 유형 활동은 하나 이상의 다른 대상이 추출되는 기본 대상을 기반으로 대상을 만듭니다.
 
-이 활동을 구성하려면 해당 레이블을 입력하고 기본 수신자 세트를 선택합니다.기본 세트의 모집단을 사용하여 결과를 구성할 수 있습니다. 기본 집합에서 공유한 프로필과 시작 활동 중 하나 이상이 제외됩니다.
+이 활동을 구성하려면 해당 레이블을 입력하고 기본 수신자 세트를 선택합니다. 기본 세트의 모집단을 사용하여 결과를 구성할 수 있습니다. 기본 집합에서 공유한 프로필과 시작 활동 중 하나 이상이 제외됩니다.
 
 ![](assets/s_user_segmentation_exclu.png)
 
 >[!NOTE]
 >
->제외 활동 구성 및 사용에 대한 자세한 내용은 [모집단 제외(제외)](../../workflow/using/targeting-data.md#excluding-a-population--exclusion-)를 참조하십시오.
+>제외 활동 구성 및 사용에 대한 자세한 내용은 [모집단 제외(제외)](targeting-data.md#excluding-a-population--exclusion-)를 참조하십시오.
 
 나머지 모집단을 활용하려면 **[!UICONTROL Generate complement]** 옵션을 선택합니다. 이 보수 안에는 들어오는 주요 모집단에서 보내는 모집단을 뺀 수가 포함될 것이다. 그러면 다음과 같이 활동에 추가 출력 전환이 추가됩니다.
 

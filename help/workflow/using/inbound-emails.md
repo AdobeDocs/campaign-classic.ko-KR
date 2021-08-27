@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 인바운드 이메일{#inbound-emails}
+
+![](../../assets/common.svg)
 
 **인바운드 전자 메일** 활동을 사용하면 POP3 메일 서버에서 전자 메일 메시지를 다운로드하고 처리할 수 있습니다.
 
@@ -68,7 +70,7 @@ ht-degree: 1%
 
    활동의 일정을 정의하려면 **[!UICONTROL Scheduling]** 탭을 클릭하고 **[!UICONTROL Plan execution]** 을(를) 선택합니다. **[!UICONTROL Change]** 단추를 클릭하여 일정을 구성합니다.
 
-   예약 구성은 예약 활동과 동일합니다. [스케줄러](../../workflow/using/scheduler.md)를 참조하십시오.
+   예약 구성은 예약 활동과 동일합니다. [스케줄러](scheduler.md)를 참조하십시오.
 
 1. **[!UICONTROL Expiration]**
 
@@ -76,4 +78,4 @@ ht-degree: 1%
 
    ![](assets/email_rec_edit_3.png)
 
-   구성은 예약 활동과 동일합니다. [만료](../../workflow/using/defining-approvals.md)을 참조하십시오.
+   구성은 예약 활동과 동일합니다. [만료](defining-approvals.md)을 참조하십시오.

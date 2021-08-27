@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1011'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 분산 아키텍처{#distributed-architectures}
+
+![](../../assets/v7-only.svg)
 
 ## 원칙 {#principle}
 
@@ -56,7 +58,7 @@ ht-degree: 1%
 
 **상호 작용**(오퍼, 제안, 수신자 등)에 직접 연결된 모든 스키마 확장은 를 실행 인스턴스에 배포해야 합니다.
 
-상호 작용 패키지는 모든 인스턴스(제어 및 실행)에 설치해야 합니다. 두 개의 추가 패키지를 사용할 수 있습니다.컨트롤 인스턴스에 설치할 하나의 패키지와 각 실행 인스턴스에 설치할 하나의 패키지입니다.
+상호 작용 패키지는 모든 인스턴스(제어 및 실행)에 설치해야 합니다. 두 개의 추가 패키지를 사용할 수 있습니다. 컨트롤 인스턴스에 설치할 하나의 패키지와 각 실행 인스턴스에 설치할 하나의 패키지입니다.
 
 >[!NOTE]
 >
@@ -75,7 +77,7 @@ ht-degree: 1%
    * **[!UICONTROL Enabled]** 옵션을 선택합니다.
    * 실행 인스턴스에 대한 연결 매개 변수를 완료합니다.
    * 모든 실행 인스턴스는 ID에 연결되어 있어야 합니다. 이 ID는 **[!UICONTROL Initialize connection]** 단추를 클릭하면 지정됩니다.
-   * 사용된 응용 프로그램 유형을 확인합니다.**[!UICONTROL Message Center]**, **[!UICONTROL Interaction]** 또는 둘 다 사용할 수 있습니다.
+   * 사용된 응용 프로그램 유형을 확인합니다. **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]** 또는 둘 다 사용할 수 있습니다.
    * 사용된 FDA 계정을 입력합니다. 연산자는 실행 인스턴스에 만들어야 하며 해당 인스턴스의 데이터베이스에 대해 다음 읽기 및 쓰기 권한이 있어야 합니다.
 
       ```
@@ -109,13 +111,13 @@ ht-degree: 1%
 >
 >이러한 옵션은 특정 유지 관리 사례에만 사용해야 합니다.
 
-* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**:지정된 인스턴스에서 환경이 동기화된 마지막 날짜입니다.
-* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**:주어진 스키마에서 다른 인스턴스로 프로모션하는 마지막 날짜입니다.
-* **`NmsInteraction_MapWorkflowId`**:생성된 모든 동기화 워크플로우 목록이 포함된 옵션입니다.
+* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**: 지정된 인스턴스에서 환경이 동기화된 마지막 날짜입니다.
+* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**: 주어진 스키마에서 다른 인스턴스로 프로모션하는 마지막 날짜입니다.
+* **`NmsInteraction_MapWorkflowId`**: 생성된 모든 동기화 워크플로우 목록이 포함된 옵션입니다.
 
 실행 인스턴스에서 다음 옵션을 사용할 수 있습니다.
 
-**NmsExecutionInstanceId**:인스턴스 ID가 포함된 옵션.
+**NmsExecutionInstanceId**: 인스턴스 ID가 포함된 옵션.
 
 ## 패키지 설치 {#packages-installation}
 

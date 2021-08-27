@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -15,11 +15,13 @@ ht-degree: 0%
 
 # 하위 워크플로우{#sub-workflow}
 
+![](../../assets/common.svg)
+
 **[!UICONTROL Sub-workflow]** 활동을 사용하면 다른 워크플로우의 실행을 트리거하고 결과를 복구할 수 있습니다. 이 활동을 사용하면 간소화된 인터페이스를 사용하는 동안 복잡한 워크플로우를 사용할 수 있습니다.
 
 단일 워크플로우에서 여러 하위 워크플로우를 호출할 수 있습니다. 하위 워크플로우는 동기식으로 실행됩니다.
 
-아래 예제에서 기본 워크플로우는 점프를 사용하여 하위 워크플로우를 호출하는 것입니다. 점프 타입 그래픽 개체에 대한 자세한 내용은 [이 섹션](../../workflow/using/jump--start-point-and-end-point-.md)을 참조하십시오.
+아래 예제에서 기본 워크플로우는 점프를 사용하여 하위 워크플로우를 호출하는 것입니다. 점프 타입 그래픽 개체에 대한 자세한 내용은 [이 섹션](jump--start-point-and-end-point-.md)을 참조하십시오.
 
 1. 다른 워크플로우에서 하위 워크플로우로 사용할 워크플로우를 만듭니다.
 1. 워크플로우 시작 부분에 우선 순위가 1인 **[!UICONTROL Jump (end point)]** 활동을 삽입합니다. 여러 &quot;끝점&quot; 유형 점프가 있는 경우 Adobe Campaign은 가장 낮은 숫자가 있는 &quot;끝점&quot; 점프를 사용합니다.
@@ -74,4 +76,4 @@ ht-degree: 0%
 
 이 세 값 집합은 쿼리의 타겟팅된 모집단을 식별합니다. **[!UICONTROL tableName]** 는 대상 식별자를 기록하는 테이블의 이름이며  **[!UICONTROL schema]** 는 모집단의 스키마(일반적으로 nms:recipient)이며  **[!UICONTROL recCount]** 표에 있는 요소의 수입니다.
 
-* targetSchema:이 값은 작업 테이블의 스키마입니다. 이 매개 변수는 **[!UICONTROL tableName]** 및 **[!UICONTROL schema]**&#x200B;을 사용하는 모든 전환에 유효합니다.
+* targetSchema: 이 값은 작업 테이블의 스키마입니다. 이 매개 변수는 **[!UICONTROL tableName]** 및 **[!UICONTROL schema]**&#x200B;을 사용하는 모든 전환에 유효합니다.

@@ -6,20 +6,22 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
 # 데이터 매핑 정의 {#defining-data-mapping}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign을 사용하면 외부 테이블의 데이터에 대한 매핑을 정의할 수 있습니다.
 
 이렇게 하려면 외부 테이블의 스키마가 만들어지면 이 테이블의 데이터를 게재 대상으로 사용하려면 새 게재 매핑을 만들어야 합니다.
 
-이렇게 하려면 다음 단계를 적용합니다.
+그렇게 하려면 다음 단계를 적용합니다.
 
 1. 새 게재 매핑을 만들고 방금 만든 스키마와 같은 타겟팅 차원을 선택합니다.
 
@@ -41,4 +43,4 @@ Adobe Campaign을 사용하면 외부 테이블의 데이터에 대한 매핑을
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   **[!UICONTROL Save]** 단추를 클릭하여 게재 매핑 만들기를 시작합니다.연결된 모든 테이블은 선택한 매개변수를 기준으로 자동으로 생성됩니다.
+   **[!UICONTROL Save]** 단추를 클릭하여 게재 매핑 만들기를 시작합니다. 연결된 모든 테이블은 선택한 매개변수를 기준으로 자동으로 생성됩니다.

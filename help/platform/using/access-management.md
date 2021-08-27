@@ -2,18 +2,20 @@
 product: campaign
 title: 사용 권한 시작
 description: Campaign 기능에 대한 액세스 권한을 부여하는 방법을 알아봅니다
-feature: 액세스 관리
+feature: Access Management
 role: User, Admin
 level: Beginner
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '253'
 ht-degree: 6%
 
 ---
 
 # 사용 권한 시작{#access-management}
+
+![](../../assets/common.svg)
 
 Adobe Campaign을 사용하면 다양한 운영자에게 할당된 권한을 정의하고 관리할 수 있습니다. 권한을 부여하거나 거부한 권한 및 제한 세트입니다.
 
@@ -51,7 +53,7 @@ Adobe Campaign을 사용하면 다양한 운영자에게 할당된 권한을 정
 또한 다음을 참조하십시오:
 
 * [워크플로우에 대한 권한 관리](../../workflow/using/managing-rights.md)
-* [분산 마케팅에 대한 권한 관리](../../campaign/using/about-distributed-marketing.md#operators-and-entities)
+* [분산 마케팅에 대한 권한 관리](../../distributed/using/about-distributed-marketing.md#operators-and-entities)
 * [상호 작용 모듈에 대한 권한 관리](../../interaction/using/operator-profiles.md)
 * [스키마에 대한 액세스 필터링](../../configuration/using/filtering-schemas.md)
 * [PI 보기 제한](../../configuration/using/restricting-pii-view.md)

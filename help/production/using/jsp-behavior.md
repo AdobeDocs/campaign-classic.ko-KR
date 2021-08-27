@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 858d00d0-7c65-43be-8bae-f0f945f71f1a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 16%
@@ -14,6 +14,8 @@ ht-degree: 16%
 ---
 
 # JSP 동작{#jsp-behavior}
+
+![](../../assets/v7-only.svg)
 
 특정 **jsp** 작업이 성공적으로 실행되지 않은 경우 강제로 다시 컴파일해야 합니다.
 

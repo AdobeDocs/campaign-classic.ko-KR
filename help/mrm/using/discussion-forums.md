@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 # 토론 포럼{#discussion-forums}
 
-Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 수 있습니다. 다음 요소에는 각각 고유한 포럼이 있습니다.계획, 프로그램, 캠페인, 리소스, 시뮬레이션, 주식. 운영자마다 개인 포럼이 있습니다. 모든 토론은 공개적이고, 심지어 개인 포럼에서도 공개됩니다.
+![](../../assets/v7-only.svg)
+
+Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 수 있습니다. 다음 요소에는 각각 고유한 포럼이 있습니다. 계획, 프로그램, 캠페인, 리소스, 시뮬레이션, 주식. 운영자마다 개인 포럼이 있습니다. 모든 토론은 공개적이고, 심지어 개인 포럼에서도 공개됩니다.
 
 운영자는 메시지가 게시될 때마다 알림 이메일을 받기 위해 포럼에 가입할 수 있습니다.
 
@@ -58,7 +60,7 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 1. 필요한 경우:
 
    * 포럼에 참여하지 않은 다른 사람이 토론에 참여하도록 하려면 **[!UICONTROL Operator to notify]** 필드를 사용하십시오. 운영자가 이 특정 메시지에 대한 알림 이메일을 받게 됩니다(해당 메시지는 포럼에 가입되지 않음). 여러 연산자에게 알리려면 연산자 그룹을 선택합니다.
-   * 메시지에 첨부 파일을 추가하려면 **[!UICONTROL Browse]** 을 클릭합니다. 첨부 파일은 알림 이메일에도 포함됩니다. 첨부 파일은 개별적으로 보낼 수 있습니다.여러 파일을 보내려면 파일을 압축해야 합니다.
+   * 메시지에 첨부 파일을 추가하려면 **[!UICONTROL Browse]** 을 클릭합니다. 첨부 파일은 알림 이메일에도 포함됩니다. 첨부 파일은 개별적으로 보낼 수 있습니다. 여러 파일을 보내려면 파일을 압축해야 합니다.
 
 1. **[!UICONTROL Create the message]** 을 클릭하여 포럼에 게시합니다.
 

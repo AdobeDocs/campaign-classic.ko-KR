@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 메시지 디자인 FAQ {#design-messages-faq}
+
+![](../../assets/common.svg)
 
 Adobe Campaign으로 옴니채널 메시지를 디자인하는 주요 단계를 살펴봅니다.
 
@@ -35,7 +37,7 @@ Adobe Campaign으로 옴니채널 메시지를 디자인하는 주요 단계를 
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/defining-the-email-content.md#message-content).
 
-## 캠페인 DCE를 사용하여 전자 메일 콘텐츠를 만드는 방법 {#how-to-use-campaign-dce-to-create-an-email-content-}
+## 캠페인 DCE를 사용하여 전자 메일 콘텐츠를 만드는 방법  {#how-to-use-campaign-dce-to-create-an-email-content-}
 
 [Campaign 디지털 콘텐츠 편집기를 사용하여 전자 메일 디자인](../../web/using/use-case--creating-an-email-delivery.md): 예를 통해 Campaign DCE를 사용하여 전자 메일을 디자인하는 방법을 배웁니다.
 

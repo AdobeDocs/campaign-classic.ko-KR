@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 14%
@@ -14,6 +14,8 @@ ht-degree: 14%
 ---
 
 # SFTP 서버 모범 사례 및 문제 해결 {#sftp-server-usage}
+
+![](../../assets/common.svg)
 
 ## SFTP 서버 글로벌 권장 사항 {#global-recommendations}
 

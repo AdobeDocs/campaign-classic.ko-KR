@@ -6,14 +6,16 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Facebook에 게시{#publishing-on-facebook}
+
+![](../../assets/v7-only.svg)
 
 구성이 완료되면 Social Marketing을 통해 Facebook 페이지의 벽에 게시물을 게시할 수 있습니다.
 
@@ -30,7 +32,7 @@ ht-degree: 2%
 
 ![](assets/social_facebook_delivery_001.png)
 
-## 기본 대상 {#selecting-the-main-target} 선택
+## 기본 대상 선택 {#selecting-the-main-target}
 
 게시물을 게시할 페이지를 선택해야 합니다.
 
@@ -50,9 +52,9 @@ ht-degree: 2%
 
    ![](assets/social_facebook_delivery_013.png)
 
-## 증명 대상 {#selecting-the-proof-target} 선택
+## 증명 대상 선택 {#selecting-the-proof-target}
 
-**[!UICONTROL Target of the proofs]** 탭에서는 게재를 보내기 전에 테스트하기 위해 사용할 Facebook 페이지를 정의할 수 있습니다. 이를 위해 전용 Facebook 페이지를 만드는 것이 좋습니다. 비공개 Facebook 페이지 만들기에 대한 자세한 내용은 [테스트 Facebook 페이지 만들기](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page)를 참조하십시오. 증명 대상을 선택하려면 기본 대상과 동일한 단계를 적용합니다.[기본 대상 선택](#selecting-the-main-target)
+**[!UICONTROL Target of the proofs]** 탭에서는 게재를 보내기 전에 테스트하기 위해 사용할 Facebook 페이지를 정의할 수 있습니다. 이를 위해 전용 Facebook 페이지를 만드는 것이 좋습니다. 비공개 Facebook 페이지 만들기에 대한 자세한 내용은 [테스트 Facebook 페이지 만들기](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page)를 참조하십시오. 증명 대상을 선택하려면 기본 대상과 동일한 단계를 적용합니다. [기본 대상 선택](#selecting-the-main-target)
 
 ![](assets/social_facebook_delivery_004.png)
 
@@ -62,7 +64,7 @@ ht-degree: 2%
 
 ## 대상자 정의 {#defining-the-audience}
 
-로컬 세그먼트를 사용하여 게시를 볼 수 있도록 허가된 공개 유형을 세분화하려면 세그먼트당 하나의 Facebook 페이지를 만드는 것이 좋습니다(예:Adobe Campaign 파리, Adobe Campaign 런던 등).
+로컬 세그먼트를 사용하여 게시를 볼 수 있도록 허가된 공개 유형을 세분화하려면 세그먼트당 하나의 Facebook 페이지를 만드는 것이 좋습니다(예: Adobe Campaign 파리, Adobe Campaign 런던 등).
 
 하지만 Facebook에서 사용하는 대상 필터를 사용할 수도 있습니다. **[!UICONTROL Select target window]** 의 **[!UICONTROL Audience]** 탭에서는 네 개의 필터를 제공합니다.
 
@@ -90,7 +92,7 @@ ht-degree: 2%
 * **[!UICONTROL Status with a YouTube link]**
 * **[!UICONTROL Photo album]**
 
-### 상태 {#publishing-a-status} 게시
+### 상태 게시 {#publishing-a-status}
 
 상태 유형 게재에는 아래 예와 같이 텍스트만 포함될 수 있습니다.
 
@@ -100,7 +102,7 @@ ht-degree: 2%
 
 ![](assets/social_facebook_delivery_015.png)
 
-### 링크 {#publishing-a-status-with-a-link}로 상태 게시
+### 링크가 있는 상태 게시 {#publishing-a-status-with-a-link}
 
 링크가 있는 상태 유형 전달에는 텍스트, 이미지 및 링크가 포함될 수 있습니다. 다음 섹션에서는 게재 편집 화면의 필드와 Facebook에 게시된 최종 게시물 간의 대칭 구조에 대해 자세히 설명합니다.
 
@@ -122,7 +124,7 @@ ht-degree: 2%
    >
    >1. facebook 애플리케이션 [https://developers.facebook.com/apps](https://developers.facebook.com/apps) 을 선택하고 **[!UICONTROL Settings > Basic]** 탭을 선택합니다.
    >1. **[!UICONTROL Namespace]** 필드를 입력합니다.
-   >1. **[!UICONTROL Mobile Site URL]** 필드를 입력합니다.사용자가 스마트폰에서 게시 링크를 클릭하면 Facebook에 의해 이 필드에 정의된 URL로 자동으로 리디렉션됩니다.
+   >1. **[!UICONTROL Mobile Site URL]** 필드를 입력합니다. 사용자가 스마트폰에서 게시 링크를 클릭하면 Facebook에 의해 이 필드에 정의된 URL로 자동으로 리디렉션됩니다.
    >1. facebook 디스플레이이 사용되는 장치(스마트폰 또는 PC)의 기능으로 개인화되도록 웹 애플리케이션을 만듭니다.
    >1. Adobe Campaign 콘솔을 통해 게시의 **[!UICONTROL Link]** 필드로 이동하고 **[!UICONTROL Canvas page]** 필드의 URL을 입력합니다.
 
@@ -138,7 +140,7 @@ ht-degree: 2%
 
 ![](assets/social_facebook_delivery_005.png)
 
-### YouTube 링크 {#publishing-a-status-with-a-youtube-link}로 상태 게시
+### YouTube 링크가 있는 상태 게시 {#publishing-a-status-with-a-youtube-link}
 
 이 유형의 컨텐츠를 사용하면 YouTube 비디오에 대한 링크를 게시할 수 있습니다. 일반 링크가 있는 상태처럼 상태, 이름, 캡션, 설명 및 추가 링크를 정의할 수 있습니다. 이 이미지는 Facebook에 의해 자동으로 추가됩니다. 게재 편집 화면의 필드와 Facebook의 최종 게시 간의 대칭은 아래에 자세히 설명되어 있습니다.
 
@@ -158,7 +160,7 @@ ht-degree: 2%
 
 ![](assets/social_facebook_delivery_youtube.png)
 
-### 사진 앨범 {#publishing-a-photo-album} 게시
+### 사진 앨범 게시 {#publishing-a-photo-album}
 
 이 유형의 콘텐츠를 사용하면 사진 앨범을 게시할 수 있습니다. 각 사진에 대한 캡션과 앨범의 이름 및 설명을 추가할 수 있습니다. 게재 편집 화면의 필드와 Facebook의 최종 게시 간의 대칭은 아래에 자세히 설명되어 있습니다.
 
@@ -200,13 +202,13 @@ ht-degree: 2%
 >
 >**[!UICONTROL Publish to a brand page]** 게재 템플릿에서 추적이 기본적으로 활성화됩니다.
 
-## 증명 {#sending-the-proof} 보내기
+## 증명 보내기 {#sending-the-proof}
 
 개인 Facebook 테스트 페이지에서 발행물의 정확한 렌더링을 보려면 최종 게재 전에 게시 증명을 보내는 것이 좋습니다. 비공개 Facebook 테스트 페이지 만들기에 대한 자세한 내용은 [테스트 Facebook 페이지 만들기](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page)를 참조하십시오. 대상 증명을 선택하는 단계는 [증명 대상 선택](#selecting-the-proof-target)에 자세히 설명되어 있습니다.
 
 증명 게재는 이메일 게재와 동일합니다. [이 섹션](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)을 참조하십시오.
 
-## 메시지 {#sending-the-message} 보내기
+## 메시지 보내기 {#sending-the-message}
 
 1. 컨텐츠가 승인되면 **[!UICONTROL Send]** 버튼을 클릭합니다.
 1. **[!UICONTROL Deliver as soon as possible]** 을 선택하고 **[!UICONTROL Analyze]** 버튼을 클릭합니다.

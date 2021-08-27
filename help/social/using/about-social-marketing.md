@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 12%
@@ -14,6 +14,8 @@ ht-degree: 12%
 ---
 
 # 소셜 마케팅 정보{#about-social-marketing}
+
+![](../../assets/v7-only.svg)
 
 소셜 네트워크 관리를 위해 설계된 **소셜 네트워크 관리**(소셜 마케팅) 애플리케이션을 사용하면 Facebook 및 Twitter을 통해 고객 및 잠재 고객과 상호 작용할 수 있습니다.
 
@@ -26,7 +28,7 @@ ht-degree: 12%
 
 1. **새 연락처 가져오기**
 
-   Adobe Campaign Social Marketing을 사용하면 Facebook을 통해 새로운 연락처를 쉽게 확보할 수 있습니다.사용자에게 연락하여 프로필 정보를 공유할지 여부를 묻습니다. Adobe Campaign이 수락하면 타겟팅 캠페인을 수행하고 가능한 경우 크로스 채널 전략을 구현할 수 있는 데이터를 자동으로 복구합니다.
+   Adobe Campaign Social Marketing을 사용하면 Facebook을 통해 새로운 연락처를 쉽게 확보할 수 있습니다. 사용자에게 연락하여 프로필 정보를 공유할지 여부를 묻습니다. Adobe Campaign이 수락하면 타겟팅 캠페인을 수행하고 가능한 경우 크로스 채널 전략을 구현할 수 있는 데이터를 자동으로 복구합니다.
 
 >[!IMPORTANT]
 >

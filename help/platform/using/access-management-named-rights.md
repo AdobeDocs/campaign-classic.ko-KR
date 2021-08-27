@@ -2,18 +2,20 @@
 product: campaign
 title: 명명된 권한을 사용하여 사용 권한 설정
 description: 명명된 권한을 사용하여 권한을 설정하는 방법을 알아봅니다
-feature: 액세스 관리
+feature: Access Management
 role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '503'
 ht-degree: 7%
 
 ---
 
 # 명명된 권한을 사용하여 사용 권한 설정{#named-rights}
+
+![](../../assets/common.svg)
 
 기본적으로 Adobe Campaign에서는 운영자 및 운영자 그룹에 할당된 승인을 정의할 수 있는 명명된 권한 집합을 제안합니다. 이러한 권한은 트리의 **[!UICONTROL Administration > Access management > Named rights]** 노드에서 편집할 수 있습니다.
 

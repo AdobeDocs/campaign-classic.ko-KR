@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 1%
@@ -15,20 +15,22 @@ ht-degree: 1%
 
 # IMS 문제 해결{#ims-troubleshooting}
 
+![](../../assets/common.svg)
+
 다음 문제 해결 팁은 **온-프레미스** 고객이 IMS 통합을 사용할 때 발생하는 가장 일반적인 문제를 해결하는 데 도움이 됩니다. 호스팅된 **고객**&#x200B;의 경우 Adobe에게 문의하십시오.
 
 **외부 계정**
 
 다음 설정을 사용하는 하나&#x200B;**외부 계정만 있어야 합니다.**
 
-* **내부 이름**:Adobe_Marketing_Cloud
-* **유형**:Adobe Marketing Cloud
+* **내부 이름**: Adobe_Marketing_Cloud
+* **유형**: Adobe Marketing Cloud
 
 동일한 설정이 있는 중복 외부 계정을 삭제합니다.
 
 **제품 컨텍스트**
 
-외부 계정에 **제품 컨텍스트** 필드가 있는 경우 해당 값이 다음과 같이 설정되어 있는지 확인하십시오.**dma_campaign_classic**
+외부 계정에 **제품 컨텍스트** 필드가 있는 경우 해당 값이 다음과 같이 설정되어 있는지 확인하십시오. **dma_campaign_classic**
 
 제품 컨텍스트가 Campaign 및 Experience Cloud에 대해 동일한지 확인합니다.
 

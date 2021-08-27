@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
@@ -15,11 +15,13 @@ ht-degree: 2%
 
 # 마케팅 캠페인 모니터링 {#monitoring-marketing-campaigns}
 
+![](../../assets/common.svg)
+
 ## 캠페인 추적 {#tracking-a-campaign}
 
 각 캠페인에 대해 **[!UICONTROL Tracking]** 탭을 사용하여 모든 작업 및 상태를 볼 수 있습니다. 이 하위 탭을 통해 다음 정보에 액세스할 수 있습니다.
 
-* 활동 저널은 일반적으로 캠페인에서 수행된 작업을 보여줍니다.워크플로우 만들기 또는 시작, 승인, 추출 등
+* 활동 저널은 일반적으로 캠페인에서 수행된 작업을 보여줍니다. 워크플로우 만들기 또는 시작, 승인, 추출 등
 
    ![](assets/s_ncs_user_op_edit_exe_tab_a.png)
 
@@ -41,7 +43,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_user_op_del_state_from_homepage.png)
 
-각 게재에 대해 이 목록을 사용하여 주요 지표에 액세스할 수 있습니다.상태, 타겟팅된 수신자, 연결된 캠페인 등
+각 게재에 대해 이 목록을 사용하여 주요 지표에 액세스할 수 있습니다. 상태, 타겟팅된 수신자, 연결된 캠페인 등
 
 게재 상태를 확인하려면 게재 상태를 편집하고 해당 대시보드 및 탭을 확인합니다.
 

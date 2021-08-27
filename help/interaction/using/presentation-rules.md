@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 프레젠테이션 규칙{#presentation-rules}
+
+![](../../assets/v7-only.svg)
 
 ## 프레젠테이션 규칙 만들기 {#creating-a-presentation-rule}
 
@@ -76,13 +78,13 @@ ht-degree: 1%
 
    ![](assets/offer_typology_example_014.png)
 
-## 프레젠테이션 규칙 {#applying-the-presentation-rule} 적용
+## 프레젠테이션 규칙 적용 {#applying-the-presentation-rule}
 
 다음은 이전에 만든 유형화 규칙의 애플리케이션 예입니다.
 
 캐나다 카테고리에 속하는 첫 번째 제안 제안을 보내려고 합니다. 수신자가 오퍼를 한 번 거부하면 다시 제공하지 않습니다.
 
-1. **빈번한 여행자** 수신자 폴더에서 프로필 중 하나를 선택하여 해당되는 오퍼를 확인합니다.**[!UICONTROL Propositions]** 탭을 클릭한 다음 **[!UICONTROL Preview]** 탭을 클릭합니다.
+1. **빈번한 여행자** 수신자 폴더에서 프로필 중 하나를 선택하여 해당되는 오퍼를 확인합니다. **[!UICONTROL Propositions]** 탭을 클릭한 다음 **[!UICONTROL Preview]** 탭을 클릭합니다.
 
    이 예제에서 **Tim Ramsey**&#x200B;는 **Americas** 카테고리의 일부인 오퍼에 사용할 수 있습니다.
 

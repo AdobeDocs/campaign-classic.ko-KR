@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 5%
@@ -15,7 +15,9 @@ ht-degree: 5%
 
 # 사이트에 태그 삽입{#inserting-tags-in-your-site}
 
-## 단순 메서드 {#simple-method}
+![](../../assets/v7-only.svg)
+
+## 단순 방법 {#simple-method}
 
 이 메서드는 추적하려는 웹 페이지의 HTML 소스 코드에 **`<img>`** HTML 태그를 삽입하여 리디렉션 서버로 HTTP 호출을 전송하는 것입니다.
 
@@ -37,11 +39,11 @@ ht-degree: 5%
 
 그러나 TRANSACTION-type 태그를 사용할 때는 트랜잭션 정보(금액, 항목 수)와 확장 스키마에 의해 정의된 모든 정보를 삽입하려면 JavaScript를 사용하여 샘플 태그를 수정해야 합니다.
 
-### {#static-insertion-of-tags} 태그의 정적 삽입
+### 태그의 정적 삽입 {#static-insertion-of-tags}
 
 정적 태그 삽입을 수행하려면 콘솔에서 생성한 태그 또는 수동으로 만든 태그를 웹 페이지의 소스에 복사하여 붙여넣으면 됩니다.
 
-**예**:양식을 표시하는 페이지에 웹 추적 태그 삽입
+**예**: 양식을 표시하는 페이지에 웹 추적 태그 삽입
 
 ```
 <html>
@@ -89,7 +91,7 @@ ht-degree: 5%
 
 웹 페이지가 동적으로 생성되면 페이지 생성 시 웹 추적 태그를 추가할 수 있습니다.
 
-**예**:JSP에 추가된 웹 추적
+**예**: JSP에 추가된 웹 추적
 
 ```
 <%@page import="java.util.Random" %>
@@ -122,11 +124,11 @@ ht-degree: 5%
 </html>
 ```
 
-## 최적 메서드 {#optimum-method-}
+## 최적 방법 {#optimum-method-}
 
 리디렉션 서버로 전송된 정보를 제어하려는 경우 가장 안정적인 방법은 페이지 생성 언어를 사용하여 직접 HTTP 쿼리를 동기적으로 수행하는 것입니다.
 
-구성하는 URL은 [웹 추적 태그에 정의된 구문 규칙을 준수해야 합니다.정의](../../configuration/using/web-tracking-tag--definition.md).
+구성하는 URL은 [웹 추적 태그에 정의된 구문 규칙을 준수해야 합니다. 정의](../../configuration/using/web-tracking-tag--definition.md).
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 
@@ -134,7 +136,7 @@ ht-degree: 5%
 >
 >리디렉션 및 웹 추적은 쿠키를 사용하며, 동기 HTTP 호출을 수행하는 웹 서버는 리디렉션 서버와 동일한 도메인에 있어야 합니다. 다양한 HTTP 교환에서는 &#39;id&#39;, &#39;uuid&#39; 및 &#39;uuid230&#39; 쿠키를 전달해야 합니다.
 
-**예**:계정 번호를 사용하는 수신자 인증을 사용하여 Java에서 동적 생성.
+**예**: 계정 번호를 사용하는 수신자 인증을 사용하여 Java에서 동적 생성.
 
 ```
 [...]

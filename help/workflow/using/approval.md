@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -15,11 +15,13 @@ ht-degree: 0%
 
 # 승인{#approval}
 
+![](../../assets/common.svg)
+
 **승인** 작업은 연산자의 참여가 필요합니다. 운영자에게 작업이 할당되며 전자 메일 메시지에 연결된 웹 페이지를 사용하거나 콘솔을 통해 응답할 수 있습니다.
 
 ## 작업 할당 {#task-assignment}
 
-기본적으로 연산자 그룹에 승인이 할당됩니다. 이 그룹은 역할을 나타냅니다(예: ).&#39;뉴스레터 컨텐츠 그룹&#39; 또는 &#39;뉴스레터 타깃팅 그룹&#39;입니다. 그룹의 각 연산자는 응답할 수 있지만 첫 번째 응답만 고려됩니다(여러 승인이 있는 경우 제외).
+기본적으로 연산자 그룹에 승인이 할당됩니다. 이 그룹은 역할을 나타냅니다(예: ). &#39;뉴스레터 컨텐츠 그룹&#39; 또는 &#39;뉴스레터 타깃팅 그룹&#39;입니다. 그룹의 각 연산자는 응답할 수 있지만 첫 번째 응답만 고려됩니다(여러 승인이 있는 경우 제외).
 
 필요한 경우 단일 연산자나 필터에 정의된 연산자 집합에 승인 작업을 할당할 수 있습니다.
 
@@ -35,7 +37,7 @@ ht-degree: 0%
 
    ![](assets/s_advuser_validation_box_filter.png)
 
-단일 승인 시 연산자 선택에 해당하는 전환이 활성화되고 작업이 완료됩니다.다른 연산자는 회신할 수 없습니다.
+단일 승인 시 연산자 선택에 해당하는 전환이 활성화되고 작업이 완료됩니다. 다른 연산자는 회신할 수 없습니다.
 
 여러 승인이 있는 경우 각 연산자의 선택에 해당하는 전환이 활성화됩니다. 그룹의 모든 연산자가 회신하거나 작업이 만료되면 작업이 완료됩니다.
 
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 활동의 제목 또는 메시지 본문을 수정하는 것은 현재 작업에 영향을 주지 않지만, 다른 한편으로는 가능한 선택 사항을 수정하는 것은 현재 작업에 직접적으로 영향을 미치며, 이 작업은 새 선택 항목 목록을 자동으로 상속합니다.
 
-**** 적절한 유형 작업은 노드에서 액세스할 수  **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** 있습니다.운영자는 이 보기를 통해 직접 승인 양식에 액세스할 수 있습니다.
+**** 적절한 유형 작업은 노드에서 액세스할 수  **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** 있습니다. 운영자는 이 보기를 통해 직접 승인 양식에 액세스할 수 있습니다.
 
 ![](assets/s_advuser_validation_from_console.png)
 
@@ -55,7 +57,7 @@ ht-degree: 0%
 
 ![](assets/edit_validation.png)
 
-이 **[!UICONTROL Title]** 필드에는 메시지 제목이 포함됩니다.전송된 이메일 메시지의 제목입니다. 메시지 본문과 제목이 JavaScript 템플릿이므로 워크플로우의 컨텍스트에 따라 계산된 값을 포함할 수 있습니다.
+이 **[!UICONTROL Title]** 필드에는 메시지 제목이 포함됩니다. 전송된 이메일 메시지의 제목입니다. 메시지 본문과 제목이 JavaScript 템플릿이므로 워크플로우의 컨텍스트에 따라 계산된 값을 포함할 수 있습니다.
 
 편집기의 아래 섹션에서는 가능한 답변 목록을 정의할 수 있습니다. 각 응답에 해당하는 전환이 있습니다. 이름은 내부 식별자이며, 레이블은 선택 사항 목록에 표시될 텍스트입니다.
 
@@ -63,7 +65,7 @@ ht-degree: 0%
 
 메시지 레이아웃을 개인화하기 위해 이 템플릿을 수정할 수 있지만 복사본을 만드는 것이 좋습니다. 알림이 올바르게 작동하려면 타겟팅 메커니즘(외부 파일, 대상 매핑)을 수정하면 안 됩니다.
 
-승인 예는 [승인 정의](../../workflow/using/defining-approvals.md)에 나와 있습니다.
+승인 예는 [승인 정의](defining-approvals.md)에 나와 있습니다.
 
 ## 출력 매개 변수 {#output-parameters}
 

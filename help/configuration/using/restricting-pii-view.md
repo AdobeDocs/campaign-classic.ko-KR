@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 2%
@@ -15,13 +15,15 @@ ht-degree: 2%
 
 # PI 보기 제한{#restricting-pii-view}
 
+![](../../assets/v7-only.svg)
+
 ## 개요 {#overview}
 
 일부 고객은 마케팅 사용자가 데이터 레코드에 액세스할 수 있어야 하지만 이름, 성 또는 이메일 주소와 같은 PII(개인 식별 정보)를 원치 않습니다. Adobe Campaign은 개인 정보를 보호하고 일반 캠페인 운영자가 데이터를 잘못 사용하지 못하도록 하는 방법을 제안합니다.
 
 ## 구현 {#implementation}
 
-요소나 속성에 적용할 수 있는 새 특성이 스키마에 추가되어 기존 속성 **[!UICONTROL visibleIf]** 을 보완합니다. 이 속성은 다음과 같습니다.**[!UICONTROL accessibleIf]** . 현재 사용자 컨텍스트와 관련된 XTK 표현식을 포함하는 경우 예를 들어 **[!UICONTROL HasNamedRight]** 또는 **[!UICONTROL $(login)]** 을 활용할 수 있습니다.
+요소나 속성에 적용할 수 있는 새 특성이 스키마에 추가되어 기존 속성 **[!UICONTROL visibleIf]** 을 보완합니다. 이 속성은 다음과 같습니다. **[!UICONTROL accessibleIf]** . 현재 사용자 컨텍스트와 관련된 XTK 표현식을 포함하는 경우 예를 들어 **[!UICONTROL HasNamedRight]** 또는 **[!UICONTROL $(login)]** 을 활용할 수 있습니다.
 
 수신인 스키마 확장의 샘플은 이러한 사용을 아래에 보여 줍니다.
 
@@ -40,8 +42,8 @@ ht-degree: 2%
 
 기본 속성은 다음과 같습니다.
 
-* **[!UICONTROL visibleIf]** :는 메타데이터에서 필드를 숨기므로 스키마 보기, 열 선택 또는 표현식 빌더 내에서 액세스할 수 없습니다. 하지만 이렇게 해도 데이터가 숨기지 않고, 필드 이름을 표현식에 수동으로 입력하면 값이 표시됩니다.
-* **[!UICONTROL accessibleIf]** :결과 쿼리의 데이터를 숨깁니다(빈 값으로 바꾸기). visibleIf 가 비어 있으면 **[!UICONTROL accessibleIf]** 과 동일한 표현식을 받게 됩니다.
+* **[!UICONTROL visibleIf]** : 는 메타데이터에서 필드를 숨기므로 스키마 보기, 열 선택 또는 표현식 빌더 내에서 액세스할 수 없습니다. 하지만 이렇게 해도 데이터가 숨기지 않고, 필드 이름을 표현식에 수동으로 입력하면 값이 표시됩니다.
+* **[!UICONTROL accessibleIf]** : 결과 쿼리의 데이터를 숨깁니다(빈 값으로 바꾸기). visibleIf 가 비어 있으면 **[!UICONTROL accessibleIf]** 과 동일한 표현식을 받게 됩니다.
 
 다음은 Campaign에서 이 속성을 사용할 때의 결과입니다.
 
@@ -49,14 +51,14 @@ ht-degree: 2%
 * 데이터는 개요 목록 및 레코드 목록(콘솔)에 표시되지 않습니다.
 * 데이터는 세부 보기에서 읽기 전용이 됩니다.
 * 데이터는 필터 내에서만 사용할 수 있습니다(즉, 일부 이분법 전략을 사용하여 값을 추측할 수 있음).
-* 제한된 필드를 사용하여 빌드된 모든 표현식은 다음과 같이 제한됩니다.lower(@email)은 가능한 @email.
+* 제한된 필드를 사용하여 빌드된 모든 표현식은 다음과 같이 제한됩니다. lower(@email)은 가능한 @email.
 * 워크플로우에서 타겟팅된 모집단에 제한된 열을 전환의 추가 열로 추가할 수 있지만 Adobe Campaign 사용자는 여전히 액세스할 수 없습니다.
 * 대상 모집단을 그룹(목록)에 저장할 때 저장된 필드의 특성은 데이터 소스와 동일합니다.
 * 기본적으로 데이터는 JS 코드에 액세스할 수 없습니다.
 
-## Recommendations {#recommendations}
+## 추천 {#recommendations}
 
-각 게재에서 이메일 주소는 **[!UICONTROL broadLog]** 및 **[!UICONTROL forecastLog]** 테이블에 복사됩니다.따라서 이러한 필드도 보호해야 합니다.
+각 게재에서 이메일 주소는 **[!UICONTROL broadLog]** 및 **[!UICONTROL forecastLog]** 테이블에 복사됩니다. 따라서 이러한 필드도 보호해야 합니다.
 
 다음은 이를 구현하는 로그 테이블 확장 샘플입니다.
 
@@ -89,4 +91,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 제한 사항은 기술 전문가가 아닌 사용자에게 적용됩니다.관련 권한이 있는 기술 사용자는 데이터를 검색할 수 있습니다. 따라서 이 방법은 100% 안전하지는 않습니다.
+>이 제한 사항은 기술 전문가가 아닌 사용자에게 적용됩니다. 관련 권한이 있는 기술 사용자는 데이터를 검색할 수 있습니다. 따라서 이 방법은 100% 안전하지는 않습니다.

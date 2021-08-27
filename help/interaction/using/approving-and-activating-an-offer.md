@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 2%
@@ -15,13 +15,15 @@ ht-degree: 2%
 
 # 오퍼 승인 및 활성화{#approving-and-activating-an-offer}
 
+![](../../assets/v7-only.svg)
+
 오퍼 컨텐츠가 완료되면 오퍼를 승인하여 라이브 환경에 복제하고 배달할 수 있습니다. 승인 은 오퍼 콘텐츠 및 해당 자격 조건과 관련이 있습니다.
 
 오퍼 대시보드의 배너는 오퍼가 승인 절차를 거쳤는지 여부를 알려줍니다.
 
 ![](assets/offer_validate_001.png)
 
-## 오퍼 컨텐츠 {#approving-offer-content} 승인
+## 오퍼 컨텐츠 승인 {#approving-offer-content}
 
 오퍼 컨텐츠 승인이란 라이브 환경에서 사용할 수 있도록 하려는 표시를 선택하는 것을 의미합니다.
 
@@ -93,7 +95,7 @@ ht-degree: 2%
 >
 >검토자의 주석에 대한 세부 정보와 함께 오퍼의 **[!UICONTROL Audit]** 탭에서도 추적을 사용할 수 있습니다.
 
-## 승인 {#restart-the-approval}을 다시 시작합니다.
+## 승인을 다시 시작합니다 {#restart-the-approval}
 
 승인이 실행되면 다시 시작할 수 있습니다. 이렇게 하려면 다음 지침을 따르십시오.
 
@@ -103,7 +105,7 @@ ht-degree: 2%
 
 ![](assets/offer_validate_013.png)
 
-## 오퍼 {#publishing-the-offer} 게시
+## 오퍼 게시 {#publishing-the-offer}
 
 오퍼의 컨텐츠와 자격 조건이 모두 승인되면 승인 주기가 완료된 각 오퍼에 대해 자동으로 실행되는 워크플로우에 의해 오퍼가 게시됩니다. 또한 **[!UICONTROL Offer notification]** 워크플로우는 매 시간마다 실행되어 필요한 경우 디자인 환경에서 라이브 환경으로 오퍼 카탈로그에 포함된 공간 및 카테고리를 동기화합니다.
 
@@ -111,11 +113,11 @@ ht-degree: 2%
 
 ![](assets/offer_golive_001.png)
 
-라이브 환경에서 사용할 수 있는 오퍼를 표시하려면 오퍼 레이블을 클릭합니다.라이브 오퍼에는 모든 관련 정보가 포함된 대시보드가 있습니다.
+라이브 환경에서 사용할 수 있는 오퍼를 표시하려면 오퍼 레이블을 클릭합니다. 라이브 오퍼에는 모든 관련 정보가 포함된 대시보드가 있습니다.
 
 ![](assets/offer_golive_002.png)
 
-## 오퍼 {#disabling-an-offer} 비활성화
+## 오퍼 비활성화 {#disabling-an-offer}
 
 오퍼가 승인되면 비활성화할 수 있습니다.
 

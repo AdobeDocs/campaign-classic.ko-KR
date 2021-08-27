@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 이벤트 설명 {#event-description}
+
+![](../../assets/v7-only.svg)
 
 ## 트랜잭션 메시지 데이터 모델 {#about-transactional-messaging-datamodel}
 
@@ -101,7 +103,7 @@ PushEvents 사용 예:
 </urn:PushEvents>
 ```
 
-**`<rtevent>`** 및 **`<batchevent>`** 요소에는 속성 집합과 필수 하위 요소가 있습니다.메시지 데이터를 통합하기 위한 **`<ctx>`**
+**`<rtevent>`** 및 **`<batchevent>`** 요소에는 속성 집합과 필수 하위 요소가 있습니다. 메시지 데이터를 통합하기 위한 **`<ctx>`**
 
 >[!NOTE]
 >
@@ -115,7 +117,7 @@ PushEvents 사용 예:
 <rtEvent type="order_confirmation" email="john.doe@domain.com" origin="eCommerce" wishedChannel="0" externalId="1242" mobilePhone="+33620202020"> 
 ```
 
-이 예제에서 두 개의 채널이 제공됩니다.이메일 주소와 휴대폰 번호입니다. **WonderedChannel** 을 사용하면 이벤트를 메시지로 변환할 때 사용할 채널을 선택할 수 있습니다. &quot;0&quot; 값은 이메일 채널, &quot;1&quot; 값을 모바일 채널 등에 해당합니다.
+이 예제에서 두 개의 채널이 제공됩니다. 이메일 주소와 휴대폰 번호입니다. **WonderedChannel** 을 사용하면 이벤트를 메시지로 변환할 때 사용할 채널을 선택할 수 있습니다. &quot;0&quot; 값은 이메일 채널, &quot;1&quot; 값을 모바일 채널 등에 해당합니다.
 
 이벤트 배달을 연기하려면 기본 설정 날짜 뒤에 **[!UICONTROL scheduled]** 필드를 추가합니다. 이 날짜에 이벤트가 메시지로 변환됩니다.
 
@@ -152,7 +154,7 @@ PushEvents 사용 예:
     </ctx>
 ```
 
-## SOAP 호출 {#information-returned-by-the-soap-call}에서 반환된 정보
+## SOAP 호출에서 반환된 정보 {#information-returned-by-the-soap-call}
 
 Adobe Campaign이 이벤트를 수신하면 고유한 반환 ID를 생성합니다. 보관된 이벤트 버전의 ID입니다.
 

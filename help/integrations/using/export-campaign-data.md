@@ -5,7 +5,7 @@ description: 데이터를 Campaign Classic에서 Adobe Experience Platform으로
 audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -13,6 +13,8 @@ ht-degree: 3%
 ---
 
 # Campaign에서 Adobe Experience Platform으로 데이터 내보내기 {#sources}
+
+![](../../assets/common.svg)
 
 Campaign Classic 데이터를 RTCDP(실시간 고객 데이터 플랫폼)로 내보내려면 먼저 Campaign Classic에서 워크플로우를 빌드하여 공유할 데이터를 S3 또는 Azure blob 저장 공간 위치로 내보내야 합니다.
 

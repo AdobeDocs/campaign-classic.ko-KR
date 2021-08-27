@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 메시지 센터 처리 시간 {#message-center-processing-time}
+
+![](../../assets/v7-only.svg)
 
 이 보고서에는 실시간 큐와 관련된 기본 표시기가 표시됩니다.
 
@@ -25,12 +27,12 @@ ht-degree: 3%
 
 **[!UICONTROL Indicators over the period]** 섹션에 표시되는 표시기는 선택한 기간 동안 계산됩니다.
 
-* **[!UICONTROL Average queuing time]** :메시지 센터에서 이벤트를 성공적으로 처리한 평균 시간입니다. 처리 시간만 고려합니다.
-* **[!UICONTROL Average message sending time (s)]** :메시지 센터에서 이벤트를 성공적으로 처리한 평균 시간입니다. mta 배달 시간만 고려합니다.
-* **[!UICONTROL Average processing time (s)]** :메시지 센터에서 이벤트를 성공적으로 처리한 평균 시간입니다. 계산에는 처리 시간 및 데이터 전송 시간이 고려됩니다.
-* **[!UICONTROL Maximum number of queued events]** :지정된 시간에 메시지 센터 큐에 있는 최대 이벤트 수입니다.
-* **[!UICONTROL Minimum number of queued events]** :지정된 시간에 메시지 센터 큐에 있는 최소 이벤트 수입니다.
-* **[!UICONTROL Average number of queued events]** :지정된 시간에 메시지 센터 큐에 있는 평균 이벤트 수입니다.
+* **[!UICONTROL Average queuing time]** : 메시지 센터에서 이벤트를 성공적으로 처리한 평균 시간입니다. 처리 시간만 고려합니다.
+* **[!UICONTROL Average message sending time (s)]** : 메시지 센터에서 이벤트를 성공적으로 처리한 평균 시간입니다. mta 배달 시간만 고려합니다.
+* **[!UICONTROL Average processing time (s)]** : 메시지 센터에서 이벤트를 성공적으로 처리한 평균 시간입니다. 계산에는 처리 시간 및 데이터 전송 시간이 고려됩니다.
+* **[!UICONTROL Maximum number of queued events]** : 지정된 시간에 메시지 센터 큐에 있는 최대 이벤트 수입니다.
+* **[!UICONTROL Minimum number of queued events]** : 지정된 시간에 메시지 센터 큐에 있는 최소 이벤트 수입니다.
+* **[!UICONTROL Average number of queued events]** : 지정된 시간에 메시지 센터 큐에 있는 평균 이벤트 수입니다.
 
 >[!NOTE]
 >

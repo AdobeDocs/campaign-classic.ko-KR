@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '3730'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 작업 만들기 및 관리{#creating-and-managing-tasks}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 직접 전체 라이프 사이클을 관리할 수 있습니다. 프로그램 및 캠페인 구현을 Adobe Campaign 운영자 또는 외부 서비스 제공자에게 할당된 작업으로 분류할 수 있습니다. 이 작업 모드에서는 모든 프로그램 참여자와 외부 참여자를 포함하는 개방형 공동 작업 환경을 만들 수 있습니다.
 
@@ -63,7 +65,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 ![](assets/s_ncs_user_task_create_simple.png)
 
-캠페인의 대시보드를 통해 작업을 만들 수도 있습니다.이 경우 만든 캠페인에 자동으로 연결됩니다.
+캠페인의 대시보드를 통해 작업을 만들 수도 있습니다. 이 경우 만든 캠페인에 자동으로 연결됩니다.
 
 ![](assets/s_ncs_user_task_create_new_from_op.png)
 
@@ -73,9 +75,9 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 구성하려면 다음을 표시해야 합니다.
 
-* 관리자 및 참여자:[관리자 및 참여자](#manager-and-participants)를 참조하십시오.
-* 생성 일정:[실행 일정](#execution-schedule)을 참조하십시오.
-* 약정된 비용:[비용 및 수입](#expenses-and-revenues)을 참조하십시오.
+* 관리자 및 참여자: [관리자 및 참여자](#manager-and-participants)를 참조하십시오.
+* 생성 일정: [실행 일정](#execution-schedule)을 참조하십시오.
+* 약정된 비용: [비용 및 수입](#expenses-and-revenues)을 참조하십시오.
 
 검토자를 추가([검토자](#reviewers) 참조)하고 참조된 문서를 참조할 수도 있습니다([참조된 문서](#documents-referenced) 참조).
 
@@ -99,7 +101,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 ![](assets/s_ncs_user_task_add_resources.png)
 
-**[!UICONTROL Ok]** 을 클릭한 다음 사용 비율을 입력합니다.작업 실행 기간 동안 연산자에 할당된 로드를 나타냅니다. 이 비율은 표시 전용이며 백분율로 표시됩니다.
+**[!UICONTROL Ok]** 을 클릭한 다음 사용 비율을 입력합니다. 작업 실행 기간 동안 연산자에 할당된 로드를 나타냅니다. 이 비율은 표시 전용이며 백분율로 표시됩니다.
 
 예를 들어 실행 일정이 10일로 설정된 작업의 경우 사용 비율이 50%인 연산자가 10일 동안 작업 시간의 절반을 이 작업에 대해 동원됩니다.
 
@@ -207,7 +209,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 ### 지연 작업 {#late-tasks}
 
-상태가 **[!UICONTROL Finished]**(으)로 변경되지 않고 종료 날짜에 도달하면 작업이 늦습니다. 기본적으로 작업이 늦으면 연산자에게 경고가 표시되지 않습니다. 알림 전자 메일의 게재를 구성할 수 있습니다.작업자가 작업에 참여하지 않더라도 모든 작업자에게 알림을 받을 수 있습니다.
+상태가 **[!UICONTROL Finished]**(으)로 변경되지 않고 종료 날짜에 도달하면 작업이 늦습니다. 기본적으로 작업이 늦으면 연산자에게 경고가 표시되지 않습니다. 알림 전자 메일의 게재를 구성할 수 있습니다. 작업자가 작업에 참여하지 않더라도 모든 작업자에게 알림을 받을 수 있습니다.
 
 **[!UICONTROL Resources]** 상자로 이동하여 **[!UICONTROL Assignation]** 필드에 연산자를 추가합니다. 여러 사용자에게 알리려면 연산자 그룹을 선택합니다.
 
@@ -236,8 +238,8 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 프로그램에 직접 연결된 작업을 만들려면
 
-1. 프로그램 일정을 엽니다.홈 페이지에서 **[!UICONTROL Campaigns > Browse > Other choices > Programs]**(으)로 이동합니다. 전체 프로그램 스케줄이 창의 오른쪽 섹션에 열립니다.
-1. 예약에서 원하는 프로그램을 클릭합니다.그 안에 프로그램이 나타납니다.
+1. 프로그램 일정을 엽니다. 홈 페이지에서 **[!UICONTROL Campaigns > Browse > Other choices > Programs]**(으)로 이동합니다. 전체 프로그램 스케줄이 창의 오른쪽 섹션에 열립니다.
+1. 예약에서 원하는 프로그램을 클릭합니다. 그 안에 프로그램이 나타납니다.
 1. 이 창에서 **[!UICONTROL Open]** 을 클릭합니다. 프로그램 일정이 열립니다.
 1. 오른쪽의 일정 위에 있는 **[!UICONTROL Add]** 단추를 클릭한 다음 **[!UICONTROL Add a task]** 을 클릭합니다.
 
@@ -245,7 +247,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 ### 운영자 가용성 {#operator-availability}
 
-작업 대시보드에서 운영자 이름 옆에 있는 아이콘은 작업이 적용되는 기간 동안 다른 작업 또는 이벤트에서 이미 작업 중임을 나타냅니다. (연산자가 담당하거나 관련된 작업:**[!UICONTROL Assigned to]** 필드 또는 작업 **[!UICONTROL Resources]** 상자에 표시됩니다.
+작업 대시보드에서 운영자 이름 옆에 있는 아이콘은 작업이 적용되는 기간 동안 다른 작업 또는 이벤트에서 이미 작업 중임을 나타냅니다. (연산자가 담당하거나 관련된 작업: **[!UICONTROL Assigned to]** 필드 또는 작업 **[!UICONTROL Resources]** 상자에 표시됩니다.
 
 ![](assets/mrm_task_alert_operator_busy.png)
 
@@ -277,7 +279,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 ### 작업 제어 {#control-tasks}
 
-**[!UICONTROL Control task]**&#x200B;이(가) 배달 승인에 연결되어 있습니다.타겟팅, 컨텐츠, 추출 파일, 예산 또는 증명 승인.
+**[!UICONTROL Control task]**&#x200B;이(가) 배달 승인에 연결되어 있습니다. 타겟팅, 컨텐츠, 추출 파일, 예산 또는 증명 승인.
 
 ![](assets/s_ncs_user_task_new_control.png)
 
@@ -302,13 +304,13 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 마케팅 리소스 생성 작업은 마케팅 리소스 생성 작업에 연결된 리소스와 상호 작용합니다. 이것의 의미는 다음과 같습니다.
 
 * 자원 생성 일정 및 이에 연결된 비용은 작업을 통해 관리됩니다.
-* 연산자는 일반(다운로드 또는 업로드, 잠금 및 잠금 해제)과 같은 리소스에서 작업할 수 있습니다.작업에 영향을 주지 않습니다.
-* 작업을 통해 리소스 승인 및 게시를 수행할 수 있습니다.**[!UICONTROL Publish the marketing resource]** 옵션이 활성화되면 작업이 완료되면 리소스가 승인되고 자동으로 게시됩니다. 옵션이 활성화되지 않으면 작업과 리소스가 상호 작용하지 않습니다.한 사람에 대해 행동하는 것은 다른 사람에게 영향을 주지 않는다.
+* 연산자는 일반(다운로드 또는 업로드, 잠금 및 잠금 해제)과 같은 리소스에서 작업할 수 있습니다. 작업에 영향을 주지 않습니다.
+* 작업을 통해 리소스 승인 및 게시를 수행할 수 있습니다. **[!UICONTROL Publish the marketing resource]** 옵션이 활성화되면 작업이 완료되면 리소스가 승인되고 자동으로 게시됩니다. 옵션이 활성화되지 않으면 작업과 리소스가 상호 작용하지 않습니다. 한 사람에 대해 행동하는 것은 다른 사람에게 영향을 주지 않는다.
 
-   일련의 연결된 작업을 사용하여 전체 승인 주기를 정의할 수 있습니다. 마지막 작업에 대해서만 **[!UICONTROL Publish the marketing resource]** 옵션을 선택합니다.리소스를 게시하려면 모든 작업을 완료해야 합니다. 또한 하위 마케팅 리소스 작업을 만들면 하위 작업에서 리소스가 자동으로 선택됩니다.
+   일련의 연결된 작업을 사용하여 전체 승인 주기를 정의할 수 있습니다. 마지막 작업에 대해서만 **[!UICONTROL Publish the marketing resource]** 옵션을 선택합니다. 리소스를 게시하려면 모든 작업을 완료해야 합니다. 또한 하위 마케팅 리소스 작업을 만들면 하위 작업에서 리소스가 자동으로 선택됩니다.
 
-   * **리소스를 통해**:승인을 위해 리소스를 제출하거나 승인하면 이러한 작업은 작업에 영향을 주지 않습니다.
-   * **작업을 통해**:작업 **[!UICONTROL Publish the marketing resource]** 에서 옵션을 선택하면 작업이 완료되면 리소스가 승인되고 자동으로 게시됩니다(위 참조). 옵션을 선택하지 않으면 작업과 리소스가 상호 작용하지 않습니다.한 사람에 대해 행동하는 것은 다른 사람에게 영향을 주지 않는다.
+   * **리소스를 통해**: 승인을 위해 리소스를 제출하거나 승인하면 이러한 작업은 작업에 영향을 주지 않습니다.
+   * **작업을 통해**: 작업 **[!UICONTROL Publish the marketing resource]** 에서 옵션을 선택하면 작업이 완료되면 리소스가 승인되고 자동으로 게시됩니다(위 참조). 옵션을 선택하지 않으면 작업과 리소스가 상호 작용하지 않습니다. 한 사람에 대해 행동하는 것은 다른 사람에게 영향을 주지 않는다.
 
 #### 마케팅 리소스 만들기 작업 구성 {#configuring-a-marketing-resource-creation-task}
 
@@ -318,10 +320,10 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 **[!UICONTROL Marketing resource]** 필드에서 이 작업을 통해 관리할 리소스를 정의합니다. 다음을 수행할 수 있습니다.
 
-* 기존 리소스를 선택합니다.드롭다운 목록은 상태가 **[!UICONTROL Being edited]**&#x200B;인 모든 리소스를 제공합니다.
-* 리소스 만들기:**[!UICONTROL Select the link]** 아이콘을 클릭한 다음 **[!UICONTROL Create]** 아이콘을 클릭합니다.
+* 기존 리소스를 선택합니다. 드롭다운 목록은 상태가 **[!UICONTROL Being edited]**&#x200B;인 모든 리소스를 제공합니다.
+* 리소스 만들기: **[!UICONTROL Select the link]** 아이콘을 클릭한 다음 **[!UICONTROL Create]** 아이콘을 클릭합니다.
 
-**[!UICONTROL Publish the marketing resource]** 옵션을 사용하면 리소스 게시를 자동화할 수 있습니다.작업이 **[!UICONTROL Finished]**&#x200B;이면 승인 또는 승인을 위해 제출되지 않았거나 승인되지 않았더라도 작업을 완료하는 검토자가 리소스에 정의된 컨텐츠 검토자가 아닌 경우처럼 리소스의 상태가 자동으로 **[!UICONTROL Published]**&#x200B;로 전환됩니다.
+**[!UICONTROL Publish the marketing resource]** 옵션을 사용하면 리소스 게시를 자동화할 수 있습니다. 작업이 **[!UICONTROL Finished]**&#x200B;이면 승인 또는 승인을 위해 제출되지 않았거나 승인되지 않았더라도 작업을 완료하는 검토자가 리소스에 정의된 컨텐츠 검토자가 아닌 경우처럼 리소스의 상태가 자동으로 **[!UICONTROL Published]**&#x200B;로 전환됩니다.
 
 **[!UICONTROL Publish the resource]** 단추를 사용할 수 있게 되었고 리소스 게시 검토자가 알림 이메일을 수신하여 게시할 준비가 되었음을 알립니다. **[!UICONTROL Edit > Tracking]** 탭에서 작업 검토자가 검토 및 게시할 수 있습니다. 리소스 사후 처리 워크플로우가 정의된 경우 지금 실행됩니다.
 
@@ -367,10 +369,10 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 생성 중에 작업에 다음 요소를 입력해야 합니다.
 
-* **[!UICONTROL Assigned to]** :이메일을 받을 운영자 또는 운영자 그룹입니다. 전자 메일이 전송되면 작업을 다시 할당하면 새 연산자에게 전자 메일이 전송되지 않습니다(이 경우 작업을 다시 초기화하고 시작 날짜를 변경해야 함).
-* **작업 시작 날짜**:알림 이메일을 전송할 날짜입니다. 이 날짜는 작업 기록 시 나중에 수행해야 합니다.
-* **작업 종료 날짜**:작업 상태가 (으)로 변경되는 날짜입니다  **[!UICONTROL Finished]**. 기본적으로 종료 날짜는 시작 날짜와 동일합니다. 그러나 작업에 기간을 할당하면 필요한 경우 작업자가 일정에 따라 작업해야 하는 시간을 나타낼 수 있습니다.
-* **[!UICONTROL Description]** :여기에 입력한 텍스트가 알림 전자 메일 본문에 나타납니다.
+* **[!UICONTROL Assigned to]** : 이메일을 받을 운영자 또는 운영자 그룹입니다. 전자 메일이 전송되면 작업을 다시 할당하면 새 연산자에게 전자 메일이 전송되지 않습니다(이 경우 작업을 다시 초기화하고 시작 날짜를 변경해야 함).
+* **작업 시작 날짜**: 알림 이메일을 전송할 날짜입니다. 이 날짜는 작업 기록 시 나중에 수행해야 합니다.
+* **작업 종료 날짜**: 작업 상태가 (으)로 변경되는 날짜입니다  **[!UICONTROL Finished]**. 기본적으로 종료 날짜는 시작 날짜와 동일합니다. 그러나 작업에 기간을 할당하면 필요한 경우 작업자가 일정에 따라 작업해야 하는 시간을 나타낼 수 있습니다.
+* **[!UICONTROL Description]** : 여기에 입력한 텍스트가 알림 전자 메일 본문에 나타납니다.
 
    ![](assets/mrm_task_notif_dashboard_msg.png)
 
@@ -406,13 +408,13 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 그룹화된 작업의 경우 Adobe Campaign에서는 상위 작업의 종료 날짜를 하위 작업에 시작 날짜로 자동으로 할당합니다. 예를 들어 **초대 만들기** 작업이 10월 15일 오후 3시 30분에 끝나는 경우 **초대 이메일 보내기** 하위 작업은 10월 15일 오후 3시 30분에 시작됩니다.
 
-또한 상위 작업의 끝을 연기하면 일부 하위 작업이 영향을 받을 수 있습니다.상태는 **[!UICONTROL Scheduled]**&#x200B;이고 시작 날짜가 상위 작업의 새 종료 날짜보다 빠른 하위 작업입니다. 작업 기간은 동일하게 유지됩니다. 하위 작업의 시작 날짜가 상위 작업의 새 종료 날짜보다 늦은 경우 하위 작업은 영향을 받지 않습니다.
+또한 상위 작업의 끝을 연기하면 일부 하위 작업이 영향을 받을 수 있습니다. 상태는 **[!UICONTROL Scheduled]**&#x200B;이고 시작 날짜가 상위 작업의 새 종료 날짜보다 빠른 하위 작업입니다. 작업 기간은 동일하게 유지됩니다. 하위 작업의 시작 날짜가 상위 작업의 새 종료 날짜보다 늦은 경우 하위 작업은 영향을 받지 않습니다.
 
 **예제**
 
 10월 9일 오후 5시에 종료될 예정인 상위 태스크에는 두 개의 하위 태스크인 태스크 A와 태스크 B가 있습니다. 태스크 A는 10월 10일 오후 2시에 시작될 예정이며 태스크 B는 10월 12일 오전 8시에 시작하도록 예정되어 있습니다.
 
-상위 작업을 연기합니다.10월 11일 오후 1시에 끝납니다 작업 A만 연기되고 10월 11일 오후 1시에 시작됩니다.
+상위 작업을 연기합니다. 10월 11일 오후 1시에 끝납니다 작업 A만 연기되고 10월 11일 오후 1시에 시작됩니다.
 
 ![](assets/mrm_task_parent_postpones_child.png)
 
@@ -420,7 +422,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 작업 상태는 작업 맵에서 볼 수 있습니다. 작업의 실행 상태는 운영자 작업에 따라 자동으로 업데이트됩니다.
 
-작업은 다음과 같습니다.**[!UICONTROL Scheduled]**, **[!UICONTROL In progress]**, **[!UICONTROL Finished]**, **[!UICONTROL Canceled]**, **[!UICONTROL Pending approval]** 또는 **[!UICONTROL Rejected]**.
+작업은 다음과 같습니다. **[!UICONTROL Scheduled]**, **[!UICONTROL In progress]**, **[!UICONTROL Finished]**, **[!UICONTROL Canceled]**, **[!UICONTROL Pending approval]** 또는 **[!UICONTROL Rejected]**.
 
 * 작업이 만들어지면 시작 날짜가 미래인 경우 **[!UICONTROL Scheduled]**&#x200B;입니다. 이 상태는 시작 날짜가 될 때까지 유지됩니다.
 * 시작되면 작업은 **[!UICONTROL In progress]**&#x200B;입니다. 작업을 담당하는 사람이 작업을 닫으면 **[!UICONTROL Finished]**&#x200B;으로 변경됩니다.
@@ -436,10 +438,9 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 >
 
 
-
 ### 작업의 진행 상태 {#progress-status-of-a-task}
 
-실행 상태 외에 작업을 진행 상태와 연결할 수 있습니다.**[!UICONTROL Late]**, **[!UICONTROL To approve]**, **[!UICONTROL To do today]** 또는 **[!UICONTROL To do this week]**. 이 정보는 작업 일정에 따라 자동으로 입력됩니다.
+실행 상태 외에 작업을 진행 상태와 연결할 수 있습니다. **[!UICONTROL Late]**, **[!UICONTROL To approve]**, **[!UICONTROL To do today]** 또는 **[!UICONTROL To do this week]**. 이 정보는 작업 일정에 따라 자동으로 입력됩니다.
 
 프로세스 또는 진행 상태별로 작업 목록을 필터링할 수 있습니다.
 

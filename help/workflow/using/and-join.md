@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 8b6d5c03-e104-4cf0-82ab-a08467e3e478
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # AND-결합{#and-join}
+
+![](../../assets/common.svg)
 
 조인은 모든 인바운드 전환이 활성화될 때(즉, 모든 이전 활동이 완료된 경우) 에만 아웃바운드 전환을 트리거합니다. 이렇게 하면 워크플로우를 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다.
 
@@ -31,4 +33,4 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->**AND-join** 유형 활동의 경우 이벤트 변수가 병합되지만, 동일한 변수가 두 번 정의된 경우 충돌이 발생하고 값이 확인되지 않은 상태로 유지됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/javascript-scripts-and-templates.md#event-variables)을 참조하십시오.
+>**AND-join** 유형 활동의 경우 이벤트 변수가 병합되지만, 동일한 변수가 두 번 정의된 경우 충돌이 발생하고 값이 확인되지 않은 상태로 유지됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](javascript-scripts-and-templates.md#event-variables)을 참조하십시오.

@@ -4,7 +4,7 @@ title: 통합 구성
 description: 통합 구성
 audience: integrations
 content-type: reference
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 2%
@@ -13,6 +13,8 @@ ht-degree: 2%
 
 
 # 파이프라인 옵션 NmsPipeline_Config {#nmspipeline_config}
+
+![](../../assets/common.svg)
 
 인증이 작동하면 [!DNL pipelined]이(가) 이벤트를 검색하고 처리할 수 있습니다. Adobe Campaign에 구성된 트리거만 처리하며 다른 트리거는 무시합니다. 트리거가 Analytics에서 생성되어 미리 파이프라인으로 푸시되었어야 합니다.
 이름에 관계없이 모든 트리거를 캐치하도록 와일드카드로 옵션을 구성할 수도 있습니다.
@@ -72,9 +74,9 @@ ht-degree: 2%
 
 &quot;소비자&quot; 매개 변수는 인스턴스를 이러한 소비자 중 하나로 식별합니다. 파이프라인을 호출하는 인스턴스의 ID입니다. 인스턴스 이름으로 입력할 수 있습니다. 파이프라인 서비스는 각 소비자가 검색한 메시지를 추적합니다. 다양한 인스턴스에 서로 다른 소비자를 사용하면 모든 메시지가 각 인스턴스에 전송됩니다.
 
-## 파이프라인 옵션 {#configure-pipeline-option}을 구성하는 방법
+## 파이프라인 옵션을 구성하는 방법 {#configure-pipeline-option}
 
-&quot;triggers&quot; 배열 아래에서 Experience Cloud 트리거를 추가하거나 편집합니다.나머지는 편집하지 마십시오.
+&quot;triggers&quot; 배열 아래에서 Experience Cloud 트리거를 추가하거나 편집합니다. 나머지는 편집하지 마십시오.
 이 [웹 사이트](http://jsonlint.com/)의 도움을 받아 JSON이 유효한지 확인하십시오.
 
 * name은 트리거 ID입니다. 와일드카드 &quot;*&quot;가 모든 트리거를 캡처합니다.

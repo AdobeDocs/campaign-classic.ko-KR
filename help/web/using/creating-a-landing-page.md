@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 랜딩 페이지 만들기{#creating-a-landing-page}
+
+![](../../assets/common.svg)
 
 ## 랜딩 페이지 만들기 기본 정보 {#about-landing-pages-creation}
 
@@ -77,10 +79,10 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 
    >[!CAUTION]
    >
-   >닫기 전에 다음 메시지가 표시될 때까지 기다려야 합니다.**[!UICONTROL The external resources have been successfully published]** .
+   >닫기 전에 다음 메시지가 표시될 때까지 기다려야 합니다. **[!UICONTROL The external resources have been successfully published]** .
 
 1. **[!UICONTROL Properties]** 탭을 클릭합니다.
-1. 각 페이지에 대해 **레이블**&#x200B;을 입력합니다(예:1페이지 = 수집, 2페이지=감사).
+1. 각 페이지에 대해 **레이블**&#x200B;을 입력합니다(예: 1페이지 = 수집, 2페이지=감사).
 
    ![](assets/dce_uc1_pagelabel.png)
 
@@ -124,13 +126,13 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 
 1. 페이지의 각 필드에 대해 이 프로세스를 반복합니다.
 
-필드를 필수 필드로 만들 수 있습니다.예를 들어 **[!UICONTROL Email]** 필드를 클릭한 다음 **필수** 옵션을 활성화합니다.
+필드를 필수 필드로 만들 수 있습니다. 예를 들어 **[!UICONTROL Email]** 필드를 클릭한 다음 **필수** 옵션을 활성화합니다.
 
 ![](assets/dce_uc1_fieldmandatory.png)
 
 ### 다음 페이지에 대한 링크 만들기 {#creating-a-link-to-the-next-page}
 
-이 단계는 웹 응용 프로그램에서 다음 단계의 시퀀스를 결정할 수 있도록 허용하므로 필수입니다.수집된 데이터를 데이터베이스에 저장한 다음 다음 페이지(**감사 인사** 페이지)를 표시합니다.
+이 단계는 웹 응용 프로그램에서 다음 단계의 시퀀스를 결정할 수 있도록 허용하므로 필수입니다. 수집된 데이터를 데이터베이스에 저장한 다음 다음 페이지(**감사 인사** 페이지)를 표시합니다.
 
 1. **[!UICONTROL Collection]** 페이지의 **[!UICONTROL Send it!]** 단추를 선택합니다.
 1. **[!UICONTROL Action]** 드롭다운 메뉴를 클릭합니다.
@@ -167,4 +169,4 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 >
 >게시 로그에서 경고 및 오류는 활동별로 정렬됩니다.
 
-이제 양식을 사용할 수 있습니다.애플리케이션 대시보드에서 URL에 액세스할 수 있으며 수신자에게 보낼 수 있습니다.
+이제 양식을 사용할 수 있습니다. 애플리케이션 대시보드에서 URL에 액세스할 수 있으며 수신자에게 보낼 수 있습니다.

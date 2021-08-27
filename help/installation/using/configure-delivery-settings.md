@@ -6,18 +6,20 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 # 게재 설정 구성 {#delivery-settings}
 
+![](../../assets/v7-only.svg)
+
 게재 매개 변수는 **serverConf.xml** 폴더에 구성해야 합니다.
 
-* **DNS 구성**:MTA 모듈에서 MX 형식 DNS 쿼리에 응답하는 데 사용되는 DNS 서버의 게재 도메인 및 IP 주소(또는 호스트)를  **`<dnsconfig>`** 처음부터 지정합니다.
+* **DNS 구성**: MTA 모듈에서 MX 형식 DNS 쿼리에 응답하는 데 사용되는 DNS 서버의 게재 도메인 및 IP 주소(또는 호스트)를  **`<dnsconfig>`** 처음부터 지정합니다.
 
    >[!NOTE]
    >
@@ -27,7 +29,7 @@ ht-degree: 3%
    <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
    ```
 
-요구 사항과 설정에 따라 다음 구성을 수행할 수도 있습니다.[SMTP 릴레이](#smtp-relay)를 구성하고, [MTA 하위 프로세스](#mta-child-processes), [아웃바운드 SMTP 트래픽 관리](#managing-outbound-smtp-traffic-with-affinities) 수를 조정합니다.
+요구 사항과 설정에 따라 다음 구성을 수행할 수도 있습니다. [SMTP 릴레이](#smtp-relay)를 구성하고, [MTA 하위 프로세스](#mta-child-processes), [아웃바운드 SMTP 트래픽 관리](#managing-outbound-smtp-traffic-with-affinities) 수를 조정합니다.
 
 ## SMTP 릴레이 {#smtp-relay}
 
@@ -43,7 +45,7 @@ MTA 모듈은 SMTP 브로드캐스트(포트 25)의 기본 메일 전송 에이�
 
 >[!IMPORTANT]
 >
->이 운영 모드는 릴레이 서버 내장 성능(지연, 대역폭...)으로 인해 처리량을 크게 줄일 수 있으므로 전송 시 심각한 제한을 의미합니다. 또한, 동기 배달 오류(SMTP 트래픽 분석으로 검색됨)의 자격을 제한하며, 릴레이 서버를 사용할 수 없는 경우에는 전송을 수행할 수 없습니다.
+>이 운영 모드는 릴레이 서버 내장 성능(지연, 대역폭...)으로 인해 처리량을 크게 줄일 수 있으므로 전송 시 심각한 제한을 의미합니다. 또한, 동기 배달 오류(SMTP 트래픽 분석으로 검색됨)의 자격을 제한하며 릴레이 서버를 사용할 수 없는 경우에는 전송을 수행할 수 없습니다.
 
 ## MTA 하위 프로세스 {#mta-child-processes}
 
@@ -55,7 +57,7 @@ MTA 모듈은 SMTP 브로드캐스트(포트 25)의 기본 메일 전송 에이�
 
 [이메일 전송 최적화](../../installation/using/email-deliverability.md#email-sending-optimization)도 참조하십시오.
 
-## 관심도 {#managing-outbound-smtp-traffic-with-affinities}(으)로 아웃바운드 SMTP 트래픽 관리
+## 관심사가 있는 아웃바운드 SMTP 트래픽 관리 {#managing-outbound-smtp-traffic-with-affinities}
 
 >[!IMPORTANT]
 >
@@ -63,11 +65,11 @@ MTA 모듈은 SMTP 브로드캐스트(포트 25)의 기본 메일 전송 에이�
 
 IP 주소가 있는 관심사를 통해 아웃바운드 SMTP 트래픽을 개선할 수 있습니다.
 
-이렇게 하려면 다음 단계를 적용합니다.
+그렇게 하려면 다음 단계를 적용합니다.
 
 1. **serverConf.xml** 파일의 **`<ipaffinity>`** 섹션에 관심도를 입력합니다.
 
-   친화성 하나는 여러 다른 이름을 가질 수 있습니다.구분하려면 **;** 문자를 사용합니다.
+   친화성 하나는 여러 다른 이름을 가질 수 있습니다. 구분하려면 **;** 문자를 사용합니다.
 
    예제:
 

@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 9%
@@ -14,6 +14,8 @@ ht-degree: 9%
 ---
 
 # JavaScript의 SOAP 메서드{#soap-methods-in-javascript}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign 서버에서 실행되는 JavaScript입니다.
 
@@ -27,7 +29,7 @@ Adobe Campaign 서버에서 실행되는 JavaScript입니다.
 xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false) 
 ```
 
-## 정적 메서드가 아닌 메서드 {#non-static-methods}
+## 비정적 메서드 {#non-static-methods}
 
 비정적 SOAP 메서드를 사용하려면 먼저 해당 스키마에서 &quot;get&quot; 또는 &quot;create&quot; 메서드를 사용하여 엔티티를 검색해야 합니다.
 

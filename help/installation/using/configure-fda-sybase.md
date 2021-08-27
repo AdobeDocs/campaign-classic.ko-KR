@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0fdf8259-5cab-4a9d-adb3-6c55ec5c8851
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
 
 ---
 
-# Sybase IQ {#configure-access-to-sybase-iq}에 대한 액세스 구성
+# Sybase IQ 액세스 구성 {#configure-access-to-sybase-iq}
+
+![](../../assets/v7-only.svg)
 
 Campaign **Federated Data Access** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 Sybase IQ 액세스를 구성합니다.
 
@@ -32,7 +34,7 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
 
 1. **iq_client_common**&#x200B;을 설치합니다. 설치 종료 시 Java 오류가 발생할 수 있습니다. 이 오류는 무시할 수 있습니다.
 
-1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다.일반 매개 변수의 경우 /etc/odbc.ini, 드라이버 선언의 경우 /etc/odbcinst.ini:
+1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다. 일반 매개 변수의 경우 /etc/odbc.ini, 드라이버 선언의 경우 /etc/odbcinst.ini:
 
    * **/etc/odbc.ini** (문자처럼  `<server_alias>` 값을 직접 바꾸기):
 
@@ -61,7 +63,7 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
 
 1. LD_LIBRARY_PATH 변수에 새 libodbc16.so 라이브러리에 대한 경로를 추가합니다. 방법은 다음과 같습니다.
 
-   * customer.sh 파일을 사용하여 경로를 선언할 경우:LD_LIBRARY_PATH 변수에 대한 /opt/sybase/IQ-16_0/lib64 경로를 추가합니다.
+   * customer.sh 파일을 사용하여 경로를 선언할 경우: LD_LIBRARY_PATH 변수에 대한 /opt/sybase/IQ-16_0/lib64 경로를 추가합니다.
    * 그렇지 않으면 Unix 명령을 사용합니다.
 
 ## sybase IQ 외부 계정 {#sybase-external}
@@ -74,15 +76,15 @@ Sybase IQ 외부 계정을 사용하면 Campaign 인스턴스를 Sybase IQ 외�
 
 1. **[!UICONTROL Sybase IQ]** 외부 계정을 구성하려면 다음을 지정해야 합니다.
 
-   * **[!UICONTROL Type]**:ODBC(Sybase ASE, Sybase IQ)
+   * **[!UICONTROL Type]**: ODBC(Sybase ASE, Sybase IQ)
 
-   * **[!UICONTROL Server]**:5단계에서 정의한 ODBC 연결(`<server_alias>`)에 해당합니다. 반드시 서버 자체의 이름일 필요는 없습니다.
+   * **[!UICONTROL Server]**: 5단계에서 정의한 ODBC 연결(`<server_alias>`)에 해당합니다. 반드시 서버 자체의 이름일 필요는 없습니다.
 
-   * **[!UICONTROL Account]**:사용자의 이름
+   * **[!UICONTROL Account]**: 사용자의 이름
 
-   * **[!UICONTROL Password]**:사용자 계정 암호
+   * **[!UICONTROL Password]**: 사용자 계정 암호
 
-   * **[!UICONTROL Database]**:데이터베이스 이름
+   * **[!UICONTROL Database]**: 데이터베이스 이름
 
 >[!NOTE]
 >

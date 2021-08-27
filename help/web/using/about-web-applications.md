@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 21%
@@ -14,6 +14,8 @@ ht-degree: 21%
 ---
 
 # 웹 애플리케이션 시작{#about-web-applications}
+
+![](../../assets/common.svg)
 
 Adobe Campaign을 사용하면 연결된 사용자의 권한에 맞는 데이터베이스 및 콘텐츠로 다이내믹하고 대화형 웹 애플리케이션을 만들고 게시할 수 있습니다.
 
@@ -52,7 +54,7 @@ Adobe Campaign의 웹 애플리케이션에서는 다음 기능에 액세스할 
 
 선택 사항인 **설문 조사** 작성 모듈은 다음과 같은 추가 기능을 제공합니다.
 
-* 데이터베이스의 동적 확장:초기 데이터 템플릿에 응답 만들기가 포함되지 않습니다. 자세한 정보는 이 [페이지](../../surveys/using/managing-answers.md#storing-collected-answers)를 참조하십시오.
+* 데이터베이스의 동적 확장: 초기 데이터 템플릿에 응답 만들기가 포함되지 않습니다. 자세한 정보는 이 [페이지](../../surveys/using/managing-answers.md#storing-collected-answers)를 참조하십시오.
 * 전용 보고서 생성. 자세한 정보는 이 [페이지](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys)를 참조하십시오.
 
 설문 조사는 웹 응용 프로그램과 비교하여 편집 컨트롤 수가 감소된 그래픽 인터페이스가 간단합니다.
@@ -69,7 +71,7 @@ Adobe Campaign의 웹 애플리케이션에서는 다음 기능에 액세스할 
 
 1. 컨텐츠(필드, 목록, 표, 그래프 등)를 만듭니다.
 
-   양식에 사용 가능한 필드를 자세히 설명하는 섹션을 볼 수도 있습니다.이 모든 필드는 웹 응용 프로그램에서도 사용할 수 있습니다. 이 정보는 [이 페이지](adding-fields-to-a-web-form.md)에 있습니다.
+   양식에 사용 가능한 필드를 자세히 설명하는 섹션을 볼 수도 있습니다. 이 모든 필드는 웹 응용 프로그램에서도 사용할 수 있습니다. 이 정보는 [이 페이지](adding-fields-to-a-web-form.md)에 있습니다.
 
 1. 필요에 따라 사전 로드, 테스트 및 저장 단계를 추가하고, 액세스 제어 시스템(주로 엑스트라넷 게시의 프레임워크 내에서)을 구성할 수 있습니다.
 1. 엑스트라넷 또는 Adobe Campaign에서 사용할 수 있도록 웹 애플리케이션을 게시합니다.
@@ -80,8 +82,8 @@ Adobe Campaign의 웹 애플리케이션에서는 다음 기능에 액세스할 
 
 웹 응용 프로그램은 Adobe Campaign 트리의 **[!UICONTROL Resources > Online > Web Applications]** 노드에 저장됩니다. 구성은 다음 폴더에서 분류됩니다.
 
-* **[!UICONTROL Administration > Configuration > Form renderings]**:웹 양식 프레젠테이션의 렌더링 템플릿을 포함합니다(응용 프로그램 및 설문 조사). 템플릿을 사용하면 양식을 생성할 수 있습니다. 또한 CSS 스타일 시트도 사용합니다. 이 스타일 시트는 템플릿 수준에서 오버로드될 수 있습니다. 자세한 정보는 이 [페이지](form-rendering.md#selecting-the-form-rendering-template)를 참조하십시오.
-* **[!UICONTROL Resources > Templates > Web application templates]**:양식 템플릿을 포함합니다. 양식이나 웹 응용 프로그램을 만들려면 템플릿에서 시작해야 합니다.
+* **[!UICONTROL Administration > Configuration > Form renderings]**: 웹 양식 프레젠테이션의 렌더링 템플릿을 포함합니다(응용 프로그램 및 설문 조사). 템플릿을 사용하면 양식을 생성할 수 있습니다. 또한 CSS 스타일 시트도 사용합니다. 이 스타일 시트는 템플릿 수준에서 오버로드될 수 있습니다. 자세한 정보는 이 [페이지](form-rendering.md#selecting-the-form-rendering-template)를 참조하십시오.
+* **[!UICONTROL Resources > Templates > Web application templates]**: 양식 템플릿을 포함합니다. 양식이나 웹 응용 프로그램을 만들려면 템플릿에서 시작해야 합니다.
 
 ## 웹 애플리케이션 템플릿 {#web-application-templates}
 

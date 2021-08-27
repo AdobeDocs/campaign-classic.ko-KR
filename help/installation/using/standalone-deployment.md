@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 독립형 배포{#standalone-deployment}
+
+![](../../assets/v7-only.svg)
 
 이 구성에는 동일한 컴퓨터에 있는 모든 구성 요소가 포함됩니다.
 
@@ -72,15 +74,15 @@ ht-degree: 2%
 
 다음 예에서 인스턴스의 매개 변수는 다음과 같습니다.
 
-* 인스턴스 이름:**데모**
-* DNS 마스크:**console.campaign.net*** (클라이언트 콘솔 연결 및 보고서에만 해당)
-* 데이터베이스:**campaign:demo@dbsrv**
+* 인스턴스 이름: **데모**
+* DNS 마스크: **console.campaign.net*** (클라이언트 콘솔 연결 및 보고서에만 해당)
+* 데이터베이스: **campaign:demo@dbsrv**
 
-### 설치 및 구성(단일 컴퓨터) {#installing-and-configuring--single-machine-}
+### 설치 및 구성(단일 시스템) {#installing-and-configuring--single-machine-}
 
 다음 단계를 적용합니다.
 
-1. Adobe Campaign 서버의 설치 절차를 따르십시오.Linux의 **nlserver** 패키지 또는 Windows의 **setup.exe**
+1. Adobe Campaign 서버의 설치 절차를 따르십시오. Linux의 **nlserver** 패키지 또는 Windows의 **setup.exe**
 
    자세한 내용은 Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md)(Windows)에서 [Campaign 설치 사전 요구 사항](../../installation/using/prerequisites-of-campaign-installation-in-linux.md)(Linux) 및 [Campaign 설치 사전 요구 사항(Windows)을 참조하십시오.
 
@@ -101,8 +103,8 @@ ht-degree: 2%
 
    자세한 정보는 다음 섹션을 참조하십시오.
 
-   * Linux의 경우:[서버의 첫 번째 시작](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server),
-   * Windows의 경우:[서버의 첫 번째 시작](../../installation/using/installing-the-server.md#first-start-up-of-the-server).
+   * Linux의 경우: [서버의 첫 번째 시작](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server),
+   * Windows의 경우: [서버의 첫 번째 시작](../../installation/using/installing-the-server.md#first-start-up-of-the-server).
 
 1. 다음 명령을 사용하여 **internal** 암호를 변경합니다.
 
@@ -166,10 +168,10 @@ ht-degree: 2%
 
 1. 다음 섹션에 설명된 웹 서버 통합 절차(IIS, Apache)를 따르십시오.
 
-   * Linux의 경우:[Linux용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-linux.md)
-   * Windows의 경우:[Windows용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-windows.md)
+   * Linux의 경우: [Linux용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-linux.md)
+   * Windows의 경우: [Windows용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. 웹 사이트를 시작하고 URL을 사용하여 리디렉션을 테스트합니다.https://tracking.campaign.net/r/test
+1. 웹 사이트를 시작하고 URL을 사용하여 리디렉션을 테스트합니다. https://tracking.campaign.net/r/test
 
    브라우저에 다음 메시지가 표시되어야 합니다.
 
@@ -179,14 +181,14 @@ ht-degree: 2%
 
    자세한 정보는 다음 섹션을 참조하십시오.
 
-   * Linux의 경우:[웹 서버 시작 및 구성 테스트](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
-   * Windows의 경우:[웹 서버 시작 및 구성 테스트](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
+   * Linux의 경우: [웹 서버 시작 및 구성 테스트](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
+   * Windows의 경우: [웹 서버 시작 및 구성 테스트](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Adobe Campaign 서버(**net start nlserver6**, Windows에서는 **/etc/init.d/nlserver6 start**)를 시작하고 **nlserver pdump** 명령을 한 번 더 실행하여 모든 활성화된 모듈이 있는지 확인합니다.
 
    >[!NOTE]
    >
-   >20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우).**systemctl start nlserver**
+   >20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
 
    ```
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -201,7 +203,7 @@ ht-degree: 2%
 
    또한 이 명령을 사용하여 컴퓨터에 설치된 Adobe Campaign 서버의 버전 및 빌드 번호를 알 수 있습니다.
 
-1. URL을 사용하여 **nlserver web** 모듈을 테스트합니다.https://console.campaign.net/nl/jsp/logon.jsp
+1. URL을 사용하여 **nlserver web** 모듈을 테스트합니다. https://console.campaign.net/nl/jsp/logon.jsp
 
    이 URL을 사용하면 클라이언트 설정 프로그램의 다운로드 페이지에 액세스할 수 있습니다.
 
@@ -229,8 +231,8 @@ ht-degree: 2%
 
    설정할 기본 매개 변수는 다음과 같습니다.
 
-   * 이메일 게재:반송 메일의 보낸 사람 및 회신 주소 및 오류 사서함입니다.
-   * 추적:리디렉션에 사용되는 외부 URL과 내부 URL을 채우고 추적 서버에서 **등록 을 클릭한 다음 추적 서버의**&#x200B;데모&#x200B;**인스턴스에서 유효성을 확인합니다.**
+   * 이메일 게재: 반송 메일의 보낸 사람 및 회신 주소 및 오류 사서함입니다.
+   * 추적: 리디렉션에 사용되는 외부 URL과 내부 URL을 채우고 추적 서버에서 **등록 을 클릭한 다음 추적 서버의**&#x200B;데모&#x200B;**인스턴스에서 유효성을 확인합니다.**
 
       자세한 내용은 [추적 구성](../../installation/using/deploying-an-instance.md#tracking-configuration)을 참조하십시오.
 
@@ -238,7 +240,7 @@ ht-degree: 2%
 
       Adobe Campaign 서버가 응용 프로그램 서버와 리디렉션 서버로 모두 사용되므로 추적 로그를 수집하고 URL을 전송하는 데 사용되는 내부 URL은 Tomcat(https://localhost:8080)에 대한 직접 내부 연결입니다.
 
-   * 바운스 관리:반송 메일을 처리할 매개 변수를 입력합니다(처리되지 않은 바운스 메일&#x200B;**섹션을 고려하지는 않음).**
-   * 액세스 위치:보고서, 웹 양식 및 미러 페이지에 대한 두 URL을 제공합니다.
+   * 바운스 관리: 반송 메일을 처리할 매개 변수를 입력합니다(처리되지 않은 바운스 메일&#x200B;**섹션을 고려하지는 않음).**
+   * 액세스 위치: 보고서, 웹 양식 및 미러 페이지에 대한 두 URL을 제공합니다.
 
       ![](assets/d_ncs_install_web_url.png)

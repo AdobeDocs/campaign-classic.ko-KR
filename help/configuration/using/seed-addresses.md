@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 시드 주소{#seed-addresses}
+
+![](../../assets/v7-only.svg)
 
 수신자 테이블이 사용자 지정 테이블인 경우 추가 구성이 필요합니다. **[!UICONTROL nms:seedMember]** 스키마를 확장해야 합니다. 아래 그림과 같이 적절한 필드를 정의하기 위한 추가 탭이 시드 주소에 추가됩니다.
 
@@ -95,4 +97,4 @@ ht-degree: 1%
      </container>
    ```
 
-시드 주소의 모든 속성을 입력하지 않으면 Adobe Campaign은 자동으로 프로필을 대체합니다.기존 프로필의 데이터를 사용하여 개인화하는 동안 자동으로 입력됩니다.
+시드 주소의 모든 속성을 입력하지 않으면 Adobe Campaign은 자동으로 프로필을 대체합니다. 기존 프로필의 데이터를 사용하여 개인화하는 동안 자동으로 입력됩니다.

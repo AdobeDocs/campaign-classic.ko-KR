@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 19%
@@ -14,6 +14,8 @@ ht-degree: 19%
 ---
 
 # 소통 채널{#communication-channels}
+
+![](../../assets/common.svg)
 
 Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및 DM을 포함한 크로스 채널 캠페인을 보내고 다양한 전용 [보고서](../../reporting/using/delivery-reports.md)를 사용하여 그 효과를 측정할 수 있습니다. 이러한 메시지는 게재를 통해 디자인되고 전송되며 각 수신자에 대해 개인화할 수 있습니다.
 
@@ -29,7 +31,7 @@ Adobe Campaign에서는 다음 게재 채널을 제공합니다.
 
 1. **이메일 채널**: 이메일 게재를 사용하면 개인화된 이메일을 대상 모집단으로 보낼 수 있습니다. [전자 메일 채널 정보](about-email-channel.md)를 참조하십시오.
 1. **DM 채널**: DM 게재는 대상 모집단에서 데이터를 포함하는 추출 파일을 생성할 수 있습니다. [다이렉트 메일 채널 정보](about-direct-mail-channel.md)를 참조하십시오.
-1. **모바일 채널**:모바일 채널의 게재를 사용하면 개인화된 SMS 또는 LINE 메시지를 대상 모집단으로 보낼 수 있습니다. [SMS 채널](sms-channel.md)을 참조하십시오.
+1. **모바일 채널**: 모바일 채널의 게재를 사용하면 개인화된 SMS 또는 LINE 메시지를 대상 모집단으로 보낼 수 있습니다. [SMS 채널](sms-channel.md)을 참조하십시오.
 1. **모바일 앱 채널**:모바일 앱 게재를 사용하면 iOS 및 Android 시스템에 알림을 전송할 수 있습니다. [모바일 앱 채널](about-mobile-app-channel.md) 장을 참조하십시오.
 
    다른 채널은 [이 페이지](steps-about-delivery-creation-steps.md#other-channels)에 설명되어 있습니다.
@@ -53,9 +55,9 @@ Adobe Campaign에서는 다음 게재 채널을 제공합니다.
 
 다음과 같은 유형의 이메일을 보낼 수 있습니다.
 
-* 단일 전송 이메일:정의된 타겟에게 한 번 보낼 수 있는 이메일. 일반적으로 한 번만 준비하고 전송되는 특정 컨텐츠(뉴스레터, 프로모션 이메일 등)를 홍보하는 데 사용됩니다.
-* 반복 이메일:캠페인에서 동일한 이메일을 정기적으로 보내고 각 전송과 보고서를 정기적으로 집계합니다. 동일한 이메일이 전송되지만 전송 날짜에 적합한 타겟을 기반으로 일반적으로 다른 타겟으로 전송됩니다. 일반적인 예로는 생일 이메일이 있습니다. 자세한 내용은 [반복 게재](../../workflow/using/recurring-delivery.md)를 참조하십시오.
-* 트랜잭션 이메일:고객의 행동을 기반으로 트리거되는 단일 이메일. [트랜잭션 메시지](../../message-center/using/about-transactional-messaging.md)를 참조하십시오.
+* 단일 전송 이메일: 정의된 타겟에게 한 번 보낼 수 있는 이메일. 일반적으로 한 번만 준비하고 전송되는 특정 컨텐츠(뉴스레터, 프로모션 이메일 등)를 홍보하는 데 사용됩니다.
+* 반복 이메일: 캠페인에서 동일한 이메일을 정기적으로 보내고 각 전송과 보고서를 정기적으로 집계합니다. 동일한 이메일이 전송되지만 전송 날짜에 적합한 타겟을 기반으로 일반적으로 다른 타겟으로 전송됩니다. 일반적인 예로는 생일 이메일이 있습니다. 자세한 내용은 [반복 게재](../../workflow/using/recurring-delivery.md)를 참조하십시오.
+* 트랜잭션 이메일: 고객의 행동을 기반으로 트리거되는 단일 이메일. [트랜잭션 메시지](../../message-center/using/about-transactional-messaging.md)를 참조하십시오.
 
 게재 사용량 및 권장 사항에 대해 알아보려면 Campaign [게재 모범 사례](delivery-best-practices.md)를 참조하십시오.
 
@@ -92,7 +94,7 @@ Adobe Campaign에서는 외부 게재를 만드는 데 사용되는 전화 배�
 >
 >전화 채널은 즉시 사용할 수 없습니다. 구현하려면 Adobe 컨설팅 또는 Adobe 파트너가 참여해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-또한 &#39;기타&#39; 유형 게재는 프로세스를 실행하지 않는 특정 기술 템플릿을 사용합니다.이렇게 하면 Adobe Campaign 플랫폼 외부에서 실행된 마케팅 작업을 관리할 수 있습니다.
+또한 &#39;기타&#39; 유형 게재는 프로세스를 실행하지 않는 특정 기술 템플릿을 사용합니다. 이렇게 하면 Adobe Campaign 플랫폼 외부에서 실행된 마케팅 작업을 관리할 수 있습니다.
 
 이 채널에는 특정 메커니즘이 없습니다. Adobe Campaign에서 사용할 수 있는 다른 통신 채널과 마찬가지로 자체 외부 계정 라우팅 옵션, 게재 템플릿 유형 및 캠페인 워크플로우 활동이 있는 일반 채널입니다.
 
@@ -116,7 +118,7 @@ Campaign에는 다음 세 가지 유형의 게재 개체가 있습니다.
 
 예를 들어, 한 달에 한 번 이러한 유형의 활동을 실행하면 1년 후 12개의 게재가 제공됩니다.
 
-반복 게재는 [반복 게재 활동](../../workflow/using/recurring-delivery.md)을 통해 워크플로우 내에 만들어집니다. 사용 중인 이 활동의 예는 이 섹션에 나와 있습니다.[타깃팅 워크플로우에서 반복 게재를 만듭니다](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+반복 게재는 [반복 게재 활동](../../workflow/using/recurring-delivery.md)을 통해 워크플로우 내에 만들어집니다. 사용 중인 이 활동의 예는 이 섹션에 나와 있습니다. [타깃팅 워크플로우에서 반복 게재를 만듭니다](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 ### 지속적인 게재 {#continuous-delivery}
 

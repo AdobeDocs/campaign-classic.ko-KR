@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 2%
@@ -15,11 +15,13 @@ ht-degree: 2%
 
 # 활용 사례{#use-case}
 
-## 구독자 {#creating-a-filter-on-the-email-format-of-subscribers} 의 이메일 형식에 필터를 만듭니다.
+![](../../assets/common.svg)
+
+## 구독자의 이메일 형식에 대한 필터 만들기 {#creating-a-filter-on-the-email-format-of-subscribers}
 
 이 사용 사례에서는 수신자 이메일 형식을 기반으로 뉴스레터 가입을 정렬하는 필터를 만드는 방법을 보여줍니다.
 
-이렇게 하려면 사전 정의된 파일러를 사용해야 합니다.이러한 필터는 문서 유형에 연결되며 **[!UICONTROL Administration > Configuration > Predefined filters]** 노드를 통해 액세스합니다. 이러한 데이터 필터는 애플리케이션에서 각 유형의 편집기(또는 문서)에 사용할 수 있습니다.
+이렇게 하려면 사전 정의된 파일러를 사용해야 합니다. 이러한 필터는 문서 유형에 연결되며 **[!UICONTROL Administration > Configuration > Predefined filters]** 노드를 통해 액세스합니다. 이러한 데이터 필터는 애플리케이션에서 각 유형의 편집기(또는 문서)에 사용할 수 있습니다.
 
 데이터 필터는 사전 정의된 필터와 같은 방식으로 만들어지지만 필터를 적용할 문서 유형을 선택할 수 있는 추가 필드가 있습니다.
 
@@ -49,7 +51,7 @@ ht-degree: 2%
    ![](assets/s_ncs_user_filter_parameters.png)
 
 1. 이 유형의 목록에 대해 미리 정의된 필터에 필터를 추가하려면 **[!UICONTROL Save]** 을 클릭하십시오.
-1. 이제 수신자 프로필의 **[!UICONTROL Subscriptions]** 탭에서 이 필터를 사용할 수 있습니다.**[!UICONTROL Filters]** 단추를 클릭하여 &quot;알 수 없는 전자 메일 형식&quot; 필터에 액세스할 수 있습니다.
+1. 이제 수신자 프로필의 **[!UICONTROL Subscriptions]** 탭에서 이 필터를 사용할 수 있습니다. **[!UICONTROL Filters]** 단추를 클릭하여 &quot;알 수 없는 전자 메일 형식&quot; 필터에 액세스할 수 있습니다.
 
    ![](assets/s_ncs_user_filter_on_events.png)
 

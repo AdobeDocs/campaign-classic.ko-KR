@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 워크플로우를 통해 오퍼 통합{#integrating-an-offer-via-a-workflow}
+
+![](../../assets/v7-only.svg)
 
 게재 활동 자체 외에, 몇 가지 워크플로우 활동을 통해 오퍼를 표시하는 방식을 정의할 수 있습니다.
 
@@ -62,7 +64,7 @@ ht-degree: 3%
 * 오퍼 또는 오퍼 엔진 호출 지정
 * 오퍼 링크 참조.
 
-### 오퍼 엔진 {#specifying-an-offer-or-a-call-to-the-offer-engine} 호출 지정
+### 오퍼 엔진에 대한 호출 지정 {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
 쿼리를 구성한 후( [워크플로우 안내서](../../workflow/using/query.md) 참조):
 
@@ -75,11 +77,11 @@ ht-degree: 3%
 1. 추가할 제안에 대한 레이블과 식별자를 지정합니다.
 1. 오퍼 선택을 지정합니다. 다음 두 가지 옵션을 사용할 수 있습니다.
 
-   * **[!UICONTROL Search for the best offer in a category]** :이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마), 연락 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. 두 필드를 동시에 완료하지 않고 **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드를 완료하는 것이 좋습니다.
+   * **[!UICONTROL Search for the best offer in a category]** : 이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마), 연락 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. 두 필드를 동시에 완료하지 않고 **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드를 완료하는 것이 좋습니다.
 
       ![](assets/int_enrichment_offer3.png)
 
-   * **[!UICONTROL A predefined offer]** :오퍼 엔진을 호출하지 않고 추가할 오퍼를 직접 구성하려면 이 옵션을 선택하고 오퍼 공간, 특정 오퍼 및 연락 날짜를 지정합니다.
+   * **[!UICONTROL A predefined offer]** : 오퍼 엔진을 호출하지 않고 추가할 오퍼를 직접 구성하려면 이 옵션을 선택하고 오퍼 공간, 특정 오퍼 및 연락 날짜를 지정합니다.
 
       ![](assets/int_enrichment_offer4.png)
 
@@ -89,7 +91,7 @@ ht-degree: 3%
    >
    >미리 보기에 사용할 수 있는 proposition 수는 게재에서 직접 수행되는 구성 대신 데이터 보강 활동에서 수행되는 구성에 따라 다릅니다.
 
-### 오퍼 {#referencing-a-link-to-an-offer} 링크 참조
+### 오퍼 링크 참조 {#referencing-a-link-to-an-offer}
 
 데이터 보강 활동에서 오퍼에 대한 링크를 참조할 수도 있습니다.
 
@@ -117,7 +119,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->기억:**[!UICONTROL Offer engine]** 활동은 기본적으로 이 정보를 저장합니다.
+>기억: **[!UICONTROL Offer engine]** 활동은 기본적으로 이 정보를 저장합니다.
 
 그러나 다음과 같이 이 정보를 저장할 수 있습니다.
 
@@ -149,7 +151,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >경고:이 활동을 사용하는 경우 게재에 사용된 오퍼 포지션만 저장됩니다.
+   >경고: 이 활동을 사용하는 경우 게재에 사용된 오퍼 포지션만 저장됩니다.
 
    ![](assets/int_offerengine_activity1.png)
 

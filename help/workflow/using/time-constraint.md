@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 시간 제한{#time-constraint}
+
+![](../../assets/common.svg)
 
 **시간 제한** 활동을 사용하면 작업 실행을 연기하거나 작업을 중단할 수 있습니다.
 

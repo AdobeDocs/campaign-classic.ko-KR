@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 5ccf5a21-48aa-4c0d-8cc8-457eb07d9f74
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 20%
@@ -14,6 +14,8 @@ ht-degree: 20%
 ---
 
 # 새 웹 애플리케이션 만들기{#creating-a-new-web-application}
+
+![](../../assets/common.svg)
 
 만드는 동안 웹 응용 프로그램 유형이 선택됩니다.
 
@@ -29,7 +31,7 @@ ht-degree: 20%
 
 1. 웹 양식(+ 프로필 수정)
 
-   웹 양식을 사용하면 입력 또는 선택 필드로 웹 페이지를 제공할 수 있습니다.사용자가 입력한 정보는 Adobe Campaign 데이터베이스에 저장할 수 있습니다. 자세한 내용은 [웹 양식](about-web-forms.md)을 참조하십시오.
+   웹 양식을 사용하면 입력 또는 선택 필드로 웹 페이지를 제공할 수 있습니다. 사용자가 입력한 정보는 Adobe Campaign 데이터베이스에 저장할 수 있습니다. 자세한 내용은 [웹 양식](about-web-forms.md)을 참조하십시오.
 
 1. 웹 애플리케이션
 
@@ -41,7 +43,7 @@ ht-degree: 20%
 
 1. 설문 조사
 
-   Adobe Campaign을 사용하면 **설문 조사 관리자** 옵션을 통해 온라인 설문 조사를 디자인하고 관리하고 결과를 처리할 수 있습니다.동적 필드 작성, 점수 관리, 답변 및 전용 보고서 내보내기. 이 작업에 대한 자세한 정보는 [이 섹션](../../surveys/using/about-surveys.md)을 참조하십시오.
+   Adobe Campaign을 사용하면 **설문 조사 관리자** 옵션을 통해 온라인 설문 조사를 디자인하고 관리하고 결과를 처리할 수 있습니다. 동적 필드 작성, 점수 관리, 답변 및 전용 보고서 내보내기. 이 작업에 대한 자세한 정보는 [이 섹션](../../surveys/using/about-surveys.md)을 참조하십시오.
 
    >[!CAUTION]
    >

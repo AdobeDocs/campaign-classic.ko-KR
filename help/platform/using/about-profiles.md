@@ -2,18 +2,20 @@
 product: campaign
 title: 프로필 기본 정보
 description: 프로필 기본 정보
-feature: 프로필, 대상자
+feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '897'
 ht-degree: 15%
 
 ---
 
 # 프로필 시작{#about-profiles}
+
+![](../../assets/common.svg)
 
 프로필은 Adobe Campaign 데이터베이스에서 중앙 집중화되었습니다. 프로필을 가져오고 이 데이터베이스를 빌드하는 데 사용할 수 있는 메커니즘은 웹 양식을 통한 온라인 수집, 텍스트 파일 수동 또는 자동 가져오기, 회사 데이터베이스 또는 기타 정보 시스템을 사용한 복제와 같이 다양합니다. Adobe Campaign을 사용하면 마케팅 기록, 구매 정보, 환경 설정, CRM 데이터 및 관련 API 데이터를 통합 뷰에 통합하여 분석하고 조치를 취할 수 있습니다.
 

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 운영자에게 개인화된 경고 보내기{#sending-personalized-alerts-to-operators}
+
+![](../../assets/common.svg)
 
 이 예에서는 뉴스레터를 열었지만 포함된 링크를 클릭하지 않은 프로필의 이름이 포함된 운영자에게 경고를 보내려고 합니다.
 
@@ -28,7 +30,7 @@ ht-degree: 2%
 
 ![](assets/uc_operator_1.png)
 
-## 모집단을 인스턴스 변수 {#saving-the-population-to-the-instance-variable}에 저장
+## 인스턴스 변수에 모집단 저장 {#saving-the-population-to-the-instance-variable}
 
 아래 코드를 **[!UICONTROL JavaScript code]** 활동에 추가합니다.
 
@@ -75,7 +77,7 @@ var.recCount>0
 
 ![](assets/uc_operator_7.png)
 
-## 경고 {#setting-up-the-alert} 설정
+## 경고 설정 {#setting-up-the-alert}
 
 모집단이 원하는 필드를 사용하여 인스턴스 변수에 추가되었으므로 이러한 정보를 **[!UICONTROL Alert]** 활동에 추가할 수 있습니다.
 

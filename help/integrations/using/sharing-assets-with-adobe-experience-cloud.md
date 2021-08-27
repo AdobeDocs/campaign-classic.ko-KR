@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: b28aa5a5-afba-458b-8a85-375493c6c836
-source-git-commit: eb630b29dba8cc34046e2f14e9ed6ba8c017ea5d
+source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Adobe Experience Cloud과 자산 공유{#sharing-assets-with-adobe-experience-cloud}
+
+![](../../assets/common.svg)
 
 Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준비가 끝난 자산에 대해 중앙 집중식 단일 저장소를 제공합니다. 자산은 디지털 문서, 이미지, 비디오 또는 오디오 파일입니다.
 

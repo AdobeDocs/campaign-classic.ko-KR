@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '702'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 웹 양식 페이지 순서 정의{#defining-web-forms-page-sequencing}
+
+![](../../assets/common.svg)
 
 양식에는 하나 이상의 페이지가 포함될 수 있습니다. 페이지 시퀀스, 테스트, 스크립트 실행, 페이지 이동 및 기록 단계를 수행할 수 있는 다이어그램을 통해 빌드되었습니다. 전역 다이어그램 디자인 모드는 Campaign 워크플로우와 동일합니다.
 
@@ -47,11 +49,11 @@ ht-degree: 2%
 
    ![](assets/s_ncs_admin_survey_jump_comment.png)
 
-## 예:URL의 매개 변수에 따라 다른 양식에 액세스 {#example--accessing-another-form-according-to-a-parameter-of-the-url}
+## 예: URL의 매개 변수에 따라 다른 양식에 액세스 {#example--accessing-another-form-according-to-a-parameter-of-the-url}
 
-다음 예제에서는 승인되면 URL의 매개 변수로 지정된 다른 양식을 표시하는 웹 양식을 구성하려고 합니다. 이렇게 하려면 다음 단계를 적용합니다.
+다음 예제에서는 승인되면 URL의 매개 변수로 지정된 다른 양식을 표시하는 웹 양식을 구성하려고 합니다. 그렇게 하려면 다음 단계를 적용합니다.
 
-1. 양식 끝에 점프를 삽입합니다.이 옵션은 **[!UICONTROL End]** 상자를 대체합니다.
+1. 양식 끝에 점프를 삽입합니다. 이 옵션은 **[!UICONTROL End]** 상자를 대체합니다.
 
    ![](assets/s_ncs_admin_survey_jump_sample1.png)
 
@@ -122,4 +124,4 @@ ht-degree: 2%
 ![](assets/s_ncs_admin_survey_end_page_edit.png)
 
 * 기존 HTML 콘텐츠를 복사하여 붙여넣을 수 있습니다. 이렇게 하려면 **[!UICONTROL Display source code]** 을 클릭하고 HTML 코드를 삽입합니다.
-* 외부 URL을 사용할 수 있습니다.이렇게 하려면 해당 옵션을 선택하고 표시할 페이지의 URL을 입력합니다.
+* 외부 URL을 사용할 수 있습니다. 이렇게 하려면 해당 옵션을 선택하고 표시할 페이지의 URL을 입력합니다.

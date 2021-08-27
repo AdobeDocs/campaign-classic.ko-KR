@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 웹 양식 속성 정의{#defining-web-forms-properties}
+
+![](../../assets/common.svg)
 
 웹 양식은 요구 사항을 충족하도록 완벽하게 구성 가능하고 개인화할 수 있습니다. 등록 정보 창에 매개변수를 입력해야 합니다.
 
@@ -37,7 +39,7 @@ ht-degree: 1%
 
 ## 오류 페이지 설정 {#setting-up-an-error-page}
 
-오류 페이지를 구성할 수 있습니다.양식 실행 중에 오류가 발생하는 경우 이 페이지가 표시됩니다.
+오류 페이지를 구성할 수 있습니다. 양식 실행 중에 오류가 발생하는 경우 이 페이지가 표시됩니다.
 
 오류 페이지는 양식 속성 창의 해당 탭에 정의됩니다.
 
@@ -103,7 +105,7 @@ ht-degree: 1%
 
 ## 양식 액세스 제어 {#form-access-control}
 
-기본적으로 웹 양식에 대한 액세스는 익명 모드에서 수행됩니다.양식에 액세스하는 모든 운영자에게 WebApp 운영자 권한이 할당됩니다.
+기본적으로 웹 양식에 대한 액세스는 익명 모드에서 수행됩니다. 양식에 액세스하는 모든 운영자에게 WebApp 운영자 권한이 할당됩니다.
 
 사용자를 인증하기 위해 인트라넷 사이트에서 양식을 전달하는 등의 양식 표시에 대한 액세스 제어를 활성화할 수 있습니다. 이렇게 하려면 관련 양식의 **[!UICONTROL Properties]** 창을 표시하고 아래 표시된 대로 **[!UICONTROL Enable access control]** 옵션을 클릭합니다.
 
@@ -132,7 +134,7 @@ ht-degree: 1%
 * **** 는 암호화된 식별자를 나타냅니다.
 * **** 언어를 변경할 수 있습니다.
 * **** 원래 피신청인의 출처를 지정합니다.
-* **게시 전 및** 오류 추적 전에 양식을 볼 수 있도록 합니다(_uuuid). 이 매개 변수는 내부용(만들기 및 디버그):이 URL을 통해 웹 양식에 액세스하면 생성된 레코드가 추적(보고서)에서 고려되지 않습니다. 원본은 **[!UICONTROL Adobe Campaign]** 값에 강제 적용됩니다.
+* **게시 전 및** 오류 추적 전에 양식을 볼 수 있도록 합니다(_uuuid). 이 매개 변수는 내부용(만들기 및 디버그): 이 URL을 통해 웹 양식에 액세스하면 생성된 레코드가 추적(보고서)에서 고려되지 않습니다. 원본은 **[!UICONTROL Adobe Campaign]** 값에 강제 적용됩니다.
 
    이 매개 변수는 **_preview** 매개 변수 및/또는 **_debug**&#x200B;에서 사용됩니다.
 

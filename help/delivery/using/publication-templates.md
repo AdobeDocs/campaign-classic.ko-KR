@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 게시 템플릿{#publication-templates}
+
+![](../../assets/common.svg)
 
 ## 게시 템플릿 기본 정보 {#about-publication-templates}
 
@@ -27,7 +29,7 @@ ht-degree: 0%
 
 게시 템플릿은 해당 이름 및 네임스페이스로 식별됩니다.
 
-스타일시트의 식별 키는 네임스페이스와 콜론으로 구분되는 이름으로 구성된 문자열입니다.예:**cus:newsletter**.
+스타일시트의 식별 키는 네임스페이스와 콜론으로 구분되는 이름으로 구성된 문자열입니다. 예: **cus:newsletter**.
 
 >[!NOTE]
 >
@@ -55,8 +57,8 @@ ht-degree: 0%
 
 **[!UICONTROL Rendering]** 탭에서 다음을 선택합니다.
 
-* 출력 문서를 투영하는 데 사용되는 렌더링 유형:XSL 스타일시트 또는 JavaScript 템플릿,
-* 출력 문서의 형식:HTML, 텍스트, XML 또는 RTF,
+* 출력 문서를 투영하는 데 사용되는 렌더링 유형: XSL 스타일시트 또는 JavaScript 템플릿,
+* 출력 문서의 형식: HTML, 텍스트, XML 또는 RTF,
 * 사용할 스타일시트 또는 JavaScript 템플릿 등 구성 데이터가 포함된 템플릿입니다.
 
 ### 발행 {#publication}
@@ -71,7 +73,7 @@ ht-degree: 0%
 * **[!UICONTROL Multi-file generation]** 옵션은 특수 문서 게시 모드를 활성화합니다. 이 옵션은 출력 문서의 각 페이지 시작 부분에 분할 태그를 채우는 것으로 구성됩니다. 컨텐츠를 생성하면 채워진 각 분할 태그에 대한 파일이 생성됩니다. 이 모드는 콘텐츠 블록에서 미니 사이트를 생성하는 데 사용됩니다. 자세한 내용은 [다중 파일 생성](#multi-file-generation)을 참조하십시오.
 * **[!UICONTROL Location]** 필드에는 출력 파일의 이름이 포함되어 있습니다. 자동 파일 이름을 생성하기 위해 이름으로 구성할 수 있습니다.
 
-   변수는 다음 형식으로 채워집니다.**`$(<xpath>)`** 여기서 **`<xpath>`**&#x200B;은 게시 템플릿 데이터 스키마의 필드 경로입니다.
+   변수는 다음 형식으로 채워집니다. **`$(<xpath>)`** 여기서 **`<xpath>`**&#x200B;은 게시 템플릿 데이터 스키마의 필드 경로입니다.
 
    파일 이름은 날짜 유형 필드로 구성될 수 있습니다. 이 필드의 형식을 올바르게 지정하려면 필드의 경로와 출력 형식을 매개 변수로 사용하여 **$date-format** 함수를 사용하십시오.
 
@@ -81,7 +83,7 @@ ht-degree: 0%
    ct_$(@name)_$date-format(@date,'%4Y%2M%2D').htm
    ```
 
-   생성된 파일 이름은 다음과 같습니다.ct_news12_20110901.htm
+   생성된 파일 이름은 다음과 같습니다. ct_news12_20110901.htm
 
    >[!NOTE]
    >

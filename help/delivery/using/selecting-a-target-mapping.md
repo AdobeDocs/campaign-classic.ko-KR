@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # 대상 매핑 선택{#selecting-a-target-mapping}
+
+![](../../assets/common.svg)
 
 기본적으로 게재 템플릿은 **[!UICONTROL Recipients]**&#x200B;을(를) 타겟으로 합니다. 따라서 대상 매핑은 **nms:recipient** 테이블의 필드를 사용합니다. Adobe Campaign은 사용자의 요구 사항에 따라 사용할 게재에 대한 다른 target 매핑을 제공합니다.
 

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 1%
@@ -15,7 +15,9 @@ ht-degree: 1%
 
 # 게재 정보 쿼리 {#querying-delivery-information}
 
-## 특정 게재에 대한 클릭 수 {#number-of-clicks-for-a-specific-delivery}
+![](../../assets/common.svg)
+
+## 특정 게재를 위한 클릭 수 {#number-of-clicks-for-a-specific-delivery}
 
 이 예제에서는 특정 게재를 위한 클릭 수를 복구하려고 합니다. 이러한 클릭은 주어진 기간에 걸쳐 수행한 수신자 추적 로그 덕분에 기록됩니다. 수신자는 이메일 주소를 통해 식별됩니다. 이 쿼리는 **[!UICONTROL Recipient tracking logs]** 테이블을 사용합니다.
 
@@ -37,7 +39,7 @@ ht-degree: 1%
 
    ![](assets/query_editor_tracklog_05.png)
 
-1. **[!UICONTROL Data to extract]** 창에서 정보를 수집하기 위한 합계를 만들겠습니다. 이렇게 하려면 기본 키(기본 **[!UICONTROL Recipient tracking logs]** 요소 위에 있음)를 추가합니다.추적 로그 수는 이 **[!UICONTROL Primary key]** 필드에서 수행됩니다. 편집된 표현식은 **[!UICONTROL x=count(primary key)]**&#x200B;입니다. 다양한 추적 로그 합계를 단일 이메일 주소에 연결합니다.
+1. **[!UICONTROL Data to extract]** 창에서 정보를 수집하기 위한 합계를 만들겠습니다. 이렇게 하려면 기본 키(기본 **[!UICONTROL Recipient tracking logs]** 요소 위에 있음)를 추가합니다. 추적 로그 수는 이 **[!UICONTROL Primary key]** 필드에서 수행됩니다. 편집된 표현식은 **[!UICONTROL x=count(primary key)]**&#x200B;입니다. 다양한 추적 로그 합계를 단일 이메일 주소에 연결합니다.
 
    방법은 다음과 같습니다.
 
@@ -51,13 +53,13 @@ ht-degree: 1%
 
       ![](assets/query_editor_nveau_18.png)
 
-      **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+      **[!UICONTROL Next]**&#x200B;를 클릭합니다.
 
    * **[!UICONTROL Primary key (@id)]** 필드를 선택합니다. **[!UICONTROL count (primary key)]** 출력 열이 구성되었습니다.
 
       ![](assets/query_editor_nveau_19.png)
 
-1. 출력 열에 표시할 다른 필드를 선택합니다. **[!UICONTROL Available fields]** 열에서 **[!UICONTROL Recipient]** 노드를 열고 **[!UICONTROL Email]**&#x200B;를 선택합니다. 추적 로그를 전자 메일 주소로 그룹화하려면 **[!UICONTROL Group]** 상자를 **[!UICONTROL Yes]** 선택합니다.이 그룹은 각 로그를 수신자에게 연결합니다.
+1. 출력 열에 표시할 다른 필드를 선택합니다. **[!UICONTROL Available fields]** 열에서 **[!UICONTROL Recipient]** 노드를 열고 **[!UICONTROL Email]**&#x200B;를 선택합니다. 추적 로그를 전자 메일 주소로 그룹화하려면 **[!UICONTROL Group]** 상자를 **[!UICONTROL Yes]** 선택합니다. 이 그룹은 각 로그를 수신자에게 연결합니다.
 
    ![](assets/query_editor_nveau_20.png)
 
@@ -73,7 +75,7 @@ ht-degree: 1%
 
       ![](assets/query_editor_nveau_22.png)
 
-   * 특정 게재를 위해 주어진 기간 동안 추적 로그를 복구합니다. 다음 세 가지 필터링 조건이 필요합니다.현재 날짜보다 2주 전에 검색 기간을 설정하고 현재 날짜보다 이전 날짜 사이에 검색 기간을 설정하는 두 가지 날짜 조건및 검색을 특정 게재로 제한하는 다른 조건.
+   * 특정 게재를 위해 주어진 기간 동안 추적 로그를 복구합니다. 다음 세 가지 필터링 조건이 필요합니다. 현재 날짜보다 2주 전에 검색 기간을 설정하고 현재 날짜보다 이전 날짜 사이에 검색 기간을 설정하는 두 가지 날짜 조건 및 검색을 특정 게재로 제한하는 다른 조건.
 
       **[!UICONTROL Target element]** 창에서 추적 로그를 고려할 시작 날짜를 구성합니다. **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다. 조건 선이 표시됩니다. **[!UICONTROL Edit expression]** 함수를 클릭하여 **[!UICONTROL Expression]** 열을 편집합니다. **[!UICONTROL Field to select]** 창에서 **[!UICONTROL Date (@logDate)]** 을 선택합니다.
 
@@ -81,7 +83,7 @@ ht-degree: 1%
 
       **[!UICONTROL greater than]** 연산자를 선택합니다. **[!UICONTROL Value]** 열에서 **[!UICONTROL Edit expression]** 를 클릭하고 **[!UICONTROL Formula type]** 창에서 **[!UICONTROL Process on dates]** 를 선택합니다. 마지막으로 **[!UICONTROL Current date minus n days]**&#x200B;에 &quot;15&quot;를 입력합니다.
 
-      **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
+      **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
 
       ![](assets/query_editor_nveau_24.png)
 
@@ -89,7 +91,7 @@ ht-degree: 1%
 
       **[!UICONTROL less than]** 연산자를 선택합니다. **[!UICONTROL Value]** 열에서 **[!UICONTROL Edit expression]** 를 클릭합니다. 날짜 처리를 위해 **[!UICONTROL Formula type]** 창으로 이동하여 **[!UICONTROL Current date minus n days]**&#x200B;에 &quot;1&quot;을 입력합니다.
 
-      **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
+      **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
 
       ![](assets/query_editor_nveau_65.png)
 
@@ -97,7 +99,7 @@ ht-degree: 1%
 
    * 다른 필터링 조건을 만들려면 **[!UICONTROL Add]** 함수를 클릭합니다. **[!UICONTROL Expression]** 열에서 **[!UICONTROL Edit expression]** 를 클릭합니다. **[!UICONTROL Field to select]** 창의 **[!UICONTROL Delivery]** 노드에서 **[!UICONTROL Label]**&#x200B;을 선택합니다.
 
-      **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
+      **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
 
       ![](assets/query_editor_nveau_66.png)
 
@@ -105,7 +107,7 @@ ht-degree: 1%
 
       ![](assets/query_editor_nveau_25.png)
 
-1. **[!UICONTROL Data preview]** 창으로 이동할 때까지 **[!UICONTROL Next]** 을 클릭합니다.여기에 서식을 지정할 필요가 없습니다.
+1. **[!UICONTROL Data preview]** 창으로 이동할 때까지 **[!UICONTROL Next]** 을 클릭합니다. 여기에 서식을 지정할 필요가 없습니다.
 1. **[!UICONTROL Data preview]** 창에서 **[!UICONTROL Start the preview of the data]** 을 클릭하여 각 게재 수신자에 대한 추적 로그 수를 확인합니다.
 
    결과는 내림차순으로 표시됩니다.
@@ -155,7 +157,7 @@ ht-degree: 1%
 
 다음 예제에서는 지난 2주 내에 게재를 연 프로필을 타겟팅하는 방법을 보여줍니다.
 
-1. 게재를 연 프로필을 타겟팅하려면 추적 로그를 사용해야 합니다. 연결된 테이블에 저장됩니다.**[!UICONTROL Filtering dimension]** 필드의 드롭다운 목록에서 이 테이블을 아래 표시된 대로 선택하여 시작합니다.
+1. 게재를 연 프로필을 타겟팅하려면 추적 로그를 사용해야 합니다. 연결된 테이블에 저장됩니다. **[!UICONTROL Filtering dimension]** 필드의 드롭다운 목록에서 이 테이블을 아래 표시된 대로 선택하여 시작합니다.
 
    ![](assets/s_advuser_query_sample1.0.png)
 
@@ -177,7 +179,7 @@ ht-degree: 1%
 
    ![](assets/s_advuser_query_sample1.6.png)
 
-## 게재 {#filtering-recipients--behavior-folllowing-a-delivery} 이후 수신자의 동작 필터링
+## 게재 후 수신자 동작 필터링 {#filtering-recipients--behavior-folllowing-a-delivery}
 
 워크플로우에서 **[!UICONTROL Query]** 및 **[!UICONTROL Split]** 상자를 사용하여 이전 게재 이후의 동작을 선택할 수 있습니다. 이 선택 사항은 **[!UICONTROL Delivery recipient]** 필터를 통해 수행됩니다.
 
@@ -197,17 +199,17 @@ ht-degree: 1%
 
    ![](assets/query_editor_ex_09.png)
 
-1. **[!UICONTROL Split]** 상자를 엽니다. **[!UICONTROL General]** 탭에서 레이블을 입력합니다.예를 들어 **비헤이비어를 기준으로 분할**
+1. **[!UICONTROL Split]** 상자를 엽니다. **[!UICONTROL General]** 탭에서 레이블을 입력합니다. 예를 들어 **비헤이비어를 기준으로 분할**
 
    ![](assets/query_editor_ex_04.png)
 
 1. **[!UICONTROL Subsets]** 탭에서 첫 번째 분할 분기를 정의합니다. 예를 들어 이 분기에 대해 **Clicked** 레이블을 입력합니다.
-1. **[!UICONTROL Add a filtering condition on the incoming population]** 옵션을 선택합니다. **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Add a filtering condition on the incoming population]** 옵션을 선택합니다. **[!UICONTROL Edit]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL Targeting and filtering dimension]** 창에서 **[!UICONTROL Recipients of a delivery]** 필터를 두 번 클릭합니다.
 
    ![](assets/query_editor_ex_05.png)
 
-1. **[!UICONTROL Target element]** 창에서 이 분기에 적용할 동작을 선택합니다.**[!UICONTROL Recipients having clicked (email)]**.
+1. **[!UICONTROL Target element]** 창에서 이 분기에 적용할 동작을 선택합니다. **[!UICONTROL Recipients having clicked (email)]**.
 
    아래에서 **[!UICONTROL Delivery specified by the transition]** 옵션을 선택합니다. 이 기능은 첫 번째 게재 동안 타겟팅된 사람을 자동으로 복구합니다.
 

@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 939552f127207f258448b2a82bb8c4c000371694
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 파일 및 리소스 관리{#file-and-resmanagement}
+
+![](../../assets/v7-only.svg)
 
 ## 업로드 파일 형식 제한 {#limiting-uploadable-files}
 
@@ -25,7 +27,7 @@ ht-degree: 0%
 
 가능한 형식을 제한하려면 속성 값을 유효한 Java 정규 표현식으로 바꿉니다. 여러 값을 쉼표로 구분하여 입력할 수 있습니다.
 
-예:**uploadWhiteList=&quot;*.png,*.jpg&quot;**&#x200B;을 사용하면 서버에서 PNG 및 JPG 형식을 업로드할 수 있습니다. 다른 형식은 허용되지 않습니다.
+예: **uploadWhiteList=&quot;*.png,*.jpg&quot;**&#x200B;을 사용하면 서버에서 PNG 및 JPG 형식을 업로드할 수 있습니다. 다른 형식은 허용되지 않습니다.
 
 >[!NOTE]
 >
@@ -37,14 +39,13 @@ ht-degree: 0%
 
 예를 들어 **파일 전송** 워크플로우 활동을 사용하여 프록시를 통해 Campaign 서버를 외부 시스템에 연결할 수 있습니다. 이를 위해서는 특정 명령을 통해 **serverConf.xml** 파일의 **proxyConfig** 섹션을 구성해야 합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
-다음 프록시 연결이 가능합니다.HTTP, HTTPS, FTP, SFTP. 20.2 Campaign 릴리스부터 HTTP 및 HTTPS 프로토콜 매개 변수는 **더 이상 사용할 수 없습니다**. 이러한 매개 변수는 9032를 포함하여 이전 빌드에서 사용할 수 있으므로 여전히 아래에 언급되어 있습니다.
+다음 프록시 연결이 가능합니다. HTTP, HTTPS, FTP, SFTP. 20.2 Campaign 릴리스부터 HTTP 및 HTTPS 프로토콜 매개 변수는 **더 이상 사용할 수 없습니다**. 이러한 매개 변수는 9032를 포함하여 이전 빌드에서 사용할 수 있으므로 여전히 아래에 언급되어 있습니다.
 
 >[!CAUTION]
 >
 >기본 인증 모드만 지원됩니다. NTLM 인증은 지원되지 않습니다.
 >
 >SOCKS 프록시는 지원되지 않습니다.
-
 
 다음 명령을 사용할 수 있습니다.
 
@@ -122,7 +123,7 @@ FTP/FTPS 연결은 proxyFTP 매개 변수에서 정의됩니다.
 
 공개 리소스는 Adobe Campaign 설치 디렉토리의 **/var/res/instance** 디렉토리에 저장됩니다.
 
-일치하는 URL은 다음과 같습니다.**http://server/res/instance** 여기서 **instance**&#x200B;는 추적 인스턴스의 이름입니다.
+일치하는 URL은 다음과 같습니다. **http://server/res/instance** 여기서 **instance**&#x200B;는 추적 인스턴스의 이름입니다.
 
 **conf-`<instance>`.xml** 파일에 노드를 추가하여 다른 디렉토리를 지정할 수 있습니다. 즉, 다음 라인을 추가합니다.
 

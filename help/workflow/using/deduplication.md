@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: e3e2ac09de6a9e846e9f9262d522b9395a725648
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 10%
@@ -14,6 +14,8 @@ ht-degree: 10%
 ---
 
 # 중복 제거{#deduplication}
+
+![](../../assets/common.svg)
 
 중복 제거는 인바운드 활동의 결과에서 중복을 삭제합니다. 중복 제거는 이메일 주소, 전화 번호 또는 다른 필드에서 수행할 수 있습니다.
 
@@ -88,7 +90,7 @@ ht-degree: 10%
 
       ![](assets/s_user_segmentation_dedup_param6.png)
 
-   * **[!UICONTROL Using an expression]**:지정된 표현식의 최저(또는 최고) 값으로 레코드를 유지할 수 있습니다.
+   * **[!UICONTROL Using an expression]**: 지정된 표현식의 최저(또는 최고) 값으로 레코드를 유지할 수 있습니다.
 
       ![](assets/s_user_segmentation_dedup_param7.png)
    >[!NOTE]
@@ -107,7 +109,7 @@ ht-degree: 10%
 
    ![](assets/s_user_segmentation_dedup_param9.png)
 
-## 예:게재 전 중복 식별 {#example--identify-the-duplicates-before-a-delivery}
+## 예: 게재 전 중복 식별 {#example--identify-the-duplicates-before-a-delivery}
 
 다음 예제에서는 중복 제거가 세 개의 쿼리의 결합에 대해 발생합니다.
 
@@ -139,7 +141,7 @@ ht-degree: 10%
 
 예를 들어 중복 레코드 세트를 사용하여 가장 오래된 전화 번호 또는 가장 최근 이름을 유지하도록 선택할 수 있습니다.
 
-이 기능을 활용하는 사용 사례는 [이 섹션](../../workflow/using/deduplication-merge.md)에 있습니다.
+이 기능을 활용하는 사용 사례는 [이 섹션](deduplication-merge.md)에 있습니다.
 
 이렇게 하려면 다음 단계를 수행합니다.
 
@@ -155,7 +157,7 @@ ht-degree: 10%
 
 1. 기능을 활성화하면 **[!UICONTROL Merge]** 탭이 **[!UICONTROL Deduplication]** 활동에 추가됩니다. 병합할 필드 그룹과 관련 규칙을 정의할 수 있습니다.
 
-   자세한 내용은 [이 섹션](../../workflow/using/deduplication-merge.md)에서 사용할 수 있는 전용 사용 사례를 참조하십시오.
+   자세한 내용은 [이 섹션](deduplication-merge.md)에서 사용할 수 있는 전용 사용 사례를 참조하십시오.
 
    ![](assets/dedup3.png)
 

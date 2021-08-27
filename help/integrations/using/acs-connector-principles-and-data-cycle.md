@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # ACS 커넥터 원칙 및 데이터 주기{#acs-connector-principles-and-data-cycle}
+
+![](../../assets/v7-only.svg)
 
 ## 소개 {#introduction}
 
@@ -33,12 +35,12 @@ ACS 커넥터를 사용하면, Campaign Standard은 디지털 마케터가 캠�
 
 이 문서에서는 ACS 커넥터 기능에 대해 설명합니다. 아래 섹션에서는 기능이 데이터를 복제하는 방법과 복제된 프로필로 작업하는 방법에 대한 지침을 제공합니다.
 
-* [프로세스](#process):ACS 커넥터 및 데이터 복제 관리 방법에 대한 개요입니다.
-* [구현](#implementation):ACS 커넥터 시작 방법과 기본 및 고급 데이터를 복제하는 방법에 대한 지침입니다.
-* [프로필 동기화](../../integrations/using/synchronizing-profiles.md):프로필을 복제하는 방법과 프로필을 사용하여 게재를 만드는 방법에 대한 지침입니다.
-* [대상 동기화](../../integrations/using/synchronizing-audiences.md):Campaign v7에서 수신자 목록을 타겟팅한 다음 목록을 Campaign Standard으로 복제하는 방법에 대한 지침입니다.
-* [웹 애플리케이션 동기화](../../integrations/using/synchronizing-web-applications.md):Campaign v7 웹 애플리케이션을 Campaign Standard에 연결하는 방법에 대한 지침입니다.
-* [ACS 커넥터 문제 해결](../../integrations/using/troubleshooting-the-acs-connector.md):일반적인 문제에 대한 답변을 검토합니다.
+* [프로세스](#process): ACS 커넥터 및 데이터 복제 관리 방법에 대한 개요입니다.
+* [구현](#implementation): ACS 커넥터 시작 방법과 기본 및 고급 데이터를 복제하는 방법에 대한 지침입니다.
+* [프로필 동기화](../../integrations/using/synchronizing-profiles.md): 프로필을 복제하는 방법과 프로필을 사용하여 게재를 만드는 방법에 대한 지침입니다.
+* [대상 동기화](../../integrations/using/synchronizing-audiences.md): Campaign v7에서 수신자 목록을 타겟팅한 다음 목록을 Campaign Standard으로 복제하는 방법에 대한 지침입니다.
+* [웹 애플리케이션 동기화](../../integrations/using/synchronizing-web-applications.md): Campaign v7 웹 애플리케이션을 Campaign Standard에 연결하는 방법에 대한 지침입니다.
+* [ACS 커넥터 문제 해결](../../integrations/using/troubleshooting-the-acs-connector.md): 일반적인 문제에 대한 답변을 검토합니다.
 
 >[!NOTE]
 >
@@ -95,11 +97,11 @@ ACS 커넥터는 Campaign v7과 Campaign Standard 간에 격리를 동기화합�
 
 복제된 프로필은 게재에 쉽게 사용할 수 있지만 Campaign Standard에 특정 제한 사항이 있습니다. 아래 항목을 검토하여 관리하는 방법을 알아보십시오.
 
-* **Campaign Standard에 대한 읽기 전용 프로필**:복제된 프로필은 Campaign Standard에서 읽기 전용입니다. 그러나 Campaign v7에서 수신자를 편집할 수 있으며 수정 사항은 ACS 커넥터에 의해 Campaign Standard에서 자동으로 업데이트됩니다.
-* **Campaign Standard에서 만든 프로필**:ACS 커넥터는 한 방향으로 수신자 데이터를 Campaign v7에서 Campaign Standard으로 복제합니다. 따라서 Campaign Standard에서 생성된 프로필은 Campaign v7에 복제되지 않습니다.
-* **Campaign Standard**&#x200B;에 대한 기본 수신자 데이터:ACS 커넥터는 Campaign Standard에 적합한 수신자 데이터를 복제합니다. 여기에는 수신자의 이름, 주소, 이메일 주소, 휴대전화 번호, 집 전화 번호 및 기타 관련 연락처 정보가 포함됩니다. 워크플로우에 Campaign v7에서 사용할 수 있는 추가 수신자 필드와 사용자 지정 타겟팅 표가 중요한 경우 컨설턴트에게 문의하십시오.
-* **격리된 프로필 가져오기**:연결하지 않으려는 프로필 목록을 Campaign v7로 가져오거나 격리된 프로필로 Campaign Standard할 수 있습니다. 프로필의 상태는 애플리케이션 간의 격리 동기화에 포함되어 있으며 게재에는 사용되지 않습니다.
-* **Campaign Standard에서 서비스 구독 취소**:Campaign Standard에서 Campaign v7로 구독을 취소할 수 없습니다. 그러나 Campaign Standard 전달을 구성하여 구독 취소 링크를 Campaign v7로 보낼 수 있습니다. 구독 취소 링크를 클릭하는 수신자의 프로필이 Campaign v7에서 업데이트되고 데이터가 Campaign Standard에 복제됩니다. [구독 취소 링크](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link) 변경을 참조하십시오.
+* **Campaign Standard에 대한 읽기 전용 프로필**: 복제된 프로필은 Campaign Standard에서 읽기 전용입니다. 그러나 Campaign v7에서 수신자를 편집할 수 있으며 수정 사항은 ACS 커넥터에 의해 Campaign Standard에서 자동으로 업데이트됩니다.
+* **Campaign Standard에서 만든 프로필**: ACS 커넥터는 한 방향으로 수신자 데이터를 Campaign v7에서 Campaign Standard으로 복제합니다. 따라서 Campaign Standard에서 생성된 프로필은 Campaign v7에 복제되지 않습니다.
+* **Campaign Standard**&#x200B;에 대한 기본 수신자 데이터: ACS 커넥터는 Campaign Standard에 적합한 수신자 데이터를 복제합니다. 여기에는 수신자의 이름, 주소, 이메일 주소, 휴대전화 번호, 집 전화 번호 및 기타 관련 연락처 정보가 포함됩니다. 워크플로우에 Campaign v7에서 사용할 수 있는 추가 수신자 필드와 사용자 지정 타겟팅 표가 중요한 경우 컨설턴트에게 문의하십시오.
+* **격리된 프로필 가져오기**: 연결하지 않으려는 프로필 목록을 Campaign v7로 가져오거나 격리된 프로필로 Campaign Standard할 수 있습니다. 프로필의 상태는 애플리케이션 간의 격리 동기화에 포함되어 있으며 게재에는 사용되지 않습니다.
+* **Campaign Standard에서 서비스 구독 취소**: Campaign Standard에서 Campaign v7로 구독을 취소할 수 없습니다. 그러나 Campaign Standard 전달을 구성하여 구독 취소 링크를 Campaign v7로 보낼 수 있습니다. 구독 취소 링크를 클릭하는 수신자의 프로필이 Campaign v7에서 업데이트되고 데이터가 Campaign Standard에 복제됩니다. [구독 취소 링크](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link) 변경을 참조하십시오.
 * 이메일 브로드로그 및 추적 로그만 Campaign Standard에서 Campaign v7로 복제됩니다.
 
 ### 과금 {#billing}
@@ -120,7 +122,7 @@ ACS 커넥터에 대해 두 가지 유형의 구현이 있습니다. 이 두 작
 
 **고급 구현**&#x200B;을 사용하면 추가적인 수신자 필드나 사용자 지정 수신자 테이블(예: 트랜잭션 테이블)이 있는 경우 등 보다 복잡한 사용 사례를 수행할 수 있습니다. [고급 구현](#advanced-implementation)을 참조하십시오.
 
-### 패키지 {#installing-the-package} 설치
+### 패키지 설치 {#installing-the-package}
 
 이 기능을 사용하려면 **[!UICONTROL ACS Connector]** 패키지를 설치해야 합니다. 이 작업은 항상 Adobe 기술 관리자 또는 컨설턴트가 수행합니다.
 
@@ -136,20 +138,20 @@ ACS 커넥터와 관련된 모든 기술 요소는 탐색기의 **[!UICONTROL Ad
 
 ![](assets/acs_connect_implementation_3.png)
 
-* **[!UICONTROL `[ACS] Quarantine synchronization`]** (quarantineSync):이 워크플로우는 모든 격리 정보를 동기화합니다. Campaign v7의 모든 새 격리가 Campaign Standard에 복제됩니다. Campaign Standard의 모든 새 격리가 Campaign v7에 복제됩니다. 이렇게 하면 모든 제외 규칙이 Campaign v7과 Campaign Standard 간에 동기화됩니다.
-* **[!UICONTROL `[ACS] Security group synchronization`]** (securityGroupSync):이 워크플로우는 권한 변환에 사용됩니다. [권한 변환](#rights-conversion)을 참조하십시오.
+* **[!UICONTROL `[ACS] Quarantine synchronization`]** (quarantineSync): 이 워크플로우는 모든 격리 정보를 동기화합니다. Campaign v7의 모든 새 격리가 Campaign Standard에 복제됩니다. Campaign Standard의 모든 새 격리가 Campaign v7에 복제됩니다. 이렇게 하면 모든 제외 규칙이 Campaign v7과 Campaign Standard 간에 동기화됩니다.
+* **[!UICONTROL `[ACS] Security group synchronization`]** (securityGroupSync): 이 워크플로우는 권한 변환에 사용됩니다. [권한 변환](#rights-conversion)을 참조하십시오.
 
 다음 복제 워크플로우를 &quot;사용 준비&quot; 템플릿으로 사용할 수 있습니다. Adobe Campaign 컨설턴트가 구현해야 합니다.
 
 ![](assets/acs_connect_implementation_2.png)
 
-* **[!UICONTROL `[ACS] Profile replication`]** (newProfileReplication):이 증분 워크플로우는 수신자를 Campaign Standard에 복제합니다. 기본적으로 모든 기본 수신자 필드를 복제합니다. [기본 수신자 필드](#default-recipient-fields)를 참조하십시오.
-* **[!UICONTROL `[ACS] Service replication`]** (newServiceReplication):이 증분 워크플로우는 선택한 서비스를 Campaign Standard에 복제합니다. 사용 사례 [웹 응용 프로그램 동기화](../../integrations/using/synchronizing-web-applications.md)를 참조하십시오.
-* **[!UICONTROL `[ACS] Landing pages replication`]** (newLandingPageReplication):이 증분 워크플로우는 선택한 웹 애플리케이션을 Campaign Standard에 복제합니다. Campaign v7 웹 애플리케이션은 Campaign Standard에서 랜딩 페이지로 표시됩니다. 사용 사례 [웹 응용 프로그램 동기화](../../integrations/using/synchronizing-web-applications.md)를 참조하십시오.
-* **[!UICONTROL `[ACS] New replication`]** (newReplication):이 증분 워크플로우는 사용자 지정 테이블을 복제하는 데 사용할 수 있는 예입니다. [고급 구현](#advanced-implementation)을 참조하십시오.
-* **[!UICONTROL `[ACS] Delivery-mesage replication`]** (newDlvMsgQualification):이 증분 워크플로우는 게재 메시지를 Campaign Standard에서 Campaign v7로 복제합니다.
-* **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication):이 증분 워크플로우는 게재 ID, 이메일 브로드 로그 및 이메일 추적 로그를 Campaign Standard에서 Campaign v7로 복제합니다. Campaign Standard에서 Campaign v7의 nms:recipients 테이블에 속하는 프로필로 전송된 게재만 고려합니다.
-* **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication):이 증분 워크플로우는 게재 ID, 이메일 브로드 로그 및 이메일 추적 로그를 Campaign Standard에서 Campaign v7로 복제합니다. Campaign Standard에서 Campaign v7의 특정 테이블(nms:recipients 제외)에 속하는 프로필로 전송된 게재만 고려합니다.
+* **[!UICONTROL `[ACS] Profile replication`]** (newProfileReplication): 이 증분 워크플로우는 수신자를 Campaign Standard에 복제합니다. 기본적으로 모든 기본 수신자 필드를 복제합니다. [기본 수신자 필드](#default-recipient-fields)를 참조하십시오.
+* **[!UICONTROL `[ACS] Service replication`]** (newServiceReplication): 이 증분 워크플로우는 선택한 서비스를 Campaign Standard에 복제합니다. 사용 사례 [웹 응용 프로그램 동기화](../../integrations/using/synchronizing-web-applications.md)를 참조하십시오.
+* **[!UICONTROL `[ACS] Landing pages replication`]** (newLandingPageReplication): 이 증분 워크플로우는 선택한 웹 애플리케이션을 Campaign Standard에 복제합니다. Campaign v7 웹 애플리케이션은 Campaign Standard에서 랜딩 페이지로 표시됩니다. 사용 사례 [웹 응용 프로그램 동기화](../../integrations/using/synchronizing-web-applications.md)를 참조하십시오.
+* **[!UICONTROL `[ACS] New replication`]** (newReplication): 이 증분 워크플로우는 사용자 지정 테이블을 복제하는 데 사용할 수 있는 예입니다. [고급 구현](#advanced-implementation)을 참조하십시오.
+* **[!UICONTROL `[ACS] Delivery-mesage replication`]** (newDlvMsgQualification): 이 증분 워크플로우는 게재 메시지를 Campaign Standard에서 Campaign v7로 복제합니다.
+* **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication): 이 증분 워크플로우는 게재 ID, 이메일 브로드 로그 및 이메일 추적 로그를 Campaign Standard에서 Campaign v7로 복제합니다. Campaign Standard에서 Campaign v7의 nms:recipients 테이블에 속하는 프로필로 전송된 게재만 고려합니다.
+* **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication): 이 증분 워크플로우는 게재 ID, 이메일 브로드 로그 및 이메일 추적 로그를 Campaign Standard에서 Campaign v7로 복제합니다. Campaign Standard에서 Campaign v7의 특정 테이블(nms:recipients 제외)에 속하는 프로필로 전송된 게재만 고려합니다.
 
 ### 기본 수신자 필드 {#default-recipient-fields}
 
@@ -262,7 +264,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 탐색기의 **[!UICONTROL Ad
  </tbody> 
 </table>
 
-### 권한 변환 {#rights-conversion}
+### 권한 전환 {#rights-conversion}
 
 권한은 Campaign v7 및 Campaign Standard에서 다르게 처리됩니다. Campaign v7에서는 권한 관리가 폴더를 기반으로 하는 반면 Campaign Standard에서는 단위 액세스(조직/지리적 단위)를 기반으로 합니다. Campaign Standard 사용자는 제한 컨텍스트를 포함하는 보안 그룹에 속합니다. 따라서 Campaign v7 권한 시스템을 Campaign Standard 시스템과 일치하도록 전환해야 합니다. 권한 전환을 수행하는 방법에는 여러 가지가 있습니다. 구현의 예는 아래에 나와 있습니다.
 

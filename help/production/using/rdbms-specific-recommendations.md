@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 0e0912c68d132919eeac9b91b93960e70011153e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # RDBMS 특정 권장 사항{#rdbms-specific-recommendations}
+
+![](../../assets/v7-only.svg)
 
 유지 관리 계획을 설정하는 데 도움이 되도록 이 섹션에는 Adobe Campaign에서 지원하는 다양한 RDBMS 엔진에 맞는 몇 가지 권장 사항과 모범 사례가 나와 있습니다. 하지만 이는 권장 사항일 뿐입니다. 내부 절차와 제한 조건을 유지하면서 필요에 맞게 조정하는 것은 여러분에게 달려 있습니다. 데이터베이스 관리자는 이러한 계획을 작성하고 실행할 책임이 있습니다.
 
@@ -146,14 +148,13 @@ REINDEX TABLE nmsmirrorpageinfo;
 
 >[!NOTE]
 >
->* Adobe은 더 작은 표로 시작하는 것이 좋습니다.이 방법으로 큰 테이블에서 프로세스가 실패하는 경우(실패 위험이 가장 높은 경우) 유지 관리의 적어도 일부가 완료되었습니다.
+>* Adobe은 더 작은 표로 시작하는 것이 좋습니다. 이 방법으로 큰 테이블에서 프로세스가 실패하는 경우(실패 위험이 가장 높은 경우) 유지 관리의 적어도 일부가 완료되었습니다.
 >* Adobe은 데이터 모델에 해당하는 테이블을 추가하여 중요한 업데이트를 적용할 수 있습니다. 일별 데이터 복제 흐름이 큰 경우 **NmsRecipient**&#x200B;에 해당할 수 있습니다.
 >* VACUUM 및 REINDEX 문은 테이블을 잠가 유지 관리가 수행되는 동안 일부 프로세스를 일시 중지합니다.
 >* 매우 큰 테이블(일반적으로 5Gb 이상)의 경우, INVACUM FULL 문은 매우 비효율적이고 오랜 시간이 걸릴 수 있습니다. Adobe은 **YyyNmsBroadLogXxx** 테이블에 사용하지 않는 것이 좋습니다.
 >* 이 유지 관리 작업은 **[!UICONTROL SQL]** 활동을 사용하여 Adobe Campaign 워크플로우에서 구현할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/architecture.md)을 참조하십시오. 백업 윈도우와 충돌하지 않는 낮은 작업 시간에 대한 유지 관리를 예약해야 합니다.
 
 >
-
 
 
 ### 데이터베이스 다시 구축 {#rebuilding-a-database}
@@ -163,7 +164,7 @@ PostgreSQL은 INVACUUM FULL 문이 테이블을 잠근 상태이므로 온라인
 * Adobe Campaign 플랫폼이 중지되면 유지 관리를 수행합니다.
 * 다시 빌드하고 있는 표에 쓸 수 있는 다양한 Adobe Campaign 하위 서비스를 중지합니다(**nlserver stop wfserver instance_name**).
 
-다음은 필요한 DDL을 생성하기 위해 특정 함수를 사용하는 테이블 조각 모음의 예입니다. 다음 SQL을 사용하면 두 개의 새 함수를 만들 수 있습니다.**GenRebuildTablePart1** 및 **GenRebuildTablePart2**&#x200B;를 사용하여 테이블을 다시 작성하는 데 필요한 DDL을 생성하는 데 사용할 수 있습니다.
+다음은 필요한 DDL을 생성하기 위해 특정 함수를 사용하는 테이블 조각 모음의 예입니다. 다음 SQL을 사용하면 두 개의 새 함수를 만들 수 있습니다. **GenRebuildTablePart1** 및 **GenRebuildTablePart2**&#x200B;를 사용하여 테이블을 다시 작성하는 데 필요한 DDL을 생성하는 데 사용할 수 있습니다.
 
 * 첫 번째 함수를 사용하면 원래 테이블의 복사본인 작업 테이블(**_tmp** 여기)을 만들 수 있습니다.
 * 그런 다음 두 번째 함수는 원래 테이블을 삭제하고 작업 테이블과 해당 인덱스의 이름을 변경합니다.
@@ -468,7 +469,7 @@ function sqlGetMemo(strSql)
 
 1. 유지 관리 계획이 완료되면 **[!UICONTROL Close]** 을 클릭합니다.
 1. Microsoft SQL Server 탐색기에서 **[!UICONTROL Management > Maintenance Plans]** 폴더를 두 번 클릭합니다.
-1. Adobe Campaign 유지 관리 계획을 선택합니다.다양한 단계는 워크플로우에 자세히 설명되어 있습니다.
+1. Adobe Campaign 유지 관리 계획을 선택합니다. 다양한 단계는 워크플로우에 자세히 설명되어 있습니다.
 
    **[!UICONTROL SQL Server Agent > Jobs]** 폴더에 개체가 생성되었습니다. 이 개체를 사용하면 유지 관리 계획을 시작할 수 있습니다. 이 예제에서는 모든 유지 관리 작업이 동일한 계획의 일부이므로 개체가 하나만 있습니다.
 

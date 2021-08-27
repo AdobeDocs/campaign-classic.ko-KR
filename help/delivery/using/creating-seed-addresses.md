@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 시드 주소 만들기{#creating-seed-addresses}
+
+![](../../assets/common.svg)
 
 시드 주소는 표준 프로필 및 타겟을 통해 관리되지 않고 Adobe Campaign 계층 **[!UICONTROL Resources > Campaign management > Seed addresses]** 의 전용 노드에서 관리됩니다.
 
@@ -26,7 +28,7 @@ ht-degree: 1%
 시드 주소를 만들려면 아래 단계를 수행하십시오.
 
 1. 시드 주소 목록 위에 있는 **[!UICONTROL New]** 단추를 클릭합니다.
-1. **[!UICONTROL Recipient]** 탭의 일치 필드에 주소에 연결된 데이터를 입력합니다. 사용 가능한 필드는 게재 수신자 프로필(nms:recipient table)의 표준 필드에 해당합니다.이름, 이름, 이메일 등
+1. **[!UICONTROL Recipient]** 탭의 일치 필드에 주소에 연결된 데이터를 입력합니다. 사용 가능한 필드는 게재 수신자 프로필(nms:recipient table)의 표준 필드에 해당합니다. 이름, 이름, 이메일 등
 
    >[!NOTE]
    >
@@ -54,7 +56,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_user_seedlist_template_folder.png)
 
-1. **[!UICONTROL Restriction]** 탭을 클릭하고 다음 필터링 조건을 추가합니다.**@isModel = true**.
+1. **[!UICONTROL Restriction]** 탭을 클릭하고 다음 필터링 조건을 추가합니다. **@isModel = true**.
 
    ![](assets/s_ncs_user_seedlist_folder_is_model.png)
 

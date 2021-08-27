@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-source-git-commit: 7bcd80a9b89982542ae6944ae0c96c02d83cd198
+source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 자산에 대한 액세스 구성{#configuring-access-to-assets}
+
+![](../../assets/common.svg)
 
 이 섹션에서는 Assets 핵심 서비스 또는 Adobe Experience Manager 자산(AEM Assets) 라이브러리와 통합 기능을 사용하기 위해 Adobe Campaign에서 필요한 구성 단계에 대해 자세히 설명합니다.
 

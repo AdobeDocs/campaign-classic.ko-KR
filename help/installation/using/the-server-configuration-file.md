@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 1312f7c319c96851bc83ae21501164e2688d0dff
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '7969'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 서버 구성 파일{#the-server-configuration-file}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리에 있는 **serverConf.xml** 파일에 정의됩니다. 이 섹션에는 **serverConf.xml** 파일의 모든 다른 노드 및 매개 변수가 나열됩니다.
 
@@ -99,7 +101,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
   </tr> 
   <tr> 
    <td> sessionCacheSec<br /> </td> 
-   <td> 캐시 기간:세션 정보의 캐시(초)입니다.<br /> </td> 
+   <td> 캐시 기간: 세션 정보의 캐시(초)입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -134,7 +136,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
   </tr> 
   <tr> 
    <td> internalSecurityZone<br /> </td> 
-   <td> 내부 계정 보안 영역:내부 계정에 대해 허가된 영역입니다.<br /> </td> 
+   <td> 내부 계정 보안 영역: 내부 계정에 대해 허가된 영역입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'lan'<br /> </td> 
   </tr> 
@@ -157,31 +159,31 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
  <tbody> 
   <tr> 
    <td> exportDirectory<br /> </td> 
-   <td> 디렉토리 내보내기:내보낸 데이터의 대상 디렉터리 경로입니다.<br /> </td> 
+   <td> 디렉토리 내보내기: 내보낸 데이터의 대상 디렉터리 경로입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/export/' <br /> </td> 
   </tr> 
   <tr> 
    <td> extraSandboxedDirectories<br /> </td> 
-   <td> 추가 샌드박스 디렉토리:샌드박스에 추가할 다른 경로(쉼표로 구분됨).<br /> </td> 
+   <td> 추가 샌드박스 디렉토리: 샌드박스에 추가할 다른 경로(쉼표로 구분됨).<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '/home/customers/,/sftp/' <br /> </td> 
   </tr> 
   <tr> 
    <td> formCacheTimeToLive<br /> </td> 
-   <td> 양식 캐시 만료 지연:캐시 항목이 무효화된 후 시간 초과(초)입니다. 즉, 캐시 항목은 게시 시에만 새로 고침됩니다.<br /> </td> 
+   <td> 양식 캐시 만료 지연: 캐시 항목이 무효화된 후 시간 초과(초)입니다. 즉, 캐시 항목은 게시 시에만 새로 고침됩니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> hosts<br /> </td> 
-   <td> DNS 마스크:이 인스턴스가 제공하는 DNS 마스크 목록(쉼표로 구분됨, * 및 ? 패턴).<br /> </td> 
+   <td> DNS 마스크: 이 인스턴스가 제공하는 DNS 마스크 목록(쉼표로 구분됨, * 및 ? 패턴).<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '*'<br /> </td> 
   </tr> 
   <tr> 
    <td> interactionCacheTimeToLive<br /> </td> 
-   <td> 상호 작용 JSSP 캐시 만료 지연:캐시 항목이 무효화된 후 시간 초과(초)입니다. 음수 값은 캐시가 항상 무효화됨을 의미합니다. '0', 비어 있거나 잘못된 값은 60으로 간주됩니다.<br /> </td> 
+   <td> 상호 작용 JSSP 캐시 만료 지연: 캐시 항목이 무효화된 후 시간 초과(초)입니다. 음수 값은 캐시가 항상 무효화됨을 의미합니다. '0', 비어 있거나 잘못된 값은 60으로 간주됩니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -193,7 +195,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
   </tr> 
   <tr> 
    <td> uploadDirectory<br /> </td> 
-   <td> 업로드 폴더:업로드된 데이터의 대상 디렉터리 경로입니다.<br /> </td> 
+   <td> 업로드 폴더: 업로드된 데이터의 대상 디렉터리 경로입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/upload/' <br /> </td> 
   </tr> 
@@ -205,7 +207,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
   </tr> 
   <tr> 
    <td> useVault<br /> </td> 
-   <td> 저장소에 암호 저장:Hashicorp 자격 증명 모음 사용<br /> </td> 
+   <td> 저장소에 암호 저장: Hashicorp 자격 증명 모음 사용<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -229,7 +231,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
   </tr> 
   <tr> 
    <td> viewCacheTimeToLive<br /> </td> 
-   <td> 뷰 캐시의 유효 기간:캐시 항목이 무효화된 후 시간 초과(초)입니다. 음수 값은 캐시가 항상 무효화됨을 의미합니다. '0', 비어 있거나 잘못된 값은 60으로 간주됩니다.<br /> </td> 
+   <td> 뷰 캐시의 유효 기간: 캐시 항목이 무효화된 후 시간 초과(초)입니다. 음수 값은 캐시가 항상 무효화됨을 의미합니다. '0', 비어 있거나 잘못된 값은 60으로 간주됩니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -237,7 +239,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
    <td> workingDirectory<br /> </td> 
    <td> 작업 디렉터리의 XPath입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
-   <td> workingDirectory :작업 디렉터리의 XPath입니다. 기본값:'$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/workspace/'<br /> </td> 
+   <td> workingDirectory : 작업 디렉터리의 XPath입니다. 기본값: '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/workspace/'<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -257,12 +259,12 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
  <tbody> 
   <tr> 
    <td> urlBase<br /> </td> 
-   <td> 외부 URL을 생성할 때 사용할 기본 URL입니다. 예:https://server.domain.com<br /> </td> 
+   <td> 외부 URL을 생성할 때 사용할 기본 URL입니다. 예: https://server.domain.com<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
-   <td> URL과 일치하는 정규 표현식입니다. 예:http://server\.lan\.net.*<br /> </td> 
+   <td> URL과 일치하는 정규 표현식입니다. 예: http://server\.lan\.net.*<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
  </tbody> 
@@ -347,7 +349,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
   </tr> 
   <tr> 
    <td> timezone<br /> </td> 
-   <td> 시간대:<a href="../../installation/using/time-zone-management.md" target="_blank">시간대 관리</a>를 참조하십시오.<br /> </td> 
+   <td> 시간대: <a href="../../installation/using/time-zone-management.md" target="_blank">시간대 관리</a>를 참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> </td> 
   </tr> 
@@ -359,7 +361,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
   </tr> 
   <tr> 
    <td> useTimestampTZ<br /> </td> 
-   <td> 시간대가 있는 날짜 필드:<a href="../../installation/using/time-zone-management.md" target="_blank">시간대 관리</a>를 참조하십시오.<br /> </td> 
+   <td> 시간대가 있는 날짜 필드: <a href="../../installation/using/time-zone-management.md" target="_blank">시간대 관리</a>를 참조하십시오.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> </td> 
   </tr> 
@@ -511,13 +513,13 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td> 도메인 이름:기본 도메인 이름. SMTP HELO 명령에 사용됩니다. 기본적으로 에서는 Windows에서 선언된 첫 번째 네트워크 인터페이스의 네트워크 매개 변수를 사용합니다.또는 Linux(도메인 또는 검색 항목)에서 file/etc/resolv.conf을 구문 분석합니다.<br /> </td> 
+   <td> 도메인 이름: 기본 도메인 이름. SMTP HELO 명령에 사용됩니다. 기본적으로 에서는 Windows에서 선언된 첫 번째 네트워크 인터페이스의 네트워크 매개 변수를 사용합니다. 또는 Linux(도메인 또는 검색 항목)에서 file/etc/resolv.conf을 구문 분석합니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> nameServers<br /> </td> 
-   <td> DNS 서버:쉼표로 구분된 도메인 이름 서버(DNS) 목록 아래 메모를 참조하십시오.<br /> </td> 
+   <td> DNS 서버: 쉼표로 구분된 도메인 이름 서버(DNS) 목록 아래 메모를 참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -538,13 +540,13 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
 
 >[!NOTE]
 >
->**nameServer**에 참고:기본적으로 은 네트워크를 사용합니다
+>**nameServer**에 참고: 기본적으로 은 네트워크를 사용합니다
 >Windows에서 선언된 첫 번째 네트워크 인터페이스의 매개 변수
 >UNIX에서 정의되지 않았습니다. 도메인 이름 서버(DNS)를 정의합니다
 >MTA가 을 사용하여
 >도메인.
 >
->이 값이 정의되지 않으면 MTA는 호스트 네트워크 구성에서 이 정보를 검색합니다. 여러 DNS가 가능한 경우 다른 DNS 주소는 쉼표로 구분해야 합니다(예:212.155.207.1,212.155.207.2). 게재 서버에 여러 개의 네트워크 인터페이스가 있는 경우 MTA에서 사용하는 DNS 목록이 첫 번째 인터페이스입니다. 이 경우 **nameServer** 매개 변수를 지정하여 모호성을 방지하는 것이 좋습니다.
+>이 값이 정의되지 않으면 MTA는 호스트 네트워크 구성에서 이 정보를 검색합니다. 여러 DNS가 가능한 경우 다른 DNS 주소는 쉼표로 구분해야 합니다(예: 212.155.207.1,212.155.207.2). 게재 서버에 여러 개의 네트워크 인터페이스가 있는 경우 MTA에서 사용하는 DNS 목록이 첫 번째 인터페이스입니다. 이 경우 **nameServer** 매개 변수를 지정하여 모호성을 방지하는 것이 좋습니다.
 
 >[!CAUTION]
 >
@@ -567,7 +569,7 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
  <tbody> 
   <tr> 
    <td> blacklistFile<br /> </td> 
-   <td> 에 추가할 명령이 들어 있는 파일의 허용 목록에 추가하다 경로입니다.<br /> </td> 
+   <td> 에 추가할 명령이 들어 있는 파일의 허용 목록에 추가하다 경로입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
@@ -606,25 +608,25 @@ Adobe Campaign의 전체 구성은 설치 디렉토리의 **conf** 디렉토리�
   </tr> 
   <tr> 
    <td> mode<br /> </td> 
-   <td> 변환에 사용할 도구입니다. 가능한 값은 다음과 같습니다.phantomjs, wkhtmltopdf, 기타, 비활성화됨<br /> </td> 
+   <td> 변환에 사용할 도구입니다. 가능한 값은 다음과 같습니다. phantomjs, wkhtmltopdf, 기타, 비활성화됨<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'phantomjs' <br /> </td> 
   </tr> 
   <tr> 
    <td> timeout<br /> </td> 
-   <td> 전환 시간 제한:최대 전환 시간(초)입니다. 이 임계값 이상으로 변환 프로세스가 중지되고 오류가 발생합니다.<br /> </td> 
+   <td> 전환 시간 제한: 최대 전환 시간(초)입니다. 이 임계값 이상으로 변환 프로세스가 중지되고 오류가 발생합니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 120<br /> </td> 
   </tr> 
   <tr> 
    <td> verbose<br /> </td> 
-   <td> 세부 정보 표시 모드:가능한 오류를 진단하려면 세부 정보 모드로 시작하십시오.<br /> </td> 
+   <td> 세부 정보 표시 모드: 가능한 오류를 진단하려면 세부 정보 모드로 시작하십시오.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> waitTime<br /> </td> 
-   <td> 프로세스를 기다리는 동안 지연:모든 프로세스가 동시에 사용되는 경우 지연 시간(초)과 프로세스가 종료되기를 기다리는 경우 지연 시간(초)입니다. 이 지연을 초과하면 전환이 중지되고 오류가 발생합니다.<br /> </td> 
+   <td> 프로세스를 기다리는 동안 지연: 모든 프로세스가 동시에 사용되는 경우 지연 시간(초)과 프로세스가 종료되기를 기다리는 경우 지연 시간(초)입니다. 이 지연을 초과하면 전환이 중지되고 오류가 발생합니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 15<br /> </td> 
   </tr> 
@@ -726,7 +728,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   </tr> 
   <tr> 
    <td> stackSizeKB<br /> </td> 
-   <td> 킬로 octets의 각 스택 청크의 크기입니다. 대부분의 사용자가 조정해서는 안 되는 메모리 관리 조정 매개 변수입니다.<br /> </td> 
+   <td> 킬로 octets의 각 스택 청크의 크기입니다. 대부분의 사용자가 조정해서는 안 되는 메모리 관리 조정 매개 변수입니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 8<br /> </td> 
   </tr> 
@@ -749,7 +751,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> mxAddress<br /> </td> 
-   <td> SMTP 서버:전자 메일 전송을 위한 SMTP 서버의 IP 주소입니다.<br /> </td> 
+   <td> SMTP 서버: 전자 메일 전송을 위한 SMTP 서버의 IP 주소입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -801,7 +803,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> maxPreparationJobsSec<br /> </td> 
-   <td> 최대 준비 시간:배달 작업을 더 이상 준비하지 않을 기간(초).<br /> </td> 
+   <td> 최대 준비 시간: 배달 작업을 더 이상 준비하지 않을 기간(초).<br /> </td> 
    <td> Long<br /> </td> 
    <td> 3600<br /> </td> 
   </tr> 
@@ -885,13 +887,13 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   </tr> 
   <tr> 
    <td> override<br /> </td> 
-   <td> 예외:프록시 매개 변수를 무시할 주소 목록입니다.<br /> </td> 
+   <td> 예외: 프록시 매개 변수를 무시할 주소 목록입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'localhost*' <br /> </td> 
   </tr> 
   <tr> 
    <td> useSingleProxy<br /> </td> 
-   <td> 고유 프록시 서버:모든 유형의 프록시에 대해 동일한 구성을 사용하십시오.<br /> </td> 
+   <td> 고유 프록시 서버: 모든 유형의 프록시에 대해 동일한 구성을 사용하십시오.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -952,7 +954,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> maxThreadCount<br /> </td> 
-   <td> 풀의 최대 스레드 수입니다.<br /> </td> 
+   <td> 풀의 최대 스레드 수입니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -987,7 +989,7 @@ URL을 찾을 수 없는 경우에는 지정된 기본 모드에 따라 기본 �
   </tr> 
   <tr> 
    <td> debugTrace<br /> </td> 
-   <td> URL 선택 메커니즘의 디버깅 추적:url 확인 프로세스 중에 추가 메시지가 표시됩니다.<br /> </td> 
+   <td> URL 선택 메커니즘의 디버깅 추적: url 확인 프로세스 중에 추가 메시지가 표시됩니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1011,12 +1013,12 @@ URL을 찾을 수 없는 경우에는 지정된 기본 모드에 따라 기본 �
  <tbody> 
   <tr> 
    <td> dnsSuffix<br /> </td> 
-   <td> URL에 관련된 도메인 이름 또는 도메인 상위 항목:확인할 URL 도메인의 전체 또는 일부를 확인하는 것이 좋습니다. URL은 도메인에 dsnSuffix가 포함되어 있는 경우에만 정규 표현식에 대해 확인됩니다.<br /> </td> 
+   <td> URL에 관련된 도메인 이름 또는 도메인 상위 항목: 확인할 URL 도메인의 전체 또는 일부를 확인하는 것이 좋습니다. URL은 도메인에 dsnSuffix가 포함되어 있는 경우에만 정규 표현식에 대해 확인됩니다.<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
-   <td> 이 도메인에 속하는 URL의 유효성을 검사하는 정규식입니다.dnsSuffix에 해당하는 경우 URL이 확인해야 하는 정규식입니다.<br /> </td> 
+   <td> 이 도메인에 속하는 URL의 유효성을 검사하는 정규식입니다. dnsSuffix에 해당하는 경우 URL이 확인해야 하는 정규식입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
  </tbody> 
@@ -1116,7 +1118,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> compressBatchSize<br /> </td> 
-   <td> 압축된 아카이브 크기:압축된 보관 파일의 최대 파일 수입니다.<br /> </td> 
+   <td> 압축된 아카이브 크기: 압축된 보관 파일의 최대 파일 수입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 10000<br /> </td> 
   </tr> 
@@ -1128,7 +1130,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> expirationDelay<br /> </td> 
-   <td> 처리되지 않은 전자 메일의 자동 보관 전 지연:처리되지 않은 전자 메일이 보관되기 전 일 수입니다.<br /> </td> 
+   <td> 처리되지 않은 전자 메일의 자동 보관 전 지연: 처리되지 않은 전자 메일이 보관되기 전 일 수입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
@@ -1140,13 +1142,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고:지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고:지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
@@ -1182,7 +1184,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> smtpEnableTLS<br /> </td> 
-   <td> SMTPS 지원 활성화:원격 서버에서 지원하는 경우 안전 모드(STARTTLS/SMTPS)에서 전자 메일 배달을 활성화합니다.<br /> </td> 
+   <td> SMTPS 지원 활성화: 원격 서버에서 지원하는 경우 안전 모드(STARTTLS/SMTPS)에서 전자 메일 배달을 활성화합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1194,7 +1196,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> smtpRelayAddress<br /> </td> 
-   <td> 사용할 SMTP 릴레이의 DNS 이름 또는 IP 주소의 쉼표로 구분된 목록입니다.<br /> </td> 
+   <td> 사용할 SMTP 릴레이의 DNS 이름 또는 IP 주소의 쉼표로 구분된 목록입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1235,31 +1237,31 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> checkInstanceName<br /> </td> 
-   <td> 인스턴스 이름 확인:true인 경우 Message-ID 헤더에 포함된 Adobe Campaign 인스턴스의 이름은 현재 인스턴스와 같아야 합니다.<br /> </td> 
+   <td> 인스턴스 이름 확인: true인 경우 Message-ID 헤더에 포함된 Adobe Campaign 인스턴스의 이름은 현재 인스턴스와 같아야 합니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> defaultForwardAddress<br /> </td> 
-   <td> 전달 주소:규칙에 의해 기본 이메일 전송 주소가 처리되지 않습니다.<br /> </td> 
+   <td> 전달 주소: 규칙에 의해 기본 이메일 전송 주소가 처리되지 않습니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> errorForwardAddress<br /> </td> 
-   <td> 오류 주소:잘못된 전자 메일을 전송하는 데 사용되는 기본 주소입니다(잘못된 MIME 인코딩).<br /> </td> 
+   <td> 오류 주소: 잘못된 전자 메일을 전송하는 데 사용되는 기본 주소입니다(잘못된 MIME 인코딩). <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> ignoreSize<br /> </td> 
-   <td> 메시지 크기 무시:POP3 서버에서 반환된 메시지의 크기를 무시하는 데 사용됩니다. 이 경우 모듈에는 '.'가 필요합니다. 를 클릭합니다.<br /> </td> 
+   <td> 메시지 크기 무시: POP3 서버에서 반환된 메시지의 크기를 무시하는 데 사용됩니다. 이 경우 모듈에는 '.'가 필요합니다. 를 클릭합니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> inMailPeriodSec<br /> </td> 
-   <td> 메시지 읽기 기간:메시지 큐 폴링 빈도<br /> </td> 
+   <td> 메시지 읽기 기간: 메시지 큐 폴링 빈도<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -1271,7 +1273,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxBroadLog<br /> </td> 
-   <td> 업데이트할 최대 로그 수:데이터베이스를 업데이트하기 전에 메모리에 유지할 최대 로그 메시지 수를 정의합니다.<br /> </td> 
+   <td> 업데이트할 최대 로그 수: 데이터베이스를 업데이트하기 전에 메모리에 유지할 최대 로그 메시지 수를 정의합니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 20<br /> </td> 
   </tr> 
@@ -1283,19 +1285,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고:지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고:지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSessionTTLSec<br /> </td> 
-   <td> 세션 기간:메시지 처리 세션의 최대 기간입니다.<br /> </td> 
+   <td> 세션 기간: 메시지 처리 세션의 최대 기간입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
@@ -1313,7 +1315,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> popTimeoutSec<br /> </td> 
-   <td> POP3 서버와의 통신 시간 제한.<br /> </td> 
+   <td> POP3 서버와의 통신 시간 제한. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -1354,7 +1356,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  <tbody> 
   <tr> 
    <td> dump<br /> </td> 
-   <td> 모든 인바운드 메시지를 텍스트 형식으로 저장합니다.<br /> </td> 
+   <td> 모든 인바운드 메시지를 텍스트 형식으로 저장합니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1409,13 +1411,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고:지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고:지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
@@ -1486,25 +1488,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> dataLogPath<br /> </td> 
-   <td> 보낸 전자 메일의 저장 경로:비어 있지 않으면 보낸 이메일의 모든 소스 파일이 저장되는 경로가 됩니다.<br /> </td> 
+   <td> 보낸 전자 메일의 저장 경로: 비어 있지 않으면 보낸 이메일의 모든 소스 파일이 저장되는 경로가 됩니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> debugPath<br /> </td> 
-   <td> 덤프 디렉터리: 비어 있지 않으면 이 디렉터리에 보낸 메일 메시지의 MIME 편지함을 복사합니다. 문제 해결에 사용됩니다.<br /> </td> 
+   <td> 덤프 디렉터리: 비어 있지 않으면 이 디렉터리에 보낸 메일 메시지의 MIME 편지함을 복사합니다. 문제 해결에 사용됩니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> dnsRequestLogDelayMs<br /> </td> 
-   <td> DNS 쿼리 로그 지연:로그를 표시하는 시간(밀리초)입니다.<br /> </td> 
+   <td> DNS 쿼리 로그 지연: 로그를 표시하는 시간(밀리초)입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> errorPeriodSec<br /> </td> 
-   <td> 오류 통계 빈도:데이터베이스의 통계와 저장소 생성 사이의 시간입니다.<br /> </td> 
+   <td> 오류 통계 빈도: 데이터베이스의 통계와 저장소 생성 사이의 시간입니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -1522,7 +1524,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> logLevel<br /> </td> 
-   <td> 로그 메시지 수준을 표시합니다. 데이터베이스에 작성된 로그의 심각도 수준입니다. MTA에서 생성된 로그 메시지가 모두 데이터베이스에 기록되는 것은 아닙니다. 이 매개 변수를 사용하여 데이터베이스에 메시지를 작성해야 하는 수준을 정의할 수 있습니다. 레벨 2를 정의하는 경우 레벨 1과 0의 메시지도 작성되지만 레벨 1을 정의하는 경우에는 레벨 1과 0의 메시지만 기록됩니다. 가능한 값은 다음과 같습니다.0(오류), 1(경고), 2(정보)<br /> </td> 
+   <td> 로그 메시지 수준을 표시합니다. 데이터베이스에 작성된 로그의 심각도 수준입니다. MTA에서 생성된 로그 메시지가 모두 데이터베이스에 기록되는 것은 아닙니다. 이 매개 변수를 사용하여 데이터베이스에 메시지를 작성해야 하는 수준을 정의할 수 있습니다. 레벨 2를 정의하는 경우 레벨 1과 0의 메시지도 작성되지만 레벨 1을 정의하는 경우에는 레벨 1과 0의 메시지만 기록됩니다. 가능한 값은 다음과 같습니다. 0(오류), 1(경고), 2(정보)<br /> </td> 
    <td> Long<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
@@ -1534,13 +1536,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고:지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고:지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
@@ -1552,7 +1554,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> minErrorsToLog<br /> </td> 
-   <td> 고려할 오류 임계값:errorPeriodSec에 의해 지정된 기간의 총 오류 수가 임계값보다 엄격하게 낮은 경우 지정된 경로에 대한 오류 통계가 생성되지 않습니다.<br /> </td> 
+   <td> 고려할 오류 임계값: errorPeriodSec에 의해 지정된 기간의 총 오류 수가 임계값보다 엄격하게 낮은 경우 지정된 경로에 대한 오류 통계가 생성되지 않습니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
@@ -1564,7 +1566,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
-   <td> 알림 릴레이:HostName:알림을 중계하는 데 사용되는 포트입니다.<br /> </td> 
+   <td> 알림 릴레이: HostName:알림을 중계하는 데 사용되는 포트입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1576,13 +1578,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> purgeDataLogDelay<br /> </td> 
-   <td> 보관된 전자 메일이 삭제되기 전 지연:dataLogPath에 지정된 디렉터리에 보관된 전자 메일이 삭제되기 전 일 수입니다.<br /> </td> 
+   <td> 보관된 전자 메일이 삭제되기 전 지연: dataLogPath에 지정된 디렉터리에 보관된 전자 메일이 삭제되기 전 일 수입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 15<br /> </td> 
   </tr> 
   <tr> 
    <td> retryLostMessages<br /> </td> 
-   <td> 손실된 메시지 다시 시도:하위 프로세스가 중지된 경우 게재 일부가 다시 시도됩니다.<br /> </td> 
+   <td> 손실된 메시지 다시 시도: 하위 프로세스가 중지된 경우 게재 일부가 다시 시도됩니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
@@ -1613,15 +1615,15 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> statServerTLSSupport<br /> </td> 
-   <td> 도메인별 TLS 활성화:MX에서 구성할 수 있는 TLS를 활성화합니다(최신 통계 서버 필요).<br /> </td> 
+   <td> 도메인별 TLS 활성화: MX에서 구성할 수 있는 TLS를 활성화합니다(최신 통계 서버 필요).<br /> </td> 
    <td> 부울<br /> </td> 
    <td> true <br /> </td> 
   </tr> 
   <tr> 
    <td> statServerVersion<br /> </td> 
-   <td> 사용된 프로토콜 버전:통신 프로토콜 버전(v5.11 및 6.0.2 서버의 경우 1, v6.1 서버의 경우 2)<br /> </td> 
+   <td> 사용된 프로토콜 버전: 통신 프로토콜 버전(v5.11 및 6.0.2 서버의 경우 1, v6.1 서버의 경우 2)<br /> </td> 
    <td> 문자열<br /> </td> 
-   <td> 정의되지 않은 경우 최신 버전이 사용됩니다.<br /> </td> 
+   <td> 정의되지 않은 경우 최신 버전이 사용됩니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> useMomentum<br /> </td> 
@@ -1631,19 +1633,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr>
   <tr> 
    <td> verifyMode<br /> </td> 
-   <td> 확인 모드:확인 모드를 활성화합니다(메시지의 물리적 전송 없음).시뮬레이션 및 테스트에 사용됨).<br /> </td> 
+   <td> 확인 모드: 확인 모드를 활성화합니다(메시지의 물리적 전송 없음). 시뮬레이션 및 테스트에 사용됨).<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> workingPath<br /> </td> 
-   <td> 작업 디렉터리:MTA가 하위 프로세스와 통신하는 데 사용하는 임시 파일의 위치입니다.<br /> </td> 
+   <td> 작업 디렉터리: MTA가 하위 프로세스와 통신하는 데 사용하는 임시 파일의 위치입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/mta/' <br /> </td> 
   </tr> 
   <tr> 
    <td> xMail<br /> </td> 
-   <td> X-메일 필드:SMTP 메일 헤더의 'X-Mail' 필드 값입니다.<br /> </td> 
+   <td> X-메일 필드: SMTP 메일 헤더의 'X-Mail' 필드 값입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'nlserver, 빌드 $(PRODUCT_VERSION)'<br /> </td> 
   </tr>  
@@ -1666,7 +1668,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  <tbody> 
   <tr> 
    <td> maxPeriodSec<br /> </td> 
-   <td> 재생 후:캐시에서 파일을 자동으로 삭제하여 저장소를 되찾는 기간(초)입니다.<br /> </td> 
+   <td> 재생 후: 캐시에서 파일을 자동으로 삭제하여 저장소를 되찾는 기간(초)입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 244800<br /> </td> 
   </tr> 
@@ -1678,7 +1680,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> purgePeriodSec<br /> </td> 
-   <td> 제거 빈도:캐시 제거 메커니즘의 실행 간격(초)입니다.<br /> </td> 
+   <td> 제거 빈도: 캐시 제거 메커니즘의 실행 간격(초)입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 3600<br /> </td> 
   </tr> 
@@ -1705,7 +1707,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  <tbody> 
   <tr> 
    <td> address<br /> </td> 
-   <td> 사용할 SMTP 릴레이의 DNS 이름 또는 IP 주소의 쉼표로 구분된 목록입니다.<br /> </td> 
+   <td> 사용할 SMTP 릴레이의 DNS 이름 또는 IP 주소의 쉼표로 구분된 목록입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1766,7 +1768,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> startSpareServers<br /> </td> 
-   <td> 시작 시 하위 서버 수입니다. 하위 서버 수는 동적으로 모니터링됩니다.MTA가 시작되면 이 값이 나타내는 수만큼 하위 서버가 만들어집니다. 일반적으로 호스트 리소스를 저장하기 위해 1초보다 빠르게 하위 서버를 시작할 수 없습니다. 그러나 MTA가 시작되면 자식 서버를 가능한 한 빨리 사용할 수 있도록 이 제한이 무시됩니다.<br /> </td> 
+   <td> 시작 시 하위 서버 수입니다. 하위 서버 수는 동적으로 모니터링됩니다. MTA가 시작되면 이 값이 나타내는 수만큼 하위 서버가 만들어집니다. 일반적으로 호스트 리소스를 저장하기 위해 1초보다 빠르게 하위 서버를 시작할 수 없습니다. 그러나 MTA가 시작되면 자식 서버를 가능한 한 빨리 사용할 수 있도록 이 제한이 무시됩니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1821,13 +1823,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxWaitingMessages<br /> </td> 
-   <td> 보류 중인 메시지:배달할 메모리에서 대기하는 최대 메시지 수입니다.<br /> </td> 
+   <td> 보류 중인 메시지: 배달할 메모리에서 대기하는 최대 메시지 수입니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 2000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxWorkingSetMb<br /> </td> 
-   <td> 하위 프로세스에서 사용할 수 있는 최대 메모리 크기(MB)입니다. 이 제한 이상의 경우, 사용하는 메모리가 시스템에 해제되도록 프로세스가 중지됩니다.<br /> </td> 
+   <td> 하위 프로세스에서 사용할 수 있는 최대 메모리 크기(MB)입니다. 이 제한 이상의 경우, 사용하는 메모리가 시스템에 해제되도록 프로세스가 중지됩니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 128<br /> </td> 
   </tr> 
@@ -1906,12 +1908,12 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td> 도메인 이름:IP 주소에 연결된 로컬 도메인 이름입니다. SMTP HELO 명령을 실행할 때 사용됩니다.<br /> </td> 
+   <td> 도메인 이름: IP 주소에 연결된 로컬 도메인 이름입니다. SMTP HELO 명령을 실행할 때 사용됩니다.<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
    <td> name<br /> </td> 
-   <td> 논리 이름:사용자별로 선호도에 연결된 이름 이름은 세미콜론을 사용하여 구분됩니다.<br /> </td> 
+   <td> 논리 이름: 사용자별로 선호도에 연결된 이름 이름은 세미콜론을 사용하여 구분됩니다.<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
  </tbody> 
@@ -1932,7 +1934,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  <tbody> 
   <tr> 
    <td> address<br /> </td> 
-   <td> 연결된 실제 주소입니다. 예:'192.168.0.1'<br /> </td> 
+   <td> 연결된 실제 주소입니다. 예: '192.168.0.1'<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
@@ -2002,7 +2004,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  <tbody> 
   <tr> 
    <td> address<br /> </td> 
-   <td> 사용할 릴레이의 DNS 주소 또는 이름입니다.<br /> </td> 
+   <td> 사용할 릴레이의 DNS 주소 또는 이름입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> </td> 
   </tr> 
@@ -2037,7 +2039,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  <tbody> 
   <tr> 
    <td> appName<br /> </td> 
-   <td> 공개 키를 저장할 때 개발자 연결에서 생성된 애플리케이션의 이름입니다.<br /> </td> 
+   <td> 공개 키를 저장할 때 개발자 연결에서 생성된 애플리케이션의 이름입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2067,7 +2069,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> disableAuth<br /> </td> 
-   <td> 인증 사용 안 함:인증 없이 파이프라인 서비스에 연결합니다.<br /> </td> 
+   <td> 인증 사용 안 함: 인증 없이 파이프라인 서비스에 연결합니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
@@ -2079,13 +2081,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> dumpStatePeriodSec<br /> </td> 
-   <td> 상태 저장 기간:프로세스의 내부 정보가 파일에 저장되는 빈도. 0인 경우 비활성 상태입니다. <br /> </td> 
+   <td> 상태 저장 기간: 프로세스의 내부 정보가 파일에 저장되는 빈도. 0인 경우 비활성 상태입니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> forcedPipelineEndpoint<br /> </td> 
-   <td> 수신 대기 URL:파이프라인 서비스의 수신 URL을 강제 적용합니다.<br /> </td> 
+   <td> 수신 대기 URL: 파이프라인 서비스의 수신 URL을 강제 적용합니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2097,19 +2099,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고:지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고:지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> monitorServerPort<br /> </td> 
-   <td> 상태 서버 포트:프로세스의 상태를 쿼리할 수 있는 HTTP 서버 포트입니다. 0인 경우 비활성<br /> </td> 
+   <td> 상태 서버 포트: 프로세스의 상태를 쿼리할 수 있는 HTTP 서버 포트입니다. 0인 경우 비활성<br /> </td> 
    <td> Long<br /> </td> 
    <td> 7781<br /> </td> 
   </tr> 
@@ -2121,7 +2123,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> pointerFlushPeriodSec<br /> </td> 
-   <td> 포인터가 저장되기 전 지연:포인터가 이 기간 동안 적어도 한 번 데이터베이스에 저장됩니다(활동이 낮은 경우 유용함).<br /> </td> 
+   <td> 포인터가 저장되기 전 지연: 포인터가 이 기간 동안 적어도 한 번 데이터베이스에 저장됩니다(활동이 낮은 경우 유용함).<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -2151,7 +2153,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> retryValiditySec<br /> </td> 
-   <td> 이 기간 후 포기:이 기간 후에도 처리가 계속 실패하면 이벤트를 중단합니다.<br /> </td> 
+   <td> 이 기간 후 포기: 이 기간 후에도 처리가 계속 실패하면 이벤트를 중단합니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -2180,7 +2182,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  <tbody> 
   <tr> 
    <td> repairActionDelayMin<br /> </td> 
-   <td> 게재 작업 복구 모듈:복구 모듈에서 게재 작업을 처리할 수 있는 지연 시간(분)입니다.<br /> </td> 
+   <td> 게재 작업 복구 모듈: 복구 모듈에서 게재 작업을 처리할 수 있는 지연 시간(분)입니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
@@ -2374,25 +2376,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> keepAlivePeriod<br /> </td> 
-   <td> 세션 연속성 프레임의 되풀이:최대. 수신 세션이 여전히 활성화되었음을 알리는 두 프레임 사이의 기간(초)<br /> </td> 
+   <td> 세션 연속성 프레임의 되풀이: 최대. 수신 세션이 여전히 활성화되었음을 알리는 두 프레임 사이의 기간(초)<br /> </td> 
    <td> Long<br /> </td> 
    <td> 25<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고:지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고:지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> pollPeriod<br /> </td> 
-   <td> 검색 빈도:SMS 계정 폴링 기간<br /> </td> 
+   <td> 검색 빈도: SMS 계정 폴링 기간<br /> </td> 
    <td> Long<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -2404,7 +2406,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> reloadPeriod<br /> </td> 
-   <td> 계정 다시 로드 빈도:폴링할 계정의 데이터베이스 다시 로드 빈도<br /> </td> 
+   <td> 계정 다시 로드 빈도: 폴링할 계정의 데이터베이스 다시 로드 빈도<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -2416,7 +2418,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> srReadDelay<br /> </td> 
-   <td> SR 처리에 대한 지연 시간(초):현재 시간보다 빠른 복구 날짜에서 srReadDelay에 의해 지정된 기간(초)을 뺀 SR만 사용합니다.<br /> </td> 
+   <td> SR 처리에 대한 지연 시간(초): 현재 시간보다 빠른 복구 날짜에서 srReadDelay에 의해 지정된 기간(초)을 뺀 SR만 사용합니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -2486,13 +2488,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고:지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고:지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
@@ -2551,25 +2553,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxFileSizeMb<br /> </td> 
-   <td> 로그 파일의 최대 크기(MB)입니다.<br /> </td> 
+   <td> 로그 파일의 최대 크기(MB)입니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> maxNumberOfLoginsFiles<br /> </td> 
-   <td> 유지할 최대 logins.log 파일 수입니다.<br /> </td> 
+   <td> 유지할 최대 logins.log 파일 수입니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 365<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고:지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고:지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
@@ -2628,25 +2630,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> dedupOpenPeriodMin<br /> </td> 
-   <td> 개구부 중복 제거:Outlook과 같은 메일 판독기에서 메일 미리 보기의 효과를 제한하려면 열려 있는 추적 로그를 중복하여 제거합니다.<br /> </td> 
+   <td> 개구부 중복 제거: Outlook과 같은 메일 판독기에서 메일 미리 보기의 효과를 제한하려면 열려 있는 추적 로그를 중복하여 제거합니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> errorIgnorePercent<br /> </td> 
-   <td> 최대 X%의 오류 무시:아직 고려되지 않은 분개의 비율이 이 값에 도달하지 않는 한 추적 지표를 업데이트하지 마십시오.<br /> </td> 
+   <td> 최대 X%의 오류 무시: 아직 고려되지 않은 분개의 비율이 이 값에 도달하지 않는 한 추적 지표를 업데이트하지 마십시오. <br /> </td> 
    <td> Byte<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> errorIgnorePeriod<br /> </td> 
-   <td> 오류 표시기 업데이트:오류 표시기를 다시 계산하기 전의 최대 기간입니다.<br /> </td> 
+   <td> 오류 표시기 업데이트: 오류 표시기를 다시 계산하기 전의 최대 기간입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> indicatorsDuration<br /> </td> 
-   <td> 다음 작업 중 표시기 계산:통합 표시기가 더 이상 계산되지 않는 게재 유효 일자 이후의 기간.<br /> </td> 
+   <td> 다음 작업 중 표시기 계산: 통합 표시기가 더 이상 계산되지 않는 게재 유효 일자 이후의 기간.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 2592000<br /> </td> 
   </tr> 
@@ -2664,19 +2666,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고:지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고:지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> phisbowelServiceAPIKey<br /> </td> 
-   <td> Phisbowel Service Endpoint Integration에 대한 API 키. 따라서 이전 빌드에서 생성된 잘못된 형식의 URL의 리디렉션이 보호됩니다.<br /> </td> 
+   <td> Phisbowel Service Endpoint Integration에 대한 API 키. 따라서 이전 빌드에서 생성된 잘못된 형식의 URL의 리디렉션이 보호됩니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2700,13 +2702,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> trackingIgnorePercent<br /> </td> 
-   <td> 최대 X% 추적 무시:아직 고려하지 않은 분개의 비율이 이 값에 도달하지 않는 한 추적 지표를 업데이트하지 마십시오.<br /> </td> 
+   <td> 최대 X% 추적 무시: 아직 고려하지 않은 분개의 비율이 이 값에 도달하지 않는 한 추적 지표를 업데이트하지 마십시오.<br /> </td> 
    <td> Byte<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> trackingIgnorePeriod<br /> </td> 
-   <td> 추적 표시기 업데이트:추적 표시기를 다시 계산하기 전의 최대 기간입니다.<br /> </td> 
+   <td> 추적 표시기 업데이트: 추적 표시기를 다시 계산하기 전의 최대 기간입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
@@ -2753,31 +2755,31 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxCreateFileRetry<br /> </td> 
-   <td> 최대 쓰기 다시 시도:로그 파일에 쓰기 오류가 발생할 경우 만들 수 있는 최대 파일 수입니다.<br /> </td> 
+   <td> 최대 쓰기 다시 시도: 로그 파일에 쓰기 오류가 발생할 경우 만들 수 있는 최대 파일 수입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> maxLogsSizeOnDiskMb<br /> </td> 
-   <td> 최대 로그 크기:디스크에서 로그에 사용되는 최대 공간(MB)입니다. 100MB 이하일 수 있습니다. <br /> </td> 
+   <td> 최대 로그 크기: 디스크에서 로그에 사용되는 최대 공간(MB)입니다. 100MB 이하일 수 있습니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 500<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고:지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고:지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSharedLogs<br /> </td> 
-   <td> 최대 로그 수:공유 메모리에 저장된 최대 로그 수입니다. 10000 이상이어야 합니다. <br /> </td> 
+   <td> 최대 로그 수: 공유 메모리에 저장된 최대 로그 수입니다. 10000 이상이어야 합니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 25000<br /> </td> 
   </tr> 
@@ -2789,7 +2791,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> purgeLogsPeriod<br /> </td> 
-   <td> 제거 전 로그 수:로그 파일 제거를 시작하기 전에 삽입된 로그 수입니다. 50000 이하일 수 없습니다.<br /> </td> 
+   <td> 제거 전 로그 수: 로그 파일 제거를 시작하기 전에 삽입된 로그 수입니다. 50000 이하일 수 없습니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 50000<br /> </td> 
   </tr> 
@@ -2856,13 +2858,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> controlPort<br /> </td> 
-   <td> Tomcat 수신 제어 포트:<a href="configure-tomcat.md" target="_blank">Configure Tomcat</a>을 참조하십시오.<br /> </td> 
+   <td> Tomcat 수신 제어 포트: <a href="configure-tomcat.md" target="_blank">Configure Tomcat</a>을 참조하십시오.<br /> </td> 
    <td> Short<br /> </td> 
    <td> 8005<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
-   <td> Tomcat HTTP 수신 대기 포트:<a href="configure-tomcat.md" target="_blank">Configure Tomcat</a>을 참조하십시오.<br /> </td> 
+   <td> Tomcat HTTP 수신 대기 포트: <a href="configure-tomcat.md" target="_blank">Configure Tomcat</a>을 참조하십시오.<br /> </td> 
    <td> Short<br /> </td> 
    <td> 8080<br /> </td> 
   </tr> 
@@ -2874,25 +2876,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxDeliveryQueueSize<br /> </td> 
-   <td> SubmitDelivery 호출에 대한 큐 크기:큐에 대기 가능한 최대 SubmitDelivery SOAP 호출 수입니다.<br /> </td> 
+   <td> SubmitDelivery 호출에 대한 큐 크기: 큐에 대기 가능한 최대 SubmitDelivery SOAP 호출 수입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 50<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고:지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고:지정된 프로세스에 의해 사용된 RAM 양(Mb 단위)에 대한 경고<br /> </td> 
+   <td> 메모리 사용 경고: 지정된 프로세스에 의해 사용된 RAM 양(Mb 단위)에 대한 경고<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
-   <td> 알림 릴레이:HostName:알림 릴레이를 사용하도록 설정하는 포트입니다.<br /> </td> 
+   <td> 알림 릴레이: HostName:알림 릴레이를 사용하도록 설정하는 포트입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2939,7 +2941,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> downloadPath<br /> </td> 
-   <td> 다운로드 폴더:클라이언트 콘솔용 설치 프로그램의 다운로드 경로<br /> </td> 
+   <td> 다운로드 폴더: 클라이언트 콘솔용 설치 프로그램의 다운로드 경로<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/datakit/nl/eng/jsp'<br /> </td> 
   </tr> 
@@ -3019,7 +3021,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> timeToLive<br /> </td> 
-   <td> JavaScript 컨텍스트에서 제공하는 최대 페이지 수입니다.<br /> </td> 
+   <td> JavaScript 컨텍스트에서 제공하는 최대 페이지 수입니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
@@ -3052,19 +3054,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> forbiddenCharsInAuthority<br /> </td> 
-   <td> 금지된 문자(도메인):URI의 'authority' 섹션에 사용할 수 없는 문자 목록입니다.<br /> </td> 
+   <td> 금지된 문자(도메인): URI의 'authority' 섹션에 사용할 수 없는 문자 목록입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '.?#@/:' <br /> </td> 
   </tr> 
   <tr> 
    <td> forbiddenCharsInPath<br /> </td> 
-   <td> 금지된 문자(경로):URI의 'path' 섹션에 있는 금지된 문자 목록입니다.<br /> </td> 
+   <td> 금지된 문자(경로): URI의 'path' 섹션에 있는 금지된 문자 목록입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '?#/'<br /> </td> 
   </tr> 
   <tr> 
    <td> modDir<br /> </td> 
-   <td> 'mod_dir' 모듈 옵션 값:폴더의 쿼리 중에 사용할 파일 목록입니다.<br /> </td> 
+   <td> 'mod_dir' 모듈 옵션 값: 폴더의 쿼리 중에 사용할 파일 목록입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'index.md' <br /> </td> 
   </tr> 
@@ -3076,7 +3078,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> startRelayInModule<br /> </td> 
-   <td> 웹 서버에서 HTTP 릴레이 모듈을 시작합니다.<br /> </td> 
+   <td> 웹 서버에서 HTTP 릴레이 모듈을 시작합니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
@@ -3105,7 +3107,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  <tbody> 
   <tr> 
    <td> IPMask<br /> </td> 
-   <td> 공인 IP:이 마스크에 릴레이를 사용할 수 있는 원본 IP 주소의 쉼표로 구분된 목록입니다.<br /> </td> 
+   <td> 공인 IP: 이 마스크에 릴레이를 사용할 수 있는 원본 IP 주소의 쉼표로 구분된 목록입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3117,25 +3119,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> hostMask<br /> </td> 
-   <td> 릴레이할 DNS 별칭:중계할 DNS 별칭 마스크의 쉼표로 구분된 목록(예:'*.adobe.com').<br /> </td> 
+   <td> 릴레이할 DNS 별칭: 중계할 DNS 별칭 마스크의 쉼표로 구분된 목록(예: '*.adobe.com').<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> httpAllowed<br /> </td> 
-   <td> 보안 영역(예: webApps)에 상관없이 HTTP 액세스가 승인되었습니다.<br /> </td> 
+   <td> 보안 영역(예: webApps)에 상관없이 HTTP 액세스가 승인되었습니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> relayHost<br /> </td> 
-   <td> 원래 호스트 추가:릴레이할 때 원본 요청의 HTTP 'Host' 헤더를 사용합니다.<br /> </td> 
+   <td> 원래 호스트 추가: 릴레이할 때 원본 요청의 HTTP 'Host' 헤더를 사용합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> relayPath<br /> </td> 
-   <td> 초기 URL 경로 추가:url의 전체 경로를 추가하여 대상 페이지의 URL에 전달합니다.<br /> </td> 
+   <td> 초기 URL 경로 추가: url의 전체 경로를 추가하여 대상 페이지의 URL에 전달합니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3147,7 +3149,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> targetUrl<br /> </td> 
-   <td> 대상 페이지의 URL:<a href="configure-tomcat.md" target="_blank">Configure Tomcat</a>을 참조하십시오.<br /> </td> 
+   <td> 대상 페이지의 URL: <a href="configure-tomcat.md" target="_blank">Configure Tomcat</a>을 참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3159,7 +3161,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> urlPath<br /> </td> 
-   <td> 릴레이할 URL 마스크(예:'/nl*', '*.jsp').<br /> </td> 
+   <td> 릴레이할 URL 마스크(예: '/nl*', '*.jsp').<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3281,19 +3283,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> Identity Management 시스템(IMS) 조직 식별자:Adobe Experience Cloud 내의 고유한 조직 식별자. 특히 VisitorID 서비스 및 IMS SSO에 사용됩니다. <br /> </td> 
+   <td> Identity Management 시스템(IMS) 조직 식별자: Adobe Experience Cloud 내의 고유한 조직 식별자. 특히 VisitorID 서비스 및 IMS SSO에 사용됩니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> P3PCompactPolicy<br /> </td> 
-   <td> 영구 쿠키에 사용되는 정책을 설명하는 값입니다(P3P Compact Policy 형식과 준수).<br /> </td> 
+   <td> 영구 쿠키에 사용되는 정책을 설명하는 값입니다(P3P Compact Policy 형식과 준수). <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'CAO DSP COR CUR A DEVa OUR BUS IND UNI COM NAV'<br /> </td> 
   </tr> 
   <tr> 
    <td> cookieDomain<br /> </td> 
-   <td> 쿠키를 설정할 도메인을 명시적으로 나타내도록 구성할 도메인으로 구분된 도메인 목록입니다.<br /> </td> 
+   <td> 쿠키를 설정할 도메인을 명시적으로 나타내도록 구성할 도메인으로 구분된 도메인 목록입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3305,19 +3307,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> defLogCount<br /> </td> 
-   <td> 호출별 로그 수:GetTrackingLogs 메서드 호출 시 기본적으로 반환되는 로그 수입니다.<br /> </td> 
+   <td> 호출별 로그 수: GetTrackingLogs 메서드 호출 시 기본적으로 반환되는 로그 수입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
   <tr> 
    <td> expirationURL<br /> </td> 
-   <td> 만료된 리디렉션 페이지:배달 작업에 대한 리디렉션이 만료되었을 때 리디렉션 서버에서 기본적으로 사용하는 웹 페이지의 URL입니다.<br /> </td> 
+   <td> 만료된 리디렉션 페이지: 배달 작업에 대한 리디렉션이 만료되었을 때 리디렉션 서버에서 기본적으로 사용하는 웹 페이지의 URL입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> maxJobsInCache<br /> </td> 
-   <td> 최대 작업 수:캐시의 최대 배달 작업 수입니다. 50보다 작을 수 없습니다. <br /> </td> 
+   <td> 최대 작업 수: 캐시의 최대 배달 작업 수입니다. 50보다 작을 수 없습니다. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
@@ -3335,7 +3337,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> trackWebVisitor<br /> </td> 
-   <td> 웹 추적:알 수 없는 사용자가 방문한 페이지에 대한 로그 만들기<br /> </td> 
+   <td> 웹 추적: 알 수 없는 사용자가 방문한 페이지에 대한 로그 만들기 <br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -3364,7 +3366,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  <tbody> 
   <tr> 
    <td> enabledIf<br /> </td> 
-   <td> 다음과 같은 경우 고려합니다.표현식이 true를 반환하는 경우 추적 서버가 고려됩니다.<br /> </td> 
+   <td> 다음과 같은 경우 고려합니다. 표현식이 true를 반환하는 경우 추적 서버가 고려됩니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3400,7 +3402,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  <tbody> 
   <tr> 
    <td> command<br /> </td> 
-   <td> 이메일의 스팸 방지 점수를 평가하는 실행 명령(예:'perl spamcheck.pl').<br /> </td> 
+   <td> 이메일의 스팸 방지 점수를 평가하는 실행 명령(예: 'perl spamcheck.pl').<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
  </tbody> 
@@ -3454,19 +3456,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고:지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고:지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
+   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb 단위)에 대한 경고.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
-   <td> 알림 릴레이:HostName:알림 릴레이를 사용하도록 설정하는 포트입니다.<br /> </td> 
+   <td> 알림 릴레이: HostName:알림 릴레이를 사용하도록 설정하는 포트입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 

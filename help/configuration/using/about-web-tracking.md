@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 웹 추적 정보{#about-web-tracking}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign 플랫폼을 사용하면 전자 메일 메시지에서 링크를 클릭하는 인터넷 사용자의 동작을 표시하는 표준 추적 외에도 인터넷 사용자가 웹 사이트를 검색하는 방법에 대한 정보를 수집할 수 있습니다. 이 데이터 수집은 웹 추적 모듈에 의해 수행됩니다.
 

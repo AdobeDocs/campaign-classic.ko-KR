@@ -2,18 +2,20 @@
 product: campaign
 title: 프로필 추가
 description: 프로필 추가
-feature: 프로필
+feature: Profiles
 role: User
 level: Beginner
 exl-id: befa8948-ef2e-4f4d-a002-3f26d8516a0d
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 9%
+source-wordcount: '74'
+ht-degree: 8%
 
 ---
 
 # 프로필 추가{#adding-profiles}
+
+![](../../assets/common.svg)
 
 대부분의 경우 프로필은 [워크플로우](../../platform/using/import-export-workflows.md)를 통해 Campaign에 가져왔습니다. 그러나 **[!UICONTROL Create]** 버튼을 클릭하여 인터페이스에서 직접 하나 이상의 프로필을 추가할 수 있습니다. 그러면 데이터베이스에 추가됩니다.
 

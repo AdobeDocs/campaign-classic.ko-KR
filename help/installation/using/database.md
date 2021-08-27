@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 데이터베이스{#database}
+
+![](../../assets/v7-only.svg)
 
 데이터베이스 서버는 해당 운영 체제에서 응용 프로그램 서버 또는 서버에서 사용하는 운영 체제와 상관없이 해당 운영 체제 간에 네트워크 연결이 있는 한 실행할 수 있습니다.
 
@@ -27,7 +29,7 @@ Adobe Campaign의 다른 구성 요소와의 연결을 사용할 수 있는 한 
 
 ODBC 드라이버 구성 패널을 통해 **SQL Server Native Client 11.0** 아래에서 서버의 기본 클라이언트를 확인할 수 있습니다.
 
-다음 액세스 DLL이 있어야 합니다.**sqlncli11.dll**
+다음 액세스 DLL이 있어야 합니다. **sqlncli11.dll**
 
 Access DLL은 Microsoft 웹 사이트에서 찾을 수 있습니다.
 
@@ -43,7 +45,7 @@ Access DLL은 Microsoft 웹 사이트에서 찾을 수 있습니다.
 
 데이터베이스가 유니코드 또는 ANSI에서 작동하려면 **NLS_NCHAR_CHARACTERSET** 및 **NLS_CHARACTERSET** 매개 변수를 올바르게 구성해야 합니다.
 
-Adobe Campaign은 기본 Oracle 인코딩을 사용합니다. 다른 인코딩을 사용하면 호환성 문제가 발생할 수 있습니다.이 경우 기술 지원 센터에 문의하십시오.
+Adobe Campaign은 기본 Oracle 인코딩을 사용합니다. 다른 인코딩을 사용하면 호환성 문제가 발생할 수 있습니다. 이 경우 기술 지원 센터에 문의하십시오.
 
 인코딩에 대해 알아보려면 다음 **sqlplus** 명령을 사용하십시오.
 

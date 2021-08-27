@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 11de485a97d112b308c145775537d9b6255f124f
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 5%
@@ -15,6 +15,8 @@ ht-degree: 5%
 
 # FDA 커넥터 구성 {#specific-configurations-by-database-type}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaign에서 액세스할 수 있는 외부 데이터베이스에 따라 특정 구성을 수행해야 합니다. 이러한 구성에는 기본적으로 드라이버를 설치하고 Adobe Campaign 서버의 각 RDBMS에 속하는 환경 변수를 선언하는 작업이 포함됩니다.
 
 일반적으로 Adobe Campaign 서버의 외부 데이터베이스에 해당 클라이언트 레이어를 설치해야 합니다.
@@ -22,7 +24,6 @@ Adobe Campaign에서 액세스할 수 있는 외부 데이터베이스에 따라
 >[!NOTE]
 >
 >호환 버전은 [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA)에 나열되어 있습니다.
-
 
 ## 구성 단계 {#fda-configuration-steps}
 

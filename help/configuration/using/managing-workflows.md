@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 617b0050-6b04-4c68-9f63-511baae99f41
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 워크플로우 관리{#managing-workflows}
+
+![](../../assets/v7-only.svg)
 
 기본적으로 새 워크플로우는 수신자 테이블(nms:recipient)을 기반으로 사전 구성된 워크플로우 템플릿을 기반으로 합니다. **Nms_DefaultRcpSchema** 옵션([인터페이스 구성](../../configuration/using/configuring-the-interface.md) 섹션 참조)에서 참조되는 수신자 사용자 지정 테이블을 자동으로 기반으로 하려면 새 워크플로 템플릿을 만들어야 합니다.
 

@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 웹 양식 답변{#web-forms-answers}
+
+![](../../assets/common.svg)
 
 ## 응답 저장소 필드 {#response-storage-fields}
 
@@ -25,7 +27,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Edit a recipient]**
 
-   데이터베이스의 필드를 선택할 수 있습니다.사용자의 답변이 이 필드에 저장됩니다. 각 사용자에 대해 입력한 마지막 값만 저장됩니다.프로필에 추가됩니다.[데이터베이스에 데이터 저장](#storing-data-in-the-database)을 참조하십시오.
+   데이터베이스의 필드를 선택할 수 있습니다. 사용자의 답변이 이 필드에 저장됩니다. 각 사용자에 대해 입력한 마지막 값만 저장됩니다. 프로필에 추가됩니다. [데이터베이스에 데이터 저장](#storing-data-in-the-database)을 참조하십시오.
 
 * **[!UICONTROL Variable]**
 
@@ -127,7 +129,7 @@ Professional 옵션을 선택하면 가시성 조건에 명시된 대로 상용 
 
    ![](assets/s_ncs_admin_survey_save_box_edit.png)
 
-기본적으로 데이터는 **[!UICONTROL Update or insertion]** 작업에 의해 데이터베이스로 가져옵니다.데이터베이스에 있으면 요소가 업데이트됩니다(예: 선택한 뉴스레터 또는 입력한 이메일 주소). 존재하지 않으면 정보가 추가됩니다.
+기본적으로 데이터는 **[!UICONTROL Update or insertion]** 작업에 의해 데이터베이스로 가져옵니다. 데이터베이스에 있으면 요소가 업데이트됩니다(예: 선택한 뉴스레터 또는 입력한 이메일 주소). 존재하지 않으면 정보가 추가됩니다.
 
 그러나 이 동작을 변경할 수 있습니다. 이렇게 하려면 요소의 루트를 선택하고 드롭다운 목록에서 수행할 작업을 선택합니다.
 
@@ -137,6 +139,6 @@ Professional 옵션을 선택하면 가시성 조건에 명시된 대로 상용 
 
 >[!NOTE]
 >
->가능한 작업은 다음과 같습니다.**[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.\
+>가능한 작업은 다음과 같습니다. **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.\
 >연산자의 기본 폴더는 연산자에 쓰기 권한이 있는 첫 번째 폴더입니다.\
 >[이 섹션](../../platform/using/access-management.md)을 참조하십시오.

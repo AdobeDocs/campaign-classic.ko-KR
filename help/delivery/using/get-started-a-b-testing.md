@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # A/B 테스트 시작 {#get-started-a-b-testing}
+
+![](../../assets/common.svg)
 
 A/B 테스트를 사용하면 타겟팅된 모집단에 가장 큰 영향을 줄 게재 버전을 확인하기 위해 여러 버전의 게재를 서로 비교할 수 있습니다.
 

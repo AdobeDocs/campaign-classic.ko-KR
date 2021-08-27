@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 11%
@@ -14,6 +14,8 @@ ht-degree: 11%
 ---
 
 # 게재 만들기 및 식별 {#create-and-identify-the-delivery}
+
+![](../../assets/common.svg)
 
 ## 게재 만들기 {#creating-the-delivery}
 
@@ -24,7 +26,7 @@ ht-degree: 11%
 
 ![](assets/s_ncs_user_wizard_email01_1.png)
 
-설치한 각 채널에 대해 기본 템플릿이 제공됩니다.dm, 이메일, 팩스, 전화, 모바일 채널(SMS), Facebook, Twitter 등
+설치한 각 채널에 대해 기본 템플릿이 제공됩니다. dm, 이메일, 팩스, 전화, 모바일 채널(SMS), Facebook, Twitter 등
 
 >[!NOTE]
 >
@@ -41,7 +43,7 @@ ht-degree: 11%
    게재 코드도 게재에 할당할 수 있습니다. 게재 이름 및 해당 코드가 게재 목록에 표시되지만 수신자는 볼 수 없습니다.
 
 1. **[!UICONTROL Description]** 필드에 설명을 추가합니다.
-1. 관련 필드에서 게재 특성을 선택합니다. 이 정보는 게재 추적에 유용합니다.이 선택 기준을 사용하여 게재 목록 또는 빌드 쿼리에서 이 기준을 기반으로 필터링할 수 있습니다.
+1. 관련 필드에서 게재 특성을 선택합니다. 이 정보는 게재 추적에 유용합니다. 이 선택 기준을 사용하여 게재 목록 또는 빌드 쿼리에서 이 기준을 기반으로 필터링할 수 있습니다.
 
    ![](assets/s_ncs_user_email_del_nature.png)
 

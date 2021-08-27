@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # Target 동적 콘텐츠 삽입 {#inserting-a-dynamic-image}
+
+![](../../assets/common.svg)
 
 이 안내서에서는 Target의 동적 오퍼를 Adobe Campaign의 이메일에 통합하는 방법을 제시합니다.
 
@@ -53,10 +55,10 @@ Adobe Campaign에서는 Target의 동적 이미지를 이메일에 삽입하는 
 
 ### 이미지 매개 변수 정의 {#defining-image-parameters}
 
-* **[!UICONTROL Default image]** 의 URL:조건이 충족되지 않을 때 표시되는 이미지입니다. 자산 라이브러리에서 이미지를 선택할 수도 있습니다.
-* **[!UICONTROL Target location]**:동적 오퍼 위치에 사용할 이름을 입력합니다. Target 활동에서 이 위치를 선택해야 합니다.
-* **[!UICONTROL Landing Page]**:기본 이미지가 기본 랜딩 페이지로 리디렉션되도록 하려는 경우. 이 URL은 최종 이메일에 기본 이미지가 표시되고 선택 사항인 경우에만 해당됩니다.
-* **[!UICONTROL Additional decision parameters]**:Adobe Target 세그먼트에 정의된 필드와 Adobe Campaign 필드 간의 매핑을 지정합니다. 사용된 Adobe Campaign 필드를 rawbox에 지정해야 합니다. 이 예제에서는 국가 필드를 추가했습니다.
+* **[!UICONTROL Default image]** 의 URL: 조건이 충족되지 않을 때 표시되는 이미지입니다. 자산 라이브러리에서 이미지를 선택할 수도 있습니다.
+* **[!UICONTROL Target location]**: 동적 오퍼 위치에 사용할 이름을 입력합니다. Target 활동에서 이 위치를 선택해야 합니다.
+* **[!UICONTROL Landing Page]**: 기본 이미지가 기본 랜딩 페이지로 리디렉션되도록 하려는 경우. 이 URL은 최종 이메일에 기본 이미지가 표시되고 선택 사항인 경우에만 해당됩니다.
+* **[!UICONTROL Additional decision parameters]**: Adobe Target 세그먼트에 정의된 필드와 Adobe Campaign 필드 간의 매핑을 지정합니다. 사용된 Adobe Campaign 필드를 rawbox에 지정해야 합니다. 이 예제에서는 국가 필드를 추가했습니다.
 
 Adobe Target의 설정에서 엔터프라이즈 권한을 사용하는 경우 이 필드에 해당 속성을 추가하십시오. [이 페이지](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)에서 Enterprise Target 권한에 대해 자세히 알아보십시오.
 

@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 이벤트 처리 {#about-event-processing}
+
+![](../../assets/v7-only.svg)
 
 트랜잭션 메시지 컨텍스트에서 이벤트는 외부 정보 시스템에 의해 생성되고 **[!UICONTROL PushEvent]** 및 **[!UICONTROL PushEvents]** 메서드를 통해 Adobe Campaign으로 전송됩니다( [이벤트 설명](../../message-center/using/event-description.md) 참조).
 
@@ -44,7 +46,7 @@ ht-degree: 2%
 
 정보 시스템에서 생성된 이벤트는 두 가지 모드를 사용하여 수집할 수 있다.
 
-* SOAP 메서드 호출을 통해 Adobe Campaign에서 이벤트를 푸시할 수 있습니다.pushEvent 메서드를 사용하면 한 번에 하나의 이벤트를 전송할 수 있습니다. PushEvents 메서드를 사용하면 여러 이벤트를 한 번에 전송할 수 있습니다. 자세한 내용은 [이벤트 설명](../../message-center/using/event-description.md)을 참조하십시오.
+* SOAP 메서드 호출을 통해 Adobe Campaign에서 이벤트를 푸시할 수 있습니다. pushEvent 메서드를 사용하면 한 번에 하나의 이벤트를 전송할 수 있습니다. PushEvents 메서드를 사용하면 여러 이벤트를 한 번에 전송할 수 있습니다. 자세한 내용은 [이벤트 설명](../../message-center/using/event-description.md)을 참조하십시오.
 
 * 워크플로우를 만들면 파일을 가져오거나 SQL 게이트웨이([Federated Data Access](../../installation/using/about-fda.md) 옵션 사용)를 통해 이벤트를 복구할 수 있습니다.
 
@@ -58,7 +60,7 @@ ht-degree: 2%
 
 ## 템플릿을 향해 라우팅 {#routing-towards-a-template}
 
-메시지 템플릿이 실행 인스턴스에 게시되면 두 개의 템플릿이 자동으로 생성됩니다.하나는 실시간 이벤트에 연결되고 다른 하나는 배치 이벤트에 연결됩니다.
+메시지 템플릿이 실행 인스턴스에 게시되면 두 개의 템플릿이 자동으로 생성됩니다. 하나는 실시간 이벤트에 연결되고 다른 하나는 배치 이벤트에 연결됩니다.
 
 라우팅 단계는 다음을 기반으로 이벤트를 적절한 메시지 템플릿에 연결하는 데 구성됩니다.
 
@@ -73,22 +75,22 @@ ht-degree: 2%
 기본적으로 공정순서는 다음 정보에 의존합니다.
 
 * 이벤트 유형
-* 사용할 채널(기본적으로:email)
+* 사용할 채널(기본적으로: email)
 * 게시 날짜를 기반으로 하는 가장 최근 게재 템플릿
 
 ## 이벤트 상태 {#event-statuses}
 
 **이벤트 기록** **[!UICONTROL Message Center]** > **[!UICONTROL Event history]**&#x200B;에서 처리된 모든 이벤트를 하나의 보기로 그룹화합니다. 이벤트 유형이나 **status**&#x200B;로 분류할 수 있습니다. 이러한 상태는 다음과 같습니다.
 
-* **보류 중**:이벤트는 다음과 같습니다.
+* **보류 중**: 이벤트는 다음과 같습니다.
 
    * 방금 수집되었으며 아직 처리되지 않은 이벤트. **[!UICONTROL Number of errors]** 열에는 값 0이 표시됩니다. 전자 메일 템플릿이 아직 연결되어 있지 않습니다.
    * 처리되었지만 확인이 잘못된 이벤트입니다. **[!UICONTROL Number of errors]** 열에는 0이 아닌 값이 표시됩니다. 이 이벤트가 다시 처리되는 시기를 확인하려면 **[!UICONTROL Process requested on]** 열을 참조하십시오.
 
-* **게재 보류 중**:이벤트가 처리되고 게재 템플릿이 연결됩니다. 이메일이 게재 대기 중이며 클래식 게재 프로세스가 적용됩니다. 자세한 내용은 게재를 열 수 있습니다.
-* **전송**,  **** 무시 및  **배달 오류**:이러한 게재 상태는 updateEventsStatusworkflow를 통해  **** 복구됩니다. 자세한 내용은 관련 게재를 열 수 있습니다.
-* **이벤트가 포함되지 않음**:트랜잭션 메시지 라우팅 단계가 실패했습니다. 예를 들어 Adobe Campaign이 이벤트의 템플릿으로 작동하는 이메일을 찾지 못했습니다.
-* **이벤트 만료**:최대 전송 시도 수에 도달했습니다. 이벤트는 null로 간주됩니다.
+* **게재 보류 중**: 이벤트가 처리되고 게재 템플릿이 연결됩니다. 이메일이 게재 대기 중이며 클래식 게재 프로세스가 적용됩니다. 자세한 내용은 게재를 열 수 있습니다.
+* **전송**,  **** 무시 및  **배달 오류**: 이러한 게재 상태는 updateEventsStatusworkflow를 통해  **** 복구됩니다. 자세한 내용은 관련 게재를 열 수 있습니다.
+* **이벤트가 포함되지 않음**: 트랜잭션 메시지 라우팅 단계가 실패했습니다. 예를 들어 Adobe Campaign이 이벤트의 템플릿으로 작동하는 이메일을 찾지 못했습니다.
+* **이벤트 만료**: 최대 전송 시도 수에 도달했습니다. 이벤트는 null로 간주됩니다.
 
 ## 이벤트 재활용 {#event-recycling}
 

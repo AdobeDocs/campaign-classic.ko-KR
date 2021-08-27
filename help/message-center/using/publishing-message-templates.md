@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 메시지 템플릿 게시 {#publishing-template-messages}
+
+![](../../assets/v7-only.svg)
 
 ## 템플릿 게시 {#template-publication}
 
@@ -31,7 +33,7 @@ ht-degree: 1%
 
 1. 컨트롤 인스턴스에서 트리의 **[!UICONTROL Message Center > Transactional message templates]** 폴더로 이동합니다.
 1. 실행 인스턴스에 게시할 템플릿을 선택합니다.
-1. **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Publish]**&#x200B;를 클릭합니다.
 
    ![](assets/messagecenter_publish_model_008.png)
 
@@ -51,7 +53,7 @@ ht-degree: 1%
 
 메시지 템플릿이 실행 인스턴스에 게시되면 게시 취소할 수 있습니다. 템플릿 게시 프로세스에 대한 자세한 내용은 [이 섹션](#template-publication)을 참조하십시오.
 
-* 실제로, 게시된 템플릿은 해당 이벤트가 트리거되는 경우 여전히 호출할 수 있습니다.더 이상 메시지 템플릿을 사용하지 않는 경우 게시를 취소하는 것이 좋습니다. 실수로 원치 않는 트랜잭션 메시지를 보내지 않기 위한 것입니다.
+* 실제로, 게시된 템플릿은 해당 이벤트가 트리거되는 경우 여전히 호출할 수 있습니다. 더 이상 메시지 템플릿을 사용하지 않는 경우 게시를 취소하는 것이 좋습니다. 실수로 원치 않는 트랜잭션 메시지를 보내지 않기 위한 것입니다.
 
    예를 들어, 크리스마스 캠페인에만 사용하는 메시지 템플릿을 게시했습니다. 크리스마스 기간이 끝난 후에 게시를 취소하고, 내년에 다시 게시할 수 있습니다.
 
@@ -65,11 +67,11 @@ ht-degree: 1%
 
 1. 컨트롤 인스턴스에서 트리의 **[!UICONTROL Message Center > Transactional message templates]** 폴더로 이동합니다.
 1. 게시를 취소하려는 템플릿을 선택합니다.
-1. **[!UICONTROL Unpublish]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Unpublish]**&#x200B;를 클릭합니다.
 
    <!--1. Fill in the **[!UICONTROL Log of the process]** field.-->
 
-1. **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Start]**&#x200B;를 클릭합니다.
 
 ![](assets/message-center-unpublish.png)
 

@@ -6,23 +6,25 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1599'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 대상 모집단 정의 {#defining-the-target-population}
 
+![](../../assets/common.svg)
+
 ## 대상 모집단 기본 정보 {#about-target-populations}
 
 각 게재에 대해 몇 가지 유형의 대상 모집단을 정의할 수 있습니다.
 
-* **기본 대상**:메시지를 받을 프로필. [자세히 알아보기](steps-defining-the-target-population.md#selecting-the-main-target)
-* **증명**:유효성 검사 주기에 관련된 증명 메시지 수신자 [자세히 알아보기](steps-defining-the-target-population.md#defining-a-specific-proof-target)
-* **시드 주소**:게재 타겟이 아니지만 게재를 받을 수신자(마케팅 캠페인의 컨텍스트에서만)입니다. [자세히 알아보기](about-seed-addresses.md)
-* **컨트롤 그룹**:게재를 받지 않고, 동작 및 캠페인 영향을 추적하는 데 사용되는 모집단(마케팅 캠페인의 컨텍스트에서만). [자세히 알아보기](../../campaign/using/marketing-campaign-target.md#defining-a-control-group)
+* **기본 대상**: 메시지를 받을 프로필. [자세히 알아보기](steps-defining-the-target-population.md#selecting-the-main-target)
+* **증명**: 유효성 검사 주기에 관련된 증명 메시지 수신자 [자세히 알아보기](steps-defining-the-target-population.md#defining-a-specific-proof-target)
+* **시드 주소**: 게재 타겟이 아니지만 게재를 받을 수신자(마케팅 캠페인의 컨텍스트에서만)입니다. [자세히 알아보기](about-seed-addresses.md)
+* **컨트롤 그룹**: 게재를 받지 않고, 동작 및 캠페인 영향을 추적하는 데 사용되는 모집단(마케팅 캠페인의 컨텍스트에서만). [자세히 알아보기](../../campaign/using/marketing-campaign-target.md#defining-a-control-group)
 
 ## 게재의 주요 수신자 선택 {#selecting-the-main-target}
 
@@ -49,16 +51,16 @@ ht-degree: 2%
 
    기본적으로 다음 대상 유형이 제공됩니다.
 
-   * **[!UICONTROL Filtering conditions]** :이 옵션을 사용하면 쿼리를 정의하고 결과를 표시할 수 있습니다. 쿼리 정의 방법은 [이 섹션](../../platform/using/creating-filters.md#creating-an-advanced-filter)에 나와 있습니다.
-   * **[!UICONTROL Subscribers of an information service]** :이 옵션을 사용하면 만들어지는 게재의 타겟팅할 수신자를 구독해야 하는 뉴스레터를 선택할 수 있습니다.
+   * **[!UICONTROL Filtering conditions]** : 이 옵션을 사용하면 쿼리를 정의하고 결과를 표시할 수 있습니다. 쿼리 정의 방법은 [이 섹션](../../platform/using/creating-filters.md#creating-an-advanced-filter)에 나와 있습니다.
+   * **[!UICONTROL Subscribers of an information service]** : 이 옵션을 사용하면 만들어지는 게재의 타겟팅할 수신자를 구독해야 하는 뉴스레터를 선택할 수 있습니다.
 
       ![](assets/s_ncs_user_wizard_email02c.png)
 
-   * **[!UICONTROL Recipients of a delivery]** :이 옵션을 사용하면 기존 게재의 수신자를 타겟팅 기준으로 정의할 수 있습니다. 그런 다음 목록에서 게재를 선택해야 합니다.
+   * **[!UICONTROL Recipients of a delivery]** : 이 옵션을 사용하면 기존 게재의 수신자를 타겟팅 기준으로 정의할 수 있습니다. 그런 다음 목록에서 게재를 선택해야 합니다.
 
       ![](assets/s_ncs_user_wizard_email02d.png)
 
-   * **[!UICONTROL Delivery recipients belonging to a folder]** :이 옵션을 사용하면 게재 폴더를 선택하고 해당 폴더에서 게재 수신자를 타겟팅할 수 있습니다.
+   * **[!UICONTROL Delivery recipients belonging to a folder]** : 이 옵션을 사용하면 게재 폴더를 선택하고 해당 폴더에서 게재 수신자를 타겟팅할 수 있습니다.
 
       ![](assets/s_ncs_user_wizard_email02e.png)
 
@@ -70,10 +72,10 @@ ht-degree: 2%
       >
       >또한 **[!UICONTROL Include sub-folders]** 옵션을 사용하면 선택한 노드 아래의 트리 구조에 있는 폴더에 포함된 게재를 타깃팅할 수 있습니다.
 
-   * **[!UICONTROL Recipients included in a folder]** :이 옵션을 사용하면 트리의 특정 폴더에 포함된 프로필을 타겟팅할 수 있습니다.
-   * **[!UICONTROL A recipient]** :이 옵션을 사용하면 데이터베이스의 프로필에서 특정 수신자를 선택할 수 있습니다.
-   * **[!UICONTROL A list of recipients]** :이 옵션을 사용하면 수신자 목록을 타겟팅할 수 있습니다. 목록은 [이 섹션](../../platform/using/creating-and-managing-lists.md)에 나와 있습니다.
-   * **[!UICONTROL User filters]** :이 옵션을 사용하면 사전 구성된 필터에 액세스하여 데이터베이스의 프로필에 대한 필터링 기준으로 사용할 수 있습니다. 사전 구성된 필터는 [이 섹션](../../platform/using/creating-filters.md#saving-a-filter)에 표시됩니다.
+   * **[!UICONTROL Recipients included in a folder]** : 이 옵션을 사용하면 트리의 특정 폴더에 포함된 프로필을 타겟팅할 수 있습니다.
+   * **[!UICONTROL A recipient]** : 이 옵션을 사용하면 데이터베이스의 프로필에서 특정 수신자를 선택할 수 있습니다.
+   * **[!UICONTROL A list of recipients]** : 이 옵션을 사용하면 수신자 목록을 타겟팅할 수 있습니다. 목록은 [이 섹션](../../platform/using/creating-and-managing-lists.md)에 나와 있습니다.
+   * **[!UICONTROL User filters]** : 이 옵션을 사용하면 사전 구성된 필터에 액세스하여 데이터베이스의 프로필에 대한 필터링 기준으로 사용할 수 있습니다. 사전 구성된 필터는 [이 섹션](../../platform/using/creating-filters.md#saving-a-filter)에 표시됩니다.
    * **[!UICONTROL Exclude recipients corresponding to this segment]** 옵션을 사용하면 정의된 대상 기준을 충족하지 않는 수신자를 타깃팅할 수 있습니다. 이 옵션을 사용하려면 해당 상자를 선택한 다음 앞에서 정의한 대로 타겟팅을 적용하여 결과 프로필을 제외합니다.
 
       ![](assets/s_ncs_user_wizard_email02g.png)
@@ -108,7 +110,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->이메일 전송을 위한 메시지 콘텐츠를 정의할 때 미러 페이지에 대한 링크를 포함하지 마십시오.이 게재 모드에서는 생성할 수 없습니다.
+>이메일 전송을 위한 메시지 콘텐츠를 정의할 때 미러 페이지에 대한 링크를 포함하지 마십시오. 이 게재 모드에서는 생성할 수 없습니다.
 
 ### 제외 설정 설정 {#customizing-exclusion-settings}
 
@@ -132,16 +134,16 @@ ht-degree: 2%
 
 다음 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL Exclude duplicate addresses during delivery]**. 이 옵션은 기본적으로 활성화되어 있습니다.게재하는 동안 중복 이메일 주소를 제거할 수 있습니다. 적용된 전략은 Adobe Campaign 사용 방법과 데이터베이스의 데이터 유형에 따라 달라질 수 있습니다.
+* **[!UICONTROL Exclude duplicate addresses during delivery]**. 이 옵션은 기본적으로 활성화되어 있습니다. 게재하는 동안 중복 이메일 주소를 제거할 수 있습니다. 적용된 전략은 Adobe Campaign 사용 방법과 데이터베이스의 데이터 유형에 따라 달라질 수 있습니다.
 
    옵션 기본값은 각 게재 템플릿에 대해 구성할 수 있습니다.
 
    예제:
 
-   * 뉴스레터 또는 전자 문서 게재. 데이터에 기본 중복 항목이 없는 경우 중복 항목을 제외하지 않습니다. 동일한 이메일 주소를 사용하는 두 가입을 하면 두 개의 특정 개인화된 이메일 메시지를 받을 수 있습니다.각 개인에게 이름으로 지정된 하나. 이 경우 이 옵션을 선택 취소할 수 있습니다.
-   * 마케팅 캠페인 게재:동일한 수신자에게 너무 많은 메시지를 보내지 않으려면 중복 제외가 필요합니다. 이 경우 이 옵션을 선택할 수 있습니다.
+   * 뉴스레터 또는 전자 문서 게재. 데이터에 기본 중복 항목이 없는 경우 중복 항목을 제외하지 않습니다. 동일한 이메일 주소를 사용하는 두 가입을 하면 두 개의 특정 개인화된 이메일 메시지를 받을 수 있습니다. 각 개인에게 이름으로 지정된 하나. 이 경우 이 옵션을 선택 취소할 수 있습니다.
+   * 마케팅 캠페인 게재: 동일한 수신자에게 너무 많은 메시지를 보내지 않으려면 중복 제외가 필요합니다. 이 경우 이 옵션을 선택할 수 있습니다.
 
-      이 옵션을 선택 취소하면 추가 옵션에 액세스할 수 있습니다.**[!UICONTROL Keep duplicate records (same identifier)]** 여러 타겟팅 기준을 충족하는 수신자에게 여러 게재를 승인할 수 있도록 해줍니다.
+      이 옵션을 선택 취소하면 추가 옵션에 액세스할 수 있습니다. **[!UICONTROL Keep duplicate records (same identifier)]** 여러 타겟팅 기준을 충족하는 수신자에게 여러 게재를 승인할 수 있도록 해줍니다.
 
       ![](assets/s_ncs_user_wizard_email02j.png)
 
@@ -171,7 +173,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL To]** 링크를 클릭합니다.
 1. **[!UICONTROL Target of the proofs]** 탭을 클릭합니다.
-1. 적용할 메서드를 선택하려면 **[!UICONTROL Targeting mode]** 필드를 클릭하십시오.**[!UICONTROL Definition of a specific proof target]** , **[!UICONTROL Substitution of the address]** , **[!UICONTROL Seed addresses]** 또는 **[!UICONTROL Specific target and seed addresses]**.
+1. 적용할 메서드를 선택하려면 **[!UICONTROL Targeting mode]** 필드를 클릭하십시오. **[!UICONTROL Definition of a specific proof target]** , **[!UICONTROL Substitution of the address]** , **[!UICONTROL Seed addresses]** 또는 **[!UICONTROL Specific target and seed addresses]**.
 
 >[!NOTE]
 >
@@ -201,7 +203,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Add]** 아이콘을 클릭하여 대체를 정의합니다.
 1. 사용할 수신자 주소를 입력하거나 목록에서 선택합니다.
-1. 증명에서 사용할 프로필을 선택합니다.**[!UICONTROL Profile to use]** 열에 **[!UICONTROL Random]** 값을 저장하여 증명의 대상 프로필의 데이터를 사용합니다.
+1. 증명에서 사용할 프로필을 선택합니다. **[!UICONTROL Profile to use]** 열에 **[!UICONTROL Random]** 값을 저장하여 증명의 대상 프로필의 데이터를 사용합니다.
 
    ![](assets/s_ncs_user_wizard_email_bat_substitute_choose.png)
 
@@ -213,7 +215,7 @@ ht-degree: 2%
 
 ## 시드 주소를 증명으로 사용 {#using-seed-addresses-as-proof}
 
-증명 대상으로 **[!UICONTROL Seed addresses]**&#x200B;를 사용할 수 있습니다.이 옵션을 사용하면 기존 시드 주소 목록을 사용하거나 가져올 수 있습니다.
+증명 대상으로 **[!UICONTROL Seed addresses]**&#x200B;를 사용할 수 있습니다. 이 옵션을 사용하면 기존 시드 주소 목록을 사용하거나 가져올 수 있습니다.
 
 ![](assets/s_ncs_user_wizard_email_bat_control_address.png)
 
@@ -223,7 +225,7 @@ ht-degree: 2%
 
 **[!UICONTROL Specific target and Seed addresses]** 옵션을 사용하여 특정 증명 대상의 정의와 시드 주소의 사용을 결합할 수 있습니다. 그런 다음 관련 구성이 두 개의 개별 하위 탭에서 정의됩니다.
 
-다음을 참조하십시오.
+또한 다음을 참조하십시오:
 
 * [증명 대상 선택](#selecting-the-proof-target)
 * [시드 주소 정보](about-seed-addresses.md)

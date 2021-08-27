@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 3%
 
 ---
 
-# Campaign 서버 구성{#gs-campaign-server-config} 시작
+# Campaign 서버 구성 시작{#gs-campaign-server-config}
+
+![](../../assets/v7-only.svg)
 
 이 장에서는 요구 사항과 환경 특성에 맞게 수행할 수 있는 서버측 구성에 대해 자세히 설명합니다.
 
@@ -33,8 +35,8 @@ ht-degree: 3%
 
 Campaign Classic 구성 파일은 Adobe Campaign 설치 폴더의 **conf** 폴더에 저장됩니다. 구성은 두 파일에 분산됩니다.
 
-* **serverConf.xml**:모든 인스턴스에 대한 일반 구성. 이 파일은 Adobe Campaign 서버의 기술 매개 변수를 결합합니다.이러한 속성은 모든 인스턴스에서 공유됩니다. 이러한 매개 변수 중 일부에 대한 설명은 아래에 자세히 설명되어 있습니다. 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열된 다른 노드 및 매개 변수입니다.
-* **config-`<instance>`.xml** (여기서  **** instanceis the name of instance):인스턴스의 특정 구성입니다. 여러 인스턴스 간에 서버를 공유하는 경우 관련 파일에 각 인스턴스에 대한 매개 변수를 입력하십시오.
+* **serverConf.xml**: 모든 인스턴스에 대한 일반 구성. 이 파일은 Adobe Campaign 서버의 기술 매개 변수를 결합합니다. 이러한 속성은 모든 인스턴스에서 공유됩니다. 이러한 매개 변수 중 일부에 대한 설명은 아래에 자세히 설명되어 있습니다. 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열된 다른 노드 및 매개 변수입니다.
+* **config-`<instance>`.xml** (여기서  **** instanceis the name of instance): 인스턴스의 특정 구성입니다. 여러 인스턴스 간에 서버를 공유하는 경우 관련 파일에 각 인스턴스에 대한 매개 변수를 입력하십시오.
 
 ## 구성 범위
 
@@ -81,15 +83,15 @@ Confirmation: XXXX
 17:34:02 >   Password successfully changed for account 'internal' (authentication mode 'nl')
 ```
 
-## 프로세스 {#enabling-processes} 사용
+## 프로세스 활성화 {#enabling-processes}
 
 서버의 Adobe Campaign 프로세스는 **config-default.xml** 및 **`config-<instance>.xml`** 파일을 통해 활성화(및 비활성화)됩니다.
 
 이러한 파일에 변경 사항을 적용하려면, Adobe Campaign 서비스가 시작된 경우 **nlserver config -reload** 명령을 실행해야 합니다.
 
-두 가지 유형의 프로세스가 있습니다.다중 인스턴스 및 단일 인스턴스.
+두 가지 유형의 프로세스가 있습니다. 다중 인스턴스 및 단일 인스턴스.
 
-* **다중 인스턴스**:모든 인스턴스에 대해 하나의 프로세스가 시작됩니다. 이는 **web**, **syslogd** 및 **trackinglogd** 프로세스에 대한 경우입니다.
+* **다중 인스턴스**: 모든 인스턴스에 대해 하나의 프로세스가 시작됩니다. 이는 **web**, **syslogd** 및 **trackinglogd** 프로세스에 대한 경우입니다.
 
    활성화는 **config-default.xml** 파일에서 구성할 수 있습니다.
 
@@ -104,7 +106,7 @@ Confirmation: XXXX
 
    이 예제에서 파일은 Linux에서 **vi** 명령을 사용하여 편집됩니다. 이 편집기는 **.txt** 또는 **.xml** 편집기를 사용하여 편집할 수 있습니다.
 
-* **모노인스턴스**:각 인스턴스(모듈: **mta**,  **wfserver**,  **inMail**,  **** smsat  ****).
+* **모노인스턴스**: 각 인스턴스(모듈:  **mta**,  **wfserver**,  **inMail**,  **** smsat  ****).
 
    인스턴스의 구성 파일을 사용하여 활성화를 구성할 수 있습니다.
 
@@ -131,7 +133,7 @@ Adobe Campaign 데이터(로그, 다운로드, 리디렉션 등)의 저장소 �
    D:\log\AdobeCampaign
    ```
 
-* Linux에서 **customer.sh** 파일로 이동하여 다음을 표시합니다.**XTK_VAR_DIR=/app/log/AdobeCampaign** 내보내기.
+* Linux에서 **customer.sh** 파일로 이동하여 다음을 표시합니다. **XTK_VAR_DIR=/app/log/AdobeCampaign** 내보내기.
 
    자세한 내용은 [매개 변수 개인화](../../installation/using/installing-packages-with-linux.md#personalizing-parameters)를 참조하십시오.
 
@@ -140,7 +142,7 @@ Adobe Campaign 데이터(로그, 다운로드, 리디렉션 등)의 저장소 �
 
 기본적으로 모든 동적 페이지는 웹 모듈이 시작된 시스템의 **local** Tomcat 서버와 자동으로 연결됩니다. 이 구성은 **ServerConf.xml** 파일에 대한 쿼리 릴레이 구성의 **`<url>`** 섹션에 입력됩니다.
 
-**원격** 서버에서 동적 페이지 실행을 릴레이 수 있습니다.웹 모듈이 컴퓨터에서 활성화되지 않은 경우 이렇게 하려면 **localhost**&#x200B;를 JSP 및 JSSP, 웹 응용 프로그램, 보고서 및 문자열의 원격 컴퓨터 이름으로 바꾸어야 합니다.
+**원격** 서버에서 동적 페이지 실행을 릴레이 수 있습니다. 웹 모듈이 컴퓨터에서 활성화되지 않은 경우 이렇게 하려면 **localhost**&#x200B;를 JSP 및 JSSP, 웹 응용 프로그램, 보고서 및 문자열의 원격 컴퓨터 이름으로 바꾸어야 합니다.
 
 사용 가능한 다양한 매개 변수에 대한 자세한 내용은 **serverConf.xml** 구성 파일을 참조하십시오.
 
@@ -152,10 +154,10 @@ JSP 페이지의 경우 기본 구성은 다음과 같습니다.
 
 Adobe Campaign에서는 다음 JSP 페이지를 사용합니다.
 
-* /nl/jsp/**software.jsp**:클라이언트 콘솔 및 웹 서비스 연결(SOAP API),
-* /nl/jsp/**m.jsp**:미러 페이지,
-* /nl/jsp/**logon.jsp**:보고서 및 클라이언트 콘솔의 배포에 대한 웹 기반 액세스
-* /nl/jsp/**s.jsp** :바이럴 마케팅(후원 및 소셜 네트워크) 사용.
+* /nl/jsp/**software.jsp**: 클라이언트 콘솔 및 웹 서비스 연결(SOAP API),
+* /nl/jsp/**m.jsp**: 미러 페이지,
+* /nl/jsp/**logon.jsp**: 보고서 및 클라이언트 콘솔의 배포에 대한 웹 기반 액세스
+* /nl/jsp/**s.jsp** : 바이럴 마케팅(후원 및 소셜 네트워크) 사용.
 
 모바일 앱 채널에 사용되는 JSSP는 다음과 같습니다.
 
@@ -196,8 +198,8 @@ Adobe Campaign에서는 다음 JSP 페이지를 사용합니다.
 1. **`<relay>`** 노드에서 전달된 HTTP 헤더 목록으로 이동합니다.
 1. 다음 특성을 사용하여 **`<responseheader>`** 요소를 추가합니다.
 
-   * **이름**:헤더 이름
-   * **값**:값 이름.
+   * **이름**: 헤더 이름
+   * **값**: 값 이름.
 
    예제:
 
@@ -230,7 +232,7 @@ sh
 
 서버 구성 파일의 **exec** 노드에서 **blacklistFile** 속성에서 이전에 만든 파일을 참조해야 합니다.
 
-**Linux의 경우**:서버 구성 파일에서 보안 구성을 향상시키기 위해 외부 명령을 실행하는 전용 사용자를 다시 지정합니다. 이 사용자는 구성 파일의 **exec** 노드에서 설정됩니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [section](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
+**Linux의 경우**: 서버 구성 파일에서 보안 구성을 향상시키기 위해 외부 명령을 실행하는 전용 사용자를 다시 지정합니다. 이 사용자는 구성 파일의 **exec** 노드에서 설정됩니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [section](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
 >[!NOTE]
 >
@@ -253,7 +255,7 @@ sh
 
 ## 중복 추적 {#redundant-tracking}
 
-리디렉션에 여러 서버를 사용하는 경우 리디렉션할 URL에서 정보를 공유하려면 SOAP 호출을 통해 서로 통신할 수 있어야 합니다. 게재 시작 시 일부 리디렉션 서버를 사용하지 못할 수 있습니다.따라서 동일한 수준의 정보가 없을 수 있습니다.
+리디렉션에 여러 서버를 사용하는 경우 리디렉션할 URL에서 정보를 공유하려면 SOAP 호출을 통해 서로 통신할 수 있어야 합니다. 게재 시작 시 일부 리디렉션 서버를 사용하지 못할 수 있습니다. 따라서 동일한 수준의 정보가 없을 수 있습니다.
 
 >[!NOTE]
 >
@@ -270,11 +272,11 @@ sh
 
 **enableIf** 속성은 선택 사항이며(기본적으로 비어 있음) 결과가 true인 경우에만 연결을 활성화할 수 있습니다. 이렇게 하면 모든 리디렉션 서버에서 동일한 구성을 얻을 수 있습니다.
 
-컴퓨터의 호스트 이름을 얻으려면 다음 명령을 실행하십시오.**hostname -s**
+컴퓨터의 호스트 이름을 얻으려면 다음 명령을 실행하십시오. **hostname -s**
 
 
 
-## 고가용성 워크플로우 및 관심 사항 {#high-availability-workflows-and-affinities}
+## 고가용성 워크플로우 및 관심 {#high-availability-workflows-and-affinities}
 
 여러 워크플로우 서버(wfserver)를 구성하고 둘 이상의 시스템에 배포할 수 있습니다. 이러한 유형의 아키텍처를 선택하는 경우, Adobe Campaign 액세스 권한에 따라 로드 밸런서의 연결 모드를 구성합니다.
 

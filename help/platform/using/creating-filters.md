@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1963'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 필터 만들기{#creating-filters}
+
+![](../../assets/common.svg)
 
 Adobe Campaign 트리(홈 페이지의 **[!UICONTROL Explorer]** 메뉴에서)에서 탐색하면 데이터베이스에 포함된 데이터가 목록에 표시됩니다. 연산자에 필요한 데이터만 표시하도록 이러한 목록을 구성할 수 있습니다. 그런 다음 필터링된 데이터에 대해 작업을 시작할 수 있습니다. 필터 구성을 사용하면 목록 **[!UICONTROL dynamically]**&#x200B;에서 데이터를 선택할 수 있습니다. 데이터가 수정되면 필터링된 데이터가 업데이트됩니다.
 
@@ -69,7 +71,7 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
    목록 위에 있는 **[!UICONTROL Filters]** 버튼은 필터링을 세분화하기 위해 결합할 수 있는 애플리케이션 필터 세트를 제공합니다. 이러한 필터를 만드는 방법은 [필터 저장](#saving-a-filter)에 나와 있습니다.
 
-## 기본 필터 {#altering-the-default-filter} 변경
+## 기본 필터 변경 {#altering-the-default-filter}
 
 받는 사람 목록에 대한 기본 필터를 변경하려면 트리의 **[!UICONTROL Profiles and Targets > Pre-defined filters]** 노드를 클릭합니다.
 
@@ -92,7 +94,7 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
    >
    >필터 정의 창은 [고급 필터 만들기](#creating-an-advanced-filter) 및 [필터 저장](#saving-a-filter)에 자세히 설명되어 있습니다.
 
-## 단순 필터 {#creating-a-simple-filter} 만들기
+## 단순 필터 만들기 {#creating-a-simple-filter}
 
 **단순 필터**&#x200B;를 만들려면 다음 단계를 적용합니다.
 
@@ -102,7 +104,7 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
    기본 필터 필드가 목록 위에 표시됩니다.
 
-1. 드롭다운 목록에서 필터 옵션을 선택하거나 적용할 필터 기준을 입력합니다(기준을 선택하거나 입력하는 방법은 필드 유형에 따라 달라집니다.).텍스트, 열거형 등)
+1. 드롭다운 목록에서 필터 옵션을 선택하거나 적용할 필터 기준을 입력합니다(기준을 선택하거나 입력하는 방법은 필드 유형에 따라 달라집니다.). 텍스트, 열거형 등)
 
    ![](assets/s_ncs_user_sort_fields.png)
 
@@ -126,7 +128,7 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
    ![](assets/s_ncs_user_delete_filter.png)
 
-## 고급 필터 {#creating-an-advanced-filter} 만들기
+## 고급 필터 만들기 {#creating-an-advanced-filter}
 
 **고급 필터**&#x200B;를 만들려면 다음 단계를 적용합니다.
 
@@ -168,12 +170,12 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
 고급 필터를 저장하여 나중에 사용할 수 있도록 유지할 수 있습니다. 이 유형의 필터에 대한 자세한 내용은 [필터 저장](#saving-a-filter)을 참조하십시오.
 
-### {#creating-an-advanced-filter-with-functions} 함수를 사용하여 고급 필터 만들기
+### 함수를 사용하여 고급 필터 만들기 {#creating-an-advanced-filter-with-functions}
 
-고급 필터는 함수를 사용할 수 있습니다.**함수**&#x200B;가 있는 필터는 데이터베이스 데이터 및 고급 함수를 사용하여 공식을 만들 수 있는 표현식 편집기를 통해 만들어집니다. 함수를 사용하여 필터를 만들려면 고급 필터 만들기 1단계, 2단계 및 3을 반복한 다음 다음 단계로 진행합니다.
+고급 필터는 함수를 사용할 수 있습니다. **함수**&#x200B;가 있는 필터는 데이터베이스 데이터 및 고급 함수를 사용하여 공식을 만들 수 있는 표현식 편집기를 통해 만들어집니다. 함수를 사용하여 필터를 만들려면 고급 필터 만들기 1단계, 2단계 및 3을 반복한 다음 다음 단계로 진행합니다.
 
 1. 필드 선택 창에서 **[!UICONTROL Advanced selection]** 을 클릭합니다.
-1. 사용할 공식 유형을 선택합니다.집계, 기존 사용자 필터 또는 표현식.
+1. 사용할 공식 유형을 선택합니다. 집계, 기존 사용자 필터 또는 표현식.
 
    ![](assets/s_ncs_user_filter_formula_select.png)
 
@@ -188,17 +190,17 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
       ![](assets/s_ncs_user_create_exp_exple01.png)
 
-      데이터베이스 테이블에서 필드를 선택하고 고급 함수를 데이터베이스 테이블에 첨부할 수 있습니다.**[!UICONTROL List of functions]**&#x200B;에서 사용할 함수를 선택합니다. 사용 가능한 함수는 [함수 목록에 자세히 설명되어 있습니다](../../platform/using/defining-filter-conditions.md#list-of-functions). 그런 다음 함수에 관련된 필드 또는 필드를 선택하고 **[!UICONTROL OK]** 을 클릭하여 표현식을 승인합니다.
+      데이터베이스 테이블에서 필드를 선택하고 고급 함수를 데이터베이스 테이블에 첨부할 수 있습니다. **[!UICONTROL List of functions]**&#x200B;에서 사용할 함수를 선택합니다. 사용 가능한 함수는 [함수 목록에 자세히 설명되어 있습니다](../../platform/using/defining-filter-conditions.md#list-of-functions). 그런 다음 함수에 관련된 필드 또는 필드를 선택하고 **[!UICONTROL OK]** 을 클릭하여 표현식을 승인합니다.
 
       >[!NOTE]
       >
       >식을 기반으로 하는 필터 만들기의 예는 [이 섹션](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is)을 참조하십시오.
 
-## 필터 {#saving-a-filter} 저장
+## 필터 저장 {#saving-a-filter}
 
 필터는 각 연산자별로 다르며 연산자가 클라이언트 콘솔의 캐시를 지울 때마다 다시 초기화됩니다.
 
-고급 필터를 저장하여 **응용 프로그램 필터**&#x200B;를 만들 수 있습니다.목록을 마우스 오른쪽 단추로 클릭하거나 목록 위에 있는 **[!UICONTROL Filters]** 버튼을 통해 다시 사용할 수 있습니다.
+고급 필터를 저장하여 **응용 프로그램 필터**&#x200B;를 만들 수 있습니다. 목록을 마우스 오른쪽 단추로 클릭하거나 목록 위에 있는 **[!UICONTROL Filters]** 버튼을 통해 다시 사용할 수 있습니다.
 
 게재 마법사의 타겟 선택 단계에서 게재 마법사를 통해 직접 이러한 필터에 액세스할 수도 있습니다(게재 만들기에 대한 자세한 내용은 [이 섹션](../../delivery/using/creating-an-email-delivery.md) 참조). 응용 프로그램 필터를 만들려면 다음을 수행할 수 있습니다.
 
@@ -218,7 +220,7 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
 ![](assets/s_ncs_user_filter_combination.png)
 
-## 받는 사람 필터링 {#filtering-recipients}
+## 수신자 필터링 {#filtering-recipients}
 
 사전 정의된 필터( [필터 저장](#saving-a-filter) 참조)를 사용하면 데이터베이스에 포함된 수신자의 프로필을 필터링할 수 있습니다. 트리의 **[!UICONTROL Profiles and Targets > Predefined filters]** 노드에서 필터를 편집할 수 있습니다. 필터는 작업 공간의 위쪽 섹션에 **[!UICONTROL Filters]** 버튼을 통해 나열됩니다.
 
@@ -359,12 +361,12 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
 **[!UICONTROL Settings]** 탭을 클릭하여 다음 옵션에 액세스합니다.
 
-* **[!UICONTROL Default filter for the associated document type]**:이 옵션을 사용하면 기본적으로 정렬 관련 목록 편집기에서 이 필터를 제안할 수 있습니다.
+* **[!UICONTROL Default filter for the associated document type]**: 이 옵션을 사용하면 기본적으로 정렬 관련 목록 편집기에서 이 필터를 제안할 수 있습니다.
 
    예를 들어 **[!UICONTROL By name or login]** 필터는 연산자에 적용됩니다. 이 옵션이 선택되어 있으므로 모든 연산자 목록에서 항상 필터를 제공합니다.
 
-* **[!UICONTROL Filter shared with other operators]**:이 옵션을 사용하면 현재 데이터베이스의 다른 모든 연산자가 필터를 사용할 수 있도록 만들 수 있습니다.
-* **[!UICONTROL Use parameter entry form]**:이 옵션을 사용하면 이 필터를 선택하면 목록 위에 표시할 필터 필드를 정의할 수 있습니다. 이러한 필드를 사용하면 필터 설정을 정의할 수 있습니다. 이 양식은 **[!UICONTROL Form]** 단추를 통해 XML 형식으로 입력해야 합니다. 예를 들어 수신자 목록에서 사용할 수 있는 사전 구성된 필터 **[!UICONTROL Recipients who have opened]**&#x200B;에는 필터가 겨냥하는 게재를 선택할 수 있는 필터 필드가 표시됩니다.
+* **[!UICONTROL Filter shared with other operators]**: 이 옵션을 사용하면 현재 데이터베이스의 다른 모든 연산자가 필터를 사용할 수 있도록 만들 수 있습니다.
+* **[!UICONTROL Use parameter entry form]**: 이 옵션을 사용하면 이 필터를 선택하면 목록 위에 표시할 필터 필드를 정의할 수 있습니다. 이러한 필드를 사용하면 필터 설정을 정의할 수 있습니다. 이 양식은 **[!UICONTROL Form]** 단추를 통해 XML 형식으로 입력해야 합니다. 예를 들어 수신자 목록에서 사용할 수 있는 사전 구성된 필터 **[!UICONTROL Recipients who have opened]**&#x200B;에는 필터가 겨냥하는 게재를 선택할 수 있는 필터 필드가 표시됩니다.
 
    **[!UICONTROL Preview]** 단추는 선택한 필터의 결과를 표시합니다.
 

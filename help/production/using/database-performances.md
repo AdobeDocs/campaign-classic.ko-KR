@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # 데이터베이스 성능{#database-performances}
+
+![](../../assets/v7-only.svg)
 
 대부분의 성능 문제는 데이터베이스 유지 관리와 관련되어 있습니다. 다음은 성능 저하 원인을 찾는 데 도움이 되는 네 가지 주요 리드입니다.
 
@@ -58,7 +60,7 @@ ht-degree: 8%
 
 작업 테이블의 수와 크기를 확인하십시오. 특정 크기를 초과하면 데이터베이스 성능이 영향을 받습니다. 이 표는 워크플로우 및 게재로 만들어집니다. 워크플로우 및 게재가 활성화된 동안 데이터베이스에 남아 있습니다. 작업 테이블 크기를 제한하려면 다음 작업을 수행할 수 있습니다.
 
-* 다음 상태로 게재를 중지하거나 삭제합니다.**[!UICONTROL Failed]**, **[!UICONTROL In progress]**, **[!UICONTROL Ready for delivery]** 또는 **[!UICONTROL Paused]**.
+* 다음 상태로 게재를 중지하거나 삭제합니다. **[!UICONTROL Failed]**, **[!UICONTROL In progress]**, **[!UICONTROL Ready for delivery]** 또는 **[!UICONTROL Paused]**.
 * 오류로 인해 일시 중지된 워크플로우를 중지하거나 삭제합니다.
 * **[!UICONTROL End]** 활동을 포함하지 않고 그 상태가 **[!UICONTROL Paused]**&#x200B;로 남아 있는 테스트에 사용되는 모든 워크플로우를 중지합니다.
 

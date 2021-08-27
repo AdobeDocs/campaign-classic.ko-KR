@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 개인화된 쿠폰{#personalized-coupons}
+
+![](../../assets/v7-only.svg)
 
 게재 시 쿠폰을 추가하면 수신자가 제품 및 서비스에 대해 향상된 가치를 제공할 수 있습니다. 캠페인 쿠폰 모듈을 사용하여 예정된 마케팅 오퍼에 추가할 쿠폰 세트를 만들 수 있습니다. 게재를 만들 준비가 되면 적용 가능한 쿠폰을 할당합니다. 쿠폰은 선택한 기간에 대해 유효하므로 지정된 쿠폰은 배달 메시지에 고유하게 연결됩니다. 또한 Campaign은 게재가 전송되기 전에 메시지 수에 대한 쿠폰이 충분한지 확인합니다.
 
@@ -27,8 +29,8 @@ ht-degree: 1%
 
 쿠폰 모듈은 쿠폰을 만들 때 두 가지 옵션을 제공합니다.
 
-* **익명**:일부 수신자 또는 수신자 목록을 위한 일반 쿠폰입니다.
-* **개인**:일부 수신자를 위한 개인화된 쿠폰입니다.
+* **익명**: 일부 수신자 또는 수신자 목록을 위한 일반 쿠폰입니다.
+* **개인**: 일부 수신자를 위한 개인화된 쿠폰입니다.
 
 아래 단계를 수행하기 전에 만들 쿠폰 유형을 알고 있는지 확인하십시오.
 
@@ -44,9 +46,9 @@ ht-degree: 1%
 1. 쿠폰이 유효한 기간을 설정하려면 **[!UICONTROL Start date]** 및 **[!UICONTROL End date]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Coupon type]**&#x200B;에서 익명 또는 개인을 선택합니다.
 
-   **[!UICONTROL Anonymous coupons]** :익명 쿠폰은 모든 수신자에게 동일합니다. **쿠폰 유형** 메뉴에서 익명 을 선택했는지 확인하고 **저장**&#x200B;을 클릭하여 쿠폰을 생성합니다.
+   **[!UICONTROL Anonymous coupons]** : 익명 쿠폰은 모든 수신자에게 동일합니다. **쿠폰 유형** 메뉴에서 익명 을 선택했는지 확인하고 **저장**&#x200B;을 클릭하여 쿠폰을 생성합니다.
 
-   **[!UICONTROL Individual coupons]** :개별 쿠폰은 추가 쿠폰 코드를 사용하여 추가로 개인화할 수 있습니다. 예를 들어, 스포츠 장비 스토어에서 판매용으로 개별 쿠폰이 만들어집니다. 그러나 받는 사람 명단은 길고 한 종목에 대해서도 같은 열정을 갖고 있지 않다. 스포츠(예: 축구, 축구, 야구 등)를 기반으로 개별 쿠폰에 대한 코드 이름을 추가할 수 있습니다. 각 코드를 해당 수신자에게 전송합니다.
+   **[!UICONTROL Individual coupons]** : 개별 쿠폰은 추가 쿠폰 코드를 사용하여 추가로 개인화할 수 있습니다. 예를 들어, 스포츠 장비 스토어에서 판매용으로 개별 쿠폰이 만들어집니다. 그러나 받는 사람 명단은 길고 한 종목에 대해서도 같은 열정을 갖고 있지 않다. 스포츠(예: 축구, 축구, 야구 등)를 기반으로 개별 쿠폰에 대한 코드 이름을 추가할 수 있습니다. 각 코드를 해당 수신자에게 전송합니다.
 
    1. 개인 을 선택하면 왼쪽 아래에 새 탭인 쿠폰이 나타납니다. **[!UICONTROL Coupons]** 탭으로 이동하여 **[!UICONTROL Add]** 를 클릭합니다.
    1. 팝업 창에서 메시지가 표시되면 개별 쿠폰에 대한 고유 코드를 입력합니다.
@@ -64,10 +66,10 @@ ht-degree: 1%
 
 쿠폰 탭은 개별 쿠폰에서만 사용할 수 있습니다. 쿠폰이 게재와 연결되면 쿠폰 탭에서는 다음 세부 정보를 제공합니다.
 
-* **[!UICONTROL Status]** :쿠폰 사용 가능.
-* **[!UICONTROL Redeemed on]** :쿠폰이 상환된 날짜입니다.
-* **[!UICONTROL Channel]** :쿠폰을 보내는 데 사용된 채널입니다.
-* **[!UICONTROL Address]** :수신자의 이메일 주소입니다.
+* **[!UICONTROL Status]** : 쿠폰 사용 가능.
+* **[!UICONTROL Redeemed on]** : 쿠폰이 상환된 날짜입니다.
+* **[!UICONTROL Channel]** : 쿠폰을 보내는 데 사용된 채널입니다.
+* **[!UICONTROL Address]** : 수신자의 이메일 주소입니다.
 
 **[!UICONTROL status]**, **[!UICONTROL channel]** 및 **[!UICONTROL address]** 값이 자동으로 완료됩니다. 그러나 **[!UICONTROL redeemed on]** 값은 Campaign에서 복구되지 않습니다. 쿠폰 상환에 대한 세부 정보가 있는 파일을 가져와서 완료할 수 있습니다.
 
@@ -76,7 +78,7 @@ ht-degree: 1%
 아래 예에서는 게재가 홈 페이지에서 만들어집니다. 게재를 만드는 방법에 대한 자세한 지침은 [이 섹션](about-email-channel.md)을 참조하십시오. 워크플로우에서 게재에 쿠폰을 추가할 수도 있습니다.
 
 1. **[!UICONTROL Campaigns]**(으)로 이동하고 **[!UICONTROL Deliveries]** 을 선택합니다.
-1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Create]**&#x200B;를 클릭합니다.
 
    ![](assets/deliv_coup_04.png)
 
@@ -105,11 +107,11 @@ ht-degree: 1%
 
 1. 쿠폰 유형을 기준으로 다음 중 하나를 선택하려면 개인화 아이콘을 클릭합니다.
 
-   * 익명 쿠폰:**[!UICONTROL Coupon > Coupon code]**
+   * 익명 쿠폰: **[!UICONTROL Coupon > Coupon code]**
 
       ![](assets/deliv_coup_10.png)
 
-   * 개별 쿠폰:**[!UICONTROL Coupon value > Coupon code]**
+   * 개별 쿠폰: **[!UICONTROL Coupon value > Coupon code]**
 
       ![](assets/deliv_coup_11.png)
 
@@ -154,7 +156,7 @@ ht-degree: 1%
 메시지보다 쿠폰이 적은 경우 게재 분석이 중지됩니다. 이러한 경우 쿠폰을 더 많이 가져오거나 메시지 수를 제한할 수 있습니다. 메시지 수를 제한하려면 아래 지침을 따르십시오.
 
 1. 전자 메일 게재 창으로 이동합니다.
-1. **[!UICONTROL To]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL To]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL Select target]**&#x200B;에서 **[!UICONTROL Exclusions]** 탭으로 이동합니다.
 
    ![](assets/deliv_coup_18.png)

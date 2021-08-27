@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 게재 보고서 기본 정보{#reports-on-deliveries}
+
+![](../../assets/common.svg)
 
 Adobe Campaign은 고객 콘솔 또는 인터넷 브라우저를 통해 액세스할 수 있는 몇 가지 유형의 보고서를 제공합니다.
 

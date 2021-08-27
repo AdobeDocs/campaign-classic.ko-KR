@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 활용 사례: 콘텐츠 관리 만들기{#use-case-creating-content-management}
+
+![](../../assets/common.svg)
 
 Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합니다.
 
@@ -26,7 +28,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 
 ## 1단계 - 생성할 컨텐츠 분석 {#step-1---analyzing-the-content-to-be-produced}
 
-시작하기 전에 제작할 컨텐츠를 정확하게 분석해야 합니다.표시할 요소를 식별하고, 요소에 연결된 제약 조건을 학습하고, 각 요소에 대한 유형을 정의하는 등의 작업을 수행합니다. 정적 요소와 변수 요소를 구분해야 합니다.
+시작하기 전에 제작할 컨텐츠를 정확하게 분석해야 합니다. 표시할 요소를 식별하고, 요소에 연결된 제약 조건을 학습하고, 각 요소에 대한 유형을 정의하는 등의 작업을 수행합니다. 정적 요소와 변수 요소를 구분해야 합니다.
 
 예를 들어 다음 유형의 컨텐츠가 있는 HTML의 뉴스레터를 만들려면
 
@@ -48,7 +50,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 
 이 뉴스레터의 다양한 요소는 삽입할 모든 요소를 참조하고 해당 레이아웃을 개념화하는 JavaScript 템플릿에 정의된 규칙을 기반으로 합니다.
 
-이러한 요소는 각 컨텐츠에 대해 다음 요소를 지정하는 전용 스키마를 통해 만들어집니다.이름, 레이블, 유형, 크기 및 Adobe Campaign의 처리와 관련된 기타 모든 정보입니다.
+이러한 요소는 각 컨텐츠에 대해 다음 요소를 지정하는 전용 스키마를 통해 만들어집니다. 이름, 레이블, 유형, 크기 및 Adobe Campaign의 처리와 관련된 기타 모든 정보입니다.
 
 ## 2단계 - 데이터 스키마 만들기 {#step-2---creating-the-data-schema}
 
@@ -324,7 +326,7 @@ Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 �
    </html>
    ```
 
-   템플릿 시작 시 함수를 호출하면 Adobe Campaign 데이터베이스에서 가져온 개인화 데이터에 대한 호출을 설정할 수 있습니다(이 경우:recipient.firstName 및 recipient.lastName)으로 설정되므로 게재에 사용할 때 해석할 수 있습니다. 자세한 내용은 [JavaScript 템플릿 포함](formatting.md#including-a-javascript-template)을 참조하십시오.
+   템플릿 시작 시 함수를 호출하면 Adobe Campaign 데이터베이스에서 가져온 개인화 데이터에 대한 호출을 설정할 수 있습니다(이 경우: recipient.firstName 및 recipient.lastName)으로 설정되므로 게재에 사용할 때 해석할 수 있습니다. 자세한 내용은 [JavaScript 템플릿 포함](formatting.md#including-a-javascript-template)을 참조하십시오.
 
    이 예제에서 함수에는 다음 코드가 포함됩니다.
 

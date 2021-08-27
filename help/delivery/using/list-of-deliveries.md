@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 10%
@@ -14,6 +14,8 @@ ht-degree: 10%
 ---
 
 # 게재 목록 액세스 {#list-of-deliveries}
+
+![](../../assets/common.svg)
 
 트리의 **[!UICONTROL Campaign Management > Deliveries]** 노드를 통해 게재 목록에서 게재에 액세스할 수 있습니다.
 

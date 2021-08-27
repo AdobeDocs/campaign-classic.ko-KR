@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -15,7 +15,9 @@ ht-degree: 1%
 
 # 활용 사례: 웹 양식{#use-cases-web-forms}
 
-## 이중 옵트인 {#create-a-subscription--form-with-double-opt-in} 을 사용하여 구독 양식을 만듭니다.
+![](../../assets/common.svg)
+
+## 이중 옵트인으로 구독 양식 만들기 {#create-a-subscription--form-with-double-opt-in}
 
 정보 서비스를 제공하는 경우 수신자는 연결된 모든 커뮤니케이션을 수신하기 위해 가입해야 합니다. 부적절한 통신을 방지하고 수신자가 의도적으로 구독했는지 확인하려면 구독 확인 요청을 보내 이중 옵트인을 만드는 것이 좋습니다. 구독은 사용자가 확인 메시지에 포함된 링크를 클릭해야 적용됩니다.
 
@@ -149,7 +151,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_7b.png)
 
-### 4단계 - 양식 {#step-4---publishing-and-testing-the-form} 게시 및 테스트
+### 4단계 - 양식 게시 및 테스트 {#step-4---publishing-and-testing-the-form}
 
 이제 양식을 게시하여 사용자가 액세스할 수 있도록 할 수 있습니다.
 
@@ -184,7 +186,7 @@ ht-degree: 1%
 
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
 
-## 선택한 값 {#displaying-different-options-depending-on-the-selected-values}에 따라 다른 옵션을 표시합니다
+## 선택한 값에 따라 다른 옵션 표시 {#displaying-different-options-depending-on-the-selected-values}
 
 다음 예에서는 사용자에게 차량 유형을 선택하라는 메시지가 표시됩니다. 선택한 유형에 따라 사용 가능한 차량 범주를 표시할 수 있습니다. 즉, 오른쪽 열에 표시되는 항목은 사용자의 선택에 따라 다릅니다.
 

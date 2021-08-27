@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 대상 매핑{#target-mapping}
+
+![](../../assets/v7-only.svg)
 
 다음 두 가지 경우 대상 매핑 작성이 필요합니다.
 
@@ -22,17 +24,17 @@ ht-degree: 1%
 
 대상 매핑 생성 마법사는 사용자 지정 테이블을 사용하는 데 필요한 모든 스키마를 만드는 데 도움이 됩니다.
 
-## 사용자 지정 테이블 {#creating-and-configuring-schemas-linked-to-the-custom-table}에 연결된 스키마 만들기 및 구성
+## 사용자 지정 테이블에 연결된 스키마 만들기 및 구성 {#creating-and-configuring-schemas-linked-to-the-custom-table}
 
 대상 매핑을 만들기 전에 Adobe Campaign이 새 수신자 데이터 스키마로 작동하려면 몇 가지 구성이 필요합니다.
 
-이렇게 하려면 다음 단계를 적용합니다.
+그렇게 하려면 다음 단계를 적용합니다.
 
 1. 사용하려는 사용자 지정 테이블의 필드를 통합하는 새 데이터 스키마를 만듭니다.
 
    자세한 내용은 [스키마 참조(xtk:srcSchema)](../../configuration/using/about-schema-reference.md)를 참조하십시오.
 
-   이 예제에서는 다음 필드를 포함하는 매우 간단한 테이블인 고객 스키마를 만듭니다.ID, 이름, 성, 이메일 주소, 휴대폰 번호. 목적은 이 표에 저장된 개인에게 전자 메일 또는 SMS 경고를 보낼 수 있도록 하는 것입니다.
+   이 예제에서는 다음 필드를 포함하는 매우 간단한 테이블인 고객 스키마를 만듭니다. ID, 이름, 성, 이메일 주소, 휴대폰 번호. 목적은 이 표에 저장된 개인에게 전자 메일 또는 SMS 경고를 보낼 수 있도록 하는 것입니다.
 
    예제 스키마(cus:individual)
 

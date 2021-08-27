@@ -2,18 +2,20 @@
 product: campaign
 title: 최신 릴리스
 description: 최신 Campaign Classic 릴리스 정보
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: c59529a0a4d72ecb795569591d62a68f030a0ac7
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1950'
 ht-degree: 99%
 
 ---
 
 # 최신 릴리스{#latest-release}
+
+![](../../assets/v7-only.svg)
 
 이 페이지에는 **최신 Campaign Classic 릴리스**&#x200B;에 포함된 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다.
 
@@ -115,7 +117,7 @@ _2021년 6월 5일_
 **사용되지 않는 기능**
 
 * Campaign 21.1 릴리스부터 Adobe Analytics 데이터 커넥터는 사용 중단됩니다. 이 커넥터를 사용하는 경우 새로운 커넥터인 Adobe Analytics 커넥터에 맞게 구현을 조정해야 합니다.
-자세한 내용은 [세부 설명서](../../technotes/aa-connector-migration.md)를 참조하십시오.
+자세한 내용은 [세부 설명서](../../technotes/using/aa-connector-migration.md)를 참조하십시오.
 * Debian 8에 대한 지원은 이제 중단되었습니다.
 * 20.3에서 Oracle CRM의 사용 중단 이후, 관련 외부 계정이 인터페이스에서 제거되었습니다.
 

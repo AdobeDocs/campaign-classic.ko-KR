@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 데이터 스키마{#data-schemas}
+
+![](../../assets/v7-only.svg)
 
 ## 원칙 {#principles}
 
@@ -43,7 +45,7 @@ ht-degree: 1%
 
 스키마의 전체 구조를 확인해야 하는 경우 미리 보기 탭을 사용할 수 있습니다. 스키마가 확장되면 모든 확장을 시각화할 수 있습니다. 설명서 탭에는 모든 스키마 속성 및 요소와 속성(SQL 필드, 유형/길이, 레이블, 설명)이 표시됩니다. 설명서 탭은 생성된 스키마에만 적용됩니다. 자세한 내용은 [스키마 다시 생성](../../configuration/using/regenerating-schemas.md) 섹션을 참조하십시오.
 
-## 예:계약 테이블 만들기 {#example--creating-a-contract-table}
+## 예: 계약 테이블 생성 {#example--creating-a-contract-table}
 
 다음 예제에서는 Adobe Campaign 데이터베이스의 데이터베이스 모델에서 **contracts**&#x200B;에 대한 새 테이블을 만들려고 합니다. 이 테이블을 사용하면 각 계약에 대해 소유자 및 공동 소유자의 이름과 전자 메일 주소를 저장할 수 있습니다.
 

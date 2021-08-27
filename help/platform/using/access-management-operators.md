@@ -2,18 +2,20 @@
 product: campaign
 title: Campaign 운영자 시작
 description: Campaign 사용자를 만들고 관리하는 방법을 알아봅니다
-feature: 액세스 관리
+feature: Access Management
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1146'
 ht-degree: 2%
 
 ---
 
 # 운영자 만들기 및 관리 {#operators}
+
+![](../../assets/common.svg)
 
 ## Campaign 운영자 시작  {#about-operators}
 
@@ -45,7 +47,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 1. 사용자의 **[!UICONTROL Identification parameters]** 지정: 로그인, 암호 및 이름입니다. 연산자가 Adobe Campaign에 로그온하는 데 로그인 및 암호를 사용합니다. 사용자가 로그온하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 예를 들어 승인 처리 시 연산자가 알림을 받을 수 있으므로 연산자의 이메일이 필수입니다.
 
-   또한 이 섹션에서는 연산자를 조직 엔터티에 연결할 수도 있습니다. 자세한 내용은 [이 페이지](../../campaign/using/about-distributed-marketing.md)를 참조하십시오.
+   또한 이 섹션에서는 연산자를 조직 엔터티에 연결할 수도 있습니다. 자세한 내용은 [이 페이지](../../distributed/using/about-distributed-marketing.md)를 참조하십시오.
 
 1. **[!UICONTROL Operator access rights]** 섹션에서 연산자에 부여된 권한을 선택합니다.
 

@@ -6,7 +6,7 @@ description: FDA에서 Google BigQuery에 대한 액세스를 구성하는 방�
 audience: platform
 content-type: reference
 topic-tags: connectors
-source-git-commit: 911302475b5ece96d527575148ee611fdb839753
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
@@ -14,7 +14,9 @@ ht-degree: 2%
 ---
 
 
-# Google BigQuery {#configure-fda-google-big-query} 액세스 구성
+# Google BigQuery에 대한 액세스 구성 {#configure-fda-google-big-query}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign Classic **Federated Data Access** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 [!DNL Google BigQuery]에 대한 액세스를 구성하십시오.
 
@@ -28,9 +30,9 @@ Adobe Campaign Classic **Federated Data Access** (FDA) 옵션을 사용하여 �
 
 ![](assets/snowflake_3.png)
 
-## Windows {#google-windows}의 Google BigQuery
+## Windows의 Google BigQuery {#google-windows}
 
-### Windows {#driver-window}에서 설정된 드라이버
+### Windows에서 드라이버 설정 {#driver-window}
 
 1. Windows용 [ODBC 드라이버를 다운로드합니다](https://cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers).
 
@@ -38,25 +40,25 @@ Adobe Campaign Classic **Federated Data Access** (FDA) 옵션을 사용하여 �
 
 1. [!DNL Google BigQuery] 커넥터가 작동하려면 Adobe Campaign Classic에서 연결할 다음 매개 변수가 필요합니다.
 
-   * **[!UICONTROL Project]**:기존 프로젝트를 만들거나 사용합니다.
+   * **[!UICONTROL Project]**: 기존 프로젝트를 만들거나 사용합니다.
 
       자세한 내용은 이 [page](https://cloud.google.com/resource-manager/docs/creating-managing-projects)을 참조하십시오.
 
-   * **[!UICONTROL Service account]**:서비스 계정을 만듭니다.
+   * **[!UICONTROL Service account]**: 서비스 계정을 만듭니다.
 
       자세한 내용은 이 [page](https://cloud.google.com/iam/docs/creating-managing-service-accounts)을 참조하십시오.
 
-   * **[!UICONTROL Key File Path]**:ODBC **[!UICONTROL Service account]** 를  **[!UICONTROL Key File]** 통해  [!DNL Google BigQuery] 연결하려면 가 필요합니다.
+   * **[!UICONTROL Key File Path]**: ODBC **[!UICONTROL Service account]** 를  **[!UICONTROL Key File]** 통해  [!DNL Google BigQuery] 연결하려면 가 필요합니다.
 
       자세한 내용은 이 [page](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)을 참조하십시오.
 
-   * **[!UICONTROL Dataset]**: **[!UICONTROL Dataset]** 은 ODBC 연결에 선택 사항입니다. 모든 쿼리는 테이블이 있는 데이터 세트를 제공해야 하므로 Adobe Campaign Classic의 [!DNL Google BigQuery] FDA 커넥터에 **[!UICONTROL Dataset]**&#x200B;을(를) 지정해야 합니다.
+   * **[!UICONTROL Dataset]**:  **[!UICONTROL Dataset]** 은 ODBC 연결에 선택 사항입니다. 모든 쿼리는 테이블이 있는 데이터 세트를 제공해야 하므로 Adobe Campaign Classic의 [!DNL Google BigQuery] FDA 커넥터에 **[!UICONTROL Dataset]**&#x200B;을(를) 지정해야 합니다.
 
       자세한 내용은 이 [page](https://cloud.google.com/bigquery/docs/datasets)을 참조하십시오.
 
 1. 그런 다음 Adobe Campaign Classic에서 [!DNL Google BigQuery] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#google-external)을 참조하십시오.
 
-### Windows {#bulk-load-window}에서 벌크 로드 설정
+### Windows에서 벌크 로드 설정 {#bulk-load-window}
 
 >[!NOTE]
 >
@@ -82,7 +84,7 @@ Adobe Campaign Classic **Federated Data Access** (FDA) 옵션을 사용하여 �
 
 ## Linux의 Google BigQuery {#google-linux}
 
-### Linux {#driver-linux}에 설정된 드라이버
+### Linux에서 드라이버 설정 {#driver-linux}
 
 1. ODBC 드라이버를 설치하기 전에 시스템을 업데이트해야 합니다. Linux 또는 CentOS에서 다음 명령을 실행합니다.
 
@@ -204,7 +206,7 @@ Adobe Campaign Classic **Federated Data Access** (FDA) 옵션을 사용하여 �
 
 1. 그런 다음 Adobe Campaign Classic에서 [!DNL Google BigQuery] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#google-external)을 참조하십시오.
 
-### Linux {#bulk-load-linux}에서 벌크 로드 설정
+### Linux에서 벌크 로드 설정 {#bulk-load-linux}
 
 >[!NOTE]
 >
@@ -230,7 +232,7 @@ Adobe Campaign Classic 인스턴스를 [!DNL Google BigQuery] 외부 데이터�
 
 1. Adobe Campaign Classic **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]**&#39; **[!UICONTROL External accounts]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
 1. 외부 계정의 **[!UICONTROL Type]**(으)로 **[!UICONTROL External database]**&#x200B;을(를) 선택합니다.
 
@@ -238,13 +240,13 @@ Adobe Campaign Classic 인스턴스를 [!DNL Google BigQuery] 외부 데이터�
 
    * **[!UICONTROL Type]**: [!DNL Google BigQuery]
 
-   * **[!UICONTROL Service account]**:이메일  **[!UICONTROL Service account]**. 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/iam/docs/creating-managing-service-accounts)를 참조하십시오.
+   * **[!UICONTROL Service account]**: 이메일  **[!UICONTROL Service account]**. 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/iam/docs/creating-managing-service-accounts)를 참조하십시오.
 
-   * **[!UICONTROL Project]**:사용자  **[!UICONTROL Project]**&#x200B;이름. 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects)를 참조하십시오.
+   * **[!UICONTROL Project]**: 사용자  **[!UICONTROL Project]**&#x200B;이름. 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects)를 참조하십시오.
 
    * **[!UICONTROL Key file Path]**:
-      * **[!UICONTROL Upload key file to the server]**:Adobe Campaign Classic을 통해 키를 업로드하도록 선택하는  **[!UICONTROL Click here to upload]** 경우 을(를) 선택합니다.
+      * **[!UICONTROL Upload key file to the server]**: Adobe Campaign Classic을 통해 키를 업로드하도록 선택하는  **[!UICONTROL Click here to upload]** 경우 을(를) 선택합니다.
 
-      * **[!UICONTROL Enter manually the key file path]**:기존 키를 사용하도록 선택하는 경우 이 필드에 절대 경로를 복사/붙여넣으십시오.
-   * **[!UICONTROL Dataset]**:사용자  **[!UICONTROL Dataset]**&#x200B;이름. 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/bigquery/docs/datasets-intro)를 참조하십시오.
+      * **[!UICONTROL Enter manually the key file path]**: 기존 키를 사용하도록 선택하는 경우 이 필드에 절대 경로를 복사/붙여넣으십시오.
+   * **[!UICONTROL Dataset]**: 사용자  **[!UICONTROL Dataset]**&#x200B;이름. 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/bigquery/docs/datasets-intro)를 참조하십시오.
    ![](assets/google-big-query.png)

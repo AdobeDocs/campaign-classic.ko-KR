@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # Campaign 템플릿 만들기 및 구성 {#campaign-templates}
+
+![](../../assets/common.svg)
 
 모든 마케팅 캠페인은 주요 특성 및 기능을 저장하는 템플릿을 기반으로 합니다. 캠페인 템플릿이 **[!UICONTROL Resources > Templates > Campaign templates]** 노드에서 중앙 집중화되었습니다. 기본 템플릿이 표준으로 제공됩니다. 사용 가능한 모든 모듈(문서, 작업, 시드 주소 등)을 사용하여 새 캠페인을 만들 수 있지만 제공된 모듈은 Adobe Campaign 플랫폼의 권한 및 구성에 따라 다릅니다.
 
@@ -27,7 +29,7 @@ ht-degree: 3%
 
 ![](assets/do-not-localize/how-to-video.png) 캠페인 만들기에 대한 자세한 정보는  [이 비디오](../../campaign/using/marketing-campaign-deliveries.md#create-email-video)를 참조하십시오.
 
-## 캠페인 템플릿 {#creating-or-duplicating-a-campaign-template} 만들기
+## 캠페인 템플릿 만들기 {#creating-or-duplicating-a-campaign-template}
 
 캠페인 템플릿을 만들려면 아래 단계를 수행하십시오.
 
@@ -61,7 +63,7 @@ ht-degree: 3%
 
 ![](assets/s_ncs_user_new_op_template_duplicate.png)
 
-## 모듈 {#select-modules} 선택
+## 모듈 선택 {#select-modules}
 
 **[!UICONTROL Advanced campaign settings...]** 링크를 사용하면 이 템플릿을 기반으로 캠페인에 대한 작업을 활성화 및 비활성화할 수 있습니다. 이 템플릿을 기반으로 만든 캠페인에서 활성화할 기능을 선택합니다.
 
@@ -91,7 +93,7 @@ ht-degree: 3%
 
 ![](assets/s_ncs_user_op_template_tab2.3ex.png)
 
-## 모듈 유형 {#typology-of-enabled-modules}
+## 모듈 유형화 {#typology-of-enabled-modules}
 
 * **컨트롤 그룹**
 
@@ -151,19 +153,19 @@ ht-degree: 3%
 
 캠페인 템플릿을 만들 때 다음 정보를 입력해야 합니다.
 
-* 템플릿의 **레이블**&#x200B;을 입력합니다.이 레이블은 기본적으로 이 템플릿을 통해 만든 모든 캠페인에 할당됩니다.
+* 템플릿의 **레이블**&#x200B;을 입력합니다. 이 레이블은 기본적으로 이 템플릿을 통해 만든 모든 캠페인에 할당됩니다.
 * 드롭다운 목록에서 캠페인 **자연**&#x200B;을 선택합니다. 이 목록에서 사용할 수 있는 값은 **[!UICONTROL natureOp]** 열거형에 저장된 값입니다.
 
    >[!NOTE]
    >
    >열거형에 대한 자세한 내용은 [시작하기](../../platform/using/managing-enumerations.md) 섹션을 참조하십시오.
 
-* 캠페인&#x200B;**의**&#x200B;유형을 선택합니다.고유, 반복 또는 주기적. 기본적으로 캠페인 템플릿은 고유한 캠페인에 적용됩니다. 반복 및 주기적 캠페인은 [이 섹션에 자세히 설명되어 있습니다.](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns)
+* 캠페인&#x200B;**의**&#x200B;유형을 선택합니다. 고유, 반복 또는 주기적. 기본적으로 캠페인 템플릿은 고유한 캠페인에 적용됩니다. 반복 및 주기적 캠페인은 [이 섹션에 자세히 설명되어 있습니다.](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns)
 * 캠페인 기간(즉, 캠페인이 발생하는 일 수)을 지정합니다. 이 템플릿을 기반으로 캠페인을 만들 때 캠페인 시작 및 종료 날짜가 자동으로 채워집니다.
 
    캠페인이 반복되는 경우 템플릿에서 직접 캠페인 시작 및 종료 날짜를 지정해야 합니다.
 
-* 템플릿의 **관련 프로그램**&#x200B;을 지정하십시오.이 템플릿을 기반으로 하는 캠페인은 선택한 프로그램에 연결됩니다.
+* 템플릿의 **관련 프로그램**&#x200B;을 지정하십시오. 이 템플릿을 기반으로 하는 캠페인은 선택한 프로그램에 연결됩니다.
 
 ### 템플릿 실행 매개 변수 {#template-execution-parameters}
 
@@ -175,7 +177,7 @@ ht-degree: 3%
 
 예를 들어 특정 날짜에 대한 이벤트 일정을 준비하기 위해 캠페인 일정을 만들고 성과를 추적할 수 있습니다. 이제 캠페인 템플릿을 사용하여 캠페인의 종료 날짜를 기반으로 작업 시작 날짜를 계산할 수 있습니다.
 
-작업 구성 상자에서 **[!UICONTROL Implementation schedule]** 영역으로 이동하여 **[!UICONTROL The start date is calculated based on the campaign end date]** 상자를 선택합니다. (여기서 &quot;시작 날짜&quot;는 작업 시작 날짜입니다.) **[!UICONTROL Start]** 필드로 이동하고 간격을 입력합니다.작업은 캠페인 종료 날짜 훨씬 전에 시작됩니다. 캠페인이 마지막으로 설정되는 기간보다 긴 기간을 입력하는 경우 작업이 캠페인 전에 시작됩니다.
+작업 구성 상자에서 **[!UICONTROL Implementation schedule]** 영역으로 이동하여 **[!UICONTROL The start date is calculated based on the campaign end date]** 상자를 선택합니다. (여기서 &quot;시작 날짜&quot;는 작업 시작 날짜입니다.) **[!UICONTROL Start]** 필드로 이동하고 간격을 입력합니다. 작업은 캠페인 종료 날짜 훨씬 전에 시작됩니다. 캠페인이 마지막으로 설정되는 기간보다 긴 기간을 입력하는 경우 작업이 캠페인 전에 시작됩니다.
 
 ![](assets/mrm_task_in_template_start_date.png)
 

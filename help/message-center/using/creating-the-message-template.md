@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 트랜잭션 메시지 템플릿 디자인 {#creating-the-message-template}
+
+![](../../assets/v7-only.svg)
 
 각 이벤트를 개인화된 메시지로 변경하려면 각 이벤트 유형에 맞게 메시지 템플릿을 만들어야 합니다.
 
@@ -51,7 +53,7 @@ ht-degree: 0%
 
    ![](assets/messagecenter_create_model_004.png)
 
-## 메시지 콘텐츠 {#creating-message-content} 만들기
+## 메시지 콘텐츠 만들기 {#creating-message-content}
 
 트랜잭션 메시지 콘텐츠의 정의는 Adobe Campaign의 일반 게재와 동일합니다. 예를 들어 이메일 게재의 경우 HTML 또는 텍스트 형식으로 콘텐츠를 만들거나 첨부 파일을 추가하거나 게재 개체를 개인화할 수 있습니다. 자세한 내용은 [전자 메일 배달](../../delivery/using/about-email-channel.md) 장을 참조하십시오.
 
@@ -79,7 +81,7 @@ ht-degree: 0%
 
    ![](assets/messagecenter_create_custo_002.png)
 
-1. 다음 구문을 사용하여 태그를 채웁니다.**요소 이름**.@**특성 이름**&#x200B;은 아래와 같이 표시됩니다.
+1. 다음 구문을 사용하여 태그를 채웁니다. **요소 이름**.@**특성 이름**&#x200B;은 아래와 같이 표시됩니다.
 
    ![](assets/messagecenter_create_custo_003.png)
 

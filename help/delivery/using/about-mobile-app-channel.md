@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 1da8b954f1ed8b3e1433b920149e968cb89a97c5
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 모바일 앱 채널 시작{#about-mobile-app-channel}
+
+![](../../assets/common.svg)
 
 **모바일 앱 채널**&#x200B;을 사용하면 Adobe Campaign 플랫폼을 사용하여 앱을 통해 iOS 및 Android 단말기로 개인화된 푸시 알림을 전송할 수 있습니다.
 
@@ -48,7 +50,7 @@ ht-degree: 1%
 >[!CAUTION]
 >
 >* 모바일 애플리케이션에 전송되는 알림이 Apple(Apple Push Notification Service) 및 Google(Firebase Cloud Messaging)에서 지정한 사전 요구 사항 및 조건을 준수하는지 확인해야 합니다.
->* 경고:일부 국가에서는 수집된 데이터 유형 모바일 애플리케이션 및 처리 목적을 사용자에게 알려야 합니다. 입법을 확인해야 합니다.
+>* 경고: 일부 국가에서는 수집된 데이터 유형 모바일 애플리케이션 및 처리 목적을 사용자에게 알려야 합니다. 입법을 확인해야 합니다.
 
 
 **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) 워크플로우는 모바일 장치의 알림 구독 취소를 업데이트합니다. 이 워크플로우에 대한 자세한 내용은 [기술 워크플로우 목록](../../workflow/using/about-technical-workflows.md)을 참조하십시오.
@@ -62,25 +64,25 @@ Adobe Campaign은 HTTP/2 APNs와 호환됩니다. 구성 단계에 대한 자세
 다음 스키마에서는 모바일 애플리케이션에서 Adobe Campaign과 데이터를 교환할 수 있도록 하는 단계를 자세히 설명합니다. 이 프로세스에는 다음의 세 가지 엔티티가 포함됩니다.
 
 * 모바일 애플리케이션
-* 알림 서비스:Apple 및 Android용 FCM(Firebase Cloud Messaging)용 APNs(Apple Push Notification Service)
+* 알림 서비스: Apple 및 Android용 FCM(Firebase Cloud Messaging)용 APNs(Apple Push Notification Service)
 * Adobe Campaign
 
-알림 프로세스의 세 가지 주요 단계는 다음과 같습니다.Adobe Campaign(구독 수집), 게재 및 추적에서 애플리케이션 등록.
+알림 프로세스의 세 가지 주요 단계는 다음과 같습니다. Adobe Campaign(구독 수집), 게재 및 추적에서 애플리케이션 등록.
 
-### 1단계:구독 컬렉션 {#step-1--subscription-collection}
+### 1단계: 구독 컬렉션 {#step-1--subscription-collection}
 
-모바일 애플리케이션은 App Store 또는 Google Play에서 사용자가 다운로드합니다. 이 응용 프로그램에는 연결 설정(Android용 iOS 인증서 및 프로젝트 키) 및 통합 키가 포함되어 있습니다. 응용 프로그램을 처음 열 때(구성에 따라) 사용자에게 등록 정보를 입력하라는 메시지가 표시됩니다(@userKey:예를 들어 이메일 또는 계정 번호입니다.) 동시에 애플리케이션은 알림 ID(푸시 ID)를 수집하기 위해 알림 서비스에 질문을 합니다. 이 모든 정보(연결 설정, 통합 키, 알림 식별자, userKey)는 Adobe Campaign으로 전송됩니다.
+모바일 애플리케이션은 App Store 또는 Google Play에서 사용자가 다운로드합니다. 이 응용 프로그램에는 연결 설정(Android용 iOS 인증서 및 프로젝트 키) 및 통합 키가 포함되어 있습니다. 응용 프로그램을 처음 열 때(구성에 따라) 사용자에게 등록 정보를 입력하라는 메시지가 표시됩니다(@userKey: 예를 들어 이메일 또는 계정 번호입니다.) 동시에 애플리케이션은 알림 ID(푸시 ID)를 수집하기 위해 알림 서비스에 질문을 합니다. 이 모든 정보(연결 설정, 통합 키, 알림 식별자, userKey)는 Adobe Campaign으로 전송됩니다.
 
 ![](assets/nmac_register_view.png)
 
-### 2단계:배달 {#step-2--delivery}
+### 2단계: 배달 {#step-2--delivery}
 
 마케터는 애플리케이션 구독자를 타겟팅합니다. 게재 프로세스는 알림 서비스(Android용 iOS 인증서 및 프로젝트 키), 알림 ID(푸시 ID) 및 알림 컨텐츠에 연결 설정을 전송합니다. 알림 서비스는 타깃팅된 단말로 알림을 보냅니다.
 
 다음 정보는 Adobe Campaign에서 확인할 수 있습니다.
 
-* Android만 해당:알림(노출 횟수)을 표시한 장치 수
-* Android 및 iOS:알림 클릭 수
+* Android만 해당: 알림(노출 횟수)을 표시한 장치 수
+* Android 및 iOS: 알림 클릭 수
 
 ![](assets/nmac_delivery_view.png)
 

@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 9%
@@ -14,6 +14,8 @@ ht-degree: 9%
 ---
 
 # 전달성의 정의{#about-deliverability}
+
+![](../../assets/common.svg)
 
 게재 기능을 사용하면 바운스 방지 또는 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달하는 캠페인의 성공을 측정할 수 있습니다. [게재가 중요한 이유를 알아봅니다](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
 
@@ -39,14 +41,14 @@ ht-degree: 9%
 
 Adobe Campaign을 사용하면 게재 가능한 비율은 많은 요인에 따라 달라집니다. 특히 다음과 같습니다.
 
-* 인스턴스의 올바른 구성:도움이 필요하면 Adobe 담당자에게 문의하십시오.
-* 올바른 네트워크 구성:[이 섹션](optimize-delivery.md#network-config) 및 [도메인 설정 및 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy)을 참조하십시오.
-* IP 주소 평판:[IP 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy)을 참조하십시오.
-* 타겟팅된 주소의 품질:[격리 관리](optimize-delivery.md#quarantine-management)를 참조하십시오.
+* 인스턴스의 올바른 구성: 도움이 필요하면 Adobe 담당자에게 문의하십시오.
+* 올바른 네트워크 구성: [이 섹션](optimize-delivery.md#network-config) 및 [도메인 설정 및 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy)을 참조하십시오.
+* IP 주소 평판: [IP 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy)을 참조하십시오.
+* 타겟팅된 주소의 품질: [격리 관리](optimize-delivery.md#quarantine-management)를 참조하십시오.
 * 낮은 [컴플레인](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) 및 [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) 비율.
-* 메시지 콘텐츠:[전자 메일 콘텐츠 제어](control-message-content.md)를 참조하십시오.
-* 메시지 인증(SPF, DKIM, DMARC):[이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)을 참조하십시오.
-* 보낸 사람 평판:기본 ISP가 보낸 사람의 평판을 평가하는 방법에 대해 알려면 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html)을 참조하십시오.
+* 메시지 콘텐츠: [전자 메일 콘텐츠 제어](control-message-content.md)를 참조하십시오.
+* 메시지 인증(SPF, DKIM, DMARC): [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)을 참조하십시오.
+* 보낸 사람 평판: 기본 ISP가 보낸 사람의 평판을 평가하는 방법에 대해 알려면 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html)을 참조하십시오.
 
 ## 캠페인 게재 기능 도구 {#deliverability-tools}
 

@@ -6,20 +6,22 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '511'
 ht-degree: 2%
 
 ---
 
 # 가져오기 및 내보내기 모범 사례 {#import-export-best-practices}
 
+![](../../assets/common.svg)
+
 아래 설명된 몇 가지 간단한 규칙을 주의하고 준수하면 데이터베이스 내에서 데이터 일관성을 보장하고 데이터베이스 업데이트나 데이터 내보내기 중 일반적인 오류를 방지할 수 있습니다.
 
 ## 워크플로우 템플릿 사용 {#using-import-templates}
 
-데이터 가져오기를 목표로 하는 대부분의 워크플로우에는 다음 활동이 포함되어야 합니다.**[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
+데이터 가져오기를 목표로 하는 대부분의 워크플로우에는 다음 활동이 포함되어야 합니다. **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
 
 워크플로우 템플릿을 사용하면 유사한 가져오기를 준비하고 데이터베이스 내에서 데이터 일관성을 유지하는 것이 매우 편리합니다.
 
@@ -27,18 +29,18 @@ ht-degree: 2%
 
 들어오는 데이터가 일관되고 정확하거나 IT 부서나 Adobe Campaign 관리자가 처리할 것이라고 가정할 때는 주의하십시오. 프로젝트 중에 데이터 청소를 염두에 두십시오. 데이터를 가져올 때 중복 제거, 조정 및 일관성을 유지합니다.
 
-데이터를 가져오기 위해 설계된 일반 워크플로우 템플릿의 예는 [에서 확인할 수 있습니다. 예:데이터](../../platform/using/creating-import-export-templates.md) 섹션을 가져오는 워크플로우 템플릿.
+데이터를 가져오기 위해 설계된 일반 워크플로우 템플릿의 예는 [에서 확인할 수 있습니다. 예: 데이터](../../platform/using/creating-import-export-templates.md) 섹션을 가져오는 워크플로우 템플릿.
 
-## 플랫 파일 형식 {#using-flat-file-formats} 사용
+## 플랫 파일 형식 사용 {#using-flat-file-formats}
 
 가장 효율적인 가져오기 형식은 플랫 파일입니다. 플랫 파일은 데이터베이스 수준에서 일괄 모드로 가져올 수 있습니다.
 
 예제:
 
-* 구분 기호:탭 또는 세미콜론
+* 구분 기호: 탭 또는 세미콜론
 * 헤더가 있는 첫 줄
 * 문자열 구분 기호 없음
-* 날짜 형식:YYYY/MM/DD HH:mm:SS
+* 날짜 형식: YYYY/MM/DD HH:mm:SS
 
 가져올 파일의 예:
 
@@ -59,7 +61,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 * [데이터 로드(파일) 활동](../../workflow/using/data-loading--file-.md)
 * [데이터 추출(파일) 활동](../../workflow/using/extraction--file-.md)
 
-## 델타 모드 {#importing-in-delta-mode}로 가져오기
+## 델타 모드로 가져오기 {#importing-in-delta-mode}
 
 일반 가져오기는 델타 모드에서 수행해야 합니다. 즉, 매번 전체 테이블 대신 Adobe Campaign으로 수정 또는 새 데이터만 전송됩니다.
 

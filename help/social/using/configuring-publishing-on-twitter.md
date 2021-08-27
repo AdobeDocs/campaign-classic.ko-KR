@@ -6,14 +6,16 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 2d2a6e32-587d-4a7b-ba1c-d9140da53f64
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Twitter에서 게시 구성{#configuring-publishing-on-twitter}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign에서 Twitter 계정에 트윗을 보내려면 이러한 계정에 대해 Adobe Campaign에 대한 쓰기 액세스 권한을 위임해야 합니다. 이렇게 하려면 다음 구성 단계를 적용합니다.
 
@@ -30,7 +32,7 @@ Adobe Campaign에서 Twitter 계정에 트윗을 보내려면 이러한 계정�
 
 twitter 계정을 만들려면 [https://twitter.com](https://twitter.com)로 이동하십시오.
 
-## twitter {#creating-a-test-account-on-twitter}에 테스트 계정을 만드는 중
+## twitter에 테스트 계정 만들기 {#creating-a-test-account-on-twitter}
 
 트윗 증명을 보내는 데 사용할 수 있는 비공개 Twitter 계정을 만드는 것이 좋습니다(자세한 내용은 [증명 보내기](../../social/using/publishing-on-twitter.md#sending-the-proof) 참조).
 
@@ -41,12 +43,12 @@ twitter 계정을 만들려면 [https://twitter.com](https://twitter.com)로 이
 
 ![](assets/social_twitter_test_page.png)
 
-## twitter {#creating-an-application-on-twitter}에 응용 프로그램 만들기
+## twitter 시 애플리케이션 만들기 {#creating-an-application-on-twitter}
 
-Adobe Campaign에서 Twitter 계정에 트윗을 보내려면 Twitter 계정당 하나의 Twitter 애플리케이션을 만들어야 합니다. 이렇게 하려면 다음 단계를 적용합니다.
+Adobe Campaign에서 Twitter 계정에 트윗을 보내려면 Twitter 계정당 하나의 Twitter 애플리케이션을 만들어야 합니다. 그렇게 하려면 다음 단계를 적용합니다.
 
 1. twitter 계정에 로그인합니다.
-1. 인터넷 브라우저에 다음 주소를 입력합니다.[https://apps.twitter.com/](https://apps.twitter.com/)
+1. 인터넷 브라우저에 다음 주소를 입력합니다. [https://apps.twitter.com/](https://apps.twitter.com/)
 1. 그런 다음 오른쪽의 **[!UICONTROL Create New App]** 버튼을 클릭합니다.
 
    ![](assets/social_create_twitter_app_001.png)
@@ -57,17 +59,17 @@ Adobe Campaign에서 Twitter 계정에 트윗을 보내려면 Twitter 계정당 
 
    ![](assets/social_create_twitter_app_002.png)
 
-## Adobe Campaign {#delegating-write-access-to-adobe-campaign}에 대한 쓰기 액세스 위임
+## Adobe Campaign에 대한 쓰기 액세스 위임 {#delegating-write-access-to-adobe-campaign}
 
 각 Twitter 응용 프로그램에 대해 응용 프로그램 설정을 포함할 다른 **[!UICONTROL Twitter]** 유형 서비스를 만들어야 합니다.
 
 이 단계에는 Adobe Campaign 콘솔과 Twitter 계정에 로그온한 인터넷 브라우저에 대한 동시 액세스 권한이 필요합니다.
 
-* **Twitter**:앞에서 만든 애플리케이션([https://dev.twitter.com/apps](https://dev.twitter.com/apps))을 선택하고 탭을  **[!UICONTROL Keys and Access Tokens]** 클릭합니다.
+* **Twitter**: 앞에서 만든 애플리케이션([https://dev.twitter.com/apps](https://dev.twitter.com/apps))을 선택하고 탭을  **[!UICONTROL Keys and Access Tokens]** 클릭합니다.
 
    ![](assets/social_twitter_service_002.png)
 
-* **Adobe Campaign**:탭으로  **[!UICONTROL Profiles and targets]** 이동하여 링크를  **[!UICONTROL Services and Subscriptions]** 클릭하고 버튼을  **[!UICONTROL Create]** 클릭합니다.
+* **Adobe Campaign**: 탭으로  **[!UICONTROL Profiles and targets]** 이동하여 링크를  **[!UICONTROL Services and Subscriptions]** 클릭하고 버튼을  **[!UICONTROL Create]** 클릭합니다.
 
    ![](assets/social_twitter_service_007.png)
 
@@ -127,4 +129,4 @@ Adobe Campaign에서 Twitter 계정에 트윗을 보내려면 Twitter 계정당 
 >
 >예상 작업 처리를 실행하여 언제든지 워크플로우를 시작할 수 있습니다. 스케줄러를 편집하여 워크플로우 트리거 빈도를 변경할 수도 있습니다. 스케줄러에 대한 자세한 정보는 [이 섹션](../../workflow/using/scheduler.md)을 참조하십시오.
 
-이제 트윗을 Twitter 계정에 전송하고 팔로워에게 메시지를 보낼 수 있습니다. 자세한 내용은 다음을 참조하십시오.[Twitter](../../social/using/publishing-on-twitter.md)에 게시.
+이제 트윗을 Twitter 계정에 전송하고 팔로워에게 메시지를 보낼 수 있습니다. 자세한 내용은 다음을 참조하십시오. [Twitter](../../social/using/publishing-on-twitter.md)에 게시.

@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 11%
@@ -14,6 +14,8 @@ ht-degree: 11%
 ---
 
 # 파일 압축 해제 또는 암호 해독 {#unzipping-or-decrypting-a-file-before-processing}
+
+![](../../assets/common.svg)
 
 Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 가져올 수 있습니다. [데이터 로드(파일)](../../workflow/using/data-loading--file-.md) 활동에서 읽기 전에 사전 처리를 정의하여 압축을 해제하거나 파일을 해독할 수 있습니다.
 

@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 목록 관리 및 사용자 지정{#manage-and-customize-lists}
+
+![](../../assets/common.svg)
 
 탐색기를 사용하여 Campaign 데이터베이스의 레코드 목록에 액세스할 수 있습니다. 이러한 목록을 필터링하고, 검색을 실행하고, 정보를 추가하고, 데이터를 필터링하고, 정렬할 수 있습니다.
 
@@ -27,7 +29,7 @@ ht-degree: 2%
 
 &quot;**?**&#x200B;오른쪽에 있는 숫자 대신 &quot;이(가) 나타나고 카운터를 클릭하여 계산을 시작합니다.
 
-### 추가 레코드 로드 {#loading-more-records}
+### 더 많은 레코드 로드 {#loading-more-records}
 
 추가 레코드(기본적으로 200개 줄)를 로드하려면 **[!UICONTROL Continue loading]** 을 클릭합니다.
 
@@ -82,7 +84,7 @@ ht-degree: 2%
    >
    >**검색** 필드를 사용하여 사용 가능한 필드에서 검색을 실행합니다. 자세한 정보는 [이 섹션](#sorting-a-list)을 참조하십시오.
    >
-   >필드는 특정 아이콘으로 식별됩니다.SQL 필드, 연결된 테이블, 계산된 필드 등 선택한 각 필드에 대해 사용 가능한 필드 목록 아래에 설명이 표시됩니다. [자세히 알아보기](#configuring-lists)
+   >필드는 특정 아이콘으로 식별됩니다. SQL 필드, 연결된 테이블, 계산된 필드 등 선택한 각 필드에 대해 사용 가능한 필드 목록 아래에 설명이 표시됩니다. [자세히 알아보기](#configuring-lists)
    >
    >데이터를 정렬 및 필터링할 수도 있습니다. [이 섹션](../../platform/using/filtering-options.md)을 참조하십시오.
 
@@ -97,14 +99,14 @@ ht-degree: 2%
 
 1. **[!UICONTROL OK]** 을 클릭하여 구성을 확인하고 결과를 표시합니다.
 
-### 새 열 {#create-a-new-column} 만들기
+### 새 열 만들기 {#create-a-new-column}
 
 목록에 추가 필드를 표시할 새 열을 만들 수 있습니다. 방법은 다음과 같습니다.
 
 1. 아래 및 목록의 오른쪽에 있는 **[!UICONTROL Configure the list]** 을 클릭합니다.
 1. 목록에 새 필드를 표시하려면 **[!UICONTROL Add]** 을 클릭하십시오.
 
-### 열 {#remove-a-column} 제거
+### 열 제거 {#remove-a-column}
 
 아래 및 목록 오른쪽에 있는 **[!UICONTROL Configure list]** 을 사용하여 레코드 목록에 하나 이상의 열을 마스크할 수 있습니다.
 
@@ -120,7 +122,7 @@ ht-degree: 2%
 
 목록이 활성화되면, 즉, 하나 이상의 줄을 선택하면 F9를 사용하여 모든 열이 화면에 표시되도록 열의 너비를 조정할 수 있습니다.
 
-### 하위 폴더 {#display-sub-folders-records}에 데이터 표시
+### 하위 폴더에 데이터 표시 {#display-sub-folders-records}
 
 목록을 표시할 수 있습니다.
 
@@ -131,7 +133,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_user_display_children_icon.png)
 
-## 목록 구성 {#saving-a-list-configuration} 저장
+## 목록 구성 저장 {#saving-a-list-configuration}
 
 목록 구성은 워크스테이션 수준에서 로컬로 정의됩니다. 로컬 캐시가 지워지면 로컬 구성이 비활성화됩니다.
 
@@ -196,7 +198,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Ok]** 을 클릭하여 이 구성을 확인하고 결과를 목록에 표시합니다.
 
-### 요소 {#running-a-search} 검색
+### 요소 검색 {#running-a-search}
 
 필드 목록 위에 있는 **[!UICONTROL Search]** 필드를 사용하여 편집기에서 사용 가능한 필드 검색을 실행할 수 있습니다. 키보드에서 **Enter**&#x200B;를 누르거나 목록을 찾습니다. 검색과 일치하는 필드에는 굵은 레이블이 있습니다.
 

@@ -6,24 +6,26 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1924'
 ht-degree: 4%
 
 ---
 
 # 데이터 타겟팅{#targeting-data}
 
+![](../../assets/common.svg)
+
 ## 쿼리 만들기 {#creating-queries}
 
-### 데이터 {#selecting-data} 선택
+### 데이터 선택 {#selecting-data}
 
-**[!UICONTROL Query]** 활동을 사용하면 기본 데이터를 선택하여 대상 모집단을 작성할 수 있습니다. 자세한 내용은 [쿼리 만들기](../../workflow/using/query.md#creating-a-query)를 참조하십시오.
+**[!UICONTROL Query]** 활동을 사용하면 기본 데이터를 선택하여 대상 모집단을 작성할 수 있습니다. 자세한 내용은 [쿼리 만들기](query.md#creating-a-query)를 참조하십시오.
 
-다음 활동을 사용하여 데이터베이스에서 데이터를 쿼리하고 세분화할 수도 있습니다.[증분 쿼리](../../workflow/using/incremental-query.md), [목록 읽기](../../workflow/using/read-list.md).
+다음 활동을 사용하여 데이터베이스에서 데이터를 쿼리하고 세분화할 수도 있습니다. [증분 쿼리](incremental-query.md), [목록 읽기](read-list.md).
 
-워크플로우의 수명 주기 동안 전달 및 처리할 추가 데이터를 수집할 수 있습니다. 자세한 내용은 [데이터 추가](../../workflow/using/query.md#adding-data) 및 [추가 데이터 편집](#editing-additional-data)을 참조하십시오.
+워크플로우의 수명 주기 동안 전달 및 처리할 추가 데이터를 수집할 수 있습니다. 자세한 내용은 [데이터 추가](query.md#adding-data) 및 [추가 데이터 편집](#editing-additional-data)을 참조하십시오.
 
 ### 추가 데이터 편집 {#editing-additional-data}
 
@@ -51,9 +53,9 @@ ht-degree: 4%
 
 ![](assets/query_add_columns_collection.png)
 
-### 추가 데이터 {#refining-the-target-using-additional-data}을 사용하여 대상 세분화하기
+### 추가 데이터를 사용하여 대상 세분화하기 {#refining-the-target-using-additional-data}
 
-수집된 추가 데이터를 사용하면 데이터베이스에서 데이터 필터링을 세분화할 수 있습니다. 이렇게 하려면 **[!UICONTROL Refine the target using additional data...]** 링크를 클릭합니다.이렇게 하면 추가된 데이터를 오버필터링할 수 있습니다.
+수집된 추가 데이터를 사용하면 데이터베이스에서 데이터 필터링을 세분화할 수 있습니다. 이렇게 하려면 **[!UICONTROL Refine the target using additional data...]** 링크를 클릭합니다. 이렇게 하면 추가된 데이터를 오버필터링할 수 있습니다.
 
 ![](assets/wf_add_data_use_additional_data.png)
 
@@ -63,7 +65,7 @@ ht-degree: 4%
 
 ![](assets/option-common_additionnal_col_only.png)
 
-### 추가 데이터 {#reconciliation-with-additional-data}를 사용한 조정
+### 추가 데이터를 사용한 조정 {#reconciliation-with-additional-data}
 
 데이터 조정 단계(**[!UICONTROL Union]**, **[!UICONTROL Intersection]** 등) 동안 활동)을 만들 경우, 추가 열에서 데이터 조정에 사용할 열을 선택할 수 있습니다. 이렇게 하려면 선택한 열에 대한 조정을 구성하고 기본 세트를 지정합니다. 그런 다음 창의 아래 열에서 다음 예와 같이 열을 선택합니다.
 
@@ -95,7 +97,7 @@ ht-degree: 4%
 
    이 옵션을 사용하면 타겟의 다양한 모집단에 공통되는 모든 열을 기준으로 데이터를 조정할 수 있습니다.
 
-   Adobe Campaign은 해당 이름에 따라 열을 식별합니다. 허용한도 임계값은 다음과 같습니다.예를 들어 &#39;이메일&#39; 열은 &#39;@email&#39; 열과 동일하게 인식될 수 있습니다.
+   Adobe Campaign은 해당 이름에 따라 열을 식별합니다. 허용한도 임계값은 다음과 같습니다. 예를 들어 &#39;이메일&#39; 열은 &#39;@email&#39; 열과 동일하게 인식될 수 있습니다.
 
 * **[!UICONTROL A selection of columns]**
 
@@ -111,13 +113,13 @@ ht-degree: 4%
 
    모집단 크기를 주어진 레코드 수로 제한할 수 있습니다. 이렇게 하려면 적절한 옵션을 클릭하고 보관할 레코드 수를 지정합니다.
 
-   또한 인바운드 모집단의 우선 순위를 지정합니다.창의 아래 섹션에는 결합 활동의 인바운드 전환이 나열되며 창 오른쪽의 파란색 화살표를 사용하여 정렬할 수 있습니다.
+   또한 인바운드 모집단의 우선 순위를 지정합니다. 창의 아래 섹션에는 결합 활동의 인바운드 전환이 나열되며 창 오른쪽의 파란색 화살표를 사용하여 정렬할 수 있습니다.
 
    레코드는 목록에서 첫 번째 인바운드 전환의 모집단에서 먼저 가져온 다음 최대값에 도달하지 않은 경우 두 번째 인바운드 전환의 모집단에서 가져옵니다.
 
    ![](assets/join_limit_nb_priority.png)
 
-### 조인트 데이터(교차) {#extracting-joint-data--intersection-} 추출
+### 결합 데이터 추출(교차) {#extracting-joint-data--intersection-}
 
 ![](assets/traitements.png)
 
@@ -125,7 +127,7 @@ ht-degree: 4%
 
 또한 선택한 열만 유지하거나 인바운드 모집단에 의해 공유된 열만 유지할 수 있습니다.
 
-교차 활동은 [교차](../../workflow/using/intersection.md) 섹션에 자세히 설명되어 있습니다.
+교차 활동은 [교차](intersection.md) 섹션에 자세히 설명되어 있습니다.
 
 ### 모집단 제외(제외) {#excluding-a-population--exclusion-}
 
@@ -133,11 +135,11 @@ ht-degree: 4%
 
 필요한 경우 인바운드 테이블을 조작할 수 있습니다. 실제로 다른 차원에서 타겟을 제외하려면 이 타겟을 기본 타겟과 동일한 타겟팅 차원으로 반환해야 합니다. 이렇게 하려면 **[!UICONTROL Add]** 버튼을 클릭하고 차원 변경 조건을 지정합니다.
 
-데이터 조정은 식별자, 축 변경 또는 조인을 통해 수행됩니다. 예를 보려면 [목록의 데이터를 사용하십시오.목록 읽기](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
+데이터 조정은 식별자, 축 변경 또는 조인을 통해 수행됩니다. 예를 보려면 [목록의 데이터를 사용하십시오. 목록 읽기](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
-### 분할 활동 {#creating-subsets-using-the-split-activity} 을 사용하여 하위 집합 만들기
+### 분할 활동을 사용하여 하위 집합 만들기 {#creating-subsets-using-the-split-activity}
 
 **[!UICONTROL Split]** 활동은 표준 활동으로서, 하나 또는 여러 필터링 차원을 통해 필요한 만큼 많은 설정을 만들고, 하위 집합당 하나의 출력 전환 또는 고유한 전환을 생성할 수 있습니다.
 
@@ -146,7 +148,7 @@ ht-degree: 4%
 구성하려면 먼저 기준을 선택해야 합니다.
 
 1. 워크플로우에서 **[!UICONTROL Split]** 활동을 끌어다 놓습니다.
-1. **[!UICONTROL General]** 탭에서 원하는 옵션을 선택합니다.**[!UICONTROL Use data from the target and additional data]**, **[!UICONTROL Use the additional data only]** 또는 **[!UICONTROL Use external data]**.
+1. **[!UICONTROL General]** 탭에서 원하는 옵션을 선택합니다. **[!UICONTROL Use data from the target and additional data]**, **[!UICONTROL Use the additional data only]** 또는 **[!UICONTROL Use external data]**.
 1. **[!UICONTROL Use data from the target and additional data]** 옵션이 선택된 경우 타겟팅 차원을 사용하면 인바운드 전환에서 전달한 모든 데이터를 사용할 수 있습니다.
 
    ![](assets/split-general-tab-options.png)
@@ -157,7 +159,7 @@ ht-degree: 4%
 
    ![](assets/split-subset-config-all-data.png)
 
-   **[!UICONTROL Split]** 활동에서 필터링 조건을 사용하여 대상을 다른 모집단으로 세분화하는 방법을 보여주는 예는 [이 섹션](../../workflow/using/cross-channel-delivery-workflow.md)에 설명되어 있습니다.
+   **[!UICONTROL Split]** 활동에서 필터링 조건을 사용하여 대상을 다른 모집단으로 세분화하는 방법을 보여주는 예는 [이 섹션](cross-channel-delivery-workflow.md)에 설명되어 있습니다.
 
    **[!UICONTROL Label]** 필드를 사용하면 새로 만든 하위 세트에 아웃바운드 전환과 일치하는 이름을 지정할 수 있습니다.
 
@@ -175,7 +177,11 @@ ht-degree: 4%
 
    ![](assets/split-subset-config-add_external_data.png)
 
-   자세한 정보는 이 [섹션](../../installation/using/about-fda.md)을 참조하십시오.
+   자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
+
+   ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 설명서](../../installation/using/about-fda.md)
+
+   ![](assets/do-not-localize/v8.png)[  Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=en)
 
 그런 다음 새 하위 세트를 추가해야 합니다.
 
@@ -193,7 +199,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >**Federated Data Access** 옵션을 획득한 경우 외부 기반의 정보를 기반으로 하위 세트를 만들 수 있습니다. 이렇게 하려면 **[!UICONTROL Targeting dimension]** 필드에서 외부 테이블의 스키마를 선택합니다. 자세한 내용은 [외부 데이터베이스 액세스(FDA)](../../workflow/using/accessing-an-external-database--fda-.md)를 참조하십시오.
+   >**Federated Data Access** 옵션을 획득한 경우 외부 기반의 정보를 기반으로 하위 세트를 만들 수 있습니다. 이렇게 하려면 **[!UICONTROL Targeting dimension]** 필드에서 외부 테이블의 스키마를 선택합니다. 자세한 내용은 [외부 데이터베이스 액세스(FDA)](accessing-an-external-database--fda-.md)를 참조하십시오.
 
 하위 세트가 만들어지면 기본적으로 분할 활동에는 하위 세트만큼 출력 전환이 표시됩니다.
 
@@ -207,23 +213,23 @@ ht-degree: 4%
 
 ![](assets/wf_split_single_output.png)
 
-하위 집합은 **[!UICONTROL Cells]** 활동을 사용하여 만들 수도 있습니다. 자세한 내용은 [셀](../../workflow/using/cells.md) 섹션을 참조하십시오.
+하위 집합은 **[!UICONTROL Cells]** 활동을 사용하여 만들 수도 있습니다. 자세한 내용은 [셀](cells.md) 섹션을 참조하십시오.
 
-### 타깃팅된 데이터 {#using-targeted-data} 사용
+### 타겟팅된 데이터 사용 {#using-targeted-data}
 
 데이터가 식별되고 준비되면 다음 컨텍스트에서 사용할 수 있습니다.
 
 * 다양한 워크플로우 단계에서 데이터 조작에 따라 데이터베이스의 데이터를 업데이트할 수 있습니다.
 
-   자세한 내용은 [데이터 업데이트](../../workflow/using/update-data.md) 를 참조하십시오.
+   자세한 내용은 [데이터 업데이트](update-data.md) 를 참조하십시오.
 
 * 기존 목록의 내용을 새로 고칠 수도 있습니다.
 
-   자세한 내용은 [목록 업데이트](../../workflow/using/list-update.md)를 참조하십시오.
+   자세한 내용은 [목록 업데이트](list-update.md)를 참조하십시오.
 
 * 워크플로우에서 직접 게재를 준비하거나 시작할 수 있습니다.
 
-   자세한 내용은 [배달](../../workflow/using/delivery.md), [배달 컨트롤](../../workflow/using/delivery-control.md) 및 [연속 배달](../../workflow/using/continuous-delivery.md)을 참조하십시오.
+   자세한 내용은 [배달](delivery.md), [배달 컨트롤](delivery-control.md) 및 [연속 배달](continuous-delivery.md)을 참조하십시오.
 
 ## 데이터 관리 {#data-management}
 
@@ -235,9 +241,9 @@ Adobe Campaign에서 데이터 관리는 보다 효율적이고 유연한 도구
 
 Adobe Campaign에서는 이러한 작업을 구현하기 위해 다음을 제공합니다.
 
-* 데이터 수집 활동:[파일 전송](../../workflow/using/file-transfer.md), [데이터 로드(파일)](../../workflow/using/data-loading--file-.md), [데이터 로드(RDBMS)](../../workflow/using/data-loading--rdbms-.md), [데이터 업데이트](../../workflow/using/update-data.md). 데이터를 수집하는 이 첫 번째 단계는 데이터를 다른 활동에서 처리할 수 있도록 준비합니다. 워크플로우가 올바르게 실행되고 예상 결과를 제공하기 위해 몇 가지 매개 변수를 모니터링해야 합니다. 예를 들어 데이터를 가져올 때 이 데이터의 기본 키(Pkey)는 각 레코드에 대해 고유해야 합니다.
-* 데이터 관리 옵션으로 보강된 타겟팅 활동:[Query](../../workflow/using/query.md), [Union](../../workflow/using/union.md), [Intersection](../../workflow/using/intersection.md), [Split](../../workflow/using/split.md). 이렇게 하면 데이터 조정이 가능한 한 여러 다른 타겟팅 차원의 데이터 간의 결합 또는 교차를 구성할 수 있습니다.
-* 데이터 변환 활동:[데이터 보강](../../workflow/using/enrichment.md), [차원 변경](../../workflow/using/change-dimension.md).
+* 데이터 수집 활동: [파일 전송](file-transfer.md), [데이터 로드(파일)](data-loading--file-.md), [데이터 로드(RDBMS)](data-loading--rdbms-.md), [데이터 업데이트](update-data.md). 데이터를 수집하는 이 첫 번째 단계는 데이터를 다른 활동에서 처리할 수 있도록 준비합니다. 워크플로우가 올바르게 실행되고 예상 결과를 제공하기 위해 몇 가지 매개 변수를 모니터링해야 합니다. 예를 들어 데이터를 가져올 때 이 데이터의 기본 키(Pkey)는 각 레코드에 대해 고유해야 합니다.
+* 데이터 관리 옵션으로 보강된 타겟팅 활동: [Query](query.md), [Union](union.md), [Intersection](intersection.md), [Split](split.md). 이렇게 하면 데이터 조정이 가능한 한 여러 다른 타겟팅 차원의 데이터 간의 결합 또는 교차를 구성할 수 있습니다.
+* 데이터 변환 활동: [데이터 보강](enrichment.md), [차원 변경](change-dimension.md).
 
 >[!CAUTION]
 >
@@ -245,12 +251,12 @@ Adobe Campaign에서는 이러한 작업을 구현하기 위해 다음을 제공
 >  
 >예를 들어 워크플로우를 통해 수신자를 삭제해도 수신자의 게재 기록이 모두 삭제되지 않습니다. 그러나 &#39;수신자&#39; 폴더에서 직접 수신자를 삭제하면 이 수신자와 연결된 모든 데이터가 삭제됩니다.
 
-### 데이터 보강 및 수정 {#enriching-and-modifying-data}
+### 데이터 강화 및 수정 {#enriching-and-modifying-data}
 
-타겟팅 차원 외에도 필터링 차원을 사용하면 수집된 데이터의 특성을 지정할 수 있습니다. [타겟팅 및 필터링 차원](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions)을 참조하십시오.
+타겟팅 차원 외에도 필터링 차원을 사용하면 수집된 데이터의 특성을 지정할 수 있습니다. [타겟팅 및 필터링 차원](building-a-workflow.md#targeting-and-filtering-dimensions)을 참조하십시오.
 
 식별되고 수집된 데이터는 보강, 집계 및 조작하여 대상 구성을 최적화할 수 있습니다. 이렇게 하려면 [데이터 세그먼트화](#segmenting-data) 섹션에 자세히 설명된 데이터 조작 활동 외에 다음을 사용하십시오.
 
-* **[!UICONTROL Enrichment]** 활동을 사용하면 스키마에 열을 일시 추가할 수 있을 뿐만 아니라 특정 요소에 정보를 추가할 수 있습니다. 활동 저장소의 [데이터 보강](../../workflow/using/enrichment.md) 섹션에 자세히 설명되어 있습니다.
-* **[!UICONTROL Edit schema]** 활동을 통해 스키마의 구조를 수정할 수 있습니다. 활동 저장소의 [스키마 편집](../../workflow/using/edit-schema.md) 섹션에 자세히 설명되어 있습니다.
-* **[!UICONTROL Change dimension]** 활동을 사용하면 타겟 구성 주기 동안 타겟팅 차원을 변경할 수 있습니다. [차원 변경](../../workflow/using/change-dimension.md) 섹션에 자세히 설명되어 있습니다.
+* **[!UICONTROL Enrichment]** 활동을 사용하면 스키마에 열을 일시 추가할 수 있을 뿐만 아니라 특정 요소에 정보를 추가할 수 있습니다. 활동 저장소의 [데이터 보강](enrichment.md) 섹션에 자세히 설명되어 있습니다.
+* **[!UICONTROL Edit schema]** 활동을 통해 스키마의 구조를 수정할 수 있습니다. 활동 저장소의 [스키마 편집](edit-schema.md) 섹션에 자세히 설명되어 있습니다.
+* **[!UICONTROL Change dimension]** 활동을 사용하면 타겟 구성 주기 동안 타겟팅 차원을 변경할 수 있습니다. [차원 변경](change-dimension.md) 섹션에 자세히 설명되어 있습니다.

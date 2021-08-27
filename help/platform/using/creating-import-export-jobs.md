@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 7%
@@ -15,15 +15,17 @@ ht-degree: 7%
 
 # 가져오기 및 내보내기 작업 만들기 {#creating-import-export-jobs}
 
+![](../../assets/common.svg)
+
 템플릿이 구성되면 Adobe Campaign의 여러 컨텍스트에서 가져오기 및 내보내기 작업을 시작할 수 있습니다.
 
-* Adobe Campaign 작업 영역의 **[!UICONTROL Profiles and targets]** 섹션에서 **[!UICONTROL Jobs]** 링크를 클릭합니다.이렇게 하면 기존 가져오기 및 내보내기 목록으로 이동합니다.
+* Adobe Campaign 작업 영역의 **[!UICONTROL Profiles and targets]** 섹션에서 **[!UICONTROL Jobs]** 링크를 클릭합니다. 이렇게 하면 기존 가져오기 및 내보내기 목록으로 이동합니다.
 
    **[!UICONTROL Create]** 단추를 클릭하고 수행할 작업 유형을 선택합니다.
 
    ![](assets/s_ncs_user_import_from_home.png)
 
-* 작업 공간의 **[!UICONTROL Monitoring]** 섹션에서 가져오기 및 내보내기를 시작할 수도 있습니다.두 개의 전용 링크를 통해 직접 가져오거나 내보낼 수 있습니다.
+* 작업 공간의 **[!UICONTROL Monitoring]** 섹션에서 가져오기 및 내보내기를 시작할 수도 있습니다. 두 개의 전용 링크를 통해 직접 가져오거나 내보낼 수 있습니다.
 
    ![](assets/s_ncs_user_import_from_production.png)
 

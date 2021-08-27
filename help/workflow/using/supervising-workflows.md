@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
-# 사용 사례:워크플로우 관리{#supervising-workflows}
+# 사용 사례: 워크플로우 관리{#supervising-workflows}
+
+![](../../assets/common.svg)
 
 이 사용 사례에서는 &quot;일시 중지됨&quot;, &quot;중지됨&quot; 또는 &quot;오류 발생&quot;인 워크플로우 집합의 상태를 모니터링할 수 있는 워크플로우 만들기에 대해 자세히 설명합니다.
 
@@ -31,11 +33,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->워크플로우 외에도 캠페인 **워크플로우 Heatmap**&#x200B;을 사용하면 현재 실행 중인 워크플로우의 세부 정보에서 분석할 수 있습니다. 자세한 내용은 [전용 섹션](../../workflow/using/heatmap.md)을 참조하십시오.
+>워크플로우 외에도 캠페인 **워크플로우 Heatmap**&#x200B;을 사용하면 현재 실행 중인 워크플로우의 세부 정보에서 분석할 수 있습니다. 자세한 내용은 [전용 섹션](heatmap.md)을 참조하십시오.
 >
->**워크플로우의 실행을 모니터링하는 방법에 대한 자세한 내용은 [이 섹션](../../workflow/using/monitoring-workflow-execution.md)을 참조하십시오.**
+>**워크플로우의 실행을 모니터링하는 방법에 대한 자세한 내용은 [이 섹션](monitoring-workflow-execution.md)을 참조하십시오.**
 
-## 1단계:모니터링 워크플로우 만들기 {#step-1--creating-the-monitoring-workflow}
+## 1단계: 모니터링 워크플로우 만들기 {#step-1--creating-the-monitoring-workflow}
 
 모니터링할 워크플로우 폴더는 **관리 > 프로덕션 > 기술 워크플로우** 노드에 저장된 **&quot;CustomWorkflows&quot;** 폴더입니다. 이 폴더에는 비즈니스 워크플로우가 포함되어 있습니다.
 
@@ -53,7 +55,7 @@ ht-degree: 0%
 * 메시지 레이아웃을 담당하는 **&quot;배달&quot;** 활동.
 * 워크플로우 반복 간의 리드 타임을 제어하는 **&quot;Wait&quot;** 활동.
 
-## 2단계:JavaScript 쓰기 {#step-2--writing-the-javascript}
+## 2단계: JavaScript 작성 {#step-2--writing-the-javascript}
 
 JavaScript 코드의 첫 번째 부분은 &quot;pause&quot;(@state = 13), &quot;error&quot;(@failed = 1) 또는 &quot;stoped&quot;(@state = 20) 상태로 워크플로우를 식별할 수 있는 **쿼리(queryDef)**&#x200B;와 일치합니다.
 
@@ -115,7 +117,7 @@ vars.strWorkflowPaused = strPaused;
 vars.strWorkflowStop = strStop;
 ```
 
-## 3단계:&#39;테스트&#39; 활동 만들기 {#step-3--creating-the--test--activity}
+## 3단계: 테스트 활동 만들기 {#step-3--creating-the--test--activity}
 
 테스트 활동을 사용하면 게재를 전송해야 하는지 또는 모니터링 워크플로우가 &quot;대기&quot; 활동을 기반으로 다른 주기를 실행해야 하는지 여부를 결정할 수 있습니다.
 
@@ -127,7 +129,7 @@ vars.strWorkflowStop = strStop;
 
 ![](assets/uc_monitoring_workflow_attente.png)
 
-## 4단계:게재 준비 {#step-4--preparing-the-delivery}
+## 4단계: 게재 준비 {#step-4--preparing-the-delivery}
 
 배달 활동은 **리소스 > 템플릿 > 배달 템플릿** 노드에 저장된 **배달 템플릿**&#x200B;을 기반으로 합니다.
 
@@ -155,9 +157,9 @@ vars.strWorkflowStop = strStop;
 
 **배달** 활동을 두 번 클릭하고 다음 옵션을 선택합니다.
 
-* 배달:**템플릿**&#x200B;에서 생성된 새로 만들기를 선택하고 이전에 만든 게재 템플릿을 선택합니다.
+* 배달: **템플릿**&#x200B;에서 생성된 새로 만들기를 선택하고 이전에 만든 게재 템플릿을 선택합니다.
 * **수신자 및 콘텐츠** 필드의 경우 **게재**&#x200B;에 지정됨 을 선택합니다.
-* 실행할 작업:**준비 및 시작**&#x200B;을 선택합니다.
+* 실행할 작업: **준비 및 시작**&#x200B;을 선택합니다.
 * **오류 처리** 옵션의 선택을 취소합니다.
 
    ![](assets/uc_monitoring_workflow_optionmodel.png)

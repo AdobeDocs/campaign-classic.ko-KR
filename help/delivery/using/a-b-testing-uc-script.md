@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 4%
@@ -15,9 +15,11 @@ ht-degree: 4%
 
 # 스크립트 만들기 {#step-5--creating-the-script}
 
+![](../../assets/common.svg)
+
 나머지 모집단에 대해 지정된 게재 콘텐츠 선택은 스크립트로 계산됩니다. 이 스크립트는 열림 비율이 가장 높은 게재 관련 정보를 복원하고 컨텐츠를 최종 게재에 복사합니다.
 
-## 스크립트 {#example-of-a-script} 의 예
+## 스크립트 예 {#example-of-a-script}
 
 다음 스크립트는 타깃팅 워크플로우에서 그대로 사용할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](#implementation)을 참조하십시오.
 
@@ -85,7 +87,7 @@ ht-degree: 4%
 1. **[!UICONTROL JavaScript code]** 활동을 닫습니다.
 1. 워크플로우를 저장합니다.
 
-## 스크립트 {#details-of-the-script} 세부 정보
+## 스크립트 세부 정보 {#details-of-the-script}
 
 이 섹션에서는 스크립트의 다양한 부분과 작동 모드에 대해 자세히 설명합니다.
 
@@ -160,12 +162,12 @@ ht-degree: 4%
 
 위의 예를 사용하면 이메일 열기 비율에 따라 게재 콘텐츠를 선택할 수 있습니다. 다른 게재별 지표를 기반으로 하여 조정하도록 할 수 있습니다.
 
-* 최고의 클릭 처리량:`[indicators/@recipientClickRatio]`,
-* 가장 높은 반응성 비율(이메일 열기 및 메시지 클릭):`[indicators/@reactivity]`,
-* 가장 낮은 불만율:`[indicators/@refusedRatio]`(sortDesc 속성에 false 값 사용),
-* 가장 높은 전환율:`[indicators/@transactionRatio]`,
-* 메시지 수신 후 방문한 페이지 수:`[indicators/@totalWebPage]`,
-* 가장 낮은 구독 취소 비율:`[indicators/@optOutRatio]`,
-* 트랜잭션 금액:`[indicators/@amount]`
+* 최고의 클릭 처리량: `[indicators/@recipientClickRatio]`,
+* 가장 높은 반응성 비율(이메일 열기 및 메시지 클릭): `[indicators/@reactivity]`,
+* 가장 낮은 불만율: `[indicators/@refusedRatio]`(sortDesc 속성에 false 값 사용),
+* 가장 높은 전환율: `[indicators/@transactionRatio]`,
+* 메시지 수신 후 방문한 페이지 수: `[indicators/@totalWebPage]`,
+* 가장 낮은 구독 취소 비율: `[indicators/@optOutRatio]`,
+* 트랜잭션 금액: `[indicators/@amount]`
 
 이제 최종 게재를 정의할 수 있습니다. [자세히 알아보기](a-b-testing-uc-final-delivery.md)

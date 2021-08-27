@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 로컬 승인 활동 사용{#using-the-local-approval-activity}
+
+![](../../assets/common.svg)
 
 타깃팅 워크플로우에 통합된 **[!UICONTROL Local approval]** 활동을 사용하면 게재를 보내기 전에 수신자 승인 프로세스를 설정할 수 있습니다.
 
@@ -47,11 +49,11 @@ ht-degree: 2%
 
    ![](assets/local_validation_intro_5.png)
 
-## 1단계:데이터 배포 템플릿 만들기 {#step-1--creating-the-data-distribution-template-}
+## 1단계: 데이터 배포 템플릿 만들기 {#step-1--creating-the-data-distribution-template-}
 
 데이터 배포 템플릿을 사용하면 각 값을 로컬 감독자에게 할당할 수 있을 뿐 아니라 데이터 그룹을 기반으로 타겟팅한 모집단을 제한할 수 있습니다. 이 예제에서는 **[!UICONTROL Email address domain]** 필드를 배포 필드로 정의하고 각 로컬 감독자에게 도메인을 할당했습니다
 
-데이터 배포 템플릿 만들기에 대한 자세한 내용은 [데이터 배포당 하위 집합 레코드 수 제한](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)을 참조하십시오.
+데이터 배포 템플릿 만들기에 대한 자세한 내용은 [데이터 배포당 하위 집합 레코드 수 제한](split.md#limiting-the-number-of-subset-records-per-data-distribution)을 참조하십시오.
 
 1. 데이터 배포 템플릿을 만들려면 **[!UICONTROL Resources > Campaign management > Data distribution]** 노드로 이동하고 **[!UICONTROL New]** 를 클릭합니다.
 
@@ -63,7 +65,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Label]** 및 **[!UICONTROL Distribution context]**&#x200B;을 입력합니다. 이 예제에서는 **[!UICONTROL Recipient]** 타겟팅 스키마와 **[!UICONTROL Email domain]** 필드를 배포 필드로 선택했습니다. 수신자 목록은 도메인별로 분류됩니다.
 1. **[!UICONTROL Distribution type]** 필드에서 대상 제한 값이 **[!UICONTROL Distribution]** 탭에 표시되는 방식을 선택합니다. 여기에서는 **[!UICONTROL Percentage]**&#x200B;을 선택했습니다.
-1. **[!UICONTROL Approval storage]** 필드에 사용 중인 타깃팅 스키마와 일치하는 승인의 저장소 스키마를 입력합니다. 여기서는 기본 스토리지 스키마를 사용합니다.**[!UICONTROL Local approval of recipients]**
+1. **[!UICONTROL Approval storage]** 필드에 사용 중인 타깃팅 스키마와 일치하는 승인의 저장소 스키마를 입력합니다. 여기서는 기본 스토리지 스키마를 사용합니다. **[!UICONTROL Local approval of recipients]**
 1. 그런 다음 **[!UICONTROL Advanced parameters]** 링크를 클릭합니다.
 
    ![](assets/local_validation_data_distribution_3.png)
@@ -76,16 +78,16 @@ ht-degree: 2%
 
    ![](assets/local_validation_data_distribution_4.png)
 
-   * **[!UICONTROL Value]**:도메인 이름의 값을 입력합니다.
-   * **[!UICONTROL Percentage / Fixed]**:각 도메인에 대해 최대값을 입력합니다. 게재를 보낼 수신자 수입니다. 이 예에서는 게재를 도메인당 10%로 제한하려고 합니다.
-   * **[!UICONTROL Label]**:승인 및 피드백 알림에 표시할 도메인의 레이블을 입력합니다.
-   * **[!UICONTROL Group or operator]**:도메인에 할당된 연산자 또는 연산자 그룹을 선택합니다.
+   * **[!UICONTROL Value]**: 도메인 이름의 값을 입력합니다.
+   * **[!UICONTROL Percentage / Fixed]**: 각 도메인에 대해 최대값을 입력합니다. 게재를 보낼 수신자 수입니다. 이 예에서는 게재를 도메인당 10%로 제한하려고 합니다.
+   * **[!UICONTROL Label]**: 승인 및 피드백 알림에 표시할 도메인의 레이블을 입력합니다.
+   * **[!UICONTROL Group or operator]**: 도메인에 할당된 연산자 또는 연산자 그룹을 선택합니다.
 
       >[!CAUTION]
       >
       >연산자에게 적절한 권한이 할당되었는지 확인합니다.
 
-## 2단계:타겟팅 워크플로우 만들기 {#step-2--creating-the-targeting-workflow}
+## 2단계: 타겟팅 워크플로우 만들기 {#step-2--creating-the-targeting-workflow}
 
 이 사용 사례를 설정하기 위해 다음 타겟팅 워크플로우를 만들었습니다.
 
@@ -106,7 +108,7 @@ ht-degree: 2%
 
 업스트림 타깃팅은 두 개의 쿼리, 하나의 교집합 및 하나의 분할로 구성됩니다. 데이터 배포 템플릿을 사용하여 **[!UICONTROL Split]** 활동을 사용하여 타겟팅으로 인한 모집단을 제한할 수 있습니다.
 
-분할 활동 구성에 대한 자세한 내용은 [분할](../../workflow/using/split.md)을 참조하십시오. 데이터 배포 템플릿 만들기에 대해서는 [데이터 배포당 하위 집합 레코드 수를 제한하기](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)에 자세히 설명되어 있습니다.
+분할 활동 구성에 대한 자세한 내용은 [분할](split.md)을 참조하십시오. 데이터 배포 템플릿 만들기에 대해서는 [데이터 배포당 하위 집합 레코드 수를 제한하기](split.md#limiting-the-number-of-subset-records-per-data-distribution)에 자세히 설명되어 있습니다.
 
 쿼리에서 모집단을 제한하지 않으려면 **[!UICONTROL Query]**, **[!UICONTROL Intersection]** 및 **[!UICONTROL Split]** 활동을 사용할 필요가 없습니다. 이 경우 첫 번째 **[!UICONTROL Local approval]** 활동에서 데이터 배포 템플릿을 완료합니다.
 
@@ -118,11 +120,11 @@ ht-degree: 2%
 
    ![](assets/local_validation_split_1bis.png)
 
-1. **[!UICONTROL Sort columns]** 섹션에서 정렬이 적용되는 필드를 추가합니다. 여기에서는 **[!UICONTROL Email]** 필드를 선택했습니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Sort columns]** 섹션에서 정렬이 적용되는 필드를 추가합니다. 여기에서는 **[!UICONTROL Email]** 필드를 선택했습니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
 
    ![](assets/local_validation_split_2.png)
 
-1. **[!UICONTROL By data distribution]** 옵션을 선택하고 이전에 만든 배포 템플릿을 선택합니다(단계 1:데이터 배포 템플릿](#step-1--creating-the-data-distribution-template-))을 만들고 **[!UICONTROL Finish]**&#x200B;를 클릭합니다.[
+1. **[!UICONTROL By data distribution]** 옵션을 선택하고 이전에 만든 배포 템플릿을 선택합니다(단계 1: 데이터 배포 템플릿](#step-1--creating-the-data-distribution-template-))을 만들고 **[!UICONTROL Finish]**&#x200B;를 클릭합니다.[
 
    ![](assets/local_validation_split_3.png)
 
@@ -134,7 +136,7 @@ ht-degree: 2%
 
 **[!UICONTROL Local approval]** 활동을 통해 각 로컬 감독자에게 알림을 보낼 수 있습니다.
 
-**[!UICONTROL Local approval]** 활동 구성에 대한 자세한 내용은 [로컬 승인](../../workflow/using/local-approval.md)을 참조하십시오.
+**[!UICONTROL Local approval]** 활동 구성에 대한 자세한 내용은 [로컬 승인](local-approval.md)을 참조하십시오.
 
 ![](assets/local_validation_workflow_2.png)
 
@@ -145,7 +147,7 @@ ht-degree: 2%
 
    타겟팅된 모집단을 제한하지 않으려면 여기에서 **[!UICONTROL Explicit]** 옵션을 선택하고 **[!UICONTROL Data distribution]** 필드에 이전에 만든 배포 템플릿을 입력합니다.
 
-1. **[!UICONTROL Notification]** 섹션에서 게재 템플릿과 알림 이메일에 사용할 제목을 선택합니다. 여기서는 기본 템플릿을 선택했습니다.**[!UICONTROL Local approval notification]**
+1. **[!UICONTROL Notification]** 섹션에서 게재 템플릿과 알림 이메일에 사용할 제목을 선택합니다. 여기서는 기본 템플릿을 선택했습니다. **[!UICONTROL Local approval notification]**
 1. **[!UICONTROL Approval schedule]** 섹션에서는 기본 승인 기한(3일)을 유지하고 미리 알림을 추가했습니다. 배송은 승인 시작 3일 후에 떠날 것입니다. 승인 기한이 지나면, 승인되지 않은 수신자는 타겟팅으로 고려하지 않습니다.
 
 **[!UICONTROL Local approval]** 활동에서 로컬 감독자에게 보낸 알림 이메일은 다음과 같습니다.

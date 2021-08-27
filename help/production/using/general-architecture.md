@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 일반 아키텍처{#general-architecture}
+
+![](../../assets/v7-only.svg)
 
 ## 최소 아키텍처 {#minimum-architecture}
 
@@ -50,7 +52,7 @@ Adobe Campaign은 여러 시스템에 대해 분류할 수 있는 여러 모듈�
 | 포트 번호 | 관련 Adobe Campaign 모듈 또는 애플리케이션 | 구성 가능 |
 |---|---|---|
 | 443/tcp 또는 80/tcp | 웹 서버(Apache/IIS) | 예 |
-| 6666/udp(로컬) | Adobe Campaign:Syslogd | 예 |
-| 8005/tcp(로컬) | Adobe Campaign:웹 모듈 | 예 |
-| 8080/tcp | Adobe Campaign:웹 모듈(tomcat) | 예 |
+| 6666/udp(로컬) | Adobe Campaign: Syslogd | 예 |
+| 8005/tcp(로컬) | Adobe Campaign: 웹 모듈 | 예 |
+| 8080/tcp | Adobe Campaign: 웹 모듈(tomcat) | 예 |
 | 777년 | 통계 서버(통계 서버) | 예 |

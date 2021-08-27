@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 개인화 블록{#personalization-blocks}
+
+![](../../assets/common.svg)
 
 개인화 블록은 동적이고 개인화된 블록이며 게재에 삽입할 수 있는 특정 렌더링을 포함합니다. 예를 들어 로고, 인사말 또는 미러 페이지에 대한 링크를 추가할 수 있습니다. [개인화 블록 삽입](#inserting-personalization-blocks)을 참조하십시오.
 
@@ -93,30 +95,30 @@ HTML 소스 코드가 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
 
 ![](assets/s_ncs_user_personalized_block_list.png)
 
-* **[!UICONTROL Greetings]** :받는 사람의 이름으로 인사를 삽입합니다. 예:&quot;안녕하세요, 존 도.&quot;
-* **[!UICONTROL Insert logo]** :인스턴스를 구성할 때 정의된 기본 제공 로고를 삽입합니다.
-* **[!UICONTROL Powered by Adobe Campaign]** :&quot;Powered by Adobe Campaign&quot; 로고를 삽입합니다.
-* **[!UICONTROL Mirror page URL]** :는 미러 페이지 URL을 삽입하여 게재 디자이너가 링크를 확인할 수 있도록 합니다.
+* **[!UICONTROL Greetings]** : 받는 사람의 이름으로 인사를 삽입합니다. 예: &quot;안녕하세요, 존 도.&quot;
+* **[!UICONTROL Insert logo]** : 인스턴스를 구성할 때 정의된 기본 제공 로고를 삽입합니다.
+* **[!UICONTROL Powered by Adobe Campaign]** : &quot;Powered by Adobe Campaign&quot; 로고를 삽입합니다.
+* **[!UICONTROL Mirror page URL]** : 는 미러 페이지 URL을 삽입하여 게재 디자이너가 링크를 확인할 수 있도록 합니다.
 
    >[!NOTE]
    >
    >미러 페이지 생성에 대한 자세한 내용은 [미러 페이지 생성](sending-messages.md#generating-the-mirror-page)을 참조하십시오.
 
-* **[!UICONTROL Link to mirror page]** :미러 페이지에 대한 링크를 삽입합니다.&quot;이 메시지를 올바르게 볼 수 없는 경우 여기를 클릭하십시오.&quot;
-* **[!UICONTROL Unsubscription link]** :모든 게재에서 구독을 취소할 수 있는 링크를 차단 목록 삽입합니다.
-* **[!UICONTROL Formatting function for proper nouns]** :는  **[!UICONTROL toSmartCase]** 각 단어의 첫 번째 문자를 대문자로 변경하는 Javascript 함수를 생성합니다.
-* **[!UICONTROL Registration page URL]** :구독 URL을 삽입합니다( [서비스 및 구독 정보 참조](about-services-and-subscriptions.md)).
-* **[!UICONTROL Registration link]** :구독 링크를 삽입합니다. 인스턴스를 구성할 때 정의된 인스턴스 수입니다.
-* **[!UICONTROL Registration link (with referrer)]** :방문자 및 게재를 식별할 수 있도록 구독 링크를 삽입합니다. 인스턴스를 구성할 때 링크가 정의되어 있습니다.
+* **[!UICONTROL Link to mirror page]** : 미러 페이지에 대한 링크를 삽입합니다. &quot;이 메시지를 올바르게 볼 수 없는 경우 여기를 클릭하십시오.&quot;
+* **[!UICONTROL Unsubscription link]** : 모든 게재에서 구독을 취소할 수 있는 링크를 차단 목록 삽입합니다.
+* **[!UICONTROL Formatting function for proper nouns]** : 는  **[!UICONTROL toSmartCase]** 각 단어의 첫 번째 문자를 대문자로 변경하는 Javascript 함수를 생성합니다.
+* **[!UICONTROL Registration page URL]** : 구독 URL을 삽입합니다( [서비스 및 구독 정보 참조](about-services-and-subscriptions.md)).
+* **[!UICONTROL Registration link]** : 구독 링크를 삽입합니다. 인스턴스를 구성할 때 정의된 인스턴스 수입니다.
+* **[!UICONTROL Registration link (with referrer)]** : 방문자 및 게재를 식별할 수 있도록 구독 링크를 삽입합니다. 인스턴스를 구성할 때 링크가 정의되어 있습니다.
 
    >[!NOTE]
    >
    >이 블록은 방문자만 타깃팅하는 게재에서 사용할 수 있습니다.
 
-* **[!UICONTROL Registration confirmation]** :구독을 확인하는 링크를 삽입합니다.
-* **[!UICONTROL Social network sharing links]** :수신자가 이메일 클라이언트, Facebook, Twitter 및 LinkedIn과 미러 페이지 컨텐츠에 대한 링크를 공유할 수 있는 단추를 삽입합니다( [바이럴 마케팅 참조:친구에게 전달](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
-* **[!UICONTROL Style of content emails]** 및  **[!UICONTROL Notification style]** :사전 정의된 HTML 스타일로 전자 메일의 형식을 지정하는 코드를 생성합니다. 이러한 블록은 **[!UICONTROL ...]** 섹션의 게재 소스 코드에 삽입해야 합니다. **`<style>...</style>`** 태그입니다.
-* **[!UICONTROL Offer acceptance URL in unitary mode]** :상호 작용 오퍼를 로 설정할 수 있는 URL을  **[!UICONTROL Accepted]** 삽입합니다( [이 섹션](../../interaction/using/offer-analysis-report.md) 참조).
+* **[!UICONTROL Registration confirmation]** : 구독을 확인하는 링크를 삽입합니다.
+* **[!UICONTROL Social network sharing links]** : 수신자가 이메일 클라이언트, Facebook, Twitter 및 LinkedIn과 미러 페이지 컨텐츠에 대한 링크를 공유할 수 있는 단추를 삽입합니다( [바이럴 마케팅 참조: 친구에게 전달](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
+* **[!UICONTROL Style of content emails]** 및  **[!UICONTROL Notification style]** : 사전 정의된 HTML 스타일로 전자 메일의 형식을 지정하는 코드를 생성합니다. 이러한 블록은 **[!UICONTROL ...]** 섹션의 게재 소스 코드에 삽입해야 합니다. **`<style>...</style>`** 태그입니다.
+* **[!UICONTROL Offer acceptance URL in unitary mode]** : 상호 작용 오퍼를 로 설정할 수 있는 URL을  **[!UICONTROL Accepted]** 삽입합니다( [이 섹션](../../interaction/using/offer-analysis-report.md) 참조).
 
 ## 사용자 지정 개인화 블록 정의 {#defining-custom-personalization-blocks}
 

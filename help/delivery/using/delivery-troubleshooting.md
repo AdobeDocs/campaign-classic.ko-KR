@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 게재 전송 문제 해결 {#delivery-troubleshooting}
+
+![](../../assets/common.svg)
 
 이 섹션에는 게재를 보낼 때 발생할 수 있는 일반적인 문제와 이러한 문제를 해결하는 방법이 나와 있습니다.
 
@@ -35,11 +37,11 @@ ht-degree: 1%
 
 * Adobe Campaign MTA 내에서 전송률 조절이 발생했을 수 있습니다. 이 문제는 다음 원인으로 인해 발생합니다.
 
-   * 보류 중인 메시지(**[!UICONTROL quotas met]** 메시지):Campaign에 정의된 선언적 MX 규칙으로 선언된 할당량이 충족되었습니다. 이 메시지에 대한 자세한 내용은 [이 페이지](deliverability-faq.md)를 참조하십시오. MX 규칙에 대한 자세한 내용은 [이 섹션](../../installation/using/email-deliverability.md#about-mx-rules)을 참조하십시오.
+   * 보류 중인 메시지(**[!UICONTROL quotas met]** 메시지): Campaign에 정의된 선언적 MX 규칙으로 선언된 할당량이 충족되었습니다. 이 메시지에 대한 자세한 내용은 [이 페이지](deliverability-faq.md)를 참조하십시오. MX 규칙에 대한 자세한 내용은 [이 섹션](../../installation/using/email-deliverability.md#about-mx-rules)을 참조하십시오.
 
-   * 보류 중인 메시지(**[!UICONTROL dynamic flow control]** 메시지):Campaign MTA가 주어진 ISP에 메시지를 전달하려고 할 때 오류가 발생하여 오류 밀도가 너무 커 잠재적이 발생하지 차단 목록 않습니다.
+   * 보류 중인 메시지(**[!UICONTROL dynamic flow control]** 메시지): Campaign MTA가 주어진 ISP에 메시지를 전달하려고 할 때 오류가 발생하여 오류 밀도가 너무 커 잠재적이 발생하지 차단 목록 않습니다.
 
-* 시스템 문제로 인해 서버가 서로 상호 작용할 수 없습니다.이렇게 하면 전체 전송 프로세스가 느려질 수 있습니다. 예를 들어 개인화 데이터를 가져오는 과정에서 Campaign에 영향을 줄 수 있는 메모리 또는 리소스 문제가 없는지 서버를 확인합니다.
+* 시스템 문제로 인해 서버가 서로 상호 작용할 수 없습니다. 이렇게 하면 전체 전송 프로세스가 느려질 수 있습니다. 예를 들어 개인화 데이터를 가져오는 과정에서 Campaign에 영향을 줄 수 있는 메모리 또는 리소스 문제가 없는지 서버를 확인합니다.
 
 ## 예약된 게재 {#scheduled-deliveries-}
 

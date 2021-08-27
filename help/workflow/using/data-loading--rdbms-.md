@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 3%
@@ -15,9 +15,11 @@ ht-degree: 3%
 
 # 데이터 로딩(RDBMS){#data-loading-rdbms}
 
+![](../../assets/common.svg)
+
 **[!UICONTROL Data loading (RDBMS)]** 활동을 사용하면 이 외부 데이터베이스에 직접 액세스하고 타깃팅에 필요한 데이터만 수집할 수 있습니다.
 
-성능을 향상시키기 위해 쿼리 활동(외부 데이터베이스의 데이터를 사용할 수 있는 경우)을 사용하는 것이 좋습니다. 자세한 내용은 [외부 데이터베이스 액세스(FDA)](../../workflow/using/accessing-an-external-database--fda-.md)를 참조하십시오.
+성능을 향상시키기 위해 쿼리 활동(외부 데이터베이스의 데이터를 사용할 수 있는 경우)을 사용하는 것이 좋습니다. 자세한 내용은 [외부 데이터베이스 액세스(FDA)](accessing-an-external-database--fda-.md)를 참조하십시오.
 
 작업은 다음과 같습니다.
 

@@ -6,24 +6,26 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
 
 # 워크플로우 실행 모니터링 {#monitoring-workflow-execution}
 
+![](../../assets/common.svg)
+
 이 섹션에서는 워크플로우의 실행을 모니터링하는 방법에 대한 정보를 제공합니다.
 
-&quot;일시 중지됨&quot;, &quot;중지됨&quot; 또는 &quot;오류가 있는 워크플로우 집합 상태를 모니터링할 수 있는 워크플로우를 만드는 방법에 대한 사용 사례는 [이 섹션](../../workflow/using/supervising-workflows.md#supervising-workflows)에서도 사용할 수 있습니다.
+&quot;일시 중지됨&quot;, &quot;중지됨&quot; 또는 &quot;오류가 있는 워크플로우 집합 상태를 모니터링할 수 있는 워크플로우를 만드는 방법에 대한 사용 사례는 [이 섹션](supervising-workflows.md#supervising-workflows)에서도 사용할 수 있습니다.
 
-또한 인스턴스의 관리자는 **감사 추적**&#x200B;을 사용하여 워크플로우의 상태인 활동과 마지막으로 수행된 수정 사항을 확인할 수 있습니다. 자세한 내용은 [전용 섹션](../../production/using/audit-trail.md)을 참조하십시오.
+또한 인스턴스의 관리자는 **감사 추적**&#x200B;을 사용하여 워크플로우의 상태인 활동과 마지막으로 수행된 수정 사항을 확인할 수 있습니다. 자세한 내용은 [Campaign Classic v7 프로덕션 안내서](../../production/using/audit-trail.md)를 참조하십시오.
 
-다른 Campaign 프로세스를 모니터링하는 추가 방법은 이 페이지](../../production/using/monitoring-guidelines.md)에 나와 있습니다.[
+다른 캠페인 프로세스를 모니터링하는 추가 방법은 [Campaign Classic v7 프로덕션 안내서](../../production/using/monitoring-guidelines.md)에 나와 있습니다.
 
-## 진행률 {#displaying-progress} 표시
+## 진행 상태 표시 {#displaying-progress}
 
 도구 모음에서 적절한 아이콘을 사용하여 진행 상황을 표시하여 실행을 모니터링할 수 있습니다.
 
@@ -35,7 +37,7 @@ ht-degree: 0%
 
 ![](assets/s_user_segmentation_results.png)
 
-## 로그 {#displaying-logs} 표시
+## 로그 표시 {#displaying-logs}
 
 로그에는 워크플로우의 기록 또는 감사 기록이 포함되어 있습니다. 모든 사용자 작업, 수행된 모든 작업 및 발생한 오류를 등록합니다. 다음을 수행할 수 있습니다.
 
@@ -51,7 +53,7 @@ ht-degree: 0%
    >
    >다이어그램의 배경을 클릭하여 모든 요소를 선택 취소합니다.
 
-* 지정된 작업에 연결된 메시지만 표시합니다. 이렇게 하려면 **[!UICONTROL Tasks]** 탭을 선택한 다음 다이어그램에서 활동을 선택하여 목록을 제한합니다. 작업을 두 번 클릭하여 정보를 표시합니다.창의 마지막 탭에는 로그가 포함되어 있습니다.
+* 지정된 작업에 연결된 메시지만 표시합니다. 이렇게 하려면 **[!UICONTROL Tasks]** 탭을 선택한 다음 다이어그램에서 활동을 선택하여 목록을 제한합니다. 작업을 두 번 클릭하여 정보를 표시합니다. 창의 마지막 탭에는 로그가 포함되어 있습니다.
 
    ![](assets/new-workflow-display-tasks-activity.png)
 
@@ -71,7 +73,7 @@ ht-degree: 0%
 
    ![](assets/s_user_segmentation_journal.png)
 
-   모든 캠페인 메시지가 표시됩니다.캠페인뿐만 아니라 경고 또는 오류가 발생했습니다.
+   모든 캠페인 메시지가 표시됩니다. 캠페인뿐만 아니라 경고 또는 오류가 발생했습니다.
 
 * 활동 로그
 
@@ -81,7 +83,7 @@ ht-degree: 0%
 
       ![](assets/s_user_segmentation_show_logs.png)
 
-      다이어그램의 아래쪽 섹션에는 두 개의 탭이 표시됩니다.로그 및 작업.
+      다이어그램의 아래쪽 섹션에는 두 개의 탭이 표시됩니다. 로그 및 작업.
 
       다이어그램 내에서 선택한 활동은 로그 및 작업 목록에서 필터 역할을 합니다.
 
@@ -93,9 +95,9 @@ ht-degree: 0%
 
       로그는 별도의 창에 표시됩니다.
 
-## 로그 {#purging-the-logs} 제거
+## 로그 제거 {#purging-the-logs}
 
-워크플로우 내역은 자동으로 삭제되지 않습니다.모든 메시지는 기본적으로 유지됩니다. History 는 **[!UICONTROL File > Actions]** 메뉴를 통해 또는 목록 위의 도구 모음에 있는 **[!UICONTROL Actions]** 단추를 클릭하여 제거할 수 있습니다. **[!UICONTROL Purge history]**&#x200B;을(를) 선택합니다. **[!UICONTROL Actions]** 메뉴에서 사용할 수 있는 옵션은 [작업 도구 모음](../../workflow/using/starting-a-workflow.md) 섹션에 자세히 설명되어 있습니다.
+워크플로우 내역은 자동으로 삭제되지 않습니다. 모든 메시지는 기본적으로 유지됩니다. History 는 **[!UICONTROL File > Actions]** 메뉴를 통해 또는 목록 위의 도구 모음에 있는 **[!UICONTROL Actions]** 단추를 클릭하여 제거할 수 있습니다. **[!UICONTROL Purge history]**&#x200B;을(를) 선택합니다. **[!UICONTROL Actions]** 메뉴에서 사용할 수 있는 옵션은 [작업 도구 모음](starting-a-workflow.md) 섹션에 자세히 설명되어 있습니다.
 
 ![](assets/purge_historique.png)
 
@@ -105,7 +107,7 @@ ht-degree: 0%
 
 또한 다양한 작업 차원 간에 링크를 만들고 차원 변경 사항을 정의할 수도 있습니다. 예를 들어, 데이터베이스에 기록된 각 계약에 대해 주 홀더에 주소를 지정하고 추가 정보에 공동 홀더 데이터를 사용합니다.
 
-워크플로우가 수동되면 워크플로우의 작업 테이블이 자동으로 삭제됩니다. 작업 테이블을 유지하려면 **[!UICONTROL List update]** 활동을 통해 목록에 저장합니다( [목록 업데이트](../../workflow/using/list-update.md) 참조).
+워크플로우가 수동되면 워크플로우의 작업 테이블이 자동으로 삭제됩니다. 작업 테이블을 유지하려면 **[!UICONTROL List update]** 활동을 통해 목록에 저장합니다( [목록 업데이트](list-update.md) 참조).
 
 ## 오류 관리 {#managing-errors}
 
@@ -121,7 +123,7 @@ Adobe Campaign 탐색기에서 기본적으로 워크플로우 목록에 **[!UIC
 
 ![](assets/wf-properties_select-supervisors.png)
 
-알림 컨텐츠는 **[!UICONTROL Workflow manager notification]** 기본 템플릿에서 구성됩니다.이 템플릿은 워크플로우 속성의 **[!UICONTROL Execution]** 탭에서 선택됩니다. 알림에는 오류 워크플로우의 이름과 관련 작업이 표시됩니다.
+알림 컨텐츠는 **[!UICONTROL Workflow manager notification]** 기본 템플릿에서 구성됩니다. 이 템플릿은 워크플로우 속성의 **[!UICONTROL Execution]** 탭에서 선택됩니다. 알림에는 오류 워크플로우의 이름과 관련 작업이 표시됩니다.
 
 알림 예:
 
@@ -141,7 +143,7 @@ Adobe Campaign 탐색기에서 기본적으로 워크플로우 목록에 **[!UIC
 >
 >각 활동에 대해 이 구성을 개별적으로 적용할 수 있습니다. 이렇게 하려면 활동 속성을 편집하고 **[!UICONTROL Advanced]** 탭에서 오류 관리 모드를 선택합니다.
 
-워크플로우의 실행 문제 해결에 대한 자세한 내용은 [전용 섹션](../../production/using/workflow-execution.md)을 참조하십시오.
+워크플로우의 실행 문제 해결에 대한 자세한 내용은 [Campaign Classic v7 프로덕션 안내서](../../production/using/workflow-execution.md)를 참조하십시오.
 
 ## 처리 오류 {#processing-errors}
 
@@ -228,29 +230,29 @@ instance.vars.isRunning = false
    logInfo("Workflow already running, parallel execution not allowed.");
    ```
 
-사용 사례는 다음 섹션에 나와 있습니다.[데이터 업데이트 조정](../../workflow/using/coordinating-data-updates.md).
+사용 사례는 다음 섹션에 나와 있습니다. [데이터 업데이트 조정](coordinating-data-updates.md).
 
 ## 데이터베이스 유지 관리 {#database-maintenance}
 
 워크플로우는 공간을 사용하고 유지되지 않는 경우 전체 플랫폼을 느리게 하는 많은 작업 테이블을 사용합니다. 데이터베이스 유지 관리에 대한 자세한 내용은 이 [섹션](../../production/using/tables-to-maintain.md) 을 참조하십시오.
 
-**관리 > 프로덕션 > 기술 워크플로우** 노드를 통해 액세스할 수 있는 **데이터베이스 정리** 워크플로우에서는 데이터베이스의 기하급수적인 증가를 방지하기 위해 오래된 데이터를 삭제할 수 있습니다. 워크플로우는 사용자 개입 없이 자동으로 트리거됩니다. 이 [섹션](../../production/using/database-cleanup-workflow.md)을 참조하십시오.
+**관리 > 프로덕션 > 기술 워크플로우** 노드를 통해 액세스할 수 있는 **데이터베이스 정리** 워크플로우에서는 데이터베이스의 기하급수적인 증가를 방지하기 위해 오래된 데이터를 삭제할 수 있습니다. 워크플로우는 사용자 개입 없이 자동으로 트리거됩니다. [Campaign Classic v7 프로덕션 안내서](../../production/using/database-cleanup-workflow.md)를 참조하십시오.
 
-특정 기술 워크플로우를 만들어 불필요한 데이터 소비 공간을 제거할 수도 있습니다. 이 [섹션](../../production/using/application-objects.md) 및 이 [page](#purging-the-logs)을 참조하십시오.
+특정 기술 워크플로우를 만들어 불필요한 데이터 소비 공간을 제거할 수도 있습니다. [Campaign Classic v7 프로덕션 안내서](../../production/using/application-objects.md) 및 이 [섹션](#purging-the-logs)을 참조하십시오.
 
 ## 일시 중지된 워크플로우 처리 {#handling-of-paused-workflows}
 
 기본적으로 워크플로우가 일시 중지된 경우에는 해당 작업 테이블이 삭제되지 않습니다. 빌드 8880에서 너무 오랫동안 일시 중지된 워크플로우가 자동으로 중지되고 작업 테이블이 삭제됩니다. 이 동작은 다음과 같이 트리거됩니다.
 
 * 7일 이상 일시 중지된 워크플로우는 모니터링 대시보드(및 모니터링 API)에 경고로 표시되며 수퍼바이저 그룹에 알림이 전송됩니다.
-* **[!UICONTROL cleanupPausedWorkflows]** 기술 워크플로우가 트리거되는 경우 매주 동일한 일이 발생합니다. 워크플로우에 대한 자세한 내용은 [이 섹션](../../workflow/using/delivery.md)을 참조하십시오.
+* **[!UICONTROL cleanupPausedWorkflows]** 기술 워크플로우가 트리거되는 경우 매주 동일한 일이 발생합니다. 워크플로우에 대한 자세한 내용은 [이 섹션](delivery.md)을 참조하십시오.
 * 4개의 알림(즉, 기본적으로 일시 중지된 상태로 1개월)이 지나면 워크플로우가 조건 없이 중지됩니다. 로그가 중지되면 워크플로우에 로그가 나타납니다. 다음 실행 **[!UICONTROL cleanup]** 워크플로우에서 테이블이 삭제됩니다
 
 NmsServer_PausedWorkflowPeriod 옵션을 통해 이러한 기간을 구성할 수 있습니다.
 
 워크플로우 관리자가 알림을 받습니다. 워크플로우를 수정한 작성자와 마지막 사용자에게도 알림이 표시됩니다. 관리자는 알림을 받지 않습니다.
 
-## 상태 {#filtering-workflows-status}에 따라 워크플로우 필터링
+## 상태에 따라 워크플로우 필터링 {#filtering-workflows-status}
 
 Campaign Classic 인터페이스를 사용하면 사전 정의된 **views**&#x200B;를 사용하여 인스턴스에 있는 모든 워크플로우의 실행 상태를 모니터링할 수 있습니다. 이러한 보기에 액세스하려면 **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]** 노드를 엽니다.
 
@@ -259,7 +261,7 @@ Campaign Classic 인터페이스를 사용하면 사전 정의된 **views**&#x20
 * **[!UICONTROL Running]**: 실행 중인 모든 워크플로우를 나열합니다.
 * **[!UICONTROL Paused]**: 일시 중지된 모든 워크플로우를 나열합니다.
 * **[!UICONTROL Failed]**: 실패한 모든 워크플로우를 나열합니다.
-* **[!UICONTROL Start Pending]**: operationMgt 프로세스에 의해 시작되기를 기다리는 모든 워크플로우를 나열합니다. 이 보기는 **마케팅 캠페인** 패키지만 사용할 수 있습니다([Campaign 기본 제공 패키지 설치](../../installation/using/installing-campaign-standard-packages.md) 참조).
+* **[!UICONTROL Start Pending]**: operationMgt 프로세스에 의해 시작되기를 기다리는 모든 워크플로우를 나열합니다. 이 보기는 **마케팅 캠페인** 패키지만 사용할 수 있습니다. 자세한 내용은 [Campaign Classic v7 설치 안내서](../../installation/using/installing-campaign-standard-packages.md))를 참조하십시오.
 
 ![](assets/workflow-monitoring-views.png)
 

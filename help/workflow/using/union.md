@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 1%
@@ -15,13 +15,15 @@ ht-degree: 1%
 
 # 결합{#union}
 
-결합 은 단일 타겟에 여러 인바운드 활동의 결과를 그룹화합니다. 수신한 모든 결과가 있는 대상이 만들어집니다.따라서 결합을 실행하려면 모든 이전 활동을 완료해야 합니다.
+![](../../assets/common.svg)
+
+결합 은 단일 타겟에 여러 인바운드 활동의 결과를 그룹화합니다. 수신한 모든 결과가 있는 대상이 만들어집니다. 따라서 결합을 실행하려면 모든 이전 활동을 완료해야 합니다.
 
 ![](assets/s_user_segmentation_union.png)
 
 >[!NOTE]
 >
->결합 활동 구성 및 사용에 대한 자세한 내용은 [여러 대상 결합(결합)](../../workflow/using/targeting-data.md#combining-several-targets--union-)을 참조하십시오.
+>결합 활동 구성 및 사용에 대한 자세한 내용은 [여러 대상 결합(결합)](targeting-data.md#combining-several-targets--union-)을 참조하십시오.
 
 ## 결합 예 {#union-example}
 
@@ -35,7 +37,7 @@ ht-degree: 1%
 
    최대 수신자 수를 입력하고 모집단이 우선할 쿼리를 선택하여 이 최종 수를 지정합니다.
 
-1. 결합 활동을 승인하고 목록 업데이트 활동을 구성합니다([목록 업데이트](../../workflow/using/list-update.md) 참조).
+1. 결합 활동을 승인하고 목록 업데이트 활동을 구성합니다([목록 업데이트](list-update.md) 참조).
 1. 워크플로우 시작. 결과 수가 표시되고 목록 업데이트 활동에 정의된 목록이 생성되거나 업데이트됩니다. 이 목록에는 쿼리 및 적용 가능한 경우 이전 단계에서 정의한 번호에 대한 수신자 세트가 포함되어 있습니다.
 
    ![](assets/union_example.png)

@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 1%
@@ -15,7 +15,9 @@ ht-degree: 1%
 
 # 내보내기 작업 구성 {#executing-export-jobs}
 
-내보내기 작업을 사용하면 데이터베이스에서 데이터에 액세스하고 데이터를 추출할 수 있습니다.연락처, 클라이언트, 목록, 세그먼트 등
+![](../../assets/common.svg)
+
+내보내기 작업을 사용하면 데이터베이스에서 데이터에 액세스하고 데이터를 추출할 수 있습니다. 연락처, 클라이언트, 목록, 세그먼트 등
 
 예를 들어 캠페인 추적 데이터(추적 내역 등)를 사용하는 데 유용할 수 있습니다. 스프레드시트에 넣을 수 있습니다. 출력 데이터는 txt, CSV, TAB 또는 XML 형식으로 지정할 수 있습니다.
 
@@ -23,7 +25,7 @@ ht-degree: 1%
 
 새 내보내기 작업을 만들면 내보내기 마법사가 표시됩니다( [가져오기 및 내보내기 작업 만들기](../../platform/using/creating-import-export-jobs.md) 참조).
 
-## 1단계 - 내보내기 템플릿 {#step-1---choosing-the-export-template} 선택
+## 1단계 - 내보내기 템플릿 선택 {#step-1---choosing-the-export-template}
 
 내보내기 마법사를 시작할 때 먼저 템플릿을 선택해야 합니다. 예를 들어 최근에 등록한 수신자의 내보내기를 구성하려면 아래 단계를 수행하십시오.
 
@@ -37,7 +39,7 @@ ht-degree: 1%
    기본 템플릿은 **[!UICONTROL New text export]**&#x200B;입니다. 이 템플릿은 수정해서는 안 되지만, 복제하여 새 템플릿을 구성할 수 있습니다. 기본적으로 내보내기 템플릿은 **[!UICONTROL Resources > Templates > Job templates]** 노드에 저장됩니다.
 
 1. **[!UICONTROL Label]** 필드에 내보낼 이름을 입력합니다. 설명을 추가할 수 있습니다.
-1. 내보내기 유형을 선택합니다. 다음과 같은 두 가지 유형의 내보내기가 있습니다.**[!UICONTROL Simple export]** 한 파일만 내보내려면 를 선택하고, 하나 이상의 소스 문서에서 한 번의 실행으로 여러 파일을 내보내려면 **[!UICONTROL Multiple export]** 을 사용합니다.
+1. 내보내기 유형을 선택합니다. 다음과 같은 두 가지 유형의 내보내기가 있습니다. **[!UICONTROL Simple export]** 한 파일만 내보내려면 를 선택하고, 하나 이상의 소스 문서에서 한 번의 실행으로 여러 파일을 내보내려면 **[!UICONTROL Multiple export]** 을 사용합니다.
 
 ## 2단계 - 내보낼 파일 유형 {#step-2---type-of-file-to-export}
 
@@ -61,9 +63,9 @@ ht-degree: 1%
 
    마지막 수정 일자를 입력해야 합니다. 필드나 계산된 필드에서 검색할 수 있습니다.
 
-## 3단계 - 출력 형식 {#step-3---defining-the-output-format} 정의
+## 3단계 - 출력 형식 정의 {#step-3---defining-the-output-format}
 
-내보내기 파일의 출력 형식을 선택합니다. 다음 형식을 사용할 수 있습니다.텍스트, 고정 열 텍스트, CSV 및 XML입니다.
+내보내기 파일의 출력 형식을 선택합니다. 다음 형식을 사용할 수 있습니다. 텍스트, 고정 열 텍스트, CSV 및 XML입니다.
 
 ![](assets/s_ncs_user_export_wizard03.png)
 
@@ -123,7 +125,7 @@ ht-degree: 1%
 
 마법사 하단의 탭을 클릭하여 열의 결과 미리 보기에서 XML의 결과로 전환합니다. 생성된 SQL 쿼리를 볼 수도 있습니다.
 
-## 9단계 - 내보내기 {#step-9---launching-the-export} 시작
+## 9단계 - 내보내기 시작 {#step-9---launching-the-export}
 
 **[!UICONTROL Start]** 을 클릭하여 데이터 내보내기를 시작합니다.
 

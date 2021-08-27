@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 5%
@@ -15,10 +15,12 @@ ht-degree: 5%
 
 # 운영자 프로필{#operator-profiles}
 
-상호 작용을 사용하는 연산자는 두 가지 유형이 있습니다.오퍼 관리자 및 게재 관리자 이들은 트리와 플랫폼의 일부 부분에만 액세스할 수 있는 특정 권한을 갖습니다.
+![](../../assets/v7-only.svg)
 
-* **[!UICONTROL Offer manager]** :오퍼를 만들고 유지 관리합니다. 오퍼가 워크플로우에서 사용되는 경우 워크플로우를 실행하려면 연산자가 **[!UICONTROL Administrator]** 또는 **[!UICONTROL Offer managers]** 운영자 그룹에 있어야 합니다.
-* **[!UICONTROL Delivery manager]** :오퍼 승인 및 사용
+상호 작용을 사용하는 연산자는 두 가지 유형이 있습니다. 오퍼 관리자 및 게재 관리자 이들은 트리와 플랫폼의 일부 부분에만 액세스할 수 있는 특정 권한을 갖습니다.
+
+* **[!UICONTROL Offer manager]** : 오퍼를 만들고 유지 관리합니다. 오퍼가 워크플로우에서 사용되는 경우 워크플로우를 실행하려면 연산자가 **[!UICONTROL Administrator]** 또는 **[!UICONTROL Offer managers]** 운영자 그룹에 있어야 합니다.
+* **[!UICONTROL Delivery manager]** : 오퍼 승인 및 사용
 
 상호 작용에 대한 연산자를 만드는 단계는 플랫폼에서 다른 모든 연산자를 만드는 데 사용되는 연산자와 동일합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/access-management.md)을 참조하십시오. 연산자를 만드는 동안 권한이 구성됩니다.
 
@@ -43,7 +45,7 @@ ht-degree: 5%
    >
    >오퍼 관리자는 특정 두 가지 경우에만 오퍼를 승인할 수 있습니다. 첫 번째 경우는 특히 아무도 검토자로 지정되지 않은 경우이고, 두 번째 경우는 템플릿을 만드는 운영자(검토자를 할당할 수 있는 권한 포함)가 오퍼를 기반으로 한 오퍼 템플릿의 검토자로 지정했는지 여부입니다.
 
-## 배달 관리자 {#delivery-manager}
+## 게재 관리자 {#delivery-manager}
 
 1. 새 연산자를 만듭니다.
 1. **[!UICONTROL Groups and named rights]** 창으로 이동하여 **[!UICONTROL Add]** 을 클릭하고 **[!UICONTROL Delivery manager]** 그룹을 선택합니다.
@@ -60,7 +62,7 @@ ht-degree: 5%
    >
    >게재 관리자는 오퍼 구성 중에 오퍼를 검토자로 정의한 경우에만 오퍼를 승인할 수 있습니다.
 
-## 연산자 {#recap-of-rights-according-to-operator}에 따른 권한 압축
+## 연산자에 따른 권한 모음 {#recap-of-rights-according-to-operator}
 
 <table> 
  <tbody> 

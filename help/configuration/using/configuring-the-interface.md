@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 인터페이스 구성{#configuring-the-interface}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign 인터페이스에서 새 수신자 테이블을 보고 대화 상자를 표시하려면 다음 단계를 적용합니다.
 
@@ -24,7 +26,7 @@ Adobe Campaign 인터페이스에서 새 수신자 테이블을 보고 대화 �
 Adobe Campaign은 &quot;Nms_DefaultRcpSchema&quot; 전역 변수를 사용하여 기본 수신자 데이터베이스(nms:recipient)와의 대화 상자를 사용합니다. 따라서 이 변수를 변경해야 합니다.
 
 1. 탐색기의 **[!UICONTROL Administration>Platform>Options]** 노드로 이동합니다.
-1. 외부 수신자 테이블과 일치하는 스키마의 이름으로 **Nms_DefaultRcpSchema** 변수의 값을 변경합니다(이 경우:cus:personal).
+1. 외부 수신자 테이블과 일치하는 스키마의 이름으로 **Nms_DefaultRcpSchema** 변수의 값을 변경합니다(이 경우: cus:personal).
 1. 변경 사항을 저장합니다.
 
 ## 새 양식 만들기 {#creating-a-new-form-}
@@ -60,7 +62,7 @@ Adobe Campaign은 &quot;Nms_DefaultRcpSchema&quot; 전역 변수를 사용하여
 
 1. 만들기를 저장합니다.
 
-## 탐색 계층 {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}에서 새 유형의 폴더 만들기
+## 탐색 계층 구조에서 새 유형의 폴더 만들기 {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
 
 1. **[!UICONTROL Administration>Configuration>Navigation hierarchies]** 노드로 이동합니다.
 1. 새 **xtk:navtree** **navtree** 문서를 만듭니다.

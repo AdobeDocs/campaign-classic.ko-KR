@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 데이터 스키마{#data-schemas}
+
+![](../../assets/common.svg)
 
 다음은 Adobe Campaign의 데이터 스키마 사용에 대한 몇 가지 일반적인 원칙입니다.
 
@@ -75,11 +77,11 @@ Adobe Campaign에서 데이터 스키마를 만들고 구성하는 방법에 대
 
 컨텐츠 관리에 사용되는 기본 속성은 다음과 같습니다.
 
-* **레이블**:간단한 설명,
-* **desc**:긴 설명
-* **기본값**:콘텐츠 생성 시 기본값을 반환하는 표현식
-* **userEnum**:이 필드를 통해 입력한 값을 저장하고 표시하기 위한 자유 열거형
-* **enum**:가능한 값 목록을 미리 알 때 사용되는 열거형을 수정했습니다.
+* **레이블**: 간단한 설명,
+* **desc**: 긴 설명
+* **기본값**: 콘텐츠 생성 시 기본값을 반환하는 표현식
+* **userEnum**: 이 필드를 통해 입력한 값을 저장하고 표시하기 위한 자유 열거형
+* **enum**: 가능한 값 목록을 미리 알 때 사용되는 열거형을 수정했습니다.
 
 다음은 속성이 채워진 예제 스키마입니다.
 
@@ -122,13 +124,13 @@ Adobe Campaign에서 데이터 스키마를 만들고 구성하는 방법에 대
 >
 >**ordered=&quot;true&quot;** 특성이 있으면 삽입된 컬렉션 요소의 순서를 지정할 수 있습니다.
 
-## {#element-referencing} 을 참조하는 요소
+## 요소 참조 {#element-referencing}
 
 요소 참조는 컨텐츠 스키마에서 많이 사용됩니다. 이 옵션을 사용하면 **`<element>`** 요소의 정의를 계승하여 구조가 동일한 다른 요소에서 참조할 수 있습니다.
 
 참조할 요소의 **ref** 특성은 참조 요소의 경로(XPath)로 완료해야 합니다.
 
-**예**:예제  **** 스키마의 요소와 동일한 구조를 갖는  **`<chapter>`** 부록 섹션 추가.
+**예**: 예제  **** 스키마의 요소와 동일한 구조를 갖는  **`<chapter>`** 부록 섹션 추가.
 
 ```
 <srcSchema name="book" namespace="cus">

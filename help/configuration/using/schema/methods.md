@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: f45e32ce-6534-4df2-ac7c-ba1134f0ffc8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 20%
@@ -14,6 +14,8 @@ ht-degree: 20%
 ---
 
 # 메서드 요소 {#methods--element}
+
+![](../../../assets/v7-only.svg)
 
 ## 컨텐츠 모델 {#content-model-11}
 
@@ -35,7 +37,7 @@ ht-degree: 20%
 
 이 요소를 사용하여 `<method>` 요소를 정의할 수 있습니다. 메서드 선언에는 필수입니다.
 
-## 특성 설명 {#attribute-description-11}
+## 속성 설명 {#attribute-description-11}
 
 이 요소에는 특성이 없습니다.
 

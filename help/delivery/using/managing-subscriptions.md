@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 구독 관리{#managing-subscriptions}
+
+![](../../assets/common.svg)
 
 ## 정보 서비스 정보 {#about-information-services}
 
@@ -24,7 +26,7 @@ ht-degree: 2%
 * 구독 및 구독 취소 확인 메커니즘(확인, 이중 옵트인 등이 있는 간단한 메커니즘),
 * 가입자 기록 추적.
 
-표준 기능으로서, 이러한 서비스에는 특정 통계 보고서가 포함됩니다.가입자 추적, 충성도 수준, 구독 취소 트렌드 등
+표준 기능으로서, 이러한 서비스에는 특정 통계 보고서가 포함됩니다. 가입자 추적, 충성도 수준, 구독 취소 트렌드 등
 
 이메일의 경우, 필수 구독 취소 링크가 자동으로 생성되며 전체 옵트인/옵트아웃은 Adobe를 완전히 자동화하여 기록 추적을 통해 시행 중인 규정을 완전히 준수하도록 보장합니다.
 
@@ -50,17 +52,17 @@ ht-degree: 2%
 
 ![](assets/s_ncs_user_services_add.png)
 
-* **[!UICONTROL Label]** 필드에 서비스 이름을 입력하고 배달 채널을 선택합니다.이메일, 모바일, Facebook, Twitter 또는 모바일 애플리케이션.
+* **[!UICONTROL Label]** 필드에 서비스 이름을 입력하고 배달 채널을 선택합니다. 이메일, 모바일, Facebook, Twitter 또는 모바일 애플리케이션.
 
    >[!NOTE]
    >
    >Facebook 및 Twitter 가입은 [이 섹션에 자세히 설명되어 있습니다](../../social/using/about-social-marketing.md). 모바일 애플리케이션 구독은 [모바일 앱 채널 정보](about-mobile-app-channel.md)에 자세히 설명되어 있습니다.
 
-* 이메일 유형 서비스의 경우 **배달 모드**&#x200B;를 선택합니다. 가능한 모드는 다음과 같습니다.**[!UICONTROL Newsletter]** 또는 **[!UICONTROL Viral]**
+* 이메일 유형 서비스의 경우 **배달 모드**&#x200B;를 선택합니다. 가능한 모드는 다음과 같습니다. **[!UICONTROL Newsletter]** 또는 **[!UICONTROL Viral]**
 * 구독 또는 구독 취소에 대해 **확인 메시지**&#x200B;를 보낼 수 있습니다. 이렇게 하려면 **[!UICONTROL Subscription]** 및 **[!UICONTROL Unsubscription]** 필드에서 해당 게재를 만드는 데 사용할 게재 템플릿을 선택합니다. 이러한 템플릿은 정의된 대상 없이 **[!UICONTROL Subscription]** 유형 대상 매핑으로 구성해야 합니다. 섹션 [이메일 채널 정보](about-email-channel.md)를 참조하십시오.
 * 기본적으로 구독은 무제한 제공됩니다. **[!UICONTROL Unlimited]** 옵션을 선택 해제하여 서비스에 대한 유효 기간을 정의할 수 있습니다. 기간은 일(**[!UICONTROL d]** ) 또는 개월(**[!UICONTROL m]** )로 지정할 수 있습니다.
 
-서비스가 저장되면 서비스 및 구독 목록에 추가됩니다.해당 이름을 클릭하여 편집합니다. 몇 개의 탭을 사용할 수 있습니다. **[!UICONTROL Subscriptions]** 탭에서는 정보 서비스(**[!UICONTROL Active subscriptions]** 탭) 또는 구독/구독 취소 내역(**[!UICONTROL History]** 탭)의 구독자 목록을 볼 수 있습니다. 이 탭에서 구독자를 추가 및 삭제할 수도 있습니다. [구독자 추가 및 삭제](#adding-and-deleting-subscribers)를 참조하십시오.
+서비스가 저장되면 서비스 및 구독 목록에 추가됩니다. 해당 이름을 클릭하여 편집합니다. 몇 개의 탭을 사용할 수 있습니다. **[!UICONTROL Subscriptions]** 탭에서는 정보 서비스(**[!UICONTROL Active subscriptions]** 탭) 또는 구독/구독 취소 내역(**[!UICONTROL History]** 탭)의 구독자 목록을 볼 수 있습니다. 이 탭에서 구독자를 추가 및 삭제할 수도 있습니다. [구독자 추가 및 삭제](#adding-and-deleting-subscribers)를 참조하십시오.
 
 ![](assets/s_ncs_user_services_subscriptions.png)
 
@@ -70,7 +72,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_user_services_modify.png)
 
-대시보드에서 **[!UICONTROL Reports]** 탭을 클릭하여 구독을 추적합니다.구독 수준, 총 구독자 수 등의 변경 사항 이 탭에서 보고서를 보관하고 히스토리를 볼 수 있습니다.
+대시보드에서 **[!UICONTROL Reports]** 탭을 클릭하여 구독을 추적합니다. 구독 수준, 총 구독자 수 등의 변경 사항 이 탭에서 보고서를 보관하고 히스토리를 볼 수 있습니다.
 
 ## 구독자 추가 및 삭제 {#adding-and-deleting-subscribers}
 
@@ -121,7 +123,7 @@ ht-degree: 2%
 
 정보 서비스에 수신자를 등록하려면 다음 작업을 수행할 수 있습니다.
 
-* 서비스를 수동으로 추가합니다.이렇게 하려면 해당 프로필의 **[!UICONTROL Subscriptions]** 탭에서 **[!UICONTROL Add]** 을(를) 클릭하고 관련 정보 서비스를 선택합니다.
+* 서비스를 수동으로 추가합니다. 이렇게 하려면 해당 프로필의 **[!UICONTROL Subscriptions]** 탭에서 **[!UICONTROL Add]** 을(를) 클릭하고 관련 정보 서비스를 선택합니다.
 
    자세한 내용은 [이 섹션](../../platform/using/editing-a-profile.md)에서 프로필 편집에 대한 섹션을 참조하십시오.
 

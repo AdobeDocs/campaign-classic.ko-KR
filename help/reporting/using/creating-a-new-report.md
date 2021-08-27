@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 새 보고서 만들기{#creating-a-new-report}
+
+![](../../assets/common.svg)
 
 보고서를 만들려면 다음 단계를 적용합니다.
 
@@ -37,7 +39,7 @@ ht-degree: 1%
 
 1. 이 보고서를 저장합니다.
 
-## 차트 {#modelizing-the-chart} 모델링
+## 차트 모델링 {#modelizing-the-chart}
 
 보고서를 저장한 후에 표시됩니다. 이제 보고서 차트를 작성할 수 있습니다.
 
@@ -112,7 +114,7 @@ ht-degree: 1%
 **[!UICONTROL Page]**&#x200B;에는 다음 요소가 포함될 수 있습니다.
 
 * 막대, 파이, 커브 유형 **[!UICONTROL charts]** 등
-* 피벗;그룹 또는 분류 **[!UICONTROL tables]** 가 있는 목록입니다.
+* 피벗; 그룹 또는 분류 **[!UICONTROL tables]** 가 있는 목록입니다.
 * 텍스트 또는 숫자 유형 **[!UICONTROL Input controls]**.
 * 드롭다운 목록, 확인란, 라디오 단추, 다중 선택, 날짜 또는 매트릭스 유형 **[!UICONTROL Selection controls]**.
 * 링크 편집기, 상수, 폴더 선택 유형 **[!UICONTROL Advanced controls]**.
@@ -131,7 +133,7 @@ ht-degree: 1%
 
 ![](assets/s_advuser_report_page_activity_03.png)
 
-### 보고서 {#filtering-information-in-a-report}에 있는 정보 필터링
+### 보고서에서 정보 필터링 {#filtering-information-in-a-report}
 
 입력 및 선택 컨트롤을 사용하면 보고서에 표시된 정보를 필터링할 수 있습니다. 이러한 유형의 필터링 구현에 대한 자세한 내용은 쿼리](../../reporting/using/collecting-data-to-analyze.md#filtering-options-in-the-queries)에서 [필터링 선택 사항을 참조하십시오.
 

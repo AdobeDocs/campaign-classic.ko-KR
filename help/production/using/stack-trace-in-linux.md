@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 11%
@@ -14,6 +14,8 @@ ht-degree: 11%
 ---
 
 # Linux의 스택 추적{#stack-trace-in-linux}
+
+![](../../assets/v7-only.svg)
 
 **스택 추적**&#x200B;은 **core** 유형 파일에 포함된 추적을 나타냅니다. 이 파일은 컴퓨터 오류가 발생한 경우 생성됩니다. 오류 출처를 식별할 수 있습니다.
 
@@ -23,7 +25,6 @@ ht-degree: 11%
 >* **gdb - GNU** 디버거가 컴퓨터에 설치되어 있어야 합니다.
 
 >
-
 
 
 Adobe Campaign 기술 지원에서 이 **스택 추적**&#x200B;을 요청할 수 있습니다. 이를 가져오려면 Linux에서 다음 명령을 입력합니다.

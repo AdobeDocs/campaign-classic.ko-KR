@@ -6,7 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 1%
@@ -15,16 +15,18 @@ ht-degree: 1%
 
 # Windows에서 Adobe Campaign 7으로 마이그레이션{#migrating-in-windows-for-adobe-campaign}
 
-## 일반 프로시저 {#general-procedure}
+![](../../assets/v7-only.svg)
+
+## 일반 절차 {#general-procedure}
 
 Windows의 경우 마이그레이션 단계는 다음과 같습니다.
 
-1. 서비스 중지:[서비스 중지](#service-stop)를 참조하십시오.
-1. 데이터베이스 백업:[데이터베이스 및 현재 설치](#back-up-the-database-and-the-current-installation)를 참조하십시오.
-1. 플랫폼 마이그레이션:[Adobe Campaign v7 배포](#deploying-adobe-campaign-v7)를 참조하십시오.
-1. 리디렉션 서버(IIS) 마이그레이션:[리디렉션 서버 마이그레이션(IIS)](#migrating-the-redirection-server--iis-)을 참조하십시오.
-1. 서비스 다시 시작:[서비스 다시 시작](#re-starting-the-services)을 참조하십시오.
-1. 이전 Adobe Campaign 버전을 삭제 및 정리합니다.[Adobe Campaign 이전 버전 삭제 및 정리](#deleting-and-cleansing-adobe-campaign-previous-version)를 참조하십시오.
+1. 서비스 중지: [서비스 중지](#service-stop)를 참조하십시오.
+1. 데이터베이스 백업: [데이터베이스 및 현재 설치](#back-up-the-database-and-the-current-installation)를 참조하십시오.
+1. 플랫폼 마이그레이션: [Adobe Campaign v7 배포](#deploying-adobe-campaign-v7)를 참조하십시오.
+1. 리디렉션 서버(IIS) 마이그레이션: [리디렉션 서버 마이그레이션(IIS)](#migrating-the-redirection-server--iis-)을 참조하십시오.
+1. 서비스 다시 시작: [서비스 다시 시작](#re-starting-the-services)을 참조하십시오.
+1. 이전 Adobe Campaign 버전을 삭제 및 정리합니다. [Adobe Campaign 이전 버전 삭제 및 정리](#deleting-and-cleansing-adobe-campaign-previous-version)를 참조하십시오.
 
 ## 서비스 중지 {#service-stop}
 
@@ -81,7 +83,7 @@ Windows의 경우 마이그레이션 단계는 다음과 같습니다.
    taskkill /F /IM nlserver* /T
    ```
 
-## 데이터베이스 및 현재 설치 {#back-up-the-database-and-the-current-installation} 백업
+## 데이터베이스 및 현재 설치 백업 {#back-up-the-database-and-the-current-installation}
 
 절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
 
@@ -165,7 +167,7 @@ Windows의 경우 마이그레이션 단계는 다음과 같습니다.
    </serverconf>
    ```
 
-### Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6-1}에서 마이그레이션
+### Adobe Campaign v6.1에서 마이그레이션 {#migrating-from-adobe-campaign-v6-1}
 
 1. Adobe Campaign 데이터베이스를 백업합니다.
 1. 다음 명령을 사용하여 **Adobe Campaign v6** 디렉토리를 백업하십시오.
@@ -188,8 +190,8 @@ Windows의 경우 마이그레이션 단계는 다음과 같습니다.
 
 Adobe Campaign 배포에는 두 단계가 있습니다.
 
-* 빌드 v7 설치:이 작업은 각 서버에서 수행해야 합니다.
-* 업그레이드 후:이 명령은 각 인스턴스에서 시작해야 합니다.
+* 빌드 v7 설치: 이 작업은 각 서버에서 수행해야 합니다.
+* 업그레이드 후: 이 명령은 각 인스턴스에서 시작해야 합니다.
 
 Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
@@ -201,7 +203,7 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
    >
    >Adobe Campaign v7는 기본적으로 **C:\Program Files\Adobe\Adobe Campaign v7** 디렉토리에 설치됩니다.
 
-1. 클라이언트 콘솔 설치 프로그램을 사용하려면 **setup-client-7.0.XXXX.exe** 파일을 Adobe Campaign 설치 디렉토리로 복사합니다.**C:\Program Files\Adobe\Adobe Campaign v7\datakit\nl\eng\jsp**
+1. 클라이언트 콘솔 설치 프로그램을 사용하려면 **setup-client-7.0.XXXX.exe** 파일을 Adobe Campaign 설치 디렉토리로 복사합니다. **C:\Program Files\Adobe\Adobe Campaign v7\datakit\nl\eng\jsp**
 
    >[!NOTE]
    >
@@ -216,7 +218,7 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >이러한 명령을 사용하여 Adobe Campaign v7 내부 파일 시스템을 만들 수 있습니다.**conf** 디렉토리(**config-default.xml** 및 **serverConf.xml** 파일 사용), **var** 디렉토리 등.
+   >이러한 명령을 사용하여 Adobe Campaign v7 내부 파일 시스템을 만들 수 있습니다. **conf** 디렉토리(**config-default.xml** 및 **serverConf.xml** 파일 사용), **var** 디렉토리 등.
 
 1. **Neolane v5.back**, **Neolane v6.back** 또는 **Adobe Campaign v6.back** 백업 파일을 통해 각 인스턴스의 구성 파일 및 하위 폴더를 복사하여 붙여넣기(덮어쓰기)합니다( 마이그레이션하고 있는 버전에 따라 [이 섹션](#back-up-the-database-and-the-current-installation)을 참조하십시오.)
 1. 마이그레이션하려는 버전에 따라 다음 명령을 실행합니다.
@@ -263,9 +265,9 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
 >[!IMPORTANT]
 >
->아직 Adobe Campaign 서비스를 시작하지 마십시오.IIS에서 일부 변경 작업을 수행해야 합니다.
+>아직 Adobe Campaign 서비스를 시작하지 마십시오. IIS에서 일부 변경 작업을 수행해야 합니다.
 
-## 리디렉션 서버(IIS) {#migrating-the-redirection-server--iis-} 마이그레이션
+## 리디렉션 서버(IIS) 마이그레이션 {#migrating-the-redirection-server--iis-}
 
 이 단계에서는 IIS 서버를 중지해야 합니다. [서비스 중지](#service-stop)를 참조하십시오.
 
@@ -289,7 +291,7 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
       ![](assets/_migration_iis_4.png)
 
    * 사이트 이름 **Adobe Campaign v7**&#x200B;을 입력합니다.
-   * 웹 사이트의 기본 디렉터리에 대한 액세스 경로는 사용되지 않지만 **[!UICONTROL Physical access path]** 필드를 입력해야 합니다. 기본 IIS 액세스 경로를 입력하십시오.**C:\inetpub\wwwroot**
+   * 웹 사이트의 기본 디렉터리에 대한 액세스 경로는 사용되지 않지만 **[!UICONTROL Physical access path]** 필드를 입력해야 합니다. 기본 IIS 액세스 경로를 입력하십시오. **C:\inetpub\wwwroot**
    * **[!UICONTROL Connect as...]** 버튼을 클릭하고 **[!UICONTROL Application user]** 옵션이 선택되어 있는지 확인합니다.
    * 기본값을 **[!UICONTROL IP address]** 및 **[!UICONTROL Port]** 필드에 그대로 둘 수 있습니다. 다른 값을 사용하려면 IP 주소 및/또는 포트를 사용할 수 있는지 확인하십시오.
    * **[!UICONTROL Start Web site immediately]** 상자를 선택합니다.
@@ -331,7 +333,7 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
 v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하기 전에 보안 영역을 구성해야 합니다. 자세한 내용은 [보안](../../migration/using/general-configurations.md#security)을 참조하십시오.
 
-## 서비스 {#re-starting-the-services} 다시 시작
+## 서비스 다시 시작 {#re-starting-the-services}
 
 다음 각 서버에서 IIS 및 Adobe Campaign 서비스를 시작합니다.
 
@@ -341,7 +343,7 @@ v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하
 
 다음 단계로 이동하기 전에 새 설치에 대한 전체 테스트를 실행하고, 회귀를 포함하지 않는지 그리고 [일반 구성](../../migration/using/general-configurations.md) 섹션의 모든 권장 사항을 수행하여 모든 것이 작동하는지 확인합니다.
 
-## Adobe Campaign 이전 버전 {#deleting-and-cleansing-adobe-campaign-previous-version} 삭제 및 정리
+## Adobe Campaign 이전 버전 삭제 및 정리 {#deleting-and-cleansing-adobe-campaign-previous-version}
 
 절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
 

@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 애플리케이션 서버{#application-server}
+
+![](../../assets/v7-only.svg)
 
 필요한 데이터베이스 액세스 계층은 서버에 설치하고 Adobe Campaign 계정에서 액세스할 수 있어야 합니다.
 
@@ -35,9 +37,9 @@ Adobe Campaign 애플리케이션 서버(**nlserver web** 프로세스)를 실�
 >
 >게재 에이전트(**nlserver mta** 프로세스)나 워크플로우 서버(**nlserver wfserver** 프로세스)만 실행하는 컴퓨터에서는 JDK를 설치할 필요가 없습니다.
 
-Java JDK를 다운로드하려면 다음 항목에 연결합니다.[https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+Java JDK를 다운로드하려면 다음 항목에 연결합니다. [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-**경고:JRE가 아닌 JDK를 다운로드해야 합니다.**
+**경고: JRE가 아닌 JDK를 다운로드해야 합니다.**
 
 >[!CAUTION]
 >
@@ -75,7 +77,7 @@ SpamAssassin을 사용하면 수신에 사용되는 스팸 방지 도구에 의�
 
 SpamAssassin에서 원치 않는 전자 메일의 자격은 필터링 및 점수 규칙에 전적으로 따라 결정됩니다. 따라서 SpamAssassin 설치 및 Adobe Campaign와의 통합이 완벽한 기능을 유지하고 전송하기 전에 게재에 할당된 점수의 관련성을 보장하려면 하루에 최소 한 번 이상 이러한 규칙을 업데이트해야 합니다. 이 업데이트는 SpamAssassin을 호스팅하는 서버 관리자의 책임입니다.
 
-지원되는 최소 버전은 다음과 같습니다.**3.4**
+지원되는 최소 버전은 다음과 같습니다. **3.4**
 
 SpamAssassin에는 HTTP 인터넷 액세스(tcp/80)가 필요합니다.
 

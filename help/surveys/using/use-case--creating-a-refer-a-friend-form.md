@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 활용 사례: 참조 양식 만들기{#use-case-creating-a-refer-a-friend-form}
+
+![](../../assets/v7-only.svg)
 
 이 예제에서는 데이터베이스의 수신자에게 경쟁 제품을 제공하려고 합니다. 웹 양식에는 답변을 입력하는 섹션과 이메일 주소를 입력하여 친구를 참조하는 섹션이 있습니다.
 
@@ -57,7 +59,7 @@ ht-degree: 0%
 
    페이지 식별 블록에 입력한 성, 이름 및 이메일 주소는 레퍼러의 성, 이름 및 이메일 주소로 식별됩니다. 이러한 필드는 심판에게 보내는 메시지 본문에 다시 삽입됩니다.
 
-   APP5 값은 웹 양식의 내부 이름과 일치합니다.이 정보를 사용하면 심판의 출처를 확인할 수 있습니다. 즉, 방문자를 만들어진 웹 양식에 연결할 수 있습니다.
+   APP5 값은 웹 양식의 내부 이름과 일치합니다. 이 정보를 사용하면 심판의 출처를 확인할 수 있습니다. 즉, 방문자를 만들어진 웹 양식에 연결할 수 있습니다.
 
 1. 저장소 상자에서는 정보를 수집하여 데이터베이스에 저장할 수 있습니다.
 

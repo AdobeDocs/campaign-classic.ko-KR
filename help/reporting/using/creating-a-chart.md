@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 차트 만들기{#creating-a-chart}
+
+![](../../assets/common.svg)
 
 데이터베이스의 데이터를 수집하여 차트에 표시할 수도 있습니다. Adobe Campaign에서는 그래픽 표현 세트를 제공합니다. 구성은 아래에 자세히 설명되어 있습니다.
 
@@ -61,7 +63,7 @@ Adobe Campaign에서는 다양한 유형의 그래픽 표현을 제공합니다.
 
 변형은 선택한 차트 유형에 따라 다릅니다. **[!UICONTROL Variants...]** 링크를 통해 선택됩니다.
 
-### 분류:파이 차트 {#breakdown--pie-charts}
+### 분류: 파이 차트 {#breakdown--pie-charts}
 
 이 유형의 그래픽 표현을 사용하면 측정된 요소의 개요를 표시할 수 있습니다.
 
@@ -89,13 +91,13 @@ Adobe Campaign에서는 다양한 유형의 그래픽 표현을 제공합니다.
 
 ![](assets/s_ncs_advuser_report_sector_exple3.png)
 
-### 진화:곡선 및 영역 {#evolution--curves-and-areas}
+### 진화: 곡선 및 영역 {#evolution--curves-and-areas}
 
 이러한 유형의 그래픽 표현을 사용하면 하나 이상의 측정값이 제시간에 진화하는 것을 이해할 수 있습니다.
 
 ![](assets/reporting_graph_type_curve.png)
 
-### 비교:히스토그램 {#comparison--histograms}
+### 비교: 막대 그래프 {#comparison--histograms}
 
 히스토그램을 사용하면 한 개 이상의 변수 값을 비교할 수 있습니다.
 
@@ -113,11 +115,11 @@ Adobe Campaign에서는 다양한 유형의 그래픽 표현을 제공합니다.
 
 필요한 경우 값 표시 시퀀스를 취소할 수 있습니다. 이렇게 하려면 **[!UICONTROL Reverse stacking]** 옵션을 선택합니다.
 
-### 전환:단계 {#conversion--funnel}
+### 전환: 단계 {#conversion--funnel}
 
 이러한 유형의 차트를 사용하여 측정된 요소의 대화 비율을 추적할 수 있습니다.
 
-### 진행:계기 {#progress--gauge}
+### 진행: 계기 {#progress--gauge}
 
 이 유형의 차트를 사용하면 정의된 목표와 비교하여 값의 진행 상황을 표시할 수 있습니다. 아래 예에는 100개의 게재 목표에서 성공적으로 (76) 보낸 게재 수가 검은색 다이얼 로 표시되어 있습니다. 게이지는 특정 상태에 해당하는 세 개의 범위로 나누어집니다.
 
@@ -143,7 +145,7 @@ Adobe Campaign에서는 다양한 유형의 그래픽 표현을 제공합니다.
 
 **[!UICONTROL Width]** 필드를 사용하면 차트 크기를 편집할 수 있습니다.
 
-## 차트 {#interaction-with-the-chart}와의 상호 작용
+## 차트와 상호 작용 {#interaction-with-the-chart}
 
 사용자가 차트를 클릭할 때 작업을 정의할 수 있습니다. **[!UICONTROL Interaction events]** 창을 열고 수행할 작업을 선택합니다.
 
@@ -151,7 +153,7 @@ Adobe Campaign에서는 다양한 유형의 그래픽 표현을 제공합니다.
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 
-## 통계 계산 중 {#calculating-statistics}
+## 통계 계산 {#calculating-statistics}
 
 차트를 사용하여 수집된 데이터에 대한 통계를 표시할 수 있습니다.
 

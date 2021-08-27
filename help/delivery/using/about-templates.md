@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 템플릿 정보{#about-templates}
+
+![](../../assets/common.svg)
 
 게재 구성을 재사용하기 위해 게재 템플릿에 저장할 수 있습니다. 템플릿에는 게재의 전체 또는 일부 구성이 포함될 수 있습니다.
 
@@ -29,8 +31,8 @@ ht-degree: 2%
 
 1. 사전 정의된 게재 템플릿
 
-   Adobe Campaign 관리자는 새 게재 템플릿을 만들 수 있습니다. 운영자(적절한 액세스 권한이 있는 사용자)가 사용하거나 서버 프로세스에 의해 자동으로 재사용할 수 있습니다. 예를 들어 이메일 게재 템플릿을 구성할 수 있으며, 사용자가 이 템플릿을 사용하여 게재를 만들 때 텍스트나 HTML 컨텐츠를 입력한 다음 게재하면 됩니다.관리자가 다른 선택 사항을 이미 정의했습니다.
+   Adobe Campaign 관리자는 새 게재 템플릿을 만들 수 있습니다. 운영자(적절한 액세스 권한이 있는 사용자)가 사용하거나 서버 프로세스에 의해 자동으로 재사용할 수 있습니다. 예를 들어 이메일 게재 템플릿을 구성할 수 있으며, 사용자가 이 템플릿을 사용하여 게재를 만들 때 텍스트나 HTML 컨텐츠를 입력한 다음 게재하면 됩니다. 관리자가 다른 선택 사항을 이미 정의했습니다.
 
 >[!NOTE]
 >
->사용 가능한 템플릿은 액세스 권한, 인스턴스 구성 및 컨텍스트에 따라 다릅니다. 예를 들어 정보 서비스를 만들 때 확인 메시지에 게재 템플릿을 연결할 수 있습니다.그런 다음 대상 매핑이 구독 매핑인 템플릿에만 액세스할 수 있습니다. 자세한 내용은 [대상 매핑 선택](selecting-a-target-mapping.md) 및 [서비스 및 구독 정보](about-services-and-subscriptions.md)를 참조하십시오.
+>사용 가능한 템플릿은 액세스 권한, 인스턴스 구성 및 컨텍스트에 따라 다릅니다. 예를 들어 정보 서비스를 만들 때 확인 메시지에 게재 템플릿을 연결할 수 있습니다. 그런 다음 대상 매핑이 구독 매핑인 템플릿에만 액세스할 수 있습니다. 자세한 내용은 [대상 매핑 선택](selecting-a-target-mapping.md) 및 [서비스 및 구독 정보](about-services-and-subscriptions.md)를 참조하십시오.

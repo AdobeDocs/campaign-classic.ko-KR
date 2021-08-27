@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # IMS 구성{#configuring-ims}
+
+![](../../assets/common.svg)
 
 >[!IMPORTANT]
 >
@@ -30,11 +32,11 @@ IMS와 통합을 사용하려면 다음을 수행하십시오.
 >
 >사용자가 Adobe Campaign과 동기화될 Adobe Experience Cloud 그룹에 연결되어 있는지 확인합니다. [외부 계정 구성](#configuring-the-external-account)을 참조하십시오.
 
-## 콘솔 {#updating-the-console} 업데이트
+## 콘솔 업데이트 {#updating-the-console}
 
 이 기능을 사용하려면 반드시 최신 버전의 콘솔을 설치해야 합니다.
 
-## 패키지 {#installing-the-package} 설치
+## 패키지 설치 {#installing-the-package}
 
 **[!UICONTROL Integration with the Adobe Experience Cloud]** 패키지를 설치해야 합니다. 통합 패키지를 설치하는 것은 표준 패키지를 설치하는 것과 같습니다. 표준 패키지는 [이 페이지에 자세히 설명되어 있습니다.](../../installation/using/installing-campaign-standard-packages.md)
 
@@ -56,8 +58,8 @@ IMS와 통합을 사용하려면 다음을 수행하십시오.
 
    **[!UICONTROL Callback server]** 주소는 **https**&#x200B;에 지정해야 합니다. 이 필드는 Adobe Campaign 인스턴스의 액세스 URL에 해당합니다.
 
-* IMS 조직 ID:이 정보는 Experience Cloud( **[!UICONTROL Administration > Experience Cloud Details]** )에서 사용할 수 있으며, Adobe Experience Cloud에 처음 연결할 때 제공됩니다.
-* 연결 마스크:이 필드에서는 Adobe Campaign의 그룹과 Enterprise Dashboard의 구성 이름을 동기화할 수 있는 구문을 정의할 수 있습니다. Campaign - tenant_id - ( 구문을 사용하는 경우*)&quot;로 설정되어 있는 경우, Adobe Campaign에서 만든 보안 그룹이 Enterprise Dashboard의 구성 이름 &quot;Campaign - tenant_id - internal_name&quot;에 연결됩니다.
+* IMS 조직 ID: 이 정보는 Experience Cloud( **[!UICONTROL Administration > Experience Cloud Details]** )에서 사용할 수 있으며, Adobe Experience Cloud에 처음 연결할 때 제공됩니다.
+* 연결 마스크: 이 필드에서는 Adobe Campaign의 그룹과 Enterprise Dashboard의 구성 이름을 동기화할 수 있는 구문을 정의할 수 있습니다. Campaign - tenant_id - ( 구문을 사용하는 경우*)&quot;로 설정되어 있는 경우, Adobe Campaign에서 만든 보안 그룹이 Enterprise Dashboard의 구성 이름 &quot;Campaign - tenant_id - internal_name&quot;에 연결됩니다.
 
    >[!CAUTION]
    >

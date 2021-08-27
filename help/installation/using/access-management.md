@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # 액세스 관리 {#access-management}
+
+![](../../assets/v7-only.svg)
 
 ## 웹 앱 운영자
 
@@ -27,7 +29,7 @@ ht-degree: 8%
 
    1. webApp 연산자를 복제합니다
 
-   1. 각 복제의 이름을 입력합니다. 예:webapp_brand, webapp_brand2 등
+   1. 각 복제의 이름을 입력합니다. 예: webapp_brand, webapp_brand2 등
 
    1. 웹 애플리케이션 템플릿을 복제하여 브랜드당 하나의 템플릿을 갖도록 하고, 특정 계정 사용을 선택하여 연산자를 변경할 속성을 편집합니다.  [이 페이지](../../web/using/defining-web-forms-properties.md)에서 자세히 알아보십시오.
 
@@ -35,16 +37,16 @@ ht-degree: 8%
 
 운영자가 필요한 작업을 수행할 수 있도록 충분한 권한을 부여할 수 있는 충분한 보안 그룹을 만듭니다.
 
-관리자 연산자를 사용하지 않거나, 공유하지 마십시오. 실제 사용자당 한 개의 연산자를 만듭니다(정확한 감사/로깅을 위해). 새로 명명된 관리자를 관리 그룹에 추가합니다. 관리자 연산자를 사용하지 않는 경우, 삭제하지 말고, 사용하지 마십시오.이 연산자는 내부적으로 사용하여 처리를 실행합니다. 그러나 클라이언트 콘솔](../../platform/using/access-management.md)에 대한 [의 액세스를 금지하고 해당 보안 영역(localhost에 대한)을 제한할 수 있습니다.
+관리자 연산자를 사용하지 않거나, 공유하지 마십시오. 실제 사용자당 한 개의 연산자를 만듭니다(정확한 감사/로깅을 위해). 새로 명명된 관리자를 관리 그룹에 추가합니다. 관리자 연산자를 사용하지 않는 경우, 삭제하지 말고, 사용하지 마십시오. 이 연산자는 내부적으로 사용하여 처리를 실행합니다. 그러나 클라이언트 콘솔](../../platform/using/access-management.md)에 대한 [의 액세스를 금지하고 해당 보안 영역(localhost에 대한)을 제한할 수 있습니다.
 
 관리자 그룹에 너무 많은 연산자를 추가하지 마십시오(또는 관리자 이름이 지정된 권한이 있음). 매우 강력한 연산자입니다(모든 SQL 문을 수행하거나 서버에서 명령을 실행할 수 있음).
 
 Adobe Campaign은 [명명된 rights](../../platform/using/access-management.md#named-rights)를 통해 세 가지 고급 권한을 제공합니다.
 
-* **관리** (관리자):는 모든 항목에 액세스할 수 있도록 하며, 명명된 모든 오른쪽 검사를 건너뛰고 모든 작업을 수행할 수 있도록 하므로 PROGRAM EXECUTION(createProcess) 및 SQL에서 명명된 권한이 포함됩니다
+* **관리** (관리자): 는 모든 항목에 액세스할 수 있도록 하며, 명명된 모든 오른쪽 검사를 건너뛰고 모든 작업을 수행할 수 있도록 하므로 PROGRAM EXECUTION(createProcess) 및 SQL에서 명명된 권한이 포함됩니다
 
-* **프로그램 실행** (createProcess):서버에서 외부 프로그램 실행 허용
+* **프로그램 실행** (createProcess): 서버에서 외부 프로그램 실행 허용
 
-* **SQL**:에서는 데이터베이스에서 SQL 스크립트를 실행할 수 있습니다. 보안 모델을 무시할 수 있습니다. 참고:복잡한 계산을 수행해야 하는 경우(예: 필터링) 데이터베이스 관리자에게 SQL 함수를 생성하여 허용 목록에 추가하도록 요청할 수 있습니다. [이 페이지](../../installation/using/scripting-coding-guidelines.md)에서 자세히 알아보십시오.
+* **SQL**: 에서는 데이터베이스에서 SQL 스크립트를 실행할 수 있습니다. 보안 모델을 무시할 수 있습니다. 참고: 복잡한 계산을 수행해야 하는 경우(예: 필터링) 데이터베이스 관리자에게 SQL 함수를 생성하여 허용 목록에 추가하도록 요청할 수 있습니다. [이 페이지](../../installation/using/scripting-coding-guidelines.md)에서 자세히 알아보십시오.
 
 * **매우 적은 수의(및 신뢰할 수 있는) 연산자에게 이러한 권한을 부여합니다**

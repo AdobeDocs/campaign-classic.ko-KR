@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 15%
@@ -14,6 +14,8 @@ ht-degree: 15%
 ---
 
 # 이동(시작점 및 끝점){#jump-start-point-and-end-point}
+
+![](../../assets/common.svg)
 
 **[!UICONTROL Jump]** -type 그래픽 객체는 교차 전환이 있는 복잡한 다이어그램의 가독성을 향상시키는 데 사용됩니다.
 
@@ -29,4 +31,4 @@ ht-degree: 15%
 
 ![](assets/s_user_segmentation_jump_in.png)
 
-다이어그램의 가독성을 향상시키기 위해 점프와 연결된 이미지를 변경하여 관련 번호를 표시할 수 있습니다. [활동 이미지 관리](../../workflow/using/managing-activity-images.md)를 참조하십시오.
+다이어그램의 가독성을 향상시키기 위해 점프와 연결된 이미지를 변경하여 관련 번호를 표시할 수 있습니다. [활동 이미지 관리](managing-activity-images.md)를 참조하십시오.

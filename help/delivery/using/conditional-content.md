@@ -6,21 +6,23 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 # 조건부 콘텐츠{#conditional-content}
+
+![](../../assets/common.svg)
 
 조건부 컨텐츠 필드를 구성하면 예를 들어 수신자의 프로필을 기반으로 동적 개인화를 만들 수 있습니다. 특정 조건이 충족되면 텍스트 블록 및/또는 이미지가 교체됩니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#conditionnal-content-video)
 
 
-## 전자 메일 {#using-conditions-in-an-email}에 조건 사용
+## 이메일에서 조건 사용 {#using-conditions-in-an-email}
 
 아래 예에서는 수신자의 성별 및 관심사에 따라 동적으로 개인화된 메시지를 만드는 방법을 알아봅니다.
 
@@ -75,7 +77,7 @@ ht-degree: 4%
 
 ![](assets/s_ncs_user_conditional_content08.png)
 
-## 다국어 전자 메일 만들기 {#creating-multilingual-email}
+## 다국어 이메일 만들기 {#creating-multilingual-email}
 
 아래 예에서는 다국어 이메일을 만드는 방법을 알아봅니다. 수신자의 기본 설정 언어에 따라 콘텐츠가 한 언어 또는 다른 언어로 표시됩니다.
 
@@ -109,7 +111,7 @@ ht-degree: 4%
 
 ## 튜토리얼 비디오 {#conditionnal-content-video}
 
-다국어 뉴스레터의 예에서 전달 시 조건부 컨텐츠를 추가하는 방법을 알아봅니다.
+다중 언어 뉴스레터의 예에 따라 게재에 조건부 콘텐츠를 추가하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
 

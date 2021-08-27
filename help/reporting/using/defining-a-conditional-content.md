@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 8%
@@ -15,15 +15,17 @@ ht-degree: 8%
 
 # 조건부 콘텐츠 정의{#defining-a-conditional-content}
 
+![](../../assets/common.svg)
+
 특정 보고서 항목 또는 페이지 표시를 조건화할 수 있습니다.
 
 특정 항목을 조건부 항목으로 만들려면 가시성 설정을 조정하십시오. 자세한 내용은 [조건 항목 디스플레이](#conditioning-item-display)를 참조하십시오.
 
 하나 이상의 페이지를 조건부 상태로 표시하려면 **[!UICONTROL Test]** 유형 활동을 사용하십시오. 자세한 내용은 [Conditioning page display](#conditioning-page-display) 를 참조하십시오.
 
-## 조건 항목 표시 {#conditioning-item-display}
+## 컨디션 품목 표시 {#conditioning-item-display}
 
-보고서 일부 조건부 표시를 만들려면 가시성 조건을 정의해야 합니다.이러한 항목이 충족되지 않으면 항목이 표시되지 않습니다.
+보고서 일부 조건부 표시를 만들려면 가시성 조건을 정의해야 합니다. 이러한 항목이 충족되지 않으면 항목이 표시되지 않습니다.
 
 가시성 조건은 운영자 상태, 보고서 페이지에 선택되거나 입력된 항목에 따라 달라질 수 있습니다.
 

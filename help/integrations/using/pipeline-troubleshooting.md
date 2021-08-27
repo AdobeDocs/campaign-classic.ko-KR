@@ -5,7 +5,7 @@ description: 통합 구성
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: 9a126d16b394333163b974ad9690f7c93fb3034a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 1%
@@ -13,6 +13,8 @@ ht-degree: 1%
 ---
 
 # 파이프라인 문제 해결 {#pipeline-troubleshooting}
+
+![](../../assets/common.svg)
 
 **&quot;No task 가 pipelined@&lt;>&quot;라는 오류가 발생하여 피파이프라인이 실패합니다.**
 
@@ -39,8 +41,8 @@ ht-degree: 1%
 인스턴스 구성 파일의 @authPrivateKey 매개 변수가 잘못되었습니다.
 
 1. authPrivateKey 가 설정되어 있는지 확인합니다.
-1. authPrivateKey를 확인합니다.다음으로 시작, 종료 =, 길이는 약 4000자입니다.
-1. 원래 키를 찾아 다음 키를 확인합니다.RSA 형식으로 4096비트가 길어지고 `-----BEGIN RSA PRIVATE KEY-----`으로 시작합니다.
+1. authPrivateKey를 확인합니다. 다음으로 시작, 종료 =, 길이는 약 4000자입니다.
+1. 원래 키를 찾아 다음 키를 확인합니다. RSA 형식으로 4096비트가 길어지고 `-----BEGIN RSA PRIVATE KEY-----`으로 시작합니다.
    <br> 필요한 경우 키를 다시 만들어 Adobe Analytics에 등록합니다.
 1. 키가 [!DNL pipelined] 인스턴스와 동일한 인스턴스 내에서 인코딩되었는지 확인합니다. <br>필요한 경우 샘플 JavaScript 또는 워크플로우를 사용하여 인코딩을 재실행합니다.
 

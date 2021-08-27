@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 수신자 테이블 쿼리 {#querying-recipient-table}
+
+![](../../assets/common.svg)
 
 이 예에서는 이메일 도메인이 &quot;orange.co.uk&quot;이고 런던에 살지 않는 수신자의 이름과 이메일을 복구하려고 합니다.
 
@@ -36,7 +38,7 @@ ht-degree: 3%
 이 예제를 만들려면 다음 단계를 적용합니다.
 
 1. **[!UICONTROL Tools > Generic query editor...]** 을 클릭하고 **수신자** (**nms:recipient**) 테이블을 선택합니다. 그 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
-1. 선택:**[!UICONTROL Last name]**, **[!UICONTROL First name]**, **[!UICONTROL Email]**, **[!UICONTROL City]** 및 **[!UICONTROL Account number]**. 이러한 필드는 **[!UICONTROL Output columns]**&#x200B;에 추가됩니다. 그 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. 선택: **[!UICONTROL Last name]**, **[!UICONTROL First name]**, **[!UICONTROL Email]**, **[!UICONTROL City]** 및 **[!UICONTROL Account number]**. 이러한 필드는 **[!UICONTROL Output columns]**&#x200B;에 추가됩니다. 그 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/query_editor_03.png)
 
@@ -44,18 +46,18 @@ ht-degree: 3%
 
    ![](assets/query_editor_04.png)
 
-1. **[!UICONTROL Data filtering]** 창에서 검색을 구체화합니다.**[!UICONTROL Filtering conditions]** 을 선택하고 **[!UICONTROL Next]** 를 클릭합니다.
+1. **[!UICONTROL Data filtering]** 창에서 검색을 구체화합니다. **[!UICONTROL Filtering conditions]** 을 선택하고 **[!UICONTROL Next]** 를 클릭합니다.
 1. **[!UICONTROL Target element]** 창에서 필터 설정을 입력할 수 있습니다.
 
-   다음 필터 조건을 정의합니다.이메일 도메인이 &quot;orange.co.uk&quot;과 동일한 수신자. 이렇게 하려면 **[!UICONTROL Expression]** 열에서 **이메일 도메인(@email)**&#x200B;을 선택하고 **[!UICONTROL Operator]** 열에서 **equal to**&#x200B;를 선택하고 **[!UICONTROL Value]** 열에 &quot;orange.co.uk&quot;을 입력합니다.
+   다음 필터 조건을 정의합니다. 이메일 도메인이 &quot;orange.co.uk&quot;과 동일한 수신자. 이렇게 하려면 **[!UICONTROL Expression]** 열에서 **이메일 도메인(@email)**&#x200B;을 선택하고 **[!UICONTROL Operator]** 열에서 **equal to**&#x200B;를 선택하고 **[!UICONTROL Value]** 열에 &quot;orange.co.uk&quot;을 입력합니다.
 
    ![](assets/query_editor_05.png)
 
 1. 필요한 경우 **[!UICONTROL Distribution of values]** 버튼을 클릭하여 잠재 고객의 이메일 도메인을 기반으로 배포를 확인합니다. 백분율은 데이터베이스의 각 이메일 도메인에 대해 사용할 수 있습니다. 필터가 적용되기 전까지 &quot;orange.co.uk&quot; 이외의 도메인이 표시됩니다.
 
-   창의 아래쪽에 질의 요약이 표시됩니다.**이메일 도메인은 &#39;orange.co.uk&#39;**&#x200B;입니다.
+   창의 아래쪽에 질의 요약이 표시됩니다. **이메일 도메인은 &#39;orange.co.uk&#39;**&#x200B;입니다.
 
-1. **[!UICONTROL Preview]** 을 클릭하여 쿼리 결과에 대한 아이디어를 얻습니다.orange.co.uk&quot; 전자 메일 도메인만 표시됩니다.
+1. **[!UICONTROL Preview]** 을 클릭하여 쿼리 결과에 대한 아이디어를 얻습니다. orange.co.uk&quot; 전자 메일 도메인만 표시됩니다.
 
    ![](assets/query_editor_nveau_17.png)
 

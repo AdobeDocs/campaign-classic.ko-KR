@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 1%
 
 ---
 
-# azure synapse {#configure-access-to-azure-synapse}에 대한 액세스 구성
+# azure synapse 액세스 구성 {#configure-access-to-azure-synapse}
+
+![](../../assets/v7-only.svg)
 
 Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 Microsoft Analytics에 대한 액세스를 구성하십시오.
 
@@ -104,7 +106,7 @@ CentOS에서 Azure synapse을 구성하려면 아래 단계를 수행하십시�
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
    ```
 
-## Windows {#azure-windows}의 azure synapse
+## Windows의 azure synapse {#azure-windows}
 
 >[!NOTE]
 >
@@ -126,7 +128,7 @@ Windows에서 Azure synapse을 구성하려면
 
 1. azure synapse Analytics는 TCP 1433 포트를 통해 통신하므로 Windows Defender Firewall에서 이 포트를 열어야 합니다. 자세한 내용은 [Windows 설명서](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule)를 참조하십시오.
 
-## Debian {#azure-debian}의 azure synapse
+## 데비안 azure synapse {#azure-debian}
 
 **필수 구성 요소:**
 
@@ -190,7 +192,7 @@ Debian에서 Azure synapse을 구성하려면 다음을 수행하십시오.
    >Analytics Azure synapse 측에서 통신할 수 있도록 하려면 공개 IP를에 추가해야 할 수 허용 목록에 추가하다 있습니다. 이렇게 하려면 [Azure 설명서](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)를 참조하십시오.
 
 
-## azure synapse 외부 계정 {#azure-external}
+## 외부 계정 azure synapse {#azure-external}
 
 [!DNL Azure Synapse] 외부 계정을 사용하면 Campaign 인스턴스를 Azure synapse 외부 데이터베이스에 연결할 수 있습니다.
 
@@ -198,7 +200,7 @@ Debian에서 Azure synapse을 구성하려면 다음을 수행하십시오.
 
 1. Campaign **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** &#39; **[!UICONTROL Platform]**&#39; **[!UICONTROL External accounts]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
 1. 외부 계정의 **[!UICONTROL Type]**(으)로 **[!UICONTROL External database]**&#x200B;을(를) 선택합니다.
 
@@ -206,12 +208,12 @@ Debian에서 Azure synapse을 구성하려면 다음을 수행하십시오.
 
 1. [!DNL Azure Synapse] 외부 계정을 구성합니다. 다음을 지정해야 합니다.
 
-   * **[!UICONTROL Type]**:azure synapse 분석
+   * **[!UICONTROL Type]**: azure synapse 분석
 
-   * **[!UICONTROL Server]**:azure synapse 서버의 URL
+   * **[!UICONTROL Server]**: azure synapse 서버의 URL
 
-   * **[!UICONTROL Account]**:사용자의 이름
+   * **[!UICONTROL Account]**: 사용자의 이름
 
-   * **[!UICONTROL Password]**:사용자 계정 암호
+   * **[!UICONTROL Password]**: 사용자 계정 암호
 
-   * **[!UICONTROL Database]**:데이터베이스 이름
+   * **[!UICONTROL Database]**: 데이터베이스 이름

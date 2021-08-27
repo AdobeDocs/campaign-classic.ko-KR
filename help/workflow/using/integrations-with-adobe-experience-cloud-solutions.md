@@ -5,7 +5,7 @@ description: Adobe Experience Cloud 솔루션 워크플로우와의 통합에 �
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 
 
 # Adobe Experience Cloud 솔루션과 통합{#integrations-with-adobe-experience-cloud-solutions}
+
+![](../../assets/common.svg)
 
 아래 자세히 설명된 워크플로우는 기본적으로 **Adobe Experience Cloud** 모듈과 통합으로 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../integrations/using/configuring-ims.md#installing-the-package)을 참조하십시오.
 

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '2038'
 ht-degree: 100%
 
 ---
 
 # 개인 정보 및 동의{#privacy-and-recommendations}
+
+![](../../assets/common.svg)
 
 ## 일반 권장 사항 {#general-recommendations}
 
@@ -111,7 +113,7 @@ Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 �
 
 1. 그런 다음 **데이터 컨트롤러**(Anne)가 정보를 검토하고 다시 **데이터 주체**(Laura)로 보냅니다.
 
-## 데이터 획득 {#data-acquisition}
+## 데이터 확보 {#data-acquisition}
 
 Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다.
 
@@ -120,7 +122,7 @@ Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이�
 * 동의 및 권한 관리를 통해 수신자의 환경 설정을 추적할 수 있을 뿐만 아니라 조직 내에서 누가 어떤 데이터에 액세스할 수 있는지를 관리할 수 있습니다. 자세한 내용은 [이 섹션](#consent)을 참조하십시오.
 * 수신자의 개인 정보 보호 요청을 간편하게 지원하고 관리할 수 있습니다. 자세한 내용은 [이 섹션](#privacy-requests)을 참조하십시오.
 
-## 개인 정보 관리 {#privacy-management}
+## 개인 정보 보호 관리 {#privacy-management}
 
 개인 정보 관리는 개인 정보 보호 규정(GDPR, CPA 등)을 준수하는 데 도움이 되는 모든 프로세스 및 도구를 의미합니다. [이 페이지](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html)에서 개인 정보 관리 기능에 대한 개요를 살펴보십시오.
 

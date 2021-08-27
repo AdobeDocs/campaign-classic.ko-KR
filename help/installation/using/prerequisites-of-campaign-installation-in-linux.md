@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
 
 ---
 
-# Linux{#prerequisites-of-campaign-installation-in-linux}에 Campaign을 설치하기 위한 사전 요구 사항
+# Linux에 Campaign 설치 사전 요구 사항{#prerequisites-of-campaign-installation-in-linux}
+
+![](../../assets/v7-only.svg)
 
 ## 소프트웨어 사전 요구 사항 {#software-prerequisites}
 
@@ -52,9 +54,9 @@ Linux에 Adobe Campaign을 설치하려면 필요한 라이브러리가 있는�
 
    다음 버전의 **libicu**&#x200B;이 지원됩니다(32비트 또는 64비트).
 
-   * RHEL 7, CentOS 7:libicu50
-   * Debian 8:libicu52
-   * Debian 9:libicu57
+   * RHEL 7, CentOS 7: libicu50
+   * Debian 8: libicu52
+   * Debian 9: libicu57
 
    Adobe Campaign을 사용하려면 libc-ares 라이브러리가 설치되어 있어야 합니다. RHEL/CentOS에서 다음 명령을 실행합니다.
 
@@ -128,7 +130,7 @@ Red Hat에서 명령을 추가합니다.
 yum install ipa-gothic-fonts ipa-mincho-fonts
 ```
 
-### Debian {#installing-libreoffice-for-debian}용 LibreOffice 설치
+### Debian용 LibreOffice 설치 {#installing-libreoffice-for-debian}
 
 Debian의 경우 다음 구성이 필요합니다.
 
@@ -144,7 +146,7 @@ Debian의 경우 다음 구성이 필요합니다.
    apt-get install fonts-ipafont
    ```
 
-### CentOS용 LibreOffice {#installing-libreoffice-for-centos} 설치
+### CentOS용 LibreOffice 설치 {#installing-libreoffice-for-centos}
 
 CentOS에는 다음 구성이 필요합니다.
 
@@ -170,19 +172,19 @@ CentOS에는 다음 구성이 필요합니다.
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaign은 버전 7.2에서 모든 버전의 PostgreSQL 클라이언트 라이브러리를 지원합니다.(**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** 및 **libpq.so.3.1**).
+Adobe Campaign은 버전 7.2에서 모든 버전의 PostgreSQL 클라이언트 라이브러리를 지원합니다. (**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** 및 **libpq.so.3.1**).
 
 Adobe Campaign과 함께 PostgreSQL을 사용하려면 해당 **pgcrypto** 라이브러리를 설치해야 합니다.
 
 ### Oracle {#oracle}
 
-64비트 Debian의 라이브러리 버전(예:**libclntsh.so**, **libclntsh.so.11.1** 및 **libclntsh.so.10.1**.
+64비트 Debian의 라이브러리 버전(예: **libclntsh.so**, **libclntsh.so.11.1** 및 **libclntsh.so.10.1**.
 
 oracle 기술 네트워크에서 Linux RPM 패키지를 가져올 수 있습니다.
 
 >[!NOTE]
 >
->oracle 클라이언트를 이미 설치했지만 글로벌 환경(예:/etc/profile)이 올바르게 구성되지 않은 경우 **nl6/customer.sh** 스크립트에 누락된 정보를 추가할 수 있습니다. 자세한 내용은 [환경 변수](../../installation/using/installing-packages-with-linux.md#environment-variables)를 참조하십시오.
+>oracle 클라이언트를 이미 설치했지만 글로벌 환경(예: /etc/profile)이 올바르게 구성되지 않은 경우 **nl6/customer.sh** 스크립트에 누락된 정보를 추가할 수 있습니다. 자세한 내용은 [환경 변수](../../installation/using/installing-packages-with-linux.md#environment-variables)를 참조하십시오.
 
 **문제 해결 및 우수 사례**
 
@@ -208,11 +210,11 @@ oracle 클라이언트나 서버 업데이트, 버전 변경 또는 인스턴스
 
 ## 구현 단계 {#implementation-steps}
 
-Linux용 Adobe Campaign 설치은 다음 순서로 수행되어야 합니다.서버 설치 후 인스턴스 구성이 실행됩니다.
+Linux용 Adobe Campaign 설치은 다음 순서로 수행되어야 합니다. 서버 설치 후 인스턴스 구성이 실행됩니다.
 
 설치 프로세스는 이 장에 설명되어 있습니다. 설치 단계는 다음과 같습니다.
 
-* 1단계:응용 프로그램 서버를 설치하려면 [Linux](../../installation/using/installing-packages-with-linux.md)로 패키지 설치 를 참조하십시오.
-* 2단계:웹 서버와 통합(배포된 구성 요소에 따라 선택 사항).
+* 1단계: 응용 프로그램 서버를 설치하려면 [Linux](../../installation/using/installing-packages-with-linux.md)로 패키지 설치 를 참조하십시오.
+* 2단계: 웹 서버와 통합(배포된 구성 요소에 따라 선택 사항).
 
 설치 단계가 완료되면 인스턴스, 데이터베이스 및 서버를 구성해야 합니다. 자세한 내용은 [초기 구성 정보](../../installation/using/about-initial-configuration.md)를 참조하십시오.

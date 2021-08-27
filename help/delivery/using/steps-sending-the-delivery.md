@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 게재 구성 및 보내기 {#configuring-and-sending-the-delivery}
+
+![](../../assets/common.svg)
 
 >[!NOTE]
 >
@@ -25,23 +27,23 @@ ht-degree: 5%
 
 ![](assets/s_ncs_user_wizard_delivery.png)
 
-* **[!UICONTROL Delivery priority]**:이 옵션을 사용하면 우선순위 수준(일반, 높음 또는 낮음)을 기재하여 게재 전송 순서에 영향을 줄 수 있습니다. 이를 통해 특정 보다 신속한 게재에 대한 주문 우선 순위를 지정할 수 있습니다.
+* **[!UICONTROL Delivery priority]**: 이 옵션을 사용하면 우선순위 수준(일반, 높음 또는 낮음)을 기재하여 게재 전송 순서에 영향을 줄 수 있습니다. 이를 통해 특정 보다 신속한 게재에 대한 주문 우선 순위를 지정할 수 있습니다.
 
-* **[!UICONTROL Message batch quantity]**:이 옵션을 사용하면 동일한 XML 배달 패키지 내에 그룹화된 메시지 수를 정의할 수 있습니다. 매개 변수를 0으로 설정하면 메시지가 자동으로 그룹화됩니다. 패키지 크기는 계산법 `<delivery size>/1024`에 의해 정의되며, 최소 8개 및 최대 256개의 메시지가 패키지로 정의됩니다.
+* **[!UICONTROL Message batch quantity]**: 이 옵션을 사용하면 동일한 XML 배달 패키지 내에 그룹화된 메시지 수를 정의할 수 있습니다. 매개 변수를 0으로 설정하면 메시지가 자동으로 그룹화됩니다. 패키지 크기는 계산법 `<delivery size>/1024`에 의해 정의되며, 최소 8개 및 최대 256개의 메시지가 패키지로 정의됩니다.
 
    >[!IMPORTANT]
    >
    >게재가 중복되면 매개 변수가 재설정됩니다.
 
-* **[!UICONTROL Send using multiple waves]**:자세한 내용은  [여러 웨이브를 사용하여 보내기](#sending-using-multiple-waves)를 참조하십시오.
+* **[!UICONTROL Send using multiple waves]**: 자세한 내용은  [여러 웨이브를 사용하여 보내기](#sending-using-multiple-waves)를 참조하십시오.
 
-* **[!UICONTROL Test SMTP delivery]**:이 옵션을 사용하면 SMTP를 통해 게재 전송을 테스트할 수 있습니다. 게재는 SMTP 서버에 대한 연결까지 처리되지만 전송되지 않습니다.
+* **[!UICONTROL Test SMTP delivery]**: 이 옵션을 사용하면 SMTP를 통해 게재 전송을 테스트할 수 있습니다. 게재는 SMTP 서버에 대한 연결까지 처리되지만 전송되지 않습니다.
 
    >[!NOTE]
    >
    >mta를 호출하지 않도록 중간 소싱을 사용하여 을 설치할 때는 이 옵션을 사용하지 않는 것이 좋습니다. SMTP 서버 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/configure-delivery-settings.md)을 참조하십시오.
 
-* **[!UICONTROL Email BCC]**:이 옵션을 사용하면 메시지 타겟에 숨은 참조 이메일 주소를 추가하면 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](sending-messages.md#archiving-emails)을 참조하십시오.
+* **[!UICONTROL Email BCC]**: 이 옵션을 사용하면 메시지 타겟에 숨은 참조 이메일 주소를 추가하면 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](sending-messages.md#archiving-emails)을 참조하십시오.
 
 ## 게재 확인 {#confirming-delivery}
 
@@ -193,6 +195,6 @@ ht-degree: 5%
    >
    >호스팅 또는 하이브리드 설치의 경우 [Enhanced MTA](sending-with-enhanced-mta.md) 로 업그레이드한 경우 Campaign 이메일 게재의 **[!UICONTROL Delivery duration]** 설정은 **3.5일 이하**&#x200B;로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다.
 
-* **리소스의 유효성 제한**:필드 **[!UICONTROL Validity limit]** 는 주로 미러 페이지와 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하기 위함).
+* **리소스의 유효성 제한**: 필드 **[!UICONTROL Validity limit]** 는 주로 미러 페이지와 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하기 위함).
 
    이 필드의 값은 [이 섹션](../../platform/using/adobe-campaign-workspace.md#default-units)에 나열된 단위로 표시할 수 있습니다.

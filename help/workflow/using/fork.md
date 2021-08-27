@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 포크{#fork}
+
+![](../../assets/common.svg)
 
 **[!UICONTROL Fork]** 활동을 사용하면 동일한 워크플로우 내에서 독립적으로 여러 활동을 수행할 수 있도록 여러 아웃바운드 전환을 만들 수 있습니다.
 
@@ -32,4 +34,4 @@ ht-degree: 1%
 
 ![](assets/s_user_segmentation_fork.png)
 
-그런 다음 각 아웃바운드 전환을 구성한 다음 필요한 경우 [AND-join](../../workflow/using/and-join.md) 활동을 사용하여 두 전환을 함께 조인할 수 있습니다. 이렇게 하면 나머지 워크플로우는 **[!UICONTROL Fork]** 활동의 아웃바운드 전환이 완료된 다음에만 실행됩니다.
+그런 다음 각 아웃바운드 전환을 구성한 다음 필요한 경우 [AND-join](and-join.md) 활동을 사용하여 두 전환을 함께 조인할 수 있습니다. 이렇게 하면 나머지 워크플로우는 **[!UICONTROL Fork]** 활동의 아웃바운드 전환이 완료된 다음에만 실행됩니다.

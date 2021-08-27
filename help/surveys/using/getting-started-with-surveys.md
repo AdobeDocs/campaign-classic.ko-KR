@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 설문 조사 만들기의 주요 단계{#getting-started-with-surveys}
+
+![](../../assets/v7-only.svg)
 
 다음은 다음의 기본 제공 템플릿을 사용하여 간단한 설문 조사를 만드는 주요 단계에 대한 간략한 개요입니다.
 
@@ -43,11 +45,11 @@ ht-degree: 1%
 
 ## 3단계 - 설문 조사 빌드 {#step-3---building-the-survey}
 
-설문 조사는 다음 요소가 위치하는 다이어그램에서 빌드됩니다.컨텐츠가 생성될 페이지, 데이터 사전 로드 및 저장 단계, 테스트 단계. 스크립트와 쿼리를 삽입할 수도 있습니다.
+설문 조사는 다음 요소가 위치하는 다이어그램에서 빌드됩니다. 컨텐츠가 생성될 페이지, 데이터 사전 로드 및 저장 단계, 테스트 단계. 스크립트와 쿼리를 삽입할 수도 있습니다.
 
 차트를 만들려면 설문 조사의 **[!UICONTROL Edit]** 형식을 클릭합니다.
 
-설문 조사에는 **최소**&#x200B;개의 구성 요소가 포함되어야 합니다.페이지, 저장소 상자 및 끝 페이지입니다.
+설문 조사에는 **최소**&#x200B;개의 구성 요소가 포함되어야 합니다. 페이지, 저장소 상자 및 끝 페이지입니다.
 
 * 페이지를 만들려면 편집기의 왼쪽 섹션에서 **[!UICONTROL Page]** 개체를 선택하고 아래 표시된 대로 가운데 섹션에 전달합니다.
 
@@ -66,7 +68,7 @@ ht-degree: 1%
 
 * **입력 필드 추가**
 
-   페이지의 컨텐츠를 만들려면 다음을 편집해야 합니다.이렇게 하려면 **[!UICONTROL Page]** 개체를 두 번 클릭합니다. 도구 모음에서 첫 번째 아이콘을 클릭하여 필드 만들기 마법사를 엽니다. 수신자 프로필의 일치하는 필드에 저장할 사용자 이름에 대한 입력 필드를 만들려면 **[!UICONTROL Edit a recipient]** 을 선택합니다.
+   페이지의 컨텐츠를 만들려면 다음을 편집해야 합니다. 이렇게 하려면 **[!UICONTROL Page]** 개체를 두 번 클릭합니다. 도구 모음에서 첫 번째 아이콘을 클릭하여 필드 만들기 마법사를 엽니다. 수신자 프로필의 일치하는 필드에 저장할 사용자 이름에 대한 입력 필드를 만들려면 **[!UICONTROL Edit a recipient]** 을 선택합니다.
 
    ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
@@ -76,7 +78,7 @@ ht-degree: 1%
 
    **[!UICONTROL Finish]** 을 클릭하여 필드 만들기를 확인합니다.
 
-   기본적으로 데이터베이스에 이미 존재하는 필드에 정보가 저장되면 필드는 선택한 필드의 이름(예:이 예에서 &#39;성&#39;입니다. 아래와 같이 이 레이블을 수정할 수 있습니다.
+   기본적으로 데이터베이스에 이미 존재하는 필드에 정보가 저장되면 필드는 선택한 필드의 이름(예: 이 예에서 &#39;성&#39;입니다. 아래와 같이 이 레이블을 수정할 수 있습니다.
 
    ![](assets/s_ncs_admin_survey_change_label.png)
 
@@ -94,11 +96,11 @@ ht-degree: 1%
 
    ![](assets/s_ncs_admin_survey_add_list.png)
 
-   저장소 공간을 선택합니다.자동으로 값을 검색하려면 열거형 필드를 선택합니다(이 경우 전자 메일 형식).
+   저장소 공간을 선택합니다. 자동으로 값을 검색하려면 열거형 필드를 선택합니다(이 경우 전자 메일 형식).
 
    ![](assets/s_ncs_admin_survey_add_itz_list.png)
 
-   **[!UICONTROL General]** 탭에서 **[!UICONTROL Initialize the list of values from the database]** 링크를 클릭합니다.값 테이블이 자동으로 입력됩니다.
+   **[!UICONTROL General]** 탭에서 **[!UICONTROL Initialize the list of values from the database]** 링크를 클릭합니다. 값 테이블이 자동으로 입력됩니다.
 
    ![](assets/s_ncs_admin_survey_add_value.png)
 
@@ -133,7 +135,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_admin_survey_start_publ.png)
 
-   설문 조사 상태가 다음으로 변경됩니다.**온라인**.
+   설문 조사 상태가 다음으로 변경됩니다. **온라인**.
 
    ![](assets/survey_published.png)
 
@@ -149,6 +151,6 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->공개 URL에는 설문 조사의 내부 이름이 포함되어 있습니다. 내부 이름이 수정되면 URL이 자동으로 업데이트됩니다.설문 조사에 대한 모든 링크도 업데이트해야 합니다.
+>공개 URL에는 설문 조사의 내부 이름이 포함되어 있습니다. 내부 이름이 수정되면 URL이 자동으로 업데이트됩니다. 설문 조사에 대한 모든 링크도 업데이트해야 합니다.
 >
 >양식 링크가 포함된 게재가 이미 전송된 경우 이 링크는 더 이상 작동하지 않습니다.

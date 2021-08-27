@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 오퍼 시뮬레이션 정보{#about-offers-simulation}
+
+![](../../assets/v7-only.svg)
 
 **시뮬레이션** 모듈을 사용하면 수신자에게 제안을 보내기 전에 카테고리 또는 환경에 속하는 오퍼의 분포를 테스트할 수 있습니다.
 

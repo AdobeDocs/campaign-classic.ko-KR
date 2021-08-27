@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 54538c3e-3232-4bf7-a09c-dacf0f072be5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 17%
@@ -14,6 +14,8 @@ ht-degree: 17%
 ---
 
 # 매개 변수 요소 {#parameters--element}
+
+![](../../../assets/v7-only.svg)
 
 ## 컨텐츠 모델 {#content-model-13}
 
@@ -35,11 +37,11 @@ ht-degree: 17%
 
 이 요소는 `<parameter>` 요소 그룹을 정의합니다.
 
-## 사용 컨텍스트 {#use-and-context-of-use-8} 사용
+## 사용 및 사용 컨텍스트 {#use-and-context-of-use-8}
 
 이 요소는 `<method>` 요소의 단일 `<param>` 하위 요소에 대해서도 필수입니다.
 
-## 특성 설명 {#attribute-description-13}
+## 속성 설명 {#attribute-description-13}
 
 없음
 

@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 6%
@@ -15,6 +15,8 @@ ht-degree: 6%
 
 
 # 트랜잭션 메시지 시작 {#about-transactional-messaging}
+
+![](../../assets/v7-only.svg)
 
 ## 개요 {#overview}
 
@@ -90,4 +92,4 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 * [소통 채널 시작](../../delivery/using/communication-channels.md)
 * [게재 만들기 주요 단계](../../delivery/using/steps-about-delivery-creation-steps.md)
 * [트랜잭션 메시지 아키텍처](../../message-center/using/transactional-messaging-architecture.md)
-* [트랜잭션 메시지 보고서에 액세스](../../message-center/using/about-transactional-messaging-reports.md)
+* [트랜잭션 메시지 보고서 액세스](../../message-center/using/about-transactional-messaging-reports.md)

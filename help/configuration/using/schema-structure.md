@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 스키마 구조{#schema-structure}
+
+![](../../assets/v7-only.svg)
 
 `<srcschema>`의 기본 구조는 다음과 같습니다.
 
@@ -134,18 +136,18 @@ ht-degree: 1%
 
 스키마에서 지원되는 데이터 유형은 다음과 같습니다.
 
-* **문자열**:문자열. 예:이름, 도시 등
+* **문자열**: 문자열. 예: 이름, 도시 등
 
    크기는 **length** 속성(선택 사항, 기본값 &quot;255&quot;)을 통해 지정할 수 있습니다.
 
-* **부울**:부울 필드. 가능한 값의 예:true/false, 0/1, 예/아니요 등
-* **byte**,  **short**,  **long**:정수(1바이트, 2바이트, 4바이트). 예:연령, 계좌 번호, 포인트 수 등
-* **double**:배정밀도 부동 소수점 번호 예:가격, 비율 등
-* **date**,  **datetime**:날짜 및 날짜 + 시간. 예:생년월일, 구매 날짜 등
-* **datetimenotz**:날짜 + 시간(시간대 데이터 없음)
-* **timespan**:지속 시간. 예:연수.
-* **메모**:긴 텍스트 필드(여러 줄). 예:설명, 설명 등
-* **uuid**:GUID를 지원하는 &quot;uniqueidentifier&quot; 필드(Microsoft SQL Server에서만 지원됨)입니다.
+* **부울**: 부울 필드. 가능한 값의 예: true/false, 0/1, 예/아니요 등
+* **byte**,  **short**,  **long**: 정수(1바이트, 2바이트, 4바이트). 예: 연령, 계좌 번호, 포인트 수 등
+* **double**: 배정밀도 부동 소수점 번호 예: 가격, 비율 등
+* **date**,  **datetime**: 날짜 및 날짜 + 시간. 예: 생년월일, 구매 날짜 등
+* **datetimenotz**: 날짜 + 시간(시간대 데이터 없음)
+* **timespan**: 지속 시간. 예: 연수.
+* **메모**: 긴 텍스트 필드(여러 줄). 예: 설명, 설명 등
+* **uuid**: GUID를 지원하는 &quot;uniqueidentifier&quot; 필드(Microsoft SQL Server에서만 지원됨)입니다.
 
    >[!NOTE]
    >
@@ -258,7 +260,7 @@ ht-degree: 1%
    <td> DATE<br /> </td> 
    <td> TIMESTAMP<br /> </td> 
    <td> TIMESTAMP<br /> </td> 
-   <td> MS SQL &lt; 2008:DATETIME<br /> MS SQL &gt;= 2012:DATETIMEOFFSET<br /> </td> 
+   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIMEOFFSET<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetimenotz<br /> </td> 
@@ -266,7 +268,7 @@ ht-degree: 1%
    <td> DATE<br /> </td> 
    <td> TIMESTAMP<br /> </td> 
    <td> TIMESTAMP<br /> </td> 
-   <td> MS SQL &lt; 2008:DATETIME<br /> MS SQL &gt;= 2012:DATETIME2<br /> </td> 
+   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIME2<br /> </td> 
   </tr> 
   <tr> 
    <td> Timespan<br /> </td> 
@@ -339,8 +341,8 @@ ht-degree: 1%
 
 **예제**:
 
-* 현재 날짜:**default=&quot;GetDate()&quot;**
-* 카운터:**default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
+* 현재 날짜: **default=&quot;GetDate()&quot;**
+* 카운터: **default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
 
    이 예제에서 기본값은 문자열의 연결을 사용하고 자유 카운터 이름으로 **CounterValue** 함수를 호출하여 구성합니다. 반환된 숫자는 삽입할 때마다 1씩 증가합니다.
 
@@ -350,13 +352,13 @@ ht-degree: 1%
 
 기본값을 필드에 연결하려면 `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
-`<default>` :엔티티를 만들 때 기본값으로 필드를 미리 채울 수 있습니다. 값은 기본 SQL 값이 아닙니다.
+`<default>` : 엔티티를 만들 때 기본값으로 필드를 미리 채울 수 있습니다. 값은 기본 SQL 값이 아닙니다.
 
-`<sqldefault>` :필드를 만들 때 값을 추가할 수 있습니다. 이 값은 SQL 결과로 나타납니다. 스키마 업데이트 중에는 새 레코드만 이 값의 영향을 받습니다.
+`<sqldefault>` : 필드를 만들 때 값을 추가할 수 있습니다. 이 값은 SQL 결과로 나타납니다. 스키마 업데이트 중에는 새 레코드만 이 값의 영향을 받습니다.
 
 ### 열거형 {#enumerations}
 
-#### 사용 가능한 열거형 {#free-enumeration}
+#### 자유 열거형 {#free-enumeration}
 
 **userEnum** 속성을 사용하면 이 필드를 통해 입력한 값을 암기하고 표시할 자유 열거형을 정의할 수 있습니다. 구문은 다음과 같습니다.
 
@@ -396,15 +398,15 @@ ht-degree: 1%
 
 열거형 속성은 다음과 같습니다.
 
-* **baseType**:값과 연관된 데이터 유형,
-* **레이블**:열거형에 대한 설명,
-* **이름**:열거형의 이름,
-* **기본값**:열거형의 기본값입니다.
+* **baseType**: 값과 연관된 데이터 유형,
+* **레이블**: 열거형에 대한 설명,
+* **이름**: 열거형의 이름,
+* **기본값**: 열거형의 기본값입니다.
 
 열거형 값은 다음 특성을 사용하여 **`<value>`** 요소에 선언됩니다.
 
-* **이름**:내부적으로 저장된 값의 이름,
-* **레이블**:그래픽 인터페이스를 통해 표시되는 레이블입니다.
+* **이름**: 내부적으로 저장된 값의 이름,
+* **레이블**: 그래픽 인터페이스를 통해 표시되는 레이블입니다.
 
 #### dbenum 열거형 {#dbenum-enumeration}
 
@@ -447,7 +449,7 @@ ht-degree: 1%
 
 **바인딩되지 않은** 속성을 &quot;true&quot; 값으로 사용하면 컬렉션 요소를 채울 수 있습니다.
 
-**예**:스키마에  **`<group>`** 컬렉션 요소의 정의입니다.
+**예**: 스키마에  **`<group>`** 컬렉션 요소의 정의입니다.
 
 ```
 <element name="group" unbound="true" label="List of groups">
@@ -462,7 +464,7 @@ XML 컨텐츠의 투영 사용:
 <group label="Group2"/>
 ```
 
-## XPath {#referencing-with-xpath}을 사용하여 참조
+## XPath를 사용한 참조 {#referencing-with-xpath}
 
 XPath 언어는 Adobe Campaign에서 데이터 스키마에 속하는 요소나 속성을 참조하는 데 사용됩니다.
 
@@ -472,27 +474,26 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 **예제**:
 
-* **@email**:이메일을 선택하고
-* **location/@city**:요소 아래에서 &quot;city&quot; 속성을  **`<location>`** 선택합니다
-* **../@email**:현재 요소의 상위 요소에서 전자 메일 주소를 선택합니다.
-* **그룹`[1]/@label`**:첫 번째  **`<group>`** 수집 요소의 하위 요소인 &quot;label&quot; 속성을 선택합니다
-* **그룹`[@label='test1']`**:요소의 하위 항목이며  **`<group>`** &quot;test1&quot; 값을 포함하는 &quot;label&quot; 속성을 선택합니다.
+* **@email**: 이메일을 선택하고
+* **location/@city**: 요소 아래에서 &quot;city&quot; 속성을  **`<location>`** 선택합니다
+* **../@email**: 현재 요소의 상위 요소에서 전자 메일 주소를 선택합니다.
+* **그룹`[1]/@label`**: 첫 번째  **`<group>`** 수집 요소의 하위 요소인 &quot;label&quot; 속성을 선택합니다
+* **그룹`[@label='test1']`**: 요소의 하위 항목이며  **`<group>`** &quot;test1&quot; 값을 포함하는 &quot;label&quot; 속성을 선택합니다.
 
 >[!NOTE]
 >
 >경로가 하위 요소를 교차하면 추가 제한이 추가됩니다. 이 경우 대괄호 사이에 다음 표현식을 배치해야 합니다.
 >
->* **location/@** cityn이 잘못되었습니다.다음 사용  **`[location/@city]`**
+>* **location/@** cityn이 잘못되었습니다. 다음 사용  **`[location/@city]`**
 >* **`[@email]`** 및  **@** emailable은
 
 >
 
 
-
 다음 산술 연산과 같이 복잡한 표현식을 정의할 수도 있습니다.
 
-* **@gender+1**:genderattribute의 콘텐츠에 1을  **** 추가합니다.
-* **@email + &#39;(&#39;+@created+&#39;)**:괄호 사이에 만든 날짜에 추가된 전자 메일 주소의 값을 가져와서 문자열을 구성합니다(문자열 유형의 경우 따옴표로 상수 입력).
+* **@gender+1**: genderattribute의 콘텐츠에 1을  **** 추가합니다.
+* **@email + &#39;(&#39;+@created+&#39;)**: 괄호 사이에 만든 날짜에 추가된 전자 메일 주소의 값을 가져와서 문자열을 구성합니다(문자열 유형의 경우 따옴표로 상수 입력).
 
 이 언어의 가능성을 높이기 위해 표현식에 높은 수준의 기능이 추가되었습니다.
 
@@ -502,17 +503,17 @@ Adobe Campaign 클라이언트 콘솔의 모든 표현식 편집기를 통해 �
 
 **예제**:
 
-* **GetDate()**:현재 날짜 반환
-* **Year(@created)**:생성된 속성에 포함된 날짜의 연도를 반환합니다.
-* **GetEmailDomain(@email)**:전자 메일 주소의 도메인을 반환합니다.
+* **GetDate()**: 현재 날짜 반환
+* **Year(@created)**: 생성된 속성에 포함된 날짜의 연도를 반환합니다.
+* **GetEmailDomain(@email)**: 전자 메일 주소의 도메인을 반환합니다.
 
-## 계산 문자열 {#building-a-string-via-the-compute-string}을 통해 문자열 작성
+## 계산 문자열을 통해 문자열 작성 {#building-a-string-via-the-compute-string}
 
 **계산 문자열**&#x200B;은 스키마와 연결된 테이블의 레코드를 나타내는 문자열을 구성하는 데 사용되는 XPath 표현식입니다. **계산** 문자열은 주로 그래픽 인터페이스에서 선택한 레코드의 레이블을 표시하는 데 사용됩니다.
 
 **계산 문자열**&#x200B;은 데이터 스키마의 기본 요소 아래에 있는 **`<compute-string>`** 요소를 통해 정의됩니다. **expr** 속성에는 디스플레이를 계산할 XPath 식이 포함되어 있습니다.
 
-**예**:수신자 테이블의 계산 문자열.
+**예**: 수신자 테이블의 계산 문자열.
 
 ```
 <srcSchema name="recipient" namespace="nms">  
@@ -523,7 +524,7 @@ Adobe Campaign 클라이언트 콘솔의 모든 표현식 편집기를 통해 �
 </srcSchema>
 ```
 
-수신자에 대한 계산된 문자열 결과:**Doe John (john.doe@aol.com)**
+수신자에 대한 계산된 문자열 결과: **Doe John (john.doe@aol.com)**
 
 >[!NOTE]
 >

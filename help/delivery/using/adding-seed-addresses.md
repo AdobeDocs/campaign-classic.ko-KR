@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 시드 주소 추가{#adding-seed-addresses}
+
+![](../../assets/common.svg)
 
 ## 게재의 시드 주소 {#seed-addresses-in-a-delivery}
 
@@ -37,7 +39,7 @@ ht-degree: 5%
 
    이렇게 하려면 **[!UICONTROL Edit the dynamic condition...]** 링크를 클릭한 다음 시드 주소 선택 매개 변수를 입력합니다. 예를 들어 특정 폴더에 포함된 모든 시드 주소 또는 조직의 특정 부서에 속하는 시드 주소를 포함할 수 있습니다.
 
-   이 섹션의 예는 다음과 같습니다.[사용 사례:기준](use-case--selecting-seed-addresses-on-criteria.md)에서 시드 주소를 선택합니다.
+   이 섹션의 예는 다음과 같습니다. [사용 사례: 기준](use-case--selecting-seed-addresses-on-criteria.md)에서 시드 주소를 선택합니다.
 
 >[!NOTE]
 >

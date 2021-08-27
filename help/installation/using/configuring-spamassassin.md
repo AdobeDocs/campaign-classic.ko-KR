@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # SpamAssassin 구성{#configuring-spamassassin}
+
+![](../../assets/v7-only.svg)
 
 >[!NOTE]
 >
@@ -37,22 +39,22 @@ Adobe Campaign에서 SpamAssassin을 사용하면 Adobe Campaign에서 보낸 �
 
 Perl에서 SpamAssassin 및 해당 모듈을 배포하려면 HTTP 연결(TCP/80 흐름)을 통해 인터넷에 액세스할 수 있는 Adobe Campaign 응용 프로그램 서버가 필요합니다.
 
-## Windows 컴퓨터에 설치 {#installing-on-a-windows-machine}
+## Windows 시스템에 설치 {#installing-on-a-windows-machine}
 
 Windows에서 SpamAssassin을 설치 및 구성하여 Adobe Campaign과 통합하려면 다음 단계를 수행합니다.
 
 1. SpamAssassin 설치
 1. Adobe Campaign에 SpamAssassin 통합
 
-### SpamAssassin {#installing-spamassassin} 설치
+### SpamAssassin 설치 {#installing-spamassassin}
 
-1. 사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)에서 소프트웨어 배포에 대해 자세히 알아보십시오.
+1. 사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에 연결합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko?lang=en)에서 소프트웨어 배포에 대해 자세히 알아보십시오.
 1. **Neolane Spam Assassassin(Windows 설치)(2.0)** 파일(neolane_spamassin.2.0.zip)을 다운로드합니다.
 1. 이 파일을 Adobe Campaign 서버에 복사한 다음 압축을 해제합니다.
 
    >[!NOTE]
    >
-   >경로가 다음 정규 표현식 문자로 구성되어 있다고 가정할 때 원하는 위치에 관계없이 파일의 압축을 해제하도록 선택할 수 있습니다.**`-_A-Za-z\xA0-\xFF0-9\.\%\@\=\+\,\/\\\:.`** 설치 경로에는 공백 문자가 포함되지 않아야 합니다.
+   >경로가 다음 정규 표현식 문자로 구성되어 있다고 가정할 때 원하는 위치에 관계없이 파일의 압축을 해제하도록 선택할 수 있습니다. **`-_A-Za-z\xA0-\xFF0-9\.\%\@\=\+\,\/\\\:.`** 설치 경로에는 공백 문자가 포함되지 않아야 합니다.
 
 1. 파일 압축을 푼 파일로 이동한 다음 **run_me.bat** 파일을 두 번 클릭하여 설치 스크립트를 실행합니다.
 
@@ -62,11 +64,11 @@ Windows에서 SpamAssassin을 설치 및 구성하여 Adobe Campaign과 통합�
 
    **run_me.bat**&#x200B;를 입력한 다음 **Enter**&#x200B;를 클릭하여 설치 및 업데이트 프로세스를 시작합니다. 갱신 결과를 나타내기 위해 다음 값 중 하나를 반환합니다.
 
-   * **0**:업데이트가 수행되었습니다.
-   * **1**:새 업데이트를 사용할 수 없습니다.
-   * **2**:새 업데이트를 사용할 수 없습니다.
-   * **3**:사전 확인 중에 업데이트하지 못했습니다.
-   * **4**  이상:오류가 발생했습니다.
+   * **0**: 업데이트가 수행되었습니다.
+   * **1**: 새 업데이트를 사용할 수 없습니다.
+   * **2**: 새 업데이트를 사용할 수 없습니다.
+   * **3**: 사전 확인 중에 업데이트하지 못했습니다.
+   * **4**  이상: 오류가 발생했습니다.
 
 1. SpamAssassin 설치가 성공했는지 확인하려면 다음 절차를 사용하여 GTUBE 테스트(원치 않는 대량 전자 메일에 대한 일반 테스트)를 사용하십시오.
 
@@ -136,7 +138,7 @@ Windows에서 SpamAssassin을 설치 및 구성하여 Adobe Campaign과 통합�
 
 ## Linux 시스템에 설치 {#installing-on-a-linux-machine}
 
-### Debian {#installation-steps-in-debian}의 설치 단계
+### Debian의 설치 단계 {#installation-steps-in-debian}
 
 * 필요한 경우 다음 명령을 사용하여 Perl 및 SpamAssassassin을 설치합니다.
 
@@ -165,7 +167,7 @@ cpan XML::Writer
 cpan Mail::SpamAssassin
 ```
 
-### 필터 규칙 업데이트 중 {#updating-filter-rules}
+### 필터 규칙 업데이트 {#updating-filter-rules}
 
 필터 규칙은 **sa-update** 도구를 사용하여 자동으로 업데이트할 수 있습니다. 자세한 내용은 공식 SpamAssassin 웹 사이트 [http://spamassassin.apache.org/](http://spamassassin.apache.org/)를 참조하십시오.
 

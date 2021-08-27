@@ -6,23 +6,24 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '532'
 ht-degree: 11%
 
 ---
 
 # Adobe Campaign 시작{#launching-adobe-campaign}
 
-Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결할 수 있는 리치 클라이언트입니다. [이 페이지](../../installation/using/installing-the-client-console.md)에서 클라이언트 콘솔을 다운로드하고 구성하는 방법을 알아봅니다.
+![](../../assets/v7-only.svg)
 
+Campaign 클라이언트 콘솔은
 
 >[!CAUTION]
 >
 >[호환성 매트릭스](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)에서 Adobe Campaign 클라이언트 콘솔과의 시스템 및 도구 호환성을 확인합니다
 
-## Adobe Campaign {#starting-adobe-campaign} 시작
+## Adobe Campaign 시작 {#starting-adobe-campaign}
 
 **[!UICONTROL Start / All Programs / Adobe Campaign v.X / Adobe Campaign client console]** 을 선택하여 Adobe Campaign을 시작할 수 있습니다.
 
@@ -87,7 +88,7 @@ Adobe Campaign에서 연결을 끊으려면 아이콘 막대에서 첫 번째 �
 >
 >먼저 로그오프하지 않고 응용 프로그램을 닫을 수도 있습니다.
 
-## Adobe Campaign 버전 {#getting-your-campaign-version} 다운로드
+## Adobe Campaign 버전 가져오기 {#getting-your-campaign-version}
 
 **[!UICONTROL Help > About...]** 메뉴를 사용하면 다음 정보에 액세스할 수 있습니다.
 
@@ -109,5 +110,5 @@ Adobe 고객 지원 팀에 문의할 때마다 Adobe Campaign 클라이언트 �
 **관련 항목**:
 
 * [Adobe Campaign 도움말 및 지원 옵션](../../support.md)
-* [Adobe Campaign 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Adobe Campaign 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)
 * [Adobe Experience Cloud 지원 및 전문가 세션](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

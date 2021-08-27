@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 6%
@@ -14,6 +14,8 @@ ht-degree: 6%
 ---
 
 # 게재 성능 모범 사례 {#delivery-performances}
+
+![](../../assets/common.svg)
 
 아래 지침에 따라 게재가 제대로 수행되도록 하고, 게재 문제가 발생할 경우 이 점검을 수행하는 것이 좋습니다.
 
@@ -49,8 +51,8 @@ ht-degree: 6%
 
 게재 성능이 불량인 경우 다음을 확인할 수 있습니다.
 
-* **게재 크기**:대량 게재를 완료하는 데 시간이 더 걸릴 수 있습니다. MTA 하위는 대부분의 인스턴스에서 작동하는 기본 배치 크기를 처리하도록 구성되지만 게재 속도가 지속적으로 느려질 때 확인해야 합니다.
-* **게재 타겟**:게재 성능 금지에는 다시 시도 구성에 따라 처리되는 소프트 바운스 오류의 영향을 받습니다. 오류 수가 많을수록 더 많은 다시 시도가 필요합니다.
-* **전체 플랫폼 로드**:여러 개의 큰 게재를 보낼 때 전체 플랫폼에 영향을 줄 수 있습니다. IP 평판 및 게재 가능성 문제를 확인할 수도 있습니다. 자세한 내용은 [이 섹션](about-deliverability.md) 및 [Adobe 게재 가능성 우수 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하십시오.
+* **게재 크기**: 대량 게재를 완료하는 데 시간이 더 걸릴 수 있습니다. MTA 하위는 대부분의 인스턴스에서 작동하는 기본 배치 크기를 처리하도록 구성되지만 게재 속도가 지속적으로 느려질 때 확인해야 합니다.
+* **게재 타겟**: 게재 성능 금지에는 다시 시도 구성에 따라 처리되는 소프트 바운스 오류의 영향을 받습니다. 오류 수가 많을수록 더 많은 다시 시도가 필요합니다.
+* **전체 플랫폼 로드**: 여러 개의 큰 게재를 보낼 때 전체 플랫폼에 영향을 줄 수 있습니다. IP 평판 및 게재 가능성 문제를 확인할 수도 있습니다. 자세한 내용은 [이 섹션](about-deliverability.md) 및 [Adobe 게재 가능성 우수 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하십시오.
 
 플랫폼 및 데이터베이스 유지 관리는 게재 전송 성능에도 영향을 줄 수 있습니다. 자세한 정보는 이 [페이지](../../production/using/database-performances.md)를 참조하십시오.

@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: 94e609f3df94c553e2ec84ee427887a767b9af21
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 대화형 콘텐츠 정의{#defining-interactive-content}
+
+![](../../assets/common.svg)
 
 Adobe Campaign을 사용하면 특정 조건에서 다이내믹 이메일을 보낼 수 있는 새로운 대화형 [AMP for Email](https://amp.dev/about/email/) 형식을 사용할 수 있습니다.
 
@@ -71,7 +73,7 @@ AMP 형식을 사용하여 이메일을 작성하려면 아래 단계를 따르�
 
    >[!NOTE]
    >
-   >특정 AMP 템플릿에는 사용할 수 있는 기본 기능의 예가 포함되어 있습니다.제품 목록, 회전판, 이중 옵트인, 설문 조사 및 고급 서버 요청.
+   >특정 AMP 템플릿에는 사용할 수 있는 기본 기능의 예가 포함되어 있습니다. 제품 목록, 회전판, 이중 옵트인, 설문 조사 및 고급 서버 요청.
 
 1. **[!UICONTROL AMP content]** 탭을 클릭합니다.
 
@@ -131,7 +133,7 @@ AMP 형식을 사용하여 이메일을 작성하려면 아래 단계를 따르�
 
 Adobe Campaign에서 AMP 콘텐츠를 작성할 때에는 수신자의 이메일 공급자에 특정한 다이내믹 이메일을 배달하기 위한 조건을 준수해야 합니다.
 
-현재 세 개의 이메일 공급자가 이 형식 테스트를 지원합니다.Gmail, Outlook 및 Mail.ru.
+현재 세 개의 이메일 공급자가 이 형식 테스트를 지원합니다. Gmail, Outlook 및 Mail.ru.
 
 Gmail 계정에서 AMP 형식으로 게재를 테스트하는 데 필요한 모든 단계 및 사양은 해당 [Gmail](https://developers.google.com/gmail/ampemail?), [Outlook ](https://docs.microsoft.com/en-gb/outlook/amphtml/) 및 [Mail.ru](https://postmaster.mail.ru/amp) 개발자 설명서에 자세히 설명되어 있습니다.
 

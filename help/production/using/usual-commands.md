@@ -6,20 +6,22 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '407'
 ht-degree: 3%
 
 ---
 
 # 일반적인 명령{#usual-commands}
 
+![](../../assets/v7-only.svg)
+
 이 섹션에는 Adobe Campaign의 일반적인 명령이 나열됩니다.
 
 **nlserver** 명령은 전체 Adobe Campaign 응용 프로그램에 대한 입력 명령입니다.
 
-이 명령에는 다음 구문이 있습니다.**nlserver **`<command>`****`<arguments>`****
+이 명령에는 다음 구문이 있습니다. **nlserver **`<command>`****`<arguments>`****
 
 매개 변수 **`<command>`**&#x200B;은(는) 모듈에 해당합니다.
 
@@ -29,7 +31,6 @@ ht-degree: 3%
 >* 반대로 인수 **-verbose**&#x200B;를 추가하여 자세한 정보를 표시할 수 있습니다.
 
 >
-
 
 
 ## 명령 모니터링 {#monitoring-commands-}
@@ -74,7 +75,7 @@ wfserver@test
 
 이 모듈은 자동 시작 모듈에 해당하지만 실행되지 않았습니다.
 
-## 모듈 시작 명령 {#module-launch-commands}
+## 모듈 실행 명령 {#module-launch-commands}
 
 launch 모듈 구문은 여전히 다음 형식을 갖습니다.
 
@@ -104,7 +105,7 @@ Adobe Campaign 서비스를 중지하려면 다음 명령 중 하나를 사용�
 
       >[!NOTE]
       >
-      >20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우).**systemctl stop nlserver**
+      >20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우). **systemctl stop nlserver**
 
    * Windows에서:
 
@@ -118,21 +119,21 @@ Adobe Campaign 서비스를 중지하려면 다음 명령 중 하나를 사용�
    nlserver shutdown 
    ```
 
-## 서비스 {#restart-services} 다시 시작
+## 서비스 다시 시작 {#restart-services}
 
 마찬가지로 Adobe Campaign을 다시 시작하기 위해 다음 명령 중 하나를 사용할 수 있습니다.
 
 * 루트 또는 관리자 액세스 권한이 있는 경우:
 
-   * Linux의 경우:/etc/init.d/nlserver6 시작
+   * Linux의 경우: /etc/init.d/nlserver6 시작
 
       >[!NOTE]
       >
-      >20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우).**systemctl start nlserver**
+      >20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
 
-   * Windows에서:net start nlserver6
+   * Windows에서: net start nlserver6
 
-* 그렇지 않으면 Adobe Campaign 계정에서 다음을 수행합니다.**nlserver watchdog -svc -noconsole**
+* 그렇지 않으면 Adobe Campaign 계정에서 다음을 수행합니다. **nlserver watchdog -svc -noconsole**
 
 ## 구성 명령 {#the-config-command}
 
@@ -150,7 +151,7 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 
 암호를 입력합니다.
 
-**내부** 암호를 변경하려면 다음을 수행하십시오.**nlserver 구성 -internalpassword**
+**내부** 암호를 변경하려면 다음을 수행하십시오. **nlserver 구성 -internalpassword**
 
 >[!IMPORTANT]
 >
@@ -159,10 +160,7 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 >[!NOTE]
 >
 >* 일반적으로 구성 파일을 수동으로 수정하는 대신 **config** 명령을 사용할 수 있습니다
->* 매개 변수 목록을 가져오려면 **-?** 매개 변수: **nlserver 구성 -?**
+>* 매개 변수 목록을 가져오려면 **-?** 매개 변수:  **nlserver 구성 -?**
 >* oracle 데이터베이스의 경우 계정을 지정하지 않아야 합니다. 구문은 다음과 같습니다.
-
 >
->  
-nlserver 구성 -setdblogin:Oracle:test6@dbserver
-
+>  nlserver 구성 -setdblogin:Oracle:test6@dbserver

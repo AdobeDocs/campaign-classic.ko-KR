@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 보고서 목록{#list-of-reports}
+
+![](../../assets/common.svg)
 
 ## 게재 보고서 {#reports-on-deliveries}
 
@@ -90,12 +92,12 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에 나�
   </tr> 
   <tr> 
    <td> 게재 요약(deliverySending)<br /> </td> 
-   <td> 게재 지표 요약:대상, 제외 및 메시지를 보냈습니다.<br /> </td> 
+   <td> 게재 지표 요약: 대상, 제외 및 메시지를 보냈습니다.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
    <td> 게재 요약(deliveryStatistics)<br /> </td> 
-   <td> 선택한 게재에 대한 요약 테이블:Target, 제외 및 메시지를 보냈습니다.<br /> </td> 
+   <td> 선택한 게재에 대한 요약 테이블: Target, 제외 및 메시지를 보냈습니다.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
@@ -116,7 +118,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에 나�
  </tbody> 
 </table>
 
-## 캠페인 보고서 {#reports-on-campaigns}
+## 캠페인에 대한 보고서 {#reports-on-campaigns}
 
 캠페인에 대한 보고서는 **nms:operation** 테이블의 데이터를 다룹니다.
 
@@ -152,7 +154,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에 나�
   </tr> 
   <tr> 
    <td> 추적 표시기(operationFeedback)<br /> </td> 
-   <td> 주요 추적 지표 개요:열기, 클릭 수 및 거래는 Campaign에 따라 다릅니다.<br /> </td> 
+   <td> 주요 추적 지표 개요: 열기, 클릭 수 및 거래는 Campaign에 따라 다릅니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 소셜 네트워크에 공유(operationForward)<br /> </td> 
@@ -168,7 +170,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에 나�
   </tr> 
   <tr> 
    <td> 배달 요약(operationStatistics)<br /> </td> 
-   <td> 캠페인 게재의 요약 차트:Target, 제외 및 메시지를 보냈습니다.<br /> </td> 
+   <td> 캠페인 게재의 요약 차트: Target, 제외 및 메시지를 보냈습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> URL 및 클릭 처리량(operationTopUrlDelivery)<br /> </td> 
@@ -177,7 +179,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에 나�
  </tbody> 
 </table>
 
-## 서비스 보고서 {#reports-on-services}
+## 서비스에 대한 보고서 {#reports-on-services}
 
 서비스에 대한 보고서는 **nms:service** 테이블의 데이터와 관련이 있습니다.
 
@@ -270,7 +272,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에 나�
  </tbody> 
 </table>
 
-## 시뮬레이션 보고서 {#reports-on-simulations}
+## 시뮬레이션에 대한 보고서 {#reports-on-simulations}
 
 시뮬레이션에 대한 보고서는 **nms:simulation** 테이블의 데이터를 참조합니다.
 
@@ -307,7 +309,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에 나�
  </tbody> 
 </table>
 
-## 웹 응용 프로그램 보고서 {#reports-on-web-applications}
+## 웹 응용 프로그램에 대한 보고서 {#reports-on-web-applications}
 
 웹 응용 프로그램에 대한 보고서는 **nms:WebApp** 테이블의 데이터를 참조합니다.
 

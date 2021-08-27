@@ -5,7 +5,7 @@ description: 파이프라인 구성 방법 알아보기
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: b6aa797133e6f916bf085794aeb99d61a8f7bc40
+source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 1%
@@ -13,6 +13,8 @@ ht-degree: 1%
 ---
 
 # 파이프라인 구성 {#configuring-pipeline}
+
+![](../../assets/common.svg)
 
 고객 ID, 개인 키 및 인증 끝점과 같은 인증 매개 변수는 인스턴스 구성 파일에 구성됩니다.
 처리할 트리거 목록은 JSON 형식의 옵션으로 구성됩니다.

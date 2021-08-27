@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: 워크플로우 구축
+title: 워크플로우 작성
 description: 워크플로우 구축 방법 알아보기
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 3%
 
 ---
 
-# 워크플로우 구축 {#building-a-workflow}
+# 워크플로우 작성 {#building-a-workflow}
+
+![](../../assets/common.svg)
 
 이 섹션에서는 Campaign에서 워크플로우를 구축하는 주요 원칙과 모범 사례를 자세히 설명합니다.
 
@@ -55,10 +57,10 @@ ht-degree: 3%
 
 활동은 팔레트의 다른 탭 내에서 카테고리별로 그룹화됩니다. 사용 가능한 탭과 활동은 워크플로우 유형(기술, 타깃팅 또는 캠페인 워크플로우)에 따라 달라질 수 있습니다.
 
-* 첫 번째 탭에는 타겟팅 및 데이터 조작 활동이 포함되어 있습니다. 이러한 활동은 [타깃팅 활동](../../workflow/using/about-targeting-activities.md)에 자세히 설명되어 있습니다.
-* 두 번째 탭에는 주로 다른 활동을 조정하는 데 사용되는 예약 활동이 포함되어 있습니다. 이러한 활동은 [흐름 제어 활동](../../workflow/using/about-flow-control-activities.md)에 자세히 설명되어 있습니다.
-* 세 번째 탭에는 워크플로우에서 사용할 수 있는 도구와 작업이 포함되어 있습니다. 이러한 활동은 [작업 활동](../../workflow/using/about-action-activities.md)에 자세히 설명되어 있습니다.
-* 네 번째 탭에는 이메일의 수신 또는 서버에 파일이 도착하는 것과 같이, 주어진 이벤트에 따라 달라지는 활동이 포함되어 있습니다. 이러한 활동은 [이벤트 활동](../../workflow/using/about-event-activities.md)에 자세히 설명되어 있습니다.
+* 첫 번째 탭에는 타겟팅 및 데이터 조작 활동이 포함되어 있습니다. 이러한 활동은 [타깃팅 활동](about-targeting-activities.md)에 자세히 설명되어 있습니다.
+* 두 번째 탭에는 주로 다른 활동을 조정하는 데 사용되는 예약 활동이 포함되어 있습니다. 이러한 활동은 [흐름 제어 활동](about-flow-control-activities.md)에 자세히 설명되어 있습니다.
+* 세 번째 탭에는 워크플로우에서 사용할 수 있는 도구와 작업이 포함되어 있습니다. 이러한 활동은 [작업 활동](about-action-activities.md)에 자세히 설명되어 있습니다.
+* 네 번째 탭에는 이메일의 수신 또는 서버에 파일이 도착하는 것과 같이, 주어진 이벤트에 따라 달라지는 활동이 포함되어 있습니다. 이러한 활동은 [이벤트 활동](about-event-activities.md)에 자세히 설명되어 있습니다.
 
 다이어그램을 만들려면
 
@@ -90,7 +92,7 @@ ht-degree: 3%
 
    ![](assets/s_user_segmentation_wizard_10.png)
 
-   이렇게 하면 편집 도구의 레이아웃을 조정할 수 있습니다.팔레트의 표시 및 그래픽 객체의 개요, 크기 및 정렬
+   이렇게 하면 편집 도구의 레이아웃을 조정할 수 있습니다. 팔레트의 표시 및 그래픽 객체의 개요, 크기 및 정렬
 
    ![](assets/s_user_segmentation_toolbar.png)
 
@@ -104,7 +106,7 @@ ht-degree: 3%
 
 * **이미지 관리**
 
-   다이어그램의 배경 이미지와 다양한 활동과 관련된 배경 이미지를 사용자 지정할 수 있습니다. [활동 이미지 관리](../../workflow/using/managing-activity-images.md)를 참조하십시오.
+   다이어그램의 배경 이미지와 다양한 활동과 관련된 배경 이미지를 사용자 지정할 수 있습니다. [활동 이미지 관리](managing-activity-images.md)를 참조하십시오.
 
 ## 활동 구성 {#configuring-activities}
 
@@ -112,25 +114,25 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->캠페인 워크플로우 활동은 [이 섹션](../../workflow/using/about-activities.md)에 자세히 설명되어 있습니다.
+>캠페인 워크플로우 활동은 [이 섹션](about-activities.md)에 자세히 설명되어 있습니다.
 
 첫 번째 탭에는 기본 구성이 포함되어 있습니다. **[!UICONTROL Advanced]** 탭에는 오류가 발생할 때 동작을 정의하고 활동의 실행 기간을 지정하고 초기화 스크립트를 입력하는 데 특별히 사용되는 추가 매개 변수가 포함되어 있습니다.
 
-활동을 더 잘 이해하고 워크플로우 정확성을 향상시키기 위해 활동에 설명을 입력할 수 있습니다.연산자가 활동을 스크롤할 때 자동으로 표시됩니다.
+활동을 더 잘 이해하고 워크플로우 정확성을 향상시키기 위해 활동에 설명을 입력할 수 있습니다. 연산자가 활동을 스크롤할 때 자동으로 표시됩니다.
 
 ![](assets/example1-comment.png)
 
-## 워크플로우 타깃팅 {#targeting-workflows}
+## 타겟팅 워크플로우 {#targeting-workflows}
 
 타겟팅 워크플로우를 사용하여 여러 게재 타겟을 만들 수 있습니다. 워크플로우 활동을 통해 쿼리를 만들고, 특정 기준에 따라 결합 또는 제외를 정의하고, 예약을 추가할 수 있습니다. 이 타겟팅의 결과는 게재 작업의 타겟으로 사용할 수 있는 목록으로 자동으로 전송될 수 있습니다
 
-데이터 관리 옵션을 사용하면 이러한 활동 외에도 데이터를 조작하고 고급 기능에 액세스하여 복잡한 타겟팅 문제를 해결할 수 있습니다. 자세한 내용은 [데이터 관리](../../workflow/using/targeting-data.md#data-management)를 참조하십시오.
+데이터 관리 옵션을 사용하면 이러한 활동 외에도 데이터를 조작하고 고급 기능에 액세스하여 복잡한 타겟팅 문제를 해결할 수 있습니다. 자세한 내용은 [데이터 관리](targeting-data.md#data-management)를 참조하십시오.
 
 이러한 모든 활동은 첫 번째 워크플로우 탭에서 찾을 수 있습니다.
 
 >[!NOTE]
 >
->타겟팅 활동은 [이 섹션](../../workflow/using/about-activities.md)에 자세히 설명되어 있습니다.
+>타겟팅 활동은 [이 섹션](about-activities.md)에 자세히 설명되어 있습니다.
 
 타깃팅 워크플로우는 Adobe Campaign 트리의 **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** 노드 또는 홈 페이지의 **[!UICONTROL Profiles and Targets > Targeting workflows]** 메뉴를 통해 만들고 편집할 수 있습니다.
 
@@ -138,21 +140,21 @@ ht-degree: 3%
 
 캠페인의 프레임워크 내에 있는 타깃팅 워크플로우는 모든 캠페인 워크플로우와 함께 저장됩니다.
 
-### 타깃팅 워크플로우를 만드는 주요 단계 {#implementation-steps-}
+### 타겟팅 워크플로우를 만드는 주요 단계 {#implementation-steps-}
 
 타겟팅 워크플로우를 만드는 단계는 다음 섹션에 자세히 설명되어 있습니다.
 
-1. **** 데이터베이스에서 데이터 식별 - 쿼리  [만들기를 참조하십시오.](../../workflow/using/targeting-data.md#creating-queries)
-1. **** 게재 요구 사항에 맞게 데이터 준비 - 데이터  [보강 및 수정을 참조하십시오.](../../workflow/using/targeting-data.md#enriching-and-modifying-data)
-1. **** 데이터를 사용하여 업데이트 또는 게재 내에서 - 데이터베이스  [업데이트를 참조하십시오.](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)
+1. **** 데이터베이스에서 데이터 식별 - 쿼리  [만들기를 참조하십시오.](targeting-data.md#creating-queries)
+1. **** 게재 요구 사항에 맞게 데이터 준비 - 데이터  [보강 및 수정을 참조하십시오.](targeting-data.md#enriching-and-modifying-data)
+1. **** 데이터를 사용하여 업데이트 또는 게재 내에서 - 데이터베이스  [업데이트를 참조하십시오.](how-to-use-workflow-data.md#updating-the-database)
 
-타겟팅 중에 수행한 모든 데이터 보강 및 모든 핸들의 결과는 개인화 필드에 저장되고 액세스할 수 있으며, 특히 개인화된 메시지를 만들 때 사용할 수 있습니다. 자세한 내용은 [Target 데이터](../../workflow/using/data-life-cycle.md#target-data) 를 참조하십시오
+타겟팅 중에 수행한 모든 데이터 보강 및 모든 핸들의 결과는 개인화 필드에 저장되고 액세스할 수 있으며, 특히 개인화된 메시지를 만들 때 사용할 수 있습니다. 자세한 내용은 [Target 데이터](data-life-cycle.md#target-data) 를 참조하십시오
 
-### 차원 타깃팅 및 필터링 {#targeting-and-filtering-dimensions}
+### 차원 타겟팅 및 필터링 {#targeting-and-filtering-dimensions}
 
-데이터 세분화 작업 중에 타겟팅 키가 필터링 차원에 매핑됩니다. 타겟팅 차원을 사용하면 작업의 타겟팅된 모집단을 정의할 수 있습니다.수신자, 계약 수혜자, 운영자, 가입자 등 필터링 차원을 사용하면 특정 기준에 따라 모집단을 선택할 수 있습니다.계약자, 뉴스레터 구독자 등
+데이터 세분화 작업 중에 타겟팅 키가 필터링 차원에 매핑됩니다. 타겟팅 차원을 사용하면 작업의 타겟팅된 모집단을 정의할 수 있습니다. 수신자, 계약 수혜자, 운영자, 가입자 등 필터링 차원을 사용하면 특정 기준에 따라 모집단을 선택할 수 있습니다. 계약자, 뉴스레터 구독자 등
 
-예를 들어, 5년 이상 생명 보험 계약이 있는 클라이언트를 선택하려면 다음 타겟팅 차원을 선택합니다.**클라이언트** 및 다음 필터링 차원:**계약 소유자** 그런 다음 쿼리 활동 내에서 필터링 조건을 정의할 수 있습니다
+예를 들어, 5년 이상 생명 보험 계약이 있는 클라이언트를 선택하려면 다음 타겟팅 차원을 선택합니다. **클라이언트** 및 다음 필터링 차원: **계약 소유자** 그런 다음 쿼리 활동 내에서 필터링 조건을 정의할 수 있습니다
 
 타겟팅 차원 선택 단계 중에는 호환되는 필터링 차원만 인터페이스에 제공됩니다.
 
@@ -190,11 +192,11 @@ ht-degree: 3%
 
 기술 워크플로우를 만드는 데 기본 템플릿을 사용할 수 있습니다. 필요에 맞게 구성할 수 있습니다.
 
-**[!UICONTROL Campaign process]** 하위 폴더는 캠페인 내에서 프로세스를 실행하는 데 필요한 워크플로우를 중앙 집중화합니다.작업 통지, 재고 관리, 원가 계산 등
+**[!UICONTROL Campaign process]** 하위 폴더는 캠페인 내에서 프로세스를 실행하는 데 필요한 워크플로우를 중앙 집중화합니다. 작업 통지, 재고 관리, 원가 계산 등
 
 >[!NOTE]
 >
->각 모듈과 함께 설치된 기술 워크플로우 목록은 [전용 섹션](../../workflow/using/about-technical-workflows.md)에서 사용할 수 있습니다.
+>각 모듈과 함께 설치된 기술 워크플로우 목록은 [전용 섹션](about-technical-workflows.md)에서 사용할 수 있습니다.
 
 트리 구조의 **[!UICONTROL Administration > Production > Technical workflows]** 노드에서 다른 기술 워크플로우를 만들 수 있습니다. 하지만 이 프로세스는 전문가 사용자를 위해 예약되어 있습니다.
 

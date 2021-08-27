@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 웹 양식 게시{#publishing-a-web-form}
+
+![](../../assets/common.svg)
 
 ## 양식 데이터 미리 로드 {#pre-loading-the-form-data}
 
@@ -99,7 +101,7 @@ ht-degree: 1%
 
 1. **양식을 사용할 수 없음**
 
-   양식을 닫으면 게재 단계가 종료되고 양식을 사용할 수 없게 됩니다.사용자가 더 이상 액세스할 수 없습니다.
+   양식을 닫으면 게재 단계가 종료되고 양식을 사용할 수 없게 됩니다. 사용자가 더 이상 액세스할 수 없습니다.
 
    만료 날짜는 양식 속성 창에서 정의할 수 있습니다. 자세한 내용은 [온라인 양식 사용](#making-a-form-available-online) 을 참조하십시오
 

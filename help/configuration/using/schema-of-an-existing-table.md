@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 9%
@@ -15,15 +15,17 @@ ht-degree: 9%
 
 # 기존 테이블의 스키마{#schema-of-an-existing-table}
 
+![](../../assets/v7-only.svg)
+
 ## 개요 {#overview}
 
 애플리케이션이 기존 테이블, SQL 보기 또는 원격 데이터베이스의 데이터에 액세스해야 하는 경우 다음 데이터를 사용하여 Adobe Campaign에서 해당 스키마를 만드십시오.
 
-* 테이블 이름:&quot;sqltable&quot; 속성을 사용하여 테이블 이름(깜박임이 사용되는 경우 해당 별칭 포함)을 입력합니다.
-* 스키마 키:조정 필드 참조,
-* 인덱스:쿼리를 생성하는 데 사용됩니다.
-* XML 구조의 필드 및 위치:애플리케이션에 사용된 필드만 채웁니다.
-* 링크:기본 테이블의 다른 테이블과 조인이 있는 경우
+* 테이블 이름: &quot;sqltable&quot; 속성을 사용하여 테이블 이름(깜박임이 사용되는 경우 해당 별칭 포함)을 입력합니다.
+* 스키마 키: 조정 필드 참조,
+* 인덱스: 쿼리를 생성하는 데 사용됩니다.
+* XML 구조의 필드 및 위치: 애플리케이션에 사용된 필드만 채웁니다.
+* 링크: 기본 테이블의 다른 테이블과 조인이 있는 경우
 
 ## 구현 {#implementation}
 
@@ -57,7 +59,7 @@ ht-degree: 9%
 </srcSchema>
 ```
 
-## 외부 데이터베이스 액세스{#accessing-an-external-database}
+## 외부 데이터베이스 액세스 {#accessing-an-external-database}
 
 **Federated Data Access - FDA** 옵션을 사용하면 외부 데이터베이스에 저장된 데이터에 액세스할 수 있습니다.
 

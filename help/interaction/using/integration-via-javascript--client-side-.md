@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1140'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # JavaScript를 통한 통합(클라이언트측){#integration-via-javascript-client-side}
+
+![](../../assets/v7-only.svg)
 
 웹 페이지에서 상호 작용 엔진을 호출하려면 페이지에 직접 JavaScript 코드에 대한 호출을 삽입하십시오. 이 호출은 타깃팅된 오퍼의 콘텐츠를 반환합니다
 
@@ -35,7 +37,7 @@ URL을 호출하는 스크립트는 다음과 같습니다.
 
 ## HTML 모드 {#html-mode}
 
-### 익명 오퍼 {#presenting-an-anonymous-offer} 표시
+### 익명 오퍼 표시 {#presenting-an-anonymous-offer}
 
 1. **상호 작용 엔진 준비**
 
@@ -98,9 +100,9 @@ URL을 호출하는 스크립트는 다음과 같습니다.
    </div>
    ```
 
-### 식별된 오퍼 {#presenting-an-identified-offer} 표시
+### 식별된 오퍼 표시 {#presenting-an-identified-offer}
 
-식별된 담당자에게 오퍼를 제공하기 위해 프로세스는 여기에 자세히 설명된 프로세스와 유사합니다.[익명 오퍼 표시](#presenting-an-anonymous-offer) 웹 페이지의 컨텐츠에서 엔진에 대한 호출 중에 연락처를 식별하는 다음 스크립트를 추가해야 합니다.
+식별된 담당자에게 오퍼를 제공하기 위해 프로세스는 여기에 자세히 설명된 프로세스와 유사합니다. [익명 오퍼 표시](#presenting-an-anonymous-offer) 웹 페이지의 컨텐츠에서 엔진에 대한 호출 중에 연락처를 식별하는 다음 스크립트를 추가해야 합니다.
 
 ```
 <script type="text/javascript">
@@ -124,7 +126,7 @@ URL을 호출하는 스크립트는 다음과 같습니다.
    </script>
    ```
 
-### HTML 렌더링 함수 {#using-an-html-rendering-function} 사용
+### HTML 렌더링 함수 사용 {#using-an-html-rendering-function}
 
 HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할 수 있습니다.
 
@@ -138,7 +140,7 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
 ## XML 모드 {#xml-mode}
 
-### 오퍼 {#presenting-an-offer} 표시
+### 오퍼 프레젠테이션 {#presenting-an-offer}
 
 상호 작용을 통해 오퍼 엔진을 호출하는 HTML 페이지에 XML 노드를 반환할 수 있습니다. 이 XML 노드는 고객 측에서 개발할 함수에 의해 처리할 수 있습니다.
 
@@ -181,7 +183,7 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
 1. **오퍼 스키마를 확장하여 새 필드 추가**
 
-   이 스키마는 다음 필드를 정의합니다.제목 번호 2 및 가격
+   이 스키마는 다음 필드를 정의합니다. 제목 번호 2 및 가격
 
    이 예제의 스키마 이름은 **cus:offer**&#x200B;입니다.
 

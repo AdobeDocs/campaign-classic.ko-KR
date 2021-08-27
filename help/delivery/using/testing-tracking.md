@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 추적 테스트{#testing-tracking}
+
+![](../../assets/common.svg)
 
 미러 페이지, 이메일 로그 및 링크에서 추적을 테스트할 수 있습니다. 방법은 다음과 같습니다.
 

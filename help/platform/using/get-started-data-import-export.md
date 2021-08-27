@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 12%
@@ -14,6 +14,8 @@ ht-degree: 12%
 ---
 
 # 데이터 가져오기 및 내보내기 시작 {#get-started-data-import-export}
+
+![](../../assets/common.svg)
 
 Adobe Campaign Classic은 데이터를 가져오고 내보낼 수 있는 데이터 관리 기능을 제공합니다. 이러한 작업은 워크플로우나 일반 가져오기 및 내보내기를 사용하여 수행할 수 있습니다.
 

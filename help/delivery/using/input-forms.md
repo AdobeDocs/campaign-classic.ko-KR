@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 입력 양식{#input-forms}
+
+![](../../assets/common.svg)
 
 다음은 Adobe Campaign에서 입력 양식 사용에 관한 몇 가지 일반적인 원칙입니다.
 
@@ -59,9 +61,9 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 예제:
 
-* **@date**:이름이 &quot;date&quot;인 속성을 선택합니다.
-* **chapter/@title**:요소 아래에서 &quot;title&quot; 속성을  `<chapter>` 선택합니다
-* **../@date**:현재 요소의 상위 요소에서 날짜를 선택합니다.
+* **@date**: 이름이 &quot;date&quot;인 속성을 선택합니다.
+* **chapter/@title**: 요소 아래에서 &quot;title&quot; 속성을  `<chapter>` 선택합니다
+* **../@date**: 현재 요소의 상위 요소에서 날짜를 선택합니다.
 
 편집 컨트롤은 해당 데이터 형식에 자동으로 적응하고 스키마에 정의된 레이블을 사용합니다.
 
@@ -73,7 +75,7 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 ## 양식화 {#formatting}
 
-컨트롤 배열은 HTML 표에 사용되는 배열처럼 보입니다. 컨트롤을 여러 열로 분할하거나, 요소를 인터레이션하거나, 사용 가능한 공간의 위치를 지정할 수 있습니다. 그러나, 그 서식을 지정 비율이 분포되도록 하는 것은 명심하십시오.개체에 고정 치수를 지정할 수 없습니다.
+컨트롤 배열은 HTML 표에 사용되는 배열처럼 보입니다. 컨트롤을 여러 열로 분할하거나, 요소를 인터레이션하거나, 사용 가능한 공간의 위치를 지정할 수 있습니다. 그러나, 그 서식을 지정 비율이 분포되도록 하는 것은 명심하십시오. 개체에 고정 치수를 지정할 수 없습니다.
 
 이 작업에 대한 자세한 정보는 [이 섹션](../../configuration/using/form-structure.md#formatting)을 참조하십시오.
 

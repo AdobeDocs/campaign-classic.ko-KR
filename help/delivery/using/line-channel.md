@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1162'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # LINE 게재 만들기{#line-channel}
+
+![](../../assets/common.svg)
 
 >[!NOTE]
 >
@@ -56,7 +58,7 @@ ht-degree: 2%
 
    ![](assets/line_service_2.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
 구독 및 서비스에 대한 자세한 내용은 [구독 관리](managing-subscriptions.md)를 참조하십시오.
 
@@ -74,12 +76,12 @@ ht-degree: 2%
 
    ![](assets/line_config_2.png)
 
-   * **[!UICONTROL Channel Alias]**:은  [!DNL LINE] > 탭에서  **[!UICONTROL Channels]** 계정을 통해  **[!UICONTROL Technical configuration]** 제공됩니다.
-   * **[!UICONTROL Channel ID]**:은  [!DNL LINE] > 탭에서  **[!UICONTROL Channels]** 계정을 통해  **[!UICONTROL Basic Information panel]** 제공됩니다.
-   * **[!UICONTROL Channel secret key]**:은  [!DNL LINE] > 탭에서  **[!UICONTROL Channels]** 계정을 통해  **[!UICONTROL Basic Information panel]** 제공됩니다.
-   * **[!UICONTROL Access token]**:개발자 포털 [!DNL LINE] 에서 계정을 통해 또는 버튼을 클릭하여  **[!UICONTROL Get access token]** 제공됩니다.
-   * **[!UICONTROL Access token expiration date]**:액세스 토큰의 만료 날짜를 지정할 수 있습니다.
-   * **[!UICONTROL LINE subscription service]**:사용자를 구독할 서비스를 지정할 수 있습니다.
+   * **[!UICONTROL Channel Alias]**: 은  [!DNL LINE] > 탭에서  **[!UICONTROL Channels]** 계정을 통해  **[!UICONTROL Technical configuration]** 제공됩니다.
+   * **[!UICONTROL Channel ID]**: 은  [!DNL LINE] > 탭에서  **[!UICONTROL Channels]** 계정을 통해  **[!UICONTROL Basic Information panel]** 제공됩니다.
+   * **[!UICONTROL Channel secret key]**: 은  [!DNL LINE] > 탭에서  **[!UICONTROL Channels]** 계정을 통해  **[!UICONTROL Basic Information panel]** 제공됩니다.
+   * **[!UICONTROL Access token]**: 개발자 포털 [!DNL LINE] 에서 계정을 통해 또는 버튼을 클릭하여  **[!UICONTROL Get access token]** 제공됩니다.
+   * **[!UICONTROL Access token expiration date]**: 액세스 토큰의 만료 날짜를 지정할 수 있습니다.
+   * **[!UICONTROL LINE subscription service]**: 사용자를 구독할 서비스를 지정할 수 있습니다.
 
 1. 구성이 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -225,7 +227,7 @@ ht-degree: 2%
 
 ![](assets/line_reports.png)
 
-## 예:개인화된 LINE 메시지 작성 및 보내기 {#example--create-and-send-a-personalized-line-message}
+## 예: 개인화된 LINE 메시지 작성 및 보내기 {#example--create-and-send-a-personalized-line-message}
 
 이 예제에서는 수신자에 따라 개인화할 데이터가 포함된 텍스트 메시지와 이미지를 만들어 구성하려고 합니다.
 

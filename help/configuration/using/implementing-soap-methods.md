@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 4%
@@ -15,11 +15,13 @@ ht-degree: 4%
 
 # SOAP 메서드 구현{#implementing-soap-methods}
 
+![](../../assets/v7-only.svg)
+
 ## 소개 {#introduction}
 
 JavaScript에서 SOAP 메서드를 만들 수 있습니다. 이 기능을 사용하면 응용 프로그램 프로세스를 사용할 수 있으므로 JSP 및 양식의 호출을 개발할 수 없습니다.
 
-이러한 SOAP 메서드는 애플리케이션에서 기본적으로 정의된 것과 동일한 방식으로 동작합니다. 동일한 속성이 지원됩니다.정적, 키 전용 및 상수.
+이러한 SOAP 메서드는 애플리케이션에서 기본적으로 정의된 것과 동일한 방식으로 동작합니다. 동일한 속성이 지원됩니다. 정적, 키 전용 및 상수.
 
 ## 메서드 라이브러리 정의 {#defining-a-method-library}
 
@@ -87,12 +89,12 @@ function nms_recipient_testLog(message)
 
 특정 사례:
 
-* **비정적 메서드**:함수는 먼저 &#39;xml&#39;(E4X) 형식 개체 형태로 전달된 XML 엔터티와 함께 추가 인수를 포함해야 합니다.
-* **&quot;key only&quot; 유형 메서드**:함수는 문자 문자열 형태로 전달된 키와 함께 먼저 추가 인수를 포함해야 합니다.
+* **비정적 메서드**: 함수는 먼저 &#39;xml&#39;(E4X) 형식 개체 형태로 전달된 XML 엔터티와 함께 추가 인수를 포함해야 합니다.
+* **&quot;key only&quot; 유형 메서드**: 함수는 문자 문자열 형태로 전달된 키와 함께 먼저 추가 인수를 포함해야 합니다.
 
 **3. 반환된 값**
 
-함수는 각 &#39;out&#39; 또는 &#39;inout&#39; 형식 매개 변수에 대한 값을 반환해야 합니다. 특정 사례:메서드가 &#39;static&#39;, &#39;key only&#39; 또는 &#39;const&#39; 특성 없이 선언되는 경우 처음 반환된 값은 수정된 엔터티와 일치해야 합니다. 새 개체를 반환하거나 첫 번째 수정된 매개 변수를 반환할 수 있습니다.
+함수는 각 &#39;out&#39; 또는 &#39;inout&#39; 형식 매개 변수에 대한 값을 반환해야 합니다. 특정 사례: 메서드가 &#39;static&#39;, &#39;key only&#39; 또는 &#39;const&#39; 특성 없이 선언되는 경우 처음 반환된 값은 수정된 엔터티와 일치해야 합니다. 새 개체를 반환하거나 첫 번째 수정된 매개 변수를 반환할 수 있습니다.
 
 예제:
 

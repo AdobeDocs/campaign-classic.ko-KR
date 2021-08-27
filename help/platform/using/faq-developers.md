@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 개발자 FAQ {#dev-faq}
+
+![](../../assets/common.svg)
 
 개방형 솔루션인 Adobe Campaign은 사용자 지정 및 고급 애플리케이션 개발을 위한 준비가 되어 있습니다.
 
@@ -25,7 +27,7 @@ Adobe Campaign 데이터베이스의 개념적 데이터 모델은 내장된 테
 
 모범 사례는 [이 문서](https://helpx.adobe.com/kr/campaign/kb/acc-data-model-best-practices.html)에 나열되어 있습니다.
 
-## Campaign 스키마로 작업하는 방법 {#how-to-work-with-campaign-schemas-}
+## Campaign 스키마로 작업하는 방법  {#how-to-work-with-campaign-schemas-}
 
 Adobe Campaign에서 데이터 스키마는 다음 용도로 사용됩니다.
 
@@ -35,11 +37,11 @@ Adobe Campaign에서 데이터 스키마는 다음 용도로 사용됩니다.
 
 데이터 스키마로 작업하고, Campaign을 확장 및 사용자 지정하여 필요에 맞게 조정하는 방법을 이해하려면 [테이블 및 스키마 시작하기](../../configuration/using/about-schema-edition.md)를 참조하십시오.
 
-## 사용자 지정 수신자 테이블을 사용하는 방법 {#how-to-use-a-custom-recipient-table-}
+## 사용자 지정 수신자 테이블을 사용하는 방법  {#how-to-use-a-custom-recipient-table-}
 
 Campaign에서 비표준 수신자 테이블을 만들고 구현하여 메시지를 보낼 수 있습니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](../../configuration/using/about-custom-recipient-table.md)
+[여기를 클릭하여 자세한 내용을 확인하세요](../../configuration/using/about-custom-recipient-table.md)
 
 ## Campaign에서 쿼리를 정의하는 모범 사례는 무엇입니까? {#what-are-the-best-practices-to-define-queries-in-campaign-}
 

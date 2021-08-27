@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 중복 수신자 필터링 {#filtering-duplicated-recipients}
+
+![](../../assets/common.svg)
 
 이 예제에서는 중복 프로필을 복구하기 위해 게재에 두 번 이상 표시되는 수신자를 필터링하려고 합니다.
 

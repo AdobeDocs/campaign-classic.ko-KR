@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4cfecf2f-cf98-42c1-b979-cdd26d5de48b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 7%
@@ -14,6 +14,8 @@ ht-degree: 7%
 ---
 
 # 유니코드로 전환{#switching-to-unicode}
+
+![](../../assets/v7-only.svg)
 
 Linux/PostgreSQL의 기존 **prod** 인스턴스의 경우 유니코드로 전환하는 단계는 다음과 같습니다.
 

@@ -2,18 +2,20 @@
 product: campaign
 title: 호스팅 모델
 description: 캠페인 호스팅 모델 살펴보기
-feature: 개요
+feature: Overview
 role: Architect
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 2%
 
 ---
 
 # 호스팅 모델{#hosting-models}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign은 3가지 호스팅 모델 중에서 선택하여 비즈니스 요구에 맞는 최상의 모델 또는 모델을 선택할 수 있는 유연성과 자유를 제공합니다.
 
@@ -23,21 +25,21 @@ Adobe Campaign은 3가지 호스팅 모델 중에서 선택하여 비즈니스 �
 
 ## Managed Services / 호스팅
 
-Adobe Campaign을 Managed Service으로 배포할 수 있습니다.사용자 인터페이스, 실행 관리 엔진 및 고객의 Campaign 데이터베이스를 포함한 Adobe Campaign의 모든 구성 요소는 이메일 실행, 미러 페이지, 추적 서버 및 구독 취소 페이지/기본 설정 센터 및 랜딩 페이지와 같은 외부에서 보는 웹 구성 요소를 포함하여 Adobe에 의해 완전히 호스팅됩니다.
+Adobe Campaign을 Managed Service으로 배포할 수 있습니다. 사용자 인터페이스, 실행 관리 엔진 및 고객의 Campaign 데이터베이스를 포함한 Adobe Campaign의 모든 구성 요소는 이메일 실행, 미러 페이지, 추적 서버 및 구독 취소 페이지/기본 설정 센터 및 랜딩 페이지와 같은 외부에서 보는 웹 구성 요소를 포함하여 Adobe에 의해 완전히 호스팅됩니다.
 
 ![](assets/deployment_hosted.png)
 
 호스팅된 고객의 경우 대부분의 설치 및 구성 단계는 Adobe에 의해 수행됩니다. 다음 섹션에 액세스하여 구현을 사용자 지정할 수 있습니다.
 
 * 브랜드당 추적 및 미러 페이지 URL을 구성합니다. 트랜잭션 메시지는 [이 섹션](../../message-center/using/additional-configurations.md#configuring-multibranding)을 참조하십시오.
-* 클라이언트 콘솔 설치:[을 참조하여 이 섹션](../../installation/using/installing-the-client-console.md)을 참조하십시오.
+* 클라이언트 콘솔 설치: [을 참조하여 이 섹션](../../installation/using/installing-the-client-console.md)을 참조하십시오.
 * 게재 기능 도구 및 모범 사례에 대해 자세히 알아보려면 [자세한 설명서](../../delivery/using/about-deliverability.md)를 참조하십시오.
-* 캠페인 옵션 구성:[을 참조하여 이 섹션](../../installation/using/configuring-campaign-options.md)을 참조하십시오.
-* CRM 커넥터 구성:[을 참조하여 이 섹션](../../platform/using/crm-connectors.md)을 참조하십시오.
+* 캠페인 옵션 구성: [을 참조하여 이 섹션](../../installation/using/configuring-campaign-options.md)을 참조하십시오.
+* CRM 커넥터 구성: [을 참조하여 이 섹션](../../platform/using/crm-connectors.md)을 참조하십시오.
 
 ## On-premise
 
-Adobe Campaign은 온-프레미스에서 배포할 수 있습니다.사용자 인터페이스, 실행 관리 엔진 및 데이터베이스를 포함한 Adobe Campaign의 모든 구성 요소는 고객 데이터 센터에 있는 사이트에 있습니다. 이 배포 모델에서 고객은 모든 소프트웨어 및 하드웨어 업데이트 및 업그레이드를 관리하며, 전용 데이터베이스 관리자는 Campaign 인스턴스를 관리하기 위해 유지 관리 및 최적화 작업을 수행해야 합니다.
+Adobe Campaign은 온-프레미스에서 배포할 수 있습니다. 사용자 인터페이스, 실행 관리 엔진 및 데이터베이스를 포함한 Adobe Campaign의 모든 구성 요소는 고객 데이터 센터에 있는 사이트에 있습니다. 이 배포 모델에서 고객은 모든 소프트웨어 및 하드웨어 업데이트 및 업그레이드를 관리하며, 전용 데이터베이스 관리자는 Campaign 인스턴스를 관리하기 위해 유지 관리 및 최적화 작업을 수행해야 합니다.
 
 ![](assets/deployment_onpremise.png)
 
@@ -59,12 +61,12 @@ Adobe Campaign은 온-프레미스에서 배포할 수 있습니다.사용자 �
 
 하이브리드 고객으로서, 대부분의 설치 및 구성 단계는 Adobe에 의해 수행됩니다. 다음 섹션에 액세스하여 구현을 사용자 지정할 수 있습니다.
 
-* 트랜잭션 메시지 구성:[을 참조하여 이 섹션](../../message-center/using/transactional-messaging-architecture.md)을 참조하십시오.
+* 트랜잭션 메시지 구성: [을 참조하여 이 섹션](../../message-center/using/transactional-messaging-architecture.md)을 참조하십시오.
 * 브랜드당 추적 및 미러 페이지 URL을 구성합니다. 트랜잭션 메시지는 [이 섹션](../../message-center/using/additional-configurations.md#configuring-multibranding)을 참조하십시오.
-* 클라이언트 콘솔 설치:[을 참조하여 이 섹션](../../installation/using/installing-the-client-console.md)을 참조하십시오.
-* 기본 제공 패키지 설치:[을 참조하여 이 섹션](../../installation/using/installing-campaign-standard-packages.md)을 참조하십시오.
-* 게재 기능:[MX 규칙](../../installation/using/email-deliverability.md#mx-configuration) 및 [전자 메일 형식](../../installation/using/email-deliverability.md#managing-email-formats)을 구성합니다. 게재 기능 도구 및 모범 사례에 대해 자세히 알아보려면 [자세한 설명서](../../delivery/using/about-deliverability.md)를 참조하십시오.
-* 캠페인 옵션 구성:[을 참조하여 이 섹션](../../installation/using/configuring-campaign-options.md)을 참조하십시오.
-* 외부 데이터베이스 구성(Federated Data Access):[을 참조하여 이 섹션](../../installation/using/about-fda.md)을 참조하십시오.
-* CRM 커넥터 구성:[을 참조하여 이 섹션](../../platform/using/crm-connectors.md)을 참조하십시오.
+* 클라이언트 콘솔 설치: [을 참조하여 이 섹션](../../installation/using/installing-the-client-console.md)을 참조하십시오.
+* 기본 제공 패키지 설치: [을 참조하여 이 섹션](../../installation/using/installing-campaign-standard-packages.md)을 참조하십시오.
+* 게재 기능: [MX 규칙](../../installation/using/email-deliverability.md#mx-configuration) 및 [전자 메일 형식](../../installation/using/email-deliverability.md#managing-email-formats)을 구성합니다. 게재 기능 도구 및 모범 사례에 대해 자세히 알아보려면 [자세한 설명서](../../delivery/using/about-deliverability.md)를 참조하십시오.
+* 캠페인 옵션 구성: [을 참조하여 이 섹션](../../installation/using/configuring-campaign-options.md)을 참조하십시오.
+* 외부 데이터베이스 구성(Federated Data Access): [을 참조하여 이 섹션](../../installation/using/about-fda.md)을 참조하십시오.
+* CRM 커넥터 구성: [을 참조하여 이 섹션](../../platform/using/crm-connectors.md)을 참조하십시오.
 * 중간 소싱 배포 원칙에 대한 자세한 내용은 [에서 이 섹션](../../installation/using/mid-sourcing-deployment.md)을 참조하십시오.

@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '718'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 표시기 만들기{#creating-indicators}
+
+![](../../assets/common.svg)
 
 큐브가 작동하도록 하려면 관련 차원 및 측정값을 식별하고 큐브에서 만들어야 합니다.
 
@@ -28,7 +30,7 @@ ht-degree: 1%
 
 구현 단계는 아래에 자세히 설명되어 있습니다. 이 장의 다른 섹션에서는 완전한 옵션과 설명을 사용할 수 있습니다.
 
-## 작업 테이블 {#selecting-the-work-table} 선택
+## 작업 테이블 선택 {#selecting-the-work-table}
 
 큐브를 만들려면 큐브 목록 위에 있는 **[!UICONTROL New]** 단추를 클릭합니다.
 
@@ -38,7 +40,7 @@ ht-degree: 1%
 
 ![](assets/s_advuser_cube_wz_02.png)
 
-**[!UICONTROL Save]** 을 클릭하여 큐브를 만듭니다.큐브 목록에 표시되고 적절한 탭을 사용하여 구성할 수 있습니다.
+**[!UICONTROL Save]** 을 클릭하여 큐브를 만듭니다. 큐브 목록에 표시되고 적절한 탭을 사용하여 구성할 수 있습니다.
 
 이 큐브의 계산을 데이터베이스의 데이터 선택에 적용하려면 **[!UICONTROL Filter the source data...]** 링크를 클릭하십시오.
 
@@ -70,7 +72,7 @@ Dimension은 관련 팩트 스키마를 기준으로 각 큐브에 대해 정의
 
    ![](assets/s_advuser_cube_wz_07.png)
 
-   이 예제에서는 주/학기/월을 동시에 사용할 수 없으므로 연도, 월 및 일만 표시하려고 합니다.이러한 수준은 호환되지 않습니다.
+   이 예제에서는 주/학기/월을 동시에 사용할 수 없으므로 연도, 월 및 일만 표시하려고 합니다. 이러한 수준은 호환되지 않습니다.
 
 * 다른 차원을 만들어 수신자 도시를 기준으로 데이터를 분석합니다
 
@@ -90,11 +92,11 @@ Dimension은 관련 팩트 스키마를 기준으로 각 큐브에 대해 정의
 
    자세한 내용은 [저장소 동적으로 관리](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins)를 참조하십시오.
 
-## 표시기 만들기 {#building-indicators}
+## 지표 작성 {#building-indicators}
 
-차원이 정의되면 셀에 표시할 값에 대한 계산 모드를 지정해야 합니다. 이렇게 하려면 **[!UICONTROL Measures]** 탭에서 일치하는 표시기를 만듭니다.보고서에 표시할 열이 있을 만큼 큐브를 사용할 수 있는 측정 단위를 생성합니다.
+차원이 정의되면 셀에 표시할 값에 대한 계산 모드를 지정해야 합니다. 이렇게 하려면 **[!UICONTROL Measures]** 탭에서 일치하는 표시기를 만듭니다. 보고서에 표시할 열이 있을 만큼 큐브를 사용할 수 있는 측정 단위를 생성합니다.
 
-이렇게 하려면 다음 단계를 적용합니다.
+그렇게 하려면 다음 단계를 적용합니다.
 
 1. **[!UICONTROL Add]** 버튼을 클릭합니다.
 1. 적용할 측정값 유형과 공식을 선택합니다. 여기에서는 수혜자 중 여성의 수를 계산하려고 합니다.
@@ -113,7 +115,7 @@ Dimension은 관련 팩트 스키마를 기준으로 각 큐브에 대해 정의
 
 1. 큐브를 저장합니다.
 
-## 큐브 {#creating-a-report-based-on-a-cube} 를 기반으로 보고서 만들기
+## 큐브를 기반으로 보고서 생성 {#creating-a-report-based-on-a-cube}
 
 큐브가 구성되면 새 보고서를 만들기 위한 템플릿으로 사용할 수 있습니다.
 
@@ -123,13 +125,13 @@ Dimension은 관련 팩트 스키마를 기준으로 각 큐브에 대해 정의
 
    ![](assets/s_advuser_cube_wz_14.png)
 
-1. **[!UICONTROL Create]** 단추를 클릭하여 확인합니다.보고서 구성 및 보기 페이지로 이동합니다.
+1. **[!UICONTROL Create]** 단추를 클릭하여 확인합니다. 보고서 구성 및 보기 페이지로 이동합니다.
 
    기본적으로 사용 가능한 처음 두 차원은 행과 열로 제공되지만 테이블에 값이 표시되지 않습니다. 테이블을 생성하려면 기본 아이콘을 누릅니다.
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. 차원의 축을 전환하거나 삭제하고 새 측정 단위를 추가할 수 있습니다. 가능한 작업은 여기에 자세히 설명되어 있습니다.[큐브를 사용하여 데이터 탐색](../../reporting/using/using-cubes-to-explore-data.md)
+1. 차원의 축을 전환하거나 삭제하고 새 측정 단위를 추가할 수 있습니다. 가능한 작업은 여기에 자세히 설명되어 있습니다. [큐브를 사용하여 데이터 탐색](../../reporting/using/using-cubes-to-explore-data.md)
 
    이렇게 하려면 적절한 아이콘을 사용합니다.
 

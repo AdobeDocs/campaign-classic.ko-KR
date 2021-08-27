@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 중간 소싱 배포{#mid-sourcing-deployment}
+
+![](../../assets/v7-only.svg)
 
 이 구성은 호스팅(ASP) 구성과 내부 구성 간의 최적 중간 솔루션입니다. 외향 실행 구성 요소는 Adobe Campaign에서 호스팅되는 &quot;중간 소싱&quot; 서버에서 수행됩니다.
 
@@ -32,10 +34,10 @@ ht-degree: 1%
 
 ### 장점 {#advantages}
 
-* 간소화된 서버 구성:고객이 외부 환경 모듈(mta 및 inMail)을 구성할 필요는 없습니다.
-* 대역폭 사용 제한:중간 소싱 서버에서 실행되므로 개인화 데이터를 중간 소싱 서버로 전송하는 데 충분한 대역폭만 필요합니다.
-* 고가용성은 더 이상 내부 문제가 아닙니다.중간 소싱 서버(리디렉션, 미러 페이지, 실행 서버 등)로 문제가 이동합니다.
-* 데이터베이스가 회사를 벗어나지 않습니다.메시지를 취합하는 데 필요한 데이터만 중간 소싱 서버로 전송됩니다(이 경우 HTTPS를 사용할 수 있음).
+* 간소화된 서버 구성: 고객이 외부 환경 모듈(mta 및 inMail)을 구성할 필요는 없습니다.
+* 대역폭 사용 제한: 중간 소싱 서버에서 실행되므로 개인화 데이터를 중간 소싱 서버로 전송하는 데 충분한 대역폭만 필요합니다.
+* 고가용성은 더 이상 내부 문제가 아닙니다. 중간 소싱 서버(리디렉션, 미러 페이지, 실행 서버 등)로 문제가 이동합니다.
+* 데이터베이스가 회사를 벗어나지 않습니다. 메시지를 취합하는 데 필요한 데이터만 중간 소싱 서버로 전송됩니다(이 경우 HTTPS를 사용할 수 있음).
 * 이러한 유형의 배포는 대량 아키텍처(데이터베이스의 많은 수신자)를 위한 솔루션이며 상당한 게재 처리량을 제공합니다.
 
 ### 단점 {#disadvantages}
@@ -43,10 +45,10 @@ ht-degree: 1%
 * 중간 소싱 서버에서 정보를 다시 가져오는 데 걸리는 시간으로 인해 메시지 실행 정보 보기 및 보고 기능이 약간 지연됩니다.
 * 설문 조사 및 웹 양식은 클라이언트 플랫폼에 유지됩니다.
 
-### 권장되는 장비 {#recommended-equipment}
+### 추천 장비 {#recommended-equipment}
 
-* 애플리케이션 서버:2Ghz 쿼드 코어 CPU, 4GB RAM, 소프트웨어 RAID 1 80GB SATA 하드 드라이브
-* 데이터베이스 서버:3GHz bi-quad 코어 CPU, 최소 4GB RAM, 하드웨어 RAID 10 15000RPM SAS 하드 드라이브, 데이터베이스의 크기 및 예상 성능에 따른 숫자
+* 애플리케이션 서버: 2Ghz 쿼드 코어 CPU, 4GB RAM, 소프트웨어 RAID 1 80GB SATA 하드 드라이브
+* 데이터베이스 서버: 3GHz bi-quad 코어 CPU, 최소 4GB RAM, 하드웨어 RAID 10 15000RPM SAS 하드 드라이브, 데이터베이스의 크기 및 예상 성능에 따른 숫자
 
 >[!NOTE]
 >

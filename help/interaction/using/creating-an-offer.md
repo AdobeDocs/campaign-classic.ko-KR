@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -15,7 +15,9 @@ ht-degree: 2%
 
 # 오퍼 만들기{#creating-an-offer}
 
-## 오퍼 {#creating-the-offer} 만들기
+![](../../assets/v7-only.svg)
+
+## 오퍼 만들기 {#creating-the-offer}
 
 오퍼를 만들려면 다음 단계를 적용합니다.
 
@@ -39,11 +41,11 @@ ht-degree: 2%
 
    ![](assets/offer_create_004.png)
 
-## 오퍼 자격 구성 중 {#configuring-offer-eligibility}
+## 오퍼 자격 구성 {#configuring-offer-eligibility}
 
 **[!UICONTROL Eligibility]** 탭에서 오퍼가 유효한 기간을 정의하고 오퍼를 표시할 수 있습니다. 이 필터는 대상에 적용할 필터와 오퍼 가중치입니다.
 
-### 오퍼 {#defining-the-eligibility-period-of-an-offer} 자격 기간 정의
+### 오퍼의 자격 기간 정의 {#defining-the-eligibility-period-of-an-offer}
 
 오퍼의 자격 기간을 정의하려면 드롭다운 목록을 사용하고 달력에서 시작 및 종료 날짜를 선택합니다.
 
@@ -51,7 +53,7 @@ ht-degree: 2%
 
 이 날짜 이외에는 상호 작용 엔진에서 오퍼를 선택하지 않습니다. 오퍼 카테고리에 대한 자격 날짜도 구성한 경우 가장 제한적인 기간이 적용됩니다.
 
-### 대상 {#filters-on-the-target}의 필터
+### 타겟의 필터 {#filters-on-the-target}
 
 필터를 오퍼 타겟에 적용할 수 있습니다.
 
@@ -77,7 +79,7 @@ ht-degree: 2%
 
 오퍼에서 가중치를 만들려면 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Add]**&#x200B;를 클릭합니다.
 
    ![](assets/offer_weight_create_001.png)
 
@@ -125,10 +127,10 @@ ht-degree: 2%
 
 1. 오퍼 컨텐츠의 다양한 필드를 작성합니다.
 
-   * **[!UICONTROL Title]** :오퍼에 표시할 제목을 지정합니다. 경고:이것은 **[!UICONTROL General]** 탭에 정의된 오퍼의 레이블을 참조하지 않습니다.
-   * **[!UICONTROL Destination URL]** :오퍼의 URL을 지정합니다. 올바르게 처리하려면 &quot;http://&quot; 또는 &quot;https://&quot;으로 시작해야 합니다.
-   * **[!UICONTROL Image URL]** :오퍼 이미지에 대한 URL 또는 액세스 경로를 지정합니다.
-   * **[!UICONTROL HTML content]** /  **[!UICONTROL Text content]** :원하는 탭에 오퍼 본문을 입력합니다. 추적을 생성하려면 **[!UICONTROL HTML content]** 을 `<div>` 유형 요소로 묶을 수 있는 HTML 요소로 구성해야 합니다. 예를 들어 HTML 페이지에서 `<table>` 요소의 결과는 다음과 같습니다.
+   * **[!UICONTROL Title]** : 오퍼에 표시할 제목을 지정합니다. 경고: 이것은 **[!UICONTROL General]** 탭에 정의된 오퍼의 레이블을 참조하지 않습니다.
+   * **[!UICONTROL Destination URL]** : 오퍼의 URL을 지정합니다. 올바르게 처리하려면 &quot;http://&quot; 또는 &quot;https://&quot;으로 시작해야 합니다.
+   * **[!UICONTROL Image URL]** : 오퍼 이미지에 대한 URL 또는 액세스 경로를 지정합니다.
+   * **[!UICONTROL HTML content]** /  **[!UICONTROL Text content]** : 원하는 탭에 오퍼 본문을 입력합니다. 추적을 생성하려면 **[!UICONTROL HTML content]** 을 `<div>` 유형 요소로 묶을 수 있는 HTML 요소로 구성해야 합니다. 예를 들어 HTML 페이지에서 `<table>` 요소의 결과는 다음과 같습니다.
 
    ```
       <div> 
@@ -155,7 +157,7 @@ ht-degree: 2%
 
    이 예에서 오퍼에는 제목, 이미지, HTML 콘텐츠 및 대상 URL이 포함되어야 합니다.
 
-## 오퍼 {#previewing-the-offer} 미리 보기
+## 오퍼 미리 보기 {#previewing-the-offer}
 
 오퍼 컨텐츠가 구성되면 수신자에 대해 표시될 오퍼를 미리 볼 수 있습니다. 방법은 다음과 같습니다.
 
@@ -171,7 +173,7 @@ ht-degree: 2%
 
    ![](assets/offer_preview_create_003.png)
 
-## 오퍼 {#creating-a-hypothesis-on-an-offer}에 가설 만들기
+## 오퍼에 가설 만들기 {#creating-a-hypothesis-on-an-offer}
 
 오퍼 제안에 대한 가설을 만들 수 있습니다. 오퍼가 해당 제품에 대해 수행된 구매에 미치는 영향을 파악할 수 있습니다.
 
@@ -181,6 +183,6 @@ ht-degree: 2%
 
 오퍼 제안에 대해 수행된 가설이 **[!UICONTROL Measure]** 탭에서 참조됩니다.
 
-가설 만들기는 [이 페이지](../../campaign/using/about-response-manager.md)에 자세히 설명되어 있습니다.
+가설 만들기는 [이 페이지](../../response/using/about-response-manager.md)에 자세히 설명되어 있습니다.
 
 ![](assets/offer_hypothesis_001.png)

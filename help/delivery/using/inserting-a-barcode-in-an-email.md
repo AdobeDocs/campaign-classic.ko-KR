@@ -5,7 +5,7 @@ description: 전자 메일에 바코드 삽입
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
@@ -13,7 +13,9 @@ ht-degree: 0%
 ---
 
 
-# 전자 메일{#inserting-a-barcode-in-an-email}에 바코드 삽입
+# 전자 메일에 바코드 삽입{#inserting-a-barcode-in-an-email}
+
+![](../../assets/common.svg)
 
 바코드 생성 모듈을 사용하면 2D 바코드를 포함하여 다양한 공통 표준을 준수하는 여러 종류의 바코드를 만들 수 있습니다.
 
@@ -27,7 +29,7 @@ ht-degree: 0%
 
 1. 바코드 유형을 선택합니다.
 
-   * 1D 형식의 경우 Adobe Campaign에서 다음 유형을 사용할 수 있습니다.Codabar, Code 128, GS1-128(이전의 EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, Interleaved 2 of 5, POSTNET 및 Royal Mail(RM4SCC).
+   * 1D 형식의 경우 Adobe Campaign에서 다음 유형을 사용할 수 있습니다. Codabar, Code 128, GS1-128(이전의 EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, Interleaved 2 of 5, POSTNET 및 Royal Mail(RM4SCC).
 
       1D 바코드의 예:
 
@@ -47,7 +49,7 @@ ht-degree: 0%
 
       ![](assets/barcode_insert_12.png)
 
-1. 전자 메일에 삽입할 바코드의 크기를 입력합니다.스케일을 구성하면 바코드의 크기를 x1에서 x10으로 늘리거나 줄일 수 있습니다.
+1. 전자 메일에 삽입할 바코드의 크기를 입력합니다. 스케일을 구성하면 바코드의 크기를 x1에서 x10으로 늘리거나 줄일 수 있습니다.
 1. **[!UICONTROL Value]** 필드를 사용하면 바코드의 값을 정의할 수 있습니다. 값은 특별 오퍼와 일치할 수 있으며 기준의 기능일 수 있으며, 고객에 연결된 데이터베이스 필드의 값이 될 수 있습니다.
 
    이 예에서는 수신자의 계정 번호를 추가한 EAN-8 형식의 바코드를 보여 줍니다. 이 계정 번호를 추가하려면 **[!UICONTROL Value]** 필드 오른쪽에 있는 개인화 단추를 클릭하고 **[!UICONTROL Recipient > Account number]** 을 선택합니다.

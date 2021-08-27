@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 3%
@@ -15,11 +15,13 @@ ht-degree: 3%
 
 # 워크플로우 히트맵 {#workflow-heatmap}
 
+![](../../assets/common.svg)
+
 캠페인 워크플로우 HeatMap은 현재 실행 중인 모든 워크플로우를 색상으로 구분된 그래픽으로 표시합니다. 이 기능은 **캠페인 관리자**&#x200B;만 사용할 수 있습니다.
 
 [이 페이지](../../production/using/monitoring-guidelines.md)에서 캠페인 프로세스를 모니터링하는 추가 방법을 알아봅니다.
 
-## 워크플로우 HeatMap {#about-the-workflow-heatmap} 시작
+## 워크플로우 열 지도 시작 {#about-the-workflow-heatmap}
 
 동시 실행 워크플로우의 수에 대한 빠른 개요를 제공함으로써 Adobe Campaign 플랫폼 관리자는 Workflow HeatMap을 사용하여 인스턴스의 로드를 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다.
 
@@ -29,16 +31,16 @@ ht-degree: 3%
 * 기간별로 워크플로우를 필터링하여 문제가 발생할 수 있는 워크플로우 확인
 * 기간별로 활동을 필터링하여 문제가 발생할 수 있는 활동을 확인하십시오
 * 개별 워크플로우 및 모든 관련 활동(해당 기간 포함)을 손쉽게 검색
-* 워크플로우 유형별로 필터링:[기술 워크플로우](../../workflow/using/building-a-workflow.md#technical-workflows) 또는 [캠페인 워크플로우](../../workflow/using/building-a-workflow.md#campaign-workflows)
+* 워크플로우 유형별로 필터링: [기술 워크플로우](building-a-workflow.md#technical-workflows) 또는 [캠페인 워크플로우](building-a-workflow.md#campaign-workflows)
 * 분석할 특정 워크플로우 검색
 
 >[!NOTE]
 >
->**워크플로우 Heatmap** 외에도 워크플로우 세트의 상태를 모니터링하고 반복 메시지를 감리자에게 보낼 수 있는 워크플로우를 만들 수 있습니다. 자세한 내용은 [전용 섹션](../../workflow/using/supervising-workflows.md)을 참조하십시오.
+>**워크플로우 Heatmap** 외에도 워크플로우 세트의 상태를 모니터링하고 반복 메시지를 감리자에게 보낼 수 있는 워크플로우를 만들 수 있습니다. 자세한 내용은 [전용 섹션](supervising-workflows.md)을 참조하십시오.
 
-워크플로우 열 맵을 사용하려면 다음 개념을 잘 이해해야 합니다.[워크플로우](../../workflow/using/about-workflows.md), [활동](../../workflow/using/about-activities.md) 및 [워크플로우 우수 사례](../../workflow/using/workflow-best-practices.md)
+워크플로우 열 맵을 사용하려면 다음 개념을 잘 이해해야 합니다. [워크플로우](about-workflows.md), [활동](about-activities.md) 및 [워크플로우 우수 사례](workflow-best-practices.md)
 
-## 워크플로우 열 맵 {#using-the-heatmap} 사용자 지정
+## 워크플로우 열 지도 사용자 지정 {#using-the-heatmap}
 
 >[!NOTE]
 >
@@ -75,14 +77,14 @@ ht-degree: 3%
 
 1. **[!UICONTROL Workflow type]** 에서도 필터링할 수 있습니다.
 
-   * **[!UICONTROL Technical]** :기본  [기술 워크플로우 ](../../workflow/using/building-a-workflow.md#technical-workflows) 및  [데이터 관리 워크플로우만 ](../../workflow/using/targeting-data.md#data-management) 표시됩니다.
-   * **[!UICONTROL Marketing]** :마케팅 캠페인에 연결된 워크플로우( [캠페인 워크플로우](../../workflow/using/building-a-workflow.md#campaign-workflows))만 표시됩니다.
+   * **[!UICONTROL Technical]** : 기본  [기술 워크플로우 ](building-a-workflow.md#technical-workflows) 및  [데이터 관리 워크플로우만 ](targeting-data.md#data-management) 표시됩니다.
+   * **[!UICONTROL Marketing]** : 마케팅 캠페인에 연결된 워크플로우( [캠페인 워크플로우](building-a-workflow.md#campaign-workflows))만 표시됩니다.
 
 1. 특정 워크플로우를 이름별로 검색하려면 **[!UICONTROL Workflow name filter]** 필드를 사용할 수도 있습니다.
 
 1. 사이에 일부 워크플로우를 편집한 경우 **[!UICONTROL Reload data]** 버튼을 클릭하여 그리드에 표시되는 데이터를 새로 고칩니다.
 
-## 워크플로우 HeatMap {#reading-the-heatmap} 해석
+## 워크플로우 열 지도 해석 {#reading-the-heatmap}
 
 Campaign Workflow HeatMap은 자연적으로 왼쪽 상단에서 오른쪽 하단으로 읽을 수 있는 그리드로서 녹색에서 빨간색 색상으로 구분된 범위가 있는 &quot;핫 존&quot;을 찾을 수 있습니다.
 
@@ -110,7 +112,7 @@ Campaign Workflow HeatMap은 자연적으로 왼쪽 상단에서 오른쪽 하�
 1. 워크플로우 ID 또는 이름을 클릭하여 워크플로우를 직접 엽니다.
 1. **[!UICONTROL Campaign Workflow HeatMap]** 보기로 돌아가려면 **[!UICONTROL Home]** 버튼을 클릭합니다.
 
-## 사용 사례:HeatMap을 사용하여 {#use-cases--using-the-heatmap-to-take-actions} 작업을 수행합니다.
+## 사용 사례: 열 맵을 사용하여 작업 수행 {#use-cases--using-the-heatmap-to-take-actions}
 
 캠페인 워크플로우 HeatMap이 유용할 수 있는 두 가지 주요 사례가 있습니다.
 
@@ -145,7 +147,7 @@ Campaign 관리자는 워크플로우 HeatMap을 사용하여 활동을 느리�
    * 마케팅 사용자에게 처리 시간을 단축하기 위해 가장 긴 워크플로우를 분할하도록 권장합니다.
    * 특정 워크플로우 및 특정 활동(예: JavaScript, 가져오기, 내보내기 등)에 대한 심층적인 분석을 시작하여 문제를 분리하고 보다 쉽게 해결할 수 있습니다.
 
-## HeatMap을 사용하여 워크플로우 계획 {#example--using-the-heatmap-to-improve-workflow-planning} 개선
+## HeatMap을 사용하여 워크플로우 계획 개선 {#example--using-the-heatmap-to-improve-workflow-planning}
 
 아래 예제는 Adobe Campaign Workflow HeatMap을 사용할 때 어떻게 계획을 보다 효율적으로 수행하고 성능을 향상시킬 수 있는지를 보여줍니다.
 

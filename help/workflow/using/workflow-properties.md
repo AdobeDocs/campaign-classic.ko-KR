@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '551'
 ht-degree: 1%
 
 ---
 
 # 워크플로우 속성{#workflow-properties}
+
+![](../../assets/common.svg)
 
 ## 실행 탭 {#execution-tab}
 
@@ -39,15 +41,15 @@ ht-degree: 1%
 
    설치에 여러 워크플로우 서버가 포함된 경우 이 필드를 사용하여 워크플로우를 실행할 시스템을 선택합니다. 이 필드에 정의된 값이 서버에 없는 경우 워크플로우는 보류 중인 상태로 유지됩니다.
 
-   이 [섹션](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities)을 참조하십시오.
+   이 [Campaign Classic v7 설치 안내서](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities)를 참조하십시오.
 
 * **[!UICONTROL History in days]**
 
-   데이터베이스의 작업 테이블은 실행 기록(작업, 이벤트, 로그)을 유지합니다. 여기에서 이 워크플로우에 보관할 일 수를 정의할 수 있습니다.정리 프로세스는 하루에 한 번 가장 오래된 아카이브를 삭제합니다. 이 필드의 값이 0이면 보관 파일은 삭제되지 않습니다.
+   데이터베이스의 작업 테이블은 실행 기록(작업, 이벤트, 로그)을 유지합니다. 여기에서 이 워크플로우에 보관할 일 수를 정의할 수 있습니다. 정리 프로세스는 하루에 한 번 가장 오래된 아카이브를 삭제합니다. 이 필드의 값이 0이면 보관 파일은 삭제되지 않습니다.
 
 * **[!UICONTROL Log SQL queries in the journal]**
 
-   이 기능은 고급 사용자를 위해 예약되어 있습니다. 타겟팅 활동(쿼리, 결합, 교집합 등)이 포함된 워크플로우와 관련이 있습니다. 이 옵션을 선택하면 워크플로우 실행 중에 데이터베이스로 전송된 SQL 쿼리가 Adobe Campaign에 표시됩니다.즉, 쿼리를 분석하여 쿼리를 최적화하거나 문제를 진단할 수 있습니다.
+   이 기능은 고급 사용자를 위해 예약되어 있습니다. 타겟팅 활동(쿼리, 결합, 교집합 등)이 포함된 워크플로우와 관련이 있습니다. 이 옵션을 선택하면 워크플로우 실행 중에 데이터베이스로 전송된 SQL 쿼리가 Adobe Campaign에 표시됩니다. 즉, 쿼리를 분석하여 쿼리를 최적화하거나 문제를 진단할 수 있습니다.
 
    쿼리는 옵션이 활성화되면 워크플로우에 추가된 **[!UICONTROL SQL logs]** 탭(캠페인 워크플로우 제외)과 **[!UICONTROL Properties]** 활동에 표시됩니다. **[!UICONTROL Audit]** 탭에는 SQL 쿼리도 포함되어 있습니다.
 
@@ -63,8 +65,8 @@ ht-degree: 1%
 
    이 필드에서는 워크플로우 작업에 오류가 있을 경우 수행할 작업을 정의할 수 있습니다. 다음 두 가지 옵션을 사용할 수 있습니다.
 
-   * **[!UICONTROL Stop the process]**:워크플로우는 자동으로 일시 중지됩니다. 워크플로우 상태가 **[!UICONTROL Failed]**&#x200B;으로 변경됩니다. 문제가 해결되면 **[!UICONTROL Start]** 또는 **[!UICONTROL Restart]** 버튼을 사용하여 워크플로우를 다시 시작합니다.
-   * **[!UICONTROL Ignore]**:오류를 트리거한 작업의 상태가  **[!UICONTROL Failed]**&#x200B;로 변경되지만 워크플로우는 상태를  **[!UICONTROL Started]** 유지합니다. 이 구성은 반복 작업에 관련되어 있습니다.분기에 스케줄러가 포함되어 있으면 워크플로우가 다음에 실행될 때 정상적으로 시작됩니다.
+   * **[!UICONTROL Stop the process]**: 워크플로우는 자동으로 일시 중지됩니다. 워크플로우 상태가 **[!UICONTROL Failed]**&#x200B;으로 변경됩니다. 문제가 해결되면 **[!UICONTROL Start]** 또는 **[!UICONTROL Restart]** 버튼을 사용하여 워크플로우를 다시 시작합니다.
+   * **[!UICONTROL Ignore]**: 오류를 트리거한 작업의 상태가  **[!UICONTROL Failed]**&#x200B;로 변경되지만 워크플로우는 상태를  **[!UICONTROL Started]** 유지합니다. 이 구성은 반복 작업에 관련되어 있습니다. 분기에 스케줄러가 포함되어 있으면 워크플로우가 다음에 실행될 때 정상적으로 시작됩니다.
 
 * **[!UICONTROL Consecutive errors]**
 

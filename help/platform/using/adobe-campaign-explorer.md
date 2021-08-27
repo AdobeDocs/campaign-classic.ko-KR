@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f,f91d69a4-b794-40f0-b450-de862d7333e2
-source-git-commit: bdc19e80744643097463e4e721b05a2ac8e51a2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
@@ -15,17 +15,19 @@ ht-degree: 1%
 
 # Adobe Campaign 탐색기 사용 {#using-adobe-campaign-explorer}
 
+![](../../assets/common.svg)
+
 도구 모음 아이콘을 통해 Adobe Campaign 탐색기에 액세스할 수 있습니다. 모든 Adobe Campaign 기능, 구성 화면 및 일부 플랫폼 요소에 대한 보다 자세한 보기를 Adobe Campaign에 액세스할 수 있습니다.
 
 **[!UICONTROL Explorer]** 작업 공간은 다음 세 영역으로 구분됩니다.
 
 ![](assets/s_ncs_user_navigation.png)
 
-**1 - 트리**:트리의 컨텐츠를 개인화할 수 있습니다(노드 추가, 이동 또는 삭제). 이 절차는 전문가 사용자만 사용할 수 있습니다. 자세한 내용은 [이 섹션](#about-navigation-hierarchy))을 참조하십시오.
+**1 - 트리**: 트리의 컨텐츠를 개인화할 수 있습니다(노드 추가, 이동 또는 삭제). 이 절차는 전문가 사용자만 사용할 수 있습니다. 자세한 내용은 [이 섹션](#about-navigation-hierarchy))을 참조하십시오.
 
-**2 - 목록**:이 목록을 필터링하거나, 검색을 실행하거나, 정보를 추가하거나, 데이터를 정렬할 수 있습니다. [자세히 알아보기](adobe-campaign-ui-lists.md)
+**2 - 목록**: 이 목록을 필터링하거나, 검색을 실행하거나, 정보를 추가하거나, 데이터를 정렬할 수 있습니다. [자세히 알아보기](adobe-campaign-ui-lists.md)
 
-**3 - 세부 정보**:선택한 요소의 세부 사항을 표시할 수 있습니다. 오른쪽 상단 섹션의 아이콘을 사용하여 이 정보를 전체 화면 형식으로 표시할 수 있습니다.
+**3 - 세부 정보**: 선택한 요소의 세부 사항을 표시할 수 있습니다. 오른쪽 상단 섹션의 아이콘을 사용하여 이 정보를 전체 화면 형식으로 표시할 수 있습니다.
 
 ## 폴더 및 탐색 트리{#about-navigation-hierarchy}
 
@@ -51,7 +53,7 @@ ht-degree: 1%
 
 * **하위 폴더 만들기**
 
-   표준 폴더 아래에 기술 워크플로우 배치:관리/프로덕션/기술 워크플로우 및 워크플로우 유형별로 하위 디렉토리를 만듭니다.
+   표준 폴더 아래에 기술 워크플로우 배치: 관리/프로덕션/기술 워크플로우 및 워크플로우 유형별로 하위 디렉토리를 만듭니다.
 
 * **이름 지정 규칙 설정**
 

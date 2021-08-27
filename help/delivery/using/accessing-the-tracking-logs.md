@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: df494786-5950-4646-aa9c-4dde45845057
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 17%
@@ -14,6 +14,8 @@ ht-degree: 17%
 ---
 
 # 추적 로그 액세스{#accessing-the-tracking-logs}
+
+![](../../assets/common.svg)
 
 게재를 보내고 추적을 활성화하면 **[!UICONTROL Tracking]** 기술 워크플로우가 추적 데이터를 검색하도록 담당합니다. 기본적으로 시간별로 실행됩니다.
 

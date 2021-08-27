@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 로컬 승인{#local-approval}
+
+![](../../assets/common.svg)
 
 타깃팅 워크플로우에 통합되면 게재를 보내기 전에 **[!UICONTROL Local approval]** 활동을 통해 수신자 승인 프로세스를 설정할 수 있습니다.
 
@@ -23,7 +25,7 @@ ht-degree: 1%
 >
 >이 활동을 사용하려면 캠페인 옵션인 분산 마케팅 모듈을 구매해야 합니다. 사용권 계약을 확인하십시오.
 
-배포 템플릿이 있는 **[!UICONTROL Local approval]** 활동의 예는 [로컬 승인 활동 사용](../../workflow/using/using-the-local-approval-activity.md)을 참조하십시오.
+배포 템플릿이 있는 **[!UICONTROL Local approval]** 활동의 예는 [로컬 승인 활동 사용](using-the-local-approval-activity.md)을 참조하십시오.
 
 활동 및 **[!UICONTROL Action to execute]** 필드에 레이블을 입력하여 시작합니다.
 
@@ -33,7 +35,7 @@ ht-degree: 1%
 
    ![](assets/local_validation_intro_2.png)
 
-* **증분 쿼리**:쿼리를 수행하고 실행을 계획할 수 있습니다. [증분 쿼리](../../workflow/using/incremental-query.md) 섹션을 참조하십시오.
+* **증분 쿼리**: 쿼리를 수행하고 실행을 계획할 수 있습니다. [증분 쿼리](incremental-query.md) 섹션을 참조하십시오.
 
    ![](assets/local_validation_intro_3.png)
 
@@ -47,13 +49,13 @@ ht-degree: 1%
 
 ![](assets/local_validation_3.png)
 
-* **[!UICONTROL Distribution context]**:유형  **[!UICONTROL Specified in the transition]** 활동을 사용하여 타깃팅된 모집단을  **[!UICONTROL Split]** 제한하는 경우 옵션을 선택합니다. 이 경우 분배 템플릿은 분할 활동에 입력됩니다. 대상 모집단을 제한하지 않는 경우 여기에서 **[!UICONTROL Explicit]** 옵션을 선택하고 **[!UICONTROL Data distribution]** 필드에 배포 템플릿을 입력합니다.
+* **[!UICONTROL Distribution context]**: 유형  **[!UICONTROL Specified in the transition]** 활동을 사용하여 타깃팅된 모집단을  **[!UICONTROL Split]** 제한하는 경우 옵션을 선택합니다. 이 경우 분배 템플릿은 분할 활동에 입력됩니다. 대상 모집단을 제한하지 않는 경우 여기에서 **[!UICONTROL Explicit]** 옵션을 선택하고 **[!UICONTROL Data distribution]** 필드에 배포 템플릿을 입력합니다.
 
-   데이터 배포 템플릿 만들기에 대한 자세한 내용은 [데이터 배포당 하위 집합 레코드 수 제한](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)을 참조하십시오.
+   데이터 배포 템플릿 만들기에 대한 자세한 내용은 [데이터 배포당 하위 집합 레코드 수 제한](split.md#limiting-the-number-of-subset-records-per-data-distribution)을 참조하십시오.
 
 * **[!UICONTROL Approval management]**
 
-   * 게재 템플릿과 전자 메일 알림에 사용할 제목을 선택합니다. 기본 템플릿을 사용할 수 있습니다.**[!UICONTROL Local approval notification]** 승인 및 피드백 알림에서 수신자 목록 위에 표시되는 설명을 추가할 수도 있습니다.
+   * 게재 템플릿과 전자 메일 알림에 사용할 제목을 선택합니다. 기본 템플릿을 사용할 수 있습니다. **[!UICONTROL Local approval notification]** 승인 및 피드백 알림에서 수신자 목록 위에 표시되는 설명을 추가할 수도 있습니다.
    * 승인 최종 기한(승인 시작 날짜나 기한)에 해당하는 **[!UICONTROL Approval type]**&#x200B;을 지정합니다. 이 날짜에서는 워크플로우가 다시 시작되고 승인되지 않은 수신자는 타겟팅에서 고려되지 않습니다. 알림이 전송되면 로컬 관리자가 연락처를 승인할 수 있도록 활동이 큐에 추가됩니다.
 
       >[!NOTE]
@@ -62,7 +64,7 @@ ht-degree: 1%
 
       또한 한 개 이상의 미리 알림을 추가하여 지역 감독관에게 마감일이 다가오고 있음을 알릴 수도 있습니다. 이렇게 하려면 **[!UICONTROL Add a reminder]** 링크를 클릭합니다.
 
-* **[!UICONTROL Complementary set]**:이  **[!UICONTROL Generate complement]** 옵션을 사용하면 승인되지 않은 모든 대상을 포함하는 두 번째 세트를 생성할 수 있습니다.
+* **[!UICONTROL Complementary set]**: 이  **[!UICONTROL Generate complement]** 옵션을 사용하면 승인되지 않은 모든 대상을 포함하는 두 번째 세트를 생성할 수 있습니다.
 
    >[!NOTE]
    >
@@ -79,13 +81,13 @@ ht-degree: 1%
 ![](assets/local_validation_workflow_4.png)
 
 * 이전 활동 중에 게재를 입력한 경우 **[!UICONTROL Specified in the transition]** 옵션을 선택합니다. **[!UICONTROL Explicit]** 을 선택하여 로컬 승인 활동에서 게재를 지정합니다.
-* 게재 템플릿과 알림 이메일의 개체를 선택합니다. 기본 템플릿이 있습니다.**[!UICONTROL Local approval notification]**
+* 게재 템플릿과 알림 이메일의 개체를 선택합니다. 기본 템플릿이 있습니다. **[!UICONTROL Local approval notification]**
 
-## 예:워크플로우 게재 승인 {#example--approving-a-workflow-delivery}
+## 예: 워크플로우 게재 승인 {#example--approving-a-workflow-delivery}
 
-이 예제에서는 워크플로우 게재에 대한 승인 프로세스를 설정하는 방법을 보여줍니다. 게재 워크플로우 만들기에 대한 자세한 내용은 [예제:게재 워크플로우](../../workflow/using/delivery.md#example--delivery-workflow) 섹션.
+이 예제에서는 워크플로우 게재에 대한 승인 프로세스를 설정하는 방법을 보여줍니다. 게재 워크플로우 만들기에 대한 자세한 내용은 [예제: 게재 워크플로우](delivery.md#example--delivery-workflow) 섹션.
 
-연산자는 다음 두 가지 방법 중 하나로 게재를 승인할 수 있습니다.이메일 메시지 또는 콘솔을 통해 연결된 웹 페이지 사용.
+연산자는 다음 두 가지 방법 중 하나로 게재를 승인할 수 있습니다. 이메일 메시지 또는 콘솔을 통해 연결된 웹 페이지 사용.
 
 * 웹 승인
 
@@ -107,7 +109,7 @@ ht-degree: 1%
 
 **예**&#x200B;를 선택한 다음 **[!UICONTROL Approve]**&#x200B;를 클릭합니다. 응답이 기록되었음을 알리는 메시지가 표시됩니다.
 
-워크플로우 화면으로 돌아갑니다.10초 정도 지나면 다이어그램이 다음과 같이 표시됩니다.
+워크플로우 화면으로 돌아갑니다. 10초 정도 지나면 다이어그램이 다음과 같이 표시됩니다.
 
 ![](assets/new-workflow-8.png)
 

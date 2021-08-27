@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 5%
 
 ---
 
-# 사용 사례:온라인 설문 조사 응답에 대한 보고서 표시{#use-case-displaying-report-on-answers-to-an-online-survey}
+# 사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시{#use-case-displaying-report-on-answers-to-an-online-survey}
+
+![](../../assets/common.svg)
 
 Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하여 수집하고 분석할 수 있습니다.
 
@@ -41,7 +43,7 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
    ![](assets/reporting_usecase_1_01.png)
 
-1. 추출할 열을 선택합니다(이 경우:선택:모든 보관된 필드입니다. 답변이 포함된 필드입니다.
+1. 추출할 열을 선택합니다(이 경우: 선택: 모든 보관된 필드입니다. 답변이 포함된 필드입니다.
 
    ![](assets/reporting_usecase_1_02.png)
 
@@ -49,7 +51,7 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
    ![](assets/reporting_usecase_1_04.png)
 
-   이 활동에서 업데이트할 목록을 지정하고 **[!UICONTROL Purge and re-use the list if it exists (otherwise add to the list)]** 옵션을 선택 취소합니다.답변이 기존 테이블에 추가됩니다. 이 옵션을 사용하면 큐브의 목록을 참조할 수 있습니다. 목록에 연결된 스키마는 각 업데이트에 대해 다시 생성되지 않으므로 이 목록을 사용하는 큐브의 무결성을 보장합니다.
+   이 활동에서 업데이트할 목록을 지정하고 **[!UICONTROL Purge and re-use the list if it exists (otherwise add to the list)]** 옵션을 선택 취소합니다. 답변이 기존 테이블에 추가됩니다. 이 옵션을 사용하면 큐브의 목록을 참조할 수 있습니다. 목록에 연결된 스키마는 각 업데이트에 대해 다시 생성되지 않으므로 이 목록을 사용하는 큐브의 무결성을 보장합니다.
 
    ![](assets/reporting_usecase_1_03.png)
 
@@ -65,7 +67,7 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
 ## 2단계 - 큐브, 측정 단위 및 해당 표시기 생성 {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-그런 다음 큐브를 만들고 측정 단위를 구성할 수 있습니다.보고서 세트에 표시될 지표를 만드는 데 사용됩니다. 큐브 만들기 및 구성에 대한 자세한 내용은 [큐브 정보](../../reporting/using/about-cubes.md)를 참조하십시오.
+그런 다음 큐브를 만들고 측정 단위를 구성할 수 있습니다. 보고서 세트에 표시될 지표를 만드는 데 사용됩니다. 큐브 만들기 및 구성에 대한 자세한 내용은 [큐브 정보](../../reporting/using/about-cubes.md)를 참조하십시오.
 
 이 예에서 큐브는 이전에 만든 워크플로에서 제공한 목록의 데이터를 기반으로 합니다.
 

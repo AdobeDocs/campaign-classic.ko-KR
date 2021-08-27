@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: a104d8ce-1c28-4da9-bcbf-c17adb1c85c1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 6%
@@ -14,6 +14,8 @@ ht-degree: 6%
 ---
 
 # 워크플로우 시작{#starting-workflows}
+
+![](../../assets/v7-only.svg)
 
 **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** 노드를 통해 액세스하는 **[!UICONTROL Managing social networks]** 워크플로우를 통해 Adobe Campaign을 Twitter 및 Facebook과 동기화할 수 있습니다.
 

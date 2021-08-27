@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 집계 컴퓨팅 수행 {#performing-aggregate-computing}
+
+![](../../assets/common.svg)
 
 이 예제에서는 런던에 거주하는 수신자의 수를 성에 따라 계산하려고 합니다.
 
@@ -35,7 +37,7 @@ ht-degree: 2%
 
    ![](assets/query_editor_nveau_27.png)
 
-1. **[!UICONTROL Sorting]** 창에서 **[!UICONTROL Next]** 를 클릭합니다.여기서 정렬할 필요는 없습니다.
+1. **[!UICONTROL Sorting]** 창에서 **[!UICONTROL Next]** 를 클릭합니다. 여기서 정렬할 필요는 없습니다.
 1. 데이터 필터링을 구성합니다. 여기서는 London에 거주하는 연락처로 선택을 제한하려고 합니다.
 
    ![](assets/query_editor_22.png)
@@ -44,9 +46,9 @@ ht-degree: 2%
    >
    >값은 대/소문자를 구분합니다. 대문자 없이 조건에 &#39;London&#39; 값을 입력하고 수신자 목록에 대문자 &quot;London&quot;이라는 단어가 포함된 경우 쿼리가 실패합니다.
 
-1. **[!UICONTROL Data formatting]** 창에서 **[!UICONTROL Next]** 를 클릭합니다.이 예에는 서식이 필요하지 않습니다.
+1. **[!UICONTROL Data formatting]** 창에서 **[!UICONTROL Next]** 를 클릭합니다. 이 예에는 서식이 필요하지 않습니다.
 1. 미리 보기 창에서 **[!UICONTROL Launch data preview]** 을 클릭합니다.
 
-   성별별로 각 정렬에 대해 세 개의 개별 값이 있습니다.**2**, **1**, 성별을 알 수 없는 경우 **0** 이 예제에는 10명의 여성, 16명의 남성과 2명의 성별을 알 수 없는 사람들이 포함되어 있습니다.
+   성별별로 각 정렬에 대해 세 개의 개별 값이 있습니다. **2**, **1**, 성별을 알 수 없는 경우 **0** 이 예제에는 10명의 여성, 16명의 남성과 2명의 성별을 알 수 없는 사람들이 포함되어 있습니다.
 
    ![](assets/query_editor_agregat_04.png)

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 1%
@@ -15,13 +15,15 @@ ht-degree: 1%
 
 # 게재 개요{#delivery-outline}
 
+![](../../assets/common.svg)
+
 **게재 개요**&#x200B;를 사용하면 캠페인 워크플로우에서 아웃라인을 사용할 수 있습니다. 미리 캠페인에 윤곽이 만들어졌음에 틀림없다.
 
 Adobe Campaign의 게재 아웃라인에 대한 자세한 내용은 이 [섹션](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)을 참조하십시오.
 
 활동을 구성하려면 원하는 아웃라인과 계획된 연락 날짜를 선택하기만 하면 됩니다. 유형화 또는 유형화 규칙을 추가하여 필터링 규칙을 추가할 수 있습니다.
 
-## 예:게재 개요 {#example--inserting-an-offer-via-a-delivery-outline}를 통해 오퍼 삽입
+## 예: 게재 개요를 통해 오퍼 삽입 {#example--inserting-an-offer-via-a-delivery-outline}
 
 캠페인 워크플로우에서 사용할 수 있는 **게재 개요** 활동을 사용하면 진행 중인 현재 캠페인의 게재 아웃라인에서 참조되는 오퍼를 표시할 수 있습니다.
 

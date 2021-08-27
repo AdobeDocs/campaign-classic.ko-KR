@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 4%
@@ -15,9 +15,11 @@ ht-degree: 4%
 
 # 사용 사례: 필드 대체 구성{#use-case-configuring-the-field-substitution}
 
-무작위 필드 대체를 사용하면 사용자가 게재에서 이 값을 사용할 때 비어 있는 시드 주소에 수신자 목록의 값을 지정할 수 있습니다(예:이름, 도시 등)
+![](../../assets/common.svg)
 
-이 대체를 사용하면 게재를 만들 때 시간을 절약할 수 있습니다.원하는 값을 시드 주소에 수동으로 추가하는 대신 대체는 게재가 타겟팅한 수신자 목록에서 이 값을 임의로 복원하여 시드 주소에 적용합니다.
+무작위 필드 대체를 사용하면 사용자가 게재에서 이 값을 사용할 때 비어 있는 시드 주소에 수신자 목록의 값을 지정할 수 있습니다(예: 이름, 도시 등)
+
+이 대체를 사용하면 게재를 만들 때 시간을 절약할 수 있습니다. 원하는 값을 시드 주소에 수동으로 추가하는 대신 대체는 게재가 타겟팅한 수신자 목록에서 이 값을 임의로 복원하여 시드 주소에 적용합니다.
 
 ## 컨텍스트 {#context}
 
@@ -57,7 +59,7 @@ ht-degree: 4%
 
 1. 게재를 엽니다.
 
-   이 예에서는 게재에 두 개의 개인화 필드가 있습니다.수신자의 **이름** 및 수신자의 **즐겨 사용하는 문학적 장르**.
+   이 예에서는 게재에 두 개의 개인화 필드가 있습니다. 수신자의 **이름** 및 수신자의 **즐겨 사용하는 문학적 장르**.
 
    ![](assets/dlv_seeds_usecase_25.png)
 
@@ -73,7 +75,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Edit the dynamic condition...]** 링크에 대한 자세한 내용은 [사용 사례:기준](use-case--selecting-seed-addresses-on-criteria.md)에서 시드 주소 선택.
+   >**[!UICONTROL Edit the dynamic condition...]** 링크에 대한 자세한 내용은 [사용 사례: 기준](use-case--selecting-seed-addresses-on-criteria.md)에서 시드 주소 선택.
 
 1. **[!UICONTROL Preview]** 탭을 클릭한 다음 시드 주소를 선택하여 개인화를 테스트합니다.
 

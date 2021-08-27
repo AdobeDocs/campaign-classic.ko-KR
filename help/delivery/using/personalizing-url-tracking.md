@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 12%
@@ -14,6 +14,8 @@ ht-degree: 12%
 ---
 
 # URL 추적 옵션 구성{#personalizing-url-tracking}
+
+![](../../assets/common.svg)
 
 고급 메시지 추적 설정은 게재 마법사의 도구 모음에서 **[!UICONTROL Tracking & Images]** 아이콘을 통해 액세스할 수 있습니다.
 
@@ -29,7 +31,7 @@ ht-degree: 12%
 
    >[!CAUTION]
    >
-   >게재에서 추적이 활성화되지 않은 경우(예:**[!UICONTROL Activate tracking]** 옵션이 선택되어 있지 않음) 추적과 관련된 보고서 및 데이터를 사용할 수 없습니다.열기, 핫 클릭 및 추적된 URL 보고서에는 데이터가 표시되지 않고 이 게재에 대해 **[!UICONTROL Tracking logs]** 탭이 표시되지 않습니다.
+   >게재에서 추적이 활성화되지 않은 경우(예: **[!UICONTROL Activate tracking]** 옵션이 선택되어 있지 않음) 추적과 관련된 보고서 및 데이터를 사용할 수 없습니다. 열기, 핫 클릭 및 추적된 URL 보고서에는 데이터가 표시되지 않고 이 게재에 대해 **[!UICONTROL Tracking logs]** 탭이 표시되지 않습니다.
 
 * 메시지에 대한 추적 활성화/비활성화 가 열립니다.
 

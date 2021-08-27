@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 exl-id: d133efec-33e1-4711-a90f-e40385059386
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 분석 보고서 사용{#processing-a-report}
+
+![](../../assets/common.svg)
 
 ## 분석 보고서 저장 {#saving-an-analysis-report}
 
@@ -107,7 +109,7 @@ ht-degree: 2%
 * 창의 위쪽 섹션에서 차트 표시 영역을 수정할 수 있습니다.
 * 기본적으로 차트에는 레이블이 표시됩니다. **[!UICONTROL Show values]** 옵션을 선택 취소하여 숨길 수 있습니다.
 * **[!UICONTROL Accumulate values]** 옵션을 사용하면 한 계열의 값을 다른 시리즈에 추가할 수 있습니다.
-* 차트 범례를 표시할지 여부를 결정할 수 있습니다.숨기려면 적절한 옵션을 선택 취소합니다. 기본적으로 범례가 오른쪽 상단 모서리의 차트 외부에 표시됩니다.
+* 차트 범례를 표시할지 여부를 결정할 수 있습니다. 숨기려면 적절한 옵션을 선택 취소합니다. 기본적으로 범례가 오른쪽 상단 모서리의 차트 외부에 표시됩니다.
 
    표시 공간을 절약하기 위해 차트 위에 범례를 표시할 수도 있습니다. 이렇게 하려면 **[!UICONTROL Include in the chart]** 옵션을 선택합니다
 
@@ -123,7 +125,7 @@ ht-degree: 2%
 
 자세한 정보는 이 [페이지](../../reporting/using/actions-on-reports.md)를 참조하십시오.
 
-## 기존 보고서를 다시 사용하고 {#re-using-existing-reports-and-analyses} 분석
+## 기존 보고서 및 분석 다시 사용 {#re-using-existing-reports-and-analyses}
 
 Adobe Campaign에 이미 저장된 기존 보고서를 사용하여 데이터에 대한 설명 분석 보고서를 만들 수 있습니다. 이 모드는 분석이 저장되었거나 보고서가 작성되어 설명 분석 마법사를 통해 액세스하도록 구성된 경우에 사용할 수 있습니다.
 

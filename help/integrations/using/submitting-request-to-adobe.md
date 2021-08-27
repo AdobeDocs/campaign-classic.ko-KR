@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 10%
@@ -14,6 +14,8 @@ ht-degree: 10%
 ---
 
 # Adobe에 요청 제출{#submitting-request-to-adobe}
+
+![](../../assets/common.svg)
 
 >[!NOTE]
 >
@@ -37,15 +39,15 @@ IMS가 활성화되면 Campaign과의 People 핵심 서비스/Audience Manager �
   </tr> 
   <tr> 
    <td> <strong>환경:</strong><br /> </td> 
-   <td> 예:프로덕션 </td> 
+   <td> 예: 프로덕션 </td> 
   </tr> 
   <tr> 
    <td> <strong>AAM 또는 People Service</strong><br /> </td> 
-   <td> 예:Adobe Audience Manager. Audience Manager 라이센스를 보유하고 있는지 여부에 관계없이 프로비저닝 팀에 문의하십시오.</td> 
+   <td> 예: Adobe Audience Manager. Audience Manager 라이센스를 보유하고 있는지 여부에 관계없이 프로비저닝 팀에 문의하십시오.</td> 
   </tr> 
   <tr> 
    <td> <strong>선언된 ID 또는 방문자 ID</strong><br /> </td> 
-   <td> 예:선언된 ID </td> 
+   <td> 예: 선언된 ID </td> 
   </tr> 
   <tr> 
    <td> <strong>추가 정보</strong><br /> </td> 

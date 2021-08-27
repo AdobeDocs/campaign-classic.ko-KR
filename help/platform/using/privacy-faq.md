@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
 
 ---
 
 # 개인 정보 FAQ {#privacy-faq}
+
+![](../../assets/common.svg)
 
 다음은 Adobe Campaign 사용 시 개인 정보 및 동의에 관한 FAQ입니다.
 
@@ -28,7 +30,7 @@ ht-degree: 100%
 * [액세스 권리 및 잊혀질 권리](../../platform/using/privacy-management.md#right-access-forgotten)
 * [동의, 보존 및 역할](../../platform/using/privacy-management.md#consent-retention-roles)
 
-## 개인 정보 보호 규정 준비 태세 {#privacy-regulations-readiness}
+## 개인 정보 보호 규정 준비 {#privacy-regulations-readiness}
 
 ### 최신 개인 정보 보호 규정을 준수하기 위한 Adobe Campaign의 제안은 무엇입니까?
 

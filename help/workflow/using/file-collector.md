@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 파일 수집기{#file-collector}
+
+![](../../assets/common.svg)
 
 **파일 수집기**&#x200B;는 디렉터리에 하나 이상의 파일이 도착하는 것을 모니터링하고 수신된 각 파일에 대해 해당 전환을 활성화합니다. 각 이벤트에 대해 **[!UICONTROL filename]** 변수에는 받은 파일의 전체 이름이 포함됩니다. 수집된 파일은 보관 목적으로 다른 디렉토리로 이동되며 한 번만 카운트되도록 합니다.
 
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 ## 속성 {#properties}
 
-**[!UICONTROL File collector]** 활동의 첫 번째 탭에서는 소스 디렉토리를 선택하고, 필요한 경우 수집된 파일을 필터링할 수 있습니다. 다른 탭은 [인바운드 전자 메일](../../workflow/using/inbound-emails.md)(**[!UICONTROL Schedule]** 및 **[!UICONTROL Expiry]** 탭)에 자세히 설명되어 있습니다.
+**[!UICONTROL File collector]** 활동의 첫 번째 탭에서는 소스 디렉토리를 선택하고, 필요한 경우 수집된 파일을 필터링할 수 있습니다. 다른 탭은 [인바운드 전자 메일](inbound-emails.md)(**[!UICONTROL Schedule]** 및 **[!UICONTROL Expiry]** 탭)에 자세히 설명되어 있습니다.
 
 ![](assets/file_collect_edit.png)
 
@@ -31,11 +33,11 @@ ht-degree: 0%
 
    * **[!UICONTROL Directory]**
 
-      다운로드할 파일이 들어 있는 디렉터리입니다. 이 디렉토리는 서버에서 미리 만들어야 합니다.존재하지 않으면 오류가 발생합니다.
+      다운로드할 파일이 들어 있는 디렉터리입니다. 이 디렉토리는 서버에서 미리 만들어야 합니다. 존재하지 않으면 오류가 발생합니다.
 
    * **[!UICONTROL Filter]**
 
-      이 필터와 일치하는 파일만 고려합니다. 디렉토리의 다른 파일은 무시됩니다. 필터가 비어 있으면 디렉토리의 모든 파일이 고려됩니다. 필터 예:***.zip**, **import-*.txt**.
+      이 필터와 일치하는 파일만 고려합니다. 디렉토리의 다른 파일은 무시됩니다. 필터가 비어 있으면 디렉토리의 모든 파일이 고려됩니다. 필터 예: ***.zip**, **import-*.txt**.
 
    * **[!UICONTROL Stop as soon as a file has been processed]**
 
@@ -67,7 +69,7 @@ ht-degree: 0%
 
 1. **내역**
 
-   여기서 **[!UICONTROL File historization]** 단계를 참조하십시오.[웹 다운로드](../../workflow/using/web-download.md).
+   여기서 **[!UICONTROL File historization]** 단계를 참조하십시오. [웹 다운로드](web-download.md).
 
 파일 처리 순서를 확인할 수 없습니다. 파일 세트를 순차적으로 처리하려면 **[!UICONTROL Stop as soon as a file has been processed]** 옵션을 사용하여 루프를 만듭니다. 이 경우 파일은 알파벳순으로 처리됩니다. **[!UICONTROL Process file nonexistence]** 옵션을 사용하면 반복을 완료할 수 있습니다.
 
@@ -75,4 +77,4 @@ ht-degree: 0%
 
 ## 출력 매개 변수 {#output-parameters}
 
-* 파일 이름:전체 파일 이름입니다. 기록 디렉토리로 이동한 후 파일 이름입니다. 따라서 경로는 다르지만 이름이 같은 다른 파일이 이미 디렉토리에 있는 경우에도 이름이 다릅니다. 확장은 유지됩니다.
+* 파일 이름: 전체 파일 이름입니다. 기록 디렉토리로 이동한 후 파일 이름입니다. 따라서 경로는 다르지만 이름이 같은 다른 파일이 이미 디렉토리에 있는 경우에도 이름이 다릅니다. 확장은 유지됩니다.

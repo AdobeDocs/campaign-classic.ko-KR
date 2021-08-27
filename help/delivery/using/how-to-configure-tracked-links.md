@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: 98bbbb36c9f8156cc34e826a024ff6e6e3f3fee3
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 10%
@@ -14,6 +14,8 @@ ht-degree: 10%
 ---
 
 # 추적되는 링크를 구성하는 방법{#how-to-configure-tracked-links}
+
+![](../../assets/common.svg)
 
 각 게재에 대해 메시지 수신 및 메시지 콘텐츠에 삽입된 링크의 활성화를 추적할 수 있습니다. 이렇게 하면 수신자가 타겟팅된 게재 작업 이후 수신자의 동작을 추적할 수 있습니다.
 
@@ -63,11 +65,11 @@ ht-degree: 10%
 
    각 개별 URL에 대해 추적 모드를 다음 값 중 하나로 설정할 수 있습니다.
 
-   * **[!UICONTROL Enabled]** :이 URL에서 추적을 활성화합니다.
-   * **[!UICONTROL Not tracked]** :이 URL에 대한 추적을 비활성화합니다.
-   * **[!UICONTROL Always enabled]** :항상 이 URL의 추적을 활성화합니다. 이 정보는 저장되므로 다음에 메시지 콘텐츠에 URL이 다시 표시되면 해당 추적이 자동으로 활성화됩니다.
-   * **[!UICONTROL Never tracked]** :이 URL의 추적을 활성화하지 않습니다. 이 정보는 저장되므로 다음에 URL이 향후 메시지에 다시 표시되면 해당 추적은 자동으로 비활성화됩니다.
-   * **[!UICONTROL Opt-out]** :은 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
-   * **[!UICONTROL Mirror page]** :는 이 URL이 미러 페이지 URL인 것으로 간주합니다.
+   * **[!UICONTROL Enabled]** : 이 URL에서 추적을 활성화합니다.
+   * **[!UICONTROL Not tracked]** : 이 URL에 대한 추적을 비활성화합니다.
+   * **[!UICONTROL Always enabled]** : 항상 이 URL의 추적을 활성화합니다. 이 정보는 저장되므로 다음에 메시지 콘텐츠에 URL이 다시 표시되면 해당 추적이 자동으로 활성화됩니다.
+   * **[!UICONTROL Never tracked]** : 이 URL의 추적을 활성화하지 않습니다. 이 정보는 저장되므로 다음에 URL이 향후 메시지에 다시 표시되면 해당 추적은 자동으로 비활성화됩니다.
+   * **[!UICONTROL Opt-out]** : 은 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
+   * **[!UICONTROL Mirror page]** : 는 이 URL이 미러 페이지 URL인 것으로 간주합니다.
 
-1. 또한 **[!UICONTROL Category]** 열의 드롭다운 목록에서 추적된 각 URL에 대한 카테고리를 선택할 수 있습니다. 이러한 카테고리는 **[!UICONTROL URLs and click streams]**&#x200B;에서와 같이 보고서를 표시할 수 있습니다( [이 섹션](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams) 참조). 카테고리는 특정 열거형에 정의됩니다.**[!UICONTROL urlCategory]**([열거형 관리](../../platform/using/managing-enumerations.md) 참조).
+1. 또한 **[!UICONTROL Category]** 열의 드롭다운 목록에서 추적된 각 URL에 대한 카테고리를 선택할 수 있습니다. 이러한 카테고리는 **[!UICONTROL URLs and click streams]**&#x200B;에서와 같이 보고서를 표시할 수 있습니다( [이 섹션](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams) 참조). 카테고리는 특정 열거형에 정의됩니다. **[!UICONTROL urlCategory]**([열거형 관리](../../platform/using/managing-enumerations.md) 참조).

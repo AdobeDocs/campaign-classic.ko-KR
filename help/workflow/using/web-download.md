@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 웹 다운로드{#web-download}
+
+![](../../assets/common.svg)
 
 **웹 다운로드** 활동은 명시적 URL, 외부 계정 또는 Adobe Campaign 인스턴스에 파일 다운로드를 시작합니다. HTTP 프로토콜이 사용됩니다. GET 또는 POST 다운로드일 수 있습니다.
 
@@ -45,9 +47,9 @@ ht-degree: 1%
 
    다음 옵션을 사용할 수 있습니다.
 
-   * **[!UICONTROL Use a default storage directory]**:파일은 항상 처리되기 전에 이동됩니다. 이 옵션을 선택하면 파일이 기본 저장소 디렉토리(Adobe Campaign 설치 폴더의 **vars** 디렉토리)로 이동합니다. 저장소 디렉토리를 지정하려면 상자를 선택 취소하고 **[!UICONTROL Storage directory]** 필드에 경로를 입력합니다
-   * **[!UICONTROL Number of files]**:저장소 디렉토리에 보관할 최대 파일 수를 입력합니다.
-   * **[!UICONTROL Maximum size (in Mb)]**:저장소 디렉토리의 최대 용량(MB)을 입력합니다.
+   * **[!UICONTROL Use a default storage directory]**: 파일은 항상 처리되기 전에 이동됩니다. 이 옵션을 선택하면 파일이 기본 저장소 디렉토리(Adobe Campaign 설치 폴더의 **vars** 디렉토리)로 이동합니다. 저장소 디렉토리를 지정하려면 상자를 선택 취소하고 **[!UICONTROL Storage directory]** 필드에 경로를 입력합니다
+   * **[!UICONTROL Number of files]**: 저장소 디렉토리에 보관할 최대 파일 수를 입력합니다.
+   * **[!UICONTROL Maximum size (in Mb)]**: 저장소 디렉토리의 최대 용량(MB)을 입력합니다.
 
    각 파일은 정의된 제거 규칙을 적용받기 전에 24시간 동안 유지됩니다. 제거는 활동이 시작되기 직전에 수행되므로 진행 중인 워크플로우 파일을 고려하지 않습니다.
 
@@ -61,8 +63,8 @@ ht-degree: 1%
 
    ![](assets/download_web_edit_advanced.png)
 
-   **[!UICONTROL Process errors]** 옵션은 [처리 오류](../../workflow/using/monitoring-workflow-execution.md#processing-errors)에 자세히 설명되어 있습니다.
+   **[!UICONTROL Process errors]** 옵션은 [처리 오류](monitoring-workflow-execution.md#processing-errors)에 자세히 설명되어 있습니다.
 
 ## 출력 매개 변수 {#output-parameters}
 
-* 파일 이름:다운로드한 파일의 전체 이름입니다.
+* 파일 이름: 다운로드한 파일의 전체 이름입니다.

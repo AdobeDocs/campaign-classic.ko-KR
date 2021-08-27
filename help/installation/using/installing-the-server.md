@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 2%
@@ -15,7 +15,9 @@ ht-degree: 2%
 
 # 서버 설치{#installing-the-server}
 
-## 설치 프로그램 {#executing-the-installation-program} 실행
+![](../../assets/v7-only.svg)
+
+## 설치 프로그램 실행 {#executing-the-installation-program}
 
 Windows 32비트 플랫폼의 경우 Adobe Campaign 32비트를 설치합니다. Windows 64비트 플랫폼의 경우 Adobe Campaign 64비트를 설치합니다.
 
@@ -31,10 +33,10 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
 
    다음과 같은 몇 가지 설치 유형을 사용할 수 있습니다.
 
-   * **[!UICONTROL Installation of an application server]** :Adobe Campaign 애플리케이션 서버와 클라이언트 콘솔을 설치합니다.
-   * **[!UICONTROL Minimal installation (Network)]** :네트워크에서 클라이언트 컴퓨터 설치 필요한 경우 제한된 수의 DLL만 컴퓨터에 설치되고 다른 모든 구성 요소는 네트워크 드라이브에서 사용됩니다.
-   * **[!UICONTROL Installation of a client]** :Adobe Campaign 클라이언트에 필요한 구성 요소 설치
-   * **[!UICONTROL Custom installation]** :사용자가 설치할 요소를 선택합니다.
+   * **[!UICONTROL Installation of an application server]** : Adobe Campaign 애플리케이션 서버와 클라이언트 콘솔을 설치합니다.
+   * **[!UICONTROL Minimal installation (Network)]** : 네트워크에서 클라이언트 컴퓨터 설치 필요한 경우 제한된 수의 DLL만 컴퓨터에 설치되고 다른 모든 구성 요소는 네트워크 드라이브에서 사용됩니다.
+   * **[!UICONTROL Installation of a client]** : Adobe Campaign 클라이언트에 필요한 구성 요소 설치
+   * **[!UICONTROL Custom installation]** : 사용자가 설치할 요소를 선택합니다.
 
    **응용 프로그램 서버 설치**&#x200B;를 선택하고 다음과 같이 다른 단계를 수행하십시오.
 
@@ -76,7 +78,7 @@ Adobe Campaign이 시작되지 않으면 응답은 다음과 같습니다.
 No task
 ```
 
-## 서버 {#first-start-up-of-the-server}의 첫 번째 시작
+## 서버의 첫 번째 시작 {#first-start-up-of-the-server}
 
 설치 테스트가 완료되면 **[!UICONTROL Start > Programs > Adobe Campaign]** 메뉴를 통해 명령 프롬프트를 열고 다음 명령을 입력합니다.
 
@@ -133,7 +135,7 @@ nlserver stop web
 12:18:31 >   Web server stopped (pid=29188, tid=-1224824320)...
 ```
 
-## 내부 식별자 {#password-for-the-internal-identifier}에 대한 암호
+## 내부 식별자의 암호 {#password-for-the-internal-identifier}
 
 Adobe Campaign 서버는 모든 인스턴스에 대한 모든 권한이 있는 **internal**&#x200B;이라는 기술 로그인을 정의합니다. 설치 후 로그인에 암호가 없습니다. 하나를 반드시 정의해야 합니다.
 
@@ -153,7 +155,7 @@ net start nlserver6
 net stop nlserver6
 ```
 
-## LibreOffice {#installing-libreoffice} 설치
+## LibreOffice 설치 {#installing-libreoffice}
 
 예를 들어 [https://www.libreoffice.org/download/libreoffice-fresh/](https://www.libreoffice.org/download/libreoffice-fresh/)에서 LibreOffice를 다운로드하고 일반적인 설치 단계를 따르십시오.
 

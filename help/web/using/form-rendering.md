@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 양식 렌더링{#form-rendering}
+
+![](../../assets/common.svg)
 
 ## 양식 렌더링 템플릿 선택 {#selecting-the-form-rendering-template}
 
@@ -69,14 +71,14 @@ ht-degree: 2%
 
 다음과 같은 속성을 정의할 수 있습니다.
 
-* **[!UICONTROL Label position]**:레이블  [위치 정의를 참조하십시오](defining-web-forms-layout.md#defining-the-position-of-labels).
-* **[!UICONTROL Label format]**:자동 줄바꿈 또는 자동 줄 바꿈 없음
-* **[!UICONTROL Number of cells]** :페이지 [에 필드 위치 지정](defining-web-forms-layout.md#positioning-the-fields-on-the-page)을 참조하십시오.
+* **[!UICONTROL Label position]**: 레이블  [위치 정의를 참조하십시오](defining-web-forms-layout.md#defining-the-position-of-labels).
+* **[!UICONTROL Label format]**: 자동 줄바꿈 또는 자동 줄 바꿈 없음
+* **[!UICONTROL Number of cells]** : 페이지 [에 필드 위치 지정](defining-web-forms-layout.md#positioning-the-fields-on-the-page)을 참조하십시오.
 * **[!UICONTROL Horizontal alignment]** (왼쪽, 오른쪽, 가운데) 및  **[!UICONTROL Vertical alignment]** (높음, 낮음, 중간),
-* **[!UICONTROL Width]** 영역:백분율이나 em, 포인트 또는 픽셀(기본값)로 표시될 수 있습니다.
-* 최대 **[!UICONTROL Length]**:허용되는 최대 문자 수(텍스트, 숫자 및 암호 유형 컨트롤),
-* **[!UICONTROL Lines]**:유형 영역의  **[!UICONTROL Multi-line text]** 줄 수,
-* **[!UICONTROL Style inline]**:추가 설정으로 CSS 스타일 시트를 오버로드할 수 있습니다. 이러한 문자는 아래 예와 같이 **;** 문자를 사용하여 구분됩니다.
+* **[!UICONTROL Width]** 영역: 백분율이나 em, 포인트 또는 픽셀(기본값)로 표시될 수 있습니다.
+* 최대 **[!UICONTROL Length]**: 허용되는 최대 문자 수(텍스트, 숫자 및 암호 유형 컨트롤),
+* **[!UICONTROL Lines]**: 유형 영역의  **[!UICONTROL Multi-line text]** 줄 수,
+* **[!UICONTROL Style inline]**: 추가 설정으로 CSS 스타일 시트를 오버로드할 수 있습니다. 이러한 문자는 아래 예와 같이 **;** 문자를 사용하여 구분됩니다.
 
    ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
@@ -154,7 +156,7 @@ ht-degree: 2%
 
 * **[!UICONTROL Variables]** 하위 트리에는 이 양식에 사용할 수 있는 변수가 포함되어 있습니다. 자세한 내용은 [로컬 변수에 데이터 저장](web-forms-answers.md#storing-data-in-a-local-variable)을 참조하십시오.
 
-자세한 내용은 다음 사용 사례를 참조하십시오.[선택한 값에 따라 다른 옵션을 표시합니다](use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
+자세한 내용은 다음 사용 사례를 참조하십시오. [선택한 값에 따라 다른 옵션을 표시합니다](use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
 
 **[!UICONTROL Test]** 개체를 사용하여 양식 페이지의 표시를 조건화할 수도 있습니다. 자세한 정보는 이 [페이지](defining-web-forms-page-sequencing.md#conditional-page-display)를 참조하십시오.
 

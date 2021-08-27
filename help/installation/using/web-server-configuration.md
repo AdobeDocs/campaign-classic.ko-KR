@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 # 웹 서버 구성 {#web-server-configuration}
+
+![](../../assets/v7-only.svg)
 
 웹 서버(Apache/IIS) 구성과 관련된 몇 가지 주요 모범 사례는 아래에 나와 있습니다.
 
@@ -36,13 +38,13 @@ ht-degree: 0%
       SCHANNEL\Protocols\TLS 1.2\Server
    **SSL x.0 비활성화**
 
-   SCHANNEL\Protocols\SSL 3.0\Client:DisabledByDefault:DWORD(32비트) 값-1
+   SCHANNEL\Protocols\SSL 3.0\Client: DisabledByDefault: DWORD(32비트) 값-1
 
-   SCHANNEL\Protocols\SSL 3.0\Server:활성화됨:DWORD(32비트) 값-0
+   SCHANNEL\Protocols\SSL 3.0\Server: 활성화됨: DWORD(32비트) 값-0
 
 * **TRACE** 메서드를 제거합니다.
 
-   **Apache**&#x200B;에서 /etc/apache2/conf.d/security에서 편집합니다.TraceEnable  **Off**
+   **Apache**&#x200B;에서 /etc/apache2/conf.d/security에서 편집합니다. TraceEnable  **Off**
 
    **IIS** ( [설명서](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs) 참조)에서 다음 구성을 수행합니다.
 

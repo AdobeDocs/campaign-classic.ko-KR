@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 유효성 검사{#validating}
+
+![](../../assets/common.svg)
 
 게재 유효성 검사 시 전반적 개념이 [이 섹션](steps-validating-the-delivery.md)에 표시됩니다.
 
@@ -37,8 +39,8 @@ ht-degree: 1%
 
 다음 두 가지 모드가 있습니다.
 
-* **[!UICONTROL Messages are considered sent after validation]** (기본 모드):이 함수 모드에서는 연산자가 전송을 확인하고(상태가 &#39;게재 보류 중&#39;에서 &#39;전송됨&#39;으로 전달됨) 게재를 자동으로 로 설정되면 모든 브로드로그가 업데이트됩니다 **[!UICONTROL Finished]**.
-* **[!UICONTROL A file of results determines the messages that are sent and those that have failed]** :이 모드에서는 서비스 공급자가 보낸 외부 파일을 통해 브로드로그를 업데이트할 수 있습니다. 이 경우 브로드로그 상태를 업데이트하려면 이 정보를 처리하는 워크플로우를 사용해야 합니다.
+* **[!UICONTROL Messages are considered sent after validation]** (기본 모드): 이 함수 모드에서는 연산자가 전송을 확인하고(상태가 &#39;게재 보류 중&#39;에서 &#39;전송됨&#39;으로 전달됨) 게재를 자동으로 로 설정되면 모든 브로드로그가 업데이트됩니다 **[!UICONTROL Finished]**.
+* **[!UICONTROL A file of results determines the messages that are sent and those that have failed]** : 이 모드에서는 서비스 공급자가 보낸 외부 파일을 통해 브로드로그를 업데이트할 수 있습니다. 이 경우 브로드로그 상태를 업데이트하려면 이 정보를 처리하는 워크플로우를 사용해야 합니다.
 
    >[!NOTE]
    >

@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: f31591949bb033ff250cf4b33eddcc2c1d31cc6c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 개인 정보 보호 {#privacy}
+
+![](../../assets/v7-only.svg)
 
 ## 개인 정보 보호 요청
 
@@ -39,7 +41,7 @@ Adobe Campaign은 GDPR 및 CCPA에 대한 개인 정보 보호 규정을 준수�
 
 1. 워크플로우를 만들고 쿼리 활동을 추가합니다. 자세히 알아보기.
 
-1. 쿼리 활동을 열고 다음과 같이 nmsTrackingUrl 테이블에서 필터를 만듭니다.소스 URL은 http://&lt;% 또는 소스 URL이 https://&lt;%로 시작합니다.
+1. 쿼리 활동을 열고 다음과 같이 nmsTrackingUrl 테이블에서 필터를 만듭니다. 소스 URL은 http://&lt;% 또는 소스 URL이 https://&lt;%로 시작합니다.
 
 1. 워크플로우를 실행하고 결과가 있는지 확인합니다.
 
@@ -53,7 +55,7 @@ Adobe Campaign은 GDPR 및 CCPA에 대한 개인 정보 보호 규정을 준수�
 
 >[!NOTE]
 >
->잘못된 형식의 서명된 URL을 클릭하면 이 오류가 반환됩니다.&quot;요청된 URL &#39;..&#39;을(를) 찾을 수 없습니다.&quot;
+>잘못된 형식의 서명된 URL을 클릭하면 이 오류가 반환됩니다. &quot;요청된 URL &#39;..&#39;을(를) 찾을 수 없습니다.&quot;
 
 또한 Campaign 20.2와 [!DNL Gold Standard] 릴리스 이후 개선 사항을 사용하여 이전 빌드에서 생성된 URL을 비활성화할 수 있습니다. 이 기능은 기본적으로 비활성화됩니다. [고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 연락하여 이 기능을 활성화할 수 있습니다.
 
@@ -83,7 +85,7 @@ URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 �
 
 ## 데이터 제한
 
-낮은 권한 인증 사용자가 암호화된 암호를 액세스할 수 없도록 해야 합니다. 이를 위해 두 가지 주요 방법이 있습니다.암호 필드에만 또는 전체 엔터티에 대한 액세스를 제한합니다(빌드 >= 8770 필요).
+낮은 권한 인증 사용자가 암호화된 암호를 액세스할 수 없도록 해야 합니다. 이를 위해 두 가지 주요 방법이 있습니다. 암호 필드에만 또는 전체 엔터티에 대한 액세스를 제한합니다(빌드 >= 8770 필요).
 
 이 제한 사항으로 암호 필드를 제거할 수 있지만, 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있도록 할 수 있습니다. [이 페이지](../../configuration/using/restricting-pii-view.md)를 참조하십시오.
 

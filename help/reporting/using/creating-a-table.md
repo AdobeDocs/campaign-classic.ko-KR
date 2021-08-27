@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2495'
 ht-degree: 1%
@@ -15,11 +15,13 @@ ht-degree: 1%
 
 # 표 만들기{#creating-a-table}
 
+![](../../assets/common.svg)
+
 보고서에 테이블을 추가하여 데이터를 표시할 수 있습니다. 큐브 측정을 기반으로 만들어진 피벗 테이블, 그룹이 있는 목록 또는 값 분류가 포함된 테이블일 수 있습니다.
 
 ![](assets/s_advuser_report_page_activity_05.png)
 
-## {#creating-a-list-with-group} 그룹이 있는 목록 만들기
+## 그룹을 사용하여 목록 만들기 {#creating-a-list-with-group}
 
 **[!UICONTROL List with group]** 유형 테이블을 사용하면 테이블의 데이터를 그룹화하고 그에 대한 통계를 생성할 수 있습니다. 예를 들어 데이터에 대한 합계와 하위 합계를 만들 수 있습니다. 각 그룹에는 머리글, 세부 사항 및 바닥글 줄이 있습니다.
 
@@ -39,7 +41,7 @@ ht-degree: 1%
 
 ### 구현 단계 {#implementation-steps}
 
-전체 구현 예는 다음과 같습니다.[사용 사례:그룹 목록](#use-case--create-a-report-with-a-group-list)으로 보고서를 만듭니다.
+전체 구현 예는 다음과 같습니다. [사용 사례: 그룹 목록](#use-case--create-a-report-with-a-group-list)으로 보고서를 만듭니다.
 
 &#39;그룹이 있는 목록&#39; 유형 테이블을 만들려면 다음 단계를 참고하십시오.
 
@@ -54,21 +56,21 @@ ht-degree: 1%
 1. 테이블 및 해당 컨텐츠 만들기
 1. **[!UICONTROL Preview]** 탭에 완료된 보고서를 표시합니다. 그런 다음 보고서를 게시하여 필요한 경우 다른 형식으로 내보낼 수 있습니다. 자세한 내용은 [보고서 내보내기](../../reporting/using/actions-on-reports.md#exporting-a-report)를 참조하십시오.
 
-### 줄 및 열 추가 {#adding-lines-and-columns}
+### 행 및 열 추가 {#adding-lines-and-columns}
 
 기본적으로 **[!UICONTROL List with group]** 유형 테이블에는 머리글, 세부 줄 및 바닥글 줄이 포함됩니다.
 
 그룹 자체에는 머리글, 세부 사항 및 바닥글 줄이 포함됩니다.
 
-* **헤더 행**:이 행을 사용하면 테이블의 열에 제목을 지정할 수 있습니다.
+* **헤더 행**: 이 행을 사용하면 테이블의 열에 제목을 지정할 수 있습니다.
 
    ![](assets/s_advuser_ergo_listgroup_003a.png)
 
-* **세부 사항 라인**:이 줄에는 통계적 값이 포함되어 있습니다.
+* **세부 사항 라인**: 이 줄에는 통계적 값이 포함되어 있습니다.
 
    ![](assets/s_advuser_ergo_listgroup_004.png)
 
-* **바닥글 선**:이 라인을 사용하면 합계 값을 표시할 수 있습니다.
+* **바닥글 선**: 이 라인을 사용하면 합계 값을 표시할 수 있습니다.
 
    ![](assets/s_advuser_ergo_listgroup_003.png)
 
@@ -78,7 +80,7 @@ ht-degree: 1%
 
 ![](assets/s_advuser_ergo_listgroup_019.png)
 
-**행 및 열**:행이나 열을 추가하거나 삭제하려면 기존 행이나 열로 이동한 다음 마우스 오른쪽 단추 클릭 메뉴를 사용합니다.
+**행 및 열**: 행이나 열을 추가하거나 삭제하려면 기존 행이나 열로 이동한 다음 마우스 오른쪽 단추 클릭 메뉴를 사용합니다.
 
 ![](assets/s_advuser_ergo_listgroup_006.png)
 
@@ -88,7 +90,7 @@ ht-degree: 1%
 
 열의 너비는 **[!UICONTROL Column format]** 항목을 통해 수정할 수 있습니다.
 
-**그룹**:그룹을 추가하려면 라인으로 이동하여 드롭다운 메뉴에서 일치하는 항목을 선택합니다.
+**그룹**: 그룹을 추가하려면 라인으로 이동하여 드롭다운 메뉴에서 일치하는 항목을 선택합니다.
 
 ![](assets/s_advuser_ergo_listgroup_007.png)
 
@@ -124,7 +126,7 @@ ht-degree: 1%
 
 이러한 옵션을 사용하면 보고서의 최종 렌더링을 개인화하고 정보를 쉽게 읽을 수 있습니다.
 
-데이터를 Excel로 내보낼 때 **[!UICONTROL Carriage return]** 필드를 사용합니다.**[!UICONTROL Yes]** 값을 선택하여 캐리지 리턴을 강제 적용합니다. 이 값은 내보낼 때 유지됩니다. 자세한 내용은 [보고서 내보내기](../../reporting/using/actions-on-reports.md#exporting-a-report)를 참조하십시오.
+데이터를 Excel로 내보낼 때 **[!UICONTROL Carriage return]** 필드를 사용합니다. **[!UICONTROL Yes]** 값을 선택하여 캐리지 리턴을 강제 적용합니다. 이 값은 내보낼 때 유지됩니다. 자세한 내용은 [보고서 내보내기](../../reporting/using/actions-on-reports.md#exporting-a-report)를 참조하십시오.
 
 **[!UICONTROL Cell format]** 창에서 다음 탭에 액세스할 수 있습니다.
 
@@ -137,13 +139,13 @@ ht-degree: 1%
 
 ![](assets/s_advuser_ergo_listgroup_009.png)
 
-형식은 데이터 표시를 변경합니다.예를 들어 **[!UICONTROL Number]**, **[!UICONTROL Monetary]** 및 **[!UICONTROL Percentage]** 형식을 사용하면 오른쪽에 숫자를 정렬하고 소수점 값을 표시할 수 있습니다.
+형식은 데이터 표시를 변경합니다. 예를 들어 **[!UICONTROL Number]**, **[!UICONTROL Monetary]** 및 **[!UICONTROL Percentage]** 형식을 사용하면 오른쪽에 숫자를 정렬하고 소수점 값을 표시할 수 있습니다.
 
-통화 형식을 구성하는 방법의 예:값이 표시되는 통화를 지정하고, 천 단위 구분 여부를 선택하고, 음수 값을 빨간색으로 표시할 수 있습니다. 통화 기호의 위치는 해당 프로필에 정의된 연산자의 언어에 따라 달라집니다.
+통화 형식을 구성하는 방법의 예: 값이 표시되는 통화를 지정하고, 천 단위 구분 여부를 선택하고, 음수 값을 빨간색으로 표시할 수 있습니다. 통화 기호의 위치는 해당 프로필에 정의된 연산자의 언어에 따라 달라집니다.
 
 ![](assets/s_advuser_ergo_listgroup_012.png)
 
-날짜에 대한 구성 예:시간을 표시할지 여부를 선택할 수 있습니다.
+날짜에 대한 구성 예: 시간을 표시할지 여부를 선택할 수 있습니다.
 
 ![](assets/s_advuser_ergo_listgroup_013.png)
 
@@ -187,17 +189,17 @@ Excel 탭에서 다음을 수행합니다.
 
 **[!UICONTROL Click]** 탭에서는 사용자가 셀 또는 테이블의 내용을 클릭할 때 작업을 정의할 수 있습니다.
 
-아래 예에서 셀에서 값을 클릭하면 보고서의 두 번째 페이지를 표시할 수 있습니다.여기에는 셀의 게재에 대한 정보가 포함됩니다.
+아래 예에서 셀에서 값을 클릭하면 보고서의 두 번째 페이지를 표시할 수 있습니다. 여기에는 셀의 게재에 대한 정보가 포함됩니다.
 
 ![](assets/s_advuser_ergo_listgroup_015.png)
 
-**Extra** 탭에서는 색상 표시 또는 값 막대와 같은 시각적 개체를 데이터에 연결할 수 있습니다. 색상이 표시된 표시는 테이블이 차트에 범례로 표시될 때 사용됩니다. 자세한 내용은 구현 예를 참조하십시오.[5단계 - 두 번째 페이지 만들기](#step-5---create-the-second-page)
+**Extra** 탭에서는 색상 표시 또는 값 막대와 같은 시각적 개체를 데이터에 연결할 수 있습니다. 색상이 표시된 표시는 테이블이 차트에 범례로 표시될 때 사용됩니다. 자세한 내용은 구현 예를 참조하십시오. [5단계 - 두 번째 페이지 만들기](#step-5---create-the-second-page)
 
 ![](assets/s_advuser_ergo_listgroup_016.png)
 
-## 사용 사례:그룹 목록이 {#use-case--create-a-report-with-a-group-list} 인 보고서 만들기
+## 사용 사례: 그룹 목록으로 보고서 만들기 {#use-case--create-a-report-with-a-group-list}
 
-이 예에서는 두 페이지로 구성된 보고서를 만듭니다.첫 번째 페이지에는 전송된 메시지 수뿐만 아니라 목록, 캠페인당 총 게재 수가 포함됩니다. 게재 이름은 클릭 가능한 링크이며 보고서의 두 번째 페이지로 이동하여 테이블과 차트로 선택한 게재에 대한 이메일 도메인별 게재 분류를 볼 수 있습니다. 두 번째 페이지에서 표는 차트의 범례 역할을 합니다.
+이 예에서는 두 페이지로 구성된 보고서를 만듭니다. 첫 번째 페이지에는 전송된 메시지 수뿐만 아니라 목록, 캠페인당 총 게재 수가 포함됩니다. 게재 이름은 클릭 가능한 링크이며 보고서의 두 번째 페이지로 이동하여 테이블과 차트로 선택한 게재에 대한 이메일 도메인별 게재 분류를 볼 수 있습니다. 두 번째 페이지에서 표는 차트의 범례 역할을 합니다.
 
 ![](assets/reporting_quick_start_report-final.png)
 
@@ -209,17 +211,17 @@ Excel 탭에서 다음을 수행합니다.
 
 보고서를 만들려면 **[!UICONTROL Save]** 을 클릭하십시오.
 
-차트로 이동하고 보고서 컨텐츠를 디자인하는 데 사용할 첫 번째 구성 요소를 추가합니다.첫 번째 쿼리 및 첫 번째 페이지.
+차트로 이동하고 보고서 컨텐츠를 디자인하는 데 사용할 첫 번째 구성 요소를 추가합니다. 첫 번째 쿼리 및 첫 번째 페이지.
 
 ![](assets/reporting_quick_start_diagram.png)
 
-### 2단계 - 첫 번째 쿼리 {#step-2---create-the-first-query} 만들기
+### 2단계 - 첫 번째 쿼리 만들기 {#step-2---create-the-first-query}
 
 첫 번째 쿼리를 사용하면 각 캠페인에 연결된 게재를 수집할 수 있습니다. 목표는 각 캠페인에 연결된 Adobe Campaign 데이터베이스의 다양한 게재에 대한 보고서를 표시하는 것입니다.
 
 첫 번째 쿼리를 두 번 클릭하여 편집한 다음 단계를 적용하여 구성합니다.
 
-1. 먼저 쿼리의 소스가 적용되는 스키마를 변경합니다.**[!UICONTROL Deliveries (nms)]** 스키마를 선택합니다.
+1. 먼저 쿼리의 소스가 적용되는 스키마를 변경합니다. **[!UICONTROL Deliveries (nms)]** 스키마를 선택합니다.
 1. **[!UICONTROL Edit query]** 링크를 클릭하고 고급 필드를 표시합니다.
 
    ![](assets/reporting_quick_start_query-1.png)
@@ -235,29 +237,29 @@ Excel 탭에서 다음을 수행합니다.
 
    ![](assets/s_advuser_report_listgroup_002.png)
 
-   각 필드에 별칭을 연결합니다.보고서의 첫 페이지에 추가할 테이블에서 데이터를 쉽게 선택할 수 있도록 권장됩니다.
+   각 필드에 별칭을 연결합니다. 보고서의 첫 페이지에 추가할 테이블에서 데이터를 쉽게 선택할 수 있도록 권장됩니다.
 
    이 예제에서는 다음 별칭을 사용합니다.
 
-   * 레이블:**@label**
-   * 기본 키:**@deliveryId**
-   * 레이블(캠페인):**@label1**
-   * 처리됨:**@processed**
-   * &#39;Campaign&#39;(&#39;id&#39; 필드) 링크의 외부 키:**@operationId**
-   * 오류 비율:**@errorRatio**
+   * 레이블: **@label**
+   * 기본 키: **@deliveryId**
+   * 레이블(캠페인): **@label1**
+   * 처리됨: **@processed**
+   * &#39;Campaign&#39;(&#39;id&#39; 필드) 링크의 외부 키: **@operationId**
+   * 오류 비율: **@errorRatio**
 
 
 1. **[!UICONTROL Next]** 단추를 두 번 클릭하여 **[!UICONTROL Data filtering]** 단계로 이동합니다.
 
    캠페인에 연결된 게재만 수집하려면 필터링 조건을 추가합니다.
 
-   이 필터의 구문은 다음과 같습니다.&quot;0보다 큰 &#39;캠페인&#39; 링크의 외부 키&quot;.
+   이 필터의 구문은 다음과 같습니다. &quot;0보다 큰 &#39;캠페인&#39; 링크의 외부 키&quot;.
 
    ![](assets/reporting_quick_start_query_filter.png)
 
 1. **[!UICONTROL Finish]** 을 클릭하여 이러한 조건을 저장한 다음 **[!UICONTROL Ok]** 를 클릭하여 쿼리 편집기를 닫습니다.
 
-### 3단계:첫 번째 페이지 {#step-3--create-the-first-page} 만들기
+### 3단계: 첫 번째 페이지 만들기 {#step-3--create-the-first-page}
 
 이 단계에서는 보고서의 첫 페이지를 구성합니다. 구성하려면 다음 단계를 수행합니다.
 
@@ -265,15 +267,15 @@ Excel 탭에서 다음을 수행합니다.
 
    ![](assets/s_advuser_report_listgroup_003.png)
 
-1. 도구 모음을 통해 그룹이 있는 목록을 삽입하고 해당 레이블을 입력합니다(예: ).캠페인당 게재 목록.
+1. 도구 모음을 통해 그룹이 있는 목록을 삽입하고 해당 레이블을 입력합니다(예: ). 캠페인당 게재 목록.
 
    ![](assets/s_advuser_report_listgroup_004.png)
 
-1. **[!UICONTROL Table data XPath...]** 링크를 클릭하고 배달 링크(예:`[query/delivery]`.
+1. **[!UICONTROL Table data XPath...]** 링크를 클릭하고 배달 링크(예: `[query/delivery]`.
 
    ![](assets/s_advuser_report_listgroup_005.png)
 
-1. **[!UICONTROL Data]** 탭을 클릭하고 표의 레이아웃을 변경합니다.오른쪽에 열 3개를 추가합니다.
+1. **[!UICONTROL Data]** 탭을 클릭하고 표의 레이아웃을 변경합니다. 오른쪽에 열 3개를 추가합니다.
 
    ![](assets/s_advuser_report_listgroup_006.png)
 
@@ -335,7 +337,7 @@ Excel 탭에서 다음을 수행합니다.
 
    ![](assets/s_advuser_report_listgroup_023.png)
 
-   이제 보고서 렌더링을 볼 수 있습니다. **[!UICONTROL Preview]** 탭을 클릭하고 **[!UICONTROL Global]** 옵션을 선택합니다.캠페인에 연결된 Adobe Campaign 데이터베이스의 모든 게재 목록을 표시합니다.
+   이제 보고서 렌더링을 볼 수 있습니다. **[!UICONTROL Preview]** 탭을 클릭하고 **[!UICONTROL Global]** 옵션을 선택합니다. 캠페인에 연결된 Adobe Campaign 데이터베이스의 모든 게재 목록을 표시합니다.
 
    ![](assets/s_advuser_report_listgroup_025.png)
 
@@ -361,7 +363,7 @@ Excel 탭에서 다음을 수행합니다.
 
 보고서 사용자가 클릭할 때 게재의 세부 사항을 표시하는 두 번째 쿼리 및 두 번째 페이지를 추가하려고 합니다. 쿼리를 추가하기 전에 만든 페이지를 편집하고 쿼리에 연결할 수 있도록 아웃바운드 전환을 활성화합니다.
 
-1. **[!UICONTROL Page]** 활동 뒤에 새 쿼리를 추가하고 해당 스키마를 편집합니다.**[!UICONTROL Recipient delivery logs]** 스키마를 선택합니다.
+1. **[!UICONTROL Page]** 활동 뒤에 새 쿼리를 추가하고 해당 스키마를 편집합니다. **[!UICONTROL Recipient delivery logs]** 스키마를 선택합니다.
 
    ![](assets/reporting_quick_start_query-2.png)
 
@@ -371,32 +373,32 @@ Excel 탭에서 다음을 수행합니다.
 
       ![](assets/reporting_quick_start_query-2_count.png)
 
-   * 수신자 전자 메일 도메인을 수집하고 이 필드에 정보를 그룹화합니다.이렇게 하려면 도메인 이름 열에서 **[!UICONTROL Group]** 옵션을 선택합니다.
+   * 수신자 전자 메일 도메인을 수집하고 이 필드에 정보를 그룹화합니다. 이렇게 하려면 도메인 이름 열에서 **[!UICONTROL Group]** 옵션을 선택합니다.
 
    ![](assets/reporting_quick_start_query-2_filter.png)
 
    다음 별칭을 필드에 연결합니다.
 
-   * count(기본 키):**@count**
-   * 이메일 도메인(수신자):**@domain**
+   * count(기본 키): **@count**
+   * 이메일 도메인(수신자): **@domain**
 
       ![](assets/reporting_quick_start_query-2_alias.png)
 
 
-1. **[!UICONTROL Next]** 단추를 두 번 클릭합니다.이렇게 하면 **[!UICONTROL Data filtering]** 단계로 이동합니다.
+1. **[!UICONTROL Next]** 단추를 두 번 클릭합니다. 이렇게 하면 **[!UICONTROL Data filtering]** 단계로 이동합니다.
 
    선택한 게재에 연결된 정보만 수집하려면 필터링 조건을 추가합니다.
 
-   구문은 다음과 같습니다.&#39;Delivery&#39; 링크의 외부 키는 설정 `$([vars/selectedDelivery])` 값과 같습니다.
+   구문은 다음과 같습니다. &#39;Delivery&#39; 링크의 외부 키는 설정 `$([vars/selectedDelivery])` 값과 같습니다.
 
    ![](assets/s_advuser_report_listgroup_017.png)
 
 1. 쿼리 구성 창을 닫고 두 번째 쿼리 바로 뒤에 페이지를 차트에 추가합니다.
 
-### 5단계 - 두 번째 페이지 {#step-5---create-the-second-page} 만들기
+### 5단계 - 두 번째 페이지 만들기 {#step-5---create-the-second-page}
 
-1. 페이지를 편집하고 페이지 레이블을 입력합니다.**전자 메일 도메인**.
-1. **[!UICONTROL Enable output transitions]** 옵션의 선택을 취소합니다.이 페이지는 보고서의 마지막 페이지이므로 다른 활동이 따르지 않습니다.
+1. 페이지를 편집하고 페이지 레이블을 입력합니다. **전자 메일 도메인**.
+1. **[!UICONTROL Enable output transitions]** 옵션의 선택을 취소합니다. 이 페이지는 보고서의 마지막 페이지이므로 다른 활동이 따르지 않습니다.
 
    ![](assets/s_advuser_report_listgroup_028.png)
 
@@ -408,7 +410,7 @@ Excel 탭에서 다음을 수행합니다.
 1. **[!UICONTROL Data]** 탭에서 테이블을 다음과 같이 조정합니다.
 
    * 오른쪽에 열 두 개를 추가합니다.
-   * 세부 정보 라인의 첫 번째 셀에서 **[!UICONTROL rowNum()-1]** 표현식을 추가하여 라인 수를 계산합니다. 그런 다음 셀의 형식을 변경합니다.**[!UICONTROL Extra]** 탭에서 **[!UICONTROL Color tab]** 을 선택하고 **[!UICONTROL Ok]** 를 클릭합니다.
+   * 세부 정보 라인의 첫 번째 셀에서 **[!UICONTROL rowNum()-1]** 표현식을 추가하여 라인 수를 계산합니다. 그런 다음 셀의 형식을 변경합니다. **[!UICONTROL Extra]** 탭에서 **[!UICONTROL Color tab]** 을 선택하고 **[!UICONTROL Ok]** 를 클릭합니다.
 
       ![](assets/s_advuser_report_listgroup_018.png)
 
@@ -425,7 +427,7 @@ Excel 탭에서 다음을 수행합니다.
 
    ![](assets/s_advuser_report_listgroup_0191.png)
 
-1. **[!UICONTROL Data]** 탭에서 데이터 소스를 변경합니다.드롭다운 목록에서 **[!UICONTROL Context data]** 을 선택합니다.
+1. **[!UICONTROL Data]** 탭에서 데이터 소스를 변경합니다. 드롭다운 목록에서 **[!UICONTROL Context data]** 을 선택합니다.
 
    ![](assets/s_advuser_report_listgroup_020.png)
 
@@ -434,7 +436,7 @@ Excel 탭에서 다음을 수행합니다.
    ![](assets/s_advuser_report_listgroup_0201.png)
 
 1. **[!UICONTROL Chart type]** 섹션에서 **[!UICONTROL Email domain]** 변수를 선택합니다.
-1. 그런 다음 수행할 계산을 추가합니다.합계를 연산자로 선택합니다.
+1. 그런 다음 수행할 계산을 추가합니다. 합계를 연산자로 선택합니다.
 
    ![](assets/s_advuser_report_listgroup_0202.png)
 

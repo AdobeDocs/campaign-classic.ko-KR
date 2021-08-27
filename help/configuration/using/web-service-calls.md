@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 웹 서비스 호출{#web-service-calls}
+
+![](../../assets/v7-only.svg)
 
 ## 일반 정보 {#general-information}
 
@@ -67,7 +69,7 @@ xtk:queryDef 스키마의 &quot;const&quot;-type &quot;ExecuteQuery&quot; 메서
 
 이 메서드의 입력 매개 변수는 &quot;xtk:queryDef&quot; 스키마 형식의 XML 문서입니다.
 
-## 웹 서비스 설명:WSDL {#web-service-description--wsdl}
+## 웹 서비스 설명: WSDL {#web-service-description--wsdl}
 
 각 서비스에 WSDL(웹 서비스 설명 라이브러리) 파일을 사용할 수 있습니다. 이 XML 파일은 metalanguage를 사용하여 서비스를 설명하고 서비스 실행을 위해 사용할 수 있는 메서드, 매개변수 및 서버를 지정합니다.
 
@@ -79,10 +81,10 @@ https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 
 사용:
 
-* **`<server>`**:Adobe Campaign 애플리케이션 서버(nlserver 웹)
-* **`<schema>`**:스키마 식별 키(namespace:schema_name)
+* **`<server>`**: Adobe Campaign 애플리케이션 서버(nlserver 웹)
+* **`<schema>`**: 스키마 식별 키(namespace:schema_name)
 
-### 스키마 &#39;xtk:queryDef&#39; {#example-on-the--executequery--method-of-schema--xtk-querydef-}의 &#39;ExecuteQuery&#39; 메서드 예제
+### 스키마 &#39;xtk:queryDef&#39;의 &#39;ExecuteQuery&#39; 메서드 예제 {#example-on-the--executequery--method-of-schema--xtk-querydef-}
 
 WSDL 파일은 URL에서 생성됩니다.
 

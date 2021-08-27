@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 워크플로우 실행{#workflow-execution}
+
+![](../../assets/v7-only.svg)
 
 아래 섹션에서는 워크플로우 실행과 관련된 일반적인 문제와 이러한 문제를 해결하는 방법에 대한 정보를 제공합니다.
 
@@ -24,7 +26,7 @@ ht-degree: 3%
 * [워크플로우 수명 주기](../../workflow/using/workflow-life-cycle.md)
 * [워크플로우 사용 모범 사례](../../workflow/using/workflow-best-practices.md)
 
-## 캠페인 {#start-as-soon-as-possible-in-campaigns}에서 가능한 한 빨리 시작하십시오
+## 캠페인에서 가능한 한 빨리 시작 {#start-as-soon-as-possible-in-campaigns}
 
 경우에 따라 캠페인에서 실행되는 워크플로우는 **[!UICONTROL Start]** 단추를 클릭할 때 시작되지 않습니다. 시작하는 대신 &quot;가능한 한 빨리 시작&quot; 상태로 이동합니다.
 
@@ -110,7 +112,7 @@ ht-degree: 3%
 
    모듈을 다시 시작하는 방법에 대한 자세한 내용은 [이 섹션](../../production/using/usual-commands.md#module-launch-commands)을 참조하십시오.
 
-## 실패한 워크플로 {#failed-workflow}
+## 실패한 워크플로우 {#failed-workflow}
 
 워크플로우가 실패하면 다음 단계를 수행합니다.
 

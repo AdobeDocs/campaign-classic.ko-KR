@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 요약 목록 만들기{#creating-a-summary-list}
+
+![](../../assets/common.svg)
 
 이 사용 사례에서는 파일을 수집한 후 여러 추가 작업을 수행한 후 요약 목록을 만들 수 있는 워크플로우 작성을 자세히 설명합니다. 이 예제에서는 스토어에서 구입한 연락처 목록을 기반으로 합니다.
 
@@ -37,7 +39,7 @@ ht-degree: 2%
 1. &quot;구매&quot; 테이블에서 합계를 사용하여 &quot;연락처&quot; 데이터 보강
 1. 요약 목록 만들기
 
-## 1단계:파일을 로드하고 가져온 데이터 {#step-1--loading-the-file-and-reconciling-the-imported-data} 조정
+## 1단계: 파일을 로드하고 가져온 데이터를 조정합니다 {#step-1--loading-the-file-and-reconciling-the-imported-data}
 
 로드할 데이터는 다음 형식의 &quot;구매&quot; 관련 데이터입니다.
 
@@ -92,16 +94,16 @@ Phone;500;London 5
 
    ![](assets/uc2_enrich_enrich3.png)
 
-다양한 유형의 링크에 대한 자세한 내용은 [데이터 보강 및 수정](../../workflow/using/targeting-data.md#enriching-and-modifying-data)을 참조하십시오.
+다양한 유형의 링크에 대한 자세한 내용은 [데이터 보강 및 수정](targeting-data.md#enriching-and-modifying-data)을 참조하십시오.
 
 다음 창에서는 데이터 조정을 구성하기 위해 소스 필드(기본 세트에서)와 대상 필드(&quot;저장소&quot; 스키마에 속하는)를 선택하여 조인 조건을 만들어야 합니다.
 
 ![](assets/uc2_enrich_enrich4.png)
 
-링크가 만들어지면 &quot;저장소&quot; 스키마에서 워크플로우의 작업 테이블에 열을 추가하겠습니다.&quot;ZipCode 참조&quot; 필드입니다.
+링크가 만들어지면 &quot;저장소&quot; 스키마에서 워크플로우의 작업 테이블에 열을 추가하겠습니다. &quot;ZipCode 참조&quot; 필드입니다.
 
 1. 데이터 보강 활동을 엽니다.
-1. **[!UICONTROL Edit additional data]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Edit additional data]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL Output columns]**&#x200B;에 &quot;ZipCode 참조&quot; 필드를 추가합니다.
 
 ![](assets/uc2_enrich_enrich5.png)
@@ -110,7 +112,7 @@ Phone;500;London 5
 
 ![](assets/uc2_enrich_population1.png)
 
-## 2단계:&#39;구매&#39; 테이블 {#step-2--writing-enriched-data-to-the--purchases--table}에 보강된 데이터를 작성합니다
+## 2단계: &#39;구매&#39; 표에 보강된 데이터 쓰기 {#step-2--writing-enriched-data-to-the--purchases--table}
 
 이 단계에서는 가져온 및 보강한 데이터를 &quot;구매&quot; 표에 작성하는 방법에 대해 자세히 설명합니다. 이렇게 하려면 **데이터 업데이트** 활동을 사용해야 합니다.
 
@@ -134,9 +136,9 @@ Phone;500;London 5
 
 ![](assets/uc2_enrich_miseajour.png)
 
-## 3단계:&#39;Contact&#39; 데이터 {#step-3--enriching--contact--data-} 보강
+## 3단계: &#39;연락처&#39; 데이터 보강 {#step-3--enriching--contact--data-}
 
-연락처 스키마는 &quot;구매&quot; 스키마에 실제로 연결됩니다. 즉, &quot;데이터 보강&quot; 옵션의 다른 옵션을 사용할 수 있습니다.필터링 차원에 연결된 데이터 추가
+연락처 스키마는 &quot;구매&quot; 스키마에 실제로 연결됩니다. 즉, &quot;데이터 보강&quot; 옵션의 다른 옵션을 사용할 수 있습니다. 필터링 차원에 연결된 데이터 추가
 
 이 두 번째 데이터 보강은 구매 스키마에서 합계를 만들어 식별된 각 연락처에 대한 총 구매 금액을 계산하는 것입니다.
 
@@ -153,12 +155,12 @@ Phone;500;London 5
 
    ![](assets/uc2_enrich_enrich10.png)
 
-1. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
-1. 각 연락처에 대한 구매 합계를 계산하려면 다음 표현식을 추가합니다.&quot;Sum(@prodprice)&quot;
+1. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+1. 각 연락처에 대한 구매 합계를 계산하려면 다음 표현식을 추가합니다. &quot;Sum(@prodprice)&quot;
 
    ![](assets/uc2_enrich_enrich6.png)
 
-요약 목록을 준비하려면 &quot;구매&quot; 필드와 첫 번째 데이터 보강 필드에서 필드를 추가해야 합니다.&quot;ZipCode 참조&quot; 필드입니다.
+요약 목록을 준비하려면 &quot;구매&quot; 필드와 첫 번째 데이터 보강 필드에서 필드를 추가해야 합니다. &quot;ZipCode 참조&quot; 필드입니다.
 
 1. 데이터 보강 활동에서 **[!UICONTROL Edit additional data...]** 링크를 클릭합니다.
 1. &quot;스토어 이름&quot; 및 &quot;구매/우편 번호 참조&quot; 필드를 추가합니다.
@@ -170,13 +172,13 @@ Phone;500;London 5
 
    ![](assets/uc2_enrich_enrich8.png)
 
-## 4단계:만들기 및 요약 목록 {#step-4--creating-and-adding-to-a-summary-list}에 추가
+## 4단계: 만들기 및 요약 목록에 추가 {#step-4--creating-and-adding-to-a-summary-list}
 
 마지막 단계에는 보강된 모든 데이터를 목록에 쓰는 작업이 포함됩니다.
 
 1. 워크플로우에 **목록 업데이트** 활동을 추가합니다. 이 활동은 두 번째 데이터 보강 활동의 아웃바운드 전환과 연결되어 있어야 합니다.
 1. **[!UICONTROL Create the list if necessary (Calculated name)]** 옵션을 선택합니다.
-1. 계산된 이름의 값을 선택합니다. 목록에 대해 선택한 레이블은 현재 날짜입니다.&lt;%= formatDate(new Date(), &quot;%2D/%2M/%2Y&quot;) %>
+1. 계산된 이름의 값을 선택합니다. 목록에 대해 선택한 레이블은 현재 날짜입니다. &lt;%= formatDate(new Date(), &quot;%2D/%2M/%2Y&quot;) %>
 
 워크플로우가 실행되면 목록에 다음이 포함됩니다.
 

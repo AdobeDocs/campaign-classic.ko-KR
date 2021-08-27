@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2613'
 ht-degree: 14%
@@ -15,13 +15,15 @@ ht-degree: 14%
 
 # 격리 관리 이해{#understanding-quarantine-management}
 
+![](../../assets/common.svg)
+
 ## 격리 기본 정보 {#about-quarantines}
 
 Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외되며 타겟팅되지 않습니다. 예를 들어, 사서함이 가득 찼거나 주소가 없는 경우 전자 메일 주소를 격리할 수 있습니다. 어떤 경우든, 격리 절차는 아래에서 설명하는 특정한 규칙을 준수합니다.
 
 >[!NOTE]
 >
->이 섹션은 온라인 채널에 적용됩니다.이메일, SMS, 푸시 알림
+>이 섹션은 온라인 채널에 적용됩니다. 이메일, SMS, 푸시 알림
 
 ### 격리를 통한 게재 최적화 {#optimizing-your-delivery-through-quarantines}
 
@@ -67,7 +69,7 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 >
 >격리 수의 증가는 데이터베이스의 &quot;마모&quot;와 관련된 정상적인 현상입니다. 예를 들어 이메일 주소의 수명을 3년으로 보고 수신자 표가 매년 50%씩 증가할 경우, 격리 증가는 다음과 같이 계산할 수 있습니다.
 >
->1년말:(1*0.33)/(1+0.5)=22%.
+>1년말: (1*0.33)/(1+0.5)=22%.
 두 번째 해가 끝나는 시점: ((1.22*0.33)+0.33)/(1.5+0.75)=32.5% 
 
 ### 게재 보고서에서 격리된 주소 확인 {#identifying-quarantined-addresses-in-delivery-reports}
@@ -218,7 +220,7 @@ HTTP/V2 프로토콜을 사용하면 각 푸시 게재에 대한 직접 피드�
    <td> 예<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNs 메시지 거부:등록 취소<br /> 사용자가 응용 프로그램을 제거했거나 토큰이 만료되었습니다<br /> </td> 
+   <td> APNs 메시지 거부: 등록 취소<br /> 사용자가 응용 프로그램을 제거했거나 토큰이 만료되었습니다<br /> </td> 
    <td> 실패<br /> </td> 
    <td> 등록 취소<br /> </td> 
    <td> 하드<br /> </td> 
@@ -226,7 +228,7 @@ HTTP/V2 프로토콜을 사용하면 각 푸시 게재에 대한 직접 피드�
    <td> 아니요<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNs 메시지 거부:모든 기타 오류<br /> </td> 
+   <td> APNs 메시지 거부: 모든 기타 오류<br /> </td> 
    <td> 실패<br /> </td> 
    <td> 오류 거부 원인은 오류 메시지<br />에 표시됩니다 </td> 
    <td> 소프트<br /> </td> 
@@ -242,9 +244,9 @@ HTTP/V2 프로토콜을 사용하면 각 푸시 게재에 대한 직접 피드�
 
 각 알림에 대해 Adobe Campaign은 FCM 서버로부터 직접 동기 오류를 수신합니다. Adobe 캠페인에서 이러한 이벤트를 즉시 처리하고 오류 심각도에 따라 하드 또는 소프트 오류를 생성하고 다시 시도할 수 있습니다.
 
-* 페이로드 길이를 초과했습니다. 연결 문제, 서비스 가용성 문제:다시 시도되었습니다. 소프트 오류, 실패 이유는 **[!UICONTROL Refused]**&#x200B;입니다.
-* 장치 할당량을 초과했습니다.다시 시도가 없습니다. 소프트 오류, 실패 이유는 **[!UICONTROL Refused]**&#x200B;입니다.
-* 잘못되었거나 등록되지 않은 토큰, 예기치 않은 오류, 보낸 사람 계정 문제:다시 시도하지 않음, 하드 오류, 실패 이유는 **[!UICONTROL Refused]**&#x200B;입니다.
+* 페이로드 길이를 초과했습니다. 연결 문제, 서비스 가용성 문제: 다시 시도되었습니다. 소프트 오류, 실패 이유는 **[!UICONTROL Refused]**&#x200B;입니다.
+* 장치 할당량을 초과했습니다. 다시 시도가 없습니다. 소프트 오류, 실패 이유는 **[!UICONTROL Refused]**&#x200B;입니다.
+* 잘못되었거나 등록되지 않은 토큰, 예기치 않은 오류, 보낸 사람 계정 문제: 다시 시도하지 않음, 하드 오류, 실패 이유는 **[!UICONTROL Refused]**&#x200B;입니다.
 
 **[!UICONTROL mobileAppOptOutMgt]** 워크플로우는 6시간마다 실행하여 **AppSubscriptionRcp** 테이블을 업데이트합니다. 등록되지 않았거나 더 이상 유효하지 않은 것으로 선언된 토큰의 경우 필드 **Disabled**&#x200B;이 **True**&#x200B;로 설정되고, 해당 장치 토큰에 연결된 구독은 이후 게재에서 자동으로 제외됩니다.
 
@@ -252,10 +254,9 @@ HTTP/V2 프로토콜을 사용하면 각 푸시 게재에 대한 직접 피드�
 
 >[!NOTE]
 Baidu 커넥터를 사용하는 고객의 경우 다음과 같은 다양한 오류 유형이 있습니다.
-* 게재 시작 시 연결 문제:실패 유형 **[!UICONTROL Undefined]**, 실패 이유 **[!UICONTROL Unreachable]**, 다시 시도됩니다.
-* 게재 중 연결이 끊어졌습니다.소프트 오류, 실패 이유 **[!UICONTROL Refused]**, 다시 시도가 수행됩니다.
-* 전송 중에 Baidu에서 동기 오류가 반환되었습니다.하드 오류, 실패 이유 **[!UICONTROL Refused]**, 다시 시도가 수행되지 않습니다.
-
+* 게재 시작 시 연결 문제: 실패 유형 **[!UICONTROL Undefined]**, 실패 이유 **[!UICONTROL Unreachable]**, 다시 시도됩니다.
+* 게재 중 연결이 끊어졌습니다. 소프트 오류, 실패 이유 **[!UICONTROL Refused]**, 다시 시도가 수행됩니다.
+* 전송 중에 Baidu에서 동기 오류가 반환되었습니다. 하드 오류, 실패 이유 **[!UICONTROL Refused]**, 다시 시도가 수행되지 않습니다.
 Adobe Campaign은 Baidu 서버에 10분마다 연락하여 보낸 메시지의 상태를 검색하고 브로드로그를 업데이트합니다. 메시지가 전송됨으로 선언되면 브로드로그에 있는 메시지의 상태가 **[!UICONTROL Received]**&#x200B;로 설정됩니다. Baidu가 오류를 선언하면 상태는 **[!UICONTROL Failed]**&#x200B;으로 설정됩니다.
 
 **Android V2용**
@@ -273,17 +274,17 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> <strong>다시 시도</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> 메시지 작성/분석 단계:사용자 지정 필드에 사용된 잘못된 키워드입니다.<br /> </td> 
+   <td> 메시지 작성/분석 단계: 사용자 지정 필드에 사용된 잘못된 키워드입니다.<br /> </td> 
    <td> 실패<br /> </td> 
-   <td> 다음 키워드를 사용할 수 없습니다.{1}<br /> </td> 
+   <td> 다음 키워드를 사용할 수 없습니다. {1}<br /> </td> 
    <td> 소프트<br /> </td> 
    <td> </td> 
    <td> 아니요<br /> </td> 
   </tr> 
   <tr> 
-   <td> 메시지 작성/분석 단계:페이로드가 너무 큼<br /> </td> 
+   <td> 메시지 작성/분석 단계: 페이로드가 너무 큼<br /> </td> 
    <td> 실패<br /> </td> 
-   <td> 알림이 너무 큽니다.{1}비트이지만 {2}만<br />에 인증되었습니다. </td> 
+   <td> 알림이 너무 큽니다. {1}비트이지만 {2}만<br />에 인증되었습니다. </td> 
    <td> 소프트<br /> </td> 
    <td> 거부됨<br /> </td> 
    <td> 아니요<br /> </td> 
@@ -291,13 +292,13 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
   <tr> 
    <td> <br /> 전송 중 네트워크 연결이 끊겼습니다. </td> 
    <td> 실패<br /> </td> 
-   <td> 다음 주소에서 Firebase Cloud Messaging 서비스의 응답이 없습니다.{1}<br /> </td> 
+   <td> 다음 주소에서 Firebase Cloud Messaging 서비스의 응답이 없습니다. {1}<br /> </td> 
    <td> 소프트<br /> </td> 
    <td> 연결할 수 없음<br /> </td> 
    <td> 예<br /> </td> 
   </tr> 
   <tr> 
-   <td> FCM 메시지 거부:FCM 서버를 일시적으로 사용할 수 없습니다(예: 시간 초과 포함).<br /> </td> 
+   <td> FCM 메시지 거부: FCM 서버를 일시적으로 사용할 수 없습니다(예: 시간 초과 포함). <br /> </td> 
    <td> 실패<br /> </td> 
    <td> Firebase Cloud Messaging 서비스를 일시적으로 사용할 수 없습니다<br /> </td> 
    <td> 소프트<br /> </td> 
@@ -305,7 +306,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 예<br /> </td> 
   </tr> 
   <tr> 
-   <td> FCM 메시지 거부:보낸 사람 계정을 인증하는 동안 오류가 발생했습니다.<br /> </td> 
+   <td> FCM 메시지 거부: 보낸 사람 계정을 인증하는 동안 오류가 발생했습니다.<br /> </td> 
    <td> 실패<br /> </td> 
    <td> 개발자 계정을 식별하지 못했습니다. ID 및 암호를 확인하십시오.<br /> </td> 
    <td> 소프트<br /> </td> 
@@ -313,7 +314,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 아니요<br /> </td> 
   </tr> 
   <tr> 
-   <td> FCM 메시지 거부:장치 할당량이<br />을 초과했습니다. </td> 
+   <td> FCM 메시지 거부: 장치 할당량이<br />을 초과했습니다. </td> 
    <td> 실패<br /> </td> 
    <td> </td> 
    <td> 소프트<br /> </td> 
@@ -321,7 +322,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 예<br /> </td> 
   </tr> 
   <tr> 
-   <td> FCM 메시지 거부:잘못된 등록/등록되지 않음<br /> </td> 
+   <td> FCM 메시지 거부: 잘못된 등록/등록되지 않음<br /> </td> 
    <td> 실패<br /> </td> 
    <td> </td> 
    <td> 하드<br /> </td> 
@@ -329,15 +330,15 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 아니요<br /> </td> 
   </tr> 
   <tr> 
-   <td> FCM 메시지 거부:다른 모든 오류<br /> </td> 
+   <td> FCM 메시지 거부: 다른 모든 오류<br /> </td> 
    <td> 실패<br /> </td> 
-   <td> Firebase Cloud 메시징 서버에서 예기치 않은 오류 코드를 반환했습니다.{1} </td> 
+   <td> Firebase Cloud 메시징 서버에서 예기치 않은 오류 코드를 반환했습니다. {1} </td> 
    <td> </td> 
    <td> 거부됨<br /> </td> 
    <td> 아니요<br /> </td> 
   </tr> 
     <tr> 
-   <td> FCM 메시지 거부:잘못된 인수<br /> </td> 
+   <td> FCM 메시지 거부: 잘못된 인수<br /> </td> 
    <td> 실패<br /> </td> 
    <td> INVALID_ARGUMENT </td> 
    <td> 무시됨</td> 
@@ -345,7 +346,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
-   <td> FCM 메시지 거부:타사 인증 오류<br /> </td> 
+   <td> FCM 메시지 거부: 타사 인증 오류<br /> </td> 
    <td> 실패<br /> </td> 
    <td> THIRD_PARTY_AUTH_ERROR </td> 
    <td> 무시됨</td>
@@ -353,7 +354,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 예<br /> </td> 
   </tr>
     <tr> 
-   <td> FCM 메시지 거부:보낸 사람 ID가 일치하지 않음<br /> </td> 
+   <td> FCM 메시지 거부: 보낸 사람 ID가 일치하지 않음<br /> </td> 
    <td> 실패<br /> </td> 
    <td> SENDER_ID_MISMATCH </td> 
    <td> 소프트</td>
@@ -361,7 +362,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
-   <td> FCM 메시지 거부:등록 취소<br /> </td> 
+   <td> FCM 메시지 거부: 등록 취소<br /> </td> 
    <td> 실패<br /> </td>
    <td> 등록되지 않음 </td> 
    <td> 하드</td> 
@@ -369,7 +370,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
-   <td> FCM 메시지 거부:내부<br /> </td> 
+   <td> FCM 메시지 거부: 내부<br /> </td> 
    <td> 실패<br /> </td> 
    <td> 내부 </td> 
    <td> 무시됨</td> 
@@ -377,7 +378,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 예<br /> </td> 
   </tr>
     <tr> 
-   <td> FCM 메시지 거부:사용할 수 없음<br /> </td> 
+   <td> FCM 메시지 거부: 사용할 수 없음<br /> </td> 
    <td> 실패<br /> </td> 
    <td> 사용할 수 없음</td> 
    <td> 무시됨</td> 
@@ -385,7 +386,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 예<br /> </td> 
   </tr>
     <tr> 
-   <td> FCM 메시지 거부:예기치 않은 오류 코드<br /> </td> 
+   <td> FCM 메시지 거부: 예기치 않은 오류 코드<br /> </td> 
    <td> 실패<br /> </td> 
    <td> 예기치 않은 오류 코드</td> 
    <td> 무시됨</td> 
@@ -393,7 +394,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 아니요<br /> </td> 
   </tr>
   <tr> 
-   <td> 인증:연결 문제<br /> </td> 
+   <td> 인증: 연결 문제<br /> </td> 
    <td> 실패<br /> </td> 
    <td> 인증 서버에 연결할 수 없음 </td> 
    <td> 무시됨</td>
@@ -401,7 +402,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 예<br /> </td> 
   </tr>
     <tr> 
-   <td> 인증:요청에 있는 권한이 없는 클라이언트 또는 범위입니다.<br /> </td> 
+   <td> 인증: 요청에 있는 권한이 없는 클라이언트 또는 범위입니다.<br /> </td> 
    <td> 실패<br /> </td> 
    <td> unauthorized_client </td> 
    <td> 무시됨</td>
@@ -409,7 +410,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
-   <td> 인증:클라이언트가 이 메서드를 사용하여 액세스 토큰을 검색할 수 없거나 클라이언트가 요청한 범위에 대해 인증되지 않았습니다.<br /> </td> 
+   <td> 인증: 클라이언트가 이 메서드를 사용하여 액세스 토큰을 검색할 수 없거나 클라이언트가 요청한 범위에 대해 인증되지 않았습니다.<br /> </td> 
    <td> 실패<br /> </td> 
    <td> unauthorized_client </td> 
    <td> 무시됨</td>
@@ -417,7 +418,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
-   <td> 인증:액세스 거부<br /> </td> 
+   <td> 인증: 액세스 거부<br /> </td> 
    <td> 실패<br /> </td>
    <td> access_denied</td> 
    <td> 무시됨</td>
@@ -425,7 +426,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
-   <td> 인증:잘못된 전자 메일<br /> </td> 
+   <td> 인증: 잘못된 전자 메일<br /> </td> 
    <td> 실패<br /> </td> 
    <td> invalid_grant </td> 
    <td> 무시됨</td> 
@@ -433,7 +434,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
-   <td> 인증:잘못된 JWT<br /> </td> 
+   <td> 인증: 잘못된 JWT<br /> </td> 
    <td> 실패<br /> </td> 
    <td> invalid_grant </td> 
    <td> 무시됨</td> 
@@ -441,7 +442,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
-   <td> 인증:잘못된 JWT 서명<br /> </td> 
+   <td> 인증: 잘못된 JWT 서명<br /> </td> 
    <td> 실패<br /> </td> 
    <td> invalid_grant </td> 
    <td> 무시됨</td> 
@@ -449,7 +450,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
-   <td> 인증:제공된 OAuth 범위 또는 ID 토큰 대상이 잘못되었습니다.<br /> </td> 
+   <td> 인증: 제공된 OAuth 범위 또는 ID 토큰 대상이 잘못되었습니다.<br /> </td> 
    <td> 실패<br /> </td> 
    <td> unauthorized_client</td> 
    <td> 무시됨</td> 
@@ -457,7 +458,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
-   <td> 인증:OAuth 클라이언트가 비활성화됨<br /> </td> 
+   <td> 인증: OAuth 클라이언트가 비활성화됨<br /> </td> 
    <td> 실패<br /> </td> 
    <td> disabled_client</td> 
    <td> 무시됨</td> 
@@ -562,4 +563,4 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 * 파이프 기호(|) 다음에 오는 모든 것은 **[!UICONTROL Delivery log qualification]** 테이블의 **[!UICONTROL First text]** 열에만 표시됩니다. 메시지가 표준화된 후 이 컨텐츠는 항상 **#MESSAGE#**&#x200B;로 대체됩니다. 이 프로세스는 유사한 오류에 대한 여러 항목을 사용하지 않으며 이메일과 동일합니다. 자세한 내용은 [반송 메일 자격](understanding-delivery-failures.md#bounce-mail-qualification)을 참조하십시오.
 
-확장 일반 SMPP 커넥터는 현별 기본값을 찾기 위해 휴리스틱을 적용합니다.상태가 **DELIVV**&#x200B;로 시작하는 경우 대부분의 공급자가 사용하는 일반적인 상태 **DELIVRD** 또는 **DELIVERED**&#x200B;와 일치하므로 성공으로 간주됩니다. 다른 모든 상태는 하드 실패로 이어집니다.
+확장 일반 SMPP 커넥터는 현별 기본값을 찾기 위해 휴리스틱을 적용합니다. 상태가 **DELIVV**&#x200B;로 시작하는 경우 대부분의 공급자가 사용하는 일반적인 상태 **DELIVRD** 또는 **DELIVERED**&#x200B;와 일치하므로 성공으로 간주됩니다. 다른 모든 상태는 하드 실패로 이어집니다.

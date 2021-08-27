@@ -5,19 +5,27 @@ description: 메시지 센터(제어)
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 7%
+source-wordcount: '155'
+ht-degree: 10%
 
 ---
 
 
 # 메시지 센터(제어){#message-center-control}
 
-아래에 자세히 설명된 워크플로우는 매시간마다 실행되도록 예약되어 있습니다. 기본적으로 **메시지 센터 - 컨트롤** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../message-center/using/about-transactional-messaging.md)을 참조하십시오.
+![](../../assets/common.svg)
 
-메시지 센터 모듈과 관련된 기술 워크플로우를 구성하는 방법에 대한 자세한 내용은 [이 페이지](../../message-center/using/technical-workflows.md)를 참조하십시오.
+아래에 자세히 설명된 워크플로우는 매시간마다 실행되도록 예약되어 있습니다. 기본적으로 **메시지 센터 - 컨트롤** 모듈과 함께 설치됩니다.
+
+
+자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
+
+![](assets/do-not-localize/v7.jpeg)[  Campaign v7 설명서](../../message-center/using/about-transactional-messaging.md)
+
+![](assets/do-not-localize/v8.png)[  Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html)
+
 
 <table> 
  <tbody> 

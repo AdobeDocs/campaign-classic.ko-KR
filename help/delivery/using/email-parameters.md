@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '905'
 ht-degree: 8%
 
 ---
 
 # 이메일 매개 변수 {#email-parameters}
+
+![](../../assets/common.svg)
 
 이 섹션에서는 전자 메일 게재와 관련된 옵션 및 매개 변수를 제공합니다.
 
@@ -30,6 +32,10 @@ Adobe Campaign을 사용하면 메시지 타겟에 숨은 참조 이메일 주�
 >이메일 BCC는 선택적 기능입니다. 라이선스 계약을 확인하고 계정 관리자에게 문의하여 기능을 활성화하십시오.
 
 새 게재 또는 게재 템플릿을 만들 때 기본적으로 이메일 BCC가 활성화되지 않습니다. 이메일 게재 또는 게재 템플릿 수준에서 수동으로 활성화해야 합니다.
+
+>[!NOTE]
+>
+>향상된 MTA로 이메일 BCC를 사용하는 경우 이 옵션은 모든 게재에 대해 자동으로 활성화됩니다.
 
 전자 메일 게재 템플릿에 대한 전자 메일 BCC를 활성화하려면 아래 단계를 수행하십시오.
 
@@ -59,7 +65,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 숨은 참조 이메일 주�
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
-   메시지에 다음 두 형식이 포함됩니다.텍스트 및 HTML을 참조하십시오. 수신에 표시되는 형식은 수신자의 메일 소프트웨어(다중 파트 대체)의 구성에 따라 달라집니다.
+   메시지에 다음 두 형식이 포함됩니다. 텍스트 및 HTML을 참조하십시오. 수신에 표시되는 형식은 수신자의 메일 소프트웨어(다중 파트 대체)의 구성에 따라 달라집니다.
 
    >[!IMPORTANT]
    >
@@ -89,9 +95,9 @@ Adobe Campaign을 사용하면 메시지 타겟에 숨은 참조 이메일 주�
 
 기본 모드 외에 다음 옵션도 사용할 수 있습니다.
 
-* **[!UICONTROL Force the generation of the mirror page]**:게재에 미러 페이지에 대한 링크가 삽입되지 않더라도 미러 페이지가 생성됩니다.
-* **[!UICONTROL Do not generate the mirror page]**:링크가 게재에 있어도 미러 페이지가 생성되지 않습니다.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**:이 옵션을 사용하면 게재 로그 창에서 개인화 정보를 사용하여 미러 페이지의 콘텐츠에 액세스할 수 있습니다. 이렇게 하려면 게재 종료 후 **[!UICONTROL Delivery]** 탭을 클릭하고 미러 페이지를 볼 수신자 줄을 선택합니다. **[!UICONTROL Display the mirror page for this message...]** 링크를 클릭합니다.
+* **[!UICONTROL Force the generation of the mirror page]**: 게재에 미러 페이지에 대한 링크가 삽입되지 않더라도 미러 페이지가 생성됩니다.
+* **[!UICONTROL Do not generate the mirror page]**: 링크가 게재에 있어도 미러 페이지가 생성되지 않습니다.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: 이 옵션을 사용하면 게재 로그 창에서 개인화 정보를 사용하여 미러 페이지의 콘텐츠에 액세스할 수 있습니다. 이렇게 하려면 게재 종료 후 **[!UICONTROL Delivery]** 탭을 클릭하고 미러 페이지를 볼 수신자 줄을 선택합니다. **[!UICONTROL Display the mirror page for this message...]** 링크를 클릭합니다.
 
    ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -123,7 +129,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 숨은 참조 이메일 주�
 
 게재에 SMTP 헤더를 추가할 수 있습니다. 이렇게 하려면 게재에서 **[!UICONTROL SMTP]** 탭의 관련 섹션을 사용합니다.
 
-이 창에 입력한 스크립트는 다음 양식에서 라인당 하나의 헤더를 참조해야 합니다.**name:value**
+이 창에 입력한 스크립트는 다음 양식에서 라인당 하나의 헤더를 참조해야 합니다. **name:value**
 
 필요한 경우 값이 자동으로 인코딩됩니다.
 

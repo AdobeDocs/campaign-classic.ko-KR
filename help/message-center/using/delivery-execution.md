@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 6%
@@ -15,7 +15,9 @@ ht-degree: 6%
 
 # 게재 실행 {#delivery-execution}
 
-## {#transactional-message-send} 전송 트랜잭션 메시지
+![](../../assets/v7-only.svg)
+
+## 트랜잭션 메시지 보내기 {#transactional-message-send}
 
 실행 인스턴스에서 데이터 보강 단계가 완료되고 게재 템플릿이 이벤트에 연결되어 있으면 게재가 전송됩니다.
 

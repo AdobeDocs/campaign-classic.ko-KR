@@ -6,16 +6,18 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 게재{#delivery}
 
-**배달** 유형 활동을 사용하면 게재 작업을 만들 수 있습니다. 입력 요소를 사용하여 생성할 수 있습니다.
+![](../../assets/common.svg)
+
+**배달** 유형 활동을 사용하면 게재 작업을 만들 수 있습니다. 게재 유형 활동은 입력 요소를 사용하여 생성할 수 있습니다.
 
 구성하려면 활동을 편집하고 배달 옵션을 입력합니다.
 
@@ -75,13 +77,13 @@ ht-degree: 0%
 
    수행할 작업 유형을 선택합니다.
 
-   * **[!UICONTROL Save]**:이 옵션을 사용하면 게재를 만들고 저장할 수 있습니다. 분석하거나 전달하지 않습니다.
-   * **[!UICONTROL Estimate the target]**:이 옵션을 사용하면 게재 대상을 계산하여 잠재적(첫 번째 분석 단계)을 평가할 수 있습니다. 이 작업은 **[!UICONTROL Estimate the population to be targeted]** 옵션을 선택하고 **배달**&#x200B;을 통해 기본 타겟에게 게재를 보낼 때 **[!UICONTROL Analyze]** 을 클릭하는 것과 같습니다.
-   * **[!UICONTROL Prepare]**:이 옵션을 사용하면 전체 분석 프로세스(대상 계산 및 컨텐츠 준비)를 실행할 수 있습니다. 게재가 전송되지 않습니다. 이 작업은 **[!UICONTROL Deliver as soon as possible]** 옵션을 선택하고 **배달**&#x200B;을(를) 사용하여 주 타겟에게 게재를 보낼 때 **[!UICONTROL Analyze]** 을 클릭하는 것과 같습니다.
-   * **[!UICONTROL Send a proof]**:이 옵션을 사용하면 게재 증명을 보낼 수 있습니다. 이 작업은 **배달**&#x200B;이 있는 게재 도구 모음에서 **[!UICONTROL Send a proof]** 단추를 클릭하는 것과 같습니다
-   * **[!UICONTROL Prepare and start]**:이 옵션은 전체 분석 프로세스(target 계산 및 컨텐츠 준비)를 시작하고 게재를 전송합니다. 이 작업은 **배달**&#x200B;을 사용하여 주 대상으로 게재를 보낼 때 **[!UICONTROL Deliver as soon as possible]**, **[!UICONTROL Analyze]** 및 **[!UICONTROL Confirm delivery]** 옵션을 클릭하는 것과 같습니다.
+   * **[!UICONTROL Save]**: 이 옵션을 사용하면 게재를 만들고 저장할 수 있습니다. 분석하거나 전달하지 않습니다.
+   * **[!UICONTROL Estimate the target]**: 이 옵션을 사용하면 게재 대상을 계산하여 잠재적(첫 번째 분석 단계)을 평가할 수 있습니다. 이 작업은 **[!UICONTROL Estimate the population to be targeted]** 옵션을 선택하고 **배달**&#x200B;을 통해 기본 타겟에게 게재를 보낼 때 **[!UICONTROL Analyze]** 을 클릭하는 것과 같습니다.
+   * **[!UICONTROL Prepare]**: 이 옵션을 사용하면 전체 분석 프로세스(대상 계산 및 컨텐츠 준비)를 실행할 수 있습니다. 게재가 전송되지 않습니다. 이 작업은 **[!UICONTROL Deliver as soon as possible]** 옵션을 선택하고 **배달**&#x200B;을(를) 사용하여 주 타겟에게 게재를 보낼 때 **[!UICONTROL Analyze]** 을 클릭하는 것과 같습니다.
+   * **[!UICONTROL Send a proof]**: 이 옵션을 사용하면 게재 증명을 보낼 수 있습니다. 이 작업은 **배달**&#x200B;이 있는 게재 도구 모음에서 **[!UICONTROL Send a proof]** 단추를 클릭하는 것과 같습니다
+   * **[!UICONTROL Prepare and start]**: 이 옵션은 전체 분석 프로세스(target 계산 및 컨텐츠 준비)를 시작하고 게재를 전송합니다. 이 작업은 **배달**&#x200B;을 사용하여 주 대상으로 게재를 보낼 때 **[!UICONTROL Deliver as soon as possible]**, **[!UICONTROL Analyze]** 및 **[!UICONTROL Confirm delivery]** 옵션을 클릭하는 것과 같습니다.
 
-   워크플로우에서 더 자세히 사용되는 **[!UICONTROL Act on a delivery]** 활동을 사용하면 게재를 시작하는 데 필요한 나머지 모든 단계(타겟 계산, 컨텐츠 준비, 게재)를 시작할 수 있습니다. 자세한 내용은 [배달 컨트롤](../../workflow/using/delivery-control.md)을 참조하십시오.
+   워크플로우에서 더 자세히 사용되는 **[!UICONTROL Act on a delivery]** 활동을 사용하면 게재를 시작하는 데 필요한 나머지 모든 단계(타겟 계산, 컨텐츠 준비, 게재)를 시작할 수 있습니다. 자세한 내용은 [배달 컨트롤](delivery-control.md)을 참조하십시오.
 
    다음 옵션도 사용할 수 있습니다.
 
@@ -95,12 +97,12 @@ ht-degree: 0%
 
    * **[!UICONTROL Processing errors]**
 
-      [배달 컨트롤](../../workflow/using/delivery-control.md)을 참조하십시오.
+      [배달 컨트롤](delivery-control.md)을 참조하십시오.
    **스크립트** 탭에서는 게재 매개 변수를 수정할 수 있습니다.
 
    ![](assets/edit_diffusion_fil_script.png)
 
-## 예:게재 워크플로우 {#example--delivery-workflow}
+## 예: 게재 워크플로우 {#example--delivery-workflow}
 
 새 워크플로우를 만들고 아래 그래픽에 표시된 대로 활동을 추가합니다.
 
@@ -125,11 +127,11 @@ ht-degree: 0%
    Do you wish to approve delivery (<%= vars.recCount %> recipient(s))?
    ```
 
-   JavaScript로 작성된 표현식을 포함하는 메시지입니다.**[!UICONTROL vars.recCount]** 은 이전 작업 전달에 의해 타겟팅된 수신자 수를 나타냅니다. JavaScript 표현식에 대한 자세한 내용은 [JavaScript 스크립트 및 템플릿](../../workflow/using/javascript-scripts-and-templates.md)을 참조하십시오.
+   JavaScript로 작성된 표현식을 포함하는 메시지입니다. **[!UICONTROL vars.recCount]** 은 이전 작업 전달에 의해 타겟팅된 수신자 수를 나타냅니다. JavaScript 표현식에 대한 자세한 내용은 [JavaScript 스크립트 및 템플릿](javascript-scripts-and-templates.md)을 참조하십시오.
 
    ![](assets/new-workflow-param-validation.png)
 
-   승인 작업은 [승인](../../workflow/using/approval.md)에 자세히 설명되어 있습니다.
+   승인 작업은 [승인](approval.md)에 자세히 설명되어 있습니다.
 
 ## 입력 매개 변수 {#input-parameters}
 

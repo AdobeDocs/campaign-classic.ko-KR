@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 목록 업데이트{#list-update}
+
+![](../../assets/common.svg)
 
 **목록 업데이트** 활동은 전환에서 지정된 모집단을 수신자 목록에 저장합니다.
 
@@ -35,13 +37,13 @@ ht-degree: 2%
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 Explorer에서 수신자 목록을 만드는 방법을 알아봅니다](#video)
 
-## 예:목록 업데이트 {#example--list-update}
+## 예: 목록 업데이트 {#example--list-update}
 
 다음 예에서는 목록 업데이트 활동이 프랑스에 거주하는 30세 이상의 남성을 타겟으로 하는 쿼리를 따릅니다. 처음에는 쿼리 결과에서 목록이 만들어집니다. 그런 다음 워크플로우에서 시작될 때마다 업데이트됩니다. 예를 들어 캠페인을 위한 타겟팅된 프로모션 오퍼에 정기적으로 사용할 수 있습니다.
 
 1. 쿼리 바로 다음에 **[!UICONTROL list update activity]**&#x200B;을 추가한 다음 열기 를 열어 편집합니다.
 
-   워크플로우에서 쿼리 만들기에 대한 자세한 내용은 [쿼리](../../workflow/using/query.md)를 참조하십시오.
+   워크플로우에서 쿼리 만들기에 대한 자세한 내용은 [쿼리](query.md)를 참조하십시오.
 
 1. 활동의 레이블을 선택할 수 있습니다.
 1. **[!UICONTROL Create the list if necessary (Calculated name)]** 옵션을 선택하면 첫 번째 워크플로우가 실행되면 목록이 만들어지고 다음 실행으로 업데이트됩니다.
@@ -65,7 +67,7 @@ ht-degree: 2%
 
 ## 출력 매개 변수 {#output-parameters}
 
-* groupId:그룹 식별자.
+* groupId: 그룹 식별자.
 
 ## 튜토리얼 비디오 {#video}
 

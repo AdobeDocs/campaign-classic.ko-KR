@@ -6,14 +6,16 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# 이전 버전{#about-rollback}으로 롤백
+# 이전 버전으로 롤백{#about-rollback}
+
+![](../../assets/v7-only.svg)
 
 마이그레이션 후 문제가 발생하면 이전 버전의 Campaign으로 롤백해야 할 수 있습니다.
 

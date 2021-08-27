@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 후크{#hooks}
+
+![](../../assets/v7-only.svg)
 
 상호 작용의 후크를 사용하여 **표준 엔진 동작**&#x200B;을 수정할 수 있습니다.
 
@@ -25,7 +27,7 @@ ht-degree: 1%
 
 ![](assets/interaction_hooks_2.png)
 
-## {#target-loading} Target 로드
+## Target 로드 {#target-loading}
 
 이 후크를 사용하면 외부 시스템의 추가 데이터로 연락처(기본 쿼리에서 로드한)의 프로필을 보강할 수 있습니다.
 
@@ -33,10 +35,10 @@ ht-degree: 1%
 
 **입력 매개 변수:**
 
-* xmlInteraction(xml 형식):상호 작용 노드
-* TargetId(테이블 유형):타겟 식별자
-* sUuid230(문자열 유형):uuid230 영구 쿠키의 값
-* Nlid(문자열 유형):nlid 세션 쿠키의 값
+* xmlInteraction(xml 형식): 상호 작용 노드
+* TargetId(테이블 유형): 타겟 식별자
+* sUuid230(문자열 유형): uuid230 영구 쿠키의 값
+* Nlid(문자열 유형): nlid 세션 쿠키의 값
 
 **반환 매개 변수:**
 
@@ -55,7 +57,7 @@ ht-degree: 1%
   interaction.@additionalData = additionalData;
 ```
 
-## 제안 사후 처리 {#proposition-post-processing-}
+## 제안 후 처리 {#proposition-post-processing-}
 
 이 후크를 사용하면 지정된 상호 작용에서 적합한 제품의 일관성 및 호환성을 확인할 수 있습니다. 또한 새 점수 또는 확률 계산 기능을 정의할 수 있습니다.
 
@@ -68,23 +70,23 @@ ht-degree: 1%
 
 **입력 매개 변수:**
 
-* 제안:적합한 제안 테이블 다음은 이 표에 있는 요소 구조의 예입니다
+* 제안: 적합한 제안 테이블 다음은 이 표에 있는 요소 구조의 예입니다
 
    ```
    { offer_id:1234,
      weight:2}
    ```
 
-* dicOffer(xml 유형):적합한 오퍼의 모든 속성 사전(오퍼 코드, 카테고리 id, 카테고리 전체 이름, 시작 날짜, 종료 날짜, 레이블, 내부 이름, 오퍼 id, 추가 오퍼 필드). 예제
+* dicOffer(xml 유형): 적합한 오퍼의 모든 속성 사전(오퍼 코드, 카테고리 id, 카테고리 전체 이름, 시작 날짜, 종료 날짜, 레이블, 내부 이름, 오퍼 id, 추가 오퍼 필드). 예제
 
    ```
    { "1242": <offer category-id="61242" categoryFullName="/FULL/PATH/TO/CATEGORY/" code="CODE" endDate="" id="62473" label="LABEL" name="OFR38_OE4" product-id="43" startDate=""/>,
      "1243": ...}
    ```
 
-* xmlTarget(xml 유형):프로필 데이터 노드
-* xmlInteraction(xml 형식):호출 데이터 노드
-* iPropNumber(정수 유형):예상 오퍼 수
+* xmlTarget(xml 유형): 프로필 데이터 노드
+* xmlInteraction(xml 형식): 호출 데이터 노드
+* iPropNumber(정수 유형): 예상 오퍼 수
 
 **반환 매개 변수:**
 
@@ -113,7 +115,7 @@ if( aProposition.length > 0 )
 return aReturnedProps;
 ```
 
-## 동적 오퍼 {#dynamic-offer}
+## 다이내믹 오퍼 {#dynamic-offer}
 
 이 후크를 사용하면 외부 엔진을 호출하여 오퍼에 연결된 제품 목록을 선택할 수 있습니다. 자격 규칙 다음에 유형화 규칙 애플리케이션 전에 오퍼에 구성됩니다.
 
@@ -123,10 +125,10 @@ return aReturnedProps;
 
 **입력 매개 변수:**
 
-* xmlOffer(xml 유형):오퍼 (오퍼 코드, 카테고리 id, 카테고리 전체 이름, 시작 날짜, 종료 날짜, 레이블, 내부 이름, 오퍼 id, 추가 오퍼 필드)
-* 가중치:컨텍스트 가중치(이중 유형)
-* xmlTarget(xml 유형):프로필 데이터 노드
-* xmlInteraction(xml 형식):호출 데이터 노드
+* xmlOffer(xml 유형): 오퍼 (오퍼 코드, 카테고리 id, 카테고리 전체 이름, 시작 날짜, 종료 날짜, 레이블, 내부 이름, 오퍼 id, 추가 오퍼 필드)
+* 가중치: 컨텍스트 가중치(이중 유형)
+* xmlTarget(xml 유형): 프로필 데이터 노드
+* xmlInteraction(xml 형식): 호출 데이터 노드
 
 **반환 매개 변수:**
 

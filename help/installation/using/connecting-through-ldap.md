@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # LDAP를 통해 연결{#connecting-through-ldap}
+
+![](../../assets/v7-only.svg)
 
 ## Campaign 및 LDAP 구성 {#configuring-campaign-and-ldap}
 
@@ -36,7 +38,7 @@ LDAP 구성은 배포 마법사에서 수행됩니다. 첫 번째 구성 단계 
 
    * 일반 텍스트 암호 + SSL(**TLS**)
 
-      전체 인증 절차(암호가 포함됨)가 암호화되어 있습니다. 보안 포트 636은 이 모드에서 사용할 수 없습니다.Adobe Campaign은 자동으로 보안 모드로 전환됩니다.
+      전체 인증 절차(암호가 포함됨)가 암호화되어 있습니다. 보안 포트 636은 이 모드에서 사용할 수 없습니다. Adobe Campaign은 자동으로 보안 모드로 전환됩니다.
 
       이 인증 모드를 사용하는 경우 Linux에서 openLDAP 클라이언트 라이브러리에 의해 인증서가 확인됩니다. 인증 절차가 암호화되도록 유효한 SSL 인증서를 사용하는 것이 좋습니다. 그렇지 않으면 정보가 일반 텍스트로 표시됩니다.
 
@@ -54,7 +56,7 @@ LDAP 구성은 배포 마법사에서 수행됩니다. 첫 번째 구성 단계 
 
       암호화 없음(테스트 단계에서만 사용).
 
-* 사용자 인증 모드를 선택합니다.**[!UICONTROL Automatically compute the unique user identifier]**([고유 이름 계산](#distinguished-name-calculation) 참조) 또는 **[!UICONTROL Search the unique user identifier in the directory]**([식별자 검색](#searching-for-identifiers) 참조).
+* 사용자 인증 모드를 선택합니다. **[!UICONTROL Automatically compute the unique user identifier]**([고유 이름 계산](#distinguished-name-calculation) 참조) 또는 **[!UICONTROL Search the unique user identifier in the directory]**([식별자 검색](#searching-for-identifiers) 참조).
 
 ## 호환성 {#compatibility}
 
@@ -112,7 +114,7 @@ DN(고유 이름) 식별자를 계산하려는 경우 배포 마법사의 다음
 
    이 두 필드를 채우면 Adobe Campaign은 자체 로그인 및 암호로 LDAP 서버에 연결됩니다. 비어 있는 경우 Adobe Campaign이 익명으로 서버에 연결합니다.
 
-## 식별자 검색 중 {#searching-for-identifiers}
+## 식별자 검색 {#searching-for-identifiers}
 
 식별자를 검색하도록 선택하면 배포 마법사를 사용하여 검색을 구성할 수 있습니다.
 
@@ -159,21 +161,21 @@ DN(고유 이름) 식별자를 계산하려는 경우 배포 마법사의 다음
 
 **[!UICONTROL Save]** 을 클릭하여 인스턴스 구성을 완료합니다.
 
-## 연산자 관리 {#managing-operators}
+## 운영자 관리 {#managing-operators}
 
 구성을 확인한 후에는 LDAP 디렉토리를 통해 관리되는 Adobe Campaign 연산자를 정의해야 합니다.
 
-LDAP 디렉토리를 사용하여 연산자를 인증하려면 해당 프로파일을 편집하고 **[!UICONTROL Edit the access parameters]** 링크를 클릭합니다. **[!UICONTROL Use LDAP for authentication]** 옵션을 선택합니다.이 연산자에 대해 **[!UICONTROL Password]** 필드가 회색으로 표시됩니다.
+LDAP 디렉토리를 사용하여 연산자를 인증하려면 해당 프로파일을 편집하고 **[!UICONTROL Edit the access parameters]** 링크를 클릭합니다. **[!UICONTROL Use LDAP for authentication]** 옵션을 선택합니다. 이 연산자에 대해 **[!UICONTROL Password]** 필드가 회색으로 표시됩니다.
 
 ![](assets/s_ncs_install_operator_in_ldap.png)
 
-## 사용 사례 {#use-cases}
+## 활용 사례 {#use-cases}
 
 이 섹션에서는 요구 사항에 따라 가장 적합한 구성을 수행하는 데 도움이 되는 몇 가지 간단한 사용 사례를 제공합니다.
 
 1. 사용자가 LDAP 디렉터리에서 만들어졌지만 Adobe Campaign에서는 만들어지지 않았습니다.
 
-   사용자가 LDAP 인증을 통해 플랫폼에 액세스하도록 Adobe Campaign을 구성할 수 있습니다. Adobe Campaign은 Adobe Campaign에서 즉시 연산자를 만들 수 있도록 LDAP 디렉토리에서 ID/암호 조합의 유효성을 제어할 수 있어야 합니다. 이렇게 하려면 **[!UICONTROL Enable the connection of users declared in the LDAP directory if the operator is not declared in Adobe Campaign]** 옵션을 선택합니다. 이 경우 그룹 동기화를 구성해야 합니다.**[!UICONTROL Enable synchronization of user rights from authorizations and groups in the directory]** 옵션을 선택해야 합니다.
+   사용자가 LDAP 인증을 통해 플랫폼에 액세스하도록 Adobe Campaign을 구성할 수 있습니다. Adobe Campaign은 Adobe Campaign에서 즉시 연산자를 만들 수 있도록 LDAP 디렉토리에서 ID/암호 조합의 유효성을 제어할 수 있어야 합니다. 이렇게 하려면 **[!UICONTROL Enable the connection of users declared in the LDAP directory if the operator is not declared in Adobe Campaign]** 옵션을 선택합니다. 이 경우 그룹 동기화를 구성해야 합니다. **[!UICONTROL Enable synchronization of user rights from authorizations and groups in the directory]** 옵션을 선택해야 합니다.
 
 1. 사용자가 Adobe Campaign에서 생성되었지만 LDAP 디렉토리에서는 생성되지 않았습니다.
 
@@ -183,8 +185,8 @@ LDAP 디렉토리를 사용하여 연산자를 인증하려면 해당 프로파�
 
    이 그룹은 Adobe Campaign에서 만들어지지 않습니다. **[!UICONTROL Enable synchronization of user rights from authorizations and groups in the directory]** 옵션을 통해 일치 기능을 활성화하려면 그룹을 만들고 동기화해야 합니다.
 
-1. 그룹은 Adobe Campaign에 있으며 LDAP 디렉토리는 이벤트 후에 활성화됩니다.Adobe Campaign의 사용자 그룹은 LDAP 그룹의 컨텐츠로 자동 대체되지 않습니다. 마찬가지로, 그룹이 Adobe Campaign에만 존재하는 경우 그룹이 LDAP에서 생성 및 동기화될 때까지 LDAP 사용자가 그룹에 추가되지 않을 수 있습니다.
+1. 그룹은 Adobe Campaign에 있으며 LDAP 디렉토리는 이벤트 후에 활성화됩니다. Adobe Campaign의 사용자 그룹은 LDAP 그룹의 컨텐츠로 자동 대체되지 않습니다. 마찬가지로, 그룹이 Adobe Campaign에만 존재하는 경우 그룹이 LDAP에서 생성 및 동기화될 때까지 LDAP 사용자가 그룹에 추가되지 않을 수 있습니다.
 
    그룹은 Adobe Campaign 또는 LDAP에 의해 즉시 만들어지지 않습니다. Adobe Campaign과 LDAP 디렉토리 모두에서 개별적으로 만들어야 합니다.
 
-   LDAP 디렉토리의 그룹 이름은 Adobe Campaign 그룹의 이름과 일치해야 합니다. 연결 마스크는 배포 마법사의 마지막 구성 단계에서 정의됩니다.Adobe Campaign_()*)로 설정될 수도 있습니다.
+   LDAP 디렉토리의 그룹 이름은 Adobe Campaign 그룹의 이름과 일치해야 합니다. 연결 마스크는 배포 마법사의 마지막 구성 단계에서 정의됩니다. Adobe Campaign_()*)로 설정될 수도 있습니다.

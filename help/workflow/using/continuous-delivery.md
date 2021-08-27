@@ -6,16 +6,18 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
 # 지속적인 게재{#continuous-delivery}
 
-**연속 게재** 유형 작업을 사용하면 새 수신자를 기존 게재에 추가할 수 있습니다. 이 게재 유형을 사용하면 다음과 같이 매번 새 게재를 만들 수 없습니다.이 모드는 종종 더 효율적입니다. 특히 필요한 경우 출력되는 낮은 볼륨 경고나 알림에 유용합니다.
+![](../../assets/common.svg)
+
+**연속 게재** 유형 작업을 사용하면 새 수신자를 기존 게재에 추가할 수 있습니다. 이 게재 유형을 사용하면 다음과 같이 매번 새 게재를 만들 수 없습니다. 이 모드는 종종 더 효율적입니다. 특히 필요한 경우 출력되는 낮은 볼륨 경고나 알림에 유용합니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#continuous-delivery-video)
 

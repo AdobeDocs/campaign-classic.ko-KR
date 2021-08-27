@@ -6,20 +6,22 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 5%
 
 ---
 
-# 워크플로우 {#import-export-workflows}를 사용하여 데이터 가져오기 및 내보내기
+# 워크플로우를 사용하여 데이터 가져오기 및 내보내기 {#import-export-workflows}
 
-## 데이터 수집 중 {#collecting-data-workflows}
+![](../../assets/common.svg)
+
+## 데이터 수집 {#collecting-data-workflows}
 
 워크플로우는 일부 가져오기 프로세스를 자동화하는 유용한 방법이 될 수 있습니다. 로컬 파일 또는 SFTP에서 데이터를 가져오든 관계없이 워크플로우를 사용하여 데이터 관리 절차를 표준화할 수 있습니다.
 
-### 목록의 데이터 사용:목록 읽기 {#using-data-from-a-list--read-list}
+### 목록의 데이터 사용: 목록 읽기 {#using-data-from-a-list--read-list}
 
 워크플로우에서 전송된 데이터는 미리 데이터를 준비하고 구성하는 목록에서 가져올 수 있습니다.
 
@@ -27,7 +29,7 @@ ht-degree: 5%
 
 워크플로우에서 목록 읽기 활동 사용에 대한 자세한 내용은 [이 페이지](../../workflow/using/read-list.md)를 참조하십시오.
 
-### {#loading-data-from-a-file} 파일에서 데이터 로드
+### 파일에서 데이터 로드 {#loading-data-from-a-file}
 
 워크플로우에서 처리된 데이터를 구조화된 파일에서 추출하여 Adobe Campaign으로 가져올 수 있습니다.
 

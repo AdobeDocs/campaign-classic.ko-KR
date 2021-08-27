@@ -6,14 +6,16 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '2786'
+source-wordcount: '2784'
 ht-degree: 0%
 
 ---
 
 # 일반 구성{#general-configurations}
+
+![](../../assets/v7-only.svg)
 
 이 섹션에서는 v5.11 또는 v6.02에서 마이그레이션하는 경우 Adobe Campaign v7에서 수행할 구성에 대해 자세히 설명합니다.
 
@@ -54,7 +56,7 @@ TIMESTAMP WITH TIMEZONE 모드를 사용하려면 **-userTimestamptz:1** 옵션�
 
 1. 표준 시간대 파일이 두 서버 모두에서 동일한지 확인합니다.
 
-자세한 내용은 다음을 참조하십시오.[https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004)
+자세한 내용은 다음을 참조하십시오. [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004)
 
 클라이언트와 서버 간에 시간대가 잘못 정렬되면 일부 지연이 발생할 수 있습니다. 클라이언트와 서버 측에서 동일한 버전의 Oracle 라이브러리를 사용하는 것이 좋습니다. 두 시간대는 동일해야 합니다.
 
@@ -82,7 +84,7 @@ TIMESTAMP WITH TIMEZONE 모드를 사용하려면 **-userTimestamptz:1** 옵션�
 
 >[!IMPORTANT]
 >
->보안상의 이유로 기본적으로 Adobe Campaign 플랫폼에 더 이상 액세스할 수 없습니다.보안 영역을 구성해야 하므로 운영자 IP 주소를 수집합니다.
+>보안상의 이유로 기본적으로 Adobe Campaign 플랫폼에 더 이상 액세스할 수 없습니다. 보안 영역을 구성해야 하므로 운영자 IP 주소를 수집합니다.
 
 Adobe Campaign v7에는 **보안 영역**&#x200B;의 개념이 포함되어 있습니다. 인스턴스에 로그온하려면 각 사용자가 영역에 연결되어 있어야 하며 사용자의 IP 주소가 보안 영역에 정의된 주소 또는 주소 범위에 포함되어야 합니다. 보안 영역 구성은 Adobe Campaign 서버 구성 파일에서 수행할 수 있습니다. 사용자가 연결된 보안 영역을 콘솔에 정의해야 합니다(**[!UICONTROL Administration > Access management > Operators]**).
 
@@ -104,7 +106,7 @@ nlserver config -internalpassword
 >
 >**내부** 암호는 모든 추적 서버에 대해 동일해야 합니다. 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier) 및 [이 섹션](../../platform/using/access-management.md)을 참조하십시오.
 
-### v7 {#new-features-in-v7}의 새로운 기능
+### v7의 새로운 기능 {#new-features-in-v7}
 
 * 권한이 없는 사용자는 더 이상 Adobe Campaign에 연결할 수 없습니다. 예를 들어 **connect**&#x200B;라는 권한을 만들어 수동으로 해당 권한을 추가해야 합니다.
 
@@ -196,7 +198,7 @@ Adobe Campaign v7에는 최신 JavaScript 인터프리터가 통합됩니다. �
 
 이제 **[!UICONTROL myObject.@attribute]** 구문은 XML 개체에만 유효합니다. 이 구문은 게재 및 컨텐츠 관리를 개인화하는 데 사용할 수 있습니다. 비 XML 개체에서 이 유형의 구문을 사용한 경우 개인화 기능이 더 이상 작동하지 않습니다.
 
-다른 모든 개체 유형의 경우 구문은 이제 **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**&#x200B;입니다. 예를 들어, 다음 구문을 사용한 비 XML 객체입니다.**[!UICONTROL employee.@sn]** 는 이제 다음 구문을 사용해야 합니다.**[!UICONTROL employee`[`&quot;sn&quot;`]`]**
+다른 모든 개체 유형의 경우 구문은 이제 **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**&#x200B;입니다. 예를 들어, 다음 구문을 사용한 비 XML 객체입니다. **[!UICONTROL employee.@sn]** 는 이제 다음 구문을 사용해야 합니다. **[!UICONTROL employee`[`&quot;sn&quot;`]`]**
 
 * 이전 구문:
 
@@ -246,19 +248,19 @@ XML 개체에서 값을 변경하려면 먼저 XML 노드를 추가하기 전에
 
 인스턴스 보안을 강화하기 위해 SQLData 기반 구문을 대체하기 위해 Adobe Campaign v7에 새로운 구문이 도입되었습니다. 이 구문과 함께 이러한 코드 요소를 사용하는 경우 이를 수정해야 합니다. 관련 주요 요소는 다음과 같습니다.
 
-* 하위 쿼리별 필터링:새 구문은 `<subQuery>` 요소를 기반으로 하위 쿼리를 정의합니다
-* 합계:새 구문은 &quot;aggregate function(collection)&quot;입니다.
-* 가입별 필터링:새 구문은 `[schemaName:alias:xPath]`입니다.
+* 하위 쿼리별 필터링: 새 구문은 `<subQuery>` 요소를 기반으로 하위 쿼리를 정의합니다
+* 합계: 새 구문은 &quot;aggregate function(collection)&quot;입니다.
+* 가입별 필터링: 새 구문은 `[schemaName:alias:xPath]`입니다.
 
 queryDef(xtk:queryDef) 스키마가 수정되었습니다.
 
 * 새 `<subQuery>` 요소를 사용하여 SQLData에 포함된 SELECT를 바꿀 수 있습니다
 * @setOperator 속성에 대해 &quot;IN&quot; 및 &quot;NOT IN&quot; 이라는 두 개의 새 값이 도입되었습니다
-* `<node>` 요소의 하위 요소인 새 `<where>` 요소:이렇게 하면 SELECT에서 &quot;하위 선택&quot;을 수행할 수 있습니다.
+* `<node>` 요소의 하위 요소인 새 `<where>` 요소: 이렇게 하면 SELECT에서 &quot;하위 선택&quot;을 수행할 수 있습니다.
 
-&quot;@expr&quot; 속성을 사용하면 SQLData가 있을 수 있습니다. 다음 용어를 검색할 수 있습니다.&quot;SQLData&quot;, &quot;aliasSqlTable&quot;, &quot;sql&quot;.
+&quot;@expr&quot; 속성을 사용하면 SQLData가 있을 수 있습니다. 다음 용어를 검색할 수 있습니다. &quot;SQLData&quot;, &quot;aliasSqlTable&quot;, &quot;sql&quot;.
 
-Adobe Campaign v7 인스턴스는 기본적으로 안전합니다. 보안은 **[!UICONTROL serverConf.xml]** 파일에 있는 보안 영역의 정의 측면에서 제공됩니다.**allowSQLInjection** 특성은 SQL 구문 보안을 관리합니다.
+Adobe Campaign v7 인스턴스는 기본적으로 안전합니다. 보안은 **[!UICONTROL serverConf.xml]** 파일에 있는 보안 영역의 정의 측면에서 제공됩니다. **allowSQLInjection** 특성은 SQL 구문 보안을 관리합니다.
 
 업그레이드 후 실행 중에 SQLData 오류가 발생하는 경우 코드를 다시 작성할 수 있도록 SQLData 기반 동기화를 일시적으로 허용하려면 이 속성을 수정해야 합니다. 이렇게 하려면 **serverConf.xml** 파일에서 다음 옵션을 변경해야 합니다.
 
@@ -388,7 +390,7 @@ allowSQLInjection="false"
 
 **팁과 트릭**
 
-`<subQuery>` 요소에서 기본 `<queryDef>`의 &quot;field&quot; 필드를 참조합니다.   요소를 사용하려면 다음 구문을 사용하십시오.`[../@field]`
+`<subQuery>` 요소에서 기본 `<queryDef>`의 &quot;field&quot; 필드를 참조합니다.   요소를 사용하려면 다음 구문을 사용하십시오. `[../@field]`
 
 예제:
 
@@ -436,7 +438,7 @@ allowSQLInjection="false"
 
    경고에서 리소스 충돌이 발생할 경우 이를 해결하기 위해 운영자 주의가 필요합니다.
 
-* 업그레이드 후 **postupgrade_`<server version number>`_time`>`.log** 파일에 동기화 결과가 포함되어 있습니다. 기본적으로 다음 디렉토리에서 사용할 수 있습니다.**설치 디렉토리/var/`<instance>`postupgrade** 오류 및 경고는 **error** 및 **warning** 특성으로 표시됩니다.
+* 업그레이드 후 **postupgrade_`<server version number>`_time`>`.log** 파일에 동기화 결과가 포함되어 있습니다. 기본적으로 다음 디렉토리에서 사용할 수 있습니다. **설치 디렉토리/var/`<instance>`postupgrade** 오류 및 경고는 **error** 및 **warning** 특성으로 표시됩니다.
 
 ### 충돌 해결 {#resolve-a-conflict}
 
@@ -449,9 +451,9 @@ allowSQLInjection="false"
 
 갈등을 해결하는 방법에는 세 가지가 있습니다.
 
-* **[!UICONTROL Declared as resolved]**:미리 운영자 개입이 필요합니다.
-* **[!UICONTROL Accept the new version]**:사용자가 Adobe Campaign과 함께 제공한 리소스를 변경하지 않은 경우 권장합니다.
-* **[!UICONTROL Keep the current version]**:은(는) 업데이트가 거부됨을 의미합니다.
+* **[!UICONTROL Declared as resolved]**: 미리 운영자 개입이 필요합니다.
+* **[!UICONTROL Accept the new version]**: 사용자가 Adobe Campaign과 함께 제공한 리소스를 변경하지 않은 경우 권장합니다.
+* **[!UICONTROL Keep the current version]**: 은(는) 업데이트가 거부됨을 의미합니다.
 
    >[!IMPORTANT]
    이 해결 모드를 선택하면 새 버전에서 패치가 손실될 수 있습니다. 따라서 이 옵션은 전문가 연산자만 사용하거나 예약하지 않는 것이 좋습니다.
@@ -467,7 +469,7 @@ allowSQLInjection="false"
    ![](assets/s_ncs_production_conflict003.png)
 
 1. 해결할 충돌로 이동합니다. **[!UICONTROL Actions]** 아이콘을 클릭하고 **[!UICONTROL Declare as resolved]** 을 선택합니다.
-1. 변경 사항을 저장합니다.이제 충돌이 해결되었습니다.
+1. 변경 사항을 저장합니다. 이제 충돌이 해결되었습니다.
 
 ## Tomcat {#tomcat}
 
@@ -610,7 +612,7 @@ logInfo("Done");
 
 ### 표준 보고서 {#standard-reports}
 
-현재 모든 표준 보고서는 렌더링 엔진 v6.x를 사용합니다.이러한 보고서에 JavaScript를 추가한 경우 특정 요소가 더 이상 작동하지 않을 수 있습니다. 실제로 이전 버전의 JavaScript는 v6.x 렌더링 엔진과 호환되지 않습니다. 따라서 JavaScript 코드를 확인하고 나중에 조정해야 합니다. 모든 보고서, 특히 내보내기 기능을 테스트해야 합니다.
+현재 모든 표준 보고서는 렌더링 엔진 v6.x를 사용합니다. 이러한 보고서에 JavaScript를 추가한 경우 특정 요소가 더 이상 작동하지 않을 수 있습니다. 실제로 이전 버전의 JavaScript는 v6.x 렌더링 엔진과 호환되지 않습니다. 따라서 JavaScript 코드를 확인하고 나중에 조정해야 합니다. 모든 보고서, 특히 내보내기 기능을 테스트해야 합니다.
 
 ### 개인화된 보고서 {#personalized-reports}
 
@@ -627,7 +629,7 @@ logInfo("Done");
 * 식별된 웹 애플리케이션(함께 확인, 승인 양식, 외부 내부 개발),
 * 익명의 웹 애플리케이션(웹 또는 설문 조사 양식)
 
-### 식별된 웹 응용 프로그램 {#identified-web-applications}
+### 식별된 웹 애플리케이션 {#identified-web-applications}
 
 보고서([자세히 알아보기](#reports))와 마찬가지로 JavaScript를 추가한 경우 필요한 경우 확인하고 조정해야 합니다. v7 파란색 배너를 사용하려면(파란색 탭 포함) 웹 애플리케이션을 다시 게시해야 합니다. JavaScript 코드가 작동하는 경우 v6.x 렌더링 엔진을 선택할 수 있습니다. 그렇지 않은 경우 코드를 조정하는 동안 v6.0 렌더링 엔진을 사용한 다음 v6.x 렌더링 엔진을 사용할 수 있습니다.
 
@@ -660,7 +662,7 @@ allowUserPassword="false"
 sessionTokenOnly="false"
 ```
 
-### 익명 웹 응용 프로그램 {#anonymous-web-applications}
+### 익명의 웹 애플리케이션 {#anonymous-web-applications}
 
 문제가 발생하면 웹 애플리케이션을 다시 게시합니다. 문제가 지속되면 v6.0 렌더링 엔진을 선택할 수 있습니다. JavaScript를 추가하지 않은 경우 v6.x 렌더링 엔진을 선택하고 새로운 기능을 활용할 수 있습니다.
 

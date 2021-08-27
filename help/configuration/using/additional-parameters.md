@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -15,12 +15,14 @@ ht-degree: 1%
 
 # 추가 매개 변수{#additional-parameters}
 
+![](../../assets/v7-only.svg)
+
 ## 매개 변수 정의 {#definition-of-parameters}
 
 Adobe Campaign 플랫폼에서는 표준으로 두 개의 TRANSACTION-type 웹 추적 매개 변수를 제공합니다.
 
-* **금액**:거래 금액을 나타냅니다.
-* **문서**:거래의 항목 수를 나타냅니다.
+* **금액**: 거래 금액을 나타냅니다.
+* **문서**: 거래의 항목 수를 나타냅니다.
 
 이러한 매개 변수는 **nms:webTrackingLog** 스키마에 정의되어 있으며, 보고에 표시되는 일부 표시기입니다.
 
@@ -68,22 +70,22 @@ webTrackingParamSize="64"/>
 구성을 수정한 경우 다음을 수행해야 합니다.
 
 * 리디렉션 모듈(Apache, IIS 등)을 호스팅하는 웹 서버를 중지합니다.
-* Adobe Campaign 서버를 중지합니다.**net stop nlserver6** in Windows, **/etc/init.d/nlserver6 stop** in Linux,
+* Adobe Campaign 서버를 중지합니다. **net stop nlserver6** in Windows, **/etc/init.d/nlserver6 stop** in Linux,
 
    >[!NOTE]
    >
-   >20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우).**systemctl stop nlserver**
+   >20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우). **systemctl stop nlserver**
 
 * Linux에서 **ipcrm** 명령을 사용하여 공유 메모리 세그먼트를 삭제합니다.
-* Adobe Campaign 서버를 다시 시작합니다.**net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux,
+* Adobe Campaign 서버를 다시 시작합니다. **net start nlserver6** in Windows, **/etc/init.d/nlserver6 start** in Linux,
 
    >[!NOTE]
    >
-   >20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우).**systemctl start nlserver**
+   >20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
 
 * 웹 서버를 다시 시작합니다.
 
-**예**:Linux에서 구성을 고려합니다.
+**예**: Linux에서 구성을 고려합니다.
 
 ```
 adobe@selma:~$ systemctl stop nlserver

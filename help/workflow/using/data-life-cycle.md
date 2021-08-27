@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 데이터 수명 주기 {#data-life-cycle}
+
+![](../../assets/common.svg)
 
 ## 작업 테이블 {#work-table}
 
@@ -31,7 +33,7 @@ ht-degree: 4%
 
    ![](assets/wf-right-click-display.png)
 
-   자세한 내용은 [작업 테이블 및 워크플로우 스키마](../../workflow/using/monitoring-workflow-execution.md#worktables-and-workflow-schema)를 참조하십시오.
+   자세한 내용은 [작업 테이블 및 워크플로우 스키마](monitoring-workflow-execution.md#worktables-and-workflow-schema)를 참조하십시오.
 
 * 대상 분석
 
@@ -39,7 +41,7 @@ ht-degree: 4%
 
    자세한 정보는 이 [섹션](../../reporting/using/using-the-descriptive-analysis-wizard.md)을 참조하십시오.
 
-워크플로우가 실행되면 타겟 데이터가 삭제됩니다. 마지막 작업 테이블만 액세스할 수 있습니다. 모든 작업 테이블에 액세스할 수 있도록 워크플로우를 구성할 수 있습니다.워크플로우 속성에서 **[!UICONTROL Keep the result of interim populations between two executions]** 옵션을 선택합니다.
+워크플로우가 실행되면 타겟 데이터가 삭제됩니다. 마지막 작업 테이블만 액세스할 수 있습니다. 모든 작업 테이블에 액세스할 수 있도록 워크플로우를 구성할 수 있습니다. 워크플로우 속성에서 **[!UICONTROL Keep the result of interim populations between two executions]** 옵션을 선택합니다.
 
 그러나 대량의 데이터가 있는 경우 이 옵션을 활성화하지 않는 것이 좋습니다.
 
@@ -89,7 +91,7 @@ ht-degree: 4%
 
    ![](assets/wf-targetdata-sample-3.png)
 
-1. 그런 다음 **[!UICONTROL Delivery]** 을 구성합니다.템플릿을 기반으로 작성되며 수신자는 인바운드 전환에서 지정합니다.
+1. 그런 다음 **[!UICONTROL Delivery]** 을 구성합니다. 템플릿을 기반으로 작성되며 수신자는 인바운드 전환에서 지정합니다.
 
    ![](assets/wf-targetdata-sample-4.png)
 

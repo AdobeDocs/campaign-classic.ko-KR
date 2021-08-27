@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 빌드 업그레이드 FAQ {#build-upgrade-faq}
+
+![](../../assets/common.svg)
 
 Adobe Campaign은 정기적으로 업데이트됩니다. 게시된 [릴리스 노트](../../rn/using/rn-overview.md)에 익숙한 경우 새로운 기능이 포함된 평균 2/3 부 버전에서 개선 사항 및 수정 사항이 매년 릴리스된다는 사실을 잘 알고 있을 것입니다. 또한, 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다. 이러한 정기 업데이트 캐디는 최신 업데이트를 직접 경험해 보고 환경을 완전히 안전하게 지키며 Adobe 제품을 통해 경험을 향상시키는 것을 목표로 합니다.
 
@@ -23,7 +25,7 @@ Adobe Campaign은 정기적으로 업데이트됩니다. 게시된 [릴리스 �
 
 ## 빌드 업그레이드란 무엇입니까?
 
-빌드 업그레이드는 Adobe Campaign Classic 소프트웨어가 최신 보안 빌드 번호로 업데이트되지만 동일한 주요/부 빌드 수준에서 유지됩니다. 예:Campaign Classic v7 build 9026 to Campaign v7 build 9032.
+빌드 업그레이드는 Adobe Campaign Classic 소프트웨어가 최신 보안 빌드 번호로 업데이트되지만 동일한 주요/부 빌드 수준에서 유지됩니다. 예: Campaign Classic v7 build 9026 to Campaign v7 build 9032.
 
 이 섹션](../../rn/using/rn-overview.md)에서 추가 [을 알아보십시오.
 
@@ -53,7 +55,7 @@ Campaign Classic 19.2부터 상태는 각 빌드에 연결됩니다.
 
 * 빌드 업그레이드는 빌드 6880에서 6880보다 큰 빌드로 이동해야 합니다. 예를 들어 v6.1.1 빌드 8222에서 v6.1.1빌드 8666로
 
-* 버전 업그레이드에는 버전 6.0.2에서 6.0.2보다 큰 버전으로 이동하는 작업이 포함됩니다. 예:v6.0.1 빌드 222에서 v6.1.1로 빌드 8666
+* 버전 업그레이드에는 버전 6.0.2에서 6.0.2보다 큰 버전으로 이동하는 작업이 포함됩니다. 예: v6.0.1 빌드 222에서 v6.1.1로 빌드 8666
 
 ## 이러한 업데이트 전에 데이터를 백업해야 합니까?
 
@@ -88,8 +90,8 @@ Adobe은 변경 전에 시스템 백업을 수행합니다. 그러나 비프로�
 빌드 업그레이드 프로세스에는 다음 리소스가 필요합니다.
 
 * Adobe 설계자 - 호스팅 또는 클라우드 메시징/하이브리드 아키텍처의 경우 설계자는 고객 지원 팀과 협력해야 합니다.
-* 프로젝트 관리자 - 호스팅:호스팅 팀은 고객 지원 팀 및 고객과 파트너 관계를 맺고 모든 인스턴스에 대한 업그레이드 타임라인을 조정합니다.
-* Adobe Campaign 관리자 - 호스팅:호스팅 팀이 업그레이드를 수행합니다.
+* 프로젝트 관리자 - 호스팅: 호스팅 팀은 고객 지원 팀 및 고객과 파트너 관계를 맺고 모든 인스턴스에 대한 업그레이드 타임라인을 조정합니다.
+* Adobe Campaign 관리자 - 호스팅: 호스팅 팀이 업그레이드를 수행합니다.
 * Adobe Campaign 운영자\마케팅 사용자 - 연산자는 개발, 테스트 및 프로덕션 인스턴스에서 테스트를 실행합니다.
 
 ## 빌드 업그레이드를 준비하려면 어떻게 해야 합니까?
@@ -202,7 +204,7 @@ API를 통해 새 레코드를 삽입할 수 있는지 확인합니다.
    * 외부 FDA가 연결된 경우 두 가지 방법으로 데이터가 전송되고 있는지 테스트합니다
    * Adobe Campaign-Adobe Experience Manager, Adobe Campaign-Adobe Analytics과 같은 통합을 사용하는 경우 통합 기능이 이전과 동일하게 작동하는지 테스트합니다
 
-**참조 -**
+**또한 다음을 참조하십시오**
 
 * [빌드 업그레이드 수행](../../production/using/build-upgrade.md)
 * [Campaign Classic 릴리스 노트](../../rn/using/rn-overview.md)

@@ -6,7 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7e8f8488-f3ef-4b64-9981-335d67caf372
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # v6.02의 특정 구성{#specific-configurations-in-v6-02}
+
+![](../../assets/v7-only.svg)
 
 다음 섹션에서는 v6.02에서 마이그레이션할 때 필요한 추가 구성에 대해 자세히 설명합니다. 또한 [일반 구성](../../migration/using/general-configurations.md) 섹션에 자세히 설명되어 있습니다.
 
@@ -37,7 +39,7 @@ Nlserver javascript -instance:[instance_name] -file [installation_path]/datakit/
 
 이러한 웹 응용 프로그램을 수정한 후 v7에서 계속 사용하려면 다른 보안 영역에서 **allowSQLInjection** 옵션을 활성화하고 업그레이드 후 다시 시작해야 합니다. 자세한 내용은 [SQLData](../../migration/using/general-configurations.md#sqldata) 섹션을 참조하십시오.
 
-## 사용자 친화성:홈 페이지 및 탐색 {#user-friendliness--home-page-and-navigation}
+## 사용자 친화성: 홈 페이지 및 탐색 {#user-friendliness--home-page-and-navigation}
 
 >[!IMPORTANT]
 >
@@ -67,7 +69,7 @@ sessionTokenOnly="true"
 
 ![](assets/dashboards2.png)
 
-v6.02에 구성된 다른 개요를 추가하려면 대시보드에서 홈 페이지에 추가해야 합니다.(**[!UICONTROL Administration > Access management > Dashboard]**)
+v6.02에 구성된 다른 개요를 추가하려면 대시보드에서 홈 페이지에 추가해야 합니다. (**[!UICONTROL Administration > Access management > Dashboard]**)
 
 >[!NOTE]
 >

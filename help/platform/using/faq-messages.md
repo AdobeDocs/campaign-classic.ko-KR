@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 메시지 확인, 보내기 및 추적 {#validate-send-track}
+
+![](../../assets/common.svg)
 
 ## 테스트 및 유효성 검사 {#test-and-validate-before-sending}
 
@@ -31,7 +33,7 @@ Adobe에서는 주요 대상으로 보내기 전에 승인 그룹에서 전달�
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-### Adobe Campaign에서 시드 주소를 사용하는 방법 {#how-to-use-seed-addresses-in-adobe-campaign-}
+### Adobe Campaign에서 시드 주소를 사용하는 방법  {#how-to-use-seed-addresses-in-adobe-campaign-}
 
 시드 주소는 정의된 대상 기준과 일치하지 않는 수신자를 타겟팅 하는 데 사용됩니다. 이러한 수신자는 전달 또는 캠페인에서 직접 가져오거나 만들 수 있는 대상에 추가됩니다. 직접 메일 게재의 경우 추출 중에 추가되고 출력 문서에 혼합됩니다.
 
@@ -52,13 +54,13 @@ Adobe에서는 주요 대상으로 보내기 전에 승인 그룹에서 전달�
 
 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제한 조건을 적용하여 다양한 조합을 테스트할 수 있습니다. 따라서 전송된 메시지는 회사 커뮤니케이션 정책을 준수하면서 고객의 요구 사항과 기대치에 가장 적합한 메시지를 제공합니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](../../campaign/using/about-campaign-typologies.md).
+[자세한 내용을 보려면 여기를 클릭하십시오](../../campaign-opt/using/about-campaign-typologies.md).
 
 ## 메시지 보내기 {#send-your-messages}
 
 Adobe Campaign을 사용하여 다양한 채널에서 메시지를 보내는 방법을 배웁니다.
 
-### 전자 메일을 웨이브로 보내려면 어떻게 해야 합니까?? {#how-can-i-send-emails-in-waves-}
+### 전자 메일을 웨이브로 보내려면 어떻게 해야 합니까??  {#how-can-i-send-emails-in-waves-}
 
 게재를 큰 모집단으로 보내기 전에 [웨이브를 구성](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)하여 여러 개의 배치로 메시지를 나누어 부하의 균형을 맞출 수 있습니다.
 
@@ -68,7 +70,7 @@ Adobe Campaign을 사용하여 다양한 채널에서 메시지를 보내는 방
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-### 게재를 예약하는 방법 {#how-to-schedule-a-delivery-}
+### 게재를 예약하는 방법  {#how-to-schedule-a-delivery-}
 
 게재 예약이나 판매 압력을 관리하고 모집단을 지나치게 모집하지 않기 위해 메시지 게재를 연기할 수 있습니다.
 

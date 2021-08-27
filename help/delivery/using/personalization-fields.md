@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 11%
@@ -14,6 +14,8 @@ ht-degree: 11%
 ---
 
 # 개인화 필드{#personalization-fields}
+
+![](../../assets/common.svg)
 
 개인화 필드는 게재된 메시지 콘텐츠의 첫 번째 수준 개인화에 사용됩니다. 주 콘텐츠에 삽입하는 필드는 선택한 데이터 소스의 데이터를 삽입할 위치를 보여줍니다.
 
@@ -29,7 +31,7 @@ ht-degree: 11%
 
 선택한 게재 모드에 따라, 개인화 필드는 두 가지 유형의 데이터 소스에서 제공될 수 있습니다.
 
-* Adobe Campaign 데이터베이스는 데이터 소스입니다. 가장 일반적인 경우입니다. 예를 들어 &#39;수신자 개인화 필드&#39;입니다. 이러한 필드는 표준 필드(일반적으로 다음 필드)인지에 관계없이 수신자 표에 정의된 모든 필드입니다.성, 이름, 주소, 도시, 생년월일 등) 또는 사용자 정의 필드
+* Adobe Campaign 데이터베이스는 데이터 소스입니다. 가장 일반적인 경우입니다. 예를 들어 &#39;수신자 개인화 필드&#39;입니다. 이러한 필드는 표준 필드(일반적으로 다음 필드)인지에 관계없이 수신자 표에 정의된 모든 필드입니다. 성, 이름, 주소, 도시, 생년월일 등) 또는 사용자 정의 필드
 * 외부 파일은 데이터 소스입니다. 이는 외부 파일에 있는 데이터를 사용하여 게재 중에 입력으로 표시되는 파일의 열에 정의된 모든 필드입니다.
 
 >[!NOTE]
@@ -75,7 +77,7 @@ ht-degree: 11%
 
 ## 개인화 최적화 {#optimizing-personalization}
 
-전용 옵션을 사용하여 개인화를 최적화할 수 있습니다.**[!UICONTROL Prepare the personalization data with a workflow]**, 게재 속성의 **[!UICONTROL Analysis]** 탭에서 사용할 수 있습니다. 게재 분석에 대한 자세한 내용은 [이 섹션](steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하십시오.
+전용 옵션을 사용하여 개인화를 최적화할 수 있습니다. **[!UICONTROL Prepare the personalization data with a workflow]**, 게재 속성의 **[!UICONTROL Analysis]** 탭에서 사용할 수 있습니다. 게재 분석에 대한 자세한 내용은 [이 섹션](steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하십시오.
 
 게재 분석 중에 이 옵션은 FDA에 연결된 테이블의 데이터를 포함하여 타겟에 연결된 모든 데이터를 임시 테이블에 저장하는 워크플로우를 자동으로 만들고 실행합니다.
 

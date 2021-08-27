@@ -6,7 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 978e1249-f79b-4f5f-9a94-3bb2510785de
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # v5.11의 특정 구성{#specific-configurations-in-v5-11}
+
+![](../../assets/v7-only.svg)
 
 이 섹션에서는 v5.11에서 마이그레이션할 때 필요한 추가 구성에 대해 자세히 설명합니다. [일반 구성](../../migration/using/general-configurations.md) 섹션에 자세히 설명되어 있는 설정도 구성해야 합니다.
 
@@ -29,8 +31,8 @@ The webApp ids have been modified during the migration process. Please make sure
 
 마이그레이션 중에 경고에 지정된 로그 파일 경로를 **반드시**&#x200B;해야 합니다.
 
-* **파일이 비어 있지 않습니다**.여기에는 마이그레이션 전에 기록된 불일치가 발생하고 여전히 존재하는 경고가 포함되어 있습니다. 존재하지 않는 ID를 참조하는 웹 애플리케이션에서 JavaScript 코드일 수 있습니다. 각 오류를 확인하고 수정해야 합니다.
-* **파일이 비어** 있습니다.즉, Adobe Campaign에서 문제를 감지하지 못했습니다.
+* **파일이 비어 있지 않습니다**. 여기에는 마이그레이션 전에 기록된 불일치가 발생하고 여전히 존재하는 경고가 포함되어 있습니다. 존재하지 않는 ID를 참조하는 웹 애플리케이션에서 JavaScript 코드일 수 있습니다. 각 오류를 확인하고 수정해야 합니다.
+* **파일이 비어** 있습니다. 즉, Adobe Campaign에서 문제를 감지하지 못했습니다.
 
 파일이 비어 있는지 여부에 관계없이, 이러한 ID가 다른 곳에서 구성에 사용되지 않는지 확인해야 합니다(이 경우 구성을 조정).
 
@@ -96,9 +98,9 @@ mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
 
 다음 세 가지 모드를 사용할 수 있습니다.
 
-* **세션 웹 추적**:패키지 **[!UICONTROL Leads]** 가 설치되지 않은 경우 이 옵션이 기본적으로 선택됩니다. 이 옵션은 성능 측면에서 가장 이상적입니다. 이 옵션을 사용하면 추적 로그 크기를 제한할 수 있습니다.
+* **세션 웹 추적**: 패키지 **[!UICONTROL Leads]** 가 설치되지 않은 경우 이 옵션이 기본적으로 선택됩니다. 이 옵션은 성능 측면에서 가장 이상적입니다. 이 옵션을 사용하면 추적 로그 크기를 제한할 수 있습니다.
 * **영구 웹 추적**
-* **익명 웹 추적**:패키지 **[!UICONTROL Leads]** 가 설치된 경우 기본적으로 이 옵션이 선택됩니다. 리소스를 가장 많이 사용하는 옵션입니다. 위와 같이 **sSourceId** 열은 인덱싱되어야 합니다( 추적 테이블 및 **CrmIncomingLead** 테이블).
+* **익명 웹 추적**: 패키지 **[!UICONTROL Leads]** 가 설치된 경우 기본적으로 이 옵션이 선택됩니다. 리소스를 가장 많이 사용하는 옵션입니다. 위와 같이 **sSourceId** 열은 인덱싱되어야 합니다( 추적 테이블 및 **CrmIncomingLead** 테이블).
 
 >[!NOTE]
 >
@@ -110,9 +112,9 @@ mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
 
 탐색 트리의 자동 마이그레이션을 비활성화하는 옵션이 추가되었습니다. 이제 이 작업은 수동 작업입니다. 오래된 폴더는 삭제되지 않으며 새 폴더는 추가되지 않습니다. 이 옵션은 기본 제공 v5 탐색 트리가 너무 많은 변경 사항을 거친 경우에만 사용해야 합니다. 마이그레이션하기 전에 **[!UICONTROL Administration > Options]** 노드에서 옵션을 콘솔에 추가합니다.
 
-* 내부 이름:NlMigration_KeepFolderStructure
-* 데이터 유형:정수
-* 값(텍스트):3
+* 내부 이름: NlMigration_KeepFolderStructure
+* 데이터 유형: 정수
+* 값(텍스트): 1
 
 이 옵션을 사용하는 경우 마이그레이션 후 오래된 폴더를 삭제하고 새 폴더를 추가하고 필요한 모든 검사를 실행해야 합니다.
 

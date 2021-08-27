@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 18%
@@ -14,6 +14,8 @@ ht-degree: 18%
 ---
 
 # 프로덕션 문제 해결{#troubleshooting}
+
+![](../../assets/v7-only.svg)
 
 이 섹션에서는 게재 및 워크플로우 실행, 모니터링, 데이터베이스 유지 관리, 연결 등과 같은 Adobe Campaign 일반 프로덕션 문제와 관련된 문제 해결 절차를 설명합니다.
 

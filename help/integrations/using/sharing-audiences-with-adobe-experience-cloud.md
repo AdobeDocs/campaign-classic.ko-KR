@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Adobe Experience Cloud{#sharing-audiences-with-adobe-experience-cloud}과 대상 공유
+# Adobe Experience Cloud과 대상 공유{#sharing-audiences-with-adobe-experience-cloud}
+
+![](../../assets/common.svg)
 
 >[!CAUTION]
 >
@@ -21,7 +23,7 @@ ht-degree: 4%
 
 Adobe Campaign을 사용하면 Adobe Experience Cloud 솔루션 및 핵심 서비스와 대상자 및 세그먼트를 공유할 수 있습니다. 다음 두 가지 옵션을 사용할 수 있습니다.
 
-1. Adobe Experience Platform 세그먼트 데이터를 Adobe Campaign에 보냅니다. 이 통합을 구현하려면 실시간 고객 데이터 플랫폼을 Campaign(RTCDP)에 연결해야 합니다. [자세한 내용은 이 섹션](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html)을 참조하십시오.
+1. Adobe Experience Platform 세그먼트 데이터를 Adobe Campaign에 보냅니다. 이 통합을 구현하려면 실시간 고객 데이터 플랫폼을 Campaign(RTCDP)에 연결해야 합니다. [이 섹션에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
 
 
 1. **Adobe Campaign** People 핵심 서비스&#x200B;**(** Profiles &amp; Audiences 핵심 서비스&#x200B;**)나 Adobe Audience Manager과 통합합니다.** 그런 다음 다음을 수행할 수 있습니다.
@@ -32,8 +34,8 @@ Adobe Campaign을 사용하면 Adobe Experience Cloud 솔루션 및 핵심 서�
 
 이 통합은 두 가지 유형의 Adobe Experience Cloud ID를 지원합니다.
 
-* **방문자 ID**:이 유형의 식별자는 Adobe Experience Cloud 방문자를 Adobe Campaign 수신자와 조정합니다.
-* **선언된 ID**:이 유형의 식별자는 모든 유형의 데이터를 Adobe Campaign 데이터베이스의 요소와 조정합니다. 이 키는 Adobe Campaign에 사전 정의된 조정 키로 표시됩니다.
+* **방문자 ID**: 이 유형의 식별자는 Adobe Experience Cloud 방문자를 Adobe Campaign 수신자와 조정합니다.
+* **선언된 ID**: 이 유형의 식별자는 모든 유형의 데이터를 Adobe Campaign 데이터베이스의 요소와 조정합니다. 이 키는 Adobe Campaign에 사전 정의된 조정 키로 표시됩니다.
 
    >[!NOTE]
    >

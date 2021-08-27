@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 콘텐츠 템플릿 사용{#using-a-content-template}
+
+![](../../assets/common.svg)
 
 ## 콘텐츠 템플릿 기본 정보 {#about-content-templates}
 
@@ -31,7 +33,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-자세한 내용은 전체 구현 예를 참조하십시오.[게재 마법사에서 컨텐츠 만들기](use-case--creating-content-management.md#creating-content-in-the-delivery-wizard)
+자세한 내용은 전체 구현 예를 참조하십시오. [게재 마법사에서 컨텐츠 만들기](use-case--creating-content-management.md#creating-content-in-the-delivery-wizard)
 
 ## 컨텐츠 인스턴스 만들기 {#creating-a-content-instance}
 

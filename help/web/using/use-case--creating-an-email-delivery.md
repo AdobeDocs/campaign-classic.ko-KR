@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 사용 사례: 이메일 게재 만들기{#use-case-creating-an-email-delivery}
+
+![](../../assets/common.svg)
 
 이 사용 사례에서는 Adobe Campaign DCE(디지털 콘텐츠 편집기)를 사용하여 이메일 배달을 디자인하는 단계를 배웁니다.
 
@@ -38,7 +40,7 @@ Adobe의 최종 목표는 다음 사항을 포함하는 개인화된 템플릿�
 
 ## 2단계 - 템플릿 선택 {#step-2---selecting-a-template}
 
-게재 템플릿을 선택한 다음 게재의 이름을 지정합니다. 이 이름은 수신자가 아니라 Adobe Campaign 콘솔 사용자만 볼 수 있지만 게재 목록에는 이 제목이 표시됩니다. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
+게재 템플릿을 선택한 다음 게재의 이름을 지정합니다. 이 이름은 수신자가 아니라 Adobe Campaign 콘솔 사용자만 볼 수 있지만 게재 목록에는 이 제목이 표시됩니다. **[!UICONTROL Continue]**&#x200B;를 클릭합니다.
 
 ![](assets/dce_delivery_model.png)
 

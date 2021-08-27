@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 2%
@@ -15,23 +15,25 @@ ht-degree: 2%
 
 # 데이터 업데이트{#update-data}
 
+![](../../assets/common.svg)
+
 **데이터 업데이트** 유형 활동은 데이터베이스의 필드를 대량 업데이트합니다.
 
 ## 작업 유형 {#operation-type}
 
 **[!UICONTROL Operation type]** 필드를 사용하면 데이터베이스의 데이터에 대해 수행할 프로세스를 선택할 수 있습니다.
 
-* **[!UICONTROL Insert or update]**:데이터를 추가하거나 이미 추가한 경우 업데이트합니다.
-* **[!UICONTROL Insert]**:데이터만 추가합니다.
-* **[!UICONTROL Update]**:데이터만 업데이트합니다.
-* **[!UICONTROL Update and merge collections]**:데이터를 업데이트하고 기본 레코드를 선택한 다음, 이 기본 레코드의 중복에 연결된 요소를 연결합니다. 연결된 고아 요소를 만들지 않고 중복을 삭제할 수 있습니다.
+* **[!UICONTROL Insert or update]**: 데이터를 추가하거나 이미 추가한 경우 업데이트합니다.
+* **[!UICONTROL Insert]**: 데이터만 추가합니다.
+* **[!UICONTROL Update]**: 데이터만 업데이트합니다.
+* **[!UICONTROL Update and merge collections]**: 데이터를 업데이트하고 기본 레코드를 선택한 다음, 이 기본 레코드의 중복에 연결된 요소를 연결합니다. 연결된 고아 요소를 만들지 않고 중복을 삭제할 수 있습니다.
 * **[!UICONTROL Delete]**: 데이터를 삭제합니다.
 
 ![](assets/s_advuser_update_data_1.png)
 
 **[!UICONTROL Batch size]** 필드를 사용하면 업데이트할 인바운드 전환 요소의 수를 선택할 수 있습니다. 예를 들어, 500을 지정하는 경우, 처리된 처음 500개의 레코드가 업데이트됩니다.
 
-## 레코드 식별 {#record-identification}
+## 기록 식별 {#record-identification}
 
 데이터베이스의 레코드를 식별하는 방법을 지정합니다.
 
@@ -114,9 +116,9 @@ Adobe Campaign에서 업데이트할 필드를 자동으로 식별하려면 **[!
 
 정의된 규칙이 적용될 수 있는 경우 보조 레코드의 데이터는 기본 레코드와 연결됩니다. 선택한 업데이트 유형에 따라 보조 레코드를 삭제할 수 있습니다.
 
-## 예:데이터 보강 후 업데이트 {#example--update-data-following-an-enrichment}
+## 예: 데이터 보강 후 데이터 업데이트 {#example--update-data-following-an-enrichment}
 
-[2단계:압축 목록을 만드는 방법에 대해 자세히 설명하는 사용 사례의 &#39;구매&#39; 테이블](../../workflow/using/creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) 섹션에 보강된 데이터를 작성하면 보강 활동 후 데이터 업데이트의 예를 사용할 수 있습니다.
+[2단계: 압축 목록을 만드는 방법에 대해 자세히 설명하는 사용 사례의 &#39;구매&#39; 테이블](creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) 섹션에 보강된 데이터를 작성하면 보강 활동 후 데이터 업데이트의 예를 사용할 수 있습니다.
 
 ## 입력 매개 변수 {#input-parameters}
 

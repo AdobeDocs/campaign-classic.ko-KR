@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 4%
 
 ---
 
 # 연결 실패{#failure-to-connect}
+
+![](../../assets/v7-only.svg)
 
 연결 문제의 이유는 여러 가지일 수 있으며 다양한 컨텍스트에 따라 다릅니다.
 
@@ -39,19 +41,19 @@ ht-degree: 4%
 </tr>
 <tr> 
 <td>웹 서버가 응답합니까?</td> 
-<td>웹 브라우저를 사용하여 Adobe Campaign 서버 액세스 URL에 연결합니다.<b>http(s):// &lt;urlserver&gt;</b> 응답하지 않으면 웹 서버가 시스템에서 중지됩니다. 서비스를 다시 시작하려면 호스트 회사의 시스템 관리자에게 문의하십시오.</td>
+<td>웹 브라우저를 사용하여 Adobe Campaign 서버 액세스 URL에 연결합니다. <b>http(s):// &lt;urlserver&gt;</b> 응답하지 않으면 웹 서버가 시스템에서 중지됩니다. 서비스를 다시 시작하려면 호스트 회사의 시스템 관리자에게 문의하십시오.</td>
 </tr>
 <tr> 
 <td>Adobe Campaign이 올바르게 통합되었습니까?</td> 
-<td>에 로그인합니다.<b>http(s)://&lt;urlserver&gt;/r/test</b> URL 서버는 다음 유형의 메시지를 반환해야 합니다.&lt;redirect status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='&lt;hostname&gt;' localHost='&lt;server&gt;'/&gt;
+<td>에 로그인합니다. <b>http(s)://&lt;urlserver&gt;/r/test</b> URL 서버는 다음 유형의 메시지를 반환해야 합니다. &lt;redirect status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='&lt;hostname&gt;' localHost='&lt;server&gt;'/&gt;
 이 결과를 얻지 못한 경우 통합이 고려되는 웹 서버 구성을 확인하십시오.</td>
 </tr>
 <tr> 
-<td>다음 URL에 연결합니다.<b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
+<td>다음 URL에 연결합니다. <b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
 <td>Tomcat Java 오류를 가져오는 경우 JAVA 통합이 올바르게 수행되었는지 확인합니다. 이 파일은 [응용 프로그램 경로]/nl6/customer.sh 파일에 통합됩니다</td>
 </tr>
 <tr> 
-<td>다음 URL에 연결합니다.<b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
+<td>다음 URL에 연결합니다. <b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
 <td>빈 페이지가 표시되면 Adobe Campaign 웹 모듈이 시작되었는지 확인합니다. nlserver pdump 명령은 DD/MM/YYYY의 Adobe Campaign Classic(7.X YY.R 빌드 XXX@SHA1)용 응용 프로그램 서버를 반환해야 합니다. 그렇지 않으면 nlserver start web 명령을 사용하여 모듈을 다시 시작합니다</td>
 </tr>
 <tr>
@@ -60,7 +62,7 @@ ht-degree: 4%
 </tr>
 <tr>
 <td>nlserver pdump 명령은 <b>작업을 반환하지 않습니다.</b></td>
-<td>전체 Adobe Campaign 애플리케이션을 다시 시작해야 합니다. 이렇게 하려면 다음 명령을 사용합니다.<b>nlserver watchdog -svc -noconsole</b></td>
+<td>전체 Adobe Campaign 애플리케이션을 다시 시작해야 합니다. 이렇게 하려면 다음 명령을 사용합니다. <b>nlserver watchdog -svc -noconsole</b></td>
 </tr>
 </tbody> 
 </table>

@@ -2,22 +2,24 @@
 product: campaign
 title: Adobe Campaign 작업 영역
 description: Campaign 작업 공간을 사용하고 사용자 지정하는 방법을 알아봅니다
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 4%
+source-wordcount: '825'
+ht-degree: 6%
 
 ---
 
 # Adobe Campaign 작업 영역{#adobe-campaign-workspace}
 
+![](../../assets/common.svg)
+
 ## Adobe Campaign 인터페이스 살펴보기 {#about-adobe-campaign-interface}
 
-데이터베이스에 연결되면 대시보드인 Adobe Campaign 홈 페이지에 액세스합니다.확장은 설치 및 일반 플랫폼 구성에 따라 기능에 액세스할 수 있는 링크와 바로 가기로 구성되어 있습니다.
+데이터베이스에 연결되면 대시보드인 Adobe Campaign 홈 페이지에 액세스합니다. 확장은 설치 및 일반 플랫폼 구성에 따라 기능에 액세스할 수 있는 링크와 바로 가기로 구성되어 있습니다.
 
 홈 페이지의 중앙 섹션에서 링크를 사용하여 Campaign 온라인 설명서 포털, 포럼 및 지원 웹 사이트에 액세스할 수 있습니다.
 
@@ -71,7 +73,7 @@ Adobe Campaign Classic 인스턴스에서 선택한 언어는 날짜 및 시간 
 
 ### 페이지 찾아보기 {#browsing-pages}
 
-플랫폼의 다양한 기능은 핵심 기능으로 세분화됩니다.인터페이스 상단 섹션에 표시되는 링크를 사용하여 액세스합니다.
+플랫폼의 다양한 기능은 핵심 기능으로 세분화됩니다. 인터페이스 상단 섹션에 표시되는 링크를 사용하여 액세스합니다.
 
 ![](assets/overview_home.png)
 
@@ -83,7 +85,7 @@ Adobe Campaign Classic 인스턴스에서 선택한 언어는 날짜 및 시간 
 
 ![](assets/recipient_list_overview.png)
 
-### 탭 {#using-tabs} 사용
+### 탭 사용 {#using-tabs}
 
 * 핵심 기능 또는 링크를 클릭하면 관련 페이지가 현재 페이지를 대체합니다. 이전 페이지로 돌아가려면 도구 모음에서 **[!UICONTROL Back]** 버튼을 클릭합니다. 홈 페이지로 돌아가려면 **[!UICONTROL Home]** 단추를 클릭합니다.
 
@@ -93,7 +95,7 @@ Adobe Campaign Classic 인스턴스에서 선택한 언어는 날짜 및 시간 
 
    ![](assets/d_ncs_user_interface_tabs.png)
 
-### 요소 {#creating-an-element} 만들기
+### 요소 만들기 {#creating-an-element}
 
 각 핵심 기능 섹션에서 사용 가능한 요소 간을 찾아볼 수 있습니다. 이렇게 하려면 **[!UICONTROL Browsing]** 섹션의 바로 가기를 사용합니다. **[!UICONTROL Other choices]** 링크를 사용하면 환경에 관계없이 다른 모든 페이지에 액세스할 수 있습니다.
 
@@ -110,7 +112,7 @@ Adobe Campaign Classic 인스턴스에서 선택한 언어는 날짜 및 시간 
 
 Adobe Campaign Classic 인스턴스의 언어는 날짜 및 시간 형식에 영향을 줍니다.
 
-Campaign을 설치할 때 언어가 선택되고 나중에 변경할 수 없습니다. 다음을 선택할 수 있습니다.영어(미국), 영어(EN), 프랑스어, 독일어 또는 일본어 자세한 정보는 이 [페이지](../../installation/using/creating-an-instance-and-logging-on.md)를 참조하십시오.
+Campaign을 설치할 때 언어가 선택되고 나중에 변경할 수 없습니다. 다음을 선택할 수 있습니다. 영어(미국), 영어(EN), 프랑스어, 독일어 또는 일본어 자세한 정보는 이 [페이지](../../installation/using/creating-an-instance-and-logging-on.md)를 참조하십시오.
 
 미국 영어 및 영국 영어 간의 주요 차이점은 다음과 같습니다.
 
@@ -130,24 +132,24 @@ Campaign을 설치할 때 언어가 선택되고 나중에 변경할 수 없습�
   </tr> 
   <tr> 
    <td> 짧은 날짜<br /> </td> 
-   <td> <p>%2M/%2D/%4Y</p><p><strong>ex:09/25/2018</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y</p><p><strong>ex:25/09/2018</strong></p> </td> 
+   <td> <p>%2M/%2D/%4Y</p><p><strong>ex: 09/25/2018</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y</p><p><strong>ex: 25/09/2018</strong></p> </td> 
   </tr> 
   <tr> 
    <td> 시간<br />이 있는 짧은 날짜 </td> 
-   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>ex:09/25/2018 10:47:25 오후</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex:25/09/2018 22:47:25</strong></p> </td> 
+   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>ex: 09/25/2018 10:47:오후 25</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex: 25/09/2018 22:47:25</strong></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### 열거형 {#add-values-in-an-enumeration}에 값을 추가합니다.
+### 열거형에 값 추가 {#add-values-in-an-enumeration}
 
 드롭다운 목록과 함께 입력 필드를 사용하여 열거형 값을 입력할 수 있습니다. 열거형 값은 저장된 다음 드롭다운 목록에서 옵션으로 제공됩니다. 예를 들어 수신자 프로필의 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL City]** 필드에서 London을 입력할 수 있습니다. Enter 키를 눌러 이 값을 확인하면 필드에 연결된 열거에 대해 이 값을 저장할 것인지 묻는 메시지가 표시됩니다.
 
 ![](assets/s_ncs_user_wizard_email_bat_substitute_email.png)
 
-**[!UICONTROL Yes]** 을 클릭하면 관련 필드의 콤보 상자에서 이 값을 사용할 수 있습니다(이 경우:**[!UICONTROL London]**)
+**[!UICONTROL Yes]** 을 클릭하면 관련 필드의 콤보 상자에서 이 값을 사용할 수 있습니다(이 경우: **[!UICONTROL London]**)
 
 >[!NOTE]
 >

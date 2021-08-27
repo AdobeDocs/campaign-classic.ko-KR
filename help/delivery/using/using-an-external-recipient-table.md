@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 18%
@@ -14,6 +14,8 @@ ht-degree: 18%
 ---
 
 # 외부 수신자 테이블 사용{#using-an-external-recipient-table}
+
+![](../../assets/common.svg)
 
 게재 테이블이 외부 테이블인 경우 추가 구성을 수행해야 합니다. **[!UICONTROL nms:seedmember]** 스키마를 확장해야 합니다. 시드 주소에 아래와 같이 적절한 필드를 정의하기 위한 탭이 추가됩니다.
 

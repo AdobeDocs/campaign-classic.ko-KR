@@ -6,24 +6,26 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1612'
 ht-degree: 6%
 
 ---
 
 # 워크플로우 모범 사례{#workflow-best-practices}
 
+![](../../assets/common.svg)
+
 ## 실행 및 성능 {#execution-and-performance}
 
 다음은 워크플로우에 적용하는 우수 사례를 비롯하여 캠페인 성과 최적화에 대한 일반 지침입니다.
 
-워크플로우 실행과 관련된 문제 해결 지침도 [이 섹션](../../production/using/workflow-execution.md)에서도 사용할 수 있습니다.
+워크플로우 실행과 관련된 문제 해결 지침은 [Campaign Classic v7 프로덕션 안내서](../../production/using/workflow-execution.md)에서도 확인할 수 있습니다.
 
 ### 로그 {#logs}
 
-JavaScript 메서드 **[!UICONTROL logInfo()]**&#x200B;는 워크플로우를 디버깅하는 데 유용한 솔루션입니다. 유용하지만, 특히 자주 실행되는 활동에 신중하게 사용해야 합니다.로그를 오버로드하고 로그 테이블의 크기를 크게 늘릴 수 있습니다. 그러나 **[!UICONTROL logInfo()]** 이상이 필요할 수도 있습니다.
+JavaScript 메서드 **[!UICONTROL logInfo()]**&#x200B;는 워크플로우를 디버깅하는 데 유용한 솔루션입니다. 유용하지만, 특히 자주 실행되는 활동에 신중하게 사용해야 합니다. 로그를 오버로드하고 로그 테이블의 크기를 크게 늘릴 수 있습니다. 그러나 **[!UICONTROL logInfo()]** 이상이 필요할 수도 있습니다.
 
 다음과 같은 두 가지 추가 솔루션을 사용할 수 있습니다.
 
@@ -41,8 +43,8 @@ JavaScript 메서드 **[!UICONTROL logInfo()]**&#x200B;는 워크플로우를 �
 
    워크플로우 속성의 **[!UICONTROL Execution]** 탭에서 사용할 수 있는 이 옵션은 다른 활동에서 도구에서 생성한 모든 SQL 쿼리를 기록합니다. 이 방법은 플랫폼에서 실제로 실행되는 항목을 확인하는 좋은 방법입니다. 그러나 이 옵션은 개발 중에만 일시적으로 사용해야 하며 프로덕션에서 활성화되지 않습니다.
 
-더 이상 필요하지 않으면 로그를 삭제합니다. 워크플로우 내역은 자동으로 삭제되지 않습니다.모든 메시지는 기본적으로 유지됩니다. 작업 기록은 **[!UICONTROL File > Actions]** 메뉴를 통해 또는 목록 위의 도구 모음에 있는 작업 단추를 클릭하여 제거할 수 있습니다. 삭제 내역을 선택합니다.
-로그를 삭제하는 방법에 대해 알아보려면 이 [설명서](../../workflow/using/starting-a-workflow.md)를 참조하십시오.
+더 이상 필요하지 않으면 로그를 삭제합니다. 워크플로우 내역은 자동으로 삭제되지 않습니다. 모든 메시지는 기본적으로 유지됩니다. 작업 기록은 **[!UICONTROL File > Actions]** 메뉴를 통해 또는 목록 위의 도구 모음에 있는 작업 단추를 클릭하여 제거할 수 있습니다. 삭제 내역을 선택합니다.
+로그를 삭제하는 방법에 대해 알아보려면 이 [설명서](starting-a-workflow.md)를 참조하십시오.
 
 ### 워크플로우 계획 {#workflow-planning}
 
@@ -68,7 +70,7 @@ JavaScript 메서드 **[!UICONTROL logInfo()]**&#x200B;는 워크플로우를 �
 
 가장 위험한 경우에는 무조건 멈추기만 하세요. 이 작업은 정기적으로 사용하지 마십시오. 워크플로우에서 데이터베이스에 대해 생성한 연결에 대해 지우기 종료를 수행하지 않으면 성능에 영향을 줍니다.
 
-### 엔진 옵션 {#execute-in-the-engine-option}에서 실행
+### 엔진 옵션에서 실행 {#execute-in-the-engine-option}
 
 **[!UICONTROL Workflow properties]** 창에서 **[!UICONTROL Execute in the engine]** 옵션을 선택하지 마십시오. 이 옵션이 활성화되면 워크플로우가 우선권을 가지며 다른 모든 워크플로우는 이 옵션이 완료될 때까지 워크플로우 엔진에 의해 중지됩니다.
 
@@ -86,7 +88,7 @@ Adobe은 전용 폴더에서 워크플로우를 만들 것을 권장합니다.
 
 예상과 다르게 수행될 경우 쉽게 찾고 문제를 해결하기 위해 워크플로우에 적절한 이름과 레이블을 지정하는 것을 권장합니다. 워크플로우의 설명 필드를 작성하여 운영자가 쉽게 이해할 수 있도록 수행할 프로세스를 요약합니다.
 
-워크플로우가 여러 워크플로우를 포함하는 프로세스의 일부인 경우 레이블을 입력할 때 명시적일 수 있습니다.숫자를 사용하는 것은 워크플로우(레이블별)를 정렬하는 좋은 방법입니다.
+워크플로우가 여러 워크플로우를 포함하는 프로세스의 일부인 경우 레이블을 입력할 때 명시적일 수 있습니다. 숫자를 사용하는 것은 워크플로우(레이블별)를 정렬하는 좋은 방법입니다.
 
 예제:
 
@@ -116,19 +118,19 @@ Adobe은 전용 폴더에서 워크플로우를 만들 것을 권장합니다.
 
 워크플로 속성에서 기본 **[!UICONTROL Workflow supervisors]** 또는 사용자 지정 그룹 중 하나를 선택하여 감독자 그룹을 선택합니다. 전자 메일이 설정된 상태에서 하나 이상의 연산자가 이 그룹에 속하는지 확인하십시오.
 
-워크플로우 작성을 시작하기 전에 워크플로우 관리자를 정의해야 합니다. 오류 발생 시 이메일로 알려 줍니다. 자세한 내용은 [오류 관리](../../workflow/using/monitoring-workflow-execution.md#managing-errors)를 참조하십시오.
+워크플로우 작성을 시작하기 전에 워크플로우 관리자를 정의해야 합니다. 오류 발생 시 이메일로 알려 줍니다. 자세한 내용은 [오류 관리](monitoring-workflow-execution.md#managing-errors)를 참조하십시오.
 
-활성 워크플로우의 전체 상태를 보려면 **[!UICONTROL Monitoring]** 탭을 정기적으로 확인하십시오. 자세한 내용은 [인스턴스 감독](../../workflow/using/monitoring-workflow-execution.md#instance-supervision)을 참조하십시오.
+활성 워크플로우의 전체 상태를 보려면 **[!UICONTROL Monitoring]** 탭을 정기적으로 확인하십시오. 자세한 내용은 [인스턴스 감독](monitoring-workflow-execution.md#instance-supervision)을 참조하십시오.
 
-Workflow HeatMap을 사용하면 Adobe Campaign 플랫폼 관리자가 인스턴스의 로드를 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다. 자세한 내용은 [워크플로우 모니터링](../../workflow/using/heatmap.md)을 참조하십시오.
+Workflow HeatMap을 사용하면 Adobe Campaign 플랫폼 관리자가 인스턴스의 로드를 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다. 자세한 내용은 [워크플로우 모니터링](heatmap.md)을 참조하십시오.
 
 ## 활동 사용 {#using-activities}
 
 >[!CAUTION]
 >
->동일한 워크플로우 내에서 활동을 복사하고 붙여넣을 수 있습니다. 그러나 다른 워크플로우에서는 붙여넣기 활동을 복사하지 않는 것이 좋습니다. 게재 및 스케줄러와 같은 활동에 첨부된 일부 설정은 대상 워크플로우를 실행하는 동안 충돌과 오류가 발생할 수 있습니다. 대신 **Duplicate** workflows를 사용하는 것이 좋습니다. 자세한 내용은 [워크플로우 복제](../../workflow/using/building-a-workflow.md#duplicating-workflows)를 참조하십시오.
+>동일한 워크플로우 내에서 활동을 복사하고 붙여넣을 수 있습니다. 그러나 다른 워크플로우에서는 붙여넣기 활동을 복사하지 않는 것이 좋습니다. 게재 및 스케줄러와 같은 활동에 첨부된 일부 설정은 대상 워크플로우를 실행하는 동안 충돌과 오류가 발생할 수 있습니다. 대신 **Duplicate** workflows를 사용하는 것이 좋습니다. 자세한 내용은 [워크플로우 복제](building-a-workflow.md#duplicating-workflows)를 참조하십시오.
 
-### 활동 이름 {#name-of-the-activity}
+### 활동의 이름 {#name-of-the-activity}
 
 워크플로우를 개발하는 동안 모든 활동에도 모든 Adobe Campaign 개체와 같은 이름이 있습니다. 도구에서 이름을 생성하는 동안 구성할 때 명시적인 이름으로 이름을 바꾸는 것이 좋습니다. 나중에 수행하면 다른 이전 활동의 이름을 사용하는 활동으로 워크플로우가 중단될 수 있습니다. 따라서 나중에 이름을 갱신하는 것은 어려운 일이 될 것이다.
 
@@ -137,17 +139,17 @@ Workflow HeatMap을 사용하면 Adobe Campaign 플랫폼 관리자가 인스턴
 ### 첫 번째 및 마지막 활동 {#first-and-last-activities}
 
 * 항상 **[!UICONTROL Start]** 활동 또는 **[!UICONTROL Scheduler]** 활동으로 워크플로우를 시작합니다. 적절한 경우 **[!UICONTROL External signal]** 활동을 사용할 수도 있습니다.
-* 워크플로우를 빌드할 때는 분기당 하나의 **[!UICONTROL Scheduler]** 활동만 사용하십시오. 워크플로우의 동일한 분기에 여러 개의 스케줄러(서로 연결됨)가 있는 경우 실행할 작업 수가 기하급수적으로 증가하여 데이터베이스가 상당히 과부하 됩니다. 이 규칙은 **[!UICONTROL Scheduling & History]** 탭이 있는 모든 활동에도 적용됩니다. [예약](../../workflow/using/scheduler.md)에 대해 자세히 알아보십시오.
+* 워크플로우를 빌드할 때는 분기당 하나의 **[!UICONTROL Scheduler]** 활동만 사용하십시오. 워크플로우의 동일한 분기에 여러 개의 스케줄러(서로 연결됨)가 있는 경우 실행할 작업 수가 기하급수적으로 증가하여 데이터베이스가 상당히 과부하 됩니다. 이 규칙은 **[!UICONTROL Scheduling & History]** 탭이 있는 모든 활동에도 적용됩니다. [예약](scheduler.md)에 대해 자세히 알아보십시오.
 
    ![](assets/wf-scheduler.png)
 
-* 모든 워크플로우에 **[!UICONTROL End]** 활동을 사용합니다. 이를 통해 Adobe Campaign은 워크플로우 내의 계산에 사용되는 임시 공간을 확보할 수 있습니다. 자세한 내용은 다음을 참조하십시오.[시작 및 종료](../../workflow/using/start-and-end.md).
+* 모든 워크플로우에 **[!UICONTROL End]** 활동을 사용합니다. 이를 통해 Adobe Campaign은 워크플로우 내의 계산에 사용되는 임시 공간을 확보할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [시작 및 종료](start-and-end.md).
 
 ### 활동 내의 Javascript {#javascript-within-an-activity}
 
 워크플로우 활동을 초기화할 때 JavaScript를 추가할 수 있습니다. 이 작업은 활동의 **[!UICONTROL Advanced]** 탭에서 수행할 수 있습니다.
 
-워크플로우를 보다 쉽게 찾기 위해 활동 레이블의 시작 및 끝에 이중 대시를 다음과 같이 사용하는 것이 좋습니다.— 내 레이블 —
+워크플로우를 보다 쉽게 찾기 위해 활동 레이블의 시작 및 끝에 이중 대시를 다음과 같이 사용하는 것이 좋습니다. — 내 레이블 —
 
 ### 신호 {#signal}
 

@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 1%
@@ -15,15 +15,17 @@ ht-degree: 1%
 
 # 운영 원칙{#operating-principle}
 
+![](../../assets/v7-only.svg)
+
 기술적으로 Adobe Campaign 플랫폼은 여러 모듈을 기반으로 합니다.
 
 많은 Adobe Campaign 모듈이 있습니다. 일부는 지속적으로 작동하지만 일부는 관리 작업(예: 데이터베이스 연결 구성)을 수행하거나 반복 작업(예: 추적 정보 통합)을 실행하기 위해 가끔 시작됩니다.
 
 다음과 같은 세 가지 유형의 Adobe Campaign 모듈이 있습니다.
 
-* 다중 인스턴스 모듈:모든 인스턴스에 대해 단일 프로세스가 실행됩니다. 이는 다음 모듈에 적용됩니다.**web**, **syslogd**, **trackinglogd** 및 **watchdog** (**config-default.xml** 파일의 활동)
-* 모노 인스턴스 모듈:하나의 프로세스는 인스턴스당 실행됩니다. 이는 다음 모듈에 적용됩니다.**mta**, **wfserver**, **inMail**, **sms** 및 **stat**(**config-`<instance>`.xml** 파일의 활동)
-* 유틸리티 모듈:이러한 모듈은 가끔 또는 반복적인 작업을 수행하기 위해 실행되는 모듈입니다(**cleanup**, **config**, 추적 로그 다운로드 등).
+* 다중 인스턴스 모듈: 모든 인스턴스에 대해 단일 프로세스가 실행됩니다. 이는 다음 모듈에 적용됩니다. **web**, **syslogd**, **trackinglogd** 및 **watchdog** (**config-default.xml** 파일의 활동)
+* 모노 인스턴스 모듈: 하나의 프로세스는 인스턴스당 실행됩니다. 이는 다음 모듈에 적용됩니다. **mta**, **wfserver**, **inMail**, **sms** 및 **stat**(**config-`<instance>`.xml** 파일의 활동)
+* 유틸리티 모듈: 이러한 모듈은 가끔 또는 반복적인 작업을 수행하기 위해 실행되는 모듈입니다(**cleanup**, **config**, 추적 로그 다운로드 등).
 
 모듈 관리는 설치 폴더의 **bin** 디렉토리에 설치된 명령줄 도구 **nlserver**&#x200B;를 사용하여 수행됩니다.
 
@@ -39,12 +41,12 @@ ht-degree: 1%
 |---|---|
 | aliasCleaning | 열거형 값 표준화 |
 | 과금 | 시스템 활동 보고서를 billing@neolane.net에 보내는 중 |
-| cleanup | 데이터베이스 정리:데이터베이스에서 오래된 데이터를 삭제하고 데이터베이스 엔진 최적기에서 사용하는 통계 업데이트를 실행합니다. |
+| cleanup | 데이터베이스 정리: 데이터베이스에서 오래된 데이터를 삭제하고 데이터베이스 엔진 최적기에서 사용하는 통계 업데이트를 실행합니다. |
 | config | 서버 구성 수정 |
 | copybase | 데이터베이스 복사 |
-| 내보내기 | 명령줄에서 내보내기:명령줄에서 Adobe Campaign 클라이언트 콘솔에서 만든 내보내기 모델을 보낼 수 있습니다. |
+| 내보내기 | 명령줄에서 내보내기: 명령줄에서 Adobe Campaign 클라이언트 콘솔에서 만든 내보내기 모델을 보낼 수 있습니다. |
 | fileconvert | 설정된 크기 파일 변환 |
-| 가져오기 | 명령줄에서 가져오기:Adobe Campaign 클라이언트 콘솔에서 만든 가져오기 모델을 명령줄에서 보낼 수 있습니다. |
+| 가져오기 | 명령줄에서 가져오기: Adobe Campaign 클라이언트 콘솔에서 만든 가져오기 모델을 명령줄에서 보낼 수 있습니다. |
 | inMail | 인바운드 메일 분석기 |
 | 설치 프로그램 | 고객 설치 파일의 가용성 |
 | javascript | SOAP API에 대한 액세스를 사용하여 JavaScript 스크립트 실행. |
@@ -74,9 +76,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->마지막 모듈이 하나 있습니다.애플리케이션 서버에 연결된 추적 및 릴레이 모듈은 성능을 위해 기본 메커니즘을 통해 동적 라이브러리를 통해 Apache 또는 IIS 웹 서버로 통합됩니다. 이 모듈을 시작하거나 관리할 수 있는 Adobe Campaign 명령이 없습니다. 따라서 웹 서버 자체의 명령을 사용해야 합니다.
+>마지막 모듈이 하나 있습니다. 애플리케이션 서버에 연결된 추적 및 릴레이 모듈은 성능을 위해 기본 메커니즘을 통해 동적 라이브러리를 통해 Apache 또는 IIS 웹 서버로 통합됩니다. 이 모듈을 시작하거나 관리할 수 있는 Adobe Campaign 명령이 없습니다. 따라서 웹 서버 자체의 명령을 사용해야 합니다.
 
-모듈 사용 및 해당 매개 변수의 구문은 다음 명령을 사용하여 표시됩니다.**nlserver `[module]` -?**
+모듈 사용 및 해당 매개 변수의 구문은 다음 명령을 사용하여 표시됩니다. **nlserver `[module]` -?**
 
 예제:
 

@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 399e9468-bf70-425d-af0b-72c29636b513
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 10%
@@ -14,6 +14,8 @@ ht-degree: 10%
 ---
 
 # 사전 정의된 필터 만들기{#creating-predefined-filters}
+
+![](../../assets/v7-only.svg)
 
 사전 정의된 필터를 사용하여 오퍼를 만드는 동안 쉽게 다시 사용할 수 있는 대상 모집단에 대한 자격 규칙을 만들 수 있습니다. 각 환경에 따라 다르며 오퍼 매개 변수를 고려합니다.
 
@@ -23,7 +25,7 @@ ht-degree: 10%
 
    ![](assets/offer_filter_create_005.png)
 
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
    ![](assets/offer_filter_create_001.png)
 

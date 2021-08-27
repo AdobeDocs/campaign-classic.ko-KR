@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 4%
@@ -15,11 +15,13 @@ ht-degree: 4%
 
 # 애플리케이션 개체{#application-objects}
 
+![](../../assets/v7-only.svg)
+
 내장된 개체를 모니터링해야 하며 너무 많이 성장하는 것을 방지하는 것이 중요합니다.
 
 ## ID 시퀀스 {#sequence-of-ids}
 
-Adobe Campaign에서는 그에 따라 소비해야 하는 ID 시퀀스를 사용합니다.**xtkNewId**. 시퀀스가 매우 빠르게 소비되는 경우(예: 하루에 10만 건), 하루에 수백만 개의 이메일을 전송하는 것과 같은 비즈니스 요구 사항과 일관되는지 확인해야 합니다. 특정 테이블에 대한 전용 시퀀스를 정의할 수 있습니다. 워크플로우를 설정하여 ID 사용을 모니터링할 수 있습니다.
+Adobe Campaign에서는 그에 따라 소비해야 하는 ID 시퀀스를 사용합니다. **xtkNewId**. 시퀀스가 매우 빠르게 소비되는 경우(예: 하루에 10만 건), 하루에 수백만 개의 이메일을 전송하는 것과 같은 비즈니스 요구 사항과 일관되는지 확인해야 합니다. 특정 테이블에 대한 전용 시퀀스를 정의할 수 있습니다. 워크플로우를 설정하여 ID 사용을 모니터링할 수 있습니다.
 
 20억(214만748만3648개)이 넘으면 다시 0으로 돌아간다. 이를 방지하고 문제를 만들어야 하므로 이 시퀀스를 모니터링해야 합니다.
 
@@ -53,6 +55,6 @@ Adobe Campaign에서는 그에 따라 소비해야 하는 ID 시퀀스를 사용
 
 데이터를 Adobe Campaign으로 가져오는 모든 [워크플로우](../../workflow/using/data-life-cycle.md#work-table)로 인해 데이터베이스 크기가 증가합니다.
 
-정리 또는 제거 워크플로우가 실행 중인지 확인하고 레코드를 효과적으로 삭제합니다. 모든 트랜잭션 데이터 및 로그를 제거해야 합니다. 정리 작업은 표준 테이블만 삭제합니다.추적 및 광범위한 로그. 특정 워크플로우에 의해 특정 테이블을 제거해야 합니다. [이 섹션](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs)을 참조하십시오.
+정리 또는 제거 워크플로우가 실행 중인지 확인하고 레코드를 효과적으로 삭제합니다. 모든 트랜잭션 데이터 및 로그를 제거해야 합니다. 정리 작업은 표준 테이블만 삭제합니다. 추적 및 광범위한 로그. 특정 워크플로우에 의해 특정 테이블을 제거해야 합니다. [이 섹션](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs)을 참조하십시오.
 
 레코드의 가장 오래된 작성 날짜를 확인하여 오래된 트랜잭션 데이터를 확인하십시오.

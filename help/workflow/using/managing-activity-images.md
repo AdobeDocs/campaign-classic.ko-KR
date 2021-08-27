@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 활동 이미지 관리{#managing-activity-images}
+
+![](../../assets/common.svg)
 
 다양한 워크플로우의 다이어그램에 사용된 이미지를 변경할 수 있습니다. 그러나 특정 제약 조건을 준수해야 합니다. 다음은 구현 단계입니다.
 

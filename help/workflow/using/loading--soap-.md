@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 로딩(SOAP){#loading-soap}
+
+![](../../assets/common.svg)
 
 >[!CAUTION]
 >
@@ -46,9 +48,9 @@ ht-degree: 4%
 1. 라인 번호를 식별자로 사용하거나 SOAP 호출이 여러 요소를 반환하도록 지정할 수 있습니다.
 1. 함수에 따라 다음 탭 스크립트를 입력합니다.
 
-   * **[!UICONTROL Initialization]**:SOAP 연결을 설정합니다.
-   * **[!UICONTROL Iteration]**:SOAP 서비스에 대한 호출을 수행합니다. 이 함수의 반환은 예제 또는 WSDL의 설명과 호환되는 XML 개체여야 합니다.
+   * **[!UICONTROL Initialization]**: SOAP 연결을 설정합니다.
+   * **[!UICONTROL Iteration]**: SOAP 서비스에 대한 호출을 수행합니다. 이 함수의 반환은 예제 또는 WSDL의 설명과 호환되는 XML 개체여야 합니다.
 
       null XML 개체가 반환될 때까지 이 탭의 코드는 Adobe Campaign에서 루프에서 호출됩니다.
 
-   * **[!UICONTROL Finalization]**:연결을 닫거나 처리 중에 생성된 다른 리소스를 해제합니다.
+   * **[!UICONTROL Finalization]**: 연결을 닫거나 처리 중에 생성된 다른 리소스를 해제합니다.

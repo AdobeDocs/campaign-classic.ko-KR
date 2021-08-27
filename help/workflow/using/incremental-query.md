@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 증분 쿼리{#incremental-query}
+
+![](../../assets/common.svg)
 
 증분 쿼리를 사용하면 이 기준에 이미 타깃팅된 사용자를 제외하고 기준에 따라 대상을 주기적으로 선택할 수 있습니다.
 
@@ -23,8 +25,8 @@ ht-degree: 3%
 
 **관련 항목:**
 
-* [사용 사례:증분 쿼리를 사용한 분기별 목록 업데이트](../../workflow/using/quarterly-list-update.md)
-* [쿼리 만들기](../../workflow/using/query.md#creating-a-query)
+* [사용 사례: 증분 쿼리를 사용한 분기별 목록 업데이트](quarterly-list-update.md)
+* [쿼리 만들기](query.md#creating-a-query)
 
 >[!CAUTION]
 >

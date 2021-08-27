@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 데이터 업데이트 조정{#coordinating-data-updates}
+
+![](../../assets/common.svg)
 
 이 사용 사례에서는 워크플로우의 여러 실행을 사용할 때 콘텐츠 업데이트를 관리할 수 있는 워크플로우 만들기에 대해 자세히 설명합니다.
 
@@ -53,5 +55,5 @@ ht-degree: 3%
 
 **관련 항목:**
 
-* [동시 다중 실행 방지](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
-* [데이터 활동 업데이트](../../workflow/using/update-data.md)
+* [동시 다중 실행 방지](monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
+* [데이터 활동 업데이트](update-data.md)

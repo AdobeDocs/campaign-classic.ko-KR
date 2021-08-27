@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 6%
@@ -14,6 +14,8 @@ ht-degree: 6%
 ---
 
 # 매개 변수 요소 {#param--element}
+
+![](../../../assets/v7-only.svg)
 
 ## 컨텐츠 모델 {#content-model-12}
 
@@ -43,14 +45,14 @@ param:==help
 
 이 요소를 사용하면 SOAP 메서드 호출을 위한 매개 변수를 정의할 수 있습니다.
 
-## 특성 설명 {#attribute-description-12}
+## 속성 설명 {#attribute-description-12}
 
-* **desc(문자열)**:요소와 관련된  `<param>` 설명입니다.
-* **inout(문자열)**:이 속성은 매개 변수가 SOAP 호출의 입력(in) 또는 출력(출력)에 있는지 여부를 정의합니다. 이 속성을 지정하지 않으면 기본 매개 변수가 입력됩니다(&quot;@inout=in&quot;).
-* **레이블(문자열)**: `<param>` 레이블
-* **현지화 가능(문자열)**:활성화되면 이 속성은 번역을 위한 &quot;@label&quot; 속성 값을 복구하도록 수집 도구에 알려줍니다(내부 사용).
-* **이름(MNTOKEN)**:의 내부 이름  `<param>`
-* **유형(문자열)**:이 속성은 요소의 유형을  `<param>` 정의합니다
+* **desc(문자열)**: 요소와 관련된  `<param>` 설명입니다.
+* **inout(문자열)**: 이 속성은 매개 변수가 SOAP 호출의 입력(in) 또는 출력(출력)에 있는지 여부를 정의합니다. 이 속성을 지정하지 않으면 기본 매개 변수가 입력됩니다(&quot;@inout=in&quot;).
+* **레이블(문자열)**:  `<param>` 레이블
+* **현지화 가능(문자열)**: 활성화되면 이 속성은 번역을 위한 &quot;@label&quot; 속성 값을 복구하도록 수집 도구에 알려줍니다(내부 사용).
+* **이름(MNTOKEN)**: 의 내부 이름  `<param>`
+* **유형(문자열)**: 이 속성은 요소의 유형을  `<param>` 정의합니다
 
    사용 가능한 유형 목록:
 

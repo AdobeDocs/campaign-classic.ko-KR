@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 사용 사례: 기준 시드 주소 선택{#use-case-selecting-seed-addresses-on-criteria}
+
+![](../../assets/common.svg)
 
 게재 또는 캠페인의 프레임워크에서 **[!UICONTROL Edit the dynamic condition...]** 링크를 사용하면 특정 선택 기준에 따라 시드 주소를 선택할 수 있습니다.
 
@@ -53,7 +55,7 @@ ht-degree: 3%
 
    ![](assets/dlv_seeds_usecase_10.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 1. 스키마 편집 창에서 아래 줄을 복사하여 스크린샷에 표시된 영역에 붙여넣습니다.
 
    ```
@@ -78,12 +80,12 @@ ht-degree: 3%
 
    이 경우, **[!UICONTROL Department]**&#x200B;이라는 새 열거형이 시드 주소 테이블에 만들어졌는지, 표준 **[!UICONTROL @company]** 열거형 템플릿(시드 주소 양식의 **Company** 이름 아래에 레이블 지정)을 기반으로 한다고 지정합니다.
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL Tools > Advanced]** 메뉴에서 **[!UICONTROL Update database structure]** 옵션을 선택합니다.
 
    ![](assets/dlv_seeds_usecase_12.png)
 
-1. 업데이트 마법사가 표시되면 **[!UICONTROL Next]** 버튼을 클릭하여 테이블 편집 창에 액세스합니다.시드 주소 데이터 스키마에서 수행되는 변경 사항은 구조 업데이트가 필요합니다.
+1. 업데이트 마법사가 표시되면 **[!UICONTROL Next]** 버튼을 클릭하여 테이블 편집 창에 액세스합니다. 시드 주소 데이터 스키마에서 수행되는 변경 사항은 구조 업데이트가 필요합니다.
 
    ![](assets/dlv_seeds_usecase_13.png)
 
@@ -176,7 +178,7 @@ ht-degree: 3%
    >
    >앞에서 만든 스키마 확장은 **수신자** 스키마에서 가져옵니다. 위의 화면에 표시되는 값은 **recipient** 스키마의 열거형에서 가져옵니다.
 
-1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Ok]**&#x200B;를 클릭합니다.
 
    쿼리가 **[!UICONTROL Select target]** 창에 표시됩니다.
 

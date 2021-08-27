@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 6%
@@ -15,17 +15,19 @@ ht-degree: 6%
 
 # 마케팅 캠페인 시작{#setting-up-marketing-campaigns}
 
+![](../../assets/common.svg)
+
 캠페인에는 작업(게재) 및 프로세스(파일 가져오기 또는 추출)와 리소스(마케팅 문서, 게재 아웃라인)가 포함됩니다. 마케팅 캠페인에서 사용됩니다. 캠페인은 프로그램의 일부이며 프로그램은 캠페인 플랜에 포함됩니다.
 
 ![](assets/do-not-localize/how-to-video.png) 비디오에서 마케팅 계획, 프로그램 및 캠페인을 만드는 방법 [을 알아봅니다](#video)
 
 마케팅 캠페인을 만들려면:
 
-1. 캠페인 만들기:캠페인 및 그 특징에 대해 알아봅니다.레이블, 유형, 시작 및 종료 날짜, 예산, 관련 리소스, 관리자 및 참여자 [자세히 알아보기](#creating-a-campaign)
+1. 캠페인 만들기: 캠페인 및 그 특징에 대해 알아봅니다. 레이블, 유형, 시작 및 종료 날짜, 예산, 관련 리소스, 관리자 및 참여자 [자세히 알아보기](#creating-a-campaign)
 
-1. 대상 모집단 정의:타겟팅 쿼리를 사용하여 워크플로우를 만듭니다. [자세히 알아보기](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)
+1. 대상 모집단 정의: 타겟팅 쿼리를 사용하여 워크플로우를 만듭니다. [자세히 알아보기](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)
 
-1. 게재 만들기:채널을 선택하고 전송할 컨텐츠를 정의합니다. [자세히 알아보기](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries)
+1. 게재 만들기: 채널을 선택하고 전송할 컨텐츠를 정의합니다. [자세히 알아보기](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries)
 
 1. 게재 승인. [자세히 알아보기](../../campaign/using/marketing-campaign-approval.md)
 
@@ -35,7 +37,7 @@ ht-degree: 6%
 
 이러한 단계가 완료되면 게재를 시작할 수 있습니다( [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery) 참조). 게재 관련 데이터, 프로세스 및 정보를 확인하고, 필요한 경우 관련 문서를 관리할 수 있습니다( [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents) 참조). 캠페인 및 게재 처리 단계의 실행을 추적할 수도 있습니다( [이 섹션](../../campaign/using/marketing-campaign-monitoring.md) 참조).
 
-## 계획 및 프로그램 계층 만들기 {#creating-plan-and-program-hierarchy}
+## 계획 및 프로그램 계층 생성 {#creating-plan-and-program-hierarchy}
 
 마케팅 계획 및 프로그램에 대한 폴더 계층 구조를 구성하려면
 
@@ -85,7 +87,7 @@ ht-degree: 6%
 
 ![](assets/s_ncs_user_program_planning_filter.png)
 
-### 캠페인 {#editing-and-configuring-a-campaign} 편집 및 구성
+### 캠페인 편집 및 구성 {#editing-and-configuring-a-campaign}
 
 그런 다음 방금 만든 캠페인을 편집하고 매개 변수를 정의할 수 있습니다.
 
@@ -105,7 +107,7 @@ ht-degree: 6%
 
 반복 캠페인은 실행할 워크플로우 템플릿 및 실행 일정을 정의하는 특정 템플릿에서 만들어집니다.
 
-#### 반복 캠페인 {#creating-the-campaign-template} 템플릿을 만듭니다
+#### 반복 캠페인용 템플릿 만들기 {#creating-the-campaign-template}
 
 1. **[!UICONTROL Recurring]** 캠페인 템플릿을 만듭니다.
 
@@ -140,7 +142,7 @@ ht-degree: 6%
 
    ![](assets/s_ncs_user_op_template_recur_wf_option.png)
 
-#### 반복 캠페인 {#create-the-recurring-campaign} 만들기
+#### 반복 캠페인 만들기 {#create-the-recurring-campaign}
 
 반복 캠페인을 만들고 템플릿에 정의된 일정에 따라 워크플로우를 실행하려면 다음 절차를 적용합니다.
 
@@ -153,8 +155,8 @@ ht-degree: 6%
 
    각 행에 대해 다음 추가 옵션을 추가할 수 있습니다.
 
-   * **[!UICONTROL To be approved]** :워크플로우에서 게재 승인 요청을 강제 적용할 수 있도록 해줍니다.
-   * **[!UICONTROL To be started]** :시작 날짜에 도달하면 워크플로우를 시작할 수 있습니다.
+   * **[!UICONTROL To be approved]** : 워크플로우에서 게재 승인 요청을 강제 적용할 수 있도록 해줍니다.
+   * **[!UICONTROL To be started]** : 시작 날짜에 도달하면 워크플로우를 시작할 수 있습니다.
 
    **[!UICONTROL Create in advance for]** 필드를 사용하면 입력한 기간을 포함하는 모든 워크플로우를 만들 수 있습니다.
 
@@ -179,11 +181,11 @@ ht-degree: 6%
    >워크플로우의 변수에서 워크플로우와 연관된 스케줄 라인의 시작 날짜를 사용할 수 있습니다.\
    >`$date(instance/vars/@startPlanningDate)`
 
-### 주기적 캠페인 만들기 {#creating-a-periodic-campaign}
+### 주기적인 캠페인 만들기 {#creating-a-periodic-campaign}
 
 주기적 캠페인은 실행 일정을 기반으로 캠페인 인스턴스를 만들 수 있는 특정 템플릿을 기반으로 하는 캠페인입니다. 캠페인 인스턴스는 템플릿 예약에 정의된 빈도에 따라 주기적 캠페인 템플릿을 기반으로 자동으로 만들어집니다.
 
-#### 캠페인 템플릿 {#creating-the-campaign-template-1} 만들기
+#### 캠페인 템플릿 만들기 {#creating-the-campaign-template-1}
 
 1. 기존 캠페인 템플릿을 복제하여 **[!UICONTROL Periodic]** 캠페인 템플릿을 만듭니다.
 
@@ -203,7 +205,7 @@ ht-degree: 6%
    >
    >이 워크플로우는 워크플로우 템플릿입니다. 캠페인 템플릿에서 실행할 수 없습니다.
 
-1. 반복 캠페인 템플릿에 대해 실행 일정을 완료합니다.**[!UICONTROL Add]** 단추를 클릭하고 시작 날짜와 종료 날짜를 정의하거나 링크를 통해 실행 일정을 입력합니다.
+1. 반복 캠페인 템플릿에 대해 실행 일정을 완료합니다. **[!UICONTROL Add]** 단추를 클릭하고 시작 날짜와 종료 날짜를 정의하거나 링크를 통해 실행 일정을 입력합니다.
 
    ![](assets/s_ncs_user_op_template_period_planning_add.png)
 

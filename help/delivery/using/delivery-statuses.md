@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 게재 상태 {#delivery-statuses}
+
+![](../../assets/common.svg)
 
 <!--ajouter intro 
 
@@ -47,7 +49,7 @@ ajouter screenshot -->
   </tr> 
   <tr> 
    <td> 무시됨<br /> </td> 
-   <td> 주소가 잘못되어 게재를 받는 사람에게 보내지 않았습니다. 차단 목록에 있거나 격리되었거나, 제공되지 않았거나 중복되었습니다.<br /> </td> 
+   <td> 주소가 잘못되어 게재를 받는 사람에게 보내지 않았습니다. 차단 목록에 있거나 격리되었거나, 제공되지 않았거나 중복되었습니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> 실패<br /> </td> 
@@ -121,7 +123,7 @@ Adobe Campaign 전자 메일의 게재 능력을 최적화하는 방법에 대�
 
       >[!NOTE]
       >
-      >`<INSTANCENAME>` 을 인스턴스 이름(프로덕션, 개발 등)으로 바꿉니다. 인스턴스 이름은 구성 파일을 통해 식별됩니다.`[path of application]nl6/conf/config-<INSTANCENAME>.xml`
+      >`<INSTANCENAME>` 을 인스턴스 이름(프로덕션, 개발 등)으로 바꿉니다. 인스턴스 이름은 구성 파일을 통해 식별됩니다. `[path of application]nl6/conf/config-<INSTANCENAME>.xml`
 
 * 게재 시 전송 서버에 구성되지 않은 친화성을 사용할 수 있습니다.
 

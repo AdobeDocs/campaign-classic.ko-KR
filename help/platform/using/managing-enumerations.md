@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 0%
@@ -15,13 +15,15 @@ ht-degree: 0%
 
 # 열거형 관리{#managing-enumerations}
 
+![](../../assets/common.svg)
+
 열거형(&#39;항목별 목록&#39;이라고도 함)은 특정 필드를 채우기 위해 시스템에서 제안하는 값 목록입니다. 열거형을 사용하면 이러한 필드의 값을 표준화하고 데이터 입력 또는 쿼리 내에서 사용할 수 있습니다.
 
 값 목록이 드롭다운 목록으로 나타납니다. 이 목록에서 필드에 입력할 값을 선택할 수 있습니다. 또한 드롭다운 목록을 사용하면 연산자가 첫 번째 몇 개의 문자를 입력하고 나머지 문자를 애플리케이션에서 채우는 예측 입력을 사용할 수 있습니다.
 
 일부 콘솔 필드가 이 형식의 열거형으로 정의되어 있습니다. 해당 필드에 직접 입력하여 값을 추가할 수 있는 경우 열거형을 &quot;open&quot;이라고 합니다.
 
-## 값 {#access-to-values}에 액세스
+## 값에 대한 액세스 {#access-to-values}
 
 이 유형의 필드에 대한 값이 정의되고 트리의 **[!UICONTROL Administration > Platform > Enumerations]** 노드를 통해 이러한 필드의 전체 관리(값 추가/삭제)가 수행됩니다.
 
@@ -54,21 +56,21 @@ ht-degree: 0%
 
 입력한 값이 다음 중 하나입니다.
 
-* 항목화된 목록 값에 추가됩니다.이 경우 **[!UICONTROL Open]** 옵션을 선택해야 합니다.
-* 또는 해당 별칭으로 자동 대체됩니다.이 경우 항목별 목록의 **[!UICONTROL Alias]** 탭에서 이 사례를 정의해야 합니다.
-* 또는 는 별칭 목록에 저장됩니다.나중에 별칭을 할당할 수 있습니다.
+* 항목화된 목록 값에 추가됩니다. 이 경우 **[!UICONTROL Open]** 옵션을 선택해야 합니다.
+* 또는 해당 별칭으로 자동 대체됩니다. 이 경우 항목별 목록의 **[!UICONTROL Alias]** 탭에서 이 사례를 정의해야 합니다.
+* 또는 는 별칭 목록에 저장됩니다. 나중에 별칭을 할당할 수 있습니다.
 
    >[!NOTE]
    >
    >데이터 정리 기능을 사용해야 하는 경우 항목별 목록에서 **[!UICONTROL Alias cleansing]** 옵션을 선택합니다.
 
-### 별칭 {#using-aliases} 사용
+### 별칭 사용 {#using-aliases}
 
 **[!UICONTROL Alias cleansing]** 옵션을 사용하면 선택한 항목별 목록에 별칭을 사용할 수 있습니다. 이 옵션을 선택하면 창 하단에 **[!UICONTROL Alias]** 탭이 표시됩니다.
 
 ![](assets/s_ncs_user_itemized_list_alias_option.png)
 
-#### 별칭 {#creating-an-alias} 만들기
+#### 별칭 만들기 {#creating-an-alias}
 
 별칭을 만들려면 **[!UICONTROL Add]** 을 클릭합니다.
 
@@ -82,7 +84,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->이 단계가 확인되면 이전에 입력한 값을 복구할 수 없습니다.교체되었습니다.
+>이 단계가 확인되면 이전에 입력한 값을 복구할 수 없습니다. 교체되었습니다.
 
 ![](assets/s_ncs_user_itemized_list_alias_create_3.png)
 
@@ -90,7 +92,7 @@ ht-degree: 0%
 
 ![](assets/s_ncs_user_itemized_list_alias_use.png)
 
-#### 값을 별칭 {#converting-values-into-aliases}으로 변환
+#### 값을 별칭으로 변환 {#converting-values-into-aliases}
 
 열거형 값을 별칭으로 변환하려면 값 목록을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Convert values into aliases...]** 을 선택합니다.
 
@@ -108,7 +110,7 @@ ht-degree: 0%
 
 ![](assets/s_ncs_user_itemized_list_alias_detail2.png)
 
-#### 별칭 히트 {#retrieving-alias-hits} 검색
+#### 별칭 히트 검색 {#retrieving-alias-hits}
 
 사용자가 입력한 값을 별칭으로 변환할 수 있습니다. 실제로 사용자가 항목별 목록에 포함되지 않은 값을 입력하면 값이 **[!UICONTROL Alias]** 탭에 저장됩니다.
 
@@ -130,7 +132,7 @@ ht-degree: 0%
 
 데이터 청소를 실행하려면 **[!UICONTROL Start]** 버튼을 클릭합니다.
 
-#### 항목 발생 횟수 계산 {#calculating-entry-occurrences}
+#### 항목 발생 계산 {#calculating-entry-occurrences}
 
 항목별 목록의 **[!UICONTROL Alias]** 하위 탭에는 입력한 모든 값 중 별칭 발생 횟수가 표시될 수 있습니다. 이 정보는 예측이며 **[!UICONTROL Hits]** 열에 표시됩니다.
 
@@ -142,8 +144,8 @@ ht-degree: 0%
 
 ![](assets/s_ncs_user_itemized_list_alias_hits.png)
 
-* **[!UICONTROL Update the number of alias hits]**:이렇게 하면 입력한 날짜를 기준으로 이미 계산된 히트를 업데이트할 수 있습니다.
-* **[!UICONTROL Recalculate the number of alias hits from the start]**:전체 Adobe Campaign 플랫폼에서 계산을 실행할 수 있습니다.
+* **[!UICONTROL Update the number of alias hits]**: 이렇게 하면 입력한 날짜를 기준으로 이미 계산된 히트를 업데이트할 수 있습니다.
+* **[!UICONTROL Recalculate the number of alias hits from the start]**: 전체 Adobe Campaign 플랫폼에서 계산을 실행할 수 있습니다.
 
 예를 들어 일주일에 한 번, 지정한 기간 동안 계산이 자동으로 실행되도록 전용 워크플로우를 만들 수도 있습니다.
 

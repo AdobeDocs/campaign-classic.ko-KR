@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # Linux용 웹 서버와 통합{#integration-into-a-web-server-for-linux}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 시작 지점 역할을 하는 Apache Tomcat이 포함되어 있습니다.
 
@@ -38,7 +40,7 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 �
 >
 >추적 기능을 사용하지 않는 경우 Campaign으로 리디렉션하여 Apache 또는 IIS의 표준 설치를 수행할 수 있습니다. 추적 웹 서버 확장 모듈은 필요하지 않습니다.
 
-## Debian {#configuring-the-apache-web-server-with-debian}으로 Apache 웹 서버 구성
+## Debian으로 Apache 웹 서버 구성 {#configuring-the-apache-web-server-with-debian}
 
 APT를 기반으로 한 배포 아래에 Apache를 설치한 경우 이 프로세스가 적용됩니다.
 
@@ -105,7 +107,7 @@ APT를 기반으로 한 배포 아래에 Apache를 설치한 경우 이 프로�
    invoke-rc.d apache2 restart
    ```
 
-## RHEL {#configuring-apache-web-server-in-rhel}에서 Apache 웹 서버 구성
+## RHEL에서 Apache 웹 서버 구성 {#configuring-apache-web-server-in-rhel}
 
 이 절차는 RPM(RHEL, CentOS 및 Suse) 기반 패키지 아래에 Apache를 설치 및 고정한 경우에 적용됩니다.
 

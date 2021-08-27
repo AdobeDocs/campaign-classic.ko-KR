@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 2%
@@ -15,11 +15,13 @@ ht-degree: 2%
 
 # 수집된 데이터 게시, 추적 및 사용{#publish-track-and-use-collected-data}
 
+![](../../assets/v7-only.svg)
+
 양식을 만들고, 구성하고, 게시하면 대상자와 링크를 공유하고 응답을 추적할 수 있습니다.
 
 >[!NOTE]
 >
->Adobe Campaign의 설문 조사 수명 주기와 게시 및 전달 모드는 웹 양식의 라이프사이클과 유사합니다.이러한 내용은 [이 섹션](../../web/using/about-web-forms.md)에 자세히 설명되어 있습니다.
+>Adobe Campaign의 설문 조사 수명 주기와 게시 및 전달 모드는 웹 양식의 라이프사이클과 유사합니다. 이러한 내용은 [이 섹션](../../web/using/about-web-forms.md)에 자세히 설명되어 있습니다.
 
 ## 설문 조사 대시보드 {#survey-dashboard}
 
@@ -59,11 +61,11 @@ URL 매개 변수에 대한 자세한 내용은 [이 페이지](../../web/using/
 
 설문 조사 구조는 **[!UICONTROL Documentation]** 보고서에 표시됩니다.
 
-웹 설문 조사에 대한 다른 두 보고서는 설문 조사의 **[!UICONTROL Reports]** 탭에서 사용할 수 있습니다.**[!UICONTROL General]** 및 **[!UICONTROL Breakdown of responses]**.
+웹 설문 조사에 대한 다른 두 보고서는 설문 조사의 **[!UICONTROL Reports]** 탭에서 사용할 수 있습니다. **[!UICONTROL General]** 및 **[!UICONTROL Breakdown of responses]**.
 
 * 일반
 
-   이 보고서에는 설문 조사에 대한 일반 정보가 포함되어 있습니다.시간에 따라 응답 수가 변경되는 방법 및 원본 및 언어별 배포.
+   이 보고서에는 설문 조사에 대한 일반 정보가 포함되어 있습니다. 시간에 따라 응답 수가 변경되는 방법 및 원본 및 언어별 배포.
 
    일반 보고서의 예:
 
@@ -161,4 +163,4 @@ URL 매개 변수에 대한 자세한 내용은 [이 페이지](../../web/using/
 
 ## 데이터 표준화 {#standardizing-data}
 
-별칭을 사용하여 수집한 데이터에 대해 Adobe Campaign에서 표준화 프로세스를 설정할 수 있습니다. 이렇게 하면 데이터베이스에 저장된 데이터를 표준화할 수 있습니다.이렇게 하려면 관련 정보가 포함된 항목별 목록에서 별칭을 정의합니다. [자세히 알아보기](../../platform/using/managing-enumerations.md#about-enumerations)
+별칭을 사용하여 수집한 데이터에 대해 Adobe Campaign에서 표준화 프로세스를 설정할 수 있습니다. 이렇게 하면 데이터베이스에 저장된 데이터를 표준화할 수 있습니다. 이렇게 하려면 관련 정보가 포함된 항목별 목록에서 별칭을 정의합니다. [자세히 알아보기](../../platform/using/managing-enumerations.md#about-enumerations)

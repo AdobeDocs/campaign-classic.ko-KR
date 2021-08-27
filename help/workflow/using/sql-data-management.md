@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 3%
+source-wordcount: '418'
+ht-degree: 4%
 
 ---
 
 # SQL 데이터 관리{#sql-data-management}
+
+![](../../assets/common.svg)
 
 **SQL 데이터 관리** 활동을 사용하면 고유한 SQL 스크립트를 작성하여 작업 테이블을 만들고 채울 수 있습니다.
 
@@ -22,7 +24,14 @@ ht-degree: 3%
 활동을 구성하기 전에 다음 전제 조건이 충족되었는지 확인하십시오.
 
 * 활동은 원격 데이터 소스에서만 사용할 수 있습니다. 따라서 **[!UICONTROL FDA]**(Federated Data Access) 패키지가 인스턴스에 설치되어 있어야 합니다. [자세히 알아보기](../../installation/using/about-fda.md)
-* 아웃바운드 스키마가 데이터베이스에 있고 FDA 데이터베이스에 연결되어 있어야 합니다. [자세히 알아보기](../../configuration/using/about-schema-reference.md)
+
+   자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
+
+   ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 설명서](../../installation/using/about-fda.md)
+
+   ![](assets/do-not-localize/v8.png)[  Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
+
+* 아웃바운드 스키마가 데이터베이스에 있고 FDA 데이터베이스에 연결되어 있어야 합니다.
 * 워크플로우를 실행하는 연산자에는 이름이 인 **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]**&#x200B;이 있어야 합니다. [자세히 알아보기](../../platform/using/access-management-named-rights.md)
 
 ## SQL 데이터 관리 활동 구성 {#configuring-the-sql-data-management-activity}
@@ -48,8 +57,8 @@ ht-degree: 3%
 
    활동을 사용하면 스크립트에서 다음 변수를 사용할 수 있습니다.
 
-   * **activity.tableName**:아웃바운드 작업 테이블의 SQL 이름입니다.
-   * **task.incomingTransitionByName(&#39;name&#39;).tableName**:사용할 수신 전환이 포함하는 작업 테이블의 SQL 이름(해당 이름으로 변환됨).
+   * **activity.tableName**: 아웃바운드 작업 테이블의 SQL 이름입니다.
+   * **task.incomingTransitionByName(&#39;name&#39;).tableName**: 사용할 수신 전환이 포함하는 작업 테이블의 SQL 이름(해당 이름으로 변환됨).
 
       >[!NOTE]
       >

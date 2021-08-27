@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 기술적 분석 정보{#about-descriptive-analysis}
+
+![](../../assets/common.svg)
 
 데이터베이스의 데이터에 대한 통계를 만들려면 전용 마법사를 사용하여 설명 분석 보고서를 만들고 필요에 맞게 컨텐츠와 프레젠테이션을 조정합니다.
 

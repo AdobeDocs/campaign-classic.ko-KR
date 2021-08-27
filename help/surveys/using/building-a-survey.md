@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 설문 조사 디자인{#building-a-survey}
+
+![](../../assets/v7-only.svg)
 
 ## 새 설문 조사 만들기 {#creating-a-new-survey}
 
@@ -45,10 +47,10 @@ ht-degree: 2%
 
 설문 조사에 필드를 추가할 때는 해당 유형을 선택해야 합니다. 다음 옵션을 사용할 수 있습니다.
 
-1. **[!UICONTROL Answer a question]**:이 옵션을 사용하면 답변을 저장할 새 필드(&#39;보관된 필드&#39;라고 함)를 선언할 수 있습니다. 이 경우 참가자가 양식을 두 번 이상 채우는 경우에도 수집된 모든 값이 저장됩니다. 이 저장소 모드는 **설문 조사**&#x200B;에서만 사용할 수 있습니다. [자세히 알아보기](../../surveys/using/managing-answers.md#storing-collected-answers)
-1. **[!UICONTROL Edit a recipient]**:이 옵션을 사용하면 데이터베이스에서 필드를 선택할 수 있습니다. 이 경우 사용자 응답이 이 필드에 저장됩니다. 각 참가자에 대해 마지막으로 저장된 값만 유지되고 프로필 데이터에 추가됩니다.
-1. **[!UICONTROL Add a variable]**:이 옵션을 사용하면 정보를 데이터베이스에 저장하지 않도록 설정을 만들 수 있습니다. 로컬 변수는 업스트림으로 선언할 수 있습니다. 필드를 만들 때 직접 추가할 수도 있습니다.
-1. **[!UICONTROL Import an existing question]**:이 옵션을 사용하면 다른 설문 조사에서 만든 기존 질문을 가져올 수 있습니다.
+1. **[!UICONTROL Answer a question]**: 이 옵션을 사용하면 답변을 저장할 새 필드(&#39;보관된 필드&#39;라고 함)를 선언할 수 있습니다. 이 경우 참가자가 양식을 두 번 이상 채우는 경우에도 수집된 모든 값이 저장됩니다. 이 저장소 모드는 **설문 조사**&#x200B;에서만 사용할 수 있습니다. [자세히 알아보기](../../surveys/using/managing-answers.md#storing-collected-answers)
+1. **[!UICONTROL Edit a recipient]**: 이 옵션을 사용하면 데이터베이스에서 필드를 선택할 수 있습니다. 이 경우 사용자 응답이 이 필드에 저장됩니다. 각 참가자에 대해 마지막으로 저장된 값만 유지되고 프로필 데이터에 추가됩니다.
+1. **[!UICONTROL Add a variable]**: 이 옵션을 사용하면 정보를 데이터베이스에 저장하지 않도록 설정을 만들 수 있습니다. 로컬 변수는 업스트림으로 선언할 수 있습니다. 필드를 만들 때 직접 추가할 수도 있습니다.
+1. **[!UICONTROL Import an existing question]**: 이 옵션을 사용하면 다른 설문 조사에서 만든 기존 질문을 가져올 수 있습니다.
 
    >[!NOTE]
    >
@@ -94,7 +96,7 @@ ht-degree: 2%
 
 ### 질문 추가 {#adding-questions}
 
-컨테이너에는 두 가지 유형이 있습니다.표준 및 질문. 표준 컨테이너는 페이지에서 페이지 레이아웃 및 조건부 표시를 구성하는 데 사용됩니다. [자세히 알아보기](../../web/using/about-web-forms.md)
+컨테이너에는 두 가지 유형이 있습니다. 표준 및 질문. 표준 컨테이너는 페이지에서 페이지 레이아웃 및 조건부 표시를 구성하는 데 사용됩니다. [자세히 알아보기](../../web/using/about-web-forms.md)
 
 **질문** 컨테이너를 사용하여 페이지에 질문을 추가하고 계층 구조에서 아래의 가능한 답변을 삽입합니다. 이러한 유형의 컨테이너에 배치된 질문에 대한 사용자 응답은 보고서에서 분석할 수 있습니다.
 

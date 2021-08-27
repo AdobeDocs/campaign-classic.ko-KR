@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 4%
@@ -15,11 +15,13 @@ ht-degree: 4%
 
 # 웹 추적 태그: 정의{#web-tracking-tag-definition}
 
+![](../../assets/v7-only.svg)
+
 웹 추적 태그는 HTTP 쿼리를 통해 리디렉션 서버로 전송되는 적절한 매개 변수로 구성된 URL일 뿐입니다.
 
-## 보낼 데이터 형식 {#format-of-the-data-to-be-sent}
+## 전송할 데이터의 형식입니다 {#format-of-the-data-to-be-sent}
 
-웹 추적 URL의 형식은 다음과 같습니다.**https://`<name_of_redirection_server>`:`<port>`/r/`<random_number>`?`<parameters>`**
+웹 추적 URL의 형식은 다음과 같습니다. **https://`<name_of_redirection_server>`:`<port>`/r/`<random_number>`?`<parameters>`**
 
 >[!NOTE]
 >
@@ -66,7 +68,7 @@ ht-degree: 4%
                               <p>URL 매개 변수</p> 
                            </td>
                            <td>
-                              <p>추적된 웹 페이지의 식별자:유일한 필수 매개 변수입니다.</p> 
+                              <p>추적된 웹 페이지의 식별자: 유일한 필수 매개 변수입니다.</p> 
                            </td> 
                         </tr>
                         <tr>
@@ -125,7 +127,7 @@ ht-degree: 4%
 >
 >URL 매개 변수를 통해 리디렉션 서버로 전송되는 모든 값은 URL로 인코딩되어야 합니다. 제공된 예에서 &#39;=&#39; 및 &#39;|&#39; 문자는 각각 &#39;%3D&#39; 및 &#39;%7C&#39;로 인코딩됩니다.
 
-## 데이터 전송 메서드 {#data-transmission-methods}
+## 데이터 전송 방법 {#data-transmission-methods}
 
 다음 방법을 사용할 수 있습니다.
 

@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -15,7 +15,9 @@ ht-degree: 1%
 
 # 일반 가져오기 샘플 {#import-operations-samples}
 
-## 수신자 목록 {#example--import-from-a-list-of-recipients}에서 가져오기
+![](../../assets/common.svg)
+
+## 수신자 목록에서 가져오기 {#example--import-from-a-list-of-recipients}
 
 목록 개요에서 수신자 목록을 만들고 제공하려면 다음 단계를 수행합니다.
 
@@ -42,7 +44,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_user_import_example00_03.png)
 
-## 텍스트 파일 {#example--import-new-records-from-a-text-file-}에서 새 레코드 가져오기
+## 텍스트 파일에서 새 레코드 가져오기 {#example--import-new-records-from-a-text-file-}
 
 텍스트 파일에 저장된 새 수신자 프로필을 Adobe Campaign 데이터베이스로 가져오려면 다음 단계를 수행하십시오.
 
@@ -82,7 +84,7 @@ ht-degree: 1%
 
 1. 가져오기 시작
 
-   * **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
+   * **[!UICONTROL Start]**&#x200B;를 클릭합니다.
 
       편집기의 중앙 영역에서 가져오기 작업이 성공했는지 확인하고 처리된 레코드 수를 볼 수 있습니다.
 
@@ -128,7 +130,7 @@ ht-degree: 1%
 
 1. 가져오기 시작
 
-   * **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
+   * **[!UICONTROL Start]**&#x200B;를 클릭합니다.
 
       추적 창에서 가져오기에 성공했는지 확인하고 처리된 레코드 수를 볼 수 있습니다.
 
@@ -138,7 +140,7 @@ ht-degree: 1%
 
       ![](assets/s_ncs_user_import_example06_03.png)
 
-## 외부 파일 {#example--enrich-the-values-with-those-of-an-external-file}의 값으로 값을 보강합니다.
+## 외부 파일의 값으로 값을 보강합니다 {#example--enrich-the-values-with-those-of-an-external-file}
 
 데이터베이스 테이블의 특정 필드를 텍스트 파일에서 수정하여 데이터베이스에 포함된 값에 우선 순위를 두려고 합니다.
 
@@ -181,7 +183,7 @@ ht-degree: 1%
 
 1. 가져오기 시작
 
-   **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
+   **[!UICONTROL Start]**&#x200B;를 클릭합니다.
 
    받는 사람 테이블을 검색하여 가져오기로 레코드가 수정되었는지 확인합니다.
 
@@ -189,7 +191,7 @@ ht-degree: 1%
 
    비어 있는 값만 텍스트 파일의 값으로 대체되었지만 데이터베이스의 기존 값을 가져오기 파일의 값으로 덮어쓰지 않았습니다.
 
-## 외부 파일 {#example--update-and-enrich-the-values-from-those-in-an-external-file}의 값을 업데이트하고 보강합니다.
+## 외부 파일의 값을 업데이트하고 보강합니다 {#example--update-and-enrich-the-values-from-those-in-an-external-file}
 
 텍스트 파일에서 데이터베이스 테이블의 특정 필드를 수정하여 텍스트 파일에 포함된 값에 우선 순위를 두려고 합니다.
 
@@ -229,7 +231,7 @@ ht-degree: 1%
 
 1. 가져오기 시작
 
-   * **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
+   * **[!UICONTROL Start]**&#x200B;를 클릭합니다.
    * 받는 사람 테이블을 검색하여 작업이 레코드를 수정했는지 확인합니다.
 
       ![](assets/s_ncs_user_import_example06_06.png)

@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 결과 분석 {#step-8--analyzing-the-result}
+
+![](../../assets/common.svg)
 
 테스트 게재가 전송되면 전송된 수신자와 열려 있는지 여부를 확인할 수 있습니다.
 

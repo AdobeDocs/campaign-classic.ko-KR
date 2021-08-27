@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
-# Adobe Campaign 통합 {#about-campaign-integrations} 시작
+# Adobe Campaign 통합 시작 {#about-campaign-integrations}
+
+![](../../assets/common.svg)
 
 Adobe Experience Cloud은 강력한 핵심 서비스의 공통 세트를 사용하여 공통 데이터 플랫폼에 구축된 포괄적인 최고급 통합 솔루션 세트입니다.
 
@@ -25,8 +27,7 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스의 �
 
 >[!CAUTION]
 >
->이러한 통합의 대부분은 Adobe ID을 통해 로그인하려면 IMS(Adobe Identity Management System)를 구현해야 합니다. [이 페이지](../../integrations/using/about-adobe-id.md)에서 자세히 알아보십시오.
-
+>이러한 통합의 대부분은 Adobe ID을 통해 로그인하려면 IMS(Adobe Identity Management System)를 구현해야 합니다. [이 페이지에서 자세히 알아보십시오](../../integrations/using/about-adobe-id.md).
 
 ## 솔루션 연결 {#working-with-experience-cloud-solutions}
 
@@ -90,7 +91,7 @@ Adobe Experience Cloud Identity 서비스는 Experience Cloud의 모든 솔루�
   </tr> 
   <tr> 
    <td> <strong>Adobe Analytics 커넥터</strong><br /> </td> 
-   <td> <strong>Adobe Analytics </strong> 커넥터를 사용하면 Adobe Campaign 및 Adobe Analytics이 이메일 캠페인 후 사용자 행동에 관련된 세그먼트를 상호 작용할 수 있습니다. 반대로 Adobe Campaign에서 Adobe Analytics으로 제공하는 이메일 캠페인의 지표와 특성을 보냅니다.<br /> <p><a href="../../platform/using/adobe-analytics-connector.md">Campaign - </a> Analytics Connectors 통합에 대해 자세히 알아보십시오.</p><br /> </td> 
+   <td> <strong>Adobe Analytics </strong> 커넥터를 사용하면 Adobe Campaign 및 Adobe Analytics이 이메일 캠페인 후 사용자 행동에 관련된 세그먼트를 상호 작용할 수 있습니다. 반대로 Adobe Campaign에서 게재하는 이메일 캠페인의 지표와 특성은 Adobe Analytics로 보냅니다. <br /> <p><a href="../../platform/using/adobe-analytics-connector.md">Campaign - </a> Analytics Connectors 통합에 대해 자세히 알아보십시오.</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>

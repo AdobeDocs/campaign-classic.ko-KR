@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 추가 데이터{#additional-data}
+
+![](../../assets/v7-only.svg)
 
 상호 작용 엔진에 대한 호출 동안 상황별 추가 정보를 전송할 수 있습니다. 이 데이터는 워크플로우(아웃바운드 채널)의 작업 테이블에 저장된 타겟 데이터 또는 호출(인바운드 채널) 중에 웹 사이트에서 보낸 호출 데이터에서 가져올 수 있습니다. 이 추가 데이터를 자격 규칙, 오퍼 개인화에서 사용할 수 있으며, 제안 테이블에 저장할 수도 있습니다.
 
@@ -64,7 +66,7 @@ ht-degree: 0%
 
 ### 입력 채널(웹 페이지) {#input-channel--web-page-}
 
-엔진을 호출할 때 추가 데이터를 전송하려면 **interactionGlobalCtx** 변수를 웹 페이지의 JavaScript 코드에 추가해야 합니다. 호출 데이터를 포함하는 **Interaction** 노드를 이 변수에 삽입합니다. **nms:interaction** 스키마에 있는 동일한 xml 구조를 준수해야 합니다. 다음을 참조하십시오.[추가 데이터 구성](#additional-data-configuration).
+엔진을 호출할 때 추가 데이터를 전송하려면 **interactionGlobalCtx** 변수를 웹 페이지의 JavaScript 코드에 추가해야 합니다. 호출 데이터를 포함하는 **Interaction** 노드를 이 변수에 삽입합니다. **nms:interaction** 스키마에 있는 동일한 xml 구조를 준수해야 합니다. 다음을 참조하십시오. [추가 데이터 구성](#additional-data-configuration).
 
 ```
 interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
@@ -72,7 +74,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 ### 출력 채널 {#output-channel}
 
-**nms:interaction** 스키마와 동일한 xml 구조 및 내부 이름을 준수하여 작업 테이블에서 추가 데이터를 로드하는 타깃팅 워크플로우를 만들어야 합니다. 다음을 참조하십시오.[추가 데이터 구성](#additional-data-configuration).
+**nms:interaction** 스키마와 동일한 xml 구조 및 내부 이름을 준수하여 작업 테이블에서 추가 데이터를 로드하는 타깃팅 워크플로우를 만들어야 합니다. 다음을 참조하십시오. [추가 데이터 구성](#additional-data-configuration).
 
 ## 추가 데이터 사용 {#using-additional-data}
 
@@ -112,7 +114,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 >[!NOTE]
 >
->**nms:provisionRcp** 스키마를 확장한 다음 저장할 데이터가 포함될 필드를 선언해야 합니다. 자세한 내용은[추가 데이터 구성](#additional-data-configuration).
+>**nms:provisionRcp** 스키마를 확장한 다음 저장할 데이터가 포함될 필드를 선언해야 합니다. 자세한 내용은 [추가 데이터 구성](#additional-data-configuration).
 
 오퍼 공간에서 **[!UICONTROL Storage]** 탭으로 이동하여 **[!UICONTROL Add]** 버튼을 클릭합니다.
 

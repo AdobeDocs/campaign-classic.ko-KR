@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 0%
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 # 승인 프로세스 설정 및 관리 {#approving-marketing-campaigns}
 
-게재의 각 단계는 캠페인의 다양한 프로세스를 완벽하게 모니터링하고 제어하기 위해 승인을 받을 수 있습니다.타겟팅, 컨텐츠, 예산, 추출 및 증명 전송
+![](../../assets/common.svg)
+
+게재의 각 단계는 캠페인의 다양한 프로세스를 완벽하게 모니터링하고 제어하기 위해 승인을 받을 수 있습니다. 타겟팅, 컨텐츠, 예산, 추출 및 증명 전송
 
 알림 메시지는 지정된 검토자가 승인 요청을 알려주기 위해 Adobe Campaign 운영자에게 전송됩니다. 검토자에게 승인을 위한 **적절한 권한**&#x200B;이 있으며 해당 보안 영역이 올바르게 정의되어 있는지 확인합니다. [자세히 알아보기](#selecting-reviewers)
 
@@ -50,13 +52,13 @@ ht-degree: 0%
 
 승인이 필요한 모든 작업은 승인을 담당하는 연산자와 마찬가지로 캠페인 템플릿( **[!UICONTROL Properties]** > **[!UICONTROL Advanced campaign settings...]** > **[!UICONTROL Approvals]** 탭)에서 선택됩니다(이 옵션이 활성화되지 않은 한 알림이 수신됨). 이 작업에 대한 자세한 정보는 [이 섹션](#approving-processes)을 참조하십시오.
 
-이 템플릿을 사용하여 만든 각 캠페인에 대해 이러한 설정을 재정의하고 각 캠페인 게재에 대해 개별적으로 재정의할 수 있습니다.**[!UICONTROL Properties]** 단추를 클릭한 다음 **[!UICONTROL Approvals]** 탭을 클릭합니다.
+이 템플릿을 사용하여 만든 각 캠페인에 대해 이러한 설정을 재정의하고 각 캠페인 게재에 대해 개별적으로 재정의할 수 있습니다. **[!UICONTROL Properties]** 단추를 클릭한 다음 **[!UICONTROL Approvals]** 탭을 클릭합니다.
 
 다음 예에서는 게재 컨텐츠에 승인을 필요로 하지 않습니다.
 
 ![](assets/s_user_validation_select_process_from_del.png)
 
-## 검토자 {#selecting-reviewers} 선택
+## 검토자 선택 {#selecting-reviewers}
 
 각 승인 유형에 대해 게재의 드롭다운 목록에서 승인을 담당하는 운영자 또는 운영자 그룹이 선택됩니다. **[!UICONTROL Edit...]** 링크를 사용하여 더 많은 연산자를 추가할 수 있습니다. 이 창에서는 승인 기한을 편집할 수도 있습니다.
 
@@ -73,7 +75,7 @@ ht-degree: 0%
 
 ## 승인 모드 {#approval-modes}
 
-### 대시보드 {#approval-via-the-dashboard}를 통한 승인
+### 대시보드를 통한 승인 {#approval-via-the-dashboard}
 
 콘솔 또는 웹 인터페이스를 통해 작업을 승인하려면 캠페인 대시보드에서 해당 링크를 클릭합니다. 게재 추적 또는 게재 대시보드를 통해 작업을 승인할 수도 있습니다.
 
@@ -95,7 +97,7 @@ ht-degree: 0%
 
 ![](assets/s_user_validation_save_target_validation.png)
 
-**[!UICONTROL Validate]**&#x200B;을(를) 클릭합니다.
+**[!UICONTROL Validate]**&#x200B;를 클릭합니다.
 
 >[!NOTE]
 >
@@ -159,9 +161,9 @@ ht-degree: 0%
 
 ![](assets/s_user_validation_notif_desactivate.png)
 
-### 알림 내용 {#notification-content}
+### 알림 콘텐츠 {#notification-content}
 
-알림 컨텐츠는 특정 템플릿에서 정의됩니다.**[!UICONTROL Notification of validations for the marketing campaign]** 이 템플릿은 Adobe Campaign 트리의 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 폴더에 저장됩니다.
+알림 컨텐츠는 특정 템플릿에서 정의됩니다. **[!UICONTROL Notification of validations for the marketing campaign]** 이 템플릿은 Adobe Campaign 트리의 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 폴더에 저장됩니다.
 
 ## 게재 검토 및 승인 {#checking-and-approving-deliveries}
 
@@ -173,7 +175,7 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
 이러한 유효성 검사 단계가 완료되면 게재를 시작할 수 있습니다. [자세히 알아보기](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)
 
-### 게재를 승인하는 단계 {#approving-processes}
+### 게재를 승인하는 절차 {#approving-processes}
 
 승인이 필요한 단계가 캠페인 대시보드에 나타납니다(웹 인터페이스의 콘솔을 통해). 게재 추적 테이블 및 게재 대시보드에도 표시됩니다.
 
@@ -182,7 +184,6 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 >[!NOTE]
 >
 >승인이 필요한 프로세스를 선택하려면 캠페인 템플릿을 수정합니다. 자세한 내용은 [캠페인 템플릿](../../campaign/using/marketing-campaign-templates.md#campaign-templates)을 참조하십시오.
-
 
 ![](assets/s_ncs_user_edit_del_to_validate.png)
 
@@ -255,7 +256,6 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 >
 
 
-
 ![](assets/s_ncs_user_edit_op_valid_calendar.png)
 
 각 게재에 대해 **[!UICONTROL Audit]** 버튼 및 **[!UICONTROL Approvals]** 탭을 클릭하여 승인 날짜와 자동 미리 알림을 보고 편집합니다.
@@ -312,7 +312,7 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
    ![](assets/s_user_validation_relaunch_content_validation.png)
 
-#### 컨텐츠 편집 할당 {#assign-content-editing}
+#### 콘텐츠 편집 할당 {#assign-content-editing}
 
 이 옵션을 사용하면 웹 마스터와 같은 컨텐츠 편집 담당자를 정의할 수 있습니다. 승인 설정 창에서 **[!UICONTROL Assign content editing]** 옵션을 선택하면 알림 전자 메일의 배달과 배달 사이에 컨텐츠 담당자에게 몇 가지 승인 단계가 추가됩니다.
 

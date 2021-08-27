@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '3972'
+source-wordcount: '3991'
 ht-degree: 1%
 
 ---
 
 # Campaign Classic 옵션 목록{#configuring-campaign-options}
+
+![](../../assets/v7-only.svg)
 
 **[!UICONTROL Administration / Platform / Options]** 노드를 사용하여 Adobe Campaign 옵션을 구성할 수 있습니다. 일부는 Campaign을 설치할 때 기본적으로 제공되며, 필요한 경우 수동으로 추가할 수 있습니다. 사용 가능한 옵션은 인스턴스에 설치된 패키지에 따라 다릅니다.
 
@@ -21,9 +23,8 @@ ht-degree: 1%
 >[!CAUTION]
 >
 >* 이 페이지에 나열되지 않은 옵션은 내부 전용이며 **은(는) 수정할 수 없습니다**.
-   >
-   >
-* Adobe Campaign 옵션 수정 또는 업데이트는 전문가 사용자만 수행할 수 있습니다.
+>
+>* Adobe Campaign 옵션 수정 또는 업데이트는 전문가 사용자만 수행할 수 있습니다.
 
 
 ## 게재 {#delivery}
@@ -50,11 +51,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">DmRendering_SeedTargets</span> <br /> </td> 
-   <td> 받은 편지함 렌더링에 테스트 주소를 사용할 스키마 목록입니다. (요소 이름은 쉼표로 구분됨) 예:custom_nms_recipient<br /> </td> 
+   <td> 받은 편지함 렌더링에 테스트 주소를 사용할 스키마 목록입니다. (요소 이름은 쉼표로 구분됨) 예: custom_nms_recipient<br /> </td> 
   </tr> 
   <tr> 
+   <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
+   <td> 향상된 MTA가 보낸 전자 메일의 원시 사본을 보내는 숨은 참조 전자 메일 주소입니다. <br /> </td> 
+  </tr>
+  <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> 특정 연산자 또는 운영자 그룹이 게재 속성에서 게재를 시작하도록 지정된 경우 게재를 담당하는 연산자가 전송을 확인하도록 허용할 수 있습니다.</p><p> 이렇게 하려면 값으로 "1"을 입력하여 옵션을 활성화합니다. 이 옵션을 비활성화하려면 "0"을 입력합니다.</p><p> 전송 확인 프로세스는 기본값으로 작동합니다.게재 속성에서 전송을 위해 지정된 운영자 또는 그룹(또는 관리자)만 전송을 확인하고 수행할 수 있습니다. <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">이 섹션</a>을 참조하십시오.</p> </td> 
+   <td><p> 특정 연산자 또는 운영자 그룹이 게재 속성에서 게재를 시작하도록 지정된 경우 게재를 담당하는 연산자가 전송을 확인하도록 허용할 수 있습니다.</p><p> 이렇게 하려면 값으로 "1"을 입력하여 옵션을 활성화합니다. 이 옵션을 비활성화하려면 "0"을 입력합니다.</p><p> 전송 확인 프로세스는 기본값으로 작동합니다. 게재 속성에서 전송을 위해 지정된 운영자 또는 그룹(또는 관리자)만 전송을 확인하고 수행할 수 있습니다. <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">이 섹션</a>을 참조하십시오.</p> </td> 
    <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
    <td> Adobe Campaign은 "Nms_DefaultRcpSchema" 전역 변수를 사용하여 기본 수신자 데이터베이스(nms:recipient)와의 대화 상자를 사용합니다.<br /> 옵션 값은 외부 수신자 테이블과 일치하는 스키마 이름과 일치해야 합니다.<br /> </td> 
@@ -73,7 +78,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MaxDelayPerTransac</span> <br /> </td> 
-   <td> 트랜잭션당 로그(broadLogs)를 표에 삽입:일괄 처리당 처리할 행 수<br /> </td> 
+   <td> 트랜잭션당 로그(broadLogs)를 표에 삽입: 일괄 처리당 처리할 행 수<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MidAnalyzeBatchSize</span> <br /> </td> 
@@ -177,19 +182,19 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNAPI_EmailMaxError</span> <br /> </td> 
-   <td> 채널 "이메일"(기본값으로 사용)에서:수신자를 격리하기 전에 보내는 동안 SOFT 오류에 대해 허용되는 최대 오류 수입니다.<br /> </td> 
+   <td> 채널 "이메일"(기본값으로 사용)에서: 수신자를 격리하기 전에 보내는 동안 SOFT 오류에 대해 허용되는 최대 오류 수입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNAPI_EmailSignificantErrorDelay</span> <br /> </td> 
-   <td> 채널 "이메일"(기본값으로 사용)에서:새 SOFT 오류를 고려하기 전에 이전에 참조된 SOFT 오류 이후 최소 체류 기간<br /> </td> 
+   <td> 채널 "이메일"(기본값으로 사용)에서: 새 SOFT 오류를 고려하기 전에 이전에 참조된 SOFT 오류 이후 최소 체류 기간<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNAPI_MobileMaxError</span> <br /> </td> 
-   <td> 채널 "모바일"에서:수신자를 격리하기 전에 보내는 동안 SOFT 오류에 대해 허용되는 최대 오류 수입니다.<br /> </td> 
+   <td> 채널 "모바일"에서: 수신자를 격리하기 전에 보내는 동안 SOFT 오류에 대해 허용되는 최대 오류 수입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNAPI_MobileSignificantErrorDelay</span> <br /> </td> 
-   <td> 채널 "모바일"에서:새 SOFT 오류를 고려하기 전에 이전에 참조된 SOFT 오류 이후 최소 체류 기간<br /> </td> 
+   <td> 채널 "모바일"에서: 새 SOFT 오류를 고려하기 전에 이전에 참조된 SOFT 오류 이후 최소 체류 기간<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
@@ -233,7 +238,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
-   <td> 보낸 SMS 메시지의 매개 변수:메시지 우선 순위를 나타내기 위해 SMS 게이트웨이로 전송되는 정보입니다.<br /> </td> 
+   <td> 보낸 SMS 메시지의 매개 변수: 메시지 우선 순위를 나타내기 위해 SMS 게이트웨이로 전송되는 정보입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_RetryCount</span> <br /> </td> 
@@ -410,7 +415,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPassword</span> <br /> </td> 
-   <td> (설치 호환성 모드:build&gt;6000) 활성화되면(값 "1") 이 옵션을 사용하면 데이터베이스에 저장된 이전 암호를 외부 계정 또는 인스턴스에 연결할 수 있습니다.<br /> </td> 
+   <td> (설치 호환성 모드: build&gt;6000) 활성화되면(값 "1") 이 옵션을 사용하면 데이터베이스에 저장된 이전 암호를 외부 계정 또는 인스턴스에 연결할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
@@ -457,8 +462,8 @@ ht-degree: 1%
    <td> <span class="uicontrol">MC_EnforcedCustomJs</span> <br /> </td> 
    <td> 이벤트를 보강하기 위해 개인화된 JavaScript 라이브러리입니다. 다음 두 함수의 구현을 포함해야 합니다.<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">enifyRtEvents(aiEventId); </span> :데이터베이스의 이벤트를 강화하고 저장합니다(여기서  <span class="uicontrol"></span> aiEventIdid는 처리된 실시간 이벤트 테이블에 해당됨).</p> </li> 
-     <li> <p> <span class="uicontrol">aemBatchEvents(aiEventId); </span> :데이터베이스의 이벤트를 강화하고 저장합니다(여기서  <span class="uicontrol"></span> aiEventIdid는 처리된 배치 이벤트의 ID 테이블에 해당됨).</p> </li> 
+     <li> <p> <span class="uicontrol">enifyRtEvents(aiEventId); </span> : 데이터베이스의 이벤트를 강화하고 저장합니다(여기서  <span class="uicontrol"></span> aiEventIdid는 처리된 실시간 이벤트 테이블에 해당됨).</p> </li> 
+     <li> <p> <span class="uicontrol">aemBatchEvents(aiEventId); </span> : 데이터베이스의 이벤트를 강화하고 저장합니다(여기서  <span class="uicontrol"></span> aiEventIdid는 처리된 배치 이벤트의 ID 테이블에 해당됨).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -469,8 +474,8 @@ ht-degree: 1%
    <td> <span class="uicontrol">MC_RoutingCustomJs</span> <br /> </td> 
    <td> 라우팅 이벤트를 위해 개인화할 JavaScript 라이브러리입니다. 다음 두 함수의 구현을 포함해야 합니다.<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">dispatchRtEvent(iEventId); </span> :실시간 이벤트를 처리하기 위해 선택한 트랜잭션 메시지의 내부 이름을 반환합니다(여기서  <span class="uicontrol"></span> iEventIdid는 처리된 실시간 이벤트의 ID에 해당합니다).</p> </li> 
-     <li> <p> <span class="uicontrol">dispatchBatchEvent(iEventId); </span> :일괄 처리 이벤트를 처리하기 위해 선택한 트랜잭션 메시지의 내부 이름을 반환합니다(여기서  <span class="uicontrol"></span> iEventIdid는 처리된 일괄 처리 이벤트의 ID에 해당합니다).</p> </li> 
+     <li> <p> <span class="uicontrol">dispatchRtEvent(iEventId); </span> : 실시간 이벤트를 처리하기 위해 선택한 트랜잭션 메시지의 내부 이름을 반환합니다(여기서  <span class="uicontrol"></span> iEventIdid는 처리된 실시간 이벤트의 ID에 해당합니다).</p> </li> 
+     <li> <p> <span class="uicontrol">dispatchBatchEvent(iEventId); </span> : 일괄 처리 이벤트를 처리하기 위해 선택한 트랜잭션 메시지의 내부 이름을 반환합니다(여기서  <span class="uicontrol"></span> iEventIdid는 처리된 일괄 처리 이벤트의 ID에 해당합니다).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -630,9 +635,9 @@ ht-degree: 1%
    <tr> 
    <td> <span class="uicontrol">WdbcKillSessionPolicy</span> <br /> </td> 
    <td>다음 잠재적 값에 따라 모든 워크플로우 및 PostgreSQL 데이터베이스 쿼리의 무조건적 정지 동작에 영향을 줄 수 있습니다.<ul>
-    <li><p>0 - 기본값:워크플로 프로세스를 중지하며 데이터베이스에 영향을 주지 않습니다.<p></li>
-    <li><p>1 - pg_cancel_backend:워크플로 프로세스를 중지하고 데이터베이스의 쿼리를 취소합니다<p></li>
-    <li><p>2 - pg_terminate_end:워크플로 프로세스를 중지하고 데이터베이스에서 쿼리를 종료합니다.<p></li></ul></td> 
+    <li><p>0 - 기본값: 워크플로 프로세스를 중지하며 데이터베이스에 영향을 주지 않습니다.<p></li>
+    <li><p>1 - pg_cancel_backend: 워크플로 프로세스를 중지하고 데이터베이스의 쿼리를 취소합니다<p></li>
+    <li><p>2 - pg_terminate_end: 워크플로 프로세스를 중지하고 데이터베이스에서 쿼리를 종료합니다.<p></li></ul></td> 
   </tr>  
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
@@ -652,7 +657,7 @@ ht-degree: 1%
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> 백업 및 복제를 최적화하기 위해 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 옵션은 임시 데이터베이스의 이름에 해당합니다.지정한 경우 작업 테이블이 이 데이터베이스에 작성됩니다. 예:'tempdb.dbo' (이름은 점으로 끝나야 합니다.) <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">자세히 알아보기</a> <br /> </td> 
+   <td> 백업 및 복제를 최적화하기 위해 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 옵션은 임시 데이터베이스의 이름에 해당합니다. 지정한 경우 작업 테이블이 이 데이터베이스에 작성됩니다. 예: 'tempdb.dbo' (이름은 점으로 끝나야 합니다.) <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">자세한 내용</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
@@ -691,7 +696,7 @@ ht-degree: 1%
    <td> 마이그레이션 중에 트리 구조가 새 버전 표준에 따라 자동으로 재구성됩니다.<br /> 이 옵션을 사용하면 탐색 트리의 자동 마이그레이션을 비활성화할 수 있습니다. 이 기능을 사용하는 경우 마이그레이션 후 오래된 폴더를 삭제해야 하며 새 폴더를 추가하고 필요한 모든 검사를 실행해야 합니다.<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">데이터 유형: </span> 정수</p> </li> 
-     <li> <p> <span class="uicontrol">값(텍스트)</span> :3 </p> </li> 
+     <li> <p> <span class="uicontrol">값(텍스트)</span> : 1 </p> </li> 
     </ul> 이 옵션은 기본 제공 탐색 트리가 너무 많은 변경 사항을 거친 경우에만 사용해야 합니다.<br /> 이 작업에 대한 자세한 정보는 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">이 섹션</a>을 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
@@ -700,7 +705,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">PostUpgradeLastError</span> <br /> </td> 
-   <td> 아래 구문 다음에 따라 업그레이드 후 발생한 오류에 대한 정보가 표시됩니다.<br /> <strong>{Build number}:{mode:pre/post/..}:{오류가 발생한 'lessThan'/'greaterOrEquelThan' + sub-step}</strong> </td> 
+   <td> 아래 구문 다음에 따라 업그레이드 후 발생한 오류에 대한 정보가 표시됩니다.<br /> <strong>{Build number}:{mode: pre/post/..}:{오류가 발생한 'lessThan'/'greaterOrEquelThan' + sub-step}</strong> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkCleanup_NoStats</span> <br /> </td> 
@@ -731,13 +736,13 @@ ht-degree: 1%
    <td> <span class="uicontrol">LASTIMPORT_&lt;&gt;_&lt;&gt;</span> <br /> </td> 
    <td> 이 옵션은 CRM 커넥터를 통해 서드파티 시스템에서 데이터를 가져올 때 사용됩니다. 옵션을 활성화하면 마지막 가져오기 이후 수정된 객체만 수집할 수 있습니다. 이 옵션은 다음과 같이 수동으로 만들고 채워야 합니다. 
     <ul> 
-     <li> <p> <span class="uicontrol">내부 이름</span> :LASTIMPORT_&lt;&gt;_&lt;&gt;</p> </li> 
-     <li> <p> <span class="uicontrol">값(필드)</span> :yyyy/MM/dd hh:mm:ss 형식을 사용하는 마지막 가져오기의 날짜입니다. </p> </li> 
+     <li> <p> <span class="uicontrol">내부 이름</span> : LASTIMPORT_&lt;&gt;_&lt;&gt;</p> </li> 
+     <li> <p> <span class="uicontrol">값(필드)</span> : yyyy/MM/dd 형식이 있는 마지막 :mm:가져오기의 날짜입니다. </p> </li> 
     </ul><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_EdgeServer</span> <br /> </td> 
-   <td> 통합에 사용되는 Adobe Target 서버입니다. 이 옵션은 기본적으로 이미 선택되어 있습니다. 이 값은 Adobe Target 도메인 서버에 해당하며 다음에 /m2 값이 옵니다. 예:tt.omtrdc.net/m2<br /><a href="../../integrations/using/configuring-the-integration-with-adobe-target.md"> 이 섹션</a>을 참조하십시오.<br /> </td> 
+   <td> 통합에 사용되는 Adobe Target 서버입니다. 이 옵션은 기본적으로 이미 선택되어 있습니다. 이 값은 Adobe Target 도메인 서버에 해당하며 다음에 /m2 값이 옵니다. 예: tt.omtrdc.net/m2<br /><a href="../../integrations/using/configuring-the-integration-with-adobe-target.md"> 이 섹션</a>을 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_TenantName</span> <br /> </td> 
@@ -1043,7 +1048,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersMode</span> <br /> </td> 
-   <td> 웹 양식의 무효화 모드를 지정할 수 있는 옵션입니다.기본적으로 로컬에서는 옵션이 'tracking'이면 추적 서버를 사용하고 'other server(s)' 옵션이 있는 개인화된 목록을 사용합니다.<br /> </td> 
+   <td> 웹 양식의 무효화 모드를 지정할 수 있는 옵션입니다. 기본적으로 로컬에서는 옵션이 'tracking'이면 추적 서버를 사용하고 'other server(s)' 옵션이 있는 개인화된 목록을 사용합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersURL</span> <br /> </td> 

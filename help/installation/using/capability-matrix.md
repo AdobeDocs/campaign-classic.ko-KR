@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
 # 모델별 기능 매트릭스{#capability-matrix-per-model}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니다. 이러한 모듈 및 모듈의 사용 가능 여부는 설치 배포 유형에 따라 달라질 수 있습니다. 이 문서에서는 전체 호스팅(Managed Services)과 온-프레미스 배포 간의 특정 기능에 대한 주요 차이점에 대한 세부 사항을 공유합니다.
 
@@ -39,16 +41,16 @@ Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니�
 | LDAP 인증 구성 | 사용할 수 없음 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../installation/using/connecting-through-ldap.md) |
 
 
-## 페더레이션 데이터 액세스{#fda}
+## FDA(Federated Data Access){#fda}
 
-Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위해 **Federated Data Access** (FDA) 옵션을 제공합니다.Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다. [자세히 알아보기](../../installation/using/about-fda.md)
+Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위해 **Federated Data Access** (FDA) 옵션을 제공합니다. Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다. [자세히 알아보기](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >
 >FDA를 통해 외부 데이터베이스에 액세스하는 것은 [Snowflake 커넥터](../../installation/using/configure-fda-snowflake.md)를 제외하고 온-프레미스 또는 하이브리드 설치에 대해서만 가능합니다.
 
 
-**참조 -**
+**또한 다음을 참조하십시오**
 
 * [호환성 매트릭스](../../rn/using/compatibility-matrix.md)
 * [릴리스 정보](../../rn/using/latest-release.md)

@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 웹 서비스 정보{#about-web-services}
+
+![](../../assets/v7-only.svg)
 
 ## Adobe Campaign API 정의 {#definition-of-adobe-campaign-apis}
 
@@ -39,7 +41,7 @@ Adobe Campaign API를 사용하기 전에 다음 주제를 알고 있어야 합�
 Adobe Campaign에서는 두 가지 유형의 API를 사용합니다.
 
 * 일반 데이터는 데이터 모델 데이터를 쿼리하기 위해 API에 액세스합니다. [데이터 지향 API](../../configuration/using/data-oriented-apis.md)를 참조하십시오.
-* 각 객체에 대해 작업을 수행할 수 있는 비즈니스 특정 API:게재, 워크플로우, 구독 등 [비즈니스 지향 API](../../configuration/using/business-oriented-apis.md)를 참조하십시오.
+* 각 객체에 대해 작업을 수행할 수 있는 비즈니스 특정 API: 게재, 워크플로우, 구독 등 [비즈니스 지향 API](../../configuration/using/business-oriented-apis.md)를 참조하십시오.
 
 API를 개발하고 Adobe Campaign과 상호 작용하려면 데이터 모델을 숙지해야 합니다. Adobe Campaign에서 베이스에 대한 전체 설명을 생성할 수 있습니다. [모델 설명](../../configuration/using/data-oriented-apis.md#description-of-the-model)을 참조하십시오.
 
@@ -62,7 +64,7 @@ SOAP 메시지의 구조는 다음과 같습니다.
 
 ![](assets/s_ncs_integration_webservices_schema_pres.png)
 
-## &#39;ExecuteQuery&#39; 메서드 {#example-of-a-soap-message-on-the--executequery--method--}의 SOAP 메시지 예
+## &#39;ExecuteQuery&#39; 메서드의 SOAP 메시지 예 {#example-of-a-soap-message-on-the--executequery--method--}
 
 이 예제에서 SOAP 쿼리는 문자열을 인증(세션 토큰)의 매개 변수로 사용하고 실행할 쿼리 설명에 대한 XML 콘텐츠로 가져오는 &quot;ExecuteQuery&quot; 메서드를 호출합니다.
 
@@ -70,7 +72,7 @@ SOAP 메시지의 구조는 다음과 같습니다.
 
 >[!NOTE]
 >
->이 서비스에 대한 WSDL 설명은 여기에 표시된 예제에서 완료됩니다.[웹 서비스 설명:WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
+>이 서비스에 대한 WSDL 설명은 여기에 표시된 예제에서 완료됩니다. [웹 서비스 설명: WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
 
 ### SOAP 쿼리 {#soap-query}
 
@@ -135,15 +137,15 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 
 SOAP 메시지 본문의 `<soap-env:fault>` 요소는 웹 서비스를 처리하는 동안 발생하는 오류 신호를 전달하는 데 사용됩니다. 다음은 다음 하위 요소로 구성됩니다.
 
-* `<faultcode>` :오류 유형을 나타냅니다. 오류 유형은 다음과 같습니다.
+* `<faultcode>` : 오류 유형을 나타냅니다. 오류 유형은 다음과 같습니다.
 
    * 사용된 SOAP 버전과 호환되지 않는 경우 &quot;VersionMismatch&quot;,
    * 메시지 헤더에 문제가 있을 경우 &quot;MustUnderstand&quot;를 참조하십시오.
    * 클라이언트에 정보가 없는 경우 &quot;클라이언트&quot;
    * 서버에서 처리를 실행하는 데 문제가 있는 경우 &quot;서버&quot;가 발생합니다.
 
-* `<faultstring>` :오류를 설명하는 메시지
-* `<detail>` :긴 오류 메시지
+* `<faultstring>` : 오류를 설명하는 메시지
+* `<detail>` : 긴 오류 메시지
 
 `<faultcode>` 요소가 확인되면 서비스 호출의 성공 또는 실패가 식별됩니다.
 

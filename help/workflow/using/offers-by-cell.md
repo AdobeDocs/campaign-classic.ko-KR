@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # 셀별 오퍼{#offers-by-cell}
+
+![](../../assets/common.svg)
 
 **[!UICONTROL Offers by cell]** 활동을 사용하면 인바운드 모집단을 여러 세그먼트로 배포하고 이러한 각 세그먼트에 대해 표시할 오퍼를 지정할 수 있습니다.
 
@@ -30,4 +32,4 @@ ht-degree: 8%
 
       ![](assets/int_offer_per_cell1.png)
 
-1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [채널 간 게재](../../workflow/using/cross-channel-deliveries.md)를 참조하십시오.
+1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [채널 간 게재](cross-channel-deliveries.md)를 참조하십시오.

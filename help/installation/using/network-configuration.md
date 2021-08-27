@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 네트워크 구성{#network-configuration}
+
+![](../../assets/v7-only.svg)
 
 ## 프로세스 간 통신 {#communication-between-processes}
 
@@ -98,7 +100,7 @@ Adobe Campaign 플랫폼의 다양한 애플리케이션 서버 간 내부 통�
  </tbody> 
 </table>
 
-Adobe Campaign 플랫폼의 여러 애플리케이션 서버가 서로 통신해야 하는 경우 Apache Tomcat 서버의 포트를 사용하는 것이 좋습니다(기본적으로:리디렉션 모듈 통합이 수행된 웹 서버의 HTTP 포트보다 8080). 즉, 이 서버 간에 포트를 열어야 합니다.
+Adobe Campaign 플랫폼의 여러 애플리케이션 서버가 서로 통신해야 하는 경우 Apache Tomcat 서버의 포트를 사용하는 것이 좋습니다(기본적으로: 리디렉션 모듈 통합이 수행된 웹 서버의 HTTP 포트보다 8080). 즉, 이 서버 간에 포트를 열어야 합니다.
 
 ### SMS 게재 상태 {#sms-delivery-status}
 
@@ -222,7 +224,7 @@ Adobe Campaign 리치 클라이언트(**nlclient**)의 경우 다음 포트가 �
  </tbody> 
 </table>
 
-## Adobe Experience Manager {#integration-with-adobe-experience-manager}과 통합
+## Adobe Experience Manager과 통합 {#integration-with-adobe-experience-manager}
 
 Adobe Campaign과 Adobe Experience Manager을 통합하려면 설치가 &quot;온-프레미스&quot;인 경우 몇 개의 포트를 열어야 합니다. 이 통합 구성에 대한 자세한 내용은 [세부 설명서](../../integrations/using/about-adobe-experience-manager.md)를 참조하십시오.
 

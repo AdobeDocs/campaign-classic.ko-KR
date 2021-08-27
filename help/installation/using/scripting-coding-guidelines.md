@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 5%
@@ -14,6 +14,8 @@ ht-degree: 5%
 ---
 
 # 스크립팅 및 코딩 지침 {#scripting-coding-guidelines}
+
+![](../../assets/v7-only.svg)
 
 ## 스크립팅
 
@@ -54,7 +56,7 @@ SQL 주입을 방지하려면 Adobe Campaign에서 사용할 허용 목록에 SQ
 >
 >8140보다 오래된 빌드를 사용하는 경우 **XtkPassUnknownSQLFunctionsToRDBMS** 옵션이 &#39;1&#39;로 설정될 수 있습니다. 데이터베이스를 보호하려면 이 옵션을 삭제하거나 &#39;0&#39;으로 설정합니다.
 
-사용자 입력을 사용하여 쿼리 또는 SQL 문에서 필터를 빌드하는 경우 항상 이스케이프 처리를 해야 합니다( [Campaign JSAPI 설명서](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) - 데이터 보호 참조:이스케이프 처리). 이 기능은 다음과 같습니다.
+사용자 입력을 사용하여 쿼리 또는 SQL 문에서 필터를 빌드하는 경우 항상 이스케이프 처리를 해야 합니다( [Campaign JSAPI 설명서](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) - 데이터 보호 참조: 이스케이프 처리). 이 기능은 다음과 같습니다.
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
@@ -164,7 +166,7 @@ DCE에서 캡처를 추가하는 일반적인 방법은 페이지 컨텐츠 내�
 
 1. **[!UICONTROL Script]** 활동을 편집합니다. 콘텐츠는 선택한 Captcha 엔진에 따라 다릅니다.
 
-1. 마지막으로 개인화된 블록을 페이지에 추가할 수 있습니다.[이 페이지](../../web/using/editing-content.md)를 참조하십시오.
+1. 마지막으로 개인화된 블록을 페이지에 추가할 수 있습니다. [이 페이지](../../web/using/editing-content.md)를 참조하십시오.
 
    ![](assets/scripting-captcha4.png)
 
@@ -192,7 +194,7 @@ else
   ctx.vars.captchaValid = true
 ```
 
-6행:오류 메시지를 입력할 수 있습니다.
+6행: 오류 메시지를 입력할 수 있습니다.
 
 ### Google recaptcha
 

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 외부 신호{#external-signal}
+
+![](../../assets/common.svg)
 
 **외부 신호** 활동을 사용하면 워크플로우의 작업 집합 실행을 예약으로 트리거할 수 있습니다.
 
@@ -25,9 +27,9 @@ PostEvent 함수에 대한 자세한 내용은 SOAP 호출에 대한 온라인 �
 
 ![](assets/edit_signal.png)
 
-만료 구성은 [만료](../../workflow/using/defining-approvals.md)에 자세히 설명되어 있습니다.
+만료 구성은 [만료](defining-approvals.md)에 자세히 설명되어 있습니다.
 
-**지연** 필드를 사용하면 선택한 단위로 만료 지연을 지정할 수 있습니다. [Wait](../../workflow/using/wait.md) 를 참조하십시오.
+**지연** 필드를 사용하면 선택한 단위로 만료 지연을 지정할 수 있습니다. [Wait](wait.md) 를 참조하십시오.
 
 각 행은 만료 유형을 나타내며 전환과 일치합니다.
 

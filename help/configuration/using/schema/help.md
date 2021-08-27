@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 17%
@@ -14,6 +14,8 @@ ht-degree: 17%
 ---
 
 # 도움말 요소 {#help--element}
+
+![](../../../assets/v7-only.svg)
 
 ## 컨텐츠 모델 {#content-model-6}
 
@@ -35,7 +37,7 @@ ht-degree: 17%
 
 이 요소를 사용하면 `<element>` 또는 `<attribute>`을 설명할 수 있습니다   요소를 생성하지 않습니다. 텍스트만 포함할 수 있으며 데이터베이스의 XML에 저장됩니다.
 
-## 특성 설명 {#attribute-description-6}
+## 속성 설명 {#attribute-description-6}
 
 이 요소에는 특성이 없습니다.
 

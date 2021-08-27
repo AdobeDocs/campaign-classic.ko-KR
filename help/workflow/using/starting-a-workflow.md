@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 2%
@@ -15,9 +15,11 @@ ht-degree: 2%
 
 # 워크플로우 시작 {#starting-a-workflow}
 
-워크플로우는 항상 수동으로 시작됩니다. 시작되면 스케줄러([스케줄러](../../workflow/using/scheduler.md) 참조) 또는 활동 예약을 통해 지정된 정보에 따라 비활성 상태로 유지될 수 있습니다.
+![](../../assets/common.svg)
 
-타겟팅 워크플로우 실행(실행, 중지, 일시 중지 등)과 관련된 작업 **비동기** 프로세스:주문은 기록되며 서버가 적용되는 즉시 적용됩니다.
+워크플로우는 항상 수동으로 시작됩니다. 시작되면 스케줄러([스케줄러](scheduler.md) 참조) 또는 활동 예약을 통해 지정된 정보에 따라 비활성 상태로 유지될 수 있습니다.
+
+타겟팅 워크플로우 실행(실행, 중지, 일시 중지 등)과 관련된 작업 **비동기** 프로세스: 주문은 기록되며 서버가 적용되는 즉시 적용됩니다.
 
 도구 모음에서 워크플로우 실행을 시작 및 추적할 수 있습니다.
 
@@ -25,7 +27,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->연산자가 워크플로우(시작, 중지, 일시 중지 등)에서 작업을 수행할 때 작업이 바로 실행되지 않고 대신 큐에 배치하여 [워크플로우 모듈](../../workflow/using/architecture.md)에서 처리합니다.
+>연산자가 워크플로우(시작, 중지, 일시 중지 등)에서 작업을 수행할 때 작업이 바로 실행되지 않고 대신 큐에 배치하여 [워크플로우 모듈](architecture.md)에서 처리합니다.
 
 ## 작업 도구 모음 {#actions-toolbar}
 
@@ -35,13 +37,13 @@ ht-degree: 2%
 
 * **[!UICONTROL Start]**
 
-   이 작업을 통해 워크플로우 실행을 시작할 수 있습니다.**완료됨**, **편집됨** 또는 **일시 중지됨**&#x200B;이 상태를 **시작됨**&#x200B;으로 변경하는 워크플로우입니다. 그런 다음 워크플로우 엔진이 이 워크플로우의 실행을 처리합니다. 워크플로우가 일시 중지된 경우에는 다시 시작되고, 그렇지 않으면 워크플로우가 시작부터 시작되고 초기 활동이 활성화됩니다.
+   이 작업을 통해 워크플로우 실행을 시작할 수 있습니다. **완료됨**, **편집됨** 또는 **일시 중지됨**&#x200B;이 상태를 **시작됨**&#x200B;으로 변경하는 워크플로우입니다. 그런 다음 워크플로우 엔진이 이 워크플로우의 실행을 처리합니다. 워크플로우가 일시 중지된 경우에는 다시 시작되고, 그렇지 않으면 워크플로우가 시작부터 시작되고 초기 활동이 활성화됩니다.
 
-   시작하는 것은 비동기 프로세스입니다.요청이 저장되고 워크플로우 서버에 의해 가능한 한 빨리 처리됩니다.
+   시작하는 것은 비동기 프로세스입니다. 요청이 저장되고 워크플로우 서버에 의해 가능한 한 빨리 처리됩니다.
 
 * **[!UICONTROL Pause]**
 
-   이 작업은 워크플로우의 상태를 **일시 중지됨**&#x200B;으로 설정합니다. 워크플로우를 다시 시작할 때까지 활동이 활성화되지 않습니다.그러나 진행 중인 작업은 일시 중지되지 않습니다.
+   이 작업은 워크플로우의 상태를 **일시 중지됨**&#x200B;으로 설정합니다. 워크플로우를 다시 시작할 때까지 활동이 활성화되지 않습니다. 그러나 진행 중인 작업은 일시 중지되지 않습니다.
 
 * **[!UICONTROL Stop]**
 
@@ -51,17 +53,17 @@ ht-degree: 2%
 
 * **[!UICONTROL Restart]**
 
-   이 작업이 중지되고 워크플로우가 다시 시작됩니다. 대부분의 경우 보다 신속하게 다시 시작할 수 있습니다. 또한 일정 시간이 걸리는 중지 시 다시 시작을 자동화하는 것이 유용합니다.워크플로우가 중지되는 경우 &#39;중지&#39; 명령을 사용할 수 없기 때문입니다.
+   이 작업이 중지되고 워크플로우가 다시 시작됩니다. 대부분의 경우 보다 신속하게 다시 시작할 수 있습니다. 또한 일정 시간이 걸리는 중지 시 다시 시작을 자동화하는 것이 유용합니다. 워크플로우가 중지되는 경우 &#39;중지&#39; 명령을 사용할 수 없기 때문입니다.
 
    **[!UICONTROL Start / Pause / Stop / Restart]** 작업은 도구 모음의 실행 아이콘을 통해서도 사용할 수 있습니다. 자세한 정보는 이 [섹션](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow)을 참조하십시오.
 
 * **[!UICONTROL Purge history]**
 
-   이 작업을 통해 워크플로우 내역을 삭제할 수 있습니다. 자세한 내용은 [로그 제거](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs)를 참조하십시오.
+   이 작업을 통해 워크플로우 내역을 삭제할 수 있습니다. 자세한 내용은 [로그 제거](monitoring-workflow-execution.md#purging-the-logs)를 참조하십시오.
 
 * **[!UICONTROL Start in simulation mode]**
 
-   이 옵션을 사용하면 실제 모드와 대조적으로 시뮬레이션 모드에서 워크플로우를 시작할 수 있습니다. 즉, 이 모드를 활성화하면 데이터베이스나 파일 시스템에 영향을 주지 않는 활동만 실행됩니다(예:**[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]** 등. 영향을 주는 활동(예:**[!UICONTROL Export]**, **[!UICONTROL Import]** 등) 또한 그 다음(동일한 분기에 있음)도 실행되지 않습니다.
+   이 옵션을 사용하면 실제 모드와 대조적으로 시뮬레이션 모드에서 워크플로우를 시작할 수 있습니다. 즉, 이 모드를 활성화하면 데이터베이스나 파일 시스템에 영향을 주지 않는 활동만 실행됩니다(예: **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]** 등. 영향을 주는 활동(예: **[!UICONTROL Export]**, **[!UICONTROL Import]** 등) 또한 그 다음(동일한 분기에 있음)도 실행되지 않습니다.
 
 * **[!UICONTROL Execute pending tasks now]**
 
@@ -89,9 +91,9 @@ ht-degree: 2%
 
 마우스 오른쪽 단추 클릭 메뉴에서 다음 옵션을 사용할 수 있습니다.
 
-**[!UICONTROL Open]**:이 옵션을 사용하면 활동 속성에 액세스할 수 있습니다.
+**[!UICONTROL Open]**: 이 옵션을 사용하면 활동 속성에 액세스할 수 있습니다.
 
-**[!UICONTROL Display logs:]** 이 옵션을 사용하면 선택한 활동에 대한 작업 실행 로그를 볼 수 있습니다. [로그 표시](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)를 참조하십시오.
+**[!UICONTROL Display logs:]** 이 옵션을 사용하면 선택한 활동에 대한 작업 실행 로그를 볼 수 있습니다. [로그 표시](monitoring-workflow-execution.md#displaying-logs)를 참조하십시오.
 
 **[!UICONTROL Execute pending task(s) now:]** 이 작업을 수행하면 보류 중인 작업을 가능한 한 빨리 시작할 수 있습니다.
 
@@ -101,7 +103,7 @@ ht-degree: 2%
 
 **[!UICONTROL Copy as bitmap:]** 이 옵션을 사용하면 모든 활동의 스크린샷을 만들 수 있습니다.
 
-**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** 이러한 옵션은 활동 속성의  **[!UICONTROL Advanced]** 탭에서도 사용할 수 있습니다. 이 내용은 [실행](../../workflow/using/advanced-parameters.md#execution)에 자세히 설명되어 있습니다.
+**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** 이러한 옵션은 활동 속성의  **[!UICONTROL Advanced]** 탭에서도 사용할 수 있습니다. 이 내용은 [실행](advanced-parameters.md#execution)에 자세히 설명되어 있습니다.
 
 **[!UICONTROL Save / Cancel:]** 워크플로우 변경 사항을 저장하거나 취소할 수 있습니다.
 

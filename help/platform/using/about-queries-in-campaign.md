@@ -2,18 +2,20 @@
 product: campaign
 title: Campaign의 쿼리 정보
 description: Campaign의 쿼리 정보
-feature: 쿼리 편집기
+feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 83%
+source-wordcount: '177'
+ht-degree: 84%
 
 ---
 
 # 쿼리 시작{#about-queries-in-campaign}
+
+![](../../assets/common.svg)
 
 Adobe Campaign 쿼리 도구는 대상 모집단, 고객 세그먼트, 추적 로그 추출 및 필터, 필터 빌드 등을 만들기 위해 소프트웨어의 여러 수준에서 찾을 수 있습니다. 
 

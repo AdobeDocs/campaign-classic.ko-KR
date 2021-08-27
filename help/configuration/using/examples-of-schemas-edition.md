@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 2%
@@ -15,7 +15,9 @@ ht-degree: 2%
 
 # 스키마 편집 사례{#examples-of-schemas-edition}
 
-## 테이블 {#extending-a-table} 확장
+![](../../assets/v7-only.svg)
+
+## 표 확장 {#extending-a-table}
 
 **nms:recipient** 스키마 수신자 테이블을 확장하려면 다음 절차를 적용합니다.
 
@@ -233,7 +235,7 @@ CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);
 
 ## 관계 테이블 {#relationship-table}
 
-관계 테이블을 사용하면 두 테이블을 카디널리티 N-N과 연결할 수 있습니다.이 표에는 연결할 테이블의 외래 키만 포함되어 있습니다.
+관계 테이블을 사용하면 두 테이블을 카디널리티 N-N과 연결할 수 있습니다. 이 표에는 연결할 테이블의 외래 키만 포함되어 있습니다.
 
 그룹(**nms:group**)과 수신자(**nms:recipient**) 간의 관계 테이블의 예.
 
@@ -297,7 +299,7 @@ CREATE UNIQUE INDEX CusRcpGrpRel_id ON CusRcpGrpRel(iRcpGroupId, iRecipientId);
 CREATE INDEX CusRcpGrpRel_recipientId ON CusRcpGrpRel(iRecipientId);
 ```
 
-## 사용 사례:기존 참조 테이블 {#uc-link}에 필드 연결
+## 사용 사례: 기존 참조 테이블에 필드 연결 {#uc-link}
 
 이 사용 사례에서는 기존 참조 테이블을 기본 제공 Adobe Campaign 열거형 메커니즘(열거형, userEnum 또는 dbEnum)의 대체 요소로 사용하는 방법을 보여 줍니다.
 

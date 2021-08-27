@@ -5,7 +5,7 @@ description: Adobe Experience Manager 정보
 audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # Adobe Experience Manager 정보{#about-adobe-experience-manager}
+
+![](../../assets/common.svg)
 
 Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 Adobe Experience Manager에서 직접 양식을 비롯한 이메일 게재 콘텐츠를 관리할 수 있습니다.
 

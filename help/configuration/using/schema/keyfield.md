@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: fb0862f9-5dcc-49f2-b99b-9822aaf3a680
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 7%
@@ -14,6 +14,8 @@ ht-degree: 7%
 ---
 
 # keyfield 요소 {#keyfield--element}
+
+![](../../../assets/v7-only.svg)
 
 ## 컨텐츠 모델 {#content-model-9}
 
@@ -36,10 +38,10 @@ keyfield:==EMPTY
 
 이 요소는 인덱스 또는 키에 통합할 필드를 정의합니다.
 
-## 특성 설명 {#attribute-description-9}
+## 속성 설명 {#attribute-description-9}
 
-* **xlink(MNTOKEN)**:관계식 테이블(N-N 링크)에 대해 조인에 정의된 외래 키를 자동으로 참조할 수 있도록 해줍니다.
-* **xpath(MNTOKEN)**:요소에 대한 인덱스 또는 키의  `<attribute>`  정의입니다. 이 속성은 키 또는 인덱스를 정의하는 스키마 속성의 경로를 정의하는 Xpath를 수신합니다.
+* **xlink(MNTOKEN)**: 관계식 테이블(N-N 링크)에 대해 조인에 정의된 외래 키를 자동으로 참조할 수 있도록 해줍니다.
+* **xpath(MNTOKEN)**: 요소에 대한 인덱스 또는 키의  `<attribute>`  정의입니다. 이 속성은 키 또는 인덱스를 정의하는 스키마 속성의 경로를 정의하는 Xpath를 수신합니다.
 
 ## 예제 {#examples-}
 

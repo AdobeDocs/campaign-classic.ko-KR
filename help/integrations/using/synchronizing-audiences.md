@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 대상 동기화{#synchronizing-audiences}
+
+![](../../assets/v7-only.svg)
 
 Campaign v7 고급 기능을 사용하여 정교한 목록을 작성하고 이 목록을 Campaign Standard(추가 데이터 포함)와 직접 실시간으로 원활하게 공유할 수 있습니다. 그런 다음 Campaign Standard 사용자는 Adobe Campaign Standard에서 대상을 소비할 수 있습니다.
 
@@ -27,7 +29,7 @@ Campaign Standard에서 복제되지 않은 추가 데이터를 포함하는 복
 >
 >필요한 모든 데이터가 이미 복제되어 있는 경우 Adobe Campaign Standard의 집계 및 컬렉션을 사용하여 데이터를 보강할 수도 있습니다.
 
-## 기본 사항 {#prerequisites}
+## 필수 구성 요소 {#prerequisites}
 
 이를 위해서는 다음을 수행해야 합니다.
 
@@ -143,8 +145,8 @@ Campaign Standard에서 게재 워크플로우를 만들면 이 대상자와 게
 1. 게재 대시보드에서 게재를 보낼 수 있는지 수동으로 확인합니다.
 1. 게재 보고서 및 로그를 모니터링합니다.
 
-   * **Campaign Standard**:게재 [](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) 에  [](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) 대해 게재 관련 보고서 및 로그에 액세스합니다.
-   * **Campaign v7 및 Campaign Standard**:게재 ID, 이메일 브로드 로그 및 이메일 추적 로그는 Campaign v7과 동기화됩니다. 그런 다음 Campaign v7에서 마케팅 캠페인을 360° 볼 수 있습니다.
+   * **Campaign Standard**: 게재 [](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) 에  [](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) 대해 게재 관련 보고서 및 로그에 액세스합니다.
+   * **Campaign v7 및 Campaign Standard**: 게재 ID, 이메일 브로드 로그 및 이메일 추적 로그는 Campaign v7과 동기화됩니다. 그런 다음 Campaign v7에서 마케팅 캠페인을 360° 볼 수 있습니다.
 
       격리는 자동으로 Campaign v7로 다시 동기화됩니다. 이렇게 하면 Campaign v7에서 수행된 다음 타깃팅을 위해 산출물이 아닌 정보를 고려할 수 있습니다.
 

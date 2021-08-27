@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Android용 알림 만들기{#create-notificaations-android}
+
+![](../../assets/common.svg)
 
 Adobe Campaign을 사용하여 Android 장치에서 푸시 알림을 보냅니다. 게재 만들기에 대한 글로벌 개념은 [이 섹션](steps-about-delivery-creation-steps.md)에 나와 있습니다.
 
@@ -35,7 +37,7 @@ Firebase Cloud 메시지 유형에 대한 자세한 내용은 [FCM 설명서](ht
 
 1. **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**(으)로 이동합니다.
 
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
    ![](assets/nmac_android_3.png)
 
@@ -76,7 +78,7 @@ Firebase Cloud 메시지 유형에 대한 자세한 내용은 [FCM 설명서](ht
 
 1. **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**(으)로 이동합니다.
 
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
    ![](assets/nmac_android_3.png)
 
@@ -96,12 +98,12 @@ Firebase Cloud 메시지 유형에 대한 자세한 내용은 [FCM 설명서](ht
 
 1. 제목을 추가하고 메시지를 편집합니다. **[!UICONTROL Notification options]** 을(를) 사용하여 푸시 알림을 개인화합니다.
 
-   * **[!UICONTROL Channel ID]**:알림의 채널 ID를 설정합니다. 이 채널 ID의 알림을 수신하려면 먼저 앱이 이 채널 ID로 채널을 만들어야 합니다.
-   * **[!UICONTROL Sound]**:장치가 알림을 받을 때 재생할 사운드를 설정합니다.
-   * **[!UICONTROL Color]**:알림의 아이콘 색상을 설정합니다.
-   * **[!UICONTROL Icon]**:프로필의 장치에 표시할 알림의 아이콘을 설정합니다.
-   * **[!UICONTROL Tag]**:알림 서랍에서 기존 알림을 바꾸는 데 사용되는 식별자를 설정합니다.
-   * **[!UICONTROL Click action]**:알림에서 사용자 클릭과 연관된 작업을 설정합니다.
+   * **[!UICONTROL Channel ID]**: 알림의 채널 ID를 설정합니다. 이 채널 ID의 알림을 수신하려면 먼저 앱이 이 채널 ID로 채널을 만들어야 합니다.
+   * **[!UICONTROL Sound]**: 장치가 알림을 받을 때 재생할 사운드를 설정합니다.
+   * **[!UICONTROL Color]**: 알림의 아이콘 색상을 설정합니다.
+   * **[!UICONTROL Icon]**: 프로필의 장치에 표시할 알림의 아이콘을 설정합니다.
+   * **[!UICONTROL Tag]**: 알림 서랍에서 기존 알림을 바꾸는 데 사용되는 식별자를 설정합니다.
+   * **[!UICONTROL Click action]**: 알림에서 사용자 클릭과 연관된 작업을 설정합니다.
 
    **[!UICONTROL Notification options]** 및 이러한 필드를 채우는 방법에 대한 자세한 내용은 [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification) 를 참조하십시오.
 
@@ -109,12 +111,12 @@ Firebase Cloud 메시지 유형에 대한 자세한 내용은 [FCM 설명서](ht
 
 1. 애플리케이션이 HTTP v1 API 프로토콜을 사용하여 구성된 경우 다음 **[!UICONTROL HTTPV1 additional options]**&#x200B;을(를) 사용하여 푸시 알림을 추가로 개인화할 수 있습니다.
 
-   * **[!UICONTROL Ticker]**:알림의 티커 텍스트를 설정합니다. Android 5.0 Lollipop으로 설정된 장치에만 사용할 수 있습니다.
-   * **[!UICONTROL Image]**:알림에 표시할 이미지의 URL을 설정합니다.
-   * **[!UICONTROL Notification Count]**:애플리케이션 아이콘에 직접 표시하려면 읽지 않은 새로운 정보의 수를 설정합니다.
-   * **[!UICONTROL Sticky]**:를 true 또는 false로 설정합니다. false로 설정하면 사용자가 클릭하면 알림이 자동으로 해제됩니다. true로 설정하면 사용자가 클릭해도 알림이 계속 표시됩니다.
-   * **[!UICONTROL Notification Priority]**:알림의 우선 순위 수준을 기본값, 최소, 낮음 또는 높음으로 설정합니다. 자세한 내용은 [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority)를 참조하십시오.
-   * **[!UICONTROL Visibility]**:알림의 가시성 수준을 공개, 비공개 또는 비밀로 설정합니다. 자세한 내용은 [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility)를 참조하십시오.
+   * **[!UICONTROL Ticker]**: 알림의 티커 텍스트를 설정합니다. Android 5.0 Lollipop으로 설정된 장치에만 사용할 수 있습니다.
+   * **[!UICONTROL Image]**: 알림에 표시할 이미지의 URL을 설정합니다.
+   * **[!UICONTROL Notification Count]**: 애플리케이션 아이콘에 직접 표시하려면 읽지 않은 새로운 정보의 수를 설정합니다.
+   * **[!UICONTROL Sticky]**: 를 true 또는 false로 설정합니다. false로 설정하면 사용자가 클릭하면 알림이 자동으로 해제됩니다. true로 설정하면 사용자가 클릭해도 알림이 계속 표시됩니다.
+   * **[!UICONTROL Notification Priority]**: 알림의 우선 순위 수준을 기본값, 최소, 낮음 또는 높음으로 설정합니다. 자세한 내용은 [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority)를 참조하십시오.
+   * **[!UICONTROL Visibility]**: 알림의 가시성 수준을 공개, 비공개 또는 비밀로 설정합니다. 자세한 내용은 [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility)를 참조하십시오.
 
    **[!UICONTROL HTTP v1 additional options]** 및 이러한 필드를 채우는 방법에 대한 자세한 내용은 [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification) 를 참조하십시오.
 

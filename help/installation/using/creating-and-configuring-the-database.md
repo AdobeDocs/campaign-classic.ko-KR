@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1296'
 ht-degree: 1%
@@ -15,10 +15,12 @@ ht-degree: 1%
 
 # 데이터베이스 만들기 및 구성{#creating-and-configuring-the-database}
 
+![](../../assets/v7-only.svg)
+
 데이터베이스를 만들 때 Adobe Campaign에서는 두 가지 옵션을 제공합니다.
 
-1. 데이터베이스 만들기 또는 재활용:새 데이터베이스를 만들거나 기존 데이터베이스를 다시 사용하려면 이 옵션을 선택합니다. [사례 1 을 참조하십시오.데이터베이스 만들기/재활용](#case-1--creating-recycling-a-database).
-1. 기존 데이터베이스 사용:관리자가 빈 데이터베이스를 이미 만들어 사용하고 이를 사용하려면 이 옵션을 선택합니다.또는 기존 데이터베이스의 구조를 확장합니다. [사례 2 를 참조하십시오.기존 데이터베이스 사용](#case-2--using-an-existing-database).
+1. 데이터베이스 만들기 또는 재활용: 새 데이터베이스를 만들거나 기존 데이터베이스를 다시 사용하려면 이 옵션을 선택합니다. [사례 1 을 참조하십시오. 데이터베이스 만들기/재활용](#case-1--creating-recycling-a-database).
+1. 기존 데이터베이스 사용: 관리자가 빈 데이터베이스를 이미 만들어 사용하고 이를 사용하려면 이 옵션을 선택합니다. 또는 기존 데이터베이스의 구조를 확장합니다. [사례 2 를 참조하십시오. 기존 데이터베이스 사용](#case-2--using-an-existing-database).
 
 향후 구성 단계에 대해 자세히 설명합니다.
 
@@ -28,7 +30,7 @@ ht-degree: 1%
 >
 >**internal** 식별자만 이러한 작업을 수행할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)을 참조하십시오.
 
-## 사례 1:데이터베이스 만들기/재활용 {#case-1--creating-recycling-a-database}
+## 사례 1: 데이터베이스 만들기/재활용 {#case-1--creating-recycling-a-database}
 
 데이터베이스를 만들거나 기존 베이스를 재활용하는 단계는 아래에 나와 있습니다. 일부 구성은 사용된 데이터베이스 엔진에 따라 다릅니다.
 
@@ -57,15 +59,15 @@ ht-degree: 1%
 
 * **Oracle** 엔진의 경우 애플리케이션 서버에 대해 정의된 **TNS 이름**&#x200B;을 채웁니다.
 * **PostgreSQL** 또는 **DB2** 엔진의 경우 데이터베이스 서버에 액세스하려면 응용 프로그램 서버에 정의된 DNS 이름(또는 IP 주소)을 지정해야 합니다.
-* **Microsoft SQL Server** 엔진의 경우 다음을 정의해야 합니다.데이터베이스 서버에 액세스하기 위해 응용 프로그램 서버에 정의된 DNS 이름(또는 IP 주소)입니다.**DNS** 또는 **DNS`\<instance>`**(인스턴스 모드),
+* **Microsoft SQL Server** 엔진의 경우 다음을 정의해야 합니다. 데이터베이스 서버에 액세스하기 위해 응용 프로그램 서버에 정의된 DNS 이름(또는 IP 주소)입니다. **DNS** 또는 **DNS`\<instance>`**(인스턴스 모드),
 
    >[!CAUTION]
    >
-   > 20.3부터 Windows NT 인증이 해제됩니다. **[!UICONTROL SQL Server authentication]** 이제 Microsoft SQL Server에서 사용할 수 있는 유일한 인증 모드입니다. [자세히 알아보기](../../rn/using/deprecated-features.md)
+   > 20.3부터 Windows NT 인증이 해제됩니다. **[!UICONTROL SQL Server authentication]** 이제 Microsoft SQL Server에서 사용할 수 있는 유일한 인증 모드입니다. [자세히 표시](../../rn/using/deprecated-features.md)
 
    ![](assets/s_ncs_install_db_mssql_creation01.png)
 
-### 2단계 - 서버 {#step-2---connecting-to-the-server}에 연결
+### 2단계 - 서버에 연결 {#step-2---connecting-to-the-server}
 
 **[!UICONTROL Server access]** 창에서 데이터베이스 서버 액세스를 정의합니다.
 
@@ -78,7 +80,7 @@ ht-degree: 1%
 * **** PostgreSQL 데이터베이스의 포스트gress,
 * **db2inst1** 을 참조하십시오.
 
-### 3단계 - 데이터베이스 {#step-3---connection-and-characteristics-of-the-database} 연결 및 특성
+### 3단계 - 데이터베이스의 연결 및 특성 {#step-3---connection-and-characteristics-of-the-database}
 
 다음 단계에서는 데이터베이스에 로그온하기 위한 설정을 구성할 수 있습니다.
 
@@ -107,7 +109,7 @@ ht-degree: 1%
 
    자세한 내용은 [시간대 관리](../../installation/using/time-zone-management.md)를 참조하십시오.
 
-### 4단계 - 패키지 {#step-4---packages-to-install} 설치
+### 4단계 - 설치할 패키지 {#step-4---packages-to-install}
 
 설치할 패키지를 선택합니다.
 
@@ -123,12 +125,12 @@ ht-degree: 1%
 
 * oracle, Microsoft SQL Server 또는 PostgreSQL 데이터베이스의 경우 관리자는 데이터베이스 개체를 만들 때 사용할 **저장소 매개 변수**&#x200B;도 정의할 수 있습니다.
 
-   이러한 매개변수는 정확한 테이블스페이스 이름을 받습니다(경고:대/소문자를 구분합니다.) 이러한 속성은 각각 다음 옵션의 **[!UICONTROL Administration > Platform > Options]** 노드에 저장됩니다( [이 섹션](../../installation/using/configuring-campaign-options.md#database) 참조).
+   이러한 매개변수는 정확한 테이블스페이스 이름을 받습니다(경고: 대/소문자를 구분합니다.) 이러한 속성은 각각 다음 옵션의 **[!UICONTROL Administration > Platform > Options]** 노드에 저장됩니다( [이 섹션](../../installation/using/configuring-campaign-options.md#database) 참조).
 
-   * **WdbcOptions_TableSpaceUser**:스키마를 기반으로 하는 사용자 테이블
-   * **WdbcOptions_TableSpaceIndex**:스키마를 기반으로 하는 사용자 테이블 인덱스
-   * **WdbcOptions_TableSpaceWork**:스키마가 없는 작업 테이블
-   * **WdbcOptions_TableSpaceWorkIndex**:스키마가 없는 작업 테이블 인덱스
+   * **WdbcOptions_TableSpaceUser**: 스키마를 기반으로 하는 사용자 테이블
+   * **WdbcOptions_TableSpaceIndex**: 스키마를 기반으로 하는 사용자 테이블 인덱스
+   * **WdbcOptions_TableSpaceWork**: 스키마가 없는 작업 테이블
+   * **WdbcOptions_TableSpaceWorkIndex**: 스키마가 없는 작업 테이블 인덱스
 
 * oracle 데이터베이스의 경우 Adobe Campaign 사용자는 Oracle 라이브러리에 액세스할 수 있어야 합니다. 즉, 일반적으로 **oinstall** 그룹의 구성원이어야 합니다.
 * **[!UICONTROL Set or change the administrator password]** 옵션을 사용하면 관리자 권한이 있는 Adobe Campaign 연산자에 연결된 암호를 입력할 수 있습니다.
@@ -153,11 +155,11 @@ ht-degree: 1%
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
 ```
 
-## 사례 2:기존 데이터베이스 사용 {#case-2--using-an-existing-database}
+## 사례 2: 기존 데이터베이스 사용 {#case-2--using-an-existing-database}
 
 데이터베이스와 사용자는 데이터베이스 관리자가 만들고 액세스 권한이 올바르게 구성되어 있어야 합니다.
 
-예를 들어 Oracle 데이터베이스의 경우 필요한 최소 권한은 다음과 같습니다.CONNECT, 리소스 및 무제한 테이블스페이스를 부여합니다.
+예를 들어 Oracle 데이터베이스의 경우 필요한 최소 권한은 다음과 같습니다. CONNECT, 리소스 및 무제한 테이블스페이스를 부여합니다.
 
 기존 데이터베이스를 사용하기 위해 구성 단계는 다음과 같습니다.
 
@@ -184,7 +186,7 @@ ht-degree: 1%
 * **Microsoft SQL Server** 엔진의 경우 다음을 정의해야 합니다.
 
    1. 데이터베이스 서버에 액세스하기 위해 응용 프로그램 서버에 정의된 DNS 이름(또는 IP 주소)입니다.
-   1. Microsoft SQL Server에 액세스하는 데 사용되는 보안 방법:**[!UICONTROL SQL Server authentication]** 또는 **[!UICONTROL Windows NT authentication]**
+   1. Microsoft SQL Server에 액세스하는 데 사용되는 보안 방법: **[!UICONTROL SQL Server authentication]** 또는 **[!UICONTROL Windows NT authentication]**
 
       ![](assets/s_ncs_install_db_mssql_exists_01.png)
 
@@ -206,7 +208,7 @@ ht-degree: 1%
 
 * 데이터베이스가 유니코드인지 여부를 나타냅니다.
 
-### 3단계 - 패키지 {#step-3---packages-to-install} 설치
+### 3단계 - 설치할 패키지 {#step-3---packages-to-install}
 
 설치할 패키지를 선택합니다.
 

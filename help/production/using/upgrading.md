@@ -6,14 +6,16 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1149'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 새 빌드로 업그레이드(온-프레미스){#upgrading}
+
+![](../../assets/v7-only.svg)
 
 업그레이드 프로세스를 시작하기 전에 업그레이드할 Adobe Campaign 버전을 확인하고 [릴리스 노트](../../rn/using/latest-release.md) 를 참조하십시오.
 
@@ -24,7 +26,6 @@ ht-degree: 2%
 >* 시작하기 전에 [이 섹션](../../installation/using/general-architecture.md) 및 [빌드 업그레이드](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html) 장을 읽어보십시오.
 
 >
-
 
 
 ## Windows {#in-windows}
@@ -48,7 +49,7 @@ Windows 환경에서 아래 절차에 따라 Adobe Campaign을 새 빌드로 업
 
       **isreset /stop**
 
-   * Adobe Campaign 서비스:**net stop nlserver6**
+   * Adobe Campaign 서비스: **net stop nlserver6**
    >[!IMPORTANT]
    >
    >또한 리디렉션 서버(webmdl)가 중지되어 IIS에서 사용하는 **nlsrvmod.dll** 파일을 새 버전으로 대체할 수 있는지 확인해야 합니다.
@@ -63,17 +64,17 @@ Windows 환경에서 아래 절차에 따라 Adobe Campaign을 새 빌드로 업
 
    Windows 작업 관리자를 사용하여 모든 프로세스가 중지되었는지 확인할 수 있습니다.
 
-### Adobe Campaign 서버 애플리케이션 {#upgrade-the-adobe-campaign-server-application} 업그레이드
+### Adobe Campaign 서버 애플리케이션 업그레이드 {#upgrade-the-adobe-campaign-server-application}
 
 업그레이드 파일을 실행하려면 다음 단계를 수행합니다.
 
 1. **setup.exe**&#x200B;를 실행합니다.
 
-   이 파일을 다운로드하려면 사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하십시오. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)에서 소프트웨어 배포에 대해 자세히 알아보십시오.
+   이 파일을 다운로드하려면 사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에 연결하십시오. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko?lang=en)에서 소프트웨어 배포에 대해 자세히 알아보십시오.
 
-1. 설치 모드를 선택합니다.**[!UICONTROL Update or repair]** 선택
-1. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
+1. 설치 모드를 선택합니다. **[!UICONTROL Update or repair]** 선택
+1. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
 
    그런 다음 설치 프로그램이 새 파일을 복사합니다.
 
@@ -97,7 +98,7 @@ Windows 환경에서 아래 절차에 따라 Adobe Campaign을 새 빌드로 업
 
 그런 다음 동기화에 오류나 경고가 생성되었는지 확인합니다. 자세한 내용은 [업그레이드 충돌 해결](#resolving-upgrade-conflicts) 을 참조하십시오.
 
-### 서비스 {#restart-services} 다시 시작
+### 서비스 다시 시작 {#restart-services}
 
 다시 시작할 서비스는 다음과 같습니다.
 
@@ -105,7 +106,7 @@ Windows 환경에서 아래 절차에 따라 Adobe Campaign을 새 빌드로 업
 
    **isreset /start**
 
-* Adobe Campaign 서비스:**net start nlserver6**
+* Adobe Campaign 서비스: **net start nlserver6**
 
 ## Linux {#in-linux}
 
@@ -123,7 +124,7 @@ Linux 환경에서 아래 절차에 따라 Adobe Campaign을 새 빌드로 업�
 
 ### 업데이트된 패키지 가져오기 {#obtain-updated-packages}
 
-먼저 Adobe Campaign의 업데이트된 두 패키지를 모두 복구하십시오.사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)에서 소프트웨어 배포에 대해 자세히 알아보십시오.
+먼저 Adobe Campaign의 업데이트된 두 패키지를 모두 복구하십시오. 사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)에서 소프트웨어 배포에 대해 자세히 알아보십시오.
 
 파일은 **nlserver6-v7-XXX.rpm**&#x200B;입니다.
 
@@ -157,7 +158,7 @@ Linux 환경에서 아래 절차에 따라 Adobe Campaign을 새 빌드로 업�
 >
 >전체 설치 절차는 [이 섹션](../../installation/using/installing-campaign-standard-packages.md)에 자세히 설명되어 있습니다. 리소스는 자동으로 동기화되지만 오류가 발생하지 않았는지 확인해야 합니다. 자세한 내용은 [업그레이드 충돌 해결](#resolving-upgrade-conflicts) 을 참조하십시오.
 
-### 웹 서버 {#reboot-the-web-server} 다시 부팅
+### 웹 서버 다시 부팅 {#reboot-the-web-server}
 
 새 라이브러리를 적용하려면 Apache를 종료해야 합니다.
 
@@ -173,8 +174,7 @@ Linux 환경에서 아래 절차에 따라 Adobe Campaign을 새 빌드로 업�
 >* 다음 응답을 받을 때까지 이 명령을 실행해야 합니다.
 
    >
-   >   
-   Apache가 새 라이브러리를 적용하려면 이 작업이 필요합니다.
+   >   Apache가 새 라이브러리를 적용하려면 이 작업이 필요합니다.
 
 
 그런 다음 Apache를 다시 시작합니다.
@@ -204,7 +204,7 @@ Linux 환경에서 아래 절차에 따라 Adobe Campaign을 새 빌드로 업�
 
    경고 시 리소스 충돌이 발생할 경우 이를 해결하기 위해서는 사용자의 주의가 필요합니다.
 
-* **postupgrade_`<server version number>_<time of postupgrade>`.log** 로그 파일에 동기화 결과가 포함되어 있습니다. 기본적으로 다음 디렉토리에서 사용할 수 있습니다.**`<installation directory>/var/<instance/postupgrade`** 오류와 경고는 오류 및 경고 속성으로 표시됩니다.
+* **postupgrade_`<server version number>_<time of postupgrade>`.log** 로그 파일에 동기화 결과가 포함되어 있습니다. 기본적으로 다음 디렉토리에서 사용할 수 있습니다. **`<installation directory>/var/<instance/postupgrade`** 오류와 경고는 오류 및 경고 속성으로 표시됩니다.
 
 ### 충돌 해결 {#resolving-conflicts}
 
@@ -215,9 +215,9 @@ Linux 환경에서 아래 절차에 따라 Adobe Campaign을 새 빌드로 업�
 
 분쟁을 해결하는 방법에는 세 가지가 있습니다.
 
-* **[!UICONTROL Declare as resolved]** :미리 사용자 개입이 필요합니다.
-* **[!UICONTROL Accept the new version]** :사용자가 Adobe Campaign과 함께 제공한 리소스를 변경하지 않은 경우 권장합니다.
-* **[!UICONTROL Keep the current version]** :은(는) 업데이트가 거부됨을 의미합니다.
+* **[!UICONTROL Declare as resolved]** : 미리 사용자 개입이 필요합니다.
+* **[!UICONTROL Accept the new version]** : 사용자가 Adobe Campaign과 함께 제공한 리소스를 변경하지 않은 경우 권장합니다.
+* **[!UICONTROL Keep the current version]** : 은(는) 업데이트가 거부됨을 의미합니다.
 
    >[!IMPORTANT]
    >
@@ -234,15 +234,15 @@ Linux 환경에서 아래 절차에 따라 Adobe Campaign을 새 빌드로 업�
    ![](assets/s_ncs_production_conflict003.png)
 
 1. 해결된 충돌로 이동합니다. **[!UICONTROL Actions]** 아이콘을 클릭하고 **[!UICONTROL Declare as resolved]** 를 선택합니다.
-1. 변경 사항을 저장합니다.이제 충돌이 해결되었습니다.
+1. 변경 사항을 저장합니다. 이제 충돌이 해결되었습니다.
 
-### 권장사항 {#best-practices}
+### 모범 사례 {#best-practices}
 
 업데이트 실패 시 데이터베이스 구성에 연결할 수 있습니다. 기술 관리자 및 데이터베이스 관리자가 수행한 구성이 호환되는지 확인합니다.
 
 예를 들어, 유니코드 데이터베이스는 LATIN1 데이터 등의 저장 권한을 부여해야 합니다.
 
-## 사용 가능한 업데이트 {#warn-the-client-consoles-of-the-available-update}의 클라이언트 콘솔에 경고
+## 사용 가능한 업데이트의 클라이언트 콘솔에 대해 경고 {#warn-the-client-consoles-of-the-available-update}
 
 ### Windows {#in-windows-1}
 

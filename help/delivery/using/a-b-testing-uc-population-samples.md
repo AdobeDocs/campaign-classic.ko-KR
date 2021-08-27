@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 7%
@@ -14,6 +14,8 @@ ht-degree: 7%
 ---
 
 # 모집단 샘플 구성 {#step-2--configuring-population-samples}
+
+![](../../assets/common.svg)
 
 ## 쿼리 활동 구성 {#configuring-the-query-activity}
 
@@ -31,7 +33,7 @@ ht-degree: 7%
 
 ## 분할 활동 구성 {#configuring-the-split-activity}
 
-이 활동을 사용하면 여러 모집단을 만들 수 있습니다.배달 A를 받는 사람, 배달 B를 받는 사람 및 나머지 모집단을 말합니다. 임의 선택을 사용하면 각 게재의 모집단의 일부만 타겟팅할 수 있습니다.
+이 활동을 사용하면 여러 모집단을 만들 수 있습니다. 배달 A를 받는 사람, 배달 B를 받는 사람 및 나머지 모집단을 말합니다. 임의 선택을 사용하면 각 게재의 모집단의 일부만 타겟팅할 수 있습니다.
 
 1. 모집단 A 만들기:
 

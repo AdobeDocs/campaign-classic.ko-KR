@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 보고서 관리{#managing-reports}
+
+![](../../assets/v7-only.svg)
 
 기본 Adobe Campaign 수신자(nm:recipient 또는 schema linked)에 해당하는 스키마를 기반으로 하는 보고서(nm:recipient 또는 schema linked)는 사용자 지정 테이블의 데이터와 대상 매핑을 통해 연결된 해당 테이블의 데이터를 고려하여 다시 개발해야 합니다( [Target 매핑](../../configuration/using/target-mapping.md) 섹션 참조).
 
@@ -23,10 +25,10 @@ ht-degree: 4%
 
 다음 보고서가 관련 있습니다.
 
-* **[!UICONTROL Recent proposition tracking]** (recentProposition):실시간 제안 추적.
-* **[!UICONTROL Breakdown of opens]** (openByUserAgent):는 사용자 소프트웨어에 따라 분류됩니다.
-* **[!UICONTROL Statistics of the sharing activities]** (forwardActivities):기간별 활동, 열기 및 구독 공유 분석
-* **[!UICONTROL Tracking indicators]** (mobileAppDeliveryFeedback):모바일 애플리케이션에서 게재를 위한 추적 지표.
-* **[!UICONTROL Offer analysis]** (offerAnalysis):날짜 및 채널당 오퍼 분석.
-* **[!UICONTROL Reactivity rate]** (mobileAppDistribution):최신 게재에 대한 반응성 비율입니다.
-* **[!UICONTROL Breakdown of subscriptions]** (mobileAppDistribution):모바일 애플리케이션별 활성 구독 분류.
+* **[!UICONTROL Recent proposition tracking]** (recentProposition): 실시간 제안 추적.
+* **[!UICONTROL Breakdown of opens]** (openByUserAgent): 는 사용자 소프트웨어에 따라 분류됩니다.
+* **[!UICONTROL Statistics of the sharing activities]** (forwardActivities): 기간별 활동, 열기 및 구독 공유 분석
+* **[!UICONTROL Tracking indicators]** (mobileAppDeliveryFeedback): 모바일 애플리케이션에서 게재를 위한 추적 지표.
+* **[!UICONTROL Offer analysis]** (offerAnalysis): 날짜 및 채널당 오퍼 분석.
+* **[!UICONTROL Reactivity rate]** (mobileAppDistribution): 최신 게재에 대한 반응성 비율입니다.
+* **[!UICONTROL Breakdown of subscriptions]** (mobileAppDistribution): 모바일 애플리케이션별 활성 구독 분류.

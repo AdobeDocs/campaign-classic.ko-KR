@@ -2,18 +2,20 @@
 product: campaign
 title: 커넥터 정보
 description: 커넥터 정보
-feature: 개요
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 8%
 
 ---
 
 # 커넥터 시작{#about-connectors}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign은 외부 애플리케이션과 통신하고, 데이터베이스 엔진에 연결하고, 데이터를 공유하도록 Adobe Analytics과 통합할 수 있는 몇 가지 커넥터를 제공합니다.
 

@@ -5,11 +5,11 @@ product: campaign
 title: Campaign Classic v7 안내서
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
-sub-product: Aadobe Campaign Classic
+sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a54a6f9b8afedf8a200b80b027f908163faebeaa
+source-git-commit: a066eedd2ba7848f6dcefcb1476a0b834cb1d49a
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2522'
 ht-degree: 99%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 99%
       + [릴리스 18.4](rn/using/release--18-4.md)
    + [사용되지 않는 기능](rn/using/deprecated-features.md)
    + [호환성 매트릭스](rn/using/compatibility-matrix.md)
-   + [기술 노트](technotes/technote.md)
-   + [iOS 인증서 업데이트](technotes/ios-certificate-update.md)
-   + [Campaign 구성 업데이트](technotes/acc-config-updates.md)
-   + [추적된 URL 업데이트](technotes/tracked-urls.md)
-   + [IMS 업데이트](technotes/ims-updates.md)
+   + [기술 노트](technotes/using/technote.md)
+   + [iOS 인증서 업데이트](technotes/using/ios-certificate-update.md)
+   + [Campaign 구성 업데이트](technotes/using/acc-config-updates.md)
+   + [추적된 URL 업데이트](technotes/using/tracked-urls.md)
+   + [IMS 업데이트](technotes/using/ims-updates.md)
 + 시작 {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic 시작](platform/using/about-adobe-campaign-classic.md)
@@ -118,7 +118,7 @@ ht-degree: 99%
          + [CRM과 데이터 동기화](platform/using/crm-data-sync.md)
       + Adobe Analytics 커넥터{#analytics-connector}
          + [Adobe Analytics 커넥터 통합](platform/using/adobe-analytics-connector.md)
-         + [Adobe Analytics Connector로 마이그레이션하는 방법](technotes/aa-connector-migration.md)
+         + [Adobe Analytics Connector로 마이그레이션하는 방법](technotes/using/aa-connector-migration.md)
          + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector-legacy.md)
    + [도움말 및 지원 옵션](support.md)
 + 메시지 만들기 및 보내기 {#sending-messages}
@@ -263,13 +263,13 @@ ht-degree: 99%
       + [캠페인 모니터링](campaign/using/marketing-campaign-monitoring.md)
       + [공급자, 재고 및 예산](campaign/using/providers--stocks-and-budgets.md)
    + 캠페인 최적화 {#campaign-optimization}
-      + [캠페인 유형 분류 정보](campaign/using/about-campaign-typologies.md)
-      + [압력 규칙](campaign/using/pressure-rules.md)
-      + [일관성 규칙](campaign/using/consistency-rules.md)
-      + [제어 규칙](campaign/using/control-rules.md)
-      + [필터링 규칙](campaign/using/filtering-rules.md)
-      + [규칙 적용](campaign/using/applying-rules.md)
-      + [캠페인 시뮬레이션](campaign/using/campaign-simulations.md)
+      + [캠페인 유형 분류 정보](campaign-opt/using/about-campaign-typologies.md)
+      + [압력 규칙](campaign-opt/using/pressure-rules.md)
+      + [일관성 규칙](campaign-opt/using/consistency-rules.md)
+      + [제어 규칙](campaign-opt/using/control-rules.md)
+      + [필터링 규칙](campaign-opt/using/filtering-rules.md)
+      + [규칙 적용](campaign-opt/using/applying-rules.md)
+      + [캠페인 시뮬레이션](campaign-opt/using/campaign-simulations.md)
 + 마케팅 리소스 관리 {#mrm}
    + [마케팅 리소스 관리 정보](mrm/using/about-marketing-resource-management.md)
    + [작업 만들기 및 관리](mrm/using/creating-and-managing-tasks.md)
@@ -277,19 +277,19 @@ ht-degree: 99%
    + [마케팅 리소스 관리](mrm/using/managing-marketing-resources.md)
    + [토론 포럼](mrm/using/discussion-forums.md)
 + 분산 마케팅 {#distributed-marketing}
-   + [분산 마케팅 정보](campaign/using/about-distributed-marketing.md)
-   + [로컬 캠페인 만들기](campaign/using/creating-a-local-campaign.md)
-   + [공동 캠페인 만들기](campaign/using/creating-a-collaborative-campaign.md)
-   + [캠페인 패키지 게시](campaign/using/publishing-the-campaign-package.md)
-   + [캠페인 액세스](campaign/using/accessing-campaigns.md)
-   + [캠페인 추적](campaign/using/tracking-a-campaign.md)
-   + [활용 사례](campaign/using/examples.md)
+   + [분산 마케팅 정보](distributed/using/about-distributed-marketing.md)
+   + [로컬 캠페인 만들기](distributed/using/creating-a-local-campaign.md)
+   + [공동 캠페인 만들기](distributed/using/creating-a-collaborative-campaign.md)
+   + [캠페인 패키지 게시](distributed/using/publishing-the-campaign-package.md)
+   + [캠페인 액세스](distributed/using/accessing-campaigns.md)
+   + [캠페인 추적](distributed/using/tracking-a-campaign.md)
+   + [활용 사례](distributed/using/examples.md)
 + 응답 관리자 {#response-manager}
-   + [응답 관리자 시작](campaign/using/about-response-manager.md)
-   + [구성](campaign/using/configuration.md)
-   + [가설 템플릿](campaign/using/hypothesis-templates.md)
-   + [가설 만들기](campaign/using/creating-hypotheses.md)
-   + [가설 추적](campaign/using/hypothesis-tracking.md)
+   + [응답 관리자 시작](response/using/about-response-manager.md)
+   + [구성](response/using/configuration.md)
+   + [가설 템플릿](response/using/hypothesis-templates.md)
+   + [가설 만들기](response/using/creating-hypotheses.md)
+   + [가설 추적](response/using/hypothesis-tracking.md)
 + 보고서 디자인 및 공유 {#reporting}
    + 보고 시작하기 {#reporting-in-adobe-campaign}
       + [보고 도구](reporting/using/about-adobe-campaign-reporting-tools.md)

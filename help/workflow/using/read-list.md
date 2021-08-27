@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 목록 읽기{#read-list}
+
+![](../../assets/common.svg)
 
 워크플로우에서 처리된 데이터는 이전 세그먼테이션이나 파일 업로드 후 데이터를 미리 준비하거나 구조화한 목록에서 가져올 수 있습니다.
 
@@ -37,7 +39,7 @@ ht-degree: 0%
 
 홈 페이지의 **[!UICONTROL Profiles and Targets > Lists]** 링크를 통해 Adobe Campaign에서 직접 목록을 만들 수 있습니다. 또한 **[!UICONTROL List update]** 활동을 사용하여 워크플로우에서 만들 수도 있습니다.
 
-**예:보내기 주소 목록 제외**
+**예: 보내기 주소 목록 제외**
 
 다음 예제에서는 이메일 주소 목록을 사용하여 이메일 게재 타겟에서 제외할 수 있습니다.
 
@@ -61,9 +63,9 @@ ht-degree: 0%
 
    활동의 수신 전환 수에 따라 여러 제외를 정의할 수 있습니다.
 
-1. **[!UICONTROL Exclusion set]** 필드에서 **[!UICONTROL Read list]** 활동을 선택합니다.이 활동의 데이터는 기본 집합에서 제외됩니다.
+1. **[!UICONTROL Exclusion set]** 필드에서 **[!UICONTROL Read list]** 활동을 선택합니다. 이 활동의 데이터는 기본 집합에서 제외됩니다.
 
-   이 예제에서는 조인에 대한 제외가 있습니다.목록에 포함된 데이터는 이메일 주소가 포함된 필드를 통해 기본 세트의 데이터와 조정됩니다. 조인을 구성하려면 **[!UICONTROL Change dimension]** 필드에서 **[!UICONTROL Joins]** 을 선택합니다.
+   이 예제에서는 조인에 대한 제외가 있습니다. 목록에 포함된 데이터는 이메일 주소가 포함된 필드를 통해 기본 세트의 데이터와 조정됩니다. 조인을 구성하려면 **[!UICONTROL Change dimension]** 필드에서 **[!UICONTROL Joins]** 을 선택합니다.
 
    ![](assets/s_advuser_list_read_sample_4.png)
 

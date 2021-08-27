@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '292'
 ht-degree: 8%
 
 ---
 
 # 크로스 채널 게재{#cross-channel-deliveries}
+
+![](../../assets/common.svg)
 
 크로스 채널 게재는 캠페인 워크플로우 활동의 **[!UICONTROL Deliveries]** 탭에서 사용할 수 있습니다.
 
@@ -22,8 +24,8 @@ ht-degree: 8%
 * [이메일](../../delivery/using/about-email-channel.md)
 * [DM](../../delivery/using/about-direct-mail-channel.md)
 * [모바일](../../delivery/using/sms-channel.md)
-* [Twitter](../../social/using/publishing-on-twitter.md)
-* [Facebook](../../social/using/publishing-on-facebook.md)
+* [Twitter](../../social/using/publishing-on-twitter.md) (Campaign Classic v7만 해당)
+* [Facebook](../../social/using/publishing-on-facebook.md) (Campaign Classic v7만 해당)
 * [iOS](../../delivery/using/create-notifications-ios.md)
 * [Android](../../delivery/using/create-notifications-android.md)
 

@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 1%
@@ -15,9 +15,11 @@ ht-degree: 1%
 
 # 추적 문제 해결 {#tracking-troubleshooting}
 
+![](../../assets/common.svg)
+
 이 섹션에서는 Adobe Campaign Classic에서 구성 및 구현 추적과 관련된 일반적인 질문을 확인할 수 있습니다.
 
-## 추적 워크플로우가 {#tracking-workflow-failing}에 실패했습니다.
+## 추적 워크플로우가 실패했습니다 {#tracking-workflow-failing}
 
 추적 워크플로우가 실패했습니다. 추적 파일에서 손상된 줄을 어떻게 감지할 수 있습니까?
 
@@ -79,7 +81,7 @@ $ grep -Rn 50x000000000FD7EC86
 
 그런 다음 추적 워크플로우를 중지하고, 손상된 줄을 삭제하고, 워크플로우를 다시 시작할 수 있습니다.
 
-## 링크 추적이 간헐적으로 실패합니다. {#tracking-links-fail-intermittently}
+## 링크 추적이 간헐적으로 실패합니다 {#tracking-links-fail-intermittently}
 
 추적 링크에 액세스하려고 하면 다음 메시지가 표시됩니다.
 
@@ -112,7 +114,7 @@ $ grep -Rn 50x000000000FD7EC86
 
    Apache가 요청된 링크를 리디렉션하기 위해 추적 URL을 읽을 수 있도록 644 이상의 권한이 있어야 합니다.
 
-## NmsTracking_Pointer 옵션을 업데이트하시겠습니까?{#updating-option}
+## NmsTracking_Pointer 옵션을 업데이트하시겠습니까? {#updating-option}
 
 NmsTracking_Pointer 옵션을 업데이트할 때 다음 단계를 수행합니다.
 
@@ -207,11 +209,11 @@ STRING1&cid=STRING2&bid=STRING3&SHPID=STRING4
 
 인스턴스가 직접 추적 로그를 검색하지 않고 떨어진 Adobe Campaign Classic 서버에서 로그를 검색하면 remoteTracking 스키마에 정의된 GetTrackingLogs SOAP 호출을 통해 로그가 검색됩니다.
 
-serverConf.xml 파일의 옵션을 사용하면 이 메서드를 통해 한 번에 검색된 로그 수를 설정할 수 있습니다.logCountPerRequest입니다.
+serverConf.xml 파일의 옵션을 사용하면 이 메서드를 통해 한 번에 검색된 로그 수를 설정할 수 있습니다. logCountPerRequest입니다.
 
 logCountPerRequest의 기본값은 1000이지만, 경우에 따라 너무 작다는 것이 입증될 수 있습니다. 허용되는 값은 0에서 10.000 사이여야 합니다.
 
-## 추적 로그를 받는 사람 {#link-recipients}에 연결할 수 없습니다
+## 추적 로그를 수신자에게 연결할 수 없습니다 {#link-recipients}
 
 Adobe Campaign Classic에서 대상 매핑은 수신자 스키마와 브로드로그/추적 로그 스키마에서 고유해야 합니다.
 

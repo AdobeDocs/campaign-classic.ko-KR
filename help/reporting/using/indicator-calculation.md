@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2972'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 지표 계산 {#indicator-calculation}
+
+![](../../assets/common.svg)
 
 ## 사용자 활동 {#user-activities-1}
 
@@ -28,7 +30,7 @@ ht-degree: 1%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 열어 본 기록<br /> </td> 
+   <td> 오픈율<br /> </td> 
    <td> @opens<br /> </td> 
    <td> URL 기본 키가 1인 모든 @totalClicks의 합계.<br /> </td> 
    <td> sum(Iif([@url-id]=1, @totalClicks, 0)<br /> </td> 
@@ -75,25 +77,25 @@ ht-degree: 1%
   <tr> 
    <td> 사용자 알 수 없음<br /> </td> 
    <td> @unknownUser<br /> </td> 
-   <td> 상태가 "실패"이고 "사용자 알 수 없음"인 모든 메시지의 수입니다.<br /> </td> 
+   <td> 상태가 "실패"이고 "사용자 알 수 없음"인 모든 메시지의 수입니다. <br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=1)<br /> </td> 
   </tr> 
   <tr> 
    <td> 연결할 수 없는 <br /> </td> 
    <td> @unreachable<br /> </td> 
-   <td> 상태가 "실패"이고 "도달할 수 없음"인 모든 메시지의 수입니다.<br /> </td> 
+   <td> 상태가 "실패"이고 "도달할 수 없음"인 모든 메시지의 수입니다. <br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=3)<br /> </td> 
   </tr> 
   <tr> 
    <td> 거부됨<br /> </td> 
    <td> @refused<br /> </td> 
-   <td> 상태가 "실패"이고 이유가 "거부"인 모든 메시지의 수입니다.<br /> </td> 
+   <td> 상태가 "실패"이고 이유가 "거부"인 모든 메시지의 수입니다. <br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=20)<br /> </td> 
   </tr> 
   <tr> 
    <td> 잘못된 도메인<br /> </td> 
    <td> @invalidDomain<br /> </td> 
-   <td> 상태가 "실패"이고 "잘못된 도메인"인 모든 메시지의 개수입니다.<br /> </td> 
+   <td> 상태가 "실패"이고 "잘못된 도메인"인 모든 메시지의 개수입니다. <br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=2)<br /> </td> 
   </tr> 
   <tr> 
@@ -105,7 +107,7 @@ ht-degree: 1%
   <tr> 
    <td> 받은 편지함 가득 참<br /> </td> 
    <td> @mailBoxFull<br /> </td> 
-   <td> 상태가 "실패"이고 이유가 "받은 편지함 가득 참"인 모든 메시지의 수입니다.<br /> </td> 
+   <td> 상태가 "실패"이고 이유가 "받은 편지함 가득 참"인 모든 메시지의 수입니다. <br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=5)<br /> </td> 
   </tr> 
   <tr> 
@@ -131,7 +133,7 @@ ht-degree: 1%
 
 **도메인별 분류**
 
-보고서의 두 번째 부분에서는 오류 유형과 대조적으로 인터넷 도메인별로 실패한 메시지의 분류를 자세히 설명합니다. 이 경우 **오류** 표시기(@value)에 연결된 수식은 다음과 같습니다.Count(@status=2 및 @domain=&quot;도메인 이름의 값&quot;), 즉 이 도메인에 대한 실패 상태의 모든 메시지 수입니다.
+보고서의 두 번째 부분에서는 오류 유형과 대조적으로 인터넷 도메인별로 실패한 메시지의 분류를 자세히 설명합니다. 이 경우 **오류** 표시기(@value)에 연결된 수식은 다음과 같습니다. Count(@status=2 및 @domain=&quot;도메인 이름의 값&quot;), 즉 이 도메인에 대한 실패 상태의 모든 메시지 수입니다.
 
 ## 브라우저 {#browsers-1}
 
@@ -340,7 +342,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-## 활동 공유 통계 {#statistics-on-sharing-activities-1}
+## 활동 공유에 대한 통계 {#statistics-on-sharing-activities-1}
 
 이 보고서는 **[!UICONTROL Delivery]** (nms:delivery), **[!UICONTROL Consolidated tracking]** (nms:trackingStats) 및 **[!UICONTROL Web tracking]** (nms:webTrackingLog) 테이블을 기반으로 합니다.
 
@@ -358,10 +360,10 @@ ht-degree: 1%
    <td> 새 연락처<br /> </td> 
    <td> @newContacts<br /> </td> 
    <td> 받는 사람에게 연결된 방문자 수<br /> </td> 
-   <td> 공식:count(@id)<br /> 필터:@recipient-id!= 0<br /> </td> 
+   <td> 공식: count(@id)<br /> 필터: @recipient-id!= 0<br /> </td> 
   </tr> 
   <tr> 
-   <td> 열어 본 기록<br /> </td> 
+   <td> 오픈율<br /> </td> 
    <td> @opened<br /> </td> 
    <td> URL 유형이 "Open"인 모든 @ids 개수입니다.<br /> </td> 
    <td> count (Iif([url/@type] = 2, @id, 0)<br /> </td> 
@@ -561,7 +563,7 @@ ht-degree: 1%
    <td> Count(@status=2 and msg/@failureReason=8)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 열어 본 기록<br /> </td> 
+   <td> 오픈율<br /> </td> 
    <td> @recipientOpen<br /> </td> 
    <td> 모든 추적 로그에 있는 모든 @broadLog-ids 개수입니다.<br /> </td> 
    <td> Countdistinct([@broadLog-id])<br /> </td> 
@@ -569,7 +571,7 @@ ht-degree: 1%
   <tr> 
    <td> 클릭<br /> </td> 
    <td> @recipientClick<br /> </td> 
-   <td> URL 유형이 "이메일 클릭"과 동일한 @broadLog-ids의 고유 수입니다.<br /> </td> 
+   <td> URL 유형이 "이메일 클릭"과 동일한 @broadLog-ids의 고유 수입니다. <br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @broadLog-id, 0)<br /> </td> 
   </tr> 
   <tr> 
@@ -617,7 +619,7 @@ ht-degree: 1%
   <tr> 
    <td> 총 금액<br /> </td> 
    <td> @amount<br /> </td> 
-   <td> URL 유형이 "Transaction"인 webTrackingLog/@amounts의 합계입니다.<br /> </td> 
+   <td> URL 유형이 "Transaction"인 webTrackingLog/@amounts의 합계입니다. <br /> </td> 
    <td> Sum(Iif([url/@type]=5, webTrackingLog/@amount, 0))<br /> </td> 
   </tr> 
   <tr> 
@@ -759,7 +761,7 @@ ht-degree: 1%
   <tr> 
    <td> 규칙<br />에서 거부된 메시지 </td> 
    <td> @reject<br /> </td> 
-   <td> 유형화 규칙을 유지하면서 분석 중에 무시된 주소 수:주소가 지정되지 않음, 격리됨, 차단 목록 on 등<br /> </td> 
+   <td> 유형화 규칙을 유지하면서 분석 중에 무시된 주소 수: 주소가 지정되지 않음, 격리됨, 차단 목록 on 등<br /> </td> 
    <td> sum([properties/@reject])<br /> </td> 
   </tr> 
   <tr> 
@@ -869,7 +871,7 @@ ht-degree: 1%
    <td> @unreachable + @mailBoxFull + @invalidDomain + @disabled + @notConnected + @refused<br /> </td> 
   </tr> 
   <tr> 
-   <td> 열어 본 기록<br /> </td> 
+   <td> 오픈율<br /> </td> 
    <td> @recipientOpen<br /> </td> 
    <td> 추적 로그에 있는 총 @broadLog-ids 수입니다.<br /> </td> 
    <td> Countdistinct([@broadLog-id])<br /> </td> 
@@ -877,7 +879,7 @@ ht-degree: 1%
   <tr> 
    <td> 클릭<br /> </td> 
    <td> @personClick<br /> </td> 
-   <td> URL 카테고리가 "이메일 클릭"과 같은 총 @source-ids 수입니다.<br /> </td> 
+   <td> URL 카테고리가 "이메일 클릭"과 같은 총 @source-ids 수입니다. <br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0)) <br /> </td> 
   </tr> 
   <tr> 
@@ -889,7 +891,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-## 열기 {#breakdown-of-opens-1} 분류
+## 열기 분류 {#breakdown-of-opens-1}
 
 이 보고서는 **게재**(nms:delivery) 및 **추적 로그**(nms:trackingLogRcp) 테이블을 기반으로 합니다.
 
@@ -904,15 +906,15 @@ ht-degree: 1%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 열어 본 기록<br /> </td> 
+   <td> 오픈율<br /> </td> 
    <td> @totalRecipientOpen<br /> </td> 
-   <td> URL 기본 키가 1인 모든 @id의 합계(열려 있음).<br /> </td> 
+   <td> URL 기본 키가 1인 모든 @id의 합계(열려 있음). <br /> </td> 
    <td> count(Iif([@url-id] = 1, @id, 0)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 기타 표시기 {#other-indicators}
+## 기타 지표 {#other-indicators}
 
 **Sent** 표시기(@sent)은 **게재(nms:delivery) > Indicators** 노드를 통해 액세스할 수 있으며, 서비스 공급자에게 보낸 총 SMS 수에 해당합니다. 이 표시기는 SMS 게재에만 사용되며 다른 유형의 게재에는 사용할 수 없습니다( **@success** 및 **@processed** 표시기와 혼동하지 않도록 함).
 
@@ -922,7 +924,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_recalculate_indicators.png)
 
-## 추적이 {#tracking-opens-} 열기
+## 추적 열기 {#tracking-opens-}
 
 Adobe Campaign에서 메시지를 검색하려면 수신자가 이메일의 이미지를 다운로드해야 합니다. HTML 및 다중 부분/대체 이메일에는 열려 있는 메시지를 감지할 수 있는 0픽셀 이미지가 포함됩니다. 텍스트 형식의 메시지에는 이미지가 포함되지 않으므로 열었는지 여부를 감지할 수 없습니다. 이미지 표시에 연결된 오류 여백에 의해 메시지 열기를 기반으로 계산된 값은 항상 예측됩니다.
 

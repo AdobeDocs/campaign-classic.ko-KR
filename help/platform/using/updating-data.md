@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -15,19 +15,21 @@ ht-degree: 2%
 
 # 데이터 업데이트{#updating-data}
 
+![](../../assets/common.svg)
+
 수신자의 프로필에 연결된 데이터는 수동으로 또는 자동으로 업데이트할 수 있습니다.
 
 ## 자동 업데이트 설정 {#setting-up-an-automatic-update}
 
 워크플로우를 통해 자동 업데이트를 구성할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/update-data.md)을 참조하십시오.
 
-## 대량 업데이트 수행 {#performing-a-mass-update}
+## 일괄 업데이트 수행 {#performing-a-mass-update}
 
 수동 업데이트를 수행하려면 선택한 수신자를 마우스 오른쪽 단추로 클릭하여 **[!UICONTROL Actions]** 바로 가기 메뉴를 사용하거나 **[!UICONTROL Actions]** 아이콘을 사용하십시오.
 
 ![](assets/s_ncs_user_action_icon.png)
 
-다음과 같은 두 가지 유형의 업데이트가 있습니다.수신자 집합에 대한 대량 업데이트와 두 프로필 간의 데이터 병합을 참조하십시오. 각 작업에 대해 마법사를 사용하여 업데이트를 구성할 수 있습니다.
+다음과 같은 두 가지 유형의 업데이트가 있습니다. 수신자 집합에 대한 대량 업데이트와 두 프로필 간의 데이터 병합을 참조하십시오. 각 작업에 대해 마법사를 사용하여 업데이트를 구성할 수 있습니다.
 
 ### 대량 업데이트 {#mass-update}
 
@@ -51,7 +53,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_user_update_wizard01_2.png)
 
-필터를 정의하여 이 창에서 값 분포를 표시하거나 현재 폴더를 수정하여 다른 폴더에 값 분포를 표시할 수 있습니다. 읽기 전용 작업입니다.정의 중인 업데이트 구성에는 영향을 주지 않습니다.
+필터를 정의하여 이 창에서 값 분포를 표시하거나 현재 폴더를 수정하여 다른 폴더에 값 분포를 표시할 수 있습니다. 읽기 전용 작업입니다. 정의 중인 업데이트 구성에는 영향을 주지 않습니다.
 
 ![](assets/s_ncs_user_update_wizard01_3.png)
 
@@ -92,7 +94,7 @@ ht-degree: 2%
 
    내보내기 마법사를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/executing-export-jobs.md)을 참조하십시오.
 
-## 서비스 {#subscribing-to-a-service} 구독
+## 서비스 구독 {#subscribing-to-a-service}
 
 대부분의 경우 수신자는 [이 섹션](../../delivery/using/managing-subscriptions.md)에 설명된 대로 전용 랜딩 페이지를 통해 뉴스레터에 가입합니다. 그러나 필터링된 수신자의 프로필은 서비스(뉴스레터 또는 바이럴 서비스)에 수동으로 구독할 수 있습니다. 방법은 다음과 같습니다.
 
@@ -107,7 +109,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >이 편집기를 사용하면 새 서비스를 만들 수 있습니다.**[!UICONTROL Create]** 단추를 클릭합니다.
+   >이 편집기를 사용하면 새 서비스를 만들 수 있습니다. **[!UICONTROL Create]** 단추를 클릭합니다.
 
 1. 수신자에게 **[!UICONTROL Send a confirmation message]**&#x200B;을(를) 제공할 수 있습니다. 이 메시지의 콘텐츠는 선택한 서비스에 연결된 구독 시나리오에서 구성할 수 있습니다.
 1. **[!UICONTROL Start]** 단추를 클릭하여 구독 프로세스를 실행합니다.

@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 마케팅 캠페인 게재 {#marketing-campaign-deliveries}
+
+![](../../assets/common.svg)
 
 캠페인 대시보드, 캠페인 워크플로우를 통해 또는 게재 개요를 통해 직접 게재를 만들 수 있습니다.
 
@@ -27,7 +29,7 @@ ht-degree: 2%
 
 ![](assets/campaign_op_add_delivery.png)
 
-제안된 구성은 다양한 유형의 게재에 적합합니다.dm, 이메일, 모바일 채널. [자세히 알아보기](../../delivery/using/steps-about-delivery-creation-steps.md)
+제안된 구성은 다양한 유형의 게재에 적합합니다. dm, 이메일, 모바일 채널. [자세히 알아보기](../../delivery/using/steps-about-delivery-creation-steps.md)
 
 ## 게재 시작 {#starting-a-delivery}
 
@@ -41,7 +43,7 @@ ht-degree: 2%
 >
 >특정 운영자 또는 운영자 그룹이 게재 속성에서 게재 시작을 위해 지정된 경우 게재를 담당하는 연산자가 전송을 확인하도록 허용할 수도 있습니다. 이렇게 하려면 **1**&#x200B;을 값으로 입력하여 **NMS_ActivateOwnerConfirmation** 옵션을 활성화합니다. 옵션은 Adobe Campaign 탐색기의 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 노드에서 관리됩니다.
 >  
->이 옵션을 비활성화하려면 **0**&#x200B;을 값으로 입력합니다. 전송 확인 프로세스는 기본값으로 작동합니다.게재 속성에서 전송을 위해 지정된 운영자 또는 그룹(또는 관리자)만 전송을 확인하고 수행할 수 있습니다.
+>이 옵션을 비활성화하려면 **0**&#x200B;을 값으로 입력합니다. 전송 확인 프로세스는 기본값으로 작동합니다. 게재 속성에서 전송을 위해 지정된 운영자 또는 그룹(또는 관리자)만 전송을 확인하고 수행할 수 있습니다.
 
 ![](assets/s_ncs_user_edit_del_to_start_from_del.png)
 
@@ -100,7 +102,7 @@ ht-degree: 2%
 
 ### 비용 및 주식 계산 {#calculation-of-costs-and-stocks}
 
-파일 추출이 두 가지 작업을 시작합니다.예산 계산 및 주식 계산. 예산 항목이 갱신됩니다.
+파일 추출이 두 가지 작업을 시작합니다. 예산 계산 및 주식 계산. 예산 항목이 갱신됩니다.
 
 * **[!UICONTROL Budget]** 탭에서는 캠페인에 대한 예산을 관리할 수 있습니다. 비용 항목의 합계는 캠페인의 기본 탭 및 해당 항목이 속한 프로그램의 **[!UICONTROL Calculates cost]** 필드에 표시됩니다. 그 액수도 캠페인 예산에 반영된다.
 
@@ -163,9 +165,9 @@ ht-degree: 2%
 
 게재 아웃라인은 구조화된 요소 집합(문서, 분기/저장소, 프로모션 쿠폰 등)을 나타냅니다. 회사 및 특정 캠페인에 대해 생성된 .
 
-이러한 요소는 게재 아웃라인에서 그룹화되며, 특정 게재 아웃라인은 게재와 연결됩니다.게재에 첨부하기 위해 **서비스 공급자**&#x200B;에 전송된 추출 파일에서 참조됩니다. 예를 들어, 분기 및 고객이 사용하는 마케팅 브로셔를 참조하는 게재 아웃라인을 만들 수 있습니다.
+이러한 요소는 게재 아웃라인에서 그룹화되며, 특정 게재 아웃라인은 게재와 연결됩니다. 게재에 첨부하기 위해 **서비스 공급자**&#x200B;에 전송된 추출 파일에서 참조됩니다. 예를 들어, 분기 및 고객이 사용하는 마케팅 브로셔를 참조하는 게재 아웃라인을 만들 수 있습니다.
 
-캠페인의 경우, 게재 개요를 사용하면 특정 기준에 따라 게재와 연결할 외부 요소를 구성할 수 있습니다.관련 분기, 프로모션 오퍼 제공, 로컬 이벤트 초대 등
+캠페인의 경우, 게재 개요를 사용하면 특정 기준에 따라 게재와 연결할 외부 요소를 구성할 수 있습니다. 관련 분기, 프로모션 오퍼 제공, 로컬 이벤트 초대 등
 
 #### 개요 만들기 {#creating-an-outline}
 

@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '3048'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 인스턴스 배포{#deploying-an-instance}
+
+![](../../assets/v7-only.svg)
 
 >[!NOTE]
 >
@@ -49,9 +51,9 @@ Adobe Campaign 클라이언트 콘솔에서 사용할 수 있는 그래픽 마�
 
 창의 아래 섹션에서는 활성화할 옵션을 선택할 수 있습니다.
 
-* **[!UICONTROL Customer identifier used in billing]** :인스턴스 이름과 버전 번호일 수 있습니다.
-* **[!UICONTROL Common name of the customer]** :회사 이름으로 문자열을 입력합니다. 이 정보는 구독 취소 링크에서 사용할 수 있습니다.
-* **[!UICONTROL Namespace]** :짧은 식별자를 소문자로 입력합니다. 목적은 업그레이드의 경우 특정 구성과 공장 구성을 구별하는 것입니다. 기본 네임스페이스는 고객의 경우 **cus** 입니다.
+* **[!UICONTROL Customer identifier used in billing]** : 인스턴스 이름과 버전 번호일 수 있습니다.
+* **[!UICONTROL Common name of the customer]** : 회사 이름으로 문자열을 입력합니다. 이 정보는 구독 취소 링크에서 사용할 수 있습니다.
+* **[!UICONTROL Namespace]** : 짧은 식별자를 소문자로 입력합니다. 목적은 업그레이드의 경우 특정 구성과 공장 구성을 구별하는 것입니다. 기본 네임스페이스는 고객의 경우 **cus** 입니다.
 
 ### 기술 옵션 {#technical-options}
 
@@ -59,10 +61,10 @@ Adobe Campaign 클라이언트 콘솔에서 사용할 수 있는 그래픽 마�
 
 다음 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL Email channel]** :전자 메일 배달을 활성화하려면 [전자 메일 채널 매개 변수](#email-channel-parameters)를 참조하십시오.
-* **[!UICONTROL Tracking]** :대상 모집단(열기 및 클릭)을 추적하기 위해 [추적 구성](#tracking-configuration)을 참조하십시오.
-* **[!UICONTROL Managing bounced emails]** :받는 전자 메일을 선택하는 데 사용되는 POP 계정을 정의하려면 바운스된 이메일 관리](#managing-bounced-emails)를 참조하십시오.[
-* **[!UICONTROL LDAP integration]** :LDAP 디렉토리를 통해 사용자 인증을 구성하려면 [LDAP](../../installation/using/connecting-through-ldap.md)을 통해 연결 을 참조하십시오.
+* **[!UICONTROL Email channel]** : 전자 메일 배달을 활성화하려면 [전자 메일 채널 매개 변수](#email-channel-parameters)를 참조하십시오.
+* **[!UICONTROL Tracking]** : 대상 모집단(열기 및 클릭)을 추적하기 위해 [추적 구성](#tracking-configuration)을 참조하십시오.
+* **[!UICONTROL Managing bounced emails]** : 받는 전자 메일을 선택하는 데 사용되는 POP 계정을 정의하려면 바운스된 이메일 관리](#managing-bounced-emails)를 참조하십시오.[
+* **[!UICONTROL LDAP integration]** : LDAP 디렉토리를 통해 사용자 인증을 구성하려면 [LDAP](../../installation/using/connecting-through-ldap.md)을 통해 연결 을 참조하십시오.
 
 ## 전자 메일 채널 매개 변수 {#email-channel-parameters}
 
@@ -76,11 +78,11 @@ Adobe Campaign 클라이언트 콘솔에서 사용할 수 있는 그래픽 마�
 
 다음 매개 변수를 지정합니다.
 
-* **[!UICONTROL Sender name]** :보낸 사람 이름,
-* **[!UICONTROL Sender address]** :보낸 사람의 주소,
-* **[!UICONTROL Reply address text]** :수신자가 전자 메일 클라이언트 소프트웨어의  **[!UICONTROL Reply]** 버튼을 클릭할 때 사용되는 사용자 지정 가능한 이름입니다.
-* **[!UICONTROL Reply address]** :수신자가 전자 메일 클라이언트 소프트웨어 **[!UICONTROL Reply]** 에서 버튼을 클릭할 때 사용할 전자 메일 주소입니다.
-* **[!UICONTROL Error address]** :오류가 있는 메시지의 이메일 주소입니다. 존재하지 않는 대상 주소로 인해 Adobe Campaign 서버에서 받은 이메일을 포함하여 바운스 메일을 처리하는 데 사용되는 기술 주소입니다.
+* **[!UICONTROL Sender name]** : 보낸 사람 이름,
+* **[!UICONTROL Sender address]** : 보낸 사람의 주소,
+* **[!UICONTROL Reply address text]** : 수신자가 전자 메일 클라이언트 소프트웨어의  **[!UICONTROL Reply]** 버튼을 클릭할 때 사용되는 사용자 지정 가능한 이름입니다.
+* **[!UICONTROL Reply address]** : 수신자가 전자 메일 클라이언트 소프트웨어 **[!UICONTROL Reply]** 에서 버튼을 클릭할 때 사용할 전자 메일 주소입니다.
+* **[!UICONTROL Error address]** : 오류가 있는 메시지의 이메일 주소입니다. 존재하지 않는 대상 주소로 인해 Adobe Campaign 서버에서 받은 이메일을 포함하여 바운스 메일을 처리하는 데 사용되는 기술 주소입니다.
 
 이 외에도 보낸 사람 주소와 오류 주소에 대해 허가된 **마스크**&#x200B;를 지정할 수 있습니다. 필요한 경우 쉼표를 사용하여 마스크를 분리할 수 있습니다. 이 구성은 선택 사항입니다. 필드를 입력하면 Adobe Campaign은 배달 시(주소에 변수가 포함되어 있지 않은 경우 분석 중에) 주소가 유효한지 확인합니다. 이 운영 모드에서는 배달 문제를 트리거할 수 있는 주소가 사용되지 않습니다. 게재 주소는 게재 서버에서 구성해야 합니다.
 
@@ -88,11 +90,11 @@ Adobe Campaign 클라이언트 콘솔에서 사용할 수 있는 그래픽 마�
 
 <!--This window enables you to define, for all email campaigns, the delivery and address-quality management options.-->
 
-Adobe Campaign 데이터베이스에서 모든 이메일 주소는 다음과 같이 만들어야 합니다.`x@y.z` **x**, **y** 및 **z** 문자는 비워 둘 수 없으며 권한이 없는 문자를 포함하지 않아야 합니다.
+Adobe Campaign 데이터베이스에서 모든 이메일 주소는 다음과 같이 만들어야 합니다. `x@y.z` **x**, **y** 및 **z** 문자는 비워 둘 수 없으며 권한이 없는 문자를 포함하지 않아야 합니다.
 
 데이터베이스의 전자 메일 필드에 허용되는 문자(&#39;데이터 정책&#39;)를 여기에서 정의할 수 있습니다. 목록에 포함되지 않은 문자는 사용할 수 없으므로 인터페이스를 통해 데이터베이스에 정보를 입력하고 웹 양식을 통해 데이터를 가져올 때 거부됩니다.
 
-다음 두 가지 목록을 사용할 수 있습니다.**유럽만** 또는 **미국만**&#x200B;입니다. 필요한 경우 다른 문자를 추가할 수 있습니다.
+다음 두 가지 목록을 사용할 수 있습니다. **유럽만** 또는 **미국만**&#x200B;입니다. 필요한 경우 다른 문자를 추가할 수 있습니다.
 
 ### 게재 매개 변수 {#delivery-parameters}
 
@@ -104,21 +106,21 @@ Adobe Campaign 데이터베이스에서 모든 이메일 주소는 다음과 같
 
 다음 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL Delivery duration of messages]** :이 시간 이후에는 게재를 중지합니다(기본적으로 5일).
-* **[!UICONTROL Online resources validity duration]** :미러 페이지를 생성하기 위해 수신자 프로필의 정보를 유지하는 시간
-* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** :이 옵션을 선택하면 수신자차단 목록에게 연락하지 않습니다.
-* **[!UICONTROL Automatically ignore doubles]** :이 옵션을 선택하면 중복 주소에 대한 게재가 수행되지 않습니다.
+* **[!UICONTROL Delivery duration of messages]** : 이 시간 이후에는 게재를 중지합니다(기본적으로 5일).
+* **[!UICONTROL Online resources validity duration]** : 미러 페이지를 생성하기 위해 수신자 프로필의 정보를 유지하는 시간
+* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** : 이 옵션을 선택하면 수신자차단 목록에게 연락하지 않습니다.
+* **[!UICONTROL Automatically ignore doubles]** : 이 옵션을 선택하면 중복 주소에 대한 게재가 수행되지 않습니다.
 
 ### 다시 시도 매개 변수 {#retry-parameters}
 
-복구에 대한 정보는 **복구 기간** 및 **복구 횟수** 필드에 제공됩니다.수신자에 연결할 수 없는 경우(예: 받은 편지함이 가득 찬 경우) 기본적으로 프로그램은 각 시도(최대 배달 시간 동안) 간 1시간 간격으로 5회 수신자에게 연락하려고 합니다. 이러한 값은 필요에 따라 변경할 수 있습니다.
+복구에 대한 정보는 **복구 기간** 및 **복구 횟수** 필드에 제공됩니다. 수신자에 연결할 수 없는 경우(예: 받은 편지함이 가득 찬 경우) 기본적으로 프로그램은 각 시도(최대 배달 시간 동안) 간 1시간 간격으로 5회 수신자에게 연락하려고 합니다. 이러한 값은 필요에 따라 변경할 수 있습니다.
 
 ### 격리 매개 변수 {#quarantine-parameters}
 
 격리에 대한 구성 옵션은 다음과 같습니다.
 
-* **[!UICONTROL Duration between two significant errors]** :기본적으로 값(&quot;1d&quot;)을 입력합니다.1일) 장애 시 애플리케이션이 오류 카운터를 증가시키기 전에 기다리는 시간을 정의합니다.
-* **[!UICONTROL Maximum number of errors before quarantine]** :이 값에 도달하면 전자 메일 주소가 격리됩니다(기본적으로 &quot;5&quot;).6번째 오류에서 주소가 격리됩니다.) 즉, 연락처는 후속 게재에서 자동으로 제외됩니다.
+* **[!UICONTROL Duration between two significant errors]** : 기본적으로 값(&quot;1d&quot;)을 입력합니다. 1일) 장애 시 애플리케이션이 오류 카운터를 증가시키기 전에 기다리는 시간을 정의합니다.
+* **[!UICONTROL Maximum number of errors before quarantine]** : 이 값에 도달하면 전자 메일 주소가 격리됩니다(기본적으로 &quot;5&quot;). 6번째 오류에서 주소가 격리됩니다.) 즉, 연락처는 후속 게재에서 자동으로 제외됩니다.
 
 ## 바운스된 이메일 관리 {#managing-bounced-emails}
 
@@ -134,12 +136,12 @@ Adobe Campaign 데이터베이스에서 모든 이메일 주소는 다음과 같
 
 수신 전자 메일 검색을 위한 계정에 연결할 매개 변수를 지정합니다.
 
-* **[!UICONTROL Label]** :아래에 제공된 모든 매개 변수를 포함하는 이름,
-* **[!UICONTROL Server]** :반송 메일(받는 메일)을 검색하는 데 사용되는 서버,
-* **[!UICONTROL Security]** :필요한 경우 드롭다운 목록 **[!UICONTROL SSL]** 에서 을(를) 선택합니다.
-* **[!UICONTROL Port]** :서버 포트(일반적으로 110),
-* **[!UICONTROL Account]** :반송 메일에 사용되는 계정 이름,
-* **[!UICONTROL Password]** :계정에 연결된 암호입니다.
+* **[!UICONTROL Label]** : 아래에 제공된 모든 매개 변수를 포함하는 이름,
+* **[!UICONTROL Server]** : 반송 메일(받는 메일)을 검색하는 데 사용되는 서버,
+* **[!UICONTROL Security]** : 필요한 경우 드롭다운 목록 **[!UICONTROL SSL]** 에서 을(를) 선택합니다.
+* **[!UICONTROL Port]** : 서버 포트(일반적으로 110),
+* **[!UICONTROL Account]** : 반송 메일에 사용되는 계정 이름,
+* **[!UICONTROL Password]** : 계정에 연결된 암호입니다.
 
 POP 설정이 지정되면 **테스트**&#x200B;를 클릭하여 설정이 올바른지 확인합니다.
 
@@ -149,9 +151,9 @@ POP 설정이 지정되면 **테스트**&#x200B;를 클릭하여 설정이 올�
 
 처리되지 않은 바운스는 Adobe Campaign 인터페이스에 표시되지 않습니다. 다음 필드를 사용하여 타사 사서함으로 전송되지 않으면 자동으로 삭제됩니다.
 
-* **[!UICONTROL Forwarding address]** :Adobe Campaign 플랫폼에서 수집한 모든 오류 메시지(처리됨 또는 처리되지 않음)를 타사 주소로 전송하려면 이 필드를 채웁니다.
-* **[!UICONTROL Address for errors]** :inMail 프로세스가 자격을 부여할 수 없었던 오류 메시지만 제3자 주소로 전송하려면 이 필드를 입력합니다.
-* **[!UICONTROL SMTP server]** :처리되지 않은 바운스 이메일을 전송하는 데 사용되는 서버입니다.
+* **[!UICONTROL Forwarding address]** : Adobe Campaign 플랫폼에서 수집한 모든 오류 메시지(처리됨 또는 처리되지 않음)를 타사 주소로 전송하려면 이 필드를 채웁니다.
+* **[!UICONTROL Address for errors]** : inMail 프로세스가 자격을 부여할 수 없었던 오류 메시지만 제3자 주소로 전송하려면 이 필드를 입력합니다.
+* **[!UICONTROL SMTP server]** : 처리되지 않은 바운스 이메일을 전송하는 데 사용되는 서버입니다.
 
 >[!IMPORTANT]
 >
@@ -169,7 +171,7 @@ POP 설정이 지정되면 **테스트**&#x200B;를 클릭하여 설정이 올�
 
 인스턴스에서 추적을 활성화하면 추적을 사용하도록 전송 중에 게재의 URL이 변경됩니다.
 
-* 새 URL을 작성하는 데 배포 마법사의 이 페이지에 입력한 외부 URL(보안인지 여부)에 대한 정보를 사용합니다. 이 정보와 함께 수정된 링크에는 다음이 포함됩니다.게재의 식별자, 수신자 및 URL입니다.
+* 새 URL을 작성하는 데 배포 마법사의 이 페이지에 입력한 외부 URL(보안인지 여부)에 대한 정보를 사용합니다. 이 정보와 함께 수정된 링크에는 다음이 포함됩니다. 게재의 식별자, 수신자 및 URL입니다.
 
    추적 정보는 추적 서버에서 Adobe Campaign이 수집하여 수신자 프로필 및 게재에 연결된 데이터( **[!UICONTROL Tracking]** 탭)를 보강합니다.
 
@@ -188,14 +190,14 @@ POP 설정이 지정되면 **테스트**&#x200B;를 클릭하여 설정이 올�
 이 인스턴스에 대한 추적 효율을 보장하려면 다음 정보가 표시되어야 합니다.
 <!--With Mid-sourcing architecture, you can externalize tracking management. To do this:-->
 
-* **[!UICONTROL External URL]** 및/또는  **[!UICONTROL Secure external URL]** :보낼 이메일에 사용할 리디렉션 URL을 입력합니다.
-* **[!UICONTROL Internal URL(s)]** :Adobe Campaign 서버가 추적 서버에 문의하여 로그를 수집하고 URL을 업로드하는 데만 사용하는 URL입니다. 인스턴스에 연결할 필요가 없습니다.
+* **[!UICONTROL External URL]** 및/또는  **[!UICONTROL Secure external URL]** : 보낼 이메일에 사용할 리디렉션 URL을 입력합니다.
+* **[!UICONTROL Internal URL(s)]** : Adobe Campaign 서버가 추적 서버에 문의하여 로그를 수집하고 URL을 업로드하는 데만 사용하는 URL입니다. 인스턴스에 연결할 필요가 없습니다.
 
    URL을 지정하지 않으면 기본적으로 추적 URL이 사용됩니다.
 
 중간 소싱 아키텍처를 사용하여 추적 관리를 외부화할 수 있습니다. 방법은 다음과 같습니다.
 
-1. 옵션 **[!UICONTROL Externalize tracking management]** 을 선택합니다.중간 소싱 서버를 추적 서버로 사용할 수 있습니다.
+1. 옵션 **[!UICONTROL Externalize tracking management]** 을 선택합니다. 중간 소싱 서버를 추적 서버로 사용할 수 있습니다.
 1. 중간 소싱 서버에 연결할 수 있도록 **[!UICONTROL External account]** 및 **[!UICONTROL Instance name]** 필드를 채웁니다.
 
    자세한 내용은 [중간 소싱 서버](../../installation/using/mid-sourcing-server.md)를 참조하십시오.
@@ -244,7 +246,7 @@ URL을 채운 후에는 추적 서버를 등록해야 합니다.
 
 1. **이미 사전 구성된 추적 인스턴스의 유효성을 검사합니다**
 
-   이 옵션은 **internal** 계정에 대한 암호가 없는 경우에 사용됩니다.이 경우 추적 계정은 추적 서버에서 미리 구성되어 있습니다. 리디렉션 서버의 추적 계정 암호를 입력하여 추적 인스턴스의 유효성을 확인합니다.
+   이 옵션은 **internal** 계정에 대한 암호가 없는 경우에 사용됩니다. 이 경우 추적 계정은 추적 서버에서 미리 구성되어 있습니다. 리디렉션 서버의 추적 계정 암호를 입력하여 추적 인스턴스의 유효성을 확인합니다.
 
    ![](assets/s_ncs_install_deployment_wiz_17.png)
 
@@ -264,7 +266,7 @@ URL 검색 **에 연결된 매개 변수는 표준 설치를 위해**&#x200B;을
 
 >[!NOTE]
 >
->모바일 채널은 선택 사항입니다.이 단계는 구입한 경우에만 나타납니다. 사용권 계약을 확인하십시오.
+>모바일 채널은 선택 사항입니다. 이 단계는 구입한 경우에만 나타납니다. 사용권 계약을 확인하십시오.
 
 ![](assets/s_ncs_install_deployment_wiz_12.png)
 
@@ -272,12 +274,12 @@ URL 검색 **에 연결된 매개 변수는 표준 설치를 위해**&#x200B;을
 
 다음 정보를 입력합니다.
 
-* **[!UICONTROL Label]** :이 SMS/Wap 푸시 계정의 이름을 입력합니다. 예를 들어 라우터의 이름을 사용할 수 있습니다.
-* **[!UICONTROL Server]**, **[!UICONTROL Port]**, **[!UICONTROL Account]**, **[!UICONTROL Password]**, **[!UICONTROL Connector]**, **[!UICONTROL Send Endpoint]**, **[!UICONTROL Reception Endpoint]**, **[!UICONTROL Notification Endpoint]** 필드의 경우:필요한 설정은 서비스 공급업체에 문의하십시오.
+* **[!UICONTROL Label]** : 이 SMS/Wap 푸시 계정의 이름을 입력합니다. 예를 들어 라우터의 이름을 사용할 수 있습니다.
+* **[!UICONTROL Server]**, **[!UICONTROL Port]**, **[!UICONTROL Account]**, **[!UICONTROL Password]**, **[!UICONTROL Connector]**, **[!UICONTROL Send Endpoint]**, **[!UICONTROL Reception Endpoint]**, **[!UICONTROL Notification Endpoint]** 필드의 경우: 필요한 설정은 서비스 공급업체에 문의하십시오.
 
 ### 보낸 SMS의 매개 변수 {#parameters-of-sms-sent}
 
-**우선순위** 드롭다운 목록에서 다음을 수행합니다.전송할 메시지에 적용하려면 &quot;일반&quot;, &quot;높음&quot; 또는 &quot;긴급&quot;을 선택합니다.
+**우선순위** 드롭다운 목록에서 다음을 수행합니다. 전송할 메시지에 적용하려면 &quot;일반&quot;, &quot;높음&quot; 또는 &quot;긴급&quot;을 선택합니다.
 
 ### 고급 매개 변수 {#advanced-parameters}
 
@@ -285,12 +287,12 @@ URL 검색 **에 연결된 매개 변수는 표준 설치를 위해**&#x200B;을
 
 ![](assets/s_ncs_install_deployment_wiz_13.png)
 
-다시 시도 정보는 **다시 시도 기간** 및 **다시 시도 횟수** 필드에 있습니다.모바일에 연결할 수 없는 경우 기본적으로 프로그램은 최소 15분 간격으로(최대 배달 기간) 5번 다시 시도합니다. 이러한 값은 사용자의 요구 사항에 맞게 조정할 수 있습니다.
+다시 시도 정보는 **다시 시도 기간** 및 **다시 시도 횟수** 필드에 있습니다. 모바일에 연결할 수 없는 경우 기본적으로 프로그램은 최소 15분 간격으로(최대 배달 기간) 5번 다시 시도합니다. 이러한 값은 사용자의 요구 사항에 맞게 조정할 수 있습니다.
 
 격리에 대한 구성 옵션은 다음과 같습니다.
 
-* **[!UICONTROL Time between two significant errors]** :기본값을 입력합니다(기본적으로 &quot;1d&quot;).일)을 눌러 응용 프로그램이 오류 카운터를 증가시켜 실패 시간을 정의합니다.
-* **[!UICONTROL Maximum number of errors before quarantine]** :이 값에 도달하면 모바일 번호가 격리됩니다(기본적으로 &quot;5&quot;).6번째 오류 시 해당 번호가 격리됩니다.) 즉, 연락처는 향후 게재에서 자동으로 제외됩니다.
+* **[!UICONTROL Time between two significant errors]** : 기본값을 입력합니다(기본적으로 &quot;1d&quot;). 일)을 눌러 응용 프로그램이 오류 카운터를 증가시켜 실패 시간을 정의합니다.
+* **[!UICONTROL Maximum number of errors before quarantine]** : 이 값에 도달하면 모바일 번호가 격리됩니다(기본적으로 &quot;5&quot;). 6번째 오류 시 해당 번호가 격리됩니다.) 즉, 연락처는 향후 게재에서 자동으로 제외됩니다.
 
 ## 지역 설정 {#regional-settings}
 
@@ -298,8 +300,8 @@ URL 검색 **에 연결된 매개 변수는 표준 설치를 위해**&#x200B;을
 
 ![](assets/s_ncs_install_deployment_wiz_14.png)
 
-* **[!UICONTROL Consider all phone numbers as international ones]** :이 옵션을 선택하면 응용 프로그램에서 국제 형식을 전화 번호에 적용합니다. 이때 국가 접두사는 서식을 적용하기 전에 자릿수를 확인하지 않으므로 필수입니다. 이 옵션을 선택하지 않으면 국제전화 번호 앞에 &quot;+&quot; 또는 &quot;00&quot;을 붙여야 합니다.
-* **[!UICONTROL Store all phone numbers using the international format]** :이 옵션은  **** 가져오거나 편집된 국내 전화 번호에만 적용됩니다. 국내 형식(예: 425 55 0150)을 사용할지, 국제 형식(예:+1 425 555 0150)
+* **[!UICONTROL Consider all phone numbers as international ones]** : 이 옵션을 선택하면 응용 프로그램에서 국제 형식을 전화 번호에 적용합니다. 이때 국가 접두사는 서식을 적용하기 전에 자릿수를 확인하지 않으므로 필수입니다. 이 옵션을 선택하지 않으면 국제전화 번호 앞에 &quot;+&quot; 또는 &quot;00&quot;을 붙여야 합니다.
+* **[!UICONTROL Store all phone numbers using the international format]** : 이 옵션은  **** 가져오거나 편집된 국내 전화 번호에만 적용됩니다. 국내 형식(예: 425 55 0150)을 사용할지, 국제 형식(예: +1 425 555 0150)
 
 ## 인터넷에서 액세스 {#access-from-the-internet}
 
@@ -317,8 +319,8 @@ URL 검색 **에 연결된 매개 변수는 표준 설치를 위해**&#x200B;을
 
 이 페이지에서는 다음 작업을 수행할 서버 URL을 채울 수 있습니다.
 
-1. 인터넷에 노출된 응용 프로그램 서버에 액세스합니다.구독/구독 취소 양식, 엑스트라넷 등
-1. 웹에 노출되지 않은 리소스에 대해 응용 프로그램 서버에 액세스:양식, 인트라넷, 확인 페이지
+1. 인터넷에 노출된 응용 프로그램 서버에 액세스합니다. 구독/구독 취소 양식, 엑스트라넷 등
+1. 웹에 노출되지 않은 리소스에 대해 응용 프로그램 서버에 액세스: 양식, 인트라넷, 확인 페이지
 1. 게재 미러 페이지에 액세스합니다.
 
    미러 페이지는 전자 메일의 컨텐츠를 표시하는 동적 페이지입니다. 수신자에게 전송된 메시지에 삽입된 링크를 통해 액세스되고 개인화된 요소를 포함할 수 있습니다. 미러 페이지에서는 수신자에게 전달 형식(텍스트 또는 HTML)에 관계없이 이메일 소프트웨어 대신 인터넷 브라우저에서 메시지를 읽을 수 있는 기회를 제공합니다. 그러나 필요한 HTML 컨텐츠가 정의된 경우에만 지정된 게재에 대해 미러 페이지가 생성됩니다.
@@ -402,7 +404,7 @@ Adobe Campaign을 사용하면 이러한 3개의 URL을 구분하여 로드를 �
 
    스크립트를 사용하여 이미지를 게시할 수 있습니다.
 
-   * 다음 스크립트를 만들어야 합니다.구성 내용은 구성에 따라 다릅니다.
+   * 다음 스크립트를 만들어야 합니다. 구성 내용은 구성에 따라 다릅니다.
    * 스크립트는 다음 명령으로 호출됩니다.
 
       ```
@@ -415,9 +417,9 @@ Adobe Campaign을 사용하면 이러한 3개의 URL을 구분하여 로드를 �
 
 이미지의 경우 **NmsDelivery_ImageSubDirectory** 옵션을 통해 지정된 &quot;images&quot; 폴더에서 하나 이상의 전두서버로 복사해야 합니다. 이러한 서버는 이미지를 저장하여 새로 구성된 URL을 통해 액세스할 수 있도록 합니다.
 
-수동 게시 스크립트 없이 Adobe Campaign 서버에 게시되는 경우 기본적으로 게재 이미지가 `$(XTK_INSTALL_DIR)/var/res/img/ directory`에 저장됩니다. 해당 URL은 다음과 같습니다.**`https://server/res/img`**
+수동 게시 스크립트 없이 Adobe Campaign 서버에 게시되는 경우 기본적으로 게재 이미지가 `$(XTK_INSTALL_DIR)/var/res/img/ directory`에 저장됩니다. 해당 URL은 다음과 같습니다. **`https://server/res/img`**
 
-`XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)`. 해당 URL은 다음과 같습니다.**`https://server/res/instance`** 여기서 instance 는 추적 인스턴스의 이름입니다.
+`XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)`. 해당 URL은 다음과 같습니다. **`https://server/res/instance`** 여기서 instance 는 추적 인스턴스의 이름입니다.
 
 >[!NOTE]
 >
@@ -445,11 +447,11 @@ Adobe Campaign을 사용하면 이러한 3개의 URL을 구분하여 로드를 �
 
 상태 속성은 다음 세 값 중 하나일 수 있습니다.
 
-* 예비:공용 리소스가 동기화됨
+* 예비: 공용 리소스가 동기화됨
 
-* 일반:기존 동작(동기화 없음)
+* 일반: 기존 동작(동기화 없음)
 
-* 블랙리스트:404 오류를 반환하는 차단 목록 경우 URL이에 추가됩니다. 에 있는 URL의 기간(초)은 기본값차단 목록이 60s인 **timeout** 속성으로 정의됩니다.
+* 블랙리스트: 404 오류를 반환하는 차단 목록 경우 URL이에 추가됩니다. 에 있는 URL의 기간(초)은 기본값차단 목록이 60s인 **timeout** 속성으로 정의됩니다.
 
 기본적으로 동기화 구성은 다음과 같습니다.
 

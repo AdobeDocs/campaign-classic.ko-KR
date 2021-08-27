@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2384'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 양식 구조{#form-structure}
+
+![](../../assets/v7-only.svg)
 
 양식의 설명은 양식 스키마 **xtk:form**&#x200B;의 문법을 준수하는 구조화된 XML 문서입니다.
 
@@ -68,7 +70,7 @@ ht-degree: 0%
 
 ## 양식화 {#formatting}
 
-컨트롤 레이아웃은 HTML 표에 사용되는 레이아웃과 비슷하며 컨트롤을 여러 열로 분할하거나 요소를 삽입하거나 사용 가능한 공간의 위치를 지정할 수 있습니다. 그러나 이 서식을 지정하면 해당 영역을 비율로 나눌 수 있습니다.개체에 고정 치수를 지정할 수 없습니다.
+컨트롤 레이아웃은 HTML 표에 사용되는 레이아웃과 비슷하며 컨트롤을 여러 열로 분할하거나 요소를 삽입하거나 사용 가능한 공간의 위치를 지정할 수 있습니다. 그러나 이 서식을 지정하면 해당 영역을 비율로 나눌 수 있습니다. 개체에 고정 치수를 지정할 수 없습니다.
 
 위의 예제 컨트롤을 두 열로 표시하려면 다음을 수행합니다.
 
@@ -231,11 +233,11 @@ xpath가 없는 컨테이너의 예:
 
 조건 구문의 예:
 
-* **visibleIf=&quot;@email=&#39;peter.martinezATneolane.net&#39;&quot;**:문자열 유형 데이터에 대해 같음 테스트를 수행합니다. 비교 값은 따옴표로 묶어야 합니다.
-* **visibleIf=&quot;@gender >= 1 및 @gender!= 2&quot;**:숫자 값에 대한 조건.
-* **visibleIf=&quot;@boolean1=true 또는 @boolean2=false&quot;**:부울 필드에서 테스트합니다.
+* **visibleIf=&quot;@email=&#39;peter.martinezATneolane.net&#39;&quot;**: 문자열 유형 데이터에 대해 같음 테스트를 수행합니다. 비교 값은 따옴표로 묶어야 합니다.
+* **visibleIf=&quot;@gender >= 1 및 @gender!= 2&quot;**: 숫자 값에 대한 조건.
+* **visibleIf=&quot;@boolean1=true 또는 @boolean2=false&quot;**: 부울 필드에서 테스트합니다.
 
-#### 컨테이너 {#enabling-container}를 사용하도록 설정하는 중
+#### 컨테이너 활성화 {#enabling-container}
 
 이 컨테이너를 사용하여 동적 조건에서 데이터 세트를 활성화하거나 비활성화할 수 있습니다. 컨트롤을 비활성화하면 컨트롤이 편집되지 않습니다. 다음 예제에서는 &quot;Gender&quot; 필드의 값에서 컨트롤을 활성화하는 방법을 보여 줍니다.
 
@@ -250,7 +252,7 @@ xpath가 없는 컨테이너의 예:
 
 활성화 컨테이너는 **type=&quot;enabledGroup&quot;** 특성에 의해 정의됩니다. **enabledIf** 속성에 활성화 조건이 포함되어 있습니다.
 
-## 링크 {#editing-a-link} 편집
+## 링크 편집 {#editing-a-link}
 
 링크는 데이터 스키마에 다음과 같이 선언됩니다.
 
@@ -274,7 +276,7 @@ xpath가 없는 컨테이너의 예:
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
-**[!UICONTROL Edit link]**(돋보기) 아이콘이 연결된 요소의 편집 양식을 시작합니다. 사용되는 양식은 기본적으로 타깃팅된 스키마의 키에 따라 추론됩니다. **form** 속성을 사용하면 편집 양식의 이름(예:&quot;cus:company2&quot;)
+**[!UICONTROL Edit link]**(돋보기) 아이콘이 연결된 요소의 편집 양식을 시작합니다. 사용되는 양식은 기본적으로 타깃팅된 스키마의 키에 따라 추론됩니다. **form** 속성을 사용하면 편집 양식의 이름(예: &quot;cus:company2&quot;)
 
 입력 양식의 링크 정의에서 **`<sysfilter>`** 요소를 추가하여 대상 요소의 선택을 제한할 수 있습니다.
 
@@ -298,15 +300,15 @@ xpath가 없는 컨테이너의 예:
 
 ### 컨트롤 속성 {#control-properties}
 
-* **noAutoComplete**:자동 완성 사용 안 함(값 &quot;true&quot; 사용)
-* **createMode**:링크가 없는 경우 즉시 링크를 만듭니다. 가능한 값은 다음과 같습니다.
+* **noAutoComplete**: 자동 완성 사용 안 함(값 &quot;true&quot; 사용)
+* **createMode**: 링크가 없는 경우 즉시 링크를 만듭니다. 가능한 값은 다음과 같습니다.
 
-   * **없음**:생성을 비활성화합니다. 링크가 없으면 오류 메시지가 표시됩니다
-   * **인라인**:편집 필드에 컨텐츠가 있는 링크를 만듭니다.
-   * **에디션**:링크에 편집 양식을 표시합니다. 양식의 유효성이 확인되면 데이터가 저장됩니다(기본 모드)
+   * **없음**: 생성을 비활성화합니다. 링크가 없으면 오류 메시지가 표시됩니다
+   * **인라인**: 편집 필드에 컨텐츠가 있는 링크를 만듭니다.
+   * **에디션**: 링크에 편집 양식을 표시합니다. 양식의 유효성이 확인되면 데이터가 저장됩니다(기본 모드)
 
-* **noZoom**:링크에 양식 편집 없음(값 &quot;true&quot; 사용)
-* **양식**:타깃팅된 요소의 편집 양식을 오버로드함
+* **noZoom**: 링크에 양식 편집 없음(값 &quot;true&quot; 사용)
+* **양식**: 타깃팅된 요소의 편집 양식을 오버로드함
 
 ## 링크 목록 {#list-of-links}
 
@@ -343,7 +345,7 @@ xpath가 없는 컨테이너의 예:
 
 **[!UICONTROL Add]** 및 **[!UICONTROL Delete]** 단추를 사용하여 링크에서 수집 요소를 추가하고 삭제할 수 있습니다. 기본적으로 요소를 추가하면 대상 스키마의 편집 양식이 실행됩니다.
 
-목록의 **`<input>`** 태그에서 **zoom=&quot;true&quot;** 특성이 완료되면 **[!UICONTROL Detail]** 단추가 자동으로 추가됩니다.선택한 라인의 편집 양식을 시작할 수 있습니다.
+목록의 **`<input>`** 태그에서 **zoom=&quot;true&quot;** 특성이 완료되면 **[!UICONTROL Detail]** 단추가 자동으로 추가됩니다. 선택한 라인의 편집 양식을 시작할 수 있습니다.
 
 목록을 로드하는 동안 필터링 및 정렬을 적용할 수 있습니다.
 
@@ -394,14 +396,14 @@ xpath가 없는 컨테이너의 예:
 
 ### 목록 속성 {#list-properties}
 
-* **noToolbar**:도구 모음을 숨깁니다(값 &quot;true&quot;가 있는 경우).
-* **toolbarCaption**:도구 모음 레이블 오버로드
-* **toolbarAlign**:도구 모음의 세로 또는 가로 형상을 수정합니다(가능한 값:&quot;vertical&quot;|&quot;horizontal&quot;)
-* **img**:목록에 연결된 이미지를 표시합니다
-* **양식**:타깃팅된 요소의 편집 양식을 오버로드함
-* **확대/축소**:버튼 **[!UICONTROL Zoom]** 을 추가하여 타깃팅된 요소를 편집합니다.
-* **xpathEditTarget**:입력한 링크에 대한 편집 설정
-* **xpathChoiceTarget**:또한 입력한 링크에서 선택 양식을 시작합니다
+* **noToolbar**: 도구 모음을 숨깁니다(값 &quot;true&quot;가 있는 경우).
+* **toolbarCaption**: 도구 모음 레이블 오버로드
+* **toolbarAlign**: 도구 모음의 세로 또는 가로 형상을 수정합니다(가능한 값: &quot;vertical&quot;|&quot;horizontal&quot;)
+* **img**: 목록에 연결된 이미지를 표시합니다
+* **양식**: 타깃팅된 요소의 편집 양식을 오버로드함
+* **확대/축소**: 버튼 **[!UICONTROL Zoom]** 을 추가하여 타깃팅된 요소를 편집합니다.
+* **xpathEditTarget**: 입력한 링크에 대한 편집 설정
+* **xpathChoiceTarget**: 또한 입력한 링크에서 선택 양식을 시작합니다
 
 ## 메모리 목록 컨트롤 {#memory-list-controls}
 
@@ -469,14 +471,14 @@ xpath가 없는 컨테이너의 예:
 
 ### 목록 속성 {#list-properties-1}
 
-* **noToolbar**:도구 모음을 숨깁니다(값 &quot;true&quot;가 있는 경우).
-* **toolbarCaption**:도구 모음 레이블 오버로드
-* **toolbarAlign**:도구 모음의 위치 지정(가능한 값:&quot;vertical&quot;|&quot;horizontal&quot;)
-* **img**:목록에 연결된 이미지를 표시합니다
-* **양식**:타깃팅된 요소의 편집 양식을 오버로드함
-* **확대/축소**:버튼 **[!UICONTROL Zoom]** 을 추가하여 타깃팅된 요소를 편집합니다.
-* **zoomOnAdd**:추가할 때 편집 양식을 시작합니다
-* **xpathChoiceTarget**:또한 입력한 링크에서 선택 양식을 시작합니다
+* **noToolbar**: 도구 모음을 숨깁니다(값 &quot;true&quot;가 있는 경우).
+* **toolbarCaption**: 도구 모음 레이블 오버로드
+* **toolbarAlign**: 도구 모음의 위치 지정(가능한 값: &quot;vertical&quot;|&quot;horizontal&quot;)
+* **img**: 목록에 연결된 이미지를 표시합니다
+* **양식**: 타깃팅된 요소의 편집 양식을 오버로드함
+* **확대/축소**: 버튼 **[!UICONTROL Zoom]** 을 추가하여 타깃팅된 요소를 편집합니다.
+* **zoomOnAdd**: 추가할 때 편집 양식을 시작합니다
+* **xpathChoiceTarget**: 또한 입력한 링크에서 선택 양식을 시작합니다
 
 ## 편집할 수 없는 필드 {#non-editable-fields}
 
@@ -539,7 +541,7 @@ xpath가 없는 컨테이너의 예:
 
 ## 표현식 필드 {#expression-field}
 
-표현식 필드는 표현식에서 동적으로 필드를 업데이트합니다.**`<input>`** 태그는 **xpath** 속성과 함께 사용하여 업데이트할 필드의 경로와 업데이트 식을 포함하는 **expr** 속성을 입력합니다.
+표현식 필드는 표현식에서 동적으로 필드를 업데이트합니다. **`<input>`** 태그는 **xpath** 속성과 함께 사용하여 업데이트할 필드의 경로와 업데이트 식을 포함하는 **expr** 속성을 입력합니다.
 
 ```
 <!-- Example: updating the boolean1 field from the value contained in the field with path /tmp/@flag -->
@@ -551,16 +553,16 @@ xpath가 없는 컨테이너의 예:
 
 입력 양식 실행은 편집 중인 엔터티의 데이터를 포함하는 XML 문서를 초기화합니다. 이 문서는 양식의 컨텍스트를 나타내며 작업 공간으로 사용할 수 있습니다.
 
-### 컨텍스트 {#updating-the-context} 업데이트
+### 컨텍스트 업데이트 {#updating-the-context}
 
 양식 컨텍스트를 수정하려면 `<set expr="<value>" xpath="<field>"/>` 태그를 사용하십시오. 여기서 `<field>` 는 대상 필드이고 `<value>` 는 업데이트 식 또는 값입니다.
 
 `<set>` 태그 사용 예:
 
-* **`<set expr="'Test'" xpath="/tmp/@test" />`**:임시 위치 /tmp/@test1에 &#39;테스트&#39; 값을 배치합니다.
-* **`<set expr="'Test'" xpath="@lastName" />`**:&quot;lastName&quot; 특성의 엔터티를 &#39;Test&#39; 값으로 업데이트합니다
-* **`<set expr="true" xpath="@boolean1" />`**:&quot;boolean1&quot; 필드의 값을 &quot;true&quot;로 설정합니다.
-* **`<set expr="@lastName" xpath="/tmp/@test" />`**:lastName 속성의 컨텐츠로 업데이트
+* **`<set expr="'Test'" xpath="/tmp/@test" />`**: 임시 위치 /tmp/@test1에 &#39;테스트&#39; 값을 배치합니다.
+* **`<set expr="'Test'" xpath="@lastName" />`**: &quot;lastName&quot; 특성의 엔터티를 &#39;Test&#39; 값으로 업데이트합니다
+* **`<set expr="true" xpath="@boolean1" />`**: &quot;boolean1&quot; 필드의 값을 &quot;true&quot;로 설정합니다.
+* **`<set expr="@lastName" xpath="/tmp/@test" />`**: lastName 속성의 컨텐츠로 업데이트
 
 **`<enter>`** 및 **`<leave>`** 태그를 통해 양식을 초기화 및 닫을 때 양식 컨텍스트를 업데이트할 수 있습니다.
 
@@ -580,7 +582,7 @@ xpath가 없는 컨테이너의 예:
 >
 >`<enter>` 및 `<leave>`   태그는 페이지의 `<container>`(&quot;notebook&quot; 및 &quot;iconbox&quot; 유형)에서 사용할 수 있습니다.
 
-### 표현식 언어 {#expression-language-}
+### 표현 언어 {#expression-language-}
 
 조건부 테스트를 수행하기 위해 매크로 언어를 양식 정의에 사용할 수 있습니다.
 
@@ -646,14 +648,14 @@ SOAP 메서드 실행은 페이지 끝에 채워진 **`<leave>`** 태그에서 �
 
 매개 변수 유형은 **type** 특성을 통해 지정해야 합니다. 가능한 유형은 다음과 같습니다.
 
-* **문자열**:문자 문자열
-* **부울**:부울
-* **바이트**:8비트 정수
-* **short**:16비트 정수
-* **긴**:32비트 정수
-* **short**:16비트 정수
-* **double**:2정밀도 부동 소수점 숫자
-* **DOMElement**:element-type 노드
+* **문자열**: 문자 문자열
+* **부울**: 부울
+* **바이트**: 8비트 정수
+* **short**: 16비트 정수
+* **긴**: 32비트 정수
+* **short**: 16비트 정수
+* **double**: 2정밀도 부동 소수점 숫자
+* **DOMElement**: element-type 노드
 
 **exprIn** 속성에는 매개 변수로 전달할 데이터의 위치가 포함되어 있습니다.
 

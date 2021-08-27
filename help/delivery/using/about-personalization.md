@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 40%
@@ -14,6 +14,8 @@ ht-degree: 40%
 ---
 
 # 개인화 시작{#about-personalization}
+
+![](../../assets/common.svg)
 
 Adobe Campaign이 전달하는 메시지는 콘텐츠 또는 메시지 모양을 고려하여 여러 가지 방법으로 개인화할 수 있습니다. 이러한 방법은 특히 수신자 프로필에서 가져온 기준에 따라 결합할 수 있습니다. 이메일 게재의 경우 메시지의 **[!UICONTROL Source]** 탭에서 JavaScript에서 직접 게재의 요소 및 개인화 조건을 정의할 수 있습니다. 일반적으로 Adobe Campaign을 통해 다음을 수행할 수 있습니다.
 
@@ -24,4 +26,4 @@ Adobe Campaign이 전달하는 메시지는 콘텐츠 또는 메시지 모양을
 
 >[!CAUTION]
 >
->다음 변수는 개인화에 사용할 수 있지만 수정하면 안 되는 내부 변수입니다.**배달**, **메시지**, **dataSource**, **targetData**, **공급자**, **쿠폰**, **쿠폰Value**, **쿠폰**
+>다음 변수는 개인화에 사용할 수 있지만 수정하면 안 되는 내부 변수입니다. **배달**, **메시지**, **dataSource**, **targetData**, **공급자**, **쿠폰**, **쿠폰Value**, **쿠폰**

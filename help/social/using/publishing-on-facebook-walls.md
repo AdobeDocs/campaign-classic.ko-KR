@@ -6,14 +6,16 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 2135a836-245f-406e-b351-c27d38e0f9fd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Facebook 담벼락에 게시{#publishing-on-facebook-walls}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign에서 Facebook 벽으로 발행물을 보내려면 이러한 페이지에 대한 쓰기 액세스 권한을 Adobe Campaign에 위임해야 합니다. 여기에는 다음 구성 단계가 포함됩니다.
 
@@ -24,7 +26,7 @@ Adobe Campaign에서 Facebook 벽으로 발행물을 보내려면 이러한 페�
 
 ## 필수 구성 요소 {#prerequisites}
 
-먼저 Facebook 계정 및 여러 페이지를 만듭니다.이러한 정보는 게시를 전송하는 데 사용됩니다.
+먼저 Facebook 계정 및 여러 페이지를 만듭니다. 이러한 정보는 게시를 전송하는 데 사용됩니다.
 
 * facebook 계정을 만들려면 [https://www.facebook.com](https://www.facebook.com) 링크를 사용합니다.
 * facebook 페이지를 만들려면 [https://www.facebook.com/pages/create](https://www.facebook.com/pages/create) 링크를 사용합니다.
@@ -40,17 +42,17 @@ Adobe Campaign에서 Facebook 벽으로 발행물을 보내려면 이러한 페�
 1. 페이지를 관리하는 데 사용하는 Facebook 계정에 로그인합니다.
 1. 새 Facebook 페이지를 만듭니다.
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Settings]** 단추를 클릭합니다.
-1. **[!UICONTROL General]** 탭에서 페이지의 가시성 매개 변수를 수정합니다.**[!UICONTROL Page unpublished]** 상자를 선택합니다.
+1. **[!UICONTROL General]** 탭에서 페이지의 가시성 매개 변수를 수정합니다. **[!UICONTROL Page unpublished]** 상자를 선택합니다.
 1. **[!UICONTROL Save Changes]** 버튼을 클릭합니다.
 
 ![](assets/social_facebook_test_page.png)
 
 ## Facebook 애플리케이션 만들기 {#creating-a-facebook-application}
 
-Adobe Campaign이 페이지의 담벼락에 게시하려면 Facebook 애플리케이션을 만들어야 합니다. 이렇게 하려면 다음 단계를 적용합니다.
+Adobe Campaign이 페이지의 담벼락에 게시하려면 Facebook 애플리케이션을 만들어야 합니다. 그렇게 하려면 다음 단계를 적용합니다.
 
 1. 페이지를 관리하는 데 사용하는 Facebook 계정에 로그인합니다.
-1. 브라우저에 다음 주소를 입력합니다.[https://developers.facebook.com/apps](https://developers.facebook.com/apps)
+1. 브라우저에 다음 주소를 입력합니다. [https://developers.facebook.com/apps](https://developers.facebook.com/apps)
 
    >[!IMPORTANT]
    >
@@ -74,7 +76,7 @@ Adobe Campaign이 페이지의 담벼락에 게시하려면 Facebook 애플리�
 
    ![](assets/social_create_facebook_app_004.png)
 
-## Adobe Campaign {#delegating-write-access-to-adobe-campaign}에 대한 쓰기 액세스 위임
+## Adobe Campaign에 대한 쓰기 액세스 위임 {#delegating-write-access-to-adobe-campaign}
 
 페이지 벽에 게시하기 위해 Adobe Campaign에 대한 쓰기 액세스를 위임하려면 이전에 만든 Facebook 애플리케이션의 매개 변수를 입력해야 합니다.
 
@@ -84,7 +86,7 @@ Adobe Campaign이 페이지의 담벼락에 게시하려면 Facebook 애플리�
 >
 >Adobe Campaign 연산자는 이 구성을 수행할 관리 권한이 있어야 합니다.
 
-* **Facebook**:앞에서 만든 응용 프로그램(  [https://developers.facebook.com/apps ](https://developers.facebook.com/apps))을 선택하고 탭을  **[!UICONTROL Settings > Basic]** 선택합니다.
+* **Facebook**: 앞에서 만든 응용 프로그램(  [https://developers.facebook.com/apps ](https://developers.facebook.com/apps))을 선택하고 탭을  **[!UICONTROL Settings > Basic]** 선택합니다.
 
    ![](assets/social_facebook_external_account_002.png)
 
@@ -92,7 +94,7 @@ Adobe Campaign이 페이지의 담벼락에 게시하려면 Facebook 애플리�
    >
    >**[!UICONTROL Facebook Web Games]** 섹션이 나타나지 않으면 페이지 하단에 있는 **[!UICONTROL Add Platform]** 버튼을 클릭하고 **[!UICONTROL Facebook Web Games]**&#x200B;를 선택합니다.
 
-* **Adobe Campaign**:트리의  **[!UICONTROL Administration > Platform > External Accounts]** 노드로 이동하고  **[!UICONTROL Facebook routing]** 외부 계정을 선택한 다음 탭을  **[!UICONTROL Connector]** 클릭합니다.
+* **Adobe Campaign**: 트리의  **[!UICONTROL Administration > Platform > External Accounts]** 노드로 이동하고  **[!UICONTROL Facebook routing]** 외부 계정을 선택한 다음 탭을  **[!UICONTROL Connector]** 클릭합니다.
 
    ![](assets/social_facebook_external_account_001.png)
 

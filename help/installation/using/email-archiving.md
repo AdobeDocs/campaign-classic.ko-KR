@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: dccf72b200cad9ba160a496cdd13ba39c5599008
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 2%
+source-wordcount: '1305'
+ht-degree: 3%
 
 ---
 
-# 이메일 BCC {#email-archiving}
+# 이메일 BCC 구성 {#email-archiving}
+
+![](../../assets/v7-only.svg)
 
 플랫폼에서 보낸 이메일 사본을 유지하도록 Adobe Campaign을 구성할 수 있습니다.
 
@@ -31,7 +33,7 @@ ht-degree: 2%
 * 성공적으로 전송된 이메일만 고려하며 바운스는 고려되지 않습니다.
 * 전자 메일 보관 시스템이 Adobe Campaign 17.2(빌드 8795)로 변경되었습니다. 이미 전자 메일 보관을 사용하고 있다면 새 전자 메일 BCC 시스템으로 수동으로 업그레이드해야 합니다. 자세한 내용은 [새 이메일 BCC](#updated-email-archiving-system--bcc-) 섹션으로 이동 섹션을 참조하십시오.
 
-## 이메일 BCC 활성화 (온-프레미스) {#activating-email-archiving--on-premise-}
+## 이메일 BCC 활성화(온-프레미스) {#activating-email-archiving--on-premise-}
 
 Adobe Campaign이 전후에 설치될 때 BCC 전자 메일 보관을 활성화하려면 아래 단계를 수행하십시오.
 
@@ -49,7 +51,7 @@ Adobe Campaign이 전후에 설치될 때 BCC 전자 메일 보관을 활성화�
 >
 >보안 설정이 **dataLogPath** 매개 변수를 통해 정의된 폴더에 액세스할 수 있도록 하는 것은 프로젝트를 구현하는 팀의 책임입니다.
 
-전체 경로는 다음과 같습니다.**`<datalogpath>  YYYY-MM-DDHHh`** 날짜와 시간은 MTA 서버의 시계(UTC)에 따라 설정됩니다. 예제:
+전체 경로는 다음과 같습니다. **`<datalogpath>  YYYY-MM-DDHHh`** 날짜와 시간은 MTA 서버의 시계(UTC)에 따라 설정됩니다. 예제:
 
 ```
 C:\emails\2018-12-02\13h
@@ -77,24 +79,24 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
            pollDelay="600" acquireLimit="5000" smtpNbConnection="2"/>
 ```
 
-* **compressionFormat**:.eml 파일을 압축할 때 사용되는 형식입니다. 가능한 값은 다음과 같습니다.
+* **compressionFormat**: .eml 파일을 압축할 때 사용되는 형식입니다. 가능한 값은 다음과 같습니다.
 
-   **0**:압축 없음(기본값)
+   **0**: 압축 없음(기본값)
 
-   **1**:압축(.zip 형식)
+   **1**: 압축(.zip 형식)
 
-* **compressBatchSize**:보관 파일(.zip 파일)에 추가된 .eml 파일의 수입니다.
-* **archivingType**:사용할 아카이빙 전략입니다. 가능한 값은 다음과 같습니다.
+* **compressBatchSize**: 보관 파일(.zip 파일)에 추가된 .eml 파일의 수입니다.
+* **archivingType**: 사용할 아카이빙 전략입니다. 가능한 값은 다음과 같습니다.
 
-   **0**:보낸 전자 메일의 원시 복사본은 .eml 형식으로  **** dataLogPathfolder(기본값)에 저장됩니다. **`<deliveryid>-<broadlogid>-sent.eml`** 파일의 보관 복사본이 **dataLogPath/archives** 폴더에 저장됩니다. 보낸 전자 메일 파일 경로는 **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**&#x200B;이 됩니다.
+   **0**: 보낸 전자 메일의 원시 복사본은 .eml 형식으로  **** dataLogPathfolder(기본값)에 저장됩니다. **`<deliveryid>-<broadlogid>-sent.eml`** 파일의 보관 복사본이 **dataLogPath/archives** 폴더에 저장됩니다. 보낸 전자 메일 파일 경로는 **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**&#x200B;이 됩니다.
 
-   **1**:보낸 전자 메일의 원시 복사본은 .eml 형식으로  **** dataLogPathfolder에 저장되며 SMTP를 통해 BCC 전자 메일 주소로 전송됩니다. 전자 메일 복사본이 BCC 주소로 전송되면 보관 파일 이름은 **`<deliveryid>-<broadlogid>-sent-archived.eml`**&#x200B;이 되고 파일이 **dataLogPath/archives** 폴더로 이동됩니다. 보낸 사람 및 BCC 보관된 전자 메일 파일 경로가 **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**&#x200B;입니다.
+   **1**: 보낸 전자 메일의 원시 복사본은 .eml 형식으로  **** dataLogPathfolder에 저장되며 SMTP를 통해 BCC 전자 메일 주소로 전송됩니다. 전자 메일 복사본이 BCC 주소로 전송되면 보관 파일 이름은 **`<deliveryid>-<broadlogid>-sent-archived.eml`**&#x200B;이 되고 파일이 **dataLogPath/archives** 폴더로 이동됩니다. 보낸 사람 및 BCC 보관된 전자 메일 파일 경로가 **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**&#x200B;입니다.
 
-* **expirationDelay**:보관을 위해 보관되는 일 수 .eml 파일 이 지연 후에 압축을 위해 **dataLogPath/archives** 폴더로 자동으로 이동합니다. 기본적으로 .eml 파일은 2일 후에 만료됩니다.
-* **purgeArchivesDelay**:dataLogPath/ **폴더에 보관되는 일`<archives>`** 수입니다. 해당 기간 이후에는 영구적으로 삭제됩니다. 제거는 MTA가 시작될 때 시작됩니다. 기본적으로 7일마다 수행됩니다.
-* **pollDelay**:dataLogPathfolder로 들어오는 새 전자 메일에 대한 빈도(초) **** 를 확인합니다. 예를 들어 이 매개 변수가 60으로 설정된 경우 보관 프로세스는 매 분마다 **dataLogPath/`<date and time>`** 폴더 내의 .eml 파일을 거치고 필요한 경우 제거 사항을 적용하고 BCC 주소로 전자 메일 사본을 보내거나 필요할 때마다 아카이브된 파일을 압축합니다.
-* **acquireLimit**:pollDelayparameter에 따라 보관 프로세스가 다시 적용되기 전에 한 번에 처리된 .eml  **** 파일 수입니다. 예를 들어 **acquireLimit** 매개 변수를 100으로 설정하고 **pollDelay** 매개 변수를 60으로 설정하면 분당 100.eml 파일이 처리됩니다.
-* **smtpNbConnection**:숨은 참조 전자 메일 주소에 대한 SMTP 연결 수입니다.
+* **expirationDelay**: 보관을 위해 보관되는 일 수 .eml 파일 이 지연 후에 압축을 위해 **dataLogPath/archives** 폴더로 자동으로 이동합니다. 기본적으로 .eml 파일은 2일 후에 만료됩니다.
+* **purgeArchivesDelay**: dataLogPath/ **폴더에 보관되는 일`<archives>`** 수입니다. 해당 기간 이후에는 영구적으로 삭제됩니다. 제거는 MTA가 시작될 때 시작됩니다. 기본적으로 7일마다 수행됩니다.
+* **pollDelay**: dataLogPathfolder로 들어오는 새 전자 메일에 대한 빈도(초) **** 를 확인합니다. 예를 들어 이 매개 변수가 60으로 설정된 경우 보관 프로세스는 매 분마다 **dataLogPath/`<date and time>`** 폴더 내의 .eml 파일을 거치고 필요한 경우 제거 사항을 적용하고 BCC 주소로 전자 메일 사본을 보내거나 필요할 때마다 아카이브된 파일을 압축합니다.
+* **acquireLimit**: pollDelayparameter에 따라 보관 프로세스가 다시 적용되기 전에 한 번에 처리된 .eml  **** 파일 수입니다. 예를 들어 **acquireLimit** 매개 변수를 100으로 설정하고 **pollDelay** 매개 변수를 60으로 설정하면 분당 100.eml 파일이 처리됩니다.
+* **smtpNbConnection**: 숨은 참조 전자 메일 주소에 대한 SMTP 연결 수입니다.
 
 전자 메일 전송 처리량에 따라 이러한 매개 변수를 조정해야 합니다. 예를 들어 MTA가 시간당 30,000개의 이메일을 보내는 구성에서 **pollDelay** 매개 변수를 600으로, **acquireLimit** 매개 변수를 5000으로, **smtpNbConnection** 매개 변수를 2로 설정할 수 있습니다. 즉, SMTP 연결 2개를 사용하면 10분마다 5,000개의 이메일이 BCC 주소로 전송됩니다.
 
@@ -110,10 +112,10 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 <archiving smtpBccAddress="" smtpEnableTLS="false" smtpRelayAddress="" smtpRelayPort="25"/>
 ```
 
-* **smtpBccAddress**:대상 보관
-* **smtpEnableTLS**:보안 SMTP 연결 사용(TLS/SSL 프로토콜)
-* **smtpRelayAddress**:사용할 릴레이 주소
-* **smtpRelayPort**:사용할 릴레이 포트
+* **smtpBccAddress**: 대상 보관
+* **smtpEnableTLS**: 보안 SMTP 연결 사용(TLS/SSL 프로토콜)
+* **smtpRelayAddress**: 사용할 릴레이 주소
+* **smtpRelayPort**: 사용할 릴레이 포트
 
 >[!NOTE]
 >
@@ -121,7 +123,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 >
 >또한, 릴레이는 전송되지 않은 전자 메일을 포함하여 모든 전자 메일에 **[!UICONTROL Sent]** 상태를 할당합니다. 따라서 모든 메시지가 보관됩니다.
 
-## 새 이메일 BCC {#updated-email-archiving-system--bcc-}로 이동
+## 새 전자 메일 BCC로 이동 {#updated-email-archiving-system--bcc-}
 
 >[!IMPORTANT]
 >
@@ -137,11 +139,39 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 ## 이메일 BCC 우수 사례 {#best-practices}
 
-* **숨은 참조 주소 사서함**:MTA에서 보내는 모든 이메일을 보관하기에 충분한 수신 용량이 있는지 확인합니다.
-* **MTA 뮤테이션**:bcc 보관 기능은 MTA 수준에서 작동합니다. MTA에서 보낸 모든 이메일을 복제할 수 있도록 해줍니다. MTA는 여러 인스턴스(예: 개발, 테스트 또는 프로덕션)에서 뮤테이션하거나 중간 소싱 환경에서 여러 클라이언트(예: 중간 소싱 환경)에서 뮤테이션할 수 있으므로 보안에 영향을 줍니다.
+* **숨은 참조 주소 사서함**: MTA에서 보내는 모든 이메일을 보관하기에 충분한 수신 용량이 있는지 확인합니다.
+* **MTA 뮤테이션**: bcc 보관 기능은 MTA 수준에서 작동합니다. MTA에서 보낸 모든 이메일을 복제할 수 있도록 해줍니다. MTA는 여러 인스턴스(예: 개발, 테스트 또는 프로덕션)에서 뮤테이션하거나 중간 소싱 환경에서 여러 클라이언트(예: 중간 소싱 환경)에서 뮤테이션할 수 있으므로 보안에 영향을 줍니다.
 
    * 여러 클라이언트와 MTA를 공유하고 그 중 하나에 이 옵션이 활성화되면 이 클라이언트는 동일한 MTA를 공유하는 다른 클라이언트의 모든 이메일에 액세스합니다. 이러한 상황을 방지하려면 각 클라이언트에 대해 다른 MTA를 사용합니다.
    * 단일 클라이언트에 대해 여러 인스턴스(개발, 테스트, prod)에서 동일한 MTA를 사용하는 경우 세 개 인스턴스 모두에서 전송된 메시지는 dataLogPath 옵션에 의해 복제됩니다.
 
-* **연결당 전자 메일**:BCC 전자 메일 보관은 연결을 열고 해당 연결을 통해 모든 전자 메일을 전송하려고 하여 작동합니다. Adobe은 내부 기술 담당자에게 주어진 연결에서 수락되는 이메일 수를 확인하는 것이 좋습니다. 이 수를 늘리면 숨은 참조 처리량에 큰 영향을 줄 수 있습니다.
-* **BCC 전송 IP**:현재 숨은 참조 이메일은 일반적인 MTA 프록시를 통해 전송되지 않습니다. 대신 MTA 서버에서 대상 이메일 서버로 직접 연결이 열립니다. 즉, 이메일 서버 구성에 허용 목록에 추가하다 따라 네트워크의에 IP를 추가해야 할 수 있습니다.
+* **연결당 전자 메일**: BCC 전자 메일 보관은 연결을 열고 해당 연결을 통해 모든 전자 메일을 전송하려고 하여 작동합니다. Adobe은 내부 기술 담당자에게 주어진 연결에서 수락되는 이메일 수를 확인하는 것이 좋습니다. 이 수를 늘리면 숨은 참조 처리량에 큰 영향을 줄 수 있습니다.
+* **BCC 전송 IP**: 현재 숨은 참조 이메일은 일반적인 MTA 프록시를 통해 전송되지 않습니다. 대신 MTA 서버에서 대상 이메일 서버로 직접 연결이 열립니다. 즉, 이메일 서버 구성에 허용 목록에 추가하다 따라 네트워크의에 IP를 추가해야 할 수 있습니다.
+
+<!--## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}
+
+For **hosted and hybrid architectures**, if you have the latest instance of Adobe Campaign, or if you have upgraded to the Enhanced MTA and using Adobe Campaign 19.2 or later, you can use Email BCC with Enhanced MTA, which is more reliable, efficient, and has lower latency.
+
+### Activating Email BCC with Enhanced MTA
+
+To activate this feature, you must contact your account executive to communicate the BCC email address to be used for archiving.
+
+>[!NOTE]
+>
+>If you were already using BCC email archiving, you can provide the same address as you were using before or use a new one. If you keep the same, you still have to contact your account executive to set it up for you.
+
+### Specificities and recommendations
+
+Email BCC with Enhanced MTA is not activated at the delivery level: once this feature is enabled, **all sent deliveries** are sent to the BCC email address. There is no need to select the **[!UICONTROL Email BCC]** option in the delivery template or in the delivery.
+
+If you were already using BCC and if you keep the same address, you could see a significant increase in the volumes sent to the BCC address.
+
+Consequently, make sure:
+* The BCC address has enough reception capacity to archive all the emails that are sent.
+* You have the required MTA infrastructure capacity to receive 100% of your email volume delivered to a single address.
+
+### Limitations
+
+* Email BCC with Enhanced MTA delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md).
+
+* There is no reporting available on the delivery status of the emails sent to the BCC email address.-->

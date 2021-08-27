@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 보고서에 대한 작업{#actions-on-reports}
+
+![](../../assets/common.svg)
 
 보고서를 볼 때 도구 모음에서 특정 수의 작업을 수행할 수 있습니다. 다음은 아래에 자세히 설명되어 있습니다.
 
@@ -39,7 +41,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_advuser_report_wizard_021.png)
 
-### Microsoft Excel {#exporting-into-microsoft-excel}로 내보내기
+### Microsoft Excel로 내보내기 {#exporting-into-microsoft-excel}
 
 **[!UICONTROL List with group]** 유형 보고서를 Excel로 내보내려면 다음과 같은 권장 사항 및 제한 사항이 적용됩니다.
 
@@ -54,9 +56,9 @@ ht-degree: 1%
 * 보고서는 셀 수준에서 정의된 특정 서식을 사용할 필요가 없습니다. 테이블에서 셀 형식을 정의하려면 **[!UICONTROL Form rendering]** 을 사용하는 것이 좋습니다. **[!UICONTROL Form rendering]**&#x200B;은 **[!UICONTROL Administration > Configuration > Form rendering]**&#x200B;을 통해 액세스할 수 있습니다.
 * HTML 컨텐츠를 삽입하지 않는 것이 좋습니다.
 * 보고서에 여러 개의 테이블, 차트 등이 포함되어 있는 경우 유형 요소가 다른 요소 아래에 내보내집니다.
-* 셀에서 캐리지 리턴을 강제 적용할 수 있습니다.이 구성은 Excel에 유지됩니다. 자세한 내용은 이 [셀 형식 정의](../../reporting/using/creating-a-table.md#defining-cell-format)를 참조하십시오.
+* 셀에서 캐리지 리턴을 강제 적용할 수 있습니다. 이 구성은 Excel에 유지됩니다. 자세한 내용은 이 [셀 형식 정의](../../reporting/using/creating-a-table.md#defining-cell-format)를 참조하십시오.
 
-### 내보내기 {#postpone-the-export} 연기
+### 내보내기 연기 {#postpone-the-export}
 
 예를 들어 비동기 호출이 발생할 때까지 보고서 내보내기를 연기할 수 있습니다. 이렇게 하려면 페이지의 초기화 스크립트에 다음 매개 변수를 입력합니다.
 
@@ -84,7 +86,7 @@ document.nl_waitBeforeRender = true;
 
 ## 보고서 인쇄 {#printing-a-report}
 
-보고서를 인쇄할 수 있습니다.이렇게 하려면 프린터 아이콘을 클릭합니다.그러면 대화 상자가 열립니다.
+보고서를 인쇄할 수 있습니다. 이렇게 하려면 프린터 아이콘을 클릭합니다. 그러면 대화 상자가 열립니다.
 
 더 좋은 결과를 얻으려면 Internet Explorer 인쇄 옵션을 편집하고 **[!UICONTROL Print background colors and images]**&#x200B;을 선택하십시오.
 

@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: general-operation
 exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 기본 원칙{#fundamental-principles}
+
+![](../../assets/v7-only.svg)
 
 ## 환경 배포 {#deploying-environments}
 
@@ -33,10 +35,10 @@ ht-degree: 1%
 
 ## 상호 작용 유형 및 연락처 메서드 {#interaction-types-and-contact-methods}
 
-다음 두 가지 유형의 상호 작용이 있습니다.연락처에 의해 시작된 인바운드 상호 작용 및 아웃바운드 상호 작용(오퍼 메이커에 의해 시작됨).
+다음 두 가지 유형의 상호 작용이 있습니다. 연락처에 의해 시작된 인바운드 상호 작용 및 아웃바운드 상호 작용(오퍼 메이커에 의해 시작됨).
 
 이러한 두 가지 유형의 상호 작용은 단일 모드(단일 연락처에 대해 오퍼가 계산됨) 또는 배치 모드(연락 집합에 대해 오퍼가 계산됨)에서 수행할 수 있습니다. 일반적으로 인바운드 상호 작용은 단일 모드에서 수행되고 아웃바운드 상호 작용은 배치 모드에서 수행됩니다. 그러나 트랜잭션 메시지에 대해 특정한 예외가 있을 수 있으며 이를 통해 아웃바운드 상호 작용이 단일 모드에서 수행됩니다( [이 섹션](../../message-center/using/about-transactional-messaging.md) 참조).
 
-오퍼를 제공할 수 있거나 제공해야 하는 즉시(수행된 구성에 따라) 오퍼 엔진이 중간 역할을 합니다.연락처에 대해 수신한 데이터와 애플리케이션에 지정된 대로 적용할 수 있는 다양한 규칙을 결합하여 사용할 수 있는 연락 중 가장 적합한 오퍼를 자동으로 계산합니다.
+오퍼를 제공할 수 있거나 제공해야 하는 즉시(수행된 구성에 따라) 오퍼 엔진이 중간 역할을 합니다. 연락처에 대해 수신한 데이터와 애플리케이션에 지정된 대로 적용할 수 있는 다양한 규칙을 결합하여 사용할 수 있는 연락 중 가장 적합한 오퍼를 자동으로 계산합니다.
 
 ![](assets/architecture_interaction2.png)

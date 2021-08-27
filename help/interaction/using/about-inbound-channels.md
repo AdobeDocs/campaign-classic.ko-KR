@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 4%
@@ -14,6 +14,8 @@ ht-degree: 4%
 ---
 
 # 인바운드 채널 정보{#about-inbound-channels}
+
+![](../../assets/v7-only.svg)
 
 인바운드 또는 아웃바운드 채널을 사용하여 다양한 오퍼 공간에 오퍼를 표시할 수 있습니다. 이 장에서는 인바운드 채널에 대한 몇 가지 특정 기능에 대해 자세히 설명합니다.
 

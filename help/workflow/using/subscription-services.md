@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # 구독 서비스{#subscription-services}
+
+![](../../assets/common.svg)
 
 **구독 서비스** 유형 활동을 사용하면 전환에서 지정된 모집단에 대한 정보 서비스 구독을 만들거나 삭제할 수 있습니다.
 
@@ -31,7 +33,7 @@ ht-degree: 2%
 
    이 메시지의 콘텐츠는 정보 서비스와 관련된 게재 템플릿에 지정됩니다. 자세한 정보는 이 [섹션](../../delivery/using/managing-subscriptions.md)을 참조하십시오.
 
-## 예:뉴스레터 {#example--subscribe-a-list-of-recipients-to-a-newsletter}에 수신자 목록 구독
+## 예: 뉴스레터에 수신자 목록 가입 {#example--subscribe-a-list-of-recipients-to-a-newsletter}
 
 한 번의 작업으로 다음 워크플로우는 구독자를 모집하기 위해 파리에 거주하는 근로자를 대상으로 뉴스레터에 사용할 수 있는 수신자 목록을 만드는 것을 목표로 합니다.
 

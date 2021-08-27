@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: ed97a1b5-c870-4b67-98b6-16adc316fd46
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 3%
@@ -14,6 +14,8 @@ ht-degree: 3%
 ---
 
 # 오퍼 카테고리 만들기{#creating-offer-categories}
+
+![](../../assets/v7-only.svg)
 
 오퍼 카테고리 만들기는 **[!UICONTROL Design]** 환경에서만 수행할 수 있습니다. 이 수정 오퍼는 생성/수정된 오퍼가 승인되면 **[!UICONTROL Live]** 환경(즉, 사용 가능한 오퍼가)에 자동으로 배포됩니다. 기본적으로 **[!UICONTROL Design]** 환경에는 모든 오퍼를 수신할 카테고리가 포함되어 있습니다. 카탈로그 오퍼에 계층 구조를 추가하도록 하위 카테고리를 만들 수 있습니다.
 

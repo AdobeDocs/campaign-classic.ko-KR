@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: c2470098-62f3-4fee-b1c5-800ed0e91f75
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 로그 정밀도{#log-precision}
+
+![](../../assets/v7-only.svg)
 
 모든 Adobe Campaign 모듈에 이 프로세스를 적용하여 로그 정밀도를 높일 수 있습니다.
 
@@ -45,9 +47,9 @@ Adobe Campaign은 두 가지 수준의 로그로 작동할 수 있습니다.
 
    >[!NOTE]
    >
-   >**tracefilter:***&#x200B;를 사용하는 경우 모든 로그 유형이 활성화됩니다.ncm, rdr, nms, jst, 타이밍, wdbc, ldap, soap, xtk, xtquery, session, xtwriter, network, pop3, inmail\
-   가장 유용한 로그 유형은 다음과 같습니다.**wdbc**(모든 SQL 쿼리 표시), **soap**(모든 SOAP 호출 표시), **ldap**(인증 후 모든 LDAP 쿼리 표시), **xtquery**(모든 querydef 목록을 표시합니다.)\
-   개별적으로 사용할 수 있습니다(예:**tracefilter:soap,wdbc**). 모두 활성화하고 특정 다른 항목을 제외하도록 선택할 수도 있습니다.**-tracefilter:*,!soap**
+   >**tracefilter:***&#x200B;를 사용하는 경우 모든 로그 유형이 활성화됩니다. ncm, rdr, nms, jst, 타이밍, wdbc, ldap, soap, xtk, xtquery, session, xtwriter, network, pop3, inmail\
+   가장 유용한 로그 유형은 다음과 같습니다. **wdbc**(모든 SQL 쿼리 표시), **soap**(모든 SOAP 호출 표시), **ldap**(인증 후 모든 LDAP 쿼리 표시), **xtquery**(모든 querydef 목록을 표시합니다.)\
+   개별적으로 사용할 수 있습니다(예:**tracefilter:soap,wdbc**). 모두 활성화하고 특정 다른 항목을 제외하도록 선택할 수도 있습니다. **-tracefilter:*,!soap**
 
    오류가 실제로 발생했는지 확인한 다음 일반적인 방법으로 프로세스를 다시 시작합니다.
 
