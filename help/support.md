@@ -4,7 +4,7 @@ title: 'Campaign Classic 도움말 및 지원 옵션 '
 description: Campaign Classic 지원이 필요하십니까? 제대로 찾아오셨습니다.
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+source-git-commit: 5b1c59c450aaedbd8dbf6df8685817e4a7e02056
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 71%
@@ -29,7 +29,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 
 <img src="platform/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### FAQ {#faq-1}
+### FAQ
 
 새 빌드로 업그레이드하는 방법 워크플로우 실행을 모니터링하는 방법 데이터베이스 정리 워크플로우란 무엇입니까?.. [상위 10개 질문](platform/using/common-questions.md)을 참조하십시오.
 
@@ -99,7 +99,7 @@ Campaign Campaign 컨트롤 패널을 사용하면 각 인스턴스의 사용 �
 >
 >Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 섹션](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
->인스턴스는 AWS에서 호스팅하고 최신 [Gold Standard](rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1.3)](rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
+>인스턴스는 AWS에서 호스팅하고 최신 [Gold Standard](rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1.4)](rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
 
 ### Campaign 컨트롤 패널에는 어떻게 액세스하나요?
 

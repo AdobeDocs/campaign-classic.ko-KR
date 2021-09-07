@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+source-git-commit: 877ac37102a09a40ea59ef073afa00b9d9bd7dde
 workflow-type: tm+mt
-source-wordcount: '4464'
-ht-degree: 100%
+source-wordcount: '4542'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,19 @@ ht-degree: 100%
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
+
+## 2021년 8월{#aug-2021}
+
+새 워크플로우 활동을 추가했습니다. 데이터 소스 변경 - [자세히 알아보기](../../workflow/using/change-data-source.md)
+
+설명서 페이지에 적용 가능한 배지가 추가되었습니다. **Campaign Classic v7 기능에만 적용되고, 일반 기능에는** v7 및 v8 **적용됩니다.**
+
+Adobe Experience Manager 6.4부터 분해된 Campaign과 AEM Assets 간의 통합에 대한 메모를 추가했습니다. [자세히 알아보기](../../integrations/using/configuring-access-to-assets.md)
+
+Adobe Flash 제거 후 보고서 및 웹 애플리케이션 스크린샷 및 매개 변수가 업데이트되었습니다.
+
+**Gage** 차트 유형이 제거되었습니다.
+
 
 ## 2021년 7월 {#july-2021}
 

@@ -6,9 +6,9 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,6 @@ ht-degree: 1%
 
 **[!UICONTROL Rendering]** 탭에서 페이지에 대한 데이터 표시 모드를 개인화할 수 있습니다. 다음을 선택할 수 있습니다.
 
-* 차트 렌더링 엔진: 기본적으로 렌더링 엔진은 HTML 5입니다.
 * 보고서의 탐색 유형: 버튼 또는 링크를 통해 검색할 수 있습니다.
 * 보고서 요소에 대한 레이블의 기본 위치입니다. 이 위치는 각 요소에 대해 오버로드될 수 있습니다.
 * 보고서 페이지를 생성하는 데 사용되는 템플릿 또는 테마입니다.

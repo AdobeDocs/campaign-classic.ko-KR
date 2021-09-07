@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
 workflow-type: tm+mt
-source-wordcount: '1645'
-ht-degree: 98%
+source-wordcount: '1664'
+ht-degree: 97%
 
 ---
 
@@ -80,12 +80,16 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <td><strong>교체</strong></td> 
   </tr>
   <tr>  
+   <td>보고<br></td>
+   <td><p>Adobe Flash Player EOL에 따라 게이지 보고서 및 차트 렌더링 엔진을 더 이상 사용할 수 없습니다. <a href="../../reporting/using/creating-a-new-report.md">자세히 알아보기</a></p>
+  </tr>
+  <tr>  
    <td>팩스 채널<br></td>
    <td><p>Campaign 21.1.3 릴리스부터 팩스 채널을 더 이상 사용할 수 없습니다. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">자세히 알아보기</a></p>
+  </tr>
   <tr>
   <td>Demdex 도메인<br></td>
   <td><p> Campaign 21.1.3 릴리스부터 대상을 Adobe Experience Cloud으로 가져오고 내보내는 데 사용되는 demdex 도메인은 사용되지 않습니다. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">자세히 알아보기</a></p> 
-  </td>
   </td>
   </tr>
    <tr> 

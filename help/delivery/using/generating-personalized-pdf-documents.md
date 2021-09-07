@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '439'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## 변수 PDF 문서 정보 {#about-variable-pdf-documents}
 
-Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서에서 전자 메일 첨부 파일, DM 전달용 변수 PDF 문서를 생성할 수 있습니다.
+Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서에서 전자 메일 첨부 파일에 대한 변수 PDF 문서를 생성할 수 있습니다.
 
 지원되는 확장: &quot;.docx&quot;, &quot;.doc&quot; 및 &quot;.odt&quot;.
 

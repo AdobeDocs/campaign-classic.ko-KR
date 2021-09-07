@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 2c548465a73bcd817c6d2b18853f4f074ed6adfa
+source-git-commit: a64cf63916c4e4f220ac00f3d44d0e5e747815f4
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 87%
+source-wordcount: '1191'
+ht-degree: 84%
 
 ---
 
@@ -20,6 +20,12 @@ ht-degree: 87%
 이 페이지에는 [!DNL Gold Standard] 릴리스가 나열됩니다. [이 페이지](gs-overview.md)에서 Campaign [!DNL Gold Standard]에 대해 자세히 알아보십시오.
 
 ## ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 12 릴리스{#gs-12}
+
+_2021년 9월 7일_
+
+빌드 9032@554dbcd에는 다음 수정 사항이 포함되어 있습니다.
+
+* 추적이 활성화된 Line 게재에서 웹 애플리케이션에 대한 링크를 열 때 500 오류가 발생하는 문제를 수정했습니다.
 
 _2021년 8월 27일_
 

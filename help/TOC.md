@@ -7,9 +7,9 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a066eedd2ba7848f6dcefcb1476a0b834cb1d49a
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2525'
 ht-degree: 99%
 
 ---
@@ -438,6 +438,7 @@ ht-degree: 99%
       + [구독 서비스](workflow/using/subscription-services.md)
       + [데이터 업데이트](workflow/using/update-data.md)
       + [CRM 커넥터](workflow/using/crm-connector.md)
+      + [데이터 소스 변경](workflow/using/change-data-source.md)
    + 흐름 제어 활동 {#flow-control-activities}
       + [흐름 제어 활동 정보](workflow/using/about-flow-control-activities.md)
       + [시작 및 종료](workflow/using/start-and-end.md)

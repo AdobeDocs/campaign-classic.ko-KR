@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+source-git-commit: 66533711a67950626c1e6681f88f2aaaea1ebd95
 workflow-type: tm+mt
-source-wordcount: '1950'
-ht-degree: 99%
+source-wordcount: '2403'
+ht-degree: 83%
 
 ---
 
@@ -19,15 +19,65 @@ ht-degree: 99%
 
 이 페이지에는 **최신 Campaign Classic 릴리스**&#x200B;에 포함된 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다.
 
->[!NOTE]
->
->Campaign **GA(일반 가용성) 빌드**&#x200B;는 [[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [Campaign 21.1.3 릴리스](../../rn/using/latest-release.md#release-21-1-3-build-9330)입니다.
+[이 페이지](rn-overview.md)의 캠페인 빌드 상태를 이해합니다.
 
-## ![](assets/do-not-localize/green_2.png) 릴리스 21.1.3 - 빌드 9330 {#release-21-1-3-build-9330}
+## ![](assets/do-not-localize/green_2.png) 릴리스 21.1.4 - 빌드 9342 {#release-21-1-4-build-9342}
+
+_2021년 9월 7일_
+
+**보안 개선**
+
+* 디렉토리 순회 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-28547)
+
+**개선 사항**
+
+* 수명 종료 후 관련된 모든 캠페인 기능과 구성 요소에서 Flash이 제거되고 HTML5로 대체되었습니다. 차트의 **Gage** 유형이 제거되었습니다. (NEO-30330) [자세히 보기](../../reporting/using/creating-a-chart.md)
+* 이제 Windows에 클라이언트 콘솔을 설치할 때 설치 관리자에서 상위 레지스트리 노드가 있는지 확인하고 누락된 경우 클라이언트 콘솔을 만듭니다. 따라서 콘솔을 시작할 때 발생할 수 있는 문제가 방지됩니다. (NEO-34854)
+* 타사 도구(이메일 클라이언트, 인터넷 브라우저 등)와 연결된 오류를 방지하기 위해 추적 서명 기능이 개선되었습니다. 특수 문자를 처리합니다. 이제 URL 매개 변수가 인코딩됩니다.
+
+**기타 변경 사항**
+
+* 이전에 더 이상 사용되지 않는 Microsoft CRM 커넥터(Office 365 및 온-프레미스 배포)가 인터페이스에서 제거되었습니다. [자세히 표시](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
+* Tomcat 8로 마이그레이션한 후 IIS 통합 문제를 해결하기 위해 IIS 설정 스크립트가 업데이트되었습니다. (NEO-31019)
+* [청구 기술 워크플로우](../../production/using/monitoring-processes.md#billing-report)를 마케팅 인스턴스에서만 실행할 수 있도록 하기 위해 가드레일이 추가되었습니다.
+* 데이터 소스 식별이 워크플로우 전환 &#39; **보기 모집단** 창의 데이터 및 스키마 탭에서 개선되었습니다.
+* 데이터베이스 업데이트 문제를 방지하기 위해 누락된 데이터베이스 인덱스가 다음 스키마에 추가되었습니다. xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
+
+**패치**
+
+* 오퍼가 게재에 연결되어 있을 때 핫 클릭 보고서가 작동하지 않는 문제를 해결했습니다. (NEO-26295)
+* 실행 시 출력 테이블이 생성되지 않는 경우 **하위 워크플로우** 활동 문제가 해결되었습니다. (NEO-36242)
+* **설명 분석** 보고서를 PDF로 내보낼 때 발생하는 다양한 문제를 해결했습니다. (NEO-25847)
+* 외부 메일 배달을 사용할 때 게재가 실패하는 문제를 해결했습니다. (NEO-37435)
+* 웹 API를 사용하여 Microsoft CRM에 연결할 때 발생하는 오류를 수정했습니다. 기능에 영향을 주지 않았으므로 오류 메시지가 제거되었습니다.
+* mid 서버가 추적 및 마케팅 서버 간의 중계기로 설정되었을 때 추적 로그 중복 제거 문제를 수정했습니다. (NEO-36285)
+* Vault가 특정 코드 저장소로 사용되지 않는 회귀 문제를 해결했습니다.
+* 수신 전환이 FDA 데이터 소스에서 온 경우 **데이터 보강** 워크플로우 활동에서 변수를 사용할 수 없는 문제를 해결했습니다.
+* 이메일 메시지에서 URL이 손상되는 문제를 해결했습니다.
+
+## ![](assets/do-not-localize/red_2.png) 릴리스 21.1.3 - 빌드 9330 {#release-21-1-3-build-9330}
 
 _2021년 6월 5일_
 
 **새로운 기능**
+
+
+<table>
+<thead>
+<tr>
+<th><strong>새로운 워크플로우 활동: 데이터 소스 변경</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>새로 추가된 <b>데이터 소스 변경</b> 워크플로우 활동을 사용하면 워크플로우의 작업 테이블의 데이터 소스를 변경할 수 있습니다. 이렇게 하면 다양한 데이터 소스(FDA 및 로컬 데이터베이스)에서 데이터를 유연하게 관리할 수 있습니다.</p>
+<p>Adobe Campaign 워크플로우에서 데이터는 작업(또는 임시) 테이블을 사용하여 관리됩니다. 워크플로우를 실행하면 작업 테이블이 여러 워크플로우 활동 간에 데이터를 공유합니다. 기본 설정에서 작업 테이블은 쿼리하는 데이터의 소스와 동일한 데이터베이스에 생성됩니다.</p>
+<p>자세한 내용은 <a href="../../workflow/using/change-data-source.md">세부 설명서</a>를 참조하세요.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
