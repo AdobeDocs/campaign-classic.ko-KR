@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 5%
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 빌드 업그레이드 FAQ {#build-upgrade-faq}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign은 정기적으로 업데이트됩니다. 게시된 [릴리스 노트](../../rn/using/rn-overview.md)에 익숙한 경우 새로운 기능이 포함된 평균 2/3 부 버전에서 개선 사항 및 수정 사항이 매년 릴리스된다는 사실을 잘 알고 있을 것입니다. 또한, 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다. 이러한 정기 업데이트 캐디는 최신 업데이트를 직접 경험해 보고 환경을 완전히 안전하게 지키며 Adobe 제품을 통해 경험을 향상시키는 것을 목표로 합니다.
 

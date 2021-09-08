@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7d1bb3c6-d056-4212-9500-75459a0046fa
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 # 워크플로우 FAQ {#workflows-faq}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign 워크플로우를 통해 프로세스와 작업을 오케스트레이션하는 방법을 배웁니다.
 

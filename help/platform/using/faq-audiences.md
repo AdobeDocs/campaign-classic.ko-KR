@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ba8bf610-cbac-41e9-8b6e-130deb8b97e2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 92%
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 # 프로필 및 대상 그룹 FAQ {#audiences-faq}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign 내에서 모집단을 타겟팅하고 대상 그룹을 관리하는 방법을 배웁니다.
 
