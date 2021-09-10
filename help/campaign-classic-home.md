@@ -3,7 +3,7 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: a53ad78121c530469dc1fdc1aadd71d7d4426890
+source-git-commit: 12b191ffe3d407f1a69393278a7678a14e53d23e
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 59%
@@ -26,7 +26,7 @@ ht-degree: 59%
 
 * **[Campaign 인스턴스 ](technotes/using/acc-config-updates.md)**<br/> 보안 설정Campaign 플랫폼을 보호하기 위해 최신 빌드로 업데이트
 
-* **[Adobe Experience Cloud Triggers 통합 업데이트](integrations/using/configuring-adobe-io.md)**<br/> 기존 oAuth 인증 서비스가 사용 수명이 종료되었습니다. Adobe I/O으로 마이그레이션하는 방법을 알아봅니다.
+* **[Adobe Experience Cloud Triggers 통합 업데이트](integrations/using/configuring-adobe-io.md)**<br/> 기존 oAuth 인증 서비스가 사용 수명이 종료되었습니다. Adobe I/O으로 마이그레이션해야 합니다.
 
 [추가 업데이트](/help/rn/using/documentation-updates.md)
 

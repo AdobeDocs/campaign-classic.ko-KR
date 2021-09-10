@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 66533711a67950626c1e6681f88f2aaaea1ebd95
+source-git-commit: 12b191ffe3d407f1a69393278a7678a14e53d23e
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 83%
@@ -55,7 +55,7 @@ _2021년 9월 7일_
 * 수신 전환이 FDA 데이터 소스에서 온 경우 **데이터 보강** 워크플로우 활동에서 변수를 사용할 수 없는 문제를 해결했습니다.
 * 이메일 메시지에서 URL이 손상되는 문제를 해결했습니다.
 
-## ![](assets/do-not-localize/red_2.png) 릴리스 21.1.3 - 빌드 9330 {#release-21-1-3-build-9330}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 21.1.3 - 빌드 9330 {#release-21-1-3-build-9330}
 
 _2021년 6월 5일_
 
