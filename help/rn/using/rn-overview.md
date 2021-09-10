@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 21c985d628f672f3c3864fff1a14ab71a24ccfc7
+source-git-commit: 0c6e328087135fd9b35ca6cf0669090be0c93957
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,9 +35,9 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ![](assets/do-not-localize/blue3.png) RC(**Release Candidate**) - 새로운 기능이 포함된 최신 버전입니다.
 
-![](assets/do-not-localize/orange3.png) **더 이상 사용할 수 없음**  - 배포가 없습니다. 버그 수정 사항이 없습니다. 최신 빌드로 업데이트하는 것이 좋습니다.
+![](assets/do-not-localize/orange3.png) **더 이상 사용할 수 없음**  - 배포가 없습니다. 버그 수정이 없습니다. 최신 빌드로 업데이트하는 것이 좋습니다.
 
-![](assets/do-not-localize/red3.png) **사용되지 않음** - 배포가 없습니다. 버그 수정 사항이 없습니다. 기존 구현을 업그레이드해야 합니다.
+![](assets/do-not-localize/red3.png) **사용되지 않음** - 배포가 없습니다. 버그 수정이 없습니다. 기존 구현을 업그레이드해야 합니다.
 
 ## 추천{#recommendations}
 
