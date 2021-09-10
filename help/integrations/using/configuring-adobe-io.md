@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 0399bca5b452533f171076aa87be8d1e8d9ad1ed
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 3%
@@ -33,8 +33,7 @@ ht-degree: 3%
 이 구현을 시작하기 전에 다음 내용이 있는지 확인하십시오.
 
 * 유효한 **조직 식별자**: ims(Identity Management 시스템) 조직 식별자는 Adobe Experience Cloud 내의 고유 식별자로, 방문자 ID 서비스 및 IMS SSO(Single-Sign On)와 같이 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
-* 조직에 대한 **개발자 액세스** IMS 조직의 시스템 관리자는 **단일 제품 프로필에 개발자 추가**를 따라야 합니다
-프로시저는 트리거와 연결된 Adobe Analytics 제품의 `Analytics - {tenantID}` 제품 프로필에 대한 개발자 액세스 권한을 제공하기 위해 이 페이지](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)에 [에 자세히 설명되어 있습니다.
+* 조직에 대한 **개발자 액세스** IMS 조직의 시스템 관리자는 이 페이지](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)에서 **개발자를 단일 제품 프로필**&#x200B;에 추가 절차에 따라 트리거와 연결된 Adobe Analytics 제품의 `Analytics - {tenantID}` 제품 프로필에 개발자 액세스 권한을 제공해야 합니다.[
 
 ## 1단계: Adobe I/O 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
 
