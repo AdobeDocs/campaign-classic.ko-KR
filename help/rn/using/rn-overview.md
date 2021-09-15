@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 0c6e328087135fd9b35ca6cf0669090be0c93957
+source-git-commit: b3a3ec871bca9132f10b319ba1f93aeda80d6747
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '422'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ![](assets/do-not-localize/green3.png) GA(**General Availability**) - 프로덕션에서 검증되었으며 Adobe에서 권장합니다.
 
-**마지막 GA 빌드**&#x200B;는 다음과 같습니다. [[!DNL Gold Standard] 12 릴리스](../../rn/using/gold-standard.md) 및 [Campaign 21.1.4 릴리스](../../rn/using/latest-release.md#release-21-1-4-build-9340).
+**마지막 GA 빌드**&#x200B;는 다음과 같습니다. [[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [Campaign 21.1.4 릴리스](../../rn/using/latest-release.md#release-21-1-4-build-9340).
 
 ![](assets/do-not-localize/limited3.png) LA(**Limited Availability**) - 주문형 배포만 가능.
 
