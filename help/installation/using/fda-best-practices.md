@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-source-git-commit: 1312f7c319c96851bc83ae21501164e2688d0dff
+source-git-commit: b458ac67733a2f0e508df729add37d9a78dbcbd8
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 7%
@@ -15,7 +15,9 @@ ht-degree: 7%
 
 # 모범 사례 및 제한 사항
 
-## 외부 데이터 {#optimizing-email-personalization-with-external-data}로 이메일 개인화 최적화
+![](../../assets/v7-only.svg)
+
+## 외부 데이터로 이메일 개인화 최적화 {#optimizing-email-personalization-with-external-data}
 
 전용 워크플로우에서 메시지 개인화를 미리 처리할 수 있습니다. 이렇게 하려면 게재 속성의 **[!UICONTROL Analysis]** 탭에서 사용할 수 있는 **[!UICONTROL Prepare the personalization data with a workflow]** 옵션을 사용합니다.
 
@@ -23,7 +25,7 @@ ht-degree: 7%
 
 이 옵션은 개인화 단계를 실행할 때 성능을 크게 향상시킵니다.
 
-## 워크플로우 {#using-data-from-an-external-database-in-a-workflow}에서 외부 데이터베이스의 데이터 사용
+## 워크플로우에서 외부 데이터베이스의 데이터 사용 {#using-data-from-an-external-database-in-a-workflow}
 
 여러 Adobe Campaign 워크플로우 활동에서 외부 데이터베이스에 저장된 데이터를 사용할 수 있습니다.
 
@@ -37,7 +39,7 @@ ht-degree: 7%
 
 ## FDA 제한 사항 {#limitations}
 
-FDA 옵션은 워크플로우에서 일괄 처리 모드에서 외부 데이터베이스의 데이터를 조작하기 위해 수행됩니다. 성능 문제를 방지하려면 다음과 같이 단일 작업 컨텍스트에서 FDA 모듈을 사용하지 않는 것이 좋습니다.개인화, 상호 작용, 실시간 메시징 등.
+FDA 옵션은 워크플로우에서 일괄 처리 모드에서 외부 데이터베이스의 데이터를 조작하기 위해 수행됩니다. 성능 문제를 방지하려면 다음과 같이 단일 작업 컨텍스트에서 FDA 모듈을 사용하지 않는 것이 좋습니다. 개인화, 상호 작용, 실시간 메시징 등.
 
 Adobe Campaign과 외부 데이터베이스를 모두 가능한 한 사용해야 하는 작업을 방지합니다. 이렇게 하려면 다음을 수행할 수 있습니다.
 

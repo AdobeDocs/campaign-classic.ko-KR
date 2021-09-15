@@ -8,9 +8,9 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 0399bca5b452533f171076aa87be8d1e8d9ad1ed
+source-git-commit: 5eea976f86b62987c38c0fcd893bf3532a2cf301
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '707'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 ## 필수 구성 요소 {#adobe-io-prerequisites}
 
-이 통합은 **Campaign Classic 20.3, 20.2.4, 19.1.8 및 [!DNL Gold Standard] 11 릴리스**&#x200B;만 적용됩니다.
+이 통합은 **Campaign Classic 20.2.4 이상, 19.1.8 및 Gold Standard 11 릴리스**&#x200B;만 적용됩니다.
 
 이 구현을 시작하기 전에 다음 내용이 있는지 확인하십시오.
 
