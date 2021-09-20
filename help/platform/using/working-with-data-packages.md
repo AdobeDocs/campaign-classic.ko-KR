@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
 workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 2%
@@ -301,7 +301,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ## 패키지 가져오기 {#importing-packages}
 
-패키지 가져오기 마법사는 Adobe Campaign 클라이언트 콘솔의 기본 메뉴 **[!UICONTROL Tools > Advanced > Package import...]**&#x200B;을 통해 액세스할 수 있습니다.
+패키지 가져오기 마법사는 Adobe Campaign 클라이언트 콘솔의 기본 메뉴 **[!UICONTROL Tools > Advanced > Import package]**&#x200B;을 통해 액세스할 수 있습니다.
 
 이전에 수행한 내보내기(예: 다른 Adobe Campaign 인스턴스 또는 [기본 제공 패키지](../../installation/using/installing-campaign-standard-packages.md)에서 라이센스 약관에 따라 패키지를 가져올 수 있습니다.
 

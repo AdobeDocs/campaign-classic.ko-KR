@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 6%
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 기본 제공 패키지를 설치하려면 다음을 수행하십시오.
 
-1. Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Tools > Advanced > Package import...]**&#x200B;에서 패키지 가져오기 마법사에 액세스합니다.
+1. Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Tools > Advanced > Import package]**&#x200B;에서 패키지 가져오기 마법사에 액세스합니다.
 1. **[!UICONTROL Install a standard package]**&#x200B;을(를) 선택합니다.
 1. 패키지 목록에서 설치할 패키지를 확인합니다.
    >[!NOTE]

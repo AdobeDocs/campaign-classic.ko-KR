@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 12b191ffe3d407f1a69393278a7678a14e53d23e
+source-git-commit: 1d662f2f6d4b664e1cc2977cd3207d1b71983b04
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 59%
+source-wordcount: '260'
+ht-degree: 50%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 59%
 
 * **[9월 릴리스가 출시되었습니다!](rn/using/latest-release.md)**<br/> 릴리스 노트의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오
 
-* **[Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ko)**<br/> iOS 15에 대한 Apple의 공지의 초기 지침을 찾습니다
+* **[Apple Mail Privacy Protection ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)** FAQ  **[](technotes/using/apple-mail-app-privacy-protection.md)**<br/> 및 기술 정보iOS 15에 대한 Apple의 발표에 대한 초기 지침을 찾습니다
 
 * **[IMS/Adobe ID을 통해 연결하시겠습니까? 최신 빌드](technotes/using/ims-updates.md)**<br/>로 업그레이드하십시오. IMS를 사용하여 Campaign에 연결하는 경우** 2021년 6월 30일 이후에 Campaign에 연결할 수 있도록 업그레이드해야 합니다.**
 

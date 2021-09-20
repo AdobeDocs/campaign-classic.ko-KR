@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 10%
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # 앱 구성 시작
 
-이 섹션에서는 온라인 휴일 패키지를 판매하는 회사를 기반으로 한 구성 샘플을 확인할 수 있습니다. 이 모바일 애플리케이션(네오트립)은 고객에게 두 가지 버전으로 제공됩니다.Android 및 iOS용 네오트립.
+이 섹션에서는 온라인 휴일 패키지를 판매하는 회사를 기반으로 한 구성 샘플을 확인할 수 있습니다. 이 모바일 애플리케이션(네오트립)은 고객에게 두 가지 버전으로 제공됩니다. Android 및 iOS용 네오트립.
 
 Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합니다.
 
@@ -43,7 +43,7 @@ Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합
 
 설치 단계는 다음과 같습니다.
 
-1. Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Tools > Advanced > Package import...]**&#x200B;에서 패키지 가져오기 마법사에 액세스합니다.
+1. Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Tools > Advanced > Import package]**&#x200B;에서 패키지 가져오기 마법사에 액세스합니다.
 
    ![](assets/package_ios.png)
 
@@ -55,7 +55,7 @@ Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합
 
 1. **[!UICONTROL Next]** 를 클릭한 다음 **[!UICONTROL Start]** 을 클릭하여 패키지 설치를 시작합니다.
 
-   패키지가 설치되면 진행률 표시줄에 **100%**&#x200B;가 표시되며 설치 로그에 다음 메시지가 표시됩니다.**[!UICONTROL Installation of packages successful]**
+   패키지가 설치되면 진행률 표시줄에 **100%**&#x200B;가 표시되며 설치 로그에 다음 메시지가 표시됩니다. **[!UICONTROL Installation of packages successful]**
 
    ![](assets/package_ios_3.png)
 
