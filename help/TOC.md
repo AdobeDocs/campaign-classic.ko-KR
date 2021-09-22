@@ -7,13 +7,12 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 1f6846f29c44719fdbd334327466619ed265452a
+source-git-commit: aac596caf559b25ba3fff94aca410a66ecc08b27
 workflow-type: tm+mt
-source-wordcount: '2535'
-ht-degree: 99%
+source-wordcount: '2546'
+ht-degree: 98%
 
 ---
-
 
 # Adobe Campaign Classic v7 설명서 {#using}
 
@@ -850,3 +849,7 @@ ht-degree: 99%
       + [v6.02의 특정 구성](migration/using/specific-configurations-in-v6-02.md)
       + [v6.10의 특정 구성](migration/using/specific-configurations-in-v6-10.md)
    + [롤백 절차](migration/using/about-rollback.md)
++ 기술 노트 {#technotes}
+   + Adobe Managed Services로 마이그레이션{#dc-migration}
+      + [Public Cloud로 마이그레이션](technotes/using/dc-migration.md)
+      + [FAQ](technotes/using/dc-migration-faq.md)
