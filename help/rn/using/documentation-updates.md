@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 877ac37102a09a40ea59ef073afa00b9d9bd7dde
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '4542'
+source-wordcount: '4513'
 ht-degree: 98%
 
 ---
@@ -268,7 +268,7 @@ Campaign Classic 모니터링과 관련된 지침과 함께 새 섹션이 추가
 
 Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요청 프로세스를 설정할 수 있는 API를 사용할 때 사용 가능한 &#39;규정&#39; 필드에 대한 정보로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-개인 정보 관리 개요 페이지는 태국의 PDPA(개인 정보 보호법) 및 브라질의 LGPD(Lei Geral de Proteção de Dados)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+개인 정보 관리 개요 페이지는 태국의 PDPA(개인 정보 보호법) 및 브라질의 LGPD(Lei Geral de Proteção de Dados)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](../../platform/using/privacy-and-recommendations.md)
 
 오류 발생 시 하위 워크플로우 로그 및 동작에 정보가 추가되었습니다. [자세한 내용](../../workflow/using/sub-workflow.md)
 
@@ -520,9 +520,9 @@ Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이
 
 새로운 빌드 업그레이드 FAQ가 만들어졌습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/build-upgrade-faq.html)
 
-[호환성 매트릭스](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)가 업데이트되었습니다. 지원되는 데이터베이스 시스템 목록과 Android/iOS 버전 및 관련 SDK가 업데이트되었습니다. [19.0 호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix-19-0.html)가 보관되었습니다.
+[호환성 매트릭스](compatibility-matrix.md)가 업데이트되었습니다. 지원되는 데이터베이스 시스템 목록과 Android/iOS 버전 및 관련 SDK가 업데이트되었습니다. 19.0 호환성 매트릭스가 보관되었습니다.
 
-&#39;Campaign Classic에서 사용하지 않거나 제거된 기능&#39; 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/deprecated-and-removed-features.html)
+&#39;Campaign Classic에서 사용하지 않거나 제거된 기능&#39; 페이지가 업데이트되었습니다. [자세한 내용](deprecated-features.md)
 
 서버 구성 파일에 대한 설명이 설치 가이드에 추가되었습니다. [자세한 내용](../../installation/using/the-server-configuration-file.md)
 
@@ -579,7 +579,7 @@ Campaign Classic에서 사용할 수 있는 다른 외부 계정 및 이를 구�
 
 기술 워크플로우 섹션이 업데이트되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
 
-Campaign 도메인 이름 설정 절차가 개선되고 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html)
+Campaign 도메인 이름 설정 절차가 개선되고 업데이트되었습니다.
 
 앱에 대한 GCM(Google Cloud Messaging)에서 FCM(Firebase Cloud Messaging)으로의 마이그레이션 절차가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/migrate-to-fcm.html)
 

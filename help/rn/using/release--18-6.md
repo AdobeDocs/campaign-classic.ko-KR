@@ -9,9 +9,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '794'
 ht-degree: 7%
 
 ---
@@ -109,7 +109,7 @@ teradata 외부 계정에 새 탭이 추가되었습니다. **[!UICONTROL Query 
 
 decryptString
 
-**decryptString** 함수는 더 이상 사용되지 않습니다. [사용되지 않거나 제거된 기능](https://helpx.adobe.com/kr/campaign/kb/deprecated-and-removed-features.html) 문서를 참조하십시오.
+**decryptString** 함수는 더 이상 사용되지 않습니다. [사용되지 않거나 제거된 기능](deprecated-features.md) 문서를 참조하십시오.
 
 새 고객의 경우 이제 이 함수는 랜딩 페이지에서 수신자의 암호화된 ID를 해독하는 데만 사용됩니다. 외부 계정에 저장된 암호를 해독하려면 새 **decryptPassword** 함수를 사용합니다.
 

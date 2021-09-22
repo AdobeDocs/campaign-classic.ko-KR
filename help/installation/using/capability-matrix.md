@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 19%
+source-wordcount: '298'
+ht-degree: 20%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니�
 | IMS와 통합(Adobe ID) | 온디맨드 | 온디맨드 | 온디맨드 | [자세히 알아보기](../../integrations/using/about-adobe-id.md) |
 | 파일 전송을 위한 데이터 암호화/암호 해독 | 온디맨드 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../platform/using/unzip-decrypt.md) |
 | 파일 압축/압축 해제 | 온디맨드 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../platform/using/unzip-decrypt.md) |
-| 도메인 이름 위임 | 온디맨드 | 온디맨드 | 사용할 수 없음 | [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html) |
+| 도메인 이름 위임 | 온디맨드 | 온디맨드 | 사용할 수 없음 | [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko) |
 | SpamAssassin 설치 | 온디맨드 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../delivery/using/spamassassin.md) |
 | 게재 기능 보고서 액세스 | 사용 가능 | 온디맨드 | 사용 가능 | [자세히 알아보기](../../delivery/using/monitoring-deliverability.md) |
 | LDAP 인증 구성 | 사용할 수 없음 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../installation/using/connecting-through-ldap.md) |

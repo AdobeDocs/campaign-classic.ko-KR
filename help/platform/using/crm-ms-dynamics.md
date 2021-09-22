@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1092'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Campaign Classic:
 
 저장하면 Campaign에 대한 클라이언트 식별자인 **애플리케이션 ID**&#x200B;가 제공됩니다.
 
-[이 페이지](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)에서 자세히 알아보십시오.
+[이 페이지](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)에서 자세히 알아보십시오.
 
 ### Microsoft Dynamics 인증서 키 식별자 및 키 ID 생성 {#config-certificate-key-id}
 
@@ -115,7 +115,7 @@ Campaign Classic:
 
 1. **관리자 동의 부여**&#x200B;를 클릭합니다.
 
-자세한 내용은 [Azure 설명서](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal)를 참조하십시오.
+자세한 내용은 [Azure 설명서](https://docs.microsoft.com/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal)를 참조하십시오.
 
 ### 앱 사용자 만들기 {#create-app-user-microsoft}
 
@@ -155,7 +155,7 @@ Campaign Classic:
 
 >[!NOTE]
 >
-> Microsoft](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#microsoft-dynamics-crm-2011-endpoint)에서 [RDS의 제거를 게시하면 온-프레미스 및 Office 365 유형의 CRM 배포는 더 이상 Campaign과 호환되지 않습니다. 이제 Adobe Campaign은 CRM 버전 **Dynamic CRM 365**&#x200B;에 대해서만 웹 API 배포를 지원합니다. [자세히 알아보기](../../rn/using/deprecated-features.md#crm-connectors)
+> Microsoft](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891%28v=crm.8%29#microsoft-dynamics-crm-2011-endpoint)에서 [RDS의 제거를 게시하면 온-프레미스 및 Office 365 유형의 CRM 배포는 더 이상 Campaign과 호환되지 않습니다. 이제 Adobe Campaign은 CRM 버전 **Dynamic CRM 365**&#x200B;에 대해서만 웹 API 배포를 지원합니다. [자세히 알아보기](../../rn/using/deprecated-features.md#crm-connectors)
 
 Microsoft Dynamics 365 및 Campaign을 연결하려면 Campaign에서 전용 **[!UICONTROL External Account]**&#x200B;을(를) 만들고 구성해야 합니다.
 

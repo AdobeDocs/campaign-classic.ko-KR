@@ -5,11 +5,11 @@ description: Adobe Analytics 커넥터에 대해 자세히 알아보십시오.
 feature: Overview
 role: User, Admin
 level: Beginner
-exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
-source-git-commit: 0cfe8439007b56014eba497c511904c4f11b39ce
+exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
+source-git-commit: 1f6846f29c44719fdbd334327466619ed265452a
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 100%
+source-wordcount: '1515'
+ht-degree: 93%
 
 ---
 
@@ -45,33 +45,37 @@ Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상�
 
 ## 통합 설정 {#setting-up-the-integration}
 
+>[!IMPORTANT]
+>
+> 하이브리드 및 온-프레미스 구현의 경우 이 [page](../../platform/using/adobe-analytics-provisioning.md)에 자세히 설명된 프로비저닝 단계를 따라야 합니다.
+
 데이터 커넥터를 설정하려면 Adobe Campaign 인스턴스에 연결하고 다음 작업을 수행해야 합니다.
 
-1. [Adobe Analytics에서 보고서 세트 만들기](#report-suite-analytics)
 1. [전환 변수 및 성공 이벤트 구성](#configure-conversion-success)
 1. [Adobe Campaign Classic에서 외부 계정 구성](#external-account-classic)
 
-### Adobe Analytics에서 보고서 세트 만들기 {#report-suite-analytics}
+<!--
+### Create your Report suite in Adobe Analytics {#report-suite-analytics}
 
-Adobe Analytics/Adobe Campaign Classic 통합을 설정하려면 [!DNL Adobe Analytics] 인스턴스에 연결하고 다음 작업을 수행해야 합니다.
+To set up the Adobe Analytics/Adobe Campaign Classic integration, you must connect to your [!DNL Adobe Analytics] instance and perform the following operations:
 
-1. [!DNL Adobe Analytics]에서 **[!UICONTROL Admin tab]**&#x200B;을 선택한 다음 **[!UICONTROL All admin]**&#x200B;를 클릭합니다.
+1. From [!DNL Adobe Analytics], select the **[!UICONTROL Admin tab]** then click **[!UICONTROL All admin]**.
 
    ![](assets/analytics_connnector_1.png)
 
-1. **[!UICONTROL Report suites]**&#x200B;를 클릭합니다.
+1. Click **[!UICONTROL Report suites]**.
 
    ![](assets/analytics_connnector_2.png)
 
-1. **[!UICONTROL Report suite manager]** 페이지에서 **[!UICONTROL Create new]**&#x200B;를 클릭한 다음 **[!UICONTROL Report suite]**&#x200B;를 클릭합니다.
+1. From the **[!UICONTROL Report suite manager]** page, click **[!UICONTROL Create new]** then **[!UICONTROL Report suite]**.
 
-   **[!UICONTROL Report suite]** 만들기에 대한 자세한 절차는 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=ko#prerequisites)을 참조하십시오.
+   For the detailed procedure on **[!UICONTROL Report suite]** creation, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=en#prerequisites).
 
    ![](assets/analytics_connnector_3.png)
 
-1. 템플릿을 선택합니다.
+1. Select a template. 
 
-1. 다음 정보로 새 보고서 세트를 구성합니다.
+1. Configure your new report suite with the following information:
 
    * **[!UICONTROL Report Suite ID]**
    * **[!UICONTROL Site Title]**
@@ -81,13 +85,14 @@ Adobe Analytics/Adobe Campaign Classic 통합을 설정하려면 [!DNL Adobe Ana
 
    ![](assets/analytics_connnector_4.png)
 
-1. 구성된 경우 **[!UICONTROL Create report suite]**&#x200B;를 클릭합니다.
+1. When configured, click **[!UICONTROL Create report suite]**.
+-->
 
 ### 전환 변수 및 성공 이벤트 구성 {#configure-conversion-success}
 
-**[!UICONTROL Report suite]**&#x200B;를 작성한 후 다음과 같이 **[!UICONTROL Conversion variables]** 및 **[!UICONTROL Success events]**&#x200B;를 구성해야 합니다.
+다음과 같이 **[!UICONTROL Conversion variables]** 및 **[!UICONTROL Success events]**&#x200B;을 구성해야 합니다.
 
-1. 이전에 구성한 **[!UICONTROL Report suite]**&#x200B;를 선택합니다.
+1. Adobe Campaign에 연결할 **[!UICONTROL Report suite]** 을 선택합니다.
 
 1. **[!UICONTROL Edit settings]** 버튼에서, **[!UICONTROL Conversion]** > **[!UICONTROL Conversion variables]**&#x200B;를 선택합니다.
 
@@ -118,13 +123,19 @@ Adobe Analytics/Adobe Campaign Classic 통합을 설정하려면 [!DNL Adobe Ana
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   **[!UICONTROL Success events]**&#x200B;를 구성하는 방법에 대해 알아보려면 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=ko#admin-tools)을 참조하십시오.
+   **[!UICONTROL Success events]**&#x200B;를 구성하는 방법에 대해 알아보려면 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=ko#admin-tools)을 참조하십시오..
+
+   >[!NOTE]
+   >
+   > 숫자 유형의 **[!UICONTROL Success events]**&#x200B;만 지원됩니다.
 
    ![](assets/analytics_connnector_8.png)
 
 1. 구성을 완료하면 **[!UICONTROL Save]** 을(를) 클릭합니다.
 
-보고서 세트가 구성되면 Adobe Campaign Classic에서 **[!UICONTROL External accounts]**&#x200B;을(를) 구성해야 합니다.
+**[!UICONTROL Conversion variables]** 및 **[!UICONTROL Success events]**&#x200B;을 구성한 후 변수가 Analytics 커넥터에 대해 생성된 **[!UICONTROL Product Profile]**&#x200B;에 포함되어 있는지 확인하십시오. 자세한 내용은 [Adobe Analytics 제품 프로필 만들기](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile)를 참조하십시오.
+
+그런 다음 Adobe Campaign Classic에서 **[!UICONTROL External accounts]**&#x200B;을 구성해야 합니다.
 
 ### Adobe Campaign Classic에서 외부 계정 구성 {#external-account-classic}
 
@@ -150,7 +161,7 @@ Adobe Analytics/Adobe Campaign Classic 통합을 설정하려면 [!DNL Adobe Ana
 
 1. **[!UICONTROL Integration]** 드롭다운 옆에 있는 **[!UICONTROL Configure]** 을(를) 클릭합니다.
 
-1. **[!UICONTROL Configure Analytics integration]** 창에서 앞서 만든 보고서 세트 중 다음 정보를 제공하는 세트와 외부 계정을 매핑합니다.
+1. **[!UICONTROL Configure Analytics integration]** 창에서 다음 정보를 제공하는 보고서 세트에 외부 계정을 매핑합니다.
 
    * **[!UICONTROL E-Mail]**
    * **[!UICONTROL IMS Org]**

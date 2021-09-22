@@ -4,9 +4,9 @@ title: 통합 구성
 description: 통합 구성
 audience: integrations
 content-type: reference
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: c6d5e597a02a1210507b0c6d84ab7d170e877eb1
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '372'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 2%
 ## 파이프라인 옵션을 구성하는 방법 {#configure-pipeline-option}
 
 &quot;triggers&quot; 배열 아래에서 Experience Cloud 트리거를 추가하거나 편집합니다. 나머지는 편집하지 마십시오.
-이 [웹 사이트](http://jsonlint.com/)의 도움을 받아 JSON이 유효한지 확인하십시오.
+JSON이 이 [웹 사이트](https://jsonlint.com/)의 도움말에서 유효한지 확인합니다.
 
 * name은 트리거 ID입니다. 와일드카드 &quot;*&quot;가 모든 트리거를 캡처합니다.
 * &quot;소비자&quot;는 nlserver 인스턴스를 고유하게 식별하는 고유한 문자열입니다. 일반적으로 인스턴스 이름 자체일 수 있습니다. 여러 환경(개발/스테이지/prod)의 경우 각 인스턴스가 메시지의 사본을 받을 수 있도록 각 환경에 대해 고유한지 확인하십시오.

@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 5%
@@ -41,23 +41,23 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 1. 활동을 편집하고 답변을 분석할 설문 조사를 선택합니다.
 1. 모든 정보를 수집하려면 **[!UICONTROL Select all the answer data]** 옵션을 활성화합니다.
 
-   ![](assets/reporting_usecase_1_01.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_01.png)
 
 1. 추출할 열을 선택합니다(이 경우: 선택: 모든 보관된 필드입니다. 답변이 포함된 필드입니다.
 
-   ![](assets/reporting_usecase_1_02.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_02.png)
 
 1. 응답 수집 상자가 구성되면 **[!UICONTROL List update]** 유형 활동을 배치하여 데이터를 저장합니다.
 
-   ![](assets/reporting_usecase_1_04.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_04.png)
 
    이 활동에서 업데이트할 목록을 지정하고 **[!UICONTROL Purge and re-use the list if it exists (otherwise add to the list)]** 옵션을 선택 취소합니다. 답변이 기존 테이블에 추가됩니다. 이 옵션을 사용하면 큐브의 목록을 참조할 수 있습니다. 목록에 연결된 스키마는 각 업데이트에 대해 다시 생성되지 않으므로 이 목록을 사용하는 큐브의 무결성을 보장합니다.
 
-   ![](assets/reporting_usecase_1_03.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_03.png)
 
 1. 워크플로우를 시작하여 구성을 확인합니다.
 
-   ![](assets/reporting_usecase_1_05.png)
+   ![](../../surveys/using/assets/reporting_usecase_1_05.png)
 
    지정된 목록이 만들어지고 설문 조사 응답의 스키마가 포함됩니다.
 
@@ -71,11 +71,11 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
 이 예에서 큐브는 이전에 만든 워크플로에서 제공한 목록의 데이터를 기반으로 합니다.
 
-![](assets/reporting_usecase_2_01.png)
+![](../../surveys/using/assets/reporting_usecase_2_01.png)
 
 보고서에 표시할 차원 및 측정값을 정의합니다. 여기에서 계약 일자와 피청구인의 국가를 표시하려고 합니다.
 
-![](assets/reporting_usecase_2_02.png)
+![](../../surveys/using/assets/reporting_usecase_2_02.png)
 
 **[!UICONTROL Preview]** 탭에서는 보고서 렌더링을 제어할 수 있습니다.
 
@@ -83,8 +83,8 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
 그런 다음 이 큐브를 기반으로 보고서를 만들고 데이터 및 정보를 처리할 수 있습니다.
 
-![](assets/reporting_usecase_3_01.png)
+![](../../surveys/using/assets/reporting_usecase_3_01.png)
 
 필요에 따라 정보를 조정하여 표시할 수 있습니다.
 
-![](assets/reporting_usecase_3_02.png)
+![](../../surveys/using/assets/reporting_usecase_3_02.png)

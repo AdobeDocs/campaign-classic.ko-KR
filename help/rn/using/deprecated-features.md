@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 97%
+source-wordcount: '1657'
+ht-degree: 95%
 
 ---
 
@@ -114,7 +114,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr> 
   <tr> 
    <td>웹 애플리케이션 - 마이크로사이트</td>
-   <td>Campaign 18.10 릴리스부터 마이크로사이트를 더 이상 사용할 수 없습니다. Adobe Campaign 구성 파일의 전용 도메인에만 대한 액세스를 제한하여 보안을 강화할 수 있고 DNS 별칭을 사용하여 Campaign에서 개인화된 URL을 사용할 수 있습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html">자세히 알아보기</a></td>
+   <td>Campaign 18.10 릴리스부터 마이크로사이트를 더 이상 사용할 수 없습니다. Adobe Campaign 구성 파일의 전용 도메인에만 대한 액세스를 제한하여 보안을 강화할 수 있고 DNS 별칭을 사용하여 Campaign에서 개인화된 URL을 사용할 수 있습니다.</td>
   </tr> 
   <tr> 
    <td>푸시 알림 - iOS 이진 커넥터</td>
@@ -183,7 +183,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 
 19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 도구와 호환되지 않습니다.
 
-* Java JDK 7. [자세히 알아보기](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
+* Java JDK 7. [자세히 알아보기](https://www.oracle.com/technetwork/java/javase/eol-135779.html)
 * Libre Office 3.5/4.3/5.x(다른 도구에 내장된 경우 제외) [자세히 알아보기](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### 데이터베이스 엔진 {#dbe-eol}
@@ -201,14 +201,14 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 FDA 서버와 호환되지 않습니다:
 
 * PostgreSQL 9.3. [자세히 알아보기](https://www.postgresql.org/support/versioning)
-* MySQL 5.5. [자세히 알아보기](http://www.fromdual.com/support-for-mysql-from-oracle)
-* DB2 9.5. [자세히 알아보기](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* MySQL 5.5. [자세히 알아보기](https://www.fromdual.com/support-for-mysql-from-oracle)
+* DB2 9.5. [자세히 알아보기](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
 * Teradata 14 - 14.1. [자세히 알아보기](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)
 
 Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 않습니다.
 
-* DB2 UDB 9.5, 9.7. DB2의 최신 버전은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Oracle 9i, 10G R2. 최신 버전의 Oracle은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
+* DB2 UDB 9.5, 9.7. DB2의 최신 버전은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* Oracle 9i, 10G R2. 최신 버전의 Oracle은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
 * PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. 최신 버전의 PostgreSQL은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://www.postgresql.org/support/versioning)
 * MSSQL 2000, 2005, 2008 R2. 최신 버전의 SQL Server는 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/1044)
 * MySQL 5.1. 최신 버전의 MySQL은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://en.wikipedia.org/wiki/InfiniDB)

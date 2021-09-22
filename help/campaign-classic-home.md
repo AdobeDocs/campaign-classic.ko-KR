@@ -3,7 +3,7 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 1d662f2f6d4b664e1cc2977cd3207d1b71983b04
+source-git-commit: acb2c4e90c4ce349ea9c1ad53d703c13195872e1
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 50%
@@ -28,7 +28,7 @@ ht-degree: 50%
 
 * **[Adobe Experience Cloud Triggers 통합 업데이트](integrations/using/configuring-adobe-io.md)**<br/> 기존 oAuth 인증 서비스가 사용 수명이 종료되었습니다. Adobe I/O으로 마이그레이션해야 합니다.
 
-[추가 업데이트](/help/rn/using/documentation-updates.md)
+[추가 업데이트](rn/using/documentation-updates.md)
 
 ## 상위 페이지
 
@@ -80,7 +80,7 @@ ht-degree: 50%
 
 | 유용한 페이지 | 개발자를 위한 자료 |
 |---|---|
-| [릴리스 정보](/help/rn/using/latest-release.md) | [오류 메시지 목록](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko) |
+| [릴리스 정보](rn/using/latest-release.md) | [오류 메시지 목록](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko) |
 | [사용법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko) | [Campaign 데이터 모델](configuration/using/about-data-model.md) |
 | [호환성 매트릭스](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [[!DNL Gold Standard] 업그레이드](rn/using/gs-overview.md) | [추적 가이드](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html) |

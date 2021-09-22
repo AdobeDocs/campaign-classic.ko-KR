@@ -3,9 +3,9 @@ product: campaign
 title: 릴리스 19.2
 description: Campaign 19.2 릴리스 노트
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
-source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1537'
 ht-degree: 21%
 
 ---
@@ -150,7 +150,7 @@ _2019년 12월 2일_
 
 _사용되지 않는 시스템_
 
-이제 다음 시스템은 Campaign Classic 구현에 대해 [사용되지 않습니다](https://helpx.adobe.com/kr/campaign/kb/deprecated-and-removed-features.html).
+이제 다음 시스템은 Campaign Classic 구현에 대해 [사용되지 않습니다](deprecated-features.md).
 * Apache 2.2
 * Centos 6
 

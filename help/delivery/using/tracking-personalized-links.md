@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 7%
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 특정 사전 처리 지침을 추가하여 URL을 스크립팅하고 추적할 수 있습니다. [자세히 알아보기](pre-processing-instructions.md)
 
-추적 감지를 위해 Adobe Campaign은 [Clean](http://www.html-tidy.org/)을 포함하여 HTML 소스를 분석하고 패턴을 감지합니다. 컨텐츠를 개별적으로 추적할 수 있도록 컨텐츠의 모든 URL을 나열합니다. Adobe Campaign은 Clean을 다시 사용하여 URL(`http://myurl.com`)을 Adobe Campaign 리디렉션 서버를 가리키는 URL로 바꿉니다.
+추적 감지를 위해 Adobe Campaign은 [Clean](https://www.html-tidy.org/)을 포함하여 HTML 소스를 분석하고 패턴을 감지합니다. 컨텐츠를 개별적으로 추적할 수 있도록 컨텐츠의 모든 URL을 나열합니다. Adobe Campaign은 Clean을 다시 사용하여 URL(`http://myurl.com`)을 Adobe Campaign 리디렉션 서버를 가리키는 URL로 바꿉니다.
 
 예를 들어 초기 컨텐츠에서 `http://myurl.com/a.php?name=<%=escapeUrl(recipient.lastName)%>` 은(는) 한 특정 수신자에 대해 다음과 같이 대체됩니다. `http://emailing.customer.com/r/?id=h617791,71ffa3,71ffa8&p1=CustomerName`
 

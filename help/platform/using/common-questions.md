@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 97%
 
 ---
@@ -74,4 +74,4 @@ Adobe Campaign Classic에 연결하려면 Adobe Campaign 클라이언트 콘솔�
 하위 도메인은 브랜드나 다양한 트래픽 유형(트랜잭션 메시지, 마케팅 정보 등)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 Adobe는 전자 메일 게재를 위해 DNS(Domain Name System)를 고려하며, 이를 통해 클라이언트는 도메인 이름과 함께 DNS 별칭을 사용하여 브랜드 이미지를 유지하고, Adobe는 전자 메일 전송 중에 게재 능력을 최적화할 수 있도록 하는 모든 기술 모범 사례를 자체적으로 구현할 수 있습니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html).
+[자세한 내용을 보려면 여기를 클릭하십시오](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko).

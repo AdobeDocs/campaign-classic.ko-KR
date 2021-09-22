@@ -2,14 +2,15 @@
 product: campaign
 title: Adobe Analytics 커넥터로 마이그레이션
 description: Campaign - Analytics 커넥터 FAQ
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
+source-git-commit: 4b6fc31aefd12b3667501503fc5e10d5f1f0738f
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '850'
 ht-degree: 5%
 
 ---
 
-# Adobe Analytics Connector로 마이그레이션하는 방법 {#acc-aa-faq}
+# 기존 Genesis 통합을 Adobe Analytics 커넥터로 마이그레이션하는 방법 {#acc-aa-faq}
 
 ![](../../assets/v7-only.svg)
 
@@ -49,12 +50,10 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 
 2022년 3월 1일 전에 Campaign 21.1.3(또는 이상) **으로 업그레이드해야 합니다**.
 
-호스팅된 고객인 Adobe은 인스턴스와 최신 버전으로 업그레이드하도록 사용자와 협력하고 있습니다.
+호스팅된 고객인 Adobe은 인스턴스와 최신 버전으로 업그레이드하도록 사용자와 협력하고 있습니다. 그러면 [Adobe Analytics 커넥터](../../platform/using/adobe-analytics-connector.md)를 사용할 수 있습니다.
 
 온-프레미스/하이브리드 고객은 새 통합을 활용하려면 최신 버전 중 하나로 업그레이드해야 합니다.
-
-모든 인스턴스가 업그레이드되면 [새 통합](../../platform/using/adobe-analytics-connector.md)을 Adobe Analytics Connector로 구현하고 원활하게 전환할 수 있습니다.
-
+모든 인스턴스가 업그레이드되면 [새 통합](../../platform/using/adobe-analytics-provisioning.md)을 Adobe Analytics Connector로 구현하고 원활하게 전환할 수 있습니다.
 
 ## FAQ{#faq-aa}
 

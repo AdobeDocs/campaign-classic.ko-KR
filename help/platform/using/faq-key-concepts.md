@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '866'
 ht-degree: 97%
 
 ---
@@ -56,7 +56,7 @@ Campaign 관리자는 조직의 사용자에 대한 권한을 설정할 수 있�
 
 Adobe Campaign은 GDPR 및 CCPA에 대한 개인 정보 보호 규정을 준수하는 데 도움이 되는 도구를 제공합니다.
 
-Adobe 서비스를 사용할 때 GDPR 준수를 위해 Adobe Campaign이 제공하는 도구와 기능 및 모범 사례를 살펴보려면 [이 문서를](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html) 참조하십시오. Campaign Classic에 대한 구현 단계는 [이 문서](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html)에 설명되어 있습니다.
+Adobe 서비스를 사용할 때 GDPR 준수를 위해 Adobe Campaign이 제공하는 도구와 기능 및 모범 사례를 살펴보려면 [이 문서를](privacy-and-recommendations.md) 참조하십시오. Campaign Classic에 대한 구현 단계는 [이 문서](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html)에 설명되어 있습니다.
 
 ## 알아야 하는 Campaign 사용자 인터페이스 개념은 무엇입니까? {#what-are-campaign-user-interface-concepts-i-should-know-}
 
@@ -126,7 +126,7 @@ Adobe Campaign 디지털 콘텐츠 편집기를 사용하여 랜딩 페이지를
 
 Adobe는 제품 및 시간의 경과에 따라 기능을 보다 강력한 버전으로 대체하기 위한 계획을 지속적으로 평가하고 향후 기대치 또는 확장에 보다 적합한 부품을 재구현하기로 합니다. Campaign은 타사 도구와 연동되므로, 지원되는 버전만 구현하기 위해 호환성이 정기적으로 업데이트됩니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](https://helpx.adobe.com/kr/campaign/kb/deprecated-and-removed-features.html).
+[자세한 내용을 보려면 여기를 클릭하십시오](../../rn/using/deprecated-features.md).
 
 ## 새로운 설명서 업데이트 및 도움말 자료가 출시됩니까? {#are-there-new-documentation-updates-and-help-materials-released-}
 

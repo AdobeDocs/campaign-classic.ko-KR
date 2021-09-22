@@ -5,10 +5,10 @@ description: 기본 게재 워크플로우에 대해 자세히 알아봅니다
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 794be3d196ea8292699bbf29c8a7038177763e31
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 6%
+source-wordcount: '323'
+ht-degree: 5%
 
 ---
 
@@ -35,11 +35,6 @@ ht-degree: 6%
    <td> <span class="uicontrol">과금</span> <br /> </td> 
    <td> <span class="uicontrol">billing</span> <br /> </td> 
    <td> 이 워크플로우는 '청구' 운영자에게 전자 메일로 시스템 활동 보고서를 보냅니다. 기본적으로 매월 25일에 트리거됩니다.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">청구(활성 프로필)</span> <br /> </td> 
-   <td> <span class="uicontrol">billingActiveContactCount</span> <br /> </td> 
-   <td> <p>이 워크플로우는 활성 프로필 수를 계산합니다. 기본적으로 매일 밤 1시에 트리거됩니다.</p> <p>"<strong>프로필</strong>"은 정보의 레코드를 의미합니다(예: 최종 고객, 잠재 고객 또는 리드를 나타내는 쿠키 ID, 고객 ID, 모바일 식별자 또는 특정 채널과 관련된 기타 정보가 포함된 외부 테이블 또는 nmsRecipient 테이블의 레코드. 청구에는 "활성" 상태인 프로필만 포함됩니다. 지난 12개월 내에 모든 채널을 통해 프로필을 타겟팅하거나 통신한 경우 프로필이 "활성"으로 간주됩니다.</p> <p>페이스북과 트위터 채널은 고려되지 않습니다.</p> <p><span class="uicontrol">관리</span> &gt; <span class="uicontrol">캠페인 관리</span> &gt; <span class="uicontrol">고객 지표</span> 메뉴에서 <span class="uicontrol">활성 프로필 수</span>에 대한 개요를 알 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">별칭 정리</span> <br /> </td> 

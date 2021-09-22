@@ -5,7 +5,7 @@ description: 파이프라인 구성 방법 알아보기
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 1%
@@ -113,7 +113,7 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 파이프라인 옵션을 구성하려면 다음 권장 사항을 따라야 합니다.
 
 * **[!UICONTROL Triggers]** 아래에 트리거를 추가하거나 편집하면 나머지 트리거는 편집하지 않아야 합니다.
-* JSON이 유효한지 확인합니다. JSON 유효성 검사기를 사용할 수 있습니다. 예를 들어 이 [웹 사이트](http://jsonlint.com/)를 참조하십시오.
+* JSON이 유효한지 확인합니다. JSON 유효성 검사기를 사용할 수 있습니다. 예를 들어 이 [웹 사이트](https://jsonlint.com/)를 참조하십시오.
 * &quot;name&quot;은 트리거 ID에 해당합니다. 와일드카드 &quot;*&quot;는 모든 트리거를 가져옵니다.
 * &quot;소비자&quot;는 호출 인스턴스 또는 애플리케이션의 이름에 해당합니다.
 * 파이프라인은 &quot;별칭&quot; 항목도 지원합니다.

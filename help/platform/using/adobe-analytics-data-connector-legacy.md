@@ -8,9 +8,9 @@ level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1658'
 ht-degree: 100%
 
 ---
@@ -32,8 +32,6 @@ ht-degree: 100%
 데이터 커넥터(이전의 Adobe Genesis)를 사용하면 Adobe Campaign 및 Adobe Analytics가 **웹 분석 커넥터** 패키지를 통해 상호 작용할 수 있습니다. Adobe Analytics 커넥터는 이메일 캠페인 후 사용자 행동에 대한 세그먼트 형태로 Adobe Campaign에 데이터를 전달합니다. 반대로 Adobe Campaign에서 게재하는 이메일 캠페인의 지표와 특성을 Adobe Analytics – 데이터 커넥터로 보냅니다.
 
 Adobe Campaign에는 데이터 커넥터를 사용하여 인터넷 대상자를 측정하는 방법(웹 분석)이 있습니다. 이러한 통합 덕분에 Adobe Campaign은 마케팅 캠페인 후 하나 이상의 사이트에 대한 방문자 동작에 대한 데이터를 복구한 다음 (분석 후) 재마케팅 캠페인을 실행하여 방문자를 바이어로 전환할 수 있습니다. 반대로 웹 분석 도구를 사용하면 Adobe Campaign에서 지표와 캠페인 속성을 플랫폼에 전달할 수 있습니다.
-
-Adobe Campaign과 Adobe Analytics 통합의 구현에 대한 자세한 내용은 이 [설명서](https://helpx.adobe.com/marketing-cloud/how-to/analytics-ac.html)를 참조하십시오.
 
 각 도구의 작업 필드는 다음과 같습니다.
 

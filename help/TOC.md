@@ -7,9 +7,9 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
+source-git-commit: 1f6846f29c44719fdbd334327466619ed265452a
 workflow-type: tm+mt
-source-wordcount: '2531'
+source-wordcount: '2535'
 ht-degree: 99%
 
 ---
@@ -118,6 +118,7 @@ ht-degree: 99%
          + [Salesforce.com과 연결](platform/using/crm-sfdc.md)
          + [CRM과 데이터 동기화](platform/using/crm-data-sync.md)
       + Adobe Analytics 커넥터{#analytics-connector}
+         + [Adobe Analytics 커넥터 프로비저닝](platform/using/adobe-analytics-provisioning.md)
          + [Adobe Analytics 커넥터 통합](platform/using/adobe-analytics-connector.md)
          + [Adobe Analytics Connector로 마이그레이션하는 방법](technotes/using/aa-connector-migration.md)
          + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector-legacy.md)

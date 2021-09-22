@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 830c4146d72cd5a744d026a499cfe8613a255da7
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '484'
 ht-degree: 2%
 
 ---
@@ -83,10 +83,10 @@ AWS 리전에 대한 자세한 내용은 이  [페이지](https://aws.amazon.com
 
 People 핵심 서비스 또는 Audience Manager와의 통합을 구성하려면 Campaign 추적 서버를 구성해야 합니다.
 
-Campaign 추적 서버가 도메인(CNAME)에 등록되어 있는지 확인해야 합니다. [이 문서](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html)에서 도메인 이름 위임에 대한 자세한 정보를 찾을 수 있습니다.
+Campaign 추적 서버가 도메인(CNAME)에 등록되어 있는지 확인해야 합니다. [이 문서](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko)에서 도메인 이름 위임에 대한 자세한 정보를 찾을 수 있습니다.
 
 ## 4단계: 방문자 ID 서비스 구성 {#step-4--configure-the-visitor-id-service}
 
-웹 속성 또는 웹 사이트에서 방문자 ID 서비스가 구성되지 않은 경우 서비스 구성 방법을 배우려면 다음 [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) 를 참조하십시오 [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) .
+웹 속성 또는 웹 사이트에서 방문자 ID 서비스가 구성되지 않은 경우 서비스 구성 방법을 배우려면 다음 [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) 를 참조하십시오.[](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)
 
 구성 및 프로비저닝이 완료되면 통합을 사용하여 대상 또는 세그먼트를 가져오고 내보낼 수 있습니다.

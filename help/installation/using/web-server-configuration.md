@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -76,9 +76,9 @@ ht-degree: 0%
    </Directory>
    ```
 
-   **IIS** ( [설명서](http://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits) 참조)의 콘텐츠 필터링 선택 사항에서 maxAllowedContentLength  **** (허용된 최대 컨텐츠 길이)를 설정합니다.
+   **IIS** ( [설명서](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits) 참조)의 콘텐츠 필터링 선택 사항에서 maxAllowedContentLength  **** (허용된 최대 컨텐츠 길이)를 설정합니다.
 
 관련 항목:
 
-* [Adobe Marketing Cloud 규정 준수 개요](https://marketing.adobe.com/resources/help/en_US/xref/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
+* [Adobe Marketing Cloud 규정 준수 개요](https://experienceleague.adobe.com/docs/core-services/assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
 * [Adobe Campaign 보안 개요](https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/campaign/pdfs/54658.en.campaign.wp.adb-security.pdf) (PDF)

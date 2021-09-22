@@ -6,10 +6,10 @@ feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: ed43a632a962747c9402ff8d5f0ce442c2cc6490
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 15%
+source-wordcount: '836'
+ht-degree: 16%
 
 ---
 
@@ -93,13 +93,11 @@ Adobe Campaign 탐색기의 일반 레이아웃은 [이 페이지](../../platfor
 
 과금은 **active**&#x200B;인 프로필에만 적용됩니다. 지난 12개월 동안 어느 채널을 통해 프로필을 타겟팅하거나 통신한 경우 프로필이 활성 상태로 간주됩니다.
 
-게재를 준비하는 동안 제외된 프로필(유형화 규칙, 격리)은 고려되지 않습니다. 여러 게재에서 타겟팅한 프로필은 한 번만 카운트됩니다.
+여러 게재에서 타겟팅한 프로필은 한 번만 카운트됩니다.
 
 >[!NOTE]
 >
 >페이스북과 트위터 채널은 고려되지 않습니다.
-
-Campaign 탐색기에서 **[!UICONTROL Administration > Campaign Management > Customer metrics]**&#x200B;을(를) 탐색하여 활성 프로필 수에 대한 개요를 지정합니다. 실제 개수는 **[!UICONTROL Number of active billing profiles]** ([!UICONTROL billingActiveContactCount]) [기술 워크플로우](../../workflow/using/about-technical-workflows.md)에 의해 수행됩니다. 이 워크플로우는 매일 실행되고 **[!UICONTROL Customer metrics]** 폴더의 현재 기간 동안 기존 보고서에 새 데이터를 추가합니다.
 
 활성 프로필 수는 **마케팅 인스턴스**&#x200B;에만 사용할 수 있습니다. MID(중간 소싱) 및 RT(메시지 센터/실시간 메시징) 인스턴스를 의미하는 실행 인스턴스에는 사용할 수 없습니다.
 

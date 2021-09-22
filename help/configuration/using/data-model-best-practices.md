@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '4013'
+source-wordcount: '4007'
 ht-degree: 1%
 
 ---
@@ -251,7 +251,7 @@ Adobe Campaign은 데이터 웨어하우스나 보고 도구가 아닙니다. �
 * 로그를 더 오래 유지하려면 전송된 메시지 크기와 데이터베이스 크기에 따라 신중하게 결정해야 합니다. 미리 알림으로 Adobe Campaign 시퀀스는 32비트 정수입니다.
 * 사용 가능한 모든 ID를 사용할 수 있는 위험을 제한하기 위해 이러한 표에 한 번에 10억 개 이상의 레코드(사용 가능한 21억 4천만 ID의 약 50%)가 없는 것이 좋습니다. 따라서 일부 고객은 보존 기간을 180일 미만으로 줄일 수 있습니다.
 
-[Campaign 개인 정보 및 보안 지침](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#consent)에 있는 데이터 유지에 대해 자세히 알아보십시오.
+[Campaign 개인 정보 및 보안 지침](../../platform/using/privacy-and-recommendations.md)에 있는 데이터 유지에 대해 자세히 알아보십시오.
 
 이 섹션](../../production/using/database-cleanup-workflow.md)에서 Campaign 데이터 기반 정리 워크플로우 [에 대해 자세히 알아보십시오.
 
