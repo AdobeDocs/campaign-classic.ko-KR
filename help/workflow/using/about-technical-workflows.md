@@ -6,9 +6,9 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56470602e3acf777d5b00c293060c644c1fbbc37
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1712'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 3%
 이 섹션에 자세히 설명된 워크플로우는 다양한 Adobe Campaign 기본 제공 패키지와 함께 설치됩니다. 이러한 패키지 및 관련 기술 워크플로우는 사용권 계약에 따라 다릅니다. 기본 제공 패키지는 [이 섹션에 자세히 설명되어 있습니다.](../../installation/using/installing-campaign-standard-packages.md)
 
 기본적으로 기술 워크플로우는 다음 노드의 하위 폴더에서 사용할 수 있습니다. **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
+
+기술 워크플로우는 관리 권한이 있는 운영자만 시작하고 수정할 수 있습니다. 권한에 대한 자세한 내용은 이 [섹션](../../platform/using/access-management-groups.md#default-groups)을 참조하십시오.
 
 >[!NOTE]
 >

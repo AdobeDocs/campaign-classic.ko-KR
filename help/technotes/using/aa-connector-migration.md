@@ -3,9 +3,9 @@ product: campaign
 title: Adobe Analytics 커넥터로 마이그레이션
 description: Campaign - Analytics 커넥터 FAQ
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 4b6fc31aefd12b3667501503fc5e10d5f1f0738f
+source-git-commit: 6d3e21fa00771a47d846d502e2d4d5971aa39b29
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '855'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 
 2021년 8월 1일부터 Adobe Campaign Classic이 레거시 Data Connectors UI에서 제거되었지만, 기존 Campaign 통합은 데이터를 수집하여 2022년 3월 1일까지 Adobe Analytics에 전달합니다. 이 날짜 이후, 통합은 데이터 수집을 중단하고 Adobe Analytics에 전달합니다.
 
-[이 페이지](../../platform/using/adobe-analytics-connector.md)에 자세히 설명된 대로 레거시 Data Connectors 통합을 대체하는 Adobe Exchange에서 새 Adobe Analytics 커넥터 통합으로 마이그레이션해야 합니다.
+**은(는) 기존 Data Connectors 통합을 대체하는 Adobe Exchange에서 새 Adobe Analytics 커넥터 통합을 구현해야 합니다.** Adobe Analytics 커넥터에 대한 자세한 내용은 [이 페이지](../../platform/using/adobe-analytics-connector.md)를 참조하십시오.
 
 >[!NOTE]
 >
