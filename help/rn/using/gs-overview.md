@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: c36a78f6-3332-465d-92f5-48f70b8bdddd
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Adobe 및 Adobe Campaign은 Adobe 소프트웨어 솔루션을 통해 최상의 
 
 Adobe Campaign Classic은 특히 다양한 기술을 사용하여 가치를 전달하고 있습니다. 이러한 기술의 조합은 정기적인 Campaign Classic 인스턴스의 업그레이드를 요구하여 최신 버전이 뛰어난 보안, 안정성 및 성능을 제공하는 데 사용되도록 합니다.
 
-[!DNL Gold Standard] Campaign Classic 장기 지원 릴리스입니다. 호스팅된 [!DNL Gold Standard] 사용자는 아무런 조치 없이 최신 안정된 버전의  [!DNL Gold Standard] 업그레이드를 자동으로 활용할 수 있습니다. 온-프레미스 및 하이브리드 고객도 [!DNL Gold Standard] 릴리스를 활용할 수 있습니다. 이전 빌드에서 마이그레이션하는 경우 먼저 이 버전으로 업그레이드하는 것이 좋습니다.
+[!DNL Gold Standard] Campaign Classic 장기 지원 릴리스입니다. 호스팅된 [!DNL Gold Standard] 사용자는 아무런 조치 없이 최신 안정된 버전의 [!DNL Gold Standard] 업그레이드를 자동으로 활용할 수 있습니다. 온-프레미스 및 하이브리드 고객도 [!DNL Gold Standard] 릴리스를 활용할 수 있습니다. 이전 빌드에서 마이그레이션하는 경우 먼저 이 버전으로 업그레이드하는 것이 좋습니다.
 
 ## 조직에 이 업그레이드가 필요한 이유는 무엇입니까?
 
