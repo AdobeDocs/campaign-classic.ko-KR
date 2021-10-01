@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '513'
 ht-degree: 100%
 
@@ -141,7 +141,7 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016년</p>
+<p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p>경고: Adobe Campaign 서버가 Linux에서 실행 중이면 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다.</p>
@@ -216,10 +216,10 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019년</p>
-<p>2017년</p>
-<p>2016년</p>
-<p>2014년</p>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 </tr>
@@ -277,8 +277,8 @@ Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016년</p>
-<p>2012년</p>
+<p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>
