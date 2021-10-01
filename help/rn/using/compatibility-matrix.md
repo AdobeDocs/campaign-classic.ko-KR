@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 987434c2b6b92fbb6f24924f92795cb282b61cd4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 ![](../../assets/v7-only.svg)
 
-이 문서에서는 [Adobe Campaign Classic v7 **의 최신 빌드](../../rn/using/latest-release.md)에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다.** 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
+이 문서에는 **Adobe Campaign Classic v7**&#x200B;의 [최신 빌드](../../rn/using/latest-release.md)를 지원하는 모든 시스템 및 구성 요소가 나열되어 있습니다. 이 목록에 포함되지 않은 제품과 버전은 Adobe Campaign과 호환되지 않습니다.
 
 [!DNL Gold Standard]사용자인 경우 [[!DNL Gold Standard] 호환성 매트릭스](../../rn/using/compatibility-matrix-gs.md)를 참조하십시오.
 
@@ -154,7 +154,7 @@ ht-degree: 96%
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016년</p>
+<p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p>경고: Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. [자세히 알아보기](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers)</p>
@@ -230,10 +230,10 @@ ht-degree: 96%
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019년</p>
-<p>2017년</p>
-<p>2016년</p>
-<p>2014년</p>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 </tr>
@@ -295,8 +295,8 @@ ht-degree: 96%
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016년</p>
-<p>2012년</p>
+<p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>
