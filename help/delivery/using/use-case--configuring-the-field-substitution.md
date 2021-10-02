@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 4%
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 이 사용 사례에서 사이트 **내 온라인 라이브러리**&#x200B;는 고객이 좋아하는 문학 장르를 기준으로 고객에게 할인을 보내려고 합니다.
 
-게재 관리자는 즐겨찾는 장르와 연결된 개인화 필드를 자신의 이메일에 통합했습니다. 그는 시드 주소를 사용하고 싶어한다. 이러한 시드 주소에는 테이블에 개인화 필드가 있지만 값이 저장되지 않습니다.
+게재 관리자는 즐겨찾는 장르와 연결된 개인화 필드를 자신의 이메일에 통합했습니다. 목적은 시드 주소를 사용하는 것입니다. 이러한 시드 주소에는 테이블에 개인화 필드가 있지만 저장된 값은 없습니다.
 
 임의 필드 대체를 사용하려면 다음을 수행해야 합니다.
 

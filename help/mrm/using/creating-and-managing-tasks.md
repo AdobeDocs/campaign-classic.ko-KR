@@ -6,9 +6,9 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
 workflow-type: tm+mt
-source-wordcount: '3730'
+source-wordcount: '3729'
 ht-degree: 0%
 
 ---
@@ -247,7 +247,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 ### 운영자 가용성 {#operator-availability}
 
-작업 대시보드에서 운영자 이름 옆에 있는 아이콘은 작업이 적용되는 기간 동안 다른 작업 또는 이벤트에서 이미 작업 중임을 나타냅니다. (연산자가 담당하거나 관련된 작업: **[!UICONTROL Assigned to]** 필드 또는 작업 **[!UICONTROL Resources]** 상자에 표시됩니다.
+작업 대시보드에서 운영자 이름 옆에 있는 아이콘은 작업이 적용되는 기간 동안 다른 작업 또는 이벤트에서 이미 작업 중임을 나타냅니다. 연산자가 담당하거나 관련된 작업이 **[!UICONTROL Assigned to]** 필드 또는 작업 **[!UICONTROL Resources]** 상자에 나타납니다.
 
 ![](assets/mrm_task_alert_operator_busy.png)
 

@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '2415'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '2413'
+ht-degree: 99%
 
 ---
 
@@ -384,7 +384,7 @@ API를 사용하여 개인 정보 보호 요청을 제출하는 경우 반환된
 
 Adobe Campaign이 제공하는 [동의 관리](../../platform/using/privacy-management.md#consent-management) 도구 외에도 소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다.
 
-소비자는 시스템을 통해 자신의 개인 정보가 제3자에게 판매되는 것을 허용하지 않기로 합니다. Adobe Campaign에서 이 정보를 저장하고 추적할 수 있습니다.
+연락처는 시스템을 통해 자신의 개인 정보가 제3자에게 판매되는 것을 허용하지 않기로 결정할 수 있습니다. Adobe Campaign에서 이 정보를 저장하고 추적할 수 있습니다.
 
 이 작업을 수행하려면 프로필 테이블을 확장하고 **[!UICONTROL Opt-Out for CCPA]** 필드를 추가해야 합니다.
 

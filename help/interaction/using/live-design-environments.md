@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -60,7 +60,7 @@ ht-degree: 2%
 
    이 옵션을 사용하면 특히 환경 오퍼 공간을 구성할 때 익명의 상호 작용 특정 기능을 활성화할 수 있습니다. 식별된&quot; 환경에서 &quot;익명&quot; 환경으로 전환할 수 있는 옵션을 구성할 수도 있습니다.
 
-   예를 들어, 수신자 환경 오퍼 공간(식별된 연락처)을 방문자 환경(식별되지 않은 연락처)과 일치하는 오퍼 공간과 연결할 수 있습니다. 이러한 방식으로 연락처가 식별되었는지 여부에 따라 다른 오퍼를 사용할 수 있게 됩니다. 자세한 내용은 [오퍼 공간 만들기](../../interaction/using/creating-offer-spaces.md)를 참조하십시오.
+   예를 들어, 수신자 환경 오퍼 공간(식별된 연락처)을 방문자 환경(식별되지 않은 연락처)과 일치하는 오퍼 공간과 연결할 수 있습니다. 이러한 방식으로 연락처가 식별되는지 여부에 따라 연락처에서 다른 오퍼를 사용할 수 있습니다. 자세한 내용은 [오퍼 공간 만들기](../../interaction/using/creating-offer-spaces.md)를 참조하십시오.
 
    ![](assets/offer_env_anonymous_003.png)
 

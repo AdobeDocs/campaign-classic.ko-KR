@@ -6,9 +6,9 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '385'
 ht-degree: 5%
 
 ---
@@ -52,15 +52,15 @@ ht-degree: 5%
 
    ![](assets/offer_operators_create_002.png)
 
-게재 관리자에게 할당된 권한은 다음 작업을 수행할 수 있도록 하거나 활성화됩니다.
+게재 관리자에게 할당된 권한을 통해 다음 작업을 수행할 수 있습니다.
 
 * **[!UICONTROL Live]** 환경을 표시합니다.
 * 오퍼 카테고리를 표시하고 수정합니다.
-* s/s가 해당 검토자 중 하나로 지정된 경우 오퍼를 승인합니다.
+* 이 게재 관리자가 해당 검토자 중 하나로 지정된 경우 오퍼를 승인합니다.
 
    >[!NOTE]
    >
-   >게재 관리자는 오퍼 구성 중에 오퍼를 검토자로 정의한 경우에만 오퍼를 승인할 수 있습니다.
+   >게재 관리자는 오퍼 구성 중에 오퍼가 검토자로 정의된 경우에만 오퍼를 승인할 수 있습니다.
 
 ## 연산자에 따른 권한 모음 {#recap-of-rights-according-to-operator}
 

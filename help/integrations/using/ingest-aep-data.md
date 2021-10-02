@@ -5,9 +5,9 @@ description: Adobe Experience Platform 대상을 Campaign Classic에 수집하�
 audience: integrations
 content-type: reference
 exl-id: 6db8a653-b649-402c-8814-24826edadba7
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ![](../../assets/common.svg)
 
-Adobe Experience Platform을 Campaign에 수집하여 워크플로우에서 사용하려면 먼저 Adobe Campaign을 Adobe Experience Platform **대상**&#x200B;으로 연결하고 내보낼 세그먼트로 구성해야 합니다.
+Adobe Experience Platform 대상을 Campaign에 수집하여 워크플로우에서 사용하려면 먼저 Adobe Campaign을 Adobe Experience Platform **대상**&#x200B;으로 연결하고 내보낼 세그먼트로 구성해야 합니다.
 
 대상이 구성되면 데이터가 저장소 위치로 내보내지며 Campaign Classic에서 전용 워크플로우를 빌드하여 데이터를 수집해야 합니다.
 

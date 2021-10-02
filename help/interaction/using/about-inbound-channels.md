@@ -6,9 +6,9 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '207'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 오퍼 엔진에서 오퍼를 선택하려면 오퍼를 승인하고 라이브 환경에서 사용할 수 있어야 합니다. 자세한 내용은 [오퍼 승인 및 활성화](../../interaction/using/approving-and-activating-an-offer.md)를 참조하십시오.
 
-연락처가 인바운드 경우 두 가지 가능한 결과가 있습니다. 첫 번째는 사용자가 탐색 중인 사이트로 식별되지 않고 두 번째는 식별된 사이트입니다. 오퍼 엔진은 사용자가 식별되는지 여부에 따라 다른 오퍼를 제공합니다.
+연락처가 인바운드 경우 다음 두 가지 가능한 결과가 있습니다. 페이지를 탐색 중인 사용자는 웹 사이트에서 식별할 수 있습니다. 오퍼 엔진은 사용자가 식별되는지 여부에 따라 다른 오퍼를 제공합니다.
 
 인바운드 채널에 오퍼를 표시할 수 있으려면 먼저 오퍼를 표시할 오퍼 엔진 호출을 구성해야 합니다. 인바운드 상호 작용에 대한 대부분의 경우 웹 페이지입니다.
 

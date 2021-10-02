@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Campaign v7에서 다음 개체가 생성되었습니다.
 
    ![](assets/acs_connect_lp_5.png)
 
-1. **[!UICONTROL Profiles and Targets > Recipient]**(으)로 이동하여 수신자를 선택합니다. 그가 아직 그 서비스에 가입하지 않은 것을 볼 수 있다.
+1. **[!UICONTROL Profiles and Targets > Recipient]**(으)로 이동하여 수신자를 선택합니다. 이 프로필이 아직 서비스를 구독하지 않았음을 알 수 있습니다.
 
    ![](assets/acs_connect_lp_6.png)
 
@@ -70,7 +70,7 @@ Campaign v7와 Campaign Standard 간에 필요한 데이터를 복제하기 위�
 
    ![](assets/acs_connect_lp_7.png)
 
-1. Campaign v7 수신자를 검색하고 Campaign Standard에 표시되는지 확인합니다.
+1. Campaign v7 수신자를 검색하고 이 수신자가 Campaign Standard에 표시되는지 확인합니다.
 
    ![](assets/acs_connect_lp_8.png)
 
@@ -102,7 +102,7 @@ Campaign v7와 Campaign Standard 간에 필요한 데이터를 복제하기 위�
 
    ![](assets/acs_connect_lp_14.png)
 
-1. 그는 전화 번호를 추가하고 뉴스레터 구독 상자를 체크합니다.
+1. 이 수신자는 전화 번호를 추가하고 뉴스레터 구독 상자를 확인합니다.
 
    ![](assets/acs_connect_lp_15.png)
 
@@ -118,7 +118,7 @@ Campaign v7와 Campaign Standard 간에 필요한 데이터를 복제하기 위�
 
    ![](assets/acs_connect_lp_17.png)
 
-1. **[!UICONTROL Subscriptions]** 탭에서 그가 뉴스레터 서비스에 가입했음을 확인할 수도 있습니다.
+1. **[!UICONTROL Subscriptions]** 탭에서 이 수신자가 뉴스레터 서비스에 가입했음을 확인할 수도 있습니다.
 
    ![](assets/acs_connect_lp_18.png)
 

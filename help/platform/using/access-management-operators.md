@@ -6,9 +6,9 @@ feature: Access Management
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1149'
 ht-degree: 2%
 
 ---
@@ -99,7 +99,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 **[!UICONTROL Edit the access parameters...]** 링크를 통해 다음 옵션에 액세스할 수 있습니다.
 
-* **[!UICONTROL Disable account]** 옵션을 사용하면 연산자의 계정을 비활성화할 수 있습니다. 더 이상 Adobe Campaign에 액세스할 수 없습니다.
+* **[!UICONTROL Disable account]** 옵션을 사용하면 연산자의 계정을 비활성화할 수 있습니다. 이 사용자는 더 이상 Adobe Campaign에 액세스할 수 없습니다.
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
    >[!IMPORTANT]
    >
-   >이것은 매우 엄격한 제한이므로 주의해서 사용해야 한다. 이 유형의 권한으로 로그인한 연산자는 지정된 폴더의 컨텐츠만 볼 수 있으며 탐색기를 통해 트리의 다른 노드에 액세스할 수 없습니다. 그러나 액세스 권한이 있는 기능에 따라(예: 워크플로우)를 채울 수 있으며 일반적으로 볼 수 없는 노드에 저장된 데이터를 표시할 수 있습니다.
+   >이것은 매우 엄격한 제한이므로 주의해서 사용해야 한다. 이 유형의 권한으로 로그인한 연산자는 지정된 폴더의 컨텐츠만 볼 수 있으며 탐색기를 통해 트리의 다른 노드에 액세스할 수 없습니다. 그러나 이 연산자가 액세스할 수 있는 기능에 따라(예: 워크플로우)로 분류할 경우 사용자는 일반적으로 액세스할 수 없는 노드에 저장된 데이터를 표시할 수 있습니다.
 
 ### 설정 확인 {#check-settings}
 

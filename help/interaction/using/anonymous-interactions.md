@@ -6,9 +6,9 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 익명의 방문자가 연결되면 쿠키 식별 프로세스에 전송될 수 있습니다. 이 암시적 인식은 방문자의 브라우저 기록을 기반으로 합니다.
 
-이 단계에서는 쿠키로 복구된 데이터와 데이터베이스의 데이터 간에 비교됩니다. 경우에 따라 방문자가 인식됩니다(그런 다음 암시적으로 식별됨). 다른 경우 방문자가 인식되지 않으며 따라서 익명 상태로 유지됩니다.
+이 단계에서는 쿠키로 복구된 데이터와 데이터베이스의 데이터 간에 비교됩니다. 어떤 경우에는 방문자가 인식됩니다(그런 다음 암시적으로 식별됨). 다른 경우 방문자가 인식되지 않으며 따라서 익명 상태로 유지됩니다.
 
 이 분석을 실행하려면 오퍼 공간에 대해 **[!UICONTROL Implicitly identify the individual based on their browser history]** 옵션을 선택합니다.
 
