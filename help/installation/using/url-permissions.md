@@ -5,10 +5,10 @@ description: URL 권한을 구성하는 방법 알아보기
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-source-git-commit: dab18d24f5471034a2169dd674e6f7000de30cac
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 28%
+source-wordcount: '337'
+ht-degree: 29%
 
 ---
 
@@ -26,7 +26,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 >
 >**호스팅된** 고객으로서, [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)에 액세스할 수 있는 경우 URL 권한 셀프 서비스 인터페이스를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ko)
 >
->다른 **하이브리드/호스팅** 고객은 Adobe 지원 팀에 연락하여 허용 목록에 IP를 추가해야 합니다.
+>다른 **하이브리드/호스팅** 고객은 Adobe 지원 팀에 연락하여 IP를에 추가해야 허용 목록에 추가하다 합니다.
 
 **Hybrid** 및 **On-premise** 배포의 경우, 관리자는 **serverConf.xml** 파일의 새 **urlPermission**&#x200B;을 참조해야 합니다.
 

@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 1%
@@ -132,7 +132,7 @@ NmsTracking_Pointer 옵션을 업데이트할 때 다음 단계를 수행합니�
 
 클릭 추적 공식을 사용자 지정하고 사용자 지정 Adobe Analytics 추적 공식을 지정할 수 있습니다.
 
-줄 바꿈 문자를 추가하지 않으려면 이러한 종류의 사용자 지정을 신중하게 수행해야 합니다. javascript 표현식 외부에 있는 모든 줄 바꿈 문자가 최종 수식에 표시됩니다.
+줄 바꿈 문자를 추가하지 않으려면 이러한 종류의 사용자 지정을 신중하게 수행해야 합니다. JavaScript 표현식 외부에 있는 모든 줄 바꿈 문자가 최종 수식에 표시됩니다.
 
 추적 URL에서 이러한 종류의 추가 라인 피드 문자로 인해 일부 webMail(AOL, GMail 등)에서 문제가 발생합니다.
 
@@ -159,7 +159,7 @@ NmsTracking_Pointer 옵션을 업데이트할 때 다음 단계를 수행합니�
    %>&cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
    ```
 
-추가 줄 바꿈 식이 있는 위치를 이해하려면 고정 문자열 STRING으로 javascript 표현식을 바꿀 수 있습니다.
+추가 줄 바꿈 위치를 이해하려면 고정 문자열 STRING으로 JavaScript 표현식을 바꿀 수 있습니다.
 
 ```
 // Incorrect
@@ -195,7 +195,7 @@ STRING1&cid=STRING2&bid=STRING3
    %>
    ```
 
-추가 줄 바꿈 식이 있는 위치를 이해하려면 고정 문자열 STRING으로 javascript 표현식을 바꿀 수 있습니다.
+추가 줄 바꿈 위치를 이해하려면 고정 문자열 STRING으로 JavaScript 표현식을 바꿀 수 있습니다.
 
 ```
 // Incorrect

@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '754'
 ht-degree: 5%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 5%
    cnx.dispose()
    ```
 
-SQL 주입을 방지하려면 Adobe Campaign에서 사용할 허용 목록에 SQL 함수를 추가해야 합니다. 허용 목록에 추가되면 표현식 편집기에서 연산자가 표시됩니다. [이 페이지](../../configuration/using/adding-additional-sql-functions.md)를 참조하십시오.
+SQL 주입을 방지하려면 Adobe Campaign에서 사용할에 SQL 함수허용 목록에 추가하다를 추가해야 합니다. 이들이에 추가되면 표현식 허용 목록에 추가하다 편집기에서 연산자가 표시됩니다. [이 페이지](../../configuration/using/adding-additional-sql-functions.md)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -228,6 +228,6 @@ JSON.parse를 사용하려면 webApp에 &quot;shared/json2.js&quot;을 포함해
 
 ![](assets/scripting-captcha6.png)
 
-빌드 8797부터 확인 API URL을 사용하려면 urlPermission 노드에 를 추가하여 serverConf 파일의 허용 목록에 추가해야 합니다.
+빌드 8797부터 확인 API URL을 사용하려면 urlPermission 노드에 추가하여 serverConf 파일의에 추가해야 허용 목록에 추가하다 합니다.
 
 `<url dnsSuffix="www.google.com" urlRegEx="https://www.google.com/recaptcha/api/siteverify"/>`

@@ -6,7 +6,7 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 978e1249-f79b-4f5f-9a94-3bb2510785de
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 마이그레이션 중에 다음 경고가 자동으로 표시됩니다.
 
 ```
-The webApp ids have been modified during the migration process. Please make sure to check your scripts/css for broken compatibility (any client side javascript or css dealing directly with another element through its id is impacted). See file 'c:\svn\602\nl\build\ncs\var\upgrade/postupgrade/webAppsMigration_*************.txt' for details about the references that were automatically updated, if any.
+The webApp ids have been modified during the migration process. Please make sure to check your scripts/css for broken compatibility (any client side JavaScript or css dealing directly with another element through its id is impacted). See file 'c:\svn\602\nl\build\ncs\var\upgrade/postupgrade/webAppsMigration_*************.txt' for details about the references that were automatically updated, if any.
 ```
 
 웹 응용 프로그램의 일부 구성 요소(예: 다양한 공식 필드)에는 @id 속성이 있습니다. 이러한 파일은 웹 응용 프로그램의 XML 코드에서 사용되며 더 이상 동일한 방식으로 생성되지 않습니다. 인터페이스에는 표시되지 않으며 일반적으로 사용해서는 안 됩니다. 그러나 경우에 따라 @id 속성을 사용하여 스타일시트를 통해 또는 JavaScript 코드를 사용하여 웹 응용 프로그램의 렌더링을 개인화할 수 있습니다.

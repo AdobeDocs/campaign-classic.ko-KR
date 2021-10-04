@@ -2,9 +2,8 @@
 product: campaign
 title: Apple의 메일 앱에서의 메일 개인 정보 보호
 description: 캠페인이 Apple의 메일 개인 정보 보호 기능의 영향을 받는 방식을 알아봅니다
-hide: true
-hidefromtoc: true
-source-git-commit: f73cda08183e27a222e0aa8e179ef013777435e8
+exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
+source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 0%

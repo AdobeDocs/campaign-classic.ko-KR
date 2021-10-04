@@ -4,10 +4,10 @@ title: 'Campaign Classic 도움말 및 지원 옵션 '
 description: Campaign Classic 지원이 필요하십니까? 제대로 찾아오셨습니다.
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 71%
+source-wordcount: '799'
+ht-degree: 69%
 
 ---
 
@@ -111,7 +111,7 @@ Campaign 컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 �
 
 ### SFTP 관리
 
-Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, 허용 목록의 IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)하십시오.
+Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 스토리지 용량을 모니터링하고,의 IP 주소 및 공개 SSH 키를 관리할 허용 목록에 추가하다 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)하십시오.
 
 ### 하위 도메인 및 인증서
 
@@ -123,7 +123,7 @@ Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스
 ### 인스턴스 설정
 
 Campaign 컨트롤 패널에서 Campaign Classic 인스턴스 설정을 관리하는 방법을 알아봅니다. 자세한 내용은 다음 페이지에서 확인하십시오.
-* [허용 목록에 IP를 추가하여 ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko) Campaign 인스턴스에 액세스합니다
+* [허용 목록에 IP를 ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko) 추가하여 Campaign 인스턴스에 액세스합니다
 * [URL 권한 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ko)
 * [액세스 인스턴스 세부 사항](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ko)
 * [데이터 암호화에 대한 GPG 키 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko)

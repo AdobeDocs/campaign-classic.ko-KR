@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '621'
 ht-degree: 4%
 
 ---
@@ -48,9 +48,9 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 다음 세 가지 연결 보호 모드가 있습니다.
 
-* **차단** : 허용 목록에 속하지 않는 모든 URL이 차단되며 오류 메시지가 표시됩니다. 업그레이드 후 기본 모드입니다.
-* **허용** : 허용 목록에 속하지 않는 모든 URL이 허용됩니다.
-* **경고** : 허용 목록에 있는 모든 URL이 허용되지 않지만 JS 인터프리터가 경고를 출력하여 관리자가 수집할 수 있습니다. 이 모드에서는 JST-310027 경고 메시지가 추가됩니다.
+* **차단** : 에 속하지 않는 허용 목록에 추가하다 모든 URL이 차단되며 오류 메시지가 표시됩니다. 업그레이드 후 기본 모드입니다.
+* **허용** : 에 속하지 않는 모든 URL이 허용 목록에 추가하다 허용됩니다.
+* **경고** : 에 있는 모든 URL이 허용되지 허용 목록에 추가하다 않지만 JS 인터프리터가 경고를 표시하여 관리자가 수집할 수 있도록 합니다. 이 모드에서는 JST-310027 경고 메시지가 추가됩니다.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -60,7 +60,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 </urlPermission>
 ```
 
-새 클라이언트는 차단 모드를 사용합니다. 새 URL을 허용하려면 관리자에게 문의하여 허용 목록에 추가해야 합니다.
+새 클라이언트는 차단 모드를 사용합니다. 새 URL을 허용하려면 관리자에게 문의하여 URL을 페이지에 추가해야 허용 목록에 추가하다 합니다.
 
 마이그레이션에서 오는 기존 고객은 당분간 경고 모드를 사용할 수 있습니다. 한편 URL을 인증하기 전에 아웃바운드 트래픽을 분석해야 합니다.
 

@@ -2,9 +2,8 @@
 product: campaign
 title: IMS를 통해 Adobe Campaign에 연결하도록 환경을 업데이트합니다.
 description: Campaign - IMS 업데이트
-hide: true
-hidefromtoc: true
-source-git-commit: 53ac193211a1d98c45e97bf01ab0ad843b8f8f02
+exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
+source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 9%
@@ -61,7 +60,7 @@ Adobe ID](../../integrations/using/about-adobe-id.md)을 통해 Campaign [에 �
 
 연결 모드를 확인하려면 다음을 수행할 수 있습니다.
 
-* Campaign 클라이언트 콘솔을 실행하고 인스턴스 연결 설정에 액세스합니다. **Adobe ID으로 연결** 옵션이 선택된 경우 Adobe IMS를 사용하는 것입니다.
+* Campaign 클라이언트 콘솔을 실행하고 인스턴스 연결 설정에 액세스합니다. **Adobe ID으로 연결** 옵션이 선택된 경우 Adobe IMS를 사용하고 있습니다.
 
    ![](../../integrations/using/assets/ims_1.png)
 

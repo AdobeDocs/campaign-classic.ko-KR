@@ -5,7 +5,7 @@ description: 사용자 지정 구현을 위한 이벤트를 구성하는 방법 
 audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Javascript 코드를 편집하려면 기술 기술이 필요하므로 적절한 
 
 파이프라인은 JavaScript 함수를 사용하여 각 메시지를 처리합니다. 이 함수는 사용자가 정의합니다.
 
-JSConnector&quot; 특성 아래의 **[!UICONTROL NmsPipeline_Config]** 옵션에 구성됩니다. 이 javascript는 이벤트가 수신될 때마다 호출됩니다. [!DNL pipelined] 프로세스에 의해 실행됩니다.
+JSConnector&quot; 특성 아래의 **[!UICONTROL NmsPipeline_Config]** 옵션에 구성됩니다. 이 JavaScript는 이벤트가 수신될 때마다 호출됩니다. [!DNL pipelined] 프로세스에 의해 실행됩니다.
 
 샘플 Javascript 파일은 cus:triggers.js입니다.
 

@@ -7,12 +7,13 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: aac596caf559b25ba3fff94aca410a66ecc08b27
+source-git-commit: 77c7f1edc531509580c76f55dcb2809c18a04133
 workflow-type: tm+mt
-source-wordcount: '2546'
-ht-degree: 99%
+source-wordcount: '2569'
+ht-degree: 98%
 
 ---
+
 
 # Adobe Campaign Classic v7 설명서 {#using}
 
@@ -36,12 +37,6 @@ ht-degree: 99%
       + [릴리스 18.4](rn/using/release--18-4.md)
    + [사용되지 않는 기능](rn/using/deprecated-features.md)
    + [호환성 매트릭스](rn/using/compatibility-matrix.md)
-   + [기술 노트](technotes/using/technote.md)
-   + [iOS 인증서 업데이트](technotes/using/ios-certificate-update.md)
-   + [Apple iOS에 대한 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)
-   + [Campaign 구성 업데이트](technotes/using/acc-config-updates.md)
-   + [추적된 URL 업데이트](technotes/using/tracked-urls.md)
-   + [IMS 업데이트](technotes/using/ims-updates.md)
 + 시작 {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic 시작](platform/using/about-adobe-campaign-classic.md)
@@ -850,6 +845,16 @@ ht-degree: 99%
       + [v6.10의 특정 구성](migration/using/specific-configurations-in-v6-10.md)
    + [롤백 절차](migration/using/about-rollback.md)
 + 기술 노트 {#technotes}
+   + [하드웨어 크기 조정 권장 사항](technotes/using/hardware-sizing.md)
+   + 업그레이드 및 마이그레이션{#technote-migration}
+      + [기술 노트](technotes/using/technote.md)
+      + [Campaign 구성 업데이트](technotes/using/acc-config-updates.md)
+      + [IMS 업데이트](technotes/using/ims-updates.md)
+   + 전자 메일 및 푸시 알림{#technotes-email}
+      + [Apple iOS에 대한 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)
+      + [Apple 메일 개인 정보 보호 FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+      + [iOS 인증서 업데이트](technotes/using/ios-certificate-update.md)
+      + [추적된 URL 업데이트](technotes/using/tracked-urls.md)
    + Adobe Managed Services로 마이그레이션{#dc-migration}
       + [Public Cloud로 마이그레이션](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)

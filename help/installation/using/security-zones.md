@@ -5,9 +5,9 @@ description: 보안 영역을 구성하는 방법 알아보기
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-source-git-commit: dab18d24f5471034a2169dd674e6f7000de30cac
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1460'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 >
 >**호스팅된** 고객으로서, [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)에 액세스할 수 있는 경우 보안 영역 셀프 서비스 인터페이스를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko)
 >
->다른 **하이브리드/호스팅** 고객은 Adobe 지원 팀에 연락하여 허용 목록에 IP를 추가해야 합니다.
+>다른 **하이브리드/호스팅** 고객은 Adobe 지원 팀에 연락하여 IP를에 추가해야 허용 목록에 추가하다 합니다.
 
 ## 보안 영역 만들기 {#creating-security-zones}
 
@@ -225,7 +225,7 @@ Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소는 해�
 * sessionTokenOnly=&quot;true&quot;의 사용을 최소화하십시오.
 
    * 경고: 이 특성이 true로 설정되면 연산자가 **CRSF 공격**&#x200B;에 노출될 수 있습니다.
-   * 또한 sessionToken 쿠키가 httpOnly 플래그로 설정되지 않으므로 일부 클라이언트측 javascript 코드는 이를 읽을 수 있습니다.
+   * 또한 sessionToken 쿠키가 httpOnly 플래그로 설정되지 않으므로 일부 클라이언트측 JavaScript 코드는 이를 읽을 수 있습니다.
    * 그러나 여러 실행 셀의 메시지 센터에는 sessionTokenOnly가 필요합니다. sessionTokenOnly가 &quot;true&quot;로 설정된 새 보안 영역을 만들고 이 영역에 필요한 IP만 **추가합니다.**
 
 * 가능하면 모든 allowHTTP, showErrors를 false(localhost가 아님)로 설정하고 확인합니다.
@@ -245,6 +245,6 @@ Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소는 해�
 
 * HttpOnly cookie/useSecurityToken: **sessionTokenOnly** 플래그를 참조하십시오.
 
-* 허용 목록에 추가된 IP를 최소화합니다. 기본 제공되는 보안 영역에서 개인 네트워크에 대한 3개의 범위를 추가했습니다. 이러한 모든 IP 주소를 사용할 가능성은 없습니다. 필요한 것만 보관하세요
+* 에 추가된 IP를 허용 목록에 추가하다 최소화합니다. 기본 제공되는 보안 영역에서 개인 네트워크에 대한 3개의 범위를 추가했습니다. 이러한 모든 IP 주소를 사용할 가능성은 없습니다. 필요한 것만 보관하세요
 
 * localhost에서만 액세스할 수 있도록 webApp/internal 연산자를 업데이트합니다.

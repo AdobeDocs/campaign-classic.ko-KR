@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
 source-wordcount: '3991'
 ht-degree: 1%
@@ -411,7 +411,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">RestrictEditingOOTBJavascript</span> <br /> </td> 
-   <td> (21.1.3 릴리스 시작) 1을 선택한 경우(기본값) 이 옵션은 내장 javascript 코드 버전을 비활성화합니다.<br /> </td> 
+   <td> (21.1.3 릴리스 시작) 1을 선택한 경우(기본값) 이 옵션은 내장 JavaScript 코드 버전을 비활성화합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPassword</span> <br /> </td> 
@@ -423,7 +423,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Allow_PrivilegeEscalation</span> <br /> </td> 
-   <td> 1을 선택한 경우 이 옵션은 javascript에서 privilegeEscalation을 허용합니다.<br /> </td> 
+   <td> 1을 선택한 경우 이 옵션은 JavaScript에서 privilegeEscalation을 허용합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Disable_ControlsOnFileDownload</span> <br /> </td> 
@@ -657,7 +657,7 @@ ht-degree: 1%
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> 백업 및 복제를 최적화하기 위해 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 옵션은 임시 데이터베이스의 이름에 해당합니다. 지정한 경우 작업 테이블이 이 데이터베이스에 작성됩니다. 예: 'tempdb.dbo' (이름은 점으로 끝나야 합니다.) <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">자세한 내용</a> <br /> </td> 
+   <td> 백업 및 복제를 최적화하기 위해 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 옵션은 임시 데이터베이스의 이름에 해당합니다. 지정한 경우 작업 테이블이 이 데이터베이스에 작성됩니다. 예: 'tempdb.dbo' (이름은 점으로 끝나야 합니다.) <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">자세히 알아보기</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 

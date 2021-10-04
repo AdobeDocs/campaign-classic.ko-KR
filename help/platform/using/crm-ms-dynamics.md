@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1091'
 ht-degree: 3%
 
 ---
@@ -199,7 +199,7 @@ Microsoft Dynamics 365 및 Campaign을 연결하려면 Campaign에서 전용 **[
 
 >[!NOTE]
 >
-> 허용 목록에 다음 두 URL을 추가해야 합니다. 서버 구성의 서버 URL 및 `login.microsoftonline.com`
+> 다음 두 URL을에 추가해야 허용 목록에 추가하다 합니다. 서버 구성의 서버 URL 및 `login.microsoftonline.com`
 
 ## 지원되는 필드 데이터 유형 {#ms-dyn-supported-types}
 

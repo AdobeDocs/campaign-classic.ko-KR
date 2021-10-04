@@ -2,11 +2,11 @@
 product: campaign
 title: Public Cloud로 마이그레이션
 description: Public Cloud로 Campaign Classic 마이그레이션에 대해 자세히 알아보기
-hidefromtoc: true
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: a4e7fb474d83be821343babacc493fd43c02857d
+exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
+source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
 workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 2%
@@ -218,4 +218,3 @@ Adobe은 새 데이터 센터에 동일한 수의 IP를 프로비저닝합니다
 * [Adobe Managed Services(Public Cloud)로 마이그레이션 FAQ](dc-migration-faq.md)
 * [Gold Standard 업그레이드](../../rn/using/gs-overview.md)
 * [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)
-
