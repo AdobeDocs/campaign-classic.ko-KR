@@ -9,11 +9,11 @@ exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: b3a3ec871bca9132f10b319ba1f93aeda80d6747
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
-# 업그레이드 시작{#rn-overview}
+# 업그레이드 시작하기{#rn-overview}
 
 ![](../../assets/v7-only.svg)
 
@@ -29,7 +29,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ![](assets/do-not-localize/green3.png) GA(**General Availability**) - 프로덕션에서 검증되었으며 Adobe에서 권장합니다.
 
-**마지막 GA 빌드**&#x200B;는 다음과 같습니다. [[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [Campaign 21.1.4 릴리스](../../rn/using/latest-release.md#release-21-1-4-build-9340).
+**최신 GA 빌드**&#x200B;는 [[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [Campaign 21.1.4 릴리스](../../rn/using/latest-release.md#release-21-1-4-build-9340)입니다.
 
 ![](assets/do-not-localize/limited3.png) LA(**Limited Availability**) - 주문형 배포만 가능.
 
@@ -45,7 +45,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 또한, 클라이언트 콘솔은 서버 인스턴스와 동일한 빌드에 있어야 합니다.
 
-구현을 최신 상태로 유지하려면 각 새로운 릴리스에 포함된 [사용되지 않거나 제거된 기능](../../rn/using/deprecated-features.md) 및 [호환성 매트릭스](../../rn/using/compatibility-matrix.md) 페이지를 참조하십시오.
+구현을 최신 상태로 유지하려면 각 새로운 릴리스에 포함된 [사용되지 않거나 제거된 기능](../../rn/using/deprecated-features.md) 및 [호환성 매트릭스](../../rn/using/compatibility-matrix.md) 페이지를 참조하세요.
 
 ## 업그레이드 프로세스{#process-upgrade}
 

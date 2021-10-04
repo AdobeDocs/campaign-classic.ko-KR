@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '4513'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,20 +23,20 @@ ht-degree: 98%
 
 ## 2021년 8월{#aug-2021}
 
-새 워크플로우 활동을 추가했습니다. 데이터 소스 변경 - [자세히 알아보기](../../workflow/using/change-data-source.md)
+새 워크플로우 활동인 데이터 소스 변경을 추가했습니다. [자세히 알아보기](../../workflow/using/change-data-source.md)
 
-설명서 페이지에 적용 가능한 배지가 추가되었습니다. **Campaign Classic v7 기능에만 적용되고, 일반 기능에는** v7 및 v8 **적용됩니다.**
+설명서 페이지에 적용 가능성 배지가 추가되었습니다. Campaign Classic v7 기능에만 적용되는 기능을 보려면 **v7 적용성**&#x200B;을, 일반 기능을 보려면 **v7 및 v8 적용성**&#x200B;을 참고하십시오.
 
-Adobe Experience Manager 6.4부터 분해된 Campaign과 AEM Assets 간의 통합에 대한 메모를 추가했습니다. [자세히 알아보기](../../integrations/using/configuring-access-to-assets.md)
+Adobe Experience Manager 6.4부터 서비스 해제된 Campaign과 AEM Assets 간의 통합에 대한 메모를 추가했습니다. [자세히 알아보기](../../integrations/using/configuring-access-to-assets.md)
 
-Adobe Flash 제거 후 보고서 및 웹 애플리케이션 스크린샷 및 매개 변수가 업데이트되었습니다.
+Adobe Flash 제거 후 보고서 및 웹 애플리케이션 스크린샷과 매개 변수를 업데이트했습니다.
 
-**Gage** 차트 유형이 제거되었습니다.
+**측정** 차트 유형을 제거했습니다.
 
 
 ## 2021년 7월 {#july-2021}
 
-[Campaign 21.1.3 릴리스](../../rn/using/latest-release.md#release-21-1-3-build-9330)가 GA(General Availability)로 이동되었습니다.
+[Campaign 21.1.3 릴리스](../../rn/using/latest-release.md#release-21-1-3-build-9330)를 GA(General Availability)로 이동했습니다.
 
 
 ## 2021년 6월 {#june-2021}

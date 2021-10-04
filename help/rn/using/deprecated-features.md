@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '1657'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -81,7 +81,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr>
   <tr>  
    <td>보고<br></td>
-   <td><p>Adobe Flash Player EOL에 따라 게이지 보고서 및 차트 렌더링 엔진을 더 이상 사용할 수 없습니다. <a href="../../reporting/using/creating-a-new-report.md">자세히 알아보기</a></p>
+   <td><p>Adobe Flash Player EOL에 따라 측정 보고서 및 차트 렌더링 엔진을 더 이상 사용할 수 없습니다. <a href="../../reporting/using/creating-a-new-report.md">자세히 알아보기</a></p>
   </tr>
   <tr>  
    <td>팩스 채널<br></td>
@@ -242,10 +242,10 @@ Adobe Campaign은 다음 SMS 커넥터와 호환되지 않습니다.
 
 ### CRM 커넥터 {#crm-connectors}
 
-Campaign 21.1 릴리스부터 다음 CRM 커넥터는 더 이상 Campaign과 호환되지 않습니다:
+Campaign 21.1 릴리스부터 다음 CRM 커넥터는 Campaign과 호환되지 않습니다.
 
 * Soap API - 온-프레미스: 2007년, 2015년, 2016년
 * Soap API - 온라인: 2015년, 2016년
 * 웹 API - Microsoft Dynamics CRM 2016
-* 웹 API - Microsoft Dynamics CRM 2016 업데이트 1
+* 웹 API – Microsoft Dynamics CRM 2016 업데이트 1
 * Oracle On Demand API
