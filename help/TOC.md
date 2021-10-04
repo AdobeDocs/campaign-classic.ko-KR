@@ -3,11 +3,10 @@ audience: end-user
 breadcrumb-title: Campaign Classic v7 설명서
 product: campaign
 title: Campaign Classic v7 안내서
-breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 37115de5871d773dc7b97c5150ef1eab583e3104
+source-git-commit: 089ade04a7324f8052738f18b34c09b429275c00
 workflow-type: tm+mt
 source-wordcount: '2567'
 ht-degree: 98%
