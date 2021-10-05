@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 134f248fbcd456573365d5b32831b75dac4b73de
+source-git-commit: f6f1feffbd328f9756c9cd71c4186ba7cd674d76
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 86%
+source-wordcount: '596'
+ht-degree: 85%
 
 ---
 
@@ -121,10 +121,6 @@ ht-degree: 86%
 
 ## RDBMS 서버{#RDBMSservers}
 
->[!NOTE]
->
->RDBMS 드라이버는 RDBMS 서버 버전과 일치해야 합니다.
-
 <table>
 <tbody>
 <tr>
@@ -137,7 +133,10 @@ ht-degree: 86%
 </td>
 </tr>
 <tr>
-<td>PostgreSQL</td>
+<td>
+<p>PostgreSQL</p>
+<p>호스팅 환경을 위한 기본 데이터베이스 서버</p>
+</td>
 <td>
 <p>13.x</p>
 <p>12.x</p>
@@ -165,7 +164,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->PostgreSQL은 호스팅 환경을 위한 기본 데이터베이스 서버입니다.
+>RDBMS 드라이버는 RDBMS 서버 버전과 일치해야 합니다.
 
 ## CRM 커넥터{#CRMconnectors}
 
@@ -315,7 +314,6 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 
 ### 브라우저
 
-[]
 <table>
 <tbody>
 <tr>
