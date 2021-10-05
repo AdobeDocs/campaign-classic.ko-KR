@@ -8,23 +8,23 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 5eea976f86b62987c38c0fcd893bf3532a2cf301
+source-git-commit: bf063ec8f06c3e8e70011a5b5101f17e163a383c
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '701'
 ht-degree: 3%
 
 ---
 
 # Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성 {#configuring-adobe-io}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 >[!CAUTION]
 >
 >oAuth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우 **아래에 설명된 대로 Adobe I/O으로 이동해야 합니다**.
 >이 이동 중에 [!DNL Adobe I/O](으)로 이동하면 일부 수신 트리거가 손실될 수 있습니다.
 >
->Campaign [이(가) 있는 기존 oAuth 인증 모드가 2021년 8월 18일에 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)중단되었습니다. **** 호스팅된 환경은 **2021년 11월 30일까지 확장의 혜택을 받습니다**. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2021년 11월 30일까지 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
+>Campaign이 있는 이전 oAuth 인증 모드는 **2021년 10월 20일에 사용이 중단됩니다**. 호스팅된 환경은 **2022년 2월 23일**&#x200B;까지 확장의 혜택을 받습니다. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
 
 ## 필수 구성 요소 {#adobe-io-prerequisites}
 
