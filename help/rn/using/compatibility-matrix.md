@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: f6f1feffbd328f9756c9cd71c4186ba7cd674d76
+source-git-commit: 235e8abcaed2659d745ebfeca24dc2f0278a6e5a
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 85%
 </tbody>
 </table>
 
-## RDBMS 서버{#RDBMSservers}
+## 관계 데이터베이스 관리 시스템(RDBMS){#RDBMSservers}
 
 <table>
 <tbody>
@@ -133,10 +133,7 @@ ht-degree: 85%
 </td>
 </tr>
 <tr>
-<td>
-<p>PostgreSQL</p>
-<p>호스팅 환경을 위한 기본 데이터베이스 서버</p>
-</td>
+<td>PostgreSQL</td>
 <td>
 <p>13.x</p>
 <p>12.x</p>
@@ -145,7 +142,7 @@ ht-degree: 85%
 <p>9.6.x</p>
 <p>9.5.x</p>
 <p>9.4.x</p>
-<p>참고: 위에 지정된 버전으로 PostgreSQL용 Amazon RDS를 사용할 수도 있습니다.</p>
+<p><strong>참고:</strong>  위에 지정된 버전으로 PostgreSQL용 Amazon RDS를 사용할 수도 있습니다.</p>
 </td>
 </tr>
 <tr>
@@ -156,7 +153,7 @@ ht-degree: 85%
 <p>2016년</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
-<p>경고: Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. [자세히 알아보기](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers)</p>
+<p><strong>중요:</strong>  Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. [자세히 알아보기](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers)</p>
 </td>
 </tr>
 </tbody>
@@ -164,7 +161,10 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->RDBMS 드라이버는 RDBMS 서버 버전과 일치해야 합니다.
+>* RDBMS 드라이버는 RDBMS 서버 버전과 일치해야 합니다.
+>
+>* PostgreSQL은 호스팅 환경을 위한 RDBMS입니다.
+
 
 ## CRM 커넥터{#CRMconnectors}
 
