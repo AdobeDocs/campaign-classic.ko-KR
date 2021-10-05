@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 
    진행 중인 작업이 더 이상 없거나 연산자가 명시적으로 인스턴스를 중지한 경우 워크플로우가 &#39;완료됨&#39;입니다.
 
-예를 들어, **시작** 및 **배달** 활동은 아래에 있는 워크플로우에서 **승인** 활동이 번쩍이는 동안 요약됩니다.
+예를 들어, **시작** 및 **배달** 활동은 요약되어 있고, **승인** 활동은 아래 워크플로우에서 깜박입니다.
 
 ![](assets/new-workflow-6.png)
 

@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 089ade04a7324f8052738f18b34c09b429275c00
+source-git-commit: 23c5892189c59008f82ec453c97d24efe82fd2ae
 workflow-type: tm+mt
-source-wordcount: '2567'
-ht-degree: 98%
+source-wordcount: '2566'
+ht-degree: 97%
 
 ---
 
@@ -213,7 +213,6 @@ ht-degree: 98%
       + [게재 문제 해결](delivery/using/delivery-troubleshooting.md)
       + [게재 상태](delivery/using/delivery-statuses.md)
       + [게재 실패 이해](delivery/using/understanding-delivery-failures.md)
-      + [ISP 중단 후 바운스 자격 업데이트](delivery/using/update-bounce-qualification.md)
       + [격리 관리 이해](delivery/using/understanding-quarantine-management.md)
    + 메시지 추적 {#tracking-messages}
       + [메시지 추적 정보](delivery/using/about-message-tracking.md)
@@ -852,6 +851,7 @@ ht-degree: 98%
    + 전자 메일 및 푸시 알림{#technotes-email}
       + [Apple iOS에 대한 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)
       + [Apple 메일 개인 정보 보호 FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+      + [잘못된 하드 바운스를 업데이트하는 방법](delivery/using/update-bounce-qualification.md)
       + [iOS 인증서 업데이트](technotes/using/ios-certificate-update.md)
       + [추적된 URL 업데이트](technotes/using/tracked-urls.md)
    + Adobe Managed Services로 마이그레이션{#dc-migration}

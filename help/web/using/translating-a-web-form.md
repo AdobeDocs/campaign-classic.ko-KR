@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 1%
@@ -346,7 +346,7 @@ url의 언어 앞에 다른 매개 변수가 있는 경우. 예: **https://myser
    <td> yes<br /> </td> 
   </tr> 
   <tr> 
-   <td> 포르투갈어(브라질)(pt_BR)<br /> </td> 
+   <td> 포르투갈어(브라질) (pt_BR)<br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 

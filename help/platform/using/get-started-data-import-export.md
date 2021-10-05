@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 12%
+source-wordcount: '326'
+ht-degree: 11%
 
 ---
 
@@ -63,6 +63,6 @@ Campaign Classic을 사용하면 압축 또는 암호화된 파일을 가져오�
 
 <img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
 
-가져오기 및 내보내기 작업을 수행할 때 업데이트 또는 내보내기 중에 발생하는 오류가 발생하지 않도록 몇 가지 [우수 사례](../../platform/using/import-export-best-practices.md)를 수행해야 합니다.
+가져오기 및 내보내기 작업을 수행할 때 몇 가지 [우수 사례](../../platform/using/import-export-best-practices.md)를 따라야 데이터베이스 내의 데이터 일관성을 보장하고 업데이트 또는 내보내기 작업 중에 발생하는 일반적인 오류를 방지할 수 있습니다.
 
 또한 SFTP 서버 사용과 관련된 권장 사항 및 일반적인 문제는 [이 섹션](../../platform/using/sftp-server-usage.md)에서 사용할 수 있습니다.

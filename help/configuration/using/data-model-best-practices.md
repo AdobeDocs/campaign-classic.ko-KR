@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: c281d437907efb4d514bec7cacc698c383f3fe53
 workflow-type: tm+mt
 source-wordcount: '4007'
 ht-degree: 1%
@@ -317,7 +317,7 @@ PostgreSQL에서 행은 [TOAST](https://wiki.postgresql.org/wiki/TOAST) 메커�
 
 * 필드 수가 적고 숫자 데이터가 많은 큰 테이블을 디자인합니다.
 * 많은 수의 열 유형을 사용하지 마십시오(예: Int64)를 사용하여 부울 값과 같은 작은 숫자를 저장합니다.
-* 테이블 정의에서 사용되지 않은 열을 제거합니다.
+* 테이블 정의에서 사용하지 않은 열을 제거합니다.
 * Adobe Campaign 데이터베이스에 내역 또는 비활성 데이터를 유지하지 마십시오(내보내기 및 정리).
 
 다음은 한 예입니다.

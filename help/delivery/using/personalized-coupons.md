@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+source-git-commit: 0deb18bb0376fc5e94d063145280426ff54db786
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '879'
 ht-degree: 1%
 
 ---
@@ -149,7 +149,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. 다른 테이블을 사용하는 방법에 대한 지침은 [스키마 편집](../../configuration/using/data-schemas.md)을 참조하십시오.
+>기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../../configuration/using/about-data-model.md#default-recipient-table)
+>
+>이 페이지에서 사용자 지정 수신자 테이블 [을 사용하는 방법을 알아봅니다](../../configuration/using/about-custom-recipient-table.md).
 
 ## 쿠폰 부족 관리 {#managing-insufficient-coupons}
 

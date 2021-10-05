@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 3%
@@ -232,7 +232,7 @@ sh
 
 서버 구성 파일의 **exec** 노드에서 **blacklistFile** 속성에서 이전에 만든 파일을 참조해야 합니다.
 
-**Linux의 경우**: 서버 구성 파일에서 보안 구성을 향상시키기 위해 외부 명령을 실행하는 전용 사용자를 다시 지정합니다. 이 사용자는 구성 파일의 **exec** 노드에서 설정됩니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [section](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
+**Linux의 경우**: 서버 구성 파일에서 보안 구성을 향상시키기 위해 외부 명령을 실행하는 전용 사용자를 지정하는 것이 좋습니다. 이 사용자는 구성 파일의 **exec** 노드에서 설정됩니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [section](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
 >[!NOTE]
 >

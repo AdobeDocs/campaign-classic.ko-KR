@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 25%
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 25%
 
 ![](../../assets/common.svg)
 
-메시지를 게재한 후 마케팅 캠페인이 효율적이고 고객에게 도달하는지 확인하는 데 있어 게재 모니터링은 중요한 단계입니다.
+게재가 전송된 후 게재를 모니터링하는 것은 마케팅 캠페인이 효율적이고 고객에게 도달하도록 하는 주요 단계입니다.
 
 이 섹션에서는 게재를 보낸 후 모니터링할 수 있는 정보에 대해 자세히 알아보고 게재 실패 및 격리를 관리하는 방법을 알아봅니다.
 

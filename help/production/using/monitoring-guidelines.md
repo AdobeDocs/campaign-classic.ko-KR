@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 21%
@@ -31,7 +31,7 @@ Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monit
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">인스턴스 모니터링</a></p></td>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">워크플로우 모니터링</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#monitoring-workflows">워크플로우 모니터링</a></p></td>
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">게재 모니터링</a></p></td>
 <td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">데이터베이스 모니터링</a></p></td></tr>
 </table>
@@ -50,7 +50,7 @@ Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monit
 
 감사 추적을 사용하면 인스턴스 내의 옵션, 워크플로우 및 스키마와 관련된 변경 사항의 전체 내역을 시각화할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](../../production/using/audit-trail.md)하십시오.
 
-**컨트롤 패널**
+**Campaign 컨트롤 패널**
 
 Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관리할 수 있습니다. URL 권한을 관리하고, 서버의 빌드 버전 등과 같은 인스턴스 세부 사항을 확인합니다. 또한 인스턴스에 연결된 SFTP 서버에서 사용 가능한 공간을 모니터링할 수도 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)하십시오.
 

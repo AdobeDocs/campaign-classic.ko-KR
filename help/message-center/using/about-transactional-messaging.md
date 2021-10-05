@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 6%
@@ -68,7 +68,7 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 
 ### 컨트롤 인스턴스에서 수행할 단계
 
-**컨트롤 인스턴스**&#x200B;에서는 다음 작업을 수행해야 합니다.
+**컨트롤 인스턴스**&#x200B;에서 다음 작업을 수행해야 합니다.
 
 1. [이벤트 유형을 만듭니다](../../message-center/using/creating-event-types.md).
 1. [메시지 템플릿을 만들고 디자인합니다](../../message-center/using/creating-the-message-template.md). 이 단계 동안 이벤트를 메시지에 연결해야 합니다.

@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '3606'
 ht-degree: 0%
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Pending events queued]** : 메시지  **센터용 표시기**. 자세한 내용은 [이 섹션](../../message-center/using/additional-configurations.md#monitoring-thresholds)을 참조하십시오.
 
-* **[!UICONTROL Load average (1/5/15 minutes)]** : 부하에 관한 정보, 즉 지난 분, 5분 또는 15분 동안 컴퓨터에서 실행되는 프로세스에 의한 프로세서 사용율
+* **[!UICONTROL Load average (1/5/15 minutes)]** : 부하에 관한 정보, 즉 지난 분, 5분 또는 15분 동안 컴퓨터에서 실행되는 프로세스에 의한 프로세서 사용 속도
 
    **[!UICONTROL Current value]** : 시스템의 실제 로드.
 
@@ -605,7 +605,7 @@ instance name="instanceName" recipientList="mail@mail.com,mail2@mail.com">
 
 * **tcp**: 서버가 작동 중인지 확인합니다. 포트 번호를 입력해야 합니다.
 * **http**: 웹 서버가 있는지 확인합니다(응용 프로그램 서버가 작동 중임).
-* **ncs**: &#39;instance&#39; 속성에 입력된 인스턴스의 프로세스(워크플로우 오류, 메모리 사용 등)를 확인합니다. **includeed** (필수) 속성은 데드 프로세스(&#39;true&#39; 또는 &#39;false&#39; 값)를 표시하는 옵션을 제공합니다.
+* **ncs**: &#39;instance&#39; 속성에 입력된 인스턴스의 프로세스(워크플로우 오류, 메모리 사용 등)를 확인합니다. **included** (필수) 속성은 데드 프로세스(&#39;true&#39; 또는 &#39;false&#39; 값)를 표시하는 옵션을 제공합니다.
 * **리디렉션**: 추적을 확인합니다.
 
 대부분의 경우 **ncs** 및 **리디렉션** 하위 요소만 유지할 수 있습니다.

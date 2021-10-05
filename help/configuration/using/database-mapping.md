@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 0%
@@ -305,7 +305,7 @@ ACC 18.10에서 **XtkNewId**&#x200B;는 더 이상 기본 제공 스키마에서
 
 >[!NOTE]
 >
->Adobe Campaign 스키마에서 참조되는 시퀀스(**NmsTrackingLogId**)는 매개 변수에 있는 ID 수를 쉼표로 구분하여 반환하는 SQL 함수에 연결해야 합니다. 이 함수를 **GetNew** XXX **Ids**&#x200B;라고 해야 합니다. 여기서 **XXX**&#x200B;은 시퀀스 이름(**GetNewNmsTrackingLogIds**)입니다. **postgres-nms.sql**, **mssql-nms.sql** 또는 **oracle-nms.sql** 파일을 보고 각 데이터베이스 엔진에 대한 &#39;NmsTrackingLogId&#39; 시퀀스 만들기 예제를 복구합니다.****
+>Adobe Campaign 스키마에서 참조되는 시퀀스(**NmsTrackingLogId**)는 매개 변수에서 ID 수를 반환하는 SQL 함수와 쉼표로 구분해야 합니다. 이 함수를 **GetNew** XXX **Ids**&#x200B;라고 해야 합니다. 여기서 **XXX**&#x200B;은 시퀀스 이름(**GetNewNmsTrackingLogIds**)입니다. **postgres-nms.sql**, **mssql-nms.sql** 또는 **oracle-nms.sql** 파일을 보고 각 데이터베이스 엔진에 대한 &#39;NmsTrackingLogId&#39; 시퀀스 작성 예를 복구합니다.****
 
 고유 키를 선언하려면 데이터 스키마의 기본 요소에서 **autok** 속성(값 &quot;true&quot;로)을 채웁니다.
 
@@ -361,7 +361,7 @@ ACC 18.10에서 **XtkNewId**&#x200B;는 더 이상 기본 제공 스키마에서
 
 * ![](assets/join_with_campaign11.png) : 카디널리티 1-1. 예를 들어, 수신자와 현재 순서 사이의 경우입니다. 수신자는 한 번에 하나의 현재 주문 테이블의 발생 항목만 연관시킬 수 있습니다.
 * ![](assets/externaljoin11.png) : 카디널리티 1-1, 외부 조인 예를 들어, 수신자와 해당 국가 간. 수신자는 테이블 국가의 발생 항목만 연관시킬 수 있습니다. 국가 테이블의 내용은 저장되지 않습니다.
-* ![](assets/join_with_campaign1n.png) : 카디널리티 1-N. 예를 들어 수신자 및 구독 테이블 간. 수신자는 가입 테이블의 여러 발생 횟수와 관련될 수 있습니다.
+* ![](assets/join_with_campaign1n.png) : 카디널리티 1-N. 예를 들어 수신자 및 구독 테이블 간. 수신자는 가입 테이블에서 여러 발생 횟수와 관련되어 있을 수 있습니다.
 
 Federated Database Access를 사용한 조인 관계의 경우:
 

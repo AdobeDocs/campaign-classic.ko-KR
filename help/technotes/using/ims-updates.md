@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: IMS를 통해 Adobe Campaign에 연결하도록 환경을 업데이트합니다.
+title: 기술 정보 - IMS와 Adobe Campaign에 연결하기 위해 환경을 업데이트합니다.
 description: Campaign - IMS 업데이트
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
+source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '591'
 ht-degree: 9%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 9%
 
 ![](../../assets/v7-only.svg)
 
-2021년 6월 30일에 Adobe Campaign 계속 사용 기능에 영향을 줄 수 있는 [Adobe Identity Management 시스템](https://helpx.adobe.com/enterprise/using/identity.html) (IMS) 로그인 기능이 변경됩니다. 중단 없이 Adobe Campaign Classic v7를 계속 사용하는 방법을 알아봅니다.
+2021년 6월 30일에 Adobe Campaign 계속 사용 기능에 영향을 줄 수 있는 [Adobe Identity Management 시스템](https://helpx.adobe.com/enterprise/using/identity.html) (IMS) 로그인 기능이 변경되었습니다. 중단 없이 Adobe Campaign Classic v7를 계속 사용하는 방법을 알아봅니다.
 
 ## 변경 사항
 
-IMS(Adobe Identity Management Service)는 2021년 6월 30일부터 이전 Internet Explorer 버전 지원을 중단할 예정입니다&#x200B;**.** [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
+IMS(Adobe Identity Management 서비스)가 **2021년 6월 30일에서 이전 Internet Explorer 버전 지원을 중단했습니다**. [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
 Adobe은 2021년 6월 30일이 지난 모든 고객을 위해 IMS 기능을 보존하려고 합니다. IMS는 사용자가 클라이언트 콘솔에 로그인하여 Adobe Campaign에 사용할 수 있는 보안 프레임워크의 일부입니다.
 
@@ -28,7 +28,7 @@ Adobe은 2021년 6월 30일이 지난 모든 고객을 위해 IMS 기능을 보�
 
 Adobe ID](../../integrations/using/about-adobe-id.md)을 통해 Campaign [에 연결하고, IMS(Identity Management Service)를 통해 연결하고, 아래에 나열된 버전보다 이전 버전의 Campaign을 실행하는 경우에는 영향을 받습니다.
 
-이미 업데이트되었지만 이전 버전의 Microsoft Internet Explorer를 사용하는 경우 Internet Explorer 11로 업그레이드해야 합니다.
+이미 업그레이드했지만 이전 버전의 Microsoft Internet Explorer를 사용하는 경우 Internet Explorer 11로 업그레이드해야 합니다.
 
 ## 업데이트 방법
 
@@ -78,7 +78,7 @@ Adobe ID](../../integrations/using/about-adobe-id.md)을 통해 Campaign [에 �
 
 이러한 경고가 표시되면 사용 중인 운영 체제의 최신 업데이트를 설치하십시오. [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
-**2021년** 6월 30일 이후에는 다음 메시지가 표시되므로 더 이상 Adobe Campaign에 연결할 수 없습니다.
+Internet Explorer 버전을 업데이트하지 않으면 다음 메시지가 표시되므로 더 이상 Adobe Campaign에 연결할 수 없습니다.
 
 ![](../../integrations/using/assets/do-not-localize/errorUpdateReq.png)
 

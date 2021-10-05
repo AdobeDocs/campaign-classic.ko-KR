@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: f232588b981d262ef67ff8b7a6f39ff3ea2505d3
+source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
 workflow-type: tm+mt
 source-wordcount: '2910'
 ht-degree: 0%
@@ -579,7 +579,7 @@ DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FRO
 DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
 ```
 
-여기서 **$(tsDate)**&#x200B;은 **XtkCleanup_AuditTrailPurgeDelay** 옵션에 대해 정의된 기간이 하위 구조화된 현재 서버 날짜입니다.
+여기서 **$(tsDate)**&#x200B;은 **XtkCleanup_AuditTrailPurgeDelay** 옵션에 대해 정의된 기간을 뺀 현재 서버 날짜입니다.
 
 ### Nmsaddress 정리 {#cleanup-of-nmsaddress}
 

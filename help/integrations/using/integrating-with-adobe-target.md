@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: 0996cc313be93300bce2f094c97e45a794cd459e
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Adobe Experience Cloud 내에서 Adobe Campaign과 Adobe Target(Classic 및 Stan
 
 운영 원칙은 다음과 같습니다. 수신자가 Adobe Campaign을 통해 전송된 이메일을 열면 Adobe Target을 호출하여 컨텐츠의 동적 버전을 표시할 수 있습니다. 이 동적 버전은 이메일을 만들 때 미리 지정한 규칙에 따라 계산됩니다.
 
-이 4가지 팁과 트릭](https://business.adobe.com/content/dam/dx/us/en/products/campaign/pdfs/Adobe_Campaign_for_Target_Tips_and_Tricks.pdf)과 Adobe Campaign 및 Adobe Target 통합에 대해 자세히 알아보십시오.[
 >[!NOTE]
 >
 >통합은 정적 이미지만 지원합니다. 나머지 콘텐츠는 개인화할 수 없습니다.
@@ -30,7 +29,7 @@ Adobe Target에서는 몇 가지 유형의 데이터를 사용할 수 있습니�
 
 * Adobe Campaign 데이터 마트의 데이터
 * 사용된 데이터에 법적 제한이 없는 경우 Adobe Target의 방문자 ID에 연결된 세그먼트는
-* Adobe Target 데이터: 사용자 에이전트, IP 주소, 지리화 데이터
+* Adobe Target 데이터: 사용자 에이전트, IP 주소, 지리적 위치 데이터
 
 >[!NOTE]
 >

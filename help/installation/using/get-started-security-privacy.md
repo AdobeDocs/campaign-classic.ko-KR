@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '486'
 ht-degree: 6%
 
 ---
@@ -70,7 +70,7 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때에는 
 
 >[!CAUTION]
 >
->2021년 7월 14일부터 TLS 1.2 프로토콜을 지원하지 않는 모든 클라이언트 시스템은 모든 Adobe 제품 및 서비스에 대한 액세스를 잃게 됩니다. 이 날짜 이전에 모든 사용자 및 클라이언트 시스템이 TLS 1.2 호환되는지 확인하십시오. [자세히 알아보기](https://helpx.adobe.com/in/x-productkb/multi/eol-tls-support.html)
+>2021년 7월 14일부터 TLS 1.2 프로토콜을 지원하지 않는 모든 클라이언트 시스템은 모든 Adobe 제품 및 서비스에 대한 액세스를 잃게 됩니다. 이 날짜 이전에 모든 사용자 및 클라이언트 시스템이 TLS 1.2 호환되는지 확인하십시오. [자세히 알아보기](https://helpx.adobe.com/x-productkb/multi/eol-tls-support.html)
 
 ## 서버 구성
 

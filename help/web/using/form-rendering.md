@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 9b914099f6755d6ae83f98697a3a38f8cfa625e1
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## 양식 렌더링 템플릿 선택 {#selecting-the-form-rendering-template}
 
-양식 설정을 사용하면 페이지를 생성하는 데 사용되는 템플릿을 선택할 수 있습니다. 액세스하려면 양식 세부 사항 도구 모음에서 **[!UICONTROL Settings]** 버튼을 클릭하고 **[!UICONTROL Rendering]** 탭을 선택합니다. 기본적으로 사용할 수 있는 템플릿(스타일 시트)이 여러 개 있습니다.
+양식 설정을 사용하면 페이지를 생성하는 데 사용되는 템플릿을 선택할 수 있습니다. 액세스하려면 양식 세부 사항 도구 모음에서 **[!UICONTROL Properties]** 버튼을 클릭하고 **[!UICONTROL Rendering]** 탭을 선택합니다. 기본적으로 사용할 수 있는 템플릿(스타일 시트)이 여러 개 있습니다.
 
 ![](assets/s_ncs_admin_survey_rendering_select.png)
 

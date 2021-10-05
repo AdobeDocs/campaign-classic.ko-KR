@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 5%
@@ -57,7 +57,7 @@ ht-degree: 5%
    </schema>
    ```
 
-   스키마의 루트 요소에 있는 **dependentSchema** 속성은 확장 스키마에 대한 종속성을 참조합니다.
+   스키마의 루트 요소에 대한 **dependentSchema** 속성은 확장 스키마에 대한 종속성을 참조합니다.
 
    필드의 **consentTo** 특성이 선언된 스키마에 입력됩니다.
 

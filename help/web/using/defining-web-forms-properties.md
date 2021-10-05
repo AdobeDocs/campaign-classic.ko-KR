@@ -6,9 +6,9 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ![](../../assets/common.svg)
 
-웹 양식은 요구 사항을 충족하도록 완벽하게 구성 가능하고 개인화할 수 있습니다. 등록 정보 창에 매개변수를 입력해야 합니다.
+요구 사항을 충족하도록 웹 양식을 완전히 구성하고 개인화할 수 있습니다. 등록 정보 창에 매개변수를 입력해야 합니다.
 
 속성 창은 웹 양식의 도구 모음에서 **[!UICONTROL Properties]** 버튼을 통해 액세스할 수 있습니다. 이 창에서는 웹 양식과 관련된 다양한 설정에 액세스할 수 있습니다. 일부 설정은 템플릿 구성에서 비롯될 수 있습니다.
 

@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
 Adobe Campaign과 Experience Cloud 자산 간의 통합을 사용하려면 다음이 있어야 합니다.
 
 * Adobe Experience Cloud 조직
-* Adobe IMS 인증 모드가 활성화되었습니다
+* Adobe IMS 인증 모드 활성화
 
 Adobe Campaign과 Adobe Experience Cloud 간에 연결을 활성화하려면 IMS(Adobe ID 연결 서비스)를 통해 연결을 구성합니다. 이 구성은 [Adobe ID](../../integrations/using/about-adobe-id.md) 문서를 통해 연결에 자세히 설명되어 있습니다. 여기에는 다음이 포함됩니다.
 
@@ -51,7 +51,7 @@ Adobe Campaign과 Adobe Experience Cloud 간에 연결을 활성화하려면 IMS
 
 >[!CAUTION]
 >
->이 기능은 Adobe Experience Manager 6.4부터 해제되었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=en#removed-features)
+>이 기능은 Adobe Experience Manager 6.4부터 사용 중단되었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=en#removed-features)
 
 AEM Assets을 Adobe Campaign과 통합하려면 먼저 Adobe Experience Manager과 Adobe Campaign 간의 통합을 구성해야 합니다. 이 구성에는 주로 다음이 필요합니다.
 

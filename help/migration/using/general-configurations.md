@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: eef2a12738ce299686857720c3dc8456ffdd0c80
 workflow-type: tm+mt
-source-wordcount: '2784'
+source-wordcount: '2664'
 ht-degree: 0%
 
 ---
@@ -620,7 +620,7 @@ logInfo("Done");
 
 ![](assets/migration_reports_1.png)
 -->
-새로운 보고서 기능을 활용하려면 보고서를 다시 게시해야 합니다. 이렇게 하려면 보고서 **[!UICONTROL Properties]**&#x200B;을 편집하고 **[!UICONTROL Rendering]**&#x200B;을(를) 클릭하고 v.6.x 렌더링 엔진을 선택합니다. 이 경우 모든 스크립트를 확인하고 필요한 경우 스크립트를 변경합니다. PDF 내보내기와 관련하여 Open Office용 특정 스크립트를 추가한 경우 새 PDF 내보내기 엔진(PhantomJS)에서 더 이상 작동하지 않습니다.
+새로운 보고서 기능을 활용하려면 보고서를 다시 게시해야 합니다. 이 경우 모든 스크립트를 확인하고 필요한 경우 스크립트를 변경합니다. PDF 내보내기와 관련하여 Open Office용 특정 스크립트를 추가한 경우 새 PDF 내보내기 엔진(PhantomJS)에서 더 이상 작동하지 않습니다.
 
 ## 웹 애플리케이션 {#web-applications}
 
@@ -631,10 +631,7 @@ logInfo("Done");
 
 ### 식별된 웹 애플리케이션 {#identified-web-applications}
 
-보고서([자세히 알아보기](#reports))와 마찬가지로 JavaScript를 추가한 경우 필요한 경우 확인하고 조정해야 합니다. v7 파란색 배너를 사용하려면(파란색 탭 포함) 웹 애플리케이션을 다시 게시해야 합니다. JavaScript 코드가 작동하는 경우 v6.x 렌더링 엔진을 선택할 수 있습니다. 그렇지 않은 경우 코드를 조정하는 동안 v6.0 렌더링 엔진을 사용한 다음 v6.x 렌더링 엔진을 사용할 수 있습니다.
-
->[!NOTE]
-렌더링 엔진을 선택하는 단계는 보고서를 선택하는 단계와 동일합니다. [개인화된 보고서](#personalized-reports)를 참조하십시오.
+보고서([자세히 알아보기](#reports))와 마찬가지로 JavaScript를 추가한 경우 필요한 경우 확인하고 조정해야 합니다. v7 파란색 배너를 사용하려면(파란색 탭 포함) 웹 애플리케이션을 다시 게시해야 합니다.
 
 웹 애플리케이션 연결 방법이 v7에서 변경되었습니다. 식별된 웹 응용 프로그램에서 연결 문제가 발생하면 **serverConf.xml** 파일에서 **allowUserPassword** 및 **sessionTokenOnly** 옵션을 일시적으로 활성화해야 합니다. 업그레이드 후 다음 옵션 값을 수정합니다.
 
@@ -664,10 +661,7 @@ sessionTokenOnly="false"
 
 ### 익명의 웹 애플리케이션 {#anonymous-web-applications}
 
-문제가 발생하면 웹 애플리케이션을 다시 게시합니다. 문제가 지속되면 v6.0 렌더링 엔진을 선택할 수 있습니다. JavaScript를 추가하지 않은 경우 v6.x 렌더링 엔진을 선택하고 새로운 기능을 활용할 수 있습니다.
-
->[!NOTE]
-렌더링 엔진을 선택하는 단계는 보고서를 선택하는 단계와 동일합니다. [개인화된 보고서](#personalized-reports)를 참조하십시오.
+문제가 발생하면 웹 애플리케이션을 다시 게시합니다.
 
 ## Red-Hat {#red-hat}
 

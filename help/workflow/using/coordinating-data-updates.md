@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ![](../../assets/common.svg)
 
-이 사용 사례에서는 워크플로우의 여러 실행을 사용할 때 콘텐츠 업데이트를 관리할 수 있는 워크플로우 만들기에 대해 자세히 설명합니다.
+이 사용 사례에서는 워크플로우의 여러 실행을 사용할 때 관련 업데이트를 관리할 수 있는 워크플로우 만들기에 대해 자세히 설명합니다.
 
 다른 업데이트 작업을 실행하기 전에 업데이트 프로세스가 종료되었는지 확인하는 것이 목적입니다. 이렇게 하려면 인스턴스 변수를 설정하고, 인스턴스가 실행 중인지 워크플로우 테스트를 통해 워크플로우 실행을 계속 진행할지 여부를 결정하고 업데이트를 수행합니다.
 

@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
@@ -156,7 +156,7 @@ CentOS에는 다음 구성이 필요합니다.
    yum install libreoffice-headless libreoffice-writer libreoffice-calc
    ```
 
-1. 다음 글꼴(선택 사항이지만 일본어 인스턴스에 권장)을 설치합니다.
+1. 다음 글꼴을 설치합니다(선택 사항이지만 일본어 인스턴스에 권장).
 
    ```
    yum install ipa-gothic-fonts ipa-mincho-fonts

@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 5%
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 이 사용 사례에서는 **[!UICONTROL Deduplication]** 활동에서 **[!UICONTROL Merge]** 기능을 사용하는 방법을 설명합니다.
 
-이 속성에 대한 자세한 내용은 [이 섹션](deduplication.md#merging-fields-into-single-record)을 참조하십시오.
+이 기능에 대한 자세한 내용은 [이 섹션](deduplication.md#merging-fields-into-single-record)을 참조하십시오.
 
 **[!UICONTROL Deduplication]** 활동은 데이터 세트에서 중복 행을 제거하는 데 사용됩니다. 이 사용 사례에서는 아래에 표시된 데이터가 이메일 필드를 기반으로 복제됩니다.
 

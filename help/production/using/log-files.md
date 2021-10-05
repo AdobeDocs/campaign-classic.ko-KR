@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 1%
@@ -49,7 +49,7 @@ ht-degree: 1%
 | wfserver.log | 워크플로우 서버 모듈의 로그 |
 | runwf.log | 워크플로우 실행 로그 |
 | inMail.log | 바운스 메일 모듈 로그 |
-| logins.log | Adobe Campaign에 대한 모든 로그인 시도를 기록합니다(성공 여부에 관계없이) |
+| logins.log | Adobe Campaign에 대한 모든 로그인 시도를 기록합니다(성공 또는 아님) |
 
 >[!IMPORTANT]
 >

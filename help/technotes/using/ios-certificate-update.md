@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: 기술 정보
-description: 기술 정보
-hide: false
-hidefromtoc: true
+title: 기술 정보 - Apple 푸시 알림 서비스 서버 인증서 업데이트
+description: Apple 푸시 알림 서비스 서버 인증서 업데이트
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -16,7 +14,7 @@ ht-degree: 0%
 
 ![](../../assets/v7-only.svg)
 
-2021년 3월 29일에 APNs(Apple Push Notification service) 인프라 업데이트가 Adobe Campaign Classic iOS 채널에 영향을 줍니다. OS 구성 변경은 iOS 푸시 채널 중단을 방지하기 위해 **필수**&#x200B;입니다.
+2021년 3월 29일, APNs(Apple Push Notification service) 인프라 업데이트는 Adobe Campaign Classic iOS 채널에 영향을 주었습니다. OS 구성 변경은 iOS 푸시 채널 중단을 방지하기 위해 **필수**&#x200B;입니다.
 
 APNs 변경 사항 [에 대해 이 페이지에서 자세히 알아보십시오](https://developer.apple.com/news/?id=7gx0a2lp).
 

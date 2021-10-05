@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 2%
@@ -91,7 +91,7 @@ logInfo("Start date: " + task.creationDate)
 
 >[!NOTE]
 >
->추가 워크플로우 사용 사례는 [이 섹션](about-workflow-use-cases.md)에서 확인할 수 있습니다.
+>추가적인 워크플로우 사용 사례는 [이 섹션](about-workflow-use-cases.md)에서 확인할 수 있습니다.
 
 **예제 1**
 

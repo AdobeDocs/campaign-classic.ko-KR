@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Android의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
 1. **[!UICONTROL Android routing]** 외부 계정을 선택합니다.
 1. **[!UICONTROL Connector]** 탭에서 **[!UICONTROL JavaScript used in the connector]** 필드를 입력합니다.
 
-   Android V2의 경우:https://localhost:8080/nms/jsp/androidPushConnectorV2.js
+   Android V2의 경우: https://localhost:8080/nms/jsp/androidPushConnectorV2.js
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ Android의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
 
 1. Android V2의 경우 Adobe 서버 구성 파일(serverConf.xml)에서 한 개의 추가 매개 변수를 사용할 수 있습니다.
 
-   * **maxGCMConnectPerChild**:각 하위 서버에서 시작한 FCM에 대한 병렬 HTTP 요청의 최대 제한(기본적으로 8개).
+   * **maxGCMConnectPerChild**: 각 하위 서버에서 시작한 FCM에 대한 병렬 HTTP 요청의 최대 제한(기본적으로 8개).
 
 ## Android 서비스 구성 {#configuring-android-service}
 
@@ -99,7 +99,7 @@ Android의 경우 다음 두 개의 커넥터를 사용할 수 있습니다.
    >
    > **[!UICONTROL Integration key]**&#x200B;은 문자열 값으로 완전히 사용자 지정할 수 있지만 SDK에 지정된 값과 동일해야 합니다.
 
-1. **[!UICONTROL API version]** 을 선택합니다.HTTP v1 또는 HTTP(기존). 이러한 구성은 [이 섹션](#select-api-version)에 자세히 설명되어 있습니다
+1. **[!UICONTROL API version]** 을 선택합니다. HTTP v1 또는 HTTP(기존). 이러한 구성은 [이 섹션](#select-api-version)에 자세히 설명되어 있습니다
 
 1. **[!UICONTROL Firebase Cloud Messaging the Android connection settings]** 필드를 채웁니다.
 
@@ -120,7 +120,7 @@ HTTP v1 API 버전을 구성하려면 아래 단계를 수행하십시오.
 
 1. **[!UICONTROL Mobile application creation wizard]** 창의 **[!UICONTROL API version]** 드롭다운에서 **[!UICONTROL HTTPV1]** 을 선택합니다.
 
-1. **[!UICONTROL Load project json file to extract projet details...]** 을 클릭하여 JSON 키 파일을 직접 로드합니다. JSON 파일을 추출하는 방법에 대한 자세한 내용은 [이 페이지](https://firebase.google.com/docs/admin/setup#initialize-sdk)를 참조하십시오.
+1. **[!UICONTROL Load project json file to extract project details...]** 을 클릭하여 JSON 키 파일을 직접 로드합니다. JSON 파일을 추출하는 방법에 대한 자세한 내용은 [이 페이지](https://firebase.google.com/docs/admin/setup#initialize-sdk)를 참조하십시오.
 
    다음 세부 정보를 수동으로 입력할 수도 있습니다.
    * **[!UICONTROL Project Id]**

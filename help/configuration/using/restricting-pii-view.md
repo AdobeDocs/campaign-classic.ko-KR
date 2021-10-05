@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 2%
@@ -43,7 +43,7 @@ ht-degree: 2%
 기본 속성은 다음과 같습니다.
 
 * **[!UICONTROL visibleIf]** : 는 메타데이터에서 필드를 숨기므로 스키마 보기, 열 선택 또는 표현식 빌더 내에서 액세스할 수 없습니다. 하지만 이렇게 해도 데이터가 숨기지 않고, 필드 이름을 표현식에 수동으로 입력하면 값이 표시됩니다.
-* **[!UICONTROL accessibleIf]** : 결과 쿼리의 데이터를 숨깁니다(빈 값으로 바꾸기). visibleIf 가 비어 있으면 **[!UICONTROL accessibleIf]** 과 동일한 표현식을 받게 됩니다.
+* **[!UICONTROL accessibleIf]** : 결과 쿼리의 데이터를 숨깁니다(빈 값으로 바꾸기). visibleIf 가 비어 있으면 **[!UICONTROL accessibleIf]** 과 동일한 표현식을 가져옵니다.
 
 다음은 Campaign에서 이 속성을 사용할 때의 결과입니다.
 

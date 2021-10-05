@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2614'
 ht-degree: 14%
 
 ---
@@ -261,7 +261,7 @@ Adobe Campaign은 Baidu 서버에 10분마다 연락하여 보낸 메시지의 �
 
 **Android V2용**
 
-Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용하므로 구독 및 제외 업데이트에 대해서도 동일하게 적용됩니다. 자세한 내용은 [Android V1](#android-quarantine) 섹션을 참조하십시오.
+Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용하며, 구독 및 제외 업데이트에도 적용됩니다. 자세한 내용은 [Android V1](#android-quarantine) 섹션을 참조하십시오.
 
 <table> 
  <tbody> 

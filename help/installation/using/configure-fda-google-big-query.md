@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
-source-git-commit: 0cfe8439007b56014eba497c511904c4f11b39ce
+source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
@@ -69,7 +69,7 @@ Adobe Campaign Classic **Federated Data Access** (FDA) 옵션을 사용하여 �
 
 1. 이 [page](https://cloud.google.com/sdk/docs/downloads-versioned-archives)에서 Windows 64비트(x86_64) 아카이브를 다운로드하여 해당 디렉터리에 추출합니다.
 
-1. `google-cloud-sdk\install.sh` 스크립트를 실행합니다. 경로 변수의 설정을 수락해야 합니다.
+1. `google-cloud-sdk\install.sh` 스크립트를 실행합니다. 경로 변수의 설정을 허용해야 합니다.
 
 1. 설치 후 경로 변수 `...\google-cloud-sdk\bin`이(가) 설정되어 있는지 확인합니다. 없는 경우 수동으로 추가합니다.
 

@@ -3,7 +3,7 @@ product: campaign
 title: Adobe Analytics 커넥터로 마이그레이션
 description: Campaign - Analytics 커넥터 FAQ
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 6d3e21fa00771a47d846d502e2d4d5971aa39b29
+source-git-commit: e82bcef34ba8a9d5a7e6c4a59552d8cb7c800ca5
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 5%
@@ -28,7 +28,7 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 
 이제 Campaign Classic v7와 Adobe Analytics 간의 새로운 통합을 사용할 수 있습니다. 주요 변경 사항은 아래에 나와 있습니다.
 
-* Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합이 사용자/암호에서 IMS(Adobe Identity Management Service)로 이동되었습니다. 따라서 Analytics 커넥터 구현을 시작하기 전에 Adobe IMS를 구현하고 Adobe ID](../../integrations/using/about-adobe-id.md)을 통해 Campaign [에 연결해야 합니다.
+* Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합이 사용자/암호에서 IMS(Adobe Identity Management Service)로 이동되었습니다. 따라서 Analytics 커넥터 구현을 시작하기 전에 Adobe IMS를 구현하고 Adobe ID](../../integrations/using/about-adobe-id.md)를 통해 Campaign [에 연결해야 합니다.
 
 * 날짜 유형에서 사용하는 **연락처 날짜** 분류가 Adobe Analytics에서 더 이상 사용되지 않습니다. 마이그레이션된 통합의 경우 여전히 동일한 유형으로 유지됩니다. Campaign에서 만든 **연락처 날짜**&#x200B;의 경우 유형은 **String**&#x200B;입니다.
 

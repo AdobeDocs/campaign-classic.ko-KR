@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '2016'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 &quot;일시 중지됨&quot;, &quot;중지됨&quot; 또는 &quot;오류가 있는 워크플로우 집합 상태를 모니터링할 수 있는 워크플로우를 만드는 방법에 대한 사용 사례는 [이 섹션](supervising-workflows.md#supervising-workflows)에서도 사용할 수 있습니다.
 
-또한 인스턴스의 관리자는 **감사 추적**&#x200B;을 사용하여 워크플로우의 상태인 활동과 마지막으로 수행된 수정 사항을 확인할 수 있습니다. 자세한 내용은 [Campaign Classic v7 프로덕션 안내서](../../production/using/audit-trail.md)를 참조하십시오.
+또한 인스턴스의 관리자는 **감사 추적**&#x200B;을 사용하여 워크플로우의 상태인 활동과 워크플로우에 대한 마지막 수정 사항을 확인할 수 있습니다. 자세한 내용은 [Campaign Classic v7 프로덕션 안내서](../../production/using/audit-trail.md)를 참조하십시오.
 
 다른 캠페인 프로세스를 모니터링하는 추가 방법은 [Campaign Classic v7 프로덕션 안내서](../../production/using/monitoring-guidelines.md)에 나와 있습니다.
 
@@ -246,7 +246,7 @@ instance.vars.isRunning = false
 
 * 7일 이상 일시 중지된 워크플로우는 모니터링 대시보드(및 모니터링 API)에 경고로 표시되며 수퍼바이저 그룹에 알림이 전송됩니다.
 * **[!UICONTROL cleanupPausedWorkflows]** 기술 워크플로우가 트리거되는 경우 매주 동일한 일이 발생합니다. 워크플로우에 대한 자세한 내용은 [이 섹션](delivery.md)을 참조하십시오.
-* 4개의 알림(즉, 기본적으로 일시 중지된 상태로 1개월)이 지나면 워크플로우가 조건 없이 중지됩니다. 로그가 중지되면 워크플로우에 로그가 나타납니다. 다음 실행 **[!UICONTROL cleanup]** 워크플로우에서 테이블이 삭제됩니다
+* 4개의 알림(즉, 기본적으로 일시 중지된 상태로 1개월)이 지나면 워크플로우가 무조건적으로 중지됩니다. 로그가 중지되면 워크플로우에 로그가 나타납니다. 다음 실행 **[!UICONTROL cleanup]** 워크플로우에서 테이블이 삭제됩니다
 
 NmsServer_PausedWorkflowPeriod 옵션을 통해 이러한 기간을 구성할 수 있습니다.
 

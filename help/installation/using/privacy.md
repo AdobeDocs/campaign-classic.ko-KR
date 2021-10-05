@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 4%
 
 ---
@@ -152,7 +152,7 @@ URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 �
 
    >[!NOTE]
    >
-   >`hasNamedRight('admin')`에 의해 `$(loginId) = 0 or $(login) = 'admin'`을 제거하여 관리자 권한이 있는 모든 사용자가 이러한 암호를 볼 수 있도록 할 수 있습니다.
+   >`$(loginId) = 0 or $(login) = 'admin'` 을 `hasNamedRight('admin')` 로 대체하여 관리자 권한이 있는 모든 사용자가 이러한 암호를 볼 수 있도록 할 수 있습니다.
 
 ## PII가 포함된 페이지 보호
 

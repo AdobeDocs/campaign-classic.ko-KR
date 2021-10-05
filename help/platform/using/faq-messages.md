@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
+source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -96,7 +96,7 @@ Campaign Classic에서 메시지를 추적하는 방법을 [자세히 알아보�
 
 ### 게재 및 추적 로그는 어디에서 액세스할 수 있습니까? {#where-can-i-access-delivery-and-tracking-logs-}
 
-[이 페이지](../../delivery/using/delivery-dashboard.md)에서 게재 정보를 추적하고 수신자의 동작을 이해하는 방법을 배웁니다.
+이 페이지에서 게재를 추적하고 수신자의 동작 [을 이해하는 방법을 배웁니다](../../delivery/using/delivery-dashboard.md).
 
 ### 게재 보고서는 어디에서 얻을 수 있습니까? {#where-can-i-get-delivery-reports-}
 

@@ -6,9 +6,9 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 1. **점선 필터**&#x200B;를 적용합니다.
 
-   이 스타일은 이전에 선택한 템플릿의 **[!UICONTROL Single-page Web applicatio]**&#x200B;에서 참조됩니다.
+   이 스타일은 이전에 선택한 **[!UICONTROL Single-page Web application]** 템플릿에서 참조됩니다.
 
    ![](assets/s_ncs_configuration_webapp_container002.png)
 

@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 0%
@@ -123,7 +123,7 @@ _operation(문자열), 고급(부울), 적용 가능한 경우(문자열), autoI
 * **sqlname(문자열)**: 필드를 생성할 수 있습니다. @sqlname 를 지정하지 않으면 기본적으로 &quot;@name&quot; 속성의 값이 사용됩니다. 데이터베이스에 스키마가 작성되면 필드의 유형에 따라 접두사가 자동으로 추가됩니다.
 * **템플릿(문자열)**: 이 속성은 여러 스키마에서 공유되는  `<attribute>` 요소에 대한 참조를 정의합니다. 정의가 현재 스키마에 자동으로 복사됩니다.
 * **translatedDefault(문자열)**: &quot;@default&quot; 속성이 발견되면 &quot;@translatedDefault&quot;을 사용하여 @default에 정의된 표현식과 일치하도록 표현식을 재정의하여 번역 도구(내부 사용)에 수집할 수 있습니다.
-* **translatedExpr(문자열)**: &quot;@expr&quot; 속성이 있는 경우 &quot;@translatedExpr&quot; 속성을 사용하여 표현식을 변환도구에 정의된 표현식과 일치하도록 재정의하여 @expr(내부 사용)로 수집할 수 있습니다.
+* **translatedExpr(문자열)**: &quot;@expr&quot; 속성이 있는 경우 &quot;@translatedExpr&quot; 속성을 사용하여 @expr에 정의된 표현식과 일치하도록 표현식을 재정의하여 번역 도구에 의해 수집할 수 있습니다(내부 사용).
 * **유형(MNTOKEN)**: 필드 유형.
 
    필드 유형은 일반적입니다. 설치된 데이터베이스 유형에 따라 Adobe Campaign은 정의된 유형을 구조를 업데이트하는 동안 설치된 데이터베이스에 해당하는 값으로 변경합니다.

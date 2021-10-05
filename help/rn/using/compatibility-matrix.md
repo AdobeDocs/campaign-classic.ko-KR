@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 987434c2b6b92fbb6f24924f92795cb282b61cd4
-workflow-type: ht
-source-wordcount: '545'
-ht-degree: 100%
+source-git-commit: 134f248fbcd456573365d5b32831b75dac4b73de
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 86%
 
 ---
 
@@ -154,7 +154,7 @@ ht-degree: 100%
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016년</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p>경고: Adobe Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. [자세히 알아보기](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers)</p>
@@ -168,6 +168,8 @@ ht-degree: 100%
 >PostgreSQL은 호스팅 환경을 위한 기본 데이터베이스 서버입니다.
 
 ## CRM 커넥터{#CRMconnectors}
+
+Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템은 아래에 나와 있습니다. [Campaign ](../../platform/using/crm-connectors.md) CRM 커넥터에 대해 자세히 알아보십시오.
 
 <table>
 <tbody>
@@ -187,6 +189,8 @@ ht-degree: 100%
 </table>
 
 ## FDA(Federated Data Access){#FederatedDataAccessFDA}
+
+Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda.md)과 호환되는 외부 데이터베이스는 아래에 나와 있습니다.
 
 <table>
 <tbody>
@@ -230,10 +234,10 @@ ht-degree: 100%
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
+<p>2019년</p>
+<p>2017년</p>
+<p>2016년</p>
+<p>2014년</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 </tr>
@@ -286,7 +290,7 @@ ht-degree: 100%
 
 ## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
 
-:warning: Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
+다음 운영 체제와 브라우저는 [Campaign 클라이언트 콘솔](../../installation/using/installing-the-client-console.md)을(를) 사용하기 위해 **필요한**&#x200B;입니다.
 
 ### 운영 체제
 
@@ -295,8 +299,8 @@ ht-degree: 100%
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016</p>
-<p>2012</p>
+<p>2016년</p>
+<p>2012년</p>
 </td>
 </tr>
 <tr>
@@ -311,6 +315,7 @@ ht-degree: 100%
 
 ### 브라우저
 
+[]
 <table>
 <tbody>
 <tr>
@@ -326,6 +331,8 @@ ht-degree: 100%
 
 
 ## 모바일 SDK{#MobileSDK}
+
+Campaign을 사용하여 연결된 [모바일 SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)를 사용하여 아래 나열된 운영 체제에서 푸시 알림](../../delivery/using/about-mobile-app-channel.md)을 보낼 수 있습니다.[
 
 <table>
 <tbody>
@@ -348,7 +355,7 @@ ht-degree: 100%
 
 ## 브라우저{#Browsers}
 
-다음 브라우저는 웹 액세스에 대한 Campaign과 호환됩니다.
+다음 브라우저는 [웹 액세스](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-)에 대한 Campaign과 호환됩니다.
 
 <table>
 <tbody>
@@ -399,6 +406,7 @@ ht-degree: 100%
 ## 비슷한 항목 더 보기{#Morelikethis}
 
 * [Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)
-* [설치 안내서](../../installation/using/general-architecture.md)
+* [Campaign 일반 아키텍처](../../installation/using/general-architecture.md)
+* [하드웨어 크기 조정 권장 사항](../../technotes/using/hardware-sizing.md)
 * [사용되지 않는 기능 및 시스템](../../rn/using/deprecated-features.md)
 * [업그레이드 프로시저 빌드](../../production/using/build-upgrade.md)

@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 1%
@@ -98,7 +98,7 @@ Campaign Standard에서 복제되지 않은 추가 데이터를 포함하는 복
 
 1. 이전에 만든 워크플로우에서 **[!UICONTROL List update]** 활동을 추가하고 업데이트하거나 만들 목록을 지정합니다.
 
-   Campaign v7에 목록을 저장할 폴더를 지정합니다. 목록은 Campaign Standard에서 공유되면 구현 중에 정의된 폴더 매핑에 따라 영향을 받을 수 있습니다. [권한 변환](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion) 섹션을 참조하십시오.
+   Campaign v7에 목록을 저장할 폴더를 지정합니다. 목록은 Campaign Standard에서 공유되면 구현 중에 정의된 폴더 매핑의 적용을 받습니다. [권한 변환](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion) 섹션을 참조하십시오.
 
 1. **[!UICONTROL Share with ACS]** 옵션이 선택되어 있는지 확인합니다. 기본적으로 선택되어 있습니다.
 

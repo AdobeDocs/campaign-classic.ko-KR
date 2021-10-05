@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1174'
 ht-degree: 4%
 
 ---
@@ -192,7 +192,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->데이터베이스의 물리적 구조 업데이트가 성공적으로 완료되면 수정을 고려하도록 연결을 끊고 다시 연결해야 합니다.
+>데이터베이스의 물리적 구조 업데이트가 성공적으로 완료되면 수정 사항을 고려할 수 있도록 연결을 끊고 다시 연결해야 합니다.
 
 ### 3단계: 수정 내용의 유효성 검사
 

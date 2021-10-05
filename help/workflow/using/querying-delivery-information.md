@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 1%
@@ -149,7 +149,7 @@ ht-degree: 1%
 
 아웃바운드 전환에는 지난 7일 동안 이메일을 열지 않은 수신자가 포함됩니다.
 
-반대로 하나 이상의 이메일을 연 수신자를 필터링하려면 다음과 같이 쿼리를 필터링해야 합니다. 이 경우 **[!UICONTROL Filtering dimension]**&#x200B;을 **[!UICONTROL Tracking logs (Recipients)]**(으)로 설정해야 합니다.
+반대로 하나 이상의 이메일을 연 수신자를 필터링하려면 다음과 같이 쿼리를 필터링해야 합니다. 이 경우 **[!UICONTROL Filtering dimension]**&#x200B;은(는) **[!UICONTROL Tracking logs (Recipients)]**(으)로 설정해야 합니다.
 
 ![](assets/query_open_5.png)
 

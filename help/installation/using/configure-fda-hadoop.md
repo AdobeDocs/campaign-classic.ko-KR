@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 1%
@@ -89,7 +89,7 @@ hadoop 2.1에 연결해야 하는 경우 [Windows](#for-windows) 또는 [Linux](
 ### Windows용 hadoop 2.1 {#for-windows}
 
 1. Windows용 ODBC 및 [Azure HD Insight](https://www.microsoft.com/en-us/download/details.aspx?id=40886) 드라이버를 설치합니다.
-1. ODBC DataSource 관리자 도구를 실행하여 DSN(데이터 원본 이름)을 만듭니다. 수정할 수 있는 하이브의 시스템 DSN 샘플이 제공됩니다.
+1. ODBC DataSource Administrator 도구를 실행하여 DSN(데이터 원본 이름)을 만듭니다. 수정할 수 있는 하이브의 시스템 DSN 샘플이 제공됩니다.
 
    ```
    Description: vorac (or any name you like)

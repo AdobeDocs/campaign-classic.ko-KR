@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: dccf72b200cad9ba160a496cdd13ba39c5599008
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 3%
@@ -140,7 +140,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 ## 이메일 BCC 우수 사례 {#best-practices}
 
 * **숨은 참조 주소 사서함**: MTA에서 보내는 모든 이메일을 보관하기에 충분한 수신 용량이 있는지 확인합니다.
-* **MTA 뮤테이션**: bcc 보관 기능은 MTA 수준에서 작동합니다. MTA에서 보낸 모든 이메일을 복제할 수 있도록 해줍니다. MTA는 여러 인스턴스(예: 개발, 테스트 또는 프로덕션)에서 뮤테이션하거나 중간 소싱 환경에서 여러 클라이언트(예: 중간 소싱 환경)에서 뮤테이션할 수 있으므로 보안에 영향을 줍니다.
+* **MTA 풀링**: bcc 보관 기능은 MTA 수준에서 작동합니다. MTA에서 보낸 모든 이메일을 복제할 수 있도록 해줍니다. MTA가 여러 인스턴스(예: 개발, 테스트 또는 프로덕션)에서 풀링될 수 있거나 중간 소싱 환경에서 여러 클라이언트(예: 중간 소싱 환경)에서도 풀링될 수 있으므로 이 기능을 설정하면 보안에 영향을 줍니다.
 
    * 여러 클라이언트와 MTA를 공유하고 그 중 하나에 이 옵션이 활성화되면 이 클라이언트는 동일한 MTA를 공유하는 다른 클라이언트의 모든 이메일에 액세스합니다. 이러한 상황을 방지하려면 각 클라이언트에 대해 다른 MTA를 사용합니다.
    * 단일 클라이언트에 대해 여러 인스턴스(개발, 테스트, prod)에서 동일한 MTA를 사용하는 경우 세 개 인스턴스 모두에서 전송된 메시지는 dataLogPath 옵션에 의해 복제됩니다.

@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Adobe Campaign API는 애플리케이션 내의 JavaScript와 애플리케이션
 
 ## 필수 구성 요소 {#prerequisites}
 
-Adobe Campaign API를 사용하기 전에 다음 주제를 알고 있어야 합니다.
+Adobe Campaign API를 사용하려면 먼저 다음 주제를 숙지해야 합니다.
 
 * Javascript
 * SOAP 프로토콜
@@ -40,7 +40,7 @@ Adobe Campaign API를 사용하기 전에 다음 주제를 알고 있어야 합�
 
 Adobe Campaign에서는 두 가지 유형의 API를 사용합니다.
 
-* 일반 데이터는 데이터 모델 데이터를 쿼리하기 위해 API에 액세스합니다. [데이터 지향 API](../../configuration/using/data-oriented-apis.md)를 참조하십시오.
+* 데이터 모델 데이터를 쿼리하기 위한 일반 데이터 액세스 API. [데이터 지향 API](../../configuration/using/data-oriented-apis.md)를 참조하십시오.
 * 각 객체에 대해 작업을 수행할 수 있는 비즈니스 특정 API: 게재, 워크플로우, 구독 등 [비즈니스 지향 API](../../configuration/using/business-oriented-apis.md)를 참조하십시오.
 
 API를 개발하고 Adobe Campaign과 상호 작용하려면 데이터 모델을 숙지해야 합니다. Adobe Campaign에서 베이스에 대한 전체 설명을 생성할 수 있습니다. [모델 설명](../../configuration/using/data-oriented-apis.md#description-of-the-model)을 참조하십시오.

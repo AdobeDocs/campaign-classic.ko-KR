@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Adobe Campaign Classic 설명서 업데이트
+title: Adobe Campaign Classic v7 설명서 업데이트
 description: 이 페이지에는 Adobe Campaign Classic 설명서의 모든 새로운 기능과 업데이트가 있습니다.
 feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: cee019432c64eaaefac86a27b731355242fd1555
 workflow-type: tm+mt
-source-wordcount: '4513'
-ht-degree: 100%
+source-wordcount: '4560'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,22 @@ ht-degree: 100%
 
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
+## 2021년 10월{#oct-2021}
+
+기존 기술 정보가 새 **기술 정보** 섹션으로 그룹화되었습니다.
+
+**하드웨어 크기 조정 권장 사항** 페이지가 업데이트되어 **기술 정보** 섹션에 추가되었습니다. [자세히 알아보기](../../technotes/using/hardware-sizing.md)
+
+## 2021년 9월{#sept-2021}
+
+**릴리스 21.1.4과 함께 제공되는 설명서 업데이트**
+
+**측정** 차트 유형을 제거했습니다.
+
+Adobe Flash 제거 후 보고서 및 웹 애플리케이션 스크린샷과 매개 변수를 업데이트했습니다.
+
+[청구 기술 워크플로우](../../production/using/monitoring-processes.md#billing-report) 설명이 새 보호 문자로 업데이트되었습니다.
+
 ## 2021년 8월{#aug-2021}
 
 새 워크플로우 활동인 데이터 소스 변경을 추가했습니다. [자세히 알아보기](../../workflow/using/change-data-source.md)
@@ -28,10 +44,6 @@ ht-degree: 100%
 설명서 페이지에 적용 가능성 배지가 추가되었습니다. Campaign Classic v7 기능에만 적용되는 기능을 보려면 **v7 적용성**&#x200B;을, 일반 기능을 보려면 **v7 및 v8 적용성**&#x200B;을 참고하십시오.
 
 Adobe Experience Manager 6.4부터 서비스 해제된 Campaign과 AEM Assets 간의 통합에 대한 메모를 추가했습니다. [자세히 알아보기](../../integrations/using/configuring-access-to-assets.md)
-
-Adobe Flash 제거 후 보고서 및 웹 애플리케이션 스크린샷과 매개 변수를 업데이트했습니다.
-
-**측정** 차트 유형을 제거했습니다.
 
 
 ## 2021년 7월 {#july-2021}
@@ -380,7 +392,7 @@ Hadoop FDA 커넥터 개선 사항 - [자세한 내용](../../installation/using
 
 [설치](../../installation/using/general-architecture.md),[프로덕션](../../production/using/foreword.md) 및 [구성](../../configuration/using/additional-parameters.md) 가이드는 nlserver 서비스 시작 시 사용하는 새 시스템 단위로 업데이트되었습니다 . 여전히 /etc/init.d/nlserver6를 사용할 수 있지만, Adobe에서는 이제 nlserver 서비스와 상호 작용하기 위해 systemctl 명령을 사용하는 것을 권장합니다.
 
-설치 가이드가 업데이트 및 최신 버전의 호환성 매트릭스와 동기화되었습니다. 지원되는 새 시스템이 추가되었습니다. 사용되지 않는 시스템 및 지원되지 않는 시스템에 대한 항목이 제거되었습니다. [자세한 내용](../../installation/using/general-architecture.md)
+설치 가이드가 업데이트 및 최신 버전의 호환성 매트릭스와 동기화되었습니다. 지원되는 새 시스템이 추가되었습니다. 사용되지 않는 시스템 및 지원되지 않는 시스템의 발생을 제거했습니다. [자세한 내용](../../installation/using/general-architecture.md)
 
 호환성 매트릭스가 Hadoop 3.0 및 Snowflake FDA 커넥터로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 

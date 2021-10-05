@@ -2,14 +2,14 @@
 product: campaign
 title: Campaign Classic v7에 대한 하드웨어 크기 조정 권장 사항
 description: Campaign Classic v7에 대한 하드웨어 크기 조정 권장 사항
-source-git-commit: 3912874210ab16a132e51d9bb71508c8d244fe22
+source-git-commit: 0deb18bb0376fc5e94d063145280426ff54db786
 workflow-type: tm+mt
-source-wordcount: '2513'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
 
-# Campaign Classic v7에 대한 하드웨어 크기 조정 권장 사항 {#hardware-sizing-reco}
+# 하드웨어 크기 조정 권장 사항{#hardware-sizing-reco}
 
 ![](../../assets/v7-only.svg)
 
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->이 안내서는 일반적인 예제 안내서로만 제공됩니다. Campaign 프로젝트를 시작하기 전에 Adobe Campaign 고객 성공 관리자에게 연락하여 배포의 정확한 크기 조정을 측정해야 합니다. **이를** 수행하기 전까지는 인프라 또는 하드웨어를 구입하거나 배포하지 마십시오.
+>이 문서는 일반적인 예제 안내서로만 제공됩니다. Campaign 프로젝트를 시작하기 전에 Adobe Campaign 고객 성공 관리자에게 연락하여 배포의 정확한 크기 조정을 측정해야 합니다. **이를** 수행하기 전까지는 인프라 또는 하드웨어를 구입하거나 배포하지 마십시오.
 
-이 문서에서는 온-프레미스 데이터 센터 또는 가상화 클라우드 환경에서 Adobe Campaign Classic v7 배포에 대한 일반적인 지침을 제공합니다. **hybrid** 또는 **중간 소싱**&#x200B;이라고 하는 이러한 유형의 배포는 Campaign 마케팅 인스턴스와 마케팅 데이터베이스를 운영 제어에 배치하고, Cloud Messaging 서비스를 사용하여 이메일, SMS 또는 SMPP 메시지를 보내고, 이메일 열기, 바운스 및 클릭 추적 데이터를 수집하는 것입니다.
+이 문서에서는 온-프레미스 데이터 센터 또는 가상화 클라우드 환경에서 Adobe Campaign Classic v7 배포에 대한 일반적인 권장 사항을 제공합니다. **hybrid** 또는 **중간 소싱**&#x200B;이라고 하는 이러한 유형의 배포는 Campaign 마케팅 인스턴스와 마케팅 데이터베이스를 운영 제어에 배치하고, Cloud Messaging 서비스를 사용하여 이메일, SMS 또는 SMPP 메시지를 보내고, 이메일 열기, 바운스 및 클릭 추적 데이터를 수집하는 것입니다.
 
 마케팅 인스턴스는 모든 마케팅 활동을 구동하고 캠페인에서 반환된 모든 수신자 데이터와 분석 데이터를 저장하는 Adobe Campaign 아키텍처의 일부입니다. 마케팅 인스턴스는 Adobe Campaign 서비스를 실행하는 온-프레미스 서버 세트와 관계형 데이터베이스입니다.
 
@@ -258,5 +258,6 @@ Adobe은 시스템을 프로덕션에 투입하기 전에 Adobe Campaign의 가�
 ## 관련 항목
 
 * [캠페인 모니터링 프로세스](../../production/using/monitoring-processes.md)
+* [Campaign 일반 아키텍처](../../installation/using/general-architecture.md)
 * [성능 및 처리량 문제](../../production/using/performance-and-throughput-issues.md)
 * [보안 및 개인 정보 확인 목록](../../installation/using/get-started-security-privacy.md)

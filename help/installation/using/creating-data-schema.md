@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d2d0ff575edbee18febb5ec895fcec1e0ae34de7
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 9%
+source-wordcount: '180'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,13 @@ ht-degree: 9%
 
    ![](assets/wf_new_schema_fda.png)
 
-1. 스키마에 대한 이름과 설명을 입력하고 데이터베이스에 연결할 외부 계정을 선택합니다. 이렇게 하면 외부 베이스에서 사용할 수 있는 테이블 목록에 액세스할 수 있습니다. 수집할 데이터가 포함된 테이블을 선택합니다.
+1. 스키마에 대해 **[!UICONTROL Namespace]** 및 **[!UICONTROL Name]**&#x200B;을 입력하고 데이터베이스에 연결할 **[!UICONTROL External account]**&#x200B;를 선택합니다. 이렇게 하면 외부 베이스에서 사용할 수 있는 테이블 목록에 액세스할 수 있습니다.
+
+   ![](assets/wf_new_schema_select_table_fda.png)
+
+1. **[!UICONTROL Table name]** 필드에서 수집할 데이터가 포함된 테이블을 선택합니다.
+
+   데이터베이스 사용자에게 올바른 권한이 부여된 경우 Snowflake을 사용하여 여기에서 뷰를 선택할 수 있습니다. 보기를 사용할 때 Adobe Campaign에서 XML 스키마를 자동으로 생성할 수 없으므로 직접 만들어야 합니다. 보기에 대한 자세한 내용은 [Snowflake 설명서](https://docs.snowflake.com/en/user-guide/views-introduction.html)를 참조하십시오.
 
    ![](assets/wf_new_schema_select_table_fda.png)
 

@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
 workflow-type: tm+mt
 source-wordcount: '3023'
 ht-degree: 0%
@@ -119,7 +119,7 @@ Adobe 플랫폼이 전자 메일을 효율적으로 보내고 받는 것과 관�
 
 ### 구성 시작 {#start-configuration}
 
-기본적으로 각 인스턴스에 대해 **stat** 모듈이 시작됩니다. 인스턴스가 동일한 컴퓨터에서 뮤테이션되거나 인스턴스가 동일한 IP 주소를 공유하는 경우 단일 통계 서버가 사용됩니다. 다른 사람들은 비활성화되어야 합니다.
+기본적으로 각 인스턴스에 대해 **stat** 모듈이 시작됩니다. 인스턴스가 동일한 컴퓨터에서 풀링되거나 인스턴스가 동일한 IP 주소를 공유하는 경우 단일 통계 서버가 사용됩니다. 다른 사람들은 비활성화되어야 합니다.
 
 ### 서버 포트의 정의 {#definition-of-the-server-port}
 
