@@ -5,7 +5,7 @@ description: 파이프라인 구성 방법 알아보기
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: b8f74c290106d57630c5d486c04b8424132e3297
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 1%
@@ -127,7 +127,7 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 
 | 옵션 | 설명 |
 |:-:|:-:|
-| appName(기존) | 공개 키가 업로드된 Legacy Oath 애플리케이션에 등록된 OAuth 애플리케이션의 AppID입니다. 자세한 정보는 이 [페이지](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md.)를 참조하십시오. |
+| appName(기존) | 공개 키가 업로드된 Legacy Oath 애플리케이션에 등록된 OAuth 애플리케이션의 AppID입니다. 자세한 정보는 이 [페이지](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)를 참조하십시오. |
 | authGatewayEndpoint(이전) | 게이트웨이 토큰을 가져오는 URL. 기본값: ```https://api.omniture.com``` |
 | authPrivateKey(이전) | 개인 키, 기존 Oath 응용 프로그램에 업로드된 공개 부분, XtkKey 옵션으로 암호화된 AES: ```cryptString("PRIVATE_KEY")``` |
 | disableAuth(기존) | 인증을 비활성화하십시오. 게이트웨이 토큰 없이 연결하는 것은 일부 개발 파이프라인 끝점에서만 허용됩니다. |
