@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 12b191ffe3d407f1a69393278a7678a14e53d23e
+source-git-commit: 31ff1863623c088d28d9e4d15337bbc7a9843171
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 100%
+source-wordcount: '2457'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,19 @@ ht-degree: 100%
 
 [이 페이지](rn-overview.md)에서 캠페인 빌드 상태를 이해할 수 있습니다.
 
-## ![](assets/do-not-localize/green_2.png) 릴리스 21.1.4 - 빌드 9342 {#release-21-1-4-build-9342}
+
+## ![](assets/do-not-localize/green_2.png) 릴리스 21.1.4 - 빌드 9343 {#release-21-1-4-build-9343}
+
+_2021년 10월 8일_
+
+**패치**
+
+* [전원 부스터](../../installation/using/power-booster-and-power-cluster.md) 옵션과 함께 **상호 작용** 모듈을 사용할 때 오퍼 위치가 저장되지 않는 문제를 해결했습니다. (NEO-39263)
+
+* 중간 소싱 인스턴스에서 두 개 이상의 IP 친화성을 사용할 때 발생할 수 있는 &#39;중간 서버 xxx에서 ipaffinity xxx를 찾을 수 없음&#39; 오류를 수정했습니다. (NEO-37514)
+
+
+## ![](assets/do-not-localize/orange_2.png) 릴리스 21.1.4 - 빌드 9342 {#release-21-1-4-build-9342}
 
 _2021년 9월 7일_
 
