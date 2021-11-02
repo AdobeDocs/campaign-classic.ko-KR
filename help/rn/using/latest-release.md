@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: ebd5b04c30c54142433056904a5d80f5a8744ded
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2459'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ _2021년 10월 8일_
 
 **패치**
 
-* [전원 부스터](../../installation/using/power-booster-and-power-cluster.md) 옵션과 함께 **Interaction** 모듈을 사용할 때 적절한 오퍼 관리를 방지할 수 있는 문제를 해결했습니다. (NEO-39263)
+* **상호 작용** 모듈을 사용할 때 [파워 부스터](../../installation/using/power-booster-and-power-cluster.md) 옵션을 설정한 경우 오퍼 관리가 적절하게 이루어지지 않는 문제를 해결했습니다. (NEO-39263)
 
-* 다중 중간 소싱 인스턴스에서 두 개 이상의 IP 친화성을 사용할 때 게재 전송에서 발생할 수 있는 &#39;중간 서버 xxx에서 ipaffinity xxx를 찾을 수 없음&#39; 오류를 수정했습니다. (NEO-37514)
+* 다중 중간 소스 인스턴스에서 두 개 이상의 IP 친화성을 사용할 때 게재 전송 중 [중간 서버 xxx에서 ip 친화성 xxx를 찾을 수 없음] 오류가 발생하는 현상을 해결했습니다. (NEO-37514)
 
 
 ## ![](assets/do-not-localize/orange_2.png) 릴리스 21.1.4 - 빌드 9342 {#release-21-1-4-build-9342}
