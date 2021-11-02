@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 235e8abcaed2659d745ebfeca24dc2f0278a6e5a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '600'
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-## 관계 데이터베이스 관리 시스템(RDBMS){#RDBMSservers}
+## RDBMS(관계 데이터베이스 관리 시스템){#RDBMSservers}
 
 <table>
 <tbody>
@@ -142,7 +142,7 @@ ht-degree: 0%
 <p>9.6.x</p>
 <p>9.5.x</p>
 <p>9.4.x</p>
-<p><strong>참고:</strong>  위에 지정된 버전으로 PostgreSQL용 Amazon RDS를 사용할 수도 있습니다.</p>
+<p><strong>참고:</strong> 위에 지정된 버전을 통해 PostgreSQL용 Amazon RDS도 사용할 수 있습니다.</p>
 </td>
 </tr>
 <tr>
@@ -150,10 +150,10 @@ ht-degree: 0%
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016년</p>
+<p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
-<p><strong>중요:</strong>  Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. [자세히 알아보기](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers)</p>
+<p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. [자세히 알아보기](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers)</p>
 </td>
 </tr>
 </tbody>
@@ -163,12 +163,12 @@ ht-degree: 0%
 >
 >* RDBMS 드라이버는 RDBMS 서버 버전과 일치해야 합니다.
 >
->* PostgreSQL은 호스팅 환경을 위한 RDBMS입니다.
+>* PostgreSQL은 호스팅 환경용 RDBMS입니다.
 
 
 ## CRM 커넥터{#CRMconnectors}
 
-Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템은 아래에 나와 있습니다. [Campaign ](../../platform/using/crm-connectors.md) CRM 커넥터에 대해 자세히 알아보십시오.
+Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다음과 같습니다. Campaign CRM 커넥터에 대해 [자세히 알아보세요](../../platform/using/crm-connectors.md).
 
 <table>
 <tbody>
@@ -189,7 +189,7 @@ Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템은 아래에 
 
 ## FDA(Federated Data Access){#FederatedDataAccessFDA}
 
-Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda.md)과 호환되는 외부 데이터베이스는 아래에 나와 있습니다.
+Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda.md)과 호환되는 외부 데이터베이스 목록은 다음과 같습니다.
 
 <table>
 <tbody>
@@ -233,10 +233,10 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019년</p>
-<p>2017년</p>
-<p>2016년</p>
-<p>2014년</p>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 </tr>
@@ -289,7 +289,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 
 ## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
 
-다음 운영 체제와 브라우저는 [Campaign 클라이언트 콘솔](../../installation/using/installing-the-client-console.md)을(를) 사용하기 위해 **필요한**&#x200B;입니다.
+[Campaign 클라이언트 콘솔](../../installation/using/installing-the-client-console.md)을 사용하려면 다음 운영 체제와 브라우저가 **필요**&#x200B;합니다.
 
 ### 운영 체제
 
@@ -298,8 +298,8 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016년</p>
-<p>2012년</p>
+<p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>
@@ -330,7 +330,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 
 ## 모바일 SDK{#MobileSDK}
 
-Campaign을 사용하여 연결된 [모바일 SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)를 사용하여 아래 나열된 운영 체제에서 푸시 알림](../../delivery/using/about-mobile-app-channel.md)을 보낼 수 있습니다.[
+Campaign을 사용하여 아래 목록의 운영 체제에서 [푸시 알림을 보낼](../../delivery/using/about-mobile-app-channel.md) 수 있습니다. 연결된 [모바일 SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)를 사용합니다.
 
 <table>
 <tbody>
@@ -353,7 +353,7 @@ Campaign을 사용하여 연결된 [모바일 SDK](../../delivery/using/integrat
 
 ## 브라우저{#Browsers}
 
-다음 브라우저는 [웹 액세스](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-)에 대한 Campaign과 호환됩니다.
+다음 브라우저는 [웹 액세스](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-)용 Campaign과 호환됩니다.
 
 <table>
 <tbody>
