@@ -7,9 +7,9 @@ role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
 source-git-commit: 1f6846f29c44719fdbd334327466619ed265452a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1515'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상�
 
 >[!IMPORTANT]
 >
-> 하이브리드 및 온-프레미스 구현의 경우 이 [page](../../platform/using/adobe-analytics-provisioning.md)에 자세히 설명된 프로비저닝 단계를 따라야 합니다.
+> 하이브리드 및 온프레미스 구현의 경우 이 [페이지](../../platform/using/adobe-analytics-provisioning.md)에서 자세히 설명하는 프로비저닝 단계를 따라야 합니다.
 
 데이터 커넥터를 설정하려면 Adobe Campaign 인스턴스에 연결하고 다음 작업을 수행해야 합니다.
 
@@ -90,9 +90,9 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
 ### 전환 변수 및 성공 이벤트 구성 {#configure-conversion-success}
 
-다음과 같이 **[!UICONTROL Conversion variables]** 및 **[!UICONTROL Success events]**&#x200B;을 구성해야 합니다.
+**[!UICONTROL Conversion variables]** 및 **[!UICONTROL Success events]**&#x200B;를 다음과 같이 구성해야 합니다.
 
-1. Adobe Campaign에 연결할 **[!UICONTROL Report suite]** 을 선택합니다.
+1. Adobe Campaign에 연결할 **[!UICONTROL Report suite]**&#x200B;를 선택합니다.
 
 1. **[!UICONTROL Edit settings]** 버튼에서, **[!UICONTROL Conversion]** > **[!UICONTROL Conversion variables]**&#x200B;를 선택합니다.
 
@@ -131,9 +131,9 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
    ![](assets/analytics_connnector_8.png)
 
-1. 구성을 완료하면 **[!UICONTROL Save]** 을(를) 클릭합니다.
+1. 완료하면 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
-**[!UICONTROL Conversion variables]** 및 **[!UICONTROL Success events]**&#x200B;을 구성한 후 변수가 Analytics 커넥터에 대해 생성된 **[!UICONTROL Product Profile]**&#x200B;에 포함되어 있는지 확인하십시오. 자세한 내용은 [Adobe Analytics 제품 프로필 만들기](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile)를 참조하십시오.
+**[!UICONTROL Conversion variables]** 및 **[!UICONTROL Success events]**&#x200B;를 구성한 뒤에는 변수가 Analytics 커넥터에 대해 만든 **[!UICONTROL Product Profile]**&#x200B;에 포함되어 있는지 확인합니다. 자세한 내용은 [Adobe Analytics 제품 프로필 만들기](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile)를 참조하세요.
 
 그런 다음 Adobe Campaign Classic에서 **[!UICONTROL External accounts]**&#x200B;을 구성해야 합니다.
 
@@ -161,7 +161,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
 1. **[!UICONTROL Integration]** 드롭다운 옆에 있는 **[!UICONTROL Configure]** 을(를) 클릭합니다.
 
-1. **[!UICONTROL Configure Analytics integration]** 창에서 다음 정보를 제공하는 보고서 세트에 외부 계정을 매핑합니다.
+1. **[!UICONTROL Configure Analytics integration]** 창에서 외부 계정을 앞서 만든 보고서 세트 중 다음 정보를 제공하는 세트에 매핑합니다.
 
    * **[!UICONTROL E-Mail]**
    * **[!UICONTROL IMS Org]**
