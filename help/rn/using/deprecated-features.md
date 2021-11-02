@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1657'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr> 
   <tr> 
    <td>웹 애플리케이션 - 마이크로사이트</td>
-   <td>Campaign 18.10 릴리스부터 마이크로사이트를 더 이상 사용할 수 없습니다. Adobe Campaign 구성 파일의 전용 도메인에만 대한 액세스를 제한하여 보안을 강화할 수 있고 DNS 별칭을 사용하여 Campaign에서 개인화된 URL을 사용할 수 있습니다.</td>
+   <td>Campaign 18.10 릴리스부터는 마이크로사이트를 사용할 수 없습니다. Adobe Campaign 구성 파일의 전용 도메인에 대한 액세스만 제한하여 보안을 강화할 수 있고 DNS 별칭을 사용하여 Campaign에서 개인화된 URL을 사용할 수 있습니다.</td>
   </tr> 
   <tr> 
    <td>푸시 알림 - iOS 이진 커넥터</td>
@@ -177,7 +177,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 웹 서버와 호환되지 않습니다.
 
 * Apache 2.2. [자세한 내용](https://httpd.apache.org/)
-* Microsoft IIS 7. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/810)
+* Microsoft IIS 7. [자세히 알아보기](https://support.microsoft.com/ko-kr/lifecycle/search/810)
 
 ### 도구 {#tools-eol}
 
