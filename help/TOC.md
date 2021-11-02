@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 �
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 23c5892189c59008f82ec453c97d24efe82fd2ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -615,7 +615,7 @@ ht-degree: 97%
       + [중간 소싱 배포](installation/using/mid-sourcing-deployment.md)
       + [전원 부스터 및 전원 클러스터](installation/using/power-booster-and-power-cluster.md)
    + 보안 및 개인 정보 보호 설정 {#security-privacy}
-      + [보안 및 개인 정보 확인 목록](installation/using/get-started-security-privacy.md)
+      + [보안 및 개인 정보 보호에 대해 확인할 사항](installation/using/get-started-security-privacy.md)
       + [개인화 및 개인 정보 보호](installation/using/privacy.md)
       + [보안 액세스 관리](installation/using/access-management.md)
       + [스크립팅 및 코딩 지침](installation/using/scripting-coding-guidelines.md)
@@ -848,12 +848,12 @@ ht-degree: 97%
       + [기술 노트](technotes/using/technote.md)
       + [Campaign 구성 업데이트](technotes/using/acc-config-updates.md)
       + [IMS 업데이트](technotes/using/ims-updates.md)
-   + 전자 메일 및 푸시 알림{#technotes-email}
-      + [Apple iOS에 대한 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)
-      + [Apple 메일 개인 정보 보호 FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+   + 이메일 및 푸시 알림{#technotes-email}
+      + [Apple iOS의 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)
+      + [Apple 메일 개인 정보 보호 FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ko)
       + [잘못된 하드 바운스를 업데이트하는 방법](delivery/using/update-bounce-qualification.md)
       + [iOS 인증서 업데이트](technotes/using/ios-certificate-update.md)
-      + [추적된 URL 업데이트](technotes/using/tracked-urls.md)
+      + [추적 URL 업데이트](technotes/using/tracked-urls.md)
    + Adobe Managed Services로 마이그레이션{#dc-migration}
-      + [Public Cloud로 마이그레이션](technotes/using/dc-migration.md)
+      + [공개 클라우드로 마이그레이션](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
