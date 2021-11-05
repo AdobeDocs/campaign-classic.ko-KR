@@ -40,7 +40,7 @@ _2021년 3월 31일_
 * 일별 wfserver 다시 시작으로 인해 실행 중인 워크플로우가 중지되는 문제를 해결했습니다. (NEO-30047)
 * Adobe Experience Manager 템플릿을 동기화하려고 할 때 관리자가 아닌 사용자가 API 호출을 사용하는 보안 문제를 해결했습니다. (NEO-32389, NEO-23487)
 * 템플릿으로 만든 게재에서 게재 대화 상자를 닫을 때 콘솔이 충돌하는 문제를 해결했습니다. (NEO-31547)
-* 캠페인의 **타깃팅 및 워크플로우** 탭 내에서 게재를 만들고 저장할 때 발생하는 문제를 해결했습니다. 다음 오류가 발생하여 미리 보기가 실패합니다. (NEO-29440)
+* 내에서 게재를 만들고 저장할 때 발생하는 문제를 수정했습니다 **타겟팅 및 워크플로우** 캠페인의 탭: 다음 오류가 발생하여 미리 보기가 실패합니다. (NEO-29440)
 * 트랜잭션 메시지 로그에 오류가 발생하는 잘못된 답변을 보내는 Tomcat 8.5 문제를 수정했습니다. (NEO-30858)
 * 외부 스레드 관리의 메모리 손상을 야기하고 성능에 영향을 주는 회귀 문제를 해결했습니다.
 * 사용자 지정 대상 매핑을 사용할 때 청구 워크플로우가 실패할 수 있는 문제를 수정했습니다. 사용자 지정 스키마의 기본 키는 허용되는 정수 값만 사용하는 &#39;sourceId&#39; 열에 저장됩니다. 이제 문자열 값과 정수를 사용할 수 있습니다. (NEO-25914, NEO-28146)
@@ -65,13 +65,13 @@ _2020년 12월 22일_
 >
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다.  [자세히 알아보기](../../technotes/using/ims-updates.md)
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign [이(가) 있는 기존 oAuth 인증 모드가 **2021년 9월**&#x200B;에서 중단되었습니다. ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) 호스팅된 환경은 **2022년 2월 23일**&#x200B;까지 확장의 혜택을 받습니다. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign을 사용하는 기존 oAuth 인증 모드 [사용 중지되었습니다.](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) on **2021년 9월**. 호스팅된 환경은 확장 프로그램을 통해  **2022년 2월 23일**. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
 
 
 **개선 사항**
 
 * 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
-* 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O으로 이동되었습니다. [자세히 알아보기](../../integrations/using/configuring-adobe-io.md)
+* 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O으로 이동되었습니다. [추가 정보](../../integrations/using/configuring-adobe-io.md)
 * [iOS APNs 레거시 이진 프로토콜에 대한 지원 종료](https://developer.apple.com/kr/news/?id=c88acm2b)에 따라 업그레이드 이후 이 프로토콜을 사용하는 모든 인스턴스는 HTTP/2 프로토콜로 업데이트됩니다.
 * SSRF(Server Side Request Forgery) 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-27777)
 * 연결 오류 후 SMPP 커넥터가 비활성화되어 다른 SMS 게재가 전송되지 않고 성능 문제가 발생하는 문제를 해결했습니다. (NEO-28609)

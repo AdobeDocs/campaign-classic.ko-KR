@@ -58,7 +58,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->이 빌드는 리콜되었습니다. [최신 빌드](../../production/using/build-upgrade.md)로 업그레이드하거나 [고객 지원 센터 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+>이 빌드는 리콜되었습니다. 제발 [최신 빌드로 업그레이드](../../production/using/build-upgrade.md)  또는 연락처 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **개선 사항**
 
@@ -82,7 +82,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->이 빌드는 리콜되었습니다. [최신 빌드](../../production/using/build-upgrade.md)로 업그레이드하거나 [고객 지원 센터 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+>이 빌드는 리콜되었습니다. 제발 [최신 빌드로 업그레이드](../../production/using/build-upgrade.md) 또는 연락처 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **개선 사항**
 
@@ -104,7 +104,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->이 빌드는 리콜되었습니다. [최신 빌드](../../production/using/build-upgrade.md)로 업그레이드하거나 [고객 지원 센터 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+>이 빌드는 리콜되었습니다. 제발 [최신 빌드로 업그레이드](../../production/using/build-upgrade.md) 또는 연락처 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **새로운 기능**
 
@@ -118,20 +118,20 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> 푸시 알림 개선<br /> </td> 
-   <td> Adobe Campaign에서 푸시 알림에 대해 많은 개선 사항이 구현되었습니다.<br /> 
+   <td> Adobe Campaign에서 푸시 알림에 대한 많은 개선 사항이 구현되었습니다.<br /> 
     <ul> 
      <li> <p>iOS에서 자동 알림 추적 </p> </li> 
-     <li> <p>iOS에서 등록 호출에 대한 피드백 구현</p> </li> 
+     <li> <p>iOS의 등록 호출에 대한 피드백 구현</p> </li> 
      <li> <p>iOS 게재 준비 속도 개선</p> </li> 
-    </ul> <p>Google에서 GCM 감가상각의 일부로, 이제 Android V2 커넥터에서 FCM 서버에만 연결을 허용합니다.</p><p>자세한 내용은 <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">세부 설명서</a>를 참조하세요. FCM으로의 수동 업그레이드는 이 <a href="https://helpx.adobe.com/kr/campaign/kb/migrate-to-fcm.html">문서</a>에 자세히 설명되어 있습니다. </p> </td> 
+    </ul> <p>Google에서 GCM 감가상각의 일부로, 이제 Android V2 커넥터에서 FCM 서버에만 연결을 허용합니다.</p><p>자세한 내용은 <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">세부 설명서</a>를 참조하세요. FCM으로의 수동 업그레이드는 여기에 자세히 설명되어 있습니다 <a href="https://helpx.adobe.com/kr/campaign/kb/migrate-to-fcm.html">문서</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> SQL 데이터 관리 활동<br /> </td> 
-   <td> <p>새로운 데이터 관리 워크플로우 활동을 추가했습니다. <strong>SQL 데이터 관리</strong> 활동을 사용하면 고유한 SQL 스크립트를 작성하거나 복사하여 붙여넣기를 사용하여 작업 테이블(FDA 전용)을 작성하고 채울 수 있습니다. </p> <p>자세한 내용은 <a href="../../workflow/using/sql-data-management.md">세부 설명서</a>를 참조하세요.</p></td> 
+   <td> <p>새로운 데이터 관리 워크플로우 활동을 추가했습니다. 다음 <strong>SQL 데이터 관리</strong> 활동을 통해 고유한 SQL 스크립트를 작성하거나 복사하여 붙여넣기를 사용하여 작업 테이블(FDA 전용)을 만들고 채울 수 있습니다. </p> <p>자세한 내용은 <a href="../../workflow/using/sql-data-management.md">세부 설명서</a>를 참조하세요.</p></td> 
   </tr> 
   <tr> 
    <td> 워크플로우 모니터링<br /> </td> 
-   <td> <p>새로운 Adobe Campaign Workflow HeatMap을 사용하면 플랫폼 관리자가 모든 동시 실행 워크플로우를 빠른 그래픽으로 표시하여 인스턴스의 로드를 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다.</p> <p>자세한 내용은 <a href="../../workflow/using/heatmap.md">세부 설명서</a>를 참조하세요.</p> <p>Workflow HeatMap 패키지는 8977(빌드 8700 시작) 이전 빌드에 대한 수요에서도 사용할 수 있습니다. 요청 및 설치에 대한 자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html">이 페이지</a>를 참조하십시오.</p> </td> 
+   <td> <p>새로운 Adobe Campaign Workflow HeatMap을 사용하면 플랫폼 관리자가 모든 동시 실행 워크플로우를 빠른 그래픽으로 표시하여 인스턴스의 로드를 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다.</p> <p>자세한 내용은 <a href="../../workflow/using/heatmap.md">세부 설명서</a>를 참조하세요.</p> <p>Workflow HeatMap 패키지는 8977(빌드 8700 시작) 이전 빌드에 대한 수요에서도 사용할 수 있습니다. 요청 및 설치에 대한 자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html">이 페이지</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +140,7 @@ ht-degree: 7%
 
 * SSRF(Server Side Request Forgery) 공격 및 서비스 거부(DoS) 공격에 취약할 수 있는 보안 문제를 해결했습니다. (NEO-11453)
 * 컨텐츠(리디렉션, 미러 페이지, 설문 조사 등) 이제 X-Robots-Tag가 포함된 Campaign에서 을(를) 제공합니다. 캐시 헤더가 없습니다. 따라서 인터넷 검색 엔진별로 이 콘텐츠를 인덱싱할 수 없습니다. (NEO-11101)
-* 구독 API의 XTK 주입 문제가 해결되었습니다(nms:subscription:가입 해지 및 nms:subscription:가입).
+* 구독 API(nms)에서 XTK 주입 문제가 해결되었습니다.:subscription:구독 취소 및 nms:subscription:구독).
 * 구독 취소 웹 애플리케이션에서 XTK 주입 문제가 수정되었습니다.
 * 일부 SMS 로그에 안전하게 표시된 암호를 제거했습니다.
 
@@ -148,8 +148,8 @@ ht-degree: 7%
 
 * 이제 [전용 페이지](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)에서 Campaign Classic API를 사용할 수 있습니다. jsapi.chm 파일을 사용하는 경우 이제 새로운 온라인 버전을 참조해야 합니다.
 * 이제 PostgreSQL 10, Debian 9 및 Teradata 16.20이 지원됩니다. [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)를 참조하십시오.
-* 이제 SFTP 연결을 만들 때 프록시 인증을 사용할 수 있습니다. 자세한 내용은 [상세 설명서](../../installation/using/file-res-management.md)(NEO-9868)를 참조하십시오
-* 이제 DM 게재 템플릿을 사용하여 단일 게재를 만들 때 게재 속성에서 **날짜 계산 공식** 옵션을 사용할 수 있습니다. (NEO-9792)
+* 이제 SFTP 연결을 만들 때 프록시 인증을 사용할 수 있습니다. 자세한 내용은 [세부 설명서](../../installation/using/file-res-management.md) (NEO-9868)
+* 다음 **날짜 계산 공식** 이제 dm 게재 템플릿을 사용하여 단일 게재를 만들 때 게재 속성에서 옵션을 사용할 수 있습니다. (NEO-9792)
 * 쿠키 추적 및 웹 애플리케이션을 위해 도메인 이름 관리가 개선되었습니다. 자세한 내용은 아래의 &#39;기술 진화&#39; 섹션을 참조하십시오.
 * 게재 또는 랜딩 페이지에서 Adobe Marketing Cloud 공유 자산의 가져오기가 보안 및 성능 측면에서 개선되었습니다.
 * 모바일 채널 외부 계정에서 새로운 확인란을 사용하여 로그 파일에서 자세한 SMPP 추적을 활성화하면 Adobe Campaign 인터페이스에서 직접 이 출력에 액세스할 수 있습니다.
@@ -170,7 +170,7 @@ ht-degree: 7%
 
 쿠키 추적 및 웹 애플리케이션을 위해 도메인 이름 관리가 개선되었습니다.
 
-이제 기본적으로 두 글자로 된 두 번째 수준 도메인 이름이 모두 지원됩니다(예: .aa.com). 보다 복잡한 도메인 이름(예: .com.au와 같은 3자로 된 두 번째 수준 도메인)의 경우, serverConf 의 **cookieDomains** 옵션(리디렉션 태그 아래)에 이 도메인을 추가해야 합니다. 다음은 한 예입니다.
+이제 기본적으로 두 글자로 된 두 번째 수준 도메인 이름이 모두 지원됩니다(예: .aa.com). 보다 복잡한 도메인 이름(예: .com.au와 같은 세 글자로 된 두 번째 수준 도메인)의 경우, **cookieDomains** serverConf 옵션(리디렉션 태그 아래)입니다. 다음은 한 예입니다.
 
 ```
 <redirection cookiedomain="http://toureiffel.paris">
@@ -197,8 +197,8 @@ UTF-8 데이터 정렬을 사용할 때 이제 &quot;LIKE &#39;string%&#39;(또�
 
 **패치**
 
-* **웹 다운로드** 워크플로우 활동의 파일이 다운로드되지 않는 오류를 수정했습니다. (NEO-11105)
-* 간혹 **표시기 및 캠페인 속성** 워크플로우를 실패 상태로 전환하는 오류가 수정되었습니다(NEO-10820).
+* 에서 파일을 사용할 수 없는 오류를 수정했습니다. **웹 다운로드** 워크플로우 활동 다운로드 중. (NEO-11105)
+* 가끔 **지표 및 캠페인 속성 보내기** 워크플로우 실패 상태(NEO-10820).
 * 워크플로우에서 목록 업데이트 활동을 실행한 후 생성된 수신자 목록을 삭제하는 문제를 해결했습니다. (NEO-11696)
 * 캠페인 달력(일본어 인스턴스에서)에서 한 달 전에 캠페인을 잘못 표시하는 문제를 수정했습니다. (NEO-11445)
 * 게재 속성의 웹 분석 탭에 Analytics 구성이 표시되지 않는 문제를 수정했습니다. (NEO-11619)
@@ -217,7 +217,7 @@ UTF-8 데이터 정렬을 사용할 때 이제 &quot;LIKE &#39;string%&#39;(또�
 * 확장 일반 SMPP 커넥터를 사용하여 모바일 채널 외부 계정을 설정할 때 발생하는 문제를 해결했습니다. 수신기에 대해 다른 매개 변수를 사용하여 지정한 경우 송신기가 자체 매개 변수 대신 이러한 매개 변수를 잘못 사용하게 됩니다.
 * 첫 번째 중재 후 게재가 지속적으로 다시 계산되었기 때문에 압력 규칙에 대한 빈도를 설정할 때 예약된 게재가 실패하던 문제를 해결했습니다. (NEO-10016)
 * nlsrvmod.dll 라이브러리의 응용 프로그램 풀 재활용 프로세스 중에 IIS 웹 서버가 충돌하는 문제를 해결했습니다. (NEO-10862)
-* **프로필 및 Target** 화면에서 수신자를 검색할 수 없는 문제를 해결했습니다. (NEO-8228)
+* 에서 수신자를 검색할 수 없는 문제를 해결했습니다 **프로필 및 Target** 화면. (NEO-8228)
 * 레코드 수가 많은 경우 이벤트 내역 폴더에 액세스할 때 시간 초과 오류가 발생하는 문제를 수정했습니다. (NEO-11738)
 * LINE 게재 수신자가 &quot;접근 불가&quot;로 잘못 반환되는 문제를 해결했습니다. (NEO-10833)
 * oracle 시 추가 열이 있는 워크플로우 쿼리를 실행할 때 발생하는 문제를 해결했습니다. (NEO-11615)
@@ -237,6 +237,6 @@ UTF-8 데이터 정렬을 사용할 때 이제 &quot;LIKE &#39;string%&#39;(또�
 * Android 푸시 알림 게재의 추가 매개 변수에서 추적된 URL로 URL을 인코딩하는 문제가 해결되었습니다. (NEO-11468)
 * 매개 변수를 &#39;1일 간격&#39; 및 &#39;열기&#39;로 설정할 때 사용자 활동 보고서에서 발생하는 스크립트 오류를 수정했습니다. (NEO-11655)
 * 인증된 웹 프록시를 통해 중간 소싱 서버 또는 메시지 센터에 연결할 때 발생하는 문제를 해결했습니다. (NEO-11309)
-* SQL 보기&#x200B;**를 기반으로 특정 스키마**&#x200B;의 요소를 선택한 후 새 게재 컴포지션을 저장할 때 발생하는 Oracle 오류를 수정했습니다. (NEO-11682)
+* 특정 스키마의 요소를 선택한 후 새 게재 컴포지션을 저장할 때 발생하는 Oracle 오류를 수정했습니다 **SQL 보기 기반**. (NEO-11682)
 * 압축 해제 옵션을 사용하여 파일 로드 활동을 통해 .csv 가 포함된 zip 파일을 처리할 때 긍정 오류(false positive)가 포함된 거부 파일이 생성되던 문제를 수정했습니다.
 * xtchjoblog가 이제 정리 작업에 의해 제거됩니다.

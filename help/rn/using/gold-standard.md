@@ -49,7 +49,7 @@ _2021년 4월 14일_
 >
 > * Adobe IMS(Identity Management Service)를 통해 Adobe ID로 Campaign에 연결하는 경우 **2021년 6월 30일** 이후부터 Campaign 서버와 클라이언트 콘솔을 모두 업그레이드해야 Campaign에 연결할 수 있습니다. [자세히 알아보기](../../technotes/using/ims-updates.md)
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign [이(가) 있는 기존 oAuth 인증 모드가 **2021년 9월**&#x200B;에서 중단되었습니다. ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) 호스팅된 환경은 **2022년 2월 23일**&#x200B;까지 확장의 혜택을 받습니다. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign을 사용하는 기존 oAuth 인증 모드 [사용 중지되었습니다.](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) on **2021년 9월**. 호스팅된 환경은 확장 프로그램을 통해  **2022년 2월 23일**. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
 
 >
 >[[!DNL Gold Standard] 11 업그레이드 FAQ](https://helpx.adobe.com/kr/campaign/kb/gold-standard-upgrade.html)에서 자세히 알아보세요.

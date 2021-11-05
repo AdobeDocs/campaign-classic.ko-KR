@@ -50,12 +50,12 @@ ht-degree: 7%
 * 전자 메일 보관 로그가 개선되어 BCC 보관을 통해 성공적으로 배달되었거나 실패한 전자 메일을 보다 쉽고 정확하게 확인할 수 있습니다. (NEO-10675)
 * 추적 브로드로그에서 고객 IP 대신 로드 밸런서 IP가 표시되는 문제를 해결했습니다. (NEO-11295)
 * PostgreSQL 데이터베이스에 FDA 연결을 사용할 때 LATIN1 인코딩 오류가 수정되었습니다. (NEO-11299)
-* **[!UICONTROL Prepare the personalization data with a workflow]** 배달 옵션을 사용할 때 발생하는 문제를 해결했습니다. (NEO-11047, NEO-11301)
+* 를 사용할 때 발생하는 문제를 수정했습니다 **[!UICONTROL Prepare the personalization data with a workflow]** 배달 옵션. (NEO-11047, NEO-11301)
 * 게재 속성을 잘못 덮어쓰는 무작위 문제가 수정되었습니다. (NEO-11015)
-* **[!UICONTROL Survey answers]** 워크플로우 활동에서 계산된 필드를 사용할 때 발생하는 문제를 수정했습니다. (NEO-11382)
-* XML에 저장된 데이터를 **[!UICONTROL Survey answers]** 워크플로우 활동에서 사용할 때 발생하는 문제를 해결했습니다. (NEO-10816)
+* 에서 계산된 필드를 사용할 때 발생하는 문제를 수정했습니다 **[!UICONTROL Survey answers]** 워크플로우 활동. (NEO-11382)
+* XML에 저장된 데이터를 **[!UICONTROL Survey answers]** 워크플로우 활동. (NEO-10816)
 * 빌드 8935로 서버 업그레이드를 수행할 때 발생하는 문제를 해결했습니다.
-* **[!UICONTROL Survey answers]** 워크플로우 활동이 완전히 구성되지 않은 경우 업그레이드 후 로그에 불필요한 오류가 표시되는 문제를 해결했습니다.
+* 업그레이드 후 로그에 **[!UICONTROL Survey answers]** 워크플로우 활동이 완전히 구성되지 않았습니다.
 * FDA Teradata: SQL 테이블의 자동 증분 필드 및 색인 문제를 해결했습니다.
 
 ## 릴리스 18.4.3 - 빌드 8935{#release-18-4-3-build-8935}
@@ -64,11 +64,11 @@ ht-degree: 7%
 
 **개선 사항**
 
-* Microsoft Edge 및 Internet Explorer의 추적 인코딩 문제를 해결했습니다. (NEO-11257)
+* Microsoft Edge 및 Internet Explorer의 추적 인코딩 문제를 수정했습니다. (NEO-11257)
 * LINE 게재에서 이미지 링크 개인화 문제를 해결했습니다. (NEO-11077)
 * ID 시퀀스 생성 메커니즘이 제대로 작동하지 않는 문제를 수정했습니다. (NEO-11115)
 * 정수 유형 조정 키와 함께 사용자 지정 네임스페이스를 사용할 때 개인 정보 보호(GDPR) 요청이 작동하지 않는 문제를 해결했습니다. (NEO-11123)
-* **[!UICONTROL Query]** 워크플로우 활동에서 **[!UICONTROL Distribution of values]** 옵션을 사용할 때 발생할 수 있는 오류를 수정했습니다. (NEO-10958)
+* 를 사용할 때 발생할 수 있는 오류를 수정했습니다. **[!UICONTROL Distribution of values]** 옵션 **[!UICONTROL Query]** 워크플로우 활동. (NEO-10958)
 * 마케팅 인스턴스에서 상호 작용 인스턴스로 오퍼 공간을 동기화할 때 발생하는 문제를 수정했습니다. (NEO-11162)
 * 업그레이드 후 긴 이름 인덱스 관리 개선
 
@@ -79,7 +79,7 @@ ht-degree: 7%
 **개선 사항**
 
 * Windows Server 업데이트가 제대로 작동하지 않는 문제를 해결했습니다.
-* XML에 저장된 데이터를 사용할 때 **[!UICONTROL Survey Result]** 활동의 문제를 해결했습니다. 보고서가 잘못 표시되었습니다. (NEO-10816)
+* 에서 문제가 해결되었습니다. **[!UICONTROL Survey Result]** XML에 저장된 데이터를 사용할 때 활동을 클릭합니다. 보고서가 잘못 표시되었습니다. (NEO-10816)
 * 바운스 메일 서버를 사용할 때 inMail 프로세스에서 발생할 수 있는 성능 문제를 수정했습니다. (NEO-10641)
 * 1000개 이상의 스키마를 업그레이드할 때 발생할 수 있는 데이터베이스 업그레이드 문제를 해결했습니다.
 
@@ -110,7 +110,7 @@ ht-degree: 7%
    <td> <p>이제 Adobe Campaign은 전용 워크플로우를 통해 매월 업데이트되는 활성 프로필 목록을 제공합니다.</p> <p>자세한 내용은 <a href="../../platform/using/about-profiles.md#active-profiles">세부 설명서</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
-   <td> Android 푸시 커넥터 향상<br /> </td> 
+   <td> Android 푸시 커넥터 개선 사항<br /> </td> 
    <td> <p>Android 커넥터가 향상된 처리량을 지원합니다. </p> <p>자세한 내용은 <a href="../../delivery/using/configuring-the-mobile-application.md">세부 설명서</a>를 참조하세요.</p> </td> 
   </tr> 
  </tbody> 
@@ -126,22 +126,22 @@ ht-degree: 7%
 **개선 사항**
 
 * **LINE 채널 - 아키텍처 향상**: Adobe Campaign의 다른 모든 채널과 마찬가지로, 이제 모든 배포 유형에서 LINE 채널이 지원됩니다. 호스팅, 하이브리드 및 온-프레미스.
-* **시퀀스 자동 생성**: 대량의 개체가 있는 Campaign 인스턴스의 수명을 늘리기 위해 ID 생성 메커니즘이 개선되었습니다. 자세한 내용은 이 [기술 정보](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html)를 참조하십시오.
+* **시퀀스 자동 생성**: 대량의 개체가 있는 Campaign 인스턴스의 수명을 늘리기 위해 ID 생성 메커니즘이 개선되었습니다. 자세한 내용은 다음을 참조하십시오 [기술 정보](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html).
 
 **기타 변경 사항**
 
 * 명령줄을 사용하여 패키지를 가져올 때 새 모드를 사용할 수 있으므로 순환 종속성이 가능합니다(큰 패키지에는 권장되지 않음). 자세한 내용은 &#39;기술 진화&#39; 섹션을 참조하십시오. (NEO-8979)
 * teradata에서 많은 양의 데이터 로드를 위한 성능이 개선되고 로그에서 처리된 데이터의 올바른 값이 표시되지 않는 문제가 해결되었습니다. (NEO-10429)
 * 이제 Audience Manager에서 대상을 가져오는 작업이 분할 파일에서 작동합니다. 이전에는 importSharedAudience 기술 워크플로우에서 세그먼트의 마지막 파일만 가져왔습니다. (NEO-10156)
-* Windows에서 Campaign 서버의 기본 설치 경로가 변경되었습니다. 64비트 버전 설정을 시작할 때 기본 설치 경로는 다음과 같습니다. **C:\Program Files\Adobe\Adobe Campaign Classic v7** 대신 C:\Program Files (x86)\Adobe\Adobe Campaign Classic v7 ****
+* Windows에서 Campaign 서버의 기본 설치 경로가 변경되었습니다. 64비트 버전 설정을 시작할 때 기본 설치 경로는 다음과 같습니다. **C:\Program Files\Adobe\Adobe Campaign Classic v7** 대신 **C:\Program Files (x86)\Adobe\Adobe Campaign Classic v7**
 * 더 많은 도메인을 포함하고 처리량을 최적화하도록 기본 MX 규칙이 향상되었습니다.
 * 배포 마법사 SOAP 호출에 대한 액세스 제한 적용(xtk:serverOptions#SaveOptions).
 * weka.jar 오래된 라이브러리가 제거되고 보안 최적화를 위해 OpenSSL 라이브러리가 업데이트되었습니다.
 * 인스턴스 성능을 보호하기 위해 청구 기술 워크플로우가 개선되었습니다.
-* 관리자가 모든 연산자의 암호를 설정하거나 재설정할 수 있는 기능이 복원되었습니다. 이렇게 하려면 연산자를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]** > **[!UICONTROL Reset password]** 을 선택하고 연산자의 새 암호를 설정합니다. 운영자가 처음 다시 연결할 때 암호를 변경하는 것이 좋습니다. 자세한 내용은 [세부 설명서](../../production/using/lost-password.md)를 참조하세요.
+* 관리자가 모든 연산자의 암호를 설정하거나 재설정할 수 있는 기능이 복원되었습니다. 이렇게 하려면 연산자를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]** > **[!UICONTROL Reset password]** 연산자의 새 암호를 설정합니다. 운영자가 처음 다시 연결할 때 암호를 변경하는 것이 좋습니다. 자세한 내용은 [세부 설명서](../../production/using/lost-password.md)를 참조하세요.
 * Adobe Target의 새로운 멀티 테넌트 기능을 지원하기 위해 이제 Target과 통합을 위한 옵션 및 외부 계정을 구성할 때 새로운 &quot;at_property&quot; 매개 변수를 URL에 추가할 수 있습니다. 이 매개 변수에 사용할 값은 Adobe Target에서 찾을 수 있으며, Target 호출을 수행할 때 Campaign에서 사용합니다. 자세한 내용은 [세부 설명서](../../integrations/using/inserting-a-dynamic-image.md)를 참조하세요.
 * 이제 Adobe Target에서 제공하는 이미지를 클릭하면 열 기본 랜딩 페이지를 지정할 수 있습니다. 이전에는 해당 이미지를 클릭하면 대신 이메일을 만들 때 기본 이미지 세트가 표시되었습니다. 자세한 내용은 [세부 설명서](../../integrations/using/inserting-a-dynamic-image.md)를 참조하세요.
-* 추적 출력을 강제 적용하기 위해 외부 계정에 **SMPP 추적 활성화** 확인란이 추가되었습니다. 자세한 내용은 [세부 설명서](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)를 참조하세요.
+* 추가됨 **SMPP 추적 사용** 추적 출력을 강제 적용하기 위한 외부 계정의 확인란 자세한 내용은 [세부 설명서](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)를 참조하세요.
 
 **기술 진화**
 
@@ -182,7 +182,7 @@ urlEncode 함수
 
 패키지 가져오기 새 모드
 
-명령줄을 사용하여 패키지를 가져올 때 새 모드를 사용할 수 있으므로 순환 종속성이 가능합니다(큰 패키지에는 권장되지 않음). 기존 기능은 그대로 유지됩니다. 순환 종속성이 있는 이러한 패키지의 경우 명령줄 패키지 가져오기에 새 플래그 **-usejs**&#x200B;가 추가되었습니다. 실행되면 인터페이스에서 패키지 가져오기를 수행할 때와 마찬가지로 JSEngine을 사용합니다.
+명령줄을 사용하여 패키지를 가져올 때 새 모드를 사용할 수 있으므로 순환 종속성이 가능합니다(큰 패키지에는 권장되지 않음). 기존 기능은 그대로 유지됩니다. 순환 종속성이 있는 패키지의 경우 새 플래그 **-usejs** 이(가) 명령줄 패키지 가져오기에 추가되었습니다. 실행되면 인터페이스에서 패키지 가져오기를 수행할 때와 마찬가지로 JSEngine을 사용합니다.
 
 ```
 nlserver package -instance:fresh -import:sup-packInstallTest.xml -verbose -usejs
@@ -193,14 +193,14 @@ nlserver package -instance:fresh -import:sup-packInstallTest.xml -verbose -usejs
 * 게재 및 추적 로그를 Adobe Campaign Standard에서 Adobe Campaign Classic으로 복제할 때 발생하는 동기화 문제를 수정했습니다. (NEO-10023)
 * 빠른 로드 작업 실패 후 ETL 워크플로우가 다시 시작되는 경우 Teradata의 오류 및 로그 테이블 처리 문제가 해결되었습니다. 이제 워크플로우가 다시 시작될 때마다 오류 및 로그 테이블이 제대로 삭제됩니다. (NEO-10672)
 * FDA 패키지가 설치된 경우 Hive 패키지(Hadoop에 필요)를 자동으로 설치하도록 업그레이드 후 문제를 해결했습니다. (NEO-10592)
-* 잘못된 도메인을 **정의되지 않음** 오류로 처리하는 오류가 수정되었습니다. (NEO-10248)
+* 잘못된 도메인을 **정의되지 않음** 오류가 발생했습니다. (NEO-10248)
 * Android 푸시 게재를 전송할 때 deliveryLogStats 표에 중복 로그가 발생하는 문제를 해결했습니다. (NEO-10234)
 * 바코드 스캐너에서 특정 바코드 형식을 읽을 수 없는 문제를 해결했습니다. (NEO-10125)
 * 비 ASCII 문자를 사용할 때 &#39;urlEncode&#39; JavaScript 함수 문제를 해결했습니다. 자세한 내용은 &#39;기술 진화&#39; 섹션을 참조하십시오. (NEO-10123)
 * teradata 데이터베이스에서 sha256 함수를 포함하는 쿼리를 실행할 때 발생하는 문제가 해결되었습니다. (NEO-10119)
 * 매우 큰 SalesForce 테이블을 사용할 때 SalesForce 활동에서 발생할 수 있는 워크플로우 메모리 오류를 수정했습니다. (NEO-9900)
-* FDA를 사용할 때 타겟팅 워크플로우 활동에서 **보완 생성** 옵션 문제를 수정했습니다. (NEO-9878)
-* 중간 소싱을 사용할 때 마케팅 인스턴스에서 **Processed** 및 **Success** 지표가 업데이트되지 않는 문제를 수정했습니다. (NEO-9454)
+* Adobe Analytics 도구에서 **보완 생성** FDA를 사용할 때 워크플로우 활동 타깃팅의 옵션을 선택합니다. (NEO-9878)
+* 로 이어질 수 있는 문제를 수정했습니다. **처리됨** 및 **성공** 중간 소싱을 사용할 때 마케팅 인스턴스에서 지표가 업데이트되지 않습니다. (NEO-9454)
 * 플랫폼에서 총 1만 개 이상의 오퍼가 총 10만 개 이상인 경우 상호 작용 비제안 규칙이 수정되었습니다(NEO-9352).
 * XML 외부 파일을 사용할 때 게재 대상을 지정할 수 없는 문제를 해결했습니다. (NEO-9312)
 * 오퍼에서 가설을 실행하고 제안 상태를 업데이트할 때 워크플로우 오류가 발생하는 문제를 수정했습니다. (NEO-9304)

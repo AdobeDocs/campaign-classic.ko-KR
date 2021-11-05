@@ -7,7 +7,7 @@ user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 �
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 23c5892189c59008f82ec453c97d24efe82fd2ae
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2566'
 ht-degree: 100%
 

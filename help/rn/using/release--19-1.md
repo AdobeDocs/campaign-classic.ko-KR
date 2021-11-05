@@ -3,7 +3,7 @@ product: campaign
 title: Campaign 19.1 릴리스 노트
 description: Campaign 19.1 릴리스 노트
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
-source-git-commit: d5585f0130611db399811536e80e76b61c998b9c
+source-git-commit: 86eb9814fae42992b5ca0ce233f88ad90086007d
 workflow-type: tm+mt
 source-wordcount: '3308'
 ht-degree: 25%
@@ -43,23 +43,23 @@ _2020년 12월 16일_
 >
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다. [자세히 알아보기](../../technotes/using/ims-updates.md)
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign [이(가) 있는 기존 oAuth 인증 모드가 2021년 8월 18일에 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)중단되었습니다. **** 호스팅된 환경은 **2021년 11월 30일까지 확장의 혜택을 받습니다**. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2021년 11월 30일까지 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign을 사용하는 기존 oAuth 인증 모드 [사용 중지되었습니다.](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) on **2021년 9월**. 호스팅된 환경은 확장 프로그램을 통해  **2022년 2월 23일**. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
 
 
 
 **개선 사항**
 
 * 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
-* 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O으로 이동되었습니다. [자세히 알아보기](../../integrations/using/configuring-adobe-io.md)
+* 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O으로 이동되었습니다. [추가 정보](../../integrations/using/configuring-adobe-io.md)
 * iOS APNs 레거시 이진 프로토콜에 대한 지원이 종료됨에 따라 업그레이드 후 이 프로토콜을 사용하는 모든 인스턴스는 HTTP/2 프로토콜로 업데이트됩니다.
 * SSRF(Server Side Request Forgery) 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-27777)
 * 연결 오류 후 SMPP 커넥터가 비활성화되어 다른 SMS 게재가 전송되지 않고 성능 문제가 발생하는 문제를 해결했습니다.
 * 워크플로우 활동을 통해 설명 보고서를 생성할 때 잘못된 백분율을 표시하는 문제를 수정했습니다. (NEO-14314)
-* 배달&#x200B;**중에**&#x200B;중복 주소 제외 옵션을 선택하지 않았을 때 게재 준비 문제가 해결되었습니다. (NEO-13240)
+* 다음 상황에서 **배달 중 중복 주소 제외** 옵션을 선택하지 않았습니다. (NEO-13240)
 * **보강** 활동을 실행할 때 워크플로우가 실패할 수 있는 문제를 해결했습니다. (NEO-17338)
 * 외부 데이터베이스에서 레코드를 가져와 캠페인 데이터베이스에 삽입할 때의 워크플로우 문제를 해결했습니다. (NEO-26359)
 * 식 구문 분석기를 지울 때 메모리 손상을 방지하여 서버 충돌 문제를 해결했습니다.
-* 빌드 9032로 업그레이드한 후 Oracle 데이터베이스에서 **NoNull** 함수가 작동하지 않는 문제를 해결했습니다. (NEO-26488)
+* Adobe Analytics 도구에서 **NoNull** 빌드 9032로 업그레이드한 후 Oracle 데이터베이스에서 작업할 때 사용됩니다. (NEO-26488)
 * 캠페인 템플릿 설명을 편집 시 기호(예: 일본어 문자)를 복사 및 붙여넣을 때 **저장** 단추가 표시되지 않는 문제를 해결했습니다. (NEO-27071)
 * **저장** 단추를 클릭하기 전에 창 외부를 클릭할 때 캠페인 또는 캠페인 템플릿의 설명이 저장되지 않는 문제를 해결했습니다. (NEO-27449)
 * 최신 Windows 10 업데이트 후 Adobe Campaign에 로그인할 수 없는 프록시 구성 수준의 문제를 해결했습니다. (NEO-27813)
@@ -83,7 +83,7 @@ _2020년 9월 15일_
 * 부적절한 ASCII 문자 제어로 인해 이메일 게재에서 미러 페이지 URL이 잘못 정의되는 문제를 해결했습니다. (NEO-26084)
 * 더 이상 사용되지 않은 jar 파일에 대한 참조(iOS 알림)를 제거하도록 catalina.properties의 jarToSkip 목록이 업데이트되었습니다.
 * 업그레이드 후 게시 작업을 하지 못했던 회귀 문제를 해결했습니다.
-* PDF로 내보낼 때 잘림으로 표시되는 기본 제공 게재 보고서의 회귀 문제를 해결했습니다. (NEO-25757)
+* PDF으로 내보낼 때 잘림으로 표시되는 기본 제공 게재 보고서의 회귀 문제를 해결했습니다. (NEO-25757)
 * 추적 URL에서 리디렉션할 때 인코딩 매개 변수 값을 삭제한 문제를 해결했습니다(일본어 문자에 영향을 미침). (NEO-25637)
 * 개인화된 도메인에서 서명되지 않은 링크가 허용되어야 할 때 차단되는 문제를 해결했습니다. (NEO-25210)
 * 워크플로우의 실패를 야기하는 워크플로우 내 계산된 필드에 영향을 주는 회귀 문제를 해결했습니다. (NEO-25194)
@@ -96,10 +96,10 @@ _2020년 9월 15일_
 * HTML 콘텐츠 태그 외부에 Javascript 코드가 있을 때 이메일이 전송되지 않는 문제를 수정했습니다. (NEO-18628)
 * 트랜잭션 메시지 추적 표시기가 추적 워크플로우에 의해 업데이트되지 않는 문제를 해결했습니다. (NEO-17770)
 * 응답 시간을 최적화하기 위해 데이터베이스 업데이트 마법사의 성능을 개선하여 SQL 문을 줄일 수 있습니다.
-* 초기화되지 않은 변수로 인해 **텍스트 콘텐츠** 탭에서 이메일의 추적된 URL을 선택 취소할 때 발생할 수 있는 콘솔 충돌 문제를 수정했습니다. (NEO-13545)
+* 이메일에서 추적된 URL을 선택 취소할 때 발생할 수 있는 콘솔 충돌 문제를 수정했습니다. **텍스트 컨텐츠** 초기화되지 않은 변수로 인한 탭 (NEO-13545)
 * 초기화되지 않은 변수(m_pCurlReader)로 인해 Azure Blob 저장소 외부 계정을 사용하여 파일 전송 활동에 파일을 업로드할 수 없는 문제를 해결했습니다. (NEO-13717)
 * 웹 애플리케이션을 다시 게시하기 전에 Apache와 웹 서버가 꺼지는 업그레이드 후 문제를 해결했습니다. (NEO-27155)
-* **Scheduler** 워크플로우 활동에서 시간을 설정할 때 잘못된 시간대가 선택되는 회귀 문제를 해결했습니다.
+* 에서 시간을 설정할 때 잘못된 시간대가 선택되는 회귀 문제를 해결했습니다. **스케줄러** 워크플로우 활동.
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 19.1.6 - 빌드 9035 {#release-19-1-6-build-9035}
 
@@ -125,7 +125,7 @@ _2019년 8월 13일_
 
 * 데이터 관리 작업에서 데이터 추출 중에 FDA 데이터베이스가 아닌 기본 데이터베이스에서 실행된 SQL 문 &#39;SELECT COUNT&#39; 문제를 수정했습니다.
 * 고객 인프라 기능을 개선하기 위해 이제 서버 구성 파일에서 SFTP 프록시 선언을 사용할 수 있습니다.
-* **데이터 로드(RDBMS)** 워크플로우 활동에서 **연결된 테이블 추가** 필드가 비어 있는 경우 발생하는 충돌 문제가 해결되었습니다. (NEO-12213)
+* 다음 상황에서 **연결된 테이블 추가** 필드에 비어 있습니다. **데이터 로드(RDBMS)** 워크플로우 활동. (NEO-12213)
 * 명령줄에서 midEmitter 패키지 설치 문제를 해결했습니다.
 * Microsoft Dynamics를 사용하는 AC 커넥터 내에서 OAuth 자격 증명을 지원하도록 새 인증 옵션이 추가되었습니다. (NEO-11982)
 * Hive FDA에서 쿼리 및 데이터 로드 워크플로우 활동이 실패하는 UUID(고유 범용 식별자) 관리 문제를 수정했습니다.
@@ -136,7 +136,7 @@ _2019년 8월 13일_
 
 >[!NOTE]
 >
->19.1.4 [!DNL Gold Standard] 릴리스가 이 [page](../../rn/using/gold-standard.md)에 나열되어 있습니다.
+>19.1.4 [!DNL Gold Standard] 릴리스는 다음 항목에 나열되어 있습니다. [페이지](../../rn/using/gold-standard.md).
 
 
 ## ![](assets/do-not-localize/red_2.png) 릴리스 19.1.2 - 빌드 9029{#release-19-1-2-build-9029}
@@ -171,11 +171,11 @@ _2019년 5월 30일_
  <tbody> 
   <tr> 
    <td> Campaign 컨트롤 패널<br /> </td> 
-   <td> <p>관리자로서 작업의 효율성을 높이려면 저장소 모니터링을 통해 SFTP 서버의 설정을 관리하고, 저장소에 IP 주소허용 목록에 추가하다를 추가하고, 각 인스턴스에 대해 SSH 키를 설치하도록 합니다. Campaign 컨트롤 패널은 현재 AWS에서 호스팅되는 고객에게만 제공됩니다(<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">오늘 Experience Cloud을 통해 로그인</a>).</p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko">방법 비디오</a>를 참조하십시오. </p><p>참고: Campaign 컨트롤 패널에 액세스하려면 최신 Campaign 빌드로 업그레이드할 필요가 없습니다.</p> </td> 
+   <td> <p>관리자로서 작업의 효율성을 높이려면 저장소 모니터링을 통해 SFTP 서버의 설정을 관리하고, 저장소에 IP 주소허용 목록에 추가하다를 추가하고, 각 인스턴스에 대해 SSH 키를 설치하도록 합니다. 현재 Campaign 컨트롤 패널은 AWS에서 호스팅되는 고객에게만 제공됩니다(<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">오늘 Experience Cloud을 통해 로그인</a>).</p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ko">방법 비디오</a>를 참조하십시오. </p><p>참고: Campaign 컨트롤 패널에 액세스하려면 최신 Campaign 빌드로 업그레이드할 필요가 없습니다.</p> </td> 
   </tr> 
     <tr> 
    <td> 감사 추적<br /> </td> 
-   <td> <p>관리자는 Adobe Campaign Classic 인스턴스 내에서 수행된 변경 사항을 모니터링하고 관리하여 생산성을 높입니다. 감사 추적에서는 소스 스키마, 워크플로우 및 옵션에서 수행한 작업을 기록합니다. 요소의 생성, 수정 또는 삭제 여부를 빠르게 확인할 수 있습니다.</p><p>자세한 내용은 <a href="../../production/using/audit-trail.md">상세 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/monitoring/audit-trail.html">방법 비디오</a>를 참조하십시오.</p></td> 
+   <td> <p>관리자는 Adobe Campaign Classic 인스턴스 내에서 수행된 변경 사항을 모니터링하고 관리하여 생산성을 높입니다. 감사 추적에서는 소스 스키마, 워크플로우 및 옵션에서 수행한 작업을 기록합니다. 요소의 생성, 수정 또는 삭제 여부를 빠르게 확인할 수 있습니다.</p><p>자세한 내용은 <a href="../../production/using/audit-trail.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/monitoring/audit-trail.html">방법 비디오</a>.</p></td> 
   </tr> 
   <tr> 
    <td> 보호, 견고성 및 확장성<br /> </td> 
@@ -183,7 +183,7 @@ _2019년 5월 30일_
   </tr> 
   <tr> 
    <td> 호환성 매트릭스 업데이트<br /> </td> 
-   <td> 이 새 버전에서 Adobe Campaign은 이제 다음 데이터베이스 시스템을 지원합니다. <a href="https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html">호환성 매트릭스</a>.<br /> 를 참조하십시오. 
+   <td> 이 새 버전에서 Adobe Campaign은 이제 다음 데이터베이스 시스템을 지원합니다. 자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html">호환성 매트릭스</a>.<br /> 
     <ul> 
      <li> <p>Oracle 18c</p> </li> 
      <li> <p>MySQL 5.7 (FDA)</p> </li> 
@@ -197,7 +197,7 @@ _2019년 5월 30일_
 
 **향상된 보안 기능**
 
-* 보안상의 이유로 **[!UICONTROL Data loading (file)]** 워크플로우 활동에서 **[!UICONTROL Pre-process the file]** 옵션을 사용할 때 더 이상 임의 명령을 삽입할 수 없습니다. 이제 3가지 옵션 중에서 선택할 수 있는 드롭다운 목록을 사용할 수 있습니다. **[!UICONTROL None]**, **[!UICONTROL Decompression]**(zcat) 또는 **[!UICONTROL Decrypt]** (gpg) XtkSecurity_Disable_Preproc 보안 플래그가 추가되었습니다. 새 고객의 경우 이 옵션이 0으로 설정됩니다. 기존 고객의 경우 이 옵션은 이전 동작을 유지하기 위해 업그레이드 후 가 1로 설정됩니다. 이 [섹션](../../workflow/using/data-loading--file-.md)을 참조하십시오.
+* 보안상의 이유로 **[!UICONTROL Pre-process the file]** 옵션 **[!UICONTROL Data loading (file)]** 워크플로우 활동. 이제 3가지 옵션 중에서 선택할 수 있는 드롭다운 목록을 사용할 수 있습니다. **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) 또는 **[!UICONTROL Decrypt]** (gpg). XtkSecurity_Disable_Preproc 보안 플래그가 추가되었습니다. 새 고객의 경우 이 옵션이 0으로 설정됩니다. 기존 고객의 경우 이 옵션은 이전 동작을 유지하기 위해 업그레이드 후 가 1로 설정됩니다. 다음을 참조하십시오 [섹션](../../workflow/using/data-loading--file-.md).
 * 표준 시간대가 설정되지 않은 FDA 외부 계정의 연결을 테스트할 때 발생하는 암호 가시성 문제를 해결했습니다.
 * PDFBox 라이브러리가 제거되었습니다.
 * Tomcat이 버전 7.0.93으로 업데이트되었습니다.
@@ -213,28 +213,28 @@ _2019년 5월 30일_
 
 **보호, 견고성 및 확장성 개선 사항**
 
-* 수명 - XtkNewId 시퀀스 사용 최적화: 가장 많이 사용하는 테이블이 xtkNewId 시퀀스에서 전용 시퀀스로 이동되었습니다. [자세히 표시](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* 수명 - XtkNewId 시퀀스 사용 최적화: 가장 많이 사용하는 테이블이 xtkNewId 시퀀스에서 전용 시퀀스로 이동되었습니다. [자세히 읽기](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * HTTP v2를 통한 FDA: HTTP를 통한 FDA 프로토콜은 Hybrid 배포, 특히 broadLog 검색 및 게재 준비에 널리 사용됩니다. 데이터 검색 또는 푸싱과 같은 네트워크 문제와 가능한 오류를 방지하기 위해 견고성 기능이 향상되었습니다. 이렇게 하려면 연결의 양쪽 끝에서 빌드가 최신 상태여야 하며 그렇지 않으면 이전 프로토콜은 계속 사용됩니다.
 * 추적 워크플로우: 추적 워크플로우 견고성이 향상되었습니다. 추적 로그 삽입/업데이트 및 URL 추적 사용자 지정과 관련된 몇 가지 문제가 수정되었습니다. 또한 이제 추적 워크플로우에서 오류로 인해 워크플로우를 중지할 수 있는 추적 로그 문제를 감지합니다. 이제 이러한 문제가 삭제되고 처리되지 않습니다.
 * 정리 워크플로우: 잠재적인 오류 및 중지를 방지하기 위해 정리 워크플로우가 개선되었습니다. 데이터베이스 크기와 성능을 최적화합니다.
 * 트랜잭션 메시지에 포함된 이미지: 가능한 충돌 또는 누락된 이미지를 방지하기 위해 트랜잭션 메시지에 포함된 이미지에 대한 전체 지원을 추가했습니다.
 * 데이터베이스 크기 - XtkJobLog: 이 테이블에 제거 메커니즘이 추가되었습니다. 이는 데이터베이스 크기에 긍정적인 영향을 줍니다.
-* 숨은 참조 보관: 숨은 참조 보관에 대한 기본 매개 변수가 보관 속도를 증가하도록 변경되었습니다. [자세히 표시](../../installation/using/email-archiving.md#parameters)
+* 숨은 참조 보관: 숨은 참조 보관에 대한 기본 매개 변수가 보관 속도를 증가하도록 변경되었습니다. [자세히 읽기](../../installation/using/email-archiving.md#parameters)
 * 데이터베이스 구조 업데이트: 데이터베이스 구조 업데이트 마법사에서 생성한 SQL 요청이 개선되어 실행 속도가 빨라졌습니다.
 * 운영자 작업에 대한 보호 기능: 연산자가 플랫폼의 무결성에 영향을 줄 수 있는 작업을 수행하지 못하도록 몇 가지 보안 기능이 구현되었습니다. 기본 제공 스키마는 더 이상 인터페이스를 통해 삭제할 수 없습니다. 또한 관리자가 아닌 사용자는 워크플로우 소스 XML을 더 이상 편집할 수 없습니다.
-* 두 가지 새로운 옵션을 사용할 수 있습니다. **XtkSecurity_Restrict_EditXML**(게재 XML 코드 버전을 비활성화할 수 있음) 및 **NmsOperation_OperationMgtDebug**(operationMgt 기술 워크플로우 실행을 모니터링할 수 있음). [자세히 표시](../../installation/using/configuring-campaign-options.md)
+* 두 가지 새로운 옵션을 사용할 수 있습니다. **XtkSecurity_Restrict_EditXML** (게재 버전의 XML 코드를 비활성화할 수 있음) 및 **NmsOperation_OperationMgtDebug** (operationMgt 기술 워크플로우 실행을 모니터링할 수 있습니다.) [자세히 읽기](../../installation/using/configuring-campaign-options.md)
 
 **기타 변경 사항**
 
 * 푸시 알림: 이제 iOS 푸시에 대한 스레드 ID 옵션이 지원됩니다.
 * 업그레이드 후 문제를 일으킬 수 있는 긴 이름 인덱스 관리를 개선했습니다.
-* 이제 디메일 게재를 분석하는 동안 배포 마법사에서 게시 모드가 **[!UICONTROL None]** 로 설정된 경우 오류가 기록되고 분석이 중지됩니다. &quot;게시 모드가 &#39;없음&#39;으로 설정되어 있습니다. 이미지를 포함할 수 없습니다. 기능 휴대폰에는 이미지가 표시되지 않습니다.&quot; (NEO-12208)
+* 이제 디메일 게재를 분석하는 동안 게시 모드가 **[!UICONTROL None]** 배포 마법사에서 오류가 기록되고 분석이 중지됩니다. &quot;게시 모드가 &#39;없음&#39;으로 설정되어 있습니다. 이미지를 포함할 수 없습니다. 기능 휴대폰에는 이미지가 표시되지 않습니다.&quot; (NEO-12208)
 * 트랜잭션 메시징을 위해 브로드로그 관리가 개선되었습니다. 브로드로그가 실행 인스턴스에서 제어 인스턴스로 동기화되면 @lastModified 필드가 시스템의 현재 날짜로 업데이트됩니다. 제어 인스턴스에 대해 MC_Update_BlLastModified 옵션이 추가되었습니다. True는 컨트롤 인스턴스(기본 동작)에서 현재 날짜가 사용됨을 의미합니다. False는 실행 인스턴스 브로드로그의 @lastModified 날짜를 사용함을 의미합니다. (NEO-12579)
 * 게재 전송을 최적화하기 위해 쿠폰 임시 테이블에 인덱스가 추가되었습니다. (NEO-12437)
 * Analytics 통합에서 이제 % 문자로 AAM 세그먼트 데이터를 검색할 수 있습니다. (NEO-12025)
 * 누락된 데이터 문제를 해결하기 위해 워크플로우 Heatmap에서 10,000개의 레코드 제한을 제거했습니다. (NEO-12329)
 * Open Office는 지원되지 않으며 이제 응용 프로그램에서 완전히 제거됩니다. 계속 사용 중인 경우 19.1부터 더 이상 작동하지 않으므로 Libre Office로 이동합니다.
-* 이제 sysfilter 속성을 사용하여 워크플로우에서 데이터 업데이트 활동에 대한 쓰기 액세스를 제한할 수 있습니다. [자세히 표시](../../configuration/using/filtering-schemas.md)
+* 이제 sysfilter 속성을 사용하여 워크플로우에서 데이터 업데이트 활동에 대한 쓰기 액세스를 제한할 수 있습니다. [자세히 읽기](../../configuration/using/filtering-schemas.md)
 
 **패치**
 
@@ -256,10 +256,10 @@ _2019년 5월 30일_
 * 오퍼 관리에서 테마를 사용하는 문제가 해결되었습니다. (NEO-11804)
 * 푸시 알림을 전송할 때 발생하는 성능 문제를 해결했습니다. (NEO-11787)
 * DM 전달을 위해 오퍼 관리에서 아웃바운드 XML 또는 CSV 파일을 미리 볼 때 발생하는 문제를 수정했습니다. (NEO-11290)
-* **소셜 네트워크 관리** (소셜 마케팅) 패키지를 설치할 때 발생하는 문제를 해결했습니다. (NEO-12081)
+* 을 설치할 때 발생하는 문제를 해결했습니다. **소셜 네트워크 관리** (소셜 마케팅) 패키지 (NEO-12081)
 * 올바른 액세스 권한이 있어도 웹 애플리케이션을 삭제할 수 없는 문제를 수정했습니다. (NEO-12072)
 * XML을 통해 개체를 내보내고 가져올 때 일부 값을 덮어쓰는 문제가 해결되었습니다. XtkExport_IncludeDefaultValues 옵션이 추가되었습니다. True(기본 동작)로 설정하면 모든 값이 내보내집니다. False로 설정하면 수정 사항이 기본값으로 덮어쓰여집니다. (NEO-11979)
-* 쿼리 후에 데이터 보강 활동을 추가할 때 **[!UICONTROL Alert]** 워크플로우 활동이 실패하는 문제를 해결했습니다. (NEO-12132)
+* Adobe Social이 사용자 지정 브랜드 도메인을 인식하지 못하는 원인이 되는 **[!UICONTROL Alert]** 쿼리 후에 데이터 보강 활동을 추가한 경우 워크플로우 활동이 실패합니다. (NEO-12132)
 * 데이터베이스에서 파이프라인(트리거) 오프셋이 성공적으로 검색되지 않아 중복 항목이 발생하는 Oracle 설정 문제를 수정했습니다. (NEO-12121)
 * Analytics 통합을 사용할 때 피벗 테이블에 표시 오류가 발생하는 문제를 해결했습니다(NEO-12103).
 * 설명 분석 보고서 관련 문제를 수정했습니다. (NEO-11414)

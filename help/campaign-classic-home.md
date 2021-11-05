@@ -6,7 +6,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: acb2c4e90c4ce349ea9c1ad53d703c13195872e1
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 50%
+ht-degree: 53%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 50%
 
 * **[9월 릴리스가 출시되었습니다!](rn/using/latest-release.md)**<br/> 릴리스 노트의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오
 
-* **[Apple Mail Privacy Protection ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)** FAQ  **[](technotes/using/apple-mail-app-privacy-protection.md)**<br/> 및 기술 정보iOS 15에 대한 Apple의 발표에 대한 초기 지침을 찾습니다
+* **[Apple 메일 개인 정보 보호 FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ko)** 및 **[기술 정보](technotes/using/apple-mail-app-privacy-protection.md)**<br/> iOS 15에 대한 Apple의 발표에 대한 응답으로 초기 지침을 찾습니다
 
-* **[IMS/Adobe ID을 통해 연결하시겠습니까? 최신 빌드](technotes/using/ims-updates.md)**<br/>로 업그레이드하십시오. IMS를 사용하여 Campaign에 연결하는 경우** 2021년 6월 30일 이후에 Campaign에 연결할 수 있도록 업그레이드해야 합니다.**
+* **[IMS/Adobe ID을 통해 연결하시겠습니까? 최신 빌드로 업그레이드](technotes/using/ims-updates.md)**<br/> IMS를 사용하여 Campaign에 연결하는 경우 후에 Campaign에 연결할 수 있도록 업그레이드해야 합니다** 2021년 6월 30일&#x200B;**
 
-* **[잘못된 하드 바운스 ](delivery/using/update-bounce-qualification.md)**<br/> 제거Apple 중단 후 잘못된 하드 바운스를 업데이트하는 방법을 알아봅니다
+* **[잘못된 하드 바운스 제거](delivery/using/update-bounce-qualification.md)**<br/> Apple 중단 후 잘못된 하드 바운스를 업데이트하는 방법을 알아봅니다
 
-* **[Campaign 인스턴스 ](technotes/using/acc-config-updates.md)**<br/> 보안 설정Campaign 플랫폼을 보호하기 위해 최신 빌드로 업데이트
+* **[Campaign 인스턴스 보안 설정](technotes/using/acc-config-updates.md)**<br/> Campaign 플랫폼 보안을 위해 최신 빌드로 업데이트
 
 * **[Adobe Experience Cloud Triggers 통합 업데이트](integrations/using/configuring-adobe-io.md)**<br/> 기존 oAuth 인증 서비스가 사용 수명이 종료되었습니다. Adobe I/O으로 마이그레이션해야 합니다.
 
