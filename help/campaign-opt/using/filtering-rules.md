@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 2%
@@ -15,11 +15,11 @@ ht-degree: 2%
 
 # 필터링 규칙{#filtering-rules}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 필터링 규칙을 사용하면 쿼리에 정의된 기준에 따라 제외할 메시지를 정의할 수 있습니다. 이러한 규칙은 타겟팅 차원에 연결됩니다.
 
-필터링 규칙은 다른 유형의 규칙(제어, 압력 등)에 연결할 수 있습니다 유형화에서 또는 전용 **필터링** 유형화로 그룹화합니다. 자세한 내용은 [필터링 유형화 만들기 및 사용](#creating-and-using-a-filtering-typology)을 참조하십시오.
+필터링 규칙은 다른 유형의 규칙(제어, 압력 등)에 연결할 수 있습니다 유형화에서 또는 전용 **필터링** 유형화. 자세한 내용은 [필터링 유형화 만들기 및 사용](#creating-and-using-a-filtering-typology).
 
 ## 필터링 규칙 만들기 {#creating-a-filtering-rule}
 
@@ -27,15 +27,15 @@ ht-degree: 2%
 
 이 필터를 정의하려면 다음 단계를 적용합니다.
 
-1. 모든 통신 채널에 적용할 수 있는 **[!UICONTROL Filtering]** 유형화 규칙을 만듭니다.
+1. 만들기 **[!UICONTROL Filtering]** 모든 통신 채널에 적용할 수 있는 유형화 규칙입니다.
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. 기본 타겟팅 차원을 변경하고 구독(**nms:subscription**)을 선택합니다.
+1. 기본 타겟팅 차원을 변경하고 구독(**nms:구독**).
 
    ![](assets/campaign_opt_create_filter_02.png)
 
-1. **[!UICONTROL Edit the query from the targeting dimension...]** 링크를 사용하여 필터를 만듭니다.
+1. 을 사용하여 필터 만들기 **[!UICONTROL Edit the query from the targeting dimension...]** 링크를 클릭합니다.
 
    ![](assets/campaign_opt_create_filter_03.png)
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 연결된 게재 또는 게재 개요를 기반으로 필터링 규칙의 애플리케이션 필드를 제한할 수 있습니다.
 
-이렇게 하려면 유형화 규칙의 **[!UICONTROL General]** 탭으로 이동하여 적용할 제한 유형을 선택하고 다음과 같이 필터를 만듭니다.
+이렇게 하려면 로 이동합니다. **[!UICONTROL General]** 유형화 규칙의 탭에서 적용할 제한 유형을 선택하고 다음과 같이 필터를 만듭니다.
 
 ![](assets/campaign_opt_create_filter_06.png)
 
@@ -59,15 +59,15 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->유형화 및 필터링 규칙은 워크플로우의 **[!UICONTROL Delivery outline]** 활동에서 사용할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/delivery-outline.md)을 참조하십시오.
+>유형화 및 필터링 규칙은 워크플로우의 **[!UICONTROL Delivery outline]** 활동. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/delivery-outline.md)을 참조하십시오.
 
 ## 필터링 유형화 만들기 및 사용 {#creating-and-using-a-filtering-typology}
 
-**[!UICONTROL Filtering]** 유형화를 만들 수 있습니다. 필터링 규칙만 포함합니다.
+다음을 만들 수 있습니다 **[!UICONTROL Filtering]** 유형화: 필터링 규칙만 포함합니다.
 
 ![](assets/campaign_opt_create_typo_filtering.png)
 
-타겟을 선택할 때 다음과 같은 특정 유형화를 게재에 연결할 수 있습니다. 게재 마법사에서 **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Exclusions]** 탭을 클릭합니다.
+타겟을 선택할 때 다음과 같은 특정 유형화를 게재에 연결할 수 있습니다. 게재 마법사에서 **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Exclusions]** 탭.
 
 ![](assets/campaign_opt_apply_typo_filtering.png)
 

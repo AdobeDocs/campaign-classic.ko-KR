@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 제어 규칙{#control-rules}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## 분석 및 중재 제어 규칙 {#analysis-and-arbitration-control-rules}
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## 컨트롤 규칙 만들기 {#creating-a-control-rule}
 
-필요에 따라 새 제어 규칙을 만들 수 있습니다. 이렇게 하려면 **[!UICONTROL Control]** 유형화 규칙을 만들고 **[!UICONTROL Code]** 탭의 SQL에 제어 공식을 입력합니다.
+필요에 따라 새 제어 규칙을 만들 수 있습니다. 이렇게 하려면 **[!UICONTROL Control]** 유형화 규칙을 입력하고 SQL에서 제어 공식을 입력합니다 **[!UICONTROL Code]** 탭.
 
 **예제:**
 
@@ -42,11 +42,11 @@ ht-degree: 1%
 
 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Control]** 유형화 규칙을 만듭니다. **[!UICONTROL Warning]** 경고 수준을 선택합니다.
+1. 만들기 **[!UICONTROL Control]** 유형화 규칙. 선택 **[!UICONTROL Warning]** 경고 수준.
 
    ![](assets/campaign_opt_create_control_01.png)
 
-1. **[!UICONTROL Code]** 탭에서 다음과 같이 원하는 임계값을 적용할 스크립트를 입력합니다.
+1. 에서 **[!UICONTROL Code]** 탭하려면 아래 표시된 대로 원하는 임계값을 적용할 스크립트를 입력합니다.
 
    ![](assets/campaign_opt_create_control_02.png)
 

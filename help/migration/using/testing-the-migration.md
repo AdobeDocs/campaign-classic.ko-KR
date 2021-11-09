@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 9ba2199eabf91381e87661f30c9af8aa0ce4cc26
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '729'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 1. 개발 환경 데이터베이스를 백업하십시오.
 1. 개발 인스턴스의 모든 Adobe Campaign 프로세스를 중지합니다.
 1. 운영 환경 데이터베이스를 백업하고 개발 환경으로 복원합니다.
-1. Adobe Campaign 서비스를 시작하기 전에 백업을 시작할 때 실행 중인 개체의 데이터베이스를 지울 수 있는 **freezeInstance.js** 자작화 스크립트를 실행합니다.
+1. Adobe Campaign 서비스를 시작하기 전에 **freezeInstance.js** 백업을 시작할 때 실행 중인 개체의 데이터베이스를 지울 수 있는 자작화 스크립트
 
    ```
    nlserver javascript nms:freezeInstance.js -instance:<instance> -arg:<run|dry>
@@ -35,12 +35,12 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >명령은 기본적으로 **dry** 모드에서 실행되고, 명령을 실행하지 않고 해당 명령에 의해 실행된 모든 요청을 나열합니다. 자궁 요청을 실행하려면 명령에서 **run**&#x200B;을 사용합니다.
+   >명령은 기본적으로 **건조하** 모드 및 는 명령을 실행하지 않고 해당 명령에 의해 실행된 모든 요청을 나열합니다. 소작화 요청을 실행하려면 **run** 를 입력합니다.
 
 1. 백업을 복원하여 백업이 올바른지 확인합니다. 데이터베이스, 테이블, 데이터 등에 액세스할 수 있는지 확인합니다.
 1. 개발 환경에서 마이그레이션 절차를 테스트합니다.
 
-   전체 절차는 [Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)으로 마이그레이션하기 위한 사전 요구 사항 섹션에 자세히 설명되어 있습니다.
+   전체 절차는 [Adobe Campaign 7으로 마이그레이션하기 위한 사전 요구 사항](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) 섹션을 참조하십시오.
 
 1. 개발 환경의 마이그레이션이 성공하면 프로덕션 환경을 마이그레이션할 수 있습니다.
 
@@ -50,13 +50,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Adobe Campaign 업데이트 명령(**postupgrade**)을 사용하면 리소스를 동기화하고 스키마와 데이터베이스를 업데이트할 수 있습니다. 이 작업은 응용 프로그램 서버에서 한 번만 수행할 수 있습니다. 리소스를 동기화한 후 **postupgrade** 명령을 사용하여 동기화가 오류 또는 경고를 생성하는지 여부를 감지할 수 있습니다.
+>Adobe Campaign 업데이트 명령(**postupgrade**)을 사용하면 리소스를 동기화하고 스키마와 데이터베이스를 업데이트할 수 있습니다. 이 작업은 응용 프로그램 서버에서 한 번만 수행할 수 있습니다. 리소스를 동기화한 후 **postupgrade** 명령을 사용하면 동기화가 오류나 경고를 생성하는지 여부를 감지할 수 있습니다.
 
 ## 마이그레이션 도구 {#migration-tools}
 
 다양한 옵션을 사용하면 마이그레이션의 영향을 측정하고 잠재적인 문제를 식별할 수 있습니다. 다음 옵션을 실행할 수 있습니다.
 
-* **config** 명령에서:
+* 에서 **config** 명령:
 
    ```
    nlserver.exe config <option> -instance:<instanceName>
@@ -70,11 +70,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->**-instance:`<instanceame>`** 옵션을 사용해야 합니다. **-allinstances** 옵션은 사용하지 않는 것이 좋습니다.
+>를 사용해야 합니다 **-instance:`<instanceame>`** 선택 사항입니다. 를 사용하지 않는 것이 좋습니다 **-allinstances** 선택 사항입니다.
 
 ### -showCustomEntities 및 -showDeletedEntities 옵션 {#showcustomentities-and--showdeletedentities-options}
 
-* **-showCustomEntities** 옵션은 모든 비표준 개체 목록을 표시합니다.
+* 다음 **-showCustomEntities** 옵션은 모든 비표준 객체 목록을 표시합니다.
 
    ```
    nlserver.exe config -showCustomEntities -instance:<instanceName>
@@ -86,7 +86,7 @@ ht-degree: 1%
    xtk_migration:opsecurity2 xtk:entity
    ```
 
-* **-showDeletedEntities** 옵션은 데이터베이스 또는 파일 시스템에 없는 모든 표준 개체 목록을 표시합니다. 누락된 각 객체에 대해 경로가 지정됩니다.
+* 다음 **-showDeletedEntities** 옵션에는 데이터베이스 또는 파일 시스템에서 누락된 모든 표준 객체의 목록이 표시됩니다. 누락된 각 객체에 대해 경로가 지정됩니다.
 
    ```
    nlserver.exe config -showDeletedEntities -instance:<instanceName>
@@ -117,7 +117,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 <table> 
  <thead> 
   <tr> 
-   <th> 식<br /> </th> 
+   <th> 표현식<br /> </th> 
    <th> 오류 코드<br /> </th> 
    <th> 로그 유형<br /> </th> 
    <th> 댓글<br /> </th> 
@@ -128,7 +128,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
    <td> 경고<br /> </td> 
-   <td> 이 유형의 구문은 더 이상 게재 개인화에서 지원되지 않습니다. <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>를 참조하십시오. 그렇지 않으면 값 유형이 올바른지 확인합니다.<br /> </td> 
+   <td> 이 유형의 구문은 더 이상 게재 개인화에서 지원되지 않습니다. 을(를) 참조하십시오. <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. 그렇지 않으면 값 유형이 올바른지 확인합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 
@@ -137,34 +137,36 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> 이 라이브러리는 사용하지 않아야 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> logon(<br />) </td> 
+   <td> logon(<br /> </td> 
    <td> PU-0003<br /> </td> 
    <td> 경고<br /> </td> 
-   <td> 이 연결 메서드는 더 이상 사용하지 않아야 합니다. <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">식별된 웹 응용 프로그램</a>을 참조하십시오.<br /> </td> 
+   <td> 이 연결 메서드는 더 이상 사용하지 않아야 합니다. 을(를) 참조하십시오. <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">식별된 웹 애플리케이션</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 새 SoapMethodCall(<br /> </td> 
    <td> PU-0004<br /> </td> 
    <td> 경고<br /> </td> 
-   <td> 이 함수는 <strong>sessionTokenOnly</strong> 모드에 있는 보안 영역에서 실행된 JavaScript 코드에서 사용되는 경우에만 지원됩니다.<br /> </td> 
+   <td> 이 함수는 의 보안 영역에서 실행된 JavaScript 코드에서 사용되는 경우에만 지원됩니다 <strong>sessionTokenOnly</strong> 모드.<br /> </td> 
   </tr> 
   <tr> 
    <td> sql=<br /> </td> 
    <td> PU-0005<br /> </td> 
    <td> 오류<br /> </td> 
-   <td> 이러한 유형의 오류로 인해 마이그레이션 오류가 발생합니다. <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> 를 참조하십시오. </td> 
+   <td> 이러한 유형의 오류로 인해 마이그레이션 오류가 발생합니다. 을(를) 참조하십시오. <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> 오류<br /> </td> 
-   <td> 이러한 유형의 오류로 인해 마이그레이션 오류가 발생합니다. <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>를 참조하십시오. 개요 유형 웹 애플리케이션 오류 로그(v6.02에서 마이그레이션)가 표시되는 경우 <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Campaign 구성</a>.<br /> 을 참조하십시오. </td> 
+   <td> 이러한 유형의 오류로 인해 마이그레이션 오류가 발생합니다. 을(를) 참조하십시오. <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. 개요 유형 웹 애플리케이션 오류 로그(v6.02에서 마이그레이션)가 나타나면 다음을 참조하십시오 <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Campaign 구성</a>.<br /> </td> 
   </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 
    <td> 오류<br /> </td> 
-   <td> 이 유형의 배포는 더 이상 지원되지 않습니다. 이제 Office 365 및 온-프레미스 Microsoft CRM 커넥터 배포 유형이 더 이상 사용되지 않습니다</a>. 웹 API 배포로 변경하려면 <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">웹 응용 프로그램</a>.<br /> 을 참조하십시오 </td>
+   <td> 이 유형의 배포는 더 이상 지원되지 않습니다. 이제 Office 365 및 온-프레미스 Microsoft CRM 커넥터 배포 유형이 더 이상 사용되지 않습니다. 
+   </br>외부 계정에서 이러한 사용되지 않는 배포 유형 중 하나를 사용하는 경우 이 외부 계정을 삭제한 다음 <b>postupgrade</b> 명령. 
+   </br>웹 API 배포로 변경하려면 <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">웹 애플리케이션</a>.<br /> </td>
   </tr> 
  </tbody> 
 </table>
