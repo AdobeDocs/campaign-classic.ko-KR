@@ -3,7 +3,7 @@ product: campaign
 title: Adobe Analytics 커넥터로 마이그레이션
 description: Campaign - Analytics 커넥터 FAQ
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 89494165a59c0ba6119f37d41893fd0e8733f47d
+source-git-commit: 18b31ae504e1f1d13980bdf38925b38279b3be8c
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 5%
@@ -48,7 +48,7 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 
 ## 업데이트 방법
 
-Campaign 21.1.3(또는 이상)으로 업그레이드해야 합니다 **2022년 3월 1일 이전**.
+Campaign 21.1.3(또는 이상)으로 업그레이드해야 합니다 **2022년 8월 이전**.
 
 호스팅된 고객인 Adobe은 인스턴스와 최신 버전으로 업그레이드하도록 사용자와 협력하고 있습니다. 그런 다음 를 사용할 수 있습니다 [Adobe Analytics 커넥터](../../platform/using/adobe-analytics-connector.md).
 
