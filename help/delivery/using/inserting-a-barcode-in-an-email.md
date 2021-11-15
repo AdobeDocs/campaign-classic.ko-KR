@@ -5,7 +5,7 @@ description: 전자 메일에 바코드 삽입
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# 전자 메일에 바코드 삽입{#inserting-a-barcode-in-an-email}
+# 전자 메일에 바코드 삽입{#insert-a-barcode-in-an-email}
 
 ![](../../assets/common.svg)
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
       ![](assets/barcode_insert_08.png)
 
-   * DataMatrix 및 PDF417 유형은 2D 포맷과 관련이 있습니다.
+   * DataMatrix 및 PDF417 형식은 2D 형식과 관련이 있습니다.
 
       2D 바코드의 예:
 
@@ -50,25 +50,25 @@ ht-degree: 0%
       ![](assets/barcode_insert_12.png)
 
 1. 전자 메일에 삽입할 바코드의 크기를 입력합니다. 스케일을 구성하면 바코드의 크기를 x1에서 x10으로 늘리거나 줄일 수 있습니다.
-1. **[!UICONTROL Value]** 필드를 사용하면 바코드의 값을 정의할 수 있습니다. 값은 특별 오퍼와 일치할 수 있으며 기준의 기능일 수 있으며, 고객에 연결된 데이터베이스 필드의 값이 될 수 있습니다.
+1. 다음 **[!UICONTROL Value]** 필드를 사용하면 바코드의 값을 정의할 수 있습니다. 값은 특별 오퍼와 일치할 수 있으며 기준의 기능일 수 있으며, 고객에 연결된 데이터베이스 필드의 값이 될 수 있습니다.
 
-   이 예에서는 수신자의 계정 번호를 추가한 EAN-8 형식의 바코드를 보여 줍니다. 이 계정 번호를 추가하려면 **[!UICONTROL Value]** 필드 오른쪽에 있는 개인화 단추를 클릭하고 **[!UICONTROL Recipient > Account number]** 을 선택합니다.
+   이 예에서는 수신자의 계정 번호를 추가한 EAN-8 형식의 바코드를 보여 줍니다. 이 계정 번호를 추가하려면 오른쪽의 개인화 단추를 클릭하십시오. **[!UICONTROL Value]** 필드 및 선택 **[!UICONTROL Recipient > Account number]**.
 
    ![](assets/barcode_insert_15.png)
 
-1. **[!UICONTROL Height]** 필드를 사용하면 각 막대 사이의 간격을 변경하여 바코드의 너비를 변경하지 않고 바코드의 높이를 구성할 수 있습니다.
+1. 다음 **[!UICONTROL Height]** 필드를 사용하면 각 막대 사이의 공간을 변경하여 바코드의 너비를 변경하지 않고 바코드의 높이를 구성할 수 있습니다.
 
-   바코드 유형에 따라 제한적인 항목 제어가 없습니다. 바코드 값이 올바르지 않으면 바코드가 빨간색으로 교차되는 **미리 보기** 모드에서만 볼 수 있습니다.
+   바코드 유형에 따라 제한적인 항목 제어가 없습니다. 바코드 값이 올바르지 않으면 **미리 보기** 바코드가 빨간색으로 교차될 모드
 
    >[!NOTE]
    >
    >바코드에 할당된 값은 해당 유형에 따라 다릅니다. 예를 들어 EAN-8 유형은 정확히 8개의 숫자를 가집니다.
    >
-   >**[!UICONTROL Value]** 필드 오른쪽의 개인화 단추를 사용하면 값 자체에 데이터를 추가할 수 있습니다. 바코드 표준이 바코드를 수락하는 경우 바코드를 강화합니다.
+   >오른쪽에 있는 개인화 단추 **[!UICONTROL Value]** 필드를 사용하면 값 자체에 데이터를 추가할 수 있습니다. 바코드 표준이 바코드를 수락하는 경우 바코드를 강화합니다.
    >
-   >예를 들어, GS1-128 유형 바코드를 사용하고 값 외에 수신자의 계정 번호를 입력하려면 개인화 버튼을 클릭하고 **[!UICONTROL Recipient > Account number]** 을 선택합니다. 선택한 수신자의 계좌 번호를 올바르게 입력하면 바코드가 이를 고려합니다.
+   >예를 들어, GS1-128 유형 바코드를 사용하고 값 외에 수신자의 계정 번호를 입력하려면 개인화 버튼을 클릭하고 을 선택합니다 **[!UICONTROL Recipient > Account number]**. 선택한 수신자의 계좌 번호를 올바르게 입력하면 바코드가 이를 고려합니다.
 
-이러한 요소가 구성되면 전자 메일을 완료하고 보낼 수 있습니다. 오류를 방지하려면 항상 **[!UICONTROL Preview]** 탭을 클릭하여 배달을 수행하기 전에 컨텐츠가 올바르게 표시되는지 확인하십시오.
+이러한 요소가 구성되면 전자 메일을 완료하고 보낼 수 있습니다. 오류를 방지하려면 항상 을 클릭하여 게재를 수행하기 전에 콘텐츠가 올바르게 표시되는지 확인하십시오 **[!UICONTROL Preview]** 탭.
 
 ![](assets/barcode_insert_10.png)
 

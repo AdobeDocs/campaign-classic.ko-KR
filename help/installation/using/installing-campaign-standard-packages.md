@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
+source-git-commit: 6c23dadb5b6523e17e242de43a908ca86ed7cc23
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1188'
 ht-degree: 6%
 
 ---
@@ -28,18 +28,20 @@ ht-degree: 6%
 >새 패키지를 설치하면 모든 플랫폼에 영향을 줄 수 있습니다. 최종 배포 전에 테스트 및 유효성 검사를 수행해야 합니다.
 >
 >패키지가 설치되면 제거할 수 없습니다.
+>
+>호스팅 또는 하이브리드 고객은 Adobe에 연락하여 새 기본 제공 패키지를 배포합니다.
 
 기본 제공 패키지를 설치하려면 다음을 수행하십시오.
 
-1. Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Tools > Advanced > Import package]**&#x200B;에서 패키지 가져오기 마법사에 액세스합니다.
+1. 에서 패키지 가져오기 마법사에 액세스 **[!UICONTROL Tools > Advanced > Import package]** ( Adobe Campaign 클라이언트 콘솔) 아래에 그룹화됩니다.
 1. **[!UICONTROL Install a standard package]**&#x200B;을(를) 선택합니다.
 1. 패키지 목록에서 설치할 패키지를 확인합니다.
    >[!NOTE]
    >
    >패키지가 회색으로 표시되면 이미 설치되어 있거나 해당 인스턴스와 호환되지 않음을 의미합니다. 호환성은 아래 표에 자세히 설명되어 있습니다.
-1. **[!UICONTROL Next]** 를 클릭한 다음 **[!UICONTROL Start]** 을 클릭하여 패키지 설치를 시작합니다.
+1. 클릭 **[!UICONTROL Next]**, 그런 다음 **[!UICONTROL Start]** 패키지 설치를 시작하려면 다음을 수행하십시오.
 
-   패키지가 설치되면 진행률 표시줄에 **100%**&#x200B;가 표시되며 설치 로그에 다음 메시지가 표시됩니다. **[!UICONTROL Installation of packages successful]**
+   패키지가 설치되면 진행률 표시줄이 표시됩니다 **100%** 설치 로그에 다음 메시지가 표시됩니다. **[!UICONTROL Installation of packages successful]**.
 
 1. **[!UICONTROL Close]** 설치 창
 
@@ -86,7 +88,7 @@ ht-degree: 6%
   <tr> 
    <td> 실행 인스턴스에 대한 오퍼 엔진입니다. 선택 사항입니다.<br /> </td> 
    <td> 오퍼 엔진의 실행 인스턴스에 설치할 패키지(상호 작용) <a href="../../interaction/using/distributed-architectures.md">추가 정보</a> </td> 
-   <td> Mid, 실행 <br /> </td>  
+   <td> 중간, 실행 <br /> </td>  
   </tr> 
   <!--tr> 
    <td> Lead Management (Leads) (deprecated)<br /> </td> 
@@ -205,7 +207,7 @@ ht-degree: 6%
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud<br />과 통합 </td> 
+   <td> Adobe Experience Cloud과 통합<br /> </td> 
    <td> 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. 선택 사항입니다. <a href="../../integrations/using/configuring-ims.md#installing-the-package">추가 정보</a> </td> 
    <td> 마케팅</td> 
   </tr> 
@@ -241,14 +243,14 @@ ht-degree: 6%
 
 게재 채널(이메일, 모바일 채널, 모바일 앱 채널 등)을 설치해야 합니다. 트랜잭션 메시지(메시지 센터 패키지)를 설치하기 전에 이메일 전용 메시지 센터 프로젝트를 시작하고 나중에 새 채널을 추가해야 하는 경우 다음 단계를 수행해야 합니다.
 
-1. 패키지 가져오기 마법사( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**)를 사용하여 새 채널(예: **모바일 채널**)을 설치합니다.
-1. 파일( **[!UICONTROL Tools > Advanced > Import package > File]**)을 가져오고 다음을 선택합니다.
+1. 새 채널을 설치합니다(예: **모바일 채널**&#x200B;패키지 가져오기 마법사 사용( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
+1. 파일 가져오기( **[!UICONTROL Tools > Advanced > Import package > File]**).
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. **[!UICONTROL XML data content to import]**&#x200B;에서 관련 채널에 해당하는 메시지 센터 게재 템플릿만 유지합니다. 예를 들어 **모바일 채널**&#x200B;을 추가한 경우 **[!UICONTROL Mobile transactional message]**(smsTriggerMessage) 템플릿에 해당하는 **entities** 요소만 유지합니다. **모바일 앱 채널**&#x200B;을 추가한 경우 **iOS 트랜잭션 메시지** 템플릿(iosTriggerMessage) 및 **Android 트랜잭션 메시지**(androidTriggerMessage)만 유지합니다.
+1. 에서 **[!UICONTROL XML data content to import]**&#x200B;를 설정하는 경우 관련 채널에 해당하는 메시지 센터 게재 템플릿만 유지합니다. 예를 들어, **모바일 채널**&#x200B;만 유지합니다 **개체** 에 해당하는 요소 **[!UICONTROL Mobile transactional message]** (smsTriggerMessage) 템플릿을 참조하십시오. 를 추가한 경우 **모바일 앱 채널**&#x200B;만 유지합니다 **iOS 트랜잭션 메시지** 템플릿(iosTriggerMessage) 및 **Android 트랜잭션 메시지** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 

@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
-source-wordcount: '2369'
+source-wordcount: '2366'
 ht-degree: 7%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 7%
 
 **개선 사항**
 
-* 이제 [전용 페이지](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)에서 Campaign Classic API를 사용할 수 있습니다. jsapi.chm 파일을 사용하는 경우 이제 새로운 온라인 버전을 참조해야 합니다.
+* 이제 [전용 페이지](https://experienceleague.adobe.com/developer/campaign-api/api/index.html)에서 Campaign Classic API를 사용할 수 있습니다. jsapi.chm 파일을 사용하는 경우 이제 새로운 온라인 버전을 참조해야 합니다.
 * 이제 PostgreSQL 10, Debian 9 및 Teradata 16.20이 지원됩니다. [호환성 매트릭스](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)를 참조하십시오.
 * 이제 SFTP 연결을 만들 때 프록시 인증을 사용할 수 있습니다. 자세한 내용은 [세부 설명서](../../installation/using/file-res-management.md) (NEO-9868)
 * 다음 **날짜 계산 공식** 이제 dm 게재 템플릿을 사용하여 단일 게재를 만들 때 게재 속성에서 옵션을 사용할 수 있습니다. (NEO-9792)

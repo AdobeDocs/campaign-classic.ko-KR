@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 5%
+source-wordcount: '748'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 ## 스크립팅
 
-자세한 내용은 [Campaign JSAPI 설명서](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) 를 참조하십시오.
+자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
 
 워크플로우, 웹 애플리케이션, jssp를 사용하여 스크립팅하는 경우 다음 우수 사례를 따르십시오.
 
@@ -54,9 +54,9 @@ SQL 주입을 방지하려면 Adobe Campaign에서 사용할에 SQL 함수허용
 
 >[!IMPORTANT]
 >
->8140보다 오래된 빌드를 사용하는 경우 **XtkPassUnknownSQLFunctionsToRDBMS** 옵션이 &#39;1&#39;로 설정될 수 있습니다. 데이터베이스를 보호하려면 이 옵션을 삭제하거나 &#39;0&#39;으로 설정합니다.
+>8140보다 오래된 빌드를 사용하는 경우 **XtkPassUnknownSQLFfunctionsToRDBMS** 옵션이 &#39;1&#39;로 설정될 수 있습니다. 데이터베이스를 보호하려면 이 옵션을 삭제하거나 &#39;0&#39;으로 설정합니다.
 
-사용자 입력을 사용하여 쿼리 또는 SQL 문에서 필터를 빌드하는 경우 항상 이스케이프 처리를 해야 합니다( [Campaign JSAPI 설명서](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) - 데이터 보호 참조: 이스케이프 처리). 이 기능은 다음과 같습니다.
+사용자 입력을 사용하여 쿼리 또는 SQL 문에서 필터를 빌드하는 경우 항상 이스케이프 처리를 해야 합니다( 참조) [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) - 데이터 보호: 이스케이프 처리). 이 기능은 다음과 같습니다.
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
@@ -76,7 +76,7 @@ SQL 주입을 방지하려면 Adobe Campaign에서 사용할에 SQL 함수허용
 
 폴더 기반 보안 모델 외에도 명명된 권한을 사용하여 운영자 작업을 제한할 수 있습니다.
 
-* 일부 시스템 필터(sysFilter)를 추가하여 데이터를 읽거나 쓰지 못하도록 할 수 있습니다( [이 페이지](../../configuration/using/filtering-schemas.md) 참조).
+* 일부 시스템 필터(sysFilter)를 추가하여 데이터를 읽거나 쓰지 못하도록 할 수 있습니다( [이 페이지](../../configuration/using/filtering-schemas.md)).
 
    ```
    <sysFilter name="writeAccess">    
@@ -104,23 +104,23 @@ SQL 주입을 방지하려면 Adobe Campaign에서 사용할에 SQL 함수허용
 
 운영자 액세스 수준에 따라 기밀 데이터(스키마의 일부)를 보호해야 하는 경우 양식 정의(enabledIf/visibleIf 조건)에서 이를 숨기지 마십시오.
 
-전체 엔티티는 화면에 의해 로드되며 열 정의에 표시할 수도 있습니다. 이렇게 하려면 오버플로 테이블을 만들어야 합니다. [이 페이지](../../configuration/using/examples-of-schemas-edition.md#overflow-table)를 참조하십시오.
+전체 엔티티는 화면에 의해 로드되며 열 정의에 표시할 수도 있습니다. 이렇게 하려면 오버플로 테이블을 만들어야 합니다. 참조 [이 페이지](../../configuration/using/examples-of-schemas-edition.md#overflow-table).
 
 ## 웹 애플리케이션에서 캡션 추가
 
 공개 랜딩 페이지/구독 페이지에 캡처를 추가하는 것이 좋습니다. 안타깝게도 DCE(디지털 콘텐츠 편집기) 페이지에 캡처를 추가하는 것은 쉽지 않습니다. v5 captcha 또는 Google reCAPTCHA를 추가하는 방법을 보여 줍니다.
 
-DCE에서 캡처를 추가하는 일반적인 방법은 페이지 컨텐츠 내에 쉽게 포함할 개인화 블록을 만드는 것입니다. **Script** 활동과 **Test**&#x200B;를 추가해야 합니다.
+DCE에서 캡처를 추가하는 일반적인 방법은 페이지 컨텐츠 내에 쉽게 포함할 개인화 블록을 만드는 것입니다. 을(를) 추가해야 합니다 **스크립트** 활동 및 **테스트**.
 
 ### 개인화 블록
 
-1. **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Personalization blocks]** 로 이동하여 새 인스턴스를 만듭니다.
+1. 이동 **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Personalization blocks]** 새 템플릿을 만듭니다.
 
-1. **[!UICONTROL Web application]** 컨텐츠 유형을 사용하고 **[!UICONTROL Visible in the customization menus]** 을 선택합니다.
+1. 를 사용하십시오 **[!UICONTROL Web application]** 컨텐츠 유형 및 확인 **[!UICONTROL Visible in the customization menus]**.
 
    자세한 정보는 [이 페이지](../../delivery/using/personalization-blocks.md)를 참조하십시오.
 
-   다음은 **Campaign captcha**&#x200B;의 예입니다.
+   다음은 의 예입니다 **Campaign Captcha**:
 
    ```javascript
    <%
@@ -143,30 +143,30 @@ DCE에서 캡처를 추가하는 일반적인 방법은 페이지 컨텐츠 내�
    * 라인 1-6에서 필요한 입력을 모두 생성합니다.
    * 끝 행 7은 오류를 처리합니다.
    * 4행을 사용하면 captcha 회색 상자 크기(너비/높이)와 생성된 단어의 길이(minWordSize/maxWordSize)를 변경할 수 있습니다.
-   * Google reCAPTCHA를 사용하기 전에 Google에 등록하고 새 reCAPTCHA 사이트를 만들어야 합니다.
+   * Google reCAPTCHA를 사용하려면 먼저 Google에 등록하고 새 reCAPTCHA 사이트를 만들어야 합니다.
 
       `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
-   유효성 검사 단추를 비활성화할 수 있지만 표준 단추/링크가 없으므로 HTML 자체에서 사용하는 것이 좋습니다. 방법을 알아보려면 [이 페이지](https://developers.google.com/recaptcha/)를 참조하십시오.
+   유효성 검사 단추를 비활성화할 수 있지만 표준 단추/링크가 없으므로 HTML 자체에서 사용하는 것이 좋습니다. 방법을 알아보려면 [이 페이지](https://developers.google.com/recaptcha/).
 
 ### 웹 애플리케이션 업데이트
 
-1. 웹 응용 프로그램의 속성에 액세스하여 **captchaValid**&#x200B;라는 부울 변수를 추가합니다.
+1. 웹 애플리케이션의 속성에 액세스하여 이름이 인 부울 변수를 추가합니다 **captchaValid**.
 
    ![](assets/scripting-captcha.png)
 
-1. 마지막 페이지와 **[!UICONTROL Storage]** 활동 사이에 **[!UICONTROL Script]** 및 **[!UICONTROL Test]**&#x200B;를 추가합니다.
+1. 마지막 페이지와 다음 사이 **[!UICONTROL Storage]** 활동, 추가 **[!UICONTROL Script]** 그리고 **[!UICONTROL Test]**.
 
-   분기 **[!UICONTROL True]**&#x200B;를 **[!UICONTROL Storage]**&#x200B;에 꽂고, 다른 하나는 captcha가 있는 페이지에 꽂습니다.
+   분기 플러그 **[!UICONTROL True]** 변환 후 **[!UICONTROL Storage]** 캡차가 있을 페이지에 다른 캡처를 추가합니다.
 
    ![](assets/scripting-captcha2.png)
 
-1. `"[vars/captchaValid]"`이 True인 분기 True의 조건을 편집합니다.
+1. 다음 방법으로 분기 True의 조건 편집 `"[vars/captchaValid]"` 같음.
 
    ![](assets/scripting-captcha3.png)
 
-1. **[!UICONTROL Script]** 활동을 편집합니다. 콘텐츠는 선택한 Captcha 엔진에 따라 다릅니다.
+1. 편집 **[!UICONTROL Script]** 활동. 콘텐츠는 선택한 Captcha 엔진에 따라 다릅니다.
 
-1. 마지막으로 개인화된 블록을 페이지에 추가할 수 있습니다. [이 페이지](../../web/using/editing-content.md)를 참조하십시오.
+1. 마지막으로 개인화된 블록을 페이지에 추가할 수 있습니다. 참조 [이 페이지](../../web/using/editing-content.md).
 
    ![](assets/scripting-captcha4.png)
 
@@ -174,7 +174,7 @@ DCE에서 캡처를 추가하는 일반적인 방법은 페이지 컨텐츠 내�
 
 >[!IMPORTANT]
 >
->reCAPTCHA 통합의 경우 HTML에 클라이언트측 JavaScript를 추가해야 합니다( `<head>...</head>`).
+>reCAPTCHA 통합을 위해 HTML에서 클라이언트측 JavaScript를 추가해야 합니다. `<head>...</head>`):
 >
 >`<script src="https://www.google.com/recaptcha/api.js" async defer></script>`
 
@@ -198,7 +198,7 @@ else
 
 ### Google recaptcha
 
-[공식 설명서](https://developers.google.com/recaptcha/docs/verify)를 참조하십시오.
+자세한 내용은 [공식 문서](https://developers.google.com/recaptcha/docs/verify).
 
 ```javascript
 ctx.vars.captchaValid = false

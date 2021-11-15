@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 3%
+source-wordcount: '632'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 * 게재:
 
-   * 게재 작업을 만들려면 [SubmitDelivery(nms:delivery)](#submitdelivery--nms-delivery-),
+   * 게재 작업 만들기는 다음을 참조하십시오 [SubmitDelivery(nms:delivery)](#submitdelivery--nms-delivery-),
    * 캠페인 보내기(시작, 일시 중지, 중지, 증명 보내기),
    * 게재 로그를 복구하는 중입니다.
 
@@ -30,17 +30,17 @@ ht-degree: 3%
    * 워크플로우 시작,
    * 프로세스 확인 등
 
-      JavaScript](../../configuration/using/soap-methods-in-javascript.md)에서 [SOAP 메서드를 참조하십시오.
+      을(를) 참조하십시오. [JavaScript의 SOAP 메서드](../../configuration/using/soap-methods-in-javascript.md).
 
 * 콘텐츠 관리
-* 구독 관리에서 [구독 (nms:subscription)](#subscribe--nms-subscription-) 및 [구독 취소(nms:subscription)](#unsubscribe--nms-subscription-)를 참조하십시오.
+* 구독 관리 [구독(nms:subscription)](#subscribe--nms-subscription-) 및 [구독 취소(nms:subscription)](#unsubscribe--nms-subscription-).
 * 데이터 프로세스: 가져오기, 내보내기.
 
 이 섹션에서는 &quot;구독&quot;, &quot;구독 취소&quot; 및 &quot;SubmitDelivery&quot; 서비스의 사용에 대해 자세히 설명합니다.
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI ](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) 설명서에는 Adobe Campaign에서 SOAP 호출 및 Javascript 사용에 대한 추가 정보와 애플리케이션에서 사용되는 모든 메서드 및 함수에 대한 전체 참조가 포함되어 있습니다.
+>[Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) 는 Adobe Campaign에서 SOAP 호출 및 Javascript 사용에 대한 추가 정보와 애플리케이션에서 사용되는 모든 메서드 및 함수에 대한 전체 참조를 포함합니다.
 
 ## 구독(nms:subscription) {#subscribe--nms-subscription-}
 
@@ -65,7 +65,7 @@ ht-degree: 3%
 </method>
 ```
 
-조정 키의 정의는 XML 문서의 `<recipient>` 요소에 있는 _**키** 속성을 통해 입력해야 합니다. 이 특성의 내용은 쉼표로 구분된 XPath 목록입니다.
+조정 키의 정의는 _ 를 통해 입력해야 합니다.**key** 속성 `<recipient>` XML 문서의 요소 이 특성의 내용은 쉼표로 구분된 XPath 목록입니다.
 
 이 호출은 오류를 제외하고 데이터를 반환하지 않습니다.
 
@@ -136,7 +136,7 @@ nms:subscription 스키마의 &quot;Subscription&quot; 메서드에 대한 설�
 </method>
 ```
 
-조정 키의 정의는 XML 문서의 `<recipient>` 요소에 있는 _key 특성을 통해 입력해야 합니다. 이 특성의 내용은 쉼표로 구분된 XPath 목록입니다.
+조정 키의 정의는 `<recipient>` XML 문서의 요소 이 특성의 내용은 쉼표로 구분된 XPath 목록입니다.
 
 수신자가 데이터베이스에 없거나 관련 정보 서비스를 구독하지 않은 경우 서비스는 작업을 수행하지 않고 오류를 생성하지 않습니다.
 
@@ -207,7 +207,7 @@ nms:subscription 스키마의 &quot;Subscription&quot; 메서드에 대한 설�
 
 ### XML 문서 예 {#xml-document-example}
 
-이 예는 외부 데이터 소스(이 경우 파일)의 사용자 지정 게재 템플릿을 기반으로 합니다. 구성은 게재 템플릿에서 완전히 설명되므로, 호출이 발생할 때 계속 전송되는 모든 것은 `<externalsource>` 요소의 파일 컨텐츠입니다.
+이 예는 외부 데이터 소스(이 경우 파일)의 사용자 지정 게재 템플릿을 기반으로 합니다. 구성은 게재 템플릿에서 완전히 설명되므로, 호출이 발생할 때 계속 전송되는 모든 것은 의 파일 컨텐츠입니다 `<externalsource>` 요소를 생성하지 않습니다.
 
 ```
 <delivery>
