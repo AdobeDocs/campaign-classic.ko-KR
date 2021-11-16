@@ -5,20 +5,20 @@ description: Adobe Experience Manager 정보
 audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager 정보{#about-adobe-experience-manager}
+# Campaign을 Experience Manager과 함께 사용하기{#about-adobe-experience-manager}
 
 ![](../../assets/common.svg)
 
 Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 Adobe Experience Manager에서 직접 양식을 비롯한 이메일 게재 콘텐츠를 관리할 수 있습니다.
 
-Adobe Campaign에서 이메일이나 랜딩 페이지를 편집하는 동안 AEM Assets 라이브러리에서 자산을 직접 삽입할 수도 있습니다. 이 기능은 [Assets](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md) 장에 자세히 설명되어 있습니다.
+Adobe Campaign에서 이메일이나 랜딩 페이지를 편집하는 동안 AEM Assets 라이브러리에서 자산을 직접 삽입할 수도 있습니다. 이 기능은 [자산](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md) 제2장.
 
 즉, Adobe Campaign의 게재 기능뿐만 아니라 AEM 컨텐츠 편집 기능을 모두 활용할 수 있습니다.
 
@@ -26,7 +26,7 @@ Adobe Campaign에서 이메일이나 랜딩 페이지를 편집하는 동안 AEM
 
 다음 요소가 있어야 합니다.
 
-* Adobe Experience Manager **authoring** 인스턴스.
+* Adobe Experience Manager **작성** 인스턴스.
 * Adobe Experience Manager **게시** 인스턴스.
 * Adobe Campaign 인스턴스.
 
@@ -36,4 +36,4 @@ Adobe Campaign은 Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 및 6.5와 호환�
 >
 >Adobe Experience Manager 6.5에서는 Adobe Campaign Classic 템플릿을 더 이상 사용할 수 없습니다.
 
-자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html) 를 참조하십시오
+자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html)

@@ -6,32 +6,28 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
-source-git-commit: b6e24c63ece12f25b7dafe3fede9e38b3aab2427
+source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
 
-# Adobe Target과 통합 구성{#configuring-the-integration-with-adobe-target}
+# Adobe Target과의 통합 구성{#configuring-the-integration-with-adobe-target}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 
 >[!CAUTION]
 >
 > 호스팅 또는 하이브리드 고객은 Adobe 담당자에게 연락하여 이 통합을 구성합니다. 아래 단계는 온-프레미스 고객에게만 적용됩니다.
 
-## 필수 구성 요소 {#prerequisites}
-
-Adobe Campaign과 Adobe Target 간의 통합을 사용하려면 다음을 수행해야 합니다.
+이 통합에는 다음이 필요합니다.
 
 * Adobe Experience Cloud 및 Adobe Target 조직
 * Adobe Campaign과의 연결을 설정하기 위해 지정된 Adobe Target rawbox
 
-## Adobe Campaign 구성 {#configuring-adobe-campaign}
-
-Adobe Campaign을 구성하려면:
+Adobe Campaign에서 이 통합을 구성하려면 아래 단계를 수행하십시오.
 
 1. 설치 **[!UICONTROL Integration with the Adobe Experience Cloud]** 기본 제공 패키지. [자세히 알아보기](../../platform/using/working-with-data-packages.md#importing-packages)
 

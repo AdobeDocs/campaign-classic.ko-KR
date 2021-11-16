@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
+source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2565'
 ht-degree: 99%
 
 ---
@@ -373,11 +373,11 @@ ht-degree: 99%
       + [ [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
       + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [ [!DNL Adobe Experience Manager] 정보](integrations/using/about-adobe-experience-manager.md)
+      + [작업 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [통합 구성](integrations/using/configuring-the-integration.md)
       + [ [!DNL Experience Manager]  뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [ [!DNL Adobe Target]과 통합](integrations/using/integrating-with-adobe-target.md)
+      + [작업 [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [ [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [동적 이미지 삽입](integrations/using/inserting-a-dynamic-image.md)
    + ACS Connector {#acs-connector}
@@ -387,14 +387,14 @@ ht-degree: 99%
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
       + [ [!DNL ACS Connector] 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
    + Adobe Experience Cloud Triggers {#experience-triggers}
-      + [ [!DNL Experience Cloud Triggers] 시작](integrations/using/about-triggers.md)
+      + [작업 [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
       + [ [!DNL Experience Cloud Triggers]을(를) 위한 Adobe I/O 구성](integrations/using/configuring-adobe-io.md)
       + [사용자 정의 구현을 위한 이벤트 구성](integrations/using/events.md)
       + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
       + [파이프라인 문제 해결](integrations/using/pipeline-troubleshooting.md)
    + Adobe Experience Platform 소스 및 대상 {#aep-sources-destinations}
-      + [소스 및 대상 시작](integrations/using/get-started-sources-destinations.md)
+      + [소스 및 대상 작업](integrations/using/get-started-sources-destinations.md)
       + [Adobe Experience Platform 대상자를 Campaign으로 수집](integrations/using/ingest-aep-data.md)
       + [Campaign에서 Adobe Experience Platform으로 데이터 내보내기](integrations/using/export-campaign-data.md)
 + 워크플로우 자동화 {#automating-with-workflows}

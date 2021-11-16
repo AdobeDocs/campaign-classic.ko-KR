@@ -5,14 +5,14 @@ description: Adobe Experience Cloud Triggers 구현 시작하기
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 16%
 
 ---
 
-# Adobe Experience Cloud Triggers 시작{#about-adobe-experience-triggers}
+# Campaign 및 Experience Cloud 트리거를 사용하여 작업{#about-adobe-experience-triggers}
 
 ![](../../assets/common.svg)
 
@@ -29,10 +29,10 @@ ht-degree: 16%
 
 ## [!DNL Triggers] 아키텍처 {#triggers-architecture}
 
-[!DNL pipelined] 프로세스는 항상 Adobe Campaign 마케팅 서버에서 실행됩니다. 파이프라인에 연결하고 이벤트를 검색하고 즉시 처리합니다.
+다음 [!DNL pipelined] 프로세스는 항상 Adobe Campaign 마케팅 서버에서 실행됩니다. 파이프라인에 연결하고 이벤트를 검색하고 즉시 처리합니다.
 
 ![](assets/triggers_2.png)
 
-[!DNL pipelined] 프로세스는 인증 서비스를 사용하여 Experience Cloud에 로그인하고 개인 키를 보냅니다. 인증 서비스가 토큰을 반환합니다. 토큰은 이벤트를 검색할 때 인증하는 데 사용됩니다.
+다음 [!DNL pipelined] 인증 서비스를 사용하여 Experience Cloud에 로그인하고 개인 키를 보냅니다. 인증 서비스가 토큰을 반환합니다. 토큰은 이벤트를 검색할 때 인증하는 데 사용됩니다.
 
-인증에 대한 자세한 내용은 이 [page](../../integrations/using/configuring-adobe-io.md)을 참조하십시오.
+인증에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../../integrations/using/configuring-adobe-io.md).
