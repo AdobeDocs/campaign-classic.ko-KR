@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '2955'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 >[!NOTE]
 >
->**[!UICONTROL Import a list]** 함수를 사용하여 데이터베이스 데이터와 매핑하지 않고 데이터를 가져올 수 있습니다. 그런 다음 **[!UICONTROL Read list]** 개체를 통해 워크플로우에서만 데이터를 사용할 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/read-list.md)를 참조하십시오.
+>를 사용하여 데이터를 데이터베이스 데이터와 매핑하지 않고 가져올 수 있습니다 **[!UICONTROL Import a list]** 함수 위에 있어야 합니다. 그런 다음 를 통해 워크플로우에서만 데이터를 사용할 수 있습니다 **[!UICONTROL Read list]** 개체. 자세한 정보는 이 [페이지](../../workflow/using/read-list.md)를 참조하십시오.
 
 가져오기 마법사를 사용하여 가져오기를 구성하고 해당 옵션(예: 데이터 변형)을 정의하고 실행을 시작할 수 있습니다. 가져오기 유형(단순 또는 다중)과 연산자의 권한에 따라 컨텐츠가 달라집니다.
 
-새 가져오기 작업을 만들면 가져오기 마법사가 표시됩니다( [가져오기 및 내보내기 작업 만들기](../../platform/using/creating-import-export-jobs.md) 참조).
+새 가져오기 작업을 만들면 가져오기 마법사가 표시됩니다( [가져오기 및 내보내기 작업 만들기](../../platform/using/creating-import-export-jobs.md).
 
 >[!NOTE]
 >
@@ -39,27 +39,27 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 가져오기 마법사를 시작할 때 먼저 템플릿을 선택해야 합니다. 예를 들어 뉴스레터를 받은 수신자의 가져오기를 구성하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL Profiles and Targets > Job > Generic imports and exports]** 폴더를 선택합니다.
-1. **새로 만들기**&#x200B;를 클릭한 다음 **가져오기**&#x200B;를 클릭하여 가져오기 템플릿을 만듭니다.
+1. 을(를) 선택합니다 **[!UICONTROL Profiles and Targets > Job > Generic imports and exports]** 폴더를 입력합니다.
+1. 클릭 **새로 만들기** 을 클릭한 다음 **가져오기** 가져오기 템플릿을 만들려면
 
    ![](assets/s_ncs_user_import_wizard01_1.png)
 
-1. **[!UICONTROL Import template]** 필드 오른쪽의 화살표를 클릭하여 템플릿을 선택하거나 **[!UICONTROL Select link]** 을 클릭하여 트리를 찾습니다.
+1. 오른쪽 화살표 클릭 **[!UICONTROL Import template]** 필드를 클릭하여 템플릿을 선택하거나 **[!UICONTROL Select link]** 트리를 찾아보려면
 
-   기본 템플릿은 **[!UICONTROL New text import]**&#x200B;입니다. 이 템플릿은 수정할 수 없지만 요구 사항에 따라 새 템플릿을 구성하기 위해 복제할 수 있습니다. 기본적으로 가져오기 템플릿은 **[!UICONTROL Profiles and targets > Templates > Job templates]** 노드에 저장됩니다.
+   기본 템플릿은 다음과 같습니다 **[!UICONTROL New text import]**. 이 템플릿은 수정할 수 없지만 요구 사항에 따라 새 템플릿을 구성하기 위해 복제할 수 있습니다. 기본적으로 가져오기 템플릿은 **[!UICONTROL Profiles and targets > Templates > Job templates]** 노드 아래에 있어야 합니다.
 
-1. **[!UICONTROL Label]** 필드에 이 가져오기의 이름을 입력합니다. 설명을 추가할 수 있습니다.
-1. 해당 필드에서 가져오기 유형을 선택합니다. 가져올 수 있는 가져오기 유형은 다음 두 가지가 있습니다. **[!UICONTROL Simple import]** 한 파일만 가져오려면 **[!UICONTROL Multiple import]**, 한 번의 실행으로 여러 파일을 가져오려면  하십시오.
+1. 에 이 가져오기의 이름을 입력합니다. **[!UICONTROL Label]** 필드. 설명을 추가할 수 있습니다.
+1. 해당 필드에서 가져오기 유형을 선택합니다. 가져올 수 있는 가져오기 유형은 다음 두 가지가 있습니다. **[!UICONTROL Simple import]** 한 파일만 가져오려면 **[!UICONTROL Multiple import]** 여러 파일을 한 번에 가져올 수 있습니다.
 
-   여러 가져오기의 경우 가져오기 마법사의 첫 번째 화면에 있는 **[!UICONTROL Import type]** 드롭다운 목록에서 **[!UICONTROL Multiple import]** 을 선택합니다.
+   여러 가져오기의 경우 **[!UICONTROL Multiple import]** 에서 **[!UICONTROL Import type]** 가져오기 마법사의 첫 번째 화면에 있는 드롭다운 목록입니다.
 
    ![](assets/s_ncs_user_import_wizard01_2.png)
 
-1. **[!UICONTROL Add]** 을 클릭하여 가져올 필드를 지정합니다.
+1. 을 클릭하여 가져올 필드를 지정합니다 **[!UICONTROL Add]**.
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
-   파일이 추가될 때마다 **[!UICONTROL File to import]** 마법사의 화면이 표시됩니다. 섹션 [2단계 - 소스 파일 선택](#step-2---source-file-selection)을 참조하고 마법사의 단계에 따라 간단한 가져오기에 대한 가져오기 옵션을 정의합니다.
+   파일을 추가할 때마다 **[!UICONTROL File to import]** 마법사가 표시됩니다. 섹션을 참조하십시오. [2단계 - 소스 파일 선택](#step-2---source-file-selection) 및 마법사의 단계에 따라 간단한 가져오기에 대한 가져오기 옵션을 정의합니다.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 ### 고급 매개 변수 {#advanced-parameters}
 
-**[!UICONTROL Advanced parameters]** 링크를 통해 다음 옵션에 액세스할 수 있습니다.
+다음 **[!UICONTROL Advanced parameters]** 링크를 통해 다음 옵션에 액세스할 수 있습니다.
 
 * **[!UICONTROL General]** 탭
 
@@ -85,39 +85,39 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
    * **[!UICONTROL Do not update enumerations]**
 
-      데이터베이스의 열거된 값 목록을 보강하지 않으려면 이 옵션을 선택합니다. [열거형 관리](../../platform/using/managing-enumerations.md)를 참조하십시오.
+      데이터베이스의 열거된 값 목록을 보강하지 않으려면 이 옵션을 선택합니다. 자세한 내용은 [열거형 관리](../../platform/using/managing-enumerations.md).
 
 * **[!UICONTROL Variables]** 탭
 
-   쿼리 편집기 및 계산된 필드에서 액세스할 작업과 연결된 변수를 정의할 수 있습니다. 변수를 만들려면 **[!UICONTROL Add]** 을 클릭하고 변수 편집기를 사용하십시오.
+   쿼리 편집기 및 계산된 필드에서 액세스할 작업과 연결된 변수를 정의할 수 있습니다. 변수를 만들려면 **[!UICONTROL Add]** 변수 편집기를 사용합니다.
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL Variables]** 탭은 워크플로 형식 프로그래밍 용도로만 사용되며 전문가 사용자만 구성해야 합니다.
+   >다음 **[!UICONTROL Variables]** 탭은 워크플로우 유형 프로그래밍 용도로만 사용되며 전문가 사용자만 구성해야 합니다.
 
 ## 2단계 - 소스 파일 선택 {#step-2---source-file-selection}
 
 소스 파일은 텍스트 형식(텍스트, csv, 탭, 고정 열)이나 xml일 수 있습니다.
 
-기본적으로 **[!UICONTROL Upload file on the server]** 이 선택되어 있습니다. **[!UICONTROL Local file]** 필드 오른쪽의 폴더를 클릭하여 로컬 디스크를 탐색하고 가져올 파일을 선택합니다. 서버에 있는 경우 가져올 파일의 이름과 액세스 경로를 입력하려면 이 옵션을 선택 취소할 수 있습니다.
+기본적으로 **[!UICONTROL Upload file on the server]** 이 선택되어 있습니다. 오른쪽의 폴더를 클릭합니다 **[!UICONTROL Local file]** 필드를 선택하여 로컬 디스크를 찾고 가져올 파일을 선택합니다. 서버에 있는 경우 가져올 파일의 이름과 액세스 경로를 입력하려면 이 옵션을 선택 취소할 수 있습니다.
 
 ![](assets/s_ncs_user_import_wizard02_1.png)
 
-파일이 지정된 경우 **[!UICONTROL Auto-detect format]** 을 클릭하여 창 아래의 섹션에서 해당 데이터를 볼 수 있습니다. 이 미리 보기는 소스 파일의 처음 200개 줄을 표시합니다.
+파일이 지정된 경우 창의 아래 섹션에서 해당 데이터를 볼 수 있습니다 **[!UICONTROL Auto-detect format]**. 이 미리 보기는 소스 파일의 처음 200개 줄을 표시합니다.
 
 ![](assets/s_ncs_user_import_wizard02_2.png)
 
 이 보기에서 위에 제공된 옵션을 사용하여 가져오기를 구성합니다. 이러한 옵션을 통해 정의된 매개 변수가 미리 보기로 전송됩니다. 다음 옵션을 사용할 수 있습니다.
 
 * **[!UICONTROL Click here to change the file format...]** 파일 형식을 확인하고 구성을 세밀하게 조정할 수 있습니다.
-* **[!UICONTROL Update on server...]** 로컬 파일을 서버에 전송할 수 있습니다. 이 옵션은 **[!UICONTROL Upload file on the server]**&#x200B;을 선택한 경우에만 사용할 수 있습니다.
+* **[!UICONTROL Update on server...]** 로컬 파일을 서버에 전송할 수 있습니다. 이 옵션은 **[!UICONTROL Upload file on the server]** 이 선택되어 있습니다.
 * **[!UICONTROL Download]** 는 파일이 서버에 업로드된 경우에만 사용할 수 있습니다.
-* **[!UICONTROL Auto-detect format]** 는 데이터 소스의 형식을 다시 초기화하는 데 사용됩니다. 이 옵션을 사용하면 **[!UICONTROL Click here to change the file format...]** 옵션을 통해 형식이 지정된 데이터에 원래 형식을 다시 적용할 수 있습니다.
-* **[!UICONTROL Advanced parameters]** 링크를 사용하면 소스 데이터를 필터링하고 고급 옵션에 액세스할 수 있습니다. 이 화면에서 파일의 일부만 가져오도록 선택할 수 있습니다. 필터를 정의하여 예를 들어 해당 라인의 값에 따라 &#39;Prospect&#39; 또는 &#39;Customer&#39; 유형 사용자만 가져올 수도 있습니다. 이러한 옵션은 전문 JavaScript 사용자만 사용해야 합니다.
+* **[!UICONTROL Auto-detect format]** 는 데이터 소스의 형식을 다시 초기화하는 데 사용됩니다. 이 옵션을 사용하면 를 통해 형식이 지정된 데이터에 원래 형식을 다시 적용할 수 있습니다 **[!UICONTROL Click here to change the file format...]** 선택 사항입니다.
+* 다음 **[!UICONTROL Advanced parameters]** 링크를 사용하면 소스 데이터를 필터링하고 고급 옵션에 액세스할 수 있습니다. 이 화면에서 파일의 일부만 가져오도록 선택할 수 있습니다. 필터를 정의하여 예를 들어 해당 라인의 값에 따라 &#39;Prospect&#39; 또는 &#39;Customer&#39; 유형 사용자만 가져올 수도 있습니다. 이러한 옵션은 전문 JavaScript 사용자만 사용해야 합니다.
 
 ### 파일 형식 변경 {#changing-the-file-format}
 
-**[!UICONTROL Click here to change the file format...]** 옵션을 사용하면 소스 파일의 데이터 서식을 지정할 수 있으며, 특히 각 필드에 대한 열 구분자와 데이터 유형을 지정할 수 있습니다. 이 구성은 다음 창을 통해 수행됩니다.
+다음 **[!UICONTROL Click here to change the file format...]** 옵션을 사용하면 소스 파일의 데이터 형식을 지정할 수 있으며, 특히 각 필드에 대한 열 구분자와 데이터 유형을 지정할 수 있습니다. 이 구성은 다음 창을 통해 수행됩니다.
 
 ![](assets/s_ncs_user_import_wizard02_3.png)
 
@@ -125,7 +125,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 창 하단의 미리 보기 영역에서 구성 결과를 볼 수 있습니다.
 
-**[!UICONTROL OK]** 을 클릭하여 서식을 저장한 다음 **[!UICONTROL Next]** 를 클릭하여 다음 단계를 표시합니다.
+클릭 **[!UICONTROL OK]** 서식을 저장하려면 **[!UICONTROL Next]** 을 눌러 다음 단계를 표시합니다.
 
 ## 3단계 - 필드 매핑 {#step-3---field-mapping}
 
@@ -133,18 +133,18 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 ![](assets/s_ncs_user_import_wizard03_1.png)
 
-* **[!UICONTROL Destination schema]** 필드를 사용하면 데이터를 가져올 스키마를 선택할 수 있습니다. 이 정보는 필수입니다. **[!UICONTROL Select link]** 아이콘을 클릭하여 기존 스키마 중 하나를 선택합니다. **[!UICONTROL Edit link]** 을 클릭하여 선택한 테이블의 내용을 표시합니다.
+* 다음 **[!UICONTROL Destination schema]** 필드를 사용하면 데이터를 가져올 스키마를 선택할 수 있습니다. 이 정보는 필수입니다. 을(를) 클릭합니다. **[!UICONTROL Select link]** 기존 스키마 중 하나를 선택하는 아이콘. 클릭 **[!UICONTROL Edit link]** 을 눌러 선택한 테이블의 컨텐트를 표시합니다.
 * 중앙 테이블에는 소스 파일에 정의된 모든 필드가 표시됩니다. 대상 파일을 가져오기 위해 가져올 필드를 선택합니다. 이러한 필드는 수동으로 또는 자동으로 매핑할 수 있습니다.
 
-   필드를 수동으로 매핑하려면 확인란을 클릭하여 소스 필드를 선택하고 두 번째 열을 클릭하여 선택한 필드에 해당하는 셀을 활성화합니다. 그런 다음 **[!UICONTROL Edit expression]** 아이콘을 클릭하여 현재 테이블의 모든 필드를 표시합니다. 대상 필드를 선택하고 **[!UICONTROL OK]** 을 클릭하여 매핑의 유효성을 확인합니다.
+   필드를 수동으로 매핑하려면 확인란을 클릭하여 소스 필드를 선택하고 두 번째 열을 클릭하여 선택한 필드에 해당하는 셀을 활성화합니다. 그런 다음 **[!UICONTROL Edit expression]** 아이콘을 클릭하여 현재 테이블의 모든 필드를 표시합니다. 대상 필드를 선택하고 을(를) 클릭합니다 **[!UICONTROL OK]** 매핑의 유효성을 검사하려면
 
-   소스 필드와 대상 필드를 자동으로 연결하려면 필드 목록 오른쪽에 있는 **[!UICONTROL Guess the destination fields]** 아이콘을 클릭합니다. 필요한 경우 제안된 필드를 수정할 수 있습니다.
+   소스 필드와 대상 필드를 자동으로 연결하려면 **[!UICONTROL Guess the destination fields]** 필드 목록 오른쪽에 있는 아이콘을 클릭합니다. 필요한 경우 제안된 필드를 수정할 수 있습니다.
 
    >[!IMPORTANT]
    >
    >다음 단계로 진행하기 전에 이 작업의 결과를 항상 검증해야 합니다.
 
-* 가져온 필드에 변형을 적용할 수 있습니다. 이렇게 하려면 해당 필드와 관련된 **[!UICONTROL Transformation]** 열의 셀을 클릭하고 적용할 변형을 선택합니다.
+* 가져온 필드에 변형을 적용할 수 있습니다. 이렇게 하려면 의 셀을 클릭합니다 **[!UICONTROL Transformation]** 해당 필드와 관련된 열에서 적용할 변형을 선택합니다.
 
    ![](assets/s_ncs_user_import_wizard03_2.png)
 
@@ -167,7 +167,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
    ![](assets/s_ncs_user_import_wizard03_3.png)
 
-   **[!UICONTROL Preview]** 탭에서는 정의된 구성의 결과를 볼 수 있습니다. 여기에서 **[!UICONTROL Subscription]** 열이 추가되었습니다. 값은 **상태** 필드에서 계산됩니다.
+   다음 **[!UICONTROL Preview]** 탭에서는 정의된 구성의 결과를 볼 수 있습니다. 여기, **[!UICONTROL Subscription]** 열이 추가되었습니다. 값은 **상태** 필드.
 
    ![](assets/s_ncs_user_import_wizard03_4.png)
 
@@ -179,7 +179,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 화면의 중앙 섹션에는 데이터를 가져올 Adobe Campaign 데이터베이스의 테이블과 필드가 있는 트리가 포함되어 있습니다.
 
-각 노드(테이블 또는 필드)에 대해 특수 옵션을 사용할 수 있습니다. 목록에서 관련 노드를 클릭하면 해당 매개 변수와 간단한 설명이 아래에 표시됩니다. 각 요소에 대해 정의된 동작이 해당 **[!UICONTROL Behavior]** 열에 표시됩니다.
+각 노드(테이블 또는 필드)에 대해 특수 옵션을 사용할 수 있습니다. 목록에서 관련 노드를 클릭하면 해당 매개 변수와 간단한 설명이 아래에 표시됩니다. 각 요소에 대해 정의된 동작이 해당 요소에 표시됩니다 **[!UICONTROL Behavior]** 열.
 
 ![](assets/s_ncs_user_import_wizard04_2.png)
 
@@ -201,13 +201,13 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 >[!NOTE]
 >
->조정 키의 정의는 항상 **필수**&#x200B;입니다. 단, 중복 제거 없이 삽입되는 경우를 제외하고는.
+>조정 키의 정의는 항상 다음과 같습니다 **필수**&#x200B;중복 제거 없이 삽입되는 경우를 제외하고 .
 
 ### 조정 키 {#reconciliation-keys}
 
 중복 제거를 관리하려면 하나 이상의 조정 키를 채워야 합니다.
 
-조정 키는 레코드를 식별하는 데 사용되는 필드 세트입니다. 예를 들어 수신자를 가져오기 위해 조정 키는 계정 번호, &quot;전자 메일&quot; 필드 또는 &quot;성, 이름, 회사&quot; 필드 등이 될 수 있습니다.
+조정 키는 레코드를 식별하는 데 사용되는 필드 세트입니다. 예를 들어 수신자를 가져오기 위해 조정 키는 계정 번호, &quot;이메일&quot; 필드 또는 &quot;성, 이름, 회사&quot; 필드 등이 될 수 있습니다.
 
 이 경우 파일의 줄이 데이터베이스의 기존 수신자와 일치하는지 확인하기 위해 가져오기 엔진은 파일의 값과 키의 모든 필드에 대한 데이터베이스 값을 비교합니다. 레코드에 대한 필드인 경우 소스 데이터와 대상 데이터 간의 미세 비교를 수행할 수 있으므로 가져오기 후 데이터의 무결성을 보장합니다. 동일한 테이블에 대해 두 번째 조정 키를 입력할 수 있습니다. 첫 번째 키가 비어 있는 행에 사용됩니다.
 
@@ -229,20 +229,20 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 >
 >&#39;duplicate&#39;는 가져올 파일과 데이터베이스에 모두 있는 항목입니다.
 
-**[!UICONTROL Management of doubles]** 필드를 사용하면 데이터 중복 제거를 구성할 수 있습니다. 중복 제거는 소스 파일&#x200B;**(또는 다중 파일 가져오기의 경우 소스 파일)에 여러 번**&#x200B;표시되는 레코드(조정 키의 필드가 동일한 행)를 포함합니다.
+다음 **[!UICONTROL Management of doubles]** 필드에서는 데이터 중복 제거를 구성할 수 있습니다. 중복 제거는 여러 번 나타나는 기록 **소스 파일에서** (또는 여러 파일 가져오기의 경우 소스 파일), 즉 조정 키의 필드가 동일한 줄.
 
-* **[!UICONTROL Update]** 모드(기본 모드)에서 중복 관리가 중복 제거를 수행하지 않습니다. 따라서 마지막 레코드에는 우선 순위가 있습니다(이전 레코드의 데이터를 업데이트하므로). 이 모드에서는 중복 카운트가 수행되지 않습니다.
-* **[!UICONTROL Ignore]** 모드 또는 **[!UICONTROL Reject entity]**&#x200B;의 중복 관리는 가져오기에서 중복을 제외합니다. 이 경우 레코드를 가져오지 않습니다.
-* **[!UICONTROL Reject entity]** 모드에서는 요소를 가져오지 않고 가져오기 로그에 오류가 생성됩니다.
-* **[!UICONTROL Ignore]** 모드에서는 요소를 가져오지 않지만 오류 추적은 유지되지 않습니다. 이 모드에서는 성능을 최적화할 수 있습니다.
+* 의 중복 관리 **[!UICONTROL Update]** 모드(기본 모드)에서는 중복 제거를 수행하지 않습니다. 따라서 마지막 레코드에는 우선 순위가 있습니다(이전 레코드의 데이터를 업데이트하므로). 이 모드에서는 중복 카운트가 수행되지 않습니다.
+* 의 중복 관리 **[!UICONTROL Ignore]** 모드 또는 **[!UICONTROL Reject entity]** 가져오기에서 중복을 제외합니다. 이 경우 레코드를 가져오지 않습니다.
+* in **[!UICONTROL Reject entity]** 모드에서는 요소를 가져오지 않고 가져오기 로그에 오류가 생성됩니다.
+* in **[!UICONTROL Ignore]** 모드에서는 요소를 가져올 수 없지만 오류 추적은 유지되지 않습니다. 이 모드에서는 성능을 최적화할 수 있습니다.
 
 >[!IMPORTANT]
 >
 >중복 제거는 메모리에서만 수행됩니다. 따라서 중복 제거가 포함된 가져오기의 크기가 제한됩니다. 제한은 몇 가지 매개 변수(애플리케이션 서버의 용량, 활동, 키의 필드 수 등)에 따라 다릅니다. 중복 제거의 최대 크기는 1,000,000개 라인의 수입니다.
 
-데이터 중복 제거는 소스 파일과 데이터베이스에 모두 있는 레코드입니다. 업데이트 전용(즉, **[!UICONTROL Update and insertion]** 또는 **[!UICONTROL Update]**). **[!UICONTROL Duplicate management]** 옵션을 사용하면 소스 파일과 데이터베이스 모두에 있는 레코드를 업데이트하거나 무시할 수 있습니다. **[!UICONTROL Update or insert based on origin]** 옵션은 선택적 모듈에 속하며 표준 컨텍스트에서 사용할 수 없습니다.
+데이터 중복 제거는 소스 파일과 데이터베이스에 모두 있는 레코드입니다. 업데이트 전용(즉, **[!UICONTROL Update and insertion]** 또는 **[!UICONTROL Update]**). 다음 **[!UICONTROL Duplicate management]** 옵션을 사용하면 소스 파일과 데이터베이스에 있는 레코드를 업데이트하거나 무시할 수 있습니다. 다음 **[!UICONTROL Update or insert based on origin]** 옵션은 선택적 모듈에 속하며 표준 컨텍스트에서 사용할 수 없습니다.
 
-**[!UICONTROL Reject]** 및 **[!UICONTROL Ignore]** 옵션은 위에 표시된 대로 작동합니다.
+옵션 **[!UICONTROL Reject]** 및 **[!UICONTROL Ignore]** 위에서 설명한 대로 작동합니다.
 
 ### 오류 발생 시 {#behavior-in-the-event-of-an-error}
 
@@ -250,11 +250,11 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 ![](assets/s_ncs_user_import_general_tab.png)
 
-이러한 거부에 대한 세부 사항은 **[!UICONTROL Rejects]** 탭을 통해 볼 수 있습니다.
+이러한 거부에 대한 세부 사항은 **[!UICONTROL Rejects]** 탭.
 
 ![](assets/s_ncs_user_import_rejets_tab.png)
 
-거부의 유형은 두 가지가 있습니다(유형은 **[!UICONTROL Connector]** 열에 표시됨).
+거부의 유형은 다음 두 가지 유형이 있습니다. **[!UICONTROL Connector]** column):
 
 * 텍스트 커넥터의 거부는 파일 줄을 처리하는 동안 발생하는 오류(계산된 필드, 데이터 분석 등)와 관련되어 있습니다. 이 경우 오류가 발생하면 전체 줄이 항상 거부됩니다.
 * 데이터베이스 커넥터 거부는 데이터 조정 또는 데이터베이스에 쓰는 동안 발생하는 오류를 처리합니다. 여러 테이블로 가져오는 경우, 거부에는 레코드의 일부만 걱정될 수 있습니다(예: 수신자 및 관련 이벤트 가져오기의 경우, 수신자를 거부하지 않고 이벤트 업데이트를 방지할 수 있음).
@@ -269,7 +269,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 가져오기 인스턴스의 거부 화면에 있는 트리는 거부된 필드와 오류가 발생한 위치를 나타냅니다.
 
-**[!UICONTROL Export rejects]** 아이콘을 통해 이러한 레코드가 포함된 파일을 생성할 수 있습니다.
+를 통해 이러한 레코드가 포함된 파일을 생성할 수 있습니다. **[!UICONTROL Export rejects]** 아이콘:
 
 ![](assets/s_ncs_user_import_errors_export.png)
 
@@ -281,19 +281,19 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 >[!NOTE]
 >
->이 단계는 수신자를 가져올 때만 그리고 기본 Adobe Campaign 수신자 테이블(**nms:recipient**)을 사용할 때 나타납니다.
+>이 단계는 수신자를 가져올 때만 그리고 기본 Adobe Campaign 수신자 테이블(**nms:recipient**).
 
-* 수신자를 연결하거나 구독할 폴더, 목록 또는 서비스를 선택하려면 **[!UICONTROL Edit]** 링크를 클릭하십시오.
+* 을(를) 클릭합니다. **[!UICONTROL Edit]** 수신자를 연결하거나 구독할 폴더, 목록 또는 서비스를 선택하는 링크입니다.
 
    1. 폴더로 가져오기
 
-      **[!UICONTROL Import into a folder]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하면 수신자를 가져올 폴더를 선택하거나 만들 수 있습니다. 기본적으로 정의된 파티션이 없으면 데이터를 연산자의 기본 폴더로 가져옵니다.
+      다음 **[!UICONTROL Edit...]** 링크 **[!UICONTROL Import into a folder]** 섹션에서 수신자를 가져올 폴더를 선택하거나 만들 수 있습니다. 기본적으로 정의된 파티션이 없으면 데이터를 연산자의 기본 폴더로 가져옵니다.
 
       >[!NOTE]
       >
-      >연산자의 기본 폴더는 연산자가 쓰기 액세스 권한을 갖는 첫 번째 폴더입니다. 자세한 내용은 [폴더 액세스 관리](../../platform/using/access-management-folders.md)에서 알아보십시오.
+      >연산자의 기본 폴더는 연산자가 쓰기 액세스 권한을 갖는 첫 번째 폴더입니다. 추가 정보 [폴더 액세스 관리](../../platform/using/access-management-folders.md).
 
-      가져오기 폴더를 선택하려면 **[!UICONTROL Folder]** 필드 오른쪽에 있는 화살표를 클릭하고 관련 폴더를 선택합니다. **[!UICONTROL Select link]** 아이콘을 사용하여 새 창에 트리를 표시하거나 새 폴더를 만들 수도 있습니다.
+      가져오기 폴더를 선택하려면 오른쪽 화살표를 클릭합니다 **[!UICONTROL Folder]** 필드를 입력하고 관련 폴더를 선택합니다. 를 사용할 수도 있습니다 **[!UICONTROL Select link]** 아이콘을 클릭하여 새 창에 트리를 표시하거나 새 폴더를 만듭니다.
 
       ![](assets/s_ncs_user_import_wizard05_2.png)
 
@@ -301,17 +301,17 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
       ![](assets/s_ncs_user_import_wizard05_3.png)
 
-      폴더는 현재 노드 아래에 추가됩니다. 새 폴더의 이름을 입력하고 Enter 키를 눌러 확인한 다음 **[!UICONTROL OK]** 키를 클릭합니다.
+      폴더는 현재 노드 아래에 추가됩니다. 새 폴더의 이름을 입력하고 Enter 키를 눌러 확인한 다음 를 클릭합니다 **[!UICONTROL OK]**.
 
       ![](assets/s_ncs_user_import_wizard05_4.png)
 
    1. 목록과 연결
 
-      **[!UICONTROL Add recipients to a list]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하면 수신자를 가져올 목록을 선택하거나 만들 수 있습니다.
+      다음 **[!UICONTROL Edit...]** 링크 위치 **[!UICONTROL Add recipients to a list]** 섹션에서 수신자를 가져올 목록을 선택하거나 만들 수 있습니다.
 
       ![](assets/s_ncs_user_import_wizard05_5.png)
 
-      **[!UICONTROL Select link]**, **[!UICONTROL Create]** 를 차례로 클릭하여 이러한 수신자에 대한 새 목록을 만들 수 있습니다. 목록 만들기 및 관리는 [이 섹션에 나와 있습니다](../../platform/using/creating-and-managing-lists.md).
+      을(를) 클릭하여 이러한 수신자에 대한 새 목록을 만들 수 있습니다 **[!UICONTROL Select link]**, 그런 다음 **[!UICONTROL Create]**. 목록 작성 및 관리는 [이 섹션](../../platform/using/creating-and-managing-lists.md).
 
       ![](assets/s_ncs_user_import_wizard05_6.png)
 
@@ -319,15 +319,15 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
    1. 서비스 가입
 
-      가져온 모든 수신자를 정보 서비스에 가입하려면 **[!UICONTROL Subscribe recipients to a service]** 섹션의 **[!UICONTROL Edit...]** 링크를 클릭하여 수신자가 구독할 정보 서비스를 선택하거나 만듭니다. **[!UICONTROL Send a confirmation message]** 옵션을 선택할 수 있습니다. 이 메시지의 콘텐츠는 구독 서비스와 연결된 게재 템플릿에서 정의됩니다.
+      가져온 모든 수신자를 정보 서비스에 가입하려면 **[!UICONTROL Edit...]** 링크 **[!UICONTROL Subscribe recipients to a service]** 섹션을 추가하여 수신자를 구독할 정보 서비스를 선택하거나 만듭니다. 을(를) 선택할 수 있습니다 **[!UICONTROL Send a confirmation message]** 옵션: 이 메시지의 콘텐츠는 구독 서비스와 연결된 게재 템플릿에서 정의됩니다.
 
       ![](assets/s_ncs_user_import_wizard05_7.png)
 
-      **[!UICONTROL Select link]** 을 클릭한 다음 **[!UICONTROL Create]** 아이콘을 클릭하여 이러한 수신자에 대한 새 서비스를 만들 수 있습니다. 정보 서비스 관리는 [이 섹션](../../delivery/using/managing-subscriptions.md)에 나와 있습니다.
+      을(를) 클릭하여 이러한 수신자를 위한 새 서비스를 만들 수 있습니다 **[!UICONTROL Select link]** 그리고 **[!UICONTROL Create]** 아이콘. 정보 서비스 관리는 [이 섹션](../../delivery/using/managing-subscriptions.md).
 
-* 수신자의 위치에 대한 정보를 프로필에 추가하려면 **[!UICONTROL Origin]** 필드를 사용하십시오. 이 정보는 여러 가져오기의 프레임워크 내에서 특히 유용합니다.
+* 를 사용하십시오 **[!UICONTROL Origin]** 필드를 사용하여 수신자의 위치에 대한 정보를 프로필에 추가합니다. 이 정보는 여러 가져오기의 프레임워크 내에서 특히 유용합니다.
 
-이 단계의 유효성을 확인하고 다음 단계를 표시하려면 **[!UICONTROL Next]** 을 클릭하십시오.
+클릭 **[!UICONTROL Next]** 이 단계의 유효성을 확인하고 다음 단계를 표시합니다.
 
 ## 6단계 - 가져오기 시작 {#step-6---launching-the-import}
 
@@ -335,4 +335,4 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 
-그런 다음 가져오기 작업의 실행을 모니터링할 수 있습니다( [작업 실행 모니터링](../../platform/using/monitoring-jobs-execution.md) 참조).
+그런 다음 가져오기 작업의 실행을 모니터링할 수 있습니다( [작업 실행 모니터링](../../platform/using/monitoring-jobs-execution.md).

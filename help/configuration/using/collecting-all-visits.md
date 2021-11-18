@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 3%
@@ -29,11 +29,11 @@ Adobe Campaign에서 제공하는 웹 추적 모듈을 사용하면 메시지의
 
 ## 서버 구성 {#server-configuration}
 
-서버는 **serverConf.xml** 파일의 특정 요소를 오버로드하여 구성됩니다. 이러한 파일은 Adobe Campaign 설치 디렉토리의 **conf** 하위 디렉토리에 저장됩니다.
+서버는 **serverConf.xml** 파일. 이러한 파일은 **conf** Adobe Campaign 설치 디렉토리의 하위 디렉토리입니다.
 
 ### 리디렉션 서버 {#redirection-server}
 
-리디렉션 서버의 경우 **redirection** 요소의 **trackWebVisitors** 속성을 **true**&#x200B;로 설정합니다.
+리디렉션 서버의 경우 **trackWebVisitors** 의 속성 **리디렉션** 요소 대상 **true**.
 
 ```
 <redirection P3PCompactPolicy="CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV"
@@ -46,7 +46,7 @@ trackingPassword=""
 
 클라이언트 콘솔을 통해 추적 정보를 보려면 다음을 수행해야 합니다.
 
-* **더미 배달**&#x200B;을(를) 만듭니다(게재 매핑은 대상 스키마의 매핑과 동일해야 함).
-* **NmsTracking_WebTrackingDelivery** 옵션에 이 게재의 **내부 이름**&#x200B;을 입력합니다.
+* 만들기 **더미 전달** (게재 매핑은 대상 스키마의 매핑과 동일해야 함),
+* 을(를) 입력합니다. **내부 이름** 이 게재의 **NmsTracking_WebTrackingDelivery** 선택 사항입니다.
 
-이메일에서 클릭이 직접 이어지지 않은 모든 사이트 추적 정보는 생성된 더미 게재에서 볼 수 있습니다.
+이메일에서 클릭이 바로 다음에 오지 않은 모든 사이트 추적 정보는 생성된 더미 게재에서 볼 수 있습니다.

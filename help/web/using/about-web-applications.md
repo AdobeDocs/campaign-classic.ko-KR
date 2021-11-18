@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 21%
@@ -29,7 +29,7 @@ Adobe Campaign을 사용하면 연결된 사용자의 권한에 맞는 데이터
 
 >[!NOTE]
 >
->웹 응용 프로그램에 대한 보안을 최적화하는 방법에 대해 알아보려면 [보안 및 개인 정보 보호 체크리스트](https://helpx.adobe.com/kr/campaign/kb/acc-security.html)를 참조하십시오.
+>자세한 내용은 [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html) 웹 응용 프로그램에 대한 보안을 최적화하는 방법을 알아봅니다.
 
 >[!CAUTION]
 >
@@ -46,13 +46,13 @@ Adobe Campaign의 웹 애플리케이션에서는 다음 기능에 액세스할 
 * 응답에 따른 설문 조사 필드 조건부 표시 자세한 정보는 이 [페이지](form-rendering.md#defining-fields-conditional-display)를 참조하십시오.
 * 질문이 임의로 표시됩니다. 자세한 정보는 이 [페이지](../../surveys/using/building-a-survey.md#adding-questions)를 참조하십시오.
 * 조건부 페이지 표시. 자세한 정보는 이 [페이지](defining-web-forms-page-sequencing.md#conditional-page-display)를 참조하십시오.
-* 예상 데이터 유형(숫자, 이메일 주소, 날짜 등)에 따라 유효성 검사 전에 정보를 확인하는 경우 및 필수 필드입니다. 자세한 정보는 이 [페이지](form-rendering.md#defining-control-settings)를 참조하십시오.
-* 전자 메일 초대 또는 알림 자세한 정보는 이 [페이지](publishing-a-web-form.md#delivering-a-form-via-email)를 참조하십시오.
+* 예상 데이터 유형(숫자, 이메일 주소, 날짜 등)에 따라 유효성 검사 전에 정보 확인 및 필수 필드입니다. 자세한 정보는 이 [페이지](form-rendering.md#defining-control-settings)를 참조하십시오.
+* 이메일 초대 또는 알림. 자세한 정보는 이 [페이지](publishing-a-web-form.md#delivering-a-form-via-email)를 참조하십시오.
 * 오류 및 종료 메시지의 개인화. 자세한 정보는 이 [페이지](defining-web-forms-properties.md#setting-up-an-error-page)를 참조하십시오.
 * 이미지, 비디오, 하이퍼텍스트 링크, Captcha 등의 사용 자세한 정보는 이 [페이지](editing-content.md)를 참조하십시오.
 * 실시간으로 응답 모니터링. 자세한 정보는 이 [페이지](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking)를 참조하십시오.
 
-선택 사항인 **설문 조사** 작성 모듈은 다음과 같은 추가 기능을 제공합니다.
+선택 사항입니다 **설문 조사** 만들기 모듈은 다음과 같은 추가 기능을 제공합니다.
 
 * 데이터베이스의 동적 확장: 초기 데이터 템플릿에 응답 만들기가 포함되지 않습니다. 자세한 정보는 이 [페이지](../../surveys/using/managing-answers.md#storing-collected-answers)를 참조하십시오.
 * 전용 보고서 생성. 자세한 정보는 이 [페이지](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys)를 참조하십시오.
@@ -61,9 +61,9 @@ Adobe Campaign의 웹 애플리케이션에서는 다음 기능에 액세스할 
 
 >[!NOTE]
 >
->설문 조사는 [이 섹션에 자세히 설명되어 있습니다](../../surveys/using/about-surveys.md).
+>설문 조사는 [이 섹션](../../surveys/using/about-surveys.md).
 >
->Adobe Campaign에서 웹 양식의 전체 기능은 [이 섹션에 자세히 설명되어 있습니다](about-web-forms.md).
+>Adobe Campaign에서 웹 양식의 전체 기능은 [이 섹션](about-web-forms.md).
 
 ## 웹 애플리케이션 구현 {#web-application-implementation}
 
@@ -71,16 +71,16 @@ Adobe Campaign의 웹 애플리케이션에서는 다음 기능에 액세스할 
 
 1. 컨텐츠(필드, 목록, 표, 그래프 등)를 만듭니다.
 
-   양식에 사용 가능한 필드를 자세히 설명하는 섹션을 볼 수도 있습니다. 이 모든 필드는 웹 응용 프로그램에서도 사용할 수 있습니다. 이 정보는 [이 페이지](adding-fields-to-a-web-form.md)에 있습니다.
+   양식에 사용 가능한 필드를 자세히 설명하는 섹션을 볼 수도 있습니다. 이 모든 필드는 웹 응용 프로그램에서도 사용할 수 있습니다. 이 정보는 [이 페이지](adding-fields-to-a-web-form.md).
 
 1. 필요에 따라 사전 로드, 테스트 및 저장 단계를 추가하고, 액세스 제어 시스템(주로 엑스트라넷 게시의 프레임워크 내에서)을 구성할 수 있습니다.
 1. 엑스트라넷 또는 Adobe Campaign에서 사용할 수 있도록 웹 애플리케이션을 게시합니다.
 
 ## 웹 애플리케이션 초기 구성 {#web-application-initial-configuration}
 
-웹 응용 프로그램은 **[!UICONTROL Campaigns]** 및 **[!UICONTROL Profiles and targets]** 탭의 **[!UICONTROL Web Applications]** 링크를 통해 만들어집니다.
+웹 애플리케이션은 **[!UICONTROL Web Applications]** 링크 위치 **[!UICONTROL Campaigns]** 및 **[!UICONTROL Profiles and targets]** 탭.
 
-웹 응용 프로그램은 Adobe Campaign 트리의 **[!UICONTROL Resources > Online > Web Applications]** 노드에 저장됩니다. 구성은 다음 폴더에서 분류됩니다.
+웹 응용 프로그램은 **[!UICONTROL Resources > Online > Web Applications]** 노드 아래에 나열된 상태로 남아 있습니다. 구성은 다음 폴더에서 분류됩니다.
 
 * **[!UICONTROL Administration > Configuration > Form renderings]**: 웹 양식 프레젠테이션의 렌더링 템플릿을 포함합니다(응용 프로그램 및 설문 조사). 템플릿을 사용하면 양식을 생성할 수 있습니다. 또한 CSS 스타일 시트도 사용합니다. 이 스타일 시트는 템플릿 수준에서 오버로드될 수 있습니다. 자세한 정보는 이 [페이지](form-rendering.md#selecting-the-form-rendering-template)를 참조하십시오.
 * **[!UICONTROL Resources > Templates > Web application templates]**: 양식 템플릿을 포함합니다. 양식이나 웹 응용 프로그램을 만들려면 템플릿에서 시작해야 합니다.
@@ -93,7 +93,7 @@ Adobe Campaign의 웹 애플리케이션에서는 다음 기능에 액세스할 
 >
 >기존 웹 응용 프로그램을 템플릿으로 변환할 수 있습니다. 이렇게 하려면 양식을 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Actions > Save as template...]**&#x200B;을(를) 선택합니다.
 
-Adobe Campaign 트리의 **[!UICONTROL Resources > Templates > Web Application templates]** 노드를 통해 새 템플릿을 만들 수 있습니다.
+를 통해 새 템플릿을 만들 수 있습니다 **[!UICONTROL Resources > Templates > Web Application templates]** 노드 아래에 나열된 상태로 남아 있습니다.
 
 만들기 마법사를 사용하면 다음과 같이 활성화할 옵션을 선택할 수 있습니다.
 

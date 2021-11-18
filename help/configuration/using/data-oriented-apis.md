@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '1881'
 ht-degree: 0%
@@ -33,9 +33,9 @@ XML 문서는 데이터베이스의 MEMO 유형 필드에 저장됩니다.
 
 스크립트에서 데이터베이스의 필드를 처리할 수 있으려면 Adobe Campaign 데이터 모델에 익숙해야 합니다.
 
-데이터 모델에 대한 프레젠테이션은 [Adobe Campaign 데이터 모델 설명](../../configuration/using/data-model-description.md)을 참조하십시오.
+데이터 모델에 대한 프레젠테이션은 [Adobe Campaign 데이터 모델 설명](../../configuration/using/data-model-description.md).
 
-구조를 생성하려면 다음 문서를 참조하십시오. [데이터 모델 또는 데이터 사전을 생성하는 방법](https://helpx.adobe.com/campaign/kb/generate-data-model.html)
+구조를 생성하려면 다음 문서를 참조하십시오. [데이터 모델 또는 데이터 사전을 생성하는 방법](https://helpx.adobe.com/campaign/kb/generate-data-model.html).
 
 ## 쿼리 및 작성기 {#query-and-writer}
 
@@ -49,19 +49,19 @@ XML 문서는 데이터베이스의 MEMO 유형 필드에 저장됩니다.
 
 이렇게 하면 기본 SQL을 분리할 수 있습니다. 쿼리 언어는 기본 엔진에 종속되지 않습니다. 일부 함수는 다시 매핑되며, 이 경우 여러 SELECT SQL 주문을 생성할 수 있습니다.
 
-자세한 내용은 스키마 &#39;xtk:queryDef&#39;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)의 &#39;ExecuteQuery&#39; 메서드에 대한 [예를 참조하십시오.
+자세한 내용은 [스키마 &#39;xtk:queryDef&#39;의 &#39;ExecuteQuery&#39; 메서드 예제](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-).
 
-**ExecuteQuery** 메서드는 [ExecuteQuery(xtk:queryDef)](#executequery--xtk-querydef-)에 표시됩니다.
+다음 **ExecuteQuery** 메서드는 [ExecuteQuery(xtk:queryDef)](#executequery--xtk-querydef-).
 
 ### 쓰기 {#write}
 
 쓰기 명령을 사용하면 하나 이상의 기본 테이블에 항목을 포함하는 단순 또는 복잡한 문서를 작성할 수 있습니다.
 
-트랜잭션 API를 사용하면 **updateOrInsert** 명령을 통해 조정을 관리할 수 있습니다. 하나의 명령을 사용하면 데이터를 만들거나 업데이트할 수 있습니다. 수정 병합(**병합**)을 구성할 수도 있습니다. 이 운영 모드에서는 부분 업데이트를 인증할 수 있습니다.
+트랜잭션 API를 사용하면 **updateOrInsert** 명령: 하나의 명령을 사용하면 데이터를 만들거나 업데이트할 수 있습니다. 수정 병합( )을 구성할 수도 있습니다&#x200B;**병합**): 이 운영 모드에서는 부분 업데이트를 인증할 수 있습니다.
 
 XML 구조는 데이터의 논리적 뷰를 제공하며 SQL 테이블의 물리적 구조를 사이드 스텝(side)할 수 있도록 해줍니다.
 
-Write 메서드는 [Write / WriteCollection (xtk:session)](#write---writecollection--xtk-session-)에 표시됩니다.
+Write 메서드는 [쓰기/쓰기 컬렉션(xtk:session)](#write---writecollection--xtk-session-).
 
 ## ExecuteQuery(xtk:queryDef) {#executequery--xtk-querydef-}
 
@@ -115,9 +115,9 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 </queryDef>
 ```
 
-하위 쿼리( `<subquery>` )는 `<condition> ` 요소에서 정의할 수 있습니다. 구문   `<subquery> `   요소는    `<querydef>`.
+하위 쿼리( `<subquery>`  )은  `<condition> `  요소를 생성하지 않습니다. 구문   `<subquery> `   요소는    `<querydef>`.
 
-`<subquery>  : </subquery>` 예
+예 `<subquery>  : </subquery>`
 
 ```
 <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
@@ -133,20 +133,20 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
   
 ```
 
-쿼리는 **스키마** 특성에서 시작 스키마를 참조해야 합니다.
+쿼리는 **스키마** 속성을 사용합니다.
 
-원하는 작업 유형은 **operation** 속성에 입력되며 다음 값 중 하나를 포함합니다.
+원하는 작업 유형은 **작업** 속성 및 에는 다음 값 중 하나가 포함되어 있습니다.
 
 * **get**: 테이블에서 레코드를 검색하고 데이터가 없는 경우 오류를 반환합니다.
 * **getIfExists**: 테이블에서 레코드를 검색하고 데이터가 없는 경우 빈 문서를 반환합니다.
 * **선택**: 여러 레코드를 반환하는 커서를 만들고 데이터가 없는 경우 빈 문서를 반환합니다.
 * **count**: 데이터 수를 반환합니다.
 
-**XPath** 구문은 입력 스키마를 기반으로 데이터를 찾는 데 사용됩니다. XPpaths에 대한 자세한 내용은 [데이터 스키마](../../configuration/using/data-schemas.md)를 참조하십시오.
+다음 **XPath** 구문은 입력 스키마를 기반으로 하여 데이터를 찾는 데 사용됩니다. XPath에 대한 자세한 내용은 [데이터 스키마](../../configuration/using/data-schemas.md).
 
 #### &#39;get&#39; 작업이 있는 예 {#example-with-the--get--operation}
 
-전자 메일에 필터가 있는 수신자(&quot;nms:recipient&quot; 스키마)의 성 및 이름을 검색합니다.
+이메일에 필터가 있는 수신자(&quot;nms:recipient&quot; 스키마)의 성 및 이름을 검색합니다.
 
 ```
 <queryDef schema="nms:recipient" operation="get">
@@ -190,7 +190,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 
 표현식은 단순 필드이거나 산술 연산 또는 문자열 연결과 같은 복잡한 표현식일 수 있습니다.
 
-반환할 레코드 수를 제한하려면 **lineCount** 속성을 `<querydef>` 요소에 추가하십시오.
+반환할 레코드 수를 제한하려면 **lineCount** 속성을 `<querydef>` 요소를 생성하지 않습니다.
 
 쿼리에서 반환한 레코드 수를 100개로 제한하려면
 
@@ -199,7 +199,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 ...
 ```
 
-다음 100개의 레코드를 검색하려면 동일한 쿼리를 다시 실행하여 **startLine** 속성을 추가합니다.
+다음 100개의 레코드를 검색하려면 동일한 쿼리를 다시 실행하고 **startLine** 속성을 사용합니다.
 
 ```
 <queryDef schema="nms:recipient" operation="select" lineCount="100" startLine="100">
@@ -212,7 +212,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 
 ```
 <queryDef schema="nms:recipient" operation="count"">
-  <!-- condition on the folder and domain of the e-mail -->
+  <!-- condition on the folder and domain of the email -->
   <where>  
     <condition expr="[@folder-id] = 1234" and @domain like 'Adobe%'"/>
   </where>
@@ -221,11 +221,11 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 
 >[!NOTE]
 >
->다시 이전 예제의 조건을 사용합니다. `<select>` 및 절은 사용되지 않습니다. `</select>`
+>다시 이전 예제의 조건을 사용합니다. 다음 `<select>` 및 절은 사용되지 않습니다. `</select>`
 
 #### 데이터 그룹 {#data-grouping}
 
-두 번 이상 참조된 전자 메일 주소를 검색하려면 다음을 수행하십시오.
+두 번 이상 참조된 이메일 주소를 검색하려면 다음을 수행하십시오.
 
 ```
 <queryDef schema="nms:recipient" operation="select">
@@ -234,7 +234,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
     <node expr="count(@email)"/>
   </select>
 
-  <!-- e-mail grouping clause -->
+  <!-- email grouping clause -->
   <groupby>
     <node expr="@email"/>
   </groupby>
@@ -247,7 +247,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 </queryDef>
 ```
 
-**groupBy** 속성을 그룹화할 필드에 직접 추가하여 쿼리를 단순화할 수 있습니다.
+쿼리를 추가하고 **groupBy** 그룹화할 필드에 직접 속성을 지정합니다.
 
 ```
 <select>
@@ -257,7 +257,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 
 >[!NOTE]
 >
->더 이상 `<groupby>` 요소를 채울 필요가 없습니다.
+>를 채울 필요가 없습니다. `<groupby>` 요소를 생성하지 않습니다.
 
 #### 조건 표시 {#bracketing-in-conditions}
 
@@ -271,7 +271,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
    </where>
    ```
 
-* `<condition>` 요소가 있는 구조화된 버전:
+* 구조화된 버전 `<condition>` 요소:
 
    ```
    <where>
@@ -322,7 +322,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
    </select>
    ```
 
-* 컬렉션 링크(1N): 컬렉션 테이블의 필드에 대한 필터링은 **EXISTS** 또는 **NOT EXISTS** 연산자를 통해 수행해야 합니다.
+* 컬렉션 링크(1N): 컬렉션 테이블의 필드에 대한 필터링은 **존재함** 또는 **존재하지 않음** 연산자를 사용할 수 있습니다.
 
    &#39;Newsletter&#39; 정보 서비스를 구독한 수신자를 필터링하려면 다음을 수행하십시오.
 
@@ -334,7 +334,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
    </where>
    ```
 
-   `<select>` 절에서 컬렉션 링크의 필드를 직접 검색하는 것은 쿼리로 기본 제품을 반환하므로 권장되지 않습니다. 연결된 테이블에 레코드가 하나만 있는 경우에만 사용됩니다(예: `<node expr="">`).
+   에서 컬렉션 링크의 필드를 직접 검색합니다. `<select>` 쿼리는 기본 제품을 반환하므로 절을 사용하지 않는 것이 좋습니다. 연결된 테이블에 레코드가 하나만 있는 경우에만 사용됩니다(예 `<node expr="">`).
 
    &quot;구독&quot; 컬렉션 링크의 예:
 
@@ -344,11 +344,11 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
    </select>
    ```
 
-   `<select>` 절에서 컬렉션 링크의 요소가 포함된 하위 목록을 검색할 수 있습니다. 참조된 필드의 XPath는 컬렉션 요소의 문맥입니다.
+   에서 컬렉션 링크의 요소를 포함하는 하위 목록을 검색할 수 있습니다 `<select>` 절. 참조된 필드의 XPath는 컬렉션 요소의 문맥입니다.
 
-   필터링( `<orderby>` ) 및 제한( `<where>` ) 요소를 컬렉션 요소에 추가할 수 있습니다.
+   필터링( `<orderby>`  ) 및 제한 사항( )  `<where>`  ) 요소를 컬렉션 요소에 추가할 수 있습니다.
 
-   이 예에서 각 수신자에 대해 쿼리는 수신자가 가입한 전자 메일 및 정보 서비스 목록을 반환합니다.
+   이 예에서 각 수신자에 대해 쿼리는 수신자가 가입한 이메일 및 정보 서비스 목록을 반환합니다.
 
    ```
    <queryDef schema="nms:recipient" operation="select">
@@ -374,7 +374,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 
 매개 변수 바인딩을 사용하면 엔진은 쿼리에 사용되는 매개 변수의 값을 설정할 수 있습니다. 이 기능은 엔진에서 값 이스케이프를 담당하고, 검색할 매개 변수에 대한 캐시의 추가 이점이 있으므로 매우 유용합니다.
 
-쿼리가 만들어지면 &quot;바인딩된&quot; 값이 문자(?)로 바뀝니다. ODBC에서 SQL 쿼리 본문에 `#[index]#`(postgres...)를 입력합니다.
+쿼리가 만들어지면 &quot;바인딩된&quot; 값이 문자(?)로 바뀝니다. ODBC에서, `#[index]#` SQL 쿼리 본문에 있습니다..)
 
 ```
 <select>
@@ -393,7 +393,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 
 #### 쿼리 작성 팁: {#query-building-tip-}
 
-쿼리 구문에 도움이 되도록 Adobe Campaign 클라이언트 콘솔( **[!UICONTROL Tools/ Generic query editor...]** 메뉴)에서 일반 쿼리 편집기를 사용하여 쿼리를 작성할 수 있습니다. 방법은 다음과 같습니다.
+쿼리 구문에 도움이 되도록 Adobe Campaign 클라이언트 콘솔에서 일반 쿼리 편집기를 사용하여 쿼리를 작성할 수 있습니다( **[!UICONTROL Tools/ Generic query editor...]** 메뉴 아래의 제품에서 사용할 수 있습니다. 방법은 다음과 같습니다.
 
 1. 검색할 데이터를 선택합니다.
 
@@ -436,7 +436,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 
 #### 별칭 {#alias}
 
-별칭을 사용하여 출력 문서에서 데이터 위치를 수정할 수 있습니다. **별칭** 특성은 해당 필드에 XPath를 지정해야 합니다.
+별칭을 사용하여 출력 문서에서 데이터 위치를 수정할 수 있습니다. 다음 **별칭** 특성은 해당 필드에 XPath를 지정해야 합니다.
 
 ```
 <queryDef schema="nms:recipient" operation="get">
@@ -537,16 +537,16 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 
 데이터 조정은 연결된 스키마에 입력한 키의 정의에 따라 작동합니다. 쓰기 프로시저는 입력 문서에 입력한 데이터를 기준으로 첫 번째 적합한 키를 찾습니다. 엔티티는 데이터베이스에 존재함에 따라 삽입되거나 업데이트됩니다.
 
-업데이트할 엔터티의 스키마 키는 **xtschema** 속성을 기반으로 완료됩니다.
+업데이트할 엔터티의 스키마 키는 **xtschema** 속성을 사용합니다.
 
-따라서 조정 키는 키(쉼표로 구분됨)를 구성하는 XPath 목록을 포함하는 **_key** 특성으로 강제 적용할 수 있습니다.
+따라서 조정 키는 **_key** 키를 구성하는 XPpats 목록을 포함하는 특성입니다(쉼표로 구분됨).
 
-다음 값으로 **_operation** 속성을 채워서 작업 유형을 강제 적용할 수 있습니다.
+를 채우기 위해 **_operation** 다음 값을 갖는 속성:
 
 * **삽입**: 레코드를 강제로 삽입합니다. 조정 키는 사용되지 않습니다.
 * **insertOrUpdate**: 조정 키(기본 모드)에 따라 레코드를 업데이트하거나 삽입합니다.
 * **업데이트**: 레코드를 업데이트합니다. 데이터가 없는 경우에는 아무 작업도 수행하지 않습니다.
-* **삭제**: 레코드 삭제,
+* **delete**: 레코드 삭제,
 * **없음**: 업데이트 또는 삽입 없이 링크 조정에만 사용됩니다.
 
 ### &#39;Write&#39; 메서드를 사용하는 예 {#example-with-the--write--method}
@@ -595,7 +595,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 
 연결된 요소에 &quot;_key&quot; 및 &quot;_operation&quot; 속성을 입력할 수 있습니다. 이 요소의 동작은 입력 스키마의 기본 요소에 대한 경우와 동일합니다.
 
-기본 엔티티(&quot;nms:recipient&quot;)의 키 정의는 연결된 테이블(요소 `<folder>` 스키마 &quot;xtk:folder&quot;)의 필드와 전자 메일로 구성됩니다.
+기본 엔티티(&quot;nms:recipient&quot;)의 키 정의는 연결된 테이블(요소)의 필드로 구성됩니다 `<folder>`  스키마 &quot;xtk:folder&quot;)와 전자 메일.
 
 >[!NOTE]
 >
@@ -625,7 +625,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 
 >[!NOTE]
 >
->그룹 이름을 기반으로 하는 암시적 키가 &quot;nms:group&quot; 스키마에 정의되어 있으므로 키의 정의가 `<rcpgroup>` 요소에 입력되지 않습니다.
+>키의 정의가 `<rcpgroup>` 그룹 이름을 기반으로 하는 암시적 키가 &quot;nms:group&quot; 스키마에 정의되어 있으므로 요소
 
 ### XML 컬렉션 요소 {#xml-collection-elements}
 

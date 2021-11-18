@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 2%
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 ### 예제 {#examples}
 
-전자 메일 주소에서 수신자 조정 키를 사용한 구독: 입력 XML 문서는 이 필드에 있는 전자 메일 주소와 키의 정의를 참조해야 합니다.
+이메일 주소에서 수신자 조정 키가 있는 구독: 입력 XML 문서는 이 필드에 있는 전자 메일 주소와 키의 정의를 참조해야 합니다.
 
 ```
 <recipient _key="email" email= "john.doe@adobe.com"/>

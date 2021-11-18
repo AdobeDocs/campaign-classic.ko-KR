@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 9%
@@ -17,23 +17,23 @@ ht-degree: 9%
 
 ![](../../assets/common.svg)
 
-게재 기능을 사용하면 바운스 방지 또는 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달하는 캠페인의 성공을 측정할 수 있습니다. [게재가 중요한 이유를 알아봅니다](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
+게재 기능을 사용하면 바운스 방지 또는 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달하는 캠페인의 성공을 측정할 수 있습니다. [게재가 중요한 이유 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
 
-보다 정확하게 말하면 이메일 게재 능력은 개인 이메일 주소를 통해 짧은 시간 내에 컨텐츠와 형식 측면에서 예상되는 품질로 메시지의 목적지에 도달할 수 있는 능력을 결정하는 일련의 특성입니다.
+보다 정확하게 말하면 이메일 게재 능력이란, 개인 이메일 주소를 통해 짧은 시간 내에 컨텐츠와 형식 측면에서 예상되는 품질로 메시지의 목적지에 도달할 수 있는 능력을 결정하는 일련의 특성입니다.
 
-게재 기능의 의미와 주요 게재 가능성 용어, 개념 및 접근 방법에 대한 자세한 내용은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하십시오.
+게재 능력에 대한 자세한 내용과 주요 게재 가능성 용어, 개념 및 접근 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko).
 
 ## 게재 능력을 향상시키는 방법 {#deliverability-key-points}
 
 게재 가능성 문제는 일반적으로 인터넷 서비스 제공업체 및 메일 서버 관리자가 구현하는 스팸으로부터 보호하는 조치와 연결됩니다.
 
-* 성공적인 이메일 마케팅 캠페인을 디자인하는 방법에 대한 일반적인 권장 사항은 [게재 가능성 전략 및 정의](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html)를 참조하십시오.
+* 성공적인 이메일 마케팅 캠페인을 디자인하는 방법에 대한 일반적인 권장 사항은 [게재 가능성 전략 및 정의](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
 
 * Adobe Campaign 이메일의 게재 능력을 최적화하는 방법에 대한 보다 구체적인 권장 사항을 알려면 이 섹션에 나열된 우수 사례를 사용하는 것이 좋습니다.
 
 >[!NOTE]
 >
->ISP는 스팸 메일로부터 고객을 보호하기 위해 새로운 정교한 필터링 기술을 지속적으로 개발해야 하므로, 이메일 게재 기능은 항상 변경되는 기준 및 규칙을 제공하는 것을 특징으로 합니다. 정기적으로 업데이트된 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)를 참조해야 합니다.
+>ISP는 스팸 메일로부터 고객을 보호하기 위해 새로운 정교한 필터링 기술을 지속적으로 개발해야 하므로, 이메일 게재 기능은 항상 변경되는 기준 및 규칙을 제공하는 것을 특징으로 합니다. 를 참조하는지 확인합니다. [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) 정기적으로 업데이트 됩니다.
 
 ### 게재 가능성 비율
 
@@ -42,13 +42,13 @@ ht-degree: 9%
 Adobe Campaign을 사용하면 게재 가능한 비율은 많은 요인에 따라 달라집니다. 특히 다음과 같습니다.
 
 * 인스턴스의 올바른 구성: 도움이 필요하면 Adobe 담당자에게 문의하십시오.
-* 올바른 네트워크 구성: [이 섹션](optimize-delivery.md#network-config) 및 [도메인 설정 및 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy)을 참조하십시오.
-* IP 주소 평판: [IP 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy)을 참조하십시오.
-* 타겟팅된 주소의 품질: [격리 관리](optimize-delivery.md#quarantine-management)를 참조하십시오.
-* 낮은 [컴플레인](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) 및 [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) 비율.
-* 메시지 콘텐츠: [전자 메일 콘텐츠 제어](control-message-content.md)를 참조하십시오.
-* 메시지 인증(SPF, DKIM, DMARC): [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)을 참조하십시오.
-* 보낸 사람 평판: 기본 ISP가 보낸 사람의 평판을 평가하는 방법에 대해 알려면 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html)을 참조하십시오.
+* 올바른 네트워크 구성: 참조 [이 섹션](optimize-delivery.md#network-config) 및 [도메인 설정 및 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
+* IP 주소 평판: 참조 [IP 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
+* 타겟팅된 주소의 품질: 참조 [격리 관리](optimize-delivery.md#quarantine-management).
+* 낮음 [불만](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) 및 [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) 요금.
+* 메시지 콘텐츠: 참조 [이메일 콘텐츠 제어](control-message-content.md).
+* 메시지 인증(SPF, DKIM, DMARC): 참조 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+* 보낸 사람 평판: 기본 ISP에서 보낸 사람의 평판을 평가하는 방법에 대해 알아보려면 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
 
 ## 캠페인 게재 기능 도구 {#deliverability-tools}
 
@@ -70,7 +70,7 @@ Adobe Campaign은 플랫폼의 게재 성능을 추적하고 개선하기 위한
 
 자세한 내용은 [이중 옵트인](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in)을 사용하여 구독 양식 만들기를 참조하십시오.
 
-고객으로부터 데이터를 수집하는 모범 사례에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene)를 참조하십시오.
+고객으로부터 데이터를 수집하는 모범 사례에 대한 자세한 내용은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
 
 ### 격리 관리 활용
 
@@ -113,6 +113,6 @@ By settling for average (80%) deliverability, marketers are leaving significant 
 
 What exactly is email deliverability? And how can marketers improve deliverability rates to widen the mouth of the funnel and squeeze more results from their email campaigns?
 
-Email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format. These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program. This overview outlines the four fundamentals of email deliverability success and offers best practices for reaching the inbox and driving greater revenues from email marketing programs.
+Email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal email address, within a short time, and with the expected quality in terms of content and format. These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program. This overview outlines the four fundamentals of email deliverability success and offers best practices for reaching the inbox and driving greater revenues from email marketing programs.
 
 ![](assets/deliverability_overview_2.png)-->

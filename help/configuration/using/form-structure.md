@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '2384'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ![](../../assets/v7-only.svg)
 
-양식의 설명은 양식 스키마 **xtk:form**&#x200B;의 문법을 준수하는 구조화된 XML 문서입니다.
+양식에 대한 설명은 양식 스키마의 문법을 준수하는 구조화된 XML 문서입니다 **xtk:form**.
 
-입력 양식의 XML 문서에는 양식 이름과 네임스페이스를 채우려면 **name** 및 **namespace** 특성이 있는 `<form>` 루트 요소가 있어야 합니다.
+입력 양식의 XML 문서에는 `<form>` 루트 요소가 있는 요소  **이름** 및  **namespace** 양식 이름과 네임스페이스를 채울 속성입니다.
 
 ```
 <form name="form_name" namespace="name_space">
@@ -27,7 +27,7 @@ ht-degree: 0%
 </form>
 ```
 
-기본적으로 양식은 이름 및 네임스페이스가 동일한 데이터 스키마와 연결됩니다. 다른 이름과 양식을 연결하려면 `<form>` 요소의 **entity-schema** 속성을 스키마 키의 이름으로 설정합니다. 입력 양식의 구조를 보여주기 위해 &quot;cus:recipient&quot; 예제 스키마를 사용하여 인터페이스를 설명하겠습니다.
+기본적으로 양식은 이름 및 네임스페이스가 동일한 데이터 스키마와 연결됩니다. 다른 이름과 양식을 연결하려면 **entity-schema** 의 속성 `<form>` 요소를 스키마 키의 이름으로 지정합니다. 입력 양식의 구조를 보여주기 위해 &quot;cus:recipient&quot; 예제 스키마를 사용하여 인터페이스를 설명하겠습니다.
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -38,7 +38,7 @@ ht-degree: 0%
   </enumeration>
 
   <element name="recipient">
-    <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+    <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
     <attribute name="birthDate" type="datetime" label="Date"/>
     <attribute name="gender" type="byte" label="Gender" enum="gender"/>
   </element>
@@ -57,20 +57,20 @@ ht-degree: 0%
 </form>
 ```
 
-편집 컨트롤에 대한 설명은 `<form>` 루트 요소에서 시작됩니다. 스키마 필드의 경로를 포함하는 **xpath** 특성이 있는 **`<input>`** 요소에 편집 컨트롤이 입력됩니다.
+편집 컨트롤의 설명은 `<form>` 루트 요소. 편집 컨트롤이 **`<input>`** 요소가 있는 요소 **xpath** 스키마에 필드의 경로를 포함하는 속성입니다.
 
 편집 컨트롤은 해당 데이터 형식에 자동으로 적응하고 스키마에 정의된 레이블을 사용합니다.
 
 >[!NOTE]
 >
->**label** 속성을 `<input>` 요소에 추가하여 데이터 스키마에 정의된 레이블을 오버로드할 수 있습니다.\
->`<input label="E-mail address" xpath="@name" />`
+>를 추가하여 데이터 스키마에 정의된 레이블을 오버로드할 수 있습니다 **레이블** 속성을 `<input>` 요소:\
+>`<input label="Email address" xpath="@name" />`
 
 기본적으로 각 필드는 단일 행에 표시되며 데이터 유형에 따라 사용 가능한 모든 공간을 차지합니다.
 
 ## 양식화 {#formatting}
 
-컨트롤 레이아웃은 HTML 표에 사용되는 레이아웃과 비슷하며 컨트롤을 여러 열로 분할하거나 요소를 삽입하거나 사용 가능한 공간의 위치를 지정할 수 있습니다. 그러나 이 서식을 지정하면 해당 영역을 비율로 나눌 수 있습니다. 개체에 고정 치수를 지정할 수 없습니다.
+컨트롤의 레이아웃은 HTML 테이블에 사용되는 레이아웃과 비슷하며 컨트롤을 여러 열로 분할하거나 요소를 삽입하거나 사용 가능한 공간의 위치를 지정할 수 있습니다. 그러나 이 서식을 지정하면 해당 영역을 비율로 나눌 수 있습니다. 개체에 고정 치수를 지정할 수 없습니다.
 
 위의 예제 컨트롤을 두 열로 표시하려면 다음을 수행합니다.
 
@@ -86,9 +86,9 @@ ht-degree: 0%
 </form>
 ```
 
-**colcount** 특성이 있는 **`<container>`** 요소를 사용하면 자식 컨트롤을 두 개의 열에 강제 표시할 수 있습니다.
+다음 **`<container>`** 요소가 있는 요소 **colcount** 특성을 사용하면 자식 컨트롤을 두 개의 열에 강제 표시할 수 있습니다.
 
-컨트롤의 **colspan** 특성은 값에 입력한 열 수로 컨트롤을 확장합니다.
+다음 **colspan** 컨트롤의 특성은 값에 입력한 열 수로 컨트롤을 확장합니다.
 
 ![](assets/d_ncs_integration_form_exemple3.png)
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 </form> 
 ```
 
-**type=&quot;frame&quot;** 속성을 채우면 컨테이너는 **label** 특성에 포함된 레이블로 자식 컨트롤 주위에 프레임을 추가합니다.
+다음 **type=&quot;frame&quot;** 이 속성을 사용하면 컨테이너는 자식 컨트롤 주위에 해당 레이블이 포함된 프레임을 추가합니다 **레이블** attribute:
 
 ![](assets/d_ncs_integration_form_exemple4.png)
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 </form>
 ```
 
-**`<static>`** 요소를 사용하여 입력 양식의 서식을 지정할 수 있습니다.
+A **`<static>`** 요소를 사용하여 입력 양식 서식을 지정할 수 있습니다.
 
 ![](assets/d_ncs_integration_form_exemple5.png)
 
@@ -126,19 +126,19 @@ ht-degree: 0%
   <input xpath="@gender"/>
   <input xpath="@birthDate"/>
   <input xpath="@email" colspan="2"/>
-  <static type="help" label="General information about recipient with date of birth, gender, and e-mail address." colspan="2"/>
+  <static type="help" label="General information about recipient with date of birth, gender, and email address." colspan="2"/>
 </form>
 ```
 
-**구분 기호** 유형을 사용하는 **`<static>`** 태그를 사용하면 **label** 속성에 포함된 레이블이 있는 구분 기호 모음을 추가할 수 있습니다.
+다음 **`<static>`** 태그와 함께 **구분 기호** type을 사용하면 **레이블** 속성을 사용합니다.
 
-도움말 유형과 함께 `<static>` 태그를 사용하여 도움말 텍스트를 추가했습니다. 텍스트 컨텐츠가 **label** 속성에 입력됩니다.
+도움말 텍스트를 `<static>` 태그 내에 도움말 유형을 지정합니다. 텍스트 내용은 **레이블** 속성을 사용합니다.
 
 ## 컨테이너 {#containers}
 
-컨테이너에서는 일련의 컨트롤을 그룹화할 수 있습니다. 이 값들은 **`<container>`** 요소로 표시됩니다. 위의 여러 열에 대한 컨트롤 서식을 지정하는 데 사용됩니다.
+컨테이너에서는 일련의 컨트롤을 그룹화할 수 있습니다. 이 변수들은 **`<container>`** 요소를 생성하지 않습니다. 위의 여러 열에 대한 컨트롤 서식을 지정하는 데 사용됩니다.
 
-`<container>`의 **xpath** 속성을 사용하면 자식 컨트롤의 참조를 단순화할 수 있습니다. 그런 다음 컨트롤 참조는 상위 `<container>` 상위를 기준으로 합니다.
+다음 **xpath** 속성 `<container>` 자식 컨트롤 참조를 단순화할 수 있습니다. 그러면 컨트롤 참조가 상위에 상대적입니다 `<container>` 상위
 
 xpath가 없는 컨테이너의 예:
 
@@ -181,11 +181,11 @@ xpath가 없는 컨테이너의 예:
 </container>
 ```
 
-기본 컨테이너는 **type=&quot;notebook&quot;** 특성에 의해 정의됩니다. 탭은 하위 컨테이너에서 선언되며 탭의 레이블은 **label** 특성에서 채워집니다.
+기본 컨테이너는 **type=&quot;notebook&quot;** 속성을 사용합니다. 탭은 하위 컨테이너에서 선언되며 탭의 레이블은 **레이블** 속성을 사용합니다.
 
 >[!NOTE]
 >
->**style=&quot;down|up**(기본적으로)**&quot;** 기능은 탭 레이블의 수직 위치를 컨트롤 아래 또는 그 위에 강제 적용합니다. 이 기능은 선택 사항입니다.
+>A **style=&quot;down|up**(기본적으로)**&quot;** 이 기능을 사용하면 컨트롤 아래 또는 위에 탭 레이블을 세로로 배치할 수 있습니다. 이 기능은 선택 사항입니다.
 >![](assets/d_ncs_integration_form_exemple7.png)
 >`<container style="down" type="notebook">  ... </container>`
 
@@ -208,11 +208,11 @@ xpath가 없는 컨테이너의 예:
 </container>
 ```
 
-기본 컨테이너는 **type=&quot;iconbox&quot;** 특성에 의해 정의됩니다. 아이콘과 연관된 페이지는 하위 컨테이너에서 선언됩니다. 아이콘의 레이블은 **label** 특성에서 채워집니다.
+기본 컨테이너는 **type=&quot;iconbox&quot;** 속성을 사용합니다. 아이콘과 연관된 페이지는 하위 컨테이너에서 선언됩니다. 아이콘의 레이블은 **레이블** 속성을 사용합니다.
 
-페이지의 아이콘은 `img="<image>"` 속성에서 채워지며, 여기서 `<image>`은 이름과 네임스페이스로 구성된 키에 해당하는 이미지 이름(예: &quot;xtk:properties.png&quot;)입니다.
+페이지의 아이콘은 `img="<image>"` 속성, 위치 `<image>` 은 이름 및 네임스페이스로 구성된 키에 해당하는 이미지 이름입니다(예: &quot;xtk:properties.png&quot;).
 
-이미지는 **[!UICONTROL Administration > Configuration > Images]** 노드에서 사용할 수 있습니다.
+이미지는 **[!UICONTROL Administration > Configuration > Images]** 노드 아래에 있어야 합니다.
 
 #### 가시성 컨테이너 {#visibility-container}
 
@@ -229,7 +229,7 @@ xpath가 없는 컨테이너의 예:
 </container>
 ```
 
-가시성 컨테이너는 **type=&quot;visibleGroup&quot;** 특성에 의해 정의됩니다. **visibleIf** 속성에 가시성 조건이 포함되어 있습니다.
+가시성 컨테이너는 속성에 의해 정의됩니다 **type=&quot;visibleGroup&quot;**. 다음 **visibleIf** 속성에는 가시성 조건이 포함됩니다.
 
 조건 구문의 예:
 
@@ -250,7 +250,7 @@ xpath가 없는 컨테이너의 예:
 </container>
 ```
 
-활성화 컨테이너는 **type=&quot;enabledGroup&quot;** 특성에 의해 정의됩니다. **enabledIf** 속성에 활성화 조건이 포함되어 있습니다.
+사용 가능한 컨테이너는 **type=&quot;enabledGroup&quot;** 속성을 사용합니다. 다음 **enabledIf** 속성에는 활성화 조건이 포함되어 있습니다.
 
 ## 링크 편집 {#editing-a-link}
 
@@ -268,17 +268,17 @@ xpath가 없는 컨테이너의 예:
 <input xpath="company"/>
 ```
 
-편집 필드를 통해 Target 선택에 액세스할 수 있습니다. 입력한 처음 몇 문자에서 대상 요소를 쉽게 찾을 수 있도록 시작 유형이 지원됩니다. 그런 다음 대상 스키마에 정의된 **계산 문자열**&#x200B;을 기반으로 검색을 수행합니다. 컨트롤에 유효성 검사 후 스키마가 없으면 즉시 대상 만들기에 대한 확인 메시지가 표시됩니다. 확인은 대상 테이블에 새 레코드를 만들어 링크와 연결합니다.
+편집 필드를 통해 Target 선택에 액세스할 수 있습니다. 입력한 처음 몇 문자에서 대상 요소를 쉽게 찾을 수 있도록 시작 유형이 지원됩니다. 그러면 검색이 **계산 문자열** 대상 스키마에 정의되어 있습니다. 컨트롤에 유효성 검사 후 스키마가 없으면 즉시 대상 만들기에 대한 확인 메시지가 표시됩니다. 확인은 대상 테이블에 새 레코드를 만들어 링크와 연결합니다.
 
 드롭다운 목록은 이미 생성된 레코드 목록에서 대상 요소를 선택하는 데 사용됩니다.
 
-**[!UICONTROL Modify the link]** (폴더) 아이콘은 타깃팅된 요소 목록과 필터 영역을 사용하여 선택 양식을 시작합니다.
+다음 **[!UICONTROL Modify the link]** (폴더) 아이콘은 타깃팅된 요소 목록과 필터 영역을 사용하여 선택 양식을 시작합니다.
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
-**[!UICONTROL Edit link]**(돋보기) 아이콘이 연결된 요소의 편집 양식을 시작합니다. 사용되는 양식은 기본적으로 타깃팅된 스키마의 키에 따라 추론됩니다. **form** 속성을 사용하면 편집 양식의 이름(예: &quot;cus:company2&quot;)
+다음 **[!UICONTROL Edit link]** (돋보기) 아이콘이 연결된 요소의 편집 양식을 시작합니다. 사용되는 양식은 기본적으로 타깃팅된 스키마의 키에 따라 추론됩니다. 다음 **양식** 속성을 사용하면 편집 양식의 이름(예: &quot;cus:company2&quot;)
 
-입력 양식의 링크 정의에서 **`<sysfilter>`** 요소를 추가하여 대상 요소의 선택을 제한할 수 있습니다.
+을 추가하여 대상 요소의 선택을 제한할 수 있습니다 **`<sysfilter>`** 입력 양식의 링크 정의에 있는 요소:
 
 ```
 <input xpath="company">
@@ -288,7 +288,7 @@ xpath가 없는 컨테이너의 예:
 </input>
 ```
 
-목록을 **`<orderby>`** 요소로 정렬할 수도 있습니다.
+목록을 **`<orderby>`** 요소:
 
 ```
 <input xpath="company">
@@ -335,17 +335,17 @@ xpath가 없는 컨테이너의 예:
 </input>
 ```
 
-목록 컨트롤은 **type=&quot;linklist&quot;** 특성에 의해 정의됩니다. 목록 경로는 수집 링크를 참조해야 합니다.
+목록 컨트롤은 **type=&quot;linklist&quot;** 속성을 사용합니다. 목록 경로는 수집 링크를 참조해야 합니다.
 
-열은 목록의 **`<input>`** 요소를 통해 선언됩니다. **xpath** 속성은 대상 스키마에 있는 필드의 경로를 참조합니다.
+열은 를 통해 선언됩니다 **`<input>`** 목록의 요소입니다. 다음 **xpath** 속성은 대상 스키마에 있는 필드의 경로를 나타냅니다.
 
 스키마 링크에 정의된 레이블이 있는 도구 모음이 자동으로 목록 위에 배치됩니다.
 
-목록은 **[!UICONTROL Filters]** 버튼을 통해 필터링되고 열을 추가 및 정렬하도록 구성할 수 있습니다.
+목록은 **[!UICONTROL Filters]** 열을 추가 및 정렬하도록 단추 및 구성되었습니다.
 
-**[!UICONTROL Add]** 및 **[!UICONTROL Delete]** 단추를 사용하여 링크에서 수집 요소를 추가하고 삭제할 수 있습니다. 기본적으로 요소를 추가하면 대상 스키마의 편집 양식이 실행됩니다.
+다음 **[!UICONTROL Add]** 및 **[!UICONTROL Delete]** 버튼을 사용하면 링크에서 수집 요소를 추가하고 삭제할 수 있습니다. 기본적으로 요소를 추가하면 대상 스키마의 편집 양식이 실행됩니다.
 
-목록의 **`<input>`** 태그에서 **zoom=&quot;true&quot;** 특성이 완료되면 **[!UICONTROL Detail]** 단추가 자동으로 추가됩니다. 선택한 라인의 편집 양식을 시작할 수 있습니다.
+다음 **[!UICONTROL Detail]** 버튼이 자동으로 추가됨 **zoom=&quot;true&quot;** 속성은 다음에서 완료됩니다 **`<input>`** 태그에 다음 코드를 배치하십시오. 선택한 라인의 편집 양식을 시작할 수 있습니다.
 
 목록을 로드하는 동안 필터링 및 정렬을 적용할 수 있습니다.
 
@@ -388,11 +388,11 @@ xpath가 없는 컨테이너의 예:
 </input>
 ```
 
-**xpathChoiceTarget** 속성을 사용하면 입력한 링크에서 선택 양식을 시작할 수 있습니다. 관계 테이블 레코드를 만들면 현재 받는 사람 및 선택한 서비스에 대한 링크가 자동으로 업데이트됩니다.
+다음 **xpathChoiceTarget** 속성을 사용하면 입력한 링크에서 선택 양식을 시작할 수 있습니다. 관계 테이블 레코드를 만들면 현재 받는 사람 및 선택한 서비스에 대한 링크가 자동으로 업데이트됩니다.
 
 >[!NOTE]
 >
->**xpathEditTarget** 속성을 사용하면 입력한 링크에 대해 선택한 행을 강제로 편집할 수 있습니다.
+>다음 **xpathEditTarget** 속성을 사용하면 입력한 링크에 대해 선택한 라인을 강제로 편집할 수 있습니다.
 
 ### 목록 속성 {#list-properties}
 
@@ -401,7 +401,7 @@ xpath가 없는 컨테이너의 예:
 * **toolbarAlign**: 도구 모음의 세로 또는 가로 형상을 수정합니다(가능한 값: &quot;vertical&quot;|&quot;horizontal&quot;)
 * **img**: 목록에 연결된 이미지를 표시합니다
 * **양식**: 타깃팅된 요소의 편집 양식을 오버로드함
-* **확대/축소**: 버튼 **[!UICONTROL Zoom]** 을 추가하여 타깃팅된 요소를 편집합니다.
+* **확대/축소**: 추가 **[!UICONTROL Zoom]** 타깃팅된 요소를 편집하는 단추
 * **xpathEditTarget**: 입력한 링크에 대한 편집 설정
 * **xpathChoiceTarget**: 또한 입력한 링크에서 선택 양식을 시작합니다
 
@@ -424,13 +424,13 @@ xpath가 없는 컨테이너의 예:
 </input>
 ```
 
-목록 컨트롤은 **type=&quot;list&quot;** 특성으로 채워야 하며 목록의 경로는 수집 요소를 참조해야 합니다.
+목록 컨트롤을 **type=&quot;list&quot;** 속성과 목록의 경로는 수집 요소를 참조해야 합니다.
 
-열은 목록의 하위 **`<input>`** 태그에 선언됩니다. 열 레이블과 크기는 **label** 및 **colSize** 특성으로 강제 적용할 수 있습니다.
+그 열은 자식에 선언된다 **`<input>`** 태그입니다. 열 레이블과 크기는 **레이블** 및 **colSize** 속성을 사용합니다.
 
 >[!NOTE]
 >
->**ordered=&quot;true&quot;** 속성이 데이터 스키마의 수집 요소에 추가되면 정렬 순서 화살표가 자동으로 추가됩니다.
+>정렬 순서 화살표는 **ordered=&quot;true&quot;** 속성이 데이터 스키마의 수집 요소에 추가됩니다.
 
 도구 모음 단추는 가로로 정렬할 수 있습니다.
 
@@ -443,7 +443,7 @@ xpath가 없는 컨테이너의 예:
 </input>
 ```
 
-**toolbarCaption** 속성은 도구 모음의 가로 정렬을 강제 적용하고 목록 위에 제목을 입력합니다.
+다음 **toolbarCaption** 속성을 사용하면 도구 모음의 가로 정렬을 적용하고 목록 위에 제목을 입력합니다.
 
 #### 목록 확대 {#zoom-in-a-list}
 
@@ -463,11 +463,11 @@ xpath가 없는 컨테이너의 예:
 </input>
 ```
 
-편집 양식은 목록 정의 아래의 `<form>` 요소에서 완료됩니다. 그 구조는 입력 형태의 구조와 동일하다. 목록의 **`<input>`** 태그에서 **zoom=&quot;true&quot;** 특성이 완료되면 **[!UICONTROL Detail]** 단추가 자동으로 추가됩니다. 이 속성을 사용하여 선택한 라인의 편집 양식을 시작할 수 있습니다.
+편집 양식은 `<form>`  목록 정의 아래의 요소. 그 구조는 입력 형태의 구조와 동일하다. 다음 **[!UICONTROL Detail]** 버튼이 자동으로 추가됨 **zoom=&quot;true&quot;** 속성은 다음에서 완료됩니다 **`<input>`** 태그입니다. 이 속성을 사용하여 선택한 라인의 편집 양식을 시작할 수 있습니다.
 
 >[!NOTE]
 >
->**zoomOnAdd=&quot;true&quot;** 특성을 추가하면 목록 요소가 삽입될 때 편집 양식이 호출됩니다.
+>추가 **zoomOnAdd=&quot;true&quot;** 특성으로 인해 목록 요소가 삽입될 때 편집 양식이 호출됩니다.
 
 ### 목록 속성 {#list-properties-1}
 
@@ -476,13 +476,13 @@ xpath가 없는 컨테이너의 예:
 * **toolbarAlign**: 도구 모음의 위치 지정(가능한 값: &quot;vertical&quot;|&quot;horizontal&quot;)
 * **img**: 목록에 연결된 이미지를 표시합니다
 * **양식**: 타깃팅된 요소의 편집 양식을 오버로드함
-* **확대/축소**: 버튼 **[!UICONTROL Zoom]** 을 추가하여 타깃팅된 요소를 편집합니다.
+* **확대/축소**: 추가 **[!UICONTROL Zoom]** 타깃팅된 요소를 편집하는 단추
 * **zoomOnAdd**: 추가할 때 편집 양식을 시작합니다
 * **xpathChoiceTarget**: 또한 입력한 링크에서 선택 양식을 시작합니다
 
 ## 편집할 수 없는 필드 {#non-editable-fields}
 
-필드를 표시하고 편집할 수 없도록 하려면 **`<value>`** 태그를 사용하거나 **`<input>`** 태그에서 **readOnly=&quot;true&quot;** 속성을 완료하십시오.
+필드를 표시하고 필드를 편집할 수 없도록 하려면 **`<value>`** 태그 지정 또는 완료 **readOnly=&quot;true&quot;** 속성 **`<input>`** 태그에 가깝게 포함했습니다.
 
 &quot;성별&quot; 필드의 예:
 
@@ -495,7 +495,7 @@ xpath가 없는 컨테이너의 예:
 
 ## 라디오 단추 {#radio-button}
 
-라디오 단추를 사용하면 여러 옵션 중에서 선택할 수 있습니다. **`<input>`** 태그는 가능한 옵션을 나열하는 데 사용되며 **checkedValue** 속성은 선택과 연관된 값을 지정합니다.
+라디오 단추를 사용하면 여러 옵션 중에서 선택할 수 있습니다. 다음 **`<input>`** 태그를 사용하여 가능한 옵션과 **checkedValue** 속성은 선택과 연관된 값을 지정합니다.
 
 &quot;성별&quot; 필드의 예:
 
@@ -509,7 +509,7 @@ xpath가 없는 컨테이너의 예:
 
 ## 확인란 {#checkbox}
 
-확인란은 부울 상태(선택 또는 선택 안 함)를 반영합니다. 기본적으로 이 컨트롤은 &quot;부울&quot;(true/false) 필드에서 사용됩니다. 기본값이 0 또는 1인 변수는 이 버튼과 연결할 수 있습니다. 이 값은 **checkValue** 특성을 통해 오버로드될 수 있습니다.
+확인란은 부울 상태(선택 또는 선택 안 함)를 반영합니다. 기본적으로 이 컨트롤은 &quot;부울&quot;(true/false) 필드에서 사용됩니다. 기본값이 0 또는 1인 변수는 이 버튼과 연결할 수 있습니다. 이 값은 **checkValue** 속성을 사용합니다.
 
 ```
 <input xpath="@boolean1"/>
@@ -522,7 +522,7 @@ xpath가 없는 컨테이너의 예:
 
 이 컨트롤은 편집할 필드 집합에 트리를 만듭니다.
 
-편집할 컨트롤은 트리 컨트롤의 **`<input>`** 태그 아래에 입력한 **`<container>`**&#x200B;으로 그룹화됩니다.
+편집할 컨트롤은 **`<container>`** 아래에 **`<input>`** 트리 컨트롤의 태그:
 
 ```
 <input nolabel="true" type="treeEdit">
@@ -541,7 +541,7 @@ xpath가 없는 컨테이너의 예:
 
 ## 표현식 필드 {#expression-field}
 
-표현식 필드는 표현식에서 동적으로 필드를 업데이트합니다. **`<input>`** 태그는 **xpath** 속성과 함께 사용하여 업데이트할 필드의 경로와 업데이트 식을 포함하는 **expr** 속성을 입력합니다.
+표현식 필드는 표현식에서 동적으로 필드를 업데이트합니다. a **`<input>`** 태그는 **xpath** 업데이트할 필드의 경로 및 속성을 입력합니다. **expr** update 표현식을 포함하는 속성입니다.
 
 ```
 <!-- Example: updating the boolean1 field from the value contained in the field with path /tmp/@flag -->
@@ -555,16 +555,16 @@ xpath가 없는 컨테이너의 예:
 
 ### 컨텍스트 업데이트 {#updating-the-context}
 
-양식 컨텍스트를 수정하려면 `<set expr="<value>" xpath="<field>"/>` 태그를 사용하십시오. 여기서 `<field>` 는 대상 필드이고 `<value>` 는 업데이트 식 또는 값입니다.
+양식의 컨텍스트를 수정하려면 `<set expr="<value>" xpath="<field>"/>` 태그, 위치 `<field>` 는 대상 필드이며, `<value>` 는 업데이트 표현식 또는 값입니다.
 
-`<set>` 태그 사용 예:
+사용 예 `<set>` 태그:
 
 * **`<set expr="'Test'" xpath="/tmp/@test" />`**: 임시 위치 /tmp/@test1에 &#39;테스트&#39; 값을 배치합니다.
 * **`<set expr="'Test'" xpath="@lastName" />`**: &quot;lastName&quot; 특성의 엔터티를 &#39;Test&#39; 값으로 업데이트합니다
 * **`<set expr="true" xpath="@boolean1" />`**: &quot;boolean1&quot; 필드의 값을 &quot;true&quot;로 설정합니다.
 * **`<set expr="@lastName" xpath="/tmp/@test" />`**: lastName 속성의 컨텐츠로 업데이트
 
-**`<enter>`** 및 **`<leave>`** 태그를 통해 양식을 초기화 및 닫을 때 양식 컨텍스트를 업데이트할 수 있습니다.
+을 통해 양식을 초기화하고 닫을 때 양식 컨텍스트를 업데이트할 수 있습니다 **`<enter>`** 및 **`<leave>`** 태그 사이에 Analytics JavaScript 코드를 배치했습니다.
 
 ```
 <form name="recipient" namespace="cus">
@@ -580,13 +580,13 @@ xpath가 없는 컨테이너의 예:
 
 >[!NOTE]
 >
->`<enter>` 및 `<leave>`   태그는 페이지의 `<container>`(&quot;notebook&quot; 및 &quot;iconbox&quot; 유형)에서 사용할 수 있습니다.
+>다음 `<enter>`  및  `<leave>`   태그는 `<container>` 페이지 유형(&quot;notebook&quot; 및 &quot;iconbox&quot; 유형).
 
 ### 표현 언어 {#expression-language-}
 
 조건부 테스트를 수행하기 위해 매크로 언어를 양식 정의에 사용할 수 있습니다.
 
-**`<if expr="<expression>" />`** 태그는 표현식이 확인되는 경우 태그 아래에 지정된 지침을 실행합니다.
+다음 **`<if expr="<expression>" />`** 태그는 표현식이 확인되는 경우 태그 아래에 지정된 지침을 실행합니다.
 
 ```
 <if expr="([/tmp/@test] == 'Test' or @lastName != 'Doe') and @boolean2 == true">
@@ -594,7 +594,7 @@ xpath가 없는 컨테이너의 예:
 </if>
 ```
 
-**`<error>`** 태그와 함께 **`<check expr="<condition>" />`** 태그를 사용하면 양식의 유효성 검사가 차단되며 조건이 충족되지 않으면 오류 메시지가 표시됩니다.
+다음 **`<check expr="<condition>" />`** 태그와 함께 **`<error>`** 태그는 양식의 유효성을 검사하지 않으며 조건이 충족되지 않으면 오류 메시지를 표시합니다.
 
 ```
 <leave>
@@ -625,15 +625,15 @@ xpath가 없는 컨테이너의 예:
 
 ![](assets/d_ncs_integration_form_exemple19.png)
 
-`<form>` 요소에 **type=&quot;wizard&quot;** 특성이 있으면 양식을 만들 때 마법사 모드를 정의할 수 있습니다. 페이지는 `<form>` 요소의 하위 요소인 `<container>` 요소에서 완료됩니다. 페이지의 `<container>` 요소는 페이지 제목 아래에 설명을 표시하기 위해 제목과 desc의 제목 속성으로 채워집니다. **[!UICONTROL Previous]** 및 **[!UICONTROL Next]** 단추가 자동으로 추가되어 페이지 간에 검색할 수 있습니다.
+의 존재 **type=&quot;wizard&quot;** 속성 `<form>` 요소를 사용하면 양식 구성에서 마법사 모드를 정의할 수 있습니다. 페이지는 다음에서 완료됩니다. `<container>` 요소의 하위 요소인 `<form>` 요소를 생성하지 않습니다. 다음 `<container>` 페이지의 요소는 페이지 제목 아래에 설명을 표시하기 위해 제목 및 desc의 제목 속성으로 채워집니다. 다음 **[!UICONTROL Previous]** 및 **[!UICONTROL Next]** 페이지 간에 검색할 수 있도록 버튼이 자동으로 추가됩니다.
 
-**[!UICONTROL Finish]** 단추를 누르면 입력한 데이터가 저장되고 양식이 닫힙니다.
+다음 **[!UICONTROL Finish]** 입력한 데이터를 저장하고 양식을 닫습니다.
 
 ### SOAP 메서드 {#soap-methods}
 
-SOAP 메서드 실행은 페이지 끝에 채워진 **`<leave>`** 태그에서 시작할 수 있습니다.
+채운 SOAP 메서드에서 실행할 수 있습니다 **`<leave>`** 태깅 할 수 없습니다.
 
-**`<soapcall>`** 태그에는 다음 입력 매개 변수를 사용하는 메서드에 대한 호출이 포함되어 있습니다.
+다음 **`<soapcall>`** 태그에 다음 입력 매개 변수를 사용하는 메서드에 대한 호출이 포함되어 있습니다.
 
 ```
 <soapCall name="<name>" service="<schema>">
@@ -642,22 +642,22 @@ SOAP 메서드 실행은 페이지 끝에 채워진 **`<leave>`** 태그에서 �
 </soapCall>
 ```
 
-서비스 이름 및 해당 구현 스키마는 **`<soapcall>`** 태그의 **name** 및 **service** 속성을 통해 입력됩니다.
+서비스 이름 및 구현 스키마는 **이름** 및 **서비스** 의 속성 **`<soapcall>`** 태그에 가깝게 포함했습니다.
 
-입력 매개 변수는 **`<soapcall>`** 태그 아래의 **`<param>`** 요소에 설명되어 있습니다.
+입력 매개 변수는 **`<param>`** 아래의 요소 **`<soapcall>`** 태그에 가깝게 포함했습니다.
 
-매개 변수 유형은 **type** 특성을 통해 지정해야 합니다. 가능한 유형은 다음과 같습니다.
+매개 변수 유형은 **유형** 속성을 사용합니다. 가능한 유형은 다음과 같습니다.
 
-* **문자열**: 문자 문자열
+* **string**: 문자 문자열
 * **부울**: 부울
-* **바이트**: 8비트 정수
+* **byte**: 8비트 정수
 * **short**: 16비트 정수
-* **긴**: 32비트 정수
+* **장기간**: 32비트 정수
 * **short**: 16비트 정수
-* **double**: 2정밀도 부동 소수점 숫자
-* **DOMElement**: element-type 노드
+* **이중**: 2정밀도 부동 소수점 숫자
+* **돔 요소**: element-type 노드
 
-**exprIn** 속성에는 매개 변수로 전달할 데이터의 위치가 포함되어 있습니다.
+다음 **exprIn** 속성에는 매개 변수로 전달할 데이터의 위치가 포함되어 있습니다.
 
 **예제**:
 

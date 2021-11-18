@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
   </enumeration>  
 
   <element name="recipient" sqltable="CusRecipient">    
-    <attribute desc="Recipient e-mail address" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
+    <attribute desc="Recipient email address" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
     <attribute default="GetDate()" label="Date of creation" name="created" sqlname="tsCreated" type="datetime"/>    
     <attribute enum="gender" label="Gender" name="gender" sqlname="iGender" type="byte"/>    
     <element label="Location" name="location">      
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 설명 {#description}
 
-스키마의 루트 요소가 더 이상 **`<srcschema>`**&#x200B;이 아니라 **`<schema>`**&#x200B;입니다.
+스키마의 루트 요소가 더 이상 없습니다. **`<srcschema>`**&#x200B;하지만 **`<schema>`**.
 
 이렇게 하면 소스 스키마에서 자동으로 생성되는 다른 유형의 문서가 스키마라고 합니다. 이 스키마는 Adobe Campaign 애플리케이션에서 사용됩니다.
 
@@ -50,7 +50,7 @@ SQL 이름 지정 규칙은 다음과 같습니다.
 
 * 표: 스키마 네임스페이스 및 이름 연결
 
-   이 예제에서 테이블 이름은 **sqltable** 특성에 있는 스키마의 기본 요소를 통해 입력됩니다.
+   이 예제에서 테이블의 이름은 **sqltable** attribute:
 
    ```
    <element name="recipient" sqltable="CusRecipient">
@@ -58,10 +58,10 @@ SQL 이름 지정 규칙은 다음과 같습니다.
 
 * 필드: 형식에 따라 정의된 접두사가 앞에 오는 요소의 이름(&#39;i&#39;, 정수의 경우 &#39;d&#39;, 문자열의 경우 &#39;s&#39;, 날짜의 경우 &#39;ts&#39; 등)
 
-   필드 이름은 입력한 각 **`<attribute>`** 및 **`<element>`**&#x200B;에 대해 **sqlname** 속성을 통해 입력됩니다.
+   필드 이름은 **sqlname** 형식화된 각 속성에 대한 속성 **`<attribute>`** 및 **`<element>`**:
 
    ```
-   <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
+   <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
    ```
 
 >[!NOTE]
@@ -85,9 +85,9 @@ SQL 필드 제약 조건은 다음과 같습니다.
 
 ## XML 필드 {#xml-fields}
 
-기본적으로 입력한 **`<attribute>`** 및 **`<element>`** 요소는 데이터 스키마 테이블의 SQL 필드에 매핑됩니다. 그러나 SQL 대신 XML에서 이 필드를 참조할 수 있으므로 모든 XML 필드의 값이 들어 있는 테이블의 메모 필드(&quot;mData&quot;)에 데이터가 저장됨을 의미합니다. 이러한 데이터의 저장소는 스키마 구조를 준수하는 XML 문서입니다.
+기본적으로 모든 입력 **`<attribute>`** 및 **`<element>`** 요소가 데이터 스키마 테이블의 SQL 필드에 매핑됩니다. 그러나 SQL 대신 XML에서 이 필드를 참조할 수 있으므로 모든 XML 필드의 값이 들어 있는 테이블의 메모 필드(&quot;mData&quot;)에 데이터가 저장됨을 의미합니다. 이러한 데이터의 저장소는 스키마 구조를 준수하는 XML 문서입니다.
 
-XML의 필드를 채우려면 **xml** 속성을 &quot;true&quot; 값으로 해당 요소에 추가해야 합니다.
+XML에서 필드를 채우려면 **xml** 관련 요소에 대해 값이 &quot;true&quot;인 속성을 사용합니다.
 
 **예**: 다음은 XML 필드 사용의 두 가지 예입니다.
 
@@ -103,7 +103,7 @@ XML의 필드를 채우려면 **xml** 속성을 &quot;true&quot; 값으로 해�
    <element name="description" xml="true" type="html" label="Description"/>
    ```
 
-   html 유형을 사용하면 HTML 컨텐츠를 CDATA 태그에 저장하고 Adobe Campaign 클라이언트 인터페이스에 특수 HTML 편집 검사를 표시할 수 있습니다.
+   &quot;html&quot; 유형을 사용하면 HTML 컨텐츠를 CDATA 태그에 저장하고 Adobe Campaign 클라이언트 인터페이스에 특수 HTML 편집 검사를 표시할 수 있습니다.
 
 XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 필요 없이 필드를 추가할 수 있습니다. 리소스(SQL 필드에 할당된 크기, 테이블당 필드 수의 제한 등)를 줄일 수도 있습니다.
 
@@ -126,7 +126,7 @@ XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 �
 인덱스는 다음 규칙에 따릅니다.
 
 * 인덱스는 테이블에서 하나 이상의 필드를 참조할 수 있습니다.
-* **unique** 속성에 &quot;true&quot; 값이 포함되어 있는 경우 모든 필드에서 색인이 고유할 수 있습니다(중복을 방지하기 위해).
+* 인덱스는 다음과 같은 경우 모든 필드에서 고유할 수 있습니다(중복 방지). **고유** 속성에 &quot;true&quot; 값이 포함되어 있습니다.
 * 인덱스의 SQL 이름은 테이블의 SQL 이름과 인덱스 이름에서 결정됩니다.
 
 >[!NOTE]
@@ -139,7 +139,7 @@ XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 �
 
 **예제**:
 
-* 전자 메일 주소 및 도시에 인덱스 추가:
+* 전자 메일 주소 및 도시에 색인 추가:
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -149,7 +149,7 @@ XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 �
          <keyfield xpath="location/@city"/> 
        </dbindex>
    
-       <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+       <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
        <element name="location" label="Location">
          <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
        </element>
@@ -171,7 +171,7 @@ XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 �
        </dbindex>
    
        <attribute name="id" type="long" label="Identifier"/>
-       <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+       <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
      </element>
    </srcSchema>
    ```
@@ -193,8 +193,8 @@ XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 �
 키는 다음 규칙에 따릅니다.
 
 * 키는 테이블에서 하나 이상의 필드를 참조할 수 있습니다.
-* 키는 채울 스키마의 첫 번째 경우나 값이 &quot;true&quot;인 **internal** 속성을 포함하는 경우 &#39;primary&#39;(또는 &#39;priority&#39;)라고 합니다.
-* 각 키 정의에 대해 고유한 인덱스가 암시적으로 선언됩니다. 값이 &quot;true&quot;인 **noDbIndex** 속성을 추가하여 키에 인덱스를 만들 수 없습니다.
+* 키는 작성할 스키마에서 처음 있거나 키가 포함된 경우 &#39;기본&#39;(또는 &#39;우선순위&#39;라고 합니다 **내부** 값이 &quot;true&quot;인 속성입니다.
+* 각 키 정의에 대해 고유한 인덱스가 암시적으로 선언됩니다. 키를 추가하면 키에 인덱스를 만들 수 없습니다 **noDbIndex** 값이 &quot;true&quot;인 속성입니다.
 
 >[!NOTE]
 >
@@ -206,7 +206,7 @@ XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 �
 
 **예제**:
 
-* 전자 메일 주소 및 도시에 키 추가:
+* 이메일 주소 및 도시에 키 추가:
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -216,7 +216,7 @@ XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 �
          <keyfield xpath="location/@city"/> 
        </key>
    
-       <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+       <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
        <element name="location" label="Location">
          <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
        </element>
@@ -239,7 +239,7 @@ XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 �
        <keyfield xpath="location/@city"/>    
       </key>    
    
-      <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
+      <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
       <element label="Location" name="location">      
         <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
       </element>  
@@ -261,7 +261,7 @@ XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 �
        </key>
    
        <attribute name="id" type="long" label="Identifier"/>
-       <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+       <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
      </element>
    </srcSchema>
    ```
@@ -284,20 +284,20 @@ XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 �
        </key>    
    
        <attribute label="Identifier" name="id" sqlname="iRecipientId" type="long"/>    
-       <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
+       <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
      </element>
    </schema>
    ```
 
 ### 자동 증분 키 {#auto-incremental-key}
 
-대부분의 Adobe Campaign 테이블의 기본 키는 데이터베이스 엔진에서 자동으로 생성된 32비트 길이의 정수입니다. 키 값의 계산은 기본적으로 전체 데이터베이스에서 고유한 숫자를 생성하는 시퀀스(예: **XtkNewId** SQL 함수)에 따라 달라집니다. 레코드의 삽입 시 키의 내용이 자동으로 입력됩니다.
+대부분의 Adobe Campaign 테이블의 기본 키는 데이터베이스 엔진에서 자동으로 생성된 32비트 길이의 정수입니다. 키 값의 계산은 시퀀스(기본적으로 **XtkNewId** SQL 함수)를 생성하여 전체 데이터베이스에서 고유한 숫자를 생성합니다. 레코드의 삽입 시 키의 내용이 자동으로 입력됩니다.
 
 증분 키의 장점은 테이블 간 조인에 대해 수정할 수 없는 기술 키를 제공한다는 것입니다. 또한 이 키는 2바이트 정수를 사용하므로 메모리를 많이 사용하지 않습니다.
 
-소스 스키마에 **pkSequence** 속성과 함께 사용할 시퀀스의 이름을 지정할 수 있습니다. 이 특성이 소스 스키마에 제공되지 않으면 **XtkNewId** 기본 시퀀스가 사용됩니다. 이 테이블은 대부분의 레코드를 포함하는 테이블이므로, 응용 프로그램은 **nms:broadLog** 및 **nms:trackingLog** 스키마(**NmsBroadLogId** 및 **NmsTrackingLogId**)에 대해 전용 시퀀스를 사용합니다.
+소스 스키마에 와 함께 사용할 시퀀스의 이름을 지정할 수 있습니다 **pkSequence** 속성을 사용합니다. 이 속성이 소스 스키마에 제공되지 않으면 **XtkNewId** 기본 시퀀스가 사용됩니다. 이 응용 프로그램에서는 **nms:broadLog** 및 **nms:trackingLog** 스키마 (**NmsBroadLogId** 및 **NmsTrackingLogId** 각각)로 설정되어야 합니다.
 
-ACC 18.10에서 **XtkNewId**&#x200B;는 더 이상 기본 제공 스키마에서 시퀀스의 기본값이 아닙니다. 이제 스키마를 구축하거나 전용 시퀀스로 기존 스키마를 확장할 수 있습니다.
+ACC 18.10에서 **XtkNewId** 는 더 이상 기본 제공 스키마에서 시퀀스의 기본값이 아닙니다. 이제 스키마를 구축하거나 전용 시퀀스로 기존 스키마를 확장할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -305,9 +305,9 @@ ACC 18.10에서 **XtkNewId**&#x200B;는 더 이상 기본 제공 스키마에서
 
 >[!NOTE]
 >
->Adobe Campaign 스키마에서 참조되는 시퀀스(**NmsTrackingLogId**)는 매개 변수에서 ID 수를 반환하는 SQL 함수와 쉼표로 구분해야 합니다. 이 함수를 **GetNew** XXX **Ids**&#x200B;라고 해야 합니다. 여기서 **XXX**&#x200B;은 시퀀스 이름(**GetNewNmsTrackingLogIds**)입니다. **postgres-nms.sql**, **mssql-nms.sql** 또는 **oracle-nms.sql** 파일을 보고 각 데이터베이스 엔진에 대한 &#39;NmsTrackingLogId&#39; 시퀀스 작성 예를 복구합니다.****
+>Adobe Campaign 스키마에서 참조되는 시퀀스(**NmsTrackingLogId** 예를 들어)는 매개 변수의 ID 수를 쉼표로 구분하여 반환하는 SQL 함수와 연결되어 있어야 합니다. 이 함수를 호출해야 합니다 **GetNew** XXX **Id**, 위치 **XXX** 은 시퀀스의 이름입니다(**GetNewNmsTrackingLogIds** 예). 보기 **postgres-nms.sql**, **mssql-nms.sql** 또는 **oracle-nms.sql** 에서 응용 프로그램과 함께 제공된 파일 **datakit/nms/eng/sql/** 각 데이터베이스 엔진에 대한 &#39;NmsTrackingLogId&#39; 시퀀스 작성 예를 복구할 디렉터리입니다.
 
-고유 키를 선언하려면 데이터 스키마의 기본 요소에서 **autok** 속성(값 &quot;true&quot;로)을 채웁니다.
+고유 키를 선언하려면 **자동** 데이터 스키마의 기본 요소에 있는 속성(값 &quot;true&quot;가 있는 경우).
 
 **예제**:
 
@@ -368,7 +368,7 @@ Federated Database Access를 사용한 조인 관계의 경우:
 * ![](assets/join_fda_11.png) : 카디널리티 1-1
 * ![](assets/join_fda_1m.png) : 카디널리티 1-N
 
-FDA 테이블에 대한 자세한 내용은 [외부 데이터베이스 액세스](../../installation/using/about-fda.md)를 참조하십시오.
+FDA 테이블에 대한 자세한 내용은 [외부 데이터베이스 액세스](../../installation/using/about-fda.md).
 
 주 요소를 통해 연결된 테이블의 외래 키가 포함된 스키마에서 링크를 선언해야 합니다.
 
@@ -382,18 +382,18 @@ FDA 테이블에 대한 자세한 내용은 [외부 데이터베이스 액세스
 
 링크는 다음 규칙에 따릅니다.
 
-* 링크의 정의는 다음 속성을 사용하여 **link**-type **`<element>`**&#x200B;에 입력됩니다.
+* 링크의 정의가 **링크**-type **`<element>`** 다음 속성을 사용합니다.
 
    * **이름**: 소스 테이블의 링크 이름,
    * **target**: 대상 스키마 이름,
    * **레이블**: 링크 레이블,
    * **revLink** (선택 사항): 대상 스키마에서 역방향 링크 이름(기본적으로 자동으로 추론됨),
-   * **integrity** (선택 사항): 대상 테이블의 발생에 대한 소스 테이블의 참조 무결성 가능한 값은 다음과 같습니다.
+   * **무결성** (선택 사항): 대상 테이블의 발생에 대한 소스 테이블의 참조 무결성 가능한 값은 다음과 같습니다.
 
       * **정의**: 대상 발생에 의해 더 이상 참조되지 않는 경우 소스 발생을 삭제할 수 있습니다.
-      * **일반**: 소스 발생 삭제 시 대상 발생(기본 모드)에 대한 링크의 키가 초기화되고 이 유형의 무결성은 모든 외래 키를 초기화합니다.
-      * **자체**: 소스 발생 항목을 삭제하면 타겟 항목이 삭제됩니다.
-      * **다운로드**:  **자체** (삭제의 경우)와 동일하거나 발생 횟수(중복의 경우)를 복제합니다.
+      * **정상**: 소스 발생 삭제 시 대상 발생(기본 모드)에 대한 링크의 키가 초기화되고 이 유형의 무결성은 모든 외래 키를 초기화합니다.
+      * **고유**: 소스 발생 항목을 삭제하면 타겟 항목이 삭제됩니다.
+      * **다운로드**: 와 동일 **고유** (삭제의 경우) 또는 중복 발생(중복의 경우),
       * **중립**: 아무 작업도 하지 않습니다.
    * **revIntegrity** (선택 사항): 대상 스키마의 무결성(선택 사항, &quot;정상&quot;),
    * **revCardinality** (선택 사항): 값이 &quot;single&quot;이면 카디널리티는 유형 1-1(기본적으로 1-N)으로 채워집니다.
@@ -401,10 +401,10 @@ FDA 테이블에 대한 자세한 내용은 [외부 데이터베이스 액세스
    * **revExternalJoin** (선택 사항): 외부 연결을 역링크에 강제 적용
 
 
-* 링크는 소스 테이블에서 대상 테이블로 하나 이상의 필드를 참조합니다. 조인( `<join>` 요소)을 구성하는 필드는 대상 스키마의 내부 키를 사용하여 기본적으로 자동으로 추론되므로 채우지 않아도 됩니다.
+* 링크는 소스 테이블에서 대상 테이블로 하나 이상의 필드를 참조합니다. 조인을 구성하는 필드( `<join>`  요소)는 대상 스키마의 내부 키를 사용하여 기본적으로 자동으로 추론되므로 채우지 않아도 됩니다.
 * 인덱스가 확장 스키마에 있는 링크의 외부 키에 자동으로 추가됩니다.
 * 링크는 소스 스키마에서 첫 번째 링크가 선언되고 두 번째 링크는 대상 스키마의 확장 스키마에서 자동으로 만들어집니다.
-* **externalJoin** 특성이 추가되고 값 &quot;true&quot;(PostgreSQL에서 지원됨)가 있는 경우 조인은 외부 조인이 될 수 있습니다.
+* 조인은 **externalJoin** 속성이 추가되고 값이 &quot;true&quot;로 설정됩니다(PostgreSQL에서 지원됨).
 
 >[!NOTE]
 >
@@ -470,12 +470,12 @@ FDA 테이블에 대한 자세한 내용은 [외부 데이터베이스 액세스
 * **이름**: 소스 스키마의 이름에서 자동으로 추론됩니다(소스 스키마의 링크 정의에 &quot;revLink&quot; 속성으로 강제 적용할 수 있음).
 * **revLink**: 역링크 이름
 * **target**: 연결된 스키마 키(&quot;cus:recipient&quot; 스키마)
-* **바인딩되지 않음**: 링크는 1-N 카디널리티에 대한 수집 요소로 선언됩니다(기본적으로)
+* **언바운드**: 링크는 1-N 카디널리티에 대한 수집 요소로 선언됩니다(기본적으로)
 * **무결성**: 기본적으로 &quot;define&quot;(소스 스키마의 링크 정의에 &quot;revIntegrity&quot; 속성으로 강제 지정할 수 있음).
 
 ### 예제 2 {#example-2}
 
-이 예에서는 &quot;nms:address&quot; 스키마 테이블에 대한 링크를 선언합니다. 조인은 외부 조인으로 받는 사람의 전자 메일 주소와 연결된 테이블의 &quot;@address&quot; 필드(&quot;nms:address&quot;)로 명시적으로 채워집니다.
+이 예에서는 &quot;nms:address&quot; 스키마 테이블에 대한 링크를 선언합니다. 조인은 외부 조인이며 수신자의 이메일 주소 및 연결된 테이블의 &quot;@address&quot; 필드(&quot;nms:address&quot;)로 명시적으로 채워집니다.
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -508,7 +508,7 @@ FDA 테이블에 대한 자세한 내용은 [외부 데이터베이스 액세스
 
 ### 예제 5 {#example-5}
 
-이 예에서는 **xlink** 속성과 (&quot;email&quot;) 테이블의 필드를 사용하는 링크(&quot;company&quot;와 &quot;cus:company&quot; 스키마)에 대한 키를 만들려고 합니다.
+이 예에서는 가 있는 링크(&quot;company&quot;에서 &quot;cus:company&quot; 스키마)에 대한 키를 만들려고 합니다 **xlink** 속성 및 (&quot;email&quot;) 테이블의 필드:
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -543,7 +543,7 @@ FDA 테이블에 대한 자세한 내용은 [외부 데이터베이스 액세스
       <keyfield xpath="@company-id"/>    
     </key>
 
-    <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>
+    <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>
     <element label="Company" name="company" revLink="recipient" target="sfa:company" type="link">      
       <join xpath-dst="@id" xpath-src="@company-id"/>    
     </element>    

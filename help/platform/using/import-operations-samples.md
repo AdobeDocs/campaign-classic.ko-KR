@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -23,12 +23,12 @@ ht-degree: 1%
 
 1. 목록 만들기
 
-   * Adobe Campaign 홈 페이지의 **[!UICONTROL Profiles and targets]** 메뉴에서 **[!UICONTROL Lists]** 링크를 클릭합니다.
-   * **[!UICONTROL Create]** 을 클릭한 다음 **[!UICONTROL Import a list]** 버튼을 클릭합니다.
+   * 을(를) 클릭합니다. **[!UICONTROL Lists]** 링크 위치 **[!UICONTROL Profiles and targets]** Adobe Campaign 홈 페이지의 메뉴.
+   * 을(를) 클릭합니다. **[!UICONTROL Create]** 그리고 **[!UICONTROL Import a list]** 버튼을 클릭합니다.
 
 1. 가져올 파일 선택
 
-   **[!UICONTROL Local file]** 필드 오른쪽의 폴더를 클릭하고 가져올 목록이 포함된 파일을 선택합니다.
+   오른쪽의 폴더를 클릭합니다 **[!UICONTROL Local file]** 필드를 입력하고 가져올 목록이 포함된 파일을 선택합니다.
 
    ![](assets/s_ncs_user_import_example00_01.png)
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 1. 가져오기 시작
 
-   **[!UICONTROL Next]** 을 클릭한 다음 **[!UICONTROL Start]** 을 클릭하여 목록 가져오기를 시작합니다.
+   클릭 **[!UICONTROL Next]** 그리고 **[!UICONTROL Start]** 목록 가져오기를 시작하려면 다음을 수행하십시오.
 
    ![](assets/s_ncs_user_import_example00_03.png)
 
@@ -50,29 +50,29 @@ ht-degree: 1%
 
 1. 템플릿 선택
 
-   * Adobe Campaign 홈 페이지에서 **[!UICONTROL Profiles and targets]** 링크를 클릭한 다음 **[!UICONTROL Jobs]** 을 클릭합니다. 작업 목록 위에서 **[!UICONTROL New import]** 을 클릭합니다.
-   * 기본적으로 선택한 **[!UICONTROL New text import]** 템플릿을 유지합니다.
+   * Adobe Campaign 홈페이지에서 **[!UICONTROL Profiles and targets]** 링크를 클릭한 다음 **[!UICONTROL Jobs]**. 작업 목록 위에서 **[!UICONTROL New import]**.
+   * 유지 **[!UICONTROL New text import]** 기본적으로 선택된 템플릿입니다.
    * 레이블 및 설명을 변경합니다.
    * **[!UICONTROL Simple import]**&#x200B;을(를) 선택합니다.
    * 기본 작업 폴더를 유지합니다.
-   * **[!UICONTROL Advanced parameters]** 을 클릭하고 **[!UICONTROL Tracking mode]** 옵션을 선택하여 실행 중에 가져오기의 세부 정보를 확인합니다.
+   * 클릭 **[!UICONTROL Advanced parameters]** 을(를) 선택하고 을(를) 선택합니다. **[!UICONTROL Tracking mode]** 실행 중에 가져오기의 세부 사항을 보는 옵션.
 
 1. 가져올 파일 선택
 
-   **[!UICONTROL Local file]** 필드 오른쪽의 폴더를 클릭하고 가져올 파일을 선택합니다.
+   오른쪽의 폴더를 클릭합니다 **[!UICONTROL Local file]** 필드를 선택하고 가져올 파일을 선택합니다.
 
    ![](assets/s_ncs_user_import_example01_01.png)
 
 1. 필드 연결
 
-   소스 및 대상 스키마를 자동으로 매핑하려면 **[!UICONTROL Guess the destination fields]** 아이콘을 클릭하십시오. **[!UICONTROL Next]**&#x200B;을 클릭하기 전에 이 창의 정보를 확인하십시오.
+   을(를) 클릭합니다. **[!UICONTROL Guess the destination fields]** 소스 및 대상 스키마를 자동으로 매핑하려면 아이콘을 클릭합니다. 클릭하기 전에 이 창의 정보를 확인하십시오. **[!UICONTROL Next]**.
 
    ![](assets/s_ncs_user_import_example03_01.png)
 
 1. 조정
 
-   * **수신자(nms:recipient)** 테이블로 이동합니다.
-   * **[!UICONTROL Insertion]** 작업을 선택하고 다른 필드에 기본값을 둡니다.
+   * 로 이동합니다. **수신자(nms:recipient)** 테이블.
+   * 을(를) 선택합니다 **[!UICONTROL Insertion]** 작업을 수행하고 다른 필드에 기본값을 둡니다.
 
       ![](assets/s_ncs_user_import_example04_01.png)
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
       ![](assets/s_ncs_user_import_example06_01.png)
 
-      **[!UICONTROL Tracking]** 모드에서는 소스 파일의 각 레코드에 대한 가져오기 세부 정보를 추적할 수 있습니다. 이렇게 하려면 홈 페이지에서 **[!UICONTROL Profiles and Targets]** 을 클릭하고 **[!UICONTROL Processes]** 를 클릭한 다음 관련 가져오기를 선택하고 **[!UICONTROL General]**, **[!UICONTROL Journal]** 및 **[!UICONTROL Rejects]** 탭을 찾습니다.
+      다음 **[!UICONTROL Tracking]** 모드 를 사용하면 소스 파일의 각 레코드에 대한 가져오기 세부 정보를 추적할 수 있습니다. 이렇게 하려면 홈 페이지에서 를 클릭합니다. **[!UICONTROL Profiles and Targets]** 그런 다음 **[!UICONTROL Processes]**&#x200B;를 클릭하고 관련 가져오기를 선택한 다음 **[!UICONTROL General]**, **[!UICONTROL Journal]** 및 **[!UICONTROL Rejects]** 탭.
 
       * 가져오기 진행 상태 확인
 
@@ -122,9 +122,9 @@ ht-degree: 1%
 
 1. 조정
 
-   * 기본적으로 **[!UICONTROL Update or insert]** 을(를) 선택한 상태로 유지합니다.
-   * 데이터베이스의 기존 레코드가 텍스트 파일의 데이터로 수정되도록 **[!UICONTROL Update]** 모드에서 **[!UICONTROL Management of duplicates]** 옵션을 유지합니다.
-   * 필드 **[!UICONTROL Birth date]**, **[!UICONTROL Name]** 및 **[!UICONTROL Company]**&#x200B;를 선택하고 필드에 조정 키를 할당합니다.
+   * 유지 **[!UICONTROL Update or insert]** 기본적으로 선택됩니다.
+   * 옵션을 유지합니다 **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** 모드로 설정되므로 데이터베이스의 기존 레코드가 텍스트 파일의 데이터로 수정됩니다.
+   * 필드를 선택합니다 **[!UICONTROL Birth date]**, **[!UICONTROL Name]** 및 **[!UICONTROL Company]** 조정 키를 지정하고
 
       ![](assets/s_ncs_user_import_example04_02.png)
 
@@ -172,12 +172,12 @@ ht-degree: 1%
 
 1. 조정
 
-   * 테이블로 이동하여 **[!UICONTROL Update]** 작업을 선택합니다.
-   * **[!UICONTROL Management of doubles]** 필드에 대해 **[!UICONTROL Reject entity]** 옵션을 선택합니다.
-   * 데이터베이스의 기존 레코드가 텍스트 파일의 데이터로 수정되도록 **[!UICONTROL Update]** 모드에서 **[!UICONTROL Management of duplicates]** 옵션을 유지합니다.
-   * **[!UICONTROL Last name (@lastName)]** 노드에 커서를 놓고 **[!UICONTROL Update only if destination is empty]** 옵션을 선택합니다.
-   * **[!UICONTROL Company (@company)]** 노드에 대해 이 작업을 반복합니다.
-   * **[!UICONTROL Birth date]**, **[!UICONTROL E-mail]** 및 **[!UICONTROL First name]** 필드에 조정 키를 할당합니다.
+   * 테이블로 이동하여 **[!UICONTROL Update]** 작업.
+   * 옵션을 선택합니다 **[!UICONTROL Reject entity]** 대상 **[!UICONTROL Management of doubles]** 필드.
+   * 옵션을 유지합니다 **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** 모드로 설정되므로 데이터베이스의 기존 레코드가 텍스트 파일의 데이터로 수정됩니다.
+   * 커서를 **[!UICONTROL Last name (@lastName)]** 노드 및 **[!UICONTROL Update only if destination is empty]** 선택 사항입니다.
+   * 에 대해 이 작업을 반복합니다. **[!UICONTROL Company (@company)]** 노드 아래에 있어야 합니다.
+   * 필드에 조정 키 할당 **[!UICONTROL Birth date]**, **[!UICONTROL Email]** 및 **[!UICONTROL First name]**.
 
       ![](assets/s_ncs_user_import_example04_03.png)
 
@@ -221,11 +221,11 @@ ht-degree: 1%
 
 1. 조정
 
-   * 테이블로 이동하고 **[!UICONTROL Update]** 을 선택합니다.
-   * **[!UICONTROL Management of doubles]** 필드에 대해 **[!UICONTROL Reject entity]** 옵션을 선택합니다.
-   * 데이터베이스의 기존 레코드가 텍스트 파일의 데이터로 수정되도록 하려면 **[!UICONTROL Update]** 모드에서 **[!UICONTROL Management of duplicates]** 옵션을 둡니다.
-   * **[!UICONTROL Account number (@account)]** 노드에 커서를 놓고 **[!UICONTROL Take empty values into account]** 옵션을 선택합니다.
-   * 필드 **[!UICONTROL Birth date]**, **[!UICONTROL E-mail]** 및 **[!UICONTROL First name]**&#x200B;를 선택하고 필드에 조정 키를 할당합니다.
+   * 테이블로 이동하여 을(를) 선택합니다 **[!UICONTROL Update]**.
+   * 옵션을 선택합니다 **[!UICONTROL Reject entity]** 대상 **[!UICONTROL Management of doubles]** 필드.
+   * 옵션을 둡니다. **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** 데이터베이스의 기존 레코드를 텍스트 파일의 데이터로 수정할 모드
+   * 커서를 **[!UICONTROL Account number (@account)]** 노드 및 옵션을 선택합니다 **[!UICONTROL Take empty values into account]**.
+   * 필드를 선택합니다 **[!UICONTROL Birth date]**, **[!UICONTROL Email]** 및 **[!UICONTROL First name]** 조정 키를 지정하고
 
       ![](assets/s_ncs_user_import_example04_04.png)
 
@@ -236,4 +236,4 @@ ht-degree: 1%
 
       ![](assets/s_ncs_user_import_example06_06.png)
 
-      비어 있는 텍스트 파일의 값이 데이터베이스의 값을 덮어씁니다. 데이터베이스의 기존 값이 4단계에서 중복에 대해 선택한 **[!UICONTROL Update]** 옵션을 사용하여 가져오기 파일의 값으로 업데이트되었습니다.
+      비어 있는 텍스트 파일의 값이 데이터베이스의 값을 덮어씁니다. 데이터베이스의 기존 값이 **[!UICONTROL Update]** 4단계에서 중복에 대해 선택한 옵션입니다.

@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 3%
@@ -25,7 +25,7 @@ Adobe Campaign 플랫폼의 다양한 애플리케이션 서버 간 내부 통�
 
 ### 배달 서버 {#delivery-server}
 
-배달 서버(**nlserver mta**)의 경우 다음 포트를 열어야 합니다.
+게재 서버(**nlserver mta**). 다음 포트를 열어야 합니다.
 
 <table> 
  <tbody> 
@@ -36,8 +36,8 @@ Adobe Campaign 플랫폼의 다양한 애플리케이션 서버 간 내부 통�
   </tr> 
   <tr> 
    <td> 25/tcp(smtp)<br /> </td> 
-   <td> Anywhere<br /> </td> 
-   <td> 전자 메일 브로드캐스트에 대한 SMTP 트래픽입니다.<br /> </td> 
+   <td> 어디에서나<br /> </td> 
+   <td> 전자 메일 브로드캐스트에 대한 SMTP 트래픽.<br /> </td> 
   </tr> 
   <tr> 
    <td> 53/udp(도메인)<br /> </td> 
@@ -45,9 +45,9 @@ Adobe Campaign 플랫폼의 다양한 애플리케이션 서버 간 내부 통�
    <td> DNS 쿼리<br /> </td> 
   </tr> 
   <tr> 
-   <td> 38000/tcp (기본 포트)<br /> </td> 
+   <td> 38000/tcp(기본 포트)<br /> </td> 
    <td> SMS 게이트웨이<br /> </td> 
-   <td> NetSize SMS 라우터로 SMS 트래픽을 보내는 데 사용됩니다. [옵션].<br /> </td> 
+   <td> NetSize SMS 라우터 [옵션]로 SMS 트래픽을 보내는 데 사용됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 7777/udp<br /> </td> 
@@ -59,7 +59,7 @@ Adobe Campaign 플랫폼의 다양한 애플리케이션 서버 간 내부 통�
 
 ### 인바운드 메일 {#inbound-mail}
 
-인바운드 메일 복구 프로세스(**nlserver inMail**)의 경우 다음 포트를 열어야 합니다.
+인바운드 메일 복구 프로세스(**nlserver inMail**). 다음 포트를 열어야 합니다.
 
 <table> 
  <tbody> 
@@ -71,19 +71,19 @@ Adobe Campaign 플랫폼의 다양한 애플리케이션 서버 간 내부 통�
   <tr> 
    <td> 110/tcp(pop3)<br /> </td> 
    <td> 내부 메일 서버<br /> </td> 
-   <td> 반송 메시지를 선택하는 POP3 트래픽입니다.<br /> </td> 
+   <td> 바운스 메시지를 선택하는 POP3 트래픽.<br /> </td> 
   </tr> 
   <tr> 
    <td> 25/tcp(smtp)<br /> </td> 
    <td> 내부 메일 서버<br /> </td> 
-   <td> 사전 정의된 규칙에 의해 자동으로 처리되지 않는 나머지 바운스 메시지를 보내기 위한 SMTP 트래픽입니다.<br /> </td> 
+   <td> 사전 정의된 규칙에 의해 자동으로 처리되지 않는 나머지 바운스 메시지를 보내기 위한 SMTP 트래픽.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 애플리케이션 서버 {#application-server}
 
-응용 프로그램 서버(**nlserver web**)의 경우 다음 포트를 열어야 합니다.
+애플리케이션 서버(**nlserver 웹**). 다음 포트를 열어야 합니다.
 
 <table> 
  <tbody> 
@@ -94,8 +94,8 @@ Adobe Campaign 플랫폼의 다양한 애플리케이션 서버 간 내부 통�
   </tr> 
   <tr> 
    <td> 80/tcp(http)<br /> 443/tcp(https)<br /> </td> 
-   <td> Anywhere<br /> </td> 
-   <td> HTTP 또는 HTTPS 트래픽(게재 가능성 오퍼용 포함).<br /> </td> 
+   <td> 어디에서나<br /> </td> 
+   <td> HTTP 또는 HTTPS 트래픽(게재 기능 오퍼용 포함).<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ Adobe Campaign 플랫폼의 여러 애플리케이션 서버가 서로 통신해
 
 ### SMS 게재 상태 {#sms-delivery-status}
 
-SMS 게재(**nlserver sms**)를 추적하려면 다음 포트가 열려 있어야 합니다.
+SMS 게재를 추적하려면 (**nlserver sms**). 다음 포트를 열어야 합니다.
 
 <table> 
  <tbody> 
@@ -114,16 +114,16 @@ SMS 게재(**nlserver sms**)를 추적하려면 다음 포트가 열려 있어�
    <td> 댓글<br /> </td> 
   </tr> 
   <tr> 
-   <td> 38000/tcp (기본 포트)<br /> </td> 
+   <td> 38000/tcp(기본 포트)<br /> </td> 
    <td> SMS 게이트웨이<br /> </td> 
-   <td> NetSize SMS 게이트웨이 [옵션].<br />에서 관리하는 게재 큐 상태를 쿼리합니다. </td> 
+   <td> NetSize SMS 게이트웨이 [옵션]에서 관리하는 게재 큐 상태를 쿼리합니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 리치 클라이언트 {#rich-client}
 
-Adobe Campaign 리치 클라이언트(**nlclient**)의 경우 다음 포트가 열려 있어야 합니다.
+Adobe Campaign 리치 클라이언트의 경우(**nlclient**). 다음 포트를 열어야 합니다.
 
 <table> 
  <tbody> 
@@ -182,7 +182,7 @@ Adobe Campaign 리치 클라이언트(**nlclient**)의 경우 다음 포트가 �
 <table> 
  <tbody> 
   <tr> 
-   <td> 수신 포트<br /> </td> 
+   <td> 수신 대기 포트<br /> </td> 
    <td> 위치<br /> </td> 
   </tr> 
   <tr> 
@@ -199,12 +199,12 @@ Adobe Campaign 리치 클라이언트(**nlclient**)의 경우 다음 포트가 �
 <table> 
  <tbody> 
   <tr> 
-   <td> 수신 포트<br /> </td> 
+   <td> 수신 대기 포트<br /> </td> 
    <td> 위치<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp(http)</p><p> 443/tcp(https)</p><br /> </td> 
-   <td> 어디든지 웹 양식을 Adobe Campaign 플랫폼에서 직접 관리하거나 미러 페이지를 사용할 때 필요합니다.<br /> </td> 
+   <td> 어디든지 Adobe Campaign 플랫폼에서 직접 웹 양식을 관리하거나 미러 페이지를 사용할 때 필요합니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -214,24 +214,24 @@ Adobe Campaign 리치 클라이언트(**nlclient**)의 경우 다음 포트가 �
 <table> 
  <tbody> 
   <tr> 
-   <td> 수신 포트<br /> </td> 
+   <td> 수신 대기 포트<br /> </td> 
    <td> 위치<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp(http)</p><p> 443/tcp(https)</p><br /> </td> 
-   <td> 가상 클라이언트 또는 리치 클라이언트를 실행하는 모든 컴퓨터.<br /> </td> 
+   <td> 씬 클라이언트 또는 리치 클라이언트를 실행하는 모든 컴퓨터<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Adobe Experience Manager과 통합 {#integration-with-adobe-experience-manager}
 
-Adobe Campaign과 Adobe Experience Manager을 통합하려면 설치가 &quot;온-프레미스&quot;인 경우 몇 개의 포트를 열어야 합니다. 이 통합 구성에 대한 자세한 내용은 [세부 설명서](../../integrations/using/about-adobe-experience-manager.md)를 참조하십시오.
+Adobe Campaign과 Adobe Experience Manager을 통합하려면 설치가 &quot;온-프레미스&quot;인 경우 몇 개의 포트를 열어야 합니다. 이 통합 구성에 대한 자세한 내용은 [세부 설명서](../../integrations/using/about-adobe-experience-manager.md).
 
 <table> 
  <tbody> 
   <tr> 
-   <td> 수신 포트<br /> </td> 
+   <td> 수신 대기 포트<br /> </td> 
    <td> 설명<br /> </td> 
   </tr> 
   <tr> 
@@ -247,7 +247,7 @@ Adobe Campaign과 Adobe Experience Manager을 통합하려면 설치가 &quot;�
 
 ## 대역폭 {#bandwidth}
 
-고려할 네트워크 구성의 다른 키 매개 변수입니다. 이것은 거의 항상 아웃바운드 되고, 전자 메일 방송 중에 수요가 많습니다. 다음은 Adobe 경험을 기반으로 한 몇 가지 구성 예입니다.
+고려할 네트워크 구성의 다른 키 매개 변수입니다. 이메일 방송 중에 거의 항상 아웃바운드 및 많은 수요가 발생합니다. 다음은 Adobe 경험을 기반으로 한 몇 가지 구성 예입니다.
 
 * 시간당 10,000개의 이메일에 대해 1Mb/s(평균 크기 30Kb)
 * 시간당 100,000개의 이메일에 대해 8~10Mb/s(평균 크기 30Kb)

@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '3229'
 ht-degree: 37%
@@ -37,32 +37,32 @@ ht-degree: 37%
   <tr> 
    <td> <span class="uicontrol">같음</span> <br /> </td> 
    <td> 두 번째 값 열에 입력한 데이터와 동일한 결과를 반환합니다.<br /> </td> 
-   <td> <strong>성(@lastName)은 'Jones'</strong>와 동일한 이름으로 성이 Jones인 수신자만 반환합니다.<br /> </td> 
+   <td> <strong>성(@lastName)이 'Jones'와 같음</strong>은 성이 Jones인 수신자만 반환합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">보다 큼</span> <br /> </td> 
    <td> 입력한 값보다 큰 값을 반환합니다.<br /> </td> 
-   <td> <strong>나이(@age)이 50</strong>보다 큰 값은 '50'보다 큰 모든 값(즉, '51', '52' 등<br /> </td> 
+   <td> <strong>50세 이상(@age)</strong>은 '50'보다 큰 모든 값(즉, '51', '52' 등<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">보다 작음</span> <br /> </td> 
    <td> 입력한 값보다 작은 값을 반환합니다.<br /> </td> 
-   <td> <strong>'DaysAgo(100)' </strong> 앞에 만든 날짜(@created)은 100일 전에 만든 모든 수신자를 반환합니다.<br /> </td> 
+   <td> <strong>'DaysAgo(100)' 앞에 만든 날짜(@created)</strong>은(는) 100일 전에 만든 모든 수신자를 반환합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">크거나 같음</span> <br /> </td> 
    <td> 입력한 값보다 크거나 같은 모든 값을 반환합니다.<br /> </td> 
-   <td> <strong>연령(@age)이 '30'보다 크거나</strong> 같은 경우 30세 이상의 모든 수신자를 반환합니다.<br /> </td> 
+   <td> <strong>연령(@age)이 '30'보다 크거나 같음</strong>은 30세 이상의 모든 수신자를 반환합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">작거나 같음</span> <br /> </td> 
    <td> 입력한 값보다 작거나 같은 모든 값을 반환합니다.<br /> </td> 
-   <td> <strong>연령(@age)이 '60'보다</strong> 작거나 같은 경우, 60세 이하의 모든 수신자를 반환합니다.<br /> </td> 
+   <td> <strong>연령(@age)이 '60'보다 작거나 같음</strong>은 60세 이하의 모든 수신자를 반환합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">같지 않음</span> <br /> </td> 
    <td> 입력한 값과 동일하지 않은 모든 값을 반환합니다.<br /> </td> 
-   <td> <strong>'English'와 동일한 언어(@language)입니다</strong>.<br /> </td> 
+   <td> <strong>언어(@language)이 '영어'와 같음</strong>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">다음으로 시작</span> <br /> </td> 
@@ -71,47 +71,47 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">다음으로 시작하지 않음</span> <br /> </td> 
-   <td> 입력한 값으로 시작하지 않은 결과 반환<br /> </td> 
-   <td> <strong>계정 번호(@account)이 '20'으로 시작되지 않습니다</strong>.<br /> </td> 
+   <td> 입력한 값으로 시작되지 않는 결과 반환<br /> </td> 
+   <td> <strong>계정 번호(@account)이 '20'으로 시작되지 않음</strong>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">포함</span> <br /> </td> 
    <td> 입력한 값 이상을 포함하는 결과를 반환합니다.<br /> </td> 
-   <td> <strong>전자 메일 도메인(@domain)에 'mail'</strong>이 포함되어 있으면 'mail'이 포함된 모든 도메인 이름을 반환합니다. 따라서 'gmail.com' 도메인도 반환됩니다.<br /> </td> 
+   <td> <strong>전자 메일 도메인(@domain)에 'mail'이 포함됨</strong>은(는) 'mail'을 포함하는 모든 도메인 이름을 반환합니다. 따라서 'gmail.com' 도메인도 반환됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">다음을 포함하지 않음</span> <br /> </td> 
    <td> 입력한 값을 포함하지 않는 결과를 반환합니다.<br /> </td> 
-   <td> <strong>이메일 도메인(@domain)에 'vo'</strong>가 없습니다. 이 경우 'vo'가 포함된 도메인 이름은 반환되지 않습니다. 'voila.fr' 도메인 이름이 결과에 표시되지 않습니다.<br /> </td> 
+   <td> <strong>전자 메일 도메인(@domain)에 'vo'가 없습니다.</strong>. 이 경우 'vo'가 포함된 도메인 이름은 반환되지 않습니다. 'voila.fr' 도메인 이름이 결과에 표시되지 않습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">비슷함</span> <br /> </td> 
-   <td> <span class="uicontrol">비슷함</span>은 <span class="uicontrol">포함</span> 연산자와 매우 유사합니다. 값에 <span class="uicontrol">%</span> 와일드카드 문자를 삽입할 수 있습니다.<br /> </td> 
-   <td> <strong>'Jon%s'과 같은 성(@lastName)</strong>. 이때 와일드카드 문자를 '조커'로 사용하여 'n'과 's' 사이에 있는 문자를 잊어버렸다면 'Jones'라는 이름을 찾을 수 있습니다.<br /> </td> 
+   <td> <span class="uicontrol">비슷함</span>은 <span class="uicontrol">포함</span> 연산자와 매우 유사합니다. 이 기능을 사용하여 <span class="uicontrol">%</span> 값의 와일드카드 문자.<br /> </td> 
+   <td> <strong>'Jon%s'과 같은 성(@lastName)</strong>. 이때 'Jones'라는 문자를 찾기 위해 '조커'로 쓰인다. 주인공 존스에게는 'n'과 's'사이에 맺힌 문자를 잊어버렸어야 했다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">비슷하지 않음</span> <br /> </td> 
    <td> <span class="uicontrol">비슷함</span>과 유사합니다 . 입력한 값을 복구할 수 없습니다. 여기서도 입력한 값은 <span class="uicontrol">%</span> 와일드카드 문자를 포함해야 합니다.<br /> </td> 
-   <td> <strong>성(@lastName)은 'Smi%h'와(과) 다릅니다</strong>. 여기에서 성이 'Smi%h'인 수신자는 반환되지 않습니다.<br /> </td> 
+   <td> <strong>성(@lastName)이 'Smi%h'와(과) 같지 않습니다.</strong>. 여기에서 성이 'Smi%h'인 수신자는 반환되지 않습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">비어 있음</span> <br /> </td> 
-   <td> 이 경우 찾을 결과는 두 번째 값 열의 빈 값과 일치합니다.<br /> </td> 
-   <td> <strong>모바일(@mobilePhone)은 </strong> 비어 있으면 모바일 번호가 없는 모든 수신자를 반환합니다.<br /> </td> 
+   <td> 이 경우 우리가 찾는 결과는 두 번째 값 열의 빈 값과 일치합니다.<br /> </td> 
+   <td> <strong>모바일(@mobilePhone)이 비어 있습니다</strong> 모바일 번호가 없는 모든 수신자를 반환합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">비어 있지 않음</span> <br /> </td> 
-   <td> <span class="uicontrol">Is empty</span> 연산자와 반대로 작동합니다. 두 번째 값 열에 데이터를 입력할 필요가 없습니다.<br /> </td> 
-   <td> <strong>이메일(@email)이 비어 있지</strong> 않습니다.<br /> </td> 
+   <td> 를 의 <span class="uicontrol">비어 있음</span> 연산자를 사용할 수 있습니다. 두 번째 값 열에 데이터를 입력할 필요가 없습니다.<br /> </td> 
+   <td> <strong>이메일(@email)이 비어 있지 않습니다.</strong>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">에 포함되어 있습니다</span> <br /> </td> 
    <td> 표시된 값에 포함된 결과를 반환합니다. 이러한 값은 쉼표로 구분해야 합니다.<br /> </td> 
-   <td> <strong>생년월일(@birthDate)은 '12/10/1979,12/10/1984'</strong>에 포함되어 있으며, 이 날짜 사이에 태어난 수신자를 반환합니다.  <br /> </td> 
+   <td> <strong>생년월일(@birthDate)은 '12/10/1979,12/10/1984'에 포함됩니다</strong>은 이 날짜 사이에 태어난 수신자를 반환합니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">에 포함되어 있지 않습니다</span> <br /> </td> 
-   <td> <span class="uicontrol">Is include</span> 연산자와 같이 작동합니다. 여기서는 입력한 값을 기준으로 받는 사람을 제외하려고 합니다.<br /> </td> 
+   <td> 와 같은 방식으로 작동합니다. <span class="uicontrol">에 포함되어 있습니다</span> 연산자를 사용할 수 있습니다. 여기서는 입력한 값에 따라 수신자를 제외하려고 합니다.<br /> </td> 
    <td> <strong>생년월일(@birthDate)은 '12/10/1979,12/10/1984'에 포함되지 않습니다</strong>. 앞의 예와 달리, 이 날짜 내에서 태어난 수신자는 반환되지 않습니다.<br /> </td> 
   </tr> 
  </tbody> 
@@ -125,7 +125,7 @@ ht-degree: 37%
 * **[!UICONTROL Or]** 다른 방법을 제공할 수 있습니다.
 * **[!UICONTROL Except]** 예외를 정의할 수 있습니다.
 
-**[!UICONTROL And]** (기본적으로 제공됨)을 클릭하고 드롭다운 목록에서 를 선택합니다.
+클릭 **[!UICONTROL And]** (기본적으로 제공됨) 을 클릭하고 드롭다운 목록에서 을(를) 선택합니다.
 
 ![](assets/query_condition_modif_01.png)
 
@@ -157,33 +157,33 @@ ht-degree: 37%
 
 * 세로 화살표를 사용하면 조건을 이동하여 실행 순서를 변경할 수 있습니다.
 
-다음 예제에서는 화살표를 사용하여 괄호 레벨을 삭제하는 방법을 보여 줍니다. 다음 필터링 조건에서 시작합니다. **[!UICONTROL City equal to London OR gender equal to male and mobile not indicated OR account # starts with "95" and company name starts with "A"]**
+다음 예제에서는 화살표를 사용하여 괄호 레벨을 삭제하는 방법을 보여 줍니다. 다음 필터링 조건에서 시작합니다. **[!UICONTROL City equal to London OR gender equal to male and mobile not indicated OR account # starts with "95" and company name starts with "A"]**.
 
-**[!UICONTROL Gender (@gender) equal to Male]** 필터링 조건에 커서를 놓고 **[!UICONTROL Remove a parenthesis level]** 화살표를 클릭합니다.
+커서를 **[!UICONTROL Gender (@gender) equal to Male]** 필터링 조건을 클릭하고 **[!UICONTROL Remove a parenthesis level]** 화살표.
 
 ![](assets/query_editor_nveau_32.png)
 
-**[!UICONTROL Gender (@gender) equal to Male]** 조건이 괄호에서 제거되었습니다. 그것은 &quot;런던과 동일한 도시&quot; 조건과 같은 수준으로 이동했다. 이러한 조건은 함께 연결됩니다(**[!UICONTROL And]**).
+다음 **[!UICONTROL Gender (@gender) equal to Male]** 그 괄호를 벗었다. 그것은 &quot;런던과 동일한 도시&quot; 조건과 같은 수준으로 이동했다. 이러한 조건은 서로 연결되어 있습니다(**[!UICONTROL And]**).
 
 ## 추출할 데이터 선택 {#selecting-data-to-extract}
 
-사용 가능한 필드는 테이블마다 다릅니다. 모든 필드는 **[!UICONTROL Main element]**&#x200B;이라는 주 노드에 저장됩니다. 다음 예에서는 사용 가능한 필드가 수신자 테이블에 있습니다. 필드는 항상 알파벳순으로 표시됩니다.
+사용 가능한 필드는 테이블마다 다릅니다. 모든 필드는 **[!UICONTROL Main element]**. 다음 예에서는 사용 가능한 필드가 수신자 테이블에 있습니다. 필드는 항상 알파벳순으로 표시됩니다.
 
-선택한 필드의 세부 사항이 창 하단에 표시됩니다. 예를 들어 **[!UICONTROL Email domain]** 필드는 **[!UICONTROL Calculated SQL field]**&#x200B;이고 해당 확장은 **[!UICONTROL (@domain)]**&#x200B;입니다.
+선택한 필드의 세부 사항이 창 하단에 표시됩니다. 예: **[!UICONTROL Email domain]** 필드는 다음과 같습니다 **[!UICONTROL Calculated SQL field]** 그리고 이 확장은 **[!UICONTROL (@domain)]**.
 
 ![](assets/query_editor_nveau_59.png)
 
 >[!NOTE]
 >
->**[!UICONTROL Search]** 도구를 사용하여 사용 가능한 필드를 찾습니다.
+>를 사용하십시오 **[!UICONTROL Search]** 도구 를 사용하여 사용 가능한 필드를 찾을 수 있습니다.
 
-사용 가능한 필드를 두 번 클릭하여 출력 열에 추가합니다. 쿼리 끝에 선택한 각 필드는 **[!UICONTROL Data preview]** 창에 열을 만듭니다.
+사용 가능한 필드를 두 번 클릭하여 출력 열에 추가합니다. 쿼리 끝에 선택한 각 필드는 **[!UICONTROL Data preview]** 창을 엽니다.
 
 ![](assets/query_editor_nveau_01.png)
 
-고급 필드는 기본적으로 표시되지 않습니다. 사용 가능한 필드의 오른쪽 아래 모서리에 있는 **[!UICONTROL Display advanced fields]** 을 클릭하여 모든 것을 표시합니다. 를 다시 클릭하여 이전 보기로 돌아갑니다.
+고급 필드는 기본적으로 표시되지 않습니다. 클릭 **[!UICONTROL Display advanced fields]** 사용 가능한 필드의 오른쪽 하단 모서리에서 모든 항목을 표시합니다. 를 다시 클릭하여 이전 보기로 돌아갑니다.
 
-예를 들어 수신자 테이블에서 고급 필드는 **부울 1**, **[!UICONTROL Boolean 2]**, **[!UICONTROL Boolean 3]**, **[!UICONTROL Foreign key of "Folder" link]** 등입니다.
+예를 들어 수신자 테이블에서 고급 필드는 다음과 같습니다 **부울 1**, **[!UICONTROL Boolean 2]**, **[!UICONTROL Boolean 3]**, **[!UICONTROL Foreign key of "Folder" link]**&#x200B;등
 
 다음 예는 수신자 테이블의 고급 필드를 보여줍니다.
 
@@ -203,12 +203,12 @@ ht-degree: 37%
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_47.png" /> </td> 
    <td> 단순 필드<br /> </td> 
-   <td> 전자 메일, 성별 등<br /> </td> 
+   <td> 이메일, 성별 등<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_48.png" /> </td> 
    <td> 기본 키. 이 SQL 필드는 테이블의 레코드를 식별하는 방법입니다.<br /> </td> 
-   <td> 식별자 수신자는 기본 키이고 식별자는 정의에 따라 고유합니다.<br /> </td> 
+   <td> 식별자 수신자는 기본 키이며 식별자는 정의에 따라 고유합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_02.png" /> </td> 
@@ -218,12 +218,12 @@ ht-degree: 37%
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_46.png" /> </td> 
    <td> 계산된 필드입니다. 이 유형의 필드는 데이터베이스의 값을 사용하여 요청 시 계산됩니다.<br /> </td> 
-   <td> 연령, 이메일 도메인 등<br /> </td> 
+   <td> 나이, 이메일 도메인 등<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_49.png" /> </td> 
-   <td> 긴 텍스트가 포함된 필드입니다.<br /> </td> 
-   <td> 주석, 전체 주소 등<br /> </td> 
+   <td> 긴 텍스트가 포함된 필드.<br /> </td> 
+   <td> 댓글, 전체 주소 등<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_50.png" /> </td> 
@@ -246,23 +246,23 @@ ht-degree: 37%
  <tbody> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_51.png" /> </td> 
-   <td> 특정 테이블에 대한 링크. 이것은 1-1 유형 연관과 일치합니다. 소스 테이블의 발생 횟수는 대상 테이블의 발생 항목 하나만 일치시킬 수 있습니다. 예를 들어 한 국가에는 한 명의 수신자만 연결할 수 있습니다.<br /> </td> 
-   <td> 폴더, 상태, 국가 등 <br /> </td> 
+   <td> 특정 테이블에 대한 링크. 이것은 1-1 유형 연관과 일치합니다. 소스 테이블의 발생 횟수는 대상 테이블의 발생 항목 하나만 일치시킬 수 있습니다. 예를 들어 한 국가에 한 명의 수신자만 연결할 수 있습니다.<br /> </td> 
+   <td> 폴더, 주, 국가 등 <br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_52.png" /> </td> 
    <td> 특정 테이블의 컬렉션 요소입니다. 이는 1-N 유형 연결과 일치합니다. 하나의 소스 테이블 발생 횟수는 타겟 테이블의 여러 발생 횟수와 일치할 수 있지만, 타겟 테이블의 발생 항목 하나는 소스 테이블의 발생 항목 하나만 일치시킬 수 있습니다. 예를 들어 한 수신자가 'n' 구독 편지에 가입할 수 있습니다.<br /> </td> 
-   <td> 구독, 목록, 제외 로그 등.<br /> </td> 
+   <td> 구독, 목록, 제외 로그 등<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->* **[!UICONTROL Add]** 단추(사이드 아이콘 막대 위)를 사용하여 표현식을 편집할 출력 열을 추가합니다. 표현식 편집에 대한 자세한 정보는 [이 섹션](#building-expressions)을 참조하십시오.
->* 빨간색 &#39;x&#39;(**삭제**)를 클릭하여 출력 열을 삭제합니다.
+>* 를 사용하십시오 **[!UICONTROL Add]** 단추(사이드 아이콘 막대 상단)를 클릭하여 표현식을 편집할 출력 열을 추가합니다. 표현식 편집에 대한 자세한 내용은 [이 섹션](#building-expressions).
+>* 빨간색 &#39;x&#39;를 클릭하여 출력 열을 삭제합니다(**삭제**).
 >* 화살표를 사용하여 출력 열의 순서를 변경합니다.
->* **[!UICONTROL Distribution of values]** 은 선택한 필드의 값(예: 수신자 도시, 수신자 언어 등과 연결된 배포)의 분포를 보는 방법으로 사용됩니다.
+>* 다음 **[!UICONTROL Distribution of values]** 선택한 필드의 값(예: 수신자 도시, 수신자 언어 등과 연결된 분배)의 분포를 보는 방법 역할을 합니다.
 
 
 ## 계산된 필드 만들기 {#creating-calculated-fields}
@@ -289,20 +289,20 @@ ht-degree: 37%
 
    열의 소스 값을 사용하여 대상 값을 지정할 수 있습니다. 이 대상 값은 새 출력 열에 표시됩니다.
 
-   계산된 필드 유형 **[!UICONTROL Enumerations]**&#x200B;을 추가하는 예제는 [이 섹션](../../workflow/using/adding-enumeration-type-calculated-field.md)을 참조하십시오.
+   계산된 필드 유형을 추가하는 예 **[!UICONTROL Enumerations]** 사용 가능한 경우 [이 섹션](../../workflow/using/adding-enumeration-type-calculated-field.md).
 
    ![](assets/query_editor_nveau_63.png)
 
-   **[!UICONTROL Enumerations]** 유형 계산 필드에는 4가지 조건이 포함될 수 있습니다.
+   다음 **[!UICONTROL Enumerations]** 유형 계산 필드에는 4가지 조건이 포함될 수 있습니다.
 
    * **[!UICONTROL Keep the source value]** 소스 값을 변경하지 않고 대상에 복원합니다.
    * **[!UICONTROL Use the following value]** 정의되지 않은 소스 값에 대한 기본 대상 값을 입력할 수 있습니다.
    * **[!UICONTROL Generate a warning and continue]** 사용자에게 소스 값을 변경할 수 없다는 경고를 표시합니다.
    * **[!UICONTROL Generate an error and reject the line]** 행을 계산 및 가져올 수 없습니다.
 
-**[!UICONTROL Detail of calculated field]** 을 클릭하여 삽입된 필드의 세부 정보를 확인합니다.
+을(를) 클릭합니다. **[!UICONTROL Detail of calculated field]** 를 클릭하여 삽입된 필드의 세부 정보를 확인합니다.
 
-이 계산된 필드를 제거하려면 **[!UICONTROL Remove the calculated field]** 십자 표시를 클릭합니다.
+이 계산된 필드를 제거하려면 **[!UICONTROL Remove the calculated field]** 크로스
 
 ![](assets/query_editor_nveau_58.png)
 
@@ -314,11 +314,11 @@ ht-degree: 37%
 
 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Data to extract]** 창에서 **[!UICONTROL Add]** 을 클릭합니다. **[!UICONTROL Formula type]** 창에서 수식 유형을 선택하여 표현식을 입력합니다.
+1. 클릭 **[!UICONTROL Add]** 에서 **[!UICONTROL Data to extract]** 창을 엽니다. 에서 **[!UICONTROL Formula type]** 창에서 수식 유형을 선택하여 표현식을 입력합니다.
 
    사용 가능한 공식 유형은 다음과 같습니다. **[!UICONTROL Field only]**, **[!UICONTROL Aggregate]**, **[!UICONTROL Expression]**.
 
-   **[!UICONTROL Process on an aggregate function]** 및 **[!UICONTROL Count]** 을 선택합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+   선택 **[!UICONTROL Process on an aggregate function]**, 및 **[!UICONTROL Count]**. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
 
    ![](assets/query_editor_nveau_54.png)
 
@@ -326,11 +326,11 @@ ht-degree: 37%
 
    ![](assets/query_editor_nveau_88.png)
 
-다음은 **[!UICONTROL Formula types]** 창에서 사용할 수 있는 선택 사항에 대한 상세 보기입니다.
+다음은 에서 사용할 수 있는 선택 사항에 대한 자세한 보기입니다 **[!UICONTROL Formula types]** 창:
 
 ![](assets/query_editor_nveau_05.png)
 
-1. **[!UICONTROL Field only]** 창으로 돌아갈 수  **[!UICONTROL Field to select]** 있습니다.
+1. **[!UICONTROL Field only]** 로 돌아갈 수 있습니다. **[!UICONTROL Field to select]** 창을 엽니다.
 1. **[!UICONTROL Aggregate (Process on an aggregate function)]**. 다음은 집계 사용의 예입니다.
 
    * **[!UICONTROL Count]** 기본 키 수를 실행할 수 있습니다.
@@ -339,17 +339,17 @@ ht-degree: 37%
    * **[!UICONTROL Minimum value]** 고객을 분류하고 가장 최근에 오퍼를 구독한 고객을 찾을 수 있습니다.
    * **[!UICONTROL Average]**. 이 함수를 사용하면 수신자의 평균 연령을 계산할 수 있습니다.
 
-      **[!UICONTROL Distinct]** 상자를 사용하면 열의 고유한 값과 0이 아닌 값을 복구할 수 있습니다. 예를 들어, 모든 수신자의 추적 로그를 복구할 수 있으며 이러한 추적 로그는 모두 동일한 수신자를 걱정하므로 값 1로 변경됩니다.
+      다음 **[!UICONTROL Distinct]** 상자에서 열의 고유한 값과 0이 아닌 값을 복구할 수 있습니다. 예를 들어, 모든 수신자의 추적 로그를 복구할 수 있으며 이러한 추적 로그는 모두 동일한 수신자를 걱정하므로 값 1로 변경됩니다.
 
-1. **[!UICONTROL Expression]** 창을  **[!UICONTROL Edit the expression]** 엽니다. 이를 통해 입력 오류가 발생할 수 있는 숫자가 너무 많은 전화 번호를 감지할 수 있습니다.
+1. **[!UICONTROL Expression]** 열기 **[!UICONTROL Edit the expression]** 창을 엽니다. 이를 통해 입력 오류가 발생할 수 있는 숫자가 너무 많은 전화 번호를 감지할 수 있습니다.
 
    ![](assets/query_editor_nveau_71.png)
 
-   사용 가능한 모든 함수 목록이 필요하면 [함수 목록](#list-of-functions)을 참조하십시오.
+   사용 가능한 모든 함수 목록이 필요하면 [함수 목록](#list-of-functions).
 
 ## 함수 목록 {#list-of-functions}
 
-**[!UICONTROL Expression]** 유형 수식을 선택하면 &quot;표현식 편집&quot; 창으로 이동합니다. 사용 가능한 필드에 다양한 함수 카테고리를 연결할 수 있습니다. **[!UICONTROL Aggregates]**, **[!UICONTROL String]**, **[!UICONTROL Date]**, **[!UICONTROL Numerical]**, **[!UICONTROL Currency]**, **[!UICONTROL Geomarketing]**, **[!UICONTROL Windowing function]** 및 **[!UICONTROL Others]**.
+다음과 같은 경우 **[!UICONTROL Expression]** 유형 수식이 선택되면 &quot;표현식 편집&quot; 창으로 이동합니다. 사용 가능한 필드에 다양한 함수 카테고리를 연결할 수 있습니다. **[!UICONTROL Aggregates]**, **[!UICONTROL String]**, **[!UICONTROL Date]**, **[!UICONTROL Numerical]**, **[!UICONTROL Currency]**, **[!UICONTROL Geomarketing]**, **[!UICONTROL Windowing function]** 및 **[!UICONTROL Others]**.
 
 표현식 편집기는 다음과 같습니다.
 
@@ -373,17 +373,17 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>카운트</strong><br /> </td> 
-   <td> 열<br />의 null이 아닌 값 계산 </td> 
+   <td> 열의 null이 아닌 값 계산<br /> </td> 
    <td> Count(&lt;값&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>CountAll</strong><br /> </td> 
-   <td> 반환된 값(모든 필드) 계산<br /> </td> 
+   <td> 반환된 값 계산(모든 필드)<br /> </td> 
    <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Countdistinct</strong><br /> </td> 
-   <td> 열<br />의 null이 아닌 고유한 값 계산 </td> 
+   <td> 열의 null이 아닌 개별 값 계산<br /> </td> 
    <td> Countdistinct(&lt;값&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -399,7 +399,7 @@ ht-degree: 37%
   <tr> 
    <td> <strong>StdDev</strong><br /> </td> 
    <td> 숫자, 문자열 또는 날짜 열의 표준 편차 반환<br /> </td> 
-   <td> StdDev(&lt;값&gt;)<br /></td> 
+   <td> StdDev(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>합계</strong><br /> </td> 
@@ -450,13 +450,13 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> 처음 두 매개 변수가 동일한 경우 세 번째 매개 변수를 반환합니다. 그렇지 않으면 마지막 매개 변수<br />를 반환합니다. </td> 
+   <td> 처음 두 매개 변수가 동일한 경우 세 번째 매개 변수를 반환합니다. 그렇지 않으면 마지막 매개 변수를 반환합니다<br /> </td> 
    <td> IfEquals(&lt;문자열&gt;, &lt;문자열&gt;, &lt;문자열&gt;, &lt;문자열&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
    <td> 매개 변수로 전달된 메모가 null인지 표시<br /> </td> 
-   <td> IsMemoNull(&lt;메모&gt;)<br /></td> 
+   <td> IsMemoNull(&lt;memo&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
@@ -471,7 +471,7 @@ ht-degree: 37%
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> 왼쪽에서 완성된 문자열 반환<br /> </td> 
-   <td> LPad(&lt;문자열&gt;, &lt;숫자&gt;, &lt;문자&gt;)<br /></td> 
+   <td> LPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
@@ -480,7 +480,7 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
-   <td> 문자열<br /> 길이 반환 </td> 
+   <td> 문자열 길이 반환<br /> </td> 
    <td> Length(&lt;문자열&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -525,13 +525,13 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
-   <td> 문자열의 문자 n1에서 시작하여 길이가 n2<br />인 하위 문자열을 추출합니다. </td> 
+   <td> 문자열의 문자 n1에서 시작하여 길이 n2에서 시작하는 하위 문자열 추출<br /> </td> 
    <td> Substring(&lt;문자열&gt;, &lt;오프셋&gt;, &lt;길이&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
    <td> 숫자를 문자열로 변환<br /> </td> 
-   <td> ToString(&lt;숫자&gt;, &lt;숫자&gt;)<br /> </td>  
+   <td> ToString(&lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
@@ -550,8 +550,8 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
-   <td> 문자열 크기<br /> 반환 </td> 
-   <td> dataLength(&lt;문자열&gt;)<br /> </td>  
+   <td> 문자열 크기 반환<br /> </td> 
+   <td> dataLength(&lt;string&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
@@ -607,7 +607,7 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> 날짜<br />의 연도의 일 숫자 반환 </td> 
+   <td> 날짜의 연도 숫자 반환<br /> </td> 
    <td> DayOfYear(&lt;날짜&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -617,7 +617,7 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> 현재 날짜에서 n일을 뺀 날짜(정수 yyymmdd)를 반환합니다.<br /> </td> 
+   <td> 현재 날짜에서 n일을 뺀 날짜(정수 yyymmdd)를 반환합니다<br /> </td> 
    <td> DaysAgoInt(&lt;숫자&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -743,7 +743,7 @@ ht-degree: 37%
   <tr> 
    <td> <strong>TruncTime</strong><br /> </td> 
    <td> 시간 부분을 가장 가까운 시간(초)으로 반올림<br /> </td> 
-   <td> TruncTime(e&lt;날짜&gt;, &lt;시간(초) 숫자&gt;)<br /> </td>  
+   <td> TruncTime(e)&lt;date&gt;, &lt;number of="" seconds=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
@@ -785,7 +785,7 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->**Dateonly** 함수는 연산자의 시간대가 아니라 서버의 시간대를 고려합니다.
+>다음 사항에 유의하십시오. **Dateonly** 함수는 연산자의 시간대가 아니라 서버의 시간대를 고려합니다.
 
 **숫자**
 
@@ -808,7 +808,7 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> 숫자<br />보다 크거나 같은 최대 정수 반환 </td> 
+   <td> 숫자보다 크거나 같은 최대 정수 반환<br /> </td> 
    <td> Floor(&lt;숫자&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -823,7 +823,7 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> n1의 정수 분기의 나머지 반환(n2<br />) </td> 
+   <td> n1에서 n2까지 정수 분기의 나머지 반환<br /> </td> 
    <td> Mod(&lt;숫자 1&gt;, &lt;숫자 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -880,13 +880,13 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>ConvertCurrency</strong><br /> </td> 
-   <td> 소스 통화의 금액을 대상 통화<br />의 금액으로 변환 </td> 
-   <td> ConvertCurrency(&lt;금액&gt;, &lt;소스 통화&gt;, &lt;대상 통화&gt;, &lt;전환 날짜&gt;)<br /> </td>  
+   <td> 출처 통화로 된 금액을 대상 통화로 된 금액으로 변환<br /> </td> 
+   <td> ConvertCurrency(&lt;amount&gt;, &lt;source currency=""&gt;, &lt;target currency=""&gt;, &lt;conversion date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>FormatCurrency</strong><br /> </td> 
-   <td> 선택한 통화 설정에 따라 표시되는 금액 형식 지정<br /> </td> 
-   <td> FormatCurrency(&lt;금액&gt;, &lt;통화&gt;)<br /> </td>  
+   <td> 선택한 통화 설정에 따라 표시되는 금액의 서식을 지정합니다<br /> </td> 
+   <td> FormatCurrency(&lt;amount&gt;, &lt;currency&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
@@ -919,7 +919,7 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> 조건이 true이면 값 1 반환 그렇지 않으면 값 2.<br /> 를 반환합니다. </td> 
+   <td> 조건이 true이면 값 1 반환 그렇지 않으면 값 2를 반환합니다.<br /> </td> 
    <td> Case(When(&lt;조건&gt;, &lt;값 1&gt;), Else(&lt;값 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
@@ -934,17 +934,17 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> 값 1 = 값 2인 경우 값 3 반환 값을 반환하지 않으면 4.<br /> </td> 
+   <td> 값 1 = 값 2인 경우 값 3 반환 값 4를 반환하지 않는 경우.<br /> </td> 
    <td> Decode(&lt;값 1&gt;, &lt;값 2&gt;, &lt;값 3&gt;, &lt;값 4&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 값 1 반환(case 함수의 매개 변수로만 사용할 수 있음)<br /> </td> 
-   <td> Else(&lt;값 1&gt;, &lt;값 2&gt;)<br /> </td>  
+   <td> Else(&lt;value&gt;, &lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
-   <td> 전자 메일 주소<br />에서 도메인 추출 </td> 
+   <td> 이메일 주소에서 도메인 추출<br /> </td> 
    <td> GetEmailDomain(&lt;값&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -954,7 +954,7 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> 표현식이 true면 값 1 반환 그렇지 않으면 값 2<br /> 반환 </td> 
+   <td> 표현식이 true면 값 1 반환 그렇지 않으면 값 2 반환<br /> </td> 
    <td> Iif(&lt;조건&gt;, &lt;값 1&gt;, &lt;값 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -964,8 +964,8 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
-   <td> 문자열 1이 비어 있으면 값 2 반환, 그렇지 않으면 값 3<br /> 반환 </td> 
-   <td> IsEmptyString(&lt;값 1&gt;, &lt;값 2&gt;, &lt;값 3&gt;)<br /> </td>  
+   <td> 문자열 1이 비어 있으면 값 2 반환, 그렇지 않으면 값 3 반환<br /> </td> 
+   <td> IsEmptyString(&lt;value&gt;, &lt;value&gt;, &lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
@@ -989,7 +989,7 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 표현식이 true면 값 1 반환 그렇지 않으면 값 2 반환(case 함수의 매개 변수로만 사용할 수 있음)<br /> </td> 
+   <td> 표현식이 true면 값 1 반환 그렇지 않으면 값 2를 반환합니다(case 함수의 매개 변수로만 사용할 수 있음).<br /> </td> 
    <td> When(&lt;조건&gt;, &lt;값 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
