@@ -80,15 +80,14 @@ Adobe Campaign을 설치하면 부팅 시퀀스 동안 **nlserver** 서비스가
    >* 긴급한 경우 **-immediate** 옵션을 사용하여 프로세스를 즉시 중지합니다(Unix 명령 **kill -9**&#x200B;에 해당).
    >* **-noconsole** 옵션을 사용하여 실행된 모듈이 콘솔에 아무 것도 표시되지 않도록 합니다. 해당 로그는 **syslogd** 모듈을 통해 디스크에 기록됩니다.
    >* 프로세스 작업에 대한 추가 정보를 표시하려면 **-verbose** 옵션을 사용합니다.
-
-      >
-      >   예제:
-      >
-      >   **nlserver 다시 시작 웹 -verbose**
-      >
-      >   **nlserver 시작 mta@myinstance -verbose**
-      >
-      >   이 옵션은 추가 로그를 추가합니다. 로그를 오버로드하는 것을 방지하기 위해 원하는 정보를 찾은 경우 **-verbose** 옵션 없이 프로세스를 다시 시작하는 것이 좋습니다.
+   >
+   >   예제:
+   >
+   >   **nlserver 다시 시작 웹 -verbose**
+   >
+   >   **nlserver 시작 mta@myinstance -verbose**
+   >
+   >   이 옵션은 추가 로그를 추가합니다. 로그를 오버로드하는 것을 방지하기 위해 원하는 정보를 찾은 경우 **-verbose** 옵션 없이 프로세스를 다시 시작하는 것이 좋습니다.
 
 
 * 모든 Adobe Campaign 프로세스를 시작합니다(**nlserver6** 서비스 시작에 해당):
