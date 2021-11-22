@@ -19,11 +19,11 @@ ht-degree: 4%
 
 시스템이 프로덕션에 들어갈 때 다음과 같은 오류 메시지가 (특히 게재 로그에) 표시될 수 있습니다.
 
-*파일 &#39;/tmp/tmp0000.tmp&#39;의 이름을 /usr/local/neolane/nl6/bin/..//var/XXX/mta/86510470.xml 로 바꿀 수 없습니다.(errno=18, 잘못된 교차 장치 링크) (iRc=-52)*
+*&#39;/tmp/tmp0000.tmp&#39; 파일의 이름을 /usr/local/neolane/nl6/bin/..//var/XXX/mta/86510470.xml 로 바꿀 수 없습니다.(errno=18, 잘못된 교차 장치 링크) (iRc=-52)*
 
 원인은 다음과 같습니다.
 
-Adobe Campaign은 **/tmp** 아래에 임시 파일을 생성한 다음 이름을 변경하여 **/usr/local/neolane/nl6/var**&#x200B;로 이동합니다. 이 오류는 두 폴더(**/tmp** 및 **/usr/local/neolane/nl6/var**)가 모두 서로 다른 장치에 해당하는 경우 발생합니다. 이 링크는 사실상 **/var/nl6**&#x200B;에 대한 심볼 링크입니다. 확인에는 **df** 명령이 사용됩니다.
+Adobe Campaign은 **/tmp**&#x200B;로 이동한 다음 이름을 로 변경합니다. **/usr/local/neolane/nl6/var**. 이 오류는 두 폴더(**/tmp** 및 **/usr/local/neolane/nl6/var**&#x200B;즉, **/var/nl6**)은 서로 다른 장치에 해당합니다. 다음 **df** 확인에는 명령이 사용됩니다.
 
 이 문제를 해결하려면 임시 파일을 대상과 동일한 장치에서 생성해야 합니다.
 

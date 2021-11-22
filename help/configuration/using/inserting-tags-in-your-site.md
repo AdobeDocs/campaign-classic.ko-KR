@@ -19,7 +19,7 @@ ht-degree: 5%
 
 ## 단순 방법 {#simple-method}
 
-이 메서드는 추적하려는 웹 페이지의 HTML 소스 코드에 **`<img>`** HTML 태그를 삽입하여 리디렉션 서버로 HTTP 호출을 전송하는 것입니다.
+이 메서드는 리디렉션 서버에 **`<img>`** 추적할 웹 페이지의 HTML 소스 코드에 있는 HTML 태그입니다.
 
 >[!IMPORTANT]
 >
@@ -128,7 +128,7 @@ ht-degree: 5%
 
 리디렉션 서버로 전송된 정보를 제어하려는 경우 가장 안정적인 방법은 페이지 생성 언어를 사용하여 직접 HTTP 쿼리를 동기적으로 수행하는 것입니다.
 
-구성하는 URL은 [웹 추적 태그에 정의된 구문 규칙을 준수해야 합니다. 정의](../../configuration/using/web-tracking-tag--definition.md).
+구성하는 URL은 [웹 추적 태그: 정의](../../configuration/using/web-tracking-tag--definition.md).
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 

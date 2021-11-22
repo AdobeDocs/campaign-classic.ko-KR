@@ -20,8 +20,8 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >일부 기본 제공 스키마는 확장하지 않아야 합니다. 주로 다음 설정이 정의된 설정입니다.\
->**dataSource=&quot;file&quot;**  및  **mappingType=&quot;xmlFile&quot;**.\
->다음 스키마를 확장하면 안 됩니다. **xtk:entityBackupNew**, **xtk:entityBackupOriginal**, **xtk:entityOriginal**, **xtk:form**, **xtk:srcSchema**, **ncm:publishing**, &lt;a:nl:모니터링&#x200B;**달력**, **nms:remoteTracking**, **nms:userAgentRules**, **xtk:builder**, **xtk:connections**, **xtk:dbInit**, **** &lt;xtk6> 목록&#x200B;**7/>,** xtk:fusion **,** xtk: jst **,** xtk:navtree **,** xtk:queryDef **,** xtk:resourceMenu **,** xtk:schema **,** xtk:scriptContext **, &lt;a444**/>, **xtk:sqlSchema**, **xtk:strings**.****
+>**dataSource=&quot;file&quot;** 및 **mappingType=&quot;xmlFile&quot;**.\
+>다음 스키마를 확장하면 안 됩니다. **xtk:entityBackupNew**, **xtk:entityBackupOriginal**, **xtk:entityOriginal**, **xtk:form**, **xtk:srcSchema**, **ncm:게시**, **nl:모니터링**, **nms:달력**, **nms:remoteTracking**, **nms:userAgentRules**, **xtk:builder**, **xtk:연결**, **xtk:dbInit**, **xtk:funcList**, **xtk:fusion**, **xtk: jst**, **xtk:navtree**, **xtk:queryDef**, **xtk:resourceMenu**, **xtk:스키마**, **xtk:scriptContext**, **xtk:session**, **xtk:sqlSchema**, **xtk:문자열**.
 >이 목록은 완전하지 않다.
 
 기존 스키마를 확장하는 방법에는 두 가지가 있습니다.
@@ -29,7 +29,7 @@ ht-degree: 5%
 1. 소스 스키마를 직접 수정합니다.
 1. 이름이 같지만 네임스페이스가 다른 다른 스키마를 만드는 중 원본 스키마를 수정할 필요 없이 테이블을 확장할 수 있는 이점이 있습니다.
 
-   스키마의 루트 요소에는 확장될 스키마 이름을 해당 값으로 갖는 **extendedSchema** 특성이 포함되어야 합니다.
+   스키마의 루트 요소에는 **extendedSchema** 확장할 스키마의 이름을 해당 값으로 사용하는 속성.
 
    확장 스키마에 자체 스키마가 없습니다. 소스 스키마에서 생성된 스키마는 확장 스키마의 필드로 채워집니다.
 
@@ -37,7 +37,7 @@ ht-degree: 5%
    >
    >애플리케이션의 기본 제공 스키마를 수정할 수 없지만 스키마 확장 메커니즘은 수정할 수 있습니다. 그렇지 않으면 나중에 애플리케이션을 업그레이드할 때 수정된 스키마가 업데이트되지 않습니다. 이로 인해 Adobe Campaign을 사용할 때 잘못된 기능이 발생할 수 있습니다.
 
-   **예**: nms: **recipientschema** 의 확장.
+   **예**: 확장 **nms:recipient** 스키마.
 
    ```
    <srcSchema extendedSchema="nms:recipient" name="recipient" namespace="cus">
@@ -47,7 +47,7 @@ ht-degree: 5%
    </srcSchema>
    ```
 
-   **nms:recipient** 확장 스키마는 확장 스키마에 채워진 필드로 채워집니다.
+   다음 **nms:recipient** 확장 스키마는 확장 스키마에 채워진 필드로 채워집니다.
 
    ```
    <schema dependingSchemas="cus:recipient" name="recipient" namespace="nms">
@@ -57,9 +57,9 @@ ht-degree: 5%
    </schema>
    ```
 
-   스키마의 루트 요소에 대한 **dependentSchema** 속성은 확장 스키마에 대한 종속성을 참조합니다.
+   다음 **dependsSchema** 스키마의 루트 요소에 대한 속성은 확장 스키마에 대한 종속성을 참조합니다.
 
-   필드의 **consentTo** 특성이 선언된 스키마에 입력됩니다.
+   다음 **containsTo** 필드의 특성이 선언된 스키마에 입력됩니다.
 
 >[!IMPORTANT]
 >

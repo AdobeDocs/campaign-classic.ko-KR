@@ -22,7 +22,7 @@ ht-degree: 5%
 권장 사항에 항상 카테고리를 포함하려면 다음 단계를 적용합니다.
 
 1. 탐색기를 열고 트리 구조에서 오퍼 카탈로그를 클릭합니다.
-1. **[!UICONTROL Eligibility]** 탭을 클릭하고 **[!UICONTROL Always include this category in the recommendations]** 상자에 확인 표시를 합니다.
-1. **[!UICONTROL Save]** 을 클릭하여 완료하고 승인합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Eligibility]** 탭하고 확인 표시 **[!UICONTROL Always include this category in the recommendations]** 상자.
+1. 을 클릭하여 완료 및 승인 **[!UICONTROL Save]**.
 
    ![](assets/offer_cat_default_001.png)

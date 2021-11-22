@@ -21,11 +21,11 @@ ht-degree: 14%
 
 워크플로우 활동은 카테고리별로 그룹화됩니다. 동시에 네 개의 탭을 사용할 수 있습니다.
 
-캠페인 워크플로우에서 **[!UICONTROL Events]** 탭은 **[!UICONTROL Deliveries]** 탭으로 대체됩니다. 이 탭의 활동은 [작업 활동](about-action-activities.md) 섹션에 자세히 설명되어 있습니다.
+캠페인 워크플로우에서 **[!UICONTROL Events]** 탭이 **[!UICONTROL Deliveries]** 탭. 이 탭의 활동은 [작업 활동](about-action-activities.md) 섹션을 참조하십시오.
 
 ![](assets/wf-activity-tabs.png)
 
-자세한 내용:
+자세히 표시:
 
 * [타겟팅 활동 기본 정보](about-targeting-activities.md)
 * [워크플로우 실행](starting-a-workflow.md)

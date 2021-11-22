@@ -21,8 +21,8 @@ Adobe Campaign과 함께 제공되는 기본 수신자 테이블과 마찬가지
 
 이러한 필터는 대상 선택 창에서 수신자의 세그먼트와 동일한 기능(매개 변수 입력 양식, 폴더 등 사용)을 사용하여 사용할 수 있습니다.
 
-1. **[!UICONTROL Administration > Configuration > Predefined filters]** 노드로 이동합니다.
+1. 로 이동합니다. **[!UICONTROL Administration > Configuration > Predefined filters]** 노드 아래에 있어야 합니다.
 1. 새 필터를 만듭니다.
-1. 필터의 **[!UICONTROL Label]**&#x200B;을 입력한 다음 **[!UICONTROL Document type]** 필드에서 외부 수신자 테이블과 일치하는 스키마를 선택합니다.
-1. 스키마의 필드를 기반으로 **[!UICONTROL filtering conditions]**&#x200B;을(를) 만듭니다.
+1. 을(를) 입력합니다. **[!UICONTROL Label]** 필터에서 외부 수신자 테이블과 일치하는 스키마를 선택합니다 **[!UICONTROL Document type]** 필드.
+1. 만들기 **[!UICONTROL filtering conditions]** 스키마 필드를 기반으로 합니다.
 1. 필터를 저장합니다.

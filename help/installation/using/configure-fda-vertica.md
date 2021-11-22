@@ -17,10 +17,10 @@ ht-degree: 4%
 
 ![](../../assets/v7-only.svg)
 
-Campaign **Federated Data Access** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 [!DNL Vertica]에 대한 액세스를 구성하십시오.
+캠페인 사용 **페더레이션 데이터 액세스** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 액세스 권한을 구성하십시오 [!DNL Vertica].
 
-1. [CentOS](#vertica-centos), [Windows](#vertica-windows) 또는 [Debian](#vertica-debian)에서 [!DNL Vertica] 구성
-1. Campaign에서 [!DNL Vertica] [외부 계정](#vertica-external)을 구성합니다
+1. 구성 [!DNL Vertica] on [CentOS](#vertica-centos), [Windows](#vertica-windows) 또는 [데비안](#vertica-debian)
+1. 구성 [!DNL Vertica] [외부 계정](#vertica-external) in Campaign
 
 
 >[!NOTE]
@@ -31,9 +31,9 @@ Campaign **Federated Data Access** (FDA) 옵션을 사용하여 외부 데이터
 
 ## Vertica on CentOS {#vertica-centos}
 
-CentOS에서 [!DNL Vertica]을 구성하려면 아래 단계를 수행하십시오.
+구성하려면 [!DNL Vertica] centOS에서 아래 절차를 따르십시오.
 
-1. [!DNL Vertica]용 ODBC 드라이버를 다운로드합니다. [여기](https://www.vertica.com/download/vertica/client-drivers/) 를 클릭하고 최신 Linux RPM을 다운로드합니다.
+1. ODBC 드라이버 다운로드 [!DNL Vertica]. [여기를 클릭하십시오.](https://www.vertica.com/download/vertica/client-drivers/) 최신 Linux RPM을 다운로드합니다.
 
 1. 그러면 다음 명령을 사용하여 unixODBC를 설치해야 합니다.
 
@@ -42,7 +42,7 @@ CentOS에서 [!DNL Vertica]을 구성하려면 아래 단계를 수행하십시�
    yum install unixODBC.x86_64
    ```
 
-1. 이전에 [!DNL Vertica] 서버를 설치한 경우에는 ODBC 드라이버가 이미 설치됩니다. 이 경우 다음과 같이 드라이브를 업데이트합니다.
+1. 이전에 를 설치한 경우 [!DNL Vertica] 서버, ODBC 드라이버가 이미 설치됩니다. 이 경우 다음과 같이 드라이브를 업데이트합니다.
 
    ```
    #Switch to root
@@ -81,19 +81,19 @@ CentOS에서 [!DNL Vertica]을 구성하려면 아래 단계를 수행하십시�
    rm vertica-client-x.x.x-x.x86_64.rpm
    ```
 
-1. 그런 다음 Adobe Campaign에서 [!DNL Vertica] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#vertica-external)을 참조하십시오.
+1. 그런 다음 Adobe Campaign에서 [!DNL Vertica] 외부 계정. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#vertica-external).
 
 ## Windows의 Vertica {#vertica-windows}
 
-1. Windows용 [ODBC 드라이버를 다운로드합니다](https://www.vertica.com/download/vertica/client-drivers/). Windows용 드라이버를 설치하려면 .NET Framework 3.5를 활성화해야 합니다. 그렇지 않으면 설치 마법사에서 자동으로 이 드라이버를 활성화하고 다운로드합니다.
+1. 다운로드 [Windows용 ODBC 드라이버](https://www.vertica.com/download/vertica/client-drivers/). Windows용 드라이버를 설치하려면 .NET Framework 3.5를 활성화해야 합니다. 그렇지 않으면 설치 마법사에서 자동으로 이 드라이버를 활성화하고 다운로드합니다.
 
 1. Windows에서 ODBC 드라이버를 구성합니다. 자세한 정보는 이 [페이지](https://www.vertica.com/docs/9.2.x/HTML/Content/Authoring/ConnectingToVertica/ClientODBC/SettingUpADSN.htm)를 참조하십시오
 
-1. 그런 다음 Adobe Campaign에서 [!DNL Vertica] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#vertical-external)을 참조하십시오.
+1. 그런 다음 Adobe Campaign에서 [!DNL Vertica] 외부 계정. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#vertical-external).
 
 ## 베르티카 온 데비안 {#vertica-debian}
 
-1. [!DNL Vertica]용 ODBC 드라이버를 다운로드합니다. [다운로드 ](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) 재시작 을 클릭합니다.
+1. ODBC 드라이버 다운로드 [!DNL Vertica]. [여기를 클릭하십시오.](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) 다운로드를 시작합니다.
 
 1. 그러면 다음 명령을 사용하여 unixODBC를 설치해야 합니다.
 
@@ -101,7 +101,7 @@ CentOS에서 [!DNL Vertica]을 구성하려면 아래 단계를 수행하십시�
    apt-get install unixODBC
    ```
 
-1. 이전에 [!DNL Vertica] 서버를 설치한 경우에는 ODBC 드라이버가 이미 설치됩니다. 이 경우 다음과 같이 드라이브를 업데이트합니다.
+1. 이전에 를 설치한 경우 [!DNL Vertica] 서버, ODBC 드라이버가 이미 설치됩니다. 이 경우 다음과 같이 드라이브를 업데이트합니다.
 
    ```
    #Switch to root
@@ -143,23 +143,23 @@ CentOS에서 [!DNL Vertica]을 구성하려면 아래 단계를 수행하십시�
    Port = 5433
    ```
 
-1. 그런 다음 Adobe Campaign에서 [!DNL Vertica] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#vertica-external)을 참조하십시오.
+1. 그런 다음 Adobe Campaign에서 [!DNL Vertica] 외부 계정. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#vertica-external).
 
 ## Vertica 외부 계정 {#vertica-external}
 
-Campaign 인스턴스를 [!DNL Vertica] 외부 데이터베이스에 연결하려면 [!DNL Vertica] 외부 계정을 만들어야 합니다.
+을(를) 만들어야 합니다 [!DNL Vertica] 캠페인 인스턴스를 [!DNL Vertica] 외부 데이터베이스.
 
-1. Campaign **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** &#39; **[!UICONTROL Platform]**&#39; **[!UICONTROL External accounts]**&#x200B;을(를) 클릭합니다.
+1. Campaign에서 **[!UICONTROL Explorer]**&#x200B;를 클릭합니다. **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
 1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
-1. 외부 계정의 **[!UICONTROL Type]**(으)로 **[!UICONTROL External database]**&#x200B;을(를) 선택합니다.
+1. 선택 **[!UICONTROL External database]** 외부 계정 **[!UICONTROL Type]**.
 
-1. **[!UICONTROL Vertica]** 외부 계정을 구성합니다. 다음을 지정해야 합니다.
+1. 구성 **[!UICONTROL Vertica]** 외부 계정입니다. 다음을 지정해야 합니다.
 
    * **[!UICONTROL Type]**: [!DNL Vertica Analytics]
 
-   * **[!UICONTROL Server]**: 서버의  [!DNL Vertica] URL
+   * **[!UICONTROL Server]**: 의 URL [!DNL Vertica] server
 
    * **[!UICONTROL Account]**: 사용자의 이름
 

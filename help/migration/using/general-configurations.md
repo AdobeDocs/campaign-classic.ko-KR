@@ -21,8 +21,8 @@ ht-degree: 0%
 
 또한
 
-* v5.11에서 마이그레이션하는 경우 v5.11의 [특정 구성](../../migration/using/specific-configurations-in-v5-11.md) 섹션에 자세히 설명된 구성도 완료해야 합니다.
-* v6.02에서 마이그레이션하는 경우 v6.02](../../migration/using/specific-configurations-in-v6-02.md) 섹션의 [특정 구성에 자세히 설명된 구성도 완료해야 합니다.
+* v5.11에서 마이그레이션하는 경우 [v5.11의 특정 구성](../../migration/using/specific-configurations-in-v5-11.md) 섹션을 참조하십시오.
+* v6.02에서 마이그레이션하는 경우 [v6.02의 특정 구성](../../migration/using/specific-configurations-in-v6-02.md) 섹션을 참조하십시오.
 
 ## 시간대 {#time-zones}
 
@@ -30,21 +30,21 @@ ht-degree: 0%
 
 v6.02에서 &quot;다중 시간대&quot; 모드는 PostgreSQL 데이터베이스 엔진에만 사용할 수 있었습니다. 이제 어떤 유형의 데이터베이스 엔진을 사용하든 상관없이 제공됩니다. 기본 시간대를 &quot;다중 시간대&quot; 기준으로 변환하는 것이 좋습니다.
 
-TIMESTAMP WITH TIMEZONE 모드를 사용하려면 **-userTimestamptz:1** 옵션을 업그레이드 후 명령줄에 추가해야 합니다.
+TIMESTAMP WITH TIMEZONE 모드를 사용하려면 **-userTimestamptz:1** 옵션을 선택합니다.
 
 >[!IMPORTANT]
 >
->**-usetimestamptz:1** 매개 변수를 호환되지 않는 데이터베이스 엔진과 함께 사용하면 데이터베이스가 손상되며 데이터베이스 백업을 복원한 다음 위의 명령을 다시 실행해야 합니다.
+>만약 **-usetimestamptz:1** 매개 변수가 호환되지 않는 데이터베이스 엔진과 함께 사용되면 데이터베이스가 손상되고 데이터베이스 백업을 복원한 다음 위의 명령을 다시 실행해야 합니다.
 
 >[!NOTE]
 >
->콘솔(**[!UICONTROL Administration > Platform > Options > WdbcTimeZone]** 노드)을 통해 마이그레이션 후 시간대를 변경할 수 있습니다.
+>콘솔을 통해 마이그레이션 후 시간대를 변경할 수 있습니다(**[!UICONTROL Administration > Platform > Options > WdbcTimeZone]** 노드)에 속해 있어야 합니다.
 >
->시간대 관리에 대한 자세한 내용은 [이 섹션](../../installation/using/time-zone-management.md)을 참조하십시오.
+>시간대 관리에 대한 자세한 내용은 [이 섹션](../../installation/using/time-zone-management.md).
 
 ### Oracle {#oracle}
 
-업그레이드 후 **ORA 01805** 오류가 발생하면 애플리케이션 서버와 데이터베이스 서버 사이의 Oracle 시간대 파일이 동기화되지 않은 것입니다. 다시 동기화하려면 다음 단계를 수행합니다.
+만약 **ORA 01805** 업그레이드 후 오류가 발생하면 응용 프로그램 서버와 데이터베이스 서버 사이의 Oracle 시간대 파일이 동기화되지 않습니다. 다시 동기화하려면 다음 단계를 수행합니다.
 
 1. 사용된 시간대 파일을 식별하려면 다음 명령을 실행합니다.
 
@@ -52,11 +52,11 @@ TIMESTAMP WITH TIMEZONE 모드를 사용하려면 **-userTimestamptz:1** 옵션�
    select * from v$timezone_file
    ```
 
-   시간대 파일은 일반적으로 **ORACLE_HOME/oracore/zoneinfo/** 폴더에 있습니다.
+   시간대 파일은 일반적으로 **ORACLE_HOME/oracore/zoneinfo/** 폴더를 입력합니다.
 
 1. 표준 시간대 파일이 두 서버 모두에서 동일한지 확인합니다.
 
-자세한 내용은 다음을 참조하십시오. [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004)
+자세한 내용은 다음을 참조하십시오. [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004).
 
 클라이언트와 서버 간에 시간대가 잘못 정렬되면 일부 지연이 발생할 수 있습니다. 클라이언트와 서버 측에서 동일한 버전의 Oracle 라이브러리를 사용하는 것이 좋습니다. 두 시간대는 동일해야 합니다.
 
@@ -68,7 +68,7 @@ TIMESTAMP WITH TIMEZONE 모드를 사용하려면 **-userTimestamptz:1** 옵션�
    genezi -v
    ```
 
-   genezi는 **$ORACLE_HOME/bin** 저장소에 있는 바이너리입니다.
+   genezi는 **$ORACLE_HOME/bin** 저장소.
 
 1. 다음 명령을 실행하여 서버 측에서 시간대 파일의 버전을 확인합니다.
 
@@ -76,7 +76,7 @@ TIMESTAMP WITH TIMEZONE 모드를 사용하려면 **-userTimestamptz:1** 옵션�
    select * from v$timezone_file
    ```
 
-1. 클라이언트 측에서 시간대 파일을 변경하려면 **ORA_TZFILE** 환경 변수를 사용하십시오.
+1. 클라이언트 측에서 시간대 파일을 변경하려면 **ORA_TZFILE** 환경 변수 입니다.
 
 ## 보안 {#security}
 
@@ -86,17 +86,17 @@ TIMESTAMP WITH TIMEZONE 모드를 사용하려면 **-userTimestamptz:1** 옵션�
 >
 >보안상의 이유로 기본적으로 Adobe Campaign 플랫폼에 더 이상 액세스할 수 없습니다. 보안 영역을 구성해야 하므로 운영자 IP 주소를 수집합니다.
 
-Adobe Campaign v7에는 **보안 영역**&#x200B;의 개념이 포함되어 있습니다. 인스턴스에 로그온하려면 각 사용자가 영역에 연결되어 있어야 하며 사용자의 IP 주소가 보안 영역에 정의된 주소 또는 주소 범위에 포함되어야 합니다. 보안 영역 구성은 Adobe Campaign 서버 구성 파일에서 수행할 수 있습니다. 사용자가 연결된 보안 영역을 콘솔에 정의해야 합니다(**[!UICONTROL Administration > Access management > Operators]**).
+Adobe Campaign v7에는 **보안 영역**. 인스턴스에 로그온하려면 각 사용자가 영역에 연결되어 있어야 하며 사용자의 IP 주소가 보안 영역에 정의된 주소 또는 주소 범위에 포함되어야 합니다. 보안 영역 구성은 Adobe Campaign 서버 구성 파일에서 수행할 수 있습니다. 사용자가 연결된 보안 영역을 콘솔에서 정의해야 합니다(**[!UICONTROL Administration > Access management > Operators]**).
 
-**마이그레이션** 전에 네트워크 관리자에게 마이그레이션 후 활성화할 보안 영역을 정의할 수 있도록 도움을 요청하십시오.
+**마이그레이션 전**&#x200B;마이그레이션 후 활성화할 보안 영역을 정의하는 데 도움이 되도록 네트워크 관리자에게 문의하십시오.
 
-**업그레이드 후** (서버를 다시 시작하기 전에) 보안 영역을 구성해야 합니다.
+**업그레이드 후** 서버를 다시 시작하기 전에 보안 영역을 구성해야 합니다.
 
-보안 영역 구성은 [이 섹션](../../installation/using/security-zones.md)에 있습니다.
+보안 영역 구성은 [이 섹션](../../installation/using/security-zones.md).
 
 ### 사용자 암호 {#user-passwords}
 
-v7에서 **내부** 및 **admin** 연산자 연결은 암호로 보호해야 합니다. 마이그레이션&#x200B;**전에 이러한 계정 및 모든 운영자 계정**&#x200B;에 암호를 할당하는 것이 좋습니다. **internal**&#x200B;에 대한 암호를 지정하지 않은 경우 연결할 수 없습니다. **internal**&#x200B;에 암호를 할당하려면 다음 명령을 입력합니다.
+v7에서, **내부** 및 **관리** 연산자 연결은 암호로 보호해야 합니다. 이러한 계정 및 모든 운영자 계정에 암호를 지정하는 것이 좋습니다. **마이그레이션 전**. 암호를 지정하지 않은 경우 **내부**&#x200B;연결할 수 없습니다. 암호를 **내부**&#x200B;를 입력하여 다음 명령을 입력합니다.
 
 ```
 nlserver config -internalpassword
@@ -104,19 +104,19 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->**내부** 암호는 모든 추적 서버에 대해 동일해야 합니다. 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier) 및 [이 섹션](../../platform/using/access-management.md)을 참조하십시오.
+>다음 **내부** 암호는 모든 추적 서버에 대해 동일해야 합니다. 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier) 및 [이 섹션](../../platform/using/access-management.md).
 
 ### v7의 새로운 기능 {#new-features-in-v7}
 
-* 권한이 없는 사용자는 더 이상 Adobe Campaign에 연결할 수 없습니다. 예를 들어 **connect**&#x200B;라는 권한을 만들어 수동으로 해당 권한을 추가해야 합니다.
+* 권한이 없는 사용자는 더 이상 Adobe Campaign에 연결할 수 없습니다. 예를 들어 다음 권한을 수동으로 추가해야 합니다. **connect**.
 
    이 수정의 영향을 받는 사용자는 업그레이드 후 식별 및 나열됩니다.
 
 * 암호가 비어 있으면 추적이 더 이상 작동하지 않습니다. 이러한 경우 오류 메시지가 사용자에게 알리고 다시 구성할 것을 요청합니다.
-* 사용자 암호는 더 이상 **xtk:sessionInfo** 스키마에 저장되지 않습니다.
-* 이제 **xtk:builder:EvaluateJavaScript** 및 **xtk:builder:EvaluateJavaScriptTemplate** 함수를 사용하려면 관리 권한이 필요합니다.
+* 사용자 암호는 **xtk:sessionInfo** 스키마.
+* 이제 를 사용하려면 관리 권한이 필요합니다 **xtk:builder:EvaluateJavaScript** 및 **xtk:builder:EvaluateJavaScriptTemplate** 함수 위에 있어야 합니다.
 
-특정 기본 제공 스키마가 수정되었으며 이제 **admin** 권한이 있는 연산자에 대한 쓰기 액세스 권한만 사용하여 기본적으로 액세스할 수 있습니다.
+특정 기본 제공 스키마가 수정되었으며 이제 기본적으로 **관리** 권한:
 
 * ncm:게시
 * nl:모니터링
@@ -151,7 +151,7 @@ nlserver config -internalpassword
 
 ### Sessiontoken 매개 변수 {#sessiontoken-parameter}
 
-v5에서 **sessiontoken** 매개 변수가 두 클라이언트 측에서 작동했습니다(개요 유형 화면, 링크 편집기 등 목록). 및 서버측(웹 애플리케이션, 보고서, jsp, jssp 등)은 v7에서는 서버 측에서만 작동합니다. v5에서 전체 기능으로 돌아가려면 이 매개 변수를 사용하여 링크를 수정하고 연결 페이지를 통과해야 합니다.
+v5에서 **sessiontoken** 매개 변수가 두 클라이언트 측에서 모두 작동했습니다(개요 유형 화면, 링크 편집기 등). 및 서버측(웹 애플리케이션, 보고서, jsp, jssp 등)은 v7에서는 서버 측에서만 작동합니다. v5에서 전체 기능으로 돌아가려면 이 매개 변수를 사용하여 링크를 수정하고 연결 페이지를 통과해야 합니다.
 
 링크 예:
 
@@ -167,11 +167,11 @@ v5에서 **sessiontoken** 매개 변수가 두 클라이언트 측에서 작동�
 
 >[!IMPORTANT]
 >
->신뢰할 수 있는 IP 마스크와 연결된 연산자를 사용하는 경우, 최소 권한이 있고 **sessionTokenOnly** 모드의 보안 영역에 있는지 확인하십시오.
+>신뢰할 수 있는 IP 마스크와 연결된 연산자를 사용하는 경우, 최소 권한이 있는지, 그리고 이 마스크가 의 보안 영역에 있는지 확인하십시오 **sessionTokenOnly** 모드.
 
 ### SQL 함수 {#sql-functions}
 
-알 수 없는 SQL 함수 호출이 더 이상 서버에 자연스럽게 전송되지 않습니다. 현재 모든 SQL 함수를 **xtk:funcList** 스키마에 추가해야 합니다(자세한 내용은 [이 섹션](../../configuration/using/adding-additional-sql-functions.md) 참조). 마이그레이션할 때 업그레이드 후 이전 선언되지 않은 SQL 함수와 호환성을 유지할 수 있는 옵션이 추가됩니다. 이러한 함수를 계속 사용하려면 **XtkPassUnknownSQLFunctionsToRDBMS** 옵션이 실제로 **[!UICONTROL Administration > Platform > Options]** 노드 수준에서 정의되었는지 확인합니다.
+알 수 없는 SQL 함수 호출이 더 이상 서버에 자연스럽게 전송되지 않습니다. 현재 모든 SQL 함수를 **xtk:funcList** 스키마(자세한 내용은 [이 섹션](../../configuration/using/adding-additional-sql-functions.md)). 마이그레이션할 때 업그레이드 후 이전 선언되지 않은 SQL 함수와 호환성을 유지할 수 있는 옵션이 추가됩니다. 이러한 함수를 계속 사용하려면 **XtkPassUnknownSQLFfunctionsToRDBMS** 옵션은 실제로 **[!UICONTROL Administration > Platform > Options]** 노드 수준입니다.
 
 >[!IMPORTANT]
 >
@@ -179,9 +179,9 @@ v5에서 **sessiontoken** 매개 변수가 두 클라이언트 측에서 작동�
 
 ### JSSP {#jssp}
 
-예를 들어 웹 앱에서 보안 영역에서 수행된 구성에 관계없이 HTTP 프로토콜(HTTPS 아님)을 통해 특정 페이지에 대한 액세스를 승인하려면 해당 릴레이 규칙에 **httpAllowed=&quot;true&quot;** 매개 변수를 지정해야 합니다.
+예를 들어 웹 앱에서 HTTPS가 아닌 HTTP 프로토콜(HTTP)을 통해 특정 페이지에 대한 액세스를 승인하려면 보안 영역에서 수행한 구성에 관계없이 을(를) 지정해야 합니다 **httpAllowed=&quot;true&quot;** 해당 릴레이 규칙의 매개 변수입니다.
 
-익명 JSSP를 사용하는 경우 JSSP(**[!UICONTROL serverConf.xml]** 파일)에 대한 릴레이 규칙에 **httpAllowed=&quot;true&quot;** 매개 변수를 추가해야 합니다.
+익명 JSSP를 사용하는 경우 **httpAllowed=&quot;true&quot;** JSSP에 대한 릴레이 규칙의 매개 변수(**[!UICONTROL serverConf.xml]** 파일):
 
 예제:
 
@@ -196,9 +196,9 @@ v5에서 **sessiontoken** 매개 변수가 두 클라이언트 측에서 작동�
 
 Adobe Campaign v7에는 최신 JavaScript 인터프리터가 통합됩니다. 그러나 이 업데이트로 인해 특정 스크립트가 작동하지 않을 수 있습니다. 이전 엔진이 보다 더 유연했기 때문에, 어떤 구문들은 더 이상 새로운 버전의 엔진과 함께 작동하지 않을 것이다.
 
-이제 **[!UICONTROL myObject.@attribute]** 구문은 XML 개체에만 유효합니다. 이 구문은 게재 및 컨텐츠 관리를 개인화하는 데 사용할 수 있습니다. 비 XML 개체에서 이 유형의 구문을 사용한 경우 개인화 기능이 더 이상 작동하지 않습니다.
+다음 **[!UICONTROL myObject.@attribute]** 구문은 이제 XML 개체에만 사용할 수 있습니다. 이 구문은 게재 및 컨텐츠 관리를 개인화하는 데 사용할 수 있습니다. 비 XML 개체에서 이 유형의 구문을 사용한 경우 개인화 기능이 더 이상 작동하지 않습니다.
 
-다른 모든 개체 유형의 경우 구문은 이제 **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**&#x200B;입니다. 예를 들어, 다음 구문을 사용한 비 XML 객체입니다. **[!UICONTROL employee.@sn]** 는 이제 다음 구문을 사용해야 합니다. **[!UICONTROL employee`[`&quot;sn&quot;`]`]**
+다른 모든 개체 유형의 경우 이제 구문은 **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**. 예를 들어, 다음 구문을 사용한 비 XML 객체입니다. **[!UICONTROL employee.@sn]**&#x200B;이제 를 다음 구문을 사용해야 합니다. **[!UICONTROL employee`[`&quot;sn&quot;`]`]**.
 
 * 이전 구문:
 
@@ -248,21 +248,21 @@ XML 개체에서 값을 변경하려면 먼저 XML 노드를 추가하기 전에
 
 인스턴스 보안을 강화하기 위해 SQLData 기반 구문을 대체하기 위해 Adobe Campaign v7에 새로운 구문이 도입되었습니다. 이 구문과 함께 이러한 코드 요소를 사용하는 경우 이를 수정해야 합니다. 관련 주요 요소는 다음과 같습니다.
 
-* 하위 쿼리별 필터링: 새 구문은 `<subQuery>` 요소를 기반으로 하위 쿼리를 정의합니다
+* 하위 쿼리별 필터링: 새 구문은 `<subQuery>`  하위 쿼리를 정의하는 요소
 * 합계: 새 구문은 &quot;aggregate function(collection)&quot;입니다.
-* 가입별 필터링: 새 구문은 `[schemaName:alias:xPath]`입니다.
+* 가입별 필터링: 새 구문은 다음과 같습니다. `[schemaName:alias:xPath]`
 
 queryDef(xtk:queryDef) 스키마가 수정되었습니다.
 
-* 새 `<subQuery>` 요소를 사용하여 SQLData에 포함된 SELECT를 바꿀 수 있습니다
+* 새로운 `<subQuery>`  요소는 SQLData에 포함된 SELECT를 대체하는 데 사용할 수 있습니다
 * @setOperator 속성에 대해 &quot;IN&quot; 및 &quot;NOT IN&quot; 이라는 두 개의 새 값이 도입되었습니다
-* `<node>` 요소의 하위 요소인 새 `<where>` 요소: 이렇게 하면 SELECT에서 &quot;하위 선택&quot;을 수행할 수 있습니다.
+* 새로운 `<where>`  요소의 하위 요소인 `<node>` 요소: 이렇게 하면 SELECT에서 &quot;하위 선택&quot;을 수행할 수 있습니다.
 
 &quot;@expr&quot; 속성을 사용하면 SQLData가 있을 수 있습니다. 다음 용어를 검색할 수 있습니다. &quot;SQLData&quot;, &quot;aliasSqlTable&quot;, &quot;sql&quot;.
 
-Adobe Campaign v7 인스턴스는 기본적으로 안전합니다. 보안은 **[!UICONTROL serverConf.xml]** 파일에 있는 보안 영역의 정의 측면에서 제공됩니다. **allowSQLInjection** 특성은 SQL 구문 보안을 관리합니다.
+Adobe Campaign v7 인스턴스는 기본적으로 안전합니다. 보안은 **[!UICONTROL serverConf.xml]** 파일: a **allowSQLInjection** 특성은 SQL 구문 보안을 관리합니다.
 
-업그레이드 후 실행 중에 SQLData 오류가 발생하는 경우 코드를 다시 작성할 수 있도록 SQLData 기반 동기화를 일시적으로 허용하려면 이 속성을 수정해야 합니다. 이렇게 하려면 **serverConf.xml** 파일에서 다음 옵션을 변경해야 합니다.
+업그레이드 후 실행 중에 SQLData 오류가 발생하는 경우 코드를 다시 작성할 수 있도록 SQLData 기반 동기화를 일시적으로 허용하려면 이 속성을 수정해야 합니다. 이를 수행하려면 **serverConf.xml** 파일:
 
 ```
 allowSQLInjection="true"
@@ -274,7 +274,7 @@ allowSQLInjection="true"
 nlserver config -postupgrade -instance:<instance_name> -force
 ```
 
-보안 영역을 구성해야 합니다( [보안](#security) 참조). 다음 옵션을 변경하여 보안을 다시 활성화해야 합니다.
+보안 영역을 구성해야 합니다( [보안](#security)) 그런 다음 옵션을 변경하여 보안을 다시 활성화합니다.
 
 ```
 allowSQLInjection="false"
@@ -390,7 +390,7 @@ allowSQLInjection="false"
 
 **팁과 트릭**
 
-`<subQuery>` 요소에서 기본 `<queryDef>`의 &quot;field&quot; 필드를 참조합니다.   요소를 사용하려면 다음 구문을 사용하십시오. `[../@field]`
+다음 `<subQuery>` 요소, 기본 필드의 &quot;필드&quot; 필드를 참조할 수 있습니다 `<queryDef>`   요소를 사용하려면 다음 구문을 사용하십시오. `[../@field]`
 
 예제:
 
@@ -419,13 +419,13 @@ allowSQLInjection="false"
 
 마이그레이션은 업그레이드 후 수행되며 충돌이 보고서, 양식 또는 웹 애플리케이션에 표시될 수 있습니다. 콘솔에서 이러한 충돌을 해결할 수 있습니다.
 
-리소스 동기화 후 **postupgrade** 명령을 사용하여 동기화가 오류나 경고를 생성하는지 감지할 수 있습니다.
+리소스 동기화 후 **postupgrade** 명령을 사용하면 동기화가 오류나 경고를 생성하는지 감지할 수 있습니다.
 
 ### 동기화 결과 보기 {#view-the-synchronization-result}
 
 동기화 결과는 다음 두 가지 방법으로 볼 수 있습니다.
 
-* 명령줄 인터페이스에서 트리플 V자형 화살표 **>**&#x200B;에 의해 오류가 발생하고 동기화가 자동으로 중지됩니다. 경고는 이중 V자형 화살표 ****&#x200B;에 의해 구체화되며 동기화가 완료되면 해결되어야 합니다. 업그레이드 후 종료 시 명령 프롬프트에 요약이 표시됩니다. 예제:
+* 명령줄 인터페이스에서 3중 V자형 화살표에 의해 오류가 나타납니다 **>>>** 동기화가 자동으로 중지됩니다. 이중 V자형 화살표에 의해 경고가 나타납니다 **>>** 동기화가 완료되면 및 를 해결해야 합니다. 업그레이드 후 종료 시 명령 프롬프트에 요약이 표시됩니다. 예제:
 
    ```
    2013-04-09 07:48:39.749Z        00002E7A          1     info    log     =========Summary of the update==========
@@ -438,7 +438,7 @@ allowSQLInjection="false"
 
    경고에서 리소스 충돌이 발생할 경우 이를 해결하기 위해 운영자 주의가 필요합니다.
 
-* 업그레이드 후 **postupgrade_`<server version number>`_time`>`.log** 파일에 동기화 결과가 포함되어 있습니다. 기본적으로 다음 디렉토리에서 사용할 수 있습니다. **설치 디렉토리/var/`<instance>`postupgrade** 오류 및 경고는 **error** 및 **warning** 특성으로 표시됩니다.
+* 다음 **postupgrade_`<server version number>`업그레이드 후 시간(_T)`>`.log** 파일에 동기화 결과가 포함되어 있습니다. 기본적으로 다음 디렉토리에서 사용할 수 있습니다. **설치 디렉토리/var/`<instance>`postupgrade**. 오류 및 경고는 **오류** 및 **경고** 속성을 사용합니다.
 
 ### 충돌 해결 {#resolve-a-conflict}
 
@@ -446,7 +446,7 @@ allowSQLInjection="false"
 
 충돌을 해결하려면 다음 프로세스를 적용합니다.
 
-1. Adobe Campaign 트리 구조에서 커서를 **[!UICONTROL Administration > Configuration > Package management > Edit conflicts]** 위에 놓습니다.
+1. Adobe Campaign 트리 구조에서 커서를 위에 놓습니다 **[!UICONTROL Administration > Configuration > Package management > Edit conflicts]**.
 1. 목록에서 해결할 충돌을 선택합니다.
 
 갈등을 해결하는 방법에는 세 가지가 있습니다.
@@ -460,20 +460,20 @@ allowSQLInjection="false"
 
 충돌을 수동으로 해결하도록 선택한 경우 다음과 같이 진행하십시오.
 
-1. 창의 아래 섹션에서 **`_conflict_ string`**&#x200B;을 검색하여 충돌이 있는 엔티티를 찾습니다. 새 버전과 함께 설치된 엔터티에 **new** 인수가 포함되어 있습니다. 이전 버전과 일치하는 엔터티에 **cus** 인수가 포함되어 있습니다.
+1. 창의 아래 섹션에서 **`_conflict_ string`** 충돌하는 엔티티를 찾습니다. 새 버전과 함께 설치된 엔티티에는 **새** 인수입니다. 이전 버전과 일치하는 엔티티는 **cus** 변합니다.
 
    ![](assets/s_ncs_production_conflict002.png)
 
-1. 유지하지 않을 버전을 삭제합니다. 유지하고 있는 엔터티의 **`_conflict_argument_ string`**&#x200B;을 삭제합니다.
+1. 유지하지 않을 버전을 삭제합니다. 삭제 **`_conflict_argument_ string`** 보관 중인 엔터티입니다.
 
    ![](assets/s_ncs_production_conflict003.png)
 
-1. 해결할 충돌로 이동합니다. **[!UICONTROL Actions]** 아이콘을 클릭하고 **[!UICONTROL Declare as resolved]** 을 선택합니다.
+1. 해결할 충돌로 이동합니다. 을(를) 클릭합니다. **[!UICONTROL Actions]** 아이콘을 클릭하고 **[!UICONTROL Declare as resolved]**.
 1. 변경 사항을 저장합니다. 이제 충돌이 해결되었습니다.
 
 ## Tomcat {#tomcat}
 
-Adobe Campaign v7의 통합 Tomcat 서버가 버전을 변경했습니다. 따라서 설치 폴더(tomcat-6)도 변경되었습니다(tomcat 7). 업그레이드 후 경로가 업데이트된 폴더(**[!UICONTROL serverConf.xml]** 파일)에 링크되는지 확인합니다.
+Adobe Campaign v7의 통합 Tomcat 서버가 버전을 변경했습니다. 따라서 설치 폴더(tomcat-6)도 변경되었습니다(tomcat 7). 업그레이드 후 경로가 업데이트된 폴더(에서)에 링크되는지 확인합니다. **[!UICONTROL serverConf.xml]** 파일):
 
 ```
 $(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 
@@ -499,12 +499,12 @@ $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 
 ### 오퍼 콘텐츠 {#offer-content}
 
-v7에서 오퍼 컨텐츠가 이동되었습니다. v6.02에서 컨텐츠는 각 표현 스키마(**nms:emailOfferView**)에 있었습니다. v7에서 이제 컨텐츠가 오퍼 스키마에 있습니다. 따라서 업그레이드 후 컨텐츠가 인터페이스에 표시되지 않습니다. 업그레이드 후 오퍼 컨텐츠를 다시 만들거나 표현 스키마에서 오퍼 스키마로 컨텐츠를 자동으로 이동하는 스크립트를 개발해야 합니다.
+v7에서 오퍼 컨텐츠가 이동되었습니다. v6.02에서 컨텐츠는 각 표시 스키마(**nms:emailOfferView**). v7에서 이제 컨텐츠가 오퍼 스키마에 있습니다. 따라서 업그레이드 후 컨텐츠가 인터페이스에 표시되지 않습니다. 업그레이드 후 오퍼 컨텐츠를 다시 만들거나 표현 스키마에서 오퍼 스키마로 컨텐츠를 자동으로 이동하는 스크립트를 개발해야 합니다.
 
 >[!IMPORTANT]
 마이그레이션 후 구성된 오퍼를 사용하는 일부 게재를 전송해야 하는 경우에는 v7에서 이러한 모든 게재를 삭제하고 다시 만들어야 합니다. 이 작업을 수행할 수 없다면 &quot;호환성 모드&quot;가 제공됩니다. Interaction v7의 모든 새로운 기능을 활용하지는 않으므로 이 모드를 사용하지 않는 것이 좋습니다. 이것은 실제 6.1 마이그레이션 전에 진행 중인 캠페인을 완료할 수 있는 전환 모드입니다. 이 모드에 대한 자세한 내용은 문의하십시오.
 
-이동 스크립트(**interactionTo610_full_XX.js**)의 예는 Adobe Campaign v7 폴더 내의 **마이그레이션** 폴더에서 사용할 수 있습니다. 이 파일은 오퍼당 단일 이메일 표현(**[!UICONTROL htmlSource]** 및 **[!UICONTROL textSource]** 필드)을 사용하는 클라이언트에 대한 스크립트의 예를 보여줍니다. **NmsEmailOfferView** 테이블에 있던 컨텐츠가 오퍼 테이블로 이동되었습니다.
+이동 스크립트의 예(**interactionTo610_full_XX.js**)은에서 사용할 수 있습니다. **마이그레이션** 폴더 아래에 표시됩니다. 이 파일은 오퍼당 단일 이메일 표현을 사용하는 클라이언트에 대한 스크립트의 예( **[!UICONTROL htmlSource]** 및 **[!UICONTROL textSource]** 필드)만 로드하는 것입니다. 에 있었던 컨텐츠 **NmsEmailOfferView** 테이블이 오퍼 테이블로 이동되었습니다.
 
 >[!NOTE]
 이 스크립트를 사용하면 &quot;컨텐츠 관리&quot; 및 &quot;렌더링 함수&quot; 옵션을 사용할 수 없습니다. 이러한 기능을 활용하려면 카탈로그 오퍼, 특히 오퍼 콘텐츠 및 구성 공간을 재고해야 합니다.
@@ -581,11 +581,11 @@ logInfo("Done");
 
 환경이 한 개만 있는 경우 오퍼 컨텐츠를 이동한 후 따라야 하는 절차는 다음과 같습니다. 이 경우 &quot;ENV&quot;를 예로 들어 보겠습니다.
 
-1. 모든 &quot;ENV&quot; 환경에서 사용 중인 필드 목록을 업데이트합니다. 예를 들어 **[!UICONTROL htmlSource]**&#x200B;만 사용하는 오퍼 공간의 경우 **[!UICONTROL view/htmlSource]**&#x200B;을 추가해야 합니다.
+1. 모든 &quot;ENV&quot; 환경에서 사용 중인 필드 목록을 업데이트합니다. 예를 들어 **[!UICONTROL htmlSource]**&#x200B;를 추가하려면 **[!UICONTROL view/htmlSource]**.
 
    ![](assets/migration_interaction_2.png)
 
-1. **[!UICONTROL General]** 탭 내의 **[!UICONTROL Type of Environment]** 필드에서 **[!UICONTROL Live]**&#x200B;를 선택합니다.
+1. 에서 **[!UICONTROL Type of Environment]** 내 필드 **[!UICONTROL General]** 탭, 선택 **[!UICONTROL Live]**.
 
    ![](assets/migration_interaction_3.png)
 
@@ -593,13 +593,13 @@ logInfo("Done");
 
    ![](assets/migration_interaction_4.png)
 
-1. 모든 &quot;ENV&quot; 환경 오퍼 공간(마우스 오른쪽 단추 클릭 > **[!UICONTROL Actions > Deploy]**)을 배포하고 &quot;ENV_DESIGN&quot; 환경을 선택합니다.
+1. 모든 &quot;ENV&quot; 환경 오퍼 공간 배포(마우스 오른쪽 단추 클릭 > **[!UICONTROL Actions > Deploy]**)을 클릭하고 &quot;ENV_DESIGN&quot; 환경을 선택합니다.
 
    ![](assets/migration_interaction_5.png)
 
 1. 모든 &quot;ENV&quot; 환경 오퍼에 대해 동일하게 수행합니다.
 1. 모든 환경을 활성화하면 관련 채널에서 &quot;ENV_DESIGN&quot;을 제공합니다.
-1. 오퍼를 라이브로 만드는 테스트를 수행합니다. 문제가 발생하지 않는 경우 최신 워크플로우 작업 **[!UICONTROL Offer notification]**(offerMgt)에서 보류 중인 작업을 실행하여 모든 오퍼를 실시간으로 생성하십시오.
+1. 오퍼를 라이브로 만드는 테스트를 수행합니다. 문제가 발생하지 않는 경우 최신 워크플로 작업에서 보류 중인 작업을 실행하십시오 **[!UICONTROL Offer notification]** (offerMgt) 모든 오퍼가 라이브로 전환되도록 합니다.
 
    ![](assets/migration_interaction_6.png)
 
@@ -620,7 +620,7 @@ logInfo("Done");
 
 ![](assets/migration_reports_1.png)
 -->
-새로운 보고서 기능을 활용하려면 보고서를 다시 게시해야 합니다. 이 경우 모든 스크립트를 확인하고 필요한 경우 스크립트를 변경합니다. PDF 내보내기와 관련하여 Open Office용 특정 스크립트를 추가한 경우 새 PDF 내보내기 엔진(PhantomJS)에서 더 이상 작동하지 않습니다.
+새로운 보고서 기능을 활용하려면 보고서를 다시 게시해야 합니다. 이 경우 모든 스크립트를 확인하고 필요한 경우 스크립트를 변경합니다. PDF 내보내기와 관련하여 Open Office에 특정 스크립트를 추가한 경우 새 PDF 내보내기 엔진(PhantomJS)에서 더 이상 작동하지 않습니다.
 
 ## 웹 애플리케이션 {#web-applications}
 
@@ -631,9 +631,9 @@ logInfo("Done");
 
 ### 식별된 웹 애플리케이션 {#identified-web-applications}
 
-보고서([자세히 알아보기](#reports))와 마찬가지로 JavaScript를 추가한 경우 필요한 경우 확인하고 조정해야 합니다. v7 파란색 배너를 사용하려면(파란색 탭 포함) 웹 애플리케이션을 다시 게시해야 합니다.
+보고서([자세히 알아보기](#reports)) 포함되어 있어야 합니다. v7 파란색 배너를 사용하려면(파란색 탭 포함) 웹 애플리케이션을 다시 게시해야 합니다.
 
-웹 애플리케이션 연결 방법이 v7에서 변경되었습니다. 식별된 웹 응용 프로그램에서 연결 문제가 발생하면 **serverConf.xml** 파일에서 **allowUserPassword** 및 **sessionTokenOnly** 옵션을 일시적으로 활성화해야 합니다. 업그레이드 후 다음 옵션 값을 수정합니다.
+웹 애플리케이션 연결 방법이 v7에서 변경되었습니다. 식별된 웹 응용 프로그램에서 연결 문제가 발생하는 경우 일시적으로 **allowUserPassword** 및 **sessionTokenOnly** 옵션 **serverConf.xml** 파일. 업그레이드 후 다음 옵션 값을 수정합니다.
 
 ```
 allowUserPassword="true"

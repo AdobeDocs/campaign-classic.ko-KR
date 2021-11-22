@@ -17,11 +17,11 @@ ht-degree: 21%
 
 ![](../../assets/common.svg)
 
-**[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인에 고유한 게재 템플릿 발생을 구성할 수 있습니다.
+A **[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인에만 해당하는 게재 템플릿 발생을 구성할 수 있습니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#recurring-delivery-video)
 
-이 활동은 캠페인에 있는 **[!UICONTROL Targeting and workflows]** 탭에서만 사용할 수 있습니다.
+이 활동은 **[!UICONTROL Targeting and workflows]** 탭에서 찾을 수 있습니다.
 
 방법은 다음과 같습니다.
 
@@ -33,18 +33,18 @@ ht-degree: 21%
 
 이 활동에 대한 구성 프로세스는 사용 가능한 옵션 측면에서 게재 템플릿을 만드는 프로세스와 유사합니다. 자세한 정보는 이 [섹션](../../delivery/using/about-templates.md)을 참조하십시오.
 
-사용 중인 이 활동의 예제는 이 [section](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)을 참조하십시오.
+사용 중인 이 활동의 예는 다음 항목을 참조하십시오 [섹션](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 ## 반복 게재를 설정하는 방법
 
-**반복 게재**&#x200B;는 실행될 때마다 새 게재 인스턴스를 만듭니다. 예를 들어 워크플로우를 일주일에 한 번 실행하도록 예약하면 1년 후 52회 게재가 됩니다. 즉, 광범위한 로그 및 추적 로그는 각 게재 인스턴스로 구분됩니다.
+A **반복 게재** 가 실행될 때마다 새 게재 인스턴스를 만듭니다. 예를 들어 워크플로우를 일주일에 한 번 실행하도록 예약하면 1년 후 52회 게재가 됩니다. 즉, 광범위한 로그 및 추적 로그는 각 게재 인스턴스로 구분됩니다.
 
 ![반복 게재](assets/delivery_recurring.jpg)
 
 >[!NOTE]
 >
->**[!UICONTROL Recurring delivery]** 유형 활동에서 증명을 보낼 수 없습니다.\
->캠페인 워크플로우를 통해 직접 게재를 만들려면 미리 구성된 채널별 활동(예: **[!UICONTROL Email delivery]**)
+>에서 증명을 보낼 수 없습니다. **[!UICONTROL Recurring delivery]** 유형 활동.\
+>캠페인 워크플로우를 통해 직접 게재를 만들려면 미리 구성된 채널별 활동(예: **[!UICONTROL Email delivery]**).
 
 ## 튜토리얼 비디오 (#recurring-delivery-video)
 
@@ -52,4 +52,4 @@ ht-degree: 21%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-추가 Campaign Classic 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에 있습니다.
+추가 Campaign Classic 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).

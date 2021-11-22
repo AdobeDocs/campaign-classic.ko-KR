@@ -17,9 +17,9 @@ ht-degree: 3%
 
 ![](../../assets/common.svg)
 
-캠페인 워크플로우 HeatMap은 현재 실행 중인 모든 워크플로우를 색상으로 구분된 그래픽으로 표시합니다. 이 기능은 **캠페인 관리자**&#x200B;만 사용할 수 있습니다.
+캠페인 워크플로우 HeatMap은 현재 실행 중인 모든 워크플로우를 색상으로 구분된 그래픽으로 표시합니다. 다음 경우에만 사용할 수 있습니다 **Campaign 관리자**.
 
-[이 페이지](../../production/using/monitoring-guidelines.md)에서 캠페인 프로세스를 모니터링하는 추가 방법을 알아봅니다.
+에서 캠페인 프로세스를 모니터링하는 추가 방법을 알아봅니다. [이 페이지](../../production/using/monitoring-guidelines.md).
 
 ## 워크플로우 열 지도 시작 {#about-the-workflow-heatmap}
 
@@ -36,9 +36,9 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->**워크플로우 Heatmap** 외에도 워크플로우 세트의 상태를 모니터링하고 반복 메시지를 감리자에게 보낼 수 있는 워크플로우를 만들 수 있습니다. 자세한 내용은 [전용 섹션](supervising-workflows.md)을 참조하십시오.
+>추가 **워크플로우 Heatmap**&#x200B;을(를) 통해 워크플로우 집합 상태를 모니터링하고 감독 관리자에게 반복 메시지를 보낼 수 있는 워크플로우를 만들 수 있습니다. 자세한 내용은 [전용 섹션](supervising-workflows.md).
 
-워크플로우 열 맵을 사용하려면 다음 개념을 잘 이해해야 합니다. [워크플로우](about-workflows.md), [활동](about-activities.md) 및 [워크플로우 우수 사례](workflow-best-practices.md)
+워크플로우 열 맵을 사용하려면 다음 개념을 잘 이해해야 합니다. [워크플로우](about-workflows.md), [활동](about-activities.md) 및 [워크플로우 우수 사례](workflow-best-practices.md).
 
 ## 워크플로우 열 지도 사용자 지정 {#using-the-heatmap}
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 >
 >Workflow HeatMap에 데이터가 표시되지 않으면 **[!UICONTROL Load data]** 버튼을 클릭합니다.
 
-1. **[!UICONTROL Monitoring]** 로 이동하고 **[!UICONTROL Workflow HeatMap]** 링크를 클릭하여 **[!UICONTROL Campaign Workflow HeatMap]** 페이지를 표시합니다.
+1. 이동 **[!UICONTROL Monitoring]** 을 클릭하고 **[!UICONTROL Workflow HeatMap]** 링크를 클릭하여 **[!UICONTROL Campaign Workflow HeatMap]** 페이지.
 
    ![](assets/wkf_monitoring_path.png)
 
@@ -56,7 +56,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Database cleanup]** 워크플로우에서 삭제되지 않은 워크플로우만 표시됩니다. 데이터베이스 정리 워크플로우에 대한 자세한 내용은 [이 섹션](../../production/using/database-cleanup-workflow.md)을 참조하십시오.\
+   >에서 삭제하지 않은 워크플로우만 **[!UICONTROL Database cleanup]** 워크플로우가 표시됩니다. 데이터베이스 정리 워크플로우에 대한 자세한 내용은 [이 섹션](../../production/using/database-cleanup-workflow.md).\
    >기본적으로 Workflow HeatMap 시간대는 현재 관리자 사용자를 위해 정의된 시간대입니다. 예를 들어 작업 중인 마케팅 사용자와 동일한 영역에 있지 않은 경우 변경할 수 있습니다.
 
 1. **[!UICONTROL Filters]** 버튼을 클릭합니다.
@@ -67,22 +67,22 @@ ht-degree: 3%
 
    ![](assets/wkf_monitoring_filters_duration.png)
 
-1. **[!UICONTROL Workflows]** 드롭다운 목록에서 특정 워크플로우를 선택할 수도 있습니다.
+1. 또한 **[!UICONTROL Workflows]** 드롭다운 목록.
 
    ![](assets/wkf_monitoring_filters_workflows.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Min duration]** 필터가 적용됩니다. 특정 워크플로우를 찾을 수 없는 경우 모든 워크플로우가 목록에 표시되도록 최소 기간을 0으로 재설정합니다.
+   >다음 **[!UICONTROL Min duration]** 필터가 적용됩니다. 특정 워크플로우를 찾을 수 없는 경우 모든 워크플로우가 목록에 표시되도록 최소 기간을 0으로 재설정합니다.
 
-1. **[!UICONTROL Workflow type]** 에서도 필터링할 수 있습니다.
+1. 을(를) **[!UICONTROL Workflow type]** :
 
-   * **[!UICONTROL Technical]** : 기본  [기술 워크플로우 ](building-a-workflow.md#technical-workflows) 및  [데이터 관리 워크플로우만 ](targeting-data.md#data-management) 표시됩니다.
-   * **[!UICONTROL Marketing]** : 마케팅 캠페인에 연결된 워크플로우( [캠페인 워크플로우](building-a-workflow.md#campaign-workflows))만 표시됩니다.
+   * **[!UICONTROL Technical]** : 전용 [기본 제공 기술 워크플로우](building-a-workflow.md#technical-workflows) 및 [데이터 관리 워크플로우](targeting-data.md#data-management) 표시됩니다.
+   * **[!UICONTROL Marketing]** : 마케팅 캠페인에 연결된 워크플로우만( [캠페인 워크플로우](building-a-workflow.md#campaign-workflows)가 표시됩니다.
 
-1. 특정 워크플로우를 이름별로 검색하려면 **[!UICONTROL Workflow name filter]** 필드를 사용할 수도 있습니다.
+1. 이름별로 특정 워크플로우를 검색하려면 **[!UICONTROL Workflow name filter]** 필드.
 
-1. 사이에 일부 워크플로우를 편집한 경우 **[!UICONTROL Reload data]** 버튼을 클릭하여 그리드에 표시되는 데이터를 새로 고칩니다.
+1. 사이에 있는 일부 워크플로우를 편집한 경우 **[!UICONTROL Reload data]** 단추를 눌러 그리드에 표시되는 데이터를 새로 고칩니다.
 
 ## 워크플로우 열 지도 해석 {#reading-the-heatmap}
 
@@ -91,7 +91,7 @@ Campaign Workflow HeatMap은 자연적으로 왼쪽 상단에서 오른쪽 하�
 * 어두운 빨간색 셀은 많은 수의 워크플로우가 동시에 실행되는 기간에 해당합니다.
 * 회색 셀은 워크플로우가 실행되지 않는 기간에 해당합니다.
 
-색상 코드가 적용되는 방법과 HeatMap을 탐색하는 방법을 알아보려면 **[!UICONTROL Help]** 버튼을 클릭합니다.
+색상 코드가 적용되는 방법과 HeatMap 탐색 방법을 알아보려면 **[!UICONTROL Help]** 버튼을 클릭합니다.
 
 ![](assets/wkf_monitoring_legend.png)
 
@@ -110,7 +110,7 @@ Campaign Workflow HeatMap은 자연적으로 왼쪽 상단에서 오른쪽 하�
    각 워크플로우에 대해 포함된 모든 활동이 해당 지속 시간과 함께 나열됩니다.
 
 1. 워크플로우 ID 또는 이름을 클릭하여 워크플로우를 직접 엽니다.
-1. **[!UICONTROL Campaign Workflow HeatMap]** 보기로 돌아가려면 **[!UICONTROL Home]** 버튼을 클릭합니다.
+1. 로 돌아가려면 **[!UICONTROL Campaign Workflow HeatMap]** 보기를 클릭하고 **[!UICONTROL Home]** 버튼을 클릭합니다.
 
 ## 사용 사례: 열 맵을 사용하여 작업 수행 {#use-cases--using-the-heatmap-to-take-actions}
 
@@ -120,7 +120,7 @@ Campaign Workflow HeatMap은 자연적으로 왼쪽 상단에서 오른쪽 하�
 
 워크플로우 HeatMap을 사용하면 캠페인 관리자가 인스턴스의 로드를 이해하고 기존 워크플로우나 새 워크플로우를 적절한 시간에 계획할 수 있습니다.
 
-1. **[!UICONTROL Campaign Workflow HeatMap]** 보기에서 **[!UICONTROL Filters]** 버튼을 클릭합니다.
+1. 에서 **[!UICONTROL Campaign Workflow HeatMap]** 보기를 클릭하고 **[!UICONTROL Filters]** 버튼을 클릭합니다.
 1. 지속 시간을 몇 초 또는 몇 분으로 설정합니다.
 1. 기간 필터를 늘려 중요하지 않은 가장 짧은 워크플로우를 제외합니다.
 
@@ -135,12 +135,12 @@ Campaign Workflow HeatMap은 자연적으로 왼쪽 상단에서 오른쪽 하�
 
 Campaign 관리자는 워크플로우 HeatMap을 사용하여 활동을 느리게 할 수 있는 가장 긴 워크플로우를 찾을 수 있습니다.
 
-1. **[!UICONTROL Campaign Workflow HeatMap]** 보기에서 **[!UICONTROL Filters]** 버튼을 클릭합니다.
+1. 에서 **[!UICONTROL Campaign Workflow HeatMap]** 보기를 클릭하고 **[!UICONTROL Filters]** 버튼을 클릭합니다.
 1. 기간을 1시간으로 설정합니다.
 
    ![](assets/wkf_monitoring_long_duration.png)
 
-1. **[!UICONTROL Min duration]** 필터를 줄여 결과를 더 포함하십시오.
+1. 을 줄여 더 많은 결과를 포함하십시오. **[!UICONTROL Min duration]** 필터.
 1. 결과를 통해 서버 및 데이터베이스 리소스(CPU, RAM, 네트워크, IOPS 등)에 더 많은 영향을 미칠 수 있는 가장 긴 워크플로우를 찾을 수 있습니다.
 1. 적절한 작업 수행:
 
@@ -153,9 +153,9 @@ Campaign 관리자는 워크플로우 HeatMap을 사용하여 활동을 느리�
 
 이 경우 많은 사용자가 워크플로우 성능에 대해 불평합니다. 활동을 늦추는 것과 문제를 해결하는 방법을 점검해야 합니다.
 
-1. **[!UICONTROL Monitoring]** 로 이동하고 **[!UICONTROL Workflows]** 링크를 클릭하여 **[!UICONTROL Campaign Workflow HeatMap]** 페이지를 표시합니다.
-1. **[!UICONTROL Min duration]** 필터를 5분으로 설정합니다.
-1. **[!UICONTROL Workflow type]** 필터를 **[!UICONTROL Marketing]** (으)로 설정합니다.
+1. 이동 **[!UICONTROL Monitoring]** 을 클릭하고 **[!UICONTROL Workflows]** 링크를 클릭하여 **[!UICONTROL Campaign Workflow HeatMap]** 페이지.
+1. 설정 **[!UICONTROL Min duration]** 5분으로 필터링.
+1. 설정 **[!UICONTROL Workflow type]** 필터 대상 **[!UICONTROL Marketing]** .
 1. HeatMap 그리드에서 다음을 확인합니다.
 
    ![](assets/wkf_monitoring_without.png)
@@ -166,7 +166,7 @@ Campaign 관리자는 워크플로우 HeatMap을 사용하여 활동을 느리�
    * 성능이 낮습니다.
 
 1. 오전 10시부터 50개의 워크플로우를 시작하는 대신 나머지 시간 동안 워크플로우의 시작 시간을 균등하게 분배합니다.
-1. **[!UICONTROL Campaign Workflow HeatMap]** 페이지로 돌아가서 **[!UICONTROL Reload data]** 단추를 클릭합니다.
+1. 로 돌아갑니다. **[!UICONTROL Campaign Workflow HeatMap]** 페이지를 클릭하고 **[!UICONTROL Reload data]** 버튼을 클릭합니다.
 1. 이제 다음을 확인합니다.
 
    ![](assets/wkf_monitoring_with.png)

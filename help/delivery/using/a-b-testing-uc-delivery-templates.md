@@ -17,10 +17,10 @@ ht-degree: 20%
 
 ![](../../assets/common.svg)
 
-이제 두 개의 게재 템플릿을 만들려고 합니다. 각 템플릿은 **[!UICONTROL Split]** 활동에 연결된 **[!UICONTROL Email delivery]** 활동에서 참조됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](about-templates.md)을 참조하십시오.
+이제 두 개의 게재 템플릿을 만들려고 합니다. 각 템플릿은 **[!UICONTROL Email delivery]** 에 연결된 활동 **[!UICONTROL Split]** 활동. 이 작업에 대한 자세한 정보는 [이 섹션](about-templates.md)을 참조하십시오.
 
-1. **[!UICONTROL Resources > Delivery template]** 폴더를 찾습니다.
-1. **[!UICONTROL Email]** 게재 템플릿을 복제합니다.
+1. 다음 위치로 이동합니다. **[!UICONTROL Resources > Delivery template]** 폴더를 입력합니다.
+1. 을(를) 복제합니다 **[!UICONTROL Email]** 게재 템플릿.
 
    ![](assets/use_case_abtesting_deliverymodel_001.png)
 

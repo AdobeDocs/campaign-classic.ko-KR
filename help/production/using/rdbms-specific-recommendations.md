@@ -44,7 +44,7 @@ ht-degree: 1%
    SELECT * FROM uvSpace;
    ```
 
-   또는 이 쿼리를 실행하여 모든 인덱스 크기를 전체적으로 확인할 수 있습니다.
+   또는 이 쿼리를 실행하여 모든 인덱스 크기를 전체적으로 볼 수도 있습니다.
 
    ```
    SELECT
@@ -85,7 +85,7 @@ PostgreSQL에서는 다음과 같은 일반적인 키워드를 사용할 수 있
 * 진공(전체, 분석, 세부 정보)
 * 다시 색인화
 
-VACUUM 작업을 실행하고 분석 및 시간을 수행하려면 다음 구문을 사용할 수 있습니다.
+VACUUM 작업을 실행하고 분석 및 시간을 지정하려면 다음 구문을 사용할 수 있습니다.
 
 ```
 \timing on
@@ -149,10 +149,10 @@ REINDEX TABLE nmsmirrorpageinfo;
 >[!NOTE]
 >
 >* Adobe은 더 작은 표로 시작하는 것이 좋습니다. 이 방법으로 큰 테이블에서 프로세스가 실패하는 경우(실패 위험이 가장 높은 경우) 유지 관리의 적어도 일부가 완료되었습니다.
->* Adobe은 데이터 모델에 해당하는 테이블을 추가하여 중요한 업데이트를 적용할 수 있습니다. 일별 데이터 복제 흐름이 큰 경우 **NmsRecipient**&#x200B;에 해당할 수 있습니다.
+>* Adobe은 데이터 모델에 해당하는 테이블을 추가하여 중요한 업데이트를 적용할 수 있습니다. 이 예는 다음과 같습니다 **NmsRecipient** 일별 데이터 복제 흐름이 많은 경우
 >* VACUUM 및 REINDEX 문은 테이블을 잠가 유지 관리가 수행되는 동안 일부 프로세스를 일시 중지합니다.
->* 매우 큰 테이블(일반적으로 5Gb 이상)의 경우, INVACUM FULL 문은 매우 비효율적이고 오랜 시간이 걸릴 수 있습니다. Adobe은 **YyyNmsBroadLogXxx** 테이블에 사용하지 않는 것이 좋습니다.
->* 이 유지 관리 작업은 **[!UICONTROL SQL]** 활동을 사용하여 Adobe Campaign 워크플로우에서 구현할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/architecture.md)을 참조하십시오. 백업 윈도우와 충돌하지 않는 낮은 작업 시간에 대한 유지 관리를 예약해야 합니다.
+>* 매우 큰 테이블(일반적으로 5Gb 이상)의 경우, INVACUM FULL 문은 매우 비효율적이고 오랜 시간이 걸릴 수 있습니다. Adobe은 **YyyNmsBroadLogXxx** 테이블.
+>* 이 유지 관리 작업은 Adobe Campaign 워크플로우를 사용하여 구현할 수 있습니다. **[!UICONTROL SQL]** 활동. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/architecture.md)을 참조하십시오. 백업 윈도우와 충돌하지 않는 낮은 작업 시간에 대한 유지 관리를 예약해야 합니다.
 
 >
 
@@ -162,9 +162,9 @@ REINDEX TABLE nmsmirrorpageinfo;
 PostgreSQL은 INVACUUM FULL 문이 테이블을 잠근 상태이므로 온라인 테이블 재작성을 수행하는 쉬운 방법을 제공하지 않으므로, 일반 생산이 방지됩니다. 즉, 테이블을 사용하지 않을 때는 유지 관리를 수행해야 합니다. 다음 중 하나를 수행할 수 있습니다.
 
 * Adobe Campaign 플랫폼이 중지되면 유지 관리를 수행합니다.
-* 다시 빌드하고 있는 표에 쓸 수 있는 다양한 Adobe Campaign 하위 서비스를 중지합니다(**nlserver stop wfserver instance_name**).
+* 다시 빌드하고 있는 표에 쓸 수 있는 다양한 Adobe Campaign 하위 서비스를 중지합니다(**nlserver 중지 wfserver instance_name** 워크플로우 프로세스를 중지하려면).
 
-다음은 필요한 DDL을 생성하기 위해 특정 함수를 사용하는 테이블 조각 모음의 예입니다. 다음 SQL을 사용하면 두 개의 새 함수를 만들 수 있습니다. **GenRebuildTablePart1** 및 **GenRebuildTablePart2**&#x200B;를 사용하여 테이블을 다시 작성하는 데 필요한 DDL을 생성하는 데 사용할 수 있습니다.
+다음은 필요한 DDL을 생성하기 위해 특정 함수를 사용하는 테이블 조각 모음의 예입니다. 다음 SQL을 사용하면 두 개의 새 함수를 만들 수 있습니다. **GenRebuildTablePart1** 및 **GenRebuildTablePart2**- 테이블을 재생성하는 데 필요한 DDL을 생성하는 데 사용할 수 있습니다.
 
 * 첫 번째 함수를 사용하면 원래 테이블의 복사본인 작업 테이블(**_tmp** 여기)을 만들 수 있습니다.
 * 그런 다음 두 번째 함수는 원래 테이블을 삭제하고 작업 테이블과 해당 인덱스의 이름을 변경합니다.
@@ -384,7 +384,7 @@ PostgreSQL은 INVACUUM FULL 문이 테이블을 잠근 상태이므로 온라인
  $$ LANGUAGE plpgsql;
 ```
 
-다음 예제에서는 워크플로우에서 **진공/rebuild** 명령을 사용하지 않고 필요한 테이블을 다시 빌드할 수 있습니다.
+워크플로우에서 다음 예제를 사용하여 **진공/재건축** 명령:
 
 ```
 function sqlGetMemo(strSql)
@@ -421,24 +421,24 @@ function sqlGetMemo(strSql)
 
 >[!NOTE]
 >
->Microsoft SQL Server의 경우 [이 페이지](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html)에 자세히 설명된 유지 관리 계획을 사용할 수 있습니다.
+>Microsoft SQL Server의 경우 [이 페이지](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
 
 아래 예제는 Microsoft SQL Server 2005입니다. 다른 버전을 사용 중인 경우 데이터베이스 관리자에게 문의하여 유지 관리 절차에 대해 알아보십시오.
 
-1. 먼저 Microsoft SQL Server Management Studio에 연결하여 관리자 권한을 사용하여 로그인합니다.
-1. **[!UICONTROL Management > Maintenance Plans]** 폴더로 이동하여 해당 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Maintenance Plan Wizard]** 을 선택합니다.
-1. 첫 번째 페이지가 나타나면 **[!UICONTROL Next]** 을 클릭합니다.
-1. 생성할 유지 관리 계획 유형(각 작업에 대해 별도의 일정 또는 전체 계획에 대한 단일 일정)을 선택한 다음 **[!UICONTROL Change...]** 버튼을 클릭합니다.
-1. **[!UICONTROL Job schedule properties]** 창에서 원하는 실행 설정을 선택하고 **[!UICONTROL OK]** 를 클릭한 다음 **[!UICONTROL Next]** 를 클릭합니다.
-1. 수행할 유지 관리 작업을 선택한 다음 **[!UICONTROL Next]** 을 클릭합니다.
+1. 먼저 관리자 권한으로 로그인하여 Microsoft SQL Server Management Studio에 연결합니다.
+1. 로 이동합니다. **[!UICONTROL Management > Maintenance Plans]** 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Maintenance Plan Wizard]**.
+1. 클릭 **[!UICONTROL Next]** 첫 번째 페이지가 나타나면
+1. 생성할 유지 관리 계획 유형(각 작업에 대해 별도의 스케줄 또는 전체 계획에 대한 단일 스케줄)을 선택한 다음 **[!UICONTROL Change...]** 버튼을 클릭합니다.
+1. 에서 **[!UICONTROL Job schedule properties]** 창에서 원하는 실행 설정을 선택하고 을 클릭합니다 **[!UICONTROL OK]**&#x200B;를 클릭한 다음 **[!UICONTROL Next]**.
+1. 수행할 유지 관리 작업을 선택한 다음 **[!UICONTROL Next]**.
 
    >[!NOTE]
    >
    >아래에 표시된 유지 관리 작업 이상을 수행하는 것이 좋습니다. 통계 업데이트 작업은 데이터베이스 정리 워크플로우에서 이미 수행되지만 선택할 수도 있습니다.
 
-1. 드롭다운 목록에서 **[!UICONTROL Database Check Integrity]** 작업을 실행할 데이터베이스를 선택합니다.
-1. 데이터베이스를 선택하고 **[!UICONTROL OK]** 을 클릭한 다음 **[!UICONTROL Next]** 를 클릭합니다.
-1. 데이터베이스에 할당된 최대 크기를 구성한 다음 **[!UICONTROL Next]**&#x200B;을 클릭합니다.
+1. 드롭다운 목록에서 실행할 데이터베이스를 선택합니다 **[!UICONTROL Database Check Integrity]** 작업.
+1. 데이터베이스를 선택하고 **[!UICONTROL OK]**&#x200B;를 클릭한 다음 **[!UICONTROL Next]**.
+1. 데이터베이스에 할당된 최대 크기를 구성한 다음 **[!UICONTROL Next]**.
 
    >[!NOTE]
    >
@@ -448,7 +448,7 @@ function sqlGetMemo(strSql)
 
    * 인덱스 단편화 비율이 10%와 40% 사이인 경우 재구성이 권장됩니다.
 
-      재구성할 데이터베이스 및 개체(테이블 또는 뷰)를 선택한 다음 **[!UICONTROL Next]**&#x200B;을 클릭합니다.
+      재구성할 데이터베이스 및 개체(테이블 또는 뷰)를 선택한 다음 **[!UICONTROL Next]**.
 
       >[!NOTE]
       >
@@ -456,22 +456,22 @@ function sqlGetMemo(strSql)
 
    * 인덱스 단편화 비율이 40%보다 높은 경우 다시 작성하는 것이 좋습니다.
 
-      인덱스 다시 작성 작업에 적용할 옵션을 선택한 다음 **[!UICONTROL Next]**&#x200B;을 클릭합니다.
+      인덱스 다시 작성 작업에 적용할 옵션을 선택한 다음 **[!UICONTROL Next]**.
 
       >[!NOTE]
       >
-      >인덱스 재구축 프로세스는 프로세서 사용 측면에서 더욱 제한적이며 데이터베이스 리소스를 잠급니다. 다시 작성하는 동안 인덱스를 사용할 수 있도록 하려면 **[!UICONTROL Keep index online while reindexing]** 옵션을 선택합니다.
+      >인덱스 재구축 프로세스는 프로세서 사용 측면에서 더욱 제한적이며 데이터베이스 리소스를 잠급니다. 을(를) 선택합니다 **[!UICONTROL Keep index online while reindexing]** 다시 작성하는 동안 인덱스를 사용할 수 있도록 하려면 옵션을 선택합니다.
 
-1. 활동 보고서에 표시할 옵션을 선택한 다음 **[!UICONTROL Next]** 을 클릭합니다.
-1. 유지 관리 계획에 대해 구성된 작업 목록을 확인한 다음 **[!UICONTROL Finish]** 을 클릭합니다.
+1. 활동 보고서에 표시할 옵션을 선택한 다음 **[!UICONTROL Next]**.
+1. 유지 관리 계획에 대해 구성된 작업 목록을 확인한 다음 **[!UICONTROL Finish]**.
 
    유지 관리 계획 및 여러 단계의 상태에 대한 요약이 표시됩니다.
 
-1. 유지 관리 계획이 완료되면 **[!UICONTROL Close]** 을 클릭합니다.
-1. Microsoft SQL Server 탐색기에서 **[!UICONTROL Management > Maintenance Plans]** 폴더를 두 번 클릭합니다.
+1. 유지 관리 계획이 완료되면 **[!UICONTROL Close]**.
+1. Microsoft SQL Server 탐색기에서 **[!UICONTROL Management > Maintenance Plans]** 폴더를 입력합니다.
 1. Adobe Campaign 유지 관리 계획을 선택합니다. 다양한 단계는 워크플로우에 자세히 설명되어 있습니다.
 
-   **[!UICONTROL SQL Server Agent > Jobs]** 폴더에 개체가 생성되었습니다. 이 개체를 사용하면 유지 관리 계획을 시작할 수 있습니다. 이 예제에서는 모든 유지 관리 작업이 동일한 계획의 일부이므로 개체가 하나만 있습니다.
+   개체는 **[!UICONTROL SQL Server Agent > Jobs]** 폴더를 입력합니다. 이 개체를 사용하면 유지 관리 계획을 시작할 수 있습니다. 이 예제에서는 모든 유지 관리 작업이 동일한 계획의 일부이므로 개체가 하나만 있습니다.
 
    >[!IMPORTANT]
    >
@@ -483,7 +483,7 @@ function sqlGetMemo(strSql)
 >
 >이 구성은 선택 사항입니다.
 
-**WdbcOptions_TempDbName** 옵션을 사용하면 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 백업 및 복제를 최적화합니다.
+다음 **WdbcOptions_TempDbName** 옵션을 사용하면 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 백업 및 복제를 최적화합니다.
 
 이 옵션은 작업 테이블(예: 워크플로우를 실행하는 동안 만든 테이블)을 다른 데이터베이스에서 만들려면 사용할 수 있습니다.
 

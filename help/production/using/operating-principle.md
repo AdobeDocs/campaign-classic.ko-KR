@@ -23,17 +23,17 @@ ht-degree: 1%
 
 다음과 같은 세 가지 유형의 Adobe Campaign 모듈이 있습니다.
 
-* 다중 인스턴스 모듈: 모든 인스턴스에 대해 단일 프로세스가 실행됩니다. 이는 다음 모듈에 적용됩니다. **web**, **syslogd**, **trackinglogd** 및 **watchdog** (**config-default.xml** 파일의 활동)
-* 모노 인스턴스 모듈: 하나의 프로세스는 인스턴스당 실행됩니다. 이는 다음 모듈에 적용됩니다. **mta**, **wfserver**, **inMail**, **sms** 및 **stat**(**config-`<instance>`.xml** 파일의 활동)
-* 유틸리티 모듈: 이러한 모듈은 가끔 또는 반복적인 작업을 수행하기 위해 실행되는 모듈입니다(**cleanup**, **config**, 추적 로그 다운로드 등).
+* 다중 인스턴스 모듈: 모든 인스턴스에 대해 단일 프로세스가 실행됩니다. 이는 다음 모듈에 적용됩니다. **웹**, **sylogd**, **trackinglogd** 및 **감시** (활동: **config-default.xml** 파일)에 액세스할 수 없습니다.
+* 모노 인스턴스 모듈: 하나의 프로세스는 인스턴스당 실행됩니다. 이는 다음 모듈에 적용됩니다. **mta**, **wfserver**, **inMail**, **sms** 및 **stat** (활동: **config-`<instance>`.xml** 파일)에 액세스할 수 없습니다.
+* 유틸리티 모듈: 이러한 모듈은 가끔 실행되어 가끔 또는 반복적인 작업을 수행하는 모듈입니다.**cleanup**, **config**, 추적 로그 다운로드 등).
 
-모듈 관리는 설치 폴더의 **bin** 디렉토리에 설치된 명령줄 도구 **nlserver**&#x200B;를 사용하여 수행됩니다.
+모듈 관리는 명령줄 도구를 사용하여 수행합니다 **nlserver** 에 설치 **bin** 설치 폴더의 디렉토리입니다.
 
-**nlserver** 도구의 일반 구문은 다음과 같습니다.
+의 일반 구문 **nlserver** 도구는 다음과 같습니다.
 
-**nlserver  `<command>``<command arguments>`**
+**nlserver `<command>``<command arguments>`**
 
-사용 가능한 모듈 목록에 대해서는 **nlserver** 명령을 사용합니다.
+사용 가능한 모듈 목록에 대해서는 **nlserver** 명령.
 
 사용 가능한 모듈은 다음 표에 자세히 설명되어 있습니다.
 

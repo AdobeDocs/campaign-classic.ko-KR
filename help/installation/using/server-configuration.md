@@ -30,11 +30,11 @@ Campaign 클라이언트 콘솔 또는 웹 인터페이스를 사용하여 서�
 
 serverConf/shared/datastore/@uploadAllowlist(유효한 Java 정규 표현식)에 모두 추가합니다. [이 페이지](../../installation/using/file-res-management.md)에서 자세히 알아보십시오.
 
-Adobe Campaign은 파일 크기를 제한하지 않습니다. 하지만 IIS/Apache를 구성하여 수행할 수 있습니다. 자세한 내용은 [이 섹션](../../installation/using/web-server-configuration.md)을 참조하십시오.
+Adobe Campaign은 파일 크기를 제한하지 않습니다. 그러나 IIS/Apache를 구성하여 수행할 수 있습니다. 추가 정보 [이 섹션](../../installation/using/web-server-configuration.md).
 
 ## 릴레이
 
-자세한 내용은 [이 페이지](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays)를 참조하십시오.
+자세한 내용은 [이 페이지](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) 추가 정보.
 
 기본적으로 모든 동적 페이지는 웹 모듈이 시작되는 시스템의 로컬 Tomcat 서버로 자동으로 전달됩니다. 일부는 중계하지 않도록 선택할 수 있습니다. 일부 Adobe Campaign 모듈(예: 웹 앱, 상호 작용, 일부 jsp)을 사용하지 않는 경우 릴레이 규칙에서 제거할 수 있습니다.
 
@@ -44,7 +44,7 @@ Adobe Campaign은 파일 크기를 제한하지 않습니다. 하지만 IIS/Apac
 
 ## 발신 연결 보호
 
-Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 는 제한됩니다. 새 URL을 허용하려면 관리자가 [serverConf.xml 파일](../../installation/using/the-server-configuration-file.md)에서 이를 참조해야 합니다.
+Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 는 제한됩니다. 새 URL을 허용하려면 관리자가 [serverConf.xml 파일](../../installation/using/the-server-configuration-file.md).
 
 다음 세 가지 연결 보호 모드가 있습니다.
 
@@ -66,11 +66,11 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 ## 명령 제한(서버측)
 
-여러 명령이 블랙리스트에 추가되어 execCommand 함수를 사용하여 실행할 수 없습니다. 외부 명령을 실행하기 위해 전용 Unix 사용자가 추가 보안을 제공합니다. 호스팅된 설치의 경우 이 제한이 자동으로 적용됩니다. 온-프레미스 설치의 경우 [이 페이지](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)의 지침에 따라 이 제한을 수동으로 설정할 수 있습니다. 또한 **[!UICONTROL Script]** 및 **[!UICONTROL External task]** 워크플로우 활동을 사용할 수 없습니다(새로 설치된 인스턴스).
+여러 명령이 블랙리스트에 추가되어 execCommand 함수를 사용하여 실행할 수 없습니다. 외부 명령을 실행하기 위해 전용 Unix 사용자가 추가 보안을 제공합니다. 호스팅된 설치의 경우 이 제한이 자동으로 적용됩니다. 온-프레미스 설치의 경우 다음 지침에 따라 이 제한을 수동으로 설정할 수 있습니다. [이 페이지](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). 게다가, **[!UICONTROL Script]** 및 **[!UICONTROL External task]** 워크플로우 활동을 사용할 수 없습니다(새로 설치된 인스턴스).
 
 ## 기타 구성
 
-모든 페이지에 추가 HTTP 헤더를 추가할 수 있습니다(자세한 내용은 [이 페이지](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands) 참조).
+모든 페이지에 대해 추가 HTTP 헤더를 추가할 수 있습니다(자세한 내용은 [이 페이지](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)):
 
 * HSTS, X-FRAME-OPTIONS, CSP 등의 일부 추가 헤더를 추가할 수 있습니다.
 * 프로덕션 환경에 적용하기 전에 테스트 환경에서 테스트해야 합니다.
@@ -79,10 +79,10 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
    >
    >Adobe Campaign은 특정 헤더를 추가하여 분리할 수 있습니다.
 
-Adobe Campaign을 사용하면 `<dbcnx .../>` 요소에서 일반 암호를 설정할 수 있습니다. 이 기능은 사용하지 마십시오.
+Adobe Campaign에서는 `<dbcnx .../>` 요소를 생성하지 않습니다. 이 기능은 사용하지 마십시오.
 
-기본적으로 Adobe Campaign은 특정 IP에 세션을 고정하지 않지만, 세션을 활성화하여 세션이 도난되지 않도록 합니다. 이렇게 하려면 [serverConf.xml 파일](../../installation/using/the-server-configuration-file.md)에서 checkIPConsistent 속성을 `<authentication>` 노드에서 **true**&#x200B;로 설정합니다.
+기본적으로 Adobe Campaign은 특정 IP에 세션을 고정하지 않지만, 세션을 활성화하여 세션이 도난되지 않도록 합니다. 이렇게 하려면 [serverConf.xml 파일](../../installation/using/the-server-configuration-file.md)를 설정하고 checkIPConsistent 속성을 로 설정합니다. **true** 에서 `<authentication>` 노드 아래에 있어야 합니다.
 
-기본적으로 Adobe Campaign의 MTA는 보안 연결을 사용하여 SMTP 서버로 컨텐츠를 전송하지 않습니다. 이 기능을 활성화해야 합니다(배달 속도를 줄일 수 있음). 이렇게 하려면 `<smtp ...>` 노드에서 **enableTLS** 를 **true**&#x200B;로 설정합니다.
+기본적으로 Adobe Campaign의 MTA는 보안 연결을 사용하여 SMTP 서버로 컨텐츠를 전송하지 않습니다. 이 기능을 활성화해야 합니다(배달 속도를 줄일 수 있음). 이렇게 하려면 을(를) 설정합니다. **enableTLS** to **true** 에서 `<smtp ...>` 노드 아래에 있어야 합니다.
 
 인증 노드(sessionTimeOutSec 특성)에서 세션 수명을 줄일 수 있습니다.

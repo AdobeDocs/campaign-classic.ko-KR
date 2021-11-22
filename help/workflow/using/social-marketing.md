@@ -21,7 +21,7 @@ ht-degree: 6%
 >
 >:warning: 이 기능은 Campaign Classic v7에서만 사용할 수 있습니다. [자세히 알아보기](../../social/using/about-social-marketing.md)
 
-아래 자세히 설명된 워크플로우는 기본적으로 **소셜 마케팅** 모듈과 함께 설치됩니다.
+아래 자세히 설명된 워크플로우는 **소셜 마케팅** 기본적으로 모듈입니다.
 
 <table> 
  <tbody> 

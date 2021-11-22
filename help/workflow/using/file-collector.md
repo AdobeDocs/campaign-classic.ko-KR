@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ![](../../assets/common.svg)
 
-**파일 수집기**&#x200B;는 디렉터리에 하나 이상의 파일이 도착하는 것을 모니터링하고 수신된 각 파일에 대해 해당 전환을 활성화합니다. 각 이벤트에 대해 **[!UICONTROL filename]** 변수에는 받은 파일의 전체 이름이 포함됩니다. 수집된 파일은 보관 목적으로 다른 디렉토리로 이동되며 한 번만 카운트되도록 합니다.
+다음 **파일 수집기** 디렉토리에 하나 이상의 파일이 도착하는 것을 모니터링하고 수신된 각 파일에 대해 해당 전환을 활성화합니다. 각 이벤트에 대해 **[!UICONTROL filename]** 변수에는 받은 파일의 전체 이름이 들어 있습니다. 수집된 파일은 보관 목적으로 다른 디렉토리로 이동되며 한 번만 카운트되도록 합니다.
 
 기본적으로 파일 수집기는 일정에 지정된 시간에 파일의 존재를 테스트하는 영구 작업입니다.
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 속성 {#properties}
 
-**[!UICONTROL File collector]** 활동의 첫 번째 탭에서는 소스 디렉토리를 선택하고, 필요한 경우 수집된 파일을 필터링할 수 있습니다. 다른 탭은 [인바운드 전자 메일](inbound-emails.md)(**[!UICONTROL Schedule]** 및 **[!UICONTROL Expiry]** 탭)에 자세히 설명되어 있습니다.
+의 첫 번째 탭 **[!UICONTROL File collector]** 활동을 통해 소스 디렉토리를 선택하고 필요한 경우 수집된 파일을 필터링할 수 있습니다. 다른 탭은 [인바운드 전자 메일](inbound-emails.md) (**[!UICONTROL Schedule]** 및 **[!UICONTROL Expiry]** 탭).
 
 ![](assets/file_collect_edit.png)
 
@@ -43,11 +43,11 @@ ht-degree: 0%
 
       이 옵션을 활성화하면 첫 번째 파일을 받은 후 작업이 종료됩니다. 여러 파일이 디렉토리에 있으면 하나만 고려됩니다. 이 옵션은 한 개의 이벤트만 전송하도록 보장합니다. 고려하는 파일은 목록의 첫 번째 파일이며 알파벳 순서로 표시됩니다.
 
-      예약되지 않은 활동의 경우, 지정된 디렉터리에 필터와 일치하는 파일이 없고 **[!UICONTROL Process file nonexistence]** 옵션을 사용하지 않으면 오류가 발생합니다.
+      예약되지 않은 활동의 경우, 지정된 디렉토리에 필터와 일치하는 파일이 없으면 **[!UICONTROL Process file nonexistence]** 옵션을 활성화하지 않으면 오류가 발생합니다.
 
    * **[!UICONTROL Execution schedule]**
 
-      **[!UICONTROL Schedule]** 탭의 매개 변수를 통해 파일 상태 확인 빈도를 결정합니다.
+      의 매개 변수를 통해 파일 상태 확인 빈도를 결정합니다 **[!UICONTROL Schedule]** 탭.
 
 1. **오류 처리**
 
@@ -69,9 +69,9 @@ ht-degree: 0%
 
 1. **내역**
 
-   여기서 **[!UICONTROL File historization]** 단계를 참조하십시오. [웹 다운로드](web-download.md).
+   자세한 내용은 **[!UICONTROL File historization]** 여기에서 다음을 수행합니다. [웹 다운로드](web-download.md).
 
-파일 처리 순서를 확인할 수 없습니다. 파일 세트를 순차적으로 처리하려면 **[!UICONTROL Stop as soon as a file has been processed]** 옵션을 사용하여 루프를 만듭니다. 이 경우 파일은 알파벳순으로 처리됩니다. **[!UICONTROL Process file nonexistence]** 옵션을 사용하면 반복을 완료할 수 있습니다.
+파일 처리 순서를 확인할 수 없습니다. 일련의 파일을 순차적으로 처리하려면 **[!UICONTROL Stop as soon as a file has been processed]** 옵션을 선택하고 루프를 만듭니다. 이 경우 파일은 알파벳순으로 처리됩니다. 다음 **[!UICONTROL Process file nonexistence]** 옵션을 사용하면 반복을 완료할 수 있습니다.
 
 ![](assets/file_collect_loop.png)
 

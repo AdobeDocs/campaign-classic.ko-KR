@@ -8,7 +8,7 @@ exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 8%
 
 몇 가지 요소가 서버 성능에 직접 영향을 주고 플랫폼의 속도를 저하할 수 있습니다.
 
-* 개인화 요소의 수 및 유형: 이메일의 개인화는 각 수신자에 대한 데이터베이스에서 데이터를 가져옵니다. 개인화 요소가 많으면 게재를 준비하는 데 필요한 데이터 양이 증가합니다.  [이 섹션](about-personalization.md)에서 개인화에 대해 자세히 알아보십시오
+* 개인화 요소의 수 및 유형: 이메일의 개인화는 각 수신자에 대한 데이터베이스에서 데이터를 가져옵니다. 개인화 요소가 많으면 게재를 준비하는 데 필요한 데이터 양이 증가합니다.  에서 개인화에 대해 자세히 알아보십시오 [이 섹션](about-personalization.md)
 
 * 서버 로드: 마케팅 서버가 동시에 많은 다른 작업을 처리할 때 성능이 저하될 수 있습니다. 마케팅 서버는 데이터가 올바르고 제시간에 맞게 모든 게재에 대해 수신 및 발신 데이터를 모두 조정해야 합니다.
 
-   **팁**  - 이를 방지하려면 팀 내 다른 구성원과 게재 일정을 조정하여 최상의 성능을 보장합니다.
+   **팁** - 이를 방지하려면 팀 내 다른 구성원과 게재 일정을 조정하여 최상의 성능을 확보하십시오.
 
-* 워크플로우 실행: 플랫폼 성능 문제를 방지하려면 워크플로우를 모니터링해야 합니다. 이 문서](../../workflow/using/workflow-best-practices.md#execution-and-performance)에 나열된 지침을 따르십시오.[
+* 워크플로우 실행: 플랫폼 성능 문제를 방지하려면 워크플로우를 모니터링해야 합니다. 나열된 지침을 따르십시오 [이 문서에서](../../workflow/using/workflow-best-practices.md#execution-and-performance).
 
-* 자격이 있는 경우 [Campaign Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)을 활용하여 [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html) 기능을 사용하여 플랫폼을 모니터링할 수 있습니다.
+* 자격이 있는 경우 다음을 활용할 수 있습니다 [Campaign Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko) 플랫폼 모니터링 [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko) 기능.
 
 ## 네트워크 구성을 확인하는 중 {#network-config}
 
@@ -48,9 +48,9 @@ ht-degree: 8%
 
    * 수신자 서버가 수락할 수 있는 기능을 결정하는 이메일의 요소를 참조합니다. ISP(인터넷 서비스 공급자)는 스팸으로 식별하는 이메일을 필터링하거나 이미지를 다운로드하지 못하도록 차단합니다. 특정 도메인이 너무 많은 이메일을 보내는 것으로 확인되면 해당 발신자로부터 받을 이메일 수에 제한을 설정합니다.
 
-   * 게재 기능을 위해 이메일을 확인할 때 네 가지 주요 카테고리에 중점을 두려고 합니다. 데이터 품질, 메시지 및 컨텐츠, 전송 인프라, 평판. 이 항목에 대한 자세한 내용은 [이 섹션](about-deliverability.md)을 참조하십시오.
+   * 게재 기능을 위해 이메일을 확인할 때 네 가지 주요 카테고리에 중점을 두려고 합니다. 데이터 품질, 메시지 및 컨텐츠, 전송 인프라, 평판. 이 주제에 대한 자세한 내용은 [이 섹션](about-deliverability.md).
 
-* 이 문서](about-deliverability.md)에 자세히 설명된 권장 사항을 적용합니다.[
+* 자세한 권장 사항 적용 [이 문서에서](about-deliverability.md).
 
 * 도움이 필요하면 Adobe 담당자에게 문의하십시오.
 
@@ -62,7 +62,7 @@ ht-degree: 8%
 
 **팁**
 
-* 잘못된 주소 목록이 있는 경우 Adobe은 **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**&#x200B;을 통해 격리 테이블로 가져오는 것을 권장합니다.
+* 잘못된 주소 목록이 있는 경우 다음을 통해 격리 테이블로 가져오는 것이 좋습니다. **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**.
 
 * 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외됩니다. 타겟팅되지 않았습니다. 이를 통해 게재 속도를 높일 수 있습니다. 오류율은 게재 속도에 상당한 영향을 미치기 때문입니다. 받은 편지함이 가득 찼거나 주소가 없는 경우 등 전자 메일 주소를 격리할 수 있습니다. [자세히 알아보기](#identifying-quarantined-addresses-for-a-delivery)
 
@@ -77,4 +77,4 @@ ht-degree: 8%
 
 잘못된 주소로 메시지를 보내지 않고, 부적절한 통신을 제한하며, 발신자의 평판을 향상시키기 위해 Adobe은 구독 후 확인을 위해 이중 옵트인 메커니즘을 구현하는 것을 권장합니다. 이렇게 하면 수신자가 의도적으로 구독했는지 확인하는 데 도움이 됩니다.
 
-이 메커니즘을 구현하는 자세한 내용은 [이 섹션](../../web/using/use-cases--web-forms.md)에 설명되어 있습니다.
+이 메커니즘 구현에 대한 자세한 내용은 [이 섹션](../../web/using/use-cases--web-forms.md).

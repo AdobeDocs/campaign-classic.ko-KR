@@ -17,7 +17,7 @@ ht-degree: 8%
 
 ![](../../assets/common.svg)
 
-기본적으로 게재 템플릿은 **[!UICONTROL Recipients]**&#x200B;을(를) 타겟으로 합니다. 따라서 대상 매핑은 **nms:recipient** 테이블의 필드를 사용합니다. Adobe Campaign은 사용자의 요구 사항에 따라 사용할 게재에 대한 다른 target 매핑을 제공합니다.
+기본적으로 게재 템플릿 타겟 **[!UICONTROL Recipients]**. 따라서 대상 매핑은 **nms:recipient** 테이블. Adobe Campaign은 사용자의 요구 사항에 따라 사용할 게재에 대한 다른 target 매핑을 제공합니다.
 
 ![](assets/delivery_select_mapping.png)
 
@@ -35,4 +35,4 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->새 대상 매핑을 만들 수도 있습니다. 이 작업은 전문가 사용자를 위해 예약되어 있습니다. 자세한 내용은 [구성 안내서](../../configuration/using/target-mapping.md)를 참조하십시오.
+>새 대상 매핑을 만들 수도 있습니다. 이 작업은 전문가 사용자를 위해 예약되어 있습니다. 자세한 내용은 [구성 안내서](../../configuration/using/target-mapping.md).

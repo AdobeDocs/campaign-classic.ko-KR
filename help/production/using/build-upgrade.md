@@ -19,7 +19,7 @@ ht-degree: 3%
 
 이 섹션에서는 업그레이드 프로세스에 대한 심층적인 연습과 충돌을 식별하고 해결하는 단계를 제공합니다.
 
-빌드 업그레이드는 신중하게 수행해야 하며, 그 영향은 사전에 완전히 고려해야 하며, 절차를 높은 수준의 징계로 완료해야 합니다. 성공적인 업그레이드를 보장하려면 전문가 사용자만 아래에 설명된 단계를 수행해야 합니다. 또한 업그레이드를 시작하기 전에 [고객 지원 센터 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하는 것이 좋습니다.
+빌드 업그레이드는 신중하게 수행해야 하며, 그 영향은 사전에 완전히 고려해야 하며, 절차를 높은 수준의 징계로 완료해야 합니다. 성공적인 업그레이드를 보장하려면 전문가 사용자만 아래에 설명된 단계를 수행해야 합니다. 또한 최신 정보를 적극 활용할 것을 권장합니다 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 업그레이드를 시작하기 전에
 
 다음 전제 조건이 필요합니다.
 
@@ -27,16 +27,16 @@ ht-degree: 3%
 * 시스템 및 서버 측 지식
 * 관리 권한 및 권한
 
-다음 섹션에서 자세한 내용을 확인할 수 있습니다. [Adobe Campaign](../../production/using/upgrading.md), [새 버전으로 마이그레이션](../../migration/using/about-migration.md).
+다음 섹션에서 자세한 내용을 확인할 수 있습니다. [Adobe Campaign 업데이트](../../production/using/upgrading.md), [새 버전으로 마이그레이션](../../migration/using/about-migration.md).
 
-호스팅 및 하이브리드 인스턴스의 경우 Adobe 기술 작업 팀에 빌드 업그레이드를 요청해야 합니다. 자세한 내용은 이 페이지의 경우 맨 아래에 있는 FAQ 섹션을 참조하십시오. 또한 [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)도 참조하십시오.
+호스팅 및 하이브리드 인스턴스의 경우 Adobe 기술 작업 팀에 빌드 업그레이드를 요청해야 합니다. 자세한 내용은 이 페이지의 경우 맨 아래에 있는 FAQ 섹션을 참조하십시오. 또한 [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md).
 
 ## 업그레이드 준비
 
 ![](assets/do-not-localize/icon_planification.png)
 
 빌드 업그레이드를 시작하기 전에 아래 설명된 대로 전체 준비를 수행해야 합니다.
-시스템을 업그레이드할 준비가 되면 빌드 업그레이드는 **최소** 2시간이 걸립니다.
+시스템을 업그레이드할 준비가 되면 빌드 업그레이드가 필요합니다 **적어도** 2시간
 
 빌드 업그레이드 프로세스에는 다음 리소스가 필요합니다.
 
@@ -53,7 +53,7 @@ ht-degree: 3%
 1. Adobe 및 고객 직원을 위한 연락처 세부 정보를 배포합니다.
 1. 호스팅된 인스턴스의 경우: Adobe과 고객 담당자는 업그레이드 시간과 누가 실행할지 조율합니다.
 1. 온-프레미스 인스턴스의 경우: 고객 담당자는 전체 프로세스를 관리합니다. 사용자 정의된 워크플로우 및 게재 로직 테스트에 대한 지원이 필요한 경우 컨설팅 서비스를 제공해야 합니다.
-1. 업그레이드할 Adobe Campaign 버전을 확인하고 확인합니다. [Adobe Campaign Classic 릴리스 노트](../../rn/using/rn-overview.md)를 참조하십시오.
+1. 업그레이드할 Adobe Campaign 버전을 확인하고 확인합니다. 자세한 내용은 [Adobe Campaign Classic 릴리스 노트](../../rn/using/rn-overview.md).
 1. 업그레이드 실행 파일 보유 여부를 확인합니다.
 
 ### 주요 사용자
@@ -82,17 +82,17 @@ ht-degree: 3%
 
 1. 소스 및 대상 환경의 모든 인스턴스에 대해 데이터베이스의 전체 백업을 수행합니다.
 
-1. [서버 구성 파일의 최신 버전을 가져옵니다](../../installation/using/the-server-configuration-file.md).
+1. 최신 버전의 다운로드 [서버 구성 파일](../../installation/using/the-server-configuration-file.md).
 
-1. [최신 빌드를 다운로드합니다](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html). [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko)
+1. [최신 빌드 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html). [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko)
 
-빌드 업그레이드를 시작하기 전에 모든 [유용한 명령줄](../../installation/using/command-lines.md)을 알고 있어야 합니다.
+또한 [유용한 명령줄](../../installation/using/command-lines.md) 빌드 업그레이드를 시작하기 전:
 
-* **nlserver 덤프**: 실행 중인 프로세스 목록
+* **nlserver pdump**: 실행 중인 프로세스 목록
 * **nlserver pdump -who**: 활성 클라이언트 세션 목록
-* **nlserver monitor -missing**: 누락된 속성 목록
+* **nlserver 모니터 -누락**: 누락된 속성 목록
 * **nlserver 시작 process@instanceName**: 프로세스 시작
-* **nlserver stop process@instanceName**: 프로세스를 중지합니다
+* **nlserver 중지 process@instanceName**: 프로세스를 중지합니다
 * **nlserver 재시작 process@instanceName**: 프로세스 다시 시작
 * **nlserver 종료**: 모든 캠페인 프로세스를 중지합니다
 * **nlserver watchdog -svc**: 감시장치 시작(UNIX만 해당)
@@ -101,7 +101,7 @@ ht-degree: 3%
 
 ![](assets/do-not-localize/icon_process.png)
 
-아래 절차는 **온-프레미스** 고객에게만 수행됩니다. 호스팅된 고객의 경우 호스팅 팀이 관리합니다. Adobe Campaign을 새 빌드로 업데이트하려면 아래에 세부 절차가 설명되어 있습니다.
+아래 절차는 **온-프레미스** 고객. 호스팅된 고객의 경우 호스팅 팀이 관리합니다. Adobe Campaign을 새 빌드로 업데이트하려면 아래에 세부 절차가 설명되어 있습니다.
 
 ### 환경 복제
 
@@ -113,7 +113,7 @@ ht-degree: 3%
 
 1. 대상 환경의 모든 인스턴스에서 이러한 복사본을 복원합니다.
 
-1. 시작하기 전에 대상 환경에서 **nms:freezeInstance.js** 자작화 스크립트를 실행합니다. 이렇게 하면 외부와의 상호 작용을 모두 중지합니다. 로그, 추적, 게재, 캠페인 워크플로우 등
+1. 를 실행합니다. **nms:freezeInstance.js** 시작하기 전에 대상 환경에서 자작화 스크립트를 사용하십시오. 이렇게 하면 외부와의 상호 작용을 모두 중지합니다. 로그, 추적, 게재, 캠페인 워크플로우 등
 
    ```
    nlserverjavacsriptnms:freezeInstance.js–instance:<dev> -arg:run
@@ -121,7 +121,7 @@ ht-degree: 3%
 
 1. 대소작도 다음과 같이 확인합니다.
 
-   * 유일한 배달 부분이 **0**&#x200B;으로 설정된 ID인지 확인합니다.
+   * 유일한 배달 부분이 ID가 로 설정된 부분인지 확인합니다 **0**:
 
       ```
       SELECT * FROM neolane.nmsdeliverypart;
@@ -146,14 +146,14 @@ ht-degree: 3%
 
 1. 다음 서비스를 종료합니다.
 
-   * 웹 서비스(IIS): **iisreset /stop**
+   * 웹 서비스(IIS): **isreset /stop**
    * Adobe Campaign 서비스: **net stop nlserver6**
 
    >[!NOTE]
    >
    >IIS에서 사용하는 nlsrvmod.dll 파일을 새 버전으로 대체할 수 있도록 리디렉션 서버(webmdl)가 중지되었는지 확인하십시오.
 
-1. **nlserver pdump** 명령을 실행하여 활성 작업이 없는지 확인합니다. 작업이 없으면 출력은 다음과 유사해야 합니다.
+1. 를 실행하여 활성 작업이 없는지 확인합니다. **nlserver pdump** 명령. 작업이 없으면 출력은 다음과 유사해야 합니다.
 
    ```
    C:\<installation path>\bin>nlserverpdump HH:MM:SS > Application Server for Adobe Campaign version x.x (build xxx) dated xx/xx/xxxx No tasks
@@ -163,21 +163,21 @@ ht-degree: 3%
 
 ### Adobe Campaign 서버 애플리케이션 업그레이드
 
-1. **Setup.exe** 파일을 실행합니다. 이 파일을 다운로드해야 하는 경우 [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 액세스하십시오.
+1. 를 실행합니다. **Setup.exe** 파일. 이 파일을 다운로드하려면 [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
 
 1. 설치 모드를 선택합니다. **업데이트** 또는 **복구**.
 
-1. **다음**&#x200B;을 클릭합니다.
+1. 클릭 **다음**.
 
-1. **완료**&#x200B;를 클릭합니다. 설치 프로그램은 새 파일을 복사합니다.
+1. 클릭 **완료**: 설치 프로그램은 새 파일을 복사합니다.
 
-1. 작업이 완료되면 **완료**&#x200B;를 클릭합니다.
+1. 작업이 완료되면 을 클릭합니다. **완료**.
 
 ### 리소스 동기화
 
 1. 명령줄을 엽니다.
 
-1. **nlserver config -postupgrade -allinstances**&#x200B;를 실행하여 다음을 수행합니다.
+1. 실행 **nlserver 구성 -postupgrade -allinstances** 다음을 수행하십시오.
 
    * 리소스 동기화
    * 스키마 업데이트
@@ -246,7 +246,7 @@ Campaign 인스턴스에서 트랜잭션 메시지(메시지 센터)가 활성�
 
 중간 소싱 환경 컨텍스트에서 업그레이드하려면 다음 추가 단계를 수행해야 합니다.
 
-1. 중간 소싱 서버 업그레이드를 조정하려면 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+1. 연락처 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 중간 소싱 서버 업그레이드를 조정하려면
 1. 테스트 링크를 실행하여 버전이 업데이트되었는지 확인합니다. 예제:
 
    ```
@@ -276,7 +276,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 경고 시 리소스 충돌이 발생할 경우 이를 해결하기 위해서는 사용자의 주의가 필요합니다.
 
-**postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** 파일에 동기화 결과가 포함되어 있습니다. 기본적으로 다음 디렉토리에서 사용할 수 있습니다. **installationDirectory/var/instanceName/postupgrade** 오류와 경고는 오류 및 경고 속성으로 표시됩니다.
+다음 **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** 파일에 동기화 결과가 포함되어 있습니다. 기본적으로 다음 디렉토리에서 사용할 수 있습니다. **installationDirectory/var/instanceName/postupgrade**. 오류와 경고는 오류 및 경고 속성으로 표시됩니다.
 
 ### 충돌 분석
 
@@ -312,10 +312,10 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 충돌을 해결하려면 다음 프로세스를 적용합니다.
 
-1. Adobe Campaign 탐색기에서 **관리 > 구성 > 패키지 관리 > 충돌 편집**&#x200B;으로 이동합니다.
+1. Adobe Campaign 탐색기에서 **관리 > 구성 > 패키지 관리 > 충돌 편집**.
 
 1. 목록에서 해결할 충돌을 선택합니다.
-충돌을 해결하는 세 가지 옵션이 있습니다. **새 버전**, **현재 버전**, **코드를 병합(및 해결된 것으로 선언)**, **충돌을 무시(권장되지 않음)**
+충돌을 해결하는 세 가지 옵션이 있습니다. **새 버전 수락**, **현재 버전 유지**, **코드 병합(및 해결된 것으로 선언)**, **충돌 무시(권장되지 않음)**.
 
 **새 버전은 언제 받을 수 있습니까?**
 
@@ -333,7 +333,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 * 양식, 보고서 및 웹 애플리케이션만 병합할 수 있습니다.
 * 일부 부 병합은 코드를 이해하지 않고 해결할 수 있습니다.
 * 적절한 기술과 능력을 가진 사람이 더 복잡한 병합을 수행해야 합니다.
-* [병합 수행](#perform-a-merge)을 참조하십시오.
+* 자세한 내용은 [병합 수행](#perform-a-merge).
 
 **충돌을 무시하면 어떻게 되죠?**
 
@@ -351,7 +351,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 1. 간편한 병합: 사용자 지정 요소와 새로운 요소는 소규모이며 관련이 없으며 코딩할 필요가 없습니다.
 1. 변경 사항 없음: 새 버전을 수락하고 마지막 업데이트 날짜만 변경했으며 주석, 탭, 공백 또는 새 줄만 변경했습니다. 예: 실수로 저장합니다.
 1. 사소한 변경: 한 줄만 변경되었습니다. 예: xpathToLoad
-1. 복잡한 병합: 코딩이 필요한 경우 개발 기술이 필요합니다. [복합 병합](#complex-merges)을 참조하십시오.
+1. 복잡한 병합: 코딩이 필요한 경우 개발 기술이 필요합니다. 자세한 내용은 [복합 병합](#complex-merges).
 
 #### 병합 방법
 
@@ -363,8 +363,8 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 #### 코드를 찾을 위치
 
 1. 기본 제공 코드는 데이터베이스 폴더의 XML 파일에 저장됩니다. 충돌하는 객체와 일치하는 XML 파일을 찾습니다. 예: installationDirectory\datakit\nms\fra\form\recipient.xml
-1. 원래 버전을 검색합니다. [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 또는 업그레이드되지 않은 다른 제품 설치를 통해 다운로드하십시오.
-1. 새 버전을 검색합니다. [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 또는 고객이 설치한 파일을 통해 다운로드하십시오.
+1. 원래 버전을 검색합니다. 사용 [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 또는 제품의 다른 업그레이드되지 않은 설치.
+1. 새 버전을 검색합니다. 사용 [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 또는 고객이 설치한 파일
 1. 사용자 지정 버전을 검색합니다. campaign 클라이언트 내에서 개체의 소스 코드를 검색합니다.
 
 ### 차이를 만드는 방법
@@ -383,9 +383,9 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 충돌을 수동으로 해결하도록 선택한 경우 다음과 같이 진행하십시오.
 
-1. 창의 아래 섹션에서 **_conflict_string_**&#x200B;을 검색하여 충돌이 있는 엔티티를 찾습니다. 새 버전과 함께 설치된 엔터티에 새 인수가 포함되어 있으며 이전 버전과 일치하는 엔터티에 사용자 지정 인수가 포함되어 있습니다.
-1. 유지하지 않을 버전을 삭제합니다. 유지하고 있는 엔터티의 **_conflict_argument_** 문자열을 삭제합니다.
-1. 해결된 충돌로 이동합니다. **Actions** 아이콘을 클릭하고 **Declare as resolved**&#x200B;을 선택합니다.
+1. 창의 아래 섹션에서 **_conflict_string_** 충돌하는 엔티티를 찾습니다. 새 버전과 함께 설치된 엔터티에 새 인수가 포함되어 있으며 이전 버전과 일치하는 엔터티에 사용자 지정 인수가 포함되어 있습니다.
+1. 유지하지 않을 버전을 삭제합니다. 삭제 **_conflict_argument_** 유지할 엔티티의 문자열입니다.
+1. 해결된 충돌로 이동합니다. 을(를) 클릭합니다. **작업** 아이콘을 클릭하고 **해결된 것으로 선언**.
 1. 변경 사항을 저장합니다. 이제 충돌이 해결되었습니다.
 
 #### 복합 병합{#complex-merges}

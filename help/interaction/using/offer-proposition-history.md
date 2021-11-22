@@ -23,14 +23,14 @@ ht-degree: 15%
 >
 >이 기능은 온라인으로 게재 관리자에게만 표시됩니다.
 
-* 오퍼 수준의 **[!UICONTROL Edit]** 탭에서 **[!UICONTROL Propositions]** 을 클릭합니다.
+* 오퍼 수준에서 **[!UICONTROL Edit]** 탭, **[!UICONTROL Propositions]**.
 
    ![](assets/offer_followup_006.png)
 
-* 수신자의 프로필에서 **[!UICONTROL Propositions]** 탭을 클릭합니다.
+* 수신자 프로필에서 **[!UICONTROL Propositions]** 탭.
 
    ![](assets/offer_followup_002.png)
 
-* 오퍼 공간 수준에서 **[!UICONTROL Propositions]** 탭을 클릭합니다.
+* 오퍼 공간 수준에서 **[!UICONTROL Propositions]** 탭.
 
    ![](assets/offer_space_prop_001_b.png)

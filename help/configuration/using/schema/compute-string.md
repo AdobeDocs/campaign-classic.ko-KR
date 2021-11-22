@@ -35,11 +35,11 @@ ht-degree: 8%
 
 ## 설명 {#description-1}
 
-`<compute-string>` 요소를 사용하면 XTK 표현식을 기반으로 문자열을 생성하여 여러 값을 기반으로 인터페이스에 &quot;built&quot; 레이블을 표시할 수 있습니다.
+다음 `<compute-string>` 요소를 사용하면 XTK 표현식을 기반으로 문자열을 생성하여 인터페이스에 여러 값을 기반으로 &quot;기본&quot; 레이블을 표시할 수 있습니다.
 
 ## 사용 및 사용 컨텍스트 {#use-and-context-of-use-1}
 
-`<compute-string>` 이 정의되지 않으면 기본적으로 `<compute-string>` 요소가 스키마에 있는 기본 키 값으로 입력됩니다.
+없을 때 `<compute-string>` 정의된 항목, `<compute-string>` 요소는 기본적으로 스키마에 있는 기본 키 값으로 입력됩니다.
 
 ## 속성 설명 {#attribute-description-1}
 

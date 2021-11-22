@@ -4,7 +4,8 @@ title: 기술 정보
 description: 기술 정보
 hide: true
 hidefromtoc: true
-source-git-commit: 53ac193211a1d98c45e97bf01ab0ad843b8f8f02
+exl-id: e7d4331b-7149-4768-8e46-2e2911319074
+source-git-commit: ed9e76495efb0cb49e248a7d38417642c5094a11
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 35%
@@ -23,7 +24,7 @@ ht-degree: 35%
 
 **영향을 받습니까?**
 
-보안을 위해 이메일의 링크 추적을 위한 서명 메커니즘은 [Campaign Gold Standard 8](../../rn/using/gold-standard.md#gs8) - 2020년 4월에 도입되었으며, 빌드 19.1.4(9032@3a9dc9c) 및 Campaign 20.2를 시작하는 모든 고객에 대해 기본적으로 활성화되어 있습니다.
+보안을 개선하기 위해 이메일의 링크를 추적하는 서명 메커니즘이 [Campaign Gold Standard 8](../../rn/using/gold-standard.md#gs8) - 2020년 4월 - Build 19.1.4 (9032@3a9dc9c) 및 Campaign 20.2를 시작하는 모든 고객에 대해 기본적으로 활성화됩니다.
 
 환경이 아래 나열된 버전 중 하나에서 실행 중인 경우 영향을 받을 수 있습니다.
 
@@ -35,18 +36,18 @@ ht-degree: 35%
 * Campaign 19.2.2(빌드 9080)에서 19.2.3(빌드 9081) 릴리스로 이동합니다. [자세히 알아보기](../../rn/using/release--19-2.md)
 * Campaign 19.1.5(빌드 9033)에서 19.1.7(빌드 9036) 릴리스로 이동합니다. [자세히 알아보기](../../rn/using/release--19-1.md)
 
-이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 버전 [을 확인하는 방법을 알아봅니다.
+버전을 확인하는 방법을 알아봅니다 [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **업데이트 방법**
 
-호스팅된 **고객**&#x200B;으로서 Adobe이 귀사와 협력하여 구성을 곧 업데이트할 예정입니다.
+로서의 **호스팅 고객**, Adobe이 사용자와 협력하여 구성을 곧 업데이트할 예정입니다.
 
-**온-프레미스/하이브리드 고객**&#x200B;은 구성을 업데이트해야 합니다.
+로서의 **온-프레미스/하이브리드 고객**&#x200B;를 눌러 구성을 업데이트해야 합니다.
 
 아래 단계를 따르십시오.
 
-1. [서버 구성 파일](../../installation/using/the-server-configuration-file.md) (serverConf.xml)에서 **signEmailLinks**&#x200B;를 **false**&#x200B;로 변경합니다.
-1. **nlserver** 서비스를 다시 시작합니다.
+1. 에서 [서버 구성 파일](../../installation/using/the-server-configuration-file.md) (serverConf.xml), 변경 **signEmailLinks** to **false**.
+1. 를 다시 시작합니다. **nlserver** 서비스.
 1. 추적 서버에서 웹 서버(Debian의 apache2, CentOS/RedHat의 httpd, Windows의 IIS)를 다시 시작합니다.
 
    ```
@@ -55,7 +56,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->**config-`<instance>`.xml** 파일은 **serverConf.xml** 설정을 무시합니다. **signEmailLinks**&#x200B;가 **config-`<instance>`.xml**(여기서 **instance**&#x200B;는 인스턴스 이름)에 있는 경우 **false**&#x200B;로도 설정해야 합니다.
+>다음 **config-`<instance>`.xml** 파일이 를 재정의합니다. **serverConf.xml** 설정. 만약 **signEmailLinks** 에 있음  **config-`<instance>`.xml** (다음과 같은 경우) **인스턴스** 는 인스턴스의 이름임)이며, **false**.
 
 **어떤 영향이 있습니까?**
 

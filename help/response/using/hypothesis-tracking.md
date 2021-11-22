@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ### 지표 {#indicators}
 
-가설이 계산되면 몇 가지 측정 지표가 자동으로 업데이트됩니다. 이러한 내용은 가설 **[!UICONTROL General]** 탭에서 사용할 수 있습니다.
+가설이 계산되면 몇 가지 측정 지표가 자동으로 업데이트됩니다. 이러한 기능은 **[!UICONTROL General]** 가설 탭.
 
 ![](assets/response_hypothesis_delivery_example_010.png)
 
@@ -35,13 +35,13 @@ ht-degree: 0%
 * **컨트롤 그룹의 응답률**: 응답자 컨트롤 그룹 수/게재 제어 그룹의 총 수입니다.
 * **반응 수**: 개인, 가설 및 트랜잭션 테이블 간의 관계를 포함하는 테이블의 레코드 수입니다.
 
-전체 지표 목록을 보려면 **[!UICONTROL Display the list]** 링크를 클릭하십시오.
+전체 지표 목록을 보려면 **[!UICONTROL Display the list]** 링크:
 
 ![](assets/response_hypothesis_indicators_002.png)
 
 다음 정보는 표시기에서 제공합니다.
 
-* **연락된** 모집단 총 매출액: 연락된 개인 수에 대한 총 금액입니다.
+* **연락된 모집단 총 매출액**: 연락된 개인 수에 대한 총 금액입니다.
 * **컨트롤 그룹의 총 매출액**: 컨트롤 그룹 수에 대한 총 금액입니다.
 * **연락처당 평균 매출액**: 총 금액/연락 횟수
 * **컨트롤 그룹의 평균 매출**: 합계 금액/통제 그룹.
@@ -58,21 +58,21 @@ ht-degree: 0%
 
 ### 반응 {#reactions}
 
-**[!UICONTROL Reactions]** 탭을 통해 가설 문서에 대한 수신자의 반응을 볼 수 있습니다.
+를 통해 가설을 통해 수신자의 반응을 볼 수 있습니다 **[!UICONTROL Reactions]** 탭.
 
-1. 가설 계산이 완료되면 Adobe Campaign 트리의 **[!UICONTROL Campaign management > Measurement hypotheses]** 노드로 이동합니다.
-1. 원하는 가설을 선택하고 **[!UICONTROL Reactions]** 탭을 클릭하여 마케팅 캠페인 다음에 구매할 수 있는 수신자 목록을 봅니다.
+1. 가설 계산이 완료되면 로 이동하십시오. **[!UICONTROL Campaign management > Measurement hypotheses]** 노드 아래에 나열된 상태로 남아 있습니다.
+1. 원하는 가설을 선택하고 을(를) 클릭합니다 **[!UICONTROL Reactions]** 탭하여 마케팅 캠페인 다음에 구매할 수 있는 수신자 목록을 볼 수 있습니다.
 
    ![](assets/response_hypothesis_reactions_001.png)
 
 ## 보고서 {#reports}
 
-**[!UICONTROL Hypothesis report]**&#x200B;을 사용하면 캠페인 및 게재에서 수행된 가설 결과를 볼 수 있습니다. 이 보고서에는 가설을 통해 계산된 지표가 포함되어 있습니다(자세한 내용은 [지표](#indicators) 참조).
+다음 **[!UICONTROL Hypothesis report]** 캠페인 및 게재에서 수행된 가설 결과를 볼 수 있습니다. 이 보고서에는 가설을 통해 계산된 지표가 포함되어 있습니다(자세한 내용은 [지표](#indicators)).
 
-* **캠페인 수준에서**: 관련  **[!UICONTROL Reports]** 캠페인의 링크를 클릭하고 을(를) 선택합니다  **[!UICONTROL Hypothesis report]**. 이 보고서에는 각 게재에 대해 계산된 가설 및 캠페인 게재 목록이 포함되어 있습니다.
+* **캠페인 수준에서**: 를 클릭합니다. **[!UICONTROL Reports]** 관련 캠페인의 링크를 선택하고 **[!UICONTROL Hypothesis report]**. 이 보고서에는 각 게재에 대해 계산된 가설 및 캠페인 게재 목록이 포함되어 있습니다.
 
    ![](assets/response_hypothesis_campaign_report_001.png)
 
-* **게재 수준**: 보고서에 액세스하려면 관련 게재를 열고 탭 **[!UICONTROL Reports]** 에서 을( **[!UICONTROL Summary]** 를) 클릭하고 을(를) 선택합니다  **[!UICONTROL Hypothesis report]**. 동일한 게재에 대해 여러 가설이 계산되면 보고서에 모든 가설이 포함됩니다.
+* **게재 수준에서**: 보고서에 액세스하려면 관련 게재를 열고 **[!UICONTROL Reports]** 에서 **[!UICONTROL Summary]** 탭을 선택하고 을(를) 선택합니다 **[!UICONTROL Hypothesis report]**. 동일한 게재에 대해 여러 가설이 계산되면 보고서에 모든 가설이 포함됩니다.
 
    ![](assets/response_hypothesis_delivery_report_001.png)

@@ -17,7 +17,7 @@ ht-degree: 19%
 
 ![](../../assets/common.svg)
 
-Adobe Campaign에서는 [기본 제공 보고서](../../reporting/using/about-campaign-built-in-reports.md) 외에도 다양한 컨텍스트에서 보고서를 생성하여 다양한 요구를 충족할 수 있습니다. 사용 및 구현 모드의 원칙은 이 문서에 자세히 설명되어 있습니다.
+추가 [기본 제공 보고서](../../reporting/using/about-campaign-built-in-reports.md), Adobe Campaign 을 사용하면 다양한 컨텍스트에서 보고서를 생성하여 다양한 요구를 충족할 수 있습니다. 사용 및 구현 모드의 원칙은 이 문서에 자세히 설명되어 있습니다.
 
 Adobe Campaign은 전문 보고 도구가 아닙니다. Adobe Campaign에서 생성된 보고서는 주로 집계된 데이터를 볼 수 있도록 해줍니다. 데이터 분석 및 표현 전용 Adobe Campaign 보고서는 데이터베이스 내보내기를 위해 설계되지 않았습니다.
 

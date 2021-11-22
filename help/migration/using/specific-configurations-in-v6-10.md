@@ -25,4 +25,4 @@ ht-degree: 12%
 >
 >업데이트를 거부하면 연결할 수 없습니다.
 
-8104 빌드보다 오래된 v6.10 플랫폼에서 마이그레이션하는 경우 v7](../../migration/using/general-configurations.md#new-features-in-v7) 섹션의 [새로운 기능 섹션도 참조해야 합니다.
+8104 빌드보다 오래된 v6.10 플랫폼에서 마이그레이션하는 경우 [v7의 새로운 기능](../../migration/using/general-configurations.md#new-features-in-v7) 섹션을 참조하십시오.

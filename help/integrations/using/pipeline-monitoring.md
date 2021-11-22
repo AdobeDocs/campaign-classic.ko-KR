@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ![](../../assets/common.svg)
 
-[!DNL pipelined] 상태 웹 서비스는 [!DNL pipelined] 프로세스의 상태에 대한 정보를 제공합니다.
+다음 [!DNL pipelined] 상태 웹 서비스는 상태 정보를 제공합니다 [!DNL pipelined] 프로세스.
 
 브라우저를 사용하여 수동으로 또는 모니터링 애플리케이션을 통해 자동으로 액세스할 수 있습니다.
 
@@ -41,7 +41,7 @@ ht-degree: 1%
    * next-offsets-flush: 작업이 완료되면 다음 배치를 기다릴 시간입니다.
    * processed-since-last-flush: 마지막 배치에서 처리된 트리거 수입니다.
 * 라우팅
-   * 트리거: 검색된 트리거 목록입니다. [!DNL pipelined] 옵션에 구성되었습니다.
+   * 트리거: 검색된 트리거 목록입니다. 에서 구성됨 [!DNL pipelined] 선택 사항입니다.
 * stats
    * average-pointer-flush-time-ms: 하나의 트리거 일괄 처리에 대한 평균 처리 시간입니다.
    * 평균 트리거 처리 시간(ms): 트리거 데이터를 구문 분석하는 데 걸린 평균 시간입니다.

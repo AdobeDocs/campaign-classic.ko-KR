@@ -63,7 +63,7 @@ Adobe Campaign Classic 인스턴스를 설치할 때 언어가 선택됩니다.
 
 Adobe Campaign Classic 인스턴스에서 선택한 언어는 날짜 및 시간 형식에 영향을 줄 수 있습니다. 자세한 정보는 이 [섹션](../../platform/using/adobe-campaign-workspace.md#date-and-time)을 참조하십시오.
 
-인스턴스를 만드는 방법에 대한 자세한 내용은 이 [page](../../installation/using/creating-an-instance-and-logging-on.md)을 참조하십시오.
+인스턴스를 만드는 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../../installation/using/creating-an-instance-and-logging-on.md).
 
 >[!CAUTION]
 >
@@ -79,15 +79,15 @@ Adobe Campaign Classic 인스턴스에서 선택한 언어는 날짜 및 시간 
 
 액세스할 수 있는 핵심 기능 목록은 설치한 패키지 및 추가 기능과 액세스 권한에 따라 다릅니다.
 
-각 기능에는 작업 관련 요구 사항 및 사용 컨텍스트에 따른 기능 세트가 포함되어 있습니다. 예를 들어 **[!UICONTROL Profiles and targets]** 링크를 통해 수신자 목록, 구독 서비스, 기존 타깃팅 워크플로우 및 이러한 요소를 만드는 바로 가기를 가져올 수 있습니다.
+각 기능에는 작업 관련 요구 사항 및 사용 컨텍스트에 따른 기능 세트가 포함되어 있습니다. 예를 들어, **[!UICONTROL Profiles and targets]** 링크를 통해 수신자 목록, 구독 서비스, 기존 타깃팅 워크플로우 및 이러한 요소를 만드는 바로 가기를 가져올 수 있습니다.
 
-목록은 **[!UICONTROL Profiles and Targets]** 인터페이스의 왼쪽 섹션에 있는 **[!UICONTROL Lists]** 링크를 통해 사용할 수 있습니다.
+목록은 **[!UICONTROL Lists]** 의 왼쪽 섹션에 있는 링크 **[!UICONTROL Profiles and Targets]** 인터페이스.
 
 ![](assets/recipient_list_overview.png)
 
 ### 탭 사용 {#using-tabs}
 
-* 핵심 기능 또는 링크를 클릭하면 관련 페이지가 현재 페이지를 대체합니다. 이전 페이지로 돌아가려면 도구 모음에서 **[!UICONTROL Back]** 버튼을 클릭합니다. 홈 페이지로 돌아가려면 **[!UICONTROL Home]** 단추를 클릭합니다.
+* 핵심 기능 또는 링크를 클릭하면 관련 페이지가 현재 페이지를 대체합니다. 이전 페이지로 돌아가려면 **[!UICONTROL Back]** 단추를 클릭합니다. 홈 페이지로 돌아가려면 **[!UICONTROL Home]** 버튼을 클릭합니다.
 
    ![](assets/d_ncs_user_interface_back_home_buttons.png)
 
@@ -97,11 +97,11 @@ Adobe Campaign Classic 인스턴스에서 선택한 언어는 날짜 및 시간 
 
 ### 요소 만들기 {#creating-an-element}
 
-각 핵심 기능 섹션에서 사용 가능한 요소 간을 찾아볼 수 있습니다. 이렇게 하려면 **[!UICONTROL Browsing]** 섹션의 바로 가기를 사용합니다. **[!UICONTROL Other choices]** 링크를 사용하면 환경에 관계없이 다른 모든 페이지에 액세스할 수 있습니다.
+각 핵심 기능 섹션에서 사용 가능한 요소 간을 찾아볼 수 있습니다. 이렇게 하려면 의 바로 가기를 사용합니다 **[!UICONTROL Browsing]** 섹션을 참조하십시오. 다음 **[!UICONTROL Other choices]** 링크를 사용하면 환경에 관계없이 다른 모든 페이지에 액세스할 수 있습니다.
 
-새 요소(게재, 웹 애플리케이션, 워크플로우 등)는 화면 왼쪽에 있는 **[!UICONTROL Create]** 섹션의 바로 가기 사용 목록 위에 있는 **[!UICONTROL Create]** 단추를 사용하여 새 요소를 목록에 추가합니다.
+새 요소(게재, 웹 애플리케이션, 워크플로우 등)는 에서 바로 가기 사용 **[!UICONTROL Create]** 화면 왼쪽에 있는 섹션을 참조하십시오. 를 사용하십시오 **[!UICONTROL Create]** 목록에 새 요소를 추가하려면 목록 위에 단추를 누릅니다.
 
-예를 들어 게재 페이지에서 **[!UICONTROL Create]** 버튼을 사용하여 새 게재를 만듭니다.
+예를 들어 게재 페이지에서 **[!UICONTROL Create]** 새 게재를 만드는 단추입니다.
 
 ![](assets/d_ncs_user_interface_tab_add_del.png)
 
@@ -121,14 +121,14 @@ Campaign을 설치할 때 언어가 선택되고 나중에 변경할 수 없습�
   <tr> 
    <th> 형식<br /> </th> 
    <th> 영어(미국)<br /> </th> 
-   <th> 영어(EN)<br /> </th> 
+   <th> 영어(영어)<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> 날짜<br /> </td> 
-   <td> 주가 일요일에 시작<br /> </td> 
-   <td> 주가 월요일에 시작<br /> </td> 
+   <td> 주는 일요일에 시작됩니다<br /> </td> 
+   <td> 주는 월요일에 시작됩니다<br /> </td> 
   </tr> 
   <tr> 
    <td> 짧은 날짜<br /> </td> 
@@ -136,28 +136,28 @@ Campaign을 설치할 때 언어가 선택되고 나중에 변경할 수 없습�
    <td> <p>%2D/%2M/%4Y</p><p><strong>ex: 25/09/2018</strong></p> </td> 
   </tr> 
   <tr> 
-   <td> 시간<br />이 있는 짧은 날짜 </td> 
-   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>ex: 09/25/2018 10:47:오후 25</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex: 25/09/2018 22:47:25</strong></p> </td> 
+   <td> 짧은 날짜(시간 포함)<br /> </td> 
+   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>ex: 09/25/2018 10:47:오후 25시</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex: 25/09/2018 22:47:25년</strong></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 열거형에 값 추가 {#add-values-in-an-enumeration}
 
-드롭다운 목록과 함께 입력 필드를 사용하여 열거형 값을 입력할 수 있습니다. 열거형 값은 저장된 다음 드롭다운 목록에서 옵션으로 제공됩니다. 예를 들어 수신자 프로필의 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL City]** 필드에서 London을 입력할 수 있습니다. Enter 키를 눌러 이 값을 확인하면 필드에 연결된 열거에 대해 이 값을 저장할 것인지 묻는 메시지가 표시됩니다.
+드롭다운 목록과 함께 입력 필드를 사용하여 열거형 값을 입력할 수 있습니다. 열거형 값은 저장된 다음 드롭다운 목록에서 옵션으로 제공됩니다. 예를 들어, **[!UICONTROL City]** 필드 **[!UICONTROL General]** 수신자 프로필의 탭에서 London을 입력할 수 있습니다. Enter 키를 눌러 이 값을 확인하면 필드에 연결된 열거에 대해 이 값을 저장할 것인지 묻는 메시지가 표시됩니다.
 
 ![](assets/s_ncs_user_wizard_email_bat_substitute_email.png)
 
-**[!UICONTROL Yes]** 을 클릭하면 관련 필드의 콤보 상자에서 이 값을 사용할 수 있습니다(이 경우: **[!UICONTROL London]**)
+를 클릭하면 **[!UICONTROL Yes]**&#x200B;로 지정하는 경우 이 값은 관련 필드의 콤보 상자에서 사용할 수 있습니다(이 경우, **[!UICONTROL London]**).
 
 >[!NOTE]
 >
->열거형(&#39;항목화된 목록&#39;이라고도 함)은 관리자가 **[!UICONTROL Administration > Platform > Enumerations]** 섹션을 통해 관리합니다. 자세한 내용은 [열거형 관리](../../platform/using/managing-enumerations.md)를 참조하십시오.
+>열거형(&#39;항목화된 목록&#39;이라고도 함)은 관리자가 **[!UICONTROL Administration > Platform > Enumerations]** 섹션을 참조하십시오. 자세한 내용은 [열거형 관리](../../platform/using/managing-enumerations.md).
 
 ### 기본 단위 {#default-units}
 
-지속 기간을 표시하는 필드(예: 게재 리소스의 유효 기간, 작업의 승인 기한 등)에서 값은 다음 **units**&#x200B;로 표시될 수 있습니다.
+기간(예: 게재 리소스의 유효 기간, 작업의 승인 기한 등)을 나타내는 필드에서 값을 다음과 같이 표시할 수 있습니다 **판매량**:
 
 * **[!UICONTROL s]** - 초
 * **[!UICONTROL mn]** - 분
@@ -172,4 +172,4 @@ Campaign을 설치할 때 언어가 선택되고 나중에 변경할 수 없습�
 
 >[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
 
-추가 Campaign Classic 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에 있습니다.
+추가 Campaign Classic 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).

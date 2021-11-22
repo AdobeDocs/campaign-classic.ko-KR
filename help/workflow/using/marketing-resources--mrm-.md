@@ -17,7 +17,7 @@ ht-degree: 11%
 
 ![](../../assets/common.svg)
 
-아래 자세히 설명된 워크플로우는 기본적으로 **마케팅 리소스(MRM)** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../campaign/using/designing-marketing-campaigns.md)을 참조하십시오.
+아래 자세히 설명된 워크플로우는 **마케팅 리소스(MRM)** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../../campaign/using/designing-marketing-campaigns.md).
 
 <table> 
  <tbody> 

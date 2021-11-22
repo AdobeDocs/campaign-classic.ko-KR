@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ![](../../assets/common.svg)
 
-여기에서는 **[!UICONTROL Enumerations]** 유형 계산 필드를 사용하여 쿼리를 만들겠습니다. 이 필드는 데이터 미리 보기 창에서 추가 열을 생성합니다. 이 열에는 각 수신자(0, 1 및 2)에 대한 결과로 반환되는 숫자 값이 지정됩니다. 새 열의 각 값에 성이 할당됩니다. &quot;1&quot;의 경우 &quot;Male&quot;, &quot;2&quot;의 경우 &quot;Female&quot; 또는 &quot;Not indicated&quot;의 경우 값이 &quot;0&quot;입니다.
+여기에서는 **[!UICONTROL Enumerations]** 계산된 필드를 입력합니다. 이 필드는 데이터 미리 보기 창에서 추가 열을 생성합니다. 이 열에는 각 수신자(0, 1 및 2)에 대한 결과로 반환되는 숫자 값이 지정됩니다. 새 열의 각 값에 성이 할당됩니다. &quot;1&quot;의 경우 &quot;Male&quot;, &quot;2&quot;의 경우 &quot;Female&quot; 또는 &quot;Not indicated&quot;의 경우 값이 &quot;0&quot;입니다.
 
 * 어떤 테이블을 선택해야 합니까?
 
@@ -33,42 +33,42 @@ ht-degree: 0%
 
 다음 단계를 적용합니다.
 
-1. 일반 쿼리 편집기를 열고 수신자 테이블(**[!UICONTROL nms:recipient]**)을 선택합니다.
-1. **[!UICONTROL Data to extract]** 창에서 **[!UICONTROL Last name]**, **[!UICONTROL First name]** 및 **[!UICONTROL Gender]**&#x200B;를 선택합니다.
+1. 일반 쿼리 편집기를 열고 수신자 테이블(**[!UICONTROL nms:recipient]**).
+1. 에서 **[!UICONTROL Data to extract]** 창, 선택 **[!UICONTROL Last name]**, **[!UICONTROL First name]** 및 **[!UICONTROL Gender]**.
 
    ![](assets/query_editor_nveau_73.png)
 
-1. **[!UICONTROL Sorting]** 창에서 **[!UICONTROL Next]** 를 클릭합니다. 이 예에는 정렬이 필요하지 않습니다.
+1. 에서 **[!UICONTROL Sorting]** 창 **[!UICONTROL Next]**: 이 예에는 정렬이 필요하지 않습니다.
 1. **[!UICONTROL Data filtering]**&#x200B;에서 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Target element]** 창에서 영어로 말하는 수신자를 수집하도록 필터 조건을 설정합니다.
+1. 에서 **[!UICONTROL Target element]** 창에서 영어로 말하는 수신자를 수집하도록 필터 조건을 설정합니다.
 
    ![](assets/query_editor_nveau_74.png)
 
-1. **[!UICONTROL Data formatting]** 창에서 **[!UICONTROL Add a calculated field]** 을 클릭합니다.
+1. 에서 **[!UICONTROL Data formatting]** 창 **[!UICONTROL Add a calculated field]**.
 
    ![](assets/query_editor_nveau_75.png)
 
-1. **[!UICONTROL Export calculated field definition]** 창의 **[!UICONTROL Type]** 창으로 이동하여 **[!UICONTROL Enumerations]**&#x200B;를 선택합니다.
+1. 로 이동합니다. **[!UICONTROL Type]** 창 **[!UICONTROL Export calculated field definition]** 창 및 선택 **[!UICONTROL Enumerations]**.
 
-   새 계산된 필드가 참조해야 하는 열을 정의합니다. 이렇게 하려면 **[!UICONTROL Source column]** 필드의 드롭다운 메뉴에서 **[!UICONTROL Gender]** 열을 선택합니다. 대상 값은 **[!UICONTROL Gender]** 열과 일치합니다.
+   새 계산된 필드가 참조해야 하는 열을 정의합니다. 이렇게 하려면 **[!UICONTROL Gender]** 열(Marketing Cloud의 **[!UICONTROL Source column]** 필드: 대상 값은 **[!UICONTROL Gender]** 열.
 
    ![](assets/query_editor_nveau_76.png)
 
-   **Source** 및 **Destination** 값을 정의합니다. 대상 값을 사용하면 쿼리 결과를 보다 쉽게 읽을 수 있습니다. 이 쿼리는 수신자 성별을 반환해야 하며 결과는 0, 1 또는 2입니다.
+   을(를) 정의합니다 **소스** 및 **대상** 값: 대상 값을 사용하면 쿼리 결과를 보다 쉽게 읽을 수 있습니다. 이 쿼리는 수신자 성별을 반환해야 하며 결과는 0, 1 또는 2입니다.
 
-   입력할 각 &quot;source-destination&quot; 줄에 대해 **[!UICONTROL List of enumeration values]**&#x200B;에서 **[!UICONTROL Add]**&#x200B;을 클릭합니다.
+   입력할 각 &quot;소스 대상&quot; 라인에 대해 **[!UICONTROL Add]** 에서 **[!UICONTROL List of enumeration values]**:
 
-   * **[!UICONTROL Source]** 열에서 새 라인에 각 성별(0,1,2)의 소스 값을 입력합니다.
-   * **[!UICONTROL Destination]** 열에 값을 입력합니다. 라인 &quot;0&quot;의 경우 &quot;지정되지 않음&quot;, 라인 &quot;1&quot;의 경우 &quot;남성&quot;, 라인 &quot;2&quot;의 경우 &quot;여성&quot;.
+   * 에서 **[!UICONTROL Source]** 열의 새 라인에 각 성별(0,1,2)의 출처 값을 입력합니다.
+   * 에서 **[!UICONTROL Destination]** 열에서 값을 입력합니다. 라인 &quot;0&quot;의 경우 &quot;지정되지 않음&quot;, 라인 &quot;1&quot;의 경우 &quot;남성&quot;, 라인 &quot;2&quot;의 경우 &quot;여성&quot;.
 
-   **[!UICONTROL Keep the source value]** 함수를 선택합니다.
+   을(를) 선택합니다 **[!UICONTROL Keep the source value]** 함수 위에 있어야 합니다.
 
-   **[!UICONTROL OK]** 을 클릭하여 계산된 필드를 승인합니다.
+   클릭 **[!UICONTROL OK]** 계산된 필드를 승인하려면
 
    ![](assets/query_editor_nveau_77.png)
 
-1. **[!UICONTROL Data formatting]** 창에서 **[!UICONTROL Next]** 을 클릭합니다.
-1. 미리 보기 창에서 **[!UICONTROL start the preview of the data]**
+1. 에서 **[!UICONTROL Data formatting]** 창 **[!UICONTROL Next]**.
+1. 미리 보기 창에서 **[!UICONTROL start the preview of the data]**.
 
    추가 열은 0, 1 및 2의 성별을 정의합니다.
 
@@ -78,10 +78,10 @@ ht-degree: 0%
 
    ![](assets/query_editor_nveau_78.png)
 
-   예를 들어 **[!UICONTROL List of enumeration values]**&#x200B;에 gender &quot;2&quot;를 입력하지 않고 **[!UICONTROL In other cases]** 필드의 **[!UICONTROL Generate a warning and continue]** 함수가 선택된 경우 경고 로그가 표시됩니다. 이 로그는 성별 &quot;2&quot;(여성)을 입력하지 않았음을 나타냅니다. 데이터 미리 보기 창의 **[!UICONTROL Logs generated during export]** 필드에 표시됩니다.
+   예를 들어, **[!UICONTROL List of enumeration values]**, 및 **[!UICONTROL Generate a warning and continue]** 함수 **[!UICONTROL In other cases]** 필드를 선택하면 경고 로그가 표시됩니다. 이 로그는 성별 &quot;2&quot;(여성)을 입력하지 않았음을 나타냅니다. 다음 위치에 표시됩니다 **[!UICONTROL Logs generated during export]** 데이터 미리 보기 창의 필드입니다.
 
    ![](assets/query_editor_nveau_79.png)
 
-   다른 예를 들어 열거형 값 &quot;2&quot;을 입력하지 않았다고 가정해 보겠습니다. **[!UICONTROL Generate an error and reject the line]** 함수를 선택합니다. 모든 성별 &quot;2&quot; 수신자는 예외 항목 및 줄(이름과 성 등)에 있는 기타 정보를 발생시킵니다 내보낼 수 없습니다. 데이터 미리 보기 창의 **[!UICONTROL Logs generated during export]** 필드에 오류 로그가 표시됩니다. 이 로그는 열거형 값 &quot;2&quot;을(를) 입력하지 않았음을 나타냅니다.
+   다른 예를 들어 열거형 값 &quot;2&quot;을 입력하지 않았다고 가정해 보겠습니다. 을(를) 선택합니다 **[!UICONTROL Generate an error and reject the line]** 함수: 모든 성별 &quot;2&quot; 수신자는 예외 항목 및 줄(이름과 성 등)에 있는 기타 정보를 발생시킵니다 내보낼 수 없습니다. 오류 로그가 **[!UICONTROL Logs generated during export]** 데이터 미리 보기 창의 필드입니다. 이 로그는 열거형 값 &quot;2&quot;을(를) 입력하지 않았음을 나타냅니다.
 
    ![](assets/query_editor_nveau_80.png)

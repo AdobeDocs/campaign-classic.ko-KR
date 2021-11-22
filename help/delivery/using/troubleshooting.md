@@ -30,4 +30,4 @@ HTTP/2 커넥터: 다음 서버와의 통신을 허용해야 합니다.
 
 >[!NOTE]
 >
->두 커넥터에 대한 자세한 내용은 [Adobe Campaign](configuring-the-mobile-application.md)에서 모바일 애플리케이션 구성 을 참조하십시오.
+>두 커넥터에 대한 자세한 내용은 [Adobe Campaign에서 모바일 애플리케이션 구성](configuring-the-mobile-application.md).

@@ -35,13 +35,13 @@ Adobe Campaign을 사용하려면 하나 이상의 환경을 설치하고 구성
 
 1. 소스 환경의 모든 인스턴스에 데이터베이스 복사본을 만듭니다.
 1. 타겟 환경의 모든 인스턴스에서 이러한 복사본을 복원합니다.
-1. 시작하기 전에 대상 환경에서 **nms:freezeInstance.js** 자작화 스크립트를 실행합니다.
+1. 를 실행합니다. **nms:freezeInstance.js** 시작하기 전에 대상 환경에서 자작화 스크립트를 사용하십시오.
 
    이 프로세스는 서버 및 해당 구성에 영향을 주지 않습니다.
 
    >[!NOTE]
    >
-   >Adobe Campaign 컨텍스트에서 **자작화**&#x200B;는 외부와의 상호 작용을 모두 중지할 수 있는 작업을 결합합니다. 로그, 추적, 게재, 캠페인 워크플로우 등\
+   >Adobe Campaign의 컨텍스트에서 **소작화** 은 외부와의 상호 작용을 모두 중지할 수 있는 작업을 결합합니다. 로그, 추적, 게재, 캠페인 워크플로우 등\
    >이 단계는 여러 번(명목상 환경에서 한 번, 중복된 환경에서 한 번) 메시지를 전달하지 않도록 하기 위해 필요합니다.
 
    >[!IMPORTANT]
@@ -61,14 +61,14 @@ Adobe Campaign을 사용하려면 하나 이상의 환경을 설치하고 구성
 
 ### 전송 프로시저 {#transfer-procedure}
 
-이 섹션은 사례 연구를 통해 소스 환경을 대상 환경으로 전송하는 데 필요한 단계를 이해하는 데 도움이 됩니다. 여기에서는 프로덕션 환경(**prod** 인스턴스)을 개발 환경(**dev** 인스턴스)으로 복원하여 &#39;live&#39; 플랫폼에 최대한 가까운 컨텍스트에서 작동하는 것이 목표입니다.
+이 섹션은 사례 연구를 통해 소스 환경을 대상 환경으로 전송하는 데 필요한 단계를 이해하는 데 도움이 됩니다. 여기서의 목표는 프로덕션 환경을 복원하는 것입니다(**prod** 인스턴스)를 개발 환경(**개발** 인스턴스)를 사용하십시오.
 
 다음 단계는 매우 신중하게 수행해야 합니다. 소스 환경 데이터베이스를 복사할 때 일부 프로세스가 계속 진행 중일 수 있습니다. 자작화(아래 3단계)는 메시지가 두 번 전송되지 않도록 하고 데이터 일관성을 유지합니다.
 
 >[!IMPORTANT]
 >
 >* 다음 절차는 PostgreSQL 언어로 유효합니다. SQL 언어가 다른 경우(예: Oracle) SQL 쿼리를 수정해야 합니다.
->* 아래 명령은 **prod** 인스턴스 및 PostgreSQL 아래의 **dev** 인스턴스 컨텍스트 내에 적용됩니다.
+>* 아래 명령은 **prod** 인스턴스 및 **개발** PostgreSQL 아래의 인스턴스입니다.
 
 >
 
@@ -95,8 +95,8 @@ pg_dump mydatabase > mydatabase.sql
 
 이렇게 하려면 다음 두 요소에 대해 패키지 내보내기를 수행합니다.
 
-* 다음 내부 이름을 가진 레코드 없이 **xtk:option** 테이블을 &#39;options_dev.xml&#39; 파일로 내보냅니다. &#39;WdbcTimeZone&#39;, &#39;NmsServer_LastPostUpgrade&#39; 및 &#39;NmsBroadcast_RegexRules&#39;.
-* &#39;extaccount_dev.xml&#39; 파일에서 ID가 0이 아닌 모든 레코드에 대해 **nms:extAccount** 테이블을 내보냅니다(@id &lt;> 0).
+* 내보내기 **xtk:option** 테이블이 다음 내부 이름을 가진 레코드 없이 &#39;options_dev.xml&#39; 파일로 삽입됩니다. &#39;WdbcTimeZone&#39;, &#39;NmsServer_LastPostUpgrade&#39; 및 &#39;NmsBroadcast_RegexRules&#39;.
+* &#39;extaccount_dev.xml&#39; 파일에서 **nms:extAccount** ID가 0이 아닌 모든 레코드의 테이블(@id &lt;> 0).
 
 내보낸 옵션/계정 수가 각 파일에서 내보낼 라인 수와 같은지 확인합니다.
 
@@ -138,14 +138,14 @@ nlserver pdump
 
 >[!NOTE]
 >
->Windows에서는 **webmdl** 프로세스가 다른 작업에 영향을 주지 않고 계속 활성 상태가 될 수 있습니다.
+>Windows에서는 **webmdl** 프로세스는 다른 작업에 영향을 주지 않고 여전히 활성 상태일 수 있습니다.
 
 실행 중인 시스템 프로세스가 없는지 확인할 수도 있습니다.
 
 이렇게 하려면 다음 프로세스를 사용합니다.
 
-* Windows에서: **작업 관리자**&#x200B;를 열고 **nlserver.exe** 프로세스가 없는지 확인합니다.
-* Linux의 경우: **ps aux 실행 | grep nlserver** 명령을 실행하고 **nlserver** 프로세스가 없는지 확인합니다.
+* Windows에서: 열기 **작업 관리자** 그리고 아무 것도 없는지 확인해 **nlserver.exe** 프로세스.
+* Linux의 경우: 실행 **ps aux | grep nlserver** 명령을 실행하고 아무 것도 없는지 확인합니다. **nlserver** 프로세스.
 
 ### 4단계 - 대상 환경에서 데이터베이스 복원(개발) {#step-4---restore-the-databases-in-the-target-environment--dev-}
 
@@ -192,9 +192,9 @@ nlserver javascript nms:freezeInstance.js -instance:<dev> -arg:run
 
 >[!NOTE]
 >
->**dev** 환경에서 Adobe Campaign을 다시 시작하기 전에 추가 안전 절차를 적용할 수 있습니다. **web** 모듈만 시작합니다.
+>에서 Adobe Campaign을 다시 시작하기 전에 **개발** 환경을 사용하면 다음과 같은 추가 안전 절차를 적용할 수 있습니다. 시작 **웹** 모듈만 해당.
 >  
->이렇게 하려면 인스턴스의 구성 파일(**config-dev.xml**)을 편집한 다음 각 모듈(mta, stat 등)에 대한 autoStart=&quot;true&quot; 옵션 앞에 &quot;_&quot; 문자를 추가합니다.
+>이렇게 하려면 인스턴스의 구성 파일(**config-dev.xml**)를 만든 다음 각 모듈에 대한 autoStart=&quot;true&quot; 옵션 앞에 &quot;_&quot; 문자를 추가합니다(mta, stat 등).
 
 다음 명령을 실행하여 웹 프로세스를 시작합니다.
 
@@ -223,11 +223,11 @@ nlserver pdump
 1. 데이터베이스의 관리 콘솔을 열고 ID가 0이 아닌 외부 계정(테이블 nms:extAccount)을 제거합니다(@id &lt;> 0).
 1. Adobe Campaign 콘솔에서 패키지 가져오기 기능을 통해 이전에 만든 options_dev.xml 패키지를 가져옵니다.
 
-   옵션이 **[!UICONTROL Administration > Platform > Options]** 노드에서 실제로 업데이트되었는지 확인합니다.
+   옵션이 실제로 **[!UICONTROL Administration > Platform > Options]** 노드 아래에 있어야 합니다.
 
 1. Adobe Campaign 콘솔에서 패키지 가져오기 기능을 통해 이전에 만든 extaccount_dev.xml을 가져옵니다
 
-   외부 데이터베이스를 **[!UICONTROL Administration > Platform > External accounts]**&#x200B;에서 실제로 가져왔는지 확인합니다.
+   외부 데이터베이스가 실제로 **[!UICONTROL Administration > Platform > External accounts]** .
 
 ### 9단계 - 모든 프로세스를 다시 시작하고 사용자 변경(개발) {#step-9---restart-all-processes-and-change-users--dev-}
 

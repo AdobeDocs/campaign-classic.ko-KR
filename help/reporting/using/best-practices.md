@@ -31,15 +31,15 @@ ht-degree: 0%
 
    예를 들어 다음 작업을 수행할 수 있습니다.
 
-   * 데이터베이스의 데이터를 탐색하고 측정을 정의합니다. 추가 정보 [](../../reporting/using/about-cubes.md)
-   * 기존 보고서에 지표를 추가합니다. 추가 정보 [](../../reporting/using/about-reports-creation-in-campaign.md)
-   * 데이터베이스에서 데이터를 봅니다. 추가 정보 [](../../reporting/using/about-descriptive-analysis.md)
+   * 데이터베이스의 데이터를 탐색하고 측정을 정의합니다. 추가 정보 [이 섹션](../../reporting/using/about-cubes.md)
+   * 기존 보고서에 지표를 추가합니다. 추가 정보 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)
+   * 데이터베이스에서 데이터를 봅니다. 추가 정보 [이 섹션](../../reporting/using/about-descriptive-analysis.md)
    * 새 게재 보고서를 만듭니다. 추가 정보 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)),
-   * 워크플로우를 통해 Adobe Campaign 데이터베이스에서 데이터를 내보냅니다. [이 섹션](../../workflow/using/about-workflows.md)을 참조하십시오
-   * 피벗 테이블을 만듭니다. 추가 정보 [](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
-   * 집계된 데이터를 탐색합니다. 추가 정보 [](../../reporting/using/about-cubes.md)
-   * 마법사를 사용하여 데이터를 분석합니다. 추가 정보 [](../../reporting/using/about-descriptive-analysis.md)
-   * 대용량 데이터를 분석합니다. 추가 정보 [](../../reporting/using/about-reports-creation-in-campaign.md)
+   * 워크플로우를 통해 Adobe Campaign 데이터베이스에서 데이터를 내보냅니다. 자세한 내용은 [이 섹션](../../workflow/using/about-workflows.md)
+   * 피벗 테이블을 만듭니다. 추가 정보 [이 섹션](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
+   * 집계된 데이터를 탐색합니다. 추가 정보 [이 섹션](../../reporting/using/about-cubes.md)
+   * 마법사를 사용하여 데이터를 분석합니다. 추가 정보 [이 섹션](../../reporting/using/about-descriptive-analysis.md)
+   * 대용량 데이터를 분석합니다. 추가 정보 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)
 
 1. 대상 모집단 식별
 
@@ -102,7 +102,7 @@ if(string(ctx@_historyId)!==""))
 
    인덱싱된 필드를 빠르게 찾으려면 Adobe Campaign 인터페이스에서 열 이름을 확인합니다. 필드가 색인화되면 정렬 화살표에 빨간색으로 밑줄이 그어져 있습니다.
 
-   인덱스에 대한 자세한 내용은 [이 섹션](../../configuration/using/data-model-best-practices.md#indexes)을 참조하십시오.
+   인덱스에 대한 자세한 내용은 [이 섹션](../../configuration/using/data-model-best-practices.md#indexes).
 
 * 보고서가 확장 가능한지 확인합니다. 시간이 지남에 따라 데이터 볼륨이 크게 증가할 수 있습니다.
 
@@ -110,8 +110,8 @@ if(string(ctx@_historyId)!==""))
 
    마지막으로, 데이터 제거 지연을 파악하고 데이터 조작이 용이하도록 필요할 때 조정해야 합니다.
 
-   정리 및 데이터 유지에 대한 자세한 내용은 [이 섹션](../../configuration/using/data-model-best-practices.md#data-retention)을 참조하십시오.
+   정리 및 데이터 유지에 대한 자세한 내용은 [이 섹션](../../configuration/using/data-model-best-practices.md#data-retention).
 
 ### 보고서 내보내기 {#exporting-reports}
 
-보고서 내보내기에 대한 Recommendations은 [이 섹션에 자세히 설명되어 있습니다.](../../reporting/using/actions-on-reports.md#exporting-a-report)
+보고서 내보내기에 대한 Recommendations은 [이 섹션](../../reporting/using/actions-on-reports.md#exporting-a-report).

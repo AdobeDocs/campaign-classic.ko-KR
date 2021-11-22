@@ -19,13 +19,13 @@ ht-degree: 7%
 
 템플릿이 구성되면 Adobe Campaign의 여러 컨텍스트에서 가져오기 및 내보내기 작업을 시작할 수 있습니다.
 
-* Adobe Campaign 작업 영역의 **[!UICONTROL Profiles and targets]** 섹션에서 **[!UICONTROL Jobs]** 링크를 클릭합니다. 이렇게 하면 기존 가져오기 및 내보내기 목록으로 이동합니다.
+* 에서 **[!UICONTROL Profiles and targets]** Adobe Campaign 작업 공간 섹션에서 **[!UICONTROL Jobs]** 링크: 이렇게 하면 기존 가져오기 및 내보내기 목록으로 이동합니다.
 
-   **[!UICONTROL Create]** 단추를 클릭하고 수행할 작업 유형을 선택합니다.
+   을(를) 클릭합니다. **[!UICONTROL Create]** 단추를 클릭하고 수행할 작업 유형을 선택합니다.
 
    ![](assets/s_ncs_user_import_from_home.png)
 
-* 작업 공간의 **[!UICONTROL Monitoring]** 섹션에서 가져오기 및 내보내기를 시작할 수도 있습니다. 두 개의 전용 링크를 통해 직접 가져오거나 내보낼 수 있습니다.
+* 에서 가져오기 및 내보내기를 시작할 수도 있습니다 **[!UICONTROL Monitoring]** 작업 공간 섹션: 두 개의 전용 링크를 통해 직접 가져오거나 내보낼 수 있습니다.
 
    ![](assets/s_ncs_user_import_from_production.png)
 

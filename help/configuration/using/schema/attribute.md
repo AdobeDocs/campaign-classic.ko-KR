@@ -23,7 +23,7 @@ attribute:==help
 
 ## 속성 {#attributes}
 
-_operation(문자열), 고급(부울), 적용 가능한 경우(문자열), autoIncrement(부울), consistentTo(문자열), dataPolicy(문자열), dbEnum(문자열), default(문자열), desc(문자열), edit(문자열), enum(문자열), extra(문자열), feature(문자열), feature(string), img), inout(문자열), 레이블(문자열), 길이(문자열), 로컬라이제이가능(부울), 이름(MNPKG), 상태(부울 아님), topkg(부울) string), ref(문자열), 필수(부울), sql(부울), sqlDefault(문자열), sqlname(문자열), sqltable(문자열), target(문자열), translatedDefault(문자열), translatedExpr(문자열), type(MNTOKEN), user(부울), userEnum(문자열), visibleIf(문자열), xml(부울)
+_operation(문자열), 고급(부울), 적용 가능한 경우(문자열), autoIncrement(부울), consistentTo(문자열), dataPolicy(문자열), dbEnum(문자열), default(문자열), desc(문자열), 편집(문자열), enum(문자열), extra(문자열), feature(문자열), exout(문자열), featureDate(문자열), inout(문자열), 레이블(문자열), 길이(문자열), 로컬라이제이가능(부울), 이름(MNPKG), 상태(부울 아님) string), ref(문자열), 필수(부울), sql(부울), sqlDefault(문자열), sqlname(문자열), sqltable(문자열), target(문자열), translatedDefault(문자열), translatedExpr(문자열), type(MNTOKEN), user(부울), userEnum(문자열), visibleIf(문자열), xml(부울)
 
 ## 부모 {#parents}
 
@@ -39,9 +39,9 @@ _operation(문자열), 고급(부울), 적용 가능한 경우(문자열), autoI
 
 ## 사용 및 사용 컨텍스트 {#use-and-context-of-use}
 
-`<attribute>` 요소는 요소에 선언해야  `<element>` 합니다.
+`<attribute>` 요소는 `<element>` 요소를 생성하지 않습니다.
 
-`<srcschema>`에서 `<attribute>` 요소가 정의된 시퀀스는 데이터베이스의 필드 생성 시퀀스에 영향을 주지 않습니다. 만들기 시퀀스는 알파벳순으로 표시됩니다.
+시퀀스가 `<attribute>` 요소는 `<srcschema>` 데이터베이스의 필드 만들기 시퀀스에는 영향을 주지 않습니다. 만들기 시퀀스는 알파벳순으로 표시됩니다.
 
 ## 속성 설명 {#attribute-description}
 
@@ -58,9 +58,9 @@ _operation(문자열), 고급(부울), 적용 가능한 경우(문자열), autoI
    * &quot;delete&quot;: 삭제 즉, Adobe Campaign이 요소를 복구 및 삭제합니다.
 
 * **고급(부울)**: 이 옵션이 활성화되면(@advanced=&quot;true&quot;) 양식의 목록을 구성하기 위해 액세스할 수 있는 사용 가능한 필드 목록에서 속성을 숨길 수 있습니다.
-* **적용 가능한 경우(문자열)**: 이 속성을 사용하면 필드를 선택 사항으로 만들 수 있습니다. 제약 조건이 준수될 때 데이터베이스를 업데이트할 때 `<attribute>` 요소가 고려됩니다. &quot;applyIf&quot;는 XTK 표현식을 받습니다.
+* **적용 가능한 경우(문자열)**: 이 속성을 사용하면 필드를 선택 사항으로 만들 수 있습니다. 다음 `<attribute>` 제약 조건이 준수될 때 데이터베이스를 업데이트할 때 요소가 고려됩니다. &quot;applyIf&quot;는 XTK 표현식을 받습니다.
 * **autoIncrement(부울)**: 이 옵션을 활성화하면 필드가 카운터가 됩니다. 이를 통해 값(대부분 ID)을 증가시킬 수 있습니다. (외부 사용)
-* **consentTo(문자열)**: 필드를 공유하는 테이블의 이름과 네임스페이스를 가져와 특성이 선언되는 스키마를 채웁니다. ( `<schema>`에서만 사용됨)
+* **containsTo (string)**: 필드를 공유하는 테이블의 이름과 네임스페이스를 가져와 특성이 선언되는 스키마를 채웁니다. (다음에만 사용) `<schema>`).
 * **dataPolicy(문자열)**: SQL 또는 XML 필드에 허용되는 값에 대한 승인 제약 조건을 지정할 수 있습니다. 이 속성의 값은 다음과 같습니다.
 
    * &quot;none&quot;: 값 없음
@@ -72,7 +72,7 @@ _operation(문자열), 고급(부울), 적용 가능한 경우(문자열), autoI
    * &quot;identifier&quot;: 식별자 이름
    * &quot;resIdentifier&quot;: 파일 이름
 
-* **dbEnum(문자열)**: &quot;closed&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 `<srcschema>`에 정의해야 합니다.
+* **dbEnum(문자열)**: &quot;closed&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 `<srcschema>`.
 * **defOnDuplicate(부울)**: 이 속성을 활성화하면 레코드가 복제되면 기본값(@default에 정의됨)이 레코드에 자동으로 다시 적용됩니다.
 * **기본값(문자열)**: 기본 필드의 값(함수 호출, 기본값)을 정의할 수 있습니다. 이 속성은 XTK 표현식을 수신합니다.
 * **desc(문자열)**: 속성에 대한 설명을 삽입할 수 있습니다. 이 설명은 인터페이스의 상태 표시줄에 표시됩니다.
@@ -97,8 +97,8 @@ _operation(문자열), 고급(부울), 적용 가능한 경우(문자열), autoI
 * **img(문자열)**: 필드에 연결된 이미지의 경로를 정의할 수 있습니다(네임스페이스 + 이미지 이름)(예: img=&quot;cus:mypicture.jpg&quot;) 실제로 이미지를 애플리케이션 서버로 가져와야 합니다.
 * **레이블(문자열)**: 필드에 연결된 레이블로 주로 인터페이스에서 사용자에게 지정됩니다. 따라서 이름 지정 제한을 피할 수 있습니다.
 * **length (문자열)**: 최대. 문자열 유형 SQL 필드의 값에 대한 문자 수입니다. &quot;@length&quot; 속성을 지정하지 않으면 Adobe Campaign에서 자동으로 255자에 대한 필드를 만듭니다.
-* **현지화 가능(부울)**: 활성화되면 이 속성은 번역을 위한 &quot;@label&quot; 속성 값을 복구하도록 수집 도구에 알려줍니다(내부 사용).
-* **이름(MNTOKEN)**: 테이블의 필드 이름과 일치하는 속성의 이름입니다. &quot;@name&quot; 특성 값은 짧아야 하며, 바람직하게는 영어로 입력해야 하며 XML 이름 지정 제약 조건을 준수해야 합니다.
+* **지역화 가능(부울)**: 활성화되면 이 속성은 번역을 위한 &quot;@label&quot; 속성 값을 복구하도록 수집 도구에 알려줍니다(내부 사용).
+* **name(MNTOKEN)**: 테이블의 필드 이름과 일치하는 속성의 이름입니다. &quot;@name&quot; 특성 값은 짧아야 하며, 바람직하게는 영어로 입력해야 하며 XML 이름 지정 제약 조건을 준수해야 합니다.
 
    스키마를 데이터베이스에 기록하면 접두사가 Adobe Campaign에 의해 필드 이름에 자동으로 추가됩니다.
 
@@ -110,18 +110,18 @@ _operation(문자열), 고급(부울), 적용 가능한 경우(문자열), autoI
    테이블에서 필드의 이름을 완전히 정의하려면 속성을 정의할 때 &quot;@sqlname&quot; 옵션을 사용합니다.
 
 * **notNull(부울)**: 데이터베이스의 NULL 레코드 관리에 대한 Adobe Campaign의 동작을 재정의할 수 있습니다. 기본적으로 숫자 필드는 null이 아니며, 문자열 및 날짜 유형 필드는 null일 수 있습니다.
-* **pkgStatus(문자열)**: 패키지를 내보내는 동안 &quot;@pkgStatus&quot; 값에 따라 값이 고려됩니다.
+* **pkgStatus (string)**: 패키지를 내보내는 동안 &quot;@pkgStatus&quot; 값에 따라 값이 고려됩니다.
 
    * &quot;always&quot;: 항상
    * &quot;never&quot;: 존재하지 않음
    * &quot;default(또는 nothing)&quot;: 값이 기본값이거나 다른 인스턴스와 호환되지 않는 내부 필드가 아닌 경우를 제외하고 값을 내보냅니다.
 
-* **ref(문자열)**: 이 속성은 여러 스키마에서 공유되는  `<attribute>` 요소에 대한 참조를 정의합니다(정의 팩터링). 정의가 현재 스키마에 복사되지 않습니다.
+* **ref(문자열)**: 이 속성은 `<attribute>` 여러 스키마에 의해 공유되는 요소(정의 팩터링). 정의가 현재 스키마에 복사되지 않습니다.
 * **필수(부울)**: 이 속성이 활성화된 경우(@required=&quot;true&quot;) 인터페이스에 필드가 강조 표시됩니다. 필드의 레이블은 빨간색으로 표시됩니다.
 * **sql(부울)**: 이 특성이 활성화되면(@sql=&quot;true&quot;) 특성이 포함된 요소에 xml=&quot;true&quot; 속성이 있는 경우에도 SQL 특성의 저장을 강제 적용합니다.
 * **sqlDefault(문자열)**: 이 속성을 사용하면 @notNull 속성이 활성화된 경우 데이터베이스 업데이트를 위해 고려되는 기본값을 정의할 수 있습니다. 속성을 만든 후에 이 속성을 추가하면 새 레코드에 대해서도 스키마 동작이 변경되지 않습니다. 스키마를 변경하고 새 레코드의 값을 업데이트하려면 속성을 삭제하고 다시 만들어야 합니다.
 * **sqlname(문자열)**: 필드를 생성할 수 있습니다. @sqlname 를 지정하지 않으면 기본적으로 &quot;@name&quot; 속성의 값이 사용됩니다. 데이터베이스에 스키마가 작성되면 필드의 유형에 따라 접두사가 자동으로 추가됩니다.
-* **템플릿(문자열)**: 이 속성은 여러 스키마에서 공유되는  `<attribute>` 요소에 대한 참조를 정의합니다. 정의가 현재 스키마에 자동으로 복사됩니다.
+* **템플릿(문자열)**: 이 속성은 `<attribute>` 여러 스키마에서 공유된 요소입니다. 정의가 현재 스키마에 자동으로 복사됩니다.
 * **translatedDefault(문자열)**: &quot;@default&quot; 속성이 발견되면 &quot;@translatedDefault&quot;을 사용하여 @default에 정의된 표현식과 일치하도록 표현식을 재정의하여 번역 도구(내부 사용)에 수집할 수 있습니다.
 * **translatedExpr(문자열)**: &quot;@expr&quot; 속성이 있는 경우 &quot;@translatedExpr&quot; 속성을 사용하여 @expr에 정의된 표현식과 일치하도록 표현식을 재정의하여 번역 도구에 의해 수집할 수 있습니다(내부 사용).
 * **유형(MNTOKEN)**: 필드 유형.

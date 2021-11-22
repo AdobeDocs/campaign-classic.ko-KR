@@ -29,7 +29,7 @@ ht-degree: 4%
 
 ![](assets/validation-1-in-op.png)
 
-승인 예는 이 [섹션](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)에서 찾을 수 있습니다.
+승인 예는 다음과 같습니다 [섹션](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 연산자는 다음 두 가지 방법 중 하나로 응답할 수 있습니다. 이메일 메시지 또는 콘솔을 통해 연결된 웹 페이지를 사용하여 유효성을 검사하는 중입니다.
 
@@ -41,17 +41,17 @@ ht-degree: 4%
 
 응답할 수 있는 웹 페이지에 대한 링크가 포함된 승인 메시지를 받을 수 있습니다. 타겟팅된 운영자가 승인 이메일을 받으려면 운영자 이메일 주소를 완료해야 합니다. 그렇지 않은 경우 연산자가 콘솔을 사용하여 응답해야 합니다
 
-운영자 관리에 대해서는 이 [섹션](../../platform/using/access-management.md)에 자세히 설명되어 있습니다.
+운영자 관리에 대해서는 [섹션](../../platform/using/access-management.md).
 
-승인 이메일은 계속 전송됩니다. 기본 게재 템플릿은 **[!UICONTROL notifyAssignee]**&#x200B;입니다. **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 폴더에 저장됩니다. 이 시나리오를 사용자 지정할 수 있으며, 각 활동에 대한 템플릿을 복사하고 변경하는 것도 좋습니다.
+승인 이메일은 계속 전송됩니다. 기본 게재 템플릿은 다음과 같습니다 **[!UICONTROL notifyAssignee]**: 이 변수는 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 폴더를 입력합니다. 이 시나리오를 사용자 지정할 수 있으며, 각 활동에 대한 템플릿을 복사하고 변경하는 것도 좋습니다.
 
-이 템플릿을 통해 생성된 게재는 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]** 폴더에 저장됩니다.
+이 템플릿을 통해 생성된 게재는 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]** 폴더를 입력합니다.
 
 ## 콘솔을 통한 승인 {#approval-via-the-console}
 
 작업에서 승인할 요소가 캠페인 대시보드에 표시됩니다.
 
-기술 워크플로우의 경우 사용자가 승인할 수 있는 작업은 **[!UICONTROL Administration > Production > Objects created automatically > Pending approvals]** 폴더의 트리 구조에서 액세스할 수 있습니다.
+기술 워크플로우의 경우 사용자가 승인할 수 있는 작업은 의 트리 구조에서 액세스할 수 있습니다 **[!UICONTROL Administration > Production > Objects created automatically > Pending approvals]** 폴더를 입력합니다.
 
 ![](assets/validation-node.png)
 
@@ -60,9 +60,9 @@ ht-degree: 4%
 필터링 조건을 통해 선택한 연산자 그룹, 단일 연산자 또는 연산자 세트에 승인이 할당됩니다.
 
 1. 가장 간단한 형태의 승인을 위해 연산자가 응답하는 즉시 작업이 완료됩니다. 응답하려는 다른 운영자에게는 누군가 이미 그것을 했다는 통보를 받게 됩니다.
-1. 여러 승인을 보려면 [다중 승인](#multiple-approval)을 참조하십시오.
+1. 여러 승인을 보려면 [다중 승인](#multiple-approval).
 
-승인을 위한 운영자 그룹은 명명된 개인이 아닌 역할 또는 기능으로 지정되어야 합니다. 예를 들어 &quot;캠페인 예산&quot; 그룹이 &quot;해리의 그룹&quot;보다 선호됩니다. 한 그룹에 작업을 승인할 수 있는 사람이 두 명 이상 있는 것이 좋습니다. 이렇게 하면 한 사람이 없으면 다른 사람이 응답할 수 있습니다.
+승인을 위한 운영자 그룹은 명명된 개인이 아닌 역할 또는 기능으로 지정되어야 합니다. 예를 들어, &quot;캠페인 예산&quot; 그룹이 &quot;해리의 그룹&quot;보다 선호됩니다. 한 그룹에 작업을 승인할 수 있는 사람이 두 명 이상 있는 것이 좋습니다. 이렇게 하면 한 사람이 없으면 다른 사람이 응답할 수 있습니다.
 
 ## 만료 {#expirations}
 
@@ -72,16 +72,16 @@ ht-degree: 4%
 
 ![](assets/expiration.png)
 
-새 만료를 추가하려면 **[!UICONTROL Add]** 을 클릭합니다. 생성된 각 만료에 전환이 추가됩니다. 다음을 수행할 수 있습니다.
+새 만료를 추가하려면 **[!UICONTROL Add]**. 생성된 각 만료에 전환이 추가됩니다. 다음을 수행할 수 있습니다.
 
 * 목록에서 셀을 클릭하거나 F2 키를 눌러 일반적인 매개 변수를 직접 수정합니다.
-* 또는 **[!UICONTROL Detail...]** 단추를 클릭하여 표현식을 편집합니다.
+* 또는 를 클릭하여 표현식을 편집합니다 **[!UICONTROL Detail...]** 버튼을 클릭합니다.
 
 >[!NOTE]
 >
 >시간 순서대로 처리되므로 만료에 대한 순서를 지정할 필요가 없습니다.
 
-**[!UICONTROL Do not terminate the task]** 옵션은 지연이 오버런 시 승인을 활성 상태로 유지합니다. 이 모드에서는 승인을 활성 상태로 두는 동안 미리 알림을 관리할 수 있습니다. 연산자가 여전히 응답할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있으므로 작업이 만료 시 완료된 것으로 간주되며 연산자가 더 이상 응답하지 않을 수 있습니다.
+다음 **[!UICONTROL Do not terminate the task]** 옵션을 선택하면 지연이 초과될 때 승인이 활성화됩니다. 이 모드에서는 승인을 활성 상태로 두는 동안 미리 알림을 관리할 수 있습니다. 연산자가 여전히 응답할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있으므로 작업이 만료 시 완료된 것으로 간주되며 연산자가 더 이상 응답하지 않을 수 있습니다.
 
 다음 네 가지 유형의 만료를 만들 수 있습니다.
 
@@ -90,7 +90,7 @@ ht-degree: 4%
 * **지정된 날짜보다 지연**: 만료는 지정한 날짜에서 시간 길이를 뺀 값으로 계산됩니다.
 * **스크립트로 계산된 만료**: 만료는 JavaScript를 사용하여 계산됩니다.
 
-   다음 예제에서는 게재 시작 날짜(**vars.deliveryId**&#x200B;로 식별됨)보다 24시간 전에 만료를 계산합니다.
+   다음 예제에서는 게재 시작 날짜(다음으로 식별됨) 24시간 전에 만료를 계산합니다 **vars.deliveryId**):
 
    ```
    var delivery = nms.delivery.get(vars.deliveryId)

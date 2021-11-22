@@ -21,7 +21,7 @@ Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니�
 
 이 페이지에는 호스팅된(Managed Services) 배포와 온-프레미스 배포 간의 주요 차이점이 표시됩니다. 하이브리드 배포 지정은 Adobe에서 호스팅하고 온-프레미스에서 호스팅되는 요소에 따라 다릅니다.
 
-다양한 호스팅 모델이 이 섹션](../../installation/using/hosting-models.md)에 도입되었습니다.[
+다양한 호스팅 모델이 도입되었습니다 [이 섹션](../../installation/using/hosting-models.md).
 
 ## 배포 모델당 가용성 {#capability-matrix}
 
@@ -43,11 +43,11 @@ Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니�
 
 ## FDA(Federated Data Access){#fda}
 
-Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위해 **Federated Data Access** (FDA) 옵션을 제공합니다. Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다. [자세히 알아보기](../../installation/using/about-fda.md)
+Adobe Campaign은 다음을 제공합니다 **페더레이션 데이터 액세스** (FDA) 옵션을 사용하여 하나 이상의 외부 데이터베이스에 저장된 정보를 처리할 수 있습니다. Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다. [자세히 알아보기](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >
->FDA를 통해 외부 데이터베이스에 액세스하는 것은 [Snowflake 커넥터](../../installation/using/configure-fda-snowflake.md)를 제외하고 온-프레미스 또는 하이브리드 설치에 대해서만 가능합니다.
+>FDA를 통해 외부 데이터베이스에 액세스하는 것은 를 제외하고 온-프레미스 또는 하이브리드 설치에 대해서만 가능합니다 [Snowflake 커넥터](../../installation/using/configure-fda-snowflake.md).
 
 
 **또한 다음을 참조하십시오**

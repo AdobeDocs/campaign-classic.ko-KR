@@ -27,10 +27,10 @@ ht-degree: 2%
 다음 단계를 적용하여 이러한 태그를 설정합니다.
 
 1. 추적할 페이지를 식별하고 해당 유형(웹 또는 거래)을 결정합니다.
-1. 수집할 추가 정보를 확인하고 이 정보에 대한 설명과 함께 **nms:webTrackingLog** 스키마를 확장합니다. 기본적으로 이 스키마는 트랜잭션당 트랜잭션 금액 및 항목 수를 저장할 수 있습니다.
+1. 수집할 추가 정보를 확인하고 **nms:webTrackingLog** 이 정보에 대한 설명이 있는 스키마. 기본적으로 이 스키마는 트랜잭션당 트랜잭션 금액 및 항목 수를 저장할 수 있습니다.
 1. 웹 추적 태그 만들기. 다음 두 가지 방법으로 데이터를 수집할 수 있습니다.
 
-   * Adobe Campaign 플랫폼에서 이러한 페이지에 해당하는 URL을 삽입한 다음 연결된 웹 추적 태그를 생성 및 추출합니다(클라이언트 콘솔의 **[!UICONTROL Campaign execution>Resources>Web tracking tags]** 노드).
+   * Adobe Campaign 플랫폼에서 이러한 페이지에 해당하는 URL을 삽입한 다음 연결된 웹 추적 태그를 생성 및 추출합니다( **[!UICONTROL Campaign execution>Resources>Web tracking tags]** 노드)를 포함할 수 없습니다.
    * &quot;즉시 생성&quot; 모드에서 직접 웹 추적 태그를 만듭니다. 이러한 페이지에 해당하는 URL은 Adobe Campaign 플랫폼에 자동으로 삽입됩니다.
 
 1. 추적할 페이지에서 이러한 태그를 정적 또는 동적으로 추가합니다.

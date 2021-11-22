@@ -17,7 +17,7 @@ ht-degree: 18%
 
 ![](../../assets/common.svg)
 
-게재 테이블이 외부 테이블인 경우 추가 구성을 수행해야 합니다. **[!UICONTROL nms:seedmember]** 스키마를 확장해야 합니다. 시드 주소에 아래와 같이 적절한 필드를 정의하기 위한 탭이 추가됩니다.
+게재 테이블이 외부 테이블인 경우 추가 구성을 수행해야 합니다. 다음 **[!UICONTROL nms:seedmember]** 스키마를 확장해야 합니다. 시드 주소에 아래와 같이 적절한 필드를 정의하기 위한 탭이 추가됩니다.
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
@@ -25,4 +25,4 @@ ht-degree: 18%
 
 ![](assets/s_ncs_user_seedlist_add_new_tab.png)
 
-**nms:seedMember** 스키마 확장은 [이 섹션](../../configuration/using/seed-addresses.md)입니다.
+다음 **nms:seedMember** 스키마 확장 [이 섹션](../../configuration/using/seed-addresses.md).

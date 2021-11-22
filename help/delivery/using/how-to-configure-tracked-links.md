@@ -23,11 +23,11 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->개인화가 포함된 이메일 콘텐츠의 링크에는 특정 구문을 추적해야 합니다. 개인화할 수 있고 추적을 지원하는 이메일에 링크를 추가하는 방법에 대한 자세한 내용은 [이 섹션](tracking-personalized-links.md)을 참조하십시오.
+>개인화가 포함된 이메일 콘텐츠의 링크에는 특정 구문을 추적해야 합니다. 개인화할 수 있고 추적을 지원하는 이메일에 링크를 추가하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [이 섹션](tracking-personalized-links.md).
 
-추적 공식을 적용하기 전에 **[!UICONTROL Text content]** 탭에서 구분 기호로 URL을 묶는 것이 좋습니다. 이 탭에 입력하는 URL 구분 기호는 Adobe Campaign에서 문자 문자열 내의 URL을 식별하는 데 사용됩니다. 다음 구분 기호 쌍을 사용할 수 있습니다.
+에서는 URL을 구분 기호로 묶는 것이 좋습니다 **[!UICONTROL Text content]** 탭을 클릭하여 추적하십시오. 이 탭에 입력하는 URL 구분 기호는 Adobe Campaign에서 문자 문자열 내의 URL을 식별하는 데 사용됩니다. 다음 구분 기호 쌍을 사용할 수 있습니다.
 * 괄호 ( )
-* Brackets [ ]
+* 대괄호 [ ]
 * 중괄호 { }
 
 이 예에서 URL https://www.adobe.com 뒤에는 세미콜론이 있습니다. 세미콜론은 수신자 이메일 클라이언트가 URL의 일부로 해석할 수 있습니다. 따라서 링크가 끊어질 수 있습니다. 이 문제를 방지하려면 다음 방법 중 하나로 URL을 구분 기호로 묶을 수 있습니다.
@@ -37,7 +37,7 @@ ht-degree: 10%
 
 메시지 추적은 기본적으로 활성화되어 있습니다. URL을 추적하는 방법을 개인화하려면 아래 단계를 따르십시오.
 
-1. 게재 마법사의 아래 섹션 메시지 콘텐츠 아래에서 **[!UICONTROL Display URLs]** 옵션을 선택합니다.
+1. 을(를) 선택합니다 **[!UICONTROL Display URLs]** 옵션을 클릭합니다.
 
    ![](assets/s_ncs_user_email_del_display_urls.png)
 
@@ -59,7 +59,7 @@ ht-degree: 10%
    >
    >게재를 추적할 때 추적된 URL 및 레이블의 레이블을 수정하여 정보 읽기를 단순화할 수 있습니다. 클릭 수를 계산할 때 이름이 같은 두 개의 URL 또는 두 개의 레이블이 함께 추가됩니다.
 
-1. 필요한 경우 추적 모드를 변경하고, 아래와 같이 타깃팅된 링크와 일치하는 **[!UICONTROL Tracking]** 열에서 새 모드를 선택합니다.
+1. 필요한 경우 추적 모드를 변경하고, **[!UICONTROL Tracking]** 아래와 같이 타깃팅된 링크와 일치하는 열입니다.
 
    ![](assets/s_ncs_user_select_tracking_mode.png)
 
@@ -72,4 +72,4 @@ ht-degree: 10%
    * **[!UICONTROL Opt-out]** : 은 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
    * **[!UICONTROL Mirror page]** : 는 이 URL이 미러 페이지 URL인 것으로 간주합니다.
 
-1. 또한 **[!UICONTROL Category]** 열의 드롭다운 목록에서 추적된 각 URL에 대한 카테고리를 선택할 수 있습니다. 이러한 카테고리는 **[!UICONTROL URLs and click streams]**&#x200B;에서와 같이 보고서를 표시할 수 있습니다( [이 섹션](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams) 참조). 카테고리는 특정 열거형에 정의됩니다. **[!UICONTROL urlCategory]**([열거형 관리](../../platform/using/managing-enumerations.md) 참조).
+1. 또한, **[!UICONTROL Category]** 열. 이러한 카테고리는 다음과 같이 보고서를 표시할 수 있습니다 **[!UICONTROL URLs and click streams]** 자세한 내용은 [이 섹션](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). 카테고리는 특정 열거형에 정의됩니다. **[!UICONTROL urlCategory]** 자세한 내용은 [열거형 관리](../../platform/using/managing-enumerations.md)).

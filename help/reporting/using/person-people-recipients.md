@@ -27,7 +27,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->이러한 표시기는 **[!UICONTROL Tracking indicators]** 보고서에서 사용됩니다. 자세한 내용은 [추적 표시기](../../reporting/using/delivery-reports.md#tracking-indicators)를 참조하십시오.
+>이러한 표시기는 **[!UICONTROL Tracking indicators]** 보고서 세트에 대해 설명합니다. 자세한 내용은 [지표 추적](../../reporting/using/delivery-reports.md#tracking-indicators).
 
 게재에 세 개의 링크가 추가됩니다. 4명의 수신자에게 전송됩니다.
 
@@ -91,7 +91,7 @@ Marie의 열기 항목이 다음 로그에 표시됩니다.
 
 **수신자**: 열기와 클릭이 동일한 수신자(플로리안)에게 할당됩니다. 이 수신자는 이전 수신자(마리)와 다르므로 Adobe Campaign은 새 수신자를 개수에 추가합니다.
 
-사람: 이 수신자의 브라우저가 쿠키를 허용하므로 동일한 UUID(식별자)가 모든 클릭 로그에 할당되었음을 알 수 있습니다. **`fe37a503 [...]`** Adobe Campaign은 이러한 클릭을 동일한 사람에게 속하는 것으로 올바르게 식별합니다. 새 사람이 카운트에 추가됩니다.
+사람: 이 수신자의 브라우저가 쿠키를 허용하므로 동일한 UUID(식별자)가 모든 클릭 로그에 할당되었음을 알 수 있습니다. **`fe37a503 [...]`**. Adobe Campaign은 이러한 클릭을 동일한 사람에게 속하는 것으로 올바르게 식별합니다. 새 사람이 카운트에 추가됩니다.
 
 **중간 계산:**
 
@@ -110,7 +110,7 @@ Marie의 열기 항목이 다음 로그에 표시됩니다.
 
 ![](assets/s_ncs_user_indicators_example_12.png)
 
-**사람**: 클릭과 관련하여 동일한 식별자(UUID)가 모든 로그에 할당되어 있음을 알 수 있습니다.  **`9ab648f9 [...]`**. 이 식별자는 아직 계산되지 않았습니다. 따라서 새 사람이 카운트에 추가됩니다.
+**사람**: 클릭과 관련하여 동일한 식별자(UUID)가 모든 로그에 할당되어 있음을 알 수 있습니다. **`9ab648f9 [...]`**. 이 식별자는 아직 계산되지 않았습니다. 따라서 새 사람이 카운트에 추가됩니다.
 
 ![](assets/s_ncs_user_indicators_example_13.png)
 
@@ -157,20 +157,20 @@ Henry가 수행한 열기 및 4번의 클릭이 다음 로그에 표시됩니다
 
 * **[!UICONTROL Clicks]** (클릭한 수신자): 2개
 * **[!UICONTROL Distinct clicks for the population reached]** (클릭한 사람): 6
-* **[!UICONTROL Distinct opens for the population reached]** (연 수신자): 1
+* **[!UICONTROL Distinct opens for the population reached]** (연 수신자): 3
 
 원시 반응성 및 전달 추정은 다음과 같이 계산됩니다.
 
 ![](assets/s_ncs_user_indicators_example11.png)
 
-* **[!UICONTROL Estimation of forwards]** =  **B - A** (따라서 6 - 2 = 4)
-* **[!UICONTROL Raw reactivity]** =  **A / C** (따라서 2 / 3 = 66,67%)
+* **[!UICONTROL Estimation of forwards]** = **B - A** (따라서 6 - 2 = 4)
+* **[!UICONTROL Raw reactivity]** = **A / C** (따라서 2 / 3 = 66,67%)
 
 >[!NOTE]
 >
 >다음 공식:
 >
->* 은 **[!UICONTROL Clicks]** 표시기(클릭한 수신자)를 나타냅니다.
->* B는 **[!UICONTROL Distinct clicks for the population reached]** 표시기(클릭한 사람)를 나타냅니다.
->* C은 **[!UICONTROL Distinct opens for the population reached]** 표시기(연 수신자)를 나타냅니다.
+>* 는 를 나타냅니다 **[!UICONTROL Clicks]** 표시기(클릭한 수신자).
+>* B는 **[!UICONTROL Distinct clicks for the population reached]** 지표(클릭한 사람)
+>* C는 **[!UICONTROL Distinct opens for the population reached]** 표시기(연 수신자)
 

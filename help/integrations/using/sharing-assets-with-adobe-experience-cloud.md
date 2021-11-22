@@ -26,9 +26,9 @@ Experience Cloud 자산은 솔루션 간에 공유할 수 있는 마케팅 준�
 
 Adobe Campaign에서 이메일 게재 또는 랜딩 페이지를 편집할 때 Adobe Experience Cloud 라이브러리의 자산을 배치할 수 있습니다. 사용 중인 솔루션에 따라 이러한 자산은 Assets 핵심 서비스 또는 Adobe Experience Manager Assets에 저장할 수 있습니다.
 
-사용 가능한 다양한 라이브러리는 [이 문서](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)에 자세히 설명되어 있습니다.
+사용 가능한 다양한 라이브러리는에 자세히 설명되어 있습니다. [이 문서](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html).
 
-각 라이브러리에 연결된 세부 사항에 대한 자세한 내용은 [Assets에 대한 액세스 구성](../../integrations/using/configuring-access-to-assets.md) 섹션을 참조하십시오.
+자세한 내용은 [자산에 대한 액세스 구성](../../integrations/using/configuring-access-to-assets.md) 각 라이브러리에 연결된 세부 사항에 대해 자세히 알아보십시오.
 
 >[!NOTE]
 >

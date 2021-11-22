@@ -48,18 +48,18 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 
 호스팅된 고객의 경우 트리거 통합을 위해 기술 계정 토큰 Adobe I/O으로 조직을 활성화하도록 고객 지원 티켓을 만들 수 있습니다.
 
-온-프레미스 고객의 경우 [Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성](../../integrations/using/configuring-adobe-io.md) 페이지를 참조하십시오. Adobe I/O 자격 증명에 API를 추가하는 동안 **[!UICONTROL Adobe Analytics]** 을 선택해야 합니다.
+온-프레미스 고객의 경우 [Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성](../../integrations/using/configuring-adobe-io.md) 페이지. 다음을 선택해야 합니다 **[!UICONTROL Adobe Analytics]** Adobe I/O 자격 증명에 API를 추가하는 동안
 
 ## 2단계: NmsPipeline_Config 파이프라인 옵션 구성 {#configuring-nmspipeline}
 
 인증이 설정되면 파이프라인이 이벤트를 검색합니다. 이 워크플로우는 Adobe Campaign에 구성된 트리거만 처리합니다. 트리거가 Adobe Analytics에서 생성되어 Adobe Campaign에 구성된 트리거만 처리하는 파이프라인에 푸시되어 있어야 합니다.
 이름에 관계없이 모든 트리거를 캐싱하기 위해 와일드카드로 옵션을 구성할 수도 있습니다.
 
-1. Adobe Campaign에서 **[!UICONTROL Explorer]** 의 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 아래의 옵션 메뉴에 액세스합니다.
+1. Adobe Campaign에서 아래의 옵션 메뉴에 액세스합니다 **[!UICONTROL Administration]** > **[!UICONTROL Platform]**  > **[!UICONTROL Options]** 에서 **[!UICONTROL Explorer]**.
 
-1. **[!UICONTROL NmsPipeline_Config]** 옵션을 선택합니다.
+1. 을(를) 선택합니다 **[!UICONTROL NmsPipeline_Config]** 선택 사항입니다.
 
-1. **[!UICONTROL Value (long text)]** 필드에서 두 개의 트리거를 지정하는 다음 JSON 코드를 붙여 넣을 수 있습니다. 주석을 제거해야 합니다.
+1. 에서 **[!UICONTROL Value (long text)]** 필드에서 두 개의 트리거를 지정하는 다음 JSON 코드를 붙여 넣을 수 있습니다. 주석을 제거해야 합니다.
 
    ```
    {
@@ -104,7 +104,7 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 
 파이프라인은 공급자 및 소비자 모델과 같이 작동합니다. 메시지는 개별 소비자에 대해서만 사용됩니다. 각 소비자는 고유한 메시지 복사본을 가져옵니다.
 
-**Consumer** 매개 변수는 인스턴스를 이러한 소비자 중 하나로 식별합니다. 인스턴스의 ID가 파이프라인을 호출합니다. 클라이언트 콘솔의 모니터링 페이지에서 찾을 수 있는 인스턴스 이름으로 입력할 수 있습니다.
+다음 **소비자** 매개 변수는 인스턴스를 이러한 소비자 중 하나로 식별합니다. 인스턴스의 ID가 파이프라인을 호출합니다. 클라이언트 콘솔의 모니터링 페이지에서 찾을 수 있는 인스턴스 이름으로 입력할 수 있습니다.
 
 파이프라인 서비스는 각 소비자가 검색한 메시지를 추적합니다. 여러 인스턴스에 서로 다른 소비자를 사용하여 모든 메시지가 각 인스턴스에 전송되는지 확인할 수 있습니다.
 
@@ -112,8 +112,8 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 
 파이프라인 옵션을 구성하려면 다음 권장 사항을 따라야 합니다.
 
-* **[!UICONTROL Triggers]** 아래에 트리거를 추가하거나 편집하면 나머지 트리거는 편집하지 않아야 합니다.
-* JSON이 유효한지 확인합니다. JSON 유효성 검사기를 사용할 수 있습니다. 예를 들어 이 [웹 사이트](https://jsonlint.com/)를 참조하십시오.
+* 아래의 트리거 추가 또는 편집 **[!UICONTROL Triggers]**&#x200B;를 편집하지 마십시오.
+* JSON이 유효한지 확인합니다. JSON 유효성 검사기를 사용할 수 있습니다. 다음을 참조하십시오 [웹 사이트](https://jsonlint.com/) 예.
 * &quot;name&quot;은 트리거 ID에 해당합니다. 와일드카드 &quot;*&quot;는 모든 트리거를 가져옵니다.
 * &quot;소비자&quot;는 호출 인스턴스 또는 애플리케이션의 이름에 해당합니다.
 * 파이프라인은 &quot;별칭&quot; 항목도 지원합니다.
@@ -132,10 +132,10 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 | authPrivateKey(이전) | 개인 키, 기존 Oath 응용 프로그램에 업로드된 공개 부분, XtkKey 옵션으로 암호화된 AES: ```cryptString("PRIVATE_KEY")``` |
 | disableAuth(기존) | 인증을 비활성화하십시오. 게이트웨이 토큰 없이 연결하는 것은 일부 개발 파이프라인 끝점에서만 허용됩니다. |
 | discoverPipelineEndpoint | 이 테넌트에 사용할 파이프라인 서비스 끝점을 찾는 URL입니다. 기본값: ```https://producer-pipeline-pnw.adobe.net``` |
-| dumpStatePeriodSec | ```var/INSTANCE/pipelined.json.``` <br> 내부 상태도 여기에서 필요할 때 액세스할 수 있습니다. ```http://INSTANCE:7781/pipelined/status``` |
+| dumpStatePeriodSec | 에서 내부 상태 프로세스의 두 덤프 사이의 기간 ```var/INSTANCE/pipelined.json.``` <br> 내부 상태는 요청 시 액세스할 수도 있습니다. ```http://INSTANCE:7781/pipelined/status``` |
 | forcedPipelineEndpoint | PipelineServicesEndpoint의 검색을 비활성화하여 강제 적용 |
-| monitorServerPort | 파이프라인 프로세스는 여기서 내부 상태 프로세스를 제공하기 위해 이 포트를 수신합니다. ```http://INSTANCE:PORT/pipelined/status``` <br>기본값은 7781입니다 |
-| pointerFlushMessageCount | 이 수의 메시지가 처리되면 오프셋이 데이터베이스에 저장됩니다. <br> 기본값은 1000입니다. |
+| monitorServerPort | 파이프라인 프로세스는 여기서 내부 상태 프로세스를 제공하기 위해 이 포트를 수신합니다. ```http://INSTANCE:PORT/pipelined/status```. <br>기본값은 7781입니다 |
+| pointerFlushMessageCount | 이 수의 메시지가 처리되면 오프셋은 데이터베이스에 저장됩니다. <br> 기본값은 1000입니다. |
 | pointerFlushPeriodSec | 이 기간 이후에는 오프셋이 데이터베이스에 저장됩니다. <br>기본값은 5초입니다. |
 | processingJSONhreads | 사용자 지정 JS 커넥터를 사용하는 전용 스레드 처리 메시지 수입니다. <br> 기본값은 4입니다. |
 | processingThreads | 기본 제공 코드가 있는 전용 스레드 처리 메시지 수입니다. <br>기본값은 4입니다. |
@@ -164,6 +164,6 @@ nlserver restart pipelined@instance
 
 프로비저닝에 대한 파이프라인 설정의 유효성을 검사하려면 아래 단계를 수행하십시오.
 
-* [!DNL pipelined] 프로세스가 실행 중인지 확인합니다.
+* 다음을 확인합니다. [!DNL pipelined] 프로세스가 실행 중입니다.
 * pipelined.log에서 파이프라인 연결 로그를 확인합니다.
 * 연결 및 Ping이 수신되었는지 확인합니다. 호스팅된 고객은 클라이언트 콘솔에서 모니터링을 사용할 수 있습니다.

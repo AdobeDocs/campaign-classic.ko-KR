@@ -17,7 +17,7 @@ ht-degree: 8%
 
 ![](../../assets/common.svg)
 
-아래 자세히 설명된 워크플로우는 기본적으로 **분산 마케팅** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../distributed/using/about-distributed-marketing.md)을 참조하십시오.
+아래 자세히 설명된 워크플로우는 **분산 마케팅** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../../distributed/using/about-distributed-marketing.md).
 
 <table> 
  <tbody> 

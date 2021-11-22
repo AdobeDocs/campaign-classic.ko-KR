@@ -45,7 +45,7 @@ dbindex:==keyfield
 
 여러 인덱스를 정의할 수 있습니다. 하나의 색인이 테이블의 필드를 하나 이상 참조할 수 있습니다. 인덱스 선언은 일반적으로 기본 스키마 요소의 정의를 따릅니다.
 
-`<dbindex>`에 정의된 `<keyfield>` 요소의 순서가 매우 중요합니다. 첫 번째 `<keyfield>`은 쿼리가 주로 기반으로 하는 색인 기준이 되어야 합니다.
+주문 `<keyfield>` 에 정의된 요소 `<dbindex>` 는 매우 중요합니다. 첫 번째 `<keyfield>` 은 주로 쿼리를 기반으로 하는 인덱싱 기준이어야 합니다.
 
 데이터베이스의 인덱스 이름은 테이블의 이름과 인덱스 이름을 연결하여 계산됩니다. 예: 인덱스를 만드는 동안 인덱스 필드의 테이블 이름 &quot;Sample&quot;, 네임스페이스 &quot;Cus&quot;, 인덱스 이름 &quot;MyIndex&quot;-> 이름: &quot;CusSample_myIndex&quot;.
 
@@ -65,12 +65,12 @@ dbindex:==keyfield
 
 * **적용 가능한 경우(문자열)**: 색인을 고려하기 위한 조건 - XTK 표현식을 수신합니다.
 * **레이블(문자열)**: 인덱스 레이블입니다.
-* **이름(MNTOKEN)**: 고유 인덱스 이름입니다.
+* **name(MNTOKEN)**: 고유 인덱스 이름입니다.
 * **고유(부울)**: 이 옵션이 활성화되면(@unique=&quot;true&quot;) 속성이 해당 필드 전체에서 인덱스의 고유성을 보장합니다.
 
 ## 예제 {#examples-3}
 
-&quot;id&quot; 필드에 인덱스를 만듭니다. (`<dbindex>` 요소의 &quot;@unique&quot; 속성은 인덱스가 데이터베이스(쿼리)에 생성될 때 &quot;UNIQUE&quot; SQL 키 단어의 추가를 트리거합니다.)
+&quot;id&quot; 필드에 인덱스를 만듭니다. (@unique&quot; 속성 `<dbindex>` 요소는 데이터베이스(쿼리)에서 인덱스를 만들 때 &quot;UNIQUE&quot; SQL 키 단어의 추가를 트리거합니다.
 
 ```
 <element label="Sample" name="Sample">

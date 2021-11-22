@@ -22,8 +22,8 @@ Adobe Campaign을 사용하면 개인화된 전자 메시지를 대상 모집단
 전자 메일 전송을 시작하기 전:
 
 * 수신자 프로필에 이메일 주소 이상이 포함되어 있는지 확인하십시오.
-* Adobe Campaign [게재 우수 사례](delivery-best-practices.md)에 대해 자세히 알아보십시오.
-* 게재 능력에 대한 자세한 내용을 보려면 다음 섹션을 참조하십시오. [Campaign](about-deliverability.md) 및 [게재 기능 우수 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)의 게재 기능 관리.
+* Adobe Campaign에 대해 자세히 알아보기 [게재 모범 사례](delivery-best-practices.md).
+* 게재 능력에 대한 자세한 내용을 보려면 다음 섹션을 참조하십시오. [Campaign의 게재 기능 관리](about-deliverability.md) 및 [게재 기능 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko).
 
 전자 메일을 보내는 주요 단계는 다음과 같습니다.
 
@@ -33,4 +33,4 @@ Adobe Campaign을 사용하면 개인화된 전자 메시지를 대상 모집단
 * [이메일 보내기](sending-messages.md)
 * [게재 모니터링](about-delivery-monitoring.md)
 
-아래 섹션에서는 이메일 채널에 해당하는 정보를 제공합니다. 게재를 만드는 방법에 대한 글로벌 정보는 [이 섹션](steps-about-delivery-creation-steps.md)을 참조하십시오.
+아래 섹션에서는 이메일 채널에 해당하는 정보를 제공합니다. 게재를 만드는 방법에 대한 글로벌 정보는 [이 섹션](steps-about-delivery-creation-steps.md).

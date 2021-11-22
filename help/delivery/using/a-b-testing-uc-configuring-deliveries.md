@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ![](../../assets/common.svg)
 
-[모집단이 만들어지면](a-b-testing-uc-population-samples.md) 게재를 구성할 수 있습니다. 이 사용 사례에서 처음 두 게재를 사용하면 모집단 A와 B로 다른 콘텐츠를 전송할 수 있습니다. 세 번째 게재는 폴백 게재입니다. A 또는 B에 속하지 않는 수신자에게 전송됩니다. 해당 컨텐츠는 스크립트로 계산되며, 어떤 점수가 가장 높은 공개 비율에 따라 A 또는 B와 동일합니다. 게재 A와 B의 결과를 확인하려면 세 번째 게재에 대한 대기 기간을 구성해야 합니다. 세 번째 게재에 **[!UICONTROL Wait]** 활동이 포함된 이유입니다.
+한 번 [모집단 생성](a-b-testing-uc-population-samples.md)를 설정하는 것이 좋습니다. 이 사용 사례에서 처음 두 게재를 사용하면 모집단 A와 B로 다른 콘텐츠를 전송할 수 있습니다. 세 번째 게재는 폴백 게재입니다. A 또는 B에 속하지 않는 수신자에게 전송됩니다. 해당 컨텐츠는 스크립트로 계산되며, 어떤 점수가 가장 높은 공개 비율에 따라 A 또는 B와 동일합니다. 게재 A 및 B의 결과를 확인하려면 세 번째 게재에 대한 대기 기간을 구성해야 합니다. 이것이 세 번째 게재에 가 포함되는 이유입니다 **[!UICONTROL Wait]** 활동.
 
-1. **[!UICONTROL Split]** 활동으로 이동하고 모집단 A로 지정되는 전환을 워크플로우에 이미 있는 이메일 게재 중 하나에 연결합니다.
+1. 로 이동합니다. **[!UICONTROL Split]** 활동 및 활동 링크를 통해 모집단 A로 지정되는 전환을 워크플로우에 이미 있는 이메일 게재 중 하나에 연결합니다.
 
    ![](assets/use_case_abtesting_createdeliveries_001.png)
 
@@ -28,11 +28,11 @@ ht-degree: 0%
 
    ![](assets/use_case_abtesting_createdeliveries_003.png)
 
-1. **[!UICONTROL Continue]** 을 클릭하여 게재를 본 다음 저장합니다.
+1. 클릭 **[!UICONTROL Continue]** 게재를 보려면 저장한 다음,
 
    ![](assets/use_case_abtesting_createdeliveries_002.png)
 
-1. 모집단 B로 지정되는 **[!UICONTROL Split]** 활동의 전환을 두 번째 이메일 게재에 연결합니다.
+1. 전환 연결 **[!UICONTROL Split]** 활동(모집단 B가 두 번째 이메일 게재로 지정됨).
 
    ![](assets/use_case_abtesting_createdeliveries_004.png)
 
@@ -40,15 +40,15 @@ ht-degree: 0%
 
    ![](assets/use_case_abtesting_createdeliveries_005.png)
 
-1. 나머지 모집단에 대해 지정된 전환을 **[!UICONTROL Wait]** 활동에 연결합니다.
+1. 나머지 모집단에 대해 지정된 전환을 **[!UICONTROL Wait]** 활동.
 
    ![](assets/use_case_abtesting_createdeliveries_006.png)
 
-1. **[!UICONTROL Wait]** 활동을 열고 5일 대기 기간을 구성합니다.
+1. 를 엽니다. **[!UICONTROL Wait]** 활동을 수행하고 5일 대기 기간을 구성합니다.
 
    ![](assets/use_case_abtesting_createdeliveries_007.png)
 
-1. **[!UICONTROL Wait]** 활동을 **[!UICONTROL JavaScript code]** 활동에 연결합니다.
+1. 링크 **[!UICONTROL Wait]** 활동 대상 **[!UICONTROL JavaScript code]** 활동.
 
    ![](assets/use_case_abtesting_createdeliveries_008.png)
 

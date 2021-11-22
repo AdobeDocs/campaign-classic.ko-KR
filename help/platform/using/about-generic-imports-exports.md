@@ -21,11 +21,11 @@ Adobe Campaign Classic은 일반 가져오기 및 내보내기를 제공합니�
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](../../platform/using/exporting-and-importing-profiles.md#import-profiles-video)
 
-일반 가져오기 및 내보내기는 Adobe Campaign 트리의 **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** 노드에서 관리됩니다.
+일반 가져오기 및 내보내기는 **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** 노드 아래에 나열된 상태로 남아 있습니다.
 
 일반 가져오기 및 내보내기 작업을 수행하는 단계는 다음과 같습니다.
 
-1. [가져오기 또는 내보내기 템플릿을 만듭니다](../../platform/using/creating-import-export-templates.md) (선택 사항).
-1. [가져오기 또는 내보내기 작업을 만듭니다](../../platform/using/creating-import-export-jobs.md).
-1. [가져오기](../../platform/using/executing-import-jobs.md) 또는 [내보내기](../../platform/using/executing-export-jobs.md) 작업을 구성하고 실행합니다.
-1. [](../../platform/using/monitoring-jobs-execution.md) 작업 실행을 모니터링합니다.
+1. [가져오기 또는 내보내기 템플릿 만들기](../../platform/using/creating-import-export-templates.md) (선택 사항).
+1. [가져오기 또는 내보내기 작업 만들기](../../platform/using/creating-import-export-jobs.md).
+1. 구성 및 실행 [가져오기](../../platform/using/executing-import-jobs.md) 또는 [내보내기](../../platform/using/executing-export-jobs.md) 작업.
+1. [모니터](../../platform/using/monitoring-jobs-execution.md) 작업 실행.

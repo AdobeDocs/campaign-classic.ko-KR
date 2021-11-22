@@ -23,7 +23,7 @@ Windows 32비트 플랫폼의 경우 Adobe Campaign 32비트를 설치합니다.
 
 Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
 
-1. **setup.exe** 파일을 실행합니다.
+1. 파일 실행 **setup.exe**.
 
    ![](assets/s_ncs_install_installer_01.png)
 
@@ -38,7 +38,7 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
    * **[!UICONTROL Installation of a client]** : Adobe Campaign 클라이언트에 필요한 구성 요소 설치
    * **[!UICONTROL Custom installation]** : 사용자가 설치할 요소를 선택합니다.
 
-   **응용 프로그램 서버 설치**&#x200B;를 선택하고 다음과 같이 다른 단계를 수행하십시오.
+   선택 **응용 프로그램 서버 설치**&#x200B;를 호출하고 아래에 표시된 대로 다른 단계를 수행합니다.
 
    ![](assets/s_ncs_install_installer_02.png)
 
@@ -46,7 +46,7 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
 
    ![](assets/s_ncs_install_installer_03.png)
 
-1. **[!UICONTROL Finish]** 을 클릭하여 설치를 시작합니다.
+1. 클릭 **[!UICONTROL Finish]** 설치를 시작하려면 다음을 수행하십시오.
 
    ![](assets/s_ncs_install_installer_04.png)
 
@@ -62,7 +62,7 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
    >
    >서버 설치가 완료되면 가능한 네트워크 문제를 방지하기 위해 서버를 재부팅해야 합니다.
 
-   설치가 완료되면 Adobe Campaign을 시작하여 구성 파일을 만듭니다. [서버의 첫 번째 시작](#first-start-up-of-the-server)을 참조하십시오.
+   설치가 완료되면 Adobe Campaign을 시작하여 구성 파일을 만듭니다. 을(를) 참조하십시오. [서버의 첫 번째 시작](#first-start-up-of-the-server).
 
 ## 요약 설치 테스트 {#summary-installation-testing}
 
@@ -80,7 +80,7 @@ No task
 
 ## 서버의 첫 번째 시작 {#first-start-up-of-the-server}
 
-설치 테스트가 완료되면 **[!UICONTROL Start > Programs > Adobe Campaign]** 메뉴를 통해 명령 프롬프트를 열고 다음 명령을 입력합니다.
+설치 테스트가 완료되면 **[!UICONTROL Start > Programs > Adobe Campaign]** 메뉴를 클릭하고 다음 명령을 입력합니다.
 
 ```
 nlserver web
@@ -102,7 +102,7 @@ nlserver web
 15:30:12 >   Web server stop (pid=664, tid=4188)...
 ```
 
-**Ctrl+C** 키를 눌러 프로세스를 중지한 다음 다음 명령을 입력합니다.
+누르기 **Ctrl+C** 프로세스를 중지하려면 다음 명령을 입력합니다.
 
 ```
 nlserver start web
@@ -137,9 +137,9 @@ nlserver stop web
 
 ## 내부 식별자의 암호 {#password-for-the-internal-identifier}
 
-Adobe Campaign 서버는 모든 인스턴스에 대한 모든 권한이 있는 **internal**&#x200B;이라는 기술 로그인을 정의합니다. 설치 후 로그인에 암호가 없습니다. 하나를 반드시 정의해야 합니다.
+Adobe Campaign 서버는 **내부** 모든 인스턴스에 대한 모든 권한이 있습니다. 설치 후 로그인에 암호가 없습니다. 하나를 반드시 정의해야 합니다.
 
-자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)을 참조하십시오.
+추가 정보 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 ## Adobe Campaign 서비스 시작 {#starting-adobe-campaign-services}
 
@@ -157,7 +157,7 @@ net stop nlserver6
 
 ## LibreOffice 설치 {#installing-libreoffice}
 
-예를 들어 [https://www.libreoffice.org/download/libreoffice-fresh/](https://www.libreoffice.org/download/libreoffice-fresh/)에서 LibreOffice를 다운로드하고 일반적인 설치 단계를 따르십시오.
+LibreOffice 다운로드(예: [https://www.libreoffice.org/download/libreoffice-fresh/](https://www.libreoffice.org/download/libreoffice-fresh/) 일반 설치 단계를 따릅니다.
 
 다음 환경 변수를 추가합니다.
 

@@ -17,13 +17,13 @@ ht-degree: 1%
 
 ![](../../assets/v7-only.svg)
 
-상호 작용의 후크를 사용하여 **표준 엔진 동작**&#x200B;을 수정할 수 있습니다.
+상호 작용의 후크를 사용하여 **표준 엔진 동작**.
 
-**[!UICONTROL Target loading]** 및 **[!UICONTROL Proposition post-processing]** 후크는 Adobe Campaign의 오퍼 공간에서 구성됩니다.
+다음 **[!UICONTROL Target loading]** 및 **[!UICONTROL Proposition post-processing]** 후크는 Adobe Campaign에서 오퍼 공간에서 구성됩니다.
 
 ![](assets/interaction_hooks_1.png)
 
-**[!UICONTROL Dynamic offer]** 후크는 Adobe Campaign에서 오퍼 가중치로 구성됩니다.
+다음 **[!UICONTROL Dynamic offer]** 후크는 Adobe Campaign의 오퍼 가중치로 구성됩니다.
 
 ![](assets/interaction_hooks_2.png)
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->**xmlInteraction** 매개 변수에는 호출 데이터와 기본 쿼리에서 로드한 연락처의 프로필이 모두 포함됩니다.
+>다음 **xmlInteraction** 매개 변수에는 통화 데이터와 기본 쿼리에서 로드한 연락처의 프로필이 모두 포함됩니다.
 
 **예제:**
 
@@ -119,7 +119,7 @@ return aReturnedProps;
 
 이 후크를 사용하면 외부 엔진을 호출하여 오퍼에 연결된 제품 목록을 선택할 수 있습니다. 자격 규칙 다음에 유형화 규칙 애플리케이션 전에 오퍼에 구성됩니다.
 
-미리 통합자는 제품 **PropositionRcp** 스키마를 제품에 대한 추가 정보와 함께 확장해야 합니다. 이 데이터가 저장되는 위치를 지정하려면 스페이스의 **[!UICONTROL Storage]** 탭에서 **[!UICONTROL Proposition being processed]** 링크를 사용할 수 있습니다
+미리 통합자는 제안을 확장해야 합니다 **제안 Rcp** 스키마에 대한 추가 정보가 포함되어 있습니다. 이 데이터가 저장되는 위치를 지정하려면 **[!UICONTROL Proposition being processed]** 링크는 **[!UICONTROL Storage]** 스페이스 탭
 
 ![](assets/interaction_hooks_3.png)
 

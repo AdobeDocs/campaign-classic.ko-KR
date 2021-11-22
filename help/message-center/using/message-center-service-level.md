@@ -19,13 +19,13 @@ ht-degree: 3%
 
 이 보고서는 트랜잭션 메시지와 관련된 게재 통계 및 오류 분류를 표시합니다. 오류 유형을 클릭하여 세부 정보를 표시할 수 있습니다.
 
-기술 관리자를 대상으로 하는 이 보고서는 제어 인스턴스의 **[!UICONTROL Monitoring]** 탭을 통해 액세스할 수도 있습니다.
+기술 관리자를 대상으로 하는 이 보고서는 **[!UICONTROL Monitoring]** 탭에서 사용할 수 있습니다.
 
 ![](assets/mc_reports_1.png)
 
 이 보고서에서 전체 통계 또는 특정 실행 인스턴스에 대한 상대적 통계를 표시하도록 선택할 수 있습니다. 채널별로 및 특정 기간 동안 데이터를 필터링할 수도 있습니다.
 
-**[!UICONTROL Indicators over the period]** 섹션에 표시되는 표시기는 선택한 기간 동안 계산됩니다.
+에 표시되는 표시기 **[!UICONTROL Indicators over the period]** 섹션은 선택한 기간 동안 계산됩니다.
 
 * **[!UICONTROL Incoming (throughput event/h)]** : 메시지 센터 큐에 입력된 평균 시간별 이벤트 수
 * **[!UICONTROL Incoming (event vol)]** : 메시지 센터 큐에 입력한 이벤트 수입니다.
@@ -36,4 +36,4 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->배포 마법사에서 경고(주황색) 및 경고(빨간색) 표시기 임계값을 구성할 수 있습니다. [임계값 모니터링](../../message-center/using/additional-configurations.md#monitoring-thresholds)을 참조하십시오.
+>배포 마법사에서 경고(주황색) 및 경고(빨간색) 표시기 임계값을 구성할 수 있습니다. 을(를) 참조하십시오. [임계값 모니터링](../../message-center/using/additional-configurations.md#monitoring-thresholds).

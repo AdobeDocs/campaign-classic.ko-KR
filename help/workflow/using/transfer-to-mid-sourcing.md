@@ -17,7 +17,7 @@ ht-degree: 7%
 
 ![](../../assets/common.svg)
 
-아래 자세히 설명된 워크플로우는 기본적으로 **중간 소싱으로 전송** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 [Campaign Classic v7 설치 안내서](../../installation/using/mid-sourcing-deployment.md)를 참조하십시오.
+아래 자세히 설명된 워크플로우는 **중간 소싱으로 전송** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 [Campaign Classic v7 설치 안내서](../../installation/using/mid-sourcing-deployment.md).
 
 <table> 
  <tbody> 

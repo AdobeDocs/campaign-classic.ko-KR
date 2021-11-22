@@ -41,7 +41,7 @@ keyfield:==EMPTY
 ## 속성 설명 {#attribute-description-9}
 
 * **xlink(MNTOKEN)**: 관계식 테이블(N-N 링크)에 대해 조인에 정의된 외래 키를 자동으로 참조할 수 있도록 해줍니다.
-* **xpath(MNTOKEN)**: 요소에 대한 인덱스 또는 키의  `<attribute>`  정의입니다. 이 속성은 키 또는 인덱스를 정의하는 스키마 속성의 경로를 정의하는 Xpath를 수신합니다.
+* **xpath(MNTOKEN)**: 인덱스 또는 키 정의 `<attribute>`  요소를 생성하지 않습니다. 이 속성은 키 또는 인덱스를 정의하는 스키마 속성의 경로를 정의하는 Xpath를 수신합니다.
 
 ## 예제 {#examples-}
 

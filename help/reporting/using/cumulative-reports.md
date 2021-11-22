@@ -23,6 +23,6 @@ ht-degree: 8%
 
 목록에서 인접하지 않은 게재를 선택하려면 CTRL 키를 누른 채 선택합니다.
 
-다른 폴더에 저장된 게재를 선택하려면 **[!UICONTROL Display sub-levels]** (도구 모음을 통해 액세스 가능)을 클릭합니다. 그러면 동일한 목록에 표시됩니다.
+다른 폴더에 저장된 게재를 선택하려면 를 클릭합니다 **[!UICONTROL Display sub-levels]** (도구 모음을 통해 액세스 가능) 그러면 동일한 목록에 표시됩니다.
 
 ![](assets/s_ncs_user_display_children_icon.png)

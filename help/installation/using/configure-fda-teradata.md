@@ -17,17 +17,17 @@ ht-degree: 0%
 
 ![](../../assets/v7-only.svg)
 
-Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 Teradata 액세스를 구성합니다.
+캠페인 사용 [페더레이션 데이터 액세스](../../installation/using/about-fda.md) (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 Teradata 액세스를 구성합니다.
 
-1. [Teradata 드라이버 설치 및 구성](#teradata-config)
-1. Campaign에서 Teradata [외부 계정](#teradata-external)을 구성합니다
-1. teradata 및 Campaign 서버에 대해 [추가 구성](#teradata-additional-configurations)을 설정합니다
+1. 설치 및 구성 [Teradata 드라이버](#teradata-config)
+1. teradata 구성 [외부 계정](#teradata-external) in Campaign
+1. 설정 [추가 구성](#teradata-additional-configurations) teradata 및 Campaign 서버용
 
 ## Teradata 구성 {#teradata-config}
 
 Campaign에 대한 연결을 구현하려면 Teradata에 드라이버를 설치해야 합니다.
 
-1. [Teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux)용 ODBC 드라이버를 설치합니다.
+1. 설치 [teradata용 ODBC 드라이버](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
 
    Red Hat(또는 CentOS)/Suse에 다음 순서로 설치할 수 있는 세 개의 패키지로 구성됩니다.
 
@@ -35,7 +35,7 @@ Campaign에 대한 연결을 구현하려면 Teradata에 드라이버를 설치�
    * tdicu1510(setup_wrapper.sh를 사용하여 설치)
    * tdobc1510(setup_wrapper.sh를 사용하여 설치)
 
-1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다. 일반 매개 변수의 경우 /etc/odbc.ini **, 드라이버 선언의 경우 /etc/odbcinst.ini:**
+1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다. **/etc/odbc.ini** 일반 매개 변수 및 드라이버 선언용 /etc/odbcinst.ini:
 
    * **/etc/odbc.ini**
 
@@ -44,7 +44,7 @@ Campaign에 대한 연결을 구현하려면 Teradata에 드라이버를 설치�
       InstallDir=/etc/
       ```
 
-      &quot;InstallDir&quot;은 **odbcinst.ini** 파일의 위치에 해당합니다.
+      &quot;InstallDir&quot;은 **odbcinst.ini** 파일.
 
    * **/etc/odbcinst.ini**
 
@@ -74,15 +74,15 @@ Campaign에 대한 연결을 구현하려면 Teradata에 드라이버를 설치�
 
 teradata 외부 계정을 사용하면 Campaign 인스턴스를 Teradata 외부 데이터베이스에 연결할 수 있습니다.
 
-1. Campaign **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**&#x200B;를 클릭합니다.
+1. Campaign에서 **[!UICONTROL Explorer]**&#x200B;를 클릭합니다. **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
-1. **[!UICONTROL New]** 을 클릭하고 **[!UICONTROL External database]** 을 **[!UICONTROL Type]**(으)로 선택합니다.
+1. 클릭 **[!UICONTROL New]** 을(를) 선택합니다. **[!UICONTROL External database]** 로서의 **[!UICONTROL Type]**.
 
    ![](assets/ext_account_19.png)
 
-1. **[!UICONTROL Teradata]** 외부 계정을 구성하려면 다음을 지정해야 합니다.
+1. 를 구성하려면 **[!UICONTROL Teradata]** 외부 계정입니다. 다음을 지정해야 합니다.
 
-   * **[!UICONTROL Type]**: 유형을  **[!UICONTROL Teradata]** 선택합니다.
+   * **[!UICONTROL Type]**: 을(를) 선택합니다 **[!UICONTROL Teradata]** 유형.
 
    * **[!UICONTROL Server]**: teradata 서버의 URL 또는 이름
 
@@ -98,7 +98,7 @@ teradata 외부 계정을 사용하면 Campaign 인스턴스를 Teradata 외부 
 
 ### 쿼리 밴딩
 
-여러 Adobe Campaign 사용자가 동일한 FDA Teradata 외부 계정에 연결할 때 **[!UICONTROL Query banding]** 탭에서는 세션 중에 쿼리 대역(예: 키/값 쌍 집합)을 설정할 수 있습니다.
+여러 Adobe Campaign 사용자가 동일한 FDA Teradata 외부 계정에 연결하면 **[!UICONTROL Query banding]** 탭에서 쿼리 대역(예: 키/값 쌍 집합)을 세션에서 설정할 수 있습니다.
 
 ![](assets/ext_account_20.png)
 
@@ -106,25 +106,25 @@ teradata 외부 계정을 사용하면 Campaign 인스턴스를 Teradata 외부 
 
 >[!NOTE]
 >
->**[!UICONTROL Query banding]**&#x200B;에 대한 자세한 내용은 [Teradata 설명서](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw)를 참조하십시오.
+>자세한 내용은 **[!UICONTROL Query banding]**&#x200B;를 참조하려면 [Teradata 설명서](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw).
 
 쿼리 밴딩을 구성하려면 아래 단계를 수행하십시오.
 
-1. 사용자에게 연관된 쿼리 범위가 없는 경우 사용할 기본 쿼리 밴드를 입력하려면 **[!UICONTROL Default]** 을 사용하십시오. 이 필드를 비워 두면 쿼리 범위가 없는 사용자는 Teradata을 사용할 수 없습니다.
+1. 를 사용하십시오  **[!UICONTROL Default]** 사용자에게 연관된 쿼리 범위가 없는 경우 사용할 기본 쿼리 밴드를 입력하려면 이 필드를 비워 두면 쿼리 범위가 없는 사용자는 Teradata을 사용할 수 없습니다.
 
-1. **[!UICONTROL Users]** 필드를 사용하여 각 사용자에 대한 쿼리 밴드를 지정합니다. 필요한 만큼 키/값 쌍을 추가할 수 있습니다(예: priority=1;workload=high). 사용자에게 할당된 쿼리 범위가 없는 경우 **[!UICONTROL Default]** 필드가 적용됩니다.
+1. 를 사용하십시오 **[!UICONTROL Users]** 각 사용자에 대한 쿼리 밴드를 지정할 필드입니다. 필요한 만큼 키/값 쌍을 추가할 수 있습니다(예: priority=1;workload=high). 사용자에게 할당된 쿼리 범위가 없는 경우 **[!UICONTROL Default]** 필드가 적용됩니다.
 
-1. 이 기능을 활성화하려면 **[!UICONTROL Active]** 상자를 선택합니다.
+1. 을(를) 확인합니다. **[!UICONTROL Active]** 이 기능 활성화 상자
 
 #### 외부 계정 문제 해결 {#external-account-troubleshooting}
 
-연결 **TIM-030008 날짜 &#39;2&#39;를 테스트하는 동안 다음 오류가 표시되는 경우: 누락된 문자(s)(iRc=-53)** ODBC 드라이버가 올바르게 설치되어 있고 Campaign 서버에 대해 LD_LIBRARY_PATH(Linux) / PATH(Windows)가 설정되어 있는지 확인합니다.
+연결을 테스트하는 동안 다음 오류가 표시되는 경우 **TIM-030008 날짜 &#39;2&#39;: 누락된 문자(iRc=-53)** ODBC 드라이버가 올바르게 설치되어 있고 LD_LIBRARY_PATH(Linux) / PATH(Windows)가 Campaign 서버에 대해 설정되어 있는지 확인합니다.
 
 오류 **ODB-240000 ODBC 오류: [Microsoft][ODBC Driver Manager] 데이터 원본 이름을 찾을 수 없고 기본 드라이버가 지정되지 않았습니다.** 16.X 드라이버를 사용하는 경우 Windows에서 발생합니다. Adobe Campaign에서는 odbcinst.ini에서 &#39;{teradata}&#39; 이름을 지정해야 합니다.
 
 * Campaign 18.10부터 외부 계정의 옵션에 ODBCDriverName=&quot;Teradata 데이터베이스 ODBC 드라이버 16.10&quot;을 추가할 수 있습니다. 버전 번호를 변경할 수 있으며, 정확한 이름은 odbcad32.exe를 실행하고 드라이버 탭에 액세스하여 찾을 수 있습니다.
 
-* 이전 Campaign 버전을 사용하는 경우 드라이버 설치에서 만든 odbcinst.ini의 Teradata 섹션을 Teradata라는 새 섹션으로 복사해야 합니다. 이 경우 재편집을 사용할 수 있습니다. 베이스가 latin1에 있는 경우 옵션에 **APICharSize=1**&#x200B;을 추가해야 합니다.
+* 이전 Campaign 버전을 사용하는 경우 드라이버 설치에서 만든 odbcinst.ini의 Teradata 섹션을 Teradata라는 새 섹션으로 복사해야 합니다. 이 경우 재편집을 사용할 수 있습니다. Base가 latin1인 경우 **APICharSize=1** 을 선택합니다.
 
 ## 추가 구성 {#teradata-additional-configurations}
 
@@ -163,7 +163,7 @@ Adobe Campaign은 데이터베이스에서 만들 개체에 보호 모드(대체
 
 ### MD5 설치 {#md5-installation}
 
-Adobe Campaign 인스턴스에서 md5 함수를 사용하려면 이 [page](https://downloads.teradata.com/download/extensibility/md5-message-digest-udf)(md5_20080530.zip)에서 Teradata 데이터베이스에 사용자 모드 함수를 설치해야 합니다.
+Adobe Campaign 인스턴스에서 md5 함수를 사용하려면 이 위치에서 Teradata 데이터베이스에 사용자 모드 함수를 설치해야 합니다 [페이지](https://downloads.teradata.com/download/extensibility/md5-message-digest-udf) (md5_20080530.zip).
 
 다운로드한 파일의 sha1은 65cc0bb6935f72fcd84fef1ebcd64c00115dfd1e와 같습니다.
 
@@ -183,7 +183,7 @@ md5를 설치하려면
 
 ### SHA2 설치 {#sha2-installation}
 
-Adobe Campaign 인스턴스에서 sha2 함수를 사용하려면 이 [page](https://github.com/akuroda/teradata-udf-sha2/archive/v1.0.zip)(teradata-udf-sha2-1.0.zip)에서 Teradata 데이터베이스에 사용자 모드 함수를 설치해야 합니다.
+Adobe Campaign 인스턴스에서 sha2 함수를 사용하려면 이 창에서 Teradata 데이터베이스에 사용자 모드 함수를 설치해야 합니다 [페이지](https://github.com/akuroda/teradata-udf-sha2/archive/v1.0.zip) (teradata-udf-sha2-1.0.zip).
 
 다운로드한 파일의 sha1은 e87438d37424836358bd3902cf1adeb629349780과 같습니다.
 
@@ -204,7 +204,7 @@ sha2를 설치하려면 다음을 수행하십시오.
 
 ### UDF_UTF16TO8 설치 {#UDF-UTF16TO8-installation}
 
-Adobe Campaign 인스턴스에서 udf_utf16to8 함수를 사용하려면 이 [page](https://downloads.teradata.com/download/tools/unicode-tool-kit) (utk_release1.7.0.0.zip)의 **Teradata 유니코드 도구 키트**&#x200B;에서 Teradata 데이터베이스에 사용자 모드 함수를 설치해야 합니다.
+Adobe Campaign 인스턴스에서 udf_utf16to8 함수를 사용하려면 **Teradata 유니코드 도구 키트** 이것 [페이지](https://downloads.teradata.com/download/tools/unicode-tool-kit) (utk_release1.7.0.0.zip).
 
 다운로드한 파일의 sha1은 e58235f434f52c71316a577cb48e20b97d24f470입니다.
 
@@ -235,9 +235,9 @@ udf_utf16to8을 설치하려면
 
 드라이버 설치에 필요한 항목은 다음과 같습니다.
 
-* Teradata ODBC 드라이버. 이 [page](https://downloads.teradata.com/download/connectivity/odbc-driver/linux)에 있습니다.
+* Teradata ODBC 드라이버, 여기에서 찾을 수 있습니다 [페이지](https://downloads.teradata.com/download/connectivity/odbc-driver/linux)
 
-* Teradata 도구 및 유틸리티(벌크 로드에 사용됨)로서 이 [page](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-linux-installation-package-0)에서 찾을 수 있습니다.
+* Teradata 도구 및 유틸리티(벌크 로드에 사용됨)를 참조하십시오 [페이지](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-linux-installation-package-0)
 
 파일 이름 및 sha1:
 
@@ -285,7 +285,7 @@ ODBC 드라이버를 설치하려면
 
 ## Windows용 Campaign 서버 구성 {#campaign-server-windows}
 
-먼저 Windows용 Teradata 도구 및 유틸리티를 다운로드해야 합니다. 이 [페이지](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-windows-installation-package)에서 다운로드할 수 있습니다
+먼저 Windows용 Teradata 도구 및 유틸리티를 다운로드해야 합니다. 여기에서 다운로드할 수 있습니다 [페이지](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-windows-installation-package)
 
 ODBC 드라이버와 Teradata Parallel Transporter Base를 설치해야 합니다. teradata 데이터베이스에서 대량 로드를 수행하는 데 사용되는 telapi.dll을 설치합니다.
 
@@ -293,7 +293,7 @@ ODBC 드라이버와 Teradata Parallel Transporter Base를 설치해야 합니�
 
 ## 시간대 {#timezone}
 
-Teradata은 표준이 아닌 표준 시간대 이름을 사용하므로 [Teradata 사이트](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/oGKvgl7gCeBMTGrp59BnwA)에서 목록을 찾을 수 있습니다. Adobe Campaign은 외부 구성에 지정된 시간대를 Teradata이 이해할 수 있는 시간대로 변환하려고 합니다. 서신이 없으면 세션에 대한 옷장 GMT+X(또는 GMT-X) 시간대를 찾아 로그에 경고가 표시됩니다.
+Teradata은 표준이 아닌 표준 시간대 이름을 사용하므로 [Teradata 사이트](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/oGKvgl7gCeBMTGrp59BnwA). Adobe Campaign은 외부 구성에 지정된 시간대를 Teradata이 이해할 수 있는 시간대로 변환하려고 합니다. 서신이 없으면 세션에 대한 옷장 GMT+X(또는 GMT-X) 시간대를 찾아 로그에 경고가 표시됩니다.
 
 변환은 다음 데이터 키트 디렉토리에 있어야 하는 teradata_timezone.txt 파일을 읽습니다. linux의 /usr/local/neolane/nl6/datakit 이 파일을 편집하는 경우 Adobe Campaign 팀에 연락하여 소스 코드를 변경해야 합니다. 그렇지 않으면 다음 Campaign 업데이트 중에 이 파일을 덮어씁니다.
 

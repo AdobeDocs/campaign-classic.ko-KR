@@ -47,7 +47,7 @@ ht-degree: 16%
 
 프로필에 메시지를 보낼 수 없는 경우 원격 서버는 오류 메시지를 자동으로 전송합니다. 오류 메시지는 Adobe Campaign 플랫폼에서 선택하며 이메일 주소 또는 전화 번호 격리 여부를 결정할 수 있습니다.
 
-[게재 ](understanding-delivery-failures.md) 실패 이해 는 마케팅 캠페인을 향상시키는 데 도움이 되는 주요 단계입니다.
+[게재 실패 이해](understanding-delivery-failures.md) 는 마케팅 캠페인을 개선하는 데 도움이 되는 주요 단계입니다.
 
 <img src="assets/do-not-localize/icon_quarantine.svg" width="60px">
 
@@ -55,4 +55,4 @@ ht-degree: 16%
 
 Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외되며 타겟팅되지 않습니다.
 
-[이 섹션](understanding-quarantine-management.md)에서는 격리된 주소를 식별하고 관리하는 방법에 대한 정보를 찾고, 주소를 격리하는 조건에 대해 자세히 알아봅니다.
+in [이 섹션](understanding-quarantine-management.md), 격리된 주소를 식별하고 관리하는 방법에 대한 정보를 확인하고, 주소를 격리하는 조건 관련 정보를 알아봅니다.

@@ -25,7 +25,7 @@ ht-degree: 3%
 
    ![](assets/offer_delivery_example_001.png)
 
-1. 이메일 게재를 편집하고 **[!UICONTROL Offers]** 아이콘을 클릭합니다.
+1. 이메일 게재를 편집하고 을(를) 클릭합니다. **[!UICONTROL Offers]** 아이콘.
 
    ![](assets/offer_delivery_example_002.png)
 
@@ -53,18 +53,18 @@ ht-degree: 3%
 
    ![](assets/offer_delivery_example_008.png)
 
-1. **[!UICONTROL Preview]** 을 클릭하여 게재에서 오퍼를 미리 본 다음, 오퍼가 수신되는 대로 오퍼를 미리 볼 수신자를 선택합니다.
+1. 클릭 **[!UICONTROL Preview]** 게재에서 오퍼를 미리 보려면 수신자를 선택하여 오퍼가 수신되는 대로 오퍼를 미리 봅니다.
 
    ![](assets/offer_delivery_example_009.png)
 
 1. 게재를 저장하고 타깃팅 워크플로우를 시작합니다.
-1. 게재를 열고 게재의 **[!UICONTROL Audit]** 탭을 클릭합니다. 오퍼 엔진이 카탈로그의 여러 오퍼에서 만들 제안을 선택했음을 확인할 수 있습니다.
+1. 게재를 열고 을(를) 클릭합니다. **[!UICONTROL Audit]** 게재 탭: 오퍼 엔진이 카탈로그의 여러 오퍼에서 만들 제안을 선택했음을 확인할 수 있습니다.
 
    ![](assets/offer_delivery_example_010.png)
 
 ## 오퍼 시뮬레이션 수행 {#perform-an-offer-simulation}
 
-1. **[!UICONTROL Profiles and Targets]** 탭에서 **[!UICONTROL Simulations]** 링크를 클릭한 다음 **[!UICONTROL Create]** 단추를 클릭합니다.
+1. 에서 **[!UICONTROL Profiles and Targets]** 탭에서 **[!UICONTROL Simulations]** 링크를 클릭한 다음 **[!UICONTROL Create]** 버튼을 클릭합니다.
 
    ![](assets/offer_simulation_001.png)
 
@@ -76,7 +76,7 @@ ht-degree: 3%
 
    ![](assets/offer_simulation_example_003.png)
 
-1. **[!UICONTROL Edit]** 탭을 클릭한 다음 **[!UICONTROL Scope]** 을 클릭합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Edit]** 탭을 클릭한 다음 **[!UICONTROL Scope]**.
 
    ![](assets/offer_simulation_example_004.png)
 
@@ -91,7 +91,7 @@ ht-degree: 3%
 1. 유효 일자를 입력합니다. 시작 일자를 적어도 입력해야 합니다. 이렇게 하면 오퍼 엔진이 오퍼를 필터링하고 지정된 날짜에 유효한 오퍼를 선택할 수 있습니다.
 1. 필요한 경우 하나 또는 여러 테마를 지정하여 해당 설정에서 이 키워드를 포함하는 오퍼로 오퍼 수를 제한하십시오.
 
-   이 예제에서 **여행** 카테고리에는 두 개의 분리된 테마가 있는 두 개의 하위 카테고리가 포함되어 있습니다. **고객>1년** 테마가 있는 오퍼에 대한 시뮬레이션을 실행하려고 합니다.
+   이 예제에서는 **여행** 카테고리에는 두 개의 서로 다른 테마가 있는 두 개의 하위 카테고리가 있습니다. 오퍼에 대한 시뮬레이션을 **고객 > 1년** 테마.
 
    ![](assets/offer_simulation_example_007.png)
 
@@ -105,21 +105,21 @@ ht-degree: 3%
 
    ![](assets/offer_simulation_example_009.png)
 
-1. 설정을 저장한 다음 **[!UICONTROL Dashboard]** 탭에서 **[!UICONTROL Start]** 을 클릭하여 시뮬레이션을 실행합니다.
+1. 설정을 저장한 다음 **[!UICONTROL Start]** 에서 **[!UICONTROL Dashboard]** 탭을 사용하여 시뮬레이션을 실행합니다.
 
    ![](assets/offer_simulation_example_010.png)
 
-1. 시뮬레이션이 완료되면 오퍼당 포지션의 세부 상세 분류는 **[!UICONTROL Results]** 을 참조하십시오.
+1. 시뮬레이션이 완료되면 다음을 참조하십시오 **[!UICONTROL Results]** 제안당 제안을 상세하게 분석하기 위해.
 
    이 예제에서 오퍼 엔진은 3가지 제안을 기준으로 오퍼 분류를 기반으로 했습니다.
 
    ![](assets/offer_simulation_example_011.png)
 
-1. 오퍼 엔진에서 선택한 오퍼 목록을 보려면 **[!UICONTROL Breakdown of offers by rank]** 을 표시하십시오.
+1. 표시 **[!UICONTROL Breakdown of offers by rank]** 오퍼 엔진에서 선택한 오퍼 목록을 보려면
 
    ![](assets/offer_simulation_example_012.png)
 
-1. 필요한 경우 범위 설정을 변경하고 **[!UICONTROL Start simulation]**&#x200B;을 클릭하여 시뮬레이션을 다시 실행할 수 있습니다.
+1. 필요한 경우 범위 설정을 변경하고 을 클릭하여 시뮬레이션을 다시 실행할 수 있습니다 **[!UICONTROL Start simulation]**.
 
    ![](assets/offer_simulation_example_010.png)
 

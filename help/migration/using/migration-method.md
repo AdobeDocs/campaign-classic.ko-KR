@@ -29,15 +29,15 @@ v6.02에서 &quot;다중 시간대&quot; 모드는 PostgreSQL 데이터베이스
 >
 >Adobe Campaign 5.11 및 6.02에서 지원되는 일부 소프트웨어 버전은 더 이상 Adobe Campaign v7에서 지원되지 않습니다.
 >
->Adobe Campaign에서 지원하는 버전에 대한 자세한 내용은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.
+>Adobe Campaign에서 지원하는 버전에 대한 자세한 내용은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md).
 
 ## 주요 마이그레이션 단계 {#key-migration-steps}
 
-Adobe Campaign v7로 마이그레이션하는 일반적인 절차는 [마이그레이션을 시작하기 전 섹션에 자세히 설명되어 있습니다.](../../migration/using/before-starting-migration.md)
+Adobe Campaign v7로 마이그레이션하는 일반적인 절차는 [마이그레이션을 시작하기 전](../../migration/using/before-starting-migration.md) 섹션을 참조하십시오.
 
-Adobe Campaign v7로 마이그레이션에 대한 구현 단계는 [Adobe Campaign으로 마이그레이션 사전 요구 사항](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) 섹션에 자세히 설명되어 있습니다.
+Adobe Campaign v7로 마이그레이션에 대한 구현 단계는 [Adobe Campaign 7으로 마이그레이션하기 위한 사전 요구 사항](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) 섹션을 참조하십시오.
 
-필요한 구성은 기존 구성과 플랫폼의 초기 버전에 따라 다릅니다. 이러한 내용은 [일반 구성](../../migration/using/general-configurations.md) 섹션에 요약되어 있습니다.
+필요한 구성은 기존 구성과 플랫폼의 초기 버전에 따라 다릅니다. 이러한 내용은 [일반 구성](../../migration/using/general-configurations.md) 섹션을 참조하십시오.
 
 ## 특정 구성 {#specific-configurations}
 

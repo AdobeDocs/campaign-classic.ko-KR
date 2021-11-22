@@ -27,7 +27,7 @@ ht-degree: 10%
 
 ![](assets/Offermgt2.png)
 
-![](assets/do-not-localize/how-to-video.png) Campaign Interaction에 사용되는 상호 작용 기능 및 용어를 숙지하려면  [이 비디오를 시청하십시오](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
+![](assets/do-not-localize/how-to-video.png) Campaign 상호 작용에 사용되는 상호 작용 기능 및 용어를 숙지하려면 주의하십시오 [이 비디오](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
 
 ## 관련 항목
 

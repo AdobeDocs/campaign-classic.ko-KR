@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign은 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 캠페인을 구현하는 **분산 마케팅** 응용 프로그램을 제공합니다. 및 지역 개체(영업 지점, 지역 기관 등)를 참조하십시오. 이 작업은 중앙에서 만든 캠페인 템플릿과 인스턴스가 로컬 엔티티에 제공되는 **[!UICONTROL list of campaign packages]**&#x200B;이라는 공유 작업 공간을 기반으로 합니다.
+Adobe Campaign에서 제공하는 기능 **분산 마케팅** 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 캠페인 구현 애플리케이션 및 지역 개체(영업 지점, 지역 기관 등)를 참조하십시오. 이러한 협력은 **[!UICONTROL list of campaign packages]**&#x200B;를 설정하는 경우, 중앙에서 만든 캠페인 템플릿 및 인스턴스가 로컬 엔티티에 제공됩니다.
 
 중앙 엔티티는 로컬 엔티티가 사용할 수 있는 캠페인을 제공합니다. 로컬 또는 공동 작업 캠페인을 나타내는 패키지로 캠페인을 구체화합니다. 캠페인을 사용하려면 로컬 엔티티가 해당 캠페인을 주문해야 하며 주문을 승인해야 합니다.
 
 >[!CAUTION]
 >
->분산 마케팅 모듈은 **Campaign** 옵션입니다. 사용권 계약을 확인하십시오.
+>분산 마케팅 모듈은 **캠페인** 선택 사항입니다. 사용권 계약을 확인하십시오.
 
 ## 용어 {#terminology}
 
@@ -58,22 +58,22 @@ Adobe Campaign은 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 �
 
 * **로컬 캠페인**
 
-   로컬 캠페인은 **특정 실행 일정**&#x200B;과 함께 **[!UICONTROL campaign packages]** 목록에서 참조되는 템플릿에서 만든 인스턴스입니다. 목표는 중앙 엔티티가 설정하고 구성한 캠페인 템플릿을 사용하여 로컬 통신 요구를 충족하는 것입니다.
+   로컬 캠페인은 다음 중 목록에서 참조하는 템플릿에서 만든 인스턴스입니다 **[!UICONTROL campaign packages]** 사용 **특정 실행 일정**. 목표는 중앙 엔티티가 설정하고 구성한 캠페인 템플릿을 사용하여 로컬 통신 요구를 충족하는 것입니다.
 
    지방자치의 자율 수준은 사용되는 이행에 따라 다릅니다.
 
-   [로컬 캠페인 만들기](creating-a-local-campaign.md)를 참조하십시오.
+   을(를) 참조하십시오. [로컬 캠페인 만들기](creating-a-local-campaign.md).
 
 * **공동 작업 캠페인**
 
-   공동 작업 캠페인은 로컬 엔티티가 사용할 수 있는 중앙 엔티티에 의해 **실행 일정이 정의된 캠페인입니다.** 컨텐츠는 각 로컬 엔티티에 대해 동일하게 유지되지만 비용은 공유됩니다. 참여하기 위해 로컬 엔티티는 공동 작업 캠페인에 구독합니다.
+   협업 캠페인은 **실행 일정이 정의된 횟수** 로컬 엔티티가 사용할 수 있는 중앙 엔티티에 의해 설정됩니다. 컨텐츠는 각 로컬 엔티티에 대해 동일하게 유지되지만 비용은 공유됩니다. 참여하기 위해 로컬 엔티티는 공동 작업 캠페인에 구독합니다.
 
    * **[!UICONTROL Collaborative campaign (by form)]**: 최대 300개의 로컬 엔티티가 포함된 캠페인에 권장됩니다. 로컬 엔티티는 웹 양식에 타깃팅 및 컨텐츠 개인화를 위해 사전 정의된 매개 변수를 입력할 수 있습니다. 양식은 Adobe Campaign 양식 또는 외부 양식(엑스트라넷 클라이언트)일 수 있습니다. 기능 관리자는 통합자가 정의한 양식 템플릿을 기반으로 양식을 정의하고 구성할 수 있습니다. 캠페인에 순서를 지정하려면 로컬 엔터티에 웹 액세스만 있으면 됩니다.
-   * **[!UICONTROL Collaborative campaign (by campaign)]**: 수십 개의 로컬 엔티티를 대상으로 하는 캠페인에 권장됩니다. 이 유형의 캠페인은 각 로컬 엔티티에 대한 하위 캠페인을 만듭니다. 중앙 엔티티에 의해 **[!UICONTROL collaborative campaign (by campaign)]**&#x200B;이 승인되면 로컬 엔티티가 캠페인을 사용할 수 있게 되고, 이를 수정할 수 있습니다. 실행은 상위 캠페인과 하위 캠페인 간에 자동으로 동기화됩니다. 로컬 엔티티는 캠페인을 주문하고 참여하려면 인스턴스에 액세스할 수 있어야 합니다.
+   * **[!UICONTROL Collaborative campaign (by campaign)]**: 수십 개의 로컬 엔티티를 대상으로 하는 캠페인에 권장됩니다. 이 유형의 캠페인은 각 로컬 엔티티에 대한 하위 캠페인을 만듭니다. 한 번 **[!UICONTROL collaborative campaign (by campaign)]** 중앙 엔티티가 승인한 경우, 로컬 엔티티가 캠페인을 사용할 수 있게 되어 이를 수정할 수 있습니다. 실행은 상위 캠페인과 하위 캠페인 간에 자동으로 동기화됩니다. 로컬 엔티티는 캠페인을 주문하고 참여하려면 인스턴스에 액세스할 수 있어야 합니다.
    * **[!UICONTROL Collaborative campaign (by target approval)]**: 수천 개의 로컬 엔티티를 대상으로 하는 캠페인에 권장됩니다. 로컬 엔터티는 중앙 엔터티에 의해 미리 정의된 연락처 목록을 받습니다. 로컬 엔티티는 웹 양식을 통해 캠페인 콘텐츠를 기반으로 특정 연락처를 유지할지 여부를 결정합니다. 로컬 엔터티는 선택한 연락처 목록에서 추론됩니다. 캠페인에 참여하려면 로컬 엔터티에 웹 액세스만 있으면 됩니다.
    * **[!UICONTROL Collaborative campaign (simple)]**: 이 모드에서는 이전 버전의 특정 실행 프로세스와 호환됩니다.
 
-   [공동 작업 캠페인 만들기](creating-a-collaborative-campaign.md)를 참조하십시오.
+   을(를) 참조하십시오. [공동 작업 캠페인 만들기](creating-a-collaborative-campaign.md).
 
 **캠페인 패키지 순서 지정**
 
@@ -81,7 +81,7 @@ Adobe Campaign은 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 �
 
 ## 작업 영역 {#workspace}
 
-캠페인 패키지 목록은 **캠페인** 탭에서 액세스할 수 있습니다. **[!UICONTROL Campaign packages]** 링크를 클릭합니다.
+캠페인 패키지 목록은 **캠페인** 탭: 를 클릭합니다. **[!UICONTROL Campaign packages]** 링크를 클릭합니다.
 
 ![](assets/mkg_dist_home_local_op.png)
 
@@ -91,7 +91,7 @@ Adobe Campaign은 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 �
 
 ## 연산자 및 엔티티 {#operators-and-entities}
 
-먼저 **[!UICONTROL Access management]** 폴더를 통해 중앙 및 로컬 엔티티 연산자를 지정합니다.
+을 통해 중앙 및 로컬 엔티티 연산자를 지정하여 시작합니다 **[!UICONTROL Access management]** 폴더를 입력합니다.
 
 ![](assets/s_advuser_mkg_dist_tree.png)
 
@@ -99,19 +99,19 @@ Adobe Campaign은 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 �
 
 중앙 및 로컬 연산자를 만들어야 합니다.
 
-중앙 연산자는 **[!UICONTROL Central management]** 연산자 그룹에 속하거나 **[!UICONTROL CENTRAL]** 이름이 오른쪽에 있어야 합니다.
+중앙 연산자는 **[!UICONTROL Central management]** 연산자 그룹 또는 **[!UICONTROL CENTRAL]** 이름이 오른쪽으로 지정됨.
 
-로컬 연산자는 **[!UICONTROL Local management]** 연산자 그룹에 속하거나 **[!UICONTROL LOCAL]** 이름이 오른쪽이어야 합니다. 로컬 엔티티에도 연결되어 있어야 합니다.
+로컬 연산자는 **[!UICONTROL Local management]** 연산자 그룹 또는 **[!UICONTROL LOCAL]** 이름이 오른쪽으로 지정됨. 로컬 엔티티에도 연결되어 있어야 합니다.
 
 ![](assets/s_advuser_mkg_dist_local_create.png)
 
 ### 조직 엔터티 {#organizational-entities}
 
-조직 엔터티를 만들려면 **[!UICONTROL Administration > Access management > Organizational entities]** 노드를 클릭하고 엔티티 목록 위에 있는 **[!UICONTROL New]** 아이콘을 클릭합니다.
+조직 엔터티를 만들려면 **[!UICONTROL Administration > Access management > Organizational entities]** node 를 클릭하고 **[!UICONTROL New]** 엔티티 목록 위에 있는 아이콘.
 
 ![](assets/s_advuser_mkg_dist_local_list.png)
 
-각 조직 개체에는 식별 정보(레이블, 내부 이름, 연락처 정보 등)가 포함되어 있습니다. 및 주문 승인 프로세스와 관련된 그룹입니다. 이는 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL Notifications and approvals]** 섹션에 정의됩니다.
+각 조직 개체에는 식별 정보(레이블, 내부 이름, 연락처 정보 등)가 포함되어 있습니다. 및 주문 승인 프로세스와 관련된 그룹입니다. 이러한 ID는 **[!UICONTROL Notifications and approvals]** 섹션에 있는 **[!UICONTROL General]** 탭.
 
 * 패키지 알림 그룹을 정의합니다. 이 그룹의 운영자는 캠페인을 사용할 수 있을 때마다 새 패키지를 캠페인 패키지 목록에 추가할 때마다 알림을 받게 됩니다.
 * 주문 승인을 담당하는 검토자 그룹을 선택합니다. 즉, 로컬 엔티티가 주문한 캠페인 승인을 담당하는 사람을 선택합니다.
@@ -119,7 +119,7 @@ Adobe Campaign은 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 �
 
 >[!NOTE]
 >
->승인 프로세스는 [승인 프로세스](creating-a-local-campaign.md#approval-process) 섹션에 나와 있습니다.
+>승인 프로세스는 [승인 프로세스](creating-a-local-campaign.md#approval-process) 섹션을 참조하십시오.
 
 ## 구현 {#implementation}
 
@@ -139,12 +139,12 @@ Adobe Campaign은 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 �
 
    * 타겟 정의 및 최대 크기,
    * 콘텐츠 정의,
-   * 실행 일정(연락 날짜 및 추출 날짜), **로컬 연산자에만 해당**,
+   * 실행 일정(연락 날짜 및 추출 날짜), **로컬 연산자만**,
    * 필요한 모든 추가 필드가 있는 순서 스키마 확장.
 
 1. 현지화 매개 변수를 표시하고 타겟 및 예산을 평가하고 컨텐츠를 미리 보고 순서를 승인할 수 있도록 해주는 웹 양식(Adobe 또는 엑스트라넷)을 작성합니다.
 
-   **공동 작업 캠페인(대상 승인 기준)에 대해 각 로컬 엔티티에 대한 승인이 저장되는 테이블을 만듭니다.**
+   대상 **협업 캠페인(target 승인별)**&#x200B;를 입력하여 각 로컬 엔티티에 대한 승인을 저장할 테이블을 만듭니다.
 
 ### 기능 관리자 작업 {#functional-administrator-side}
 

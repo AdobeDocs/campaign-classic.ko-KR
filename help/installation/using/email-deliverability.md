@@ -23,34 +23,34 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->일부 구성은 Adobe이 서버 및 인스턴스 구성 파일에 액세스하는 등 Adobe이 호스팅하는 배포에 대해서만 수행할 수 있습니다. 서로 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지](../../installation/using/capability-matrix.md)를 참조하십시오.
+>일부 구성은 Adobe이 서버 및 인스턴스 구성 파일에 액세스하는 등 Adobe이 호스팅하는 배포에 대해서만 수행할 수 있습니다. 다양한 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 또는 [이 페이지](../../installation/using/capability-matrix.md).
 
-Adobe Campaign을 통한 게재 능력에 대한 개념 및 우수 사례에 대한 자세한 내용은 이 [섹션](../../delivery/using/about-deliverability.md)을 참조하십시오.
+Adobe Campaign을 통한 게재 기능과 관련된 개념과 모범 사례에 대한 자세한 내용은 이 항목을 참조하십시오 [섹션](../../delivery/using/about-deliverability.md).
 
-Adobe 플랫폼이 전자 메일을 효율적으로 보내고 받는 것과 관련된 모든 기술 권장 사항을 포함하여 게재 기능에 대한 자세한 내용은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하십시오.
+Adobe 플랫폼이 전자 메일을 효율적으로 보내고 받는 것과 관련된 모든 기술 권장 사항을 포함하여 게재 능력에 대한 자세한 내용은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko).
 
 ## 운영 원칙 {#operating-principle}
 
-도메인에 따라 전송되는 이메일 수를 제한하는 하나 이상의 Adobe Campaign 인스턴스의 출력을 제어할 수 있습니다. 예를 들어 다른 모든 도메인에 대해 시간당 100,000개의 메시지를 구성하는 동안 **yahoo.com** 주소의 출력을 20,000개로 제한할 수 있습니다.
+도메인에 따라 전송되는 이메일 수를 제한하는 하나 이상의 Adobe Campaign 인스턴스의 출력을 제어할 수 있습니다. 예를 들어 출력을 시간 당 20,000으로 제한할 수 있습니다 **yahoo.com** 주소 를 구성하는 동안 다른 모든 도메인에 대해 시간당 100,000개의 메시지를 구성합니다.
 
-메시지 출력은 게재 서버에서 사용하는 각 IP 주소(**mta**)에 대해 제어해야 합니다. 여러 시스템에 대해 분류되고 다양한 Adobe Campaign 인스턴스에 속하는 여러 **mta**&#x200B;가 전자 메일 배달을 위해 동일한 IP 주소를 공유할 수 있습니다. 이러한 IP 주소의 사용을 조정하기 위해 프로세스를 설정해야 합니다.
+게재 서버에서 사용하는 각 IP 주소에 대해 메시지 출력을 제어해야 합니다(**mta**). 몇 개 **mta** 여러 시스템에 대해 분류되고 다양한 Adobe Campaign 인스턴스에 속하는 는 전자 메일 게재를 위해 동일한 IP 주소를 공유할 수 있습니다. 이러한 IP 주소의 사용을 조정하기 위해 프로세스를 설정해야 합니다.
 
-**stat** 모듈에서 수행하는 작업: 이 서비스는 IP 주소 집합에 대해 메일 서버로 전송할 모든 연결 요청과 메시지를 전달합니다. 통계 서버는 게재를 추적하고 설정된 할당량에 따라 전송을 활성화하거나 비활성화할 수 있습니다.
+이것이 바로 **stat** 의 기능은 다음과 같습니다. 이 서비스는 IP 주소 집합에 대해 메일 서버로 전송할 모든 연결 요청과 메시지를 전달합니다. 통계 서버는 게재를 추적하고 설정된 할당량에 따라 전송을 활성화하거나 비활성화할 수 있습니다.
 
 ![](assets/s_ncs_install_mta.png)
 
-* 통계 서버(**stat**)는 해당 구성을 로드하기 위해 Adobe Campaign 베이스에 연결됩니다.
-* 게재 서버(**mta**)는 UDP를 사용하여 항상 자체 인스턴스에 속하지 않는 통계 서버에 연결합니다.
+* 통계 서버(**stat**)가 Adobe Campaign 베이스에 연결되어 구성을 로드합니다.
+* 게재 서버(**mta**) UDP를 사용하여 자체 인스턴스에 항상 속하지 않는 통계 서버에 연결합니다.
 
 ### 게재 서버 {#delivery-servers}
 
-**mta** 모듈은 **mtachild** 하위 모듈에 메시지를 배포합니다. 각 **mtachild**&#x200B;은(는) 통계 서버에서 인증을 요청하여 보내기 전에 메시지를 준비합니다.
+다음 **mta** 모듈은 메시지를 **mtachild** 하위 모듈입니다. 각 **mtachild** 통계 서버에서 인증을 요청하고 보내기 전에 메시지를 준비합니다.
 
 단계는 다음과 같습니다.
 
-1. **mta**&#x200B;는 적합한 메시지를 선택하고 사용 가능한 **일치함**&#x200B;을 지정합니다.
-1. **mtachild**&#x200B;는 메시지(콘텐츠, 개인화 요소, 첨부 파일, 이미지 등)를 작성하는 데 필요한 모든 정보를 로드합니다. 및 는 **이메일 트래픽 쉐이퍼**&#x200B;에 메시지를 전달합니다.
-1. 이메일 트래픽 스키마가 통계 서버의 인증(**smtp stat**)을 받는 즉시 메시지가 수신자에게 전송됩니다.
+1. 다음 **mta** 적합한 메시지를 선택하고 사용 가능한 메시지를 지정합니다. **mtachild**.
+1. 다음 **mtachild** 메시지(콘텐츠, 개인화 요소, 첨부 파일, 이미지 등)를 작성하는 데 필요한 모든 정보를 로드합니다. 메시지를 **이메일 트래픽 표시기**.
+1. 전자 메일 트래픽이 통계 서버의 인증을 받는 즉시(**smtp stat**)이면 메시지가 수신자에게 전송됩니다.
 
 ![](assets/s_ncs_install_email_traffic_shaper.png)
 
@@ -75,17 +75,17 @@ Adobe 플랫폼이 전자 메일을 효율적으로 보내고 받는 것과 관�
 
 게재 통계는 각 대상 MX 및 각 소스 IP에 대해 유지됩니다. 예를 들어 타깃팅된 도메인에 5개의 MX가 있고 플랫폼이 3개의 서로 다른 IP 주소를 사용할 수 있는 경우 서버는 이 도메인에 대해 최대 15개의 지표 시리즈를 관리할 수 있습니다.
 
-소스 IP 주소는 공용 IP 주소(원격 이메일 서버에서 보는 주소)와 일치합니다. NAT 라우터가 제공되는 경우 이 IP 주소는 **mta**&#x200B;를 호스팅하는 시스템의 주소와 다를 수 있습니다. 통계 서버에서 공용 IP(**publicId**)와 일치하는 식별자를 사용하는 이유입니다. 로컬 주소와 이 식별자 간의 연결은 **serverConf.xml** 구성 파일에 선언됩니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [section](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
+소스 IP 주소는 공용 IP 주소(원격 이메일 서버에서 보는 주소)와 일치합니다. 이 IP 주소는 **mta** NAT 라우터가 제공된 경우 통계 서버에서 공용 IP(**publicId**). 로컬 주소와 이 식별자 간의 연결은 **serverConf.xml** 구성 파일. 에서 사용할 수 있는 모든 매개 변수 **serverConf.xml** 여기에 나열되어 있습니다. [섹션](../../installation/using/the-server-configuration-file.md).
 
 ## 게재 출력 제어 {#delivery-output-controlling}
 
-메시지를 이메일 서버에 전달하려면 **이메일 트래픽 공유** 구성 요소가 통계 서버에서 연결을 요청합니다. 요청이 수락되면 연결이 열립니다.
+전자 메일 서버에 메시지를 전달하려면 **이메일 트래픽 표시기** 구성 요소는 통계 서버에서 연결을 요청합니다. 요청이 수락되면 연결이 열립니다.
 
 모듈을 통해 메시지를 보내기 전에 서버에서 &#39;토큰&#39;을 요청합니다. 일반적으로 서버에 대한 쿼리 수를 줄이는 10개 이상의 토큰 집합입니다.
 
 서버는 연결 및 게재와 관련된 모든 통계를 저장합니다. 재부팅할 경우 정보가 일시적으로 손실됩니다. 각 클라이언트는 전송 통계의 로컬 복사본을 보관하고 정기적으로(2분마다) 서버로 반환합니다. 그런 다음 서버가 데이터를 다시 집계할 수 있습니다.
 
-다음 섹션에서는 **이메일 트래픽 쉐이퍼** 구성 요소의 메시지 처리에 대해 설명합니다.
+다음 섹션에서는 **이메일 트래픽 표시기** 구성 요소.
 
 ### 메시지 전달 {#message-delivery}
 
@@ -93,17 +93,17 @@ Adobe 플랫폼이 전자 메일을 효율적으로 보내고 받는 것과 관�
 
 1. **성공**: 메시지를 보냈습니다. 메시지가 업데이트됩니다.
 1. **메시지 실패**: 선택한 수신자에 대한 메시지가 연결된 서버에서 거부되었습니다. 이 결과는 반환 코드 550~599와 일치하지만, 예외를 정의할 수 있습니다.
-1. **세션 실패** (5.11 이상): 데이터 **** 가 이 메시지에 대한 답변을 받으면 메시지를 중단합니다( [메시지 포기 참조](#message-abandonment)). 다른 경로를 사용할 수 없는 경우 메시지가 다른 경로로 전송되거나 보류 중으로 설정됩니다(메시지 보류 중](#message-pending) 참조).[
+1. **세션 실패** (5.11 상향): if **mta** 이 메시지에 대한 답변을 받으면 메시지가 중단됩니다(참조: [메시지 포기](#message-abandonment)). 다른 경로를 사용할 수 없는 경우 메시지가 다른 경로로 전송되거나 보류 중으로 설정됩니다(참조: [메시지 보류 중](#message-pending)).
 
    >[!NOTE]
    >
-   >**경로**&#x200B;는 Adobe Campaign **mta**&#x200B;와 대상 **mta** 간의 연결입니다. Adobe Campaign **mta**&#x200B;는 여러 개의 시작 IP 및 여러 타겟 도메인 IP 중에서 선택할 수 있습니다.
+   >A **경로** 는 Adobe Campaign 간의 연결입니다 **mta** 타겟과 **mta**. Adobe Campaign **mta** 여러 시작 IP 및 여러 타겟 도메인 IP 중에서 선택할 수 있습니다.
 
 ### 메시지 포기 {#message-abandonment}
 
-중단된 메시지는 **mta**&#x200B;에 반환되고 더 이상 **mtachild**&#x200B;에서 관리하지 않습니다.
+중단된 메시지는 **mta** 및 는 더 이상 **mtachild**.
 
-**mta**&#x200B;는 이 메시지의 절차(복구, 포기, 격리 등)를 결정합니다. 응답 코드 및 규칙에 따라 다릅니다.
+다음 **mta** 이 메시지의 절차(복구, 중단, 격리 등)를 결정합니다. 응답 코드 및 규칙에 따라 다릅니다.
 
 ### 메시지 보류 중 {#message-pending}
 
@@ -119,11 +119,11 @@ Adobe 플랫폼이 전자 메일을 효율적으로 보내고 받는 것과 관�
 
 ### 구성 시작 {#start-configuration}
 
-기본적으로 각 인스턴스에 대해 **stat** 모듈이 시작됩니다. 인스턴스가 동일한 컴퓨터에서 풀링되거나 인스턴스가 동일한 IP 주소를 공유하는 경우 단일 통계 서버가 사용됩니다. 다른 사람들은 비활성화되어야 합니다.
+기본적으로 **stat** 모듈은 각 인스턴스에 대해 시작됩니다. 인스턴스가 동일한 컴퓨터에서 풀링되거나 인스턴스가 동일한 IP 주소를 공유하는 경우 단일 통계 서버가 사용됩니다. 다른 사람들은 비활성화되어야 합니다.
 
 ### 서버 포트의 정의 {#definition-of-the-server-port}
 
-기본적으로 통계 서버는 포트 7777에서 수신 대기합니다. 이 포트는 **serverConf.xml** 파일에서 수정할 수 있습니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [section](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
+기본적으로 통계 서버는 포트 7777에서 수신 대기합니다. 이 포트는 **serverConf.xml** 파일. 에서 사용할 수 있는 모든 매개 변수 **serverConf.xml** 여기에 나열되어 있습니다. [섹션](../../installation/using/the-server-configuration-file.md).
 
 ```
 <stat port="1234"/>
@@ -133,7 +133,7 @@ Adobe 플랫폼이 전자 메일을 효율적으로 보내고 받는 것과 관�
 
 >[!IMPORTANT]
 >
->호스팅 또는 하이브리드 설치의 경우 [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md)로 업그레이드한 경우 **[!UICONTROL MX management]** 게재 처리량 규칙이 더 이상 사용되지 않습니다. Enhanced MTA는 자체 MX 규칙을 사용하여 사용자의 과거 전자 메일 신뢰도를 기반으로, 전자 메일을 전송하는 도메인에서 오는 실시간 피드백에 따라 도메인별로 처리량을 사용자 정의할 수 있습니다.
+>호스팅 또는 하이브리드 설치의 경우 로 업그레이드한 경우 [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md), **[!UICONTROL MX management]** 게재 처리량 규칙은 더 이상 사용되지 않습니다. Enhanced MTA는 자체 MX 규칙을 사용하여 사용자의 과거 전자 메일 신뢰도를 기반으로, 전자 메일을 전송하는 도메인에서 오는 실시간 피드백에 따라 도메인별로 처리량을 사용자 정의할 수 있습니다.
 
 ### MX 규칙 {#about-mx-rules}
 
@@ -212,16 +212,16 @@ user:~ user$ host -t a mta6.am0.yahoodns.net
 
 ### MX 관리 구성 {#configuring-mx-management}
 
-MX에 대해 따라야 할 규칙은 트리의 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** 노드의 **[!UICONTROL MX management]** 문서에 정의되어 있습니다.
+MX에 대해 준수해야 하는 규칙은 **[!UICONTROL MX management]** 문서 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** 노드 아래에 있어야 합니다.
 
-노드에 **[!UICONTROL MX management]** 문서가 없으면 수동으로 만들 수 있습니다. 방법은 다음과 같습니다.
+만약 **[!UICONTROL MX management]** 문서가 노드에 없으므로 수동으로 만들 수 있습니다. 방법은 다음과 같습니다.
 
 1. 새 메일 규칙 세트를 만듭니다.
-1. **[!UICONTROL MX management]** 모드를 선택합니다.
+1. 을(를) 선택합니다 **[!UICONTROL MX management]** 모드.
 
    ![](assets/s_ncs_install_mx_mgt_rule.png)
 
-1. **[!UICONTROL Internal name]** 필드에 **defaultMXRules**&#x200B;을 입력합니다.
+1. Enter 키 **defaultMXRules** 에서 **[!UICONTROL Internal name]** 필드.
 
 변경 사항을 고려하려면 통계 서버를 다시 시작해야 합니다.
 
@@ -229,11 +229,11 @@ MX에 대해 따라야 할 규칙은 트리의 **[!UICONTROL Administration > Ca
 
 >[!NOTE]
 >
->이 명령줄은 **nlserver restart**&#x200B;보다 선호됩니다. 다시 시작하기 전에 수집된 통계가 손실되지 않도록 하고 MX 규칙에 정의된 할당량에 따라 사용할 수 있는 최고점을 방지합니다.
+>이 명령줄에서 **nlserver 다시 시작**. 다시 시작하기 전에 수집된 통계가 손실되지 않도록 하고 MX 규칙에 정의된 할당량에 따라 사용할 수 있는 최고점을 방지합니다.
 
 ### MX 규칙 구성 {#configuring-mx-rules}
 
-**[!UICONTROL MX management]** 문서는 MX 규칙에 연결된 모든 도메인을 나열합니다.
+다음 **[!UICONTROL MX management]** 문서는 MX 규칙에 연결된 모든 도메인을 나열합니다.
 
 이러한 규칙은 순서대로 적용됩니다. MX 마스크가 타깃팅된 MX와 호환되는 첫 번째 규칙이 적용됩니다.
 
@@ -262,7 +262,7 @@ MX에 대해 따라야 할 규칙은 트리의 **[!UICONTROL Administration > Ca
    gmail.com mail exchanger = 30 alt3.gmail-smtp-in.l.google.com.
    ```
 
-   이 경우 MX 규칙 `*.google.com`이 사용됩니다. 보시다시피 MX 규칙 마스크가 메일의 도메인과 꼭 일치하지 않습니다. gmail.com 전자 메일 주소에 적용되는 MX 규칙은 마스크 `*.google.com`이 있는 규칙입니다.
+   이 경우 MX 규칙 `*.google.com` 이 사용됩니다. 보시다시피 MX 규칙 마스크가 메일의 도메인과 꼭 일치하지 않습니다. gmail.com 전자 메일 주소에 적용되는 MX 규칙은 마스크가 있는 규칙입니다 `*.google.com`.
 
 * **[!UICONTROL Range of identifiers]**: 이 옵션을 사용하면 규칙이 적용되는 식별자(publicID) 범위를 지정할 수 있습니다. 다음을 지정할 수 있습니다.
 
@@ -273,7 +273,7 @@ MX에 대해 따라야 할 규칙은 트리의 **[!UICONTROL Administration > Ca
    >
    >필드가 비어 있으면 규칙이 모든 식별자에 적용됩니다.
 
-   공개 ID는 하나 또는 여러 MTA에서 사용하는 공개 IP의 내부 식별자입니다. 이러한 ID는 **config-instance.xml** 파일의 MTA 서버에서 정의됩니다.
+   공개 ID는 하나 또는 여러 MTA에서 사용하는 공개 IP의 내부 식별자입니다. 이러한 ID는 의 MTA 서버에서 정의됩니다 **config-instance.xml** 파일.
 
    ![](assets/s_ncs_install_mta_ips.png)
 
@@ -285,7 +285,7 @@ MX에 대해 따라야 할 규칙은 트리의 **[!UICONTROL Administration > Ca
 
    >[!NOTE]
    >
-   >Windows에서는 사용자의 Windows 버전에 따라 이 임계값 전에 **시간 초과**&#x200B;를 발급할 수 있습니다.
+   >Windows에서 **timeout** 이 임계값 전에 Windows 버전에 따라 달라집니다.
 
 * **[!UICONTROL Timeout Data]**: 메시지 콘텐츠를 보낸 후 최대 대기 시간(SMTP 프로토콜의 데이터 섹션)
 * **[!UICONTROL Timeout]**: SMTP 서버와의 다른 교환을 위한 최대 대기 시간입니다.
@@ -306,30 +306,30 @@ MX에 대해 따라야 할 규칙은 트리의 **[!UICONTROL Administration > Ca
 
 >[!NOTE]
 >
->Adobe Campaign에서 MX 서버 사용에 대한 자세한 내용은 [이 섹션](../../installation/using/using-mx-servers.md)을 참조하십시오.
+>Adobe Campaign에서 MX 서버 사용에 대한 자세한 내용은 [이 섹션](../../installation/using/using-mx-servers.md).
 
 ### 이메일 형식 관리 {#managing-email-formats}
 
 전송된 메시지의 형식을 정의하여 표시되는 컨텐츠가 각 수신자 주소의 도메인에 따라 자동으로 조정되도록 할 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]**&#x200B;에 있는 **[!UICONTROL Management of email formats]** 문서로 이동합니다.
+이렇게 하려면 로 이동합니다. **[!UICONTROL Management of email formats]** 문서, **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]**.
 
-이 문서에는 Adobe Campaign에서 관리하는 일본어 형식에 해당하는 사전 정의된 모든 도메인 목록이 포함되어 있습니다. 자세한 내용은 [이 문서](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles)를 참조하십시오.
+이 문서에는 Adobe Campaign에서 관리하는 일본어 형식에 해당하는 사전 정의된 모든 도메인 목록이 포함되어 있습니다. 자세한 내용은 [이 문서](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
 ![](assets/mail_rule_sets.png)
 
-**MIME 구조**(다목적 인터넷 메일 확장) 매개 변수를 사용하면 서로 다른 메일 클라이언트로 보낼 메시지 구조를 정의할 수 있습니다. 다음 세 가지 옵션을 사용할 수 있습니다.
+다음 **MIME 구조** (다목적 인터넷 메일 확장) 매개 변수를 사용하면 다른 메일 클라이언트로 보낼 메시지 구조를 정의할 수 있습니다. 다음 세 가지 옵션을 사용할 수 있습니다.
 
 * **다중 부분**: 메시지는 텍스트 또는 HTML 형식으로 전송됩니다. HTML 형식이 허용되지 않는 경우에도 메시지는 텍스트 형식으로 표시될 수 있습니다.
 
-   기본적으로 다중 부분 구조는 **다중 부분/대체**&#x200B;이지만 이미지가 메시지에 추가되면 자동으로 **다중 부분/관련**&#x200B;이 됩니다. 특정 공급자는 기본적으로 **multipart/related** 형식을 기대하며, 이미지가 첨부되지 않은 경우에도 **[!UICONTROL Force multipart/related]** 옵션은 이 형식을 지정합니다.
+   기본적으로 다중 부분 구조는 다음과 같습니다 **다중 부분/대체**&#x200B;그러나 자동으로 **다중 부분/관련** 메시지에 이미지가 추가되는 경우입니다. 특정 공급자는 **다중 부분/관련** 기본적으로 형식은 **[!UICONTROL Force multipart/related]** 옵션이 첨부된 이미지가 없는 경우에도 이 형식을 적용합니다.
 
 * **HTML**: HTML 전용 메시지가 전송됩니다. HTML 형식이 허용되지 않으면 메시지가 표시되지 않습니다.
 * **텍스트**: 텍스트 전용 형식의 메시지가 전송됩니다. 텍스트 형식 메시지의 장점은 크기가 매우 작다는 것입니다.
 
-**[!UICONTROL Image inclusion]** 옵션이 활성화되어 있으면 전자 메일 본문에 직접 표시됩니다. 그러면 이미지가 업로드되고 URL 링크가 해당 컨텐츠로 바뀝니다.
+만약 **[!UICONTROL Image inclusion]** 옵션이 활성화되어 있으면 전자 메일 본문에 직접 표시됩니다. 그러면 이미지가 업로드되고 URL 링크가 해당 컨텐츠로 바뀝니다.
 
-이 옵션은 특히 **Deco-mail**, **Decore Mail** 또는 **데코레이션 메일**&#x200B;에 대한 일본 시장에서 사용됩니다. 자세한 내용은 [이 문서](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles)를 참조하십시오.
+이 옵션은 특히 일본 시장에서 **데코 메일**, **전자 메일 삭제** 또는 **장식 메일**. 자세한 내용은 [이 문서](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
 >[!IMPORTANT]
 >
@@ -343,9 +343,9 @@ Adobe Campaign 플랫폼(데이터베이스 포함)을 구성하는 모든 서�
 
 ### 통계 서버의 좌표 {#coordinates-of-the-statistics-server}
 
-통계 서버의 주소는 **mta**&#x200B;에 제공해야 합니다.
+통계 서버의 주소는 **mta**.
 
-구성의 **mta** 요소의 **statServerAddress** 속성을 사용하면 사용할 포트의 주소와 번호를 지정할 수 있습니다.
+다음 **statServerAddress** 속성 **mta** 구성의 요소를 사용하여 사용할 포트의 주소와 번호를 지정할 수 있습니다.
 
 ```
 <mta statServerAddress="emailStatServer:7777">
@@ -353,7 +353,7 @@ Adobe Campaign 플랫폼(데이터베이스 포함)을 구성하는 모든 서�
  </mta>
 ```
 
-동일한 컴퓨터에서 통계 서버를 사용하려면 **localhost** 값이 있는 컴퓨터의 이름 이상을 입력해야 합니다.
+같은 컴퓨터에서 통계 서버를 사용하려면 적어도 이 컴퓨터에 있는 컴퓨터 이름을 입력해야 합니다 **localhost** 값:
 
 ```
  <mta statServerAddress="localhost">
@@ -361,13 +361,13 @@ Adobe Campaign 플랫폼(데이터베이스 포함)을 구성하는 모든 서�
 
 >[!IMPORTANT]
 >
->이 필드를 채우지 않으면 **mta**&#x200B;이 시작되지 않습니다.
+>이 필드를 채우지 않으면 **mta** 이 시작되지 않습니다.
 
 ### 사용할 IP 주소 목록 {#list-of-ip-addresses-to-use}
 
-트래픽 관리에 대한 구성은 구성 파일의 **mta/child/smtp** 요소에 있습니다.
+트래픽 관리에 대한 구성은 **mta/child/smtp** 구성 파일의 요소입니다.
 
-각 **IPAffness** 요소에 대해 컴퓨터에 사용할 수 있는 IP 주소를 선언해야 합니다.
+각 **IPAffness** 요소를 사용하려면 컴퓨터에 사용할 수 있는 IP 주소를 선언해야 합니다.
 
 예제:
 
@@ -384,7 +384,7 @@ Adobe Campaign 플랫폼(데이터베이스 포함)을 구성하는 모든 서�
 * **주소**: 사용할 MTA 호스트 시스템의 IP 주소입니다.
 * **heloHost**: 이 식별자는 SMTP 서버에서 볼 IP 주소를 나타냅니다.
 
-* **publicId**: 이 정보는 NAT 라우터 뒤에 있는 여러 Adobe Campaign  **** mtags에서 IP 주소를 공유할 때 유용합니다. 통계 서버는 이 식별자를 사용하여 이 시작점과 대상 서버 사이의 연결 및 전송 통계를 기억합니다.
+* **publicId**: 이 정보는 여러 Adobe Campaign에서 IP 주소를 공유할 때 유용합니다 **mtas** NAT 라우터 뒤에 있습니다. 통계 서버는 이 식별자를 사용하여 이 시작점과 대상 서버 사이의 연결 및 전송 통계를 기억합니다.
 * **가중치**: 주소의 상대 사용 빈도를 정의할 수 있습니다. 기본적으로 모든 주소의 가중치는 1입니다.
 
 >[!NOTE]
@@ -406,24 +406,24 @@ Adobe Campaign 플랫폼(데이터베이스 포함)을 구성하는 모든 서�
 
    예: **includeDomains=&quot;wanadoo.com,orange.com,yahoo.*&quot;**
 
-* **excludeDomains**: 은 이 IP 주소의 도메인 목록을 제외합니다. 이 필터는 **includeDomains** 필터 다음에 적용됩니다.
+* **excludeDomains**: 은 이 IP 주소의 도메인 목록을 제외합니다. 이 필터는 **includeDomains** 필터.
 
    ![](assets/s_ncs_install_mta_ips.png)
 
 ## 이메일 전송 최적화 {#email-sending-optimization}
 
-Adobe Campaign **mta**&#x200B;의 내부 아키텍처는 이메일 게재 최적화를 위한 구성에 영향을 줍니다. 게재 개선에 대한 몇 가지 팁은 다음과 같습니다.
+Adobe Campaign의 내부 아키텍처 **mta** 은 이메일 게재 최적화를 위한 구성에 영향을 줍니다. 다음은 게재 개선에 대한 몇 가지 팁입니다.
 
 ### maxWaitingMessages 매개 변수 조정 {#adjust-the-maxwaitingmessages-parameter}
 
-**maxWaitingMessages** 매개 변수는 **mtachild**&#x200B;에 의해 미리 준비된 가장 높은 메시지 수를 나타냅니다. 메시지를 보내거나 포기한 경우에만 이 목록에서 삭제됩니다.
+다음 **maxWaitingMessages** 매개 변수는 **mtachild**. 메시지를 보내거나 포기한 경우에만 이 목록에서 삭제됩니다.
 
 이 매개 변수는 메시지를 도메인으로 정렬하지 않는 경우 매우 중요하며 특히 중요합니다.
 
-**maxWorkingSetMb**(256) 임계값에 도달하면 게재 서버가 메시지 전송을 중지합니다. **일치함**&#x200B;이 다시 시작될 때까지 성능이 크게 저하됩니다. 이 문제를 회피하려면 **maxWorkingSetMb** 매개 변수의 임계값을 늘리거나 **maxWaitingMessages** 매개 변수의 임계값을 줄일 수 있습니다.
+한 번 **maxWorkingSetMb** (256) 임계값에 도달하면 게재 서버가 메시지 전송을 중지합니다. 성능이 크게 저하될 때까지 **mtachild** 다시 시작합니다. 이 문제를 회피하려면 **maxWorkingSetMb** 매개 변수 또는 **maxWaitingMessages** 매개 변수.
 
-**maxWorkingSetMb** 매개 변수는 경험적으로 최대 메시지 수에 평균 메시지 크기를 곱하고 결과에 2.5를 곱하여 계산됩니다. 예를 들어, 메시지의 평균 크기가 50kB이고 **maxWaitingMessages** 매개 변수가 1,000인 경우 사용되는 메모리는 평균 125MB입니다.
+다음 **maxWorkingSetMb** 매개 변수는 최대 메시지 수에 평균 메시지 크기를 곱하고 결과에 2.5를 곱하여 경험적으로 계산됩니다. 예를 들어, 메시지의 평균 크기가 50kB이고 **maxWaitingMessages** 매개 변수는 1,000이며, 사용된 메모리는 평균 125MB입니다.
 
 ### 일치 개수 조정 {#adjust-the-number-of-mtachild}
 
-하위 수는 시스템의 프로세서 수를 초과할 수 없습니다(약). 1000개 세션). **mtachild**&#x200B;을 초과하지 않는 것이 좋습니다. 그런 다음 **child**(**maxMsgPerChild**)당 메시지 수를 늘려 충분한 수명을 제공할 수 있습니다.
+하위 수는 시스템의 프로세서 수를 초과할 수 없습니다(약). 1000개 세션). 8을 넘지 않는 것이 좋습니다 **mtachild**. 그런 다음 메시지 수를 늘릴 수 있습니다 **하위** (**maxMsgPerChild**)을 클릭하여 충분한 수명을 제공합니다.

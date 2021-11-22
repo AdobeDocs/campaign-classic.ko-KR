@@ -23,14 +23,14 @@ ht-degree: 2%
 
 이 시나리오에서는 개별 및/또는 개인화된 첨부 파일이 있는 트랜잭션 이메일을 보내는 방법을 알아봅니다. 첨부 파일은 트랜잭션 메시지 서버에 미리 업로드되지 않습니다. 대신 즉시 생성됩니다.
 
-고객 상호 작용이나 세부 정보를 캡처할 경우 프로세스 종료 시 이 정보를 고객에게 다시 보내야 할 수 있습니다. 예를 들어 전자 메일에 첨부된 PDF 파일입니다.
+고객 상호 작용이나 세부 사항을 캡처할 경우 프로세스 종료 시, 예를 들어 전자 메일에 첨부된 PDF 파일에서 이 정보를 고객에게 다시 보내야 할 수 있습니다.
 
 다음은 이 시나리오의 주요 단계입니다.
 
 1. 고객이 웹 사이트에 들어가 구매할 제품을 찾습니다.
 1. 고객은 제품을 선택하고 일부 옵션을 사용자 지정합니다.
 1. 고객이 트랜잭션을 완료합니다.
-1. 트랜잭션을 확인하는 이메일이 고객에게 전송됩니다. 이메일에서 PII(개인 식별 정보)를 전송하지 않는 것이 권장되므로 보안 PDF가 생성되고 이메일에 첨부됩니다.
+1. 트랜잭션을 확인하는 이메일이 고객에게 전송됩니다. 이메일에서 PII(개인 식별 정보)를 전송하지 않는 것이 권장되므로 보안 PDF이 생성되고 이메일에 첨부됩니다.
 1. 고객은 관련 데이터가 포함된 이메일 및 첨부 파일을 받습니다.
 
 이 시나리오에서는 첨부 파일이 미리 만들어지지 않고 아웃바운드 전자 메일에 즉시 추가되므로 다음과 같은 이점이 있습니다.
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->성능 문제를 방지하려면 개인화된 URL에서 즉시 다운로드한 이미지를 첨부 파일로 포함하는 경우 각 이미지 크기가 기본적으로 10만 바이트를 초과해서는 안 됩니다. 이 권장 임계값은 [Campaign Classic 옵션 목록에서 구성할 수 있습니다](../../installation/using/configuring-campaign-options.md#delivery).
+>성능 문제를 방지하려면 개인화된 URL에서 즉시 다운로드한 이미지를 첨부 파일로 포함하는 경우 각 이미지 크기가 기본적으로 10만 바이트를 초과해서는 안 됩니다. 이 권장 임계값은 다음에서 구성할 수 있습니다. [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## 추천 {#important-notes}
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. 권장 임계값은 [Campaign Classic 옵션 목록에서 구성할 수 있습니다](../../installation/using/configuring-campaign-options.md#delivery).
+>성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. 권장 임계값은 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## 구현 {#implementation}
 
@@ -70,11 +70,11 @@ ht-degree: 2%
 
 1. SOAP 메시지 트리거를 통해 이메일을 보낼 수 있습니다. SOAP 호출에는 URL 매개 변수(attachmentURL)가 있습니다.
 
-   SOAP 요청에 대한 자세한 내용은 [이벤트 설명](../../message-center/using/event-description.md)을 참조하십시오.
+   SOAP 요청에 대한 자세한 내용은 [이벤트 설명](../../message-center/using/event-description.md).
 
-1. 이메일을 디자인할 때 **[!UICONTROL Attachment]** 을 클릭합니다.
+1. 이메일을 디자인할 때 **[!UICONTROL Attachment]**.
 
-1. **[!UICONTROL Attachment definition]** 화면에서 SOAP 첨부 파일 매개 변수를 입력합니다.
+1. 에서 **[!UICONTROL Attachment definition]** 화면에서 SOAP 첨부 파일 매개 변수를 입력합니다.
 
    ```
    <%= rtEvent.ctx.attachmentUrl %>

@@ -25,48 +25,48 @@ Campaign v7에 많은 서비스와 웹 응용 프로그램이 있는 경우 Camp
 
 이를 위해서는 다음을 수행해야 합니다.
 
-* Campaign v7 데이터베이스에 저장되고 Campaign Standard과 동기화된 수신자입니다. [프로필 동기화](../../integrations/using/synchronizing-profiles.md) 섹션을 참조하십시오.
+* Campaign v7 데이터베이스에 저장되고 Campaign Standard과 동기화된 수신자입니다. 자세한 내용은 [프로필 동기화](../../integrations/using/synchronizing-profiles.md) 섹션을 참조하십시오.
 * Campaign v7에서 만들고 게시된 서비스 및 웹 애플리케이션입니다.
-* 웹 응용 프로그램에는 **[!UICONTROL Adobe Campaign encryption]** 식별 메서드를 사용하는 **[!UICONTROL Pre-loading]** 활동이 포함되어야 합니다.
+* 웹 응용 프로그램에는 **[!UICONTROL Pre-loading]** 활동을 사용하여 **[!UICONTROL Adobe Campaign encryption]** 식별 방법.
 
 ## 웹 응용 프로그램 및 서비스 만들기 {#creating-the-web-application-and-service}
 
-Campaign v7에서는 수신자가 서비스에 가입하도록 허용하는 웹 애플리케이션을 만들 수 있습니다. 웹 애플리케이션 및 서비스는 Campaign v7에 설계 및 저장되며 Campaign Standard 통신을 통해 이 서비스를 업데이트할 수 있습니다. Campaign v7의 웹 애플리케이션에 대한 자세한 내용은 [이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)을 참조하십시오.
+Campaign v7에서는 수신자가 서비스에 가입하도록 허용하는 웹 애플리케이션을 만들 수 있습니다. 웹 애플리케이션 및 서비스는 Campaign v7에 설계 및 저장되며 Campaign Standard 통신을 통해 이 서비스를 업데이트할 수 있습니다. Campaign v7의 웹 애플리케이션에 대한 자세한 내용은 [이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes).
 
 Campaign v7에서 다음 개체가 생성되었습니다.
 
 * 뉴스레터 서비스
-* **[!UICONTROL Pre-loading]**, **[!UICONTROL Page]** 및 **[!UICONTROL Storage]** 활동을 포함하는 웹 애플리케이션입니다.
+* 를 포함하는 웹 애플리케이션 **[!UICONTROL Pre-loading]**, **[!UICONTROL Page]** 그리고 **[!UICONTROL Storage]** 활동.
 
-1. **[!UICONTROL Resources > Online > Web applications]** 로 이동하여 기존 웹 응용 프로그램을 선택합니다.
+1. 이동 **[!UICONTROL Resources > Online > Web applications]** 기존 웹 응용 프로그램을 선택합니다.
 
    ![](assets/acs_connect_lp_2.png)
 
-1. **[!UICONTROL Preloading]** 활동을 편집합니다. **[!UICONTROL Auto-load data referenced in the form]** 상자가 선택되고 **[!UICONTROL Adobe Campaign encryption]** 식별 방법이 선택됩니다. 이렇게 하면 웹 애플리케이션에서 Adobe Campaign 데이터베이스에 저장된 데이터로 양식 필드를 미리 로드할 수 있습니다. [이 문서](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data)를 참조하십시오.
+1. 편집 **[!UICONTROL Preloading]** 활동. 다음 **[!UICONTROL Auto-load data referenced in the form]** 상자를 선택하고 **[!UICONTROL Adobe Campaign encryption]** 식별 방법이 선택되어 있습니다. 이렇게 하면 웹 애플리케이션에서 Adobe Campaign 데이터베이스에 저장된 데이터로 양식 필드를 미리 로드할 수 있습니다. 자세한 내용은 [이 문서](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
 
    ![](assets/acs_connect_lp_4.png)
 
-1. **[!UICONTROL Page]**&#x200B;을 편집합니다. 3개의 필드(이름, 이메일 및 전화)와 수신자를 뉴스레터(**[!UICONTROL Newsletter]** 서비스)에 가입하도록 초대하는 확인란이 포함되어 있습니다.
+1. 편집 **[!UICONTROL Page]**. 3개의 필드(이름, 이메일 및 전화)와 수신자를 뉴스레터에 가입하도록 초대하는 확인란(이름, 이메일 및 전화)이 포함되었습니다&#x200B;**[!UICONTROL Newsletter]** 서비스).
 
    ![](assets/acs_connect_lp_3.png)
 
-1. **[!UICONTROL Profiles and Target > Services and subscriptions]**(으)로 이동하여 **[!UICONTROL Newsletter]** 서비스를 엽니다. Campaign Standard 통신에서 업데이트할 서비스입니다. 수신자가 아직 이 서비스를 구독하지 않았음을 알 수 있습니다.
+1. 이동 **[!UICONTROL Profiles and Target > Services and subscriptions]** 그리고 **[!UICONTROL Newsletter]** 서비스. Campaign Standard 통신에서 업데이트할 서비스입니다. 수신자가 아직 이 서비스를 구독하지 않았음을 알 수 있습니다.
 
    ![](assets/acs_connect_lp_5.png)
 
-1. **[!UICONTROL Profiles and Targets > Recipient]**(으)로 이동하여 수신자를 선택합니다. 이 프로필이 아직 서비스를 구독하지 않았음을 알 수 있습니다.
+1. 이동 **[!UICONTROL Profiles and Targets > Recipient]** 수신자를 선택합니다. 이 프로필이 아직 서비스를 구독하지 않았음을 알 수 있습니다.
 
    ![](assets/acs_connect_lp_6.png)
 
 ## 데이터 복제 {#replicating-the-data}
 
-Campaign v7와 Campaign Standard 간에 필요한 데이터를 복제하기 위해 몇 개의 복제 워크플로우 템플릿을 사용할 수 있습니다. **[!UICONTROL Profiles replication]** 워크플로우는 모든 Campaign v7 수신자를 자동으로 Campaign Standard에 복제합니다. [기술 및 복제 워크플로우](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows)를 참조하십시오. **[!UICONTROL Landing pages replication]** 워크플로우를 통해 Campaign Standard에 사용할 웹 애플리케이션을 복제할 수 있습니다.
+Campaign v7와 Campaign Standard 간에 필요한 데이터를 복제하기 위해 몇 개의 복제 워크플로우 템플릿을 사용할 수 있습니다. 다음 **[!UICONTROL Profiles replication]** 워크플로우는 모든 Campaign v7 수신자를 자동으로 Campaign Standard에 복제합니다. 자세한 내용은 [기술 및 복제 워크플로우](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). 다음 **[!UICONTROL Landing pages replication]** 작업 과정을 통해 Campaign Standard에 사용할 웹 응용 프로그램을 복제할 수 있습니다.
 
 ![](assets/acs_connect_lp_1.png)
 
 데이터가 올바르게 복제되었는지 확인하려면 Campaign Standard에서 다음 단계를 수행합니다.
 
-1. 홈 화면에서 **[!UICONTROL Customer profiles]** 을 클릭합니다.
+1. 홈 화면에서 **[!UICONTROL Customer profiles]**.
 
    ![](assets/acs_connect_lp_7.png)
 
@@ -74,11 +74,11 @@ Campaign v7와 Campaign Standard 간에 필요한 데이터를 복제하기 위�
 
    ![](assets/acs_connect_lp_8.png)
 
-1. 상단 막대에서 **[!UICONTROL Marketing activities]** 을 클릭하고 Campaign v7 웹 애플리케이션을 검색합니다. 랜딩 페이지로 표시됩니다.
+1. 상단 막대에서 을(를) 클릭합니다. **[!UICONTROL Marketing activities]**, 그리고 Campaign v7 웹 애플리케이션을 검색합니다. 랜딩 페이지로 표시됩니다.
 
    ![](assets/acs_connect_lp_9.png)
 
-1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **프로필 및 대상 > 서비스**&#x200B;를 선택하고 뉴스레터 서비스가 있는지 확인합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Adobe Campaign]** 왼쪽 상단 모서리에서 로고를 선택한 다음 **프로필 및 대상 > 서비스** 그리고 뉴스레터 서비스가 있는지 확인합니다.
 
    ![](assets/acs_connect_lp_10.png)
 
@@ -86,10 +86,10 @@ Campaign v7와 Campaign Standard 간에 필요한 데이터를 복제하기 위�
 
 이 부분에서는 Campaign Standard 이메일에 Campaign v7 웹 애플리케이션에서 복제된 랜딩 페이지에 링크를 포함하는 방법을 살펴봅니다.
 
-이메일을 만들고, 디자인하고 보내는 단계는 클래식 이메일과 동일합니다. [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ko) 설명서를 참조하십시오.
+이메일을 만들고, 디자인하고 보내는 단계는 클래식 이메일과 동일합니다. 자세한 내용은 [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ko) 설명서.
 
 1. 새 이메일을 만들고 하나 이상의 복제된 프로필을 대상으로 선택합니다.
-1. 컨텐츠를 편집하고 **[!UICONTROL Link to a landing page]**&#x200B;을(를) 삽입합니다.
+1. 콘텐츠를 편집하고 삽입 **[!UICONTROL Link to a landing page]**.
 
    ![](assets/acs_connect_lp_12.png)
 
@@ -110,15 +110,15 @@ Campaign v7와 Campaign Standard 간에 필요한 데이터를 복제하기 위�
 
 수신자가 웹 애플리케이션을 통해 데이터를 업데이트하면 Adobe Campaign v7이 업데이트된 정보를 동기식으로 검색합니다. 그런 다음 Campaign v7에서 Campaign Standard으로 복제됩니다.
 
-1. Campaign v7에서 **[!UICONTROL Profiles and Target > Services and subscriptions]**(으)로 이동하여 **[!UICONTROL Newsletter]** 서비스를 엽니다. 수신자가 이제 구독자 목록에 표시되는지 확인할 수 있습니다.
+1. Campaign v7에서 **[!UICONTROL Profiles and Target > Services and subscriptions]** 그리고 **[!UICONTROL Newsletter]** 서비스. 수신자가 이제 구독자 목록에 표시되는지 확인할 수 있습니다.
 
    ![](assets/acs_connect_lp_16.png)
 
-1. **[!UICONTROL Profiles and Targets > Recipient]**(으)로 이동하여 수신자를 선택합니다. 이제 전화번호도 저장되어 있는 것을 보실 수 있습니다.
+1. 이동 **[!UICONTROL Profiles and Targets > Recipient]** 수신자를 선택합니다. 이제 전화번호도 저장되어 있는 것을 보실 수 있습니다.
 
    ![](assets/acs_connect_lp_17.png)
 
-1. **[!UICONTROL Subscriptions]** 탭에서 이 수신자가 뉴스레터 서비스에 가입했음을 확인할 수도 있습니다.
+1. 에서 **[!UICONTROL Subscriptions]** 탭에서는 이 수신자가 뉴스레터 서비스에 가입되었음을 확인할 수도 있습니다.
 
    ![](assets/acs_connect_lp_18.png)
 
@@ -131,6 +131,6 @@ Campaign v7와 Campaign Standard 간에 필요한 데이터를 복제하기 위�
 
    ![](assets/acs_connect_lp_20.png)
 
-1. **[!UICONTROL Subscriptions]** 탭을 클릭합니다. 이제 뉴스레터 서비스가 나타납니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Subscriptions]** 탭. 이제 뉴스레터 서비스가 나타납니다.
 
    ![](assets/acs_connect_lp_21.png)

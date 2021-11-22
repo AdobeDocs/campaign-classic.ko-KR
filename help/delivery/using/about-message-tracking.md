@@ -19,9 +19,9 @@ ht-degree: 9%
 
 Adobe Campaign은 추적 기능 덕분에 전송된 메시지를 추적하고 수신자의 동작을 확인할 수 있습니다. 열기, 링크 클릭 수, 구독 취소 등
 
-이 정보는 게재의 각 수신자의 프로필의 **[!UICONTROL Tracking]** 탭에서 검색됩니다. 이 탭은 목록에서 선택한 수신자가 추적하고 클릭한 모든 URL 링크를 표시합니다. 게재 화면에 여전히 존재하는 게재에서 추적된 모든 URL의 적립입니다. 목록을 구성할 수 있으며 일반적으로 다음을 포함합니다. 클릭한 URL, 클릭 날짜 및 시간, URL이 있는 문서가 표시됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/editing-a-profile.md#tracking-tab)을 참조하십시오.
+이 정보는 **[!UICONTROL Tracking]** 게재의 각 수신자의 프로필의 탭입니다. 이 탭은 목록에서 선택한 수신자가 추적하고 클릭한 모든 URL 링크를 표시합니다. 게재 화면에 여전히 존재하는 게재에서 추적된 모든 URL의 적립입니다. 목록을 구성할 수 있으며 일반적으로 다음을 포함합니다. 클릭한 URL, 클릭 날짜 및 시간, URL이 있는 문서가 표시됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/editing-a-profile.md#tracking-tab)을 참조하십시오.
 
-**게재 대시보드**&#x200B;는 메시지를 보내는 동안 발생하는 게재 및 최종 문제를 모니터링하는 키이기도 합니다. 자세한 정보는 [이 섹션](delivery-dashboard.md)을 참조하십시오.
+다음 **게재 대시보드** 또한 메시지를 보내는 동안 발생하는 게재 및 최종 문제를 모니터링하는 키입니다. 자세한 내용은 [이 섹션](delivery-dashboard.md).
 
 다음 다이어그램은 사용자와 다양한 서버 간의 대화 상자 단계를 보여줍니다.
 
@@ -107,7 +107,7 @@ Campaign Classic 추적 기능을 사용하면 개인화할 수 있고 추적을
 
 <img src="assets/do-not-localize/icon-troubleshooting.svg" width="60px">
 
-다음 문제 해결 팁은 Adobe Campaign Classic에서 추적을 사용할 때 발생하는 가장 일반적인 문제를 해결하는 데 도움이 됩니다. 고급 문제 해결을 보려면 [이 섹션](tracking-troubleshooting.md)을 참조하십시오.
+다음 문제 해결 팁은 Adobe Campaign Classic에서 추적을 사용할 때 발생하는 가장 일반적인 문제를 해결하는 데 도움이 됩니다. 고급 문제 해결을 보려면 [이 섹션](tracking-troubleshooting.md).
 
 * 추적 로그 프로세스가 실행 중인지 확인합니다
 

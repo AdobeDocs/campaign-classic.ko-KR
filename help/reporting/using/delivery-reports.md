@@ -19,30 +19,30 @@ ht-degree: 2%
 
 게재 개요에서 액세스할 수 있는 다양한 보고서를 통해 게재 실행을 추적할 수 있습니다. 보고서를 표시하려면 다음 절차를 적용합니다.
 
-1. **[!UICONTROL Campaigns]** 탭으로 이동하여 **[!UICONTROL Delivery]** 링크를 클릭하여 게재 목록을 표시합니다.
+1. 로 이동합니다. **[!UICONTROL Campaigns]** 탭을 클릭하고 **[!UICONTROL Delivery]** 게재 목록을 표시하는 링크입니다.
 1. 세부 사항을 표시하려면 표시할 게재 이름을 클릭합니다.
 
    ![](assets/s_ncs_user_detailled_report.png)
 
-1. **[!UICONTROL Summary]** 탭을 선택하고 **[!UICONTROL Reports]** 링크를 클릭하여 게재와 관련된 보고서에 액세스합니다.
+1. 을(를) 선택합니다 **[!UICONTROL Summary]** 탭을 클릭하고 **[!UICONTROL Reports]** 를 눌러 게재와 관련된 보고서에 액세스합니다.
 
    ![](assets/s_ncs_user_detailled_report2.png)
 
    기본적으로 다음 보고서를 사용할 수 있습니다.
 
-   * **[!UICONTROL Delivery throughput]** : 게재  [처리량](../../reporting/using/global-reports.md#delivery-throughput)을 참조하십시오.
-   * **[!UICONTROL Sharing to social networks]** : 소셜  [네트워크에 공유 를 참조하십시오](../../reporting/using/global-reports.md#sharing-to-social-networks).
-   * **[!UICONTROL Statistics on sharing activities]** : 활동  [공유에 대한 통계 를 참조하십시오](../../reporting/using/global-reports.md#statistics-on-sharing-activities).
-   * **[!UICONTROL Hot clicks]** : 핫  [클릭](#hot-clicks)을 참조하십시오.
-   * **[!UICONTROL Tracking statistics]** : 통계  [추적 을 참조하십시오.](#tracking-statistics)
-   * **[!UICONTROL URLs and click streams]** : URL  [을 참조하여 스트림을 클릭합니다](#urls-and-click-streams).
-   * **[!UICONTROL Tracking indicators]** : 지표  [추적](#tracking-indicators)을 참조하십시오.
-   * **[!UICONTROL Non-deliverables and bounces]** : 게재  [불가 및 이탈](../../reporting/using/global-reports.md#non-deliverables-and-bounces)을 참조하십시오.
-   * **[!UICONTROL User activities]** : 사용자  [활동](../../reporting/using/global-reports.md#user-activities)을 참조하십시오.
-   * **[!UICONTROL Delivery summary]** : 게재  [요약](#delivery-summary)을 참조하십시오.
-   * **[!UICONTROL Subscription tracking]** : 구독  [추적](../../reporting/using/global-reports.md#subscription-tracking)을 참조하십시오.
-   * **[!UICONTROL Delivery statistics]** : 게재  [통계](../../reporting/using/global-reports.md#delivery-statistics)를 참조하십시오.
-   * **[!UICONTROL Breakdown of opens]** : 열기  [분류 를 참조하십시오](../../reporting/using/global-reports.md#breakdown-of-opens).
+   * **[!UICONTROL Delivery throughput]** : 참조 [게재 처리량](../../reporting/using/global-reports.md#delivery-throughput).
+   * **[!UICONTROL Sharing to social networks]** : 참조 [소셜 네트워크에 공유](../../reporting/using/global-reports.md#sharing-to-social-networks).
+   * **[!UICONTROL Statistics on sharing activities]** : 참조 [활동 공유에 대한 통계](../../reporting/using/global-reports.md#statistics-on-sharing-activities).
+   * **[!UICONTROL Hot clicks]** : 참조 [핫 클릭](#hot-clicks).
+   * **[!UICONTROL Tracking statistics]** : 참조 [통계 추적](#tracking-statistics)
+   * **[!UICONTROL URLs and click streams]** : 참조 [URL 및 클릭 스트림](#urls-and-click-streams).
+   * **[!UICONTROL Tracking indicators]** : 참조 [지표 추적](#tracking-indicators).
+   * **[!UICONTROL Non-deliverables and bounces]** : 참조 [게재 불가 및 이탈](../../reporting/using/global-reports.md#non-deliverables-and-bounces).
+   * **[!UICONTROL User activities]** : 참조 [사용자 활동](../../reporting/using/global-reports.md#user-activities).
+   * **[!UICONTROL Delivery summary]** : 참조 [게재 요약](#delivery-summary).
+   * **[!UICONTROL Subscription tracking]** : 참조 [구독 추적](../../reporting/using/global-reports.md#subscription-tracking).
+   * **[!UICONTROL Delivery statistics]** : 참조 [게재 통계](../../reporting/using/global-reports.md#delivery-statistics).
+   * **[!UICONTROL Breakdown of opens]** : 참조 [열기 분류](../../reporting/using/global-reports.md#breakdown-of-opens).
 
 ## 지표 추적 {#tracking-indicators}
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->텍스트 형식의 전자 메일에 연결된 오류의 여분으로 인해 메시지 열기를 기반으로 계산된 값은 항상 예측됩니다. **[!UICONTROL Distinct opens/Sum of opens for the population reached]** 표시기는 이 오차 마진을 고려합니다. 열기 횟수 추적에 대한 자세한 내용은 [추적 열기](../../reporting/using/indicator-calculation.md#tracking-opens-)를 참조하십시오.
+>텍스트 형식의 전자 메일에 연결된 오류의 여분으로 인해 메시지 열기를 기반으로 계산된 값은 항상 예측됩니다. 다음 **[!UICONTROL Distinct opens/Sum of opens for the population reached]** 지표들은 이 오차 마진을 고려한다. 열기 추적에 대한 자세한 내용은 [추적 열기](../../reporting/using/indicator-calculation.md#tracking-opens-).
 
 ![](assets/s_ncs_user_tracking_synth_report.png)
 
@@ -68,12 +68,12 @@ ht-degree: 2%
 * **[!UICONTROL Distinct opens for the population reached]** : 메시지를 한 번 이상 연 타겟팅된 수신자 수 예측 구독 취소 링크 및 미러 페이지의 클릭이 고려됩니다.
 * **[!UICONTROL Sum of opens for the population reached]** : 타겟팅된 수신자의 총 열기 수 예측
 * **[!UICONTROL Clicks on opt-out link]** : 구독 취소 링크에 대한 클릭 수입니다.
-* **[!UICONTROL Clicks on the mirror page link]** : 미러 페이지에 대한 링크에 대한 클릭 수입니다. 고려하려면 게재 마법사(추적된 URL)에서 링크는 다음과 같이 정의해야 합니다. 이 [page](../../delivery/using/about-delivery-monitoring.md)을 참조하십시오.
+* **[!UICONTROL Clicks on the mirror page link]** : 미러 페이지에 대한 링크에 대한 클릭 수입니다. 고려하려면 게재 마법사(추적된 URL)에서 링크는 다음과 같이 정의해야 합니다. 다음을 참조하십시오 [페이지](../../delivery/using/about-delivery-monitoring.md).
 * **[!UICONTROL Estimation of forwards]** : 타겟팅된 수신자가 발송한 전자 메일 수의 예측입니다. 이 값은 개별 사용자의 수와 이메일을 클릭한 개별 수신자 수를 뺀 값을 계산합니다.
 
    >[!NOTE]
    >
-   >개별 사용자와 타겟팅된 수신자 간의 차이에 대한 자세한 내용은 [타겟팅된 사람 / 수신자](../../reporting/using/indicator-calculation.md#targeted-persons---recipients) 를 참조하십시오.
+   >개별 사용자와 타겟팅된 수신자 간의 차이에 대한 자세한 내용은 [대상 개인/수신자](../../reporting/using/indicator-calculation.md#targeted-persons---recipients).
 
 **[!UICONTROL 3. Open and click-through rate]**
 
@@ -87,7 +87,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 보고서에 표시되는 도메인 이름은 큐브 수준에서 사용되는 항목별 목록에서 정의됩니다. 변경하려면 기본 도메인을 추가하거나 제거하려면 **[!UICONTROL Domains]** 항목별 목록을 편집하고 값 및 별칭을 수정합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/managing-enumerations.md)을 참조하십시오. **[!UICONTROL Others]** 카테고리에는 항목별 목록의 값에 속하지 않는 도메인 이름이 포함되어 있습니다.
+>이 보고서에 표시되는 도메인 이름은 큐브 수준에서 사용되는 항목별 목록에서 정의됩니다. 기본 도메인을 변경하거나 추가하려면 **[!UICONTROL Domains]** 항목화된 목록 및 값 및 별칭을 수정합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/managing-enumerations.md)을 참조하십시오. 다음 **[!UICONTROL Others]** 카테고리에는 항목별 목록 값에 속하지 않는 도메인 이름이 포함되어 있습니다.
 
 **[!UICONTROL 4. Generated click streams]**
 
@@ -112,11 +112,11 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >방문한 페이지, 거래, 금액 또는 문서를 고려하여 웹 추적 태그를 일치하는 웹 페이지에 삽입해야 합니다. 웹 추적 구성은 [이 섹션](../../configuration/using/about-web-tracking.md)에 나와 있습니다.
+   >방문한 페이지, 거래, 금액 또는 문서를 고려하여 웹 추적 태그를 일치하는 웹 페이지에 삽입해야 합니다. 웹 추적 구성은 [이 섹션](../../configuration/using/about-web-tracking.md).
 
 **[!UICONTROL 6. Sharing activities to email and social networks]**
 
-이 섹션에서는 각 소셜 네트워크에서 공유되는 메시지 수를 보여줍니다. 자세한 내용은 [소셜 네트워크에 공유](../../reporting/using/global-reports.md#sharing-to-social-networks)를 참조하십시오.
+이 섹션에서는 각 소셜 네트워크에서 공유되는 메시지 수를 보여줍니다. 자세한 내용은 [소셜 네트워크에 공유](../../reporting/using/global-reports.md#sharing-to-social-networks).
 
 ## URL 및 클릭 스트림 {#urls-and-click-streams}
 
@@ -132,7 +132,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >열기 횟수 추적에 대한 자세한 내용은 [추적 열기](../../reporting/using/indicator-calculation.md#tracking-opens-)를 참조하십시오.
+   >열기 추적에 대한 자세한 내용은 [추적 열기](../../reporting/using/indicator-calculation.md#tracking-opens-).
 
 * **[!UICONTROL Distinct clicks]** : 게재에서 한 번 이상(구독 취소 링크 및 미러 페이지 제외) 클릭한 개별 사용자 수입니다. 표시된 비율은 성공적으로 전달된 메시지 수를 기준으로 계산됩니다.
 * **[!UICONTROL Cumulated clicks]** : 타겟팅된 수신자별 총 클릭 수(구독 취소 링크 및 미러 페이지 제외). 표시된 비율은 성공적으로 전달된 메시지 수를 기준으로 계산됩니다.
@@ -159,7 +159,7 @@ ht-degree: 2%
 이 섹션에는 두 개의 지표가 있습니다.
 
 * **[!UICONTROL Initial population]** : 게재가 타겟팅한 총 수신자 수입니다.
-* **[!UICONTROL Messages rejected by the rule]** : 유형화 규칙을 적용할 때 분석 중에 무시된 주소 수입니다. 주소가 누락됨, 격리됨, 차단 목록 등 유형화 규칙에 대한 자세한 내용은 이 [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)을 참조하십시오.
+* **[!UICONTROL Messages rejected by the rule]** : 유형화 규칙을 적용할 때 분석 중에 무시된 주소 수입니다. 주소가 누락됨, 격리됨, 차단 목록 등 유형화 규칙에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
 **[!UICONTROL Causes of exclusion]**
 
@@ -176,7 +176,7 @@ ht-degree: 2%
 
 ## 핫 클릭 {#hot-clicks}
 
-이 보고서는 각 링크에 대한 클릭 비율(%)이 있는 메시지 콘텐츠(HTML 및/또는 텍스트)를 보여줍니다. 개인화 블록은 구독 취소 링크, 미러 페이지 링크 및 오퍼 링크를 총 누적 클릭 수에 고려하지만 보고서에 표시되지 않습니다.
+이 보고서는 각 링크에 대한 클릭 비율( HTML 및/또는 텍스트)을 포함하는 메시지 콘텐츠를 보여줍니다. 개인화 블록은 구독 취소 링크, 미러 페이지 링크 및 오퍼 링크를 총 누적 클릭 수에 고려하지만 보고서에 표시되지 않습니다.
 
 >[!NOTE]
 >
@@ -194,6 +194,6 @@ ht-degree: 2%
 
 이 보고서는 배달을 최대 효율에 도달하는 데 필요한 시간을 표시하는 값 테이블 및 파레토 차트를 제공합니다. 다음 표시기가 사용됩니다.
 
-* **[!UICONTROL Opens]** : 연 총 메시지 수의 백분율에 도달하는 데 필요한 시간을 예측합니다. 텍스트 형식의 이메일은 고려되지 않습니다. 열기 횟수 추적에 대한 자세한 내용은 [추적 열기](../../reporting/using/indicator-calculation.md#tracking-opens-)를 참조하십시오.
+* **[!UICONTROL Opens]** : 연 총 메시지 수의 백분율에 도달하는 데 필요한 시간을 예측합니다. 텍스트 형식의 이메일은 고려되지 않습니다. 열기 추적에 대한 자세한 내용은 [추적 열기](../../reporting/using/indicator-calculation.md#tracking-opens-).
 * **[!UICONTROL Clicks]** : 기록된 총 클릭 수의 백분율에 도달하는 데 필요한 시간의 예측. 옵트아웃 링크 및 미러 페이지의 클릭은 고려되지 않습니다.
-* **[!UICONTROL Transactions]** : 메시지 수신 후 총 트랜잭션 수의 백분율을 달성하는 데 필요한 시간입니다. 트랜잭션을 고려하려면 트랜잭션 유형 웹 추적 태그를 일치하는 웹 페이지에 삽입해야 합니다. 웹 추적 구성은 [이 섹션](../../configuration/using/about-web-tracking.md)에 나와 있습니다.
+* **[!UICONTROL Transactions]** : 메시지 수신 후 총 트랜잭션 수의 백분율을 달성하는 데 필요한 시간입니다. 트랜잭션을 고려하려면 트랜잭션 유형 웹 추적 태그를 일치하는 웹 페이지에 삽입해야 합니다. 웹 추적 구성은 [이 섹션](../../configuration/using/about-web-tracking.md).

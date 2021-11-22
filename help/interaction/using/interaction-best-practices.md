@@ -66,7 +66,7 @@ Adobe Campaign에서 상호 작용하려면 효율적으로 작동하도록 신�
 
 데이터 보강 활동에서 오퍼를 선택할 때 사용할 오퍼 공간을 선택할 수 있습니다. 그러나 선택한 오퍼 공간에 관계없이 게재 사용자 지정 메뉴는 게재에 설정된 오퍼 공간에 따라 다릅니다.
 
-아래 예에서는 게재에서 선택한 오퍼 공간이 **[!UICONTROL Email (Environment - Recipient)]**&#x200B;입니다.
+아래 예에서는 게재에서 선택한 오퍼 공간이 있습니다 **[!UICONTROL Email (Environment - Recipient)]**:
 
 ![](assets/Interaction-best-practices-offer-space-selected.png)
 
@@ -76,15 +76,15 @@ Adobe Campaign에서 상호 작용하려면 효율적으로 작동하도록 신�
 
 ![](assets/Interaction-best-practices-HTML-rendering.png)
 
-이 함수는 다음과 같은 코드를 삽입합니다. `<%@ include proposition="targetData.proposition" view="rendering/html" %>`
+이 함수는 다음과 같은 코드를 삽입합니다. `<%@ include proposition="targetData.proposition" view="rendering/html" %>`.
 
-제안을 선택하면 **[!UICONTROL view]** 속성의 값은 다음과 같습니다.
+제안을 선택하면 **[!UICONTROL view]** 속성은 다음과 같습니다.
 * &quot;rendering/html&quot;: html 렌더링. HTML 렌더링 기능을 사용합니다.
-* &quot;offer/view/html&quot;: html 콘텐츠. HTML 렌더링 함수를 사용하지 않습니다. 여기에는 HTML 필드만 포함됩니다.
+* &quot;offer/view/html&quot;: html 콘텐츠. HTML 렌더링 기능을 사용하지 않습니다. 여기에는 HTML 필드만 포함됩니다.
 
-단일 이메일 게재에 여러 오퍼 공백을 포함하고, 일부 오퍼에 렌더링 기능이 있고 일부 오퍼에는 렌더링 기능이 없는 경우, 어떤 오퍼에서 어느 오퍼 공간을 사용하고 어떤 오퍼 공간에는 렌더링 기능이 있는지 기억해야 합니다.
+단일 이메일 게재에 여러 오퍼 공백을 포함하고, 일부 오퍼에 렌더링 기능이 있고 일부 오퍼에는 렌더링 기능이 없는 경우, 어느 오퍼에서 어느 오퍼 공간을 사용하고 어떤 오퍼 공간에는 렌더링 기능이 있는지 기억해야 합니다.
 
-따라서 문제를 방지하려면 오퍼 공간에 HTML 콘텐츠만 필요한 경우에도 모든 오퍼 공간에 HTML 렌더링 기능이 정의된 것이 좋습니다.
+따라서 문제를 방지하려면 오퍼 공간에만 HTML 컨텐츠가 필요한 경우에도 모든 오퍼 공간에 HTML 렌더링 기능이 정의된 것이 좋습니다.
 
 ### 제안 로그 표에서 등급 설정 {#rank-proposition-log-table}
 
@@ -108,7 +108,7 @@ Adobe Campaign에서 상호 작용하려면 효율적으로 작동하도록 신�
 
 이름이 @rank인 제안 테이블에 필드가 있으므로 워크플로우 임시 테이블의 값이 복사됩니다.
 
-제안 테이블에 추가 필드를 저장하는 방법에 대한 자세한 내용은 [워크플로우](../../interaction/using/integrating-an-offer-via-a-workflow.md#storing-offer-rankings-and-weights)를 통해 오퍼 통합 을 참조하십시오.
+제안 테이블에 추가 필드를 저장하는 방법에 대한 자세한 내용은 [워크플로우를 통해 오퍼 통합](../../interaction/using/integrating-an-offer-via-a-workflow.md#storing-offer-rankings-and-weights).
 
 상호 작용을 하는 아웃바운드 오퍼의 경우, 이 기능은 여러 오퍼를 선택하고 오퍼가 전자 메일에 표시될 순서를 기록하려는 경우 유용합니다.
 
@@ -123,7 +123,7 @@ Adobe Campaign에서 상호 작용하려면 효율적으로 작동하도록 신�
 ### nms:오퍼 스키마 확장 {#extending-nms-offer-schema}
 
 nms:offer 스키마를 확장할 때는 이미 설정된 기본 구조를 따라야 합니다.
-* `<element name="view">` 아래에 컨텐츠 저장소에 대한 새 필드를 정의합니다.
+* 아래의 컨텐츠 저장소에 대한 새 필드를 정의합니다. `<element name="view">`.
 * 각 새 필드를 두 번 정의해야 합니다. 한 번은 일반 XML 필드로, 그리고 한 번은 이름에 &quot;_js&quot;가 추가된 CDATA XML 필드로 사용됩니다. 예제:
 
    ```
@@ -131,4 +131,4 @@ nms:offer 스키마를 확장할 때는 이미 설정된 기본 구조를 따라
    <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
    ```
 
-* 추적할 URL이 포함된 모든 필드는 `<element name="view" >` 아래에 있는 `<element name="trackedUrls">` 아래에 배치해야 합니다.
+* 추적할 URL이 포함된 모든 필드는 아래에 배치해야 합니다 `<element name="trackedUrls">` 다음 위치에서 찾을 수 있습니다. `<element name="view" >`.

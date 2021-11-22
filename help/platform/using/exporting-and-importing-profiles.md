@@ -17,7 +17,7 @@ ht-degree: 31%
 
 ![](../../assets/common.svg)
 
-[워크플로우](#use-workflows)를 사용하여 수신자 프로필을 Adobe Campaign 데이터베이스로 가져오거나 내보내거나 [일반 가져오기 또는 내보내기 작업](#create-jobs)을 설정할 수 있습니다.
+다음을 수행할 수 있습니다 [워크플로우 사용](#use-workflows) 수신자 프로필을 Adobe Campaign 데이터베이스로 가져오거나 내보내려면 또는 설정합니다 [일반 가져오기 또는 내보내기 작업](#create-jobs).
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#import-profiles-video)
 
@@ -25,11 +25,11 @@ ht-degree: 31%
 
 내보내기 및 가져오기는 가져오기 및 내보내기 활동을 통해 워크플로우를 통해 실행되는 전용 템플릿에 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. [자세히 알아보기](../../platform/using/import-export-workflows.md#best-practices-when-importing-data)
 
-필요한 경우 아래 설명된 **[!UICONTROL Generic imports and exports]** 기능을 통해 때때로 가져오기 또는 내보내기 작업을 만들 수 있습니다.
+필요한 경우 **[!UICONTROL Generic imports and exports]** 아래에 설명된 기능이 있습니다.
 
 ## 작업 만들기{#create-jobs}
 
-데이터 가져오기 및 내보내기 작업을 구성하고 실행하려면 **[!UICONTROL Profiles and targets]** 탭으로 이동하여 **[!UICONTROL Jobs]** 링크를 클릭합니다. [자세히 알아보기](../../platform/using/about-generic-imports-exports.md)
+데이터 가져오기 및 내보내기 작업을 구성하고 실행하려면 로 이동하십시오. **[!UICONTROL Profiles and targets]** 탭을 클릭하고 **[!UICONTROL Jobs]** 링크를 클릭합니다. [자세히 알아보기](../../platform/using/about-generic-imports-exports.md)
 
 ![](assets/s_ncs_user_interface_import_link.png)
 
@@ -40,4 +40,4 @@ ht-degree: 31%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
 
-추가 Campaign Classic 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에 있습니다.
+추가 Campaign Classic 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).

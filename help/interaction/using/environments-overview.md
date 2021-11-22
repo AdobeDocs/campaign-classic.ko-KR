@@ -23,6 +23,6 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->**기술 관리자**&#x200B;가 다음 구성을 수행해야 합니다.
+>다음 구성은 **기술 관리자**.
 
-![](assets/do-not-localize/how-to-video.png) 이  [](https://helpx.adobe.com/campaign/classic/how-to/architecture-of-acs-v6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com) 비디오를 시청하여 Campaign 상호 작용의 아키텍처에 대해 알아보고 오퍼 엔진이 작동하는 방식을 확인하십시오.
+![](assets/do-not-localize/how-to-video.png) 이거 보세요 [비디오](https://helpx.adobe.com/campaign/classic/how-to/architecture-of-acs-v6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com) campaign 상호 작용 아키텍처에 대해 알아보고 오퍼 엔진 작동 방식을 확인합니다.

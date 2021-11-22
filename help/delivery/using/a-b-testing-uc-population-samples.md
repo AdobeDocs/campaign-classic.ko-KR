@@ -19,15 +19,15 @@ ht-degree: 7%
 
 ## 쿼리 활동 구성 {#configuring-the-query-activity}
 
-* **[!UICONTROL Query]** 활동을 두 번 클릭합니다.
+* 를 두 번 클릭합니다. **[!UICONTROL Query]** 활동.
 
    ![](assets/use_case_abtesting_createrecipients_001.png)
 
-* **[!UICONTROL Edit query]** 링크를 클릭하고 타겟팅할 수신자를 선택합니다.
+* 을(를) 클릭합니다. **[!UICONTROL Edit query]** 을(를) 연결하고 타겟팅할 수신자를 선택합니다.
 
    ![](assets/use_case_abtesting_createrecipients_002.png)
 
-* **[!UICONTROL Query]** 활동을 **[!UICONTROL Split]** 활동에 연결합니다.
+* 링크 **[!UICONTROL Query]** 활동 대상 **[!UICONTROL Split]** 활동.
 
    ![](assets/use_case_abtesting_createrecipients_003.png)
 
@@ -37,7 +37,7 @@ ht-degree: 7%
 
 1. 모집단 A 만들기:
 
-   * **[!UICONTROL Split]** 활동을 두 번 클릭합니다.
+   * 를 두 번 클릭합니다. **[!UICONTROL Split]** 활동.
 
       ![](assets/use_case_abtesting_createrecipients_004.png)
 
@@ -45,21 +45,21 @@ ht-degree: 7%
 
       ![](assets/use_case_abtesting_createrecipients_005.png)
 
-   * **[!UICONTROL Limit the selected records]** 옵션을 선택합니다.
+   * 을(를) 선택합니다 **[!UICONTROL Limit the selected records]** 선택 사항입니다.
 
       ![](assets/use_case_abtesting_createrecipients_006.png)
 
-   * **[!UICONTROL Edit]** 링크를 클릭하고 **[!UICONTROL Activate random sampling]** 를 선택한 다음 **[!UICONTROL Next]** 를 클릭합니다.
+   * 을(를) 클릭합니다. **[!UICONTROL Edit]** 링크, 선택 **[!UICONTROL Activate random sampling]**&#x200B;를 클릭하고 **[!UICONTROL Next]**.
 
       ![](assets/use_case_abtesting_createrecipients_007.png)
 
-   * 임계값을 10%로 설정한 다음 **[!UICONTROL Finish]**&#x200B;을 클릭합니다.
+   * 임계값을 10%로 설정한 다음 를 클릭합니다 **[!UICONTROL Finish]**.
 
       ![](assets/use_case_abtesting_createrecipients_008.png)
 
 1. 모집단 B 만들기:
 
-   * **[!UICONTROL Add]** 을 클릭하여 모집단 B에 대한 새 탭을 만듭니다.
+   * 클릭 **[!UICONTROL Add]** 모집단 B에 대한 새 탭을 만들려면
 
       ![](assets/use_case_abtesting_createrecipients_009.png)
 
@@ -77,7 +77,7 @@ ht-degree: 7%
 
       ![](assets/use_case_abtesting_createrecipients_012.png)
 
-   * 이 모집단에 A와 B가 포함되지 않도록 레이블을 변경하고 **[!UICONTROL OK]** 을(를) 클릭하여 활동을 닫습니다.
+   * 이 모집단에 A와 B가 포함되지 않도록 레이블을 변경하고 **[!UICONTROL OK]** 활동을 닫습니다.
 
       ![](assets/use_case_abtesting_createrecipients_013.png)
 

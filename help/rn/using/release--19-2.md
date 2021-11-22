@@ -75,8 +75,8 @@ _2019년 12월 2일_
    <td> <p>CCPA는 2020년 1월 1일부터 시행된 데이터 보호 요구 사항을 통합하고 현대화한 캘리포니아 주의 새로운 개인 정보 보호 법입니다. CCPA는 캘리포니아에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p>
     <p>Adobe Campaign은 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 외에도 CPA에 대한 준비를 용이하게 합니다.</p>
     <ul>
-      <li>액세스 권한 및 삭제 권한: adobe는 GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">자세히 읽기</a></li>
-      <li>소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다. 이를 위해 프로필 테이블을 확장하고 다음을 추가해야 합니다 <strong>CCPA용 옵트아웃</strong> 필드. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">자세히 읽기</a></li></td> 
+      <li>액세스 권한 및 삭제 권한: adobe는 GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">자세히 표시</a></li>
+      <li>소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다. 이를 위해 프로필 테이블을 확장하고 다음을 추가해야 합니다 <strong>CCPA용 옵트아웃</strong> 필드. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">자세히 표시</a></li></td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,20 +133,20 @@ _2019년 12월 2일_
 **개선 사항**
 
 * 푸시 알림에 대한 메모리 사용량 최적화.
-* 성능 및 스토리지 최적화를 위해 **logins.log** 파일이 향상되었습니다. 이제 파일은 여러 파일로 분할되어 매일 한 개씩 최대 365개의 파일이 유지됩니다. [자세히 읽기](../../production/using/log-files.md)
-* 이제 Microsoft Dynamics CRM 외부 계정을 암호 자격 증명(암호 + 사용자 이름) 또는 인증서(개인 키)를 사용하여 구성할 수 있습니다. [자세히 읽기](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
+* 성능 및 스토리지 최적화를 위해 **logins.log** 파일이 향상되었습니다. 이제 파일은 여러 파일로 분할되어 매일 한 개씩 최대 365개의 파일이 유지됩니다. [자세히 표시](../../production/using/log-files.md)
+* 이제 Microsoft Dynamics CRM 외부 계정을 암호 자격 증명(암호 + 사용자 이름) 또는 인증서(개인 키)를 사용하여 구성할 수 있습니다. [자세히 표시](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
 * 안정성을 개선하기 위해 Hadoop FDA 커넥터에 몇 가지 개선 사항이 추가되었습니다
 * 서버에 공개 리소스를 업로드하기 전에 디스크 공간을 확인하기 위해 특정 보호 기능이 추가되었습니다.
 * 새로 만들기 [캠페인 옵션](../../installation/using/configuring-campaign-options.md) 가 추가되었습니다.
    * 다음 **WdbcKillSessionPolicy** 구성 옵션을 사용하면 **무조건 정지** 모든 워크플로우 및 PostgreSQL 데이터베이스 쿼리에 대한 동작입니다.
    * 다음 **NmsOperation_DeliveryPreparationWindow** 옵션을 사용하면 불일치 상태의 게재가 실행 중인 게재 수에서 제외되는 일 수를 정의할 수 있습니다.
-   * 다음 **WdbcOptions_TempDbName** 옵션을 사용하면 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 백업 및 복제를 최적화합니다. [자세히 읽기](../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)
-   * 다음 **XtkCleanup_NoStats** 데이터베이스 정리 워크플로우의 저장 최적화 단계의 동작을 더 잘 제어할 수 있도록 PostgreSQL에 대한 옵션이 향상되었습니다. [자세히 읽기](../../production/using/database-cleanup-workflow.md#statistics-update)
+   * 다음 **WdbcOptions_TempDbName** 옵션을 사용하면 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 백업 및 복제를 최적화합니다. [자세히 표시](../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)
+   * 다음 **XtkCleanup_NoStats** 데이터베이스 정리 워크플로우의 저장 최적화 단계의 동작을 더 잘 제어할 수 있도록 PostgreSQL에 대한 옵션이 향상되었습니다. [자세히 표시](../../production/using/database-cleanup-workflow.md#statistics-update)
 * 계정 잠금 메커니즘이 **logon()** API. 지정된 기간 내에서 일정 수의 연속적인 로그인 시도 실패 후 추가적인 로그인 시도를 방지합니다.
-* 새로운 **최대 개인화 실행 시간** 게재 속성의 옵션을 사용하면 개인화 단계가 너무 오랫동안 실행되지 않도록 개인화 실행 시간에 대한 시간 초과 기간을 정의할 수 있습니다. [자세히 읽기](../../delivery/using/personalization-fields.md#timing-out-personalization)
-* 다음 **ftp 프로토콜** SFTP 연결에 대해 프록시 구성을 사용할 수 있도록 옵션이 추가되었습니다. [자세히 읽기](../../installation/using/file-res-management.md)
+* 새로운 **최대 개인화 실행 시간** 게재 속성의 옵션을 사용하면 개인화 단계가 너무 오랫동안 실행되지 않도록 개인화 실행 시간에 대한 시간 초과 기간을 정의할 수 있습니다. [자세히 표시](../../delivery/using/personalization-fields.md#timing-out-personalization)
+* 다음 **ftp 프로토콜** SFTP 연결에 대해 프록시 구성을 사용할 수 있도록 옵션이 추가되었습니다. [자세히 표시](../../installation/using/file-res-management.md)
 * 온-프레미스 환경을 위한 SFTP 외부 서버에 대한 프록시 액세스에 대한 새로운 지원.
-* Campaign 인스턴스와 호환되지 않는 패키지를 설치하지 않도록 특정 보호 기능이 추가되었습니다. [자세히 읽기](../../installation/using/installing-campaign-standard-packages.md)
+* Campaign 인스턴스와 호환되지 않는 패키지를 설치하지 않도록 특정 보호 기능이 추가되었습니다. [자세히 표시](../../installation/using/installing-campaign-standard-packages.md)
 
 _사용되지 않는 시스템_
 
@@ -154,7 +154,7 @@ _사용되지 않는 시스템_
 * Apache 2.2
 * Centos 6
 
-최신 Campaign 호환성 매트릭스에 나열된 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오. [자세히 읽기](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
+최신 Campaign 호환성 매트릭스에 나열된 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오. [자세히 표시](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
 _Campaign Mobile SDK_
 
@@ -175,7 +175,7 @@ _Campaign Mobile SDK_
 * 다음 상황에서 **배달 중 중복 주소 제외** 옵션을 선택하지 않았습니다. (NEO-13240)
 * 을 사용할 때 워크플로우에서 발생하는 문제를 수정했습니다 **파일 전송** 활동을 사용하여 파일을 다운로드합니다. **전송 후 소스 파일 삭제** 옵션, 공백 문자를 포함하는 이름 (NEO-13411)
 * 메모리 문제로 이어질 수 있는 Tomcat 캐시 정리 문제를 수정했습니다. (NEO-13456)
-* 을 설치할 때 발생하는 문제를 해결했습니다. **실행 인스턴스를 사용하여 오퍼 엔진 제어** Microsoft SQL 2017에서 실행 중인 기존 제어 인스턴스에 내장된 패키지 (NEO-13539)
+* 을 설치할 때 발생하는 문제를 해결했습니다 **실행 인스턴스를 사용하여 오퍼 엔진 제어** Microsoft SQL 2017에서 실행 중인 기존 제어 인스턴스에 내장된 패키지 (NEO-13539)
 * 이메일에서 추적된 URL을 선택 취소할 때 발생할 수 있는 콘솔 충돌 문제를 수정했습니다. **텍스트 컨텐츠** 초기화되지 않은 변수로 인한 탭 (NEO-13545)
 * 중국어 발신자 이름에 대한 인코딩 문제가 수정되었습니다. (NEO-13837)
 * 탐색기에서 설문 조사 응답 데이터를 표시할 때 발생할 수 있는 오류를 수정했습니다. (NEO-14590)

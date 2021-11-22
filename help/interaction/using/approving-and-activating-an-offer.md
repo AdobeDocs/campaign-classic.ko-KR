@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ![](../../assets/v7-only.svg)
 
-오퍼 컨텐츠가 완료되면 오퍼를 승인하여 라이브 환경에 복제하고 배달할 수 있습니다. 승인 은 오퍼 콘텐츠 및 해당 자격 조건과 관련이 있습니다.
+오퍼 컨텐츠가 완료되고 나면 라이브 환경에 복제되고 배달되도록 하려면 오퍼 컨텐츠를 승인해야 합니다. 승인 은 오퍼 콘텐츠 및 해당 자격 조건과 관련이 있습니다.
 
 오퍼 대시보드의 배너는 오퍼가 승인 절차를 거쳤는지 여부를 알려줍니다.
 
@@ -37,11 +37,11 @@ ht-degree: 2%
 
 오퍼 컨텐츠를 승인하려면 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Approval]** 단추를 클릭하고 팝업에서 **[!UICONTROL Approve content]** 을 선택합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Approval]** 단추를 누르고 선택합니다. **[!UICONTROL Approve content]** 팝업.
 
    ![](assets/offer_validate_002.png)
 
-1. 드롭다운 목록을 사용하여 계속 편집할 표현 또는 라이브 환경에 게시할 표현을 선택한 다음 **[!UICONTROL Content approval]** 을 클릭합니다.
+1. 드롭다운 목록을 사용하여 계속 편집할 표현 또는 라이브 환경에 게시할 표현을 선택한 다음 를 클릭합니다 **[!UICONTROL Content approval]**.
 
    ![](assets/offer_validate_003.png)
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Content approved]** 언급이 모든 오퍼 표현이 활성화 및 승인되었음을 의미하지는 않습니다. 모든 오퍼가 활성화/승인되었는지 여부에 상관없이 컨텐츠 승인 프로세스가 달성되었음을 나타냅니다.
+   >다음 **[!UICONTROL Content approved]** 언급이 모든 오퍼 표현이 활성화 및 승인되었음을 의미하지는 않습니다. 모든 오퍼가 활성화/승인되었는지 여부에 상관없이 컨텐츠 승인 프로세스가 달성되었음을 나타냅니다.
 
 ## 오퍼 자격 승인 {#approving-offer-eligibility}
 
@@ -61,11 +61,11 @@ ht-degree: 2%
 >
 >오퍼의 컨텐츠 및 자격이 승인되면 게시 워크플로우(오퍼 알림)가 자동으로 실행되고 오퍼가 활성화된 모든 공간에서 실시간으로 사용할 수 있습니다.
 
-* 규칙 전체 목록은 **[!UICONTROL Schedule and eligibility rules]**&#x200B;을 클릭하여 볼 수 있습니다.
+* 규칙 전체 목록은 **[!UICONTROL Schedule and eligibility rules]**.
 
    ![](assets/offer_validate_005.png)
 
-* 자격 규칙을 변경하려면 **[!UICONTROL Reject]** 을 클릭한 다음 **[!UICONTROL Eligibility approval]** 을 클릭합니다.
+* 자격 규칙을 변경하려면 **[!UICONTROL Reject]**&#x200B;를 클릭한 다음 **[!UICONTROL Eligibility approval]**.
 
    ![](assets/offer_validate_007.png)
 
@@ -73,11 +73,11 @@ ht-degree: 2%
 
    ![](assets/offer_validate_006.png)
 
-* 오퍼 자격 조건을 수락하려면 **[!UICONTROL Approve eligibility]** 을 클릭합니다.
+* 오퍼 자격 조건을 수락하려면 **[!UICONTROL Approve eligibility]**.
 
    ![](assets/offer_validate_008.png)
 
-   자격 조건을 승인하고 필요한 경우 주석을 추가한 다음 **[!UICONTROL Eligibility approval]** 을 클릭합니다.
+   자격 승인, 필요한 경우 주석을 추가한 다음 **[!UICONTROL Eligibility approval]**.
 
    ![](assets/offer_validate_009.png)
 
@@ -87,27 +87,27 @@ ht-degree: 2%
 
 ## 승인 추적 {#approval-tracking}
 
-승인 추적은 오퍼 대시보드에서 사용할 수 있습니다. **[!UICONTROL Hide/display logs]** 을 클릭하여 액세스합니다.
+승인 추적은 오퍼 대시보드에서 사용할 수 있습니다. 클릭 **[!UICONTROL Hide/display logs]** 액세스해야 합니다.
 
 ![](assets/offer_validate_012.png)
 
 >[!NOTE]
 >
->검토자의 주석에 대한 세부 정보와 함께 오퍼의 **[!UICONTROL Audit]** 탭에서도 추적을 사용할 수 있습니다.
+>추적은 **[!UICONTROL Audit]** 검토자의 주석에 대한 세부 정보가 있는 오퍼의 탭입니다.
 
 ## 승인을 다시 시작합니다 {#restart-the-approval}
 
 승인이 실행되면 다시 시작할 수 있습니다. 이렇게 하려면 다음 지침을 따르십시오.
 
-1. 오퍼 대시보드에서 **[!UICONTROL Content approved]** 을 클릭합니다.
-1. 표시되는 **[!UICONTROL Edit]** 창에서 다시 시작할 승인을 선택한 다음 **[!UICONTROL Re-initialize approval to submit it again]** 를 클릭합니다.
-1. **[!UICONTROL Ok]** 을 클릭하여 확인합니다.
+1. 클릭 **[!UICONTROL Content approved]** 를 반환합니다.
+1. 에서 **[!UICONTROL Edit]** 창이 나타나면 재시작할 승인을 선택한 다음 **[!UICONTROL Re-initialize approval to submit it again]**.
+1. 을 클릭하여 확인 **[!UICONTROL Ok]**.
 
 ![](assets/offer_validate_013.png)
 
 ## 오퍼 게시 {#publishing-the-offer}
 
-오퍼의 컨텐츠와 자격 조건이 모두 승인되면 승인 주기가 완료된 각 오퍼에 대해 자동으로 실행되는 워크플로우에 의해 오퍼가 게시됩니다. 또한 **[!UICONTROL Offer notification]** 워크플로우는 매 시간마다 실행되어 필요한 경우 디자인 환경에서 라이브 환경으로 오퍼 카탈로그에 포함된 공간 및 카테고리를 동기화합니다.
+오퍼의 컨텐츠와 자격 조건이 모두 승인되면 승인 주기가 완료된 각 오퍼에 대해 자동으로 실행되는 워크플로우에 의해 오퍼가 게시됩니다. 다음 **[!UICONTROL Offer notification]** 또한 워크플로우는 필요한 경우 오퍼 카탈로그에 포함된 공간과 카테고리를 디자인 환경에서 라이브 환경으로 동기화하기 위해 매시간마다 실행됩니다.
 
 디자인 환경에서 사용할 수 있는 오퍼의 대시보드에는 라이브 환경에서 일치하는 오퍼의 이름을 포함하여 게시와 관련된 정보가 포함되어 있습니다.
 
@@ -121,9 +121,9 @@ ht-degree: 2%
 
 오퍼가 승인되면 비활성화할 수 있습니다.
 
-이렇게 하려면 온라인 오퍼 또는 온라인 상태로 전환되기를 기다리는 오퍼를 위한 대시보드로 이동한 다음 **[!UICONTROL Disable offer]** 을 클릭합니다.
+이렇게 하려면 온라인 오퍼 또는 온라인 상태를 유지하기 위해 대기 중인 오퍼를 위한 대시보드로 이동한 다음 를 클릭합니다 **[!UICONTROL Disable offer]**.
 
-**[!UICONTROL Eligibility]** 탭으로 이동하여 **[!UICONTROL Enabled]** 상자를 선택하여 카테고리를 직접 비활성화할 수도 있습니다.
+로 이동하여 카테고리를 직접 비활성화할 수도 있습니다 **[!UICONTROL Eligibility]** 탭 및 확인 **[!UICONTROL Enabled]** 상자.
 
 >[!NOTE]
 >

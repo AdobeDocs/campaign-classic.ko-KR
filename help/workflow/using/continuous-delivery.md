@@ -17,7 +17,7 @@ ht-degree: 10%
 
 ![](../../assets/common.svg)
 
-**연속 게재** 유형 작업을 사용하면 새 수신자를 기존 게재에 추가할 수 있습니다. 이 게재 유형을 사용하면 다음과 같이 매번 새 게재를 만들 수 없습니다. 이 모드는 종종 더 효율적입니다. 특히 필요한 경우 출력되는 낮은 볼륨 경고나 알림에 유용합니다.
+A **지속적인 게재** 유형 작업을 사용하면 기존 게재에 새 수신자를 추가할 수 있습니다. 이 게재 유형을 사용하면 다음과 같이 매번 새 게재를 만들 수 없습니다. 이 모드는 종종 더 효율적입니다. 특히 필요한 경우 출력되는 낮은 볼륨 경고나 알림에 유용합니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#continuous-delivery-video)
 
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 ![](assets/edit_diffusion_fil.png)
 
-오류가 발생하면 활성화되는 특정 전환이 **[!UICONTROL Process errors]** 옵션에 표시됩니다. 이 경우 워크플로우는 오류 모드로 전환되지 않고 실행을 계속합니다.
+다음 **[!UICONTROL Process errors]** 옵션을 선택하면 오류가 발생하면 활성화되는 특정 전환이 표시됩니다. 이 경우 워크플로우는 오류 모드로 전환되지 않고 실행을 계속합니다.
 
 파일 시스템 오류(파일을 이동할 수 없음, 디렉토리에 액세스할 수 없음 등)를 고려한 오류
 
@@ -38,7 +38,7 @@ ht-degree: 10%
 
 각 인바운드 이벤트는 이러한 매개 변수로 정의된 대상을 지정해야 합니다.
 
-**[!UICONTROL Specified by the inbound event]** 옵션이 선택된 경우에만 해당됩니다.
+다음 경우에만 **[!UICONTROL Specified by the inbound event]** 옵션이 선택되어 있습니다.
 
 ## 출력 매개 변수 {#output-parameters}
 
@@ -46,7 +46,7 @@ ht-degree: 10%
 * 스키마
 * recCount
 
-이 세 값 집합은 즉시 게재에서 발생한 타겟을 식별합니다. **[!UICONTROL tableName]** 는 대상의 식별자를 암기하는 테이블의 이름 **[!UICONTROL schema]** 으로, 모집단(일반적으로 nms:recipient)의 스키마이며  **[!UICONTROL recCount]** 이 테이블의 요소 수입니다.
+이 세 값 집합은 즉시 게재에서 발생한 타겟을 식별합니다. **[!UICONTROL tableName]** 는 대상의 식별자를 기억하는 테이블의 이름입니다. **[!UICONTROL schema]** 는 모집단의 스키마(일반적으로 nms:recipient)이며 **[!UICONTROL recCount]** 는 테이블에 있는 요소의 수입니다.
 
 보어와 연관된 전환에는 동일한 매개 변수가 있습니다.
 
@@ -54,7 +54,7 @@ ht-degree: 10%
 
 이 섹션에서는 연속 게재를 설정하는 방법을 설명합니다.
 
-**연속 게재**&#x200B;를 사용하면 기존 게재에 새 수신자를 추가할 수 있으며, 새 수신자가 추가될 때마다 새 게재를 만들 필요가 없습니다. 캠페인 워크플로우에서 직접 크리에이티브를 업데이트할 수 있으며 게재 템플릿 리소스 폴더에서 템플릿을 업데이트합니다.
+다음 **연속 게재** 기존 게재에 새 수신자를 추가할 수 있으며, 새 수신자가 추가될 때마다 새 게재를 만들 필요가 없습니다. 캠페인 워크플로우에서 직접 크리에이티브를 업데이트할 수 있으며 게재 템플릿 리소스 폴더에서 템플릿을 업데이트합니다.
 
 연속 게재를 사용하면 단일 게재 및 게재 로그(broadLog)와 게재가 실행될 때마다 하나의 게재를 참조하는 추적 로그가 생성됩니다.
 
@@ -66,4 +66,4 @@ ht-degree: 10%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-추가 Campaign Classic 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에 있습니다.
+추가 Campaign Classic 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).

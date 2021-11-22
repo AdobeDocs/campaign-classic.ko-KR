@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 일반 쿼리 {#generic-queries}
 
-쿼리는 **[!UICONTROL Aggregator]** 탭의 게시 템플릿을 통해 구성됩니다.
+쿼리는 의 게시 템플릿을 통해 구성됩니다 **[!UICONTROL Aggregator]** 탭.
 
 검색된 데이터는 기본 요소를 통해 XML 출력 문서를 보강합니다.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 </book>
 ```
 
-**`<collection-recipient>`** 요소는 쿼리에서 얻은 문서의 입력 요소를 나타냅니다. 검색된 데이터가 이 요소 아래에 반환됩니다. 이 예제에서는 수신자 목록입니다.
+다음 **`<collection-recipient>`** 요소 는 쿼리에서 얻은 문서의 입력 요소를 나타냅니다. 검색된 데이터가 이 요소 아래에 반환됩니다. 이 예제에서는 수신자 목록입니다.
 
 ### 쿼리 추가 {#adding-a-query}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >편집 필드 **경로**&#x200B;는 쿼리 출력 요소의 이름을 바꾸는 데 사용됩니다.
+   >편집 필드 **경로** 쿼리 출력 요소의 이름을 바꾸는 데 사용됩니다.
 
 1. 다음 페이지에서 검색할 데이터를 선택할 수 있습니다.
 
@@ -80,9 +80,9 @@ ht-degree: 0%
 <element expandSchemaTarget="cus:chapter" label="Main chapter" name="mainChapter" type="string"/>
 ```
 
-링크의 정의는 **문자열**-type **`<element>`**&#x200B;에 채워지고, **expandSchemaTarget** 속성은 대상 스키마(&quot;cus:chapter&quot;)를 참조합니다. 참조된 스키마가 컨텐츠 스키마여야 합니다.
+링크의 정의가 **string**-type **`<element>`**, 및 **expandSchemaTarget** 속성은 대상 스키마(&quot;cus:chapter&quot; 예제)를 참조합니다. 참조된 스키마가 컨텐츠 스키마여야 합니다.
 
-타깃팅된 요소의 컨텐츠는 링크 요소(예: 예제 스키마의 **`<chapter>`** 요소)를 강화합니다.
+타깃팅된 요소의 컨텐츠는 링크 요소(즉, **`<chapter>`** 예제 스키마의 요소:
 
 ```
 <mainChapter computeString="Introduction" id="7011" title="Introduction" xtkschema="cus:chapter">    
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->링크의 **계산 문자열**&#x200B;은 **computeString** 특성에서 표시됩니다.
+>다음 **계산 문자열** 링크의 값은 **computeString** 속성을 사용합니다.
 
 입력 양식에서 링크의 편집 컨트롤은 다음과 같이 선언됩니다.
 
@@ -102,11 +102,11 @@ ht-degree: 0%
 
 ![](assets/d_ncs_content_link.png)
 
-**[!UICONTROL Magnifier]** 아이콘을 사용하면 연결된 요소의 편집 양식을 열 수 있습니다.
+다음 **[!UICONTROL Magnifier]** 아이콘을 사용하면 연결된 요소의 편집 양식을 열 수 있습니다.
 
 #### 링크 컬렉션 {#link-collection}
 
-링크 컬렉션을 채우려면 **unbound=&quot;true&quot;** 속성을 데이터 스키마의 링크 요소 정의에 추가합니다.
+링크 컬렉션을 채우려면 **unbound=&quot;true&quot;** 속성 을 데이터 스키마의 링크 요소 정의에 사용합니다.
 
 ```
 <element expandSchemaTarget="cus:chapter" label="List of chapters" name="chapter"  ordered="true" unbound="true"/>
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 ![](assets/d_ncs_content_link2.png)
 
-대상 요소의 **계산 문자열**&#x200B;을 보기 위해 기본 열이 표시됩니다.
+기본 열이 표시되어 **계산 문자열** 타깃팅된 요소의 수입니다.
 
 ### 외부 테이블에 대한 링크 {#links-to-external-tables}
 
@@ -138,11 +138,11 @@ ht-degree: 0%
 <element label="Main contact" name="mainContact" target="nms:recipient" type="link"/>
 ```
 
-링크의 정의는 **링크**-type **`<element>`**&#x200B;에 채워지고, **target** 속성은 대상 스키마(&quot;nms:recipient&quot;)를 참조합니다.
+링크의 정의가 **링크**-type **`<element>`**, 및 **target** 속성은 대상 스키마(&quot;nms:recipient&quot; 예제)를 참조합니다.
 
 규칙에 따라 링크는 데이터 스키마의 기본 요소에서 선언되어야 합니다.
 
-**계산 문자열** 및 타깃팅된 요소의 키는 기본 요소의 **`<name>-id`** 및 **`<name>-cs`** 속성을 보강합니다.
+다음 **계산 문자열** 및 타깃팅된 요소의 키는 **`<name>-id`** 및 **`<name>-cs`** 기본 요소의 속성입니다.
 
 이 예제에서 링크는 &quot;cus:book&quot; 스키마에서 채워지고, 링크 데이터의 컨텐츠는 &quot;mainContact-id&quot; 및 &quot;mainContact-cs&quot; 속성에 포함됩니다.
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 ![](assets/d_ncs_content_link3.png)
 
-입력 양식의 링크 정의를 통해 **`<sysfilter>`** 요소를 추가하여 대상 요소의 선택을 제한할 수 있습니다.
+을 추가하여 대상 요소의 선택을 제한할 수 있습니다 **`<sysfilter>`** 입력 양식에서 링크 정의를 통해 요소:
 
 ```
 <input xpath="mainContact">
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 #### 링크 집계 {#link-aggregation}
 
-참조된 각 링크의 콘텐츠는 내부 키 및 타깃팅된 요소의 **계산 문자열**&#x200B;로 제한됩니다.
+참조되는 각 링크의 콘텐츠는 내부 키와 로 제한됩니다 **계산 문자열** 타겟팅된 요소의 수입니다.
 
 JavaScript 스크립트는 SOAP 쿼리를 통해 링크의 컨텐츠를 보강하는 데 사용됩니다.
 
@@ -257,6 +257,6 @@ for each(var contact in content.contact)
 <contact id="11504982510" lastName="Martinez" recipient-cs="Martinez Peter (peter.martinez@adobe.com)" recipient-id="3013"/> 
 ```
 
-JavaScript 코드의 컨텐츠는 **[!UICONTROL Administration > Configuration > Content management > JavaScript Codes]** 폴더를 통해 추가되며, 각 변환에 대해 게시 템플릿에서 채워야 합니다.
+JavaScript 코드의 컨텐츠는 **[!UICONTROL Administration > Configuration > Content management > JavaScript Codes]** 폴더 및 를 각 변환에 대해 게시 템플릿에서 채워야 합니다.
 
 ![](assets/d_ncs_content_link5.png)

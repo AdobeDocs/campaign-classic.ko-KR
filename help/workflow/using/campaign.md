@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ![](../../assets/common.svg)
 
-아래 자세히 설명된 워크플로우는 기본적으로 **Campaign** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../campaign/using/designing-marketing-campaigns.md)을 참조하십시오.
+아래 자세히 설명된 워크플로우는 **캠페인** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../../campaign/using/designing-marketing-campaigns.md).
 
 >[!CAUTION]
 >
@@ -43,7 +43,7 @@ ht-degree: 3%
   <tr> 
    <td> <span class="uicontrol">캠페인에서 게재 작업</span> <br /> </td> 
    <td> <span class="uicontrol">deliveryMgt</span> <br /> </td> 
-   <td> 이 워크플로우는 승인된 게재를 트리거하고 외부 배달을 위해 서비스 공급자의 사후 처리를 시작합니다. 승인 알림과 미리 알림도 보냅니다.<br /> </td> 
+   <td> 이 워크플로우는 승인된 게재를 트리거하고 외부 배달을 위해 서비스 공급자의 사후 처리를 시작합니다. 또한 승인 알림과 다시 알림을 보냅니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">캠페인 작업</span> <br /> </td> 

@@ -27,14 +27,14 @@ ht-degree: 2%
 
 표시할 데이터를 필터링할 방법에는 여러 가지가 있습니다. 필요한 경우 함께 사용할 수 있습니다.
 
-* 폴더에 대해 필터링하려면 [폴더 기준 필터링](#filter-by-folder),
-* 상태별로 필터링하려면 [상태](#filter-by-status)로 필터링,
-* 데이터 정렬은 [Order by](#order-by),
-* [빠른 검색](#quick-search)을 참조하십시오.
+* 폴더에 대해 필터링하려면 [폴더별 필터링](#filter-by-folder),
+* 상태별로 필터링하려면 [상태별 필터링](#filter-by-status),
+* 데이터 정렬은 [정렬 기준](#order-by),
+* 검색, [빠른 검색](#quick-search).
 
 ## 폴더별 필터링 {#filter-by-folder}
 
-**[!UICONTROL Folder]** 아이콘을 클릭하여 표시할 데이터가 포함된 폴더를 선택합니다.
+을(를) 클릭합니다. **[!UICONTROL Folder]** 아이콘을 클릭하여 표시할 데이터가 포함된 폴더를 선택합니다.
 
 ![](assets/filter_web_select_folder.png)
 

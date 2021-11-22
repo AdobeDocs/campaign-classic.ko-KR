@@ -19,15 +19,15 @@ ht-degree: 13%
 
 추적 로그가 전달되지 않는 이유는 여러 가지가 있습니다. 다음 정보를 확인하는 것이 좋습니다.
 
-* **Trackingworkflow****에 오류가 있습니까?**
+* **다음을 수행합니다.**&#x200B;추적&#x200B;**워크플로우에 오류가 있습니까?**
 
-   [기술 워크플로우 모니터링](../../workflow/using/monitoring-technical-workflows.md)을 참조하십시오.
+   을(를) 참조하십시오. [기술 워크플로우 모니터링](../../workflow/using/monitoring-technical-workflows.md).
 
    ![](assets/tracking_scheduled_task.png)
 
-* **모듈이 서버****에서 Trackinglogdruming입니까?**
+* **모듈입니까** trackinglogd **서버에서 실행 중입니까?**
 
-   [로그 파일](../../production/using/log-files.md)을 참조하십시오.
+   을(를) 참조하십시오. [로그 파일](../../production/using/log-files.md).
 
 * **변경 사항이 있습니까?**
 

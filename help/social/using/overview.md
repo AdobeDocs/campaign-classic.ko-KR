@@ -23,6 +23,6 @@ Social Marketing을 사용하면 수신자 프로필이 아니라 다양한 Face
 >
 >Adobe Campaign은 메시지 게재와 관련하여 Facebook 및 Twitter이 전달하는 서비스 조건을 준수하도록 요청합니다.
 >
->게시를 전송하기 전에 [워크플로우 시작](../../social/using/starting-workflows.md)에 설명된 구성 단계를 따라야 합니다.
+>게시를 전송하기 전에 [워크플로우 시작](../../social/using/starting-workflows.md).
 
-이 섹션에서는 Facebook 및 Twitter 게재과 관련된 요소에 대해 자세히 설명합니다. 이메일 게재와 동일한 모든 요소는 [이 섹션에 자세히 설명되어 있습니다.](../../delivery/using/about-email-channel.md)
+이 섹션에서는 Facebook 및 Twitter 게재과 관련된 요소에 대해 자세히 설명합니다. 전자 메일 게재와 동일한 모든 요소는 [이 섹션](../../delivery/using/about-email-channel.md).

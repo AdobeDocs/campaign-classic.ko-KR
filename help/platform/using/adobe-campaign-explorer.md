@@ -5,8 +5,8 @@ description: Campaign Explorer 사용 방법 알아보기
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f,f91d69a4-b794-40f0-b450-de862d7333e2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
+source-git-commit: 1de1f7aafd7eb18c1160460ddd5c84ac59473664
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 도구 모음 아이콘을 통해 Adobe Campaign 탐색기에 액세스할 수 있습니다. 모든 Adobe Campaign 기능, 구성 화면 및 일부 플랫폼 요소에 대한 보다 자세한 보기를 Adobe Campaign에 액세스할 수 있습니다.
 
-**[!UICONTROL Explorer]** 작업 공간은 다음 세 영역으로 구분됩니다.
+다음 **[!UICONTROL Explorer]** 작업 공간은 다음 세 영역으로 나누어집니다.
 
 ![](assets/s_ncs_user_navigation.png)
 
-**1 - 트리**: 트리의 컨텐츠를 개인화할 수 있습니다(노드 추가, 이동 또는 삭제). 이 절차는 전문가 사용자만 사용할 수 있습니다. 자세한 내용은 [이 섹션](#about-navigation-hierarchy))을 참조하십시오.
+**1 - 트리**: 트리의 컨텐츠를 개인화할 수 있습니다(노드 추가, 이동 또는 삭제). 이 절차는 전문가 사용자만 사용할 수 있습니다. 자세한 내용은  [이 섹션](#about-navigation-hierarchy).)
 
 **2 - 목록**: 이 목록을 필터링하거나, 검색을 실행하거나, 정보를 추가하거나, 데이터를 정렬할 수 있습니다. [자세히 알아보기](adobe-campaign-ui-lists.md)
 
@@ -37,13 +37,13 @@ ht-degree: 1%
 
 ![](assets/d_ncs_integration_navigation.png)
 
-트리에 새 폴더를 추가하려면 폴더를 삽입할 분기의 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Add new folder]** 을 선택합니다. 바로 가기 메뉴에서 만들 파일 유형을 선택합니다.
+트리에 새 폴더를 추가하려면 폴더를 삽입할 분기의 폴더를 마우스 오른쪽 단추로 클릭하고 을 선택합니다 **[!UICONTROL Add new folder]** . 바로 가기 메뉴에서 만들 파일 유형을 선택합니다.
 
 ![](assets/d_ncs_integration_navigation_create.png)
 
-이 섹션](../../configuration/using/configuration.md)에서 캠페인 탐색 트리 [를 구성하는 방법을 배웁니다.
+Campaign 탐색 트리를 구성하는 방법 알아보기 [이 섹션](../../configuration/using/configuration.md).
 
-이 섹션 ](access-management-folders.md)에서 폴더 [에 대한 권한을 설정하는 방법을 알아봅니다.
+폴더에 대한 권한을 설정하는 방법 알아보기 [이 섹션](access-management-folders.md).
 
 ## 폴더 구성 우수 사례
 
@@ -76,10 +76,10 @@ ht-degree: 1%
 >
 >1600x900픽셀 이하의 해상도는 Adobe Campaign에서 지원하지 않습니다.
 
-**[!UICONTROL Explorer]** 작업 영역에서 **[!UICONTROL Details]** 영역의 일부 부분이 잘린 것으로 나타나면 영역 상단의 화살표를 사용하여 확장하거나 **[!UICONTROL Enlarge]** 단추를 클릭하십시오.
+에서 **[!UICONTROL Explorer]** 작업 공간(일부 부분이 **[!UICONTROL Details]** 영역이 잘리는 것 같습니다. 영역 위쪽에 있는 화살표를 사용하여 확장하거나 **[!UICONTROL Enlarge]** 버튼을 클릭합니다.
 
 ![](assets/s_ncs_user_resolution.png)
 
 ## 목록 찾아보기 및 사용자 지정 {#browsing-lists}
 
-이 섹션](adobe-campaign-ui-lists.md)에서 목록 [을(를) 찾아보고, 관리하고 사용자 지정하는 방법을 알아봅니다.
+목록 검색, 관리 및 사용자 지정 방법을 알아봅니다 [이 섹션](adobe-campaign-ui-lists.md).

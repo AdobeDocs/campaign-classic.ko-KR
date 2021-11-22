@@ -23,9 +23,9 @@ ht-degree: 1%
 
 각 **nlserver** 모듈은 다음 디렉토리에 저장된 로그 파일을 생성합니다. **`<installation directory>`/var/`<instance>`/log/`<module>`.log**.
 
-**nlserver syslogd** 모듈은 로그를 디스크에 저장합니다. 이 모듈은 Unix **syslog 데몬**&#x200B;과 유사하지만 Unix와 Windows 간의 호환성을 위해 조정되었습니다. 다른 Adobe Campaign 모듈은 로그를 디스크에 저장하지 않습니다. 이 작업은 UDP 패킷을 보내 **syslogd** 모듈에 위임합니다.
+다음 **nlserver sylogd** 모듈이 로그를 디스크에 저장합니다. 이 모듈은 Unix와 유사합니다 **syslog 데몬**&#x200B;은(는) Unix와 Windows 간에 호환되도록 조정되었습니다. 다른 Adobe Campaign 모듈은 로그를 디스크에 저장하지 않습니다. 이 작업을 **sylogd** 모듈(UDP 패킷 전송)
 
-기본적으로 Adobe Campaign 플랫폼에는 **syslogd** 모듈이 설치되어 있지만 다른 **syslog 데몬**&#x200B;을 사용할 수 있습니다. 이 모듈은 **log** 디렉터리에 로그 파일을 만듭니다.
+기본적으로 Adobe Campaign 플랫폼에는 **sylogd** 모듈에 설치되지만 다른 모듈을 사용할 수 있습니다 **syslog 데몬**. 이 모듈은 **로그** 디렉토리.
 
 다중 인스턴스 모듈의 로그는 다음 디렉토리에 저장됩니다. **`<installation directory>`/var/default/log/**. 동일한 로그 파일은 모든 인스턴스(예: **web.log**).
 
@@ -53,14 +53,14 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**리디렉션** 디렉터리는 리디렉션 서버에만 있습니다. **url** 하위 디렉토리에는 리디렉션할 URL의 일치 항목이 포함되어 있고 하위 디렉토리 **log**&#x200B;에 추적 로그가 포함되어 있습니다. 추적 로그를 생성하려면 **trackinglogd** 모듈이 실행 중이어야 합니다.
+>다음 **리디렉션** 디렉터리는 리디렉션 서버에만 있습니다. 다음 **url** 하위 디렉토리에는 리디렉션할 URL과 하위 디렉토리가 있습니다. **로그** 추적 로그를 포함합니다. 추적 로그를 생성하려면 **trackinglogd** 모듈이 실행 중이어야 합니다.
 
-성능 및 저장 최적화를 위해 logins.log 파일은 매일 1회(logins.yy-mm-dd.log)로 여러 파일로 분할되며 최대 365개의 파일이 유지됩니다. serverConf.xml의 syslogins(**maxNumberOfLoginsFiles** 옵션)에서 일 수를 변경할 수 있습니다. [서버 구성 파일](../../installation/using/the-server-configuration-file.md#syslogd)에 대한 설명서를 참조하십시오.
+성능 및 저장 최적화를 위해 logins.log 파일은 매일 1회(logins.yy-mm-dd.log)로 여러 파일로 분할되며 최대 365개의 파일이 유지됩니다. serverConf.xml의 syslogd(**maxNumberOfLoginsFiles** 선택 사항). 다음 항목에 대한 설명서를 참조하십시오. [서버 구성 파일](../../installation/using/the-server-configuration-file.md#syslogd).
 
-기본적으로 로그는 모듈당 2개의 10MB 파일 및 인스턴스당 제한됩니다. 두 번째 파일을 라고 합니다. **`<modulename>`_2.log** 따라서 로그 크기는 모듈당 및 인스턴스당 2*10MB로 제한됩니다.
+기본적으로 로그는 모듈당 2개의 10MB 파일 및 인스턴스당 제한됩니다. 두 번째 파일을 라고 합니다. **`<modulename>`_2.log**. 따라서 로그 크기는 모듈당 및 인스턴스당 2*10MB로 제한됩니다.
 
-그러나 더 큰 파일을 유지할 수 있습니다. 이를 활성화하려면 **conf/serverConf.xml** 파일의 **syslogd** 노드에서 **maxFileSizeMb=&quot;10&quot;** 설정 값을 변경하십시오. 이 값은 로그 파일의 최대 크기(MB)를 나타냅니다.
+그러나 더 큰 파일을 유지할 수 있습니다. 이를 활성화하려면 **maxFileSizeMb=&quot;10&quot;** 설정 **sylogd** 노드 **conf/serverConf.xml** 파일. 이 값은 로그 파일의 최대 크기(MB)를 나타냅니다.
 
-로그에 세부 정보 수준을 추가로 유지하려면 **-verbose** 매개 변수로 Adobe Campaign 모듈을 시작할 수 있습니다.
+로그에서 세부 사항을 추가로 유지하려면 **-verbose** 매개 변수:
 
-**nlserver start  `<MODULE>`@`<INSTANCE>` verbose**
+**nlserver 시작 `<MODULE>`@`<INSTANCE>` -verbose**

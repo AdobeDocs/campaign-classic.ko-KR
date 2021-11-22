@@ -19,9 +19,9 @@ ht-degree: 4%
 
 인바운드 또는 아웃바운드 채널을 사용하여 다양한 오퍼 공간에 오퍼를 표시할 수 있습니다. 이 장에서는 인바운드 채널에 대한 몇 가지 특정 기능에 대해 자세히 설명합니다.
 
-![](assets/do-not-localize/how-to-video.png) 인바운드 채널에  [](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) 오퍼를 전달하는 방법을 자세히 설명하는 이 비디오를 볼 수도 있습니다.
+![](assets/do-not-localize/how-to-video.png) 또한 이것을 볼 수 있습니다 [비디오](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) 는 인바운드 채널에 오퍼를 전달하는 방법을 자세히 설명합니다.
 
-오퍼 엔진에서 오퍼를 선택하려면 오퍼를 승인하고 라이브 환경에서 사용할 수 있어야 합니다. 자세한 내용은 [오퍼 승인 및 활성화](../../interaction/using/approving-and-activating-an-offer.md)를 참조하십시오.
+오퍼 엔진에서 오퍼를 선택하려면 오퍼를 승인하고 라이브 환경에서 사용할 수 있어야 합니다. 자세한 내용은 [오퍼 승인 및 활성화](../../interaction/using/approving-and-activating-an-offer.md).
 
 연락처가 인바운드 경우 다음 두 가지 가능한 결과가 있습니다. 페이지를 탐색 중인 사용자는 웹 사이트에서 식별할 수 있습니다. 오퍼 엔진은 사용자가 식별되는지 여부에 따라 다른 오퍼를 제공합니다.
 

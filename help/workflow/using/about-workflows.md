@@ -30,7 +30,7 @@ Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체
 Adobe Campaign은 워크플로우를 사용하여 다음을 수행합니다.
 
 * 타겟팅 캠페인을 수행합니다. [자세히 알아보기](building-a-workflow.md#implementation-steps-)
-* 캠페인 빌드: 각 캠페인에 대해 **[!UICONTROL Workflow]** 탭을 사용하여 타겟을 작성하고 게재를 만들 수 있습니다. [자세히 알아보기](building-a-workflow.md#campaign-workflows)
+* 캠페인 빌드: 각 캠페인에 대해 **[!UICONTROL Workflow]** 탭에서는 타겟을 작성하고 게재를 만들 수 있습니다. [자세히 알아보기](building-a-workflow.md#campaign-workflows)
 * 기술 프로세스 수행: 추적 정보 또는 임시 계산을 정리, 수집합니다. [자세히 알아보기](building-a-workflow.md#technical-workflows)
 
 워크플로우는 프로세스 정의(발생할 작업을 나타내는 워크플로우 모델)와 이 프로세스의 인스턴스(실제로 발생하는 일을 나타내는 워크플로우 인스턴스)를 모두 의미할 수 있습니다.
@@ -43,11 +43,11 @@ Adobe Campaign은 워크플로우를 사용하여 다음을 수행합니다.
 
 * **[!UICONTROL Activities]**
 
-   활동은 작업 템플릿을 설명합니다. 사용 가능한 다양한 활동은 아이콘으로 다이어그램에 표시됩니다. 각 유형에는 공통 속성과 특정 속성이 있습니다. 예를 들어 모든 활동에는 이름과 레이블이 있지만 **[!UICONTROL Approval]** 활동에는 할당만 있습니다.
+   활동은 작업 템플릿을 설명합니다. 사용 가능한 다양한 활동은 아이콘으로 다이어그램에 표시됩니다. 각 유형에는 공통 속성과 특정 속성이 있습니다. 예를 들어 모든 활동에는 이름과 레이블이 있지만, **[!UICONTROL Approval]** 활동에 할당이 있습니다.
 
    워크플로우 다이어그램에서 주어진 활동은 특히 루프 또는 반복(주기) 작업이 있는 경우 여러 작업을 생성할 수 있습니다.
 
-   모든 워크플로우 활동은 사용 사례 및 샘플을 포함하여 [이 섹션](about-activities.md)에 나열됩니다.
+   모든 워크플로우 활동은 [이 섹션](about-activities.md)사용 사례 및 샘플 포함.
 
 * **[!UICONTROL Transitions]**
 
@@ -59,22 +59,22 @@ Adobe Campaign은 워크플로우를 사용하여 다음을 수행합니다.
    >
    >종료되지 않은 전환이 포함된 워크플로우는 계속 실행할 수 있습니다. 경고 메시지가 생성되고 워크플로우는 전환에 도달하면 일시 중지되지만 오류가 생성되지 않습니다. 따라서 워크플로우를 완료하지 않고 시작하고 진행할 때 추가할 수 있습니다.
 
-   워크플로우 빌드 방법에 대한 자세한 내용은 [이 섹션](building-a-workflow.md)을 참조하십시오.
+   워크플로우 빌드 방법에 대한 자세한 내용은 [이 섹션](building-a-workflow.md).
 
 * **[!UICONTROL Worktables]**
 
    작업 표에는 전환에서 전달하는 모든 정보가 포함되어 있습니다. 각 워크플로우에서는 여러 작업 테이블을 사용합니다. 이러한 표에 전달된 데이터는 삭제되지 않는 경우 워크플로우의 수명 주기 내내 가속화되고 사용할 수 있습니다. 실제로 워크플로우가 수동될 때마다 및 가장 큰 워크플로우를 실행하는 동안 서버 오버로드를 방지하기 위해 필요하지 않은 테이블이 삭제됩니다.
 
-   [이 섹션](how-to-use-workflow-data.md)의 워크플로우 데이터 및 표에 대해 자세히 알아보십시오.
+   워크플로우 데이터 및 표에 대해 자세히 알아보기 [이 섹션](how-to-use-workflow-data.md).
 
 ## 주요 원칙 및 우수 사례{#principles-workflows}
 
 워크플로우를 통해 프로세스를 자동화하는 데 필요한 지침과 모범 사례를 찾으려면 다음 섹션을 참조하십시오.
 
-* [이 페이지](how-to-use-workflow-data.md)의 워크플로우 활동에 대해 자세히 알아보십시오.
-* [이 섹션](building-a-workflow.md)에서 워크플로우를 작성하는 방법을 알아봅니다.
-* 워크플로우를 사용하여 [이 섹션](../../platform/using/import-export-workflows.md)에서 Campaign에 데이터를 가져오는 방법을 알아봅니다.
-* 워크플로우 모범 사례는 [이 페이지](workflow-best-practices.md)에 자세히 설명되어 있습니다.
-* [이 섹션](starting-a-workflow.md)에서 워크플로우 실행에 대한 지침을 찾으십시오.
-* [이 페이지](monitoring-workflow-execution.md)에서 워크플로우를 모니터링하는 방법을 알아봅니다.
-* [이 페이지](managing-rights.md)에서 워크플로우를 사용할 수 있도록 사용자에게 액세스 권한을 부여하는 방법을 알아봅니다.
+* 에서 워크플로우 활동에 대해 자세히 알아보십시오 [이 페이지](how-to-use-workflow-data.md).
+* 에서 워크플로우를 빌드하는 방법 알아보기 [이 섹션](building-a-workflow.md).
+* 워크플로우를 사용하여 Campaign에서 데이터를 가져오는 방법을 알아봅니다 [이 섹션](../../platform/using/import-export-workflows.md).
+* 워크플로우 모범 사례는에 자세히 설명되어 있습니다. [이 페이지](workflow-best-practices.md).
+* 에서 워크플로우 실행에 대한 지침을 찾습니다. [이 섹션](starting-a-workflow.md).
+* 에서 워크플로우를 모니터링하는 방법 알아보기 [이 페이지](monitoring-workflow-execution.md).
+* 에서 워크플로우를 사용할 수 있도록 사용자에게 액세스 권한을 부여하는 방법을 알아봅니다. [이 페이지](managing-rights.md).

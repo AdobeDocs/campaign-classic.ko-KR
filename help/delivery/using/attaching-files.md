@@ -23,16 +23,16 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. 권장 임계값은 [Campaign Classic 옵션 목록에서 구성할 수 있습니다](../../installation/using/configuring-campaign-options.md#delivery).
+>성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. 권장 임계값은 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
 
 다음 두 가지 가능한 경우가 있습니다.
 
 * 파일을 선택하여 게재에 있는 그대로 첨부합니다.
-* 각 수신자에 대한 첨부 파일의 컨텐츠를 개인화합니다. 이 경우 **계산된 첨부 파일**&#x200B;을 만들어야 합니다. 첨부 파일의 이름은 수신자에 따라 각 메시지에 대한 게재 시 계산됩니다. **가변 디지털 인쇄** 옵션이 있는 경우, 컨텐츠를 개인화하고 전달 시 PDF 형식으로 변환할 수도 있습니다.
+* 각 수신자에 대한 첨부 파일의 컨텐츠를 개인화합니다. 이 경우 **계산된 첨부**: 첨부 파일의 이름은 수신자에 따라 각 메시지에 대한 게재 시 계산됩니다. 또한, 다음 권한이 있는 경우 컨텐츠를 개인화하고 게재할 때 PDF 형식으로 변환할 수 있습니다 **가변 디지털 인쇄** 선택 사항입니다.
 
 >[!NOTE]
 >
->이 유형의 구성은 일반적으로 게재 템플릿에서 수행됩니다. 자세한 내용은 [템플릿 정보](about-templates.md)를 참조하십시오.
+>이 유형의 구성은 일반적으로 게재 템플릿에서 수행됩니다. 자세한 내용은 [템플릿 기본 정보](about-templates.md).
 
 ## 로컬 파일 첨부 {#attaching-a-local-file}
 
@@ -44,49 +44,49 @@ ht-degree: 1%
 
 1. **[!UICONTROL Attachments]** 링크를 클릭합니다.
 1. **[!UICONTROL Add]** 버튼을 클릭합니다.
-1. **[!UICONTROL File...]** 을 클릭하여 게재에 첨부할 파일을 선택합니다.
+1. 클릭 **[!UICONTROL File...]** 을 클릭하여 게재에 첨부할 파일을 선택합니다.
 
    ![](assets/s_ncs_user_wizard_email_attachement.png)
 
-전달 **[!UICONTROL Attachments]** 필드에 파일을 직접 끌어다 놓거나 전달 마법사 도구 모음에서 **[!UICONTROL Attach]** 아이콘을 사용할 수도 있습니다.
+파일을 게재에 직접 끌어다 놓을 수도 있습니다 **[!UICONTROL Attachments]** 필드 또는 **[!UICONTROL Attach]** 아이콘을 클릭하여 게재 마법사 도구 모음의
 
 ![](assets/s_ncs_user_wizard_add_file_ico.png)
 
-파일을 선택하면 전달 시 사용할 수 있도록 즉시 서버에 업로드됩니다. **[!UICONTROL Attachments]** 필드에 나열됩니다.
+파일을 선택하면 즉시 서버에 업로드되므로 전송 시 사용할 수 있습니다. 이 목록은 **[!UICONTROL Attachments]** 필드.
 
 ![](assets/s_ncs_user_wizard_email_attachement_e.png)
 
 ## 계산된 첨부 만들기 {#creating-a-calculated-attachment}
 
-계산된 첨부 파일을 만들 때 각 메시지의 분석 또는 전달 중에 첨부 파일의 이름을 계산할 수 있으며 수신자에 따라 달라질 수 있습니다. 또한 개인화되고 PDF로 변환할 수 있습니다.
+계산된 첨부 파일을 만들 때 각 메시지의 분석 또는 전달 중에 첨부 파일의 이름을 계산할 수 있으며 수신자에 따라 달라질 수 있습니다. 또한 개인화되고 PDF으로 변환할 수 있습니다.
 
 ![](assets/s_ncs_user_wizard_attachment.png)
 
 개인화된 첨부 파일을 만들려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL Attachments]** 링크를 클릭합니다.
-1. **[!UICONTROL Add]** 단추를 클릭한 다음 **[!UICONTROL Calculated attachment]** 을 선택합니다.
-1. **[!UICONTROL Type]** 드롭다운 목록에서 계산 유형을 선택합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Add]** 단추를 누른 다음 **[!UICONTROL Calculated attachment]**.
+1. 계산 유형을 **[!UICONTROL Type]** 드롭다운 목록:
 
 ![](assets/s_ncs_user_wizard_email01_136.png)
 
 다음 옵션을 사용할 수 있습니다.
 
 * **게재 템플릿을 만들 때 파일 이름이 지정됩니다**
-* **각 메시지를 전달하는 동안 파일의 컨텐츠가 개인화되고 PDF로 변환됩니다**
+* **각 메시지를 전달하는 동안 파일의 컨텐츠는 개인화되고 PDF으로 변환됩니다**
 * **파일 이름은 게재 분석 중에 계산됩니다(수신자 프로필에 따라 달라질 수 없음)**
 * **파일 이름은 각 수신자에 대해 전달 시 계산됩니다(수신자에 따라 달라질 수 있음)**
 
 ### 로컬 파일 첨부 {#attach-a-local-file}
 
-첨부 파일이 로컬 파일인 경우 옵션을 선택합니다. **[!UICONTROL File name is specified when creating the delivery template]** 로컬에서 파일을 선택하고 서버에 업로드합니다. 아래의 단계를 수행하십시오.
+첨부 파일이 로컬 파일인 경우 옵션을 선택합니다. **[!UICONTROL File name is specified when creating the delivery template]**. 로컬에서 파일을 선택하고 서버에 업로드합니다. 아래의 단계를 수행하십시오.
 
-1. **[!UICONTROL Local file]** 필드에서 업로드할 파일을 선택합니다.
+1. 에서 업로드할 파일을 선택합니다 **[!UICONTROL Local file]** 필드.
 1. 필요한 경우 레이블을 지정합니다. 이 레이블은 메시징 시스템에서 볼 때 파일 이름을 대체합니다. 아무 것도 지정하지 않으면 기본적으로 파일 이름이 사용됩니다.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
 
-1. 필요한 경우 **[!UICONTROL Upload file on the server]** 을 선택하고 **[!UICONTROL Update on server]** 을 클릭하여 전송을 시작합니다.
+1. 필요한 경우 을 선택합니다. **[!UICONTROL Upload file on the server]**&#x200B;를 클릭한 다음 **[!UICONTROL Update on server]** 전송을 시작하려면 다음을 수행하십시오.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 ### 개인화된 메시지 첨부 {#attach-a-personalized-message}
 
-**[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** 옵션을 사용하면 의도한 수신자의 성 및 이름과 같은 개인화 필드가 있는 파일을 선택할 수 있습니다.
+옵션 **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** 수신자의 성 및 이름과 같이 개인화 필드가 있는 파일을 선택할 수 있습니다.
 
 ![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
@@ -102,24 +102,24 @@ ht-degree: 1%
 
 1. 업로드할 파일을 선택합니다.
 1. 필요한 경우 레이블을 지정합니다.
-1. **[!UICONTROL Upload file on the server]** 을 선택하고 **[!UICONTROL Update on server]** 을 클릭하여 전송을 시작합니다.
+1. 선택 **[!UICONTROL Upload file on the server]**&#x200B;를 클릭한 다음 **[!UICONTROL Update on server]** 전송을 시작하려면 다음을 수행하십시오.
 1. 미리 보기를 표시할 수 있습니다. 이렇게 하려면 수신자를 선택합니다.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
 
 1. 게재를 분석한 다음 시작합니다.
 
-   각 수신자는 게재에 첨부된 개인화된 PDF를 수신합니다.
+   각 수신자는 게재에 첨부된 개인화된 PDF을 수신합니다.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
 >[!NOTE]
 >
->성능 문제를 방지하려면 개인화된 URL에서 즉시 다운로드한 이미지를 첨부 파일로 포함하는 경우 각 이미지 크기가 기본적으로 10만 바이트를 초과해서는 안 됩니다. 이 권장 임계값은 [Campaign Classic 옵션 목록에서 구성할 수 있습니다](../../installation/using/configuring-campaign-options.md#delivery).
+>성능 문제를 방지하려면 개인화된 URL에서 즉시 다운로드한 이미지를 첨부 파일로 포함하는 경우 각 이미지 크기가 기본적으로 10만 바이트를 초과해서는 안 됩니다. 이 권장 임계값은 다음에서 구성할 수 있습니다. [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
 
 ### 계산된 파일 첨부 {#attach-a-calculated-file}
 
-게재를 준비하는 동안 첨부 파일 이름을 계산할 수 있습니다. 이렇게 하려면 **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]** 옵션을 선택합니다.
+게재를 준비하는 동안 첨부 파일 이름을 계산할 수 있습니다. 이렇게 하려면 옵션을 선택합니다 **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]**.
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ ht-degree: 1%
 
 ### 개인화된 파일 첨부 {#attach-a-personalized-file}
 
-첨부 파일을 선택할 때 **[!UICONTROL The file name is calculated during delivery for each recipient (it can depend on the recipient)]** 옵션을 선택할 수 있습니다. 그런 다음 전송할 파일의 이름으로 수신자 개인화 데이터를 매핑할 수 있습니다.
+첨부 파일을 선택할 때 옵션을 선택할 수 있습니다 **[!UICONTROL The file name is calculated during delivery for each recipient (it can depend on the recipient)]**. 그런 다음 전송할 파일의 이름으로 수신자 개인화 데이터를 매핑할 수 있습니다.
 
 >[!NOTE]
 >
@@ -165,7 +165,7 @@ ht-degree: 1%
 
 ### 첨부 파일 설정 {#attachment-settings}
 
-처음 두 옵션의 경우 적절한 옵션을 선택하여 **[!UICONTROL Upload file on the server]**&#x200B;을 선택할 수 있습니다. **[!UICONTROL Update the file on the server]** 링크를 통해 업로드를 시작할 수 있습니다.
+처음 두 옵션에 대해 다음을 선택할 수 있습니다 **[!UICONTROL Upload file on the server]** 적절한 옵션을 선택하면 됩니다. 다음 **[!UICONTROL Update the file on the server]** 링크를 통해 업로드를 시작할 수 있습니다.
 
 ![](assets/s_ncs_user_wizard_email01_137.png)
 
@@ -177,9 +177,9 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_wizard_email01_1372.png)
 
-**[!UICONTROL Advanced]** 탭에서는 첨부된 파일에 대한 고급 옵션을 정의할 수 있습니다.
+다음 **[!UICONTROL Advanced]** 탭에서 첨부된 파일에 대한 고급 옵션을 정의할 수 있습니다.
 
-* 모든 수신자에게 첨부된 파일을 보내지 않도록 필터 옵션을 정의할 수 있습니다. **[!UICONTROL Enable filtering of recipients who will receive the attachment]** 옵션은 JavaScript에서 입력해야 하는 수신자 선택 스크립트를 정의하는 데 사용되는 입력 필드를 활성화합니다.
+* 모든 수신자에게 첨부된 파일을 보내지 않도록 필터 옵션을 정의할 수 있습니다. 옵션 **[!UICONTROL Enable filtering of recipients who will receive the attachment]** JavaScript로 입력해야 하는 수신자 선택 스크립트를 정의하는 데 사용되는 입력 필드를 활성화합니다.
 * 파일 이름을 스크립팅하여 개인화할 수 있습니다.
 
    창에 텍스트를 입력하고 드롭다운 목록에서 사용할 수 있는 개인화 필드를 사용합니다. 다음 예에서는 파일 이름이 오늘 날짜와 수신자 이름을 포함하도록 개인화됩니다.

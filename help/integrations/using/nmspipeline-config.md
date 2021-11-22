@@ -16,10 +16,10 @@ ht-degree: 2%
 
 ![](../../assets/common.svg)
 
-인증이 작동하면 [!DNL pipelined]이(가) 이벤트를 검색하고 처리할 수 있습니다. Adobe Campaign에 구성된 트리거만 처리하며 다른 트리거는 무시합니다. 트리거가 Analytics에서 생성되어 미리 파이프라인으로 푸시되었어야 합니다.
+인증이 작동하면, [!DNL pipelined] 은 이벤트를 검색하고 처리할 수 있습니다. Adobe Campaign에 구성된 트리거만 처리하며 다른 트리거는 무시합니다. 트리거가 Analytics에서 생성되어 미리 파이프라인으로 푸시되었어야 합니다.
 이름에 관계없이 모든 트리거를 캐치하도록 와일드카드로 옵션을 구성할 수도 있습니다.
 
-트리거 구성은 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 아래의 옵션에서 수행됩니다. 옵션 이름은 **[!UICONTROL NmsPipeline_Config]**&#x200B;입니다. 데이터 유형은 JSON 포맷의 &quot;긴 텍스트&quot;입니다.
+트리거의 구성은 아래의 옵션에서 수행됩니다. **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. 옵션 이름은 다음과 같습니다 **[!UICONTROL NmsPipeline_Config]**. 데이터 유형은 JSON 포맷의 &quot;긴 텍스트&quot;입니다.
 
 이 예에서는 두 개의 트리거를 지정합니다.
 
@@ -66,7 +66,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Analytics 인터페이스의 특정 트리거 이름에 대한 [!DNL Trigger] UID 값은 트리거 인터페이스에서 URL 쿼리 문자열 매개 변수의 일부로 찾을 수 있습니다. triggerType UID가 파이프라인 데이터 스트림에 전달되고 pipeline.JS에 코드를 작성하여 트리거 UID를 pipelineEvents 스키마의 Trigger Name 열에 저장할 수 있는 사용자에게 친숙한 레이블에 매핑할 수 있습니다.
+>다음 [!DNL Trigger] Analytics 인터페이스에서 특정 트리거 이름에 대한 UID 값은 트리거 인터페이스에서 URL 쿼리 문자열 매개 변수의 일부로 찾을 수 있습니다. triggerType UID가 파이프라인 데이터 스트림에 전달되고 pipeline.JS에 코드를 작성하여 트리거 UID를 pipelineEvents 스키마의 Trigger Name 열에 저장할 수 있는 사용자에게 친숙한 레이블에 매핑할 수 있습니다.
 
 ## 소비자 매개 변수 {#consumer-parameter}
 
@@ -77,10 +77,10 @@ ht-degree: 2%
 ## 파이프라인 옵션을 구성하는 방법 {#configure-pipeline-option}
 
 &quot;triggers&quot; 배열 아래에서 Experience Cloud 트리거를 추가하거나 편집합니다. 나머지는 편집하지 마십시오.
-JSON이 이 [웹 사이트](https://jsonlint.com/)의 도움말에서 유효한지 확인합니다.
+JSON이 이 ID의 도움을 받아 유효한지 확인합니다 [웹 사이트](https://jsonlint.com/).
 
 * name은 트리거 ID입니다. 와일드카드 &quot;*&quot;가 모든 트리거를 캡처합니다.
 * &quot;소비자&quot;는 nlserver 인스턴스를 고유하게 식별하는 고유한 문자열입니다. 일반적으로 인스턴스 이름 자체일 수 있습니다. 여러 환경(개발/스테이지/prod)의 경우 각 인스턴스가 메시지의 사본을 받을 수 있도록 각 환경에 대해 고유한지 확인하십시오.
 * [!DNL Pipelined] 또한 &quot;별칭&quot; 항목을 지원합니다.
 
-변경한 후 [!DNL pipelined]을(를) 다시 시작합니다.
+다시 시작 [!DNL pipelined] 변경한 후

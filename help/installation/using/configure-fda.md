@@ -23,13 +23,13 @@ Adobe Campaign에서 액세스할 수 있는 외부 데이터베이스에 따라
 
 >[!NOTE]
 >
->호환 버전은 [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA)에 나열되어 있습니다.
+>호환 버전은 다음과 같습니다. [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
 
 ## 구성 단계 {#fda-configuration-steps}
 
 FDA를 사용하여 외부 데이터베이스에 대한 액세스를 설정하려면 구성 단계는 다음과 같습니다.
 
-1. 드라이버를 설치하고 Adobe Campaign 서버에 데이터베이스에 해당하는 외부 계정을 설정합니다. 아래 나열된 데이터베이스 특정 페이지 [를 참조하십시오.](#fda-specific-configuration)
+1. 드라이버를 설치하고 Adobe Campaign 서버에 데이터베이스에 해당하는 외부 계정을 설정합니다. 데이터베이스별 페이지를 참조하십시오 [아래에 나열된](#fda-specific-configuration)
 1. 외부 계정을 테스트하거나 Adobe Campaign과 외부 데이터베이스 간의 임시 연결을 만듭니다. [자세히 알아보기](../../installation/using/connecting-to-database.md)
 1. Adobe Campaign에서 외부 데이터베이스의 스키마를 만듭니다. 외부 데이터베이스의 데이터 구조를 식별할 수 있습니다. [자세히 알아보기](../../installation/using/creating-data-schema.md)
 1. 필요한 경우 이전에 만든 스키마에서 새 대상 매핑을 만듭니다. 게재 수신자가 외부 데이터베이스에서 온 경우 필요합니다. 이 구현에는 메시지 개인화와 관련된 제한 사항이 포함되어 있습니다. [자세히 알아보기](../../installation/using/defining-data-mapping.md)
@@ -42,22 +42,22 @@ Adobe Campaign에서 액세스할 수 있는 외부 데이터베이스에 따라
 
 자세한 내용은 아래 링크를 참조하십시오.
 
-* Campaign과 [Vertica](../../installation/using/configure-fda-vertica.md) 연결
+* Campaign 및 연결 [Vertica](../../installation/using/configure-fda-vertica.md)
 
-* Campaign과 [Google BigQuery 연결](../../installation/using/configure-fda-google-big-query.md)
+* Campaign 및 연결 [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 
-* Campaign과 [Azure synapse](../../installation/using/configure-fda-synapse.md) 연결
+* Campaign 및 연결 [azure synapse](../../installation/using/configure-fda-synapse.md)
 
-* Campaign과 [Snowflake](../../installation/using/configure-fda-snowflake.md) 연결
+* Campaign 및 연결 [Snowflake](../../installation/using/configure-fda-snowflake.md)
 
-* Campaign과 [Hadoop](../../installation/using/configure-fda-hadoop.md) 연결
+* Campaign 및 연결 [Hadoop](../../installation/using/configure-fda-hadoop.md)
 
-* Campaign과 [Oracle](../../installation/using/configure-fda-oracle.md) 연결
+* Campaign 및 연결 [Oracle](../../installation/using/configure-fda-oracle.md)
 
-* Campaign과 [Netezza](../../installation/using/configure-fda-netezza.md) 연결
+* Campaign 및 연결 [Netezza](../../installation/using/configure-fda-netezza.md)
 
-* Campaign과 [Sybase IQ](../../installation/using/configure-fda-sybase.md) 연결
+* Campaign 및 연결 [sybase IQ](../../installation/using/configure-fda-sybase.md)
 
-* Campaign과 [Teradata](../../installation/using/configure-fda-teradata.md) 연결
+* Campaign 및 연결 [Teradata](../../installation/using/configure-fda-teradata.md)
 
-* Campaign과 [SAP HANA](../../installation/using/configure-fda-sap-hana.md) 연결
+* Campaign 및 연결 [SAP HANA](../../installation/using/configure-fda-sap-hana.md)

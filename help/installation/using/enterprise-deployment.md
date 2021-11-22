@@ -61,7 +61,7 @@ ht-degree: 3%
    * 가상 IP 주소(VIP)에서 로드 밸런서를 추적 및 가리키도록 공개되어 두 개의 전면 서버에 배포됩니다.
    * 콘솔을 통해 액세스 및 가상 IP 주소(VIP)에서 로드 밸런서를 가리키도록 내부 사용자에게 노출되고 두 개의 애플리케이션 서버에 배포되는 두 번째 기능입니다.
 
-* STMP(25), DNS(53), HTTP(80), HTTPS(443), SQL(Oracle의 경우 1521, PostgreSQL의 경우 5432)를 열도록 구성된 방화벽 포트. 자세한 내용은 [데이터베이스 액세스](../../installation/using/network-configuration.md#database-access) 섹션을 참조하십시오.
+* STMP(25), DNS(53), HTTP(80), HTTPS(443), SQL(Oracle의 경우 1521, PostgreSQL의 경우 5432)를 열도록 구성된 방화벽 포트. 자세한 내용은 섹션을 참조하십시오 [데이터베이스 액세스](../../installation/using/network-configuration.md#database-access).
 
 >[!CAUTION]
 >
@@ -82,11 +82,11 @@ ht-degree: 3%
 
 첫 번째 서버를 설치하는 단계는 다음과 같습니다.
 
-1. Adobe Campaign 서버의 설치 절차를 따르십시오. Linux의 **nlserver** 패키지 또는 Windows의 **setup.exe**
+1. Adobe Campaign 서버의 설치 절차를 따르십시오. **nlserver** Linux 또는 **setup.exe** Windows
 
-   자세한 내용은 Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md)(Windows)에서 [Campaign 설치 사전 요구 사항](../../installation/using/prerequisites-of-campaign-installation-in-linux.md)(Linux) 및 [Campaign 설치 사전 요구 사항(Windows)을 참조하십시오.
+   자세한 내용은 [Linux에서 캠페인 설치 사전 요구 사항](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) 및 [Windows에서 Campaign 설치 사전 요구 사항](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
 
-1. Adobe Campaign 서버가 설치되면 **nlserver web -tomcat** 명령을 사용하여 응용 프로그램 서버(웹)를 시작하고(웹 모듈은 포트 8080에서 수신하는 독립 실행형 웹 서버 모드에서 Tomcat을 시작할 수 있음) Tomcat이 올바르게 시작하는지 확인합니다.
+1. Adobe Campaign 서버가 설치되면 명령을 사용하여 애플리케이션 서버(웹)를 시작합니다 **nlserver web -tomcat** (웹 모듈을 사용하면 포트 8080에서 수신 대기하는 독립 실행형 웹 서버 모드로 Tomcat을 시작하고 Tomcat이 올바르게 시작하는지 확인할 수 있습니다.)
 
    ```
    12:08:18 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -98,16 +98,16 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >웹 모듈이 처음 실행되면 설치 폴더 아래의 **conf** 디렉터리에 **config-default.xml** 및 **serverConf.xml** 파일이 만들어집니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [section](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
+   >웹 모듈이 처음 실행되면 **config-default.xml** 및 **serverConf.xml** 의 파일 **conf** 디렉토리 아래에 있습니다. 에서 사용할 수 있는 모든 매개 변수 **serverConf.xml** 여기에 나열되어 있습니다. [섹션](../../installation/using/the-server-configuration-file.md).
 
-   서버를 중지하려면 **Ctrl+C** 키를 누릅니다.
+   누르기 **Ctrl+C** 서버를 중지하려면 다음을 수행하십시오.
 
    자세한 정보는 다음 섹션을 참조하십시오.
 
    * Linux의 경우: [서버의 첫 번째 시작](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
    * Windows의 경우: [서버의 첫 번째 시작](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
 
-1. 다음 명령을 사용하여 **internal** 암호를 변경합니다.
+1. 변경 **내부** 명령을 사용하여 암호:
 
    ```
    nlserver config -internalpassword
@@ -115,13 +115,13 @@ ht-degree: 3%
 
    이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)을 참조하십시오.
 
-1. 추적할 DNS 마스크(이 경우 **tracking.campaign.net**)를 사용하여 **데모** 인스턴스를 만들고 클라이언트 콘솔에 액세스합니다(이 경우 **console.campaign.net**). 다음 두 가지 방법으로 데이터를 수집할 수 있습니다.
+1. 만들기 **데모** 추적할 DNS 마스크가 있는 인스턴스(이 경우 **tracking.campaign.net**) 및 클라이언트 콘솔에 액세스합니다(이 경우 **console.campaign.net**). 다음 두 가지 방법으로 데이터를 수집할 수 있습니다.
 
    * 콘솔을 통해 인스턴스를 생성합니다.
 
       ![](assets/install_create_new_connexion.png)
 
-      자세한 내용은 [인스턴스 만들기 및](../../installation/using/creating-an-instance-and-logging-on.md)에 로그온을 참조하십시오.
+      자세한 내용은 [인스턴스 만들기 및 로그온](../../installation/using/creating-an-instance-and-logging-on.md).
 
       또는
 
@@ -131,9 +131,9 @@ ht-degree: 3%
       nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
       ```
 
-      자세한 내용은 [인스턴스 만들기](../../installation/using/command-lines.md#creating-an-instance)를 참조하십시오.
+      자세한 내용은 [인스턴스 만들기](../../installation/using/command-lines.md#creating-an-instance).
 
-1. **config-demo.xml** 파일(**config-default.xml** 파일 옆에 있음)을 편집하고 **mta**(배달), **wfserver**(워크플로우), **inMail**(메일) 및 **통계) 프로세스가 활성화되었는지 확인한 다음**&#x200B;앱 주소&#x200B;**통계 서버:**
+1. 편집 **config-demo.xml** 파일(이전 명령을 통해 작성되었으며 **config-default.xml** 파일)에서 **mta** (게재), **wfserver** (워크플로우), **inMail** (리바운드 메일) 및 **stat** (통계) 프로세스가 활성화되면 **앱** 통계 서버:
 
    ```
    <?xml version='1.0'?>
@@ -153,7 +153,7 @@ ht-degree: 3%
 
    이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#enabling-processes)을 참조하십시오.
 
-1. **serverConf.xml** 파일을 편집하고 배달 도메인을 지정한 다음 MTA 모듈에서 MX 유형 DNS 쿼리에 응답하기 위해 사용하는 DNS 서버의 IP(또는 호스트) 주소를 지정합니다.
+1. 편집 **serverConf.xml** MX 유형 DNS 쿼리에 응답하기 위해 MTA 모듈에서 사용하는 DNS 서버의 IP(또는 호스트) 주소를 지정하고 전달 도메인을 지정합니다.
 
    ```
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
@@ -161,17 +161,17 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >**nameServers** 매개 변수는 Windows에서만 사용됩니다.
+   >다음 **nameServers** 매개 변수는 Windows에서만 사용됩니다.
 
-   자세한 내용은 [Campaign 서버 구성](../../installation/using/configuring-campaign-server.md)을 참조하십시오.
+   자세한 내용은 [Campaign 서버 구성](../../installation/using/configuring-campaign-server.md).
 
-1. 클라이언트 콘솔 설정 프로그램(**setup-client-7.XX**, **YYYY.exe**, v7 또는 **setup-client-6.XX**, **YYYY.exe**)을 **/datakit/nl/eng/jsp** 폴더에 복사합니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
+1. 클라이언트 콘솔 설정 프로그램 복사(**setup-client-7.XX**, **YYYY.exe** v7 또는 **setup-client-6.XX**, **YYYY.exe** v6.1의 경우) **/datakit/nl/eng/jsp** 폴더를 입력합니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
 
-1. Adobe Campaign 서버(**net start nlserver6**, Windows에서는 **/etc/init.d/nlserver6 start**)를 시작하고 **nlserver pdump** 명령을 한 번 더 실행하여 모든 활성화된 모듈이 있는지 확인합니다.
+1. Adobe Campaign 서버 시작(**net start nlserver6** Windows에서는 **/etc/init.d/nlserver6 시작** Linux에서)에서 명령을 실행합니다. **nlserver pdump** 사용 가능한 모든 모듈이 있는지 한 번 더 확인하십시오.
 
    >[!NOTE]
    >
-   >20.1부터 대신 다음 명령을 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
+   >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systectl start nlserver**
 
 
    ```
@@ -187,11 +187,11 @@ ht-degree: 3%
 
    또한 이 명령을 사용하여 컴퓨터에 설치된 Adobe Campaign 서버의 버전 및 빌드 번호를 알 수 있습니다.
 
-1. URL을 사용하여 **nlserver web** 모듈을 테스트합니다. [https://console.campaign.net/nl/jsp/logon.jsp](https://tracking.campaign.net/r/test)
+1. 테스트 **nlserver 웹** URL을 사용하는 모듈: [https://console.campaign.net/nl/jsp/logon.jsp](https://tracking.campaign.net/r/test).
 
    이 URL을 사용하면 클라이언트 설정 프로그램의 다운로드 페이지에 액세스할 수 있습니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
 
-   액세스 제어 페이지에 도달하면 **내부** 로그인 및 관련 암호를 입력합니다.
+   을(를) 입력합니다. **내부** 액세스 제어 페이지에 도달하면 로그인 및 관련 암호입니다.
 
    ![](assets/s_ncs_install_access_client.png)
 
@@ -204,14 +204,14 @@ ht-degree: 3%
 
    애플리케이션 서버 1과 동일한 인스턴스 이름을 유지합니다.
 
-1. **internal**&#x200B;을 응용 프로그램 서버 1과 동일하게 변경합니다.
+1. 변경 **내부** 응용 프로그램 서버 1과 동일하게
 1. 데이터베이스를 인스턴스에 연결:
 
    ```
    nlserver config -setdblogin:PostgreSQL:campaign:demo@dbsrv -instance:demo
    ```
 
-1. **config-demo.xml** 파일(**config-default.xml** 파일 옆에 있음)을 편집하고 **mta**(배달), **wfserver**(워크플로우), **inMail**(메일) 및 **통계) 프로세스가 활성화되었는지 확인한 다음**&#x200B;앱 주소&#x200B;**통계 서버:**
+1. 편집 **config-demo.xml** 파일(이전 명령을 통해 작성되었으며 **config-default.xml** 파일)에서 **mta** (게재), **wfserver** (워크플로우), **inMail** (리바운드 메일) 및 **stat** (통계) 프로세스가 활성화되면 **앱** 통계 서버:
 
    ```
    <?xml version='1.0'?>
@@ -231,7 +231,7 @@ ht-degree: 3%
 
    이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#enabling-processes)을 참조하십시오.
 
-1. **serverConf.xml** 파일을 편집하고 MTA 모듈의 DNS 구성을 채웁니다.
+1. 편집 **serverConf.xml** 파일을 작성하고 MTA 모듈의 DNS 구성을 채웁니다.
 
    ```
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
@@ -239,9 +239,9 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >**nameServers** 매개 변수는 Windows에서만 사용됩니다.
+   >다음 **nameServers** 매개 변수는 Windows에서만 사용됩니다.
 
-   자세한 내용은 [Campaign 서버 구성](../../installation/using/configuring-campaign-server.md)을 참조하십시오.
+   자세한 내용은 [Campaign 서버 구성](../../installation/using/configuring-campaign-server.md).
 
 1. Adobe Campaign 서버를 시작합니다.
 
@@ -259,11 +259,11 @@ ht-degree: 3%
 1. Adobe Campaign 서버 설치,
 1. 다음 섹션에 설명된 웹 서버 통합 절차(IIS, Apache)를 준수합니다.
 
-   * Linux의 경우: [Linux용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-linux.md),
-   * Windows의 경우: [Windows](../../installation/using/integration-into-a-web-server-for-windows.md)용 웹 서버에 통합
+   * Linux의 경우: [Linux용 웹 서버와 통합](../../installation/using/integration-into-a-web-server-for-linux.md),
+   * Windows의 경우: [Windows용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-windows.md).
 
-1. 설치 중에 생성된 **config-demo.xml** 및 **serverConf.xml** 파일을 복사합니다. **config-demo.xml** 파일에서 **trackinglogd** 프로세스를 활성화하고 **mta**, **inmail**, **wfserver** 및 **stat** 프로세스를 비활성화합니다.
-1. **serverConf.xml** 파일을 편집하고 리디렉션의 매개 변수에서 중복 추적 서버를 채웁니다.
+1. 를 복사합니다. **config-demo.xml** 및 **serverConf.xml** 설치 중에 생성된 파일입니다. 에서 **config-demo.xml** 파일, 활성화 **trackinglogd** 처리 및 비활성화 **mta**, **inmail**, **wfserver** 및 **stat** 프로세스.
+1. 편집 **serverConf.xml** 파일을 캡처하고 리디렉션의 매개 변수에서 중복 추적 서버를 채웁니다.
 
    ```
    <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
@@ -287,6 +287,6 @@ ht-degree: 3%
    자세한 정보는 다음 섹션을 참조하십시오.
 
    * Linux의 경우: [웹 서버 시작 및 구성 테스트](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration),
-   * Windows의 경우: [웹 서버를 시작하고 구성](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)을 테스트합니다.
+   * Windows의 경우: [웹 서버 시작 및 구성 테스트](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration).
 
 1. Adobe Campaign 서버를 시작합니다.

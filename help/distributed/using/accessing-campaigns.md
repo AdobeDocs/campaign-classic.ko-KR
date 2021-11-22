@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ![](assets/mkg_dist_local_op_edit_new_op1.png)
 
-캠페인은 홈 페이지의 **[!UICONTROL Campaigns]** 링크를 통해 표시되는 캠페인 개요에서 액세스할 수 있는 상태로 유지됩니다.
+이 캠페인은 캠페인 개요에서 액세스할 수 있으며, 여기에서 **[!UICONTROL Campaigns]** 링크를 클릭합니다.
 
 ## 사용 가능한 설정 {#available-settings}
 

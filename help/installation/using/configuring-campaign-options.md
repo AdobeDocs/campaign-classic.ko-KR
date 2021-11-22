@@ -17,12 +17,12 @@ ht-degree: 1%
 
 ![](../../assets/v7-only.svg)
 
-**[!UICONTROL Administration / Platform / Options]** 노드를 사용하여 Adobe Campaign 옵션을 구성할 수 있습니다. 일부는 Campaign을 설치할 때 기본적으로 제공되며, 필요한 경우 수동으로 추가할 수 있습니다. 사용 가능한 옵션은 인스턴스에 설치된 패키지에 따라 다릅니다.
+다음 **[!UICONTROL Administration / Platform / Options]** 노드를 사용하면 Adobe Campaign 옵션을 구성할 수 있습니다. 일부는 Campaign을 설치할 때 기본적으로 제공되며, 필요한 경우 수동으로 추가할 수 있습니다. 사용 가능한 옵션은 인스턴스에 설치된 패키지에 따라 다릅니다.
 
 
 >[!CAUTION]
 >
->* 이 페이지에 나열되지 않은 옵션은 내부 전용이며 **은(는) 수정할 수 없습니다**.
+>* 이 페이지에 나열되지 않은 옵션은 내부 전용이며 **수정하면 안 됩니다.**.
 >
 >* Adobe Campaign 옵션 수정 또는 업데이트는 전문가 사용자만 수행할 수 있습니다.
 
@@ -51,7 +51,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">DmRendering_SeedTargets</span> <br /> </td> 
-   <td> 받은 편지함 렌더링에 테스트 주소를 사용할 스키마 목록입니다. (요소 이름은 쉼표로 구분됨) 예: custom_nms_recipient<br /> </td> 
+   <td> 받은 편지함 렌더링에 테스트 주소를 사용할 스키마 목록입니다. (요소 이름은 쉼표로 구분됨) 예: custom_nms_recipient.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
@@ -66,7 +66,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBilling_MainActionThreshold</span> <br /> </td> 
-   <td> 게재를 청구 보고서에서 주 수신자로 간주하기 위한 최소 수신자 수입니다.<br /> </td> 
+   <td> 게재를 청구 보고서에서 주요 수신자로 간주하기 위한 최소 수신자 수입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_DefaultProvider</span> <br /> </td> 
@@ -74,15 +74,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_LogsPerTransac</span> <br /> </td> 
-   <td> 한 번에 전송을 위해 만들어진 BroadLogs 수입니다.<br /> </td> 
+   <td> 한 번에 전송을 위해 생성된 BroadLogs 수입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MaxDelayPerTransac</span> <br /> </td> 
-   <td> 트랜잭션당 로그(broadLogs)를 표에 삽입: 일괄 처리당 처리할 행 수<br /> </td> 
+   <td> 트랜잭션당 로그(broadLogs)를 표에 삽입: 일괄 처리당 처리할 행 수.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MidAnalyzeBatchSize</span> <br /> </td> 
-   <td> 중간 소싱 게재를 분석할 때 게재 부분의 그룹화 크기입니다.<br /> </td> 
+   <td> 중간 소싱 게재를 분석할 때 게재 부분 그룹화 크기입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MsgValidityDuration</span> <br /> </td> 
@@ -90,7 +90,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_RegexRules</span> <br /> </td> 
-   <td> 배달 메시지를 정규화하기 위한 정규 표현식입니다.<br /> </td> 
+   <td> 게재 메시지를 정규화하기 위한 정규 표현식입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_RemoveBlackList</span> <br /> </td> 
@@ -102,7 +102,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ErrorAddressMasks</span> <br /> </td> 
-   <td> 메시지에 응답할 때 사용되는 오류 주소의 구문을 정의할 수 있습니다.<br /> </td> 
+   <td> 메시지에 회신할 때 사용되는 오류 주소의 구문을 정의할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_FromAddressMasks</span> <br /> </td> 
@@ -114,7 +114,7 @@ ht-degree: 1%
   </tr> 
  <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
-   <td> 개인화된 URL에서 다운로드되고 이메일에 첨부된 이미지에 허용되는 최대 크기(바이트)를 정의할 수 있습니다. 기본값은 100,000바이트입니다. 증명을 보내고 이메일을 처리하기 위해 이미지를 다운로드할 때 이미지 크기가 이 값을 초과하거나 다운로드 문제가 있는 경우 게재 로그에 오류가 표시되고 증명 게재는 실패합니다.<br /> </td> 
+   <td> 개인화된 URL에서 다운로드되고 이메일에 첨부된 이미지에 허용되는 최대 크기(바이트)를 정의할 수 있습니다. 기본값은 100,000바이트입니다. 증명을 보내고 이미지를 다운로드하여 이메일을 처리할 때 이미지 크기가 이 값을 초과하거나 다운로드 문제가 있는 경우 게재 로그에 오류가 표시되고 증명 게재는 실패합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRecommendedAttachments</span> <br /> </td> 
@@ -130,7 +130,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_NoCountBroadLogMsgPush</span> <br /> </td> 
-   <td> 푸시 메시지에 대해 broadLogMsg 수를 사용하지 않도록 설정합니다.<br /> </td> 
+   <td> 푸시 메시지에 대한 broadLogMsg 수를 비활성화합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDeliveryWizard_ShowDeliveryWeight</span> <br /> </td> 
@@ -138,39 +138,39 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultErrorAddr</span> <br /> </td> 
-   <td> 사용자가 비어 있는 경우 전자 메일 게재에 사용되는 인스턴스 수준의 기본 'error' 전자 메일 주소입니다.<br /> </td> 
+   <td> 사용자가 비어 있는 경우 이메일 게재에 사용되는 인스턴스 수준의 기본 '오류' 이메일 주소입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultFromAddr</span> <br /> </td> 
-   <td> 사용자가 비워 둘 경우 인스턴스 수준에서 전자 메일 배달에 사용되는 기본 '보낸 사람' 전자 메일 주소입니다.<br /> </td> 
+   <td> 사용자가 비어 있는 경우 이메일 게재에 사용되는 인스턴스 수준의 기본 '보낸 사람' 이메일 주소입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultReplyToAddr</span> <br /> </td> 
-   <td> 사용자가 비어 있는 경우 전자 메일 게재에 사용되는 인스턴스 수준의 기본 '회신' 전자 메일 주소입니다.<br /> </td> 
+   <td> 사용자가 비어 있는 경우 이메일 게재에 사용되는 인스턴스 수준의 기본 '회신' 이메일 주소입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> 고객의 일반 이름입니다. 수신자에게 표시되는 일부 경고 메시지에 사용됩니다.<br /> "***** 또는 제휴 회사와 연락하여 이 메시지를 받고 있습니다. 더 이상 *****".<br />에서 메시지를 받지 않으려면 </td> 
+   <td> 고객의 일반 이름입니다. 수신자에게 표시되는 일부 경고 메시지에 사용됩니다.<br /> "***** 또는 제휴 회사와 연락하여 이 메시지를 받고 있습니다. 더 이상 ""에서 메시지를 받지 *****.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
-   <td> 사용자가 비어 있는 경우 전자 메일 게재에 사용되는 인스턴스 수준의 기본 'from' 전자 메일 레이블입니다.<br /> </td> 
+   <td> 사용자가 비어 있는 경우 이메일 게재에 사용되는 인스턴스 수준의 기본 '보낸 사람' 이메일 레이블입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ReplyToName</span> <br /> </td> 
-   <td> 사용자가 비어 있는 경우 전자 메일 게재에 사용되는 인스턴스 수준의 기본 '회신' 전자 메일 레이블입니다.<br /> </td> 
+   <td> 사용자가 비어 있는 경우 이메일 게재에 사용되는 인스턴스 수준의 기본 '회신' 이메일 레이블입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_RetryCount</span> <br /> </td> 
-   <td> 전자 메일 메시지의 두 다시 시도 사이의 기간(초).<br /> </td> 
+   <td> 이메일 메시지의 두 다시 시도 사이의 기간(초).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_RetryPeriod</span> <br /> </td> 
-   <td> 전자 메일 메시지에 대한 다시 시도 기간입니다.<br /> </td> 
+   <td> 이메일 메시지에 대한 다시 시도 기간.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsForecast_MsgWeightFormula</span> <br /> </td> 
-   <td> 임시 배달용 메시지의 가중치를 계산하는 데 사용되는 공식입니다.<br /> </td> 
+   <td> 임시 게재에 대한 메시지의 가중치를 계산하는 데 사용되는 공식입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInmail_AllowlistEmails</span> <br /> </td> 
@@ -202,35 +202,35 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
-   <td> MidSourcing 세션의 최대 호출 수(기본적으로 3개)로 동시에 실행할 수 있습니다.<br /> </td> 
+   <td> MidSourcing 세션의 최대 호출 수(기본적으로 3개)와 동시에 실행할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
-   <td> 게재를 '지연'으로 간주한 후 사용자 지정 지연(분)으로, 기본값은 30분입니다.<br /> </td> 
+   <td> 게재를 '지연'으로 간주한 후 사용자 지정 지연(분)은 기본적으로 30분입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>이 옵션은 실행 중인 게재 수를 계산할 때 <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> 기술 워크플로우에서 사용됩니다.</p>이를 통해 불일치 상태의 게재가 실행 중인 게재 수에서 제외되는 위의 일 수를 정의할 수 있습니다.</p><p>기본적으로 이 값은 "7"으로 설정되어 있습니다. 즉, 7일 이상 오래된 일관되지 않은 게재는 제외됩니다.</p></td> 
+   <td><p>이 옵션은 <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> 게재 실행 횟수를 계산할 때 기술 워크플로우입니다.</p>이를 통해 불일치 상태의 게재가 실행 중인 게재 수에서 제외되는 위의 일 수를 정의할 수 있습니다.</p><p>기본적으로 이 값은 "7"으로 설정되어 있습니다. 즉, 7일 이상 오래된 일관되지 않은 게재는 제외됩니다.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
-   <td> 보낸 사람 주소의 줄 1입니다.<br /> </td> 
+   <td> 발신자 주소의 1번입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine3</span> <br /> </td> 
-   <td> 보낸 사람 주소의 줄 3입니다.<br /> </td> 
+   <td> 보낸 사람 주소의 3호입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine4</span> <br /> </td> 
-   <td> 보낸 사람 주소의 줄 4입니다.<br /> </td> 
+   <td> 보낸 사람 주소의 4번 줄입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine6</span> <br /> </td> 
-   <td> 보낸 사람 주소의 6행입니다.<br /> </td> 
+   <td> 보낸 사람 주소의 6번째 줄입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine7</span> <br /> </td> 
-   <td> 보낸 사람 주소의 줄 7입니다.<br /> </td> 
+   <td> 보낸 사람 주소의 7번 줄입니다.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
@@ -238,7 +238,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
-   <td> 보낸 SMS 메시지의 매개 변수: 메시지 우선 순위를 나타내기 위해 SMS 게이트웨이로 전송되는 정보입니다.<br /> </td> 
+   <td> 보낸 SMS 메시지의 매개 변수: 메시지 우선순위를 나타내기 위해 SMS 게이트웨이로 전송되는 정보입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_RetryCount</span> <br /> </td> 
@@ -246,27 +246,27 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_RetryPeriod</span> <br /> </td> 
-   <td> SMS 메시지의 다시 시도를 수행하는 기간입니다.<br /> </td> 
+   <td> SMS 메시지를 다시 시도할 기간입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsUserAgentStats_LastConsolidation</span> <br /> </td> 
-   <td> <span class="uicontrol">NmsUserAgent</span> 통계에 대한 마지막 통합 날짜입니다.<br /> </td> 
+   <td> 최종 통합 일자 <span class="uicontrol">NmsUserAgent</span> 통계입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsWebSegments_LastStates</span> <br /> </td> 
-   <td> 웹 세그먼트 및 해당 상태를 포함하는 옵션의 이름입니다.<br /> </td> 
+   <td> 웹 세그먼트 및 해당 상태가 포함된 옵션의 이름입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkBarcode_SpecialChar</span> <br /> </td> 
-   <td> Code128에 대한 특수 문자 지원을 활성화/비활성화합니다.<br /> </td> 
+   <td> 코드 128에 대한 특수 문자 지원을 활성화/비활성화합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkEmail_Characters</span> <br /> </td> 
-   <td> 전자 메일 주소의 올바른 문자입니다.<br /> </td> 
+   <td> 이메일 주소의 유효한 문자입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Restrict_EditXML</span> </td> 
-   <td> "0" 값과 함께 이 옵션을 추가하여 게재 XML 코드 버전을 사용하지 않도록 설정합니다(마우스 오른쪽 단추 클릭 / <span class="uicontrol">XML 소스 편집</span> 또는 <span class="uicontrol">CTRL + F4</span> 바로 가기).<br /> </td> 
+   <td> 게재의 XML 코드 버전을 비활성화하려면 이 옵션을 "0" 값과 함께 추가합니다(마우스 오른쪽 단추 클릭 /) <span class="uicontrol">XML 소스 편집</span> 또는 <span class="uicontrol">CTRL + F4</span> 바로 가기)를 클릭합니다.<br /> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -297,7 +297,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_DefaultIgnoredImage</span> <br /> </td> 
-   <td> 업로드 중에 건너뛴 이미지의 URL 마스크 목록입니다.<br /> </td> 
+   <td> 업로드 중에 건너뛴 이미지에 대한 URL 마스크 목록입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImagePublishing</span> </td> 
@@ -313,11 +313,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmPublishingDir</span> <br /> </td> 
-   <td> 게시물의 루트 폴더입니다.<br /> HTML 및 텍스트 콘텐츠 생성에 대한 자세한 정보는  <a href="../../delivery/using/using-a-content-template.md">이 섹션</a>을 참조하십시오.<br /> </td> 
+   <td> 게시물의 루트 폴더입니다.<br /> HTML 및 텍스트 콘텐츠 생성에 대한 자세한 내용은 <a href="../../delivery/using/using-a-content-template.md">이 섹션</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkImageUrl</span> <br /> </td> 
-   <td> 브라우저에서 게재에 사용된 이미지가 저장되는 서버를 정의할 수 있도록 해줍니다.<br /> 빌드 버전  &lt;&gt;<br /> 빌드 버전 5098보다 큰 경우 게재 공개 URL 또는 XtkFileRes_ <span class="uicontrol">Public_</span> URL 옵션의 URL을 대신 사용합니다.<br /> </td> 
+   <td> 브라우저에서 게재에 사용된 이미지가 저장되는 서버를 정의할 수 있도록 해줍니다.<br /> 빌드 버전 &lt;= 5098의 경우 인스턴스에 업로드된 이미지의 URL을 사용합니다.<br /> 빌드 버전 5098보다 큰 경우 게재 공개 URL 또는 <span class="uicontrol">XtkFileRes_Public_URL</span> 옵션 URL입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MediaInstance</span> <br /> </td> 
@@ -333,11 +333,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MsgWebValidityDuration</span> <br /> </td> 
-   <td> 게재의 온라인 리소스에 대한 기본 유효 기간(초)입니다.<br /> </td> 
+   <td> 게재의 온라인 리소스에 대한 기본 유효 기간(초)<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkFileRes_Public_URL</span> <br /> </td> 
-   <td> 공용 리소스 파일의 새 URL입니다.<br /> </td> 
+   <td> 공개 리소스 파일에 대한 새 URL입니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -354,19 +354,19 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">CrmMarketingActivityWindow</span> <br /> </td> 
-   <td> 마케팅 기록은 이 개월 수에 표시됩니다.<br /> </td> 
+   <td> 마케팅 기록은 이 개월 수에 대해 표시됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_Duration</span> <br /> </td> 
-   <td> 캠페인의 기본 유효 기간(초)입니다.<br /> </td> 
+   <td> 캠페인의 기본 유효 기간(초).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_LimitConcurrency</span> <br /> </td> 
-   <td> operationMgt 워크플로우에서 시작하여 한 번에 처리할 수 있는 최대 배달/워크플로우/가설/시뮬레이션 작업 수입니다.<br /> </td> 
+   <td> operationMgt 워크플로우에서 시작하여 한 번에 처리할 수 있는 최대 게재/워크플로우/가설/시뮬레이션 작업 수입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a> 기술 워크플로우 실행을 모니터링할 수 있습니다. 활성화되면(값 "1") 실행 정보가 워크플로우 감사 로그에 기록됩니다.<br /> </td> 
+   <td> 를 모니터링할 수 있습니다 <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a> 기술 워크플로우 실행. 활성화되면(값 "1") 실행 정보가 워크플로우 감사 로그에 기록됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 
@@ -382,11 +382,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_PausedWorkflowPeriod</span> <br /> </td> 
-   <td> 일시 중지된 워크플로에 대한 검사 사이에 대기할 일 수입니다.<br /> </td> 
+   <td> 일시 중지된 워크플로에 대한 확인 사이에 대기할 일 수입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCampaign_Activate_OwnerConfirmation</span> <br /> </td> 
-   <td> 값으로 "1"을 입력하여 작업 소유자가 게재 검증을 활성화합니다. 이 옵션을 비활성화하려면 "0".<br /> </td> 
+   <td> 값으로 "1"을 입력하여 작업 소유자가 게재 검증을 활성화합니다. 이 옵션을 비활성화하려면 "0"을 입력합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsAsset_JavascriptExt</span> <br /> </td> 
@@ -411,11 +411,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">RestrictEditingOOTBJavascript</span> <br /> </td> 
-   <td> (21.1.3 릴리스 시작) 1을 선택한 경우(기본값) 이 옵션은 내장 JavaScript 코드 버전을 비활성화합니다.<br /> </td> 
+   <td> (21.1.3 릴리스 시작) 1을 선택한 경우(기본값) 이 옵션은 기본 JavaScript 코드 버전을 비활성화합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPassword</span> <br /> </td> 
-   <td> (설치 호환성 모드: build&gt;6000) 활성화되면(값 "1") 이 옵션을 사용하면 데이터베이스에 저장된 이전 암호를 외부 계정 또는 인스턴스에 연결할 수 있습니다.<br /> </td> 
+   <td> (설치 호환성 모드: 빌드&gt;6000) 활성화되면(값 "1") 이 옵션을 사용하면 외부 계정 또는 인스턴스에 연결하기 위해 데이터베이스에 저장된 이전 암호를 사용할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
@@ -435,15 +435,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_SaveOptions_AllowNonAdmin</span> <br /> </td> 
-   <td> 'true'로 설정하면 관리자가 아닌 연산자가 배포 마법사를 통해 xtkOption 값을 업데이트하도록 승인됩니다.<br /> </td> 
+   <td> 'true'로 설정하면 관리 권한이 없는 연산자가 배포 마법사를 통해 xtkOption 값을 업데이트할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Unsafe_DecryptString</span> <br /> </td> 
-   <td> 1을 선택한 경우 이 옵션을 사용하면 decryptString을 사용하여 일부 암호를 해독할 수 있습니다.<br /> </td> 
+   <td> 1을 선택한 경우 이 옵션을 사용하면 decryptString 을 사용하여 일부 암호를 해독할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkTraceDeleteLogin</span> <br /> </td> 
-   <td> 레코드를 삭제하기 전에 "수정한 사람" 필드를 수정하여 mData에서 감사 추적 정보로 요소의 삭제를 추적할 "1" 값을 입력합니다.<br /> </td> 
+   <td> 레코드를 삭제하기 전에 "수정한 사람" 필드를 수정하여 데이터 내의 감사 추적 정보로 요소의 삭제를 추적할 "1" 값을 입력합니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -460,10 +460,10 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">MC_EnforcedCustomJs</span> <br /> </td> 
-   <td> 이벤트를 보강하기 위해 개인화된 JavaScript 라이브러리입니다. 다음 두 함수의 구현을 포함해야 합니다.<br /> 
+   <td> 이벤트를 보강하기 위해 개인화된 JavaScript 라이브러리입니다. 다음 두 함수 구현을 포함해야 합니다.<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">enifyRtEvents(aiEventId); </span> : 데이터베이스의 이벤트를 강화하고 저장합니다(여기서  <span class="uicontrol"></span> aiEventIdid는 처리된 실시간 이벤트 테이블에 해당됨).</p> </li> 
-     <li> <p> <span class="uicontrol">aemBatchEvents(aiEventId); </span> : 데이터베이스의 이벤트를 강화하고 저장합니다(여기서  <span class="uicontrol"></span> aiEventIdid는 처리된 배치 이벤트의 ID 테이블에 해당됨).</p> </li> 
+     <li> <p> <span class="uicontrol">enifyRtEvents(aiEventId);</span> : 데이터베이스의 이벤트 보강 및 저장 <span class="uicontrol">aiEventId</span> 은 처리된 실시간 이벤트 표에 해당합니다.</p> </li> 
+     <li> <p> <span class="uicontrol">ightbatchEvents(aiEventId);</span> : 데이터베이스의 이벤트 보강 및 저장 <span class="uicontrol">aiEventId</span> 는 처리된 배치 이벤트의 ID 표에 해당합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -472,10 +472,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RoutingCustomJs</span> <br /> </td> 
-   <td> 라우팅 이벤트를 위해 개인화할 JavaScript 라이브러리입니다. 다음 두 함수의 구현을 포함해야 합니다.<br /> 
+   <td> 라우팅 이벤트를 위해 개인화할 JavaScript 라이브러리입니다. 다음 두 함수 구현을 포함해야 합니다.<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">dispatchRtEvent(iEventId); </span> : 실시간 이벤트를 처리하기 위해 선택한 트랜잭션 메시지의 내부 이름을 반환합니다(여기서  <span class="uicontrol"></span> iEventIdid는 처리된 실시간 이벤트의 ID에 해당합니다).</p> </li> 
-     <li> <p> <span class="uicontrol">dispatchBatchEvent(iEventId); </span> : 일괄 처리 이벤트를 처리하기 위해 선택한 트랜잭션 메시지의 내부 이름을 반환합니다(여기서  <span class="uicontrol"></span> iEventIdid는 처리된 일괄 처리 이벤트의 ID에 해당합니다).</p> </li> 
+     <li> <p> <span class="uicontrol">dispatchRtEvent(iEventId);</span> : 실시간 이벤트를 처리하기 위해 선택한 트랜잭션 메시지의 내부 이름을 반환합니다(여기서 <span class="uicontrol">iEventId</span> 은 처리된 실시간 이벤트의 ID에 해당합니다.</p> </li> 
+     <li> <p> <span class="uicontrol">dispatchBatchEvent(iEventId);</span> : 일괄 처리 이벤트를 처리하기 위해 선택한 트랜잭션 메시지의 내부 이름을 반환합니다(여기서 <span class="uicontrol">iEventId</span> 은 처리된 배치 이벤트의 ID에 해당합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -512,7 +512,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventErrorAlert</span> <br /> </td> 
-   <td> 실시간 이벤트의 처리 오류를 위한 경고 임계값입니다.<br /> </td> 
+   <td> 실시간 이벤트의 처리 오류에 대한 경고 임계값입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventErrorWarning</span> <br /> </td> 
@@ -528,7 +528,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMinQueueAlert</span> <br /> </td> 
-   <td> 대기 중인 최소 실시간 이벤트 수에 대한 경고 임계값입니다.<br /> </td> 
+   <td> 큐에 있는 최소 실시간 이벤트 수에 대한 경고 임계값입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMinQueueWarning</span> <br /> </td> 
@@ -540,7 +540,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventQueueWarning</span> <br /> </td> 
-   <td> 대기 중인 실시간 이벤트 큐에 대한 경고 전 임계값입니다.<br /> </td> 
+   <td> 대기 중인 실시간 이벤트 큐에 대한 경고 전 임계값.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventThroughputAlert</span> <br /> </td> 
@@ -552,15 +552,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMessageCenter_RoutingBatchSize</span> <br /> </td> 
-   <td> 이벤트 라우팅에 대한 다시 그룹화 크기입니다.<br /> </td> 
+   <td> 이벤트 라우팅에 대한 재그룹화의 크기입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_LastRtEventStat</span> <br /> </td> 
-   <td> RtEvent 상태 포인터 업데이트(데이터가 검색될 때까지 마지막 날짜).<br /> </td> 
+   <td> RtEvent 상태(데이터를 검색할 때까지의 마지막 날짜)의 포인터를 업데이트합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLine_MessageCenterURL</span> <br /> </td> 
-   <td> 환영 메시지를 보내는 데 사용되는 메시지 센터 서버 URL(LINE 채널)입니다.<br /> </td> 
+   <td> 환영 메시지를 보내는 데 사용되는 메시지 센터 서버 URL(LINE 채널).<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -641,27 +641,27 @@ ht-degree: 1%
   </tr>  
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Adobe Campaign ootb 테이블의 데이터를 포함할 테이블스페이스의 이름입니다.<br />데이터베이스  <a href="../../installation/using/creating-and-configuring-the-database.md">만들기 및 구성</a>을 참조하십시오.</td> 
+   <td> Adobe Campaign ootb 테이블의 데이터를 포함할 테이블스페이스의 이름입니다.<br />자세한 내용은 <a href="../../installation/using/creating-and-configuring-the-database.md">데이터베이스 만들기 및 구성</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Adobe Campaign ootb 테이블의 인덱스를 포함하려는 테이블스페이스의 이름입니다.<br />데이터베이스  <a href="../../installation/using/creating-and-configuring-the-database.md">만들기 및 구성</a>을 참조하십시오.</td> 
+   <td> Adobe Campaign ootb 테이블의 인덱스를 포함하려는 테이블스페이스의 이름입니다.<br />자세한 내용은 <a href="../../installation/using/creating-and-configuring-the-database.md">데이터베이스 만들기 및 구성</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 
-   <td> Adobe Campaign 작업 테이블의 데이터를 포함할 테이블스페이스의 이름입니다.<br />데이터베이스  <a href="../../installation/using/creating-and-configuring-the-database.md">만들기 및 구성</a>을 참조하십시오.</td> 
+   <td> Adobe Campaign 작업 테이블의 데이터를 포함할 테이블스페이스의 이름입니다.<br />자세한 내용은 <a href="../../installation/using/creating-and-configuring-the-database.md">데이터베이스 만들기 및 구성</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWorkIndex</span> <br /> </td> 
-   <td> Adobe Campaign 작업 테이블의 인덱스를 포함할 테이블스페이스의 이름입니다.<br />데이터베이스  <a href="../../installation/using/creating-and-configuring-the-database.md">만들기 및 구성</a>을 참조하십시오.</td> 
+   <td> Adobe Campaign 작업 테이블의 인덱스를 포함할 테이블스페이스의 이름입니다.<br />자세한 내용은 <a href="../../installation/using/creating-and-configuring-the-database.md">데이터베이스 만들기 및 구성</a>.</td> 
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> 백업 및 복제를 최적화하기 위해 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 옵션은 임시 데이터베이스의 이름에 해당합니다. 지정한 경우 작업 테이블이 이 데이터베이스에 작성됩니다. 예: 'tempdb.dbo' (이름은 점으로 끝나야 합니다.) <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">자세히 알아보기</a> <br /> </td> 
+   <td> 백업 및 복제를 최적화하기 위해 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 옵션은 임시 데이터베이스의 이름에 해당합니다. 지정한 경우 작업 테이블이 이 데이터베이스에 작성됩니다. 예: 'tempdb.dbo' (이름은 점으로 끝나야 합니다.) <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">자세히 표시</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
-   <td> Adobe Campaign 인스턴스의 시간대입니다. <a href="../../installation/using/time-zone-management.md#configuration" target="_blank">구성</a>.<br /> 참조 </td> 
+   <td> Adobe Campaign 인스턴스의 시간대입니다. 자세한 내용은 <a href="../../installation/using/time-zone-management.md#configuration" target="_blank">구성</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcUseNChar</span> <br /> </td> 
@@ -669,7 +669,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcUseTimeStampWithTZ</span> <br /> </td> 
-   <td> 데이터베이스의 'datetime' 필드에 시간대 정보가 저장됩니까?<br /> </td> 
+   <td> 데이터베이스의 'datetime' 필드는 시간대 정보를 저장합니까?<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkDatabaseId</span> <br /> </td> 
@@ -681,31 +681,31 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkQuery_Schema_LineCount</span> <br /> </td> 
-   <td> xtk:schema 및 xtk:srcSchema.<br />에 대한 쿼리에서 반환되는 최대 결과 수 </td> 
+   <td> xtk:schema 및 xtk:srcSchema에 대한 쿼리에서 반환되는 최대 결과 수입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSequence_AutoGeneration</span> <br /> </td> 
    <td> 이 시간 이후에 자동 k="true"를 사용하고 "pkSequence" 속성이 없는 모든 사용자 지정된 스키마는 자동으로 생성된 시퀀스 "auto_"를 가져옵니다 
     &lt;schemanamespace&gt; 
-     &lt;스키마 이름&gt;
+     &lt;schemaname&gt;
        _seq 
    </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NlMigration_KeepFolderStructure</span> <br /> </td> 
-   <td> 마이그레이션 중에 트리 구조가 새 버전 표준에 따라 자동으로 재구성됩니다.<br /> 이 옵션을 사용하면 탐색 트리의 자동 마이그레이션을 비활성화할 수 있습니다. 이 기능을 사용하는 경우 마이그레이션 후 오래된 폴더를 삭제해야 하며 새 폴더를 추가하고 필요한 모든 검사를 실행해야 합니다.<br /> 
+   <td> 마이그레이션 중에 트리 구조가 새 버전 표준에 따라 자동으로 재구성됩니다.<br /> 이 옵션을 사용하면 탐색 트리의 자동 마이그레이션을 비활성화할 수 있습니다. 이 기능을 사용하는 경우 마이그레이션 후 오래된 폴더를 삭제하고 새 폴더를 추가하고 필요한 모든 검사를 실행해야 합니다.<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">데이터 유형: </span> 정수</p> </li> 
+     <li> <p> <span class="uicontrol">데이터 유형:</span> 정수</p> </li> 
      <li> <p> <span class="uicontrol">값(텍스트)</span> : 1 </p> </li> 
     </ul> 이 옵션은 기본 제공 탐색 트리가 너무 많은 변경 사항을 거친 경우에만 사용해야 합니다.<br /> 이 작업에 대한 자세한 정보는 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">이 섹션</a>을 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span> <br /> </td> 
-   <td> <span class="uicontrol">NmsEmailErrorStat</span> 테이블 정리를 위한 마지막 처리 날짜입니다.<br /> </td> 
+   <td> 의 마지막 처리 날짜 <span class="uicontrol">NmsEmailErrorStat</span> 테이블 정리.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">PostUpgradeLastError</span> <br /> </td> 
-   <td> 아래 구문 다음에 따라 업그레이드 후 발생한 오류에 대한 정보가 표시됩니다.<br /> <strong>{Build number}:{mode: pre/post/..}:{오류가 발생한 'lessThan'/'greaterOrEquelThan' + sub-step}</strong> </td> 
+   <td> 아래 구문에 따라 업그레이드 후 발생한 오류에 대한 정보를 제공합니다.<br /> <strong>{빌드 번호}:{mode: pre/post/..}:{오류가 발생한 'lessThan'/'greaterOrEquelThan' + sub-step}</strong> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkCleanup_NoStats</span> <br /> </td> 
@@ -730,14 +730,14 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Experience Cloud 트리거를 구성할 수 있습니다. 데이터 유형은 "long text"이며 JSON 형식이어야 합니다. <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Adobe Campaign Classic</a>에서 Experience Cloud 트리거를 사용하는 방법<br />을 참조하십시오. </td> 
+   <td> Experience Cloud 트리거를 구성할 수 있습니다. 데이터 유형은 "long text"이며 JSON 형식이어야 합니다. 자세한 내용은 <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Adobe Campaign Classic에서 Experience Cloud 트리거를 사용하는 방법</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">LASTIMPORT_&lt;&gt;_&lt;&gt;</span> <br /> </td> 
+   <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
    <td> 이 옵션은 CRM 커넥터를 통해 서드파티 시스템에서 데이터를 가져올 때 사용됩니다. 옵션을 활성화하면 마지막 가져오기 이후 수정된 객체만 수집할 수 있습니다. 이 옵션은 다음과 같이 수동으로 만들고 채워야 합니다. 
     <ul> 
-     <li> <p> <span class="uicontrol">내부 이름</span> : LASTIMPORT_&lt;&gt;_&lt;&gt;</p> </li> 
-     <li> <p> <span class="uicontrol">값(필드)</span> : yyyy/MM/dd 형식이 있는 마지막 :mm:가져오기의 날짜입니다. </p> </li> 
+     <li> <p> <span class="uicontrol">내부 이름</span> : LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
+     <li> <p> <span class="uicontrol">값(필드)</span> : yyyy/MM/dd hh를 사용하여 마지막 가져오기의 날짜:mm:ss 형식입니다. </p> </li> 
     </ul><br /> </td> 
   </tr> 
   <tr> 
@@ -758,7 +758,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Teradata</span> <br /> </td> 
-   <td> Teradata 커넥터 옵션<br /> </td> 
+   <td> Teradata 커넥터 옵션.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Hive</span> <br /> </td> 
@@ -799,7 +799,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsModule_CouponsEnabled</span> <br /> </td> 
-   <td> 쿠폰 사용<br /> </td> 
+   <td> 쿠폰을 사용할 수 있도록 해줍니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -820,15 +820,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_CustomerId</span> <br /> </td> 
-   <td> 청구 보고서를 보낼 때 사용되는 고객 식별자입니다.<br /> </td> 
+   <td> 청구 보고서를 전송할 때 사용되는 고객 식별자입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_IntranetURL</span> <br /> </td> 
-   <td> 응용 프로그램 서버에 액세스할 내부 기본 URL입니다.<br /> </td> 
+   <td> 애플리케이션 서버에 액세스할 수 있는 내부 기본 URL입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_LastPostUpgrade</span> <br /> </td> 
-   <td> 마지막 업그레이드 전 AC 인스턴스의 빌드 번호입니다.<br /> </td> 
+   <td> 마지막 업그레이드 전에 AC 인스턴스의 빌드 번호입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_URL</span> <br /> </td> 
@@ -857,7 +857,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ClickFormula</span> <br /> </td> 
-   <td> 추적된-URL 계산 스크립트입니다.<br /> </td> 
+   <td> 추적된 URL 계산 스크립트.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ExtAccount</span> <br /> </td> 
@@ -869,7 +869,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_LastConsolidation</span> <br /> </td> 
-   <td> 마지막으로 추적 정보가 새 데이터로 통합되었습니다.<br /> </td> 
+   <td> 마지막으로 추적 정보가 새 데이터와 통합되었습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_OpenFormula</span> <br /> </td> 
@@ -885,11 +885,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_SecureServerUrl</span> <br /> </td> 
-   <td> 전두추적 서버의 보안 URL입니다.<br /> </td> 
+   <td> 정면 추적 서버의 보안 URL입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ServerUrl</span> <br /> </td> 
-   <td> 전두추적 서버의 URL입니다.<br /> </td> 
+   <td> 전면 추적 서버의 URL.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ServerUrlList</span> <br /> </td> 
@@ -897,7 +897,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_UserAgentRules</span> <br /> </td> 
-   <td> 브라우저 식별 규칙 집합입니다.<br /> </td> 
+   <td> 브라우저 식별 규칙 세트입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_WebFormula</span> <br /> </td> 
@@ -905,7 +905,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_WebTrackingDelivery</span> <br /> </td> 
-   <td> 웹 추적 관리를 위해 설계된 가상 배달의 이름입니다.<br /> </td> 
+   <td> 웹 추적 관리를 위해 설계된 가상 게재의 이름입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_WebTrackingMode</span> <br /> </td> 
@@ -926,11 +926,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">Privacy_Request_ConfirmDeletePending</span> <br /> </td> 
-   <td> 옵션 1 을 선택한 경우 두 번째 단계에서 인터페이스에서 삭제를 수동으로 확인해야 합니다. 그렇지 않으면 데이터가 확인 없이 삭제됩니다.<br /> </td> 
+   <td> 옵션 1 을 선택한 경우 두 번째 단계에서 인터페이스에서 삭제를 수동으로 확인해야 합니다. 그렇지 않으면 확인 없이 데이터가 삭제됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Privacy_Request_ConfirmDeletePendingDelay</span> <br /> </td> 
-   <td> 요청 간의 지연이 확인을 삭제할 때까지 기다리며 요청이 취소되었습니다.<br /> </td> 
+   <td> 요청 간의 지연이 확인 삭제를 기다리는 동안 취소됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Privacy_Request_MaxErrorAllowed</span> <br /> </td> 
@@ -938,7 +938,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Privacy_Request_PurgeDelay</span> <br /> </td> 
-   <td> 요청 간의 지연이 큐에 만들어지고 요청 데이터가 삭제됩니다.<br /> </td> 
+   <td> 요청 간 지연이 큐에 만들어지고 요청 데이터가 삭제됩니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -955,7 +955,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_Active</span> <br /> </td> 
-   <td> 사용자를 인증하고 사용자에게 권한을 제공하는 데 사용할 LDAP 서버를 사용하도록 설정합니다.<br /> </td> 
+   <td> 사용자를 인증하고 사용자에게 권한을 제공하는 데 사용할 LDAP 서버를 활성화합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AppLogin</span> <br /> </td> 
@@ -963,31 +963,31 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AppPassword</span> <br /> </td> 
-   <td> 응용 프로그램 로그인에 대해 암호화된 암호입니다.<br /> </td> 
+   <td> 응용 프로그램 로그인을 위한 암호화된 암호입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AutoOperator</span> <br /> </td> 
-   <td> Adobe Campaign에서 연산자 및 권한을 자동으로 만들 수 있습니다.<br /> </td> 
+   <td> Adobe Campaign에서 연산자 및 권한을 자동으로 만들 수 있도록 합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DN</span> <br /> </td> 
-   <td> 로그인 기반 LDAP DN에 대한 계산 공식입니다.<br /> </td> 
+   <td> 로그인을 기준으로 LDAP DN에 대한 계산 공식입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DNSearch</span> <br /> </td> 
-   <td> 디렉터리에서 DN 검색을 사용하도록 설정합니다.<br /> </td> 
+   <td> 디렉토리에서 DN 검색을 활성화합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DNSearchBase</span> <br /> </td> 
-   <td> 기본 검색.<br /> </td> 
+   <td> 검색 기준.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DNSearchFilter</span> <br /> </td> 
-   <td> DN 검색 필터입니다.<br /> </td> 
+   <td> DN 검색 필터.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DNSearchScope</span> <br /> </td> 
-   <td> 검색 범위입니다.<br /> </td> 
+   <td> 검색 범위.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_Mechanism</span> <br /> </td> 
@@ -995,31 +995,31 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_Rights</span> <br /> </td> 
-   <td> LDAP 디렉토리에서 권한 및 그룹을 Adobe Campaign의 명명된 권한에 동기화할 수 있습니다.<br /> </td> 
+   <td> LDAP 디렉토리에서 Adobe Campaign에서 명명된 권한에 대한 권한 및 그룹을 동기화할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_RightsAttr</span> <br /> </td> 
-   <td> 인증 이름이 포함된 LDAP 속성입니다.<br /> </td> 
+   <td> 인증 이름을 포함하는 LDAP 속성입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_RightsBase</span> <br /> </td> 
-   <td> 기본 검색.<br /> </td> 
+   <td> 검색 기준.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_RightsFilter</span> <br /> </td> 
-   <td> 사용자 권한을 검색합니다.<br /> </td> 
+   <td> 사용자 승인을 검색합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_RightsMask</span> <br /> </td> 
-   <td> LDAP 권한에서 Adobe Campaign 권한 이름을 추출하는 식입니다.<br /> </td> 
+   <td> LDAP 승인에서 Adobe Campaign 권한 이름을 추출하는 식입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_RightsScope</span> <br /> </td> 
-   <td> 검색 범위입니다.<br /> </td> 
+   <td> 검색 범위.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_Server</span> <br /> </td> 
-   <td> LDAP 서버 주소(구분 기호로 ':'을 지정하여 포트를 지정할 수 있음).<br /> </td> 
+   <td> LDAP 서버 주소(':'을 구분 기호로 지정하여 포트를 지정할 수 있음).<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1036,7 +1036,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">XtkUseScrollBar</span> <br /> </td> 
-   <td> 값을 1로 설정하면 스크롤 막대가 세부 양식에 추가할 수 있습니다.<br /> </td> 
+   <td> 값을 1로 설정하면 세부 양식에 스크롤 막대를 추가할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_Instance</span> <br /> </td> 
@@ -1048,11 +1048,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersMode</span> <br /> </td> 
-   <td> 웹 양식의 무효화 모드를 지정할 수 있는 옵션입니다. 기본적으로 로컬에서는 옵션이 'tracking'이면 추적 서버를 사용하고 'other server(s)' 옵션이 있는 개인화된 목록을 사용합니다.<br /> </td> 
+   <td> 웹 양식의 무효화 모드를 지정할 수 있는 옵션입니다. 기본적으로 로컬에서는 옵션이 '추적'인 경우 추적 서버를 사용하고 '기타 서버' 옵션이 있는 개인화된 목록을 사용합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersURL</span> <br /> </td> 
-   <td> 웹 양식 무효화를 위해 연결할 서버의 개인화된 주소 목록입니다('기타 서버' 모드).<br /> </td> 
+   <td> 웹 양식 무효화를 위해 연결할 서버의 개인화된 주소 목록('기타 서버' 모드).<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -27,7 +27,7 @@ ht-degree: 2%
 
 차원 변경 활동을 구성하려면 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Change dimension]** 필드를 통해 새 타겟팅 차원을 선택합니다.
+1. 을(를) 통해 새 타겟팅 차원을 선택합니다 **[!UICONTROL Change dimension]** 필드.
 
    ![](assets/s_user_change_dimension_param1.png)
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
    하나의 레코드만 유지하도록 선택하면 컬렉션이 작업 스키마에 표시됩니다. 이 컬렉션은 하나의 레코드만 유지되므로 최종 결과에 타깃팅되지 않는 모든 레코드를 나타냅니다. 다른 모든 컬렉션과 마찬가지로 이 컬렉션에서도 합계를 계산하거나 정보를 열에 복구할 수 있습니다.
 
-   예를 들어 **[!UICONTROL Customers]** 차원을 **[!UICONTROL Recipients]** 차원으로 변경하는 경우 구매 횟수를 추가하는 동안 특정 스토어의 고객을 타깃팅할 수 있습니다.
+   예를 들어 **[!UICONTROL Customers]** 차원을 **[!UICONTROL Recipients]** 차원에는 구매 수를 추가하는 동안 특정 스토어의 고객을 타깃팅할 수 있습니다.
 
 1. 이 정보를 모두 보존하지 않도록 선택하는 경우 중복 관리 모드를 구성할 수 있습니다.
 
@@ -47,23 +47,23 @@ ht-degree: 2%
 
    위의 예에서 수신자는 먼저 이메일 주소에 복제되고 필요한 경우 계좌 번호에 복제됩니다.
 
-1. **[!UICONTROL Result]** 탭에서는 추가 정보를 추가할 수 있습니다.
+1. 다음 **[!UICONTROL Result]** 탭에서는 추가 정보를 추가할 수 있습니다.
 
-   예를 들어 **Substring** 유형 함수를 사용하여 우편 번호를 기준으로 군을 복구할 수 있습니다. 방법은 다음과 같습니다.
+   예를 들어, 다음을 사용하여 우편 번호를 기반으로 군을 복구할 수 있습니다 **Substring** 유형 함수입니다. 방법은 다음과 같습니다.
 
-   * **[!UICONTROL Add data...]** 링크를 클릭하고 **[!UICONTROL Data linked to the filtering dimension]** 을 선택합니다.
+   * 을(를) 클릭합니다. **[!UICONTROL Add data...]** 링크 및 선택 **[!UICONTROL Data linked to the filtering dimension]**.
 
       ![](assets/wf_change-dimension_sample_01.png)
 
       >[!NOTE]
       >
-      >추가 열 만들기 및 관리에 대한 자세한 내용은 [데이터 추가](query.md#adding-data)를 참조하십시오.
+      >추가 열 만들기 및 관리에 대한 자세한 내용은 [데이터 추가](query.md#adding-data).
 
-   * 이전 타겟팅 차원(축 전환 전)을 선택하고 수신자의 **[!UICONTROL Location]** 하위 트리에서 **[!UICONTROL Zip Code]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Edit expression]**&#x200B;를 클릭합니다.
+   * 이전 타겟팅 차원(축 전환 전)을 선택하고 **[!UICONTROL Zip Code]** 수신자의 **[!UICONTROL Location]** 하위 트리를 클릭한 다음 **[!UICONTROL Edit expression]**.
 
       ![](assets/wf_change-dimension_sample_02.png)
 
-   * **[!UICONTROL Advanced selection]** 을 클릭하고 **[!UICONTROL Edit the formula using an expression]** 을 선택합니다.
+   * 클릭 **[!UICONTROL Advanced selection]** 및 **[!UICONTROL Edit the formula using an expression]**.
 
       ![](assets/wf_change-dimension_sample_03.png)
 

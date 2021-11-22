@@ -19,7 +19,7 @@ ht-degree: 7%
 
 ## 외부 데이터로 이메일 개인화 최적화 {#optimizing-email-personalization-with-external-data}
 
-전용 워크플로우에서 메시지 개인화를 미리 처리할 수 있습니다. 이렇게 하려면 게재 속성의 **[!UICONTROL Analysis]** 탭에서 사용할 수 있는 **[!UICONTROL Prepare the personalization data with a workflow]** 옵션을 사용합니다.
+전용 워크플로우에서 메시지 개인화를 미리 처리할 수 있습니다. 이렇게 하려면 **[!UICONTROL Prepare the personalization data with a workflow]** 선택 사항, 사용 가능한 **[!UICONTROL Analysis]** 전달 속성의 탭입니다.
 
 게재 분석 중에 이 옵션은 외부 데이터베이스에 연결된 테이블의 데이터를 포함하여 대상에 연결된 모든 데이터를 임시 테이블에 저장하는 워크플로우를 자동으로 만들고 실행합니다.
 
@@ -29,13 +29,13 @@ ht-degree: 7%
 
 여러 Adobe Campaign 워크플로우 활동에서 외부 데이터베이스에 저장된 데이터를 사용할 수 있습니다.
 
-* **외부 데이터 필터**  - Query  [](../../workflow/using/targeting-data.md#selecting-data) Activity를 사용하면 외부 데이터를 추가하고 정의된 필터 구성에 사용할 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/targeting-data.md#selecting-data)를 참조하십시오.
+* **외부 데이터 필터** - [쿼리](../../workflow/using/targeting-data.md#selecting-data) 활동을 사용하면 외부 데이터를 추가하고 정의된 필터 구성에서 사용할 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/targeting-data.md#selecting-data)를 참조하십시오.
 
-* **하위 집합 만들기**  -  [](../../workflow/using/split.md) 분할 활동을 사용하여 하위 세트를 만들 수 있습니다. 외부 데이터를 사용하여 사용할 필터링 기준을 정의할 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/split.md)를 참조하십시오.
+* **하위 집합 만들기** - [분할](../../workflow/using/split.md) 활동을 통해 하위 세트를 만들 수 있습니다. 외부 데이터를 사용하여 사용할 필터링 기준을 정의할 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/split.md)를 참조하십시오.
 
-* **외부 데이터베이스 로드**  - RDBMS( [데이터 로드](../../workflow/using/data-loading--rdbms-.md) ) 활동에서 외부 데이터를 사용할 수 있습니다. [이 페이지](../../workflow/using/data-loading--rdbms-.md)에서 자세히 알아보십시오.
+* **외부 데이터베이스 로드** - 외부 데이터는에서 사용할 수 있습니다. [데이터 로드](../../workflow/using/data-loading--rdbms-.md) (RDBMS) 활동. [이 페이지](../../workflow/using/data-loading--rdbms-.md)에서 자세히 알아보십시오.
 
-* **정보 및 링크 추가**  -  [](../../workflow/using/enrichment.md) 데이터 보강 활동을 통해 워크플로우의 작업 테이블에 추가 데이터를 추가하고 외부 테이블에 연결할 수 있습니다. 이 컨텍스트에서는 외부 데이터베이스의 데이터를 사용할 수 있습니다. [이 페이지](../../workflow/using/enrichment.md)에서 자세히 알아보십시오.
+* **정보 및 링크 추가** - [데이터 보강](../../workflow/using/enrichment.md) 활동을 사용하면 워크플로우의 작업 테이블에 추가 데이터를 추가하고 외부 테이블에 연결할 수 있습니다. 이 컨텍스트에서는 외부 데이터베이스의 데이터를 사용할 수 있습니다. [이 페이지](../../workflow/using/enrichment.md)에서 자세히 알아보십시오.
 
 ## FDA 제한 사항 {#limitations}
 

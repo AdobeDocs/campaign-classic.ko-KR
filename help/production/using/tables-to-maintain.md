@@ -29,7 +29,7 @@ ht-degree: 0%
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>테이블 이름  </strong><br /> </th> 
+   <th> <strong>테이블 이름 </strong><br /> </th> 
    <th> <strong>크기</strong><br /> </th> 
    <th> <strong>기본 활동 유형</strong><br /> </th> 
    <th> <strong>댓글</strong><br /> </th> 
@@ -38,7 +38,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> NmsDelivery<br /> </td> 
-   <td> 작은<br /> </td> 
+   <td> 작은 크기<br /> </td> 
    <td> 업데이트<br /> </td> 
    <td> 게재 작업당 하나의 레코드가 있습니다. 단일 레코드를 여러 번 업데이트하여 게재 진행 상황을 반영할 수 있으므로 이 테이블의 색인은 빠르게 조각화되는 경향이 있습니다. <br /> </td> 
   </tr> 
@@ -68,19 +68,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> XtkWorkflow<br /> </td> 
-   <td> 작은<br /> </td> 
+   <td> 작은 크기<br /> </td> 
    <td> 업데이트<br /> </td> 
-   <td> 워크플로우 인스턴스당 하나의 레코드가 있으므로 레코드는 거의 없습니다. 하지만 이 테이블은 상태와 진행 상태를 반영하도록 정기적으로 업데이트됩니다.<br /> </td> 
+   <td> 워크플로우 인스턴스당 하나의 레코드가 있으므로 레코드는 거의 없습니다. 하지만 상태 및 진행 상황을 반영하도록 정기적으로 업데이트됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> XtkWorkflowTask<br /> </td> 
-   <td> 작은<br /> </td> 
+   <td> 작은 크기<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
    <td> 워크플로우 활동을 실행할 때마다 이 표에 레코드가 생성됩니다. 제거 메커니즘은 만료되면 삭제합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> XtkWorkflowEvent<br /> </td> 
-   <td> 작은<br /> </td> 
+   <td> 작은 크기<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
    <td> 워크플로우의 작업 간에 활성화되는 각 전환으로 인해 이 표에 레코드가 생성됩니다. 제거 메커니즘은 만료되면 삭제합니다. <br /> </td> 
   </tr> 
@@ -88,7 +88,7 @@ ht-degree: 0%
    <td> XtkWorkflowJob<br /> </td> 
    <td> 매우 작음 <br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
-   <td> 이 표는 워크플로우 엔진에만 해당됩니다. 워크플로우에 명령(예: 시작, 중지, 일시 중지)을 보낼 수 있습니다. 크기가 작지만 워크플로우에 연결된 트랜잭션 표를 삭제하는 동안 이 표를 고려합니다.<br /> </td> 
+   <td> 이 표는 워크플로우 엔진에만 해당됩니다. 워크플로우에 명령(예: 시작, 중지, 일시 중지)을 보낼 수 있습니다. 크기는 작지만 워크플로우에 연결된 트랜잭션 표를 삭제하는 동안 이 표를 고려합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsBroadLog<br /> </td> 
@@ -104,7 +104,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> NmsBroadlogMsg <br /> </td> 
-   <td> 작은<br /> </td> 
+   <td> 작은 크기<br /> </td> 
    <td> 업데이트<br /> </td> 
    <td> 이 표에는 SMTP 오류를 확인하는 데 사용되는 정보가 포함되어 있습니다. 크기는 작지만 대량으로 업데이트됩니다. 따라서 이 테이블의 색인은 빠르게 분할되는 경향이 있습니다. <br /> </td> 
   </tr> 
@@ -121,7 +121,7 @@ ht-degree: 0%
    <td> 5.10 이상 인스턴스가 중간 소싱 인스턴스로 사용되는 경우에만 해당됩니다. 데이터베이스에서 가장 큰 테이블 중 하나입니다. 보낸 메시지당 하나의 레코드가 있으며 이러한 레코드는 삽입되고 게재 상태를 추적하도록 업데이트되며 기록이 삭제되면 삭제됩니다. 중간 소싱을 사용할 때는 내역을 제한(일반적으로 2개월 미만)하는 것이 좋습니다. 따라서 이 테이블은 크기 측면에서 적절합니다(6,000만 행, 데이터+색인 경우 30개 미만). 그러나 수시로 다시 작성하는 것이 매우 중요합니다. <br /> </td> 
   </tr> 
   <tr> 
-   <td> NmsBroadLogRcp(NmsRecipient 테이블을 사용하는 경우) <br /> </td> 
+   <td> NmsBroadLogRcp(NmsRecipient 테이블을 사용할 때) <br /> </td> 
    <td> 큰<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
    <td> 이 테이블에서는 가장 큰 테이블입니다 보낸 메시지당 하나의 레코드가 있으며 이러한 레코드는 삽입되고 게재 상태를 추적하도록 업데이트되며 기록이 삭제되면 삭제됩니다. 5.10에서는 SMTP 메시지 텍스트가 5.10 버전의 NmsBroadLogMsg 테이블에서 팩터링되므로 이 테이블은 4.05(NmsBroadLog)의 해당 테이블보다 작습니다. 그러나 이 표를 정기적으로(2주에 한 번 시작) 다시 색인화하고, 수시로(한 달에 한 번 또는 성능에 영향을 주는 경우) 완전히 다시 빌드해야 합니다. <br /> </td> 
@@ -133,7 +133,7 @@ ht-degree: 0%
    <td> NmsBroadLogRcp와 동일하지만 외부 수신자 테이블과 같습니다. 게재 매핑에서 Yyy 및 Xxx를 값으로 조정하십시오. <br /> </td> 
   </tr> 
   <tr> 
-   <td> NmsTrackingLogRcp(NmsRecipient 테이블이 사용되는 경우) <br /> </td> 
+   <td> NmsTrackingLogRcp(NmsRecipient 테이블을 사용할 때) <br /> </td> 
    <td> 큰<br /> </td> 
    <td> 삽입, 삭제<br /> </td> 
    <td> 추적 로그는 기록이 삭제될 때 삽입되고 삭제되지만 업데이트되지 않습니다. 볼륨은 데이터 보존 기간에 따라 다릅니다. <br /> </td> 
@@ -148,13 +148,13 @@ ht-degree: 0%
    <td> NmsBroadLogRtEvent(메시지 센터 실행 인스턴스)<br /> </td> 
    <td> 큰<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
-   <td> 다른 브로드로그 테이블과 유사하지만 NmsRecipient가 아닌 NmsRtEvent가 있는 경우<br /> </td> 
+   <td> 다른 브로드로그 테이블과 유사하지만 NmsRecipient 대신 NmsRtEvent가 있는 경우<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsTrackingLogRtEvent( 메시지 센터 실행 인스턴스)<br /> </td> 
    <td> 큰<br /> </td> 
    <td> 삽입, 삭제<br /> </td> 
-   <td> 다른 trackingLog 테이블과 유사하지만 NmsRecipient.<br /> 대신 NmsRtEvent 테이블이 있습니다. </td> 
+   <td> 다른 trackingLog 테이블과 유사하지만 NmsRecipient 대신 NmsRtEvent 테이블이 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsRtEvent(메시지 센터 실행 인스턴스)<br /> </td> 
@@ -166,13 +166,13 @@ ht-degree: 0%
    <td> NmsEventHisto(메시지 센터 제어 인스턴스)<br /> </td> 
    <td> 큰<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
-   <td> NmsRtEvent와 비슷합니다. 이 표는 모든 실행 인스턴스의 모든 이벤트를 보관합니다. 실시간 프로세스 없이 보고서에서만 사용됩니다.<br /> </td> 
+   <td> NmsRtEvent와 비슷합니다. 이 표는 모든 실행 인스턴스의 모든 이벤트를 보관합니다. 실시간 프로세스 없이 보고서로만 사용됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsMobileApp<br /> </td> 
    <td> 매우 작음<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
-   <td> 모바일 응용 프로그램 및 해당 구성을 포함하는 테이블입니다.<br /> </td> 
+   <td> 모바일 애플리케이션 및 해당 구성을 포함하는 테이블.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsAppSubscriptionRcp<br /> </td> 
@@ -184,19 +184,19 @@ ht-degree: 0%
    <td> NmsBroadLogAppSubRcp<br /> </td> 
    <td> 큰<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
-   <td> 다른 브로드로그 테이블과 유사하지만 NmsRecipient가 아닌 NmsappSubscriptionRcp가 있습니다.<br /> </td> 
+   <td> 다른 브로드로그 테이블과 유사하지만 NmsRecipient 대신 NmsappSubscriptionRcp가 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsTrackingLogAppSubRcp<br /> </td> 
    <td> 큰<br /> </td> 
    <td> 삽입, 삭제<br /> </td> 
-   <td> 다른 trackingLog 테이블과 유사하지만 NmsRecipient.<br /> 대신 NmsappSubscriptionRcp 테이블이 있습니다. </td> 
+   <td> 다른 trackingLog 테이블과 유사하지만 NmsRecipient 대신 NmsappSubscriptionRcp 테이블이 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> XtkSessionInfo<br /> </td> 
-   <td> 작은<br /> </td> 
+   <td> 작은 크기<br /> </td> 
    <td> 삽입, 삭제<br /> </td> 
-   <td> 사용자 세션이 포함된 테이블입니다. 삽입 및 삭제 수가 매우 중요합니다.<br /> </td> 
+   <td> 사용자 세션이 포함된 테이블입니다. 삽입 및 삭제 횟수가 매우 중요합니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

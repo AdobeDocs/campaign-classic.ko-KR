@@ -17,10 +17,10 @@ ht-degree: 10%
 
 ![](../../assets/v7-only.svg)
 
-Campaign **Federated Data Access** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 [!DNL Snowflake]에 대한 액세스를 구성하십시오.
+캠페인 사용 **페더레이션 데이터 액세스** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 액세스 권한을 구성하십시오 [!DNL Snowflake].
 
-1. [CentOS](#snowflake-centos), [Windows](#snowflake-windows) 또는 [Debian](#snowflake-debian)에서 [!DNL Snowflake] 구성
-1. Campaign에서 [!DNL Snowflake] [외부 계정](#snowflake-external)을 구성합니다
+1. 구성 [!DNL Snowflake] on [CentOS](#snowflake-centos), [Windows](#snowflake-windows) 또는 [데비안](#snowflake-debian)
+1. 구성 [!DNL Snowflake] [외부 계정](#snowflake-external) in Campaign
 
 
 >[!NOTE]
@@ -31,9 +31,9 @@ Campaign **Federated Data Access** (FDA) 옵션을 사용하여 외부 데이터
 
 ## CentOS의 Snowflake {#snowflake-centos}
 
-CentOS에서 [!DNL Snowflake]을 구성하려면 아래 단계를 수행하십시오.
+구성하려면 [!DNL Snowflake] centOS에서 아래 절차를 따르십시오.
 
-1. [!DNL Snowflake]용 ODBC 드라이버를 다운로드합니다. [다운로드 ](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) 시작을 클릭합니다.
+1. ODBC 드라이버 다운로드 [!DNL Snowflake]. [여기를 클릭하십시오.](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) 다운로드 를 시작하려면 다음을 수행하십시오.
 1. 다음 명령을 사용하여 CentOs에 ODBC 드라이버를 설치해야 합니다.
 
    ```
@@ -48,19 +48,19 @@ CentOS에서 [!DNL Snowflake]을 구성하려면 아래 단계를 수행하십�
    /etc/init.d/nlserver6 start
    ```
 
-1. 그런 다음 Campaign에서 [!DNL Snowflake] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#snowflake-external)을 참조하십시오.
+1. Campaign에서 다음을 구성할 수 있습니다 [!DNL Snowflake] 외부 계정. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#snowflake-external).
 
 ## Windows의 Snowflake {#snowflake-windows}
 
-1. Windows용 [ODBC 드라이버를 다운로드합니다](https://docs.snowflake.net/manuals/user-guide/odbc-download.html). 드라이버를 설치하려면 관리자 수준 권한이 필요합니다. 자세한 정보는 이 [페이지](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)를 참조하십시오
+1. 다운로드 [Windows용 ODBC 드라이버](https://docs.snowflake.net/manuals/user-guide/odbc-download.html). 드라이버를 설치하려면 관리자 수준 권한이 필요합니다. 자세한 정보는 이 [페이지](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)를 참조하십시오
 
 1. ODBC 드라이버를 구성합니다. 자세한 정보는 이 [페이지](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)를 참조하십시오
 
-1. 그런 다음 Campaign에서 [!DNL Snowflake] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#snowflake-external)을 참조하십시오.
+1. Campaign에서 다음을 구성할 수 있습니다 [!DNL Snowflake] 외부 계정. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#snowflake-external).
 
 ## 데비안 Snowflake {#snowflake-debian}
 
-1. [!DNL Snowflake]용 ODBC 드라이버를 다운로드합니다. [다운로드 ](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) 재시작 을 클릭합니다.
+1. ODBC 드라이버 다운로드 [!DNL Snowflake]. [여기를 클릭하십시오.](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) 다운로드를 시작합니다.
 
 1. 다음 명령을 사용하여 Debian에 ODBC 드라이버를 설치해야 합니다.
 
@@ -76,23 +76,23 @@ CentOS에서 [!DNL Snowflake]을 구성하려면 아래 단계를 수행하십�
    systemctl start nlserver.service
    ```
 
-1. 그런 다음 Campaign에서 [!DNL Snowflake] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#snowflake-external)을 참조하십시오.
+1. Campaign에서 다음을 구성할 수 있습니다 [!DNL Snowflake] 외부 계정. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#snowflake-external).
 
 ## 외부 계정 Snowflake {#snowflake-external}
 
-Campaign 인스턴스를 [!DNL Snowflake] 외부 데이터베이스에 연결하려면 [!DNL Snowflake] 외부 계정을 만들어야 합니다.
+을(를) 만들어야 합니다 [!DNL Snowflake] 캠페인 인스턴스를 [!DNL Snowflake] 외부 데이터베이스.
 
-1. Campaign **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** &#39; **[!UICONTROL Platform]**&#39; **[!UICONTROL External accounts]**&#x200B;을(를) 클릭합니다.
+1. Campaign에서 **[!UICONTROL Explorer]**&#x200B;를 클릭합니다. **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
 1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
-1. 외부 계정의 **[!UICONTROL Type]**(으)로 **[!UICONTROL External database]**&#x200B;을(를) 선택합니다.
+1. 선택 **[!UICONTROL External database]** 외부 계정 **[!UICONTROL Type]**.
 
-1. **[!UICONTROL Snowflake]** 외부 계정을 구성합니다. 다음을 지정해야 합니다.
+1. 구성 **[!UICONTROL Snowflake]** 외부 계정입니다. 다음을 지정해야 합니다.
 
    * **[!UICONTROL Type]**: [!DNL Snowflake]
 
-   * **[!UICONTROL Server]**: 서버의  [!DNL Snowflake] URL
+   * **[!UICONTROL Server]**: 의 URL [!DNL Snowflake] server
 
    * **[!UICONTROL Account]**: 사용자의 이름
 
@@ -102,7 +102,7 @@ Campaign 인스턴스를 [!DNL Snowflake] 외부 데이터베이스에 연결하
 
    ![](assets/snowflake.png)
 
-1. **[!UICONTROL Parameters]** 탭을 클릭한 다음 **[!UICONTROL Deploy functions]** 버튼을 클릭하여 함수를 만듭니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Parameters]** 탭을 클릭한 다음 **[!UICONTROL Deploy functions]** 버튼을 클릭하여 함수를 만듭니다.
 
    ![](assets/snowflake_2.png)
 

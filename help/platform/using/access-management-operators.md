@@ -21,19 +21,19 @@ ht-degree: 2%
 
 연산자는 로그인 및 작업을 수행할 수 있는 권한이 있는 Adobe Campaign 사용자입니다.
 
-기본적으로 연산자는 **[!UICONTROL Administration > Access management > Operators]** 노드에 저장됩니다.
+기본적으로 연산자는 **[!UICONTROL Administration > Access management > Operators]** 노드 아래에 있어야 합니다.
 
 ![](assets/s_ncs_user_list_operators.png)
 
 연산자를 수동으로 만들거나 기존 LDAP 디렉토리에 매핑할 수 있습니다.
 
-연산자를 만드는 전체 프로시저는 [이 페이지](#creating-an-operator)에 설명되어 있습니다.
+연산자를 만드는 전체 프로시저는 [이 페이지](#creating-an-operator).
 
-Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../../installation/using/connecting-through-ldap.md)를 참조하십시오.
+Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../../installation/using/connecting-through-ldap.md).
 
 >[!IMPORTANT]
 >
->인스턴스에 로그온하려면 연산자를 보안 영역에 연결해야 합니다. Adobe Campaign의 보안 영역에 대한 자세한 내용은 [이 페이지](../../installation/using/security-zones.md)를 참조하십시오.
+>인스턴스에 로그온하려면 연산자를 보안 영역에 연결해야 합니다. Adobe Campaign의 보안 영역에 대한 자세한 내용은 [이 페이지](../../installation/using/security-zones.md).
 
 사용자는 Adobe ID을 사용하여 Adobe Campaign에 직접 연결할 수도 있습니다. 자세한 정보는 이 [페이지](../../integrations/using/about-adobe-id.md)를 참조하십시오.
 
@@ -41,47 +41,47 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 새 연산자를 만들고 권한을 부여하려면 아래 단계를 수행하십시오.
 
-1. 연산자 목록 위에 있는 **[!UICONTROL New]** 단추를 클릭하고 새 연산자의 세부 정보를 입력합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL New]** 연산자 목록 위에 있는 단추와 새 연산자의 세부 정보를 입력합니다.
 
    ![](assets/s_ncs_user_operator_new.png)
 
-1. 사용자의 **[!UICONTROL Identification parameters]** 지정: 로그인, 암호 및 이름입니다. 연산자가 Adobe Campaign에 로그온하는 데 로그인 및 암호를 사용합니다. 사용자가 로그온하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 예를 들어 승인 처리 시 연산자가 알림을 받을 수 있으므로 연산자의 이메일이 필수입니다.
+1. 을(를) 지정합니다. **[!UICONTROL Identification parameters]** 사용자: 로그인, 암호 및 이름입니다. 연산자가 Adobe Campaign에 로그온하는 데 로그인 및 암호를 사용합니다. 사용자가 로그온하면 을 통해 암호를 변경할 수 있습니다 **[!UICONTROL Tools > Change password]** 메뉴 아래의 제품에서 사용할 수 있습니다. 예를 들어 승인 처리 시 연산자가 알림을 받을 수 있으므로 연산자의 이메일이 필수입니다.
 
-   또한 이 섹션에서는 연산자를 조직 엔터티에 연결할 수도 있습니다. 자세한 내용은 [이 페이지](../../distributed/using/about-distributed-marketing.md)를 참조하십시오.
+   또한 이 섹션에서는 연산자를 조직 엔터티에 연결할 수도 있습니다. 자세한 내용은 [이 페이지](../../distributed/using/about-distributed-marketing.md).
 
-1. **[!UICONTROL Operator access rights]** 섹션에서 연산자에 부여된 권한을 선택합니다.
+1. 연산자에 부여된 권한을 **[!UICONTROL Operator access rights]** 섹션을 참조하십시오.
 
-   연산자에 권한을 할당하려면 권한 목록 위에 있는 **[!UICONTROL Add]** 단추를 클릭한 다음 사용 가능한 그룹 목록에서 연산자 그룹을 선택합니다.
+   연산자에 권한을 할당하려면 **[!UICONTROL Add]** 권한 목록 위에 있는 단추를 선택한 다음 사용 가능한 그룹 목록에서 연산자 그룹을 선택합니다.
 
    ![](assets/s_ncs_user_permissions_operators.png)
 
-   명명된 권한을 하나 이상 선택할 수도 있습니다( [명명된 권한](#named-rights) 참조). 이렇게 하려면 **[!UICONTROL Folder]** 필드 오른쪽의 화살표를 클릭하고 **[!UICONTROL Named rights]** 을 선택합니다.
+   이름이 지정된 권한을 한 개 이상 선택할 수도 있습니다( [명명된 권한](#named-rights)). 이렇게 하려면 오른쪽 화살표를 클릭합니다 **[!UICONTROL Folder]** 필드를 선택하고 **[!UICONTROL Named rights]**:
 
    ![](assets/s_ncs_user_rights_operators.png)
 
-   할당할 그룹 및/또는 명명된 권한을 선택하고 **[!UICONTROL OK]** 을 클릭하여 유효성을 확인합니다.
+   할당할 그룹 및/또는 명명된 권한을 선택하고 을 클릭합니다 **[!UICONTROL OK]** 유효성을 검사하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL Ok]** 을 클릭하여 연산자를 만듭니다. 기존 연산자 목록에 프로필이 추가됩니다.
+1. 클릭 **[!UICONTROL Ok]** 연산자를 만들려면: 기존 연산자 목록에 프로필이 추가됩니다.
 
    ![](assets/operator_profile_new.png)
 
 >[!NOTE]
 >
->새 운영자 폴더를 만들어 필요에 따라 연산자를 구성할 수 있습니다. 이렇게 하려면 연산자 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Add an 'Operators' folder]** 을 선택합니다.
+>새 운영자 폴더를 만들어 필요에 따라 연산자를 구성할 수 있습니다. 이렇게 하려면 연산자 폴더를 마우스 오른쪽 단추로 클릭하고 를 선택합니다 **[!UICONTROL Add an 'Operators' folder]**.
 
-연산자의 프로필이 만들어지면 해당 정보에 을 추가하거나 업데이트할 수 있습니다. 이렇게 하려면 **[!UICONTROL Edit]** 탭을 클릭합니다.
+연산자의 프로필이 만들어지면 해당 정보에 을 추가하거나 업데이트할 수 있습니다. 이렇게 하려면 **[!UICONTROL Edit]** 탭.
 
 ![](assets/operator_edit_profile.png)
 
 >[!NOTE]
 >
->**[!UICONTROL Session timeout]** 필드를 사용하면 FDA 세션 시간 초과 전에 지연을 조정할 수 있습니다. 자세한 내용은 [페더레이션 데이터 액세스 정보](../../installation/using/about-fda.md)를 참조하십시오.
+>다음 **[!UICONTROL Session timeout]** 필드를 사용하면 FDA 세션 시간 초과 전에 지연을 조정할 수 있습니다. 자세한 내용은 [페더레이션 데이터 액세스 정보](../../installation/using/about-fda.md).
 
 ## 연산자의 시간대를 정의합니다. {#time-zone-of-the-operator}
 
-**[!UICONTROL General]** 탭에서 연산자의 시간대를 선택할 수 있습니다. 기본적으로 연산자는 서버 시간대에서 작동합니다. 그러나 드롭다운 목록을 사용하여 다른 시간대를 선택할 수 있습니다.
+에서 **[!UICONTROL General]** 탭에서 연산자의 시간대를 선택할 수 있습니다. 기본적으로 연산자는 서버 시간대에서 작동합니다. 그러나 드롭다운 목록을 사용하여 다른 시간대를 선택할 수 있습니다.
 
-시간대의 구성은 [이 페이지](../../installation/using/time-zone-management.md)에 설명되어 있습니다.
+시간대의 구성은 [이 페이지](../../installation/using/time-zone-management.md).
 
 >[!NOTE]
 >
@@ -93,19 +93,19 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 ## 권한 추가 {#access-rights-options}
 
-**[!UICONTROL Access rights]** 탭을 사용하여 연산자에 연결된 그룹 및 명명된 권한을 업데이트합니다.
+를 사용하십시오 **[!UICONTROL Access rights]** 탭하여 연산자에 연결된 그룹 및 명명된 권한을 업데이트합니다.
 
 ![](assets/operator_profile_security_options.png)
 
-**[!UICONTROL Edit the access parameters...]** 링크를 통해 다음 옵션에 액세스할 수 있습니다.
+다음 **[!UICONTROL Edit the access parameters...]** 링크를 통해 다음 옵션에 액세스할 수 있습니다.
 
-* **[!UICONTROL Disable account]** 옵션을 사용하면 연산자의 계정을 비활성화할 수 있습니다. 이 사용자는 더 이상 Adobe Campaign에 액세스할 수 없습니다.
+* 다음 **[!UICONTROL Disable account]** 옵션을 사용하면 연산자의 계정을 비활성화할 수 있습니다. 이 사용자는 더 이상 Adobe Campaign에 액세스할 수 없습니다.
 
    >[!NOTE]
    >
    >계정이 비활성화되었더라도 운영자가 Campaign에서 경고나 알림을 계속 받을 수 있습니다. 이 운영자에게 Campaign 알림 전송을 중단하려면 Adobe에서 이 프로필에서 이메일 주소를 제거하는 것이 좋습니다.
 
-* **[!UICONTROL Forbid access from the rich client]** 옵션을 사용하면 Adobe Campaign을 [웹 액세스](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) 또는 API를 통해 사용하도록 제한할 수 있습니다. Adobe Campaign 클라이언트 콘솔에 대한 액세스를 더 이상 사용할 수 없습니다.
+* 다음 **[!UICONTROL Forbid access from the rich client]** 옵션을 사용하면 Adobe Campaign의 사용을 제한할 수 있습니다 [웹 액세스](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) 또는 API를 통해: Adobe Campaign 클라이언트 콘솔에 대한 액세스를 더 이상 사용할 수 없습니다.
 * 작동자에게 안전구역을 연결할 수 있습니다 자세한 정보는 이 [페이지](../../installation/using/security-zones.md)를 참조하십시오.
 * 적절한 링크를 사용하여 신뢰할 수 있는 IP 마스크를 정의할 수도 있습니다.
 
@@ -119,7 +119,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
    >
    >플랫폼에 안전하게 액세스하려면 이 옵션을 신중하게 사용해야 합니다.
 
-* **[!UICONTROL Restrict to information found in sub-folders of:]** 옵션을 사용하면 폴더 연산자에 속하는 권한을 제한할 수 있습니다. 이 옵션에 지정된 노드의 하위 폴더만 사용자에게 표시됩니다.
+* 다음 **[!UICONTROL Restrict to information found in sub-folders of:]** 옵션을 사용하면 폴더 연산자에 속하는 권한을 제한할 수 있습니다. 이 옵션에 지정된 노드의 하위 폴더만 사용자에게 표시됩니다.
 
    ![](assets/s_ncs_user_restrictions_operators.png)
 
@@ -129,7 +129,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 ### 설정 확인 {#check-settings}
 
-**[!UICONTROL Audit]** 탭에서는 연산자와 관련된 정보를 볼 수 있습니다. 연산자의 개입 영역에 정의된 설정에 따라 다양한 탭이 자동으로 에 추가됩니다.
+다음 **[!UICONTROL Audit]** 탭에서는 연산자와 관련된 정보를 볼 수 있습니다. 연산자의 개입 영역에 정의된 설정에 따라 다양한 탭이 자동으로 에 추가됩니다.
 
 다음 항목에 액세스할 수 있습니다.
 
@@ -139,7 +139,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
    >[!NOTE]
    >
-   >자세한 내용은 [폴더 액세스 관리](#folder-access-management)를 참조하십시오.
+   >자세한 내용은 [폴더 액세스 관리](#folder-access-management).
 
 * 운영자 승인 로그입니다.
 
@@ -161,19 +161,19 @@ Adobe Campaign은 기본적으로 구성된 프로필과 함께 기술 운영자
 
 기본적으로 &#39;webapp&#39; 기술 운영자에게는 명명된 ADMINISTRATION 권한이 있으며 이로 인해 보안 위험이 발생할 수 있습니다. 이 문제를 해결하려면 이 권한을 제거하는 것이 좋습니다. 방법은 다음과 같습니다.
 
-1. **[!UICONTROL Administration > Access management > Named rights]** 노드에서 **[!UICONTROL New]** 를 클릭하여 권한을 만들고 이름을 WEBAPP로 지정합니다.
+1. 에서 **[!UICONTROL Administration > Access management > Named rights]** 노드, **[!UICONTROL New]** 를 사용하여 권한을 만들고 이름을 WEBAPP으로 지정합니다.
 
    ![](assets/s_ncs_default_operators_webapp_right.png)
 
-   명명된 권한은 [명명된 권한](#named-rights) 섹션에 자세히 설명되어 있습니다.
+   명명된 권한은 [명명된 권한](#named-rights) 섹션을 참조하십시오.
 
-1. **[!UICONTROL Administration > Access management > Operators]** 노드에서 웹 응용 프로그램 에이전트 연산자(&#39;webapp&#39;)를 선택합니다.
+1. 에서 **[!UICONTROL Administration > Access management > Operators]** 노드에서 웹 응용 프로그램 에이전트 연산자(&#39;webapp&#39;)를 선택합니다.
 
-   **[!UICONTROL Edit]** 탭을 선택한 다음 **[!UICONTROL Access rights]** 탭을 선택하고 목록에서 바로 이름이 지정된 ADMINISTRATION을 삭제합니다.
+   을(를) 선택합니다 **[!UICONTROL Edit]** 탭을 클릭한 다음 **[!UICONTROL Access rights]** 탭에서 바로 명명된 ADMINISTRATION을 삭제합니다.
 
    ![](assets/s_ncs_default_operators_webapp_admin_right.png)
 
-   **[!UICONTROL Add]** 을 클릭하고 방금 만든 WEBAPP 권한을 선택한 다음 변경 사항을 저장합니다.
+   클릭 **[!UICONTROL Add]** 방금 만든 웹 앱 권한을 선택한 다음 변경 사항을 저장합니다.
 
    ![](assets/s_ncs_default_operators_webapp_webapp_right.png)
 
@@ -181,8 +181,8 @@ Adobe Campaign은 기본적으로 구성된 프로필과 함께 기술 운영자
 
    ![](assets/s_ncs_default_operators_webapp_folder_access.png)
 
-   트리 폴더의 권한 수정은 [폴더 액세스 관리](#folder-access-management) 섹션에 자세히 설명되어 있습니다.
+   트리 폴더의 권한 수정은 [폴더 액세스 관리](#folder-access-management) 섹션을 참조하십시오.
 
 >[!NOTE]
 >
->보안 지침에 대한 자세한 내용은 [Adobe Campaign 보안 구성 검사 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html)을 참조하십시오.
+>보안 지침에 대한 자세한 내용은 [Adobe Campaign 보안 구성 체크리스트](https://helpx.adobe.com/kr/campaign/kb/acc-security.html).

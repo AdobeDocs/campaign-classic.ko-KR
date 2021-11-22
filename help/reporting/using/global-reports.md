@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ![](../../assets/common.svg)
 
-이러한 보고서는 전체 데이터베이스에 있는 데이터의 활동과 관련되어 있습니다. 보고서 대시보드를 보려면 **[!UICONTROL Reports]** 탭으로 이동합니다.
+이러한 보고서는 전체 데이터베이스에 있는 데이터의 활동과 관련되어 있습니다. 보고서 대시보드를 보려면 **[!UICONTROL Reports]** 탭.
 
 ![](assets/s_ncs_user_report_delivery_link.png)
 
@@ -29,19 +29,19 @@ ht-degree: 1%
 >
 >이 섹션에는 게재에 연결된 보고서만 표시됩니다.
 
-* **[!UICONTROL Delivery throughput]** : 게재  [처리량](#delivery-throughput)을 참조하십시오.
-* **[!UICONTROL Browsers]** : 브라우저  [를 참조하십시오](#browsers).
-* **[!UICONTROL Sharing to social networks]** : 소셜  [네트워크에 공유 를 참조하십시오](#sharing-to-social-networks).
-* **[!UICONTROL Statistics on sharing activities]** : 활동  [공유에 대한 통계 를 참조하십시오](#statistics-on-sharing-activities).
-* **[!UICONTROL Operating systems]** : 운영  [체제](#operating-systems)를 참조하십시오.
-* **[!UICONTROL URLs and click streams]** : URL  [을 참조하여 스트림을 클릭합니다](../../reporting/using/delivery-reports.md#urls-and-click-streams).
-* **[!UICONTROL Tracking indicators]** : 지표  [추적](../../reporting/using/delivery-reports.md#tracking-indicators)을 참조하십시오.
-* **[!UICONTROL Non-deliverables and bounces]** : 게재  [불가 및 이탈](#non-deliverables-and-bounces)을 참조하십시오.
-* **[!UICONTROL User activities]** : 사용자  [활동](#user-activities)을 참조하십시오.
-* **[!UICONTROL Subscription tracking]** : 구독  [추적](#subscription-tracking)을 참조하십시오.
-* **[!UICONTROL Delivery summary]** : 게재  [요약](../../reporting/using/delivery-reports.md#delivery-summary)을 참조하십시오.
-* **[!UICONTROL Delivery statistics]** : 게재  [통계](#delivery-statistics)를 참조하십시오.
-* **[!UICONTROL Breakdown of opens]** : 열기  [분류 를 참조하십시오](#breakdown-of-opens).
+* **[!UICONTROL Delivery throughput]** : 참조 [게재 처리량](#delivery-throughput).
+* **[!UICONTROL Browsers]** : 참조 [브라우저](#browsers).
+* **[!UICONTROL Sharing to social networks]** : 참조 [소셜 네트워크에 공유](#sharing-to-social-networks).
+* **[!UICONTROL Statistics on sharing activities]** : 참조 [활동 공유에 대한 통계](#statistics-on-sharing-activities).
+* **[!UICONTROL Operating systems]** : 참조 [운영 체제](#operating-systems).
+* **[!UICONTROL URLs and click streams]** : 참조 [URL 및 클릭 스트림](../../reporting/using/delivery-reports.md#urls-and-click-streams).
+* **[!UICONTROL Tracking indicators]** : 참조 [지표 추적](../../reporting/using/delivery-reports.md#tracking-indicators).
+* **[!UICONTROL Non-deliverables and bounces]** : 참조 [게재 불가 및 이탈](#non-deliverables-and-bounces).
+* **[!UICONTROL User activities]** : 참조 [사용자 활동](#user-activities).
+* **[!UICONTROL Subscription tracking]** : 참조 [구독 추적](#subscription-tracking).
+* **[!UICONTROL Delivery summary]** : 참조 [게재 요약](../../reporting/using/delivery-reports.md#delivery-summary).
+* **[!UICONTROL Delivery statistics]** : 참조 [게재 통계](#delivery-statistics).
+* **[!UICONTROL Breakdown of opens]** : 참조 [열기 분류](#breakdown-of-opens).
 
 ## 게재 처리량 {#delivery-throughput}
 
@@ -59,15 +59,15 @@ ht-degree: 1%
 
 다음 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL Opens]** : 열린 총 메시지 수입니다. 텍스트 형식의 이메일은 고려되지 않습니다. 열기 횟수 추적에 대한 자세한 내용은 [추적 열기](../../reporting/using/indicator-calculation.md#tracking-opens-)를 참조하십시오.
+* **[!UICONTROL Opens]** : 열린 총 메시지 수입니다. 텍스트 형식의 이메일은 고려되지 않습니다. 열기 추적에 대한 자세한 내용은 [추적 열기](../../reporting/using/indicator-calculation.md#tracking-opens-).
 * **[!UICONTROL Clicks]** : 게재의 링크에 대한 총 클릭 수입니다. 구독 취소 링크 및 미러 페이지에 대한 클릭은 고려되지 않습니다.
-* **[!UICONTROL Transactions]** : 메시지를 받은 후의 총 트랜잭션 수입니다. 트랜잭션을 고려하려면 트랜잭션 유형 웹 추적 태그를 일치하는 웹 페이지에 삽입해야 합니다. 웹 추적 구성은 [이 섹션](../../configuration/using/about-web-tracking.md)에 나와 있습니다.
+* **[!UICONTROL Transactions]** : 메시지를 받은 후의 총 트랜잭션 수입니다. 트랜잭션을 고려하려면 트랜잭션 유형 웹 추적 태그를 일치하는 웹 페이지에 삽입해야 합니다. 웹 추적 구성은 [이 섹션](../../configuration/using/about-web-tracking.md).
 
 ## 게재 불가 및 이탈 {#non-deliverables-and-bounces}
 
 이 보고서는 게재 불가 부분의 분류와 인터넷 도메인별 바운스 수 분류를 보여줍니다.
 
-**[!UICONTROL Number of messages processed]** 은 게재 서버가 처리한 총 메시지 수를 나타냅니다. 이 값은 일부 게재가 중지되거나 일시 중지되었을 때(서버에서 처리되기 전에) 배달될 메시지 수보다 낮습니다.
+다음 **[!UICONTROL Number of messages processed]** 게재 서버가 처리한 총 메시지 수를 나타냅니다. 이 값은 일부 게재가 중지되거나 일시 중지되었을 때(서버에서 처리되기 전에) 배달될 메시지 수보다 낮습니다.
 
 ![](assets/s_ncs_user_errors_report.png)
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 [격리 관리](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
+>이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 [격리 관리](../../delivery/using/understanding-quarantine-management.md).
 
 이 보고서의 첫 번째 섹션에서는 값 테이블 및 차트 형태로 산출되지 않은 컨텐츠의 분류를 보여줍니다.
 
@@ -99,7 +99,7 @@ ht-degree: 1%
    >
    >이 지표는 모바일 채널에서의 게재만 다룹니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/sms-channel.md)을 참조하십시오.
 
-   `[+]` 기호를 클릭하여 값 테이블의 각 행을 열 수 있습니다. 각 오류 유형에 대해 도메인별로 오류 메시지 분류를 표시할 수 있습니다.
+   를 클릭하여 값 테이블의 각 행을 열 수 있습니다 `[+]` 기호. 각 오류 유형에 대해 도메인별로 오류 메시지 분류를 표시할 수 있습니다.
 
    ![](assets/s_ncs_user_errors_report_detail.png)
 
@@ -113,13 +113,13 @@ ht-degree: 1%
 * 이 도메인에 대해 처리된 총 메시지 수와 비교하여 오류가 있는 메시지의 백분율입니다.
 * 이 도메인에 대한 오류 메시지의 백분율과 총 오류 메시지 수를 비교한 것입니다.
 
-[+] 기호를 클릭하여 값 테이블의 각 행을 열 수 있습니다. 각 도메인 유형에 대해 오류 유형별 오류 메시지 분류를 표시할 수 있습니다.
+를 클릭하여 값 테이블의 각 행을 열 수 있습니다 [+] 기호. 각 도메인 유형에 대해 오류 유형별 오류 메시지 분류를 표시할 수 있습니다.
 
 ![](assets/s_ncs_user_errors_report_detail2.png)
 
 >[!NOTE]
 >
->이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이러한 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브를 편집합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/about-cubes.md)을 참조하십시오. **[!UICONTROL Others]** 범주에는 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
+>이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이러한 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브입니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/about-cubes.md)을 참조하십시오. 다음 **[!UICONTROL Others]** 카테고리에는 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
 
 ## 브라우저 {#browsers}
 
@@ -149,9 +149,9 @@ ht-degree: 1%
 
 통계는 커브, 차트 및 값 테이블의 형태로 표시됩니다.
 
-**[!UICONTROL History]** 곡선은 이 브라우저의 일별 참석 비율을 나타냅니다. 비율은 일별 방문자 수(이 브라우저의 방문자 수)와 가장 높은 참여율을 기록한 일별 방문자 수를 비교한 것입니다.
+다음 **[!UICONTROL History]** curve는 이 브라우저의 일별 참석 비율을 나타냅니다. 비율은 일별 방문자 수(이 브라우저의 방문자 수)와 가장 높은 참여율을 기록한 일별 방문자 수를 비교한 것입니다.
 
-**[!UICONTROL Breakdown per version]** 차트는 이 브라우저의 총 방문자 수와 비교하여 버전당 방문자 수를 보여줍니다.
+다음 **[!UICONTROL Breakdown per version]** 차트는 이 브라우저에서 총 방문자 수와 비교하여 버전당 방문자 수 분류를 나타냅니다.
 
 값 표에는 다음 표시기가 사용됩니다.
 
@@ -160,7 +160,7 @@ ht-degree: 1%
 
 ### 소셜 네트워크에 공유 {#sharing-to-social-networks}
 
-바이럴 마케팅을 통해 게재 수신자는 연락처 네트워크와 정보를 공유할 수 있습니다. 프로필에 링크를 추가할 수 있습니다(Facebook, Twitter 등). 또는 친구에게 메시지를 보냅니다. 공유 정보에 대한 각 공유 및 액세스 권한은 게재 내에서 추적됩니다. 바이럴 마케팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/viral-and-social-marketing.md)을 참조하십시오.
+바이럴 마케팅을 통해 게재 수신자는 연락처 네트워크와 정보를 공유할 수 있습니다. 프로필에 링크를 추가할 수 있습니다(Facebook, Twitter 등). 또는 친구에게 메시지를 보냅니다. 공유 정보에 대한 각 공유 및 액세스 권한은 게재 내에서 추적됩니다. 바이럴 마케팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/viral-and-social-marketing.md).
 
 이 보고서는 소셜 네트워크(Facebook, Twitter 등)당 공유 및 열린 메시지의 분류를 보여줍니다. 및/또는 이메일별.
 
@@ -177,15 +177,15 @@ ht-degree: 1%
 
 중앙 테이블은 전자 메일 공유 및 열기에 대한 통계를 보여줍니다.
 
-**[!UICONTROL Shares]** 열에는 다음과 같은 표시기가 있습니다.
+에서 **[!UICONTROL Shares]** 열, 다음 표시기가 있습니다.
 
-* **[!UICONTROL No. of sharing activities]** : 각 소셜 네트워크에서 공유되는 총 메시지 수입니다. 이 값은 일치하는 **[!UICONTROL Links for sharing to social networks]** 개인화 블록의 아이콘에 대한 총 클릭 수와 같습니다.
+* **[!UICONTROL No. of sharing activities]** : 각 소셜 네트워크에서 공유되는 총 메시지 수입니다. 이 값은 일치 항목의 아이콘에 대한 총 클릭 수와 같습니다 **[!UICONTROL Links for sharing to social networks]** 개인화 블록.
 * **[!UICONTROL Breakdown]** : 이 비율은 총 주식 수와 관련하여 소셜 네트워크당 공유 수를 분류합니다.
 * **[!UICONTROL Sharing rate]** : 이 비율은 전달할 메시지 수와 관련하여 소셜 네트워크당 공유 분류를 나타냅니다.
 
-**[!UICONTROL Opens]** 열에는 다음과 같은 표시기가 있습니다.
+에서 **[!UICONTROL Opens]** 열, 다음 표시기가 있습니다.
 
-* **[!UICONTROL No. of opens]** : 메시지를 전달받은 사람이 연 총 메시지 수입니다( **[!UICONTROL Links for sharing to social networks]** 개인화 블록을 통해). 이 값은 미러 페이지가 표시된 횟수와 같습니다. 게재 수신자에 의한 열기는 고려되지 않습니다.
+* **[!UICONTROL No. of opens]** : 메시지를 전달받은 사람이 연 총 메시지 수입니다( **[!UICONTROL Links for sharing to social networks]** 개인화 블록). 이 값은 미러 페이지가 표시된 횟수와 같습니다. 게재 수신자에 의한 열기는 고려되지 않습니다.
 * **[!UICONTROL Breakdown]** : 이 비율은 총 열기 수와 관련하여 소셜 네트워크당 열기 수를 분류합니다.
 * **[!UICONTROL Rate of opens]** : 이 비율은 총 공유 수와 관련하여 소셜 네트워크당 열기 수를 분류합니다.
 
@@ -197,7 +197,7 @@ ht-degree: 1%
 
 이 보고서는 소셜 네트워크(Facebook, Twitter, 이메일 등)로의 공유 변화를 보여줍니다. 적시에
 
-바이럴 마케팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/viral-and-social-marketing.md)을 참조하십시오.
+바이럴 마케팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/viral-and-social-marketing.md).
 
 ![](assets/s_ncs_user_social_report2.png)
 
@@ -205,9 +205,9 @@ ht-degree: 1%
 
 다음 표시기가 사용됩니다.
 
-* **[!UICONTROL New contacts]** : 이메일을 통해 공유된 메시지를 받은 후 새로 구독한 횟수입니다. 이 값은 이메일을 통해 공유된 메시지를 받고 **[!UICONTROL Subscription link]**&#x200B;을 클릭한 후 구독 양식에 입력한 사용자 수와 일치합니다.
-* **[!UICONTROL Opens]** : 메시지를 전송한 사람이 연 총 메시지 수입니다( **[!UICONTROL Link for sharing to social networks]** 개인화 블록을 통해). 이 값은 미러 페이지가 표시된 횟수와 같습니다. 게재 수신자에 의한 열기는 고려되지 않습니다.
-* **[!UICONTROL Sharing activities]** : 소셜 네트워크를 통해 공유된 총 메시지 수입니다. 이 값은 **[!UICONTROL Links for sharing to social networks]** 개인화 블록의 아이콘에 대한 총 클릭 수와 일치합니다.
+* **[!UICONTROL New contacts]** : 이메일을 통해 공유된 메시지를 받은 후 새로 구독한 횟수입니다. 이 값은 이메일을 통해 공유된 메시지를 받고 **[!UICONTROL Subscription link]** 그리고 구독 양식을 입력했습니다.
+* **[!UICONTROL Opens]** : 메시지를 전송한 사람이 연 총 메시지 수(를 통해) **[!UICONTROL Link for sharing to social networks]** 개인화 블록). 이 값은 미러 페이지가 표시된 횟수와 같습니다. 게재 수신자에 의한 열기는 고려되지 않습니다.
+* **[!UICONTROL Sharing activities]** : 소셜 네트워크를 통해 공유된 총 메시지 수입니다. 이 값은 **[!UICONTROL Links for sharing to social networks]** 개인화 블록.
 
 ## 운영 체제 {#operating-systems}
 
@@ -237,9 +237,9 @@ ht-degree: 1%
 
 통계는 커브, 차트 및 값 테이블의 형태로 표시됩니다.
 
-**[!UICONTROL History]** 곡선은 이 운영 체제의 일별 사용 속도를 나타냅니다. 이 비율은 하루(이 운영 체제)에서 가장 높은 참여도로 하루 측정된 방문자 수와 관련된 방문자 수의 비율입니다.
+다음 **[!UICONTROL History]** curve는 이 운영 체제의 일일 사용 속도를 나타냅니다. 이 비율은 하루(이 운영 체제)에서 가장 높은 참여도로 하루 측정된 방문자 수와 관련된 방문자 수의 비율입니다.
 
-**[!UICONTROL Breakdown by version]** 차트는 이 운영 체제의 총 방문자 수와 관련된 버전당 방문자 수 분류를 나타냅니다.
+다음 **[!UICONTROL Breakdown by version]** 차트는 이 운영 체제에 있는 총 방문자 수와 관련된 버전당 방문자 수 분류를 나타냅니다.
 
 값 표에는 다음 표시기가 사용됩니다.
 
@@ -252,11 +252,11 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_services_report.png)
 
-홈 페이지 또는 탐색기의 **[!UICONTROL Profiles and targets > Services and subscriptions]** 노드를 클릭하여 가입에 대해 표시할 수 있습니다. 원하는 구독을 선택하고 **[!UICONTROL Reports]** 탭을 클릭합니다. 기본적으로 **[!UICONTROL Subscriptions tracking]** 보고서를 사용할 수 있습니다. 일정 기간 동안 구독 및 구독 취소 트렌드와 충성도 비율을 볼 수 있습니다. 드롭다운 목록을 통해 이 데이터의 표현을 구성할 수 있습니다. **[!UICONTROL Refresh]** 을 클릭하여 선택한 구성의 유효성을 확인합니다.
+을 클릭하여 구독에 대해 표시할 수 있습니다 **[!UICONTROL Profiles and targets > Services and subscriptions]** 노드 아래에 나열된 상태로 남아 있습니다. 원하는 구독을 선택하고 **[!UICONTROL Reports]** 탭. 다음 **[!UICONTROL Subscriptions tracking]** 보고서는 기본적으로 사용할 수 있습니다. 일정 기간 동안 구독 및 구독 취소 트렌드와 충성도 비율을 볼 수 있습니다. 드롭다운 목록을 통해 이 데이터의 표현을 구성할 수 있습니다. 클릭 **[!UICONTROL Refresh]** 을 눌러 선택한 구성의 유효성을 검사합니다.
 
-자세한 내용은 [이 페이지](../../delivery/using/managing-subscriptions.md)를 참조하십시오.
+자세한 내용은 [이 페이지](../../delivery/using/managing-subscriptions.md).
 
-**[!UICONTROL Number subscribed to date]** 은 현재 구독한 총 사용자 수를 나타냅니다.
+다음 **[!UICONTROL Number subscribed to date]** 현재 구독한 총 사용자 수를 나타냅니다.
 
 **[!UICONTROL Overall evolution of subscriptions]**
 
@@ -287,7 +287,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >하드 바운스와 소프트 바운스에 대한 자세한 내용은 [격리 관리](../../delivery/using/understanding-quarantine-management.md) 를 참조하십시오.
+   >하드 및 소프트 바운스에 대한 자세한 내용은 [격리 관리](../../delivery/using/understanding-quarantine-management.md).
 
 * **[!UICONTROL Opens]** : 메시지를 한 번 이상 연 타겟팅된 수신자 수의 백분율로, 성공적으로 처리된 메시지 수와 비교됩니다.
 * **[!UICONTROL Clicks]** : 게재를 한 번 이상 클릭한 사람 수의 백분율로, 성공적으로 처리된 메시지 수와 비교됩니다.
@@ -297,7 +297,7 @@ ht-degree: 1%
 
 이 보고서는 관련 기간 동안 운영 체제, 장치 및 브라우저별 열기 수를 보여줍니다. 각 카테고리에 대해 두 개의 차트가 사용됩니다. 첫 번째는 컴퓨터 및 모바일 장치에서 열리는 통계에 대한 통계입니다. 두 번째는 모바일 장치에서 열리는 경우에만 관련된 통계를 표시합니다.
 
-열기 수는 열린 총 메시지 수에 해당합니다. 텍스트 형식 이메일은 카운트되지 않습니다. 열기 횟수 추적에 대한 자세한 내용은 [추적 열기](../../reporting/using/indicator-calculation.md#tracking-opens-) 섹션을 참조하십시오.
+열기 수는 열린 총 메시지 수에 해당합니다. 텍스트 형식 이메일은 카운트되지 않습니다. 열기 추적에 대한 자세한 내용은 [추적 열기](../../reporting/using/indicator-calculation.md#tracking-opens-) 섹션을 참조하십시오.
 
 ![](assets/dlv_useragent_report.png)
 

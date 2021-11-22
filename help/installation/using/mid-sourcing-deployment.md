@@ -64,4 +64,4 @@ ht-degree: 1%
 
 ### 설치 및 구성(중간 소싱 배포) {#installing-and-configuring--mid-sourcing-deployment-}
 
-[중간 소싱 서버](../../installation/using/mid-sourcing-server.md)를 참조하십시오.
+을(를) 참조하십시오. [중간 소싱 서버](../../installation/using/mid-sourcing-server.md).

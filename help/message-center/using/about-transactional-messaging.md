@@ -20,7 +20,7 @@ ht-degree: 7%
 
 ## 개요 {#overview}
 
-**트랜잭션 메시지** (메시지 센터)는 외부 정보 시스템에서 보낸 이벤트에서 생성된 사용자 지정 트리거 알림을 관리하기 위해 설계된 캠페인 모듈입니다.
+**트랜잭션 메시지** (메시지 센터)는 외부 정보 시스템에서 보낸 이벤트에서 생성된 사용자 지정 트리거 알림을 관리하기 위해 디자인된 캠페인 모듈입니다.
 
 트랜잭션 메시지는 웹사이트 등 공급자가 실시간으로 보내는 개별적이고 고유한 통신입니다. 수신자가 확인하거나 확정하려는 중요한 정보가 포함되어 있으므로 특히 예상됩니다.
 
@@ -42,11 +42,11 @@ ht-degree: 7%
 
 Adobe Campaign 트랜잭션 메시지 모듈은 개인화된 트랜잭션 메시지로 변경할 이벤트를 반환하는 정보 시스템에 통합됩니다. 이러한 메시지는 개별적으로 또는 이메일, SMS 또는 푸시 알림을 통해 일괄적으로 전송할 수 있습니다.
 
-이 기능은 **실행 인스턴스**&#x200B;가 **제어 인스턴스**&#x200B;에서 분리된 특정 아키텍처에 의존합니다. 이러한 배포는 가용성을 높이고 로드 관리를 향상시킵니다. 자세한 내용은 [트랜잭션 메시지 아키텍처](../../message-center/using/transactional-messaging-architecture.md)를 참조하십시오.
+이 기능은 **실행 인스턴스** 에서 분리됩니다. **제어 인스턴스**. 이러한 배포는 가용성을 높이고 로드 관리를 향상시킵니다. 자세한 내용은 [트랜잭션 메시지 아키텍처](../../message-center/using/transactional-messaging-architecture.md).
 
 >[!NOTE]
 >
->Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대한 새 사용자를 만들려면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의해야 합니다. 메시지 센터 사용자는 **[!UICONTROL Real time events (nmsRtEvent)]** 폴더에 액세스할 수 있는 전용 권한이 필요한 특정 연산자입니다.
+>Adobe 클라우드에서 호스팅되는 메시지 센터 실행 인스턴스에 대한 새 사용자를 만들려면 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). 메시지 센터 사용자는 액세스 전용 권한이 필요한 특정 연산자입니다 **[!UICONTROL Real time events (nmsRtEvent)]** 폴더.
 
 트랜잭션 메시지 전체 프로세스는 다음과 같이 설명할 수 있습니다.
 
@@ -56,7 +56,7 @@ Adobe Campaign 트랜잭션 메시지 모듈은 개인화된 트랜잭션 메시
 
 Adobe Campaign을 사용하면 장바구니에 제품을 추가한 고객에게 알림 이메일을 보낼 수 있습니다. 구매(캠페인 이벤트를 트리거하는 외부 이벤트)를 완료하지 않고 웹 사이트를 떠나면 장바구니 중단 이메일을 자동으로 보냅니다(트랜잭션 메시지 게재).
 
-이 작업을 수행하는 주요 단계는 [이 섹션](#key-steps)에 자세히 설명되어 있습니다.
+이 작업을 수행하는 주요 단계는 아래에 자세히 설명되어 있습니다. [이 섹션](#key-steps).
 
 >[!NOTE]
 >
@@ -68,24 +68,24 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 
 ### 컨트롤 인스턴스에서 수행할 단계
 
-**컨트롤 인스턴스**&#x200B;에서 다음 작업을 수행해야 합니다.
+설정 **제어 인스턴스**, 다음 작업을 수행해야 합니다.
 
-1. [이벤트 유형을 만듭니다](../../message-center/using/creating-event-types.md).
-1. [메시지 템플릿을 만들고 디자인합니다](../../message-center/using/creating-the-message-template.md). 이 단계 동안 이벤트를 메시지에 연결해야 합니다.
-1. [메시지를 테스트합니다](../../message-center/using/testing-message-templates.md).
+1. [이벤트 유형 만들기](../../message-center/using/creating-event-types.md).
+1. [메시지 템플릿 만들기 및 디자인](../../message-center/using/creating-the-message-template.md). 이 단계 동안 이벤트를 메시지에 연결해야 합니다.
+1. [메시지 테스트](../../message-center/using/testing-message-templates.md).
 1. [메시지 템플릿을 게시합니다](../../message-center/using/publishing-message-templates.md).
 
 >[!NOTE]
 >
->위의 모든 단계는 **컨트롤 인스턴스**&#x200B;에서 수행됩니다. 컨트롤 인스턴스에 템플릿을 게시하면 모든 **실행 인스턴스**&#x200B;에도 게시됩니다. 트랜잭션 메시지 인스턴스에 대한 자세한 내용은 [트랜잭션 메시지 아키텍처](../../message-center/using/transactional-messaging-architecture.md)를 참조하십시오.
+>위의 모든 단계는 **제어 인스턴스**. 컨트롤 인스턴스에 템플릿을 게시하면 모두 게시됩니다 **실행 인스턴스**. 트랜잭션 메시지 인스턴스에 대한 자세한 내용은 [트랜잭션 메시지 아키텍처](../../message-center/using/transactional-messaging-architecture.md).
 
 ### 실행 인스턴스의 이벤트 처리
 
-트랜잭션 메시지 템플릿을 디자인하고 게시하면 해당 이벤트가 트리거되는 경우 아래 주요 단계는 **실행 인스턴스**&#x200B;에서 수행됩니다.
+트랜잭션 메시지 템플릿을 디자인하고 게시하면, 해당 이벤트가 트리거되는 경우, 아래 주요 단계는 **실행 인스턴스**:
 
-1. 외부 정보 시스템에서 이벤트가 생성되면 관련 데이터가 **PushEvent** 및 **PushEvents** 메서드를 통해 Campaign으로 전송됩니다. [이벤트 컬렉션](../../message-center/using/about-event-processing.md#event-collection)을 참조하십시오.
-1. 이벤트는 적절한 메시지 템플릿에 연결됩니다. [템플릿을 향해 라우팅](../../message-center/using/about-event-processing.md#routing-towards-a-template)을 참조하십시오.
-1. 데이터 보강 단계가 완료되면 게재가 전송됩니다. [게재 실행](../../message-center/using/delivery-execution.md)을 참조하십시오. 타겟팅된 각 수신자는 개인화된 메시지를 수신합니다.
+1. 외부 정보 시스템에서 이벤트가 생성되면 관련 데이터는 를 통해 Campaign으로 전송됩니다 **PushEvent** 및 **PushEvents** 메서드를 사용합니다. 자세한 내용은 [이벤트 컬렉션](../../message-center/using/about-event-processing.md#event-collection).
+1. 이벤트는 적절한 메시지 템플릿에 연결됩니다. 자세한 내용은 [템플릿을 향해 라우팅](../../message-center/using/about-event-processing.md#routing-towards-a-template).
+1. 데이터 보강 단계가 완료되면 게재가 전송됩니다. 자세한 내용은 [게재 실행](../../message-center/using/delivery-execution.md). 타겟팅된 각 수신자는 개인화된 메시지를 수신합니다.
 
 ## 관련 항목 {#related-topics}
 

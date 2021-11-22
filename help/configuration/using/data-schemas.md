@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 원칙 {#principles}
 
-스키마를 편집, 생성 및 구성하려면 Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Administration > Configuration > Data schemas]** 노드를 클릭합니다.
+스키마를 편집, 생성 및 구성하려면 **[!UICONTROL Administration > Configuration > Data schemas]** Adobe Campaign 클라이언트 콘솔의 노드입니다.
 
 >[!NOTE]
 >
@@ -47,12 +47,12 @@ ht-degree: 1%
 
 ## 예: 계약 테이블 생성 {#example--creating-a-contract-table}
 
-다음 예제에서는 Adobe Campaign 데이터베이스의 데이터베이스 모델에서 **contracts**&#x200B;에 대한 새 테이블을 만들려고 합니다. 이 테이블을 사용하면 각 계약에 대해 소유자 및 공동 소유자의 이름과 전자 메일 주소를 저장할 수 있습니다.
+다음 예제에서는 새 테이블을 만들려고 합니다 **계약** ( Adobe Campaign 데이터베이스의 데이터베이스 모델에서)를 참조하십시오. 이 테이블을 사용하면 각 계약에 대해 소유자 및 공동 소유자의 이름과 전자 메일 주소를 저장할 수 있습니다.
 
 이렇게 하려면 테이블의 스키마를 만들고 데이터베이스 구조를 업데이트하여 해당 테이블을 생성해야 합니다. 다음 단계를 적용합니다.
 
-1. Adobe Campaign 트리의 **[!UICONTROL Administration > Configuration > Data schemas]** 노드를 편집하고 **[!UICONTROL New]** 를 클릭합니다.
-1. **[!UICONTROL Create a new table in the data model]** 옵션을 선택하고 **[!UICONTROL Next]** 를 클릭합니다.
+1. 편집 **[!UICONTROL Administration > Configuration > Data schemas]** Adobe Campaign 트리의 노드를 클릭하고 **[!UICONTROL New]** .
+1. 을(를) 선택합니다 **[!UICONTROL Create a new table in the data model]** 옵션을 선택하고 **[!UICONTROL Next]** .
 
    ![](assets/s_ncs_configuration_create_new_schema.png)
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >기본적으로 사용자가 만든 스키마는 &#39;cus&#39; 네임스페이스에 저장됩니다. 자세한 내용은 [스키마 식별](../../configuration/using/about-schema-reference.md#identification-of-a-schema)을 참조하십시오.
+   >기본적으로 사용자가 만든 스키마는 &#39;cus&#39; 네임스페이스에 저장됩니다. 자세한 내용은 [스키마 식별](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 
 1. 표의 컨텐츠를 만듭니다. 누락된 설정이 없도록 시작 마법사를 사용하는 것이 좋습니다. 이렇게 하려면 **[!UICONTROL Insert]** 버튼을 클릭하고 추가할 설정 유형을 선택합니다.
 
@@ -120,4 +120,4 @@ ht-degree: 1%
 
    ![](assets/s_ncs_configuration_structure.png)
 
-1. 데이터베이스 구조를 업데이트하여 스키마가 연결될 테이블을 만듭니다. 자세한 내용은 [데이터베이스 구조 업데이트](../../configuration/using/updating-the-database-structure.md)를 참조하십시오.
+1. 데이터베이스 구조를 업데이트하여 스키마가 연결될 테이블을 만듭니다. 자세한 내용은 [데이터베이스 구조 업데이트](../../configuration/using/updating-the-database-structure.md).

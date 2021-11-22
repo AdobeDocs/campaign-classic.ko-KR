@@ -20,8 +20,8 @@ ht-degree: 7%
 스키마를 수정하고 수정 사항을 저장하면 확장 스키마가 자동으로 생성됩니다. 그러나 수정 사항을 적용하려면 스키마를 수동으로 재생성해야 할 수 있습니다. 방법은 다음과 같습니다.
 
 1. 재생성해야 하는 스키마를 선택합니다.
-1. 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Actions > Regenerate selected schemas...]** 을 선택합니다.
-1. **[!UICONTROL OK]** 을 클릭하여 프로세스를 확인하고 시작합니다.
+1. 마우스 오른쪽 단추를 클릭하고 을 선택합니다. **[!UICONTROL Actions > Regenerate selected schemas...]** .
+1. 클릭 **[!UICONTROL OK]** 프로세스를 확인하고 실행하려면
 
 그런 다음 미리 보기 및 설명서 탭에서 생성된 스키마의 구조를 확인할 수 있습니다. 자세한 내용은 [원칙](../../configuration/using/data-schemas.md#principles) 섹션을 참조하십시오.
 

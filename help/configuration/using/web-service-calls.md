@@ -31,7 +31,7 @@ ht-degree: 1%
 
 Adobe Campaign 애플리케이션 서버에 구현된 웹 서비스의 정의는 데이터 스키마에서 사용할 수 있습니다.
 
-웹 서비스는 데이터 스키마의 문법에 설명되어 있으며 **`<methods>`** 요소에서 사용할 수 있습니다.
+웹 서비스는 데이터 스키마의 문법에 설명되어 있으며 **`<methods>`** 요소를 생성하지 않습니다.
 
 ```
 <methods>
@@ -46,15 +46,15 @@ Adobe Campaign 애플리케이션 서버에 구현된 웹 서비스의 정의는
 </methods>
 ```
 
-다음은 **GenerateForm**&#x200B;이라는 메서드의 정의에 대한 예입니다.
+여기서는 라는 메서드의 정의에 대한 예제를 제공합니다 **GenerateForm**.
 
-서비스에 대한 설명은 `<method>` 요소로 시작합니다. 메서드의 매개 변수 목록이 `<parameters>` 요소에서 완료되었습니다. 각 매개 변수는 이름, 유형(부울, 문자열, DOMElement 등)으로 지정됩니다. 및 설명. &quot;out&quot; 값이 있는 &quot;inout&quot; 속성을 사용하면 &quot;result&quot; 매개 변수가 SOAP 호출 출력에 있음을 지정할 수 있습니다.
+서비스에 대한 설명은 `<method>` 요소를 생성하지 않습니다. 메서드의 매개 변수 목록은  `<parameters>` 요소를 생성하지 않습니다. 각 매개 변수는 이름, 유형(부울, 문자열, DOMElement 등)으로 지정됩니다. 및 설명. &quot;out&quot; 값이 있는 &quot;inout&quot; 속성을 사용하면 &quot;result&quot; 매개 변수가 SOAP 호출 출력에 있음을 지정할 수 있습니다.
 
 &quot;static&quot; 속성(값 &quot;true&quot;가 있는 경우)은 이 메서드를 static으로 설명하며, 이는 메서드의 모든 매개 변수를 선언해야 함을 의미합니다.
 
 const 메서드에는 암시적으로 연결된 스키마 형식의 XML 문서가 입력으로 포함됩니다.
 
-Adobe Campaign 스키마의 `<method>` 요소에 대한 전체 설명은 [메서드](../../configuration/using/schema/method.md) 아래의 &quot;스키마 참조&quot; 장에서 사용할 수 있습니다
+에 대한 전체 설명 `<method>` Adobe Campaign 스키마의 요소는 아래의 &quot;스키마 참조&quot; 장에서 사용할 수 있습니다 [메서드](../../configuration/using/schema/method.md)
 
 xtk:queryDef 스키마의 &quot;const&quot;-type &quot;ExecuteQuery&quot; 메서드의 예:
 
@@ -94,7 +94,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;bindings&quot;로 프로토�
 
 #### 유형 {#types}
 
-유형 정의는 XML 스키마를 기반으로 합니다. 이 예제에서 &quot;ExecuteQuery&quot; 메서드는 &quot;s:string&quot; 문자열과 XML 문서(`<s:complextype>`)를 매개 변수로 사용합니다. 메서드의 반환 값(&quot;ExecuteQueryResponse&quot;)은 XML 문서( `<s:complextype>`)입니다.
+유형 정의는 XML 스키마를 기반으로 합니다. 이 예제에서 &quot;ExecuteQuery&quot; 메서드는 &quot;s:string&quot; 문자열과 XML 문서(`<s:complextype>`)을 매개 변수로 사용할 수 있습니다. 메서드의 반환 값(&quot;ExecuteQueryResponse&quot;)은 XML 문서(  `<s:complextype>`).
 
 ```
 <types>
@@ -130,7 +130,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;bindings&quot;로 프로토�
 
 #### 메시지 {#messages}
 
-`<message>` 은 전송할 필드 집합의 이름과 유형을 설명합니다. 이 메서드는 두 개의 메시지를 사용하여 매개 변수(&quot;ExecuteQueryIn&quot;)와 반환 값(&quot;ExecuteQueryOut&quot;)으로 전달합니다.
+다음 `<message>` 전송할 필드 집합의 이름과 유형을 설명합니다. 이 메서드는 두 개의 메시지를 사용하여 매개 변수(&quot;ExecuteQueryIn&quot;)와 반환 값(&quot;ExecuteQueryOut&quot;)으로 전달합니다.
 
 ```
 <message name="ExecuteQueryIn">
@@ -144,7 +144,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;bindings&quot;로 프로토�
 
 #### PortType {#porttype}
 
-`<porttype>`은 응답을 생성하는 (&quot;input&quot;)에 의해 트리거되는 &quot;ExecuteQuery&quot; 작업의 메시지를 연결합니다(&quot;output&quot;).
+다음 `<porttype>` 응답(&quot;output&quot;)을 생성하는 쿼리(&quot;input&quot;)에 의해 트리거되는 &quot;ExecuteQuery&quot; 작업의 메시지를 연결합니다.
 
 ```
 <portType name="queryDefMethodsSoap">
@@ -157,7 +157,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;bindings&quot;로 프로토�
 
 #### 바인딩 {#binding}
 
-`<binding>` 부분은 SOAP 통신 프로토콜( `<soap:binding>` ), HTTP로 데이터 전송(&quot;transport&quot; 속성의 값) 및 &quot;ExecuteQuery&quot; 작업에 대한 데이터 형식을 지정합니다. SOAP 봉투의 본문에 변환하지 않고 직접 메시지 세그먼트가 포함됩니다.
+다음 `<binding>` SOAP 통신 프로토콜( `<soap:binding>` ), HTTP로 데이터 전송(&quot;transport&quot; 속성의 값) 및 &quot;ExecuteQuery&quot; 작업에 대한 데이터 형식. SOAP 봉투의 본문에 변환하지 않고 직접 메시지 세그먼트가 포함됩니다.
 
 ```
 <binding name="queryDefMethodsSoap" type="tns:queryDefMethodsSoap">
@@ -176,7 +176,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;bindings&quot;로 프로토�
 
 #### 서비스 {#service}
 
-`<service>` 부분은 Adobe Campaign 응용 프로그램 서버의 URL에서 해당 URI가 있는 &quot;XtkQueryDef&quot; 서비스에 대해 설명합니다.
+다음 `<service>` 이 단원에서는 Adobe Campaign 애플리케이션 서버의 URL에 있는 URI를 사용하여 &quot;XtkQueryDef&quot; 서비스에 대해 설명합니다.
 
 ```
 <service name="XtkQueryDef">
@@ -188,7 +188,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;bindings&quot;로 프로토�
 
 ## 연결 {#connectivity}
 
-Adobe Campaign은 [보안 영역](../../installation/using/security-zones.md) 및 세션 관리 설정을 도입하여 인증 메커니즘에 대한 보안을 강화했습니다.
+Adobe Campaign은 다음을 도입하여 인증 메커니즘에 대한 보안을 강화했습니다 [보안 영역](../../installation/using/security-zones.md) 및 세션 관리 설정을 지정합니다.
 
 사용할 수 있는 인증 모드는 두 가지가 있습니다.
 
@@ -196,7 +196,7 @@ Adobe Campaign은 [보안 영역](../../installation/using/security-zones.md) �
 
 또는
 
-* **Adobe Campaign 로그인 +** 세션 토큰을 만드는 암호를 통해 세션 토큰은 설정된 기간 후에 자동으로 만료됩니다. 이 모드는 권장되지 않으며 일부 영역 설정에 대한 응용 프로그램 보안 설정을 줄여야 합니다(allowUserPassword=&quot;true&quot; 및 sessionTokenOnly=&quot;true&quot;).
+* **Adobe Campaign 로그인 + 암호를 통해** 세션 토큰을 만듭니다. 세션 토큰은 설정된 기간 후에 자동으로 만료됩니다. 이 모드는 권장되지 않으며 일부 영역 설정에 대한 응용 프로그램 보안 설정을 줄여야 합니다(allowUserPassword=&quot;true&quot; 및 sessionTokenOnly=&quot;true&quot;).
 
 ### 세션 토큰 특성 {#session-token-characteristics}
 
@@ -240,7 +240,7 @@ SOAP 호출에서:
 
 ### 호출 예 {#call-examples}
 
-* **HttpSoapConnection/SoapService** 사용:
+* 사용 **HttpSoapConnection/SoapService**:
 
 ```
   
@@ -273,11 +273,11 @@ SOAP 호출에서:
   logInfo(queryRes[0].toXMLString())
 ```
 
-* **HttpServletRequest** 사용:
+* 사용 **HttpServletRequest**:
 
 >[!NOTE]
 >
->다음 **HttpServletRequest** 호출에 사용된 URL은 **serverConf.xml** 파일의 url 권한 섹션에서 허용 목록에 있어야 합니다. 서버 자체의 URL에도 적용됩니다.
+>다음에서 사용되는 URL입니다 **HttpServletRequest** 호출은 페이지의 url 권한 섹션에서 허용 목록에 있어야 합니다 **serverConf.xml** 파일. 서버 자체의 URL에도 적용됩니다.
 
 로그온 실행():
 

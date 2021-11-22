@@ -17,19 +17,19 @@ ht-degree: 5%
 
 ![](../../assets/v7-only.svg)
 
-게재 매개 변수는 **serverConf.xml** 폴더에 구성해야 합니다.
+게재 매개 변수는 **serverConf.xml** 폴더를 입력합니다.
 
-* **DNS 구성**: MTA 모듈에서 MX 형식 DNS 쿼리에 응답하는 데 사용되는 DNS 서버의 게재 도메인 및 IP 주소(또는 호스트)를  **`<dnsconfig>`** 처음부터 지정합니다.
+* **DNS 구성**: mta 모듈에서 MX 형식 DNS 쿼리에 응답하는 데 사용되는 DNS 서버의 게재 도메인 및 IP 주소(또는 호스트)를 지정합니다. **`<dnsconfig>`** 계속
 
    >[!NOTE]
    >
-   >**nameServers** 매개 변수는 Windows에서 설치하는 데 필수입니다. Linux에서 설치하려면 비워 두어야 합니다.
+   >다음 **nameServers** 매개 변수는 Windows에서 설치하는 데 필수입니다. Linux에서 설치하려면 비워 두어야 합니다.
 
    ```
    <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
    ```
 
-요구 사항과 설정에 따라 다음 구성을 수행할 수도 있습니다. [SMTP 릴레이](#smtp-relay)를 구성하고, [MTA 하위 프로세스](#mta-child-processes), [아웃바운드 SMTP 트래픽 관리](#managing-outbound-smtp-traffic-with-affinities) 수를 조정합니다.
+요구 사항과 설정에 따라 다음 구성을 수행할 수도 있습니다. 구성 [SMTP 릴레이](#smtp-relay), 개수의 조정 [MTA 하위 프로세스](#mta-child-processes), [아웃바운드 SMTP 트래픽 관리](#managing-outbound-smtp-traffic-with-affinities).
 
 ## SMTP 릴레이 {#smtp-relay}
 
@@ -37,7 +37,7 @@ MTA 모듈은 SMTP 브로드캐스트(포트 25)의 기본 메일 전송 에이�
 
 그러나 보안 정책에 필요한 경우 중계 서버로 바꿀 수 있습니다. 이 경우 글로벌 처리량은 릴레이 1이 됩니다(릴레이 서버 처리량이 Adobe Campaign 처리량보다 낮음).
 
-이 경우 이러한 매개 변수는 **`<relay>`** 섹션에서 SMTP 서버를 구성하여 설정됩니다. 메일을 전송하는 데 사용되는 SMTP 서버의 IP 주소(또는 호스트)와 관련 포트(기본적으로 25)를 지정해야 합니다.
+이 경우 이러한 매개 변수는 **`<relay>`** 섹션을 참조하십시오. 메일을 전송하는 데 사용되는 SMTP 서버의 IP 주소(또는 호스트)와 관련 포트(기본적으로 25)를 지정해야 합니다.
 
 ```
 <relay address="192.0.0.3" port="25"/>
@@ -49,13 +49,13 @@ MTA 모듈은 SMTP 브로드캐스트(포트 25)의 기본 메일 전송 에이�
 
 ## MTA 하위 프로세스 {#mta-child-processes}
 
-서버의 CPU 성능과 사용 가능한 네트워크 리소스에 따라 브로드캐스트 성능을 최적화하기 위해 하위 프로세스 수(기본적으로 maxSpareServer 2)를 제어할 수 있습니다. 이 구성은 각 개별 컴퓨터의 MTA 구성의 **`<master>`** 섹션에서 수행합니다.
+서버의 CPU 성능과 사용 가능한 네트워크 리소스에 따라 브로드캐스트 성능을 최적화하기 위해 하위 프로세스 수(기본적으로 maxSpareServer 2)를 제어할 수 있습니다. 이 구성은 **`<master>`** 각 개별 컴퓨터에서 MTA 구성의 섹션을 참조하십시오.
 
 ```
 <master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
 ```
 
-[이메일 전송 최적화](../../installation/using/email-deliverability.md#email-sending-optimization)도 참조하십시오.
+또한 [이메일 전송 최적화](../../installation/using/email-deliverability.md#email-sending-optimization).
 
 ## 관심사가 있는 아웃바운드 SMTP 트래픽 관리 {#managing-outbound-smtp-traffic-with-affinities}
 
@@ -67,9 +67,9 @@ IP 주소가 있는 관심사를 통해 아웃바운드 SMTP 트래픽을 개선
 
 그렇게 하려면 다음 단계를 적용합니다.
 
-1. **serverConf.xml** 파일의 **`<ipaffinity>`** 섹션에 관심도를 입력합니다.
+1. 에 관심사를 입력합니다. **`<ipaffinity>`** 섹션 **serverConf.xml** 파일.
 
-   친화성 하나는 여러 다른 이름을 가질 수 있습니다. 구분하려면 **;** 문자를 사용합니다.
+   친화성 하나는 여러 다른 이름을 가질 수 있습니다. 구분하려면 **;** 문자.
 
    예제:
 
@@ -78,15 +78,15 @@ IP 주소가 있는 관심사를 통해 아웃바운드 SMTP 트래픽을 개선
              <IP address="XX.XXX.XX.XX" heloHost="myserver.us.campaign.net" publicId="123" excludeDomains="neo.*" weight="5"/
    ```
 
-   관련 매개 변수를 보려면 **serverConf.xml** 파일을 참조하십시오.
+   관련 매개 변수를 보려면 **serverConf.xml** 파일.
 
-1. 드롭다운 목록에서 친화성 선택을 활성화하려면 **IPAffness** 열거형에 친화성 이름을 추가해야 합니다.
+1. 드롭다운 목록에서 친화성 선택을 활성화하려면 관련성 이름을 **IPAffness** 열거형.
 
    ![](assets/ipaffinity_enum.png)
 
    >[!NOTE]
    >
-   >열거형은 [이 문서](../../platform/using/managing-enumerations.md)에 자세히 설명되어 있습니다.
+   >열거형은 다음에 자세히 설명되어 있습니다. [이 문서](../../platform/using/managing-enumerations.md).
 
    그런 다음 유형화에 대해 아래에 표시된 대로 사용할 친화성을 선택할 수 있습니다.
 
@@ -94,7 +94,7 @@ IP 주소가 있는 관심사를 통해 아웃바운드 SMTP 트래픽을 개선
 
    >[!NOTE]
    >
-   >[배달 서버 구성](../../installation/using/email-deliverability.md#delivery-server-configuration)을 참조할 수도 있습니다.
+   >다음을 의미할 수도 있습니다 [게재 서버 구성](../../installation/using/email-deliverability.md#delivery-server-configuration).
 
 **관련 항목**
 * [기술 이메일 구성](email-deliverability.md)

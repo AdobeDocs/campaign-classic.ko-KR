@@ -19,9 +19,9 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->계속 진행하려면 시스템에서 IMS가 활성화되어 있는지 확인합니다. [IMS](../../integrations/using/about-adobe-id.md)에 대한 섹션을 참조하십시오.
+>계속 진행하려면 시스템에서 IMS가 활성화되어 있는지 확인합니다. 다음 사항에 대한 섹션을 참조하십시오. [IMS](../../integrations/using/about-adobe-id.md).
 
-IMS가 활성화되면 Campaign과의 People 핵심 서비스/Audience Manager 통합 프로비저닝을 요청할 수 있습니다. 이렇게 하려면 [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com)에 다음 정보를 이메일로 보내주십시오.
+IMS가 활성화되면 Campaign과의 People 핵심 서비스/Audience Manager 통합 프로비저닝을 요청할 수 있습니다. 이렇게 하려면 전자 메일을 로 보냅니다. [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) 다음 정보로 사용:
 
 <table> 
  <tbody> 

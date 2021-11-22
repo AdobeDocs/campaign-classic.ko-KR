@@ -17,7 +17,7 @@ ht-degree: 13%
 
 ![](../../assets/v7-only.svg)
 
-입력 양식 만들기 및 구성 화면은 Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** 폴더에서 액세스할 수 있습니다.
+입력 양식 작성 및 구성 화면은 **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** Adobe Campaign 클라이언트 콘솔의 폴더:
 
 ![](assets/d_ncs_integration_form_arbo.png)
 

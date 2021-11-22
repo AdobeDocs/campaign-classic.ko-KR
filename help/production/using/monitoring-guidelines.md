@@ -19,7 +19,7 @@ ht-degree: 21%
 
 ## 인스턴스 모니터링 대시보드 {#instance-monitoring-dashboard}
 
-Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monitoring]** 탭은 인스턴스를 모니터링하는 데 도움이 되는 기본 시작 지점입니다.
+다음 **[!UICONTROL Monitoring]** Campaign Classic 홈 페이지에서 액세스할 수 있는 탭은 인스턴스를 모니터링하는 데 도움이 되는 기본 시작 지점입니다.
 
 인스턴스에서 발생하는 사항에 대한 대시보드를 제공합니다. 상태(빌드 버전, 설치된 패키지 등), 시스템 지표, 로그, 현재 실행 중인 워크플로우, 마지막 전송 상태 등
 
@@ -58,7 +58,7 @@ Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관�
 >
 >Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
->인스턴스는 AWS에서 호스팅하고 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1.3)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
+>인스턴스는 AWS에서 호스팅하고 최신 버전으로 업그레이드해야 합니다 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1.3)](../../rn/using/latest-release.md). [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
 
 ### 워크플로우 모니터링 {#monitoring-workflows}
 
@@ -70,7 +70,7 @@ Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관�
 
 **감사 추적**
 
-감사 추적을 사용하면 워크플로우에서 수행된 모든 수정 사항과 현재 상태를 시각화할 수 있습니다. [여기를 클릭하십시오](../../production/using/audit-trail.md).
+감사 추적을 사용하면 워크플로우에서 수행된 모든 수정 사항과 현재 상태를 시각화할 수 있습니다. [여기를 클릭하십시오.](../../production/using/audit-trail.md).
 
 **워크플로우 문제 해결**
 
@@ -96,14 +96,14 @@ SMTP 보고서에는 도메인별 게재 통계 및 SMTP 오류가 표시됩니�
 
 **모범 사례**
 
-[게재 전송 및 디자인에 대한 모범 사례](../../delivery/using/delivery-best-practices.md) 는 성과 향상에 도움을 줄 수 있습니다.
+[게재 전송 및 디자인을 위한 우수 사례](../../delivery/using/delivery-best-practices.md) 그들의 공연을 향상시키는 데 도움이 될 수 있어요.
 
-**게재**
-문제 해결게재와 관련된 문제가 발생할 때 특정 작업을 수행할 수 있습니다.
+**게재 문제 해결**
+게재와 관련된 문제가 발생할 경우 특정 작업을 수행할 수 있습니다.
 * [게재 가능성 문제](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [이미지 표시 문제](../../production/using/image-display-issues.md)
 * [게재 성능 문제](../../delivery/using/delivery-performances.md)
-* [임시 파일 문제](../../production/using/temporary-files.md)  -  *온-프레미스 호스팅 모델만*
+* [임시 파일 문제](../../production/using/temporary-files.md) - *온-프레미스 호스팅 모델만*
 
 ### 데이터베이스 모니터링 {#monitoring-database}
 
@@ -127,7 +127,7 @@ SMTP 보고서에는 도메인별 게재 통계 및 SMTP 오류가 표시됩니�
 
 *온-프레미스 및 하이브리드 호스팅 모델만*
 
-시스템에서 문제가 발생할 경우(물리적 또는 시스템 관련) 데이터가 손실되지 않도록 백업해야 합니다. 자세한 정보를 보려면 [여기를 클릭](../../production/using/backup.md)하십시오. 복원 절차는 [이 섹션](../../production/using/restoration.md)에 설명되어 있습니다.
+시스템에서 문제가 발생할 경우(물리적 또는 시스템 관련) 데이터가 손실되지 않도록 백업해야 합니다. 자세한 정보를 보려면 [여기를 클릭](../../production/using/backup.md)하십시오. 복원 절차는 [이 섹션](../../production/using/restoration.md).
 
 ## Campaign Classic 기술 원칙 {#campaign-classic-technical-principles}
 

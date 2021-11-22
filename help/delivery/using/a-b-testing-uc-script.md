@@ -67,16 +67,16 @@ ht-degree: 4%
    vars.deliveryId = delivery.id
 ```
 
-스크립트에 대한 자세한 내용은 [이 섹션](#details-of-the-script)을 참조하십시오.
+스크립트에 대한 자세한 내용은 [이 섹션](#details-of-the-script).
 
 ## 구현 {#implementation}
 
-1. **[!UICONTROL JavaScript code]** 활동을 엽니다.
-1. [스크립트](#example-of-a-script)의 예제에 제공된 스크립트를 **[!UICONTROL JavaScript code]** 창에 복사합니다.
+1. 다음 문서를 엽니다. **[!UICONTROL JavaScript code]** 활동.
+1. 에 제공된 스크립트 복사 [스크립트 예](#example-of-a-script) 로 **[!UICONTROL JavaScript code]** 창을 엽니다.
 
    ![](assets/use_case_abtesting_configscript_002.png)
 
-1. **[!UICONTROL Label]** 필드에 스크립트 이름(예:
+1. 에서 **[!UICONTROL Label]** 필드에서 스크립트 이름(예: )을 입력합니다.
 
    ```
    <%= vars.deliveryId %>
@@ -84,14 +84,14 @@ ht-degree: 4%
 
    ![](assets/use_case_abtesting_configscript_003.png)
 
-1. **[!UICONTROL JavaScript code]** 활동을 닫습니다.
+1. 닫기 **[!UICONTROL JavaScript code]** 활동.
 1. 워크플로우를 저장합니다.
 
 ## 스크립트 세부 정보 {#details-of-the-script}
 
 이 섹션에서는 스크립트의 다양한 부분과 작동 모드에 대해 자세히 설명합니다.
 
-* 스크립트의 첫 번째 부분은 질의입니다. **queryDef** 명령을 사용하면 타겟팅 워크플로우를 실행하여 생성된 게재를 **NmsDelivery** 테이블에서 복구하고, 예상되는 열기 비율에 따라 정렬하면 가장 높은 열기 비율을 갖는 게재의 정보가 복구됩니다.
+* 스크립트의 첫 번째 부분은 질의입니다. 다음 **queryDef** 명령을 사용하면 **NmsDelivery** 테이블 타겟팅 워크플로우를 실행하고 예상 열기 수를 기준으로 정렬하여 생성된 게재 항목을 정렬하면 가장 높은 열기 비율이 있는 게재의 정보가 복구됩니다.
 
    ```
    // query the database to find the winner (best open rate)
@@ -120,7 +120,7 @@ ht-degree: 4%
    delivery.Duplicate("nms:delivery|" + winner.@id)
    ```
 
-* 복제한 게재의 레이블이 수정되고 **final**&#x200B;이라는 단어가 여기에 추가됩니다.
+* 복제한 게재의 레이블이 수정되고 단어 **최종** 가 추가됩니다.
 
    ```
    // append 'final' to the delivery label
@@ -164,10 +164,10 @@ ht-degree: 4%
 
 * 최고의 클릭 처리량: `[indicators/@recipientClickRatio]`,
 * 가장 높은 반응성 비율(이메일 열기 및 메시지 클릭): `[indicators/@reactivity]`,
-* 가장 낮은 불만율: `[indicators/@refusedRatio]`(sortDesc 속성에 false 값 사용),
+* 가장 낮은 불만율: `[indicators/@refusedRatio]` sortDesc 속성에 false 값을 사용합니다.
 * 가장 높은 전환율: `[indicators/@transactionRatio]`,
 * 메시지 수신 후 방문한 페이지 수: `[indicators/@totalWebPage]`,
 * 가장 낮은 구독 취소 비율: `[indicators/@optOutRatio]`,
-* 트랜잭션 금액: `[indicators/@amount]`
+* 트랜잭션 금액: `[indicators/@amount]`.
 
 이제 최종 게재를 정의할 수 있습니다. [자세히 알아보기](a-b-testing-uc-final-delivery.md)

@@ -5,7 +5,8 @@ description: URL 권한을 구성하는 방법 알아보기
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
+source-git-commit: 4fd69aa28c2e9325f4738ec571a6632c42ec26b8
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 29%
@@ -22,13 +23,13 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 >[!NOTE]
 >
->이 절차는 **온-프레미스** 배포로 제한됩니다.
+>이 절차는 **온-프레미스** 배포.
 >
->**호스팅된** 고객으로서, [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)에 액세스할 수 있는 경우 URL 권한 셀프 서비스 인터페이스를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ko)
+>로서의 **호스팅** 고객, [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)에서는 URL 권한 셀프 서비스 인터페이스를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ko)
 >
->다른 **하이브리드/호스팅** 고객은 Adobe 지원 팀에 연락하여 IP를에 추가해야 허용 목록에 추가하다 합니다.
+>기타 **하이브리드/호스팅** 고객은 Adobe 지원 팀에 연락하여에 IP를 추가해야 허용 목록에 추가하다 합니다.
 
-**Hybrid** 및 **On-premise** 배포의 경우, 관리자는 **serverConf.xml** 파일의 새 **urlPermission**&#x200B;을 참조해야 합니다.
+대상 **하이브리드** 및 **On-premise** 배포 시 관리자는 새로운 **urlPermission** 에서 **serverConf.xml** 파일.
 
 
 다음 세 가지 연결 보호 모드를 사용할 수 있습니다.
@@ -47,9 +48,9 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 >[!IMPORTANT]
 >
->기본적으로 새 구현에서는 **차단** 모드를 사용합니다.
+>기본적으로 새 구현에서는 **차단** 모드.
 >
->마이그레이션에서 오는 기존 고객은 일시적으로 **경고** 모드를 사용할 수 있습니다. URL을 허용하기 전에 아웃바운드 트래픽을 분석합니다. 허용되는 URL 목록이 정의되면 URL을에 추가하고 **Blocking** 모드를 활성화할 수 있습니다허용 목록에 추가하다.
+>마이그레이션에서 오는 기존 고객은 임시 를 사용할 수 있습니다. **경고** 모드. URL을 허용하기 전에 아웃바운드 트래픽을 분석합니다. 허용된 URL 목록이 정의되면 URL을에 추가하고 을(를) 활성화할 수 허용 목록에 추가하다 있습니다. **차단** 모드.
 
 자세한 정보는 다음 섹션을 참조하십시오.
 

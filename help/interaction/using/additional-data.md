@@ -25,9 +25,9 @@ ht-degree: 0%
 
 ## 추가 데이터 구성 {#additional-data-configuration}
 
-환경에 연결된 **nms:interaction** 스키마를 확장하고 상호 작용 엔진 호출 중에 사용할 추가 필드 목록을 선언해야 합니다. 자격 규칙을 만들거나 오퍼를 개인화할 때 이러한 필드는 **상호 작용** 노드에서 액세스할 수 있습니다([추가 데이터 사용](#using-additional-data) 참조).
+를 확장해야 합니다 **nms:상호 작용** 환경에 연결된 스키마와 상호 작용 엔진 호출 중에 사용할 추가 필드 목록을 선언합니다. 자격 규칙을 만들거나 오퍼를 개인화할 때 이러한 필드는 **상호 작용** 노드(참조) [추가 데이터 사용](#using-additional-data)).
 
-인바운드 채널의 경우 호출 데이터 필드를 **Interaction** 노드에 추가해야 합니다.
+인바운드 채널의 경우 호출 데이터 필드를 **상호 작용** 노드 아래에 있어야 합니다.
 
 ```
 <element label="Interactions" labelSingular="Interaction" name="interaction">
@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 >Xml 컬렉션은 인바운드 채널에서 지원되지만 다른 스키마에 대한 링크는 지원되지 않습니다.
 
-아웃바운드 채널의 경우 추가 필드가 포함된 **targetData** 요소를 **Interaction** 노드에 추가해야 합니다.
+아웃바운드 채널의 경우 **targetData** 에 추가 필드를 포함하는 요소 **상호 작용** 노드 아래에 있어야 합니다.
 
 ```
 <element label="Interactions" labelSingular="Interaction" name="interaction">
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 >컬렉션은 아웃바운드 채널에 대해 지원되지 않습니다. 그러나 다른 스키마에 대한 링크를 만들 수 있습니다.
 
-이 데이터를 제안 테이블에 저장하려면 **nms:provisionRcp** 스키마도 확장하고 이러한 필드를 선언해야 합니다.
+이 데이터를 제안 테이블에 저장하려면 **nms:provisionRcp** 스키마 및 이러한 필드를 선언합니다.
 
 ```
 <element label="Recipient offer propositions" labelSingular="Recipient offer proposition" name="propositionRcp">
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ### 입력 채널(웹 페이지) {#input-channel--web-page-}
 
-엔진을 호출할 때 추가 데이터를 전송하려면 **interactionGlobalCtx** 변수를 웹 페이지의 JavaScript 코드에 추가해야 합니다. 호출 데이터를 포함하는 **Interaction** 노드를 이 변수에 삽입합니다. **nms:interaction** 스키마에 있는 동일한 xml 구조를 준수해야 합니다. 다음을 참조하십시오. [추가 데이터 구성](#additional-data-configuration).
+엔진을 호출할 때 추가 데이터를 전송하려면 **interactionGlobalCtx** 변수를 채우는 방법을 설명합니다. 를 삽입합니다. **상호 작용** 호출 데이터를 이 변수에 포함하는 노드입니다. 에 있는 동일한 xml 구조를 준수해야 합니다 **nms:상호 작용** 스키마. 다음을 참조하십시오. [추가 데이터 구성](#additional-data-configuration).
 
 ```
 interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
@@ -74,7 +74,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 ### 출력 채널 {#output-channel}
 
-**nms:interaction** 스키마와 동일한 xml 구조 및 내부 이름을 준수하여 작업 테이블에서 추가 데이터를 로드하는 타깃팅 워크플로우를 만들어야 합니다. 다음을 참조하십시오. [추가 데이터 구성](#additional-data-configuration).
+와 동일한 xml 구조 및 내부 이름을 준수하여 작업 테이블에서 추가 데이터를 로드하는 타깃팅 워크플로우를 만들어야 합니다 **nms:상호 작용** 스키마. 다음을 참조하십시오. [추가 데이터 구성](#additional-data-configuration).
 
 ## 추가 데이터 사용 {#using-additional-data}
 
@@ -88,7 +88,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 >[!NOTE]
 >
->데이터가 정의된 채널에 대한 규칙을 제한해야 합니다. 이 예제에서는 인바운드 웹 채널(**[!UICONTROL Taken into account if]** 필드)에 대한 규칙을 제한합니다.
+>데이터가 정의된 채널에 대한 규칙을 제한해야 합니다. 이 예제에서는 인바운드 웹 채널(**[!UICONTROL Taken into account if]** 필드)만 로드하는 것입니다.
 
 ### 개인화 {#personalization}
 
@@ -100,11 +100,11 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 >
 >데이터가 정의된 채널에서 개인화를 제한해야 합니다. 이 예에서는 인바운드 웹 채널의 규칙을 제한하고 있습니다.
 
-추가 데이터를 사용하여 오퍼를 개인화한 경우, 이 데이터는 데이터베이스에서 사용할 수 없으므로 기본적으로 미리 보기에 표시되지 않습니다. 환경의 **[!UICONTROL Example of call data]** 탭에서 미리 보기에 사용할 값 샘플을 추가해야 합니다. **nms:interaction** 스키마 확장에 있는 동일한 xml 구조를 준수하십시오. 자세한 내용은 [추가 데이터 구성](#additional-data-configuration)을 참조하십시오.
+추가 데이터를 사용하여 오퍼를 개인화한 경우, 이 데이터는 데이터베이스에서 사용할 수 없으므로 기본적으로 미리 보기에 표시되지 않습니다. 환경 **[!UICONTROL Example of call data]** 탭에서 미리 보기에 사용할 값 샘플을 추가해야 합니다. 에 있는 동일한 xml 구조를 준수하십시오 **nms:상호 작용** 스키마 확장. 자세한 내용은 [추가 데이터 구성](#additional-data-configuration).
 
 ![](assets/ita_calldata_preview.png)
 
-미리 볼 때 **[!UICONTROL Content personalization options for the preview]** 을 클릭하고 **[!UICONTROL Call data]** 필드에서 값을 선택합니다.
+미리 볼 때 **[!UICONTROL Content personalization options for the preview]** 에서 값을 선택하고 **[!UICONTROL Call data]** 필드.
 
 ![](assets/ita_calldata_preview2.png)
 
@@ -114,11 +114,11 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 >[!NOTE]
 >
->**nms:provisionRcp** 스키마를 확장한 다음 저장할 데이터가 포함될 필드를 선언해야 합니다. 자세한 내용은 [추가 데이터 구성](#additional-data-configuration).
+>을 확장했을 것입니다. **nms:provisionRcp** 스키마로 및 저장할 데이터를 포함할 필드를 선언했습니다. 자세한 내용은 [추가 데이터 구성](#additional-data-configuration).
 
-오퍼 공간에서 **[!UICONTROL Storage]** 탭으로 이동하여 **[!UICONTROL Add]** 버튼을 클릭합니다.
+오퍼 공간에서 **[!UICONTROL Storage]** 탭을 클릭하고 **[!UICONTROL Add]** 버튼을 클릭합니다.
 
-**[!UICONTROL Storage path]** 열의 제안 테이블에서 저장소 필드를 선택합니다. **[!UICONTROL Expression]** 열의 **[!UICONTROL Interaction]** 노드에서 추가 필드를 선택합니다.
+에서 **[!UICONTROL Storage path]** 열에서 제안 테이블에서 저장소 필드를 선택합니다. 에서 **[!UICONTROL Expression]** 열의 경우, **[!UICONTROL Interaction]** 노드 아래에 있어야 합니다.
 
 제안이 생성되거나 수락될 때(사용자가 오퍼를 클릭하면) 호출 데이터를 검색할 수 있습니다.
 

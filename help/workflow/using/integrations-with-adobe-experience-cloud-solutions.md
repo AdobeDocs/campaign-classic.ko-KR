@@ -17,7 +17,7 @@ ht-degree: 8%
 
 ![](../../assets/common.svg)
 
-아래 자세히 설명된 워크플로우는 기본적으로 **Adobe Experience Cloud** 모듈과 통합으로 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [섹션](../../integrations/using/configuring-ims.md#installing-the-package)을 참조하십시오.
+아래 자세히 설명된 워크플로우는 **Adobe Experience Cloud과 통합** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../../integrations/using/configuring-ims.md#installing-the-package).
 
 <table> 
  <tbody> 
@@ -29,12 +29,12 @@ ht-degree: 8%
   <tr> 
    <td> <span class="uicontrol">Adobe Experience Cloud에서 대상자 가져오기</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
-   <td> 이 워크플로우를 통해 다른 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign에 가져올 수 있습니다.<br /> </td> 
+   <td> 이 워크플로우를 통해 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign에 가져올 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Adobe Experience Cloud으로 대상자 내보내기</span> <br /> </td> 
    <td> <span class="uicontrol">exportSharedAudience</span> <br /> </td> 
-   <td> 이 워크플로우는 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상은 사용하는 다른 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다.<br /> </td> 
+   <td> 이 워크플로우는 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상은 사용하는 다양한 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

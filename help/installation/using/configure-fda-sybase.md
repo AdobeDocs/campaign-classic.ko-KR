@@ -17,10 +17,10 @@ ht-degree: 0%
 
 ![](../../assets/v7-only.svg)
 
-Campaign **Federated Data Access** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 Sybase IQ 액세스를 구성합니다.
+캠페인 사용 **페더레이션 데이터 액세스** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 Sybase IQ 액세스를 구성합니다.
 
-1. [Sybase IQ 데이터베이스 구성](#configuring-sybase)
-1. Campaign에서 Sybase IQ [외부 계정](#sybase-external)을 구성합니다
+1. 구성 [sybase IQ 데이터베이스](#configuring-sybase)
+1. Sybase IQ 구성 [외부 계정](#sybase-external) in Campaign
 
 ## sybase IQ 구성 {#configuring-sybase}
 
@@ -28,15 +28,15 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
 
 >[!NOTE]
 >
->시작하기 전에 **unixodbc** 패키지가 서버에 있는지 확인하십시오.
+>시작하기 전에 **unixodbc** 패키지가 서버에 있습니다.
 
-1. **iq_odbc**&#x200B;를 설치합니다. 설치 종료 시 오류가 발생할 수 있습니다. 이 오류는 무시할 수 있습니다.
+1. 설치 **iq_odbc**. 설치 종료 시 오류가 발생할 수 있습니다. 이 오류는 무시할 수 있습니다.
 
-1. **iq_client_common**&#x200B;을 설치합니다. 설치 종료 시 Java 오류가 발생할 수 있습니다. 이 오류는 무시할 수 있습니다.
+1. 설치 **iq_client_common**. 설치 종료 시 Java 오류가 발생할 수 있습니다. 이 오류는 무시할 수 있습니다.
 
 1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다. 일반 매개 변수의 경우 /etc/odbc.ini, 드라이버 선언의 경우 /etc/odbcinst.ini:
 
-   * **/etc/odbc.ini** (문자처럼  `<server_alias>` 값을 직접 바꾸기):
+   * **/etc/odbc.ini** 다음 값 바꾸기 `<server_alias>` 문자 수:
 
       ```
       [ODBC Data Sources]
@@ -70,15 +70,15 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
 
 Sybase IQ 외부 계정을 사용하면 Campaign 인스턴스를 Sybase IQ 외부 데이터베이스에 연결할 수 있습니다.
 
-1. Campaign **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** &#39; **[!UICONTROL Platform]**&#39; **[!UICONTROL External accounts]**&#x200B;을(를) 클릭합니다.
+1. Campaign에서 **[!UICONTROL Explorer]**&#x200B;를 클릭합니다. **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
-1. **[!UICONTROL New]** 을 클릭하고 **[!UICONTROL External database]** 을 **[!UICONTROL Type]**(으)로 선택합니다.
+1. 클릭 **[!UICONTROL New]** 을(를) 선택합니다. **[!UICONTROL External database]** 로서의 **[!UICONTROL Type]**.
 
-1. **[!UICONTROL Sybase IQ]** 외부 계정을 구성하려면 다음을 지정해야 합니다.
+1. 를 구성하려면 **[!UICONTROL Sybase IQ]** 외부 계정입니다. 다음을 지정해야 합니다.
 
    * **[!UICONTROL Type]**: ODBC(Sybase ASE, Sybase IQ)
 
-   * **[!UICONTROL Server]**: 5단계에서 정의한 ODBC 연결(`<server_alias>`)에 해당합니다. 반드시 서버 자체의 이름일 필요는 없습니다.
+   * **[!UICONTROL Server]**: ODBC 연결에 해당합니다(`<server_alias>`)에 정의된 횟수 5단계에서 반드시 서버 자체의 이름일 필요는 없습니다.
 
    * **[!UICONTROL Account]**: 사용자의 이름
 

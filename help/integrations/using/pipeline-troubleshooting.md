@@ -16,17 +16,17 @@ ht-degree: 1%
 
 ![](../../assets/common.svg)
 
-**&quot;No task 가 pipelined@&lt;>&quot;라는 오류가 발생하여 피파이프라인이 실패합니다.**
+**&quot;No task 가 pipelled@&lt; instance >&quot;라는 오류가 발생하여 피파이프라인이 실패합니다.**
 
 사용 중인 Adobe Campaign Classic 버전은 파이프라인을 지원하지 않습니다.
 
-1. 구성 파일에 [!DNL pipelined] 요소가 있는지 확인합니다. 그렇지 않으면 지원되지 않음을 의미합니다.
-1. Campaign 20.3 또는 [!DNL Gold Standard] 11로 업그레이드하십시오.
+1. 다음을 확인하십시오. [!DNL pipelined] 요소가 구성 파일에 있습니다. 그렇지 않으면 지원되지 않음을 의미합니다.
+1. Campaign 20.3으로 업그레이드 또는 [!DNL Gold Standard] 11.
 
-**&quot;Aurait dunencer par  `[` ou(iRc=16384)&quot; `{` 로 파이프라인이 실패합니다.**
+**에피셀린드(pipeline)이 &quot;애송이 드온컴펜서 파&quot;로 실패했다 `[` ou `{` (iRc=16384)&quot;**
 
-**NmsPipeline_Config** 옵션이 설정되지 않았습니다. 실제로 JSON 구문 분석 오류입니다.
-**NmsPipeline_Config** 옵션에서 JSON 구성을 설정합니다. 이 페이지에서 &quot;라우팅 옵션&quot;을 참조하십시오.
+다음 **NmsPipeline_Config** 옵션이 설정되지 않았습니다. 실제로 JSON 구문 분석 오류입니다.
+옵션에서 JSON 구성 설정 **NmsPipeline_Config**. 이 페이지에서 &quot;라우팅 옵션&quot;을 참조하십시오.
 
 **피파이프라인 실패: &quot;주체가 올바른 조직이나 클라이언트여야 함&quot;**
 
@@ -42,9 +42,9 @@ ht-degree: 1%
 
 1. authPrivateKey 가 설정되어 있는지 확인합니다.
 1. authPrivateKey를 확인합니다. 다음으로 시작, 종료 =, 길이는 약 4000자입니다.
-1. 원래 키를 찾아 다음 키를 확인합니다. RSA 형식으로 4096비트가 길어지고 `-----BEGIN RSA PRIVATE KEY-----`으로 시작합니다.
+1. 원래 키를 찾아 다음 키를 확인합니다. RSA 포맷으로 4096비트 길이의 Dell은 `-----BEGIN RSA PRIVATE KEY-----`.
    <br> 필요한 경우 키를 다시 만들어 Adobe Analytics에 등록합니다.
-1. 키가 [!DNL pipelined] 인스턴스와 동일한 인스턴스 내에서 인코딩되었는지 확인합니다. <br>필요한 경우 샘플 JavaScript 또는 워크플로우를 사용하여 인코딩을 재실행합니다.
+1. 키가 와 동일한 인스턴스 내에서 인코딩되었는지 확인합니다. [!DNL pipelined]. <br>필요한 경우 샘플 JavaScript 또는 워크플로우를 사용하여 인코딩을 재실행합니다.
 
 **파이프라인이 &quot;인증 중에 토큰을 읽을 수 없습니다.&quot;로 실패합니다.**
 
@@ -67,17 +67,17 @@ ht-degree: 1%
 2021-05-31T08:43:09.160Z        66462   66501   1       error   log     Error while authenticating: '{"error":"This client: df73c224e5-triggers-test is no longer allowed to get access token."}' (iRc=16384)
 ```
 
-이 오류 메시지는 기존 Omniture 기본 OAuth를 사용하여 인증이 구성됨을 의미합니다. 인증을 업그레이드하려면 [Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성](../../integrations/using/configuring-adobe-io.md) 설명서를 참조하십시오.
+이 오류 메시지는 기존 Omniture 기본 OAuth를 사용하여 인증이 구성됨을 의미합니다. 자세한 내용은 [Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성](../../integrations/using/configuring-adobe-io.md) 인증을 업그레이드하기 위한 설명서입니다.
 
 **트리거가 검색되지 않음**
 
-[!DNL pipelined] 프로세스가 실행 중이고 트리거가 검색되지 않는 경우:
+이 [!DNL pipelined] 프로세스가 실행되고 있으며 트리거가 검색되지 않습니다.
 
 1. 트리거가 Analytics에서 활성화되어 있고 이벤트를 생성하고 있는지 확인합니다.
-1. [!DNL pipelined] 프로세스가 실행 중인지 확인합니다.
-1. [!DNL pipelined] 로그에서 오류를 찾습니다.
-1. [!DNL pipelined] 상태 페이지에서 오류를 찾습니다. trigger-discarted, trigger-failures는 0이어야 합니다.
-1. 트리거 이름이 **[!UICONTROL NmsPipeline_Config]** 옵션에 구성되어 있는지 확인합니다. 확실하지 않은 경우 와일드카드 옵션을 사용합니다.
+1. 다음을 확인합니다. [!DNL pipelined] 프로세스가 실행 중입니다.
+1. 에서 오류를 찾습니다. [!DNL pipelined] 로그.
+1. 에서 오류를 찾습니다. [!DNL pipelined] 상태 페이지입니다. trigger-discarted, trigger-failures는 0이어야 합니다.
+1. 트리거 이름이 **[!UICONTROL NmsPipeline_Config]** 선택 사항입니다. 확실하지 않은 경우 와일드카드 옵션을 사용합니다.
 1. Analytics에 활성 트리거가 있고 이벤트를 생성하고 있는지 확인합니다. 활성화되기 전에 Analytics에서 구성이 수행된 후 몇 시간이 지연될 수 있습니다.
 
 **이벤트가 고객에게 연결되지 않음**
@@ -95,9 +95,9 @@ Analytics 타임스탬프가 Campaign에서 이벤트의 생성 날짜보다 훨
 
 일반적으로 트리거는 마케팅 캠페인을 시작하는 데 15~90분이 걸릴 수 있습니다. 이것은 데이터 수집 구현, 파이프라인 로드, 정의된 트리거의 사용자 지정 구성 및 Adobe Campaign의 워크플로우에 따라 달라집니다.
 
-1. [!DNL pipelined] 프로세스가 실행 중인지 확인합니다.
+1. 다음을 확인하십시오. [!DNL pipelined] 프로세스가 실행 중입니다.
 1. 다시 시도할 수 있는 pipelined.log에서 오류를 찾습니다. 해당되는 경우 오류를 수정합니다.
-1. [!DNL pipelined] 상태 페이지에서 큐 크기를 확인합니다. 큐 크기가 큰 경우 JS 성능을 개선합니다.
+1. 을(를) 확인합니다. [!DNL pipelined] 큐 크기에 대한 상태 페이지입니다. 큐 크기가 큰 경우 JS 성능을 개선합니다.
 1. 지연이 볼륨에 따라 증가하는 것 같으므로 메시지 수를 줄여 Analytics에서 트리거를 구성합니다.
 
 **이전 인증에서 Adobe IO 인증으로 단계 인스턴스 업그레이드**

@@ -19,9 +19,9 @@ ht-degree: 1%
 
 트랜잭션 메시지는 몇 가지 인스턴스로 구성된 특정 아키텍처에 의존합니다.
 
-* 메시지 템플릿을 만들 **컨트롤 인스턴스**&#x200B;입니다.
+* A **제어 인스턴스**: 메시지 템플릿을 만들 수 있습니다.
 
-* 이벤트를 받고 메시지를 전달하는 하나 이상의 **실행 인스턴스**&#x200B;를 사용하십시오.
+* 하나 이상 **실행 인스턴스**: 이벤트를 받고 메시지를 전달합니다.
 
 ![](assets/messagecenter_diagram.png)
 
@@ -37,15 +37,15 @@ ht-degree: 1%
 >
 >제어 인스턴스와 실행 인스턴스는 다른 컴퓨터에 설치해야 합니다. 동일한 Campaign 인스턴스를 공유할 수 없습니다.
 
-여러 채널을 사용해야 하는 경우 트랜잭션 메시지 패키지를 설치하기 전에 관련 패키지를 설치하고 구성해야 합니다. 자세한 내용은 [게재 채널 추가](#adding-a-delivery-channel)를 참조하십시오.
+여러 채널을 사용해야 하는 경우 트랜잭션 메시지 패키지를 설치하기 전에 관련 패키지를 설치하고 구성해야 합니다. 자세한 내용은 [게재 채널 추가](#adding-a-delivery-channel).
 
 ## 컨트롤 인스턴스 {#control-instance}
 
-컴퓨터에 제어 인스턴스를 설치하려면 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** 메뉴를 통해 **[!UICONTROL Transactional message control]** 패키지를 선택합니다. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
+컴퓨터에 제어 인스턴스를 설치하려면 **[!UICONTROL Transactional message control]** 를 통해 패키지 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** 메뉴 아래의 제품에서 사용할 수 있습니다. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md).
 
 ![](assets/messagecenter_install_controlinstance_001.png)
 
-컨트롤 인스턴스를 구성하는 자세한 단계는 [이 섹션](../../message-center/using/configuring-instances.md#control-instance)에 나와 있습니다.
+컨트롤 인스턴스를 구성하는 자세한 단계는 [이 섹션](../../message-center/using/configuring-instances.md#control-instance).
 
 ### 여러 컨트롤 인스턴스 지원 {#supporting-several-control-instances}
 
@@ -59,15 +59,15 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->필요한 구성에 대한 자세한 내용은 [여러 제어 인스턴스 사용](../../message-center/using/configuring-instances.md#using-several-control-instances)을 참조하십시오.
+>필요한 구성에 대한 자세한 내용은 [여러 컨트롤 인스턴스 사용](../../message-center/using/configuring-instances.md#using-several-control-instances).
 
 ## 실행 인스턴스 {#execution-instance}
 
-컴퓨터에 실행 인스턴스를 설치하려면 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** 메뉴를 통해 **[!UICONTROL Transactional message execution]** 패키지를 선택합니다. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
+컴퓨터에 실행 인스턴스를 설치하려면 **[!UICONTROL Transactional message execution]** 를 통해 패키지 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** 메뉴 아래의 제품에서 사용할 수 있습니다. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md).
 
 ![](assets/messagecenter_install_executioninstance_001.png)
 
-실행 인스턴스를 구성하는 자세한 단계는 [이 섹션](../../message-center/using/configuring-instances.md#execution-instance)에 나와 있습니다.
+실행 인스턴스를 구성하는 자세한 단계는 [이 섹션](../../message-center/using/configuring-instances.md#execution-instance).
 
 ## 사용 가능한 게재 채널
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 ### 게재 채널 추가 {#adding-a-delivery-channel}
 
-Adobe은 트랜잭션 메시지 패키지&#x200B;**를 설치하기 전에 항상 배달 채널 패키지를 추가하는 것을 권장합니다.**
+Adobe은 다음을 수행하는 것을 권장합니다. **트랜잭션 메시지 패키지를 설치하기 전에 항상 게재 채널 패키지를 추가하십시오**.
 
 그러나 전자 메일 채널에서 트랜잭션 메시지 프로젝트를 시작한 다음 프로젝트 중에 새 채널을 추가하도록 결정한 경우 아래 단계를 따를 수 있습니다.
 
@@ -87,9 +87,9 @@ Adobe은 트랜잭션 메시지 패키지&#x200B;**를 설치하기 전에 항�
 >
 >이 절차는 작업 중인 것과 동일한 컴퓨터에 설치된 Windows NLServer를 사용하는 고객에게만 적용됩니다.
 
-1. 패키지 가져오기 마법사(**[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]**)를 사용하여 필요한 채널(예: **모바일 채널**)을 설치합니다.
-1. 파일 가져오기(**[!UICONTROL Tools > Advanced > Import package... > File]**)를 수행하고 **datakitnms **`[Your language]`**packagemessageCenter.xml** 파일을 선택합니다.
-1. **[!UICONTROL XML content of the data to import]**&#x200B;에서 추가된 채널에 해당하는 게재 템플릿만 유지합니다. 예를 들어, **모바일 채널**&#x200B;을 추가한 경우 **[!UICONTROL Mobile transactional message]**(smsTriggerMessage)에 해당하는 **entities** 요소만 유지합니다. **모바일 앱 채널**&#x200B;을 추가한 경우 **iOS 트랜잭션 메시지**(iosTriggerMessage) 및 **Android 트랜잭션 메시지**(androidTriggerMessage)만 유지합니다.
+1. 필요한 채널(예: **모바일 채널**&#x200B;패키지 가져오기 마법사 사용(**[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]**).
+1. 파일 가져오기 수행(**[!UICONTROL Tools > Advanced > Import package... > File]**)을 클릭하고 **datakitms **`[Your language]`**packagemessageCenter.xml** 파일.
+1. 에서 **[!UICONTROL XML content of the data to import]**&#x200B;를 채울 때는 추가한 채널에 해당하는 게재 템플릿만 유지합니다. 예를 들어, **모바일 채널**&#x200B;만 유지합니다 **개체** 에 해당하는 요소 **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). 를 추가한 경우 **모바일 앱 채널**&#x200B;만 유지합니다 **iOS 트랜잭션 메시지** (iosTriggerMessage) 및 **Android 트랜잭션 메시지** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 
@@ -134,18 +134,18 @@ You also have to enable the unitary mode on your offer spaces. For more on this,
 
 >[!NOTE]
 >
->모바일 앱 채널은 [이 섹션에 자세히 설명되어 있습니다.](../../delivery/using/about-mobile-app-channel.md)
+>모바일 앱 채널은에 자세히 설명되어 있습니다. [이 섹션](../../delivery/using/about-mobile-app-channel.md).
 
 모바일 앱 채널과 함께 트랜잭션 메시지 모듈을 사용하려면 다음 구성을 적용해야 합니다.
 
-1. **모바일 앱 채널** 패키지를 제어 및 실행 인스턴스에 설치합니다.
-1. **모바일 애플리케이션** 유형 Adobe Campaign 서비스와 실행 인스턴스에 포함된 모바일 애플리케이션을 복제합니다.
+1. 설치 **모바일 앱 채널** 를 제어 및 실행 인스턴스에 패키지화합니다.
+1. 복제 **모바일 애플리케이션** 실행 인스턴스에 포함된 모바일 애플리케이션과 Adobe Campaign 서비스를 입력합니다.
 
 이벤트에는 다음 요소가 포함되어야 합니다.
 
-* 모바일 장치 ID(**registrationId**, iOS용 **deviceToken**)입니다. 이 ID는 알림을 전송할 &quot;주소&quot;를 나타냅니다.
-* 모바일 애플리케이션 또는 통합 키(**uuid**)에 연결되는 링크로서, 애플리케이션 고유의 연결 정보를 복구할 수 있습니다.
-* 알림을 전송할 채널(**WonderedChannel**): iOS용 41 및 Android용 42
+* 모바일 장치 ID(**registrationId** Android 및 **deviceToken** iOS용). 이 ID는 알림을 전송할 &quot;주소&quot;를 나타냅니다.
+* 모바일 애플리케이션 또는 통합 키에 대한 링크(**uuid**)을 클릭하여 응용 프로그램과 관련된 연결 정보를 복구할 수 있습니다.
+* 알림을 전송할 채널(**whospredChannel**): iOS용 41 및 Android용 42
 * 개인화에 유용한 모든 데이터
 
 다음은 이 정보를 포함하는 이벤트의 예입니다.
@@ -179,23 +179,23 @@ You also have to enable the unitary mode on your offer spaces. For more on this,
 
 트랜잭션 메시지를 LINE 채널과 결합하여 소비자 모바일 장치에 설치된 LINE 앱에서 실시간 메시지를 보낼 수 있습니다. LINE 사용자가 브랜드 페이지를 추가할 때 환영 메시지를 전송하는 데 사용됩니다.
 
-LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **marketing** 인스턴스 및 **실행** 인스턴스의 구성에 다음 요소가 필요합니다.
+LINE에서 트랜잭션 메시지 모듈을 사용하려면 의 구성에 다음 요소가 필요합니다 **마케팅** 인스턴스 및 **실행** 인스턴스:
 
-* 두 인스턴스에 **[!UICONTROL LINE Connect]** 패키지를 설치합니다.
-* 마케팅 인스턴스에 **[!UICONTROL Transactional message control]** 패키지, 실행 인스턴스에 **[!UICONTROL Transactional message execution]** 패키지를 설치합니다.
-* 동기화하기 위해 동일한 이름을 가진 두 인스턴스에 LINE **외부 계정** 및 **서비스**&#x200B;를 만듭니다. LINE 외부 계정 및 서비스를 만드는 방법에 대한 자세한 내용은 [이 섹션](../../delivery/using/line-channel.md#setting-up-line-channel)을 참조하십시오.
+* 설치 **[!UICONTROL LINE Connect]** 패키지 를 사용하여 두 인스턴스를 모두 작동할 수 있습니다.
+* 설치 **[!UICONTROL Transactional message control]** 를 사용하여 마케팅 인스턴스에 패키지를 설정하고 **[!UICONTROL Transactional message execution]** 패키지 를 클릭합니다.
+* 선 만들기 **외부 계정** 및 **서비스** 두 인스턴스에 대해 동일한 이름을 지정하여 동기화해야 합니다. LINE 외부 계정 및 서비스를 만드는 방법에 대한 자세한 내용은 [이 섹션](../../delivery/using/line-channel.md#setting-up-line-channel).
 
-그런 다음 **[!UICONTROL Explorer]** **[!UICONTROL Platform]** > **[!UICONTROL External account]**&#x200B;에서 두 인스턴스에 서로 다른 외부 계정을 구성해야 합니다.
+그런 다음 **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UICONTROL External account]** 를 채울 때는 두 인스턴스 모두에서 다른 외부 계정을 구성해야 합니다.
 
-1. 다음 구성으로 **실행** 인스턴스에 **[!UICONTROL External database]** 외부 계정을 만듭니다.
+1. 만들기 **[!UICONTROL External database]** 외부 계정 **실행** 다음 구성이 있는 인스턴스:
 
    ![](assets/line_config_mc.png)
 
-   * **[!UICONTROL Label]** 및  **[!UICONTROL Internal name]** : 필요에 따라 외부 계정에 이름을 지정합니다.
-   * **[!UICONTROL Type]** : 을(를) 선택합니다  **[!UICONTROL External database]** .
+   * **[!UICONTROL Label]** 및 **[!UICONTROL Internal name]** : 필요에 따라 외부 계정에 이름을 지정합니다.
+   * **[!UICONTROL Type]** : 선택 **[!UICONTROL External database]** .
    * **[!UICONTROL Enabled]** 상자를 선택해야 합니다.
 
-   **[!UICONTROL Connection]** 범주에서:
+   에서 **[!UICONTROL Connection]** 범주:
 
    * **[!UICONTROL Type]** : 데이터베이스 서버(예: PostgresSQL)를 선택합니다.
    * **[!UICONTROL Server]** : 데이터베이스 서버 URL을 입력합니다.
@@ -210,44 +210,44 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **marketing** �
    * **[!UICONTROL Target of an HTTP relay to remote database's account]** 상자를 선택해야 합니다.
 
 
-1. 다음 구성으로 **marketing** 인스턴스에서 **[!UICONTROL External Database]** 계정을 만듭니다.
+1. 만들기 **[!UICONTROL External Database]** 계정 **마케팅** 인스턴스가 포함된 상태로 유지됩니다.
 
    ![](assets/line_config_mc_1.png)
 
-   * **[!UICONTROL Label]** 및  **[!UICONTROL Internal name]** : 필요에 따라 외부 계정에 이름을 지정합니다.
-   * **[!UICONTROL Type]** : 을(를) 선택합니다  **[!UICONTROL External database]** .
+   * **[!UICONTROL Label]** 및 **[!UICONTROL Internal name]** : 필요에 따라 외부 계정에 이름을 지정합니다.
+   * **[!UICONTROL Type]** : 선택 **[!UICONTROL External database]** .
    * Enabled 상자를 선택해야 합니다.
 
-   **[!UICONTROL Connection]** 범주에서:
+   에서 **[!UICONTROL Connection]** 범주:
 
-   * **[!UICONTROL Type]** : 을(를) 선택합니다  **[!UICONTROL HTTP relay to remote Database]** .
+   * **[!UICONTROL Type]** : 선택 **[!UICONTROL HTTP relay to remote Database]** .
    * **[!UICONTROL Server]** : 실행 인스턴스의 캠페인의 서버 URL을 입력합니다.
    * **[!UICONTROL Account]** : 실행 인스턴스에 액세스하는 데 사용된 계정을 입력합니다.
    * **[!UICONTROL Password]** : 실행 인스턴스에 액세스하는 데 사용된 계정의 암호를 입력합니다.
-   * **[!UICONTROL Data Source]** : 다음 구문을 입력합니다  **[!UICONTROL nms:extAccount:ID of your external database account in the execution instance]** .
+   * **[!UICONTROL Data Source]** : 다음 구문을 입력합니다. **[!UICONTROL nms:extAccount:ID of your external database account in the execution instance]** .
 
 
-1. 다음 구성을 사용하여 **marketing** 인스턴스에서 **[!UICONTROL Execution instance]** 외부 계정을 만들어 데이터 동기화 워크플로우를 만듭니다.
+1. 만들기 **[!UICONTROL Execution instance]** 외부 계정 **마케팅** 다음 구성을 사용하여 데이터 동기화 워크플로우를 만드는 인스턴스:
 
    ![](assets/line_config_mc_2.png)
 
-   * **[!UICONTROL Label]** 및  **[!UICONTROL Internal name]** : 필요에 따라 외부 계정에 이름을 지정합니다.
-   * **[!UICONTROL Type]** : 을(를) 선택합니다  **[!UICONTROL Execution instance]** .
+   * **[!UICONTROL Label]** 및 **[!UICONTROL Internal name]** : 필요에 따라 외부 계정에 이름을 지정합니다.
+   * **[!UICONTROL Type]** : 선택 **[!UICONTROL Execution instance]** .
    * Enabled 상자를 선택해야 합니다.
 
-   **[!UICONTROL Connection]** 범주에서:
+   에서 **[!UICONTROL Connection]** 범주:
 
    * **[!UICONTROL URL]** : 실행 인스턴스의 URL을 입력합니다.
    * **[!UICONTROL Account]** : 실행 인스턴스에 액세스하는 데 사용한 계정을 입력합니다.
    * **[!UICONTROL Password]** : 실행 인스턴스에 액세스하는 데 사용된 계정의 암호를 입력합니다.
 
-   **[!UICONTROL Account connection method]** 범주에서:
+   에서 **[!UICONTROL Account connection method]** 범주:
 
-   * **[!UICONTROL Method]** : 을(를) 선택합니다  **[!UICONTROL Federated Data Access (FDA)]** .
+   * **[!UICONTROL Method]** : 선택 **[!UICONTROL Federated Data Access (FDA)]** .
    * **[!UICONTROL FDA account]** : 드롭다운에서 FDA 계정을 선택합니다.
    * **[!UICONTROL Create the archiving workflow]** 버튼을 클릭합니다.
-   * **[!UICONTROL Create data synchronization workflow]** 단추를 클릭하여 LINE 데이터 동기화 워크플로우를 만듭니다.
+   * 을(를) 클릭합니다. **[!UICONTROL Create data synchronization workflow]** LINE 데이터 동기화 워크플로우를 만드는 단추.
 
 
 
-1. 이제 [트랜잭션 메시지 만들기](../../message-center/using/creating-the-message-template.md)를 시작할 수 있습니다.
+1. 이제 시작할 수 있습니다 [트랜잭션 메시지 만들기](../../message-center/using/creating-the-message-template.md).

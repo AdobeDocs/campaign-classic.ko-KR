@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ![](../../assets/common.svg)
 
-**[!UICONTROL Enrichment]** 활동을 사용하면 프로필 목록에 정보를 추가하고 기존 테이블에 연결합니다(새 조인을 만듭니다). 데이터베이스에 있는 프로필의 조정 기준도 정의할 수 있습니다.
+다음 **[!UICONTROL Enrichment]** 활동을 사용하면 프로필 목록에 정보를 추가하고 기존 테이블에 연결하는 링크를 추가할 수 있습니다(새 조인 생성). 데이터베이스에 있는 프로필의 조정 기준도 정의할 수 있습니다.
 
 ![](assets/enrichment_design.png)
 
@@ -27,14 +27,14 @@ ht-degree: 2%
 
 ![](assets/enrichment_edit.png)
 
-**[!UICONTROL Data linked to the filtering dimension]** 옵션을 사용하면 다음 항목에 액세스할 수 있습니다.
+다음 **[!UICONTROL Data linked to the filtering dimension]** 옵션을 사용하면 다음 항목에 액세스할 수 있습니다.
 
 * 필터링 차원의 데이터: 작업 테이블 데이터 액세스
 * 필터링 차원에 연결된 데이터: 작업 테이블에 연결된 데이터에 대한 액세스
 
 ![](assets/wf_enrich_linkoptions.png)
 
-**[!UICONTROL A link]** 옵션을 사용하면 데이터베이스의 테이블에 조인을 생성할 수 있습니다.
+다음 **[!UICONTROL A link]** 옵션을 사용하면 데이터베이스의 테이블에 조인을 생성할 수 있습니다.
 
 ![](assets/wf_enrich_linkstype.png)
 
@@ -44,11 +44,11 @@ ht-degree: 2%
 * **[!UICONTROL Define a link whose target is still available]**: 테이블 간에 1-1 카디널리티를 사용하는 링크를 정의할 수 있습니다. 조인 조건은 대상 테이블의 단일 레코드로 정의되어야 합니다.
 * **[!UICONTROL Define a link whose target does not necessarily exist in the base]**: 테이블 간에 0-1 카디널리티를 사용하는 링크를 정의할 수 있습니다. 조인 조건은 0 또는 1(최대)으로 정의되어야 합니다. 레코드를 타겟 테이블에 추가합니다.
 
-   이 옵션은 **[!UICONTROL Simple Join]** 탭에서 **[!UICONTROL Enrichment]** 활동의 **[!UICONTROL Edit additional data]** 링크를 통해 액세스할 수 있습니다.
+   이 옵션은 **[!UICONTROL Simple Join]** 를 통해 액세스할 수 있는 탭 **[!UICONTROL Edit additional data]** 링크 **[!UICONTROL Enrichment]** 활동.
 
 * **[!UICONTROL Define a link by searching for a reference among several options]**: 이 유형의 링크는 고유한 레코드에 대한 조정을 정의합니다. Adobe Campaign은 대상 테이블에 고유한 레코드에 대한 참조를 저장하기 위한 외래 키를 추가하여 대상 테이블에 대한 링크를 생성합니다.
 
-   이 옵션은 **[!UICONTROL Reconciliation and deduplication]** 탭에서 **[!UICONTROL Enrichment]** 활동의 **[!UICONTROL Edit additional data]** 링크를 통해 액세스할 수 있습니다.
+   이 옵션은 **[!UICONTROL Reconciliation and deduplication]** 를 통해 액세스할 수 있는 탭 **[!UICONTROL Edit additional data]** 링크 **[!UICONTROL Enrichment]** 활동.
 
 컨텍스트에서 데이터 보강 활동 운영을 자세히 설명하는 사용 사례는 다음 섹션에서도 사용할 수 있습니다.
 
@@ -58,13 +58,13 @@ ht-degree: 2%
 
 ## 정보 추가 {#adding-information}
 
-작업 테이블에 열을 추가하려면 **[!UICONTROL Enrichment]** 활동을 사용하십시오. 이 활동은 쿼리 활동을 보완하는 것으로 사용할 수 있습니다.
+를 사용하십시오 **[!UICONTROL Enrichment]** 작업 테이블에 열을 추가하는 활동: 이 활동은 쿼리 활동을 보완하는 것으로 사용할 수 있습니다.
 
-추가 열 구성은 [데이터 추가](query.md#adding-data)에 자세히 설명되어 있습니다.
+추가 열 구성은 [데이터 추가](query.md#adding-data).
 
-**[!UICONTROL Primary set]** 필드를 사용하면 인바운드 전환을 선택할 수 있습니다. 이 활동의 작업 테이블에 대한 데이터가 보강됩니다.
+다음 **[!UICONTROL Primary set]** 필드를 사용하면 인바운드 전환을 선택할 수 있습니다. 이 활동의 작업 테이블에 대한 데이터가 보강됩니다.
 
-**[!UICONTROL Add data]** 링크를 클릭하고 추가할 데이터 유형을 선택합니다. 제공되는 데이터 유형 목록은 플랫폼에 설치된 모듈 및 옵션에 따라 다릅니다. 최소 구성에서는 항상 필터링 차원 및 링크에 연결된 데이터를 추가할 수 있습니다.
+을(를) 클릭합니다. **[!UICONTROL Add data]** 을 링크하고 추가할 데이터 유형을 선택합니다. 제공되는 데이터 유형 목록은 플랫폼에 설치된 모듈 및 옵션에 따라 다릅니다. 최소 구성에서는 항상 필터링 차원 및 링크에 연결된 데이터를 추가할 수 있습니다.
 
 ![](assets/enrichment_edit.png)
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 
 ## 추가 데이터 관리 {#managing-additional-data}
 
-이전에 정의한 추가 데이터를 유지하지 않으려면 **[!UICONTROL Keep all additional data from the main set]** 옵션을 선택 취소합니다. 이 경우 데이터 보강 활동에서 선택한 추가 열만 보내는 작업 테이블에 추가됩니다. 활동 업스트림에 추가된 추가 정보는 저장되지 않습니다.
+선택 취소 **[!UICONTROL Keep all additional data from the main set]** 이전에 정의한 추가 데이터를 보관하지 않으려는 경우 선택합니다. 이 경우 데이터 보강 활동에서 선택한 추가 열만 보내는 작업 테이블에 추가됩니다. 활동 업스트림에 추가된 추가 정보는 저장되지 않습니다.
 
 ![](assets/enrichment_edit_without_additional.png)
 
@@ -121,11 +121,11 @@ ht-degree: 2%
    83TY2;SWITZERLAND;mike@gmail.com
    ```
 
-1. 데이터 보강 활동을 편집하고 **데이터 추가... 를 클릭합니다.국가 테이블과 조인을 만들려면** 링크를 클릭합니다.
+1. 데이터 보강 활동을 편집하고 **데이터 추가...** 국가 테이블과 조인을 만드는 링크입니다.
 
    ![](assets/enrichment_edit_after_file_box.png)
 
-1. **[!UICONTROL Link definition]** 옵션을 선택하고 **[!UICONTROL Next]** 버튼을 클릭합니다. 만들 링크의 유형을 지정합니다. 이 예제에서는 파일 수신자의 국가를 데이터베이스의 전용 테이블에 있는 사용 가능한 국가 목록의 국가와 조정하려고 합니다. **[!UICONTROL Define a link by searching for a reference among several options]** 옵션을 선택합니다. **[!UICONTROL Target schema]** 필드에서 국가 테이블을 선택합니다.
+1. 을(를) 선택합니다 **[!UICONTROL Link definition]** 옵션을 선택하고 **[!UICONTROL Next]** 버튼을 클릭합니다. 만들 링크의 유형을 지정합니다. 이 예제에서는 파일 수신자의 국가를 데이터베이스의 전용 테이블에 있는 사용 가능한 국가 목록의 국가와 조정하려고 합니다. **[!UICONTROL Define a link by searching for a reference among several options]** 옵션을 선택합니다. 에서 국가 테이블을 선택합니다 **[!UICONTROL Target schema]** 필드.
 
    ![](assets/enrichment_add_a_link_select_option4.png)
 
@@ -141,7 +141,7 @@ ht-degree: 2%
 
 데이터 보강 활동을 사용하여 데이터베이스에 데이터가 로드되면 포함하여 데이터 조정을 구성할 수 있습니다. 이 경우 **[!UICONTROL Reconciliation]** 탭에서는 Adobe Campaign 데이터베이스의 데이터와 작업 테이블의 데이터 간의 링크를 정의할 수 있습니다.
 
-**[!UICONTROL Identify the targeting document based on work data]** 옵션을 선택하고 링크를 생성할 스키마를 지정하고 조인 조건을 정의합니다. 이렇게 하려면 작업 데이터(**[!UICONTROL Source expression]**) 및 타겟팅 차원(**[!UICONTROL Destination expression]**)에서 조정할 필드를 선택합니다.
+을(를) 선택합니다 **[!UICONTROL Identify the targeting document based on work data]** 옵션을 선택하면 링크를 생성할 스키마를 지정하고 조인 조건을 정의합니다. 이렇게 하려면 작업 데이터(**[!UICONTROL Source expression]**) 및 를 타겟팅 차원( )에서 사용할 수 있습니다.**[!UICONTROL Destination expression]**).
 
 하나 이상의 조정 기준을 사용할 수 있습니다.
 
@@ -153,24 +153,24 @@ ht-degree: 2%
 
 데이터 보강 활동을 통해 게재 수신자를 위한 오퍼에 오퍼나 링크를 추가할 수 있습니다.
 
-데이터 보강 활동에 대한 자세한 내용은 이 [섹션](enrichment.md)을 참조하십시오.
+데이터 보강 활동에 대한 자세한 내용은 다음을 참조하십시오 [섹션](enrichment.md).
 
 예를 들어 게재 전에 수신자 쿼리의 데이터를 보강할 수 있습니다.
 
 ![](assets/int_enrichment_offer1.png)
 
-쿼리를 구성한 후( 이 [섹션](query.md) 참조):
+쿼리를 구성한 후 다음을 참조하십시오 [섹션](query.md)):
 
 1. 데이터 보강 활동을 추가하고 엽니다.
 1. **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;를 선택합니다.
-1. 추가할 데이터 유형에서 **[!UICONTROL An offer proposition]** 을 선택합니다.
+1. 선택 **[!UICONTROL An offer proposition]** 추가할 데이터 유형에서 을 참조하십시오.
 
    ![](assets/int_enrichment_offer2.png)
 
 1. 추가할 제안에 대한 레이블과 식별자를 지정합니다.
 1. 오퍼 선택을 지정합니다. 다음 두 가지 옵션을 사용할 수 있습니다.
 
-   * **[!UICONTROL Search for the best offer in a category]**: 이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마), 연락 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. 두 필드를 동시에 완료하지 않고 **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드를 완료하는 것이 좋습니다.
+   * **[!UICONTROL Search for the best offer in a category]**: 이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마), 연락 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. 다음 중 하나를 완료하는 것이 좋습니다 **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드(동시에 둘 다 아님).
 
       ![](assets/int_enrichment_offer3.png)
 
@@ -178,11 +178,11 @@ ht-degree: 2%
 
       ![](assets/int_enrichment_offer4.png)
 
-1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [채널 간 게재](cross-channel-deliveries.md)를 참조하십시오.
+1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. 을(를) 참조하십시오. [크로스 채널 게재](cross-channel-deliveries.md).
 
    미리 보기에 사용할 수 있는 proposition 수는 게재에서 직접 수행되는 구성 대신 데이터 보강 활동에서 수행되는 구성에 따라 다릅니다.
 
-오퍼 제안을 지정하려면 오퍼에 대한 링크를 참조하도록 선택할 수도 있습니다. 이에 대한 자세한 내용은 다음 섹션 [오퍼](#referencing-a-link-to-an-offer)에 대한 링크 참조 을 참조하십시오.
+오퍼 제안을 지정하려면 오퍼에 대한 링크를 참조하도록 선택할 수도 있습니다. 자세한 정보는 다음 섹션을 참조하십시오 [오퍼 링크 참조](#referencing-a-link-to-an-offer).
 
 ## 오퍼 링크 참조 {#referencing-a-link-to-an-offer}
 
@@ -190,8 +190,8 @@ ht-degree: 2%
 
 방법은 다음과 같습니다.
 
-1. 활동의 **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;을 선택합니다.
-1. 추가할 데이터 유형을 선택한 창에서 **[!UICONTROL A link]** 을 선택합니다.
+1. 선택 **[!UICONTROL Add data]** 활동 **[!UICONTROL Enrichment]** 탭.
+1. 추가할 데이터 유형을 선택하는 창에서 **[!UICONTROL A link]**.
 1. 설정할 링크의 유형과 타겟을 선택합니다. 이 경우 대상은 오퍼 스키마입니다.
 
    ![](assets/int_enrichment_link1.png)
@@ -200,7 +200,7 @@ ht-degree: 2%
 
    ![](assets/int_enrichment_link2.png)
 
-1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [채널 간 게재](cross-channel-deliveries.md)를 참조하십시오.
+1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. 을(를) 참조하십시오. [크로스 채널 게재](cross-channel-deliveries.md).
 
    >[!NOTE]
    >
@@ -208,21 +208,21 @@ ht-degree: 2%
 
 ## 오퍼 순위 및 가중치 저장 {#storing-offer-rankings-and-weights}
 
-기본적으로 **데이터 보강** 활동을 사용하여 오퍼를 제공하는 경우, 해당 순위와 가중치는 제안 테이블에 저장되지 않습니다.
+기본적으로 **데이터 보강** 활동은 오퍼를 전달하는 데 사용되며, 그 순위 및 가중치는 제안 테이블에 저장되지 않습니다.
 
-**[!UICONTROL Offer engine]** 활동은 기본적으로 이 정보를 저장합니다.
+다음 **[!UICONTROL Offer engine]** 활동은 기본적으로 이 정보를 저장합니다.
 
 그러나 다음과 같이 이 정보를 저장할 수 있습니다.
 
 1. 쿼리 뒤에, 게재 활동 전에 배치된 데이터 보강 활동에서 오퍼 엔진에 대한 호출을 만듭니다.
-1. 활동의 기본 창에서 **[!UICONTROL Edit additional data...]** 을 선택합니다.
+1. 활동의 기본 창에서 을(를) 선택합니다 **[!UICONTROL Edit additional data...]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
 
-1. 순위 및 오퍼 가중치에 대한 **[!UICONTROL @rank]** 열을 추가합니다.**[!UICONTROL @weight]**
+1. 추가 **[!UICONTROL @rank]** 등급 및 열 **[!UICONTROL @weight]** 제안 가중치입니다.
 
    ![](assets/ita_enrichment_rankweight_2.png)
 
 1. 추가를 확인하고 워크플로우를 저장합니다.
 
-게재는 오퍼의 등급 및 가중치를 자동으로 저장합니다. 이 정보는 게재의 **[!UICONTROL Offers]** 탭에 표시됩니다.
+게재는 오퍼의 등급 및 가중치를 자동으로 저장합니다. 이 정보는 게재의 **[!UICONTROL Offers]** 탭.

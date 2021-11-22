@@ -25,7 +25,7 @@ Adobe Campaign 워크플로우를 통해 프로세스와 작업을 오케스트�
 
 ## Campaign에서 데이터를 가져오려면 어떻게 해야 합니까? {#how-can-i-import-data-in-campaign-}
 
-[이 섹션](../../platform/using/import-export-best-practices.md)에서 데이터를 가져오는 모범 사례에 대해 배웁니다.
+에서 데이터를 가져오는 모범 사례에 대해 배웁니다. [이 섹션](../../platform/using/import-export-best-practices.md).
 
 ## 워크플로우 실행을 모니터링할 수 있습니까? {#can-i-monitor-workflow-execution-}
 

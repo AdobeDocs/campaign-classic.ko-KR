@@ -25,4 +25,4 @@ Adobe Campaign의 모듈식 설계를 통해 독립형 설정(한 시스템의 �
 >
 >예를 들어 서버 및 인스턴스 구성 파일을 구성하기 위해 Adobe이 호스팅하는 배포에 대한 Adobe의 기본 설치 구성 단계만 수행할 수 있습니다.
 >
->배포 간의 주요 차이점에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션이나 [호스팅 및 온-프레미스 배포에 대한 기능 차이점](../../installation/using/capability-matrix.md)을 참조하십시오.
+>배포 간의 주요 차이점에 대해 자세히 알아보려면 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [호스팅 및 온-프레미스 배포에 대한 기능 차이점](../../installation/using/capability-matrix.md).

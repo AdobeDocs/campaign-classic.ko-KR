@@ -17,18 +17,18 @@ ht-degree: 1%
 
 ![](../../assets/v7-only.svg)
 
-Campaign **Federated Data Access** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. hadoop 액세스를 구성하려면 아래 단계를 따르십시오.
+캠페인 사용 **페더레이션 데이터 액세스** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. hadoop 액세스를 구성하려면 아래 단계를 따르십시오.
 
-1. [Hadoop 데이터베이스 구성](#configuring-hadoop)
-1. Campaign에서 Hadoop [외부 계정](#hadoop-external)을 구성합니다
+1. 구성 [Hadoop 데이터베이스](#configuring-hadoop)
+1. hadoop 구성 [외부 계정](#hadoop-external) in Campaign
 
 ## hadoop 3.0 구성 {#configuring-hadoop}
 
 FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서버에서 다음 구성이 필요합니다. 이 구성은 Windows와 Linux 모두에서 사용할 수 있습니다.
 
-1. OS 버전에 따라 Hadoop용 ODBC 드라이버를 다운로드합니다. 드라이버는 [이 페이지](https://www.cloudera.com/downloads.html)에서 찾을 수 있습니다.
+1. OS 버전에 따라 Hadoop용 ODBC 드라이버를 다운로드합니다. 드라이버는 다음 위치에서 찾을 수 있습니다. [이 페이지](https://www.cloudera.com/downloads.html).
 
-1. 그런 다음 ODBC 드라이버를 설치하고 하이브 연결에 대한 DSN을 만들어야 합니다. 지침은 [이 페이지](https://docs.cloudera.com/documentation/other/connectors/hive-odbc/2-6-5/Cloudera-ODBC-Driver-for-Apache-Hive-Install-Guide.pdf)에서 찾을 수 있습니다
+1. 그런 다음 ODBC 드라이버를 설치하고 하이브 연결에 대한 DSN을 만들어야 합니다. 지침은 [이 페이지](https://docs.cloudera.com/documentation/other/connectors/hive-odbc/2-6-5/Cloudera-ODBC-Driver-for-Apache-Hive-Install-Guide.pdf)
 
 1. ODBC 드라이버를 다운로드하여 설치한 후에는 Campaign Classic을 다시 시작해야 합니다. 이렇게 하려면 다음 명령을 실행합니다.
 
@@ -37,19 +37,19 @@ FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서
    systemctl start nlserver.service
    ```
 
-1. 그런 다음 Campaign Classic에서 [!DNL Hadoop] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#hadoop-external)을 참조하십시오.
+1. 그런 다음 Campaign Classic에서 [!DNL Hadoop] 외부 계정. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#hadoop-external).
 
 ## 외부 계정 hadoop {#hadoop-external}
 
-[!DNL Hadoop] 외부 계정을 사용하면 Campaign 인스턴스를 Hadoop 외부 데이터베이스에 연결할 수 있습니다.
+다음 [!DNL Hadoop] 외부 계정을 사용하면 Campaign 인스턴스를 Hadoop 외부 데이터베이스에 연결할 수 있습니다.
 
-1. Campaign Classic에서 [!DNL Hadoop] 외부 계정을 구성합니다. **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**&#x200B;를 클릭합니다.
+1. Campaign Classic에서 [!DNL Hadoop] 외부 계정. 에서 **[!UICONTROL Explorer]**&#x200B;를 클릭합니다. **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
-1. 외부 계정의 **[!UICONTROL Type]**(으)로 **[!UICONTROL External database]**&#x200B;을(를) 선택합니다.
+1. 선택 **[!UICONTROL External database]** 외부 계정 **[!UICONTROL Type]**.
 
-1. **[!UICONTROL Hadoop]** 외부 계정을 구성합니다. 다음을 지정해야 합니다.
+1. 구성 **[!UICONTROL Hadoop]** 외부 계정입니다. 다음을 지정해야 합니다.
 
    * **[!UICONTROL Type]**: ODBC(Sybase ASE, Sybase IQ)
 
@@ -84,11 +84,11 @@ FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서
 
 ## hadoop 2.1 구성 {#configure-access-hadoop-2}
 
-hadoop 2.1에 연결해야 하는 경우 [Windows](#for-windows) 또는 [Linux](#for-linux)에 대해 아래 설명된 단계를 따르십시오.
+hadoop 2.1에 연결해야 하는 경우 아래 설명된 절차를 따르십시오. [Windows](#for-windows) 또는 [Linux](#for-linux).
 
 ### Windows용 hadoop 2.1 {#for-windows}
 
-1. Windows용 ODBC 및 [Azure HD Insight](https://www.microsoft.com/en-us/download/details.aspx?id=40886) 드라이버를 설치합니다.
+1. ODBC 및 설치 [Azure HD Insight](https://www.microsoft.com/en-us/download/details.aspx?id=40886) Windows용 드라이버.
 1. ODBC DataSource Administrator 도구를 실행하여 DSN(데이터 원본 이름)을 만듭니다. 수정할 수 있는 하이브의 시스템 DSN 샘플이 제공됩니다.
 
    ```
@@ -100,7 +100,7 @@ hadoop 2.1에 연결해야 하는 경우 [Windows](#for-windows) 또는 [Linux](
    User/Password: admin/<your password here>
    ```
 
-1. [이 섹션](#hadoop-external)에 자세히 설명된 대로 Hadoop 외부 계정을 만듭니다.
+1. 에 자세히 설명된 대로 Hadoop 외부 계정을 만듭니다. [이 섹션](#hadoop-external).
 
 ### Linux용 hadoop 2.1 {#for-linux}
 
@@ -110,7 +110,7 @@ hadoop 2.1에 연결해야 하는 경우 [Windows](#for-windows) 또는 [Linux](
    apt-get install unixodbc
    ```
 
-1. HortonWorks에서 Apache Hive용 ODBC 드라이버를 다운로드하고 설치합니다. [https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html)
+1. HortonWorks에서 Apache Hive용 ODBC 드라이버를 다운로드하고 설치합니다. [https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html).
 
    ```
    dpkg -i hive-odbc-native_2.1.10.1014-2_amd64.deb
@@ -153,9 +153,9 @@ hadoop 2.1에 연결해야 하는 경우 [Windows](#for-windows) 또는 [Linux](
 
    >[!NOTE]
    >
-   >여기서 **UseNativeQuery** 매개 변수는 매우 중요합니다. Campaign은 하이브를 인식하며 UseNativeQuery가 설정되지 않은 경우 올바르게 작동하지 않습니다. 일반적으로 드라이버 또는 하이브 SQL 커넥터는 쿼리를 다시 작성하고 열 순서를 변경합니다.
+   >다음 **UseNativeQuery** 여기에서 매개 변수는 매우 중요합니다. Campaign은 하이브를 인식하며 UseNativeQuery가 설정되지 않은 경우 올바르게 작동하지 않습니다. 일반적으로 드라이버 또는 하이브 SQL 커넥터는 쿼리를 다시 작성하고 열 순서를 변경합니다.
 
-   인증 설정은 하이브/Hadoop 구성에 따라 다릅니다. 예를 들어, HD Insight의 경우 [여기](https://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm)에 설명된 대로 사용자/암호 인증에 AuthTech=6 을 사용합니다.
+   인증 설정은 하이브/Hadoop 구성에 따라 다릅니다. 예를 들어 HD Insight의 경우 설명된 대로 사용자/암호 인증에는 AuthTech=6 을 사용합니다 [여기](https://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm).
 
 1. 변수를 내보냅니다.
 
@@ -187,4 +187,4 @@ hadoop 2.1에 연결해야 하는 경우 [Windows](#for-windows) 또는 [Linux](
    isql vorac -v
    ```
 
-1. [이 섹션](#hadoop-external)에 자세히 설명된 대로 Hadoop 외부 계정을 만듭니다.
+1. 에 자세히 설명된 대로 Hadoop 외부 계정을 만듭니다. [이 섹션](#hadoop-external).

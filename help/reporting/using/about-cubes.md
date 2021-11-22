@@ -17,7 +17,7 @@ ht-degree: 10%
 
 ![](../../assets/common.svg)
 
-데이터베이스에서 데이터 탐색은 **Marketing Analytics** 모듈을 통해 제공됩니다. 이를 통해 데이터를 분석 및 측정하고, 통계를 계산하며, 보고서 작성 및 계산을 간소화 및 최적화할 수 있습니다. 이 외에도 Marketing Analytics를 사용하여 보고서를 만들고 대상 모집단을 작성할 수 있습니다. 식별되면 Adobe Campaign에서 사용할 수 있는 목록(타깃팅, 세그멘테이션 등)에 저장됩니다.
+데이터베이스에서 데이터 탐색은 를 통해 제공됩니다 **Marketing Analytics** 모듈. 이를 통해 데이터를 분석 및 측정하고, 통계를 계산하며, 보고서 작성 및 계산을 간소화 및 최적화할 수 있습니다. 이 외에도 Marketing Analytics를 사용하여 보고서를 만들고 대상 모집단을 작성할 수 있습니다. 식별되면 Adobe Campaign에서 사용할 수 있는 목록(타깃팅, 세그멘테이션 등)에 저장됩니다.
 
 큐브는 게재 보고서(게재 추적, 클릭, 열기 등)를 포함하여 특정 기본 제공된 보고서를 생성하는 데 사용됩니다. 큐브를 기반으로 하는 보고서는 500만 개의 팩트 라인 이하의 데이터 볼륨에 대한 표준으로만 사용될 수 있습니다.
 
@@ -27,7 +27,7 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->**마케팅** 분석 및 Adobe Campaign 모듈. 아래 설명된 기능을 사용할 수 있도록 인스턴스에 설치해야 합니다.
+>**Marketing Analytics** 는 Adobe Campaign 모듈입니다. 아래 설명된 기능을 사용할 수 있도록 인스턴스에 설치해야 합니다.
 
 Marketing Analytics 모듈을 사용하면 Campaign을 통해 다음을 수행할 수 있습니다.
 
@@ -37,7 +37,7 @@ Marketing Analytics 모듈을 사용하면 Campaign을 통해 다음을 수행�
    * 보고서 및 쿼리에 사용되는 다양한 계산과 관련된 데이터의 양을 줄여 지표 계산 시간을 크게 최적화합니다.
    * 데이터에 대한 액세스를 간소화하여 다양한 차원에 따라 데이터를 사전 집계했는지 여부에 관계없이 조작할 수 있습니다.
 
-   자세한 내용은 [표시기 만들기](../../reporting/using/creating-indicators.md)를 참조하십시오.
+   자세한 내용은 [표시기 만들기](../../reporting/using/creating-indicators.md).
 
 1. 다음 보기에서 피벗 테이블 만들기:
 
@@ -46,7 +46,7 @@ Marketing Analytics 모듈을 사용하면 Campaign을 통해 다음을 수행�
    * 사용된 측정 단위 및 지표 개인화,
    * 기술 지식이 없는 사용자에게 대화형 분석 도구 제공
 
-   자세한 내용은 [큐브를 사용하여 데이터 탐색](../../reporting/using/using-cubes-to-explore-data.md) 을 참조하십시오.
+   자세한 내용은 [큐브를 사용하여 데이터 탐색](../../reporting/using/using-cubes-to-explore-data.md).
 
 1. 큐브에서 계산 및 합계된 데이터를 사용하여 쿼리를 작성합니다.
 1. 모집단을 식별하고 목록에서 참조합니다.
@@ -83,30 +83,30 @@ Marketing Analytics 모듈을 사용하면 Campaign을 통해 다음을 수행�
 
 ## 큐브 작업 공간 {#cube-workspace}
 
-큐브는 **[!UICONTROL Administration > Configuration > Cubes]** 노드에 저장됩니다.
+큐브는 **[!UICONTROL Administration > Configuration > Cubes]** 노드 아래에 있어야 합니다.
 
 ![](assets/s_advuser_cube_node.png)
 
 큐브에 대한 사용 주요 컨텍스트는 다음과 같습니다.
 
-* 데이터 내보내기는 Adobe Campaign 플랫폼의 **[!UICONTROL Reports]** 탭에서 디자인한 보고서에서 직접 수행할 수 있습니다.
+* 데이터 내보내기는 보고서에서 직접 수행할 수 있으며, **[!UICONTROL Reports]** Adobe Campaign 플랫폼의 탭입니다.
 
    이렇게 하려면 새 보고서를 만들고 사용할 큐브를 선택합니다.
 
    ![](assets/cube_create_new.png)
 
-   큐브는 보고서를 만들 때 사용하는 템플릿과 같습니다. 템플릿을 선택한 후 **[!UICONTROL Create]** 을 클릭하여 일치하는 보고서를 구성하고 봅니다.
+   큐브는 보고서를 만들 때 사용하는 템플릿과 같습니다. 템플릿을 선택한 후에는 **[!UICONTROL Create]** 일치하는 보고서를 구성하고 보려면
 
    측정을 조정하거나, 표시 모드를 변경하거나, 테이블을 구성한 다음, 기본 버튼을 사용하여 보고서를 표시할 수 있습니다.
 
    ![](assets/cube_display_new.png)
 
-* 보고서의 **[!UICONTROL Query]** 상자에서 큐브를 참조하여 아래 표시된 대로 지표를 사용할 수도 있습니다.
+* 또한 **[!UICONTROL Query]** 아래와 같이 지표를 사용할 보고서 상자:
 
    ![](assets/s_advuser_query_using_a_cube.png)
 
-* 큐브를 기반으로 하는 피벗 테이블을 보고서의 페이지에 삽입할 수도 있습니다. 이렇게 하려면 관련 페이지의 피벗 테이블의 **[!UICONTROL Data]** 탭에서 사용할 큐브를 참조합니다.
+* 큐브를 기반으로 하는 피벗 테이블을 보고서의 페이지에 삽입할 수도 있습니다. 이렇게 하려면 **[!UICONTROL Data]** 관련 페이지의 피벗 테이블 탭
 
    ![](assets/s_advuser_cube_in_report.png)
 
-   자세한 내용은 [보고서에서 데이터 탐색](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report)을 참조하십시오.
+   자세한 내용은 [보고서에서 데이터 탐색](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).

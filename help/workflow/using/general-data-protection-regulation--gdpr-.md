@@ -17,7 +17,7 @@ ht-degree: 10%
 
 ![](../../assets/common.svg)
 
-아래 자세히 설명된 워크플로우는 기본적으로 **개인 정보 보호 규정** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [article](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html)을 참조하십시오.
+아래 자세히 설명된 워크플로우는 **개인 정보 보호 규정** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 다음을 참조하십시오 [문서](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html).
 
 <table> 
  <tbody> 
@@ -29,7 +29,7 @@ ht-degree: 10%
   <tr> 
    <td> <span class="uicontrol">개인 정보 보호 요청 수집</span> <br /> </td> 
    <td> <span class="uicontrol">collectPrivacyRequests</span> <br /> </td> 
-   <td> 이 워크플로우는 Adobe Campaign에 저장된 수신자의 데이터를 생성하여 개인 정보 요청의 화면에서 다운로드할 수 있도록 합니다.<br /> </td> 
+   <td> 이 워크플로우는 Adobe Campaign에 저장된 수신자의 데이터를 생성하여 개인 정보 보호 요청의 화면에서 다운로드할 수 있도록 합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">개인 정보 보호 요청 데이터 삭제</span> <br /> </td> 

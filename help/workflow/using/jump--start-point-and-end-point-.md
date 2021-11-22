@@ -31,4 +31,4 @@ ht-degree: 15%
 
 ![](assets/s_user_segmentation_jump_in.png)
 
-다이어그램의 가독성을 향상시키기 위해 점프와 연결된 이미지를 변경하여 관련 번호를 표시할 수 있습니다. [활동 이미지 관리](managing-activity-images.md)를 참조하십시오.
+다이어그램의 가독성을 향상시키기 위해 점프와 연결된 이미지를 변경하여 관련 번호를 표시할 수 있습니다. 자세한 내용은 [활동 이미지 관리](managing-activity-images.md).

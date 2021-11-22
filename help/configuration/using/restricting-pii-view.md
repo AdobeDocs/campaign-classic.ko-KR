@@ -23,7 +23,7 @@ ht-degree: 2%
 
 ## 구현 {#implementation}
 
-요소나 속성에 적용할 수 있는 새 특성이 스키마에 추가되어 기존 속성 **[!UICONTROL visibleIf]** 을 보완합니다. 이 속성은 다음과 같습니다. **[!UICONTROL accessibleIf]** . 현재 사용자 컨텍스트와 관련된 XTK 표현식을 포함하는 경우 예를 들어 **[!UICONTROL HasNamedRight]** 또는 **[!UICONTROL $(login)]** 을 활용할 수 있습니다.
+모든 요소 또는 속성에 적용할 수 있는 새 속성이 스키마에 추가되어 기존 속성을 보완합니다 **[!UICONTROL visibleIf]** . 이 속성은 다음과 같습니다. **[!UICONTROL accessibleIf]** . 현재 사용자 컨텍스트와 관련된 XTK 표현식을 포함하는 경우 이를 활용할 수 있습니다 **[!UICONTROL HasNamedRight]** 또는 **[!UICONTROL $(login)]** 예:
 
 수신인 스키마 확장의 샘플은 이러한 사용을 아래에 보여 줍니다.
 
@@ -43,7 +43,7 @@ ht-degree: 2%
 기본 속성은 다음과 같습니다.
 
 * **[!UICONTROL visibleIf]** : 는 메타데이터에서 필드를 숨기므로 스키마 보기, 열 선택 또는 표현식 빌더 내에서 액세스할 수 없습니다. 하지만 이렇게 해도 데이터가 숨기지 않고, 필드 이름을 표현식에 수동으로 입력하면 값이 표시됩니다.
-* **[!UICONTROL accessibleIf]** : 결과 쿼리의 데이터를 숨깁니다(빈 값으로 바꾸기). visibleIf 가 비어 있으면 **[!UICONTROL accessibleIf]** 과 동일한 표현식을 가져옵니다.
+* **[!UICONTROL accessibleIf]** : 결과 쿼리의 데이터를 숨깁니다(빈 값으로 바꾸기). visibleIf 가 비어 있으면 와 동일한 식이 됩니다 **[!UICONTROL accessibleIf]** .
 
 다음은 Campaign에서 이 속성을 사용할 때의 결과입니다.
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 ## 추천 {#recommendations}
 
-각 게재에서 이메일 주소는 **[!UICONTROL broadLog]** 및 **[!UICONTROL forecastLog]** 테이블에 복사됩니다. 따라서 이러한 필드도 보호해야 합니다.
+각 게재에서 이메일 주소는 **[!UICONTROL broadLog]** 그리고 **[!UICONTROL forecastLog]** 표: 따라서 이러한 필드도 보호해야 합니다.
 
 다음은 이를 구현하는 로그 테이블 확장 샘플입니다.
 

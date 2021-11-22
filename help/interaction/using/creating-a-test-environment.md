@@ -21,18 +21,18 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->테스트 환경에는 이 환경 만들기 방법만 사용하십시오. 다른 모든 경우에는 대상 매핑 마법사를 사용하십시오. 자세한 내용은 [오퍼 환경 만들기](../../interaction/using/live-design-environments.md#creating-an-offer-environment)를 참조하십시오.
+>테스트 환경에는 이 환경 만들기 방법만 사용하십시오. 다른 모든 경우에는 대상 매핑 마법사를 사용하십시오. 자세한 내용은 [오퍼 환경 만들기](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
 1. Adobe Campaign 탐색기를 실행하고 인스턴스 루트로 이동합니다.
-1. 마우스 오른쪽 단추를 클릭하고 드롭다운 메뉴를 사용하여 **[!UICONTROL Generic folder]** 을 추가합니다.
+1. 마우스 오른쪽 단추를 클릭하고 을(를) 추가합니다. **[!UICONTROL Generic folder]** 드롭다운 메뉴 사용.
 
    ![](assets/offer_env_creation_001.png)
 
-1. 그런 다음 방금 만든 폴더로 이동하여 마우스 오른쪽 단추 클릭 메뉴를 사용하여 **[!UICONTROL Offer environment]** 을 추가합니다.
+1. 그런 다음 방금 만든 폴더로 이동하여 를 추가합니다 **[!UICONTROL Offer environment]** 마우스 오른쪽 단추 클릭 메뉴 사용.
 
    ![](assets/offer_env_creation_001bis.png)
 
 1. 동일한 프로세스를 적용하여 환경 하위 폴더 및 요소를 만듭니다.
-1. 테스트가 완료되고 프로덕션에서 환경을 사용하려면 디자인 환경에서 오퍼와 공백을 복제합니다. ( > **[!UICONTROL Actions]** > **[!UICONTROL Deploy]** 을 마우스 오른쪽 단추로 클릭합니다.)
+1. 테스트가 완료되고 프로덕션에서 환경을 사용하려면 디자인 환경에서 오퍼와 공백을 복제합니다. 마우스 오른쪽 단추 클릭 > **[!UICONTROL Actions]** > **[!UICONTROL Deploy]** ).
 
    ![](assets/migration_interaction_5.png)

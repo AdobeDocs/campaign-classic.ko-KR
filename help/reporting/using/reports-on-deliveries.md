@@ -21,11 +21,11 @@ Adobe Campaign은 고객 콘솔 또는 인터넷 브라우저를 통해 액세�
 
 다음 유형의 보고서를 사용할 수 있습니다.
 
-* 전체 플랫폼에 대한 보고서는 [글로벌 보고서](../../reporting/using/global-reports.md)를 참조하십시오.
-* 게재 보고서의 경우 [게재 보고서](../../reporting/using/delivery-reports.md)를 참조하십시오.
-* 누적 보고서는 [누적 보고서](../../reporting/using/cumulative-reports.md)를 참조하십시오.
+* 전체 플랫폼에 대한 보고서는 [글로벌 보고서](../../reporting/using/global-reports.md).
+* 게재 보고서, 자세한 내용은 [게재 보고서](../../reporting/using/delivery-reports.md).
+* 누적 보고서는 다음을 참조하십시오. [누적 보고서](../../reporting/using/cumulative-reports.md).
 
-클라이언트 콘솔 홈 페이지, 보고서 대시보드 또는 게재 목록에서 보고서에 액세스할 수 있습니다. 보고서의 표시 모드는 컨텍스트에 따라 다릅니다. 기본 보고서 목록은 홈 페이지에서 사용할 수 있으며, 게재 데이터에 빠르게 액세스할 수 있도록 해줍니다. 이 목록은 사용자의 요구 사항에 맞게 변경할 수 있습니다. 자세한 내용은 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)을 참조하십시오.
+클라이언트 콘솔 홈 페이지, 보고서 대시보드 또는 게재 목록에서 보고서에 액세스할 수 있습니다. 보고서의 표시 모드는 컨텍스트에 따라 다릅니다. 기본 보고서 목록은 홈 페이지에서 사용할 수 있으며, 게재 데이터에 빠르게 액세스할 수 있도록 해줍니다. 이 목록은 사용자의 요구 사항에 맞게 변경할 수 있습니다. 을(를) 참조하십시오. [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md) 추가 정보.
 
 ## 보고서 사용 {#using-reports}
 
@@ -39,7 +39,7 @@ Adobe Campaign은 고객 콘솔 또는 인터넷 브라우저를 통해 액세�
 
 다음을 수행할 수 있습니다.
 
-* 보고서를 Excel, PDF 또는 Open Document로 내보냅니다.
+* 보고서를 Excel, PDF 또는 문서 열기로 내보냅니다.
 * 보고서 인쇄,
 * 보고서 내역 만들기,
 * 다른 보고서 기록 표시,
@@ -49,4 +49,4 @@ Adobe Campaign은 고객 콘솔 또는 인터넷 브라우저를 통해 액세�
 >
 >일부 보고서 기능 차트(커브, 막대, 단계 등)는 커서를 차트 위로 이동하여 값을 표시합니다.
 
-이러한 옵션에 대한 자세한 내용은 [이 섹션](../../reporting/using/about-adobe-campaign-reporting-tools.md)을 참조하십시오.
+이러한 옵션에 대한 자세한 내용은 [이 섹션](../../reporting/using/about-adobe-campaign-reporting-tools.md).

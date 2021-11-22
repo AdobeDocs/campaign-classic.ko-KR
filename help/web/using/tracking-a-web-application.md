@@ -38,7 +38,7 @@ Adobe Campaign에서는 추적 태그를 삽입하여 웹 애플리케이션 페
    * **바운스 비율**: 첫 번째 단계만 표시한 사용자 수
    * **전환 단계**: 각 단계 간 손실률
 
-   또한 **섹터** 유형 차트는 소스에 따라 모집단을 표시합니다.
+   또한 **섹터** 유형 차트는 소스에 따라 모집단을 보여줍니다.
 
 ## 트래픽 소스 식별 {#identifying-the-traffic-source}
 
@@ -61,7 +61,7 @@ Adobe Campaign에서는 추적 태그를 삽입하여 웹 애플리케이션 페
 
 ## DCE(디지털 콘텐츠 편집기)로 설계된 웹 애플리케이션 {#web-applications-designed-with-digital-content-editor--dce-}
 
-HTML 콘텐츠 편집기를 사용하여 웹 응용 프로그램을 만들 때 - **디지털 콘텐츠 편집기(DCE)** - 추적 태그가 편집기의 **[!UICONTROL Properties]** 탭에서 삽입됩니다. DCE(디지털 콘텐츠 편집기)에 대한 자세한 내용은 [이 섹션](about-campaign-html-editor.md)을 참조하십시오.
+HTML 컨텐츠 편집기를 사용하여 웹 애플리케이션을 만들 때 - **DCE(디지털 콘텐츠 편집기)** - 추적 태그가 **[!UICONTROL Properties]** 편집기의 탭입니다. DCE(디지털 콘텐츠 편집기)에 대한 자세한 내용은 [이 섹션](about-campaign-html-editor.md).
 
 ![](assets/trackers_2.png)
 
@@ -69,6 +69,6 @@ HTML 콘텐츠 편집기를 사용하여 웹 응용 프로그램을 만들 때 -
 
 ![](assets/trackers_3.png)
 
-**[!UICONTROL Display blocks]** 아이콘을 사용하면 페이지에 대해 정의된 추적 태그 수를 볼 수 있습니다.
+다음 **[!UICONTROL Display blocks]** 아이콘을 사용하면 페이지에 대해 정의된 추적 태그 수를 볼 수 있습니다.
 
 ![](assets/trackers_4.png)

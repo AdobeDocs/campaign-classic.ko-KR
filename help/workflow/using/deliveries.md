@@ -17,7 +17,7 @@ ht-degree: 5%
 
 ![](../../assets/common.svg)
 
-아래 자세히 설명된 워크플로우는 기본적으로 **게재** 모듈과 함께 설치됩니다.
+아래 자세히 설명된 워크플로우는 **게재** 기본적으로 모듈입니다.
 
 <table> 
  <tbody> 
@@ -44,17 +44,17 @@ ht-degree: 5%
   <tr> 
    <td> <span class="uicontrol">게재 능력을 위한 업데이트</span> <br /> </td> 
    <td> <span class="uicontrol">게재능력업데이트</span> <br /> </td> 
-   <td> 이 워크플로우를 통해 반송 메일 자격 규칙 목록과 플랫폼에 있는 도메인 및 MX 목록을 만들 수 있습니다. 이 워크플로우는 HTTPS 포트가 열려 있는 경우에만 작동합니다. 이 목록은 게재 가능성 모듈이 설치되어 있지 않으면 업데이트되지 않습니다.<br /> </td> 
+   <td> 이 워크플로우를 통해 반송 메일 자격 규칙 목록과 플랫폼에 있는 도메인 및 MX 목록을 만들 수 있습니다. 이 워크플로우는 HTTPS 포트가 열려 있는 경우에만 작동합니다. 이 목록은 게재 기능 모듈이 설치되지 않은 경우 업데이트되지 않습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">데이터베이스 정리</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
-   <td> <p>이 워크플로우는 데이터베이스 유지 관리 워크플로우입니다. 통계 및 프로세스와 다른 계산을 수행하고 배포 도우미에서 정의된 구성에 따라 데이터베이스에서 오래된 데이터를 삭제합니다. 기본적으로 매일 오전 4시에 트리거됩니다.</p> <p>자세한 내용은 이 <a href="../../production/using/database-cleanup-workflow.md">page</a>을 참조하십시오.</p> </td> 
+   <td> <p>이 워크플로우는 데이터베이스 유지 관리 워크플로우입니다. 통계 및 프로세스와 다른 계산을 수행하고 배포 도우미에서 정의된 구성에 따라 데이터베이스에서 오래된 데이터를 삭제합니다. 기본적으로 매일 오전 4시에 트리거됩니다.</p> <p>자세한 내용은 다음을 참조하십시오 <a href="../../production/using/database-cleanup-workflow.md">페이지</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">일시 중지된 워크플로우 정리</span> <br /> </td> 
    <td> <span class="uicontrol">cleanupPausedWorkflows</span> <br /> </td> 
-   <td> <p>이 워크플로우는 심각도가 정상으로 설정된 일시 중지된 워크플로우를 분석하고 너무 오랫동안 일시 중지되면 경고 및 알림을 트리거합니다. 한 달 후 일시 중지된 기술 워크플로우는 무조건 중지됩니다. 기본적으로 매주 월요일 오전 5시에 트리거됩니다.</p> <p>자세한 내용은 <a href="monitoring-workflow-execution.md#handling-of-paused-workflows" target="_blank">일시 중지된 워크플로우 처리</a>를 참조하십시오.</p></td> 
+   <td> <p>이 워크플로우는 심각도가 정상으로 설정된 일시 중지된 워크플로우를 분석하고 너무 오랫동안 일시 중지되면 경고 및 알림을 트리거합니다. 한 달 후 일시 중지된 기술 워크플로우는 무조건 중지됩니다. 기본적으로 매주 월요일 오전 5시에 트리거됩니다.</p> <p>자세한 내용은 <a href="monitoring-workflow-execution.md#handling-of-paused-workflows" target="_blank">일시 중지된 워크플로우 처리</a>.</p></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">오퍼 알림</span> <br /> </td> 

@@ -17,10 +17,10 @@ ht-degree: 0%
 
 ![](../../assets/v7-only.svg)
 
-Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. netezza 액세스를 구성하려면 아래 단계를 따르십시오.
+캠페인 사용 [페더레이션 데이터 액세스](../../installation/using/about-fda.md) (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. netezza 액세스를 구성하려면 아래 단계를 따르십시오.
 
-1. [Netezza 드라이버 설치 및 구성](#netezza-config)
-1. Campaign에서 Netezza [외부 계정](#netezza-external)을 구성합니다
+1. 설치 및 구성 [Netezza 드라이버](#netezza-config)
+1. netezza 구성 [외부 계정](#netezza-external) in Campaign
 
 ## Netezza 구성 {#netezza-config}
 
@@ -28,10 +28,10 @@ FDA에서 Netezza 외부 데이터베이스에 연결하려면 Adobe Campaign �
 
 1. 사용하는 운영 체제에 따라 Netezza용 ODBC 드라이버를 설치합니다.
 
-   * **nz-linuxclient-v7.2.0.0.tar.** gzfor Linux 운영 체제(linux 또는 linux64)에 해당하는 폴더를 선택하고 압축 해제 명령을 시작합니다. 기본적으로 제안되는 저장소에서 설치가 수행되도록 둘 수 있습니다. &quot;/usr/local/nz&quot;
-   * **nz-winclient-v7.2.0.0.** windows용 zip 파일의 압축을 풀고 운영 체제에 해당하는 실행 파일을 시작합니다. nzodbcsetup.exe 또는 nzodbcsetup64.exe 마법사 지침에 따라 드라이버 설치를 완료합니다.
+   * **nz linux-xclient-v7.2.0.0.tar.gz** Linux용 운영 체제(linux 또는 linux64)에 해당하는 폴더를 선택하고 압축 해제 명령을 시작합니다. 기본적으로 제안되는 저장소에서 설치가 수행되도록 둘 수 있습니다. &quot;/usr/local/nz&quot;
+   * **nz-winclient-v7.2.0.0.zip** Windows용 파일의 압축을 풀고 운영 체제에 해당하는 실행 파일을 시작합니다. nzodbcsetup.exe 또는 nzodbcsetup64.exe 마법사 지침에 따라 드라이버 설치를 완료합니다.
 
-1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다. **일반 매개 변수의 경우 /etc/odbc.ini** 및 드라이버 선언의 경우 **/etc/odbcinst.ini**
+1. ODBC 드라이버를 구성합니다. 구성은 표준 파일에서 수행할 수 있습니다. **/etc/odbc.ini** 일반 매개 변수와 **/etc/odbcinst.ini** 드라이버 선언
 
    * **/etc/odbc.ini**
 
@@ -73,11 +73,11 @@ FDA에서 Netezza 외부 데이터베이스에 연결하려면 Adobe Campaign �
 
 netezza 외부 계정을 사용하면 Campaign 인스턴스를 Netezza 외부 데이터베이스에 연결할 수 있습니다.
 
-1. Campaign **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** &#39; **[!UICONTROL Platform]**&#39; **[!UICONTROL External accounts]**&#x200B;을(를) 클릭합니다.
+1. Campaign에서 **[!UICONTROL Explorer]**&#x200B;를 클릭합니다. **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
-1. **[!UICONTROL New]** 을 클릭하고 **[!UICONTROL External database]** 을 **[!UICONTROL Type]**(으)로 선택합니다.
+1. 클릭 **[!UICONTROL New]** 을(를) 선택합니다. **[!UICONTROL External database]** 로서의 **[!UICONTROL Type]**.
 
-1. **[!UICONTROL Netezza]** 외부 계정을 구성하려면 다음을 지정해야 합니다.
+1. 를 구성하려면 **[!UICONTROL Netezza]** 외부 계정입니다. 다음을 지정해야 합니다.
 
    * **[!UICONTROL Type]**: Netezza
 
@@ -93,4 +93,4 @@ netezza 외부 계정을 사용하면 Campaign 인스턴스를 Netezza 외부 �
 >
 >자동으로 생성된 기본 키가 포함된 스키마에 대한 작업은 고려되지 않습니다.
 >
->테이블에 스키마에 정의된 첫 번째 인덱스에서 **Organization on** 절을 사용합니다. 이 절은 Netezza이 있는 열 1~4개로 제한되므로 이 인덱스는 4개 이상의 열을 포함할 수 없습니다.
+>테이블이 **설정** 스키마에 정의된 첫 번째 인덱스에 대한 절. 이 절은 Netezza이 있는 열 1~4개로 제한되므로 이 인덱스는 4개 이상의 열을 포함할 수 없습니다.

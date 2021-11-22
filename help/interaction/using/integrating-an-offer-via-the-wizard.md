@@ -24,11 +24,11 @@ ht-degree: 2%
 
 ## 오퍼 엔진에 대한 호출을 사용하여 제공 {#delivering-with-a-call-to-the-offer-engine}
 
-마케팅 캠페인 중에 오퍼를 제공하려면 선택한 채널을 기반으로 클래식 게재 작업을 만드십시오. 게재 컨텐츠가 정의될 때 오퍼 엔진이 도구 모음에서 사용 가능한 **[!UICONTROL Offers]** 아이콘을 클릭하여 호출됩니다.
+마케팅 캠페인 중에 오퍼를 제공하려면 선택한 채널을 기반으로 클래식 게재 작업을 만드십시오. 게재 컨텐츠가 정의될 때 오퍼 엔진을 **[!UICONTROL Offers]** 아이콘 을 클릭하여 도구 모음에서 사용 가능합니다.
 
 ![](assets/offer_delivery_009.png)
 
-이 섹션](../../delivery/using/about-direct-mail-channel.md)에서 DM 게재 [에 대해 자세히 알아보십시오. 마케팅 캠페인 [에 대해 자세히 알아보십시오](../../campaign/using/setting-up-marketing-campaigns.md).
+DM 게재에 대해 자세히 알아보기 [이 섹션](../../delivery/using/about-direct-mail-channel.md). 마케팅 캠페인에 대해 자세히 알아보기 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md).
 
 ### 오퍼를 게재에 삽입하는 주요 단계 {#main-steps-for-inserting-an-offer-into-a-delivery}
 
@@ -52,11 +52,11 @@ ht-degree: 2%
 
    ![](assets/offer_delivery_005.png)
 
-1. 필요한 경우 **[!UICONTROL Exclude non-eligible recipients]** 옵션을 선택합니다. 자세한 내용은 [오퍼 엔진 호출 매개 변수](#parameters-for-calling-offer-engine)를 참조하십시오.
+1. 을(를) 선택합니다 **[!UICONTROL Exclude non-eligible recipients]** 필요한 경우 옵션을 선택합니다. 자세한 내용은 [오퍼 엔진 호출을 위한 매개 변수](#parameters-for-calling-offer-engine).
 
    ![](assets/offer_delivery_006.png)
 
-1. 필요한 경우 **[!UICONTROL Do not display anything if no offers are selected]** 옵션을 선택합니다. 자세한 내용은 [오퍼 엔진 호출 매개 변수](#parameters-for-calling-offer-engine)를 참조하십시오.
+1. 필요한 경우 **[!UICONTROL Do not display anything if no offers are selected]** 선택 사항입니다. 자세한 내용은 [오퍼 엔진 호출을 위한 매개 변수](#parameters-for-calling-offer-engine).
 
    ![](assets/offer_delivery_007.png)
 
@@ -89,28 +89,28 @@ ht-degree: 2%
 
 게재 개요를 사용하여 오퍼를 게재에 표시할 수도 있습니다.
 
-게재 아웃라인에 대한 자세한 내용은 [캠페인 - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline) 안내서를 참조하십시오.
+게재 아웃라인에 대한 자세한 내용은 [캠페인 - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline) 안내서.
 
 1. 새 캠페인을 만들거나 기존 캠페인에 액세스합니다.
-1. 캠페인의 **[!UICONTROL Edit]** > **[!UICONTROL Documents]** 탭을 통해 게재 아웃라인에 액세스합니다.
-1. 아웃라인을 추가한 다음 아웃라인을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL New]** > **[!UICONTROL Offer]** 을 선택하여 원하는 만큼 오퍼를 삽입한 다음 캠페인을 저장합니다.
+1. 캠페인의 **[!UICONTROL Edit]** > **[!UICONTROL Documents]** 탭.
+1. 아웃라인을 추가한 다음 아웃라인을 마우스 오른쪽 단추로 클릭하고 을 선택하여 원하는 만큼 오퍼를 삽입합니다 **[!UICONTROL New]** > **[!UICONTROL Offer]**&#x200B;를 입력한 다음 캠페인을 저장합니다.
 
    ![](assets/int_compo_offre1.png)
 
 1. 액세스 권한이 있는 게재 개요(예: DM 게재)가 있는 게재를 만듭니다.
-1. 게재를 편집할 때 **[!UICONTROL Select a delivery outline]** 을 클릭합니다.
+1. 게재를 편집할 때 **[!UICONTROL Select a delivery outline]**.
 
    >[!NOTE]
    >
-   >게재 유형에 따라 이 옵션은 **[!UICONTROL Properties]** > **[!UICONTROL Advanced]** 메뉴에서 찾을 수 있습니다(예를 들어 이메일 게재의 경우).
+   >게재 유형에 따라 이 옵션은 **[!UICONTROL Properties]** > **[!UICONTROL Advanced]** 메뉴(예: 이메일 게재)에 사용할 수 있습니다.
 
    ![](assets/int_compo_offre2.png)
 
-1. 그런 다음 **[!UICONTROL Offers]** 버튼을 사용하여 게재에 표시할 오퍼 수와 오퍼 공간을 구성할 수 있습니다.
+1. 사용 **[!UICONTROL Offers]** 그런 다음 오퍼 공간과 게재에 표시할 오퍼 수를 구성할 수 있습니다.
 
    ![](assets/int_compo_offre3.png)
 
-1. 개인화 필드를 사용하여 게재 본문에 제안을 추가합니다(자세한 내용은 [게재](#inserting-an-offer-proposition-into-a-delivery) 섹션에 오퍼 제안 삽입 을 참조). 또는 DM 게재의 경우 추출 파일 형식을 편집하여 오퍼를 게재 본문에 추가합니다.
+1. 개인화 필드를 사용하여 게재 본문에 제안을 추가합니다(자세한 내용은 [게재에 오퍼 제안 삽입](#inserting-an-offer-proposition-into-a-delivery) 섹션)이나 dm 게재의 경우 추출 파일 형식을 편집하여
 
    게재 아웃라인에서 참조되는 오퍼에서 제안이 선택됩니다.
 

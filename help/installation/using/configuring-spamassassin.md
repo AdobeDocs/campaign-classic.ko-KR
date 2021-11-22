@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->일부 구성은 Adobe이 호스팅하는 배포에 대해서만 Adobe에서 수행할 수 있습니다. 예를 들어, 서버 및 인스턴스 구성 파일에 액세스할 수 있습니다. 서로 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지](../../installation/using/capability-matrix.md)를 참조하십시오.
+>일부 구성은 Adobe이 호스팅하는 배포에 대해서만 Adobe에서 수행할 수 있습니다. 예를 들어, 서버 및 인스턴스 구성 파일에 액세스할 수 있습니다. 다양한 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 또는 [이 페이지](../../installation/using/capability-matrix.md).
 
 ## 개요 {#overview}
 
@@ -48,31 +48,31 @@ Windows에서 SpamAssassin을 설치 및 구성하여 Adobe Campaign과 통합�
 
 ### SpamAssassin 설치 {#installing-spamassassin}
 
-1. 사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에 연결합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko?lang=en)에서 소프트웨어 배포에 대해 자세히 알아보십시오.
-1. **Neolane Spam Assassassin(Windows 설치)(2.0)** 파일(neolane_spamassin.2.0.zip)을 다운로드합니다.
+1. 에 연결 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html) 사용자 자격 증명 사용. 의 소프트웨어 배포에 대해 자세히 알아보십시오 [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko?lang=en).
+1. 다운로드 **Neolane Spam Assassassin(Windows 설치)(2.0)** 파일(neolane_spamassin.2.0.zip).
 1. 이 파일을 Adobe Campaign 서버에 복사한 다음 압축을 해제합니다.
 
    >[!NOTE]
    >
-   >경로가 다음 정규 표현식 문자로 구성되어 있다고 가정할 때 원하는 위치에 관계없이 파일의 압축을 해제하도록 선택할 수 있습니다. **`-_A-Za-z\xA0-\xFF0-9\.\%\@\=\+\,\/\\\:.`** 설치 경로에는 공백 문자가 포함되지 않아야 합니다.
+   >경로가 다음 정규 표현식 문자로 구성되어 있다고 가정할 때 원하는 위치에 관계없이 파일의 압축을 해제하도록 선택할 수 있습니다. **`-_A-Za-z\xA0-\xFF0-9\.\%\@\=\+\,\/\\\:.`**. 설치 경로에는 공백 문자가 포함되지 않아야 합니다.
 
-1. 파일 압축을 푼 파일로 이동한 다음 **run_me.bat** 파일을 두 번 클릭하여 설치 스크립트를 실행합니다.
+1. 파일의 압축을 푼 파일로 이동한 다음 **run_me.bat** 파일을 사용하여 설치 스크립트를 실행합니다.
 
-   Windows 셸이 나타나고 몇 초 동안 계속 표시되는 경우 설치 및 업데이트가 완료될 때까지 기다렸다가 **Enter**&#x200B;를 클릭하십시오.
+   Windows 셸이 나타나고 몇 초 동안 계속 표시되는 경우 설치 및 업데이트가 완료될 때까지 기다렸다가 **Enter 키**.
 
-   Windows Shell이 나타나지 않거나 즉시 사라지기 전에 표시되지 않는 경우 다음 단계에 따라 **portableShell.bat** 파일을 두 번 클릭하여 Windows Shell을 표시하고 Shell 경로가 **spamassin.zip** 파일의 압축을 해제한 폴더에 해당하는지 확인합니다. 그렇지 않으면 **cd** 명령을 사용하여 액세스합니다.
+   Windows 셸이 나타나지 않거나 즉시 사라지기 전에 표시되지 않는 경우 다음 단계를 따라 **portableShell.bat** 파일을 사용하여 Windows 셸을 표시하고 셸 경로가 **spamassin.zip** 파일의 압축을 풀었습니다. 그렇지 않은 경우 **cd** 명령.
 
-   **run_me.bat**&#x200B;를 입력한 다음 **Enter**&#x200B;를 클릭하여 설치 및 업데이트 프로세스를 시작합니다. 갱신 결과를 나타내기 위해 다음 값 중 하나를 반환합니다.
+   Enter 키 **run_me.bat** 을 클릭한 다음 **Enter 키** 설치 및 업데이트 프로세스를 시작합니다. 갱신 결과를 나타내기 위해 다음 값 중 하나를 반환합니다.
 
    * **0**: 업데이트가 수행되었습니다.
    * **1**: 새 업데이트를 사용할 수 없습니다.
-   * **2**: 새 업데이트를 사용할 수 없습니다.
+   * **2개**: 새 업데이트를 사용할 수 없습니다.
    * **3**: 사전 확인 중에 업데이트하지 못했습니다.
-   * **4**  이상: 오류가 발생했습니다.
+   * **4** 또는 기타: 오류가 발생했습니다.
 
 1. SpamAssassin 설치가 성공했는지 확인하려면 다음 절차를 사용하여 GTUBE 테스트(원치 않는 대량 전자 메일에 대한 일반 테스트)를 사용하십시오.
 
-   1. 텍스트 파일을 만들고 **C:\TestSpamMail.txt** 아래에 저장합니다.
+   1. 텍스트 파일을 만든 다음 아래에 저장합니다 **C:\TestSpamMail.txt**.
    1. 파일에 다음 컨텐츠를 삽입합니다.
 
       ```
@@ -89,7 +89,7 @@ Windows에서 SpamAssassin을 설치 및 구성하여 Adobe Campaign과 통합�
       XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
       ```
 
-   1. **portableShell.bat** 파일을 두 번 클릭하여 Windows Shell을 표시한 다음 명령을 실행합니다(또는 &quot;`<root>`&quot;는 **spamassin.zip** 파일의 압축을 풀 때 생성된 폴더를 지정합니다.).
+   1. 을(를) 두 번 클릭합니다. **portableShell.bat** 파일을 사용하여 Windows 셸을 표시한 다음 다음 명령을 실행합니다(또는 &quot;).`<root>`&quot; 는 압축을 풀 때 만든 폴더를 지정합니다  **spamassin.zip** 파일):
 
       ```
        "<root>\perl\site\bin\spamassassin" "C:\TestSpamMail.txt"
@@ -99,8 +99,8 @@ Windows에서 SpamAssassin을 설치 및 구성하여 Adobe Campaign과 통합�
 
 ### Adobe Campaign에 SpamAssassin 통합 {#integrating-spamassassin-into-adobe-campaign}
 
-1. **`[INSTALL]/conf/serverConf.xml`** 파일을 편집합니다. **serverConf.xml**&#x200B;에 사용 가능한 모든 매개 변수가 이 [section](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
-1. **Web** 노드에서 **spamCheck** elements&#39; **command** 특성의 값을 변경합니다. 이렇게 하려면 다음 명령을 실행합니다.
+1. 편집 **`[INSTALL]/conf/serverConf.xml`** 파일. 에서 사용할 수 있는 모든 매개 변수 **serverConf.xml** 여기에 나열되어 있습니다. [섹션](../../installation/using/the-server-configuration-file.md).
+1. 의 값 변경 **spamCheck** 요소 **명령** 의 속성 **웹** 노드 아래에 있어야 합니다. 이렇게 하려면 다음 명령을 실행합니다.
 
    ```
    <spamCheck command='"<absolute path to the folder where you unzipped the zip file>\call_perl_with_args.bat" "<absolute path to nlserver>/spamcheck.pl"'/>
@@ -110,11 +110,11 @@ Windows에서 SpamAssassin을 설치 및 구성하여 Adobe Campaign과 통합�
    >
    >모든 경로는 절대 경로여야 합니다.
 
-   **[!UICONTROL Adobe Campaign]** 서비스를 중지하고 시작합니다.
+   를 중지하고 시작합니다. **[!UICONTROL Adobe Campaign]** 서비스.
 
 1. Adobe Campaign에서 SpamAssassin 통합을 확인하려면 GTBUE 테스트(원치 않는 대량 이메일에 대한 일반 테스트)를 사용합니다.
 
-   **portableshell.bat** 파일을 두 번 클릭합니다. 이렇게 하면 Windows 셸의 표시가 트리거됩니다. 그런 다음 다음 다음 명령을 실행합니다.
+   을(를) 두 번 클릭합니다. **portableshell.bat** 파일. 이렇게 하면 Windows 셸의 표시가 트리거됩니다. 그런 다음 다음 다음 명령을 실행합니다.
 
    ```
    perl "[INSTALL]\bin\spamcheck.pl" "C:\TestSpamMail.txt"
@@ -124,7 +124,7 @@ Windows에서 SpamAssassin을 설치 및 구성하여 Adobe Campaign과 통합�
 
 1. SpamAssassin 필터링 및 점수 규칙 업데이트
 
-   필터링 및 점수 규칙의 초기 업데이트를 보려면 **portableShell.bat**&#x200B;를 시작하고 다음 명령을 실행합니다.
+   필터링 및 점수 규칙의 초기 업데이트를 보려면 다음을 시작하십시오 **portableShell.bat** 다음 명령을 실행합니다.
 
    ```
    sa-update --no-gpg
@@ -146,7 +146,7 @@ Windows에서 SpamAssassin을 설치 및 구성하여 Adobe Campaign과 통합�
    apt-get install spamassassin libxml-writer-perl
    ```
 
-* **serverConf.xml** 파일(`/usr/local/[INSTALL]/nl6/conf/`에서 사용 가능)에서 다음과 같이 **spamCheck** 줄을 변경합니다.
+* 에서 **serverConf.xml** 파일( `/usr/local/[INSTALL]/nl6/conf/`), 변경 **spamCheck** 다음과 같이 줄 수 있습니다.
 
    ```
    <spamCheck command="perl
@@ -169,7 +169,7 @@ cpan Mail::SpamAssassin
 
 ### 필터 규칙 업데이트 {#updating-filter-rules}
 
-필터 규칙은 **sa-update** 도구를 사용하여 자동으로 업데이트할 수 있습니다. 자세한 내용은 공식 SpamAssassin 웹 사이트 [https://spamassassin.apache.org/](https://spamassassin.apache.org/)를 참조하십시오.
+필터 규칙은 **sa-update** 도구. 공식 SpamAssassin 웹 사이트를 참조하십시오 [https://spamassassin.apache.org/](https://spamassassin.apache.org/) 추가 정보.
 
 Debian에서 업데이트는 매일 자동으로 수행됩니다.
 
@@ -181,7 +181,7 @@ test -x /usr/bin/sa-update || exit 0
 /usr/sbin/sa-update && /etc/init.d/spamassassin update
 ```
 
-다음 명령을 사용하여 **crontab**&#x200B;에 이 스크립트를 삽입합니다.
+이 스크립트를 **crontab** 다음 명령 사용:
 
 ```
 crontab-e
@@ -189,7 +189,7 @@ crontab-e
 
 ### 성능 최적화 {#performance-optimization}
 
-Linux의 성능을 향상하려면 **/etc/spamassassin/local.cf** 파일을 편집하고 파일 끝에 다음 줄을 추가합니다.
+Linux에서 성능을 향상하려면 다음을 편집합니다 **/etc/spamassassin/local.cf** 파일 및 파일 끝에 다음 줄을 추가합니다.
 
 ```
 dns_available no

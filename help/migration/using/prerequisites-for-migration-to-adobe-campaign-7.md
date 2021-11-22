@@ -17,7 +17,7 @@ ht-degree: 22%
 
 ![](../../assets/v7-only.svg)
 
-마이그레이션을 실행하기 전에 [마이그레이션을 시작하기 전에 ](../../migration/using/before-starting-migration.md) 및 [플랫폼 구성](../../migration/using/configuring-your-platform.md) 섹션을 참조하십시오.
+마이그레이션을 실행하기 전에 다음을 참조하십시오. [마이그레이션을 시작하기 전](../../migration/using/before-starting-migration.md) 및 [플랫폼 구성](../../migration/using/configuring-your-platform.md) 섹션에 자세히 설명되어 있습니다.
 
 v6.02에서 Adobe Campaign v7로 마이그레이션할 때 미리 배달된 일부 파일이 배달되지 않습니다.
 

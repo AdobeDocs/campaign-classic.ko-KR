@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ![](../../assets/common.svg)
 
-**[!UICONTROL Start]** 및 **[!UICONTROL End]** 활동을 사용하면 워크플로우의 시작과 끝을 그래픽으로 표시할 수 있습니다. 이러한 활동은 영향을 주지 않으므로 선택 사항입니다.
+다음 **[!UICONTROL Start]** 및 **[!UICONTROL End]** 활동을 사용하면 워크플로우의 시작과 끝을 그래픽으로 표시할 수 있습니다. 이러한 활동은 영향을 주지 않으므로 선택 사항입니다.
 
 * **[!UICONTROL Start]**
 
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 * **[!UICONTROL End]**
 
-   진행 중인 모든 작업을 중단하도록 **[!UICONTROL End]** 활동을 구성할 수 있습니다. 이렇게 하려면 활동을 두 번 클릭하여 해당 속성을 표시하고 적절한 옵션을 선택합니다.
+   을 구성할 수 있습니다 **[!UICONTROL End]** 활동 을 클릭하여 진행 중인 모든 작업을 중단합니다. 이렇게 하려면 활동을 두 번 클릭하여 해당 속성을 표시하고 적절한 옵션을 선택합니다.
 
    ![](assets/s_user_segmentation_end.png)
 

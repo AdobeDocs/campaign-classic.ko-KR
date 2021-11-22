@@ -21,10 +21,10 @@ ht-degree: 18%
 
 ## 공통 및 일반적인 문제 {#common-and-general-issues}
 
-* 이 [page](../../production/using/modules-and-frequent-issues.md)에서는 나열된 모듈에 대해 발생하는 가장 빈번한 문제를 나타냅니다.
-* 이 [페이지](../../production/using/workflow-execution.md)에는 워크플로우 실행 시 문제가 발생할 때 따라야 하는 일반적인 문제 해결 절차가 나와 있습니다.
-* 이 [페이지](../../production/using/lost-password.md)에서는 손실된 암호를 변경하거나 복구하는 방법을 자세히 설명합니다.
-* 이 [페이지](../../production/using/console-update.md)에서는 해당 옵션을 비활성화한 경우 콘솔 업데이트 요청을 다시 활성화하는 방법을 자세히 설명합니다.
+* 이 [페이지](../../production/using/modules-and-frequent-issues.md) 나열된 모듈에 대해 발생하는 가장 빈번한 문제를 나타냅니다.
+* 이 [페이지](../../production/using/workflow-execution.md) 워크플로우 실행 시 문제가 발생할 때 따라야 할 일반적인 문제 해결 절차를 나열합니다.
+* 이 [페이지](../../production/using/lost-password.md) 분실된 암호를 변경하거나 복구하는 방법을 자세히 설명합니다.
+* 이 [페이지](../../production/using/console-update.md) 해당 옵션을 비활성화한 경우 콘솔 업데이트 요청을 다시 활성화하는 방법에 대해 자세히 설명합니다.
 
 ## 게재 문제 해결 {#delivery-troubleshooting}
 

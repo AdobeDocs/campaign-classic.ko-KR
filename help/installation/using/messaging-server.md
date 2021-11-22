@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Adobe Campaign은 아웃바운드 이메일을 기본적으로 처리하지만 반환 전자 메일(메일 데몬)에 연결된 수신 메시지를 수신하려면 기존 전자 메일 서버가 필요합니다. 이 서버에 구성된 사서함은 응용 프로그램에서 자동으로 처리됩니다.
 
-POP3 액세스에 대해 구성된 모든 서버는 메일을 선택할 때 SMTP &quot;Message-ID&quot; 헤더를 유지하는 경우 반환 메일을 받는 데 사용할 수 있습니다. 예를 들어 Qmail, SendMail 및 Microsoft Exchange를 사용하는 구현은 현재 운영 중입니다. 그러나 Lotus Notes/domino의 일부 설치에서는 &quot;Message-Id&quot; 헤더 유지 관련 문제를 해결했습니다.
+POP3 액세스에 대해 구성된 모든 서버는 메일을 선택할 때 SMTP &quot;Message-ID&quot; 헤더를 유지하는 경우 반환 메일을 받는 데 사용할 수 있습니다. 예를 들어 Qmail, SendMail 및 Microsoft Exchange를 사용하는 구현은 현재 프로덕션 단계에 있습니다. 그러나 Lotus Notes/domino의 일부 설치에서는 &quot;Message-Id&quot; 헤더 유지 관련 문제를 해결했습니다.
 
 >[!CAUTION]
 >

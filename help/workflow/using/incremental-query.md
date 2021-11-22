@@ -30,22 +30,22 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->증분 쿼리 결과가 실행 중 **0**&#x200B;과 같으면 쿼리의 다음 프로그래밍 실행까지 워크플로우가 일시 중지됩니다. 따라서 증분 쿼리를 따르는 전환 및 활동은 다음 실행 전에 처리되지 않습니다.
+>증분 쿼리 결과가 다음과 같은 경우 **0** 실행 중 하나에서 워크플로우가 일시 중지되어 쿼리의 다음 프로그램 실행까지 일시 중지됩니다. 따라서 증분 쿼리를 따르는 전환 및 활동은 다음 실행 전에 처리되지 않습니다.
 
 방법은 다음과 같습니다.
 
-1. **[!UICONTROL Scheduling & History]** 탭에서 **[!UICONTROL Schedule execution]** 옵션을 선택합니다. 작업은 일단 생성되면 활성 상태로 유지되며 쿼리 실행 일정에 의해 지정된 시에만 트리거됩니다. 그러나 이 옵션을 비활성화하면 쿼리가 즉시 **에 실행되며 한 번의 go**&#x200B;로 실행됩니다.
+1. 에서 **[!UICONTROL Scheduling & History]** 탭에서 을 선택합니다 **[!UICONTROL Schedule execution]** 선택 사항입니다. 작업은 일단 생성되면 활성 상태로 유지되며 쿼리 실행 일정에 의해 지정된 시에만 트리거됩니다. 그러나 이 옵션을 비활성화하면 쿼리가 즉시 실행됩니다 **한 번에**.
 1. **[!UICONTROL Change]** 버튼을 클릭합니다.
 
-   **[!UICONTROL Schedule editing wizard]** 창에서 빈도, 이벤트 되풀이 및 이벤트 유효 기간의 유형을 구성할 수 있습니다.
+   에서 **[!UICONTROL Schedule editing wizard]** 창에서 빈도, 이벤트 되풀이 및 이벤트 유효 기간의 유형을 구성할 수 있습니다.
 
    ![](assets/s_user_segmentation_wizard_11.png)
 
-1. **[!UICONTROL Finish]** 을 클릭하여 일정을 저장합니다.
+1. 클릭 **[!UICONTROL Finish]** 일정을 저장합니다.
 
    ![](assets/s_user_segmentation_wizard_valid.png)
 
-1. **[!UICONTROL Scheduling & History]** 탭의 아래 섹션에서는 내역에서 고려할 일 수를 선택할 수 있습니다.
+1. 의 하위 섹션 **[!UICONTROL Scheduling & History]** 탭에서 내역에서 고려할 일 수를 선택할 수 있습니다.
 
    ![](assets/edit_request_inc.png)
 
@@ -67,4 +67,4 @@ ht-degree: 3%
 * 스키마
 * recCount
 
-이 세 값 집합은 쿼리의 타겟팅된 모집단을 식별합니다. **[!UICONTROL tableName]** 는 대상 식별자를 기록하는 테이블의 이름이며  **[!UICONTROL schema]** 는 모집단의 스키마(일반적으로 nms:recipient)이며  **[!UICONTROL recCount]** 표에 있는 요소의 수입니다.
+이 세 값 집합은 쿼리의 타겟팅된 모집단을 식별합니다. **[!UICONTROL tableName]** 는 대상 식별자를 기록하는 테이블의 이름입니다. **[!UICONTROL schema]** 는 모집단의 스키마(일반적으로 nms:recipient)이며 **[!UICONTROL recCount]** 는 테이블에 있는 요소의 수입니다.

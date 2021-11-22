@@ -17,11 +17,11 @@ ht-degree: 4%
 
 ![](../../assets/v7-only.svg)
 
-기본 Adobe Campaign 수신자(nm:recipient 또는 schema linked)에 해당하는 스키마를 기반으로 하는 보고서(nm:recipient 또는 schema linked)는 사용자 지정 테이블의 데이터와 대상 매핑을 통해 연결된 해당 테이블의 데이터를 고려하여 다시 개발해야 합니다( [Target 매핑](../../configuration/using/target-mapping.md) 섹션 참조).
+기본 Adobe Campaign 수신자(nm:recipient 또는 schema linked)에 해당하는 스키마를 기반으로 하는 보고서(nm:recipient 또는 schema linked)는 사용자 지정 테이블의 데이터와 대상 매핑을 통해 연결된 테이블의 데이터를 고려하여 다시 개발해야 합니다(참조: [대상 매핑](../../configuration/using/target-mapping.md) 섹션).
 
-새 보고서를 만들려면 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)을 참조하십시오.
+새 보고서를 만들려면 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md).
 
-어떤 경우에는 이러한 테이블에 고유한 새 큐브를 배치해야 합니다. 큐브는 [이 섹션](../../reporting/using/about-cubes.md)에 자세히 설명되어 있습니다.
+어떤 경우에는 이러한 테이블에 고유한 새 큐브를 배치해야 합니다. 큐브에 자세히 설명되어 있습니다 [이 섹션](../../reporting/using/about-cubes.md).
 
 다음 보고서가 관련 있습니다.
 

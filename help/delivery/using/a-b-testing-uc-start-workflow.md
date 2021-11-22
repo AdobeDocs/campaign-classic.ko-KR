@@ -17,7 +17,7 @@ ht-degree: 9%
 
 ![](../../assets/common.svg)
 
-1. 워크플로우에서 **[!UICONTROL Start]** 을 클릭합니다.
+1. 클릭 **[!UICONTROL Start]** 워크플로우.
 
    ![](assets/use_case_abtesting_startwkfl_001.png)
 

@@ -26,4 +26,4 @@ Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보
 * 데이터 보강
 * 데이터 로드
 
-FDA 옵션 사용은 Adobe Campaign 라이선스에 따라 다릅니다. 이 옵션을 구성하는 것과 이 옵션을 사용하는 것에 연결된 모범 사례 및 제한 사항은 이 [섹션](../../installation/using/about-fda.md)에 자세히 설명되어 있습니다.
+FDA 옵션 사용은 Adobe Campaign 라이선스에 따라 다릅니다. 이 옵션을 구성하는 방법과 이 옵션을 사용하는 에 연결된 모범 사례 및 제한 사항을 자세히 설명합니다 [섹션](../../installation/using/about-fda.md).

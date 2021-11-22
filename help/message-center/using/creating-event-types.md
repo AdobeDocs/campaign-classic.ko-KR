@@ -17,9 +17,9 @@ ht-degree: 3%
 
 ![](../../assets/v7-only.svg)
 
-각 이벤트를 개인화된 메시지로 변경하려면 먼저 **이벤트 유형**&#x200B;을 만들어야 합니다.
+각 이벤트를 개인화된 메시지로 변경할 수 있도록 먼저 다음을 만들어야 합니다 **이벤트 유형**.
 
-[메시지 템플릿을 만들 때](../../message-center/using/creating-the-message-template.md)전송할 메시지와 일치하는 이벤트 유형을 선택합니다.
+When [메시지 템플릿 만들기](../../message-center/using/creating-the-message-template.md)을 지정하면 전송할 메시지와 일치하는 이벤트 유형을 선택합니다.
 
 >[!IMPORTANT]
 >
@@ -27,24 +27,24 @@ ht-degree: 3%
 
 Adobe Campaign에서 처리할 이벤트 유형을 만들려면 아래 단계를 수행하십시오.
 
-1. **컨트롤 인스턴스**&#x200B;에 로그온합니다.
+1. 에 로그인합니다. **제어 인스턴스**.
 
-1. 트리의 **[!UICONTROL Administration > Platform > Enumerations]** 폴더로 이동합니다.
+1. 로 이동합니다. **[!UICONTROL Administration > Platform > Enumerations]** 트리의 폴더.
 
-1. 목록에서 **[!UICONTROL Event type]** 을 선택합니다.
+1. 선택 **[!UICONTROL Event type]** 참조하십시오.
 
-1. **[!UICONTROL Add]** 을 클릭하여 열거형 값을 만듭니다. 주문 확인, 암호 변경, 주문 전달 변경 등이 가능합니다.
+1. 클릭 **[!UICONTROL Add]** 열거형 값을 만들려면 주문 확인, 암호 변경, 주문 전달 변경 등이 가능합니다.
 
    ![](assets/messagecenter_eventtype_enum_001.png)
 
    >[!IMPORTANT]
    >
-   >각 이벤트 유형은 **[!UICONTROL Event type]** 열거형의 값과 일치해야 합니다.
+   >각 이벤트 유형은 **[!UICONTROL Event type]** 열거형.
 
 1. 항목별 목록 값이 만들어지면 작성이 유효하도록 인스턴스에 로그오프했다가 다시 로그온합니다.
 
 >[!NOTE]
 >
->[열거형 관리](../../platform/using/managing-enumerations.md)의 항목별 목록에 대해 자세히 알아보십시오.
+>의 항목별 목록에 대해 자세히 알아보십시오 [열거형 관리](../../platform/using/managing-enumerations.md).
 
 

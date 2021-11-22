@@ -19,13 +19,13 @@ ht-degree: 9%
 
 스크립트가 만들어져서 A/B 테스트 승자를 선택하면 최종 게재의 매개 변수를 정의할 수 있습니다.
 
-1. **[!UICONTROL JavaScript code]** 활동을 나머지 **[!UICONTROL Delivery]** 활동에 연결합니다.
-1. **[!UICONTROL Delivery]** 활동을 엽니다.
-1. **[!UICONTROL Generate an outbound transition]** 옵션의 선택을 취소하여 이 활동으로 워크플로우를 완료합니다.
+1. 연결 **[!UICONTROL JavaScript code]** 나머지 작업에 대한 활동 **[!UICONTROL Delivery]** 활동.
+1. 를 엽니다. **[!UICONTROL Delivery]** 활동.
+1. 선택을 취소하고 **[!UICONTROL Generate an outbound transition]** 이 활동으로 워크플로우를 완료하는 선택 사항입니다.
 1. 다른 옵션은 기본값으로 둡니다.
 
    ![](assets/ab_test_final_delivery.png)
 
-전환(**[!UICONTROL Javascript Code]** 활동을 통해 정의됨)에 지정된 게재를 준비하면 다음 단계에 설명된 대로 승인하고 전송을 시작할 수 있습니다.
+전환에서 지정된 게재를 준비하여( **[!UICONTROL Javascript Code]** 활동)을 만들 때, 다음 단계에 설명된 대로 승인하고 전송을 시작할 수 있습니다.
 
 이제 워크플로우를 시작할 수 있습니다. [자세히 알아보기](a-b-testing-uc-start-workflow.md)

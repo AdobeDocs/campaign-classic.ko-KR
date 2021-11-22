@@ -23,7 +23,7 @@ Adobe Campaign을 사용하면 쿠키 또는 웹 비콘을 통해 행동 추적�
 
 >[!NOTE]
 >
->스크립팅할 때는 항상 [보안 및 개인 정보 보호 체크리스트](https://helpx.adobe.com/campaign/kb/acc-security.html#dev)에 설명된 지침을 따릅니다.
+>스크립팅이 항상 [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#dev).
 
 ## 배너 구성 {#configuring-the-banner-}
 
@@ -35,7 +35,7 @@ Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너�
 >
 >자신만의 배너를 만들려면 기본 배너를 개인화해야 합니다.
 
-배너를 활성화하려면 웹 애플리케이션 속성을 구성해야 합니다. [웹 애플리케이션 디자인](designing-a-web-application.md) 섹션을 참조하십시오.
+배너를 활성화하려면 웹 애플리케이션 속성을 구성해야 합니다. 자세한 내용은 [웹 애플리케이션 디자인](designing-a-web-application.md) 섹션을 참조하십시오.
 
 웹 추적이 활성화되면 다음 중 하나를 수행할 수 있습니다.
 
@@ -64,7 +64,7 @@ Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너�
       
 ```
 
-**메시지를 여기**&#x200B;에 삽입하십시오. 추적 정보가 포함된 블록으로 바꾸십시오. 이 대체는 옵트아웃 배너와 관련된 새로운 개인화 블록에서 실행해야 합니다.
+을(를) 교체해야 합니다 **여기에 메시지를 삽입하십시오** 를 추적 정보가 포함된 블록으로 구성합니다. 이 대체는 옵트아웃 배너와 관련된 새로운 개인화 블록에서 실행해야 합니다.
 
 배너는 특정 CSS와 함께 제공됩니다. 그러나 웹 페이지를 만들고 구성할 때 스타일을 덮어쓸 수 있습니다. [이 페이지](content-editor-interface.md)를 참조하십시오.
 
@@ -72,7 +72,7 @@ Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너�
 
 Adobe Campaign은 쿠키 값을 관리하고 사용자 환경 설정을 검색할 수 있도록 해주는 API와 함께 제공됩니다.
 
-쿠키 이름은 **acoptout**&#x200B;입니다. 일반적인 값은 다음과 같습니다.
+쿠키 이름은 **acoptout**. 일반적인 값은 다음과 같습니다.
 
 * 0: 사용자가 웹 추적을 허용함(기본값)
 * 1: 사용자가 웹 추적을 금지했습니다.
@@ -81,7 +81,7 @@ Adobe Campaign은 쿠키 값을 관리하고 사용자 환경 설정을 검색�
 배너를 사용자 지정하는 사용 가능한 클라이언트측 API는 다음과 같습니다.
 
 * **NL.ClientWebTracking.allow()**: 웹 추적을 허용하도록 옵트아웃 쿠키 값을 설정합니다. 기본적으로 웹 추적이 허용됩니다.
-* **NL.ClientWebTracking.금지됨()**: 웹 추적을 금지하도록 옵트아웃 쿠키 값을 설정합니다. 웹 추적을 금지하려면 사용자 입력이 필요합니다.
+* **NL.ClientWebTracking.rict()**: 웹 추적을 금지하도록 옵트아웃 쿠키 값을 설정합니다. 웹 추적을 금지하려면 사용자 입력이 필요합니다.
 * **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: 사용자가 수락 또는 거부 단추를 클릭한 후 옵트아웃 쿠키 배너를 닫습니다. (클릭 이벤트 버블링 단계 동안)
 
    bannerDomElt {돔lement} 쿠키 배너의 루트 DOM 요소를 제거해야 합니다
@@ -95,7 +95,7 @@ JSSP를 작성해야 하는 경우 서버측 API를 사용할 수 있습니다.
 
    **escapeJs {Boolean}**: JavaScript 내에서 사용하기 위해 생성된 마크업을 이스케이프해야 하는 경우 true입니다.
 
-   페이지에 인쇄해야 하는 옵트아웃 배너 마크업의 HTML을 반환합니다.
+   페이지에 인쇄해야 하는 옵트아웃 배너 마크업 HTML을 반환합니다.
 
 * **NL.ServerWebTracking._displayOptOutBanner()**
 

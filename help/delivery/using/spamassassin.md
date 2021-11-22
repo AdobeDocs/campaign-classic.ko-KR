@@ -19,7 +19,7 @@ ht-degree: 6%
 
 ## SpamAssassin 정보 {#about-spamassassin}
 
-Adobe Campaign은 이메일 스팸 필터링에 사용되는 타사 서비스인 [SpamAssassin](https://spamassassin.apache.org)과 작동하도록 구성할 수 있습니다. 이를 통해 이메일에 점수를 매겨 수신 시 사용되는 스팸 방지 도구에 의해 메시지가 스팸으로 간주될 위험이 있는지 여부를 결정할 수 있습니다.
+Adobe Campaign이 [SpamAssassin](https://spamassassin.apache.org): 이메일 스팸 필터링에 사용되는 타사 서비스입니다. 이를 통해 이메일에 점수를 매겨 수신 시 사용되는 스팸 방지 도구에 의해 메시지가 스팸으로 간주될 위험이 있는지 여부를 결정할 수 있습니다.
 
 SpamAssassin은 다음과 같은 다양한 스팸 감지 기술을 활용합니다.
 
@@ -39,7 +39,7 @@ SpamAssassin은 다음과 같은 다양한 스팸 감지 기술을 활용합니�
 
 전자 메일 게재를 만들고 해당 콘텐츠를 정의했으면 아래 단계에 따라 위험을 평가하십시오.
 
-게재 만들기 및 디자인에 대한 자세한 내용은 [이 섹션](about-email-channel.md)을 참조하십시오.
+게재 만들기 및 디자인에 대한 자세한 내용은 [이 섹션](about-email-channel.md).
 
 1. **[!UICONTROL Preview]** 탭으로 이동합니다. 
 1. 게재를 미리 볼 수신자를 선택합니다.
@@ -54,12 +54,12 @@ SpamAssassin은 다음과 같은 다양한 스팸 감지 기술을 활용합니�
 
    ![](assets/s_tn_del_preview_spamassassin_ko.png)
 
-1. 경고 옆에 있는 **[!UICONTROL More...]** 링크를 클릭합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL More...]** 경고 옆에 링크를 추가합니다.
 1. **[!UICONTROL Anti-spam checking]** 탭을 선택합니다. 
-1. 이 위험의 이유를 보려면 **[!UICONTROL Points / Rule / Description]** 섹션으로 이동하십시오.
+1. 로 이동합니다. **[!UICONTROL Points / Rule / Description]** 섹션을 참조하십시오.
 
    ![](assets/s_tn_del_msg_spamassassin_ko.png)
 
 >[!NOTE]
 >
->**[!UICONTROL Anti-spam checking]**&#x200B;을 클릭할 때마다 SpamAssassin 서비스가 호출되고 스팸 방지 감지를 위해 메시지가 다시 분석됩니다. 스팸 방지 분석을 다시 실행하기 전에 콘텐츠를 변경했는지 확인하십시오.
+>를 클릭할 때마다 **[!UICONTROL Anti-spam checking]**&#x200B;를 설정하는 경우 SpamAssassin 서비스가 호출되고 스팸 방지를 위해 메시지가 다시 분석됩니다. 스팸 방지 분석을 다시 실행하기 전에 콘텐츠를 변경했는지 확인하십시오.

@@ -25,8 +25,8 @@ ht-degree: 3%
 
 ![](assets/mrm_task_in_workflow.png)
 
-작업을 구성하고 운영하는 방법은 [Campaign Classic v7 설명서](../../mrm/using/creating-and-managing-tasks.md)에 자세히 설명되어 있습니다.
+작업 구성 및 운영 방법은 [Campaign Classic v7 설명서](../../mrm/using/creating-and-managing-tasks.md).
 
 ![](assets/wkf_task_activity.png)
 
-**[!UICONTROL Resources]** 옵션을 사용하면 작업에 대한 승인 일정과 여러 연산자를 정의할 수 있습니다. 승인자가 거부하면 작업 자체가 거부되지 않습니다.
+다음 **[!UICONTROL Resources]** 옵션을 사용하면 작업에 대한 승인 일정과 여러 연산자를 정의할 수 있습니다. 승인자가 거부하면 작업 자체가 거부되지 않습니다.

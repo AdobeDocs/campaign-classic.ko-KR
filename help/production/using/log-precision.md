@@ -27,7 +27,7 @@ ht-degree: 1%
 
 Adobe Campaign은 두 가지 수준의 로그로 작동할 수 있습니다.
 
-1. **Verbose** 모드는 표준 수준 다음의 첫 번째 수준입니다. 다음 명령이 이 명령을 활성화합니다.
+1. 다음 **자세한 정보** 모드는 표준 수준 다음의 첫 번째 수준입니다. 다음 명령이 이 명령을 활성화합니다.
 
    ```
    nlserver restart <MODULE_NAME> -verbose 
@@ -39,7 +39,7 @@ Adobe Campaign은 두 가지 수준의 로그로 작동할 수 있습니다.
    nlserver restart <MODULE_NAME> -noconsole
    ```
 
-1. 최대 로그 수를 저장할 수 있는 **TraceFilter** 모드. 다음 명령으로 활성화됩니다.
+1. 다음 **TraceFilter** 모드 : 최대 로그 수를 저장할 수 있습니다. 다음 명령으로 활성화됩니다.
 
    ```
    nlserver stop <MODULE_NAME>; nlserver <MODULE_NAME> -verbose -tracefilter:*
@@ -47,9 +47,9 @@ Adobe Campaign은 두 가지 수준의 로그로 작동할 수 있습니다.
 
    >[!NOTE]
    >
-   >**tracefilter:***&#x200B;를 사용하는 경우 모든 로그 유형이 활성화됩니다. ncm, rdr, nms, jst, 타이밍, wdbc, ldap, soap, xtk, xtquery, session, xtwriter, network, pop3, inmail\
-   가장 유용한 로그 유형은 다음과 같습니다. **wdbc**(모든 SQL 쿼리 표시), **soap**(모든 SOAP 호출 표시), **ldap**(인증 후 모든 LDAP 쿼리 표시), **xtquery**(모든 querydef 목록을 표시합니다.)\
-   개별적으로 사용할 수 있습니다(예:**tracefilter:soap,wdbc**). 모두 활성화하고 특정 다른 항목을 제외하도록 선택할 수도 있습니다. **-tracefilter:*,!soap**
+   >만약 **추적 필터:***, 모든 로그 유형이 활성화됩니다. ncm, rdr, nms, jst, 타이밍, wdbc, ldap, soap, xtk, xtquery, session, xtwriter, network, pop3, inmail\
+   가장 유용한 로그 유형은 다음과 같습니다. **wdbc** (모든 SQL 쿼리를 표시합니다.), **soap** (모든 SOAP 호출을 표시합니다.), **ldap** 인증 후 모든 LDAP 쿼리를 표시합니다. **xtquery** 모든 querydef 목록을 표시합니다.\
+   개별적으로 사용할 수 있습니다(**tracefilter:soap,wdbc** 예). 모두 활성화하고 특정 다른 항목을 제외하도록 선택할 수도 있습니다. **-tracefilter:*,!soap**
 
    오류가 실제로 발생했는지 확인한 다음 일반적인 방법으로 프로세스를 다시 시작합니다.
 
@@ -68,7 +68,7 @@ Adobe Campaign은 두 가지 수준의 로그로 작동할 수 있습니다.
 nlserver pdump -who
 ```
 
-그런 다음 **TraceFilter** 모드에서 모듈을 종료하고 다시 시작합니다.
+그런 다음 모듈을 종료하고 다시 시작합니다. **TraceFilter** 모드:
 
 ```
 nlserver stop web; LD_PRELOAD=libjsig.so nlserver web -tomcat -verbose -tracefilter:* -tracefile:web_debug@default
@@ -81,7 +81,7 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 ```
 
 >[!NOTE]
-**추적 파일** 모드에서는 로그를 저장할 수 있습니다. 위의 예에서 로그는 **var/`<instance-name>`/mta_debug.log** 및 **var/default/web_debug.log** 파일에 저장됩니다.
+다음 **추적 파일** 모드를 사용하면 로그를 저장할 수 있습니다. 위의 예에서 로그는 **var/`<instance-name>`/mta_debug.log** 및 **var/default/web_debug.log** 파일.
 
 >[!IMPORTANT]
 Windows에서는 LD_PRELOAD 옵션을 추가하지 마십시오. 다음 명령은 다음과 같습니다.\
@@ -93,4 +93,4 @@ nlserver web -tomcat -verbose -tracefilter:*
 nlserver restart web -tomcat -noconsole
 ```
 
-모든 정보는 **/usr/local/neolane/nl6/var/default/log/web.log** 파일에 있습니다.
+모든 정보는 파일에 있습니다 **/usr/local/neolane/nl6/var/default/log/web.log**.

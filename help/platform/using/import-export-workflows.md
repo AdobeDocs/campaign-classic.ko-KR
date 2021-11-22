@@ -25,15 +25,15 @@ ht-degree: 5%
 
 워크플로우에서 전송된 데이터는 미리 데이터를 준비하고 구성하는 목록에서 가져올 수 있습니다.
 
-이 목록은 Adobe Campaign에서 직접 만들거나 **[!UICONTROL Import a list]** 옵션으로 가져올 수 있습니다. 이 옵션에 대한 자세한 내용은 이 [page](../../platform/using/about-generic-imports-exports.md)을 참조하십시오.
+이 목록은 Adobe Campaign에서 직접 만들거나 **[!UICONTROL Import a list]** 선택 사항입니다. 이 옵션에 대한 자세한 정보는 다음을 참조하십시오 [페이지](../../platform/using/about-generic-imports-exports.md).
 
-워크플로우에서 목록 읽기 활동 사용에 대한 자세한 내용은 [이 페이지](../../workflow/using/read-list.md)를 참조하십시오.
+워크플로우에서 목록 읽기 활동 사용에 대한 자세한 내용은 [이 페이지](../../workflow/using/read-list.md).
 
 ### 파일에서 데이터 로드 {#loading-data-from-a-file}
 
 워크플로우에서 처리된 데이터를 구조화된 파일에서 추출하여 Adobe Campaign으로 가져올 수 있습니다.
 
-데이터 로드 활동에 대한 설명은 [데이터 로드(파일)](../../workflow/using/data-loading--file-.md) 섹션에서 찾을 수 있습니다.
+데이터 로드 활동에 대한 설명은 [데이터 로드(파일)](../../workflow/using/data-loading--file-.md) 섹션을 참조하십시오.
 
 가져올 구조화된 파일의 예:
 
@@ -51,4 +51,4 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 워크플로우는 데이터를 변환하는 데 사용할 수 있는 데이터 관리 활동 중 일부를 사용한 후 내보내기 프로세스의 일부를 자동화하거나 정확한 데이터 세트를 내보내는 유용한 방법이 될 수 있습니다.
 
-내보내기 작업은 **[!UICONTROL Data extraction (file) activity]**&#x200B;을 사용하여 수행됩니다. 활동을 구성하고 사용하는 방법에 대한 자세한 내용은 [이 페이지](../../workflow/using/extraction--file-.md)를 참조하십시오.
+내보내기 작업은 **[!UICONTROL Data extraction (file) activity]**. 활동을 구성하고 사용하는 방법에 대한 자세한 내용은 [이 페이지](../../workflow/using/extraction--file-.md).

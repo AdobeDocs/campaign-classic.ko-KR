@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Public Cloud로 마이그레이션
+title: 공개 클라우드로 마이그레이션
 description: Public Cloud로 Campaign Classic 마이그레이션에 대해 자세히 알아보기
 feature: Overview
 role: User
@@ -19,25 +19,25 @@ ht-degree: 2%
 
 ## 컨텍스트
 
-Adobe는 Adobe Campaign Classic 고객에게 최상의 경험과 가치를 제공하기 위해 노력하고 있습니다. 수년 동안 Adobe는 클라우드에서 고객을 호스팅하는 데 대한 가치와 신뢰성을 실현했습니다.  Adobe는 [Gold Standard Initiative](../../rn/using/gold-standard.md)의 일환으로 모든 고객을 Adobe Managed Services(AWS의 Public Cloud)로 전환하여 보다 안전하고 안정적인 서비스를 제공하고 있습니다.
+Adobe는 Adobe Campaign Classic 고객에게 최상의 경험과 가치를 제공하기 위해 노력하고 있습니다. 수년 동안 Adobe는 클라우드에서 고객을 호스팅하는 데 대한 가치와 신뢰성을 실현했습니다.  Adobe의 일부로 [Gold Standard Initiative](../../rn/using/gold-standard.md), Adobe는 모든 고객을 Adobe Managed Services(AWS의 Public Cloud)로 이동하여 보다 안전하고 안정적인 서비스를 제공하고 있습니다.
 
 이 프로그램에는 세 가지 주요 목표가 있습니다.
 
-* 보안 및 최신 환경(AWS)으로 인프라를 이동함으로써 식별된 보안 취약점 해결
-* 번거로울 수 있는 스케일링 프로세스를 제거하고 [Enhanced MTA](../../delivery/using//sending-with-enhanced-mta.md)에 대한 액세스 권한을 제공하며 모든 유지 관리 서비스 수준을 향상시킵니다.
+* 보안 및 최신 환경으로 인프라를 이동함으로써 식별된 보안 취약점 해결(AWS).
+* 번거로울 수 있는 확장 프로세스를 제거하고 [향상된 MTA](../../delivery/using//sending-with-enhanced-mta.md) 모든 유지 관리 서비스 수준을 향상시킬 수 있습니다.
 * 리소스를 많거나 시간이 많이 필요하지 않은 보다 자동화된 일반 업그레이드를 포함하여 Adobe Campaign Classic의 향후 인스턴스에 대해 준비를 하십시오.
 
 ### 용어집
 
-* **빌드 업그레이드**  - Adobe Campaign Classic 소프트웨어가 최신 보안 빌드 번호로 업데이트되지만 동일한 주요/부 빌드 수준에서 유지됩니다. 예: Campaign v7 20.2.3 빌드 9182에서 Campaign v7 21.2.5 빌드 9188로 이동합니다. [자세히 알아보기](../../platform/using/faq-build-upgrade.md)
-* **MID/RT**  - Adobe Cloud에 호스팅되는 메시지 실행 서버(배치 캠페인의 경우 MID, 실시간 단일 메시지의 경우 RT)
-* **Gold Standard 업그레이드**  - 이 프로그램은 향상된 보안, 향상된 지원, 향상된 유지 관리 및 안정성을 제공합니다. 또한 향후 업그레이드를 보다 쉽게 할 수 있고 Campaign의 새로운 기능에 액세스할 수 있습니다.  [자세히 알아보기](../../rn/using/gs-overview.md)
-* **AWS**  - Amazon 웹 서비스(Amazon Public Cloud)
-* **SFTP**  - 보안 파일 전송 프로토콜. [자세히 알아보기](../../platform/using/sftp-server-usage.md)
+* **빌드 업그레이드** - Adobe Campaign Classic 소프트웨어가 최신 보안 빌드 번호로 업데이트되지만 동일한 주요/부 빌드 수준에서 유지됩니다. 예: Campaign v7 20.2.3 빌드 9182에서 Campaign v7 21.2.5 빌드 9188로 이동합니다. [자세히 알아보기](../../platform/using/faq-build-upgrade.md)
+* **MID/RT** - Adobe Cloud에 호스팅되는 메시지 실행 서버(배치 캠페인의 경우 MID, 실시간 단일 메시지의 경우 RT)
+* **Gold Standard 업그레이드** - 이 프로그램은 향상된 보안, 향상된 지원, 유지 관리 및 안정성을 제공합니다. 또한 향후 업그레이드를 보다 쉽게 할 수 있고 Campaign의 새로운 기능에 액세스할 수 있습니다.  [자세히 알아보기](../../rn/using/gs-overview.md)
+* **AWS** - Amazon Web Services(Amazon Public Cloud)
+* **SFTP** - 보안 파일 전송 프로토콜. [자세히 알아보기](../../platform/using/sftp-server-usage.md)
 
 
 >[!NOTE]
->Public Cloud로의 Campaign Classic v7 마이그레이션은 **Adobe Managed Services**&#x200B;만 사용하는 고객에게만 영향을 줍니다.
+>Public Cloud로의 v7 마이그레이션은 **Adobe Managed Services** 전용.
 
 
 ## 이점
@@ -80,24 +80,24 @@ Adobe는 Adobe Campaign Classic 고객에게 최상의 경험과 가치를 제�
 
 이러한 작업을 시작하기 위해 이 마이그레이션을 필요로 하는 계정은 타임라인과 설명서에 대한 액세스를 제공하는 Adobe에서 이메일 커뮤니케이션을 받습니다. 계정이 마이그레이션되도록 예약되었다는 알림이 표시됩니다.
 
-새 고객 지원 지원 티켓](https://experienceleague.adobe.com/?support-solution=Campaign#support)을 열면 마이그레이션을 시작할 수 있습니다. [ 제목 줄 &quot;AWS로 마이그레이션&quot;을 사용하십시오.
+마이그레이션은 [새 고객 지원 지원 티켓 열기](https://experienceleague.adobe.com/?support-solution=Campaign#support). 제목란 &quot;AWS으로 마이그레이션&quot;을 사용합니다.
 
 ### 이 마이그레이션은 필수 사항입니까?
 
-이 Cloud로의 마이그레이션은 Adobe Campaign 인스턴스의 [Gold Standard 인증&#x200B;](../../rn/using/gs-overview.md)**에 대한 첫 단계입니다.** AWS(Public Cloud)가 아닌 데이터 센터에서 호스팅되는 경우 이 마이그레이션은 필수입니다.
+Cloud로의 마이그레이션은 **첫 번째 단계 [Gold Standard 인증](../../rn/using/gs-overview.md)** Adobe Campaign 인스턴스 중 하나를 생성할 수 있습니다. Public Cloud(AWS)이 아닌 데이터 센터에서 호스팅되는 경우 이 마이그레이션은 필수입니다.
 
-Adobe Managed Services 클라우드는 현대적이고 안전한 최적화된 환경인 AWS(Amazon Web Services)에서 호스팅됩니다. [AWS에 대해 자세히 알아보십시오](https://aws.amazon.com/application-hosting/benefits/).
+Adobe Managed Services 클라우드는 현대적이고 안전한 최적화된 환경인 Amazon Web Services(AWS)에서 호스팅됩니다. [AWS에 대해 자세히 알아보기](https://aws.amazon.com/application-hosting/benefits/).
 
-Adobe은 기존 데이터 센터를 해체할 계획이며, 여기서 실행되는 Adobe Campaign 인스턴스는 새로운 참조 데이터 센터, AWS로 전송되어야 합니다.
+Adobe은 기존 데이터 센터를 해제할 계획이며, 여기서 실행 중인 Adobe Campaign 인스턴스는 새 참조 데이터 센터 AWS으로 전송되어야 합니다.
 
-현재 위치가 **보안 및 성능 취약점에 노출될 수 있으므로 이 경로는 중요한 경로입니다**.
+현재 위치가 **보안 및 성능 취약점**.
 
-또한 이 마이그레이션은 Adobe Campaign의 향후 빌드 업그레이드&#x200B;**에 대한 필수 구성 요소가 되었습니다.** 기존 데이터 센터에서 빌드 업그레이드를 수행할 수 없습니다.
+또한 이 마이그레이션은 **향후 빌드 업그레이드에 대한 사전 요구 사항** Adobe Campaign의 기존 데이터 센터에서 빌드 업그레이드를 수행할 수 없습니다.
 
 Adobe은 데이터를 보호하고 Adobe Campaign의 향후 계획을 추적하는 데 최선을 다하고 있습니다. 공동 성공을 위해서는 여러분의 파트너십이 필요합니다!
 
 
-**Adobe에서는** 고객 지원 담당자, 고객 성공 관리자, 제품 관리자, 엔지니어, TechOps 전문가 및 제품 컨설턴트 팀을 구성하여 원활한 경험을 제공하고 보장합니다. Adobe는 귀하에게 관련 프로젝트 및 연락처 정보를 제공하기 위해 최선을 다하고 있습니다.
+**우리는 팀을 조직했다** 전담 고객 지원 담당자, 고객 성공 관리자, 제품 관리자, 엔지니어, TechOps 전문가 및 제품 컨설턴트를 통해 원활한 경험을 제공하고 보장합니다. Adobe는 귀하에게 관련 프로젝트 및 연락처 정보를 제공하기 위해 최선을 다하고 있습니다.
 
 Dell은 이러한 마이그레이션을 신속하고 원활하게 수행할 수 있는 기술 개발에 많은 노력을 투자했습니다.
 
@@ -107,7 +107,7 @@ Dell은 이러한 마이그레이션을 신속하고 원활하게 수행할 수 
 * 데이터 통합을 위한 IP 변경 사항.
 * 새로운 전송 IP의 게재 기능 램프-업. 그러나, 이 계획은 go-live 동안 수행되는 초기 램프 업과 달리 사업을 위해 이 작업을 투명하게 만드는 것입니다.
 
-[Public Cloud로 Campaign 마이그레이션에서 자세한 내용을 살펴보십시오. FAQ](dc-migration-faq.md)
+다음으로 Campaign 마이그레이션의 자세한 내용 [Public Cloud FAQ](dc-migration-faq.md).
 
 
 ## Gold Standard 인증 여정
@@ -128,7 +128,7 @@ Adobe은 대부분의 작업을 처리합니다. 확인 및 승인을 위해 사
 
 **데이터베이스**
 
-데이터베이스는 기존 데이터 센터에서 덤프되고 AWS(Public Cloud)에서 복원됩니다. 새 데이터 센터에서 다시 시작하면 애플리케이션이 종료 전 정확한 상태에서 다시 시작됩니다. 일부 예약된 작업이 지연되는 경우를 제외하고는 사용자에게 아무런 차이가 없습니다.
+데이터베이스는 기존 데이터 센터에서 덤프되고 Public Cloud (AWS)에서 복원됩니다. 새 데이터 센터에서 다시 시작하면 애플리케이션이 종료 전 정확한 상태에서 다시 시작됩니다. 일부 예약된 작업이 지연되는 경우를 제외하고는 사용자에게 아무런 차이가 없습니다.
 
 **이메일 전송 IP**
 
@@ -147,7 +147,7 @@ Adobe은 대부분의 작업을 처리합니다. 확인 및 승인을 위해 사
 
 **Campaign 서버**
 
-기존 Campaign 서버(실제로 컨테이너)는 &quot;이동 및 이동&quot; 방식으로 AWS(Public Cloud)로 이동됩니다. 즉 새 서버를 설치할 필요가 없지만 전체 서버가 새 데이터 센터로 전송됩니다. 이 작업은 낮은 수준의 기술 재구성 이상의 작업이 필요하지 않습니다.
+기존 Campaign 서버(실제로 컨테이너)는 &quot;이동 및 이동&quot; 방식으로 Public Cloud(AWS)으로 이동됩니다. 즉 새 서버를 설치할 필요가 없지만 전체 서버가 새 데이터 센터로 전송됩니다. 이 작업은 낮은 수준의 기술 재구성 이상의 작업이 필요하지 않습니다.
 
 **서버 이름**
 
@@ -158,7 +158,7 @@ Adobe은 대부분의 작업을 처리합니다. 확인 및 승인을 위해 사
 
 사용자 액세스 및 데이터 통합의 경우 neolane.net 아래의 이름은 변경되지 않습니다.
 
-즉, 서버 이름을 하드 코딩된 IP로 대체하지 않은 경우에는 사용자가 변경되고 데이터 통합 구현은 변경되지 않습니다.
+즉, 서버 이름을 하드 코딩된 IP로 대체하지 않은 경우 사용자가 변경되고 데이터 통합 구현이 투명하게 변경됩니다.
 
 ### 준비
 
@@ -189,7 +189,7 @@ Adobe은 새 데이터 센터에 동일한 수의 IP를 프로비저닝합니다
 
 **실행 일시 중지**
 
-애플리케이션이 레거시 데이터 센터에서 종료되기 바로 전에 모든 실행을 중단하고 일시 중지하는 것이 좋습니다. 게재 및 워크플로우. 이를 통해 프로세스에 &quot;올바르게&quot; 일시 중지하고 진행 중인 실행 상태를 저장할 수 있는 시간이 부여되므로 AWS(Public Cloud)에서 다시 시작됩니다.
+애플리케이션이 레거시 데이터 센터에서 종료되기 바로 전에 모든 실행을 중단하고 일시 중지하는 것이 좋습니다. 게재 및 워크플로우. 프로세스에 &quot;부드럽게&quot;를 일시 중지하고 진행 중인 실행 상태를 저장할 시간이 부여되므로 이를 통해 Public Cloud(AWS)에서 다시 시작됩니다.
 
 **마이그레이션 중**
 
@@ -206,11 +206,11 @@ Adobe은 새 데이터 센터에 동일한 수의 IP를 프로비저닝합니다
 
 **기존 데이터 센터에서 인스턴스 삭제**
 
-애플리케이션 마이그레이션이 완료되면 기존 데이터 센터에서 프로세스를 다시 실행할 계획이 없습니다. 예약된 백업 프로세스가 AWS(Public Cloud)에서 실행될 때까지 임시 백업을 제외한 레거시 데이터 센터의 모든 데이터를 지울 수 있습니다.
+애플리케이션 마이그레이션이 완료되면 기존 데이터 센터에서 프로세스를 다시 실행할 계획이 없습니다. 예약된 백업 프로세스가 Public Cloud(AWS)에서 실행될 때까지 임시 백업을 제외한 레거시 데이터 센터의 모든 데이터를 지울 수 있습니다.
 
 **DNS 위임**
 
-일반적으로 Campaign에서 전자 메일을 보내는 데 사용되는 도메인(오류 주소에서 @ 기호 오른쪽에 있음)이 Adobe에 위임되었습니다. 위임은 AWS DNS 서버에 대해 변경 및 구현될 수 있습니다.
+일반적으로 Campaign에서 전자 메일을 보내는 데 사용되는 도메인(오류 주소에서 @ 기호 오른쪽에 있음)이 Adobe에 위임되었습니다. 위임은 AWS DNS 서버에 대해 변경하고 구현할 수 있습니다.
 
 
 ## 지원 및 기타 유용한 링크{#support}

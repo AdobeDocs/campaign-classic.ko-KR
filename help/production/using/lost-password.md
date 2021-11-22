@@ -30,7 +30,7 @@ Adobe Campaign 연산자가 암호를 잃어버리면 변경할 수 있습니다
 
 1. 관리자 권한이 있는 연산자를 통해 연결합니다.
 1. 연산자를 마우스 오른쪽 단추로 클릭합니다.
-1. **[!UICONTROL Actions]** > **[!UICONTROL Reset password]** 을 선택합니다.
+1. 선택 **[!UICONTROL Actions]** > **[!UICONTROL Reset password]**.
 
    ![](assets/operator-passwd.png)
 
@@ -45,9 +45,9 @@ Adobe Campaign 연산자가 암호를 잃어버리면 변경할 수 있습니다
 내부 암호가 손실되면 다시 초기화해야 합니다.
 이렇게 하려면 다음 절차를 적용합니다.
 
-1. **/usr/local/neolane/nl6/conf/serverConf.xml** 파일을 편집합니다.
+1. 편집 **/usr/local/neolane/nl6/conf/serverConf.xml** 파일.
 
-1. **internalPassword** 줄로 이동합니다.
+1. 로 이동합니다. **internalPassword** 줄.
 
    ```
    <!-- XTK authentication mode internalPassword : Password of internal account -->
@@ -77,4 +77,4 @@ Adobe Campaign 연산자가 암호를 잃어버리면 변경할 수 있습니다
    Confirmation 
    ```
 
-1. 이제 새 암호를 사용하여 **내부** 모드로 연결할 수 있습니다.
+1. 이제 새 암호를 사용하여 연결할 수 있습니다 **내부** 모드.

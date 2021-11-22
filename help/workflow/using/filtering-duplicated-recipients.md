@@ -21,21 +21,21 @@ ht-degree: 4%
 
 이 예제를 만들려면 다음 단계를 적용합니다.
 
-1. 워크플로우에 **[!UICONTROL Query]** 활동을 끌어다 놓고 활동을 엽니다.
-1. **[!UICONTROL Edit query]** 을 클릭하고 대상 및 필터링 차원을 **[!UICONTROL Recipients]** 로 설정합니다.
+1. 끌어서 놓기 **[!UICONTROL Query]** 활동 을 워크플로우에서 열고 활동을 엽니다.
+1. 클릭 **[!UICONTROL Edit query]** 타겟과 필터링 차원을 **[!UICONTROL Recipients]**.
 
    ![](assets/query_recipients_1.png)
 
-1. 게재 로그에 있는 수신자를 타겟팅하려면 다음 필터 조건을 정의합니다. **수신자 배달 로그(broadlog)**&#x200B;를 **표현식** 열에서 **존재(예:**&#x200B;연산자&#x200B;**열)를 선택합니다.**
+1. 게재 로그에 있는 수신자를 타겟팅하려면 다음 필터 조건을 정의합니다. 선택 **받는 사람 게재 로그(브로드로그)** 에서 **표현식** 열, 선택 **다음과 같이 있음** 에서 **연산자** 열.
 
    ![](assets/query_recipients_2.png)
 
-1. 게재를 타깃팅할 다음 필터 조건을 정의합니다. 표현식 열에서 **[!UICONTROL Internal name]** 을 선택하고 연산자 열에서 **[!UICONTROL equal to]** 를 선택합니다.
+1. 게재를 타깃팅할 다음 필터 조건을 정의합니다. 선택 **[!UICONTROL Internal name]** 표현식 열에서 **[!UICONTROL equal to]** 를 입력합니다.
 1. 값 열에서 타깃팅된 게재의 내부 이름을 추가합니다.
 
    ![](assets/query_recipients_3.png)
 
-1. **[!UICONTROL AND]** 연산자로 동일한 작업을 반복하여 다른 게재를 타깃팅합니다.
+1. 다음 포함 **[!UICONTROL AND]** 연산자인 경우 동일한 작업을 반복하여 다른 게재를 타깃팅합니다.
 
    ![](assets/query_recipients_4.png)
 

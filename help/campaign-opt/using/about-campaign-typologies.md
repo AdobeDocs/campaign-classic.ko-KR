@@ -9,7 +9,7 @@ exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
 source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 ![](../../assets/common.svg)
 
-캠페인 최적화는 게재 전송을 제어, 필터링 및 모니터링할 수 있는 Adobe Campaign 모듈입니다. 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제한 조건을 적용하여 다양한 조합을 테스트할 수 있습니다. 따라서 전송되는 메시지는 고객 및 회사 커뮤니케이션 정책의 요구 및 기대를 충족하도록 보장합니다.
+캠페인 최적화는 게재 전송을 제어, 필터링 및 모니터링할 수 있는 Adobe Campaign 모듈입니다. 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제한 조건을 적용하여 다양한 조합을 테스트할 수 있습니다. 이를 통해 회사 커뮤니케이션 정책을 준수하면서 고객의 요구 사항과 기대치에 가장 적합한 메시지를 보내도록 보장합니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#typologies-video)
 

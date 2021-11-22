@@ -19,19 +19,19 @@ ht-degree: 20%
 
 만드는 동안 웹 응용 프로그램 유형이 선택됩니다.
 
-**Campaigns** 탭으로 이동하여 **[!UICONTROL Web Applications]** 메뉴를 선택합니다. **[!UICONTROL Create]** 버튼을 클릭합니다. 사용할 웹 응용 프로그램 템플릿을 선택합니다.
+로 이동합니다. **캠페인** 탭을 선택하고 을(를) 선택합니다 **[!UICONTROL Web Applications]** 메뉴 아래의 제품에서 사용할 수 있습니다. **[!UICONTROL Create]** 버튼을 클릭합니다. 사용할 웹 응용 프로그램 템플릿을 선택합니다.
 
 ![](assets/webapp_create_from_campaign.png)
 
 >[!NOTE]
 >
->개인 정보가 포함될 수 있는 페이지를 항상 보호합니다. [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy)을 참조하십시오.
+>개인 정보가 포함될 수 있는 페이지를 항상 보호합니다. 자세한 내용은 [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy).
 
 이 템플릿은 웹 응용 프로그램의 유형을 결정합니다. 다음을 만들 수 있습니다.
 
 1. 웹 양식(+ 프로필 수정)
 
-   웹 양식을 사용하면 입력 또는 선택 필드로 웹 페이지를 제공할 수 있습니다. 사용자가 입력한 정보는 Adobe Campaign 데이터베이스에 저장할 수 있습니다. 자세한 내용은 [웹 양식](about-web-forms.md)을 참조하십시오.
+   웹 양식을 사용하면 입력 또는 선택 필드로 웹 페이지를 제공할 수 있습니다. 사용자가 입력한 정보는 Adobe Campaign 데이터베이스에 저장할 수 있습니다. 자세한 내용은 [웹 양식](about-web-forms.md).
 
 1. 웹 애플리케이션
 
@@ -43,18 +43,18 @@ ht-degree: 20%
 
 1. 설문 조사
 
-   Adobe Campaign을 사용하면 **설문 조사 관리자** 옵션을 통해 온라인 설문 조사를 디자인하고 관리하고 결과를 처리할 수 있습니다. 동적 필드 작성, 점수 관리, 답변 및 전용 보고서 내보내기. 이 작업에 대한 자세한 정보는 [이 섹션](../../surveys/using/about-surveys.md)을 참조하십시오.
+   Adobe Campaign을 통해 **설문 조사 관리자** 선택 사항, 온라인 설문 조사를 디자인하고 관리하고 결과를 처리하는 방법: 동적 필드 작성, 점수 관리, 답변 및 전용 보고서 내보내기. 이 작업에 대한 자세한 정보는 [이 섹션](../../surveys/using/about-surveys.md)을 참조하십시오.
 
    >[!CAUTION]
    >
-   >**Survey** Manager는 선택적 Adobe Campaign 모듈입니다. 사용권 계약을 확인하십시오.
+   >**설문 조사 관리자** 는 선택적 Adobe Campaign 모듈입니다. 사용권 계약을 확인하십시오.
 
 1. Facebook 애플리케이션
 
-   **소셜 마케팅** 옵션 덕분에 Adobe Campaign에서 Facebook 애플리케이션에 개인화된 콘텐츠를 게시할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../social/using/about-social-marketing.md)을 참조하십시오.
+   덕분에 **소셜 마케팅** 옵션을 사용하면 Adobe Campaign 애플리케이션에서 개인화된 콘텐츠를 게시할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../social/using/about-social-marketing.md)을 참조하십시오.
 
    >[!CAUTION]
    >
-   >**소셜** 마케팅은 선택적 Adobe Campaign 모듈입니다. 사용권 계약을 확인하십시오.
+   >**소셜 마케팅** 는 선택적 Adobe Campaign 모듈입니다. 사용권 계약을 확인하십시오.
 
 페이지 구성 모드와 사용 가능한 구성은 여러 웹 애플리케이션 유형에 대해 동일할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](about-web-forms.md)을 참조하십시오.

@@ -26,7 +26,7 @@ DMZ에 있는 두 서버는 추적, 미러 페이지 및 게재를 처리하며 
 
 LAN의 응용 프로그램 서버는 최종 사용자를 제공하고 모든 반복 프로세스(워크플로우 엔진)를 수행합니다. 따라서 정면서버에서 최대 로드에 도달하면 애플리케이션 사용자에게 영향을 주지 않습니다.
 
-데이터베이스 서버는 이 세 가지 서버와 별도의 컴퓨터에서 호스팅될 수 있습니다. 운영 체제가 Adobe Campaign(Linux 또는 Windows)에서 지원되는 경우 응용 프로그램 서버 및 데이터베이스 서버가 LAN 내에서 동일한 컴퓨터를 공유할 수 있습니다.
+데이터베이스 서버는 이 세 가지 서버와 별도의 컴퓨터에서 호스팅될 수 있습니다. 운영 체제가 Adobe Campaign(Linux 또는 Windows)에서 지원되는 경우 애플리케이션 서버와 데이터베이스 서버가 LAN 내에서 동일한 컴퓨터를 공유할 수 있습니다.
 
 서버와 프로세스 간의 일반 통신은 다음 스키마에 따라 수행됩니다.
 
@@ -54,11 +54,11 @@ LAN의 응용 프로그램 서버는 최종 사용자를 제공하고 모든 반
    * 가상 IP 주소(VIP)에서 로드 밸런서를 추적 및 가리키도록 공개되어 두 개의 전면 서버에 배포됩니다.
    * 콘솔을 통해 액세스할 내부 사용자에게 노출되고 동일한 애플리케이션 서버를 가리키는 두 번째 작업입니다.
 
-* STMP(25), DNS(53), HTTP(80), HTTPS(443), SQL(Oracle의 경우 1521, PostgreSQL의 경우 5432)를 열도록 구성된 방화벽 포트. 자세한 내용은 [데이터베이스 액세스](../../installation/using/network-configuration.md#database-access) 섹션을 참조하십시오.
+* STMP(25), DNS(53), HTTP(80), HTTPS(443), SQL(Oracle의 경우 1521, PostgreSQL의 경우 5432)를 열도록 구성된 방화벽 포트. 자세한 내용은 섹션을 참조하십시오 [데이터베이스 액세스](../../installation/using/network-configuration.md#database-access).
 
 ### 애플리케이션 서버 설치 {#installing-the-application-server}
 
-Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치하는 단계에 따라 데이터베이스를 만듭니다(12단계). [설치 및 구성(단일 컴퓨터)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-)을 참조하십시오.
+Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치하는 단계에 따라 데이터베이스를 만듭니다(12단계). 을(를) 참조하십시오. [설치 및 구성(단일 시스템)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
 컴퓨터가 추적 서버가 아니므로 웹 서버와의 통합을 고려하지 마십시오.
 
@@ -77,20 +77,20 @@ Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치�
 
 1. Adobe Campaign 서버를 설치합니다.
 
-   자세한 내용은 Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md)(Windows)에서 [Campaign 설치 사전 요구 사항](../../installation/using/prerequisites-of-campaign-installation-in-linux.md)(Linux) 및 [Campaign 설치 사전 요구 사항(Windows)을 참조하십시오.
+   자세한 내용은 [Linux에서 캠페인 설치 사전 요구 사항](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) 및 [Windows에서 Campaign 설치 사전 요구 사항](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
 
 1. 다음 섹션에 설명된 웹 서버 통합 절차(IIS, Apache)를 따르십시오.
 
-   * Linux의 경우: [Linux용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-linux.md)
+   * Linux의 경우: [Linux용 웹 서버와 통합](../../installation/using/integration-into-a-web-server-for-linux.md)
    * Windows의 경우: [Windows용 웹 서버에 통합](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. **데모** 인스턴스를 만듭니다. 다음 두 가지 방법으로 데이터를 수집할 수 있습니다.
+1. 만들기 **데모** 인스턴스. 다음 두 가지 방법으로 데이터를 수집할 수 있습니다.
 
    * 콘솔을 통해 인스턴스를 생성합니다.
 
       ![](assets/install_create_new_connexion.png)
 
-      자세한 내용은 [인스턴스 만들기 및](../../installation/using/creating-an-instance-and-logging-on.md)에 로그온을 참조하십시오.
+      자세한 내용은 [인스턴스 만들기 및 로그온](../../installation/using/creating-an-instance-and-logging-on.md).
 
       또는
 
@@ -100,12 +100,12 @@ Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치�
       nlserver config -addinstance:demo/tracking.campaign.net*
       ```
 
-      자세한 내용은 [인스턴스 만들기](../../installation/using/command-lines.md#creating-an-instance)를 참조하십시오.
+      자세한 내용은 [인스턴스 만들기](../../installation/using/command-lines.md#creating-an-instance).
    인스턴스 이름은 애플리케이션 서버의 이름과 같습니다.
 
-   **nlserver web** 모듈(미러 페이지, 구독 취소)이 있는 서버에 대한 연결은 로드 밸런서의 URL에서 수행됩니다(tracking.campaign.net).
+   를 사용하여 서버에 연결 **nlserver 웹** 모듈(미러 페이지, 구독 취소)은 로드 밸런서의 URL에서 수행됩니다(tracking.campaign.net).
 
-1. **internal**&#x200B;을 응용 프로그램 서버와 동일하게 변경합니다.
+1. 변경 **내부** 응용 프로그램 서버와 동일하게
 
    이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)을 참조하십시오.
 
@@ -115,11 +115,11 @@ Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치�
    nlserver config -setdblogin:PostgreSQL:campaign:demo@dbsrv -instance:demo
    ```
 
-1. **config-default.xml** 및 **config-demo.xml** 파일에서 **web**, **trackinglogd** 및 **mta** 모듈을 활성화합니다.
+1. 에서 **config-default.xml** 및 **config-demo.xml** 파일, 활성화 **웹**, **trackinglogd** 및 **mta** 모듈.
 
    이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#enabling-processes)을 참조하십시오.
 
-1. **serverConf.xml** 파일을 편집하고 채웁니다.
+1. 편집 **serverConf.xml** 파일 및 채우기:
 
    * mta 모듈의 DNS 구성:
 
@@ -129,9 +129,9 @@ Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치�
 
       >[!NOTE]
       >
-      >**nameServers** 매개 변수는 Windows에서만 사용됩니다.
+      >다음 **nameServers** 매개 변수는 Windows에서만 사용됩니다.
 
-      자세한 내용은 [배달 설정](configure-delivery-settings.md)을 참조하십시오.
+      자세한 내용은 [게재 설정](configure-delivery-settings.md).
 
    * 리디렉션 매개 변수의 중복 추적 서버:
 
@@ -140,9 +140,9 @@ Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치�
       <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
       ```
 
-      자세한 내용은 [중복 추적](configuring-campaign-server.md#redundant-tracking)을 참조하십시오.
+      자세한 내용은 [중복 추적](configuring-campaign-server.md#redundant-tracking).
 
-1. 웹 사이트를 시작하고 URL에서 리디렉션을 테스트합니다. [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test)
+1. 웹 사이트를 시작하고 URL에서 리디렉션을 테스트합니다. [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 
    브라우저에 로드 밸런서에서 리디렉션하는 URL에 따라 다음 메시지가 표시됩니다.
 
@@ -162,18 +162,18 @@ Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치�
    * Windows의 경우: [웹 서버 시작 및 구성 테스트](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Adobe Campaign 서버를 시작합니다.
-1. Adobe Campaign 콘솔에서 암호 없이 **admin** 로그인을 사용하여 연결하고 배포 마법사를 시작합니다.
+1. Adobe Campaign 콘솔에서 을 사용하여 연결합니다. **관리** 암호 없이 로그인하고 배포 마법사를 시작합니다.
 
-   자세한 내용은 [인스턴스 배포](../../installation/using/deploying-an-instance.md)를 참조하십시오.
+   자세한 내용은 [인스턴스 배포](../../installation/using/deploying-an-instance.md).
 
    구성은 추적 모듈의 구성과 별도로 독립 실행형 인스턴스와 동일합니다.
 
 1. 리디렉션에 사용되는 외부 URL(로드 밸런서의 URL)과 두 전두서버의 내부 URL을 채웁니다.
 
-   자세한 내용은 [추적 구성](../../installation/using/deploying-an-instance.md#tracking-configuration)을 참조하십시오.
+   자세한 내용은 [구성 추적](../../installation/using/deploying-an-instance.md#tracking-configuration).
 
    ![](assets/d_ncs_install_tracking2.png)
 
    >[!NOTE]
    >
-   >이전에 만든 두 추적 서버의 기존 인스턴스를 사용하고 **internal** 로그인을 사용합니다.
+   >이전에 만든 두 추적 서버의 기존 인스턴스를 사용하고 **내부** 로그인.

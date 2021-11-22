@@ -19,9 +19,9 @@ ht-degree: 2%
 
 ## 표 확장 {#extending-a-table}
 
-**nms:recipient** 스키마 수신자 테이블을 확장하려면 다음 절차를 적용합니다.
+확장 **nms:recipient** 스키마 수신자 테이블에서 다음 절차를 적용합니다.
 
-1. 다음 데이터를 사용하여 확장 스키마(**cus:extension**)를 만듭니다.
+1. 확장 스키마 만들기(**cus:확장**)에서 사용할 수 있습니다.
 
    ```
    <srcSchema mappingType="sql" name="extension" namespace="cus" xtkschema="xtk:srcSchema" extendedSchema="nms:recipient">  
@@ -42,13 +42,13 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-   이 예제에서 인덱싱된 필드(**fidelity**)가 추가되고, **위치** 요소(**nms:recipient** 스키마에 이미 존재함)가 열거된 필드(**영역**)로 보완됩니다.
+   이 예에서는 인덱싱된 필드(**figures**&#x200B;가 추가되고 **위치** 요소(이미 **nms:recipient** 스키마)는 열거된 필드( )로 보완됩니다.**영역**).
 
    >[!IMPORTANT]
    >
-   >확장 스키마를 참조하려면 **extendedSchema** 특성을 추가해야 합니다.
+   >를 추가해야 합니다 **extendedSchema** 확장 스키마를 참조할 속성입니다.
 
-1. 확장 스키마가 **nms:recipient** 스키마이고 추가 데이터가 있는지 확인합니다.
+1. 확장 스키마가 **nms:recipient** 스키마와 추가 데이터가 있는지 여부:
 
    ```
    <schema dependingSchemas="cus:extension" mappingType="sql" name="recipient" namespace="nms" xtkschema="xtk:schema">
@@ -103,7 +103,7 @@ ht-degree: 2%
 </srcSchema>
 ```
 
-수신자 테이블에 대한 링크의 조인에서 사용할 자동 생성된 기본 키를 만들려면 테이블 유형이 **자동**&#x200B;입니다.
+테이블 유형은 다음과 같습니다. **자동** 수신자 테이블에 대한 링크의 조인에서 사용할 자동 생성된 기본 키를 만들려면
 
 생성된 스키마:
 
@@ -155,7 +155,7 @@ INSERT INTO CusOrder (iOrderId) VALUES (0);
 
 확장 테이블의 목적은 테이블에서 지원되는 필드 수에 대한 제한을 방지하거나, 필요할 때 소비되는 데이터가 차지하는 공간을 최적화하는 것입니다.
 
-확장 테이블 스키마 만들기(**cus:feature**):
+확장 테이블 스키마 만들기(**cus:기능**):
 
 ```
 <srcSchema mappingType="sql" name="feature" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -237,7 +237,7 @@ CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);
 
 관계 테이블을 사용하면 두 테이블을 카디널리티 N-N과 연결할 수 있습니다. 이 표에는 연결할 테이블의 외래 키만 포함되어 있습니다.
 
-그룹(**nms:group**)과 수신자(**nms:recipient**) 간의 관계 테이블의 예.
+그룹 간 관계 테이블의 예(**nms:group**) 및 수신자 ( )입니다.**nms:recipient**).
 
 관계 테이블의 소스 스키마:
 
@@ -303,7 +303,7 @@ CREATE INDEX CusRcpGrpRel_recipientId ON CusRcpGrpRel(iRecipientId);
 
 이 사용 사례에서는 기존 참조 테이블을 기본 제공 Adobe Campaign 열거형 메커니즘(열거형, userEnum 또는 dbEnum)의 대체 요소로 사용하는 방법을 보여 줍니다.
 
-기존 참조 테이블을 스키마에서 열거형으로 사용할 수도 있습니다. 이 작업은 테이블과 참조 테이블 간의 링크를 만들고 **displayAsField=&quot;true&quot;** 속성을 추가하여 수행할 수 있습니다.
+기존 참조 테이블을 스키마에서 열거형으로 사용할 수도 있습니다. 테이블과 참조 테이블 간의 링크를 만들고 속성을 추가하여 이 작업을 수행할 수 있습니다 **displayAsField=&quot;true&quot;**.
 
 이 예에서 참조 테이블에는 은행 이름과 식별자 목록이 들어 있습니다.
 
@@ -321,7 +321,7 @@ xtkschema="xtk:srcSchema">
 </srcSchema>
 ```
 
-이 참조 테이블을 사용하는 테이블에서 링크를 정의하고 **displayAsField=&quot;true&quot;** 속성을 추가합니다.
+이 참조 테이블을 사용하는 모든 테이블에서 링크를 정의하고 **displayAsField=&quot;true&quot;** 속성을 사용합니다.
 
 ```
 <element displayAsField="true" label="Bank" name="bank" target="cus:bank" type="link" noDbIndex="true"/>
@@ -333,7 +333,7 @@ xtkschema="xtk:srcSchema">
 
 * 자동 완료되도록 하려면 참조 테이블에서 계산 문자열을 정의해야 합니다.
 
-* Adobe Campaign이 링크의 소스 테이블에 저장된 값에 인덱스를 만들지 않도록 링크 정의에 **noDbIndex=&quot;true&quot;** 속성을 추가합니다.
+* 추가 **noDbIndex=&quot;true&quot;** Adobe Campaign이 링크의 소스 테이블에 저장된 값에 대한 인덱스를 생성하지 않도록 하기 위한 링크 정의에서 속성을 사용합니다.
 
 ## 관련 항목
 

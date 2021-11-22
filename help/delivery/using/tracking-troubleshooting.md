@@ -87,7 +87,7 @@ $ grep -Rn 50x000000000FD7EC86
 
 `Requested URL '/r/ id=h787bc0,281a4d8,281a4da&amp;p1=1' cannot be found`
 
-1. &lt;redirection_server>/r/test URL에 액세스하여 요청에 의해 빌드 번호 및 localhost가 반환되었는지 확인합니다.
+1. 액세스 &lt;redirection_server>/r/test URL을 확인하고 요청에 의해 빌드 번호 및 localhost가 반환되었는지 확인합니다.
 
 1. serverConf.xml 파일의 spareServer 구성에 추적 서버가 있는지 확인합니다. 이 구성은 리디렉션 모드여야 합니다.
 
@@ -104,13 +104,13 @@ $ grep -Rn 50x000000000FD7EC86
    </redirection>
    ```
 
-1. &lt;deliveryID>.xml 파일이 컴퓨터에 있는지 수동으로 확인../nl6/var/&lt;instance_name>/redir/url/&lt;YYYY> 디렉토리(YYYY는 배달 연도를 나타냅니다).
+1. 수동으로 &lt;deliveryid>.xml 파일이 컴퓨터에 있습니다./nl6/var/&lt;instance_name>/redirect/url/&lt;yyyy> directory (YYYY는 배달 연도를 나타냅니다.)
 
-1. &lt;trackingUrlId>를 &lt;deliveryID>.xml 파일에서 찾을 수 있는지 수동으로 확인합니다.
+1. 수동으로 확인 &lt;trackingurlid> 은 &lt;deliveryid>.xml 파일
 
 1. 관련 deliveryID 게재에서 broadlogID가 수동으로 있는지 확인합니다.
 
-1. 에서 &lt;deliveryID>.xml 파일 권한을 확인합니다../nl6/var/&lt;instance_name>/redir/url/year 디렉토리.
+1. 확인 &lt;deliveryid>.xml 파일 사용 권한:../nl6/var/&lt;instance_name>/redir/url/year 디렉토리.
 
    Apache가 요청된 링크를 리디렉션하기 위해 추적 URL을 읽을 수 있도록 644 이상의 권한이 있어야 합니다.
 

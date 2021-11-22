@@ -30,13 +30,13 @@ Javascript 코드를 편집하려면 기술 기술이 필요하므로 적절한 
 
 파이프라인은 JavaScript 함수를 사용하여 각 메시지를 처리합니다. 이 함수는 사용자가 정의합니다.
 
-JSConnector&quot; 특성 아래의 **[!UICONTROL NmsPipeline_Config]** 옵션에 구성됩니다. 이 JavaScript는 이벤트가 수신될 때마다 호출됩니다. [!DNL pipelined] 프로세스에 의해 실행됩니다.
+이 구성 요소는 **[!UICONTROL NmsPipeline_Config]** &quot;JSConnector&quot; 속성 아래의 옵션. 이 JavaScript는 이벤트가 수신될 때마다 호출됩니다. 이 데이터는 [!DNL pipelined] 프로세스.
 
 샘플 Javascript 파일은 cus:triggers.js입니다.
 
 ### JavaScript 함수 {#function-js}
 
-[!DNL pipelined] Javascript는 특정 함수로 시작해야 합니다.
+다음 [!DNL pipelined] Javascript는 특정 함수로 시작해야 합니다.
 
 이 함수는 모든 이벤트에 대해 한 번 호출됩니다.
 
@@ -50,14 +50,14 @@ function processPipelineMessage(xmlTrigger) {}
 <undefined/>
 ```
 
-Javascript를 편집한 후 [!DNL pipelined]을 다시 시작해야 합니다.
+다시 시작해야 합니다 [!DNL pipelined] javascript를 편집한 후.
 
 ### 데이터 형식 트리거 {#trigger-format}
 
-[!DNL trigger] 데이터는 XML 형식으로 JS 함수에 전달됩니다.
+다음 [!DNL trigger] 데이터는 XML 형식으로 JS 함수에 전달됩니다.
 
-* **[!UICONTROL @triggerId]** 속성에 [!DNL trigger] 이름이 포함되어 있습니다.
-* JSON 형식의 **데이터 보강** 요소는 Adobe Analytics에서 생성한 데이터를 포함하며, 트리거에 첨부됩니다.
+* 다음 **[!UICONTROL @triggerId]** 속성에는 [!DNL trigger].
+* 다음 **강화** JSON 형식의 요소는 Adobe Analytics에서 생성한 데이터를 포함하며, 트리거에 첨부됩니다.
 * **[!UICONTROL @offset]** 은 메시지에 대한 &quot;포인터&quot;입니다. 큐 내의 메시지 순서를 나타냅니다.
 * **[!UICONTROL @partition]** 는 큐 내의 메시지 컨테이너입니다. 오프셋은 파티션을 기준으로 합니다. <br>큐에 약 15개의 파티션이 있습니다.
 
@@ -109,20 +109,20 @@ Javascript를 편집한 후 [!DNL pipelined]을 다시 시작해야 합니다.
 
 ### 이벤트 처리 순서{#order-events}
 
-이벤트는 오프셋 순서대로 한 번에 하나씩 처리됩니다. [!DNL pipelined] 의 각 스레드는 다른 파티션을 처리합니다.
+이벤트는 오프셋 순서대로 한 번에 하나씩 처리됩니다. 의 각 스레드 [!DNL pipelined] 다른 파티션을 처리합니다.
 
 마지막으로 검색한 이벤트의 &#39;offset&#39;은 데이터베이스에 저장됩니다. 따라서 프로세스가 중지되면 마지막 메시지에서 다시 시작됩니다. 이 데이터는 내장 스키마 xtk:pipelineOffset에 저장됩니다.
 
 이 포인터는 각 인스턴스 및 각 소비자에 따라 다릅니다. 따라서 많은 인스턴스가 서로 다른 소비자와 동일한 파이프라인에 액세스하면 각각 모든 메시지와 동일한 순서로 수신됩니다.
 
-파이프라인 옵션의 **소비자** 매개 변수는 호출 인스턴스를 식별합니다.
+다음 **소비자** 파이프라인 옵션의 매개 변수는 호출 인스턴스를 식별합니다.
 
 현재 &#39;스테이징&#39; 또는 &#39;개발&#39;과 같은 별도의 환경에 대해 다른 큐가 있을 수 없습니다.
 
 ### 로깅 및 오류 처리 {#logging-error-handling}
 
-logInfo() 와 같은 로그는 [!DNL pipelined] 로그로 전달됩니다. logError() 와 같은 오류가 [!DNL pipelined] 로그에 기록되며, 이로 인해 이벤트가 다시 시도 큐에 배치됩니다. 이 경우 파이프라인 로그를 확인해야 합니다.
-오류 메시지가 [!DNL pipelined] 옵션에 설정된 지속 시간에 여러 번 다시 시도됩니다.
+logInfo()와 같은 로그는 [!DNL pipelined] 로그. logError() 와 같은 오류가 [!DNL pipelined] 이벤트를 로그하여 다시 시도 큐에 넣도록 합니다. 이 경우 파이프라인 로그를 확인해야 합니다.
+오류가 발생한 메시지는 [!DNL pipelined] 옵션.
 
 디버깅 및 모니터링을 위해 전체 트리거 데이터는 XML 형식의 &quot;data&quot; 필드에 있는 트리거 테이블에 작성됩니다. 또는 트리거 데이터가 포함된 logInfo()도 동일한 용도로 사용됩니다.
 
@@ -217,7 +217,7 @@ triggerType 필드는 데이터를 트리거하는 대상을 식별합니다.
 
 >[!NOTE]
 >
->파이프라인 이벤트 노드는 내장된 것이 아니며, Campaign에서 관련 양식을 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 정보는 다음 섹션을 참조하십시오. [탐색 계층](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). 및 [양식 편집](../../configuration/using/editing-forms.md)
+>파이프라인 이벤트 노드는 내장된 것이 아니며, Campaign에서 관련 양식을 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 정보는 다음 섹션을 참조하십시오. [탐색 계층](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). 및 [양식 편집](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 

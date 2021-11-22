@@ -17,11 +17,11 @@ ht-degree: 4%
 
 ![](../../assets/common.svg)
 
-웹 응용 프로그램은 [웹 양식](about-web-forms.md)과 동일한 원칙에 따라 생성 및 관리됩니다.
+웹 애플리케이션은 [웹 양식](about-web-forms.md).
 
 >[!CAUTION]
 >
->웹 응용 프로그램 디자인 중 오류를 확인하려면 **[!UICONTROL Preview]** 하위 탭을 사용하십시오.
+>를 사용하십시오 **[!UICONTROL Preview]** 하위 탭을 사용하여 웹 응용 프로그램 디자인 중 오류를 확인합니다.
 >
 >웹 응용 프로그램이 게시될 때까지 변경 사항은 최종 사용자에게 표시되지 않습니다.
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 ![](assets/s_ncs_admin_webapps_bar_graph.png)
 
-**[!UICONTROL Add a chart]** 메뉴를 선택할 수도 있습니다.
+을(를) 선택할 수도 있습니다 **[!UICONTROL Add a chart]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](assets/s_ncs_admin_webapps_graph.png)
 
@@ -51,7 +51,7 @@ Adobe Campaign 인터페이스는 많은 웹 애플리케이션을 사용하여 
 
 인터페이스는 한 페이지만 있는 대시보드 형태로 표시됩니다.
 
-기본 제공 웹 응용 프로그램은 **[!UICONTROL Administration > Configuration > Web applications]** 노드에 저장됩니다.
+기본 웹 응용 프로그램은 **[!UICONTROL Administration > Configuration > Web applications]** 노드 아래에 있어야 합니다.
 
 ## 양식 형식의 웹 응용 프로그램 편집 {#edit-forms-type-web-applications}
 

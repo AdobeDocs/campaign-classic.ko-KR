@@ -23,7 +23,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 * 암호 만료를 방지하려면 암호 인증 대신 키 기반 인증을 사용하십시오(암호는 90일). 또한 키 기반 인증을 사용하면 여러 엔티티를 관리할 때와 같이 여러 키를 생성할 수 있습니다. 반면, 암호 인증에서는 관리하고 있는 모든 엔티티와 암호를 공유해야 합니다.
 
-   지원되는 키 형식은 SSH-2 RSA 2048입니다. 키는 PyTTY(Windows) 또는 ssh-keygen(Unix)과 같은 도구를 사용하여 생성할 수 있습니다.Campaign 서버에 업로드하려면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)를 통해 Adobe 지원 팀에 공개 키를 제공해야 합니다.
+   지원되는 키 형식은 SSH-2 RSA 2048입니다. 키는 PyTTY(Windows) 또는 ssh-keygen(Unix)과 같은 도구를 사용하여 생성할 수 있습니다.를 통해 Adobe 지원 팀에 공개 키를 제공해야 합니다 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 를 Campaign 서버에 업로드하도록 했습니다.
 
 * 워크플로우뿐만 아니라 SFTP 업로드에서도 일괄 처리를 사용합니다.
 
@@ -31,7 +31,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 * 기본적으로 작성하는 모든 폴더는 식별자에만 대한 읽기/쓰기 모드입니다. Campaign에서 액세스해야 하는 폴더를 만들 때는 전체 그룹에 대한 읽기/쓰기 권한이 있는 폴더를 구성해야 합니다. 그렇지 않으면 보안상의 이유로 동일한 그룹 내에서 다른 식별자로 실행되기 때문에 워크플로우에서 파일을 만들거나 삭제할 수 없습니다.
 
-* SFTP 연결을 시작하려는 공용 IP를 Campaign 인스턴스의에 추가해야 허용 목록에 추가하다 합니다. IP 주소허용 목록에 추가하다를 Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)를 통해에 추가할 수 있습니다.[
+* SFTP 연결을 시작하려는 공용 IP를 Campaign 인스턴스의에 추가해야 허용 목록에 추가하다 합니다. 에 IP 주소 추가허용 목록에 추가하다는 를 통해 요청할 수 있습니다. [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## 데이터베이스 사용 모범 사례 {#sftp-server-best-practices}
 
@@ -43,11 +43,11 @@ SFTP 서버는 파일의 보관 및 삭제를 제어할 수 있는 임시 저장
 
 >[!NOTE]
 >
->인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html)로 SFTP 서버 스토리지를 모니터링할 수 있습니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
+>인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic을 사용하여 SFTP 서버 저장소를 모니터링할 수 있습니다 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html). 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
 >
 >Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
->인스턴스는 최신 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1.3)](../../rn/using/latest-release.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다.
+>인스턴스는 최신 버전으로 업그레이드해야 합니다 [Gold Standard](../../rn/using/gs-overview.md) 빌드 또는 [최신 GA 빌드(21.1.3)](../../rn/using/latest-release.md). [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다.
 
 * 서버 크기 기능은 라이센스에 따라 다릅니다. 어떤 경우든 최소 데이터를 가능한 한 유지하고 필요한 기간(15일은 최대 시간 제한)에만 데이터를 유지합니다.
 
@@ -63,14 +63,14 @@ SFTP 서버는 파일의 보관 및 삭제를 제어할 수 있는 임시 저장
 
 또한 Campaign Classic에서 외부 SFTP 서버의 경로를 지정할 때 경로 구문은 SFTP 서버 운영 체제에 따라 다릅니다.
 
-* SFTP 서버가 **Windows**&#x200B;에 있는 경우 항상 상대 경로를 사용하십시오.
-* STP 서버가 **Linux**&#x200B;에 있는 경우, 항상 홈(&quot;~/&quot;로 시작)에 상대적인 경로나 절대 경로(&quot;/&quot;로 시작)를 사용하십시오.
+* SFTP 서버가 켜져 있는 경우 **Windows**&#x200B;를 채울 때는 항상 상대 경로를 사용하십시오.
+* STP 서버가 켜져 있는 경우 **Linux**&#x200B;를 채울 때는 항상 홈에 상대적인 경로(&quot;~/&quot;로 시작)나 절대 경로(&quot;/&quot;로 시작)를 사용하십시오.
 
 ## Adobe 호스팅 SFTP 서버와 관련된 연결 문제 {#sftp-server-troubleshooting}
 
-아래 섹션에는 호스팅된 SFTP 서버와 연결 문제가 발생할 때 [Adobe 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)를 통해 Adobe 지원 팀에 제공하고 확인할 정보가 나와 있습니다.
+아래 섹션에는 를 통해 Adobe 지원 팀에 확인하고 제공할 정보가 나와 있습니다. [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 호스팅된 Adobe의 SFTP 서버 연결 문제가 발생하는 경우.
 
-1. 인스턴스가 실행 중인지 확인합니다. 이렇게 하려면 브라우저를 열고 **[!UICONTROL /r/test]** 인스턴스에서 **[!UICONTROL GET]** 호출을 수행합니다.
+1. 인스턴스가 실행 중인지 확인합니다. 이렇게 하려면 브라우저를 열고 을(를) 만듭니다 **[!UICONTROL GET]** 인스턴스에 대한 호출 **[!UICONTROL /r/test]** endpoint:
 
    ```
    https://instanceUrl/r/test
@@ -98,13 +98,13 @@ SFTP 서버는 파일의 보관 및 삭제를 제어할 수 있는 임시 저장
 
    >[!NOTE]
    >
-   >Netcat 도구를 사용하면 다양한 운영 체제에서 네트워크 연결을 쉽게 관리할 수 있습니다( [https://eternallybored.org/misc/netcat/](https://eternallybored.org/misc/netcat/) 참조).
+   >Netcat 도구를 사용하면 다양한 운영 체제에서 네트워크 연결을 쉽게 관리할 수 있습니다( [https://eternallybored.org/misc/netcat/](https://eternallybored.org/misc/netcat/)).
 
-   포트가 열리지 않은 경우, 쪽에서 아웃바운드 연결을 열고 다시 시도하십시오. 여전히 연결 문제가 발생하는 경우 명령의 출력을 [고객 지원 센터 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀과 공유하십시오.
+   포트가 열리지 않은 경우, 쪽에서 아웃바운드 연결을 열고 다시 시도하십시오. 여전히 연결 문제가 발생하는 경우 명령의 출력을 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀
 
 1. SFTP 연결을 시작하려는 공용 IP가 Adobe 지원허용 목록에 추가하다에 제공한 IP인지 확인합니다.
-1. 암호 기반 인증을 사용하는 경우 암호가 만료되었을 수 있습니다(암호는 90일 유효 기간). 따라서 키 기반 인증을 사용하는 것이 좋습니다([SFTP 서버 우수 사례](#sftp-server-best-practices) 참조).
-1. 키 기반 인증을 사용하는 경우 사용 중인 키가 인스턴스 구성에 대해 고객 지원 센터](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Adobe 팀에 제공한 키와 같은지 확인합니다.[
+1. 암호 기반 인증을 사용하는 경우 암호가 만료되었을 수 있습니다(암호는 90일 유효 기간). 따라서 키 기반 인증을 사용하는 것이 좋습니다(참조 [SFTP 서버 우수 사례](#sftp-server-best-practices)).
+1. 키 기반 인증을 사용하는 경우 사용 중인 키가 제공한 키와 같은지 확인합니다 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀 구성
 1. FileZilla 또는 이와 동등한 FTP 도구를 사용하는 경우 지원 티켓에 연결 로그 세부 사항을 제공합니다.
 
 ## &quot;호스트 이름을 확인할 수 없습니다.&quot; 오류
@@ -125,7 +125,7 @@ SFTP 서버는 파일의 보관 및 삭제를 제어할 수 있는 임시 저장
 
 이 오류는 FTP 서버 도메인 이름을 제대로 확인할 수 없음을 나타냅니다. 문제를 해결하려면 다음을 수행하십시오.
 
-1. **DNS 서버 구성 문제 해결**:
+1. 문제 해결 **DNS 서버 구성**:
 
    1. 서버 이름이 로컬 DNS 서버에 추가되었는지 확인합니다.
    1. yes인 경우 Adobe Campaign 서버에서 다음 명령을 실행하여 IP 주소를 가져옵니다.
@@ -134,10 +134,10 @@ SFTP 서버는 파일의 보관 및 삭제를 제어할 수 있는 임시 저장
 
       이를 통해 FTP 서버가 작동 중이고 Adobe Campaign 애플리케이션 서버에서 연결할 수 있습니다.
 
-1. **세션 로그 문제 해결**:
+1. 문제 해결 **세션 로그**:
 
-   1. 워크플로우에서 [파일 전송](../../workflow/using/file-transfer.md) 활동을 두 번 클릭합니다.
-   1. **[!UICONTROL File Transfer]** 탭으로 이동한 다음 **[!UICONTROL Advanced Parameters]** 를 클릭합니다.
+   1. 워크플로우에서 [파일 전송](../../workflow/using/file-transfer.md) 활동.
+   1. 이동 **[!UICONTROL File Transfer]** 탭을 클릭한 다음 **[!UICONTROL Advanced Parameters]**.
    1. **[!UICONTROL Display the session logs]** 옵션을 선택합니다.
 
       ![](assets/sftp-error-display-logs.png)

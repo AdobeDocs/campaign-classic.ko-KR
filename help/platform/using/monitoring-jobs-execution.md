@@ -21,10 +21,10 @@ ht-degree: 4%
 
 ![](assets/s_ncs_user_export_list_and_details.png)
 
-* **[!UICONTROL Journal]** 탭에서는 실행에 관한 로그 메시지를 볼 수 있습니다.
-* **[!UICONTROL Rejects]** 탭에는 거부된 레코드가 포함되어 있습니다. [이 섹션](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error)을 참조하십시오.
+* 다음 **[!UICONTROL Journal]** 탭에서는 실행에 관련된 로그 메시지를 볼 수 있습니다.
+* 다음 **[!UICONTROL Rejects]** 탭에는 거부된 레코드가 포함되어 있습니다. [이 섹션](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error)을 참조하십시오.
 
-**[!UICONTROL General]** 탭에서 **[!UICONTROL Status]** 필드는 작업의 현재 상태를 나타냅니다.
+에서 **[!UICONTROL General]** 탭, **[!UICONTROL Status]** 필드는 작업의 현재 상태를 나타냅니다.
 
 각 상태는 특수 아이콘 및 레이블로 표시됩니다. 상태 및 아이콘은 다음과 같습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 * **취소**
 
-   **[!UICONTROL Cancel]** 단추를 클릭합니다. 진행 중인 작업이 취소되었습니다.
+   을(를) 클릭합니다. **[!UICONTROL Cancel]** 버튼: 진행 중인 작업이 취소되었습니다.
 
 * **취소 진행 중**
 
@@ -48,11 +48,11 @@ ht-degree: 4%
 
 * **일시 정지 진행 중**
 
-   **[!UICONTROL Pause]** 클릭: 작업이 일시 중단되었습니다.
+   클릭 **[!UICONTROL Pause]**: 작업이 일시 중단되었습니다.
 
 * **일시 중지됨**
 
-   **[!UICONTROL Pause]** 클릭: 작업이 일시 중단되었습니다. **[!UICONTROL Start]** 을 클릭하여 다시 시작할 수 있습니다.
+   클릭 **[!UICONTROL Pause]**: 작업이 일시 중단되었습니다. 를 클릭하여 다시 시작할 수 있습니다 **[!UICONTROL Start]**.
 
 * **완료됨**
 
