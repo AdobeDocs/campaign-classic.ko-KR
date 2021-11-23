@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: d750e13d3770d3b36b5f4376233d4da458730ed7
 workflow-type: tm+mt
-source-wordcount: '2410'
-ht-degree: 100%
+source-wordcount: '2420'
+ht-degree: 99%
 
 ---
 
@@ -76,6 +76,10 @@ Adobe Campaign은 저장된 데이터에 대한 개인 정보 요청을 만들�
 개인 정보 보호 요청을 만들기 전에 사용할 네임스페이스를 정의해야 합니다. 이 필드는 Adobe Campaign 데이터베이스의 데이터 주체를 식별하는 데 사용됩니다.
 
 기본적으로 제공되는 네임스페이스 3개(이메일, 전화 및 휴대폰)가 있습니다. 다른 네임스페이스(예: 수신자 사용자 정의 필드)가 필요한 경우 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**&#x200B;에서 새 네임스페이스를 만들 수 있습니다.
+
+>[!NOTE]
+>
+>최적의 성능을 위해서는 기본 사용 가능한 네임스페이스를 사용하는 것이 좋습니다.
 
 ## 개인 정보 보호 요청 만들기 {#create-privacy-request-ui}
 

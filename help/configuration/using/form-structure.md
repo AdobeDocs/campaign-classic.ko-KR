@@ -6,30 +6,30 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 898353f80a93052cd25088098c9570c2b44ceac4
 workflow-type: tm+mt
-source-wordcount: '2384'
+source-wordcount: '2385'
 ht-degree: 0%
 
 ---
 
 # 양식 구조{#form-structure}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 양식에 대한 설명은 양식 스키마의 문법을 준수하는 구조화된 XML 문서입니다 **xtk:form**.
 
-입력 양식의 XML 문서에는 `<form>` 루트 요소가 있는 요소  **이름** 및  **namespace** 양식 이름과 네임스페이스를 채울 속성입니다.
+입력 양식의 XML 문서에는 `<form>` 루트 요소가 있는 요소 **이름** 및 **namespace** 양식 이름과 네임스페이스를 채울 속성입니다.
 
-```
+```xml
 <form name="form_name" namespace="name_space">
-...
+…
 </form>
 ```
 
 기본적으로 양식은 이름 및 네임스페이스가 동일한 데이터 스키마와 연결됩니다. 다른 이름과 양식을 연결하려면 **entity-schema** 의 속성 `<form>` 요소를 스키마 키의 이름으로 지정합니다. 입력 양식의 구조를 보여주기 위해 &quot;cus:recipient&quot; 예제 스키마를 사용하여 인터페이스를 설명하겠습니다.
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ![](assets/d_ncs_integration_form_exemple1.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <input xpath="@gender"/>
   <input xpath="@birthDate"/>
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ![](assets/d_ncs_integration_form_exemple2.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <container colcount="2">
     <input xpath="@gender"/>
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 ![](assets/d_ncs_integration_form_exemple3.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <container colcount="2">
     <input xpath="@gender"/>
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 ![](assets/d_ncs_integration_form_exemple4.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <container colcount="2" type="frame" label="General">
     <input xpath="@gender"/>
@@ -120,7 +120,7 @@ A **`<static>`** 요소를 사용하여 입력 양식 서식을 지정할 수 �
 
 ![](assets/d_ncs_integration_form_exemple5.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <static type="separator" colspan="2" label="General"/>
   <input xpath="@gender"/>
@@ -138,11 +138,11 @@ A **`<static>`** 요소를 사용하여 입력 양식 서식을 지정할 수 �
 
 컨테이너에서는 일련의 컨트롤을 그룹화할 수 있습니다. 이 변수들은 **`<container>`** 요소를 생성하지 않습니다. 위의 여러 열에 대한 컨트롤 서식을 지정하는 데 사용됩니다.
 
-다음 **xpath** 속성 `<container>` 자식 컨트롤 참조를 단순화할 수 있습니다. 그러면 컨트롤 참조가 상위에 상대적입니다 `<container>` 상위
+다음 **xpath** 속성 `<container>` 자식 컨트롤 참조를 단순화할 수 있습니다. 그러면 컨트롤 참조가 상위에 상대적입니다 `<container>` 요소를 생성하지 않습니다.
 
 xpath가 없는 컨테이너의 예:
 
-```
+```xml
 <container colcount="2">
   <input xpath="location/@zipCode"/>
   <input xpath="location/@city"/>
@@ -151,7 +151,7 @@ xpath가 없는 컨테이너의 예:
 
 예를 들어 &quot;location&quot;이라는 요소에 &quot;xpath&quot;를 추가하면 됩니다.
 
-```
+```xml
 <container colcount="2" xpath="location">
   <input xpath="@zipCode"/>
   <input xpath="@city"/>
@@ -168,7 +168,7 @@ xpath가 없는 컨테이너의 예:
 
 ![](assets/d_ncs_integration_form_exemple6.png)
 
-```
+```xml
 <container type="notebook">
   <container colcount="2" label="General">
     <input xpath="@gender"/>
@@ -176,18 +176,19 @@ xpath가 없는 컨테이너의 예:
     <input xpath="@email" colspan="2"/>
   </container>
   <container colcount="2" label="Location">
-    ...
+    …
   </container>
 </container>
 ```
 
 기본 컨테이너는 **type=&quot;notebook&quot;** 속성을 사용합니다. 탭은 하위 컨테이너에서 선언되며 탭의 레이블은 **레이블** 속성을 사용합니다.
 
+![](assets/d_ncs_integration_form_exemple7.png)
+
 >[!NOTE]
 >
 >A **style=&quot;down|up**(기본적으로)**&quot;** 이 기능을 사용하면 컨트롤 아래 또는 위에 탭 레이블을 세로로 배치할 수 있습니다. 이 기능은 선택 사항입니다.
->![](assets/d_ncs_integration_form_exemple7.png)
->`<container style="down" type="notebook">  ... </container>`
+>`<container style="down" type="notebook">  … </container>`
 
 #### 아이콘 목록 {#icon-list}
 
@@ -195,7 +196,7 @@ xpath가 없는 컨테이너의 예:
 
 ![](assets/d_ncs_integration_form_exemple8.png)
 
-```
+```xml
 <container type="iconbox">
   <container colcount="2" label="General" img="xtk:properties.png">
     <input xpath="@gender"/>
@@ -203,7 +204,7 @@ xpath가 없는 컨테이너의 예:
     <input xpath="@email" colspan="2"/>
   </container>
   <container colcount="2" label="Location" img="nms:msgfolder.png">
-    ...
+    …
   </container>
 </container>
 ```
@@ -220,12 +221,12 @@ xpath가 없는 컨테이너의 예:
 
 다음 예에서는 &quot;Gender&quot; 필드 값에 대한 컨트롤의 가시성을 보여줍니다.
 
-```
+```xml
 <container type="visibleGroup" visibleIf="@gender=1">
-  ...
+  …
 </container>
 <container type="visibleGroup" visibleIf="@gender=2">
-  ...
+  …
 </container>
 ```
 
@@ -241,12 +242,12 @@ xpath가 없는 컨테이너의 예:
 
 이 컨테이너를 사용하여 동적 조건에서 데이터 세트를 활성화하거나 비활성화할 수 있습니다. 컨트롤을 비활성화하면 컨트롤이 편집되지 않습니다. 다음 예제에서는 &quot;Gender&quot; 필드의 값에서 컨트롤을 활성화하는 방법을 보여 줍니다.
 
-```
+```xml
 <container type="enabledGroup" enabledIf="@gender=1">
-  ...
+  …
 </container>
 <container type="enabledGroup" enabledIf="@gender=2">
-  ...
+  …
 </container>
 ```
 
@@ -256,7 +257,7 @@ xpath가 없는 컨테이너의 예:
 
 링크는 데이터 스키마에 다음과 같이 선언됩니다.
 
-```
+```xml
 <element label="Company" name="company" target="cus:company" type="link"/>
 ```
 
@@ -264,7 +265,7 @@ xpath가 없는 컨테이너의 예:
 
 ![](assets/d_ncs_integration_form_exemple9.png)
 
-```
+```xml
 <input xpath="company"/>
 ```
 
@@ -280,7 +281,7 @@ xpath가 없는 컨테이너의 예:
 
 을 추가하여 대상 요소의 선택을 제한할 수 있습니다 **`<sysfilter>`** 입력 양식의 링크 정의에 있는 요소:
 
-```
+```xml
 <input xpath="company">
   <sysFilter>
     <condition expr="[location/@city] =  'Newton"/>
@@ -290,7 +291,7 @@ xpath가 없는 컨테이너의 예:
 
 목록을 **`<orderby>`** 요소:
 
-```
+```xml
 <input xpath="company">
   <orderBy>
     <node expr="[location/@zipCode]"/>
@@ -318,9 +319,9 @@ xpath가 없는 컨테이너의 예:
 
 스키마에 있는 컬렉션 링크의 예:
 
-```
+```xml
 <element label="Events" name="rcpEvent" target="cus:event" type="link" unbound="true">
-...
+…
 </element>
 ```
 
@@ -328,7 +329,7 @@ xpath가 없는 컨테이너의 예:
 
 ![](assets/d_ncs_integration_form_exemple11.png)
 
-```
+```xml
  <input xpath="rcpEvent" type="linklist">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -349,7 +350,7 @@ xpath가 없는 컨테이너의 예:
 
 목록을 로드하는 동안 필터링 및 정렬을 적용할 수 있습니다.
 
-```
+```xml
  <input xpath="rcpEvent" type="linklist">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -370,7 +371,7 @@ xpath가 없는 컨테이너의 예:
 
 스키마에 있는 관계 테이블의 예:
 
-```
+```xml
 <srcSchema name="subscription" namespace="cus">
   <element name="recipient" type="link" target="cus:recipient" label="Recipient"/>
   <element name="service" type="link" target="cus:service" label="Subscription service"/>
@@ -381,7 +382,7 @@ xpath가 없는 컨테이너의 예:
 
 ![](assets/d_ncs_integration_form_exemple12.png)
 
-```
+```xml
 <input type="linklist" xpath="subscription" xpathChoiceTarget="service" xpathEditTarget="service" zoom="true">
   <input xpath="recipient"/>
   <input xpath="service"/>
@@ -417,7 +418,7 @@ xpath가 없는 컨테이너의 예:
 
 ![](assets/d_ncs_integration_form_exemple13.png)
 
-```
+```xml
 <input xpath="rcpEvent" type="list">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -436,7 +437,7 @@ xpath가 없는 컨테이너의 예:
 
 ![](assets/d_ncs_integration_form_exemple14.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -451,7 +452,7 @@ xpath가 없는 컨테이너의 예:
 
 ![](assets/d_ncs_integration_form_exemple15.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true" zoomOnAdd="true">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -463,7 +464,7 @@ xpath가 없는 컨테이너의 예:
 </input>
 ```
 
-편집 양식은 `<form>`  목록 정의 아래의 요소. 그 구조는 입력 형태의 구조와 동일하다. 다음 **[!UICONTROL Detail]** 버튼이 자동으로 추가됨 **zoom=&quot;true&quot;** 속성은 다음에서 완료됩니다 **`<input>`** 태그입니다. 이 속성을 사용하여 선택한 라인의 편집 양식을 시작할 수 있습니다.
+편집 양식은 `<form>` 목록 정의 아래의 요소. 그 구조는 입력 형태의 구조와 동일하다. 다음 **[!UICONTROL Detail]** 버튼이 자동으로 추가됨 **zoom=&quot;true&quot;** 속성은 다음에서 완료됩니다 **`<input>`** 태그입니다. 이 속성을 사용하여 선택한 라인의 편집 양식을 시작할 수 있습니다.
 
 >[!NOTE]
 >
@@ -488,7 +489,7 @@ xpath가 없는 컨테이너의 예:
 
 ![](assets/d_ncs_integration_form_exemple16.png)
 
-```
+```xml
 <value value="@gender"/>
 <input xpath="@gender" readOnly="true"/>
 ```
@@ -499,7 +500,7 @@ xpath가 없는 컨테이너의 예:
 
 &quot;성별&quot; 필드의 예:
 
-```
+```xml
 <input type="RadioButton" xpath="@gender" checkedValue="0" label="Choice 1"/>
 <input type="RadioButton" xpath="@gender" checkedValue="1" label="Choice 2"/>
 <input type="RadioButton" xpath="@gender" checkedValue="2" label="Choice 3"/>
@@ -511,12 +512,16 @@ xpath가 없는 컨테이너의 예:
 
 확인란은 부울 상태(선택 또는 선택 안 함)를 반영합니다. 기본적으로 이 컨트롤은 &quot;부울&quot;(true/false) 필드에서 사용됩니다. 기본값이 0 또는 1인 변수는 이 버튼과 연결할 수 있습니다. 이 값은 **checkValue** 속성을 사용합니다.
 
-```
+```xml
 <input xpath="@boolean1"/>
 <input xpath="@field1" type="checkbox" checkedValue="Y"/>
 ```
 
 ![](assets/d_ncs_integration_form_exemple20.png)
+
+## 열거형 {#enumeration}
+
+<!-- to be completed -->
 
 ## 탐색 계층 편집 {#navigation-hierarchy-edit}
 
@@ -524,7 +529,7 @@ xpath가 없는 컨테이너의 예:
 
 편집할 컨트롤은 **`<container>`** 아래에 **`<input>`** 트리 컨트롤의 태그:
 
-```
+```xml
 <input nolabel="true" type="treeEdit">
   <container label="Text fields">
     <input xpath="@text1"/>
@@ -541,9 +546,9 @@ xpath가 없는 컨테이너의 예:
 
 ## 표현식 필드 {#expression-field}
 
-표현식 필드는 표현식에서 동적으로 필드를 업데이트합니다. a **`<input>`** 태그는 **xpath** 업데이트할 필드의 경로 및 속성을 입력합니다. **expr** update 표현식을 포함하는 속성입니다.
+표현식 필드는 표현식에서 동적으로 필드를 업데이트합니다. a **`<input>`** 태그는 **xpath** 업데이트할 필드의 경로 및 속성을 입력합니다. **엑스포** update 표현식을 포함하는 속성입니다.
 
-```
+```xml
 <!-- Example: updating the boolean1 field from the value contained in the field with path /tmp/@flag -->
 <input expr="Iif([/tmp/@flag]=='On', true, false)" type="expr" xpath="@boolean1"/>
 <input expr="[/ignored/@action] == 'FCP'" type="expr" xpath="@launchFCP"/>
@@ -566,21 +571,21 @@ xpath가 없는 컨테이너의 예:
 
 을 통해 양식을 초기화하고 닫을 때 양식 컨텍스트를 업데이트할 수 있습니다 **`<enter>`** 및 **`<leave>`** 태그 사이에 Analytics JavaScript 코드를 배치했습니다.
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <enter>
-    <set...
+    <set…
   </enter>
-  ...
+  …
   <leave>
-    <set...
+    <set…
   </leave>
 </form>
 ```
 
 >[!NOTE]
 >
->다음 `<enter>`  및  `<leave>`   태그는 `<container>` 페이지 유형(&quot;notebook&quot; 및 &quot;iconbox&quot; 유형).
+>다음 `<enter>` 및 `<leave>` 태그는 `<container>` 페이지 유형(&quot;notebook&quot; 및 &quot;iconbox&quot; 유형).
 
 ### 표현 언어 {#expression-language-}
 
@@ -588,7 +593,7 @@ xpath가 없는 컨테이너의 예:
 
 다음 **`<if expr="<expression>" />`** 태그는 표현식이 확인되는 경우 태그 아래에 지정된 지침을 실행합니다.
 
-```
+```xml
 <if expr="([/tmp/@test] == 'Test' or @lastName != 'Doe') and @boolean2 == true">
   <set xpath="@boolean1" expr="true"/>
 </if>
@@ -596,7 +601,7 @@ xpath가 없는 컨테이너의 예:
 
 다음 **`<check expr="<condition>" />`** 태그와 함께 **`<error>`** 태그는 양식의 유효성을 검사하지 않으며 조건이 충족되지 않으면 오류 메시지를 표시합니다.
 
-```
+```xml
 <leave>
   <check expr="/tmp/@test != ''">
     <error>You must populate the 'Test' field!</error> 
@@ -604,22 +609,24 @@ xpath가 없는 컨테이너의 예:
 </leave>
 ```
 
+<!-- changer exemple par un exemple plus parlant. cf. vidéo validation 02:27. noter aussi l'attribut required dans l'exemple de la vidéo. -->
+
 ## 마법사 {#wizards}
 
 마법사는 페이지 형태의 데이터 항목 단계 집합을 안내합니다. 입력한 데이터는 양식의 유효성을 검사할 때 저장됩니다.
 
 마법사의 구조는 다음과 같습니다.
 
-```
+```xml
 <form type="wizard" name="example" namespace="cus" img="nms:rcpgroup32.png" label="Wizard example" entity-schema="nms:recipient">
   <container title="Title of page 1" desc="Long description of page 1">
     <input xpath="@lastName"/>
     <input xpath="comment"/>
   </container>
   <container title="Title of page 2" desc="Long description of page 2">
-    ...
+    …
   </container>
-  ...
+  …
 </form>
 ```
 
@@ -635,10 +642,10 @@ xpath가 없는 컨테이너의 예:
 
 다음 **`<soapcall>`** 태그에 다음 입력 매개 변수를 사용하는 메서드에 대한 호출이 포함되어 있습니다.
 
-```
+```xml
 <soapCall name="<name>" service="<schema>">
-  <param type="<type>" exprIn="<xpath>"/>  
-  ...
+  <param  type="<type>" exprIn="<xpath>"/>  
+  …
 </soapCall>
 ```
 
@@ -661,12 +668,12 @@ xpath가 없는 컨테이너의 예:
 
 **예제**:
 
-```
+```xml
 <leave>
   <soapCall name="RegisterGroup" service="nms:recipient">         
-    <param type="DOMElement" exprIn="/tmp/entityList"/>         
-    <param type="DOMElement" exprIn="/tmp/choiceList"/>         
-    <param type="boolean"    exprIn="true"/>       
+    <param  type="DOMElement"    exprIn="/tmp/entityList"/>         
+    <param  type="DOMElement"    exprIn="/tmp/choiceList"/>         
+    <param  type="boolean"       exprIn="true"/>       
   </soapCall>
 </leave>
 ```

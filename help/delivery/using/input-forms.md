@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -25,9 +25,9 @@ Forms에 자세히 설명되어 있습니다 [이 섹션](../../configuration/us
 
 입력 양식의 XML 문서에는 **`<form>`** 루트 요소가 있는 요소 **이름** 및 **namespace** 양식 이름과 해당 네임스페이스를 각각 채울 속성입니다.
 
-```
+```xml
 <form name="form_name" namespace="name_space">
-...
+…
 </form>
 ```
 
@@ -39,7 +39,7 @@ Forms에 자세히 설명되어 있습니다 [이 섹션](../../configuration/us
 
 해당 입력 양식입니다.
 
-```
+```xml
 <form name="book" namespace="cus" type="contentForm">
   <input xpath="@name"/>
   <input xpath="@date"/>
@@ -89,7 +89,7 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 ![](assets/d_ncs_content_form4.png)
 
-```
+```xml
 <input xpath="chapter" type="list">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -108,7 +108,7 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 ![](assets/d_ncs_content_form5.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of chapters" type="list" xpath="chapter">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -133,7 +133,7 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 ![](assets/d_ncs_content_form7.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of chapters" type="list" xpath="chapter" zoom="true" zoomOnAdd="true">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -160,7 +160,7 @@ A **[!UICONTROL Detail]** 버튼이 자동으로 추가됨 **zoom=&quot;true&quo
 
 ![](assets/d_ncs_content_form6.png)
 
-```
+```xml
 <container toolbarCaption="List of chapters" type="notebooklist" xpath="chapter" xpath-label="@name">
   <container colcount="2">
     <input xpath="@name"/>
@@ -197,3 +197,5 @@ A **[!UICONTROL Detail]** 버튼이 자동으로 추가됨 **zoom=&quot;true&quo
 다음 **[!UICONTROL Preview]** 탭에서는 입력 양식을 볼 수 있습니다.
 
 ![](assets/d_ncs_content_form13.png)
+
+자세한 내용 [양식 편집](../../configuration/using/editing-forms.md) 및 [양식 구조](../../configuration/using/form-structure.md).
