@@ -9,7 +9,7 @@ exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '2410'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -251,7 +251,7 @@ API를 사용하여 개인 정보 보호 요청을 제출하는 경우 반환된
 
 ### 외부에서 API 호출 {#invoking-api-externally}
 
-다음은 외부에서 API를 호출하는 방법(API를 통한 인증 및 개인 정보 API에 대한 세부 정보)의 예입니다. 개인 정보 API에 대한 자세한 내용은 [API 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/s-nms-privacyRequest.html)를 참조하십시오. 또한 [웹 서비스 호출 설명서](../../configuration/using/web-service-calls.md)를 참조하십시오.
+다음은 외부에서 API를 호출하는 방법(API를 통한 인증 및 개인 정보 API에 대한 세부 정보)의 예입니다. 개인 정보 API에 대한 자세한 내용은 [API 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/s-nms-privacyRequest.html?lang=ko)를 참조하십시오. 또한 [웹 서비스 호출 설명서](../../configuration/using/web-service-calls.md)를 참조하십시오.
 
 우선 API를 통해 인증을 수행해야 합니다.
 

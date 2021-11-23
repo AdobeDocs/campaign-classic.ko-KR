@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    </tr>
    <tr>
    <td>Campaign API 설명서 - jsapi.chm 파일</td>
-   <td>Campaign 19.1 릴리스를 시작하면 Campaign Classic API는 전용 페이지에서 사용할 수 있습니다. 기존 jsapi.chm 파일을 사용하는 경우 이제 <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html">새 온라인 버전</a>을 참조해야 합니다.</td>
+   <td>Campaign 19.1 릴리스를 시작하면 Campaign Classic API는 전용 페이지에서 사용할 수 있습니다. 기존 jsapi.chm 파일을 사용하는 경우 이제 <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko">새 온라인 버전</a>을 참조해야 합니다.</td>
   </tr> 
   <tr> 
    <td>Campaign 오케스트레이션 - 예측 마케팅</td>
