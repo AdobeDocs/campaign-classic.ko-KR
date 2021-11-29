@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Facebook 담벼락에 게시
-description: Facebook 담벼락에 게시
+title: Facebook wall 게시
+description: Facebook wall 게시
 audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 2135a836-245f-406e-b351-c27d38e0f9fd
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 4%
 
 ---
 
-# Facebook 담벼락에 게시{#publishing-on-facebook-walls}
+# Facebook wall 게시{#publishing-on-facebook-walls}
 
 ![](../../assets/v7-only.svg)
 
@@ -37,7 +37,7 @@ Adobe Campaign에서 Facebook 벽으로 발행물을 보내려면 이러한 페�
 
 ## 테스트 Facebook 페이지 만들기 {#creating-a-test-facebook-page}
 
-게시 증명을 제공하기 위해 비공개 Facebook 페이지를 만드는 것이 좋습니다(자세한 내용은 다음을 참조하십시오.) [증명 보내기](../../social/using/publishing-on-facebook.md#sending-the-proof).
+게시 증명을 제공하기 위해 비공개 Facebook 페이지를 만드는 것이 좋습니다(자세한 내용은 다음을 참조하십시오.) [이 섹션](../../social/using/publishing-on-facebook.md#sending-the-proof).
 
 1. 페이지를 관리하는 데 사용하는 Facebook 계정에 로그인합니다.
 1. 새 Facebook 페이지를 만듭니다.
@@ -54,7 +54,7 @@ Adobe Campaign이 페이지의 담벼락에 게시하려면 Facebook 애플리�
 1. 페이지를 관리하는 데 사용하는 Facebook 계정에 로그인합니다.
 1. 브라우저에 다음 주소를 입력합니다. [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
 
-   >[!IMPORTANT]
+   >[!CAUTION]
    >
    >보유하고 있는 계정 유형에 따라 하나 이상의 승인이 필요할 수 있습니다.
    >
@@ -82,7 +82,7 @@ Adobe Campaign이 페이지의 담벼락에 게시하려면 Facebook 애플리�
 
 이 단계에는 페이지 관리에 사용하는 Facebook 계정에 로그온한 Adobe Campaign 콘솔 및 인터넷 브라우저에 모두 액세스해야 합니다.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >Adobe Campaign 연산자는 이 구성을 수행할 관리 권한이 있어야 합니다.
 
@@ -102,7 +102,7 @@ Adobe Campaign이 페이지의 담벼락에 게시하려면 Facebook 애플리�
 
    ![](assets/social_facebook_external_account_006.png)
 
-   >[!IMPORTANT]
+   >[!CAUTION]
    >
    >어떤 상황에서도 비보안 URL을 사용해서는 안 됩니다.
 
@@ -121,7 +121,7 @@ Adobe Campaign이 페이지의 담벼락에 게시하려면 Facebook 애플리�
    >
    >다음 **[!UICONTROL Marketing URL]** 필드는 선택 사항입니다.
 
-1. Adobe Campaign 콘솔에서 **[!UICONTROL Request the authorization from the application]** 의 맨 아래에 있는 링크 **[!UICONTROL Connector]** 탭. 다음 **[!UICONTROL Synchronize Facebook pages]** 워크플로우는 자동으로 트리거되고 관리자가 관리하는 모든 Facebook 페이지를 수집합니다. 자세한 내용은 [facebook 페이지 동기화](#synchronizing-facebook-pages).
+1. Adobe Campaign 콘솔에서 **[!UICONTROL Request the authorization from the application]** 의 맨 아래에 있는 링크 **[!UICONTROL Connector]** 탭. 다음 **[!UICONTROL Synchronize Facebook pages]** 워크플로우는 자동으로 트리거되고 관리자가 관리하는 모든 Facebook 페이지를 수집합니다. [자세히 알아보기](#synchronizing-facebook-pages)
 
    ![](assets/social_facebook_external_account_004.png)
 
@@ -143,14 +143,16 @@ Adobe Campaign이 페이지의 담벼락에 게시하려면 Facebook 애플리�
 >
 >facebook 계정이 여러 페이지를 관리하는 경우 Facebook 계정의 모든 페이지에 쓰도록 하나의 외부 계정을 구성하면 됩니다. 새로운 각 Facebook 계정에 대해 새 계정을 만들어야 합니다 **[!UICONTROL Routing]** 외부 계정을 입력합니다.
 
-다음 **[!UICONTROL Synchronization of Facebook pages]** 워크플로우는 Adobe Campaign을 통해 직접 담벼락에 게시할 수 있도록 Facebook 계정에서 관리하는 모든 페이지를 동기화합니다. 자세한 내용은 [facebook 페이지 동기화](#synchronizing-facebook-pages).
+다음 **[!UICONTROL Synchronization of Facebook pages]** 워크플로우는 Adobe Campaign을 통해 직접 담벼락에 게시할 수 있도록 Facebook 계정에서 관리하는 모든 페이지를 동기화합니다. [자세히 알아보기](#synchronizing-facebook-pages)
 
 ## facebook 페이지 동기화 {#synchronizing-facebook-pages}
 
-다음 **[!UICONTROL Synchronization of Facebook pages]** 워크플로우를 통해 액세스 **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** node를 사용하면 이전에 구성된 Facebook 계정의 페이지를 Adobe Campaign에서 동기화할 수 있습니다. 기본적으로 이 워크플로우는 하루에 한 번 또는 관리자가 클릭하는 때마다 실행되도록 구성됩니다 **[!UICONTROL Request an authorization from the application]** 서비스 구성 화면의 링크( [Adobe Campaign에 대한 쓰기 액세스 위임](#delegating-write-access-to-adobe-campaign)).
+다음 **[!UICONTROL Synchronization of Facebook pages]** 워크플로우를 통해 액세스 **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** node를 사용하면 이전에 구성된 Facebook 계정의 페이지를 Adobe Campaign에서 동기화할 수 있습니다. 기본적으로 이 워크플로우는 하루에 한 번 또는 관리자가 클릭하는 때마다 실행되도록 구성됩니다 **[!UICONTROL Request an authorization from the application]** 링크를 클릭합니다. [자세히 알아보기](#delegating-write-access-to-adobe-campaign)
 
-동기화가 완료되면 수집된 페이지가 외부 계정에 입력한 서비스 폴더에 나타납니다(참조: [Adobe Campaign에 대한 쓰기 액세스 위임](#delegating-write-access-to-adobe-campaign)). 기본적으로 페이지가 의 루트에 추가됩니다 **[!UICONTROL Facebook]** 를 통해 사용 가능한 서비스 폴더 **[!UICONTROL Profiles and Targets > Services and subscriptions]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+동기화가 완료되면 수집된 페이지가 외부 계정에 입력한 서비스 폴더에 나타납니다. [자세히 알아보기](#delegating-write-access-to-adobe-campaign)).
+
+기본적으로 페이지가 의 루트에 추가됩니다 **[!UICONTROL Facebook]** 를 통해 사용 가능한 서비스 폴더 **[!UICONTROL Profiles and Targets > Services and subscriptions]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](assets/social_facebook_service_002.png)
 
-이제 Adobe Campaign을 통해 Facebook 페이지의 담벼락에 직접 게시할 수 있습니다. 자세한 내용은 [facebook에 게시](#publishing-on-facebook-walls).
+이제 Adobe Campaign을 통해 Facebook 페이지의 담벼락에 직접 게시할 수 있습니다. [자세히 알아보기](#publishing-on-facebook-walls)

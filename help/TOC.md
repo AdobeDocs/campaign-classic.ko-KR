@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
+source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2575'
 ht-degree: 99%
 
 ---
@@ -596,7 +596,7 @@ ht-degree: 99%
       + [Facebook 애플리케이션 만들기](social/using/creating-a-facebook-application.md)
       + [Twitter 게시 구성](social/using/configuring-publishing-on-twitter.md)
    + 소셜 미디어 게시 {#publishing-on-facebook-twitter}
-      + [개요](social/using/overview.md)
+      + [소셜 미디어 시작](social/using/overview.md)
       + [Facebook 게시](social/using/publishing-on-facebook.md)
       + [Twitter 게시](social/using/publishing-on-twitter.md)
    + Annex {#annexes}

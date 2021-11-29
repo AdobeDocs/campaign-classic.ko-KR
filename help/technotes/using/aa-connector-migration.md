@@ -3,7 +3,7 @@ product: campaign
 title: Adobe Analytics 커넥터로 마이그레이션
 description: Campaign - Analytics 커넥터 FAQ
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 18b31ae504e1f1d13980bdf38925b38279b3be8c
+source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터는 사용되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html)
 
-2021년 8월 1일부터 Adobe Campaign Classic이 레거시 Data Connectors UI에서 제거되었지만, 기존 Campaign 통합은 데이터를 수집하여 2022년 8월까지 Adobe Analytics에 전달합니다. 이 날짜 이후, 통합은 데이터 수집을 중단하고 Adobe Analytics에 전달합니다.
+2021년 8월 1일부터 Adobe Campaign Classic이 레거시 Data Connectors UI에서 제거되었지만, 기존 Campaign 통합은 데이터를 수집하여 2022년 8월 17일까지 Adobe Analytics에 전달합니다. 이 날짜 이후, 통합은 데이터 수집을 중단하고 Adobe Analytics에 전달합니다.
 
 사용자 **를 구현해야 함** 레거시 Data Connectors 통합을 대체하는 새로운 Adobe Analytics 커넥터 통합을 Adobe Exchange에서 사용할 수 있습니다. Adobe Analytics 커넥터에 대한 자세한 내용은 [이 페이지](../../platform/using/adobe-analytics-connector.md).
 
@@ -48,7 +48,7 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 
 ## 업데이트 방법
 
-Campaign 21.1.3(또는 이상)으로 업그레이드해야 합니다 **2022년 8월 이전**.
+Campaign 21.1.3(또는 이상)으로 업그레이드해야 합니다 **2022년 8월 17일 이전**.
 
 호스팅된 고객인 Adobe은 인스턴스와 최신 버전으로 업그레이드하도록 사용자와 협력하고 있습니다. 그런 다음 를 사용할 수 있습니다 [Adobe Analytics 커넥터](../../platform/using/adobe-analytics-connector.md).
 

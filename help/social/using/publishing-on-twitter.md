@@ -6,14 +6,14 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: e030c029-d1ee-4749-94e3-6bdfc8d89a34
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 5%
+source-wordcount: '923'
+ht-degree: 6%
 
 ---
 
-# Twitter에서 게시{#publishing-on-twitter}
+# Twitter 게시{#publishing-on-twitter}
 
 ![](../../assets/v7-only.svg)
 
@@ -54,9 +54,9 @@ ht-degree: 5%
 
    ![](assets/social_twitter_delivery_011.png)
 
-### 증명 대상 선택 {#selecting-the-target-of-the-proof}
+### 증명의 대상을 선택합니다 {#selecting-the-target-of-the-proof}
 
-다음 **[!UICONTROL Target of the proofs]** 탭에서는 최종 게재 전에 테스트 게재에 사용할 Twitter 계정을 정의할 수 있습니다. 따라서 증명 보내기에 전용 개인 Twitter 계정을 만드는 것이 좋습니다. 비공개 Twitter 계정을 만드는 방법에 대한 자세한 내용은 [twitter에 테스트 계정 만들기](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). 증명 대상을 선택하는 단계는 기본 대상을 선택하는 단계와 동일합니다. 을(를) 참조하십시오. [twitter에 테스트 계정 만들기](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter).
+다음 **[!UICONTROL Target of the proofs]** 탭에서는 최종 게재 전에 테스트 게재에 사용할 Twitter 계정을 정의할 수 있습니다. 따라서 증명 보내기에 전용 개인 Twitter 계정을 만드는 것이 좋습니다. 비공개 Twitter 계정을 만드는 방법에 대한 자세한 내용은 [이 섹션](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). 증명 대상을 선택하는 단계는 기본 대상을 선택하는 단계와 동일합니다. [이 섹션](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter)을 참조하십시오.
 
 ![](assets/social_twitter_delivery_004.png)
 
@@ -70,7 +70,7 @@ ht-degree: 5%
 
 ![](assets/social_twitter_delivery_005.png)
 
-### 미리 보기 보기 보기 {#viewing-the-preview}
+### 메시지 미리 보기 {#viewing-the-preview}
 
 다음 **[!UICONTROL Preview]** 탭에서 트윗의 렌더링을 볼 수 있습니다.
 
@@ -83,7 +83,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->미리 보기는 최종 트윗과 약간 다를 수 있습니다. 최종 게재 전에 증명을 보내 트윗의 정확한 렌더링을 확인하는 것이 좋습니다. 을(를) 참조하십시오. [증명 보내기](#sending-the-proof).
+>미리 보기는 최종 트윗과 약간 다를 수 있습니다. 최종 게재 전에 증명을 보내 트윗의 정확한 렌더링을 확인하는 것이 좋습니다. [이 섹션](#sending-the-proof)을 참조하십시오.
 
 ### 추적 구성 {#configuring-tracking}
 
@@ -95,13 +95,13 @@ ht-degree: 5%
 >
 >에서 **[!UICONTROL Tweet]** 게재 템플릿, 추적은 기본적으로 활성화되어 있습니다.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >트윗을 분석하는 로봇과 실제로 클릭하는 사용자 간의 차이를 알 수 없습니다.
 
 ### 증명 보내기 {#sending-the-proof}
 
-개인 Twitter 테스트 페이지에서 발행물의 정확한 렌더링을 얻으려면 최종 게재 전에 발행물 증명을 보내는 것이 좋습니다. 비공개 Twitter 계정 만들기에 대한 자세한 내용은 [twitter에 테스트 계정 만들기](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). 증명 대상을 선택하는 단계는 [증명 대상 선택](#selecting-the-target-of-the-proof).
+개인 Twitter 테스트 페이지에서 발행물의 정확한 렌더링을 얻으려면 최종 게재 전에 발행물 증명을 보내는 것이 좋습니다. 비공개 Twitter 계정 만들기에 대한 자세한 내용은 [이 섹션](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). 증명 대상을 선택하는 단계는 [이 섹션](#selecting-the-target-of-the-proof).
 
 증명 게재는 이메일 게재와 동일합니다. [이 섹션](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)을 참조하십시오.
 
@@ -125,7 +125,7 @@ ht-degree: 5%
 
 ### 운영 원칙 {#operating-principle}
 
-다음 **[!UICONTROL Synchronize Twitter accounts]** 워크플로우(참조) [twitter 계정 동기화](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts))가 직접 메시지를 보낼 수 있도록 Twitter 구독자 목록을 복구합니다. 복구된 팔로워는 특정 테이블에 저장됩니다. 방문자 테이블입니다. twitter 팔로워를 표시하려면 **[!UICONTROL Profiles and Targets > Visitors]** 노드 아래에 있어야 합니다.
+다음 **[!UICONTROL Synchronize Twitter accounts]** 워크플로우(참조) [추가 정보](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts))가 직접 메시지를 보낼 수 있도록 Twitter 구독자 목록을 복구합니다. 복구된 팔로워는 특정 테이블에 저장됩니다. 방문자 테이블입니다. twitter 팔로워를 표시하려면 **[!UICONTROL Profiles and Targets > Visitors]** 노드 아래에 있어야 합니다.
 
 ![](assets/social_twitter_visitors_001.png)
 
@@ -184,7 +184,7 @@ Adobe Campaign은 각 팔로어에 대해 다음 정보를 복구합니다.
 
       ![](assets/social_twitter_delivery_018.png)
 
-### 증명 대상 선택 {#selecting-the-target-of-the-proof-1}
+### 증명의 대상을 선택합니다 {#selecting-the-target-of-the-proof-1}
 
 다음 **[!UICONTROL Target of the proofs]** 탭에서는 직접 메시지 증명을 받을 팔로워를 선택할 수 있습니다. 선택 프로세스는 기본 타겟과 동일합니다. 을(를) 참조하십시오. [기본 대상 선택](#selecting-the-main-target).
 

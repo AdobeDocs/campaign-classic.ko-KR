@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Facebook에 게시
-description: Facebook에 게시
+title: Facebook 게시
+description: facebook에 게시하는 방법 알아보기
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1138'
 ht-degree: 3%
 
 ---
 
-# Facebook에 게시{#publishing-on-facebook}
+# Facebook 게시{#publishing-on-facebook}
 
 ![](../../assets/v7-only.svg)
 
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 ## 증명 대상 선택 {#selecting-the-proof-target}
 
-다음 **[!UICONTROL Target of the proofs]** 탭에서는 게재를 보내기 전에 테스트하기 위해 사용할 Facebook 페이지를 정의할 수 있습니다. 이를 위해 전용 Facebook 페이지를 만드는 것이 좋습니다. 비공개 Facebook 페이지 만들기에 대한 자세한 내용은 [테스트 Facebook 페이지 만들기](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). 증명 대상을 선택하려면 기본 대상과 동일한 단계를 적용합니다. [기본 대상 선택](#selecting-the-main-target).
+다음 **[!UICONTROL Target of the proofs]** 탭에서는 게재를 보내기 전에 테스트하기 위해 사용할 Facebook 페이지를 정의할 수 있습니다. 이를 위해 전용 Facebook 페이지를 만드는 것이 좋습니다. 비공개 Facebook 페이지 만들기에 대한 자세한 내용은 [이 페이지](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). 증명 대상을 선택하려면 기본 대상과 동일한 단계를 적용합니다. [자세히 알아보기](#selecting-the-main-target)
 
 ![](assets/social_facebook_delivery_004.png)
 
@@ -73,7 +73,7 @@ ht-degree: 3%
 * **[!UICONTROL Cities]**
 * **[!UICONTROL Languages]**
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >이 기능은 주의해서 사용하십시오. 게재 보고서에서 **[!UICONTROL Number of fans]** 표시기에는 이러한 Facebook 필터가 고려되지 않습니다.
 >
@@ -110,7 +110,7 @@ ht-degree: 3%
 
 다양한 필드를 입력합니다.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >모든 URL은 **&quot;http://&quot;** 또는 **&quot;https://&quot;**.
 
@@ -131,7 +131,7 @@ ht-degree: 3%
 
 1. 에서 **[!UICONTROL Image]** 필드에서 게시 왼쪽에 표시될 이미지의 URL을 입력합니다.
 
-   >[!IMPORTANT]
+   >[!CAUTION]
    >
    >facebook에서 이미지를 업로드하려면 공개 인터넷 사이트에서 이미지를 호스팅해야 합니다.
 
@@ -148,7 +148,7 @@ ht-degree: 3%
 
 다양한 필드를 입력합니다.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >모든 URL은 **&quot;http://&quot;** 또는 **&quot;https://&quot;**.
 
@@ -188,7 +188,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->미리 보기는 최종 Facebook 게시물과 약간 다를 수 있습니다. 게시의 정확한 렌더링을 위해 최종 게재 전에 증명을 보내는 것이 좋습니다. 을(를) 참조하십시오. [증명 보내기](#sending-the-proof).
+>미리 보기는 최종 Facebook 게시물과 약간 다를 수 있습니다. 게시의 정확한 렌더링을 위해 최종 게재 전에 증명을 보내는 것이 좋습니다. [자세히 알아보기](#sending-the-proof)
 
 ## 추적 구성 {#configuring-tracking}
 
@@ -204,7 +204,7 @@ ht-degree: 3%
 
 ## 증명 보내기 {#sending-the-proof}
 
-개인 Facebook 테스트 페이지에서 발행물의 정확한 렌더링을 보려면 최종 게재 전에 게시 증명을 보내는 것이 좋습니다. 비공개 Facebook 테스트 페이지 만들기에 대한 자세한 내용은 [테스트 Facebook 페이지 만들기](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). 대상 증명을 선택하는 단계는 [증명 대상 선택](#selecting-the-proof-target).
+개인 Facebook 테스트 페이지에서 발행물의 정확한 렌더링을 보려면 최종 게재 전에 게시 증명을 보내는 것이 좋습니다. 비공개 Facebook 테스트 페이지 만들기에 대한 자세한 내용은 [이 페이지](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). 대상 증명을 선택하는 단계는 [이 섹션](#selecting-the-proof-target).
 
 증명 게재는 이메일 게재와 동일합니다. [이 섹션](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)을 참조하십시오.
 
