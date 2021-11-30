@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 235e8abcaed2659d745ebfeca24dc2f0278a6e5a
+source-git-commit: f7c4603e389b19c057ee72bb50ed30d03b60f4bc
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 96%
 
 ---
 
@@ -40,8 +40,9 @@ ht-degree: 100%
 <tr> 
 <td>CentOs</td>
 <td>
-<p>8.x(64비트)</p>
+<p>8.x(64비트) </br><strong>중요 사항:</strong> CentOS Linux 8은 2021년 12월 31일에 수명 종료(EOL)에 도달할 것입니다. 자세한 내용은 <a href="../../rn/using/deprecated-features.md">더 이상 사용되지 않는 기능</a> 페이지.</p>
 <p>7.x(64비트)</p>
+<p><strong>중요:</strong> RHEL을 사용하는 경우 SELinux를 비활성화하거나 설계자가 사용자 지정 SELinux 규칙을 작성하여 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인해야 합니다.</p>
 </td>
 </tr>
 <tr>
@@ -153,7 +154,7 @@ ht-degree: 100%
 <p>2016년</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
-<p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. [자세히 알아보기](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers)</p>
+<p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers">자세히 알아보기</a></p>
 </td>
 </tr>
 </tbody>
