@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: d750e13d3770d3b36b5f4376233d4da458730ed7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2420'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Adobe Campaign은 저장된 데이터에 대한 개인 정보 요청을 만들�
 
 >[!NOTE]
 >
->최적의 성능을 위해서는 기본 사용 가능한 네임스페이스를 사용하는 것이 좋습니다.
+>최적의 성능을 위해서는 바로 사용할 수 있는 네임스페이스를 사용하는 것이 좋습니다.
 
 ## 개인 정보 보호 요청 만들기 {#create-privacy-request-ui}
 
