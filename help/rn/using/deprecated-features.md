@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: f7c4603e389b19c057ee72bb50ed30d03b60f4bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1700'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr>
   <tr>
   <td>CentOs 8.x(64비트)<br></td>
-   <td><p>CentOS Linux 8은 2021년 12월 31일에 수명 종료(EOL)에 도달할 것입니다. <a href="https://www.centos.org/centos-linux-eol/">자세히 알아보기</a></p>
-   <p>이 운영 체제를 사용하는 경우 그에 따라 구현을 조정해야 합니다. CentOS 7.x(64비트) 및 RHEL 8.x/7.x(64비트)은 계속 지원됩니다.</p>
-  <p><em>Target 제거 날짜: 2021년 12월 31일</em></p>
+   <td><p>CentOS Linux 8은 2021년 12월 31일에 EOL(수명 종료)됩니다. <a href="https://www.centos.org/centos-linux-eol/">자세히 알아보기</a></p>
+   <p>이 운영 체제를 사용하는 경우 이에 따라 구현을 조정해야 합니다. CentOS 7.x(64비트) 및 RHEL 8.x/7.x(64비트)는 계속 지원됩니다.</p>
+  <p><em>제거 예정일: 2021년 12월 31일</em></p>
   </td>
  </tr>
     <tr>
