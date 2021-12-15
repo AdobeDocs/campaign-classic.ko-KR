@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 49a98ec82b1d62f3af19260888da8eb24e460938
+source-git-commit: 42717f3ef3bcda4108dad6a4c0ece752ada579a2
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 1%
+source-wordcount: '1647'
+ht-degree: 2%
 
 ---
 
@@ -322,7 +322,7 @@ Forms은 의 엔티티입니다 `xtk:form` 유형. 에서 입력 양식 구조�
       ```
    또는, `type="frame"` 기존 속성의 특성 `<container>` 요소를 생성하지 않습니다.
 
-### 만들기 `notebook` 양식
+### 전자 필기장 양식 만들기
 
 를 사용하십시오 `notebook` 양식 유형은 양식의 맨 위에 탭을 표시하여 사용자를 다른 페이지로 안내하는 데 사용합니다.
 
