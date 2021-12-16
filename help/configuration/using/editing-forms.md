@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 0dfce3b514fefef490847d669846e515b714d222
+source-git-commit: 1ab984d12c9beb0ba3378bbfb49d1d7d07e870f6
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1286'
 ht-degree: 2%
 
 ---
@@ -403,3 +403,24 @@ Forms은 의 엔티티입니다 `xtk:form` 유형. 에서 입력 양식 구조�
 따라서, **일반** 외부 양식의 페이지에 **이름** 및 **연락처** 탭.
 
 ![](assets/nested_forms_preview.png)
+
+## 출하 시 입력 양식 수정 {#modify-factory-form}
+
+출하 시 양식을 수정하려면 다음 단계를 수행합니다.
+
+1. 선택적으로 관련 데이터 스키마를 확장합니다.
+
+   1. 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
+   1. 데이터 스키마를 선택하고 확장합니다. 예를 들어 필드를 추가할 수 있습니다. [자세한 내용](extending-a-schema.md).
+
+      >[!CAUTION]
+      > 공장 네임스페이스에서 원본 데이터를 수정하지 않고 대신 사용자 지정 네임스페이스로 확장합니다. 소프트웨어 업그레이드 중에 공장 네임스페이스의 모든 데이터를 덮어쓰게 되기 때문입니다. 예를 들어 `xtk`, `ncm`, 및 `nms` 공장 네임스페이스는 덮어쓰여집니다. 사용자 지정 네임스페이스의 데이터는 수정되지 않습니다.
+
+1. 공장 입력 양식을 수정합니다.
+
+   1. 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]**.
+   1. 입력 양식을 선택하고 수정합니다.
+
+   출하 시 데이터 스키마를 확장할 수는 있지만 출하 시 입력 양식을 확장할 수는 없습니다. 공장 입력 양식을 다시 만들지 않고 직접 수정하는 것이 좋습니다. 소프트웨어 업그레이드 중에 공장 입력 양식의 수정 사항이 업그레이드와 병합됩니다. 자동 병합이 실패하면 충돌을 해결할 수 있습니다. [자세한 내용](../../production/using/upgrading.md#resolving-conflicts).
+
+   예를 들어, 추가 필드로 출하 시 스키마를 확장하는 경우 이 필드를 관련 출하 시 양식에 추가할 수 있습니다.
