@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: d8cd7910798f62cbab8aa0d7cfcc31010ed02297
+source-git-commit: 2b7341bb7fd5ecd93ccc9abd27789a013fda37fa
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '976'
 ht-degree: 2%
 
 ---
@@ -360,3 +360,9 @@ Forms은 의 엔티티입니다 `xtk:form` 유형. 에서 입력 양식 구조�
    ```
 
    또는, `type="frame"` 기존 속성의 특성 `<container>` 요소를 생성하지 않습니다.
+
+### 양식 중첩 {#nest-forms}
+
+다른 양식 내에 양식을 중첩할 수 있습니다. 예를 들어 전자 필기장 양식을 iconbox 양식 내에 중첩할 수 있습니다.
+
+중첩 컨트롤 탐색 수준입니다. 사용자는 하위 양식으로 드릴다운할 수 있습니다.
