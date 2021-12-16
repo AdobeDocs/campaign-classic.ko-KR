@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: dcfa6d1e5623792c852d164d636ebe19a7aaa614
+source-git-commit: b06e7b3d2dcb172e6a10c383b5f9800960e7a074
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '976'
 ht-degree: 2%
 
 ---
@@ -361,23 +361,9 @@ Forms은 의 엔티티입니다 `xtk:form` 유형. 에서 입력 양식 구조�
 
    또는, `type="frame"` 기존 속성의 특성 `<container>` 요소를 생성하지 않습니다.
 
-## 양식 중첩 {#nest-forms}
+### 양식 중첩 {#nest-forms}
 
 다른 양식 내에 양식을 중첩할 수 있습니다. 예를 들어 전자 필기장 양식을 iconbox 양식 내에 중첩할 수 있습니다.
 
 중첩 컨트롤 탐색 수준입니다. 사용자는 하위 양식으로 드릴다운할 수 있습니다.
-
-다른 양식 내에 양식을 중첩하려면 `<container>` 요소 및 설정 `type` 속성을 폼 형식으로 지정합니다. 최상위 양식의 경우 외부 컨테이너 또는 `<form>` 요소를 생성하지 않습니다.
-
-### 예제
-
-이 예는 복잡한 양식을 보여 줍니다.
-
-* 최상위 양식은 iconbox 양식입니다. 이 양식은 두 개의 컨테이너를 포함하고 있습니다 **일반** 및 **세부 사항**.
-
-   따라서 외부 양식에 **일반** 및 **세부 사항** 상위 수준의 페이지. 이러한 페이지에 액세스하려면 양식 왼쪽의 아이콘을 클릭합니다.
-
-* 하위 폼은 **일반** 컨테이너. 하위 폼은 레이블이 지정된 컨테이너 두 개를 포함합니다 **이름** 및 **연락처**.
-
-
 
