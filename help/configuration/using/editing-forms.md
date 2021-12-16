@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 214f6874f87fce5518651f6ff818e99d5edea7e0
+source-git-commit: daecbdecde0b80b47c113acc80618aee314c5434
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1698'
 ht-degree: 2%
 
 ---
@@ -403,3 +403,150 @@ Forms은 의 엔티티입니다 `xtk:form` 유형. 에서 입력 양식 구조�
 따라서, **일반** 외부 양식의 페이지에 **이름** 및 **연락처** 탭.
 
 ![](assets/nested_forms_preview.png)
+
+다른 양식 내에 양식을 중첩하려면 `<container>` 요소 및 설정 `type` 속성을 폼 형식으로 지정합니다. 최상위 양식의 경우 외부 컨테이너 또는 `<form>` 요소를 생성하지 않습니다.
+
+### 예제
+
+이 예는 복잡한 양식을 보여 줍니다.
+
+* 최상위 양식은 iconbox 양식입니다. 이 양식은 두 개의 컨테이너를 포함하고 있습니다 **일반** 및 **세부 사항**.
+
+   따라서 외부 양식에 **일반** 및 **세부 사항** 상위 수준의 페이지. 이러한 페이지에 액세스하려면 양식 왼쪽의 아이콘을 클릭합니다.
+
+* 하위 폼은 **일반** 컨테이너. 하위 폼은 레이블이 지정된 컨테이너 두 개를 포함합니다 **이름** 및 **연락처**.
+
+```xml
+<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
+  <container type="iconbox">
+    <container img="ncm:general.png" label="General">
+      <container type="notebook">
+        <container label="Name">
+          <input xpath="@firstName"/>
+          <input xpath="@lastName"/>
+        </container>
+        <container label="Contact">
+          <input xpath="@email"/>
+        </container>
+      </container>
+    </container>
+    <container img="ncm:detail.png" label="Details">
+      <input xpath="@birthDate"/>
+    </container>
+  </container>
+</form>
+```
+
+따라서, **일반** 외부 양식의 페이지에 **이름** 및 **연락처** 탭.
+
+![](assets/nested_forms_preview.png)
+
+
+
+## 출하 시 입력 양식 수정 {#modify-factory-form}
+
+출하 시 양식을 수정하려면 다음 단계를 수행합니다.
+
+1. 공장 입력 양식을 수정합니다.
+
+   1. 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]**.
+   1. 입력 양식을 선택하고 수정합니다.
+
+   출하 시 데이터 스키마를 확장할 수는 있지만 출하 시 입력 양식을 확장할 수는 없습니다. 공장 입력 양식을 다시 만들지 않고 직접 수정하는 것이 좋습니다. 소프트웨어 업그레이드 중에 공장 입력 양식의 수정 사항이 업그레이드와 병합됩니다. 자동 병합이 실패하면 충돌을 해결할 수 있습니다. [자세한 내용](../../production/using/upgrading.md#resolving-conflicts).
+
+   예를 들어, 추가 필드로 출하 시 스키마를 확장하는 경우 이 필드를 관련 출하 시 양식에 추가할 수 있습니다.
+
+## 양식 유효성 검사 {#validate-forms}
+
+양식에 유효성 검사 컨트롤을 포함할 수 있습니다.
+
+### 필드에 읽기 전용 액세스 권한 부여
+
+필드에 읽기 전용 액세스 권한을 부여하려면 `readOnly="true"` 속성을 사용합니다. 예를 들어 레코드의 기본 키를 표시하지만 읽기 전용 액세스 권한이 있는 경우 [자세한 내용](form-structure.md#non-editable-fields).
+
+이 예에서 기본 키(`iRecipientId`) `nms:recipient` 스키마는 읽기 전용 액세스 권한에 표시됩니다.
+
+```xml
+<value xpath="@iRecipientId" readOnly="true"/>
+```
+
+### 필수 필드 확인
+
+필수 정보를 확인할 수 있습니다.
+
+* 를 사용하십시오 `required="true"` 속성 을 사용해야 합니다.
+* 를 사용하십시오 `<leave>` 노드 아래의 필드를 확인하고 오류 메시지를 표시할 수 있습니다.
+
+이 예에서 이메일 주소는 필수 사항이며 사용자가 이 정보를 제공하지 않은 경우 오류 메시지가 표시됩니다.
+
+```xml
+<input xpath="@email" required="true"/>
+<leave>
+  <check expr="@email!=''">
+    <error>The email address is required.</error>
+  </check>
+</leave>
+```
+
+자세한 내용 [표현식 필드](form-structure.md#expression-field) 및 [양식 컨텍스트](form-structure.md#context-of-forms).
+
+### 값 유효성 검사
+
+JavaScript SOAP 호출을 사용하여 콘솔에서 양식 데이터의 유효성을 검사할 수 있습니다. 예를 들어, 인증된 값 목록에 대해 값을 확인하려면 이러한 호출을 복잡한 유효성 검사에 사용합니다. [자세한 내용](form-structure.md#soap-methods).
+
+1. JS 파일에 유효성 검사 함수를 만듭니다.
+
+   예제:
+
+   ```js
+   function nms_recipient_checkValue(value)
+   {
+     logInfo("checking value " + value)
+     if (…)
+     {
+       logError("Value " + value + " is not valid")
+     }
+     return 1
+   }
+   ```
+
+   이 예제에서 함수의 이름은 `checkValue`. 이 함수는 `recipient` 의 데이터 유형 `nms` 네임스페이스. 확인 중인 값이 기록됩니다. 값이 올바르지 않으면 오류 메시지가 기록됩니다. 값이 유효하면 값 1이 반환됩니다.
+
+   반환된 값을 사용하여 양식을 수정할 수 있습니다.
+
+1. 양식에서 `<soapCall>` 요소를 `<leave>` 요소를 생성하지 않습니다.
+
+   이 예제에서 SOAP 호출은 `@valueToCheck` 문자열:
+
+   ```xml
+   <form name="recipient" (…)>
+   (…)
+     <leave>
+       <soapCall name="checkValue" service="nms:recipient">
+         <param exprIn="@valueToCheck" type="string"/>
+       </soapCall>
+     </leave>
+   </form>
+   ```
+
+   이 예에서 `checkValue` 방법 및 `nms:recipient` 서비스가 사용됩니다.
+
+   * 서비스는 네임스페이스 및 데이터 유형입니다.
+   * 메서드는 함수 이름입니다. 이름은 대/소문자를 구분합니다.
+
+   호출은 동기식으로 수행됩니다.
+
+   모든 예외가 표시됩니다. 를 사용하는 경우 `<leave>` 요소를 생성하지 않으면 사용자는 입력한 정보의 유효성을 검사할 때까지 양식을 저장할 수 없습니다.
+
+다음 예에서는 양식 내에서 서비스를 호출하는 방법을 보여 줍니다.
+
+```xml
+<enter>
+  <soapCall name="client" service="c4:ybClient">
+    <param exprIn="@id" type="string"/>
+    <param type="boolean" xpathOut="/tmp/@count"/>
+  </soapCall>
+</enter>
+```
+
+이 예에서 입력은 기본 키인 ID입니다. 사용자가 이 ID의 양식을 작성하면 이 ID를 입력 매개 변수로 사용하여 SOAP 호출이 수행됩니다. 출력은 이 필드에 기록된 부울입니다. `/tmp/@count`. 양식 내에서 이 부울을 사용할 수 있습니다. 자세한 내용 [양식 컨텍스트](form-structure.md#context-of-forms).
