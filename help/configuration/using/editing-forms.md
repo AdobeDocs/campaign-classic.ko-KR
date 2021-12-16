@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 1dfc1b8e9d0e4405b6a2bb6f1a90a04abb4173e5
+source-git-commit: dcfa6d1e5623792c852d164d636ebe19a7aaa614
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '1089'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 2%
 
 마케터와 운영자는 입력 양식을 사용하여 레코드를 작성, 수정 및 미리 봅니다. Forms은 정보를 시각적으로 보여줍니다.
 
-You can create and modify input forms:
+입력 양식을 만들고 수정할 수 있습니다.
 
-* 기본적으로 제공되는 출하 시 입력 양식을 수정할 수 있습니다. The factory input forms are based on the factory data schemas.
+* 기본적으로 제공되는 출하 시 입력 양식을 수정할 수 있습니다. 공장 입력 양식은 출하 시 데이터 스키마를 기반으로 합니다.
 * 정의한 데이터 스키마를 기반으로 하여 사용자 정의 입력 양식을 만들 수 있습니다.
 
-Forms은 의 엔티티입니다 `xtk:form` 유형. 에서 입력 양식 구조를 볼 수 있습니다 `xtk:form` 스키마. To view this schema, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]** from the menu. 자세한 내용 [양식 구조](form-structure.md).
+Forms은 의 엔티티입니다 `xtk:form` 유형. 에서 입력 양식 구조를 볼 수 있습니다 `xtk:form` 스키마. 이 스키마를 보려면 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]** 메뉴 아래의 제품에서 사용할 수 있습니다. 자세한 내용 [양식 구조](form-structure.md).
 
-To access input forms, choose **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** from the menu:
+입력 양식에 액세스하려면 **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** 메뉴에서:
 
 ![](assets/d_ncs_integration_form_arbo.png)
 
@@ -39,7 +39,7 @@ To access input forms, choose **[!UICONTROL Administration]> [!UICONTROL Configu
 
 [자세한 내용](form-structure.md#formatting).
 
-To preview a form, click the **[!UICONTROL Preview]** tab:
+양식을 미리 보려면 **[!UICONTROL Preview]** 탭:
 
 ![](assets/d_ncs_integration_form_preview.png)
 
@@ -69,9 +69,9 @@ To preview a form, click the **[!UICONTROL Preview]** tab:
 
    ![](assets/iconbox_form_preview.png)
 
-* Notebook
+* 노트북
 
-   This form comprises multiple pages. 양식을 탐색하려면 양식 상단에 있는 탭을 선택합니다.
+   이 양식은 여러 페이지로 구성됩니다. 양식을 탐색하려면 양식 상단에 있는 탭을 선택합니다.
 
    ![](assets/notebook_form_preview.png)
 
@@ -85,7 +85,7 @@ To preview a form, click the **[!UICONTROL Preview]** tab:
 
 ## 컨테이너
 
-In forms, you can use containers for various purposes:
+양식에서 컨테이너를 다양한 용도로 사용할 수 있습니다.
 
 * 양식 내에서 컨텐츠 구성
 * 입력 필드에 대한 액세스 정의
@@ -93,20 +93,20 @@ In forms, you can use containers for various purposes:
 
 [자세한 내용](form-structure.md#containers).
 
-### Organize content
+### 컨텐츠 구성
 
 컨테이너를 사용하여 양식 내에서 컨텐츠를 구성할 수 있습니다.
 
-* You can group fields into sections.
-* You can add pages to multipage forms.
+* 필드를 섹션으로 그룹화할 수 있습니다.
+* 다중 페이지 양식에 페이지를 추가할 수 있습니다.
 
 컨테이너를 삽입하려면 `<container>` 요소를 생성하지 않습니다. [자세한 내용](form-structure.md#containers).
 
 #### 그룹 필드
 
-Use containers to group input fields into organized sections.
+컨테이너를 사용하여 입력 필드를 구성된 섹션으로 그룹화합니다.
 
-To insert a section into a form, use this element: `<container type="frame">`. 섹션 제목을 추가하려면 `label` 속성을 사용합니다.
+양식에 섹션을 삽입하려면 다음 요소를 사용합니다. `<container type="frame">`. 섹션 제목을 추가하려면 `label` 속성을 사용합니다.
 
 구문: `<container type="frame" label="`*section_title*`"> […] </container>`
 
@@ -126,11 +126,11 @@ To insert a section into a form, use this element: `<container type="frame">`. �
 
 ![](assets/console_screen_form.png)
 
-#### Add pages to multipage forms
+#### 다중 페이지 양식에 페이지 추가
 
 다중 페이지 양식의 경우 컨테이너를 사용하여 양식 페이지를 만듭니다.
 
-This example shows containers for the **General** and **Details** pages of a form:
+이 예는 **일반** 및 **세부 사항** 양식의 페이지:
 
 ```xml
 <container img="ncm:book.png" label="General">
@@ -145,13 +145,13 @@ This example shows containers for the **General** and **Details** pages of a for
 
 컨테이너를 사용하여 표시되는 내용을 정의하고 필드에 대한 액세스를 정의합니다. 필드 그룹을 켜거나 끌 수 있습니다.
 
-### Nest forms
+### 양식 중첩
 
-Use containers to nest forms within other forms. [자세한 내용](#add-pages-to-multipage-forms).
+컨테이너를 사용하여 다른 양식 내에 양식을 중첩합니다. [자세한 내용](#add-pages-to-multipage-forms).
 
 ## 이미지에 대한 참조
 
-To find images, choose **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]** from the menu.
+이미지를 찾으려면 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 예를 들어 아이콘과 같은 양식의 요소에 이미지를 연결하려면 이미지에 참조를 추가할 수 있습니다. 를 사용하십시오 `img` 속성(예: `<container>` 요소를 생성하지 않습니다.
 
@@ -178,7 +178,7 @@ To find images, choose **[!UICONTROL Administration]** > **[!UICONTROL Configura
 양식을 만들려면 다음 단계를 수행합니다.
 
 1. 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]**.
-1. Click the **[!UICONTROL New]** button at the top right of the list.
+1. 을(를) 클릭합니다. **[!UICONTROL New]** 목록의 오른쪽 상단에 있는 버튼.
 
    ![](assets/input-form-create-1.png)
 
@@ -194,7 +194,7 @@ To find images, choose **[!UICONTROL Administration]** > **[!UICONTROL Configura
       </form>
       ```
 
-      Alternatively, you can explicitly specify the data schema in the `entity-schema` attribute.
+      또는 데이터스키마를에서 명시적으로 지정할 수 있습니다 `entity-schema` 속성을 사용합니다.
 
       ```xml
       <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
@@ -202,18 +202,18 @@ To find images, choose **[!UICONTROL Administration]** > **[!UICONTROL Configura
       </form>
       ```
 
-   * Specify the label to be displayed on the form.
-   * 원할 경우 양식 유형을 지정합니다. If you do not specify a form type, the console screen type is used by default.
+   * 양식에 표시할 레이블을 지정합니다.
+   * 원할 경우 양식 유형을 지정합니다. 양식 유형을 지정하지 않으면 기본적으로 콘솔 화면 유형이 사용됩니다.
 
       ![](assets/input-form-create-2.png)
 
-      If you are designing a multipage form, you can omit the form type in the `<form>` element and specify the type in a container.
+      다중 페이지 양식을 디자인하는 경우에는 `<form>` 요소를 포함하고 컨테이너에서 유형을 지정합니다.
 
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
 1. 양식 요소를 삽입합니다.
 
-   For example, to insert an input field, use the `<input>` element. Set the `xpath` attribute to the field reference as an XPath expression. [자세한 내용](schema-structure.md#referencing-with-xpath).
+   예를 들어 입력 필드를 삽입하려면 `<input>` 요소를 생성하지 않습니다. 설정 `xpath` 속성을 XPath 식으로 지정합니다. [자세한 내용](schema-structure.md#referencing-with-xpath).
 
    이 예제에서는 `nms:recipient` 스키마.
 
@@ -228,33 +228,33 @@ To find images, choose **[!UICONTROL Administration]** > **[!UICONTROL Configura
 
       ![](assets/input-form-create-4.png)
 
-   1. Select the field and click **[!UICONTROL OK]**.
+   1. 필드를 선택하고 을(를) 클릭합니다 **[!UICONTROL OK]**.
 
       ![](assets/input-form-create-5.png)
 
-1. Optionally, specify the field editor.
+1. 필드 편집기를 지정합니다(선택 사항).
 
-   A default field editor is associated with each data type:
+   기본 필드 편집기는 각 데이터 유형과 연결됩니다.
    * 날짜 유형 필드의 경우 양식에 입력 달력이 표시됩니다.
-   * For an enumeration-type field, the form shows a selection list.
+   * 열거형 유형 필드의 경우 양식에 선택 목록이 표시됩니다.
 
-   You can use these field editor types:
+   다음과 같은 필드 편집기 유형을 사용할 수 있습니다.
 
-   | Field editor | 양식 속성 |
+   | 필드 편집기 | 양식 속성 |
    | --- | --- |
    | 라디오 단추 | `type="radiobutton"` |
    | 확인란 | `type="checkbox"` |
    | 트리 편집 | `type="tree"` |
 
-   Read more about [memory list controls](form-structure.md#memory-list-controls).
+   자세한 내용 [메모리 목록 컨트롤](form-structure.md#memory-list-controls).
 
-1. Optionally, define access to the fields:
+1. 필드에 대한 액세스를 정의합니다(선택적).
 
    | 요소 | 속성 | 설명 |
    | --- | --- | --- |
    | `<input>` | `read-only:"true"` | 필드에 읽기 전용 액세스 권한을 제공합니다 |
    | `<container>` | `type="visibleGroup" visibleIf="`*edit-expr*`"` | 조건부로 필드 그룹을 표시합니다. |
-   | `<container>` | `type="enabledGroup" enabledIf="`*edit-expr*`"` | Conditionally enables a group of fields |
+   | `<container>` | `type="enabledGroup" enabledIf="`*edit-expr*`"` | 조건부로 필드 그룹을 활성화합니다 |
 
    예제:
 
@@ -284,17 +284,17 @@ To find images, choose **[!UICONTROL Administration]** > **[!UICONTROL Configura
 
 ## 다중 페이지 양식 만들기 {#create-multipage-form}
 
-You can create multipage forms. You can also nest forms within other forms.
+다중 페이지 양식을 만들 수 있습니다. 다른 양식 내에 양식을 중첩할 수도 있습니다.
 
-### Create an `iconbox` form
+### 만들기 `iconbox` 양식
 
-Use the `iconbox` form type to show icons at the left of the form, which take users to different pages in the form.
+를 사용하십시오 `iconbox` 양식 유형은 양식 왼쪽에 아이콘을 표시하여 사용자가 양식의 다른 페이지로 이동하게 합니다.
 
 ![](assets/iconbox_form_preview.png)
 
 기존 양식의 유형을 `iconbox`다음 단계를 수행합니다.
 
-1. Change the `type` attribute of the `<form>` element to `iconbox`:
+1. 변경 `type` 의 속성 `<form>` 요소 대상 `iconbox`:
 
    ```xml
    <form […] type="iconbox">
@@ -340,7 +340,7 @@ Use the `iconbox` form type to show icons at the left of the form, which take us
 1. 각 양식 페이지에 대한 컨테이너를 추가합니다.
 
    1. 추가 `<container>` 요소의 하위 `<form>` 요소를 생성하지 않습니다.
-   1. To define the label and the image for the icon, use the `label` and `img` attributes.
+   1. 아이콘의 레이블과 이미지를 정의하려면 `label` 및 `img` 속성을 사용합니다.
 
    ```xml
      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="notebook" xtkschema="xtk:form">
@@ -361,6 +361,23 @@ Use the `iconbox` form type to show icons at the left of the form, which take us
 
    또는, `type="frame"` 기존 속성의 특성 `<container>` 요소를 생성하지 않습니다.
 
+## 양식 중첩 {#nest-forms}
+
+다른 양식 내에 양식을 중첩할 수 있습니다. 예를 들어 전자 필기장 양식을 iconbox 양식 내에 중첩할 수 있습니다.
+
+중첩 컨트롤 탐색 수준입니다. 사용자는 하위 양식으로 드릴다운할 수 있습니다.
+
+다른 양식 내에 양식을 중첩하려면 `<container>` 요소 및 설정 `type` 속성을 폼 형식으로 지정합니다. 최상위 양식의 경우 외부 컨테이너 또는 `<form>` 요소를 생성하지 않습니다.
+
+### 예제
+
+이 예는 복잡한 양식을 보여 줍니다.
+
+* 최상위 양식은 iconbox 양식입니다. 이 양식은 두 개의 컨테이너를 포함하고 있습니다 **일반** 및 **세부 사항**.
+
+   따라서 외부 양식에 **일반** 및 **세부 사항** 상위 수준의 페이지. 이러한 페이지에 액세스하려면 양식 왼쪽의 아이콘을 클릭합니다.
+
+* 하위 폼은 **일반** 컨테이너. 하위 폼은 레이블이 지정된 컨테이너 두 개를 포함합니다 **이름** 및 **연락처**.
 
 
 
