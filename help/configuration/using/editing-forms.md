@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 0d132f56e7888ad810e309b97b9337ec56fe1ee0
+source-git-commit: c08a4b3540da6370584e32e13723bee352402914
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1118'
 ht-degree: 2%
 
 ---
@@ -407,12 +407,5 @@ Forms은 의 엔티티입니다 `xtk:form` 유형. 에서 입력 양식 구조�
 ## 출하 시 입력 양식 수정 {#modify-factory-form}
 
 출하 시 양식을 수정하려면 다음 단계를 수행합니다.
-
-1. 선택적으로 관련 데이터 스키마를 확장합니다.
-
-   1. 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
-   1. 데이터 스키마를 선택하고 확장합니다. 예를 들어 필드를 추가할 수 있습니다. [자세한 내용](extending-a-schema.md).
-
-
 
 
