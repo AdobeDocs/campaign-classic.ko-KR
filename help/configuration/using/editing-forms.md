@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 31cf8dca13d53a3d6c450c04b45f8ed7e32f95b6
+source-git-commit: f35988634f732591abdbed9edc123924c4583f5a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1105'
+ht-degree: 2%
 
 ---
 
@@ -404,5 +404,6 @@ Forms은 의 엔티티입니다 `xtk:form` 유형. 에서 입력 양식 구조�
 
 ![](assets/nested_forms_preview.png)
 
-## 출하 시 입력 양식 수정 {#modify-factory-form}
+
+
 
