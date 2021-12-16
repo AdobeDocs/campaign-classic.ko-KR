@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: e712298a07ecfe345c0b53a4f07f6bc4c19106f7
+source-git-commit: 0d132f56e7888ad810e309b97b9337ec56fe1ee0
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1143'
 ht-degree: 2%
 
 ---
@@ -413,7 +413,6 @@ Forms은 의 엔티티입니다 `xtk:form` 유형. 에서 입력 양식 구조�
    1. 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
    1. 데이터 스키마를 선택하고 확장합니다. 예를 들어 필드를 추가할 수 있습니다. [자세한 내용](extending-a-schema.md).
 
-      >[!CAUTION]
-      > 공장 네임스페이스에서 원본 데이터를 수정하지 않고 대신 사용자 지정 네임스페이스로 확장합니다. 소프트웨어 업그레이드 중에 공장 네임스페이스의 모든 데이터를 덮어쓰게 되기 때문입니다. 예를 들어 `xtk`, `ncm`, 및 `nms` 공장 네임스페이스는 덮어쓰여집니다. 사용자 지정 네임스페이스의 데이터는 수정되지 않습니다.
+
 
 
