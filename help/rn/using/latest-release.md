@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: ebd5b04c30c54142433056904a5d80f5a8744ded
+source-git-commit: 5261021bde11bc9450a429f26aa493ca2398dbc7
 workflow-type: tm+mt
-source-wordcount: '2459'
-ht-degree: 100%
+source-wordcount: '2531'
+ht-degree: 97%
 
 ---
 
@@ -28,10 +28,11 @@ _2021년 10월 8일_
 
 **패치**
 
+* 수정 사항을 적용하려면 워크플로우를 수동으로 다시 시작해야 하는 빌드 9342에서 사용할 수 있는 청구 워크플로우 수정 사항을 개선했습니다. 이제 업그레이드 후 워크플로우가 자동으로 다시 시작됩니다.
+
 * **상호 작용** 모듈을 사용할 때 [파워 부스터](../../installation/using/power-booster-and-power-cluster.md) 옵션을 설정한 경우 오퍼 관리가 적절하게 이루어지지 않는 문제를 해결했습니다. (NEO-39263)
 
 * 다중 중간 소스 인스턴스에서 두 개 이상의 IP 친화성을 사용할 때 게재 전송 중 [중간 서버 xxx에서 ip 친화성 xxx를 찾을 수 없음] 오류가 발생하는 현상을 해결했습니다. (NEO-37514)
-
 
 ## ![](assets/do-not-localize/orange_2.png) 릴리스 21.1.4 - 빌드 9342 {#release-21-1-4-build-9342}
 
@@ -49,9 +50,9 @@ _2021년 9월 7일_
 
 **기타 변경 사항**
 
+* 청구 워크플로우 새 가드레일과 함께 21.1.3에 도입된 회귀 문제를 해결했습니다. 청구 워크플로우가 잘못된 인스턴스에서 실행되었으며 생성되지 않은 청구 보고서를 전송하려고 시도하는 중에 충돌했습니다. 수정 사항을 적용하려면 워크플로우를 수동으로 다시 시작해야 합니다.
 * 사용 종료된 Microsoft CRM 커넥터(Office 365 및 온프레미스 배포)를 인터페이스에서 제거했습니다. [자세히 알아보기](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Tomcat 8로 마이그레이션한 후 IIS 설정 스크립트를 업데이트하여 IIS 통합 문제를 해결했습니다. (NEO-31019)
-* [청구 기술 워크플로우](../../production/using/monitoring-processes.md#billing-report)를 마케팅 인스턴스에서만 실행할 수 있도록 하기 위해 가드레일이 추가되었습니다.
 * 워크플로우 전환의 **모집단 보기** 창에서 데이터 및 스키마 탭에서 데이터 소스 식별이 개선되었습니다.
 * 데이터베이스 업데이트 문제를 방지하기 위해 누락된 데이터베이스 인덱스가 xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl 스키마에 추가되었습니다. 
 
@@ -193,6 +194,7 @@ _2021년 6월 5일_
 
 **기타 변경 사항**
 
+* [청구 기술 워크플로우](../../production/using/monitoring-processes.md#billing-report)를 마케팅 인스턴스에서만 실행할 수 있도록 하기 위해 가드레일이 추가되었습니다.
 * Windows용 openssl 타사 버전이 버전 1.1.1h로 업데이트되었습니다.
 * Debian 패키지 설명에서 nlserver가 Adobe Campaign Classic 서버로 변경되었습니다.
 
