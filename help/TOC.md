@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
-workflow-type: ht
-source-wordcount: '2575'
-ht-degree: 100%
+source-git-commit: 5bcc0c06b5c189c4481366d0d283199d6813ecd3
+workflow-type: tm+mt
+source-wordcount: '2581'
+ht-degree: 99%
 
 ---
 
@@ -21,19 +21,14 @@ ht-degree: 100%
 + 릴리스 정보 {#release-notes}
    + [업그레이드 시작](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
-   + [!DNL Gold Standard] 릴리스 {#gs-release}
-      + [ [!DNL Gold Standard]이란?](rn/using/gs-overview.md)
-      + [[!DNL Gold Standard] 릴리스 정보](rn/using/gold-standard.md)
-      + [[!DNL Gold Standard] 호환성 매트릭스](rn/using/compatibility-matrix-gs.md)
    + 이전 릴리스 {#previous-releases}
-      + [릴리스 20.3](rn/using/release--20-3.md)
-      + [릴리스 20.2](rn/using/release--20-2.md)
-      + [릴리스 20.1](rn/using/release--20-1.md)
-      + [릴리스 19.2](rn/using/release--19-2.md)
-      + [릴리스 19.1](rn/using/release--19-1.md)
-      + [릴리스 18.10](rn/using/release--18-10.md)
-      + [릴리스 18.6](rn/using/release--18-6.md)
-      + [릴리스 18.4](rn/using/release--18-4.md)
+      + [!DNL Gold Standard] 릴리스 {#gs-release}
+         + [ [!DNL Gold Standard]이란?](rn/using/gs-overview.md)
+         + [[!DNL Gold Standard] 릴리스 정보](rn/using/gold-standard.md)
+         + [[!DNL Gold Standard] 호환성 매트릭스](rn/using/compatibility-matrix-gs.md)
+      + [2020년](rn/using/release--2020.md)
+      + [2019](rn/using/release--2019.md)
+      + [2018](rn/using/release--2018.md)
    + [사용되지 않는 기능](rn/using/deprecated-features.md)
    + [호환성 매트릭스](rn/using/compatibility-matrix.md)
 + 시작 {#getting-started}
@@ -560,7 +555,7 @@ ht-degree: 100%
       + [추가 데이터](interaction/using/additional-data.md)
       + [확장 예제](interaction/using/extension-example.md)
       + [테스트 환경 만들기](interaction/using/creating-a-test-environment.md)
-      + [후크](interaction/using/hooks.md)
+      + [표준 엔진 동작 수정](interaction/using/hooks.md)
       + [분산 아키텍처](interaction/using/distributed-architectures.md)
       + [데이터 버퍼 구성](installation/using/interaction---data-buffer.md)
    + 활용 사례 {#case-study}
@@ -849,6 +844,7 @@ ht-degree: 100%
       + [기술 노트](technotes/using/technote.md)
       + [Campaign 구성 업데이트](technotes/using/acc-config-updates.md)
       + [IMS 업데이트](technotes/using/ims-updates.md)
+      + [TLS 1.0 및 1.1 지원 종료](technotes/using/eol-tls-support.md)
    + 이메일 및 푸시 알림{#technotes-email}
       + [Apple iOS의 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)
       + [Apple 메일 개인 정보 보호 FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ko)

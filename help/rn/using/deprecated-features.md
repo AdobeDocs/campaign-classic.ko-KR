@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: f7c4603e389b19c057ee72bb50ed30d03b60f4bc
-workflow-type: ht
-source-wordcount: '1700'
-ht-degree: 100%
+source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+workflow-type: tm+mt
+source-wordcount: '1737'
+ht-degree: 98%
 
 ---
 
@@ -85,6 +85,12 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <tr> 
    <td><strong>영역 - 기능</strong></td>
    <td><strong>교체</strong></td> 
+  </tr>
+ <tr>  
+   <td>CRM 커넥터 활동<br></td>
+   <td><p> Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동을 더 이상 사용할 수 없습니다.</p>
+   <p>Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성하려면 CRM 커넥터 활동을 사용할 수 있습니다.</p>
+   <p><a href="../../workflow/using/crm-connector.md">자세히 알아보기</a></p>
   </tr>
   <tr>  
    <td>보고<br></td>

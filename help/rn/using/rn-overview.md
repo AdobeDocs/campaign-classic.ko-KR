@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: b3a3ec871bca9132f10b319ba1f93aeda80d6747
+source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 77%
 
 ---
 
@@ -17,19 +17,17 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign은 정기적으로 업데이트 됩니다. 새로운 기능, 개선 사항 및 수정 사항이 포함된 평균 2~3개의 부 버전이 매년 릴리스됩니다. 또한 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다.
+Adobe Campaign은 정기적으로 업데이트됩니다. 새로운 기능, 개선 사항 및 수정 사항이 포함된 하나 또는 두 개의 부 버전이 매년 릴리스됩니다. 또한 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다.
 
 이러한 정기 업데이트 빈도는 최신 업데이트를 직접 경험해 보고 환경을 안전하게 지키며 Adobe 제품을 통해 경험을 향상시키는 것을 목표로 합니다.
 
-Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 생각하는 이유입니다. 또한 최근 빌드에서 문제를 식별, 복제 및 수정이 일반적으로 훨씬 빨라져 지원 경험이 향상됩니다. 또한, 최근 빌드에서 발생한 다양한 문제를 해결합니다.
+이것이 우리가 당신이 중요하다고 믿는 이유입니다 **최신 버전 실행** Adobe Campaign 또한 최근 빌드에서 문제를 식별, 복제 및 수정이 일반적으로 훨씬 빨라져 지원 경험이 향상됩니다. 또한, 최근 빌드에서 발생한 다양한 문제를 해결합니다.
 
 ## 릴리스 상태{#rn-statuses}
 
-상태는 각 빌드에 연결됩니다. 아래에서 상태 목록 및 해석 방법을 확인할 수 있습니다.
+모든 새 빌드는 색상으로 구체화된 상태를 제공합니다.
 
 ![](assets/do-not-localize/green3.png) GA(**General Availability**) - 프로덕션에서 검증되었으며 Adobe에서 권장합니다.
-
-**최신 GA 빌드**&#x200B;는 [[!DNL Gold Standard] 11 릴리스](../../rn/using/gold-standard.md#gs-11) 및 [Campaign 21.1.4 릴리스](../../rn/using/latest-release.md#release-21-1-4-build-9340)입니다.
 
 ![](assets/do-not-localize/limited3.png) LA(**Limited Availability**) - 주문형 배포만 가능.
 
@@ -41,9 +39,9 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ## 추천{#recommendations}
 
-안정적인 구성을 위해서는 동일한 클라이언트 구성에서 실행 중인 모든 서버에 동일한 안정적인 빌드를 설치하는 것이 좋습니다.
+안정적인 구성을 위해서는 를 설치하는 것이 좋습니다 **같은 안정적인 빌드** 동일한 클라이언트 구성에서 실행 중인 모든 서버에서
 
-또한, 클라이언트 콘솔은 서버 인스턴스와 동일한 빌드에 있어야 합니다.
+또한 클라이언트 콘솔은 서버 인스턴스와 동일한 빌드에 있어야 합니다.
 
 구현을 최신 상태로 유지하려면 각 새로운 릴리스에 포함된 [사용되지 않거나 제거된 기능](../../rn/using/deprecated-features.md) 및 [호환성 매트릭스](../../rn/using/compatibility-matrix.md) 페이지를 참조하세요.
 
@@ -62,6 +60,7 @@ Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 �
 
 ## 지원 및 기타 유용한 링크{#support}
 
+* [Campaign 버전 찾기](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 * [도움말 및 지원](../../support.md)
 * [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
 * [최신 설명서 업데이트](../../rn/using/documentation-updates.md)

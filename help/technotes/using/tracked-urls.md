@@ -5,7 +5,7 @@ description: 기술 정보
 hide: true
 hidefromtoc: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
-source-git-commit: ed9e76495efb0cb49e248a7d38417642c5094a11
+source-git-commit: 70240d5f62fd3d7b755389b5ad8c4b499c94657d
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 35%
@@ -30,11 +30,12 @@ ht-degree: 35%
 
 * Gold Standard 8~11. [자세히 알아보기](../../rn/using/gold-standard.md#gs-8)
 * Campaign 21.1.1(빌드 9277)에서 21.1.2(빌드 9282) 릴리스로 이동합니다. [자세히 알아보기](../../rn/using/latest-release.md)
-* Campaign 20.3.1(빌드 9228)에서 20.3.3(빌드 9234) 릴리스로 이동합니다. [자세히 알아보기](../../rn/using/release--20-3.md)
-* Campaign 20.2.1(빌드 9178)에서 20.2.4(빌드 9187) 릴리스로 이동합니다. [자세히 알아보기](../../rn/using/release--20-2.md)
-* Campaign 20.1.1(빌드 9122)에서 21.1.3(빌드 9124) 릴리스로 이동합니다. [자세히 알아보기](../../rn/using/release--20-1.md)
-* Campaign 19.2.2(빌드 9080)에서 19.2.3(빌드 9081) 릴리스로 이동합니다. [자세히 알아보기](../../rn/using/release--19-2.md)
-* Campaign 19.1.5(빌드 9033)에서 19.1.7(빌드 9036) 릴리스로 이동합니다. [자세히 알아보기](../../rn/using/release--19-1.md)
+* Campaign 20.3.1(빌드 9228)에서 20.3.3(빌드 9234) 릴리스로 이동합니다. [자세히 알아보기](../../rn/using/release--2020.md#release-20-3)
+* Campaign 20.2.1(빌드 9178)에서 20.2.4(빌드 9187) 릴리스로 이동합니다. [자세히 알아보기](../../rn/using/release--2020.md#release-20-2)
+* Campaign 20.1.1(빌드 9122)에서 21.1.3(빌드 9124) 릴리스로 이동합니다. [자세히 알아보기](../../rn/using/release--2020.md#release-20-1)
+* Campaign 19.2.2(빌드 9080)에서 19.2.3(빌드 9081) 릴리스로 이동합니다. [자세히 알아보기](../../rn/using/release--2019.md#release-19-2)
+* Campaign 19.1.5(빌드 9033)에서 19.1.7(빌드 9036) 릴리스로 이동합니다. [자세히 알아보기](../../rn/using/release--2019.md#release-19-1)
+
 
 버전을 확인하는 방법을 알아봅니다 [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 

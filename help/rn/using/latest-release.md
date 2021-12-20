@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: 최신 릴리스
-description: 최신 Campaign Classic 릴리스 정보
+description: 최신 Campaign Classic v7 릴리스 노트
 feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 5261021bde11bc9450a429f26aa493ca2398dbc7
+source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
 workflow-type: tm+mt
-source-wordcount: '2531'
-ht-degree: 97%
+source-wordcount: '2559'
+ht-degree: 88%
 
 ---
 
@@ -17,12 +17,14 @@ ht-degree: 97%
 
 ![](../../assets/v7-only.svg)
 
-이 페이지에서는 **최신 Campaign Classic 릴리스**&#x200B;의 새로운 기능, 개선 사항, 버그 해결 사항 목록을 확인할 수 있습니다.
+이 페이지에는 다음과 같은 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다 **최신 Campaign Classic v7 릴리스**. 모든 새 빌드는 색상으로 구체화된 상태를 제공합니다. 에서 Campaign Classic v7 빌드 상태에 대해 자세히 알아보십시오 [이 페이지](rn-overview.md).
 
-[이 페이지](rn-overview.md)에서 캠페인 빌드 상태를 이해할 수 있습니다.
+## 릴리스 7.1(21.1)
 
+>[!CAUTION]
+>캠페인 **[!UICONTROL Help > About...]** 메뉴를 통해 [버전 및 빌드 번호](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). 그러나 이 페이지에 나열된 9277~9343 사이의 모든 빌드에 대해 버전 번호는 7.1 대신 7.0으로 설정됩니다.
 
-## ![](assets/do-not-localize/green_2.png) 릴리스 21.1.4 - 빌드 9343 {#release-21-1-4-build-9343}
+### ![](assets/do-not-localize/green_2.png) 릴리스 21.1.4 - 빌드 9343 {#release-21-1-4-build-9343}
 
 _2021년 10월 8일_
 
@@ -34,7 +36,7 @@ _2021년 10월 8일_
 
 * 다중 중간 소스 인스턴스에서 두 개 이상의 IP 친화성을 사용할 때 게재 전송 중 [중간 서버 xxx에서 ip 친화성 xxx를 찾을 수 없음] 오류가 발생하는 현상을 해결했습니다. (NEO-37514)
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 21.1.4 - 빌드 9342 {#release-21-1-4-build-9342}
+### ![](assets/do-not-localize/orange_2.png) 릴리스 21.1.4 - 빌드 9342 {#release-21-1-4-build-9342}
 
 _2021년 9월 7일_
 
@@ -68,7 +70,7 @@ _2021년 9월 7일_
 * 수신되는 전환이 FDA 데이터 소스에서 온 경우 **데이터 보강** 워크플로우 활동에서 변수를 사용할 수 없는 문제를 해결했습니다.
 * 이메일 메시지에서 URL의 손상을 유발할 수 있는 문제를 해결했습니다.
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 21.1.3 - 빌드 9330 {#release-21-1-3-build-9330}
+### ![](assets/do-not-localize/orange_2.png) 릴리스 21.1.3 - 빌드 9330 {#release-21-1-3-build-9330}
 
 _2021년 6월 5일_
 
@@ -179,18 +181,18 @@ _2021년 6월 5일_
 
 **사용되지 않는 기능**
 
-* Campaign 21.1 릴리스부터 Adobe Analytics 데이터 커넥터는 사용 중단됩니다. 이 커넥터를 사용하는 경우 새로운 커넥터인 Adobe Analytics 커넥터에 맞게 구현을 조정해야 합니다.
-자세한 내용은 [세부 설명서](../../technotes/using/aa-connector-migration.md)를 참조하십시오.
-* Debian 8에 대한 지원은 이제 중단되었습니다.
-* 20.3에서 Oracle CRM의 사용 중단 이후, 관련 외부 계정이 인터페이스에서 제거되었습니다.
+* 이제 ODBC 드라이버는 Adobe Campaign 타사 과 함께 직접 설치됩니다. 드라이버를 설치하는 데 더 이상 수동 단계가 필요하지 않습니다.
+* 이제 호스팅된 배포에 Google Big Query를 사용할 수 있습니다.
 
-더 자세한 내용은 [사용되지 않거나 제거된 기능 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
+[자세히 표시](../../installation/using/configure-fda.md)
 
 **개선 사항**
 
-* 워크플로우를 저장할 때 활동 이름이 고유하고 전환 뒤에 활동이 표시되는지 확인하기 위한 추가 검사가 추가되었습니다.
-* 이제 **청구(billing)** 기술 워크플로우에는 이전에 제거되었던 **활성 청구 프로필 수**(billingActiveContactCount) 워크플로우에서 원래 수행한 작업이 포함됩니다. 워크플로우가 매월 보내는 이메일 보고서는 이제 인스턴스의 활성 프로필 수에 대한 정보를 제공합니다. [자세한 내용](../../workflow/using/about-technical-workflows.md).
-* 메모 데이터 작업에 키를 사용할 수 있도록 새 **_keyOnMData** 특성이 추가되었습니다.
+* Microsoft Dynamics Connector 웹 API에 대한 중요 수정 사항이 적용되었습니다.
+   * 필터 조건에 조회 필드가 포함된 경우 Microsoft CRM에서 데이터 가져오기가 실패하거나 작동하지 않는 문제를 해결했습니다.
+   * 워크플로우에 의해 트리거된 가져오기 중에 문자열 유형 필드의 null 값이 빈 값 대신 Null로 저장되는 문제가 해결되었습니다.
+   * 웹 API 호출을 사용하여 데이터를 가져오거나 내보내는 데 다음 오류가 발생하는 문제를 수정했습니다. &quot;잘못된 URI: URI 체계가 너무 깁니다.&quot;
+   * Microsoft Dynamics 365에서 가져오는 동안 조회 필드 데이터를 가져올 수 없는 문제를 해결했습니다.
 
 **기타 변경 사항**
 
@@ -224,14 +226,14 @@ _2021년 6월 5일_
 * 게재 개인화에 실패한 특정 조인 메커니즘으로 인해 증명 그룹과 함께 게재를 보낼 수 없는 문제를 수정했습니다. (NEO-14391)
 * 쿼리 및 데이터 보강 활동이 게재 테이블을 타겟팅한 경우 경고 활동으로 경고를 보내지 못하는 문제를 해결했습니다. (NEO-25157)
 
-## ![](assets/do-not-localize/red_2.png) 릴리스 21.1.2 - 빌드 9282 {#release-21-1-2-build-9282}
+### ![](assets/do-not-localize/red_2.png) 릴리스 21.1.2 - 빌드 9282 {#release-21-1-2-build-9282}
 
 _2021년 4월 15일_
 
 * 암호 관리가 보안을 최적화하기 위해 개선되었습니다.
 * MTA 작동 중단을 발생시킬 수 있는 문제를 수정했습니다.
 
-## ![](assets/do-not-localize/red_2.png) 릴리스 21.1.1 - 빌드 9277 {#release-21-1-1-build-9277}
+### ![](assets/do-not-localize/red_2.png) 릴리스 21.1.1 - 빌드 9277 {#release-21-1-1-build-9277}
 
 _2021년 2월 22일_
 

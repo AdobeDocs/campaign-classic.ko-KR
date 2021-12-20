@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: f7c4603e389b19c057ee72bb50ed30d03b60f4bc
-workflow-type: ht
-source-wordcount: '652'
-ht-degree: 100%
+source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 89%
 
 ---
 
@@ -48,6 +48,7 @@ ht-degree: 100%
 <tr>
 <td>Debian</td>
 <td>
+<p>11(64비트)</p>
 <p>10(64비트)</p>
 <p>9(64비트)</p>
 </td>
@@ -63,6 +64,7 @@ ht-degree: 100%
 <tr>
 <td>Windows Server</td>
 <td>
+<p>2019</p>
 <p>2016</p>
 <p>2012 R2</p>
 <p>2012</p>
@@ -141,17 +143,15 @@ ht-degree: 100%
 <p>11.x</p>
 <p>10.x</p>
 <p>9.6.x</p>
-<p>9.5.x</p>
-<p>9.4.x</p>
 <p><strong>참고:</strong> 위에 지정된 버전을 통해 PostgreSQL용 Amazon RDS도 사용할 수 있습니다.</p>
 </td>
 </tr>
 <tr>
 <td>SQL Server</td>
 <td>
-<p>2019</p>
+<p>2019년</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016년</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers">자세히 알아보기</a></p>
@@ -191,24 +191,41 @@ Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다
 ## FDA(Federated Data Access){#FederatedDataAccessFDA}
 
 Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda.md)과 호환되는 외부 데이터베이스 목록은 다음과 같습니다.
-
 <table>
 <tbody>
+<td><strong>커넥터</strong></td>
+<td><strong>버전 호환성</strong></td>
+<td><strong>호스팅 모델 호환성</strong></td>
+<td><strong>빌드 호환성</strong></td>
 <tr>
+<tr>
+<td>Snowflake</td>
+<td> </td>
+<td>Managed Services, 하이브리드 및 온-프레미스</td>
+<td>21.1.5 최소</td>
+</tr>
 <td>Vertica</td>
 <td> </td>
+<td>하이브리드 및 온-프레미스 전용</td>
+<td>19.1.4 최소</td>
 </tr>
 <tr>
 <td>Google BigQuery</td>
 <td> </td>
+<td>Managed Services, 하이브리드 및 온-프레미스</td>
+<td>21.1.5 최소</td>
 </tr>
 <tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td> </td>
+<td>하이브리드 및 온-프레미스</td>
+<td>19.1.4 최소</td>
 </tr>
 <tr>
 <td>Amazon Redshift</td>
 <td><p> </p>
+<td>Managed Services, 하이브리드 및 온-프레미스</td>
+<td>19.1.4 최소</td>
 </td>
 </tr>
 <tr>
@@ -219,6 +236,8 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>12c</p>
 <p>11g</p>
 </td>
+<td>하이브리드 및 온-프레미스 전용</td>
+<td>V6.11 최소</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -231,20 +250,26 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>9.5.x</p>
 <p>9.4.x</p>
 </td>
+<td>Managed Services, 하이브리드 및 온-프레미스</td>
+<td>19.1.4 최소</td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
+<p>2019년</p>
+<p>2017년</p>
+<p>2016년</p>
+<p>2014년</p>
 <p>2012 SP1 및 SP2</p>
 </td>
+<td>하이브리드 및 온-프레미스 전용</td>
+<td>V6.11 최소</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
 <p>5.7</p>
 </td>
+<td>하이브리드 및 온-프레미스 전용</td>
+<td>V6.11 최소</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -254,12 +279,16 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>15.10</p>
 <p>15.0</p>
 </td>
+<td>하이브리드 및 온-프레미스 전용</td>
+<td>V6.11 최소</td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
 <p>7.2</p>
 </td>
+<td>하이브리드 및 온-프레미스 전용</td>
+<td>V6.11 최소</td>
 </tr>
 <tr>
 <td>Sybase</td>
@@ -267,12 +296,16 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>IQ 16</p>
 <p>ASE 15.7</p>
 </td>
+<td>하이브리드 및 온-프레미스 전용</td>
+<td>V6.11 최소</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
 <td>
 <p>버전 1 SPS 12</p>
 </td>
+<td>하이브리드 및 온-프레미스 전용</td>
+<td>V6.11 최소</td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
 <td>
@@ -280,13 +313,12 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)</p>
 <p>Cloudera CDH6.x</p>
 </td>
-</tr>
-<tr>
-<td>Snowflake</td>
-<td> </td>
+<td>하이브리드 및 온-프레미스 전용</td>
+<td>V6.11 최소</td>
 </tr>
 </tbody>
 </table>
+
 
 ## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
 
@@ -299,8 +331,8 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016</p>
-<p>2012</p>
+<p>2016년</p>
+<p>2012년</p>
 </td>
 </tr>
 <tr>

@@ -3,9 +3,9 @@ product: campaign
 title: 기술 정보 - IMS와 Adobe Campaign에 연결하기 위해 환경을 업데이트합니다.
 description: Campaign - IMS 업데이트
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
+source-git-commit: 70240d5f62fd3d7b755389b5ad8c4b499c94657d
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '587'
 ht-degree: 9%
 
 ---
@@ -40,10 +40,9 @@ Campaign에 연결하는 경우 [Adobe ID 사용](../../integrations/using/about
 
    * Gold Standard 11. [자세히 알아보기](../../rn/using/gold-standard.md)
    * Campaign 21.1.3 릴리스. [자세히 알아보기](../../rn/using/latest-release.md)
-   * Campaign 20.2.5 릴리스. [자세히 알아보기](../../rn/using/release--20-2.md)
-   * Campaign 20.1.4 릴리스. [자세히 알아보기](../../rn/using/release--20-1.md)
-   * Campaign 19.2.4 릴리스. [자세히 알아보기](../../rn/using/release--19-2.md)
-   * Campaign 19.1.8 릴리스. [자세히 알아보기](../../rn/using/release--19-1.md)
+   * Campaign 20.2.5 릴리스. [자세히 알아보기](../../rn/using/release--2020.md#release-20-2-5-build-9188)
+   * Campaign 20.1.4 릴리스. [자세히 알아보기](../../rn/using/release--2020.md#release-20-1-4-build-9126)
+   * Campaign 19.2.4 릴리스. [자세히 알아보기](../../rn/using/release--2019.md#release-19-2-4-build-9082)
 
    이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 업그레이드는 Campaign 서버와 클라이언트 콘솔 모두에 필수입니다. 모든 인스턴스가 업그레이드되면 후에 Campaign에 연결할 수 있도록 클라이언트 콘솔을 이 버전으로 업그레이드해야 합니다. **2021년 6월 30일**.
 
