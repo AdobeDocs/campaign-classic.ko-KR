@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+source-git-commit: f2cb3323bc5df3aae16a4ae4cf80c30bf53b006e
 workflow-type: tm+mt
-source-wordcount: '4560'
-ht-degree: 100%
+source-wordcount: '4705'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,31 @@ ht-degree: 100%
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
+
+## 2021년 12월{#dec-2021}
+
+Campaign Classic v7 릴리스 노트가 탐색 간소화를 위해 재구성되었습니다. [자세히 표시](rn-overview.md)
+
+Campaign의 양식 편집에 대한 설명서를 업데이트 및 개선했습니다. [자세히 표시](../../configuration/using/editing-forms.md)
+
+CentOs 8은 수명이 종료되었으며 이제 Adobe Campaign Classic에서 더 이상 사용되지 않습니다. [자세히 표시](deprecated-features.md)
+
+## 2021년 11월{#nov-2021}
+
+수신 SMS(MO)에 대한 제한을 추가했습니다. [자세히 표시](../../delivery/using/sms-protocol.md#multipart)
+
+CRM 커넥터 배포에 대한 마이그레이션 프로세스 로그 세부 정보를 업데이트했습니다. [자세히 표시](../../migration/using/testing-the-migration.md#verification-process)
+
+Adobe Campaign-Adobe Analytics 통합을 구현하기 위한 IMS 권한에 대한 요구 사항이 추가되었습니다. [자세히 표시](../../platform/using/adobe-analytics-provisioning.md)
+
+Adobe Analytics Data Connector 종료 날짜를 2022년 3월 1일에서 2022년 8월 17일로 업데이트했습니다. [자세히 표시](deprecated-features.md)
+
+Launch에서 Campaign 확장을 구성하는 방법을 학습하기 위해 Adobe Experience Platform 모바일 SDK 설명서에 대한 링크를 추가했습니다. [자세히 표시](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+
+JavaScript를 사용하여 값을 계산하고 데이터를 교환하며 SOAP 호출을 사용하여 특정 작업을 실행하는 방법에 대한 섹션을 추가했습니다.[자세히 표시](../../workflow/using/javascript-scripts-and-templates.md)
+
+워크플로우에 JavaScript 코드 구현 샘플이 추가되었습니다. [자세히 표시](../../workflow/using/javascript-in-workflows.md)
+
 
 ## 2021년 10월{#oct-2021}
 
