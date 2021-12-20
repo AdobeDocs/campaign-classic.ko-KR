@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+source-git-commit: cbafd70f5b5e964256edad0ce2965f3ed4650500
 workflow-type: tm+mt
-source-wordcount: '2559'
+source-wordcount: '2556'
 ht-degree: 88%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 88%
 ## 릴리스 7.1(21.1)
 
 >[!CAUTION]
->캠페인 **[!UICONTROL Help > About...]** 메뉴를 통해 [버전 및 빌드 번호](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). 그러나 이 페이지에 나열된 9277~9343 사이의 모든 빌드에 대해 버전 번호는 7.1 대신 7.0으로 설정됩니다.
+>캠페인 **[!UICONTROL Help > About...]** 메뉴를 통해 [버전 및 빌드 번호](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). 그러나 이 페이지에 나열된 9277~9343 사이의 모든 빌드에 대해 버전 번호는 7.1 대신 7.0을 보여줍니다.
 
 ### ![](assets/do-not-localize/green_2.png) 릴리스 21.1.4 - 빌드 9343 {#release-21-1-4-build-9343}
 
