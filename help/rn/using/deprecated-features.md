@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: f2cb3323bc5df3aae16a4ae4cf80c30bf53b006e
+source-git-commit: 8789571c9cf9ca857777fe5c03c355200c466789
 workflow-type: tm+mt
-source-wordcount: '1737'
-ht-degree: 97%
+source-wordcount: '1744'
+ht-degree: 96%
 
 ---
 
@@ -62,7 +62,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <td><p>Campaign 21.1 릴리스부터는 기술 게재성 모니터링 보고서가 더 이상 사용되지 않습니다.</p>
    <p>필요한 경우 기능 제거 날짜까지 이 보고서를 이메일로 매일 받을 수 있습니다. 요청하려면 특정 <a href="https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">지원 사례</a>를 열고 인스턴스 이름과 보고서를 보낼 이메일 주소를 지정합니다.</p> 
    <p>Adobe는 인스턴스 전달성 기능을 모니터링하는 최상의 도구를 정의할 경우 게재 팀에 참여할 것을 권합니다.</p>
-  <p><em>Target 제거 날짜: 2021년 말</em></p>
+  <p><em>Target 제거 날짜: 2022년 초</em></p>
   </td>
  </tr>
   <tr>
@@ -70,7 +70,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <td><p> Campaign 20.3 릴리스부터 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O로 이동되었습니다. <p>
   <p>트리거 통합을 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../integrations/using/configuring-adobe-io.md">자세히 알아보기</a></p> 
   <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지</a>를 참조하십시오</p> 
-  <p><em>Target 제거 날짜: 2021년 11월</em></p>
+  <p><em>Target 제거 날짜: 2021년 10월 20일. 호스팅된 환경은 2022년 2월 23일까지 확장의 혜택을 받습니다. </em></p>
   </td>
   </tr>
  </tbody> 
@@ -179,7 +179,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 
 19.1 릴리스부터 Adobe Campaign은 더 이상 다음 운영 체제와 호환되지 않습니다.
 
-* CentOS 6 [자세한 내용](https://wiki.centos.org/Download)
+* CentOS 6. [자세히 알아보기](https://wiki.centos.org/Download)
 * Debian 7. [자세히 알아보기](https://wiki.debian.org/DebianReleases)
 * RHEL 6.x. [자세한 내용](https://access.redhat.com/support/policy/updates/errata)
 * Windows Server 2008. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/1163)
