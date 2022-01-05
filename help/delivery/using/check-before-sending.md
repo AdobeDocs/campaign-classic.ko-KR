@@ -5,9 +5,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b174b8283d77a1b5eb535c0c46ba4a428bd66eef
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '882'
 ht-degree: 4%
 
 ---
@@ -95,6 +95,8 @@ Adobe Campaign 운영자 및 그룹과 같은 전체 유효성 검사 프로세�
 * 에서 [유형화](../../campaign-opt/using/about-campaign-typologies.md) 원하는 경우 **[!UICONTROL Managing affinities with IP addresses]** 해당 친화성을 관리하는 MTA(게재 서버)에 게재를 연결하는 필드입니다. [자세히 알아보기](../../campaign-opt/using/applying-rules.md#control-outgoing-smtp-traffic)
 
 * 이메일이 전송되면 헤더를 확인하여 게재가 보낸 IP 주소를 확인합니다. 이메일 관리자가 헤더 정보를 가져오는 데 도움이 되어야 합니다.
+
+* SMS 게재의 경우, SMS 채널에 전용 친화성이 다음으로 제한되었는지 확인하십시오 **하나** 응용 프로그램 서버 컨테이너 [자세히 알아보기](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
 
 >[!NOTE]
 >

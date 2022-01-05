@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 638b259462d3e01d744567e56d67a120359dc34a
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -96,7 +96,10 @@ ht-degree: 3%
 
    ![](assets/s_user_segmentation_toolbar.png)
 
-   고급 타깃팅 워크플로우 추적 및 실행과 관련된 아이콘은 다음 보기에서 자세히 설명합니다 [섹션](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
+   진행 및 로그 표시와 관련된 아이콘은 다음 섹션에 자세히 설명되어 있습니다.
+
+   * [진행 상태 표시](../../workflow/using/monitoring-workflow-execution.md#displaying-progress)
+   * [로그 표시](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)
 
 * **개체 정렬**
 

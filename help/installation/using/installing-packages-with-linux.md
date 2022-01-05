@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: c281d437907efb4d514bec7cacc698c383f3fe53
+source-git-commit: fbab510788abe0fccbbd791233c906e7f9d8d703
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -200,12 +200,11 @@ export neolane_LANG=fra
 
    * Debian
 
-      OOO_INSTALL_DIR, OOO_BASIS_INSTALL_DIR, OOO_URE_INSTALL_DIR에 대한 기본값이 제공됩니다. 에서 재정의할 수 있습니다. **customer.sh** LibreOffice 설치 레이아웃이 다른 경우:
+      OOO_INSTALL_DIR 및 OOO_BASIS_INSTALL_DIR에 대한 기본값이 제공됩니다. 에서 재정의할 수 있습니다. **customer.sh** LibreOffice 설치 레이아웃이 다른 경우:
 
       ```
       export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
       export OOO_INSTALL_DIR=/usr/lib/libreoffice/
-      export OOO_URE_INSTALL_DIR=/usr/lib/ure/share/
       ```
 
    * CentOs
@@ -215,7 +214,6 @@ export neolane_LANG=fra
       ```
       export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
       export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
-      export OOO_URE_INSTALL_DIR=/usr/lib64/libreoffice/ure/share/
       ```
 
 * Java 개발 키트(JDK)의 경우:

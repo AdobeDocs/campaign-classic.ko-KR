@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b174b8283d77a1b5eb535c0c46ba4a428bd66eef
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1697'
 ht-degree: 35%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 35%
    레거시 커넥터는 이제 사용되지 않습니다. 사용 중단되는 기능은 계속 사용할 수는 있지만 더 이상 향상 또는 지원되지 않습니다. [이 페이지](../../rn/using/deprecated-features.md)에서 자세히 알아보십시오.
 
 1. 이 외부 계정을 참조하는 게재 템플릿입니다.
+
+>[!NOTE]
+>
+> SMS 게재의 경우, 유형화에서 만든 특정 SMS 친화성을 사용해야 합니다. **하나** 전용 응용 프로그램 서버 컨테이너입니다. [자세히 알아보기](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
 
 ## SMPP 외부 계정 만들기 {#creating-an-smpp-external-account}
 

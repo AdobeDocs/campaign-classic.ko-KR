@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 5bcc0c06b5c189c4481366d0d283199d6813ecd3
+source-git-commit: e142bcc18dd22179d83c54b9e79d3e3339b005fa
 workflow-type: tm+mt
-source-wordcount: '2581'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -597,6 +597,7 @@ ht-degree: 99%
    + Annex {#annexes}
       + [Facebook 앱의 예](social/using/examples-of-facebook-apps.md)
       + [추적](social/using/tracking.md)
++ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 + 설치 및 구성 안내서 {#installing-campaign-classic}
    + 아키텍처 원칙 {#architecture-and-hosting-models}
       + [일반 아키텍처](installation/using/general-architecture.md)
@@ -854,3 +855,4 @@ ht-degree: 99%
    + Adobe Managed Services로 마이그레이션{#dc-migration}
       + [공개 클라우드로 마이그레이션](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
++ [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
