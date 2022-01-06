@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: 최신 릴리스
-description: 최신 Campaign Classic v7 릴리스 노트
+description: 최신 Campaign Classic v7 릴리스 정보
 feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: cbafd70f5b5e964256edad0ce2965f3ed4650500
+source-git-commit: 0a7cdd53640bb3d96ff9bc2de4aa4c1849e32c83
 workflow-type: tm+mt
-source-wordcount: '2556'
-ht-degree: 91%
+source-wordcount: '2580'
+ht-degree: 97%
 
 ---
 
@@ -181,18 +181,18 @@ _2021년 6월 5일_
 
 **사용되지 않는 기능**
 
-* 이제 ODBC 드라이버는 Adobe Campaign 타사 과 함께 직접 설치됩니다. 드라이버를 설치하는 데 더 이상 수동 단계가 필요하지 않습니다.
-* 이제 호스팅된 배포에 Google Big Query를 사용할 수 있습니다.
+* Campaign 21.1 릴리스부터 Adobe Analytics 데이터 커넥터는 사용 중단됩니다. 이 커넥터를 사용하는 경우 새로운 커넥터인 Adobe Analytics 커넥터에 맞게 구현을 조정해야 합니다.
+자세한 내용은 [세부 설명서](../../technotes/using/aa-connector-migration.md)를 참조하십시오.
+* Debian 8에 대한 지원은 이제 중단되었습니다.
+* 20.3에서 Oracle CRM의 사용 중단 이후, 관련 외부 계정이 인터페이스에서 제거되었습니다.
 
-[자세히 표시](../../installation/using/configure-fda.md)
+더 자세한 내용은 [사용되지 않거나 제거된 기능 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
 
 **개선 사항**
 
-* Microsoft Dynamics Connector 웹 API에 대한 중요 수정 사항이 적용되었습니다.
-   * 필터 조건에 조회 필드가 포함된 경우 Microsoft CRM에서 데이터 가져오기가 실패하거나 작동하지 않는 문제를 해결했습니다.
-   * 워크플로우에 의해 트리거된 가져오기 중에 문자열 유형 필드의 null 값이 빈 값 대신 Null로 저장되는 문제가 해결되었습니다.
-   * 웹 API 호출을 사용하여 데이터를 가져오거나 내보내는 데 다음 오류가 발생하는 문제를 수정했습니다. &quot;잘못된 URI: URI 체계가 너무 깁니다.&quot;
-   * Microsoft Dynamics 365에서 가져오는 동안 조회 필드 데이터를 가져올 수 없는 문제를 해결했습니다.
+* 워크플로우를 저장할 때 활동 이름이 고유하고 전환 뒤에 활동이 표시되는지 확인하기 위한 추가 검사가 추가되었습니다.
+* 이제 **청구(billing)** 기술 워크플로우에는 이전에 제거되었던 **활성 청구 프로필 수**(billingActiveContactCount) 워크플로우에서 원래 수행한 작업이 포함됩니다. 워크플로우가 매월 보내는 이메일 보고서는 이제 인스턴스의 활성 프로필 수에 대한 정보를 제공합니다. [자세한 내용](../../workflow/using/about-technical-workflows.md).
+* 메모 데이터 작업에 키를 사용할 수 있도록 새 **_keyOnMData** 특성이 추가되었습니다.
 
 **기타 변경 사항**
 

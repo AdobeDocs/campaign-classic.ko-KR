@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 8789571c9cf9ca857777fe5c03c355200c466789
+source-git-commit: 0a7cdd53640bb3d96ff9bc2de4aa4c1849e32c83
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 96%
+source-wordcount: '1707'
+ht-degree: 98%
 
 ---
 
@@ -84,14 +84,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
  <tbody>
   <tr> 
    <td><strong>영역 - 기능</strong></td>
-   <td><strong>교체</strong></td> 
-  </tr>
- <tr>  
-   <td>CRM 커넥터 활동<br></td>
-   <td><p> Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동을 더 이상 사용할 수 없습니다.</p>
-   <p>Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성하려면 CRM 커넥터 활동을 사용할 수 있습니다.</p>
-   <p><a href="../../workflow/using/crm-connector.md">자세히 알아보기</a></p>
-  </tr>
+   <td><strong>교체</strong></td>
   <tr>  
    <td>보고<br></td>
    <td><p>Adobe Flash Player EOL에 따라 측정 보고서 및 차트 렌더링 엔진을 더 이상 사용할 수 없습니다. <a href="../../reporting/using/creating-a-new-report.md">자세히 알아보기</a></p>
