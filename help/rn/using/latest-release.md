@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: e4dfdd32c07753ee9e202ab4e4bf815485e47d8b
+source-git-commit: 630a62c5e5c9782c5c55fdebd651493a2d68fc54
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1056'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ FDA 계정에 몇 가지 보안 기능이 개선되었습니다.
 * 이제 ODBC 드라이버는 Adobe Campaign 타사 과 함께 직접 설치됩니다. 이러한 드라이버를 설치하는 데 더 이상 수동 단계가 필요하지 않습니다.
 * 이제 FDA 외부 계정을 구성할 때 향상된 인증 보안을 위해 키 쌍 인증을 사용하여 Snowflake 계정에 로그인할 수 있습니다. [자세히 표시](../../installation/using/configure-fda-snowflake.md)
 * 이제 FDA 외부 계정을 구성할 때 시스템에서 할당한 관리 ID를 사용하여 Azure synapse Analytics 계정에 로그인할 수 있습니다. [자세히 표시](../../installation/using/configure-fda-synapse.md#azure-external)
-
+* 최적의 보안을 위해 log4j 라이브러리에 대한 모든 참조가 Campaign에서 제거되었습니다.
 
 **개선 사항**
 
@@ -55,6 +55,7 @@ FDA 계정에 몇 가지 보안 기능이 개선되었습니다.
 * 에 새로운 옵션이 추가되었습니다 **오류 관리** 워크플로우 활동 속성: 다음 **오류 시 중단** 옵션이 자동으로 워크플로우를 중지합니다. 나중에 다시 시작할 수 없습니다(NEO-29661). [자세히 표시](../../workflow/using/advanced-parameters.md#in-case-of-errors)
 * 이제 전용 시퀀스를 사용하여 수신자의 통계 그룹을 만드는 데 사용되는 nmsGroup 테이블의 기본 키를 생성합니다. 이전에는 xtknownId 시퀀스가 사용되었습니다. (NEO-30832)
 * CRM 커넥터 활동을 사용한 일괄 업데이트 작업에 대한 지원을 추가했습니다.
+* 트랜잭션 메시지 처리 시간에 대한 성능이 개선되었습니다. (NEO-40370)
 
 **패치**
 
