@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 오퍼 승인 및 활성화{#approving-and-activating-an-offer}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 오퍼 컨텐츠가 완료되고 나면 라이브 환경에 복제되고 배달되도록 하려면 오퍼 컨텐츠를 승인해야 합니다. 승인 은 오퍼 콘텐츠 및 해당 자격 조건과 관련이 있습니다.
 

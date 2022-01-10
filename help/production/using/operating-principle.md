@@ -6,9 +6,9 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 30f2451849dec0f640915e81c36d0a9c5f466d6c
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,6 @@ ht-degree: 1%
 | 과금 | 시스템 활동 보고서를 billing@neolane.net에 보내는 중 |
 | cleanup | 데이터베이스 정리: 데이터베이스에서 오래된 데이터를 삭제하고 데이터베이스 엔진 최적기에서 사용하는 통계 업데이트를 실행합니다. |
 | config | 서버 구성 수정 |
-| copybase | 데이터베이스 복사 |
 | 내보내기 | 명령줄에서 내보내기: 명령줄에서 Adobe Campaign 클라이언트 콘솔에서 만든 내보내기 모델을 보낼 수 있습니다. |
 | fileconvert | 설정된 크기 파일 변환 |
 | 가져오기 | 명령줄에서 가져오기: Adobe Campaign 클라이언트 콘솔에서 만든 가져오기 모델을 명령줄에서 보낼 수 있습니다. |

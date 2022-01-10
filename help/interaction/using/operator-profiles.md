@@ -6,9 +6,9 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '384'
 ht-degree: 5%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >오퍼 관리자는 특정 두 가지 경우에만 오퍼를 승인할 수 있습니다. 첫 번째 경우는 특히 아무도 검토자로 지정되지 않은 경우이고, 두 번째 경우는 템플릿을 만드는 운영자(검토자를 할당할 수 있는 권한 포함)가 오퍼를 기반으로 한 오퍼 템플릿의 검토자로 지정했는지 여부입니다.
+   >오퍼 관리자는 특정 두 가지 경우에만 오퍼를 승인할 수 있습니다. 첫 번째 경우는 특히 아무도 검토자로 지정되지 않은 경우이고, 두 번째 경우는 템플릿을 만드는 운영자(검토자를 할당할 권한이 있는)가 오퍼를 기반으로 한 오퍼 템플릿의 검토자로 지정했는지 여부입니다.
 
 ## 게재 관리자 {#delivery-manager}
 

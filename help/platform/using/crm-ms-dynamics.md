@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 2cdcd45fc142eb9ae9e32c17a67beb4eaf2d2953
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1104'
 ht-degree: 3%
 
 ---
@@ -136,7 +136,7 @@ Campaign Classic:
 1. From [Microsoft Azure](https://portal.azure.com)를 클릭하고 **관리 앱**.
 1. 이동 **사용자 > 활성 사용자** 새로 만든 사용자를 클릭합니다.
 1. 클릭 **제품 라이선스 편집** 을(를) 선택하고 을(를) 선택합니다. **Dynamics 365 고객 참여 계획**.
-1. 클릭 **닫기**.
+1. Click **Close**.
 
 **3단계**: Dynamics CRM에서 응용 프로그램 사용자 만들기
 
@@ -199,7 +199,7 @@ Microsoft Dynamics 365 및 Campaign을 연결하려면 전용 을 만들고 구�
 
 >[!NOTE]
 >
-> 다음 두 URL을에 추가해야 허용 목록에 추가하다 합니다. 서버 URL 및 `login.microsoftonline.com` ( 서버 구성)을 참조하십시오.
+> 다음 두 URL을에 추가해야 허용 목록에 추가하다 합니다. 서버 URL 및 `login.microsoftonline.com` ( 서버 구성)을 참조하십시오. URL 권한을 구성하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../../installation/using/url-permissions.md).
 
 ## 지원되는 필드 데이터 유형 {#ms-dyn-supported-types}
 

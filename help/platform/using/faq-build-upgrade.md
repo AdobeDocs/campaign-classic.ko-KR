@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '2024'
-ht-degree: 5%
+source-wordcount: '2023'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign은 정기적으로 업데이트됩니다. 저희 출판에 익숙
 
 고객이 최신 버전의 Adobe Campaign을 실행하는 것이 중요합니다. 또한 문제가 발생하는 경우 Adobe을 통해 일반적으로 이전 빌드에서 문제를 식별, 복제 및 수정하는 데 시간이 더 오래 걸립니다. 발생할 수 있는 일부 문제가 최근 빌드에서 이미 수정되었습니다.
 
-[!DNL Gold Standard] Campaign Classic 장기 지원 릴리스입니다. 호스팅된 [!DNL Gold Standard] 사용자는 아무런 조치 없이 최신 안정된 버전의 [!DNL Gold Standard] 업그레이드를 자동으로 활용할 수 있습니다. 온-프레미스 및 하이브리드 고객도 [!DNL Gold Standard] 릴리스를 활용할 수 있습니다. 이전 빌드에서 마이그레이션하는 경우 먼저 이 버전으로 업그레이드하는 것이 좋습니다. [자세히 알아보기](../../rn/using/gs-overview.md)
+호스팅된 사용자는 아무런 조치 없이 최신 안정된 버전의 Campaign 연간 업그레이드를 자동으로 활용할 수 있습니다. 온-프레미스 및 하이브리드 고객도 이 릴리스를 활용할 수 있습니다. 이전 빌드에서 마이그레이션하는 경우 먼저 이 버전으로 업그레이드하는 것이 좋습니다. [자세히 알아보기](../../rn/using/rn-overview.md)
 
 ## 빌드 업그레이드란 무엇입니까?
 
@@ -206,4 +206,4 @@ RT(메시지 센터)에 대해 업그레이드가 발생하면 인스턴스에�
 * [빌드 업그레이드 수행](../../production/using/build-upgrade.md)
 * [Campaign Classic 릴리스 노트](../../rn/using/rn-overview.md)
 * [Campaign Classic 도움말 및 지원 옵션](../../support.md)
-* [[!DNL Gold Standard] 프로그램](../../rn/using/gs-overview.md)
+* [연간 업그레이드 프로그램](../../rn/using/rn-overview.md#yearly-upgrade)

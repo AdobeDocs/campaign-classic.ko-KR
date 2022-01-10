@@ -1,25 +1,28 @@
 ---
 product: campaign
-title: '[!DNL Gold Standard] 릴리스 정보'
-description: Campaign Classic  [!DNL Gold Standard]에 대한 릴리스 정보
+title: '[!DNL Gold Standard] 릴리스'
+description: Campaign Classic에 대한 릴리스 노트 및 호환성 매트릭스 [!DNL Gold Standard]
 feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 86eb9814fae42992b5ca0ce233f88ad90086007d
+source-git-commit: f20ac97be9390fd7e6fd6a6c4d738c0fde9c72c3
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 97%
+source-wordcount: '1676'
+ht-degree: 95%
 
 ---
 
-# [!DNL Gold Standard] 릴리스 정보{#gold-standard}
+# [!DNL Gold Standard] 릴리스{#gold-standard}
 
 ![](../../assets/v7-only.svg)
 
-이 페이지에는 [!DNL Gold Standard] 릴리스가 나열됩니다. [이 페이지](gs-overview.md)에서 Campaign [!DNL Gold Standard]에 대해 자세히 알아보십시오.
+이 페이지 릴리스 노트 및 호환성 매트릭스에서 다음을 찾을 수 있습니다. [!DNL Gold Standard] 릴리스.
 
-## ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 12 릴리스{#gs-12}
+## [!DNL Gold Standard]년 릴리스 정보
+
+
+### ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 12 릴리스{#gs-12}
 
 _2021년 9월 7일_
 
@@ -34,7 +37,7 @@ _2021년 8월 27일_
 * 서드파티 도구(이메일 클라이언트, 인터넷 브라우저 등)의 특수문자 처리 방식과 관련된 오류를 방지하기 위해 추적 서명 기능이  개선되었습니다. 이제 URL 매개 변수가 인코딩됩니다.
 * 콘솔에 차단기 오류 메시지가 표시될 수 있는 날짜 선택기 문제가 해결되었습니다. (NEO-36345)
 
-## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] 11 릴리스{#gs-11}
+### ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 11 릴리스{#gs-11}
 
 _2021년 4월 14일_
 
@@ -80,7 +83,7 @@ _2020년 12월 22일_
 
 * **보강** 활동을 실행할 때 워크플로우가 실패할 수 있는 문제를 해결했습니다. (NEO-17338)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 10 릴리스{#gs-10}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 10 릴리스{#gs-10}
 
 _2020년 7월 7일_
 
@@ -92,7 +95,7 @@ _2020년 7월 7일_
 >
 >이 릴리스에서 사용할 수 있는 클라이언트 콘솔을 업그레이드하는 것이 좋습니다. [이 페이지](../../installation/using/installing-the-client-console.md)를 참조하십시오
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 9 릴리스{#gs-9}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 9 릴리스{#gs-9}
 
 _2020년 6월 22일_
 
@@ -108,7 +111,7 @@ _2020년 6월 22일_
 * 피싱 방지 서비스 문제를 해결했습니다. (NEO-25283)
 * 특정 사용자 지정 추적 공식을 사용할 때의 추적 문제를 해결했습니다. (NEO-25277)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 8 릴리스{#gs-8}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 8 릴리스{#gs-8}
 
 _2020년 4월 29일_
 
@@ -133,7 +136,7 @@ _2020년 4월 29일_
 * 정리 워크플로우가 충돌하는 회귀 문제를 해결했습니다.
 * 정리 워크플로우 로그에서 사소한 회귀 문제를 해결했습니다.
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 6 릴리스{#gs-6}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 6 릴리스{#gs-6}
 
 _2020년 3월 9일_
 
@@ -141,7 +144,7 @@ _2020년 3월 9일_
 
 * SSL을 통해 FTP를 사용하는 외부 계정 문제를 해결했습니다. (NEO-20498)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 5 릴리스{#gs-5}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 5 릴리스{#gs-5}
 
 _2019년 12월 17일_
 
@@ -149,7 +152,7 @@ _2019년 12월 17일_
 
 * 모바일(SMS, MMS), 푸시(iOS, Android) 및 소셜 네트워크(Facebook, Twitter)와 같은 통신 채널의 추적 문제를 해결했습니다. (NEO-19595)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 4 릴리스{#gs-4}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 4 릴리스{#gs-4}
 
 _2019년 12월 11일_
 
@@ -157,7 +160,7 @@ _2019년 12월 11일_
 
 * MSSQL 데이터베이스를 사용하여 메시지를 전송할 때 성능 문제를 해결했습니다. (NEO-17558)
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 3 릴리스{#gs-3}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 3 릴리스{#gs-3}
 
 _2019년 11월 20일_
 
@@ -167,7 +170,7 @@ _2019년 11월 20일_
 * 다중 게재에 대한 누적 보고서를 표시할 때 발생하는 문제를 해결했습니다. (NEO-18165)
 * 웹 서버 충돌을 차단하거나 야기할 수 있는 문제를 해결했습니다.
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 2 릴리스{#gs-2}
+### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 2 릴리스{#gs-2}
 
 _2019년 9월 19일_
 
@@ -176,7 +179,7 @@ _2019년 9월 19일_
 * Salesforce용 CRM 커넥터를 사용하는 경우 발생하는 문제를 해결했습니다. (NEO-17712)
 * 트랜잭션 메시지를 보낼 때 성능 문제가 발생할 수 있는 인덱스 문제를 해결했습니다.
 
-## ![](assets/do-not-localize/red_2.png) 릴리스 19.1.4 - 빌드 9032{#release-19-1-4-build-9032}
+### ![](assets/do-not-localize/red_2.png) 릴리스 19.1.4 - 빌드 9032{#release-19-1-4-build-9032}
 
 _2019년 8월 13일_
 
@@ -187,3 +190,364 @@ _2019년 8월 13일_
 * API 호출에서 유효하지 않거나 만료된 세션 토큰이 사용된 경우 잘못된 HTTP 코드(HTTP 403 대신 HTTP 200 OK)가 반환되는 문제를 해결했습니다. (NEO-16826)
 * DKIM 키가 더 이상 전자 메일에 포함되지 않아 게재 문제가 발생하는 문제를 해결했습니다. (NEO-16804)
 * 워크플로우 예약과 관련된 다양한 문제를 해결했습니다. 워크플로우는 스케줄러 구성을 고려하지 않고 하루에 한 번 실행되도록 예약되었습니다. (NEO-16619, NEO-16426)
+
+
+## [!DNL Gold Standard] 호환성 매트릭스{#compatibility-matrix-gs}
+
+이 섹션에는 지원되는 모든 시스템 및 구성 요소가 나열됩니다. **Adobe Campaign Classic[!DNL Gold Standard]** 19.1 빌드. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign 버전과 호환되지 않습니다.
+
+>[!CAUTION]
+>별도로 언급되지 않는 한 모든 부 릴리스가 지원됩니다.
+>
+>Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구와 호환됩니다. 이러한 타사 시스템 및 도구의 특정 버전이 각각의 작성자와 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며 이후 제품 릴리스의 호환성 매트릭스에서 제거됩니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
+
+### 운영 체제{#OperatingSystems-gs}
+
+<table> 
+<tbody> 
+<tr> 
+<td>CentOs</td>
+<td>
+<p>8.x(64비트)</p>
+<p>7.x(64비트)</p>
+</td>
+</tr>
+<tr>
+<td>Debian</td>
+<td>
+<p>9(64비트)</p>
+<p>8(64비트)</p>
+</td>
+</tr>
+<tr>
+<td>RHEL</td>
+<td>
+<p>7.x(64비트)</p>
+<p><strong>중요:</strong> RHEL을 사용하는 경우 SELinux를 비활성화하거나 설계자가 사용자 지정 SELinux 규칙을 작성하여 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인해야 합니다.</p>
+</td>
+</tr>
+<tr>
+<td>Windows Server</td>
+<td>
+<p>2016</p>
+<p>2012 R2</p>
+<p>2012</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 웹 서버{#WebServers-gs}
+
+<table>
+<tbody>
+<tr>
+<td>Microsoft IIS</td>
+<td>
+<p>Windows Server 2016의 10.0</p>
+<p>Windows Server 2012 R2의 8.5</p>
+<p>Windows Server 2012의 8.0 - Windows 8</p>
+</td>
+</tr>
+<tr>
+<td>Apache</td>
+<td>
+<p>RHEL7용 2.4 - CentOS 7, Debian 8/9, Windows(64비트)</p>
+<p>RHEL6용 2.2 - CentOS 6만(64비트)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 도구{#Tools-gs}
+
+<table>
+<tbody>
+<tr>
+<td>JDK(Java Development Kit)</td>
+<td>
+<p>8</p>
+<p>이 애플리케이션은 OpenJDK뿐만 아니라 Oracle에서 개발한 JDK(Java Development Kit)에 대해 승인되었습니다.</p>
+</td>
+</tr>
+<tr>
+<td>Libre Office</td>
+<td>
+<p>6(시스템에 임베드된 경우 이전 버전)</p>
+</td>
+</tr>
+<tr>
+<td>SpamAssassin</td>
+<td>
+<p>3.4.x</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### RDBMS 서버{#RDBMSservers-gs}
+
+>[!NOTE]
+>
+>RDBMS 드라이버는 RDBMS 서버 버전과 일치해야 합니다.
+
+<table>
+<tbody>
+<tr>
+<td>Oracle</td>
+<td>
+<p>18c</p>
+<p>12c</p>
+<p>11g R2</p>
+</td>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td>
+<p>11.x</p>
+<p>10.x</p>
+<p>9.6.x</p>
+<p>9.5.x</p>
+<p>9.4.x</p>
+<p>참고: 위에 지정된 버전으로 PostgreSQL용 Amazon RDS를 사용할 수도 있습니다.</p>
+</td>
+</tr>
+<tr>
+<td>SQL Server</td>
+<td>
+<p>2019</p>
+<p>2017</p>
+<p>2016년</p>
+<p>2014</p>
+<p>2012 - SP1 및 SP2</p>
+<p>경고: Adobe Campaign 서버가 Linux에서 실행 중이면 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다.</p>
+</td>
+</tr>
+<tr>
+<td>DB2 UDB</td>
+<td>
+<p>9.7</p>
+<p>경고: DB2 UDB는 새 설치에 허용되지 않습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+>[!NOTE]
+>
+>PostgreSQL은 호스팅 환경을 위한 기본 데이터베이스 서버입니다.
+
+### CRM 커넥터{#CRMconnectors-gs}
+
+<table>
+<tbody>
+<tr>
+<td>Salesforce 커넥터 API</td>
+<td>
+<p>API 버전 37</p>
+</td>
+</tr>
+<tr>
+<td>SFDC API</td>
+<td>
+<p>API 버전 21</p>
+<p>API 버전 15</p>
+</td>
+</tr>
+<tr>
+<td>Microsoft Dynamics</td>
+<td>
+<p>Soap API - 온-프레미스: 2007년, 2015년, 2016년</p>
+<p>Soap API - 온라인: 2015년, 2016년</p>
+<p>웹 API - 온-프레미스 및 온라인: 365, 2016, 2016 업데이트 1</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### FDA(Federated Data Access){#FederatedDataAccessFDA-gs}
+
+<table>
+<tbody>
+<tr>
+<td>Amazon Redshift</td>
+<td><p> </p>
+</td>
+</tr>
+<tr>
+<td>Oracle</td>
+<td>
+<p>12c</p>
+<p>11g</p>
+</td>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td>
+<p>11.x</p>
+<p>10.x</p>
+<p>9.6.x</p>
+<p>9.4.x</p>
+</td>
+</tr>
+<tr><td>SQL Server</td>
+<td>
+<p>2019년</p>
+<p>2017년</p>
+<p>2016년</p>
+<p>2014년</p>
+<p>2012 SP1 및 SP2</p>
+</td>
+</tr>
+<tr><td>MySQL</td>
+<td>
+<p>5.7</p>
+</td>
+</tr>
+<tr>
+<td>Teradata</td>
+<td>
+<p>16.20</p>
+<p>16</p>
+<p>15.10</p>
+<p>15.0</p>
+</td>
+</tr>
+<tr>
+<td>Netezza</td>
+<td>
+<p>7.2</p>
+</td>
+</tr>
+<tr>
+<td>Sybase</td>
+<td>
+<p>IQ 16</p>
+<p>ASE 15.7</p>
+</td>
+</tr>
+<tr>
+<td>SAP HANA</td>
+<td>
+<p>버전 1 SPS 12</p>
+</td>
+</tr>
+<tr><td>Hadoop via HiveSQL</td>
+<td>
+<p>HortonWorks HDP 2.4.X, 2.5.x, 2.6.x</p>
+<p>HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
+
+:warning: Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
+
+### 운영 체제
+
+<table>
+<tbody>
+<tr>
+<td>Microsoft Windows Server</td>
+<td>
+<p>2016년</p>
+<p>2012년</p>
+</td>
+</tr>
+<tr>
+<td>Microsoft Windows</td>
+<td>
+<p>8</p>
+<p>10(일본어 인스턴스에 권장)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+#### 브라우저
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Internet Explorer</p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 모바일 SDK{#MobileSDK}
+
+<table>
+<tbody>
+<tr>
+<td>Android</td>
+<td>
+<p>7.x, 8.x, 9.0</p>
+<p>모바일 SDK 빌드 1.0.27과 함께 사용할 수 있습니다.</p>
+</td>
+</tr>
+<tr>
+<td>iOS</td>
+<td>
+<p>iOS 9 - 14</p>
+<p>모바일 SDK 빌드 1.0.26과 함께 사용할 수 있으며 32비트 및 64비트 버전 호환됩니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 브라우저{#Browsers}
+
+다음 브라우저는 웹 액세스에 대한 Campaign과 호환됩니다.
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge</p>
+</td>
+<td>
+<p>최신 버전</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Mozilla Firefox</p>
+</td>
+<td>
+<p>최신 버전</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Google Chrome</p>
+</td>
+<td>
+<p>최신 버전</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Safari</p>
+</td>
+<td>
+<p>최신 버전</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Microsoft Internet Explorer</p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>

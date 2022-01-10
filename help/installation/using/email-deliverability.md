@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '3023'
 ht-degree: 0%
@@ -174,7 +174,7 @@ user:~ user$ host -t a mta5.am0.yahoodns.net
                 mta5.am0.yahoodns.net has address 98.138.112.35
 ```
 
-이 레코드의 경우 사용자는 8개의 피어 IP 주소에 연결할 수 있습니다. 사용자에게 2개의 공개 IP 주소가 있으므로 yahoo.com 메일 서버에 연결할 수 있도록 8 * 2 = 16개의 조합을 제공합니다. 이러한 각 조합을 경로라고 합니다.
+이 레코드의 경우 사용자는 8개의 피어 IP 주소에 연결할 수 있습니다. 사용자에게 2개의 공개 IP 주소가 있으므로 8 * 2 = 16개의 조합을 제공하여 yahoo.com 메일 서버에 연결합니다. 이러한 각 조합을 경로라고 합니다.
 
 두 번째 MX 레코드가 다음과 같이 나타납니다.
 

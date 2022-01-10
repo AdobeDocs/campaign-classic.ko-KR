@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 운영자 포럼에 액세스하려면
 
 * 에 액세스하는 데 필요한 권한이 있는 경우 **[!UICONTROL Administration > Access management > Operators]** 탐색기의 노드에서 원하는 연산자의 대시보드를 열고 **[!UICONTROL Forum]** 오른쪽 상단 모서리에 연결합니다.
-* 그렇지 않은 경우 Adobe Campaign에서 운영자 이름(이 연산자가 포럼에 게시한 메시지를 통해, 할당된 작업)을 찾아 해당 대시보드에 액세스하려면 이 연산자를 클릭하십시오. 관리자에게 운영자 폴더의 보기를 만들도록 요청할 수도 있습니다.
+* 없는 경우 Adobe Campaign에서 운영자 이름(이 연산자가 포럼에 게시한 메시지를 통해, 할당되는 작업을 통해)을 찾아 해당 대시보드에 액세스하려면 이 연산자를 클릭하십시오. 관리자에게 운영자 폴더의 보기를 만들도록 요청할 수도 있습니다.
 
 ## 포럼 구독 {#subscribing-to-a-forum}
 

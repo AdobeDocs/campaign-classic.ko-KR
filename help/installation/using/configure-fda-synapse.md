@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 9265d389da53e51889c2b7a8cd330c1866a030d9
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 1%
+source-wordcount: '731'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ![](../../assets/v7-only.svg)
 
-캠페인 사용 [페더레이션 데이터 액세스](../../installation/using/about-fda.md) (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 Microsoft Azure synapse Analytics에 대한 액세스를 구성하십시오.
+캠페인 사용 [페더레이션 데이터 액세스](../../installation/using/about-fda.md) (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 액세스 권한을 구성하십시오 **Microsoft Azure synapse 분석**.
 
 1. azure synapse 구성 [CentOS](#azure-centos), [Windows](#azure-windows) 또는 [데비안](#azure-debian)
 1. azure synapse 구성 [외부 계정](#azure-external) in Campaign
@@ -191,7 +191,6 @@ Debian에서 Azure synapse을 구성하려면 다음을 수행하십시오.
    >
    >Analytics Azure synapse 측에서 통신할 수 있도록 하려면 공개 IP를에 추가해야 할 수 허용 목록에 추가하다 있습니다. 이렇게 하려면 다음을 참조하십시오 [Azure 설명서](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
-
 ## 외부 계정 azure synapse {#azure-external}
 
 다음 [!DNL Azure Synapse] 외부 계정을 사용하면 Campaign 인스턴스를 Azure synapse 외부 데이터베이스에 연결할 수 있습니다.
@@ -206,14 +205,34 @@ Debian에서 Azure synapse을 구성하려면 다음을 수행하십시오.
 
    ![](assets/azure_1.png)
 
-1. 구성 [!DNL Azure Synapse] 외부 계정입니다. 다음을 지정해야 합니다.
+1. 아래 **[!UICONTROL Configuration]**, 선택 **[!UICONTROL Azure Synapse Analytics]** 에서 **[!UICONTROL Type]** 드롭다운.
 
-   * **[!UICONTROL Type]**: azure synapse 분석
+   ![](assets/azure_2.png)
 
-   * **[!UICONTROL Server]**: azure synapse 서버의 URL
+1. 구성 [!DNL Azure Synapse] 외부 계정:
 
-   * **[!UICONTROL Account]**: 사용자의 이름
+   * 표준 인증의 경우 다음을 지정해야 합니다.
 
-   * **[!UICONTROL Password]**: 사용자 계정 암호
+      * **[!UICONTROL Server]**: azure synapse 서버의 URL
 
-   * **[!UICONTROL Database]**: 데이터베이스 이름
+      * **[!UICONTROL Account]**: 사용자의 이름
+
+      * **[!UICONTROL Password]**: 사용자 계정 암호
+
+      * **[!UICONTROL Database]**: 데이터베이스 이름
+
+      ![](assets/azure_3.png)
+
+   * 시스템 지정 관리 ID 인증의 경우 다음을 지정해야 합니다.
+
+      * **[!UICONTROL Server]**: azure synapse 서버의 URL
+
+      * **[!UICONTROL Database]**: 데이터베이스 이름
+
+      * **[!UICONTROL Options]**: 다음 구문을 추가합니다 `Authentication=ActiveDirectoryMsi`
+
+      ![](assets/azure_4.png)
+
+
+
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.

@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: a5f6478d3c0780464974053e389923614abba582
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign에서 데이터 스키마는 다음 용도로 사용됩니다.
 
 ## 사용자 지정 수신자 테이블을 사용하는 방법  {#how-to-use-a-custom-recipient-table-}
 
-Campaign에서 비표준 수신자 테이블을 만들고 구현하여 메시지를 보낼 수 있습니다.
+Campaign에서 빌드되지 않은 수신자 테이블을 만들고 구현하여 메시지를 보낼 수 있습니다.
 
 [여기를 클릭하여 자세한 내용을 확인하세요](../../configuration/using/about-custom-recipient-table.md)
 
@@ -65,4 +65,4 @@ Campaign 구성을 가져오고 내보내는 데이터 패키지를 사용하여
 
 ## Campaign Classic API 목록은 어디에서 찾을 수 있습니까? {#where-can-i-find-the-list-of-campaign-classic-apis}
 
-전체 설명을 포함한 모든 캠페인 API는 이 [전용 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html)에서 사용할 수 있습니다.
+전체 설명을 포함한 모든 캠페인 API는 이 [전용 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)에서 사용할 수 있습니다.

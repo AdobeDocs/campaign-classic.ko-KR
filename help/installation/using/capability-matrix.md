@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: 1f8a51fc7760e8dcdf369cb759de724b0e7bea0c
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '293'
 ht-degree: 20%
 
 ---
@@ -47,8 +47,7 @@ Adobe Campaign은 다음을 제공합니다 **페더레이션 데이터 액세�
 
 >[!CAUTION]
 >
->FDA를 통해 외부 데이터베이스에 액세스하는 것은 를 제외하고 온-프레미스 또는 하이브리드 설치에 대해서만 가능합니다 [Snowflake 커넥터](../../installation/using/configure-fda-snowflake.md).
-
+>호환되는 외부 데이터베이스 시스템은 호스팅 모델에 따라 다릅니다. 추가 정보 [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md).
 
 **또한 다음을 참조하십시오**
 
@@ -57,4 +56,3 @@ Adobe Campaign은 다음을 제공합니다 **페더레이션 데이터 액세�
 * [Campaign Classic 업그레이드](../../rn/using/rn-overview.md)
 * [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md)
 * [[!DNL Gold Standard] 릴리스](../../rn/using/gold-standard.md)
-* [[!DNL Gold Standard] 프로그램](../../rn/using/gs-overview.md)

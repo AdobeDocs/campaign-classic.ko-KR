@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 6c5cac3ccc60deb5940c785c9cb8b08f5938fe62
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '259'
+ht-degree: 51%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 새로운 기능
 
-* **[10월 릴리스가 라이브입니다!](rn/using/latest-release.md)**<br/> 릴리스 노트의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오
+* **[1월 릴리스가 출시되었습니다!](rn/using/latest-release.md)**<br/> 릴리스 노트의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오
 
 * **[Apple 메일 개인 정보 보호 FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ko)** 및 **[기술 정보](technotes/using/apple-mail-app-privacy-protection.md)**<br/> iOS 15에 대한 Apple의 발표에 대한 응답으로 지침을 찾습니다
 
@@ -83,6 +83,6 @@ ht-degree: 0%
 | [릴리스 정보](rn/using/latest-release.md) | [오류 메시지 목록](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko) |
 | [사용법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko) | [Campaign 데이터 모델](configuration/using/about-data-model.md) |
 | [호환성 매트릭스](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html) |
-| [[!DNL Gold Standard] 업그레이드](rn/using/gs-overview.md) | [추적 가이드](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html) |
+| [업그레이드 시작](rn/using/rn-overview.md) | [추적 가이드](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html) |
 | [사용되지 않는 기능](rn/using/deprecated-features.md) | [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html) |
 | [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko) | [모니터링 지침](production/using/monitoring-guidelines.md) |

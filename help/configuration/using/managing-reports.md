@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # 보고서 관리{#managing-reports}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 기본 Adobe Campaign 수신자(nm:recipient 또는 schema linked)에 해당하는 스키마를 기반으로 하는 보고서(nm:recipient 또는 schema linked)는 사용자 지정 테이블의 데이터와 대상 매핑을 통해 연결된 테이블의 데이터를 고려하여 다시 개발해야 합니다(참조: [대상 매핑](../../configuration/using/target-mapping.md) 섹션).
 

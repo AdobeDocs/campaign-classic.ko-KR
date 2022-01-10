@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: e142bcc18dd22179d83c54b9e79d3e3339b005fa
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2556'
+ht-degree: 98%
 
 ---
 
@@ -22,10 +22,8 @@ ht-degree: 0%
    + [업그레이드 시작](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
    + 이전 릴리스 {#previous-releases}
-      + [!DNL Gold Standard] 릴리스 {#gs-release}
-         + [ [!DNL Gold Standard]이란?](rn/using/gs-overview.md)
-         + [[!DNL Gold Standard] 릴리스 정보](rn/using/gold-standard.md)
-         + [[!DNL Gold Standard] 호환성 매트릭스](rn/using/compatibility-matrix-gs.md)
+      + [[!DNL Gold Standard]](rn/using/gold-standard.md)
+      + [2021년](rn/using/release--2021.md)
       + [2020년](rn/using/release--2020.md)
       + [2019](rn/using/release--2019.md)
       + [2018](rn/using/release--2018.md)
@@ -597,7 +595,6 @@ ht-degree: 0%
    + Annex {#annexes}
       + [Facebook 앱의 예](social/using/examples-of-facebook-apps.md)
       + [추적](social/using/tracking.md)
-+ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 + 설치 및 구성 안내서 {#installing-campaign-classic}
    + 아키텍처 원칙 {#architecture-and-hosting-models}
       + [일반 아키텍처](installation/using/general-architecture.md)
@@ -821,23 +818,15 @@ ht-degree: 0%
       + [모든 방문 수집](configuration/using/collecting-all-visits.md)
       + [익명 추적](configuration/using/anonymous-tracking.md)
 + 마이그레이션 안내서 {#migrating-to-a-new-version}
-   + 마이그레이션 개요 {#migration-overview}
-      + [마이그레이션 정보](migration/using/about-migration.md)
-      + [마이그레이션 메서드](migration/using/migration-method.md)
-      + [마이그레이션 경고](migration/using/migration-warnings.md)
+   + [Adobe Campaign v7로 마이그레이션](migration/using/about-migration.md)
    + 마이그레이션 절차 {#migration-procedure}
-      + [마이그레이션을 시작하기 전](migration/using/before-starting-migration.md)
-      + [마이그레이션 테스트](migration/using/testing-the-migration.md)
-      + [플랫폼 구성](migration/using/configuring-your-platform.md)
-   + Adobe Campaign 7으로 마이그레이션 {#migrating-to-adobe-campaign-7}
-      + [Adobe Campaign 7으로 마이그레이션하기 위한 사전 요구 사항](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
-      + [Windows에서 Adobe Campaign 7으로 마이그레이션](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
-      + [Linux에서 Adobe Campaign v7으로 마이그레이션](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-   + 구성 {#configuration}
-      + [일반 구성](migration/using/general-configurations.md)
-      + [v5.11의 특정 구성](migration/using/specific-configurations-in-v5-11.md)
-      + [v6.02의 특정 구성](migration/using/specific-configurations-in-v6-02.md)
-      + [v6.10의 특정 구성](migration/using/specific-configurations-in-v6-10.md)
+      + [필수 구성 요소](migration/using/before-starting-migration.md)
+      + [마이그레이션 테스트 기본 정보](migration/using/testing-the-migration.md)
+      + [구성 조정](migration/using/configuring-your-platform.md)
+   + 마이그레이션 시작 {#migrating-to-adobe-campaign-7}
+      + [Microsoft Windows 플랫폼 마이그레이션](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
+      + [Linux 플랫폼 마이그레이션](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
+      + [플랫폼 구성](migration/using/general-configurations.md)
    + [롤백 절차](migration/using/about-rollback.md)
 + 기술 노트 {#technotes}
    + [하드웨어 크기 조정 권장 사항](technotes/using/hardware-sizing.md)
@@ -855,4 +844,4 @@ ht-degree: 0%
    + Adobe Managed Services로 마이그레이션{#dc-migration}
       + [공개 클라우드로 마이그레이션](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
-+ [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
++ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)

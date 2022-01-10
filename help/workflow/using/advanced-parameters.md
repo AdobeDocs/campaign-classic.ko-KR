@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 7a1b8a1cd3ad434dac5c324056113d7ec15ddd8a
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 2%
+source-wordcount: '501'
+ht-degree: 1%
 
 ---
 
@@ -73,8 +73,9 @@ ht-degree: 2%
 
 이 필드를 사용하면 활동에 오류가 있을 때 수행할 작업을 정의할 수 있습니다. 다음 두 가지 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL Stop the process]**: 워크플로우가 자동으로 중지됩니다. 상태가 **[!UICONTROL Failed]**. 문제가 해결되면 워크플로우를 다시 시작합니다.
+* **[!UICONTROL Suspend the process]**: 워크플로우가 자동으로 중지됩니다. 상태가 **[!UICONTROL Failed]**. 문제가 해결되면 워크플로우를 다시 시작합니다.
 * **[!UICONTROL Ignore]**: 이 작업과 다음 작업(동일한 분기에 있음)이 모두 실행되지 않습니다. 이 기능은 반복 작업에 유용할 수 있습니다. 분기에 업스트림에 스케줄러가 있으면 다음 실행 날짜에 평소대로 시작됩니다.
+* **[!UICONTROL Abort on error]**: 워크플로우는 자동으로 중지되며 다시 시작할 수 없습니다. 상태가 **[!UICONTROL Failed]**.
 
 ## 초기화 스크립트 {#initialization-script}
 

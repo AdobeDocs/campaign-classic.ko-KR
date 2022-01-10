@@ -6,9 +6,9 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '839'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Adobe Campaign의 모든 웹 양식(데이터베이스 필드 및 로컬 변수)
 
 이 필드를 목록에 사용하면 열거형의 값을 **[!UICONTROL Initialize the list of values from the database]** 값 목록 위에 연결합니다.
 
-예를 들어, 사용자가 자신의 기본 언어를 선택할 수 있는 드롭다운 목록을 만들 수 있습니다. 해당 보관된 필드는 **언어** 언어 목록이 포함된 열거형:
+예를 들어 사용자가 기본 언어를 선택할 수 있는 드롭다운 목록을 만들 수 있습니다. 해당 보관된 필드는 **언어** 언어 목록이 포함된 열거형:
 
 ![](assets/s_ncs_admin_survey_database_values_2b.png)
 

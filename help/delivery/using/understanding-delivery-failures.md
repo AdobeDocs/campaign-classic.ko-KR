@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '2614'
 ht-degree: 14%
@@ -92,7 +92,7 @@ ht-degree: 14%
    <td> 받는 사람의 주소가 컨트롤 그룹의 일부입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 이중 </td> 
+   <td> 더블 </td> 
    <td> 무시됨 </td> 
    <td> 10 </td> 
    <td> 받는 사람의 주소가 이미 이 게재에 있습니다.<br /> </td> 
@@ -300,7 +300,7 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날
 
 >[!NOTE]
 >
->사용자는 자신의 규칙을 만들 수 있습니다. 패키지를 가져올 때와 를 통해 데이터를 업데이트할 때 **게재 능력을 위해 새로 고침** 워크플로우에서 사용자가 만든 규칙을 덮어씁니다.
+>사용자는 자체 규칙을 만들 수 있습니다. 패키지를 가져올 때와 를 통해 데이터를 업데이트할 때 **게재 능력을 위해 새로 고침** 워크플로우에서 사용자가 만든 규칙을 덮어씁니다.
 
 반송 메일 자격에 대한 자세한 내용은 [이 섹션](#bounce-mail-qualification).
 

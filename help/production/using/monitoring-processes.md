@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '3606'
 ht-degree: 0%
@@ -345,7 +345,7 @@ PublicId로 분류됩니다. 이 식별자는 라우터 뒤에 있는 여러 Ado
 
 ![](assets/billing.png)
 
-매월 25일마다 워크플로우가 시작되면, 청구 운영자는 다음 보고서를 받은 편지함에서 받게 됩니다.
+매월 25일마다 워크플로우가 시작되면, 청구 운영자는 받은 편지함에서 다음 보고서를 받게 됩니다.
 
 ![](assets/billing_2.png)
 

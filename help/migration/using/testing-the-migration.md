@@ -6,10 +6,10 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 9ba2199eabf91381e87661f30c9af8aa0ce4cc26
+source-git-commit: 59a2bc62b4c03ef0702cb57bd9dc808e7d0b444b
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 1%
+source-wordcount: '755'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 구성에 따라 마이그레이션 테스트를 수행하는 방법에는 몇 가지가 있습니다.
 
-마이그레이션 테스트를 수행하려면 테스트/개발 환경이 있어야 합니다. 개발 환경은 라이센스 대상입니다. 라이선스 계약을 확인하거나 Adobe Campaign의 영업 서비스에 문의하십시오.
+마이그레이션 테스트를 수행하려면 테스트/개발 환경이 있어야 합니다. Adobe Campaign 환경에는 라이센스가 적용됩니다. 라이선스 계약을 확인하거나 Adobe 담당자에게 문의하십시오.
 
 1. 진행 중인 모든 개발 작업을 중지하고 프로덕션 환경으로 이동하십시오.
 1. 개발 환경 데이터베이스를 백업하십시오.
@@ -39,18 +39,12 @@ ht-degree: 1%
 
 1. 백업을 복원하여 백업이 올바른지 확인합니다. 데이터베이스, 테이블, 데이터 등에 액세스할 수 있는지 확인합니다.
 1. 개발 환경에서 마이그레이션 절차를 테스트합니다.
-
-   전체 절차는 [Adobe Campaign 7으로 마이그레이션하기 위한 사전 요구 사항](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) 섹션을 참조하십시오.
-
 1. 개발 환경의 마이그레이션이 성공하면 프로덕션 환경을 마이그레이션할 수 있습니다.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >데이터 구조가 변경되므로 v5 플랫폼과 v7 플랫폼 간에 데이터 패키지를 가져오고 내보낼 수 없습니다.
 
->[!NOTE]
->
->Adobe Campaign 업데이트 명령(**postupgrade**)을 사용하면 리소스를 동기화하고 스키마와 데이터베이스를 업데이트할 수 있습니다. 이 작업은 응용 프로그램 서버에서 한 번만 수행할 수 있습니다. 리소스를 동기화한 후 **postupgrade** 명령을 사용하면 동기화가 오류나 경고를 생성하는지 여부를 감지할 수 있습니다.
 
 ## 마이그레이션 도구 {#migration-tools}
 
@@ -70,9 +64,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->를 사용해야 합니다 **-instance:`<instanceame>`** 선택 사항입니다. 를 사용하지 않는 것이 좋습니다 **-allinstances** 선택 사항입니다.
+>* 를 사용해야 합니다 **-instance:`<instanceame>`** 선택 사항입니다. 를 사용하지 않는 것이 좋습니다 **-allinstances** 선택 사항입니다.
+>* Adobe Campaign 업데이트 명령(**postupgrade**)을 사용하면 리소스를 동기화하고 스키마와 데이터베이스를 업데이트할 수 있습니다. 이 작업은 응용 프로그램 서버에서 한 번만 수행할 수 있습니다. 리소스를 동기화한 후 **postupgrade** 명령을 사용하면 동기화가 오류나 경고를 생성하는지 여부를 감지할 수 있습니다.
 
-### -showCustomEntities 및 -showDeletedEntities 옵션 {#showcustomentities-and--showdeletedentities-options}
+
+### 비표준 또는 누락된 개체
 
 * 다음 **-showCustomEntities** 옵션은 모든 비표준 객체 목록을 표시합니다.
 
@@ -110,7 +106,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 
 >[!NOTE]
 >
->JST-310040 코드가 있는 모든 경고 및 오류를 무시하십시오.
+>JST-310040 코드에서 모든 경고 및 오류를 무시할 수 있습니다.
 
 다음 식에 대해 검색할 수 있습니다(대/소문자 구분).
 
@@ -158,7 +154,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> 오류<br /> </td> 
-   <td> 이러한 유형의 오류로 인해 마이그레이션 오류가 발생합니다. 을(를) 참조하십시오. <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. 개요 유형 웹 애플리케이션 오류 로그(v6.02에서 마이그레이션)가 나타나면 다음을 참조하십시오 <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Campaign 구성</a>.<br /> </td> 
+   <td> 이러한 유형의 오류로 인해 마이그레이션 오류가 발생합니다. 을(를) 참조하십시오. <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. 개요 유형 웹 애플리케이션 오류 로그(v6.02에서 마이그레이션)가 나타나면 다음을 참조하십시오 <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11" target="_blank">Campaign 구성</a>.<br /> </td> 
   </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
@@ -167,6 +163,12 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> 이 유형의 배포는 더 이상 지원되지 않습니다. 이제 Office 365 및 온-프레미스 Microsoft CRM 커넥터 배포 유형이 더 이상 사용되지 않습니다. 
    </br>외부 계정에서 이러한 사용되지 않는 배포 유형 중 하나를 사용하는 경우 이 외부 계정을 삭제한 다음 <b>postupgrade</b> 명령. 
    </br>웹 API 배포로 변경하려면 <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">웹 애플리케이션</a>.<br /> </td>
+  </tr> 
+  <tr> 
+   <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
+   <td> PU-0008<br /> </td> 
+   <td> 오류<br /> </td> 
+   <td> Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동을 더 이상 사용할 수 없습니다. Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성하려면 다음을 사용해야 합니다 <a href="../../workflow/using/crm-connector.md" target="_blank">CRM 커넥터</a> 타겟팅 활동.<br /> </td>
   </tr> 
  </tbody> 
 </table>

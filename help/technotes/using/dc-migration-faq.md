@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 1f050ada481a7307a59ea6c81290bb0b24a3bf6c
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
 source-wordcount: '2243'
 ht-degree: 0%
@@ -281,5 +281,5 @@ Public Cloud로의 마이그레이션은 Adobe Campaign 애플리케이션 서�
 ## 지원 및 기타 유용한 링크{#support}
 
 * [Adobe Managed Services(Public Cloud)로 마이그레이션](dc-migration.md)
-* [Gold Standard 업그레이드](../../rn/using/gs-overview.md)
+* [Campaign 연간 업그레이드](../../rn/using/rn-overview.md#yeary-upgrade)
 * [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)

@@ -1,32 +1,30 @@
 ---
 product: campaign
-title: Windows에서 Adobe Campaign 7으로 마이그레이션
-description: Windows에서 Adobe Campaign 7으로 마이그레이션
+title: Microsoft Windows 플랫폼을 Adobe Campaign v7로 마이그레이션
+description: Microsoft Windows 플랫폼을 Adobe Campaign v7로 마이그레이션하는 방법을 알아봅니다
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 63aca25a8d1ae24ef83849b35a44d1b37cfa5e96
 workflow-type: tm+mt
-source-wordcount: '1534'
-ht-degree: 1%
+source-wordcount: '1504'
+ht-degree: 0%
 
 ---
 
-# Windows에서 Adobe Campaign 7으로 마이그레이션{#migrating-in-windows-for-adobe-campaign}
+# Microsoft Windows 플랫폼을 Campaign v7로 마이그레이션{#migrating-in-windows-for-adobe-campaign}
 
 ![](../../assets/v7-only.svg)
 
-## 일반 절차 {#general-procedure}
+Microsoft Windows 환경의 경우 마이그레이션 단계는 다음과 같습니다.
 
-Windows의 경우 마이그레이션 단계는 다음과 같습니다.
-
-1. 서비스 중지: 참조 [서비스 중지](#service-stop).
-1. 데이터베이스 백업: 참조 [데이터베이스 및 현재 설치 백업](#back-up-the-database-and-the-current-installation).
-1. 플랫폼 마이그레이션: 참조 [Adobe Campaign v7 배포](#deploying-adobe-campaign-v7).
-1. 리디렉션 서버(IIS) 마이그레이션: 참조 [리디렉션 서버(IIS) 마이그레이션](#migrating-the-redirection-server--iis-).
-1. 서비스 다시 시작: 참조 [서비스 다시 시작](#re-starting-the-services).
-1. 이전 Adobe Campaign 버전을 삭제 및 정리합니다. 참조 [Adobe Campaign 이전 버전 삭제 및 정리](#deleting-and-cleansing-adobe-campaign-previous-version).
+1. 모든 서비스 중지 - [추가 정보](#service-stop).
+1. 데이터베이스 백업 - [추가 정보](#back-up-the-database).
+1. 플랫폼 마이그레이션 - [추가 정보](#deploying-adobe-campaign-v7).
+1. 리디렉션 서버(IIS) 마이그레이션 - [추가 정보](#migrating-the-redirection-server--iis-).
+1. 서비스 다시 시작 - [추가 정보](#re-starting-the-services).
+1. 이전 Adobe Campaign 버전 삭제 및 정리 - [추가 정보](#deleting-and-cleansing-adobe-campaign-previous-version).
 
 ## 서비스 중지 {#service-stop}
 
@@ -83,11 +81,11 @@ Windows의 경우 마이그레이션 단계는 다음과 같습니다.
    taskkill /F /IM nlserver* /T
    ```
 
-## 데이터베이스 및 현재 설치 백업 {#back-up-the-database-and-the-current-installation}
+## Campaign 데이터베이스 백업 {#back-up-the-database}
 
 절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
 
-### Adobe Campaign v5.11에서 마이그레이션 {#migrating-from-adobe-campaign-v5-11}
+### Adobe Campaign v5.11용 {#migrating-from-adobe-campaign-v5-11}
 
 1. Adobe Campaign 데이터베이스를 백업합니다.
 1. 의 백업 **Neolane v5** 다음 명령을 사용하는 디렉토리:
@@ -127,7 +125,7 @@ Windows의 경우 마이그레이션 단계는 다음과 같습니다.
    </serverconf>
    ```
 
-### Adobe Campaign v6.02에서 마이그레이션 {#migrating-from-adobe-campaign-v6-02}
+### Adobe Campaign v6.02의 경우 {#migrating-from-adobe-campaign-v6-02}
 
 1. Adobe Campaign 데이터베이스를 백업합니다.
 1. 의 백업 **Neolane v6** 다음 명령을 사용하는 디렉토리:
@@ -167,7 +165,7 @@ Windows의 경우 마이그레이션 단계는 다음과 같습니다.
    </serverconf>
    ```
 
-### Adobe Campaign v6.1에서 마이그레이션 {#migrating-from-adobe-campaign-v6-1}
+### Adobe Campaign v6.1의 경우 {#migrating-from-adobe-campaign-v6-1}
 
 1. Adobe Campaign 데이터베이스를 백업합니다.
 1. 의 백업 **Adobe Campaign v6** 다음 명령을 사용하는 디렉토리:
@@ -267,7 +265,7 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 >
 >아직 Adobe Campaign 서비스를 시작하지 마십시오. IIS에서 일부 변경 작업을 수행해야 합니다.
 
-## 리디렉션 서버(IIS) 마이그레이션 {#migrating-the-redirection-server--iis-}
+## 리디렉션 서버 마이그레이션 {#migrating-the-redirection-server--iis-}
 
 이 단계에서는 IIS 서버를 중지해야 합니다. 을(를) 참조하십시오. [서비스 중지](#service-stop).
 
@@ -331,7 +329,7 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
 ## 보안 영역 {#security-zones}
 
-v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하기 전에 보안 영역을 구성해야 합니다. 자세한 내용은 [보안](../../migration/using/general-configurations.md#security).
+v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하기 전에 보안 영역을 구성해야 합니다. [자세히 알아보기](../../migration/using/general-configurations.md#security)
 
 ## 서비스 다시 시작 {#re-starting-the-services}
 
@@ -341,13 +339,13 @@ v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하
 1. 중간 소싱 서버.
 1. 마케팅 서버입니다.
 
-다음 단계로 이동하기 전에 새 설치에 대한 전체 테스트를 실행하고 회귀를 수행하지 않는지 그리고 모든 기능이 의 모든 권장 사항을 수행하여 작동하는지 확인합니다 [일반 구성](../../migration/using/general-configurations.md) 섹션을 참조하십시오.
+다음 단계로 이동하기 전에 새 설치에 대한 전체 테스트를 실행하고 회귀를 수행하지 않는지 그리고 의 모든 권장 사항을 수행하여 모든 것이 작동하는지 확인합니다. [이 페이지](../../migration/using/general-configurations.md).
 
-## Adobe Campaign 이전 버전 삭제 및 정리 {#deleting-and-cleansing-adobe-campaign-previous-version}
+## 이전 버전을 삭제합니다 {#deleting-and-cleansing-adobe-campaign-previous-version}
 
 절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
 
-### Adobe Campaign v5 {#adobe-campaign-v5}
+### Adobe Campaign v5용 {#adobe-campaign-v5}
 
 Adobe Campaign v5 설치를 삭제하고 정리하려면 먼저 다음 권장 사항을 적용해야 합니다.
 
@@ -368,7 +366,7 @@ Adobe Campaign v5 설치를 삭제하고 정리하려면 먼저 다음 권장 �
 
 1. 서버를 다시 시작합니다.
 
-### Adobe Campaign v6.02 {#adobe-campaign-v6-02}
+### Adobe Campaign v6.02의 경우 {#adobe-campaign-v6-02}
 
 Adobe Campaign v6.02 설치를 삭제하고 정리하려면 먼저 다음 권장 사항을 적용해야 합니다.
 
@@ -383,7 +381,7 @@ Adobe Campaign v6.02 설치를 삭제하고 정리하려면 먼저 다음 권장
 
 1. 서버를 다시 시작합니다.
 
-### Adobe Campaign v6.1 {#adobe-campaign-v6-1}
+### Adobe Campaign v6.1의 경우 {#adobe-campaign-v6-1}
 
 Adobe Campaign v6 설치를 삭제하고 정리하려면 먼저 다음 권장 사항을 적용해야 합니다.
 

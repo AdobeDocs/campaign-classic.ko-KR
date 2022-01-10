@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 648b6c0982e15716b11bdbc5954ce88491582e7d
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1536'
 ht-degree: 0%
 
 ---
@@ -170,7 +170,11 @@ CRM으로 데이터를 내보내려면 다음 유형의 워크플로우를 만�
    >
    >의 내보내기 기능 **[!UICONTROL CRM Connector]** 활동은 CRM 측에서 필드를 삽입하거나 업데이트할 수 있습니다. CRM에서 필드 업데이트를 활성화하려면 원격 테이블의 기본 키를 지정해야 합니다. 키가 없으면 데이터가 삽입됩니다(업데이트되지 않음).
 
-1. 에서 **[!UICONTROL Mapping]** 섹션에서 내보낼 필드와 CRM에서 매핑을 지정합니다.
+1. 확인 **[!UICONTROL Export in Batches]** 더 빠른 내보내기가 필요한 경우
+
+   ![](assets/crm_export_config_2.png)
+
+1. 에서 **[!UICONTROL Mapping]** 섹션을 클릭합니다. **[!UICONTROL New]** 내보낼 필드와 CRM에서 매핑을 지정합니다.
 
    ![](assets/crm_export_config.png)
 

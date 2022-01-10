@@ -6,10 +6,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 6%
+source-wordcount: '909'
+ht-degree: 5%
 
 ---
 
@@ -35,17 +35,17 @@ ht-degree: 6%
 
 ### 콘솔 및 웹 액세스 {#console-and-web-access}
 
-Adobe Campaign 플랫폼은 콘솔 또는 인터넷 브라우저를 통해 액세스할 수 있습니다.
+Adobe Campaign 플랫폼은 콘솔 또는 인터넷 브라우저를 통해 액세스할 수 있습니다. 에서 호환 가능한 브라우저 를 참조하십시오. [호환성 매트릭스](../../rn/using/compatibility-matrix.md#Browsers).
 
-웹 액세스는 콘솔과 유사하지만 기능 세트가 감소된 인터페이스를 제공합니다.
+웹 액세스 인터페이스는 콘솔 인터페이스와 유사합니다. 브라우저에서 콘솔과 동일한 탐색 및 표시 기능을 사용할 수 있지만 캠페인에 대해서는 축소된 작업 집합만 수행할 수 있습니다. 예를 들어 캠페인을 보고 취소할 수 있지만 캠페인을 수정할 수는 없습니다. 지정된 연산자의 경우 콘솔에 다음과 같은 옵션이 있는 캠페인이 표시됩니다.
 
-예를 들어 주어진 연산자에 대해 콘솔에 다음과 같은 옵션이 있는 캠페인이 표시됩니다.
+![캠페인의 대시보드에서 연산자는 캠페인을 보고 취소할 수 있고 수정하며 게재, 문서 및 작업을 캠페인에 추가할 수도 있습니다.](assets/operation_from_console.png)
 
-![](assets/operation_from_console.png)
+반면에 웹 액세스 환경에서는 다음 옵션을 주로 볼 수 있습니다.
 
-반면에 웹 액세스 기능을 사용하면 주로 볼 수 있습니다.
+![브라우저에서 동일한 연산자가 캠페인을 보고 취소할 수만 있습니다.](assets/operation_from_web.png)
 
-![](assets/operation_from_web.png)
+추가 정보 [웹 인터페이스 사용](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
 ### 언어 {#languages}
 

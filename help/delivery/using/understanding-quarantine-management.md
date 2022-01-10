@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '2614'
 ht-degree: 14%
@@ -43,7 +43,7 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 
 >[!NOTE]
 >
->사용자가 SMS 게재에서 옵트아웃하기 위해 SMS 메시지에 &quot;STOP&quot; 등의 키워드로 답장하는 경우, 이메일 옵트아웃 프로세스에서처럼 차단 목록 프로필에 추가되지 않습니다. 프로필의 전화번호는 격리에 전송되므로 사용자는 계속해서 이메일 메시지를 수신하게 됩니다.
+>사용자가 SMS 게재에서 옵트아웃하기 위해 SMS 메시지에 &quot;STOP&quot; 등의 키워드로 답장하는 경우, 이메일 옵트아웃 프로세스에서처럼 프로필이에 차단 목록 추가되지 않습니다. 프로필의 전화번호는 격리에 전송되므로 사용자는 계속해서 이메일 메시지를 수신하게 됩니다.
 
 ## 격리된 주소 확인 {#identifying-quarantined-addresses}
 

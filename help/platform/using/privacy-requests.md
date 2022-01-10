@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: d750e13d3770d3b36b5f4376233d4da458730ed7
-workflow-type: ht
-source-wordcount: '2420'
-ht-degree: 100%
+source-git-commit: 71a5433db3ce2af5a25e5f861bd6f1dfb9aa8934
+workflow-type: tm+mt
+source-wordcount: '2425'
+ht-degree: 98%
 
 ---
 
@@ -281,7 +281,7 @@ API를 사용하여 개인 정보 보호 요청을 제출하는 경우 반환된
 
    * **nms:gdprRequest** 스키마에서 **queryDef**&#x200B;을 사용하여 Access 요청의 상태를 확인할 수 있습니다.
    * **nms:gdprRequestData** 스키마에서 **queryDef**&#x200B;을 사용하여 Access 요청의 결과를 가져올 수 있습니다.
-   * **&quot;$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id&quot;**&#x200B;에서 XML 파일을 다운로드하려면 허용 목록에 추가된 IP에서 로그인하고 액세스해야 합니다. 이렇게 하려면 JSSP에서 생성한 파일에 액세스할 수 있는 웹 애플리케이션을 만듭니다.
+   * 에서 XML 파일을 다운로드할 수 있습니다. **&quot;$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id&quot;**&#x200B;에 로그인하고에 포함된 IP에서 액세스해야 허용 목록에 추가하다 합니다. 이렇게 하려면 JSSP에서 생성한 파일에 액세스할 수 있는 웹 애플리케이션을 만듭니다.
 
 ### JS에서 API 호출 {#invoking-api-from-js}
 

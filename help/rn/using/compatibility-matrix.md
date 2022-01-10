@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '720'
 ht-degree: 89%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 이 문서에는 **Adobe Campaign Classic v7**&#x200B;의 [최신 빌드](../../rn/using/latest-release.md)를 지원하는 모든 시스템 및 구성 요소가 나열되어 있습니다. 이 목록에 포함되지 않은 제품과 버전은 Adobe Campaign과 호환되지 않습니다.
 
-[!DNL Gold Standard]사용자인 경우 [[!DNL Gold Standard] 호환성 매트릭스](../../rn/using/compatibility-matrix-gs.md)를 참조하십시오.
+[!DNL Gold Standard]사용자인 경우 [[!DNL Gold Standard] 호환성 매트릭스](../../rn/using/gold-standard.md#compatibility-matrix-gs)를 참조하십시오.
 
 ## 중요 정보{#important-notes}
 
@@ -48,7 +48,6 @@ ht-degree: 89%
 <tr>
 <td>Debian</td>
 <td>
-<p>11(64비트)</p>
 <p>10(64비트)</p>
 <p>9(64비트)</p>
 </td>
@@ -64,7 +63,6 @@ ht-degree: 89%
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2019</p>
 <p>2016</p>
 <p>2012 R2</p>
 <p>2012</p>
@@ -149,7 +147,7 @@ ht-degree: 89%
 <tr>
 <td>SQL Server</td>
 <td>
-<p>2019년</p>
+<p>2019</p>
 <p>2017</p>
 <p>2016년</p>
 <p>2014</p>
@@ -190,54 +188,31 @@ Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다
 
 ## FDA(Federated Data Access){#FederatedDataAccessFDA}
 
-Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda.md)과 호환되는 외부 데이터베이스 목록은 다음과 같습니다.
+Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda.md)과 호환되는 외부 데이터베이스 목록은 다음과 같습니다. 호환성은 [호스팅 모델](../../installation/using/hosting-models.md).
+
+**Managed Services** (호스팅), **하이브리드** 및 **On-premise** 환경에서는 다음 외부 데이터베이스 시스템과 Campaign을 연결할 수 있습니다.
+
 <table>
 <tbody>
-<td><strong>커넥터</strong></td>
-<td><strong>버전 호환성</strong></td>
-<td><strong>호스팅 모델 호환성</strong></td>
-<td><strong>빌드 호환성</strong></td>
+<td><strong>데이터베이스 시스템</strong></td>
+<td><strong>데이터베이스 버전</strong></td>
+<td><strong>캠페인 버전</strong></td>
 <tr>
 <tr>
 <td>Snowflake</td>
 <td> </td>
-<td>Managed Services, 하이브리드 및 온-프레미스</td>
-<td>21.1.5 최소</td>
-</tr>
-<td>Vertica</td>
-<td> </td>
-<td>하이브리드 및 온-프레미스 전용</td>
-<td>19.1.4 최소</td>
+<td>7.2.1 최소</td>
 </tr>
 <tr>
 <td>Google BigQuery</td>
 <td> </td>
-<td>Managed Services, 하이브리드 및 온-프레미스</td>
-<td>21.1.5 최소</td>
-</tr>
-<tr>
-<td>Microsoft Azure Synapse Analytics</td>
-<td> </td>
-<td>하이브리드 및 온-프레미스</td>
-<td>19.1.4 최소</td>
+<td>7.2.1 최소</td>
 </tr>
 <tr>
 <td>Amazon Redshift</td>
 <td><p> </p>
-<td>Managed Services, 하이브리드 및 온-프레미스</td>
-<td>19.1.4 최소</td>
+<td>v7.0 19.1.4최소</td>
 </td>
-</tr>
-<tr>
-<td>Oracle</td>
-<td>
-<p>19c</p>
-<p>18c</p>
-<p>12c</p>
-<p>11g</p>
-</td>
-<td>하이브리드 및 온-프레미스 전용</td>
-<td>V6.11 최소</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -250,8 +225,37 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>9.5.x</p>
 <p>9.4.x</p>
 </td>
-<td>Managed Services, 하이브리드 및 온-프레미스</td>
-<td>19.1.4 최소</td>
+<td>v7.0 19.1.4 최소</td>
+</tr>
+</tbody>
+</table>
+
+게다가, **하이브리드** 및 **On-premise** 환경에서도 Campaign을 다음과 연결할 수 있습니다.
+
+<table>
+<tbody>
+<td><strong>데이터베이스 시스템</strong></td>
+<td><strong>데이터베이스 버전</strong></td>
+<td><strong>캠페인 버전</strong></td>
+<tr>
+<td>Vertica</td>
+<td> </td>
+<td>v7.0 19.1.4 최소</td>
+</tr>
+<tr>
+<td>Microsoft Azure Synapse Analytics</td>
+<td> </td>
+<td>v7.0 19.1.4 최소</td>
+</tr>
+<tr>
+<td>Oracle</td>
+<td>
+<p>19c</p>
+<p>18c</p>
+<p>12c</p>
+<p>11g</p>
+</td>
+<td>v7.0 최소</td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
@@ -261,15 +265,13 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>2014년</p>
 <p>2012 SP1 및 SP2</p>
 </td>
-<td>하이브리드 및 온-프레미스 전용</td>
-<td>V6.11 최소</td>
+<td>v7.0 최소</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
 <p>5.7</p>
 </td>
-<td>하이브리드 및 온-프레미스 전용</td>
-<td>V6.11 최소</td>
+<td>v7.0 최소</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -279,16 +281,14 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>15.10</p>
 <p>15.0</p>
 </td>
-<td>하이브리드 및 온-프레미스 전용</td>
-<td>V6.11 최소</td>
+<td>v7.0 최소</td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
 <p>7.2</p>
 </td>
-<td>하이브리드 및 온-프레미스 전용</td>
-<td>V6.11 최소</td>
+<td>v7.0 최소</td>
 </tr>
 <tr>
 <td>Sybase</td>
@@ -296,16 +296,14 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>IQ 16</p>
 <p>ASE 15.7</p>
 </td>
-<td>하이브리드 및 온-프레미스 전용</td>
-<td>V6.11 최소</td>
+<td>v7.0 최소</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
 <td>
 <p>버전 1 SPS 12</p>
 </td>
-<td>하이브리드 및 온-프레미스 전용</td>
-<td>V6.11 최소</td>
+<td>v7.0 최소</td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
 <td>
@@ -313,11 +311,13 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)</p>
 <p>Cloudera CDH6.x</p>
 </td>
-<td>하이브리드 및 온-프레미스 전용</td>
-<td>V6.11 최소</td>
+<td>v7.0 최소</td>
 </tr>
 </tbody>
 </table>
+
+
+
 
 
 ## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}

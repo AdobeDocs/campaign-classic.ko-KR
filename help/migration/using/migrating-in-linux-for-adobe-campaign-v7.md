@@ -1,31 +1,29 @@
 ---
 product: campaign
-title: Linux에서 Adobe Campaign v7으로 마이그레이션
-description: Linux에서 Adobe Campaign v7으로 마이그레이션
+title: Linux 플랫폼을 Adobe Campaign v7로 마이그레이션
+description: Linux 플랫폼을 Adobe Campaign v7로 마이그레이션하는 방법 알아보기
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 63aca25a8d1ae24ef83849b35a44d1b37cfa5e96
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 1%
+source-wordcount: '1858'
+ht-degree: 0%
 
 ---
 
-# Linux에서 Adobe Campaign v7으로 마이그레이션{#migrating-in-linux-for-adobe-campaign-v}
+# Linux 플랫폼을 Campaign v7로 마이그레이션{#migrating-in-linux-for-adobe-campaign-v}
 
 ![](../../assets/v7-only.svg)
 
-## 일반 절차 {#general-procedure}
-
 Linux의 마이그레이션 단계는 다음과 같습니다.
 
-1. 서비스 중지: 참조 [서비스 중지](#service-stop).
-1. 데이터베이스를 저장합니다. 참조 [데이터베이스 및 기존 설치 백업](#back-up-the-database-and-the-existing-installation).
-1. 이전 Adobe Campaign 버전 패키지 제거: 참조 [Adobe Campaign 이전 버전 패키지 제거](#uninstalling-adobe-campaign-previous-version-packages).
-1. 플랫폼 마이그레이션: 참조 [Adobe Campaign v7 배포](#deploying-adobe-campaign-v7).
-1. 서비스 다시 시작: 참조 [서비스 다시 시작](#re-starting-services).
+1. 모든 서비스 중지 - [추가 정보](#service-stop).
+1. 데이터베이스 저장 - [추가 정보](#back-up-the-database).
+1. 이전 Adobe Campaign 버전 패키지 제거 - [추가 정보](#uninstalling-adobe-campaign-previous-version-packages).
+1. 플랫폼 마이그레이션 - [추가 정보](#deploying-adobe-campaign-v7).
+1. 서비스 다시 시작 - [추가 정보](#re-starting-services).
 
 ## 서비스 중지 {#service-stop}
 
@@ -71,11 +69,11 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
    killall -9 nlserver
    ```
 
-## 데이터베이스 및 기존 설치 백업 {#back-up-the-database-and-the-existing-installation}
+## 데이터베이스 백업 {#back-up-the-database}
 
 절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
 
-### Adobe Campaign v5.11에서 마이그레이션 {#migrating-from-adobe-campaign-v5-11}
+### Adobe Campaign v5.11용 {#migrating-from-adobe-campaign-v5-11}
 
 1. Adobe Campaign 데이터베이스를 백업합니다.
 1. 다음으로 로그인 **네올란** 그리고 **nl5** 다음 명령을 사용하는 디렉토리:
@@ -110,7 +108,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
    </serverconf>
    ```
 
-### Adobe Campaign v6.02에서 마이그레이션 {#migrating-from-adobe-campaign-v6-02}
+### Adobe Campaign v6.02의 경우 {#migrating-from-adobe-campaign-v6-02}
 
 1. Adobe Campaign 데이터베이스를 백업합니다.
 1. 다음으로 로그인 **네올란** 그리고 **nl6** 다음 명령을 사용하는 디렉토리:
@@ -145,7 +143,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
    </serverconf>
    ```
 
-### Adobe Campaign v6.1에서 마이그레이션 {#migrating-from-adobe-campaign-v6-1}
+### Adobe Campaign v6.1의 경우 {#migrating-from-adobe-campaign-v6-1}
 
 1. Adobe Campaign 데이터베이스를 백업합니다.
 1. 다음으로 로그인 **네올란** 그리고 **nl6** 다음 명령을 사용하는 디렉토리:
@@ -163,7 +161,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 
 절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
 
-### Adobe Campaign v5 패키지 제거 {#uninstalling-adobe-campaign-v5-packages}
+### v5 패키지의 경우 {#uninstalling-adobe-campaign-v5-packages}
 
 1. 다음으로 로그인 **루트**.
 1. 다음 명령을 사용하여 설치된 Adobe Campaign 패키지를 식별합니다.
@@ -201,7 +199,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
       rprm -ev nlserver5 nlthirdparty5
       ```
 
-### Adobe Campaign v6 패키지 제거 {#uninstalling-adobe-campaign-v6-packages}
+### v6 패키지의 경우 {#uninstalling-adobe-campaign-v6-packages}
 
 이 섹션에서는 Adobe Campaign v6.02 또는 v6.1 패키지를 제거하는 방법을 보여줍니다.
 
@@ -245,7 +243,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 
 절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
 
-### Adobe Campaign v5.11에서 마이그레이션 {#migrating-from-adobe-campaign-v5_11-1}
+### Adobe Campaign v5.11에서 {#migrating-from-adobe-campaign-v5_11-1}
 
 Adobe Campaign 배포에는 두 단계가 있습니다.
 
@@ -372,7 +370,7 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 >
 >아직 Adobe Campaign 서비스를 시작하지 마십시오. 여전히 Apache에서 변경 작업을 수행해야 합니다.
 
-### Adobe Campaign v6.02에서 마이그레이션 {#migrating-from-adobe-campaign-v6_02-1}
+### Adobe Campaign v6.02에서 {#migrating-from-adobe-campaign-v6_02-1}
 
 Adobe Campaign 배포에는 두 단계가 있습니다.
 
@@ -450,7 +448,7 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
    >
    >&quot;다중 시간대&quot; 모드는 PostgreSQL 데이터베이스 엔진용 v6.02에서만 사용할 수 있습니다. 이제 사용 중인 데이터베이스 엔진 버전에 관계없이 사용할 수 있습니다. 기본 시간대를 &quot;다중 시간대&quot;로 업그레이드하는 것이 좋습니다. 시간대 옵션에 대한 자세한 내용은 [시간대](../../migration/using/general-configurations.md#time-zones) 섹션을 참조하십시오.
 
-### Adobe Campaign v6.1에서 마이그레이션 {#migrating-from-adobe-campaign-v6_1-1}
+### Adobe Campaign v6.1에서 {#migrating-from-adobe-campaign-v6_1-1}
 
 Adobe Campaign 배포에는 두 단계가 있습니다.
 
@@ -580,7 +578,7 @@ v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하
 
 절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
 
-### Adobe Campaign v5.11에서 마이그레이션 {#migrating-from-adobe-campaign-v5_11-2}
+### Adobe Campaign v5용 {#migrating-from-adobe-campaign-v5_11-2}
 
 에서 **config-`<instance name>`.xml** 파일을 사용하여 자동 시작 **mta**, **wfserver**, **stat**&#x200B;등 서비스.
 
@@ -611,7 +609,7 @@ v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하
 
 다음 단계로 이동하기 전에 새 설치에 대한 전체 테스트를 실행하고 회귀를 수행하지 않는지 그리고 모든 기능이 의 모든 권장 사항을 수행하여 작동하는지 확인합니다 [일반 구성](../../migration/using/general-configurations.md) 섹션을 참조하십시오.
 
-### Adobe Campaign v6.02에서 마이그레이션 {#migrating-from-adobe-campaign-v6_02-2}
+### Adobe Campaign v6.02의 경우 {#migrating-from-adobe-campaign-v6_02-2}
 
 에서 **config-`<instance name>`.xml** 파일을 사용하여 자동 시작 **mta**, **wfserver**, **stat**&#x200B;등 서비스.
 
@@ -642,7 +640,7 @@ v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하
 
 새 설치를 완전히 테스트하고, 다시 사용되지 않는지 확인하고, 의 모든 권장 사항을 수행하여 모든 것이 제대로 작동하는지 확인합니다. [일반 구성](../../migration/using/general-configurations.md) 섹션을 참조하십시오.
 
-### Adobe Campaign v6.1에서 마이그레이션 {#migrating-from-adobe-campaign-v6_1-2}
+### Adobe Campaign v6.1의 경우 {#migrating-from-adobe-campaign-v6_1-2}
 
 다음 각 서버에서 Apache 및 Adobe Campaign 서비스를 시작합니다.
 
@@ -652,7 +650,7 @@ v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하
 
 새 설치를 완전히 테스트하고, 다시 사용되지 않는지 확인하고, 의 모든 권장 사항을 수행하여 모든 것이 제대로 작동하는지 확인합니다. [일반 구성](../../migration/using/general-configurations.md) 섹션을 참조하십시오.
 
-## Adobe Campaign v5 삭제 및 정리 {#deleting-and-cleansing-adobe-campaign-v5}
+## Adobe Campaign 이전 버전 삭제 {#deleting-and-cleansing-adobe-campaign-v5}
 
 >[!NOTE]
 >

@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 8794464d6fcc8ab648cd6866266855a701538fde
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
@@ -46,15 +46,15 @@ Linux에 Adobe Campaign을 설치하려면 필요한 라이브러리가 있는�
 
    명령이 빈 행을 반환하지 않으면 구성이 올바른지 의미합니다.
 
-* 다음을 수행해야 합니다. **버전 0.9.8** 또는 **1.0** OpenSSL
+* OpenSSL 버전이 있어야 합니다. **1.0.2** 또는 그 이상
 
-   RHEL 7 배포의 경우 OpenSSL 버전 1.0이 필요합니다.
+   RHEL 7/8 배포의 경우 OpenSSL 버전 1.0이 필요합니다.
 
 * Adobe Campaign을 사용하려면 **libicu** 라이브러리가 설치되었습니다.
 
    다음 버전 **libicu** 지원 대상(32비트 또는 64비트):
 
-   * RHEL 7, CentOS 7: libicu50
+   * RHEL 7/8, CentOS 7: libicu50
    * Debian 8: libicu52
    * Debian 9: libicu57
 

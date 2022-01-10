@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1557'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## 컨텍스트
 
-Adobe는 Adobe Campaign Classic 고객에게 최상의 경험과 가치를 제공하기 위해 노력하고 있습니다. 수년 동안 Adobe는 클라우드에서 고객을 호스팅하는 데 대한 가치와 신뢰성을 실현했습니다.  Adobe의 일부로 [Gold Standard Initiative](../../rn/using/gold-standard.md), Adobe는 모든 고객을 Adobe Managed Services(AWS의 Public Cloud)로 이동하여 보다 안전하고 안정적인 서비스를 제공하고 있습니다.
+Adobe는 Adobe Campaign Classic 고객에게 최상의 경험과 가치를 제공하기 위해 노력하고 있습니다. 수년 동안 Adobe는 클라우드에서 고객을 호스팅하는 데 대한 가치와 신뢰성을 실현했습니다.  Adobe의 일부로 [연간 업그레이드 이니셔티브](../../rn/using/rn-overview.md#yearly-upgrade), Adobe는 모든 고객을 Adobe Managed Services(AWS의 Public Cloud)로 이동하여 보다 안전하고 안정적인 서비스를 제공하고 있습니다.
 
 이 프로그램에는 세 가지 주요 목표가 있습니다.
 
@@ -31,7 +31,7 @@ Adobe는 Adobe Campaign Classic 고객에게 최상의 경험과 가치를 제�
 
 * **빌드 업그레이드** - Adobe Campaign Classic 소프트웨어가 최신 보안 빌드 번호로 업데이트되지만 동일한 주요/부 빌드 수준에서 유지됩니다. 예: Campaign v7 20.2.3 빌드 9182에서 Campaign v7 21.2.5 빌드 9188로 이동합니다. [자세히 알아보기](../../platform/using/faq-build-upgrade.md)
 * **MID/RT** - Adobe Cloud에 호스팅되는 메시지 실행 서버(배치 캠페인의 경우 MID, 실시간 단일 메시지의 경우 RT)
-* **Gold Standard 업그레이드** - 이 프로그램은 향상된 보안, 향상된 지원, 유지 관리 및 안정성을 제공합니다. 또한 향후 업그레이드를 보다 쉽게 할 수 있고 Campaign의 새로운 기능에 액세스할 수 있습니다.  [자세히 알아보기](../../rn/using/gs-overview.md)
+* **연간 업그레이드 프로그램** - 이 프로그램은 향상된 보안, 향상된 지원, 유지 관리 및 안정성을 제공합니다. 또한 향후 업그레이드를 보다 쉽게 할 수 있고 Campaign의 새로운 기능에 액세스할 수 있습니다.  [자세히 알아보기](../../rn/using/rn-overview.md#yearly-upgrade)
 * **AWS** - Amazon Web Services(Amazon Public Cloud)
 * **SFTP** - 보안 파일 전송 프로토콜. [자세히 알아보기](../../platform/using/sftp-server-usage.md)
 
@@ -59,7 +59,7 @@ Adobe는 Adobe Campaign Classic 고객에게 최상의 경험과 가치를 제�
 
 * 향상된 이메일 용량
 * 대규모 데이터베이스
-* Campaign 버전 수정 - Gold Standard
+* 수정된 Campaign 버전
 
 **Adobe Campaign Classic 고객을 위한 강력하고 안정적인 솔루션**
 
@@ -67,10 +67,10 @@ Adobe는 Adobe Campaign Classic 고객에게 최상의 경험과 가치를 제�
 1. 높은 이메일 전송 용량. 새로운 데이터 센터에서 호스팅되는 인스턴스는 이메일 전달을 위한 전문 인프라를 통해 이점을 얻을 수 있습니다. 이를 통해 이메일 전송 속도가 빨라지거나 IP 전송 사용량이 줄어들 수 있습니다.
 1. 향상된 하드웨어 확장성 하드웨어 리소스를 늘리는 것이 훨씬 더 빠릅니다. 기술적으로, 그것은 며칠 대신 1시간의 진도에 있을 것입니다.
 
-**Gold Standard를 통해 향후 업그레이드 가능**
+**연간 업그레이드로 향후 업그레이드가 보다 쉬워집니다.**
 
 1. 조직에서 업그레이드를 대기하는 시간이 길수록 업그레이드가 더 복잡해지고 취약점에 직면할 가능성이 높습니다(특히 이전 버전에서 이동할 때).
-1. Gold Standard 업그레이드를 사용하면 인스턴스가 현대화되며, 수동 개입이 적고 리소스를 덜 활용하여 보다 자동화된 일반 업데이트를 받을 수 있습니다.
+1. Campaign 연간 업그레이드 (Gold Standard 이니셔티브)를 사용하면 인스턴스가 현대화되며 수동 개입이 적고 리소스를 덜 활용하여 보다 자동화된 정기 업데이트를 받을 수 있습니다.
 
 ![](assets/GSMigrations.png)
 
@@ -84,7 +84,7 @@ Adobe는 Adobe Campaign Classic 고객에게 최상의 경험과 가치를 제�
 
 ### 이 마이그레이션은 필수 사항입니까?
 
-Cloud로의 마이그레이션은 **첫 번째 단계 [Gold Standard 인증](../../rn/using/gs-overview.md)** Adobe Campaign 인스턴스 중 하나를 생성할 수 있습니다. Public Cloud(AWS)이 아닌 데이터 센터에서 호스팅되는 경우 이 마이그레이션은 필수입니다.
+Cloud로의 마이그레이션은 **첫 번째 단계 [연간 업그레이드 프로그램](../../rn/using/rn-overview.md#yearly-upgrade)** Adobe Campaign 인스턴스 중 하나를 생성할 수 있습니다. Public Cloud(AWS)이 아닌 데이터 센터에서 호스팅되는 경우 이 마이그레이션은 필수입니다.
 
 Adobe Managed Services 클라우드는 현대적이고 안전한 최적화된 환경인 Amazon Web Services(AWS)에서 호스팅됩니다. [AWS에 대해 자세히 알아보기](https://aws.amazon.com/application-hosting/benefits/).
 
@@ -109,12 +109,6 @@ Dell은 이러한 마이그레이션을 신속하고 원활하게 수행할 수 
 
 다음으로 Campaign 마이그레이션의 자세한 내용 [Public Cloud FAQ](dc-migration-faq.md).
 
-
-## Gold Standard 인증 여정
-
-각 이정표 간의 유효성 검사 단계를 지원할 것입니다.
-
-![](assets/GS-milestones.png)
 
 ## Public Cloud로의 마이그레이션 경로
 
@@ -216,5 +210,5 @@ Adobe은 새 데이터 센터에 동일한 수의 IP를 프로비저닝합니다
 ## 지원 및 기타 유용한 링크{#support}
 
 * [Adobe Managed Services(Public Cloud)로 마이그레이션 FAQ](dc-migration-faq.md)
-* [Gold Standard 업그레이드](../../rn/using/gs-overview.md)
+* [캠페인 연간 업그레이드](../../rn/using/rn-overview.md)
 * [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)

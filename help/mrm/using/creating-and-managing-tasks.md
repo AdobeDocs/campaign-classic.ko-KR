@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '3729'
 ht-degree: 0%
@@ -103,7 +103,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 클릭 **[!UICONTROL Ok]** 그런 다음 사용률을 입력합니다. 작업 실행 기간 동안 연산자에 할당된 로드를 나타냅니다. 이 비율은 표시 전용이며 백분율로 표시됩니다.
 
-예를 들어 실행 일정이 10일로 설정된 작업의 경우 사용 비율이 50%인 연산자가 10일 동안 작업 시간의 절반을 이 작업에 대해 동원됩니다.
+예를 들어 실행 일정이 10일로 설정된 작업의 경우 사용 비율이 50%인 연산자가 10일 동안 작업 시간의 절반을 이 작업에 동원됩니다.
 
 각 연산자에 대해 스케줄링된 작업 로드와 실제 작업 로드를 입력할 수 있습니다. 이러한 기간은 정보 용도로만 사용됩니다.
 
@@ -325,7 +325,7 @@ A **[!UICONTROL Control task]** 은(는) 배달 승인에 연결되어 있습니
 
 다음 **[!UICONTROL Publish the marketing resource]** 옵션을 사용하면 리소스 게시를 자동화할 수 있습니다. 작업이 **[!UICONTROL Finished]**&#x200B;로 설정하면 리소스의 상태가 자동으로 로 전환됩니다. **[!UICONTROL Published]**&#x200B;을 지정하면 승인 또는 승인을 위해 제출되지 않은 경우에도 작업을 완료하는 검토자가 리소스에 정의된 컨텐츠 검토자가 아닌 경우입니다.
 
-다음 **[!UICONTROL Publish the resource]** 버튼을 사용할 수 있게 되고 리소스 게시 검토자가 게시 준비가 되었음을 알리는 알림 이메일을 수신합니다. 에서 **[!UICONTROL Edit > Tracking]** 탭, 작업 검토자가 검토 및 게시할 수 있습니다. 리소스 사후 처리 워크플로우가 정의된 경우 지금 실행됩니다.
+다음 **[!UICONTROL Publish the resource]** 버튼을 사용할 수 있게 되고 리소스 게시 검토자가 게시할 준비가 되었음을 알리는 알림 이메일을 받게 됩니다. 에서 **[!UICONTROL Edit > Tracking]** 탭, 작업 검토자가 검토 및 게시할 수 있습니다. 리소스 사후 처리 워크플로우가 정의된 경우 지금 실행됩니다.
 
 ![](assets/mrm_resource_audit_tab.png)
 
@@ -472,7 +472,7 @@ A **[!UICONTROL Control task]** 은(는) 배달 승인에 연결되어 있습니
 
    ![](assets/s_ncs_user_task_percentage_done_op.png)
 
-1. 검토자는 운영자가 자신에게 할당된 섹션을 완료했음을 알리는 알림 이메일을 수신하게 됩니다.
+1. 검토자는 운영자가 자신에게 지정된 섹션을 완료했음을 알리는 알림 이메일을 수신하게 됩니다.
 
    작업 대시보드의 진행 상황을 추적할 수 있습니다.
 

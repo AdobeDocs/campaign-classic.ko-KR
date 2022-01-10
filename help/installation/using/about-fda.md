@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a23f66a4822f3c87770c5c9741e91f78778931cb
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 4%
+source-wordcount: '161'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,10 @@ FDA 옵션을 사용하면 데이터 모델을 타사 데이터베이스로 확�
 
 이 기능을 사용하려면 사전 요구 사항이 아래에 나열되어 있습니다.
 
-* **구성**: Snowflake을 제외하고 **온-프레미스** 또는 **하이브리드** 페더레이션 데이터 액세스를 설정할 호스팅 모델. [자세히 알아보기](../../installation/using/hosting-models.md)
-* **외부 데이터베이스 버전**: Adobe Campaign FDA 모듈과 호환되는 외부 데이터베이스가 있어야 합니다. 데이터베이스 시스템 및 호환 버전 목록은 Campaign에 자세히 설명되어 있습니다 [호환성 매트릭스](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
+* **구성**: 호환되는 외부 데이터베이스 목록은 [호스팅 모델](../../installation/using/hosting-models.md).
+* **외부 데이터베이스 버전**: Adobe Campaign FDA 모듈과 호환되는 외부 데이터베이스가 있어야 합니다.
+
+   Campaign에서는 호스팅 모델당 데이터베이스 시스템 및 호환 버전 목록을 자세히 설명합니다 [호환성 매트릭스](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
+
 * **권한**: 사용자도 [필요한 권한](../../installation/using/remote-database-access-rights.md) Adobe Campaign 및 외부 데이터베이스에 있을 때 사용됩니다.
 

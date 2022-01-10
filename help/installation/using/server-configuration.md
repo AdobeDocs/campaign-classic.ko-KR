@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
+source-git-commit: e55fff99fd5dec8da998310dc7026c1a506abadc
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '624'
 ht-degree: 4%
 
 ---
@@ -66,7 +66,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 ## 명령 제한(서버측)
 
-여러 명령이 블랙리스트에 추가되어 execCommand 함수를 사용하여 실행할 수 없습니다. 외부 명령을 실행하기 위해 전용 Unix 사용자가 추가 보안을 제공합니다. 호스팅된 설치의 경우 이 제한이 자동으로 적용됩니다. 온-프레미스 설치의 경우 다음 지침에 따라 이 제한을 수동으로 설정할 수 있습니다. [이 페이지](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). 게다가, **[!UICONTROL Script]** 및 **[!UICONTROL External task]** 워크플로우 활동을 사용할 수 없습니다(새로 설치된 인스턴스).
+여러 명령이에 포함되어 차단 목록 있으므로 execCommand 함수를 사용하여 실행할 수 없습니다. 외부 명령을 실행하기 위해 전용 Unix 사용자가 추가 보안을 제공합니다. 호스팅된 설치의 경우 이 제한이 자동으로 적용됩니다. 온-프레미스 설치의 경우 다음 지침에 따라 이 제한을 수동으로 설정할 수 있습니다. [이 페이지](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). 게다가, **[!UICONTROL Script]** 및 **[!UICONTROL External task]** 워크플로우 활동을 사용할 수 없습니다(새로 설치된 인스턴스).
 
 ## 기타 구성
 

@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 스키마 특성{#schema-characteristics}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 기존 테이블을 참조하는 스키마의 특성은 다음과 같습니다.
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->사용되지 않는 경우에도 표준 수신자 테이블의 필드를 삭제하지 마십시오. 이로 인해 Adobe Campaign 데이터베이스에 동작 오류가 발생할 수 있습니다.
+>기본 제공 수신자 테이블의 필드를 삭제하지 마십시오. 이 필드는 쓸모가 없습니다. 이로 인해 Adobe Campaign 데이터베이스에 동작 오류가 발생할 수 있습니다.
 
 ## 보기 속성 {#the-view-attribute}
 

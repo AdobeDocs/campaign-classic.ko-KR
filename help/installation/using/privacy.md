@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '892'
 ht-degree: 4%
 
 ---
@@ -59,7 +59,7 @@ Adobe Campaign은 GDPR 및 CCPA에 대한 개인 정보 보호 규정을 준수�
 
 또한 Campaign 20.2 이후 및 [!DNL Gold Standard] 릴리스에서는 향상된 기능을 사용하여 이전 빌드에서 생성된 URL을 비활성화할 수 있습니다. 이 기능은 기본적으로 비활성화됩니다. 에 연결할 수 있습니다 [고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 을 클릭하여 이 기능을 활성화합니다.
 
-실행 중인 경우 [!DNL Gold Standard] 19.1.4 추적 링크를 사용하는 푸시 알림 게재 또는 앵커 태그를 사용하는 게재에 문제가 발생할 수 있습니다. 그럴 경우 URL 서명을 비활성화하는 것이 좋습니다.
+19.1.4 빌드에서 실행 중인 경우 추적 링크를 사용한 푸시 알림 게재 또는 앵커 태그를 사용한 게재 문제가 발생할 수 있습니다. 그럴 경우 URL 서명을 비활성화하는 것이 좋습니다.
 
 Campaign을 온-프레미스나 하이브리드 아키텍처에서 실행하든 간에 [고객 지원 센터](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) URL 서명을 사용할 수 없도록 설정했습니다.
 

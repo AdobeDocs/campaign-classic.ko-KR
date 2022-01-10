@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: eef2a12738ce299686857720c3dc8456ffdd0c80
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
-source-wordcount: '2664'
+source-wordcount: '2625'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 ![](../../assets/v7-only.svg)
 
-이 섹션에서는 v5.11 또는 v6.02에서 마이그레이션하는 경우 Adobe Campaign v7에서 수행할 구성에 대해 자세히 설명합니다.
+이 섹션에서는 v5.11 또는 v6.02에서 마이그레이션할 때 Adobe Campaign v7에서 수행할 구성에 대해 자세히 설명합니다.
 
 또한
 
-* v5.11에서 마이그레이션하는 경우 [v5.11의 특정 구성](../../migration/using/specific-configurations-in-v5-11.md) 섹션을 참조하십시오.
-* v6.02에서 마이그레이션하는 경우 [v6.02의 특정 구성](../../migration/using/specific-configurations-in-v6-02.md) 섹션을 참조하십시오.
+* v5.11에서 마이그레이션하는 경우 다음에 자세히 설명된 구성도 완료해야 합니다 [이 섹션](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11).
+* v6.02에서 마이그레이션하는 경우 다음에 자세히 설명된 구성도 완료해야 합니다 [이 섹션](../../migration/using/configuring-your-platform.md#specific-configurations-in-v6-02).
 
 ## 시간대 {#time-zones}
 
@@ -662,12 +662,3 @@ sessionTokenOnly="false"
 ### 익명의 웹 애플리케이션 {#anonymous-web-applications}
 
 문제가 발생하면 웹 애플리케이션을 다시 게시합니다.
-
-## Red-Hat {#red-hat}
-
-v6.02 또는 v5.11에서 기본 제공 스키마가 삭제된 경우 업그레이드 후 스키마를 더 이상 편집할 수 없을 수 있습니다. 이렇게 되면 다음 명령을 실행합니다.
-
-```
-su - neolane
-nlserver config -postupgrade -instance:<instance name> -force
-```

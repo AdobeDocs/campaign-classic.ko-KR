@@ -6,9 +6,9 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 52aa7b268d5eb83354c3a4d8687ced95300538e2
 workflow-type: tm+mt
-source-wordcount: '3253'
+source-wordcount: '3285'
 ht-degree: 4%
 
 ---
@@ -64,6 +64,8 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
    >[!NOTE]
    >
    >예약된 게재는 **[!UICONTROL Take the deliveries into account in the provisional calendar]** 옵션이 선택되어 있습니다. 자세한 내용은 [기간 설정](#setting-the-period).
+   >
+   >이 옵션은 Campaign v8에서는 사용할 수 없습니다.
 
 1. 가장 많은 메시지 수를 계산하는 방법을 정의합니다.
 
@@ -149,28 +151,29 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 
 예를 들어, 매주 2개의 메시지의 임계값을 정의하고 각 달력 월을 그룹화하는 압력 규칙은 동일한 주 내에 2개 이상의 메시지를 전달하지 않고 동일한 달력 월 내에 메시지를 전달하지 못하도록 합니다. 경고: 기간이 2개월과 겹치는 경우 계산 임계값은 이러한 두 달력의 게재를 고려하므로 두 번째 달 동안 모든 새 게재를 방지할 수 있습니다.
 
->[!NOTE]
->
->기본적으로 임계값을 계산할 때 이미 전송된 게재만 고려됩니다. 을(를) 확인합니다. **[!UICONTROL Take the deliveries into account in the provisional calendar]** 관련 기간에 대해 예약된 게재도 고려하려는 경우 선택 사항입니다. 이 경우 고려된 기간이 두 배로 증가하여 이전 게재뿐만 아니라 미래 게재도 통합할 수 있습니다.\
->2주 기간을 고려하여 게재를 제한하려면 다음 중 하나를 수행할 수 있습니다.
->
->* Enter 키 **15d** 에서 **[!UICONTROL Concerned period]** 필드: 규칙이 적용되는 게재 일자 이전 최대 2주 전까지 전송된 게재는 계산에 고려됩니다.
->
->  또는
->
->* Enter 키 **7d** 에서 **[!UICONTROL Period considered]** 필드를 확인하고 **[!UICONTROL Take the deliveries into account in the provisional calendar]**\
-   >옵션: 규칙이 적용되는 게재 일자 이전 최대 7일까지 전송된 게재 및 게재 일자 이후 최대 7일까지 예약된 게재가 계산에 고려됩니다.
->
->기간 시작 날짜는 데이터베이스가 구성되는 방식에 따라 다릅니다.
+기본적으로 임계값을 계산할 때 이미 전송된 게재만 고려됩니다. Campaign Classic v7에서 **[!UICONTROL Take the deliveries into account in the provisional calendar]** 관련 기간에 대해 예약된 게재도 고려하려는 경우 선택 사항입니다. 이 경우 고려된 기간이 두 배로 증가하여 이전 게재뿐만 아니라 미래 게재도 통합할 수 있습니다.
+
+2주 기간을 고려하여 게재를 제한하려면 다음 중 하나를 수행할 수 있습니다.
+
+1. Enter 키 **15d** 에서 **[!UICONTROL Concerned period]** 필드: 규칙이 적용되는 게재 일자 이전 최대 2주 전까지 전송된 게재는 계산에 고려됩니다.
+
+또는
+
+1. Enter 키 **7d** 에서 **[!UICONTROL Period considered]** 필드를 확인하고 **[!UICONTROL Take the deliveries into account in the provisional calendar]** 옵션: 규칙이 적용되는 게재 일자 이전 최대 7일까지 전송된 게재 및 게재 일자 이후 최대 7일까지 예약된 게재가 계산에 고려됩니다.
+
+   >[!AVAILABILITY]
+   >이 메서드는 Campaign v8에서는 사용할 수 없습니다.
+
+기간 시작 날짜는 데이터베이스가 구성되는 방식에 따라 다릅니다.
 
 예를 들어 날짜 12/11 게재에 그룹화하지 않고 15일 압력 규칙을 적용하는 경우 11/27과 12/12 사이에서 게재고려됩니다. 압력 규칙이 임시 달력의 게재를 고려하면 11/27과 12/27 사이에 예약된 모든 게재가 고려됩니다. 마지막으로, 규칙에서 달력 개월당 그룹을 구성하는 경우, 11월과 12월의 모든 게재가 임계값 계산(11/1에서 12/31)을 고려하게 됩니다.
 
->[!CAUTION]
->
->**빈번한 사례**
->현재 달력 주의 게재가 고려되지 않도록 하고, 계산 임계값에 대한 이전 주의 게재도 고려하지 않도록 하려면 을(를) 지정합니다. **[!UICONTROL Period considered]** &#39;0&#39;에서 &#39;1주일 그룹화&#39;를 **[!UICONTROL Period type]**.
-> 
->기간이 0보다 큰 경우(예: 1) 계산 임계값은 이전 날짜의 게재를 고려할 수 있습니다. 따라서 이전 날짜가 이전 달력 주에 해당되고 선택한 기간 유형이 &#39;달력 주당 그룹화&#39;인 경우 계산 임계값에 대해 이전 주가 모두 고려됩니다.
+
+**빈번한 사례**
+
+현재 달력 주의 게재가 고려되지 않도록 하고, 계산 임계값에 대한 이전 주의 게재도 고려하지 않도록 하려면 을(를) 지정합니다. **[!UICONTROL Period considered]** &#39;0&#39;에서 &#39;1주일 그룹화&#39;를 **[!UICONTROL Period type]**.
+
+기간이 0보다 큰 경우(예: 1) 계산 임계값은 이전 날짜의 게재를 고려할 수 있습니다. 따라서 이전 날짜가 이전 달력 주에 해당되고 선택한 기간 유형이 &#39;달력 주당 그룹화&#39;인 경우 계산 임계값에 대해 이전 주가 모두 고려됩니다.
 
 **예제:**
 
@@ -333,6 +336,9 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
    ![](assets/campaign_opt_pressure_example_1.png)
 
    게재 일자 이전 최대 7일까지 전송된 게재 및 게재 일자 이후 최대 7일까지 예약된 게재가 계산에 고려됩니다. 자세한 내용은 [기간 설정](#setting-the-period).
+
+   >[!AVAILABILITY]
+   >Campaign v8에서는 예약된 게재를 고려할 수 없습니다.
 
 1. 에서 **[!UICONTROL Typologies]** 탭에서 규칙을 캠페인 유형화에 연결합니다.
 1. 변경 내용을 저장합니다.

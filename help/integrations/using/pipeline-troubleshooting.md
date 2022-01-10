@@ -5,9 +5,9 @@ description: 통합 구성
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '693'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 사용 중인 Adobe Campaign Classic 버전은 파이프라인을 지원하지 않습니다.
 
 1. 다음을 확인하십시오. [!DNL pipelined] 요소가 구성 파일에 있습니다. 그렇지 않으면 지원되지 않음을 의미합니다.
-1. Campaign 20.3으로 업그레이드 또는 [!DNL Gold Standard] 11.
+1. Campaign 20.3으로 업그레이드 / [!DNL Gold Standard] 11 이상
 
 **에피셀린드(pipeline)이 &quot;애송이 드온컴펜서 파&quot;로 실패했다 `[` ou `{` (iRc=16384)&quot;**
 

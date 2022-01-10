@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 각 **[!UICONTROL Design]** 환경이 **[!UICONTROL Live]** 환경. 오퍼가 완료되면 해당 컨텐츠 및 자격 규칙은 승인 주기에 적용됩니다. 이 주기가 완료되면 관련 오퍼가 자동으로 **[!UICONTROL Live]** 환경. 지금부터 배송이 가능합니다
 
-기본적으로 상호 작용은 **[!UICONTROL Design]** 환경 및 **[!UICONTROL Live]** 환경에 연결된 환경. 두 환경은 즉시 사용 가능한 수신자 테이블을 타겟팅하도록 사전 구성되어 있습니다.
+기본적으로 상호 작용은 **[!UICONTROL Design]** 환경 및 **[!UICONTROL Live]** 환경에 연결된 환경. 두 환경은 기본 제공 수신자 테이블을 타겟으로 미리 구성되어 있습니다.
 
 >[!NOTE]
 >
