@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 0a7cdd53640bb3d96ff9bc2de4aa4c1849e32c83
 workflow-type: tm+mt
 source-wordcount: '1707'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <td>Adobe Analytics 데이터 커넥터<br></td>
    <td><p>Campaign 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터는 사용이 중단됩니다.</p>
    <p>이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../platform/using/adobe-analytics-connector.md">자세히 알아보기</a></p>
-  <p><em>Target 제거 날짜: 2022년 8월 17일</em></p>
+  <p><em>목표 제거일: 2022년 8월 17일</em></p>
   </td>
  </tr>
     <tr>
@@ -62,7 +62,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <td><p>Campaign 21.1 릴리스부터는 기술 게재성 모니터링 보고서가 더 이상 사용되지 않습니다.</p>
    <p>필요한 경우 기능 제거 날짜까지 이 보고서를 이메일로 매일 받을 수 있습니다. 요청하려면 특정 <a href="https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">지원 사례</a>를 열고 인스턴스 이름과 보고서를 보낼 이메일 주소를 지정합니다.</p> 
    <p>Adobe는 인스턴스 전달성 기능을 모니터링하는 최상의 도구를 정의할 경우 게재 팀에 참여할 것을 권합니다.</p>
-  <p><em>Target 제거 날짜: 2022년 초</em></p>
+  <p><em>목표 제거일: 2022년 초</em></p>
   </td>
  </tr>
   <tr>
@@ -70,7 +70,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <td><p> Campaign 20.3 릴리스부터 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O로 이동되었습니다. <p>
   <p>트리거 통합을 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../integrations/using/configuring-adobe-io.md">자세히 알아보기</a></p> 
   <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지</a>를 참조하십시오</p> 
-  <p><em>Target 제거 날짜: 2021년 10월 20일. 호스팅된 환경은 2022년 2월 23일까지 확장의 혜택을 받습니다. </em></p>
+  <p><em>목표 제거일: 2021년 10월 20일 호스팅 환경은 2022년 2월 23일까지 확장 혜택을 받을 수 있습니다. </em></p>
   </td>
   </tr>
  </tbody> 

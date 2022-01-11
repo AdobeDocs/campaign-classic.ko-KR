@@ -8,8 +8,8 @@ level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 630a62c5e5c9782c5c55fdebd651493a2d68fc54
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 ![](../../assets/v7-only.svg)
 
-이 페이지에는 다음과 같은 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다 **최신 Campaign Classic v7 릴리스**. 모든 새 빌드는 색상으로 구체화된 상태를 제공합니다. 에서 Campaign Classic v7 빌드 상태에 대해 자세히 알아보십시오 [이 페이지](rn-overview.md).
+이 페이지에서는 **최신 Campaign v7 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다. 모든 새 빌드는 색상으로 상태가 표시됩니다. [이 페이지](rn-overview.md)에서 Campaign Classic v7 빌드 상태에 대해 자세히 알아보십시오.
 
 ## ![](assets/do-not-localize/green_2.png) 릴리스 7.2.1 - 빌드 9346 {#release-7-2-1}
 
@@ -27,7 +27,7 @@ _2022년 1월 10일_
 
 FDA 계정에 몇 가지 보안 기능이 개선되었습니다.
 
-* 이제 ODBC 드라이버는 Adobe Campaign 타사 과 함께 직접 설치됩니다. 이러한 드라이버를 설치하는 데 더 이상 수동 단계가 필요하지 않습니다.
+* 이제 ODBC 드라이버는 Adobe Campaign 서드파티로 바로 설치됩니다. 이러한 드라이버를 설치하는 데 더 이상 수동 단계가 필요하지 않습니다.
 * 이제 FDA 외부 계정을 구성할 때 향상된 인증 보안을 위해 키 쌍 인증을 사용하여 Snowflake 계정에 로그인할 수 있습니다. [자세히 표시](../../installation/using/configure-fda-snowflake.md)
 * 이제 FDA 외부 계정을 구성할 때 시스템에서 할당한 관리 ID를 사용하여 Azure synapse Analytics 계정에 로그인할 수 있습니다. [자세히 표시](../../installation/using/configure-fda-synapse.md#azure-external)
 * 최적의 보안을 위해 log4j 라이브러리에 대한 모든 참조가 Campaign에서 제거되었습니다.
@@ -49,7 +49,7 @@ FDA 계정에 몇 가지 보안 기능이 개선되었습니다.
 
 **기타 변경 사항**
 
-* 사용 중단 이후 Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동이 인터페이스에서 제거되었습니다. Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성하려면 CRM 커넥터 활동을 사용할 수 있습니다. [자세히 표시](../../workflow/using/crm-connector.md)
+* 사용 중단 이후 Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동이 인터페이스에서 제거되었습니다. CRM 커넥터 활동을 사용하여 Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성할 수 있습니다. [자세히 표시](../../workflow/using/crm-connector.md)
 * 다음 **[!UICONTROL Encrypted identifier]** 필드가 방문자 스키마(nms:visitor)에 추가되었습니다. 이 필드는 계산되며 웹 애플리케이션에 사용할 수 있습니다. 이 기능은 중간 소싱 인스턴스에서 라인 채널이 구성된 경우에 적용됩니다.
 * 이제 CRM 데이터 소스를 **데이터 소스 변경** 활동.
 * 에 새로운 옵션이 추가되었습니다 **오류 관리** 워크플로우 활동 속성: 다음 **오류 시 중단** 옵션이 자동으로 워크플로우를 중지합니다. 나중에 다시 시작할 수 없습니다(NEO-29661). [자세히 표시](../../workflow/using/advanced-parameters.md#in-case-of-errors)

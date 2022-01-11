@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 87067a0cca1a4a7f8ea1137ece6d513d58fcdb42
 workflow-type: tm+mt
-source-wordcount: '4796'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,9 +47,9 @@ CRM 커넥터 활동에 일괄 업데이트 옵션이 추가되었습니다. [�
 
 ### 2021년 12월{#dec-2021}
 
-Campaign Classic v7 릴리스 노트가 탐색 간소화를 위해 재구성되었습니다. [자세히 표시](rn-overview.md)
+Campaign Classic v7 릴리스 정보가 탐색 간소화를 위해 재구성되었습니다. [자세히 표시](rn-overview.md)
 
-Campaign의 양식 편집에 대한 설명서를 업데이트 및 개선했습니다. [자세히 표시](../../configuration/using/editing-forms.md)
+Campaign의 양식 편집에 대한 설명서를 업데이트하고 개선했습니다. [자세히 표시](../../configuration/using/editing-forms.md)
 
 CentOs 8은 수명이 종료되었으며 이제 Adobe Campaign Classic에서 더 이상 사용되지 않습니다. [자세히 표시](deprecated-features.md)
 
@@ -61,7 +61,7 @@ CRM 커넥터 배포에 대한 마이그레이션 프로세스 로그 세부 정
 
 Adobe Campaign-Adobe Analytics 통합을 구현하기 위한 IMS 권한에 대한 요구 사항이 추가되었습니다. [자세히 표시](../../platform/using/adobe-analytics-provisioning.md)
 
-Adobe Analytics Data Connector 종료 날짜를 2022년 3월 1일에서 2022년 8월 17일로 업데이트했습니다. [자세히 표시](deprecated-features.md)
+Adobe Analytics Data Connector 수명 종료 날짜를 2022년 3월 1일에서 2022년 8월 17일로 업데이트했습니다. [자세히 표시](deprecated-features.md)
 
 Launch에서 Campaign 확장을 구성하는 방법을 학습하기 위해 Adobe Experience Platform 모바일 SDK 설명서에 대한 링크를 추가했습니다. [자세히 표시](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
 
@@ -202,7 +202,7 @@ Adobe Campaign Enhanced MTA 섹션이 [여기](../../delivery/using/sending-with
 
 
 
-## 2020년
+## 2020
 
 ### 2020년 12월 {#dec-2020}
 

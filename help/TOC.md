@@ -24,7 +24,7 @@ ht-degree: 98%
    + 이전 릴리스 {#previous-releases}
       + [[!DNL Gold Standard]](rn/using/gold-standard.md)
       + [2021년](rn/using/release--2021.md)
-      + [2020년](rn/using/release--2020.md)
+      + [2020](rn/using/release--2020.md)
       + [2019](rn/using/release--2019.md)
       + [2018](rn/using/release--2018.md)
    + [사용되지 않는 기능](rn/using/deprecated-features.md)
@@ -834,7 +834,7 @@ ht-degree: 98%
       + [기술 노트](technotes/using/technote.md)
       + [Campaign 구성 업데이트](technotes/using/acc-config-updates.md)
       + [IMS 업데이트](technotes/using/ims-updates.md)
-      + [TLS 1.0 및 1.1 지원 종료](technotes/using/eol-tls-support.md)
+      + [TLS 1.0 및 1.1 수명 종료](technotes/using/eol-tls-support.md)
    + 이메일 및 푸시 알림{#technotes-email}
       + [Apple iOS의 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)
       + [Apple 메일 개인 정보 보호 FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ko)
@@ -844,4 +844,4 @@ ht-degree: 98%
    + Adobe Managed Services로 마이그레이션{#dc-migration}
       + [공개 클라우드로 마이그레이션](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
-+ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
++ [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
