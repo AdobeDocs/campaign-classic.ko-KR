@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 0a7cdd53640bb3d96ff9bc2de4aa4c1849e32c83
+source-git-commit: 966da123b30278817ca465ac5dfe1f733c4d6c5c
 workflow-type: tm+mt
 source-wordcount: '1707'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <td><p> Campaign 20.3 릴리스부터 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O로 이동되었습니다. <p>
   <p>트리거 통합을 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../integrations/using/configuring-adobe-io.md">자세히 알아보기</a></p> 
   <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지</a>를 참조하십시오</p> 
-  <p><em>목표 제거일: 2021년 10월 20일 호스팅 환경은 2022년 2월 23일까지 확장 혜택을 받을 수 있습니다. </em></p>
+  <p><em>목표 제거일: 2021년 10월 20일 호스팅된 환경은 2022년 5월 25일까지 확장의 혜택을 받습니다. </em></p>
   </td>
   </tr>
  </tbody> 

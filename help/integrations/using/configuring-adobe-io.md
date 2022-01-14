@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 8789571c9cf9ca857777fe5c03c355200c466789
+source-git-commit: 966da123b30278817ca465ac5dfe1f733c4d6c5c
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 >oAuth 인증을 통해 이전 버전의 트리거 통합을 사용하는 경우, **아래에 설명된 대로 Adobe I/O으로 이동해야 합니다**.
 >이 이동 중에 [!DNL Adobe I/O]로 설정되면 일부 수신 트리거가 손실될 수 있습니다.
 >
->Campaign을 사용하는 이전 oAuth 인증 모드가 다음 기간 동안 중단되었습니다 **2021년 10월 20일**. 호스팅된 환경은 확장 프로그램을 통해  **2022년 2월 23일**. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. 다음을 수행해야 합니다. [oaUth 애플리케이션의 AppID를 제공합니다.](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) Adobe에 연결할 수도 있습니다.
+>Campaign을 사용하는 이전 oAuth 인증 모드가 다음 기간 동안 중단되었습니다 **2021년 10월 20일**. 호스팅된 환경은 확장 프로그램을 통해 **2022년 5월 25일**. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 연락하여 지원 범위를 로 확장합니다. **2022년 5월**. 다음을 수행해야 합니다. [oaUth 애플리케이션의 AppID를 제공합니다.](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) Adobe에 연결할 수도 있습니다.
 
 ## 필수 구성 요소 {#adobe-io-prerequisites}
 
