@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 �
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2556'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
    + [최신 릴리스](rn/using/latest-release.md)
    + 이전 릴리스 {#previous-releases}
       + [[!DNL Gold Standard]](rn/using/gold-standard.md)
-      + [2021년](rn/using/release--2021.md)
+      + [2021](rn/using/release--2021.md)
       + [2020](rn/using/release--2020.md)
       + [2019](rn/using/release--2019.md)
       + [2018](rn/using/release--2018.md)
@@ -818,10 +818,10 @@ ht-degree: 98%
       + [모든 방문 수집](configuration/using/collecting-all-visits.md)
       + [익명 추적](configuration/using/anonymous-tracking.md)
 + 마이그레이션 안내서 {#migrating-to-a-new-version}
-   + [Adobe Campaign v7로 마이그레이션](migration/using/about-migration.md)
+   + [Adobe Campaign v7로 마이그레이션하기](migration/using/about-migration.md)
    + 마이그레이션 절차 {#migration-procedure}
-      + [필수 구성 요소](migration/using/before-starting-migration.md)
-      + [마이그레이션 테스트 기본 정보](migration/using/testing-the-migration.md)
+      + [전제 조건](migration/using/before-starting-migration.md)
+      + [마이그레이션 테스트 정보](migration/using/testing-the-migration.md)
       + [구성 조정](migration/using/configuring-your-platform.md)
    + 마이그레이션 시작 {#migrating-to-adobe-campaign-7}
       + [Microsoft Windows 플랫폼 마이그레이션](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
