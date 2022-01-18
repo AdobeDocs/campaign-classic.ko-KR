@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ ht-degree: 89%
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016년</p>
+<p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers">자세히 알아보기</a></p>
@@ -188,30 +188,30 @@ Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다
 
 ## FDA(Federated Data Access){#FederatedDataAccessFDA}
 
-Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda.md)과 호환되는 외부 데이터베이스 목록은 다음과 같습니다. 호환성은 [호스팅 모델](../../installation/using/hosting-models.md).
+Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda.md)과 호환되는 외부 데이터베이스 목록은 다음과 같습니다. 호환성은 [호스팅 모델](../../installation/using/hosting-models.md)에 따라 다릅니다.
 
-**Managed Services** (호스팅), **하이브리드** 및 **On-premise** 환경에서는 다음 외부 데이터베이스 시스템과 Campaign을 연결할 수 있습니다.
+**Managed Services**(호스팅), **하이브리드**, **온프레미스** 환경에서는 다음 외부 데이터베이스 시스템과 Campaign을 연결할 수 있습니다.
 
 <table>
 <tbody>
 <td><strong>데이터베이스 시스템</strong></td>
 <td><strong>데이터베이스 버전</strong></td>
-<td><strong>캠페인 버전</strong></td>
+<td><strong>Campaign 버전</strong></td>
 <tr>
 <tr>
 <td>Snowflake</td>
 <td> </td>
-<td>7.2.1 최소</td>
+<td>최소 7.2.1</td>
 </tr>
 <tr>
 <td>Google BigQuery</td>
 <td> </td>
-<td>7.2.1 최소</td>
+<td>최소 7.2.1</td>
 </tr>
 <tr>
 <td>Amazon Redshift</td>
 <td><p> </p>
-<td>v7.0 19.1.4최소</td>
+<td>최소 v7.0 19.1.4</td>
 </td>
 </tr>
 <tr>
@@ -225,27 +225,27 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>9.5.x</p>
 <p>9.4.x</p>
 </td>
-<td>v7.0 19.1.4 최소</td>
+<td>최소 v7.0 19.1.4</td>
 </tr>
 </tbody>
 </table>
 
-게다가, **하이브리드** 및 **On-premise** 환경에서도 Campaign을 다음과 연결할 수 있습니다.
+또한 **하이브리드** 및 **온프레미스** 환경에서는 Campaign을 다음과도 연결할 수 있습니다.
 
 <table>
 <tbody>
 <td><strong>데이터베이스 시스템</strong></td>
 <td><strong>데이터베이스 버전</strong></td>
-<td><strong>캠페인 버전</strong></td>
+<td><strong>Campaign 버전</strong></td>
 <tr>
 <td>Vertica</td>
 <td> </td>
-<td>v7.0 19.1.4 최소</td>
+<td>최소 v7.0 19.1.4</td>
 </tr>
 <tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td> </td>
-<td>v7.0 19.1.4 최소</td>
+<td>최소 v7.0 19.1.4</td>
 </tr>
 <tr>
 <td>Oracle</td>
@@ -255,23 +255,23 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>12c</p>
 <p>11g</p>
 </td>
-<td>v7.0 최소</td>
+<td>최소 v7.0</td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019년</p>
-<p>2017년</p>
-<p>2016년</p>
-<p>2014년</p>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
 <p>2012 SP1 및 SP2</p>
 </td>
-<td>v7.0 최소</td>
+<td>최소 v7.0</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
 <p>5.7</p>
 </td>
-<td>v7.0 최소</td>
+<td>최소 v7.0</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -281,14 +281,14 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>15.10</p>
 <p>15.0</p>
 </td>
-<td>v7.0 최소</td>
+<td>최소 v7.0</td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
 <p>7.2</p>
 </td>
-<td>v7.0 최소</td>
+<td>최소 v7.0</td>
 </tr>
 <tr>
 <td>Sybase</td>
@@ -296,14 +296,14 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>IQ 16</p>
 <p>ASE 15.7</p>
 </td>
-<td>v7.0 최소</td>
+<td>최소 v7.0</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
 <td>
 <p>버전 1 SPS 12</p>
 </td>
-<td>v7.0 최소</td>
+<td>최소 v7.0</td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
 <td>
@@ -311,7 +311,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)</p>
 <p>Cloudera CDH6.x</p>
 </td>
-<td>v7.0 최소</td>
+<td>최소 v7.0</td>
 </tr>
 </tbody>
 </table>
@@ -331,8 +331,8 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016년</p>
-<p>2012년</p>
+<p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>
