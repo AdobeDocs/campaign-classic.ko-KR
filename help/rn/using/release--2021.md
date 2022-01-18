@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 source-git-commit: babb585438a6e467afad74391035059f7b12a6ec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2540'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 ## 릴리스 7.1(21.1)
 
 >[!CAUTION]
->를 사용하십시오 **[!UICONTROL Help > About...]** 메뉴를 사용하여 Adobe Campaign 확인 [버전 및 빌드 번호](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). 그러나 이 페이지에 나열된 9277~9343의 모든 빌드에 대한 버전 번호는 7.1이 아니라 7.0으로 표시됩니다.
+>**[!UICONTROL Help > About...]** 메뉴를 사용하여 Adobe Campaign의 [버전 및 빌드 번호](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)를 확인하세요. 그러나 이 페이지에 나열된 9277~9343의 모든 빌드에 대한 버전 번호는 7.1이 아니라 7.0으로 표시됩니다.
 
 ### ![](assets/do-not-localize/limited_2.png) 릴리스 21.1.4 - 빌드 9343 {#release-21-1-4-build-9343}
 
@@ -150,7 +150,7 @@ _2021년 6월 5일_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>이제 Adobe Campaign Classic 인스턴스를 Google Big Query 외부 데이터베이스에 연결할 수 있습니다. 이 연결은 새 외부 계정을 통해 관리됩니다.
+<td> <p>이제 Adobe Campaign Classic 인스턴스를 Google BigQuery 외부 데이터베이스에 연결할 수 있습니다. 이 연결은 새 외부 계정을 통해 관리됩니다.
 </p>
 <p>자세한 내용은 <a href="../../installation/using/configure-fda-google-big-query.md">세부 설명서</a>를 참조하십시오.</p>
 </td> 
