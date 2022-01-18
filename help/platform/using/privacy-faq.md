@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
 ht-degree: 100%
 
@@ -110,7 +110,7 @@ Adobe Campaign에서 기록은 외부 데이터 소스에서 업로드되는 경
 
 ## 다시 옵트인 {#opt-in-again}
 
-### Adobe Campaign에서 데이터가 지워진 데이터 주체가 나중에 다시 옵트인할 수 있습니까?
+### Adobe Campaign에서 데이터가 지워진 데이터 주체가 나중에 다시 옵트인할 수 있나요?
 
 데이터 주체는 데이터가 Adobe Campaign에서 삭제된 후 다시 옵트인하거나 새 수신자로 추가될 수 있습니다.
 
