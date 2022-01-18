@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '886'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Adobe Campaign을 사용하면 개인정보 보호 준비를 원활히 수행할
 
 * 데이터 삭제라고도 하는 **잊혀질 권리**(삭제 요청)는 데이터 주체에게 자신의 개인 데이터를 지우고, 데이터의 추가 배포를 중단하고, 제3자로 하여금 데이터 처리를 중단하도록 할 수 있는 권한을 부여합니다.
 
-**액세스** 및 **삭제** 요청을 만드는 방법과 Adobe Campaign에서 요청을 처리하는 방법에 대해 알아보려면 [구현 단계](../../platform/using/privacy-requests.md)를 참조하십시오.
+**액세스** 및 **삭제** 요청을 만드는 방법과 Adobe Campaign에서 이 요청을 처리하는 원리는 [구현 단계](../../platform/using/privacy-requests.md)를 참조하세요.
 
 <!--Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
 https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en-->
