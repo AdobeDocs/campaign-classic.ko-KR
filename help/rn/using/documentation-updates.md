@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 87067a0cca1a4a7f8ea1137ece6d513d58fcdb42
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '4796'
+ht-degree: 100%
 
 ---
 
@@ -23,27 +23,27 @@ ht-degree: 0%
 
 ## 2022년
 
-### 년 1월
+### 1월
 
-**릴리스 7.2.1와 함께 제공되는 설명서 업데이트**
+**릴리스 7.2.1에 따른 설명서 업데이트**
 
-호환성 매트릭스가 업데이트되었습니다. [자세히 표시](compatibility-matrix.md)
+호환성 매트릭스를 업데이트했습니다. [자세히 표시](compatibility-matrix.md)
 
-릴리스 노트 섹션이 업데이트되었습니다. [자세히 표시](rn-overview.md)
+릴리스 정보 섹션을 업데이트했습니다. [자세히 표시](rn-overview.md)
 
 Snowflake에 대한 FDA 외부 계정 구성을 업데이트했습니다. [자세히 표시](../../installation/using/configure-fda-snowflake.md)
 
-Analytics에 대한 FDA 외부 계정 구성이 업데이트되었습니다. [자세히 표시](../../installation/using/configure-fda-synapse.md#azure-external)
+Analytics에 대한 FDA 외부 계정 구성을 업데이트했습니다. [자세히 표시](../../installation/using/configure-fda-synapse.md#azure-external)
 
-Google BigQuery FDA 커넥터를 업데이트했습니다. [자세히 표시](../../installation/using/configure-fda-google-big-query.md)
+Google BigQuery FDA Connector를 업데이트했습니다. [자세히 표시](../../installation/using/configure-fda-google-big-query.md)
 
-사용 중단 이후 Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동이 설명서에서 제거되었습니다.
+Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동의 사용이 중단됨에 따라 해당 항목을 설명서에서 제거했습니다.
 
-새 옵션 **오류 시 중단** 워크플로우 오류 관리 섹션에 추가되었습니다. [자세히 표시](../../workflow/using/advanced-parameters.md#in-case-of-errors)
+새로운 옵션 **오류 시 중단**&#x200B;을 워크플로우 오류 관리 섹션에 추가했습니다. [자세히 표시](../../workflow/using/advanced-parameters.md#in-case-of-errors)
 
-CRM 커넥터 활동에 일괄 업데이트 옵션이 추가되었습니다. [자세히 표시](../../workflow/using/crm-connector.md)
+CRM 커넥터 활동에 일괄 업데이트 옵션을 추가했습니다. [자세히 표시](../../workflow/using/crm-connector.md)
 
-## 2021년
+## 2021
 
 ### 2021년 12월{#dec-2021}
 
@@ -112,7 +112,7 @@ LINE 채널 개선 사항 - [자세히 알아보기](../../delivery/using/line-c
 
 새 Vertica FDA 커넥터 - [자세히 알아보기](../../installation/using/configure-fda-vertica.md)
 
-새로운 Google BigQuery FDA 커넥터 - [추가 정보](../../installation/using/configure-fda-google-big-query.md)
+새로운 Google BigQuery FDA 커넥터 - [자세히 알아보기](../../installation/using/configure-fda-google-big-query.md)
 
 이제 &quot;청구(billing)&quot; 기술 워크플로우 설명에 원래는 &quot;활성 청구 프로필 수(billingActiveContactCount)&quot;에 의해 수행되는 작업이 포함됩니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
 
@@ -202,7 +202,7 @@ Adobe Campaign Enhanced MTA 섹션이 [여기](../../delivery/using/sending-with
 
 
 
-## 2020
+## 2020년
 
 ### 2020년 12월 {#dec-2020}
 
@@ -252,7 +252,7 @@ Android용 푸시 알림 개선 - [자세한 내용](../../delivery/using/config
 
 사용되지 않거나 제거된 기능 페이지가 업데이트되었습니다. [자세한 내용](../../rn/using/deprecated-features.md)
 
-용 릴리스 노트 및 호환성 매트릭스 [!DNL Gold Standard] 이제 전용 페이지에서 릴리스를 사용할 수 있습니다.
+[!DNL Gold Standard] 릴리스의 릴리스 정보 및 호환성 매트릭스를 이제 전용 섹션에서 확인할 수 있습니다.
 [자세한 내용](../../rn/using/gold-standard.md).
 
 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합이 변경되었으며 Adobe I/O로 이동되었습니다. [자세히 알아보기](../../integrations/using/configuring-adobe-io.md)
@@ -450,7 +450,7 @@ Hadoop FDA 커넥터 개선 사항 - [자세한 내용](../../installation/using
 
 설치 안내서를 업데이트하고 호환성 매트릭스 최신 버전에 맞추었습니다. 새로 지원하는 시스템을 추가했습니다. 사용 중단 및 미지원 시스템을 제거했습니다. [자세한 내용](../../installation/using/general-architecture.md)
 
-호환성 매트릭스가 Hadoop 3.0 및 Snowflake FDA 커넥터로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+호환성 매트릭스가 Hadoop 3.0 및 Snowflake FDA 커넥터로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
 설치 안내서에 IP 선호도에 대한 모범 사례가 추가되었습니다. [자세한 내용](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -468,7 +468,7 @@ URL 보고서 구성에 대한 새 매개 변수가 [여기](../../reporting/usi
 
 **Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스** 페이지가 새로운 FDA 커넥터로 업데이트되었습니다. [자세한 내용](../../installation/using/capability-matrix.md).
 
-**Campaign Classic 기능 매트릭스** 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+**Campaign Classic 기능 매트릭스** 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
 새 **[!UICONTROL Cleanup of Nmsaddress]** 워크플로우는 [여기에](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress) 설명되어 있습니다.
 
@@ -496,7 +496,7 @@ URL 보고서 구성에 대한 새 매개 변수가 [여기](../../reporting/usi
 
 워크플로우에서 인스턴스 변수를 사용하는 방법의 예가 추가되었습니다. [자세한 내용](../../workflow/using/javascript-scripts-and-templates.md)
 
-## 2019
+## 2019년
 
 ### 2019년 12월 {#december-2019}
 
@@ -520,7 +520,7 @@ TLS(보안 SMS 메시지) - [자세한 내용](https://helpx.adobe.com/kr/campai
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-Adobe Campaign Enhanced MTA 설명서를 사용할 수 있습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA 설명서를 사용할 수 있습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acc-campaign-enhanced-mta.html)
 
 캠페인 내의 &quot;가능한 한 빨리 시작&quot; 상태에 있는 워크플로우 문제 해결 방법에 대한 새 섹션이 추가되었습니다. [자세한 내용](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -582,7 +582,7 @@ Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이
 
 **19.1 릴리스에 포함된 새로운 기능**
 
-제어판 - [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+제어판 - [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 
 감사 추적 - [자세한 내용](../../production/using/audit-trail.md)
 
@@ -606,7 +606,7 @@ Campaign 서버 제거 단계를 설명하는 섹션이 추가되었습니다. [
 
 Marketing Cloud Trigger 기술 정보가 업데이트되었습니다. [자세한 내용](../../integrations/using/about-triggers.md)
 
-오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
+오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
 
 트랜잭션 메시지을 위한 SOAP 인증 방법에 대한 자세한 내용을 추가했습니다. [자세한 내용](../../message-center/using/event-description.md)
 
@@ -645,7 +645,7 @@ Campaign Classic에서 사용할 수 있는 다른 외부 계정 및 이를 구�
 공유 대상 통합에 대한 설명서가 업데이트되었습니다.
 [자세한 내용](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-다음 기술 정보가 업데이트되었습니다. [SMS 커넥터 프로토콜 및 설정](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) 및 [시퀀스 자동 생성](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
+다음 기술 정보가 업데이트되었습니다. [SMS 커넥터 프로토콜 및 설정](https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html) 및 [시퀀스 자동 생성](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
 기술 워크플로우 섹션이 업데이트되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
 
