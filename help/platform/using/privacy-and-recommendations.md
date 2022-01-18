@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2032'
 ht-degree: 100%
 
@@ -151,7 +151,7 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 * **잊혀질 권리**(삭제 요청)는 데이터 주체가 자신의 개인 데이터를 삭제하도록 권한을 부여합니다.
 
-**액세스** 및 **삭제** 요청이 [이 섹션](../../platform/using/privacy-management.md#right-access-forgotten)에 표시됩니다.
+**액세스** 및 **삭제** 요청은 [이 섹션](../../platform/using/privacy-management.md#right-access-forgotten)에서 다루고 있습니다.
 
 이러한 요청을 만드는 구현 단계는 [이 섹션](../../platform/using/privacy-requests.md)에 자세히 설명되어 있습니다.
 
