@@ -26,7 +26,7 @@ ht-degree: 3%
 >
 >Campaign을 사용하는 이전 oAuth 인증 모드가 다음 기간 동안 중단되었습니다 **2021년 10월 20일**. 호스팅된 환경은 확장 프로그램을 통해 **2022년 5월 25일**. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 연락하여 지원 범위를 로 확장합니다. **2022년 5월**. 다음을 수행해야 합니다. [oaUth 애플리케이션의 AppID를 제공합니다.](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) Adobe에 연결할 수도 있습니다.
 
-## 필수 구성 요소 {#adobe-io-prerequisites}
+## 전제 조건 {#adobe-io-prerequisites}
 
 이 통합은 시작만 적용됩니다 **Campaign Classic 20.2.4 이상, 19.1.8 및 Gold Standard 11 릴리스**.
 

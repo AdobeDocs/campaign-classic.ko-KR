@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 035297523c25061f28751c28df86d562f40f45ea
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1157'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 ## LINE 채널 설정 {#setting-up-line-channel}
 
-만들기 전 [!DNL LINE] 계정 및 외부 계정에서는 먼저 인스턴스에 LINE 패키지를 설치해야 합니다. 자세한 내용은 [라인](../../installation/using/installing-campaign-standard-packages.md#line-package) 섹션을 참조하십시오.
+만들기 전 [!DNL LINE] 계정 및 외부 계정에서는 먼저 인스턴스에 LINE 패키지를 설치해야 합니다. 자세한 내용은 [이 섹션](../../installation/using/installing-campaign-standard-packages.md#line-package).
 
 먼저 을(를) 만들어야 합니다 [!DNL LINE] 활성화하여 Adobe Campaign에 연결할 수 있습니다. 그러면 [!DNL LINE] 메시지를 추가한 사용자에게 보냅니다. [!DNL LINE] 모바일 애플리케이션에서 계정을 사용할 수 있습니다. 외부 계정 및 [!DNL LINE] 플랫폼의 기능 관리자만 계정을 관리할 수 있습니다.
 

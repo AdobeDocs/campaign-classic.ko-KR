@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 6c23dadb5b6523e17e242de43a908ca86ed7cc23
+source-git-commit: 035297523c25061f28751c28df86d562f40f45ea
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1254'
 ht-degree: 6%
 
 ---
@@ -241,7 +241,7 @@ ht-degree: 6%
 
 ### 메시지 센터 패키지 {#message-center-package}
 
-게재 채널(이메일, 모바일 채널, 모바일 앱 채널 등)을 설치해야 합니다. 트랜잭션 메시지(메시지 센터 패키지)를 설치하기 전에 이메일 전용 메시지 센터 프로젝트를 시작하고 나중에 새 채널을 추가해야 하는 경우 다음 단계를 수행해야 합니다.
+게재 채널(이메일, 모바일 채널, 모바일 앱 채널, LINE 등)을 설치해야 합니다. 트랜잭션 메시지(메시지 센터 패키지)를 설치하기 전에 이메일 전용 메시지 센터 프로젝트를 시작하고 나중에 새 채널을 추가해야 하는 경우 다음 단계를 수행해야 합니다.
 
 1. 새 채널을 설치합니다(예: **모바일 채널**&#x200B;패키지 가져오기 마법사 사용( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
 1. 파일 가져오기( **[!UICONTROL Tools > Advanced > Import package > File]**).
@@ -254,6 +254,19 @@ ht-degree: 6%
 
    ![](assets/messagecenter_install_channel.png)
 
+
+### [!DNL LINE] 채널 설정{#line-package}
+
+을(를) 설정하려면 다음을 수행하십시오 [!DNL LINE] channel을 먼저 설치해야 합니다. [!DNL LINE] 패키지.
+
+중간 소싱 구성 컨텍스트에서 다음을 수행해야 합니다.
+
+* 설치 [!DNL LINE] 마케팅 및 MID 인스턴스 둘 다에 패키지
+
+* 설정 [!DNL LINE] 게재 모드를 변경하여 mid 인스턴스를 가리키도록 mkt 인스턴스의 외부 계정입니다. [자세히 알아보기](../../delivery/using/line-channel.md#configure-line-external)
+
+* 설정 [!DNL LINE] MID 인스턴스에 있는 외부 계정의 자격 증명입니다.
+
 >[!CAUTION]
 >
->LINE 이전에 메시지 센터 패키지를 설치한 경우 LINE용 메시지 센터 게재 템플릿을 사용할 수 없습니다
+>에 대한 메시지 센터 게재 템플릿 [!DNL LINE] 이전에 메시지 센터 패키지를 설치한 경우에는 채널을 사용할 수 없습니다 [!DNL LINE].
