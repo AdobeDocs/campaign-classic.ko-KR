@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: 035297523c25061f28751c28df86d562f40f45ea
+source-git-commit: ad75b8050133b331f6fbfa5042a444a874ba3cb4
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1148'
 ht-degree: 2%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 2%
 # LINE 게재 만들기{#line-channel}
 
 ![](../../assets/common.svg)
-
->[!NOTE]
->
->[!DNL LINE] 은 온-프레미스 또는 관리 서비스 설치에만 사용할 수 있습니다.
 
 [!DNL LINE] 은 모든 모바일 OS와 PC에서 사용할 수 있는 무료 인스턴트 메시징, 음성 및 비디오 호출을 위한 애플리케이션입니다.
 
