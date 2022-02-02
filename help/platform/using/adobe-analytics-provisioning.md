@@ -7,9 +7,9 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 671e29425e8962ced833c10303b6edce7afda462
+source-git-commit: 9ee95f6d60500b18e242c6d648488615f47a4459
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '646'
 ht-degree: 4%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 4%
 
 Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 IMS(Adobe Identity Management Service)를 지원합니다.
 
-* 마이그레이션된 외부 계정을 관리하는 경우, Adobe IMS를 구현하고 Adobe ID을 통해 Adobe Campaign에 연결해야 합니다. Adobe ID IMS를 통해 로그인한 사용자는 **데이터 커넥터** Adobe Analytics의 계정을 설정하고 **제품 프로필** 아래에 언급되어 있습니다.
+* If you are managing a migrated external account, you must implement Adobe IMS and connect to Adobe Campaign via an Adobe ID. Adobe ID IMS를 통해 로그인한 사용자는 **데이터 커넥터** Adobe Analytics의 계정을 설정하고 **제품 프로필** 아래에 언급되어 있습니다.
 
 * 새 커넥터를 구현하는 경우 Adobe IMS 구현을 선택 사항입니다. Adobe ID 사용자가 없으면 Adobe Campaign은 기술 사용자를 사용하여 Adobe Analytics과 동기화합니다.
 
-이 통합이 작동하려면 Analytics 커넥터에만 사용되는 Adobe Analytics 제품 프로필을 만들어야 합니다. 그런 다음 Adobe I/O 프로젝트를 만들어야 합니다.
+For this integration to work, you have to create an Adobe Analytics product profile which will be used exclusively for the Analytics connector. 그런 다음 Adobe I/O 프로젝트를 만들어야 합니다.
 
 ## Adobe Analytics 제품 프로필 만들기 {#analytics-product-profile}
 
@@ -38,7 +38,7 @@ Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 IMS(Adobe Iden
 
 이미 Analytics 제품 프로필이 있는 경우 Analytics 커넥터에만 사용되는 새 Adobe Analytics 제품 프로필을 만들어야 합니다. 이렇게 하면 제품 프로필이 이 통합에 대한 올바른 권한으로 설정되어 있는지 확인할 수 있습니다.
 
-제품 프로필에 대한 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/mt/enterprise/admin-guide.html).
+For more information on Product profiles, refer to the [Admin console documentation](https://helpx.adobe.com/mt/enterprise/admin-guide.html).
 
 1. 에서 [Admin Console](https://adminconsole.adobe.com/), Adobe Analytics 선택 **[!UICONTROL Product]**.
 
@@ -96,7 +96,7 @@ Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 IMS(Adobe Iden
 
 ## Adobe I/O 프로젝트 만들기 {#create-adobe-io}
 
-1. Adobe I/O에 액세스하고 **시스템 관리자** IMS 조직의
+1. Access Adobe I/O and log in as **System Administrator** of the IMS Organization.
 
    관리자 역할에 대한 자세한 내용은 다음을 참조하십시오 [페이지](https://helpx.adobe.com/enterprise/using/admin-roles.html).
 
@@ -141,10 +141,21 @@ Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 IMS(Adobe Iden
 
    ![](assets/do-not-localize/triggers_12.png)
 
-1. 다음 명령을 사용하여 이 서비스 계정 자격 증명을 nlserver에 붙여 넣습니다.
+1. 6단계에서 생성된 개인 키를 사용합니다.
+
+   이러한 자격 증명을 사용하여 트리거를 이미 설정한 경우 이 커넥터 구성에 대해 개인 키가 동일해야 합니다.
+
+1. 다음 명령을 사용하여 개인 키를 인코딩합니다. `base64 ./private.key > private.key.base64`. This will save the base64 content to a new file `private.key.base64`.
+
+   >[!NOTE]
+   >
+   >개인 키를 복사/붙여넣을 때 추가 줄이 자동으로 추가되는 경우가 있습니다. 개인 키를 인코딩하기 전에 제거해야 합니다.
+
+1. 파일에서 내용을 복사합니다. `private.key.base64`.
+
+1. Adobe Campaign 인스턴스가 설치된 각 컨테이너에 SSH를 통해 로그인하고 다음 명령을 다음과 같이 실행하여 Adobe Campaign에 프로젝트 자격 증명을 추가합니다. `neolane` 사용자. 그러면 **[!UICONTROL Technical Account]** 인스턴스 구성 파일의 자격 증명입니다.
 
    ```
-   nlserver config -instance:<instanceName> -setimsjwtauth::<ImsOrgId>/<ClientId>/<TechnicalAccountId>/<ClientSecret>/<$(base64 -w0 /path/to/private.key)>
+   nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
-
 이제 Analytics 커넥터 사용을 시작하고 고객 행동을 추적할 수 있습니다.
