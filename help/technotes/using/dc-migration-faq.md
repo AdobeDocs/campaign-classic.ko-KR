@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 60fc0fd2a10f05abb77843ef0cb69e44f35a9648
 workflow-type: tm+mt
-source-wordcount: '2243'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ![](../../assets/v7-only.svg)
 
-의 일부로 [Gold Standard Initiative](../../rn/using/gold-standard.md), Adobe은 기존 데이터 센터의 권한을 해제합니다. Campaign Classic 인스턴스는 Public Cloud Amazon Web Services (AWS)으로 전송해야 합니다. [이 이니셔티브에 대해 자세히 알아보기](dc-migration.md).
+Adobe은 기존 데이터 센터를 사용 중단합니다. Campaign Classic 인스턴스는 Public Cloud Amazon Web Services (AWS)으로 전송해야 합니다. [이 이니셔티브에 대해 자세히 알아보기](dc-migration.md).
 
 다음은 이 프로젝트에 대한 일반적인 질문, 캠페인 환경에 미치는 영향 및 기타 유용한 리소스입니다.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    첫 번째 단계에서는 마이그레이션과 함께 동일한 Campaign Classic 빌드를 유지할 것입니다.
 
-   추가 단계에서는 최신 Campaign Classic GA 빌드로 업그레이드를 진행합니다. 자세한 내용은 [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md) 및 [Campaign Gold Standard 릴리스 정보](../../rn/using/gold-standard.md).
+   추가 단계에서는 최신 Campaign Classic GA 빌드로 업그레이드를 진행합니다. 자세한 정보는 이 [페이지](../../rn/using/rn-overview.md)를 참조하십시오.
 
 * **마이그레이션 후 문제를 해결하기 위한 계획은 무엇입니까?**
 
@@ -63,7 +63,7 @@ IP, 차단 목록, 하위 도메인 및 URL에 미치는 글로벌 영향은 아
 
    Adobe 서버의 IP 주소가 변경됩니다. 따라서 고객은 시스템의에서 새 IP 주소허용 목록에 추가하다를 추가해야 할 수 있습니다.
 
-   [여기를 클릭하십시오.](#config) 를 참조하십시오허용 목록에 추가하다.
+   [추가 정보](#config) 의 IP 정보허용 목록에 추가하다.
 
 * **SFTP/FTP 액세스를 위해에 추가된 허용 목록에 추가하다 포트를 어떻게 처리합니까?**
 
@@ -73,7 +73,7 @@ IP, 차단 목록, 하위 도메인 및 URL에 미치는 글로벌 영향은 아
 
    Adobe 서버의 IP 주소가 변경됩니다. 따라서 고객은 시스템에서 해당 새로운 IP 주소허용 목록에 추가하다를에 추가해야 할 수 있습니다.
 
-   [여기를 클릭하십시오.](#config) 를 참조하십시오허용 목록에 추가하다.
+   [추가 정보](#config) 의 IP 정보허용 목록에 추가하다.
 
 * **하위 도메인 위임은 어떻게 처리됩니까?**
 
@@ -155,7 +155,7 @@ Public Cloud로의 마이그레이션은 Adobe Campaign 애플리케이션 서�
 
    Adobe 서버의 IP 주소가 변경됩니다. 따라서 고객은 시스템에서 해당 새로운 IP 주소허용 목록에 추가하다를에 추가해야 할 수 있습니다.
 
-   [여기를 클릭하십시오.](#config) 시 IP에 대한 자세한 내용허용 목록에 추가하다를 참조하십시오.
+   [추가 정보](#config) 에 IP가 허용 목록에 추가하다 있습니다.
 
 * **마이그레이션 후 모든 JavaScript 메모리 구성 매개 변수가 올바르게 설정되었는지 확인할 수 있습니까?**
 
@@ -169,7 +169,7 @@ Public Cloud로의 마이그레이션은 Adobe Campaign 애플리케이션 서�
 
    새 서버 위치에 따라 변경될 수 있습니다. 그러나 고객은 현재 시간대를 유지할 수 있습니다.
 
-   [여기를 클릭하십시오.](../../workflow/using/managing-time-zones.md) Adobe Campaign Classic v7의 시간대 관리에 대한 자세한 내용은 다음을 참조하십시오.
+   [추가 정보](../../workflow/using/managing-time-zones.md) Adobe Campaign Classic v7의 시간대 관리 기본 정보.
 
 
 ## 보안 및 권한

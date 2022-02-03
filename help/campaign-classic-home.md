@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 60fc0fd2a10f05abb77843ef0cb69e44f35a9648
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 51%
+source-wordcount: '270'
+ht-degree: 49%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 51%
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg)
 
 ## 새로운 기능
+
+* **[2022 릴리스 프로그램](technotes/using/dc-migration.md)**<br/> 환경을 업그레이드하고 보안, 인프라 및 성능을 개선합니다
 
 * **[1월 릴리스가 출시되었습니다!](rn/using/latest-release.md)**<br/> 릴리스 노트의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오
 
