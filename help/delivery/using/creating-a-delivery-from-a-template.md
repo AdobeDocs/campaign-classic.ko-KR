@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: 템플릿에서 게재 만들기
-description: 템플릿에서 게재 만들기
-audience: delivery
-content-type: reference
-topic-tags: using-delivery-templates
+description: 템플릿에서 게재를 만드는 방법을 알아봅니다
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 10%
+source-wordcount: '178'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +14,7 @@ ht-degree: 10%
 
 ![](../../assets/common.svg)
 
-## 템플릿을 게재에 연결 {#linking-the-template-to-a-delivery}
+## 템플릿에 게재 연결 {#linking-the-template-to-a-delivery}
 
 기존 템플릿을 기반으로 게재를 만들려면 사용 가능한 게재 템플릿 목록에서 템플릿을 선택합니다.
 
@@ -45,4 +42,4 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->게재 구성에 대한 자세한 내용은 [전자 메일 콘텐츠 정의](defining-the-email-content.md).
+>게재 구성에 대한 자세한 내용은 [이메일 콘텐츠 정의](defining-the-email-content.md).

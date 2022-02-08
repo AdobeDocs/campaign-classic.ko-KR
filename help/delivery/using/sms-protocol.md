@@ -1,12 +1,10 @@
 ---
 product: campaign
 title: SMS 커넥터 프로토콜 및 설정
-description: SMS 커넥터 및 구성 방법에 대해 자세히 알아보십시오.
-audience: delivery
-content-type: reference
-topic-tags: configuring-channels
+description: SMS 커넥터 및 구성 방법에 대해 자세히 알아보십시오
+feature: SMS
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 4d789ad0138f65134d3c1592ef5d5517d39fc0f7
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '8460'
 ht-degree: 0%

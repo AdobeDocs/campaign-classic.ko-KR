@@ -2,13 +2,10 @@
 product: campaign
 title: 대상 매핑
 description: 대상 매핑을 만드는 방법을 알아봅니다
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: 468a986d7cfb8a4c51229cf81b6656ca2d101f40
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '490'
 ht-degree: 2%
 
 ---
@@ -124,7 +121,3 @@ ht-degree: 2%
 * 아래 그림과 같이 게재를 만들 때 대상 선택 중에 직접 매핑을 선택합니다.
 
 ![](assets/mapping_selection_ciblage.png)
-
-**관련 항목**
-
-* [고객 요청에 신속하게 응답하여 데이터 액세스](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)

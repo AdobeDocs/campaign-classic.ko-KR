@@ -1,14 +1,13 @@
 ---
 product: campaign
 title: Campaign 게재 모범 사례
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: 게재를 디자인 및 보낼 때 모범 사례에 대해 배웁니다
+feature: Deliverability
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 26%
+source-wordcount: '103'
+ht-degree: 24%
 
 ---
 

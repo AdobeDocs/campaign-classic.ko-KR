@@ -1,12 +1,9 @@
 ---
 product: campaign
 title: 게재 목록 액세스
-description: 만든 게재 목록에 액세스하는 방법을 알아봅니다.
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+description: 만든 게재 목록에 액세스하는 방법을 알아봅니다
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 10%

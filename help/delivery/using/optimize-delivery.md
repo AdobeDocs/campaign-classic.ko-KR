@@ -1,14 +1,13 @@
 ---
 product: campaign
 title: 메시지 게재 최적화
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: 메시지 전달을 최적화하는 방법을 알아봅니다
+feature: Deliverability
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 9%
+source-wordcount: '736'
+ht-degree: 8%
 
 ---
 
@@ -34,7 +33,7 @@ ht-degree: 9%
 
 * 자격이 있는 경우 다음을 활용할 수 있습니다 [Campaign Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko) 플랫폼 모니터링 [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko) 기능.
 
-## 네트워크 구성을 확인하는 중 {#network-config}
+## 네트워크 구성 확인 {#network-config}
 
 대용량 볼륨의 이메일을 처리할 때 게재를 최적화하고 스팸으로 오인되지 않도록 서버 ID를 숨기려 하지 않는 올바른 네트워크 구성이 있는지 확인하십시오.
 

@@ -2,11 +2,9 @@
 product: campaign
 title: 스키마 편집 정보
 description: 스키마 에디션 시작
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+feature: Schema Extension
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 7%
@@ -129,7 +127,7 @@ type="string" enum="exTransactionTypeEnum"/>
 * **@expr**
 * **@label**
 * **@length**
-* **@name**
+* **@이름**
 * **@notNull**
 * **@required**
 * **@ref**

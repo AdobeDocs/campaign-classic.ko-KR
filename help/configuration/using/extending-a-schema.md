@@ -2,14 +2,12 @@
 product: campaign
 title: 스키마 확장
 description: 스키마 확장 방법 알아보기
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+feature: Schema Extension
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 5%
+source-wordcount: '327'
+ht-degree: 4%
 
 ---
 
@@ -63,5 +61,5 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->수정 사항을 고려하려면 스키마를 재생성해야 합니다. 자세한 내용은 [스키마 다시 생성](../../configuration/using/regenerating-schemas.md) 섹션을 참조하십시오.\
->수정 사항이 데이터베이스 구조에 영향을 주는 경우 업데이트를 실행해야 합니다. 자세한 내용은 [데이터베이스 구조 업데이트](../../configuration/using/updating-the-database-structure.md) 섹션을 참조하십시오.
+>수정 사항을 고려하려면 스키마를 재생성해야 합니다. 자세한 정보는 이 [페이지](../../configuration/using/regenerating-schemas.md)를 참조하십시오.\
+>수정 사항이 데이터베이스 구조에 영향을 주는 경우 업데이트를 실행해야 합니다. 자세한 정보는 이 [페이지](../../configuration/using/updating-the-database-structure.md)를 참조하십시오.

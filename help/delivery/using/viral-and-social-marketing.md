@@ -2,13 +2,10 @@
 product: campaign
 title: 바이럴 및 소셜 마케팅
 description: 바이럴 및 소셜 마케팅
-audience: delivery
-content-type: reference
-topic-tags: subscriptions-and-referrals
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '561'
 ht-degree: 2%
 
 ---
@@ -16,8 +13,6 @@ ht-degree: 2%
 # 바이럴 및 소셜 마케팅{#viral-and-social-marketing}
 
 ![](../../assets/common.svg)
-
-## 바이럴 마케팅 기본 정보 {#about-viral-marketing}
 
 Adobe Campaign을 사용하면 바이럴 마케팅을 권장하는 도구를 설정할 수 있습니다.
 

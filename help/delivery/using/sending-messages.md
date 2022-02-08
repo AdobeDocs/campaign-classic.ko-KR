@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: Adobe Campaign Classic으로 이메일 보내기
-description: 이메일 게재를 확인하고 이메일 메시지 전달의 특성을 확인하는 방법을 알아봅니다.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+title: 전자 메일 보내기 주요 단계
+description: 이메일 게재를 확인하고 이메일 메시지 전달의 특성을 확인하는 방법을 알아봅니다
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 3%
+source-wordcount: '214'
+ht-degree: 0%
 
 ---
 
-# 이메일을 보내는 주요 단계 {#confirming-email-delivery}
+# 전자 메일 보내기 주요 단계 {#key-steps-to-send-an-email}
 
 ![](../../assets/common.svg)
 

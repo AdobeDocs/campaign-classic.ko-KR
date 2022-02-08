@@ -2,11 +2,9 @@
 product: campaign
 title: A/B 테스트 구성
 description: Campaign Classic에서 A/B 테스트를 구성하는 방법을 알아봅니다.
-audience: delivery
-content-type: reference
-topic-tags: a-b-testing
+feature: A/B Testing
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 3%

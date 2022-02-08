@@ -2,11 +2,9 @@
 product: campaign
 title: Android 장치용 푸시 알림 만들기
 description: Android용 푸시 알림을 만드는 방법을 알아봅니다
-audience: delivery
-content-type: reference
-topic-tags: sending-push-notifications
+feature: Push
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 1%

@@ -2,14 +2,12 @@
 product: campaign
 title: 격리 관리 이해
 description: 격리 관리 이해
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+feature: Monitoring
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: ff35cef03ba35c7a6693a65dc7d2482b916c5bdb
 workflow-type: tm+mt
-source-wordcount: '2614'
-ht-degree: 14%
+source-wordcount: '2613'
+ht-degree: 12%
 
 ---
 
@@ -17,17 +15,15 @@ ht-degree: 14%
 
 ![](../../assets/common.svg)
 
-## 격리 기본 정보 {#about-quarantines}
-
 Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외되며 타겟팅되지 않습니다. 예를 들어, 사서함이 가득 찼거나 주소가 없는 경우 전자 메일 주소를 격리할 수 있습니다. 어떤 경우든, 격리 절차는 아래에서 설명하는 특정한 규칙을 준수합니다.
 
 >[!NOTE]
 >
 >이 섹션은 온라인 채널에 적용됩니다. 이메일, SMS, 푸시 알림
 
-### 격리를 통한 게재 최적화 {#optimizing-your-delivery-through-quarantines}
+## 격리 관리를 통해 게재 최적화 {#optimizing-your-delivery-through-quarantines}
 
-이메일 주소나 전화번호가 격리된 프로필은 메시지를 준비하는 동안 자동으로 제외됩니다([게재에 대해 격리된 주소 확인](#identifying-quarantined-addresses-for-a-delivery) 참조). 이를 통해 게재 속도를 높일 수 있습니다. 오류율은 게재 속도에 상당한 영향을 미치기 때문입니다.
+이메일 주소나 전화번호가 격리된 프로필은 메시지를 준비하는 동안 자동으로 제외됩니다( 참조). [게재에 대해 격리된 주소 확인](#identifying-quarantined-addresses-for-a-delivery)). 이를 통해 게재 속도를 높일 수 있습니다. 오류율은 게재 속도에 상당한 영향을 미치기 때문입니다.
 
 일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 격리 를 사용하면 이러한 제공 업체에 의해 차단 목록에 추가되지 않습니다.
 
@@ -257,6 +253,7 @@ Baidu 커넥터를 사용하는 고객의 경우 다음과 같은 다양한 오�
 * 게재 시작 시 연결 문제: 실패 유형 **[!UICONTROL Undefined]**, 실패 이유 **[!UICONTROL Unreachable]**, 다시 시도됩니다.
 * 게재 중 연결이 끊어졌습니다. 소프트 오류, 실패 이유 **[!UICONTROL Refused]**, 다시 시도됩니다.
 * 전송 중에 Baidu에서 동기 오류가 반환되었습니다. 하드 오류, 실패 이유 **[!UICONTROL Refused]**&#x200B;를 재시도하지 않습니다.
+>
 Adobe Campaign은 Baidu 서버에 10분마다 연락하여 보낸 메시지의 상태를 검색하고 브로드로그를 업데이트합니다. 메시지가 전송됨으로 선언되면 브로드로그에 있는 메시지의 상태가 **[!UICONTROL Received]**. Baidu가 오류를 선언하면 상태는 로 설정됩니다. **[!UICONTROL Failed]**.
 
 **Android V2용**

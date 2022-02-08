@@ -1,12 +1,9 @@
 ---
 product: campaign
 title: Adobe Campaign Classic에서 향상된 MTA를 사용하여 보내기
-description: Adobe Campaign Enhanced MTA를 통해 이메일을 보내는 범위와 특성에 대해 알아봅니다.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+description: Adobe Campaign Enhanced MTA를 사용하여 전자 메일을 보내는 범위와 특성에 대해 알아봅니다
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '1921'
 ht-degree: 3%

@@ -1,12 +1,9 @@
 ---
 product: campaign
 title: Adobe Campaign Classic의 게재 만들기 단계 정보
-description: Adobe Campaign Classic에서 주요 게재 만들기 단계를 알아봅니다.
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+description: Adobe Campaign Classic에서 주요 게재 만들기 단계를 알아봅니다
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 9%

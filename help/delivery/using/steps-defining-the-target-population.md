@@ -1,23 +1,19 @@
 ---
 product: campaign
 title: 대상 모집단 정의
-description: 대상 모집단 정의
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+description: 대상 모집단을 정의하는 방법을 알아봅니다
+feature: Audiences
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '1599'
-ht-degree: 3%
+source-wordcount: '1598'
+ht-degree: 2%
 
 ---
 
 # 대상 모집단 정의 {#defining-the-target-population}
 
 ![](../../assets/common.svg)
-
-## 대상 모집단 기본 정보 {#about-target-populations}
 
 각 게재에 대해 몇 가지 유형의 대상 모집단을 정의할 수 있습니다.
 
@@ -26,7 +22,7 @@ ht-degree: 3%
 * **시드 주소**: 게재 타겟이 아니지만 게재를 받을 수신자(마케팅 캠페인의 컨텍스트에서만)입니다. [자세히 알아보기](about-seed-addresses.md)
 * **컨트롤 그룹**: 게재를 받지 않고, 동작 및 캠페인 영향을 추적하는 데 사용되는 모집단(마케팅 캠페인의 컨텍스트에서만). [자세히 알아보기](../../campaign/using/marketing-campaign-target.md#defining-a-control-group)
 
-## 게재의 주요 수신자 선택 {#selecting-the-main-target}
+## 게재의 주요 수신자를 선택합니다 {#selecting-the-main-target}
 
 대부분의 경우 기본 타겟은 Adobe Campaign 데이터베이스(기본 모드)에서 추출됩니다. 그러나 수신자는 외부 파일에도 저장할 수 있습니다. 추가 정보 [이 섹션](steps-defining-the-target-population.md#selecting-external-recipients).
 
@@ -112,7 +108,7 @@ ht-degree: 3%
 >
 >이메일 전송을 위한 메시지 콘텐츠를 정의할 때 미러 페이지에 대한 링크를 포함하지 마십시오. 이 게재 모드에서는 생성할 수 없습니다.
 
-### 제외 설정 설정 {#customizing-exclusion-settings}
+### 제외 설정 정의 {#define-exclusion-settings}
 
 주소 오류 및 품질 등급은 서비스 공급자(IAP)에서 제공합니다. 이 정보는 게재 작업 및 서비스 공급자가 반환하는 파일과 함께 수신자 프로필에서 자동으로 업데이트됩니다. 프로필에서 읽기 전용으로 볼 수 있습니다.
 
@@ -162,7 +158,7 @@ ht-degree: 3%
 
 ![](assets/s_ncs_user_edit_del_exe_tab.png)
 
-## 증명 메시지 수신자 선택 {#selecting-the-proof-target}
+## 증명 메시지 수신자를 선택합니다 {#selecting-the-proof-target}
 
 증명은 주요 타겟에게 보내기 전에 게재를 테스트할 수 있는 특수 메시지입니다. 증명 수신자는 메시지의 양식과 콘텐츠를 모두 승인할 책임이 있습니다.
 
@@ -229,7 +225,7 @@ ht-degree: 3%
 
 * [증명 대상 선택](#selecting-the-proof-target)
 * [시드 주소 정보](about-seed-addresses.md)
-* [사용 사례: 기준 시드 주소 선택](use-case--selecting-seed-addresses-on-criteria.md)
+* [활용 사례: 기준 시드 주소 선택](use-case--selecting-seed-addresses-on-criteria.md)
 
 ## 튜토리얼 비디오 {#seeds-and-proofs-video}
 

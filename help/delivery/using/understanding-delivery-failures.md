@@ -2,11 +2,9 @@
 product: campaign
 title: 게재 실패 이해
 description: 게재 실패를 이해하는 방법 알아보기
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+feature: Monitoring
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '2614'
 ht-degree: 14%
@@ -192,7 +190,7 @@ ht-degree: 14%
 
 기존 Campaign MTA를 사용하여 온-프레미스 설치 및 호스팅/하이브리드 설치에 대해 게재 기간을 수정하려면 게재 또는 게재 템플릿의 고급 매개 변수로 이동하여 해당 필드에 원하는 기간을 지정합니다. 자세한 내용은 [유효 기간 정의](steps-sending-the-delivery.md#defining-validity-period).
 
-기본 구성에서는 1시간 간격으로 5회의 다시 시도를 허용하고 4일 동안 하루에 1회 다시 시도할 수 있습니다. 다시 시도 횟수는 전역적으로(Adobe 기술 관리자에게 문의) 또는 각 게재 또는 게재 템플릿에 대해 변경할 수 있습니다(참조) [다시 시도 구성](steps-sending-the-delivery.md#configuring-retries)).
+기본 구성에서는 1시간 간격으로 5회의 다시 시도를 허용하고 4일 동안 하루에 1회 다시 시도할 수 있습니다. 다시 시도 횟수는 전역적으로(Adobe 기술 관리자에게 문의) 또는 각 게재 또는 게재 템플릿에 대해 변경할 수 있습니다. 자세한 내용은 [다시 시도 구성](steps-sending-the-delivery.md#configuring-retries).
 
 ## 동기 및 비동기 오류 {#synchronous-and-asynchronous-errors}
 

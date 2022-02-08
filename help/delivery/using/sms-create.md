@@ -2,11 +2,9 @@
 product: campaign
 title: Campaign으로 SMS 만들기
 description: Campaign을 사용하여 SMS를 만드는 방법을 알아봅니다
-audience: delivery
-content-type: reference
-topic-tags: sending-messages-on-mobiles
+feature: SMS
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 3%

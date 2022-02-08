@@ -2,24 +2,22 @@
 product: campaign
 title: Adobe Campaign Classic에서 게재 기능 모니터링
 description: Adobe Campaign Classic의 게재 기능 모니터링에 대한 도구 및 지침에 대해 알아봅니다.
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
+feature: Deliverability
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 2%
+source-wordcount: '533'
+ht-degree: 1%
 
 ---
 
-# 전달성 모니터링{#monitoring-deliverability}
+# 게재 기능 모니터링{#monitoring-deliverability}
 
 ![](../../assets/common.svg)
 
 아래에 Adobe Campaign에서 제공하는 다양한 모니터링 도구에 대한 자세한 내용과, 플랫폼의 게재 기능을 모니터링하기 위해 Adobe Campaign에서 제공하는 기능을 활용하는 데 대한 몇 가지 추가 지침이 있습니다.
 
-## 게재 기능 모니터링 {#configuration}
+## 게재 기능 모니터링 기본 정보 {#about-deliverability-monitoring}
 
 이 기능은 Adobe Campaign의 전용 패키지를 통해 사용할 수 있습니다. 사용하려면 이 패키지를 설치해야 합니다. 완료되면 패키지를 고려할 서버를 다시 시작합니다.
 * 호스팅 및 하이브리드 클라이언트의 경우, **게재 기능 모니터링** Adobe 기술 지원 및 컨설턴트가 인스턴스에 구성합니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
@@ -59,7 +57,3 @@ Adobe Campaign Classic에서, **게재 기능 모니터링** 는 **[!UICONTROL R
 * 사용 시 [파도](steps-sending-the-delivery.md#sending-using-multiple-waves)를 설정하는 경우 다음 웨이브가 트리거되기 전에 각 웨이브를 완료할 시간이 충분한지 확인합니다.
 * 오류 수와 새 오류 수를 확인합니다 [격리](understanding-quarantine-management.md) 은 다른 게재와 일치합니다.
 * 자세한 내용은 [게재 로그](delivery-dashboard.md#delivery-logs-and-history) 강조 표시된 오류 유형(차단 목록, DNS 문제, 스팸 방지 규칙 등)을 자세히 확인합니다.
-
-<!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
-
-Each delivery will generate a broadcast statistics report when you open a delivery in the “Deliveries List”, which includes some reputation metrics that may impact your deliverability.-->

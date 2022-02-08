@@ -2,18 +2,16 @@
 product: campaign
 title: '"사용 사례: 필드 대체 구성"'
 description: '"사용 사례: 필드 대체 구성"'
-audience: delivery
-content-type: reference
-topic-tags: using-seed-addresses
+feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 4%
 
 ---
 
-# 사용 사례: 필드 대체 구성{#use-case-configuring-the-field-substitution}
+# 활용 사례: 필드 대체 구성{#use-case-configuring-the-field-substitution}
 
 ![](../../assets/common.svg)
 

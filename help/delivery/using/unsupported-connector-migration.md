@@ -2,12 +2,9 @@
 product: campaign
 title: 지원되지 않는 SMS 커넥터 마이그레이션
 description: 지원되지 않는 SMS 커넥터를 확장된 일반 SMPP 커넥터로 마이그레이션합니다
-audience: delivery
-content-type: reference
-topic-tags: sending-messages-on-mobiles
 hidefromtoc: true
 exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 1%

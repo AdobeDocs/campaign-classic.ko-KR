@@ -1,14 +1,11 @@
 ---
 product: campaign
-title: Adobe Campaign Classic에서 전자 메일 매개 변수 구성
-description: 이메일 게재와 관련된 옵션 및 설정에 대해 알아봅니다.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+title: 전자 메일 매개 변수
+description: 이메일 게재와 관련된 옵션 및 설정에 대해 알아봅니다
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 8%
 
 ---

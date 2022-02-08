@@ -1,14 +1,11 @@
 ---
 product: campaign
-title: Campaign SMS 채널 설정
+title: Campaign SMS 채널 구성
 description: Campaign에서 SMS 채널을 구성하는 방법을 알아봅니다
-audience: delivery
-content-type: reference
-topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: b174b8283d77a1b5eb535c0c46ba4a428bd66eef
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1696'
 ht-degree: 35%
 
 ---

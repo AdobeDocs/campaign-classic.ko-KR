@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: 예제
-description: 예제
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: 분산 마케팅 샘플
+description: 분산 마케팅 샘플
+feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
 
-# 예제{#examples}
+# 분산 마케팅 샘플{#distributed-marketing-samples}
 
 ![](../../assets/v7-only.svg)
 
@@ -23,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->API는 계약에 따라 액세스 권한이 부여된 전용 문서에 자세히 설명되어 있습니다. 을(를) 참조하십시오. [API](../../configuration/using/about-web-services.md).
+>API는 전용 문서에 자세히 설명되어 있습니다. [자세히 알아보기](../../configuration/using/about-web-services.md)
 >
 >이 예제에 사용되는 웹 애플리케이션은 Adobe Campaign을 통해 기본적으로 제공되는 웹 앱이 아닙니다. 캠페인에서 양식을 사용하려면 전용 웹 애플리케이션을 만들어야 합니다.
 
@@ -73,7 +71,7 @@ ht-degree: 0%
    var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
    ```
 
-## 공동 작업 캠페인 만들기(Target 승인별) {#creating-a-collaborative-campaign--by-target-approval-}
+## 공동 작업 캠페인 만들기(대상 승인별) {#creating-a-collaborative-campaign--by-target-approval-}
 
 ### 소개 {#introduction}
 
@@ -142,7 +140,7 @@ ht-degree: 0%
 
 1. 새 데이터 배포를 저장합니다.
 
-#### 공동 작업 캠페인 만들기 {#creating-a-collaborative-campaign}
+#### 공동 캠페인 만들기 {#creating-a-collaborative-campaign}
 
 1. 에서 **[!UICONTROL Campaign management > Campaign]** 노드, 새 만들기 **[!UICONTROL collaborative campaign (by target approval)]**.
 1. 에서 **[!UICONTROL Targeting and workflows]** 탭에서 캠페인에 대한 워크플로우를 만듭니다. 여기에는 다음이 포함되어야 합니다 **분할** 활동 **[!UICONTROL Record count limitation]** 는 **[!UICONTROL Data distribution]** 활동.

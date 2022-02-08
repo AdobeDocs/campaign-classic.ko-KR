@@ -1,15 +1,13 @@
 ---
 product: campaign
-title: Campaign의 게재 기능 기본 정보
+title: Campaign에서 게재 기능 시작
 description: 게재 가능성 모범 사례 학습
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
+feature: Deliverability
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 9%
+source-wordcount: '724'
+ht-degree: 8%
 
 ---
 
@@ -46,7 +44,7 @@ Adobe Campaign을 사용하면 게재 가능한 비율은 많은 요인에 따�
 * IP 주소 평판: 참조 [IP 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
 * 타겟팅된 주소의 품질: 참조 [격리 관리](optimize-delivery.md#quarantine-management).
 * 낮음 [불만](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) 및 [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) 요금.
-* 메시지 콘텐츠: 참조 [이메일 콘텐츠 제어](control-message-content.md).
+* 메시지 콘텐츠: 참조 [전자 메일 콘텐츠 제어](control-message-content.md).
 * 메시지 인증(SPF, DKIM, DMARC): 참조 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 * 보낸 사람 평판: 기본 ISP에서 보낸 사람의 평판을 평가하는 방법에 대해 알아보려면 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
 
@@ -60,7 +58,7 @@ Adobe Campaign은 플랫폼의 게재 성능을 추적하고 개선하기 위한
 메시지를 구성, 디자인 및 테스트할 때 아래 나열된 섹션에 언급된 우수 사례를 따라야 합니다. Adobe Campaign에서 제공하는 모든 기능을 활용하면 게재 능력을 향상시킬 수 있습니다.
 
 * [게재 모범 사례](delivery-best-practices.md)
-* [이메일 콘텐츠 제어](control-message-content.md)
+* [전자 메일 콘텐츠 제어](control-message-content.md)
 * [받은 편지함 렌더링](inbox-rendering.md)
 * [증명 보내기](steps-validating-the-delivery.md#sending-a-proof)
 
@@ -94,25 +92,6 @@ Adobe Campaign에서는 향상된 게재 통찰력을 위해 내장된 실시간
 
 자세한 정보는 다음 섹션을 참조하십시오.
 
-* [전달성 모니터링](monitoring-deliverability.md)
-* [게재 모니터링 기본 정보](about-delivery-monitoring.md)
-* [Campaign 기본 제공 보고서 기본 정보](../../reporting/using/about-campaign-built-in-reports.md)
-
-<!--TO REMOVE
-## Background {#background}
-
-Email deliverability presents a major challenge to marketers - whether they're sending a few thousand messages or several billion. One in five messages never reach the inbox, or their intended recipient.
-
-Once relegated as a "technical issue" for the IT department, email deliverability continues to move higher on the marketing agenda. That's because savvy marketers recognize that although many of its elements are technical in nature, deliverability is ultimately a business issue with significant revenue implications.
-
-Consider the email marketing funnel. Deliverability determines the number of messages received, which in turn impacts each subsequent stage of the funnel. Fewer emails received results in fewer opens, fewer clicks, and fewer conversions. **For companies with a large database, the difference between average and great deliverability could literally mean hundreds of thousands to millions of dollars in revenues.**
-
-![](assets/deliverability_overview_1.png)
-
-By settling for average (80%) deliverability, marketers are leaving significant conversions - and dollars - on the table.
-
-What exactly is email deliverability? And how can marketers improve deliverability rates to widen the mouth of the funnel and squeeze more results from their email campaigns?
-
-Email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal email address, within a short time, and with the expected quality in terms of content and format. These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program. This overview outlines the four fundamentals of email deliverability success and offers best practices for reaching the inbox and driving greater revenues from email marketing programs.
-
-![](assets/deliverability_overview_2.png)-->
+* [게재 기능 모니터링](monitoring-deliverability.md)
+* [게재 모니터링 시작](about-delivery-monitoring.md)
+* [Campaign 기본 제공 보고서 시작](../../reporting/using/about-campaign-built-in-reports.md)

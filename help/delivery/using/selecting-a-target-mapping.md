@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: 대상 매핑 선택
-description: 대상 매핑 선택
-audience: delivery
-content-type: reference
-topic-tags: using-delivery-templates
+description: 매핑 타겟팅 방법 알아보기
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -35,4 +32,4 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->새 대상 매핑을 만들 수도 있습니다. 이 작업은 전문가 사용자를 위해 예약되어 있습니다. 자세한 내용은 [구성 안내서](../../configuration/using/target-mapping.md).
+>새 대상 매핑을 만들 수도 있습니다. 이 작업은 전문가 사용자를 위해 예약되어 있습니다. 자세한 정보는 [이 섹션](../../configuration/using/target-mapping.md)을 참조하십시오.

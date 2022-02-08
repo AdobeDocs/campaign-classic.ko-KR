@@ -1,14 +1,11 @@
 ---
 product: campaign
 title: 캠페인 시뮬레이션
-description: 캠페인 시뮬레이션
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
+description: 캠페인 시뮬레이션 시작
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1245'
 ht-degree: 1%
 
 ---

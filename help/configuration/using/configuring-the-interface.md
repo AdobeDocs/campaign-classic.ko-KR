@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: 인터페이스 구성
-description: 인터페이스 구성
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+description: Campaign 인터페이스 구성 방법 알아보기
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 2%
+source-wordcount: '306'
+ht-degree: 0%
 
 ---
 

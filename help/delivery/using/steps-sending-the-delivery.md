@@ -1,14 +1,11 @@
 ---
 product: campaign
 title: 게재 구성 및 보내기
-description: 게재 구성 및 보내기
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+description: 게재를 구성하고 보내는 방법을 배웁니다
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1526'
 ht-degree: 5%
 
 ---
@@ -179,7 +176,7 @@ ht-degree: 5%
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-기본적으로 게재 첫 날에 5번의 다시 시도가 예약되며 최소 1시간 간격은 24시간 동안 분산됩니다. 일별 1회 다시 시도는 그 후 및 게재 마감일까지 프로그램되며, 이것은 **[!UICONTROL Validity]** 탭(참조) [유효 기간 정의](#defining-validity-period)).
+기본적으로 게재 첫 날에 5번의 다시 시도가 예약되며 최소 1시간 간격은 24시간 동안 분산됩니다. 일별 1회 다시 시도는 그 후 및 게재 마감일까지 프로그램되며, 이것은 **[!UICONTROL Validity]** 탭. 자세한 내용은 [유효 기간 정의](#defining-validity-period).
 
 ## 유효 기간 정의 {#defining-validity-period}
 

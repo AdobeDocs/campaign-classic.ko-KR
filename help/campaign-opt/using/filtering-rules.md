@@ -1,14 +1,12 @@
 ---
 product: campaign
 title: 필터링 규칙
-description: 필터링 규칙
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
+description: 필터링 규칙 사용 방법 알아보기
+feature: Typology Rules
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '507'
 ht-degree: 2%
 
 ---
@@ -47,7 +45,7 @@ ht-degree: 2%
 
 ![](assets/campaign_opt_create_filter_05.png)
 
-## 필터링 규칙 조정 {#conditioning-a-filtering-rule}
+## 필터링 규칙 조건 {#conditioning-a-filtering-rule}
 
 연결된 게재 또는 게재 개요를 기반으로 필터링 규칙의 애플리케이션 필드를 제한할 수 있습니다.
 

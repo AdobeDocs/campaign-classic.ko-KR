@@ -1,12 +1,9 @@
 ---
 product: campaign
 title: Adobe Campaign Classic을 사용하여 일본의 모바일에 전자 메일 보내기
-description: 일본어 모바일에서 읽을 이메일을 구성, 디자인 및 보내는 방법을 알아봅니다.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+description: 일본어 모바일에서 읽을 이메일을 구성, 디자인 및 보내는 방법을 알아봅니다
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%

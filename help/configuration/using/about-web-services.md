@@ -2,11 +2,9 @@
 product: campaign
 title: 웹 서비스 정보
 description: 웹 서비스 정보
-audience: configuration
-content-type: reference
-topic-tags: api
+feature: API
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 3%
@@ -28,7 +26,7 @@ Adobe Campaign API는 애플리케이션 내의 JavaScript와 애플리케이션
 >공인 엔진 호출 수는 라이선스 계약에 따라 다릅니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-classic---product-description.html)를 참조하십시오.\
 >전체 설명을 포함한 모든 API 목록은 [이 전용 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html)
 
-## 필수 구성 요소 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 Adobe Campaign API를 사용하려면 먼저 다음 주제를 숙지해야 합니다.
 

@@ -2,11 +2,9 @@
 product: campaign
 title: 외부 데이터베이스 액세스
 description: 외부 데이터베이스에서 데이터에 액세스하고 처리하는 방법을 알아봅니다
-audience: platform
-content-type: reference
-topic-tags: connectors
+feature: Federated Data Access
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
-source-git-commit: a23f66a4822f3c87770c5c9741e91f78778931cb
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 3%
@@ -19,7 +17,7 @@ ht-degree: 3%
 
 Adobe Campaign은 다음을 제공합니다 **페더레이션 데이터 액세스** (FDA) 옵션을 사용하여 하나 이상의 외부 데이터베이스에 저장된 정보를 처리할 수 있습니다. Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.
 
-## 필수 구성 요소 {#operating-principle}
+## 전제 조건 {#operating-principle}
 
 FDA 옵션을 사용하면 데이터 모델을 타사 데이터베이스로 확장할 수 있습니다. 대상 테이블의 구조를 자동으로 감지하고 SQL 소스의 데이터를 사용합니다.
 

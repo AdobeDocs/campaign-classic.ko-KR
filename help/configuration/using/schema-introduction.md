@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: 요소 및 속성
-description: 요소 및 속성
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+title: 스키마 참조
+description: 스키마 참조 목록
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 27%
+source-wordcount: '90'
+ht-degree: 21%
 
 ---
 

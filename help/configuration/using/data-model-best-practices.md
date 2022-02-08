@@ -2,11 +2,9 @@
 product: campaign
 title: 데이터 모델 모범 사례
 description: Campaign Classic 데이터 모델로 작업하는 방법 알아보기
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: c281d437907efb4d514bec7cacc698c383f3fe53
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
 source-wordcount: '4007'
 ht-degree: 1%

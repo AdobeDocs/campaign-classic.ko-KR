@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: 캠페인에서 보고서 만들기 기본 정보
-description: 캠페인에서 보고서 만들기 기본 정보
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+title: 보고서를 만드는 주요 단계
+description: 보고서를 만드는 주요 단계를 알아봅니다
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 5%
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
-# 보고서를 만드는 주요 단계{#about-reports-creation-in-campaign}
+# 보고서를 만드는 주요 단계{#key-steps-to-create-a-report}
 
 ![](../../assets/common.svg)
 

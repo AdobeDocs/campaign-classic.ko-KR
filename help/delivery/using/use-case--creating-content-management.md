@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: '"활용 사례: 콘텐츠 관리 만들기"'
-description: '"활용 사례: 콘텐츠 관리 만들기"'
-audience: delivery
-content-type: reference
-topic-tags: content-management
+title: '"사용 사례: 콘텐츠 관리 만들기"'
+description: '"사용 사례: 콘텐츠 관리 만들기"'
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '1173'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# 활용 사례: 콘텐츠 관리 만들기{#use-case-creating-content-management}
+# 사용 사례: 콘텐츠 관리 만들기{#use-case-creating-content-management}
 
 ![](../../assets/common.svg)
 

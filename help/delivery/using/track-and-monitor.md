@@ -1,13 +1,12 @@
 ---
 product: campaign
 title: 메시지 추적 및 모니터링
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: 메시지 추적 및 모니터링 방법 알아보기
+feature: Monitoring
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '438'
 ht-degree: 3%
 
 ---
@@ -37,7 +36,7 @@ mta@instance 모듈이 MTA 서버에서 시작되었는지 확인하고 필요�
 >
 >이러한 단계는 전문가 사용자만 수행할 수 있습니다.
 
-## 추적 {#tracking-deliveries}
+## 동작 추적 {#track-behaviour}
 
 수신자의 행동을 더 잘 알기 위해 수신자가 게재에 어떻게 반응하는지를 추적할 수 있습니다. 수신, 열기, 링크 클릭 수, 구독 취소 등 Campaign Classic에서 이 정보는 게재의 타겟팅된 수신자의 추적 탭 및 게재의 추적 탭에 표시됩니다.
 

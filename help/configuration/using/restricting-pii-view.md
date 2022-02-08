@@ -2,11 +2,9 @@
 product: campaign
 title: PII 보기 제한
 description: PII 보기 제한
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+feature: PI
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 2%
@@ -56,7 +54,7 @@ ht-degree: 2%
 * 대상 모집단을 그룹(목록)에 저장할 때 저장된 필드의 특성은 데이터 소스와 동일합니다.
 * 기본적으로 데이터는 JS 코드에 액세스할 수 없습니다.
 
-## 추천 {#recommendations}
+## 권장 사항 {#recommendations}
 
 각 게재에서 이메일 주소는 **[!UICONTROL broadLog]** 그리고 **[!UICONTROL forecastLog]** 표: 따라서 이러한 필드도 보호해야 합니다.
 

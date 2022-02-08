@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: DM 콘텐츠 정의
-description: DM 콘텐츠 정의
-audience: delivery
-content-type: reference
-topic-tags: sending-direct-mail
+description: DM 콘텐츠를 정의하는 방법을 알아봅니다
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
-source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 4%
+source-wordcount: '167'
+ht-degree: 10%
 
 ---
 

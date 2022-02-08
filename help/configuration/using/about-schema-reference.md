@@ -1,12 +1,10 @@
 ---
 product: campaign
 title: Adobe Campaign Classic의 스키마 참조 기본 정보
-description: Adobe Campaign Classic 데이터베이스의 개념적 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법을 알아보십시오.
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+description: Adobe Campaign Classic 데이터베이스의 개념적 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법을 알아보십시오
+feature: Schema Extension
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 7%

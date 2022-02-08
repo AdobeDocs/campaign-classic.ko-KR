@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: 게재 상태
-description: 게재 대시보드에서 사용할 수 있는 상태에 대해 자세히 알아보십시오 .
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+description: 게재 대시보드에서 사용할 수 있는 상태에 대해 자세히 알아보십시오
+feature: Monitoring
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 5%
+source-wordcount: '632'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +29,7 @@ ajouter screenshot -->
 
 * [게재 대시보드](delivery-dashboard.md)
 * [게재 문제 해결](delivery-troubleshooting.md)
-* [게재 기능 기본 정보](about-deliverability.md)
+* [게재 기능 시작](about-deliverability.md)
 
 ## 게재 상태 목록 {#list-delivery-statuses}
 

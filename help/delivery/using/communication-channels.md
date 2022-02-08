@@ -1,12 +1,10 @@
 ---
 product: campaign
 title: 소통 채널
-description: 여러 채널에서 개인화된 메시지를 보낼 수 있는 전달 정보를 만듭니다.
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+description: 여러 채널에서 개인화된 메시지를 보낼 수 있는 전달 정보를 만듭니다
+feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 19%

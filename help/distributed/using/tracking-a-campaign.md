@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: 캠페인 추적
-description: 캠페인 추적
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+description: Campaign Distributed Marketing을 사용하여 캠페인을 추적하는 방법을 알아봅니다
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 2%
+source-wordcount: '416'
+ht-degree: 1%
 
 ---
 

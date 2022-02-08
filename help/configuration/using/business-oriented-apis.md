@@ -2,14 +2,12 @@
 product: campaign
 title: 비즈니스 지향 API
 description: 비즈니스 지향 API
-audience: configuration
-content-type: reference
-topic-tags: api
+feature: API
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -40,7 +38,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) 는 Adobe Campaign에서 SOAP 호출 및 Javascript 사용에 대한 추가 정보와 애플리케이션에서 사용되는 모든 메서드 및 함수에 대한 전체 참조를 포함합니다.
+>[Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko) 는 Adobe Campaign에서 SOAP 호출 및 Javascript 사용에 대한 추가 정보와 애플리케이션에서 사용되는 모든 메서드 및 함수에 대한 전체 참조를 포함합니다.
 
 ## 구독(nms:subscription) {#subscribe--nms-subscription-}
 

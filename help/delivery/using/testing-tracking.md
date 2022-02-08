@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: 추적 테스트
-description: 추적 테스트
-audience: delivery
-content-type: reference
-topic-tags: tracking-messages
+title: 메시지 추적 테스트
+description: 메시지 추적을 테스트하는 방법을 알아봅니다.
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 3%
+source-wordcount: '256'
+ht-degree: 1%
 
 ---
 
-# 추적 테스트{#testing-tracking}
+# 메시지 추적 테스트{#testing-tracking}
 
 ![](../../assets/common.svg)
 

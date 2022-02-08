@@ -2,14 +2,12 @@
 product: campaign
 title: 시드 주소
 description: 시드 주소
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 1%
+source-wordcount: '322'
+ht-degree: 6%
 
 ---
 
@@ -44,7 +42,7 @@ ht-degree: 1%
 
 다음 단계를 적용합니다.
 
-1. 확장 만들기 **nms:seedMember** 스키마. 자세한 내용은 [스키마 확장](../../configuration/using/extending-a-schema.md).
+1. 확장 만들기 **nms:seedMember** 스키마. 이 작업에 대한 자세한 정보는 [이 섹션](../../configuration/using/extending-a-schema.md)을 참조하십시오.
 1. 이 새 확장의 루트에 새 요소를 추가합니다 **[!UICONTROL seedMember]** 다음 매개 변수와 함께 사용할 수 있습니다.
 
    ```
@@ -82,7 +80,7 @@ ht-degree: 1%
    >    * 에서 **nms:seedMember** 확장 프로그램. 이메일 주소가 포함된 필드에는 **name=&quot;email&quot;** 를 속성으로 사용하십시오. SQL 이름은 받는 사람 스키마에 이미 사용되는 &#39;sEmail&#39;과 달라야 합니다. 이 속성은 **`<element name="custom_cus_person" />`** 요소를 생성하지 않습니다.
 
 
-1. 수정 **[!UICONTROL seedMember]** 이에 따라 양식에서 새 &quot;내부 수신자&quot; 탭을 **[!UICONTROL Seed addresses]** 창을 엽니다. 자세한 내용은 [양식 구조](../../configuration/using/form-structure.md).
+1. 수정 **[!UICONTROL seedMember]** 이에 따라 양식에서 새 &quot;내부 수신자&quot; 탭을 **[!UICONTROL Seed addresses]** 창을 엽니다. 자세한 정보는 이 [페이지](../../configuration/using/form-structure.md)를 참조하십시오.
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

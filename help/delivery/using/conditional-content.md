@@ -1,14 +1,12 @@
 ---
 product: campaign
 title: 조건부 콘텐츠
-description: 조건부 콘텐츠
-audience: delivery
-content-type: reference
-topic-tags: personalizing-deliveries
+description: 조건부 콘텐츠 추가 방법 알아보기
+feature: Personalization
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '482'
 ht-degree: 7%
 
 ---
@@ -22,7 +20,7 @@ ht-degree: 7%
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#conditionnal-content-video)
 
 
-## 이메일에서 조건 사용 {#using-conditions-in-an-email}
+## 이메일에 조건 사용 {#using-conditions-in-an-email}
 
 아래 예에서는 수신자의 성별 및 관심사에 따라 동적으로 개인화된 메시지를 만드는 방법을 알아봅니다.
 

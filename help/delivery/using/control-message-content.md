@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: Adobe Campaign Classic의 게재 기능 기본 정보
-description: Adobe Campaign Classic의 게재 기능 관리에 대해 자세히 알아보십시오.
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
+description: Adobe Campaign의 게재 기능 관리에 대해 자세히 알아보십시오
+feature: Deliverability
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 4%
+source-wordcount: '760'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +29,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->전자 메일 콘텐츠 편집에 대한 자세한 내용은 [전자 메일 콘텐츠 정의](defining-the-email-content.md) 및 [개인화된 콘텐츠 빌드](design-and-personalize.md).
+>전자 메일 콘텐츠 편집에 대한 자세한 내용은 [이메일 콘텐츠 정의](defining-the-email-content.md) 및 [개인화된 콘텐츠 빌드](design-and-personalize.md).
 
 ## 보낸 사람 주소 {#sender-address}
 
@@ -39,7 +37,7 @@ ht-degree: 4%
 
 인스턴스 수준(메뉴)에 올바른 주소가 지정되어 있는지 확인해야 합니다 **[!UICONTROL Tools > Advanced > Deployment wizard...]**) 또는 가 포함되어 있을 수도 있습니다.
 
-자세한 내용은 [발신자 정의](defining-the-email-content.md).
+자세한 내용은 [이 페이지](defining-the-email-content.md)를 참조하십시오.
 
 ## 개인화 {#personalization}
 

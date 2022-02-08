@@ -1,25 +1,23 @@
 ---
 product: campaign
-title: 공동 작업 캠페인 만들기
-description: 공동 작업 캠페인 만들기
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: 공동 캠페인 만들기
+description: 공동 작업 캠페인을 만드는 방법을 알아봅니다
+feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '915'
 ht-degree: 3%
 
 ---
 
-# 공동 작업 캠페인 만들기{#creating-a-collaborative-campaign-intro}
+# 공동 캠페인 만들기{#creating-a-collaborative-campaign-intro}
 
 ![](../../assets/v7-only.svg)
 
 중앙 엔티티는 **분산 마케팅** 캠페인 템플릿. [이 페이지](about-distributed-marketing.md#collaborative-campaign)를 참조하십시오.
 
-## 공동 작업 캠페인 만들기 {#creating-a-collaborative-campaign}
+## 공동 캠페인 만들기 {#creating-a-collaborative-campaign}
 
 공동 작업 캠페인을 구성하려면 **[!UICONTROL Campaign management > Campaigns]** 노드, **[!UICONTROL New]** 아이콘.
 
@@ -155,7 +153,7 @@ ht-degree: 3%
 
 알림에 대한 구성은 로컬 엔티티에 대한 알림과 동일합니다. [이 섹션](creating-a-local-campaign.md#notifications)을 참조하십시오.
 
-## 캠페인 순서 지정 {#ordering-a-campaign}
+## 캠페인 주문 {#ordering-a-campaign}
 
 공동 작업 캠페인이 캠페인 패키지 목록에 추가되면 중앙 엔티티가 정의한 대상에 속하는 로컬 엔티티에 대한 알림이 표시됩니다(ID **협업 캠페인(target 승인별)** 사전 정의된 대상이 없음). 전송된 메시지에는 아래와 같이 캠페인에 등록할 수 있는 링크가 포함되어 있습니다.
 

@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: 스키마 다시 생성
-description: 스키마 다시 생성
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+description: Campaign 스키마를 재생성하는 방법 알아보기
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 7%
+source-wordcount: '132'
+ht-degree: 2%
 
 ---
 

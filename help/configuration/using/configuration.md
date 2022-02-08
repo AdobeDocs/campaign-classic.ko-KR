@@ -2,14 +2,11 @@
 product: campaign
 title: 구성
 description: 구성
-audience: configuration
-content-type: reference
-topic-tags: navigation-hierarchy
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -95,7 +92,7 @@ A **`<command>`** 요소를 포함할 수 있습니다. **`<command>`** 하위 �
 
 명령 구분 기호를 사용하면 명령 간 분리 막대를 표시할 수 있습니다. 이것은 **&#39;-&#39;** 명령 레이블에 포함된 값입니다.
 
-선택 사항인 **`<soapcall>`** 입력 매개 변수를 사용하는 태그는 실행할 SOAP 메서드 호출을 정의합니다. SOAP API에 대한 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
+선택 사항인 **`<soapcall>`** 입력 매개 변수를 사용하는 태그는 실행할 SOAP 메서드 호출을 정의합니다. SOAP API에 대한 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko).
 
 양식 컨텍스트는 **`<enter>`** 태그에 가깝게 포함했습니다. 이 태그에 대한 자세한 내용은 입력 양식에 대한 설명서를 참조하십시오.
 

@@ -2,11 +2,8 @@
 product: campaign
 title: 일관성 규칙
 description: 일관성 규칙
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 3%
@@ -57,9 +54,9 @@ Adobe Campaign은 캠페인 유형화에 포함된 규칙 세트를 사용하여
 
 ## 최대 로드 정의 {#defining-the-maximum-load}
 
-최대 로드를 정의하려면 가용성 라인을 정의해야 합니다. 이렇게 하려면 다음 두 가지 옵션을 사용할 수 있습니다. 하나 이상의 가용성 라인을 수동으로 생성할 수 있습니다. [가용성 라인 하나씩 추가](#adding-availability-lines-one-by-one)) 또는 가용성 범위를 만듭니다. 이러한 기간의 빈도는 자동화할 수 있습니다( [가용성 라인 세트 추가](#add-a-set-of-availability-lines)).
+최대 로드를 정의하려면 가용성 라인을 정의해야 합니다. 이렇게 하려면 다음 두 가지 옵션을 사용할 수 있습니다. 하나 이상의 가용성 라인을 수동으로 생성할 수 있습니다. [가용성 라인을 하나씩 추가](#adding-availability-lines-one-by-one)) 또는 가용성 범위를 만듭니다. 이러한 기간의 빈도는 자동화할 수 있습니다( [가용성 라인 세트 추가](#add-a-set-of-availability-lines)).
 
-### 가용성 라인 하나씩 추가 {#adding-availability-lines-one-by-one}
+### 가용성 라인을 하나씩 추가 {#adding-availability-lines-one-by-one}
 
 가용성 라인을 생성하려면 **[!UICONTROL Add]** 단추를 누르고 선택합니다. **[!UICONTROL Add an availability line]**. 가용성 기간과 사용 가능한 로드를 입력합니다.
 

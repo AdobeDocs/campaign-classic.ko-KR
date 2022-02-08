@@ -2,9 +2,9 @@
 product: campaign
 title: 마케팅 캠페인 게재
 description: 마케팅 캠페인 게재에 대해 자세히 알아보기
-audience: campaign
+feature: Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 2%
@@ -155,7 +155,7 @@ ht-degree: 2%
 
 이 보기에서 편집하고 수정할 수도 있습니다.
 
-### 게재 아웃라인을 통해 연결된 리소스 연결 및 구조화 {#associating-and-structuring-resources-linked-via-a-delivery-outline}
+### 게재 아웃라인을 통해 연결된 리소스 연결 및 구조 {#associating-and-structuring-resources-linked-via-a-delivery-outline}
 
 >[!NOTE]
 >

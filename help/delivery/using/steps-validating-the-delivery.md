@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: 게재 유효성 검사
-description: 게재 유효성 검사
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+description: 게재의 유효성을 검사하는 방법을 알아봅니다
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 5%
+source-wordcount: '1666'
+ht-degree: 4%
 
 ---
 
@@ -135,7 +132,6 @@ ht-degree: 5%
 >
 >* 사용 가능한 유효성 검사 모드는 [승인 모드 변경](steps-validating-the-delivery.md#changing-the-approval-mode).
 >* 증명 타겟의 구성은 [특정 증명 대상 정의](steps-defining-the-target-population.md#defining-a-specific-proof-target).
-
 >
 
 

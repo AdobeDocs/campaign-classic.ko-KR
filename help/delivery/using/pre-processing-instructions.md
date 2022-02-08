@@ -1,12 +1,9 @@
 ---
 product: campaign
 title: 추적된 URL에 대한 사전 처리 지침
-description: 전자 메일의 URL을 스크립팅하고 계속 추적하는 데 사용하는 사전 처리 지침에 대해 자세히 알아보십시오.
-audience: delivery
-content-type: reference
-topic-tags: tracking-messages
+description: 전자 메일의 URL을 스크립팅하고 계속 추적하는 데 사용하는 사전 처리 지침에 대해 자세히 알아보십시오
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 1%

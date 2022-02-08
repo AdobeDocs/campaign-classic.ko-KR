@@ -2,18 +2,16 @@
 product: campaign
 title: '"사용 사례: 기준 시드 주소 선택"'
 description: '"사용 사례: 기준 시드 주소 선택"'
-audience: delivery
-content-type: reference
-topic-tags: using-seed-addresses
+feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '837'
 ht-degree: 3%
 
 ---
 
-# 사용 사례: 기준 시드 주소 선택{#use-case-selecting-seed-addresses-on-criteria}
+# 활용 사례: 기준 시드 주소 선택{#use-case-selecting-seed-addresses-on-criteria}
 
 ![](../../assets/common.svg)
 
@@ -44,7 +42,7 @@ ht-degree: 3%
 
 ### 데이터 스키마 확장 {#extending-the-data-schema}
 
-스키마 확장에 대한 자세한 내용은 [구성 안내서](../../configuration/using/data-schemas.md).
+스키마 확장에 대한 자세한 내용은 [이 섹션](../../configuration/using/data-schemas.md).
 
 1. 에서 **[!UICONTROL Administration > Configuration > Data schemas]** 노드, **[!UICONTROL New]** 아이콘.
 1. 에서 **[!UICONTROL Creation of a data schema]** 창에서 **[!UICONTROL Extension of a schema]** 옵션을 선택하고 **[!UICONTROL Next]**.
