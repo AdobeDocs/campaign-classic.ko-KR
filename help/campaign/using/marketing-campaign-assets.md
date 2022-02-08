@@ -2,11 +2,9 @@
 product: campaign
 title: 마케팅 캠페인 문서 및 게재 개요
 description: 마케팅 캠페인 문서 및 게재 개요에 대해 자세히 알아보십시오
-audience: campaign
-content-type: reference
-topic-tags: orchestrate-campaigns
+feature: Campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%

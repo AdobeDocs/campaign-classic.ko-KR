@@ -6,8 +6,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: ht
+source-git-commit: e88ed7a5710f9ec8713d9e7151d2fd4904097990
+workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 <tr>
 <td>Libre Office</td>
 <td>
-<p>6(시스템에 임베드된 경우 이전 버전)</p>
+<p>7(시스템에 임베드된 경우 이전 버전)</p>
 </td>
 </tr>
 <tr>
@@ -149,7 +149,7 @@ ht-degree: 100%
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016년</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers">자세히 알아보기</a></p>
@@ -259,10 +259,10 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
+<p>2019년</p>
+<p>2017년</p>
+<p>2016년</p>
+<p>2014년</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 <td>최소 v7.0</td>
@@ -331,8 +331,8 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016</p>
-<p>2012</p>
+<p>2016년</p>
+<p>2012년</p>
 </td>
 </tr>
 <tr>

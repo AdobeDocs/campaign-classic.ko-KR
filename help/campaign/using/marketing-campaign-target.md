@@ -2,11 +2,9 @@
 product: campaign
 title: 마케팅 캠페인 타겟 대상
 description: 마케팅 캠페인의 대상자를 정의하는 방법을 알아봅니다
-audience: campaign
-content-type: reference
-topic-tags: orchestrate-campaigns
+feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 2%
