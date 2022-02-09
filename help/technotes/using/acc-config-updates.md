@@ -3,7 +3,7 @@ product: campaign
 title: 기술 정보 - Adobe Campaign 구성 업데이트
 description: Adobe Campaign 구성 업데이트
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+source-git-commit: 0f31ee570ba6e763f48902e91c5d823ac297fc24
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 12%
