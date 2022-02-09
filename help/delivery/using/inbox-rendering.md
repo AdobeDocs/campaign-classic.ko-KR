@@ -2,11 +2,9 @@
 product: campaign
 title: Campaign의 받은 편지함 렌더링
 description: 전자 메일 주소를 캡처하여 전용 보고서에서 사용할 수 있도록 하는 방법을 알아봅니다
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
+feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 8%
@@ -84,7 +82,6 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 >
 >* 받은 편지함 렌더링 보고서가 생성될 때마다 메시징 클라이언트당 하나의 토큰이 공제됩니다. Outlook 2000 렌더링을 위한 토큰 1개, Outlook 2010 렌더링을 위한 토큰, Apple Mail 9 렌더링을 위한 토큰 1개.
 >* 동일한 게재의 경우, 받은 편지함 렌더링을 다시 생성하는 경우 사용 가능한 토큰 수가 생성된 렌더링 수로 다시 감소합니다.
-
 >
 
 

@@ -2,11 +2,8 @@
 product: campaign
 title: 목록으로 보고서 보내기
 description: 워크플로우를 사용하여 목록으로 보고서를 보내는 방법 알아보기
-audience: workflow
-content-type: reference
-topic-tags: use-cases
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 1%

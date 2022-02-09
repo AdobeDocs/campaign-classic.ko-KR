@@ -2,11 +2,9 @@
 product: campaign
 title: 쿼리
 description: 쿼리 워크플로우 활동에 대해 자세히 알아보기
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 0%
@@ -127,7 +125,7 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
 
 ## 예: 단순 수신자 속성에 대한 타겟팅 {#example--targeting-on-simple-recipient-attributes}
 
-다음 예에서는 18세에서 30세 사이의 남자들과 프랑스에 거주하는 남성을 확인하려고 합니다. 이 쿼리는 예를 들어 독점 오퍼를 만드는 워크플로우에서 사용됩니다.
+다음 예에서는 18세에서 30세 사이의 남자 및 프랑스에 거주하는 남성을 확인하려고 합니다. 이 쿼리는 예를 들어 독점 오퍼를 만드는 워크플로우에서 사용됩니다.
 
 >[!NOTE]
 >

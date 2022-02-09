@@ -2,11 +2,11 @@
 product: campaign
 title: Campaign 운영자 시작
 description: Campaign 사용자를 만들고 관리하는 방법을 알아봅니다
-feature: Access Management
+feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 2%

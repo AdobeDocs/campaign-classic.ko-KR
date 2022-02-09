@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: 워크플로우를 통한 자동화
-description: 워크플로우를 통한 자동화
-audience: delivery
-content-type: reference
-topic-tags: content-management
+description: 워크플로우를 통해 콘텐츠 관리를 자동화하는 방법 알아보기
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 1%
+source-wordcount: '1190'
+ht-degree: 0%
 
 ---
 

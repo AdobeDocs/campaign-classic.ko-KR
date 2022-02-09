@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: 생일 전자 메일 보내기
+title: 생일 이메일 보내기
 description: 워크플로우로 생일 전자 메일을 보내는 방법 알아보기
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 1%
 
 ---
 
-# 생일 전자 메일 보내기{#sending-a-birthday-email}
+# 생일 이메일 보내기{#sending-a-birthday-email}
 
 ![](../../assets/common.svg)
 

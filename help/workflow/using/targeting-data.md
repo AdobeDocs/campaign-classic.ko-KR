@@ -2,18 +2,16 @@
 product: campaign
 title: 데이터 타겟팅
 description: 워크플로우에서 데이터 타겟팅에 대해 자세히 알아보기
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Query Editor, Data Management
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1924'
 ht-degree: 4%
 
 ---
 
-# 데이터 타겟팅{#targeting-data}
+# 타겟 데이터{#targeting-data}
 
 ![](../../assets/common.svg)
 
@@ -53,7 +51,7 @@ A **[!UICONTROL Query]** 활동을 통해 기본 데이터를 선택하여 대�
 
 ![](assets/query_add_columns_collection.png)
 
-### 추가 데이터를 사용하여 대상 세분화하기 {#refining-the-target-using-additional-data}
+### 추가 데이터를 사용하여 타겟 세분화 {#refining-the-target-using-additional-data}
 
 수집된 추가 데이터를 사용하면 데이터베이스에서 데이터 필터링을 세분화할 수 있습니다. 이렇게 하려면 **[!UICONTROL Refine the target using additional data...]** 링크: 이렇게 하면 추가된 데이터를 오버필터링할 수 있습니다.
 
@@ -79,7 +77,7 @@ in **[!UICONTROL Union]** 또는 **[!UICONTROL Intersection]** 유형 활동을 
 
 자세한 내용은 [분할 활동을 사용하여 하위 집합 만들기](#creating-subsets-using-the-split-activity).
 
-## 데이터 세그먼트화 {#segmenting-data}
+## 세그먼트 데이터 {#segmenting-data}
 
 ### 여러 대상 결합(결합) {#combining-several-targets--union-}
 
@@ -251,7 +249,7 @@ Adobe Campaign에서는 이러한 작업을 구현하기 위해 다음을 제공
 >  
 >예를 들어 워크플로우를 통해 수신자를 삭제해도 수신자의 게재 기록이 모두 삭제되지 않습니다. 그러나 &#39;수신자&#39; 폴더에서 직접 수신자를 삭제하면 이 수신자와 연결된 모든 데이터가 삭제됩니다.
 
-### 데이터 강화 및 수정 {#enriching-and-modifying-data}
+### 데이터 보강 및 수정 {#enriching-and-modifying-data}
 
 타겟팅 차원 외에도 필터링 차원을 사용하면 수집된 데이터의 특성을 지정할 수 있습니다. 을(를) 참조하십시오. [차원 타겟팅 및 필터링](building-a-workflow.md#targeting-and-filtering-dimensions).
 

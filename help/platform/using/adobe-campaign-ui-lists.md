@@ -2,11 +2,9 @@
 product: campaign
 title: 목록 관리 및 사용자 지정
 description: 목록 검색 및 구성 방법 알아보기
-audience: platform
-content-type: reference
-topic-tags: starting-with-adobe-campaign
+feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 2%

@@ -2,11 +2,9 @@
 product: campaign
 title: Adobe Campaign Classic의 이메일 채널 기본 정보
 description: 이 섹션에서는 Adobe Campaign Classic의 이메일 채널과 관련된 일반적인 정보를 제공합니다.
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+feature: Email
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 12%

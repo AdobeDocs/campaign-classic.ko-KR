@@ -2,11 +2,9 @@
 product: campaign
 title: 사용 권한 시작
 description: Campaign 기능에 대한 액세스 권한을 부여하는 방법을 알아봅니다
-feature: Access Management
-role: User, Admin
-level: Beginner
+feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 6%

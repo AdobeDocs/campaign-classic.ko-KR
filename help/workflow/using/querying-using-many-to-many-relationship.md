@@ -2,11 +2,9 @@
 product: campaign
 title: 다대다 관계를 사용하여 쿼리
 description: 다대다 관계를 사용하여 쿼리를 수행하는 방법을 알아봅니다
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Query Editor
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%

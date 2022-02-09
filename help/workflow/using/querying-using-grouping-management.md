@@ -2,18 +2,16 @@
 product: campaign
 title: 그룹 관리를 사용하여 쿼리
 description: 그룹 관리를 사용하여 쿼리를 수행하는 방법을 알아봅니다
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Query Editor
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 4%
 
 ---
 
-# 그룹 관리를 사용하여 쿼리 {#querying-using-grouping-management}
+# 그룹 관리를 사용한 쿼리 {#querying-using-grouping-management}
 
 ![](../../assets/common.svg)
 

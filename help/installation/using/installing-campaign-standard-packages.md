@@ -1,12 +1,9 @@
 ---
 product: campaign
 title: Campaign Classic 기본 제공 패키지 설치
-description: Campaign 기본 제공 패키지를 설치하는 방법 알아보기
-audience: installation
-content-type: reference
-topic-tags: initial-configuration
+description: Learn how to install Campaign built-in packages
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 035297523c25061f28751c28df86d562f40f45ea
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 6%
@@ -19,7 +16,7 @@ ht-degree: 6%
 
 ## 기본 제공 패키지 기본 정보 {#campaign-standard-packages}
 
-기본 제공 패키지에는 사용자의 요구 사항과 계약에 따라 설치할 수 있는 기능 세트가 들어 있습니다. Campaign 기본 제공 패키지의 전체 목록은 아래에서 확인할 수 있습니다.
+기본 제공 패키지에는 사용자의 요구 사항과 계약에 따라 설치할 수 있는 기능 세트가 들어 있습니다. The full list of Campaign built-in packages is available below.
 
 >[!CAUTION]
 >
@@ -29,23 +26,23 @@ ht-degree: 6%
 >
 >패키지가 설치되면 제거할 수 없습니다.
 >
->호스팅 또는 하이브리드 고객은 Adobe에 연락하여 새 기본 제공 패키지를 배포합니다.
+>As a hosted or hybrid customer, contact Adobe to have a new built-in package deployed.
 
-기본 제공 패키지를 설치하려면 다음을 수행하십시오.
+To install a built-in package:
 
 1. 에서 패키지 가져오기 마법사에 액세스 **[!UICONTROL Tools > Advanced > Import package]** ( Adobe Campaign 클라이언트 콘솔) 아래에 그룹화됩니다.
 1. **[!UICONTROL Install a standard package]**&#x200B;을(를) 선택합니다.
-1. 패키지 목록에서 설치할 패키지를 확인합니다.
+1. In the package list, check the packages you want to install.
    >[!NOTE]
    >
-   >패키지가 회색으로 표시되면 이미 설치되어 있거나 해당 인스턴스와 호환되지 않음을 의미합니다. 호환성은 아래 표에 자세히 설명되어 있습니다.
+   >When a package is greyed out, it means that is already installed or it is not compatible with your instance. 호환성은 아래 표에 자세히 설명되어 있습니다.
 1. 클릭 **[!UICONTROL Next]**, 그런 다음 **[!UICONTROL Start]** 패키지 설치를 시작하려면 다음을 수행하십시오.
 
    패키지가 설치되면 진행률 표시줄이 표시됩니다 **100%** 설치 로그에 다음 메시지가 표시됩니다. **[!UICONTROL Installation of packages successful]**.
 
-1. **[!UICONTROL Close]** 설치 창
+1. **[!UICONTROL Close]** the installation window.
 
-이제 패키지가 설치되었습니다.
+The packages are now installed.
 
 ### 기본 패키지 목록 {#list-of-standard-packages}
 
@@ -73,7 +70,7 @@ ht-degree: 6%
   <tr> 
    <td> 마케팅 리소스(MRM)<br /> </td> 
    <td> 작업, 예산 및 마케팅 리소스에 대한 관리 및 추적을 제공하여 협업 모드에서 마케팅 작업을 제어합니다. <a href="../../mrm/using/about-marketing-resource-management.md">추가 정보</a> <br /> </td> 
-   <td> 마케팅</td> 
+   <td> Marketing</td> 
   </tr> 
   <tr> 
    <td> 오퍼 엔진(상호 작용)<br /> </td> 
@@ -81,13 +78,13 @@ ht-degree: 6%
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
-   <td> 실행 인스턴스를 사용하여 오퍼 엔진 제어. 선택 사항입니다.<br /> </td> 
-   <td> 오퍼 엔진의 제어 인스턴스에 설치할 패키지(상호 작용) <a href="../../interaction/using/distributed-architectures.md#packages-configuration">추가 정보</a> </td> 
-   <td> 마케팅<br /> </td>  
+   <td> Control of offer engine with execution instance. 선택 사항입니다.<br /> </td> 
+   <td> 오퍼 엔진의 제어 인스턴스에 설치할 패키지(상호 작용) <a href="../../interaction/using/distributed-architectures.md#packages-configuration">Learn More</a> </td> 
+   <td> Marketing<br /> </td>  
   </tr> 
   <tr> 
    <td> 실행 인스턴스에 대한 오퍼 엔진입니다. 선택 사항입니다.<br /> </td> 
-   <td> 오퍼 엔진의 실행 인스턴스에 설치할 패키지(상호 작용) <a href="../../interaction/using/distributed-architectures.md">추가 정보</a> </td> 
+   <td> 오퍼 엔진의 실행 인스턴스에 설치할 패키지(상호 작용) <a href="../../interaction/using/distributed-architectures.md">Learn More</a> </td> 
    <td> 중간, 실행 <br /> </td>  
   </tr> 
   <!--tr> 
@@ -98,7 +95,7 @@ ht-degree: 6%
   </tr--> 
   <tr> 
    <td> 소셜 네트워크(소셜 마케팅) <br /> </td> 
-   <td> Adobe Campaign을 Twitter 및 Facebook과 동기화합니다. <a href="../../social/using/about-social-marketing.md">추가 정보</a> <br /> </td> 
+   <td> Adobe Campaign을 Twitter 및 Facebook과 동기화합니다. <a href="../../social/using/about-social-marketing.md">Learn More</a> <br /> </td> 
    <td> 모두</td> 
   </tr> 
   <tr> 
@@ -113,22 +110,22 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> LINE 채널<br /> </td> 
-   <td> Adobe Campaign과 함께 LINE 채널을 사용하여 게재를 보냅니다. 선택 사항입니다. 트랜잭션 메시지(메시지 센터 패키지)는 필수입니다. <a href="../../delivery/using/line-channel.md">추가 정보</a> <br /> </td> 
+   <td> Sends deliveries using the LINE channel with Adobe Campaign. 선택 사항입니다. 트랜잭션 메시지(메시지 센터 패키지)는 필수입니다. <a href="../../delivery/using/line-channel.md">추가 정보</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
    <td> DM 채널<br /> </td> 
-   <td> Adobe Campaign에서 DM 채널을 사용하여 게재를 보냅니다. 선택 사항입니다. <a href="../../delivery/using/about-direct-mail-channel.md">추가 정보</a><br /> </td> 
+   <td> Adobe Campaign에서 DM 채널을 사용하여 게재를 보냅니다. 선택 사항입니다. <a href="../../delivery/using/about-direct-mail-channel.md">Learn More</a><br /> </td> 
    <td> 모두<br /> </td>
   </tr> 
   <tr> 
-   <td> 모바일 채널(SMS) <br /> </td> 
+   <td> Mobile channel (SMS) <br /> </td> 
    <td> Adobe Campaign에서 모바일/SMS 채널을 사용하여 게재를 보냅니다. 선택 사항입니다. <a href="../../delivery/using/sms-channel.md">추가 정보</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
    <tr> 
-   <td> 전화 채널<br /> </td> 
-   <td> Adobe Campaign에서 전화 채널을 사용하여 게재를 보냅니다. 콜 센터에 사용됩니다. 선택 사항입니다. <a href="../../delivery/using/communication-channels.md">추가 정보</a> <br /> </td> 
+   <td> Telephone channel<br /> </td> 
+   <td> Adobe Campaign에서 전화 채널을 사용하여 게재를 보냅니다. 콜 센터에 사용됩니다. 선택 사항입니다. <a href="../../delivery/using/communication-channels.md">Learn More</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
@@ -137,8 +134,8 @@ ht-degree: 6%
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
-   <td> 컨텐츠 관리자<br /> </td> 
-   <td> 반복 뉴스레터 또는 웹 사이트를 만든 다음 메시지를 확인하고 게시합니다. <a href="../../delivery/using/about-content-management.md">추가 정보</a> <br /> </td> 
+   <td> Content Manager<br /> </td> 
+   <td> Creates recurrent newsletters or website then validate and publish your messages. <a href="../../delivery/using/about-content-management.md">Learn More</a> <br /> </td> 
    <td> </td>
   </tr> 
   <tr> 
@@ -158,7 +155,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> 외부 데이터에 액세스(페더레이션 데이터 액세스)<br /> </td> 
-   <td> 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위해 Adobe Campaign 데이터 구조를 변경하지 않고 외부 데이터에 액세스할 수 있는 FDA(Federated Data Access) 옵션을 제공합니다.  선택 사항입니다. <a href="../../workflow/using/accessing-an-external-database--fda-.md">추가 정보</a> <br /> </td> 
+   <td> Provides the Federated Data Access (FDA) option in order to process information stored in one or more external databases so that you can access external data without changing the structure of Adobe Campaign data.  선택 사항입니다. <a href="../../workflow/using/accessing-an-external-database--fda-.md">추가 정보</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
@@ -178,36 +175,36 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> 받은 편지함 렌더링(IR)<br /> </td> 
-   <td> 수신될 수 있는 다른 컨텍스트에서 전송된 메시지를 미리 보고 주요 데스크톱 및 응용 프로그램의 호환성을 확인할 수 있습니다. 선택 사항입니다. <a href="../../delivery/using/inbox-rendering.md">추가 정보</a><br /> </td> 
+   <td> 수신될 수 있는 다른 컨텍스트에서 전송된 메시지를 미리 보고 주요 데스크톱 및 응용 프로그램의 호환성을 확인할 수 있습니다. 선택 사항입니다. <a href="../../delivery/using/inbox-rendering.md">Learn More</a><br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
-   <td> 중앙/로컬 마케팅(분산 마케팅)<br /> </td> 
-   <td> 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 캠페인을 구현합니다. 및 지역 개체(영업 지점, 지역 기관 등)를 참조하십시오. 선택 사항입니다. <a href="../../distributed/using/about-distributed-marketing.md">추가 정보</a><br /> </td> 
+   <td> Central/local Marketing (Distributed Marketing)<br /> </td> 
+   <td> 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 캠페인을 구현합니다. and local entities (sales points, regional agencies, etc.). 선택 사항입니다. <a href="../../distributed/using/about-distributed-marketing.md">추가 정보</a><br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
   <tr> 
    <td> CRM 커넥터<br /> </td> 
-   <td> Adobe Campaign 플랫폼을 타사 시스템에 연결하는 다양한 CRM 커넥터를 제공합니다.  <a href="../../platform/using/crm-connectors.md">추가 정보</a> <br /> </td> 
+   <td> Adobe Campaign 플랫폼을 타사 시스템에 연결하는 다양한 CRM 커넥터를 제공합니다.  <a href="../../platform/using/crm-connectors.md">Learn More</a> <br /> </td> 
    <td> 마케팅</td> 
   </tr> 
   <tr> 
-   <td> 웹 Analytics 커넥터<br /> </td> 
-   <td> Adobe Campaign 및 Adobe Analytics이 Web Analytics 커넥터 패키지를 통해 상호 작용할 수 있습니다. 트랜잭션 메시지(메시지 센터 패키지)와 호환되지 않습니다. <a href="../../platform/using/adobe-analytics-connector.md">추가 정보</a><br /> </td> 
+   <td> Web Analytics connectors<br /> </td> 
+   <td> Adobe Campaign 및 Adobe Analytics이 Web Analytics 커넥터 패키지를 통해 상호 작용할 수 있습니다. 트랜잭션 메시지(메시지 센터 패키지)와 호환되지 않습니다. <a href="../../platform/using/adobe-analytics-connector.md">Learn More</a><br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
   <tr> 
-   <td> AEM 통합<br /> </td> 
-   <td> AEM 콘텐츠 편집 기능 및 Adobe Campaign 게재 기능을 활용할 수 있도록 이메일 게재 콘텐츠 및 양식을 Adobe Experience Manager에서 직접 관리할 수 있습니다. <a href="../../integrations/using/about-adobe-experience-manager.md">추가 정보</a> <br /> </td> 
+   <td> AEM integration<br /> </td> 
+   <td> Allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager in order to benefit from AEM's content editing functionalities as well as Adobe Campaign's delivery capacities. <a href="../../integrations/using/about-adobe-experience-manager.md">Learn More</a> <br /> </td> 
    <td> 마케팅</td> 
   </tr> 
   <tr> 
    <td> Adobe Experience Cloud 공유 대상 통합<br /> </td> 
    <td> Adobe Experience Cloud 솔루션 및 핵심 서비스와 대상자/세그먼트를 교환하고 공유할 수 있습니다. IMS 필요 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">추가 정보</a> <br /> </td> 
-   <td> 마케팅<br /> </td> 
+   <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud과 통합<br /> </td> 
+   <td> Integration with Adobe Experience Cloud<br /> </td> 
    <td> 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. 선택 사항입니다. <a href="../../integrations/using/configuring-ims.md#installing-the-package">추가 정보</a> </td> 
    <td> 마케팅</td> 
   </tr> 
@@ -224,7 +221,7 @@ ht-degree: 6%
   <tr> 
    <td> 중간 소싱 플랫폼<br /> </td> 
    <td> 이 구성은 호스팅(ASP) 구성과 내부 구성 간의 최적 중간 솔루션입니다. 외향 실행 구성 요소는 Adobe Campaign에서 호스팅되는 "중간 소싱" 서버에서 수행됩니다. 선택 사항입니다. <a href="../../installation/using/mid-sourcing-server.md">추가 정보</a> <br /> </td> 
-   <td> 중간 소싱 </td> 
+   <td> Mid-sourcing </td> 
   </tr> 
   <tr> 
    <td> AMP 지원<br /> </td> 
@@ -233,7 +230,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> ACS Connector<br /> </td> 
-   <td> Adobe Campaign v7와 Adobe Campaign Standard을 브리짓합니다. Campaign v7의 통합 기능으로 데이터를 Campaign Standard에 자동으로 복제하여 두 애플리케이션 중 최고의 성능을 제공합니다. 선택 사항입니다. <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">추가 정보</a> <br /> </td> 
+   <td> Adobe Campaign v7와 Adobe Campaign Standard을 브리짓합니다. It is an integrated feature in Campaign v7 that automatically replicates data to Campaign Standard, uniting the best of both applications. 선택 사항입니다. <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">추가 정보</a> <br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
  </tbody> 
@@ -263,10 +260,10 @@ ht-degree: 6%
 
 * 설치 [!DNL LINE] 마케팅 및 MID 인스턴스 둘 다에 패키지
 
-* 설정 [!DNL LINE] 게재 모드를 변경하여 mid 인스턴스를 가리키도록 mkt 인스턴스의 외부 계정입니다. [자세히 알아보기](../../delivery/using/line-channel.md#configure-line-external)
+* Setup the [!DNL LINE] external account on the mkt instance to point to the mid instance by changing the delivery mode. [자세히 알아보기](../../delivery/using/line-channel.md#configure-line-external)
 
-* 설정 [!DNL LINE] MID 인스턴스에 있는 외부 계정의 자격 증명입니다.
+* Setup the [!DNL LINE] credentials in the external account on the MID instance.
 
 >[!CAUTION]
 >
->에 대한 메시지 센터 게재 템플릿 [!DNL LINE] 이전에 메시지 센터 패키지를 설치한 경우에는 채널을 사용할 수 없습니다 [!DNL LINE].
+>The Message Center delivery templates for [!DNL LINE] channel will not be available if the Message Center packages are installed before [!DNL LINE].

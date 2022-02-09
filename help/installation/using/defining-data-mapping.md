@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: 외부 데이터베이스 액세스
-description: 외부 데이터베이스 액세스
-audience: platform
-content-type: reference
-topic-tags: connectors
+title: 외부 데이터 매핑 정의
+description: 외부 데이터베이스에 데이터를 매핑하는 방법 알아보기
 exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3af4f259b80b3e03c81ee278b470ef6ffe3fe4d0
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 9%
+source-wordcount: '194'
+ht-degree: 3%
 
 ---
 
-# 데이터 매핑 정의 {#defining-data-mapping}
+# 외부 데이터 매핑 정의 {#defining-data-mapping}
 
 ![](../../assets/v7-only.svg)
 

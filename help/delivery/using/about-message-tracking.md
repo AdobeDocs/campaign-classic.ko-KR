@@ -1,12 +1,9 @@
 ---
 product: campaign
 title: 추적 시작
-description: Adobe Campaign Classic에서 추적을 위한 일반 지침을 자세히 알아보십시오.
-audience: delivery
-content-type: reference
-topic-tags: tracking-messages
+description: Adobe Campaign Classic에서 추적을 위한 일반 지침을 자세히 알아보십시오
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 9%

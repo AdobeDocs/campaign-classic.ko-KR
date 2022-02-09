@@ -2,13 +2,11 @@
 product: campaign
 title: 승인 정의
 description: 승인을 사용하면 운영자가 워크플로우를 관리하는 결정을 하거나 워크플로우의 지속적인 실행을 확인할 수 있습니다
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Approvals
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3af4f259b80b3e03c81ee278b470ef6ffe3fe4d0
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '841'
 ht-degree: 4%
 
 ---
@@ -29,7 +27,7 @@ ht-degree: 4%
 
 ![](assets/validation-1-in-op.png)
 
-승인 예는 다음과 같습니다 [섹션](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
+승인 예는 [이 섹션](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 연산자는 다음 두 가지 방법 중 하나로 응답할 수 있습니다. 이메일 메시지 또는 콘솔을 통해 연결된 웹 페이지를 사용하여 유효성을 검사하는 중입니다.
 
@@ -37,7 +35,7 @@ ht-degree: 4%
 >
 >응답이 저장되면 수정되지 않을 수 있습니다.
 
-## 전자 메일 보내기 {#sending-emails}
+## 전자 메일로 승인 {#sending-emails}
 
 응답할 수 있는 웹 페이지에 대한 링크가 포함된 승인 메시지를 받을 수 있습니다. 타겟팅된 운영자가 승인 이메일을 받으려면 운영자 이메일 주소를 완료해야 합니다. 그렇지 않은 경우 연산자가 콘솔을 사용하여 응답해야 합니다
 

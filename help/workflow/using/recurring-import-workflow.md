@@ -2,18 +2,16 @@
 product: campaign
 title: 반복 가져오기 설정
 description: 반복 가져오기에 대한 워크플로우 템플릿을 구성하는 방법을 알아봅니다.
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
 
 ---
 
-# 반복 가져오기 워크플로우 설정 {#setting-up-a-recurring-import}
+# 가져오기 반복 워크플로우 설정 {#setting-up-a-recurring-import}
 
 ![](../../assets/common.svg)
 

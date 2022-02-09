@@ -6,14 +6,14 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 8%
+source-wordcount: '105'
+ht-degree: 5%
 
 ---
 
-# 이벤트 활동 기본 정보{#about-event-activities}
+# 워크플로우의 이벤트 활동{#about-event-activities}
 
 ![](../../assets/common.svg)
 

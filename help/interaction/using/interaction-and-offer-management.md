@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: 상호 작용 및 오퍼 관리
-description: 자격 규칙에 따라 담당자에게 최상의 오퍼를 보냅니다.
-audience: interaction
-content-type: reference
-topic-tags: interaction-overview
+description: 자격 규칙에 따라 담당자에게 최상의 오퍼를 보내는 방법을 알아봅니다
+feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 10%
+source-wordcount: '289'
+ht-degree: 6%
 
 ---
 

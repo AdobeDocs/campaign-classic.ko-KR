@@ -2,11 +2,9 @@
 product: campaign
 title: 트랜잭션 메시지 시작
 description: 'Adobe Campaign Classic 트랜잭션 메시지 운영 원칙 및 주요 단계에 대해 자세히 알아보십시오. '
-audience: message-center
-content-type: reference
-topic-tags: introduction
+feature: Transactional Messaging
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: f007dcbf63d7a69a6d532d0be99b0fa90f4f6d7a
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 7%

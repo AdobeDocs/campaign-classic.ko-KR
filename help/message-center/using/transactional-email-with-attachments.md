@@ -1,14 +1,12 @@
 ---
 product: campaign
 title: 첨부 파일이 있는 트랜잭션 이메일 보내기
-description: Adobe Campaign Classic을 사용하여 개별 및/또는 개인화된 첨부 파일을 사용하여 트랜잭션 이메일을 보내는 방법을 알아봅니다.
-audience: message-center
-content-type: reference
-topic-tags: use-case
+description: Adobe Campaign을 사용하여 개별 및/또는 개인화된 첨부 파일을 사용하여 트랜잭션 이메일을 보내는 방법을 알아봅니다
+feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: 7f4bbf3e79d6cdaf17987b9307ebf12801abad22
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '624'
 ht-degree: 2%
 
 ---
@@ -43,7 +41,7 @@ ht-degree: 2%
 >
 >성능 문제를 방지하려면 개인화된 URL에서 즉시 다운로드한 이미지를 첨부 파일로 포함하는 경우 각 이미지 크기가 기본적으로 10만 바이트를 초과해서는 안 됩니다. 이 권장 임계값은 다음에서 구성할 수 있습니다. [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
 
-## 추천 {#important-notes}
+## 권장 사항 {#important-notes}
 
 이 시나리오를 구현하려면 먼저 아래 지침을 자세히 살펴보십시오.
 

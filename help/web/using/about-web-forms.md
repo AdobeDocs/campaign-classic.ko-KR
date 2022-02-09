@@ -2,11 +2,9 @@
 product: campaign
 title: 웹 양식 시작
 description: Campaign에서 웹 양식 시작
-audience: web
-content-type: reference
-topic-tags: web-forms
+feature: Landing Pages
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 5%
@@ -80,7 +78,6 @@ Adobe Campaign은 웹 양식을 정의하고 게시하기 위한 그래픽 모�
 >
 >* 페이지 디자인 중에 **[!UICONTROL Preview]** 탭. 변경 내용을 보려면 양식을 먼저 저장합니다. 모든 오류는 **[!UICONTROL Log]** 탭.
 >* 페이지 표시 및 정보 저장소가 적절한 순서로 발생하는지 확인하려면 웹 양식에서 디버그 모드를 활성화합니다. 이렇게 하려면 로 이동합니다. **[!UICONTROL Preview]** 하위 탭에서 **[!UICONTROL Enable debug mode]** 상자: 수집된 모든 정보와 실행 오류가 각 페이지 하단에 표시됩니다.
-
 >
 
 

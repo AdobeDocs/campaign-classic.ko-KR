@@ -1,15 +1,13 @@
 ---
 product: campaign
-title: Adobe Campaign Classic의 모바일 앱 채널 기본 정보
-description: 이 섹션에서는 Adobe Campaign Classic의 모바일 앱 채널에 대한 일반 정보를 제공합니다.
-audience: delivery
-content-type: reference
-topic-tags: sending-push-notifications
+title: '모바일 앱 채널 시작 '
+description: Adobe Campaign Classic에서 모바일 앱 채널 시작
+feature: Push
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 1%
+source-wordcount: '666'
+ht-degree: 2%
 
 ---
 
