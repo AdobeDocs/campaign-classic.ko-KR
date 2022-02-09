@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: 워크플로우 작성
+title: 워크플로우 구축
 description: 워크플로우 구축 방법 알아보기
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 638b259462d3e01d744567e56d67a120359dc34a
+source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1623'
+ht-degree: 3%
 
 ---
 
-# 워크플로우 작성 {#building-a-workflow}
+# 워크플로우 구축 {#building-a-workflow}
 
 ![](../../assets/common.svg)
 
@@ -109,7 +107,7 @@ ht-degree: 0%
 
 * **이미지 관리**
 
-   다이어그램의 배경 이미지와 다양한 활동과 관련된 배경 이미지를 사용자 지정할 수 있습니다. 을(를) 참조하십시오. [활동 이미지 관리](managing-activity-images.md).
+   다이어그램의 배경 이미지와 다양한 활동과 관련된 배경 이미지를 사용자 지정할 수 있습니다. 을(를) 참조하십시오. [활동 이미지 변경](managing-activity-images.md).
 
 ## 활동 구성 {#configuring-activities}
 
@@ -148,7 +146,7 @@ ht-degree: 0%
 타겟팅 워크플로우를 만드는 단계는 다음 섹션에 자세히 설명되어 있습니다.
 
 1. **식별** 데이터베이스의 데이터 - [쿼리 만들기](targeting-data.md#creating-queries)
-1. **준비** 게재 요구 사항을 충족하는 데이터 - 참조 [데이터 강화 및 수정](targeting-data.md#enriching-and-modifying-data)
+1. **준비** 게재 요구 사항을 충족하는 데이터 - 참조 [데이터 보강 및 수정](targeting-data.md#enriching-and-modifying-data)
 1. **사용** 업데이트 또는 게재 내에서 수행할 데이터 - [데이터베이스 업데이트](how-to-use-workflow-data.md#updating-the-database)
 
 타겟팅 중에 수행한 모든 데이터 보강 및 모든 핸들의 결과는 개인화 필드에 저장되고 액세스할 수 있으며, 특히 개인화된 메시지를 만들 때 사용할 수 있습니다. 자세한 내용은 [Target 데이터](data-life-cycle.md#target-data)
@@ -239,7 +237,7 @@ ht-degree: 0%
 
 하지만 인스턴스에 모든 워크플로우를 표시하는 보기를 만들 수 있습니다. 이 보기에서 **복제 대상**.
 
-**먼저 보기를 만들겠습니다.**
+**보기 만들기**
 
 1. in **탐색기**&#x200B;에서 보기를 만들어야 하는 폴더로 이동합니다.
 1. 마우스 오른쪽 단추를 클릭하고 로 이동합니다. **새 폴더 추가** > **프로세스**, 선택 **워크플로우**.

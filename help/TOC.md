@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: ht
+source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
+workflow-type: tm+mt
 source-wordcount: '2556'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -506,7 +506,7 @@ ht-degree: 100%
       + [워크플로우의 JavaScript 코드 예](workflow/using/javascript-in-workflows.md)
       + [외부 데이터베이스 액세스](workflow/using/accessing-an-external-database--fda-.md)
       + [권한 관리](workflow/using/managing-rights.md)
-      + [활동 이미지 관리](workflow/using/managing-activity-images.md)
+      + [활동 이미지 변경](workflow/using/managing-activity-images.md)
       + [표준 시간대 관리](workflow/using/managing-time-zones.md)
       + [기술 워크플로우](workflow/using/about-technical-workflows.md)
 + 오퍼 관리 {#managing-offers}

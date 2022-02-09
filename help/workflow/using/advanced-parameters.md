@@ -2,11 +2,8 @@
 product: campaign
 title: 고급 매개 변수
 description: 고급 매개 변수
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-source-git-commit: 7a1b8a1cd3ad434dac5c324056113d7ec15ddd8a
+source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 1%
@@ -35,7 +32,7 @@ ht-degree: 1%
 
 ## 이미지 {#image}
 
-이 필드에서는 활동에 연결된 이미지를 변경할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [활동 이미지 관리](managing-activity-images.md).
+이 필드에서는 활동에 연결된 이미지를 변경할 수 있습니다. 자세한 내용은 [활동 이미지 변경](managing-activity-images.md).
 
 ## 실행 {#execution}
 

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 15%
@@ -31,4 +31,4 @@ ht-degree: 15%
 
 ![](assets/s_user_segmentation_jump_in.png)
 
-다이어그램의 가독성을 향상시키기 위해 점프와 연결된 이미지를 변경하여 관련 번호를 표시할 수 있습니다. 자세한 내용은 [활동 이미지 관리](managing-activity-images.md).
+다이어그램의 가독성을 향상시키기 위해 점프와 연결된 이미지를 변경하여 관련 번호를 표시할 수 있습니다. 자세한 내용은 [활동 이미지 변경](managing-activity-images.md).

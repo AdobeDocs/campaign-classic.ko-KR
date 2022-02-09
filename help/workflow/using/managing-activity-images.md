@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: 활동 이미지 관리
-description: 활동 이미지 관리
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
+title: 활동 이미지 변경
+description: 활동 이미지를 변경하는 방법을 알아봅니다
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 5%
+source-wordcount: '156'
+ht-degree: 0%
 
 ---
 
-# 활동 이미지 관리{#managing-activity-images}
+# 활동 이미지 변경{#change-activity-images}
 
 ![](../../assets/common.svg)
 
