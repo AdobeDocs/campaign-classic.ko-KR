@@ -2,13 +2,10 @@
 product: campaign
 title: 표시기 만들기
 description: 표시기 만들기
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '715'
 ht-degree: 2%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 2%
 
 큐브를 만들려면 다음 단계를 적용합니다.
 
-1. 작업 테이블을 선택합니다. 을(를) 참조하십시오. [작업 테이블 선택](#selecting-the-work-table).
+1. 작업 테이블을 선택합니다. 을(를) 참조하십시오. [작업 테이블을 선택합니다](#selecting-the-work-table).
 1. 차원을 정의합니다. 을(를) 참조하십시오. [차원 정의](#defining-dimensions).
 1. 측정 단위를 정의합니다. 을(를) 참조하십시오. [지표 작성](#building-indicators).
 1. 합계 만들기(선택 사항). 을(를) 참조하십시오. [합계 계산 및 사용](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
@@ -30,7 +27,7 @@ ht-degree: 2%
 
 구현 단계는 아래에 자세히 설명되어 있습니다. 이 장의 다른 섹션에서는 완전한 옵션과 설명을 사용할 수 있습니다.
 
-## 작업 테이블 선택 {#selecting-the-work-table}
+## 작업 테이블을 선택합니다 {#selecting-the-work-table}
 
 큐브를 만들려면 **[!UICONTROL New]** 큐브 목록 위에 있는 단추.
 
@@ -115,7 +112,7 @@ Dimension은 관련 팩트 스키마를 기준으로 각 큐브에 대해 정의
 
 1. 큐브를 저장합니다.
 
-## 큐브를 기반으로 보고서 생성 {#creating-a-report-based-on-a-cube}
+## 큐브를 기반으로 보고서 만들기 {#creating-a-report-based-on-a-cube}
 
 큐브가 구성되면 새 보고서를 만들기 위한 템플릿으로 사용할 수 있습니다.
 
@@ -131,7 +128,7 @@ Dimension은 관련 팩트 스키마를 기준으로 각 큐브에 대해 정의
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. 차원의 축을 전환하거나 삭제하고 새 측정 단위를 추가할 수 있습니다. 가능한 작업은 여기에 자세히 설명되어 있습니다. [큐브를 사용하여 데이터 탐색](../../reporting/using/using-cubes-to-explore-data.md).
+1. 차원의 축을 전환하거나 삭제하고 새 측정 단위를 추가할 수 있습니다. 가능한 작업은 [이 페이지](../../reporting/using/using-cubes-to-explore-data.md).
 
    이렇게 하려면 적절한 아이콘을 사용합니다.
 

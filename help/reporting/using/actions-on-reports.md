@@ -2,14 +2,11 @@
 product: campaign
 title: 보고서에 대한 작업
 description: 보고서에 대한 작업
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 1%
+source-wordcount: '544'
+ht-degree: 3%
 
 ---
 
@@ -56,7 +53,7 @@ ht-degree: 1%
 * 보고서는 셀 수준에서 정의된 특정 서식을 사용할 필요가 없습니다. 사용하는 것이 좋습니다 **[!UICONTROL Form rendering]** 를 클릭하여 테이블에서 셀의 형식을 정의합니다. 다음 **[!UICONTROL Form rendering]** 를 통해 액세스할 수 있습니다. **[!UICONTROL Administration > Configuration > Form rendering]**.
 * HTML 컨텐츠를 삽입하지 않는 것이 좋습니다.
 * 보고서에 여러 개의 테이블, 차트 등이 포함되어 있는 경우 유형 요소가 다른 요소 아래에 내보내집니다.
-* 셀에서 캐리지 리턴을 강제 적용할 수 있습니다. 이 구성은 Excel에 유지됩니다. 자세한 내용은 다음을 참조하십시오 [셀 형식 정의](../../reporting/using/creating-a-table.md#defining-cell-format).
+* 셀에서 캐리지 리턴을 강제 적용할 수 있습니다. 이 구성은 Excel에 유지됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/creating-a-table.md#defining-cell-format)을 참조하십시오.
 
 ### 내보내기 연기 {#postpone-the-export}
 

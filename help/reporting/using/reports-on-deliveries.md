@@ -2,13 +2,10 @@
 product: campaign
 title: 게재 보고서
 description: 게재 보고서
-audience: reporting
-content-type: reference
-topic-tags: accessing-built-in-reports
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 5%
 
 ---
@@ -27,7 +24,6 @@ Adobe Campaign은 고객 콘솔 또는 인터넷 브라우저를 통해 액세�
 
 클라이언트 콘솔 홈 페이지, 보고서 대시보드 또는 게재 목록에서 보고서에 액세스할 수 있습니다. 보고서의 표시 모드는 컨텍스트에 따라 다릅니다. 기본 보고서 목록은 홈 페이지에서 사용할 수 있으며, 게재 데이터에 빠르게 액세스할 수 있도록 해줍니다. 이 목록은 사용자의 요구 사항에 맞게 변경할 수 있습니다. 을(를) 참조하십시오. [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md) 추가 정보.
 
-## 보고서 사용 {#using-reports}
 
 보고서 대시보드를 통해 목록의 보고서 중 하나에 빠르게 액세스할 수 있는 검색 필드를 사용할 수 있습니다.
 

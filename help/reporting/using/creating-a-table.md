@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: 표 만들기
-description: 표 만들기
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+title: 테이블 만들기
+description: 테이블 만들기
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '2495'
 ht-degree: 1%
 
 ---
 
-# 표 만들기{#creating-a-table}
+# 테이블 만들기{#creating-a-table}
 
 ![](../../assets/common.svg)
 
@@ -21,7 +18,7 @@ ht-degree: 1%
 
 ![](assets/s_advuser_report_page_activity_05.png)
 
-## 그룹을 사용하여 목록 만들기 {#creating-a-list-with-group}
+## 그룹이 있는 목록 만들기 {#creating-a-list-with-group}
 
 A **[!UICONTROL List with group]** 유형 테이블을 사용하면 테이블에서 데이터를 그룹화하고 그에 대한 통계를 생성할 수 있습니다. 예를 들어 데이터에 대한 합계와 하위 합계를 만들 수 있습니다. 각 그룹에는 머리글, 세부 사항 및 바닥글 줄이 있습니다.
 

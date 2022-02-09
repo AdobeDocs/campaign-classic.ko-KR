@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: 보고서 처리
-description: 보고서 처리
-audience: reporting
-content-type: reference
-topic-tags: analyzing-populations
+title: 분석 보고서 사용
+description: 분석 보고서 사용
 exl-id: d133efec-33e1-4711-a90f-e40385059386
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 2%
+source-wordcount: '816'
+ht-degree: 1%
 
 ---
 

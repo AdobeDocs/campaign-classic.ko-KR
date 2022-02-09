@@ -2,13 +2,10 @@
 product: campaign
 title: 요소 레이아웃
 description: 요소 레이아웃
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '415'
 ht-degree: 1%
 
 ---
@@ -17,13 +14,13 @@ ht-degree: 1%
 
 ![](../../assets/common.svg)
 
-여기에 자세히 설명된 다양한 차트 외에도 [차트 유형 및 변형](../../reporting/using/creating-a-chart.md#chart-types-and-variants)를 사용하면 디스플레이를 조정하고 보고서 페이지에 요소를 추가할 수 있습니다.
+자세한 내용은 다양한 차트 외에도 [여기](../../reporting/using/creating-a-chart.md#chart-types-and-variants)를 사용하면 디스플레이를 조정하고 보고서 페이지에 요소를 추가할 수 있습니다.
 
 컨테이너를 사용할 수 있습니다. 이렇게 하면 페이지의 여러 요소를 연결하고 레이아웃을 열 및/또는 셀로 구성할 수 있습니다. 이러한 ID를 사용하는 방법은에 자세히 설명되어 있습니다 [이 섹션](../../web/using/defining-web-forms-layout.md#creating-containers).
 
 트리 루트에서 보고서 레이아웃을 구성하고 각 컨테이너에 대해 오버로드를 수행할 수 있습니다. 페이지는 열로 정렬됩니다. 컨테이너도 열로 정렬됩니다. 정적 항목과 그래픽 항목만 셀로 정렬됩니다.
 
-## 각 페이지에 대한 옵션 정의 {#defining-the-options-for-each-page}
+## 각 페이지에 대한 옵션을 정의합니다 {#defining-the-options-for-each-page}
 
 보고서의 각 페이지에서 옵션을 사용할 수 있습니다.
 

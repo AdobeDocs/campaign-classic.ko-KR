@@ -2,11 +2,8 @@
 product: campaign
 title: 보고서에 대한 액세스 구성
 description: 보고서에 대한 액세스 구성
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 1%
@@ -61,7 +58,7 @@ Adobe Campaign 플랫폼에서 보고서의 표시 컨텍스트를 **[!UICONTROL
 
 ![](assets/s_ncs_advuser_report_visibility_8.png)
 
-### 필터링 옵션 정의 {#defining-the-filtering-options}
+### 필터링 옵션을 정의합니다 {#defining-the-filtering-options}
 
 다음 **[!UICONTROL Reports]** 탭에는 플랫폼의 사용 가능한 모든 보고서와 연결된 연산자가 액세스 권한을 가지고 있는 보고서가 표시됩니다.
 

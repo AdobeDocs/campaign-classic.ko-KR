@@ -2,11 +2,8 @@
 product: campaign
 title: 보고서의 속성
 description: 보고서 속성 설정에 대해 자세히 알아보기
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
-source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
@@ -52,7 +49,7 @@ ht-degree: 1%
 * **[!UICONTROL Access control]**: 이 옵션을 사용하면 Adobe Campaign 운영자가 로그온하면 액세스할 수 있습니다.
 * **[!UICONTROL Specific account]**: 이 옵션을 사용하면 다음에서 선택한 연산자의 권한으로 보고서를 실행할 수 있습니다 **[!UICONTROL Operator]** 필드.
 
-## 보고서 현지화 관리 {#managing-report-localization}
+## 보고서 번역 {#report-localization}
 
 보고서를 변환할 언어를 구성할 수 있습니다. 이렇게 하려면 **[!UICONTROL Localization]** 탭.
 

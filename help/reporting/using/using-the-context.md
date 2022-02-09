@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: 컨텍스트 사용
-description: 컨텍스트 사용
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+title: 보고서에서 컨텍스트 사용
+description: 보고서에서 컨텍스트를 사용하는 방법을 알아봅니다
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 2%
+source-wordcount: '497'
+ht-degree: 0%
 
 ---
 
-# 컨텍스트 사용{#using-the-context}
+# 보고서에서 컨텍스트 사용{#using-the-context}
 
 ![](../../assets/common.svg)
 

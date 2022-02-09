@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: 데이터를 수집하여 분석
-description: 데이터를 수집하여 분석
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+title: 분석 대상 데이터 수집
+description: 분석 대상 데이터 수집
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 3%
 
 ---
 
-# 데이터를 수집하여 분석{#collecting-data-to-analyze}
+# 분석 대상 데이터 수집{#collecting-data-to-analyze}
 
 ![](../../assets/common.svg)
 
@@ -33,7 +30,7 @@ ht-degree: 3%
 
 이 데이터 선택 모드는 데이터베이스의 데이터를 사용하여 보고서의 데이터를 수집하거나 빌드해야 하는 경우에 적합합니다. 경우에 따라 보고서에 사용된 요소에서 직접 데이터를 선택할 수도 있습니다. 예를 들어 차트를 삽입할 때 소스 데이터를 직접 선택할 수 있습니다. 자세한 내용은 [컨텍스트 사용](../../reporting/using/using-the-context.md).
 
-## 스키마에서 데이터 사용 {#using-the-data-from-a-schema}
+## 스키마의 데이터 사용 {#using-the-data-from-a-schema}
 
 데이터베이스 스키마에 연결된 데이터를 사용하려면 쿼리 편집기에서 적절한 옵션을 선택하고 적용할 쿼리를 구성합니다.
 

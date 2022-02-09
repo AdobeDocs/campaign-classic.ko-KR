@@ -1,26 +1,23 @@
 ---
 product: campaign
-title: 큐브를 사용하여 데이터 탐색
-description: 큐브를 사용하여 데이터 탐색
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
+title: 큐브로 데이터 탐색
+description: 큐브로 데이터 탐색
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 2%
 
 ---
 
-# 큐브를 사용하여 데이터 탐색{#using-cubes-to-explore-data}
+# 큐브로 데이터 탐색{#using-cubes-to-explore-data}
 
 ![](../../assets/common.svg)
 
 Marketing Analytics를 사용하면 보고서를 더 쉽게 만들고 큐브를 통해 데이터베이스에서 데이터를 식별하고 선택할 수 있습니다. 이를 통해 다음을 수행할 수 있습니다.
 
 * 큐브를 기반으로 보고서를 만듭니다. 프로세스는 여기에 자세히 설명되어 있습니다. [보고서에서 데이터 탐색](#exploring-the-data-in-a-report).
-* 타겟과 게재를 식별하고 작성하기 위해, 데이터베이스의 데이터를 수집하고 목록으로 그룹화합니다. 자세한 내용은 [대상 모집단 만들기](#building-a-target-population).
+* 타겟과 게재를 식별하고 작성하기 위해, 데이터베이스의 데이터를 수집하고 목록으로 그룹화합니다. 자세한 내용은 [대상 모집단 작성](#building-a-target-population).
 * 보고서에 피벗 테이블을 삽입하고 보고서의 기존 큐브를 참조합니다. 자세한 내용은 [보고서에 피벗 테이블 삽입](#inserting-a-pivot-table-into-a-report).
 
 >[!NOTE]
@@ -33,9 +30,9 @@ Marketing Analytics를 사용하면 보고서를 더 쉽게 만들고 큐브를 
 
 큐브를 기반으로 보고서를 만들려면 **[!UICONTROL Create]** 단추 **[!UICONTROL Reports]** 탭을 선택하고 사용할 큐브를 선택합니다.
 
-프로세스는 여기에 자세히 설명되어 있습니다. [큐브를 기반으로 보고서 생성](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
+프로세스는 여기에 자세히 설명되어 있습니다. [큐브를 기반으로 보고서 만들기](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
 
-### 2단계 - 선 및 열 선택 {#step-2---selecting-lines-and-columns}
+### 2단계 - 라인 및 열 선택 {#step-2---selecting-lines-and-columns}
 
 기본 표시에는 큐브의 처음 두 차원(이 경우 연령 및 도시)이 표시됩니다.
 
@@ -96,7 +93,7 @@ Marketing Analytics를 사용하면 보고서를 더 쉽게 만들고 큐브를 
 
    ![](assets/s_advuser_cube_in_report_config_02.png)
 
-   그런 다음 측정값 레이블을 표시할지 여부를 선택할 수 있습니다. 자세한 내용은 [표시 구성](../../reporting/using/concepts-and-methodology.md#configuring-the-display).
+   그런 다음 측정값 레이블을 표시할지 여부를 선택할 수 있습니다. 자세한 내용은 [디스플레이 구성](../../reporting/using/concepts-and-methodology.md#configuring-the-display).
 
 1. 기존 방법을 사용하여 새로운 방법을 만들 수 있습니다. 이렇게 하려면 **[!UICONTROL Create a measure]** 그리고 구성합니다.
 
@@ -120,7 +117,7 @@ Marketing Analytics를 사용하면 보고서를 더 쉽게 만들고 큐브를 
 
    그런 다음 **[!UICONTROL Edit the dynamic measure]** 를 클릭하여 설정 메뉴에 액세스합니다.
 
-## 대상 모집단 만들기 {#building-a-target-population}
+## 대상 모집단 작성 {#building-a-target-population}
 
 큐브를 사용하여 보고서를 작성할 수 있으므로 테이블에서 데이터를 수집하고 목록에 저장할 수 있습니다.
 

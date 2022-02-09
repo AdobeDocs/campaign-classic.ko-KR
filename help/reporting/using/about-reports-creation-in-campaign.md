@@ -2,8 +2,9 @@
 product: campaign
 title: 보고서를 만드는 주요 단계
 description: 보고서를 만드는 주요 단계를 알아봅니다
+feature: Reporting
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%

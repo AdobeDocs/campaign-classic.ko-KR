@@ -1,25 +1,22 @@
 ---
 product: campaign
-title: 설명 분석 마법사 사용
-description: 설명 분석 마법사 사용
-audience: reporting
-content-type: reference
-topic-tags: analyzing-populations
+title: 기술적 분석 마법사 사용
+description: 기술적 분석 마법사 사용
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 1%
 
 ---
 
-# 설명 분석 마법사 사용{#using-the-descriptive-analysis-wizard}
+# 기술적 분석 마법사 사용{#using-the-descriptive-analysis-wizard}
 
 ![](../../assets/common.svg)
 
 설명 분석 보고서를 생성하려면 전용 마법사를 사용합니다. 구성은 분석할 데이터와 원하는 렌더링에 따라 다릅니다.
 
-## 데이터베이스의 데이터 분석 {#analyzing-data-in-the-database}
+## 데이터베이스에서 데이터 분석 {#analyzing-data-in-the-database}
 
 설명 분석 마법사는 **[!UICONTROL Tools > Descriptive analysis]** 메뉴: 이 경우 분석은 기본적으로 수신자에 대한 관심입니다(**nms:recipient**). Adobe Campaign 데이터베이스의 모든 데이터에 적용됩니다.
 
@@ -198,7 +195,7 @@ ht-degree: 1%
 
 ![](assets/report_display_data_in_graph.png)
 
-## 수량 분배 템플릿 구성 {#configuring-the-quantitative-distribution-template}
+## 수량 배포 템플릿 구성 {#configuring-the-quantitative-distribution-template}
 
 설명 분석을 직접 생성하려면 **템플릿의 새로운 설명 분석** 기본적으로 설정되지 않은 경우 선택합니다.
 

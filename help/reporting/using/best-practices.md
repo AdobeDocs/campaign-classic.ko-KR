@@ -2,13 +2,11 @@
 product: campaign
 title: 보고 모범 사례
 description: Campaign 보고 우수 사례
-audience: reporting
-content-type: reference
-topic-tags: reporting-in-adobe-campaign
+feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -62,7 +60,7 @@ ht-degree: 0%
 
    특히 시간 측면에서 보고서 표시 문제를 방지하기 위해 데이터 볼륨 및 업데이트와 관련된 문제를 신중하게 검토해야 합니다. 따라서 보고서 외부의 일부 데이터를 미리 계산하기 위해 합계를 만드는 것이 좋습니다. 추적 및 게재 로그가 포함된 테이블에는 수백만 개의 레코드가 포함될 수 있습니다. 즉, 보고서에서 사용하려면 워크플로우를 통해 데이터를 집계해야 합니다.
 
-## 보고서 만들기 최적화{#optimizing-report-creation}
+## 보고서 디자인 최적화{#optimizing-report-creation}
 
 ### 데이터 볼륨 {#data-volume}
 

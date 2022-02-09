@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: 개념 및 방법
-description: 개념 및 방법
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
+title: 큐브에 대한 우수 사례
+description: 큐브에 대한 우수 사례
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 1%
+source-wordcount: '1493'
+ht-degree: 0%
 
 ---
 
@@ -187,7 +184,7 @@ Adobe Campaign은 또한 다음 예와 같이 데이터베이스에 있는 모�
 필요에 따라 테이블에서 측정 단위 표시를 구성할 수 있습니다.
 
 * 측정 단위의 표시 순서( [표시 시퀀스](#display-sequence)),
-* 보고서에 표시/숨길 정보(다음을 참조하십시오 [표시 구성](#configuring-the-display))
+* 보고서에 표시/숨길 정보(다음을 참조하십시오 [디스플레이 구성](#configuring-the-display))
 * 표시할 측정값: 백분율, 총, 소수 수 등 (참조: [표시되는 측정값 유형 변경](#changing-the-type-of-measure-displayed)).
 
 ### 표시 시퀀스 {#display-sequence}
@@ -198,7 +195,7 @@ Adobe Campaign은 또한 다음 예와 같이 데이터베이스에 있는 모�
 
 ![](assets/s_advuser_cube_in_report_config_04.png)
 
-### 표시 구성 {#configuring-the-display}
+### 디스플레이 구성 {#configuring-the-display}
 
 측정값, 라인 및 열의 구성은 각 측정값 또는 전체에 대해 개별적으로 수행할 수 있습니다. 특정 아이콘을 사용하면 표시 모드 선택 창에 액세스할 수 있습니다.
 

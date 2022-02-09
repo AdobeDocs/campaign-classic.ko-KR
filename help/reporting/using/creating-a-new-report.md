@@ -2,11 +2,8 @@
 product: campaign
 title: 새 보고서 만들기
 description: 새 보고서를 만드는 주요 단계를 알아봅니다
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 1%
@@ -39,7 +36,7 @@ ht-degree: 1%
 
 1. 이 보고서를 저장합니다.
 
-## 차트 모델링 {#modelizing-the-chart}
+## 차트 모델 지정 {#modelizing-the-chart}
 
 보고서를 저장한 후에 표시됩니다. 이제 보고서 차트를 작성할 수 있습니다.
 
@@ -133,7 +130,7 @@ A **[!UICONTROL Page]** 다음 요소를 포함할 수 있습니다.
 
 ![](assets/s_advuser_report_page_activity_03.png)
 
-### 보고서에서 정보 필터링 {#filtering-information-in-a-report}
+### 보고서의 정보 필터링 {#filtering-information-in-a-report}
 
 입력 및 선택 컨트롤을 사용하면 보고서에 표시된 정보를 필터링할 수 있습니다. 이러한 유형의 필터링 구현에 대한 자세한 내용은 [쿼리의 필터링 옵션](../../reporting/using/collecting-data-to-analyze.md#filtering-options-in-the-queries).
 

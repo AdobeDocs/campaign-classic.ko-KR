@@ -1,14 +1,11 @@
 ---
 product: campaign
 title: 차트 만들기
-description: 차트 만들기
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+description: 차트를 디자인하는 방법 알아보기
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
-source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '525'
 ht-degree: 3%
 
 ---
