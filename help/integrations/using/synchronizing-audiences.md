@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: 대상 동기화
-description: 대상 동기화
-audience: integrations
-content-type: reference
-topic-tags: acs-connector
+title: 대상자 동기화
+description: 대상을 ACS 커넥터와 동기화하는 방법을 알아봅니다
+feature: ACS Connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1135'
 ht-degree: 1%
 
 ---
 
-# 대상 동기화{#synchronizing-audiences}
+# 대상자 동기화{#synchronizing-audiences}
 
 ![](../../assets/v7-only.svg)
 
@@ -29,7 +27,7 @@ Microsoft Dynamics와 같은 커넥터를 통해 수신하거나 Campaign Standa
 >
 >필요한 모든 데이터가 이미 복제되어 있는 경우 Adobe Campaign Standard의 집계 및 컬렉션을 사용하여 데이터를 보강할 수도 있습니다.
 
-## 필수 구성 요소 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 이를 위해서는 다음을 수행해야 합니다.
 

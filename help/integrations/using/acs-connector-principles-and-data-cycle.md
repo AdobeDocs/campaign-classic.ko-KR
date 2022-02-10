@@ -1,23 +1,19 @@
 ---
 product: campaign
-title: ACS 커넥터 원칙 및 데이터 주기
+title: ACS 커넥터 시작
 description: ACS 커넥터 원칙 및 데이터 주기
-audience: integrations
-content-type: reference
-topic-tags: acs-connector
+feature: ACS Connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: f007dcbf63d7a69a6d532d0be99b0fa90f4f6d7a
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
 
-# ACS 커넥터 원칙 및 데이터 주기{#acs-connector-principles-and-data-cycle}
+# ACS 커넥터 시작{#acs-connector-gs}
 
 ![](../../assets/v7-only.svg)
-
-## 소개 {#introduction}
 
 ACS 커넥터는 Adobe Campaign v7 및 Adobe Campaign Standard을 브리징합니다. Campaign v7의 통합 기능으로 데이터를 Campaign Standard에 자동으로 복제하여 두 애플리케이션 중 최고의 성능을 제공합니다. Campaign v7에는 기본 마케팅 데이터베이스를 관리하는 고급 도구가 있습니다. Campaign v7에서 데이터 복제를 통해 Campaign Standard은 사용자에게 친숙한 환경에서 풍부한 데이터를 활용할 수 있습니다.
 
@@ -38,7 +34,7 @@ ACS 커넥터를 사용하면, Campaign Standard은 디지털 마케터가 캠�
 * [프로세스](#process): ACS 커넥터 및 데이터 복제 관리 방법에 대한 개요입니다.
 * [구현](#implementation): ACS 커넥터 시작 방법과 기본 및 고급 데이터를 복제하는 방법에 대한 지침입니다.
 * [프로필 동기화](../../integrations/using/synchronizing-profiles.md): 프로필을 복제하는 방법과 프로필을 사용하여 게재를 만드는 방법에 대한 지침입니다.
-* [대상 동기화](../../integrations/using/synchronizing-audiences.md): Campaign v7에서 수신자 목록을 타겟팅한 다음 목록을 Campaign Standard으로 복제하는 방법에 대한 지침입니다.
+* [대상자 동기화](../../integrations/using/synchronizing-audiences.md): Campaign v7에서 수신자 목록을 타겟팅한 다음 목록을 Campaign Standard으로 복제하는 방법에 대한 지침입니다.
 * [웹 애플리케이션 동기화](../../integrations/using/synchronizing-web-applications.md): Campaign v7 웹 애플리케이션을 Campaign Standard에 연결하는 방법에 대한 지침입니다.
 * [ACS 커넥터 문제 해결](../../integrations/using/troubleshooting-the-acs-connector.md): 일반적인 문제에 대한 답변을 검토합니다.
 

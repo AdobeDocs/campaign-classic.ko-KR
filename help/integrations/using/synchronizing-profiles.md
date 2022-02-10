@@ -1,14 +1,12 @@
 ---
 product: campaign
 title: 프로필 동기화
-description: 프로필 동기화
-audience: integrations
-content-type: reference
-topic-tags: acs-connector
+description: ACS 커넥터와 프로필을 동기화하는 방법을 알아봅니다
+feature: ACS Connector
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1201'
 ht-degree: 3%
 
 ---
@@ -25,7 +23,7 @@ ACS 커넥터는 Campaign v7에서 Campaign Standard으로 데이터를 복제�
 * **Campaign Standard에서 게재 만들기**: 워크플로우를 따라 게재를 전송합니다. 자세한 내용은 [게재 만들기](#creating-a-delivery).
 * **구독 취소 링크 확인**: Campaign v7 웹 애플리케이션을 사용하여 수신자가 선택한 서비스 구독을 Campaign v7 데이터베이스로 전송하도록 합니다. 서비스 수신을 중지하는 옵션이 Campaign Standard에 복제됩니다. 자세한 내용은 [구독 취소 링크 변경](#changing-the-unsubscription-link).
 
-## 필수 구성 요소 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 다음 섹션에서는 ACS 커넥터가 Campaign v7에서 수신자를 추가 및 편집한 다음 Campaign Standard 전달에서 사용하는 방법을 설명합니다. ACS Connector에는 다음이 필요합니다.
 
@@ -158,7 +156,7 @@ Campaign Standard 워크플로우에 대한 자세한 내용 및 전체 지침�
 
    ![](assets/acs_connect_profile_sync_19.png)
 
-## 구독 취소 서비스를 확인하는 중 {#verifying-the-unsubscription-service}
+## 구독 취소 서비스 확인 {#verifying-the-unsubscription-service}
 
 다음 지침을 따르십시오. [워크플로우 만들기](#creating-a-workflow) 및 [게재 만들기](#creating-a-delivery) 를 클릭하여 아래의 단계로 이동합니다.
 

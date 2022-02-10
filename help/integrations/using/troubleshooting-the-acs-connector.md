@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -78,7 +78,7 @@ ht-degree: 0%
 
    또한 수신자에 첨부되고 nms:recipients와 관련된 테이블에 저장된 모든 데이터는 기본적으로 Campaign Standard과 동기화되지 않습니다.
 
-   관련 데이터를 계속 사용하려면, Campaign v7에서 타깃팅을 수행하고 다음에서 설명한 대로 추가 데이터를 추가할 수 있습니다. [대상 동기화](../../integrations/using/synchronizing-audiences.md) 섹션을 참조하거나 컨설턴트에게 문의하여 사용자 지정 가능성을 탐색할 수 있습니다.
+   관련 데이터를 계속 사용하려면, Campaign v7에서 타깃팅을 수행하고 다음에서 설명한 대로 추가 데이터를 추가할 수 있습니다. [대상자 동기화](../../integrations/using/synchronizing-audiences.md) 섹션을 참조하거나 컨설턴트에게 문의하여 사용자 지정 가능성을 탐색할 수 있습니다.
 
 * **Campaign v7에서 기본 nms:recipient가 아닌 다른 프로필 차원을 사용하고 있습니다. Campaign Standard과 동기화하려면 어떻게 해야 합니까?**
 

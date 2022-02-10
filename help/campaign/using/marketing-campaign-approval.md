@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: 마케팅 캠페인 승인
+title: 승인 프로세스 설정 및 관리
 description: 마케팅 캠페인 승인을 관리하는 방법을 알아봅니다
 feature: Approvals
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: 3af4f259b80b3e03c81ee278b470ef6ffe3fe4d0
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2438'
 ht-degree: 2%
 
 ---

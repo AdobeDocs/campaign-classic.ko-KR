@@ -1,14 +1,12 @@
 ---
 product: campaign
 title: 웹 애플리케이션 동기화
-description: 웹 애플리케이션 동기화
-audience: integrations
-content-type: reference
-topic-tags: acs-connector
+description: 웹 애플리케이션을 ACS 커넥터와 동기화하는 방법을 알아봅니다
+feature: ACS Connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '801'
 ht-degree: 1%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 1%
 
 Campaign v7에 많은 서비스와 웹 응용 프로그램이 있는 경우 Campaign Standard에서 모든 서비스 및 웹 응용 프로그램을 다시 만들지 않도록 선택할 수 있습니다. ACS 커넥터를 사용하면 기존의 모든 Campaign v7 웹 애플리케이션 및 서비스를 사용하고 이를 Campaign Standard이 보낸 게재에 연결할 수 있습니다.
 
-## 필수 구성 요소 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 이를 위해서는 다음을 수행해야 합니다.
 
@@ -29,7 +27,7 @@ Campaign v7에 많은 서비스와 웹 응용 프로그램이 있는 경우 Camp
 * Campaign v7에서 만들고 게시된 서비스 및 웹 애플리케이션입니다.
 * 웹 응용 프로그램에는 **[!UICONTROL Pre-loading]** 활동을 사용하여 **[!UICONTROL Adobe Campaign encryption]** 식별 방법.
 
-## 웹 응용 프로그램 및 서비스 만들기 {#creating-the-web-application-and-service}
+## 웹 애플리케이션 및 서비스 만들기 {#creating-the-web-application-and-service}
 
 Campaign v7에서는 수신자가 서비스에 가입하도록 허용하는 웹 애플리케이션을 만들 수 있습니다. 웹 애플리케이션 및 서비스는 Campaign v7에 설계 및 저장되며 Campaign Standard 통신을 통해 이 서비스를 업데이트할 수 있습니다. Campaign v7의 웹 애플리케이션에 대한 자세한 내용은 [이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes).
 
@@ -86,7 +84,7 @@ Campaign v7와 Campaign Standard 간에 필요한 데이터를 복제하기 위�
 
 이 부분에서는 Campaign Standard 이메일에 Campaign v7 웹 애플리케이션에서 복제된 랜딩 페이지에 링크를 포함하는 방법을 살펴봅니다.
 
-이메일을 만들고, 디자인하고 보내는 단계는 클래식 이메일과 동일합니다. 자세한 내용은 [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ko) 설명서.
+이메일을 만들고, 디자인하고 보내는 단계는 클래식 이메일과 동일합니다. 자세한 내용은 [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ko) 설명서.
 
 1. 새 이메일을 만들고 하나 이상의 복제된 프로필을 대상으로 선택합니다.
 1. 콘텐츠를 편집하고 삽입 **[!UICONTROL Link to a landing page]**.
