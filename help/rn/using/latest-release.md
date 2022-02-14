@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 630a62c5e5c9782c5c55fdebd651493a2d68fc54
+source-git-commit: fc49c0ec80c8741b01ea150c3bc7362b73357607
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1035'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,6 @@ _2022년 1월 10일_
 
 FDA 계정의 보안 기능을 몇 가지 면에서 개선했습니다.
 
-* 이제 ODBC 드라이버는 Adobe Campaign 서드파티로 바로 설치됩니다. 이제 해당 드라이버를 설치할 때 수동으로 조작할 필요가 없습니다.
 * 이제 FDA 외부 계정을 구성할 때 보다 안전한 인증을 위해 [키 쌍] 인증을 사용하여 Snowflake 계정에 로그인할 수 있습니다. [자세히 표시](../../installation/using/configure-fda-snowflake.md)
 * 이제 FDA 외부 계정을 구성할 때 시스템에서 할당한 관리 ID를 사용하여 Azure Synapse Analytics 계정에 로그인할 수 있습니다. [자세히 표시](../../installation/using/configure-fda-synapse.md#azure-external)
 * 최적의 보안을 위해 Campaign에서 log4j 라이브러리에 대한 참조를 모두 제거했습니다.
