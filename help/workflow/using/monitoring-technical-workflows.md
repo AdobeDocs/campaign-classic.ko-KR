@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 1a4fd75a90667e57149772497a7b1bd14b251db3
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 8%
+source-wordcount: '504'
+ht-degree: 5%
 
 ---
 
@@ -43,9 +43,8 @@ ht-degree: 8%
 
 대상 **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
-1. 다음을 확인하십시오. **[!UICONTROL Database Cleanup]** 워크플로우가 매일 성공적으로 실행되고 완료됩니다. 자세한 정보는 이 [페이지](delivery.md)를 참조하십시오.
+1. 다음을 확인하십시오. **[!UICONTROL Database Cleanup]** 워크플로우가 매일 성공적으로 실행되고 완료됩니다. 자세한 내용은 다음을 참조하십시오 [페이지](../../production/using/database-cleanup-workflow.md)..
 1. 저널을 확인하여 경과 시간이 시간에 따라 상대적으로 일정하며 다른 워크플로우를 방해하지 않는지 확인합니다.
-1. 자세한 내용은 다음을 확인하십시오 [페이지](../../production/using/database-cleanup-workflow.md).
 
 대상 **[!UICONTROL Tracking workflow (‘tracking’)]**:
 
@@ -53,7 +52,7 @@ ht-degree: 8%
 
 대상 **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
 
-1. 다음을 확인하십시오. **[!UICONTROL Deliverability update]** 워크플로우가 매일 성공적으로 실행되고 완료됩니다. 자세한 정보는 이 [페이지](delivery.md)를 참조하십시오.
+1. 다음을 확인하십시오. **[!UICONTROL Deliverability update]** 워크플로우가 매일 성공적으로 실행되고 완료됩니다.
 1. 규칙이 정기적으로 업데이트되는지 저널에서 확인합니다.
 
 대상 **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:

@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: 3709aaf0543a50ff6c2e65a75e7189ab805cd742
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -81,4 +81,4 @@ ht-degree: 0%
 관련 항목:
 
 * [Adobe Marketing Cloud 규정 준수 개요](https://experienceleague.adobe.com/docs/core-services/assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
-* [Adobe Campaign 보안 개요](https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/campaign/pdfs/54658.en.campaign.wp.adb-security.pdf) (PDF)
+* [Adobe Campaign 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/ADB-CampaignSecurity-WP.pdf) (PDF)

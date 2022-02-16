@@ -3,9 +3,9 @@ product: campaign
 title: Adobe Campaign Classic에서 향상된 MTA를 사용하여 보내기
 description: Adobe Campaign Enhanced MTA를 사용하여 전자 메일을 보내는 범위와 특성에 대해 알아봅니다
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 8ac6cddad04d1142b84a735ab8083e732c17714b
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1946'
 ht-degree: 3%
 
 ---
@@ -135,6 +135,10 @@ Campaign의 반송 자격 **[!UICONTROL Delivery log qualification]** 표는 더
 Campaign 게재 처리량 그래프는 더 이상 이메일 수신자에게 처리량을 표시하지 않습니다. 이제 해당 그래프는 Campaign에서 Enhanced MTA로 메시지 릴레이에 대한 처리량 속도를 보여줍니다.
 
 게재 처리량에 대한 자세한 내용은 [이 섹션](../../reporting/using/global-reports.md#delivery-throughput).
+
+>[!NOTE]
+>
+>사용 [이메일 피드백 서비스](#email-feedback-service) (EFS) 기능(현재 베타로 사용 가능), Campaign 게재 처리량 그래프는 전자 메일 수신자에 대한 처리량을 계속 표시합니다.
 
 ### 유효 기간
 

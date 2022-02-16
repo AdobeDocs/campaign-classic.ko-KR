@@ -6,9 +6,9 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 47cc5bc2f16ea87b6a12f6bf500c1e8d1f406876
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ S3, Azure Blob 저장 공간 또는 SFTP 연결을 통해 Adobe 실시간 고객
 
 * **[!UICONTROL Delete the source files after transfer]**
 
-   원격 서버의 파일을 지웁니다.
+   원격 서버의 파일을 지웁니다. 이 옵션을 선택 취소하면 SFTP 디렉토리에서 보관된 컨텐츠의 크기를 수동으로 모니터링해야 합니다.
 
 * **[!UICONTROL Use SSL]**
 

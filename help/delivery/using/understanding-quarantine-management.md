@@ -4,10 +4,10 @@ title: 격리 관리 이해
 description: 격리 관리 이해
 feature: Monitoring
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: ff35cef03ba35c7a6693a65dc7d2482b916c5bdb
+source-git-commit: afe4329fd230f30e48bfbf5ac2073ca95a6fd04e
 workflow-type: tm+mt
-source-wordcount: '2613'
-ht-degree: 12%
+source-wordcount: '2837'
+ht-degree: 10%
 
 ---
 
@@ -27,19 +27,25 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 
 일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 격리 를 사용하면 이러한 제공 업체에 의해 차단 목록에 추가되지 않습니다.
 
-또한 격리를 통해 잘못된 전화번호를 게재에서 제외하면 SMS를 보내는 비용을 줄이는 데 도움이 됩니다. 게재 보안 향상 및 최적화 모범 사례를 더 알아보려면 [이 페이지](delivery-best-practices.md)를 참조하십시오 .
+또한 격리를 통해 잘못된 전화번호를 게재에서 제외하면 SMS를 보내는 비용을 줄이는 데 도움이 됩니다.
+
+게재 보안 향상 및 최적화 모범 사례를 더 알아보려면 [이 페이지](delivery-best-practices.md)를 참조하십시오.
 
 ### 격리와 차단 목록 {#quarantine-vs-denylist}
 
-**격리**&#x200B;는 프로필 자체가 아니라 주소에만 적용됩니다. 즉, 두 프로필에 동일한 이메일 주소가 있는 경우 해당 주소가 격리되면 두 프로필 모두에 영향을 줍니다.
+격리 및차단 목록은 동일한 객체에 적용되지 않습니다.
 
-마찬가지로, 프로필의 이메일 주소가 격리 상태이더라도 프로필을 업데이트하여 새 주소를 입력하면 게재 작업 시 다시 타겟팅될 수 있습니다.
+* **격리** 에만 적용 **주소** (또는 전화 번호 등)가 아닌 프로필 자체가 아닌 다른 프로필로 전송됩니다. 예를 들어, 프로필의 이메일 주소가 격리되면 프로필을 업데이트하여 새 주소를 입력하면 게재 작업 시 다시 타겟팅될 수 있습니다. 마찬가지로, 두 프로필에 동일한 전화 번호가 있는 경우 해당 번호가 격리되면 두 프로필 모두에 영향을 줍니다.
 
-설정 **차단 목록**&#x200B;반면 은(는) 더 이상 프로필이 더 이상 게재의 타겟이 되지 않습니다. 예를 들어 구독 취소(옵트아웃) 이후와 같은 경우가 있습니다.
+   격리된 주소 또는 전화 번호는 [제외 로그](#identifying-quarantined-addresses-for-a-delivery) (게재의 경우) 또는 [격리 목록](#identifying-quarantined-addresses-for-the-entire-platform) (전체 플랫폼에 대해)
+
+* 설정 **차단 목록**&#x200B;반면에, 은 **프로필** 지정된 채널에 대해 구독 취소(옵트아웃) 후와 같이, 더 이상 게재의 타깃팅되지 않습니다. 예를 들어 이메일 채널에 대한차단 목록에 두 개의 이메일 주소가 있는 경우 두 주소가 모두 게재에서 제외됩니다.
+
+   프로필이에서 하나 이상차단 목록의 채널에 있는지 확인할 수 있습니다 **[!UICONTROL No longer contact]** 프로필의 섹션 **[!UICONTROL General]** 탭. [이 섹션](../../platform/using/editing-a-profile.md#general-tab)을 참조하십시오.
 
 >[!NOTE]
 >
->사용자가 SMS 게재에서 옵트아웃하기 위해 SMS 메시지에 &quot;STOP&quot; 등의 키워드로 답장하는 경우, 이메일 옵트아웃 프로세스에서처럼 프로필이에 차단 목록 추가되지 않습니다. 프로필의 전화번호는 격리에 전송되므로 사용자는 계속해서 이메일 메시지를 수신하게 됩니다.
+>격리에 **[!UICONTROL Denylisted]** 상태: 수신자가 메시지를 스팸으로 보고하거나 &quot;STOP&quot; 등의 키워드를 사용하여 SMS 메시지에 회신할 때 적용됩니다. 이 경우 프로필의 관련 주소 또는 전화 번호는 **[!UICONTROL Denylisted]** 상태. STOP SMS 메시지 관리에 대한 자세한 내용은 [이 섹션](../../delivery/using/sms-send.md#processing-inbound-messages).
 
 ## 격리된 주소 확인 {#identifying-quarantined-addresses}
 
@@ -90,9 +96,12 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 
 ### 격리된 주소 제거 {#removing-a-quarantined-address}
 
-필요한 경우 격리 목록에서 주소를 수동으로 제거할 수 있습니다. 또한 특정 조건과 일치하는 주소는 격리 목록에서 **[!UICONTROL Database cleanup]** 워크플로우.
+필요한 경우 격리 목록에서 주소를 수동으로 제거할 수 있습니다. 또한 특정 조건과 일치하는 주소는 격리 목록에서 [데이터베이스 정리](../../production/using/database-cleanup-workflow.md) 워크플로우.
 
-격리 목록에서 주소를 수동으로 제거하려면
+격리 목록에서 주소를 수동으로 제거하려면 아래 작업 중 하나를 수행합니다.
+
+>[!IMPORTANT]
+격리 시 이메일 주소를 수동으로 삭제하는 것은 이 주소로 다시 배달하기 시작함을 의미합니다. 따라서 게재 능력과 IP 평판에 심각한 영향을 줄 수 있으므로 IP 주소 또는 전송 도메인이 차단될 수 있습니다. 격리된 주소 제거를 고려할 때 추가 주의가 필요합니다. 확실하지 않은 경우 게재 가능성 전문가에게 문의하십시오.
 
 * 상태를 **[!UICONTROL Valid]** 에서 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** 노드 아래에 있어야 합니다.
 
@@ -109,21 +118,26 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 그러면 상태가 **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
-주소가 있는 수신자 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL On denylist]** 이메일이 수신되더라도 상태는 제거되지 않습니다.
+주소가 있는 수신자 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 이메일이 수신되더라도 상태는 제거되지 않습니다.
 
-오류 수와 두 오류 사이의 기간을 수정할 수 있습니다. 이렇게 하려면 배포 마법사(**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). 배포 마법사에 대한 자세한 내용은 [이 섹션](../../installation/using/deploying-an-instance.md).
+호스팅 또는 하이브리드 설치의 경우 로 업그레이드한 경우 [향상된 MTA](sending-with-enhanced-mta.md)로 설정되면 **[!UICONTROL Erroneous]** 상태 및 다시 시도 사이의 최소 지연은 IP가 과거 및 현재 지정된 도메인에서 얼마나 성과가 있는지 기준으로 합니다.
+
+레거시 Campaign MTA를 사용하는 온-프레미스 설치 및 호스팅/하이브리드 설치의 경우 오류 수와 두 오류 사이의 기간을 수정할 수 있습니다. 이렇게 하려면 [배포 마법사](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) 또는 [게재 수준에서](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
 ## 주소를 격리하는 조건 {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당된 이유에 따라 격리를 관리합니다( 참조) [반송 메일 조건](understanding-delivery-failures.md#bounce-mail-qualification)) 및 [게재 실패 유형 및 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당된 이유에 따라 격리를 관리합니다( 참조) [반송 메일 조건](understanding-delivery-failures.md#bounce-mail-qualification) 및 [게재 실패 유형 및 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
 
 * **무시된 오류**: 오류가 무시된 경우 주소가 격리되지 않습니다.
 * **하드 오류**: 해당 이메일 주소가 즉시 격리됩니다.
 * **소프트 오류**: 소프트 오류의 경우 주소가 즉시 격리되지는 않지만, 오류 카운터가 증가합니다. 자세한 내용은 [소프트 오류 관리](#soft-error-management).
 
-사용자가 이메일을 스팸 처리하면([피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)). 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 격리됩니다.
+사용자가 이메일을 스팸 처리하면([피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)). 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL Denylisted]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은에 차단 목록 없습니다. 따라서 사용자는 계속해서 SMS 메시지와 푸시 알림을 수신합니다.
 
-격리된 주소 목록에서 **[!UICONTROL Error reason]** 필드는 선택한 주소가 격리된 이유를 나타냅니다. Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
+>[!NOTE]
+Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
+
+격리된 주소 목록에서 다음을 참조하십시오. [플랫폼 전체에 대해 격리된 주소 확인](#identifying-quarantined-addresses-for-the-entire-platform)), **[!UICONTROL Error reason]** 필드는 선택한 주소가 격리된 이유를 나타냅니다.
 
 ![](assets/tech_quarant_error_reasons.png)
 
@@ -131,11 +145,9 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
 하드 오류와 달리 소프트 오류의 경우 주소가 즉시 격리되지는 않지만, 오류 카운터가 증가합니다.
 
-* 오류 카운터가 제한 임계값에 도달하면 주소가 격리됩니다.
-* 기본 구성에서 오류 임계값은 5로 설정되며, 두 오류가 최소 24시간 간격으로 발생하면 유효한 오류 두 개로 취급됩니다. 다섯 번째 오류 발생 시 주소가 격리됩니다.
-* 오류 카운터 임계값은 수정할 수 있습니다. 자세한 내용은 [일시적 게재 실패 후 다시 시도](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+다음 기간 동안 다시 시도가 수행됩니다 [게재 기간](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period). 오류 카운터가 제한 임계값에 도달하면 주소가 격리됩니다. 자세한 내용은 [일시적 게재 실패 후 다시 시도](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-10일 이전에 마지막으로 중요한 오류가 발생한 경우 오류 카운터는 다시 초기화됩니다. 그러면 주소 상태가 **유효한** 그리고 격리 목록에서 **데이터베이스 정리** 워크플로우.
+10일 이전에 마지막으로 중요한 오류가 발생한 경우 오류 카운터는 다시 초기화됩니다. 그러면 주소 상태가 **유효한** 그리고 격리 목록에서 [데이터베이스 정리](../../production/using/database-cleanup-workflow.md) 워크플로우.
 
 ## 푸시 알림 격리 {#push-notification-quarantines}
 

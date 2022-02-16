@@ -6,9 +6,9 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: c30d64e6930cb97f4a3c15acd97654d57d1bbf85
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** 실시간 유형 스키마에 액세스하려면 다음을 수행하십시오.
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** 배치 유형 스키마에 액세스하려면 다음을 수행합니다.
+
+WSDL 파일 생성에 대한 자세한 내용은 [이 섹션](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
 
 두 메서드 모두 를 포함합니다 **`<urn:sessiontoken>`** 트랜잭션 메시지 모듈에 로그온하기 위한 요소입니다. 신뢰할 수 있는 IP 주소를 통해 식별 방법을 사용하는 것이 좋습니다. 세션 토큰을 검색하려면 로그온 SOAP 호출을 수행한 다음, 가져오기 토큰 뒤에 로그오프를 실행합니다. 여러 RT 호출에 동일한 토큰을 사용하십시오. 이 섹션에 포함된 예제는 권장되는 세션 토큰 메서드를 사용하는 것입니다.
 
