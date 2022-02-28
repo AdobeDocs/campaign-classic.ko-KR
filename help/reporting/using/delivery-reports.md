@@ -4,9 +4,9 @@ title: 게재 보고서
 description: 게재 보고서
 feature: Reporting
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
+source-git-commit: 64d97c7879320296a5f8efc5bb5bc2bea8663c08
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1451'
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 2%
 >
 >관련 백분율은 성공적으로 전달된 메시지 수를 기반으로 계산됩니다.
 
-* **[!UICONTROL Distinct opens for the population reached]** : 메시지를 한 번 이상 연 타겟팅된 수신자 수 예측 구독 취소 링크 및 미러 페이지의 클릭이 고려됩니다.
+* **[!UICONTROL Distinct opens for the population reached]** : 메시지를 한 번 이상 연 타겟팅된 수신자 수 예측 링크를 클릭하기 위해 이메일을 열어야 하므로 추적된 URL에 대한 클릭이 고려됩니다.
 * **[!UICONTROL Sum of opens for the population reached]** : 타겟팅된 수신자의 총 열기 수 예측
 * **[!UICONTROL Clicks on opt-out link]** : 구독 취소 링크에 대한 클릭 수입니다.
 * **[!UICONTROL Clicks on the mirror page link]** : 미러 페이지에 대한 링크에 대한 클릭 수입니다. 고려하려면 게재 마법사(추적된 URL)에서 링크는 다음과 같이 정의해야 합니다. 다음을 참조하십시오 [페이지](../../delivery/using/about-delivery-monitoring.md).
