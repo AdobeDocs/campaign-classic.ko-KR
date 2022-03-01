@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 8278228a6610e99f9400343bc967e16f2759dfbe
+source-git-commit: 830d91dc5f6663a24d9fb8c2afeb03cdb93d4eec
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 83%
@@ -37,7 +37,7 @@ _2022년 3월 1일_
 * 동시에 브로드로그가 1,000개 이상 있을 때 게재 가능성 워크플로우를 새로 고칠 때 오류가 발생하는 문제를 수정했습니다. (NEO-40276)
 * 공개 비율 및 클릭 비율 게재 지표가 자동으로 업데이트되지 않는 문제를 해결했습니다. (NEO-43253)
 
-## ![](assets/do-not-localize/green_2.png) 릴리스 7.2.1 - 빌드 9346 {#release-7-2-1}
+## ![](assets/do-not-localize/limited_2.png) 릴리스 7.2.1 - 빌드 9346 {#release-7-2-1}
 
 _2022년 1월 10일_
 
