@@ -2,14 +2,12 @@
 product: campaign
 title: 'Adobe Campaign에서 모바일 애플리케이션 구성 '
 description: 모바일 애플리케이션 구성으로 시작하는 방법 알아보기
-audience: delivery
-content-type: reference
-topic-tags: sending-push-notifications
+feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 

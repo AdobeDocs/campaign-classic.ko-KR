@@ -1,12 +1,13 @@
 ---
 product: campaign
-title: Adobe Campaign Classic에서 향상된 MTA를 사용하여 보내기
+title: Adobe Campaign Classic에서 향상된 MTA를 사용한 S
 description: Adobe Campaign Enhanced MTA를 사용하여 전자 메일을 보내는 범위와 특성에 대해 알아봅니다
+feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 8ac6cddad04d1142b84a735ab8083e732c17714b
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '1946'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -217,15 +218,15 @@ DKIM에 대한 자세한 내용은 [Adobe 게재 가능성 모범 사례 안내�
 | 메시지가 Campaign에서 Enhanced MTA로 성공적으로 전달되었습니다 | **[!UICONTROL Success]** 백분율이 표시되지 않음(0%에서 시작) | 서비스 공급자가 고려함 |
 | 하드 바운스 메시지가 향상된 MTA에서 다시 보고됩니다 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 실패 |
 | 소프트 바운스 메시지는 Enhanced MTA에서 다시 보고됩니다 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 서비스 공급자가 고려함 |
-| 소프트 바운스 메시지 다시 시도 성공 | **[!UICONTROL Success]** 백분율이 그에 따라 증가함 | 전송 |
+| 소프트 바운스 메시지 다시 시도 성공 | **[!UICONTROL Success]** 백분율이 그에 따라 증가함 | 전송됨 |
 | 소프트 바운스 메시지 다시 시도 실패 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 실패 |
 
 **이메일 피드백 서비스 제외**
 
 | 전송 프로세스의 단계 | KPI 요약 | 전송 로그 상태 |
 |--- |--- |--- |
-| 메시지가 Campaign에서 Enhanced MTA로 성공적으로 전달되었습니다 | **[!UICONTROL Success]** 백분율이 100%에서 시작됨 | 전송 |
+| 메시지가 Campaign에서 Enhanced MTA로 성공적으로 전달되었습니다 | **[!UICONTROL Success]** 백분율이 100%에서 시작됨 | 전송됨 |
 | 하드 바운스 메시지가 향상된 MTA에서 다시 보고됩니다 | **[!UICONTROL Success]** 백분율이 그에 따라 감소하다 | 실패 |
-| 소프트 바운스 메시지는 Enhanced MTA에서 다시 보고됩니다 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 전송 |
-| 소프트 바운스 메시지 다시 시도 성공 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 전송 | **[!UICONTROL Success]** 백분율이 그에 따라 증가함 | 전송 |
+| 소프트 바운스 메시지는 Enhanced MTA에서 다시 보고됩니다 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 전송됨 |
+| 소프트 바운스 메시지 다시 시도 성공 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 전송됨 | **[!UICONTROL Success]** 백분율이 그에 따라 증가함 | 전송됨 |
 | 소프트 바운스 메시지 다시 시도 실패 | **[!UICONTROL Success]** 백분율이 그에 따라 감소하다 | 실패 |

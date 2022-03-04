@@ -2,8 +2,9 @@
 product: campaign
 title: 보고서에 대한 액세스 구성
 description: 보고서에 대한 액세스 구성
+feature: Reporting
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 1%
@@ -48,7 +49,7 @@ Adobe Campaign 플랫폼에서 보고서의 표시 컨텍스트를 **[!UICONTROL
 
 즉, 캠페인의 기본 채널이 DM인 경우 캠페인 보고서에서 보고서를 사용할 수 없습니다.
 
-### 권한 부여 액세스 {#access-authorization}
+### 인증 접근 {#access-authorization}
 
 보고서를 다른 연산자와 공유할 수 있습니다.
 

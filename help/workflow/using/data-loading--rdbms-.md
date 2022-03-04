@@ -2,11 +2,9 @@
 product: campaign
 title: 데이터 로딩(RDBMS)
 description: 데이터 로드(RDBMS) 워크플로우 활동에 대해 자세히 알아보십시오
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows, Data Management Activity
 exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 3%

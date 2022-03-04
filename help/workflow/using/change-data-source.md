@@ -1,11 +1,9 @@
 ---
 title: 데이터 소스 변경
 description: 데이터 소스 변경 활동에 대해 자세히 알아보십시오
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Data Management, Federated Data Access
 exl-id: d7bf9d62-6f9e-415f-8160-446210f6392e
-source-git-commit: 31483bdd2e0a2dd0676ef391c5484e4b778317c1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 3%

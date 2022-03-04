@@ -2,8 +2,9 @@
 product: campaign
 title: 추적 URL 감지
 description: URL을 추적하는 권장 패턴에 대해 자세히 알아보십시오
+feature: Monitoring
 exl-id: 7611d6a1-6c55-4ba3-b905-58426c944991
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 3%

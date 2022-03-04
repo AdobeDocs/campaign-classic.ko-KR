@@ -2,8 +2,9 @@
 product: campaign
 title: 전자 메일 보내기 주요 단계
 description: 이메일 게재를 확인하고 이메일 메시지 전달의 특성을 확인하는 방법을 알아봅니다
+feature: Email
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%

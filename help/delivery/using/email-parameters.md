@@ -1,9 +1,10 @@
 ---
 product: campaign
-title: 전자 메일 매개 변수
+title: 이메일 매개 변수
 description: 이메일 게재와 관련된 옵션 및 설정에 대해 알아봅니다
+feature: Email
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 8%

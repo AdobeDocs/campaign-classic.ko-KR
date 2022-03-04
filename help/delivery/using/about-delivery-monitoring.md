@@ -2,9 +2,9 @@
 product: campaign
 title: 게재 모니터링 시작
 description: Campaign Classic 게재 모니터링 기능에 대해 자세히 알아보기
-feature: Monitoring
+feature: Monitoring, Deliverability
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 16%

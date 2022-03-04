@@ -2,11 +2,9 @@
 product: campaign
 title: 개인화된 링크 추적 시작
 description: Campaign Classic에서 개인화하고 추적을 지원할 수 있는 이메일에 링크를 작성하는 방법을 알아봅니다.
-audience: delivery
-content-type: reference
-topic-tags: tracking-messages
+feature: Personalization
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 7%

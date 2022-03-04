@@ -2,8 +2,9 @@
 product: campaign
 title: 결과 분석
 description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법을 알아봅니다
+feature: A/B Testing
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 5%

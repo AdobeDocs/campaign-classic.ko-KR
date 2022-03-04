@@ -2,12 +2,12 @@
 product: campaign
 title: 게재 상태
 description: 게재 대시보드에서 사용할 수 있는 상태에 대해 자세히 알아보십시오
-feature: Monitoring
+feature: Monitoring, Deliverability
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -42,7 +42,7 @@ ajouter screenshot -->
  </thead> 
  <tbody> 
   <tr> 
-   <td> 전송<br /> </td> 
+   <td> 전송됨<br /> </td> 
    <td> 게재가 메시지 공급자에게 올바르게 전송되었지만 수신자가 반드시 수신한 것은 아닙니다.<br /> </td> 
   </tr> 
   <tr> 

@@ -1,19 +1,17 @@
 ---
 product: campaign
 title: 사용 사례 - 이메일 게재 만들기
-description: 이메일 게재 사용 사례 만들기
-audience: web
-content-type: reference
-topic-tags: editing-html-content
+description: 사용 사례 - 이메일 게재 만들기
+feature: Web Apps, Web Forms, Landing Pages
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 0%
 
 ---
 
-# 사용 사례: 이메일 게재 만들기{#use-case-creating-an-email-delivery}
+# 활용 사례: 이메일 게재 만들기{#use-case-creating-an-email-delivery}
 
 ![](../../assets/common.svg)
 

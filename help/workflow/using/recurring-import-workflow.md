@@ -2,9 +2,9 @@
 product: campaign
 title: 반복 가져오기 설정
 description: 반복 가져오기에 대한 워크플로우 템플릿을 구성하는 방법을 알아봅니다.
-feature: Workflows
+feature: Workflows, Data Management
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%

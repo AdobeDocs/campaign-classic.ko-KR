@@ -2,11 +2,9 @@
 product: campaign
 title: 웹 양식에 필드 추가
 description: 웹 양식에 필드 추가
-audience: web
-content-type: reference
-topic-tags: web-forms
+feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
-source-git-commit: a5f6478d3c0780464974053e389923614abba582
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '2368'
 ht-degree: 1%
@@ -377,7 +375,6 @@ Captcha는 시각적 아래에 입력 필드가 배치된 페이지에 삽입됩
 >* Adobe Campaign은 업로드된 리소스의 크기 또는 유형을 제어하지 않습니다. 따라서 보안 유형 인트라넷 사이트에만 업로드 필드를 사용하는 것이 좋습니다.
 >* 여러 서버가 인스턴스(로드 밸런싱 아키텍처)에 연결된 경우 웹 양식 호출이 동일한 서버에 도착하는지 확인해야 합니다.
 >* 이러한 구현에는 Adobe Campaign 컨설팅 팀의 지원이 필요합니다.
-
 >
 
 

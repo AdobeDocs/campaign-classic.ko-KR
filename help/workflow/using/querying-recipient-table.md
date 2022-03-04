@@ -4,7 +4,7 @@ title: 수신자 테이블 쿼리
 description: 수신자 테이블을 쿼리하는 방법 알아보기
 feature: Query Editor
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 3%

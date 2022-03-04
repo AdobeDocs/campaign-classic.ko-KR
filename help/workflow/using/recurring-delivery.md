@@ -2,11 +2,9 @@
 product: campaign
 title: 반복 게재
 description: 반복 게재 워크플로우 활동에 대해 자세히 알아보십시오
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 21%

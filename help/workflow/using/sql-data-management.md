@@ -2,11 +2,9 @@
 product: campaign
 title: SQL 데이터 관리
 description: SQL 데이터 관리 워크플로우 활동에 대해 자세히 알아보기
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 4%
@@ -19,7 +17,7 @@ ht-degree: 4%
 
 다음 **SQL 데이터 관리** 활동을 통해 고유한 SQL 스크립트를 작성하여 작업 테이블을 만들고 채울 수 있습니다.
 
-## 필수 구성 요소 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 활동을 구성하기 전에 다음 전제 조건이 충족되었는지 확인하십시오.
 

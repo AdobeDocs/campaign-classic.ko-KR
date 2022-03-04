@@ -2,8 +2,9 @@
 product: campaign
 title: 입력 양식
 description: Campaign에서 입력 양식을 사용하는 방법을 알아봅니다
+feature: Data Management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 2%

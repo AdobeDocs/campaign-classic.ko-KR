@@ -2,11 +2,9 @@
 product: campaign
 title: 게재
 description: 게재 유형 워크플로우 활동에 대해 자세히 알아보십시오
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows, Channels Activity
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -63,7 +61,7 @@ A **배달**-type 활동을 통해 게재 작업을 만들 수 있습니다. 게
 
    ![](assets/diffusion_edit_5.png)
 
-1. **컨텐츠**
+1. **콘텐츠**
 
    메시지의 콘텐츠는 게재 또는 인바운드 이벤트에서 정의할 수 있습니다.
 

@@ -2,8 +2,9 @@
 product: campaign
 title: '"사용 사례: 콘텐츠 관리 만들기"'
 description: '"사용 사례: 콘텐츠 관리 만들기"'
+feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 1%
@@ -90,7 +91,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>컨텐츠</strong> <br /> </th> 
+   <th> <strong>콘텐츠</strong> <br /> </th> 
    <th> <strong>형식</strong> <br /> </th> 
    <th> <strong>유형</strong> <br /> </th> 
    <th> <strong>레이블</strong> <br /> </th> 

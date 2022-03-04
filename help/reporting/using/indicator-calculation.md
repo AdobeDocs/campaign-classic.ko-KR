@@ -2,8 +2,9 @@
 product: campaign
 title: 지표 계산
 description: 지표 계산
+feature: Reporting
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
 workflow-type: tm+mt
 source-wordcount: '2972'
 ht-degree: 2%
@@ -109,7 +110,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> 오류<br /> </td> 
-   <td> @value<br /> </td> 
+   <td> @값<br /> </td> 
    <td> 이 유형의 오류에 대한 실패한 메시지 수입니다.<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason="오류 유형의 값")<br /> </td> 
   </tr> 
@@ -230,7 +231,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> 이메일<br /> </td> 
-   <td> @email<br /> </td> 
+   <td> @이메일<br /> </td> 
    <td> URL 카테고리가 "이메일"과 같은 모든 @totalClicks의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
   </tr> 
@@ -645,7 +646,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> 이메일<br /> </td> 
-   <td> @email<br /> </td> 
+   <td> @이메일<br /> </td> 
    <td> "이메일"과 같은 URL 카테고리가 있는 모든 @totalClicks의 합계.<br /> </td> 
    <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
   </tr> 
@@ -727,7 +728,7 @@ ht-degree: 2%
    <td> count(Iif([@url-id] != 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수(%)<br /> </td> 
+   <td> 클릭 수 (%)<br /> </td> 
    <td> -<br /> </td> 
    <td> 누적 클릭 수와 비교한 클릭 수의 백분율입니다.<br /> </td> 
    <td> percent(@_click, @_total)<br /> </td> 

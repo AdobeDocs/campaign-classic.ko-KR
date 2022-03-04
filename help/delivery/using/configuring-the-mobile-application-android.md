@@ -2,8 +2,9 @@
 product: campaign
 title: Adobe Campaign에서 Android 모바일 애플리케이션 구성
 description: Android용 모바일 애플리케이션을 설정하는 방법을 알아봅니다
+feature: Push
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 3%

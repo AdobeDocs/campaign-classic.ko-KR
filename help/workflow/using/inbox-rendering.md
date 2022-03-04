@@ -2,10 +2,8 @@
 product: campaign
 title: 받은 편지함 렌더링 기술 워크플로우
 description: 이 섹션에서는 받은 편지함 렌더링 패키지와 함께 설치된 기술 워크플로우에 대해 설명합니다
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+feature: Workflows, Inbox Rendering
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 2%

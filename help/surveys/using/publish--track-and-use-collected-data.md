@@ -2,11 +2,9 @@
 product: campaign
 title: 수집된 데이터 게시, 추적 및 사용
 description: 설문 조사에서 수집된 데이터를 게시, 추적 및 사용하는 방법을 알아봅니다
-audience: web
-content-type: reference
-topic-tags: online-surveys
+feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 2%

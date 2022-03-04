@@ -2,9 +2,9 @@
 product: campaign
 title: 게재 실패 이해
 description: 게재 실패를 이해하는 방법 알아보기
-feature: Monitoring
+feature: Monitoring, Deliverability
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '2614'
 ht-degree: 14%

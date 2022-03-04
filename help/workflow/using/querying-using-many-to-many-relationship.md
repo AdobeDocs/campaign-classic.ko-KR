@@ -4,7 +4,7 @@ title: 다대다 관계를 사용하여 쿼리
 description: 다대다 관계를 사용하여 쿼리를 수행하는 방법을 알아봅니다
 feature: Query Editor
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%

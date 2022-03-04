@@ -2,11 +2,9 @@
 product: campaign
 title: 캠페인 워크플로우 열 지도
 description: 워크플로우 HeatMap을 사용하여 워크플로우 모니터링
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows, Heatmap
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 3%

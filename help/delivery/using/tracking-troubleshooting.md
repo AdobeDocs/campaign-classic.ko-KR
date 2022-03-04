@@ -2,8 +2,9 @@
 product: campaign
 title: 추적 문제 해결
 description: 이 섹션에서는 Adobe Campaign Classic의 추적 구성 및 구현과 관련된 일반적인 질문을 제공합니다
+feature: Monitoring
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 1%

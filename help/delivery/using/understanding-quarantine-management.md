@@ -2,9 +2,9 @@
 product: campaign
 title: 격리 관리 이해
 description: 격리 관리 이해
-feature: Monitoring
+feature: Monitoring, Deliverability
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: afe4329fd230f30e48bfbf5ac2073ca95a6fd04e
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '2837'
 ht-degree: 10%
@@ -497,7 +497,7 @@ SMS 메시지의 격리 메커니즘은 전반적인 프로세스와 전체적�
   </tr> 
   <tr> 
    <td> 공급자에게 전송됨<br /> </td> 
-   <td> 전송<br /> </td> 
+   <td> 전송됨<br /> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 

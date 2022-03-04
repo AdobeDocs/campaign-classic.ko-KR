@@ -2,10 +2,8 @@
 product: campaign
 title: 웹 분석
 description: 웹 분석 패키지에 대해 자세히 알아보기
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+feature: Workflows, Analytics Integration
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 3%

@@ -2,10 +2,8 @@
 product: campaign
 title: 중간 소싱으로 전송
 description: 중간 소싱 워크플로우로 전송에 대해 자세히 알아보십시오
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+feature: Workflows
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 7%

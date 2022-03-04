@@ -2,8 +2,9 @@
 product: campaign
 title: 워크플로우를 통한 자동화
 description: 워크플로우를 통해 콘텐츠 관리를 자동화하는 방법 알아보기
+feature: Workflows
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 0%
@@ -29,7 +30,7 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 
 ![](assets/d_ncs_content_wf.png)
 
-### 컨텐츠 {#content}
+### 콘텐츠 {#content}
 
 * **전환에서 지정합니다.**
 

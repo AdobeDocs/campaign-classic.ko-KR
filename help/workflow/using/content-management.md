@@ -2,14 +2,12 @@
 product: campaign
 title: 콘텐츠 관리
 description: 콘텐츠 관리
-audience: workflow
-content-type: reference
-topic-tags: action-activities
+feature: Workflows, Data Management
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -33,7 +31,7 @@ A **콘텐츠 관리** 활동을 사용하면 컨텐츠를 만들고 조작하�
 
    Adobe Campaign에서 콘텐츠 관리 구성 및 사용에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../../delivery/using/about-content-management.md).
 
-1. **컨텐츠**
+1. **콘텐츠**
 
    * **[!UICONTROL Specified in the transition]**
 

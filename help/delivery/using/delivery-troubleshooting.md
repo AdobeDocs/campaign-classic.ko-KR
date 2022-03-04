@@ -2,8 +2,9 @@
 product: campaign
 title: 게재 전송 문제 해결
 description: 게재 성능 및 게재 모니터링과 관련된 문제를 해결하는 방법에 대해 자세히 알아봅니다
+feature: Monitoring, Deliverability
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 1%

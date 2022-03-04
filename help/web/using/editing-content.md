@@ -2,11 +2,9 @@
 product: campaign
 title: 콘텐츠 편집
 description: 콘텐츠 편집
-audience: web
-content-type: reference
-topic-tags: editing-html-content
+feature: Web Apps, Web Forms, Landing Pages
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 1%
@@ -31,7 +29,7 @@ ht-degree: 1%
 
 ![](assets/dce_popup_visibilitycondition.png)
 
-이러한 조건은 XTK 표현식 구문을 채택합니다(예 **ctx.recipient.@email!= &quot;&quot;** 또는 **ctx.recipient.@status==&quot;0&quot;**). 기본적으로 모든 필드가 표시됩니다.
+이러한 조건은 XTK 표현식 구문을 채택합니다(예 **ctx.recipient.@이메일 != &quot;&quot;** 또는 **ctx.recipient.@status==&quot;0&quot;**). 기본적으로 모든 필드가 표시됩니다.
 
 >[!NOTE]
 >
@@ -137,7 +135,6 @@ ht-degree: 1%
 >* 새 창(_Blank)
 >* 현재 창(_self)
 >* 기본 브라우저 동작
-
 >
 
 
