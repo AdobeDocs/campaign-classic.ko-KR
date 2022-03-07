@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e2eb7e04-faaa-4df0-913d-471c291eeb03
-source-git-commit: 0f31ee570ba6e763f48902e91c5d823ac297fc24
+source-git-commit: c228f827e91f25ee3a837f7fe6549ae4e5714ba3
 workflow-type: tm+mt
-source-wordcount: '6569'
-ht-degree: 74%
+source-wordcount: '6619'
+ht-degree: 73%
 
 ---
 
@@ -35,7 +35,7 @@ _2020년 10월 27일_
 >
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다. [자세히 알아보기](../../technotes/using/ims-updates.md)
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign의 [레거시 oAuth 인증 모드는](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) **2021년 9월**&#x200B;부로 사용이 중단되었습니다. 호스팅된 환경은 확장 프로그램을 통해  **2022년 2월 23일**. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign의 [레거시 oAuth 인증 모드는](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) **2021년 9월**&#x200B;부로 사용이 중단되었습니다. 호스팅 환경의 경우 **2022년 2월 23일**&#x200B;까지 연장 사용할 수 있습니다. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
 
 
 **새로운 기능**
@@ -125,6 +125,7 @@ _2020년 10월 27일_
 * Adobe Target에서 이미지를 삽입할 때 표시되는 오류 메시지가 개선되었으며 테넌트 이름이 외부 계정에서 비어 있었습니다.
 * 게재 속성에서 **[!UICONTROL Archive emails]** 옵션 이름이 변경되었습니다 **[!UICONTROL Email BCC]**.
 * 견고성 향상을 위해 노드가 잘못된 모든 쿼리가 거부됩니다. 검사를 비활성화하고 이전 동작으로 돌아가야 하는 경우 XtkSecurity_Disable_QueryCheck를 0으로 설정할 수 있습니다.
+* nmsBroadlogId 시퀀스에 대한 음수 ID 범위 지원이 추가되었습니다. 이 빌드는 음수 범위를 포함하도록 nmsBroadlogId 시퀀스의 min_value를 조정합니다. 음수 ID를 허용하지 않는 엄격한 사용 사례가 있는 경우 시퀀스의 min_value를 1로 되돌리십시오.
 
 **기술 진화**
 
@@ -224,7 +225,7 @@ _2020년 12월 22일_
 >
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다.  [자세히 알아보기](../../technotes/using/ims-updates.md)
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign의 [레거시 oAuth 인증 모드는](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) **2021년 9월**&#x200B;부로 사용이 중단되었습니다. 호스팅된 환경은 확장 프로그램을 통해  **2022년 2월 23일**. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign의 [레거시 oAuth 인증 모드는](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) **2021년 9월**&#x200B;부로 사용이 중단되었습니다. 호스팅 환경의 경우 **2022년 2월 23일**&#x200B;까지 연장 사용할 수 있습니다. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
 
 
 **개선 사항**
@@ -592,9 +593,9 @@ _2020년 2월 17일_
 
 * iOS 13은 이제 HTTP2 커넥터에서 지원됩니다.
 
-* 푸시 알림 기능에 사용되는 테이블의 격리 관리 및 정리를 개선했습니다(nms:address 및 nms:appSubscriptionRcp). iOS(HTTP2 커넥터만 해당)의 경우 이제 비활성화된 토큰이 Android와 동일한 방식으로 처리됩니다. 이제 비활성화 플래그가 NmsAppSubscriptionRcp 테이블에 설정됩니다. [자세히 표시](../../production/using/database-cleanup-workflow.md#subscription-cleanup--nmac-)
+* 푸시 알림 기능에 사용되는 테이블의 격리 관리 및 정리를 개선했습니다(nms:address 및 nms:appSubscriptionRcp). iOS(HTTP2 커넥터만 해당)의 경우 이제 비활성화된 토큰이 Android와 동일한 방식으로 처리됩니다. 이제 비활성화 플래그가 NmsAppSubscriptionRcp 테이블에 설정됩니다. [자세히 보기](../../production/using/database-cleanup-workflow.md#subscription-cleanup--nmac-)
 
-* 에 새로운 옵션이 추가되었습니다 **JavaScript 코드** 및 **고급 JavaScript 코드** 시간 초과 기간을 정의하는 워크플로우 활동. 따라서 JavaScript 실행 단계가 너무 오랫동안 실행되지 않습니다. 시간 초과 기간이 경과하면 워크플로우가 중지됩니다. 기본 시간 제한은 1시간입니다. [자세히 표시](../../workflow/using/sql-code-and-javascript-code.md)
+* 에 새로운 옵션이 추가되었습니다 **JavaScript 코드** 및 **고급 JavaScript 코드** 시간 초과 기간을 정의하는 워크플로우 활동. 따라서 JavaScript 실행 단계가 너무 오랫동안 실행되지 않습니다. 시간 초과 기간이 경과하면 워크플로우가 중지됩니다. 기본 시간 제한은 1시간입니다. [자세히 보기](../../workflow/using/sql-code-and-javascript-code.md)
 
 * 이제 중간 소싱 서버에서 일치하는 친화성을 찾을 수 없고 해당 오류 메시지가 표시되면 게재 분석이 중지됩니다.
 
@@ -606,7 +607,7 @@ _2020년 2월 17일_
 
 * Linux에서 nlserver 서비스 시작은 이제 /etc/init.d/nlserver6 스크립트 대신 시스템 단위를 사용합니다. 새 시작 구성표로 마이그레이션은 20.1 패키지를 설치할 때 자동으로 수행됩니다. /etc/init.d/nlserver6는 여전히 제공되지만 nlserver 서비스(시작, 다시 시작, 중지 등)와 상호 작용하기 위해 systemctl 명령을 직접 사용하는 것이 좋습니다.
 
-* 가장 많이 사용하는 사용자 지정 표는 **xtkNewId** 시퀀스에 전용 시퀀스를 지정합니다. [자세히 표시](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* 가장 많이 사용하는 사용자 지정 표는 **xtkNewId** 시퀀스에 전용 시퀀스를 지정합니다. [자세히 보기](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 
 * 불필요한 데이터베이스 연결의 영향을 받을 수 있는 쿼리 성능이 개선되었습니다.
 
@@ -616,7 +617,7 @@ _2020년 2월 17일_
 
 * 연결 풀의 견고성이 개선되어 예기치 않은 연결 오류가 너무 자주 발생하는 것을 방지할 수 있습니다.
 
-* 소프트 오류가 발생한 경우 격리할 주소를 보내기 위한 이메일 주소 유효성 검사 규칙이 개선되었습니다. [자세히 표시](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
+* 소프트 오류가 발생한 경우 격리할 주소를 보내기 위한 이메일 주소 유효성 검사 규칙이 개선되었습니다. [자세히 보기](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
 * Debian의 경우, 이제 Campaign은 시스템 PCRE 라이브러리를 사용할 수 있을 때 사용합니다.
 

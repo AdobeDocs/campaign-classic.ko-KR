@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 2f22f1a3cbf0dccb6872718ea4e0bd20b257c169
+source-git-commit: e4cd327d1495987e7d32bd1b903c8fe5de2813f2
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 83%
+source-wordcount: '1273'
+ht-degree: 82%
 
 ---
 
@@ -48,6 +48,10 @@ FDA 계정의 보안 기능을 몇 가지 면에서 개선했습니다.
 * 이제 FDA 외부 계정을 구성할 때 보다 안전한 인증을 위해 [키 쌍] 인증을 사용하여 Snowflake 계정에 로그인할 수 있습니다. [자세히 표시](../../installation/using/configure-fda-snowflake.md)
 * 이제 FDA 외부 계정을 구성할 때 시스템에서 할당한 관리 ID를 사용하여 Azure Synapse Analytics 계정에 로그인할 수 있습니다. [자세히 표시](../../installation/using/configure-fda-synapse.md#azure-external)
 * 최적의 보안을 위해 Campaign에서 log4j 라이브러리에 대한 참조를 모두 제거했습니다.
+
+**호환성 업데이트**
+
+Adobe Campaign은 이제 Windows Server 2019와 호환됩니다. 자세한 내용은 [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md#OperatingSystems).
 
 **개선 사항**
 
