@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 9126e2cc088ef0e5761cc20bd19980d323f3a3ea
+source-git-commit: deb658fee9a668fd98aebfd1852252114ffb6edc
 workflow-type: tm+mt
-source-wordcount: '4887'
+source-wordcount: '4903'
 ht-degree: 99%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 99%
 주소를 격리하는 방법과 격리 목록에서 주소를 제거하는 방법에 대한 섹션을 업데이트했습니다. [자세히 보기](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
 동일한 워크플로우에서 여러 중지 요청을 수행하지 않도록 권장하는 워크플로우 모범 사례를 추가했습니다. [자세히 보기](../../workflow/using/workflow-best-practices.md)
+
+캠페인 내에서 되풀이하는 게재의 실행을 중지하는 방법에 대한 정보를 추가했습니다. [자세히 보기](../../workflow/using/recurring-delivery.md)
 
 ### 2022년 1월 {#january-2022}
 

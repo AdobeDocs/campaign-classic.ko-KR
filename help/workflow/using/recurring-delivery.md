@@ -4,10 +4,10 @@ title: 반복 게재
 description: 반복 게재 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 6f0479cfe6c6801eb44fcc7a35bdac1241ec3be6
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 21%
+source-wordcount: '271'
+ht-degree: 17%
 
 ---
 
@@ -39,9 +39,12 @@ A **반복 게재** 가 실행될 때마다 새 게재 인스턴스를 만듭니
 
 ![반복 게재](assets/delivery_recurring.jpg)
 
+반복 게재 실행을 중지하려면 캠페인을 완전히 취소하거나 캠페인 실행 워크플로우를 중지해야 합니다. Campaign 대시보드에서 게재를 중지하면 게재 발생만 중지됩니다. 각 워크플로우 실행 시 되풀이되는 게재의 다음 인스턴스는 계속 생성됩니다.
+
 >[!NOTE]
 >
->에서 증명을 보낼 수 없습니다. **[!UICONTROL Recurring delivery]** 유형 활동.\
+>에서 증명을 보낼 수 없습니다. **[!UICONTROL Recurring delivery]** 유형 활동.
+> 
 >캠페인 워크플로우를 통해 직접 게재를 만들려면 미리 구성된 채널별 활동(예: **[!UICONTROL Email delivery]**).
 
 ## 튜토리얼 비디오 (#recurring-delivery-video)
