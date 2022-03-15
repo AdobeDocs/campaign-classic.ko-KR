@@ -6,10 +6,10 @@ audience: social
 content-type: reference
 topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
-source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 12%
+source-wordcount: '126'
+ht-degree: 15%
 
 ---
 
@@ -19,16 +19,9 @@ ht-degree: 12%
 
 다음 **소셜 네트워크 관리** (소셜 마케팅) 소셜 네트워크 관리를 위해 설계된 애플리케이션을 사용하면 Facebook 및 Twitter을 통해 고객 및 잠재 고객과 상호 작용할 수 있습니다.
 
-1. **메시지 보내기**
+**새 연락처 가져오기**
 
-   소셜 마케팅을 통해 Facebook 및 Twitter에서 메시지를 보낼 수 있습니다.
-
-   * Adobe Campaign을 사용하면 Facebook 담벼락 및 twitter 계정에 직접 메시지를 게시할 수 있습니다.
-   * 모든 Twitter 팔로워에게 직접 메시지를 보낼 수도 있습니다.
-
-1. **새 연락처 가져오기**
-
-   Adobe Campaign Social Marketing을 사용하면 Facebook을 통해 새로운 연락처를 쉽게 확보할 수 있습니다. 사용자에게 연락하여 프로필 정보를 공유할지 여부를 묻습니다. Adobe Campaign이 수락하면 타겟팅 캠페인을 수행하고 가능한 경우 크로스 채널 전략을 구현할 수 있는 데이터를 자동으로 복구합니다.
+Adobe Campaign Social Marketing을 사용하면 Facebook을 통해 새로운 연락처를 쉽게 확보할 수 있습니다. 사용자에게 연락하여 프로필 정보를 공유할지 여부를 묻습니다. Adobe Campaign이 수락하면 타겟팅 캠페인을 수행하고 가능한 경우 크로스 채널 전략을 구현할 수 있는 데이터를 자동으로 복구합니다.
 
 >[!IMPORTANT]
 >

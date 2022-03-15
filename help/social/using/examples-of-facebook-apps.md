@@ -6,9 +6,9 @@ audience: social
 content-type: reference
 topic-tags: annexes
 exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2212'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 1%
 >
 >이러한 간단한 사용 사례는 Facebook 유형 웹 애플리케이션의 기능을 보여주는 예로서 제공됩니다.
 
-## 추천 {#recommendations}
+## 권장 사항 {#recommendations}
 
 다음 제한 사항은 Facebook에 직접 연결됩니다.
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 이 응용 프로그램을 만들려면 다음 단계를 수행합니다.
 
-1. facebook에서 애플리케이션 만들기( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)). 자세한 내용은 다음을 참조하십시오. [facebook 애플리케이션 만들기](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
+1. facebook에서 애플리케이션 만들기( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)).
 
    ![](assets/social_create_facebook_app_002.png)
 

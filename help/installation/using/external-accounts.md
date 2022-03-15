@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1635'
 ht-degree: 7%
 
 ---
@@ -89,7 +89,6 @@ POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일�
 * [전화](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [DM](../../delivery/using/about-direct-mail-channel.md)
 * [에이전시](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
-* [Facebook](../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign)
 * [Twitter](../../social/using/configuring-publishing-on-twitter.md)
 * [iOS 채널](../../delivery/using/configuring-the-mobile-application.md)
 * [Android 채널](../../delivery/using/configuring-the-mobile-application-android.md)

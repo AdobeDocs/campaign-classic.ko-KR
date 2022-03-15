@@ -6,9 +6,9 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 5c11bd0f-2df7-4c7f-b682-955fedf8e664
-source-git-commit: b5334de18eca8fc1147ae0c42fe23a6932bf71d2
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '874'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,7 @@ Campaign Social 마케팅 모듈은 웹 애플리케이션을 사용하여 Faceb
 
 구성 단계는 다음과 같습니다.
 
-1. 하나 이상의 Facebook 애플리케이션을 만듭니다. [자세히 알아보기](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application)
+1. 하나 이상의 Facebook 애플리케이션을 만듭니다.
 1. 을(를) 입력합니다. **[!UICONTROL terms of service]** 및 **[!UICONTROL Privacy policy]** facebook 권한 요청 화면에 표시되는 링크입니다. [자세히 알아보기](#entering-the-terms-of-service-and-privacy-policy-links)
 1. 각 Facebook 응용 프로그램에 대해 **[!UICONTROL Facebook Connect]** 외부 계정을 입력합니다. [자세히 알아보기](#configuring-external-accounts)
 1. 각 Facebook 애플리케이션에 대해 Adobe Campaign에서 Facebook 유형 웹 애플리케이션을 만듭니다. [자세히 알아보기](#creating-a-facebook-type-web-application)

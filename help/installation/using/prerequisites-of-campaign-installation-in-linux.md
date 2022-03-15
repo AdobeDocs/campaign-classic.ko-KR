@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: 8794464d6fcc8ab648cd6866266855a701538fde
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '889'
 ht-degree: 1%
 
 ---
@@ -110,9 +110,17 @@ aptitude install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
 
 Redhat에서 다음 명령을 사용합니다.
 
-```
-yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
-```
+* CentOS/RHEL 7의 경우:
+
+   ```
+   yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
+   ```
+
+* RHEL 8의 경우:
+
+   ```
+   dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
+   ```
 
 ### 일본어 인스턴스용 글꼴 {#fonts-for-japanese-instances}
 
@@ -126,9 +134,17 @@ aptitude install fonts-ipafont
 
 Red Hat에서 명령을 추가합니다.
 
-```
-yum install ipa-gothic-fonts ipa-mincho-fonts
-```
+* RHEL 7의 경우:
+
+   ```
+   yum install ipa-gothic-fonts ipa-mincho-fonts
+   ```
+
+* RHEL 8의 경우:
+
+   ```
+   dnf install vlgothic-fonts
+   ```
 
 ### Debian용 LibreOffice 설치 {#installing-libreoffice-for-debian}
 
@@ -150,17 +166,9 @@ Debian의 경우 다음 구성이 필요합니다.
 
 CentOS에는 다음 구성이 필요합니다.
 
-1. 다음 표준 패키지를 설치합니다.
-
-   ```
-   yum install libreoffice-headless libreoffice-writer libreoffice-calc
-   ```
-
-1. 다음 글꼴을 설치합니다(선택 사항이지만 일본어 인스턴스에 권장).
-
-   ```
-   yum install ipa-gothic-fonts ipa-mincho-fonts
-   ```
+```
+yum install libreoffice-headless libreoffice-writer libreoffice-calc
+```
 
 ## 데이터베이스 액세스 레이어 {#database-access-layers}
 

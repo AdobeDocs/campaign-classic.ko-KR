@@ -6,10 +6,10 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 2d2a6e32-587d-4a7b-ba1c-d9140da53f64
-source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 7%
+source-wordcount: '698'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign에서 Twitter 계정에 트윗을 보내려면 이러한 계정�
 
 ![](assets/social_diagram_twitter_service.png)
 
-## 필수 구성 요소 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 먼저 하나 이상의 Twitter 계정을 만들어 트윗을 로 보냅니다.
 
@@ -117,7 +117,7 @@ Adobe Campaign에서 Twitter 계정에 트윗을 보내려면 Twitter 계정당 
 >
 >하나를 만들어야 합니다 **[!UICONTROL Twitter]** twitter 애플리케이션별 서비스입니다.
 
-다음 **[!UICONTROL Twitter account Synchronization]** 워크플로우는 Adobe Campaign에서 Twitter 계정을 동기화합니다. 자세한 정보는 이 [페이지](../../social/using/publishing-on-facebook-walls.md#synchronizing-facebook-pages)를 참조하십시오.
+다음 **[!UICONTROL Twitter account Synchronization]** 워크플로우는 Adobe Campaign에서 Twitter 계정을 동기화합니다.
 
 ## twitter 계정 동기화 {#synchronizing-twitter-accounts}
 
