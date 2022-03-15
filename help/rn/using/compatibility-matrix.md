@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: c228f827e91f25ee3a837f7fe6549ae4e5714ba3
+source-git-commit: 0cebe1ed2cd045559393c1914258593d608e50a0
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '725'
 ht-degree: 99%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 99%
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>Windows Server 2016의 10.0</p>
+<p>Windows Server 2016의 10.0 및 2019년</p>
 <p>Windows Server 2012 R2의 8.5</p>
 <p>Windows Server 2012의 8.0 - Windows 8</p>
 </td>
@@ -332,6 +332,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
+<p>2019(7.2.1 릴리스 시작)</p>
 <p>2016년</p>
 <p>2012년</p>
 </td>
