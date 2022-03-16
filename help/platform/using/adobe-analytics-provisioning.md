@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Adobe Analytics 커넥터
-description: Adobe Analytics 커넥터에 대해 자세히 알아보십시오. 프로비저닝
+title: Adobe Analytics 커넥터 프로비저닝
+description: Adobe Analytics 커넥터 프로비저닝에 대해 자세히 알아보십시오
 feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 9ee95f6d60500b18e242c6d648488615f47a4459
+source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 4%
+source-wordcount: '647'
+ht-degree: 2%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 4%
 
 Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 IMS(Adobe Identity Management Service)를 지원합니다.
 
-* If you are managing a migrated external account, you must implement Adobe IMS and connect to Adobe Campaign via an Adobe ID. Adobe ID IMS를 통해 로그인한 사용자는 **데이터 커넥터** Adobe Analytics의 계정을 설정하고 **제품 프로필** 아래에 언급되어 있습니다.
+* 마이그레이션된 외부 계정을 관리하는 경우, Adobe IMS를 구현하고 Adobe ID을 통해 Adobe Campaign에 연결해야 합니다. Adobe ID IMS를 통해 로그인한 사용자는 **데이터 커넥터** Adobe Analytics의 계정을 설정하고 **제품 프로필** 아래에 언급되어 있습니다.
 
 * 새 커넥터를 구현하는 경우 Adobe IMS 구현을 선택 사항입니다. Adobe ID 사용자가 없으면 Adobe Campaign은 기술 사용자를 사용하여 Adobe Analytics과 동기화합니다.
 
-For this integration to work, you have to create an Adobe Analytics product profile which will be used exclusively for the Analytics connector. 그런 다음 Adobe I/O 프로젝트를 만들어야 합니다.
+이 통합이 작동하려면 Analytics 커넥터에만 사용되는 Adobe Analytics 제품 프로필을 만들어야 합니다. 그런 다음 Adobe I/O 프로젝트를 만들어야 합니다.
 
 ## Adobe Analytics 제품 프로필 만들기 {#analytics-product-profile}
 
@@ -38,7 +38,7 @@ For this integration to work, you have to create an Adobe Analytics product prof
 
 이미 Analytics 제품 프로필이 있는 경우 Analytics 커넥터에만 사용되는 새 Adobe Analytics 제품 프로필을 만들어야 합니다. 이렇게 하면 제품 프로필이 이 통합에 대한 올바른 권한으로 설정되어 있는지 확인할 수 있습니다.
 
-For more information on Product profiles, refer to the [Admin console documentation](https://helpx.adobe.com/mt/enterprise/admin-guide.html).
+제품 프로필에 대한 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/mt/enterprise/admin-guide.html).
 
 1. 에서 [Admin Console](https://adminconsole.adobe.com/), Adobe Analytics 선택 **[!UICONTROL Product]**.
 
@@ -96,7 +96,7 @@ For more information on Product profiles, refer to the [Admin console documentat
 
 ## Adobe I/O 프로젝트 만들기 {#create-adobe-io}
 
-1. Access Adobe I/O and log in as **System Administrator** of the IMS Organization.
+1. Adobe I/O에 액세스하고 **시스템 관리자** IMS 조직의
 
    관리자 역할에 대한 자세한 내용은 다음을 참조하십시오 [페이지](https://helpx.adobe.com/enterprise/using/admin-roles.html).
 
@@ -145,7 +145,7 @@ For more information on Product profiles, refer to the [Admin console documentat
 
    이러한 자격 증명을 사용하여 트리거를 이미 설정한 경우 이 커넥터 구성에 대해 개인 키가 동일해야 합니다.
 
-1. 다음 명령을 사용하여 개인 키를 인코딩합니다. `base64 ./private.key > private.key.base64`. This will save the base64 content to a new file `private.key.base64`.
+1. 다음 명령을 사용하여 개인 키를 인코딩합니다. `base64 ./private.key > private.key.base64`. 이렇게 하면 base64 컨텐츠가 새 파일에 저장됩니다 `private.key.base64`.
 
    >[!NOTE]
    >
