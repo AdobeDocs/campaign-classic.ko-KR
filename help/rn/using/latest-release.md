@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: e4cd327d1495987e7d32bd1b903c8fe5de2813f2
+source-git-commit: e3ff5bb55e108c163dcf395da84076201f09e61c
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 98%
 ## ![](assets/do-not-localize/green_2.png) 릴리스 7.2.2 - 빌드 9349 {#release-7-2-2}
 
 _2022년 3월 1일_
+
+>[!NOTE]
+>
+> 이 빌드는 v7.2.1 Client Console과 호환됩니다.
 
 **패치**
 
@@ -37,6 +41,7 @@ _2022년 3월 1일_
 * 브로드로그가 동시에 1,000개 이상 있는 경우 게재 가능성 워크플로우를 새로 고칠 때 오류가 발생하는 문제를 해결했습니다. (NEO-40276)
 * 오픈율 및 클릭률 게재 지표가 자동으로 업데이트되지 않는 문제를 해결했습니다. (NEO-43253)
 
+
 ## ![](assets/do-not-localize/limited_2.png) 릴리스 7.2.1 - 빌드 9346 {#release-7-2-1}
 
 _2022년 1월 10일_
@@ -51,7 +56,7 @@ FDA 계정의 보안 기능을 몇 가지 면에서 개선했습니다.
 
 **호환성 업데이트**
 
-Adobe Campaign은 이제 Windows Server 2019와 호환됩니다. 자세한 내용은 [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md#OperatingSystems).
+Adobe Campaign은 이제 Windows Server 2019와 호환됩니다. [캠페인 호환성 매트릭스](../../rn/using/compatibility-matrix.md#OperatingSystems)를 참조하십시오.
 
 **개선 사항**
 
