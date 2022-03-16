@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: 외부 데이터베이스 액세스
+title: 페더레이션 데이터 액세스 시작
 description: 외부 데이터베이스에서 데이터에 액세스하고 처리하는 방법을 알아봅니다
 feature: Federated Data Access
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 3%
+source-wordcount: '163'
+ht-degree: 0%
 
 ---
 

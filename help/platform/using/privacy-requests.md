@@ -6,8 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 71a5433db3ce2af5a25e5f861bd6f1dfb9aa8934
-workflow-type: ht
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+workflow-type: tm+mt
 source-wordcount: '2425'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Adobe Campaign을 사용하면 개인 정보 보호 준비를 용이하게 하�
 
 액세스 및 삭제 요청을 만드는 방법뿐만 아니라 Adobe Campaign에서 요청을 처리하는 방법을 살펴보겠습니다.
 
-### 원칙 {#principles}
+### 원칙 {#privacy-principles}
 
 Adobe Campaign은 데이터 컨트롤러에게 개인 정보 보호 액세스 및 삭제 요청을 수행하는 두 가지 방법을 제공합니다.
 

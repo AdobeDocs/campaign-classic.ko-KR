@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: 데이터 스키마
-description: 데이터 스키마
+title: Campaign에서 데이터 스키마 사용
+description: Campaign에서 데이터 스키마를 사용하는 방법 알아보기
 feature: Data Model
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 2%
+source-wordcount: '558'
+ht-degree: 1%
 
 ---
 
-# 데이터 스키마{#data-schemas}
+# Campaign에서 데이터 스키마 사용{#data-schemas}
 
 ![](../../assets/common.svg)
 

@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: 요소 및 속성
+title: 요소 및 속성 - 값 요소
 description: 요소 및 속성
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: bad7fb4b-43d9-4033-ae0d-cf191d89114b
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 5%
+source-wordcount: '149'
+ht-degree: 3%
 
 ---
 
