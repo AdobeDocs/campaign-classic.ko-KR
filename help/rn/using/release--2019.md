@@ -78,8 +78,8 @@ _2019년 12월 2일_
    <td> <p>CCPA는 2020년 1월 1일부터 시행된 데이터 보호 요구 사항을 통합하고 현대화한 캘리포니아 주의 새로운 개인 정보 보호 법입니다. CCPA는 캘리포니아에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p>
     <p>Adobe Campaign은 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 외에도 CPA에 대한 준비를 용이하게 합니다.</p>
     <ul>
-      <li>액세스 권한 및 삭제 권한: adobe는 GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">자세히 표시</a></li>
-      <li>소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다. 이를 위해 프로필 테이블을 확장하고 다음을 추가해야 합니다 <strong>CCPA용 옵트아웃</strong> 필드. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">자세히 표시</a></li></td> 
+      <li>액세스 권한 및 삭제 권한: adobe는 GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">자세히 보기</a></li>
+      <li>소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다. 이를 위해 프로필 테이블을 확장하고 다음을 추가해야 합니다 <strong>CCPA용 옵트아웃</strong> 필드. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">자세히 보기</a></li></td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,20 +136,20 @@ _2019년 12월 2일_
 **개선 사항**
 
 * 푸시 알림에 대한 메모리 사용량 최적화.
-* 성능 및 스토리지 최적화를 위해 **logins.log** 파일이 향상되었습니다. 이제 파일은 여러 파일로 분할되어 매일 한 개씩 최대 365개의 파일이 유지됩니다. [자세히 표시](../../production/using/log-files.md)
-* 이제 Microsoft Dynamics CRM 외부 계정을 암호 자격 증명(암호 + 사용자 이름) 또는 인증서(개인 키)를 사용하여 구성할 수 있습니다. [자세히 표시](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
+* 성능 및 스토리지 최적화를 위해 **logins.log** 파일이 향상되었습니다. 이제 파일은 여러 파일로 분할되어 매일 한 개씩 최대 365개의 파일이 유지됩니다. [자세히 보기](../../production/using/log-files.md)
+* 이제 Microsoft Dynamics CRM 외부 계정을 암호 자격 증명(암호 + 사용자 이름) 또는 인증서(개인 키)를 사용하여 구성할 수 있습니다. [자세히 보기](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
 * 안정성을 개선하기 위해 Hadoop FDA 커넥터에 몇 가지 개선 사항이 추가되었습니다
 * 서버에 공개 리소스를 업로드하기 전에 디스크 공간을 확인하기 위해 특정 보호 기능이 추가되었습니다.
 * 새로 만들기 [캠페인 옵션](../../installation/using/configuring-campaign-options.md) 가 추가되었습니다.
    * 다음 **WdbcKillSessionPolicy** 구성 옵션을 사용하면 **무조건 정지** 모든 워크플로우 및 PostgreSQL 데이터베이스 쿼리에 대한 동작입니다.
    * 다음 **NmsOperation_DeliveryPreparationWindow** 옵션을 사용하면 불일치 상태의 게재가 실행 중인 게재 수에서 제외되는 일 수를 정의할 수 있습니다.
-   * 다음 **WdbcOptions_TempDbName** 옵션을 사용하면 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 백업 및 복제를 최적화합니다. [자세히 표시](../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)
-   * 다음 **XtkCleanup_NoStats** 데이터베이스 정리 워크플로우의 저장 최적화 단계의 동작을 더 잘 제어할 수 있도록 PostgreSQL에 대한 옵션이 향상되었습니다. [자세히 표시](../../production/using/database-cleanup-workflow.md#statistics-update)
+   * 다음 **WdbcOptions_TempDbName** 옵션을 사용하면 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 백업 및 복제를 최적화합니다. [자세히 보기](../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)
+   * 다음 **XtkCleanup_NoStats** 데이터베이스 정리 워크플로우의 저장 최적화 단계의 동작을 더 잘 제어할 수 있도록 PostgreSQL에 대한 옵션이 향상되었습니다. [자세히 보기](../../production/using/database-cleanup-workflow.md#statistics-update)
 * 계정 잠금 메커니즘이 **logon()** API. 지정된 기간 내에서 일정 수의 연속적인 로그인 시도 실패 후 추가적인 로그인 시도를 방지합니다.
-* 새로운 **최대 개인화 실행 시간** 게재 속성의 옵션을 사용하면 개인화 단계가 너무 오랫동안 실행되지 않도록 개인화 실행 시간에 대한 시간 초과 기간을 정의할 수 있습니다. [자세히 표시](../../delivery/using/personalization-fields.md#timing-out-personalization)
-* 다음 **ftp 프로토콜** SFTP 연결에 대해 프록시 구성을 사용할 수 있도록 옵션이 추가되었습니다. [자세히 표시](../../installation/using/file-res-management.md)
+* 새로운 **최대 개인화 실행 시간** 게재 속성의 옵션을 사용하면 개인화 단계가 너무 오랫동안 실행되지 않도록 개인화 실행 시간에 대한 시간 초과 기간을 정의할 수 있습니다. [자세히 보기](../../delivery/using/personalization-fields.md#timing-out-personalization)
+* 다음 **ftp 프로토콜** SFTP 연결에 대해 프록시 구성을 사용할 수 있도록 옵션이 추가되었습니다. [자세히 보기](../../installation/using/file-res-management.md)
 * 온-프레미스 환경을 위한 SFTP 외부 서버에 대한 프록시 액세스에 대한 새로운 지원.
-* Campaign 인스턴스와 호환되지 않는 패키지를 설치하지 않도록 특정 보호 기능이 추가되었습니다. [자세히 표시](../../installation/using/installing-campaign-standard-packages.md)
+* Campaign 인스턴스와 호환되지 않는 패키지를 설치하지 않도록 특정 보호 기능이 추가되었습니다. [자세히 보기](../../installation/using/installing-campaign-standard-packages.md)
 
 _사용되지 않는 시스템_
 
@@ -157,7 +157,7 @@ _사용되지 않는 시스템_
 * Apache 2.2
 * Centos 6
 
-최신 Campaign 호환성 매트릭스에 나열된 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오. [자세히 표시](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
+최신 Campaign 호환성 매트릭스에 나열된 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오. [자세히 보기](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
 _Campaign Mobile SDK_
 
@@ -227,7 +227,7 @@ _2020년 12월 16일_
 >
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다. [자세히 알아보기](../../technotes/using/ims-updates.md)
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign의 [레거시 oAuth 인증 모드는](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) **2021년 9월**&#x200B;부로 사용이 중단되었습니다. 호스팅된 환경은 확장 프로그램을 통해  **2022년 2월 23일**. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
+> * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign의 [레거시 oAuth 인증 모드는](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) **2021년 9월**&#x200B;부로 사용이 중단되었습니다. 호스팅 환경의 경우 **2022년 2월 23일**&#x200B;까지 연장 사용할 수 있습니다. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
 
 
 
@@ -401,13 +401,13 @@ _2019년 5월 30일_
 
 **보호, 견고성 및 확장성 개선 사항**
 
-* 수명 - XtkNewId 시퀀스 사용 최적화: 가장 많이 사용하는 테이블이 xtkNewId 시퀀스에서 전용 시퀀스로 이동되었습니다. [자세히 표시](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* 수명 - XtkNewId 시퀀스 사용 최적화: 가장 많이 사용하는 테이블이 xtkNewId 시퀀스에서 전용 시퀀스로 이동되었습니다. [자세히 보기](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * HTTP v2를 통한 FDA: HTTP를 통한 FDA 프로토콜은 Hybrid 배포, 특히 broadLog 검색 및 게재 준비에 널리 사용됩니다. 데이터 검색 또는 푸싱과 같은 네트워크 문제와 가능한 오류를 방지하기 위해 견고성 기능이 향상되었습니다. 이렇게 하려면 연결의 양쪽 끝에서 빌드가 최신 상태여야 하며 그렇지 않으면 이전 프로토콜은 계속 사용됩니다.
 * 추적 워크플로우: 추적 워크플로우 견고성이 향상되었습니다. 추적 로그 삽입/업데이트 및 URL 추적 사용자 지정과 관련된 몇 가지 문제가 수정되었습니다. 또한 이제 추적 워크플로우에서 오류로 인해 워크플로우를 중지할 수 있는 추적 로그 문제를 감지합니다. 이제 이러한 문제가 삭제되고 처리되지 않습니다.
 * 정리 워크플로우: 잠재적인 오류 및 중지를 방지하기 위해 정리 워크플로우가 개선되었습니다. 데이터베이스 크기와 성능을 최적화합니다.
 * 트랜잭션 메시지에 포함된 이미지: 가능한 충돌 또는 누락된 이미지를 방지하기 위해 트랜잭션 메시지에 포함된 이미지에 대한 전체 지원을 추가했습니다.
 * 데이터베이스 크기 - XtkJobLog: 이 테이블에 제거 메커니즘이 추가되었습니다. 이는 데이터베이스 크기에 긍정적인 영향을 줍니다.
-* 숨은 참조 보관: 숨은 참조 보관에 대한 기본 매개 변수가 보관 속도를 증가하도록 변경되었습니다. [자세히 표시](../../installation/using/email-archiving.md#parameters)
+* 숨은 참조 보관: 숨은 참조 보관에 대한 기본 매개 변수가 보관 속도를 증가하도록 변경되었습니다. [자세히 보기](../../installation/using/email-archiving.md#parameters)
 * 데이터베이스 구조 업데이트: 데이터베이스 구조 업데이트 마법사에서 생성한 SQL 요청이 개선되어 실행 속도가 빨라졌습니다.
 * 운영자 작업에 대한 보호 기능: 연산자가 플랫폼의 무결성에 영향을 줄 수 있는 작업을 수행하지 못하도록 몇 가지 보안 기능이 구현되었습니다. 기본 제공 스키마는 더 이상 인터페이스를 통해 삭제할 수 없습니다. 또한 관리자가 아닌 사용자는 워크플로우 소스 XML을 더 이상 편집할 수 없습니다.
 * 두 가지 새로운 옵션을 사용할 수 있습니다. **XtkSecurity_Restrict_EditXML** (게재 버전의 XML 코드를 비활성화할 수 있음) 및 **NmsOperation_OperationMgtDebug** (operationMgt 기술 워크플로우 실행을 모니터링할 수 있습니다.) [자세히 표시](../../installation/using/configuring-campaign-options.md)
@@ -422,7 +422,7 @@ _2019년 5월 30일_
 * Analytics 통합에서 이제 % 문자로 AAM 세그먼트 데이터를 검색할 수 있습니다. (NEO-12025)
 * 누락된 데이터 문제를 해결하기 위해 워크플로우 Heatmap에서 10,000개의 레코드 제한을 제거했습니다. (NEO-12329)
 * Open Office는 지원되지 않으며 이제 응용 프로그램에서 완전히 제거됩니다. 계속 사용 중인 경우 19.1부터 더 이상 작동하지 않으므로 Libre Office로 이동합니다.
-* 이제 sysfilter 속성을 사용하여 워크플로우에서 데이터 업데이트 활동에 대한 쓰기 액세스를 제한할 수 있습니다. [자세히 표시](../../configuration/using/filtering-schemas.md)
+* 이제 sysfilter 속성을 사용하여 워크플로우에서 데이터 업데이트 활동에 대한 쓰기 액세스를 제한할 수 있습니다. [자세히 보기](../../configuration/using/filtering-schemas.md)
 
 **패치**
 

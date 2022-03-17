@@ -1,11 +1,12 @@
 ---
 product: campaign
 title: Campaign Classic 2018 릴리스
-description: 2018 Campaign Classic 릴리스에 대해 자세히 알아보기
-source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+description: 'Campaign Classic 2018 릴리스에 대해 자세히 알아보기 '
+exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
+source-git-commit: 96f2ae67a5b47b80533e759713cf5b36baa8cf36
 workflow-type: tm+mt
 source-wordcount: '5414'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -321,7 +322,7 @@ teradata 외부 계정에 새 탭이 추가되었습니다. 다음 **[!UICONTROL
   </tr> 
   <tr> 
    <td> Windows Server 2016 지원<br /> </td> 
-   <td> Adobe Campaign은 이제 Windows Server 2016과 호환됩니다. 을(를) 참조하십시오. <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Campaign Classic 호환성 매트릭스</a>.<br /> </td> 
+   <td> Adobe Campaign은 이제 Windows Server 2016와 호환됩니다. 을(를) 참조하십시오. <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Campaign Classic 호환성 매트릭스</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
