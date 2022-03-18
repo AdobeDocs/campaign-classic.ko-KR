@@ -4,9 +4,9 @@ title: 게재 구성 및 보내기
 description: 게재를 구성하고 보내는 방법을 배웁니다
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1556'
 ht-degree: 5%
 
 ---
@@ -33,13 +33,16 @@ ht-degree: 5%
    >
    >게재가 중복되면 매개 변수가 재설정됩니다.
 
-* **[!UICONTROL Send using multiple waves]**: 자세한 내용은 [여러 웨이브를 사용하여 보내기](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: 이 옵션을 사용하여 전체 대상자가 아닌 전파를 통해 메시지를 보낼 수 있습니다. 배치 수와 해당 비율을 구성합니다. [자세히 알아보기](#sending-using-multiple-waves)
 
-* **[!UICONTROL Test SMTP delivery]**: 이 옵션을 사용하면 SMTP를 통해 게재 전송을 테스트할 수 있습니다. 게재는 SMTP 서버에 대한 연결까지 처리되지만 전송되지 않습니다.
+* **[!UICONTROL Test SMTP delivery]**: SMTP를 통한 전송을 테스트하려면 이 옵션을 사용합니다. 게재는 SMTP 서버에 대한 연결까지 처리되지만 전송되지 않습니다: 게재를 받는 모든 사람에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행하고 SMTP DATA 명령 전에 연결을 닫습니다.
 
    >[!NOTE]
    >
-   >mta를 호출하지 않도록 중간 소싱을 사용하여 을 설치할 때는 이 옵션을 사용하지 않는 것이 좋습니다. SMTP 서버 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/configure-delivery-settings.md).
+   >* 중간 소싱에서는 이 옵션을 권장하지 않습니다.
+   >
+   >* SMTP 서버 구성에 대해 자세히 알아보기, in [이 섹션](../../installation/using/configure-delivery-settings.md).
+
 
 * **[!UICONTROL Email BCC]**: 이 옵션을 사용하면 메시지 타겟에 숨은 참조 이메일 주소를 추가하면 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](sending-messages.md#archiving-emails)을 참조하십시오.
 

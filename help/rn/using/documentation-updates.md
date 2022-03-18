@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: deb658fee9a668fd98aebfd1852252114ffb6edc
+source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
 workflow-type: tm+mt
-source-wordcount: '4903'
-ht-degree: 100%
+source-wordcount: '4938'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 100%
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
 ## 2022년
+
+
+### 2022년 3월 {#mar-2022}
+
+에 대한 자세한 설명을 추가했습니다. **[!UICONTROL Test SMTP delivery]** 선택 사항입니다. [자세히 보기](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
+
+릴리스 노트 개요 섹션을 업데이트하여 Campaign 콘솔 업그레이드 지침을 명확히 했습니다. [자세히 보기](../../rn/using/rn-overview.md)
+
+이제 새 Campaign v7.2.2 빌드를 사용할 수 있습니다. [자세히 보기](../../rn/using/latest-release.md)
+
 
 ### 2022년 2월 {#february-2022}
 

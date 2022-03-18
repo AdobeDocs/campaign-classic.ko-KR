@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 329cf80ff021322e57a63cf86f4b4e206f6385d1
+source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 97%
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 ![](assets/do-not-localize/red3.png) **사용되지 않음** - 배포가 없습니다. 버그 해결이 없습니다. 기존 구현을 업그레이드해야 합니다.
 
-## 릴리스 주기
+## 릴리스 주기{#rn-cycle}
 
 Adobe Campaign은 정기적으로 업데이트됩니다. 이렇게 정기적으로 업데이트를 제공하는 이유는 사용자가 최신 기능을 바로 사용할 수 있도록 하고 사용자의 환경을 안전하게 지키며 Adobe 제품 관련 경험을 개선하겠다는 목표를 위해서입니다.
 
