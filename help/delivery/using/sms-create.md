@@ -4,14 +4,14 @@ title: Campaign으로 SMS 만들기
 description: Campaign을 사용하여 SMS를 만드는 방법을 알아봅니다
 feature: SMS
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 29e56d6bf2817eeb863cbe33f99233a8241f2bf5
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 3%
 
 ---
 
-# SMS 게재 만들기 {#creating-a-sms-delivery}
+# SMS 게재 만들기  {#creating-a-sms-delivery}
 
 ![](../../assets/common.svg)
 
