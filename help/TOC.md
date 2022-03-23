@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 �
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2548'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -588,9 +588,9 @@ ht-degree: 99%
       + [Facebook 애플리케이션 만들기](social/using/creating-a-facebook-application.md)
       + [Twitter 게시 구성](social/using/configuring-publishing-on-twitter.md)
    + Twitter 게시 {#publishing-on-facebook-twitter}
-      + [twitter 시작](social/using/overview.md)
+      + [Twitter 시작](social/using/overview.md)
       + [Twitter 게시](social/using/publishing-on-twitter.md)
-   + facebook 연락처 가져오기 {#annexes}
+   + Facebook 연락처 가져오기 {#annexes}
       + [Facebook 앱의 예](social/using/examples-of-facebook-apps.md)
       + [추적](social/using/tracking.md)
 + 설치 및 구성 안내서 {#installing-campaign-classic}
