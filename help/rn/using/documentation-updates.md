@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 4fe661cf6a0fef8126fd24a68b1021760a5d0bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4932'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 97%
 
 ### 2022년 3월 {#mar-2022}
 
-에 대한 자세한 설명을 추가했습니다. **[!UICONTROL Test SMTP delivery]** 선택 사항입니다. [자세히 보기](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
+**[!UICONTROL Test SMTP delivery]** 옵션에 대해 자세한 설명을 추가했습니다. [자세히 보기](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
 
-업그레이드 시작 페이지가 Campaign Console 업그레이드 지침을 명확히 하기 위해 업데이트되었습니다. [자세히 보기](../../rn/using/rn-overview.md)
+업그레이드 시작 페이지의 Campaign Console 업그레이드 지침을 보다 명확하게 업데이트했습니다. [자세히 보기](../../rn/using/rn-overview.md)
 
 이제 새 Campaign v7.2.2 빌드를 사용할 수 있습니다. [자세히 보기](../../rn/using/latest-release.md)
 
@@ -69,7 +69,7 @@ CRM 커넥터 활동에 일괄 업데이트 옵션을 추가했습니다. [자�
 
 ### 2021년 12월{#dec-2021}
 
-Campaign Classic v7 릴리스 노트가 탐색 간소화를 위해 재구성되었습니다. [자세히 표시](rn-overview.md)
+탐색 간소화를 위해 Campaign Classic v7 릴리스 정보를 다시 정리했습니다. [자세히 표시](rn-overview.md)
 
 Campaign의 양식 편집에 대한 설명서를 업데이트하고 개선했습니다. [자세히 표시](../../configuration/using/editing-forms.md)
 
@@ -124,7 +124,7 @@ Adobe Experience Manager 6.4부터 서비스 해제된 Campaign과 AEM Assets �
 
 ### 2021년 6월 {#june-2021}
 
-다음 **트랜잭션 메시지** 섹션을 재구성하고 를 포함한 새 시작 섹션으로 명확해졌습니다 [향상된 스키마](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) 그 과정을 더 잘 이해하기 위해서. [자세한 내용](../../message-center/using/about-transactional-messaging.md)
+**트랜잭션 메시지** 섹션의 프로세스 이해 증진을 위해 [스키마를 개선](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle)하는 등 다시 정리하고 새로운 시작 섹션으로 명료화했습니다. [자세한 내용](../../message-center/using/about-transactional-messaging.md)
 
 **릴리스 21.1.3과 함께 제공되는 설명서 업데이트**
 
@@ -156,7 +156,7 @@ ISP 중단 후 바운스 자격을 업데이트하는 방법을 알려 주는 �
 
 ### 2021년 3월 {#march-2021}
 
-[SMS 시작하기 섹션](../../delivery/using/sms-channel.md)이 재구성되고 개선되었습니다. 이제 방법을 배울 수 있습니다 [sms 채널 구성](../../delivery/using/sms-set-up.md), [sms 만들기](../../delivery/using/sms-create.md), [sms 보내기 및 추적](../../delivery/using/sms-send.md) 를 참조하십시오.
+[SMS 시작하기 섹션](../../delivery/using/sms-channel.md)을 다시 정리하고 개선했습니다. 이제 전용 섹션에서 [SMS 채널 구성](../../delivery/using/sms-set-up.md), [SMS 만들기](../../delivery/using/sms-create.md), [SMS 보내고 추적하기](../../delivery/using/sms-send.md) 방법을 학습할 수 있습니다.
 
 Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 주 설명서에 통합되었습니다. [자세히 알아보기](../../support.md)
 
@@ -344,7 +344,7 @@ FTP 서버에 연결한 후 &quot;호스트 이름을 확인할 수 없습니다
 * 쿼리에서 인스턴스 변수 호출
 * 모집단에서 분할 비율 적용
 
-다음 **[!UICONTROL AND-join]** 활동 섹션이 사용 방법에 대한 추가 정보 및 변수 사용과 관련된 메모로 보강되었습니다. [자세히 보기](../../workflow/using/and-join.md)
+**[!UICONTROL AND-join]** 활동 섹션에 사용 방법에 대한 자세한 정보와 변수 사용에 대한 참고 사항을 추가하여 보강했습니다. [자세히 보기](../../workflow/using/and-join.md)
 
 ### 2020년 7월 {#july-2020}
 
@@ -472,7 +472,7 @@ Hadoop FDA 커넥터 개선 사항 - [자세한 내용](../../installation/using
 
 설치 안내서를 업데이트하고 호환성 매트릭스 최신 버전에 맞추었습니다. 새로 지원하는 시스템을 추가했습니다. 사용 중단 및 미지원 시스템을 제거했습니다. [자세한 내용](../../installation/using/general-architecture.md)
 
-호환성 매트릭스가 Hadoop 3.0 및 Snowflake FDA 커넥터로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+호환성 매트릭스가 Hadoop 3.0 및 Snowflake FDA 커넥터로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
 설치 안내서에 IP 선호도에 대한 모범 사례가 추가되었습니다. [자세한 내용](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -490,7 +490,7 @@ URL 보고서 구성에 대한 새 매개 변수가 [여기](../../reporting/usi
 
 **Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스** 페이지가 새로운 FDA 커넥터로 업데이트되었습니다. [자세한 내용](../../installation/using/capability-matrix.md).
 
-**Campaign Classic 기능 매트릭스** 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+**Campaign Classic 기능 매트릭스** 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
 새 **[!UICONTROL Cleanup of Nmsaddress]** 워크플로우는 [여기에](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress) 설명되어 있습니다.
 
@@ -542,7 +542,7 @@ TLS(보안 SMS 메시지) - [자세한 내용](https://helpx.adobe.com/kr/campai
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-Adobe Campaign Enhanced MTA 설명서를 사용할 수 있습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA 설명서를 사용할 수 있습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acc-campaign-enhanced-mta.html)
 
 캠페인 내의 &quot;가능한 한 빨리 시작&quot; 상태에 있는 워크플로우 문제 해결 방법에 대한 새 섹션이 추가되었습니다. [자세한 내용](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -604,7 +604,7 @@ Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이
 
 **19.1 릴리스에 포함된 새로운 기능**
 
-제어판 - [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+제어판 - [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 
 감사 추적 - [자세한 내용](../../production/using/audit-trail.md)
 
@@ -612,7 +612,7 @@ Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이
 
 새로운 빌드 업그레이드 FAQ가 만들어졌습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/build-upgrade-faq.html)
 
-[호환성 매트릭스](compatibility-matrix.md)가 업데이트되었습니다. 지원되는 데이터베이스 시스템 목록, Android/iOS 버전 및 관련 SDK가 업데이트되었습니다. 19.0 호환성 매트릭스를 아카이빙했습니다.
+[호환성 매트릭스](compatibility-matrix.md)가 업데이트되었습니다. 지원되는 데이터베이스 시스템 목록과 Android/iOS 버전 및 관련 SDK를 업데이트했습니다. 19.0 호환성 매트릭스를 아카이빙했습니다.
 
 &#39;Campaign Classic에서 사용하지 않거나 제거된 기능&#39; 페이지가 업데이트되었습니다. [자세한 내용](deprecated-features.md)
 
@@ -626,9 +626,9 @@ Campaign 서버 제거 단계를 설명하는 섹션이 추가되었습니다. [
 
 제품 변경 사항을 반영하도록 프로세스 전 워크플로우 옵션에 대한 설명이 업데이트되었습니다. [자세한 내용](../../workflow/using/data-loading--file-.md)
 
-Experience Cloud 트리거 기술 정보가 업데이트되었습니다. [자세한 내용](../../integrations/using/about-triggers.md)
+Experience Cloud 트리거 기술 정보를 업데이트했습니다. [자세한 내용](../../integrations/using/about-triggers.md)
 
-오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
+오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
 
 트랜잭션 메시지을 위한 SOAP 인증 방법에 대한 자세한 내용을 추가했습니다. [자세한 내용](../../message-center/using/event-description.md)
 
@@ -667,7 +667,7 @@ Campaign Classic에서 사용할 수 있는 다른 외부 계정 및 이를 구�
 공유 대상 통합에 대한 설명서가 업데이트되었습니다.
 [자세한 내용](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-다음 기술 정보가 업데이트되었습니다. [SMS 커넥터 프로토콜 및 설정](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) 및 [시퀀스 자동 생성](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
+다음 기술 정보가 업데이트되었습니다. [SMS 커넥터 프로토콜 및 설정](https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html) 및 [시퀀스 자동 생성](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
 기술 워크플로우 섹션이 업데이트되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
 
@@ -681,7 +681,7 @@ Teradata 외부 계정에 대한 쿼리 밴딩에 정보가 추가되었습니�
 
 ### 2019년 1월{#release-doc-16-01-2019}
 
-Experience Cloud 트리거 기술 정보가 업데이트되었습니다. [자세한 내용](../../integrations/using/about-triggers.md)
+Experience Cloud 트리거 기술 정보를 업데이트했습니다. [자세한 내용](../../integrations/using/about-triggers.md)
 
 오퍼 승인 섹션에 &quot;콘텐츠 승인됨&quot; 언급이 모든 오퍼가 활성화/승인되었는지 여부에 상관없이 콘텐츠 승인 프로세스가 달성되었음을 나타내는 메모가 추가되었습니다. [자세한 내용](../../interaction/using/offer-catalog-overview.md)
 
