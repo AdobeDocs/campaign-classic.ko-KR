@@ -4,9 +4,9 @@ title: Chrome Firefox 및 Edge 브라우저의 Campaign 웹 구성 요소 및 �
 description: Chrome, Firefox 및 Edge 브라우저의 Campaign 웹 구성 요소 및 버전 100
 hide: true
 hidefromtoc: true
-source-git-commit: 48c9aab4f7e5f1f204a003a4d53f8d975247b867
+source-git-commit: ffcba5d7b4a5e5eb140dbe8e4daad072bb1d2400
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Google, Mozilla는 Chrome과 Firefox가 향후 3자리 버전으로 인해 일�
 
 Chrome v100은 릴리스에 설정되어 있습니다. **2022년 3월 29일**, Firefox v100 **2022년 5월 3일**.
 
-Microsoft Edge는 2022년 3월에 버전 100을 출시했습니다.
+Microsoft은 2022년 3월에 Edge v100을 출시했습니다.
 
 버전 번호를 2자리부터 3자리까지 변경하면 이 변경 사항에 대해 준비되지 않은 웹 사이트를 방문할 때 일부 문제가 발생할 수 있습니다. 일부 웹 페이지는 이러한 새 브라우저 버전에서 올바르게 표시되지 않을 수 있습니다.
 
