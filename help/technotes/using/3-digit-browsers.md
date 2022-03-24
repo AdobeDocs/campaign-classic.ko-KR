@@ -4,16 +4,16 @@ title: Chrome Firefox 및 Edge 브라우저의 Campaign 웹 구성 요소 및 �
 description: Chrome, Firefox 및 Edge 브라우저의 Campaign 웹 구성 요소 및 버전 100
 hide: true
 hidefromtoc: true
-source-git-commit: ffcba5d7b4a5e5eb140dbe8e4daad072bb1d2400
+source-git-commit: 8b790141342f85769aa6c9663c2e9a34b504e2c5
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # 3자리 브라우저 버전이 Campaign 웹 구성 요소에 영향을 줍니다. {#version-100}
 
-Google, Mozilla는 Chrome과 Firefox가 향후 3자리 버전으로 인해 일부 웹 사이트를 운영할 것이라고 경고했습니다.
+Google과 Mozilla는 Chrome과 Firefox가 향후 3자리 버전으로 인해 일부 웹 사이트를 운영할 것이라고 경고했습니다.
 
 Chrome v100은 릴리스에 설정되어 있습니다. **2022년 3월 29일**, Firefox v100 **2022년 5월 3일**.
 
