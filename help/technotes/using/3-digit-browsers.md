@@ -2,11 +2,10 @@
 product: campaign
 title: Chrome Firefox 및 Edge 브라우저의 Campaign 웹 구성 요소 및 버전 100
 description: Chrome, Firefox 및 Edge 브라우저의 Campaign 웹 구성 요소 및 버전 100
-hide: true
-hidefromtoc: true
-source-git-commit: 8b790141342f85769aa6c9663c2e9a34b504e2c5
+exl-id: 2016279a-7b02-4399-b2ed-9a15456de816
+source-git-commit: b8329e24f07ec8b3dd89f655b47699f130266008
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ Adobe은 웹 양식 및 설문 조사를 포함한 Campaign 웹 애플리케이�
 
 이 권장 사항은 모든 웹 애플리케이션에 적용되며, 특히 JavaScript 코드를 포함한 경우 적용됩니다.
 
-모든 브라우저, 모바일 및 데스크탑에서 모두 확인해야 합니다.
+모든 브라우저, 모바일 및 데스크탑에 대해 확인해야 합니다.
 
 ## 테스트 방법{#version-100-test}
 
