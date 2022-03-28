@@ -4,7 +4,7 @@ title: Adobe Campaign Classic에서 이메일 콘텐츠 정의
 description: Adobe Campaign Classic을 사용할 때 이메일 콘텐츠를 정의하는 방법을 알아봅니다.
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: f5bd8c1806440b47225130070e166d90d99dcc75
 workflow-type: tm+mt
 source-wordcount: '1990'
 ht-degree: 1%
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 메시지 컨텐츠는 게재 구성 창의 하위 섹션에 정의됩니다.
 
-메시지는 수신자 환경 설정에 따라 기본적으로 HTML 또는 텍스트 형식으로 전송됩니다. 모든 메일 시스템에서 메시지를 올바르게 표시할 수 있도록 두 형식 모두에서 컨텐츠를 만드는 것이 좋습니다. 자세한 내용은 [메시지 형식 선택](#selecting-message-formats).
+메시지는 수신자 환경 설정에 따라 기본적으로 HTML 또는 텍스트 형식으로 전송됩니다. 모든 메일 시스템에서 메시지를 올바르게 표시할 수 있도록 두 형식 모두에서 컨텐츠를 만드는 것이 좋습니다. 자세한 내용은 [메시지 형식 선택](email-parameters.md#selecting-message-formats).
 
 * HTML 컨텐츠를 가져오려면 **[!UICONTROL Open]** 버튼을 클릭합니다. 소스 코드를 **[!UICONTROL Source]** 하위 탭.
 
