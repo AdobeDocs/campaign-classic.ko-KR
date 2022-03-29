@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 966da123b30278817ca465ac5dfe1f733c4d6c5c
+source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
 workflow-type: tm+mt
-source-wordcount: '1707'
-ht-degree: 100%
+source-wordcount: '1730'
+ht-degree: 97%
 
 ---
 
@@ -215,7 +215,7 @@ Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 
 
 * DB2 UDB 9.5, 9.7. DB2의 최신 버전은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
 * Oracle 9i, 10G R2. 최신 버전의 Oracle은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
-* PostgreSQL 8.3, 8.4, 9.0, 9.1, 9.2. 최신 버전의 PostgreSQL은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://www.postgresql.org/support/versioning)
+* 최대 9.6의 PostgreSQL 버전이 수명이 종료되었습니다. 최신 버전의 PostgreSQL은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://www.postgresql.org/support/versioning)
 * MSSQL 2000, 2005, 2008 R2. 최신 버전의 SQL Server는 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/1044)
 * MySQL 5.1. 최신 버전의 MySQL은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://en.wikipedia.org/wiki/InfiniDB)
 * InfiniDB는 수명이 종료되었습니다. [자세히 알아보기](https://www.mysql.com/support)
@@ -234,6 +234,8 @@ Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 
 * SQL Server 2005
 * MySQL 5.1
 * DB2 UDB 9.7
+
+최대 9.6의 PostgreSQL 버전이 수명이 종료되었습니다. 따라서 Adobe Campaign에서는 지원되지 않습니다.
 
 ### SMS 커넥터 {#sms-eol}
 

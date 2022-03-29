@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
+source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -112,3 +112,11 @@ ht-degree: 0%
 * **Campaign Standard에서 프로필, 대상자 또는 랜딩 페이지를 편집할 수 없습니다. 어떤 의미입니까?**
 
    Campaign v7에서 동기화된 리소스는 데이터 일관성을 위해 Campaign Standard에서 읽기 전용 모드에 있습니다. 이러한 요소 중 하나를 편집해야 하는 경우 Campaign v7에서 편집한 다음 Campaign Standard에서 변경 사항을 복제할 수 있습니다.
+
+* **에서 오류가 발생합니다 [ACS] 프로필 게재 로그 복제 워크플로우입니다. 어떻게 해야 합니까?**
+
+   Campaign Classic 인스턴스와 Campaign Standard 인스턴스가 모두 추적된 URL이 있는 이메일을 전송하는 데 사용되는 경우 동기화 중에 중복 URL tagIds 문제가 발생할 수 있습니다. 이 경우 **[ACS] 프로필 게재 로그 복제** (newRcpDeliveryLogReplication) 워크플로우가 실패하고 다음 오류가 발생합니다.
+
+   ```PGS-220000 PostgreSQL error: ERROR: duplicate key value violates unique constraint "nmstrackingurl_tagid" DETAIL: Key (stagid) = (1c7bdec2) already exists.```
+
+   문제를 해결하고 다시 발생하지 않도록 하려면 **추적 URL 업데이트** (writerTrackingUrl) 활동을 만들 때 @tagId 소스 표현식에 &quot;ACS&quot; 접두사를 추가합니다.

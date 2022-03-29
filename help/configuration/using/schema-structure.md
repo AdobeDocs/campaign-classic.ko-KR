@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1562'
 ht-degree: 1%
 
 ---
@@ -175,12 +175,10 @@ ht-degree: 1%
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Adobe Campaign</strong><br /> </td> 
    <td> <strong>PostgreSQL</strong><br /> </td> 
    <td> <strong>Oracle</strong><br /> </td> 
-   <td> <strong>Teradata</strong><br /> </td> 
-   <td> <strong>DB2</strong><br /> </td> 
    <td> <strong>MS SQL</strong><br /> </td> 
+   <td> <strong>Adobe Campaign</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> 문자열<br /> </td> 
@@ -215,7 +213,7 @@ ht-degree: 1%
    <td> SMALLINT<br /> </td> 
   </tr> 
   <tr> 
-   <td> 이중<br /> </td> 
+   <td> 더블<br /> </td> 
    <td> 이중 정밀도<br /> </td> 
    <td> 부동<br /> </td> 
    <td> 부동<br /> </td> 
@@ -486,7 +484,6 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 >
 >* **위치/@city** 는 유효하지 않습니다. 다음 사용 **`[location/@city]`**
 >* **`[@email]`** 및 **@email** 동일함
-
 >
 
 

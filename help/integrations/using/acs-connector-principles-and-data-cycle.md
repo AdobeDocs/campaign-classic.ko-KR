@@ -4,9 +4,9 @@ title: ACS 커넥터 시작
 description: ACS 커넥터 원칙 및 데이터 주기
 feature: ACS Connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
+source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '2038'
 ht-degree: 0%
 
 ---
@@ -147,6 +147,11 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
 * **[!UICONTROL `[ACS] New replication`]** (newReplication): 이 증분 워크플로우는 사용자 지정 테이블을 복제하는 데 사용할 수 있는 예입니다. 자세한 내용은 [고급 구현](#advanced-implementation).
 * **[!UICONTROL `[ACS] Delivery-message replication`]** (newDlvMsgQualification): 이 증분 워크플로우는 게재 메시지를 Campaign Standard에서 Campaign v7로 복제합니다.
 * **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication): 이 증분 워크플로우는 게재 ID, 이메일 브로드 로그 및 이메일 추적 로그를 Campaign Standard에서 Campaign v7로 복제합니다. Campaign Standard에서 Campaign v7의 nms:recipients 테이블에 속하는 프로필로 전송된 게재만 고려합니다.
+
+   >[!NOTE]
+   >
+   > Campaign Classic 인스턴스와 Campaign Standard 인스턴스가 모두 추적된 URL이 있는 이메일을 전송하는 데 사용되는 경우 동기화 중에 중복 URL tagIds 문제가 발생할 수 있습니다. 이러한 문제가 발생하지 않도록 하려면 **추적 URL 업데이트** (writerTrackingUrl) 활동을 만들 때 @tagId 소스 표현식에 &quot;ACS&quot; 접두사를 추가합니다.
+
 * **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication): 이 증분 워크플로우는 게재 ID, 이메일 브로드 로그 및 이메일 추적 로그를 Campaign Standard에서 Campaign v7로 복제합니다. Campaign Standard에서 Campaign v7의 특정 테이블(nms:recipients 제외)에 속하는 프로필로 전송된 게재만 고려합니다.
 
 ### 기본 수신자 필드 {#default-recipient-fields}
@@ -166,7 +171,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
    <td> @sourceId<br /> </td> 
   </tr> 
   <tr> 
-   <td> 생성 날짜<br /> </td> 
+   <td> 생성일<br /> </td> 
    <td> @created<br /> </td> 
   </tr> 
   <tr> 
@@ -175,7 +180,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
   </tr> 
   <tr> 
    <td> 이메일<br /> </td> 
-   <td> @email<br /> </td> 
+   <td> @이메일<br /> </td> 
   </tr> 
   <tr> 
    <td> 성<br /> </td> 
