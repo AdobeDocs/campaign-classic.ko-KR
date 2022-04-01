@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 �
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: dd7217bd508d718d84c417fcdf7610a5582ef204
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -830,7 +830,7 @@ ht-degree: 99%
    + [하드웨어 크기 조정 권장 사항](technotes/using/hardware-sizing.md)
    + 업그레이드 및 호환성{#technote-migration}
       + [기술 노트](technotes/using/technote.md)
-      + [3자리 브라우저 버전은 영향을 받습니다](technotes/using/3-digit-browsers.md)
+      + [3자리 브라우저 버전의 영향](technotes/using/3-digit-browsers.md)
       + [Campaign 구성 업데이트](technotes/using/acc-config-updates.md)
       + [IMS 업데이트](technotes/using/ims-updates.md)
       + [TLS 1.0 및 1.1 수명 종료](technotes/using/eol-tls-support.md)
