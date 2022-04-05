@@ -4,10 +4,10 @@ title: 전반적 보고서
 description: 전반적 보고서
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
+source-git-commit: 294309239bc476669e9e017c27bd1b51a0bdaf8c
 workflow-type: tm+mt
-source-wordcount: '2183'
-ht-degree: 1%
+source-wordcount: '2295'
+ht-degree: 4%
 
 ---
 
@@ -48,6 +48,14 @@ ht-degree: 1%
 ![](assets/s_ncs_user_report_toolbar.png)
 
 시간 표시줄을 변경하여 표시되는 값을 구성할 수 있습니다. 1시간 보기, 3시간 보기, 24시간 보기 등 **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 선택 항목을 확인합니다.
+
+>[!NOTE]
+>
+>인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic을 사용하여 시간당 전송된 게재 수도 모니터링할 수 있습니다 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html). 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
+>
+>Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
+>
+>인스턴스는 최신 버전으로 업그레이드해야 합니다 [Gold Standard](../../rn/using/gold-standard.md) 빌드 또는 [최신 GA 빌드(21.1.3)](../../rn/using/latest-release.md). [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다.
 
 ## 사용자 활동 {#user-activities}
 

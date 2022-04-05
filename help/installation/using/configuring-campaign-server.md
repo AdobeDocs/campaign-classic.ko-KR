@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 294309239bc476669e9e017c27bd1b51a0bdaf8c
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 3%
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 이러한 절차는 **온-프레미스**/**하이브리드** 배포 및 관리 권한이 필요합니다.
 
-대상 **호스팅** 배포, 서버측 설정은 Adobe만 구성할 수 있습니다. 그러나 일부 설정은  [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)IP 허용 목록에 추가하다 관리 또는 URL 권한 등 [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko)
+대상 **호스팅** 배포, 서버측 설정은 Adobe만 구성할 수 있습니다. 그러나 일부 설정은 [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)IP 허용 목록에 추가하다 관리 또는 URL 권한 등 [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko)
 
 자세한 정보는 다음 섹션을 참조하십시오.
 
@@ -159,7 +159,7 @@ Adobe Campaign에서는 다음 JSP 페이지를 사용합니다.
 * /nl/jsp/**logon.jsp**: 보고서 및 클라이언트 콘솔의 배포에 대한 웹 기반 액세스
 * /nl/jsp/**s.jsp** : 바이럴 마케팅(후원 및 소셜 네트워크) 사용.
 
-모바일 앱 채널에 사용되는 JSSP는 다음과 같습니다.
+Mobile 앱 채널에 사용되는 JSSP는 다음과 같습니다.
 
 * nms/mobile/1/registerIOS.jssp
 * nms/mobile/1/registerAndroid.jssp
