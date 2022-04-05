@@ -4,9 +4,9 @@ title: 마케팅 캠페인 액세스
 description: 마케팅 캠페인 액세스
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1247'
 ht-degree: 2%
 
 ---
@@ -115,7 +115,7 @@ Adobe Campaign을 사용하면 다양한 마케팅 및 커뮤니케이션 캠페
 >
 >캠페인 템플릿의 구성은 [캠페인 템플릿](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
-#### 예약 {#schedule}
+#### 일정 {#schedule}
 
 캠페인은 게재 집합을 중앙 집중화합니다. 각 캠페인에 대해 예약은 모든 구성 요소에 대한 전역 보기를 제공합니다. 이를 통해 작업 및 게재를 표시하고 쉽게 액세스할 수 있습니다.
 
@@ -149,7 +149,7 @@ Adobe Campaign을 사용하면 다양한 마케팅 및 커뮤니케이션 캠페
 
 >[!NOTE]
 >
->캠페인 구성에 액세스하여 변경하려면 **[!UICONTROL Advanced campaign parameters...]** 링크 위치 **[!UICONTROL Edit]** 탭. 게재가 값을 자동으로 상속하도록 캠페인 수준에서 매개 변수를 설정하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [adobe 기술 정보](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
+>캠페인 구성에 액세스하여 변경하려면 **[!UICONTROL Advanced campaign parameters...]** 링크 위치 **[!UICONTROL Edit]** 탭.
 
 ## 웹 인터페이스 사용 {#using-the-web-interface-}
 

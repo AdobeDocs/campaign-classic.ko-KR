@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 1%
    이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#enabling-processes)을 참조하십시오.
 
 * 단계 **6**, **9** 및 **10** 필요하지 않습니다.
-* 단계 중 **12** 및 **13**&#x200B;를 채울 때는 연결 URL에 8080 포트를 표시해야 합니다. 콘솔이 웹 서버가 아닌 Tomcat과 직접 통신하므로 이 포트를 표시해야 합니다. URL은 [http://console.campaign.net:8080](http://console.campaign.net). 단계 중 **13**&#x200B;에서 을(를) 선택합니다. **[!UICONTROL Issue towards Mid-sourcing]** 패키지 및 설치할 패키지입니다.
+* 단계 중 **12** 및 **13**&#x200B;를 채울 때는 연결 URL에 8080 포트를 표시해야 합니다. 콘솔이 웹 서버가 아닌 Tomcat과 직접 통신하므로 이 포트를 표시해야 합니다. URL은 `http://console.campaign.net:8080`. 단계 중 **13**&#x200B;에서 을(를) 선택합니다. **[!UICONTROL Issue towards Mid-sourcing]** 패키지 및 설치할 패키지입니다.
 
    ![](assets/s_ncs_install_midsourcing02.png)
 

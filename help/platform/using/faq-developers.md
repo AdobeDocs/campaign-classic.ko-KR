@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '517'
 ht-degree: 97%
 
 ---
@@ -25,7 +25,7 @@ Adobe Campaign 데이터베이스의 개념적 데이터 모델은 내장된 테
 
 [Campaign 데이터 모델에 대한 자세한 내용을 보려면 여기를 클릭하십시오](https://helpx.adobe.com/kr/campaign/kb/acc-datamodel.html).
 
-모범 사례는 [이 문서](https://helpx.adobe.com/kr/campaign/kb/acc-data-model-best-practices.html)에 나열되어 있습니다.
+모범 사례는 [이 문서](../../configuration/using/data-model-best-practices.md)에 나열되어 있습니다.
 
 ## Campaign 스키마로 작업하는 방법  {#how-to-work-with-campaign-schemas-}
 

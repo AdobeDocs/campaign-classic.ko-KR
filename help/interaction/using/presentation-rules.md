@@ -6,9 +6,9 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
@@ -110,7 +110,3 @@ ht-degree: 1%
    캐나다에 대한 오퍼가 선택되지 않은 것을 볼 수 있습니다.
 
    ![](assets/offer_typology_example_019.png)
-
-**관련 항목**
-
-* [여러 채널에서 오퍼를 관리하고 중복성을 제어합니다](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Manageoffersandcontrolredundancyacrosschannels)

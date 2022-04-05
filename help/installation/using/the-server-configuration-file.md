@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 6b7ec6b39a79e9b1e6e2bba3d5193765094cf4fd
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '7969'
+source-wordcount: '7961'
 ht-degree: 5%
 
 ---
@@ -530,7 +530,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> 시간 제한<br /> </td> 
    <td> DNS 쿼리에 대한 시간 제한(밀리초)입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5000년<br /> </td> 
@@ -613,7 +613,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <td> 'phantomjs' <br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> 시간 제한<br /> </td> 
    <td> 전환 시간 제한: 최대 전환 시간(초)입니다. 이 임계값을 벗어나면 변환 프로세스가 중지되고 오류가 발생합니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 120년<br /> </td> 
@@ -708,7 +708,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 다음은 의 다양한 매개 변수입니다 **javaScript** 노드 아래에 있어야 합니다. JavaScript 인터프리터의 구성입니다.
 
-자세한 내용은 [보고 설명서](../../reporting/using/actions-on-reports.md#memory-allocation) 그리고 [기술 정보](https://helpx.adobe.com/campaign/kb/out-of-memory-error-in-js-code-activity-in-workflows.html).
+자세한 내용은 [보고 설명서](../../reporting/using/actions-on-reports.md#memory-allocation).
 
 <table> 
  <thead> 
@@ -1028,11 +1028,11 @@ URL을 찾을 수 없는 경우에는 지정된 기본 모드에 따라 기본 �
 
 예를 들어 domain business.com의 모든 URL에 대한 액세스를 승인하기 위해 두 개의 레코드를 정의할 수 있습니다.
 
-dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;http://.*&quot;
+dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;http://.&#42;&quot;
 
-및
+및 
 
-dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
+dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 다음은 기본 구성입니다.
 
@@ -2423,7 +2423,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> 600년<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> 시간 제한<br /> </td> 
    <td> SMS 게이트웨이와의 통신 시간 제한.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 300년<br /> </td> 
@@ -3082,7 +3082,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> true<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> 시간 제한<br /> </td> 
    <td> 금지된 URL을 삭제하기 전에 잠시 기다립니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '60'<br /> </td> 
@@ -3153,7 +3153,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> 시간 제한<br /> </td> 
    <td> 중계되는 요청의 최대 실행 시간(초)입니다.<br /> </td> 
    <td> Long<br /> </td> 
    <td> <br /> </td> 
@@ -3251,7 +3251,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
-   <td> value<br /> </td> 
+   <td> 값<br /> </td> 
    <td> 헤더 값 <br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 

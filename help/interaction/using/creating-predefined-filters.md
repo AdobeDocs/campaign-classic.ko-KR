@@ -6,9 +6,9 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 399e9468-bf70-425d-af0b-72c29636b513
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '96'
 ht-degree: 10%
 
 ---
@@ -44,7 +44,3 @@ ht-degree: 10%
 1. 클릭 **[!UICONTROL Preview]** 필터 결과를 확인합니다.
 
    ![](assets/offer_filter_create_006.png)
-
-**관련 항목**
-
-* [자주 사용하는 쿼리를 편집 가능한 미리 정의된 필터로 저장](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Savefrequentlyusedqueriesaseditablepredefinedfilters)

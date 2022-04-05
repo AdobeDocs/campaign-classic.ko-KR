@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '968'
 ht-degree: 3%
 
 ---
@@ -96,7 +96,7 @@ Campaign 서버 폴더에서 콘솔을 사용할 수 있게 되면 팝업 창에
 
 1. 웹 브라우저를 열고 다음 주소에서 콘솔을 다운로드합니다.
 
-   [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://myserver.adobe.com/nl/jsp/logon.jsp).
+   `https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`.
 
 1. 식별 창에서 로그인 및 암호를 입력합니다.
 

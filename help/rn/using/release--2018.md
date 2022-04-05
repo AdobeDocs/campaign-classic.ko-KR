@@ -3,10 +3,10 @@ product: campaign
 title: Campaign Classic 2018 릴리스
 description: 'Campaign Classic 2018 릴리스에 대해 자세히 알아보기 '
 exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
-source-git-commit: 96f2ae67a5b47b80533e759713cf5b36baa8cf36
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '5414'
-ht-degree: 8%
+source-wordcount: '5385'
+ht-degree: 7%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 8%
      <li> <p>iOS에서 자동 알림 추적 </p> </li> 
      <li> <p>iOS의 등록 호출에 대한 피드백 구현</p> </li> 
      <li> <p>iOS 게재 준비 속도 개선</p> </li> 
-    </ul> <p>Google에서 GCM 감가상각의 일부로, 이제 Android V2 커넥터에서 FCM 서버에만 연결을 허용합니다.</p><p>자세한 내용은 <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">세부 설명서</a>를 참조하세요. FCM으로의 수동 업그레이드는 여기에 자세히 설명되어 있습니다 <a href="https://helpx.adobe.com/kr/campaign/kb/migrate-to-fcm.html">문서</a>. </p> </td> 
+    </ul> <p>Google에서 GCM 감가상각의 일부로, 이제 Android V2 커넥터에서 FCM 서버에만 연결을 허용합니다.</p><p>자세한 내용은 <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">세부 설명서</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td> SQL 데이터 관리 활동<br /> </td> 
@@ -213,7 +213,7 @@ UTF-8 데이터 정렬을 사용할 때 이제 &quot;LIKE &#39;string%&#39;(또�
 * 집계된 연산자가 선택된 경우에도 차트가 항상 값의 합계를 계산하도록 하는 보고서의 문제를 수정했습니다. (NEO-10913)
 * &quot;request.scheme&quot; 함수는 더 이상 사용되지 않으므로 JSAPI 설명서에서 제거되었습니다. (NEO-10828)
 * 특정 시간대 구성을 가진 일부 사용자가 Adobe Campaign에 로그인하지 못하는 문제를 해결했습니다. (NEO-10712)
-* 확장 일반 SMPP 커넥터를 사용하여 모바일 채널 외부 계정을 설정할 때 발생하는 문제를 해결했습니다. 수신기에 대해 다른 매개 변수를 사용하여 지정한 경우 송신기가 자체 매개 변수 대신 이러한 매개 변수를 잘못 사용하게 됩니다.
+* 확장 일반 SMPP 커넥터를 사용하여 Mobile 채널 외부 계정을 설정할 때 발생하는 문제를 해결했습니다. 수신기에 대해 다른 매개 변수를 사용하여 지정한 경우 송신기가 자체 매개 변수 대신 이러한 매개 변수를 잘못 사용하게 됩니다.
 * 첫 번째 중재 후 게재가 지속적으로 다시 계산되었기 때문에 압력 규칙에 대한 빈도를 설정할 때 예약된 게재가 실패하던 문제를 해결했습니다. (NEO-10016)
 * nlsrvmod.dll 라이브러리의 응용 프로그램 풀 재활용 프로세스 중에 IIS 웹 서버가 충돌하는 문제를 해결했습니다. (NEO-10862)
 * 에서 수신자를 검색할 수 없는 문제를 해결했습니다 **프로필 및 Target** 화면. (NEO-8228)
@@ -466,7 +466,7 @@ decryptPassword
 **개선 사항**
 
 * **LINE 채널 - 아키텍처 향상**: Adobe Campaign의 다른 모든 채널과 마찬가지로, 이제 모든 배포 유형에서 LINE 채널이 지원됩니다. 호스팅, 하이브리드 및 온-프레미스.
-* **시퀀스 자동 생성**: 대량의 개체가 있는 Campaign 인스턴스의 수명을 늘리기 위해 ID 생성 메커니즘이 개선되었습니다. 자세한 내용은 다음을 참조하십시오 [기술 정보](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html).
+* **시퀀스 자동 생성**: 대량의 개체가 있는 Campaign 인스턴스의 수명을 늘리기 위해 ID 생성 메커니즘이 개선되었습니다.
 
 **기타 변경 사항**
 

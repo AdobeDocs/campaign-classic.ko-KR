@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e2eb7e04-faaa-4df0-913d-471c291eeb03
-source-git-commit: c228f827e91f25ee3a837f7fe6549ae4e5714ba3
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '6619'
+source-wordcount: '6601'
 ht-degree: 73%
 
 ---
@@ -278,7 +278,7 @@ _2020년 7월 22일_
 * iOS HTTP2 커넥터가 개선되었습니다(타사 업데이트 및 오류 관리). (NEO-25904, NEO-25903)
 * 더 이상 사용되지 않은 jar 파일에 대한 참조(iOS 알림)를 제거하도록 catalina.properties의 jarToSkip 목록이 업데이트되었습니다.
 * 업그레이드 후 게재 준비를 차단하는 문제를 해결했습니다.
-* [새 시퀀스 ID 메커니즘](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)으로 전환에 따라서 수신자 테이블을 업데이트하는 모든 웹 애플리케이션은 업그레이드 후 다시 게시됩니다.
+* 새 시퀀스 ID 메커니즘으로 전환에 따라서 수신자 테이블을 업데이트하는 모든 웹 애플리케이션은 업그레이드 후 다시 게시됩니다.
 * 게재 콘텐츠의 잠재적 XSS 취약성 문제를 해결했습니다. (NEO-17987, NEO-26073)
 
 ![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
@@ -607,7 +607,7 @@ _2020년 2월 17일_
 
 * Linux에서 nlserver 서비스 시작은 이제 /etc/init.d/nlserver6 스크립트 대신 시스템 단위를 사용합니다. 새 시작 구성표로 마이그레이션은 20.1 패키지를 설치할 때 자동으로 수행됩니다. /etc/init.d/nlserver6는 여전히 제공되지만 nlserver 서비스(시작, 다시 시작, 중지 등)와 상호 작용하기 위해 systemctl 명령을 직접 사용하는 것이 좋습니다.
 
-* 가장 많이 사용하는 사용자 지정 표는 **xtkNewId** 시퀀스에 전용 시퀀스를 지정합니다. [자세히 보기](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* 가장 많이 사용하는 사용자 지정 표는 **xtkNewId** 시퀀스에 전용 시퀀스를 지정합니다.
 
 * 불필요한 데이터베이스 연결의 영향을 받을 수 있는 쿼리 성능이 개선되었습니다.
 

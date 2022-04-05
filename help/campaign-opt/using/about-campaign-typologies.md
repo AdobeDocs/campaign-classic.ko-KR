@@ -4,9 +4,9 @@ title: 캠페인 유형 분류 정보
 description: 캠페인 유형 분류 정보
 feature: Typology Rules
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '468'
 ht-degree: 21%
 
 ---
@@ -78,8 +78,6 @@ Adobe Campaign을 사용하여 네 가지 유형의 유형화 규칙을 디자�
 추가 Campaign 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).
 
 **관련 항목**
-
-* [모든 채널의 게재에 자동 비즈니스 규칙 적용](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
 
 * [유형화 및 피로도 관리 시작](pressure-rules.md)
 

@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '4961'
+source-wordcount: '4892'
 ht-degree: 99%
 
 ---
@@ -296,9 +296,7 @@ Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추�
 
 캠페인 보고 고급 기능 섹션이 사용자 지정 보고서에서 URL 매개 변수 및 변수를 사용하는 방법에 대해 자세히 설명하도록 개선되었습니다. [자세한 내용](../../reporting/using/advanced-functionalities.md)
 
-보고서 속성 페이지가 구성 편의를 위해 재구성되고 보강되었습니다. [자세한 내용](../../reporting/using/properties-of-the-report.md)
-
-레거시 이진 프로토콜에서 HTTP/2 기반 APNs 공급자 API로 마이그레이션하는 방법에 대한 세부 사항을 포함한 새로운 기술 문서를 만들었습니다. [자세히 표시](https://helpx.adobe.com/kr/campaign/kb/migrate-to-apns-http2.html)
+보고서 속성 페이지가 구성 편의를 위해 재구성되고 보강되었습니다. [자세히 표시](../../reporting/using/properties-of-the-report.md)
 
 ### 2020년 9월 {#september-2020}
 
@@ -668,13 +666,11 @@ Campaign Classic에서 사용할 수 있는 다른 외부 계정 및 이를 구�
 공유 대상 통합에 대한 설명서가 업데이트되었습니다.
 [자세한 내용](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-다음 기술 정보가 업데이트되었습니다. [SMS 커넥터 프로토콜 및 설정](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) 및 [시퀀스 자동 생성](https://helpx.adobe.com/kr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
+다음 기술 정보가 업데이트되었습니다. [SMS 커넥터 프로토콜 및 설정](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 기술 워크플로우 섹션이 업데이트되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
 
 Campaign 도메인 이름 설정 절차를 개선 및 업데이트했습니다.
-
-앱에 대한 GCM(Google Cloud Messaging)에서 FCM(Firebase Cloud Messaging)으로의 마이그레이션 절차가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/migrate-to-fcm.html)
 
 Campaign 하드웨어 크기 조정 가이드가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/hardware-sizing-guide.html)
 

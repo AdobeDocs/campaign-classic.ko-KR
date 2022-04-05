@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '407'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 **[!UICONTROL IMS Server URL]**
 
-캠페인에서 **Adobe Marketing Cloud** 외부 계정을 확인하고 **[!UICONTROL IMS Server URL]** 다음 중 하나입니다. [adobeid-na1.services.adobe.com](https://adobeid-na1.services.adobe.com/) 또는 [ims-na1.adobelogin.com](http://ims-na1.adobelogin.com/). 스테이지 및 프로덕션 인스턴스가 모두 동일한 IMS 프로덕션 종료 지점을 가리키는지 확인합니다.
+캠페인에서 **Adobe Marketing Cloud** 외부 계정을 확인하고 **[!UICONTROL IMS Server URL]** 다음 중 하나입니다. `adobeid-na1.services.adobe.com` 또는 `ims-na1.adobelogin.com`. 스테이지 및 프로덕션 인스턴스가 모두 동일한 IMS 프로덕션 종료 지점을 가리키는지 확인합니다.
 
 **연결 마스크**
 

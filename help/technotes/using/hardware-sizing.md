@@ -3,7 +3,7 @@ product: campaign
 title: Campaign Classic v7에 대한 하드웨어 크기 조정 권장 사항
 description: Campaign Classic v7에 대한 하드웨어 크기 조정 권장 사항
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
-source-git-commit: ee296e0ce25570d1fe62238e505f978df17c1f24
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 1%
@@ -87,7 +87,7 @@ Adobe은 배포 환경에서 Adobe Campaign 서버에 중계할 수 있는 URL �
 | 활성 수신자 | 500만 |
 | 이메일 | 월 420만 개 |
 | DM | 월 100만 개 |
-| 모바일 SMS | 월 100,000개 |
+| Mobile SMS | 월 100,000개 |
 | 최고 일별 이메일 볼륨 | 500년 |
 
 이러한 볼륨의 경우 한 쌍의 Adobe Campaign 애플리케이션 서버 시스템이 Adobe Campaign 클라이언트 사용자 및 워크플로우 실행을 위한 모든 기능을 제공합니다. 5 백만 명의 활성 수신자와 이 이메일 볼륨의 경우 애플리케이션 서버 워크로드가 CPU 또는 I/O를 많이 사용하지 않습니다. 대부분의 스트레스는 데이터베이스에 있다.
@@ -136,7 +136,7 @@ DMZ의 역방향 프록시는 Adobe Campaign 웹 서버에 대한 로드 밸런�
 | 활성 수신자 | 2,000만 |
 | 이메일 | 4,200만/월 |
 | DM | 1,000만/월 |
-| 모바일 SMS | 1,000,000/월 |
+| Mobile SMS | 1,000,000/월 |
 | 최고 일별 이메일 볼륨 | 5,000,000 |
 
 ### 웹 및 응용 프로그램 서버
@@ -172,7 +172,7 @@ DMZ의 역방향 프록시는 Adobe Campaign 웹 서버에 대한 로드 밸런�
 | 활성 수신자 | 5,000만 |
 | 이메일 | 1,080/월 |
 | DM | 월 2500만 |
-| 모바일 SMS | 2,500만/월 |
+| Mobile SMS | 2,500만/월 |
 | 트랜잭션 메시지  | 2,500만/월 |
 | 최고 일별 이메일 볼륨 | 2,500만 |
 
@@ -252,7 +252,7 @@ DMZ의 역방향 프록시는 Adobe Campaign 웹 서버에 대한 로드 밸런�
 데이터베이스 보안을 위해 권장 RAID 구성을 유지 관리해야 하며, 스토리지 장치의 손실로 인해 데이터가 손실되지 않도록 합니다.
 
 * **I/O 성능**
-데이터베이스 스토리지에 대한 권장 IOPS 등급을 준수해야 합니다. Amazon EC2와 같은 클라우드 서비스는 필요한 성능을 제공하지 않을 수 있으므로 신중하게 평가해야 합니다. 예를 들어 Amazon EC2 프로비저닝된 SSD 볼륨은 현재 각각 20,000IOPS로 평가됩니다. 추가 정보 [Amazon 설명서](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html)따라서 4 볼륨 RAID 구성은 80,000 IOPS로 평가되는데, 이는 충분하지 않을 수 있습니다.
+데이터베이스 스토리지에 대한 권장 IOPS 등급을 준수해야 합니다. Amazon EC2와 같은 클라우드 서비스는 필요한 성능을 제공하지 않을 수 있으므로 신중하게 평가해야 합니다. 예를 들어 Amazon EC2 프로비저닝된 SSD 볼륨은 현재 각각 20,000IOPS로 평가됩니다. 추가 정보 [Amazon 설명서](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html)). 따라서 4 볼륨 RAID 구성은 80,000 IOPS로 평가되어 충분하지 않을 수 있습니다.
 
 Adobe은 시스템을 프로덕션에 투입하기 전에 Adobe Campaign의 가상화된 배포에 대한 성능 테스트를 권장합니다.
 

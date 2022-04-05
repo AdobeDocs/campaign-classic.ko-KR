@@ -4,9 +4,9 @@ title: 데이터 지향 API
 description: 데이터 지향 API
 feature: API
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,6 @@ XML 문서는 데이터베이스의 MEMO 유형 필드에 저장됩니다.
 스크립트에서 데이터베이스의 필드를 처리할 수 있으려면 Adobe Campaign 데이터 모델에 익숙해야 합니다.
 
 데이터 모델에 대한 프레젠테이션은 [Adobe Campaign 데이터 모델 설명](../../configuration/using/data-model-description.md).
-
-구조를 생성하려면 다음 문서를 참조하십시오. [데이터 모델 또는 데이터 사전을 생성하는 방법](https://helpx.adobe.com/campaign/kb/generate-data-model.html).
 
 ## 쿼리 및 작성기 {#query-and-writer}
 

@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,7 @@ Adobe Campaign 콘솔이 시작되면 로그인 페이지에 액세스합니다.
 
 1. URL을 통해 Adobe Campaign 애플리케이션 서버에 대한 연결을 지정합니다. 컴퓨터의 DNS 또는 별칭 또는 IP 주소를 사용합니다.
 
-   예를 들어 [`https://<machine>.<domain>.com`](https://myserver.adobe.com) URL을 입력합니다.
+   예를 들어 `https://<machine>.<domain>.com` URL을 입력합니다.
 
    >[!CAUTION]
    >
@@ -61,7 +61,7 @@ Adobe Campaign 콘솔이 시작되면 로그인 페이지에 액세스합니다.
 
    쉼표로 구분된 값 목록을 정의할 수 있습니다.
 
-   입력한 URL의 유효성 검사가 완료되고 나면 입력한 페이지의 모든 하위 페이지도 포함되도록 URL 끝에 ? 및 * 문자는 와일드카드로 사용하여 하나 이상의 문자(DNS, 포트 등)를 바꿀 수 있습니다. 예를 들어, **데모*** 값은 &quot;https://demo:8080&quot; 및 &quot;https://demo2&quot;에서와 마찬가지로 &quot;https://demo&quot;에서 작동합니다.
+   입력한 URL의 유효성 검사가 완료되고 나면 입력한 페이지의 모든 하위 페이지도 포함되도록 URL 끝에 ? 및 &#42; 문자는 와일드카드로 사용하여 하나 이상의 문자(DNS, 포트 등)를 바꿀 수 있습니다. 예를 들어, **데모&#42;** 값은 &quot;https://demo:8080&quot; 및 &quot;https://demo2&quot;에서와 마찬가지로 &quot;https://demo&quot;에서 작동합니다.
 
    사용된 이름은 DNS에서 정의해야 합니다. 또한 DNS 이름과 IP 주소 간의 서신 정보를 **c:/windows/system32/드라이버/etc/hosts** Windows 및 **/etc/hosts** Linux의 파일입니다. 따라서 선택한 인스턴스에 연결하려면 이 DNS 이름을 사용하도록 연결 설정을 수정해야 합니다.
 

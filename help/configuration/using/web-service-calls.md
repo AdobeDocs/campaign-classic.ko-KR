@@ -4,9 +4,9 @@ title: 웹 서비스 호출
 description: 웹 서비스 호출
 feature: API
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '922'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 
 WSDL 파일은 URL에서 생성됩니다.
 
-[https://localhost/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef](https://my_serveur/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef)
+`https://localhost/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef`
 
 WSDL 설명은 웹 서비스를 구성하는 &quot;bindings&quot;로 프로토콜에 연결된 &quot;port&quot;에 연결된 메시지를 구성하는 데 사용되는 형식을 정의함으로써 시작됩니다.
 
