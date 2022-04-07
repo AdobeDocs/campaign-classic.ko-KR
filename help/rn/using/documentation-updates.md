@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '4892'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 * 이제 새 Campaign v7.2.2 빌드를 사용할 수 있습니다. [자세히 보기](../../rn/using/latest-release.md)
 * ACS 커넥터와 관련된 문제 해결 정보가 추가되었습니다. [자세히 보기](../../integrations/using/troubleshooting-the-acs-connector.md)
-* 수명 종료에 도달한 이전 PostgreSQL 버전이 [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md#dbe-eol) 페이지.
+* 수명 종료에 도달한 이전 PostgreSQL 버전이 [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md#dbe-eol) 페이지에 추가되었습니다.
 
 ### 2022년 2월 {#february-2022}
 
