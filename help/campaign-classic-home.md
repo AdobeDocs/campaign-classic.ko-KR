@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 62f19239ac3b3ea909e26d6424338213b4d91479
+source-git-commit: 29fae1305a6d2b8debbc2aa705c047eaf3730457
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 50%
+source-wordcount: '235'
+ht-degree: 52%
 
 ---
 
@@ -83,6 +83,6 @@ ht-degree: 50%
 | [릴리스 정보](rn/using/latest-release.md) | [오류 메시지 목록](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko) |
 | [사용법 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko) | [Campaign 데이터 모델](configuration/using/about-data-model.md) |
 | [호환성 매트릭스](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html) |
-| [업그레이드 시작](rn/using/rn-overview.md) | [추적 가이드](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html) |
+| [업그레이드 시작](rn/using/rn-overview.md) | [추적 가이드](delivery/using/about-message-tracking.md) |
 | [사용되지 않는 기능](rn/using/deprecated-features.md) | [보안 및 개인 정보 확인 목록](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/get-started-security-privacy.html) |
 | [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko) | [모니터링 지침](production/using/monitoring-guidelines.md) |
