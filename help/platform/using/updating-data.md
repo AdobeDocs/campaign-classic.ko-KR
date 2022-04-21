@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 데이터 업데이트{#updating-data}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 수신자의 프로필에 연결된 데이터는 수동으로 또는 자동으로 업데이트할 수 있습니다.
 

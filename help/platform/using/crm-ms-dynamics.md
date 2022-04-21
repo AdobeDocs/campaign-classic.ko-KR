@@ -4,7 +4,7 @@ title: Campaign - Microsoft Dynamics CRM 커넥터
 description: Campaign과 Microsoft Dynamics 간 연결 방법 알아보기
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Campaign 및 Microsoft Dynamics 365 연결{#connect-to-msdyn}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 이 페이지에서는 Campaign Classic에 연결하는 방법을 알아봅니다. **Microsoft Dynamics CRM 365**.
 
@@ -207,7 +207,7 @@ Microsoft Dynamics 365의 경우 지원/지원되지 않는 속성 유형이 아
 | 속성 유형 | 지원됨 |
 | --------------------------------------------------------------------------------- | --------- |
 | 기본 유형 : 부울, datetime, decimal, float, double, 정수, bigint, 문자열 | 예 |
-| 돈(이중) | 예 |
+| 금액(이중) | 예 |
 | 메모, entityname , primarykey, uniqueidentifier (as string) | 예 |
 | 상태, picklist(가능한 값을 열거형에 저장함), 상태(문자열) | 예 |
 | 소유자(문자열로) | 예 |

@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: fd0f7b6e-84e1-442d-ae88-817fb6758d64
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 31%
@@ -15,7 +15,7 @@ ht-degree: 31%
 
 # 프로필 가져오기 및 내보내기{#exporting-and-importing-profiles}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 다음을 수행할 수 있습니다 [워크플로우 사용](#use-workflows) 수신자 프로필을 Adobe Campaign 데이터베이스로 가져오거나 내보내려면 또는 설정합니다 [일반 가져오기 또는 내보내기 작업](#create-jobs).
 

@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: dd7217bd508d718d84c417fcdf7610a5582ef204
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: a8044037e889f59d4288a0746001e84d319f6bcf
+workflow-type: tm+mt
+source-wordcount: '2571'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,11 @@ ht-degree: 100%
    + 개인 정보 보호 {#privacy}
       + [개인 정보 보호 및 동의](platform/using/privacy-and-recommendations.md)
       + [개인 정보 보호 관리](platform/using/privacy-management.md)
-      + [개인 정보 보호 요청](platform/using/privacy-requests.md)
+      + 개인 정보 보호 요청 {#privacy-requests}
+         + [개인 정보 보호 요청 정보](platform/using/privacy-requests.md)
+         + [개인 정보 요청 만들기 및 관리](platform/using/privacy-requests-ui.md)
+         + [자동 개인 정보 보호 요청 프로세스](platform/using/privacy-requests-api.md)
+         + [개인 정보 판매 옵트아웃](platform/using/privacy-requests-ccpa.md)
    + 프로필 관리 {#profile-management}
       + [프로필 정보](platform/using/about-profiles.md)
       + [프로필 편집](platform/using/editing-a-profile.md)
