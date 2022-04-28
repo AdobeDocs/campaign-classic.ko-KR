@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a8044037e889f59d4288a0746001e84d319f6bcf
+source-git-commit: 490ba0102f54e2d82e0bff1aa72b67ac118bf7a1
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2570'
 ht-degree: 99%
 
 ---
@@ -834,7 +834,7 @@ ht-degree: 99%
    + [하드웨어 크기 조정 권장 사항](technotes/using/hardware-sizing.md)
    + 업그레이드 및 호환성{#technote-migration}
       + [기술 노트](technotes/using/technote.md)
-      + [3자리 브라우저 버전의 영향](technotes/using/3-digit-browsers.md)
+      + [Apache 보안 업그레이드](technotes/using/acc-apache-upgrade.md)
       + [Campaign 구성 업데이트](technotes/using/acc-config-updates.md)
       + [IMS 업데이트](technotes/using/ims-updates.md)
       + [TLS 1.0 및 1.1 수명 종료](technotes/using/eol-tls-support.md)
