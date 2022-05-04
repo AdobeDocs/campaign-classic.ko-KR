@@ -1,24 +1,25 @@
 ---
 product: campaign
-title: 개인 정보 보호 요청 만들기
-description: 개인 정보 보호 요청을 만들고 관리하는 방법을 알아봅니다
+title: 개인 정보 보호 요청 생성
+description: 개인 정보 보호 요청을 생성하고 관리하는 방법 알아보기
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-source-git-commit: a8044037e889f59d4288a0746001e84d319f6bcf
-workflow-type: tm+mt
+exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
+source-git-commit: 42b420d7dae7d38e9f4df442146d3b484c25e831
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# 개인 정보 요청 만들기 및 관리 {#privacy-request-ui}
+# 개인 정보 보호 요청 생성 및 관리 {#privacy-request-ui}
 
 ![](../../assets/v7-only.svg)
 
-이 섹션에서는 액세스 및 삭제 요청을 만드는 방법과 Adobe Campaign이 요청을 처리하는 방법에 대해 설명합니다.
+이 섹션에서는 액세스 및 삭제 요청을 생성하는 방법뿐만 아니라 Adobe Campaign이 요청을 처리하는 방법도 설명합니다.
 
-## 개인 정보 보호 요청 만들기 {#create-privacy-request-ui}
+## 개인 정보 보호 요청 생성 {#create-privacy-request-ui}
 
 **Adobe Campaign 인터페이스**&#x200B;를 통해 개인 정보 보호 요청을 만들고 진행 상황을 추적할 수 있습니다. 새로운 개인 정보 보호 요청을 만들려면 다음 지침을 따르십시오.
 
