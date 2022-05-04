@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 �
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 490ba0102f54e2d82e0bff1aa72b67ac118bf7a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2570'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 99%
       + [개인 정보 보호 관리](platform/using/privacy-management.md)
       + 개인 정보 보호 요청 {#privacy-requests}
          + [개인 정보 보호 요청 정보](platform/using/privacy-requests.md)
-         + [개인 정보 요청 만들기 및 관리](platform/using/privacy-requests-ui.md)
+         + [개인 정보 보호 요청 생성 및 관리](platform/using/privacy-requests-ui.md)
          + [자동 개인 정보 보호 요청 프로세스](platform/using/privacy-requests-api.md)
          + [개인 정보 판매 옵트아웃](platform/using/privacy-requests-ccpa.md)
    + 프로필 관리 {#profile-management}
