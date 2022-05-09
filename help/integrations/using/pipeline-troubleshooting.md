@@ -5,10 +5,10 @@ description: '파이프라인 문제 해결 '
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 0%
+source-wordcount: '705'
+ht-degree: 1%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 **피파이프라인 실패: &quot;주체가 올바른 조직이나 클라이언트여야 함&quot;**
 
-조직 식별자 구성이 잘못되었습니다.
+조직 ID 구성이 잘못되었습니다.
 
-1. IMSOrgId가 serverConf.xml에 설정되어 있는지 확인합니다.
-1. 기본값을 무시할 수 있는 인스턴스 구성 파일에서 빈 IMSOrgId를 찾습니다. 그런 경우 제거합니다.
-1. IMSOrgId가 Experience Cloud에서 고객의 ID와 일치하는지 확인합니다.
+1. serverConf.xml에 조직 ID(ImsOrgId)가 설정되어 있는지 확인합니다.
+1. 인스턴스 구성 파일의 빈 조직 ID가 기본 조직 ID를 무시할 수 있는지 확인합니다. 그런 경우 제거합니다.
+1. 조직 ID가 올바른지 확인합니다. 조직 ID를 찾으려면 다음을 참조하십시오 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}
 
 **파이프라인이 &quot;잘못된 키&quot;로 실패합니다.**
 

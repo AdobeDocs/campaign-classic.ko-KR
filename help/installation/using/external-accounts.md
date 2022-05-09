@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 7%
+source-wordcount: '1627'
+ht-degree: 8%
 
 ---
 
@@ -243,7 +243,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 다음을 구�
 
 * **[!UICONTROL IMS organization ID]**
 
-   IMS 조직의 ID입니다. 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) (**IMS 조직 ID는 어디에서 찾을 수 있습니까?**).
+   조직의 ID입니다. 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}.
 
 * **[!UICONTROL Association mask]**
 

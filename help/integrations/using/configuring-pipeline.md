@@ -5,10 +5,10 @@ description: 파이프라인 구성 방법 알아보기
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: b8f74c290106d57630c5d486c04b8424132e3297
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 1%
+source-wordcount: '907'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 처리할 트리거 목록은 JSON 형식의 옵션으로 구성됩니다.
 트리거는 이메일을 보내는 캠페인 워크플로우에서 타겟팅하는 데 사용됩니다. 이 캠페인은 트리거 이벤트가 모두 있는 고객이 이메일을 수신하도록 설정되어 있습니다.
 
-## 필수 구성 요소 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 이 구성을 시작하기 전에 다음을 사용 중인지 확인하십시오.
 
@@ -34,8 +34,8 @@ ht-degree: 1%
 다음을 수행해야 합니다.
 
 * 프로젝트 인증 Adobe I/O
-* Adobe Analytics을 사용하는 Experience Cloud 고객의 식별자인 유효한 IMSOrgID가 추가되었습니다.
-* IMS 조직에 대한 개발자 액세스 권한
+* 유효한 조직 ID - 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}
+* 조직에 대한 개발자 액세스 권한
 * Adobe Analytics에서 수행된 트리거 구성
 
 ## 인증 및 구성 파일 {#authentication-configuration}
@@ -128,10 +128,10 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 | 옵션 | 설명 |
 |:-:|:-:|
 | appName(기존) | 공개 키가 업로드된 Legacy Oath 애플리케이션에 등록된 OAuth 애플리케이션의 AppID입니다. 자세한 정보는 이 [페이지](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)를 참조하십시오. |
-| authGatewayEndpoint(이전) | 게이트웨이 토큰을 가져오는 URL. 기본값: ```https://api.omniture.com``` |
+| authGatewayEndpoint(이전) | 게이트웨이 토큰을 가져오는 URL. 기본: ```https://api.omniture.com``` |
 | authPrivateKey(이전) | 개인 키, 기존 Oath 응용 프로그램에 업로드된 공개 부분, XtkKey 옵션으로 암호화된 AES: ```cryptString("PRIVATE_KEY")``` |
 | disableAuth(기존) | 인증을 비활성화하십시오. 게이트웨이 토큰 없이 연결하는 것은 일부 개발 파이프라인 끝점에서만 허용됩니다. |
-| discoverPipelineEndpoint | 이 테넌트에 사용할 파이프라인 서비스 끝점을 찾는 URL입니다. 기본값: ```https://producer-pipeline-pnw.adobe.net``` |
+| discoverPipelineEndpoint | 이 테넌트에 사용할 파이프라인 서비스 끝점을 찾는 URL입니다. 기본: ```https://producer-pipeline-pnw.adobe.net``` |
 | dumpStatePeriodSec | 에서 내부 상태 프로세스의 두 덤프 사이의 기간 ```var/INSTANCE/pipelined.json.``` <br> 내부 상태는 요청 시 액세스할 수도 있습니다. ```http://INSTANCE:7781/pipelined/status``` |
 | forcedPipelineEndpoint | PipelineServicesEndpoint의 검색을 비활성화하여 강제 적용 |
 | monitorServerPort | 파이프라인 프로세스는 여기서 내부 상태 프로세스를 제공하기 위해 이 포트를 수신합니다. ```http://INSTANCE:PORT/pipelined/status```. <br>기본값은 7781입니다 |

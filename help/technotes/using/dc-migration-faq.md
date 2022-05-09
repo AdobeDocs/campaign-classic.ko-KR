@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 60fc0fd2a10f05abb77843ef0cb69e44f35a9648
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2215'
 ht-degree: 0%
 
 ---
@@ -143,9 +143,9 @@ Public Cloud로의 마이그레이션은 Adobe Campaign 애플리케이션 서�
 
    응용 프로그램 서버 IP가 변경될 허용 목록에 추가하다 때 외부 솔루션에 필요한 IP 주소가 페이지에 있습니다. 이 정보가 제공됩니다. 통합의 다른 부분은 IMS 기반이며 있는 그대로 작동해야 합니다.
 
-* **IMS 통합을 위해 조직 ID에 첨부되지 않은 고객은 어떻게 됩니까?**
+* **IMS 통합을 위해 조직 ID에 연결되어 있지 않은 고객은 어떻게 됩니까?**
 
-   IMS가 없는 고객에게 다음 중 하나가 제공됩니다. ims 조직 ID가 해당 인스턴스에 연결됩니다.
+   IMS가 없는 고객에게 다음 중 하나가 제공됩니다. 조직 ID가 해당 인스턴스에 연결됩니다.
 
 * **다중 브랜딩 구성이 마이그레이션의 영향을 받습니까?**
 

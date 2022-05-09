@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '7961'
+source-wordcount: '7957'
 ht-degree: 5%
 
 ---
@@ -3282,7 +3282,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> Identity Management 시스템(IMS) 조직 식별자: 방문자 ID 서비스 및 IMS SSO에 특별히 사용되는 Adobe Experience Cloud 내의 고유 조직 식별자입니다. <br /> </td> 
+   <td> 조직 ID: 방문자 ID 서비스 및 IMS SSO에 특별히 사용되는 Adobe Experience Cloud 내의 고유 조직 식별자입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 

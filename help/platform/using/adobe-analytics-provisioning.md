@@ -6,9 +6,9 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: cb434747d2bee5d24dcaa1141100c269eea313ad
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '646'
 ht-degree: 2%
 
 ---
@@ -95,7 +95,7 @@ Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 IMS(Adobe Iden
 
 ## Adobe I/O 프로젝트 만들기 {#create-adobe-io}
 
-1. Adobe I/O에 액세스하고 **시스템 관리자** IMS 조직의
+1. Adobe I/O에 액세스하고 **시스템 관리자** Analytics JavaScript를 사용하여 eVar를 만들 수 있습니다.
 
    관리자 역할에 대한 자세한 내용은 다음을 참조하십시오 [페이지](https://helpx.adobe.com/enterprise/using/admin-roles.html).
 
