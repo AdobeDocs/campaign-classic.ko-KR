@@ -6,7 +6,7 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+source-git-commit: bb806da3d865e0d05e7823b2609227ea8effd875
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 2%
@@ -157,4 +157,5 @@ Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 IMS(Adobe Iden
    ```
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
+
 이제 Analytics 커넥터 사용을 시작하고 고객 행동을 추적할 수 있습니다.
