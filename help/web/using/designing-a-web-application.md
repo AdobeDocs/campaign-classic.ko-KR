@@ -4,9 +4,9 @@ title: 웹 애플리케이션 디자인
 description: 웹 애플리케이션 디자인
 feature: Web Apps
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 0ad183ae68faf41ac0b14bb37639a4b1da9d8776
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '277'
 ht-degree: 4%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->를 사용하십시오 **[!UICONTROL Preview]** 하위 탭을 사용하여 웹 응용 프로그램 디자인 중 오류를 확인합니다.
->
->웹 응용 프로그램이 게시될 때까지 변경 사항은 최종 사용자에게 표시되지 않습니다.
+>를 사용하십시오 **[!UICONTROL Preview]** 하위 탭을 사용하여 웹 응용 프로그램 디자인 중 오류를 확인합니다. 웹 애플리케이션을 미리 보는 데 사용되는 프로필 테스트는 **[!UICONTROL Access rights]** 대상 **[!UICONTROL Web application agent]** 연산자를 사용할 수 있습니다. </br>웹 응용 프로그램이 게시될 때까지 변경 사항은 최종 사용자에게 표시되지 않습니다.
 
 ## 웹 응용 프로그램에 차트 삽입 {#inserting-charts-in-a-web-application}
 
