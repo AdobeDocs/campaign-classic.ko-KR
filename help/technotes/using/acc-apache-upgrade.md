@@ -5,9 +5,9 @@ description: Adobe Campaign - Apache 버전 보안 업데이트
 hide: true
 hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
-source-git-commit: ef34decdb33cdfd095c437abd5d1eb029f8a0648
+source-git-commit: 7ee1cc501342aa59d1752259bf7228ea47a8cccb
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,6 @@ Adobe Campaign 팀은 다음 방법으로 Apache 버전 보안 업그레이드 �
 
    현재 Apache 버전은 취약하며 잠재적인 보안 위협을 가지고 있습니다. 보안 위험을 해결하기 위해 Campaign 인스턴스를 적용 가능한 최신 Apache 버전으로 업그레이드해야 합니다.
 
-
 * **보안 업그레이드 대상 고객은 무엇입니까?**
 
    이전 Apache 버전에 구현된 Campaign 환경을 사용하는 모든 고객은 적용 가능한 최신 Apache 버전으로 업그레이드됩니다.
@@ -49,6 +48,10 @@ Adobe Campaign 팀은 다음 방법으로 Apache 버전 보안 업그레이드 �
 * **고객이 이 보안 업그레이드를 위해 필요한 작업이 있습니까?**
 
    보안 업그레이드가 자동으로 실행되므로 작업이 필요하지 않습니다.
+
+* **유지 관리 기간 동안 실행 중인 캠페인/워크플로우는 어떤 영향을 줍니까?**
+
+   유지 관리 기간 동안 워크플로우 및 메일 서비스가 모두 중지되며 예약된 활동이 실행되지 않습니다. 서버가 다시 시작될 때까지 가동 중지 시간 동안 진행 중인 모든 작업 또는 실행 프로세스가 중지됩니다. 활동이 완료되고 서버가 다시 시작되면 모든 서비스가 다시 시작됩니다.
 
 * **고객이 실행해야 하는 유효성 검사**
 
