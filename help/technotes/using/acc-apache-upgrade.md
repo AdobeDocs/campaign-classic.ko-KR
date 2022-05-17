@@ -5,7 +5,7 @@ description: Adobe Campaign - Apache 버전 보안 업데이트
 hide: true
 hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
-source-git-commit: 7ee1cc501342aa59d1752259bf7228ea47a8cccb
+source-git-commit: a3eae4e253f66f5a651ffe0458f60b1f8bdf2258
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Adobe Campaign - Apache 버전 보안 업데이트 {#apache-update}
 
 >[!CAUTION]
->이 문서는 다음에 적용됩니다. Campaign Classic v7 Managed Services 고객, Campaign v8 고객 및 Campaign Standard 고객
+>This article applies to: **Campaign Classic v7 Managed Services** customers, **Campaign v8** customers and **Campaign Standard** customers.
 
 Adobe Campaign은 타사 도구와 연동되며, 지원되는 버전만 구현하고 최신 수정 및 개선 사항을 활용할 수 있도록 정기적으로 호환성이 업데이트됩니다.
 
@@ -23,9 +23,9 @@ Adobe Campaign에는 HTTP를 통해 애플리케이션 서버에서 시작 지�
 
 Adobe Campaign 팀은 다음 방법으로 Apache 버전 보안 업그레이드 활동을 수행합니다 **2022년 6월 15일** 이 Apache 취약성을 완화하고 인스턴스 환경을 보다 안전하게 만들기 위해. 이 업그레이드는 취약한 버전의 Apache HTTP Server에서 실행 중인 모든 Campaign Classic v7 Managed Services 고객, Campaign v8 및 Campaign Standard 고객에게 적용됩니다. 영향을 받은 경우 Adobe이 이미 연락하여 이 업그레이드에 대해 알려 주었습니다.
 
-이 업그레이드는 중단 없이 Campaign 서비스를 계속 사용할 수 있도록 일반 영업시간 외부에서 자동으로 실행됩니다.
+This upgrade is expected to run automatically outside of your normal business hours for you to continue using the Campaign service without any disruption.
 
-프로덕션 인스턴스를 업그레이드하기 전에 먼저 팀에서 비프로덕션 인스턴스를 업그레이드합니다. 이 프로세스는 Adobe이 소유한 자동 업그레이드 프로세스이므로 고객측에서 수행할 필요가 없습니다. 그러나 문제가 발생하는 경우 [고객 지원 Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+비프로덕션 인스턴스가 먼저 Adobe으로 업그레이드되고 프로덕션 인스턴스가 업그레이드됩니다. Since this is an automatic upgrade process owned by Adobe, there is no action required from your side. 그러나 문제가 발생하는 경우 [고객 지원 Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
 
 >[!NOTE]
@@ -35,7 +35,7 @@ Adobe Campaign 팀은 다음 방법으로 Apache 버전 보안 업그레이드 �
 
 * **이 업그레이드가 필수 업그레이드인 이유는 무엇입니까?**
 
-   현재 Apache 버전은 취약하며 잠재적인 보안 위협을 가지고 있습니다. 보안 위험을 해결하기 위해 Campaign 인스턴스를 적용 가능한 최신 Apache 버전으로 업그레이드해야 합니다.
+   The current Apache version is vulnerable and has a potential security threat. It is important for your Campaign instance(s) to be upgraded to the latest applicable Apache version to address the security risk.
 
 * **보안 업그레이드 대상 고객은 무엇입니까?**
 
@@ -43,11 +43,11 @@ Adobe Campaign 팀은 다음 방법으로 Apache 버전 보안 업그레이드 �
 
 * **예상되는 다운타임은 무엇입니까?**
 
-   예상 다운타임이 10분 미만입니다.
+   The expected downtime is under 10 minutes.
 
 * **고객이 이 보안 업그레이드를 위해 필요한 작업이 있습니까?**
 
-   보안 업그레이드가 자동으로 실행되므로 작업이 필요하지 않습니다.
+   No actions is required since the security upgrade will run automatically.
 
 * **유지 관리 기간 동안 실행 중인 캠페인/워크플로우는 어떤 영향을 줍니까?**
 
@@ -55,12 +55,12 @@ Adobe Campaign 팀은 다음 방법으로 Apache 버전 보안 업그레이드 �
 
 * **고객이 실행해야 하는 유효성 검사**
 
-   이 보안 업그레이드에 특정 테스트가 필요하지 않습니다. 문제가 확인되면 다음 주소로 문의하십시오 [고객 지원 Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+   No specific testing is needed for this security upgrade. 문제가 확인되면 다음 주소로 문의하십시오 [고객 지원 Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
 
-* **예약된 보안 업그레이드 슬롯의 날짜/시간 변경을 요청할 수 있습니까?**
+* **Can I request a change in Date/Time to the scheduled security upgrade slot?**
 
    보안 수정 사항이므로 기존 일정에 맞게 조정하는 것이 좋습니다.
 
 
-다른 문의 사항은 [고객 지원 Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+For any other question, you can reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support).
