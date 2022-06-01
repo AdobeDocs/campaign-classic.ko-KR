@@ -4,7 +4,7 @@ title: SMS 커넥터 프로토콜 및 설정
 description: SMS 커넥터 및 구성 방법에 대해 자세히 알아보십시오
 feature: SMS
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 2c145829517a6961d502cc3e7b904547f8c71602
 workflow-type: tm+mt
 source-wordcount: '8460'
 ht-degree: 0%
@@ -410,7 +410,7 @@ Adobe Campaign Classic 확장 SMPP 커넥터는 MTA 자식에 대한 연결 수�
 
 Adobe Campaign Classic의 경우 서로 다른 수의 수신기 및 송신기 연결이 있을 수 있습니다.
 
-* **송신기 연결 = MTA 하위 연결 수 * MTA 하위 프로세스 수 * MTA 수(자동 응답이 설정된 경우) + MTA 하위 연결 수**
+* **송신기 연결 = MTA 하위 연결 수 * MTA 하위 프로세스 수 * MTA 수 </br> (자동 응답이 설정된 경우) + MTA 하위 연결 수**
 
 위에서 설명한 것처럼, 자동 응답이 활성화되어 있으면 Adobe Campaign Classic SMS 프로세스에서 더 많은 전송 연결을 엽니다. 이러한 추가 연결은 자동 답장을 보내는 데 사용됩니다.
 
