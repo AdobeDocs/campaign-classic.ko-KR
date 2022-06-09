@@ -4,10 +4,10 @@ title: 교차
 description: 교차
 feature: Workflows, Targeting Activity
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: eb7a8cd2c9ff476a830dcc6e8e7c29ccd72c24f0
+source-git-commit: 389e5a87ea195024707c3c58e63899ad7949f025
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 0%
+source-wordcount: '436'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,8 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_workflow_intersection"
 >title="교차 활동"
->abstract="교차 유형 활동은 수신한 대상의 교차에 대상을 만듭니다. 교차 기능을 사용하면 모든 인바운드 활동 결과에 공통인 모집단만 추출할 수 있습니다. 수신한 모든 결과가 있는 대상이 만들어집니다. 따라서 교차를 실행하기 전에 모든 이전 활동을 완료해야 합니다."
+>abstract="교차 유형 활동은 수신한 대상의 교차에 대상을 만듭니다. 교차 기능을 사용하면 모든 인바운드 활동 결과에 공통인 모집단만 추출할 수 있습니다."
+>additional-url="https://video.tv.adobe.com/v/329373" text="데모 비디오 시청"
 
 
 ![](../../assets/common.svg)
