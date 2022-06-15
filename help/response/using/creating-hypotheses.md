@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 가설 만들기{#creating-hypotheses}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 가설을 캠페인 오퍼 또는 게재에 만들거나 연결하는 다양한 가능성이 있습니다.
 

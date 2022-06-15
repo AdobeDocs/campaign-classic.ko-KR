@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 가설 추적{#hypothesis-tracking}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 가설 계산의 결과는 Adobe Campaign 플랫폼의 다양한 수준에서 사용할 수 있습니다. 가설 및 대상 모집단 반응에 의해 계산된 지표는 실제 가설을 통해 볼 수 있고, 캠페인 및 게재를 통해 사용할 수 있는 가설 보고서에서도 볼 수 있습니다.
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 * **컨트롤 그룹의 총 여백**: 컨트롤 그룹에 대한 총 여백.
 * **연락처당 평균 여백**: 총 마진/연락 횟수.
 * **컨트롤 그룹의 평균 여백**: 전체 여백/컨트롤 그룹
-* **추가 매출**: (접촉된 평균 수익 - 통제 그룹의 평균 매출)*연락 횟수
+* **추가 매출**: (접촉된 평균 수익 - 통제 그룹의 평균 매출)&#42;연락 횟수
 * **추가 여백**: (접촉된 평균 마진 - 통제 그룹의 평균 마진) / 연락 횟수
 * **연락처당 평균 비용**: 계산된 납품 원가/담당자 수
 * **ROI**: 게재의 계산된 비용 / 연락처당 총 마진 수

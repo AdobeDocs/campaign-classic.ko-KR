@@ -4,18 +4,18 @@ title: 분산 마케팅 시작
 description: 분산 마케팅 시작
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 분산 마케팅 시작{#about-distributed-marketing}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
-Adobe Campaign에서 제공하는 기능 **분산 마케팅** 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 캠페인 구현 애플리케이션 및 지역 개체(영업 지점, 지역 기관 등)를 참조하십시오. 이러한 협력은 **[!UICONTROL list of campaign packages]**&#x200B;를 설정하는 경우, 중앙에서 만든 캠페인 템플릿 및 인스턴스가 로컬 엔티티에 제공됩니다.
+Adobe Campaign에서 제공하는 기능 **분산 마케팅** 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 캠페인 구현 애플리케이션 공동 캠페인을 실시할 수 있습니다. 이러한 협력은 **[!UICONTROL list of campaign packages]**&#x200B;를 설정하는 경우, 중앙에서 만든 캠페인 템플릿 및 인스턴스가 로컬 엔티티에 제공됩니다.
 
 중앙 엔티티는 로컬 엔티티가 사용할 수 있는 캠페인을 제공합니다. 로컬 또는 공동 작업 캠페인을 나타내는 패키지로 캠페인을 구체화합니다. 캠페인을 사용하려면 로컬 엔티티가 해당 캠페인을 주문해야 하며 주문을 승인해야 합니다.
 

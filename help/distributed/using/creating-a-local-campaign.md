@@ -4,7 +4,7 @@ title: 로컬 캠페인 만들기
 description: 로컬 캠페인 만들기
 feature: Distributed Marketing
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 로컬 캠페인 만들기{#creating-a-local-campaign}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 로컬 캠페인은 다음 중 목록에서 참조하는 템플릿에서 만든 인스턴스입니다 **[!UICONTROL campaign packages]** 사용 **특정 실행 일정**. 목표는 중앙 엔티티가 설정하고 구성한 캠페인 템플릿을 사용하여 로컬 통신 요구를 충족하는 것입니다. 로컬 작업을 구현하는 기본 단계는 다음과 같습니다.
 
