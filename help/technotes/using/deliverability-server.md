@@ -4,7 +4,7 @@ title: 새 게재 기능 서버로 마이그레이션
 description: Campaign 게재 기능 서버를 구현하는 방법 알아보기
 hide: true
 hidefromtoc: true
-source-git-commit: cd2fa2450f6e8389e9c47c412da8943a5c8bb7f3
+source-git-commit: 65ab862ec568647dd06c1f7b7b83e5b921353cc7
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 4%
