@@ -4,7 +4,7 @@ title: 새 게재 기능 서버로 마이그레이션
 description: Campaign 게재 기능 서버를 구현하는 방법 알아보기
 hide: true
 hidefromtoc: true
-source-git-commit: a2590a6d8df1e73d77bbdef7b8cf3b2d6efe207f
+source-git-commit: cd2fa2450f6e8389e9c47c412da8943a5c8bb7f3
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 ## 영향을 받습니까?{#acc-deliverability-impacts}
 
-기존 Adobe Campaign 게재 가능성 서버를 사용하는 경우 환경이 Campaign 21.1.1보다 낮은 빌드에 구현된 경우 영향을 받습니다. Campaign 21.1(또는 이상)으로 업그레이드해야 합니다.
+이전 Adobe Campaign 게재 기능 서버를 사용하는 경우 환경이 Campaign 21.1.1보다 낮은 빌드에 구현된 경우 영향을 받습니다. Campaign 21.1(또는 이상)으로 업그레이드해야 합니다.
 
 버전을 확인하는 방법을 알아봅니다 [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
