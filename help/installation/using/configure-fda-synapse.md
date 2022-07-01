@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-source-git-commit: 9265d389da53e51889c2b7a8cd330c1866a030d9
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '772'
 ht-degree: 2%
 
 ---
@@ -236,3 +236,9 @@ Debian에서 Azure synapse을 구성하려면 다음을 수행하십시오.
 
 
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+
+커넥터는 다음 옵션을 지원합니다.
+
+| 옵션 | 설명 |
+|---|---|
+| 인증 | 커넥터에서 지원하는 인증 유형입니다. 현재 지원되는 값: ActiveDirectoryMSI입니다. </br>자세한 내용은 [SQL 문서](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (°8 연결 문자열 예). |

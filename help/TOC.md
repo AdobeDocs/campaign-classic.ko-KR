@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a2590a6d8df1e73d77bbdef7b8cf3b2d6efe207f
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '2576'
+source-wordcount: '2585'
 ht-degree: 99%
 
 ---
@@ -677,6 +677,8 @@ ht-degree: 99%
             + [Sybase IQ 구성](installation/using/configure-fda-sybase.md)
             + [Teradata 구성](installation/using/configure-fda-teradata.md)
             + [SAP HANA 구성](installation/using/configure-fda-sap-hana.md)
+            + [Microsoft SQL Server 구성](installation/using/configure-fda-sql.md)
+            + [PostgreSQL 구성](installation/using/configure-fda-postgresql.md)
          + [원격 액세스 권한](installation/using/remote-database-access-rights.md)
          + [데이터베이스에 연결](installation/using/connecting-to-database.md)
          + [데이터 스키마 만들기](installation/using/creating-data-schema.md)
@@ -688,6 +690,7 @@ ht-degree: 99%
       + [새 인스턴스 만들기](installation/using/creating-new-instances.md)
       + [Campaign 옵션 목록](installation/using/configuring-campaign-options.md)
       + [Campaign 제거](installation/using/uninstalling-campaign.md)
+      + [새 글꼴 설치](installation/using/install-fonts.md)
 + 모니터링 안내서 {#monitoring-campaign-classic}
    + 소개 {#introduction}
       + [서문](production/using/foreword.md)

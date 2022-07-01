@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
-source-git-commit: 0cfe8439007b56014eba497c511904c4f11b39ce
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '399'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 4%
 
 1. 구성 [!DNL Vertica] on [CentOS](#vertica-centos), [Windows](#vertica-windows) 또는 [데비안](#vertica-debian)
 1. 구성 [!DNL Vertica] [외부 계정](#vertica-external) in Campaign
-
 
 >[!NOTE]
 >
@@ -166,4 +165,12 @@ ht-degree: 4%
    * **[!UICONTROL Password]**: 사용자 계정 암호
 
    * **[!UICONTROL Database]**: 데이터베이스 이름
+
    ![](assets/vertica.png)
+
+커넥터는 다음 옵션을 지원합니다.
+
+| 옵션 | 설명 |
+|---|---|
+| 표준 시간대 이름 | 기본적으로 비어 있음: Campaign Classic 앱 서버의 시스템 시간대가 사용됨을 의미합니다. 옵션을 사용하여 TIMEZONE 세션 매개 변수를 강제 적용할 수 있습니다. |
+

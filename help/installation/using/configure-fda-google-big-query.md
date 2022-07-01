@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
-source-git-commit: 5d2ec0836fe5f106e0c56e5abbe7bab9332d7e18
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '779'
 ht-degree: 2%
 
 ---
@@ -193,11 +193,11 @@ Adobe Campaign Classic 사용 **페더레이션 데이터 액세스** (FDA) 옵�
 
 커넥터는 다음 옵션을 지원합니다.
 
-| 옵션 | 값 | 설명 |
-|:-:|:-:|:-:|
-| ProxyType | string | ODBC 및 SDK 커넥터를 통해 BigQuery에 연결하는 데 사용되는 프록시 유형입니다. </br>HTTP(기본값), http_no_tunnel, socks4 및 socks5가 현재 지원됩니다. |
-| ProxyHost | string | 프록시에 도달할 수 있는 호스트 이름 또는 IP 주소입니다. |
-| ProxyPort | number | 프록시가 실행 중인 포트 번호(예: 8080) |
-| ProxyUid | string | 인증된 프록시에 사용된 사용자 이름 |
-| ProxyPwd | string | ProxyUid 암호 |
-| bqpath | string | 이 기능은 벌크 로드 도구 전용(Cloud SDK)에 적용됩니다. </br> PATH 변수를 사용하지 않거나 google-cloud-sdk 디렉토리를 다른 위치로 이동해야 하는 경우 이 옵션을 사용하여 서버의 cloud sdk bin 디렉토리에 대한 정확한 경로를 지정할 수 있습니다. |
+| 옵션 | 설명 |
+|:-:|:-:|
+| ProxyType | ODBC 및 SDK 커넥터를 통해 BigQuery에 연결하는 데 사용되는 프록시 유형입니다. </br>HTTP(기본값), http_no_tunnel, socks4 및 socks5가 현재 지원됩니다. |
+| ProxyHost | 프록시에 도달할 수 있는 호스트 이름 또는 IP 주소입니다. |
+| ProxyPort | 프록시가 실행 중인 포트 번호(예: 8080) |
+| ProxyUid | 인증된 프록시에 사용된 사용자 이름 |
+| ProxyPwd | ProxyUid 암호 |
+| bqpath | 이 기능은 벌크 로드 도구 전용(Cloud SDK)에 적용됩니다. </br> PATH 변수를 사용하지 않거나 google-cloud-sdk 디렉토리를 다른 위치로 이동해야 하는 경우 이 옵션을 사용하여 서버의 cloud sdk bin 디렉토리에 대한 정확한 경로를 지정할 수 있습니다. |

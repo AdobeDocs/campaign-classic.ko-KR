@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 5ce8e765866d84781b1000511e9aea4636ebd91d
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+workflow-type: tm+mt
+source-wordcount: '749'
+ht-degree: 98%
 
 ---
 
@@ -48,6 +48,7 @@ ht-degree: 100%
 <tr>
 <td>Debian</td>
 <td>
+<p>11(64비트)</p>
 <p>10(64비트)</p>
 <p>9(64비트)</p>
 </td>
@@ -149,7 +150,7 @@ ht-degree: 100%
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016년</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers">자세히 알아보기</a></p>
@@ -256,19 +257,23 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
+<p>2019년</p>
+<p>2017년</p>
+<p>2016년</p>
+<p>2014년</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 <td>최소 v7.0</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
+<p>8</p>
 <p>5.7</p>
 </td>
-<td>최소 v7.0</td>
+<td>
+<p>최소 v7.3 </p>
+<p>최소 v7.0</p>
+</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -329,15 +334,16 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <td>Microsoft Windows Server</td>
 <td>
 <p>2019(7.2.1 릴리스 시작)</p>
-<p>2016</p>
-<p>2012</p>
+<p>2016년</p>
+<p>2012년</p>
 </td>
 </tr>
 <tr>
 <td>Microsoft Windows</td>
 <td>
-<p>8</p>
+<p>11(Campaign v7.3 시작)</p>
 <p>10(일본어 인스턴스에 권장)</p>
+<p>8</p>
 </td>
 </tr>
 </tbody>
@@ -368,15 +374,15 @@ Campaign을 사용하여 아래 목록의 운영 체제에서 [푸시 알림을 
 <tr>
 <td>Android</td>
 <td>
-<p>7.x, 8.x, 9.0</p>
-<p>모바일 SDK 빌드 1.0.27과 함께 사용할 수 있습니다.</p>
+<p>12(Campaign v7.3 시작), 9.0, 8.x, 7.x</p>
+<p>모바일 SDK 빌드 1.1.1과 함께 사용할 수 있습니다</p>
 </td>
 </tr>
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9 - 14</p>
-<p>모바일 SDK 빌드 1.0.26과 함께 사용할 수 있으며 32비트 및 64비트 버전 호환됩니다.</p>
+<p>iOS 9 - 15</p>
+<p>모바일 SDK 빌드 1.0.26과 함께 사용할 수 있으며 32비트 및 64비트 버전 호환됩니다. iOS 15는 Campaign v7.3부터 지원됩니다</p>
 </td>
 </tr>
 </tbody>

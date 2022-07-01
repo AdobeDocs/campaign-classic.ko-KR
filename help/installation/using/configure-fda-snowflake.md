@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 6cecc81135afd067712e51ec9c1ad3239170702e
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 8%
+source-wordcount: '512'
+ht-degree: 6%
 
 ---
 
@@ -123,3 +123,6 @@ ht-degree: 8%
 | 표준 시간대 이름 | 기본적으로 비어 있음: Campaign Classic 앱 서버의 시스템 시간대가 사용됨을 의미합니다. 옵션을 사용하여 TIMEZONE 세션 매개 변수를 강제 적용할 수 있습니다. <br>자세한 정보는 이 [페이지](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)를 참조하십시오. |
 | WeekStart | WEEK_START 세션 매개 변수입니다. 기본적으로 0으로 설정됩니다. <br>자세한 정보는 이 [페이지](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)를 참조하십시오. |
 | UseCachedResult | USE_CACHED_RESULTS 세션 매개변수 기본적으로 TRUE로 설정됩니다. 이 옵션을 사용하여 캐시된 Snowflake 결과를 비활성화할 수 있습니다. <br>자세한 정보는 이 [페이지](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)를 참조하십시오. |
+| bulkThreads | Snowflake 벌크 로더에 사용할 스레드 수가 많을수록 더 큰 벌크 로딩에 대한 성능이 향상됩니다. 기본적으로 1로 설정됩니다. 컴퓨터 스레드 수에 따라 숫자를 조정할 수 있습니다. |
+| chunkSize | 벌크 로더 청크의 파일 크기를 결정합니다. 기본적으로 128MB로 설정됩니다. BulkThreads와 함께 사용할 경우 최적의 성능을 위해 수정할 수 있습니다. 동시에 활성 스레드가 많을수록 성능이 향상됩니다. <br>자세한 내용은 [Snowflake 설명서](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
+| StageName | 미리 제공된 내부 단계의 이름입니다. 새 임시 스테이지를 만드는 대신 벌크 로드에서 사용됩니다. |

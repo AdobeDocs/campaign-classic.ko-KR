@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 1%
+source-wordcount: '1520'
+ht-degree: 2%
 
 ---
 
@@ -175,41 +175,33 @@ ht-degree: 1%
 <table> 
  <tbody> 
   <tr> 
+   <td> <strong>Adobe Campaign</strong><br /> </td> 
    <td> <strong>PostgreSQL</strong><br /> </td> 
    <td> <strong>Oracle</strong><br /> </td> 
    <td> <strong>MS SQL</strong><br /> </td> 
-   <td> <strong>Adobe Campaign</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> 문자열<br /> </td> 
    <td> VARCHAR(255)<br /> </td> 
    <td> VARCHAR2(유니코드 경우 NVARCHAR2)<br /> </td> 
-   <td> VARCHAR(유니코드 경우 VARCHAR 문자 집합 유니코드)<br /> </td> 
-   <td> VARCHAR<br /> </td> 
    <td> VARCHAR(유니코드 경우 NVARCHAR)<br /> </td> 
   </tr> 
   <tr> 
    <td> 부울<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> 숫자(3)<br /> </td> 
-   <td> 숫자(3)<br /> </td> 
-   <td> SMALLINT<br /> </td> 
    <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
    <td> 바이트<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> 숫자(3)<br /> </td> 
-   <td> 숫자(3)<br /> </td> 
-   <td> SMALLINT<br /> </td> 
    <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> 숫자(5)<br /> </td> 
-   <td> SMALLINT<br /> </td> 
-   <td> SMALLINT<br /> </td> 
    <td> SMALLINT<br /> </td> 
   </tr> 
   <tr> 
@@ -217,30 +209,22 @@ ht-degree: 1%
    <td> 이중 정밀도<br /> </td> 
    <td> 부동<br /> </td> 
    <td> 부동<br /> </td> 
-   <td> 이중<br /> </td> 
-   <td> 부동<br /> </td> 
   </tr> 
   <tr> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 정수<br /> </td> 
    <td> 숫자(10)<br /> </td> 
-   <td> 정수<br /> </td> 
-   <td> 정수<br /> </td> 
    <td> INT<br /> </td> 
   </tr> 
   <tr> 
    <td> Int64<br /> </td> 
    <td> BIGINT<br /> </td> 
    <td> 숫자(20)<br /> </td> 
-   <td> 숫자(20)<br /> </td> 
-   <td> BIGINT<br /> </td> 
    <td> BIGINT<br /> </td> 
   </tr> 
   <tr> 
    <td> 날짜<br /> </td> 
    <td> 날짜<br /> </td> 
-   <td> 날짜<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
    <td> 날짜<br /> </td> 
    <td> DATETIME<br /> </td> 
   </tr> 
@@ -248,24 +232,18 @@ ht-degree: 1%
    <td> 시간<br /> </td> 
    <td> 시간<br /> </td> 
    <td> 부동<br /> </td> 
-   <td> 시간<br /> </td> 
-   <td> 시간<br /> </td> 
    <td> 부동<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetime<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> 날짜<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
    <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIMEOFFSET<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetimenotz<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> 날짜<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
    <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIME2<br /> </td> 
   </tr> 
   <tr> 
@@ -273,23 +251,17 @@ ht-degree: 1%
    <td> 이중 정밀도<br /> </td> 
    <td> 부동<br /> </td> 
    <td> 부동<br /> </td> 
-   <td> 이중<br /> </td> 
-   <td> 부동<br /> </td> 
   </tr> 
   <tr> 
    <td> 메모<br /> </td> 
    <td> 텍스트<br /> </td> 
    <td> CLOB(유니코드 경우 NCLOB)<br /> </td> 
-   <td> CLOB(유니코드 경우 CLOB 문자 집합 유니코드)<br /> </td> 
-   <td> CLOB(6M)<br /> </td> 
    <td> 텍스트(유니코드 경우 NTEXT)<br /> </td> 
   </tr> 
   <tr> 
    <td> Blob<br /> </td> 
    <td> BLOB<br /> </td> 
    <td> BLOB<br /> </td> 
-   <td> BLOB<br /> </td> 
-   <td> BLOB(4M)<br /> </td> 
    <td> 이미지<br /> </td> 
   </tr> 
  </tbody> 

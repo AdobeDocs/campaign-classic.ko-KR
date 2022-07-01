@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '1627'
-ht-degree: 8%
+source-wordcount: '1817'
+ht-degree: 7%
 
 ---
 
@@ -75,6 +75,34 @@ POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일�
 * **[!UICONTROL Encryption]**
 
    선택한 암호화 유형 **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** 또는 **[!UICONTROL POP3S]**.
+
+* **[!UICONTROL Function]**
+
+   인바운드 전자 메일 또는 SOAP 라우터
+
+>[!IMPORTANT]
+>
+>Microsoft OAuth 2.0을 사용하여 POP3 외부 계정을 구성하기 전에 먼저 Azure 포털에서 응용 프로그램을 등록해야 합니다. 자세한 정보는 이 [페이지](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오.
+
+를 사용하여 POP3 외부 **Microsoft OAuth 2.0**&#x200B;에서 을(를) 확인합니다. **[!UICONTROL Microsoft OAuth 2.0]** 옵션을 선택하고 다음 필드를 채웁니다.
+
+* **[!UICONTROL Azure tenant]**
+
+   Azure ID(또는 디렉터리(테넌트) ID)는 **핵심 사항** azure 포털에서 애플리케이션 개요의 드롭다운
+
+* **[!UICONTROL Azure Client ID]**
+
+   클라이언트 ID(또는 애플리케이션(클라이언트) ID)는 **핵심 사항** azure 포털에서 애플리케이션 개요의 드롭다운
+
+* **[!UICONTROL Azure Client secret]**
+
+   클라이언트 암호 ID는 **클라이언트 암호** 열 **인증서 및 기밀** azure 포털에서 응용 프로그램의 메뉴
+
+* **[!UICONTROL Azure Redirect URL]**
+
+   리디렉션 URL은 **인증** azure 포털에서 응용 프로그램의 메뉴 다음 구문으로 끝나야 합니다 `nl/jsp/oauth.jsp`예: `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
+
+다른 자격 증명을 입력한 후 **[!UICONTROL Setup the connection]** 외부 계정 구성을 완료합니다.
 
 ### 라우팅{#routing-external-account}
 
@@ -166,6 +194,14 @@ SFTP 외부 계정을 사용하면 Adobe Campaign 외부의 서버에 대한 액
 * **[!UICONTROL Password]**
 
    SFTP 서버에 연결하는 데 사용되는 암호입니다.
+
+Windows에서 SSH 키를 추가하려면:
+
+1. 만들기 **홈** 값이 설치 디렉터리로 설정된 환경 변수입니다.
+
+2. 개인 키를 `/$HOME/.ssh/id_rsa` 폴더를 입력합니다.
+
+3. Adobe Campaign 서비스를 다시 시작합니다.
 
 ### 외부 데이터베이스(FDA) {#external-database-external-account}
 

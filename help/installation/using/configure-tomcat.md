@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
-source-git-commit: ed9e76495efb0cb49e248a7d38417642c5094a11
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -49,3 +49,15 @@ Tomcat 서버의 8080 수신 대기 포트가 구성에 필요한 다른 응용 
 ```
 
 필요한 경우 서버 측에서 이 작업을 재현할 수 있습니다.
+
+## Tomcat 오류 보고서 숨기기 {#hide-tomcat-error-report}
+
+보안상의 이유로 Tomcat 오류 보고서를 숨기는 것이 좋습니다. 다음은 단계입니다.
+
+1. 를 엽니다. **server.xml** 에 있는 파일 **/tomcat-8/conf** Adobe Campaign 설치 폴더의 디렉토리:  `/usr/local/neolane/nl6/tomcat-8/conf`
+1. 모든 기존 컨텍스트 요소 뒤에 다음 요소를 맨 아래에 추가합니다.
+
+   ```
+   <Valve className="org.apache.catalina.valves.ErrorReportValve" showReport="false" showServerInfo="false"/>
+   ```
+1. nlserver 및 Apache 웹 서버를 다시 시작합니다.
