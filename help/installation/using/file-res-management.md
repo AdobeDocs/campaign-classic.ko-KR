@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 0%
+source-wordcount: '598'
+ht-degree: 1%
 
 ---
 
@@ -27,11 +27,7 @@ ht-degree: 0%
 
 가능한 형식을 제한하려면 속성 값을 유효한 Java 정규 표현식으로 바꿉니다. 여러 값을 쉼표로 구분하여 입력할 수 있습니다.
 
-예: **uploadWhiteList=&quot;.*.png,*.jpg&quot;** 에서는 서버에서 PNG 및 JPG 형식을 업로드할 수 있습니다. 다른 형식은 허용되지 않습니다.
-
->[!NOTE]
->
->Internet Explorer에서 전체 파일 경로는 정규 표현식으로 확인해야 합니다.
+예: **uploadWhiteList=&quot;.&#42;.png,&#42;.jpg&quot;** 에서는 서버에서 PNG 및 JPG 형식을 업로드할 수 있습니다. 다른 형식은 허용되지 않습니다.
 
 웹 서버를 구성하여 중요한 파일이 업로드되지 않도록 할 수도 있습니다. [자세히 알아보기](web-server-configuration.md)
 

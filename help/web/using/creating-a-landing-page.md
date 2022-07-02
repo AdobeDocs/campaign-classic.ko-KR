@@ -4,9 +4,9 @@ title: 랜딩 페이지 만들기
 description: 랜딩 페이지 만들기
 feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '721'
 ht-degree: 3%
 
 ---
@@ -88,7 +88,7 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 **하나 이
 
 >[!CAUTION]
 >
->**DCE는 로드된 HTML 페이지에 대한 JavaScript 코드를 실행합니다.** Adobe Campaign 인터페이스에 표시될 수 있는 HTML 템플릿의 JavaScript 오류입니다. 이러한 오류는 편집기와 관련이 없습니다. 가져온 파일에 오류가 없는지 확인하려면 파일을 DCE로 가져오기 전에 브라우저(Internet Explorer/Firefox/Chrome)에서 테스트하는 것이 좋습니다.
+>**DCE는 로드된 HTML 페이지에 대한 JavaScript 코드를 실행합니다.** Adobe Campaign 인터페이스에 표시될 수 있는 HTML 템플릿의 JavaScript 오류입니다. 이러한 오류는 편집기와 관련이 없습니다. 가져온 파일에 오류가 없는지 확인하려면 파일을 DCE로 가져오기 전에 웹 브라우저에서 테스트하는 것이 좋습니다.
 
 ## 2단계 - 컨텐츠 구성 {#step-2---configuring-the-content}
 

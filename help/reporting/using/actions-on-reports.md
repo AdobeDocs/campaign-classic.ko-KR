@@ -4,9 +4,9 @@ title: 보고서에 대한 작업
 description: 보고서에 대한 작업
 feature: Reporting
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '543'
 ht-degree: 3%
 
 ---
@@ -86,7 +86,7 @@ document.nl_waitBeforeRender = true;
 
 보고서를 인쇄할 수 있습니다. 이렇게 하려면 프린터 아이콘을 클릭합니다. 그러면 대화 상자가 열립니다.
 
-더 좋은 결과를 얻으려면 Internet Explorer 인쇄 옵션을 편집하고 **[!UICONTROL Print background colors and images]**.
+더 좋은 결과를 얻으려면 Explorer 인쇄 옵션을 편집하고 **[!UICONTROL Print background colors and images]**.
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 
