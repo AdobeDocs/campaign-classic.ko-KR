@@ -5,7 +5,7 @@ description: Campaign 게재 기능 서버를 구현하는 방법 알아보기
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 6740b5eed33612bd7a3b217a8f53b07518f879fb
+source-git-commit: 4ad6f1e3a3d23383d17f947430c32fecefb3a8e1
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 3%
@@ -77,6 +77,7 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
    >[!CAUTION]
    >
    >Analytics 커넥터 또는 Adobe 트리거과 같은 다른 통합에 Adobe IO JWT 인증 기능을 이미 사용하고 있다면, 다음을 추가하여 프로젝트를 업데이트해야 합니다 **Campaign API** 해당 프로젝트에 대한 업데이트입니다.
+
 1. 선택 **[!UICONTROL Add API]**.
    ![](assets/Add-API.png)
 1. 에서 **[!UICONTROL Add an API]** 창, 선택 **[!UICONTROL Adobe Campaign]**.
