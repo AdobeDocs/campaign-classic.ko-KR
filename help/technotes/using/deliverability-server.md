@@ -5,10 +5,10 @@ description: Campaign 게재 기능 서버를 구현하는 방법 알아보기
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 2e4d699aef0bea4f12d1bd2d715493c4a94a74dd
+source-git-commit: 2c70b5a4434b9fb22490eb3c1705f4e5c803643e
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 5%
+source-wordcount: '909'
+ht-degree: 4%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 로서의 **온-프레미스/하이브리드 고객**&#x200B;새 게재 기능 서버를 사용하려면 최신 버전 중 하나로 업그레이드해야 합니다. 모든 인스턴스가 업그레이드되면 다음을 수행할 수 있습니다 [새로운 통합 구현](#implementation-steps) 게재 기능 서버를 Adobe 하고 원활한 전환을 보장합니다.
 
-## 구현 단계(하이브리드 및 온-프레미스 고객) {#implementation-steps}
+## 구현 단계 {#implementation-steps}
 
 새로운 게재 기능 서버 통합의 일부로 Campaign은 IMS(Identity Management Service) 기반 인증을 통해 Adobe Shared Services와 통신해야 합니다. 선호하는 방법은 Adobe Developer 기반 게이트웨이 토큰(기술 계정 토큰 또는 Adobe IO JWT라고도 함)을 사용하는 것입니다.
 
@@ -48,8 +48,6 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 >[!WARNING]
 >
 >이러한 단계는 하이브리드 및 온-프레미스 구현에서만 수행해야 합니다.
->
->호스팅된 구현의 경우 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ### 전제 조건{#prerequisites}
 
