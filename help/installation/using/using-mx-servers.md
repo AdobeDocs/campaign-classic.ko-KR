@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: 6740b5eed33612bd7a3b217a8f53b07518f879fb
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 1%
@@ -64,7 +64,7 @@ Adobe Campaign은 오류 유형과 이유 간의 일치로 이 프로세스를 �
 >
 >게재 실패 유형 및 이유에 대한 자세한 내용은 다음 문서를 참조하십시오 [섹션](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-## 게재 가능성 인스턴스
+## 게재 가능성 인스턴스 {#deliveratbility-env}
 
 MX 규칙 및 인바운드 규칙의 일별 업데이트는 이러한 규칙의 게재 가능성 인스턴스 소유자에게 연결된 클라이언트 인스턴스의 특정 워크플로우에서 관리합니다.
 

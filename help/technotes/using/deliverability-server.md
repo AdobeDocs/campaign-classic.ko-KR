@@ -5,10 +5,10 @@ description: Campaign 게재 기능 서버를 구현하는 방법 알아보기
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 2c70b5a4434b9fb22490eb3c1705f4e5c803643e
+source-git-commit: 6740b5eed33612bd7a3b217a8f53b07518f879fb
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 4%
+source-wordcount: '1067'
+ht-degree: 3%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 4%
 
 Adobe Campaign은 v7 21.1 Campaign Classic 릴리스를 시작으로 고가용성 및 보안 준수 문제를 해결하는 새로운 게재 기능 서버를 제안합니다. 이제 Campaign Classic이 게재 가능성 규칙, 브로드로그 및 억제 주소를 새 게재 가능성 서버에서 동기화합니다.
 
-Campaign Classic 고객은 새 게재 가능성 서버를 구현해야 합니다.
+Campaign Classic 고객은 새 게재 가능성 서버를 구현해야 합니다 **2022년 8월 31일 이전**.
 
 >[!NOTE]
 >
->이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+>이러한 변경 사항에 대한 질문이 있으면 [FAQ](#faq), 또는 연락처 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## 변경 사항{#acc-deliverability-changes}
 
@@ -30,7 +30,7 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 ## 영향을 받습니까?{#acc-deliverability-impacts}
 
-이전 Adobe Campaign 게재 기능 서버를 사용하는 경우 환경이 Campaign 21.1.1보다 낮은 빌드에 구현된 경우 영향을 받습니다. Campaign 21.1(또는 이상)으로 업그레이드해야 합니다.
+환경이 보다 낮은 빌드에 구현된 경우 [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2): 영향을 받습니다. Campaign v7.2.1 또는 그 이상으로 업그레이드해야 합니다.
 
 버전을 확인하는 방법을 알아봅니다 [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
@@ -150,5 +150,22 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 1. 찾아보기 **관리 > 프로덕션 > 기술 워크플로우**.
 1. 를 다시 시작합니다. **게재 능력을 위한 업데이트** (게재 가능성 업데이트) 워크플로우입니다. 이 작업은 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에서 수행해야 합니다.
 1. 로그 확인: 워크플로우는 오류 없이 실행해야 합니다.
+
+
+## FAQ(자주 묻는 질문) {#faq}
+
+### 환경을 업그레이드하지 않으면 어떻게 됩니까?
+
+8월 31일까지 업그레이드되지 않은 모든 캠페인 인스턴스는 더 이상 Campaign 게재 가능성 서버와 연결할 수 없습니다. 따라서, **게재 능력을 위한 업데이트** (게재 가능성 업데이트) 워크플로우가 실패합니다. 이 워크플로우는 MX 규칙 및 인바운드 규칙의 일별 업데이트를 관리합니다.
+
+환경을 업그레이드하지 않으면 이메일 설정이 동기화되지 않습니다(MX 관리 규칙, 인바운드 전자 메일 규칙, 도메인 관리 규칙 및 반송 자격 규칙). 이는 게재 능력에 시간이 지남에 따라 영향을 줄 수 있습니다. 이러한 규칙에 중요한 변경이 있는 경우 이 시점부터 수동으로 적용해야 합니다.
+
+MKT 인스턴스의 경우에만 [전역 제외 목록](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) 이 영향을 받습니다.
+
+### 지금 업그레이드할 수 없습니다. 지침은 무엇입니까?
+
+8월 31일 이전에 인스턴스를 업그레이드할 수 없는 경우 임시 비활성화해야 합니다 **게재 능력을 위한 업데이트** (deliverabilityUpdate) 워크플로우가 이전 게재 가능성 서버와 동기화하지 않도록 업그레이드가 완료될 때까지 워크플로우입니다.
+
+
 
 자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
