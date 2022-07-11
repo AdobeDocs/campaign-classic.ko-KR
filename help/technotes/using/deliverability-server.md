@@ -4,10 +4,11 @@ title: 새 게재 기능 서버로 마이그레이션
 description: Campaign 게재 기능 서버를 구현하는 방법 알아보기
 hide: true
 hidefromtoc: true
-source-git-commit: 65ab862ec568647dd06c1f7b7b83e5b921353cc7
+exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
+source-git-commit: a007e4d5dd73f01657f1642be6f0b1a92f39e9bf
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 4%
+source-wordcount: '923'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +20,7 @@ Campaign Classic 고객은 새 게재 가능성 서버를 구현해야 합니다
 
 >[!NOTE]
 >
->이러한 변경 사항에 대한 질문이 있으면 [FAQ](#faq-aa). 자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
 ## 변경 사항{#acc-deliverability-changes}
 
@@ -36,14 +37,13 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 ## 업데이트 방법{#acc-deliverability-update}
 
-호스팅된 고객인 Adobe은 인스턴스와 최신 버전으로 업그레이드하도록 사용자와 협력하고 있습니다.
+로서의 **호스팅 고객**, Adobe은 사용자와 협력하여 인스턴스를 최신 버전으로 업그레이드하고 Adobe Developer 콘솔에서 프로젝트를 만듭니다.
 
-온-프레미스/하이브리드 고객은 새 게재 기능 서버 를 활용하려면 최신 버전 중 하나로 업그레이드해야 합니다.
-모든 인스턴스가 업그레이드되면 다음을 수행할 수 있습니다 [새로운 통합 구현](#implementation-steps) 게재 기능 서버를 Adobe 하고 원활한 전환을 보장합니다.
+로서의 **온-프레미스/하이브리드 고객**&#x200B;새 게재 기능 서버를 사용하려면 최신 버전 중 하나로 업그레이드해야 합니다. 모든 인스턴스가 업그레이드되면 다음을 수행할 수 있습니다 [새로운 통합 구현](#implementation-steps) 게재 기능 서버를 Adobe 하고 원활한 전환을 보장합니다.
 
 ## 구현 단계(하이브리드 및 온-프레미스 고객) {#implementation-steps}
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >이러한 단계는 하이브리드 및 온-프레미스 구현에서만 수행해야 합니다.
 >
@@ -55,29 +55,45 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 ### 1단계: Adobe Developer 프로젝트 만들기/업데이트 {#adobe-io-project}
 
+
+
 1. 액세스 [Adobe Developer 콘솔](https://developer.adobe.com/console/home) 조직의 개발자 액세스 권한으로 로그인합니다.
 
    >[!NOTE]
    >
    > 올바른 조직 포털에 로그인되어 있는지 확인하십시오.
 
-1. 선택 **[!UICONTROL + Add to Project]** 및 **[!UICONTROL API]**.
-1. 에서 **[!UICONTROL Add an API]** 창, 선택 **[!UICONTROL Adobe Campaign]**.
-1. 선택 **[!UICONTROL Service Account (JWT)]** 인증 유형으로 사용할 수 있습니다.
-1. 클라이언트 ID가 비어 있는 경우 **[!UICONTROL Generate a key pair]** 공개 및 개인 키 쌍을 만들려면
+1. **[!UICONTROL Create new project]**을(를) 선택합니다.
+   ![](assets/New-Project.png)
 
-   그러면 기본 만료 날짜인 365일로 키가 자동으로 다운로드됩니다. 만료되면 새 키 쌍을 만들고 구성 파일에서 통합을 업데이트해야 합니다. 옵션 2를 사용하여 수동으로 을 만들고 업로드할 수 있습니다 **[!UICONTROL Public key]** 만료 날짜가 길어졌습니다.
 
    >[!CAUTION]
    >
-   >다시 다운로드할 수 없으므로 다운로드 프롬프트가 나타나면 config.zip 파일을 저장해야 합니다.
+   >Analytics 커넥터 또는 Adobe 트리거과 같은 다른 통합에 Adobe IO JWT 인증 기능을 이미 사용하고 있다면, 다음을 추가하여 프로젝트를 업데이트해야 합니다 **Campaign API** 해당 프로젝트에 대한 업데이트입니다.
+1. 선택 **[!UICONTROL Add API]**.
+   ![](assets/Add-API.png)
+1. 에서 **[!UICONTROL Add an API]** 창, 선택 **[!UICONTROL Adobe Campaign]**.
+   ![](assets/AC-API.png)
+<!--1. Choose **[!UICONTROL Service Account (JWT)]** as the authentication type.-->
+1. 클라이언트 ID가 비어 있는 경우 **[!UICONTROL Generate a key pair]** 공개 및 개인 키 쌍을 만들려면
+   ![](assets/Generate-a-key-pair.png)
+
+   그러면 기본 만료 날짜인 365일로 키가 자동으로 다운로드됩니다. 만료되면 새 키 쌍을 만들고 구성 파일에서 통합을 업데이트해야 합니다. 옵션 2를 사용하여 수동으로 을 만들고 업로드할 수 있습니다 **[!UICONTROL Public key]** 만료 날짜가 길어졌습니다.
+   ![](assets/New-key-pair.png)
+
+   >[!CAUTION]
+   >
+   >을(를) 저장해야 합니다. `config.zip` 파일을 다시 다운로드할 수 없으므로 다운로드 메시지가 나타나면 파일을 다운로드하십시오.
 
 1. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
-1. 기존 항목 선택 **[!UICONTROL Product profile]** 또는 필요한 경우 새 항목을 만듭니다. 이 작업에 대한 권한이 필요하지 않습니다 **[!UICONTROL Product profile]**. 자세한 내용은 [!DNL Analytics] **[!UICONTROL Product Profiles]**&#x200B;를 참조하려면 [이 페이지](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+1. 기존 항목 선택 **[!UICONTROL Product profile]** 또는 필요한 경우 새 항목을 만듭니다. 이 작업에 대한 권한이 필요하지 않습니다 **[!UICONTROL Product profile]**. 자세한 내용은 **[!UICONTROL Product Profiles]**&#x200B;를 참조하려면 [이 페이지](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+   ![](assets/Product-Profile-API.png)
 
    그런 다음 **[!UICONTROL Save configured API]**.
 
-1. 프로젝트에서 를 선택합니다. **[!UICONTROL Adobe Campaign]** 및에서 다음 정보를 복사합니다. **[!UICONTROL Service Account (JWT)]**:
+1. 프로젝트에서 를 선택합니다. **[!UICONTROL Adobe Campaign]** 및에서 다음 정보를 복사합니다. **[!UICONTROL Service Account (JWT)]**
+
+   ![](assets/Config-API.png)
 
    * **[!UICONTROL Client ID]**
    * **[!UICONTROL Client Secret]**
@@ -116,7 +132,7 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 1. 클라이언트 콘솔을 열고 Adobe Campaign에 관리자로 로그온합니다.
 1. 찾아보기 **관리 > 플랫폼 > 옵션**.
-1. 을(를) 확인합니다. `DmRendering_cuid` 옵션 값이 입력되었습니다. 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에 채워야 합니다. 채우지 않은 경우 값을 입력해야 합니다. 값을 입력하지 않은 경우 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) CUID를 가져올 수 있습니다.
+1. 을(를) 확인합니다. `DmRendering_cuid` 옵션 값이 입력되었습니다. 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에 채워야 합니다. 값을 입력하지 않은 경우 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) CUID를 가져올 수 있습니다.
 
 ### 4단계: 새 게재 기능 서버 활성화
 
@@ -125,7 +141,6 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 1. 클라이언트 콘솔을 열고 Adobe Campaign에 관리자로 로그온합니다.
 1. 찾아보기 **관리 > 플랫폼 > 옵션**.
 1. 액세스 권한 `NewDeliverabilityServer_FeatureFlag` 옵션을 선택하고 값을 로 설정합니다. `1`. 이 구성은 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에서 수행해야 합니다.
-
 
 ### 5단계: 구성 유효성 검사
 
@@ -136,13 +151,5 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 1. 찾아보기 **관리 > 프로덕션 > 기술 워크플로우**.
 1. 를 다시 시작합니다. **게재 능력을 위한 업데이트** (게재 가능성 업데이트) 워크플로우입니다. 이 작업은 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에서 수행해야 합니다.
 1. 로그 확인: 워크플로우는 오류 없이 실행해야 합니다.
-
-## FAQ{#faq-aa}
-
-Q: A:
-
-Q: A:
-
-
 
 자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
