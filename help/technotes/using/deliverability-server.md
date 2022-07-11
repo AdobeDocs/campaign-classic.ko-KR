@@ -5,16 +5,16 @@ description: Campaign 게재 기능 서버를 구현하는 방법 알아보기
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: c3b1ffcb580c7510a64115e0abbf16cb766146c5
+source-git-commit: 5e0cf925ab4915c8a1d2c9d50daf77190023710f
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1065'
 ht-degree: 3%
 
 ---
 
 # Campaign 게재 기능 서버 {#acc-deliverability}
 
-Adobe Campaign은 v7 21.1 Campaign Classic 릴리스를 시작으로 고가용성 및 보안 준수 문제를 해결하는 새로운 게재 기능 서버를 제안합니다. 이제 Campaign Classic이 게재 가능성 규칙, 브로드로그 및 억제 주소를 새 게재 가능성 서버에서 동기화합니다.
+시작 [v7.2.1 릴리스](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign은 고가용성을 가져오고 보안 규정 준수 문제를 해결하는 새로운 게재 기능 서버를 제안합니다. 이제 Campaign Classic이 게재 가능성 규칙, 브로드로그 및 억제 주소를 새 게재 가능성 서버에서 동기화합니다.
 
 Campaign Classic 고객은 새 게재 가능성 서버를 구현해야 합니다 **2022년 8월 31일 이전**.
 
