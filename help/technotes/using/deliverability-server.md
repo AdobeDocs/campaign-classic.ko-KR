@@ -5,9 +5,9 @@ description: Campaign 게재 기능 서버를 구현하는 방법 알아보기
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: a007e4d5dd73f01657f1642be6f0b1a92f39e9bf
+source-git-commit: 2e4d699aef0bea4f12d1bd2d715493c4a94a74dd
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '927'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Adobe Campaign은 v7 21.1 Campaign Classic 릴리스를 시작으로 고가용성 및 보안 준수 문제를 해결하는 새로운 게재 기능 서버를 제안합니다. 이제 Campaign Classic이 게재 가능성 규칙, 브로드로그 및 억제 주소를 새 게재 가능성 서버에서 동기화합니다.
 
-Campaign Classic 고객은 새 게재 가능성 서버를 구현해야 합니다
+Campaign Classic 고객은 새 게재 가능성 서버를 구현해야 합니다.
 
 >[!NOTE]
 >
@@ -27,7 +27,6 @@ Campaign Classic 고객은 새 게재 가능성 서버를 구현해야 합니다
 Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하고 있습니다. Adobe Campaign Classic 클라이언트는 Amazon 웹 서비스(AWS)에서 호스팅되는 새로운 게재 기능 서비스로 마이그레이션해야 합니다.
 
 이 새 서버는 고가용성(99.9)을 &#x200B; 보장하고, 캠페인 서버가 필요한 데이터를 가져올 수 있도록 보안 및 인증된 끝점을 제공합니다. 모든 요청에 대해 데이터베이스에 연결하는 대신, 새 게재 기능 서버가 가능한 경우 요청을 제공하도록 데이터를 캐시합니다. 이 메커니즘은 응답 시간을 &#x200B; 개선합니다.
-
 
 ## 영향을 받습니까?{#acc-deliverability-impacts}
 
@@ -43,6 +42,9 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 ## 구현 단계(하이브리드 및 온-프레미스 고객) {#implementation-steps}
 
+새로운 게재 기능 서버 통합의 일부로 Campaign은 IMS(Identity Management Service) 기반 인증을 통해 Adobe Shared Services와 통신해야 합니다. 선호하는 방법은 Adobe Developer 기반 게이트웨이 토큰(기술 계정 토큰 또는 Adobe IO JWT라고도 함)을 사용하는 것입니다.
+
+
 >[!WARNING]
 >
 >이러한 단계는 하이브리드 및 온-프레미스 구현에서만 수행해야 합니다.
@@ -51,11 +53,18 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 ### 전제 조건{#prerequisites}
 
-새로운 게재 기능 서버 통합의 일부로 Campaign은 IMS(Identity Management Service) 기반 인증을 통해 Adobe Shared Services와 통신해야 합니다. 선호하는 방법은 Adobe Developer 기반 게이트웨이 토큰(기술 계정 토큰 또는 Adobe IO JWT라고도 함)을 사용하는 것입니다.
+구현을 시작하기 전에 인스턴스 구성을 확인하십시오.
+
+1. Campaign 클라이언트 콘솔을 열고 Adobe Campaign에 관리자로 로그온합니다.
+1. 찾아보기 **관리 > 플랫폼 > 옵션**.
+1. 을(를) 확인합니다. `DmRendering_cuid` 옵션 값이 입력되었습니다.
+
+   * 옵션이 채워지면 구현을 시작할 수 있습니다.
+   * 값을 입력하지 않은 경우 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) CUID를 가져올 수 있습니다.
+
+      이 옵션은 동일한 값으로 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에 채워야 합니다.
 
 ### 1단계: Adobe Developer 프로젝트 만들기/업데이트 {#adobe-io-project}
-
-
 
 1. 액세스 [Adobe Developer 콘솔](https://developer.adobe.com/console/home) 조직의 개발자 액세스 권한으로 로그인합니다.
 
@@ -126,15 +135,7 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 1. 수정을 고려하려면 서버를 중지한 다음 다시 시작해야 합니다. 를 실행할 수도 있습니다 `config -reload` 명령.
 
-### 3단계: 구성을 확인합니다
-
-설정이 완료되면 인스턴스 구성을 확인할 수 있습니다. 아래의 단계를 수행하십시오.
-
-1. 클라이언트 콘솔을 열고 Adobe Campaign에 관리자로 로그온합니다.
-1. 찾아보기 **관리 > 플랫폼 > 옵션**.
-1. 을(를) 확인합니다. `DmRendering_cuid` 옵션 값이 입력되었습니다. 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에 채워야 합니다. 값을 입력하지 않은 경우 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) CUID를 가져올 수 있습니다.
-
-### 4단계: 새 게재 기능 서버 활성화
+### 3단계: 새 게재 기능 서버 활성화
 
 이제 새 게재 기능 서버를 활성화할 수 있습니다. 다음을 수행하십시오.
 
@@ -142,7 +143,7 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 1. 찾아보기 **관리 > 플랫폼 > 옵션**.
 1. 액세스 권한 `NewDeliverabilityServer_FeatureFlag` 옵션을 선택하고 값을 로 설정합니다. `1`. 이 구성은 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에서 수행해야 합니다.
 
-### 5단계: 구성 유효성 검사
+### 4단계: 구성 유효성 검사
 
 통합이 성공했는지 확인하려면 아래 단계를 따르십시오.
 
