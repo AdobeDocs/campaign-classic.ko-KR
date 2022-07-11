@@ -5,7 +5,7 @@ description: Campaign 게재 기능 서버를 구현하는 방법 알아보기
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 4ad6f1e3a3d23383d17f947430c32fecefb3a8e1
+source-git-commit: c3b1ffcb580c7510a64115e0abbf16cb766146c5
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 3%
@@ -82,7 +82,6 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
    ![](assets/Add-API.png)
 1. 에서 **[!UICONTROL Add an API]** 창, 선택 **[!UICONTROL Adobe Campaign]**.
    ![](assets/AC-API.png)
-<!--1. Choose **[!UICONTROL Service Account (JWT)]** as the authentication type.-->
 1. 클라이언트 ID가 비어 있는 경우 **[!UICONTROL Generate a key pair]** 공개 및 개인 키 쌍을 만들려면
    ![](assets/Generate-a-key-pair.png)
 
