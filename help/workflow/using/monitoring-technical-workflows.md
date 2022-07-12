@@ -4,7 +4,7 @@ title: 기술 워크플로우 모니터링
 description: 기술 워크플로우 모니터링
 feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 25e8acdc449c7002e467db17e7c70e3dc017dded
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 5%
@@ -48,9 +48,9 @@ ht-degree: 5%
 
 추적 워크플로우가 예약된 대로(기본적으로 매시간) 실행되는지 그리고 저널에 반복 오류가 강조 표시되지 않는지 확인합니다. 자세한 정보는 이 [섹션](delivery.md)을 참조하십시오.
 
-대상 **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
+대상 **[!UICONTROL Refresh for Deliverability (deliverabilityUpdate)]**:
 
-1. 다음을 확인하십시오. **[!UICONTROL Deliverability update]** 워크플로우가 매일 성공적으로 실행되고 완료됩니다.
+1. 다음을 확인하십시오. **[!UICONTROL Refresh for Deliverability]** 워크플로우가 매일 성공적으로 실행되고 완료됩니다.
 1. 규칙이 정기적으로 업데이트되는지 저널에서 확인합니다.
 
 대상 **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:

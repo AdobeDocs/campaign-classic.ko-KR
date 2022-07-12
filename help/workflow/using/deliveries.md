@@ -3,10 +3,10 @@ product: campaign
 title: 게재
 description: 기본 게재 워크플로우에 대해 자세히 알아봅니다
 feature: Workflows
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 25e8acdc449c7002e467db17e7c70e3dc017dded
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 5%
    <td> 이 워크플로우는 열거형 값을 표준화합니다. 기본적으로 매일 오전 3시에 트리거됩니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">게재 능력을 위한 업데이트</span> <br /> </td> 
+   <td> <span class="uicontrol">게재 능력을 위해 새로 고침</span> <br /> </td> 
    <td> <span class="uicontrol">게재능력업데이트</span> <br /> </td> 
    <td> 이 워크플로우를 통해 반송 메일 자격 규칙 목록과 플랫폼에 있는 도메인 및 MX 목록을 만들 수 있습니다. 이 워크플로우는 HTTPS 포트가 열려 있는 경우에만 작동합니다. 이 목록은 게재 기능 모듈이 설치되지 않은 경우 업데이트되지 않습니다.<br /> </td> 
   </tr> 
