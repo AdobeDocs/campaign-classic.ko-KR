@@ -5,9 +5,9 @@ description: Campaign 게재 기능 서버를 구현하는 방법 알아보기
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: bec525c52cb30dfae9530265bc3fdc2395879539
+source-git-commit: dfa28fc10bcfddcf35e8ddfa0af1fba718400350
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1105'
 ht-degree: 3%
 
 ---
@@ -30,15 +30,13 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 ## 영향을 받습니까?{#acc-deliverability-impacts}
 
-환경이 보다 낮은 빌드에 구현된 경우 [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2): 영향을 받습니다. Campaign v7.2.1 또는 그 이상으로 업그레이드해야 합니다.
-
-버전을 확인하는 방법을 알아봅니다 [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+모든 고객은 다음을 업그레이드해야 합니다. [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) 새로운 게재 가능성 서버를 통해 환경을 구현합니다.
 
 ## 업데이트 방법{#acc-deliverability-update}
 
 로서의 **호스팅 고객**, Adobe은 사용자와 협력하여 인스턴스를 최신 버전으로 업그레이드하고 Adobe Developer 콘솔에서 프로젝트를 만듭니다.
 
-로서의 **온-프레미스/하이브리드 고객**&#x200B;새 게재 기능 서버를 사용하려면 최신 버전 중 하나로 업그레이드해야 합니다. 모든 인스턴스가 업그레이드되면 다음을 수행할 수 있습니다 [새로운 통합 구현](#implementation-steps) 게재 기능 서버를 Adobe 하고 원활한 전환을 보장합니다.
+로서의 **온-프레미스/하이브리드 고객**&#x200B;로 업그레이드해야 합니다. [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) 새 게재 가능성 서버를 활용할 수 있습니다. 모든 인스턴스가 업그레이드되면 다음을 수행해야 합니다 [새로운 통합 구현](#implementation-steps) 게재 기능 서버를 Adobe 하고 원활한 전환을 보장합니다.
 
 ## 구현 단계 {#implementation-steps}
 
@@ -47,7 +45,7 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 >[!WARNING]
 >
->이러한 단계는 하이브리드 및 온-프레미스 구현에서만 수행해야 합니다.
+>이러한 단계는 하이브리드 및 온-프레미스 구현에만 수행해야 합니다.
 
 ### 전제 조건{#prerequisites}
 
