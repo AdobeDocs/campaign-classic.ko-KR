@@ -5,16 +5,16 @@ description: Campaign 게재 기능 서버를 구현하는 방법 알아보기
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: dfa28fc10bcfddcf35e8ddfa0af1fba718400350
+source-git-commit: 5d6ff45605980e5fe21933c5d8fb6c48e02f1628
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1121'
 ht-degree: 3%
 
 ---
 
 # Campaign 게재 기능 서버 {#acc-deliverability}
 
-시작 [v7.2.1 릴리스](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign은 고가용성을 가져오고 보안 규정 준수 문제를 해결하는 새로운 게재 기능 서버를 제안합니다. 이제 Campaign Classic이 게재 가능성 규칙, 브로드로그 및 억제 주소를 새 게재 가능성 서버에서 동기화합니다.
+시작 [v7.2.1 릴리스](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign은 고가용성을 가져오고 보안 규정 준수 문제를 해결하는 새로운 게재 기능 서버를 사용합니다. 이제 Campaign Classic이 게재 가능성 규칙, 브로드로그 및 억제 주소를 새 게재 가능성 서버에서 동기화합니다. 이전 게재 가능성 서버는 2022년 8월 31일에 폐기됩니다.
 
 Campaign Classic 고객은 새 게재 가능성 서버를 구현해야 합니다 **2022년 8월 31일 이전**.
 
@@ -30,13 +30,13 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 ## 영향을 받습니까?{#acc-deliverability-impacts}
 
-모든 고객은 다음을 업그레이드해야 합니다. [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) 새로운 게재 가능성 서버를 통해 환경을 구현합니다.
+모든 고객은 영향을 받게 되며 로 업그레이드해야 합니다. [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) (또는 그 이상) 환경을 구현하여 새로운 게재 가능성 서버를 활용할 수 있습니다.
 
 ## 업데이트 방법{#acc-deliverability-update}
 
 로서의 **호스팅 고객**, Adobe은 사용자와 협력하여 인스턴스를 최신 버전으로 업그레이드하고 Adobe Developer 콘솔에서 프로젝트를 만듭니다.
 
-로서의 **온-프레미스/하이브리드 고객**&#x200B;로 업그레이드해야 합니다. [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) 새 게재 가능성 서버를 활용할 수 있습니다. 모든 인스턴스가 업그레이드되면 다음을 수행해야 합니다 [새로운 통합 구현](#implementation-steps) 게재 기능 서버를 Adobe 하고 원활한 전환을 보장합니다.
+로서의 **온-프레미스/하이브리드 고객**&#x200B;로 업그레이드해야 합니다. [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) (또는 그 이상)을 사용하여 새로운 게재 가능성 서버를 활용할 수 있습니다. 모든 인스턴스가 업그레이드되면 다음을 수행해야 합니다 [새로운 통합 구현](#implementation-steps) 게재 기능 서버를 Adobe 하고 원활한 전환을 보장합니다.
 
 ## 구현 단계 {#implementation-steps}
 
