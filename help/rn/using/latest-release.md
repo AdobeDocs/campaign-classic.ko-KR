@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 2bbf548992b7ab9c0d8a6a0666c2024db5af1f63
+source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1958'
 ht-degree: 71%
 
 ---
@@ -51,7 +51,7 @@ _2022년 7월 1일_
 
 **개선 사항**
 
-* Internet Explorer 11의 수명 종료에 따라 이제 콘솔에서 Adobe 서비스의 HTML 렌더링 엔진이 Edge Chromium을 사용합니다.
+* Internet Explorer 11의 수명 종료에 따라 이제 콘솔에서 Adobe 서비스의 HTML 렌더링 엔진이 Edge Chromium을 사용합니다. 또한 이제 모든 클라이언트 콘솔 설치(Campaign Classic 7.3 빌드 버전)에 Microsoft Edge Webview 2 런타임을 설치해야 합니다. [자세히 보기](../../installation/using/installing-the-client-console.md)
 * 안정성을 최적화하기 위해 Adobe Campaign의 데이터베이스 연결 관리가 개선되었습니다.
 * 이제 Campaign에서 POP3용 Microsoft Exchange Online OAuth 2.0 인증이 지원됩니다. [자세히 보기](../../installation/using/external-accounts.md#bounce-mails-external-account)
 * 외부 데이터에서 데이터 보강 워크플로우 활동을 사용할 때 발생하는 다양한 문제를 수정했습니다. (NEO-38069)

@@ -3,7 +3,7 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 29fae1305a6d2b8debbc2aa705c047eaf3730457
+source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 52%
@@ -18,7 +18,7 @@ ht-degree: 52%
 
 * **[2022 릴리스 프로그램](technotes/using/dc-migration.md)**<br/> 환경을 업그레이드하고 보안, 인프라 및 성능을 개선합니다
 
-* **[3월 릴리스가 라이브입니다!](rn/using/latest-release.md)**<br/> 릴리스 노트의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오
+* **[7월 릴리스가 라이브입니다!](rn/using/latest-release.md)**<br/> 릴리스 노트의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오
 
 * **[Apple 메일 개인 정보 보호 FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ko)** 및 **[기술 정보](technotes/using/apple-mail-app-privacy-protection.md)**<br/> iOS 15에 대한 Apple의 발표에 대한 응답으로 지침을 찾습니다
 

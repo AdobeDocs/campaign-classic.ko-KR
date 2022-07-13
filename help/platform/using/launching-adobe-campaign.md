@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '513'
 ht-degree: 12%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 ![](../../assets/v7-only.svg)
 
-Campaign 클라이언트 콘솔은
+Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결할 수 있는 리치 클라이언트입니다. 에서 클라이언트 콘솔을 다운로드 및 구성하는 방법을 알아봅니다. [이 페이지](../../installation/using/installing-the-client-console.md).
 
 >[!CAUTION]
 >
@@ -45,7 +45,7 @@ Adobe ID을 사용하여 Adobe Campaign에 연결할 수 있습니다. 자세한
 
    데이터베이스에 처음 액세스하면 관리자가 제공한 비밀번호가 됩니다. 연결되면 을 통해 암호를 변경할 수 있습니다 **[!UICONTROL Tools > Change password...]** 메뉴 아래의 제품에서 사용할 수 있습니다. 연산자 및 연결에 대한 자세한 내용은 [액세스 관리](../../platform/using/access-management.md).
 
-1. 클릭 **[!UICONTROL LOG IN]** 확인합니다.<!--You can also press the **Enter** key to launch connection.-->
+1. **[!UICONTROL LOG IN]**&#x200B;을(를) 클릭하여 확인합니다.<!--You can also press the **Enter** key to launch connection.-->
 
 이제 액세스할 수 있습니다 [Adobe Campaign 작업 공간](../../platform/using/adobe-campaign-workspace.md).
 

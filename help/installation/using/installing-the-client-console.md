@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 0f63636e9cc22ac97e634a4f11dc585cb39b05c0
+source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1118'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,7 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 * 에서 Adobe Campaign과의 시스템 및 도구 호환성을 확인합니다. [호환성 매트릭스](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
 * Campaign 서버 URL 가져오기
 * 사용자 자격 증명 가져오기
+* 시스템에 Microsoft Edge Webview2 런타임(Campaign Classic 7.3 빌드 버전)이 설치되어 있어야 합니다. [자세히 알아보기](#webview)
 
 클라이언트 콘솔을 설치하거나 업데이트하는 프로세스는 Adobe Campaign Classic 구현에 따라 다릅니다.
 구현에 필요한 사항을 이해하려면 아래 세부 사항을 검토하십시오.
@@ -33,6 +34,12 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 >[!CAUTION]
 >
 >Campaign 클라이언트 콘솔 및 Campaign 애플리케이션 서버를 실행해야 합니다 **동일한 제품 버전에서**. 또한 Adobe은 **동일한 제품 빌드**. 에서 Campaign 클라이언트 및 서버 버전을 확인하는 방법을 알아봅니다 [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+
+## Microsoft Edge Webview2 런타임 설치 {#webview}
+
+Campaign Classic 7.3 빌드 버전에서 모든 콘솔 설치에 Microsoft Edge Webview 2 런타임이 필요합니다.
+
+웹 보기는 기본적으로 Windows 11 운영 체제의 일부로 설치됩니다. 시스템에 아직 없는 경우, Campaign Classic 콘솔 설치 프로그램에서 다운로드하라는 메시지를 표시합니다. [Microsoft 개발자 웹 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download). Microsoft에서 지원되지 않으므로 다운로드 링크가 Internet Explorer 11 브라우저에서 작동하지 않습니다. 링크에 액세스하려면 다른 브라우저를 사용해야 합니다.
 
 ## 호스팅된 구현 Adobe {#hosted-customers}
 
@@ -150,6 +157,9 @@ Campaign 서버 폴더에서 콘솔을 사용할 수 있게 되면 팝업 창에
 
 1. 사용자 로그인 자격 증명을 입력하고 을 클릭합니다. **[!UICONTROL Log in]**
 
+>[!NOTE]
+>
+>campaign classic 7.3 빌드 버전의 경우 Adobe Campaign 클라이언트 콘솔은 프록시 인증 중에 프록시 자격 증명을 두 번 요청할 수 있습니다. 이는 Microsoft Edge Webview2가 Internet Explorer와 달리 캐시/암호 저장소에 프록시 자격 증명을 저장하지 않기 때문입니다.
 
 **관련 항목**
 

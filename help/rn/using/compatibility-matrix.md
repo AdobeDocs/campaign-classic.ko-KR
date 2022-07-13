@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 98%
+source-wordcount: '768'
+ht-degree: 96%
 
 ---
 
@@ -364,6 +364,24 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 </tbody>
 </table>
 
+### Microsoft WebView2 런타임
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge WebView2 런타임
+</p>
+</td>
+<td>
+<p>최신 버전</p>
+</td>
+<td>
+<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download">Microsoft 개발자 웹 사이트에서 다운로드</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 모바일 SDK{#MobileSDK}
 
