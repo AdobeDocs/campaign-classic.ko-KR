@@ -5,10 +5,10 @@ description: Campaign 게재 기능 서버를 구현하는 방법 알아보기
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 5d6ff45605980e5fe21933c5d8fb6c48e02f1628
+source-git-commit: 6f6c329808e78a56a61997aba83c55520030afc7
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 3%
+source-wordcount: '1116'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Campaign Classic 고객은 새 게재 가능성 서버를 구현해야 합니다
 
 >[!NOTE]
 >
->이러한 변경 사항에 대한 질문이 있으면 [FAQ](#faq), 또는 연락처 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>이러한 변경 사항에 대한 자세한 내용은 [FAQ](#faq), 또는 연락처 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
 
 ## 변경 사항{#acc-deliverability-changes}
 
@@ -56,7 +56,7 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 1. 을(를) 확인합니다. `DmRendering_cuid` 옵션 값이 입력되었습니다.
 
    * 옵션이 채워지면 구현을 시작할 수 있습니다.
-   * 값을 입력하지 않은 경우 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) CUID를 가져올 수 있습니다.
+   * 값을 입력하지 않은 경우 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} 을 입력하여 CUID를 가져옵니다.
 
       이 옵션은 동일한 값으로 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에 채워야 합니다. 하이브리드 고객은 Adobe에 연락하여 MID, RT 및 EXEC 인스턴스에 옵션을 설정합니다.
 
@@ -91,7 +91,7 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
    >을(를) 저장해야 합니다. `config.zip` 파일을 다시 다운로드할 수 없으므로 다운로드 메시지가 나타나면 파일을 다운로드하십시오.
 
 1. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
-1. 기존 항목 선택 **[!UICONTROL Product profile]** 또는 필요한 경우 새 항목을 만듭니다. 이 작업에 대한 권한이 필요하지 않습니다 **[!UICONTROL Product profile]**. 자세한 내용은 **[!UICONTROL Product Profiles]**&#x200B;를 참조하려면 [이 페이지](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+1. 기존 항목 선택 **[!UICONTROL Product profile]** 또는 필요한 경우 새 항목을 만듭니다. 이 작업에 대한 권한이 필요하지 않습니다 **[!UICONTROL Product profile]**. 자세한 내용은 **[!UICONTROL Product Profiles]**&#x200B;를 참조하려면 [이 페이지](https://helpx.adobe.com/enterprise/using/manage-developers.html){_blank}.
    ![](assets/Product-Profile-API.png)
 
    그런 다음 **[!UICONTROL Save configured API]**.
@@ -152,18 +152,17 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 ## FAQ(자주 묻는 질문) {#faq}
 
+### 업데이트에 대한 타임라인은 무엇입니까?
+
+이러한 향상된 기능을 추가하고 보안을 강화하는 새 게재 기능 서버로 전환하는 작업은 호스팅된 고객(Campaign Managed Services)을 위해 2022년 7월 22일부터 시작됩니다. 호스팅된 모든 고객은 8월 말까지 업데이트됩니다.
+
+온-프레미스 및 하이브리드 고객은 동일한 시간대에 전환해야 합니다.
+
 ### 환경을 업그레이드하지 않으면 어떻게 됩니까?
 
-8월 31일까지 업그레이드되지 않은 모든 캠페인 인스턴스는 더 이상 Campaign 게재 가능성 서버와 연결할 수 없습니다. 따라서, **게재 능력을 위해 새로 고침** (게재 가능성 업데이트) 워크플로우가 실패합니다. 이 워크플로우는 MX 규칙 및 인바운드 규칙의 일별 업데이트를 관리합니다.
+8월 31일까지 업그레이드되지 않은 모든 캠페인 인스턴스는 더 이상 Campaign 게재 가능성 서버와 연결할 수 없습니다. 따라서, **게재 능력을 위해 새로 고침** (게재 가능성 업데이트) 워크플로우가 실패하여 게재 능력에 영향을 줍니다.
 
 환경을 업그레이드하지 않으면 이메일 설정이 동기화되지 않습니다(MX 관리 규칙, 인바운드 전자 메일 규칙, 도메인 관리 규칙 및 반송 자격 규칙). 이는 게재 능력에 시간이 지남에 따라 영향을 줄 수 있습니다. 이러한 규칙에 중요한 변경이 있는 경우 이 시점부터 수동으로 적용해야 합니다.
 
 MKT 인스턴스의 경우에만 [전역 제외 목록](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) 이 영향을 받습니다.
 
-### 지금 업그레이드할 수 없습니다. 지침은 무엇입니까?
-
-8월 31일 이전에 인스턴스를 업그레이드할 수 없는 경우 임시 비활성화해야 합니다 **게재 능력을 위해 새로 고침** (deliverabilityUpdate) 워크플로우가 이전 게재 가능성 서버와 동기화하지 않도록 업그레이드가 완료될 때까지 워크플로우입니다.
-
-
-
-자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
