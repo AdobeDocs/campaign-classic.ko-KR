@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: 8221afc3b73e1ddce4143394a1d77eab3995d892
 workflow-type: tm+mt
 source-wordcount: '2585'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -837,7 +837,7 @@ ht-degree: 99%
    + [하드웨어 크기 조정 권장 사항](technotes/using/hardware-sizing.md)
    + 업그레이드 및 호환성{#technote-migration}
       + [기술 노트](technotes/using/technote.md)
-      + [새 게재 기능 서버로 업데이트](technotes/using/deliverability-server.md)
+      + [새 Deliverability 서버 업데이트](technotes/using/deliverability-server.md)
       + [Apache 보안 업그레이드](technotes/using/acc-apache-upgrade.md)
       + [Campaign 구성 업데이트](technotes/using/acc-config-updates.md)
       + [IMS 업데이트](technotes/using/ims-updates.md)
