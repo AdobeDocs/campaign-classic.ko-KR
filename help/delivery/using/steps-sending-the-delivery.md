@@ -4,10 +4,10 @@ title: 게재 구성 및 보내기
 description: 게재를 구성하고 보내는 방법을 배웁니다
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
+source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 5%
+source-wordcount: '1502'
+ht-degree: 4%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 ![](../../assets/common.svg)
 
->[!NOTE]
->
->게재 소유자만 게재를 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 게재를 시작할 수 있으려면 를 사용하여 검토자로 추가해야 합니다 **[!UICONTROL Delivery start:]** 필드. 자세한 내용은 [이 섹션](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
+## 사용 권한{#delivery-permissions}
+
+게재 소유자만 게재를 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 게재를 시작할 수 있도록 에서는 오퍼를 검토자로 추가합니다 **[!UICONTROL Delivery start:]** 필드. [자세히 알아보기](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)
 
 ## 게재 추가 매개 변수 {#delivery-additiona-parameters}
 
@@ -25,32 +25,32 @@ ht-degree: 5%
 
 ![](assets/s_ncs_user_wizard_delivery.png)
 
-* **[!UICONTROL Delivery priority]**: 이 옵션을 사용하면 우선순위 수준(일반, 높음 또는 낮음)을 기재하여 게재 전송 순서에 영향을 줄 수 있습니다. 이를 통해 특정 보다 신속한 게재에 대한 주문 우선 순위를 지정할 수 있습니다.
+* **[!UICONTROL Delivery priority]**: 우선순위 수준을 설정하여 게재의 전송 순서를 변경하려면 이 옵션을 사용하십시오. 보통, 높음 또는 낮음.
 
-* **[!UICONTROL Message batch quantity]**: 이 옵션을 사용하면 동일한 XML 배달 패키지 내에 그룹화된 메시지 수를 정의할 수 있습니다. 매개 변수를 0으로 설정하면 메시지가 자동으로 그룹화됩니다. 패키지 크기는 계산에 의해 정의됩니다 `<delivery size>/1024`에는 패키지로 최대 256개의 메시지와 최소 8개의 메시지가 있습니다.
+* **[!UICONTROL Message batch quantity]**: 동일한 XML 배달 패키지 내에 그룹화된 메시지 수를 정의하려면 이 옵션을 사용합니다. 매개 변수를 0으로 설정하면 메시지가 자동으로 그룹화됩니다. 패키지 크기는 계산에 의해 정의됩니다 `<delivery size>/1024`에는 패키지로 최대 256개의 메시지와 최소 8개의 메시지가 있습니다.
 
    >[!IMPORTANT]
    >
-   >게재가 중복되면 매개 변수가 재설정됩니다.
+   >기존 매개 변수를 복제하여 게재를 만들면 이 매개 변수는 재설정됩니다.
 
-* **[!UICONTROL Send using multiple waves]**: 이 옵션을 사용하여 전체 대상자가 아닌 전파를 통해 메시지를 보낼 수 있습니다. 배치 수와 해당 비율을 구성합니다. [자세히 알아보기](#sending-using-multiple-waves)
+* **[!UICONTROL Send using multiple waves]**: 이 옵션을 사용하여 메시지를 한 번에 전체 대상자가 아닌 일괄 처리로 보낼 수 있습니다. [자세히 알아보기](#sending-using-multiple-waves)
 
 * **[!UICONTROL Test SMTP delivery]**: SMTP를 통한 전송을 테스트하려면 이 옵션을 사용합니다. 게재는 SMTP 서버에 대한 연결까지 처리되지만 전송되지 않습니다: 게재를 받는 모든 사람에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행하고 SMTP DATA 명령 전에 연결을 닫습니다.
 
    >[!NOTE]
    >
-   >* 중간 소싱에서는 이 옵션을 권장하지 않습니다.
+   >* 중간 소싱에서 이 옵션을 설정하지 않아야 합니다.
    >
    >* SMTP 서버 구성에 대해 자세히 알아보기, in [이 섹션](../../installation/using/configure-delivery-settings.md).
 
 
-* **[!UICONTROL Email BCC]**: 이 옵션을 사용하면 메시지 타겟에 숨은 참조 이메일 주소를 추가하면 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](sending-messages.md#archiving-emails)을 참조하십시오.
+* **[!UICONTROL Email BCC]**: 메시지 타겟에 숨은 참조 이메일 주소를 추가하면 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다. [자세히 알아보기](sending-messages.md#archiving-emails)
 
 ## 게재 확인 {#confirming-delivery}
 
-게재를 구성하고 전송할 준비가 되면 게재 분석을 실행했는지 확인하십시오.
+게재를 구성하고 전송할 준비가 되면 게재 분석을 실행합니다.
 
-이렇게 하려면 **[!UICONTROL Send]**&#x200B;를 클릭하고 원하는 작업을 선택한 다음 를 클릭합니다. **[!UICONTROL Analyze]**. 자세한 내용은 [분석 시작](steps-validating-the-delivery.md#analyzing-the-delivery).
+이렇게 하려면 **[!UICONTROL Send]**&#x200B;를 클릭하고 원하는 작업을 선택한 다음 를 클릭합니다. **[!UICONTROL Analyze]**. [자세히 알아보기](steps-validating-the-delivery.md#analyzing-the-delivery)
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 
 ## 게재 전송 예약 {#scheduling-the-delivery-sending}
 
-게재 예약이나 판매 압력을 관리하고 모집단을 지나치게 모집하지 않기 위해 메시지 게재를 연기할 수 있습니다.
+게재를 예약하여 메시지 전송을 연기할 수 있습니다.
 
 1. 을(를) 클릭합니다. **[!UICONTROL Send]** 버튼을 클릭하고 **[!UICONTROL Postpone delivery]** 선택 사항입니다.
 

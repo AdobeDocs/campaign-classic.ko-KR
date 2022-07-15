@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: ht
-source-wordcount: '4892'
-ht-degree: 100%
+source-git-commit: 001d5494e4b77e03c610c7c8b2cb38161d65c711
+workflow-type: tm+mt
+source-wordcount: '4906'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,9 @@ ht-degree: 100%
 
 ## 2022년
 
+### 2022년 7월 {#july-2022}
+
+* 2022년 7월 릴리스와 함께 제공되는 기능 및 개선 사항은 설명서에 자세히 설명되어 있습니다.
 
 ### 2022년 3월 {#mar-2022}
 
@@ -471,7 +474,7 @@ Hadoop FDA 커넥터 개선 사항 - [자세한 내용](../../installation/using
 
 설치 안내서를 업데이트하고 호환성 매트릭스 최신 버전에 맞추었습니다. 새로 지원하는 시스템을 추가했습니다. 사용 중단 및 미지원 시스템을 제거했습니다. [자세한 내용](../../installation/using/general-architecture.md)
 
-호환성 매트릭스가 Hadoop 3.0 및 Snowflake FDA 커넥터로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
+호환성 매트릭스가 Hadoop 3.0 및 Snowflake FDA 커넥터로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 설치 안내서에 IP 선호도에 대한 모범 사례가 추가되었습니다. [자세한 내용](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -489,7 +492,7 @@ URL 보고서 구성에 대한 새 매개 변수가 [여기](../../reporting/usi
 
 **Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스** 페이지가 새로운 FDA 커넥터로 업데이트되었습니다. [자세한 내용](../../installation/using/capability-matrix.md).
 
-**Campaign Classic 기능 매트릭스** 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
+**Campaign Classic 기능 매트릭스** 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 새 **[!UICONTROL Cleanup of Nmsaddress]** 워크플로우는 [여기에](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress) 설명되어 있습니다.
 
@@ -541,7 +544,7 @@ TLS(보안 SMS 메시지) - [자세한 내용](https://helpx.adobe.com/kr/campai
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-Adobe Campaign Enhanced MTA 설명서를 사용할 수 있습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acc-campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA 설명서를 사용할 수 있습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 캠페인 내의 &quot;가능한 한 빨리 시작&quot; 상태에 있는 워크플로우 문제 해결 방법에 대한 새 섹션이 추가되었습니다. [자세한 내용](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -603,7 +606,7 @@ Adobe Campaign Classic에서 추적을 위한 일반 지침에 대한 새 페이
 
 **19.1 릴리스에 포함된 새로운 기능**
 
-제어판 - [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
+제어판 - [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 감사 추적 - [자세한 내용](../../production/using/audit-trail.md)
 
@@ -627,7 +630,7 @@ Campaign 서버 제거 단계를 설명하는 섹션이 추가되었습니다. [
 
 Experience Cloud 트리거 기술 정보를 업데이트했습니다. [자세한 내용](../../integrations/using/about-triggers.md)
 
-오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
+오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 트랜잭션 메시지을 위한 SOAP 인증 방법에 대한 자세한 내용을 추가했습니다. [자세한 내용](../../message-center/using/event-description.md)
 
@@ -666,7 +669,7 @@ Campaign Classic에서 사용할 수 있는 다른 외부 계정 및 이를 구�
 공유 대상 통합에 대한 설명서가 업데이트되었습니다.
 [자세한 내용](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-다음 기술 정보를 업데이트했습니다. [SMS 커넥터 프로토콜 및 설정](https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html).
+다음 기술 정보를 업데이트했습니다. [SMS 커넥터 프로토콜 및 설정](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 기술 워크플로우 섹션이 업데이트되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
 

@@ -6,20 +6,22 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 29e56d6bf2817eeb863cbe33f99233a8241f2bf5
-workflow-type: ht
-source-wordcount: '881'
-ht-degree: 100%
+source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
+workflow-type: tm+mt
+source-wordcount: '921'
+ht-degree: 90%
 
 ---
 
-# 업그레이드 시작하기{#rn-overview}
+# 릴리스 업데이트{#rn-overview}
 
 ![](../../assets/v7-only.svg)
 
+Adobe Campaign Classic은 새로운 기능, 버그 수정을 가져와 성능, 보안 및 유용성을 향상시키는 제품 업데이트를 정기적으로 릴리스합니다. 이러한 업데이트는 제품 빌드로 릴리스됩니다. 각 새 빌드에 대한 자세한 내용은 [릴리스 노트](latest-release.md).
+
 ## 릴리스 상태{#rn-statuses}
 
-모든 새 빌드는 색상으로 상태가 표시됩니다.
+모든 새 빌드는 의 색상으로 식별되는 상태를 제공합니다 [릴리스 노트](latest-release.md).
 
 ![](assets/do-not-localize/green3.png) GA(**General Availability**) - 안정적인 최신 빌드로 프로덕션에서 검증되었으며 Adobe에서 권장합니다.
 
@@ -43,7 +45,7 @@ Adobe Campaign은 정기적으로 업데이트됩니다. 이렇게 정기적으�
 
 Adobe는 안정적인 구성을 위해 동일한 클라이언트 구성에서 실행하는 모든 서버에 **동일한 빌드**&#x200B;를 설치하기를 권장합니다.
 
-또한 릴리스 정보에서 별도로 언급한 경우를 제외하고 클라이언트 콘솔은 서버 인스턴스와 **동일한 빌드**&#x200B;를 사용해야 합니다.
+또한, [릴리스 노트](latest-release.md)로 설정되면 클라이언트 콘솔이 켜져 있어야 합니다. **동일한 빌드** 를 서버 인스턴스로 설정합니다.
 
 구현을 최신 상태로 유지하려면 각 새로운 릴리스에 포함된 [사용되지 않거나 제거된 기능](../../rn/using/deprecated-features.md) 및 [호환성 매트릭스](../../rn/using/compatibility-matrix.md) 페이지를 참조하세요.
 
@@ -51,7 +53,9 @@ Adobe는 안정적인 구성을 위해 동일한 클라이언트 구성에서 �
 
 호스팅 고객(Managed Service 또는 Hybrid)의 경우 환경을 업그레이드하려면 고객 지원 팀에 문의해 주세요.
 
-온-프레미스 사용자는 업그레이드를 수행할 수 있습니다. 이를 위해서는 [안정적인 최신 빌드(GA)를 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)하고 모든 환경을 업그레이드합니다. [업그레이드 프로세스](../../production/using/build-upgrade.md)에 대한 자세한 내용은 [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)를 참조하십시오.
+온-프레미스 사용자는 업그레이드를 수행할 수 있습니다. 이를 위해서는 [안정적인 최신 빌드(GA)를 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)하고 모든 환경을 업그레이드합니다.
+
+추가 정보 [업그레이드 프로세스](../../production/using/build-upgrade.md), 및에서 [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md).
 
 ## 연간 업그레이드 {#yearly-upgrade}
 
@@ -124,7 +128,7 @@ Adobe 팀이 사용자의 조직에 업그레이드 여정을 안내해 드리�
     </a>
     </div>
     <ul>
-    <li>Campaign Classic의 두 버전 간 거리(v5 --&gt; v7)에 따라 사용하는 Campaign Classic 인스턴스를 업그레이드할 때 들어가는 노력과 복잡도가 올라갑니다.</li>
+    <li>Campaign Classic의 두 버전 간 거리(v6 --&gt; v7)에 따라 사용하는 Campaign Classic 인스턴스를 업그레이드할 때 들어가는 노력과 복잡도가 올라갑니다.</li>
     <li>조직에서 업그레이드 전 대기하는 기간이 길어질수록 업그레이드가 더욱 복잡해지고, 더 많은 취약점에 노출될 수 있습니다.</li>
     <li>정기 업데이트를 통해 업그레이드에 따른 가동 중지 시간과 회귀 문제가 발생할 위험을 줄일 수 있습니다.</li>
     </ul>
