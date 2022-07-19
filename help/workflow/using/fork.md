@@ -4,7 +4,7 @@ title: 포크
 description: 포크 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 포크{#fork}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 를 사용할 수 있습니다 **[!UICONTROL Fork]** 활동을 통해 여러 아웃바운드 전환을 만들고 동일한 워크플로우 내에서 독립적으로 여러 활동을 실행할 수 있습니다.
 

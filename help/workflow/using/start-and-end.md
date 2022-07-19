@@ -4,7 +4,7 @@ title: 시작 및 종료
 description: 시작 및 종료 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # 시작 및 종료{#start-and-end}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 다음 **[!UICONTROL Start]** 및 **[!UICONTROL End]** 활동을 사용하면 워크플로우의 시작과 끝을 그래픽으로 표시할 수 있습니다. 이러한 활동은 영향을 주지 않으므로 선택 사항입니다.
 

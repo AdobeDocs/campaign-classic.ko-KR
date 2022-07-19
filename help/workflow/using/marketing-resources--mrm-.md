@@ -3,7 +3,7 @@ product: campaign
 title: 마케팅 리소스(MRM)
 description: 마케팅 리소스(MRM)
 feature: Workflows, Targeting Activity
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 11%
@@ -13,7 +13,7 @@ ht-degree: 11%
 
 # 마케팅 리소스(MRM){#marketing-resources-mrm}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 아래 자세히 설명된 워크플로우는 **마케팅 리소스(MRM)** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../../campaign/using/designing-marketing-campaigns.md).
 

@@ -4,7 +4,7 @@ title: 예외
 description: 제외 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
 exl-id: f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 예외{#exclusion}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 An **제외**-type 활동은 하나 이상의 다른 대상이 추출되는 기본 대상을 기반으로 대상을 만듭니다.
 

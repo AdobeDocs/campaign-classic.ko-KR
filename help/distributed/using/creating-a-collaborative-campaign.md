@@ -4,7 +4,7 @@ title: 공동 캠페인 만들기
 description: 공동 작업 캠페인을 만드는 방법을 알아봅니다
 feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # 공동 캠페인 만들기{#creating-a-collaborative-campaign-intro}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 중앙 엔티티는 **분산 마케팅** 캠페인 템플릿. [이 페이지](about-distributed-marketing.md#collaborative-campaign)를 참조하십시오.
 
@@ -149,7 +149,7 @@ ht-degree: 3%
 
 ![](assets/mkg_dist_edit_kit2.png)
 
-### 알림 을 참조하십시오 {#notifications}
+### 알림 {#notifications}
 
 알림에 대한 구성은 로컬 엔티티에 대한 알림과 동일합니다. [이 섹션](creating-a-local-campaign.md#notifications)을 참조하십시오.
 

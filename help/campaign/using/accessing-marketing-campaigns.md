@@ -4,7 +4,7 @@ title: 마케팅 캠페인 액세스
 description: 마케팅 캠페인 액세스
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 마케팅 캠페인 액세스{#accessing-marketing-campaigns}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign을 사용하면 마케팅 캠페인을 만들고, 구성하고, 실행하고, 분석할 수 있습니다. 모든 마케팅 캠페인은 통합 제어 센터에서 관리할 수 있습니다.
 
@@ -115,7 +115,7 @@ Adobe Campaign을 사용하면 다양한 마케팅 및 커뮤니케이션 캠페
 >
 >캠페인 템플릿의 구성은 [캠페인 템플릿](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
-#### 일정 {#schedule}
+#### 예약 {#schedule}
 
 캠페인은 게재 집합을 중앙 집중화합니다. 각 캠페인에 대해 예약은 모든 구성 요소에 대한 전역 보기를 제공합니다. 이를 통해 작업 및 게재를 표시하고 쉽게 액세스할 수 있습니다.
 

@@ -4,7 +4,7 @@ title: 워크플로우 실행 모니터링
 description: 워크플로우 실행 모니터링
 feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '2016'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 워크플로우 실행 모니터링 {#monitoring-workflow-execution}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 이 섹션에서는 워크플로우의 실행을 모니터링하는 방법에 대한 정보를 제공합니다.
 

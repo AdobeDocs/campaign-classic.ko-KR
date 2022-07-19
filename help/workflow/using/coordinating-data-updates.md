@@ -4,7 +4,7 @@ title: 데이터 업데이트 조정
 description: 데이터 업데이트 조정
 feature: Workflows, Data Management
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # 데이터 업데이트 조정{#coordinating-data-updates}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 이 사용 사례에서는 워크플로우의 여러 실행을 사용할 때 관련 업데이트를 관리할 수 있는 워크플로우 만들기에 대해 자세히 설명합니다.
 

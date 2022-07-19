@@ -4,7 +4,7 @@ title: 워크플로우 구축
 description: 워크플로우 구축 방법 알아보기
 feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # 워크플로우 구축 {#building-a-workflow}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 이 섹션에서는 Campaign에서 워크플로우를 구축하는 주요 원칙과 모범 사례를 자세히 설명합니다.
 

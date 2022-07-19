@@ -4,7 +4,7 @@ title: 오퍼 엔진 제어
 description: 오퍼 엔진 제어
 feature: Workflows, Offers
 topic-tags: technical-workflows
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 26%
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # 오퍼 엔진 제어{#control-of-offer-engine}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 아래 자세히 설명된 워크플로우는 **실행 인스턴스를 사용하여 오퍼 엔진 제어** 기본적으로 모듈입니다.
 

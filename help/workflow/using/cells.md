@@ -4,7 +4,7 @@ title: 셀
 description: 셀
 feature: Workflows, Targeting Activity
 exl-id: 7b562dba-7e4b-40a7-91db-7b9379de44ca
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 8%
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # 셀{#cells}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 다음 **[!UICONTROL Cells]** 활동은 데이터 열 형태로 다양한 하위 집합에 대한 보기를 제공합니다. 부분집합 조작을 용이하게 하며 개인화 가능성을 유도하도록 설계되었습니다.
 

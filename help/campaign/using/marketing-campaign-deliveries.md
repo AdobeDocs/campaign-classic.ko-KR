@@ -4,7 +4,7 @@ title: 마케팅 캠페인 게재
 description: 마케팅 캠페인 게재에 대해 자세히 알아보기
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 마케팅 캠페인 게재 {#marketing-campaign-deliveries}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 캠페인 대시보드, 캠페인 워크플로우를 통해 또는 게재 개요를 통해 직접 게재를 만들 수 있습니다.
 

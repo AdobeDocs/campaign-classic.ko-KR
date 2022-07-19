@@ -4,7 +4,7 @@ title: 마케팅 캠페인 만들기
 description: 마케팅 캠페인을 만들고 실행하는 방법을 알아봅니다
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-source-git-commit: f95b75adf8f46d8301d800451ea0e62629690a8f
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 6%
@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # 마케팅 캠페인 시작{#setting-up-marketing-campaigns}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 캠페인에는 작업(게재) 및 프로세스(파일 가져오기 또는 추출)와 리소스(마케팅 문서, 게재 아웃라인)가 포함됩니다. 마케팅 캠페인에서 사용됩니다. 캠페인은 프로그램의 일부이며 프로그램은 캠페인 플랜에 포함됩니다.
 
@@ -41,7 +41,7 @@ ht-degree: 6%
 
 1. 을(를) 클릭합니다. **탐색기** 아이콘을 클릭합니다.
 1. 계획을 생성할 폴더를 마우스 오른쪽 단추로 클릭합니다.
-1. 선택 **새 폴더 추가 > Campaign 관리 > 계획**.
+1. 선택 **새 폴더 추가 > Campaign Management > 계획**.
 
    ![](assets/create_plan_1.png)
 

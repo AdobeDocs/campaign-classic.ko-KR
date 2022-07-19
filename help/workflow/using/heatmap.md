@@ -4,7 +4,7 @@ title: 캠페인 워크플로우 열 지도
 description: 워크플로우 HeatMap을 사용하여 워크플로우 모니터링
 feature: Workflows, Heatmap
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # 워크플로우 히트맵 {#workflow-heatmap}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 캠페인 워크플로우 HeatMap은 현재 실행 중인 모든 워크플로우를 색상으로 구분된 그래픽으로 표시합니다. 다음 경우에만 사용할 수 있습니다 **Campaign 관리자**.
 

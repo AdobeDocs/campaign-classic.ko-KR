@@ -4,7 +4,7 @@ title: 워크플로우 활동 기본 정보
 description: 활동 정보
 feature: Workflows, Data Management
 exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # 워크플로우 활동{#wf-activities}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 이 섹션에서는 사용 가능한 모든 활동을 설명합니다. 워크플로우가 작성/편집되는 노드 또는 컨텍스트에 따라 사용 가능한 활동이 달라질 수 있습니다. 예를 들어 캠페인에서 만들어진 워크플로우에는 채널별 게재 활동이 있습니다.
 

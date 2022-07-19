@@ -4,7 +4,7 @@ title: 캠페인 추적
 description: Campaign Distributed Marketing을 사용하여 캠페인을 추적하는 방법을 알아봅니다
 feature: Distributed Marketing
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
-source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 캠페인 추적{#tracking-a-campaign}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 중앙 엔티티 운영자는 캠페인 패키지 목록에서 캠페인 주문을 추적할 수 있습니다.
 

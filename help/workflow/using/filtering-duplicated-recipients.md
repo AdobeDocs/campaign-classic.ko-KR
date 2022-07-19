@@ -4,7 +4,7 @@ title: 중복 수신자 필터링
 description: 중복 수신자를 필터링하는 방법을 알아봅니다
 feature: Workflows
 exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # 중복 수신자 필터링 {#filtering-duplicated-recipients}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 이 예제에서는 중복 프로필을 복구하기 위해 게재에 두 번 이상 표시되는 수신자를 필터링하려고 합니다.
 

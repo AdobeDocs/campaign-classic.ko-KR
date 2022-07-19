@@ -4,7 +4,7 @@ title: 작업 활동 정보
 description: 작업 활동 정보
 feature: Workflows, Data Management
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 워크플로우의 작업 활동{#about-action-activities}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 * **배달**: 게재 작업을 구성할 수 있습니다. 자세한 내용은 [배달](delivery.md) 섹션을 참조하십시오.
 * **게재 제어**: 게재를 시작, 일시 중지 또는 중지할 수 있습니다. 자세한 내용은 [게재 제어](delivery-control.md) 섹션을 참조하십시오.

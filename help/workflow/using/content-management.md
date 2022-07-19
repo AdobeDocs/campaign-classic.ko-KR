@@ -4,7 +4,7 @@ title: 콘텐츠 관리
 description: 콘텐츠 관리
 feature: Workflows, Data Management
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # 콘텐츠 관리{#content-management}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 A **콘텐츠 관리** 활동을 사용하면 컨텐츠를 만들고 조작하고 이 컨텐츠를 기반으로 파일을 생성할 수 있습니다. 그런 다음 &#39;배달&#39; 활동을 통해 이 콘텐츠를 전달할 수 있습니다.
 

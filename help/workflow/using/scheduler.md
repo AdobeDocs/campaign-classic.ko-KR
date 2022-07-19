@@ -4,7 +4,7 @@ title: 예약
 description: 예약 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
 exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # 예약 {#scheduler}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 다음 **스케줄러** 은 해당 일정에 지정된 시간에 전환을 활성화하는 영구 작업입니다.
 

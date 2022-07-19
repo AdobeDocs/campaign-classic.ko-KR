@@ -3,7 +3,7 @@ product: campaign
 title: 게재
 description: 기본 게재 워크플로우에 대해 자세히 알아봅니다
 feature: Workflows
-source-git-commit: 25e8acdc449c7002e467db17e7c70e3dc017dded
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # 게재{#deliveries}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 아래 자세히 설명된 워크플로우는 **게재** 기본적으로 모듈입니다.
 

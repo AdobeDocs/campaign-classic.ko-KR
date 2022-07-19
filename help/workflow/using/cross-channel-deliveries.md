@@ -4,7 +4,7 @@ title: 크로스 채널 게재
 description: 크로스 채널 게재에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 8%
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # 크로스 채널 게재{#cross-channel-deliveries}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 크로스 채널 게재는 **[!UICONTROL Deliveries]** campaign 워크플로우 활동의 탭.
 

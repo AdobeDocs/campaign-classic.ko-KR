@@ -4,7 +4,7 @@ title: 파일 수집기
 description: 파일 수집기 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 파일 수집기{#file-collector}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 다음 **파일 수집기** 디렉토리에 하나 이상의 파일이 도착하는 것을 모니터링하고 수신된 각 파일에 대해 해당 전환을 활성화합니다. 각 이벤트에 대해 **[!UICONTROL filename]** 변수에는 받은 파일의 전체 이름이 들어 있습니다. 수집된 파일은 보관 목적으로 다른 디렉토리로 이동되며 한 번만 카운트되도록 합니다.
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Filter]**
 
-      이 필터와 일치하는 파일만 고려합니다. 디렉토리의 다른 파일은 무시됩니다. 필터가 비어 있으면 디렉토리의 모든 파일이 고려됩니다. 필터 예: ***.zip**, **import-*.txt**.
+      이 필터와 일치하는 파일만 고려합니다. 디렉토리의 다른 파일은 무시됩니다. 필터가 비어 있으면 디렉토리의 모든 파일이 고려됩니다. 필터 예: **&#42;.zip**, **가져오기&#42;.txt**.
 
    * **[!UICONTROL Stop as soon as a file has been processed]**
 

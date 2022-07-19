@@ -4,7 +4,7 @@ title: 로컬 승인 활동 사용
 description: 로컬 승인 활동을 사용하는 방법을 알아봅니다
 feature: Workflows
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 로컬 승인 활동 사용{#using-the-local-approval-activity}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 다음 **[!UICONTROL Local approval]** 타겟팅 워크플로우에 통합된 활동을 사용하면 게재를 보내기 전에 수신자 승인 프로세스를 설정할 수 있습니다.
 

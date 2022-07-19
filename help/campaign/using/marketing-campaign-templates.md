@@ -4,7 +4,7 @@ title: 마케팅 캠페인 템플릿
 description: 마케팅 캠페인 템플릿
 feature: Campaigns, Templates
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Campaign 템플릿 만들기 및 구성 {#campaign-templates}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 모든 마케팅 캠페인은 주요 특성 및 기능을 저장하는 템플릿을 기반으로 합니다. 캠페인 템플릿은 **[!UICONTROL Resources > Templates > Campaign templates]** 노드 아래에 있어야 합니다. 기본 템플릿이 표준으로 제공됩니다. 사용 가능한 모든 모듈(문서, 작업, 시드 주소 등)을 사용하여 새 캠페인을 만들 수 있지만 제공된 모듈은 Adobe Campaign 플랫폼의 권한 및 구성에 따라 다릅니다.
 

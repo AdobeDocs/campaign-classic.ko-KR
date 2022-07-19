@@ -4,7 +4,7 @@ title: 운영자에게 개인화된 경고 보내기
 description: 운영자에게 개인화된 경고를 보내는 방법을 알아봅니다
 feature: Workflows
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 운영자에게 개인화된 경고 보내기{#sending-personalized-alerts-to-operators}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 이 예에서는 뉴스레터를 열었지만 포함된 링크를 클릭하지 않은 프로필의 이름이 포함된 운영자에게 경고를 보내려고 합니다.
 

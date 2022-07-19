@@ -4,7 +4,7 @@ title: 데이터 보강
 description: 데이터 보강 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Enrichment Activity, Targeting Activity
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 데이터 보강{#enrichment}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 다음 **[!UICONTROL Enrichment]** 활동을 사용하면 프로필 목록에 정보를 추가하고 기존 테이블에 연결하는 링크를 추가할 수 있습니다(새 조인 생성). 데이터베이스에 있는 프로필의 조정 기준도 정의할 수 있습니다.
 

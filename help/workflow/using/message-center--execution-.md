@@ -3,7 +3,7 @@ product: campaign
 title: 메시지 센터(실행)
 description: 메시지 센터(실행)
 feature: Workflows
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 9%
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # 메시지 센터(실행){#message-center-execution}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 아래 자세히 설명된 워크플로우는 **메시지 센터 - 실행** 기본적으로 추가 기능.
 

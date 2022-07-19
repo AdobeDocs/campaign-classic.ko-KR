@@ -4,7 +4,7 @@ title: 셀별 오퍼
 description: 셀별 오퍼
 feature: Workflows, Targeting Activity, Interaction
 exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 8%
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # 셀별 오퍼{#offers-by-cell}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 다음 **[!UICONTROL Offers by cell]** 활동을 사용하면 인바운드 모집단을 여러 세그먼트로(예: 쿼리에서) 배포하고 이러한 각 세그먼트에 대해 표시할 오퍼를 지정할 수 있습니다.
 

@@ -3,7 +3,7 @@ product: campaign
 title: 메시지 센터(제어)
 description: 메시지 센터(제어)
 feature: Workflows
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # 메시지 센터(제어){#message-center-control}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 아래에 자세히 설명된 워크플로우는 매시간마다 실행되도록 예약되어 있습니다. 와 함께 설치됩니다. **메시지 센터 - 제어** 기본적으로 모듈입니다.
 

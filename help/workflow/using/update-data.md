@@ -4,7 +4,7 @@ title: 데이터 업데이트
 description: 데이터 업데이트 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows, Targeting Activity, Data Management
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 데이터 업데이트{#update-data}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 An **데이터 업데이트**-type activity에서는 데이터베이스의 필드에 대한 대량 업데이트를 수행합니다.
 

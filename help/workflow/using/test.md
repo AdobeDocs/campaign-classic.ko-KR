@@ -4,7 +4,7 @@ title: 테스트
 description: 테스트 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows
 exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # 테스트{#test}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 A **테스트** 유형 활동은 연결된 조건을 충족하는 첫 번째 전환을 활성화합니다. 충족된 조건이 없고 **[!UICONTROL Use the default fork]** 옵션이 활성화되면 기본 전환이 활성화됩니다.
 

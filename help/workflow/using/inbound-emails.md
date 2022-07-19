@@ -4,7 +4,7 @@ title: 인바운드 이메일
 description: 인바운드 이메일 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows, Channels Activity
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 인바운드 이메일{#inbound-emails}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 다음 **인바운드 전자 메일** 활동을 사용하면 POP3 메일 서버에서 전자 메일 메시지를 다운로드하고 처리할 수 있습니다.
 

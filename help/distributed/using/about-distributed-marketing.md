@@ -4,7 +4,7 @@ title: 분산 마케팅 시작
 description: 분산 마케팅 시작
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
-source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 분산 마케팅 시작{#about-distributed-marketing}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign에서 제공하는 기능 **분산 마케팅** 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 캠페인 구현 애플리케이션 공동 캠페인을 실시할 수 있습니다. 이러한 협력은 **[!UICONTROL list of campaign packages]**&#x200B;를 설정하는 경우, 중앙에서 만든 캠페인 템플릿 및 인스턴스가 로컬 엔티티에 제공됩니다.
 

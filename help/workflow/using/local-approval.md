@@ -4,7 +4,7 @@ title: 로컬 승인
 description: 로컬 승인
 feature: Workflows
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 로컬 승인{#local-approval}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 타겟팅 워크플로우에 통합되면, **[!UICONTROL Local approval]** 활동을 통해 게재를 보내기 전에 수신자 승인 프로세스를 설정할 수 있습니다.
 

@@ -4,7 +4,7 @@ title: 목록 읽기
 description: 목록 읽기 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows, Targeting Activity
 exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 목록 읽기{#read-list}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 워크플로우에서 처리된 데이터는 이전 세그먼테이션이나 파일 업로드 후 데이터를 미리 준비하거나 구조화한 목록에서 가져올 수 있습니다.
 

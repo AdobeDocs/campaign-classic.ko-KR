@@ -4,7 +4,7 @@ title: 사용자 정의 날짜 필드를 통한 이메일 강화
 description: 사용자 지정 날짜 필드를 사용하여 이메일을 보강하는 방법을 알아봅니다
 feature: Workflows
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # 사용자 정의 날짜 필드를 통한 이메일 강화{#email-enrichment-with-custom-date-fields}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 이 예제에서는 이번 달에 생일을 맞는 수신자에게 사용자 지정 데이터 필드가 포함된 이메일을 보내려고 합니다. 그 이메일에는 생일 전후로 일주일간 유효한 쿠폰이 포함될 것이다.
 

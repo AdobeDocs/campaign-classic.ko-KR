@@ -4,7 +4,7 @@ title: 압력 규칙
 description: 압력 규칙
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '3285'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # 압력 규칙{#pressure-rules}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## 마케팅 피로도 기본 정보 {#about-marketing-fatigue}
 
@@ -387,24 +387,24 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
  <tbody> 
   <tr> 
    <td> 배달 1<br /> </td> 
-   <td> 비활성화됨<br /> </td> 
+   <td> 비활성화<br /> </td> 
    <td> 5<br /> </td> 
    <td> 오후 3시<br /> </td> 
    <td> 오전 8시(다음날)<br /> </td> 
    <td> 오후 2시<br /> </td> 
    <td> 매일 밤<br /> </td> 
-   <td> 제외<br /> </td> 
-   <td> 제외<br /> </td> 
+   <td> 제외됨<br /> </td> 
+   <td> 제외됨<br /> </td> 
   </tr> 
   <tr> 
    <td> 배달 2<br /> </td> 
-   <td> 비활성화됨<br /> </td> 
+   <td> 비활성화<br /> </td> 
    <td> 10<br /> </td> 
    <td> 오후 4시<br /> </td> 
    <td> 오전 9시(다음날)<br /> </td> 
    <td> 오후 2시<br /> </td> 
    <td> 매일 밤<br /> </td> 
-   <td> 전송<br /> </td> 
+   <td> 전송됨<br /> </td> 
    <td> 오전 9시(다음날)<br /> </td> 
   </tr> 
  </tbody> 

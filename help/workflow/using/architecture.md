@@ -4,7 +4,7 @@ title: 아키텍처
 description: 워크플로우는 처리 로드를 공유하기 위해 여러 서버에서 시작할 수 있는 특정 모듈에 의해 처리됩니다.
 feature: Workflows
 exl-id: 46801f78-706c-4dfa-bce7-3d15f569f222
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 아키텍처 {#architecture}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 워크플로우는 특정 모듈에 의해 처리됩니다. 처리 로드를 공유하기 위해 여러 서버에서 이 모듈을 시작할 수 있습니다.
 

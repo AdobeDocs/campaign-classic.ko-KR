@@ -4,7 +4,7 @@ title: 다대다 관계를 사용하여 쿼리
 description: 다대다 관계를 사용하여 쿼리를 수행하는 방법을 알아봅니다
 feature: Query Editor
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 다대다 관계를 사용하여 쿼리 {#querying-using-a-many-to-many-relationship}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 이 예제에서는 지난 7일 동안 연락하지 않은 수신자를 복구하려고 합니다. 이 쿼리는 모든 게재와 관련이 있습니다.
 

@@ -4,7 +4,7 @@ title: 요약 목록 만들기
 description: 요약 목록 만들기
 feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 요약 목록 만들기{#creating-a-summary-list}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 이 사용 사례에서는 파일을 수집한 후 여러 추가 작업을 수행한 후 요약 목록을 만들 수 있는 워크플로우 작성을 자세히 설명합니다. 이 예제에서는 스토어에서 구입한 연락처 목록을 기반으로 합니다.
 
@@ -61,7 +61,7 @@ Phone;500;London 5
 
    이 활동에 대한 자세한 내용은 [파일에서 데이터 로드](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
 
-1. 구성 **파일 수집기** 활동: 선택한 디렉터리에서 텍스트(*.txt) 유형 파일을 수집합니다.
+1. 구성 **파일 수집기** 텍스트를 수집할 활동(&#42;.txt) 선택한 디렉토리에서 파일을 입력합니다.
 
    ![](assets/uc2_enrich_collecteur.png)
 

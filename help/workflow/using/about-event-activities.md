@@ -4,7 +4,7 @@ title: 이벤트 활동 기본 정보
 description: 이벤트 활동 기본 정보
 feature: Workflows, Data Management
 exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 5%
@@ -13,7 +13,7 @@ ht-degree: 5%
 
 # 워크플로우의 이벤트 활동{#about-event-activities}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 이러한 활동의 주요 작업은 이벤트 대기로 구성됩니다. 예를 들어, 파일, 이메일 또는 프로그램에서 보낸 신호를 받을 수 있습니다.
 

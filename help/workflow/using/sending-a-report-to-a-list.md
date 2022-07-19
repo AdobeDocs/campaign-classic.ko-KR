@@ -4,7 +4,7 @@ title: 목록으로 보고서 보내기
 description: 워크플로우를 사용하여 목록으로 보고서를 보내는 방법 알아보기
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 목록으로 보고서 보내기{#sending-a-report-to-a-list}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 이 사용 사례에서는 월별 기본 제공 세트를 생성하는 방법을 자세히 설명합니다 **[!UICONTROL Tracking indicators]** 수신자 목록으로 보내는 방법 및 PDF 형식으로 보고서를 보냅니다.
 

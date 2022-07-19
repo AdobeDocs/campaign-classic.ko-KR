@@ -4,7 +4,7 @@ title: 집계 업데이트
 description: 업데이트 집계 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # 집계 업데이트{#update-aggregate}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 집계는 보고를 위해 큐브 수준에서 정의됩니다. A **[!UICONTROL Workflow]** 합계를 구성할 때 탭을 사용할 수 있습니다.
 

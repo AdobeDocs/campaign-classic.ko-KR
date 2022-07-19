@@ -4,7 +4,7 @@ title: 워크플로우의 JavaScript 코드 예
 description: 다음 예는 워크플로우에서 JavaScript 코드를 사용하는 방법을 보여줍니다
 feature: Workflows
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '1768'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # 워크플로우의 JavaScript 코드 예{#javascript-in-workflows}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 다음 예에서는 워크플로우에서 JavaScript 코드를 사용하는 방법을 보여줍니다.
 

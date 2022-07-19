@@ -4,7 +4,7 @@ title: 대기
 description: 대기 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
 exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 대기{#wait}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 A **대기** 활동은 몇 초에서 몇 개월 사이의 시간 지연 후 전환을 활성화합니다. 대기 작업이 다른 작업의 실행을 차단하지 않습니다. 워크플로우는 이 작업이 보류 중인 동안 작업을 동시에 실행할 수 있습니다.
 

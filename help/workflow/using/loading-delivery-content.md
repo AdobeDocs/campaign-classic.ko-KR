@@ -4,7 +4,7 @@ title: 게재 콘텐츠 로드
 description: 게재 콘텐츠 로드
 feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # 게재 콘텐츠 로드{#loading-delivery-content}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 게재 컨텐츠가 Amazon S3, FTP 또는 SFTP 서버에 있는 HTML 파일에서 사용할 수 있는 경우 Adobe Campaign 게재에 이 컨텐츠를 쉽게 로드할 수 있습니다.
 

@@ -3,7 +3,7 @@ product: campaign
 title: 반응 관리자 기본 정보
 description: 반응 관리자 기본 정보
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
-source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 13%
@@ -12,7 +12,7 @@ ht-degree: 13%
 
 # 캠페인 응답 관리자 시작{#about-response-manager}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign에서는 마케팅 캠페인의 성공 및 수익성을 측정하거나 커뮤니케이션 채널 간에 제안을 제공하는 응답 관리 추가 기능을 제공합니다.
 

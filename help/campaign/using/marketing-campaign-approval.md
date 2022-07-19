@@ -4,7 +4,7 @@ title: 승인 프로세스 설정 및 관리
 description: 마케팅 캠페인 승인을 관리하는 방법을 알아봅니다
 feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '2438'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 승인 프로세스 설정 및 관리 {#approving-marketing-campaigns}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 게재의 각 단계는 캠페인의 다양한 프로세스를 완벽하게 모니터링하고 제어하기 위해 승인을 받을 수 있습니다. 타겟팅, 컨텐츠, 예산, 추출 및 증명 전송
 
@@ -145,7 +145,7 @@ ht-degree: 2%
 
 이 승인 사용 방법을 사용하면 검토자에게 잘못된 알림을 보내지 않고 타겟팅을 작업할 수 있습니다.
 
-## 알림 을 참조하십시오 {#notifications}
+## 알림 {#notifications}
 
 알림은 프로세스가 승인 보류 중임을 알리기 위해 검토자에게 전송되는 특정 전자 메일 메시지입니다. 연산자가 메시지의 링크를 클릭하면 인증 페이지가 나타나고 로그인 후 연산자가 정보를 보고 작업을 승인하거나 거부할 수 있습니다. 승인 창에 설명을 입력할 수도 있습니다.
 

@@ -4,7 +4,7 @@ title: 워크플로우 수명 주기
 description: 워크플로우의 라이프 사이클에 대해 자세히 알아보기
 feature: Workflows
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 워크플로우 수명 주기 {#workflow-life-cycle}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 워크플로우 주기에는 세 가지 주요 단계가 있습니다.
 

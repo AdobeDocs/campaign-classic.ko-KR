@@ -4,7 +4,7 @@ title: 외부 신호
 description: 외부 신호 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows
 exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 외부 신호{#external-signal}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 다음 **외부 신호** 활동을 사용하면 워크플로우의 작업 세트를 예약으로 실행할 수 있습니다.
 

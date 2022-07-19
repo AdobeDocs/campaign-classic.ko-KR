@@ -4,16 +4,16 @@ title: 생일 이메일 보내기
 description: 워크플로우로 생일 전자 메일을 보내는 방법 알아보기
 feature: Workflows
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 생일 이메일 보내기{#sending-a-birthday-email}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## 소개 {#introduction}
 
@@ -68,7 +68,7 @@ ht-degree: 1%
    Day(@birthDate)
    ```
 
-   클릭 **[!UICONTROL Finish]** 확인합니다.
+   **[!UICONTROL Finish]**&#x200B;을(를) 클릭하여 확인합니다.
 
 1. 쿼리 편집기에서 의 첫 번째 셀에서 **[!UICONTROL Operator]** 열, 선택 **[!UICONTROL equal to]**.
 
@@ -86,7 +86,7 @@ ht-degree: 1%
    Day(GetDate())
    ```
 
-   클릭 **[!UICONTROL Finish]** 확인합니다.
+   **[!UICONTROL Finish]**&#x200B;을(를) 클릭하여 확인합니다.
 
 1. 이 절차를 반복하여 현재 달에 해당하는 생년월일을 검색합니다. 이렇게 하려면 **[!UICONTROL Add]** 버튼 및 3-10단계를 반복하여 바꿉니다. **[!UICONTROL Day]** with **[!UICONTROL Month]**.
 

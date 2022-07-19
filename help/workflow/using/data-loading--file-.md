@@ -4,7 +4,7 @@ title: 데이터 로딩(파일)
 description: 데이터 로드(파일) 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 15%
@@ -13,7 +13,7 @@ ht-degree: 15%
 
 # 데이터 로딩(파일){#data-loading-file}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## 사용 {#use}
 

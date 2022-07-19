@@ -4,7 +4,7 @@ title: 크로스 채널 게재 워크플로우
 description: 크로스 채널 게재 워크플로우에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
-source-git-commit: e454cc29038b4eab9fad1dcb46813fc8e1a83db1
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # 크로스 채널 게재 워크플로우{#cross-channel-delivery-workflow}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 이 사용 사례에서는 채널 간 게재 워크플로우와 관련된 예를 제공합니다. 크로스 채널 게재에 대한 일반적인 개념은 다음과 같습니다 [이 섹션](cross-channel-deliveries.md).
 

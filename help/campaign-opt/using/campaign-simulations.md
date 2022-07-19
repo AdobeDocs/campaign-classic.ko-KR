@@ -4,7 +4,7 @@ title: 캠페인 시뮬레이션
 description: 캠페인 시뮬레이션 시작
 feature: Campaigns
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 캠페인 시뮬레이션{#campaign-simulations}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## 시뮬레이션 기본 정보 {#about-simulations}
 

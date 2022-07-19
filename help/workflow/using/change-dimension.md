@@ -4,7 +4,7 @@ title: 차원 변경
 description: 차원 변경
 feature: Workflows, Targeting Activity
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 차원 변경{#change-dimension}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 차원 변경 활동을 사용하면 타겟 구성 주기 동안 타겟팅 차원을 변경할 수 있습니다. 축 이동은 데이터 템플릿과 입력 차원에 따라 다릅니다. 예를 들어 &quot;계약&quot; 차원에서 &quot;클라이언트&quot; 차원으로 전환할 수 있습니다.
 

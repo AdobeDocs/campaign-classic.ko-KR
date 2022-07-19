@@ -4,7 +4,7 @@ title: 구독 서비스
 description: 구독 서비스 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows, Targeting Activity, Subscription Services Activity
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 구독 서비스{#subscription-services}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 A **구독 서비스**-type 활동을 사용하면 전환에서 지정된 모집단에 대한 정보 서비스 구독을 만들거나 삭제할 수 있습니다.
 

@@ -4,7 +4,7 @@ title: 인바운드 SMS
 description: 인바운드 SMS 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows, Channels Activity
 exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # 인바운드 SMS{#inbound-sms}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 다음 **인바운드 SMS** 활동을 통해 외부 계정에서 텍스트 메시지를 다운로드하고 처리할 수 있습니다.
 

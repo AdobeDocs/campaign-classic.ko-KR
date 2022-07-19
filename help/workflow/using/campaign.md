@@ -4,7 +4,7 @@ title: 캠페인
 description: 캠페인
 feature: Workflows
 topic-tags: technical-workflows
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 캠페인{#campaign}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 아래 자세히 설명된 워크플로우는 **캠페인** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../../campaign/using/designing-marketing-campaigns.md).
 

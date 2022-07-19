@@ -4,7 +4,7 @@ title: 게재 정보 쿼리
 description: 게재 정보를 쿼리하는 방법 알아보기
 feature: Query Editor
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 쿼리 게재 정보 {#querying-delivery-information}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## 특정 게재를 위한 클릭 수 {#number-of-clicks-for-a-specific-delivery}
 
