@@ -1,18 +1,16 @@
 ---
 product: campaign
-title: 새 게재 기능 서버로 마이그레이션
-description: Campaign 게재 기능 서버를 구현하는 방법 알아보기
-hide: true
-hidefromtoc: true
+title: 새 게재 기능 서버로 업데이트
+description: 새로운 Campaign 게재 기능 서버로 업데이트하는 방법을 알아봅니다
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 02af725ec7f75e31496b72b533db485c85a416e1
+source-git-commit: de3a2bf1ab6851184c75bc302ff0c42db186e7f0
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1122'
 ht-degree: 2%
 
 ---
 
-# Campaign 게재 기능 서버 {#acc-deliverability}
+# 새 게재 기능 서버로 업데이트 {#acc-deliverability}
 
 시작 [v7.2.1 릴리스](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign은 고가용성을 가져오고 보안 규정 준수 문제를 해결하는 새로운 게재 기능 서버를 사용합니다. 이제 Campaign Classic이 게재 가능성 규칙, 브로드로그 및 억제 주소를 새 게재 가능성 서버에서 동기화합니다. 이전 게재 가능성 서버는 2022년 8월 31일에 폐기됩니다.
 
