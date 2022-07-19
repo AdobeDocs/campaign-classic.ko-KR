@@ -3,10 +3,10 @@ product: campaign
 title: Campaign 네트워크 엔드포인트
 description: Campaign 네트워크 엔드포인트
 exl-id: 027ed2b6-365f-434f-9a18-2140512168e9
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 378788764e244dcad12018d6d703048707d4c3e6
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 20%
+source-wordcount: '48'
+ht-degree: 22%
 
 ---
 
@@ -19,6 +19,5 @@ ht-degree: 20%
 | 컨텍스트 | URL |
 |--- |--- |
 | 브라우저 끝점 | `https://*.experiencecloud.adobe.com` (SSO 공급자)<br>`https://*.campaign.adobe.com` (캠페인 인스턴스)<br>`https://adobeid-na1.services.adobe.com` (Adobe 로그인) |
-| 게재 기능 보고서 | `https://deliverablity.neolane.net` |
 | 받은 편지함 렌더링(리트머스) | `https://deliverability-app.neolane.net/deliverability` |
 | 브랜딩 URL, 미러 페이지, 추적, fileref(배포 마법사) | 구성된 URL을 확인합니다. |

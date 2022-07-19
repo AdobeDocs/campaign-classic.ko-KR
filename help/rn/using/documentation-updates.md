@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 001d5494e4b77e03c610c7c8b2cb38161d65c711
+source-git-commit: 378788764e244dcad12018d6d703048707d4c3e6
 workflow-type: tm+mt
-source-wordcount: '4906'
+source-wordcount: '4931'
 ht-degree: 99%
 
 ---
@@ -25,17 +25,28 @@ ht-degree: 99%
 
 ### 2022년 7월 {#july-2022}
 
-* 2022년 7월 릴리스와 함께 제공되는 기능 및 개선 사항은 설명서에 자세히 설명되어 있습니다.
+새 게재 기능 서버로 전환하는 방법은 새 기술 문서에 자세히 설명되어 있습니다. [자세히 보기](../../technotes/using/deliverability-server.md)
+
+**릴리스 7.3.1에 따른 설명서 업데이트**
+
+호환성 매트릭스를 업데이트했습니다. [자세히 표시](compatibility-matrix.md)
+
+릴리스 정보 섹션을 업데이트했습니다. [자세히 표시](rn-overview.md)
+
+iOS 15를 사용한 시간 중요 알림. [자세히 보기](../../delivery/using/create-notifications-ios.md)
+
 
 ### 2022년 3월 {#mar-2022}
 
-* **[!UICONTROL Test SMTP delivery]** 옵션에 대해 자세한 설명을 추가했습니다. [자세히 보기](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
+**[!UICONTROL Test SMTP delivery]** 옵션에 대해 자세한 설명을 추가했습니다. [자세히 보기](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
 
-* 업그레이드 시작 페이지의 Campaign Console 업그레이드 지침을 보다 명확하게 업데이트했습니다. [자세히 보기](../../rn/using/rn-overview.md)
+업그레이드 시작 페이지의 Campaign Console 업그레이드 지침을 보다 명확하게 업데이트했습니다. [자세히 보기](../../rn/using/rn-overview.md)
 
-* 이제 새 Campaign v7.2.2 빌드를 사용할 수 있습니다. [자세히 보기](../../rn/using/latest-release.md)
-* ACS 커넥터와 관련된 문제 해결 정보가 추가되었습니다. [자세히 보기](../../integrations/using/troubleshooting-the-acs-connector.md)
-* 수명 종료에 도달한 이전 PostgreSQL 버전이 [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md#dbe-eol) 페이지에 추가되었습니다.
+이제 새 Campaign v7.2.2 빌드를 사용할 수 있습니다. [자세히 보기](../../rn/using/latest-release.md)
+
+ACS 커넥터와 관련된 문제 해결 정보가 추가되었습니다. [자세히 보기](../../integrations/using/troubleshooting-the-acs-connector.md)
+
+수명 종료에 도달한 이전 PostgreSQL 버전이 [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md#dbe-eol) 페이지에 추가되었습니다.
 
 ### 2022년 2월 {#february-2022}
 
