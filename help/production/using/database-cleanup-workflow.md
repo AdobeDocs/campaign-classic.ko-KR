@@ -6,9 +6,9 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
+source-git-commit: 56e9fcc4240649f53239b12f1390dea041602e79
 workflow-type: tm+mt
-source-wordcount: '2910'
+source-wordcount: '2823'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 다음 **[!UICONTROL Database cleanup]** 을 통해 액세스할 수 있는 워크플로우 **[!UICONTROL Administration > Production > Technical workflows]** 노드 를 사용하면 데이터베이스의 기하급수적인 증가를 방지하기 위해 오래된 데이터를 삭제할 수 있습니다. 워크플로우는 사용자 개입 없이 자동으로 트리거됩니다.
 
-![](assets/ncs_cleanup_workflow.png)
+![cleanup](assets/ncs_cleanup_workflow.png)
 
 ## 구성 {#configuration}
 
@@ -40,11 +40,11 @@ ht-degree: 0%
 * **[!UICONTROL Weekly]**
 * **[!UICONTROL Once]**
 
-![](assets/ncs_cleanup_scheduler.png)
+![스케줄러](assets/ncs_cleanup_scheduler.png)
 
 >[!IMPORTANT]
 >
->을 위해 **[!UICONTROL Database cleanup]** 워크플로우가 스케줄러에 정의된 날짜 및 시간에 시작되도록 워크플로우 엔진(wfserver)을 시작해야 합니다. 그렇지 않으면 다음에 워크플로우 엔진을 시작할 때까지 데이터베이스 청소가 수행되지 않습니다.
+>을 위해 **[!UICONTROL Database cleanup]** 워크플로우가 스케줄러에 정의된 날짜 및 시간에 시작되도록 워크플로우 엔진(wfserver)을 시작해야 합니다.
 
 ### 배포 마법사 {#deployment-wizard}
 
@@ -83,12 +83,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이러한 작업 중 하나가 실패하면 다음 작업이 실행되지 않습니다.\
+>이 작업 중 하나가 실패하면 다음 작업이 실행되지 않습니다.
+>
 >SQL 쿼리를 **제한** 속성은 모든 정보가 처리될 때까지 반복적으로 실행됩니다.
 
->[!NOTE]
->
->데이터베이스 정리 워크플로우에서 수행하는 작업을 설명하는 아래 섹션은 데이터베이스 관리자 또는 SQL 언어에 익숙한 사용자를 위해 예약되어 있습니다.
 
 ### 정리 삭제 목록 {#lists-to-delete-cleanup}
 
@@ -96,31 +94,31 @@ ht-degree: 0%
 
 1. 삭제할 목록은 다음 SQL 쿼리를 사용하여 복구됩니다.
 
-   ```
+   ```sql
    SELECT iGroupId, sLabel, iType FROM NmsGroup WHERE iDeleteStatus <> 0 OR tsExpirationDate <= GetDate() 
    ```
 
 1. 각 목록에는 다른 테이블에 대한 링크가 여러 개 있습니다. 이러한 모든 링크는 다음 쿼리를 사용하여 일괄적으로 삭제됩니다.
 
-   ```
+   ```sql
    DELETE FROM $(relatedTable) WHERE iGroupId=$(l) IN (SELECT iGroupId FROM $(relatedTable) WHERE iGroupId=$(l) LIMIT 5000) 
    ```
 
-   여기서 **$(relatedTable)** 는 **NmsGroup** 및 **$(l)** 는 목록 식별자입니다.
+   여기서 `$(relatedTable)` 는 **NmsGroup** 및 `$(l)` 는 목록 식별자입니다.
 
 1. 목록이 &#39;목록&#39; 유형 목록이면 연결된 테이블이 다음 쿼리를 사용하여 삭제됩니다.
 
-   ```
+   ```sql
    DROP TABLE grp$(l)
    ```
 
 1. 모두 **선택** 작업에 의해 복구되는 유형 목록은 다음 쿼리를 사용하여 삭제됩니다.
 
-   ```
+   ```sql
    DELETE FROM NmsGroup WHERE iGroupId=$(l) 
    ```
 
-   여기서 **$(l)** 는 목록 식별자입니다
+   여기서 `$(l)` 는 목록 식별자입니다
 
 ### 삭제 또는 재활용할 게재 정리 {#cleanup-of-deliveries-to-be-deleted-or-recycled}
 
@@ -133,7 +131,7 @@ ht-degree: 0%
 
    * 게재 제외 테이블(**NmsDlvExclusion**). 다음 쿼리가 사용됩니다.
 
-      ```
+      ```sql
       DELETE FROM NmsDlvExclusion WHERE iDeliveryId=$(l)
       ```
 
@@ -141,11 +139,11 @@ ht-degree: 0%
 
    * 쿠폰 테이블에서 (**NmsCouponValue**). 다음 쿼리가 사용됩니다(대량 삭제 사용).
 
-      ```
+      ```sql
       DELETE FROM NmsCouponValue WHERE iMessageId IN (SELECT iMessageId FROM NmsCouponValue WHERE EXISTS (SELECT B.iBroadLogId FROM $(BroadLogTableName) B WHERE B.iDeliveryId = $(l) AND B.iBroadLogId = iMessageId ) LIMIT 5000)
       ```
 
-      여기서 **$(l)** 은 게재의 식별자입니다.
+      여기서 `$(l)` 은 게재의 식별자입니다.
 
    * 게재 로그 테이블(**NmsBroadlogXxx**), 대량 삭제는 20,000개의 레코드로 일괄적으로 실행됩니다.
    * 오퍼 제안 테이블(**NmsProvenueXxx**), 대량 삭제는 20,000개의 레코드로 일괄적으로 실행됩니다.
@@ -156,21 +154,21 @@ ht-degree: 0%
    * 배치 프로세스 로그 테이블(**XtkJobLog**), 대량 삭제는 20,000개의 레코드로 일괄적으로 실행됩니다. 이 표에는 삭제할 게재 로그가 포함되어 있습니다.
    * 게재 URL 추적 테이블(**NmsTrackingUrl**). 다음 쿼리가 사용됩니다.
 
-      ```
+      ```sql
       DELETE FROM NmsTrackingUrl WHERE iDeliveryId=$(l)
       ```
 
-      여기서 **$(l)** 은 게재의 식별자입니다.
+      여기서 `$(l)` 은 게재의 식별자입니다.
 
       이 표에는 추적을 활성화하기 위해 삭제할 게재에 있는 URL이 포함되어 있습니다.
 
 1. 게재가 게재 테이블(**NmsDelivery**):
 
-   ```
+   ```sql
    DELETE FROM NmsDelivery WHERE iDeliveryId = $(l)
    ```
 
-   여기서 **$(l)** 은 게재의 식별자입니다.
+   여기서 `$(l)` 은 게재의 식별자입니다.
 
 #### 중간 소싱을 사용한 게재 {#deliveries-using-mid-sourcing}
 
@@ -178,7 +176,7 @@ ht-degree: 0%
 
 1. 이를 위해 워크플로우는 각 게재가 비활성(상태에 따라)인지 확인합니다. 게재가 활성 상태인 경우 삭제하기 전에 중지됩니다. 검사는 다음 쿼리를 실행하여 수행됩니다.
 
-   ```
+   ```sql
    SELECT iState FROM NmsDelivery WHERE iDeliveryId = $(l) AND iState <> 100;
    ```
 
@@ -192,23 +190,23 @@ ht-degree: 0%
 
 1. 다음 **[!UICONTROL Database cleanup]** 워크플로우는 만료된 게재 목록을 만듭니다. 이 목록에는 만료된 모든 게재가 포함되며 상태가 **[!UICONTROL Finished]** 뿐만 아니라 10,000개 이상의 처리되지 않은 메시지가 포함된 게재도 최근에 중지했습니다. 다음 쿼리가 사용됩니다.
 
-   ```
+   ```sql
    SELECT iDeliveryId, iState FROM NmsDelivery WHERE iDeleteStatus=0 AND iIsModel=0 AND iDeliveryMode=1 AND ( (iState >= 51 AND iState < 85 AND tsValidity IS NOT NULL AND tsValidity < $(currentDate) ) OR (iState = 85 AND DateMinusDays(15) < tsLastModified AND iToDeliver - iProcessed >= 10000 ))
    ```
 
-   여기서 **배달 모드 1** 일치 **[!UICONTROL Mass delivery]** 모드, **주 51** 일치 **[!UICONTROL Start pending]** state, **state 85** 일치 **[!UICONTROL Stopped]** state 및 게재 서버에서 대량으로 업데이트된 가장 높은 게재 로그 수는 10,000개입니다.
+   여기서 `delivery mode 1` 일치 **[!UICONTROL Mass delivery]** 모드, `state 51` 일치 **[!UICONTROL Start pending]** state, `state 85` 일치 **[!UICONTROL Stopped]** state 및 게재 서버에서 대량으로 업데이트된 가장 높은 게재 로그 수는 10,000개입니다.
 
 1. 그러면 워크플로우에는 중간 소싱을 사용하는 최근 만료된 게재 목록이 포함됩니다. 중간 소싱 서버를 통해 아직 게재 로그가 복구되지 않은 게재는 제외됩니다.
 
    다음 쿼리가 사용됩니다.
 
-   ```
+   ```sql
    SELECT iDeliveryId, tsValidity, iMidRemoteId, mData FROM NmsDelivery WHERE (iDeliveryMode = 4 AND (iState = 85 OR iState = 95) AND tsValidity IS NOT NULL AND (tsValidity < SubDays(GetDate() , 15) OR tsValidity < $(DateOfLastLogPullUp)) AND tsLastModified > SubDays(GetDate() , 15))
    ```
 
 1. 다음 쿼리는 날짜별로 게재를 필터링하기 위해 외부 계정이 여전히 활성 상태인지 여부를 감지하는 데 사용됩니다.
 
-   ```
+   ```sql
    SELECT iExtAccountId FROM NmsExtAccount WHERE iActive<>0 AND sName=$(providerName)
    ```
 
@@ -216,31 +214,31 @@ ht-degree: 0%
 
    다음 쿼리가 사용됩니다.
 
-   ```
+   ```sql
    UPDATE $(BroadLogTableName) SET tsLastModified=$(curdate), iStatus=7, iMsgId=$(bl) WHERE iDeliveryId=$(dl) AND iStatus=6
    ```
 
-   여기서 **$(curdate)** 데이터베이스 서버의 현재 날짜입니다. **$(bl)** 은 게재 로그 메시지의 식별자입니다. **$(dl)** 게재 식별자이고, **배달 상태 6** 일치 **[!UICONTROL Pending]** 상태 및 **배달 상태 7** 일치 **[!UICONTROL Delivery cancelled]** 상태.
+   여기서 `$(curdate)`데이터베이스 서버의 현재 날짜입니다. `$(bl)` 은 게재 로그 메시지의 식별자입니다. `$(dl)` 게재 식별자이고, `delivery status 6` 일치 **[!UICONTROL Pending]** 상태 및 `delivery status 7` 일치 **[!UICONTROL Delivery cancelled]** 상태.
 
-   ```
+   ```sql
    UPDATE NmsDelivery SET iState = 95, tsLastModified = $(curdate), tsBroadEnd = tsValidity WHERE iDeliveryId = $(dl)
    ```
 
-   여기서 **배달 상태 95** 일치 **[!UICONTROL Finished]** 상태 및 **$(dl)** 은 게재의 식별자입니다.
+   여기서 `delivery state 95` 일치 **[!UICONTROL Finished]** 상태 및 `$(dl)` 은 게재의 식별자입니다.
 
 1. 모든 조각 (**deliveryParts**) 오래된 게재가 삭제되고 진행 중인 모든 오래된 알림 게재가 삭제됩니다. 대량 삭제는 이 두 작업에 모두 사용됩니다.
 
    다음 쿼리가 사용됩니다.
 
-   ```
+   ```sql
    DELETE FROM NmsDeliveryPart WHERE iDeliveryPartId IN (SELECT iDeliveryPartId FROM NmsDeliveryPart WHERE iDeliveryId IN (SELECT iDeliveryId FROM NmsDelivery WHERE iState=95 OR iState=85) LIMIT 5000)
    ```
 
-   ```
+   ```sql
    DELETE FROM NmsDeliveryPart WHERE iDeliveryPartId IN (SELECT iDeliveryPartId FROM NmsDeliveryPart WHERE tsValidity < $(curDate) LIMIT 500000)
    ```
 
-   여기서 **배달 상태 95** 일치 **[!UICONTROL Finished]** 상태, **배달 상태 85** 일치 **[!UICONTROL Stopped]** 상태 및 **$(curDate)** 는 현재 서버 날짜입니다.
+   여기서 `delivery state 95` 일치 **[!UICONTROL Finished]** 상태, `delivery state 85` 일치 **[!UICONTROL Stopped]** 상태 및 `$(curDate)` 는 현재 서버 날짜입니다.
 
 ### 미러 페이지 정리 {#cleanup-of-mirror-pages}
 
@@ -248,32 +246,32 @@ ht-degree: 0%
 
 1. 먼저 다음 쿼리를 사용하여 제거할 게재 목록을 복구합니다.
 
-   ```
+   ```sql
    SELECT iDeliveryId, iNeedMirrorPage FROM NmsDelivery WHERE iWebResPurged = 0 AND tsWebValidity IS NOT NULL AND tsWebValidity < $(curdate)"
    ```
 
-   여기서 **$(curDate)** 는 현재 서버 날짜입니다.
+   여기서 `$(curDate)` 는 현재 서버 날짜입니다.
 
 1. 다음 **NmsMirrorPageInfo** 그런 다음 이전에 복구된 게재의 식별자를 사용하여 필요한 경우 테이블이 삭제됩니다. 대량 삭제는 다음 쿼리를 생성하는 데 사용됩니다.
 
-   ```
+   ```sql
    DELETE FROM NmsMirrorPageInfo WHERE iMirrorPageInfoId IN (SELECT iMirrorPageInfoId FROM NmsMirrorPageInfo WHERE iDeliveryId = $(dl)) LIMIT 5000)
    ```
 
-   ```
+   ```sql
    DELETE FROM NmsMirrorPageSearch WHERE iMessageId IN (SELECT iMessageId FROM NmsMirrorPageSearch WHERE iDeliveryId = $(dl)) LIMIT 5000)
    ```
 
-   여기서 **$(dl)** 은 게재의 식별자입니다.
+   여기서 `$(dl)` 은 게재의 식별자입니다.
 
 1. 그런 다음 게재 로그에 항목이 추가됩니다.
 1. 그런 다음 삭제된 게재가 식별되므로 나중에 다시 처리할 필요가 없습니다. 다음 쿼리가 실행됩니다.
 
-   ```
+   ```sql
    UPDATE NmsDelivery SET iWebResPurged = 1 WHERE iDeliveryId IN ($(strIn))
    ```
 
-   여기서 **$(strIn)** 는 게재 식별자 목록입니다.
+   여기서 `$(strIn)` 는 게재 식별자 목록입니다.
 
 ### 작업 테이블 정리 {#cleanup-of-work-tables}
 
@@ -281,21 +279,21 @@ ht-degree: 0%
 
 1. 이름이 **wkDlv_** 은 다음 쿼리(postgresql)로 먼저 복구됩니다.
 
-   ```
+   ```sql
    SELECT relname FROM pg_class WHERE relname LIKE Lower('wkDlv_') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
    ```
 
 1. 진행 중인 워크플로우에서 사용하는 표는 제외됩니다. 이를 위해 진행 중인 게재 목록은 다음 쿼리를 사용하여 복구됩니다.
 
-   ```
+   ```sql
    SELECT iDeliveryId FROM NmsDelivery WHERE iDeliveryId<>0 AND iDeleteStatus=0 AND iState NOT IN (0,85,100);
    ```
 
-   여기서 0은 **[!UICONTROL Being edited]** 게재 상태, 85가 일치합니다 **[!UICONTROL Stopped]** 상태 및 100이 일치합니다 **[!UICONTROL Deleted]** 상태.
+   여기서 `0` 는 와 일치하는 값입니다 **[!UICONTROL Being edited]** 게재 상태, `85` 일치 **[!UICONTROL Stopped]** 상태 및 `100` 일치 **[!UICONTROL Deleted]** 상태.
 
 1. 더 이상 사용되지 않는 표는 다음 쿼리를 사용하여 삭제됩니다.
 
-   ```
+   ```sql
    DROP TABLE wkDlv_15487_1;
    ```
 
@@ -305,15 +303,15 @@ ht-degree: 0%
 
 1. 대량 삭제는 **XtkReject** 다음 쿼리가 있는 테이블:
 
-   ```
+   ```sql
    DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l))
    ```
 
-   여기서 **$(curDate)** 에 대해 정의된 기간을 뺀 현재 서버 날짜입니다 **NmsCleanup_RejectsPurgeDelay** 옵션(참조) [배포 마법사](#deployment-wizard)) 및 **$(l)** 는 대량 삭제할 최대 레코드 수입니다.
+   여기서 `$(curDate)` 에 대해 정의된 기간을 뺀 현재 서버 날짜입니다 **NmsCleanup_RejectsPurgeDelay** 옵션(참조) [배포 마법사](#deployment-wizard)) 및 `$(l)` 는 대량 삭제할 최대 레코드 수입니다.
 
 1. 그러면 다음 쿼리를 사용하여 모든 고아 거부가 삭제됩니다.
 
-   ```
+   ```sql
    DELETE FROM XtkReject WHERE iJobId NOT IN (SELECT iJobId FROM XtkJob)
    ```
 
@@ -327,54 +325,54 @@ ht-degree: 0%
 
 1. 삭제할 워크플로우 목록을 복구하려면 다음 쿼리를 사용합니다.
 
-   ```
+   ```sql
    SELECT iWorkflowId, iHistory FROM XtkWorkflow WHERE iWorkflowId<>0
    ```
 
 1. 이 쿼리는 다음 쿼리를 사용하여 연결된 모든 로그, 완료된 작업 및 완료된 이벤트를 삭제하는 데 사용할 워크플로우 목록을 생성합니다.
 
-   ```
+   ```sql
    DELETE FROM XtkWorkflowLog WHERE iWorkflowId=$(lworkflow) AND tsLog < DateMinusDays($(lhistory))
    ```
 
-   ```
+   ```sql
    DELETE FROM XtkWorkflowTask WHERE iWorkflowId=$(lworkflow) AND iStatus<>0 AND tsCompletion < DateMinusDays($(lhistory)) 
    ```
 
-   ```
+   ```sql
    DELETE FROM XtkWorkflowEvent WHERE iWorkflowId=$(l) AND iStatus>2 AND tsProcessing < DateMinusDays($(lHistory))
    ```
 
-   여기서 **$(lworkflow)** 은 워크플로우의 식별자이며, **$(lhistory)** 는 히스토리의 식별자입니다.
+   여기서 `$(lworkflow)` 은 워크플로우의 식별자이며, `$(lhistory)` 는 히스토리의 식별자입니다.
 
 1. 사용하지 않은 모든 테이블이 삭제됩니다. 이를 위해 모든 테이블이 **wkf%** 다음 쿼리(postgresql)를 사용하여 마스크 입력:
 
-   ```
+   ```sql
    SELECT relname FROM pg_class WHERE relname LIKE Lower('wkf%') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
    ```
 
 1. 그러면 보류 중인 워크플로 인스턴스에서 사용하는 모든 테이블이 제외됩니다. 활성 워크플로우 목록은 다음 쿼리를 사용하여 복구됩니다.
 
-   ```
+   ```sql
    SELECT iWorkflowId FROM XtkWorkflow WHERE iWorkflowId<>0 AND iState<>20
    ```
 
 1. 그런 다음 각 워크플로우 식별자를 복구하여 워크플로우에서 사용하는 테이블의 이름을 찾습니다. 이러한 이름은 이전에 복구된 테이블 목록에서 제외됩니다.
 1. &quot;증분 쿼리&quot; 유형 활동 내역 테이블은 다음 쿼리를 사용하여 제외됩니다.
 
-   ```
+   ```sql
    SELECT relname FROM pg_class WHERE relname LIKE Lower('wkfhisto%') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
    ```
 
-   ```
+   ```sql
    SELECT iWorkflowId FROM XtkWorkflow WHERE iWorkflowId IN ($(strCondition))
    ```
 
-   여기서 **$(strcondition)** 는 **wkfhisto%** 마스크.
+   여기서 `$(strcondition)` 는 **wkfhisto%** 마스크.
 
 1. 나머지 테이블은 다음 쿼리를 사용하여 삭제됩니다.
 
-   ```
+   ```sql
    DROP TABLE wkf15487_12;
    ```
 
@@ -382,7 +380,7 @@ ht-degree: 0%
 
 이 작업은 다음 쿼리를 사용하여 워크플로우 로그인을 삭제합니다.
 
-```
+```sql
 DELETE FROM XtkWorkflowLogin WHERE iWorkflowId NOT IN (SELECT iWorkflowId FROM XtkWorkflow)
 ```
 
@@ -390,7 +388,7 @@ DELETE FROM XtkWorkflowLogin WHERE iWorkflowId NOT IN (SELECT iWorkflowId FROM X
 
 이 작업은 그룹에 연결된 고아 작업 테이블을 삭제합니다. 다음 **NmsGroup** 테이블에는 정리할 그룹이 저장됩니다(0과 다른 유형 포함). 테이블 이름의 접두사는 **grp**. 정리할 그룹을 식별하려면 다음 쿼리가 사용됩니다.
 
-```
+```sql
 SELECT iGroupId FROM NmsGroup WHERE iType>0"
 ```
 
@@ -398,27 +396,27 @@ SELECT iGroupId FROM NmsGroup WHERE iType>0"
 
 이 작업은 대량 삭제를 사용하여 방문자 테이블에서 오래된 레코드를 삭제합니다. 사용되지 않는 레코드는 배포 마법사에 정의된 보존 기간보다 이전 버전인 레코드입니다(참조: [배포 마법사](#deployment-wizard)). 다음 쿼리가 사용됩니다.
 
-```
+```sql
 DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WHERE iRecipientId = 0 AND tsLastModified < AddDays(GetDate(), -30) AND iOrigin = 0 LIMIT 20000)
 ```
 
-여기서 **$(tsDate)** 은 현재 서버 날짜이며, 여기에서 **NmsCleanup_VisitorPurgeDelay** 선택 사항입니다.
+여기서 `$(tsDate)` 은 현재 서버 날짜이며, 여기에서 **NmsCleanup_VisitorPurgeDelay** 선택 사항입니다.
 
 ### NAPI 정리 {#cleanup-of-npai}
 
 이 작업을 사용하면 **NmsAddress** 테이블. 다음 질의는 대량 삭제를 수행하는 데 사용됩니다.
 
-```
+```sql
 DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WHERE iStatus=2 AND tsLastModified < $(tsDate1) AND tsLastModified >= $(tsDate2) LIMIT 5000)
 ```
 
-여기서 **상태 2** 일치 **[!UICONTROL Valid]** 상태, **$(tsDate1)** 는 현재 서버 날짜이고, **$(tsDate2)** 일치 **NmsCleanup_LastCleanup** 선택 사항입니다.
+여기서 `status 2` 일치 **[!UICONTROL Valid]** 상태, `$(tsDate1)` 는 현재 서버 날짜이고, `$(tsDate2)` 일치 **NmsCleanup_LastCleanup** 선택 사항입니다.
 
 ### 구독 정리 {#cleanup-of-subscriptions-}
 
 이 작업은 사용자가 삭제한 모든 구독을 **NmsSubscription** 표, 대량 삭제를 사용합니다. 다음 쿼리가 사용됩니다.
 
-```
+```sql
 DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 ```
 
@@ -428,25 +426,25 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
 1. 먼저 다음 쿼리를 사용하여 추적 로그 테이블 목록이 복구됩니다.
 
-   ```
+   ```sql
    SELECT distinct(sTrackingLogSchema) FROM NmsDeliveryMapping WHERE sTrackingLogSchema IS NOT NULL;
    ```
 
 1. 대량 삭제는 이전에 복구된 테이블 목록의 모든 테이블을 제거하는 데 사용됩니다. 다음 쿼리가 사용됩니다.
 
-   ```
+   ```sql
    DELETE FROM NmsTrackingLogRcp WHERE iTrackingLogId IN (SELECT iTrackingLogId FROM NmsTrackingLogRcp WHERE tsLog < $(tsDate) LIMIT 5000) 
    ```
 
-   여기서 **$(tsDate)** 에 대해 정의된 기간을 뺀 현재 서버 날짜입니다 **NmsCleanup_TrackingLogPurgeDelay** 선택 사항입니다.
+   여기서 `$(tsDate)` 에 대해 정의된 기간을 뺀 현재 서버 날짜입니다 **NmsCleanup_TrackingLogPurgeDelay** 선택 사항입니다.
 
 1. 추적 통계 테이블은 대량 삭제를 사용하여 삭제됩니다. 다음 쿼리가 사용됩니다.
 
-   ```
+   ```sql
    DELETE FROM NmsTrackingStats WHERE iTrackingStatsId IN (SELECT iTrackingStatsId FROM NmsTrackingStats WHERE tsStart < $(tsDate) LIMIT 5000) 
    ```
 
-   여기서 **$(tsDate)** 에 대해 정의된 기간을 뺀 현재 서버 날짜입니다 **NmsCleanup_TrackingStatPurgeDelay** 선택 사항입니다.
+   여기서 `$(tsDate)` 에 대해 정의된 기간을 뺀 현재 서버 날짜입니다 **NmsCleanup_TrackingStatPurgeDelay** 선택 사항입니다.
 
 ### 게재 로그 정리 {#cleanup-of-delivery-logs}
 
@@ -454,26 +452,26 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
 1. 이를 위해 다음 쿼리를 사용하여 게재 로그 스키마 목록을 복구합니다.
 
-   ```
+   ```sql
    SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL UNION SELECT distinct(sBroadLogExclSchema) FROM NmsDeliveryMapping WHERE sBroadLogExclSchema IS NOT NULL
    ```
 
 1. 중간 소싱을 사용할 때는 **NmsBroadLogMid** 테이블이 게재 매핑에서 참조되지 않습니다. 다음 **nms:broadLogMid** 이전 쿼리에서 복구한 목록에 스키마가 추가됩니다.
 1. 다음 **데이터베이스 정리** 그런 다음 이전에 복구된 테이블에서 오래된 데이터를 삭제합니다. 다음 쿼리가 사용됩니다.
 
-   ```
+   ```sql
    DELETE FROM $(tableName) WHERE iBroadLogId IN (SELECT iBroadLogId FROM $(tableName) WHERE tsLastModified < $(option) LIMIT 5000) 
    ```
 
-   여기서 **$(tableName)** 스키마 목록에 있는 각 테이블의 이름입니다. **$(옵션)** 은(는) **NmsCleanup_BroadLogPurgeDelay** 옵션(참조) [배포 마법사](#deployment-wizard)).
+   여기서 `$(tableName)` 스키마 목록에 있는 각 테이블의 이름입니다. `$(option)` 은(는) **NmsCleanup_BroadLogPurgeDelay** 옵션(참조) [배포 마법사](#deployment-wizard)).
 
 1. 마지막으로 워크플로우는 **NmsProviderMsgId** 테이블이 있습니다. 이 경우 다음 쿼리를 사용하여 오래된 데이터가 모두 삭제됩니다.
 
-   ```
+   ```sql
    DELETE FROM NmsProviderMsgId WHERE iBroadLogId IN (SELECT iBroadLogId FROM NmsProviderMsgId WHERE tsCreated < $(option) LIMIT 5000)
    ```
 
-   여기서 **$(옵션)** 에 대해 정의된 날짜와 일치함 **NmsCleanup_BroadLogPurgeDelay** 옵션(참조) [배포 마법사](#deployment-wizard)).
+   여기서 `$(option)` 에 대해 정의된 날짜와 일치함 **NmsCleanup_BroadLogPurgeDelay** 옵션(참조) [배포 마법사](#deployment-wizard)).
 
 ### NmsEmailErrorStat 테이블 정리 {#cleanup-of-the-nmsemailerrorstat-table-}
 
@@ -488,31 +486,31 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
 의 총 오류 수 **NmsEmailErrorStat** 시작 날짜와 종료 날짜 사이의 테이블은 다음 쿼리를 사용하여 복구됩니다.
 
-```
-"SELECT COUNT(*) FROM NmsEmailErrorStat WHERE tsDate>= $(start) AND tsDate< $(end)"
+```sql
+SELECT COUNT(*) FROM NmsEmailErrorStat WHERE tsDate>= $(start) AND tsDate< $(end)
 ```
 
-여기서 **$end** 및 **$start** 는 이전에 정의된 시작 및 종료 날짜입니다.
+여기서 `$end` 및 `$start` 는 이전에 정의된 시작 및 종료 날짜입니다.
 
 합계가 0보다 큰 경우:
 
 1. 다음 쿼리는 특정 임계값(20과 같음)을 초과하여 오류만 유지하려면 실행됩니다.
 
-   ```
-   "SELECT iMXIP, iPublicId, SUM(iTotalConnections), SUM(iTotalErrors), SUM(iMessageErrors), SUM(iAbortedConnections), SUM(iFailedConnections), SUM(iRefusedConnections), SUM(iTimeoutConnections) FROM NmsEmailErrorStat WHERE tsDate>=$(start ) AND tsDate<$(end ) GROUP BY iMXIP, iPublicId HAVING SUM(iTotalErrors) >= 20"
+   ```sql
+   SELECT iMXIP, iPublicId, SUM(iTotalConnections), SUM(iTotalErrors), SUM(iMessageErrors), SUM(iAbortedConnections), SUM(iFailedConnections), SUM(iRefusedConnections), SUM(iTimeoutConnections) FROM NmsEmailErrorStat WHERE tsDate>=$(start ) AND tsDate<$(end ) GROUP BY iMXIP, iPublicId HAVING SUM(iTotalErrors) >= 20
    ```
 
 1. 다음 **coalescingErrors** 메시지가 표시됩니다.
 1. 시작 날짜와 종료 날짜 사이에 발생한 모든 오류를 삭제하기 위해 새 연결이 만들어집니다. 다음 쿼리가 사용됩니다.
 
-   ```
-   "DELETE FROM NmsEmailErrorStat WHERE tsDate>=$(start) AND tsDate<$(end)"
+   ```sql
+   DELETE FROM NmsEmailErrorStat WHERE tsDate>=$(start) AND tsDate<$(end)
    ```
 
 1. 각 오류는 **NmsEmailErrorStat** 다음 쿼리를 사용하는 표:
 
-   ```
-   "INSERT INTO NmsEmailErrorStat(iMXIP, iPublicId, tsDate, iTotalConnections, iTotalErrors, iTimeoutConnections, iRefusedConnections, iAbortedConnections, iFailedConnections, iMessageErrors) VALUES($(lmxip ), $(lpublicId ), $(tsstart ), $(lconnections ), $(lconnectionErrors ),$(ltimeoutConnections ), $(lrefusedConnections ), $(labortedConnections ), $(lfailedConnections ), $(lmessageErrors))"
+   ```sql
+   INSERT INTO NmsEmailErrorStat(iMXIP, iPublicId, tsDate, iTotalConnections, iTotalErrors, iTimeoutConnections, iRefusedConnections, iAbortedConnections, iFailedConnections, iMessageErrors) VALUES($(lmxip ), $(lpublicId ), $(tsstart ), $(lconnections ), $(lconnectionErrors ),$(ltimeoutConnections ), $(lrefusedConnections ), $(labortedConnections ), $(lfailedConnections ), $(lmessageErrors))
    ```
 
    여기서 각 변수는 이전 쿼리에서 복구한 값과 일치합니다.
@@ -527,7 +525,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
 다음 쿼리가 사용됩니다.
 
-```
+```sql
 DELETE FROM NmsEmailError WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailErrorStat)
 ```
 
@@ -537,7 +535,7 @@ DELETE FROM NmsEmailError WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmai
 
 다음 쿼리가 사용됩니다.
 
-```
+```sql
 DELETE FROM NmsMxDomain WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailErrorStat)
 ```
 
@@ -549,11 +547,11 @@ DELETE FROM NmsMxDomain WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailE
 
 다음 쿼리를 사용하여 proposition 테이블 목록을 복구하고 각 테이블에 대해 일괄 삭제를 수행합니다.
 
-```
+```sql
 DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FROM NmsPropositionXxx WHERE tsLastModified < $(option) LIMIT 5000) 
 ```
 
-여기서 **$(옵션)** 은(는) **NmsCleanup_ProvisionPurgeDelay** 옵션(참조) [배포 마법사](#deployment-wizard)).
+여기서 `$(option)` 은(는) **NmsCleanup_ProvisionPurgeDelay** 옵션(참조) [배포 마법사](#deployment-wizard)).
 
 ### 시뮬레이션 테이블 정리 {#cleanup-of-simulation-tables}
 
@@ -561,13 +559,13 @@ DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FRO
 
 1. 정리가 필요한 시뮬레이션 목록을 복구하려면 다음 쿼리가 사용됩니다.
 
-   ```
+   ```sql
    SELECT iSimulationId FROM NmsSimulation WHERE iSimulationId<>0
    ```
 
 1. 삭제할 테이블의 이름은 **wkSimu_** 접두사와 시뮬레이션 식별자(예: **wkSimu_456831_aggr**):
 
-   ```
+   ```sql
    DROP TABLE wkSimu_456831_aggr
    ```
 
@@ -575,7 +573,7 @@ DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FRO
 
 다음 쿼리가 사용됩니다.
 
-```
+```sql
 DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
 ```
 
@@ -585,7 +583,7 @@ DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
 
 다음 쿼리가 사용됩니다.
 
-```
+```sql
 DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WHERE iStatus=STATUS_QUARANTINE AND tsLastModified < $(NmsCleanup_AppSubscriptionRcpPurgeDelay + 5d) AND iType IN (MESSAGETYPE_IOS, MESSAGETYPE_ANDROID ) LIMIT 5000)
 ```
 
@@ -607,7 +605,7 @@ DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WH
 
 브로드로그 스키마 목록을 복구하려면 다음 쿼리를 사용합니다.
 
-```
+```sql
 SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL
 ```
 
@@ -619,8 +617,8 @@ SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema I
 
 이 작업은 **sessionInfo** 테이블에서 다음 쿼리가 사용됩니다.
 
-```
- DELETE FROM XtkSessionInfo WHERE tsexpiration < $(curdate) 
+```sql
+DELETE FROM XtkSessionInfo WHERE tsexpiration < $(curdate) 
 ```
 
 ### 만료된 이벤트 정리 {#cleansing-expired-events}
