@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 56e9fcc4240649f53239b12f1390dea041602e79
+source-git-commit: b472178316f97f08e9c87f8aebd707709f320e5f
 workflow-type: tm+mt
 source-wordcount: '2823'
 ht-degree: 0%
@@ -247,7 +247,7 @@ ht-degree: 0%
 1. 먼저 다음 쿼리를 사용하여 제거할 게재 목록을 복구합니다.
 
    ```sql
-   SELECT iDeliveryId, iNeedMirrorPage FROM NmsDelivery WHERE iWebResPurged = 0 AND tsWebValidity IS NOT NULL AND tsWebValidity < $(curdate)"
+   SELECT iDeliveryId, iNeedMirrorPage FROM NmsDelivery WHERE iWebResPurged = 0 AND tsWebValidity IS NOT NULL AND tsWebValidity < $(curdate)
    ```
 
    여기서 `$(curDate)` 는 현재 서버 날짜입니다.
@@ -255,11 +255,11 @@ ht-degree: 0%
 1. 다음 **NmsMirrorPageInfo** 그런 다음 이전에 복구된 게재의 식별자를 사용하여 필요한 경우 테이블이 삭제됩니다. 대량 삭제는 다음 쿼리를 생성하는 데 사용됩니다.
 
    ```sql
-   DELETE FROM NmsMirrorPageInfo WHERE iMirrorPageInfoId IN (SELECT iMirrorPageInfoId FROM NmsMirrorPageInfo WHERE iDeliveryId = $(dl)) LIMIT 5000)
+   DELETE FROM NmsMirrorPageInfo WHERE iMirrorPageInfoId IN (SELECT iMirrorPageInfoId FROM NmsMirrorPageInfo WHERE iDeliveryId = $(dl)) LIMIT 5000
    ```
 
    ```sql
-   DELETE FROM NmsMirrorPageSearch WHERE iMessageId IN (SELECT iMessageId FROM NmsMirrorPageSearch WHERE iDeliveryId = $(dl)) LIMIT 5000)
+   DELETE FROM NmsMirrorPageSearch WHERE iMessageId IN (SELECT iMessageId FROM NmsMirrorPageSearch WHERE iDeliveryId = $(dl)) LIMIT 5000
    ```
 
    여기서 `$(dl)` 은 게재의 식별자입니다.
@@ -304,7 +304,7 @@ ht-degree: 0%
 1. 대량 삭제는 **XtkReject** 다음 쿼리가 있는 테이블:
 
    ```sql
-   DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l))
+   DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l)
    ```
 
    여기서 `$(curDate)` 에 대해 정의된 기간을 뺀 현재 서버 날짜입니다 **NmsCleanup_RejectsPurgeDelay** 옵션(참조) [배포 마법사](#deployment-wizard)) 및 `$(l)` 는 대량 삭제할 최대 레코드 수입니다.
