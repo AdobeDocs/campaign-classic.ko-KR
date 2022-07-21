@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 8d6f5a3596c2c919e597e0b6ce3d711276c8df12
+source-git-commit: 0d0c97213cf8b95bbadd06f4c5666213b6c6c8f1
 workflow-type: tm+mt
-source-wordcount: '1965'
-ht-degree: 98%
+source-wordcount: '1987'
+ht-degree: 97%
 
 ---
 
@@ -84,6 +84,7 @@ _2022년 7월 1일_
 * 간헐적인 코어 덤프로 인해 충돌이 발생하는 문제를 해결했습니다(NEO-30549).
 * 게재에서 잘못된 HTML 코드를 사용할 때 충돌이 발생하는 문제를 해결했습니다. (NEO-40385)
 * 관리자가 아닌 사용자가 게재 속성의 **분석** 탭에 액세스할 수 없는 문제를 해결했습니다. (NEO-34025)
+* 메시지를 준비하는 동안 외부 서버에서 청크 모드로 이미지가 업로드되지 않는 문제를 수정했습니다. (NEO-40307)
 
 ## ![](assets/do-not-localize/green_2.png) 릴리스 7.2.2 - 빌드 9349 {#release-7-2-2}
 
