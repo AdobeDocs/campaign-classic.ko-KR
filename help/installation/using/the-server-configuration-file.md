@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+source-git-commit: acbb2144906841a6da59314b84b3faf5863cf9d6
 workflow-type: tm+mt
 source-wordcount: '7957'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -90,25 +90,25 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   <tr> 
    <td> longSessionTimeOutSec<br /> </td> 
    <td> 긴 세션의 시간 제한(초)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1296000<br /> </td> 
   </tr> 
   <tr> 
    <td> securityTimeOutSec<br /> </td> 
    <td> 보안 토큰 시간 제한(초)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> sessionCacheSec<br /> </td> 
    <td> 캐시 기간: 세션 정보의 캐시(초)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 600년<br /> </td> 
   </tr> 
   <tr> 
    <td> sessionTimeOutSec<br /> </td> 
    <td> 세션 시간 초과(초)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
  </tbody> 
@@ -124,7 +124,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -153,7 +153,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -172,7 +172,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   <tr> 
    <td> formCacheTimeToLive<br /> </td> 
    <td> 양식 캐시 만료 지연: 캐시 항목이 무효화된 후 시간 초과(초)입니다. 즉, 캐시 항목은 게시 시에만 새로 고침됩니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 600년<br /> </td> 
   </tr> 
   <tr> 
@@ -184,7 +184,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   <tr> 
    <td> interactionCacheTimeToLive<br /> </td> 
    <td> 상호 작용 JSSP 캐시 만료 지연: 캐시 항목이 무효화된 후 시간 초과(초)입니다. 음수 값은 캐시가 항상 무효화됨을 의미합니다. '0', 비어 있거나 잘못된 값은 60으로 간주됩니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 300년<br /> </td> 
   </tr> 
   <tr> 
@@ -232,7 +232,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   <tr> 
    <td> viewCacheTimeToLive<br /> </td> 
    <td> 뷰 캐시의 유효 기간: 캐시 항목이 무효화된 후 시간 초과(초)입니다. 음수 값은 캐시가 항상 무효화됨을 의미합니다. '0', 비어 있거나 잘못된 값은 60으로 간주됩니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 600년<br /> </td> 
   </tr> 
   <tr> 
@@ -280,7 +280,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -301,7 +301,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값<br /> </th> 
+   <th> 기본 값<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -401,22 +401,22 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   <tr> 
    <td> aliveTestDelaySec<br /> </td> 
    <td> 연결 유효성 검사 사이의 지연.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
   </tr> 
   <tr> 
    <td> freeCnx<br /> </td> 
    <td> 풀에 남아 있는 무료 연결 수입니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
    <td> 새 연결을 거부하기 전에 허용되는 최대 연결 수입니다. 다음 보기 <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">기술 정보</a>.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
   </tr> 
   <tr> 
    <td> maxIdleDelaySec<br /> </td> 
    <td> 최대 연결 유휴 시간입니다. 0은 기본값을 의미합니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -507,7 +507,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -526,13 +526,13 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   <tr> 
    <td> 다시 시도<br /> </td> 
    <td> DNS 쿼리에 대한 다시 시도 횟수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> 시간 제한<br /> </td> 
    <td> DNS 쿼리에 대한 시간 제한(밀리초)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 5000년<br /> </td> 
   </tr> 
  </tbody> 
@@ -590,7 +590,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -603,7 +603,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   <tr> 
    <td> maxProcessusCount<br /> </td> 
    <td> 맥스 한 컴퓨터에서 한 번에 허용되는 전환 프로세스 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
@@ -615,7 +615,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   <tr> 
    <td> 시간 제한<br /> </td> 
    <td> 전환 시간 제한: 최대 전환 시간(초)입니다. 이 임계값을 벗어나면 변환 프로세스가 중지되고 오류가 발생합니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 120년<br /> </td> 
   </tr> 
   <tr> 
@@ -627,7 +627,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   <tr> 
    <td> waitTime<br /> </td> 
    <td> 프로세스를 기다리는 동안 지연: 모든 프로세스가 동시에 사용되는 경우 지연 시간(초)과 프로세스가 종료되기를 기다리는 경우 지연 시간(초)입니다. 이 지연을 초과하면 전환이 중지되고 오류가 발생합니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 15<br /> </td> 
   </tr> 
  </tbody> 
@@ -649,7 +649,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -716,20 +716,20 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> maxMB<br /> </td> 
    <td> 가비지 수집기를 실행하기 전에 최대 크기(MB)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 512년 <br /> </td> 
   </tr> 
   <tr> 
    <td> stackSizeKB<br /> </td> 
    <td> 킬로 octets의 각 스택 청크의 크기입니다. 대부분의 사용자가 조정해서는 안 되는 메모리 관리 조정 매개 변수입니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 8<br /> </td> 
   </tr> 
  </tbody> 
@@ -745,7 +745,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -774,7 +774,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -797,14 +797,14 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> maxPreparationJobsSec<br /> </td> 
    <td> 최대 준비 시간: 게재 작업을 더 이상 준비할 수 없는 기간(초).<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 3600년<br /> </td> 
   </tr> 
   <tr> 
@@ -832,20 +832,20 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> maxConversion<br /> </td> 
    <td> OpenOffice 서버가 수행할 수 있는 최대 전환 수입니다. 이 수를 초과하면 서버가 다시 시작됩니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1000년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxServerIdleSec<br /> </td> 
    <td> 강제 닫기 전에 OpenOffice 서버의 최대 유휴 시간입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 7200년<br /> </td> 
   </tr> 
   <tr> 
@@ -875,7 +875,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -933,7 +933,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   <tr> 
    <td> 포트<br /> </td> 
    <td> 프록시 서버 포트<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -948,14 +948,14 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> maxThreadCount<br /> </td> 
    <td> 풀의 최대 스레드 수입니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -977,7 +977,7 @@ URL을 찾을 수 없는 경우에는 지정된 기본 모드에 따라 기본 �
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1030,7 +1030,7 @@ URL을 찾을 수 없는 경우에는 지정된 기본 모드에 따라 기본 �
 
 dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;http://.&#42;&quot;
 
-및 
+및
 
 dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
@@ -1046,8 +1046,6 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <url dnsSuffix="api.twitter.com"                         urlRegEx="https://api.twitter.com/1.1.*"              />
 <url dnsSuffix="adobeid-na1.services.adobe.com"          urlRegEx="https://.*"                                    />
 <url dnsSuffix="adobeid-na1-stg1.services.adobe.com"     urlRegEx="https://.*"                                    />
-<url dnsSuffix="deliverability.neolane.net"              urlRegEx="https://deliverability.neolane.net/jssp/dm/renderingSeed.jssp" />
-<url dnsSuffix="deliverability.neolane.net"              urlRegEx="https://deliverability.neolane.net/nl/jsp/soaprouter.jsp" />
 <url dnsSuffix="localhost"                               urlRegEx="http://localhost:8080/nms/jsp/.*"              />
 <url dnsSuffix="localhost"                               urlRegEx="http://localhost:8080/nl/jsp/.*"               />
 <url dnsSuffix="localhost"                               urlRegEx="http://localhost:8080/xtk/jsp/.*"              />
@@ -1063,14 +1061,14 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> purgeLogsPeriod<br /> </td> 
    <td> 서버 처리 중 메모리 상태 새로 고침 기간(ms)<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 500년<br /> </td> 
   </tr> 
  </tbody> 
@@ -1088,14 +1086,14 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> acquireLimit<br /> </td> 
    <td> 동시에 처리할 EML 수<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 100년<br /> </td> 
   </tr> 
   <tr> 
@@ -1119,7 +1117,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> compressBatchSize<br /> </td> 
    <td> 압축된 아카이브 크기: 압축된 보관 파일의 최대 파일 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 10000<br /> </td> 
   </tr> 
   <tr> 
@@ -1131,7 +1129,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> expirationDelay<br /> </td> 
    <td> 처리되지 않은 전자 메일의 자동 보관 전 지연: 처리되지 않은 이메일이 보관되기 전 일 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
   <tr> 
@@ -1143,19 +1141,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1800년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1600년<br /> </td> 
   </tr> 
   <tr> 
    <td> pollDelay<br /> </td> 
    <td> 각 업데이트 이벤트 간의 지연(초)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
@@ -1167,13 +1165,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> purgeArchivesDelay<br /> </td> 
    <td> 처리되지 않은 전자 메일이 삭제되기 전 일 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 7<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
@@ -1191,7 +1189,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> smtpNbConnection<br /> </td> 
    <td> 보관 SMTP 서버에 대한 연결 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
@@ -1203,7 +1201,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> smtpRelayPort<br /> </td> 
    <td> SMTP 서버의 IP 포트입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 25년<br /> </td> 
   </tr> 
  </tbody> 
@@ -1219,7 +1217,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1262,7 +1260,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> inMailPeriodSec<br /> </td> 
    <td> 메시지 읽기 기간: 메시지 큐 폴링 빈도<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 5개<br /> </td> 
   </tr> 
   <tr> 
@@ -1274,49 +1272,49 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> maxBroadLog<br /> </td> 
    <td> 업데이트할 최대 로그 수: 데이터베이스를 업데이트하기 전에 메모리에 유지할 최대 로그 메시지 수를 정의합니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 20년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMsgPerSession<br /> </td> 
    <td> POP3 세션 동안 읽을 최대 메시지 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 200년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1800년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1600년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSessionTTLSec<br /> </td> 
    <td> 세션 기간: 메시지 처리 세션의 최대 기간입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 100년<br /> </td> 
   </tr> 
   <tr> 
    <td> popMailPeriodSec<br /> </td> 
    <td> POP3 폴링 기간<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 300년<br /> </td> 
   </tr> 
   <tr> 
    <td> popQueueSize<br /> </td> 
    <td> 읽기 메시지의 큐 크기<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 100년<br /> </td> 
   </tr> 
   <tr> 
    <td> popTimeoutSec<br /> </td> 
    <td> POP3 서버와의 통신 시간 제한. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 300년<br /> </td> 
   </tr> 
   <tr> 
@@ -1328,13 +1326,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> reloadPeriodSec<br /> </td> 
    <td> 폴링할 계정의 데이터베이스 다시 로드 빈도<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 600년<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -1350,7 +1348,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1381,7 +1379,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1400,7 +1398,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> callDataSize<br /> </td> 
    <td> 맥스 호출 데이터를 위해 공유 메모리에 저장된 문자 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
@@ -1412,25 +1410,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1800년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1600년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSharedEntries<br /> </td> 
    <td> 맥스 공유 메모리에 저장된 이벤트 수.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 25000<br /> </td> 
   </tr> 
   <tr> 
    <td> nextOffersSize<br /> </td> 
    <td> 통계에 저장할 제안 바로 뒤에 정렬된 최대 적격의 오퍼 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
@@ -1442,19 +1440,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> statsPeriod<br /> </td> 
    <td> 응답 시간 통계에 대한 집계 기간(초). 0은 통계 저장소가 비활성화되었음을 의미합니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 600년<br /> </td> 
   </tr> 
   <tr> 
    <td> targetKeySize<br /> </td> 
    <td> 맥스 개인을 식별하기 위해 공유 메모리에 저장된 문자 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 16<br /> </td> 
   </tr> 
  </tbody> 
@@ -1470,7 +1468,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1501,13 +1499,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> dnsRequestLogDelayMs<br /> </td> 
    <td> DNS 쿼리 로그 지연: 로그를 표시하는 시간(밀리초)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> errorPeriodSec<br /> </td> 
    <td> 오류 통계 빈도: 데이터베이스의 통계와 저장소 생성 사이의 시간입니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 300년<br /> </td> 
   </tr> 
   <tr> 
@@ -1525,43 +1523,43 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> logLevel<br /> </td> 
    <td> 로그 메시지 수준을 표시합니다. 데이터베이스에 작성된 로그의 심각도 수준입니다. MTA에서 생성된 로그 메시지가 모두 데이터베이스에 기록되는 것은 아닙니다. 이 매개 변수를 사용하여 데이터베이스에 메시지를 작성해야 하는 수준을 정의할 수 있습니다. 레벨 2를 정의하는 경우 레벨 1과 0의 메시지도 작성되지만 레벨 1을 정의하는 경우에는 레벨 1과 0의 메시지만 기록됩니다. 가능한 값은 다음과 같습니다. 0(오류), 1(경고), 2(정보)<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 2개<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMemoryMb<br /> </td> 
    <td> mta 프로세스에서 사용할 수 있는 최대 메모리 크기(MB)입니다. 이 제한 이상의 경우, 사용하는 메모리가 시스템에 해제되도록 프로세스가 다시 시작됩니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1024년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1800년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1600년<br /> </td> 
   </tr> 
   <tr> 
    <td> minConnectionsToLog<br /> </td> 
    <td> 고려할 연결 임계값입니다. errorPeriodSec에서 지정한 기간의 총 연결 수가 임계값보다 엄격하게 낮은 경우 지정된 경로에 대해 오류 통계가 생성되지 않습니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 100년<br /> </td> 
   </tr> 
   <tr> 
    <td> minErrorsToLog<br /> </td> 
    <td> 고려할 오류 임계값: errorPeriodSec에서 지정한 기간의 총 오류 수가 임계값보다 엄격하게 낮은 경우 지정된 경로에 대해 오류 통계가 생성되지 않습니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> minMessagesToLog<br /> </td> 
    <td> 고려할 메시지 임계값입니다. errorPeriodSec에서 지정한 기간 동안 보낸 총 메시지 수가 임계값보다 엄격하게 낮은 경우 지정된 경로에 대해 오류 통계가 생성되지 않습니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1000년<br /> </td> 
   </tr> 
   <tr> 
@@ -1579,7 +1577,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> purgeDataLogDelay<br /> </td> 
    <td> 보관된 전자 메일이 삭제되기 전 지연: dataLogPath에 지정된 디렉토리에 있는 보관된 이메일을 삭제하기 전 일 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 15<br /> </td> 
   </tr> 
   <tr> 
@@ -1591,7 +1589,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
@@ -1662,26 +1660,26 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> maxPeriodSec<br /> </td> 
    <td> 재생 후: 캐시에서 파일을 자동으로 삭제하여 스토리지를 재확보할 수 있는 기간(초)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 244800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSizeOnDiskMb<br /> </td> 
    <td> 최대 캐시 크기(Mb)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1024년<br /> </td> 
   </tr> 
   <tr> 
    <td> purgePeriodSec<br /> </td> 
    <td> 제거 빈도: 캐시 제거 메커니즘의 실행 간격(초)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 3600년<br /> </td> 
   </tr> 
  </tbody> 
@@ -1701,7 +1699,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1714,7 +1712,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> 포트<br /> </td> 
    <td> SMTP 서버의 IP 포트입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 25년<br /> </td> 
   </tr> 
  </tbody> 
@@ -1732,44 +1730,44 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 
    <td> 배달할 작업의 데이터베이스 폴링 빈도입니다. 이 값은 데이터베이스 폴링 빈도(초)를 나타냅니다. 전달을 기다리는 작업 목록을 얻기 위해 MTA는 정기적으로 데이터베이스를 폴링합니다. 작업 대기 시간이 없으면 이 값으로 폴링 기간이 정의됩니다. 그렇지 않으면 작업이 하위 서버로 전송되면 이 폴링 기간은 자동으로 1초로 축소되어 하위 서버를 다시 사용할 수 있게 되는 즉시 새 작업을 다시 처리할 수 있습니다. 이는 하위 서버를 다시 사용할 수 있을 때까지 데이터베이스 쿼리가 매 초마다 수행됨을 의미하지 않습니다. 실제로 하나 이상의 하위 서버를 사용할 수 있는 경우에만 데이터베이스 액세스가 수행됩니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
   <tr> 
    <td> dataBaseRetryDelaySec<br /> </td> 
    <td> 데이터베이스 연결 실패 후 대기 기간입니다. 데이터베이스 연결 오류는 일반적으로 데이터베이스 서버 자체에 의해 발생합니다. 예를 들어 서버를 유지 보수 목적으로 중지할 수도 있습니다. DataBaseRetryDelay 매개 변수는 데이터베이스 연결 실패 시 두 연결 시도 사이의 기간을 정의합니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> domainKeysReloadPeriodSec<br /> </td> 
    <td> 개인 키(DomainKeys)의 캐시에 대한 유효 기간입니다. 도메인 키 권장 사항(http://antispam.yahoo.com/domainkeys)에 따라 전자 메일에 서명하는 데 사용되는 개인 키는 데이터베이스에 옵션으로 저장됩니다. domainKeysReloadPeriodSec 매개 변수는 MTA가 이러한 키를 캐시에 유지할 수 있는 시간(초)을 정의합니다. 이 지연 후에 데이터베이스에서 모든 키를 다시 로드해야 합니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 600년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSpareServers<br /> </td> 
    <td> 최대 자식 서버 수입니다. 실행 중인 최대 서버 수를 나타냅니다. 서버 메모리 리소스와 최적의 호환으로 이 수를 제한하는 것이 좋습니다. 이는 배달 중에 확인할 수 있습니다. 사용된 메모리는 사용 가능한 실제 메모리의 3분의 1을 초과할 수 없습니다. 그렇지 않으면 스왑 기능이 사용됩니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">MTA 하위 프로세스</a>.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 2개<br /> </td> 
   </tr> 
   <tr> 
    <td> minSpareServers<br /> </td> 
    <td> 최소 하위 서버 수입니다. MTA는 최소 이 수의 서버를 계속 실행하려고 합니다. 이 값이 작으면 이 값에 도달할 때까지 매 초마다 새 서버를 다시 시작합니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> startSpareServers<br /> </td> 
    <td> 시작 시 하위 서버 수입니다. 하위 서버 수는 동적으로 모니터링됩니다. MTA가 시작되면 이 값이 나타내는 수만큼 하위 서버가 만들어집니다. 일반적으로 호스트 리소스를 저장하기 위해 1초보다 빠르게 하위 서버를 시작할 수 없습니다. 그러나 MTA가 시작되면 하위 서버를 가능한 한 빨리 사용할 수 있도록 이 제한이 무시됩니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
  </tbody> 
@@ -1787,7 +1785,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1800,43 +1798,43 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> idleChildTimeoutSec<br /> </td> 
    <td> 유휴 하위 서버가 중지될 때까지 시간이 초과되었습니다. 하위 서버의 유휴 시간이 이 매개 변수보다 큰 경우 자동으로 종료되어 호스트 리소스를 확보합니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> maxAgeSec<br /> </td> 
    <td> 최대 메시지 보존 시간입니다. 전송률 조절 때문에 준비된 메시지를 보낼 수 없거나 대상 MTA에 연결할 수 없는 경우 메시지가 중단되며 다음 다시 시도 시 처리됩니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 600년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxGCMConnectPerChild<br /> </td> 
    <td> 각 하위 서버에서 시작한 FCM에 대한 최대 병렬 Http 요청 수.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 8<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMsgPerChild<br /> </td> 
    <td> 하위 서버당 최대 메시지 수입니다. 각 MTA 하위는 이 수의 메시지를 처리하여 종료합니다. MTA에서 메모리 또는 리소스 누수가 해가 되지 않도록(일반적으로 몇 만 명) 숫자를 지정하는 것이 중요합니다. MTA 코드에 알려진 메모리 누수가 없는 경우에도 포함된 JavaScript 및 XSL 엔진은 완전히 신뢰할 수 없습니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 5000000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxWaitingMessages<br /> </td> 
    <td> 보류 중인 메시지: 배달할 메모리에서 대기하는 최대 메시지 수입니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 2000년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxWorkingSetMb<br /> </td> 
    <td> 하위 프로세스에서 사용할 수 있는 최대 메모리 크기(MB)입니다. 이 제한 이상의 경우, 사용하는 메모리가 시스템에 해제되도록 프로세스가 중지됩니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 128년<br /> </td> 
   </tr> 
   <tr> 
    <td> soapConnectorTimeoutSec<br /> </td> 
    <td> 배달 커넥터에 대한 SOAP 연결이 중단된 후 시간 초과(초)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 600년<br /> </td> 
   </tr> 
   <tr> 
@@ -1848,7 +1846,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> timeToLive<br /> </td> 
    <td> 다시 시작할 때 연속된 최대 시도 횟수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 48<br /> </td> 
   </tr> 
  </tbody> 
@@ -1862,7 +1860,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1875,19 +1873,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> idleSessionTimeoutSec<br /> </td> 
    <td> 유휴 세션 시간 제한. 이 매개 변수는 세션이 지정된 도메인에 여러 메시지를 전송하는 데 재사용되는 경우에만 사용됩니다. MTA가 메시지 전송을 완료하면 SMTP 세션이 사용한 SMTP 세션이 체계적으로 닫히지 않습니다. 동일한 도메인에 대해 메시지를 보낼 준비가 된 경우 동일한 SMTP 세션이 다시 사용되므로 세션이 자동으로 닫히지 않습니다. 매개 변수 IdleSessionTimeout 매개 변수를 사용하면 SMTP 세션이 다른 메시지를 기다리는 동안 활성 상태로 남아 있는 시간을 정의할 수 있습니다. 기간이 경과하면 세션이 자동으로 닫힙니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 5개<br /> </td> 
   </tr> 
   <tr> 
    <td> initialDelaySec<br /> </td> 
    <td> 연결을 재시도하기 전 초기 지연. 연결이 실패할 때마다 이 지연이 두 배로 증가합니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSessionsPerChild<br /> </td> 
    <td> 하위 서버별 최대 SMTP 세션 수입니다. 메시지를 배달하려면 MTA가 수신자 MTA와 SMTP 연결을 초기화합니다. 주어진 자식 서버에 대한 동시 및 활성 SMTP 세션의 최대 수는 이 값으로 제한됩니다. 이 값을 maxSpareServers에 곱하면 주어진 자식 서버에서 동시에 처리할 수 있는 최대 메시지 수를 얻을 수 있습니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1000년<br /> </td> 
   </tr> 
  </tbody> 
@@ -1940,12 +1938,12 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> publicId<br /> </td> 
    <td> 연결된 공개 주소 ID입니다. 통계 서버의 키로 사용됩니다. 숫자여야 합니다. 다음 보기 <a href="../../installation/using/email-deliverability.md#managing-ip-addresses">섹션</a>.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
   </tr> 
   <tr> 
    <td> 가중치<br /> </td> 
    <td> 다른 IP에 상대적인 이 IP에 대한 사용 빈도를 지정합니다(가중치가 클수록 주파수가 높아짐).<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
   </tr> 
   <tr> 
    <td> includeDomains<br /> </td> 
@@ -1975,7 +1973,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1998,7 +1996,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -2011,7 +2009,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> 포트<br /> </td> 
    <td> 릴레이 포트<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 443년<br /> </td> 
   </tr> 
   <tr> 
@@ -2033,7 +2031,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -2082,7 +2080,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> dumpStatePeriodSec<br /> </td> 
    <td> 상태 저장 기간: 프로세스의 내부 정보가 파일에 저장되는 빈도. 0인 경우 비활성 상태입니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
@@ -2100,19 +2098,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1800년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1600년<br /> </td> 
   </tr> 
   <tr> 
    <td> monitorServerPort<br /> </td> 
    <td> 상태 서버 포트: 프로세스의 상태를 쿼리할 수 있는 HTTP 서버 포트입니다. 0인 경우 비활성 상태입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 7781년<br /> </td> 
   </tr> 
   <tr> 
@@ -2124,7 +2122,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> pointerFlushPeriodSec<br /> </td> 
    <td> 포인터가 저장되기 전 지연: 포인터가 이 기간 동안 적어도 한 번 데이터베이스에 저장됩니다(활동이 낮은 경우 유용합니다.).<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 5개<br /> </td> 
   </tr> 
   <tr> 
@@ -2136,31 +2134,31 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> processingJSONhreads<br /> </td> 
    <td> 개인화된 JavaScript 커넥터를 사용하는 이벤트 처리를 위한 스레드 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> processingThreads<br /> </td> 
    <td> 이벤트 처리를 위한 스레드 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> retryPeriodSec<br /> </td> 
    <td> 오류가 있는 경우 처리 사이의 지연<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
   <tr> 
    <td> retryValiditySec<br /> </td> 
    <td> 이 기간 후 포기: 이 기간 후에도 처리가 계속 실패하면 이벤트를 종료합니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 300년<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -2176,14 +2174,14 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> repairActionDelayMin<br /> </td> 
    <td> 게재 작업 복구 모듈: 복구 모듈에서 게재 작업을 처리할 수 있는 지연 시간(분)입니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
  </tbody> 
@@ -2201,7 +2199,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -2299,7 +2297,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -2340,7 +2338,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -2359,13 +2357,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> dataRetentionDays<br /> </td> 
    <td> SMPP 커넥터에서 보관 중인 파일 작업 최대 일 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> dataSizeMo<br /> </td> 
    <td> SMPP 작업 파일의 최대 크기(MB)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 512년<br /> </td> 
   </tr> 
   <tr> 
@@ -2377,25 +2375,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> keepAlivePeriod<br /> </td> 
    <td> 세션 연속성 프레임의 되풀이: 최대. 수신 세션이 여전히 활성화되었음을 알리는 두 프레임 사이의 기간(초)<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 25년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1800년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1600년<br /> </td> 
   </tr> 
   <tr> 
    <td> pollPeriod<br /> </td> 
    <td> 검색 빈도: SMS 계정 폴링 기간입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 300년<br /> </td> 
   </tr> 
   <tr> 
@@ -2407,25 +2405,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> reloadPeriod<br /> </td> 
    <td> 계정 다시 로드 빈도: 폴링할 계정의 데이터베이스 다시 로드 빈도<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 600년<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> srReadDelay<br /> </td> 
    <td> SR 처리에 대한 지연 시간(초): 현재 시간보다 빠른 복구 날짜에서 srReadDelay에 의해 지정된 기간(초)을 뺀 SR만 사용합니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 600년<br /> </td> 
   </tr> 
   <tr> 
    <td> 시간 제한<br /> </td> 
    <td> SMS 게이트웨이와의 통신 시간 제한.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 300년<br /> </td> 
   </tr> 
  </tbody> 
@@ -2441,14 +2439,14 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> netsizeConnectionTimeout<br /> </td> 
    <td> Netsize와의 연결을 설정할 때 시간 제한(초)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
  </tbody> 
@@ -2464,7 +2462,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -2489,19 +2487,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1800년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1600년<br /> </td> 
   </tr> 
   <tr> 
    <td> 포트<br /> </td> 
    <td> 서버 수신 대기 포트입니다. 다음 보기 <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">섹션</a>.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2513,7 +2511,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -2529,7 +2527,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -2554,25 +2552,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> maxFileSizeMb<br /> </td> 
    <td> 로그 파일의 최대 크기(MB)입니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> maxNumberOfLoginsFiles<br /> </td> 
    <td> 유지할 최대 logins.log 파일 수입니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 365년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1800년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1600년<br /> </td> 
   </tr> 
   <tr> 
@@ -2584,7 +2582,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -2600,7 +2598,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -2625,13 +2623,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> consolidationPeriodSec<br /> </td> 
    <td> 통합 기간<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 300년<br /> </td> 
   </tr> 
   <tr> 
    <td> dedupOpenPeriodMin<br /> </td> 
    <td> 개구부 중복 제거: Outlook과 같은 메일 독자의 메일 미리 보기 효과를 제한하려면 열려 있는 추적 로그가 중복되지 않습니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
@@ -2643,13 +2641,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> errorIgnorePeriod<br /> </td> 
    <td> 오류 표시기 업데이트: 오류 표시기를 다시 계산하기 전의 최대 기간입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> indicatorsDuration<br /> </td> 
    <td> 다음 작업 중 표시기 계산: 통합 표시기가 더 이상 계산되지 않는 게재 유효 일자 이후의 기간<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 2592000<br /> </td> 
   </tr> 
   <tr> 
@@ -2661,31 +2659,31 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> logCountPerRequest<br /> </td> 
    <td> 원격 추적 서버 호출에서 요청한 로그 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1000년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1800년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1600년<br /> </td> 
   </tr> 
   <tr> 
    <td> phisbowelServiceAPIKey<br /> </td> 
    <td> Phisbowel Service Endpoint Integration에 대한 API 키. 따라서 이전 빌드에서 생성된 잘못된 형식의 URL의 리디렉션이 보호됩니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> phisbowelServiceEndpoint<br /> </td> 
    <td> Phisbowel Service Endpoint Integration에 대한 끝점입니다. 따라서 이전 빌드에서 생성된 잘못된 형식의 URL의 리디렉션이 보호됩니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2697,7 +2695,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
@@ -2709,13 +2707,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> trackingIgnorePeriod<br /> </td> 
    <td> 추적 표시기 업데이트: 추적 지표를 다시 계산하기 전의 최대 기간입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> userAgentCacheSize<br /> </td> 
    <td> 브라우저 식별자 캐시의 크기입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 500년<br /> </td> 
   </tr> 
  </tbody> 
@@ -2731,7 +2729,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -2756,31 +2754,31 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> maxCreateFileRetry<br /> </td> 
    <td> 최대 쓰기 다시 시도: 로그 파일에서 쓰기 오류가 발생할 경우 만들 수 있는 최대 파일 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 5개<br /> </td> 
   </tr> 
   <tr> 
    <td> maxLogsSizeOnDiskMb<br /> </td> 
    <td> 최대 로그 크기: 디스크에서 로그에 사용되는 최대 공간(MB)입니다. 100MB 이하일 수 있습니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 500년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1800년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1600년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSharedLogs<br /> </td> 
    <td> 최대 로그 수: 공유 메모리에 저장된 최대 로그 수입니다. 10000 이상이어야 합니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 25000<br /> </td> 
   </tr> 
   <tr> 
@@ -2792,19 +2790,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> purgeLogsPeriod<br /> </td> 
    <td> 제거 전 로그 수: 로그 파일 제거를 시작하기 전에 삽입된 로그 수입니다. 50000 이하일 수 없습니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 50000<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> webTrackingParamSize<br /> </td> 
    <td> 추가 웹 추적 매개 변수를 위해 공유 메모리에 저장된 최대 문자 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 64<br /> </td> 
   </tr> 
  </tbody> 
@@ -2822,7 +2820,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -2835,13 +2833,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> MaxThreads<br /> </td> 
    <td> 최대 스레드 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 75<br /> </td> 
   </tr> 
   <tr> 
    <td> MinSpareThreads<br /> </td> 
    <td> 최소 스레드 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 5개<br /> </td> 
   </tr> 
   <tr> 
@@ -2859,13 +2857,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> controlPort<br /> </td> 
    <td> Tomcat 수신 제어 포트: 참조 <a href="configure-tomcat.md" target="_blank">Tomcat 구성</a>.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 8005년<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
    <td> Tomcat HTTP 수신 대기 포트: 참조 <a href="configure-tomcat.md" target="_blank">Tomcat 구성</a>.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 8080년<br /> </td> 
   </tr> 
   <tr> 
@@ -2877,19 +2875,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> maxDeliveryQueueSize<br /> </td> 
    <td> SubmitDelivery 호출에 대한 큐 크기: 큐에 추가할 수 있는 최대 SubmitDelivery SOAP 호출 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 50<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1800년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1600년<br /> </td> 
   </tr> 
   <tr> 
@@ -2907,7 +2905,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
@@ -2929,7 +2927,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -3008,7 +3006,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -3021,7 +3019,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> timeToLive<br /> </td> 
    <td> JavaScript 컨텍스트에서 제공하는 최대 페이지 수입니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1000년<br /> </td> 
   </tr> 
  </tbody> 
@@ -3041,7 +3039,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -3100,7 +3098,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -3155,7 +3153,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> 시간 제한<br /> </td> 
    <td> 중계되는 요청의 최대 실행 시간(초)입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -3276,7 +3274,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -3307,7 +3305,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> defLogCount<br /> </td> 
    <td> 호출별 로그 수: GetTrackingLogs 메서드 호출 시 기본적으로 반환되는 로그 수입니다.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
   <tr> 
@@ -3319,7 +3317,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> maxJobsInCache<br /> </td> 
    <td> 최대 작업 수: 캐시의 최대 배달 작업 수입니다. 50보다 작을 수 없습니다. <br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 100년<br /> </td> 
   </tr> 
   <tr> 
@@ -3359,7 +3357,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -3419,7 +3417,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <th> 매개 변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
-   <th> 기본값 </th> 
+   <th> 기본 값 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -3444,7 +3442,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 
    <td> 기간<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 20년<br /> </td> 
   </tr> 
   <tr> 
@@ -3456,13 +3454,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1800년<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
-   <td> Long<br /> </td> 
+   <td> 길게<br /> </td> 
    <td> 1600년<br /> </td> 
   </tr> 
   <tr> 
@@ -3480,7 +3478,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
-   <td> Short<br /> </td> 
+   <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
