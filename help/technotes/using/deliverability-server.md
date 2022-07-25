@@ -3,9 +3,9 @@ product: campaign
 title: 새 게재 기능 서버로 업데이트
 description: 새로운 Campaign 게재 기능 서버로 업데이트하는 방법을 알아봅니다
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: a45e18e460c11f474dc1b5663b9f4a3277fac12c
+source-git-commit: 8b8935b181b615c0a243799b14d01f778b84b715
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1144'
 ht-degree: 2%
 
 ---
@@ -58,13 +58,13 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
    이 옵션은 올바른 값으로 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에 채워야 합니다. 하이브리드 고객은 Adobe에 연락하여 MID, RT 및 EXEC 인스턴스에 옵션을 설정합니다.
 
+>[!CAUTION]
+>
+>온-프레미스 고객의 경우 방화벽이 사용자 측에 구현된 경우 이 URL을 추가해야 합니다 `https://deliverability-service.adobe.io` 허용 목록에 추가하다에 추가합니다. [자세히 알아보기](../../installation/using/url-permissions.md)
+
 ### 1단계: Adobe Developer 프로젝트 만들기/업데이트 {#adobe-io-project}
 
-1. 액세스 [Adobe Developer 콘솔](https://developer.adobe.com/console/home) 조직의 개발자 액세스 권한으로 로그인합니다.
-
-   >[!NOTE]
-   >
-   > 올바른 조직 포털에 로그인되어 있는지 확인하십시오.
+1. 액세스 [Adobe Developer 콘솔](https://developer.adobe.com/console/home) 조직의 개발자 액세스 권한으로 로그인합니다. 올바른 조직 포털에 로그인되어 있는지 확인하십시오.
 
 1. **[!UICONTROL Create new project]**을(를) 선택합니다.
    ![](assets/New-Project.png)
