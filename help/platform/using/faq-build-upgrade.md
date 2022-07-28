@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 56ff1f02e614a91200a8f2ca106dcc76e82f122d
 workflow-type: tm+mt
-source-wordcount: '2023'
-ht-degree: 4%
+source-wordcount: '2031'
+ht-degree: 3%
 
 ---
 
@@ -128,7 +128,7 @@ RT(메시지 센터)에 대해 업그레이드가 발생하면 인스턴스에�
 
 ## 업그레이드 중에도 추적 링크가 계속 작동합니까?
 
-업그레이드 중에 링크 추적이 작동합니다. 업그레이드 중에는 새 이메일을 보낼 수 없지만 이미 보낸 이메일에 포함된 링크 추적은 작동합니다.
+이미 전송된 이메일에 대한 링크 추적은 모든 서버가 중지되므로 업그레이드 중에 작동하지 않습니다. 업그레이드가 완료되고 서버가 다시 시작되면 다시 작동합니다.
 
 ## 빌드 업그레이드 프로세스 중에 사용할 수 있어야 합니까?
 
@@ -195,13 +195,13 @@ RT(메시지 센터)에 대해 업그레이드가 발생하면 인스턴스에�
    * 타임스탬프 및 시간대로 만든 날짜 및 수정 날짜를 확인합니다
    * 스케줄러 실행이 지정된 시간에 워크플로우에서 작동하는지 확인합니다
    * 일시 중지 및 실패 상태인 워크플로의 목록을 가져옵니다. 시작 및 모니터링
-   * 하나의 시나리오에 대한 AB 테스트 실행
+   * 하나의 시나리오에 대해 AB Testing 실행
    * 딥 링크에 대한 추적 기능과 함께 푸시 알림을 테스트합니다
    * SMS 전송 테스트
    * 외부 FDA가 연결된 경우 두 가지 방법으로 데이터가 전송되고 있는지 테스트합니다
    * Adobe Campaign-Adobe Experience Manager, Adobe Campaign-Adobe Analytics과 같은 통합을 사용하는 경우 통합 기능이 이전과 동일하게 작동하는지 테스트합니다
 
-**또한 다음을 참조하십시오**
+**참조 항목**
 
 * [빌드 업그레이드 수행](../../production/using/build-upgrade.md)
 * [Campaign Classic 릴리스 노트](../../rn/using/rn-overview.md)
