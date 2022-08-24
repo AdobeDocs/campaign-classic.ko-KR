@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
-workflow-type: ht
-source-wordcount: '1730'
-ht-degree: 100%
+source-git-commit: 45c5ef3315e4208184e9c0ab5f20678646fe2d0b
+workflow-type: tm+mt
+source-wordcount: '1624'
+ht-degree: 92%
 
 ---
 
@@ -43,36 +43,10 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <td><strong>기능</strong></td>
    <td><strong>교체</strong></td>
   </tr>
-  <tr>
-  <td>CentOs 8.x(64비트)<br></td>
-   <td><p>CentOS Linux 8은 2021년 12월 31일에 EOL(수명 종료)됩니다. <a href="https://www.centos.org/centos-linux-eol/">자세히 알아보기</a></p>
-   <p>이 운영 체제를 사용하는 경우 이에 따라 구현을 조정해야 합니다. CentOS 7.x(64비트) 및 RHEL 8.x/7.x(64비트)는 계속 지원됩니다.</p>
-  <p><em>제거 예정일: 2021년 12월 31일</em></p>
-  </td>
- </tr>
-    <tr>
-  <td>Adobe Analytics 데이터 커넥터<br></td>
-   <td><p>Campaign 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터는 사용이 중단됩니다.</p>
-   <p>이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../platform/using/adobe-analytics-connector.md">자세히 알아보기</a></p>
-  <p><em>목표 제거일: 2022년 8월 17일</em></p>
-  </td>
- </tr>
-    <tr>
-  <td>기술 게재성 모니터링 보고서<br></td>
-   <td><p>Campaign 21.1 릴리스부터는 기술 게재성 모니터링 보고서가 더 이상 사용되지 않습니다.</p>
-   <p>필요한 경우 기능 제거 날짜까지 이 보고서를 이메일로 매일 받을 수 있습니다. 요청하려면 특정 <a href="https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">지원 사례</a>를 열고 인스턴스 이름과 보고서를 보낼 이메일 주소를 지정합니다.</p> 
-   <p>Adobe는 인스턴스 전달성 기능을 모니터링하는 최상의 도구를 정의할 경우 게재 팀에 참여할 것을 권합니다.</p>
-  <p><em>목표 제거일: 2022년 초</em></p>
-  </td>
- </tr>
-  <tr>
-  <td>OAuth 인증(OAuth 및 JWT)<br></td>
-  <td><p> Campaign 20.3 릴리스부터 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O로 이동되었습니다. <p>
-  <p>트리거 통합을 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../integrations/using/configuring-adobe-io.md">자세히 알아보기</a></p> 
-  <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지</a>를 참조하십시오</p> 
-  <p><em>목표 제거일: 2021년 10월 20일 호스팅 환경은 2022년 5월 25일까지 확장 혜택을 받을 수 있습니다. </em></p>
-  </td>
-  </tr>
+<tr>
+ <td>N/A</td>
+ <td>해당 없음</td>
+</tr>
  </tbody> 
 </table>
 
@@ -83,9 +57,29 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 <table> 
  <tbody>
   <tr> 
-   <td><strong>영역 - 기능</strong></td>
-   <td><strong>교체</strong></td>
+   <td><strong>기능</strong></td>
+   <td><strong>세부 정보</strong></td>
   <tr>  
+      <tr>
+  <td>Adobe Analytics 데이터 커넥터<br></td>
+   <td><p>Adobe Analytics 데이터 커넥터가 2022년 8월 17일에 제거되었습니다. Campaign 21.1.3 릴리스에서 더 이상 사용되지 않습니다.</p>
+   <p>이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../platform/using/adobe-analytics-connector.md">자세히 알아보기</a></p>
+  </td>
+ </tr>
+    <tr>
+  <td>기술 게재성 모니터링 보고서<br></td>
+   <td><p>기술 게재 기능 모니터링 보고서를 더 이상 사용할 수 없습니다. Campaign 21.1.3 릴리스에서 더 이상 사용되지 않습니다.</p>
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+  </td>
+ </tr>
+  <tr>
+  <td>OAuth 인증(OAuth 및 JWT)<br></td>
+  <td><p> 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O으로 이동되었습니다. 이 인증 모드는 Campaign 20.3 릴리스에서 더 이상 사용되지 않습니다.<p>
+  <p>트리거 통합을 사용하는 경우 구현을 조정하는 방법을 알아봅니다 <a href="../../integrations/using/configuring-adobe-io.md">이 페이지에서</a>.</p> 
+  <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지</a>를 참조하십시오</p> 
+  <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
+  </td>
+  </tr>
    <td>보고<br></td>
    <td><p>Adobe Flash Player EOL에 따라 측정 보고서 및 차트 렌더링 엔진을 더 이상 사용할 수 없습니다. <a href="../../reporting/using/creating-a-new-report.md">자세히 알아보기</a></p>
   </tr>
@@ -142,13 +136,9 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
  </tbody> 
 </table>
 
-## 사용 중단된 호환성 {#deprecated-compatibility}
+<!--## Deprecated compatibility {#deprecated-compatibility}
 
-다음 시스템은 Campaign Classic에서 사용 중단됩니다. 호환성이 종료되기 전에 최신 버전으로 업그레이드하거나 새 시스템으로 이동하려면 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.
-
-### Adobe Campaign 20.2 릴리스 {#compat-20-2-release}
-
-20.2 릴리스부터 레거시 SMS 커넥터는 사용되지 않습니다. [사용되지 않는 기능 섹션](#deprecated-features)을 참조하십시오.
+The following systems are deprecated for Campaign Classic. Please refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system before the compatibility ends.-->
 
 ## 호환성 종료 {#end-of-compatibility}
 
@@ -168,15 +158,20 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
 
 ### 운영 체제 {#o-s-eol}
 
-21.1.3 릴리스부터 Debian 8은 더 이상 지원되지 않습니다.
 
-19.1 릴리스부터 Adobe Campaign은 더 이상 다음 운영 체제와 호환되지 않습니다.
+* 22.1 릴리스부터 Adobe Campaign은 CentOs 8.x(64비트)와 더 이상 호환되지 않습니다. CentOS Linux 8은 2021년 12월 31일에 수명 종료(EOL)에 도달했습니다. [자세히 알아보기](https://www.centos.org/centos-linux-eol/)
 
-* CentOS 6. [자세히 알아보기](https://wiki.centos.org/Download)
-* Debian 7. [자세히 알아보기](https://wiki.debian.org/DebianReleases)
-* RHEL 6.x. [자세한 내용](https://access.redhat.com/support/policy/updates/errata)
-* Windows Server 2008. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/1163)
-* SLES 11. [자세히 알아보기](https://www.suse.com/lifecycle)
+   이 운영 체제를 사용하는 경우 그에 따라 구현을 조정하십시오. CentOS 7.x(64비트) 및 RHEL 8.x/7.x(64비트)는 계속 지원됩니다.
+
+* 21.1.3 릴리스부터 Adobe Campaign은 더 이상 Debian 8과 호환되지 않습니다.
+
+* 19.1 릴리스부터 Adobe Campaign은 더 이상 다음 운영 체제와 호환되지 않습니다.
+
+   * CentOS 6. [자세히 알아보기](https://wiki.centos.org/Download)
+   * Debian 7. [자세히 알아보기](https://wiki.debian.org/DebianReleases)
+   * RHEL 6.x. [자세한 내용](https://access.redhat.com/support/policy/updates/errata)
+   * Windows Server 2008. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/1163)
+   * SLES 11. [자세히 알아보기](https://www.suse.com/lifecycle)
 
 ### 웹 서버 {#web-server-eol}
 
@@ -239,7 +234,7 @@ Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 
 
 ### SMS 커넥터 {#sms-eol}
 
-Adobe Campaign은 다음 SMS 커넥터와 호환되지 않습니다.
+20.2 릴리스부터 레거시 SMS 커넥터는 사용되지 않습니다. Adobe Campaign은 다음 제품과 호환되지 않습니다.
 
 * 일반 SMPP(SMPP 버전 3.4 지원 바이너리 모드)
 * Sybase365 (SAP SMS 365)
