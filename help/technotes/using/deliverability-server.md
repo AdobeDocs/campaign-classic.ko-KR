@@ -3,10 +3,10 @@ product: campaign
 title: 새 게재 기능 서버로 업데이트
 description: 새로운 Campaign 게재 기능 서버로 업데이트하는 방법을 알아봅니다
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: ca9df95442355a0cd18c7c9ef048c2d77e84188e
+source-git-commit: 38f5cb9fdeb9deceab812c6ebc158e2ab37e3155
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 2%
+source-wordcount: '1235'
+ht-degree: 3%
 
 ---
 
@@ -51,16 +51,26 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 1. Campaign 클라이언트 콘솔을 열고 Adobe Campaign에 관리자로 로그온합니다.
 1. 찾아보기 **관리 > 플랫폼 > 옵션**.
-1. 을(를) 확인합니다. `DmRendering_cuid` 옵션 값이 입력되었습니다.
+1. 다음을 확인하십시오. `DmRendering_cuid` 옵션 값이 입력되었습니다.
 
    * 옵션이 채워지면 구현을 시작할 수 있습니다.
    * 값을 입력하지 않은 경우 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} 을 입력하여 CUID를 가져옵니다.
 
    이 옵션은 올바른 값으로 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에 채워야 합니다. 하이브리드 고객은 Adobe에 연락하여 MID, RT 및 EXEC 인스턴스에 옵션을 설정합니다.
 
+온-프레미스 고객은 캠페인도 확인해야 합니다 **[!UICONTROL Product profile]** 조직에서 사용할 수 있습니다. 이렇게 하려면 아래 단계를 수행하십시오.
+
+1. 관리자는 [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
+1. 액세스 권한 **제품 및 서비스** 섹션 및 확인 **Adobe Campaign** 이 나열됩니다.
+표시되지 않으면 **Adobe Campaign** 연락처 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} 을 추가하여 가져옵니다.
+1. 클릭 **Adobe Campaign** 조직을 선택합니다.
+1. 다음을 확인하십시오. **[!UICONTROL Product profile]** 존재함. 없는 경우 만듭니다. 이 작업에 대한 권한이 필요하지 않습니다 **[!UICONTROL Product profile]**.
+
+
 >[!CAUTION]
 >
 >온-프레미스 고객의 경우 방화벽이 사용자 측에 구현된 경우 이 URL을 추가해야 합니다 `https://deliverability-service.adobe.io` 허용 목록에 추가하다에 추가합니다. [자세히 알아보기](../../installation/using/url-permissions.md)
+
 
 ### 1단계: Adobe Developer 프로젝트 만들기/업데이트 {#adobe-io-project}
 
@@ -123,7 +133,7 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 1. 파일에서 내용을 복사합니다. `private.key.base64`.
 1. Adobe Campaign 인스턴스가 설치된 각 컨테이너에 SSH를 통해 로그인하고 다음 명령을 다음과 같이 실행하여 Adobe Campaign에 프로젝트 자격 증명을 추가합니다. `neolane` 사용자. 그러면 **[!UICONTROL Technical Account]** 인스턴스 구성 파일의 자격 증명입니다.
 
-   ```
+   ```sql
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
 
