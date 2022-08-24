@@ -3,10 +3,10 @@ product: campaign
 title: Adobe Analytics 커넥터로 마이그레이션
 description: Campaign - Analytics 커넥터 FAQ
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: c072cb5b2d33f93ff395e4670507744b0d20c9bc
+source-git-commit: 9667bb436ffc591b05945dadd683e5f590ae43e5
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 5%
+source-wordcount: '815'
+ht-degree: 6%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 5%
 
 Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터는 사용되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html)
 
-2021년 8월 1일부터 Adobe Campaign Classic이 레거시 Data Connectors UI에서 제거되었지만, 기존 Campaign 통합은 데이터를 수집하여 2022년 8월 17일까지 Adobe Analytics에 전달합니다. 이 날짜 이후, 통합은 데이터 수집을 중단하고 Adobe Analytics에 전달합니다.
+2021년 8월 1일부터 Adobe Campaign Classic이 기존 Data Connectors UI에서 제거되었지만, 기존 Campaign 통합은 2022년 8월 17일까지 데이터를 계속 수집하여 Adobe Analytics으로 전달합니다. 이 날짜 이후, 통합은 데이터 수집을 중단하고 Adobe Analytics에 전달합니다.
 
-사용자 **를 구현해야 함** 레거시 Data Connectors 통합을 대체하는 새로운 Adobe Analytics 커넥터 통합을 Adobe Exchange에서 사용할 수 있습니다. Adobe Analytics 커넥터에 대한 자세한 내용은 [이 페이지](../../platform/using/adobe-analytics-connector.md).
+사용자 **를 구현해야 함** 기존 Data Connectors 통합을 대체하는 새로운 Adobe Analytics Connector on Adobe Exchange 통합. Adobe Analytics 커넥터에 대한 자세한 내용은 [이 페이지](../../platform/using/adobe-analytics-connector.md).
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Data Connectors에 대해 자세히 알아보기 `Integration Owner Not Admin` �
 
 Analytics 구성 요소의 세부 사항을 읽는 경우(지표/차원/세그먼트/보고서 세트 등) API는 결과에 이러한 구성 요소를 반환하지 않습니다(Analytics 측에서 삭제되었거나 존재하지 않을 수 있음). Analytics API는 이러한 요청 및 오류를 거부합니다.
 
-해결 방법은 **제품 프로필** 기술 사용자 토큰의 Analytics 사용자 컨텍스트에서 구성 요소를 추가하여 새로 만들거나 누락된 구성 요소를 포함합니다. [Adobe Admin Console](https://adminconsole.adobe.com/). 자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+해결 방법은 **제품 프로필** 기술 사용자 토큰의 Analytics 사용자 컨텍스트에서 구성 요소를 추가하여 새로 만들거나 누락된 구성 요소를 포함합니다. [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}. 자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## 유용한 링크
 
