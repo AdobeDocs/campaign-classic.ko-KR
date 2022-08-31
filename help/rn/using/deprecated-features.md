@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 45c5ef3315e4208184e9c0ab5f20678646fe2d0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -45,14 +45,14 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr>
 <tr>
  <td>N/A</td>
- <td>해당 없음</td>
+ <td>N/A</td>
 </tr>
  </tbody> 
 </table>
 
 ## 제거된 기능 {#removed-features}
 
-이 섹션에는 Campaign Classic에서 제거된 기능과 기능이 나열됩니다.
+이 섹션에는 Campaign Classic에서 제거된 기능과 기능이 나와 있습니다.
 
 <table> 
  <tbody>
@@ -62,20 +62,20 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <tr>  
       <tr>
   <td>Adobe Analytics 데이터 커넥터<br></td>
-   <td><p>Adobe Analytics 데이터 커넥터가 2022년 8월 17일에 제거되었습니다. Campaign 21.1.3 릴리스에서 더 이상 사용되지 않습니다.</p>
+   <td><p>Adobe Analytics 데이터 커넥터는 2022년 8월 17일부로 제거되었습니다. Campaign 21.1.3 릴리스에서 더 이상 사용되지 않습니다.</p>
    <p>이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../platform/using/adobe-analytics-connector.md">자세히 알아보기</a></p>
   </td>
  </tr>
     <tr>
   <td>기술 게재성 모니터링 보고서<br></td>
-   <td><p>기술 게재 기능 모니터링 보고서를 더 이상 사용할 수 없습니다. Campaign 21.1.3 릴리스에서 더 이상 사용되지 않습니다.</p>
+   <td><p>기술 게재 가능성 모니터링 보고서를 더 이상 사용할 수 없습니다. Campaign 21.1.3 릴리스에서 더 이상 사용되지 않습니다.</p>
    <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
   <td>OAuth 인증(OAuth 및 JWT)<br></td>
-  <td><p> 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O으로 이동되었습니다. 이 인증 모드는 Campaign 20.3 릴리스에서 더 이상 사용되지 않습니다.<p>
-  <p>트리거 통합을 사용하는 경우 구현을 조정하는 방법을 알아봅니다 <a href="../../integrations/using/configuring-adobe-io.md">이 페이지에서</a>.</p> 
+  <td><p> 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증을 변경하고 Adobe I/O로 이동했습니다. Campaign 20.3 릴리스부터는 더 이상 이 인증 모드를 사용하지 않습니다.<p>
+  <p>기존에 트리거 통합을 사용 중이었던 경우 <a href="../../integrations/using/configuring-adobe-io.md">이 페이지에서</a> 구현을 조정하는 방법을 알아보세요.</p> 
   <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지</a>를 참조하십시오</p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
   </td>
@@ -159,9 +159,9 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 ### 운영 체제 {#o-s-eol}
 
 
-* 22.1 릴리스부터 Adobe Campaign은 CentOs 8.x(64비트)와 더 이상 호환되지 않습니다. CentOS Linux 8은 2021년 12월 31일에 수명 종료(EOL)에 도달했습니다. [자세히 알아보기](https://www.centos.org/centos-linux-eol/)
+* 22.1 릴리스부터 Adobe Campaign은 더 이상 CentOs 8.x(64비트)와 호환되지 않습니다. CentOS Linux 8은 2021년 12월 31일부로 EOL(수명 종료) 처리되었습니다. [자세히 알아보기](https://www.centos.org/centos-linux-eol/)
 
-   이 운영 체제를 사용하는 경우 그에 따라 구현을 조정하십시오. CentOS 7.x(64비트) 및 RHEL 8.x/7.x(64비트)는 계속 지원됩니다.
+   해당 운영 체제를 사용하는 경우 이에 따라 구현을 조정하세요. CentOS 7.x(64비트) 및 RHEL 8.x/7.x(64비트)는 계속 지원됩니다.
 
 * 21.1.3 릴리스부터 Adobe Campaign은 더 이상 Debian 8과 호환되지 않습니다.
 
