@@ -3,7 +3,7 @@ product: campaign
 title: 새 게재 기능 서버로 업데이트
 description: 새로운 Campaign 게재 기능 서버로 업데이트하는 방법을 알아봅니다
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 9583763eb1d4403b32a1b77a9542f476c314d167
+source-git-commit: 50ef144950ca9e79b1b3acdf587ffc13e0beeec4
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 3%
@@ -62,7 +62,8 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 1. 관리자는 [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
 1. 액세스 권한 **제품 및 서비스** 섹션 및 확인 **Adobe Campaign** 이 나열됩니다.
 표시되지 않으면 **Adobe Campaign** 연락처 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} 을 추가하여 가져옵니다.
-1. 클릭 **Adobe Campaign** 조직을 선택합니다. **주의**: 두 개 이상의 조직이 있는 경우 올바른 조직을 선택해야 합니다. 조직에 대해 자세히 알아보기 [이 페이지에서](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+1. 클릭 **Adobe Campaign** 조직을 선택합니다.
+   **주의**: 두 개 이상의 조직이 있는 경우 올바른 조직을 선택해야 합니다. 조직에 대해 자세히 알아보기 [이 페이지에서](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
 
 1. 다음을 확인하십시오. **[!UICONTROL Product profile]** 존재함. 없는 경우 만듭니다. 이 작업에 대한 권한이 필요하지 않습니다 **[!UICONTROL Product profile]**.
 
