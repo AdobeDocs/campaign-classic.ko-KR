@@ -3,10 +3,10 @@ product: campaign
 title: 새 게재 기능 서버로 업데이트
 description: 새로운 Campaign 게재 기능 서버로 업데이트하는 방법을 알아봅니다
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 38f5cb9fdeb9deceab812c6ebc158e2ab37e3155
+source-git-commit: 7385617d69c823850083a94b561d02c9152803e1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1317'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,6 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 새로운 게재 기능 서버 통합의 일부로 Campaign은 IMS(Identity Management Service) 기반 인증을 통해 Adobe Shared Services와 통신해야 합니다. 선호하는 방법은 Adobe Developer 기반 게이트웨이 토큰(기술 계정 토큰 또는 Adobe IO JWT라고도 함)을 사용하는 것입니다.
 
-
 >[!WARNING]
 >
 >이러한 단계는 하이브리드 및 온-프레미스 구현에만 수행해야 합니다.
@@ -64,6 +63,11 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 1. 액세스 권한 **제품 및 서비스** 섹션 및 확인 **Adobe Campaign** 이 나열됩니다.
 표시되지 않으면 **Adobe Campaign** 연락처 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} 을 추가하여 가져옵니다.
 1. 클릭 **Adobe Campaign** 조직을 선택합니다.
+
+   >[!CAUTION]
+   >
+   >두 개 이상의 조직이 있는 경우 올바른 조직을 선택해야 합니다. 조직에 대해 자세히 알아보기 [이 페이지에서](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+
 1. 다음을 확인하십시오. **[!UICONTROL Product profile]** 존재함. 없는 경우 만듭니다. 이 작업에 대한 권한이 필요하지 않습니다 **[!UICONTROL Product profile]**.
 
 
@@ -76,9 +80,12 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 1. 액세스 [Adobe Developer 콘솔](https://developer.adobe.com/console/home) 조직의 개발자 액세스 권한으로 로그인합니다. 올바른 조직 포털에 로그인되어 있는지 확인하십시오.
 
+   >[!CAUTION]
+   >
+   >두 개 이상의 조직이 있는 경우 올바른 조직을 선택해야 합니다. 조직에 대해 자세히 알아보기 [이 페이지에서](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+
 1. **[!UICONTROL Create new project]**을(를) 선택합니다.
    ![](assets/New-Project.png)
-
 
    >[!CAUTION]
    >
@@ -151,12 +158,14 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 
 통합이 성공했는지 확인하려면 아래 단계를 따르십시오.
 
-
 1. 클라이언트 콘솔을 열고 Adobe Campaign에 로그인합니다.
 1. 찾아보기 **관리 > 프로덕션 > 기술 워크플로우**.
 1. 를 다시 시작합니다. **게재 능력을 위해 새로 고침** (게재 가능성 업데이트) 워크플로우입니다. 이 작업은 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에서 수행해야 합니다. 하이브리드 고객은 Adobe에 연락하여 MID, RT 및 EXEC 인스턴스에서 워크플로우를 다시 시작합니다.
 1. 로그 확인: 워크플로우는 오류 없이 실행해야 합니다.
 
+>[!CAUTION]
+>
+>업데이트 후 **받은 편지함 렌더링용 시드 네트워크 업데이트(updateRenderingSeed)** 워크플로우는 더 이상 적용되지 않고 실패하므로 중지해야 합니다.
 
 ## FAQ(자주 묻는 질문) {#faq}
 
@@ -173,4 +182,3 @@ Adobe은 보안 규정 준수 때문에 오래된 데이터 센터를 해체하�
 환경을 업그레이드하지 않으면 이메일 설정이 동기화되지 않습니다(MX 관리 규칙, 인바운드 전자 메일 규칙, 도메인 관리 규칙 및 반송 자격 규칙). 이는 게재 능력에 시간이 지남에 따라 영향을 줄 수 있습니다. 이러한 규칙에 중요한 변경이 있는 경우 이 시점부터 수동으로 적용해야 합니다.
 
 MKT 인스턴스의 경우에만 [전역 제외 목록](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) 이 영향을 받습니다.
-
