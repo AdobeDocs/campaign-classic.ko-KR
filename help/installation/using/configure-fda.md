@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: f580b9b2508c279e03bd2698854aaf3de501200b
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '342'
 ht-degree: 5%
 
 ---
@@ -42,29 +42,15 @@ Adobe Campaign에서 액세스할 수 있는 외부 데이터베이스에 따라
 
 자세한 내용은 아래 링크를 참조하십시오.
 
-* Campaign 및 연결 [Vertica](../../installation/using/configure-fda-vertica.md)
-
-* Campaign 및 연결 [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
-
 * Campaign 및 연결 [azure synapse](../../installation/using/configure-fda-synapse.md)
-
-* Campaign 및 연결 [Snowflake](../../installation/using/configure-fda-snowflake.md)
-
+* Campaign 및 연결 [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 * Campaign 및 연결 [Hadoop](../../installation/using/configure-fda-hadoop.md)
-
-* Campaign 및 연결 [Oracle](../../installation/using/configure-fda-oracle.md)
-
-* Campaign 및 연결 [Netezza](../../installation/using/configure-fda-netezza.md)
-
-* Campaign 및 연결 [sybase IQ](../../installation/using/configure-fda-sybase.md)
-
-* Campaign 및 연결 [Teradata](../../installation/using/configure-fda-teradata.md)
-
-* Campaign 및 연결 [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
-
-* Campaign 및 연결 [PostgreSQL](../../installation/using/configure-fda-postgresql.md)
-
 * Campaign 및 연결 [Microsoft SQL Server](../../installation/using/configure-fda-sql.md)
-
+* Campaign 및 연결 [Netezza](../../installation/using/configure-fda-netezza.md)
+* Campaign 및 연결 [Oracle](../../installation/using/configure-fda-oracle.md)
+* Campaign 및 연결 [PostgreSQL](../../installation/using/configure-fda-postgresql.md)
 * Campaign 및 연결 [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
-
+* Campaign 및 연결 [Snowflake](../../installation/using/configure-fda-snowflake.md)
+* Campaign 및 연결 [sybase IQ](../../installation/using/configure-fda-sybase.md)
+* Campaign 및 연결 [Teradata](../../installation/using/configure-fda-teradata.md)
+* Campaign 및 연결 [vertica analytics](../../installation/using/configure-fda-vertica.md)

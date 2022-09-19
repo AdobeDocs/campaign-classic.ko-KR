@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Campaign Classic 2021 릴리스
-description: 'Campaign Classic 2021 릴리스에 대해 자세히 알아보기 '
+description: Campaign Classic 2021 릴리스에 대해 자세히 알아보기
 feature: Overview
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
+source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 100%
+source-wordcount: '2545'
+ht-degree: 99%
 
 ---
 
@@ -131,7 +131,7 @@ _2021년 6월 5일_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Vertica FDA 커넥터</strong><br/> </th> 
+<th> <strong>VertiVertica Analyticsca FDA 커넥터</strong><br/> </th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -170,7 +170,7 @@ _2021년 6월 5일_
 
 이제 다음 시스템이 Campaign에서 지원됩니다.
 * Google BigQuery FDA 커넥터
-* Vertica FDA 커넥터
+* VertiVertica Analyticsca FDA 커넥터
 * PostgreSQL 13
 
 자세한 내용은 [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.

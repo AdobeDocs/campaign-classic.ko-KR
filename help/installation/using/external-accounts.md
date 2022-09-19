@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 7%
+source-wordcount: '1818'
+ht-degree: 8%
 
 ---
 
@@ -114,7 +114,7 @@ POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일�
 
 * [이메일](../../installation/using/deploying-an-instance.md#email-channel-parameters)
 * [모바일(SMS)](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)
-* [전화](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
+* [휴대폰](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [DM](../../delivery/using/about-direct-mail-channel.md)
 * [에이전시](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Twitter](../../social/using/configuring-publishing-on-twitter.md)
@@ -213,7 +213,7 @@ Campaign과 호환되는 외부 데이터베이스는 [호환성 매트릭스](.
 
 외부 계정 구성 설정은 데이터베이스 엔진에 따라 다릅니다. 자세한 내용은 다음 섹션에서 알아보십시오.
 
-* 액세스 권한 구성 [Vertica](../../installation/using/configure-fda-vertica.md)
+* 액세스 권한 구성 [vertica analytics](../../installation/using/configure-fda-vertica.md)
 * 액세스 권한 구성 [Snowflake](../../installation/using/configure-fda-snowflake.md)
 * 액세스 권한 구성 [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 * 액세스 권한 구성 [azure synapse](../../installation/using/configure-fda-synapse.md)
@@ -453,7 +453,7 @@ Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe 
 
 액세스 키 ID 및 암호 액세스 키를 찾을 수 있는 위치를 알아보려면 Amazon 웹 서비스 를 참조하십시오 [설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
 
-### Azure Blob 저장소 {#azure-blob-external-account}
+### Azure Blob 스토리지 {#azure-blob-external-account}
 
 다음 **Azure Blob 저장소** 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동. 자세한 정보는 이 [섹션](../../workflow/using/file-transfer.md)을 참조하십시오.
 

@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a45e18e460c11f474dc1b5663b9f4a3277fac12c
-workflow-type: ht
-source-wordcount: '2582'
-ht-degree: 100%
+source-git-commit: f580b9b2508c279e03bd2698854aaf3de501200b
+workflow-type: tm+mt
+source-wordcount: '2583'
+ht-degree: 99%
 
 ---
 
@@ -667,18 +667,18 @@ ht-degree: 100%
          + [모범 사례 및 제한 사항](installation/using/fda-best-practices.md)
          + 구성 지침 {#config-databases}
             + [구성 단계](installation/using/configure-fda.md)
-            + [Vertica 구성](installation/using/configure-fda-vertica.md)
-            + [Snowflake 구성](installation/using/configure-fda-snowflake.md)
-            + [Google BigQuery 구성](installation/using/configure-fda-google-big-query.md)
             + [Azure Synapse 구성](installation/using/configure-fda-synapse.md)
+            + [Google BigQuery 구성](installation/using/configure-fda-google-big-query.md)
             + [Hadoop 구성](installation/using/configure-fda-hadoop.md)
-            + [Oracle 구성](installation/using/configure-fda-oracle.md)
+            + [Microsoft SQL Server 구성](installation/using/configure-fda-sql.md)
             + [Netezza 구성](installation/using/configure-fda-netezza.md)
+            + [Oracle 구성](installation/using/configure-fda-oracle.md)
+            + [PostgreSQL 구성](installation/using/configure-fda-postgresql.md)
+            + [SAP HANA 구성](installation/using/configure-fda-sap-hana.md)
+            + [Snowflake 구성](installation/using/configure-fda-snowflake.md)
             + [Sybase IQ 구성](installation/using/configure-fda-sybase.md)
             + [Teradata 구성](installation/using/configure-fda-teradata.md)
-            + [SAP HANA 구성](installation/using/configure-fda-sap-hana.md)
-            + [Microsoft SQL Server 구성](installation/using/configure-fda-sql.md)
-            + [PostgreSQL 구성](installation/using/configure-fda-postgresql.md)
+            + [vertica analytics 구성](installation/using/configure-fda-vertica.md)
          + [원격 액세스 권한](installation/using/remote-database-access-rights.md)
          + [데이터베이스에 연결](installation/using/connecting-to-database.md)
          + [데이터 스키마 만들기](installation/using/creating-data-schema.md)

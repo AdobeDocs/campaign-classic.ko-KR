@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: fad7770e26bf06d13f7e2bcf136cc5386a394f50
-workflow-type: ht
+source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
+workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -150,7 +150,7 @@ ht-degree: 100%
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016년</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers">자세히 알아보기</a></p>
@@ -199,21 +199,15 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <td><strong>데이터베이스 버전</strong></td>
 <td><strong>Campaign 버전</strong></td>
 <tr>
-<tr>
-<td>Snowflake</td>
-<td> </td>
-<td>최소 7.2.1</td>
+<td>Amazon Redshift</td>
+<td><p> </p>
+<td>최소 v7.0 19.1.4</td>
+</td>
 </tr>
 <tr>
 <td>Google BigQuery</td>
 <td> </td>
 <td>최소 7.2.1</td>
-</tr>
-<tr>
-<td>Amazon Redshift</td>
-<td><p> </p>
-<td>최소 v7.0 19.1.4</td>
-</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -223,6 +217,16 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>11.x</p>
 <p>10.x</p>
 </td>
+<td>최소 v7.0 19.1.4</td>
+</tr>
+<tr>
+<td>Snowflake</td>
+<td> </td>
+<td>최소 7.2.1</td>
+</tr>
+<tr>
+<td>vertica analytics</td>
+<td> </td>
 <td>최소 v7.0 19.1.4</td>
 </tr>
 </tbody>
@@ -236,34 +240,9 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <td><strong>데이터베이스 버전</strong></td>
 <td><strong>Campaign 버전</strong></td>
 <tr>
-<td>Vertica</td>
-<td> </td>
-<td>최소 v7.0 19.1.4</td>
-</tr>
-<tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td> </td>
 <td>최소 v7.0 19.1.4</td>
-</tr>
-<tr>
-<td>Oracle</td>
-<td>
-<p>19c</p>
-<p>18c</p>
-<p>12c</p>
-<p>11g</p>
-</td>
-<td>최소 v7.0</td>
-</tr>
-<tr><td>SQL Server</td>
-<td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
-<p>2012 SP1 및 SP2</p>
-</td>
-<td>최소 v7.0</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
@@ -276,19 +255,36 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 </td>
 </tr>
 <tr>
-<td>Teradata</td>
+<td>Netezza</td>
 <td>
-<p>16.20</p>
-<p>16</p>
-<p>15.10</p>
-<p>15.0</p>
+<p>7.2</p>
 </td>
 <td>최소 v7.0</td>
 </tr>
 <tr>
-<td>Netezza</td>
+<td>Oracle</td>
 <td>
-<p>7.2</p>
+<p>19c</p>
+<p>18c</p>
+<p>12c</p>
+<p>11g</p>
+</td>
+<td>최소 v7.0</td>
+</tr>
+<tr>
+<td>SAP HANA</td>
+<td>
+<p>버전 1 SPS 12</p>
+</td>
+<td>최소 v7.0</td>
+</tr>
+<tr><td>SQL Server</td>
+<td>
+<p>2019년</p>
+<p>2017년</p>
+<p>2016년</p>
+<p>2014년</p>
+<p>2012 SP1 및 SP2</p>
 </td>
 <td>최소 v7.0</td>
 </tr>
@@ -301,9 +297,12 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <td>최소 v7.0</td>
 </tr>
 <tr>
-<td>SAP HANA</td>
+<td>Teradata</td>
 <td>
-<p>버전 1 SPS 12</p>
+<p>16.20</p>
+<p>16</p>
+<p>15.10</p>
+<p>15.0</p>
 </td>
 <td>최소 v7.0</td>
 </tr>
@@ -330,22 +329,22 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 
 <table>
 <tbody>
-<tr>
-<td>Microsoft Windows Server</td>
-<td>
-<p>2019(7.2.1 릴리스 시작)</p>
-<p>2016</p>
-<p>2012</p>
-</td>
 </tr>
 <tr>
 <td>Microsoft Windows</td>
 <td>
-<p>11(Campaign v7.3부터)</p>
+<p>11(7.3 릴리스 시작)</p>
 <p>10(일본어 인스턴스에 권장)</p>
 <p>8</p>
 </td>
 </tr>
+<tr>
+<td>Microsoft Windows Server</td>
+<td>
+<p>2019(7.2.1 릴리스 시작)</p>
+<p>2016년</p>
+<p>2012년</p>
+</td>
 </tbody>
 </table>
 
