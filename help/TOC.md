@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 �
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: f580b9b2508c279e03bd2698854aaf3de501200b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2583'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -678,7 +678,7 @@ ht-degree: 99%
             + [Snowflake 구성](installation/using/configure-fda-snowflake.md)
             + [Sybase IQ 구성](installation/using/configure-fda-sybase.md)
             + [Teradata 구성](installation/using/configure-fda-teradata.md)
-            + [vertica analytics 구성](installation/using/configure-fda-vertica.md)
+            + [Vertica Analytics 구성](installation/using/configure-fda-vertica.md)
          + [원격 액세스 권한](installation/using/remote-database-access-rights.md)
          + [데이터베이스에 연결](installation/using/connecting-to-database.md)
          + [데이터 스키마 만들기](installation/using/creating-data-schema.md)
