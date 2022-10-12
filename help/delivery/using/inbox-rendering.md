@@ -4,9 +4,9 @@ title: Campaign의 받은 편지함 렌더링
 description: 전자 메일 주소를 캡처하여 전용 보고서에서 사용할 수 있도록 하는 방법을 알아봅니다
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 048189f49623cf00f4c3f1f34ff4b795d80391ef
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '821'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 8%
 누르기 전 **보내기** 버튼을 클릭하고 메시지가 다양한 웹 클라이언트, 웹 메일 및 장치에서 수신자에게 최적의 방식으로 표시되는지 확인하십시오.
 
 이를 위해 Adobe Campaign은 [리트머스](https://litmus.com/email-testing) 렌더링을 캡처하여 전용 보고서에서 사용할 수 있도록 하는 웹 기반 이메일 테스트 솔루션입니다. 이렇게 하면 수신될 수 있는 다른 컨텍스트에서 전송된 메시지를 미리 보고 주요 데스크톱 및 응용 프로그램의 호환성을 확인할 수 있습니다.
+
+>[!CAUTION]
+>받은 편지함 렌더링이 [반복 게재](communication-channels.md#recurring-delivery).
 
 Litmus는 다양한 기능을 갖춘 이메일 유효성 검사와 미리 보기 응용 프로그램입니다. 이메일 콘텐츠 생성자는 Gmail 받은 편지함 또는 Apple Mail 클라이언트와 같은 70개 이상의 이메일 렌더러에서 메시지 콘텐츠를 미리 볼 수 있습니다.
 
