@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 878ba2b532d5cb59af77b6450b12ae5d2ff149b2
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 캠페인 응답 관리자 구성{#configuration}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 이 섹션은 응답 관리 구성을 담당하는 사람용입니다. 이 섹션에서는 스키마 확장, 워크플로우 정의 및 SQL 프로그래밍에 대한 특정 양의 지식을 가정합니다.
 

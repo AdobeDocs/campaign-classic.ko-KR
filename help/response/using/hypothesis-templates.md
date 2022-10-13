@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 878ba2b532d5cb59af77b6450b12ae5d2ff149b2
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 가설 템플릿{#hypothesis-templates}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## 가설 모델 만들기 {#creating-a-hypothesis-model}
 
@@ -111,7 +111,7 @@ ht-degree: 2%
    >또한 자동으로 생성된 워크플로우는 수정하면 안 됩니다. 최종 수정은 이후의 계산을 위해 다른 곳에서 고려되지 않습니다.\
    >이 옵션을 선택한 경우 워크플로우를 실행한 후 삭제합니다.
 
-### 트랜잭션 {#transactions}
+### 거래 {#transactions}
 
 이 탭에는 거래의 관점에서 수신자 반응 내역을 저장할 수 있는 다양한 필드와 테이블이 포함되어 있습니다. 다음을 참조하십시오 [섹션](../../configuration/using/about-schema-reference.md) 를 참조하십시오.
 
