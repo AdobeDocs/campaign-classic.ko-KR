@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Adobe Campaign 보고 도구 정보
-description: 빌드-인 또는 사용자 지정 보고서에서 캠페인의 성공을 분석합니다.
+description: 빌드-인 또는 사용자 정의 보고서에서 캠페인의 성공을 분석합니다.
 feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
