@@ -6,16 +6,16 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ecd82fe432d44f14b48b162224dd88bb0f6e6f64
+source-git-commit: d898a43b7a3f826a63a754f9fcb76953a696f3fb
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Adobe Campaign 용어{#ac-glossary}
 
-다음은 Adobe Campaign의 주요 용어 및 개념의 정의입니다
+다음은 관련 설명서에 대한 링크와 함께 Adobe Campaign의 주요 용어 및 개념의 정의입니다. 정의를 표시하려면 용어를 클릭합니다.
 
 ## A - D{#sec-1}
 
@@ -28,7 +28,7 @@ A/B 테스트는 사용자가 2~3개의 이메일 변형을 정의할 수 있는
 
 +++**액세스 관리**
 
-액세스 관리를 통해 관리자는 Adobe Campaign 사용자에게 액세스 및 권한을 할당할 수 있습니다. 권한에는 워크플로우 실행, 스키마 정의 및 대상자 관리와 같은 Adobe Campaign 기능을 보거나 사용하는 기능이 포함됩니다
+액세스 관리를 통해 관리자는 Adobe Campaign 사용자에게 액세스 및 권한을 할당할 수 있습니다. 권한에는 워크플로우 실행, 스키마 정의 및 대상자 관리와 같은 Adobe Campaign 기능을 보거나 사용하는 기능이 포함됩니다.
 
 추가 정보 [액세스 관리](access-management.md).
 +++
