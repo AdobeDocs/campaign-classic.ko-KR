@@ -6,10 +6,10 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
+source-git-commit: ecd82fe432d44f14b48b162224dd88bb0f6e6f64
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 5%
+source-wordcount: '560'
+ht-degree: 7%
 
 ---
 
@@ -41,6 +41,43 @@ A/B 테스트는 사용자가 2~3개의 이메일 변형을 정의할 수 있는
 추가 정보 [워크플로우 활동](../../workflow/using/about-activities.md).
 +++
 
++++**ACS Connector**
+
+ACS 커넥터(Prime Offer)는 Adobe Campaign v7 및 Adobe Campaign Standard을 다리 짓습니다. Campaign v7의 통합 기능으로 데이터를 Campaign Standard에 자동으로 복제하여 두 애플리케이션 중 최고의 성능을 제공합니다. Campaign v7에는 기본 마케팅 데이터베이스를 관리하는 고급 도구가 있습니다. Campaign v7에서 데이터 복제를 통해 Campaign Standard은 사용자에게 친숙한 환경에서 풍부한 데이터를 활용할 수 있습니다.
+
+추가 정보 [ACS 커넥터](../../integrations/using/acs-connector-principles-and-data-cycle.md).
++++
+
++++**활성 프로필**
+
+지난 12개월 동안 어느 채널을 통해 프로필을 타겟팅하거나 통신한 경우 프로필이 활성 상태로 간주됩니다. 계약에 따라 각 캠페인 인스턴스에는 청구 용도로 계산되는 특정 수의 활성 프로필이 제공됩니다.
+
+추가 정보 [활성 프로필](about-profiles.md#active-profiles).
++++
+
+
++++**승인 워크플로우 활동**
+
+*컨텍스트: Campaign Distributed Marketing*
+
+로컬 승인 활동은 메시지가 전송되기 전에 게재 승인 프로세스를 설정하는 데 사용되는 워크플로우 활동입니다.
+
+추가 정보 [로컬 승인 활동](../../workflow/using/local-approval.md).
++++
+
++++**대상자**
+
+대상자는 규칙 및 속성을 기반으로 필터 정의의 기준을 충족하는 결과 프로필 세트입니다.
+
+추가 정보 [대상](../../campaign/using/marketing-campaign-target.md).
++++
+
++++**감사 추적**
+
+감사 추적은 Adobe Campaign 인스턴스 내에서 발생하는 작업 및 이벤트의 포괄적인 목록을 실시간으로 캡처합니다. 여기에는 다음과 같은 질문에 답변할 수 있도록 데이터 기록에 액세스하는 셀프서비스 방법이 포함되어 있습니다. 워크플로우가 어떻게 되었고 마지막으로 업데이트한 사람 또는 인스턴스에서 사용자가 수행한 작업이 변경되었습니다.
+
+추가 정보 [감사 추적](../../production/using/audit-trail.md).
++++
 
 ## E - H {#sec-2}
 
