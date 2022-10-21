@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: general-operation
 exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 ## 상호 작용 유형 및 연락처 메서드 {#interaction-types-and-contact-methods}
 
-다음 두 가지 유형의 상호 작용이 있습니다. 연락처에 의해 시작된 인바운드 상호 작용 및 아웃바운드 상호 작용(오퍼 메이커에 의해 시작됨).
+다음 두 가지 유형의 상호 작용이 있습니다. 연락처에 의해 시작된 인바운드 상호 작용 및 아웃바운드 상호 작용(오퍼 디자이너에서 시작).
 
 이러한 두 가지 유형의 상호 작용은 단일 모드(단일 연락처에 대해 오퍼가 계산됨) 또는 배치 모드(연락 집합에 대해 오퍼가 계산됨)에서 수행할 수 있습니다. 일반적으로 인바운드 상호 작용은 단일 모드에서 수행되고 아웃바운드 상호 작용은 배치 모드에서 수행됩니다. 하지만 아웃바운드 상호 작용을 단일 모드에서 수행하는 트랜잭션 메시지와 같은 특정 예외 사항이 있을 수 있습니다( 참조) [이 섹션](../../message-center/using/about-transactional-messaging.md)).
 

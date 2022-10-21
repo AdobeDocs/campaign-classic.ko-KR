@@ -1,9 +1,10 @@
 ---
 product: campaign
 title: Campaign Classic 2018 릴리스
-description: 'Campaign Classic 2018 릴리스에 대해 자세히 알아보기 '
+description: Campaign Classic 2018 릴리스에 대해 자세히 알아보기
+hidefromtoc: true
 exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
 workflow-type: tm+mt
 source-wordcount: '5385'
 ht-degree: 7%
@@ -213,7 +214,7 @@ UTF-8 데이터 정렬을 사용할 때 이제 &quot;LIKE &#39;string%&#39;(또�
 * 집계된 연산자가 선택된 경우에도 차트가 항상 값의 합계를 계산하도록 하는 보고서의 문제를 수정했습니다. (NEO-10913)
 * &quot;request.scheme&quot; 함수는 더 이상 사용되지 않으므로 JSAPI 설명서에서 제거되었습니다. (NEO-10828)
 * 특정 시간대 구성을 가진 일부 사용자가 Adobe Campaign에 로그인하지 못하는 문제를 해결했습니다. (NEO-10712)
-* 확장 일반 SMPP 커넥터를 사용하여 Mobile 채널 외부 계정을 설정할 때 발생하는 문제를 해결했습니다. 수신기에 대해 다른 매개 변수를 사용하여 지정한 경우 송신기가 자체 매개 변수 대신 이러한 매개 변수를 잘못 사용하게 됩니다.
+* 확장 일반 SMPP 커넥터를 사용하여 모바일 채널 외부 계정을 설정할 때 발생하는 문제를 해결했습니다. 수신기에 대해 다른 매개 변수를 사용하여 지정한 경우 송신기가 자체 매개 변수 대신 이러한 매개 변수를 잘못 사용하게 됩니다.
 * 첫 번째 중재 후 게재가 지속적으로 다시 계산되었기 때문에 압력 규칙에 대한 빈도를 설정할 때 예약된 게재가 실패하던 문제를 해결했습니다. (NEO-10016)
 * nlsrvmod.dll 라이브러리의 응용 프로그램 풀 재활용 프로세스 중에 IIS 웹 서버가 충돌하는 문제를 해결했습니다. (NEO-10862)
 * 에서 수신자를 검색할 수 없는 문제를 해결했습니다 **프로필 및 Target** 화면. (NEO-8228)
