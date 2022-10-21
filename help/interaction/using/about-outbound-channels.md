@@ -3,7 +3,7 @@ product: campaign
 title: 아웃바운드 채널 정보
 description: 아웃바운드 채널 정보
 exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 5%
@@ -20,6 +20,6 @@ ht-degree: 5%
 
 오퍼 엔진에서 오퍼를 선택하려면 오퍼가 승인되어 라이브 환경에서 사용할 수 있어야 합니다. 자세한 내용은 [오퍼 승인 및 활성화](../../interaction/using/approving-and-activating-an-offer.md).
 
-아웃바운드 통신 채널을 통한 오퍼 프레젠테이션은 일반적으로 일괄 처리 모드에서 DM, 이메일 또는 SMS 캠페인 등을 통해 수행됩니다(참조: [용어 설명](../../interaction/using/glossary.md)). 특히 메시지 센터에서 단일 모드를 사용할 수도 있습니다(자세한 내용은 [메시지 센터](../../message-center/using/about-transactional-messaging.md) 안내서).
+아웃바운드 통신 채널을 통한 오퍼 프레젠테이션은 일반적으로 일괄 처리 모드에서 DM, 이메일 또는 SMS 캠페인 등을 통해 수행됩니다(참조: [용어 설명](../../interaction/using/i-glossary.md)). 특히 메시지 센터에서 단일 모드를 사용할 수도 있습니다(자세한 내용은 [메시지 센터](../../message-center/using/about-transactional-messaging.md) 안내서).
 
 오퍼를 제공하는 데 다양한 옵션을 사용할 수 있습니다. 예를 들어 게재를 통해 캠페인, 게재 개요 또는 워크플로우 활동을 통해 사용할 수 있습니다.

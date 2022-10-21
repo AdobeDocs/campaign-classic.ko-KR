@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: f580b9b2508c279e03bd2698854aaf3de501200b
-workflow-type: ht
-source-wordcount: '2583'
+source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
+workflow-type: tm+mt
+source-wordcount: '2584'
 ht-degree: 100%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 100%
          + [보고서](platform/using/faq-reporting.md)
          + [개발](platform/using/faq-developers.md)
          + [튜토리얼](platform/using/tutorials.md)
+      + [용어집](platform/using/ac-glossary.md)
    + 개인 정보 보호 {#privacy}
       + [개인 정보 보호 및 동의](platform/using/privacy-and-recommendations.md)
       + [개인 정보 보호 관리](platform/using/privacy-management.md)
@@ -516,7 +517,7 @@ ht-degree: 100%
 + 오퍼 관리 {#managing-offers}
    + 상호 작용 시작 {#interaction-overview}
       + [상호 작용 및 오퍼 관리](interaction/using/interaction-and-offer-management.md)
-      + [용어집](interaction/using/glossary.md)
+      + [용어집](interaction/using/i-glossary.md)
       + [상호 작용 모범 사례](interaction/using/interaction-best-practices.md)
    + 일반 작업 {#general-operation}
       + [구현 단계](interaction/using/implementation-steps.md)
