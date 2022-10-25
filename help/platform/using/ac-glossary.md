@@ -6,10 +6,10 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c4d7c87e769a270b18c57267e134bfbe9a2e0cdf
+source-git-commit: dea815b07f0b91ed550060fa00cf0501ae6594f7
 workflow-type: tm+mt
-source-wordcount: '6260'
-ht-degree: 3%
+source-wordcount: '6087'
+ht-degree: 4%
 
 ---
 
@@ -77,12 +77,15 @@ ACS 커넥터(Prime Offer)는 Adobe Campaign v7 및 Adobe Campaign Standard을 �
 추가 정보 [감사 추적](../../production/using/audit-trail.md).
 +++
 
-+++**자동화된 캠페인**
+<!--
+----DUPLICATE WITH THE "CAMPAIGN" ENTRY?---
++++**Automated campaigns**
 
-생일 또는 기념일이 있는 수신자를 타겟팅하는 등 일정에 따라 실행되는 캠페인. 또한 어제 구입한 사람 또는 내일까지 지불 기한이 있는 사람과 같은 미리 보기 및 전환 논리를 실행하는 데 사용할 수도 있습니다.
+Campaigns that run on a schedule, such as for targeting recipients who have a birthday or an anniversary. Can also be used to execute look-ahead and look-back logic, such as who purchased yesterday or who has a payment due tomorrow.
 
-추가 정보 [캠페인](../../campaign/using/designing-marketing-campaigns.md).
+Learn more about [Campaigns](../../campaign/using/designing-marketing-campaigns.md).
 +++
+-->
 
 +++**일괄 처리 모드**
 
@@ -101,7 +104,7 @@ Campaign은 마케팅 캠페인을 조정, 정의 및 실행하는 인터페이�
 +++
 
 <!--
------UNCLEAR-----
+-----NOT USEFUL HERE?-----
 +++**Changeover process**
 
 *Context: Campaign Interaction*
@@ -193,7 +196,7 @@ Learn more about [Transactional Messaging](../../message-center/using/about-tran
 
 *컨텍스트: 전자 메일 게재 기능*
 
-운영자가 스팸으로 표시하거나 바운싱하지 않고 수신자의 받은 편지함에 도달하는 캠페인의 성공을 측정할 수 있도록 하는 지표입니다.
+게재 기능을 사용하면 바운스 방지 또는 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달하는 캠페인의 성공을 측정할 수 있습니다. 보다 정확하게 말하면 이메일 게재 능력이란, 개인 이메일 주소를 통해 짧은 시간 내에 컨텐츠와 형식 측면에서 예상되는 품질로 메시지의 목적지에 도달할 수 있는 능력을 결정하는 일련의 특성입니다.
 
 추가 정보 [게재 기능](../../delivery/using/about-deliverability.md).
 +++
@@ -219,14 +222,17 @@ Learn more about [Transactional Messaging](../../message-center/using/about-tran
 추가 정보 [게재 로그](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 +++
 
-+++**게재 기본 사항**
+<!--
+----STRANGE IN DOCS?----
++++**Delivery fundamentals**
 
-*컨텍스트: 전자 메일 게재 기능*
+*Context: Email Deliverability*
 
-Adobe Campaign Deliverability Fundamentals Consulting Service는 Adobe Campaign 게재를 사용하는 고객을 지원하기 위해 이메일 게재 가능성 컨설팅 및 평판 관리를 제공합니다.
+Adobe Campaign Deliverability Fundamentals Consulting Service provides email deliverability consultation and reputation management to support customers using Adobe Campaign deliveries.
 
-추가 정보 [게재 기능](../../delivery/using/about-deliverability.md).
+Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 +++
+-->
 
 +++**게재 개요**
 
@@ -310,15 +316,21 @@ The version of Javascript that is used in Adobe Campaign Classic. Sometimes call
 추가 정보 [이메일 BCC](../../delivery/using/email-parameters.md#email-bcc).
 +++
 
-+++**전자 메일 볼륨 약정**
+<!--
+-----STRANGE FOR DOCS?----
++++**Email volume commitment**
 
-판매 주문에 명시된 대로 매년 예정된 이메일입니다. 이는 다음과 같은 게재 오류로 인해 전송되었지만 게재되지 않은 이메일을 포함한 총 연간 이메일 볼륨 약정과 같습니다. 이메일 주소 오류, 하드 바운스, 소프트 바운스, 메일 클라이언트의 이메일 필터 및 이메일 블랙리스트를 포함하되, 이에 제한되지 않는 메시지 배달.
+The anticipated emails sent per year as set forth in the Sales Order. This is the total annual email volume commitment, including emails sent but not delivered due to delivery errors such as: non-delivery of a message including but not limited to email address errors, hard bounces, soft bounces, email filters of mail clients, and email blacklists. 
 +++
+-->
 
-+++**엔진 호출**
+<!--
+-----USEFUL FOR DOCS?----
++++**Engine call**
 
-엔진 호출은 설문 조사, WebApps, JSSP, API, 모바일 앱 등록 등과 관련된 데이터와 같은 데이터를 추출하기 위해 서버측에서 실시간 처리를 시작하는 서버 호출입니다. 엔진 호출은 하루에 5,000개의 엔진 호출 팩으로 라이센스를 받아야 합니다.
+An engine call is a server call that starts real-time processing on server side for the extraction of data, such as data relating to surveys, WebApps, JSSP, APIs, mobile app registrations, etc. Engine calls must be licensed in packs of 5,000 Engine Calls per day.
 +++
+-->
 
 +++**데이터 보강 활동**
 
@@ -401,12 +413,15 @@ Forms은 특정 스키마 유형에 대한 인터페이스 표현을 정의합�
 추가 정보 [Forms](../../configuration/using/identifying-a-form.md).
 +++
 
-+++**생성된 SQL 쿼리**
+<!--
+-----USEFUL HERE?-----
++++**Generated SQL query**
 
-연산자가 스키마를 조작할 때 기본 데이터베이스에 대해 생성된 SQL 코드입니다. 스키마는 데이터베이스 테이블 및 열을 사용하여 구현되는 데이터 유형을 정의합니다. 스키마 조작에 대해 생성된 SQL은 설치된 데이터베이스 유형을 기반으로 합니다. 따라서 데이터베이스를 다른 유형으로 교체할 수 있으며 Campaign의 쿼리는 변경되지 않은 상태로 유지됩니다. Adobe은 이 기능을 데이터베이스 관련 기능이라고 합니다.
+The SQL code generated for the underlying database when an operator manipulates a schema. Schemas define the data types that are then implemented using database tables and columns. The SQL generated for schema manipulation (such as in a query) is based on the installed database type. Thus, the database can be swapped to a different type and the queries in Campaign remain unchanged. Adobe refers to this functionality as being database-agnostic.
 
-추가 정보 [생성된 SQL 쿼리](../../platform/using/steps-to-create-a-query.md#step-6---preview-data).
+Learn more about [Generated SQL queries](../../platform/using/steps-to-create-a-query.md#step-6---preview-data).
 +++
+-->
 
 +++**열 지도**
 
@@ -425,11 +440,12 @@ Campaign Heatmap은 24시간 동안의 워크플로우 실행 정보를 보여�
 
 ## I - L {#sec-3}
 
+<!-- added more details but maybe still not clear/useful here? -->
 +++**식별 모드**
 
 *컨텍스트: Campaign 상호 작용*
 
-연락처의 상태를 나타냅니다. 그것은 명시적, 암시적 또는 익명일 수 있습니다.
+식별 모드는 연락처의 상태를 나타냅니다. 그것은 명시적, 암시적 또는 익명일 수 있습니다.
 
 * **명시적**: 연락처는 채널 인터페이스에 로그인한 후 식별됩니다.
 * **암시적**: 연락처는 쿠키(영구 또는 세션)로 식별되었습니다. 익명 또는 식별된 연락처로 처리할 수 있습니다.
@@ -439,7 +455,7 @@ Campaign Heatmap은 24시간 동안의 워크플로우 실행 정보를 보여�
 +++
 
 <!--
-----UNCLEAR----
+----NOT USEFUL HERE?----
 +++**Image serving**
 
 The functionality that supplies the images embedded in emails to the delivery’s recipients. The insertion of the images based on an emails system’s “download images” functionality is what generates an “open” entry in Campaign’s tracking logs.
@@ -488,7 +504,7 @@ Learn more about [Image serving](../../delivery/using/defining-the-email-content
 
 +++**로컬 캐시**
 
-운영자의 컴퓨터에 로컬로 저장된 정보입니다. 캐시된 정보는 콘솔에 의해 서버로의 필요한 트래픽을 줄이고 성능을 개선하는 데 사용됩니다. 파일 메뉴에서 로컬 캐시를 주기적으로 지우면 저장된 정보가 업데이트되고 성능과 안정성이 향상됩니다.
+로컬 캐시는 연산자의 컴퓨터에 로컬로 저장된 정보입니다. 캐시된 정보는 콘솔에 의해 서버로의 필요한 트래픽을 줄이고 성능을 개선하는 데 사용됩니다. 파일 메뉴에서 로컬 캐시를 주기적으로 지우면 저장된 정보가 업데이트되고 성능과 안정성이 향상됩니다.
 
 추가 정보 [로컬 캐시](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
 +++
@@ -521,21 +537,21 @@ This template type is used to manage multilingual messages.  It is available for
 
 +++**네임스페이스**
 
-고객 데이터 유형을 데이터 모델의 Adobe Campaign 기본 데이터 유형과 구분하는 파티션입니다. 또한 스키마나 템플릿을 개발 인스턴스에서 프로덕션 인스턴스로 이동하는 등, 정의를 한 인스턴스에서 다른 인스턴스로 쉽게 마이그레이션하는 데 사용됩니다.
+네임스페이스는 데이터 모델의 Adobe Campaign 기본 데이터 유형과 고객 데이터 유형을 구분하는 파티션입니다. 또한 스키마나 템플릿을 개발 인스턴스에서 프로덕션 인스턴스로 이동하는 등, 정의를 한 인스턴스에서 다른 인스턴스로 쉽게 마이그레이션하는 데 사용됩니다.
 
 추가 정보 [네임스페이스](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 +++
 
 +++**탐색 모음**
 
-인터페이스 맨 위에서 실행되는 탐색 요소입니다. 탐색 막대는 플랫폼의 다양한 핵심 기능을 다시 그룹화합니다. 탐색 모음 링크를 클릭하여 이 기능과 관련된 기능 세트를 표시합니다. 액세스할 수 있는 핵심 기능 목록은 설치한 패키지 및 추가 기능과 액세스 권한에 따라 다릅니다. 탐색 막대의 목적은 화면 관리를 단순화하고 생산성을 높이는 것입니다.
+탐색 막대는 인터페이스 맨 위에서 실행되는 탐색 요소입니다. 탐색 막대는 플랫폼의 다양한 핵심 기능을 다시 그룹화합니다. 탐색 모음 링크를 클릭하여 이 기능과 관련된 기능 세트를 표시합니다. 액세스할 수 있는 핵심 기능 목록은 설치한 패키지 및 추가 기능과 액세스 권한에 따라 다릅니다. 탐색 막대의 목적은 화면 관리를 단순화하고 생산성을 높이는 것입니다.
 
 추가 정보 [탐색 모음](../../platform/using/adobe-campaign-workspace.md#browsing-pages).
 +++
 
 +++**탐색 트리**
 
-Adobe Campaign의 탐색기 보기에서 기본 탐색입니다. 탐색 트리는 파일 브라우저(예: Windows 탐색기)와 같이 작동합니다. 폴더에는 하위 폴더가 포함될 수 있습니다. 노드를 선택하면 노드에 해당하는 뷰가 표시됩니다. 표시된 뷰는 선택한 라인을 편집할 수 있는 스키마 및 입력 양식과 연관된 목록입니다. 탐색 트리를 사용자 지정하고 폴더에 대한 권한을 설정할 수 있습니다.
+탐색 트리는 Adobe Campaign의 탐색기 보기에서 기본 탐색입니다. 탐색 트리는 파일 브라우저(예: Windows 탐색기)와 같이 작동합니다. 폴더에는 하위 폴더가 포함될 수 있습니다. 노드를 선택하면 노드에 해당하는 뷰가 표시됩니다. 표시된 뷰는 선택한 라인을 편집할 수 있는 스키마 및 입력 양식과 연관된 목록입니다. 탐색 트리를 사용자 지정하고 폴더에 대한 권한을 설정할 수 있습니다.
 
 추가 정보 [탐색 트리](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarch).
 +++
@@ -553,7 +569,7 @@ Adobe Campaign의 탐색기 보기에서 기본 탐색입니다. 탐색 트리�
 
 *컨텍스트: Campaign 상호 작용*
 
-상호 작용 중에 선택할 수 있는 Adobe Campaign에 정의된 오퍼 세트입니다. 카탈로그는 카테고리에 해당하는 각 노드로 계층적으로 구성됩니다.
+오퍼 카탈로그는 상호 작용 중에 선택할 수 있는 Adobe Campaign에 정의된 오퍼 세트입니다. 카탈로그는 카테고리에 해당하는 각 노드로 계층적으로 구성됩니다.
 
 추가 정보 [오퍼 카탈로그](../../interaction/using/offer-catalog-overview.md).
 +++
@@ -562,7 +578,7 @@ Adobe Campaign의 탐색기 보기에서 기본 탐색입니다. 탐색 트리�
 
 *컨텍스트: Campaign 상호 작용*
 
-인바운드 상호 작용의 연락처. 엔진 호출 처리 중에 연락처는 타겟팅 차원과 연결됩니다. 식별되지 않는 익명 연락처는 방문자 타겟팅 차원에 귀속됩니다. 식별된 연락처와 익명의 연락처에는 두 가지 유형이 있습니다.
+오퍼 연락처는 인바운드 상호 작용의 연락처입니다. 엔진 호출 처리 중에 연락처는 타겟팅 차원과 연결됩니다. 식별되지 않는 익명 연락처는 방문자 타겟팅 차원에 귀속됩니다. 식별된 연락처와 익명의 연락처에는 두 가지 유형이 있습니다.
 
 * **식별된 연락처**: 채널에서 자발적으로 식별된 연락처. 아웃바운드 상호 작용에서 연락처는 자동으로 식별됩니다.
 * **익명의 연락처**: 채널을 통해 자발적으로 구독하지 않았지만 쿠키를 통해 암시적으로 식별할 수 있는 연락처. 이 용어는 들어오는 상호 작용에만 사용됩니다.
@@ -583,7 +599,7 @@ Adobe Campaign의 탐색기 보기에서 기본 탐색입니다. 탐색 트리�
 
 *컨텍스트: Campaign 상호 작용*
 
-환경에 표시할 오퍼(적합한 오퍼)를 선택합니다. 중재자 원칙은 카테고리 및 오퍼에 정의된 기준에 따라 오퍼에 우선순위가 매겨집니다.
+오퍼 엔진은 환경에 표시할 오퍼(적합한 오퍼)를 선택합니다. 중재자 원칙은 카테고리 및 오퍼에 정의된 기준에 따라 오퍼에 우선순위가 매겨집니다.
 
 추가 정보 [상호 작용](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -592,7 +608,7 @@ Adobe Campaign의 탐색기 보기에서 기본 탐색입니다. 탐색 트리�
 
 *컨텍스트: Campaign 상호 작용*
 
-선택할 수 없는 오퍼를 삭제하는 프로세스입니다. 오퍼 엔진 중재 단계 전에 실행됩니다.
+오퍼 엔진 정리는 선택 대상이 아닌 오퍼를 삭제하는 프로세스입니다. 오퍼 엔진 중재 단계 전에 실행됩니다.
 
 추가 정보 [상호 작용](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -601,7 +617,7 @@ Adobe Campaign의 탐색기 보기에서 기본 탐색입니다. 탐색 트리�
 
 *컨텍스트: Campaign 상호 작용*
 
-오퍼 카탈로그, 사용 가능한 공간 및 환경의 사전 정의된 필터를 정의하는 루트 폴더입니다. 연산자는 각 타겟팅 차원에 대해 하나의 환경을 만들어야 합니다. 오퍼 환경에는 두 가지 유형이 있습니다. 디자인 및 라이브.
+오퍼 환경은 오퍼 카탈로그, 사용 가능한 공간 및 환경의 사전 정의된 필터를 정의하는 루트 폴더입니다. 연산자는 각 타겟팅 차원에 대해 하나의 환경을 만들어야 합니다. 오퍼 환경에는 두 가지 유형이 있습니다. 디자인 및 라이브.
 
 추가 정보 [환경](../../interaction/using/fundamental-principles.md).
 +++
@@ -610,27 +626,27 @@ Adobe Campaign의 탐색기 보기에서 기본 탐색입니다. 탐색 트리�
 
 *컨텍스트: Campaign 상호 작용*
 
-캠페인에 연결된 환경 **디자인 환경**. 이 팩에는 을 통해 콘텐츠 및 자격 조건을 승인한 읽기 전용 오퍼가 포함되어 있습니다 **디자인 환경**. 웹 사이트에 표시하기 위해 선택하거나 아웃바운드 메시지에 삽입할 수 있습니다.
+오퍼 라이브 환경이 캠페인에 연결됩니다 **디자인 환경**. 이 팩에는 을 통해 콘텐츠 및 자격 조건을 승인한 읽기 전용 오퍼가 포함되어 있습니다 **디자인 환경**. 웹 사이트에 표시하기 위해 선택하거나 아웃바운드 메시지에 삽입할 수 있습니다.
 
 추가 정보 [라이브 환경](../../interaction/using/fundamental-principles.md).
-+++
-
-+++**오퍼 미리보기**
-
-*컨텍스트: Campaign 상호 작용*
-
-폴더에 표시된 오퍼의 미리 보기입니다. 오퍼 미리 보기 탭 또는 연락처 프로필에서 액세스할 수 있습니다.
-
-추가 정보 [오퍼 미리 보기](../../interaction/using/creating-an-offer.md#previewing-the-offer).
 +++
 
 +++**오퍼 프레젠테이션 규칙**
 
 *컨텍스트: Campaign 상호 작용*
 
-오퍼가 오퍼 환경에서 참조하는 유형화 규칙을 사용하여 수신자의 제안 내역을 고려하여 연산자가 특정 오퍼를 제외합니다.
+오퍼 프레젠테이션 규칙은 오퍼 환경에서 참조되는 유형화 규칙으로서, 오퍼는 수신자의 제안 내역을 고려하여 특정 오퍼를 제외합니다.
 
 추가 정보 [오퍼 프레젠테이션 규칙](../../interaction/using/managing-offer-presentation.md#presentation-rules-overview).
++++
+
++++**오퍼 미리보기**
+
+*컨텍스트: Campaign 상호 작용*
+
+오퍼가 해당 폴더에 표시되는 오퍼의 미리 보기입니다. 오퍼 미리 보기 탭 또는 연락처 프로필에서 액세스할 수 있습니다.
+
+추가 정보 [오퍼 미리 보기](../../interaction/using/creating-an-offer.md#previewing-the-offer).
 +++
 
 +++**오퍼 제안**
@@ -687,18 +703,18 @@ Adobe Campaign의 탐색기 보기에서 기본 탐색입니다. 탐색 트리�
 추가 정보 [오퍼 가중치](../../interaction/using/creating-an-offer.md#offer-weight).
 +++
 
-+++**운영자 그룹**
-
-운영자 그룹을 사용하면 Campaign 운영자의 역할을 관리할 수 있습니다. 권한을 지정할 연산자 그룹을 정의한 다음 연산자를 하나 이상의 그룹과 연결합니다. 이를 통해 권한을 재사용하고 운영자 프로필을 보다 일관성 있게 만들 수 있습니다. 또한 프로필을 간편하게 관리하고 유지 관리할 수 있습니다.
-
-추가 정보 [운영자 그룹](../../platform/using/access-management-groups.md).
-+++
-
 +++**운영자**
 
 연산자는 로그인 및 작업을 수행할 수 있는 권한이 있는 Adobe Campaign 사용자입니다. 연산자는 연산자 그룹과 연결되며 이러한 그룹의 권한과 권한을 상속합니다. 연산자에 명명된 권한을 직접 지정할 수도 있습니다.
 
 추가 정보 [연산자](../../platform/using/access-management-operators.md).
++++
+
++++**운영자 그룹**
+
+운영자 그룹을 사용하면 Campaign 운영자의 역할을 관리할 수 있습니다. 권한을 지정할 연산자 그룹을 정의한 다음 연산자를 하나 이상의 그룹과 연결합니다. 이를 통해 권한을 재사용하고 운영자 프로필을 보다 일관성 있게 만들 수 있습니다. 또한 프로필을 간편하게 관리하고 유지 관리할 수 있습니다.
+
+추가 정보 [운영자 그룹](../../platform/using/access-management-groups.md).
 +++
 
 +++**옵션**
@@ -774,7 +790,7 @@ Adobe Campaign에서는 게재에 삽입할 수 있는 내장 개인화 블록�
 +++
 
 <!--
-----DEPREACTED----
+----DEPRECATED----
 +++**Predictive Engagement Scoring**
 
 Predictive engagement scoring predicts the probability of a recipient engaging with a message and the probability of opting out (unsubscribing) within the next seven days after the next email send. The probabilities are further divided into buckets according to the specific risk of disengagement, medium, or low. The model also provides the risk percentile rank for the customers to understand where the rank of a certain customer in relation to others. 
@@ -839,25 +855,25 @@ Adobe Campaign에서 수신자는 게재(이메일, SMS 등)를 보낼 타겟팅
 +++
 
 <!--
------DID NOT FIND IN DOCS----
+-----DID NOT FIND IN ACC DOCS, ACS?----
 +++**Retargeting campaigns**
 
 Campaigns that re-target the recipients of a previous delivery or deliveries.
 +++
 -->
 
-+++**스키마 확장**
-
-스키마 확장을 사용하면 비즈니스 사용 사례에 가장 적합한 기본 스키마 를 사용자 지정할 수 있습니다. 예를 들어 &quot;충성도&quot; 필드를 수신자 테이블에 추가할 수 있습니다.
-
-추가 정보 [스키마 확장](../../configuration/using/extending-a-schema.md).
-+++
-
 +++**스키마**
 
 스키마는 데이터베이스 테이블과 연결된 XML 문서입니다. 데이터 구조를 정의하고 테이블의 SQL 정의를 설명합니다. 연산자가 Campaign에서 스키마를 조작하면 제품이 해당 작업을 필수 SQL으로 변환하여 데이터베이스에 대해 실행합니다.
 
 추가 정보 [스키마](../../configuration/using/about-schema-reference.md).
++++
+
++++**스키마 확장**
+
+스키마 확장을 사용하면 비즈니스 사용 사례에 가장 적합한 기본 스키마 를 사용자 지정할 수 있습니다. 예를 들어 &quot;충성도&quot; 필드를 수신자 테이블에 추가할 수 있습니다.
+
+추가 정보 [스키마 확장](../../configuration/using/extending-a-schema.md).
 +++
 
 +++**시드 주소**
@@ -868,6 +884,7 @@ Campaigns that re-target the recipients of a previous delivery or deliveries.
 +++
 
 <!--
+-------ACS?-----
 +++**Send-time optimization**
 
 To improve the open rate of your messages, you can manually define a sending time per recipient. Each profile will receive the message at the specified date and time, whenever possible. Defining a sending time can be done at the delivery level or using a workflow.
@@ -906,7 +923,7 @@ Target 승인은 게재를 전송하기 전에 별도의 연산자 또는 연산
 추가 정보 [Target 승인](../../workflow/using/local-approval.md).
 +++
 
-+++**Target 데이터**
++++**타겟 데이터**
 
 Target 데이터는 워크플로우의 작업 테이블(전환)에 저장된 데이터입니다. 이 데이터는 게재 콘텐츠를 개인화하거나 게재의 동적 요소에 대한 논리를 정의하기 위해 게재 내에서 사용할 수 있습니다.
 
@@ -915,7 +932,7 @@ Target 데이터는 워크플로우의 작업 테이블(전환)에 저장된 데
 
 +++**대상 매핑**
 
-대상 매핑은 특정 데이터 유형에 대한 게재 채널의 매핑입니다. Target 매핑은 스키마의 데이터 필드에 서로 다른 전달 채널이 연결되는 방식을 정의합니다. 특정 필드나 표현식을 사용하여 Campaign이 해당 데이터 유형으로 보내는 방법을 정의합니다.
+타겟 매핑은 특정 데이터 유형에 대한 게재 채널의 매핑입니다. Target 매핑은 스키마의 데이터 필드에 서로 다른 전달 채널이 연결되는 방식을 정의합니다. 특정 필드나 표현식을 사용하여 Campaign이 해당 데이터 유형으로 보내는 방법을 정의합니다.
 
 추가 정보 [대상 매핑](../../delivery/using/selecting-a-target-mapping.md).
 +++
@@ -944,7 +961,7 @@ Target 데이터는 워크플로우의 작업 테이블(전환)에 저장된 데
 +++
 
 <!--
------NOT USEFUL-----
+-----NOT USEFUL, detail-----
 +++**Task**
 
 One iteration of the defined functionality of a workflow activity. Each execution of a task has a unique task identifier.   
@@ -960,7 +977,6 @@ Learn more about [Tasks](../../workflow/using/about-workflows.md).
 
 <!--
 -----ACS -> SEEDS IN ACC-----
-
 +++**Test profiles**
 
 Allows targeting of additional recipients who do not match the defined targeting criteria. They are added to a message’s audience to detect any fraudulent use of your recipient database or to ensure delivery. Seen as the Seed type in the Campaign interface.
@@ -970,7 +986,7 @@ Learn more about [Test profiles](../../workflow/using/about-workflows.md).
 -->
 
 <!--
------NOT USEFUL?-----
+-----NOT FOR DOCS?-----
 +++**Total database storage**
 
 The aggregate size of the production and non-production instance(s) database storage managed by Adobe. 
@@ -993,6 +1009,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 추가 정보 [트랜잭션 메시지](../../message-center/using/about-transactional-messaging.md).
 +++
 
+<!------- USEFUL HERE??----->
 +++**트리거된 캠페인**
 
 트리거된 캠페인은 워크플로우에서 API 요청을 받을 때 실행되는 캠페인입니다. API 호출은 워크플로우 실행을 시작하는 워크플로우의 신호 활동에서 사용됩니다.
@@ -1010,15 +1027,6 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 +++
 -->
 
-+++**유형화 규칙**
-
-*컨텍스트: 캠페인 최적화*
-
-유형화 규칙은 게재의 분석 단계의 일부로 구현되는 비즈니스 규칙입니다. 유형화 규칙은 비즈니스 요구 사항을 적용하는 게재(제어 규칙) 또는 게재 타겟(필터링 규칙) 또는 기타 논리(압력 규칙)의 콘텐츠를 확인합니다. 규칙은 하나 이상의 유형화에 포함할 수 있는 세부적인 요소입니다.
-
-추가 정보 [유형화 규칙](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
-+++
-
 +++**토폴로지**
 
 *컨텍스트: 캠페인 최적화*
@@ -1026,6 +1034,15 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 유형화는 게재의 분석 단계에 적용되는 유형화 규칙 그룹입니다. 캠페인 유형화에는 여러 가지 유형화 규칙이 포함될 수 있지만 게재는 하나의 유형화만 참조할 수 있습니다.
 
 추가 정보 [유형화](../../campaign-opt/using/about-campaign-typologies.md#typologies).
++++
+
++++**유형화 규칙**
+
+*컨텍스트: 캠페인 최적화*
+
+유형화 규칙은 게재의 분석 단계의 일부로 구현되는 비즈니스 규칙입니다. 유형화 규칙은 비즈니스 요구 사항을 적용하는 게재(제어 규칙) 또는 게재 타겟(필터링 규칙) 또는 기타 논리(압력 규칙)의 콘텐츠를 확인합니다. 규칙은 하나 이상의 유형화에 포함할 수 있는 세부적인 요소입니다.
+
+추가 정보 [유형화 규칙](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 ## U - Z {#sec-6}
@@ -1056,18 +1073,18 @@ Learn more about [Universes](../../workflow/using/about-workflows.md).
 추가 정보 [웹 애플리케이션](../../web/using/about-web-applications.md).
 +++
 
-+++**워크플로우 저널**
-
-워크플로우 분개는 워크플로우의 단계별 실행 로그입니다. 여기에는 워크플로우의 모든 내역 또는 감사 기록이 포함되어 있습니다. 개발, 문제 해결 또는 디버그 목적으로 사용됩니다.
-
-추가 정보 [워크플로우 저널](../../workflow/using/monitoring-workflow-execution.md).
-+++
-
 +++**워크플로우**
 
 워크플로우는 캠페인 실행 흐름을 시각적으로 보여줍니다. 응용 프로그램 서버의 여러 모듈에 걸쳐 전체 프로세스 및 작업을 오케스트레이션할 수 있습니다. 이 포괄적인 그래픽 환경을 사용하면 세분화, 캠페인 실행, 파일 처리, 인력 참여 등의 프로세스를 디자인할 수 있습니다. 워크플로우 엔진은 이러한 프로세스를 실행하고 추적합니다.
 
 추가 정보 [워크플로우](../../workflow/using/about-workflows.md).
++++
+
++++**워크플로우 저널**
+
+워크플로우 분개는 워크플로우의 단계별 실행 로그입니다. 여기에는 워크플로우의 모든 내역 또는 감사 기록이 포함되어 있습니다. 개발, 문제 해결 또는 디버그 목적으로 사용됩니다.
+
+추가 정보 [워크플로우 저널](../../workflow/using/monitoring-workflow-execution.md).
 +++
 
 +++**작업 가능**
