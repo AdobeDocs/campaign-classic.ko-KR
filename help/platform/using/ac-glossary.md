@@ -6,9 +6,9 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8aa45f4e9d41b7dc4faf89dad988703b63cea77c
+source-git-commit: cd26bf082d891e55bce489256dd9d43a1e3f243c
 workflow-type: tm+mt
-source-wordcount: '6454'
+source-wordcount: '6453'
 ht-degree: 3%
 
 ---
@@ -51,7 +51,7 @@ ACS 커넥터(Prime Offer)는 Adobe Campaign v7 및 Adobe Campaign Standard을 �
 
 지난 12개월 동안 어느 채널을 통해 프로필을 타겟팅하거나 통신한 경우 프로필이 활성 상태로 간주됩니다. 계약에 따라 각 캠페인 인스턴스에는 청구 용도로 계산되는 특정 수의 활성 프로필이 제공됩니다.
 
-추가 정보 [활성 프로필](about-profiles.md#active-profiles).
+추가 정보 [활성 프로필](../../platform/using/about-profiles.md#active-profiles).
 +++
 
 +++**승인 워크플로우 활동**
@@ -759,7 +759,7 @@ Adobe Campaign에서는 게재에 삽입할 수 있는 내장 개인화 블록�
 
 사전 정의된 필터는 재사용할 수 있도록 저장된 질의입니다. 사전 정의된 필터를 사용하면 생산성을 높일 수 있습니다(한 번만 만들어짐). 모든 마케터는 이러한 필터를 사용할 수 있으므로 일관성을 구축하고 마케터가 스스로 만들 수 없는 코드나 논리를 사용할 수 있으므로 마케터의 필요한 기술을 줄일 수 있습니다.
 
-추가 정보 [사전 정의된 필터](../../platforrm/using/creating-filters.md).
+추가 정보 [사전 정의된 필터](../../configuration/using/creating-filters.md).
 +++
 
 <!--
@@ -775,14 +775,14 @@ Learn more about [Predictive Engagement Scoring](../../platforrm/using/creating-
 
 기본 키는 데이터베이스 테이블의 각 레코드에 대한 고유 식별자입니다. 테이블에 키가 하나 이상 있어야 합니다. 일반적으로 키는 스키마 및 인덱스의 기본 요소 뒤에 선언됩니다. 기본 키는 합성할 수 없습니다(여러 필드 포함).
 
-추가 정보 [기본 키](../../configuration/using/key.md).
+추가 정보 [기본 키](../../configuration/using/schema/key.md).
 +++
 
 +++**프로필**
 
 프로필은 최종 고객, 잠재 고객 또는 리드를 나타내는 정보의 레코드입니다. 각 프로필은 쿠키 ID, 고객 ID, 모바일 식별자 또는 특정 채널과 관련된 기타 정보가 포함된 외부 테이블 또는 nmsRecipient 테이블의 레코드에 해당합니다.
 
-추가 정보 [프로필](../../platforrm/using/about-profiles.md).
+추가 정보 [프로필](../../platform/using/about-profiles.md).
 +++
 
 +++**프로그램**
@@ -900,7 +900,7 @@ Target 데이터는 워크플로우의 작업 테이블(전환)에 저장된 데
 
 특정 데이터 유형에 대한 게재 채널의 매핑입니다. Adobe Campaign은 이메일 주소나 전화번호에 직접 보내지 않고, 데이터 유형으로 전송됩니다. Target 맵(게재 맵이라고도 함)은 다양한 게재 채널이 스키마의 데이터 필드에 연결되는 방식을 정의합니다. 특정 필드나 표현식을 사용하여 Campaign이 해당 데이터 유형으로 보내는 방법을 정의합니다.
 
-추가 정보 [Target 데이터](../../workflow/using/define-the-right-audience.md#target-mappings).
+추가 정보 [Target 데이터](../../delivery/using/define-the-right-audience.md#target-mappings).
 +++
 
 +++**타겟팅 활동**
@@ -1000,7 +1000,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 유형화 규칙은 게재의 분석 단계의 일부로 구현되는 비즈니스 규칙입니다. 유형화 규칙은 비즈니스 요구 사항을 적용하는 게재(제어 규칙) 또는 게재 타겟(필터링 규칙) 또는 기타 논리(압력 규칙)의 콘텐츠를 확인합니다. 규칙은 하나 이상의 유형화에 포함할 수 있는 세부적인 요소입니다.
 
-추가 정보 [유형화](../../campaign/using/about-campaign-typologies.md#typology-rules).
+추가 정보 [유형화](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 +++**토폴로지**
@@ -1009,7 +1009,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 유형화는 게재의 분석 단계에 적용되는 유형화 규칙 그룹입니다. 캠페인 유형화에는 여러 가지 유형화 규칙이 포함될 수 있지만 게재는 하나의 유형화만 참조할 수 있습니다.
 
-추가 정보 [유형화](../../campaign/using/about-campaign-typologies.md#typologies).
+추가 정보 [유형화](../../campaign-opt/using/about-campaign-typologies.md#typologies).
 +++
 
 ## U - Z {#sec-6}
@@ -1018,7 +1018,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 *컨텍스트: Campaign Interaction, 트랜잭션 메시지*
 
-단일 모드에서는 런타임 시 오퍼 엔진에서 단일 연락처가 처리됩니다. 이 모드는 일반적으로 인바운드 상호 작용 및 트랜잭션 메시지에 사용됩니다.
+단일 모드에서 단일 연락처는 런타임 시 오퍼 엔진에서 처리됩니다. 이 모드는 일반적으로 인바운드 상호 작용 및 트랜잭션 메시지에 사용됩니다.
 
 추가 정보 [단일 모드](../../interaction/using/about-inbound-channels.md).
 +++
