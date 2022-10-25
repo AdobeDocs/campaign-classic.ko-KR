@@ -6,9 +6,9 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: cd26bf082d891e55bce489256dd9d43a1e3f243c
+source-git-commit: c4d7c87e769a270b18c57267e134bfbe9a2e0cdf
 workflow-type: tm+mt
-source-wordcount: '6453'
+source-wordcount: '6260'
 ht-degree: 3%
 
 ---
@@ -100,14 +100,17 @@ Campaign은 마케팅 캠페인을 조정, 정의 및 실행하는 인터페이�
 추가 정보 [캠페인](../../campaign/using/designing-marketing-campaigns.md).
 +++
 
-+++**전환 프로세스**
+<!--
+-----UNCLEAR-----
++++**Changeover process**
 
-*컨텍스트: Campaign 상호 작용*
+*Context: Campaign Interaction*
 
-Campaign Interaction 컨텍스트에서 전환 프로세스는 식별된 환경에서 활성화된 프로세스로, 연락처가 명시적으로 및/또는 암시적으로 식별되지 않은 경우 익명 환경으로 호출을 리디렉션합니다.
+In the context of Campaign Interaction, the changeover process is an activated process in an identified environment, responsible for directing the call to an anonymous environment if the contact has not been explicitly and/or implicitly identified.
 
-추가 정보 [상호 작용](../../interaction/using/interaction-and-offer-management.md).
+Learn more about [Interaction](../../interaction/using/interaction-and-offer-management.md).
 +++
+-->
 
 +++**채널**
 
@@ -174,14 +177,17 @@ Campaign 데이터 모델은 데이터 유형과 해당 관계(링크)를 정의
 추가 정보 [데이터베이스 정리 워크플로우](../../production/using/database-cleanup-workflow.md).
 +++
 
-+++**전용 서버**
+<!--
+----UNCLEAR----
++++**Dedicated server**
 
-*컨텍스트: 트랜잭션 메시지*
+*Context: Transactional Messaging*
 
-트랜잭션 메시지를 활용하기 위한 전용 실행 서버입니다. 서버는 일반적으로 시간당 최대 50,000개의 엔진 호출을 처리할 수 있습니다. Adobe이 가상화 기술을 활용하여 동등한 효과를 얻을 수 있으므로 &quot;전용 서버&quot; 지정 시 물리적 서버와 1:1 상관 관계가 반드시 있는 것은 아닙니다.
+Dedicated execution server(s) to leverage Transactional Messaging. A server can typically process up to 50,000 Engine Calls per hour. The “Per-Dedicated Server” designation does not necessarily have a 1:1 correlation with a physical server as Adobe may utilize virtualization technologies to achieve the equivalent effect.
 
-추가 정보 [트랜잭션 메시지](../../message-center/using/about-transactional-messaging.md).
+Learn more about [Transactional Messaging](../../message-center/using/about-transactional-messaging.md).
 +++
+-->
 
 +++**게재 가능성**
 
@@ -272,6 +278,7 @@ Adobe Campaign Deliverability Fundamentals Consulting Service는 Adobe Campaign 
 ## E - H {#sec-2}
 
 <!--
+----DEPREACTED----
 +++**E4X**
 
 The version of Javascript that is used in Adobe Campaign Classic. Sometimes called ECMAScript, it is an extension of Javascript that allows the mixing of Javascript and XML primitives in the same code. Note that E4X is classified as a deprecated language. 
@@ -431,12 +438,15 @@ Campaign Heatmap은 24시간 동안의 워크플로우 실행 정보를 보여�
 추가 정보 [상호 작용](../../interaction/using/interaction-and-offer-management.md).
 +++
 
-+++**이미지 제공**
+<!--
+----UNCLEAR----
++++**Image serving**
 
-이메일에 포함된 이미지를 게재 수신자에게 제공하는 기능입니다. 이메일 시스템의 &quot;이미지 다운로드&quot; 기능을 기반으로 이미지를 삽입하면 Campaign 추적 로그에 &quot;열기&quot; 항목이 생성됩니다.
+The functionality that supplies the images embedded in emails to the delivery’s recipients. The insertion of the images based on an emails system’s “download images” functionality is what generates an “open” entry in Campaign’s tracking logs.
 
-추가 정보 [이미지 제공](../../delivery/using/defining-the-email-content.md#adding-images).
+Learn more about [Image serving](../../delivery/using/defining-the-email-content.md#adding-images).
 +++
+-->
 
 +++**인바운드 상호 작용**
 
@@ -495,6 +505,7 @@ Campaign Heatmap은 24시간 동안의 워크플로우 실행 정보를 보여�
 +++
 
 <!--
+----ACS?----
 +++**Localization**
 
 This template type is used to manage multilingual messages.  It is available for Email and SMS messages and useable in standalone mode, within a workflow or in a recurring delivery. In the multilingual feature templates, the language management is based on variants. Each variant represents one language.  This functionality is available only in Adobe Campaign Standard.  
@@ -759,15 +770,16 @@ Adobe Campaign에서는 게재에 삽입할 수 있는 내장 개인화 블록�
 
 사전 정의된 필터는 재사용할 수 있도록 저장된 질의입니다. 사전 정의된 필터를 사용하면 생산성을 높일 수 있습니다(한 번만 만들어짐). 모든 마케터는 이러한 필터를 사용할 수 있으므로 일관성을 구축하고 마케터가 스스로 만들 수 없는 코드나 논리를 사용할 수 있으므로 마케터의 필요한 기술을 줄일 수 있습니다.
 
-추가 정보 [사전 정의된 필터](../../configuration/using/creating-filters.md).
+추가 정보 [사전 정의된 필터](../../platform/using/creating-filters.md#filtering-recipients).
 +++
 
 <!--
+----DEPREACTED----
 +++**Predictive Engagement Scoring**
 
 Predictive engagement scoring predicts the probability of a recipient engaging with a message and the probability of opting out (unsubscribing) within the next seven days after the next email send. The probabilities are further divided into buckets according to the specific risk of disengagement, medium, or low. The model also provides the risk percentile rank for the customers to understand where the rank of a certain customer in relation to others. 
 
-Learn more about [Predictive Engagement Scoring](../../platforrm/using/creating-filters.md).
+Learn more about [Predictive Engagement Scoring](../../platform/using/creating-filters.md).
 +++
 -->
 
@@ -794,12 +806,14 @@ Learn more about [Predictive Engagement Scoring](../../platforrm/using/creating-
 
 +++**공용 리소스**
 
-Campaign Adobe의 Public Resources 폴더는 애플리케이션 서버에서 호스팅하는 이미지를 보유합니다. 게재의 이미지는 애플리케이션 서버(또는 Campaign이 구성된 경우 이미지 호스팅 서버)에 게시하여 이메일과 같은 게재에 표시되어야 합니다.
+Adobe Campaign의 공용 리소스 폴더는 애플리케이션 서버에서 호스팅하는 이미지를 보유합니다. 게재의 이미지는 애플리케이션 서버(또는 Campaign이 구성된 경우 이미지 호스팅 서버)에 게시하여 이메일과 같은 게재에 표시되어야 합니다.
 
 추가 정보 [공용 리소스](../../installation/using/deploying-an-instance.md#managing-public-resources).
 +++
 
 +++**푸시**
+
+*컨텍스트: 모바일 앱 채널*
 
 푸시 알림은 모바일 애플리케이션에서 받은 메시지입니다. 푸시 알림은 모바일 애플리케이션에 Experience Platform SDK 코드를 포함하여 Adobe Campaign에서 작동하도록 구성됩니다. 푸시의 경우 두 개의 게재 채널을 사용할 수 있습니다. iOS 및 Android.
 
@@ -824,10 +838,13 @@ Adobe Campaign에서 수신자는 게재(이메일, SMS 등)를 보낼 타겟팅
 추가 정보 [렌더링 함수](../../interaction/using/creating-offer-spaces.md).
 +++
 
-+++**캠페인 재타겟팅**
+<!--
+-----DID NOT FIND IN DOCS----
++++**Retargeting campaigns**
 
-이전 게재 또는 게재의 수신자를 다시 타겟팅하는 캠페인.
+Campaigns that re-target the recipients of a previous delivery or deliveries.
 +++
+-->
 
 +++**스키마 확장**
 
@@ -838,14 +855,14 @@ Adobe Campaign에서 수신자는 게재(이메일, SMS 등)를 보낼 타겟팅
 
 +++**스키마**
 
-스키마는 특정 데이터 형식을 정의하는 XML 문서입니다. 스키마는 제품 데이터베이스에서 데이터베이스 테이블로 구현됩니다.  연산자가 Campaign에서 스키마를 조작하면 제품이 해당 작업을 필수 SQL으로 변환하여 데이터베이스에 대해 실행합니다. 이러한 용어(스키마/테이블)는 종종 연산자가 서로 교환적으로 사용하지만 제품 아키텍처의 다른 요소입니다.
+스키마는 데이터베이스 테이블과 연결된 XML 문서입니다. 데이터 구조를 정의하고 테이블의 SQL 정의를 설명합니다. 연산자가 Campaign에서 스키마를 조작하면 제품이 해당 작업을 필수 SQL으로 변환하여 데이터베이스에 대해 실행합니다.
 
 추가 정보 [스키마](../../configuration/using/about-schema-reference.md).
 +++
 
 +++**시드 주소**
 
-시드 주소는 정의된 대상 기준과 일치하지 않는 수신자를 타겟팅 하는 데 사용됩니다. 이렇게 하면 게재 범위를 벗어나는 수신자는 다른 대상 수신자와 마찬가지로 게재를 받을 수 있습니다.
+시드 주소는 정의된 대상 기준과 일치하지 않는 수신자를 타겟팅 하는 데 사용됩니다. 이렇게 하면 게재 범위를 벗어나는 수신자는 다른 대상 수신자와 마찬가지로 게재를 받을 수 있습니다. 수신자 데이터베이스의 부정 사용을 감지하거나 게재를 확인하기 위해 메시지 대상자에 추가됩니다.
 
 추가 정보 [시드 주소](../../delivery/using/about-seed-addresses.md).
 +++
@@ -870,12 +887,12 @@ Adobe Campaign에서는 뉴스레터 또는 제품 업데이트와 같은 정보
 
 Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 컨트롤 패널에서는 스토리지 용량 모니터링, IP 주소 관리 허용 목록, 공개 SSH 키 관리 등의 SFTP 서버에 대한 작업을 수행할 수 있습니다.
 
-추가 정보 [SFTP 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en).
+추가 정보 [SFTP 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
 +++
 
 +++**구독 서비스 활동**
 
-이 워크플로우 활동을 사용하면 전환에서 지정된 모집단에 대한 정보 서비스 구독을 만들거나 삭제할 수 있습니다.
+구독 서비스 워크플로우 활동을 사용하면 전환에서 지정된 모집단에 대한 정보 서비스 구독을 만들거나 삭제할 수 있습니다.
 
 추가 정보 [구독 서비스 활동](../../workflow/using/subscription-services.md).
 +++
@@ -896,23 +913,23 @@ Target 데이터는 워크플로우의 작업 테이블(전환)에 저장된 데
 추가 정보 [Target 데이터](../../workflow/using/data-life-cycle.md#target-data).
 +++
 
-+++**Target 맵**
++++**대상 매핑**
 
-특정 데이터 유형에 대한 게재 채널의 매핑입니다. Adobe Campaign은 이메일 주소나 전화번호에 직접 보내지 않고, 데이터 유형으로 전송됩니다. Target 맵(게재 맵이라고도 함)은 다양한 게재 채널이 스키마의 데이터 필드에 연결되는 방식을 정의합니다. 특정 필드나 표현식을 사용하여 Campaign이 해당 데이터 유형으로 보내는 방법을 정의합니다.
+대상 매핑은 특정 데이터 유형에 대한 게재 채널의 매핑입니다. Target 매핑은 스키마의 데이터 필드에 서로 다른 전달 채널이 연결되는 방식을 정의합니다. 특정 필드나 표현식을 사용하여 Campaign이 해당 데이터 유형으로 보내는 방법을 정의합니다.
 
-추가 정보 [Target 데이터](../../delivery/using/define-the-right-audience.md#target-mappings).
+추가 정보 [대상 매핑](../../delivery/using/selecting-a-target-mapping.md).
 +++
 
 +++**타겟팅 활동**
 
-모집단 데이터 타겟팅, 조작 및 필터링 활동과 관련된 워크플로우 활동입니다. 연산자를 사용하여 집합을 정의하고 교차, 결합 또는 제외 작업을 사용하여 이러한 세트를 분할하거나 결합하여 하나 이상의 대상을 작성할 수 있습니다.
+타겟팅 활동은 타겟팅, 모집단 데이터 조작 및 필터링 활동과 관련된 워크플로우 활동입니다. 연산자를 사용하여 집합을 정의하고 교차, 결합 또는 제외 작업을 사용하여 이러한 세트를 분할하거나 결합하여 하나 이상의 대상을 작성할 수 있습니다.
 
 추가 정보 [타겟팅 활동](../../workflow/using/about-targeting-activities.md).
 +++
 
 +++**차원 타겟팅**
 
-쿼리 또는 기타 워크플로우 활동으로 작성(반환)되는 데이터 유형입니다. Adobe Campaign은 피신청인 데이터베이스 행을 가져오는 데 사용된 쿼리에 상관없이 기본 키만 반환합니다.
+타겟팅 차원은 쿼리 또는 기타 워크플로우 활동에 의해 생성되고(반환되는) 데이터 유형입니다. Adobe Campaign은 피신청인 데이터베이스 행을 가져오는 데 사용된 쿼리에 상관없이 기본 키만 반환합니다.
 
 추가 정보 [타겟팅 차원](../../workflow/using/targeting-data.md).
 +++
@@ -921,18 +938,13 @@ Target 데이터는 워크플로우의 작업 테이블(전환)에 저장된 데
 
 *컨텍스트: MRM(마케팅 리소스 관리)*
 
-작업 워크플로우 활동은 사람의 작업을 워크플로우의 논리에 통합합니다. 다음 두 가지 시나리오를 지정할 수 있습니다. 작업이 완료된 경우 첫 번째, 작업이 완료되지 않은 경우 두 번째, 수동으로 완료되지 않은 것으로 표시된 경우 또는 작업이 만료된 경우 두 번째.
-
-일반적인 사용 사례는 캠페인이나 승인 등의 사용자 지정 작업에 오프라인 작업을 통합하는 것입니다.
-
-캠페인 워크플로우에서 작업 활동
-
-
+작업 워크플로우 활동은 사람의 작업을 워크플로우의 논리에 통합합니다. 다음 두 가지 시나리오를 지정할 수 있습니다. 작업이 완료되면 첫 번째 작업을 수행하고 작업이 완료되지 않으면 두 번째 작업을 수행합니다. 일반적인 사용 사례는 캠페인이나 승인 등의 사용자 지정 작업에 오프라인 작업을 통합하는 것입니다.
 
 추가 정보 [작업 활동](../../workflow/using/task.md).
 +++
 
 <!--
+-----NOT USEFUL-----
 +++**Task**
 
 One iteration of the defined functionality of a workflow activity. Each execution of a task has a unique task identifier.   
@@ -947,6 +959,8 @@ Learn more about [Tasks](../../workflow/using/about-workflows.md).
 +++
 
 <!--
+-----ACS -> SEEDS IN ACC-----
+
 +++**Test profiles**
 
 Allows targeting of additional recipients who do not match the defined targeting criteria. They are added to a message’s audience to detect any fraudulent use of your recipient database or to ensure delivery. Seen as the Seed type in the Campaign interface.
@@ -956,6 +970,7 @@ Learn more about [Test profiles](../../workflow/using/about-workflows.md).
 -->
 
 <!--
+-----NOT USEFUL?-----
 +++**Total database storage**
 
 The aggregate size of the production and non-production instance(s) database storage managed by Adobe. 
@@ -986,6 +1001,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 +++
 
 <!--
+-----NOT USEFUL-----
 +++**Triggers**
 
 Signals that initiate execution of a workflow, delivery or other action. Typically an API call. 
@@ -1000,7 +1016,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 유형화 규칙은 게재의 분석 단계의 일부로 구현되는 비즈니스 규칙입니다. 유형화 규칙은 비즈니스 요구 사항을 적용하는 게재(제어 규칙) 또는 게재 타겟(필터링 규칙) 또는 기타 논리(압력 규칙)의 콘텐츠를 확인합니다. 규칙은 하나 이상의 유형화에 포함할 수 있는 세부적인 요소입니다.
 
-추가 정보 [유형화](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
+추가 정보 [유형화 규칙](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 +++**토폴로지**
@@ -1024,6 +1040,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 +++
 
 <!--
+-----NO OCCURRENCE IN ACC, OLD v6 CONCEPT?----
 +++**Universes**
 
 Application pages hosted by the Campaign instance. Used for approval forms, landing pages, opt-out forms, preference pages or to implement other business requirements.  
@@ -1055,7 +1072,7 @@ Learn more about [Universes](../../workflow/using/about-workflows.md).
 
 +++**작업 가능**
 
-worktable에는 워크플로우 전환에서 가져온 모든 정보가 포함되어 있습니다. 각 워크플로우에서는 여러 작업 테이블을 사용합니다. 이러한 표에 전달된 데이터는 삭제되지 않는 경우 워크플로우의 수명 주기 내내 가속화되고 사용할 수 있습니다. 실제로 워크플로우가 수동될 때마다 및 가장 큰 워크플로우를 실행하는 동안 서버 오버로드를 방지하기 위해 필요하지 않은 테이블이 삭제됩니다.
+worktable에는 워크플로우 전환에서 가져온 모든 정보가 포함되어 있습니다. 각 워크플로우에서는 여러 작업 테이블을 사용합니다. worktable은 원래 활동의 결과를 보관하며 해당 컨텐츠는 워크플로우의 다음(연결된) 활동에 대한 입력으로 사용됩니다.  작업 테이블의 조작(확장, 사용자 지정)은 Adobe Campaign 연산자의 주요 기술 중 하나입니다.
 
 추가 정보 [작업 테이블](../../workflow/using/about-workflows.md).
 +++
