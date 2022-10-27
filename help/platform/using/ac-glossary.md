@@ -6,10 +6,10 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: dea815b07f0b91ed550060fa00cf0501ae6594f7
+source-git-commit: 9900fb627dfb310e8f34735a502997ef8e24e769
 workflow-type: tm+mt
-source-wordcount: '6087'
-ht-degree: 4%
+source-wordcount: '5993'
+ht-degree: 3%
 
 ---
 
@@ -140,14 +140,14 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 
 대상의 일부를 제외하여 캠페인의 영향을 측정하려면 컨트롤 그룹을 사용하십시오. 연산자는 메시지를 받은 대상 모집단 행동과 타겟팅되지 않은 연락처의 동작을 비교할 수 있습니다. 전송 로그를 기반으로 운영자가 향후 캠페인에서 컨트롤 그룹을 타겟팅할 수도 있습니다.
 
-추가 정보 [콘텐츠 승인](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+추가 정보 [컨텐츠 그룹](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 +++
 
 +++**Campaign 컨트롤 패널**
 
-Campaign 컨트롤 패널을 사용하면 각 인스턴스의 사용 방식을 추적하고 설정을 관리하여 Adobe Campaign의 제품 관리자 작업 효율성을 높일 수 있습니다. 컨트롤 패널의 직관적인 인터페이스를 활용하면 주요 자산의 사용을 손쉽게 모니터링할 수 있을 뿐만 아니라 허용 목록에 IP 주소 추가, SFTP 스토리지 모니터링, 키 관리 등의 관리 작업도 수행할 수 있습니다.
+Campaign 컨트롤 패널은 Adobe Campaign의 제품 관리자가 각 인스턴스의 사용 방식을 추적하고 설정을 관리하여 작업 효율성을 높일 수 있도록 해줍니다. 컨트롤 패널의 직관적인 인터페이스를 활용하면 주요 자산의 사용을 손쉽게 모니터링할 수 있을 뿐만 아니라 IP 주소 허용 목록 추가, SFTP 스토리지 모니터링, 키 관리 등의 관리 작업도 수행할 수 있습니다.
 
-추가 정보 [콘텐츠 승인](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko).
+추가 정보 [컨텐츠 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko).
 +++
 
 +++**큐브**
@@ -170,7 +170,7 @@ Adobe Campaign에는 다양한 패키지를 설치하여 데이터 유형을 정
 
 Campaign 데이터 모델은 데이터 유형과 해당 관계(링크)를 정의하는 스키마 세트입니다. 데이터 모델은 실제 데이터가 포함된 데이터베이스로 물리적으로 구현되는 추상 정의입니다.
 
-추가 정보 [사용자 지정 리소스](../../configuration/using/about-data-model.md).
+추가 정보 [데이터 모델](../../configuration/using/about-data-model.md).
 +++
 
 +++**데이터베이스 정리 워크플로우**
@@ -261,7 +261,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *컨텍스트: 분산 마케팅*
 
-중앙 엔터티(본사, 마케팅 부서 등) 간에 캠페인을 구현하는 공동 작업 영역인 Campaign 운영자에게 분산 마케팅 추가 기능 오퍼는 공동 캠페인을 실시할 수 있습니다. 이러한 협력은 **Campaign 패키지 목록**&#x200B;를 설정하는 경우, 중앙에서 만든 캠페인 템플릿 및 인스턴스가 로컬 엔티티에 제공됩니다.
+중앙 엔터티(본사, 마케팅 부서 등) 간에 캠페인을 구현하는 공동 작업 영역인 Campaign Operators에 대한 분산 마케팅 추가 기능 오퍼입니다. 공동 캠페인을 실시할 수 있습니다. 이러한 협력은 **Campaign 패키지 목록**&#x200B;를 설정하는 경우, 중앙에서 만든 캠페인 템플릿 및 인스턴스가 로컬 엔티티에 제공됩니다.
 
 추가 정보 [분산 마케팅](../../distributed/using/about-distributed-marketing.md)
 +++
@@ -270,7 +270,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 값 분배는 현재 데이터베이스에 있는 스키마 속성에 대한 값 분포를 표시하는 도구입니다. 이를 통해 사용 가능한 값, 카운트 및 백분율을 결정하고 쿼리 또는 표현식을 만들 때 값의 대문자화 및 철자 문제를 방지할 수 있습니다.
 
-추가 정보 [분산 마케팅](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
+추가 정보 [값 배포](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
 +++
 
 +++**도메인 위임**
@@ -542,12 +542,15 @@ This template type is used to manage multilingual messages.  It is available for
 추가 정보 [네임스페이스](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 +++
 
-+++**탐색 모음**
+<!--
+----generic, not specific to campaign----
++++**Navigation bar**
 
-탐색 막대는 인터페이스 맨 위에서 실행되는 탐색 요소입니다. 탐색 막대는 플랫폼의 다양한 핵심 기능을 다시 그룹화합니다. 탐색 모음 링크를 클릭하여 이 기능과 관련된 기능 세트를 표시합니다. 액세스할 수 있는 핵심 기능 목록은 설치한 패키지 및 추가 기능과 액세스 권한에 따라 다릅니다. 탐색 막대의 목적은 화면 관리를 단순화하고 생산성을 높이는 것입니다.
+The navigation bar is the navigation element running across the top of the interface. The navigation bar regroups the various core capabilities of the platform. Click a navigation bar link to display the set of functionalities related to this capability. The list of core capabilities you can access depends on the packages and add-ons you have installed and on your access rights. The purpose of the Navigation bar is to simplify screen management and increase productivity.
 
-추가 정보 [탐색 모음](../../platform/using/adobe-campaign-workspace.md#browsing-pages).
+Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.md#browsing-pages).
 +++
+-->
 
 +++**탐색 트리**
 
@@ -556,7 +559,7 @@ This template type is used to manage multilingual messages.  It is available for
 추가 정보 [탐색 트리](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarch).
 +++
 
-+++**목표**
++++**목적**
 
 *컨텍스트: MRM(마케팅 리소스 관리)*
 
@@ -592,7 +595,7 @@ This template type is used to manage multilingual messages.  It is available for
 
 오퍼 **디자인 환경** 오퍼를 만들고, 유형화 규칙을 정의하고, 오퍼가 타깃팅할 스키마를 선택하는 환경입니다. 생성된 오퍼 포지션을 저장하는 테이블도 환경에 의해 정의됩니다. 기본적으로 상호 작용 추가 기능에는 **디자인** 환경 및 **라이브** 환경에 연결된 환경. 두 환경은 기본 제공 수신자 테이블을 타겟으로 미리 구성되어 있습니다.
 
-추가 정보 [디자인 환경](../../interaction/using/fundamental-principles.md).
+추가 정보 [오퍼 디자인 환경](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**오퍼 엔진 중재**
@@ -619,7 +622,7 @@ This template type is used to manage multilingual messages.  It is available for
 
 오퍼 환경은 오퍼 카탈로그, 사용 가능한 공간 및 환경의 사전 정의된 필터를 정의하는 루트 폴더입니다. 연산자는 각 타겟팅 차원에 대해 하나의 환경을 만들어야 합니다. 오퍼 환경에는 두 가지 유형이 있습니다. 디자인 및 라이브.
 
-추가 정보 [환경](../../interaction/using/fundamental-principles.md).
+추가 정보 [오퍼 환경](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**오퍼 라이브 환경**
@@ -628,7 +631,7 @@ This template type is used to manage multilingual messages.  It is available for
 
 오퍼 라이브 환경이 캠페인에 연결됩니다 **디자인 환경**. 이 팩에는 을 통해 콘텐츠 및 자격 조건을 승인한 읽기 전용 오퍼가 포함되어 있습니다 **디자인 환경**. 웹 사이트에 표시하기 위해 선택하거나 아웃바운드 메시지에 삽입할 수 있습니다.
 
-추가 정보 [라이브 환경](../../interaction/using/fundamental-principles.md).
+추가 정보 [라이브 환경 제공](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**오퍼 프레젠테이션 규칙**
@@ -662,7 +665,7 @@ This template type is used to manage multilingual messages.  It is available for
 
 *컨텍스트: Campaign 상호 작용*
 
-오퍼 제안 은 주어진 오퍼 공간에서 연락처에 오퍼를 제공하는 것으로 구성된 작업(예: 웹 사이트의 배너, 이메일 또는 SMS 컨텐츠)의 결과입니다. 이 결과는 오퍼, 수신자 및 타임스탬프를 정의하는 오퍼 제안 위치 테이블에 저장되며, 수신자가 받은 모든 오퍼의 레코드를 제공합니다.
+오퍼 표현은 채널이 오퍼를 표시하는 데 사용하는 정보입니다. 오퍼 표시는 오퍼가 표시되거나 인터페이스에 직접 입력된 공간(예: HTML 블록)의 렌더링 함수에서 작성할 수 있습니다. 오퍼는 공백으로 표시될 수 있습니다.
 
 추가 정보 [상호 작용](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -676,13 +679,13 @@ This template type is used to manage multilingual messages.  It is available for
 추가 정보 [오퍼 시뮬레이션](../../interaction/using/about-offers-simulation.md).
 +++
 
-+++**오퍼 공간**
++++**오퍼 스페이스**
 
 *컨텍스트: Campaign 상호 작용*
 
 오퍼 공간은 오퍼가 노출된 위치를 정의하는 폴더입니다. 공간을 정의하면 사용되는 채널을 지정하고, 오퍼의 컨텐츠를 작성하고, 제공된 오퍼를 지정할 수 있습니다. 오퍼 공간은 채널과 오퍼 엔진 간의 인터페이스입니다.
 
-추가 정보 [오퍼 시뮬레이션](../../interaction/using/creating-offer-spaces.md).
+추가 정보 [오퍼 공간](../../interaction/using/creating-offer-spaces.md).
 +++
 
 +++**오퍼 테마**
@@ -1027,7 +1030,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 +++
 -->
 
-+++**토폴로지**
++++**유형화**
 
 *컨텍스트: 캠페인 최적화*
 
