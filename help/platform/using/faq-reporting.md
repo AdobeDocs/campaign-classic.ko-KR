@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: b29340a0-954d-41e4-b0a3-9d356e4dc753
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Campaign Classic을 사용하면 [고급 보고서를 만들](../../reporting/us
 
 만들고 구성하고 난 후 큐브는 보고서 쿼리 상자 및 웹 애플리케이션에 사용됩니다. 피벗 테이블 내에서 사용하고 조작할 수 있습니다.
 
-큐브로 [데이터를 탐색](../../reporting/using/using-cubes-to-explore-data.md)하는 방법을 배웁니다.
+큐브로 [데이터를 탐색](../../reporting/using/ac-cubes.md)하는 방법을 배웁니다.
 
 ## 온라인 설문 조사에 대한 응답으로 보고서를 만들 수 있습니까? {#can-i-create-a-report-from-answers-to-an-online-survey-}
 

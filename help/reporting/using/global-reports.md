@@ -4,7 +4,7 @@ title: 전반적 보고서
 description: 전반적 보고서
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: 294309239bc476669e9e017c27bd1b51a0bdaf8c
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '2295'
 ht-degree: 4%
@@ -125,7 +125,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이러한 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브입니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/about-cubes.md)을 참조하십시오. 다음 **[!UICONTROL Others]** 카테고리에는 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
+>이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이러한 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브입니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/ac-cubes.md)을 참조하십시오. 다음 **[!UICONTROL Others]** 카테고리에는 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
 
 ## 브라우저 {#browsers}
 

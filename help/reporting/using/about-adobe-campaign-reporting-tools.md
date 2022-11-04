@@ -4,7 +4,7 @@ title: Adobe Campaign 보고 도구 정보
 description: 빌드-인 또는 사용자 정의 보고서에서 캠페인의 성공을 분석합니다.
 feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 19%
@@ -39,7 +39,7 @@ Adobe Campaign은 다음과 같은 몇 가지 보고 도구를 제공합니다.
 
 1. **분석 보고서**: Marketing Analytics를 사용하면 직관적인 데이터 탐색을 사용할 수 있습니다.
 
-   이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/about-cubes.md)을 참조하십시오.
+   이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/ac-cubes.md)을 참조하십시오.
 
 >[!CAUTION]
 >

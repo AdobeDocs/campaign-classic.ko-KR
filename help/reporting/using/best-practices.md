@@ -4,7 +4,7 @@ title: 보고 모범 사례
 description: Campaign 보고 우수 사례
 feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -29,13 +29,13 @@ ht-degree: 0%
 
    예를 들어 다음 작업을 수행할 수 있습니다.
 
-   * 데이터베이스의 데이터를 탐색하고 측정을 정의합니다. 추가 정보 [이 섹션](../../reporting/using/about-cubes.md)
+   * 데이터베이스의 데이터를 탐색하고 측정을 정의합니다. 추가 정보 [이 섹션](../../reporting/using/ac-cubes.md)
    * 기존 보고서에 지표를 추가합니다. 추가 정보 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)
    * 데이터베이스에서 데이터를 봅니다. 추가 정보 [이 섹션](../../reporting/using/about-descriptive-analysis.md)
    * 새 게재 보고서를 만듭니다. 추가 정보 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)),
    * 워크플로우를 통해 Adobe Campaign 데이터베이스에서 데이터를 내보냅니다. 자세한 내용은 [이 섹션](../../workflow/using/about-workflows.md)
    * 피벗 테이블을 만듭니다. 추가 정보 [이 섹션](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
-   * 집계된 데이터를 탐색합니다. 추가 정보 [이 섹션](../../reporting/using/about-cubes.md)
+   * 집계된 데이터를 탐색합니다. 추가 정보 [이 섹션](../../reporting/using/ac-cubes.md)
    * 마법사를 사용하여 데이터를 분석합니다. 추가 정보 [이 섹션](../../reporting/using/about-descriptive-analysis.md)
    * 대용량 데이터를 분석합니다. 추가 정보 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)
 

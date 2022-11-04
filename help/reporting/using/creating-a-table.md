@@ -4,7 +4,7 @@ title: 테이블 만들기
 description: 테이블 만들기
 feature: Reporting
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '2495'
 ht-degree: 1%
@@ -464,4 +464,4 @@ Excel 탭에서 다음을 수행합니다.
 
 이러한 유형의 보고서는 설명 분석 마법사에 사용되는 보고서와 유사합니다. 자세한 정보는 이 [페이지](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template)를 참조하십시오.
 
-피벗 테이블 만들기에 대한 자세한 내용은 [이 섹션](../../reporting/using/using-cubes-to-explore-data.md).
+피벗 테이블 만들기에 대한 자세한 내용은 [이 섹션](../../reporting/using/ac-cubes.md).

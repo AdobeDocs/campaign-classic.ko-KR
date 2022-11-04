@@ -4,7 +4,7 @@ title: 분석 대상 데이터 수집
 description: 분석 대상 데이터 수집
 feature: Reporting
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 3%
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 ![](assets/reporting_query_from_cube.png)
 
-큐브를 사용하면 최종 사용자가 보고서 및 테이블을 쉽게 구성할 수 있도록 하면서 데이터베이스의 탐색 및 분석 기능을 확장할 수 있습니다. 기존의 완전히 구성된 큐브를 선택하고 계산, 측정 단위 및 통계를 사용하면 됩니다. 큐브 만들기에 대한 자세한 내용은 [이 섹션](../../reporting/using/about-cubes.md).
+큐브를 사용하면 최종 사용자가 보고서 및 테이블을 쉽게 구성할 수 있도록 하면서 데이터베이스의 탐색 및 분석 기능을 확장할 수 있습니다. 기존의 완전히 구성된 큐브를 선택하고 계산, 측정 단위 및 통계를 사용하면 됩니다. 큐브 만들기에 대한 자세한 내용은 [이 섹션](../../reporting/using/ac-cubes.md).
 
 을(를) 클릭합니다. **[!UICONTROL Edit query...]** 링크하고 보고서에 표시하거나 사용할 지표를 선택합니다.
 

@@ -3,7 +3,7 @@ product: campaign
 title: 보고서 관리
 description: 보고서 관리
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 새 보고서를 만들려면 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md).
 
-어떤 경우에는 이러한 테이블에 고유한 새 큐브를 배치해야 합니다. 큐브에 자세히 설명되어 있습니다 [이 섹션](../../reporting/using/about-cubes.md).
+어떤 경우에는 이러한 테이블에 고유한 새 큐브를 배치해야 합니다. 큐브에 자세히 설명되어 있습니다 [이 섹션](../../reporting/using/ac-cubes.md).
 
 다음 보고서가 관련 있습니다.
 

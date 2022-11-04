@@ -1,10 +1,10 @@
 ---
 product: campaign
-title: '"사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시"'
-description: '"사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시"'
+title: "사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시"
+description: "사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시"
 feature: Reporting, Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 5%
@@ -65,7 +65,7 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
 ## 2단계 - 큐브, 측정 단위 및 해당 표시기 생성 {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-그런 다음 큐브를 만들고 측정 단위를 구성할 수 있습니다. 보고서 세트에 표시될 지표를 만드는 데 사용됩니다. 큐브 만들기 및 구성에 대한 자세한 내용은 [큐브 정보](../../reporting/using/about-cubes.md).
+그런 다음 큐브를 만들고 측정 단위를 구성할 수 있습니다. 보고서 세트에 표시될 지표를 만드는 데 사용됩니다. 큐브 만들기 및 구성에 대한 자세한 내용은 [큐브 정보](../../reporting/using/ac-cubes.md).
 
 이 예에서 큐브는 이전에 만든 워크플로에서 제공한 목록의 데이터를 기반으로 합니다.
 

@@ -3,8 +3,10 @@ product: campaign
 title: 큐브로 데이터 탐색
 description: 큐브로 데이터 탐색
 feature: Reporting
+hide: true
+hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 2%
@@ -23,7 +25,7 @@ Marketing Analytics를 사용하면 보고서를 더 쉽게 만들고 큐브를 
 
 >[!NOTE]
 >
->큐브를 만들거나 수정하려면 Marketing Analytics가 필요합니다. 자세한 내용은 [큐브 정보](../../reporting/using/about-cubes.md).
+>큐브를 만들거나 수정하려면 Marketing Analytics가 필요합니다. 자세한 내용은 [큐브 정보](../../reporting/using/ac-cubes.md).
 
 ## 보고서에서 데이터 탐색 {#exploring-the-data-in-a-report}
 

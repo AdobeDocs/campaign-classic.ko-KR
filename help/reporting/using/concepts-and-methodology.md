@@ -3,8 +3,10 @@ product: campaign
 title: 큐브에 대한 우수 사례
 description: 큐브에 대한 우수 사례
 feature: Reporting
+hide: true
+hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -127,8 +129,6 @@ Adobe Campaign은 또한 다음 예와 같이 데이터베이스에 있는 모�
 집계는 대량의 데이터를 조작할 때 유용합니다. 최신 데이터를 지표에 통합하기 위해 전용 워크플로우 상자에 정의된 설정을 기반으로 자동으로 업데이트됩니다
 
 집계는 각 큐브의 관련 탭에 정의됩니다.
-
-![](assets/s_advuser_cube_agregate_01.png)
 
 >[!NOTE]
 >

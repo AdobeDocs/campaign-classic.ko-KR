@@ -4,7 +4,7 @@ title: Adobe Campaign 용어
 description: Adobe Campaign 용어
 role: User, Data Architect
 level: Beginner
-source-git-commit: 3a540b59640d4cf128417f751d0076fd97310768
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '6041'
 ht-degree: 3%
@@ -154,7 +154,7 @@ Campaign 컨트롤 패널은 Adobe Campaign의 제품 관리자가 각 인스턴
 
 큐브는 사용자가 동적 보고서를 만들고 공유하는 데 도움이 되는 Adobe Campaign의 직관적인 데이터 탐색 도구입니다.
 
-추가 정보 [큐브](../../reporting/using/about-cubes.md).
+추가 정보 [큐브](../../reporting/using/ac-cubes.md).
 +++
 
 +++**사용자 정의 리소스**
