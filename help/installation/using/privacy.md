@@ -4,7 +4,7 @@ title: 개인 정보 보호
 description: 개인 정보 보호에 대해 따라야 하는 모범 사례에 대해 자세히 알아보십시오
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: fcbaacccaf3f1771570e42e7a83847ed3fd998ef
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 4%
@@ -77,7 +77,7 @@ Campaign을 온-프레미스나 하이브리드 아키텍처에서 실행하든 
 
 URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 단계를 수행하십시오.
 
-1. 서버 구성 파일(serverConf.xml)에서 **signEmailLinks** to **false**.
+1. 서버 구성 파일(serverConf.xml)에서 **signEmailLinks** to **true**.
 1. 를 다시 시작합니다. **nlserver** 서비스.
 1. 추적 서버에서 웹 서버(Debian의 apache2, CentOS/RedHat의 httpd, Windows의 IIS)를 다시 시작합니다.
 
