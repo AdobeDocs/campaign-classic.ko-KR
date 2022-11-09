@@ -4,7 +4,7 @@ title: "사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시
 description: "사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시"
 feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 5%
@@ -13,7 +13,7 @@ ht-degree: 5%
 
 # 사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시{#use-case-displaying-report-on-answers-to-an-online-survey}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하여 수집하고 분석할 수 있습니다.
 

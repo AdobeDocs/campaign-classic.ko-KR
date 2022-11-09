@@ -4,7 +4,7 @@ title: 친구 설문 조사 참조 만들기
 description: 친구 양식 참조 만들기 단계를 배웁니다.
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 활용 사례: 참조 양식 만들기{#use-case-creating-a-refer-a-friend-form}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 이 예제에서는 데이터베이스의 수신자에게 경쟁 제품을 제공하려고 합니다. 웹 양식에는 답변을 입력하는 섹션과 이메일 주소를 입력하여 친구를 참조하는 섹션이 있습니다.
 

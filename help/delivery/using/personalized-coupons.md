@@ -4,7 +4,7 @@ title: 개인화된 쿠폰
 description: 개인화된 쿠폰을 만들고 삽입하는 방법을 알아봅니다
 feature: Personalization
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 개인화된 쿠폰{#personalized-coupons}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 게재 시 쿠폰을 추가하면 수신자가 제품 및 서비스에 대해 향상된 가치를 제공할 수 있습니다. 캠페인 쿠폰 모듈을 사용하여 예정된 마케팅 오퍼에 추가할 쿠폰 세트를 만들 수 있습니다. 게재를 만들 준비가 되면 적용 가능한 쿠폰을 할당합니다. 쿠폰은 선택한 기간에 대해 유효하므로 지정된 쿠폰은 배달 메시지에 고유하게 연결됩니다. 또한 Campaign은 게재가 전송되기 전에 메시지 수에 대한 쿠폰이 충분한지 확인합니다.
 

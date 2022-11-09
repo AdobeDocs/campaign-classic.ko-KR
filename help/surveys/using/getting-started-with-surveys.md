@@ -4,7 +4,7 @@ title: 설문 조사 만들기의 주요 단계
 description: Campaign을 사용하여 첫 번째 설문 조사 만들기
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 설문 조사 만들기의 주요 단계{#getting-started-with-surveys}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 다음은 다음의 기본 제공 템플릿을 사용하여 간단한 설문 조사를 만드는 주요 단계에 대한 간략한 개요입니다.
 
