@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
+source-git-commit: 43d9eac2ed161465ca00ee4f511e4c020b4c44a2
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 52%
+source-wordcount: '211'
+ht-degree: 54%
 
 ---
 
@@ -19,8 +19,6 @@ ht-degree: 52%
 * **[2022 릴리스 프로그램](technotes/using/dc-migration.md)**<br/> 환경을 업그레이드하고 보안, 인프라 및 성능을 개선합니다
 
 * **[7월 릴리스가 라이브입니다!](rn/using/latest-release.md)**<br/> 릴리스 노트의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오
-
-* **[Apple 메일 개인 정보 보호 FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ko)** 및 **[기술 정보](technotes/using/apple-mail-app-privacy-protection.md)**<br/> iOS 15에 대한 Apple의 발표에 대한 응답으로 지침을 찾습니다
 
 * **[잘못된 하드 바운스 제거](delivery/using/update-bounce-qualification.md)**<br/> Apple 중단 후 잘못된 하드 바운스를 업데이트하는 방법을 알아봅니다
 

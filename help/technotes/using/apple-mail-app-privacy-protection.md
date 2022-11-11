@@ -3,9 +3,9 @@ product: campaign
 title: Apple의 메일 앱에서의 메일 개인 정보 보호
 description: 캠페인이 Apple의 메일 개인 정보 보호 기능의 영향을 받는 방식을 알아봅니다
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
+source-git-commit: 43d9eac2ed161465ca00ee4f511e4c020b4c44a2
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2068'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## 캠페인이 어떤 영향을 받습니까?
 
-Adobe Campaign은 전자 메일 열기 수를 추적하기 위해 픽셀 추적 기능을 사용하는 기능을 제공합니다. 이 기능은 타깃팅 및 캠페인뿐만 아니라 지표에도 사용할 수 있습니다. 예를 들어 이메일 오픈율을 사용하여 캠페인 효율성 및 사용자 참여를 측정할 수 있습니다. 즉, 세그먼테이션, 타깃팅 및 지표가 캠페인에서 영향을 받을 수 있습니다. [자세한 내용](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html#in-addition-to-measuring-opens%2C-what-else-is-impacted%3F){target=&quot;_blank&quot;}.
+Adobe Campaign은 전자 메일 열기 수를 추적하기 위해 픽셀 추적 기능을 사용하는 기능을 제공합니다. 이 기능은 타깃팅 및 캠페인뿐만 아니라 지표에도 사용할 수 있습니다. 예를 들어 이메일 오픈율을 사용하여 캠페인 효율성 및 사용자 참여를 측정할 수 있습니다. 즉, 세그먼테이션, 타깃팅 및 지표가 캠페인에서 영향을 받을 수 있습니다.
 
 ## 어떤 작업을 수행해야 합니까?
 
@@ -61,7 +61,7 @@ Adobe Campaign 데이터에서 통찰력을 얻으려면 기본 제공 보고서
 
 * **[!UICONTROL Operating Systems]** 보고서
 
-   운영 체제 및 버전당 방문자 수를 식별하려면 이 보고서를 사용합니다. [자세한 내용](../../reporting/using/global-reports.md#operating-systems).
+   운영 체제 및 버전당 방문자 수를 식별하려면 이 보고서를 사용합니다. [자세히 보기](../../reporting/using/global-reports.md#operating-systems).
 
    총 방문자 수와 관련하여 운영 체제당 방문자 수 분류를 볼 수 있습니다.
 
@@ -73,7 +73,7 @@ Adobe Campaign 데이터에서 통찰력을 얻으려면 기본 제공 보고서
 
 * **[!UICONTROL Breakdown of opens]** 보고서
 
-   운영 체제당 이메일 열기 비율을 식별하려면 이 보고서를 사용합니다. [자세한 내용](../../reporting/using/global-reports.md#breakdown-of-opens).
+   운영 체제당 이메일 열기 비율을 식별하려면 이 보고서를 사용합니다. [자세히 보기](../../reporting/using/global-reports.md#breakdown-of-opens).
 
    ![](../../reporting/using/assets/dlv_useragent_report.png)
 
@@ -326,7 +326,7 @@ Adobe Campaign 데이터에서 통찰력을 얻으려면 기본 제공 보고서
 
 * 이 데이터는 Adobe Campaign에 의해 제한된 기간 동안 유지됩니다. 보존 기간은 인스턴스의 구성에 따라 다릅니다.
 
-   인스턴스의 설정을 확인합니다. [자세한 내용](../../platform/using/privacy-management.md#data-retention).
+   인스턴스의 설정을 확인합니다. [자세히 보기](../../platform/using/privacy-management.md#data-retention).
 
 * Apple의 최근 변경 사항 외에 추적 데이터를 사용하여 대상의 참여를 유도할 수 있는 엄청난 가치를 추가할 수 있습니다.
 * Apple은 자체 이메일 앱 및 메일 개인 정보 보호 기능에 대한 추가 변경 사항을 가져올 수 있습니다.
@@ -335,17 +335,17 @@ Adobe Campaign 데이터에서 통찰력을 얻으려면 기본 제공 보고서
 
 #### 추적 데이터를 유지하려면 어떻게 해야 합니까?
 
-추적 데이터를 보존하려면 Adobe Campaign에서 정보 시스템으로 내보내야 합니다. [자세한 내용](../../platform/using/get-started-data-import-export.md).
+추적 데이터를 보존하려면 Adobe Campaign에서 정보 시스템으로 내보내야 합니다. [자세히 보기](../../platform/using/get-started-data-import-export.md).
 
 >[!IMPORTANT]
 >
->다음 예제는 기본 제공 `nms:Recipient` 스키마: 기본 프로필 스키마. 사용자 지정 프로필에 첨부된 추가 사용자 지정 대상 매핑을 사용하는 경우 이 내보내기 전략을 모든 사용자 지정 로그 표로 확장하는 것이 좋습니다. [자세한 내용](../../configuration/using/target-mapping.md).
+>다음 예제는 기본 제공 `nms:Recipient` 스키마: 기본 프로필 스키마. 사용자 지정 프로필에 첨부된 추가 사용자 지정 대상 매핑을 사용하는 경우 이 내보내기 전략을 모든 사용자 지정 로그 표로 확장하는 것이 좋습니다. [자세히 보기](../../configuration/using/target-mapping.md).
 
 ##### 원칙
 
 기본적으로 `nms:Recipient` 스키마는 내보내야 하는 세 개의 스키마에 연결되어 있습니다.
 
-| 스키마 | 컨텐츠 |
+| 스키마 | 콘텐츠 |
 | --- | --- |
 | nms:trackingLogRcp | 데이터 추적, 즉 사용자, 시간 및 관련 메시지 |
 | nms:trackingUrl | 전자 메일 열기 또는 클릭스루 등 링크에 대한 세부 사항 |
@@ -361,7 +361,7 @@ Adobe Campaign 데이터에서 통찰력을 얻으려면 기본 제공 보고서
 
 연결된 스키마의 유용한 정보를 사용하여 이 데이터를 보강할 수 있습니다.
 
-| 스키마 | 컨텐츠 |
+| 스키마 | 콘텐츠 |
 | --- | --- |
 | nms:Recipient | 프로필과 관련된 세부 사항입니다 |
 | nms:배달 | 사용자가 반응한 메시지에 대한 정보입니다 |
@@ -450,7 +450,3 @@ Adobe Campaign에서 지원하는 외부 스토리지 솔루션으로 결과를 
    이 유형의 워크플로우는 기본 제공 수신자 테이블 이외의 표에 수신자를 저장하는 경우에 유용합니다.
 
    ![](assets/export-tracking-data-wkf-2.png)
-
-## 유용한 링크
-
-[Apple 메일 개인 정보 보호 FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target=&quot;_blank&quot;}

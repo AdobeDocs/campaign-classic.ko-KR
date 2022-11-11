@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: e91024df3ee2ed761035806f62ddc679c52039d9
 workflow-type: tm+mt
-source-wordcount: '2588'
+source-wordcount: '2570'
 ht-degree: 100%
 
 ---
@@ -315,11 +315,6 @@ ht-degree: 100%
       + [보고서에 대한 액세스 구성](reporting/using/configuring-access-to-the-report.md)
       + [보고서에 대한 작업](reporting/using/actions-on-reports.md)
    + [큐브를 사용한 보고서 디자인](reporting/using/ac-cubes.md)
-   + 큐브를 사용한 보고서 디자인 {#designing-reports-with-cubes}
-      + [큐브 시작](reporting/using/about-cubes.md)
-      + [표시기 만들기](reporting/using/creating-indicators.md)
-      + [큐브로 데이터 탐색](reporting/using/using-cubes-to-explore-data.md)
-      + [개념 및 방법](reporting/using/concepts-and-methodology.md)
 + 웹 콘텐츠 디자인 {#designing-content}
    + 웹 애플리케이션 {#web-applications}
       + [웹 애플리케이션 시작](web/using/about-web-applications.md)
