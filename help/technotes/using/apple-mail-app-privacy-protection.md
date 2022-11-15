@@ -3,9 +3,9 @@ product: campaign
 title: Apple의 메일 앱에서의 메일 개인 정보 보호
 description: 캠페인이 Apple의 메일 개인 정보 보호 기능의 영향을 받는 방식을 알아봅니다
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-source-git-commit: 43d9eac2ed161465ca00ee4f511e4c020b4c44a2
+source-git-commit: 83fe7eb4f857306ac1c8bb3a93a9393b76ae1e3c
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2056'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## 변경 사항
 
-2021년에 Apple은 네이티브 메일 앱에 대한 새로운 개인 정보 보호 기능을 도입했습니다. 이제 이 앱에는 Apple의 메일 개인 정보 보호 기능이 포함되어 있습니다. 기본적으로 보낸 사람은 더 이상 추적 픽셀을 사용하여 Apple의 메일 개인 정보 보호 기능을 사용하도록 선택한 수신자에 대한 정보를 수집할 수 없습니다. [자세한 내용](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ko){target=&quot;_blank&quot;}.
+2021년에 Apple은 네이티브 메일 앱에 대한 새로운 개인 정보 보호 기능을 도입했습니다. 이제 이 앱에는 Apple의 메일 개인 정보 보호 기능이 포함되어 있습니다. 기본적으로 보낸 사람은 더 이상 추적 픽셀을 사용하여 Apple의 메일 개인 정보 보호 기능을 사용하도록 선택한 수신자에 대한 정보를 수집할 수 없습니다.
 
 ## 캠페인이 어떤 영향을 받습니까?
 
