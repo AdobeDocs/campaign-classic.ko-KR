@@ -4,9 +4,9 @@ title: 크로스 채널 게재
 description: 크로스 채널 게재에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 31a475c98b09bbeca6a16c6fd98698af10016033
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '283'
 ht-degree: 8%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 8%
 * [이메일](../../delivery/using/about-email-channel.md)
 * [DM](../../delivery/using/about-direct-mail-channel.md)
 * [모바일](../../delivery/using/sms-channel.md)
-* [Twitter](../../social/using/publishing-on-twitter.md) (Campaign Classic v7만 해당)
+* [Twitter](../../social/using/about-social-marketing.md)
 * [iOS](../../delivery/using/create-notifications-ios.md)
 * [Android](../../delivery/using/create-notifications-android.md)
 

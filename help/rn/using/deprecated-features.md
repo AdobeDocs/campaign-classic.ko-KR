@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 45c5ef3315e4208184e9c0ab5f20678646fe2d0b
-workflow-type: ht
-source-wordcount: '1624'
-ht-degree: 100%
+source-git-commit: 0ecf9c69cc4b444feda1e42701a3a27f2b2e7eeb
+workflow-type: tm+mt
+source-wordcount: '1684'
+ht-degree: 97%
 
 ---
 
@@ -41,11 +41,20 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
  <tbody> 
    <tr>
    <td><strong>기능</strong></td>
-   <td><strong>교체</strong></td>
+   <td><strong>세부 정보</strong></td>
   </tr>
 <tr>
- <td>N/A</td>
- <td>N/A</td>
+ <td>Facebook을 사용한 소셜 마케팅</td>
+ <td>facebook을 사용한 소셜 마케팅은 이제 더 이상 사용되지 않습니다. twitter 통합을 사용하여 소셜 미디어에 게시하거나 Adobe을 사용하여 사용자 지정 채널을 만들 수 있습니다.
+ <p></p>
+  <p>Target 제거 날짜: 2023년 말</p>
+  </td>
+</tr>
+<tr>
+ <td>ACS 커넥터</td>
+ <td>ACS 커넥터(Prime offering)는 이제 더 이상 사용되지 않습니다. 캠페인 내보내기/가져오기 기능을 사용하여 두 제품의 데이터를 추출하고 삽입할 수 있습니다.<p></p>
+  <p>Target 제거 날짜: 2023년 말</p>
+  </td>
 </tr>
  </tbody> 
 </table>

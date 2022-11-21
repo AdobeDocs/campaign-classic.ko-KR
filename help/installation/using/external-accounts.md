@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
+source-git-commit: 31a475c98b09bbeca6a16c6fd98698af10016033
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1714'
 ht-degree: 8%
 
 ---
@@ -117,7 +117,7 @@ POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일�
 * [휴대폰](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [DM](../../delivery/using/about-direct-mail-channel.md)
 * [에이전시](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
-* [Twitter](../../social/using/configuring-publishing-on-twitter.md)
+* [Twitter](../../social/using/about-social-marketing.md)
 * [iOS 채널](../../delivery/using/configuring-the-mobile-application.md)
 * [Android 채널](../../delivery/using/configuring-the-mobile-application-android.md)
 
@@ -225,29 +225,6 @@ Campaign과 호환되는 외부 데이터베이스는 [호환성 매트릭스](.
 * 액세스 권한 구성 [sybase IQ](../../installation/using/configure-fda-sybase.md)
 * 액세스 권한 구성 [Teradata](../../installation/using/configure-fda-teradata.md)
 
-### Facebook connect {#facebook-connect-external-account}
-
-다음 **[!UICONTROL Facebook Connect]** 외부 계정을 사용하면 Facebook 애플리케이션에서 개인화된 콘텐츠를 표시할 수 있으므로 이 소셜 네트워크를 통해 잠재 고객을 더 쉽게 확보할 수 있습니다.
-
-각 Facebook 애플리케이션에 대해 **[!UICONTROL Facebook Connect]** 외부 계정을 입력합니다. 자세한 내용은 [페이지](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
-
-![](assets/ext_account_12.png)
-
-* **[!UICONTROL Hosting mode]**
-
-   애플리케이션 사이의 호스팅 모드 **[!UICONTROL hosted by a partner]** 또는 **[!UICONTROL hosted by this instance]**.
-
-* **[!UICONTROL Application ID]**
-
-   facebook 애플리케이션의 앱 ID입니다.
-
-* **[!UICONTROL Application secret]**
-
-   facebook 애플리케이션의 앱 암호입니다.
-
-이 인스턴스 모드에서 호스팅되는 을(를) 선택한 경우 보안 캔버스 URL을 **Facebook 웹 게임(https)** facebook 필드
-
-이러한 자격 증명을 찾을 위치를 알아보려면 다음을 참조하십시오 [페이지](https://developers.facebook.com/docs/facebook-login/access-tokens).
 
 ## Adobe 솔루션 통합 외부 계정
 

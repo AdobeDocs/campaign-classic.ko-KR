@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: f94d7e2cddd75d50cb21973a62ec223f2344edf1
+source-git-commit: ca2f50a501c63cc8b2d4de5d9a41b655a6b6d6cf
 workflow-type: tm+mt
-source-wordcount: '2654'
-ht-degree: 77%
+source-wordcount: '2713'
+ht-degree: 75%
 
 ---
 
@@ -27,22 +27,19 @@ _2022년 11월 21일_
 
 * Microsoft Internet Explorer 11의 수명이 종료됨에 따라 클라이언트 콘솔에서 대시보드에 대한 HTML 렌더링 엔진이 이제 Edge Chromium을 사용합니다. (NEO-20741)
 
-<!--
-**Deprecated features**
-
-* Social Marketing with Facebook is now deprecated. You can still use Twitter integration to post on social media, or work with Adobe to create a custom channel.
-
-* ACS Connector (prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.
-
-Learn more in the [Deprecated and removed features page](deprecated-features.md).
-
--->
-
 **개선 사항**
 
 * 이제 Google BigQuery 커넥터가 부울 필드를 완전히 지원합니다. (NEO-49181)
 * 이제 다음 위치에서 IMS 쿠키 유효 기간을 구성할 수 있습니다 `Configuration for the redirection service` serverConf.xml 파일의 섹션을 참조하십시오. 이는 다음 쿠키에 적용됩니다. `uuid230`, `nllastdelid` 및 `AMCV_` (NEO-42541)
 * 이제 IP를 설정하여 &quot;/r/test&quot; 요청에서 숨길 수 있습니다 `showSourceIP` serverConf.xml 파일의 리디렉션 노드에서 false로 설정됩니다. [자세한 내용](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
+
+**사용되지 않는 기능**
+
+* facebook을 사용한 소셜 마케팅은 이제 더 이상 사용되지 않습니다. twitter 통합을 사용하여 소셜 미디어에 게시하거나 Adobe을 사용하여 사용자 지정 채널을 만들 수 있습니다.
+
+* ACS 커넥터(Prime offering)는 이제 더 이상 사용되지 않습니다. 캠페인 내보내기/가져오기 기능을 사용하여 두 제품의 데이터를 추출하고 삽입할 수 있습니다.
+
+더 자세한 내용은 [사용되지 않거나 제거된 기능 페이지](deprecated-features.md)를 참조하십시오.
 
 **기타 변경 사항**
 

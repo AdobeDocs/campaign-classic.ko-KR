@@ -3,10 +3,10 @@ product: campaign
 title: Campaign Classic 기본 제공 패키지 설치
 description: Campaign 기본 제공 패키지를 설치하는 방법 알아보기
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 13%
+source-wordcount: '1253'
+ht-degree: 12%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 13%
    <td> 모두<br /> </td>
   </tr> 
   <tr> 
-   <td> 모바일 채널(SMS) <br /> </td> 
+   <td> 모바일 채널 (SMS) <br /> </td> 
    <td> Adobe Campaign에서 모바일/SMS 채널을 사용하여 게재를 보냅니다. 선택 사항입니다. <a href="../../delivery/using/sms-channel.md">자세히 알아보기</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
@@ -229,8 +229,8 @@ ht-degree: 13%
    <td> 모두 </td> 
   </tr> 
   <tr> 
-   <td> ACS Connector<br /> </td> 
-   <td> Adobe Campaign v7와 Adobe Campaign Standard을 브리짓합니다. Campaign v7의 통합 기능으로 데이터를 Campaign Standard에 자동으로 복제하여 두 애플리케이션 중 최고의 성능을 제공합니다. 선택 사항입니다. <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">자세히 알아보기</a> <br /> </td> 
+   <td> ACS 커넥터(사용 중지)<br /> </td> 
+   <td> Adobe Campaign v7와 Adobe Campaign Standard을 브리짓합니다. Campaign v7의 통합 기능으로 데이터를 Campaign Standard에 자동으로 복제하여 두 애플리케이션 중 최고의 성능을 제공합니다. 선택 사항입니다.<br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
  </tbody> 

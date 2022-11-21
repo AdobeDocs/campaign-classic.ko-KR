@@ -4,10 +4,11 @@ title: Adobe Campaign 용어
 description: Adobe Campaign 용어
 role: User, Data Architect
 level: Beginner
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
+source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
 workflow-type: tm+mt
-source-wordcount: '6041'
-ht-degree: 3%
+source-wordcount: '5972'
+ht-degree: 4%
 
 ---
 
@@ -31,12 +32,14 @@ A/B 테스트는 사용자가 2~3개의 이메일 변형을 정의할 수 있는
 추가 정보 [액세스 관리](access-management.md).
 +++
 
+<!--
 +++**ACS Connector**
 
-ACS 커넥터(Prime Offer)는 Adobe Campaign v7 및 Adobe Campaign Standard을 다리 짓습니다. Campaign v7의 통합 기능으로 데이터를 Campaign Standard에 자동으로 복제하여 두 애플리케이션 중 최고의 성능을 제공합니다. Campaign v7에는 기본 마케팅 데이터베이스를 관리하는 고급 도구가 있습니다. Campaign v7에서 데이터 복제를 통해 Campaign Standard은 사용자에게 친숙한 환경에서 풍부한 데이터를 활용할 수 있습니다.
+ACS Connector (Prime Offering) bridges Adobe Campaign v7 and Adobe Campaign Standard. It is an integrated feature in Campaign v7 that automatically replicates data to Campaign Standard, uniting the best of both applications. Campaign v7 has advanced tools to manage the primary marketing database. The data replication from Campaign v7 allows Campaign Standard to leverage the rich data in a user-friendly environment. 
 
-추가 정보 [ACS 커넥터](../../integrations/using/acs-connector-principles-and-data-cycle.md).
+Learn more about [ACS Connector](../../integrations/using/acs-connector-principles-and-data-cycle.md).
 +++
+-->
 
 +++**활동**
 
@@ -557,7 +560,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 추가 정보 [탐색 트리](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarch).
 +++
 
-+++**목적**
++++**목표**
 
 *컨텍스트: MRM(마케팅 리소스 관리)*
 
@@ -776,7 +779,7 @@ Adobe Campaign에서는 게재에 삽입할 수 있는 내장 개인화 블록�
 추가 정보 [개인화 변수](../../delivery/using/about-personalization.md).
 +++
 
-+++**계획**
++++**플랜**
 
 계획은 달력에 따라 마케팅 활동을 구성하는 데 사용되는 폴더 유형입니다. 탐색기 뷰의 계획 폴더는 연도, 분기 또는 월과 같은 시간 기반 단위를 정의합니다. 계획 폴더는 중첩될 수 있으며 다른 계획 폴더, 프로그램 폴더 또는 캠페인을 포함할 수 있습니다.
 
@@ -821,7 +824,7 @@ Learn more about [Predictive Engagement Scoring](../../platform/using/creating-f
 추가 정보 [프로그램](../../campaign/using/setting-up-marketing-campaigns.md).
 +++
 
-+++**공용 리소스**
++++**퍼블릭 리소스**
 
 Adobe Campaign의 공용 리소스 폴더는 애플리케이션 서버에서 호스팅하는 이미지를 보유합니다. 게재의 이미지는 애플리케이션 서버(또는 Campaign이 구성된 경우 이미지 호스팅 서버)에 게시하여 이메일과 같은 게재에 표시되어야 합니다.
 
@@ -915,7 +918,7 @@ Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스
 추가 정보 [구독 서비스 활동](../../workflow/using/subscription-services.md).
 +++
 
-+++**Target 승인**
++++**대상 승인**
 
 *컨텍스트: Campaign Distributed Marketing*
 

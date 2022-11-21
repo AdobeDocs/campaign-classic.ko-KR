@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 7f41e3209450421262acf8a753bddd3eae1fe35f
+source-git-commit: 5792ad762befb97888ad32406d3bcb7f97df3fa7
 workflow-type: tm+mt
-source-wordcount: '5004'
+source-wordcount: '4994'
 ht-degree: 98%
 
 ---
@@ -57,7 +57,7 @@ iOS 15를 사용한 Time Sensitive 알림. [자세히 보기](../../delivery/usi
 
 이제 새 Campaign v7.2.2 빌드를 사용할 수 있습니다. [자세히 보기](../../rn/using/latest-release.md)
 
-ACS 커넥터와 관련된 문제 해결 정보가 추가되었습니다. [자세히 보기](../../integrations/using/troubleshooting-the-acs-connector.md)
+<!--Added troubleshooting information related to the ACS connector. [Read more](../../integrations/using/troubleshooting-the-acs-connector.md)-->
 
 수명 종료에 도달한 이전 PostgreSQL 버전이 [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md#dbe-eol) 페이지에 추가되었습니다.
 

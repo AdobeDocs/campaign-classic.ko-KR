@@ -3,11 +3,13 @@ product: campaign
 title: ACS 커넥터 시작
 description: ACS 커넥터 원칙 및 데이터 주기
 feature: ACS Connector
+hide: true
+hidefromtoc: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
 workflow-type: tm+mt
 source-wordcount: '2038'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -175,7 +177,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
    <td> @created<br /> </td> 
   </tr> 
   <tr> 
-   <td> 수정 날짜<br /> </td> 
+   <td> 수정일<br /> </td> 
    <td> @lastModified<br /> </td> 
   </tr> 
   <tr> 
@@ -191,7 +193,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
    <td> @firstName<br /> </td> 
   </tr> 
   <tr> 
-   <td> 중간 이름<br /> </td> 
+   <td> 가운데 이름<br /> </td> 
    <td> @middleName<br /> </td> 
   </tr> 
   <tr> 
@@ -211,7 +213,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
    <td> @salutation<br /> </td> 
   </tr> 
   <tr> 
-   <td> 더 이상 연락하지 않음(채널별로)<br /> </td> 
+   <td> 더 이상 연락하지 않음(모든 채널에서)<br /> </td> 
    <td> @blackList<br /> </td> 
   </tr> 
   <tr> 
@@ -223,7 +225,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
    <td> @blackListMobile<br /> </td> 
   </tr> 
   <tr> 
-   <td> 전화<br /> </td> 
+   <td> 휴대폰<br /> </td> 
    <td> @phone<br /> </td> 
   </tr> 
   <tr> 
@@ -239,7 +241,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
    <td> [위치/@address2]<br /> </td> 
   </tr> 
   <tr> 
-   <td> 주소 3(번호 및 주소)<br /> </td> 
+   <td> 주소 3 (번호 및 거리)<br /> </td> 
    <td> [위치/@address3]<br /> </td> 
   </tr> 
   <tr> 
@@ -247,15 +249,15 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
    <td> [위치/@address4]<br /> </td> 
   </tr> 
   <tr> 
-   <td> 우편 번호<br /> </td> 
+   <td> Zip/우편 번호<br /> </td> 
    <td> [위치/@zipCode]<br /> </td> 
   </tr> 
   <tr> 
-   <td> 구/군/시<br /> </td> 
+   <td> 시<br /> </td> 
    <td> [위치/@city]<br /> </td> 
   </tr> 
   <tr> 
-   <td> 시/도 코드<br /> </td> 
+   <td> 주/시/도 코드<br /> </td> 
    <td> [위치/@stateCode]<br /> </td> 
   </tr> 
   <tr> 

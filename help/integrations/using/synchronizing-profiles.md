@@ -3,8 +3,10 @@ product: campaign
 title: 프로필 동기화
 description: ACS 커넥터와 프로필을 동기화하는 방법을 알아봅니다
 feature: ACS Connector
+hide: true
+hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
+source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 3%
