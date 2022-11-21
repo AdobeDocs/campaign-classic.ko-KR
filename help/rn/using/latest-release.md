@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: ca2f50a501c63cc8b2d4de5d9a41b655a6b6d6cf
+source-git-commit: 95c4a83037bcd2e22a03ac80d1ec4a7896a94ce3
 workflow-type: tm+mt
-source-wordcount: '2713'
+source-wordcount: '2709'
 ht-degree: 75%
 
 ---
@@ -43,8 +43,8 @@ _2022년 11월 21일_
 
 **기타 변경 사항**
 
-* 웹 로그가 향상되었습니다. 이제 logonEscalation 경고가 관리자 권한이 있는 사용자만 표시됩니다. (NEO-47167)
-* 오류를 방지하려면 **Heatmap 서비스 워크플로우에 대한 데이터 수집** (collectDataHeatMapService)는 이제 기본적으로 중지됩니다. (NEO-33959)
+* 웹 로그가 향상되었습니다. `logonEscalation` 이제 관리자 권한이 있는 사용자에 대해서만 경고가 표시됩니다. (NEO-47167)
+* 오류를 방지하려면 **Heatmap 서비스에 대한 데이터 수집** (collectDataHeatMapService) 워크플로우가 이제 기본적으로 중지됩니다. (NEO-33959)
 * 캠페인 대시보드의 CPU 사용을 최적화하기 위해 다양한 개선 사항이 구현되었습니다. (NEO-46417)
 * 충돌을 방지하기 위해 loadLibraryDebug JS 메서드가 제거되었습니다. (NEO-46968)
 * log4j 라이브러리에 대한 나머지 참조는 Windows의 Campaign 설치에서 제거되었습니다. (NEO-44851)
@@ -56,11 +56,11 @@ _2022년 11월 21일_
 * 이메일 게재에서 콘텐츠 승인을 재설정할 때 다시 승인하지 못하는 문제를 해결했습니다. (NEO-44259)
 * 다음을 수행할 수 없는 문제를 해결했습니다. **배달 승인** 단추가 표시되지 않습니다. (NEO-47547)
 * 큰 HTML 코드에 대해 발생할 수 있는 게재 HTML 탭의 성능 문제를 해결했습니다. (NEO-47440)
-* FeatureFlag_GZIP_Compression 옵션이 활성화된 경우 MID 인스턴스에서 게재 로그 상태 업데이트에 영향을 주는 문제를 수정했습니다. (NEO-49183)
+* MID 인스턴스에서 게재 로그 상태가 업데이트되는 경우 `FeatureFlag_GZIP_Compression` 옵션이 활성화되었습니다. (NEO-49183)
 * 토큰 기반 인증을 사용하는 동안 실행 인스턴스에서 iOS 모바일 앱 알림을 보내지 못하는 문제를 해결했습니다. (NEO-45961)
 * Adobe Analytics 도구에서 **게재 능력을 위해 새로 고침** 동기화할 브로드로그가 너무 많으면 워크플로우가 중단됨(deliverabilityUpdate)입니다. (NEO-48287)
-* 메시지 센터 동기화 워크플로우(mcSynch)를 차단한 이벤트 유형 문제를 수정했습니다.
-* 를 추가할 때 오류가 발생할 수 있는 문제를 수정했습니다. **열었던 수신자** 지표(estimatedRecipientOpen)를 클릭합니다. **쿼리** 워크플로우 활동. (NEO-46665)
+* 를 차단한 이벤트 유형 문제가 해결되었습니다. **메시지 센터 동기화** (mcSynch) 워크플로우입니다.
+* 를 추가할 때 오류가 발생할 수 있는 문제를 수정했습니다. **열었던 수신자**  (estimatedRecipientOpen) 지표 **쿼리** 워크플로우 활동. (NEO-46665)
 * Adobe Analytics 도구에서 **과금** 같은 인스턴스에 메시지 센터 제어 및 실행 패키지를 설치할 때 실패한 워크플로입니다. (NEO-47674)
 * Adobe Analytics 도구에서 **과금** 워크플로우에서 정수 대신 문자열로 기본 키가 정의된 테이블을 사용할 때 실패했습니다. (NEO-46254)
 * 워크플로우 이름이 너무 길 때 Heatmap 필터 문제를 수정했습니다. (NEO-46301)
