@@ -6,10 +6,10 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 59a2bc62b4c03ef0702cb57bd9dc808e7d0b444b
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 0%
+source-wordcount: '706'
+ht-degree: 4%
 
 ---
 
@@ -124,7 +124,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
    <td> 경고<br /> </td> 
-   <td> 이 유형의 구문은 더 이상 게재 개인화에서 지원되지 않습니다. 을(를) 참조하십시오. <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. 그렇지 않으면 값 유형이 올바른지 확인합니다.<br /> </td> 
+   <td> 이 유형의 구문은 더 이상 게재 개인화에서 지원되지 않습니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 
@@ -136,7 +136,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> logon(<br /> </td> 
    <td> PU-0003<br /> </td> 
    <td> 경고<br /> </td> 
-   <td> 이 연결 메서드는 더 이상 사용하지 않아야 합니다. 을(를) 참조하십시오. <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">식별된 웹 애플리케이션</a>.<br /> </td> 
+   <td> 이 연결 메서드는 더 이상 사용하지 않아야 합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 새 SoapMethodCall(<br /> </td> 
@@ -148,14 +148,8 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> sql=<br /> </td> 
    <td> PU-0005<br /> </td> 
    <td> 오류<br /> </td> 
-   <td> 이러한 유형의 오류로 인해 마이그레이션 오류가 발생합니다. 을(를) 참조하십시오. <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
+   <td> 이러한 유형의 오류로 인해 마이그레이션 오류가 발생합니다.<br /> </td> 
   </tr> 
-  <tr> 
-   <td> SQLDATA<br /> </td> 
-   <td> PU-0006<br /> </td> 
-   <td> 오류<br /> </td> 
-   <td> 이러한 유형의 오류로 인해 마이그레이션 오류가 발생합니다. 을(를) 참조하십시오. <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. 개요 유형 웹 애플리케이션 오류 로그(v6.02에서 마이그레이션)가 나타나면 다음을 참조하십시오 <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11" target="_blank">Campaign 구성</a>.<br /> </td> 
-  </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 

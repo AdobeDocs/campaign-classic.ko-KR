@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
-workflow-type: ht
-source-wordcount: '763'
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
+workflow-type: tm+mt
+source-wordcount: '764'
 ht-degree: 100%
 
 ---
@@ -150,7 +150,7 @@ ht-degree: 100%
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016년</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
 <p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers">자세히 알아보기</a></p>
@@ -280,10 +280,10 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
+<p>2019년</p>
+<p>2017년</p>
+<p>2016년</p>
+<p>2014년</p>
 <p>2012 SP1 및 SP2</p>
 </td>
 <td>최소 v7.0</td>
@@ -299,6 +299,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tr>
 <td>Teradata</td>
 <td>
+<p>17</p>
 <p>16.20</p>
 <p>16</p>
 <p>15.10</p>
@@ -342,8 +343,8 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <td>Microsoft Windows Server</td>
 <td>
 <p>2019(7.2.1 릴리스 시작)</p>
-<p>2016</p>
-<p>2012</p>
+<p>2016년</p>
+<p>2012년</p>
 </td>
 </tbody>
 </table>

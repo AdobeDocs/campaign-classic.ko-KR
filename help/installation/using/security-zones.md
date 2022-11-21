@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 4fd69aa28c2e9325f4738ec571a6632c42ec26b8
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1464'
 ht-degree: 1%
 
 ---
@@ -219,7 +219,7 @@ Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소는 **`<s
 
 
 
-## 추천
+## 권장 사항
 
 * 하위 네트워크에서 역방향 프록시가 허용되지 않는지 확인하십시오. 그렇다면, **모두** 트래픽이 이 로컬 IP에서 오는 것으로 검색되므로 신뢰할 수 있습니다.
 
@@ -236,13 +236,25 @@ Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소는 **`<s
 
 * 설문 조사, webApps 및 보고서를 만들어야 하는 마케팅 사용자/관리자가 사용하는 IP에서만 allowDebug를 true로 설정합니다. 이 플래그를 사용하면 이러한 IP가 릴레이 규칙을 표시하고 디버깅할 수 있습니다.
 
+   * allowDebug가 false로 설정되면 출력은 다음과 같습니다.
+
+      ```
+      <redir status='OK' date='...' sourceIP='...'/>
+      ```
+
+   * allowDebug가 true로 설정되면 출력은 다음과 같습니다.
+
+      ```
+      <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
+      ```
+
 * allowEmptyPassword, allowUserPassword, allowSQLInjection을 true로 설정하지 마십시오. 다음 속성은 v5 및 v6.0에서 원활하게 마이그레이션할 수 있도록 하기 위해서만 해당됩니다.
 
    * **allowEmptyPassword** 연산자에 빈 암호를 지정할 수 있습니다. 이러한 경우 모든 운영자에게 마감일이 있는 암호를 설정하도록 요청할 것을 알립니다. 이 기한이 지나면 이 속성을 false로 변경합니다.
 
    * **allowUserPassword** 연산자가 자격 증명을 매개 변수로 보낼 수 있도록(apache/IIS/프록시로 기록됨). 이 기능은 이전에는 API 사용을 간소화하는 데 사용되었습니다. Cookbook(또는 사양)에서 일부 타사 애플리케이션에서 이 기능을 사용하는지 확인할 수 있습니다. 그런 경우 API 사용 방법을 변경하고 가능한 한 빨리 이 기능을 제거하도록 알려주어야 합니다.
 
-   * **allowSQLInjection** 이전 구문을 사용하여 SQL 주입을 수행할 수 있습니다. 가능한 한 빨리 다음에 설명된 수정 사항을 수행합니다. [이 페이지](../../migration/using/general-configurations.md) 이 속성을 false로 설정할 수 있습니다. /nl/jsp/ping.jsp?zone=true 를 사용하여 보안 영역 구성을 확인할 수 있습니다. 이 페이지에는 현재 IP에 대한 보안 조치의 활성 상태(이러한 보안 플래그로 계산됨)가 표시됩니다.
+   * **allowSQLInjection** 이전 구문을 사용하여 SQL 주입을 수행할 수 있습니다. 이 속성은 false로 설정해야 합니다. /nl/jsp/ping.jsp?zone=true 를 사용하여 보안 영역 구성을 확인할 수 있습니다. 이 페이지에는 현재 IP에 대한 보안 조치의 활성 상태(이러한 보안 플래그로 계산됨)가 표시됩니다.
 
 * HttpOnly cookie/useSecurityToken: 참조 **sessionTokenOnly** 플래그.
 

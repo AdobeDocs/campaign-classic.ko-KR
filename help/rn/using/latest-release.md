@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 52e9925932e9b802a92f317b0950a1e933499b56
+source-git-commit: f94d7e2cddd75d50cb21973a62ec223f2344edf1
 workflow-type: tm+mt
-source-wordcount: '2008'
-ht-degree: 100%
+source-wordcount: '2654'
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,67 @@ ht-degree: 100%
 
 이 페이지에서는 **최신 Campaign v7 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다. 모든 새 빌드는 색상으로 상태가 표시됩니다. [이 페이지](rn-overview.md)에서 Campaign Classic v7 빌드 상태에 대해 자세히 알아보십시오.
 
-## ![](assets/do-not-localize/limited_2.png) 릴리스 7.3.1 - 빌드 9352 {#release-7-3-1}
+## ![](assets/do-not-localize/green_2.png) 릴리스 7.3.2 - 빌드 9356 {#release-7-3-2}
+
+_2022년 11월 21일_
+
+**호환성 업데이트**
+
+* Microsoft Internet Explorer 11의 수명이 종료됨에 따라 클라이언트 콘솔에서 대시보드에 대한 HTML 렌더링 엔진이 이제 Edge Chromium을 사용합니다. (NEO-20741)
+
+<!--
+**Deprecated features**
+
+* Social Marketing with Facebook is now deprecated. You can still use Twitter integration to post on social media, or work with Adobe to create a custom channel.
+
+* ACS Connector (prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.
+
+Learn more in the [Deprecated and removed features page](deprecated-features.md).
+
+-->
+
+**개선 사항**
+
+* 이제 Google BigQuery 커넥터가 부울 필드를 완전히 지원합니다. (NEO-49181)
+* 이제 다음 위치에서 IMS 쿠키 유효 기간을 구성할 수 있습니다 `Configuration for the redirection service` serverConf.xml 파일의 섹션을 참조하십시오. 이는 다음 쿠키에 적용됩니다. `uuid230`, `nllastdelid` 및 `AMCV_` (NEO-42541)
+* 이제 IP를 설정하여 &quot;/r/test&quot; 요청에서 숨길 수 있습니다 `showSourceIP` serverConf.xml 파일의 리디렉션 노드에서 false로 설정됩니다. [자세한 내용](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
+
+**기타 변경 사항**
+
+* 웹 로그가 향상되었습니다. 이제 logonEscalation 경고가 관리자 권한이 있는 사용자만 표시됩니다. (NEO-47167)
+* 오류를 방지하려면 **Heatmap 서비스 워크플로우에 대한 데이터 수집** (collectDataHeatMapService)는 이제 기본적으로 중지됩니다. (NEO-33959)
+* 캠페인 대시보드의 CPU 사용을 최적화하기 위해 다양한 개선 사항이 구현되었습니다. (NEO-46417)
+* 충돌을 방지하기 위해 loadLibraryDebug JS 메서드가 제거되었습니다. (NEO-46968)
+* log4j 라이브러리에 대한 나머지 참조는 Windows의 Campaign 설치에서 제거되었습니다. (NEO-44851)
+
+**패치**
+
+* 를 사용할 수 없는 문제를 수정했습니다 **선택한 행 병합** 워크플로우 옵션. (NEO-48488)
+* Adobe Analytics 도구에서 **성공** Adobe Campaign Enhanced MTA를 사용할 때 게재 표시기가 올바르게 업데이트되지 않습니다. (NEO-50462)
+* 이메일 게재에서 콘텐츠 승인을 재설정할 때 다시 승인하지 못하는 문제를 해결했습니다. (NEO-44259)
+* 다음을 수행할 수 없는 문제를 해결했습니다. **배달 승인** 단추가 표시되지 않습니다. (NEO-47547)
+* 큰 HTML 코드에 대해 발생할 수 있는 게재 HTML 탭의 성능 문제를 해결했습니다. (NEO-47440)
+* FeatureFlag_GZIP_Compression 옵션이 활성화된 경우 MID 인스턴스에서 게재 로그 상태 업데이트에 영향을 주는 문제를 수정했습니다. (NEO-49183)
+* 토큰 기반 인증을 사용하는 동안 실행 인스턴스에서 iOS 모바일 앱 알림을 보내지 못하는 문제를 해결했습니다. (NEO-45961)
+* Adobe Analytics 도구에서 **게재 능력을 위해 새로 고침** 동기화할 브로드로그가 너무 많으면 워크플로우가 중단됨(deliverabilityUpdate)입니다. (NEO-48287)
+* 메시지 센터 동기화 워크플로우(mcSynch)를 차단한 이벤트 유형 문제를 수정했습니다.
+* 를 추가할 때 오류가 발생할 수 있는 문제를 수정했습니다. **열었던 수신자** 지표(estimatedRecipientOpen)를 클릭합니다. **쿼리** 워크플로우 활동. (NEO-46665)
+* Adobe Analytics 도구에서 **과금** 같은 인스턴스에 메시지 센터 제어 및 실행 패키지를 설치할 때 실패한 워크플로입니다. (NEO-47674)
+* Adobe Analytics 도구에서 **과금** 워크플로우에서 정수 대신 문자열로 기본 키가 정의된 테이블을 사용할 때 실패했습니다. (NEO-46254)
+* 워크플로우 이름이 너무 길 때 Heatmap 필터 문제를 수정했습니다. (NEO-46301)
+* 데이터 보강 중에 &quot;0 또는 1 카디널리티 단순 조인&quot;을 사용할 때 레코드가 삭제되는 Snowflake FDA 커넥터에서 7.3.1에 도입된 문제를 수정했습니다. (NEO-48737)
+* 에서 정렬 매개 변수를 사용할 때 Snowflake FFDA 문제를 해결했습니다. **분할** 워크플로우 활동. (NEO-45899)
+* 외부 계정 구성을 저장할 수 없는 문제가 해결되었습니다. 이제 파서 기능이 있는 커넥터(Snowflake 및 Google BigQuery)의 경우 연결 테스트 후 외부 계정이 자동으로 저장됩니다. (NEO-47636)
+* 에 시간 데이터 유형을 삽입할 수 없는 문제를 해결했습니다 **데이터 업데이트** MSSQL에 대한 워크플로 활동입니다. (NEO-47763)
+* 엔진의 시간대가 설정되지 않은 경우(MSSQL에만 해당) MTA 프로세스가 충돌하던 문제를 해결했습니다. (NEO-46619)
+* 이미지 노드(img)에 개인화 필드가 있는 URL이 포함된 경우 HTML 파일 가져오기 문제를 해결했습니다. (NEO-48396)
+* 가 있는 인스턴스에 연결하려고 할 때 HTTP 500 오류가 발생하는 문제를 해결했습니다. `limit` serverConf.xml 파일에 노드가 구성되지 않았습니다.
+* 과 같은 특정 함수를 사용할 때 &quot;문자 집합 불일치&quot; 오류가 발생할 수 있는 문제를 수정했습니다 `to_nclob` NChar가 활성화되지 않은 Oracle 유니코드 데이터베이스를 사용하는 경우입니다. (NEO-49361)
+* nmsDeliveryMapping 폴더에 대한 읽기 액세스 권한이 있는 사용자가 캠페인 또는 워크플로우를 실행하려고 할 때 오류가 발생하는 문제를 해결했습니다. (NEO-48230)
+* Adobe Analytics 도구에서 `JSPContext.sqlExecWithOneParam` 함수 위에 있어야 합니다. (NEO-50066)
+* 다양한 리디렉션 오류가 수정되었습니다. (NEO-50030)
+
+## ![](assets/do-not-localize/orange_2.png) 릴리스 7.3.1 - 빌드 9352 {#release-7-3-1}
 
 _2022년 7월 1일_
 

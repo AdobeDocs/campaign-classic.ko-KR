@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: acbb2144906841a6da59314b84b3faf5863cf9d6
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '7957'
-ht-degree: 9%
+source-wordcount: '7979'
+ht-degree: 19%
 
 ---
 
@@ -1104,7 +1104,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> 시작 매개 변수<br /> </td> 
+   <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1134,7 +1134,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID입니다.<br /> </td> 
+   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1158,7 +1158,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간입니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1170,7 +1170,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
+   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 처음 시작되고 마지막으로 중지됩니다. 따라서 syslogd 모듈의 우선 순위는 0이어야 합니다.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1223,7 +1223,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> 시작 매개 변수<br /> </td> 
+   <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1265,7 +1265,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID입니다.<br /> </td> 
+   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1319,7 +1319,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간입니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1331,7 +1331,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
+   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 처음 시작되고 마지막으로 중지됩니다. 따라서 syslogd 모듈의 우선 순위는 0이어야 합니다.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1385,7 +1385,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> 시작 매개 변수<br /> </td> 
+   <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1403,7 +1403,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID입니다<br /> </td> 
+   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1433,13 +1433,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간입니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
+   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 처음 시작되고 마지막으로 중지됩니다. 따라서 syslogd 모듈의 우선 순위는 0이어야 합니다.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1474,7 +1474,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> 시작 매개 변수<br /> </td> 
+   <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '-tracefilter:nlmta' <br /> </td> 
   </tr> 
@@ -1510,7 +1510,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID입니다.<br /> </td> 
+   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1570,7 +1570,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간입니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1588,7 +1588,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
+   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 처음 시작되고 마지막으로 중지됩니다. 따라서 syslogd 모듈의 우선 순위는 0이어야 합니다.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1736,7 +1736,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 
-   <td> 배달할 작업의 데이터베이스 폴링 빈도입니다. 이 값은 데이터베이스 폴링 빈도(초)를 나타냅니다. 전달을 기다리는 작업 목록을 얻기 위해 MTA는 정기적으로 데이터베이스를 폴링합니다. 작업 대기 시간이 없으면 이 값으로 폴링 기간이 정의됩니다. 그렇지 않으면 작업이 하위 서버로 전송되면 이 폴링 기간은 자동으로 1초로 축소되어 하위 서버를 다시 사용할 수 있게 되는 즉시 새 작업을 다시 처리할 수 있습니다. 이는 하위 서버를 다시 사용할 수 있을 때까지 데이터베이스 쿼리가 매 초마다 수행됨을 의미하지 않습니다. 실제로 하나 이상의 하위 서버를 사용할 수 있는 경우에만 데이터베이스 액세스가 수행됩니다.<br /> </td> 
+   <td> 게재할 작업의 데이터베이스 폴링 빈도. 해당 값은 데이터베이스 폴링 빈도(단위: 초)를 보여 줍니다. 게재 대기 중인 작업 목록을 얻으려면 MTA는 정기적으로 데이터베이스를 폴링합니다. 대기 중인 작업이 없는 경우 폴링 기간은 이 값에 따라 정의됩니다. 작업이 하위 서버로 전송되면 새 작업이 빠른 시일 내에 다시 처리될 수 있도록(예: 하위 서버를 다시 사용하는 대로) 이 폴링 기간은 자동으로 1초까지 줄어들게 됩니다. 즉, 하위 서버를 다시 사용할 때까지 데이터베이스 쿼리를 수행할 수 없습니다. 실제로, 하나 이상의 하위 서버를 사용하는 경우에만 데이터베이스에 액세스할 수 있습니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
@@ -1754,7 +1754,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxSpareServers<br /> </td> 
-   <td> 최대 자식 서버 수입니다. 실행 중인 최대 서버 수를 나타냅니다. 서버 메모리 리소스와 최적의 호환으로 이 수를 제한하는 것이 좋습니다. 이는 배달 중에 확인할 수 있습니다. 사용된 메모리는 사용 가능한 실제 메모리의 3분의 1을 초과할 수 없습니다. 그렇지 않으면 스왑 기능이 사용됩니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">MTA 하위 프로세스</a>.<br /> </td> 
+   <td> 최대 자식 서버 수입니다. 실행 중인 최대 서버 수를 나타냅니다. 서버 메모리 리소스와 호환되는 이 수를 제한하는 것이 좋습니다. 게재 중에 이를 확인할 수 있습니다. 사용된 메모리는 사용 가능한 실제 메모리의 3분의 1을 초과할 수 없습니다. 그렇지 않을 경우 스왑이 사용됩니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">MTA 하위 프로세스</a>.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 2개<br /> </td> 
   </tr> 
@@ -1833,7 +1833,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> soapConnectorTimeoutSec<br /> </td> 
-   <td> 배달 커넥터에 대한 SOAP 연결이 중단된 후 시간 초과(초)입니다.<br /> </td> 
+   <td> 시간 초과(단위: 초), 이후 게재 커넥터의 SOAP 연결이 중단됩니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 600년<br /> </td> 
   </tr> 
@@ -1866,7 +1866,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> enableTLS<br /> </td> 
-   <td> 원격 서버에서 지원하는 경우 안전 모드(STARTTLS/SMTPS)에서 전자 메일 게재를 활성화합니다.<br /> </td> 
+   <td> 원격 서버에서 지원하는 경우 안전 모드(STARTTLS/SMTPS)에서 이메일 게재를 활성화합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1884,7 +1884,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxSessionsPerChild<br /> </td> 
-   <td> 하위 서버별 최대 SMTP 세션 수입니다. 메시지를 배달하려면 MTA가 수신자 MTA와 SMTP 연결을 초기화합니다. 주어진 자식 서버에 대한 동시 및 활성 SMTP 세션의 최대 수는 이 값으로 제한됩니다. 이 값을 maxSpareServers에 곱하면 주어진 자식 서버에서 동시에 처리할 수 있는 최대 메시지 수를 얻을 수 있습니다.<br /> </td> 
+   <td> 하위 서버별 최대 SMTP 세션 수입니다. 메시지 게재를 위해 MTA는 수신자 MTA로 SMTP 연결을 초기화합니다. 해당 값으로 특정 하위 서버의 최대 동시 및 활성 SMTP 세션 수를 제한합니다. maxSpareServers로 해당 값을 곱하면 특정 하위 서버에서 동시에 처리할 수 있는 최대 메시지 수를 얻습니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1000년<br /> </td> 
   </tr> 
@@ -2043,7 +2043,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> 시작 매개 변수<br /> </td> 
+   <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2091,7 +2091,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID입니다.<br /> </td> 
+   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2127,7 +2127,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간입니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2157,7 +2157,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
+   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 처음 시작되고 마지막으로 중지됩니다. 따라서 syslogd 모듈의 우선 순위는 0이어야 합니다.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2344,7 +2344,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> 시작 매개 변수<br /> </td> 
+   <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2368,7 +2368,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID입니다.<br /> </td> 
+   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2398,7 +2398,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간입니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2410,7 +2410,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
+   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 처음 시작되고 마지막으로 중지됩니다. 따라서 syslogd 모듈의 우선 순위는 0이어야 합니다.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2468,7 +2468,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> 시작 매개 변수<br /> </td> 
+   <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2480,7 +2480,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID입니다.<br /> </td> 
+   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2504,13 +2504,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간입니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
+   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 처음 시작되고 마지막으로 중지됩니다. 따라서 syslogd 모듈의 우선 순위는 0이어야 합니다.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2533,7 +2533,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> 시작 매개 변수<br /> </td> 
+   <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2545,7 +2545,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID입니다.<br /> </td> 
+   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2575,13 +2575,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간입니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
+   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 처음 시작되고 마지막으로 중지됩니다. 따라서 syslogd 모듈의 우선 순위는 0이어야 합니다.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2604,7 +2604,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> 시작 매개 변수<br /> </td> 
+   <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2652,7 +2652,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID입니다 <br /> </td> 
+   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2688,13 +2688,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간입니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
+   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 처음 시작되고 마지막으로 중지됩니다. 따라서 syslogd 모듈의 우선 순위는 0이어야 합니다.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2735,7 +2735,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> args<br /> </td> 
-   <td> 시작 매개 변수<br /> </td> 
+   <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2747,7 +2747,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID입니다 <br /> </td> 
+   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2783,7 +2783,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간입니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2795,7 +2795,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
+   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 처음 시작되고 마지막으로 중지됩니다. 따라서 syslogd 모듈의 우선 순위는 0이어야 합니다.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2844,7 +2844,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> 시작 매개 변수<br /> </td> 
+   <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2868,7 +2868,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID입니다.<br /> </td> 
+   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2898,13 +2898,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간입니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
+   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 처음 시작되고 마지막으로 중지됩니다. 따라서 syslogd 모듈의 우선 순위는 0이어야 합니다.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -3321,6 +3321,12 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 100년<br /> </td> 
   </tr> 
   <tr> 
+   <td> showSourceIP<br /> </td> 
+   <td> false로 설정하면 r/test에서 반환한 응답의 sourceIP 값이 빈 문자열입니다. <br /> </td> 
+   <td> 부울<br /> </td> 
+   <td> true<br /> </td> 
+  </tr> 
+  <tr> 
    <td> startRedirection<br /> </td> 
    <td> 리디렉션 서비스를 시작합니다.<br /> </td> 
    <td> 부울<br /> </td> 
@@ -3423,13 +3429,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> 친화성<br /> </td> 
-   <td> 친화성<br /> </td> 
+   <td> 선호도<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> args<br /> </td> 
-   <td> 시작 매개 변수<br /> </td> 
+   <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3447,7 +3453,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID입니다.<br /> </td> 
+   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3471,13 +3477,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간입니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 먼저 시작되고 마지막으로 중지되었습니다. 따라서 syslogd 모듈에는 우선 순위 0이 있어야 합니다.<br /> </td> 
+   <td> 시작 시 우선 순위. 우선 순위가 낮은 모듈이 처음 시작되고 마지막으로 중지됩니다. 따라서 syslogd 모듈의 우선 순위는 0이어야 합니다.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 

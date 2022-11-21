@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: migration-overview
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
-source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '452'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ![](../../assets/v7-only.svg)
 
-이 문서에서는 Adobe Campaign Classic v7로 마이그레이션하기 위한 사전 요구 사항과 단계를 자세히 설명합니다. 단계 및 선택적 설정은 구성에 따라 다릅니다. [자세히 알아보기](../../migration/using/general-configurations.md)
+이 문서에서는 Adobe Campaign Classic v7로 마이그레이션하기 위한 사전 요구 사항과 단계를 자세히 설명합니다. 단계 및 선택적 설정은 구성에 따라 다릅니다.
 
 마이그레이션 프로세스는 신중하게 수행되어야 하며, 그 영향은 사전에 완전히 검토되어야 하며 절차는 엄격하게 수행되어야 합니다. 전문가 사용자만 수행해야 합니다. 연락을 취하는 것이 좋습니다 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 마이그레이션 절차를 시작하기 전에
 
@@ -28,14 +28,14 @@ ht-degree: 3%
 >Adobe Campaign v7에 포함된 새로운 기능 및 개선 사항은 [릴리스 노트](../../rn/using/latest-release.md).
 
 
-## 필수 구성 요소
+## 전제 조건
 
 * 마이그레이션 프로세스는 전문가 사용자가 수행해야 합니다. Adobe Campaign의 데이터베이스 전문가, 시스템 관리자 및 애플리케이션 개발자의 도움을 받아야 합니다.
 * 마이그레이션을 시작하기 전에 사용하는 시스템 및 시스템 구성 요소가 v7과 호환되는지 확인하십시오. [자세히 알아보기](../../rn/using/compatibility-matrix.md)
 * Adobe Campaign 클라우드 메시징(중간 소싱 배포)을 사용하는 경우 시작하기 전에 Adobe 고객 지원 센터에 문의하십시오.
 * 마이그레이션 프로세스를 시작하기 전에 **반드시** 데이터를 백업합니다.
 * 마이그레이션 프로세스를 완료하는 데 며칠이 걸릴 수 있습니다.
-* Adobe Campaign v7는 이전 버전보다 더 안전한 버전입니다. 이는 데이터 손상 등의 문제를 방지하고 데이터베이스의 데이터 무결성을 유지하기 위한 구성 지침에 영향을 줍니다. 따라서 v5.11 및 v6.02에서 제공되는 특정 기능은 v7에서 더 이상 지원되지 않을 수 있으므로 마이그레이션 후 조정해야 합니다. 고객은 워크플로우를 포함한 모든 구성을 테스트할 책임이 있습니다.
+* Adobe Campaign v7는 이전 버전보다 더 안전한 버전입니다. 이는 데이터 손상 등의 문제를 방지하고 데이터베이스의 데이터 무결성을 유지하기 위한 구성 지침에 영향을 줍니다. 고객은 워크플로우를 포함한 모든 구성을 테스트할 책임이 있습니다.
 
 에서 더 많은 사전 요구 사항을 사용할 수 있습니다 [이 페이지](../../migration/using/before-starting-migration.md).
 

@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 8ea5a42e0539ea23c1d9940e3f38f2c90fdcc223
+source-git-commit: 0dd0b6f1aa69a6848a75e6299bd751de0bfddeb9
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2553'
 ht-degree: 99%
 
 ---
@@ -828,7 +828,6 @@ ht-degree: 99%
    + 마이그레이션 시작 {#migrating-to-adobe-campaign-7}
       + [Microsoft Windows 플랫폼 마이그레이션](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
       + [Linux 플랫폼 마이그레이션](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-      + [플랫폼 구성](migration/using/general-configurations.md)
    + [롤백 절차](migration/using/about-rollback.md)
 + 기술 노트 {#technotes}
    + [하드웨어 크기 조정 권장 사항](technotes/using/hardware-sizing.md)

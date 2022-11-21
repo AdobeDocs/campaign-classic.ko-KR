@@ -4,9 +4,9 @@ title: Adobe Campaign Classic에서 향상된 MTA를 사용한 S
 description: Adobe Campaign Enhanced MTA를 사용하여 전자 메일을 보내는 범위와 특성에 대해 알아봅니다
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 2d5166c355ee090639dcc52866252bae6beb81f6
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1999'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 4%
 
 이제 Adobe Campaign을 업그레이드하여 SparkPost의 상업용 이메일 MTA라는 MTA를 실행하는 새로운 MTA(Mail Transfer Agent)를 사용할 수 있습니다 **모멘텀**.
 
-모멘텀은 보다 스마트한 반송 처리 및 보낸 사람이 최적의 받은 편지함 배달률을 달성하고 유지하는 데 도움이 되는 자동화된 게재 기능 최적화 기능을 포함하는 혁신적이고 고성능 MTA 기술을 나타냅니다. <!--More than 37% of the world’s business email is sent using SparkPost’s MTA technology.-->
+모멘텀은 보다 스마트한 반송 처리 및 보낸 사람이 최적의 받은 편지함 배달률을 달성하고 유지하는 데 도움이 되는 자동화된 게재 기능 최적화 기능을 포함하는 혁신적이고 고성능 MTA 기술을 나타냅니다. <!--More than 37% of the world's business email is sent using SparkPost's MTA technology.-->
 
 **어떤 이점이 있습니까?**
 
@@ -59,7 +59,7 @@ No, there is no extra fee associated with the upgrade process to enable the use 
 
 * If you are new to Adobe Campaign Classic, you are already using the Enhanced MTA.
 
-* For Adobe Campaign Classic existing customers, we’ve implemented a phased rollout that covers all hosted or partially hosted (hybrid) instances. If you’re not already using it, we’ll be contacting you in the near future with the dates and details for upgrading your Adobe Campaign Classic instances to the Enhanced MTA.
+* For Adobe Campaign Classic existing customers, we've implemented a phased rollout that covers all hosted or partially hosted (hybrid) instances. If you're not already using it, we'll be contacting you in the near future with the dates and details for upgrading your Adobe Campaign Classic instances to the Enhanced MTA.
 -->
 
 ### 향상된 MTA로 업그레이드
@@ -141,6 +141,12 @@ Campaign 게재 처리량 그래프는 더 이상 이메일 수신자에게 처�
 >
 >사용 [이메일 피드백 서비스](#email-feedback-service) (EFS) 기능(현재 베타로 사용 가능), Campaign 게재 처리량 그래프는 전자 메일 수신자에 대한 처리량을 계속 표시합니다.
 
+### 다시 시도
+
+게재의 다시 시도 설정은 Campaign에서 더 이상 사용되지 않습니다. 소프트 바운스 다시 시도 및 그 사이의 시간은 메시지의 이메일 도메인에서 돌아오는 바운스 응답의 유형과 심각도를 기반으로 Enhanced MTA에 의해 결정됩니다.
+
+다시 시도하는 방법에 대한 자세한 내용은 [이 섹션](steps-sending-the-delivery.md#configuring-retries).
+
 ### 유효 기간
 
 Campaign 게재의 유효 기간 설정은 **3.5일 이하**. Campaign에서 3.5일 이상의 값을 정의하면 고려되지 않습니다.
@@ -215,9 +221,9 @@ DKIM에 대한 자세한 내용은 [Adobe 게재 가능성 모범 사례 안내�
 
 | 전송 프로세스의 단계 | KPI 요약 | 전송 로그 상태 |
 |--- |--- |--- |
-| 메시지가 Campaign에서 Enhanced MTA로 성공적으로 전달되었습니다 | **[!UICONTROL Success]** 백분율이 표시되지 않음(0%에서 시작) | 서비스 공급자가 고려함 |
+| 메시지가 Campaign에서 Enhanced MTA로 성공적으로 전달되었습니다 | **[!UICONTROL Success]** 백분율이 표시되지 않음(0%에서 시작) | 서비스 제공자의 고려 |
 | 하드 바운스 메시지가 향상된 MTA에서 다시 보고됩니다 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 실패 |
-| 소프트 바운스 메시지는 Enhanced MTA에서 다시 보고됩니다 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 서비스 공급자가 고려함 |
+| 소프트 바운스 메시지는 Enhanced MTA에서 다시 보고됩니다 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 서비스 제공자의 고려 |
 | 소프트 바운스 메시지 다시 시도 성공 | **[!UICONTROL Success]** 백분율이 그에 따라 증가함 | 전송됨 |
 | 소프트 바운스 메시지 다시 시도 실패 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 실패 |
 

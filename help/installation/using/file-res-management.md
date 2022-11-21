@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 1%
+source-wordcount: '638'
+ht-degree: 0%
 
 ---
 
@@ -30,6 +30,10 @@ ht-degree: 1%
 예: **uploadWhiteList=&quot;.&#42;.png,&#42;.jpg&quot;** 에서는 서버에서 PNG 및 JPG 형식을 업로드할 수 있습니다. 다른 형식은 허용되지 않습니다.
 
 웹 서버를 구성하여 중요한 파일이 업로드되지 않도록 할 수도 있습니다. [자세히 알아보기](web-server-configuration.md)
+
+>[!NOTE]
+>
+>다음 **uploadWhiteList** 속성은 Adobe Campaign 서버에서 업로드할 수 있는 파일 유형을 제한합니다. 그러나 게시 모드가 **추적 서버** 또는 **기타 Adobe Campaign 서버**, **uploadWhitelist** 또한 해당 서버에서 속성을 업데이트해야 합니다.
 
 ## 프록시 연결 구성 {#proxy-connection-configuration}
 

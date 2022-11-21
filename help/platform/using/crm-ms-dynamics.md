@@ -4,9 +4,9 @@ title: Campaign - Microsoft Dynamics CRM 커넥터
 description: Campaign과 Microsoft Dynamics 간 연결 방법 알아보기
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+source-git-commit: 1a2e6a0bc754a1236f64b35e99c1be08f1066f75
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1111'
 ht-degree: 3%
 
 ---
@@ -216,3 +216,4 @@ Microsoft Dynamics 365의 경우 지원/지원되지 않는 속성 유형이 아
 | 관련 | 아니요 |
 | PartyList | 아니요 |
 | ManagedProperty | 아니요 |
+| 다중 선택 옵션 집합 | 아니요 |

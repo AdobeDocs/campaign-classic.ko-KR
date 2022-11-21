@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
-source-git-commit: 63aca25a8d1ae24ef83849b35a44d1b37cfa5e96
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,14 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
    /etc/init.d/nlserver6 stop
    ```
 
-   v5.11에서 마이그레이션하는 경우 다음 명령을 실행하십시오.
+<!--
+   If you are migrating from v5.11, run the following command:
 
    ```
    /etc/init.d/nlserver5 stop
    ```
+
+-->
 
 1. Adobe Campaign 서비스가 각 서버에서 중지되었는지 확인합니다.
 
@@ -71,12 +74,12 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 
 ## 데이터베이스 백업 {#back-up-the-database}
 
-절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
+<!--
 
-### Adobe Campaign v5.11용 {#migrating-from-adobe-campaign-v5-11}
+### For Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5-11}
 
-1. Adobe Campaign 데이터베이스를 백업합니다.
-1. 다음으로 로그인 **네올란** 그리고 **nl5** 다음 명령을 사용하는 디렉토리:
+1. Make a backup of the Adobe Campaign database. 
+1. Log in as **neolane** and make a backup of the **nl5** directory using the following command:
 
    ```
    su - neolane
@@ -85,9 +88,9 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 
    >[!IMPORTANT]
    >
-   >예방 조치로, **nl5.back** 폴더를 만든 후 서버가 아닌 보안 위치에 저장합니다.
+   >As a precaution, we recommend that you zip the **nl5.back** folder and save it to a secure location other than the server.
 
-1. 편집 **config-`<instance name>`.xml** ( **nl5.back** 폴더)로 이동하는 경우 **mta**, **wfserver**, **stat** 등. 서비스가 자동으로 시작됩니다. 예를 들어, **autoStart** with **_autoStart** (계속) **네올란**).
+1. Edit the **config-`<instance name>`.xml** (in the **nl5.back** folder), to prevent the **mta**, **wfserver**, **stat** etc. services from starting automatically. For instance, replace **autoStart** with **_autoStart** (still as **neolane**).
 
    ```
    <?xml version='1.0'?>
@@ -108,10 +111,14 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
    </serverconf>
    ```
 
-### Adobe Campaign v6.02의 경우 {#migrating-from-adobe-campaign-v6-02}
+-->
 
-1. Adobe Campaign 데이터베이스를 백업합니다.
-1. 다음으로 로그인 **네올란** 그리고 **nl6** 다음 명령을 사용하는 디렉토리:
+<!--
+
+### For Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6-02}
+
+1. Make a backup of the Adobe Campaign database. 
+1. Log in as **neolane** and make a backup of the **nl6** directory using the following command:
 
    ```
    su - neolane
@@ -120,9 +127,9 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 
    >[!IMPORTANT]
    >
-   >예방 조치로, **nl6.back** 폴더를 만든 후 서버가 아닌 보안 위치에 저장합니다.
+   >As a precaution, we recommend that you zip the **nl6.back** folder and save it to a secure location other than the server.
 
-1. 편집 **config-`<instance name>`.xml** ( **nl6.back** 폴더)를 클릭하여 **mta**, **wfserver**, **stat**&#x200B;등 서비스가 자동으로 시작됩니다. 예를 들어, **autoStart** with **_autoStart** (계속) **Adobe Campaign**).
+1. Edit the **config-`<instance name>`.xml** (in the **nl6.back** folder) to prevent the **mta**, **wfserver**, **stat**, etc. services from starting automatically. For instance, replace **autoStart** with **_autoStart** (still as **Adobe Campaign**).
 
    ```
    <?xml version='1.0'?>
@@ -143,7 +150,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
    </serverconf>
    ```
 
-### Adobe Campaign v6.1의 경우 {#migrating-from-adobe-campaign-v6-1}
+-->
 
 1. Adobe Campaign 데이터베이스를 백업합니다.
 1. 다음으로 로그인 **네올란** 그리고 **nl6** 다음 명령을 사용하는 디렉토리:
@@ -159,49 +166,49 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 
 ## Adobe Campaign 이전 버전 패키지 제거 {#uninstalling-adobe-campaign-previous-version-packages}
 
-절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
+<!--
 
-### v5 패키지의 경우 {#uninstalling-adobe-campaign-v5-packages}
+### For v5 packages {#uninstalling-adobe-campaign-v5-packages}
 
-1. 다음으로 로그인 **루트**.
-1. 다음 명령을 사용하여 설치된 Adobe Campaign 패키지를 식별합니다.
+1. Log in as **root**.
+1. Identify the Adobe Campaign packages installed using the following command.
 
-   * in **데비안**:
+    * In **Debian**:
 
-      ```
+      ```    
       dpkg -l | grep nl
-      ```
+      ```    
+    
+      The list of installed packages is displayed:
 
-      설치된 패키지 목록이 표시됩니다.
-
-      ```
+      ```    
       ii  nlserver5                       5762                     nlserver5-5762
       ii  nlthirdparty5                   5660                     nlthirdparty5-5660
       ```
 
-   * in **빨간색 모자**:
+    * In **Red Hat**:
 
-      ```
+      ```    
       rpm -qa | grep nl
       ```
 
-1. Adobe Campaign v5 패키지를 제거합니다.
+1. Uninstall Adobe Campaign v5 packages.
 
-   * in **데비안**:
+    * In **Debian**:
 
-      ```
+      ```    
       dpkg --purge nlserver5 nlthirdparty5
       ```
 
-   * in **빨간색 모자**:
+    * In **Red Hat**:
 
-      ```
+      ```    
       rprm -ev nlserver5 nlthirdparty5
       ```
 
-### v6 패키지의 경우 {#uninstalling-adobe-campaign-v6-packages}
+-->
 
-이 섹션에서는 Adobe Campaign v6.02 또는 v6.1 패키지를 제거하는 방법을 보여줍니다.
+이 섹션에서는 Adobe Campaign v6.1 패키지를 제거하는 방법을 보여줍니다.
 
 1. 다음으로 로그인 **루트**.
 1. 다음 명령을 사용하여 설치된 Adobe Campaign 패키지를 식별합니다.
@@ -241,41 +248,44 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 
 ## Adobe Campaign v7 배포 {#deploying-adobe-campaign-v7}
 
-절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
+v7를 배포하는 절차는 다음과 같습니다.
 
-### Adobe Campaign v5.11에서 {#migrating-from-adobe-campaign-v5_11-1}
+<!--
 
-Adobe Campaign 배포에는 두 단계가 있습니다.
+### From Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5_11-1}
 
-* Adobe Campaign v7 패키지 설치: 이 작업은 각 서버에서 수행해야 합니다.
-* 업그레이드 후: 이 명령은 각 인스턴스에서 시작해야 합니다.
+Deploying Adobe Campaign involves two stages:
 
-Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
+* Installing Adobe Campaign v7 packages: this operation must be performed on each server.
+* The post upgrade: this command must be started on each instance.
 
-1. 다음 명령을 사용하여 최신 Adobe Campaign v7 패키지를 설치합니다.
+To deploy Adobe Campaign, apply the following steps:
 
-   * in **데비안**:
+1. Install the most recent Adobe Campaign v7 packages using the following command:
 
-      ```
+    * In **Debian**:
+
+      ```    
       dpkg -i nlserver6-XXXX-linux-2.6-intel.deb
       ```
 
-   * in **빨간색 모자**:
+    * In **Red Hat**:
 
-      ```
+      ```    
       rpm -Uvh nlserver6-XXXX-0.x86_64.rpm
       ```
+
    >[!IMPORTANT]
    >
-   >다음 단계로 이동하기 전에 패키지를 제대로 설치해야 합니다.
+   >You must install the packages successfully before going on to the next step.
 
    >[!NOTE]
    >
-   >v5.11에서 마이그레이션할 때 Adobe Campaign은 **/usr/local/neolane/nl6/** 기본적으로 디렉토리.
+   >When migrating from v5.11, Adobe Campaign is installed in the **/usr/local/neolane/nl6/** directory by default.
    >
-   >패키지가 설치되면 다음 메시지가 표시됩니다. **&#39;WdbcTimeZone&#39; 옵션이 없습니다.**. 이는 정상적인 현상입니다.
+   >Once the packages are installed, the following message is displayed: **'WdbcTimeZone' option is missing**. This is normal.
 
-1. 클라이언트 콘솔 설치 프로그램을 사용 가능하게 하려면 Adobe Campaign 설치 디렉토리에 복사합니다.
+1. To make the client console installation program available, copy it into the Adobe Campaign installation directory:
 
    ```
    cp setup-client-7.0.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
@@ -283,9 +293,9 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >Linux에서 Adobe Campaign을 설치하는 방법에 대한 자세한 내용은 [이 섹션](../../installation/using/installing-campaign-standard-packages.md).
+   >For more on how to install Adobe Campaign in Linux, refer to [this section](../../installation/using/installing-campaign-standard-packages.md).
 
-1. 수정 **.bashrd** 일치하는 파일 **네올란** 사용자. 다음으로 로그온 **네올란** 다음 명령을 실행합니다.
+1. Modify the **.bashrd** file which matches the **neolane** user. Log on as **neolane** and run the following command:
 
    ```
    su - neolane
@@ -294,11 +304,11 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >으로 로그인하는 경우 **네올란**, 다음 메시지가 표시됩니다. **nl5/env.sh : 해당 파일 또는 디렉터리가 없습니다.**. 이는 정상적인 현상입니다.
+   >When you log in as **neolane**, the following message is displayed: **nl5/env.sh : No such file or directory**. This is normal.
 
-   파일의 끝 부분에서 **nl5/env.sh** with **nl6/env.sh**.
+   At the end of the file, replace **nl5/env.sh** with **nl6/env.sh**.
 
-1. 다음으로 로그인 **루트** 다음 명령을 사용하여 인스턴스를 준비합니다.
+1. Log in as **root** and prepare the instance using the following commands:
 
    ```
    /etc/init.d/nlserver6 start   
@@ -312,13 +322,13 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >이러한 명령을 사용하여 Adobe Campaign v6 내부 파일 시스템을 만들 수 있습니다. **conf** 디렉토리( **config-default.xml** 및 **serverConf.xml** 파일), **var** 디렉토리.
+   >These commands let you create the Adobe Campaign v6 internal files system: **conf** directory (with the **config-default.xml** and **serverConf.xml** files), **var** directory.
 
-1. 로 이동합니다. **nl5.back** 백업 폴더 및 각 인스턴스의 구성 파일과 하위 폴더를 복사(덮어쓰기)합니다. 다음으로 로그인 **네올란** 다음 명령을 실행합니다.
+1. Go to the **nl5.back** backup folder and copy (overwrite) the configuration files and sub-folders of each instance. Log in as **neolane** and run the following command:
 
    >[!IMPORTANT]
    >
-   >아래 첫 번째 명령에 대해 **config-default.xml** 파일.
+   >For the first command below, do not copy the **config-default.xml** file.
 
    ```
    su - neolane
@@ -329,13 +339,13 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
    cp -r nl5.back/var/* nl6/var/
    ```
 
-1. Adobe Campaign v7에서 **serverConf.xml** 및 **config-default.xml** 파일에서 Adobe Campaign v5에 대해 지정한 특정 구성을 적용합니다. 대상 **serverConf.xml** 파일에서 **nl5/conf/serverConf.xml.diff** 파일.
+1. In the Adobe Campaign v7 **serverConf.xml** and **config-default.xml** files, apply the specific configurations that you had for Adobe Campaign v5. For the **serverConf.xml** file, use the **nl5/conf/serverConf.xml.diff** file.
 
    >[!NOTE]
    >
-   >Adobe Campaign v5에서 Adobe Campaign v7로 구성을 보고하는 경우, 실제 디렉토리에 대한 경로가 Adobe Campaign v5가 아니라 Adobe Campaign v7로 연결되는지 확인하십시오.
+   >When reporting configurations from Adobe Campaign v5 to Adobe Campaign v7, make sure the paths to the physical directories lead to Adobe Campaign v7 and not Adobe Campaign v5.
 
-1. 마이그레이션은 일반 설치가 아니므로 를 강제로 다시 시작해야 합니다 **trackinglogd** 서비스. 이렇게 하려면 **nl6/conf/config-default.xml** 파일 및 **trackinglogd** 서비스가 활성화됨(추적/리디렉션 서버에서만):
+1. Since migration is not a generic installation, you need to force the re-starting of the **trackinglogd** service. To do this, open the **nl6/conf/config-default.xml** file and make sure the **trackinglogd** service is activated (only on the tracking/redirection server(s)):
 
    ```
    <trackinglogd autoStart="true"/>
@@ -343,15 +353,15 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
    >[!IMPORTANT]
    >
-   >만약 **trackinglogd** 서비스가 추적 서버에서 시작되지 않았으므로 추적 정보가 전달되지 않습니다.
+   >If the **trackinglogd** service is not started on the tracking server, no tracking information will be forwarded.
 
-1. 다음 명령을 사용하여 Adobe Campaign v7 구성을 다시 로드합니다.
+1. Reload the Adobe Campaign v7 configuration using the following command:
 
    ```
    nlserver config -reload
    ```
 
-1. 다음 명령을 사용하여 업그레이드 후 프로세스를 시작합니다. **네올란**):
+1. Start the postupgrade process using the following command (still as **neolane**):
 
    ```
    su - neolane
@@ -360,47 +370,48 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
    >[!IMPORTANT]
    >
-   >업그레이드 후 를 사용하여 참조로 사용할 시간대를 지정해야 합니다 **-timezone** 선택 사항). 이 경우 유럽/파리 시간대 를 사용합니다 **-timezone: &quot;유럽/파리&quot;**.
+   >You must specify which timezone to use as a reference during the postupgrade (using the **-timezone** option). In this case, we are using the Europe/Paris timezone **-timezone: "Europe/Paris"**.
 
    >[!NOTE]
    >
-   >기본 시간대를 &quot;다중 시간대&quot;로 업그레이드하는 것이 좋습니다. 시간대 옵션에 대한 자세한 내용은 [시간대](../../migration/using/general-configurations.md#time-zones) 섹션을 참조하십시오.
+   >We strongly recommend upgrading your base to "multi timezone". For further information about timezone options, refer to the [Time zones](../../migration/using/general-configurations.md#time-zones) section.
 
 >[!IMPORTANT]
 >
->아직 Adobe Campaign 서비스를 시작하지 마십시오. 여전히 Apache에서 변경 작업을 수행해야 합니다.
+>Do not start Adobe Campaign services yet: changes still need to be made in Apache.
 
-### Adobe Campaign v6.02에서 {#migrating-from-adobe-campaign-v6_02-1}
+### From Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6_02-1}
 
-Adobe Campaign 배포에는 두 단계가 있습니다.
+Deploying Adobe Campaign involves two stages:
 
-* Adobe Campaign v7 패키지 설치: 이 작업은 각 서버에서 수행해야 합니다.
-* 업그레이드 후: 이 명령은 각 인스턴스에서 시작해야 합니다.
+* Installing Adobe Campaign v7 packages: this operation must be performed on each server.
+* The post upgrade: this command must be started on each instance.
 
-Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
+To deploy Adobe Campaign, apply the following steps:
 
-1. 다음 명령을 사용하여 최신 Adobe Campaign v7 패키지를 설치합니다.
+1. Install the most recent Adobe Campaign v7 packages using the following command:
 
-   * in **데비안**:
+    * In **Debian**:
 
-      ```
+      ```    
       dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
-   * in **빨간색 모자**:
+    * In **Red Hat**:
 
-      ```
+      ```    
       rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
+
    >[!IMPORTANT]
    >
-   >다음 단계로 이동하기 전에 패키지를 제대로 설치해야 합니다.
+   >You must install the packages successfully before going on to the next step.
 
    >[!NOTE]
    >
-   >Adobe Campaign v7는 기본적으로 Adobe Campaign v6.02와 동일한 디렉토리에 설치됩니다. **/usr/local/neolane/nl6/**.
+   >Adobe Campaign v7 is installed in the same directory by default as Adobe Campaign v6.02: **/usr/local/neolane/nl6/**.
 
-1. 클라이언트 콘솔 설치 프로그램을 사용 가능하게 하려면 Adobe Campaign 설치 디렉토리에 복사합니다.
+1. To make the client console installation program available, copy it into the Adobe Campaign installation directory:
 
    ```
    cp setup-client-7.0.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
@@ -408,9 +419,9 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >Linux에서 Adobe Campaign을 설치하는 방법에 대한 자세한 내용은 [이 섹션](../../installation/using/installing-campaign-standard-packages.md).
+   >For more on how to install Adobe Campaign in Linux, refer to [this section](../../installation/using/installing-campaign-standard-packages.md).
 
-1. 마이그레이션은 일반 설치가 아니므로 를 강제로 다시 시작해야 합니다 **trackinglogd** 서비스. 이렇게 하려면 **nl6/conf/config-default.xml** 파일 및 **trackinglogd** 서비스가 활성화됨(추적/리디렉션 서버에서만):
+1. Since migration is not a generic installation, you need to force the re-starting of the **trackinglogd** service. To do this, open the **nl6/conf/config-default.xml** file and make sure the **trackinglogd** service is activated (only on the tracking/redirection server(s)):
 
    ```
    <trackinglogd autoStart="true"/>
@@ -418,9 +429,9 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
    >[!IMPORTANT]
    >
-   >만약 **trackinglogd** 서비스가 추적 서버에서 시작되지 않았으므로 추적 정보가 전달되지 않습니다.
+   >If the **trackinglogd** service is not started on the tracking server, no tracking information will be forwarded.
 
-1. 로 이동합니다. **nl6.back** 백업 폴더 및 각 인스턴스의 구성 파일과 하위 폴더를 복사(덮어쓰기)합니다. 다음으로 로그인 **네올란** 다음 명령을 실행합니다.
+1. Go to the **nl6.back** backup folder and copy (overwrite) the configuration files and sub-folders of each instance. Log in as **neolane** and run the following command:
 
    ```
    su - neolane
@@ -431,13 +442,13 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
    cp -r nl6.back/var/* nl6/var/
    ```
 
-1. 다음 명령을 사용하여 Adobe Campaign v7 구성을 다시 로드합니다.
+1. Reload the Adobe Campaign v7 configuration using the following command:
 
    ```
    nlserver config -reload
    ```
 
-1. 다음 명령을 사용하여 업그레이드 후 프로세스를 시작합니다. **네올란**):
+1. Start the postupgrade process using the following command (still as **neolane**):
 
    ```
    su - neolane
@@ -446,9 +457,9 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >&quot;다중 시간대&quot; 모드는 PostgreSQL 데이터베이스 엔진용 v6.02에서만 사용할 수 있습니다. 이제 사용 중인 데이터베이스 엔진 버전에 관계없이 사용할 수 있습니다. 기본 시간대를 &quot;다중 시간대&quot;로 업그레이드하는 것이 좋습니다. 시간대 옵션에 대한 자세한 내용은 [시간대](../../migration/using/general-configurations.md#time-zones) 섹션을 참조하십시오.
+   >The "multi timezone" mode was only available in v6.02 for PostgreSQL database engines. It is now available no matter what version of database engine is being used. We strongly recommend upgrading your base to "multi timezone". For further information about timezone options, refer to the [Time zones](../../migration/using/general-configurations.md#time-zones) section.
 
-### Adobe Campaign v6.1에서 {#migrating-from-adobe-campaign-v6_1-1}
+-->
 
 Adobe Campaign 배포에는 두 단계가 있습니다.
 
@@ -512,75 +523,85 @@ Adobe Campaign을 배포하려면 다음 단계를 수행합니다.
    nlserver config -postupgrade -instance:<instance name>
    ```
 
-## 리디렉션 서버 마이그레이션(Apache) {#migrating-the-redirection-server--apache-}
+<!--
+
+## Migrate the redirection server (Apache) {#migrating-the-redirection-server--apache-}
 
 >[!NOTE]
 >
->이 섹션은 Adobe Campaign v5.11에서 마이그레이션할 때만 적용됩니다.
+>This section only applies when migrating from Adobe Campaign v5.11.
 
-이 단계에서 Apache를 중지해야 합니다. 다음을 참조하십시오. [서비스 중지](#service-stop).
+At this stage, Apache needs to be stopped. Refer to: [Service stop](#service-stop).
 
-1. 다음으로 로그인 **루트**.
-1. Apache 환경 변수를 로 연결하여 **nl6** 디렉토리.
+1. Log in as **root**.
+1. Change the Apache environment variables to make them link to the **nl6** directory.
 
-   * in **데비안**:
+    * In **Debian**:
 
-      ```
+      ```    
       vi /etc/apache2/envvars
       ```
 
-   * in **빨간색 모자**:
+    * In **Red Hat**:
 
-      ```
+      ```    
       vi /usr/local/apache2/bin/envvars
       ```
 
-1. 그런 다음 다음 다음 명령을 실행합니다.
+1. Then run the following commands:
 
-   * in **데비안**:
+    * In **Debian**:
 
-      에서 **nlsrv.load** 파일, 바꾸기 **nl5** with **nl6**.
+      In the **nlsrv.load** file, replace **nl5** with **nl6**.
 
-      ```
+      ```    
       vi /etc/apache2/mods-available/nlsrv.load
-      ```
+      ```    
+    
+      Delete the link of the **nlsrv.conf** file and create a new one.
 
-      링크 삭제 **nlsrv.conf** 파일을 만들고 새 파일을 만듭니다.
-
-      ```
+      ```    
       rm /etc/apache2/mods-available/nlsrv.conf 
       ln -s /usr/local/neolane/nl6/tomcat-6/conf/apache_neolane.conf /etc/apache2/
       mods-available/nlsrv.conf
       ```
 
-   * in **빨간색 모자**:
+    * In **Red Hat**:
 
-      로 이동합니다. **/usr/local/apache2/conf** 디렉토리, 편집 **http.conf** 파일 및 바꾸기 **nl5** with **nl6** 를 클릭합니다.
+      Go to the **/usr/local/apache2/conf** directory, edit the **http.conf** file and replace **nl5** with **nl6** in the following lines.
 
-      in **RHEL 7/Debian 8**:
+      In **RHEL 7/Debian 8**:
 
-      ```
+      ```    
       LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
       Include /usr/local/neolane/nl6/tomcat-6/conf/apache_neolane.conf
       ```
 
-1. 로 이동합니다. **alias.conf** 모두 바꾸기 **nl5** with **nl6**. Debian에서 이렇게 하려면 다음 명령을 실행하십시오.
+1. Go to the **alias.conf** file and replace all **nl5** with **nl6**. To do this in Debian, run the following command:
 
    ```
    vi /etc/apache2/mods-available/alias.conf
    ```
 
-## 보안 영역 {#security-zones}
+-->
 
-v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하기 전에 보안 영역을 구성해야 합니다. 자세한 내용은 [보안](../../migration/using/general-configurations.md#security).
+<!--
+
+## Security zones {#security-zones}
+
+If you are migrating from v6.02 or earlier, you must configure your security zones before starting services. For more information, refer to [Security](../../migration/using/general-configurations.md#security).
+
+-->
 
 ## 서비스 다시 시작 {#re-starting-services}
 
-절차는 Adobe Campaign 이전 버전에 따라 다릅니다.
+서비스를 다시 시작하는 절차는 다음과 같습니다.
 
-### Adobe Campaign v5용 {#migrating-from-adobe-campaign-v5_11-2}
+<!--
 
-에서 **config-`<instance name>`.xml** 파일을 사용하여 자동 시작 **mta**, **wfserver**, **stat**&#x200B;등 서비스.
+### For Adobe Campaign v5 {#migrating-from-adobe-campaign-v5_11-2}
+
+In the **config-`<instance name>`.xml** files, reactivate the automatic startup of the **mta**, **wfserver**, **stat**, etc. services.
 
 ```
 <?xml version='1.0'?>
@@ -601,17 +622,17 @@ v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하
 </serverconf>
 ```
 
-다음 각 서버에서 Apache 및 Adobe Campaign 서비스를 시작합니다.
+Start Apache and Adobe Campaign services on each of the following servers:
 
-1. 추적 및 리디렉션 서버입니다.
-1. 중간 소싱 서버.
-1. 마케팅 서버입니다.
+1. Tracking and redirection server.
+1. Mid-sourcing server.
+1. Marketing server.
 
-다음 단계로 이동하기 전에 새 설치에 대한 전체 테스트를 실행하고 회귀를 수행하지 않는지 그리고 모든 기능이 의 모든 권장 사항을 수행하여 작동하는지 확인합니다 [일반 구성](../../migration/using/general-configurations.md) 섹션을 참조하십시오.
+Before going on to the next step, run a full test of the new installation, make sure there are no regressions and that everything works by following all the recommendations in the [General configurations](../../migration/using/general-configurations.md) section.
 
-### Adobe Campaign v6.02의 경우 {#migrating-from-adobe-campaign-v6_02-2}
+### For Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6_02-2}
 
-에서 **config-`<instance name>`.xml** 파일을 사용하여 자동 시작 **mta**, **wfserver**, **stat**&#x200B;등 서비스.
+In the **config-`<instance name>`.xml** files, reactivate the automatic startup of the **mta**, **wfserver**, **stat**, etc. services.
 
 ```
 <?xml version='1.0'?>
@@ -632,40 +653,44 @@ v6.02 이전 버전에서 마이그레이션하는 경우 서비스를 시작하
 </serverconf>
 ```
 
+Start Apache and Adobe Campaign services on each of the following servers:
+
+1. Tracking and redirection server.
+1. Mid-sourcing server.
+1. Marketing server.
+
+Fully test the new installation, check that it does not regress and make sure that everything is working correctly by following all the recommendations in the [General configurations](../../migration/using/general-configurations.md) section.
+
+-->
+
 다음 각 서버에서 Apache 및 Adobe Campaign 서비스를 시작합니다.
 
 1. 추적 및 리디렉션 서버입니다.
 1. 중간 소싱 서버.
 1. 마케팅 서버입니다.
 
-새 설치를 완전히 테스트하고, 다시 사용되지 않는지 확인하고, 의 모든 권장 사항을 수행하여 모든 것이 제대로 작동하는지 확인합니다. [일반 구성](../../migration/using/general-configurations.md) 섹션을 참조하십시오.
+새 설치를 완전히 테스트하고, 다시 사용되지 않는지 확인하고, 모든 것이 제대로 작동하는지 확인합니다.
 
-### Adobe Campaign v6.1의 경우 {#migrating-from-adobe-campaign-v6_1-2}
+<!--
 
-다음 각 서버에서 Apache 및 Adobe Campaign 서비스를 시작합니다.
-
-1. 추적 및 리디렉션 서버입니다.
-1. 중간 소싱 서버.
-1. 마케팅 서버입니다.
-
-새 설치를 완전히 테스트하고, 다시 사용되지 않는지 확인하고, 의 모든 권장 사항을 수행하여 모든 것이 제대로 작동하는지 확인합니다. [일반 구성](../../migration/using/general-configurations.md) 섹션을 참조하십시오.
-
-## Adobe Campaign 이전 버전 삭제 {#deleting-and-cleansing-adobe-campaign-v5}
+## Delete the Adobe Campaign previous version {#deleting-and-cleansing-adobe-campaign-v5}
 
 >[!NOTE]
 >
->이 섹션은 Adobe Campaign v5.11에서 마이그레이션할 때만 적용됩니다.
+>This section only applies when migrating from Adobe Campaign v5.11.
 
-Adobe Campaign v5 설치를 삭제하고 정리하려면 먼저 다음 권장 사항을 적용해야 합니다.
+Before you delete and cleanse the Adobe Campaign v5 installation, you must apply the following recommendations:
 
-* 기능 팀이 새 설치를 모두 점검하도록 합니다.
-* 롤백이 필요하지 않은지 확인한 후 Adobe Campaign v5만 제거하십시오.
+* Get the functional teams to run a full check of the new installation.
+* Only uninstall Adobe Campaign v5 once you are certain that no rollback is necessary.
 
-삭제 **nl5.back** 디렉토리. 다음으로 로그인 **네올란** 다음 명령을 실행합니다.
+Delete the **nl5.back** directory. Log in as **neolane** and run the following command:
 
 ```
 su - neolane
 rm -rf nl5.back
 ```
 
-서버를 다시 시작합니다.
+Re-start the server.
+
+-->
