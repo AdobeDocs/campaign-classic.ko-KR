@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 95c4a83037bcd2e22a03ac80d1ec4a7896a94ce3
+source-git-commit: d592902157b499423283307402eb74452d4827bc
 workflow-type: tm+mt
 source-wordcount: '2709'
 ht-degree: 75%
@@ -36,7 +36,6 @@ _2022년 11월 21일_
 **사용되지 않는 기능**
 
 * facebook을 사용한 소셜 마케팅은 이제 더 이상 사용되지 않습니다. twitter 통합을 사용하여 소셜 미디어에 게시하거나 Adobe을 사용하여 사용자 지정 채널을 만들 수 있습니다.
-
 * ACS 커넥터(Prime offering)는 이제 더 이상 사용되지 않습니다. 캠페인 내보내기/가져오기 기능을 사용하여 두 제품의 데이터를 추출하고 삽입할 수 있습니다.
 
 더 자세한 내용은 [사용되지 않거나 제거된 기능 페이지](deprecated-features.md)를 참조하십시오.
