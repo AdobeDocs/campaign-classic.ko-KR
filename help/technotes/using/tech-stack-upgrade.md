@@ -4,14 +4,14 @@ title: 기술 정보 - Adobe Campaign 시스템 업그레이드
 description: Adobe Campaign 시스템 업그레이드
 hide: true
 hidefromtoc: true
-source-git-commit: 6fc11ea75863abe86e81c4978843e8487cbd83a0
+source-git-commit: b877625c568cc9b1119a76812e92dffdab1f4bb1
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 8%
 
 ---
 
-# Adobe Campaign 2023 시스템 업그레이드 {#ac-system-upgrade}
+# Adobe Campaign 2023 환경 업그레이드 {#ac-system-upgrade}
 
 Campaign 인프라는 최신 버전 및 수정 사항으로 정기적으로 업데이트해야 하는 타사 시스템을 사용합니다. 이러한 업데이트는 서비스의 지속성을 보장하고 보안 위험으로부터 Campaign 환경을 보호하기 위해 필수입니다. 또한 타사 시스템 변경과의 호환성을 위해서는 Campaign 업그레이드가 필요합니다.
 
