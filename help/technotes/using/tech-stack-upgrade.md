@@ -4,16 +4,16 @@ title: 기술 정보 - Adobe Campaign 시스템 업그레이드
 description: Adobe Campaign 시스템 업그레이드
 hide: true
 hidefromtoc: true
-source-git-commit: b119d52b94d95086261fcdc1744698a78296df9c
+source-git-commit: 6fc11ea75863abe86e81c4978843e8487cbd83a0
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 9%
+source-wordcount: '502'
+ht-degree: 8%
 
 ---
 
 # Adobe Campaign 2023 시스템 업그레이드 {#ac-system-upgrade}
 
-Campaign 인프라는 시스템 버전 및 수정 사항으로 정기적으로 업데이트해야 하는 타사 시스템을 사용합니다. 이러한 업데이트는 서비스의 지속성을 보장하고 보안 위험으로부터 Campaign 환경을 보호하기 위해 필수입니다. 또한 타사 시스템 변경에 맞춰 업그레이드해야 합니다.
+Campaign 인프라는 최신 버전 및 수정 사항으로 정기적으로 업데이트해야 하는 타사 시스템을 사용합니다. 이러한 업데이트는 서비스의 지속성을 보장하고 보안 위험으로부터 Campaign 환경을 보호하기 위해 필수입니다. 또한 타사 시스템 변경과의 호환성을 위해서는 Campaign 업그레이드가 필요합니다.
 
 로서의 **호스팅 또는 관리 Cloud Services 고객**&#x200B;를 클릭하면 Adobe이 이러한 업그레이드가 필요할 때 알려줍니다. 규정 준수를 위해서는 권장 사항에 따라 환경을 업그레이드해야 합니다.
 
@@ -23,7 +23,7 @@ Campaign 인프라는 시스템 버전 및 수정 사항으로 정기적으로 �
 
 >[!NOTE]
 >
->이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+>이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 다음을 참조하십시오. [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md).
 
 ## Campaign 빌드 업그레이드 {#ac-upgrade}
 
@@ -60,12 +60,12 @@ Campaign용 데이터베이스 시스템이 PostgreSQL인 경우 최신 PostgreS
 
 * 호스팅되거나 관리되는 Cloud Services 고객인 Adobe은 사용자에게 연락하여 데이터베이스 시스템을 PostgreSQL 11에서 PostgreSQL 14로 업그레이드합니다.
 * 하이브리드 고객으로서, 마케팅 데이터베이스 시스템이 PostgreSQL인 경우 PostgreSQL 14로 업그레이드해야 합니다.
-* 온-프레미스 고객은 데이터베이스 시스템을 PostgreSQL 14로 업그레이드하도록 요청합니다. ../integrations/using/configuring-adobe-io.md).
+* 온-프레미스 고객은 데이터베이스 시스템을 PostgreSQL 14로 업그레이드하도록 요청합니다.
 
 
 ## 유용한 링크
 
 * [환경 업그레이드](../../production/using/build-upgrade.md)
 * [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)
-* [Campaign Classic 빌드 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)
+* [최신 Campaign Classic 빌드 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)
 * [새 클라이언트 콘솔을 사용자가 사용할 수 있게 만들기](../../installation/using/client-console-availability-for-windows.md)
