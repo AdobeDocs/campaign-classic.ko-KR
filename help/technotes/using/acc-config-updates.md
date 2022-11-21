@@ -2,8 +2,10 @@
 product: campaign
 title: 기술 정보 - Adobe Campaign 구성 업데이트
 description: Adobe Campaign 구성 업데이트
+hide: true
+hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: 8ea5a42e0539ea23c1d9940e3f38f2c90fdcc223
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 12%
@@ -101,7 +103,7 @@ Campaign에 연결하는 경우 [Adobe ID 사용](../../integrations/using/about
 
 ## Experience Cloud 트리거과 통합 {#acc-triggers-updates}
 
-기존 oAuth 인증 서비스가 수명이 종료되었습니다. 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 Adobe I/O으로 이동되었습니다. Campaign을 사용하는 기존 oAuth 인증 모드 [사용 중지되었습니다.](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) on **2021년 9월**. 호스팅 환경의 경우 **2022년 2월 23일**&#x200B;까지 연장 사용할 수 있습니다. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)의 AppID를 제공해야 합니다.
+기존 oAuth 인증 서비스가 수명이 종료되었습니다. 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 Adobe I/O으로 이동되었습니다. Campaign을 사용하는 기존 oAuth 인증 모드 [사용 중지되었습니다.](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) on **2021년 9월**. 호스팅 환경의 경우 **2022년 2월 23일**&#x200B;까지 연장 사용할 수 있습니다. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하여 2022년 2월로 지원을 연장하십시오. Adobe에 [OAuth 애플리케이션의 AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)를 제공해야 합니다.
 
 **영향을 받습니까?**
 
@@ -128,7 +130,7 @@ Campaign에 연결하는 경우 [Adobe ID 사용](../../integrations/using/about
 
 ### HTTP/2 기반 APNs 공급자 API
 
-이후 **2021년 3월 31일**&#x200B;에서 Apple APNs(푸시 알림 서비스)는 더 이상 레거시 이진 프로토콜을 지원하지 않습니다. [자세한 내용](https://developer.apple.com/kr/news/?id=c88acm2b).
+이후 **2021년 3월 31일**&#x200B;에서 Apple APNs(푸시 알림 서비스)는 더 이상 레거시 이진 프로토콜을 지원하지 않습니다. [자세히 보기](https://developer.apple.com/kr/news/?id=c88acm2b).
 
 **영향을 받습니까?**
 

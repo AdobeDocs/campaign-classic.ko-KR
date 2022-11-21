@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 43d9eac2ed161465ca00ee4f511e4c020b4c44a2
+source-git-commit: a2817dabf421281dc0ade3531af62525e045bbee
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 54%
+source-wordcount: '183'
+ht-degree: 62%
 
 ---
 
@@ -20,9 +20,7 @@ ht-degree: 54%
 
 * **[7월 릴리스가 라이브입니다!](rn/using/latest-release.md)**<br/> 릴리스 노트의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오
 
-* **[잘못된 하드 바운스 제거](delivery/using/update-bounce-qualification.md)**<br/> Apple 중단 후 잘못된 하드 바운스를 업데이트하는 방법을 알아봅니다
-
-* **[Campaign 인스턴스 보안 설정](technotes/using/acc-config-updates.md)**<br/> Campaign 플랫폼 보안을 위해 최신 빌드로 업데이트
+<!--* **[Secure your Campaign environment](technotes/using/tech-stack-upgrade.md)**<br/> Update to the latest versions to secure your Campaign platform-->
 
 * **[Adobe Experience Cloud Triggers 통합 업데이트](integrations/using/configuring-adobe-io.md)**<br/> 기존 oAuth 인증 서비스가 사용 수명이 종료되었습니다. Adobe I/O으로 마이그레이션해야 합니다.
 
