@@ -6,16 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 6eaf7490f1be913986af2924017d014d2ba54559
 workflow-type: tm+mt
 source-wordcount: '2088'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 인바운드 채널에 대한 오퍼{#offers-on-an-inbound-channel}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## 익명의 방문자에게 오퍼 표시 {#presenting-an-offer-to-an-anonymous-visitor}
 
@@ -57,7 +57,7 @@ ht-degree: 0%
    이러한 방식으로 다음 요소 중 하나를 누락된 오퍼는 이 공간에 적합하지 않습니다.
 
    * 제목
-   * HTML 컨텐츠
+   * HTML 콘텐츠
    * 이미지 URL
    * 대상 URL
 
