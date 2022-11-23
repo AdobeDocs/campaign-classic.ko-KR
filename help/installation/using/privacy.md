@@ -4,22 +4,17 @@ title: 개인 정보 보호
 description: 개인 정보 보호에 대해 따라야 하는 모범 사례에 대해 자세히 알아보십시오
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 197ac1322cb8f4f34d2670a29d622a21f407c90c
+source-git-commit: 0e57ffba9b8c7fd05843c3353d2c0d64cbc83b8b
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 개인 정보 보호 {#privacy}
+# 개인화 및 개인 정보 보호 {#privacy}
 
 ![](../../assets/v7-only.svg)
 
-## 개인정보 보호 요청
-
-Adobe Campaign은 GDPR 및 CCPA에 대한 개인 정보 보호 규정을 준수하는 데 도움이 되는 도구를 제공합니다.
-
-을(를) 참조하십시오. [이 페이지](../../platform/using/privacy-management.md) 개인 정보 관리의 정의와 Adobe Campaign의 구현 단계에 대한 일반적인 정보입니다. 또한 모범 사례와 사용자 프로세스 및 성향에 대한 개요를 확인할 수 있습니다.
 
 ## URL 개인화 {#url-personalization}
 
@@ -187,3 +182,8 @@ URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 �
    추가 **robots.txt** 파일, **X-Robots-Tag** 헤더. Apache 또는 IIS와 **serverConf.xml** 구성 파일.
 
    자세한 내용은 [이 문서](https://developers.google.com/search/reference/robots_meta_tag).
+
+
+## 개인정보 보호 요청
+
+을(를) 참조하십시오. [이 페이지](../../platform/using/privacy-management.md) 개인 정보 관리의 정의와 Adobe Campaign의 구현 단계에 대한 일반적인 정보입니다. 또한 모범 사례와 사용자 프로세스 및 성향에 대한 개요를 확인할 수 있습니다.
