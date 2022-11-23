@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: 개인 정보 보호
-description: 개인 정보 보호에 대해 따라야 하는 모범 사례에 대해 자세히 알아보십시오
+title: 개인화 및 개인 정보 보호
+description: 개인 정보 보호 및 개인화에 대한 보안 모범 사례 학습
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 0e57ffba9b8c7fd05843c3353d2c0d64cbc83b8b
+source-git-commit: f97199e634205742b74a08932a40db2fca138cc3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '845'
+ht-degree: 2%
 
 ---
 
