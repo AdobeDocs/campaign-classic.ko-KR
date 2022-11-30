@@ -5,7 +5,7 @@ description: Adobe Campaign 시스템 업그레이드
 hide: true
 hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: b8bbdb4a0d595ec2bc884e041d1e56b81da8aa3d
+source-git-commit: 7948f6423b80788adf26a53afcd380953c8b8463
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 8%
@@ -55,7 +55,7 @@ Debian 운영 체제에서 Campaign을 실행 중인 경우, 최신 Debian 보�
 
 **영향을 받습니까?**
 
-Campaign용 데이터베이스 시스템이 PostgreSQL인 경우 최신 PostgreSQL의 혁신적인 기능과 보안 업데이트를 이용하려면 로 업그레이드해야 합니다 **PostgreSQL 14**. PostgreSQL 11은 2022년 11월 30일에 수명이 종료됩니다.
+Campaign용 데이터베이스 시스템이 PostgreSQL인 경우 최신 PostgreSQL의 혁신적인 기능과 보안 업데이트를 이용하려면 로 업그레이드해야 합니다 **PostgreSQL 14**. PostgreSQL 11은 2023년 11월 9일에 수명이 종료됩니다.
 
 **업데이트 방법**
 
