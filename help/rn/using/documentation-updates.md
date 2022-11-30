@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 5792ad762befb97888ad32406d3bcb7f97df3fa7
 workflow-type: tm+mt
 source-wordcount: '4994'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,15 +25,15 @@ ht-degree: 98%
 
 ### 2022년 11월 {#nov-2022}
 
-릴리스 노트 섹션이 7.3.2 개선 사항 및 패치로 업데이트되었습니다. [자세히 보기](latest-release.md)
+릴리스 정보 섹션을 7.3.2 개선 사항 및 패치로 업데이트했습니다. [자세히 보기](latest-release.md)
 
-호환성 매트릭스 가 Teradata 17 지원을 업데이트했습니다. [자세히 보기](compatibility-matrix.md)
+Teradata 17이 지원되도록 호환성 매트릭스를 업데이트했습니다. [자세히 보기](compatibility-matrix.md)
 
-파일 및 리소스 관리 섹션이 **uploadWhiteList** 속성을 사용합니다. [자세히 보기](../../installation/using/file-res-management.md)
+파일 및 리소스 관리 섹션에 **uploadWhiteList** 속성에 대한 추가 정보를 업데이트했습니다. [자세히 보기](../../installation/using/file-res-management.md)
 
-보안 영역에 대한 설명서가 **allowDebug** 속성 속성입니다. [자세히 보기](../../installation/using/security-zones.md#recommendations)
+보안 영역 설명서에 **allowDebug** 속성에 대한 추가 정보를 업데이트했습니다. [자세히 보기](../../installation/using/security-zones.md#recommendations)
 
-마이그레이션 가이드가 업데이트되었습니다. 지원되지 않는 Adobe Campaign 버전에 대한 참조가 제거되었습니다. [자세히 보기](../../migration/using/about-migration.md)
+마이그레이션 가이드를 업데이트했습니다. 지원되지 않는 Adobe Campaign 버전에 대한 참조를 제거했습니다. [자세히 보기](../../migration/using/about-migration.md)
 
 
 ### 2022년 7월 {#july-2022}

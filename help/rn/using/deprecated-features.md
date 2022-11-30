@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 0ecf9c69cc4b444feda1e42701a3a27f2b2e7eeb
 workflow-type: tm+mt
 source-wordcount: '1684'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr>
 <tr>
  <td>Facebook을 사용한 소셜 마케팅</td>
- <td>facebook을 사용한 소셜 마케팅은 이제 더 이상 사용되지 않습니다. twitter 통합을 사용하여 소셜 미디어에 게시하거나 Adobe을 사용하여 사용자 지정 채널을 만들 수 있습니다.
+ <td>Facebook을 사용한 소셜 마케팅은 이제 더 이상 사용되지 않습니다. Twitter 통합을 사용하여 소셜 미디어에 게시하거나 Adobe를 사용하여 사용자 지정 채널을 만들 수 있습니다.
  <p></p>
   <p>Target 제거 날짜: 2023년 말</p>
   </td>
