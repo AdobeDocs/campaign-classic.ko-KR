@@ -5,10 +5,10 @@ description: Adobe Campaign 시스템 업그레이드
 hide: true
 hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: 7948f6423b80788adf26a53afcd380953c8b8463
+source-git-commit: 7d7185e9d8c376d1390dc7e5f6a8724c3cbcfd40
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ Campaign 인프라는 최신 버전 및 수정 사항으로 정기적으로 업�
 
 **영향을 받습니까?**
 
-Debian 운영 체제에서 Campaign을 실행 중인 경우, 최신 Debian 보안 업데이트를 받으려면 Campaign 인프라를 **Debian 11**. Debian 9는 2022년 6월 30일에 수명 종료에 도달했으며 더 이상 보안 수정 사항을 제공하지 않습니다.
+Debian 운영 체제에서 Campaign을 실행 중인 경우, 최신 Debian 보안 업데이트를 받으려면 Campaign 인프라를 **Debian 11**. Debian 9는 2022년 6월 30일에 수명 종료에 도달했으며 더 이상 보안 수정 사항을 제공하지 않습니다. Adobe은 2023년 6월 30일까지 Debian 9에 대한 보안 지원을 제공합니다.
 
 **업데이트 방법**
 
