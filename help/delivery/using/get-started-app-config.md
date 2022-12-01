@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 'Adobe Campaign에서 모바일 애플리케이션 구성 '
+title: Adobe Campaign에서 모바일 애플리케이션 구성
 description: 모바일 애플리케이션 구성으로 시작하는 방법 알아보기
 feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9

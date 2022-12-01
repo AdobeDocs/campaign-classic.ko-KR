@@ -7,7 +7,7 @@ exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '2837'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -71,8 +71,9 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 >
 >격리 수의 증가는 데이터베이스의 &quot;마모&quot;와 관련된 정상적인 현상입니다. 예를 들어 이메일 주소의 수명을 3년으로 보고 수신자 표가 매년 50%씩 증가할 경우, 격리 증가는 다음과 같이 계산할 수 있습니다.
 >
->1년말: (1*0.33)/(1+0.5)=22%.
-두 번째 해가 끝나는 시점: ((1.22*0.33)+0.33)/(1.5+0.75)=32.5% 
+>1년말: (1)&#42;0.33)/(1+0.5)=22%.
+>
+>2년 말: (1.22)&#42;0.33)+0.33)/(1.5+0.75)=32.5%.
 
 ### 게재 보고서에서 격리된 주소 확인 {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -101,7 +102,8 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 격리 목록에서 주소를 수동으로 제거하려면 아래 작업 중 하나를 수행합니다.
 
 >[!IMPORTANT]
-격리 시 이메일 주소를 수동으로 삭제하는 것은 이 주소로 다시 배달하기 시작함을 의미합니다. 따라서 게재 능력과 IP 평판에 심각한 영향을 줄 수 있으므로 IP 주소 또는 전송 도메인이 차단될 수 있습니다. 격리된 주소 제거를 고려할 때 추가 주의가 필요합니다. 확실하지 않은 경우 게재 가능성 전문가에게 문의하십시오.
+>
+>격리 시 이메일 주소를 수동으로 삭제하는 것은 이 주소로 다시 배달하기 시작함을 의미합니다. 따라서 게재 능력과 IP 평판에 심각한 영향을 줄 수 있으므로 IP 주소 또는 전송 도메인이 차단될 수 있습니다. 격리된 주소 제거를 고려할 때 추가 주의가 필요합니다. 확실하지 않은 경우 게재 가능성 전문가에게 문의하십시오.
 
 * 상태를 **[!UICONTROL Valid]** 에서 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** 노드 아래에 있어야 합니다.
 
@@ -118,7 +120,8 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 그러면 상태가 **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
-주소가 있는 수신자 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 이메일이 수신되더라도 상태는 제거되지 않습니다.
+>
+>주소가 있는 수신자 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 이메일이 수신되더라도 상태는 제거되지 않습니다.
 
 호스팅 또는 하이브리드 설치의 경우 로 업그레이드한 경우 [향상된 MTA](sending-with-enhanced-mta.md)로 설정되면 **[!UICONTROL Erroneous]** 상태 및 다시 시도 사이의 최소 지연은 IP가 과거 및 현재 지정된 도메인에서 얼마나 성과가 있는지 기준으로 합니다.
 
@@ -135,7 +138,8 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 사용자가 이메일을 스팸 처리하면([피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)). 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL Denylisted]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은에 차단 목록 없습니다. 따라서 사용자는 계속해서 SMS 메시지와 푸시 알림을 수신합니다.
 
 >[!NOTE]
-Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
+>
+>Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
 
 격리된 주소 목록에서 다음을 참조하십시오. [플랫폼 전체에 대해 격리된 주소 확인](#identifying-quarantined-addresses-for-the-entire-platform)), **[!UICONTROL Error reason]** 필드는 선택한 주소가 격리된 이유를 나타냅니다.
 
@@ -261,12 +265,14 @@ HTTP/V2 프로토콜을 사용하면 각 푸시 게재에 대한 직접 피드�
 게재 분석 중에 대상에서 제외된 모든 장치가 자동으로 **excludeLogAppSubRcp** 테이블.
 
 >[!NOTE]
-Baidu 커넥터를 사용하는 고객의 경우 다음과 같은 다양한 오류 유형이 있습니다.
-* 게재 시작 시 연결 문제: 실패 유형 **[!UICONTROL Undefined]**, 실패 이유 **[!UICONTROL Unreachable]**, 다시 시도됩니다.
-* 게재 중 연결이 끊어졌습니다. 소프트 오류, 실패 이유 **[!UICONTROL Refused]**, 다시 시도됩니다.
-* 전송 중에 Baidu에서 동기 오류가 반환되었습니다. 하드 오류, 실패 이유 **[!UICONTROL Refused]**&#x200B;를 재시도하지 않습니다.
 >
-Adobe Campaign은 Baidu 서버에 10분마다 연락하여 보낸 메시지의 상태를 검색하고 브로드로그를 업데이트합니다. 메시지가 전송됨으로 선언되면 브로드로그에 있는 메시지의 상태가 **[!UICONTROL Received]**. Baidu가 오류를 선언하면 상태는 로 설정됩니다. **[!UICONTROL Failed]**.
+>Baidu 커넥터를 사용하는 고객의 경우 다음과 같은 다양한 오류 유형이 있습니다.
+>
+>* 게재 시작 시 연결 문제: 실패 유형 **[!UICONTROL Undefined]**, 실패 이유 **[!UICONTROL Unreachable]**, 다시 시도됩니다.
+>* 게재 중 연결이 끊어졌습니다. 소프트 오류, 실패 이유 **[!UICONTROL Refused]**, 다시 시도됩니다.
+>* 전송 중에 Baidu에서 동기 오류가 반환되었습니다. 하드 오류, 실패 이유 **[!UICONTROL Refused]**&#x200B;를 재시도하지 않습니다.
+>
+>Adobe Campaign은 Baidu 서버에 10분마다 연락하여 보낸 메시지의 상태를 검색하고 브로드로그를 업데이트합니다. 메시지가 전송됨으로 선언되면 브로드로그에 있는 메시지의 상태가 **[!UICONTROL Received]**. Baidu가 오류를 선언하면 상태는 로 설정됩니다. **[!UICONTROL Failed]**.
 
 **Android V2용**
 
@@ -484,7 +490,8 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
 SMS 메시지의 격리 메커니즘은 전반적인 프로세스와 전체적으로 동일합니다. 자세한 내용은 [격리 기본 정보](#about-quarantines). SMS에 대한 세부 사항은 아래에 나와 있습니다.
 
 >[!NOTE]
-다음 **[!UICONTROL Delivery log qualification]** 테이블은 **확장된 일반 SMPP** 커넥터.
+>
+>다음 **[!UICONTROL Delivery log qualification]** 테이블은 **확장된 일반 SMPP** 커넥터.
 
 <table> 
  <tbody> 
@@ -504,7 +511,7 @@ SMS 메시지의 격리 메커니즘은 전반적인 프로세스와 전체적�
   </tr> 
   <tr> 
    <td> 모바일에서 수신<br /> </td> 
-   <td> 수신<br /> </td> 
+   <td> 수신됨<br /> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -542,8 +549,10 @@ SMPP 커넥터는 정규 표현식(regexes)을 사용하여 반환되는 SR(상�
 새 유형의 오류가 검증되기 전에 실패 이유가 항상 **거부됨** 기본적으로 제공됩니다.
 
 >[!NOTE]
-실패 유형 및 실패 이유는 이메일과 동일합니다. 자세한 내용은 [게재 실패 유형 및 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
-게재 로그 자격 테이블에서 적절한 실패 유형 및 실패 이유를 설정하려면 상태 및 오류 코드 목록을 공급자에게 문의하십시오.
+>
+>실패 유형 및 실패 이유는 이메일과 동일합니다. 자세한 내용은 [게재 실패 유형 및 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>
+>게재 로그 자격 테이블에서 적절한 실패 유형 및 실패 이유를 설정하려면 상태 및 오류 코드 목록을 공급자에게 문의하십시오.
 
 생성된 메시지의 예:
 

@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: '"활용 사례: 필드 대체 구성"'
-description: '"활용 사례: 필드 대체 구성"'
+title: "활용 사례: 필드 대체 구성"
+description: "활용 사례: 필드 대체 구성"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05

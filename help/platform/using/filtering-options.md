@@ -9,7 +9,7 @@ exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 폴더 선택 필드의 오른쪽에 있는 십자가를 사용하여 기본 표시 모드로 돌아갑니다.
 
-## 상태별 필터링 {#filter-by-status}
+## 상태별로 필터링 {#filter-by-status}
 
 표시된 정보 유형에 따라 상태 또는 상태별로 필터를 적용할 수 있습니다. 예를 들어 게재의 경우, 아래와 같이 완료된 게재만 표시하도록 선택할 수 있습니다.
 

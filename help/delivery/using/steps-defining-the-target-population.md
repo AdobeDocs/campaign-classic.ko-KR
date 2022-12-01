@@ -221,7 +221,7 @@ ht-degree: 2%
 
 를 사용하여 특정 증명 대상의 정의와 시드 주소의 사용을 결합할 수 있습니다 **[!UICONTROL Specific target and Seed addresses]** 선택 사항입니다. 그런 다음 관련 구성이 두 개의 개별 하위 탭에서 정의됩니다.
 
-또한 다음을 참조하십시오:
+참조 항목:
 
 * [증명 대상 선택](#selecting-the-proof-target)
 * [시드 주소 정보](about-seed-addresses.md)

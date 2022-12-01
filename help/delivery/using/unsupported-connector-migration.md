@@ -7,7 +7,7 @@ exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -93,8 +93,8 @@ ht-degree: 1%
 
 에서 **[!UICONTROL SMSC specificities]** 탭:
 
-* **[!UICONTROL Coding when sending]** 에 해당함 **[!UICONTROL ID Format in MT acknowledgement]**
-* **[!UICONTROL Coding when receiving]** 에 해당함 **[!UICONTROL ID Format in the SR]**
+* **[!UICONTROL Coding when sending]** 다음에 해당 **[!UICONTROL ID Format in MT acknowledgement]**
+* **[!UICONTROL Coding when receiving]** 다음에 해당 **[!UICONTROL ID Format in the SR]**
 
 ### Sybase365 커넥터에서 {#from-sybase}
 
@@ -130,8 +130,8 @@ ht-degree: 1%
 
 에서 **[!UICONTROL SMSC specificities]** 탭:
 
-* **[!UICONTROL Coding when sending]** 에 해당함 **[!UICONTROL ID Format in MT acknowledgement]**
-* **[!UICONTROL Coding when receiving]** 에 해당함 **[!UICONTROL ID Format in the SR]**
+* **[!UICONTROL Coding when sending]** 다음에 해당 **[!UICONTROL ID Format in MT acknowledgement]**
+* **[!UICONTROL Coding when receiving]** 다음에 해당 **[!UICONTROL ID Format in the SR]**
 
 ### Tele2 커넥터에서 {#from-tele2}
 

@@ -145,7 +145,7 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
    ![](assets/s_user_filter_choose_field.png)
 
-1. 목록에서 데이터를 필터링할 필드를 선택합니다. 클릭 **[!UICONTROL Finish]** 확인합니다.
+1. 목록에서 데이터를 필터링할 필드를 선택합니다. **[!UICONTROL Finish]**&#x200B;을(를) 클릭하여 확인합니다.
 1. 을(를) 클릭합니다. **[!UICONTROL Operator]** 열을 선택하고 드롭다운 목록에서 적용할 연산자를 선택합니다.
 1. 에서 예상 값을 선택합니다 **[!UICONTROL Value]** 열. 여러 필터를 결합하여 쿼리를 세분화할 수 있습니다. 필터 조건을 추가하려면 **[!UICONTROL Add]**.
 

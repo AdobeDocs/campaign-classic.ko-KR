@@ -7,7 +7,7 @@ exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '1153'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 2%
 
 다음 세 가지 메시지 유형 중에서 선택할 수 있습니다.
 
-* [문자 메시지](#configuring-a-text-message-delivery)
+* [텍스트 메시지](#configuring-a-text-message-delivery)
 * [이미지 및 링크](#configuring-an-image-and-link-delivery)
 * [비디오 메시지](#configuring-a-video-message-delivery)
 

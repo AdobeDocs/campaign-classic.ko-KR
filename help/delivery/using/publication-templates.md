@@ -59,7 +59,7 @@ ht-degree: 0%
 * 출력 문서의 형식: HTML, 텍스트, XML 또는 RTF,
 * 사용할 스타일시트 또는 JavaScript 템플릿 등 구성 데이터가 포함된 템플릿입니다.
 
-### 발행 {#publication}
+### 게시 {#publication}
 
 선택한 유형을 선택한 경우 출력 문서를 파일 형태로 생성하는 작업이 게시됩니다 **[!UICONTROL File]**.
 

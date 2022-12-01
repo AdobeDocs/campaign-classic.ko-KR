@@ -7,7 +7,7 @@ exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 9%
 
    * [이메일 채널](defining-the-email-content.md)
    * [SMS 채널](sms-create.md#defining-the-sms-content)
-   * [DM 채널](defining-the-direct-mail-content.md)
+   * [다이렉트 메일 채널](defining-the-direct-mail-content.md)
    * [모바일 애플리케이션 채널](about-mobile-app-channel.md)
 
 1. **대상 모집단 정의**. [자세히 보기](steps-defining-the-target-population.md)

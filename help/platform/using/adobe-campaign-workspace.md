@@ -9,7 +9,7 @@ exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -108,7 +108,7 @@ Adobe Campaign Classic 인스턴스에서 선택한 언어는 날짜 및 시간 
 
 ## 형식 및 단위 {#formats-and-units}
 
-### 날짜 및 시간 {#date-and-time}
+### 일자 및 시간 {#date-and-time}
 
 Adobe Campaign Classic 인스턴스의 언어는 날짜 및 시간 형식에 영향을 줍니다.
 

@@ -7,7 +7,7 @@ exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '103'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -102,7 +102,7 @@ Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사�
 </tr>
 </table>
 
-또한 다음을 참조하십시오:
+참조 항목:
 
 * [게재 기능 시작](about-deliverability.md)
 

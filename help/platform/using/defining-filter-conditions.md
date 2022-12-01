@@ -372,7 +372,7 @@ ht-degree: 37%
    <td> Avg(&lt;값&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>카운트</strong><br /> </td> 
+   <td> <strong>수</strong><br /> </td> 
    <td> 열의 null이 아닌 값 계산<br /> </td> 
    <td> Count(&lt;값&gt;)<br /></td>  
   </tr> 
@@ -392,7 +392,7 @@ ht-degree: 37%
    <td> Max(&lt;값&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>최소</strong><br /> </td> 
+   <td> <strong>분</strong><br /> </td> 
    <td> 숫자, 문자열 또는 날짜 유형 열의 최소값 반환<br /> </td> 
    <td> Min(&lt;값&gt;)<br /></td> 
   </tr> 

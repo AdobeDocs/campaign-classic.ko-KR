@@ -7,7 +7,7 @@ exl-id: c0533148-b027-4158-9b95-8d2df769e963
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 성공적으로 게재하기 위해서는 가장 연관성이 높은 개인화된 콘텐츠를 적절한 수신자에게 전송해야 합니다. Adobe Campaign을 사용하면 가장 정확한 타겟 을 구축할 수 있습니다. 이전 게재에서 링크를 클릭한 경우, 나이, 로컬라이제이션, 구매한 항목, 이전 게재에서 링크를 클릭한 경우 등에 따라 수신자를 선택할 수 있습니다. Adobe Campaign을 사용하여 테스트 프로필, 컨트롤 그룹 및 시드 주소를 정의하여 타겟이 올바른지 확인할 수도 있습니다.
 
-## Target 매핑 {#target-mappings}
+## 대상 매핑 {#target-mappings}
 
 Campaign Classic에서 기본적으로 게재 템플릿은 타겟 **수신자**. Adobe Campaign은 사용자의 요구 사항에 따라 변경할 수 있는 게재에 대한 다른 target 매핑을 제공합니다.
 

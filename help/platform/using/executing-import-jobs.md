@@ -9,7 +9,7 @@ exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '2955'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -244,7 +244,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 옵션 **[!UICONTROL Reject]** 및 **[!UICONTROL Ignore]** 위에서 설명한 대로 작동합니다.
 
-### 오류 발생 시 {#behavior-in-the-event-of-an-error}
+### 오류가 있는 경우 {#behavior-in-the-event-of-an-error}
 
 대부분의 데이터 전송 작업은 다양한 유형의 오류(일관성 없는 라인 형식, 잘못된 이메일 주소 등)를 생성합니다. 가져오기 엔진에서 생성된 모든 오류와 경고는 저장되고 가져오기 인스턴스에 연결됩니다.
 

@@ -7,7 +7,7 @@ exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -58,28 +58,28 @@ ajouter screenshot -->
    <td> 게재를 보낼 준비가 되었으며 게재 서버(MTA)에서 처리할 예정입니다. 자세한 내용은 <a href="#pending-status" target="_blank">보류 중 상태</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 해당 사항 없음<br /> </td> 
+   <td> 적용할 수 없음<br /> </td> 
    <td> 게재를 서버(MTA)에서 고려했지만 처리되지 않았습니다.<br /> </td> 
   </tr>  
   <tr> 
-   <td> 배달이 취소되었습니다.<br /> </td> 
+   <td> 게재 취소됨<br /> </td> 
    <td> 교환원이 게재를 취소했습니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 서비스 공급자가 고려함<br /> </td> 
+   <td> 서비스 제공자의 고려<br /> </td> 
    <td> SMS 서비스 공급자가 게재를 받았습니다.<br /> 호스팅 또는 하이브리드 설치의 경우 로 업그레이드한 경우 <a href="sending-with-enhanced-mta.md" target="_blank">향상된 MTA</a>: 메시지가 Campaign에서 Enhanced MTA로 성공적으로 전달되었습니다.</td> 
   </tr> 
   <tr> 
-   <td> 모바일에서 수신<br /> </td> 
+   <td> 모바일에서 수신됨<br /> </td> 
    <td> 수신자가 모바일 장치에서 SMS를 수신했습니다.<br /> </td> 
   </tr>
   <tr> 
-   <td> 서비스 공급자에게 전송됨<br /> </td> 
+   <td> 서비스 제공자에게 전송<br /> </td> 
    <td> 게재가 SMS 서비스 공급자에게 전송되었지만 아직 수신되지 않았습니다.<br />
    </td> 
   </tr> 
   <tr> 
-   <td> 준비<br /> </td> 
+   <td> 준비됨<br /> </td> 
    <td> 모바일 채널과 같은 외부 커넥터에만 사용되는 중간 상태입니다. '보류 중' 상태를 따르며 다음 상태를 결정하는 외부 커넥터입니다.<br /> </td> 
   </tr> 
  </tbody> 

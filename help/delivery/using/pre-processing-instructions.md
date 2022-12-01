@@ -7,7 +7,7 @@ exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 * **[!DNL xpath]**: 필드의 xpath입니다.
 * **[!DNL index]** (선택 사항): if **[!DNL object]** 는 배열(추가 스크립트 개체의 경우)이며 배열의 항목 인덱스(0부터 시작)입니다.
 
-### [!DNL delivery] 개체 {#delivery-object}
+### [!DNL delivery] 오브젝트 {#delivery-object}
 
 이메일 개인화의 경우 게재 개체는 두 가지 방법으로 액세스할 수 있습니다.
 

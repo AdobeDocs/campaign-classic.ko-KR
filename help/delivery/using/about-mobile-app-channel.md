@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: '모바일 앱 채널 시작 '
+title: 모바일 앱 채널 시작
 description: Adobe Campaign Classic에서 모바일 앱 채널 시작
 feature: Push
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
@@ -94,7 +94,7 @@ Adobe Campaign 서버는 iOS HTTP/2 커넥터용 443 포트의 APNs 서버에 �
    api.development.push.apple.com:443
    ```
 
-* 프로덕션:
+* 제작 중:
 
    ```
    api.push.apple.com:443

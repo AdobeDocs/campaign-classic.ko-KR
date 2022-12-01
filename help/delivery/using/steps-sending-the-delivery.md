@@ -106,7 +106,7 @@ ht-degree: 4%
 
 ![](assets/s_ncs_user_email_del_plan_calendar_timezone.png)
 
-## 여러 웨이브를 사용하여 보내기 {#sending-using-multiple-waves}
+## 예약된 일괄 처리를 사용해 보내기 {#sending-using-multiple-waves}
 
 로드 균형을 맞추기 위해 게재를 여러 개의 배치로 나눌 수 있습니다. 일괄 처리 수와 전체 게재와 관련된 해당 비율을 구성합니다.
 

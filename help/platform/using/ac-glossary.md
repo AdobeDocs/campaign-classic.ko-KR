@@ -164,7 +164,7 @@ Campaign 컨트롤 패널은 Adobe Campaign의 제품 관리자가 각 인스턴
 
 Adobe Campaign에는 다양한 패키지를 설치하여 데이터 유형을 정의하는 데이터 모델이 포함되어 있습니다. 연산자는 리소스를 확장하여 제공되는 데이터 모델을 보강하여 트랜잭션 또는 제품 표와 같은 사용자 지정 필드나 사용자 지정 테이블을 추가할 수 있습니다.
 
-추가 정보 [사용자 지정 리소스](../../configuration/using/about-schema-edition.md).
+추가 정보 [사용자 정의 리소스](../../configuration/using/about-schema-edition.md).
 +++
 
 +++**데이터 모델**

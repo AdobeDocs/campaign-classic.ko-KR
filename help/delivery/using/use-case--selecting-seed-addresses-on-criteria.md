@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: '"활용 사례: 기준 시드 주소 선택"'
-description: '"활용 사례: 기준 시드 주소 선택"'
+title: "활용 사례: 기준 시드 주소 선택"
+description: "활용 사례: 기준 시드 주소 선택"
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05

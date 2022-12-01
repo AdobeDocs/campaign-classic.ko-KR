@@ -9,7 +9,7 @@ exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
 workflow-type: tm+mt
 source-wordcount: '2442'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -345,7 +345,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 >
 >패키지를 자동으로 내보내는 워크플로우 설정에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/campaign/kb/export-packages-automatically.html).
 
-### 추천 {#data-package-recommendations}
+### 권장 사항 {#data-package-recommendations}
 
 항상 동일한 버전의 플랫폼 내에서 가져옵니다. 빌드가 동일한 두 인스턴스 간에 패키지를 배포하는지 확인해야 합니다. 가져오기 작업을 강제로 수행하지 않고, 항상 먼저 플랫폼을 업데이트합니다(빌드가 다른 경우).
 

@@ -48,7 +48,7 @@ Adobe Campaign을 사용하면 다양한 운영자에게 할당된 권한을 정
 * [액세스 권한 매트릭스](access-management-named-rights.md#access-rights-matrix)
 
 
-또한 다음을 참조하십시오:
+참조 항목:
 
 * [워크플로우에 대한 권한 관리](../../workflow/using/managing-rights.md)
 * [분산 마케팅에 대한 권한 관리](../../distributed/using/about-distributed-marketing.md#operators-and-entities)
