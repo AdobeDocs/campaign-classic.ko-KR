@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 1c0aeecd72a35fc6e2e72f4b042df2ff39e5cb6f
+source-git-commit: 8391df5046d56edfb33de5eb9f2afb4738108791
 workflow-type: tm+mt
 source-wordcount: '2771'
 ht-degree: 98%
@@ -149,6 +149,7 @@ _2022년 7월 1일_
 * 게재에서 잘못된 HTML 코드를 사용할 때 충돌이 발생하는 문제를 해결했습니다. (NEO-40385)
 * 관리자가 아닌 사용자가 게재 속성의 **분석** 탭에 액세스할 수 없는 문제를 해결했습니다. (NEO-34025)
 * 메시지를 준비하는 동안 외부 서버에서 청크 모드로 이미지가 업로드되지 않는 문제를 수정했습니다. (NEO-40307)
+* 게재를 예상보다 많은 수신자에게 보낼 수 있는 문제를 수정했습니다. (NEO-45108)
 
 ## ![](assets/do-not-localize/green_2.png) 릴리스 7.2.2 - 빌드 9349 {#release-7-2-2}
 
@@ -242,4 +243,3 @@ Adobe Campaign은 이제 Windows Server 2019와 호환됩니다. [캠페인 호�
 * 워크플로우에 첨부된 이메일 게재를 미리 볼 수 없는 문제를 해결했습니다. (NEO-37840)
 * 데이터베이스 정리 워크플로우에서 목록 값이 포함된 유효한 테이블을 삭제할 수 있는 문제를 해결했습니다. (NEO-34911)
 * 마케팅 인스턴스에서 과금 워크플로우가 충돌할 수 있는 문제를 해결했습니다.
-* 게재를 예상보다 많은 수신자에게 보낼 수 있는 문제를 수정했습니다. (NEO-45108)
