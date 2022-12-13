@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: f37f6c080bc6fb70cbd3f853db4ad8685ae8ebf8
-workflow-type: ht
-source-wordcount: '2737'
-ht-degree: 100%
+source-git-commit: 1c0aeecd72a35fc6e2e72f4b042df2ff39e5cb6f
+workflow-type: tm+mt
+source-wordcount: '2771'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,8 @@ _2022년 11월 21일_
 
 **호환성 업데이트**
 
-* Adobe Campaign이 이제 PostgreSQL 14와 호환됩니다.
+* Adobe Campaign이 이제 PostgreSQL 14와 호환됩니다. 자세한 내용은 다음을 참조하십시오 [기술 정보](../../technotes/using/tech-stack-upgrade.md).
+
 * Microsoft Internet Explorer 11의 수명 종료에 따라 클라이언트 콘솔 환경에서 대시보드용 HTML 렌더링 엔진은 이제 Microsoft Edge Chromium을 사용합니다. (NEO-20741)
 
 [캠페인 호환성 매트릭스](../../rn/using/compatibility-matrix.md#RDBMSservers)를 참조하십시오.
@@ -108,7 +109,7 @@ _2022년 7월 1일_
 * 이제 Adobe Campaign SDK가 Android 12 및 iOS 15에서 푸시 알림을 지원합니다.
 * Adobe Campaign이 이제 MySQL 8과 호환됩니다.
 * Adobe Campaign은 이제 Windows 11과 호환됩니다.
-* Adobe Campaign이 이제 Debian 11과 호환됩니다.
+* Adobe Campaign이 이제 Debian 11과 호환됩니다. 자세한 내용은 다음을 참조하십시오 [기술 정보](../../technotes/using/tech-stack-upgrade.md).
 
 [캠페인 호환성 매트릭스](../../rn/using/compatibility-matrix.md#OperatingSystems)를 참조하십시오.
 
@@ -241,3 +242,4 @@ Adobe Campaign은 이제 Windows Server 2019와 호환됩니다. [캠페인 호�
 * 워크플로우에 첨부된 이메일 게재를 미리 볼 수 없는 문제를 해결했습니다. (NEO-37840)
 * 데이터베이스 정리 워크플로우에서 목록 값이 포함된 유효한 테이블을 삭제할 수 있는 문제를 해결했습니다. (NEO-34911)
 * 마케팅 인스턴스에서 과금 워크플로우가 충돌할 수 있는 문제를 해결했습니다.
+* 게재를 예상보다 많은 수신자에게 보낼 수 있는 문제를 수정했습니다. (NEO-45108)
