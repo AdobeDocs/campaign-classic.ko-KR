@@ -61,7 +61,7 @@ Adobe Campaign은 Adobe Experience Cloud 솔루션의 일부입니다. Campaign�
 
 * **Adobe Experience Cloud 사용에 대한 사용자의 개인 정보 보호 선택**
 
-   Adobe는 고객에게 다음과 같은 내용을 설명하는 개인 정보 보호 정책을 제공하도록 요구합니다.
+   Adobe는 고객에게 다음과 같은 내용을 설명하는 개인정보 처리방침을 제공하도록 요구합니다.
 
    * Adobe Experience Cloud과 관련된 개인 정보 보호 사례
    * 사용자가 Adobe Experience Cloud과 관련하여 자신의 정보를 수집하거나 사용하는 것에 대한 환경 설정을 하는 방법
