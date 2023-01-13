@@ -6,10 +6,10 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
-source-git-commit: 1f6846f29c44719fdbd334327466619ed265452a
+source-git-commit: 62ccc9e52de1bc416284e5b1bf48d69dc603923a
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 100%
+source-wordcount: '1508'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Adobe Analytics 커넥터 통합 정보 {#about-analytics-connector-integration}
 
-Adobe Analytics 커넥터를 사용하면 Adobe Campaign 및 Adobe Analytics이 **[!UICONTROL Web Analytics connectors]** 패키지를 통해 상호 작용할 수 있습니다. Adobe Analytics 커넥터는 이메일 캠페인 후 사용자 행동에 대한 세그먼트 형태로 Adobe Campaign에 데이터를 전달합니다. 반대로 Adobe Campaign에서 게재하는 이메일 캠페인의 지표와 특성은 Adobe Analytics로 보냅니다. 
+Adobe Analytics 커넥터를 사용하면 Adobe Campaign 및 Adobe Analytics이 **[!UICONTROL Web Analytics connectors]** 패키지를 통해 상호 작용할 수 있습니다. 캠페인 후 사용자 행동에 대한 세그먼트 형태로 Adobe Campaign에 데이터를 전달합니다. 반대로 Adobe Campaign에서 Adobe Analytics으로 전달하는 캠페인의 지표와 특성을 보냅니다.
 
 >[!CAUTION]
 >
@@ -34,8 +34,8 @@ Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상�
 
 * 웹 분석의 역할:
 
-   1. Adobe Campaign으로 시작한 이메일 캠페인을 표시합니다.
-   1. 캠페 이메일을 클릭한 후 검색한 사이트에서 수신자 동작을 세그먼트 형태로 저장합니다. 세그먼트는 포기한 제품(장바구니에 표시되지만 장바구니에 추가되지 않음), 구매 또는 장바구니 포기와 관련이 있습니다.
+   1. Adobe Campaign으로 시작한 캠페인을 표시합니다.
+   1. 캠페인을 클릭한 후 검색한 사이트에서 수신자 동작을 세그먼트 형태로 저장합니다. 세그먼트는 포기한 제품(장바구니에 표시되지만 장바구니에 추가되지 않음), 구매 또는 장바구니 포기와 관련이 있습니다.
 
 * Adobe Campaign의 역할:
 
@@ -98,7 +98,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
    ![](assets/analytics_connnector_5.png)
 
-1. 이메일 캠페인의 영향을 측정하는 데 필요한 식별자, 즉, 내부 캠페인 이름(cid) 및 iNmsBroadlog(bid) 테이블 ID를 만들려면 **[!UICONTROL Add new]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL Add new]** 캠페인의 영향을 측정하는 데 필요한 식별자를 만들려면 내부 캠페인 이름(cid) 및 iNmsBroadlog(bid) 테이블 ID를 참조하십시오.
 
    **[!UICONTROL Conversion variables]**&#x200B;을(를) 편집하는 방법에 대해 알아보려면 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=ko#admin-tools)을 참조하십시오.
 
@@ -202,7 +202,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
    >[!IMPORTANT]
    >
-   >이 구성 모드는 전문가 사용자용으로 예약되어 있습니다. 이 수식에 오류가 발생하면 이메일 게재가 중지될 수 있습니다.
+   >이 구성 모드는 전문가 사용자용으로 예약되어 있습니다. 이 수식의 오류가 발생하면 게재가 중지될 수 있습니다.
 
 1. **[!UICONTROL Advanced]** 탭에서는 더 많은 기술 설정을 구성하거나 수정할 수 있습니다.
 
@@ -224,7 +224,7 @@ Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작
 * **[!UICONTROL Recovering of web events]**: 한 시간에 한 번, 이 워크플로우는 주어진 사이트에서 사용자의 행동에 대한 세그먼트를 다운로드하여 Adobe Campaign 데이터베이스에 포함하고 리마케팅 워크플로우를 시작합니다.
 * **[!UICONTROL Event purge]**: 이 워크플로우를 사용하면 **[!UICONTROL Lifespan]** 필드에 구성된 기간에 따라 데이터베이스에서 모든 이벤트를 삭제할 수 있습니다. 자세한 내용은 Adobe Campaign Classic](#external-account-classic)에서 외부 계정 구성[을 참조하십시오.
 * **[!UICONTROL Identification of converted contacts]**: 리마케팅 캠페인 후 구매한 방문자의 디렉토리. 이 워크플로우에서 수집한 데이터는 **[!UICONTROL Re-marketing efficiency]** 보고서에서 액세스할 수 있습니다. 이 [페이지](#creating-a-re-marketing-campaign)를 참조하십시오.
-* **[!UICONTROL Sending of indicators and campaign attributes]**: Adobe Analytics 커넥터를 사용하여 Adobe Campaign을 통해 Adobe Experience Cloud로 이메일 캠페인 지표를 전송할 수 있습니다. 이 워크플로우는 매일 오전 4시에 트리거되며 데이터를 Analytics에 전송하는 데 24시간이 걸릴 수 있습니다.
+* **[!UICONTROL Sending of indicators and campaign attributes]**: Adobe Analytics 커넥터를 사용하여 Adobe Campaign을 통해 Adobe Experience Cloud으로 캠페인 표시기를 전송할 수 있습니다. 이 워크플로우는 매일 오전 4시에 트리거되며 데이터를 Analytics에 전송하는 데 24시간이 걸릴 수 있습니다.
 
    이 워크플로우를 다시 시작하지 않아야 합니다. 그렇지 않으면 Analytics 결과를 왜곡할 수 있는 모든 이전 데이터가 다시 전송됩니다.
 

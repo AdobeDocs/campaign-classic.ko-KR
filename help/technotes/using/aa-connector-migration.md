@@ -3,10 +3,10 @@ product: campaign
 title: Adobe Analytics 커넥터로 마이그레이션
 description: Campaign - Analytics 커넥터 FAQ
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 9667bb436ffc591b05945dadd683e5f590ae43e5
+source-git-commit: 62ccc9e52de1bc416284e5b1bf48d69dc603923a
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 6%
+source-wordcount: '858'
+ht-degree: 5%
 
 ---
 
@@ -20,9 +20,11 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 
 사용자 **를 구현해야 함** 기존 Data Connectors 통합을 대체하는 새로운 Adobe Analytics Connector on Adobe Exchange 통합. Adobe Analytics 커넥터에 대한 자세한 내용은 [이 페이지](../../platform/using/adobe-analytics-connector.md).
 
+이러한 변경 사항에 대한 질문이 있으면 [FAQ](#faq-aa). 자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
 >[!NOTE]
 >
->이러한 변경 사항에 대한 질문이 있으면 [FAQ](#faq-aa). 자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>기존 Adobe Analytics 데이터 커넥터(이전에 Genesis 통합으로 알려짐)에서 마이그레이션하고 Adobe Analytics의 새 분류 아키텍처를 사용하는 경우, 새 Adobe Analytics 커넥터로 마이그레이션하려면 7.3.1 또는 8.4.1부터 시작하는 빌드 버전이 필요합니다.
 
 ## 변경 사항
 
@@ -34,7 +36,7 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 
 * 내장된 기술 워크플로우와 그 동작은 동일하게 유지됩니다. 워크플로우에서 Adobe Analytics과 데이터를 푸시/가져오는 데 사용하는 백엔드 API만 변경되었습니다.
 
-* 다음 사항에 유의하십시오. `nlserver` 새 커넥터가 작동하려면 IMS 기술 계정 사용자로 프로세스를 구성해야 합니다. 이 변경은 Adobe에서 수행해야 합니다. 이를 구현하려면 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+* 다음 사항에 유의하십시오. `nlserver` 새 커넥터가 작동하려면 IMS 기술 계정 사용자로 프로세스를 구성해야 합니다. 이 변경은 Adobe에서 수행해야 합니다. 이를 구현하려면 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * Adobe Analytics에서 데이터를 가져오고 푸시하는 사용자 지정 워크플로우에서 Adobe Genesis API를 사용하는 경우 이제 새로운 Adobe Analytics 1.4/2.0 API를 사용해야 합니다. [자세히 알아보기](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360047148832-Replacements-for-Data-Connector-API-calls)
 
@@ -80,7 +82,7 @@ Data Connectors에 대해 자세히 알아보기 `Integration Owner Not Admin` �
 
 Analytics 구성 요소의 세부 사항을 읽는 경우(지표/차원/세그먼트/보고서 세트 등) API는 결과에 이러한 구성 요소를 반환하지 않습니다(Analytics 측에서 삭제되었거나 존재하지 않을 수 있음). Analytics API는 이러한 요청 및 오류를 거부합니다.
 
-해결 방법은 **제품 프로필** 기술 사용자 토큰의 Analytics 사용자 컨텍스트에서 구성 요소를 추가하여 새로 만들거나 누락된 구성 요소를 포함합니다. [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}. 자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+해결 방법은 **제품 프로필** 기술 사용자 토큰의 Analytics 사용자 컨텍스트에서 구성 요소를 추가하여 새로 만들거나 누락된 구성 요소를 포함합니다. [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}. 자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## 유용한 링크
 
