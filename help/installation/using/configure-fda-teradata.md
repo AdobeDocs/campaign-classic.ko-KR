@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
+source-git-commit: 65e80f16a6beaee89b51636017c42766589e179e
 workflow-type: tm+mt
 source-wordcount: '1798'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -92,7 +92,7 @@ teradata 외부 계정을 사용하면 Campaign 인스턴스를 Teradata 외부 
 
    * **[!UICONTROL Database]**: 데이터베이스 이름(선택 사항)
 
-   * **[!UICONTROL Options]**: teradata을 통해 전달할 옵션입니다. 다음 형식을 사용하십시오. &#39;parameter=value&#39;. 반열을 값 사이의 구분자로 사용합니다.
+   * **[!UICONTROL Options]**: teradata을 통해 전달할 옵션입니다. 다음 형식을 사용하십시오. &#39;parameter=value&#39;. 세미콜론을 값 사이의 구분자로 사용합니다.
 
    * **[!UICONTROL Timezone]**: teradata에서 설정된 시간대. [자세히 알아보기](#timezone)
 

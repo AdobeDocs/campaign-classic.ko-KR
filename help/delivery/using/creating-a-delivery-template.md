@@ -4,9 +4,9 @@ title: 게재 템플릿 만들기
 description: 게재 템플릿 만들기
 feature: Delivery Templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 65e80f16a6beaee89b51636017c42766589e179e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '383'
 ht-degree: 11%
 
 ---
@@ -33,6 +33,10 @@ ht-degree: 11%
 
 ## 새 템플릿 만들기 {#creating-a-new-template}
 
+>[!NOTE]
+>
+>구성 오류를 방지하기 위해 새 템플릿을 만들지 않고 기본 템플릿을 복제하고 해당 설정을 사용자 지정하는 것이 좋습니다.
+
 게재 템플릿을 구성하려면 다음 단계를 수행하십시오.
 
 1. 캠페인 탐색기를 엽니다.
@@ -40,7 +44,7 @@ ht-degree: 11%
 
    ![](assets/delivery_template_1.png)
 
-1. 클릭 **새로 만들기** 을 클릭하여 새 게재 템플릿을 만듭니다.
+1. 클릭 **새로 만들기** 도구 모음에서 새 게재 템플릿을 만들거나 **복제** 기존 템플릿.
 
    ![](assets/delivery_template_2.png)
 
@@ -62,9 +66,6 @@ ht-degree: 11%
 
 1. 클릭 **저장**. 이제 템플릿을 게재에서 사용할 수 있습니다.
 
->[!NOTE]
->
->구성 오류를 방지하려면 새 템플릿을 만들지 않고 기본 템플릿을 복제하고 해당 속성을 변경하는 것이 좋습니다.
 
 ## 튜토리얼 비디오 {#delivery-template-video}
 
