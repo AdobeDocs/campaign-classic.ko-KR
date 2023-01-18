@@ -4,7 +4,7 @@ title: 타겟팅 활동 기본 정보
 description: 타겟팅 활동 기본 정보
 feature: Workflows, Audiences, Targeting Activity
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 743baa49e5d62ed1c2f7f635f6bf120a67646e63
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 * **목록 읽기**: 목록에 포함된 데이터를 사용할 수 있습니다. 자세한 내용은 [목록의 데이터 사용: 목록 읽기](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list) 섹션을 참조하십시오.
 * **결합**: 여러 활동의 결과를 하나의 타겟으로 그룹화할 수 있습니다. 자세한 내용은 [결합](union.md) 섹션을 참조하십시오.
 * **교차**: 동일한 인바운드 활동 결과를 사용하는 모집단만 추출할 수 있습니다. 자세한 내용은 [교차](intersection.md) 섹션을 참조하십시오.
-* **제외**: 하나 이상의 다른 대상이 추출되는 기본 대상을 기반으로 대상을 만들 수 있습니다. 자세한 내용은 [교차](intersection.md) 섹션을 참조하십시오.
+* **제외**: 하나 이상의 다른 대상이 추출되는 기본 대상을 기반으로 대상을 만들 수 있습니다. 자세한 내용은 [제외](exclusion.md) 섹션을 참조하십시오.
 * **분할**: 대상을 여러 하위 집합으로 분할할 수 있습니다. 자세한 내용은 [분할](split.md) 섹션을 참조하십시오.
 * **셀**: 에서는 데이터 열 형태로 다양한 하위 세트를 볼 수 있으며, 하위 세트가 많을 경우 이러한 하위 집합을 쉽게 조작할 수 있습니다. 자세한 내용은 [셀](cells.md) 섹션을 참조하십시오.
 * **셀별 오퍼**: 다른 오퍼를 모집단의 각 하위 세트에 연결할 수 있습니다. 자세한 내용은 [셀별 오퍼](offers-by-cell.md) 섹션을 참조하십시오.
