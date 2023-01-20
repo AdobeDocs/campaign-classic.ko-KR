@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: f05cea5c9a7b9088d0b86986373b6a0188315aae
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -60,4 +60,5 @@ Tomcat 서버의 8080 수신 대기 포트가 구성에 필요한 다른 응용 
    ```
    <Valve className="org.apache.catalina.valves.ErrorReportValve" showReport="false" showServerInfo="false"/>
    ```
+
 1. nlserver 및 Apache 웹 서버를 다시 시작합니다.
