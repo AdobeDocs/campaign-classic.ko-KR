@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 8391df5046d56edfb33de5eb9f2afb4738108791
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2771'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ _2022년 11월 21일_
 
 **호환성 업데이트**
 
-* Adobe Campaign이 이제 PostgreSQL 14와 호환됩니다. 자세한 내용은 다음을 참조하십시오 [기술 정보](../../technotes/using/tech-stack-upgrade.md).
+* Adobe Campaign이 이제 PostgreSQL 14와 호환됩니다. 자세한 정보는 이 [기술 노트](../../technotes/using/tech-stack-upgrade.md)를 참조하세요.
 
 * Microsoft Internet Explorer 11의 수명 종료에 따라 클라이언트 콘솔 환경에서 대시보드용 HTML 렌더링 엔진은 이제 Microsoft Edge Chromium을 사용합니다. (NEO-20741)
 
@@ -109,7 +109,7 @@ _2022년 7월 1일_
 * 이제 Adobe Campaign SDK가 Android 12 및 iOS 15에서 푸시 알림을 지원합니다.
 * Adobe Campaign이 이제 MySQL 8과 호환됩니다.
 * Adobe Campaign은 이제 Windows 11과 호환됩니다.
-* Adobe Campaign이 이제 Debian 11과 호환됩니다. 자세한 내용은 다음을 참조하십시오 [기술 정보](../../technotes/using/tech-stack-upgrade.md).
+* Adobe Campaign이 이제 Debian 11과 호환됩니다. 자세한 정보는 이 [기술 노트](../../technotes/using/tech-stack-upgrade.md)를 참조하세요.
 
 [캠페인 호환성 매트릭스](../../rn/using/compatibility-matrix.md#OperatingSystems)를 참조하십시오.
 
@@ -149,7 +149,7 @@ _2022년 7월 1일_
 * 게재에서 잘못된 HTML 코드를 사용할 때 충돌이 발생하는 문제를 해결했습니다. (NEO-40385)
 * 관리자가 아닌 사용자가 게재 속성의 **분석** 탭에 액세스할 수 없는 문제를 해결했습니다. (NEO-34025)
 * 메시지를 준비하는 동안 외부 서버에서 청크 모드로 이미지가 업로드되지 않는 문제를 수정했습니다. (NEO-40307)
-* 게재를 예상보다 많은 수신자에게 보낼 수 있는 문제를 수정했습니다. (NEO-45108)
+* 원하는 수신자보다 많은 사람에게 게재가 보내질 수 있는 문제를 해결했습니다. (NEO-45108)
 
 ## ![](assets/do-not-localize/green_2.png) 릴리스 7.2.2 - 빌드 9349 {#release-7-2-2}
 
