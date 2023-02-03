@@ -6,9 +6,9 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98b338ddf0da184363c599d74aeb98ed7f6303ce
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1176'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,6 @@ ht-degree: 1%
 PostgreSQL에서는 다음과 같은 일반적인 키워드를 사용할 수 있습니다.
 
 * 진공(전체, 분석, 세부 정보)
-* 다시 색인화
 
 VACUUM 작업을 실행하고 분석 및 시간을 지정하려면 다음 구문을 사용할 수 있습니다.
 
@@ -99,61 +98,48 @@ ANALYZE 문을 생략하지 않는 것이 좋습니다. 그렇지 않으면, 진
 ```
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsdelivery;
-REINDEX TABLE nmsdelivery;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsdeliverystat;
-REINDEX TABLE nmsdeliverystat;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflow;
-REINDEX TABLE xtkworkflow;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowevent;
-REINDEX TABLE xtkworkflowevent;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowjob;
-REINDEX TABLE xtkworkflowjob;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowlog;
-REINDEX TABLE xtkworkflowlog;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowtask;
-REINDEX TABLE xtkworkflowtask;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkjoblog;
-REINDEX TABLE xtkjoblog;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkjob;
-REINDEX TABLE xtkjob;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsaddress;
-REINDEX TABLE nmsaddress;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsdeliverypart;
-REINDEX TABLE nmsdeliverypart;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
-REINDEX TABLE nmsmirrorpageinfo;
 ```
 
 >[!NOTE]
 >
 >* Adobe은 더 작은 표로 시작하는 것이 좋습니다. 이 방법으로 큰 테이블에서 프로세스가 실패하는 경우(실패 위험이 가장 높은 경우) 유지 관리의 적어도 일부가 완료되었습니다.
 >* Adobe은 데이터 모델에 해당하는 테이블을 추가하여 중요한 업데이트를 적용할 수 있습니다. 이 예는 다음과 같습니다 **NmsRecipient** 일별 데이터 복제 흐름이 많은 경우
->* VACUUM 및 REINDEX 문은 테이블을 잠가 유지 관리가 수행되는 동안 일부 프로세스를 일시 중지합니다.
+>* VACUUM 문은 테이블을 잠가 유지 관리가 수행되는 동안 일부 프로세스를 일시 중지합니다.
 >* 매우 큰 테이블(일반적으로 5Gb 이상)의 경우, INVACUM FULL 문은 매우 비효율적이고 오랜 시간이 걸릴 수 있습니다. Adobe은 **YyyNmsBroadLogXxx** 테이블.
 >* 이 유지 관리 작업은 Adobe Campaign 워크플로우를 사용하여 구현할 수 있습니다. **[!UICONTROL SQL]** 활동. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/architecture.md)을 참조하십시오. 백업 윈도우와 충돌하지 않는 낮은 작업 시간에 대한 유지 관리를 예약해야 합니다.
-
 >
 
 
