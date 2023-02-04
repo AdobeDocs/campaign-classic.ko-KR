@@ -5,9 +5,9 @@ description: ISP 중단 후 반송 조건을 업데이트하는 방법을 알아
 feature: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: 13f730d428861124060146efa26238ceca38bed6
+source-git-commit: f320c905f50c69a40678729b009a4c238a462e3c
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ ISP가 중단되는 경우, Campaign을 통해 전송된 이메일을 수신자�
 >
 >에서 Google 작업 공간 상태 대시보드를 확인할 수 있습니다 [이 페이지](https://www.google.com/appsstatus#hl=en&amp;v=status){_blank}.
 
-## 증상{#update-bounce-symptoms}
+## 영향{#update-bounce-impact}
 
 ISP가 중단되는 경우, Campaign을 통해 전송된 이메일을 수신자에게 전달할 수 없습니다. 이 이메일은 반송 행위로 잘못 표시될 것입니다.
 
@@ -57,7 +57,10 @@ ISP가 중단되는 경우, Campaign을 통해 전송된 이메일을 수신자�
 
 * 에서 SMTP 바운스 응답 정보가 있는 Campaign Classic v7 인스턴스의 경우 **[!UICONTROL Error text]** 격리 목록 필드:
 
-   * **오류 텍스트(격리 텍스트)** 및 &quot;550-5.1.1&quot;을 포함합니다. **오류 텍스트(격리 텍스트)** 에는 &quot;support.ISP.com&quot; &quot;support.ISP.com&quot;이 포함될 수 있습니다. &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;(예:
+   * **오류 텍스트(격리 텍스트)** 및 &quot;550-5.1.1&quot;을 포함합니다. **오류 텍스트(격리 텍스트)** contains &quot;support.ISP.com&quot;
+
+      여기서 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;(예:
+
    * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 그 다음:MM:SS AM
    * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 그 전:MM:SS PM
 
