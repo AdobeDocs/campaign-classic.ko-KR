@@ -5,9 +5,9 @@ description: Italia Online 중단 후 반송 조건을 업데이트하는 방법
 feature: Deliverability
 hide: true
 hidefromtow: true
-source-git-commit: 3cf6ffb2b69d44b56615492dd9db8965ae3cf4e1
+source-git-commit: 0e6a46e4a0575fa5a300a952a6bb134f3426172e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 0%
 
 ## 영향{#outage-impact}
 
-ISP가 중단되는 경우, Campaign을 통해 전송된 이메일을 수신자에게 전달할 수 없습니다. 이 이메일은 반송 행위로 잘못 표시될 것입니다. 이것은 Adobe에 영향을 줄 뿐만 아니라 모든 사람이 Italia Online으로 이메일을 배달하려고 합니다.
+대부분의 경우, ISP가 중단되었을 때, Campaign을 통해 보낸 일부 이메일이 바운스로 잘못 표시되었습니다. 이는 Adobe에 영향을 줄 뿐만 아니라 중단 기간 동안 Italia Online으로 이메일을 전달하려고 시도하는 모든 사용자에게도 영향을 주었습니다.
 
-증상:
+증상으로는
 
-* **지연 바운스** 메시지 사용 `452 requested action aborted: try again later` 관찰되고 있음 - 이러한 작업이 자동으로 다시 시도되므로 작업이 필요하지 않습니다. 이 기능은 ISP가 전체 용량을 회복함에 따라 개선되어야 합니다.
+* **지연 바운스** 메시지 사용 `452 requested action aborted: try again later` - 이러한 작업은 자동으로 다시 시도되며 필요한 작업이 없습니다.
 
 * **하드 바운스 수** 메시지 사용 `550 <email address> recipient rejected` 은(는) 보낸 사람이 서버를 계속 오버로드하지 않도록 하기 위해 1월 26일 오전 8시~오후 2시(현지 시간) 사이에 ISP에 의해 반환되었습니다. Italia Online Postmaster에서 확인한 바와 같이, 실제 하드 바운스는 아니므로, 해당 메시지로 인해 2023년 1월 26일에 제외된 모든 이메일 주소는 격리하지 않는 것이 좋습니다.
 

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 9cdd4da153e5e5d1c7203d193067843fe832f38e
+source-git-commit: 1cc1568fe77cc5bbde88092b0e9108792e10fd71
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 90%
+source-wordcount: '934'
+ht-degree: 85%
 
 ---
 
@@ -67,7 +67,7 @@ Adobe Campaign Classic은 특히 다양한 기술을 사용하여 가치를 전�
 
 ### 내 조직에 이 업그레이드가 필요한 이유는 무엇인가요?
 
-호스팅 고객인 사용자의 계정에서 Campaign Classic과 관련된 기술 중 하나 이상을 업그레이드하고 현재 빌드 및/또는 버전을 업데이트할 필요가 있다고 판단되면 Adobe에서 즉시 알려드립니다.
+호스팅된 고객으로서, Campaign Classic과 관련된 기술 중 하나 이상을 업그레이드하고 인프라를 현재 빌드(예: v7.2.1에서 v7.3.3으로)로 업그레이드해야 하는 것으로 계정이 확인되면 Adobe은 직접 사용자에게 알림을 보냅니다. v7~v8.
 
 이전 빌드에서 실행되는 온-프레미스 또는 하이브리드 고객은 Adobe에서 최신 안정적인 빌드(GA)로 이동할 것을 권장합니다.
 
