@@ -4,10 +4,10 @@ title: 격리 관리 이해
 description: 격리 관리 이해
 feature: Monitoring, Deliverability
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: f7813764e55986efa3216b50e5ebf4387bd70e5e
+source-git-commit: c84f48ebdd66524e8dd6c39c88ae29565d11c9b2
 workflow-type: tm+mt
-source-wordcount: '2983'
-ht-degree: 13%
+source-wordcount: '2997'
+ht-degree: 12%
 
 ---
 
@@ -130,6 +130,8 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
 ## 격리된 주소 제거 {#removing-a-quarantined-address}
 
+### 자동 업데이트 {#unquarantine-auto}
+
 특정 조건과 일치하는 주소는 격리 목록에서 [데이터베이스 정리](../../production/using/database-cleanup-workflow.md) 워크플로우.
 
 다음과 같은 경우 주소가 격리 목록에서 자동으로 제거됩니다.
@@ -144,17 +146,21 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 >
 >주소가 있는 수신자 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 상태는 이메일을 수신하더라도 제거되지 않습니다.
 
+### 수동 업데이트 {#unquarantine-manual}
+
 주소를 수동으로 격리 해제할 수도 있습니다. 격리 목록에서 주소를 수동으로 제거하려면 상태를 로 변경합니다 **[!UICONTROL Valid]** 에서 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** 노드 아래에 있어야 합니다.
 
 ![](assets/tech_quarant_error_status.png)
 
-전자 메일이 수신자에게 성공적으로 배달될 수 없기 때문에 반송 횟수로 잘못 표시되는 ISP 중단 등의 경우, 격리 목록에서 벌크 업데이트를 수행해야 할 수 있습니다.
+### 벌크 업데이트 {#unquarantine-bulk}
 
-이렇게 하려면 워크플로우를 만들고 격리 테이블에 쿼리를 추가하여 영향을 받은 모든 수신자를 격리 목록에서 제거하고 향후 Campaign 이메일 게재에 포함할 수 있도록 필터링합니다.
+예를 들어 ISP 중단이 발생하는 경우 격리 목록에서 벌크 업데이트를 수행해야 할 수 있습니다. 이러한 경우 이메일은 수신자에게 성공적으로 배달될 수 없기 때문에 바운스로 잘못 표시됩니다. 이러한 주소는 격리 목록에서 제거해야 합니다.
+
+이렇게 하려면 워크플로우를 만들고 **[!UICONTROL Query]** 격리 테이블의 활동에서 영향을 받은 모든 수신자를 필터링합니다. 식별되면 격리 목록에서 제거할 수 있으며 향후 Campaign 이메일 게재에 포함할 수 있습니다.
 
 다음은 이 쿼리에 대한 권장 지침입니다.
 
-* 에서 인바운드 전자 메일 규칙 정보를 사용하는 Campaign v8 및 Campaign Classic v7 환경의 경우 **[!UICONTROL Error text]** 격리 목록 필드:
+* 에서 인바운드 전자 메일 규칙 정보가 있는 Campaign Classic v7 환경의 경우 **[!UICONTROL Error text]** 격리 목록 필드:
 
    * **오류 텍스트(격리 텍스트)** contains &quot;Momen_Code10_InvalidRecipient&quot;
    * **이메일 도메인(@domain)** domain1.com과 같음 또는 **이메일 도메인(@domain)** domain2.com과 같음 또는 **이메일 도메인(@domain)** domain3com과 같음
@@ -171,11 +177,11 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
    * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 그 전:MM:SS PM
 
 
-영향을 받는 수신자 목록이 있으면 을(를) 추가합니다 **[!UICONTROL Update data]** 활동을 통해 상태를 로 설정 **[!UICONTROL Valid]** 따라서 다음을 통해 격리 목록에서 제거됩니다 **[!UICONTROL Database cleanup]** 워크플로우, 격리 테이블에서 삭제할 수도 있습니다.
+영향을 받는 수신자 목록이 있으면 을(를) 추가합니다 **[!UICONTROL Update data]** 활동을 통해 이메일 주소 상태를 **[!UICONTROL Valid]** 따라서 다음을 통해 격리 목록에서 제거됩니다 **[!UICONTROL Database cleanup]** 워크플로우. 격리 테이블에서 삭제할 수도 있습니다.
 
 ## 푸시 알림 격리 {#push-notification-quarantines}
 
-푸시 알림에 대한 격리 메커니즘은 전반적인 프로세스와 동일합니다. 자세한 내용은 [격리 기본 정보](#about-quarantines). 그러나 특정 오류는 푸시 알림에 대해 다르게 관리됩니다. 예를 들어 특정 소프트 오류의 경우 동일한 배달 내에서 다시 시도가 수행되지 않습니다. 푸시 알림의 특성은 아래에 나와 있습니다. 다시 시도 메커니즘(다시 시도 횟수, 빈도)은 이메일과 동일합니다.
+푸시 알림에 대한 격리 메커니즘은 전반적인 프로세스와 동일합니다. 그러나 특정 오류는 푸시 알림에 대해 다르게 관리됩니다. 예를 들어 특정 소프트 오류의 경우 동일한 배달 내에서 다시 시도가 수행되지 않습니다. 푸시 알림의 특성은 아래에 나와 있습니다. 다시 시도 메커니즘(다시 시도 횟수, 빈도)은 이메일과 동일합니다.
 
 격리된 항목은 장치 토큰입니다.
 

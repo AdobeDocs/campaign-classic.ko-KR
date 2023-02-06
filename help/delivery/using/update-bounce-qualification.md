@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Gmail 작동 중단 후 반송 조건 업데이트
-description: ISP 중단 후 반송 조건을 업데이트하는 방법을 알아봅니다
+title: Apple 2021년 중단 후 반송 조건 업데이트
+description: Apple 2021년 중단 후 반송 조건을 업데이트하는 방법 알아보기
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: 13f730d428861124060146efa26238ceca38bed6
+source-git-commit: c84f48ebdd66524e8dd6c39c88ae29565d11c9b2
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 1%
 
 ---

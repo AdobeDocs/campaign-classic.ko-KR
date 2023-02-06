@@ -5,9 +5,9 @@ description: ISP 중단 후 반송 조건을 업데이트하는 방법을 알아
 feature: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: f320c905f50c69a40678729b009a4c238a462e3c
+source-git-commit: 9cdd4da153e5e5d1c7203d193067843fe832f38e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '513'
 ht-degree: 2%
 
 ---
@@ -48,14 +48,14 @@ ISP가 중단되는 경우, Campaign을 통해 전송된 이메일을 수신자�
 
 이 쿼리에 대한 권장 지침은 인시던트의 일정 및 ISP를 기반으로 합니다.
 
-* 에서 인바운드 전자 메일 규칙 정보를 사용하는 Campaign v8 및 Campaign Classic v7 환경의 경우 **[!UICONTROL Error text]** 격리 목록 필드:
+* 에서 인바운드 전자 메일 규칙 정보가 있는 Campaign 환경의 경우 **[!UICONTROL Error text]** 격리 목록 필드:
 
    * **오류 텍스트(격리 텍스트)** contains &quot;Momen_Code10_InvalidRecipient&quot;
    * **이메일 도메인(@domain)** domain1.com과 같음 또는 **이메일 도메인(@domain)** domain2.com과 같음 또는 **이메일 도메인(@domain)** domain3com과 같음
    * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 그 다음:MM:SS AM
    * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 그 전:MM:SS PM
 
-* 에서 SMTP 바운스 응답 정보가 있는 Campaign Classic v7 인스턴스의 경우 **[!UICONTROL Error text]** 격리 목록 필드:
+* 에서 SMTP 바운스 응답 정보가 있는 Campaign 환경의 경우 **[!UICONTROL Error text]** 격리 목록 필드:
 
    * **오류 텍스트(격리 텍스트)** 및 &quot;550-5.1.1&quot;을 포함합니다. **오류 텍스트(격리 텍스트)** contains &quot;support.ISP.com&quot;
 
