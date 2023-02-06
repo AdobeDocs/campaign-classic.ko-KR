@@ -4,9 +4,9 @@ title: 격리 관리 이해
 description: 격리 관리 이해
 feature: Monitoring, Deliverability
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: f7813764e55986efa3216b50e5ebf4387bd70e5e
 workflow-type: tm+mt
-source-wordcount: '2837'
+source-wordcount: '2983'
 ht-degree: 13%
 
 ---
@@ -95,37 +95,6 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 
 ![](assets/tech_quarant_recipients_filter.png)
 
-### 격리된 주소 제거 {#removing-a-quarantined-address}
-
-필요한 경우 격리 목록에서 주소를 수동으로 제거할 수 있습니다. 또한 특정 조건과 일치하는 주소는 격리 목록에서 [데이터베이스 정리](../../production/using/database-cleanup-workflow.md) 워크플로우.
-
-격리 목록에서 주소를 수동으로 제거하려면 아래 작업 중 하나를 수행합니다.
-
->[!IMPORTANT]
->
->격리 시 이메일 주소를 수동으로 삭제하는 것은 이 주소로 다시 배달하기 시작함을 의미합니다. 따라서 게재 능력과 IP 평판에 심각한 영향을 줄 수 있으므로 IP 주소 또는 전송 도메인이 차단될 수 있습니다. 격리된 주소 제거를 고려할 때 추가 주의가 필요합니다. 확실하지 않은 경우 게재 가능성 전문가에게 문의하십시오.
-
-* 상태를 **[!UICONTROL Valid]** 에서 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** 노드 아래에 있어야 합니다.
-
-   ![](assets/tech_quarant_error_status.png)
-
-* 상태를 **[!UICONTROL Allowlisted]**. 이 경우 주소는 격리 목록에 남아 있지만 오류가 발생하는 경우에도 체계적으로 타겟팅됩니다.
-
-다음과 같은 경우 주소가 격리 목록에서 자동으로 제거됩니다.
-
-* 의 주소 **[!UICONTROL With errors]** 게재가 성공하면 상태가 격리 목록에서 제거됩니다.
-* 의 주소 **[!UICONTROL With errors]** 10일 이상 전에 마지막 소프트 바운스가 발생한 경우 상태가 격리 목록에서 제거됩니다. 소프트 오류 관리에 대한 자세한 내용은 [이 섹션](#soft-error-management).
-* 의 주소 **[!UICONTROL With errors]** 다음으로 바운스된 상태 **[!UICONTROL Mailbox full]** 30일 후 격리 목록에서 오류가 제거됩니다.
-
-그러면 상태가 **[!UICONTROL Valid]**.
-
->[!IMPORTANT]
->
->주소가 있는 수신자 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 이메일이 수신되더라도 상태는 제거되지 않습니다.
-
-호스팅 또는 하이브리드 설치의 경우 로 업그레이드한 경우 [향상된 MTA](sending-with-enhanced-mta.md)로 설정되면 **[!UICONTROL Erroneous]** 상태 및 다시 시도 사이의 최소 지연은 IP가 과거 및 현재 지정된 도메인에서 얼마나 성과가 있는지 기준으로 합니다.
-
-레거시 Campaign MTA를 사용하는 온-프레미스 설치 및 호스팅/하이브리드 설치의 경우 오류 수와 두 오류 사이의 기간을 수정할 수 있습니다. 이렇게 하려면 [배포 마법사](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) 또는 [게재 수준에서](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
 ## 주소를 격리하는 조건 {#conditions-for-sending-an-address-to-quarantine}
 
@@ -152,6 +121,57 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 다음 기간 동안 다시 시도가 수행됩니다 [게재 기간](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period). 오류 카운터가 제한 임계값에 도달하면 주소가 격리됩니다. 자세한 내용은 [일시적 게재 실패 후 다시 시도](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 10일 이전에 마지막으로 중요한 오류가 발생한 경우 오류 카운터는 다시 초기화됩니다. 그러면 주소 상태가 **유효한** 그리고 격리 목록에서 [데이터베이스 정리](../../production/using/database-cleanup-workflow.md) 워크플로우.
+
+
+호스팅 또는 하이브리드 설치의 경우 로 업그레이드한 경우 [향상된 MTA](sending-with-enhanced-mta.md)로 설정되면 **[!UICONTROL Erroneous]** 상태 및 다시 시도 사이의 최소 지연은 IP가 과거 및 현재 지정된 도메인에서 얼마나 성과가 있는지 기준으로 합니다.
+
+레거시 Campaign MTA를 사용하는 온-프레미스 설치 및 호스팅/하이브리드 설치의 경우 오류 수와 두 오류 사이의 기간을 수정할 수 있습니다. 이렇게 하려면 [배포 마법사](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) 또는 [게재 수준에서](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
+
+
+## 격리된 주소 제거 {#removing-a-quarantined-address}
+
+특정 조건과 일치하는 주소는 격리 목록에서 [데이터베이스 정리](../../production/using/database-cleanup-workflow.md) 워크플로우.
+
+다음과 같은 경우 주소가 격리 목록에서 자동으로 제거됩니다.
+
+* 의 주소 **[!UICONTROL With errors]** 게재가 성공하면 상태가 격리 목록에서 제거됩니다.
+* 의 주소 **[!UICONTROL With errors]** 10일 이상 전에 마지막 소프트 바운스가 발생한 경우 상태가 격리 목록에서 제거됩니다. 소프트 오류 관리에 대한 자세한 내용은 [이 섹션](#soft-error-management).
+* 의 주소 **[!UICONTROL With errors]** 다음으로 바운스된 상태 **[!UICONTROL Mailbox full]** 30일 후 격리 목록에서 오류가 제거됩니다.
+
+그러면 상태가 **[!UICONTROL Valid]**.
+
+>[!IMPORTANT]
+>
+>주소가 있는 수신자 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 상태는 이메일을 수신하더라도 제거되지 않습니다.
+
+주소를 수동으로 격리 해제할 수도 있습니다. 격리 목록에서 주소를 수동으로 제거하려면 상태를 로 변경합니다 **[!UICONTROL Valid]** 에서 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** 노드 아래에 있어야 합니다.
+
+![](assets/tech_quarant_error_status.png)
+
+전자 메일이 수신자에게 성공적으로 배달될 수 없기 때문에 반송 횟수로 잘못 표시되는 ISP 중단 등의 경우, 격리 목록에서 벌크 업데이트를 수행해야 할 수 있습니다.
+
+이렇게 하려면 워크플로우를 만들고 격리 테이블에 쿼리를 추가하여 영향을 받은 모든 수신자를 격리 목록에서 제거하고 향후 Campaign 이메일 게재에 포함할 수 있도록 필터링합니다.
+
+다음은 이 쿼리에 대한 권장 지침입니다.
+
+* 에서 인바운드 전자 메일 규칙 정보를 사용하는 Campaign v8 및 Campaign Classic v7 환경의 경우 **[!UICONTROL Error text]** 격리 목록 필드:
+
+   * **오류 텍스트(격리 텍스트)** contains &quot;Momen_Code10_InvalidRecipient&quot;
+   * **이메일 도메인(@domain)** domain1.com과 같음 또는 **이메일 도메인(@domain)** domain2.com과 같음 또는 **이메일 도메인(@domain)** domain3com과 같음
+   * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 그 다음:MM:SS AM
+   * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 그 전:MM:SS PM
+
+* 에서 SMTP 바운스 응답 정보가 있는 Campaign Classic v7 인스턴스의 경우 **[!UICONTROL Error text]** 격리 목록 필드:
+
+   * **오류 텍스트(격리 텍스트)** 및 &quot;550-5.1.1&quot;을 포함합니다. **오류 텍스트(격리 텍스트)** contains &quot;support.ISP.com&quot;
+
+   여기서 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;(예:
+
+   * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 그 다음:MM:SS AM
+   * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 그 전:MM:SS PM
+
+
+영향을 받는 수신자 목록이 있으면 을(를) 추가합니다 **[!UICONTROL Update data]** 활동을 통해 상태를 로 설정 **[!UICONTROL Valid]** 따라서 다음을 통해 격리 목록에서 제거됩니다 **[!UICONTROL Database cleanup]** 워크플로우, 격리 테이블에서 삭제할 수도 있습니다.
 
 ## 푸시 알림 격리 {#push-notification-quarantines}
 
