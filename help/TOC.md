@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: c84f48ebdd66524e8dd6c39c88ae29565d11c9b2
+source-git-commit: 985c0f170b8a56d7cdf76779ed9581832da301b1
 workflow-type: tm+mt
-source-wordcount: '2541'
+source-wordcount: '2532'
 ht-degree: 99%
 
 ---
@@ -832,7 +832,6 @@ ht-degree: 99%
       + [Apple iOS의 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)
       + [잘못된 하드 바운스를 업데이트하는 방법](delivery/using/update-bounce-qualification.md)
       + [ISP 중단 후 잘못된 하드 바운스 업데이트](delivery/using/update-bounces.md)
-      + [Italia Online 중단 후 잘못된 하드 바운스 업데이트](delivery/using/update-bounce-it.md)
       + [iOS 인증서 업데이트](technotes/using/ios-certificate-update.md)
       + [추적 URL 업데이트](technotes/using/tracked-urls.md)
    + Adobe Managed Services로 마이그레이션{#dc-migration}
