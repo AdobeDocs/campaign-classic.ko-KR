@@ -4,10 +4,10 @@ title: Campaign SMS 채널 구성
 description: Campaign에서 SMS 채널을 구성하는 방법을 알아봅니다
 feature: SMS
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 0ae52b00f69298e001596583fe166771faddead2
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 35%
+source-wordcount: '1722'
+ht-degree: 34%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 35%
 > SMS 게재의 경우, 유형화에서 만든 특정 SMS 친화성을 사용해야 합니다. **하나** 전용 응용 프로그램 서버 컨테이너입니다. [자세히 알아보기](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
 
 ## SMPP 외부 계정 만들기 {#creating-an-smpp-external-account}
+
+>[!IMPORTANT]
+>
+>여러 외부 SMS 계정에 대해 동일한 계정과 암호를 사용하면 계정 간에 충돌과 겹칠 수 있습니다. 자세한 내용은 [SMS 문제 해결 페이지](troubleshooting-sms.md#external-account-conflict).
 
 휴대폰에 SMS를 보내려면 먼저 SMPP 외부 계정을 만들어야 합니다.
 SMS 프로토콜 및 설정에 대한 자세한 내용은 다음을 참조하십시오 [페이지](sms-protocol.md).
@@ -118,9 +122,9 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 다음을 참조하십
    <td> <img height="21px" src="assets/delta.png" /> </td> 
    <td> SP </td> 
    <td> 0 </td> 
-   <td> "라고 덧붙였다. </td> 
+   <td> ¡ </td> 
    <td> P </td> 
-   <td> 0 </td> 
+   <td> ¿ </td> 
    <td> p </td> 
   </tr> 
   <tr> 
@@ -167,7 +171,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 다음을 참조하십
    <td> é </td> 
    <td> <img height="21px" src="assets/omega.png" /> </td> 
    <td> % </td> 
-   <td> 5개 </td> 
+   <td> 5 </td> 
    <td> E </td> 
    <td> U </td> 
    <td> e </td> 
@@ -186,7 +190,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 다음을 참조하십
   <tr> 
    <td> ì </td> 
    <td> <img height="21px" src="assets/psi.png" /> </td> 
-   <td> ` </td> 
+   <td> ' </td> 
    <td> 7 </td> 
    <td> G </td> 
    <td> W </td> 
