@@ -4,7 +4,7 @@ title: 콘텐츠 편집
 description: 콘텐츠 편집
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 7f5770c5181b4f2e966d8ecfe6b1d4b9c764e5fa
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 1%
@@ -221,9 +221,9 @@ ht-degree: 1%
 
 ![](assets/dce_popup_imgupload.png)
 
-다음 **삭제** 아이콘을 삭제하면 ![]() 태그가 포함된 태그입니다.
+다음 **삭제** 아이콘을 클릭하면 이미지가 포함된 태그가 삭제됩니다.
 
-다음 **복제** 아이콘이 복제됩니다 ![]() 태그 및 그 컨텐츠에 태깅합니다.
+다음 **복제** 아이콘에서는 태그와 해당 콘텐츠를 복제합니다.
 
 >[!CAUTION]
 >

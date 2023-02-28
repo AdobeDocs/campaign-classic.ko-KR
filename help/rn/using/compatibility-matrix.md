@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 76218abd198f677541338c7f854d047d2c644013
+source-git-commit: 84c6dacb96bd0853be9eaef0dfa7e36116f8a46a
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 94%
+source-wordcount: '779'
+ht-degree: 89%
 
 ---
 
@@ -322,8 +322,6 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 
 
 
-
-
 ## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
 
 [Campaign 클라이언트 콘솔](../../installation/using/installing-the-client-console.md)을 사용하려면 다음 운영 체제와 브라우저가 **필요**&#x200B;합니다.
@@ -337,7 +335,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <td>Microsoft Windows</td>
 <td>
 <p>11(Campaign v7.3부터)</p>
-<p>10(일본어 인스턴스에 권장)</p>
+<p>10</p>
 <p>8</p>
 </td>
 </tr>
@@ -353,22 +351,10 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 
 ### Microsoft WebView2 런타임
 
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Edge WebView2 런타임
-</p>
-</td>
-<td>
-<p>최신 버전</p>
-</td>
-<td>
-<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr">Microsoft 개발자 웹 사이트에서 다운로드</a></p>
-</td>
-</tr>
-</tbody>
-</table>
+Microsoft Edge WebView2 런타임 최신 버전은 Campaign 클라이언트 콘솔에 필수입니다.
+
+에서 Microsoft Edge WebView2 다운로드 [Microsoft 개발자 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr).
+
 
 ## 모바일 SDK{#MobileSDK}
 
@@ -377,14 +363,14 @@ Campaign을 사용하여 아래 목록의 운영 체제에서 [푸시 알림을 
 <table>
 <tbody>
 <tr>
-<td>Android</td>
+<td>Google Android</td>
 <td>
 <p>12(Campaign v7.3부터), 9.0, 8.x, 7.x</p>
 <p>모바일 SDK 빌드 1.1.1과 함께 사용할 수 있습니다</p>
 </td>
 </tr>
 <tr>
-<td>iOS</td>
+<td>Apple iOS</td>
 <td>
 <p>iOS 9 - 15</p>
 <p>모바일 SDK 빌드 1.0.26과 함께 사용할 수 있으며 32비트 및 64비트 버전 호환됩니다. iOS 15는 Campaign v7.3부터 지원됩니다</p>
@@ -395,46 +381,13 @@ Campaign을 사용하여 아래 목록의 운영 체제에서 [푸시 알림을 
 
 ## 브라우저{#Browsers}
 
-다음 브라우저는 [웹 액세스](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-)용 Campaign과 호환됩니다.
+다음 브라우저는 최신 버전의 Campaign과 호환됩니다 [웹 액세스](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Edge</p>
-</td>
-<td>
-<p>최신 버전</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Mozilla Firefox</p>
-</td>
-<td>
-<p>최신 버전</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Google Chrome</p>
-</td>
-<td>
-<p>최신 버전</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Safari</p>
-</td>
-<td>
-<p>최신 버전</p>
-</td>
-</tr>
+* Google Chrome
+* Microsoft Edge
+* Mozilla Firefox
+* Safari
 
-</tr>
-</tbody>
-</table>
 
 
 ## 비슷한 항목 더 보기{#Morelikethis}
