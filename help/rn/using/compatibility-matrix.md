@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 1cf94ee5edac7087d7d21709243e9f56c2b3d6f5
-workflow-type: ht
-source-wordcount: '778'
-ht-degree: 100%
+source-git-commit: 31aa32e4fb7171a49bbea6907f50608eddb2802e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,23 +48,23 @@ ht-degree: 100%
 <tr>
 <td>Debian</td>
 <td>
-<p>11(64비트)</p>
-<p>10(64비트)</p>
-<p>9(64비트)</p>
+<p>11(Campaign v7.3부터)</p>
+<p>10</p>
+<p>9</p>
 </td>
 </tr>
 <tr>
 <td>RHEL</td>
 <td>
-<p>8.x(64비트)</p>
-<p>7.x(64비트)</p>
+<p>8.x</p>
+<p>7.x</p>
 <p><strong>중요:</strong> RHEL을 사용하는 경우 SELinux를 비활성화하거나 설계자가 사용자 지정 SELinux 규칙을 작성하여 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인해야 합니다.</p>
 </td>
 </tr>
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2019(7.2.1 릴리스 시작)</p>
+<p>2019(Campaign v7.2부터)</p>
 <p>2016</p>
 <p>2012 R2</p>
 <p>2012</p>
@@ -138,7 +138,7 @@ ht-degree: 100%
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>14.x</p>
+<p>14.x(Campaign v7.3.2 시작)</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
@@ -154,7 +154,7 @@ ht-degree: 100%
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
-<p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html?lang=ko#database-access-layers">자세히 알아보기</a></p>
+<p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html#database-access-layers">자세히 알아보기</a></p>
 </td>
 </tr>
 </tbody>
@@ -208,7 +208,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tr>
 <td>Google BigQuery</td>
 <td> </td>
-<td>최소 7.2.1</td>
+<td>최소 7.2</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -224,7 +224,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tr>
 <td>Snowflake</td>
 <td> </td>
-<td>최소 7.2.1</td>
+<td>최소 7.2</td>
 </tr>
 <tr>
 <td>Vertica Analytics</td>
@@ -248,7 +248,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 </tr>
 <tr><td>MySQL</td>
 <td>
-<p>8</p>
+<p>8 (Campaign v7.3부터)</p>
 <p>5.7</p>
 </td>
 <td>
@@ -336,7 +336,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tr>
 <td>Microsoft Windows</td>
 <td>
-<p>11(7.3 릴리스 시작)</p>
+<p>11(Campaign v7.3부터)</p>
 <p>10(일본어 인스턴스에 권장)</p>
 <p>8</p>
 </td>
@@ -344,7 +344,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2019(7.2.1 릴리스 시작)</p>
+<p>2019(Campaign v7.2.1부터)</p>
 <p>2016</p>
 <p>2012</p>
 </td>
