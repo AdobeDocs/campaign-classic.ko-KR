@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 8391df5046d56edfb33de5eb9f2afb4738108791
+source-git-commit: 2654157b02b549d4184ed6a5a93acad47e452713
 workflow-type: tm+mt
-source-wordcount: '2771'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ _2022년 11월 21일_
 
 * Microsoft Internet Explorer 11의 수명 종료에 따라 클라이언트 콘솔 환경에서 대시보드용 HTML 렌더링 엔진은 이제 Microsoft Edge Chromium을 사용합니다. (NEO-20741)
 
-[캠페인 호환성 매트릭스](../../rn/using/compatibility-matrix.md#RDBMSservers)를 참조하십시오.
+자세한 내용은 [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md#RDBMSservers)를 참조하십시오.
 
 **개선 사항**
 
