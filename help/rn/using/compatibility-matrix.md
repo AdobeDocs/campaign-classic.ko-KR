@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 84c6dacb96bd0853be9eaef0dfa7e36116f8a46a
+source-git-commit: c7c6c6a2fe6beb17bfb203e8895661c2f3084cc2
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '781'
 ht-degree: 89%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 89%
 <td>
 <p>7.x</p>
 <p><strong>중요:</strong> RHEL을 사용하는 경우 SELinux를 비활성화하거나 설계자가 사용자 지정 SELinux 규칙을 작성하여 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인해야 합니다.</p>
-<p>8.x</br><strong>중요 사항:</strong> CentOS Linux 8은 2021년 12월 31일에 수명 종료(EOL)에 도달할 것입니다. 자세한 내용은 <a href="../../rn/using/deprecated-features.md">더 이상 사용하지 않는 기능</a> 페이지를 참조하세요.</p>
+<p>8.x</br><strong>중요 사항:</strong> CentOS Linux 8은 2021년 12월 31일에 EOL(수명 종료)됩니다. 자세한 내용은 <a href="../../rn/using/deprecated-features.md">더 이상 사용하지 않는 기능</a> 페이지를 참조하세요.</p>
 </td>
 </tr>
 <tr>
@@ -104,7 +104,7 @@ ht-degree: 89%
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>Campaign은 Oracle 및 OpenJDK에서 개발한 JDK(Java Development Kit)를 지원합니다.</p>
+<p>Campaign은 Oracle에서 개발한 JDK(Java Development Kit)와 OpenJDK를 지원합니다.</p>
 </td>
 </tr>
 <tr>
@@ -138,7 +138,7 @@ ht-degree: 89%
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>14.x(Campaign v7.3.2 시작)</p>
+<p>14.x(Campaign v7.3.2부터)</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
@@ -248,7 +248,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 </tr>
 <tr><td>MySQL</td>
 <td>
-<p>8 (Campaign v7.3부터)</p>
+<p>8</p>
 <p>5.7</p>
 </td>
 <td>
@@ -271,7 +271,12 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>12c</p>
 <p>11g</p>
 </td>
-<td>최소 v7.0</td>
+<td>
+<p>최소 v7.0</p>
+<p></p>
+<p></p>
+<p></p>
+</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
@@ -330,22 +335,32 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 
 <table>
 <tbody>
-</tr>
+<td><strong>시스템</strong></td>
+<td><strong>OS 버전</strong></td>
+<td><strong>Campaign 버전</strong></td>
 <tr>
 <td>Microsoft Windows</td>
 <td>
-<p>11(Campaign v7.3부터)</p>
+<p>11</p>
 <p>10</p>
 <p>8</p>
 </td>
+<td>
+<p>최소 v7.3 </p>
+<p></p>
+<p></p>
 </tr>
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2019(Campaign v7.2.1부터)</p>
+<p>2019</p>
 <p>2016</p>
 <p>2012</p>
 </td>
+<td>
+<p>최소 v7.2.1 </p>
+<p></p>
+<p></p>
 </tbody>
 </table>
 
@@ -381,7 +396,7 @@ Campaign을 사용하여 아래 목록의 운영 체제에서 [푸시 알림을 
 
 ## 브라우저{#Browsers}
 
-다음 브라우저는 최신 버전의 Campaign과 호환됩니다 [웹 액세스](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
+최신 버전의 다음 브라우저는 용 Campaign과 호환됩니다. [웹 액세스](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
 * Google Chrome
 * Microsoft Edge
