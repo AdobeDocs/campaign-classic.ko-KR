@@ -9,7 +9,7 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: c7c6c6a2fe6beb17bfb203e8895661c2f3084cc2
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 89%
 <td>
 <p>7.x</p>
 <p><strong>중요:</strong> RHEL을 사용하는 경우 SELinux를 비활성화하거나 설계자가 사용자 지정 SELinux 규칙을 작성하여 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인해야 합니다.</p>
-<p>8.x</br><strong>중요 사항:</strong> CentOS Linux 8은 2021년 12월 31일에 EOL(수명 종료)됩니다. 자세한 내용은 <a href="../../rn/using/deprecated-features.md">더 이상 사용하지 않는 기능</a> 페이지를 참조하세요.</p>
+<p>8.x</br><strong>중요 사항:</strong> CentOS Linux 8은 2021년 12월 31일에 EOL(수명 종료)됩니다. 자세한 내용은 <a href="../../rn/using/deprecated-features.md">더 이상 사용하지 않는 기능</a> 페이지를 참조하십시오.</p>
 </td>
 </tr>
 <tr>
@@ -154,7 +154,7 @@ ht-degree: 89%
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
-<p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html#database-access-layers">자세히 알아보기</a></p>
+<p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html?lang=ko#database-access-layers">자세히 알아보기</a></p>
 </td>
 </tr>
 </tbody>
@@ -366,9 +366,9 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 
 ### Microsoft WebView2 런타임
 
-Microsoft Edge WebView2 런타임 최신 버전은 Campaign 클라이언트 콘솔에 필수입니다.
+Microsoft Edge WebView2 런타임 Campaign 클라이언트 콘솔을 사용하려면 최신 버전이 필수입니다.
 
-에서 Microsoft Edge WebView2 다운로드 [Microsoft 개발자 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr).
+[Microsoft 개발자 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr)에서 Microsoft Edge WebView2를 다운로드합니다.
 
 
 ## 모바일 SDK{#MobileSDK}
@@ -396,7 +396,7 @@ Campaign을 사용하여 아래 목록의 운영 체제에서 [푸시 알림을 
 
 ## 브라우저{#Browsers}
 
-최신 버전의 다음 브라우저는 용 Campaign과 호환됩니다. [웹 액세스](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
+다음 브라우저의 최신 버전은 Campaign [웹 액세스](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-)와 호환됩니다.
 
 * Google Chrome
 * Microsoft Edge
