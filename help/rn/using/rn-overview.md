@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: f797aafac99d6b9c2bdb409a1d0883c889fd3b0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '935'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ Adobe는 안정적인 구성을 위해 동일한 클라이언트 구성에서 �
 
 ## 업그레이드 프로세스{#process-upgrade}
 
-호스팅, Managed Services 또는 하이브리드 고객은 Adobe 고객 지원 팀에 연락하여 환경을 업그레이드하십시오.
+호스팅된 Managed Service 또는 Hybrid 고객의 경우 환경을 업그레이드하려면 고객 지원 팀에 문의하십시오.
 
-온-프레미스 고객은 업그레이드를 수행할 수 있습니다. 이를 위해서는 [안정적인 최신 빌드(GA)를 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)하고 모든 환경을 업그레이드합니다.
+온-프레미스 사용자는 업그레이드를 할 수 있습니다. 이를 위해서는 [안정적인 최신 빌드(GA)를 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)하고 모든 환경을 업그레이드합니다.
 
 [업데이트 프로세스](../../production/using/build-upgrade.md)와 [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)에 대해 자세히 알아보십시오.
 
@@ -67,7 +67,7 @@ Adobe Campaign Classic은 특히 다양한 기술을 사용하여 가치를 전�
 
 ### 내 조직에 이 업그레이드가 필요한 이유는 무엇인가요?
 
-호스팅 고객으로서, 귀하의 계정이 Campaign Classic과 관련된 기술 중 하나 이상을 업그레이드하고 인프라를 현재 빌드(예: v7.2.1에서 v7.3.3으로) 및/또는 버전(예: v7에서 v8로)으로 업그레이드할 필요가 있다고 판단되면 Adobe이 즉시 알려줍니다.
+호스팅된 고객으로서, Campaign Classic과 관련된 기술 중 하나 이상을 업그레이드하고 인프라를 현재 빌드(예: v7.2.1에서 v7.3.3으로) 및/또는 버전(v7에서 v8로)으로 업그레이드해야 하는 것으로 계정이 확인되면 Adobe은 직접 사용자에게 알림을 보냅니다.
 
 이전 빌드를 사용하는 온-프레미스 또는 하이브리드 고객의 경우 Adobe는 안정적인 최신 빌드(GA)로 전환할 것을 권장합니다.
 
@@ -77,7 +77,7 @@ Adobe Campaign Classic은 특히 다양한 기술을 사용하여 가치를 전�
 
 Adobe 팀이 사용자의 조직에 업그레이드 여정을 안내해 드리겠습니다.
 
-전담 고객 지원 담당자, 제품 관리자, 엔지니어 및 TechOps 전문가, 제품 컨설턴트로 구성된 팀이 상주하여 원활한 고객 경험을 제공합니다.
+전담 고객 지원 담당자, 제품 관리자, 엔지니어 및 TechOps 전문가, 제품 컨설턴트로 이루어진 팀이 사용자를 지원하여 원활한 고객 경험을 제공합니다.
 
 ### 이점
 
