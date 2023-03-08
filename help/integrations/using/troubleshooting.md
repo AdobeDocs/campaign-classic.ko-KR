@@ -17,17 +17,17 @@ ht-degree: 3%
 
 ![](../../assets/common.svg)
 
-오류가 발생하는 경우 다음 요소가 올바르게 구성되어 있는지 확인하십시오.
+오류가 발생한 경우 다음 요소가 올바르게 구성되었는지 확인하십시오.
 
 * **외부 계정**
 
-   in **[!UICONTROL Administration > Platform > External accounts]**, 다음 외부 SFTP 계정이 올바르게 구성되었는지 확인합니다. 언급된 SFTP 서버는 컨설턴트가 Adobe Experience Cloud에 구성했어야 합니다.
+   위치 **[!UICONTROL Administration > Platform > External accounts]**, 다음 외부 SFTP 계정이 올바르게 구성되었는지 확인하십시오. 언급된 SFTP 서버는 컨설턴트가 Adobe Experience Cloud에서 구성해야 합니다.
 
-   * **[!UICONTROL importSharedAudience]** : 대상을 가져오는 데 사용되는 SFTP 계정입니다.
-   * **[!UICONTROL exportSharedAudience]** : 대상 내보내기를 위한 SFTP 계정입니다.
+   * **[!UICONTROL importSharedAudience]** : 대상자 가져오기 전용 SFTP 계정
+   * **[!UICONTROL exportSharedAudience]** : 대상자 내보내기 전용 SFTP 계정
 
 * **AMC 데이터 소스**
 
-   in **[!UICONTROL Administration > Platform > AMC Data sources]**&#x200B;를 설정하는 경우 AMC 데이터 소스가 제대로 설정되어 있는지 확인합니다.
+   위치 **[!UICONTROL Administration > Platform > AMC Data sources]**&#x200B;를 클릭하여 AMC 데이터 소스가 제대로 설정되어 있는지 확인합니다.
 
-People 핵심 서비스를 통해 대상을 공유하거나 대상을 가져올 때 일부 데이터가 누락될 수 있습니다. 프로필 차원과 조정할 수 있는 ID(&#39;방문자 ID&#39; 또는 &#39;선언된 ID&#39;)의 레코드만 전송됩니다. Adobe Campaign에서 인식하지 못하는 사람 핵심 서비스 세그먼트의 ID는 가져올 수 없습니다.
+People 핵심 서비스를 통해 대상자를 공유하거나 대상자를 가져올 때 일부 데이터가 누락될 수 있습니다. ID(&#39;방문자 ID&#39; 또는 &#39;선언된 ID&#39;)가 프로필 차원과 조정될 수 있는 레코드만 전송됩니다. Adobe Campaign에서 인식하지 못하는 사람 핵심 서비스 세그먼트의 ID는 가져오지 않습니다.

@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Campaign에서 Adobe ID 사용
-description: Adobe IMS 통합에 대해 자세히 알아보십시오
+description: Adobe IMS 통합에 대해 자세히 알아보기
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 ![](../../assets/common.svg)
 
-IMS(Identity Management System) Adobe은 관리자가 애플리케이션 및 서비스에 대한 사용자의 액세스를 만들고 관리하는 데 도움이 됩니다. 다양한 유형의 Adobe ID에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/enterprise/using/identity.html).
+IMS(Identity Management System) Adobe은 관리자가 애플리케이션 및 서비스에 대한 사용자의 액세스 권한을 만들고 관리할 수 있도록 도와줍니다. 다양한 유형의 Adobe ID에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/enterprise/using/identity.html).
 
 Campaign 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결할 수 있습니다. 이 통합은 다음과 같은 이점을 제공합니다.
 
@@ -29,7 +29,7 @@ Campaign 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결�
 
 >[!IMPORTANT]
 >
->IMS(Adobe Identity Service)를 통해 Campaign에 연결하는 경우 후에 Campaign에 연결할 수 있도록 최신 빌드로 업그레이드해야 합니다 **2021년 6월 30일**. 이 업그레이드는 Campaign 서버와 클라이언트 콘솔에 모두 필수입니다. 현재 버전에 따라 다음 릴리스 중 하나로 업그레이드해야 합니다.
+>IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우 이후 Campaign에 연결하려면 최신 빌드로 업그레이드해야 합니다 **2021년 6월 30일**. 이 업그레이드는 Campaign 서버와 클라이언트 콘솔 모두에 필수입니다. 현재 버전에 따라 다음 릴리스 중 하나로 업그레이드해야 합니다.
 >
 > * [캠페인 [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
 > * [Campaign 21.1.4](../../rn/using/latest-release.md)
@@ -37,7 +37,6 @@ Campaign 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결�
 > * [Campaign 20.1.4](../../rn/using/release--2020.md#release-20-1-4-build-9126)
 > * [Campaign 19.2.4](../../rn/using/release--2019.md#release-19-2-4-build-9082)
 > * [Campaign 19.1.8](../../rn/using/release--2019.md#release-19-1-8-build-9039)
-
 >
 > [!DNL :bulb:] [IMS 업데이트에 대해 자세히 알아보기](../../technotes/using/ims-updates.md)
 
@@ -45,6 +44,6 @@ Campaign 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결�
 
 | 유용한 페이지 | 추가 자료 |
 |---|---|
-| [IMS 구성](../../integrations/using/configuring-ims.md) | [Experience Cloud FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) |
+| [IMS 구성](../../integrations/using/configuring-ims.md) | [EXPERIENCE CLOUD FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) |
 | [IMS 구현](../../integrations/using/implementing-ims.md) | [액세스 관리](../../platform/using/access-management.md) |
-| [IMS 문제 해결](../../integrations/using/ims-troubleshooting.md) | [Campaign 패키지 설치](../../installation/using/installing-campaign-standard-packages.md) |
+| [IMS 문제 해결](../../integrations/using/ims-troubleshooting.md) | [캠페인 패키지 설치](../../installation/using/installing-campaign-standard-packages.md) |
