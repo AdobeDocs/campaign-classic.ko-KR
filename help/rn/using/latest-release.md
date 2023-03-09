@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 2654157b02b549d4184ed6a5a93acad47e452713
+source-git-commit: 754e6d2486897958827a15ab8a3d14ec17935891
 workflow-type: tm+mt
-source-wordcount: '2772'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,37 @@ ht-degree: 100%
 
 이 페이지에서는 **최신 Campaign v7 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다. 모든 새 빌드는 색상으로 상태가 표시됩니다. [이 페이지](rn-overview.md)에서 Campaign Classic v7 빌드 상태에 대해 자세히 알아보십시오.
 
-## ![](assets/do-not-localize/green_2.png) 릴리스 7.3.2 - 빌드 9356 {#release-7-3-2}
+## ![](assets/do-not-localize/green_2.png) 릴리스 7.3.3 - 빌드 9359 {#release-7-3-3}
+
+>[!CAUTION]
+>
+> 이 릴리스는 현재 관리 Cloud Services 사용자만 사용할 수 있으며, 곧 온-프레미스 및 하이브리드 배포에 사용할 수 있습니다.
+
+>[!CAUTION]
+>
+>클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../../installation/using/installing-the-client-console.md)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
+
+_2023년 3월 9일_
+
+**보안 개선**
+
+* 보안을 최적화하기 위해 Tomcat이 버전 8.5.81에서 8.5.85로 업데이트되었습니다. (NEO-56936)
+
+**개선 사항**
+
+* 성능을 최적화하기 위해 청구 워크플로우가 개선되었습니다. (NEO-47658)
+* 게재 크기가 큰 경우 성능을 최적화하도록 추적 워크플로우가 개선되었습니다. (NEO-45064)
+* URL의 동적 매개 변수에 발생할 수 있는 문제를 해결하기 위해 추적 관리가 개선되었습니다. 추적 관리 v3은 이제 ajax 유형 URL을 처리하고(&#39;#&#39; 뒤에 매개 변수를 사용) 서드파티 도구에서 추적 URL을 수정하지 못하도록 합니다. 이 변경 사항을 적용하려면 Adobe에 문의해야 합니다. (NEO-46535)
+
+<!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
+
+**패치**
+
+* iOS 증명 푸시 알림이 제어 인스턴스(트랜잭션 메시지 컨텍스트)에서 전송되지 않는 문제를 해결했습니다. (NEO-54713)
+* 에서 스크롤하지 못하는 문제를 해결했습니다. **편집** 디지털 콘텐츠 편집기(DCE)의 탭입니다. (NEO-54474)
+* 두 데이터 보강 활동이 연결에서 동일한 이름 식별자를 사용하고 있었는데 이로 인해 두 번째 데이터 보강 활동이 첫 번째 데이터 보강 활동의 링크를 사용하는 문제를 해결했습니다. (NEO-48851)
+
+## ![](assets/do-not-localize/orange_2.png) 릴리스 7.3.2 - 빌드 9356 {#release-7-3-2}
 
 _2022년 11월 21일_
 
