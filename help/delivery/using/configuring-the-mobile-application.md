@@ -4,9 +4,9 @@ title: Adobe Campaign에서 iOS 모바일 애플리케이션 구성
 description: iOS용 모바일 애플리케이션을 설정하는 방법을 알아봅니다
 feature: Push
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: fd19a2f11773e9e4c841f685a3491a763493e572
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 6%
 
 ---
@@ -50,7 +50,7 @@ iOS의 경우 iOS HTTP/2 커넥터는 HTTP/2 APNs에 알림을 보냅니다.
 
 >[!CAUTION]
 >
->Adobe Campaign SDK에 통합하기 전에 푸시 작업 ID에 대해 애플리케이션이 구성되었어야 합니다.
+>Adobe SDK에 통합하기 전에 푸시 작업에 대해 애플리케이션을 구성했어야 합니다.
 >
 >이 경우가 아니면 다음을 참조하십시오. [이 페이지](https://developer.apple.com/documentation/usernotifications).
 
