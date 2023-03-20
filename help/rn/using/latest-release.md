@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 02ab5f4520179fcce8eedbe3dcc7b08cb9cfe0d2
+source-git-commit: 143fe21447f91120e63df4409597472849bb6d47
 workflow-type: tm+mt
-source-wordcount: '2989'
-ht-degree: 94%
+source-wordcount: '2947'
+ht-degree: 95%
 
 ---
 
@@ -23,15 +23,9 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
-> 이 릴리스는 현재 관리 Cloud Services 사용자만 사용할 수 있으며, 온-프레미스 및 하이브리드 배포에 곧 사용할 수 있습니다.
->
 >클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../../installation/using/installing-the-client-console.md)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
 
->[!NOTE]
->
->이 릴리스는 관리 Cloud Services 사용자에게만 적용됩니다.
-
-_2023년 3월 9일_
+_2023년 3월 20일_
 
 **보안 개선**
 
@@ -51,17 +45,13 @@ _2023년 3월 9일_
 * 경우에 따라 DCE(디지털 콘텐츠 편집기)의 **편집** 탭에서 스크롤할 수 없는 문제를 해결했습니다. (NEO-54474)
 * 두 데이터 보강 활동이 연결에서 동일한 이름 식별자를 사용하여 두 번째 데이터 보강 활동이 첫 번째 데이터 보강 활동의 링크를 사용하던 문제를 수정했습니다. (NEO-48851)
 
-## ![](assets/do-not-localize/green.png) 릴리스 7.3.2 - 빌드 9356 {#release-7-3-2}
+## ![](assets/do-not-localize/orange_2.png) 릴리스 7.3.2 - 빌드 9356 {#release-7-3-2}
 
 _2022년 11월 21일_
 
 >[!CAUTION]
 >
 >클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../../installation/using/installing-the-client-console.md)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
-
->[!NOTE]
->
->이 릴리스는 온-프레미스 및 하이브리드 배포에만 GA됩니다.
 
 **호환성 업데이트**
 
