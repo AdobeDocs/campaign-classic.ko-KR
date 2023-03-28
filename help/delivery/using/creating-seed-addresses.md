@@ -4,7 +4,7 @@ title: 시드 주소 만들기
 description: 시드 주소를 만들고 사용하는 방법을 알아봅니다
 feature: Seed Address
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 0065a25250d73c71e7569768a38b5836cccab992
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 1%
@@ -32,11 +32,11 @@ ht-degree: 1%
    >
    >주소의 레이블은 정의한 이름과 이름으로 자동으로 입력됩니다.
    >
-   >시드 주소를 만들 때 각 탭의 모든 필드를 입력할 필요는 없습니다. 누락된 개인화 요소는 전달 중에 임의로 입력됩니다.
+   >시드 주소를 만들 때 각 탭의 모든 필드를 입력할 필요가 없습니다. 누락된 개인화 요소가 게재 분석 중에 임의로 입력됩니다.
 
    ![](assets/s_ncs_user_seedlist_new_address.png)
 
-1. 에서 **[!UICONTROL Seed fields]** 탭에서 분석 단계(에서) 동안 게재 로그에 삽입할 값을 입력합니다. **[!UICONTROL nms:broadLog]** 테이블).
+1. 에서 **[!UICONTROL Address fields]** 탭에서 분석 단계(에서) 동안 게재 로그에 삽입할 값을 입력합니다. **[!UICONTROL nms:broadLog]** 테이블).
 
 1. 에서 **[!UICONTROL Additional data]** 탭에서 데이터 관리 워크플로우에서 만든 게재에 사용되는 개인화 데이터를 입력하고 특정 값을 지정할 데이터를 입력합니다.
 

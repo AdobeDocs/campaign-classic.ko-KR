@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 2ba04c785f6587741fdf421116781306e74f0168
+source-git-commit: 0065a25250d73c71e7569768a38b5836cccab992
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 97%
@@ -376,7 +376,6 @@ Microsoft Edge WebView2 런타임 Campaign 클라이언트 콘솔을 사용하�
 Campaign을 사용하여 아래 목록의 운영 체제에서 [푸시 알림을 보낼](../../delivery/using/about-mobile-app-channel.md) 수 있습니다. 연결된 [모바일 SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)를 사용합니다.
 
 데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform Mobile SDK를 사용할 수도 있습니다.
-
 
 <table>
 <tbody>
