@@ -4,10 +4,10 @@ title: Campaign SDK 통합
 description: 모바일 앱에 Campaign SDK를 통합하는 방법을 알아봅니다
 feature: Mobile SDK Integration, Push
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: fd19a2f11773e9e4c841f685a3491a763493e572
+source-git-commit: 1ead0b1afc8c924cb4f8d36c608cd570e5fe7a44
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 0%
+source-wordcount: '995'
+ht-degree: 1%
 
 ---
 
@@ -15,19 +15,17 @@ ht-degree: 0%
 
 ![](../../assets/v7-only.svg)
 
-
->[!NOTE]
+>[!CAUTION]
 >
->Adobe은 데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform Mobile SDK를 사용하는 것을 권장합니다. Adobe Experience Platform Mobile SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 제공하는 데 도움이 됩니다. SDK 구성은 유연한 구성 및 확장 가능한 규칙 기반 통합을 위해 데이터 수집 UI를 통해 관리됩니다. [Adobe Developer 설명서에서 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
-
-iOS 및 Android용 Campaign SDK는 모바일 앱 채널 모듈의 구성 요소 중 하나입니다. SDK의 목표는 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽게 통합하는 것입니다.
+>Adobe은 데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform Mobile SDK를 사용할 것을 강력히 권장합니다. Adobe Experience Platform Mobile SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 제공하는 데 도움이 됩니다. SDK 구성은 유연한 구성 및 확장 가능한 규칙 기반 통합을 위해 데이터 수집 UI를 통해 관리됩니다. [Adobe Developer 설명서에서 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
 Campaign SDK(이전에 Neolane SDK라고 함)를 얻으려면 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 지원되는 다양한 Android 및 iOS 버전에 대한 자세한 내용은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md#MobileSDK).
 
+Campaign SDK에 대한 통합 단계에서 아래에 나와 있습니다.
 
-## Campaign SDK 로드 {#loading-campaign-sdk}
++++**Campaign SDK 로드**
 
 * **Android에서**: a **neolane_sdk-release.ar** 파일이 프로젝트에 연결되어 있어야 합니다.
 
@@ -55,7 +53,9 @@ Campaign SDK(이전에 Neolane SDK라고 함)를 얻으려면 [고객 지원 Ado
    >
    >SDK 버전 1.0.25의 경우 **Neolane_SDK.h** 파일.
 
-## 통합 설정 선언 {#declaring-integration-settings}
++++
+
++++**통합 설정 선언**
 
 Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자가 개발자에게 다음 정보를 제공해야 합니다.
 
@@ -85,7 +85,9 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
    [nl setIntegrationKey:strIntegrationKey];
    ```
 
-## 등록 함수 {#registration-function}
++++
+
++++**등록 함수**
 
 등록 기능을 사용하면 다음 작업을 수행할 수 있습니다.
 
@@ -141,7 +143,9 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
    }
    ```
 
-## 추적 함수 {#tracking-function}
++++
+
++++**추적 함수**
 
 * **Android에서**:
 
@@ -293,7 +297,9 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
    >
    >버전 7.0에서 한 번 **애플리케이션:didReceiveRemoteNotification:fetchCompletionHandler** 함수가 구현되면 운영 체제에서 이 함수만 호출합니다. 다음 **application:didReceiveRemoteNotification** 따라서 함수가 호출되지 않습니다.
 
-## 자동 알림 추적 {#silent-notification-tracking}
++++
+
++++**자동 알림 추적**
 
 iOS을 사용하면 자동 알림, 알림 또는 데이터를 표시하지 않고 모바일 애플리케이션으로 직접 전송할 수 있습니다. Adobe Campaign에서 추적할 수 있습니다.
 
@@ -333,7 +339,9 @@ iOS을 사용하면 자동 알림, 알림 또는 데이터를 표시하지 않�
 }
 ```
 
-### RegisterDeviceStatus 위임 {#registerdevicestatus-delegate}
++++
+
++++**RegisterDeviceStatus 위임**
 
 >[!NOTE]
 >
@@ -529,7 +537,9 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
    @end
    ```
 
-## 변수 {#variables}
++++
+
++++**변수**
 
 변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드와 Adobe Campaign 콘솔의 **[!UICONTROL Variables]** 전용 모바일 애플리케이션 서비스의 탭( [Adobe Campaign에서 모바일 애플리케이션 구성](configuring-the-mobile-application.md)). 다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있도록 하는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
 
@@ -577,7 +587,9 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 >
 >Adobe은 iOS 및 Android의 경우 알림 크기가 4kB로 제한되므로 짧은 변수 이름을 선택할 것을 권장합니다.
 
-## 알림 서비스 확장 {#notification-service-extension}
++++
+
++++**알림 서비스 확장**
 
 **iOS용**
 
@@ -611,7 +623,9 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
     // Perform the download to local storage
 ```
 
-## 알림 컨텐츠 확장 {#notification-content-extension}
++++
+
++++**알림 컨텐츠 확장**
 
 **iOS용**
 
@@ -662,3 +676,5 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
    }
    @end
    ```
+
++++
