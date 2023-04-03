@@ -4,10 +4,10 @@ title: 기술 정보 - Campaign 환경에서 Microsoft Edge Chromium 활성화
 description: Campaign - Edge Chromium
 hide: true
 hidefromtoc: true
-source-git-commit: d9f57d4e5b6f880907040344ece40546456a2321
+source-git-commit: 17ef8f92ab5dbecadf20140c3faff735d92c8223
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 14%
+source-wordcount: '246'
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 14%
 
 ## 변경 사항
 
-Microsoft Internet Explorer 11의 수명 종료 후 클라이언트 콘솔에서 Adobe Services(로그인 페이지)에 대한 HTML 렌더링 엔진이 이제 Campaign Classic v7.3부터 Microsoft Edge Chromium을 사용합니다.
+Microsoft Internet Explorer 11의 수명 종료 후 클라이언트 콘솔에서 대시보드에 대한 HTML 렌더링 엔진이 Edge Chromium을 사용하여 Campaign Classic v7.3을 시작합니다.
 
 이제 Microsoft Edge Webview 2 런타임의 설치 외에도 다음과 같습니다 [클라이언트 콘솔 설치에 필요합니다.](../../installation/using/installing-the-client-console.md#webview)이면 인스턴스에서 Microsoft Edge Chromium을 활성화해야 합니다.
 
@@ -29,7 +29,7 @@ Microsoft Internet Explorer 11의 수명 종료 후 클라이언트 콘솔에서
 
 ## 업데이트 방법
 
-* 로서의 **호스팅** 고객, Adobe이 이미 인스턴스에서 Microsoft Edge Chromium을 활성화했습니다.
+* 로서의 **호스팅** 고객, Adobe이 이미 인스턴스에서 Microsoft Edge Chromium을 활성화했습니다. 추가 작업은 필요하지 않습니다.
 
 * 로서의 **온-프레미스/하이브리드** 고객 인스턴스에서 Microsoft Edge Chromium을 활성화해야 합니다.
 
@@ -39,19 +39,19 @@ Microsoft Internet Explorer 11의 수명 종료 후 클라이언트 콘솔에서
 
    1. Campaign 서버 구성 파일 편집(`serverConf.xml`)
    1. 에서 `<web>` 모듈, 설정 `webView2Mode = "1"`
-   1. 서버 구성을 다시 로드합니다.
+   1. 다음 명령을 실행하여 서버 구성을 다시 로드합니다.
 
       ```
       nlserver config -reload
       ```
 
-   1. 웹 서버 다시 시작
+   1. 다음 명령을 실행하여 웹 서버를 다시 시작합니다.
 
       ```
       nlserver restart web
       ```
 
-   1. Apache에서 환경이 실행되는 경우 Apache를 다시 시작합니다
+   1. 환경에서 Apache를 웹 서버로 사용하는 경우 다음 명령을 실행하여 Apache를 다시 시작합니다.
 
       ```
       /etc/init.d/apache2 restart
