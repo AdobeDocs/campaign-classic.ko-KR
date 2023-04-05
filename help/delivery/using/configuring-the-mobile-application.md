@@ -4,7 +4,7 @@ title: Adobe Campaign에서 iOS 모바일 애플리케이션 구성
 description: iOS용 모바일 애플리케이션을 설정하는 방법을 알아봅니다
 feature: Push
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: fd19a2f11773e9e4c841f685a3491a763493e572
+source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 6%
@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # iOS용 구성 단계 {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 패키지가 설치되면 Adobe Campaign Classic에서 iOS 앱 설정을 정의할 수 있습니다.
 

@@ -4,14 +4,16 @@ title: Adobe Campaign에서 Android 모바일 애플리케이션 구성
 description: Android용 모바일 애플리케이션을 설정하는 방법을 알아봅니다
 feature: Push
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Android용 구성 단계
+
+![](../../assets/v7-only.svg)
 
 패키지가 설치되면 Adobe Campaign Classic에서 Android 앱 설정을 정의할 수 있습니다.
 
@@ -166,7 +168,7 @@ HTTP(기존) API 버전을 구성하려면 아래 단계를 수행하십시오.
 
 | 메시지 유형 | 구성 가능한 메시지 요소(FCM 페이로드 이름) | 구성 가능한 옵션(FCM 페이로드 이름) |
 |:-:|:-:|:-:|
-| 데이터 메시지 | 해당 없음 | dryRun |
+| 데이터 메시지 | N/A | dryRun |
 | 알림 메시지 | 제목, 본문, android_channel_id, 아이콘, 사운드, 태그, 색상, click_action <br> | dryRun |
 
 <br>

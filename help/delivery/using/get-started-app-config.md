@@ -4,7 +4,7 @@ title: Adobe Campaign에서 모바일 애플리케이션 구성
 description: 모바일 애플리케이션 구성으로 시작하는 방법 알아보기
 feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 7%
@@ -12,6 +12,8 @@ ht-degree: 7%
 ---
 
 # 앱 구성 시작
+
+![](../../assets/v7-only.svg)
 
 이 섹션에서는 온라인 휴일 패키지를 판매하는 회사를 기반으로 한 구성 샘플을 확인할 수 있습니다. 이 회사의 모바일 애플리케이션(네오트립)은 고객에게 두 가지 버전으로 제공됩니다. Android 및 iOS용 네오트립.
 
