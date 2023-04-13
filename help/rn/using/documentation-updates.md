@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: a4a5e014d8055cf29bdbf7debb72eb20388c9b19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3577'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 ### 2023년 4월
 
-Microsoft Edge Chromium 온-프레미스/하이브리드 환경을 활성화하는 방법에 대한 기술 정보를 추가했습니다. [자세히 보기](../../technotes/using/edge-chromium.md)
+On-Premise/하이브리드 환경에서 Microsoft Edge Chromium을 사용하는 방법에 대한 기술 정보를 추가했습니다. [자세히 보기](../../technotes/using/edge-chromium.md)
 
 ### 2023년 3월
 
