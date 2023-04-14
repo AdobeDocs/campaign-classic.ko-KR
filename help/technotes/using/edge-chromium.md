@@ -2,13 +2,13 @@
 product: campaign
 title: 기술 정보 - Campaign 환경에서 Microsoft Edge Chromium 활성화
 description: Campaign - Edge Chromium
-source-git-commit: a4a5e014d8055cf29bdbf7debb72eb20388c9b19
+exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
+source-git-commit: 095919608e08a0bf8ad1487fa5ec0a1ddb443c7b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 13%
 
 ---
-
 
 # 환경에서 Microsoft Edge Chromium을 활성화하는 방법 {#edge-conf}
 
@@ -65,4 +65,3 @@ Microsoft Internet Explorer 11의 수명 종료 후 클라이언트 콘솔에서
 * [환경 업그레이드](../../production/using/build-upgrade.md)
 * [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)
 * [Campaign 클라이언트 콘솔 설치](../../installation/using/installing-the-client-console.md)
-
