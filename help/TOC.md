@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: bdccc4ee7cbb8c765d488879f99677b2302d32e7
-workflow-type: ht
-source-wordcount: '2536'
+source-git-commit: 0f831817fc2e6b7b1d95a71f4ea08ec104268d11
+workflow-type: tm+mt
+source-wordcount: '2531'
 ht-degree: 100%
 
 ---
