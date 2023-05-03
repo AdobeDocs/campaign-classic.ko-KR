@@ -7,7 +7,7 @@ exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '1204'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및
 
 >[!NOTE]
 >
->Adobe Campaign은 게재 기능을 모니터링하고 이메일 전송을 최적화하는 도구 세트를 제공합니다. 추가 정보 [이 섹션](about-deliverability.md).
+>Adobe Campaign은 게재 기능을 모니터링하고 이메일 전송을 최적화하는 도구 세트를 제공합니다. [이 섹션](about-deliverability.md)에서 자세히 알아봅니다.
 
 게재를 준비하거나 워크플로우 프로세스에서 전송하여 게재 전송을 자동화할 수 있습니다. 워크플로우의 게재 유형 활동에 대한 자세한 내용은 [이 섹션](../../workflow/using/about-action-activities.md).
 
