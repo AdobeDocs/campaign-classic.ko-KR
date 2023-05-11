@@ -5,8 +5,10 @@ description: 일반 구성
 audience: migration
 content-type: reference
 topic-tags: configuration
+hide: true
+hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
+source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
 workflow-type: tm+mt
 source-wordcount: '2625'
 ht-degree: 0%
@@ -334,7 +336,7 @@ allowSQLInjection="false"
      </queryFilter>
    ```
 
-**합계**
+**집계**
 
 집계 함수(컬렉션)
 
@@ -354,7 +356,7 @@ allowSQLInjection="false"
    >
    >조인트는 자동으로 집계 기능을 위해 수행됩니다. WHERE O0.iOperationId=iOperationId 조건을 더 이상 지정할 필요가 없습니다.
    >
-   >더 이상 &quot;count(*)&quot; 함수를 사용할 수 없습니다. &quot;countall()&quot;을 사용해야 합니다.
+   >더 이상 &quot;count(&#42;)&quot; 함수를 사용할 수 없습니다. &quot;countall()&quot;을 사용해야 합니다.
 
 * 이전 구문:
 
@@ -456,7 +458,8 @@ allowSQLInjection="false"
 * **[!UICONTROL Keep the current version]**: 은(는) 업데이트가 거부됨을 의미합니다.
 
    >[!IMPORTANT]
-   이 해결 모드를 선택하면 새 버전에서 패치가 손실될 수 있습니다. 따라서 이 옵션은 전문가 연산자만 사용하거나 예약하지 않는 것이 좋습니다.
+   >
+   >이 해결 모드를 선택하면 새 버전에서 패치가 손실될 수 있습니다. 따라서 이 옵션은 전문가 연산자만 사용하거나 예약하지 않는 것이 좋습니다.
 
 충돌을 수동으로 해결하도록 선택한 경우 다음과 같이 진행하십시오.
 
@@ -487,7 +490,7 @@ $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 
 ## 상호 작용 {#interaction}
 
-### 필수 구성 요소 {#prerequisites}
+### 전제 조건 {#prerequisites}
 
 **업그레이드 후** v7에 더 이상 존재하지 않는 6.02에서 모든 스키마 참조를 삭제해야 합니다.
 
@@ -502,12 +505,14 @@ $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 v7에서 오퍼 컨텐츠가 이동되었습니다. v6.02에서 컨텐츠는 각 표시 스키마(**nms:emailOfferView**). v7에서 이제 컨텐츠가 오퍼 스키마에 있습니다. 따라서 업그레이드 후 컨텐츠가 인터페이스에 표시되지 않습니다. 업그레이드 후 오퍼 컨텐츠를 다시 만들거나 표현 스키마에서 오퍼 스키마로 컨텐츠를 자동으로 이동하는 스크립트를 개발해야 합니다.
 
 >[!IMPORTANT]
-마이그레이션 후 구성된 오퍼를 사용하는 일부 게재를 전송해야 하는 경우에는 v7에서 이러한 모든 게재를 삭제하고 다시 만들어야 합니다. 이 작업을 수행할 수 없다면 &quot;호환성 모드&quot;가 제공됩니다. Interaction v7의 모든 새로운 기능을 활용하지는 않으므로 이 모드를 사용하지 않는 것이 좋습니다. 이것은 실제 6.1 마이그레이션 전에 진행 중인 캠페인을 완료할 수 있는 전환 모드입니다. 이 모드에 대한 자세한 내용은 문의하십시오.
+>
+>마이그레이션 후 구성된 오퍼를 사용하는 일부 게재를 전송해야 하는 경우에는 v7에서 이러한 모든 게재를 삭제하고 다시 만들어야 합니다. 이 작업을 수행할 수 없다면 &quot;호환성 모드&quot;가 제공됩니다. Interaction v7의 모든 새로운 기능을 활용하지는 않으므로 이 모드를 사용하지 않는 것이 좋습니다. 이것은 실제 6.1 마이그레이션 전에 진행 중인 캠페인을 완료할 수 있는 전환 모드입니다. 이 모드에 대한 자세한 내용은 문의하십시오.
 
 이동 스크립트의 예(**interactionTo610_full_XX.js**)은에서 사용할 수 있습니다. **마이그레이션** 폴더 아래에 표시됩니다. 이 파일은 오퍼당 단일 이메일 표현을 사용하는 클라이언트에 대한 스크립트의 예( **[!UICONTROL htmlSource]** 및 **[!UICONTROL textSource]** 필드)만 로드하는 것입니다. 에 있었던 컨텐츠 **NmsEmailOfferView** 테이블이 오퍼 테이블로 이동되었습니다.
 
 >[!NOTE]
-이 스크립트를 사용하면 &quot;컨텐츠 관리&quot; 및 &quot;렌더링 함수&quot; 옵션을 사용할 수 없습니다. 이러한 기능을 활용하려면 카탈로그 오퍼, 특히 오퍼 콘텐츠 및 구성 공간을 재고해야 합니다.
+>
+>이 스크립트를 사용하면 &quot;컨텐츠 관리&quot; 및 &quot;렌더링 함수&quot; 옵션을 사용할 수 없습니다. 이러한 기능을 활용하려면 카탈로그 오퍼, 특히 오퍼 콘텐츠 및 구성 공간을 재고해야 합니다.
 
 ```
 loadLibrary("/nl/core/shared/nl.js");
@@ -606,7 +611,8 @@ logInfo("Done");
 1. 포괄적인 테스트를 수행합니다.
 
    >[!NOTE]
-   온라인 카테고리 및 오퍼의 이름은 라이브로 전환된 후 수정됩니다. 수신 채널에서 오퍼 및 카테고리에 대한 모든 참조를 업데이트합니다.
+   >
+   >온라인 카테고리 및 오퍼의 이름은 라이브로 전환된 후 수정됩니다. 수신 채널에서 오퍼 및 카테고리에 대한 모든 참조를 업데이트합니다.
 
 ## 보고서 {#reports}
 
