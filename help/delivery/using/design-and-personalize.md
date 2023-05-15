@@ -2,9 +2,11 @@
 product: campaign
 title: 개인화된 콘텐츠 작성
 description: Adobe Campaign 게재에서 개인화된 콘텐츠를 구축하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design, Personalization
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 7%
@@ -13,7 +15,7 @@ ht-degree: 7%
 
 # 개인화된 콘텐츠 작성 {#build-personalized-content}
 
-![](../../assets/common.svg)
+
 
 메시지 콘텐츠를 디자인할 때 게재를 실행하지 못하도록 할 수 있는 일반적인 문제를 방지하십시오. 대부분의 경우 가능한 오류는 [개인화](about-personalization.md), [서식](defining-the-email-content.md#message-content) 및 [이미지](defining-the-email-content.md#adding-images).
 

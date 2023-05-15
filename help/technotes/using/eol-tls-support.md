@@ -1,20 +1,22 @@
 ---
 product: campaign
-title: TLS 1.0 및 1.1 지원 종료
-description: TLS 1.0 및 1.1 지원 종료
+title: TLS 1.0 및 1.1 수명 종료
+description: TLS 1.0 및 1.1 수명 종료
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-source-git-commit: 70240d5f62fd3d7b755389b5ad8c4b499c94657d
+exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# TLS 1.0 및 1.1 지원 종료{#eol-tls-support}
+# TLS 1.0 및 1.1 수명 종료{#eol-tls-support}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe은 더 이상 TLS(Transport Layer Security) 1.2 프로토콜과 호환되지 않는 사용자 시스템 및 클라이언트 시스템을 지원하지 않습니다. 이전 버전의 TLS를 계속 사용하는 경우 모든 Adobe 제품 및 서비스에 대한 액세스 권한을 잃을 수 있습니다.
 

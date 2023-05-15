@@ -2,11 +2,12 @@
 product: campaign
 title: 빌드 업그레이드 FAQ
 description: Campaign 빌드 업그레이드와 관련된 일반적인 질문
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 56ff1f02e614a91200a8f2ca106dcc76e82f122d
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2031'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 # 빌드 업그레이드 FAQ {#build-upgrade-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign은 정기적으로 업데이트됩니다. 저희 출판에 익숙하다면 [릴리스 노트](../../rn/using/rn-overview.md)의 경우 새로운 기능이 포함된 평균 2/3 부 버전, 개선 사항 및 수정 사항이 매년 릴리스된다는 사실을 알고 있을 것입니다. 또한, 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다. 이러한 정기 업데이트 캐디는 최신 업데이트를 직접 경험해 보고 환경을 완전히 안전하게 지키며 Adobe 제품을 통해 경험을 향상시키는 것을 목표로 합니다.
 
@@ -104,7 +105,7 @@ Adobe은 변경 전에 시스템 백업을 수행합니다. 그러나 비프로�
 
 검토 [아래의 빌드 업그레이드 체크리스트](#check-list) 또한 테스트 계획을 수립하여 이러한 테스트를 수행할 수 있는 리소스가 24-48시간 내에 제공되는지 확인합니다. 업그레이드 완료.
 
-자세한 내용은 [이 문서 참조](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html).
+자세한 내용은 [이 문서 참조](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html).
 
 ## 야간 또는 출장 중에 빌드 업그레이드를 수행할 수 있습니까?
 

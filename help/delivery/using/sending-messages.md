@@ -2,9 +2,11 @@
 product: campaign
 title: 전자 메일 보내기 주요 단계
 description: 이메일 게재를 확인하고 이메일 메시지 전달의 특성을 확인하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -13,7 +15,7 @@ ht-degree: 0%
 
 # 전자 메일 보내기 주요 단계 {#key-steps-to-send-an-email}
 
-![](../../assets/common.svg)
+
 
 이메일이 생성되어 구성되면 주요 타겟에게 보낼 수 있습니다. 이 섹션에서는 전자 메일 게재를 확인하고 확인하는 주요 단계를 제공합니다.
 
@@ -33,6 +35,6 @@ ht-degree: 0%
 다음 섹션에서는 이메일 게재와 관련된 설정 및 구성에 대해 자세히 설명합니다.
 <!--* [Generating the mirror page](generating-mirror-page.md)
 * [Email BCC](email-bcc.md)-->
-* [이메일 매개 변수](email-parameters.md)
+* [이메일 매개변수](email-parameters.md)
 * [향상된 MTA를 사용하여 이메일 보내기](sending-with-enhanced-mta.md)
 * [일본의 모바일에 전자 메일 보내기](sending-emails-on-japanese-mobiles.md)

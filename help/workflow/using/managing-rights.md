@@ -2,18 +2,19 @@
 product: campaign
 title: 워크플로우 권한 관리
 description: 워크플로우 권한 관리 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 워크플로우 권한 관리{#managing-rights}
 
-![](../../assets/v7-only.svg)
+
 
 관리자가 아닌 경우 Adobe Campaign 운영자가 워크플로우를 작성, 실행 또는 수정하기 위한 액세스 권한이 필요합니다.
 

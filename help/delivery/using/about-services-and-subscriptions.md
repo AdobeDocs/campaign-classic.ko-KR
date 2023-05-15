@@ -2,9 +2,11 @@
 product: campaign
 title: 서비스 및 구독 정보
 description: Adobe Campaign에서 서비스 및 구독 시작
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Subscriptions
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 5%
@@ -13,7 +15,7 @@ ht-degree: 5%
 
 # 서비스 및 구독 정보{#about-services-and-subscriptions}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign을 사용하면 뉴스레터와 같은 정보 서비스를 만들고 관리하고 이러한 서비스의 구독을 관리할 수 있습니다. 다음과 같이 여러 서비스를 동시에 정의할 수 있습니다. 특정 제품 카테고리, 테마 또는 웹 사이트의 영역에 대한 전문가 뉴스레터, 다양한 유형의 경고 메시지에 대한 구독 및 실시간 알림입니다. 을(를) 참조하십시오. [구독 관리](managing-subscriptions.md).
 

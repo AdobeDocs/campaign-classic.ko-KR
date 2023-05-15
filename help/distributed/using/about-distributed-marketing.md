@@ -2,9 +2,10 @@
 product: campaign
 title: 분산 마케팅 시작
 description: 분산 마케팅 시작
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 # 분산 마케팅 시작{#about-distributed-marketing}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign에서 제공하는 기능 **분산 마케팅** 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 캠페인 구현 애플리케이션 공동 캠페인을 실시할 수 있습니다. 이러한 협력은 **[!UICONTROL list of campaign packages]**&#x200B;를 설정하는 경우, 중앙에서 만든 캠페인 템플릿 및 인스턴스가 로컬 엔티티에 제공됩니다.
 
@@ -42,7 +43,7 @@ Adobe Campaign에서 제공하는 기능 **분산 마케팅** 중앙 엔터티(�
 
    Distributed Marketing을 사용하면 로컬 엔티티가 실행 비용을 최적화하는 동시에 더 많은 자율성을 가질 수 있습니다.
 
-* **로컬라이제이션**
+* **현지화**
 
    로컬라이제이션은 캠페인의 타겟 및 콘텐츠를 수정하는 로컬 엔티티의 용수입니다. 가능한 현지화 수준은 캠페인 유형 및 구현에 따라 다릅니다.
 
@@ -103,7 +104,7 @@ Adobe Campaign에서 제공하는 기능 **분산 마케팅** 중앙 엔터티(�
 
 ![](assets/s_advuser_mkg_dist_local_create.png)
 
-### 조직 엔터티 {#organizational-entities}
+### 조직 엔티티 {#organizational-entities}
 
 조직 엔터티를 만들려면 **[!UICONTROL Administration > Access management > Organizational entities]** node 를 클릭하고 **[!UICONTROL New]** 엔티티 목록 위에 있는 아이콘.
 

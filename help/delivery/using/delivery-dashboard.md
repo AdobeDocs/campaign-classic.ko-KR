@@ -2,18 +2,20 @@
 product: campaign
 title: 게재 대시보드
 description: 게재 대시보드를 사용하여 게재를 모니터링하는 방법에 대해 자세히 알아보십시오
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 # 게재 대시보드 {#delivery-dashboard}
 
-![](../../assets/common.svg)
+
 
 다음 **게재 대시보드** 는 메시지를 보내는 동안 발생하는 게재 및 최종 문제를 모니터링하는 키입니다.
 
@@ -69,11 +71,11 @@ ht-degree: 4%
 
 ## 게재 추적 로그 및 내역 {#tracking-logs}
 
-다음 **[!UICONTROL Tracking]** 탭에는 이 게재의 추적 기록이 나열됩니다. 이 탭에는 Adobe Campaign에서 추적하는 모든 URL과 같은 전송된 메시지에 대한 추적 데이터가 표시됩니다. 추적 데이터가 시간별로 업데이트됩니다.
+다음 **[!UICONTROL Tracking]** 탭에는 이 게재의 추적 기록이 나열됩니다. 이 탭에는 전송된 메시지, 즉 Adobe Campaign에서 추적할 수 있는 모든 URL에 대한 추적 데이터가 표시됩니다. 추적 데이터가 시간별로 업데이트됩니다.
 
 >[!NOTE]
 >
->게재에 대해 추적이 활성화되어 있지 않으면 이 탭이 표시되지 않습니다.
+>게재에 대해 추적이 활성화되어 있지 않은 경우 이 탭이 표시되지 않습니다.
 
 추적 구성은 게재 마법사의 적절한 단계에서 수행됩니다. 자세한 내용은 [추적된 링크를 구성하는 방법](how-to-configure-tracked-links.md).
 

@@ -2,8 +2,10 @@
 product: campaign
 title: 인터페이스 구성
 description: Campaign 인터페이스 구성 방법 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # 인터페이스 구성{#configuring-the-interface}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign 인터페이스에서 새 수신자 테이블을 보고 대화 상자를 표시하려면 다음 단계를 적용합니다.
 
@@ -24,7 +26,7 @@ Adobe Campaign은 &quot;Nms_DefaultRcpSchema&quot; 전역 변수를 사용하여
 
 1. 로 이동합니다. **[!UICONTROL Administration>Platform>Options]** 노드 아래에 있는 노드 아래에 있는 노드 아래에 있는 노드 아래에 있는 노드 아래에 있는 노드 아래에 있는 노드 이름을 지정합니다.
 1. 의 값 변경 **Nms_DefaultRcpSchema** 외부 수신자 테이블과 일치하는 스키마 이름을 사용하는 변수(이 경우: cus:personal).
-1. 변경 사항을 저장합니다.
+1. 변경 내용 저장.
 
 ## 새 양식 만들기 {#creating-a-new-form-}
 

@@ -2,9 +2,11 @@
 product: campaign
 title: 게재 목록 액세스
 description: 만든 게재 목록에 액세스하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 10%
@@ -13,7 +15,7 @@ ht-degree: 10%
 
 # 게재 목록 액세스 {#list-of-deliveries}
 
-![](../../assets/common.svg)
+
 
 을 통해 게재 목록에서 게재에 액세스할 수 있습니다 **[!UICONTROL Campaign Management > Deliveries]** 노드 아래에 있어야 합니다.
 

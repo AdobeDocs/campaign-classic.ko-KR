@@ -2,9 +2,10 @@
 product: campaign
 title: AND-결합
 description: AND-결합
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 8b6d5c03-e104-4cf0-82ab-a08467e3e478
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 5%
@@ -13,7 +14,7 @@ ht-degree: 5%
 
 # AND-결합{#and-join}
 
-![](../../assets/v7-only.svg)
+
 
 조인은 모든 인바운드 전환이 활성화될 때(즉, 모든 이전 활동이 완료된 경우) 에만 아웃바운드 전환을 트리거합니다. 이렇게 하면 워크플로우를 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다.
 

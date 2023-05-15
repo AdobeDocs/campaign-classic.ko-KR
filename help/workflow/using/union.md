@@ -2,9 +2,10 @@
 product: campaign
 title: 결합
 description: 결합 워크플로우 활동에 대해 자세히 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 # 결합{#union}
 
-![](../../assets/v7-only.svg)
+
 
 결합 은 단일 타겟에 여러 인바운드 활동의 결과를 그룹화합니다. 수신한 모든 결과가 있는 대상이 만들어집니다. 따라서 결합을 실행하려면 모든 이전 활동을 완료해야 합니다.
 

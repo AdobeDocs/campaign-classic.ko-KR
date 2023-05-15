@@ -2,9 +2,11 @@
 product: campaign
 title: Campaign 기본 제공 보고서 기본 정보
 description: Campaign 기본 제공 보고서 기본 정보
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 4%
@@ -13,7 +15,7 @@ ht-degree: 4%
 
 # Campaign 기본 제공 보고서 기본 정보{#about-campaign-built-in-reports}
 
-![](../../assets/common.svg)
+
 
 이 장에서는 Adobe Campaign 기본 제공 보고서, 해당 컨텐츠 및 컨텍스트 목록을 제공합니다. 아래 정보를 사용하면 플랫폼에서 이미 사용 가능한 보고서를 만들 수 없습니다.
 

@@ -2,18 +2,19 @@
 product: campaign
 title: 지표 계산
 description: 지표 계산
+badge: label="v7" type="유익함" tooltip="Campaign Classic v7에만 적용"
 feature: Reporting
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '2972'
-ht-degree: 2%
+source-wordcount: '2983'
+ht-degree: 7%
 
 ---
 
 # 지표 계산 {#indicator-calculation}
 
-![](../../assets/common.svg)
+
 
 ## 사용자 활동 {#user-activities-1}
 
@@ -28,8 +29,8 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 오픈율<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> 열람 수<br /> </td> 
+   <td> @열기<br /> </td> 
    <td> URL 기본 키가 1인 모든 @totalClicks의 합계.<br /> </td> 
    <td> sum(Iif([@url-id]=1, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -40,8 +41,8 @@ ht-degree: 2%
    <td> sum(Iif([url/@type]=1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 트랜잭션<br /> </td> 
-   <td> @transactions<br /> </td> 
+   <td> 거래<br /> </td> 
+   <td> @거래<br /> </td> 
    <td> URL 유형을 가진 모든 @totalClicks의 합계가 "Transaction"과 같습니다.<br /> </td> 
    <td> sum(Iif([url/@type]=5, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -97,7 +98,7 @@ ht-degree: 2%
    <td> Count(@status=2 및 msg/@failureReason=2)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 계정이 비활성화됨<br /> </td> 
+   <td> 계정 비활성화<br /> </td> 
    <td> @disabled<br /> </td> 
    <td> 상태가 "실패"이고 "계정이 비활성화됨"인 모든 메시지의 수입니다.<br /> </td> 
    <td> Count(@status=2 및 msg/@failureReason=4)<br /> </td> 
@@ -150,7 +151,7 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 방문자 수<br /> </td> 
+   <td> 방문자<br /> </td> 
    <td> @totalVisitors<br /> </td> 
    <td> 게재를 한 번 이상 클릭한 이 브라우저의 총 타깃팅된 수신자 수입니다.<br /> </td> 
    <td> Sum(@visitors)<br /> </td> 
@@ -323,7 +324,7 @@ ht-degree: 2%
    <td> 열기 횟수 <br /> </td> 
    <td> @open<br /> </td> 
    <td> 웹 추적 테이블에 있는 총 추적 라인 수입니다.<br /> </td> 
-   <td> 카운트<br /> </td> 
+   <td> 횟수<br /> </td> 
   </tr> 
   <tr> 
    <td> 분류<br /> </td> 
@@ -361,7 +362,7 @@ ht-degree: 2%
    <td> 공식: count(@id)<br /> 필터: @recipient-id!= 0<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오픈율<br /> </td> 
+   <td> 열람 수<br /> </td> 
    <td> @opened<br /> </td> 
    <td> URL 유형이 "@ids"과 같은 모든 개수의 수입니다.<br /> </td> 
    <td> count (Iif([url/@type] = 2, @id, 0))<br /> </td> 
@@ -392,13 +393,13 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 방문자 수<br /> </td> 
+   <td> 방문자<br /> </td> 
    <td> @totalVisitors / @days<br /> </td> 
    <td> 게재를 한 번 이상 클릭한 운영 체제에서 타겟팅한 총 수신자 수의 일별 평균입니다.<br /> </td> 
    <td> Sum(@visitors)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 본 페이지<br /> </td> 
+   <td> 조회한 페이지<br /> </td> 
    <td> @totalPages / @days<br /> </td> 
    <td> 모든 게재에 대한 운영 체제당 게재 링크에 대한 총 클릭 수의 일별 평균 입니다.<br /> </td> 
    <td> Sum(@pages)<br /> </td> 
@@ -460,7 +461,7 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 등록<br /> </td> 
+   <td> 등록됨<br /> </td> 
    <td> @_subscriber<br /> </td> 
    <td> 이전 날짜의 등록된 사람 수입니다.<br /> </td> 
    <td> sum(@created &lt; addDays(getDate(), (-1), 1, 0))<br /> </td> 
@@ -543,7 +544,7 @@ ht-degree: 2%
    <td> count(Iif([url/@type]=6, @id, 0)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 포워드 추정<br /> </td> 
+   <td> 발송 예측<br /> </td> 
    <td> @forward<br /> </td> 
    <td> 개별 사용자 수와 이메일을 한 번 이상 클릭한 개별 수신자 수 간의 차이입니다.<br /> </td> 
    <td> @personClick - @recipientClick<br /> </td> 
@@ -561,7 +562,7 @@ ht-degree: 2%
    <td> Count(@status=2 및 msg/@failureReason=8)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오픈율<br /> </td> 
+   <td> 열람 수<br /> </td> 
    <td> @recipientOpen<br /> </td> 
    <td> 모든 추적 로그에 있는 모든 @broadLog-ids의 카운트입니다.<br /> </td> 
    <td> Countdistinct([@broadLog-id])<br /> </td> 
@@ -585,7 +586,7 @@ ht-degree: 2%
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 누적 클릭 수<br /> </td> 
+   <td> 누적 클릭수<br /> </td> 
    <td> @totalRecipientClick<br /> </td> 
    <td> "이메일 클릭"과 같은 URL 카테고리가 있는 모든 @ids.<br /> </td> 
    <td> count(Iif([url/@type]=1, @id, 0)<br /> </td> 
@@ -609,7 +610,7 @@ ht-degree: 2%
    <td> count(Iif([url/@type]=4 또는 [url/@type]=5, @id, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 트랜잭션<br /> </td> 
+   <td> 거래<br /> </td> 
    <td> @transaction<br /> </td> 
    <td> URL 유형이 "트랜잭션"과 동일한 모든 @ids.<br /> </td> 
    <td> count(Iif([url/@type]=5, @id, 0)<br /> </td> 
@@ -621,7 +622,7 @@ ht-degree: 2%
    <td> Sum(Iif([url/@type]=5, webTrackingLog/@amount, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 평균 트랜잭션 금액<br /> </td> 
+   <td> 평균 거래 금액<br /> </td> 
    <td> -<br /> </td> 
    <td> 트랜잭션 수와 비교한 총 금액의 비율입니다.<br /> </td> 
    <td> div(@amount, @transaction)<br /> </td> 
@@ -710,13 +711,13 @@ ht-degree: 2%
    <td> percent([표시기/@recipientClick], [표시기/@estimatedRecipientOpen])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 개별적인 클릭<br /> </td> 
+   <td> 고유 클릭수<br /> </td> 
    <td> @distinctClicks<br /> </td> 
    <td> 게재에서 최소 한 번 이상 클릭한 개별 사용자 수의 비율입니다. 성공한 메시지 수와 비교됩니다.<br /> </td> 
    <td> percent([표시기/@personClick], [표시기/@success])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 누적 클릭 수<br /> </td> 
+   <td> 누적 클릭수<br /> </td> 
    <td> @totalClicks<br /> </td> 
    <td> 성공과 함께 전달된 메시지 수와 비교하여 타겟팅된 수신자의 총 클릭 수입니다.<br /> </td> 
    <td> percent([표시기/@totalRecipientClick], [표시기/@success])<br /> </td> 
@@ -781,7 +782,7 @@ ht-degree: 2%
    <td> sum([indicators/@error])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 새 격리<br /> </td> 
+   <td> 새로운 격리<br /> </td> 
    <td> @newQuarantine<br /> </td> 
    <td> 게재 실패 후 격리된 주소 수(사용자 알 수 없음, 잘못된 도메인).<br /> </td> 
    <td> sum([indicators/@newQuarantine])<br /> </td> 
@@ -793,9 +794,9 @@ ht-degree: 2%
 
 이 보고서는 배달(nms:delivery)을 기반으로 합니다. **[!UICONTROL Consolidated tracking]** (nms:trackingStats) 표를 참조하십시오.
 
-이 보고서는 각 링크에 대한 클릭 비율( HTML 및/또는 텍스트)을 포함하는 메시지 콘텐츠를 보여줍니다. 개인화 블록은 구독 취소 링크 및 미러 페이지 링크를 합한 총 클릭 수를 고려하지만 보고서에 표시되지 않습니다.
+이 보고서에는 메시지 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율이 표시됩니다. 개인화 블록은 구독 취소 링크 및 미러 페이지 링크를 합한 총 클릭 수를 고려하지만 보고서에 표시되지 않습니다.
 
-## 통계 추적 {#tracking-statistics-1}
+## 추적 통계 {#tracking-statistics-1}
 
 이 보고서는 **[!UICONTROL Delivery]** 표(nms:delivery).
 
@@ -810,8 +811,8 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 트랜잭션<br /> </td> 
-   <td> @transactions<br /> </td> 
+   <td> 거래<br /> </td> 
+   <td> @거래<br /> </td> 
    <td> "Transaction"과 같은 URL 유형을 사용하는 모든 @totalClicks의 합계입니다.<br /> </td> 
    <td> sum(Iif([url/@type] = 5, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -823,7 +824,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> 열기<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> @열기<br /> </td> 
    <td> URL 기본 키가 1인 모든 @totalClicks의 합계.<br /> </td> 
    <td> sum(Iif([@url-id] = 1, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -851,13 +852,13 @@ ht-degree: 2%
    <td> @prepared + @error + @success<br /> </td> 
   </tr> 
   <tr> 
-   <td> 배달됨<br /> </td> 
+   <td> 게재됨<br /> </td> 
    <td> @success<br /> </td> 
    <td> 성공적으로 처리된 메시지 수입니다.<br /> </td> 
    <td> 표시기/@success<br /> </td> 
   </tr> 
   <tr> 
-   <td> 하드 바운스 수<br /> </td> 
+   <td> 하드 바운스<br /> </td> 
    <td> @hardBounce<br /> </td> 
    <td> 상태가 "실패"이고 이유가 "사용자 알 수 없음"인 총 메시지 수입니다.<br /> </td> 
    <td> @unknownUser<br /> </td> 
@@ -869,7 +870,7 @@ ht-degree: 2%
    <td> @unreachable + @mailBoxFull + @invalidDomain + @disabled + @notConnected + @refused<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오픈율<br /> </td> 
+   <td> 열람 수<br /> </td> 
    <td> @recipientOpen<br /> </td> 
    <td> 추적 로그@broadLog-ids 총 횟수입니다.<br /> </td> 
    <td> Countdistinct([@broadLog-id])<br /> </td> 
@@ -889,7 +890,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-## 열기 분류 {#breakdown-of-opens-1}
+## 열람 분류 {#breakdown-of-opens-1}
 
 이 보고서는 **게재** (nms:delivery) 및 **추적 로그** (nms:trackingLogRcp) 표를 참조하십시오.
 
@@ -904,7 +905,7 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 오픈율<br /> </td> 
+   <td> 열람 수<br /> </td> 
    <td> @totalRecipientOpen<br /> </td> 
    <td> URL 기본 키가 1인 모든 @id의 합계(열려 있음). <br /> </td> 
    <td> count(Iif([@url-id] = 1, @id, 0))<br /> </td> 

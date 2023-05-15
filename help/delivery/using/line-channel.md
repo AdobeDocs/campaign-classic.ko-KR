@@ -2,9 +2,11 @@
 product: campaign
 title: LINE 게재 만들기
 description: LINE 메시지 작성 방법 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Line App
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 3%
@@ -13,7 +15,7 @@ ht-degree: 3%
 
 # LINE 게재 만들기{#line-channel}
 
-![](../../assets/common.svg)
+
 
 [!DNL LINE] 은 모든 모바일 OS와 PC에서 사용할 수 있는 무료 인스턴트 메시징, 음성 및 비디오 호출을 위한 애플리케이션입니다.
 

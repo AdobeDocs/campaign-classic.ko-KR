@@ -2,11 +2,12 @@
 product: campaign
 title: vertica analytics 액세스 구성
 description: FDA에서 Vertica analytics 액세스를 구성하는 방법을 배웁니다.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
-source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 # vertica analytics 액세스 구성 {#configure-fda-vertica}
 
-![](../../assets/v7-only.svg)
+
 
 캠페인 사용 **페더레이션 데이터 액세스** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 액세스 권한을 구성하십시오 [!DNL Vertica Analytics].
 

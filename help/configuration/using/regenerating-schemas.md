@@ -2,8 +2,9 @@
 product: campaign
 title: 스키마 다시 생성
 description: Campaign 스키마를 재생성하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 2%
@@ -11,8 +12,6 @@ ht-degree: 2%
 ---
 
 # 스키마 다시 생성{#regenerating-schemas}
-
-![](../../assets/v7-only.svg)
 
 스키마를 수정하고 수정 사항을 저장하면 확장 스키마가 자동으로 생성됩니다. 그러나 수정 사항을 적용하려면 스키마를 수동으로 재생성해야 할 수 있습니다. 방법은 다음과 같습니다.
 

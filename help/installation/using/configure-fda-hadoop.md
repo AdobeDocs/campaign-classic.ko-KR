@@ -2,20 +2,21 @@
 product: campaign
 title: hadoop 액세스 구성
 description: FDA에서 Hadoop 액세스를 구성하는 방법을 배웁니다.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # hadoop 액세스 구성 {#configure-access-to-hadoop}
 
-![](../../assets/v7-only.svg)
+
 
 캠페인 사용 **페더레이션 데이터 액세스** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. hadoop 액세스를 구성하려면 아래 단계를 따르십시오.
 
@@ -51,7 +52,7 @@ FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서
 
 1. 구성 **[!UICONTROL Hadoop]** 외부 계정입니다. 다음을 지정해야 합니다.
 
-   * **[!UICONTROL Type]**: ODBC(Sybase ASE, Sybase IQ)
+   * **[!UICONTROL Type]**: ODBC (Sybase ASE, Sybase IQ)
 
    * **[!UICONTROL Server]**: DNS 이름
 
@@ -78,7 +79,7 @@ FDA에서 Hadoop 외부 데이터베이스에 연결하려면 Adobe Campaign 서
 |---|---|---|
 | bulkKey | Azure blob 또는 DataLake 액세스 키 | wasb:// 또는 wasbs:// 벌크 로더의 경우(예: 벌크 로드 도구가 wasb:// 또는 wasbs://으로 시작하는 경우). <br>벌크 로드를 위한 blob 또는 DataLake 버킷의 액세스 키입니다. |
 | dfsPort | 포트 번호 <br>기본적으로 8020으로 설정됨 | HDFS 벌크 로드의 경우(예: 벌크 로드 도구가 webhdfs:// 또는 webhdfss://으로 시작하는 경우) |
-| bucketNumber | 20년 | 클러스터형 테이블을 만들 때 버킷 수입니다. |
+| bucketNumber | 20 | 클러스터형 테이블을 만들 때 버킷 수입니다. |
 | fileFormat | 쪽모이 세공 | 작업 테이블의 기본 파일 형식입니다. |
 
 

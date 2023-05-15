@@ -2,9 +2,11 @@
 product: campaign
 title: 콘텐츠 관리자 리소스 및 원칙
 description: 콘텐츠 관리자 리소스 및 원칙
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Templates
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 4%
@@ -13,7 +15,7 @@ ht-degree: 4%
 
 # 콘텐츠 관리자 리소스 및 원칙{#content-manager-resources-and-principles}
 
-![](../../assets/common.svg)
+
 
 각 컨텐츠에 대한 변형 템플릿을 포함하는 게시 템플릿을 정의해야 합니다.
 

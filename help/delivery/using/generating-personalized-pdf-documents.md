@@ -2,9 +2,11 @@
 product: campaign
 title: 개인화된 PDF 문서 생성
 description: 개인화된 PDF 문서를 생성하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
@@ -13,7 +15,7 @@ ht-degree: 1%
 
 # 개인화된 PDF 문서 생성{#generating-personalized-pdf-documents}
 
-![](../../assets/common.svg)
+
 
 ## 변수 PDF 문서 정보 {#about-variable-pdf-documents}
 

@@ -2,11 +2,12 @@
 product: campaign
 title: 데이터 스키마 구조
 description: 데이터 스키마 구조
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 86036f2f-ec7c-413e-b1e1-10a71a06cd6d
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 10%
@@ -14,8 +15,6 @@ ht-degree: 10%
 ---
 
 # 데이터 스키마 구조{#structure-of-a-data-schema}
-
-![](../../assets/v7-only.svg)
 
 데이터 스키마의 구조는 트리 구조의 형태로 표시됩니다. Adobe Campaign 클라이언트 콘솔에서 그래픽으로 보려면 타깃팅된 스키마를 선택하고 **[!UICONTROL Structure]** 하위 탭.
 

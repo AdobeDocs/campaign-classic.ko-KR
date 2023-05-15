@@ -2,9 +2,10 @@
 product: campaign
 title: Campaign Classic 데이터 모델 시작
 description: Campaign 데이터 모델을 확장하거나 스키마를 편집하고 API를 사용하는 방법을 알아보십시오.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Data Model
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 6%
@@ -12,8 +13,6 @@ ht-degree: 6%
 ---
 
 # Campaign 데이터 모델 시작{#about-data-model}
-
-![](../../assets/v7-only.svg)
 
 Adobe Campaign 데이터베이스의 개념적 데이터 모델은 내장된 테이블과 상호 작용으로 구성됩니다. 이 페이지에는 기본 테이블 및 개념이 나열됩니다.
 

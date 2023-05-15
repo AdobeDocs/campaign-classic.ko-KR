@@ -2,9 +2,11 @@
 product: campaign
 title: 게재 템플릿 만들기
 description: 게재 템플릿 만들기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 65e80f16a6beaee89b51636017c42766589e179e
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 11%
@@ -13,7 +15,7 @@ ht-degree: 11%
 
 # 게재 템플릿 만들기{#creating-a-delivery-template}
 
-![](../../assets/common.svg)
+
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#delivery-template-video)
 
@@ -64,7 +66,7 @@ ht-degree: 11%
 
    ![](assets/delivery_template_5.png)
 
-1. 클릭 **저장**. 이제 템플릿을 게재에서 사용할 수 있습니다.
+1. **저장**&#x200B;을 클릭합니다. 이제 템플릿을 게재에서 사용할 수 있습니다.
 
 
 ## 튜토리얼 비디오 {#delivery-template-video}

@@ -2,18 +2,19 @@
 product: campaign
 title: 로컬 승인
 description: 로컬 승인
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 로컬 승인{#local-approval}
 
-![](../../assets/v7-only.svg)
+
 
 타겟팅 워크플로우에 통합되면, **[!UICONTROL Local approval]** 활동을 통해 게재를 보내기 전에 수신자 승인 프로세스를 설정할 수 있습니다.
 
@@ -37,7 +38,7 @@ ht-degree: 1%
 
    ![](assets/local_validation_intro_3.png)
 
-## Target 승인 알림 {#target-approval-notification}
+## 대상 승인 미리 알림 {#target-approval-notification}
 
 이 경우 **[!UICONTROL Local approval]** 활동은 업스트림 타깃팅과 게재 사이에 배치됩니다.
 

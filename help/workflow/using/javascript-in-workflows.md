@@ -2,18 +2,19 @@
 product: campaign
 title: 워크플로우의 JavaScript 코드 예
 description: 다음 예는 워크플로우에서 JavaScript 코드를 사용하는 방법을 보여줍니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1764'
 ht-degree: 3%
 
 ---
 
 # 워크플로우의 JavaScript 코드 예{#javascript-in-workflows}
 
-![](../../assets/v7-only.svg)
+
 
 다음 예에서는 워크플로우에서 JavaScript 코드를 사용하는 방법을 보여줍니다.
 
@@ -52,7 +53,7 @@ ht-degree: 3%
    1. 호출 `Write` 메서드 `xtk:session` 스키마.
 
       >[!IMPORTANT]
-      > Adobe Campaign v8을 사용하는 경우 **수집** 및 **데이터 업데이트/삭제** 용 API `Write` Snowflake 테이블의 메서드. [자세한 내용](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target=&quot;_blank&quot;}.
+      > Adobe Campaign v8을 사용하는 경우 **수집** 및 **데이터 업데이트/삭제** 용 API `Write` Snowflake 테이블의 메서드. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
    1. XML 코드를 쓰기 요청에 대한 인수로 전달합니다.
 
@@ -243,7 +244,7 @@ var query = xtk.queryDef.create(
 
 ### 3단계: 쿼리 실행
 
-다음 단계를 수행합니다.
+다음 단계를 수행하십시오.
 
 1. 호출 `ExecuteQuery` 메서드 `queryDef` 엔티티:
 
@@ -423,7 +424,7 @@ xtk.workflow.PostEvent(
 * SQL 쿼리를 수행하는 메서드 만들기
 * 를 사용하십시오 `write` 레코드 삽입, 업데이트 및 삭제 방법
 
-다음 단계를 수행합니다.
+다음 단계를 수행하십시오.
 
 1. 쿼리를 정의합니다.
 
@@ -562,7 +563,7 @@ for each (var w in res.recipient)
 * 다음 `delete` 작업
 
 >[!IMPORTANT]
-> Adobe Campaign v8을 사용하는 경우 **수집** 및 **데이터 업데이트/삭제** 용 API `Write` Snowflake 테이블의 메서드. [자세한 내용](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target=&quot;_blank&quot;}.
+> Adobe Campaign v8을 사용하는 경우 **수집** 및 **데이터 업데이트/삭제** 용 API `Write` Snowflake 테이블의 메서드. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
 #### 예제 1: 레코드 삽입 또는 업데이트
 

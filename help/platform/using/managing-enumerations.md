@@ -2,20 +2,21 @@
 product: campaign
 title: 열거형 관리
 description: 열거형 관리
+badge: label="v7" type="유익함" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 # 열거형 관리{#managing-enumerations}
 
-![](../../assets/common.svg)
+
 
 열거형(&#39;항목별 목록&#39;이라고도 함)은 특정 필드를 채우기 위해 시스템에서 제안하는 값 목록입니다. 열거형을 사용하면 이러한 필드의 값을 표준화하고 데이터 입력 또는 쿼리 내에서 사용할 수 있습니다.
 

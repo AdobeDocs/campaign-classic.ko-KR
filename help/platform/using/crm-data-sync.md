@@ -2,18 +2,19 @@
 product: campaign
 title: CRM 커넥터 데이터 동기화
 description: Campaign과 CRM 간의 데이터 관리
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Salesforce Integration, Microsoft CRM Integration
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1536'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Campaign과 CRM 간에 데이터 동기화 {#data-synchronization}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign과 CRM 간의 데이터 동기화는 전용 워크플로우 활동을 통해 수행됩니다. [CRM 커넥터](../../workflow/using/crm-connector.md).
 
@@ -206,7 +207,7 @@ CRM에서 또는 CRM으로 가져올 때 데이터 형식을 즉시 변환할 �
 * **[!UICONTROL Without time offset]**: 이 모드는 기본 모드에서 적용된 시간대 관리를 취소합니다.
 * **[!UICONTROL Copy/Paste]**: 이 모드는 문자열(변환 없음)과 같은 원시 데이터를 사용합니다.
 
-### 처리 오류 {#error-processing}
+### 오류 처리 중 {#error-processing}
 
 데이터 가져오기 또는 내보내기의 프레임워크 내에서 특정 프로세스를 오류 및 거부에 적용할 수 있습니다. 이렇게 하려면 **[!UICONTROL Process rejects]** 및 **[!UICONTROL Process errors]** 옵션 **[!UICONTROL Behavior]** 탭.
 
@@ -244,7 +245,7 @@ CRM에서 또는 CRM으로 가져올 때 데이터 형식을 즉시 변환할 �
    >
    >요소 삭제 기간은 CRM에 관련된 제한 사항과 일치해야 합니다. 즉, Salesforce.com의 경우, 예를 들어 30일 전에 삭제된 요소는 복구할 수 없습니다.
 
-## CRM에서 개체 삭제 {#deleting-objects-in-the-crm}
+## CRM의 오브젝트 삭제 {#deleting-objects-in-the-crm}
 
 CRM 측에서 개체를 삭제하려면 삭제할 원격 요소의 기본 키를 지정해야 합니다.
 

@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: Adobe Campaign 보고 도구 정보
-description: 빌드-인 또는 사용자 정의 보고서에서 캠페인의 성공을 분석합니다.
+description: 빌드-인 또는 사용자 정의 보고서에서 캠페인의 성공을 분석합니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '334'
+ht-degree: 19%
 
 ---
 
 # 보고 시작하기 {#about-adobe-campaign-reporting-tools}
 
-![](../../assets/common.svg)
+
 
 추가 [기본 제공 보고서](../../reporting/using/about-campaign-built-in-reports.md), Adobe Campaign 을 사용하면 다양한 컨텍스트에서 보고서를 생성하여 다양한 요구를 충족할 수 있습니다. 사용 및 구현 모드의 원칙은 이 문서에 자세히 설명되어 있습니다.
 

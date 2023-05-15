@@ -2,9 +2,10 @@
 product: campaign
 title: 워크플로우 시작
 description: 워크플로우를 시작하고 워크플로우 작업 도구 모음 및 마우스 오른쪽 단추 클릭 메뉴를 검색하는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 2%
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 # 워크플로우 시작 {#starting-a-workflow}
 
-![](../../assets/v7-only.svg)
+
 
 워크플로우는 항상 수동으로 시작됩니다. 시작되면 스케줄러 를 통해 지정된 정보에 따라 비활성 상태로 유지될 수 있습니다( 참조) [스케줄러](scheduler.md)) 또는 활동 예약을 참조하십시오.
 

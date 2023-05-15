@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: 프로덕션 문제 해결
-description: Adobe Campaign 구성, 모니터링, 업그레이드 프로세스, 데이터 처리 및 데이터베이스 유지 관리 절차와 관련된 프로덕션 문제 해결 절차를 살펴봅니다.
+description: Adobe Campaign 구성, 모니터링, 업그레이드 프로세스, 데이터 처리 및 데이터베이스 유지 관리 절차와 관련된 프로덕션 문제 해결 절차를 살펴봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 18%
@@ -15,7 +16,7 @@ ht-degree: 18%
 
 # 프로덕션 문제 해결{#troubleshooting}
 
-![](../../assets/v7-only.svg)
+
 
 이 섹션에서는 게재 및 워크플로우 실행, 모니터링, 데이터베이스 유지 관리, 연결 등과 같은 Adobe Campaign 일반 프로덕션 문제와 관련된 문제 해결 절차를 설명합니다.
 

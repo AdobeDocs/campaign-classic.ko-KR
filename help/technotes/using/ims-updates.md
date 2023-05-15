@@ -2,8 +2,9 @@
 product: campaign
 title: 기술 정보 - IMS와 Adobe Campaign에 연결하기 위해 환경을 업데이트합니다.
 description: Campaign - IMS 업데이트
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: bdccc4ee7cbb8c765d488879f99677b2302d32e7
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 9%
@@ -12,7 +13,7 @@ ht-degree: 9%
 
 # IMS와 Adobe Campaign에 연결하기 위해 환경을 업데이트하는 방법 {#acc-ims-faq}
 
-![](../../assets/v7-only.svg)
+
 
 2021년 6월 30일이 다음과 같이 변경되었습니다 [Identity Management 시스템 Adobe](https://helpx.adobe.com/enterprise/using/identity.html) (IMS) Adobe Campaign을 계속 사용하는 기능에 영향을 줄 수 있는 로그인 기능입니다. 중단 없이 Adobe Campaign Classic v7를 계속 사용하는 방법을 알아봅니다.
 

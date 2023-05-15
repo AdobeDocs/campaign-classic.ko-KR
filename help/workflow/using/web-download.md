@@ -2,9 +2,10 @@
 product: campaign
 title: 웹 다운로드
 description: 웹 다운로드 워크플로우 활동에 대해 자세히 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 # 웹 다운로드{#web-download}
 
-![](../../assets/v7-only.svg)
+
 
 다음 **웹 다운로드** 활동은 명시적 URL, 외부 계정 또는 Adobe Campaign 인스턴스에서 파일 다운로드를 시작합니다. HTTP 프로토콜이 사용됩니다. GET 또는 POST 다운로드일 수 있습니다.
 

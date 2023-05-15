@@ -1,18 +1,19 @@
 ---
 title: 중복 제거 활동의 병합 기능 사용
 description: 중복 제거 작업의 병합 기능을 사용하는 방법을 알아봅니다.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
 # 중복 제거 활동의 병합 기능 사용 {#deduplication-merge}
 
-![](../../assets/v7-only.svg)
+
 
 ## 이 활용 사례 정보 {#about-this-use-case}
 
@@ -22,7 +23,7 @@ ht-degree: 7%
 
 다음 **[!UICONTROL Deduplication]** 활동은 데이터 세트에서 중복 행을 제거하는 데 사용됩니다. 이 사용 사례에서는 아래에 표시된 데이터가 이메일 필드를 기반으로 복제됩니다.
 
-| 마지막 수정 날짜 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
+| 마지막 수정일 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
 |-----|------------|-----------|-------|--------------|------|
 | 5/19/2020 | 로버트 | 티너 | bob@mycompany.com | 444-444-444 | 777-777-7777 |
 | 7/22/2020 | 바비 | 티너 | bob@mycompany.com |  | 777-777-7777 |
@@ -90,7 +91,7 @@ ht-degree: 7%
 
 이러한 규칙을 구성한 후 **[!UICONTROL Deduplication]** 활동.
 
-| 수정 날짜 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
+| 수정일 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
 |-----|------------|-----------|-------|--------------|------|
 | 5/19/2020 | 로버트 | 티너 | bob@mycompany.com | 444-444-444 | 777-777-7777 |
 | 7/22/2020 | 바비 | 티너 | bob@mycompany.com |  | 777-777-7777 |

@@ -2,11 +2,12 @@
 product: campaign
 title: Synapse에 대한 액세스 구성
 description: FDA에서 Synapse에 대한 액세스를 구성하는 방법을 배웁니다.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 # azure synapse 액세스 구성 {#configure-access-to-azure-synapse}
 
-![](../../assets/v7-only.svg)
+
 
 캠페인 사용 [페더레이션 데이터 액세스](../../installation/using/about-fda.md) (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 액세스 권한을 구성하십시오 **Microsoft Azure synapse 분석**.
 

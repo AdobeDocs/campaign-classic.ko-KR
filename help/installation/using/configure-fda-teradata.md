@@ -2,11 +2,12 @@
 product: campaign
 title: teradata 액세스 구성
 description: FDA에서 Teradata 액세스를 구성하는 방법을 배웁니다.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 65e80f16a6beaee89b51636017c42766589e179e
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 # teradata 액세스 구성 {#configure-access-to-teradata}
 
-![](../../assets/v7-only.svg)
+
 
 캠페인 사용 [페더레이션 데이터 액세스](../../installation/using/about-fda.md) (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 Teradata 액세스를 구성합니다.
 

@@ -2,19 +2,22 @@
 product: campaign
 title: ISP 중단 후 바운스 자격 업데이트
 description: ISP 중단 후 반송 조건을 업데이트하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: 9cdd4da153e5e5d1c7203d193067843fe832f38e
+exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 # ISP 중단 후 잘못된 하드 바운스 업데이트 {#update-bounces}
 
-![](../../assets/common.svg)
+
 
 ## 컨텍스트{#update-bounce-context}
 

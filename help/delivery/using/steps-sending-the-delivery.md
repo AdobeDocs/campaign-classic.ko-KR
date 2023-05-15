@@ -2,18 +2,20 @@
 product: campaign
 title: 게재 구성 및 보내기
 description: 게재를 구성하고 보내는 방법을 배웁니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1502'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
 # 게재 구성 및 보내기 {#configuring-and-sending-the-delivery}
 
-![](../../assets/common.svg)
+
 
 ## 사용 권한{#delivery-permissions}
 
@@ -35,7 +37,7 @@ ht-degree: 4%
 
 * **[!UICONTROL Send using multiple waves]**: 이 옵션을 사용하여 메시지를 한 번에 전체 대상자가 아닌 일괄 처리로 보낼 수 있습니다. [자세히 알아보기](#sending-using-multiple-waves)
 
-* **[!UICONTROL Test SMTP delivery]**: SMTP를 통한 전송을 테스트하려면 이 옵션을 사용합니다. 게재는 SMTP 서버에 대한 연결까지 처리되지만 전송되지 않습니다: 게재를 받는 모든 사람에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행하고 SMTP DATA 명령 전에 연결을 닫습니다.
+* **[!UICONTROL Test SMTP delivery]**: SMTP를 통한 전송을 테스트하려면 이 옵션을 사용합니다. 게재는 SMTP 서버에 연결될 때까지 처리되지만 전송되지는 않습니다. 게재의 모든 수신자에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행한 다음 SMTP DATA 명령 전에 연결을 종료합니다.
 
    >[!NOTE]
    >
@@ -188,9 +190,9 @@ ht-degree: 4%
 
 ![](assets/s_ncs_user_email_del_valid_period.png)
 
-* 다음 **[!UICONTROL Delivery duration]** 필드를 사용하면 글로벌 게재 다시 시도 제한을 입력할 수 있습니다. 즉, Adobe Campaign은 시작 날짜부터 메시지를 보낸 다음, 오류만 반환하는 메시지의 경우 유효성 제한에 도달할 때까지 정기적으로 구성 가능한 다시 시도가 수행됩니다.
+* 다음 **[!UICONTROL Delivery duration]** 필드를 사용하면 글로벌 게재 다시 시도 제한을 입력할 수 있습니다. 즉, Adobe Campaign은 시작 날짜부터 메시지를 전송하고 나서 메시지가 오류만 반환하는 경우 유효성 검사 제한에 도달할 때까지 구성 가능한 일반 재시도를 수행합니다.
 
-   날짜를 지정하도록 선택할 수도 있습니다. 이렇게 하려면 을(를) 선택합니다. **[!UICONTROL Explicitly set validity dates]**. 이 경우 게재 및 유효성 제한 날짜도 시간을 지정할 수 있도록 해줍니다. 현재 시간은 기본적으로 사용되지만 입력 필드에서 직접 수정할 수 있습니다.
+   날짜를 지정할 수도 있습니다. 이렇게 하려면 을(를) 선택합니다. **[!UICONTROL Explicitly set validity dates]**. 이 경우 게재 및 유효성 검사 제한 날짜를 통해 시간을 지정할 수도 있습니다. 기본적으로 현재 시간이 사용되지만 입력 필드에서 직접 수정할 수 있습니다.
 
    >[!IMPORTANT]
    >

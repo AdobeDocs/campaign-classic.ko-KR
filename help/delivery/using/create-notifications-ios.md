@@ -2,9 +2,10 @@
 product: campaign
 title: iOS 장치에 대한 푸시 알림 만들기
 description: iOS용 푸시 알림을 만드는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 6%
@@ -13,7 +14,7 @@ ht-degree: 6%
 
 # iOS에 대한 알림 만들기{#create-notifications-ios}
 
-![](../../assets/v7-only.svg)
+
 
 이 섹션에서는 iOS 알림 전달과 관련된 요소에 대해 자세히 설명합니다. 게재 만들기에 대한 글로벌 개념은 [이 섹션](steps-about-delivery-creation-steps.md).
 

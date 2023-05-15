@@ -2,11 +2,13 @@
 product: campaign
 title: IMS 구현
 description: IMS 구현
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 0%
@@ -15,11 +17,11 @@ ht-degree: 0%
 
 # IMS 구현{#implementing-ims}
 
-![](../../assets/common.svg)
+
 
 ## IMS 연결 활성화 {#enabling-the-ims-connection}
 
-1. IMS를 통해 연결을 활성화하려면 다음을 확인하십시오. **[!UICONTROL Connect with an Adobe ID]** 를 클릭합니다.
+1. IMS를 통해 연결을 활성화하려면 **[!UICONTROL Connect with an Adobe ID]** 를 클릭합니다.
 
    ![](assets/ims_1.png)
 
@@ -29,6 +31,6 @@ ht-degree: 0%
 
 ## IMS 연결 비활성화 {#disabling-the-ims-connection}
 
-Adobe ID을 통한 연결을 비활성화하려면 연결을 끊고 **[!UICONTROL File > Connections]** 및 선택 취소 **[!UICONTROL Connect with an Adobe ID]**.
+Adobe ID을 통한 연결을 비활성화하려면 연결을 끊습니다. **[!UICONTROL File > Connections]** 선택을 취소하고 **[!UICONTROL Connect with an Adobe ID]**.
 
 ![](assets/ims_4.png)

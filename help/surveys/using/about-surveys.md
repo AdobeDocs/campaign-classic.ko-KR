@@ -2,9 +2,11 @@
 product: campaign
 title: 설문 조사 시작
 description: Campaign 설문 조사 시작
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 4%
@@ -13,7 +15,7 @@ ht-degree: 4%
 
 # 설문 조사 시작{#about-surveys}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign에는 웹 애플리케이션을 정의하고 게시할 수 있는 그래픽 모듈이 포함되어 있습니다. 엑스트라넷의 편집 양식 등의 페이지를 만들거나 테이블, 차트, 입력 양식 등이 있는 데이터베이스의 데이터를 포함하는 알림 양식을 만드는 데 사용됩니다. 이 기능을 사용하여 사용자가 정보를 조회하거나 입력할 수 있는 웹 페이지를 디자인하고 게시할 수 있습니다.
 

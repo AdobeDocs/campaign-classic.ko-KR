@@ -2,11 +2,12 @@
 product: campaign
 title: 프로필 시작
 description: Adobe Campaign에서 프로필 작업
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 16%
@@ -15,7 +16,7 @@ ht-degree: 16%
 
 # 프로필 시작{#about-profiles}
 
-![](../../assets/v7-only.svg)
+
 
 프로필은 Adobe Campaign 데이터베이스에서 중앙 집중화되었습니다. 프로필을 가져오고 이 데이터베이스를 빌드하는 데 사용할 수 있는 메커니즘은 웹 양식을 통한 온라인 수집, 텍스트 파일 수동 또는 자동 가져오기, 회사 데이터베이스 또는 기타 정보 시스템을 사용한 복제와 같이 다양합니다. Adobe Campaign을 사용하면 마케팅 기록, 구매 정보, 환경 설정, CRM 데이터 및 관련 API 데이터를 통합 뷰에 통합하여 분석하고 조치를 취할 수 있습니다.
 

@@ -2,11 +2,12 @@
 product: campaign
 title: 클라이언트 콘솔 설치
 description: 클라이언트 콘솔 설치 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 # Campaign 클라이언트 콘솔 설치 및 업데이트{#installing-the-client-console}
 
-![](../../assets/v7-only.svg)
+
 
 Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결할 수 있는 리치 클라이언트입니다.
 
@@ -39,7 +40,7 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 
 Campaign Classic 7.3 빌드 버전에서 모든 콘솔 설치에 Microsoft Edge Webview 2 런타임이 필요합니다.
 
-웹 보기는 기본적으로 Windows 11 운영 체제의 일부로 설치됩니다. 시스템에 아직 없는 경우, Campaign Classic 콘솔 설치 프로그램에서 다운로드하라는 메시지를 표시합니다. [Microsoft 개발자 웹 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download). Microsoft에서 지원되지 않으므로 다운로드 링크가 Internet Explorer 11 브라우저에서 작동하지 않습니다. 링크에 액세스하려면 다른 브라우저를 사용해야 합니다.
+웹 보기는 기본적으로 Windows 11 운영 체제의 일부로 설치됩니다. 시스템에 아직 없는 경우, Campaign Classic 콘솔 설치 프로그램에서 다운로드하라는 메시지를 표시합니다. [Microsoft 개발자 웹 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr). Microsoft에서 지원되지 않으므로 다운로드 링크가 Internet Explorer 11 브라우저에서 작동하지 않습니다. 링크에 액세스하려면 다른 브라우저를 사용해야 합니다.
 
 ## 호스팅된 구현 Adobe {#hosted-customers}
 

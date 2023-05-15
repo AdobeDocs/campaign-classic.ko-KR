@@ -2,11 +2,12 @@
 product: campaign
 title: 자동 개인 정보 보호 요청 프로세스
 description: 자동 개인 정보 요청 프로세스를 설정하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: a93bac61-f615-4178-bc12-0f056e48687d
-source-git-commit: 42b420d7dae7d38e9f4df442146d3b484c25e831
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # 자동 개인 정보 보호 요청 프로세스 {#automatic-privacy-request-api}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign은 자동 개인 정보 보호 요청 프로세스를 설정할 수 있는 **API**&#x200B;를 제공합니다.
 

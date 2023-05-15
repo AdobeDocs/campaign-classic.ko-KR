@@ -2,9 +2,11 @@
 product: campaign
 title: 입력 양식
 description: Campaign에서 입력 양식을 사용하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Data Management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 2%
@@ -13,7 +15,7 @@ ht-degree: 2%
 
 # 입력 양식{#input-forms}
 
-![](../../assets/common.svg)
+
 
 다음은 Adobe Campaign에서 입력 양식 사용에 관한 몇 가지 일반적인 원칙입니다.
 

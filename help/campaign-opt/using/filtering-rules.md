@@ -2,9 +2,10 @@
 product: campaign
 title: 필터링 규칙
 description: 필터링 규칙 사용 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Typology Rules
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 2%
@@ -12,8 +13,6 @@ ht-degree: 2%
 ---
 
 # 필터링 규칙{#filtering-rules}
-
-![](../../assets/v7-only.svg)
 
 필터링 규칙을 사용하면 쿼리에 정의된 기준에 따라 제외할 메시지를 정의할 수 있습니다. 이러한 규칙은 타겟팅 차원에 연결됩니다.
 

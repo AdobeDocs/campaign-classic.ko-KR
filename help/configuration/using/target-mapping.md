@@ -2,8 +2,10 @@
 product: campaign
 title: 대상 매핑
 description: 대상 매핑을 만드는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 2%
@@ -12,7 +14,7 @@ ht-degree: 2%
 
 # 대상 매핑{#target-mapping}
 
-![](../../assets/common.svg)
+
 
 다음 두 가지 경우 대상 매핑 작성이 필요합니다.
 

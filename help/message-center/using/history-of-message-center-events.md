@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: 메시지 센터 이벤트 내역
-description: 메시지 센터 이벤트 내역 보고서에 대해 자세히 알아보십시오 .
+description: 메시지 센터 이벤트 내역 보고서에 대해 자세히 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
-source-git-commit: 1348c1d88d0732b0dda4ed488b4a258ac7e15c42
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 # 메시지 센터 이벤트 내역{#history-of-message-center-events}
 
-![](../../assets/v7-only.svg)
+
 
 다음 **[!UICONTROL History of Message Center events]** 보고서는 메시지 센터 활동에 대한 개요(예: 트랜잭션 메시지로 처리 및 전달된 이벤트 수)를 제공합니다.
 

@@ -2,18 +2,20 @@
 product: campaign
 title: 시드 주소
 description: 시드 주소
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 # 시드 주소{#seed-addresses}
 
-![](../../assets/common.svg)
+
 
 수신자 테이블이 사용자 지정 테이블인 경우 추가 구성이 필요합니다. 다음 **[!UICONTROL nms:seedMember]** 스키마를 확장해야 합니다. 아래 그림과 같이 적절한 필드를 정의하기 위한 추가 탭이 시드 주소에 추가됩니다.
 

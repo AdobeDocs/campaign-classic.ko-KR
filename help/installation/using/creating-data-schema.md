@@ -2,17 +2,18 @@
 product: campaign
 title: FDA용 데이터 스키마 만들기
 description: FDA용 데이터 스키마를 만드는 방법을 알아보십시오
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 데이터 스키마 만들기 {#creating-the-data-schema}
 
-![](../../assets/v7-only.svg)
+
 
 외부 데이터베이스에 스키마를 생성하려면 다음을 수행합니다.
 
@@ -30,7 +31,7 @@ ht-degree: 2%
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. 클릭 **[!UICONTROL OK]** 확인합니다. Adobe Campaign은 선택한 테이블의 구조를 자동으로 감지하고 논리 스키마를 생성합니다. Adobe Campaign은 링크를 생성하지 않습니다.
+1. **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 확인합니다. Adobe Campaign은 선택한 테이블의 구조를 자동으로 감지하고 논리 스키마를 생성합니다. Adobe Campaign은 링크를 생성하지 않습니다.
 
 1. 클릭 **[!UICONTROL Save]** 을 클릭하여 만들기를 확인합니다.
 

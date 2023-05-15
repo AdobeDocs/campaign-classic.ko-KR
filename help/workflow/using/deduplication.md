@@ -2,24 +2,25 @@
 product: campaign
 title: 중복 제거
 description: 중복 제거 워크플로우 활동에 대해 자세히 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
 # 중복 제거{#deduplication}
 
-![](../../assets/v7-only.svg)
+
 
 중복 제거는 인바운드 활동의 결과에서 중복을 삭제합니다. 중복 제거는 이메일 주소, 전화 번호 또는 다른 필드에서 수행할 수 있습니다.
 
 다음 **[!UICONTROL Deduplication]** 활동은 데이터 세트에서 중복 행을 제거하는 데 사용됩니다. 예를 들어, 아래 레코드는 동일한 이메일 주소와 동일한 모바일 및/또는 홈전화기가 있으므로 중복으로 간주될 수 있습니다.
 
-| 마지막 수정 날짜 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
+| 마지막 수정일 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
 -----|------------|-----------|-------|--------------|------
 | 02/03/2020 | Bob | 티너 | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 | 05/19/2020 | 로버트 | 티너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
@@ -33,7 +34,7 @@ ht-degree: 10%
 
 선택한 기본 레코드는 중복 행의 다른 관련 데이터와 필드 데이터를 병합하지 않고 데이터를 전달합니다.
 
-보완:
+보조 항목:
 
 | 날짜 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
 -----|------------|-----------|-------|--------------|------

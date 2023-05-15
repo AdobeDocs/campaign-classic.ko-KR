@@ -2,18 +2,19 @@
 product: campaign
 title: 보고 모범 사례
 description: Campaign 보고 우수 사례
+badge: label="v7" type="유익함" tooltip="Campaign Classic v7에만 적용"
 feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
 
 # 보고 우수 사례{#best-practices-reporting}
 
-![](../../assets/common.svg)
+
 
 ## 요구 사항 분석{#analyzing-needs}
 

@@ -2,18 +2,20 @@
 product: campaign
 title: 게재 유효성 검사
 description: 게재의 유효성을 검사하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability, Email Rendering, Proofs
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 2d5166c355ee090639dcc52866252bae6beb81f6
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1666'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
 # 게재 유효성 검사 {#validating-the-delivery}
 
-![](../../assets/common.svg)
+
 
 게재를 만들고 구성한 경우 기본 타겟으로 보내기 전에 유효성 검사를 해야 합니다.
 
@@ -62,10 +64,10 @@ ht-degree: 4%
 
 1. 분석이 완료될 때까지 기다립니다.
 
-   분석이 완료되면 창의 위쪽 섹션에는 게재 준비가 완료되었는지 또는 오류가 발생했는지 여부가 표시됩니다. 모든 유효성 검사 단계, 경고 및 오류가 나열됩니다. 색상 아이콘은 메시지 유형을 보여줍니다.
+   분석이 완료되면 창의 위쪽 섹션에는 게재 준비가 완료되었는지 또는 오류가 발생했는지 여부가 표시됩니다. 모든 유효성 검사 단계, 경고 및 오류가 나열됩니다. 색상이 지정된 아이콘은 메시지 유형을 나타냅니다.
    * 파란색 아이콘은 유용한 메시지를 나타냅니다.
    * 노란색 아이콘은 중요하지 않은 처리 오류를 나타냅니다.
-   * 빨간색 아이콘은 게재를 보낼 수 없는 중요한 오류를 나타냅니다.
+   * 빨간색 아이콘은 게재 전송을 방해하는 심각한 오류를 나타냅니다.
 
    ![](assets/s_ncs_user_email_del_analyze_error.png)
 
@@ -209,7 +211,7 @@ ht-degree: 4%
 
 ## 승인 모드 변경 {#changing-the-approval-mode}
 
-다음 **[!UICONTROL Analysis]** 전달 속성의 탭에서는 유효성 검사 모드를 선택할 수 있습니다. 분석 중에 경고가 생성된 경우(예: 특정 문자가 게재의 주체에 입력되는 경우 등) 게재를 구성하여 여전히 실행해야 하는지 여부를 정의할 수 있습니다. 기본적으로 사용자는 분석 단계가 끝날 때 메시지 전송을 확인해야 합니다. 이것은 **수동** 유효성 검사.
+다음 **[!UICONTROL Analysis]** 전달 속성의 탭에서는 유효성 검사 모드를 선택할 수 있습니다. 분석 중에 경고가 생성된 경우(예: 특정 문자가 게재의 주체에 입력되는 경우 등) 게재를 구성하여 여전히 실행해야 하는지 여부를 정의할 수 있습니다. 사용자는 기본적으로 분석 단계가 끝나면 메시지 전송을 확인해야 합니다. 이를 **수동** 유효성 검사라고 합니다.
 
 해당 필드의 드롭다운 목록에서 다른 승인 모드를 선택합니다.
 

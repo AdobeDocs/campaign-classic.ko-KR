@@ -2,9 +2,11 @@
 product: campaign
 title: 콘텐츠 관리 정보
 description: 캠페인 콘텐츠 관리자 모듈 시작
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Landing Pages, Email Design
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 2%
@@ -13,7 +15,7 @@ ht-degree: 2%
 
 # 콘텐츠 관리 정보{#about-content-management}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign Content Manager 모듈은 특정 Campaign Classic입니다 [기본 제공 패키지](../../installation/using/installing-campaign-standard-packages.md) 재귀적 뉴스레터 또는 웹 사이트를 만들기 위해 설치할 수 있습니다. 메시지를 만들고, 확인하고, 게시할 수 있습니다.
 

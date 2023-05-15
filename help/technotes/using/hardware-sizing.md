@@ -2,8 +2,9 @@
 product: campaign
 title: Campaign Classic v7에 대한 하드웨어 크기 조정 권장 사항
 description: Campaign Classic v7에 대한 하드웨어 크기 조정 권장 사항
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 1%
@@ -12,7 +13,7 @@ ht-degree: 1%
 
 # 하드웨어 크기 조정 권장 사항{#hardware-sizing-reco}
 
-![](../../assets/v7-only.svg)
+
 
 ## 개요
 
@@ -82,13 +83,13 @@ Adobe은 배포 환경에서 Adobe Campaign 서버에 중계할 수 있는 URL �
 
 예상 볼륨:
 
-| 채널 | 볼륨 |
+| 채널 | 수량 |
 | ----------------------- | ----------------- |
 | 활성 수신자 | 500만 |
 | 이메일 | 월 420만 개 |
 | DM | 월 100만 개 |
-| Mobile SMS | 월 100,000개 |
-| 최고 일별 이메일 볼륨 | 500년 |
+| 모바일 SMS | 월 100,000개 |
+| 최고 일별 이메일 볼륨 | 500 |
 
 이러한 볼륨의 경우 한 쌍의 Adobe Campaign 애플리케이션 서버 시스템이 Adobe Campaign 클라이언트 사용자 및 워크플로우 실행을 위한 모든 기능을 제공합니다. 5 백만 명의 활성 수신자와 이 이메일 볼륨의 경우 애플리케이션 서버 워크로드가 CPU 또는 I/O를 많이 사용하지 않습니다. 대부분의 스트레스는 데이터베이스에 있다.
 
@@ -131,12 +132,12 @@ DMZ의 역방향 프록시는 Adobe Campaign 웹 서버에 대한 로드 밸런�
 
 예상 볼륨:
 
-| 채널 | 볼륨 |
+| 채널 | 수량 |
 | ----------------------- | ----------------- |
 | 활성 수신자 | 2,000만 |
 | 이메일 | 4,200만/월 |
 | DM | 1,000만/월 |
-| Mobile SMS | 1,000,000/월 |
+| 모바일 SMS | 1,000,000/월 |
 | 최고 일별 이메일 볼륨 | 5,000,000 |
 
 ### 웹 및 응용 프로그램 서버
@@ -167,12 +168,12 @@ DMZ의 역방향 프록시는 Adobe Campaign 웹 서버에 대한 로드 밸런�
 
 예상 볼륨:
 
-| 채널 | 볼륨 |
+| 채널 | 수량 |
 | ----------------------- | ----------------- |
 | 활성 수신자 | 5,000만 |
 | 이메일 | 1,080/월 |
 | DM | 월 2500만 |
-| Mobile SMS | 2,500만/월 |
+| 모바일 SMS | 2,500만/월 |
 | 트랜잭션 메시지  | 2,500만/월 |
 | 최고 일별 이메일 볼륨 | 2,500만 |
 

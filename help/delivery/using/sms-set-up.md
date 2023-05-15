@@ -2,9 +2,11 @@
 product: campaign
 title: Campaign SMS 채널 구성
 description: Campaign에서 SMS 채널을 구성하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 0ae52b00f69298e001596583fe166771faddead2
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 34%
@@ -13,7 +15,7 @@ ht-degree: 34%
 
 # SMS 채널 구성 {#setting-up-sms-channel}
 
-![](../../assets/common.svg)
+
 
 휴대폰에 보내려면 다음이 필요합니다.
 

@@ -2,18 +2,19 @@
 product: campaign
 title: 전반적 보고서
 description: 전반적 보고서
+badge: label="v7" type="유익함" tooltip="Campaign Classic v7에만 적용"
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '2295'
-ht-degree: 4%
+source-wordcount: '2306'
+ht-degree: 7%
 
 ---
 
 # 전반적 보고서 {#global-reports}
 
-![](../../assets/common.svg)
+
 
 이러한 보고서는 전체 데이터베이스에 있는 데이터의 활동과 관련되어 있습니다. 보고서 대시보드를 보려면 **[!UICONTROL Reports]** 탭.
 
@@ -43,7 +44,7 @@ ht-degree: 4%
 
 ## 게재 처리량 {#delivery-throughput}
 
-이 보고서에는 지정된 기간 동안 전체 플랫폼의 게재 처리량에 대한 정보가 포함되어 있습니다. 메시지가 전달되는 속도를 측정하기 위해 기준은 시간당 전송된 메시지 수와 메시지 크기(초당 비트 수)입니다. 아래 예에서 첫 번째 그래프는 성공적으로 게재한 것을 파란색으로 표시하고 잘못된 게재 수를 주황색으로 표시합니다.
+이 보고서에는 지정된 기간 동안 전체 플랫폼의 게재 처리량에 대한 정보가 포함되어 있습니다. 메시지가 게재되는 속도를 측정하기 위한 기준은 시간당 전송된 메시지 수와 메시지 크기(초당 비트 수)입니다. 아래 예에서는 첫 번째 그래프에 성공한 게재 수는 파란색으로, 잘못된 게재 수는 주황색으로 표시됩니다.
 
 ![](assets/s_ncs_user_report_toolbar.png)
 
@@ -53,7 +54,7 @@ ht-degree: 4%
 >
 >인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic을 사용하여 시간당 전송된 게재 수도 모니터링할 수 있습니다 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html). 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
 >
->Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
+>컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
 >인스턴스는 최신 버전으로 업그레이드해야 합니다 [Gold Standard](../../rn/using/gold-standard.md) 빌드 또는 [최신 GA 빌드(21.1.3)](../../rn/using/latest-release.md). [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다.
 
@@ -299,9 +300,9 @@ ht-degree: 4%
 * **[!UICONTROL Clicks]** : 게재를 한 번 이상 클릭한 사람 수의 백분율로, 성공적으로 처리된 메시지 수와 비교됩니다.
 * **[!UICONTROL Unsubscription]** : 성공적으로 처리된 메시지 수와 비교하여 구독 취소 링크에 대한 클릭 수의 비율입니다.
 
-## 열기 분류 {#breakdown-of-opens}
+## 열람 분류 {#breakdown-of-opens}
 
-이 보고서는 관련 기간 동안 운영 체제, 장치 및 브라우저별 열기 수를 보여줍니다. 각 카테고리에 대해 두 개의 차트가 사용됩니다. 첫 번째는 컴퓨터 및 모바일 장치에서 열리는 통계에 대한 통계입니다. 두 번째는 모바일 장치에서 열리는 경우에만 관련된 통계를 표시합니다.
+이 보고서는 관련 기간 동안 운영 체제, 장치 및 브라우저별 열기 수를 보여줍니다. 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째 차트에는 모바일 디바이스에서의 열람과 관련된 통계만 표시됩니다.
 
 열기 수는 열린 총 메시지 수에 해당합니다. 텍스트 형식 이메일은 카운트되지 않습니다. 열기 추적에 대한 자세한 내용은 [추적 열기](../../reporting/using/indicator-calculation.md#tracking-opens-) 섹션을 참조하십시오.
 

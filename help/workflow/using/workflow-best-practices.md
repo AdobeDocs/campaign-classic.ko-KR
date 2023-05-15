@@ -2,18 +2,19 @@
 product: campaign
 title: 워크플로우 모범 사례
 description: Campaign 워크플로우 모범 사례 학습
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
 # 워크플로우 모범 사례{#workflow-best-practices}
 
-![](../../assets/v7-only.svg)
+
 
 ## 실행 및 성능 {#execution-and-performance}
 
@@ -27,17 +28,17 @@ JavaScript 메서드 **[!UICONTROL logInfo()]** 는 워크플로우를 디버깅
 
 다음과 같은 두 가지 추가 솔루션을 사용할 수 있습니다.
 
-* **두 실행 사이에 중간 모집단의 결과 유지**
+* **두 차례 실행 사이의 중간 모집단 결과 유지**
 
-   이 옵션은 워크플로우의 두 실행 사이에 임시 테이블을 유지합니다. 워크플로우 속성 **[!UICONTROL General]** 탭이며, 를 개발 및 테스트 목적으로 사용하여 데이터를 모니터링하고 결과를 확인할 수 있습니다. 이 옵션은 개발 환경에서 사용할 수 있지만 프로덕션 환경에서는 사용할 수 없습니다. 임시 테이블을 유지하면 데이터베이스 크기가 크게 증가하고 결국 크기 제한에 도달할 수 있습니다. 또한 백업 속도가 느려집니다.
+   이 옵션은 워크플로우의 두 실행 사이에 임시 테이블을 유지합니다. 워크플로우 속성 **[!UICONTROL General]** 탭이며, 를 개발 및 테스트 목적으로 사용하여 데이터를 모니터링하고 결과를 확인할 수 있습니다. 개발 환경에서 이 옵션을 사용할 수 있지만 프로덕션 환경에서는 절대 사용하지 마십시오. 임시 테이블을 유지하면 데이터베이스 크기가 크게 증가하여 크기 제한에 도달할 수 있으며 백업 속도도 느려집니다.
 
-   워크플로우의 마지막 실행 작업의 작업 테이블만 유지됩니다. 이전 실행의 작업 테이블은 **[!UICONTROL cleanup]** 워크플로우입니다.
+   워크플로의 마지막 실행에 대한 작업 테이블만 유지됩니다. 이전 실행의 작업 테이블은 **[!UICONTROL cleanup]** 워크플로우입니다.
 
    >[!CAUTION]
    >
-   >프로덕션 워크플로우에서는 이 옵션을 체크해서는 안 됩니다. 이 옵션은 결과를 분석하는 데 사용되며 테스트 목적으로만 설계되므로 개발 또는 스테이징 환경에서만 사용해야 합니다.
+   >프로덕션 워크플로우에서는 이 옵션을 체크해서는 안 됩니다. 이 옵션은 결과를 분석하는 데 사용되며 테스트 목적으로만 설계되었기 때문에 개발 또는 스테이징 환경에서만 사용해야 합니다.
 
-* **저널에 SQL 쿼리 로그**
+* **저널의 로그 SQL 쿼리**
 
    에서 사용할 수 있습니다. **[!UICONTROL Execution]** 워크플로우 속성의 탭에 있는 이 옵션은 다른 활동에서 도구에서 생성한 모든 SQL 쿼리를 기록합니다. 이 방법은 플랫폼에서 실제로 실행되는 항목을 확인하는 좋은 방법입니다. 그러나 이 옵션은 개발 중에만 일시적으로 사용해야 하며 프로덕션에서 활성화되지 않습니다.
 
@@ -76,7 +77,7 @@ JavaScript 메서드 **[!UICONTROL logInfo()]** 는 워크플로우를 디버깅
 
 ![](assets/wf-execute-in-engine.png)
 
-## 워크플로우 속성 {#workflow-properties}
+## 워크플로 속성 {#workflow-properties}
 
 ### 워크플로우 폴더 {#workflow-folders}
 

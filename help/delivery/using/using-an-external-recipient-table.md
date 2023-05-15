@@ -2,9 +2,11 @@
 product: campaign
 title: 외부 수신자 테이블 사용
 description: 외부 수신자 테이블 사용
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Audiences
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 18%
@@ -13,7 +15,7 @@ ht-degree: 18%
 
 # 외부 수신자 테이블 사용{#using-an-external-recipient-table}
 
-![](../../assets/common.svg)
+
 
 게재 테이블이 외부 테이블인 경우 추가 구성을 수행해야 합니다. 다음 **[!UICONTROL nms:seedmember]** 스키마를 확장해야 합니다. 시드 주소에 아래와 같이 적절한 필드를 정의하기 위한 탭이 추가됩니다.
 

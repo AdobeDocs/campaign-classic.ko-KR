@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: 추가 구성
-description: Adobe Campaign Classic에서 트랜잭션 메시지를 위한 추가 구성을 설정하는 방법을 알아봅니다.
+description: Adobe Campaign Classic에서 트랜잭션 메시지를 위한 추가 구성을 설정하는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 7%
@@ -15,7 +16,7 @@ ht-degree: 7%
 
 # 추가 구성 {#mc-additional-configurations}
 
-![](../../assets/v7-only.svg)
+
 
 ## 임계값 모니터링 {#monitoring-thresholds}
 
@@ -95,7 +96,7 @@ Once the control and execution modules are installed on the same instance, you m
 
 이 섹션에서는 Adobe Campaign에서 트랜잭션 메시지를 위해 브랜드당 추적 및 미러 페이지 URL을 구성하는 한 가지 솔루션에 대해 설명합니다.
 
-### 필수 구성 요소 {#prerequisites}
+### 전제 조건 {#prerequisites}
 
 * 모든 호스트를 인스턴스의 구성 파일(`config-<instance>.xml`).
 * 각 브랜드에 하위 도메인을 지정해야 합니다.

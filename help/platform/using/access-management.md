@@ -2,18 +2,19 @@
 product: campaign
 title: 사용 권한 시작
 description: Campaign 기능에 대한 액세스 권한을 부여하는 방법을 알아봅니다
+badge: label="v7" type="유익함" tooltip="Campaign Classic v7에만 적용"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '264'
 ht-degree: 6%
 
 ---
 
 # 사용 권한 시작{#access-management}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign을 사용하면 다양한 운영자에게 할당된 권한을 정의하고 관리할 수 있습니다. 권한을 부여하거나 거부한 권한 및 제한 세트입니다.
 

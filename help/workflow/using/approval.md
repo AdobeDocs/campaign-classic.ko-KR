@@ -2,9 +2,10 @@
 product: campaign
 title: 승인
 description: 승인
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Approvals
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # 승인{#approval}
 
-![](../../assets/v7-only.svg)
+
 
 An **승인** 작업에 연산자의 참여가 필요합니다. 운영자에게 작업이 할당되며 전자 메일 메시지에 연결된 웹 페이지를 사용하거나 콘솔을 통해 응답할 수 있습니다.
 

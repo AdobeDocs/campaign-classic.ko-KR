@@ -2,9 +2,11 @@
 product: campaign
 title: 누적 보고서
 description: 누적 보고서
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: e67748dd-fa50-4992-b85f-474389e876cf
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 8%
@@ -13,7 +15,7 @@ ht-degree: 8%
 
 # 누적 보고서 {#cumulative-reports}
 
-![](../../assets/common.svg)
+
 
 게재에 대한 누적 보고서를 표시할 수 있습니다. 이렇게 하려면 비교할 게재 를 선택하여 이러한 게재에 대한 보고서 목록을 확인합니다.
 

@@ -2,18 +2,20 @@
 product: campaign
 title: 파일 첨부
 description: 파일 첨부
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '928'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 # 전자 메일에 파일 첨부{#attaching-files}
 
-![](../../assets/common.svg)
+
 
 ## 전자 메일 첨부 파일 기본 정보 {#about-email-attachments}
 
@@ -21,7 +23,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. 권장 임계값은 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
+>성능 문제를 방지하려면 이메일당 둘 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. 권장 임계값은 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
 
 다음 두 가지 가능한 경우가 있습니다.
 

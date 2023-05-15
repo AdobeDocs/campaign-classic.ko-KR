@@ -2,9 +2,10 @@
 product: campaign
 title: 기술 워크플로우 모니터링
 description: 기술 워크플로우 모니터링
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 5%
@@ -13,7 +14,7 @@ ht-degree: 5%
 
 # 기술 워크플로우 모니터링 {#monitoring-technical-workflows}
 
-![](../../assets/v7-only.svg)
+
 
 기술 워크플로우를 모니터링해야 하며 실패한 경우 작업을 수행해야 합니다.
 

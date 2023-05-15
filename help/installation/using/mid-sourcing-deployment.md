@@ -2,20 +2,21 @@
 product: campaign
 title: 중간 소싱 배포
 description: 중간 소싱 배포
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 중간 소싱 배포{#mid-sourcing-deployment}
 
-![](../../assets/v7-only.svg)
+
 
 이 구성은 호스팅(ASP) 구성과 내부 구성 간의 최적 중간 솔루션입니다. 외향 실행 구성 요소는 Adobe Campaign에서 호스팅되는 &quot;중간 소싱&quot; 서버에서 수행됩니다.
 
@@ -56,7 +57,7 @@ ht-degree: 1%
 
 ## 설치 및 구성 단계 {#installation-and-configuration-steps-}
 
-### 필수 구성 요소 {#prerequisites}
+### 전제 조건 {#prerequisites}
 
 * 애플리케이션 서버의 JDK입니다.
 * 응용 프로그램 서버의 데이터베이스 서버에 액세스합니다.

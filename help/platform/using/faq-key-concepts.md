@@ -2,11 +2,12 @@
 product: campaign
 title: 주요 개념
 description: Campaign Classic FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 97%
@@ -15,7 +16,7 @@ ht-degree: 97%
 
 # 주요 개념 {#key-concepts}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign으로 시작하는 주요 단계를 배웁니다.
 
@@ -70,7 +71,7 @@ Adobe Campaign을 사용하면 다양한 전략을 사용하여 대상을 만들
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-defining-the-target-population.md).
 
-## 워크플로우란 무엇입니까? {#what-is-a-workflow-}
+## 워크플로란? {#what-is-a-workflow-}
 
 Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체 프로세스 및 작업을 오케스트레이션하는 워크플로우가 포함되어 있습니다. 이 포괄적인 그래픽 환경을 사용하면 세분화, 캠페인 실행, 파일 처리, 인력 참여 등의 프로세스를 디자인할 수 있습니다. 워크플로우 엔진은 이러한 프로세스를 실행하고 추적합니다.
 

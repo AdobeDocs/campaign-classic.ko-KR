@@ -1,12 +1,13 @@
 ---
 product: campaign
-title: '메시지 템플릿 게시 '
-description: Adobe Campaign Classic에서 트랜잭션 메시지 템플릿 게시 및 게시 취소에 대해 알아봅니다.
+title: 메시지 템플릿 게시
+description: Adobe Campaign Classic에서 트랜잭션 메시지 템플릿 게시 및 게시 취소에 대해 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 # 메시지 템플릿 게시 {#publishing-template-messages}
 
-![](../../assets/v7-only.svg)
+
 
 ## 템플릿 게시 {#template-publication}
 

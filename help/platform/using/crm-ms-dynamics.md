@@ -2,9 +2,10 @@
 product: campaign
 title: Campaign - Microsoft Dynamics CRM 커넥터
 description: Campaign과 Microsoft Dynamics 간 연결 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: 1a2e6a0bc754a1236f64b35e99c1be08f1066f75
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 3%
@@ -13,7 +14,7 @@ ht-degree: 3%
 
 # Campaign 및 Microsoft Dynamics 365 연결{#connect-to-msdyn}
 
-![](../../assets/v7-only.svg)
+
 
 이 페이지에서는 Campaign Classic에 연결하는 방법을 알아봅니다. **Microsoft Dynamics CRM 365**.
 
@@ -32,7 +33,7 @@ Microsoft Dynamics CRM에서:
 1. 앱 사용자 만들기
 1. 개인 키 인코딩
 
-[이 섹션에서 자세히 알아보기](#config-crm-microsoft)
+[이 섹션에서 자세히 알아보십시오](#config-crm-microsoft)
 
 Campaign Classic:
 1. 새 외부 계정 만들기
@@ -40,7 +41,7 @@ Campaign Classic:
 1. 구성 마법사를 사용하여 테이블을 매핑하고 열거형을 동기화합니다
 1. 동기화 워크플로우 만들기
 
-[이 섹션에서 자세히 알아보기](#configure-acc-for-microsoft)
+[이 섹션에서 자세히 알아보십시오](#configure-acc-for-microsoft)
 
 
 >[!CAUTION]
@@ -207,7 +208,7 @@ Microsoft Dynamics 365의 경우 지원/지원되지 않는 속성 유형이 아
 | 속성 유형 | 지원됨 |
 | --------------------------------------------------------------------------------- | --------- |
 | 기본 유형 : 부울, datetime, decimal, float, double, 정수, bigint, 문자열 | 예 |
-| 금액(이중) | 예 |
+| 돈(이중) | 예 |
 | 메모, entityname , primarykey, uniqueidentifier (as string) | 예 |
 | 상태, picklist(가능한 값을 열거형에 저장함), 상태(문자열) | 예 |
 | 소유자(문자열로) | 예 |

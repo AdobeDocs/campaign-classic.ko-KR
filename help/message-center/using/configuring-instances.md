@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: 인스턴스 구성
-description: Adobe Campaign Classic에서 트랜잭션 메시지 제어 및 실행 인스턴스를 구성하는 방법을 알아봅니다.
+description: Adobe Campaign Classic에서 트랜잭션 메시지 제어 및 실행 인스턴스를 구성하는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 # 인스턴스 구성 {#creating-a-shared-connection}
 
-![](../../assets/v7-only.svg)
+
 
 트랜잭션 메시지 기능을 사용하려면 제어 및 실행 인스턴스를 구성해야 합니다. 다음 중 하나를 사용할 수 있습니다.
 * [하나의 컨트롤 인스턴스](#control-instance) 하나 이상의 실행 인스턴스와 연결되어 있습니다.

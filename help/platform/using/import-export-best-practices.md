@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: 가져오기 및 내보내기 모범 사례
-description: 데이터를 가져오거나 내보낼 때 따라야 하는 모범 사례에 대해 자세히 알아보십시오.
+description: 데이터를 가져오거나 내보낼 때 따라야 하는 모범 사례에 대해 자세히 알아보십시오
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 2%
@@ -15,7 +17,7 @@ ht-degree: 2%
 
 # 가져오기 및 내보내기 모범 사례 {#import-export-best-practices}
 
-![](../../assets/common.svg)
+
 
 아래 설명된 몇 가지 간단한 규칙을 주의하고 준수하면 데이터베이스 내에서 데이터 일관성을 보장하고 데이터베이스 업데이트나 데이터 내보내기 중 일반적인 오류를 방지할 수 있습니다.
 

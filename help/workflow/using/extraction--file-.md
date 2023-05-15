@@ -2,9 +2,10 @@
 product: campaign
 title: 데이터 추출(파일)
 description: 데이터 추출(파일) 워크플로우 활동에 대해 자세히 알아보십시오
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management Activity
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 # 데이터 추출(파일){#extraction-file}
 
-![](../../assets/v7-only.svg)
+
 
 를 사용하여 외부 파일의 워크플로우 테이블에서 데이터를 추출할 수 있습니다 **[!UICONTROL Data extraction (file)]** 활동.
 

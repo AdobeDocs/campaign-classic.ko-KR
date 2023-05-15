@@ -2,9 +2,11 @@
 product: campaign
 title: 추적 로그 액세스
 description: 추적 로그 액세스
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: df494786-5950-4646-aa9c-4dde45845057
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 17%
@@ -13,7 +15,7 @@ ht-degree: 17%
 
 # 추적 로그 액세스{#accessing-the-tracking-logs}
 
-![](../../assets/common.svg)
+
 
 게재를 보내고 추적을 활성화하면 **[!UICONTROL Tracking]** 기술 워크플로우는 추적 데이터 검색을 담당합니다. 기본적으로 시간별로 실행됩니다.
 

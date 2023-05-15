@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: A/B 테스트 시작
-description: Campaign Classic의 A/B 테스트에 대해 자세히 알아보십시오.
+description: Campaign의 A/B 테스트에 대해 자세히 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '349'
 ht-degree: 3%
 
 ---
 
 # A/B 테스트 시작 {#get-started-a-b-testing}
 
-![](../../assets/common.svg)
+
 
 A/B 테스트를 사용하면 타겟팅된 모집단에 가장 큰 영향을 줄 게재 버전을 확인하기 위해 여러 버전의 게재를 서로 비교할 수 있습니다.
 

@@ -2,11 +2,12 @@
 product: campaign
 title: JavaScript를 통한 통합(클라이언트측)
 description: JavaScript를 통한 통합(클라이언트측)
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1140'
 ht-degree: 2%
@@ -15,11 +16,11 @@ ht-degree: 2%
 
 # JavaScript를 통한 통합(클라이언트측){#integration-via-javascript-client-side}
 
-![](../../assets/v7-only.svg)
+
 
 웹 페이지에서 상호 작용 엔진을 호출하려면 페이지에 직접 JavaScript 코드에 대한 호출을 삽입하십시오. 이 호출은 타깃팅된 오퍼의 콘텐츠를 반환합니다
 
-요소를 생성하지 않습니다.
+요소.
 
 Adobe은 JavaScript 통합 방법을 사용하는 것이 좋습니다.
 

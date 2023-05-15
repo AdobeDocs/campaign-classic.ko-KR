@@ -2,13 +2,14 @@
 product: campaign
 title: Campaign Classic으로 마이그레이션
 description: 이전 Campaign 버전에서 Campaign Classic으로 마이그레이션하는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: migration
 content-type: reference
 topic-tags: migration-overview
 hide: true
 hidefromtoc: true
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
-source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 3%
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # 마이그레이션 시작{#about-migration}
 
-![](../../assets/v7-only.svg)
+
 
 이 문서에서는 Adobe Campaign Classic v7로 마이그레이션하기 위한 사전 요구 사항과 단계를 자세히 설명합니다. 단계 및 선택적 설정은 구성에 따라 다릅니다.
 

@@ -2,18 +2,20 @@
 product: campaign
 title: 개인, 사용자 및 수신자
 description: 개인, 사용자 및 수신자
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
 # 사람 및 수신자 {#person-people-and-recipients}
 
-![](../../assets/common.svg)
+
 
 이 샘플은 Adobe Campaign의 개인/사람과 수신자 간의 차이를 이해하는 데 도움이 됩니다. 다음 지표에 대한 계산 방법을 자세히 설명하면서 사람과 수신자 간의 차이를 강조 표시하기 위해 여러 사람에게 게재를 보냅니다.
 
@@ -120,7 +122,7 @@ Marie의 열기 항목이 다음 로그에 표시됩니다.
 | 마리 | - | - | +1 |
 | 플로리안 | +1 | +1 | +1 |
 | 알 수 없는 사람 | - | +1 | - |
-| 중간 합계 | 1 | 2개 | 2개 |
+| 중간 합계 | 1 | 2 | 2 |
 
 ## 4단계: 헨리 {#step-4--henry}
 
@@ -145,7 +147,7 @@ Henry가 수행한 열기 및 4번의 클릭이 다음 로그에 표시됩니다
 | 플로리안 | +1 | +1 | +1 |
 | 알 수 없는 사람 | - | +1 | - |
 | 헨리 | +1 | +4 | +1 |
-| 중간 합계 | 2개 | 6 | 3 |
+| 중간 합계 | 2 | 6 | 3 |
 
 ## 요약 {#summary}
 

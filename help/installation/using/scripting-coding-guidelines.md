@@ -1,25 +1,26 @@
 ---
 product: campaign
 title: 스크립팅 및 코딩 지침
-description: Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때 따라야 할 지침에 대해 자세히 알아보십시오.
+description: Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때 따라야 할 지침에 대해 자세히 알아보십시오
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 # 스크립팅 및 코딩 지침 {#scripting-coding-guidelines}
 
-![](../../assets/v7-only.svg)
+
 
 ## 스크립팅
 
-자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
+자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko).
 
 워크플로우, 웹 애플리케이션, jssp를 사용하여 스크립팅하는 경우 다음 우수 사례를 따르십시오.
 
@@ -56,7 +57,7 @@ SQL 주입을 방지하려면 Adobe Campaign에서 사용할에 SQL 함수허용
 >
 >8140보다 오래된 빌드를 사용하는 경우 **XtkPassUnknownSQLFfunctionsToRDBMS** 옵션이 &#39;1&#39;로 설정될 수 있습니다. 데이터베이스를 보호하려면 이 옵션을 삭제하거나 &#39;0&#39;으로 설정합니다.
 
-사용자 입력을 사용하여 쿼리 또는 SQL 문에서 필터를 빌드하는 경우 항상 이스케이프 처리를 해야 합니다( 참조) [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) - 데이터 보호: 이스케이프 처리). 이 기능은 다음과 같습니다.
+사용자 입력을 사용하여 쿼리 또는 SQL 문에서 필터를 빌드하는 경우 항상 이스케이프 처리를 해야 합니다( 참조) [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko) - 데이터 보호: 이스케이프 처리). 이 기능은 다음과 같습니다.
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)

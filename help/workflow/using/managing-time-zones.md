@@ -2,18 +2,19 @@
 product: campaign
 title: 표준 시간대 관리
 description: 표준 시간대 관리
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # 시간대 관리{#managing-time-zones}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign을 사용하면 동일한 인스턴스에 의해 관련된 다양한 국가 간에 시간 지연을 관리할 수 있습니다. 적용된 구성은 인스턴스를 생성하는 동안 구성됩니다.
 

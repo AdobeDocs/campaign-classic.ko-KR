@@ -6,7 +6,7 @@ feature: Reporting
 hide: true
 hidefromtoc: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 표시기 만들기{#creating-indicators}
 
-![](../../assets/common.svg)
+
 
 큐브가 작동하도록 하려면 관련 차원 및 측정값을 식별하고 큐브에서 만들어야 합니다.
 

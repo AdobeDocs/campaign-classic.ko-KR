@@ -2,9 +2,10 @@
 product: campaign
 title: 필터 만들기
 description: 쿼리를 수행할 때 필터를 만드는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Query Editor, Workflows
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
-source-git-commit: 6232e0df09165bc07c8e521df271874abd5698a9
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 2%
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 # 필터 만들기 {#creating-a-filter}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign에서 사용할 수 있는 필터는 쿼리와 동일한 운영 모드를 사용하여 만들어지는 필터링 조건을 통해 정의됩니다.
 

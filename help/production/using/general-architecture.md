@@ -2,11 +2,12 @@
 product: campaign
 title: 일반 아키텍처
 description: 일반 아키텍처
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 # 일반 아키텍처{#general-architecture}
 
-![](../../assets/v7-only.svg)
+
 
 ## 최소 아키텍처 {#minimum-architecture}
 
@@ -55,4 +56,4 @@ Adobe Campaign은 여러 시스템에 대해 분류할 수 있는 여러 모듈�
 | 6666/udp(로컬) | Adobe Campaign: Syslogd | 예 |
 | 8005/tcp(로컬) | Adobe Campaign: 웹 모듈 | 예 |
 | 8080/tcp | Adobe Campaign: 웹 모듈(tomcat) | 예 |
-| 777년 | 통계 서버(통계 서버) | 예 |
+| 7777 | 통계 서버(통계 서버) | 예 |

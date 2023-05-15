@@ -2,11 +2,13 @@
 product: campaign
 title: 가설 추적
 description: Campaign Response Manager에서 가설을 추적하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
-source-git-commit: 878ba2b532d5cb59af77b6450b12ae5d2ff149b2
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 1%
@@ -15,7 +17,7 @@ ht-degree: 1%
 
 # 가설 추적{#hypothesis-tracking}
 
-![](../../assets/common.svg)
+
 
 가설 계산의 결과는 Adobe Campaign 플랫폼의 다양한 수준에서 사용할 수 있습니다. 가설 및 대상 모집단 반응에 의해 계산된 지표는 실제 가설을 통해 볼 수 있고, 캠페인 및 게재를 통해 사용할 수 있는 가설 보고서에서도 볼 수 있습니다.
 

@@ -2,9 +2,11 @@
 product: campaign
 title: 조건부 콘텐츠 정의
 description: 조건부 콘텐츠 정의
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 8%
@@ -13,7 +15,7 @@ ht-degree: 8%
 
 # 조건부 콘텐츠 정의{#defining-a-conditional-content}
 
-![](../../assets/common.svg)
+
 
 특정 보고서 항목 또는 페이지 표시를 조건화할 수 있습니다.
 

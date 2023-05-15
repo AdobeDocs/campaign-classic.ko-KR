@@ -2,18 +2,17 @@
 product: campaign
 title: 데이터 지향 API
 description: 데이터 지향 API
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: API
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1857'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 데이터 지향 API{#data-oriented-apis}
-
-![](../../assets/v7-only.svg)
 
 데이터 지향 API를 사용하면 전체 데이터 모델을 처리할 수 있습니다.
 
@@ -430,7 +429,7 @@ xtk:queryDef 스키마의 &quot;ExecuteQuery&quot; 메서드에 대한 정의:
 <recipient count="3"/>
 ```
 
-#### 별칭 {#alias}
+#### 앨리어스 {#alias}
 
 별칭을 사용하여 출력 문서에서 데이터 위치를 수정할 수 있습니다. 다음 **별칭** 특성은 해당 필드에 XPath를 지정해야 합니다.
 

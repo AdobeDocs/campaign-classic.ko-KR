@@ -2,11 +2,13 @@
 product: campaign
 title: 오퍼 템플릿 관리
 description: 오퍼 템플릿 관리
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: e4a6cc22-05bd-4b8a-984d-d0706fc210e1
-source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 5%
@@ -15,7 +17,7 @@ ht-degree: 5%
 
 # 오퍼 템플릿 관리{#managing-offer-templates}
 
-![](../../assets/common.svg)
+
 
 오퍼 템플릿은 Adobe Campaign에서 기본적으로 제공됩니다. 오퍼를 만들거나, 복제하거나, 필요에 맞게 구성을 수정한 후 오퍼를 사용할 수 있습니다. 자신만의 템플릿을 만들 수도 있습니다. 템플릿 오퍼는 폴더에 저장됩니다 **리소스** > **템플릿** > **오퍼 템플릿**.
 

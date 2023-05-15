@@ -2,9 +2,11 @@
 product: campaign
 title: 추적된 URL에 대한 사전 처리 지침
 description: 전자 메일의 URL을 스크립팅하고 계속 추적하는 데 사용하는 사전 처리 지침에 대해 자세히 알아보십시오
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 2%
@@ -13,7 +15,7 @@ ht-degree: 2%
 
 # 사전 처리 지침 {#pre-processing-instructions}
 
-![](../../assets/common.svg)
+
 
 게재 콘텐츠에서 특정 구문을 사용하여 추적된 이메일의 URL을 추가하고 스크립팅할 수 있습니다. &lt;%@ 지침은 JavaScript가 아닙니다. 이 구문은 Adobe Campaign에만 적용됩니다.
 

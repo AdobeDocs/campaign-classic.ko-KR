@@ -2,20 +2,21 @@
 product: campaign
 title: Campaign 운영자 시작
 description: Campaign 사용자를 만들고 관리하는 방법을 알아봅니다
+badge: label="v7" type="유익함" tooltip="Campaign Classic v7에만 적용"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1160'
 ht-degree: 2%
 
 ---
 
 # 운영자 만들기 및 관리 {#operators}
 
-![](../../assets/common.svg)
+
 
 ## Campaign 운영자 시작  {#about-operators}
 

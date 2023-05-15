@@ -2,9 +2,11 @@
 product: campaign
 title: 보내기 전 확인
 description: 메시지가 준비되면 보내기 전에 모든 검사를 수행합니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: 808f459a0b77b1787fc017c031247ab268b5aafa
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 4%
@@ -13,7 +15,7 @@ ht-degree: 4%
 
 # 보내기 전에 모든 검사를 수행합니다. {#perform-all-checks}
 
-![](../../assets/common.svg)
+
 
 메시지가 준비되면, 모든 장치에서 해당 콘텐츠가 올바르게 표시되는지 확인하고 잘못된 개인화 또는 끊어진 링크와 같은 오류가 없는지 확인합니다.
 

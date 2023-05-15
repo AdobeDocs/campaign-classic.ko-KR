@@ -2,13 +2,14 @@
 product: campaign
 title: 마이그레이션을 시작하기 전
 description: 마이그레이션을 시작하기 전
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
 hide: true
 hidefromtoc: true
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
-source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # 전제 조건{#before-starting-migration}
 
-![](../../assets/v7-only.svg)
+
 
 이 페이지에는 마이그레이션 프로세스를 시작하기 전에 수행할 특정 단계가 나열됩니다. 또한 [이 페이지](about-migration.md) 추가 지침
 

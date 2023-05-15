@@ -4,7 +4,7 @@ title: 새 보고서 만들기
 description: 새 보고서를 만드는 주요 단계를 알아봅니다
 feature: Reporting
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 새 보고서 만들기{#creating-a-new-report}
 
-![](../../assets/common.svg)
+
 
 보고서를 만들려면 다음 단계를 적용합니다.
 

@@ -2,11 +2,12 @@
 product: campaign
 title: 외부 데이터베이스에 액세스할 수 있는 권한
 description: 외부 데이터베이스 액세스 권한
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 1%
@@ -15,7 +16,7 @@ ht-degree: 1%
 
 # 원격 데이터베이스 액세스 권한 {#remote-database-access-rights}
 
-![](../../assets/v7-only.svg)
+
 
 먼저, 사용자가 FDA를 통해 외부 데이터베이스에서 작업을 수행할 수 있도록, 후자는 Adobe Campaign에서 특정 명명된 권한을 가져야 합니다.
 
@@ -55,7 +56,7 @@ ht-degree: 1%
 | **표 만들기** | 스키마 권한에 대한 테이블 만들기 | 권한 만들기 | 테이블 생성 권한 | 테이블 만들기 권한 | 권한 만들기 | 권한 만들기 |
 | **인덱스 만들기** | N/A | 권한 만들기 | 인덱스 또는 인덱스 권한 만들기 | ALTER 권한 | 권한 만들기 | 인덱스 권한 |
 | **함수 만들기** | 스키마 권한에 대한 함수 만들기 | 외부 python 스크립트를 호출할 수 있는 USAGE ON LANGUAGE plpythonu 권한 | 프로시저 생성 또는 프로시저 권한 생성 | 함수 만들기 권한 | 사용 권한 | 루틴 권한 만들기 |
-| **프로시저 만들기** | 해당 없음 | 외부 python 스크립트를 호출할 수 있는 USAGE ON LANGUAGE plpythonu 권한 | 프로시저 생성 또는 프로시저 권한 생성 | 프로시저 만들기 권한 | 사용 권한(프로시저는 기능임) | 루틴 권한 만들기 |
+| **프로시저 만들기** | N/A | 외부 python 스크립트를 호출할 수 있는 USAGE ON LANGUAGE plpythonu 권한 | 프로시저 생성 또는 프로시저 권한 생성 | 프로시저 만들기 권한 | 사용 권한(프로시저는 기능임) | 루틴 권한 만들기 |
 | **객체 제거(테이블, 인덱스, 함수, 프로시저)** | 개체 소유 | 개체 소유 또는 수퍼유저 | &lt; 객체 > 권한 삭제 | ALTER 권한 | 표: 테이블 인덱스 소유: 인덱스 함수 소유: 함수 소유 | 삭제 권한 |
 | **실행 모니터링** | 필요한 개체에 대한 모니터 권한 | EXPLAIN 명령을 사용하는 데 필요한 권한이 없습니다. | EXPLAIN 및 SELECT 권한 및 필요한 권한을 사용하여 EXPLAIN PLAN이 기반으로 하는 문을 실행합니다. | SHOWPLAN 권한 | EXPLAIN 문을 사용하는 데 필요한 권한이 없습니다. | 권한 선택 |
 | **데이터 쓰기** | INSERT 및/또는 UPDATE 권한(쓰기 작업에 따라 다름) | 삽입 및 업데이트 권한 | 테이블 권한 삽입 및 업데이트 또는 삽입 및 업데이트 | 권한 삽입 및 업데이트 | 삽입 및 업데이트 권한 | 삽입 및 업데이트 권한 |

@@ -2,11 +2,12 @@
 product: campaign
 title: 오퍼 분석 보고서
 description: 오퍼 분석 보고서
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: tracking-offers
 exl-id: 44c57b0c-3561-4943-812f-945f5fcbb142
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 10%
@@ -15,7 +16,7 @@ ht-degree: 10%
 
 # 오퍼 분석 보고서{#offer-analysis-report}
 
-![](../../assets/v7-only.svg)
+
 
 다음 **[!UICONTROL Offer analysis]** 보고서는 수락 또는 거부된 제안 수에 대한 개요를 제공합니다.
 

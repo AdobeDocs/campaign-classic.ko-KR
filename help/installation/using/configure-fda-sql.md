@@ -2,7 +2,9 @@
 product: campaign
 title: Microsoft SQL Server에 대한 액세스 구성
 description: Microsoft SQL Server에 대한 액세스를 구성하는 방법 알아보기
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 1%
@@ -11,7 +13,7 @@ ht-degree: 1%
 
 # Microsoft SQL Server에 대한 액세스 구성 {#configure-fda-sql}
 
-![](../../assets/v7-only.svg)
+
 
 캠페인 사용 **페더레이션 데이터 액세스** (FDA) 옵션을 사용하여 외부 Microsoft SQL Server 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 액세스 권한을 구성하십시오 [!DNL Microsoft SQL Server].
 
@@ -113,4 +115,3 @@ ht-degree: 1%
 | 인증 | 커넥터에서 지원하는 인증 유형입니다. 현재 지원되는 값: ActiveDirectoryMSI입니다. <br> 자세한 내용은 예제 8을 참조하십시오 [Microsoft 설명서](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings). |
 | 암호화 | 연결에서 네트워크를 통해 TLS 암호화를 사용하는지 여부를 지정합니다. 가능한 값은 다음과 같습니다 **예/필수(18.0 이상)**, **아니요/선택 사항(18.0 이상)**, 및 **strict(18.0 이상)**. 기본값은 로 설정되어 있습니다 **yes** 버전 18.0 이상 **아니요** 이전 버전에서 다음을 수행합니다. <br>자세한 내용은 [Microsoft 설명서](https://docs.microsoft.com/en-us/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt). |
 | TrustServerCertificate | 와 함께 사용할 경우 자체 서명된 서버 인증서를 사용하여 암호화를 활성화합니다 **암호화**. <br>허용되는 값: **yes** 또는 **아니요** 기본값은 서버 인증서의 유효성을 검사함을 의미합니다. |
-

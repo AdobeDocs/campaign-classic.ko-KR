@@ -2,9 +2,11 @@
 product: campaign
 title: 게재 모니터링 시작
 description: Campaign Classic 게재 모니터링 기능에 대해 자세히 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 16%
@@ -13,7 +15,7 @@ ht-degree: 16%
 
 # 게재 모니터링 시작 {#about-delivery-monitoring}
 
-![](../../assets/common.svg)
+
 
 게재가 전송된 후 게재를 모니터링하는 것은 마케팅 캠페인이 효율적이고 고객에게 도달하도록 하는 주요 단계입니다.
 

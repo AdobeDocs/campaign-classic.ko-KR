@@ -2,9 +2,10 @@
 product: campaign
 title: 데이터 모델 모범 사례
 description: Campaign Classic 데이터 모델로 작업하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: 65e80f16a6beaee89b51636017c42766589e179e
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '3988'
 ht-degree: 1%
@@ -12,8 +13,6 @@ ht-degree: 1%
 ---
 
 # 데이터 모델 모범 사례{#data-model-best-practices}
-
-![](../../assets/v7-only.svg)
 
 이 문서에서는 Adobe Campaign 데이터 모델을 디자인하는 동안 주요 권장 사항에 대해 설명합니다.
 

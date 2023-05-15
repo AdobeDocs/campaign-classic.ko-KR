@@ -2,8 +2,9 @@
 product: campaign
 title: Adobe Analytics 커넥터로 마이그레이션
 description: Campaign - Analytics 커넥터 FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 62ccc9e52de1bc416284e5b1bf48d69dc603923a
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 5%
@@ -12,7 +13,7 @@ ht-degree: 5%
 
 # 기존 Genesis 통합을 Adobe Analytics 커넥터로 마이그레이션하는 방법 {#acc-aa-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터는 사용되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html)
 

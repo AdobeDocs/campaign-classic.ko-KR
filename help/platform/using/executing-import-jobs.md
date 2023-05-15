@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: 가져오기 작업 구성
-description: Campaign Classic에서 가져오기 작업을 구성하고 실행하는 방법을 알아봅니다.
+description: Campaign에서 가져오기 작업을 구성하고 실행하는 방법을 배웁니다.
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '2955'
+source-wordcount: '2954'
 ht-degree: 1%
 
 ---
 
 # 가져오기 작업 구성 {#executing-import-jobs}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB 또는 XML 형식으로 데이터를 데이터베이스로 가져올 수 있습니다. 이러한 파일은 테이블(주 파일 또는 연결된)과 연결되며 소스 파일의 각 필드는 데이터베이스의 필드와 연결됩니다.
 

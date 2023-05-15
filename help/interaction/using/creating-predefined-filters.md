@@ -2,11 +2,12 @@
 product: campaign
 title: 사전 정의된 필터 만들기
 description: 사전 정의된 필터 만들기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 399e9468-bf70-425d-af0b-72c29636b513
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 10%
@@ -15,7 +16,7 @@ ht-degree: 10%
 
 # 사전 정의된 필터 만들기{#creating-predefined-filters}
 
-![](../../assets/v7-only.svg)
+
 
 사전 정의된 필터를 사용하여 오퍼를 만드는 동안 쉽게 다시 사용할 수 있는 대상 모집단에 대한 자격 규칙을 만들 수 있습니다. 각 환경에 따라 다르며 오퍼 매개 변수를 고려합니다.
 

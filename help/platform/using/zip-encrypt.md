@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: 파일 압축 또는 암호화
-description: 처리 전에 Campaign Classic에서 파일을 압축 또는 암호화하는 방법을 알아봅니다.
+description: 처리 전에 Campaign에서 파일을 압축 또는 암호화하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 8%
 
 ---
 
 # 파일 압축 또는 암호화 {#zipping-or-encrypting-a-file}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 내보낼 수 있습니다. 를 통해 내보내기를 정의할 때 **[!UICONTROL Data extraction (file)]** 활동에서 zip 또는 암호화할 사후 처리를 정의할 수 있습니다.
 

@@ -2,20 +2,21 @@
 product: campaign
 title: Campaign 옵션 구성
 description: Campaign 옵션을 구성하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '3991'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
 # Campaign Classic 옵션 목록{#configuring-campaign-options}
 
-![](../../assets/v7-only.svg)
+
 
 다음 **[!UICONTROL Administration / Platform / Options]** 노드를 사용하면 Adobe Campaign 옵션을 구성할 수 있습니다. 일부는 Campaign을 설치할 때 기본적으로 제공되며, 필요한 경우 수동으로 추가할 수 있습니다. 사용 가능한 옵션은 인스턴스에 설치된 패키지에 따라 다릅니다.
 
@@ -150,7 +151,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> 고객의 일반 이름입니다. 수신자에게 표시되는 일부 경고 메시지에 사용됩니다.<br /> "***** 또는 제휴 회사와 연락하여 이 메시지를 받고 있습니다. 더 이상 ""에서 메시지를 받지 *****.<br /> </td> 
+   <td> 고객의 일반 이름. 수신자에게 표시되는 일부 경고 메시지에 사용됩니다.<br /> "***** 또는 제휴 회사와 연락하여 이 메시지를 받고 있습니다. 더 이상 ""에서 메시지를 받지 *****.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
@@ -297,15 +298,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_DefaultIgnoredImage</span> <br /> </td> 
-   <td> 업로드 중에 건너뛴 이미지에 대한 URL 마스크 목록입니다.<br /> </td> 
+   <td> 업로드 도중 건너뛴 이미지의 URL 마스크 목록.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImagePublishing</span> </td> 
-   <td> 이미지 업로드 구성. 값은 none / tracking / script / list일 수 있습니다(연산자의 선택적 설정으로 재정의할 수 있음). </td> 
+   <td> 업로드 중인 이미지 구성. 값은 none / tracking / script / list일 수 있습니다(연산자의 선택적 설정으로 재정의할 수 있음). </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImageSubDirectory</span> <br /> </td> 
-   <td> 서버의 이미지를 저장할 폴더입니다.<br /> </td> 
+   <td> 서버의 이미지가 저장될 폴더.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_LogoPath</span> <br /> </td> 
@@ -337,7 +338,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkFileRes_Public_URL</span> <br /> </td> 
-   <td> 공개 리소스 파일에 대한 새 URL입니다.<br /> </td> 
+   <td> 공개 리소스 파일의 새 URL.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -488,15 +489,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgProcessTimeAlert</span> <br /> </td> 
-   <td> 실시간 이벤트의 평균 처리 시간에 대한 경고 임계값입니다.<br /> </td> 
+   <td> 실시간 이벤트의 평균 처리 시간에 대한 경고 임계값.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgProcessTimeWarning</span> <br /> </td> 
-   <td> 실시간 이벤트의 평균 처리 시간에 대한 경고 임계값입니다.<br /> </td> 
+   <td> 실시간 이벤트의 평균 처리 시간에 대한 경고 임계값.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgQueueAlert</span> <br /> </td> 
-   <td> 큐에 있는 평균 실시간 이벤트 수에 대한 경고 임계값입니다.<br /> </td> 
+   <td> 대기열에 추가된 평균 실시간 이벤트 수에 대한 경고 임계값.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgQueueTimeAlert</span> <br /> </td> 
@@ -508,15 +509,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgQueueWarning</span> <br /> </td> 
-   <td> 큐에 있는 평균 실시간 이벤트 수에 대한 경고 임계값입니다.<br /> </td> 
+   <td> 대기열에 추가된 평균 실시간 이벤트 수에 대한 경고 임계값.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventErrorAlert</span> <br /> </td> 
-   <td> 실시간 이벤트의 처리 오류에 대한 경고 임계값입니다.<br /> </td> 
+   <td> 실시간 이벤트의 처리 오류에 대한 경고 임계값.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventErrorWarning</span> <br /> </td> 
-   <td> 실시간 이벤트의 처리 오류에 대한 경고 임계값입니다.<br /> </td> 
+   <td> 실시간 이벤트의 처리 오류에 대한 경고 임계값.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMaxQueueAlert</span> <br /> </td> 
@@ -536,19 +537,19 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventQueueAlert</span> <br /> </td> 
-   <td> 대기 중인 실시간 이벤트 큐에 대한 위기 조건 이전의 임계값입니다.<br /> </td> 
+   <td> 보류 중인 실시간 이벤트 대기열의 중요 상태 전 임계값.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventQueueWarning</span> <br /> </td> 
-   <td> 대기 중인 실시간 이벤트 큐에 대한 경고 전 임계값.<br /> </td> 
+   <td> 보류 중인 실시간 이벤트 대기열의 경고 전 임계값.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventThroughputAlert</span> <br /> </td> 
-   <td> 실시간 이벤트 처리량에 대한 경고 임계값입니다.<br /> </td> 
+   <td> 실시간 이벤트 처리량에 대한 경고 임계값.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventThroughputWarning</span> <br /> </td> 
-   <td> 실시간 이벤트 처리량에 대한 경고 임계값입니다.<br /> </td> 
+   <td> 실시간 이벤트 처리량에 대한 경고 임계값.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMessageCenter_RoutingBatchSize</span> <br /> </td> 
@@ -657,7 +658,7 @@ ht-degree: 1%
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> 백업 및 복제를 최적화하기 위해 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 옵션은 임시 데이터베이스의 이름에 해당합니다. 지정한 경우 작업 테이블이 이 데이터베이스에 작성됩니다. 예: 'tempdb.dbo' (이름은 점으로 끝나야 합니다.) <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">자세히 표시</a> <br /> </td> 
+   <td> 백업 및 복제를 최적화하기 위해 Microsoft SQL Server에서 작업 테이블에 대해 별도의 데이터베이스를 구성할 수 있습니다. 옵션은 임시 데이터베이스의 이름에 해당합니다. 지정한 경우 작업 테이블이 이 데이터베이스에 작성됩니다. 예: 'tempdb.dbo' (이름은 점으로 끝나야 합니다.) <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">자세히 보기</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
@@ -677,7 +678,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkInstancePrefix</span> <br /> </td> 
-   <td> 자동으로 생성된 내부 이름에 접두사가 추가되었습니다.<br /> </td> 
+   <td> 자동으로 생성된 내부 이름에 추가된 접두사.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkQuery_Schema_LineCount</span> <br /> </td> 
@@ -816,11 +817,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NmsExecutionInstanceId</span> <br /> </td> 
-   <td> 실행 인스턴스 식별자입니다.<br /> </td> 
+   <td> 실행 인스턴스 식별자.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_CustomerId</span> <br /> </td> 
-   <td> 청구 보고서를 전송할 때 사용되는 고객 식별자입니다.<br /> </td> 
+   <td> 과금 보고서 전송 시 사용되는 고객 식별자.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_IntranetURL</span> <br /> </td> 
@@ -857,7 +858,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ClickFormula</span> <br /> </td> 
-   <td> 추적된 URL 계산 스크립트.<br /> </td> 
+   <td> 추적 URL 계산 스크립트.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ExtAccount</span> <br /> </td> 
@@ -873,7 +874,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_OpenFormula</span> <br /> </td> 
-   <td> URL 계산 스크립트를 엽니다.<br /> </td> 
+   <td> URL 계산 스크립트 열기.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_Password</span> <br /> </td> 
@@ -1048,7 +1049,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersMode</span> <br /> </td> 
-   <td> 웹 양식의 무효화 모드를 지정할 수 있는 옵션입니다. 기본적으로 로컬에서는 옵션이 '추적'인 경우 추적 서버를 사용하고 '기타 서버' 옵션이 있는 개인화된 목록을 사용합니다.<br /> </td> 
+   <td> 웹 폼의 무효화 모드를 지정할 수 있는 옵션: 기본적으로 로컬, 옵션이 '추적'인 경우 추적 서버를 사용하고 '기타 서버' 옵션과 함께 개인화된 목록을 사용합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersURL</span> <br /> </td> 

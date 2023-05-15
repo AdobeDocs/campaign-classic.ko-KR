@@ -2,9 +2,11 @@
 product: campaign
 title: Adobe Campaign Classic에서 향상된 MTA를 사용한 S
 description: Adobe Campaign Enhanced MTA를 사용하여 전자 메일을 보내는 범위와 특성에 대해 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 2d5166c355ee090639dcc52866252bae6beb81f6
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1999'
 ht-degree: 4%
@@ -13,7 +15,7 @@ ht-degree: 4%
 
 # Enhanced MTA로 보내기 {#sending-with-enhanced-mta}
 
-![](../../assets/common.svg)
+
 
 다음 **Adobe Campaign Enhanced MTA** (Mail Transfer Agent)는 향상된 전송 인프라를 제공하여 게재 능력, 평판, 처리량, 보고, 반송 처리, IP 램프 업 및 연결 설정 관리를 제공합니다.
 
@@ -141,7 +143,7 @@ Campaign 게재 처리량 그래프는 더 이상 이메일 수신자에게 처�
 >
 >사용 [이메일 피드백 서비스](#email-feedback-service) (EFS) 기능(현재 베타로 사용 가능), Campaign 게재 처리량 그래프는 전자 메일 수신자에 대한 처리량을 계속 표시합니다.
 
-### 다시 시도
+### 재시도
 
 게재의 다시 시도 설정은 Campaign에서 더 이상 사용되지 않습니다. 소프트 바운스 다시 시도 및 그 사이의 시간은 메시지의 이메일 도메인에서 돌아오는 바운스 응답의 유형과 심각도를 기반으로 Enhanced MTA에 의해 결정됩니다.
 

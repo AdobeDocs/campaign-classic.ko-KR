@@ -2,9 +2,11 @@
 product: campaign
 title: SMS 전송, 모니터링 및 추적
 description: Campaign에서 SMS를 전송, 모니터링 및 추적하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 3%
@@ -13,7 +15,7 @@ ht-degree: 3%
 
 # SMS 게재 전송, 모니터링 및 추적{#sms-properties}
 
-![](../../assets/common.svg)
+
 
 ## SMS 메시지 보내기 {#sending-sms-messages}
 

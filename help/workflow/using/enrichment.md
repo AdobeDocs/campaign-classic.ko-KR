@@ -1,19 +1,20 @@
 ---
 product: campaign
-title: 데이터 보강
+title: 보강
 description: 데이터 보강 워크플로우 활동에 대해 자세히 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Enrichment Activity, Targeting Activity
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 2%
 
 ---
 
-# 데이터 보강{#enrichment}
+# 보강{#enrichment}
 
-![](../../assets/v7-only.svg)
+
 
 다음 **[!UICONTROL Enrichment]** 활동을 사용하면 프로필 목록에 정보를 추가하고 기존 테이블에 연결하는 링크를 추가할 수 있습니다(새 조인 생성). 데이터베이스에 있는 프로필의 조정 기준도 정의할 수 있습니다.
 

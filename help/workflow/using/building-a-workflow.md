@@ -2,18 +2,19 @@
 product: campaign
 title: 워크플로우 구축
 description: 워크플로우 구축 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1623'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 # 워크플로우 구축 {#building-a-workflow}
 
-![](../../assets/v7-only.svg)
+
 
 이 섹션에서는 Campaign에서 워크플로우를 구축하는 주요 원칙과 모범 사례를 자세히 설명합니다.
 
@@ -153,7 +154,7 @@ ht-degree: 3%
 
 ### 차원 타겟팅 및 필터링 {#targeting-and-filtering-dimensions}
 
-데이터 세분화 작업 중에 타겟팅 키가 필터링 차원에 매핑됩니다. 타겟팅 차원을 사용하면 작업의 타겟팅된 모집단을 정의할 수 있습니다. 수신자, 계약 수혜자, 운영자, 가입자 등 필터링 차원을 사용하면 특정 기준에 따라 모집단을 선택할 수 있습니다. 계약자, 뉴스레터 구독자 등
+데이터 세분화 작업 중에 타겟팅 키는 필터링 차원에 매핑됩니다. 타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 필터링 차원을 사용하면 약정 소유자, 뉴스레터 구독자 등 특정 기준에 따라 모집단을 선택할 수 있습니다.
 
 예를 들어, 5년 이상 생명 보험 계약이 있는 클라이언트를 선택하려면 다음 타겟팅 차원을 선택합니다. **클라이언트** 및 다음 필터링 차원: **계약자**. 그런 다음 쿼리 활동 내에서 필터링 조건을 정의할 수 있습니다
 
@@ -169,7 +170,7 @@ ht-degree: 3%
 
 ![](assets/query_filter_target_dimensions_2.png)
 
-## 캠페인 워크플로우 {#campaign-workflows}
+## 캠페인 워크플로 {#campaign-workflows}
 
 각 캠페인에 대해 **[!UICONTROL Targeting and workflows]** 탭. 이러한 워크플로우는 캠페인에만 적용됩니다.
 
@@ -203,7 +204,7 @@ ht-degree: 3%
 
 제공된 활동은 타깃팅 워크플로우와 동일합니다. [자세히 알아보기](#implementation-steps-)
 
-## 워크플로우 템플릿 {#workflow-templates}
+## 워크플로 템플릿 {#workflow-templates}
 
 워크플로우 템플릿에는 속성의 전체 구성과 다이어그램 내에서 연결된 활동 범위가 포함되어 있습니다. 이 구성은 사전 구성된 특정 수의 요소를 포함하는 새 워크플로우를 만드는 데 다시 사용할 수 있습니다
 

@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: 이벤트 처리
-description: Adobe Campaign Classic에서 트랜잭션 메시지 이벤트를 처리하는 방법을 알아봅니다.
+description: Adobe Campaign Classic에서 트랜잭션 메시지 이벤트를 처리하는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 # 이벤트 처리 {#about-event-processing}
 
-![](../../assets/v7-only.svg)
+
 
 트랜잭션 메시지 컨텍스트에서 이벤트는 외부 정보 시스템에 의해 생성되고, 를 통해 Adobe Campaign으로 전송됩니다 **[!UICONTROL PushEvent]** 및 **[!UICONTROL PushEvents]** 메서드를 참조하십시오. [이벤트 설명](../../message-center/using/event-description.md)).
 

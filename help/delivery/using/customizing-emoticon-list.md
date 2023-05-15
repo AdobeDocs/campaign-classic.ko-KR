@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: 이모티콘 목록 사용자 정의
-description: Adobe Campaign Classic을 사용할 때 이모티콘 목록 을 사용자 지정하는 방법을 배웁니다
+description: Adobe Campaign을 사용할 때 이모티콘 목록 을 사용자 지정하는 방법을 배웁니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Push
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '442'
 ht-degree: 3%
 
 ---
 
 # 이모티콘 목록 사용자 정의 {#customize-emoticons}
 
-![](../../assets/common.svg)
+
 
 팝업에 표시되는 이모티콘 목록은 목록에 값을 표시하여 사용자가 특정 필드에 대해 선택한 옵션을 제한할 수 있는 열거형으로 결정됩니다.
 이모티콘 목록 순서를 사용자 지정할 수 있으며 목록에 다른 이모티콘을 추가할 수도 있습니다.

@@ -2,9 +2,10 @@
 product: campaign
 title: 목록으로 보고서 보내기
 description: 워크플로우를 사용하여 목록으로 보고서를 보내는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 # 목록으로 보고서 보내기{#sending-a-report-to-a-list}
 
-![](../../assets/v7-only.svg)
+
 
 이 사용 사례에서는 월별 기본 제공 세트를 생성하는 방법을 자세히 설명합니다 **[!UICONTROL Tracking indicators]** 수신자 목록으로 보내는 방법 및 PDF 형식으로 보고서를 보냅니다.
 

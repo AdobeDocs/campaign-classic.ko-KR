@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: 파일 압축 해제 또는 암호 해독
-description: 처리 전에 Campaign Classic에서 파일의 압축을 풀거나 암호를 해독하는 방법을 알아봅니다.
+description: 처리 전에 Campaign에서 파일의 압축을 풀거나 암호를 해독하는 방법을 배웁니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '715'
 ht-degree: 11%
 
 ---
 
 # 파일 압축 해제 또는 암호 해독 {#unzipping-or-decrypting-a-file-before-processing}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 가져올 수 있습니다. 에서 읽기 전에 [데이터 로드(파일)](../../workflow/using/data-loading--file-.md) 활동을 통해 압축을 풀거나 파일 암호를 해독하기 위한 사전 처리를 정의할 수 있습니다.
 
@@ -25,7 +27,7 @@ Adobe Campaign을 사용하면 압축되었거나 암호화된 파일을 가져�
 
    >[!NOTE]
    >
-   >Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
+   >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
    >
    >인스턴스는 AWS에서 호스팅하고 로 업그레이드해야 합니다. [최신 GA 빌드](../../rn/using/rn-overview.md). [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
 

@@ -1,10 +1,11 @@
 ---
 product: campaign
 title: 기술 워크플로우
-description: Campaign Classic 패키지에서 사용할 수 있는 기술 워크플로우에 대해 자세히 알아보십시오.
+description: Campaign Classic 패키지에서 사용할 수 있는 기술 워크플로우에 대해 자세히 알아보십시오
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 4%
@@ -13,7 +14,7 @@ ht-degree: 4%
 
 # 기술 워크플로우{#about-technical-workflows}
 
-![](../../assets/v7-only.svg)
+
 
 ## 기술 워크플로우 기본 정보 {#overview}
 

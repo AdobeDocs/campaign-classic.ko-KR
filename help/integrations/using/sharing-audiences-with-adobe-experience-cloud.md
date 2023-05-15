@@ -2,11 +2,13 @@
 product: campaign
 title: Adobe Experience Cloud과 대상 공유
 description: Adobe Experience Cloud과 대상 공유
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
-source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 63%
@@ -15,17 +17,17 @@ ht-degree: 63%
 
 # Adobe Experience Cloud과 대상 공유{#sharing-audiences-with-adobe-experience-cloud}
 
-![](../../assets/common.svg)
+
 
 >[!CAUTION]
 >
->Adobe Experience Cloud 솔루션으로 대상을 공유하려면 Adobe Identity Management 시스템을 구현해야 합니다. [IMS에 대해 자세히 알아보기](../../integrations/using/about-adobe-id.md).
+>Adobe Experience Cloud 솔루션과 대상을 공유하려면 Adobe Identity Management 시스템을 구현해야 합니다. [IMS에 대해 자세히 알아보십시오](../../integrations/using/about-adobe-id.md).
 
-Adobe Campaign을 사용하면 Adobe Experience Cloud 솔루션 및 핵심 서비스와 대상자 및 세그먼트를 공유할 수 있습니다. 두 가지 옵션을 사용할 수 있습니다.
+Adobe Campaign을 사용하면 Adobe Experience Cloud 솔루션 및 핵심 서비스와 대상자 및 세그먼트를 공유할 수 있습니다. 다음 두 가지 옵션을 사용할 수 있습니다.
 
-1. Adobe Experience Platform 세그먼트 데이터를 Adobe Campaign으로 보냅니다. 이 통합을 구현하려면 Real-time Customer Data Platform을 Campaign(RTCDP)에 연결해야 합니다. [이 섹션에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+1. Adobe Experience Platform 세그먼트 데이터를 Adobe Campaign에 보냅니다. 이 통합을 구현하려면 Real-time Customer Data Platform을 Campaign(RTCDP)에 연결해야 합니다. [이 섹션에서 자세히 알아보십시오](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
 
-1. 통합 **Adobe Campaign** 포함 **사용자 핵심 서비스** (또한으로 알려짐) **프로필 및 대상자 핵심 서비스**) 또는 Adobe Audience Manager. 그러면 다음을 수행할 수 있습니다:
+1. 통합 **Adobe Campaign** with **사용자 핵심 서비스** ( **프로필 및 대상 핵심 서비스**) 또는 Adobe Audience Manager으로 마이그레이션되었습니다. 그러면 다음을 수행할 수 있습니다:
 
    * 다양한 Adobe Experience Cloud 솔루션의 공유 대상자/세그먼트를 Adobe Campaign으로 가져옵니다. Adobe Campaign의 목록을 통해 대상자를 가져올 수 있습니다.
 

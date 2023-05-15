@@ -2,11 +2,13 @@
 product: campaign
 title: 필터 조건 정의
 description: 필터 조건 정의
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '3229'
 ht-degree: 37%
@@ -15,7 +17,7 @@ ht-degree: 37%
 
 # 필터 조건 정의{#defining-filter-conditions}
 
-![](../../assets/common.svg)
+
 
 ## 연산자 선택 {#choosing-the-operator}
 
@@ -217,7 +219,7 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_46.png" /> </td> 
-   <td> 계산된 필드입니다. 이 유형의 필드는 데이터베이스의 값을 사용하여 요청 시 계산됩니다.<br /> </td> 
+   <td> 계산된 필드. 이 유형의 필드는 데이터베이스의 값을 사용하여 요청 시 계산됩니다.<br /> </td> 
    <td> 나이, 이메일 도메인 등<br /> </td> 
   </tr> 
   <tr> 
@@ -372,7 +374,7 @@ ht-degree: 37%
    <td> Avg(&lt;값&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>수</strong><br /> </td> 
+   <td> <strong>횟수</strong><br /> </td> 
    <td> 열의 null이 아닌 값 계산<br /> </td> 
    <td> Count(&lt;값&gt;)<br /></td>  
   </tr> 

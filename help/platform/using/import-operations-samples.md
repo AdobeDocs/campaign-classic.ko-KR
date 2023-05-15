@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: 일반 가져오기 샘플
-description: 가져오기 작업을 사용하여 수행할 수 있는 일반 가져오기에 대해 자세히 알아보십시오.
+description: 가져오기 작업을 사용하여 수행할 수 있는 일반 가져오기에 대해 자세히 알아보십시오
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -15,7 +17,7 @@ ht-degree: 1%
 
 # 일반 가져오기 샘플 {#import-operations-samples}
 
-![](../../assets/common.svg)
+
 
 ## 수신자 목록에서 가져오기 {#example--import-from-a-list-of-recipients}
 

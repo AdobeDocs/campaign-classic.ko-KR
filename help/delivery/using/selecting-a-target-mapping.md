@@ -2,18 +2,20 @@
 product: campaign
 title: 대상 매핑 선택
 description: 매핑 타겟팅 방법 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
 # 대상 매핑 선택{#selecting-a-target-mapping}
 
-![](../../assets/common.svg)
+
 
 기본적으로 게재 템플릿 타겟 **[!UICONTROL Recipients]**. 따라서 대상 매핑은 **nms:recipient** 테이블. Adobe Campaign은 사용자의 요구 사항에 따라 사용할 게재에 대한 다른 target 매핑을 제공합니다.
 
@@ -24,7 +26,7 @@ ht-degree: 11%
 | 이름 | 사용 | 표준 스키마 |
 |---|---|---|
 | 수신자 | Adobe Campaign 데이터베이스의 수신자에게 전달 | nms:recipient |
-| 방문자 수 | 참조(바이럴 마케팅) 또는 소셜 네트워크(Facebook, Twitter)을 통해 프로필을 수집한 방문자에게 게재합니다. | mns:visitor |
+| 방문자 | 참조(바이럴 마케팅) 또는 소셜 네트워크(Facebook, Twitter)을 통해 프로필을 수집한 방문자에게 게재합니다. | mns:visitor |
 | 구독 | 뉴스레터와 같은 정보 서비스를 구독한 수신자에게 게재 | nms:구독 |
 | 방문자 구독 | 정보 서비스를 구독한 방문자에게 게재 | nms:visitorSub |
 | 서비스 | twitter 계정 또는 Facebook 페이지에 게시 | nms:service |

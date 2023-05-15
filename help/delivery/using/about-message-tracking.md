@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: 추적 시작
-description: Adobe Campaign Classic에서 추적을 위한 일반 지침을 자세히 알아보십시오
+description: Adobe Campaign에서 추적을 위한 일반 지침을 자세히 알아보십시오
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: 29fae1305a6d2b8debbc2aa705c047eaf3730457
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 10%
 
 ---
 
 # 메시지 추적 시작 {#get-started-tracking}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign은 추적 기능 덕분에 전송된 메시지를 추적하고 수신자의 동작을 확인할 수 있습니다. 열기, 링크 클릭 수, 구독 취소 등
 
@@ -81,7 +83,7 @@ Campaign Classic 추적 기능을 사용하면 개인화할 수 있고 추적을
 
 <img src="assets/do-not-localize/icon_monitor.svg" width="60px">
 
-**통계 추적**
+**추적 통계**
 
 이 보고서는 열기, 클릭 및 트랜잭션에 대한 통계를 제공하며, 게재의 마케팅 영향을 추적할 수 있도록 해줍니다. [자세히 알아보기](../../reporting/using/delivery-reports.md#tracking-statistics)
 

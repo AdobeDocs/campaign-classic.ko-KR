@@ -2,11 +2,12 @@
 product: campaign
 title: 비용 제어
 description: 비용 관리 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2468'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # 비용 제어{#controlling-costs}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign을 사용하면 예약, 약정 및 송장 발행 마케팅 비용을 제어하고 마케팅 리소스 관리 모듈을 사용하여 카테고리별로 분류할 수 있습니다.
 
@@ -118,7 +119,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 비용이 송장을 발생시키고 송장이 지급되면 그 금액은 **[!UICONTROL Invoiced]** 필드.
 
-### 비용 범주 {#expense-categories}
+### 경비 범주 {#expense-categories}
 
 이 금액은 데이터의 가독성을 높이고 마케팅 투자에 대한 자세한 보고를 위해 여러 비용 범주로 분배할 수 있습니다. 비용 범주는 예산 생성 중에 다음을 통해 정의됩니다 **[!UICONTROL Budgets]** 노드 아래에 있어야 합니다.
 
@@ -178,7 +179,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 비용은 세 가지 범주로 구분됩니다.
 
-1. 예상 잠정 비용
+1. 예상 비용
 
    예상되는 잠정 비용은 캠페인의 프로세스에 대한 예상 비용이다. 편집하고 있는 한, 입력된 금액은 통합되지 않습니다. 분명히 **[!UICONTROL Specified]** 계산에서 고려할 금액 입력의 상태입니다.
 
@@ -203,7 +204,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
    >
    >다음 **[!UICONTROL Breakdown]** 링크를 통해 계산의 세부 정보와 마지막 원가 계산 날짜를 볼 수 있습니다.
 
-1. 실제 비용
+1. 실질 비용
 
    실제 비용은 수동으로 입력되며, 필요한 경우 다른 비용 범주로 분류됩니다.
 

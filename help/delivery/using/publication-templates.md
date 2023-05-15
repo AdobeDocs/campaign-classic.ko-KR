@@ -2,18 +2,20 @@
 product: campaign
 title: 게시 템플릿
 description: 게시 템플릿
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Templates
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 게시 템플릿{#publication-templates}
 
-![](../../assets/common.svg)
+
 
 ## 게시 템플릿 기본 정보 {#about-publication-templates}
 
@@ -101,7 +103,7 @@ ht-degree: 0%
 
 스크립트나 쿼리 목록에서 데이터를 집계하면 콘텐츠 데이터로 XML 문서를 보강할 수 있습니다. 목적은 링크가 참조하는 특정 정보를 보완하거나 데이터베이스에서 요소를 추가하는 것입니다.
 
-### 여러 파일 생성 {#multi-file-generation}
+### 다중 파일 생성 {#multi-file-generation}
 
 여러 파일 생성을 활성화하려면 **[!UICONTROL Multi-file generation]** 게시 모델의 옵션. 이 옵션을 사용하면 출력 문서의 각 페이지 시작 부분에 대해 스타일시트에 분할 태그를 지정할 수 있습니다. 컨텐츠를 생성하면 발생한 각 분할 태그에 대한 파일이 생성됩니다.
 

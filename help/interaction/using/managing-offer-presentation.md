@@ -2,20 +2,22 @@
 product: campaign
 title: 오퍼 프레젠테이션 관리
 description: 오퍼 프레젠테이션 관리
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
-source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '995'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 오퍼 프레젠테이션 관리{#managing-offer-presentation}
 
-![](../../assets/common.svg)
+
 
 ## 프레젠테이션 규칙 개요 {#presentation-rules-overview}
 

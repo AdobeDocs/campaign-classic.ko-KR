@@ -2,9 +2,11 @@
 product: campaign
 title: 수집된 데이터 게시, 추적 및 사용
 description: 설문 조사에서 수집된 데이터를 게시, 추적 및 사용하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
-source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 2%
@@ -13,7 +15,7 @@ ht-degree: 2%
 
 # 수집된 데이터 게시, 추적 및 사용{#publish-track-and-use-collected-data}
 
-![](../../assets/common.svg)
+
 
 양식을 만들고, 구성하고, 게시하면 대상자와 링크를 공유하고 응답을 추적할 수 있습니다.
 

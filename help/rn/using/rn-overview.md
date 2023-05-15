@@ -2,11 +2,12 @@
 product: campaign
 title: 업그레이드 시작
 description: Campaign Classic 업그레이드에 대한 자세한 내용
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: f797aafac99d6b9c2bdb409a1d0883c889fd3b0e
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # 릴리스 업데이트{#rn-overview}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign Classic은 새로운 기능, 버그 수정으로 성능, 보안 및 유용성을 향상시키는 제품 업데이트를 정기적으로 릴리스합니다. 이러한 업데이트는 **제품 빌드**&#x200B;로 릴리스됩니다. 각 새 빌드에 대한 자세한 내용은 [릴리스 정보](latest-release.md)에서 확인할 수 있습니다.
 

@@ -2,11 +2,12 @@
 product: campaign
 title: 서버 보안 구성
 description: 서버 구성 모범 사례에 대해 자세히 알아보십시오
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: e55fff99fd5dec8da998310dc7026c1a506abadc
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 4%
@@ -15,7 +16,7 @@ ht-degree: 4%
 
 # 서버 보안 설정 {#server-configuration}
 
-![](../../assets/v7-only.svg)
+
 
 ## 파일 업로드 보호
 
@@ -30,7 +31,7 @@ Campaign 클라이언트 콘솔 또는 웹 인터페이스를 사용하여 서�
 
 serverConf/shared/datastore/@uploadAllowlist(유효한 Java 정규 표현식)에 모두 추가합니다. [이 페이지](../../installation/using/file-res-management.md)에서 자세히 알아보십시오.
 
-Adobe Campaign은 파일 크기를 제한하지 않습니다. 그러나 IIS/Apache를 구성하여 수행할 수 있습니다. 추가 정보 [이 섹션](../../installation/using/web-server-configuration.md).
+Adobe Campaign은 파일 크기를 제한하지 않습니다. 그러나 IIS/Apache를 구성하여 수행할 수 있습니다. [이 섹션](../../installation/using/web-server-configuration.md)에서 자세히 알아보십시오.
 
 ## 릴레이
 

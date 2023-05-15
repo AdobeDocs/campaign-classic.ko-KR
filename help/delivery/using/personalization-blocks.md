@@ -2,18 +2,20 @@
 product: campaign
 title: 개인화 블록
 description: 개인화 블록 사용 방법 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 개인화 블록{#personalization-blocks}
 
-![](../../assets/common.svg)
+
 
 개인화 블록은 동적이고 개인화된 블록이며 게재에 삽입할 수 있는 특정 렌더링을 포함합니다. 예를 들어 로고, 인사말 또는 미러 페이지에 대한 링크를 추가할 수 있습니다. 자세한 내용은 [개인화 블록 삽입](#inserting-personalization-blocks).
 
@@ -93,7 +95,7 @@ HTML 소스 코드가 게재 콘텐츠에 삽입됩니다. 예: **[!UICONTROL Gr
 
 ![](assets/s_ncs_user_personalized_block_list.png)
 
-* **[!UICONTROL Greetings]** : 받는 사람의 이름으로 인사를 삽입합니다. 예: &quot;안녕하세요, 존 도.&quot;
+* **[!UICONTROL Greetings]** : 받는 사람의 이름으로 인사를 삽입합니다. 예: “안녕하세요 John Doe 님,”
 * **[!UICONTROL Insert logo]** : 인스턴스를 구성할 때 정의된 기본 제공 로고를 삽입합니다.
 * **[!UICONTROL Powered by Adobe Campaign]** : &quot;Powered by Adobe Campaign&quot; 로고를 삽입합니다.
 * **[!UICONTROL Mirror page URL]** : 는 미러 페이지 URL을 삽입하여 게재 디자이너가 링크를 확인할 수 있도록 합니다.

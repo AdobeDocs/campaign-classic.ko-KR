@@ -2,20 +2,21 @@
 product: campaign
 title: 외부 계정
 description: 외부 계정을 만드는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 31a475c98b09bbeca6a16c6fd98698af10016033
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 # 외부 계정{#external-accounts}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign에는 미리 정의된 외부 계정 집합이 포함되어 있습니다. 외부 시스템과의 연결을 설정하기 위해 새 외부 계정을 만들 수 있습니다.
 

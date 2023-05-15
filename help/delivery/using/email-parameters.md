@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: 이메일 매개 변수
+title: 이메일 매개변수
 description: 이메일 게재와 관련된 옵션 및 설정에 대해 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
 
-# 이메일 매개 변수 {#email-parameters}
+# 이메일 매개변수 {#email-parameters}
 
-![](../../assets/common.svg)
+
 
 이 섹션에서는 전자 메일 게재와 관련된 옵션 및 매개 변수를 제공합니다.
 
@@ -81,7 +83,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 숨은 참조 이메일 주�
 
 미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 이메일과 동일합니다.
 
-기본적으로 링크가 메일 콘텐츠에 삽입되면 미러 페이지가 생성됩니다. 개인화 블록 삽입에 대한 자세한 내용은 [개인화 블록](personalization-blocks.md).
+기본적으로 링크가 메일의 콘텐츠에 삽입된 경우 미러 페이지가 생성됩니다. 개인화 블록 삽입에 대한 자세한 내용은 [개인화 블록](personalization-blocks.md).
 
 게재 속성에서 **[!UICONTROL Mode]** 필드 **[!UICONTROL Validity]** 탭에서는 이 페이지의 생성 모드를 수정할 수 있습니다.
 
@@ -91,7 +93,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 숨은 참조 이메일 주�
 >
 >미러 페이지를 만들 수 있도록 HTML 컨텐츠를 정의해야 합니다.
 
-기본 모드 외에 다음 옵션도 사용할 수 있습니다.
+기본 모드 이외에 다음 옵션도 사용할 수 있습니다.
 
 * **[!UICONTROL Force the generation of the mirror page]**: 게재에 미러 페이지에 대한 링크가 삽입되지 않더라도 미러 페이지가 생성됩니다.
 * **[!UICONTROL Do not generate the mirror page]**: 링크가 게재에 있어도 미러 페이지가 생성되지 않습니다.

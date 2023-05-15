@@ -2,9 +2,10 @@
 product: campaign
 title: 비즈니스 지향 API
 description: 비즈니스 지향 API
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: API
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 3%
@@ -12,8 +13,6 @@ ht-degree: 3%
 ---
 
 # 비즈니스 지향 API{#business-oriented-apis}
-
-![](../../assets/v7-only.svg)
 
 비즈니스 API는 각 개체 유형별로 다릅니다. 이 변수는 다음과 같은 효과를 갖습니다.
 
@@ -23,7 +22,7 @@ ht-degree: 3%
    * 캠페인 보내기(시작, 일시 중지, 중지, 증명 보내기),
    * 게재 로그를 복구하는 중입니다.
 
-* 워크플로우:
+* 워크플로:
 
    * 워크플로우 시작,
    * 프로세스 확인 등

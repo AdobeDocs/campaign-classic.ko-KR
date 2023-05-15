@@ -2,11 +2,12 @@
 product: campaign
 title: 작업 만들기 및 관리
 description: 작업 만들기 및 관리
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '3729'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # 작업 만들기 및 관리{#creating-and-managing-tasks}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 직접 전체 라이프 사이클을 관리할 수 있습니다. 프로그램 및 캠페인 구현을 Adobe Campaign 운영자 또는 외부 서비스 제공자에게 할당된 작업으로 분류할 수 있습니다. 이 작업 모드에서는 모든 프로그램 참여자와 외부 참여자를 포함하는 개방형 공동 작업 환경을 만들 수 있습니다.
 
@@ -434,7 +435,6 @@ A **[!UICONTROL Control task]** 은(는) 배달 승인에 연결되어 있습니
 >
 >* 작업 상태가 자동으로 업데이트됩니다.
 >* 유효 기간이 끝났더라도 닫히지 않은 작업은 진행 중인 작업 목록에 계속 나타납니다. 경고 메시지가 작업자에게 작업이 지연되었음을 알립니다.
-
 >
 
 

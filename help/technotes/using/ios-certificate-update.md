@@ -2,8 +2,9 @@
 product: campaign
 title: 기술 정보 - Apple 푸시 알림 서비스 서버 인증서 업데이트
 description: Apple 푸시 알림 서비스 서버 인증서 업데이트
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
-source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Apple 푸시 알림 서비스 서버 인증서 업데이트 {#apns-certificate-update}
 
-![](../../assets/v7-only.svg)
+
 
 2021년 3월 29일, APNs(Apple 푸시 알림 서비스) 인프라 업데이트는 Adobe Campaign Classic iOS 채널에 영향을 주었습니다. OS 구성 변경은 다음과 같습니다 **필수** iOS 푸시 채널 중단을 방지하려면
 

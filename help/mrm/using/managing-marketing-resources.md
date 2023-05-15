@@ -2,20 +2,21 @@
 product: campaign
 title: 마케팅 리소스 관리
 description: 마케팅 리소스 관리 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1386'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 마케팅 리소스 관리{#managing-marketing-resources}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign을 사용하면 캠페인 수명 주기에 포함된 마케팅 리소스를 관리하고 추적할 수 있습니다. 이러한 마케팅 리소스는 브로셔, 시각적 지원 또는 여러 운영자와 관련된 기타 커뮤니케이션 매체가 될 수 있습니다.
 

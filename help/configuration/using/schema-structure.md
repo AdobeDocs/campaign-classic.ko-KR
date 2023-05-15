@@ -2,11 +2,12 @@
 product: campaign
 title: 스키마 구조
 description: 스키마 구조
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 2%
@@ -14,8 +15,6 @@ ht-degree: 2%
 ---
 
 # 스키마 구조{#schema-structure}
-
-![](../../assets/v7-only.svg)
 
 의 기본 구조 `<srcschema>` 는 다음과 같습니다.
 
@@ -235,7 +234,7 @@ ht-degree: 2%
    <td> 부동<br /> </td> 
   </tr> 
   <tr> 
-   <td> Datetime<br /> </td> 
+   <td> 날짜/시간<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> 날짜<br /> </td> 
    <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIMEOFFSET<br /> </td> 

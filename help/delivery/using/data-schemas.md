@@ -2,9 +2,11 @@
 product: campaign
 title: Campaign에서 데이터 스키마 사용
 description: Campaign에서 데이터 스키마를 사용하는 방법 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Data Model
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 1%
@@ -13,7 +15,7 @@ ht-degree: 1%
 
 # Campaign에서 데이터 스키마 사용{#data-schemas}
 
-![](../../assets/common.svg)
+
 
 다음은 Adobe Campaign의 데이터 스키마 사용에 대한 몇 가지 일반적인 원칙입니다.
 

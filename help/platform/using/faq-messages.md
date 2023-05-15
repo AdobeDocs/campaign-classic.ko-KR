@@ -2,11 +2,12 @@
 product: campaign
 title: 테스트 및 보내기 FAQ
 description: Campaign Classic FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
-source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 98%
@@ -15,7 +16,7 @@ ht-degree: 98%
 
 # 메시지 확인, 보내기 및 추적 {#validate-send-track}
 
-![](../../assets/v7-only.svg)
+
 
 ## 테스트 및 유효성 검사 {#test-and-validate-before-sending}
 

@@ -2,11 +2,12 @@
 product: campaign
 title: 표준 배포
 description: 표준 배포
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 # 표준 배포{#standard-deployment}
 
-![](../../assets/v7-only.svg)
+
 
 이 구성의 경우 3대의 컴퓨터가 필요합니다.
 
@@ -43,7 +44,7 @@ LAN의 응용 프로그램 서버는 최종 사용자를 제공하고 모든 반
 
 ## 설치 및 구성 단계 {#installation-and-configuration-steps}
 
-### 필수 구성 요소 {#prerequisites}
+### 전제 조건 {#prerequisites}
 
 * JDK는 세 대의 컴퓨터 모두
 * 두 프론트에 있는 웹 서버(IIS, Apache),
@@ -65,7 +66,7 @@ Adobe Campaign 애플리케이션 서버에서 독립형 인스턴스를 설치�
 다음 예에서 인스턴스의 매개 변수는 다음과 같습니다.
 
 * 인스턴스 이름: **데모**
-* DNS 마스크: **console.campaign.net*** (클라이언트 콘솔 연결 및 보고서에만 해당)
+* DNS 마스크: **console.campaign.net&#42;** (클라이언트 콘솔 연결 및 보고서에만 해당)
 * 언어: 영어
 * 데이터베이스: **campaign:demo@dbsrv**
 

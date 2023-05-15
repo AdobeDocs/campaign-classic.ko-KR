@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: Adobe Campaign Classic에서 게재 기능을 관리할 때 주요 사항
-description: Adobe Campaign Classic에서 게재 기능을 관리할 때 확인할 주요 사항은 무엇입니까?
+description: Adobe Campaign에서 게재 기능을 관리할 때 확인할 주요 사항을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '654'
 ht-degree: 2%
 
 ---
 
 # 게재 기능 문제 해결{#deliverability-faq}
 
-![](../../assets/common.svg)
+
 
 게재 능력에 문제가 있습니까? 여기서 해결 방법을 찾을 수 있습니다.
 

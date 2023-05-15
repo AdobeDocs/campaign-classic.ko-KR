@@ -2,18 +2,20 @@
 product: campaign
 title: 게재 실패 이해
 description: 게재 실패를 이해하는 방법 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '2614'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
 # 게재 실패 이해{#understanding-delivery-failures}
 
-![](../../assets/common.svg)
+
 
 ## 게재 실패 기본 정보 {#about-delivery-failures}
 
@@ -60,19 +62,19 @@ ht-degree: 15%
    <td> 주소에 연결된 계정이 더 이상 활성 상태가 아닙니다. IAP(인터넷 접속 제공자)가 장기간 동안 비활성화 상태를 감지하면 사용자의 계정을 닫을 수 있습니다. 그러면 사용자 주소로 게재할 수 없습니다. 6개월 동안 활동이 없어 계정을 일시적으로 사용할 수 없고 아직 활성화할 수 있는 경우, 오류 발생 상태가 할당되고 오류 카운터가 5에 도달할 때까지 계정을 다시 시도합니다. 오류가 계정이 영구적으로 비활성화되었음을 나타내는 경우 직접 격리로 설정됩니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 격리 주소 </td> 
+   <td> 격리에 보관된 주소 </td> 
    <td> 하드 </td> 
    <td> 9 </td> 
    <td> 주소가 격리되었습니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 주소가 지정되지 않았습니다. </td> 
+   <td> 주소가 지정되지 않음 </td> 
    <td> 하드 </td> 
    <td> 7 </td> 
    <td> 수신자의 주소가 지정되지 않았습니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 잘못된 품질 주소 </td> 
+   <td> 잘못된 품질의 주소 </td> 
    <td> 무시됨 </td> 
    <td> 14 </td> 
    <td> 이 주소의 품질 등급이 너무 낮습니다.<br /> </td> 
@@ -84,9 +86,9 @@ ht-degree: 15%
    <td> 주소를 차단 목록 전송할 때에 추가했습니다. 이 상태는 외부 목록 및 외부 시스템의 데이터를 Adobe Campaign 격리 목록으로 가져오는 데 사용됩니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 제어 주소 </td> 
+   <td> 컨트롤 주소 </td> 
    <td> 무시됨 </td> 
-   <td> 127년 </td> 
+   <td> 127 </td> 
    <td> 받는 사람의 주소가 컨트롤 그룹의 일부입니다.<br /> </td> 
   </tr> 
   <tr> 
@@ -96,13 +98,13 @@ ht-degree: 15%
    <td> 받는 사람의 주소가 이미 이 게재에 있습니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오류가 무시됨 </td> 
+   <td> 무시된 오류 </td> 
    <td> 무시됨 </td> 
-   <td> 25년 </td> 
+   <td> 25 </td> 
    <td> 주소는에 허용 목록에 추가하다 있습니다. 따라서 오류가 무시되고 이메일이 전송됩니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 중재 후 제외 </td> 
+   <td> 중재 후 제외됨 </td> 
    <td> 무시됨 </td> 
    <td> 12 </td> 
    <td> 수신자가 '중재' 유형 캠페인 유형화 규칙에 의해 제외되었습니다.<br /> </td> 
@@ -122,7 +124,7 @@ ht-degree: 15%
   <tr> 
    <td> 사서함 가득 참 </td> 
    <td> 소프트 </td> 
-   <td> 5개 </td> 
+   <td> 5 </td> 
    <td> 이 사용자의 사서함이 가득 차서 더 이상의 메시지를 받을 수 없습니다. 이 프로필은 오류 수가 5개에 도달할 때까지 다시 타겟팅됩니다. 이후 레코드가 격리 상태로 설정되며 다시 시도되지 않습니다.<br /> 이 유형의 오류는 정리 프로세스에 의해 관리되며, 주소는 30일 후에 유효한 상태로 설정됩니다.<br /> 경고: 격리된 주소 목록에서 주소를 자동으로 제거하려면, 데이터베이스 정리 기술 워크플로우를 시작해야 합니다.<br /> </td> 
   </tr> 
   <tr> 
@@ -146,11 +148,11 @@ ht-degree: 15%
   <tr> 
    <td> 거부됨 </td> 
    <td> 소프트/하드 </td> 
-   <td> 20년 </td> 
+   <td> 20 </td> 
    <td> 스팸 보고서로 보안 피드백이 발생하여 주소가 격리되었습니다. 오류에 따라 오류 카운터가 5에 도달할 때까지 또는 격리로 직접 주소가 다시 시도됩니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Target 크기 제한 </td> 
+   <td> 크기가 제한된 대상 </td> 
    <td> 무시됨 </td> 
    <td> 17 </td> 
    <td> 수신자의 최대 게재 크기에 도달했습니다.<br /> </td> 
@@ -286,7 +288,7 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날
 >* 관리 규칙을 수정하거나 만드는 것은 전문가 사용자만을 위한 것입니다.
 
 
-#### 인바운드 전자 메일 {#inbound-email}
+#### 인바운드 이메일 {#inbound-email}
 
 >[!IMPORTANT]
 >

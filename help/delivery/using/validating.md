@@ -2,9 +2,11 @@
 product: campaign
 title: 유효성 검사
 description: 유효성 검사
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Direct Mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 1%
@@ -13,7 +15,7 @@ ht-degree: 1%
 
 # 유효성 검사{#validating}
 
-![](../../assets/common.svg)
+
 
 게재 유효성 검사 시 글로벌 개념이 표시됩니다 [이 섹션](steps-validating-the-delivery.md).
 

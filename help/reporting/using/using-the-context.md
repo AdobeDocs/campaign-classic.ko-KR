@@ -2,9 +2,11 @@
 product: campaign
 title: 보고서에서 컨텍스트 사용
 description: 보고서에서 컨텍스트를 사용하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -13,7 +15,7 @@ ht-degree: 0%
 
 # 보고서에서 컨텍스트 사용{#using-the-context}
 
-![](../../assets/common.svg)
+
 
 의 형식으로 데이터를 나타내려면 **[!UICONTROL tables]** 또는 **[!UICONTROL charts]**, 다음 두 소스에서 가져올 수 있습니다. 새 쿼리( [데이터에 대한 직접 필터 정의](#defining-a-direct-filter-on-data)) 또는 보고서 컨텍스트( [컨텍스트 데이터 사용](#using-context-data)).
 

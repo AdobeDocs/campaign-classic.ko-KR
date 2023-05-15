@@ -2,9 +2,10 @@
 product: campaign
 title: SQL 데이터 관리
 description: SQL 데이터 관리 워크플로우 활동에 대해 자세히 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 4%
@@ -13,7 +14,7 @@ ht-degree: 4%
 
 # SQL 데이터 관리{#sql-data-management}
 
-![](../../assets/v7-only.svg)
+
 
 다음 **SQL 데이터 관리** 활동을 통해 고유한 SQL 스크립트를 작성하여 작업 테이블을 만들고 채울 수 있습니다.
 

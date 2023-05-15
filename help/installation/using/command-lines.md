@@ -2,11 +2,12 @@
 product: campaign
 title: 명령줄
 description: 명령줄
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 4%
@@ -15,7 +16,7 @@ ht-degree: 4%
 
 # 명령줄{#command-lines}
 
-![](../../assets/v7-only.svg)
+
 
 다음 명령줄을 사용하려면 응용 프로그램 서버에 액세스할 수 있어야 합니다. Adobe으로 호스팅되는 배포의 경우 이러한 명령은 Adobe로만 실행할 수 있습니다.
 
@@ -29,7 +30,7 @@ nlserver config -addinstance:instance/masques DNS[/lang]
 
 (다음과 같은 경우) **eng** 및 **fra** 에 사용할 수 있는 값은 다음과 같습니다 `[lang]` parameter)
 
-명령 **nlserver config -addinstance:instance1/demo*/eng** 이라는 인스턴스를 만들 수 있습니다. **instance1** DNS 마스크 데모*를 사용하여 영어로 표시합니다.
+명령 **nlserver 구성 -addinstance:instance1/demo&#42;/eng** 이라는 인스턴스를 만들 수 있습니다. **instance1** 영어(DNS 마스크 데모 사용)&#42;.
 
 ## 데이터베이스 선언 {#declaring-a-database}
 

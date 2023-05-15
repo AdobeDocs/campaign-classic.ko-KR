@@ -2,18 +2,20 @@
 product: campaign
 title: 보고서의 속성
 description: 보고서 속성 설정에 대해 자세히 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 보고서의 속성{#properties-of-the-report}
 
-![](../../assets/common.svg)
+
 
 필요에 따라 보고서를 완벽하게 개인화하고 구성할 수 있습니다. 이렇게 하려면 해당 속성을 편집합니다. 보고서 속성은 **[!UICONTROL Properties]** 활동 시퀀스 차트 위에 있는 단추입니다.
 

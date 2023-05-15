@@ -2,11 +2,12 @@
 product: campaign
 title: 엔터프라이즈 배포
 description: 엔터프라이즈 배포
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 # 엔터프라이즈 배포{#enterprise-deployment}
 
-![](../../assets/v7-only.svg)
+
 
 이것이 가장 완벽한 구성이다. 보안 및 가용성 향상을 위한 표준 구성을 기반으로 합니다.
 
@@ -50,7 +51,7 @@ ht-degree: 3%
 
 ## 설치 및 구성 단계 {#installation-and-configuration-steps}
 
-### 필수 구성 요소 {#prerequisites}
+### 전제 조건 {#prerequisites}
 
 * 두 애플리케이션 서버의 JDK,
 * 두 프론트에 있는 웹 서버(IIS, Apache),
@@ -76,7 +77,7 @@ ht-degree: 3%
 다음 예에서 인스턴스의 매개 변수는 다음과 같습니다.
 
 * 인스턴스 이름: 데모
-* DNS 마스크: tracking.campaign.net*, console.campaign.net*(애플리케이션 서버는 클라이언트 콘솔 연결 및 보고서와 미러 페이지 및 구독 취소 페이지에 대한 URL을 처리합니다)
+* DNS 마스크: tracking.campaign.net&#42;, console.campaign.net&#42; (애플리케이션 서버는 클라이언트 콘솔 연결 및 보고서와 미러 페이지 및 구독 취소 페이지의 URL을 처리합니다)
 * 언어: 영어
 * 데이터베이스: campaign:demo@dbsrv
 

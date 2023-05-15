@@ -2,8 +2,9 @@
 product: campaign
 title: 웹 추적 태그 정의
 description: 웹 추적 태그 정의
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 2%
@@ -12,7 +13,7 @@ ht-degree: 2%
 
 # 웹 추적 태그: 정의{#web-tracking-tag-definition}
 
-![](../../assets/v7-only.svg)
+
 
 웹 추적 태그는 HTTP 쿼리를 통해 리디렉션 서버로 전송되는 적절한 매개 변수로 구성된 URL일 뿐입니다.
 

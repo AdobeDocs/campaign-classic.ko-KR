@@ -2,18 +2,20 @@
 product: campaign
 title: 게재 보고서
 description: 게재 보고서
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: 64d97c7879320296a5f8efc5bb5bc2bea8663c08
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
 # 게재 보고서 {#delivery-reports}
 
-![](../../assets/common.svg)
+
 
 게재 개요에서 액세스할 수 있는 다양한 보고서를 통해 게재 실행을 추적할 수 있습니다. 보고서를 표시하려면 다음 절차를 적용합니다.
 
@@ -44,7 +46,7 @@ ht-degree: 2%
 
 ## 지표 추적 {#tracking-indicators}
 
-이 보고서는 게재를 받을 때 수신자의 동작을 추적하기 위한 주요 지표를 결합합니다. 게재 및 수신 통계, 열기 및 클릭스루 비율, 생성된 클릭 스트림, 웹 추적 및 소셜 네트워크에 대한 활동 공유를 제공합니다.
+이 보고서는 게재를 받을 때 수신자의 동작을 추적하기 위한 주요 지표를 결합합니다. 이렇게 하면 게재 및 수신 통계, 열람율 및 클릭스루 비율, 생성된 클릭스트림, 웹 추적 및 소셜 네트워크에 대한 공유 활동에 액세스할 수 있습니다.
 
 >[!NOTE]
 >
@@ -55,7 +57,7 @@ ht-degree: 2%
 **[!UICONTROL 1. Delivery statistics]**
 
 * **[!UICONTROL Messages to deliver]** : 게재 분석 후 게재할 총 메시지 수입니다.
-* **[!UICONTROL Success]** : 성공적으로 처리된 메시지 수입니다.
+* **[!UICONTROL Success]** : 정상적으로 처리된 메시지 수.
 
 **[!UICONTROL 2. Reception statistics]**
 
@@ -174,7 +176,7 @@ ht-degree: 2%
 
 ## 핫 클릭 {#hot-clicks}
 
-이 보고서는 각 링크에 대한 클릭 비율( HTML 및/또는 텍스트)을 포함하는 메시지 콘텐츠를 보여줍니다. 개인화 블록은 구독 취소 링크, 미러 페이지 링크 및 오퍼 링크를 총 누적 클릭 수에 고려하지만 보고서에 표시되지 않습니다.
+이 보고서에는 메시지 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율이 표시됩니다. 개인 맞춤화 블록 구독 취소 링크, 미러 페이지 링크 및 오퍼 링크는 총 누적 클릭 수 계산에 포함되지만 보고서에는 표시되지 않습니다.
 
 >[!NOTE]
 >
@@ -182,7 +184,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_user_clic_report.png)
 
-## 통계 추적 {#tracking-statistics}
+## 추적 통계 {#tracking-statistics}
 
 이 보고서는 열기, 클릭 및 트랜잭션에 대한 통계를 제공합니다.
 

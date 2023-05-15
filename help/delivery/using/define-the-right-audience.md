@@ -2,9 +2,11 @@
 product: campaign
 title: 적합한 대상자 정의
 description: 대상을 선택할 때 모범 사례에 대해 배웁니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Audiences
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 4%
@@ -13,7 +15,7 @@ ht-degree: 4%
 
 # 적합한 대상자 정의 {#define-the-right-audience}
 
-![](../../assets/common.svg)
+
 
 타겟팅된 모집단은 목록을 신중하게 작성하고, 인기 있는 이메일 클라이언트와 모바일 장치에서 이메일을 테스트하고, 이메일 목록이 최신 상태인지(알 수 없거나 오래된 주소 없음) 확인합니다. 또한 전체 유효성 검사 주기를 설정하는 데 도움이 되는 증명을 보낼 수도 있습니다.
 

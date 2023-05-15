@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: 이벤트 설명
-description: SOAP 메서드를 사용하여 Adobe Campaign Classic에서 트랜잭션 메시지 이벤트를 관리하는 방법을 알아봅니다.
+description: SOAP 메서드를 사용하여 Adobe Campaign Classic에서 트랜잭션 메시지 이벤트를 관리하는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
-source-git-commit: c30d64e6930cb97f4a3c15acd97654d57d1bbf85
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # 이벤트 설명 {#event-description}
 
-![](../../assets/v7-only.svg)
+
 
 ## 트랜잭션 메시지 데이터 모델 {#about-transactional-messaging-datamodel}
 

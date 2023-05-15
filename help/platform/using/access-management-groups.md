@@ -2,20 +2,21 @@
 product: campaign
 title: 운영자 그룹 만들기 및 관리
 description: 운영자 그룹에 대한 액세스 권한을 부여하는 방법 알아보기
+badge: label="v7" type="유익함" tooltip="Campaign Classic v7에만 적용"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # 운영자 그룹 만들기 및 관리 {#operator-groups}
 
-![](../../assets/common.svg)
+
 
 운영자 그룹은 **[!UICONTROL Administration > Access management > Operator groups]** 노드 아래에 있어야 합니다.
 

@@ -2,9 +2,10 @@
 product: campaign
 title: 페더레이션 데이터 액세스 시작
 description: 외부 데이터베이스에서 데이터에 액세스하고 처리하는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Federated Data Access
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # 페더레이션 데이터 액세스 시작 {#about-federated-data-access}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign은 다음을 제공합니다 **페더레이션 데이터 액세스** (FDA) 옵션을 사용하여 하나 이상의 외부 데이터베이스에 저장된 정보를 처리할 수 있습니다. Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.
 

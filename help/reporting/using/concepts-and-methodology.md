@@ -2,20 +2,21 @@
 product: campaign
 title: 큐브에 대한 우수 사례
 description: 큐브에 대한 우수 사례
+badge: label="v7" type="유익함" tooltip="Campaign Classic v7에만 적용"
 feature: Reporting
 hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 0%
+source-wordcount: '1504'
+ht-degree: 1%
 
 ---
 
 # 큐브에 대한 우수 사례{#concepts-and-methodology}
 
-![](../../assets/common.svg)
+
 
 ## 데이터 바인딩 {#data-binning}
 
@@ -188,7 +189,7 @@ Adobe Campaign은 또한 다음 예와 같이 데이터베이스에 있는 모�
 * 보고서에 표시/숨길 정보(다음을 참조하십시오 [디스플레이 구성](#configuring-the-display))
 * 표시할 측정값: 백분율, 총, 소수 수 등 (참조: [표시되는 측정값 유형 변경](#changing-the-type-of-measure-displayed)).
 
-### 표시 시퀀스 {#display-sequence}
+### 시퀀스 표시 {#display-sequence}
 
 큐브에서 계산된 측정 단위는 를 통해 구성됩니다 **[!UICONTROL Measures]** 버튼을 클릭합니다.
 

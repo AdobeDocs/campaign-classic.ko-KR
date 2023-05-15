@@ -2,18 +2,19 @@
 product: campaign
 title: 공동 캠페인 만들기
 description: 공동 작업 캠페인을 만드는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # 공동 캠페인 만들기{#creating-a-collaborative-campaign-intro}
 
-![](../../assets/v7-only.svg)
+
 
 중앙 엔티티는 **분산 마케팅** 캠페인 템플릿. [이 페이지](about-distributed-marketing.md#collaborative-campaign)를 참조하십시오.
 
@@ -27,7 +28,7 @@ ht-degree: 3%
 
 공동 작업 캠페인 데이터베이스의 구성 프로세스는 로컬 캠페인 템플릿의 구성 프로세스와 유사합니다. 다양한 유형의 공동 작업 캠페인에 대한 사양은 아래에 자세히 설명되어 있습니다.
 
-### 양식 기준 {#by-form}
+### 양식별 {#by-form}
 
 협업 캠페인을 만들기 위한(양식 기준) **[!UICONTROL Collaborative campaign (by form)]** 템플릿을 선택해야 합니다.
 
@@ -63,7 +64,7 @@ ht-degree: 3%
 
 ![](assets/mkg_dist_mutual_op_by_op.png)
 
-### 대상 승인별 {#by-target-approval}
+### 대상 승인 {#by-target-approval}
 
 공동 작업 캠페인을 만들려면(대상 승인을 통해) **[!UICONTROL Collaborative campaign (by target approval)]** 템플릿을 선택해야 합니다.
 
@@ -75,7 +76,7 @@ ht-degree: 3%
 
 캠페인 워크플로우를 통합해야 합니다 **로컬 승인** 유형 활동. 활동 매개 변수는 다음과 같습니다.
 
-* **[!UICONTROL Action to perform]** : Target 승인 알림.
+* **[!UICONTROL Action to perform]** : 대상 승인 미리 알림.
 * **[!UICONTROL Distribution context]** : 명시적.
 * **[!UICONTROL Data distribution]** : 로컬 엔터티 배포입니다.
 

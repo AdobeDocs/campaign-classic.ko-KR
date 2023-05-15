@@ -2,9 +2,10 @@
 product: campaign
 title: 데이터 로딩(파일)
 description: 데이터 로드(파일) 워크플로우 활동에 대해 자세히 알아보십시오
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 15%
@@ -13,7 +14,7 @@ ht-degree: 15%
 
 # 데이터 로딩(파일){#data-loading-file}
 
-![](../../assets/v7-only.svg)
+
 
 ## 사용 {#use}
 

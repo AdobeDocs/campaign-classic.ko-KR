@@ -2,9 +2,10 @@
 product: campaign
 title: 지속적인 게재
 description: 지속적인 게재
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 10%
@@ -13,7 +14,7 @@ ht-degree: 10%
 
 # 지속적인 게재{#continuous-delivery}
 
-![](../../assets/v7-only.svg)
+
 
 A **지속적인 게재** 유형 작업을 사용하면 기존 게재에 새 수신자를 추가할 수 있습니다. 이 게재 유형을 사용하면 다음과 같이 매번 새 게재를 만들 수 없습니다. 이 모드는 종종 더 효율적입니다. 특히 필요한 경우 출력되는 낮은 볼륨 경고나 알림에 유용합니다.
 

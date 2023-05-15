@@ -2,11 +2,12 @@
 product: campaign
 title: Adobe Managed Services(Public Cloud)로 마이그레이션 FAQ
 description: Public Cloud로 Campaign Classic 마이그레이션 FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2215'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Public Cloud로 마이그레이션 FAQ{#dc-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe은 기존 데이터 센터를 사용 중단합니다. Campaign Classic 인스턴스는 Public Cloud Amazon Web Services (AWS)으로 전송해야 합니다. [이 이니셔티브에 대해 자세히 알아보기](dc-migration.md).
 

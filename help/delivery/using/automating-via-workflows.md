@@ -2,9 +2,11 @@
 product: campaign
 title: 워크플로우를 통한 자동화
 description: 워크플로우를 통해 콘텐츠 관리를 자동화하는 방법 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Workflows
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 1%
@@ -13,7 +15,7 @@ ht-degree: 1%
 
 # 워크플로우 자동화{#automating-via-workflows}
 
-![](../../assets/common.svg)
+
 
 ## 콘텐츠 관리 활동 {#content-management-activity}
 

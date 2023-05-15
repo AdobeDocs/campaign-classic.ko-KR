@@ -2,9 +2,11 @@
 product: campaign
 title: 추적되는 링크를 구성하는 방법
 description: 추적되는 링크를 구성하는 방법
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 10%
@@ -13,7 +15,7 @@ ht-degree: 10%
 
 # 추적되는 링크를 구성하는 방법{#how-to-configure-tracked-links}
 
-![](../../assets/common.svg)
+
 
 각 게재에 대해 메시지 수신 및 메시지 콘텐츠에 삽입된 링크의 활성화를 추적할 수 있습니다. 이렇게 하면 수신자가 타겟팅된 게재 작업 이후 수신자의 동작을 추적할 수 있습니다.
 

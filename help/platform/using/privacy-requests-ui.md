@@ -2,11 +2,12 @@
 product: campaign
 title: 개인 정보 보호 요청 생성
 description: 개인 정보 보호 요청을 생성하고 관리하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
-source-git-commit: 42b420d7dae7d38e9f4df442146d3b484c25e831
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # 개인 정보 보호 요청 생성 및 관리 {#privacy-request-ui}
 
-![](../../assets/v7-only.svg)
+
 
 이 섹션에서는 액세스 및 삭제 요청을 생성하는 방법뿐만 아니라 Adobe Campaign이 요청을 처리하는 방법도 설명합니다.
 

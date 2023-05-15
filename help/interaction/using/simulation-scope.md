@@ -2,20 +2,22 @@
 product: campaign
 title: 시뮬레이션 범위
 description: 시뮬레이션 범위
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
-source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # 시뮬레이션 범위{#simulation-scope}
 
-![](../../assets/common.svg)
+
 
 ## 범위의 정의 {#definition-of-the-scope}
 
@@ -25,8 +27,8 @@ ht-degree: 2%
 
 * 환경 또는 오퍼 카테고리입니다.
 * 오퍼 공간.
-* 연락 날짜. 연락 날짜에 적합하지 않은 오퍼는 고려되지 않습니다.
-* Target 모집단.
+* 연락일. 연락 날짜에 적합하지 않은 오퍼는 고려되지 않습니다.
+* 대상 모집단.
 
    타겟에 필터를 구성하지 않으면 전체 수신자 표가 고려됩니다.
 

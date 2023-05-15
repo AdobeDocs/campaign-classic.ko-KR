@@ -2,20 +2,21 @@
 product: campaign
 title: 전자 메일 보관
 description: 전자 메일 보관
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 3%
+source-wordcount: '1359'
+ht-degree: 5%
 
 ---
 
 # 이메일 BCC 구성 {#email-archiving}
 
-![](../../assets/v7-only.svg)
+
 
 플랫폼에서 보낸 이메일 사본을 유지하도록 Adobe Campaign을 구성할 수 있습니다.
 
@@ -34,6 +35,9 @@ ht-degree: 3%
 * 전자 메일 보관 시스템이 Adobe Campaign 17.2(빌드 8795)로 변경되었습니다. 이미 전자 메일 보관을 사용하고 있다면 새 전자 메일 BCC 시스템으로 수동으로 업그레이드해야 합니다. 자세한 내용은 [새 전자 메일 BCC로 이동](#updated-email-archiving-system--bcc-) 섹션을 참조하십시오.
 
 ## 이메일 BCC 활성화(온-프레미스) {#activating-email-archiving--on-premise-}
+
+[!BADGE 온-프레미스 및 하이브리드]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용됩니다"}
+
 
 Adobe Campaign이 전후에 설치될 때 BCC 전자 메일 보관을 활성화하려면 아래 단계를 수행하십시오.
 
@@ -102,6 +106,9 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 ## BCC 이메일 주소 구성(온-프레미스) {#configuring-the-bcc-email-address--on-premise-}
 
+[!BADGE 온-프레미스 및 하이브리드]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용됩니다"}
+
+
 >[!IMPORTANT]
 >
 >개인 정보 보호를 위해 BCC 이메일은 PII(보안 개인 식별 정보)를 저장할 수 있는 보관 시스템에 의해 처리되어야 합니다.
@@ -124,6 +131,10 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 >게다가, 릴레이는 **[!UICONTROL Sent]** 전송되지 않은 전자 메일 등 모든 전자 메일에 대한 상태입니다. 따라서 모든 메시지가 보관됩니다.
 
 ## 새 전자 메일 BCC로 이동 {#updated-email-archiving-system--bcc-}
+
+[!BADGE 온-프레미스 및 하이브리드]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용됩니다"}
+
+
 
 >[!IMPORTANT]
 >

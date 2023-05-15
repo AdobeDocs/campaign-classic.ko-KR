@@ -2,17 +2,18 @@
 product: campaign
 title: Campaign On-premise, Hybrid 및 Hosted 기능 매트릭스
 description: 호스팅된 배포와 온-프레미스 배포 간의 주요 차이점 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 20%
+ht-degree: 28%
 
 ---
 
 # 모델별 기능 매트릭스{#capability-matrix-per-model}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니다. 이러한 모듈 및 모듈의 사용 가능 여부는 설치 배포 유형에 따라 달라질 수 있습니다. 이 문서에서는 전체 호스팅(Managed Services)과 온-프레미스 배포 간의 특정 기능에 대한 주요 차이점에 대한 세부 사항을 공유합니다.
 
@@ -22,7 +23,7 @@ Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니�
 
 ## 배포 모델당 가용성 {#capability-matrix}
 
-| 기능 | 호스팅 | 하이브리드 | On-premise | 세부 사항 |
+| 기능 | 호스팅 | 하이브리드 | 온프레미스 | 세부 정보 |
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 캠페인 서버 구성 | 온디맨드 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../installation/using/the-server-configuration-file.md) |
 | 이메일 BCC | 온디맨드 | 온디맨드 | 사용 가능 | [자세히 알아보기](../../installation/using/email-archiving.md) |
@@ -32,7 +33,7 @@ Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니�
 | IMS와 통합(Adobe ID) | 온디맨드 | 온디맨드 | 온디맨드 | [자세히 알아보기](../../integrations/using/about-adobe-id.md) |
 | 파일 전송을 위한 데이터 암호화/암호 해독 | 온디맨드 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../platform/using/unzip-decrypt.md) |
 | 파일 압축/압축 해제 | 온디맨드 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../platform/using/unzip-decrypt.md) |
-| 도메인 이름 위임 | 온디맨드 | 온디맨드 | 사용할 수 없음 | [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko) |
+| 도메인 이름 위임 | 온디맨드 | 온디맨드 | 사용 불가 | [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko) |
 | SpamAssassin 설치 | 온디맨드 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../delivery/using/spamassassin.md) |
 | 게재 기능 보고서 액세스 | 사용 가능 | 온디맨드 | 사용 가능 | [자세히 알아보기](../../delivery/using/monitoring-deliverability.md) |
 | LDAP 인증 구성 | 사용할 수 없음 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../installation/using/connecting-through-ldap.md) |
@@ -46,7 +47,7 @@ Adobe Campaign은 다음을 제공합니다 **페더레이션 데이터 액세�
 >
 >호환되는 외부 데이터베이스 시스템은 호스팅 모델에 따라 다릅니다. 추가 정보 [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md).
 
-**또한 다음을 참조하십시오**
+**참조 항목**
 
 * [호환성 매트릭스](../../rn/using/compatibility-matrix.md)
 * [릴리스 정보](../../rn/using/latest-release.md)

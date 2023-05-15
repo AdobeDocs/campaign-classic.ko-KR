@@ -2,11 +2,12 @@
 product: campaign
 title: 배포 유형 정보
 description: 배포 유형 정보
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 6%
@@ -15,7 +16,7 @@ ht-degree: 6%
 
 # 배포 유형 정보{#about-deployment-types}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign의 모듈식 설계를 통해 독립형 설정(한 시스템의 모든 구성 요소)부터 여러 서버를 사용하는 완전 중복 및 분산 아키텍처로 엔터프라이즈 배포에 이르기까지 다양한 배포 구성을 사용할 수 있습니다. 모두 필요한 성능 및 보안 수준에 따라 다릅니다.
 

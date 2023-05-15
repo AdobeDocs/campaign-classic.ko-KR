@@ -1,11 +1,12 @@
 ---
 product: campaign
-title: '추적된 URL 서명 문제 '
-description: '추적된 URL 서명 문제 '
+title: 추적된 URL 서명 문제
+description: 추적된 URL 서명 문제
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: true
 hidefromtoc: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 36%
@@ -14,7 +15,7 @@ ht-degree: 36%
 
 # 추적된 URL 서명 문제 {#tracked-urls}
 
-![](../../assets/v7-only.svg)
+
 
 최근 변경 사항에 따라 Campaign에서 URL 서명이 활성 상태일 때 추적된 URL이 실패할 수 있습니다. 일부 회사에는 링크에 영향을 주고 URL 서명 메커니즘을 변경할 수 있는 특정 보안 도구가 있으므로 일부 사서함은 다른 사서함보다 더 큰 영향을 받을 수 있습니다.
 

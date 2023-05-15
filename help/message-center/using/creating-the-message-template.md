@@ -1,10 +1,11 @@
 ---
 product: campaign
 title: 트랜잭션 메시지 템플릿 디자인
-description: Adobe Campaign Classic에서 트랜잭션 메시지 템플릿을 만들고 디자인하는 방법을 알아봅니다.
+description: Adobe Campaign Classic에서 트랜잭션 메시지 템플릿을 만들고 디자인하는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Transactional Messaging
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # 트랜잭션 메시지 템플릿 디자인 {#creating-the-message-template}
 
-![](../../assets/v7-only.svg)
+
 
 각 이벤트를 개인화된 메시지로 변경하려면 각 이벤트 유형에 맞게 메시지 템플릿을 만들어야 합니다.
 

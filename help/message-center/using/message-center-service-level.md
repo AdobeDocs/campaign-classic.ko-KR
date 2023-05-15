@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: 메시지 센터 서비스 수준
-description: 메시지 센터 서비스 수준 보고서에 대해 자세히 알아보십시오.
+description: 메시지 센터 서비스 수준 보고서에 대해 자세히 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 # 메시지 센터 서비스 수준 {#message-center-service-level}
 
-![](../../assets/v7-only.svg)
+
 
 이 보고서는 트랜잭션 메시지와 관련된 게재 통계 및 오류 분류를 표시합니다. 오류 유형을 클릭하여 세부 정보를 표시할 수 있습니다.
 

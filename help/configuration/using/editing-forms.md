@@ -2,8 +2,10 @@
 product: campaign
 title: 양식 편집
 description: 양식 편집
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 4af44f38d495d31dec4b9b7a142dbed0c2450d56
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 2%
@@ -13,7 +15,7 @@ ht-degree: 2%
 
 # 양식 편집{#editing-forms}
 
-![](../../assets/common.svg)
+
 
 ## 개요
 
@@ -60,7 +62,7 @@ Forms은 의 엔티티입니다 `xtk:form` 유형. 에서 입력 양식 구조�
 
    이 양식은 특정 시퀀스로 정렬된 여러 부동 화면으로 구성됩니다. 사용자가 한 화면에서 다음 화면으로 이동합니다. [자세히 보기](form-structure.md#wizards).
 
-* Iconbox
+* 아이콘 상자
 
    이 양식은 여러 페이지로 구성됩니다. 양식을 탐색하려면 양식 왼쪽에서 아이콘을 선택합니다.
 

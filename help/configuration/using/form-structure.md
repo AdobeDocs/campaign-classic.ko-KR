@@ -2,8 +2,10 @@
 product: campaign
 title: 양식 구조
 description: 양식 구조
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '2385'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # 양식 구조{#form-structure}
 
-![](../../assets/common.svg)
+
 
 양식에 대한 설명은 양식 스키마의 문법을 준수하는 구조화된 XML 문서입니다 **xtk:form**.
 
@@ -491,7 +493,7 @@ xpath가 없는 컨테이너의 예:
 <input xpath="@gender" readOnly="true"/>
 ```
 
-## 라디오 단추 {#radio-button}
+## 라디오 버튼 {#radio-button}
 
 라디오 단추를 사용하면 여러 옵션 중에서 선택할 수 있습니다. 다음 **`<input>`** 태그를 사용하여 가능한 옵션과 **checkedValue** 속성은 선택과 연관된 값을 지정합니다.
 

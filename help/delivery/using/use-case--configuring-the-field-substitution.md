@@ -2,9 +2,11 @@
 product: campaign
 title: "활용 사례: 필드 대체 구성"
 description: "활용 사례: 필드 대체 구성"
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 4%
@@ -13,7 +15,7 @@ ht-degree: 4%
 
 # 활용 사례: 필드 대체 구성{#use-case-configuring-the-field-substitution}
 
-![](../../assets/common.svg)
+
 
 무작위 필드 대체를 사용하면 사용자가 게재에서 이 값을 사용할 때 비어 있는 시드 주소에 수신자 목록의 값을 지정할 수 있습니다(예: 이름, 도시 등)
 

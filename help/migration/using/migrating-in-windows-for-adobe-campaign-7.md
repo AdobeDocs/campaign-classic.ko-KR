@@ -2,13 +2,14 @@
 product: campaign
 title: Microsoft Windows 플랫폼을 Adobe Campaign v7로 마이그레이션
 description: Microsoft Windows 플랫폼을 Adobe Campaign v7로 마이그레이션하는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 hide: true
 hidefromtoc: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Microsoft Windows 플랫폼을 Campaign v7로 마이그레이션{#migrating-in-windows-for-adobe-campaign}
 
-![](../../assets/v7-only.svg)
+
 
 Microsoft Windows 환경의 경우 마이그레이션 단계는 다음과 같습니다.
 

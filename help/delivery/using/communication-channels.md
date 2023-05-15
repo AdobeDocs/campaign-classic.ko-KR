@@ -2,9 +2,11 @@
 product: campaign
 title: 소통 채널
 description: 여러 채널에서 개인화된 메시지를 보낼 수 있는 게재 정보를 만듭니다.
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 20%
@@ -13,7 +15,7 @@ ht-degree: 20%
 
 # 소통 채널{#communication-channels}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및 DM을 포함한 크로스 채널 캠페인을 전송할 수 있으며, 다양한 전용 캠페인을 사용하여 효과를 측정할 수 있습니다 [보고서](../../reporting/using/delivery-reports.md). 이러한 메시지는 게재를 통해 디자인되고 전송되며 각 수신자에 대해 개인화할 수 있습니다.
 
@@ -21,7 +23,7 @@ Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및
 
 >[!NOTE]
 >
->Adobe Campaign은 게재 기능을 모니터링하고 이메일 전송을 최적화하는 도구 세트를 제공합니다. [이 섹션](about-deliverability.md)에서 자세히 알아봅니다.
+>Adobe Campaign은 게재 기능을 모니터링하고 이메일 전송을 최적화하는 도구 세트를 제공합니다. [이 섹션](about-deliverability.md)에서 자세히 알아보십시오.
 
 게재를 준비하거나 워크플로우 프로세스에서 전송하여 게재 전송을 자동화할 수 있습니다. 워크플로우의 게재 유형 활동에 대한 자세한 내용은 [이 섹션](../../workflow/using/about-action-activities.md).
 

@@ -2,9 +2,11 @@
 product: campaign
 title: 대상 모집단 정의
 description: 대상 모집단을 정의하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Audiences, Proofs
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1598'
 ht-degree: 2%
@@ -13,7 +15,7 @@ ht-degree: 2%
 
 # 대상 모집단 정의 {#defining-the-target-population}
 
-![](../../assets/common.svg)
+
 
 각 게재에 대해 몇 가지 유형의 대상 모집단을 정의할 수 있습니다.
 
@@ -24,7 +26,7 @@ ht-degree: 2%
 
 ## 게재의 주요 수신자를 선택합니다 {#selecting-the-main-target}
 
-대부분의 경우 기본 타겟은 Adobe Campaign 데이터베이스(기본 모드)에서 추출됩니다. 그러나 수신자는 외부 파일에도 저장할 수 있습니다. 추가 정보 [이 섹션](steps-defining-the-target-population.md#selecting-external-recipients).
+대부분의 경우 기본 타겟은 Adobe Campaign 데이터베이스(기본 모드)에서 추출됩니다. 그러나 수신자는 외부 파일에도 저장할 수 있습니다. [이 섹션](steps-defining-the-target-population.md#selecting-external-recipients)에서 자세히 알아보십시오.
 
 게재 수신자를 선택하려면 아래 단계를 수행하십시오.
 

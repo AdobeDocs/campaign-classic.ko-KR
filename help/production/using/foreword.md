@@ -2,11 +2,12 @@
 product: campaign
 title: 서문
 description: 서문
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: c9e92fec-383e-46ba-bce1-183ac8f637de
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 # 서문{#foreword}
 
-![](../../assets/v7-only.svg)
+
 
 이 문서에서는 Adobe Campaign에 대한 프로덕션 절차에 대해 자세히 설명합니다. 구성, 모니터링, 업그레이드 프로세스, 데이터 처리, 데이터베이스 유지 관리 절차 및 권장 사항 문제 해결 섹션은 이 문서의 끝에 있습니다.
 

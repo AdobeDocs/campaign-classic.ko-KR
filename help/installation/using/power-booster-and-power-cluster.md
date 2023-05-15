@@ -2,20 +2,21 @@
 product: campaign
 title: 전원 부스터 및 전원 클러스터
 description: 전원 부스터 및 전원 클러스터
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 # 전원 부스터 및 전원 클러스터{#power-booster-and-power-cluster}
 
-![](../../assets/v7-only.svg)
+
 
 ## 개요 {#overview}
 
@@ -62,7 +63,7 @@ Adobe Campaign에서는 배포를 차원화하기 위해 두 개의 사전 패�
    <td> 실행 서버당 시간당 50,000개<br /> </td> 
   </tr> 
   <tr> 
-   <td> 사용 가능<br /> </td> 
+   <td> 가용성<br /> </td> 
    <td> 기본 데이터베이스의<br /> </td> 
    <td> 24/7 실행 인스턴스에 대한 유지 관리 기간 및 다운타임을 제외하고<br /> </td> 
    <td> 24/7/365 서비스 가능<br /> </td> 
@@ -82,7 +83,7 @@ Adobe Campaign에서는 배포를 차원화하기 위해 두 개의 사전 패�
  </tbody> 
 </table>
 
-## 추천 {#recommendations}
+## 권장 사항 {#recommendations}
 
 * 실행 인스턴스는 서비스 전용이어야 합니다. 구독하지 않은 서비스에 대한 패키지를 설치할 수 없습니다. 예를 들어 **전원 부스터** 옵션 **메시지 센터** 서비스만 설치할 수 있습니다 **[!UICONTROL Execution of transactional messages]** 전용 실행 인스턴스에 패키지 생성 사용권 계약을 확인하십시오.
 * 전용 인스턴스(또는 클러스터)는 Adobe Campaign 인스턴스이므로, 권장 사항은 기본 인스턴스와 동일합니다. 자세한 내용은 [이 문서](../../production/using/foreword.md).

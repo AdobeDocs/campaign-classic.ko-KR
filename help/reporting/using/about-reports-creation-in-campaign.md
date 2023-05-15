@@ -2,9 +2,11 @@
 product: campaign
 title: 보고서를 만드는 주요 단계
 description: 보고서를 만드는 주요 단계를 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -13,7 +15,7 @@ ht-degree: 0%
 
 # 보고서를 만드는 주요 단계{#key-steps-to-create-a-report}
 
-![](../../assets/common.svg)
+
 
 Campaign 데이터베이스에서 데이터에 대한 통계를 생성하기 위해 보고서를 만들고 필요에 따라 콘텐츠와 레이아웃을 조정할 수 있습니다. 이러한 보고서는 다른 연산자와 공유할 수 있습니다.
 

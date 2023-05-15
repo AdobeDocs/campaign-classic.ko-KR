@@ -2,9 +2,11 @@
 product: campaign
 title: Campaign에서 게재 기능 시작
 description: 게재 가능성 모범 사례 학습
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 8%
@@ -13,7 +15,7 @@ ht-degree: 8%
 
 # 전달성의 정의{#about-deliverability}
 
-![](../../assets/common.svg)
+
 
 게재 기능을 사용하면 바운스 방지 또는 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달하는 캠페인의 성공을 측정할 수 있습니다. [게재가 중요한 이유 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
 
@@ -31,7 +33,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->ISP는 스팸 메일로부터 고객을 보호하기 위해 새로운 정교한 필터링 기술을 지속적으로 개발해야 하므로, 이메일 게재 기능은 항상 변경되는 기준 및 규칙을 제공하는 것을 특징으로 합니다. 를 참조하는지 확인합니다. [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) 정기적으로 업데이트 됩니다.
+>ISP는 스팸 메일로부터 고객을 보호하기 위해 새로운 정교한 필터링 기술을 지속적으로 개발해야 하므로, 이메일 게재 기능은 항상 변경되는 기준 및 규칙을 제공하는 것을 특징으로 합니다. 를 참조하는지 확인합니다. [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko) 정기적으로 업데이트 됩니다.
 
 ### 게재 가능성 비율
 

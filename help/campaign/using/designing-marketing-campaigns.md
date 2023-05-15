@@ -2,18 +2,18 @@
 product: campaign
 title: 마케팅 캠페인 디자인 및 실행
 description: 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '443'
+ht-degree: 22%
 
 ---
 
 # 마케팅 캠페인 디자인 및 실행{#designing-marketing-campaigns}
 
-![](../../assets/v7-only.svg)
 
 Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. Adobe Campaign은 마케팅 전략을 위한 통합 주문 및 실행 센터 역할을 합니다. 자세한 내용은 [캠페인 액세스](../../distributed/using/accessing-campaigns.md) 및 [마케팅 캠페인 만들기](../../campaign/using/setting-up-marketing-campaigns.md).
 

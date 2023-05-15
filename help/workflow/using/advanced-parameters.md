@@ -2,18 +2,19 @@
 product: campaign
 title: 고급 매개 변수
 description: 고급 매개 변수
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # 고급 매개 변수{#advanced-parameters}
 
-![](../../assets/v7-only.svg)
+
 
 활동의 속성 화면에는 **[!UICONTROL Advanced]** 오류가 발생하는 경우 해당 활동의 실행 기간, 활동을 실행할 수 있는 탭을 정의할 수 있습니다. 및 을 사용하여 초기화 스크립트를 입력할 수 있습니다. 이 탭에는 다음 두 가지 버전이 있습니다.
 
@@ -45,14 +46,14 @@ ht-degree: 2%
 * **[!UICONTROL Do not activate]**: 이 작업과 다음 작업(동일한 분기에 있음)이 모두 실행되지 않습니다.
 * **[!UICONTROL Activate but do not execute]**: 이 작업과 다음 작업(동일한 분기에 있음)이 자동으로 중지됩니다. 이 기능은 작업이 시작될 때 해당 위치에 있기를 원하는 경우 유용합니다. 작업을 수동으로 실행하려면 활동을 마우스 오른쪽 단추로 클릭하고 을 선택합니다 **[!UICONTROL Normal execution]**.
 
-## 친화성 {#affinity}
+## 선호도 {#affinity}
 
 특정 컴퓨터에서 워크플로우 또는 워크플로우 활동을 강제로 실행하도록 선택할 수 있습니다. 이를 수행하려면 워크플로우 또는 관련 활동 수준에서 하나 이상의 자산을 정의해야 합니다.
 
 고가용성 워크플로우 구성에 대해서는 [섹션](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
 
 
-## 맥스 실행 기간 {#max--execution-period}
+## 최대. 실행 기간 {#max--execution-period}
 
 이 필드를 사용하면 작업이 너무 오래 걸리는 경우에 대한 경고를 설정할 수 있습니다. 워크플로우 작업에는 영향을 주지 않습니다. 작업이 시간 내에 완료되지 않으면 **[!UICONTROL Max. execution period]** 다 끝났어 **[!UICONTROL Instance monitoring]** 페이지에 이 워크플로우에 대한 경고가 표시됩니다. 이 페이지는 **[!UICONTROL Monitoring]** 홈 페이지의 탭.
 

@@ -2,20 +2,21 @@
 product: campaign
 title: Sybase IQ 액세스 구성
 description: FDA에서 Sybase IQ 액세스를 구성하는 방법을 배웁니다.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0fdf8259-5cab-4a9d-adb3-6c55ec5c8851
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Sybase IQ 액세스 구성 {#configure-access-to-sybase-iq}
 
-![](../../assets/v7-only.svg)
+
 
 캠페인 사용 **페더레이션 데이터 액세스** (FDA) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. 아래 절차에 따라 Sybase IQ 액세스를 구성합니다.
 
@@ -76,7 +77,7 @@ Sybase IQ 외부 계정을 사용하면 Campaign 인스턴스를 Sybase IQ 외�
 
 1. 를 구성하려면 **[!UICONTROL Sybase IQ]** 외부 계정입니다. 다음을 지정해야 합니다.
 
-   * **[!UICONTROL Type]**: ODBC(Sybase ASE, Sybase IQ)
+   * **[!UICONTROL Type]**: ODBC (Sybase ASE, Sybase IQ)
 
    * **[!UICONTROL Server]**: ODBC 연결에 해당합니다(`<server_alias>`)에 정의된 횟수 5단계에서 반드시 서버 자체의 이름일 필요는 없습니다.
 

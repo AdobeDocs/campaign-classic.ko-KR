@@ -2,9 +2,10 @@
 product: campaign
 title: 집계 업데이트
 description: 업데이트 집계 워크플로우 활동에 대해 자세히 알아보십시오
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 3%
@@ -13,7 +14,7 @@ ht-degree: 3%
 
 # 집계 업데이트{#update-aggregate}
 
-![](../../assets/v7-only.svg)
+
 
 집계는 보고를 위해 큐브 수준에서 정의됩니다. A **[!UICONTROL Workflow]** 합계를 구성할 때 탭을 사용할 수 있습니다.
 

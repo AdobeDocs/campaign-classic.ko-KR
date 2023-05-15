@@ -2,8 +2,9 @@
 product: campaign
 title: 스키마 참조
 description: 스키마 참조 목록
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 21%
@@ -11,8 +12,6 @@ ht-degree: 21%
 ---
 
 # 스키마 참조 {#schema-reference}
-
-![](../../assets/v7-only.svg)
 
 스키마를 편집할 때 소스 스키마(xtk:srcSchema)를 기반으로 하는 승인 시스템을 사용할 수 있습니다. &quot;데이터베이스 구조 업데이트..&quot;를 사용하여 데이터베이스를 업데이트할 때도 일부 오류를 찾을 수 있습니다. 마법사
 

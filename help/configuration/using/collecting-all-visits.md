@@ -2,8 +2,9 @@
 product: campaign
 title: 모든 방문 수집
 description: 모든 방문 수집
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 3%
@@ -11,8 +12,6 @@ ht-degree: 3%
 ---
 
 # 모든 방문 수집{#collecting-all-visits}
-
-![](../../assets/v7-only.svg)
 
 Adobe Campaign에서 제공하는 웹 추적 모듈을 사용하면 메시지의 클릭 후 사이트 추적 컨텍스트에서 수신자가 수행한 사이트의 특정 페이지에 대한 방문을 수집할 수 있습니다.
 

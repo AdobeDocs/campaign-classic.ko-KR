@@ -2,17 +2,18 @@
 product: campaign
 title: 웹 추적 모드
 description: 웹 추적 모드를 선택하는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 웹 추적 모드{#web-tracking-mode}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign을 사용하면 추적 로그가 애플리케이션에서 처리되는 방식을 정의하는 웹 추적 모드를 선택할 수 있습니다.
 
@@ -49,7 +50,7 @@ Adobe Campaign을 사용하면 추적 로그가 애플리케이션에서 처리�
 
 이 모드에서는 세션 쿠키가 있는 사람에 대한 추적 로그가 만들어집니다. Adobe Campaign에서 보낸 이메일에서 URL을 클릭한 사람들이므로 다음 정보를 추적할 수 있습니다.
 
-* 배달 ID
+* 게재 ID
 * 연락처 ID
 * 게재 로그
 * 영구 쿠키(uuid230)

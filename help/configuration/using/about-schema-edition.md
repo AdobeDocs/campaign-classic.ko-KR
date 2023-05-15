@@ -2,9 +2,10 @@
 product: campaign
 title: 스키마 편집 정보
 description: 스키마 에디션 시작
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Schema Extension
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 7%
@@ -12,8 +13,6 @@ ht-degree: 7%
 ---
 
 # 스키마 편집 정보{#about-schema-edition}
-
-![](../../assets/v7-only.svg)
 
 Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 
@@ -60,7 +59,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 열거형에 대한 자세한 내용은 [열거형](../../configuration/using/schema-structure.md#enumerations) 및 [`<enumeration>` 요소](../../configuration/using/schema/enumeration.md) 섹션에 자세히 설명되어 있습니다.
 
-## 인덱스 {#index}
+## 색인 {#index}
 
 인덱스는 스키마의 기본 요소에 선언된 첫 번째 요소입니다.
 

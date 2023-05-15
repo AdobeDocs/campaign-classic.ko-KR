@@ -2,8 +2,9 @@
 product: campaign
 title: 추가 SQL 함수 추가
 description: 추가 SQL 함수를 정의하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 0%
@@ -11,8 +12,6 @@ ht-degree: 0%
 ---
 
 # 추가 SQL 함수 정의{#adding-additional-sql-functions}
-
-![](../../assets/v7-only.svg)
 
 Adobe Campaign을 사용하면 사용자가 **자신의 기능** 데이터베이스에서 제공하는 함수와 콘솔에서 아직 사용할 수 없는 함수 모두 SQL 함수에 액세스할 수 있습니다. 이 기능은 예를 들어 집계 함수(평균, 최대, 합계)에 유용합니다. 집계 함수는 서버에서만 계산되거나 데이터베이스가 콘솔에 표현식을 &quot;수동으로&quot; 기록하지 않고 특정 기능을 보다 쉽게 구현할 수 있는 경우에 유용합니다(예: 날짜 관리).
 

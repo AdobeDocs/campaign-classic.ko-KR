@@ -2,9 +2,11 @@
 product: campaign
 title: 게재 전송 문제 해결
 description: 게재 성능 및 게재 모니터링과 관련된 문제를 해결하는 방법에 대해 자세히 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 1%
@@ -13,7 +15,7 @@ ht-degree: 1%
 
 # 게재 전송 문제 해결 {#delivery-troubleshooting}
 
-![](../../assets/common.svg)
+
 
 이 섹션에는 게재를 보낼 때 발생할 수 있는 일반적인 문제와 이러한 문제를 해결하는 방법이 나와 있습니다.
 

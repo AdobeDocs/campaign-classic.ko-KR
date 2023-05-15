@@ -2,11 +2,12 @@
 product: campaign
 title: 워크플로우를 통해 오퍼 통합
 description: 워크플로우를 통해 오퍼 통합
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 # 워크플로우를 통해 오퍼 통합{#integrating-an-offer-via-a-workflow}
 
-![](../../assets/v7-only.svg)
+
 
 게재 활동 자체 외에, 몇 가지 워크플로우 활동을 통해 오퍼를 표시하는 방식을 정의할 수 있습니다.
 
@@ -47,7 +48,7 @@ ht-degree: 3%
 
    ![](assets/int_compo_offre_wf1.png)
 
-## 데이터 보강 {#enrichment}
+## 보강 {#enrichment}
 
 데이터 보강 활동을 통해 게재 수신자를 위한 오퍼에 오퍼나 링크를 추가할 수 있습니다.
 

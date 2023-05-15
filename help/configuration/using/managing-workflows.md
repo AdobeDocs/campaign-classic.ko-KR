@@ -2,11 +2,13 @@
 product: campaign
 title: 워크플로우 관리
 description: 워크플로우 관리
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 617b0050-6b04-4c68-9f63-511baae99f41
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 4%
@@ -15,7 +17,7 @@ ht-degree: 4%
 
 # 워크플로우 관리{#managing-workflows}
 
-![](../../assets/common.svg)
+
 
 기본적으로 새 워크플로우는 수신자 테이블(nms:recipient)을 기반으로 사전 구성된 워크플로우 템플릿을 기반으로 합니다. 이러한 수신자가 **Nms_DefaultRcpSchema** 옵션(참조) [인터페이스 구성](../../configuration/using/configuring-the-interface.md) 섹션)에서 새 워크플로우 템플릿을 만들어야 합니다.
 

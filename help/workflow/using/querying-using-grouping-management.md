@@ -2,9 +2,10 @@
 product: campaign
 title: 그룹 관리를 사용한 쿼리
 description: 그룹 관리를 사용하여 쿼리를 수행하는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Query Editor
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 4%
@@ -13,7 +14,7 @@ ht-degree: 4%
 
 # 그룹 관리를 사용한 쿼리 {#querying-using-grouping-management}
 
-![](../../assets/v7-only.svg)
+
 
 이 예제에서는 쿼리를 실행하여 이전 게재 동안 30번 이상 타겟팅된 모든 이메일 도메인을 검색하려고 합니다.
 

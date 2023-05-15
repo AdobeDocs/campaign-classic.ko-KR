@@ -1,19 +1,20 @@
 ---
 product: campaign
-title: 워크플로우 속성
+title: 워크플로 속성
 description: Campaign 워크플로우 속성에 대해 자세히 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 1%
+ht-degree: 38%
 
 ---
 
-# 워크플로우 속성{#workflow-properties}
+# 워크플로 속성{#workflow-properties}
 
-![](../../assets/v7-only.svg)
+
 
 ## 실행 탭 {#execution-tab}
 
@@ -37,17 +38,17 @@ ht-degree: 1%
 
 * **[!UICONTROL Default affinity]**
 
-   설치에 여러 워크플로우 서버가 포함된 경우 이 필드를 사용하여 워크플로우를 실행할 시스템을 선택합니다. 이 필드에 정의된 값이 서버에 없는 경우 워크플로우는 보류 중인 상태로 유지됩니다.
+   설치에 여러 워크플로 서버가 포함된 경우 이 필드를 사용하여 워크플로를 실행할 컴퓨터를 선택하십시오. 이 필드에 정의된 값이 어떤 서버에도 존재하지 않는 경우 워크플로는 보류 상태로 유지됩니다.
 
    다음을 참조하십시오 [Campaign Classic v7 설치 안내서](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
 
 * **[!UICONTROL History in days]**
 
-   데이터베이스의 작업 테이블은 실행 기록(작업, 이벤트, 로그)을 유지합니다. 여기에서 이 워크플로우에 보관할 일 수를 정의할 수 있습니다. 정리 프로세스는 하루에 한 번 가장 오래된 아카이브를 삭제합니다. 이 필드의 값이 0이면 보관 파일은 삭제되지 않습니다.
+   데이터베이스의 작업 테이블은 실행 기록(작업, 이벤트, 로그)을 유지합니다. 여기에서 이 워크플로에 대해 보관할 일 수를 정의할 수 있습니다. 정리 프로세스는 하루에 한 번 가장 오래된 아카이브를 삭제합니다. 이 필드의 값이 0이면 아카이브가 삭제되지 않습니다.
 
 * **[!UICONTROL Log SQL queries in the journal]**
 
-   이 기능은 고급 사용자를 위해 예약되어 있습니다. 타겟팅 활동(쿼리, 결합, 교집합 등)이 포함된 워크플로우와 관련이 있습니다. 이 옵션을 선택하면 워크플로우 실행 중에 데이터베이스로 전송된 SQL 쿼리가 Adobe Campaign에 표시됩니다. 즉, 쿼리를 분석하여 쿼리를 최적화하거나 문제를 진단할 수 있습니다.
+   이 기능은 고급 사용자용으로 예약되어 있습니다. 타겟팅 활동(쿼리, 통합, 교차 등)을 포함하는 워크플로와 연계되어 있습니다. 이 옵션을 선택하면 워크플로 실행 중에 데이터베이스로 전송된 SQL 쿼리가 Adobe Campaign에 표시됩니다. 즉, 이를 분석하여 쿼리를 최적화하거나 문제를 진단할 수 있습니다.
 
    쿼리는 **[!UICONTROL SQL logs]** 워크플로우(캠페인 워크플로우 제외)와 **[!UICONTROL Properties]** 활동 을 설정하는 것이 좋습니다. 다음 **[!UICONTROL Audit]** 탭에는 SQL 쿼리도 포함되어 있습니다.
 
@@ -61,14 +62,14 @@ ht-degree: 1%
 
 * **[!UICONTROL Troubleshooting]**
 
-   이 필드에서는 워크플로우 작업에 오류가 있을 경우 수행할 작업을 정의할 수 있습니다. 다음 두 가지 옵션을 사용할 수 있습니다.
+   이 필드를 사용하면 워크플로 작업에 오류가 있는 경우 수행할 작업을 정의할 수 있습니다. 다음 두 가지 옵션을 사용할 수 있습니다.
 
    * **[!UICONTROL Stop the process]**: 워크플로우는 자동으로 일시 중지됩니다. 워크플로우 상태가 **[!UICONTROL Failed]**. 문제가 해결되면 다음을 사용하여 워크플로우를 다시 시작합니다 **[!UICONTROL Start]** 또는 **[!UICONTROL Restart]** 단추.
-   * **[!UICONTROL Ignore]**: 오류를 트리거한 작업의 상태가 **[!UICONTROL Failed]**&#x200B;하지만 워크플로우는 **[!UICONTROL Started]** 상태. 이 구성은 반복 작업에 관련되어 있습니다. 분기에 스케줄러가 포함되어 있으면 워크플로우가 다음에 실행될 때 정상적으로 시작됩니다.
+   * **[!UICONTROL Ignore]**: 오류를 트리거한 작업의 상태가 **[!UICONTROL Failed]**&#x200B;하지만 워크플로우는 **[!UICONTROL Started]** 상태. 이 구성은 반복 작업과 관련되어 있습니다. 분기에 스케줄러가 포함되어 있으면 다음에 워크플로가 실행될 때 정상적으로 시작됩니다.
 
 * **[!UICONTROL Consecutive errors]**
 
-   이 필드는 **[!UICONTROL Ignore]** 값이 **[!UICONTROL In case of errors]** 필드. 프로세스가 중지되기 전에 무시할 수 있는 오류 수를 지정할 수 있습니다. 이 수에 도달하면 워크플로우 상태가 **[!UICONTROL Failed]**. 이 필드의 값이 0이면 오류 개수와 관계없이 워크플로우는 중지되지 않습니다.
+   이 필드는 **[!UICONTROL Ignore]** 값이 **[!UICONTROL In case of errors]** 필드. 프로세스가 중지되기 전에 무시할 수 있는 오류 수를 지정할 수 있습니다. 이 수에 도달하면 워크플로우 상태가 **[!UICONTROL Failed]**. 이 필드의 값이 0인 경우 오류 수에 관계없이 워크플로가 중지되지 않습니다.
 
 * **[!UICONTROL Template]**
 

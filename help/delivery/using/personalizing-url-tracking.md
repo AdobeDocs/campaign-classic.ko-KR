@@ -2,9 +2,11 @@
 product: campaign
 title: URL 추적 옵션 구성
 description: URL 추적 옵션을 구성하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email Design
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 9%
@@ -13,7 +15,7 @@ ht-degree: 9%
 
 # URL 추적 옵션 구성{#personalizing-url-tracking}
 
-![](../../assets/common.svg)
+
 
 고급 메시지 추적 설정은 **[!UICONTROL Tracking & Images]** 아이콘을 클릭합니다.
 

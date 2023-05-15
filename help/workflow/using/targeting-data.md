@@ -2,9 +2,10 @@
 product: campaign
 title: 데이터 타겟팅
 description: 워크플로우에서 데이터 타겟팅에 대해 자세히 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Query Editor, Data Management
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1924'
 ht-degree: 4%
@@ -13,7 +14,7 @@ ht-degree: 4%
 
 # 타겟 데이터{#targeting-data}
 
-![](../../assets/v7-only.svg)
+
 
 ## 쿼리 만들기 {#creating-queries}
 

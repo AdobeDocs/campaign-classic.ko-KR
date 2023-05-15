@@ -2,18 +2,19 @@
 product: campaign
 title: 워크플로우 실행 모니터링
 description: 워크플로우 실행 모니터링
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2016'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # 워크플로우 실행 모니터링 {#monitoring-workflow-execution}
 
-![](../../assets/v7-only.svg)
+
 
 이 섹션에서는 워크플로우의 실행을 모니터링하는 방법에 대한 정보를 제공합니다.
 
@@ -131,7 +132,7 @@ Adobe Campaign 탐색기에서 워크플로우 목록에 **[!UICONTROL Failed]**
 
 ![](assets/wf-notification_error-console.png)
 
-오류가 발생할 경우 워크플로우를 일시 중지하지 않고 계속 실행하도록 구성할 수 있습니다. 이렇게 하려면 워크플로우를 편집합니다 **[!UICONTROL Properties]** 그리고 **[!UICONTROL Error management]** 섹션에서 **[!UICONTROL Ignore]** 옵션 **[!UICONTROL In case of error]** 필드. 그런 다음 프로세스가 일시 중지되기 전에 무시할 수 있는 연속 오류 수를 지정할 수 있습니다.
+오류 발생 시 실행을 일시 중지하지 않고 계속하도록 워크플로를 구성할 수 있습니다. 이렇게 하려면 워크플로우를 편집합니다 **[!UICONTROL Properties]** 그리고 **[!UICONTROL Error management]** 섹션에서 **[!UICONTROL Ignore]** 옵션 **[!UICONTROL In case of error]** 필드. 그런 다음에는 프로세스가 일시 중지되기 전에 무시할 수 있는 연속 오류 수를 지정할 수 있습니다.
 
 이 경우 오류 작업이 중단됩니다. 이 모드는 나중에 캠페인을 다시 시도하도록 디자인된 워크플로우(주기적 작업)에 특히 적합합니다.
 

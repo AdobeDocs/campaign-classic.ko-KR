@@ -2,20 +2,21 @@
 product: campaign
 title: 추가 데이터
 description: 추가 데이터
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 추가 데이터{#additional-data}
 
-![](../../assets/v7-only.svg)
+
 
 상호 작용 엔진에 대한 호출 동안 상황별 추가 정보를 전송할 수 있습니다. 이 데이터는 워크플로우(아웃바운드 채널)의 작업 테이블에 저장된 타겟 데이터 또는 호출(인바운드 채널) 중에 웹 사이트에서 보낸 호출 데이터에서 가져올 수 있습니다. 이 추가 데이터를 자격 규칙, 오퍼 개인화에서 사용할 수 있으며, 제안 테이블에 저장할 수도 있습니다.
 

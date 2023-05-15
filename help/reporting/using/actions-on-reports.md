@@ -2,9 +2,11 @@
 product: campaign
 title: 보고서에 대한 작업
 description: 보고서에 대한 작업
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
-source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 3%
@@ -13,7 +15,7 @@ ht-degree: 3%
 
 # 보고서에 대한 작업{#actions-on-reports}
 
-![](../../assets/common.svg)
+
 
 보고서를 볼 때 도구 모음에서 특정 수의 작업을 수행할 수 있습니다. 다음은 아래에 자세히 설명되어 있습니다.
 

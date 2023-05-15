@@ -2,18 +2,18 @@
 product: campaign
 title: Adobe Campaign Classic 데이터 모델 설명
 description: 이 문서에서는 Adobe Campaign 데이터 모델에 대해 설명합니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Data Model
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2374'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # Campaign 데이터 모델 설명{#data-model-description}
 
-![](../../assets/v7-only.svg)
 
 Adobe Campaign은 사전 정의된 데이터 모델을 제공합니다. 이 섹션에서는 Adobe Campaign 데이터 모델의 기본 제공 테이블과 상호 작용에 대한 세부 사항을 제공합니다.
 
@@ -180,9 +180,9 @@ Adobe Campaign에서 정보 서비스(항목) 구독을 만들고 관리할 수 
 * 제어 그룹의 응답률: **dProofResponseRate**. 가설 제어 그룹의 응답률입니다.
 * 연락된 모집단 총 매출액: **dContactResponseTotalAmount**. 가설을 통해 타겟팅된 연락처의 총 매출액.
 * 통제 그룹의 평균 매출: **dContactResponseAvgAmount**. 가설 내의 타깃팅된 컨트롤 그룹 연락처의 평균 수입입니다.
-* 컨트롤 그룹의 총 매출액: **dProofResponseTotalAmount**. 가설 제어 그룹의 총 매출액.
+* 컨트롤 그룹의 총 매출액: **dProofResponseTotalAmount**. 가설 컨트롤 그룹의 총 수익.
 * 통제 그룹의 평균 매출: **dProofResponseAvgAmount**. 가설 제어 그룹의 평균 수입입니다.
-* 연락처당 총 마진 수: **dContactResponseTotalMargin**. 가설을 대상으로 한 연락처당 총 마진 수.
+* 연락처당 총 마진 수: **dContactResponseTotalMargin**. 가설에서 타겟팅된 연락처당 총 이익.
 * 연락처당 평균 마진: **dContactResponseAvgMargin**. 가설을 표적으로 한 접촉당 평균 마진.
 * 컨트롤 그룹의 총 여백: **dProofResponseTotalMargin**. 가설을 대상으로 하는 컨트롤 그룹의 총 여백입니다.
 * 컨트롤 그룹의 평균 여백: **dProofResponseAvgMargin**. 가설을 대상으로 하는 컨트롤 그룹의 평균 여백입니다.

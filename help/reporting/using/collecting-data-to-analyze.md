@@ -2,18 +2,19 @@
 product: campaign
 title: 분석 대상 데이터 수집
 description: 분석 대상 데이터 수집
+badge: label="v7" type="유익함" tooltip="Campaign Classic v7에만 적용"
 feature: Reporting
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '514'
 ht-degree: 3%
 
 ---
 
 # 분석 대상 데이터 수집{#collecting-data-to-analyze}
 
-![](../../assets/common.svg)
+
 
 보고서 작성에 사용할 데이터는 보고서 페이지에서 직접 선택할 수 있습니다(자세한 내용은 다음을 참조하십시오 [컨텍스트 사용](../../reporting/using/using-the-context.md)) 또는 하나 이상의 쿼리를 통해 수집됩니다.
 

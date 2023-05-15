@@ -2,9 +2,11 @@
 product: campaign
 title: 차트 만들기
 description: 차트를 디자인하는 방법 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 3%
@@ -13,7 +15,7 @@ ht-degree: 3%
 
 # 차트 만들기{#creating-a-chart}
 
-![](../../assets/common.svg)
+
 
 데이터베이스의 데이터를 수집하여 차트에 표시할 수도 있습니다. Adobe Campaign에서는 그래픽 표현 세트를 제공합니다. 구성은 아래에 자세히 설명되어 있습니다.
 

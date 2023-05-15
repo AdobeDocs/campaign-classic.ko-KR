@@ -2,9 +2,10 @@
 product: campaign
 title: 게재 개요
 description: 게재 개요 워크플로우 활동에 대해 자세히 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 # 게재 개요{#delivery-outline}
 
-![](../../assets/v7-only.svg)
+
 
 다음 **게재 개요** campaign 워크플로우에서 아웃라인을 사용할 수 있습니다. 미리 캠페인에 윤곽이 만들어졌음에 틀림없다.
 

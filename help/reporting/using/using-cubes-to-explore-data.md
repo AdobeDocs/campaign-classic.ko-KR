@@ -2,11 +2,13 @@
 product: campaign
 title: 큐브로 데이터 탐색
 description: 큐브로 데이터 탐색
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 hide: true
 hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 2%
@@ -15,7 +17,7 @@ ht-degree: 2%
 
 # 큐브로 데이터 탐색{#using-cubes-to-explore-data}
 
-![](../../assets/common.svg)
+
 
 Marketing Analytics를 사용하면 보고서를 더 쉽게 만들고 큐브를 통해 데이터베이스에서 데이터를 식별하고 선택할 수 있습니다. 이를 통해 다음을 수행할 수 있습니다.
 

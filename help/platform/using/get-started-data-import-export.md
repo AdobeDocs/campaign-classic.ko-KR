@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: 데이터 가져오기 및 내보내기 시작
-description: Campaign Classic에서 데이터 가져오기 및 내보내기에 대해 자세히 알아보십시오.
+description: Campaign에서 데이터 가져오기 및 내보내기에 대해 자세히 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 11%
+source-wordcount: '325'
+ht-degree: 12%
 
 ---
 
 # 데이터 가져오기 및 내보내기 시작 {#get-started-data-import-export}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign Classic은 데이터를 가져오고 내보낼 수 있는 데이터 관리 기능을 제공합니다. 이러한 작업은 워크플로우나 일반 가져오기 및 내보내기를 사용하여 수행할 수 있습니다.
 
@@ -23,7 +25,7 @@ Adobe Campaign Classic은 데이터를 가져오고 내보낼 수 있는 데이�
 >
 >이 기능을 사용하는 동안 Adobe Campaign 계약에 따라 SFTP 저장소, 데이터베이스 저장소 및 활성 프로필 제한을 기억하십시오.
 
-## 워크플로우 {#workflows}
+## 워크플로 {#workflows}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 

@@ -2,20 +2,21 @@
 product: campaign
 title: 서버 구성 파일
 description: 서버 구성 파일
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '7979'
-ht-degree: 19%
+ht-degree: 40%
 
 ---
 
 # 서버 구성 파일{#the-server-configuration-file}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 있음 **conf** 설치 디렉토리의 디렉토리입니다. 이 섹션에는 **serverConf.xml** 파일.
 
@@ -48,7 +49,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 * [보관](#archiving)
 * [inMail](#inmail)
 * [상호 작용](#interactiond)
-* [mta](#mta)
+* [MTA](#mta)
 * [nmac](#nmac)
 * [파이프라인](#pipelined)
 * [복구](#repair)
@@ -68,7 +69,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -77,7 +78,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
  <tbody> 
   <tr> 
    <td> checkIPConsistent<br /> </td> 
-   <td> IP 주소 확인을 사용하도록 설정합니다.<br /> </td> 
+   <td> IP 주소 확인 활성화.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -103,7 +104,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <td> sessionCacheSec<br /> </td> 
    <td> 캐시 기간: 세션 정보의 캐시(초)입니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 600년<br /> </td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> sessionTimeOutSec<br /> </td> 
@@ -121,7 +122,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -130,7 +131,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
  <tbody> 
   <tr> 
    <td> internalPassword<br /> </td> 
-   <td> 내부 계정의 암호.<br /> </td> 
+   <td> 내부 계정 암호.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -150,7 +151,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -173,7 +174,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <td> formCacheTimeToLive<br /> </td> 
    <td> 양식 캐시 만료 지연: 캐시 항목이 무효화된 후 시간 초과(초)입니다. 즉, 캐시 항목은 게시 시에만 새로 고침됩니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 600년<br /> </td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> 호스트<br /> </td> 
@@ -185,7 +186,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <td> interactionCacheTimeToLive<br /> </td> 
    <td> 상호 작용 JSSP 캐시 만료 지연: 캐시 항목이 무효화된 후 시간 초과(초)입니다. 음수 값은 캐시가 항상 무효화됨을 의미합니다. '0', 비어 있거나 잘못된 값은 60으로 간주됩니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 300년<br /> </td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> lang<br /> </td> 
@@ -201,7 +202,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   </tr> 
   <tr> 
    <td> uploadAllowlist<br /> </td> 
-   <td> ','로 다운로드할 권한이 있는 파일입니다. 문자열은 유효한 정규 Java 표현식이어야 합니다. 자세한 내용은 <a href="file-res-management.md" target="_blank">업로드 가능한 파일 제한</a>.<br /> </td> 
+   <td> 다운로드할 승인된 파일은 ','로 구분됨. 문자열은 유효한 Java 정규 표현식이어야 합니다. 자세한 내용은 <a href="file-res-management.md" target="_blank">업로드 가능한 파일 제한</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '.+' <br /> </td> 
   </tr> 
@@ -213,19 +214,19 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   </tr> 
   <tr> 
    <td> vaultSecretPath<br /> </td> 
-   <td> 저장소의 암호 경로<br /> </td> 
+   <td> 자격 증명 모음의 암호 경로<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '/v1/secret/campaign/'<br /> </td> 
   </tr> 
   <tr> 
    <td> vaultTokenPath<br /> </td> 
-   <td> 저장소 토큰이 포함된 파일의 로컬 경로입니다. $(HOME)는 이 경로에서 사용할 수 있지만 다른 env 변수는 사용할 수 없습니다.<br /> </td> 
+   <td> 자격 증명 모음 토큰이 포함된 파일의 로컬 경로. $(HOME)는 이 경로에서 사용할 수 있지만 다른 env 변수는 사용할 수 없습니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '$(HOME)/.vaulttoken'<br /> </td> 
   </tr> 
   <tr> 
    <td> vaultUrl<br /> </td> 
-   <td> Hashicorp 자격 증명 모음 URL <br /> </td> 
+   <td> Hashicorp Vault URL <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -233,11 +234,11 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <td> viewCacheTimeToLive<br /> </td> 
    <td> 뷰 캐시의 유효 기간: 캐시 항목이 무효화된 후 시간 초과(초)입니다. 음수 값은 캐시가 항상 무효화됨을 의미합니다. '0', 비어 있거나 잘못된 값은 60으로 간주됩니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 600년<br /> </td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> workingDirectory<br /> </td> 
-   <td> 작업 디렉터리의 XPath입니다.<br /> </td> 
+   <td> 작업 디렉터리의 XPath.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> workingDirectory : 작업 디렉터리의 XPath입니다. 기본값: '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/workspace/'<br /> </td> 
   </tr> 
@@ -246,12 +247,12 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 
 ### proxyAdjust {#proxyadjust}
 
-다음은 의 다양한 매개 변수입니다 **dataStore > proxyAdjust** 노드 아래에 있어야 합니다. 정규 표현식과 일치하는 URL은 urlBase에 정의된 URL을 기반으로 다시 생성됩니다.
+다음은 의 다양한 매개 변수입니다 **dataStore > proxyAdjust** 노드 아래에 있어야 합니다. 정규 표현식과 일치하는 URL은 urlBase에 정의된 URL을 기반으로 재생성됨.
 
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
   </tr> 
@@ -259,12 +260,12 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
  <tbody> 
   <tr> 
    <td> urlBase<br /> </td> 
-   <td> 외부 URL을 생성할 때 사용할 기본 URL입니다. 예: https://server.domain.com<br /> </td> 
+   <td> 외부 URL 생성 시 사용할 기본. 예: https://server.domain.com<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
-   <td> URL과 일치하는 정규 표현식입니다. 예: http://server\.lan\.net.*<br /> </td> 
+   <td> URL과 일치하는 정규 표현식. 예: http://server\.lan\.net.*<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
  </tbody> 
@@ -277,7 +278,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -298,7 +299,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값<br /> </th> 
@@ -307,7 +308,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
  <tbody> 
   <tr> 
    <td> 엔씨하<br /> </td> 
-   <td> 유니코드 저장소<br /> </td> 
+   <td> 유니코드 스토리지<br /> </td> 
    <td> 부울<br /> </td> 
    <td> </td> 
   </tr> 
@@ -373,7 +374,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
   </tr> 
@@ -392,7 +393,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
   </tr> 
@@ -405,17 +406,17 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   </tr> 
   <tr> 
    <td> freeCnx<br /> </td> 
-   <td> 풀에 남아 있는 무료 연결 수입니다.<br /> </td> 
+   <td> 풀에 보관된 무료 연결 수.<br /> </td> 
    <td> 짧음<br /> </td> 
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
-   <td> 새 연결을 거부하기 전에 허용되는 최대 연결 수입니다. 다음 보기 <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">기술 정보</a>.<br /> </td> 
+   <td> 새 연결을 거부하기 이전에 허용된 최대 연결 수. 다음 보기 <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">기술 정보</a>.<br /> </td> 
    <td> 짧음<br /> </td> 
   </tr> 
   <tr> 
    <td> maxIdleDelaySec<br /> </td> 
-   <td> 최대 연결 유휴 시간입니다. 0은 기본값을 의미합니다.<br /> </td> 
+   <td> 최대 연결 유휴 시간. 0은 기본값을 의미함.<br /> </td> 
    <td> 짧음<br /> </td> 
   </tr> 
  </tbody> 
@@ -430,7 +431,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
   </tr> 
@@ -464,7 +465,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
   </tr> 
@@ -504,7 +505,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -525,7 +526,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   </tr> 
   <tr> 
    <td> 다시 시도<br /> </td> 
-   <td> DNS 쿼리에 대한 다시 시도 횟수입니다.<br /> </td> 
+   <td> DNS 쿼리의 재시도 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
@@ -533,7 +534,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <td> 시간 제한<br /> </td> 
    <td> DNS 쿼리에 대한 시간 제한(밀리초)입니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 5000년<br /> </td> 
+   <td> 5000<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -561,7 +562,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
   </tr> 
@@ -574,7 +575,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   </tr> 
   <tr> 
    <td> 사용자<br /> </td> 
-   <td> 다른 사용자로 명령을 실행합니다.<br /> </td> 
+   <td> 다른 사용자로 명령 실행.<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
  </tbody> 
@@ -587,7 +588,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -602,7 +603,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   </tr> 
   <tr> 
    <td> maxProcessusCount<br /> </td> 
-   <td> 맥스 한 컴퓨터에서 한 번에 허용되는 전환 프로세스 수입니다.<br /> </td> 
+   <td> 최대. 한 컴퓨터에서 한 번에 허용되는 전환 프로세스 수입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -616,7 +617,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <td> 시간 제한<br /> </td> 
    <td> 전환 시간 제한: 최대 전환 시간(초)입니다. 이 임계값을 벗어나면 변환 프로세스가 중지되고 오류가 발생합니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 120년<br /> </td> 
+   <td> 120<br /> </td> 
   </tr> 
   <tr> 
    <td> 자세한 정보<br /> </td> 
@@ -646,7 +647,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -661,13 +662,13 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   </tr> 
   <tr> 
    <td> authIMSClientSecret<br /> </td> 
-   <td> 비밀 키(AES에서 암호화됨)<br /> </td> 
+   <td> 암호 키(AES로 암호화)<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> authIMSCode<br /> </td> 
-   <td> 인증 코드(AES에서 암호화됨)<br /> </td> 
+   <td> 인증 코드(AES로 암호화)<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -685,7 +686,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   </tr> 
   <tr> 
    <td> authIMSTAClientSecret<br /> </td> 
-   <td> 기술 계정 암호 키(AES에서 암호화)<br /> </td> 
+   <td> 기술 계정 암호 키(AES로 암호화)<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -697,7 +698,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   </tr> 
   <tr> 
    <td> authIMSTAPribateKey<br /> </td> 
-   <td> 기술 계정 개인 키(AES에서 암호화됨)<br /> </td> 
+   <td> 기술 계정 비공개 키(AES로 암호화)<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -713,7 +714,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -724,7 +725,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
    <td> maxMB<br /> </td> 
    <td> 가비지 수집기를 실행하기 전에 최대 크기(MB)입니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 512년 <br /> </td> 
+   <td> 512 <br /> </td> 
   </tr> 
   <tr> 
    <td> stackSizeKB<br /> </td> 
@@ -742,7 +743,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -757,9 +758,9 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   </tr> 
   <tr> 
    <td> mxPort<br /> </td> 
-   <td> 전자 메일 전송에 사용되는 SMTP 서버의 TCP 포트입니다.<br /> </td> 
+   <td> 이메일 전송에 사용되는 SMTP 서버의 TCP 포트.<br /> </td> 
    <td> 문자열<br /> </td> 
-   <td> 25년<br /> </td> 
+   <td> 25<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -771,7 +772,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -780,7 +781,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> defaultNameSpace<br /> </td> 
-   <td> 새 엔터티를 만들 때 사용되는 기본 네임스페이스입니다.<br /> </td> 
+   <td> 새 엔티티 생성 시 사용되는 기본 네임스페이스.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'cus'<br /> </td> 
   </tr> 
@@ -794,7 +795,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -805,17 +806,17 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
    <td> maxPreparationJobsSec<br /> </td> 
    <td> 최대 준비 시간: 게재 작업을 더 이상 준비할 수 없는 기간(초).<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 3600년<br /> </td> 
+   <td> 3600<br /> </td> 
   </tr> 
   <tr> 
    <td> unixScript<br /> </td> 
-   <td> 모니터링 서비스에서 실행한 Unix 스크립트입니다.<br /> </td> 
+   <td> 모니터링 서비스에서 실행된 Unix 스크립트.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> winScript<br /> </td> 
-   <td> 모니터링 서비스에서 실행할 Windows 스크립트입니다.<br /> </td> 
+   <td> 모니터링 서비스에서 실행할 Windows 스크립트.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -829,7 +830,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -838,25 +839,25 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> maxConversion<br /> </td> 
-   <td> OpenOffice 서버가 수행할 수 있는 최대 전환 수입니다. 이 수를 초과하면 서버가 다시 시작됩니다.<br /> </td> 
+   <td> OpenOffice 서버가 수행할 수 있는 최대 전환 수. 이 수를 초과하면 서버가 다시 시작됩니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1000년<br /> </td> 
+   <td> 1000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxServerIdleSec<br /> </td> 
-   <td> 강제 닫기 전에 OpenOffice 서버의 최대 유휴 시간입니다.<br /> </td> 
+   <td> 강제 종료 이전 OpenOffice 서버의 최대 유휴 시간.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 7200년<br /> </td> 
+   <td> 7200<br /> </td> 
   </tr> 
   <tr> 
    <td> portRange<br /> </td> 
-   <td> OpenOffice 서버가 수신 대기하는 포트의 간격입니다.<br /> </td> 
+   <td> OpenOffice 서버가 수신하는 포트 간격.<br /> </td> 
    <td> 문자열<br /> </td> 
-   <td> 8101년-8110년<br /> </td> 
+   <td> 8101-8110<br /> </td> 
   </tr> 
   <tr> 
-   <td> url<br /> </td> 
-   <td> 문서 변환 서버의 URL입니다.<br /> </td> 
+   <td> URL<br /> </td> 
+   <td> 문서 전환 서버 URL.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'http://localhost:8080/nl/jsp/ooconv.jsp'<br /> </td> 
   </tr> 
@@ -872,7 +873,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -881,7 +882,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> 활성화됨<br /> </td> 
-   <td> 프록시 서버를 사용합니다.<br /> </td> 
+   <td> 프록시 서버 사용.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -909,7 +910,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
   </tr> 
@@ -922,12 +923,12 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   </tr> 
   <tr> 
    <td> 로그인<br /> </td> 
-   <td> 프록시 서버에 연결할 로그인<br /> </td> 
+   <td> 프록시 서버 연결 로그인<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
    <td> 암호<br /> </td> 
-   <td> 프록시 서버와의 연결에 대한 암호<br /> </td> 
+   <td> 프록시 서버 연결용 암호<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
@@ -945,7 +946,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -954,7 +955,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> maxThreadCount<br /> </td> 
-   <td> 풀의 최대 스레드 수입니다. <br /> </td> 
+   <td> 풀의 최대 스레드 수. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -974,7 +975,7 @@ URL을 찾을 수 없는 경우에는 지정된 기본 모드에 따라 기본 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -996,7 +997,7 @@ URL을 찾을 수 없는 경우에는 지정된 기본 모드에 따라 기본 �
  </tbody> 
 </table>
 
-### url {#url}
+### URL {#url}
 
 각 URL에 대해 **url** 노드(다음 매개 변수 포함):
 
@@ -1005,7 +1006,7 @@ URL을 찾을 수 없는 경우에는 지정된 기본 모드에 따라 기본 �
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
   </tr> 
@@ -1058,7 +1059,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -1067,9 +1068,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> purgeLogsPeriod<br /> </td> 
-   <td> 서버 처리 중 메모리 상태 새로 고침 기간(ms)<br /> </td> 
+   <td> 서버 처리 시 메모리 상태 새로 고침 기간(밀리초).<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 500년<br /> </td> 
+   <td> 500<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1083,7 +1084,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -1094,7 +1095,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> acquireLimit<br /> </td> 
    <td> 동시에 처리할 EML 수<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 100년<br /> </td> 
+   <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> archivingType<br /> </td> 
@@ -1134,7 +1135,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
+   <td> 프로세스 시작 시 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1142,13 +1143,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1800년<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1600년<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> pollDelay<br /> </td> 
@@ -1164,7 +1165,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> purgeArchivesDelay<br /> </td> 
-   <td> 처리되지 않은 전자 메일이 삭제되기 전 일 수입니다.<br /> </td> 
+   <td> 처리되지 않은 이메일이 삭제되기까지의 일수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 7<br /> </td> 
   </tr> 
@@ -1188,21 +1189,21 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> smtpNbConnection<br /> </td> 
-   <td> 보관 SMTP 서버에 대한 연결 수입니다.<br /> </td> 
+   <td> 보관 중인 SMTP 서버 연결 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> smtpRelayAddress<br /> </td> 
-   <td> 사용할 SMTP 릴레이의 DNS 이름 또는 IP 주소의 쉼표로 구분된 목록입니다. <br /> </td> 
+   <td> 사용할 SMTP 릴레이의 쉼표로 구분된 DNS 이름 또는 IP 주소 목록. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> smtpRelayPort<br /> </td> 
-   <td> SMTP 서버의 IP 포트입니다.<br /> </td> 
+   <td> SMTP 서버의 IP 포트.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 25년<br /> </td> 
+   <td> 25<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1214,7 +1215,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -1261,11 +1262,11 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> inMailPeriodSec<br /> </td> 
    <td> 메시지 읽기 기간: 메시지 큐 폴링 빈도<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 5개<br /> </td> 
+   <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
+   <td> 프로세스 시작 시 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1273,49 +1274,49 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> maxBroadLog<br /> </td> 
    <td> 업데이트할 최대 로그 수: 데이터베이스를 업데이트하기 전에 메모리에 유지할 최대 로그 메시지 수를 정의합니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 20년<br /> </td> 
+   <td> 20<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMsgPerSession<br /> </td> 
-   <td> POP3 세션 동안 읽을 최대 메시지 수입니다.<br /> </td> 
+   <td> POP3 세션 도중 읽을 수 있는 최대 메시지 수.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 200년<br /> </td> 
+   <td> 200<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1800년<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1600년<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSessionTTLSec<br /> </td> 
    <td> 세션 기간: 메시지 처리 세션의 최대 기간입니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 100년<br /> </td> 
+   <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> popMailPeriodSec<br /> </td> 
    <td> POP3 폴링 기간<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 300년<br /> </td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> popQueueSize<br /> </td> 
-   <td> 읽기 메시지의 큐 크기<br /> </td> 
+   <td> 읽은 메시지의 대기열 크기<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 100년<br /> </td> 
+   <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> popTimeoutSec<br /> </td> 
    <td> POP3 서버와의 통신 시간 제한. <br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 300년<br /> </td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
@@ -1325,9 +1326,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> reloadPeriodSec<br /> </td> 
-   <td> 폴링할 계정의 데이터베이스 다시 로드 빈도<br /> </td> 
+   <td> 폴링할 계정의 데이터베이스 리로드 빈도.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 600년<br /> </td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
@@ -1345,7 +1346,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -1354,13 +1355,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> 덤프<br /> </td> 
-   <td> 모든 인바운드 메시지를 텍스트 형식으로 저장합니다. <br /> </td> 
+   <td> 텍스트 포맷의 모든 인바운드 메시지를 저장합니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> msgPath<br /> </td> 
-   <td> 메시지 덤프 경로입니다.<br /> </td> 
+   <td> 메시지 덤프 경로.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '/tmp/inMail'<br /> </td> 
   </tr> 
@@ -1376,7 +1377,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -1397,13 +1398,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> callDataSize<br /> </td> 
-   <td> 맥스 호출 데이터를 위해 공유 메모리에 저장된 문자 수입니다.<br /> </td> 
+   <td> 최대. 호출 데이터를 위해 공유 메모리에 저장된 문자 수입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID<br /> </td> 
+   <td> 프로세스 시작 시 실행할 JavaScript의 ID<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1411,23 +1412,23 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1800년<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1600년<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSharedEntries<br /> </td> 
-   <td> 맥스 공유 메모리에 저장된 이벤트 수.<br /> </td> 
+   <td> 최대. 공유 메모리에 저장된 이벤트 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 25000<br /> </td> 
   </tr> 
   <tr> 
    <td> nextOffersSize<br /> </td> 
-   <td> 통계에 저장할 제안 바로 뒤에 정렬된 최대 적격의 오퍼 수입니다.<br /> </td> 
+   <td> 통계에 저장하기 위해 제안 바로 뒤에 정렬되는 최대 적격 오퍼 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1447,25 +1448,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> statsPeriod<br /> </td> 
    <td> 응답 시간 통계에 대한 집계 기간(초). 0은 통계 저장소가 비활성화되었음을 의미합니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 600년<br /> </td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> targetKeySize<br /> </td> 
-   <td> 맥스 개인을 식별하기 위해 공유 메모리에 저장된 문자 수입니다.<br /> </td> 
+   <td> 최대. 개인을 식별하기 위해 공유 메모리에 저장된 문자 수입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 16<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## mta {#mta}
+## MTA {#mta}
 
 다음은 의 다양한 매개 변수입니다 **mta** 노드 아래에 있어야 합니다. 게재 에이전트의 구성입니다.
 
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -1506,49 +1507,49 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> errorPeriodSec<br /> </td> 
    <td> 오류 통계 빈도: 데이터베이스의 통계와 저장소 생성 사이의 시간입니다. <br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 300년<br /> </td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
+   <td> 프로세스 시작 시 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> logEmailErrors<br /> </td> 
-   <td> 오류 통계를 생성하여 데이터베이스에 저장합니다.<br /> </td> 
+   <td> 오류 통계를 생성하고 데이터베이스에 저장합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> logLevel<br /> </td> 
-   <td> 로그 메시지 수준을 표시합니다. 데이터베이스에 작성된 로그의 심각도 수준입니다. MTA에서 생성된 로그 메시지가 모두 데이터베이스에 기록되는 것은 아닙니다. 이 매개 변수를 사용하여 데이터베이스에 메시지를 작성해야 하는 수준을 정의할 수 있습니다. 레벨 2를 정의하는 경우 레벨 1과 0의 메시지도 작성되지만 레벨 1을 정의하는 경우에는 레벨 1과 0의 메시지만 기록됩니다. 가능한 값은 다음과 같습니다. 0(오류), 1(경고), 2(정보)<br /> </td> 
+   <td> 로그 메시지 레벨 표시 데이터베이스에 작성된 로그의 심각도 수준입니다. MTA에서 생성된 로그 메시지가 모두 데이터베이스에 기록되는 것은 아닙니다. 이 매개 변수를 사용하여 데이터베이스에 메시지를 작성해야 하는 수준을 정의할 수 있습니다. 레벨 2를 정의하는 경우 레벨 1과 0의 메시지도 작성되지만 레벨 1을 정의하는 경우에는 레벨 1과 0의 메시지만 기록됩니다. 가능한 값은 다음과 같습니다. 0(오류), 1(경고), 2(정보)<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 2개<br /> </td> 
+   <td> 2<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMemoryMb<br /> </td> 
-   <td> mta 프로세스에서 사용할 수 있는 최대 메모리 크기(MB)입니다. 이 제한 이상의 경우, 사용하는 메모리가 시스템에 해제되도록 프로세스가 다시 시작됩니다.<br /> </td> 
+   <td> MTA 프로세스가 사용할 수 있는 최대 메모리 크기(MB). 이 제한을 초과하면 사용하는 메모리가 시스템에 릴리스되도록 프로세스가 다시 시작됩니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1024년<br /> </td> 
+   <td> 1024<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1800년<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1600년<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> minConnectionsToLog<br /> </td> 
-   <td> 고려할 연결 임계값입니다. errorPeriodSec에서 지정한 기간의 총 연결 수가 임계값보다 엄격하게 낮은 경우 지정된 경로에 대해 오류 통계가 생성되지 않습니다.<br /> </td> 
+   <td> 고려해야 할 연결 임계값. errorPeriodSec에서 지정한 기간 동안 총 연결 수가 임계값보다 엄격히 낮은 경우 특정 경로에 대해 오류 통계가 생성되지 않습니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 100년<br /> </td> 
+   <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> minErrorsToLog<br /> </td> 
@@ -1558,9 +1559,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> minMessagesToLog<br /> </td> 
-   <td> 고려할 메시지 임계값입니다. errorPeriodSec에서 지정한 기간 동안 보낸 총 메시지 수가 임계값보다 엄격하게 낮은 경우 지정된 경로에 대해 오류 통계가 생성되지 않습니다.<br /> </td> 
+   <td> 고려해야 할 메시지 임계값. errorPeriodSec에서 지정한 기간 동안 총 보낸 메시지 수가 임계값보다 엄격히 낮은 경우 특정 경로에 대해 오류 통계가 생성되지 않습니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1000년<br /> </td> 
+   <td> 1000<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
@@ -1657,7 +1658,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -1672,15 +1673,15 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxSizeOnDiskMb<br /> </td> 
-   <td> 최대 캐시 크기(Mb)입니다.<br /> </td> 
+   <td> 최대 캐시 크기(MB)<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1024년<br /> </td> 
+   <td> 1024<br /> </td> 
   </tr> 
   <tr> 
    <td> purgePeriodSec<br /> </td> 
    <td> 제거 빈도: 캐시 제거 메커니즘의 실행 간격(초)입니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 3600년<br /> </td> 
+   <td> 3600<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1696,7 +1697,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -1705,15 +1706,15 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> 주소<br /> </td> 
-   <td> 사용할 SMTP 릴레이의 DNS 이름 또는 IP 주소의 쉼표로 구분된 목록입니다. <br /> </td> 
+   <td> 사용할 SMTP 릴레이의 쉼표로 구분된 DNS 이름 또는 IP 주소 목록. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> 포트<br /> </td> 
-   <td> SMTP 서버의 IP 포트입니다.<br /> </td> 
+   <td> SMTP 서버의 IP 포트.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 25년<br /> </td> 
+   <td> 25<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1727,7 +1728,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -1742,31 +1743,31 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> dataBaseRetryDelaySec<br /> </td> 
-   <td> 데이터베이스 연결 실패 후 대기 기간입니다. 데이터베이스 연결 오류는 일반적으로 데이터베이스 서버 자체에 의해 발생합니다. 예를 들어 서버를 유지 보수 목적으로 중지할 수도 있습니다. DataBaseRetryDelay 매개 변수는 데이터베이스 연결 실패 시 두 연결 시도 사이의 기간을 정의합니다.<br /> </td> 
+   <td> 데이터베이스 연결 실패 이후 대기 기간. 데이터베이스 연결 실패는 일반적으로 데이터베이스 서버 자체에 의해 발생합니다. 예: 유지 관리 목적으로 서버가 중단될 수도 있음. DataBaseRetryDelay 매개변수는 데이터베이스 연결 실패 시 2회 연결 시도 기간을 정의합니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> domainKeysReloadPeriodSec<br /> </td> 
-   <td> 개인 키(DomainKeys)의 캐시에 대한 유효 기간입니다. 도메인 키 권장 사항(http://antispam.yahoo.com/domainkeys)에 따라 전자 메일에 서명하는 데 사용되는 개인 키는 데이터베이스에 옵션으로 저장됩니다. domainKeysReloadPeriodSec 매개 변수는 MTA가 이러한 키를 캐시에 유지할 수 있는 시간(초)을 정의합니다. 이 지연 후에 데이터베이스에서 모든 키를 다시 로드해야 합니다.<br /> </td> 
+   <td> 비공개 키(DomainKeys) 캐시의 유효 기간. DomainKeys 추천(http://antispam.yahoo.com/domainkeys)에 따라 이메일 서명에 사용되는 비공개 키는 데이터베이스에서 옵션으로 저장됩니다. domainKeysReloadPeriodSec 매개변수는 MTA가 캐시에 해당 키를 보관할 수 있는 시간(초)을 정의합니다. 이 지연 후에는 모든 키를 데이터베이스에서 다시 로드해야 합니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 600년<br /> </td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSpareServers<br /> </td> 
-   <td> 최대 자식 서버 수입니다. 실행 중인 최대 서버 수를 나타냅니다. 서버 메모리 리소스와 호환되는 이 수를 제한하는 것이 좋습니다. 게재 중에 이를 확인할 수 있습니다. 사용된 메모리는 사용 가능한 실제 메모리의 3분의 1을 초과할 수 없습니다. 그렇지 않을 경우 스왑이 사용됩니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">MTA 하위 프로세스</a>.<br /> </td> 
+   <td> 최대 하위 서버 수. 실행 중인 최대 서버 수를 나타냅니다. 서버 메모리 리소스와 호환되는 이 수를 제한하는 것이 좋습니다. 게재 중에 이를 확인할 수 있습니다. 사용된 메모리는 사용 가능한 실제 메모리의 3분의 1을 초과할 수 없습니다. 그렇지 않을 경우 스왑이 사용됩니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">MTA 하위 프로세스</a>.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 2개<br /> </td> 
+   <td> 2<br /> </td> 
   </tr> 
   <tr> 
    <td> minSpareServers<br /> </td> 
-   <td> 최소 하위 서버 수입니다. MTA는 최소 이 수의 서버를 계속 실행하려고 합니다. 이 값이 작으면 이 값에 도달할 때까지 매 초마다 새 서버를 다시 시작합니다.<br /> </td> 
+   <td> 최소 하위 서버 수. MTA는 실행 중인 이 서버 수를 최소한 유지하려고 합니다. 수가 적은 경우 이 값에 도달할 때까지 매초마다 새 서버를 다시 시작합니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> startSpareServers<br /> </td> 
-   <td> 시작 시 하위 서버 수입니다. 하위 서버 수는 동적으로 모니터링됩니다. MTA가 시작되면 이 값이 나타내는 수만큼 하위 서버가 만들어집니다. 일반적으로 호스트 리소스를 저장하기 위해 1초보다 빠르게 하위 서버를 시작할 수 없습니다. 그러나 MTA가 시작되면 하위 서버를 가능한 한 빨리 사용할 수 있도록 이 제한이 무시됩니다.<br /> </td> 
+   <td> 시작 시 하위 서버 수. 하위 서버의 수는 동적으로 모니터링됩니다. MTA가 시작되면 이 값이 표시하는 수만큼 하위 서버를 생성합니다. 일반적으로 하위 서버는 호스트 리소스를 저장하기 위해 초당 한 대의 서버보다 더 빠르게 시작할 수 없습니다. 하지만 MTA가 시작되면 최대한 빠른 시일 내에 하위 서버를 사용할 수 있도록 이 제한을 무효화합니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1782,7 +1783,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -1791,31 +1792,31 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> extraArgs<br /> </td> 
-   <td> 명령줄 인수(옵션) <br /> </td> 
+   <td> 명령줄 인수(선택 사항)<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> idleChildTimeoutSec<br /> </td> 
-   <td> 유휴 하위 서버가 중지될 때까지 시간이 초과되었습니다. 하위 서버의 유휴 시간이 이 매개 변수보다 큰 경우 자동으로 종료되어 호스트 리소스를 확보합니다.<br /> </td> 
+   <td> 유휴 하위 서버가 중지될 때까지 시간 제한. 하위 서버의 유휴 시간이 이 매개변수보다 클 경우 하위 서버는 자동 종료하여 호스트 리소스를 확보할 수 있습니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> maxAgeSec<br /> </td> 
-   <td> 최대 메시지 보존 시간입니다. 전송률 조절 때문에 준비된 메시지를 보낼 수 없거나 대상 MTA에 연결할 수 없는 경우 메시지가 중단되며 다음 다시 시도 시 처리됩니다.<br /> </td> 
+   <td> 최대 메시지 보존 시간. 조절로 인해 준비된 메시지를 보낼 수 없거나 대상 MTA에 연결할 수 없는 경우 메시지가 중단되고 다음 재시도에서 처리될 수 있습니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 600년<br /> </td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxGCMConnectPerChild<br /> </td> 
-   <td> 각 하위 서버에서 시작한 FCM에 대한 최대 병렬 Http 요청 수.<br /> </td> 
+   <td> 각 하위 서버에서 시작된 FCM에 대한 최대 병렬 HTTP 요청.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 8<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMsgPerChild<br /> </td> 
-   <td> 하위 서버당 최대 메시지 수입니다. 각 MTA 하위는 이 수의 메시지를 처리하여 종료합니다. MTA에서 메모리 또는 리소스 누수가 해가 되지 않도록(일반적으로 몇 만 명) 숫자를 지정하는 것이 중요합니다. MTA 코드에 알려진 메모리 누수가 없는 경우에도 포함된 JavaScript 및 XSL 엔진은 완전히 신뢰할 수 없습니다.<br /> </td> 
+   <td> 하위 서버당 최대 메시지 수. 각 MTA 하위 항목은 이 메시지 수를 처리하고 삭제됩니다. MTA의 메모리 또는 리소스 누락이 해를 미치지 않도록(보통 수천 개 정도) 숫자를 지정해야 합니다. MTA 코드에 알려진 메모리 누락이 없더라도 임베드된 JavaScript 및 XSL 엔진을 완전히 신뢰할 수 없습니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 5000000<br /> </td> 
   </tr> 
@@ -1823,29 +1824,29 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> maxWaitingMessages<br /> </td> 
    <td> 보류 중인 메시지: 배달할 메모리에서 대기하는 최대 메시지 수입니다. <br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 2000년<br /> </td> 
+   <td> 2000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxWorkingSetMb<br /> </td> 
-   <td> 하위 프로세스에서 사용할 수 있는 최대 메모리 크기(MB)입니다. 이 제한 이상의 경우, 사용하는 메모리가 시스템에 해제되도록 프로세스가 중지됩니다. <br /> </td> 
+   <td> 하위 프로세스가 사용할 수 있는 최대 메모리 크기(MB). 이 제한을 초과하면 사용하는 메모리가 시스템에 릴리스되도록 프로세스가 중단됩니다. <br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 128년<br /> </td> 
+   <td> 128<br /> </td> 
   </tr> 
   <tr> 
    <td> soapConnectorTimeoutSec<br /> </td> 
    <td> 시간 초과(단위: 초), 이후 게재 커넥터의 SOAP 연결이 중단됩니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 600년<br /> </td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> startWithFirstMX<br /> </td> 
-   <td> 항상 우선 순위가 가장 높은 MX로 시작합니다.<br /> </td> 
+   <td> 항상 우선 순위가 가장 높은 MX로 시작.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> timeToLive<br /> </td> 
-   <td> 다시 시작할 때 연속된 최대 시도 횟수입니다.<br /> </td> 
+   <td> 재개 시 최대 연속 시도 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 48<br /> </td> 
   </tr> 
@@ -1857,7 +1858,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -1872,21 +1873,21 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> idleSessionTimeoutSec<br /> </td> 
-   <td> 유휴 세션 시간 제한. 이 매개 변수는 세션이 지정된 도메인에 여러 메시지를 전송하는 데 재사용되는 경우에만 사용됩니다. MTA가 메시지 전송을 완료하면 SMTP 세션이 사용한 SMTP 세션이 체계적으로 닫히지 않습니다. 동일한 도메인에 대해 메시지를 보낼 준비가 된 경우 동일한 SMTP 세션이 다시 사용되므로 세션이 자동으로 닫히지 않습니다. 매개 변수 IdleSessionTimeout 매개 변수를 사용하면 SMTP 세션이 다른 메시지를 기다리는 동안 활성 상태로 남아 있는 시간을 정의할 수 있습니다. 기간이 경과하면 세션이 자동으로 닫힙니다.<br /> </td> 
+   <td> 유휴 세션 시간 제한 이 매개변수는 특정 도메인에 여러 메시지를 전송하는 데 세션을 재사용하는 경우에만 사용됩니다. MTA가 메시지 전송을 완료하면 사용된 SMTP 세션은 체계적으로 닫히지 않습니다. 이 동일한 도메인에 메시지를 보낼 준비가 되면 동일한 SMTP 세션이 재사용되므로 세션이 자동으로 닫히지 않습니다. 매개변수 IdleSessionTimeout 매개변수를 사용하면 SMTP 세션이 다른 메시지를 대기하며 활성 상태를 유지할 수 있는 시간을 정의할 수 있습니다. 기간이 경과하면 세션이 자동으로 닫힙니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 5개<br /> </td> 
+   <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> initialDelaySec<br /> </td> 
-   <td> 연결을 재시도하기 전 초기 지연. 연결이 실패할 때마다 이 지연이 두 배로 증가합니다.<br /> </td> 
+   <td> 연결 재시도 이전의 초기 지연. 연결이 실패할 때마다 이 지연이 두 배로 증가합니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSessionsPerChild<br /> </td> 
-   <td> 하위 서버별 최대 SMTP 세션 수입니다. 메시지 게재를 위해 MTA는 수신자 MTA로 SMTP 연결을 초기화합니다. 해당 값으로 특정 하위 서버의 최대 동시 및 활성 SMTP 세션 수를 제한합니다. maxSpareServers로 해당 값을 곱하면 특정 하위 서버에서 동시에 처리할 수 있는 최대 메시지 수를 얻습니다.<br /> </td> 
+   <td> 하위 서버별 최대 SMTP 세션 수. 메시지 게재를 위해 MTA는 수신자 MTA로 SMTP 연결을 초기화합니다. 해당 값으로 특정 하위 서버의 최대 동시 및 활성 SMTP 세션 수를 제한합니다. maxSpareServers로 해당 값을 곱하면 특정 하위 서버에서 동시에 처리할 수 있는 최대 메시지 수를 얻습니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1000년<br /> </td> 
+   <td> 1000<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1898,7 +1899,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
   </tr> 
@@ -1924,7 +1925,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
   </tr> 
@@ -1932,32 +1933,32 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> 주소<br /> </td> 
-   <td> 연결된 실제 주소입니다. 예: '192.168.0.1'<br /> </td> 
+   <td> 연계된 실제 주소. 예: '192.168.0.1'<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
    <td> publicId<br /> </td> 
-   <td> 연결된 공개 주소 ID입니다. 통계 서버의 키로 사용됩니다. 숫자여야 합니다. 다음 보기 <a href="../../installation/using/email-deliverability.md#managing-ip-addresses">섹션</a>.<br /> </td> 
+   <td> 연계된 공개 주소 ID. 통계 서버의 키로 사용됩니다. 숫자여야 합니다. 이 <a href="../../installation/using/email-deliverability.md#managing-ip-addresses">섹션</a>을 참조하십시오.<br /> </td> 
    <td> 길게<br /> </td> 
   </tr> 
   <tr> 
    <td> 가중치<br /> </td> 
-   <td> 다른 IP에 상대적인 이 IP에 대한 사용 빈도를 지정합니다(가중치가 클수록 주파수가 높아짐).<br /> </td> 
+   <td> 다른 IP와 비교해 이 IP의 사용 빈도를 지정합니다(가중치가 클수록 빈도가 높아짐).<br /> </td> 
    <td> 길게<br /> </td> 
   </tr> 
   <tr> 
    <td> includeDomains<br /> </td> 
-   <td> 포함할 도메인 마스크의 쉼표로 구분된 목록입니다.<br /> </td> 
+   <td> 포함할 도메인 마스크를 쉼표로 구분한 목록.<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
    <td> excludeDomains<br /> </td> 
-   <td> 제외할 도메인 마스크의 쉼표로 구분된 목록입니다.<br /> </td> 
+   <td> 제외할 도메인 마스크를 쉼표로 구분한 목록.<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
    <td> heloHost<br /> </td> 
-   <td> IP 주소에 연결된 컴퓨터 이름입니다. SMTP HELO 명령을 실행할 때 사용됩니다.<br /> </td> 
+   <td> IP 주소에 연결된 컴퓨터 이름. SMTP HELO 명령 발행 시 사용됩니다.<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
  </tbody> 
@@ -1970,7 +1971,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -1979,7 +1980,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> useHTTProxy<br /> </td> 
-   <td> 공유/proxyHTTP에 정의된 HTTP 프록시를 사용합니다. <br /> </td> 
+   <td> shared/proxyHTTP에 정의된 HTTP 프록시 사용. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1993,7 +1994,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -2002,7 +2003,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> 주소<br /> </td> 
-   <td> 사용할 릴레이의 DNS 주소 또는 이름입니다. <br /> </td> 
+   <td> 사용할 릴레이의 DNS 주소 또는 이름. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> </td> 
   </tr> 
@@ -2010,11 +2011,11 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 포트<br /> </td> 
    <td> 릴레이 포트<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 443년<br /> </td> 
+   <td> 443<br /> </td> 
   </tr> 
   <tr> 
    <td> trustedCertsChain<br /> </td> 
-   <td> 인증서 체인(PEM 파일). 모의 서버를 사용할 때 유용합니다.<br /> </td> 
+   <td> 인증서 체인(PEM 파일). 모의 서버 사용 시 유용함.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2028,7 +2029,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -2037,7 +2038,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> appName<br /> </td> 
-   <td> 공개 키를 저장할 때 개발자 연결에서 생성된 애플리케이션의 이름입니다. <br /> </td> 
+   <td> 공개 키 저장 시 개발자 연결에서 생성되는 애플리케이션 이름. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2049,13 +2050,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> authGatewayEndpoint<br /> </td> 
-   <td> 게이트웨이 토큰을 가져오는 URL.<br /> </td> 
+   <td> 게이트웨이 토큰을 얻기 위한 URL.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'https://api.omniture.com' <br /> </td> 
   </tr> 
   <tr> 
    <td> authPrivateKey<br /> </td> 
-   <td> 토큰을 가져오는 개인 키(XtkKey 옵션을 사용하여 AES에서 암호화).<br /> </td> 
+   <td> 토큰을 얻기 위한 비공개 키(XtkKey 옵션으로 AES에서 암호화).<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2069,11 +2070,11 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> disableAuth<br /> </td> 
    <td> 인증 사용 안 함: 인증 없이 파이프라인 서비스에 연결합니다. <br /> </td> 
    <td> 부울<br /> </td> 
-   <td> 2개<br /> </td> 
+   <td> 2<br /> </td> 
   </tr> 
   <tr> 
    <td> discoverPipelineEndpoint<br /> </td> 
-   <td> 파이프라인 서비스 URL을 검색할 URL입니다.<br /> </td> 
+   <td> 파이프라인 서비스 URL을 검색하는 URL.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'https://producer-pipeline-pnw.adobe.net'<br /> </td> 
   </tr> 
@@ -2091,7 +2092,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
+   <td> 프로세스 시작 시 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2099,31 +2100,31 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1800년<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1600년<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> monitorServerPort<br /> </td> 
    <td> 상태 서버 포트: 프로세스의 상태를 쿼리할 수 있는 HTTP 서버 포트입니다. 0인 경우 비활성 상태입니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 7781년<br /> </td> 
+   <td> 7781<br /> </td> 
   </tr> 
   <tr> 
    <td> pointerFlushMessageCount<br /> </td> 
-   <td> 이 수의 메시지가 처리될 때마다 포인터가 데이터베이스에 저장됩니다.<br /> </td> 
+   <td> 포인터는 이 메시지 수가 처리될 때마다 데이터베이스에 저장됩니다.<br /> </td> 
    <td> <br /> </td> 
-   <td> 1000년<br /> </td> 
+   <td> 1000<br /> </td> 
   </tr> 
   <tr> 
    <td> pointerFlushPeriodSec<br /> </td> 
    <td> 포인터가 저장되기 전 지연: 포인터가 이 기간 동안 적어도 한 번 데이터베이스에 저장됩니다(활동이 낮은 경우 유용합니다.).<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 5개<br /> </td> 
+   <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
@@ -2133,19 +2134,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processingJSONhreads<br /> </td> 
-   <td> 개인화된 JavaScript 커넥터를 사용하는 이벤트 처리를 위한 스레드 수입니다.<br /> </td> 
+   <td> 맞춤형 JavaScript 커넥터로 이벤트를 처리하는 데 필요한 스레드 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> processingThreads<br /> </td> 
-   <td> 이벤트 처리를 위한 스레드 수입니다.<br /> </td> 
+   <td> 이벤트 처리에 필요한 스레드 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> retryPeriodSec<br /> </td> 
-   <td> 오류가 있는 경우 처리 사이의 지연<br /> </td> 
+   <td> 실패가 있는 경우 처리 사이에서 지연.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
@@ -2153,7 +2154,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> retryValiditySec<br /> </td> 
    <td> 이 기간 후 포기: 이 기간 후에도 처리가 계속 실패하면 이벤트를 종료합니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 300년<br /> </td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
@@ -2171,7 +2172,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -2196,7 +2197,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -2205,36 +2206,36 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> allowDebug<br /> </td> 
-   <td> 웹 응용 프로그램에 대한 디버그 모드를 승인합니다.<br /> </td> 
+   <td> 웹 애플리케이션의 디버그 모드 승인.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowEmptyPassword<br /> </td> 
-   <td> 암호 없이 응용 프로그램을 사용하도록 사용자에게 권한을 부여합니다.<br /> </td> 
+   <td> 사용자가 암호 없이 애플리케이션을 사용할 수 있도록 승인.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowHTTP<br /> </td> 
-   <td> 운영자 로그온에 HTTP 사용을 승인합니다.<br /> </td> 
+   <td> 연산자 로그인에 HTTP 사용 승인.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowSQLInjection<br /> </td> 
-   <td> 표현식에서 SQLDATA의 사용을 승인합니다.<br /> </td> 
+   <td> 표현식에서 SQLDATA 사용 승인.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowUserPassword<br /> </td> 
-   <td> 사용자/암호 세션 토큰을 승인합니다.<br /> </td> 
+   <td> 사용자/암호 세션 토큰 승인.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> 레이블<br /> </td> 
+   <td> label<br /> </td> 
    <td> 레이블<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> NewLabel()<br /> </td> 
@@ -2247,7 +2248,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> sessionTokenOnly<br /> </td> 
-   <td> 보안 토큰을 사용하지 마십시오.<br /> </td> 
+   <td> 보안 토큰 사용 안 함.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2294,7 +2295,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -2302,7 +2303,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> 레이블<br /> </td> 
+   <td> label<br /> </td> 
    <td> 레이블<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> NewLabel()<br /> </td> 
@@ -2321,7 +2322,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> 프록시<br /> </td> 
-   <td> 이 하위 네트워크에서 인스턴스에 액세스하는 데 사용하는 프록시 의 마스크 또는 주소입니다. 이 경우 'X-Forwarded-For' 헤더는 이 프록시 대신 테스트됩니다.<br /> </td> 
+   <td> 인스턴스에 액세스할 수 있는 이 하위 네트워크에서 사용하는 (역방향) 프록시의 마스크 또는 주소. 이 경우 이 프록시 대신 'X-Forwarded-For' 헤더를 테스트합니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 127.0.0.1 <br /> </td> 
   </tr> 
@@ -2335,7 +2336,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -2356,19 +2357,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> dataRetentionDays<br /> </td> 
-   <td> SMPP 커넥터에서 보관 중인 파일 작업 최대 일 수입니다.<br /> </td> 
+   <td> SMPP 커넥터가 보관하는 파일을 작업 중인 파일의 최대 일수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> dataSizeMo<br /> </td> 
-   <td> SMPP 작업 파일의 최대 크기(MB)입니다.<br /> </td> 
+   <td> SMPP 작업 파일의 최대 크기(MB).<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 512년<br /> </td> 
+   <td> 512<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
+   <td> 프로세스 시작 시 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2376,25 +2377,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> keepAlivePeriod<br /> </td> 
    <td> 세션 연속성 프레임의 되풀이: 최대. 수신 세션이 여전히 활성화되었음을 알리는 두 프레임 사이의 기간(초)<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 25년<br /> </td> 
+   <td> 25<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1800년<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1600년<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> pollPeriod<br /> </td> 
    <td> 검색 빈도: SMS 계정 폴링 기간입니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 300년<br /> </td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
@@ -2406,7 +2407,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> reloadPeriod<br /> </td> 
    <td> 계정 다시 로드 빈도: 폴링할 계정의 데이터베이스 다시 로드 빈도<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 600년<br /> </td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
@@ -2418,13 +2419,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> srReadDelay<br /> </td> 
    <td> SR 처리에 대한 지연 시간(초): 현재 시간보다 빠른 복구 날짜에서 srReadDelay에 의해 지정된 기간(초)을 뺀 SR만 사용합니다. <br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 600년<br /> </td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> 시간 제한<br /> </td> 
    <td> SMS 게이트웨이와의 통신 시간 제한.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 300년<br /> </td> 
+   <td> 300<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2436,7 +2437,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -2459,7 +2460,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -2480,7 +2481,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
+   <td> 프로세스 시작 시 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2488,17 +2489,17 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1800년<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1600년<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> 포트<br /> </td> 
-   <td> 서버 수신 대기 포트입니다. 다음 보기 <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">섹션</a>.<br /> </td> 
+   <td> 서버 수신 포트. 이 <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">섹션</a>을 참조하십시오.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2524,7 +2525,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -2545,7 +2546,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
+   <td> 프로세스 시작 시 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2557,21 +2558,21 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxNumberOfLoginsFiles<br /> </td> 
-   <td> 유지할 최대 logins.log 파일 수입니다. <br /> </td> 
+   <td> 유지할 최대 logins.log 파일 수. <br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 365년<br /> </td> 
+   <td> 365<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1800년<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1600년<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
@@ -2595,7 +2596,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -2624,7 +2625,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> consolidationPeriodSec<br /> </td> 
    <td> 통합 기간<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 300년<br /> </td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> dedupOpenPeriodMin<br /> </td> 
@@ -2652,27 +2653,27 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID <br /> </td> 
+   <td> 프로세스 시작 시 실행할 JavaScript의 ID <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> logCountPerRequest<br /> </td> 
-   <td> 원격 추적 서버 호출에서 요청한 로그 수입니다.<br /> </td> 
+   <td> 원격 추적 서버 호출에 의해 요청된 로그 수.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1000년<br /> </td> 
+   <td> 1000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1800년<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1600년<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> phisbowelServiceAPIKey<br /> </td> 
@@ -2714,7 +2715,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> userAgentCacheSize<br /> </td> 
    <td> 브라우저 식별자 캐시의 크기입니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 500년<br /> </td> 
+   <td> 500<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2726,7 +2727,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -2747,7 +2748,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID <br /> </td> 
+   <td> 프로세스 시작 시 실행할 JavaScript의 ID <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2755,25 +2756,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> maxCreateFileRetry<br /> </td> 
    <td> 최대 쓰기 다시 시도: 로그 파일에서 쓰기 오류가 발생할 경우 만들 수 있는 최대 파일 수입니다.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 5개<br /> </td> 
+   <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> maxLogsSizeOnDiskMb<br /> </td> 
    <td> 최대 로그 크기: 디스크에서 로그에 사용되는 최대 공간(MB)입니다. 100MB 이하일 수 있습니다. <br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 500년<br /> </td> 
+   <td> 500<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1800년<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1600년<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSharedLogs<br /> </td> 
@@ -2801,7 +2802,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> webTrackingParamSize<br /> </td> 
-   <td> 추가 웹 추적 매개 변수를 위해 공유 메모리에 저장된 최대 문자 수입니다.<br /> </td> 
+   <td> 추가 웹 추적 매개변수를 위해 공유 메모리에 저장되는 최대 문자 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 64<br /> </td> 
   </tr> 
@@ -2817,7 +2818,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -2832,15 +2833,15 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> MaxThreads<br /> </td> 
-   <td> 최대 스레드 수입니다.<br /> </td> 
+   <td> 최대 스레드 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 75<br /> </td> 
   </tr> 
   <tr> 
    <td> MinSpareThreads<br /> </td> 
-   <td> 최소 스레드 수입니다.<br /> </td> 
+   <td> 최소 스레드 수.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 5개<br /> </td> 
+   <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> args<br /> </td> 
@@ -2858,17 +2859,17 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> controlPort<br /> </td> 
    <td> Tomcat 수신 제어 포트: 참조 <a href="configure-tomcat.md" target="_blank">Tomcat 구성</a>.<br /> </td> 
    <td> 짧음<br /> </td> 
-   <td> 8005년<br /> </td> 
+   <td> 8005<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
    <td> Tomcat HTTP 수신 대기 포트: 참조 <a href="configure-tomcat.md" target="_blank">Tomcat 구성</a>.<br /> </td> 
    <td> 짧음<br /> </td> 
-   <td> 8080년<br /> </td> 
+   <td> 8080<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
+   <td> 프로세스 시작 시 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2882,13 +2883,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1800년<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1600년<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
@@ -2924,7 +2925,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -2933,7 +2934,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> 디버그<br /> </td> 
-   <td> 디버그 모드에서 JSP 실행<br /> </td> 
+   <td> 디버그 모드에서 JSP 실행 여부.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2945,7 +2946,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> foFileName<br /> </td> 
-   <td> .fo 파일의 경로입니다.<br /> </td> 
+   <td> .fo 파일 경로.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3003,7 +3004,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -3012,15 +3013,15 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> collectionsGarbageAfterRequest<br /> </td> 
-   <td> 각 쿼리 뒤에 JavaScript 컨텍스트의 가비지 수집기를 활성화합니다.<br /> </td> 
+   <td> 각 쿼리 후에 JavaScript 컨텍스트의 가비지 수집기를 활성화합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> timeToLive<br /> </td> 
-   <td> JavaScript 컨텍스트에서 제공하는 최대 페이지 수입니다. <br /> </td> 
+   <td> JavaScript 컨텍스트에서 제공하는 최대 페이지 수. <br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1000년<br /> </td> 
+   <td> 1000<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3036,7 +3037,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -3069,19 +3070,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> startRelay<br /> </td> 
-   <td> HTTP 릴레이 모듈을 시작합니다.<br /> </td> 
+   <td> HTTP 릴레이 모듈 시작.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> startRelayInModule<br /> </td> 
-   <td> 웹 서버에서 HTTP 릴레이 모듈을 시작합니다. <br /> </td> 
+   <td> 웹 서버 내에서 HTTP 릴레이 모듈을 시작합니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> 시간 제한<br /> </td> 
-   <td> 금지된 URL을 삭제하기 전에 잠시 기다립니다.<br /> </td> 
+   <td> 금지 URL 삭제 전 대기 시간.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '60'<br /> </td> 
   </tr> 
@@ -3095,7 +3096,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -3110,7 +3111,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> 거부<br /> </td> 
-   <td> 이러한 URL에 대한 액세스 거부(HTTP 403 오류 반환)<br /> </td> 
+   <td> 이 URL에 대한 액세스 거부(HTTP 403 오류 반환)<br /> </td> 
    <td> 부울<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3158,7 +3159,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> urlPath<br /> </td> 
-   <td> 릴레이할 URL 마스크(예: '/nl*', '*.jsp')<br /> </td> 
+   <td> 릴레이할 URL 마스크(예: '/nl*', '*.jsp').<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3237,7 +3238,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
   </tr> 
@@ -3271,7 +3272,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -3285,20 +3286,20 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> P3PComcatePolicy<br /> </td> 
-   <td> 영구 쿠키에 사용되는 정책을 설명하는 값입니다(P3P Compact Policy 형식과 준수). <br /> </td> 
+   <td> P3PCompactPolicy<br /> </td> 
+   <td> 영구 쿠키에 사용되는 정책을 설명하는 값(P3P 압축 정책 형식 준수). <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'CAO DSP COR CUR A DEVa OUR BUS IND UNI COM NAV'<br /> </td> 
   </tr> 
   <tr> 
    <td> cookieDomain<br /> </td> 
-   <td> 쿠키를 설정할 도메인을 명시적으로 나타내도록 구성할 도메인으로 구분된 도메인 목록입니다. <br /> </td> 
+   <td> 쿠키를 설정할 도메인을 명시적으로 표시하기 위해 구성할 도메인을 쉼표로 구분한 목록. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> databaseId<br /> </td> 
-   <td> 추적 인스턴스와 연결된 데이터베이스 식별자입니다.<br /> </td> 
+   <td> 추적 인스턴스와 연결된 데이터베이스 식별자.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3318,7 +3319,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> maxJobsInCache<br /> </td> 
    <td> 최대 작업 수: 캐시의 최대 배달 작업 수입니다. 50보다 작을 수 없습니다. <br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 100년<br /> </td> 
+   <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> showSourceIP<br /> </td> 
@@ -3346,7 +3347,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> trackingPassword<br /> </td> 
-   <td> 리디렉션 서버에서 사용하는 암호입니다.<br /> </td> 
+   <td> 리디렉션 서버에서 사용하는 암호.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3360,7 +3361,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -3380,7 +3381,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
-   <td> url<br /> </td> 
+   <td> URL<br /> </td> 
    <td> 추가 리디렉션 서버 URL<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
@@ -3397,7 +3398,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
   </tr> 
@@ -3405,7 +3406,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> 명령<br /> </td> 
-   <td> 이메일의 스팸 방지 점수를 평가하는 실행 명령(예: 'perl spamcheck.pl')<br /> </td> 
+   <td> 이메일의 스팸 방지 점수를 평가하기 위해 실행할 명령(예: 'perl spamcheck.pl').<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
  </tbody> 
@@ -3420,7 +3421,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 <table> 
  <thead> 
   <tr> 
-   <th> 매개 변수 </th> 
+   <th> 매개변수 </th> 
    <th> 설명 </th> 
    <th> 유형 </th> 
    <th> 기본 값 </th> 
@@ -3449,11 +3450,11 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> dataBasePoolPeriodSec<br /> </td> 
    <td> 기간<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 20년<br /> </td> 
+   <td> 20<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
-   <td> 프로세스를 시작할 때 실행할 JavaScript의 ID.<br /> </td> 
+   <td> 프로세스 시작 시 실행할 JavaScript의 ID.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3461,13 +3462,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1800년<br /> </td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
-   <td> 1600년<br /> </td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 

@@ -2,9 +2,11 @@
 product: campaign
 title: 템플릿에서 게재 만들기
 description: 템플릿에서 게재를 만드는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 7%
@@ -13,7 +15,7 @@ ht-degree: 7%
 
 # 템플릿에서 게재 만들기{#creating-a-delivery-from-a-template}
 
-![](../../assets/common.svg)
+
 
 ## 템플릿에 게재 연결 {#linking-the-template-to-a-delivery}
 

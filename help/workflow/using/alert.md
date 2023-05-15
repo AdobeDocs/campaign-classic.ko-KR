@@ -2,9 +2,10 @@
 product: campaign
 title: 경고
 description: 경고
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 21698e85-7b58-4bde-bbd2-0ee06ac90307
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 3%
@@ -13,7 +14,7 @@ ht-degree: 3%
 
 # 경고{#alert}
 
-![](../../assets/v7-only.svg)
+
 
 An **경고** 활동이 연산자 그룹에 메시지를 보냅니다. 승인 활동과 동일한 방식으로 작동하지만 이 경우에는 응답이 필요하지 않습니다.
 

@@ -2,9 +2,10 @@
 product: campaign
 title: 워크플로우 감독
 description: Campaign 워크플로우를 감독하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # 사용 사례: 워크플로우 관리{#supervising-workflows}
 
-![](../../assets/v7-only.svg)
+
 
 이 사용 사례에서는 &quot;일시 중지됨&quot;, &quot;중지됨&quot; 또는 &quot;오류 발생&quot;인 워크플로우 집합의 상태를 모니터링할 수 있는 워크플로우 만들기에 대해 자세히 설명합니다.
 

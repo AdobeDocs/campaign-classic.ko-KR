@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: SFTP 서버 사용
-description: SFTP 서버 우수 사례 및 문제 해결에 대해 자세히 알아보십시오.
+description: SFTP 서버 우수 사례 및 문제 해결에 대해 자세히 알아보십시오
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 14%
@@ -15,7 +17,7 @@ ht-degree: 14%
 
 # SFTP 서버 모범 사례 및 문제 해결 {#sftp-server-usage}
 
-![](../../assets/common.svg)
+
 
 ## SFTP 서버 글로벌 권장 사항 {#global-recommendations}
 
@@ -31,7 +33,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 * 기본적으로 작성하는 모든 폴더는 식별자에만 대한 읽기/쓰기 모드입니다. Campaign에서 액세스해야 하는 폴더를 만들 때는 전체 그룹에 대한 읽기/쓰기 권한이 있는 폴더를 구성해야 합니다. 그렇지 않으면 보안상의 이유로 동일한 그룹 내에서 다른 식별자로 실행되기 때문에 워크플로우에서 파일을 만들거나 삭제할 수 없습니다.
 
-* SFTP 연결을 시작하려는 공용 IP를 Campaign 인스턴스의에 추가해야 허용 목록에 추가하다 합니다. 에 IP 주소 추가허용 목록에 추가하다는 를 통해 요청할 수 있습니다. [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+* SFTP 연결을 시작하려는 공용 IP를 Campaign 인스턴스의에 추가해야 허용 목록에 추가하다 합니다. 에 IP 주소 추가허용 목록에 추가하다는 를 통해 요청할 수 있습니다. [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## 데이터베이스 사용 모범 사례 {#sftp-server-best-practices}
 
@@ -45,7 +47,7 @@ SFTP 서버는 파일의 보관 및 삭제를 제어할 수 있는 임시 저장
 >
 >인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic을 사용하여 SFTP 서버 저장소를 모니터링할 수 있습니다 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html). 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
 >
->Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
+>컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
 >인스턴스는 [최신 GA 빌드](../../rn/using/rn-overview.md). [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다.
 
@@ -68,7 +70,7 @@ SFTP 서버는 파일의 보관 및 삭제를 제어할 수 있는 임시 저장
 
 ## Adobe 호스팅 SFTP 서버와 관련된 연결 문제 {#sftp-server-troubleshooting}
 
-아래 섹션에는 를 통해 Adobe 지원 팀에 확인하고 제공할 정보가 나와 있습니다. [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 호스팅된 Adobe의 SFTP 서버 연결 문제가 발생하는 경우.
+아래 섹션에는 를 통해 Adobe 지원 팀에 확인하고 제공할 정보가 나와 있습니다. [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 호스팅된 Adobe의 SFTP 서버 연결 문제가 발생하는 경우.
 
 1. 인스턴스가 실행 중인지 확인합니다. 이렇게 하려면 브라우저를 열고 을(를) 만듭니다 **[!UICONTROL GET]** 인스턴스에 대한 호출 **[!UICONTROL /r/test]** endpoint:
 
@@ -100,11 +102,11 @@ SFTP 서버는 파일의 보관 및 삭제를 제어할 수 있는 임시 저장
    >
    >Netcat 도구를 사용하면 다양한 운영 체제에서 네트워크 연결을 쉽게 관리할 수 있습니다( [https://eternallybored.org/misc/netcat/](https://eternallybored.org/misc/netcat/)).
 
-   포트가 열리지 않은 경우, 쪽에서 아웃바운드 연결을 열고 다시 시도하십시오. 여전히 연결 문제가 발생하는 경우 명령의 출력을 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀
+   포트가 열리지 않은 경우, 쪽에서 아웃바운드 연결을 열고 다시 시도하십시오. 여전히 연결 문제가 발생하는 경우 명령의 출력을 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀
 
 1. SFTP 연결을 시작하려는 공용 IP가 Adobe 지원허용 목록에 추가하다에 제공한 IP인지 확인합니다.
 1. 암호 기반 인증을 사용하는 경우 암호가 만료되었을 수 있습니다(암호는 90일 유효 기간). 따라서 키 기반 인증을 사용하는 것이 좋습니다(참조 [SFTP 서버 우수 사례](#sftp-server-best-practices)).
-1. 키 기반 인증을 사용하는 경우 사용 중인 키가 제공한 키와 같은지 확인합니다 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀 구성
+1. 키 기반 인증을 사용하는 경우 사용 중인 키가 제공한 키와 같은지 확인합니다 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀 구성
 1. FileZilla 또는 이와 동등한 FTP 도구를 사용하는 경우 지원 티켓에 연결 로그 세부 사항을 제공합니다.
 
 ## &quot;호스트 이름을 확인할 수 없습니다.&quot; 오류

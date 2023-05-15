@@ -2,9 +2,10 @@
 product: campaign
 title: 분할
 description: 분할 워크플로우 활동에 대해 자세히 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1935'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # 분할{#split}
 
-![](../../assets/v7-only.svg)
+
 
 A **분할**-type 활동을 통해 대상을 여러 하위 집합으로 분할할 수 있습니다. 대상이 수신된 모든 결과로 구성됩니다. 따라서 이 활동을 실행하려면 모든 이전 활동이 완료되었어야 합니다.
 

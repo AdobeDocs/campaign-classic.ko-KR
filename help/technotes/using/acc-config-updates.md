@@ -2,10 +2,11 @@
 product: campaign
 title: 기술 정보 - Adobe Campaign 구성 업데이트
 description: Adobe Campaign 구성 업데이트
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 8ea5a42e0539ea23c1d9940e3f38f2c90fdcc223
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 12%
@@ -14,7 +15,7 @@ ht-degree: 12%
 
 # Adobe Campaign 구성 업데이트 2021 {#acc-config-updates}
 
-![](../../assets/v7-only.svg)
+
 
 인프라 및 설정은 최신 빌드 및 제품 수정 사항으로 정기적으로 업데이트해야 합니다. 서비스 및 보안의 연속성을 보장하기 위해 이러한 수정 사항이 필요합니다. 또한 타사 변경 사항에 맞게 업그레이드해야 합니다.
 

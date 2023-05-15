@@ -2,11 +2,12 @@
 product: campaign
 title: 개발자 FAQ
 description: 개발자 FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 97%
@@ -15,7 +16,7 @@ ht-degree: 97%
 
 # 개발자 FAQ {#dev-faq}
 
-![](../../assets/v7-only.svg)
+
 
 개방형 솔루션인 Adobe Campaign은 사용자 지정 및 고급 애플리케이션 개발을 위한 준비가 되어 있습니다.
 

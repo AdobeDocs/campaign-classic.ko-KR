@@ -2,9 +2,11 @@
 product: campaign
 title: 테이블 만들기
 description: 테이블 만들기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '2495'
 ht-degree: 1%
@@ -13,7 +15,7 @@ ht-degree: 1%
 
 # 테이블 만들기{#creating-a-table}
 
-![](../../assets/common.svg)
+
 
 보고서에 테이블을 추가하여 데이터를 표시할 수 있습니다. 큐브 측정을 기반으로 만들어진 피벗 테이블, 그룹이 있는 목록 또는 값 분류가 포함된 테이블일 수 있습니다.
 

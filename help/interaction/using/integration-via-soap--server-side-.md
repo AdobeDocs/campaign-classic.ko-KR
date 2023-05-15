@@ -2,11 +2,12 @@
 product: campaign
 title: SOAP를 통한 통합(서버측)
 description: SOAP를 통한 통합(서버측)
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 # SOAP를 통한 통합(서버측){#integration-via-soap-server-side}
 
-![](../../assets/v7-only.svg)
+
 
 오퍼 관리를 위해 제공된 SOAP 웹 서비스는 일반적으로 Adobe Campaign에서 사용되는 서비스와 다릅니다. 이전 섹션에 설명된 상호 작용 URL을 통해 액세스할 수 있으며 특정 연락처에 대한 오퍼를 표시하거나 업데이트할 수 있습니다.
 

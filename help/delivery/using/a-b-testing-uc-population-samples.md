@@ -2,9 +2,11 @@
 product: campaign
 title: 모집단 샘플 구성
 description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 7%
@@ -13,7 +15,7 @@ ht-degree: 7%
 
 # 모집단 샘플 구성 {#step-2--configuring-population-samples}
 
-![](../../assets/common.svg)
+
 
 ## 쿼리 활동 구성 {#configuring-the-query-activity}
 

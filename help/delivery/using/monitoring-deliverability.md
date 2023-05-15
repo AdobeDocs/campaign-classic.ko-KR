@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: Adobe Campaign Classic에서 게재 기능 모니터링
-description: Adobe Campaign Classic의 게재 기능 모니터링에 대한 도구 및 지침에 대해 알아봅니다.
+title: Adobe Campaign에서 게재 기능 모니터링
+description: Adobe Campaign의 게재 기능 모니터링에 대한 도구 및 지침에 대해 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '531'
 ht-degree: 1%
 
 ---
 
 # 게재 기능 모니터링{#monitoring-deliverability}
 
-![](../../assets/common.svg)
+
 
 아래에 Adobe Campaign에서 제공하는 다양한 모니터링 도구에 대한 자세한 내용과, 플랫폼의 게재 기능을 모니터링하기 위해 Adobe Campaign에서 제공하는 기능을 활용하는 데 대한 몇 가지 추가 지침이 있습니다.
 

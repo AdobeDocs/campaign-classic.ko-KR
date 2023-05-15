@@ -2,9 +2,11 @@
 product: campaign
 title: Adobe Campaign Classic의 게재 기능 기본 정보
 description: Adobe Campaign의 게재 기능 관리에 대해 자세히 알아보십시오
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 6%
@@ -13,7 +15,7 @@ ht-degree: 6%
 
 # 메시지 콘텐츠 제어{#control-message-content}
 
-![](../../assets/common.svg)
+
 
 이메일이 수신자에게 도달하고 전자 메일 게재 가능성을 향상하기 위해 많은 규칙을 준수해야 합니다. 그렇지 않으면 특정 메시지의 콘텐츠가 스팸으로 감지될 수 있습니다. Adobe Campaign은 콘텐츠를 이러한 규칙을 준수하도록 하는 몇 가지 도구를 제공합니다.
 

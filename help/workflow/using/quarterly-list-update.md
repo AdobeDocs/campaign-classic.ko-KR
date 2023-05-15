@@ -1,10 +1,11 @@
 ---
 product: campaign
 title: 증분 쿼리를 사용한 분기별 목록 업데이트
-description: 이 사용 사례에서는 증분 쿼리를 사용하여 수신자 목록을 자동으로 업데이트합니다.
+description: 이 사용 사례에서는 증분 쿼리를 사용하여 수신자 목록을 자동으로 업데이트합니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 5%
@@ -13,7 +14,7 @@ ht-degree: 5%
 
 # 증분 쿼리를 사용한 분기별 목록 업데이트 {#quarterly-list-update}
 
-![](../../assets/v7-only.svg)
+
 
 다음 예에서는 [증분 쿼리](incremental-query.md) 수신자 목록을 자동으로 업데이트하는 데 사용됩니다. 이러한 수신자는 계절별 마케팅 캠페인의 일부로 타겟팅됩니다.
 

@@ -2,9 +2,10 @@
 product: campaign
 title: 상호 작용 및 오퍼 관리
 description: 자격 규칙에 따라 담당자에게 최상의 오퍼를 보내는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 6%
@@ -13,7 +14,7 @@ ht-degree: 6%
 
 # 상호 작용 및 오퍼 관리{#interaction-and-offer-management}
 
-![](../../assets/v7-only.svg)
+
 
 상호 작용을 통해 지정된 연락처(고객 또는 타겟)와의 상호 작용 중에 실시간으로 응답할 수 있으므로 단일 또는 여러 개의 수정된 오퍼로 만들 수 있습니다. 예를 들어 간단한 통신 메시지, 하나 또는 여러 제품 또는 서비스에 대한 특별 오퍼가 될 수 있습니다.
 

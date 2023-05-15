@@ -2,8 +2,10 @@
 product: campaign
 title: 필터 만들기
 description: 사용자 지정 테이블에 대한 필터를 만드는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 4%
@@ -12,7 +14,7 @@ ht-degree: 4%
 
 # 필터 만들기{#creating-filters}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign과 함께 제공되는 기본 제공 수신자 테이블과 마찬가지로 새 수신자 테이블은 사전 정의된 필터 배치를 받을 수 있습니다.
 

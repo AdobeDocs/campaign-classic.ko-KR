@@ -2,11 +2,12 @@
 product: campaign
 title: 개인 정보 보호 요청 관리
 description: 개인 정보 보호 요청에 대해 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: a8044037e889f59d4288a0746001e84d319f6bcf
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # 개인 정보 보호 요청 정보 {#privacy-requests}
 
-![](../../assets/v7-only.svg)
+
 
 개인 정보 관리에 대한 일반 프레젠테이션은 [이 섹션](privacy-management.md)을 참조하십시오.
 

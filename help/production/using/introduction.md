@@ -2,26 +2,27 @@
 product: campaign
 title: 소개
 description: 소개
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 1%
 
 ---
 
 # 소개{#introduction}
 
-![](../../assets/v7-only.svg)
+
 
 이 섹션에서는 Adobe Campaign, 클라이언트측 및 서버측 업그레이드에 적용할 절차에 대해 설명하고 기존 인스턴스의 유니코드로 전환하는 방법에 대해 설명합니다.
 
 >[!NOTE]
 >
->호스팅된 인스턴스의 경우 Adobe 관리자와 함께 조정해야 합니다.\
+>호스팅/관리 서비스 인스턴스의 경우 Adobe 관리자와 조율해야 합니다.\
 >온-프레미스 인스턴스의 경우 Adobe 컨설턴트의 지원을 받을 수 있습니다.
 
 Adobe Campaign이 설치된 모든 서버에 업그레이드를 적용해야 합니다.

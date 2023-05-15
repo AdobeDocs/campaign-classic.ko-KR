@@ -2,20 +2,21 @@
 product: campaign
 title: 타겟팅 활동 기본 정보
 description: 타겟팅 활동 기본 정보
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Audiences, Targeting Activity
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
-source-git-commit: 743baa49e5d62ed1c2f7f635f6bf120a67646e63
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
 # 워크플로우에서 활동 타겟팅{#about-targeting-activities}
 
-![](../../assets/v7-only.svg)
 
-이러한 활동을 사용하면 세트를 정의하고 교차, 결합 또는 제외 작업을 사용하여 이러한 세트를 분할하거나 결합하여 하나 이상의 대상을 작성할 수 있습니다.
+
+이러한 활동을 통해 집합을 정의하고 교차, 결합 또는 제외 작업을 사용하여 이러한 집합을 분할 또는 결합하여 하나 이상의 대상을 빌드할 수 있습니다.
 
 * **쿼리**: 쿼리를 실행할 수 있습니다. 을(를) 참조하십시오. [쿼리 만들기](query.md#creating-a-query).
 * **증분 쿼리**: 쿼리를 수행하고 실행을 계획할 수 있습니다. 자세한 내용은 [증분 쿼리](incremental-query.md) 섹션을 참조하십시오.

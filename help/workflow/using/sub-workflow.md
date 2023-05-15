@@ -2,9 +2,10 @@
 product: campaign
 title: 하위 워크플로우
 description: 하위 워크플로우 활동에 대해 자세히 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # 하위 워크플로우{#sub-workflow}
 
-![](../../assets/v7-only.svg)
+
 
 다음 **[!UICONTROL Sub-workflow]** 활동을 사용하면 다른 워크플로우의 실행을 트리거하고 결과를 복구할 수 있습니다. 이 활동을 사용하면 간소화된 인터페이스를 사용하는 동안 복잡한 워크플로우를 사용할 수 있습니다.
 

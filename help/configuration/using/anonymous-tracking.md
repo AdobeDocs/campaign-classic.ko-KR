@@ -2,8 +2,9 @@
 product: campaign
 title: 익명 추적
 description: 익명 추적을 설정하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 5%
@@ -11,8 +12,6 @@ ht-degree: 5%
 ---
 
 # 익명 추적{#anonymous-tracking}
-
-![](../../assets/v7-only.svg)
 
 Adobe Campaign을 사용하면 수집된 웹 추적 정보를 수신자가 익명으로 사이트를 검색할 때 수신자에게 연결할 수 있습니다. 사용자가 웹 사이트의 태그가 지정된 페이지를 탐색할 때 이 검색 정보가 수집되므로 Adobe Campaign에서 보낸 이메일을 클릭하면 해당 정보가 식별되고 정보가 자동으로 해당 페이지에 연결됩니다.
 

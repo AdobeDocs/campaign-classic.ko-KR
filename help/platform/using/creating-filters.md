@@ -2,11 +2,13 @@
 product: campaign
 title: 필터 만들기
 description: 필터 만들기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1963'
 ht-degree: 0%
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 # 필터 만들기{#creating-filters}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign 트리( **[!UICONTROL Explorer]** 홈 페이지의 메뉴)에서 데이터베이스에 포함된 데이터가 목록에 표시됩니다. 연산자에 필요한 데이터만 표시하도록 이러한 목록을 구성할 수 있습니다. 그런 다음 필터링된 데이터에 대해 작업을 시작할 수 있습니다. 필터 구성을 사용하면 목록에서 데이터를 선택할 수 있습니다 **[!UICONTROL dynamically]**. 데이터가 수정되면 필터링된 데이터가 업데이트됩니다.
 

@@ -2,9 +2,11 @@
 product: campaign
 title: AB 테스트 사용 사례
 description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 4%
@@ -13,7 +15,7 @@ ht-degree: 4%
 
 # A/B 이 사용 사례 테스트 {#ab-testing-use-case}
 
-![](../../assets/common.svg)
+
 
 이 사용 사례에서는 타겟팅 워크플로우를 통해 두 개의 이메일 게재 콘텐츠를 비교하려고 합니다. 메시지와 텍스트는 두 게재에서 동일합니다. 레이아웃만 변경됩니다.
 

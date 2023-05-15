@@ -2,9 +2,11 @@
 product: campaign
 title: 콘텐츠 강화
 description: 콘텐츠 강화
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Data Management
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -13,7 +15,7 @@ ht-degree: 0%
 
 # 콘텐츠 강화{#enriching-content}
 
-![](../../assets/common.svg)
+
 
 집계를 사용하면 외부 데이터로 컨텐츠를 보강할 수 있습니다. 이 데이터는 일반 쿼리 또는 연결된 테이블에서 가져옵니다.
 

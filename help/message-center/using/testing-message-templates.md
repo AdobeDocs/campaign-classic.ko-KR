@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: 트랜잭션 메시지 템플릿 테스트
-description: Adobe Campaign Classic에서 시드 주소를 미리 보고 테스트하기 위해 트랜잭션 메시지에서 시드 주소를 관리하는 방법을 알아봅니다.
+description: Adobe Campaign Classic에서 시드 주소를 미리 보고 테스트하기 위해 트랜잭션 메시지에서 시드 주소를 관리하는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 # 트랜잭션 메시지 템플릿 테스트 {#testing-message-templates}
 
-![](../../assets/v7-only.svg)
+
 
 한 번 [메시지 템플릿](../../message-center/using/creating-the-message-template.md) 가 준비되었습니다. 아래 단계에 따라 미리 보고 테스트하십시오.
 

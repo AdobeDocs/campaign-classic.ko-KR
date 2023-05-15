@@ -2,9 +2,10 @@
 product: campaign
 title: 게재 제어
 description: 게재 제어 워크플로우 활동에 대해 자세히 알아보십시오
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 2%
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 # 게재 제어{#delivery-control}
 
-![](../../assets/v7-only.svg)
+
 
 A **게재 제어**-type 작업을 사용하면 게재를 시작, 일시 중지 또는 중지할 수 있습니다.
 

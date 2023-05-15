@@ -2,11 +2,12 @@
 product: campaign
 title: 호스팅 모델
 description: 캠페인 호스팅 모델 살펴보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: Architect
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 # 호스팅 모델{#hosting-models}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign은 3가지 호스팅 모델 중에서 선택하여 비즈니스 요구에 맞는 최상의 모델 또는 모델을 선택할 수 있는 유연성과 자유를 제공합니다.
 
@@ -37,7 +38,7 @@ Adobe Campaign을 as a Managed Service으로 배포할 수 있습니다. 사용�
 * 캠페인 옵션 구성: 참조 [이 섹션](../../installation/using/configuring-campaign-options.md).
 * CRM 커넥터 구성: 참조 [이 섹션](../../platform/using/crm-connectors.md).
 
-## On-premise
+## 온프레미스
 
 Adobe Campaign은 온-프레미스에서 배포할 수 있습니다. 사용자 인터페이스, 실행 관리 엔진 및 데이터베이스를 포함한 Adobe Campaign의 모든 구성 요소는 고객 데이터 센터에 있는 사이트에 있습니다. 이 배포 모델에서 고객은 모든 소프트웨어 및 하드웨어 업데이트 및 업그레이드를 관리하며, 전용 데이터베이스 관리자는 Campaign 인스턴스를 관리하기 위해 유지 관리 및 최적화 작업을 수행해야 합니다.
 

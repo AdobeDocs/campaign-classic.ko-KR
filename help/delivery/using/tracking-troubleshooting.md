@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: 추적 문제 해결
-description: 이 섹션에서는 Adobe Campaign Classic의 추적 구성 및 구현과 관련된 일반적인 질문을 제공합니다
+description: 이 섹션에서는 Adobe Campaign의 추적 구성 및 구현과 관련된 일반적인 질문을 제공합니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '758'
 ht-degree: 1%
 
 ---
 
 # 추적 문제 해결 {#tracking-troubleshooting}
 
-![](../../assets/common.svg)
+
 
 이 섹션에서는 Adobe Campaign Classic에서 구성 및 구현 추적과 관련된 일반적인 질문을 확인할 수 있습니다.
 

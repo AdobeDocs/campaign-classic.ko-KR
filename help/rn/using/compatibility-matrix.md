@@ -2,12 +2,13 @@
 product: campaign
 title: Campaign Classic용 호환성 매트릭스
 description: Campaign Classic 호환성 매트릭스
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 0065a25250d73c71e7569768a38b5836cccab992
-workflow-type: ht
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 100%
 
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # 호환성 매트릭스{#compatibility-matrix}
 
-![](../../assets/v7-only.svg)
+
 
 이 문서에는 **Adobe Campaign Classic v7**&#x200B;의 [최신 빌드](../../rn/using/latest-release.md)를 지원하는 모든 시스템 및 구성 요소가 나열되어 있습니다. 이 목록에 포함되지 않은 제품과 버전은 Adobe Campaign과 호환되지 않습니다.
 

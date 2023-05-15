@@ -2,9 +2,11 @@
 product: campaign
 title: 결과 분석
 description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 5%
@@ -13,7 +15,7 @@ ht-degree: 5%
 
 # 결과 분석 {#step-8--analyzing-the-result}
 
-![](../../assets/common.svg)
+
 
 테스트 게재가 전송되면 전송된 수신자와 열려 있는지 여부를 확인할 수 있습니다.
 

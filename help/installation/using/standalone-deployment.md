@@ -2,11 +2,12 @@
 product: campaign
 title: 독립형 배포
 description: 독립형 배포
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 # 독립형 배포{#standalone-deployment}
 
-![](../../assets/v7-only.svg)
+
 
 이 구성에는 동일한 컴퓨터에 있는 모든 구성 요소가 포함됩니다.
 
@@ -59,7 +60,7 @@ ht-degree: 2%
 
 ## 설치 및 구성 단계 {#installation-and-configuration-steps}
 
-### 필수 구성 요소 {#prerequisites}
+### 전제 조건 {#prerequisites}
 
 * JDK,
 * 웹 서버(IIS, Apache),
@@ -75,7 +76,7 @@ ht-degree: 2%
 다음 예에서 인스턴스의 매개 변수는 다음과 같습니다.
 
 * 인스턴스 이름: **데모**
-* DNS 마스크: **console.campaign.net*** (클라이언트 콘솔 연결 및 보고서에만 해당)
+* DNS 마스크: **console.campaign.net&#42;** (클라이언트 콘솔 연결 및 보고서에만 해당)
 * 데이터베이스: **campaign:demo@dbsrv**
 
 ### 설치 및 구성(단일 시스템) {#installing-and-configuring--single-machine-}

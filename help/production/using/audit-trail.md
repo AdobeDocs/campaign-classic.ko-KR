@@ -2,9 +2,10 @@
 product: campaign
 title: 감사 추적
 description: Campaign 감사 추적을 통해 인스턴스를 모니터링하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Audit Trail, Monitoring
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 3%
@@ -13,7 +14,7 @@ ht-degree: 3%
 
 # 감사 추적{#audit-trail}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign에서 **[!UICONTROL Audit trail]** 인스턴스 내에서 수행된 전체 변경 내역에 액세스할 수 있습니다.
 

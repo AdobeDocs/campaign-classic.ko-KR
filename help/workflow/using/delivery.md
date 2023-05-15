@@ -2,9 +2,10 @@
 product: campaign
 title: 게재
 description: 게재 유형 워크플로우 활동에 대해 자세히 알아보십시오
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 # 게재{#delivery}
 
-![](../../assets/v7-only.svg)
+
 
 A **배달**-type 활동을 통해 게재 작업을 만들 수 있습니다. 게재 유형 활동은 입력 요소를 사용하여 생성할 수 있습니다.
 

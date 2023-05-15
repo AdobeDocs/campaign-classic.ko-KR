@@ -2,9 +2,10 @@
 product: campaign
 title: 푸시 문제 해결
 description: 푸시 문제 해결
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
-source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 2%
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 # 문제 해결{#troubleshooting}
 
-![](../../assets/v7-only.svg)
+
 
 모바일 장치가 Wi-Fi에 연결되어 있고 알림을 받지 않는 경우 FCM/APNs 포트가 방화벽에 의해 차단되지 않았는지 확인합니다.
 

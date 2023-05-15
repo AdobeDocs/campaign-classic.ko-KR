@@ -2,8 +2,9 @@
 product: campaign
 title: Campaign Explorer 탐색 트리 구성
 description: Campaign Explorer 탐색 트리를 구성하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 1%
@@ -11,8 +12,6 @@ ht-degree: 1%
 ---
 
 # Campaign Explorer 탐색 트리 구성{#configuration}
-
-![](../../assets/v7-only.svg)
 
 전문가 사용자로서 탐색기 트리에서 폴더를 추가하고 사용자 지정할 수 있습니다.
 
@@ -265,7 +264,7 @@ A **`<command>`** 요소를 포함할 수 있습니다. **`<command>`** 하위 �
 
 명령 구분 기호를 사용하면 명령 간 분리 막대를 표시할 수 있습니다. 이것은 **&#39;-&#39;** 명령 레이블에 포함된 값입니다.
 
-선택 사항인 **`<soapcall>`** 입력 매개 변수를 사용하는 태그는 실행할 SOAP 메서드 호출을 정의합니다. SOAP API에 대한 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
+선택 사항인 **`<soapcall>`** 입력 매개 변수를 사용하는 태그는 실행할 SOAP 메서드 호출을 정의합니다. SOAP API에 대한 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko).
 
 양식 컨텍스트는 **`<enter>`** 태그에 가깝게 포함했습니다. 이 태그에 대한 자세한 내용은 입력 양식 설명서를 참조하십시오.
 

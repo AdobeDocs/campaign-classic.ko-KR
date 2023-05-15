@@ -2,20 +2,21 @@
 product: campaign
 title: 운영자 프로필
 description: 운영자 프로필
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
 # 운영자 프로필{#operator-profiles}
 
-![](../../assets/v7-only.svg)
+
 
 상호 작용을 사용하는 연산자는 두 가지 유형이 있습니다. 오퍼 관리자 및 게재 관리자 이들은 트리와 플랫폼의 일부 부분에만 액세스할 수 있는 특정 권한을 갖습니다.
 
@@ -37,7 +38,7 @@ ht-degree: 5%
 * 보기 **[!UICONTROL Live]** 환경.
 * 관리 함수(사전 정의된 공간 및 필터)를 구성합니다.
 * 카테고리를 만들고 변경합니다.
-* 오퍼를 만듭니다.
+* 오퍼 만들기.
 * 오퍼 자격 을 구성합니다.
 * 오퍼를 승인합니다.
 
@@ -97,7 +98,7 @@ ht-degree: 5%
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 사전 정의된 오퍼 필터<br /> </td> 
+   <td> 미리 정의된 오퍼 필터<br /> </td> 
    <td> 읽기/쓰기<br /> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
@@ -117,7 +118,7 @@ ht-degree: 5%
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오퍼 카테고리<br /> </td> 
+   <td> 오퍼 범주<br /> </td> 
    <td> 읽기/쓰기<br /> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
@@ -157,7 +158,7 @@ ht-degree: 5%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 사전 정의된 오퍼 필터<br /> </td> 
+   <td> 미리 정의된 오퍼 필터<br /> </td> 
    <td> 읽기<br /> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
@@ -177,7 +178,7 @@ ht-degree: 5%
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오퍼 카테고리<br /> </td> 
+   <td> 오퍼 범주<br /> </td> 
    <td> </td> 
    <td> 읽기<br /> </td> 
   </tr> 

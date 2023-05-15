@@ -2,9 +2,11 @@
 product: campaign
 title: 고급 기능
 description: 보고서 작업 시 고급 기능에 대해 자세히 알아보십시오
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 4%
@@ -13,7 +15,7 @@ ht-degree: 4%
 
 # 고급 기능{#advanced-functionalities}
 
-![](../../assets/common.svg)
+
 
 기술 사용자로서, [일반 속성](../../reporting/using/properties-of-the-report.md)로 지정하는 경우 고급 기능을 활용하여 다음과 같은 보고서를 구성할 수 있습니다.
 

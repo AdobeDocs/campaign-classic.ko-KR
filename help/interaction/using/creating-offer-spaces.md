@@ -2,11 +2,12 @@
 product: campaign
 title: 오퍼 공간 만들기
 description: 오퍼 공간 만들기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 1%
@@ -15,7 +16,7 @@ ht-degree: 1%
 
 # 오퍼 공간 만들기{#creating-offer-spaces}
 
-![](../../assets/v7-only.svg)
+
 
 오퍼 공간 만들기는 **기술 관리자** 오퍼 공간 하위 폴더에 대한 액세스 권한 사용. 오퍼 공간은 디자인 환경에서만 만들 수 있으며, 오퍼 승인 중에 라이브 환경에 자동으로 복제됩니다.
 

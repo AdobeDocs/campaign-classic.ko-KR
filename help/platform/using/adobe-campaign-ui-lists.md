@@ -2,9 +2,10 @@
 product: campaign
 title: 목록 관리 및 사용자 지정
 description: 목록 검색 및 구성 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 2%
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 # 목록 관리 및 사용자 지정{#manage-and-customize-lists}
 
-![](../../assets/v7-only.svg)
+
 
 탐색기를 사용하여 Campaign 데이터베이스의 레코드 목록에 액세스할 수 있습니다. 이러한 목록을 필터링하고, 검색을 실행하고, 정보를 추가하고, 데이터를 필터링하고, 정렬할 수 있습니다.
 

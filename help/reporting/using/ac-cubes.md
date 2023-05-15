@@ -2,17 +2,19 @@
 product: campaign
 title: 큐브 시작
 description: 큐브 시작
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Reporting
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+exl-id: 71d24f03-d41d-49bc-b9a5-8237902f7d6a
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '343'
 ht-degree: 24%
 
 ---
 
 # 큐브 시작{#about-cubes}
 
-![](../../assets/v7-only.svg)
+
 
 데이터베이스에서 데이터 탐색은 를 통해 제공됩니다 **Marketing Analytics** 모듈. 이를 통해 데이터를 분석 및 측정하고, 통계를 계산하며, 보고서 작성 및 계산을 간소화 및 최적화할 수 있습니다. 이 외에도 Marketing Analytics를 사용하여 보고서를 만들고 대상 모집단을 작성할 수 있습니다. 식별되면 Adobe Campaign에서 사용할 수 있는 목록(타깃팅, 세그멘테이션 등)에 저장됩니다.
 
@@ -44,4 +46,4 @@ Campaign Marketing Analytics 모듈을 사용하여 다음을 수행할 수 있�
 1. 큐브에서 계산 및 합계된 데이터를 사용하여 쿼리를 작성합니다.
 1. 모집단을 식별하고 목록에서 참조합니다.
 
-에서 큐브를 만들고 사용하는 방법을 알아봅니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html){target=&quot;_blank&quot;}.
+에서 큐브를 만들고 사용하는 방법을 알아봅니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html){target="_blank"}.

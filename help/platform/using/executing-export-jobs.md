@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: 내보내기 작업 구성
-description: Campaign Classic에서 내보내기 작업을 구성하고 실행하는 방법을 알아봅니다.
+description: Campaign에서 내보내기 작업을 구성하고 실행하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 1%
+source-wordcount: '925'
+ht-degree: 2%
 
 ---
 
 # 내보내기 작업 구성 {#executing-export-jobs}
 
-![](../../assets/common.svg)
+
 
 내보내기 작업을 사용하면 데이터베이스에서 데이터에 액세스하고 데이터를 추출할 수 있습니다. 연락처, 클라이언트, 목록, 세그먼트 등
 
@@ -106,8 +108,8 @@ ht-degree: 1%
 * 필드의 컨텐츠에 케이스 변형을 적용하려면 **[!UICONTROL Transformation]** 열. 다음을 선택할 수 있습니다.
 
    * 소문자로 전환
-   * 대소문자 전환
-   * 대문자로 된 첫 번째 문자
+   * 대문자로 전환
+   * 첫 글자를 대문자로
 
    ![](assets/s_ncs_user_export_wizard06.png)
 

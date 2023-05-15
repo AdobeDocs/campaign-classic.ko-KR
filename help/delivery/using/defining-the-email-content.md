@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: Adobe Campaign Classic에서 이메일 콘텐츠 정의
-description: Adobe Campaign Classic을 사용할 때 이메일 콘텐츠를 정의하는 방법을 알아봅니다.
+description: Adobe Campaign 사용 시 이메일 콘텐츠를 정의하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: f5bd8c1806440b47225130070e166d90d99dcc75
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1989'
 ht-degree: 1%
 
 ---
 
 # 이메일 콘텐츠 정의 {#defining-the-email-content}
 
-![](../../assets/common.svg)
 
-## 보낸 사람 {#sender}
+
+## 발신자 {#sender}
 
 보낸 메시지 헤더에 표시될 발신자의 이름과 주소를 정의하려면 **[!UICONTROL From]** 링크를 클릭합니다.
 

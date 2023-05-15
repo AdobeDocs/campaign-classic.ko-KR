@@ -2,9 +2,10 @@
 product: campaign
 title: Adobe Campaign Classic의 스키마 참조 기본 정보
 description: Adobe Campaign Classic 데이터베이스의 개념적 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법을 알아보십시오
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Schema Extension
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 7%
@@ -12,8 +13,6 @@ ht-degree: 7%
 ---
 
 # 스키마 참조 정보{#about-schema-reference}
-
-![](../../assets/v7-only.svg)
 
 이 장에서는 Adobe Campaign 데이터베이스의 개념적 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법에 대해 설명합니다.
 

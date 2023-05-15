@@ -2,18 +2,20 @@
 product: campaign
 title: 보고서에 대한 액세스 구성
 description: 보고서에 대한 액세스 구성
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 보고서에 대한 액세스 구성{#configuring-access-to-the-report}
 
-![](../../assets/common.svg)
+
 
 ## 보고서 표시 컨텍스트 {#report-display-context}
 
@@ -29,7 +31,7 @@ Adobe Campaign 플랫폼에서 보고서의 표시 컨텍스트를 **[!UICONTROL
 * **[!UICONTROL Multiple selection]** : 여러 엔티티를 선택하면 보고서에 액세스할 수 있습니다.
 * **[!UICONTROL Global]** : 보고서는 **[!UICONTROL Reports]** 탭.
 
-### 표시 시퀀스 {#display-sequence}
+### 시퀀스 표시 {#display-sequence}
 
 다음 **[!UICONTROL Sequence]** 필드를 사용하면 목록에서 보고서의 표시 순서를 지정하는 숫자 값을 입력할 수 있습니다.
 

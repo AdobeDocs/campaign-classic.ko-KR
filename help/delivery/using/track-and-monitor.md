@@ -2,9 +2,11 @@
 product: campaign
 title: 메시지 추적 및 모니터링
 description: 메시지 추적 및 모니터링 방법 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 3%
@@ -13,7 +15,7 @@ ht-degree: 3%
 
 # 추적 및 모니터링 {#track-and-monitor}
 
-![](../../assets/common.svg)
+
 
 을(를) 클릭한 경우 **보내기** 버튼? 어떻게 되는지 봅시다. 게재를 전송하면 Adobe Campaign을 통해 전송된 메시지를 추적하고 수신자가 게재에 어떻게 반응하는지를 알 수 있습니다. 이를 통해 향후 전송을 개선하고 다음 캠페인을 최적화할 수 있습니다.
 

@@ -2,18 +2,20 @@
 product: campaign
 title: SMS 커넥터 프로토콜 및 설정
 description: SMS 커넥터 및 구성 방법에 대해 자세히 알아보십시오
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 2c145829517a6961d502cc3e7b904547f8c71602
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '8460'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # SMS 커넥터 프로토콜 및 설정 {#sms-connector-protocol}
 
-![](../../assets/common.svg)
+
 
 >[!NOTE]
 >
@@ -356,8 +358,8 @@ SMPP 프로토콜에서 GSM7 텍스트가 문자당 8비트로 확장되어 문�
 
 | 인코딩 | 일반적인 data_coding | 메시지 크기(문자) | 다중 부분 SMS의 부품 크기 | 사용 가능한 문자 |
 |:-:|:-:|:-:|:-:|:-:|
-| GSM7 | 0 | 160년 | 152년 | GSM7 기본 문자 세트 + 확장(확장 문자는 2자로 사용) |
-| 라틴-1 | 3 | 140년 | 134년 | ISO-8859-1 |
+| GSM 7 | 0 | 160 | 152 | GSM7 기본 문자 세트 + 확장(확장 문자는 2자로 사용) |
+| 라틴-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | 유니코드(전화마다 다름) |
 
 ## SMPP 외부 계정 매개 변수 {#SMPP-parameters-external}
@@ -418,11 +420,11 @@ Adobe Campaign Classic의 경우 서로 다른 수의 수신기 및 송신기 �
 
 자동 답장을 설정하면 SMS 프로세스가 송신기/수신기 쌍을 열어 송신기 연결 수를 늘립니다. 자동 응답을 설정하지 않은 경우 수신자 연결만 열립니다.
 
-#### SMPP를 통해 TLS 활성화 {#enable-TLS}
+#### SMPP에 대해 TLS 활성화 {#enable-TLS}
 
 TLS를 사용하여 공급자에 연결합니다. 연결이 암호화됩니다. TLS 연결은 OpenSSL 라이브러리에서 관리합니다. OpenSSL에 적용할 수 있는 모든 것은 이 연결에 대해 true입니다.
 
-#### 로그 파일에서 자세한 SMPP 추적을 활성화합니다 {#enable-verbose-log-file}
+#### 로그 파일의 자세한 SMPP 추적 활성화 {#enable-verbose-log-file}
 
 이 설정은 모든 SMPP 트래픽을 로그 파일에 덤프합니다. 초기 설정 중에 매개 변수를 조정하는 데 종종 필요합니다. 커넥터를 문제 해결할 때 활성화되고 공급자가 보는 트래픽과 비교해야 합니다.
 
@@ -432,7 +434,7 @@ Adobe Campaign Classic에서 로그 출력은 MT 관련 트래픽 및 MO 및 SR 
 
 이 섹션은 구분된 경우에만 볼 수 있습니다 **송신기+수신기** 모드.
 
-#### 수신기에 대해 다른 매개 변수 사용 {#receiver-parameters}
+#### 수신자에 대해 다른 매개 변수 사용 {#receiver-parameters}
 
 상자를 선택 취소하면 동일한 설정이 전송자와 수신자에 사용됩니다.
 
@@ -500,7 +502,7 @@ TON(숫자 유형) 및 NPI(번호 지정 계획 지시자)는 [SMPP 3.4 사양](
 
 이러한 설정은 SMPP 채널의 모든 시간 측면을 제어합니다. 일부 공급자는 메시지 비율, 창 및 다시 시도 시간을 매우 정확하게 제어해야 합니다. 이러한 설정은 공급자의 용량과 해당 계약에 표시된 조건과 일치하는 값으로 설정되어야 합니다.
 
-#### 보내는 창 {#sending-window}
+#### 전송 기간 {#sending-window}
 
 창은 `SUBMIT_SM PDU`일치하는 항목을 기다리지 않고 보낼 수 있는 `SUBMIT_SM_RESP`.
 
@@ -529,19 +531,19 @@ TON(숫자 유형) 및 NPI(번호 지정 계획 지시자)는 [SMPP 3.4 사양](
 
 최종 아키텍처와 특별히 요청한 SMPP 공급자에서 제대로 벤치마킹하지 않는 한 이 수보다 정확한 처리량을 보장할 수 없으므로 이 설정을 1000으로 유지하는 것이 일반적으로 좋습니다. 1000MT/s 이상으로 연결되는 연결 수를 늘리는 것이 더 좋을 것입니다.
 
-#### 재연결 전 시간 {#time-reconnection}
+#### 다시 연결 이전 시간 {#time-reconnection}
 
 TCP 연결이 끊기면 커넥터가 이 시간(초)을 기다린 후에 연결을 시도합니다.
 
-#### MT의 만료 기간 {#expiration-period}
+#### MT 만료일 {#expiration-period}
 
 시간 제한 간격 `SUBMIT_SM` 및 일치 `SUBMIT_SM_RESP`. 만약 `RESP` 가 제 시간에 수신되지 않으면 메시지가 실패로 간주되고 MTA의 글로벌 다시 시도 정책이 적용됩니다.
 
-#### 바인딩 시간 제한 {#bind-timeout}
+#### 바인딩 시간 초과 {#bind-timeout}
 
 TCP 연결 시도와 시간 제한 `BIND_*_RESP` 답장. 연결이 시간 초과되면 Adobe Campaign 커넥터에 의해 연결이 닫히고 다시 시도하기 전에 다시 연결되기 전에 시간이 대기합니다.
 
-#### inquisition_link 기간 {#enquire-link-period}
+#### enquire_link 기간 {#enquire-link-period}
 
 `enquire_link` 은 연결을 유지하기 위해 전송되는 특별한 종류의 PDU입니다. 이 기간은 초 단위입니다. 캠페인 커넥터는 `enquire_link` 대역폭을 절약하기 위해 연결이 유휴 상태일 때. 이 기간 후 RESP를 두 번 받지 못하면 연결이 끊어진 것으로 간주되고 다시 연결 프로세스가 트리거됩니다.
 
@@ -601,8 +603,8 @@ TLS가 활성화되어 있으면 모든 인증서 검사를 건너뜁니다.
 인증서 유효성 확인에 대해 세 가지 값 중 하나를 선택할 수 있습니다.
 
 * 전체 인증 확인(호스트 이름 포함), 기본값입니다.
-* 호스트 이름 확인을 건너뜁니다.
-* 인증서 확인을 건너뜁니다.
+* 호스트 이름 인증 건너뛰기.
+* 인증서 인증 건너뛰기.
 
 #### 바인딩 톤/NPI {#bind-ton-npi}
 
@@ -614,7 +616,7 @@ TON(숫자 유형) 및 NPI(번호 지정 계획 지시자) [SMPP 3.4 사양](htt
 
 BIND PDU의 address_range 필드에 있는 그대로 전송됩니다. 이 값은 공급자가 필요한 대로 설정해야 합니다.
 
-#### 잘못된 ID 승인 수입니다. {#invalid-id}
+#### 잘못된 ID 승인 수 {#invalid-id}
 
 숫자 제한 **메시지 ID가 잘못되었습니다.** `DELIVER_SM_RESP` 단일 SR에 대해 전송할 수 있습니다.
 
@@ -640,7 +642,7 @@ Fox 예: 를 2로 설정할 때
 
 이 필드를 1로 설정하면 ID가 유효하지 않은 경우에도 커넥터가 항상 &quot;확인&quot;에 응답합니다. 문제 해결을 위해 감독 하에 1로 설정해야 하며, 예를 들어 공급자 측 문제로부터 복구하려면 최소 시간 동안 설정해야 합니다.
 
-#### SR에서 ID의 추출 ex {#regex-extraction}
+#### SR 내 ID의 추출 정규 표현식 {#regex-extraction}
 
 SR 형식은 SMPP 프로토콜 사양에서 엄격하게 적용되지 않습니다. 에 설명된 권장 사항일 뿐입니다 [부록 B](sms-protocol.md#sr-error-management) (167페이지) 사양을 포함합니다. 일부 SMPP 구현자는 이 필드의 형식을 다르게 지정하므로 Adobe Campaign에서 올바른 필드를 추출하는 방법이 필요합니다.
 
@@ -674,7 +676,7 @@ regex에 충분한 컨텍스트를 포함하지 않으면 다음과 같은 작�
 
 이는 로 캡처된 ID의 형식을 나타냅니다 `Extraction` SR에서 ID의 regex입니다. 값은 위의 MT의 형식과 같은 의미와 동작이 같습니다.
 
-**선택적 필드에 SR ID 또는 오류 코드가 있습니다.**
+**선택 필드의 SR ID 또는 오류 코드**
 
 >[!NOTE]
 >

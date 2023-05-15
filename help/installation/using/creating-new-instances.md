@@ -2,11 +2,12 @@
 product: campaign
 title: 새 인스턴스 만들기
 description: 새 인스턴스 만들기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 3b87eb3c-3b50-4ed4-80b1-4333261ffe0b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 10%
@@ -15,7 +16,7 @@ ht-degree: 10%
 
 # 새 인스턴스 만들기{#creating-new-instances}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign이 설치되고 인스턴스가 만들어진 후에는 콘솔에서 새 인스턴스를 추가할 수 있습니다. 이 만들기 모드에서는 콘솔에 액세스하지 않고 추적 인스턴스를 만들 수 있습니다.
 

@@ -2,9 +2,10 @@
 product: campaign
 title: 데이터 로딩(RDBMS)
 description: 데이터 로드(RDBMS) 워크플로우 활동에 대해 자세히 알아보십시오
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management Activity
 exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 3%
@@ -13,7 +14,7 @@ ht-degree: 3%
 
 # 데이터 로딩(RDBMS){#data-loading-rdbms}
 
-![](../../assets/v7-only.svg)
+
 
 다음 **[!UICONTROL Data loading (RDBMS)]** 활동을 사용하면 이 외부 데이터베이스에 직접 액세스하여 타겟팅에 필요한 데이터만 수집할 수 있습니다.
 

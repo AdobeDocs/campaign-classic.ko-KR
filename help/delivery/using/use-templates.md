@@ -2,9 +2,11 @@
 product: campaign
 title: 게재 템플릿 사용
 description: 게재 템플릿 사용
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 1%
@@ -13,7 +15,7 @@ ht-degree: 1%
 
 # 템플릿 사용 {#use-templates}
 
-![](../../assets/common.svg)
+
 
 게재 템플릿을 사용하면 대부분의 일반적인 활동 유형에 대해 준비된 시나리오를 제공하여 효율성을 높일 수 있습니다. 마케터는 템플릿을 사용하여 짧은 시간에 최소한의 사용자 지정으로 새 캠페인을 배포할 수 있습니다.
 

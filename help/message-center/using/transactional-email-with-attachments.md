@@ -2,18 +2,19 @@
 product: campaign
 title: 첨부 파일이 있는 트랜잭션 이메일 보내기
 description: Adobe Campaign을 사용하여 개별 및/또는 개인화된 첨부 파일을 사용하여 트랜잭션 이메일을 보내는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # 사용 사례: 첨부 파일이 있는 트랜잭션 전자 메일 보내기 {#transactional-email-with-attachments}
 
-![](../../assets/v7-only.svg)
+
 
 이 사용 사례의 목적은 아웃바운드 디스패치에 전자 메일 첨부 파일을 즉시 추가하는 것입니다.
 
@@ -52,7 +53,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. 권장 임계값은 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
+>성능 문제를 방지하려면 이메일당 둘 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. 권장 임계값은 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## 구현 {#implementation}
 

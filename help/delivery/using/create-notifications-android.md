@@ -2,9 +2,10 @@
 product: campaign
 title: Android 장치용 푸시 알림 만들기
 description: Android용 푸시 알림을 만드는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 # Android용 알림 만들기{#create-notificaations-android}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign을 사용하여 Android 장치에서 푸시 알림을 보냅니다. 게재 만들기에 대한 글로벌 개념은 [이 섹션](steps-about-delivery-creation-steps.md).
 

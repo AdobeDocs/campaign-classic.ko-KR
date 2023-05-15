@@ -2,18 +2,20 @@
 product: campaign
 title: 워크플로우를 사용하여 프로필 목록 만들기
 description: 워크플로우에서 프로필 목록을 만드는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Workflows
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
 # 워크플로우를 사용하여 프로필 목록 만들기{#creating-a-profile-list-with-a-workflow}
 
-![](../../assets/common.svg)
+
 
 을(를) 만들려면 **[!UICONTROL List]** 새 수신자 테이블을 기반으로 목록을 입력하면 목록을 생성할 타겟팅 워크플로우를 만들어야 합니다.
 
@@ -29,7 +31,7 @@ Campaign의 목록에 대한 자세한 내용은 [이 섹션](../../platform/usi
 
    ![](assets/mapping_create_list_workflow01.png)
 
-1. 를 두 번 클릭합니다. **쿼리** 활동을 클릭한 다음 **[!UICONTROL Edit the query]** 새 수신자 테이블의 스키마를 기반으로 타겟팅 차원을 선택하려면 다음을 수행하십시오. **개인**). 클릭 **[!UICONTROL Finish]** 확인합니다.
+1. 를 두 번 클릭합니다. **쿼리** 활동을 클릭한 다음 **[!UICONTROL Edit the query]** 새 수신자 테이블의 스키마를 기반으로 타겟팅 차원을 선택하려면 다음을 수행하십시오. **개인**). **[!UICONTROL Finish]**&#x200B;을(를) 클릭하여 확인합니다.
 
    ![](assets/mapping_create_list_workflow03.png)
 

@@ -2,9 +2,11 @@
 product: campaign
 title: 시드 주소 정보
 description: 시드 주소 시작
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 8%
@@ -13,7 +15,7 @@ ht-degree: 8%
 
 # 시드 주소 정보{#about-seed-addresses}
 
-![](../../assets/common.svg)
+
 
 시드 주소는 정의된 대상 기준과 일치하지 않는 수신자를 타겟팅 하는 데 사용됩니다. 이렇게 하면 게재 범위를 벗어나는 수신자는 다른 대상 수신자와 마찬가지로 게재를 받을 수 있습니다.
 

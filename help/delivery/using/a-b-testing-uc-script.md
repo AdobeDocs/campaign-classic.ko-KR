@@ -2,9 +2,11 @@
 product: campaign
 title: 스크립트 만들기
 description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 5%
@@ -13,7 +15,7 @@ ht-degree: 5%
 
 # 스크립트 만들기 {#step-5--creating-the-script}
 
-![](../../assets/common.svg)
+
 
 나머지 모집단에 대해 지정된 게재 콘텐츠 선택은 스크립트로 계산됩니다. 이 스크립트는 열림 비율이 가장 높은 게재 관련 정보를 복원하고 컨텐츠를 최종 게재에 복사합니다.
 
@@ -166,6 +168,6 @@ ht-degree: 5%
 * 가장 높은 전환율: `[indicators/@transactionRatio]`,
 * 메시지 수신 후 방문한 페이지 수: `[indicators/@totalWebPage]`,
 * 가장 낮은 구독 취소 비율: `[indicators/@optOutRatio]`,
-* 트랜잭션 금액: `[indicators/@amount]`.
+* 거래 금액: `[indicators/@amount]`.
 
 이제 최종 게재를 정의할 수 있습니다. [자세히 알아보기](a-b-testing-uc-final-delivery.md)

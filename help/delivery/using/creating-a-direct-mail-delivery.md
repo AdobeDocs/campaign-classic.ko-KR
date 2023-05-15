@@ -2,9 +2,11 @@
 product: campaign
 title: DM 게재 만들기
 description: DM 게재를 만드는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Direct Mail
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 20%
@@ -13,7 +15,7 @@ ht-degree: 20%
 
 # DM 게재 만들기{#creating-a-direct-mail-delivery}
 
-![](../../assets/common.svg)
+
 
 새 DM 게재를 만들려면 아래 단계를 수행하십시오.
 

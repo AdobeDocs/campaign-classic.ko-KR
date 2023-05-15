@@ -2,11 +2,13 @@
 product: campaign
 title: 활용 사례
 description: 활용 사례
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 2%
@@ -15,7 +17,7 @@ ht-degree: 2%
 
 # 활용 사례{#use-case}
 
-![](../../assets/common.svg)
+
 
 ## 구독자의 이메일 형식에 대한 필터 만들기 {#creating-a-filter-on-the-email-format-of-subscribers}
 

@@ -2,9 +2,10 @@
 product: campaign
 title: 흐름 제어 활동 정보
 description: 흐름 제어 활동 정보
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 5%
@@ -13,7 +14,7 @@ ht-degree: 5%
 
 # 워크플로우의 흐름 제어 활동{#about-flow-control-activities}
 
-![](../../assets/v7-only.svg)
+
 
 다음 활동은 데이터베이스 활동입니다. 그들의 주요 임무는 다른 활동을 조정하는 것입니다.
 
