@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: 기술 전자 메일 구성
-description: 이메일을 배달할 때 인스턴스의 출력을 제어하도록 Campaign을 구성하는 방법을 알아봅니다.
+description: 이메일을 배달할 때 인스턴스의 출력을 제어하도록 Campaign을 구성하는 방법을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '3023'
 ht-degree: 0%
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 # 기술 이메일 구성{#email-deliverability}
 
-![](../../assets/v7-only.svg)
+
 
 ## 개요 {#overview}
 
@@ -97,7 +99,7 @@ Adobe 플랫폼이 전자 메일을 효율적으로 보내고 받는 것과 관�
 
    >[!NOTE]
    >
-   >A **경로** 는 Adobe Campaign 간의 연결입니다 **mta** 타겟과 **mta**. Adobe Campaign **mta** 여러 시작 IP 및 여러 타겟 도메인 IP 중에서 선택할 수 있습니다.
+   >A **경로** 는 Adobe Campaign 간의 연결입니다 **mta** 타겟과 **mta**. Adobe Campaign **mta** 여러 개의 시작 IP 및 여러 타겟 도메인 IP 중에서 선택할 수 있습니다.
 
 ### 메시지 포기 {#message-abandonment}
 
@@ -239,7 +241,7 @@ MX에 대해 준수해야 하는 규칙은 **[!UICONTROL MX management]** 문서
 
 각 규칙에 사용할 수 있는 매개 변수는 다음과 같습니다.
 
-* **[!UICONTROL MX mask]**: 규칙이 적용되는 도메인. 각 규칙은 MX의 주소 마스크를 정의합니다. 따라서 이 마스크와 이름이 일치하는 모든 MX를 사용할 수 있습니다. 마스크에는 &quot;*&quot;와 &quot;?&quot;가 포함될 수 있습니다. 일반 문자
+* **[!UICONTROL MX mask]**: 규칙이 적용되는 도메인. 각 규칙은 MX의 주소 마스크를 정의합니다. 따라서 이 마스크와 이름이 일치하는 모든 MX를 사용할 수 있습니다. 마스크에는 &quot;&#42;&quot; 및 &quot;?&quot; 일반 문자
 
    예를 들어 다음 주소가 있습니다.
 
@@ -249,7 +251,7 @@ MX에 대해 준수해야 하는 규칙은 **[!UICONTROL MX management]** 문서
 
    는 다음 마스크와 호환됩니다.
 
-   * *.yahoo.com
+   * &#42;.yahoo.com
    * ?.mx.yahoo.com
 
    예를 들어 이메일 주소 foobar@gmail.com의 경우 도메인은 gmail.com이고 MX 레코드는 다음과 같습니다.
@@ -402,9 +404,9 @@ Adobe Campaign 플랫폼(데이터베이스 포함)을 구성하는 모든 서�
     * &quot;2&quot;: 5 / (5+1) = 83%
     * &quot;3&quot;: 1 / (5+1) = 17%
 
-* **includeDomains**: 특정 도메인에 속하는 이메일에 대해 이 IP 주소를 예약할 수 있습니다. 하나 이상의 와일드카드(&#39;*&#39;)를 포함할 수 있는 마스크 목록입니다. 특성을 지정하지 않으면 모든 도메인이 이 IP 주소를 사용할 수 있습니다.
+* **includeDomains**: 특정 도메인에 속하는 이메일에 대해 이 IP 주소를 예약할 수 있습니다. 하나 이상의 와일드카드(&#39;)를 포함할 수 있는 마스크 목록입니다&#42;&#39;). 특성을 지정하지 않으면 모든 도메인이 이 IP 주소를 사용할 수 있습니다.
 
-   예: **includeDomains=&quot;wanadoo.com,orange.com,yahoo.*&quot;**
+   예: **includeDomains=&quot;wanadoo.com,orange.com,yahoo.&#42;&quot;**
 
 * **excludeDomains**: 은 이 IP 주소의 도메인 목록을 제외합니다. 이 필터는 **includeDomains** 필터.
 

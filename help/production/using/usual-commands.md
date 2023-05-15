@@ -2,20 +2,22 @@
 product: campaign
 title: 일반적인 명령
 description: 일반적인 명령
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # 일반적인 명령{#usual-commands}
 
-![](../../assets/v7-only.svg)
+
 
 이 섹션에는 Adobe Campaign의 일반적인 명령이 나열됩니다.
 
@@ -29,7 +31,6 @@ ht-degree: 3%
 >
 >* 어떤 경우든, **-noconsole** 모듈이 시작되면 표시되는 주석을 삭제하는 인수입니다.
 >* 반대로 인수를 추가할 수 있습니다 **-verbose** 추가 정보를 표시합니다.
-
 >
 
 

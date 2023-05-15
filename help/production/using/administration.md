@@ -2,11 +2,13 @@
 product: campaign
 title: 관리
 description: 관리
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 1%
@@ -15,7 +17,7 @@ ht-degree: 1%
 
 # 관리{#administration}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign 모듈의 자동 시작(**웹**, **mta**, **wfserver**&#x200B;등) 는 **nlserver** server.
 
@@ -80,14 +82,15 @@ Adobe Campaign을 설치하면 **nlserver** 부팅 시퀀스 중에 서비스가
    >* 비상 상황이 발생하는 경우 **-immediate** 프로세스를 즉시 중지하기 위한 옵션(Unix 명령에 해당) **kill-9**).
    >* 를 사용하십시오 **-noconsole** 모듈을 시작한 경우 콘솔에 아무 것도 표시되지 않도록 하는 옵션입니다. 해당 로그가 를 통해 디스크에 기록됩니다. **sylogd** 모듈.
    >* 를 사용하십시오 **-verbose** 프로세스 작업에 대한 추가 정보를 표시하는 옵션.
-   >
-   >   예제:
-   >
-   >   **nlserver 다시 시작 웹 -verbose**
-   >
-   >   **nlserver 시작 mta@myinstance -verbose**
-   >
-   >   이 옵션은 추가 로그를 추가합니다. 다음을 수행하지 않고 프로세스를 다시 시작하는 것이 좋습니다 **-verbose** 로그 오버로드를 방지하기 위해 원하는 정보를 찾은 경우 선택합니다.
+
+      >
+      >   예제:
+      >
+      >   **nlserver 다시 시작 웹 -verbose**
+      >
+      >   **nlserver 시작 mta@myinstance -verbose**
+      >
+      >   이 옵션은 추가 로그를 추가합니다. 다음을 수행하지 않고 프로세스를 다시 시작하는 것이 좋습니다 **-verbose** 로그 오버로드를 방지하기 위해 원하는 정보를 찾은 경우 선택합니다.
 
 
 * 모든 Adobe Campaign 프로세스를 시작합니다(시작을 위해 **nlserver6** service):

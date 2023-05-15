@@ -2,18 +2,20 @@
 product: campaign
 title: Campaign의 받은 편지함 렌더링
 description: 전자 메일 주소를 캡처하여 전용 보고서에서 사용할 수 있도록 하는 방법을 알아봅니다
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 048189f49623cf00f4c3f1f34ff4b795d80391ef
+source-git-commit: e011333411af79b985166a4e73592a1860749cf1
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 8%
+source-wordcount: '839'
+ht-degree: 9%
 
 ---
 
 # 받은 편지함 렌더링{#inbox-rendering}
 
-![](../../assets/common.svg)
+
 
 ## 받은 편지함 렌더링 기본 정보 {#about-inbox-rendering}
 
@@ -33,6 +35,8 @@ Litmus는 다양한 기능을 갖춘 이메일 유효성 검사와 미리 보기
 >수신함 렌더링은 게재의 개인화를 테스트하는 데 필요하지 않습니다. 다음과 같은 Adobe Campaign 도구로 개인화를 확인할 수 있습니다. **[!UICONTROL Preview]** 및 [증명](steps-validating-the-delivery.md#sending-a-proof).
 
 ## 받은 편지함 렌더링 활성화 {#activating-inbox-rendering}
+
+[!BADGE 온-프레미스 및 하이브리드]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용됩니다"}
 
 호스팅 및 하이브리드 클라이언트의 경우, 받은 편지함 렌더링은 Adobe 기술 지원 및 컨설턴트에 의해 인스턴스에 구성됩니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
 

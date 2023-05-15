@@ -2,11 +2,13 @@
 product: campaign
 title: Linux의 스택 추적
 description: Linux의 스택 추적
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 11%
@@ -15,7 +17,7 @@ ht-degree: 11%
 
 # Linux의 스택 추적{#stack-trace-in-linux}
 
-![](../../assets/v7-only.svg)
+
 
 A **스택 추적** 는 **코어** 파일 형식. 이 파일은 컴퓨터 오류가 발생한 경우 생성됩니다. 오류 출처를 식별할 수 있습니다.
 
@@ -23,7 +25,6 @@ A **스택 추적** 는 **코어** 파일 형식. 이 파일은 컴퓨터 오류
 >
 >* A **코어** 파일 이름 **코어.`<num>`**.
 >* **gdb - GNU 디버거** 컴퓨터에 설치해야 합니다.
-
 >
 
 

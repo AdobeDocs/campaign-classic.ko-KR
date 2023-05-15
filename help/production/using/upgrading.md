@@ -2,11 +2,13 @@
 product: campaign
 title: 새 빌드로 업그레이드
 description: 새 빌드로 업그레이드하는 기술 단계를 배웁니다.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 3%
@@ -15,7 +17,7 @@ ht-degree: 3%
 
 # 새 빌드로 업그레이드(온-프레미스){#upgrading}
 
-![](../../assets/v7-only.svg)
+
 
 업그레이드 프로세스를 시작하기 전에 업그레이드할 Adobe Campaign 버전을 확인하고 를 참조하십시오. [릴리스 노트](../../rn/using/latest-release.md) .
 
@@ -24,7 +26,6 @@ ht-degree: 3%
 >* Adobe은 업데이트하기 전에 각 인스턴스에 데이터베이스 백업을 수행하는 것이 좋습니다. 자세한 정보는 [이 섹션](../../production/using/backup.md)을 참조하십시오.
 >* 업그레이드를 수행하려면 인스턴스 및 로그에 액세스할 수 있는 기능과 권한이 있는지 확인하십시오.
 >* 읽기 [이 섹션](../../installation/using/general-architecture.md) 그리고 [빌드 업그레이드](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html) 시작하기 전 장.
-
 >
 
 
@@ -124,7 +125,7 @@ Linux 환경에서 아래 절차에 따라 Adobe Campaign을 새 빌드로 업�
 
 ### 업데이트된 패키지 가져오기 {#obtain-updated-packages}
 
-먼저 Adobe Campaign의 업데이트된 두 패키지를 모두 복구하십시오. 에 연결 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 사용자 자격 증명 사용. 의 소프트웨어 배포에 대해 자세히 알아보십시오 [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+먼저 Adobe Campaign의 업데이트된 두 패키지를 모두 복구하십시오. 에 연결 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html) 사용자 자격 증명 사용. 의 소프트웨어 배포에 대해 자세히 알아보십시오 [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko?lang=en).
 
 파일은 **nlserver6-v7-XXX.rpm**
 

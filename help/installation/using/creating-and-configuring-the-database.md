@@ -2,20 +2,20 @@
 product: campaign
 title: 데이터베이스 만들기 및 구성
 description: 데이터베이스 만들기 및 구성
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e011333411af79b985166a4e73592a1860749cf1
 workflow-type: tm+mt
 source-wordcount: '1296'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 데이터베이스 만들기 및 구성{#creating-and-configuring-the-database}
-
-![](../../assets/v7-only.svg)
 
 데이터베이스를 만들 때 Adobe Campaign에서는 두 가지 옵션을 제공합니다.
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
    >[!CAUTION]
    >
-   > 20.3부터 Windows NT 인증이 해제됩니다. **[!UICONTROL SQL Server authentication]** 이제 Microsoft SQL Server에 사용할 수 있는 유일한 인증 모드입니다. [자세히 표시](../../rn/using/deprecated-features.md)
+   > 20.3부터 Windows NT 인증이 해제됩니다. **[!UICONTROL SQL Server authentication]** 이제 Microsoft SQL Server에 사용할 수 있는 유일한 인증 모드입니다. [자세히 보기](../../rn/using/deprecated-features.md)
 
    ![](assets/s_ncs_install_db_mssql_creation01.png)
 
@@ -139,7 +139,7 @@ ht-degree: 1%
 
 ### 6단계 - 데이터베이스 만들기 {#step-6---creating-the-database}
 
-마법사의 마지막 단계에서 데이터베이스를 만들 수 있습니다. 클릭 **[!UICONTROL Start]** 확인합니다.
+마법사의 마지막 단계에서 데이터베이스를 만들 수 있습니다. **[!UICONTROL Start]**&#x200B;을(를) 클릭하여 확인합니다.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
@@ -230,7 +230,7 @@ ht-degree: 1%
 
 ### 5단계 - 데이터베이스 만들기 {#step-5---creating-the-database}
 
-마법사의 마지막 단계에서 데이터베이스를 만들 수 있습니다. 클릭 **[!UICONTROL Start]** 확인합니다.
+마법사의 마지막 단계에서 데이터베이스를 만들 수 있습니다. **[!UICONTROL Start]**&#x200B;을(를) 클릭하여 확인합니다.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 

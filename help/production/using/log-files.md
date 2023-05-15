@@ -2,20 +2,22 @@
 product: campaign
 title: 파일 로깅
 description: 파일 로깅
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 파일 로깅{#log-files}
 
-![](../../assets/v7-only.svg)
+
 
 로그 파일은 다음과 같이 구성됩니다.
 
@@ -57,7 +59,7 @@ ht-degree: 1%
 
 성능 및 저장 최적화를 위해 logins.log 파일은 매일 1회(logins.yy-mm-dd.log)로 여러 파일로 분할되며 최대 365개의 파일이 유지됩니다. serverConf.xml의 syslogd(**maxNumberOfLoginsFiles** 선택 사항). 다음 항목에 대한 설명서를 참조하십시오. [서버 구성 파일](../../installation/using/the-server-configuration-file.md#syslogd).
 
-기본적으로 로그는 모듈당 2개의 10MB 파일 및 인스턴스당 제한됩니다. 두 번째 파일을 라고 합니다. **`<modulename>`_2.log**. 따라서 로그 크기는 모듈당 및 인스턴스당 2*10MB로 제한됩니다.
+기본적으로 로그는 모듈당 2개의 10MB 파일 및 인스턴스당 제한됩니다. 두 번째 파일을 라고 합니다. **`<modulename>`_2.log**. 따라서 로그 크기는 2로 제한됩니다&#42;모듈당 및 인스턴스당 10MB입니다.
 
 그러나 더 큰 파일을 유지할 수 있습니다. 이를 활성화하려면 **maxFileSizeMb=&quot;10&quot;** 설정 **sylogd** 노드 **conf/serverConf.xml** 파일. 이 값은 로그 파일의 최대 크기(MB)를 나타냅니다.
 

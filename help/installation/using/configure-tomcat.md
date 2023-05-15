@@ -2,11 +2,13 @@
 product: campaign
 title: Campaign Tomcat 구성
 description: Campaign Tomcat 구성
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
-source-git-commit: f05cea5c9a7b9088d0b86986373b6a0188315aae
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 # Apache Tomcat 구성 {#configuring-tomcat}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign은 **Apache Tomcat이라는 포함된 웹 서블릿** 를 눌러 응용 프로그램과 외부 인터페이스(클라이언트 콘솔, 추적된 URL 링크, SOAP 호출 등) 간에 HTTP/HTTPS 요청을 처리합니다. 외부 대면 Adobe Campaign 인스턴스에 대한 외부 웹 서버(일반적으로 IIS 또는 Apache)가 이 서버 앞에 있는 경우가 많습니다.
 

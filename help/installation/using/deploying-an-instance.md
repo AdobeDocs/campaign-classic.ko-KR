@@ -2,11 +2,13 @@
 product: campaign
 title: 인스턴스 배포
 description: Campaign 배포 마법사에 대해 자세히 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 11e175c737d9c6cbb9432ec7835f35ee0e00a5c0
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '3140'
 ht-degree: 2%
@@ -15,7 +17,7 @@ ht-degree: 2%
 
 # 인스턴스 배포{#deploying-an-instance}
 
-![](../../assets/v7-only.svg)
+
 
 >[!NOTE]
 >
@@ -86,7 +88,7 @@ Adobe Campaign 클라이언트 콘솔에서 사용할 수 있는 그래픽 마�
 
 이 외에도 **마스크** 발신자 주소 및 오류 주소에 대해 인증됨. 필요한 경우 쉼표를 사용하여 마스크를 분리할 수 있습니다. 이 구성은 선택 사항입니다. 필드를 입력하면 Adobe Campaign은 배달 시(주소에 변수가 포함되어 있지 않은 경우 분석 중에) 주소가 유효한지 확인합니다. 이 운영 모드에서는 배달 문제를 트리거할 수 있는 주소가 사용되지 않습니다. 게재 주소는 게재 서버에서 구성해야 합니다.
 
-### 주소에 인증된 문자 {#characters-authorized-in-addresses}
+### 주소에 승인된 문자 {#characters-authorized-in-addresses}
 
 <!--This window enables you to define, for all email campaigns, the delivery and address-quality management options.-->
 
@@ -285,7 +287,7 @@ URL 검색에 연결된 매개 변수 **수정하면 안 됩니다.** 표준 설
 * **[!UICONTROL Label]** : 이 SMS/Wap 푸시 계정의 이름을 입력합니다. 예를 들어 라우터의 이름을 사용할 수 있습니다.
 * 대상 **[!UICONTROL Server]**, **[!UICONTROL Port]**, **[!UICONTROL Account]**, **[!UICONTROL Password]**, **[!UICONTROL Connector]**, **[!UICONTROL Send Endpoint]**, **[!UICONTROL Reception Endpoint]**, **[!UICONTROL Notification Endpoint]** 필드: 필요한 설정은 서비스 공급업체에 문의하십시오.
 
-### 보낸 SMS의 매개 변수 {#parameters-of-sms-sent}
+### 보낸 SMS 매개변수 {#parameters-of-sms-sent}
 
 에서 **우선순위** 드롭다운 목록: 전송할 메시지에 적용하려면 &quot;일반&quot;, &quot;높음&quot; 또는 &quot;긴급&quot;을 선택합니다.
 

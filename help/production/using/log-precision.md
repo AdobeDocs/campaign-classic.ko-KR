@@ -2,11 +2,13 @@
 product: campaign
 title: 로그 정밀도
 description: 로그 정밀도
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: c2470098-62f3-4fee-b1c5-800ed0e91f75
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -15,7 +17,7 @@ ht-degree: 1%
 
 # 로그 정밀도{#log-precision}
 
-![](../../assets/v7-only.svg)
+
 
 모든 Adobe Campaign 모듈에 이 프로세스를 적용하여 로그 정밀도를 높일 수 있습니다.
 
@@ -47,9 +49,9 @@ Adobe Campaign은 두 가지 수준의 로그로 작동할 수 있습니다.
 
    >[!NOTE]
    >
-   >만약 **추적 필터:***, 모든 로그 유형이 활성화됩니다. ncm, rdr, nms, jst, 타이밍, wdbc, ldap, soap, xtk, xtquery, session, xtwriter, network, pop3, inmail\
-   가장 유용한 로그 유형은 다음과 같습니다. **wdbc** (모든 SQL 쿼리를 표시합니다.), **soap** (모든 SOAP 호출을 표시합니다.), **ldap** 인증 후 모든 LDAP 쿼리를 표시합니다. **xtquery** 모든 querydef 목록을 표시합니다.\
-   개별적으로 사용할 수 있습니다(**tracefilter:soap,wdbc** 예). 모두 활성화하고 특정 다른 항목을 제외하도록 선택할 수도 있습니다. **-tracefilter:*,!soap**
+   >만약 **추적 필터:&#42;**, 모든 로그 유형이 활성화됩니다. ncm, rdr, nms, jst, 타이밍, wdbc, ldap, soap, xtk, xtquery, session, xtwriter, network, pop3, inmail\
+   >가장 유용한 로그 유형은 다음과 같습니다. **wdbc** (모든 SQL 쿼리를 표시합니다.), **soap** (모든 SOAP 호출을 표시합니다.), **ldap** 인증 후 모든 LDAP 쿼리를 표시합니다. **xtquery** 모든 querydef 목록을 표시합니다.\
+   >개별적으로 사용할 수 있습니다(**tracefilter:soap,wdbc** 예). 모두 활성화하고 특정 다른 항목을 제외하도록 선택할 수도 있습니다. **-tracefilter:&#42;,!soap**
 
    오류가 실제로 발생했는지 확인한 다음 일반적인 방법으로 프로세스를 다시 시작합니다.
 
@@ -58,7 +60,8 @@ Adobe Campaign은 두 가지 수준의 로그로 작동할 수 있습니다.
    ```
 
 >[!IMPORTANT]
-이러한 명령의 로그는 모듈의 로그 파일에 저장됩니다.
+>
+>이러한 명령의 로그는 모듈의 로그 파일에 저장됩니다.
 
 다음은 웹 모듈과 관련된 예입니다. 다른 모듈은 위에 표시된 대로 작동합니다.
 
@@ -81,11 +84,13 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 ```
 
 >[!NOTE]
-다음 **추적 파일** 모드를 사용하면 로그를 저장할 수 있습니다. 위의 예에서 로그는 **var/`<instance-name>`/mta_debug.log** 및 **var/default/web_debug.log** 파일.
+>
+>다음 **추적 파일** 모드를 사용하면 로그를 저장할 수 있습니다. 위의 예에서 로그는 **var/`<instance-name>`/mta_debug.log** 및 **var/default/web_debug.log** 파일.
 
 >[!IMPORTANT]
-Windows에서는 LD_PRELOAD 옵션을 추가하지 마십시오. 다음 명령은 다음과 같습니다.\
-nlserver web -tomcat -verbose -tracefilter:*
+>
+>Windows에서는 LD_PRELOAD 옵션을 추가하지 마십시오. 다음 명령은 다음과 같습니다.\
+>nlserver web -tomcat -verbose -tracefilter:&#42;
 
 문제가 다시 발생했는지 확인한 다음 모듈을 다시 시작합니다.
 

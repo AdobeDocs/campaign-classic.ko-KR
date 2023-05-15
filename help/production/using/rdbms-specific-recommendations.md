@@ -2,11 +2,13 @@
 product: campaign
 title: RDBMS 특정 권장 사항
 description: RDBMS 특정 권장 사항
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 98b338ddf0da184363c599d74aeb98ed7f6303ce
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 1%
@@ -15,7 +17,7 @@ ht-degree: 1%
 
 # RDBMS 특정 권장 사항{#rdbms-specific-recommendations}
 
-![](../../assets/v7-only.svg)
+
 
 유지 관리 계획을 설정하는 데 도움이 되도록 이 섹션에는 Adobe Campaign에서 지원하는 다양한 RDBMS 엔진에 맞는 몇 가지 권장 사항과 모범 사례가 나와 있습니다. 하지만 이는 권장 사항일 뿐입니다. 내부 절차와 제한 조건을 유지하면서 필요에 맞게 조정하는 것은 여러분에게 달려 있습니다. 데이터베이스 관리자는 이러한 계획을 작성하고 실행할 책임이 있습니다.
 
@@ -44,7 +46,7 @@ ht-degree: 1%
    SELECT * FROM uvSpace;
    ```
 
-   또는 이 쿼리를 실행하여 모든 인덱스 크기를 전체적으로 볼 수도 있습니다.
+   또는 이 쿼리를 실행하여 모든 인덱스 크기를 전체적으로 확인할 수 있습니다.
 
    ```
    SELECT

@@ -2,11 +2,13 @@
 product: campaign
 title: Campaign 서버 구성
 description: Campaign 서버 구성
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: 294309239bc476669e9e017c27bd1b51a0bdaf8c
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 3%
@@ -15,7 +17,7 @@ ht-degree: 3%
 
 # Campaign 서버 구성 시작{#gs-campaign-server-config}
 
-![](../../assets/v7-only.svg)
+
 
 이 장에서는 요구 사항과 환경 특성에 맞게 수행할 수 있는 서버측 구성에 대해 자세히 설명합니다.
 
@@ -27,7 +29,7 @@ ht-degree: 3%
 
 자세한 정보는 다음 섹션을 참조하십시오.
 
-* [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
+* [컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 * [호스팅 모델](../../installation/using/hosting-models.md)
 * [Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스](../../installation/using/capability-matrix.md)
 
@@ -159,7 +161,7 @@ Adobe Campaign에서는 다음 JSP 페이지를 사용합니다.
 * /nl/jsp/**logon.jsp**: 보고서 및 클라이언트 콘솔의 배포에 대한 웹 기반 액세스
 * /nl/jsp/**s.jsp** : 바이럴 마케팅(후원 및 소셜 네트워크) 사용.
 
-Mobile 앱 채널에 사용되는 JSSP는 다음과 같습니다.
+모바일 앱 채널에 사용되는 JSSP는 다음과 같습니다.
 
 * nms/mobile/1/registerIOS.jssp
 * nms/mobile/1/registerAndroid.jssp

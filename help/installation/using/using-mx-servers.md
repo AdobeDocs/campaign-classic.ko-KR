@@ -1,13 +1,15 @@
 ---
 product: campaign
 title: Campaign으로 MX 서버 사용
-description: MX 서버가 Adobe Campaign Classic에서 작동하는 방식을 알아봅니다.
+description: MX 서버가 Adobe Campaign Classic과 작동하는 방식을 알아봅니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
-source-git-commit: 6740b5eed33612bd7a3b217a8f53b07518f879fb
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 1%
@@ -16,7 +18,7 @@ ht-degree: 1%
 
 # Campaign으로 MX 서버 사용 {#using-mx-servers}
 
-![](../../assets/v7-only.svg)
+
 
 MX 서버가 Adobe Campaign Classic에서 작동하는 방식을 알아봅니다.
 

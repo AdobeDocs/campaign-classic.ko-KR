@@ -2,20 +2,22 @@
 product: campaign
 title: 네트워크 구성
 description: 시스템 통신 지침 학습
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 # 네트워크 구성{#network-configuration}
 
-![](../../assets/v7-only.svg)
+
 
 ## 프로세스 간 통신 {#communication-between-processes}
 
@@ -239,7 +241,7 @@ Adobe Campaign과 Adobe Experience Manager을 통합하려면 설치가 &quot;�
    <td> Adobe Campaign에 대한 AEM 연결<br /> </td> 
   </tr> 
   <tr> 
-   <td><p> 4502년</p><p> 4503년</p><br /> </td> 
+   <td><p> 4502</p><p> 4503</p><br /> </td> 
    <td> AEM "작성" 및 "게시" 인스턴스에 Adobe Campaign이 연결됩니다. 열 포트는 AEM 구성에 따라 기본 포트와 다를 수 있습니다.<br /> </td> 
   </tr> 
  </tbody> 

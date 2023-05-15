@@ -2,11 +2,13 @@
 product: campaign
 title: 구성 원칙
 description: 구성 원칙
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 4%
@@ -15,7 +17,7 @@ ht-degree: 4%
 
 # 구성 원칙{#configuration-principle}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign 플랫폼은 Apache에서 사용하는 가상 호스트의 개념과 유사한 인스턴스 개념을 기반으로 합니다. 이 작업 모드에서는 여러 인스턴스를 할당하여 서버를 공유할 수 있습니다. 인스턴스는 서로 완전히 분리되며 자체 데이터베이스 및 구성 파일로 작동합니다.
 

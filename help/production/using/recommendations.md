@@ -1,21 +1,23 @@
 ---
 product: campaign
-title: 추천
-description: 추천
+title: 권장 사항
+description: 권장 사항
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: e458f6cb-f6d1-4688-9f6d-2a27a2f90829
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 2%
 
 ---
 
-# 추천{#recommendations}
+# 권장 사항{#recommendations}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign은 트랜잭션 수준이 높은 시스템(OLTP 데이터베이스)입니다. 즉, 기본 데이터베이스가 자주 업데이트되므로 시간이 지남에 따라 성능이 저하됩니다. 이러한 유형의 문제를 방지하려면 일반 데이터베이스 유지 관리가 필요합니다.
 

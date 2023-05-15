@@ -2,11 +2,13 @@
 product: campaign
 title: 워크플로우 실행
 description: 워크플로우 실행
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 3%
@@ -15,7 +17,7 @@ ht-degree: 3%
 
 # 워크플로우 실행{#workflow-execution}
 
-![](../../assets/v7-only.svg)
+
 
 아래 섹션에서는 워크플로우 실행과 관련된 일반적인 문제와 이러한 문제를 해결하는 방법에 대한 정보를 제공합니다.
 

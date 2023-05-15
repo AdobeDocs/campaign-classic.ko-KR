@@ -2,11 +2,13 @@
 product: campaign
 title: URL 권한 구성
 description: URL 권한을 구성하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
-source-git-commit: 4fd69aa28c2e9325f4738ec571a6632c42ec26b8
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 29%
@@ -15,7 +17,7 @@ ht-degree: 29%
 
 # URL 권한 구성(온-프레미스){#url-permissions}
 
-![](../../assets/v7-only.svg)
+
 
 Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 제한되어 있습니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
 
@@ -54,7 +56,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 자세한 정보는 다음 섹션을 참조하십시오.
 
-* [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+* [컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 * [호스팅 모델](hosting-models.md)
 * [Campaign 서버 구성](configuring-campaign-server.md)
 * [Campaign 서버 구성 파일 매개 변수](the-server-configuration-file.md)

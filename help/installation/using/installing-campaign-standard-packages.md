@@ -2,17 +2,19 @@
 product: campaign
 title: Campaign Classic 기본 제공 패키지 설치
 description: Campaign 기본 제공 패키지를 설치하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # Campaign Classic 기본 제공 패키지 설치{#installing-campaign-standard-packages}
 
-![](../../assets/v7-only.svg)
+
 
 ## 기본 제공 패키지 기본 정보 {#campaign-standard-packages}
 
@@ -119,7 +121,7 @@ ht-degree: 12%
    <td> 모두<br /> </td>
   </tr> 
   <tr> 
-   <td> 모바일 채널 (SMS) <br /> </td> 
+   <td> 모바일 채널(SMS) <br /> </td> 
    <td> Adobe Campaign에서 모바일/SMS 채널을 사용하여 게재를 보냅니다. 선택 사항입니다. <a href="../../delivery/using/sms-channel.md">자세히 알아보기</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 

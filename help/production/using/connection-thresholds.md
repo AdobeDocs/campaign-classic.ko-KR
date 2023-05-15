@@ -2,11 +2,13 @@
 product: campaign
 title: 연결 임계값
 description: 연결 임계값
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 3%
@@ -15,7 +17,7 @@ ht-degree: 3%
 
 # 연결 임계값{#connection-thresholds}
 
-![](../../assets/v7-only.svg)
+
 
 많이 로드된 서버의 경우 연결 임계값이 초과될 수 있습니다. 어떤 경우든, 그 이유를 파악하는 것이 유용하다.
 

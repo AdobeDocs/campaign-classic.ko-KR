@@ -2,18 +2,19 @@
 product: campaign
 title: Adobe Campaign에서 모바일 애플리케이션 구성
 description: 모바일 애플리케이션 구성으로 시작하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
+source-git-commit: e011333411af79b985166a4e73592a1860749cf1
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 7%
+source-wordcount: '308'
+ht-degree: 10%
 
 ---
 
 # 앱 구성 시작
 
-![](../../assets/v7-only.svg)
+
 
 이 섹션에서는 온라인 휴일 패키지를 판매하는 회사를 기반으로 한 구성 샘플을 확인할 수 있습니다. 이 회사의 모바일 애플리케이션(네오트립)은 고객에게 두 가지 버전으로 제공됩니다. Android 및 iOS용 네오트립.
 
@@ -30,6 +31,8 @@ Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합
 >로 이동합니다. **[!UICONTROL Subscriptions]** 서비스의 탭을 사용하여 서비스 구독자 목록(예: 모바일에 애플리케이션을 설치했고 알림을 받는 데 동의한 모든 사용자)을 볼 수 있습니다.
 
 ## 패키지 설치 {#installing-package-ios}
+
+[!BADGE 온-프레미스 및 하이브리드]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용됩니다"}
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에 모바일 앱 패키지를 설치하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=en#sending-messages)
 

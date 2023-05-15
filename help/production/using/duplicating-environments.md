@@ -2,11 +2,13 @@
 product: campaign
 title: 환경 복제
 description: 환경 복제
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -15,7 +17,7 @@ ht-degree: 1%
 
 # 환경 복제{#duplicating-environments}
 
-![](../../assets/v7-only.svg)
+
 
 ## 소개 {#introduction}
 
@@ -69,7 +71,6 @@ Adobe Campaign을 사용하려면 하나 이상의 환경을 설치하고 구성
 >
 >* 다음 절차는 PostgreSQL 언어로 유효합니다. SQL 언어가 다른 경우(예: Oracle) SQL 쿼리를 수정해야 합니다.
 >* 아래 명령은 **prod** 인스턴스 및 **개발** PostgreSQL 아래의 인스턴스입니다.
-
 >
 
 

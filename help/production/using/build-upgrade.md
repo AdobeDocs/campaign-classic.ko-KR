@@ -2,11 +2,13 @@
 product: campaign
 title: 빌드 업그레이드 시작
 description: 새 빌드로 업그레이드하는 주요 단계를 배웁니다.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '2356'
 ht-degree: 3%
@@ -15,7 +17,7 @@ ht-degree: 3%
 
 # 빌드 업그레이드 수행{#performing-a-build-upgrade}
 
-![](../../assets/v7-only.svg)
+
 
 이 섹션에서는 업그레이드 프로세스에 대한 심층적인 연습과 충돌을 식별하고 해결하는 단계를 제공합니다.
 
@@ -163,7 +165,7 @@ ht-degree: 3%
 
 ### Adobe Campaign 서버 애플리케이션 업그레이드
 
-1. 를 실행합니다. **Setup.exe** 파일. 이 파일을 다운로드하려면 [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
+1. 를 실행합니다. **Setup.exe** 파일. 이 파일을 다운로드하려면 [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html).
 
 1. 설치 모드를 선택합니다. **업데이트** 또는 **복구**.
 
@@ -246,7 +248,7 @@ Campaign 인스턴스에서 트랜잭션 메시지(메시지 센터)가 활성�
 
 중간 소싱 환경 컨텍스트에서 업그레이드하려면 다음 추가 단계를 수행해야 합니다.
 
-1. 연락처 [고객 지원 Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 중간 소싱 서버 업그레이드를 조정하려면
+1. 연락처 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 중간 소싱 서버 업그레이드를 조정하려면
 1. 테스트 링크를 실행하여 버전이 업데이트되었는지 확인합니다. 예제:
 
    ```
@@ -363,8 +365,8 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 #### 코드를 찾을 위치
 
 1. 기본 제공 코드는 데이터베이스 폴더의 XML 파일에 저장됩니다. 충돌하는 객체와 일치하는 XML 파일을 찾습니다. 예: installationDirectory\datakit\nms\fra\form\recipient.xml
-1. 원래 버전을 검색합니다. 사용 [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 또는 제품의 다른 업그레이드되지 않은 설치.
-1. 새 버전을 검색합니다. 사용 [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 또는 고객이 설치한 파일
+1. 원래 버전을 검색합니다. 사용 [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html) 또는 제품의 다른 업그레이드되지 않은 설치.
+1. 새 버전을 검색합니다. 사용 [다운로드 센터](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html) 또는 고객이 설치한 파일
 1. 사용자 지정 버전을 검색합니다. campaign 클라이언트 내에서 개체의 소스 코드를 검색합니다.
 
 ### 차이를 만드는 방법

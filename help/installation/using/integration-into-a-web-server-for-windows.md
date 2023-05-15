@@ -2,11 +2,13 @@
 product: campaign
 title: Windows용 웹 서버에 통합
 description: Windows용 웹 서버에 통합
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 4%
@@ -15,7 +17,7 @@ ht-degree: 4%
 
 # Windows용 웹 서버에 통합{#integration-into-a-web-server-for-windows}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 시작 지점 역할을 하는 Apache Tomcat이 포함되어 있습니다.
 

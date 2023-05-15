@@ -2,20 +2,22 @@
 product: campaign
 title: 운영 원칙
 description: 운영 원칙
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
-source-git-commit: 30f2451849dec0f640915e81c36d0a9c5f466d6c
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 운영 원칙{#operating-principle}
 
-![](../../assets/v7-only.svg)
+
 
 기술적으로 Adobe Campaign 플랫폼은 여러 모듈을 기반으로 합니다.
 
@@ -53,7 +55,7 @@ ht-degree: 1%
 | 병합 | 양식 병합 |
 | midSourcing | 중간 소싱 모드에서 게재 정보 복구 |
 | 모니터 | XML 서버 프로세스 및 예약된 작업의 상태를 인스턴스별로 표시합니다. |
-| mta | 주 에이전트 전송 메시지 |
+| MTA | 주 에이전트 전송 메시지 |
 | 패키지 | 엔티티 패키지 파일 가져오기 또는 내보내기 |
 | pdump | 서버 프로세스 상태 표시 |
 | 준비 | 게재 작업 준비 |

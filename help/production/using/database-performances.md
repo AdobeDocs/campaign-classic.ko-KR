@@ -2,11 +2,13 @@
 product: campaign
 title: 데이터베이스 성능
 description: 데이터베이스 성능
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 8%
@@ -15,7 +17,7 @@ ht-degree: 8%
 
 # 데이터베이스 성능{#database-performances}
 
-![](../../assets/v7-only.svg)
+
 
 대부분의 성능 문제는 데이터베이스 유지 관리와 관련되어 있습니다. 다음은 성능 저하 원인을 찾는 데 도움이 되는 네 가지 주요 리드입니다.
 

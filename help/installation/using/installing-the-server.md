@@ -2,20 +2,22 @@
 product: campaign
 title: 서버 설치
 description: 서버 설치
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-source-git-commit: e88ed7a5710f9ec8713d9e7151d2fd4904097990
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 서버 설치{#installing-the-server}
 
-![](../../assets/v7-only.svg)
+
 
 ## 설치 프로그램 실행 {#executing-the-installation-program}
 
@@ -139,7 +141,7 @@ nlserver stop web
 
 Adobe Campaign 서버는 **내부** 모든 인스턴스에 대한 모든 권한이 있습니다. 설치 후 로그인에 암호가 없습니다. 하나를 반드시 정의해야 합니다.
 
-추가 정보 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier).
+[이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)에서 자세히 알아보십시오.
 
 ## Adobe Campaign 서비스 시작 {#starting-adobe-campaign-services}
 

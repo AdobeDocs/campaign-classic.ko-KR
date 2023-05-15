@@ -2,20 +2,22 @@
 product: campaign
 title: Linux를 사용하여 패키지 설치
 description: Linux를 사용하여 패키지 설치
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: fbab510788abe0fccbbd791233c906e7f9d8d703
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1198'
+ht-degree: 1%
 
 ---
 
 # Linux를 사용하여 패키지 설치{#installing-packages-with-linux}
 
-![](../../assets/v7-only.svg)
+
 
 Linux 32비트 플랫폼의 경우 Adobe Campaign 32비트를 설치합니다. Linux 64비트 플랫폼의 경우 Adobe Campaign 64비트를 설치합니다.
 
@@ -357,4 +359,4 @@ nlserver stop web
 
 Adobe Campaign 서버는 **내부** 모든 인스턴스에 대한 모든 권한이 있습니다. 설치 후 로그인에 암호가 없습니다. 하나를 반드시 정의해야 합니다.
 
-추가 정보 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier).
+[이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)에서 자세히 알아보십시오.

@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: Adobe Campaign에서 Tomcat 버전 찾기
-description: Adobe Campaign 인스턴스에 사용되는 포함된 Tomcat 웹 서블릿의 현재 버전을 확인하는 방법을 배웁니다.
+description: Adobe Campaign 인스턴스에 사용된 포함된 Tomcat 웹 서블릿의 현재 버전을 확인하는 방법을 배웁니다
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 # Tomcat 버전 찾기{#locate-tomcat-version}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign은 **Apache Tomcat이라는 포함된 웹 서블릿** 를 눌러 응용 프로그램과 외부 인터페이스(클라이언트 콘솔, 추적된 URL 링크, SOAP 호출 등) 간에 HTTP/HTTPS 요청을 처리합니다. 외부 대면 Adobe Campaign 인스턴스에 대한 외부 웹 서버(일반적으로 IIS 또는 Apache)가 이 서버 앞에 있는 경우가 많습니다.
 

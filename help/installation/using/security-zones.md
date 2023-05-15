@@ -2,11 +2,13 @@
 product: campaign
 title: 보안 영역 구성
 description: 보안 영역을 구성하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 1%
@@ -15,7 +17,7 @@ ht-degree: 1%
 
 # 보안 영역 정의(온-프레미스){#defining-security-zones}
 
-![](../../assets/v7-only.svg)
+
 
 각 연산자는 인스턴스에 로그온하기 위해 영역에 연결해야 하며 운영자 IP는 보안 영역에 정의된 주소 또는 주소 세트에 포함해야 합니다. 보안 영역 구성은 Adobe Campaign 서버의 구성 파일에서 수행됩니다.
 

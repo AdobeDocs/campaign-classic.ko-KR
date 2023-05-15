@@ -2,11 +2,13 @@
 product: campaign
 title: 메시시 서버
 description: 메시시 서버
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: d9ffa58d-81e3-4291-8502-3cb7c326b666
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 3%
@@ -15,7 +17,7 @@ ht-degree: 3%
 
 # 메시시 서버{#messaging-server}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign은 아웃바운드 이메일을 기본적으로 처리하지만 반환 전자 메일(메일 데몬)에 연결된 수신 메시지를 수신하려면 기존 전자 메일 서버가 필요합니다. 이 서버에 구성된 사서함은 응용 프로그램에서 자동으로 처리됩니다.
 

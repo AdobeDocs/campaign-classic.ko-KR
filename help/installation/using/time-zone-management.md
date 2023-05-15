@@ -2,11 +2,13 @@
 product: campaign
 title: 표준 시간대 관리
 description: 표준 시간대 관리
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 1%
@@ -15,7 +17,7 @@ ht-degree: 1%
 
 # 표준 시간대 관리{#time-zone-management}
 
-![](../../assets/v7-only.svg)
+
 
 ## 운영 원칙 {#operating-principle}
 
@@ -37,7 +39,7 @@ Adobe Campaign을 사용하면 날짜/시간을 UTC(Coordinated Universal Time) 
 
 Adobe Campaign 플랫폼에서 시간대 관리가 필요하지 않으면 연결된 특정 시간대로 저장소 모드를 로컬 형식으로 유지할 수 있습니다.
 
-## 추천 {#recommendations}
+## 권장 사항 {#recommendations}
 
 시간대는 다음과 같은 몇 가지 현실을 결합합니다. 이 표현식은 UTC 날짜 또는 1년에 두 번(일광 절약 시간) 시간을 변경할 수 있는 영역의 시간을 나타내는 UTC 날짜 또는 일정한 시간 지연을 설명합니다.
 

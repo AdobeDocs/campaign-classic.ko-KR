@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: LDAP를 통해 연결
-description: 'LDAP를 사용하여 Campaign에 로그인하는 방법 알아보기 '
+description: LDAP를 사용하여 Campaign에 로그인하는 방법 알아보기
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e011333411af79b985166a4e73592a1860749cf1
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 1%
@@ -14,8 +16,6 @@ ht-degree: 1%
 ---
 
 # LDAP를 통해 연결{#connecting-through-ldap}
-
-![](../../assets/v7-only.svg)
 
 ## Campaign 및 LDAP 구성 {#configuring-campaign-and-ldap}
 
@@ -189,4 +189,4 @@ LDAP 디렉토리를 사용하여 연산자를 인증하려면 해당 프로파�
 
    그룹은 Adobe Campaign 또는 LDAP에 의해 즉시 만들어지지 않습니다. Adobe Campaign과 LDAP 디렉토리 모두에서 개별적으로 만들어야 합니다.
 
-   LDAP 디렉토리의 그룹 이름은 Adobe Campaign 그룹의 이름과 일치해야 합니다. 연결 마스크는 배포 마법사의 마지막 구성 단계에서 정의됩니다. Adobe Campaign_()*)로 설정될 수도 있습니다.
+   LDAP 디렉토리의 그룹 이름은 Adobe Campaign 그룹의 이름과 일치해야 합니다. 연결 마스크는 배포 마법사의 마지막 구성 단계에서 정의됩니다. Adobe Campaign_()&#42;) 내의 아무 곳에나 삽입할 수 있습니다.
