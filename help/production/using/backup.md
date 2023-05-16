@@ -8,16 +8,14 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: dcc441272b29f682165a26006800e914e7c38252
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '179'
 ht-degree: 2%
 
 ---
 
 # 백업{#backup}
-
-
 
 시스템에서 문제가 발생할 경우(물리적 또는 시스템 관련) 데이터가 손실되지 않도록 백업해야 합니다.
 
@@ -32,33 +30,29 @@ ht-degree: 2%
 
 파일은 여러 범주로 구분됩니다.
 
-* 구성 파일, 위치 **nl6/conf**
+* 구성 파일, 저장 `nl6/conf`를 사용하면 Adobe Campaign을 매우 신속하게 다시 구성할 수 있습니다.
 
-   이를 통해 Adobe Campaign을 매우 신속하게 다시 구성할 수 있습니다.
+* 리디렉션 파일, 저장 위치  `nl6/var/`<instancename>`/redir`는 추적(일명 &#39;전면&#39;) 서버에 있으며 모든 이전 캠페인 리디렉션을 포함합니다. 이전 캠페인에서 여전히 사용됩니다.
 
-* 리디렉션 파일 ** nl6/var/`<instancename>`/redir**
-
-   이들은 추적(일명 &#39;전두부&#39;) 서버에 있으며 모든 이전 캠페인 리디렉션을 포함합니다. 이전 캠페인에서 여전히 사용됩니다.
-
-* 로그 파일: **nl6/var/`<instancename>`/log**
-
-   이는 문제를 추적하는 데 사용할 수 있습니다.
+* 로그 파일, 저장 `nl6/var/`<instancename>`/log`를 사용하여 문제를 추적할 수 있습니다.
 
 따라서 백업할 디렉터리는 다음과 같습니다.
 
-* nl6/conf
+* `nl6/conf`
 
-* nl6/var/`<instanceName>`/redir(각 인스턴스에 대해)
+* `nl6/var/`<instanceName>`/redir` (각 인스턴스에 대해)
 
-* nl6/var/`<instanceName>`/log(선택 사항)
+* `nl6/var/`<instanceName>`/log` (선택 사항)
 
-* nl6/var/`<instanceName>`/relay(선택 사항)
+* `nl6/var/`<instanceName>`/relay` (선택 사항)
+
+
+## 데이터베이스 {#database}
 
 >[!IMPORTANT]
 >
->데이터베이스를 백업하는 것은 필수입니다.
+>반드시 데이터베이스를 백업해야 합니다.
 
-## 데이터베이스 {#database}
 
 데이터베이스에는 모든 비즈니스 라인 데이터와 Adobe Campaign 리치 클라이언트 콘솔에 표시되는 모든 정보가 포함되어 있습니다.
 
