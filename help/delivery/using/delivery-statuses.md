@@ -6,7 +6,7 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 8%
@@ -111,19 +111,19 @@ Adobe Campaign 이메일의 게재 능력을 최적화하는 방법에 대해 �
       nlserver pdump
       HH:MM:SS > Application server for Adobe Campaign Classic (X.Y.Z YY.R build nnnn@SHA1) of DD/MM/YYYY
       [...]
-      mta@<INSTANCENAME> (9268) - 23.0 Mb
+      mta@<instance-name> (9268) - 23.0 Mb
       [...]
       ```
 
    1. MTA가 나열되지 않으면 다음 명령으로 시작합니다.
 
       ```
-      nlserver start mta@<INSTANCENAME>
+      nlserver start mta@<instance-name>
       ```
 
       >[!NOTE]
       >
-      >바꾸기 `<INSTANCENAME>` 인스턴스(프로덕션, 개발 등)의 이름으로 인스턴스 이름은 구성 파일을 통해 식별됩니다. `[path of application]nl6/conf/config-<INSTANCENAME>.xml`
+      >바꾸기 `<instance-name>` 인스턴스(프로덕션, 개발 등)의 이름으로 인스턴스 이름은 구성 파일을 통해 식별됩니다. `[path of application]nl6/conf/config-<instance-name>.xml`
 
 * 게재 시 전송 서버에 구성되지 않은 친화성을 사용할 수 있습니다.
 

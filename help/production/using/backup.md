@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
-source-git-commit: dcc441272b29f682165a26006800e914e7c38252
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '198'
 ht-degree: 2%
 
 ---
@@ -30,21 +30,21 @@ ht-degree: 2%
 
 파일은 여러 범주로 구분됩니다.
 
-* 구성 파일, 저장 `nl6/conf`를 사용하면 Adobe Campaign을 매우 신속하게 다시 구성할 수 있습니다.
+* 구성 파일, 저장 **nl6/conf**&#x200B;를 사용하면 Adobe Campaign을 매우 신속하게 다시 구성할 수 있습니다.
 
-* 리디렉션 파일, 저장 위치  `nl6/var/`<instancename>`/redir`는 추적(일명 &#39;전면&#39;) 서버에 있으며 모든 이전 캠페인 리디렉션을 포함합니다. 이전 캠페인에서 여전히 사용됩니다.
+* 리디렉션 파일, 저장 위치  **nl6/var/`<instance-name>`/redirect**&#x200B;는 추적(일명 &#39;전면&#39;) 서버에 있으며 모든 이전 캠페인 리디렉션을 포함합니다. 이전 캠페인에서 여전히 사용됩니다.
 
-* 로그 파일, 저장 `nl6/var/`<instancename>`/log`를 사용하여 문제를 추적할 수 있습니다.
+* 로그 파일, 저장 **nl6/var/`<instance-name>`/log**&#x200B;를 사용하여 문제를 추적할 수 있습니다.
 
 따라서 백업할 디렉터리는 다음과 같습니다.
 
-* `nl6/conf`
+* nl6/conf
 
-* `nl6/var/`<instanceName>`/redir` (각 인스턴스에 대해)
+* nl6/var/`<instance-name>`/redir(각 인스턴스에 대해)
 
-* `nl6/var/`<instanceName>`/log` (선택 사항)
+* nl6/var/`<instance-name>`/log(선택 사항)
 
-* `nl6/var/`<instanceName>`/relay` (선택 사항)
+* nl6/var/`<instance-name>`/relay(선택 사항)
 
 
 ## 데이터베이스 {#database}

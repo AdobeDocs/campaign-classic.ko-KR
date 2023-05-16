@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2355'
 ht-degree: 3%
 
 ---
@@ -93,9 +93,9 @@ ht-degree: 3%
 * **nlserver pdump**: 실행 중인 프로세스 목록
 * **nlserver pdump -who**: 활성 클라이언트 세션 목록
 * **nlserver 모니터 -누락**: 누락된 속성 목록
-* **nlserver 시작 process@instanceName**: 프로세스 시작
-* **nlserver 중지 process@instanceName**: 프로세스를 중지합니다
-* **nlserver 재시작 process@instanceName**: 프로세스 다시 시작
+* **nlserver 시작 process@instance-name**: 프로세스 시작
+* **nlserver 중지 process@instance-name**: 프로세스를 중지합니다
+* **nlserver 재시작 process@instance-name**: 프로세스 다시 시작
 * **nlserver 종료**: 모든 캠페인 프로세스를 중지합니다
 * **nlserver watchdog -svc**: 감시장치 시작(UNIX만 해당)
 
@@ -278,7 +278,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 경고 시 리소스 충돌이 발생할 경우 이를 해결하기 위해서는 사용자의 주의가 필요합니다.
 
-다음 **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** 파일에 동기화 결과가 포함되어 있습니다. 기본적으로 다음 디렉토리에서 사용할 수 있습니다. **installationDirectory/var/instanceName/postupgrade**. 오류와 경고는 오류 및 경고 속성으로 표시됩니다.
+다음 **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** 파일에 동기화 결과가 포함되어 있습니다. 기본적으로 다음 디렉토리에서 사용할 수 있습니다. **installationDirectory/var/`<instance-name>`/postupgrade**. 오류와 경고는 오류 및 경고 속성으로 표시됩니다.
 
 ### 충돌 분석
 

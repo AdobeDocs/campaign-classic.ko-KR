@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 3%
@@ -52,20 +52,20 @@ ht-degree: 3%
    nlserver pdump
    HH:MM:SS > Application server for Adobe Campaign Version X.Y (build XXXX) of DD/MM/YYYY
    [...]
-   wfserver@<INSTANCENAME> (9340) - 11.3 Mb
+   wfserver@<instance-name> (9340) - 11.3 Mb
    [...]
    ```
 
    모듈이 실행되고 있지 않으면 Adobe 고객 지원 센터에 문의하십시오. 온-프레미스 설치가 있는 경우 관리 사용자가 아래 명령을 사용하여 서비스를 다시 시작해야 합니다.
 
    ```
-   nlserver start wfserver@<INSTANCENAME>
+   nlserver start wfserver@<instance-name>
    ```
 
    >[!NOTE]
    >
-   >바꾸기 **`<instancename>`** 인스턴스(프로덕션, 개발 등)의 이름으로 인스턴스 이름은 구성 파일을 통해 식별됩니다.
-   >`[path of application]nl6/conf/config-<instancename>.xml`
+   >바꾸기 **`<instance-name>`** 인스턴스(프로덕션, 개발 등)의 이름으로 인스턴스 이름은 구성 파일을 통해 식별됩니다.
+   >`[path of application]nl6/conf/config-<instance-name>.xml`
 
    모듈을 다시 시작하는 방법에 대한 자세한 내용은 [이 섹션](../../production/using/usual-commands.md#module-launch-commands).
 
@@ -95,7 +95,7 @@ ht-degree: 3%
    nlserver pdump
    HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    [...]
-   wfserver@<INSTANCENAME> (9340) - 11.3 Mb
+   wfserver@<instance-name> (9340) - 11.3 Mb
    [...]
    ```
 
@@ -104,13 +104,13 @@ ht-degree: 3%
 1. 모듈이 실행되고 있지 않으면 Adobe 고객 지원 센터에 문의하십시오. 온-프레미스 설치가 있는 경우 관리자가 아래 명령을 사용하여 다시 시작해야 합니다.
 
    ```
-   nlserver start wfserver@<INSTANCENAME>
+   nlserver start wfserver@<instance-name>
    ```
 
    >[!NOTE]
    >
-   >바꾸기 **`<instancename>`** 인스턴스(프로덕션, 개발 등)의 이름으로 인스턴스 이름은 구성 파일을 통해 식별됩니다.
-   >`[path of application]nl6/conf/config-<instancename>.xml`
+   >바꾸기 **`<instance-name>`** 인스턴스(프로덕션, 개발 등)의 이름으로 인스턴스 이름은 구성 파일을 통해 식별됩니다.
+   >`[path of application]nl6/conf/config-<instance-name>.xml`
 
    모듈을 다시 시작하는 방법에 대한 자세한 내용은 [이 섹션](../../production/using/usual-commands.md#module-launch-commands).
 

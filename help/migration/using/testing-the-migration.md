@@ -9,7 +9,7 @@ topic-tags: migration-procedure
 hide: true
 hidefromtoc: true
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 4%
@@ -56,13 +56,13 @@ ht-degree: 4%
 * 에서 **config** 명령:
 
    ```
-   nlserver.exe config <option> -instance:<instanceName>
+   nlserver.exe config <option> -instance:<instance-name>
    ```
 
 * 또는 업그레이드 후:
 
    ```
-   nlserver.exe config -postupgrade <option> -instance:<instanceName>
+   nlserver.exe config -postupgrade <option> -instance:<instance-name>
    ```
 
 >[!NOTE]
@@ -76,7 +76,7 @@ ht-degree: 4%
 * 다음 **-showCustomEntities** 옵션은 모든 비표준 객체 목록을 표시합니다.
 
    ```
-   nlserver.exe config -showCustomEntities -instance:<instanceName>
+   nlserver.exe config -showCustomEntities -instance:<instance-name>
    ```
 
    보낸 메시지의 예:
@@ -88,7 +88,7 @@ ht-degree: 4%
 * 다음 **-showDeletedEntities** 옵션에는 데이터베이스 또는 파일 시스템에서 누락된 모든 표준 객체의 목록이 표시됩니다. 누락된 각 객체에 대해 경로가 지정됩니다.
 
    ```
-   nlserver.exe config -showDeletedEntities -instance:<instanceName>
+   nlserver.exe config -showDeletedEntities -instance:<instance-name>
    ```
 
    보낸 메시지의 예:
@@ -104,7 +104,7 @@ ht-degree: 4%
 다음 명령을 사용하여 자체(마이그레이션 없이) 확인 프로세스를 시작할 수 있습니다.
 
 ```
-nlserver.exe config -postupgrade -check -instance:<instanceName>
+nlserver.exe config -postupgrade -check -instance:<instance-name>
 ```
 
 >[!NOTE]
@@ -177,7 +177,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 이 옵션을 사용하면 기본 제공 개체를 수정한 경우 복원할 수 있습니다. 복원된 각 객체에 대해 변경 사항 백업이 선택한 폴더에 저장됩니다.
 
 ```
-nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instanceName>
+nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instance-name>
 ```
 
 >[!NOTE]

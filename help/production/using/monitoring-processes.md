@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '3610'
 ht-degree: 0%
@@ -575,7 +575,7 @@ XML 구성 파일에는 다음 요소가 포함됩니다.
 이 요소를 사용하면 여러 시스템(호스트)을 동일한 인스턴스로 다시 그룹화할 수 있습니다. 인스턴스 이름은 모니터링 이메일의 첫 부분에 나타납니다. 인스턴스 이름을 클릭하여 각 컴퓨터에 대한 세부 정보에 액세스할 수 있습니다.
 
 ```
-instance name="instanceName" recipientList="mail@mail.com,mail2@mail.com">
+instance name="instance-name" recipientList="mail@mail.com,mail2@mail.com">
                 <host name="devcamp.domain.com" ...>
                        ...
                 </host>
