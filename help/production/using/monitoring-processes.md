@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
+source-git-commit: 9ea7eea5a539407a17b0a11c942570cfa6c16f2f
 workflow-type: tm+mt
-source-wordcount: '3610'
+source-wordcount: '3598'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,11 @@ ht-degree: 0%
 # 프로세스 모니터링{#monitoring-processes}
 
 
-
 응용 프로그램 서버 및 리디렉션 서버(**추적**)은 수동으로 또는 자동으로 모니터링할 수 있습니다.
 
 ## 수동 모니터링 {#manual-monitoring}
 
-이동 **[!UICONTROL Monitoring]** 을 클릭하고 **[!UICONTROL Overview]** Adobe Campaign 프로세스 모니터링 페이지를 표시하려면 링크를 클릭합니다.
+Adobe Campaign 프로세스 모니터링 페이지에 액세스하려면 **[!UICONTROL Monitoring]** 탭을 클릭하고 **[!UICONTROL Overview]** 링크를 클릭합니다.
 
 ![](assets/d_ncs_monitoring.png)
 
@@ -33,71 +32,71 @@ ht-degree: 0%
 * 누락된 프로세스 및 실행 정보 목록(시작 날짜, PID 등),
 * 워크플로우 및 게재 보기.
 
-다양한 캠페인 프로세스를 모니터링하는 추가 방법은 [이 페이지](../../production/using/monitoring-guidelines.md).
+Campaign 프로세스를 모니터링하는 추가 방법은 [이 페이지](../../production/using/monitoring-guidelines.md).
 
 ### 로그 저널 {#log-journal}
 
-프로세스와 관련된 로그 저널을 표시할 수 있습니다. 이렇게 하려면 프로세스를 클릭합니다. **mta** 예를 들어 **[!UICONTROL Open the log journal]** .
+프로세스와 관련된 로그 저널을 표시하려면 프로세스를 누릅니다. **mta** 예를 들어, **[!UICONTROL Open the log journal]** .
 
 ![](assets/d_ncs_monitoring2.png)
 
 ### 시스템 표시기 {#system-indicators}
 
-시스템 표시기 목록을 사용하면 물리적 및 가상 메모리, 활성 프로세스, 사용 가능한 디스크 공간 등 컴퓨터에 대한 정보를 표시할 수 있습니다. Linux 및 Windows 운영 체제에는 지표가 다릅니다. 로 이동합니다. **[!UICONTROL Instance Monitoring]** 페이지를 클릭하고 **[!UICONTROL Display]** 지표 목록을 여는 링크
+시스템 표시기 목록을 찾아 물리적 및 가상 메모리, 활성 프로세스, 사용 가능한 디스크 공간 등 컴퓨터에 대한 정보를 표시합니다. Linux 및 Windows 운영 체제에는 지표가 다릅니다. 로 이동합니다. **[!UICONTROL Instance Monitoring]** 페이지를 클릭하고 **[!UICONTROL Display]** 링크를 클릭하여 지표 목록을 엽니다.
 
 #### Windows {#in-windows}
 
-* **[!UICONTROL Pending events queued]** : 특정 표시기 **메시지 센터**. 을(를) 참조하십시오. [이 섹션](../../message-center/using/additional-configurations.md#monitoring-thresholds) 추가 정보.
+* **[!UICONTROL Pending events queued]**: 특정 표시기 **메시지 센터**. [자세히 알아보기](../../message-center/using/additional-configurations.md#monitoring-thresholds)
 
-* **[!UICONTROL Memory]** : 실제 메모리(RAM)에 대한 정보입니다.
+* **[!UICONTROL Memory]**: 실제 메모리(RAM)에 대한 정보입니다.
 
-   **[!UICONTROL Current value]** : 실제 메모리 사용량.
+   **[!UICONTROL Current value]**: 현재 메모리 사용량.
 
-   **[!UICONTROL Max Value]** : 설치된 총 메모리 양.
+   **[!UICONTROL Max Value]**: 설치된 총 메모리 양.
 
-   **[!UICONTROL Available]** : 사용 가능한 메모리 양.
+   **[!UICONTROL Available]**: 사용 가능한 메모리 양.
 
-   **[!UICONTROL Warning]** : 이 표시기는 메모리 사용량이 전체 용량의 80%에 도달하면 표시됩니다.
+   **[!UICONTROL Warning]**: 이 표시기는 메모리 사용량이 전체 용량의 80%에 도달하면 표시됩니다.
 
-   **[!UICONTROL Alert]** : 이 표시기는 메모리 사용량이 전체 용량의 90%에 도달하면 표시됩니다.
+   **[!UICONTROL Alert]**: 이 표시기는 메모리 사용량이 전체 용량의 90%에 도달하면 표시됩니다.
 
    이 **[!UICONTROL Warning]** 및 **[!UICONTROL Alert]** 표시기가 표시되면 Adobe Campaign 서버가 설치된 컴퓨터에 RAM을 추가하여 문제를 해결할 수 있습니다. 전용 컴퓨터에 Adobe Campaign 서버를 설치하기로 결정할 수도 있습니다.
 
-* **[!UICONTROL Swap Memory]** : 페이징 파일과 일치하는 가상 메모리와 관련된 정보: Windows에서 RAM처럼 사용하는 하드 디스크의 영역입니다.
+* **[!UICONTROL Swap Memory]**: 페이징 파일과 일치하는 가상 메모리와 관련된 정보: Windows에서 RAM처럼 사용하는 하드 디스크의 영역입니다.
 
-   **[!UICONTROL Current value]** : 실제 메모리 사용량.
+   **[!UICONTROL Current value]**: 실제 메모리 사용량.
 
-   **[!UICONTROL Max Value]** : 총 메모리 양.
+   **[!UICONTROL Max Value]**: 총 메모리 양.
 
-   **[!UICONTROL Available]** : 사용 가능한 메모리 양.
+   **[!UICONTROL Available]**: 사용 가능한 메모리 양.
 
-   **[!UICONTROL Warning]** : 이 표시기는 메모리 사용량이 전체 용량의 80%에 도달하면 표시됩니다.
+   **[!UICONTROL Warning]**: 이 표시기는 메모리 사용량이 전체 용량의 80%에 도달하면 표시됩니다.
 
-   **[!UICONTROL Alert]** : 이 표시기는 메모리 사용량이 전체 용량의 90%에 도달하면 표시됩니다.
+   **[!UICONTROL Alert]**: 이 표시기는 메모리 사용량이 전체 용량의 90%에 도달하면 표시됩니다.
 
    이 **[!UICONTROL Warning]** 및 **[!UICONTROL Alert]** 표시기가 표시되면 고급 Windows 설정에서 exchange 파일의 크기를 늘려 문제를 해결할 수 있습니다.
 
-* **[!UICONTROL Disk XXX]** : 컴퓨터 판독기에 대한 정보입니다.
+* **[!UICONTROL Disk XXX]**: 컴퓨터 판독기에 대한 정보입니다.
 
-   **[!UICONTROL Current value]** : 실제로 사용되는 디스크 공간입니다.
+   **[!UICONTROL Current value]**: 실제로 사용되는 디스크 공간입니다.
 
-   **[!UICONTROL Max Value]** : 총 디스크 용량.
+   **[!UICONTROL Max Value]**: 총 디스크 용량.
 
-   **[!UICONTROL Available]** : 사용 가능한 디스크 공간
+   **[!UICONTROL Available]**: 사용 가능한 디스크 공간.
 
-   **[!UICONTROL Used]** : 사용된 디스크의 백분율입니다.
+   **[!UICONTROL Used]**: 사용된 디스크의 백분율입니다.
 
-   **[!UICONTROL Warning]** : 사용 가능한 디스크 공간이 전체 용량의 80%에 도달하면 이 표시기가 표시됩니다.
+   **[!UICONTROL Warning]**: 사용 가능한 디스크 공간이 전체 용량의 80%에 도달하면 이 표시기가 표시됩니다.
 
-   **[!UICONTROL Alert]** : 사용 가능한 디스크 공간이 전체 용량의 90%에 도달하면 이 표시기가 표시됩니다.
+   **[!UICONTROL Alert]**: 사용 가능한 디스크 공간이 전체 용량의 90%에 도달하면 이 표시기가 표시됩니다.
 
-* **[!UICONTROL Number of processes too old]** : 이틀 이상 활성화된 Adobe Campaign 프로세스에 대한 정보입니다.
+* **[!UICONTROL Number of processes too old]**: 이틀 이상 활성화된 Adobe Campaign 프로세스에 대한 정보입니다.
 
-   **[!UICONTROL Current value]** : 현재 활성화된 프로세스 수
+   **[!UICONTROL Current value]**: 현재 활성화된 프로세스 수
 
-   **[!UICONTROL Max Value]** : 허용된 최대 프로세스 수(1)
+   **[!UICONTROL Max Value]**: 허용된 최대 프로세스 수(1)
 
-   **[!UICONTROL Alert]** : 프로세스 수가 1인 경우 이 표시기가 표시됩니다.
+   **[!UICONTROL Alert]**: 프로세스 수가 1인 경우 이 표시기가 표시됩니다.
 
    이 **[!UICONTROL Alert]** 표시기가 표시되면 관련 프로세스가 SQL 데이터베이스 엔진에 의해 잠겨있거나 무한 루프에 포함되어 있을 수 있습니다. 다음 **감시** Adobe Campaign에서 제공하는 프로세스는 매일 모든 프로세스를 자동으로 다시 시작하고 이 문제를 해결할 수 있도록 해줍니다. 하지만, 여러분은 또한 재시작을 강요하기 위해 관련된 과정을 멈출 수 있습니다.
 
@@ -105,115 +104,115 @@ ht-degree: 0%
 
 ![](assets/production_system_indicators_linux_001.png)
 
-* **[!UICONTROL Pending events queued]** : 특정 표시기 **메시지 센터**. 을(를) 참조하십시오. [이 섹션](../../message-center/using/additional-configurations.md#monitoring-thresholds) 추가 정보.
+* **[!UICONTROL Pending events queued]**: 특정 표시기 **메시지 센터**. 을(를) 참조하십시오. [이 섹션](../../message-center/using/additional-configurations.md#monitoring-thresholds) 추가 정보.
 
-* **[!UICONTROL Load average (1/5/15 minutes)]** : 부하에 관한 정보, 즉 지난 분, 5분 또는 15분 동안 컴퓨터에서 실행되는 프로세스에 의한 프로세서 사용률
+* **[!UICONTROL Load average (1/5/15 minutes)]**: 부하에 관한 정보, 즉 지난 분, 5분 또는 15분 동안 컴퓨터에서 실행되는 프로세스에 의한 프로세서 사용률
 
-   **[!UICONTROL Current value]** : 시스템의 실제 로드.
+   **[!UICONTROL Current value]**: 시스템의 실제 로드.
 
-   **[!UICONTROL Max value]** : 시스템에서 프로세스의 최대 사용 로드
+   **[!UICONTROL Max value]**: 시스템에서 프로세스의 최대 사용 로드
 
-   **[!UICONTROL Warning]** : 이 표시기는 로드가 마지막 분, 5분 또는 15분 동안 허용되는 최대 값의 80%에 도달하면 표시됩니다.
+   **[!UICONTROL Warning]**: 이 표시기는 로드가 마지막 분, 5분 또는 15분 동안 허용되는 최대 값의 80%에 도달하면 표시됩니다.
 
-   **[!UICONTROL Alert]** : 이 표시기는 로드가 마지막 분, 5분 또는 15분의 최대 승인 값의 90%에 도달하면 표시됩니다.
+   **[!UICONTROL Alert]**: 이 표시기는 로드가 마지막 분, 5분 또는 15분의 최대 승인 값의 90%에 도달하면 표시됩니다.
 
-* **[!UICONTROL Memory]** : 실제 메모리(RAM)에 대한 정보입니다.
+* **[!UICONTROL Memory]**  실제 메모리(RAM)에 대한 정보입니다.
 
-   **[!UICONTROL Current value]** : 실제 메모리 사용량.
+   **[!UICONTROL Current value]**: 실제 메모리 사용량.
 
-   **[!UICONTROL Max Value]** : 설치된 총 메모리 양.
+   **[!UICONTROL Max Value]**: 설치된 총 메모리 양.
 
-   **[!UICONTROL Available]** : 사용 가능한 메모리 양.
+   **[!UICONTROL Available]**: 사용 가능한 메모리 양.
 
-   **[!UICONTROL Warning]** : 이 표시기는 메모리 사용량이 전체 용량의 80%에 도달하면 표시됩니다.
+   **[!UICONTROL Warning]**: 이 표시기는 메모리 사용량이 전체 용량의 80%에 도달하면 표시됩니다.
 
-   **[!UICONTROL Alert]** : 이 표시기는 메모리 사용량이 전체 용량의 90%에 도달하면 표시됩니다.
+   **[!UICONTROL Alert]**: 이 표시기는 메모리 사용량이 전체 용량의 90%에 도달하면 표시됩니다.
 
    이 **[!UICONTROL Warning]** 및 **[!UICONTROL Alert]** 표시기가 표시되면 Adobe Campaign 서버가 설치된 컴퓨터에 RAM을 추가하여 문제를 해결할 수 있습니다. 전용 컴퓨터에 Adobe Campaign 서버를 설치하기로 결정할 수도 있습니다.
 
-* **[!UICONTROL Swap Memory]** : 페이징 파일과 일치하는 가상 메모리와 관련된 정보: Windows에서 RAM처럼 사용하는 하드 디스크의 영역입니다.
+* **[!UICONTROL Swap Memory]**: 페이징 파일과 일치하는 가상 메모리와 관련된 정보: Windows에서 RAM처럼 사용하는 하드 디스크의 영역입니다.
 
-   **[!UICONTROL Current value]** : 실제 메모리 사용량.
+   **[!UICONTROL Current value]**: 실제 메모리 사용량.
 
-   **[!UICONTROL Max Value]** : 총 메모리 양.
+   **[!UICONTROL Max Value]**: 총 메모리 양.
 
-   **[!UICONTROL Available]** : 사용 가능한 메모리 양.
+   **[!UICONTROL Available]**: 사용 가능한 메모리 양.
 
-   **[!UICONTROL Warning]** : 이 표시기는 메모리 사용량이 전체 용량의 80%에 도달하면 표시됩니다.
+   **[!UICONTROL Warning]**: 이 표시기는 메모리 사용량이 전체 용량의 80%에 도달하면 표시됩니다.
 
-   **[!UICONTROL Alert]** : 이 표시기는 메모리 사용량이 전체 용량의 90%에 도달하면 표시됩니다.
+   **[!UICONTROL Alert]**: 이 표시기는 메모리 사용량이 전체 용량의 90%에 도달하면 표시됩니다.
 
    이 **[!UICONTROL Warning]** 및 **[!UICONTROL Alert]** 표시기가 표시되면 exchange 파일의 크기를 늘려 문제를 해결할 수 있습니다.
 
-* **[!UICONTROL Core Files]** : Adobe Campaign 프로세스 충돌 후 생성된 파일에 대한 정보입니다. 이러한 파일을 통해 충돌 원인을 진단할 수 있습니다.
+* **[!UICONTROL Core Files]**: Adobe Campaign 프로세스 충돌 후 생성된 파일에 대한 정보입니다. 이러한 파일을 통해 충돌 원인을 진단할 수 있습니다.
 
-   **[!UICONTROL Current Value]** : 기존 파일 수.
+   **[!UICONTROL Current Value]**: 기존 파일 수.
 
-   **[!UICONTROL Max Value]** : 허용된 최대 파일 수(1)
+   **[!UICONTROL Max Value]**: 허용된 최대 파일 수(1)
 
-   **[!UICONTROL Warning]** : 이 표시기는 파일 수가 1에 근접하면 표시됩니다.
+   **[!UICONTROL Warning]**: 이 표시기는 파일 수가 1에 근접하면 표시됩니다.
 
-   **[!UICONTROL Alert]** : 이 표시기는 파일 수가 1일 때 표시됩니다.
+   **[!UICONTROL Alert]**: 이 표시기는 파일 수가 1일 때 표시됩니다.
 
    충돌로 인해 프로세스가 누락되면 프로세스 목록에 빨간색으로 표시되며, **감시** Adobe Campaign에서 제공하는 프로세스입니다.
 
-* **[!UICONTROL Number of shared memory segments]** : 모든 Adobe Campaign 프로세스에서 공유하는 메모리 세그먼트에 대한 정보입니다.
+* **[!UICONTROL Number of shared memory segments]**: 모든 Adobe Campaign 프로세스에서 공유하는 메모리 세그먼트에 대한 정보입니다.
 
-   **[!UICONTROL Current value]** : 현재 사용 중인 메모리 세그먼트 수입니다.
+   **[!UICONTROL Current value]**: 현재 사용 중인 메모리 세그먼트 수입니다.
 
-   **[!UICONTROL Max Value]** : 허용된 최대 메모리 세그먼트 수(2)
+   **[!UICONTROL Max Value]**: 허용된 최대 메모리 세그먼트 수(2)
 
-   **[!UICONTROL Warning]** : 메모리 세그먼트 수가 1에 도달하면 이 표시기가 표시됩니다.
+   **[!UICONTROL Warning]**: 메모리 세그먼트 수가 1에 도달하면 이 표시기가 표시됩니다.
 
-   **[!UICONTROL Alert]** : 메모리 세그먼트 수가 2에 도달하면 이 표시기가 표시됩니다.
+   **[!UICONTROL Alert]**: 메모리 세그먼트 수가 2에 도달하면 이 표시기가 표시됩니다.
 
-* **[!UICONTROL Number of processes too old]** : 하루 이상 활성 상태인 프로세스에 대한 정보입니다.
+* **[!UICONTROL Number of processes too old]**: 하루 이상 활성 상태인 프로세스에 대한 정보입니다.
 
-   **[!UICONTROL Current value]** : 현재 활성화된 프로세스 수
+   **[!UICONTROL Current value]**: 현재 활성화된 프로세스 수
 
-   **[!UICONTROL Max Value]** : 허용된 최대 프로세스 수
+   **[!UICONTROL Max Value]**: 허용된 최대 프로세스 수
 
-   **[!UICONTROL Warning]** : 프로세스 수가 인증된 임계값의 80%에 도달하면 이 표시기가 표시됩니다.
+   **[!UICONTROL Warning]**: 프로세스 수가 인증된 임계값의 80%에 도달하면 이 표시기가 표시됩니다.
 
-   **[!UICONTROL Alert]** : 프로세스 수가 인증된 임계값의 90%에 도달하면 이 표시기가 표시됩니다.
+   **[!UICONTROL Alert]**: 프로세스 수가 인증된 임계값의 90%에 도달하면 이 표시기가 표시됩니다.
 
-* **[!UICONTROL File Handles]** : 파일 설명자에 대한 정보(즉, 프로세스당 열린 파일 수)입니다.
+* **[!UICONTROL File Handles]**: 파일 설명자에 대한 정보(즉, 프로세스당 열린 파일 수)입니다.
 
-   **[!UICONTROL Current value]** : 현재 파일 설명자 수
+   **[!UICONTROL Current value]**: 현재 파일 설명자 수
 
-   **[!UICONTROL Max Value]** : 운영 체제에서 인증한 최대 파일 설명자 수
+   **[!UICONTROL Max Value]**: 운영 체제에서 인증한 최대 파일 설명자 수
 
-   **[!UICONTROL Warning]** : 권한이 있는 파일 설명자 수가 80% 임계값에 도달하면 이 표시기가 표시됩니다.
+   **[!UICONTROL Warning]**: 권한이 있는 파일 설명자 수가 80% 임계값에 도달하면 이 표시기가 표시됩니다.
 
-   **[!UICONTROL Alert]** : 권한이 있는 파일 설명자 수가 90% 임계값에 도달하면 이 표시기가 표시됩니다.
+   **[!UICONTROL Alert]**: 권한이 있는 파일 설명자 수가 90% 임계값에 도달하면 이 표시기가 표시됩니다.
 
-* **[!UICONTROL Processes]** : 시스템 프로세스에 대한 정보입니다.
+* **[!UICONTROL Processes]**: 시스템 프로세스에 대한 정보입니다.
 
-   **[!UICONTROL Current value]** : 현재 활성화된 프로세스 수
+   **[!UICONTROL Current value]**: 현재 활성화된 프로세스 수
 
-   **[!UICONTROL Max Value]** : 허용된 최대 프로세스 수
+   **[!UICONTROL Max Value]**: 허용된 최대 프로세스 수
 
-   **[!UICONTROL Active Processes]** : 활성 프로세스 수
+   **[!UICONTROL Active Processes]**: 활성 프로세스 수
 
-   **[!UICONTROL Inactive Processes]** : 비활성 프로세스 수.
+   **[!UICONTROL Inactive Processes]**: 비활성 프로세스 수.
 
-   **[!UICONTROL Warning]** : 승인된 프로세스 수가 80% 임계값에 도달하면 이 표시기가 표시됩니다.
+   **[!UICONTROL Warning]**: 승인된 프로세스 수가 80% 임계값에 도달하면 이 표시기가 표시됩니다.
 
-   **[!UICONTROL Alert]** : 승인된 프로세스 수가 90% 임계값에 도달하면 이 표시기가 표시됩니다.
+   **[!UICONTROL Alert]**: 승인된 프로세스 수가 90% 임계값에 도달하면 이 표시기가 표시됩니다.
 
-* **[!UICONTROL Zombie Processes]** : 중지되었지만 여전히 프로세스 식별자(PID)가 있으며 프로세스 테이블에 계속 표시되는 프로세스에 대한 정보입니다.
+* **[!UICONTROL Zombie Processes]**: 중지되었지만 여전히 프로세스 식별자(PID)가 있으며 프로세스 테이블에 계속 표시되는 프로세스에 대한 정보입니다.
 
-   **[!UICONTROL Current value]** : 현재 활성 상태인 좀비 프로세스 수입니다.
+   **[!UICONTROL Current value]**: 현재 활성 상태인 좀비 프로세스 수입니다.
 
-   **[!UICONTROL Max Value]** : 최대 권한 부여 좀비 프로세스 수(2)
+   **[!UICONTROL Max Value]**: 최대 권한 부여 좀비 프로세스 수(2)
 
-   **[!UICONTROL Warning]** : 이 표시기는 좀비 프로세스 수가 2에 근접하면 표시됩니다.
+   **[!UICONTROL Warning]**: 이 표시기는 좀비 프로세스 수가 2에 근접하면 표시됩니다.
 
-   **[!UICONTROL Alert]** 이 표시기는 좀비 프로세스 수가 2에 도달하면 표시됩니다.
+   **[!UICONTROL Alert]**: 이 표시기는 좀비 프로세스 수가 2에 도달하면 표시됩니다.
 
-#### 사용자 지정된 표시기 {#customized-indicators}
+#### 표시기 사용자 지정 {#customized-indicators}
 
-Adobe Campaign을 사용하면 표시기를 사용자 지정할 수 있습니다. 방법은 다음과 같습니다.
+Adobe Campaign에서는 아래에 자세히 설명된 대로 지표를 사용자 지정할 수 있습니다.
 
 1. 만들기 **.sh** 파일 및 이름 지정 **[!UICONTROL cust_indicators.sh]** .
 1. 사용자 지정된 표시기를 이 파일에 추가합니다. 예제:
@@ -241,15 +240,13 @@ Adobe Campaign을 사용하면 표시기를 사용자 지정할 수 있습니다
 
 1. 파일을 **[!UICONTROL usr/local/neolane/nl6]** 폴더를 입력합니다.
 
-이 파일은 Adobe Campaign에서 호출됩니다.
+이 파일은 Adobe Campaign에서 호출합니다.
 
 ## SMTP 보고서 {#smtp-reports}
 
 SMTP 배달 모니터링 보고서가 Adobe Campaign 플랫폼에 통합됩니다. 콘솔 또는 웹 액세스를 통해 액세스할 수 있습니다.
 
-이러한 보고서에는 도메인별 SMTP 배달 통계와 SMTP 오류가 표시됩니다.
-
-액세스하려면 운영자에게 관리 권한이 있어야 합니다.
+이러한 보고서에는 도메인별 SMTP 배달 통계와 SMTP 오류가 표시됩니다. 액세스하려면 연산자가 **관리** 권한 .
 
 그것들은 다음과 같이 그룹화되어 있습니다 **모니터링** > &#39;SMTP 모니터링&#39;.
 
