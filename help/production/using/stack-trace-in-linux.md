@@ -3,12 +3,12 @@ product: campaign
 title: Linux의 스택 추적
 description: Linux의 스택 추적
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 11%
@@ -19,16 +19,16 @@ ht-degree: 11%
 
 
 
-A **스택 추적** 는 **코어** 파일 형식. 이 파일은 컴퓨터 오류가 발생한 경우 생성됩니다. 오류 출처를 식별할 수 있습니다.
+A **스택 추적** 에 포함된 추적을 나타냅니다. **코어** 파일을 입력합니다. 이 파일은 시스템 오류가 발생하는 경우 생성됩니다. 오류의 원인을 파악할 수 있습니다.
 
 >[!NOTE]
 >
->* A **코어** 파일 이름 **코어.`<num>`**.
->* **gdb - GNU 디버거** 컴퓨터에 설치해야 합니다.
+>* A **코어** 파일 이름이 지정됨 **코어.`<num>`**.
+>* **gdb - GNU 디버거** 은(는) 컴퓨터에 설치되어 있어야 합니다.
 >
 
 
-Adobe Campaign 기술 지원 팀에서 이 작업을 요청할 수 있습니다 **스택 추적**. 이를 가져오려면 Linux에서 다음 명령을 입력합니다.
+Adobe Campaign 기술 지원 팀에서 이를 요청할 수 있습니다. **스택 추적**. 다운로드하려면 Linux에서 다음 명령을 입력합니다.
 
 ```
 su - neolane
@@ -55,9 +55,9 @@ gdb nlserver <coreFile>
 #16 0x5565918a in clone () from /lib/tls/libc.so.6
 ```
 
-Adobe Campaign 기술 지원에서는 특정 실행 파일을 사용하여 이 명령을 실행하도록 요청할 수 있습니다(Dell에서 제공).
+Adobe Campaign 기술 지원에서 제공하는 특정 실행 파일을 사용하여 이 명령을 실행하도록 요청할 수 있습니다.
 
-이 경우 다음 명령을 **nlserver** Adobe Campaign에서 제공하는 실행 파일과 함께:
+이 경우 을 교체하여 다음 명령을 실행하면 됩니다 **nlserver** Adobe Campaign에서 제공한 실행 파일로:
 
 ```
 gdb nlserver <coreFile>

@@ -3,12 +3,12 @@ product: campaign
 title: URL 권한 구성
 description: URL 권한을 구성하는 방법 알아보기
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 29%
@@ -25,20 +25,20 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 >[!NOTE]
 >
->이 절차는 **온-프레미스** 배포.
+>이 절차는 다음으로 제한됩니다. **온-프레미스** 배포.
 >
->로서의 **호스팅** 고객, [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)에서는 URL 권한 셀프 서비스 인터페이스를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ko)
+>로서의 **호스트됨** 고객, 액세스할 수 있는 경우 [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko), URL 권한 셀프 서비스 인터페이스를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ko)
 >
->기타 **하이브리드/호스팅** 고객은 Adobe 지원 팀에 연락하여에 IP를 추가해야 허용 목록에 추가하다 합니다.
+>기타 **하이브리드/호스팅** 고객은 Adobe 지원 팀에 연락하여 허용 목록에 추가하다에 IP를 추가해야 합니다.
 
-대상 **하이브리드** 및 **On-premise** 배포 시 관리자는 새로운 **urlPermission** 에서 **serverConf.xml** 파일.
+대상 **하이브리드** 및 **온프레미스** 배포의 경우 관리자는 새 를 참조해야 합니다 **urlPermission** 다음에서 **serverConf.xml** 파일.
 
 
-다음 세 가지 연결 보호 모드를 사용할 수 있습니다.
+세 가지 연결 보호 모드를 사용할 수 있습니다.
 
-* **차단**: 에 속하지 않는 허용 목록에 추가하다 모든 URL이 차단되며 오류 메시지가 표시됩니다. 업그레이드 후 기본 모드입니다.
-* **허용**: 에 속하지 않는 모든 URL이 허용 목록에 추가하다 허용됩니다.
-* **경고**: 에 속하지 않는 모든 URL이 허용 목록에 추가하다 허용되지만 JS 인터프리터가 경고를 표시하여 관리자가 수집할 수 있습니다. 이 모드에서는 JST-310027 경고 메시지가 추가됩니다.
+* **차단**: 허용 목록에 추가하다에 속하지 않는 모든 URL이 차단되고 오류 메시지가 표시됩니다. 업그레이드 후 기본 모드입니다.
+* **허용-**: 허용 목록에 추가하다에 속하지 않는 모든 URL이 허용됩니다.
+* **경고**: 허용 목록에 추가하다에 속하지 않는 모든 URL이 허용되지만, 관리자가 수집할 수 있도록 JS 인터프리터가 경고를 내보냅니다. 이 모드는 JST 310027 경고 메시지를 추가합니다.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -50,14 +50,14 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 >[!IMPORTANT]
 >
->기본적으로 새 구현에서는 **차단** 모드.
+>기본적으로 새 구현은 **차단** 모드.
 >
->마이그레이션에서 오는 기존 고객은 임시 를 사용할 수 있습니다. **경고** 모드. URL을 허용하기 전에 아웃바운드 트래픽을 분석합니다. 허용된 URL 목록이 정의되면 URL을에 추가하고 을(를) 활성화할 수 허용 목록에 추가하다 있습니다. **차단** 모드.
+>마이그레이션에서 온 기존 고객으로서 **경고** 모드. URL을 허용하기 전에 아웃바운드 트래픽을 분석합니다. 허용된 URL 목록이 정의되면 URL을 허용 목록에 추가하다에 추가하고 을 활성화할 수 있습니다. **차단** 모드.
 
-자세한 정보는 다음 섹션을 참조하십시오.
+자세한 내용은 다음 섹션을 참조하십시오.
 
 * [컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 * [호스팅 모델](hosting-models.md)
 * [Campaign 서버 구성](configuring-campaign-server.md)
-* [Campaign 서버 구성 파일 매개 변수](the-server-configuration-file.md)
+* [Campaign 서버 구성 파일 매개변수](the-server-configuration-file.md)
 * [보안 및 개인 정보 확인 목록](get-started-security-privacy.md)

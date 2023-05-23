@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 100%
@@ -64,7 +64,7 @@ Adobe Campaign을 사용하면 개인정보 보호 준비를 원활히 수행할
 **액세스** 및 **삭제** 요청을 만드는 방법과 Adobe Campaign에서 이 요청을 처리하는 원리는 [구현 단계](../../platform/using/privacy-requests.md)를 참조하세요.
 
 <!--Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
-https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en-->
+https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html-->
 
 ## 동의, 보존 및 역할 {#consent-retention-roles}
 

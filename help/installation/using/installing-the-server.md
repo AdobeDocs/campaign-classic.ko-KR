@@ -3,12 +3,12 @@ product: campaign
 title: 서버 설치
 description: 서버 설치
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 3%
@@ -33,22 +33,22 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
 
    ![](assets/s_ncs_install_installer_01a.png)
 
-   다음과 같은 몇 가지 설치 유형을 사용할 수 있습니다.
+   몇 가지 설치 유형을 사용할 수 있습니다.
 
    * **[!UICONTROL Installation of an application server]** : Adobe Campaign 애플리케이션 서버와 클라이언트 콘솔을 설치합니다.
    * **[!UICONTROL Minimal installation (Network)]** : 네트워크에서 클라이언트 컴퓨터 설치 필요한 경우 제한된 수의 DLL만 컴퓨터에 설치되고 다른 모든 구성 요소는 네트워크 드라이브에서 사용됩니다.
    * **[!UICONTROL Installation of a client]** : Adobe Campaign 클라이언트에 필요한 구성 요소 설치
    * **[!UICONTROL Custom installation]** : 사용자가 설치할 요소를 선택합니다.
 
-   선택 **응용 프로그램 서버 설치**&#x200B;를 호출하고 아래에 표시된 대로 다른 단계를 수행합니다.
+   선택 **애플리케이션 서버 설치**&#x200B;을 클릭하고 아래와 같이 다른 단계를 수행합니다.
 
    ![](assets/s_ncs_install_installer_02.png)
 
-1. 설치 디렉토리를 선택합니다.
+1. 설치 디렉터리를 선택합니다.
 
    ![](assets/s_ncs_install_installer_03.png)
 
-1. 클릭 **[!UICONTROL Finish]** 설치를 시작하려면 다음을 수행하십시오.
+1. 클릭 **[!UICONTROL Finish]** 설치를 시작하려면:
 
    ![](assets/s_ncs_install_installer_04.png)
 
@@ -56,15 +56,15 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
 
    ![](assets/s_ncs_install_installer_05.png)
 
-   설치가 완료되면 사용자에게 다음과 같은 메시지가 나타납니다.
+   설치가 완료되면 다음과 같은 메시지가 나타납니다.
 
    ![](assets/s_ncs_install_installer_06.png)
 
    >[!NOTE]
    >
-   >서버 설치가 완료되면 가능한 네트워크 문제를 방지하기 위해 서버를 재부팅해야 합니다.
+   >서버 설치가 완료되면 네트워크 문제를 방지하기 위해 서버를 재부팅해야 합니다.
 
-   설치가 완료되면 Adobe Campaign을 시작하여 구성 파일을 만듭니다. 을(를) 참조하십시오. [서버의 첫 번째 시작](#first-start-up-of-the-server).
+   설치가 완료되면 Adobe Campaign을 시작하여 구성 파일을 만듭니다. 을(를) 참조하십시오 [서버의 첫 번째 시작](#first-start-up-of-the-server).
 
 ## 요약 설치 테스트 {#summary-installation-testing}
 
@@ -74,7 +74,7 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
 nlserver pdump
 ```
 
-Adobe Campaign이 시작되지 않으면 응답은 다음과 같습니다.
+Adobe Campaign이 시작되지 않은 경우 응답은 다음과 같습니다.
 
 ```
 No task
@@ -82,7 +82,7 @@ No task
 
 ## 서버의 첫 번째 시작 {#first-start-up-of-the-server}
 
-설치 테스트가 완료되면 **[!UICONTROL Start > Programs > Adobe Campaign]** 메뉴를 클릭하고 다음 명령을 입력합니다.
+설치 테스트가 완료되면 다음을 통해 명령 프롬프트를 엽니다. **[!UICONTROL Start > Programs > Adobe Campaign]** 메뉴를 클릭하고 다음 명령을 입력합니다.
 
 ```
 nlserver web
@@ -137,21 +137,21 @@ nlserver stop web
 12:18:31 >   Web server stopped (pid=29188, tid=-1224824320)...
 ```
 
-## 내부 식별자의 암호 {#password-for-the-internal-identifier}
+## 내부 식별자 암호 {#password-for-the-internal-identifier}
 
-Adobe Campaign 서버는 **내부** 모든 인스턴스에 대한 모든 권한이 있습니다. 설치 후 로그인에 암호가 없습니다. 하나를 반드시 정의해야 합니다.
+Adobe Campaign 서버는 이라는 기술 로그인을 정의합니다 **내부** 모든 인스턴스에 대한 모든 권한이 있습니다. 설치 후 로그인에 암호가 없습니다. 하나를 정의해야 합니다.
 
 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)에서 자세히 알아보십시오.
 
 ## Adobe Campaign 서비스 시작 {#starting-adobe-campaign-services}
 
-Adobe Campaign 서비스를 시작하려면 서비스 관리자를 사용하거나 명령줄에서 적절한 권한을 사용하여 다음을 입력할 수 있습니다.
+Adobe Campaign 서비스를 시작하려면 서비스 관리자를 사용하거나 명령줄에 적절한 권한으로 다음을 입력할 수 있습니다.
 
 ```
 net start nlserver6
 ```
 
-나중에 Adobe Campaign 프로세스를 중지해야 하는 경우 다음 명령을 사용하십시오.
+나중에 Adobe Campaign 프로세스를 중지해야 하는 경우 다음 명령을 사용합니다.
 
 ```
 net stop nlserver6

@@ -7,10 +7,10 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 90%
+source-wordcount: '1503'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## Adobe Analytics 커넥터 통합 정보 {#about-analytics-connector-integration}
 
-Adobe Analytics 커넥터를 사용하면 Adobe Campaign 및 Adobe Analytics이 **[!UICONTROL Web Analytics connectors]** 패키지를 통해 상호 작용할 수 있습니다. 캠페인 후 사용자 행동에 대한 세그먼트 형태로 Adobe Campaign에 데이터를 전달합니다. 반대로 Adobe Campaign에서 Adobe Analytics으로 전달하는 캠페인의 지표와 특성을 보냅니다.
+Adobe Analytics 커넥터를 사용하면 Adobe Campaign 및 Adobe Analytics이 **[!UICONTROL Web Analytics connectors]** 패키지를 통해 상호 작용할 수 있습니다. 캠페인 후 사용자 행동에 대한 세그먼트 형태로 데이터를 Adobe Campaign에 전달합니다. 반대로 Adobe Campaign에서 게재한 캠페인의 지표와 특성을 Adobe Analytics으로 보냅니다.
 
 >[!CAUTION]
 >
@@ -70,7 +70,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
 1. From the **[!UICONTROL Report suite manager]** page, click **[!UICONTROL Create new]** then **[!UICONTROL Report suite]**.
 
-   For the detailed procedure on **[!UICONTROL Report suite]** creation, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=en#prerequisites).
+   For the detailed procedure on **[!UICONTROL Report suite]** creation, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites).
 
    ![](assets/analytics_connnector_3.png)
 
@@ -99,9 +99,9 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
    ![](assets/analytics_connnector_5.png)
 
-1. 클릭 **[!UICONTROL Add new]** 캠페인의 영향을 측정하는 데 필요한 식별자를 만들려면 내부 캠페인 이름(cid) 및 iNmsBroadlog(bid) 테이블 ID를 참조하십시오.
+1. 클릭 **[!UICONTROL Add new]** 캠페인의 영향을 측정하는 데 필요한 식별자, 즉, 내부 캠페인 이름(cid) 및 iNmsBroadlog(bid) 테이블 ID를 만듭니다.
 
-   **[!UICONTROL Conversion variables]**&#x200B;을(를) 편집하는 방법에 대해 알아보려면 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=ko#admin-tools)을 참조하십시오.
+   **[!UICONTROL Conversion variables]**&#x200B;을(를) 편집하는 방법에 대해 알아보려면 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools)을 참조하십시오.
 
    ![](assets/analytics_connnector_6.png)
 
@@ -124,7 +124,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   **[!UICONTROL Success events]**&#x200B;를 구성하는 방법에 대해 알아보려면 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=ko#admin-tools)을 참조하십시오..
+   **[!UICONTROL Success events]**&#x200B;를 구성하는 방법에 대해 알아보려면 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)을 참조하십시오..
 
    >[!NOTE]
    >
@@ -150,7 +150,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
 외부 계정을 구성할 때 **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** 또는 **[!UICONTROL Success events]** 중 하나가 표시되지 않으면 사용자와 연결된 **[!UICONTROL Product profile]**&#x200B;에서 새로 만든 이 구성 요소에 대한 권한이 누락되었음을 의미합니다.
 
-자세한 내용은 [Adobe Analytics용 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko#product-profile-admins) 페이지를 참조하십시오.
+자세한 내용은 [Adobe Analytics용 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins) 페이지를 참조하십시오.
 
 1. Adobe Campaign 트리의 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** 폴더로 이동하여 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
@@ -203,12 +203,12 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
    >[!IMPORTANT]
    >
-   >이 구성 모드는 전문가 사용자용으로 예약되어 있습니다. 이 수식의 오류가 발생하면 게재가 중지될 수 있습니다.
+   >이 구성 모드는 전문가 사용자용으로 예약되어 있습니다. 이 수식에 오류가 발생하면 게재가 중지될 수 있습니다.
 
 1. **[!UICONTROL Advanced]** 탭에서는 더 많은 기술 설정을 구성하거나 수정할 수 있습니다.
 
    * **[!UICONTROL Lifespan]**: 기술 워크플로우로 Adobe Campaign에서 웹 이벤트가 복구되는 지연 시간(일)을 지정할 수 있도록 해줍니다. 기본값: 180일.
-   * **[!UICONTROL Persistence]**: 모든 웹 이벤트(예: 구매)가 리마케팅 캠페인에 귀속될 기간을 정의할 수 있습니다. 기본값: 7일.
+   * **[!UICONTROL Persistence]**: 모든 웹 이벤트(예: 구매)가 리마케팅 캠페인에 귀속될 수 있는 기간을 정의할 수 있습니다. 기본값: 7일.
 
 >[!NOTE]
 >
@@ -225,7 +225,7 @@ Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작
 * **[!UICONTROL Recovering of web events]**: 한 시간에 한 번, 이 워크플로우는 주어진 사이트에서 사용자의 행동에 대한 세그먼트를 다운로드하여 Adobe Campaign 데이터베이스에 포함하고 리마케팅 워크플로우를 시작합니다.
 * **[!UICONTROL Event purge]**: 이 워크플로우를 사용하면 **[!UICONTROL Lifespan]** 필드에 구성된 기간에 따라 데이터베이스에서 모든 이벤트를 삭제할 수 있습니다. 자세한 내용은 Adobe Campaign Classic](#external-account-classic)에서 외부 계정 구성[을 참조하십시오.
 * **[!UICONTROL Identification of converted contacts]**: 리마케팅 캠페인 후 구매한 방문자의 디렉토리. 이 워크플로우에서 수집한 데이터는 **[!UICONTROL Re-marketing efficiency]** 보고서에서 액세스할 수 있습니다. 이 [페이지](#creating-a-re-marketing-campaign)를 참조하십시오.
-* **[!UICONTROL Sending of indicators and campaign attributes]**: Adobe Analytics 커넥터를 사용하여 Adobe Campaign을 통해 Adobe Experience Cloud으로 캠페인 표시기를 전송할 수 있습니다. 이 워크플로우는 매일 오전 4시에 트리거되며 데이터를 Analytics에 전송하는 데 24시간이 걸릴 수 있습니다.
+* **[!UICONTROL Sending of indicators and campaign attributes]**: Adobe Analytics Connector를 사용하여 Adobe Campaign을 통해 Adobe Experience Cloud으로 캠페인 지표를 보낼 수 있습니다. 이 워크플로우는 매일 오전 4시에 트리거되며 데이터를 Analytics에 전송하는 데 24시간이 걸릴 수 있습니다.
 
    이 워크플로우를 다시 시작하지 않아야 합니다. 그렇지 않으면 Analytics 결과를 왜곡할 수 있는 모든 이전 데이터가 다시 전송됩니다.
 
