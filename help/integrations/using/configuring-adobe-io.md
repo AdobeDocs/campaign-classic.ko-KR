@@ -66,7 +66,7 @@ ht-degree: 4%
 
    ![](assets/do-not-localize/adobe_io_3.png)
 
-1. 클라이언트 ID가 비어 있는 경우 다음을 선택합니다. **[!UICONTROL Generate a key pair]** 공용 및 개인 키 쌍을 만듭니다.
+1. 클라이언트 ID가 비어 있으면 다음을 선택합니다. **[!UICONTROL Generate a key pair]** 공용 및 개인 키 쌍을 만듭니다.
 
    그러면 기본 만료 날짜가 365일인 키가 자동으로 다운로드됩니다. 만료되면 새 키 쌍을 만들고 구성 파일에서 통합을 업데이트해야 합니다. 옵션 2를 사용하여 을(를) 수동으로 만들고 업로드하도록 선택할 수 있습니다 **[!UICONTROL Public key]** 만료일이 더 긴 경우
 

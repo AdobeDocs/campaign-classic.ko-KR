@@ -16,13 +16,13 @@ ht-degree: 62%
 
 ## 새로운 기능
 
-* **[11월 릴리스가 라이브입니다!](rn/using/latest-release.md)**<br/> 릴리스 노트의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오
+* **[11월 릴리스가 공개되었습니다!](rn/using/latest-release.md)**<br/> 릴리스 정보에서 새로운 기능, 개선 사항 및 수정 사항을 살펴봅니다
 
-* **[2022 릴리스 프로그램](technotes/using/dc-migration.md)**<br/> 환경을 업그레이드하고 보안, 인프라 및 성능을 개선합니다
+* **[2022 릴리스 프로그램](technotes/using/dc-migration.md)**<br/> 환경을 업그레이드하고 보안, 인프라 및 성능을 개선합니다.
 
 <!--* **[Secure your Campaign environment](technotes/using/tech-stack-upgrade.md)**<br/> Update to the latest versions to secure your Campaign platform-->
 
-* **[Adobe Experience Cloud Triggers 통합 업데이트](integrations/using/configuring-adobe-io.md)**<br/> 기존 oAuth 인증 서비스가 사용 수명이 종료되었습니다. Adobe I/O으로 마이그레이션해야 합니다.
+* **[Adobe Experience Cloud Triggers 통합 업데이트](integrations/using/configuring-adobe-io.md)**<br/> 레거시 oAuth 인증 서비스가 종료되었습니다. Adobe I/O으로 마이그레이션해야 합니다.
 
 [추가 업데이트](rn/using/documentation-updates.md)
 

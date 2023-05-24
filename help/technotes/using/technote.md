@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 기술 정보
-description: 기술 정보
+title: 기술 노트
+description: 기술 노트
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: true
 hidefromtoc: true
@@ -13,8 +13,8 @@ ht-degree: 0%
 
 ---
 
-# 기술 정보 {#about}
+# 기술 노트 {#about}
 
 
 
-[기술 정보 다운로드](guidelines.pdf)
+[기술 노트 다운로드](guidelines.pdf)

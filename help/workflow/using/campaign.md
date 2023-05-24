@@ -17,7 +17,7 @@ ht-degree: 4%
 
 
 
-아래 자세히 설명된 워크플로우는 **캠페인** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../../campaign/using/designing-marketing-campaigns.md).
+아래에 설명된 워크플로우는 **캠페인** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 정보는 다음을 참조하십시오. [섹션](../../campaign/using/designing-marketing-campaigns.md).
 
 >[!CAUTION]
 >
@@ -32,28 +32,28 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">비용 계산</span> <br /> </td> 
-   <td> <span class="uicontrol">budgetMgt</span> <br /> </td> 
-   <td> 이 워크플로우는 예산, 계획, 프로그램, 캠페인, 게재 및 작업에 대한 비용 및 비용 라인의 계산을 시작합니다.<br /> </td> 
+   <td> <span class="uicontrol">budgetManager</span> <br /> </td> 
+   <td> 이 워크플로우에서는 예산, 계획, 프로그램, 캠페인, 게재 및 태스크에 대한 경비 및 원가 라인 계산을 시작합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">주식: 주문 및 경고</span> <br /> </td> 
-   <td> <span class="uicontrol">stockMgt</span> <br /> </td> 
-   <td> 이 워크플로우는 주문 라인에 대한 재고 계산을 시작하고 경고 경고를 관리합니다.<br /> </td> 
+   <td> <span class="uicontrol">재고: 주문 및 경고</span> <br /> </td> 
+   <td> <span class="uicontrol">stockManager</span> <br /> </td> 
+   <td> 이 워크플로우는 주문 라인에서 재고 계산을 시작하고 경고 경고 임계값을 관리합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">캠페인에서 게재 작업</span> <br /> </td> 
-   <td> <span class="uicontrol">deliveryMgt</span> <br /> </td> 
-   <td> 이 워크플로우는 승인된 게재를 트리거하고 외부 배달을 위해 서비스 공급자의 사후 처리를 시작합니다. 또한 승인 알림과 다시 알림을 보냅니다.<br /> </td> 
+   <td> <span class="uicontrol">캠페인의 게재 작업</span> <br /> </td> 
+   <td> <span class="uicontrol">deliveryManager</span> <br /> </td> 
+   <td> 이 워크플로우는 승인된 게재를 트리거하고 외부 게재에 대한 서비스 공급자의 사후 처리를 시작합니다. 승인 알림과 미리 알림도 보냅니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">캠페인 작업</span> <br /> </td> 
-   <td> <span class="uicontrol">operationMgt</span> <br /> </td> 
-   <td> 이 워크플로우는 마케팅 캠페인(타겟팅, 파일 추출 등)에 대한 작업을 관리합니다. 또한 반복 및 주기적 캠페인과 관련된 워크플로우를 만듭니다.<br /> </td> 
+   <td> <span class="uicontrol">operationManager</span> <br /> </td> 
+   <td> 이 워크플로우는 마케팅 캠페인(론치 타기팅, 파일 추출 등)에 대한 작업을 관리합니다. 또한 반복 및 정기 캠페인과 관련된 워크플로우를 만듭니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">서비스 공급자의 작업</span> <br /> </td> 
    <td> <span class="uicontrol">supplierMgt</span> <br /> </td> 
-   <td> 게재가 승인되면 이 워크플로우는 공급자 처리(라우터에 전자 메일 및 사후 처리)를 시작합니다. <br /> </td> 
+   <td> 게재가 승인되면 이 워크플로우는 공급자 처리(라우터로의 이메일 전송 및 사후 처리)를 시작합니다. <br /> </td> 
   </tr> 
  </tbody> 
 </table>

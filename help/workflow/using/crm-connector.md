@@ -1,6 +1,6 @@
 ---
 title: CRM 커넥터
-description: CRM 커넥터 및 데이터 동기화 구성에 대해 자세히 알아보기
+description: CRM 커넥터에 대해 자세히 알아보고 데이터 동기화를 구성합니다.
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 41966f31-9f37-4ab7-919a-d4624f9d1178
@@ -15,15 +15,15 @@ ht-degree: 10%
 
 
 
-다음 **CRM 커넥터** 활동을 통해 Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성할 수 있습니다.
+다음 **CRM 커넥터** 활동을 사용하면 Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성할 수 있습니다.
 
-Adobe Campaign의 CRM 커넥터에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../../platform/using/crm-connectors.md).
+Adobe Campaign의 CRM 커넥터에 대한 자세한 내용은 다음을 참조하십시오. [섹션](../../platform/using/crm-connectors.md).
 
-이 활동을 사용하면 다음 작업을 수행할 수 있습니다.
+이 활동을 통해 다음을 수행할 수 있습니다.
 
 * CRM에서 가져오기
 * CRM으로 내보내기
-* CRM에서 삭제된 개체 가져오기
+* CRM에서 삭제된 오브젝트 가져오기
 * CRM의 오브젝트 삭제
 
 ![](assets/crm_task_select_op.png)

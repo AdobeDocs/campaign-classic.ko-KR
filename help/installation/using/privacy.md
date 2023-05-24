@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 개인화 및 개인 정보 보호
-description: 개인 정보 보호 및 개인화에 대한 보안 모범 사례 학습
+description: 개인 정보 보호 및 개인화에 대한 보안 모범 사례 알아보기
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## URL 개인화 {#url-personalization}
 
-컨텐츠에 개인화된 링크를 추가할 때는 잠재적인 보안 격차를 방지하기 위해 항상 URL의 호스트 이름 부분에 개인화를 사용하지 마십시오. 다음 예제는 모든 URL 속성에서 사용해서는 안 됩니다. &lt;`a href="">` 또는 `<img src="">`:
+콘텐츠에 개인화된 링크를 추가할 때 잠재적인 보안 차이를 방지하기 위해 항상 URL의 호스트 이름 부분에 개인화를 두지 마십시오. 다음 예제는 모든 URL 특성 &lt;`a href="">` 또는 `<img src="">`:
 
 * `<%= url >`
 * `https://<%= url >`
@@ -27,15 +27,15 @@ ht-degree: 2%
 * `https://<%= sub-domain >.domain.tld/path`
 * `https://sub.domain<%= main domain %>/path`
 
-### 권장 사항
+### 추천
 
-유효성을 검사하고 위에서 사용하지 않는지 확인하려면 를 통해 추적 URL 표에 대한 쿼리를 실행하십시오. [Campaign 일반 쿼리 편집기](../../platform/using/steps-to-create-a-query.md) 또는 의 필터 기준으로 워크플로우를 만들 수 있습니다 [쿼리 활동](../../workflow/using/query.md).
+위의 을(를) 사용하고 있지 않은지 확인하고 확인하려면 다음을 통해 추적 URL 테이블에서 쿼리를 실행합니다. [Campaign 일반 쿼리 편집기](../../platform/using/steps-to-create-a-query.md) 또는 의 필터 조건으로 워크플로우를 만듭니다. [쿼리 활동](../../workflow/using/query.md).
 
 예제:
 
 1. 워크플로우 만들기 및 추가 **쿼리** 활동. [자세히 알아보기](../../workflow/using/query.md)
 
-1. 를 엽니다. **쿼리** 활동을 수행하고 `nmsTrackingUrl` 표:
+1. 를 엽니다. **쿼리** 활동 및 필터 만들기 `nmsTrackingUrl` 다음과 같은 표:
 
    `source URL starts with http://<% or source URL starts with https://<%`
 
@@ -52,47 +52,47 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->잘못된 형식의 서명된 URL을 클릭하면 이 오류가 반환됩니다. `Requested URL '…' was not found.`
+>형식이 잘못된 서명 URL을 클릭하면 이 오류가 반환됩니다. `Requested URL '…' was not found.`
 
-또한 향상된 기능을 사용하여 이전 빌드에서 생성된 URL을 비활성화할 수 있습니다. 이 기능은 기본적으로 비활성화됩니다. 에 연결할 수 있습니다 [고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 을 클릭하여 이 기능을 활성화합니다.
+또한 향상된 기능을 사용하여 이전 빌드에서 생성된 URL을 비활성화할 수 있습니다. 이 기능은 기본적으로 비활성화되어 있습니다. 다음으로 연락할 수 있습니다. [고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 이 기능을 활성화하려면 다음을 수행하십시오.
 
-19.1.4 빌드에서 실행 중인 경우 추적 링크를 사용한 푸시 알림 게재 또는 앵커 태그를 사용한 게재 문제가 발생할 수 있습니다. 그럴 경우 URL 서명을 비활성화하는 것이 좋습니다.
+19.1.4 빌드에서 실행 중인 경우 추적 링크를 사용한 푸시 알림 게재 또는 앵커 태그를 사용한 게재 문제가 발생할 수 있습니다. 이 경우 URL 서명을 비활성화하는 것이 좋습니다.
 
-Campaign 호스팅, 관리 Cloud Services 또는 하이브리드 고객은 [고객 지원 센터](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) URL 서명을 사용할 수 없도록 설정했습니다.
+Campaign 호스팅, 관리 Cloud Services 또는 하이브리드 고객은 다음에 연결해야 합니다. [고객 지원 센터](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) URL 서명이 비활성화되어 있습니다.
 
-하이브리드 아키텍처에서 Campaign을 실행하는 경우 URL 서명을 사용하기 전에 호스팅된 중간 소싱 인스턴스가 다음과 같이 업그레이드되었는지 확인하십시오.
+하이브리드 아키텍처에서 Campaign을 실행하는 경우 URL 서명을 활성화하기 전에 호스팅된 중간 소싱 인스턴스가 다음과 같이 업그레이드되었는지 확인하십시오.
 
-* 첫 번째 온-프레미스 마케팅 인스턴스
-* 그런 다음 온-프레미스 마케팅 인스턴스와 동일한 버전 또는 약간 더 높은 버전으로 업그레이드하십시오
+* 첫 번째 온프레미스 마케팅 인스턴스
+* 그런 다음 온프레미스 마케팅 인스턴스와 동일한 버전 또는 약간 더 높은 버전으로 업그레이드합니다
 
 그렇지 않으면 다음 문제 중 일부가 발생할 수 있습니다.
 
-* 중간 소싱 인스턴스를 업그레이드하기 전에 이 인스턴스를 통해 URL이 서명 없이 전송됩니다.
-* 중간 소싱 인스턴스가 업그레이드되고 두 인스턴스에서 URL 서명이 활성화되면 서명 없이 이전에 전송된 URL이 거부됩니다. 이유는 마케팅 인스턴스에서 제공한 추적 파일에 의해 서명이 요청되기 때문입니다.
+* 중간 소싱 인스턴스가 업그레이드되기 전에 이 인스턴스를 통해 서명 없이 URL이 전송됩니다.
+* 중간 소싱 인스턴스가 업그레이드되고 두 인스턴스에서 URL 서명이 활성화되면 서명 없이 이전에 전송된 URL이 거부됩니다. 그 이유는 마케팅 인스턴스가 제공한 추적 파일에 의해 서명이 요청되기 때문입니다.
 
 이전 빌드에서 생성된 URL을 비활성화하려면 모든 Campaign 서버에서 동시에 다음 단계를 수행하십시오.
 
-1. 서버 구성 파일(`serverConf.xml`), 변경 **blockRedirectForUnsignedTrackingLink** 옵션 **true**.
-1. 를 다시 시작합니다. `nlserver` 서비스.
-1. 설정 `tracking` server, 다시 시작 `web` 서버(Debian의 apache2, httpd, CentOS/RedHat, Windows의 IIS).
+1. 서버 구성 파일(`serverConf.xml`), **blockRedirectForUnsignedTrackingLink** 옵션 대상 **true**.
+1. 다시 시작 `nlserver` 서비스.
+1. 다음에서 `tracking` 서버, 다시 시작 `web` 서버(Debian의 apache2, CentOS/RedHat의 httpd, Windows의 IIS).
 
-URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 단계를 수행하십시오.
+URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 단계를 수행합니다.
 
-1. 서버 구성 파일(`serverConf.xml`), 변경 **signEmailLinks** 옵션, 종료 **true**.
-1. 를 다시 시작합니다. **nlserver** 서비스.
-1. 설정 `tracking` server, 다시 시작 `web` 서버(Debian의 apache2, httpd, CentOS/RedHat, Windows의 IIS).
+1. 서버 구성 파일(`serverConf.xml`), 변경 **signEmailLink** 옵션, 대상 **true**.
+1. 다시 시작 **nlserver** 서비스.
+1. 다음에서 `tracking` 서버, 다시 시작 `web` 서버(Debian의 apache2, CentOS/RedHat의 httpd, Windows의 IIS).
 
 ## 데이터 제한
 
-낮은 권한 인증 사용자가 암호화된 암호를 액세스할 수 없도록 해야 합니다. 이렇게 하려면 암호 필드에만 액세스하거나 전체 엔터티(빌드 >= 8770 필요)에 대한 액세스를 제한합니다.
+권한이 낮은 인증된 사용자가 암호화된 암호에 액세스할 수 없도록 해야 합니다. 이렇게 하려면 암호 필드에만 또는 전체 엔터티(빌드 >= 8770 필요)에 대한 액세스를 제한하십시오.
 
-이 제한 사항으로 암호 필드를 제거할 수 있지만, 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있도록 할 수 있습니다. [자세히 알아보기](../../configuration/using/restricting-pii-view.md)
+이 제한 사항을 사용하면 암호 필드를 제거할 수 있지만 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있습니다. [자세히 알아보기](../../configuration/using/restricting-pii-view.md)
 
-이렇게 하려면 아래 단계를 수행하십시오.
+이렇게 하려면 아래 단계를 수행합니다.
 
-1. 다음 위치로 이동합니다. **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]** 캠페인 탐색기의 폴더.
+1. 다음으로 이동 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]** Campaign 탐색기 폴더.
 
-1. 로서 데이터 스키마 만들기 **[!UICONTROL Extension of a schema]**.
+1. 다음과 같이 데이터 스키마 만들기 **[!UICONTROL Extension of a schema]**.
 
    ![](assets/privacy-data-restriction.png)
 
@@ -100,7 +100,7 @@ URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 �
 
 1. 마지막 마법사 화면에서 새 &#39;srcSchema&#39;를 편집하여 모든 암호 필드에 대한 액세스를 제한합니다.
 
-   기본 요소(`<element name="extAccount" ... >`)
+   주 요소(`<element name="extAccount" ... >`) 기준:
 
    ```sql
    <element name="extAccount">
@@ -121,7 +121,7 @@ URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 �
    </element>
    ```
 
-   따라서 확장된 srcSchema는 다음과 같을 수 있습니다.
+   이렇게 확장된 srcSchema는 다음과 같이 표시됩니다.
 
    ```sql
    <srcSchema _cs="External Accounts (cus)" created="2017-05-12 07:53:49.691Z" createdBy-id="0"
@@ -153,20 +153,20 @@ URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 �
 
    >[!NOTE]
    >
-   >바꿀 수 있습니다 `$(loginId) = 0 or $(login) = 'admin'` with `hasNamedRight('admin')` 관리자 권한이 있는 모든 사용자가 이러한 암호를 볼 수 있도록 허용
+   >다음을 바꿀 수 있습니다. `$(loginId) = 0 or $(login) = 'admin'` 포함 `hasNamedRight('admin')` 관리자 권한이 있는 모든 사용자가 이러한 암호를 볼 수 있도록 허용합니다.
 
 ## PI가 있는 Protect 페이지
 
-미러 페이지, 웹 애플리케이션 등과 같은 개인 정보(PI)가 포함될 수 있는 페이지를 온-프레미스 고객에게 보호할 것을 강력히 권장합니다.
+미러 페이지, 웹 애플리케이션 등과 같은 개인 정보(PI)가 포함될 수 있는 페이지를 보호하도록 온-프레미스 고객에게 강력히 권장합니다.
 
-이 절차의 목적은 이러한 페이지가 색인화되지 않도록 하여 잠재적인 보안 위험을 방지하는 것입니다. 다음은 몇 가지 유용한 문서입니다.
+이 절차의 목표는 이러한 페이지가 색인화되지 않도록 하여 잠재적인 보안 위험을 방지하는 것입니다. 다음은 몇 가지 유용한 문서입니다.
 
 * [https://developers.google.com/search/reference/robots_txt](https://developers.google.com/search/reference/robots_txt)
 * [https://developers.google.com/search/reference/robots_meta_tag](https://developers.google.com/search/reference/robots_meta_tag)
 
-페이지를 보호하려면 다음 단계를 수행합니다.
+페이지를 보호하려면 다음 단계를 따르십시오.
 
-1. 추가 `robots.txt` 파일을 웹 서버의 루트(Apache 또는 IIS)에 배치합니다. 다음은 파일의 컨텐츠입니다.
+1. 추가 `robots.txt` 웹 서버(Apache 또는 IIS)의 루트에 있는 파일입니다. 다음은 파일의 컨텐츠입니다.
 
    ```sql
    # Make changes for all web spiders
@@ -174,17 +174,17 @@ URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 �
    *Disallow: /
    ```
 
-   IIS의 경우 다음을 참조하십시오 [이 페이지](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files).
+   IIS의 경우 다음을 참조하십시오. [이 페이지](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files).
 
-   Apache의 경우 파일을 **/var/www/robots.txt** (Debian).
+   Apache의 경우 파일을에 배치할 수 있습니다 **/var/www/robots.txt** (Debian).
 
-1. 경우에 따라 추가 **robots.txt** 보안 측면에서 파일이 충분하지 않습니다. 예를 들어, 다른 웹 사이트에 페이지에 대한 링크가 포함되어 있으면 검색 결과에 표시될 수 있습니다.
+1. 경우에 따라 **robots.txt** 파일이 보안상 충분하지 않습니다. 예를 들어, 다른 웹 사이트에 페이지에 대한 링크가 포함되어 있으면 검색 결과에 표시될 수 있습니다.
 
-   추가 **robots.txt** 파일, **X-Robots-Tag** 헤더. Apache 또는 IIS와 **serverConf.xml** 구성 파일.
+   이외에도 **robots.txt** 파일, 를 추가하는 것이 좋습니다. **- 태그** 머리글입니다. Apache 또는 IIS와 **serverConf.xml** 구성 파일입니다.
 
-   자세한 내용은 [이 문서](https://developers.google.com/search/reference/robots_meta_tag).
+   자세한 내용은 다음을 참조하십시오. [이 문서](https://developers.google.com/search/reference/robots_meta_tag).
 
 
 ## 개인정보 보호 요청
 
-을(를) 참조하십시오. [이 페이지](../../platform/using/privacy-management.md) 개인 정보 관리의 정의와 Adobe Campaign의 구현 단계에 대한 일반적인 정보입니다. 또한 모범 사례와 사용자 프로세스 및 성향에 대한 개요를 확인할 수 있습니다.
+을(를) 참조하십시오 [이 페이지](../../platform/using/privacy-management.md) 개인정보 관리의 정의와 Adobe Campaign의 구현 단계에 대한 일반적인 정보입니다. 또한 모범 사례와 사용자 프로세스 및 가상 사용자에 대한 개요를 살펴볼 수 있습니다.

@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 게재 템플릿 만들기
-description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법을 알아봅니다
+description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법에 대해 알아봅니다
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
@@ -17,18 +17,18 @@ ht-degree: 20%
 
 
 
-이제 두 개의 게재 템플릿을 만들려고 합니다. 각 템플릿은 **[!UICONTROL Email delivery]** 에 연결된 활동 **[!UICONTROL Split]** 활동. 이 작업에 대한 자세한 정보는 [이 섹션](about-templates.md)을 참조하십시오.
+이제 두 개의 게재 템플릿을 만들겠습니다. 각 템플릿은 **[!UICONTROL Email delivery]** 에 연결된 활동 **[!UICONTROL Split]** 활동. 이 작업에 대한 자세한 정보는 [이 섹션](about-templates.md)을 참조하십시오.
 
-1. 다음 위치로 이동합니다. **[!UICONTROL Resources > Delivery template]** 폴더를 입력합니다.
-1. 을(를) 복제합니다 **[!UICONTROL Email]** 게재 템플릿.
+1. 다음으로 이동 **[!UICONTROL Resources > Delivery template]** 폴더를 삭제합니다.
+1. 복제 **[!UICONTROL Email]** 게재 템플릿.
 
    ![](assets/use_case_abtesting_deliverymodel_001.png)
 
-1. 게재 A에 사용할 컨텐츠를 만듭니다.
+1. 게재 A에 사용할 콘텐츠를 만듭니다.
 
    ![](assets/use_case_abtesting_deliverymodel_002.png)
 
-1. 배달 B에 대한 템플릿을 만들려면 이 프로세스를 반복합니다.
+1. 이 프로세스를 반복하여 게재 B에 대한 템플릿을 만듭니다.
 
    ![](assets/use_case_abtesting_deliverymodel_003.png)
 

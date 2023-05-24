@@ -6,7 +6,7 @@ exl-id: 54538c3e-3232-4bf7-a09c-dacf0f072be5
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 ![](../../../assets/v7-only.svg)
 
-## 컨텐츠 모델 {#content-model-13}
+## 콘텐츠 모델 {#content-model-13}
 
 매개 변수:==param
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 없음
 
-## 부모 {#parents-13}
+## 상위 {#parents-13}
 
 `<method>`
 
@@ -32,11 +32,11 @@ ht-degree: 8%
 
 ## 설명 {#description-13}
 
-이 요소는 그룹을 정의합니다 `<parameter>`  요소를 생성하지 않습니다.
+이 요소는 `<parameter>`  요소.
 
 ## 사용 및 사용 컨텍스트 {#use-and-context-of-use-8}
 
-이 요소는 단일 요소에 대해서도 필수입니다 `<param>` 하위 요소의 하위 요소 `<method>`  요소를 생성하지 않습니다.
+이 요소는 단일 요소라도 필수입니다 `<param>` 의 하위 요소 `<method>`  요소를 생성하지 않습니다.
 
 ## 속성 설명 {#attribute-description-13}
 

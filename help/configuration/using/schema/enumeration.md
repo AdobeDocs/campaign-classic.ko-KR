@@ -6,7 +6,7 @@ exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -14,20 +14,20 @@ ht-degree: 2%
 
 ![](../../../assets/v7-only.svg)
 
-## 컨텐츠 모델 {#content-model-5}
+## 콘텐츠 모델 {#content-model-5}
 
 열거형:==(도움말| 값)
 
 ## 속성 {#attributes-5}
 
-* @basetype (string)
-* @default (string)
-* @desc (string)
-* @label (string)
-* @name (string)
-* @template (string)
+* @basetype(문자열)
+* @default(문자열)
+* @desc(문자열)
+* @label(문자열)
+* @name(문자열)
+* @template(문자열)
 
-## 부모 {#parents-5}
+## 상위 {#parents-5}
 
 `<srcschema>`
 
@@ -38,56 +38,56 @@ ht-degree: 2%
 
 ## 설명 {#description-5}
 
-이 요소를 사용하면 값 열거형을 정의할 수 있습니다. 열거형은 정의된 스키마에 속하지만 다른 스키마를 통해 액세스할 수 있습니다.
+이 요소를 사용하면 값 열거형을 정의할 수 있습니다. 열거형은에 정의된 스키마에 속하지만 다른 스키마를 통해 액세스할 수 있습니다.
 
 ## 사용 및 사용 컨텍스트 {#use-and-context-of-use-4}
 
-열거형은 스키마 시작 시(기본 요소가 정의되기 전에) 정의됩니다.
+열거형은 기본 요소가 정의되기 전에 스키마의 시작 부분에서 정의됩니다.
 
 ## 속성 설명 {#attribute-description-5}
 
-* **basetype(문자열)**: 열거형에 저장된 값의 유형입니다.
+* **기본 유형(문자열)**: 열거형에 저장된 값의 유형입니다.
 
    사용 가능한 유형 목록:
 
-   * 임의
+   * 모든
    * bin
    * blob
    * 부울
-   * byte
-   * CDATA
+   * 바이트
+   * C데이터
    * datetime
    * datetimetz
-   * datetimeenotz
-   * 날짜
+   * 다테티메노츠
+   * date
    * DOMDocument
-   * 돔 요소
-   * 이중
+   * DOMELEMENT
+   * 더블
    * enum
-   * float
+   * 부동
    * html
    * int64
    * 링크
-   * 장기간
+   * 길게
    * 메모
    * MNTOKEN
-   * 퍼센트
+   * percent
    * primarykey
-   * short
-   * string
+   * 짧음
+   * 문자열
    * 시간
-   * 시간 간격
+   * timespan
    * uuid
 
-* **기본값(문자열)**: 기본값. 기본값은 열거형에 정의된 값 중 하나일 수도 있습니다.
+* **기본값(문자열)**: 기본값. 기본값은 열거에 정의된 값 중 하나일 수도 있습니다.
 * **desc(문자열)**: 열거형 설명.
-* **레이블(문자열)**: 열거형 레이블.
-* **name(문자열)**: 열거형의 내부 이름입니다.
-* **템플릿(문자열)**: 이 속성은 `<enumeration>` 여러 스키마에서 공유된 요소입니다. 정의가 현재 스키마에 자동으로 복사됩니다.
+* **레이블(문자열)**: 열거형 레이블입니다.
+* **이름(문자열)**: 열거형의 내부 이름입니다.
+* **템플릿(문자열)**: 이 속성은 다음에 대한 참조를 정의합니다 `<enumeration>` 여러 스키마에서 공유하는 요소입니다. 이 정의는 현재 스키마에 자동으로 복사됩니다.
 
 ## 예제 {#examples-4}
 
-값이 데이터베이스에 저장된 열거형 값의 예:
+데이터베이스에 값이 저장된 열거형 값의 예:
 
 ```
     <enumeration name="myEnum">

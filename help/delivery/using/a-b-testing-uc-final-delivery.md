@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 최종 게재 정의
-description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법을 알아봅니다
+description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법에 대해 알아봅니다
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
@@ -17,15 +17,15 @@ ht-degree: 9%
 
 
 
-스크립트가 만들어져서 A/B 테스트 승자를 선택하면 최종 게재의 매개 변수를 정의할 수 있습니다.
+A/B 테스트 승자를 선택하는 스크립트가 만들어지면 최종 게재의 매개 변수를 정의할 수 있습니다.
 
-1. 연결 **[!UICONTROL JavaScript code]** 나머지 작업에 대한 활동 **[!UICONTROL Delivery]** 활동.
+1. 연결 **[!UICONTROL JavaScript code]** 활동을 나머지 항목으로 **[!UICONTROL Delivery]** 활동.
 1. 를 엽니다. **[!UICONTROL Delivery]** 활동.
-1. 선택을 취소하고 **[!UICONTROL Generate an outbound transition]** 이 활동으로 워크플로우를 완료하는 선택 사항입니다.
+1. 선택 취소 **[!UICONTROL Generate an outbound transition]** 옵션을 사용하여 이 활동으로 워크플로우를 완료합니다.
 1. 다른 옵션은 기본값으로 둡니다.
 
    ![](assets/ab_test_final_delivery.png)
 
-전환에서 지정된 게재를 준비하여( **[!UICONTROL Javascript Code]** 활동)을 만들 때, 다음 단계에 설명된 대로 승인하고 전송을 시작할 수 있습니다.
+(을 통해 정의됨)에 지정된 게재를 준비하여 **[!UICONTROL Javascript Code]** 그러면 다음 단계에 설명된 대로 승인하고 전송을 시작할 수 있습니다.
 
 이제 워크플로우를 시작할 수 있습니다. [자세히 알아보기](a-b-testing-uc-start-workflow.md)

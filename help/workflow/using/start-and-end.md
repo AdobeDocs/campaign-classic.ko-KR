@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 시작 및 종료
-description: 시작 및 종료 워크플로우 활동에 대해 자세히 알아보기
+description: 워크플로우 시작 및 종료 활동에 대해 자세히 알아보기
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 
 
-다음 **[!UICONTROL Start]** 및 **[!UICONTROL End]** 활동을 사용하면 워크플로우의 시작과 끝을 그래픽으로 표시할 수 있습니다. 이러한 활동은 영향을 주지 않으므로 선택 사항입니다.
+다음 **[!UICONTROL Start]** 및 **[!UICONTROL End]** 활동을 사용하면 워크플로우의 시작과 끝을 그래픽으로 표시할 수 있습니다. 이러한 활동은 기능에 영향을 주지 않으므로 선택 사항입니다.
 
 * **[!UICONTROL Start]**
 
@@ -26,10 +26,10 @@ ht-degree: 4%
 
 * **[!UICONTROL End]**
 
-   을 구성할 수 있습니다 **[!UICONTROL End]** 활동 을 클릭하여 진행 중인 모든 작업을 중단합니다. 이렇게 하려면 활동을 두 번 클릭하여 해당 속성을 표시하고 적절한 옵션을 선택합니다.
+   다음을 구성할 수 있습니다. **[!UICONTROL End]** 진행 중인 모든 작업을 중단하기 위한 활동. 이렇게 하려면 활동을 두 번 클릭하여 속성을 표시한 다음 적절한 옵션을 선택합니다.
 
    ![](assets/s_user_segmentation_end.png)
 
-   최종 활동이 활성화되면 작업 테이블의 데이터가 자동으로 삭제됩니다. 이 작업이 필요하지 않고 불필요한 로드를 방지하기 위해 마지막 활동 출력에서 전환을 비활성화하도록 선택할 수 있습니다. 예를 들어 게재 출력에서 예약된 프로세스가 없는 경우, 아래에 표시된 대로 관련 옵션의 선택을 취소합니다.
+   종료 활동이 활성화되면 작업 테이블의 데이터가 자동으로 삭제됩니다. 필요하지 않고 불필요한 로드를 방지하기 위해 마지막 활동 출력에서 전환을 비활성화하도록 선택할 수 있습니다. 예를 들어 게재 출력에서 프로세스가 예약되지 않은 경우 다음과 같이 관련 옵션의 선택을 취소합니다.
 
    ![](assets/s_advuser_delivery_option_no_output.png)

@@ -18,27 +18,27 @@ ht-degree: 40%
 
 
 
-Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 있음 **conf** 설치 디렉토리의 디렉토리입니다. 이 섹션에는 **serverConf.xml** 파일.
+Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 위치: **conf** 설치 디렉토리 디렉토리. 이 섹션에는 의 다양한 노드와 매개 변수가 모두 나열되어 있습니다. **serverConf.xml** 파일.
 
 >[!NOTE]
 >
->서버측 구성은 Adobe에 의해 호스팅되는 배포에 대해서만 Adobe이 수행할 수 있습니다. 다양한 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 또는 [이 페이지](../../installation/using/capability-matrix.md). 호스팅 및 하이브리드 모델의 설치 및 구성 단계는 다음과 같습니다 [섹션](../../installation/using/hosting-models.md).
+>서버측 구성은 Adobe에서 호스팅하는 배포에 대해 Adobe에 의해서만 수행될 수 있습니다. 다양한 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 종료 [이 페이지](../../installation/using/capability-matrix.md). 호스팅 및 하이브리드 모델에 대한 설치 및 구성 단계는 다음과 같습니다 [섹션](../../installation/using/hosting-models.md).
 
-첫 번째 매개 변수는 **공유** 노드 아래에 있어야 합니다. 인스턴스와 관련이 있습니다. 이는 모든 nlserver 명령(nlserver web, nlserver wfserver 등)에서 사용할 수 있습니다. 다른 섹션은 특정 nlserver 하위 명령과 관련되어 있습니다.
+첫 번째 매개 변수는 **공유됨** 노드. 인스턴스와 관련되어 있습니다. 모든 nlserver 명령(nlserver web, nlserver wfserver 등)에서 사용할 수 있습니다. 다른 섹션은 특정 nlserver 하위 명령과 관련되어 있습니다.
 
 **공유 매개 변수**
 
 * [인증](#authentication)
-* [dataStore](#datastore)
+* [데이터 저장소](#datastore)
 * [dnsConfig](#dnsconfig)
 * [exec](#exec)
 * [htmlToPdf](#htmltopdf)
 * [ims](#ims)
 * [javaScript](#javascript)
-* [mailExchanger](#mailexchanger)
+* [mailExchange](#mailexchanger)
 * [모듈](#module)
 * [모니터링](#monitoring)
-* [oconv](#ooconv)
+* [ooconv](#ooconv)
 * [proxyConfig](#proxyconfig)
 * [threadPool](#threadpool)
 * [urlPermission](#urlpermission)
@@ -48,15 +48,15 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 
 * [보관](#archiving)
 * [inMail](#inmail)
-* [상호 작용](#interactiond)
+* [interactiond](#interactiond)
 * [MTA](#mta)
 * [nmac](#nmac)
-* [파이프라인](#pipelined)
+* [파이프라인됨](#pipelined)
 * [복구](#repair)
-* [securityZone](#securityzone)
+* [보안 영역](#securityzone)
 * [sms](#sms)
-* [stat](#stat)
-* [sylogd](#syslogd)
+* [통계](#stat)
+* [syslogd](#syslogd)
 * [추적](#tracking)
 * [trackinglogd](#trackinglogd)
 * [웹](#web)
@@ -64,7 +64,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 
 ## 인증 {#authentication}
 
-다음은 의 다양한 매개 변수입니다 **인증** 노드:
+다음은 의 다양한 매개 변수입니다. **인증** 노드:
 
 <table> 
  <thead> 
@@ -96,19 +96,19 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   </tr> 
   <tr> 
    <td> securityTimeOutSec<br /> </td> 
-   <td> 보안 토큰 시간 제한(초)입니다.<br /> </td> 
+   <td> 보안 토큰 시간 제한(초).<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> sessionCacheSec<br /> </td> 
-   <td> 캐시 기간: 세션 정보의 캐시(초)입니다.<br /> </td> 
+   <td> 캐시 기간: 세션 정보의 캐시(초).<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> sessionTimeOutSec<br /> </td> 
-   <td> 세션 시간 초과(초)입니다.<br /> </td> 
+   <td> 세션 시간 제한(초)입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
@@ -117,7 +117,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 
 ### XTK {#xtk}
 
-다음은 의 다양한 매개 변수입니다 **인증 > XTK** 노드:
+다음은 의 다양한 매개 변수입니다. **인증 > XTK** 노드:
 
 <table> 
  <thead> 
@@ -137,16 +137,16 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   </tr> 
   <tr> 
    <td> internalSecurityZone<br /> </td> 
-   <td> 내부 계정 보안 영역: 내부 계정에 대해 인증된 영역입니다.<br /> </td> 
+   <td> 내부 계정 보안 영역: 내부 계정에 대해 승인된 영역입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'lan'<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## dataStore {#datastore}
+## 데이터 저장소 {#datastore}
 
-다음은 의 다양한 매개 변수입니다 **dataStore** 노드 아래에 있어야 합니다. 여기에서 서버 데이터 소스가 정의됩니다.
+다음은 의 다양한 매개 변수입니다. **데이터 저장소** 노드. 여기서 서버 데이터 소스를 정의합니다.
 
 <table> 
  <thead> 
@@ -160,55 +160,55 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
  <tbody> 
   <tr> 
    <td> exportDirectory<br /> </td> 
-   <td> 디렉토리 내보내기: 내보낸 데이터의 대상 디렉토리 경로입니다.<br /> </td> 
+   <td> 내보내기 디렉토리: 내보낸 데이터의 대상 디렉토리 경로입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/export/' <br /> </td> 
   </tr> 
   <tr> 
-   <td> extraSandboxedDirectories<br /> </td> 
-   <td> 추가 샌드박스 디렉토리: 샌드박스에 추가할 다른 경로(쉼표로 구분됨).<br /> </td> 
+   <td> extraSandboxedDirectory<br /> </td> 
+   <td> 추가 샌드박스 디렉터리: 샌드박스에 추가될 다른 경로(쉼표로 구분).<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '/home/customers/,/sftp/' <br /> </td> 
   </tr> 
   <tr> 
    <td> formCacheTimeToLive<br /> </td> 
-   <td> 양식 캐시 만료 지연: 캐시 항목이 무효화된 후 시간 초과(초)입니다. 즉, 캐시 항목은 게시 시에만 새로 고침됩니다.<br /> </td> 
+   <td> 양식 캐시 만료 지연: 캐시 항목이 무효화되는 시간 제한(초) O는 캐시 항목이 게시 시간에만 새로 고침됨을 의미합니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> 호스트<br /> </td> 
-   <td> DNS 마스크: 이 인스턴스가 제공하는 DNS 마스크 목록(쉼표로 구분됨, * 및 ? 패턴).<br /> </td> 
+   <td> DNS 마스크: 이 인스턴스가 제공하는 DNS 마스크 목록(쉼표로 구분, * 및 ? pattern)을 참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '*'<br /> </td> 
   </tr> 
   <tr> 
    <td> interactionCacheTimeToLive<br /> </td> 
-   <td> 상호 작용 JSSP 캐시 만료 지연: 캐시 항목이 무효화된 후 시간 초과(초)입니다. 음수 값은 캐시가 항상 무효화됨을 의미합니다. '0', 비어 있거나 잘못된 값은 60으로 간주됩니다.<br /> </td> 
+   <td> 상호 작용 JSSP 캐시 만료 지연: 캐시 항목이 무효화되는 시간 제한(초) 음수 값은 캐시가 항상 무효화됨을 의미합니다. '0', 비어 있거나 잘못된 값은 60으로 간주됩니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> lang<br /> </td> 
-   <td> 인스턴스 언어(열거형). 가능한 값은 'fr_FR'(Français), 'en_GB'(영어(영국)), 'en_US'(영어), 'de_DE'(Deutsch) 및 'ja_JP'(일본어)입니다.<br /> </td> 
+   <td> 인스턴스 언어(열거). 가능한 값은 'fr_FR'(Français), 'en_GB'(영어), 'en_US'(영어), 'de_DE'(Deutsch) 및 'ja_JP'(일본어)입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'en_US'<br /> </td> 
   </tr> 
   <tr> 
    <td> uploadDirectory<br /> </td> 
-   <td> 업로드 폴더: 업로드된 데이터에 대한 대상 디렉토리의 경로입니다.<br /> </td> 
+   <td> 업로드 폴더: 업로드한 데이터의 대상 디렉토리 경로.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/upload/' <br /> </td> 
   </tr> 
   <tr> 
    <td> uploadAllowlist<br /> </td> 
-   <td> 다운로드할 승인된 파일은 ','로 구분됨. 문자열은 유효한 Java 정규 표현식이어야 합니다. 자세한 내용은 <a href="file-res-management.md" target="_blank">업로드 가능한 파일 제한</a>.<br /> </td> 
+   <td> 다운로드할 승인된 파일은 ','로 구분됨. 문자열은 유효한 Java 정규 표현식이어야 합니다. 다음을 참조하십시오 <a href="file-res-management.md" target="_blank">업로드 가능한 파일 제한</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '.+' <br /> </td> 
   </tr> 
   <tr> 
    <td> useVault<br /> </td> 
-   <td> 저장소에 암호 저장: 해시 모음 사용.<br /> </td> 
+   <td> 자격 증명 모음에 암호 저장: Hashicorp 자격 증명 모음을 사용합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -220,7 +220,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   </tr> 
   <tr> 
    <td> vaultTokenPath<br /> </td> 
-   <td> 자격 증명 모음 토큰이 포함된 파일의 로컬 경로. $(HOME)는 이 경로에서 사용할 수 있지만 다른 env 변수는 사용할 수 없습니다.<br /> </td> 
+   <td> 자격 증명 모음 토큰이 포함된 파일의 로컬 경로. $(HOME)은 이 경로에서 사용할 수 있습니다(다른 환경 변수는 사용할 수 없음).<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '$(HOME)/.vaulttoken'<br /> </td> 
   </tr> 
@@ -232,7 +232,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   </tr> 
   <tr> 
    <td> viewCacheTimeToLive<br /> </td> 
-   <td> 뷰 캐시의 유효 기간: 캐시 항목이 무효화된 후 시간 초과(초)입니다. 음수 값은 캐시가 항상 무효화됨을 의미합니다. '0', 비어 있거나 잘못된 값은 60으로 간주됩니다.<br /> </td> 
+   <td> 캐시 보기의 유효 기간: 캐시 항목이 무효화되는 시간 제한(초). 음수 값은 캐시가 항상 무효화됨을 의미합니다. '0', 비어 있거나 잘못된 값은 60으로 간주됩니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -240,14 +240,14 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <td> workingDirectory<br /> </td> 
    <td> 작업 디렉터리의 XPath.<br /> </td> 
    <td> 문자열<br /> </td> 
-   <td> workingDirectory : 작업 디렉터리의 XPath입니다. 기본값: '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/workspace/'<br /> </td> 
+   <td> workingDirectory : 작업 디렉토리의 XPath. 기본값: '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/workspace/'<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### proxyAdjust {#proxyadjust}
 
-다음은 의 다양한 매개 변수입니다 **dataStore > proxyAdjust** 노드 아래에 있어야 합니다. 정규 표현식과 일치하는 URL은 urlBase에 정의된 URL을 기반으로 재생성됨.
+다음은 의 다양한 매개 변수입니다. **dataStore > proxyAdjust** 노드. 정규 표현식과 일치하는 URL은 urlBase에 정의된 URL을 기반으로 재생성됨.
 
 <table> 
  <thead> 
@@ -273,7 +273,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 
 ### dataSource {#datasource}
 
-다음은 의 다양한 매개 변수입니다 **dataStore > dataSource** 노드 아래에 있어야 합니다.
+다음은 의 다양한 매개 변수입니다. **dataStore > 데이터 소스** 노드.
 
 <table> 
  <thead> 
@@ -289,12 +289,12 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <td> 이름<br /> </td> 
    <td> 데이터 소스 이름<br /> </td> 
    <td> 문자열<br /> </td> 
-   <td> 기본<br /> </td> 
+   <td> 기본값<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-에서 **dataStore > dataSource > dbcnx** 노드, 연결 설정을 구성합니다.
+다음에서 **dataStore > dataSource > dbcnx** 노드, 연결 설정을 구성합니다.
 
 <table> 
  <thead> 
@@ -307,7 +307,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
  </thead> 
  <tbody> 
   <tr> 
-   <td> 엔씨하<br /> </td> 
+   <td> 앤하르<br /> </td> 
    <td> 유니코드 스토리지<br /> </td> 
    <td> 부울<br /> </td> 
    <td> </td> 
@@ -319,7 +319,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 암호화된<br /> </td> 
+   <td> 암호화됨<br /> </td> 
    <td> 암호화된 암호<br /> </td> 
    <td> 부울<br /> </td> 
    <td> </td> 
@@ -338,7 +338,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   </tr> 
   <tr> 
    <td> 공급자<br /> </td> 
-   <td> 유형(열거형). 가능한 값은 'Oracle', 'MSSQL'(Microsoft SQL Server), 'PostgreSQL'(PostgreSQL), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA'(SAP HANA), 'RedShift'(Amazon Redshift), 'ODBC'(ODBC ASE, Sybase IQ), '원격 데이터베이스로 HTTP 릴레이'(HTTP 릴레이)입니다.<br /> </td> 
+   <td> 유형(열거형). 가능한 값은 'Oracle', 'MSSQL'(Microsoft SQL Server), 'PostgreSQL'(PostgreSQL), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA'(SAP HANA), 'RedShift'(Amazon Redshift), 'ODBC'(ODBC(Sybase ASE, Sybase IQ)), '릴레이'(원격 데이터베이스에 대한 HTTP 릴레이)입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 
@@ -355,7 +355,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <td> </td> 
   </tr> 
   <tr> 
-   <td> unicodeData<br /> </td> 
+   <td> 유니코드 데이터<br /> </td> 
    <td> 데이터베이스의 유니코드 데이터<br /> </td> 
    <td> 부울<br /> </td> 
    <td> </td> 
@@ -369,7 +369,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
  </tbody> 
 </table>
 
-에서 **dataStore > dataSource > sqlParams** 노드, SQL 매개 변수 구성:
+다음에서 **dataStore > dataSource > sqlParams** 노드를 생성하고 SQL 매개변수를 구성합니다.
 
 <table> 
  <thead> 
@@ -388,7 +388,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
  </tbody> 
 </table>
 
-에서 **dataStore > dataSource > 풀** 노드, 연결된 연결 풀의 매개 변수를 구성합니다.
+다음에서 **dataStore > dataSource > 풀** 노드, 연결된 연결 풀의 매개 변수를 구성합니다.
 
 <table> 
  <thead> 
@@ -410,8 +410,8 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
    <td> 짧음<br /> </td> 
   </tr> 
   <tr> 
-   <td> maxCnx<br /> </td> 
-   <td> 새 연결을 거부하기 이전에 허용된 최대 연결 수. 다음 보기 <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">기술 정보</a>.<br /> </td> 
+   <td> 최대 제한<br /> </td> 
+   <td> 새 연결을 거부하기 이전에 허용된 최대 연결 수. 이 항목 보기 <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">기술 노트</a>.<br /> </td> 
    <td> 짧음<br /> </td> 
   </tr> 
   <tr> 
@@ -424,9 +424,9 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 
 ### virtualDir {#virtualdir}
 
-다음은 의 다양한 매개 변수입니다 **dataStore > virtualDir** 노드 아래에 있어야 합니다. 가상 디렉터리를 실제 디렉터리에 매핑하는 구성입니다.
+다음은 의 다양한 매개 변수입니다. **dataStore > virtualDir** 노드. 가상 디렉터리와 실제 디렉터리 간 매핑의 구성입니다.
 
-자세한 내용은 [공개 리소스 관리](file-res-management.md).
+자세한 내용은 다음을 참조하십시오. [공개 리소스 관리](file-res-management.md).
 
 <table> 
  <thead> 
@@ -450,7 +450,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
  </tbody> 
 </table>
 
-다음은 기본 구성입니다.
+기본 구성은 다음과 같습니다.
 
 ```
 <virtualDir name="images" path="$(XTK_INSTALL_DIR)/var/res/img/"/>
@@ -460,7 +460,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 
 ### preprocessCommand {#preprocesscommand}
 
-다음은 의 다양한 매개 변수입니다 **dataStore > preprocessCommand** 노드 아래에 있어야 합니다. 이는 &#39;파일 로드&#39; 워크플로우 활동을 사전 처리하기 위한 승인된 명령입니다.
+다음은 의 다양한 매개 변수입니다. **dataStore > preprocessCommand** 노드. 다음은 &#39;파일 로드&#39; 워크플로우 활동의 사전 처리를 위해 승인된 명령입니다.
 
 <table> 
  <thead> 
@@ -489,7 +489,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
  </tbody> 
 </table>
 
-다음은 기본 구성입니다.
+기본 구성은 다음과 같습니다.
 
 ```
 <preprocessCommand command="" label="None" name="none"/>
@@ -498,9 +498,9 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 
 ## dnsConfig {#dnsconfig}
 
-다음은 의 다양한 매개 변수입니다 **dnsConfig** (DNS 구성) 노드입니다.
+다음은 의 다양한 매개 변수입니다. **dnsConfig** (DNS 구성) 노드
 
-자세한 내용은 다음을 참조하십시오 [섹션](../../installation/using/configuring-campaign-server.md).
+자세한 내용은 다음을 참조하십시오. [섹션](../../installation/using/configuring-campaign-server.md).
 
 <table> 
  <thead> 
@@ -514,13 +514,13 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td> 도메인 이름: 기본 도메인 이름. SMTP HELO 명령에 사용됩니다. 기본적으로 에서는 Windows에서 선언된 첫 번째 네트워크 인터페이스의 네트워크 매개 변수를 사용합니다. 또는 Linux(도메인 또는 검색 항목)에서 file/etc/resolv.conf을 구문 분석합니다. <br /> </td> 
+   <td> 도메인 이름: 기본 도메인 이름. SMTP HELO 명령에 사용됩니다. 기본적으로 은 Windows에서 선언된 첫 번째 네트워크 인터페이스의 네트워크 매개 변수를 사용하거나 Linux(도메인 또는 검색 항목)에서 file/etc/resolv.conf을 구문 분석합니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> nameServers<br /> </td> 
-   <td> DNS 서버: 쉼표로 구분된 도메인 이름 서버(DNS) 목록 아래 메모를 참조하십시오.<br /> </td> 
+   <td> 이름 서버<br /> </td> 
+   <td> DNS 서버: 쉼표로 구분된 도메인 이름 서버(DNS) 목록입니다. 아래 참고 사항을 참조하십시오.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -532,7 +532,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   </tr> 
   <tr> 
    <td> 시간 제한<br /> </td> 
-   <td> DNS 쿼리에 대한 시간 제한(밀리초)입니다.<br /> </td> 
+   <td> DNS 쿼리의 시간 제한(밀리초)입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 5000<br /> </td> 
   </tr> 
@@ -541,13 +541,13 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 
 >[!NOTE]
 >
->참고 사항 **nameServer**: 기본적으로 은 네트워크를 사용합니다
+>다음에 대한 참고 사항: **nameServers**: 기본적으로 은 네트워크를 사용합니다
 >Windows에서 선언된 첫 번째 네트워크 인터페이스의 매개 변수
->UNIX에서 정의되지 않았습니다. 도메인 이름 서버(DNS)를 정의합니다
->MTA가 을 사용하여
+>UNIX에서 정의되지 않았습니다. 도메인 이름 서버(DNS)를 정의합니다.
+>MTA에서 다음에 대해 선언된 메일 교환기를 가져오는 데 사용됨
 >도메인.
 >
->이 값이 정의되지 않으면 MTA는 호스트 네트워크 구성에서 이 정보를 검색합니다. 여러 DNS가 가능한 경우 다른 DNS 주소는 쉼표로 구분해야 합니다(예: 212.155.207.1,212.155.207.2). 게재 서버에 여러 개의 네트워크 인터페이스가 있는 경우 MTA에서 사용하는 DNS 목록이 첫 번째 인터페이스입니다. 이 경우 **nameServer** 매개 변수를 사용하여 모호성을 방지할 수 있습니다.
+>이 값이 정의되지 않으면 MTA는 호스트 네트워크 구성에서 이 정보를 찾습니다. 여러 DNS가 가능한 경우 다른 DNS 주소는 쉼표로 구분해야 합니다(예: 212.155.207.1,212.155.207.2). 게재 서버에 여러 네트워크 인터페이스가 있는 경우 MTA에서 사용하는 DNS 목록이 첫 번째 목록입니다. 이 경우 다음을 지정하는 것이 좋습니다. **nameServer** 매개 변수를 사용하십시오.
 
 >[!CAUTION]
 >
@@ -555,9 +555,9 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 
 ## exec {#exec}
 
-다음은 의 다양한 매개 변수입니다 **exec** (명령 실행) 노드 아래에 표시됩니다.
+다음은 의 다양한 매개 변수입니다. **exec** (명령 실행) 노드
 
-자세한 내용은 [허가된 외부 명령 제한](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands).
+자세한 내용은 다음을 참조하십시오. [승인된 외부 명령 제한](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands).
 
 <table> 
  <thead> 
@@ -570,7 +570,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
  <tbody> 
   <tr> 
    <td> blacklistFile<br /> </td> 
-   <td> 에 추가할 명령이 들어 있는 파일의 허용 목록에 추가하다 경로입니다. <br /> </td> 
+   <td> 허용 목록에 추가하다에 추가할 명령이 포함된 파일의 경로입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
@@ -583,7 +583,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
 
 ## htmlToPdf {#htmltopdf}
 
-다음은 의 다양한 매개 변수입니다 **htmlToPdf** 노드 아래에 있어야 합니다. 웹 페이지를 PDF 문서로 변환하는 서비스의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **htmlToPdf** 노드. 웹 페이지를 PDF 문서로 변환하는 서비스의 구성입니다.
 
 <table> 
  <thead> 
@@ -603,31 +603,31 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 다음 위치에 �
   </tr> 
   <tr> 
    <td> maxProcessusCount<br /> </td> 
-   <td> 최대. 한 컴퓨터에서 한 번에 허용되는 전환 프로세스 수입니다.<br /> </td> 
+   <td> 최대. 한 대의 컴퓨터에서 한 번에 허용되는 전환 프로세스 수입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> 모드<br /> </td> 
-   <td> 변환에 사용할 도구입니다. 가능한 값은 다음과 같습니다. phantomjs, wkhtmltopdf, 기타, 비활성화됨<br /> </td> 
+   <td> 변환에 사용할 도구입니다. 가능한 값: phantomjs, wkhtmltopdf, other, disabled<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'phantomjs' <br /> </td> 
   </tr> 
   <tr> 
    <td> 시간 제한<br /> </td> 
-   <td> 전환 시간 제한: 최대 전환 시간(초)입니다. 이 임계값을 벗어나면 변환 프로세스가 중지되고 오류가 발생합니다.<br /> </td> 
+   <td> 전환 시간 제한: 최대 전환 시간(초). 이 임계값을 초과하면 전환 프로세스가 중지되고 오류가 발생합니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 120<br /> </td> 
   </tr> 
   <tr> 
-   <td> 자세한 정보<br /> </td> 
-   <td> 세부 정보 표시 모드: 가능한 오류를 진단하려면 세부 정보 모드로 시작하십시오.<br /> </td> 
+   <td> 장황해<br /> </td> 
+   <td> 상세 표시 모드: 상세 표시 모드에서 시작하여 가능한 오류를 진단합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> waitTime<br /> </td> 
-   <td> 프로세스를 기다리는 동안 지연: 모든 프로세스가 동시에 사용되는 경우 지연 시간(초)과 프로세스가 종료되기를 기다리는 경우 지연 시간(초)입니다. 이 지연을 초과하면 전환이 중지되고 오류가 발생합니다. <br /> </td> 
+   <td> 프로세스 대기 시 지연: 모든 프로세스를 동시에 사용하고 프로세스를 확보할 때까지 대기하는 경우 초 단위로 지연됩니다. 이 지연을 초과하면 전환이 중지되고 오류가 발생합니다. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> 15<br /> </td> 
   </tr> 
@@ -642,7 +642,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## ims {#ims}
 
-다음은 의 다양한 매개 변수입니다 **ims** 노드 아래에 있어야 합니다. Campaign이 [IMS](../../integrations/using/about-adobe-id.md).
+다음은 의 다양한 매개 변수입니다. **ims** 노드. 다음을 사용하여 다른 서비스에 연결하는 Campaign 구성입니다. [IMS](../../integrations/using/about-adobe-id.md).
 
 <table> 
  <thead> 
@@ -697,7 +697,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> authIMSTAPribateKey<br /> </td> 
+   <td> authIMSTAPrivateKey<br /> </td> 
    <td> 기술 계정 비공개 키(AES로 암호화)<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
@@ -707,7 +707,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## JavaScript {#javascript}
 
-다음은 의 다양한 매개 변수입니다 **javaScript** 노드 아래에 있어야 합니다. JavaScript 인터프리터의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **javaScript** 노드. JavaScript 인터프리터의 구성입니다.
 
 자세한 내용은 [보고 설명서](../../reporting/using/actions-on-reports.md#memory-allocation).
 
@@ -722,23 +722,23 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  </thead> 
  <tbody> 
   <tr> 
-   <td> maxMB<br /> </td> 
-   <td> 가비지 수집기를 실행하기 전에 최대 크기(MB)입니다.<br /> </td> 
+   <td> 최대 MB<br /> </td> 
+   <td> 가비지 수집기를 실행하기 전의 최대 크기(MB)입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 512 <br /> </td> 
   </tr> 
   <tr> 
-   <td> stackSizeKB<br /> </td> 
-   <td> 킬로 octets의 각 스택 청크의 크기입니다. 대부분의 사용자가 조정해서는 안 되는 메모리 관리 조정 매개 변수입니다. <br /> </td> 
+   <td> 스택 크기KB<br /> </td> 
+   <td> 각 스택별 크기(킬로 옥텟). 대부분의 사용자가 조정해서는 안 되는 메모리 관리 조정 매개 변수입니다. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> 8<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## mailExchanger {#mailexchanger}
+## mailExchange {#mailexchanger}
 
-다음은 의 다양한 매개 변수입니다 **mailExchanger** 노드 아래에 있어야 합니다. SMTP 서버의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **mailExchange** 노드. SMTP 서버의 구성입니다.
 
 <table> 
  <thead> 
@@ -752,7 +752,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> mxAddress<br /> </td> 
-   <td> SMTP 서버: 전자 메일 전송을 위한 SMTP 서버의 IP 주소입니다.<br /> </td> 
+   <td> SMTP 서버: 전자 메일 전송에 사용할 SMTP 서버의 IP 주소.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -767,7 +767,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## 모듈 {#module}
 
-다음은 의 다양한 매개 변수입니다 **모듈** 노드 아래에 있어야 합니다. 네임스페이스 제한 모듈 xtk에 대한 구성입니다.
+다음은 의 다양한 매개 변수입니다. **모듈** 노드. 네임스페이스 제한 모듈 xtk에 대한 구성입니다.
 
 <table> 
  <thead> 
@@ -780,7 +780,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  </thead> 
  <tbody> 
   <tr> 
-   <td> defaultNameSpace<br /> </td> 
+   <td> 기본 이름 공간<br /> </td> 
    <td> 새 엔티티 생성 시 사용되는 기본 네임스페이스.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'cus'<br /> </td> 
@@ -790,7 +790,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## 모니터링 {#monitoring}
 
-다음은 의 다양한 매개 변수입니다 **모니터링** 노드 아래에 있어야 합니다. 모니터링 서비스 구성입니다.
+다음은 의 다양한 매개 변수입니다. **모니터링** 노드. 모니터링 서비스 구성입니다.
 
 <table> 
  <thead> 
@@ -804,7 +804,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> maxPreparationJobsSec<br /> </td> 
-   <td> 최대 준비 시간: 게재 작업을 더 이상 준비할 수 없는 기간(초).<br /> </td> 
+   <td> 최대 준비 시간: 이후 게재 작업이 더 이상 준비되지 않아야 하는 기간(초)입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 3600<br /> </td> 
   </tr> 
@@ -823,9 +823,9 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  </tbody> 
 </table>
 
-## oconv {#ooconv}
+## ooconv {#ooconv}
 
-다음은 의 다양한 매개 변수입니다 **oconv** 노드 아래에 있어야 합니다. 문서 변환 서버의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **ooconv** 노드. 문서 변환 서버의 구성입니다.
 
 <table> 
  <thead> 
@@ -838,7 +838,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  </thead> 
  <tbody> 
   <tr> 
-   <td> maxConversion<br /> </td> 
+   <td> maxConversions<br /> </td> 
    <td> OpenOffice 서버가 수행할 수 있는 최대 전환 수. 이 수를 초과하면 서버가 다시 시작됩니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1000<br /> </td> 
@@ -866,9 +866,9 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## proxyConfig {#proxyconfig}
 
-다음은 의 다양한 매개 변수입니다 **proxyConfig** 노드 아래에 있어야 합니다. 프록시 매개 변수의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **proxyConfig** 노드. 프록시 매개 변수의 구성입니다.
 
-자세한 내용은 [프록시 연결 구성](file-res-management.md).
+자세한 내용은 다음을 참조하십시오. [프록시 연결 구성](file-res-management.md).
 
 <table> 
  <thead> 
@@ -888,13 +888,13 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   </tr> 
   <tr> 
    <td> 재정의<br /> </td> 
-   <td> 예외: 프록시 매개 변수를 무시할 주소 목록입니다.<br /> </td> 
+   <td> 예외: 프록시 매개변수를 무시할 수 있는 주소 목록.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'localhost*' <br /> </td> 
   </tr> 
   <tr> 
    <td> useSingleProxy<br /> </td> 
-   <td> 고유 프록시 서버: 모든 유형의 프록시에 대해 동일한 구성을 사용하십시오.<br /> </td> 
+   <td> 고유 프록시 서버: 모든 유형의 프록시에 대해 동일한 구성을 사용합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -903,9 +903,9 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ### HTTP 프록시/보안 프록시 {#http-proxy---secure-proxy-}
 
-에서 **proxyConfig > HTTP 프록시/보안 프록시** 노드 아래의 매개 변수를 구성합니다.
+다음에서 **proxyConfig > HTTP 프록시/보안 프록시** 노드에서 다음 매개 변수를 구성합니다.
 
-자세한 내용은 [프록시 연결 구성](file-res-management.md).
+자세한 내용은 다음을 참조하십시오. [프록시 연결 구성](file-res-management.md).
 
 <table> 
  <thead> 
@@ -941,7 +941,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## threadPool {#threadpool}
 
-다음은 의 다양한 매개 변수입니다 **threadPool** 노드 아래에 있어야 합니다.
+다음은 의 다양한 매개 변수입니다. **threadPool** 노드.
 
 <table> 
  <thead> 
@@ -954,7 +954,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  </thead> 
  <tbody> 
   <tr> 
-   <td> maxThreadCount<br /> </td> 
+   <td> maxThreadcount<br /> </td> 
    <td> 풀의 최대 스레드 수. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> 10<br /> </td> 
@@ -964,13 +964,13 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## urlPermission {#urlpermission}
 
-다음은 의 다양한 매개 변수입니다 **urlPermission** 노드 아래에 있어야 합니다. Javascript 코드가 액세스할 수 있는 URL 목록입니다.
+다음은 의 다양한 매개 변수입니다. **urlPermission** 노드. Javascript 코드가 액세스할 수 있는 URL 목록입니다.
 
-Javascript 코드에서 발생한 URL을 Adobe Campaign 서버에서 사용할 수 있는지 여부를 지정하는 도메인 및 정규 표현식 목록입니다.
+Javascript 코드에서 발견된 URL을 Adobe Campaign 서버에서 사용할 수 있는지 여부를 지정하는 도메인 및 정규 표현식 목록입니다.
 
-URL을 찾을 수 없는 경우에는 지정된 기본 모드에 따라 기본 작업이 수행됩니다.
+URL을 찾을 수 없는 경우 지정된 기본 모드에 따라 기본 작업이 수행됩니다.
 
-자세한 내용은 [발신 연결 보호](../../installation/using/configuring-campaign-server.md#url-permissions).
+자세한 내용은 다음을 참조하십시오. [발신 연결 보호](../../installation/using/configuring-campaign-server.md#url-permissions).
 
 <table> 
  <thead> 
@@ -984,13 +984,13 @@ URL을 찾을 수 없는 경우에는 지정된 기본 모드에 따라 기본 �
  <tbody> 
   <tr> 
    <td> 작업<br /> </td> 
-   <td> URL이 인증된 목록(열거형)에 없는 경우 기본 작업입니다. 가능한 값은 'ignore'(경고 메시지 없이 승인, 보호를 비활성화해야 함), 'warn'(경고 메시지 승인 및 문제) 및 '거부'(URL에 대한 액세스 금지)입니다.<br /> </td> 
+   <td> URL이 승인된 목록(열거형)에 없는 경우 기본 작업입니다. 가능한 값은 '무시'(경고 메시지 없이 승인, 보호 해제 필요), '경고'(경고 메시지 승인 및 발행) 및 '거부'(URL에 대한 액세스 금지)입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 거부<br /> </td> 
   </tr> 
   <tr> 
    <td> debugTrace<br /> </td> 
-   <td> URL 선택 메커니즘의 디버깅 추적: url 확인 프로세스 중에 추가 메시지가 표시됩니다.<br /> </td> 
+   <td> URL 선택 메커니즘의 디버깅 추적: URL 확인 프로세스 중에 추가 메시지를 발행합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -999,9 +999,9 @@ URL을 찾을 수 없는 경우에는 지정된 기본 모드에 따라 기본 �
 
 ### URL {#url}
 
-각 URL에 대해 **url** 노드(다음 매개 변수 포함):
+각 URL에 대해 **url** 다음 매개 변수가 있는 노드:
 
-자세한 내용은 [발신 연결 보호](../../installation/using/configuring-campaign-server.md#url-permissions).
+자세한 내용은 다음을 참조하십시오. [발신 연결 보호](../../installation/using/configuring-campaign-server.md#url-permissions).
 
 <table> 
  <thead> 
@@ -1013,21 +1013,21 @@ URL을 찾을 수 없는 경우에는 지정된 기본 모드에 따라 기본 �
  </thead> 
  <tbody> 
   <tr> 
-   <td> dnsSuffix<br /> </td> 
-   <td> URL에 관련된 도메인 이름 또는 도메인 상위 항목: 확인할 URL 도메인의 전체 또는 일부를 확인하는 것이 좋습니다. URL은 도메인에 dsnSuffix가 포함되어 있는 경우에만 정규 표현식에 대해 확인됩니다.<br /> </td> 
+   <td> dns 접미사<br /> </td> 
+   <td> URL과 관련된 도메인 이름 또는 도메인 상위(확인할 URL 도메인의 전체 또는 일부)로, 확인 속도를 높입니다. 해당 도메인에 dsnSuffix가 포함된 경우 URL은 정규 표현식과 관련해서만 확인됩니다.<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
-   <td> 이 도메인에 속하는 URL의 유효성을 검사하는 정규식입니다. dnsSuffix에 해당하는 경우 URL이 확인해야 하는 정규식입니다.<br /> </td> 
+   <td> 이 도메인에 속한 유효성 검사 URL을 미세 조정하는 정규 표현식: URL이 dnsSuffix와 일치해야 하는 정규 표현식입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-레코드가 **dnsSuffix** 하지만 **urlRegEx**&#x200B;로 설정되면 다음 레코드가 검사됩니다.
+레코드가 다음 조건을 충족하는 경우 **dns 접미사** 그러나 아님 **urlRegEx**, 다음 레코드를 검사합니다.
 
-예를 들어 domain business.com의 모든 URL에 대한 액세스를 승인하기 위해 두 개의 레코드를 정의할 수 있습니다.
+예를 들어 business.com 도메인의 모든 URL에 대한 액세스 권한을 부여하려면 다음 두 가지 레코드를 정의할 수 있습니다.
 
 dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;http://.&#42;&quot;
 
@@ -1035,7 +1035,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;http://.&#42;&quot;
 
 dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
-다음은 기본 구성입니다.
+기본 구성은 다음과 같습니다.
 
 ```
 <url dnsSuffix="api.omniture.com" urlRegEx="https://api.omniture.com/genesis/i/3.1.*"   />
@@ -1054,7 +1054,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ## xtkJobs {#xtkjobs}
 
-다음은 의 다양한 매개 변수입니다 **xtkJobs** 노드 아래에 있어야 합니다. 서버 작업의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **xtkJobs** 노드. 서버 작업의 구성입니다.
 
 <table> 
  <thead> 
@@ -1077,9 +1077,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ## 보관 {#archiving}
 
-다음은 의 다양한 매개 변수입니다 **보관** 노드 아래에 있어야 합니다. 백그라운드에서 실행된 보관 작업의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **보관** 노드. 백그라운드에서 실행된 보관 작업의 구성입니다.
 
-자세한 내용은 [전자 메일 보관 활성화(온-프레미스)](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-).
+자세한 내용은 다음을 참조하십시오. [전자 메일 보관 활성화(온-프레미스)](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-).
 
 <table> 
  <thead> 
@@ -1098,13 +1098,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 100<br /> </td> 
   </tr> 
   <tr> 
-   <td> archivingType<br /> </td> 
-   <td> 보낸 메시지(열거형)의 보관 전략입니다. 가능한 값은 '0'(보관 없음) 및 '1'(SMTP 서버로 보낸 메시지의 보관을 전송)입니다.<br /> </td> 
+   <td> 보관 유형<br /> </td> 
+   <td> 보낸 메시지의 보관 전략(열거). 가능한 값은 '0'(보관 안 함)과 '1'(보낸 메시지의 보관을 SMTP 서버로 전송)입니다.<br /> </td> 
    <td> 바이트<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
-   <td> args<br /> </td> 
+   <td> 인수<br /> </td> 
    <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
@@ -1116,20 +1116,20 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> compressBatchSize<br /> </td> 
-   <td> 압축된 아카이브 크기: 압축된 보관 파일의 최대 파일 수입니다.<br /> </td> 
+   <td> 압축 일괄 처리 크기<br /> </td> 
+   <td> 압축된 아카이브 크기: 압축된 아카이브의 최대 파일 수입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 10000<br /> </td> 
   </tr> 
   <tr> 
-   <td> compressionFormat<br /> </td> 
-   <td> 보관(열거형) 중에 사용된 압축 형식입니다. 가능한 값은 '0'(압축 없음) 및 '1'(zip 포맷으로 전송된 메시지 압축)입니다.<br /> </td> 
+   <td> 압축 형식<br /> </td> 
+   <td> 보관(열거) 중에 사용되는 압축 형식입니다. 가능한 값은 '0'(압축 안 함)과 '1'(zip 형식을 사용하여 보낸 메시지 압축)입니다.<br /> </td> 
    <td> 바이트<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> expirationDelay<br /> </td> 
-   <td> 처리되지 않은 전자 메일의 자동 보관 전 지연: 처리되지 않은 이메일이 보관되기 전 일 수입니다.<br /> </td> 
+   <td> 처리되지 않은 이메일의 자동 보관 이전 지연: 처리되지 않은 이메일이 보관되기까지의 일수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
@@ -1141,13 +1141,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 지정된 프로세스에서 소비한 RAM의 양(MB)에 대한 경고입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 주어진 프로세스에서 소비한 RAM의 양(MB)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
@@ -1159,7 +1159,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 다음을 참조하십시오 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 재시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1177,13 +1177,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> smtpBccAddress<br /> </td> 
-   <td> 대상 보관<br /> </td> 
+   <td> 대상 보관 중<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> smtpEnableTLS<br /> </td> 
-   <td> SMTPS 지원 활성화: 원격 서버에서 지원하는 경우 안전 모드(STARTTLS/SMTPS)에서 전자 메일 게재를 활성화합니다.<br /> </td> 
+   <td> SMTPS 지원 활성화: 원격 서버에서 지원하는 경우 안전 모드(STARTTLS/SMTPS)에서 이메일 게재를 활성화합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1210,7 +1210,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ## inMail {#inmail}
 
-다음은 의 다양한 매개 변수입니다 **inMail** 노드 아래에 있어야 합니다. 인바운드 전자 메일 관리 모듈의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **inMail** 노드. 인바운드 이메일 관리 모듈의 구성입니다.
 
 <table> 
  <thead> 
@@ -1223,7 +1223,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> args<br /> </td> 
+   <td> 인수<br /> </td> 
    <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
@@ -1236,31 +1236,31 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> checkInstanceName<br /> </td> 
-   <td> 인스턴스 이름 확인: true인 경우 Message-ID 헤더에 포함된 Adobe Campaign 인스턴스의 이름은 현재 인스턴스와 같아야 합니다. <br /> </td> 
+   <td> 인스턴스 이름 확인: true인 경우 Message-ID 헤더에 포함된 Adobe Campaign 인스턴스 이름은 현재 인스턴스와 동일해야 합니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> defaultForwardAddress<br /> </td> 
-   <td> 전달 주소: 규칙에 의해 기본 이메일 전송 주소가 처리되지 않습니다. <br /> </td> 
+   <td> 전달 주소: 규칙에 의해 처리되지 않는 기본 이메일 전송 주소. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> errorForwardAddress<br /> </td> 
-   <td> 오류 주소: 잘못된 전자 메일을 전송하는 데 사용되는 기본 주소입니다(잘못된 MIME 인코딩). <br /> </td> 
+   <td> 오류 주소: 잘못된 이메일(잘못된 MIME 인코딩)을 전송하는 데 사용되는 기본 주소입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> ignoreSize<br /> </td> 
-   <td> 메시지 크기 무시: POP3 서버에서 반환된 메시지의 크기를 무시하는 데 사용됩니다. 이 경우 모듈에는 '.'가 필요합니다. 를 클릭합니다. <br /> </td> 
+   <td> 메시지 크기 무시: POP3 서버에서 반환된 메시지의 크기를 무시하는 데 사용됩니다. 이 경우 모듈에는 '.'가 필요합니다. 메시지 끝에. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> inMailPeriodSec<br /> </td> 
-   <td> 메시지 읽기 기간: 메시지 큐 폴링 빈도<br /> </td> 
+   <td> 메시지 읽기 기간: 메시지 대기열 폴링 빈도.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -1271,8 +1271,8 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> maxBroadLog<br /> </td> 
-   <td> 업데이트할 최대 로그 수: 데이터베이스를 업데이트하기 전에 메모리에 유지할 최대 로그 메시지 수를 정의합니다.<br /> </td> 
+   <td> maxBroadlog<br /> </td> 
+   <td> 업데이트할 최대 로그 수: 데이터베이스를 업데이트하기 전에 메모리에 보관할 최대 로그 메시지 수를 정의합니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 20<br /> </td> 
   </tr> 
@@ -1284,13 +1284,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 지정된 프로세스에서 소비한 RAM의 양(MB)에 대한 경고입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 주어진 프로세스에서 소비한 RAM의 양(MB)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
@@ -1320,12 +1320,12 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 다음을 참조하십시오 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 재시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
-   <td> reloadPeriodSec<br /> </td> 
+   <td> 다시 로드 기간 초<br /> </td> 
    <td> 폴링할 계정의 데이터베이스 리로드 빈도.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 600<br /> </td> 
@@ -1339,9 +1339,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-### msgDump {#msgdump}
+### msg덤프 {#msgdump}
 
-에서 **inMail > msgDump** 노드 아래의 매개 변수를 구성합니다. 처리된 메시지 덤프의 구성입니다.
+다음에서 **inMail > msg덤프** 노드에서 다음 매개 변수를 구성합니다. 처리된 메시지 덤프의 구성입니다.
 
 <table> 
  <thead> 
@@ -1368,11 +1368,11 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-## 상호 작용 {#interactiond}
+## interactiond {#interactiond}
 
-다음은 의 다양한 매개 변수입니다 **상호 작용** 노드 아래에 있어야 합니다. 인바운드 상호 작용 이벤트에 대한 쓰기 데몬의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **interactiond** 노드. 인바운드 상호 작용 이벤트에 대한 쓰기 디먼의 구성입니다.
 
-자세한 내용은 [상호 작용 - 데이터 버퍼](../../installation/using/interaction---data-buffer.md).
+자세한 내용은 다음을 참조하십시오. [상호 작용 - 데이터 버퍼](../../installation/using/interaction---data-buffer.md).
 
 <table> 
  <thead> 
@@ -1385,7 +1385,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> args<br /> </td> 
+   <td> 인수<br /> </td> 
    <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
@@ -1398,7 +1398,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> callDataSize<br /> </td> 
-   <td> 최대. 호출 데이터를 위해 공유 메모리에 저장된 문자 수입니다.<br /> </td> 
+   <td> 최대. 호출 데이터에 대해 공유 메모리에 저장된 문자 수입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1410,19 +1410,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 지정된 프로세스에서 소비한 RAM의 양(MB)에 대한 경고입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 주어진 프로세스에서 소비한 RAM의 양(MB)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
-   <td> maxSharedEntries<br /> </td> 
-   <td> 최대. 공유 메모리에 저장된 이벤트 수.<br /> </td> 
+   <td> maxSharedEntry<br /> </td> 
+   <td> 최대. 공유 메모리에 저장된 이벤트 수입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 25000<br /> </td> 
   </tr> 
@@ -1434,7 +1434,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 다음을 참조하십시오 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 재시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1446,13 +1446,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> statsPeriod<br /> </td> 
-   <td> 응답 시간 통계에 대한 집계 기간(초). 0은 통계 저장소가 비활성화되었음을 의미합니다.<br /> </td> 
+   <td> 응답 시간 통계에 대한 집계 기간(초)입니다. 0은 통계 저장소가 비활성화되었음을 의미합니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
-   <td> targetKeySize<br /> </td> 
-   <td> 최대. 개인을 식별하기 위해 공유 메모리에 저장된 문자 수입니다.<br /> </td> 
+   <td> 대상 키 크기<br /> </td> 
+   <td> 최대. 개인 식별을 위해 공유 메모리에 저장된 문자 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 16<br /> </td> 
   </tr> 
@@ -1461,7 +1461,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ## MTA {#mta}
 
-다음은 의 다양한 매개 변수입니다 **mta** 노드 아래에 있어야 합니다. 게재 에이전트의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **mta** 노드. 게재 에이전트 구성입니다.
 
 <table> 
  <thead> 
@@ -1474,7 +1474,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> args<br /> </td> 
+   <td> 인수<br /> </td> 
    <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '-tracefilter:nlmta' <br /> </td> 
@@ -1486,26 +1486,26 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> dataLogPath<br /> </td> 
-   <td> 보낸 전자 메일의 저장 경로: 비어 있지 않으면 보낸 이메일의 모든 소스 파일이 저장되는 경로가 됩니다. <br /> </td> 
+   <td> 데이터 로그 경로<br /> </td> 
+   <td> 보낸 이메일 경로 저장: 비어 있지 않으면 보낸 이메일의 모든 소스 파일이 저장되는 경로입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> debugPath<br /> </td> 
-   <td> 덤프 디렉터리: 비어 있지 않으면 이 디렉터리에 보낸 메일 메시지의 MIME 편지함을 복사합니다. 문제 해결에 사용됩니다. <br /> </td> 
+   <td> 덤프 디렉터리:i비어 있지 않으면 이 디렉터리에 있는 보낸 메일 메시지의 MIME 봉투를 복사합니다. 문제 해결에 사용됩니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> dnsRequestLogDelayMs<br /> </td> 
-   <td> DNS 쿼리 로그 지연: 로그를 표시하는 시간(밀리초)입니다.<br /> </td> 
+   <td> DNS 쿼리 로그 지연: 로그를 표시하는 시간(밀리초).<br /> </td> 
    <td> 길게<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> errorPeriodSec<br /> </td> 
-   <td> 오류 통계 빈도: 데이터베이스의 통계와 저장소 생성 사이의 시간입니다. <br /> </td> 
+   <td> 오류 통계 빈도: 통계 생성과 데이터베이스 저장 사이의 시간입니다. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -1516,32 +1516,32 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> logEmailErrors<br /> </td> 
+   <td> logEmailError<br /> </td> 
    <td> 오류 통계를 생성하고 데이터베이스에 저장합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> logLevel<br /> </td> 
-   <td> 로그 메시지 레벨 표시 데이터베이스에 작성된 로그의 심각도 수준입니다. MTA에서 생성된 로그 메시지가 모두 데이터베이스에 기록되는 것은 아닙니다. 이 매개 변수를 사용하여 데이터베이스에 메시지를 작성해야 하는 수준을 정의할 수 있습니다. 레벨 2를 정의하는 경우 레벨 1과 0의 메시지도 작성되지만 레벨 1을 정의하는 경우에는 레벨 1과 0의 메시지만 기록됩니다. 가능한 값은 다음과 같습니다. 0(오류), 1(경고), 2(정보)<br /> </td> 
+   <td> 로그 메시지 레벨 표시 데이터베이스에 기록된 로그의 심각도 수준입니다. MTA에서 생성된 로그 메시지가 항상 데이터베이스에 기록되는 것은 아닙니다. 이 매개 변수를 사용하면 데이터베이스에 메시지를 작성해야 하는 수준을 정의할 수 있습니다. 레벨 2를 정의하면 레벨 1과 0의 메시지도 작성되지만, 레벨 1을 정의하면 레벨 1과 0의 메시지만 작성됩니다. 가능한 값은 0(오류), 1(경고), 2(정보)입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
   <tr> 
-   <td> maxMemoryMb<br /> </td> 
+   <td> 최대 메모리(M)<br /> </td> 
    <td> MTA 프로세스가 사용할 수 있는 최대 메모리 크기(MB). 이 제한을 초과하면 사용하는 메모리가 시스템에 릴리스되도록 프로세스가 다시 시작됩니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1024<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 지정된 프로세스에서 소비한 RAM의 양(MB)에 대한 경고입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 주어진 프로세스에서 소비한 RAM의 양(MB)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
@@ -1553,37 +1553,37 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> minErrorsToLog<br /> </td> 
-   <td> 고려할 오류 임계값: errorPeriodSec에서 지정한 기간의 총 오류 수가 임계값보다 엄격하게 낮은 경우 지정된 경로에 대해 오류 통계가 생성되지 않습니다.<br /> </td> 
+   <td> 고려해야 할 오류 임계값: errorPeriodSec에서 지정한 기간 동안 총 오류 수가 임계값보다 엄격히 낮은 경우 특정 경로에 대해 오류 통계가 생성되지 않습니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
-   <td> minMessagesToLog<br /> </td> 
+   <td> minMessageToLog<br /> </td> 
    <td> 고려해야 할 메시지 임계값. errorPeriodSec에서 지정한 기간 동안 총 보낸 메시지 수가 임계값보다 엄격히 낮은 경우 특정 경로에 대해 오류 통계가 생성되지 않습니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
-   <td> 알림 릴레이: HostName:알림을 중계하는 데 사용되는 포트입니다.<br /> </td> 
+   <td> 알림 릴레이: 알림을 릴레이하는 데 사용되는 HostName:Port.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 다음을 참조하십시오 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 재시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
-   <td> purgeDataLogDelay<br /> </td> 
-   <td> 보관된 전자 메일이 삭제되기 전 지연: dataLogPath에 지정된 디렉토리에 있는 보관된 이메일을 삭제하기 전 일 수입니다.<br /> </td> 
+   <td> purgeDataLogdelay<br /> </td> 
+   <td> 보관된 이메일을 삭제하기 전 지연: dataLogPath에 지정된 디렉터리에 보관된 이메일이 제거되기까지의 일수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 15<br /> </td> 
   </tr> 
   <tr> 
-   <td> retryLostMessages<br /> </td> 
-   <td> 손실된 메시지 다시 시도: 하위 프로세스가 중단된 경우 게재 중 일부가 다시 시도됩니다.<br /> </td> 
+   <td> retryLostMessage<br /> </td> 
+   <td> 손실된 메시지 다시 시도: 하위 프로세스가 중단되면 게재의 일부가 다시 시도됩니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
@@ -1594,18 +1594,18 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
-   <td> signEmailLinks<br /> </td> 
-   <td> 서명 메커니즘을 활성화합니다. 이에 따라 이메일의 링크 추적 보안이 개선됩니다.<br /> </td> 
+   <td> signEmailLink<br /> </td> 
+   <td> 서명 메커니즘을 활성화합니다. 이렇게 하면 이메일의 링크 추적에 대한 보안이 강화됩니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> true<br /> </td> 
   </tr>
   <tr> 
-   <td> statServerAddress<br /> </td> 
-   <td> 게재 통계 서버의 주소입니다. 
+   <td> 통계 서버 주소<br /> </td> 
+   <td> 다음으로 지정된 게재 통계 서버 주소 
     &lt;dns or="" ip=""&gt; 
       <code>[</code>: 
      &lt;port&gt; 
-       <code>]</code>. 자세한 내용은 
+       <code>]</code>. 다음을 참조하십시오 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">통계 서버의 좌표</a>. 
       <br /> 
      </td> 
@@ -1614,25 +1614,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> statServerTLSSsupport<br /> </td> 
-   <td> 도메인별 TLS 활성화: mx에서 구성할 수 있는 TLS를 활성화합니다(최신 통계 서버 필요).<br /> </td> 
+   <td> 도메인별 TLS 활성화: MX별로 구성할 수 있는 TLS를 활성화합니다(최신 통계 서버 필요).<br /> </td> 
    <td> 부울<br /> </td> 
    <td> true <br /> </td> 
   </tr> 
   <tr> 
-   <td> statServerVersion<br /> </td> 
+   <td> stat서버 버전<br /> </td> 
    <td> 사용된 프로토콜 버전: 통신 프로토콜 버전(v5.11 및 6.0.2 서버의 경우 1, v6.1 서버의 경우 2).<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 정의되지 않은 경우 최신 버전이 사용됩니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> useMomentum<br /> </td> 
-   <td> 를 "true"로 설정하면 인스턴스가 <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">향상된 MTA</a>.<br /> </td> 
+   <td> "true"로 설정하면 인스턴스가 <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">향상된 MTA</a>.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> <br /> </td>b 
   </tr>
   <tr> 
-   <td> verifyMode<br /> </td> 
-   <td> 확인 모드: 확인 모드를 활성화합니다(메시지의 물리적 전송 없음). 시뮬레이션 및 테스트에 사용됨).<br /> </td> 
+   <td> verifymode<br /> </td> 
+   <td> 확인 모드: 확인 모드를 활성화합니다(실제 메시지 전송 없음, 시뮬레이션 및 테스트에 사용).<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1643,17 +1643,17 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/mta/' <br /> </td> 
   </tr> 
   <tr> 
-   <td> xMail<br /> </td> 
-   <td> X-메일 필드: SMTP 메일 헤더의 'X-Mail' 필드 값.<br /> </td> 
+   <td> xMailer<br /> </td> 
+   <td> X-Mailer 필드: SMTP 메일 헤더의 'X-Mailer' 필드 값.<br /> </td> 
    <td> 문자열<br /> </td> 
-   <td> 'nlserver, 빌드 $(PRODUCT_VERSION)'<br /> </td> 
+   <td> 'nlserver, $(PRODUCT_VERSION) 빌드'<br /> </td> 
   </tr>  
  </tbody> 
 </table>
 
 ### cache {#cache}
 
-에서 **캐시** 노드 아래의 매개 변수를 구성합니다. 로컬 파일 캐시 구성입니다.
+다음에서 **캐시** 노드에서 다음 매개 변수를 구성합니다. 로컬 파일 캐시 구성입니다.
 
 <table> 
  <thead> 
@@ -1667,7 +1667,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> maxPeriodSec<br /> </td> 
-   <td> 재생 후: 캐시에서 파일을 자동으로 삭제하여 스토리지를 재확보할 수 있는 기간(초)입니다.<br /> </td> 
+   <td> 다음 시기 이후에 재활용: 스토리지 회수를 위해 파일이 캐시에서 자동으로 삭제되는 기간(초 단위로 표시됨).<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 244800<br /> </td> 
   </tr> 
@@ -1678,8 +1678,8 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 1024<br /> </td> 
   </tr> 
   <tr> 
-   <td> purgePeriodSec<br /> </td> 
-   <td> 제거 빈도: 캐시 제거 메커니즘의 실행 간격(초)입니다.<br /> </td> 
+   <td> 삭제 기간 초<br /> </td> 
+   <td> 제거 빈도: 캐시 제거 메커니즘 실행 사이의 기간(초).<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 3600<br /> </td> 
   </tr> 
@@ -1688,11 +1688,11 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ### 릴레이 {#relay}
 
-에서 **mta > 릴레이** 노드 아래의 매개 변수를 구성합니다. 메시지 배달에 대한 메일 서버의 구성입니다.
+다음에서 **mta > 릴레이** 노드에서 다음 매개 변수를 구성합니다. 메시지 게재를 위한 메일 서버 구성입니다.
 
-이 목록은 MX DNS 쿼리에서 반환한 MX 목록과 같은 방식으로 처리됩니다. 일반적으로 첫 번째 MX를 사용할 수 있는 한 사용하고 그 다음 MX를 사용하는 등의 방식입니다.
+이 목록은 MX DNS 쿼리에서 반환된 MX 목록과 동일한 방식으로 처리됩니다. 일반적으로 첫 번째 MX는 사용 가능한 한 사용한 다음 MX가 사용됩니다.
 
-자세한 내용은 [SMTP 릴레이](../../installation/using/configuring-campaign-server.md#smtp-relay).
+자세한 내용은 다음을 참조하십시오. [SMTP 릴레이](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
 <table> 
  <thead> 
@@ -1721,9 +1721,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ### 마스터 {#master}
 
-에서 **mta > 마스터** 노드 아래의 매개 변수를 구성합니다. 주 서버의 구성입니다.
+다음에서 **mta > 마스터** 노드에서 다음 매개 변수를 구성합니다. 주 서버의 구성입니다.
 
-자세한 내용은 다음을 참조하십시오 [섹션](../../installation/using/configuring-campaign-server.md#mta-child-processes).
+자세한 내용은 다음을 참조하십시오. [섹션](../../installation/using/configuring-campaign-server.md#mta-child-processes).
 
 <table> 
  <thead> 
@@ -1736,7 +1736,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> dataBasePoolPeriodSec<br /> </td> 
+   <td> 데이터 베이스 풀 기간<br /> </td> 
    <td> 게재할 작업의 데이터베이스 폴링 빈도. 해당 값은 데이터베이스 폴링 빈도(단위: 초)를 보여 줍니다. 게재 대기 중인 작업 목록을 얻으려면 MTA는 정기적으로 데이터베이스를 폴링합니다. 대기 중인 작업이 없는 경우 폴링 기간은 이 값에 따라 정의됩니다. 작업이 하위 서버로 전송되면 새 작업이 빠른 시일 내에 다시 처리될 수 있도록(예: 하위 서버를 다시 사용하는 대로) 이 폴링 기간은 자동으로 1초까지 줄어들게 됩니다. 즉, 하위 서버를 다시 사용할 때까지 데이터베이스 쿼리를 수행할 수 없습니다. 실제로, 하나 이상의 하위 서버를 사용하는 경우에만 데이터베이스에 액세스할 수 있습니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 30<br /> </td> 
@@ -1754,13 +1754,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
-   <td> maxSpareServers<br /> </td> 
-   <td> 최대 하위 서버 수. 실행 중인 최대 서버 수를 나타냅니다. 서버 메모리 리소스와 호환되는 이 수를 제한하는 것이 좋습니다. 게재 중에 이를 확인할 수 있습니다. 사용된 메모리는 사용 가능한 실제 메모리의 3분의 1을 초과할 수 없습니다. 그렇지 않을 경우 스왑이 사용됩니다. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">MTA 하위 프로세스</a>.<br /> </td> 
+   <td> maxSpare 서버<br /> </td> 
+   <td> 최대 하위 서버 수. 실행 중인 최대 서버 수를 나타냅니다. 서버 메모리 리소스와 호환되는 이 수를 제한하는 것이 좋습니다. 게재 중에 이를 확인할 수 있습니다. 사용된 메모리는 사용 가능한 실제 메모리의 3분의 1을 초과할 수 없습니다. 그렇지 않을 경우 스왑이 사용됩니다. 다음을 참조하십시오 <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">MTA 하위 프로세스</a>.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
   <tr> 
-   <td> minSpareServers<br /> </td> 
+   <td> minSpare 서버<br /> </td> 
    <td> 최소 하위 서버 수. MTA는 실행 중인 이 서버 수를 최소한 유지하려고 합니다. 수가 적은 경우 이 값에 도달할 때까지 매초마다 새 서버를 다시 시작합니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 0<br /> </td> 
@@ -1776,9 +1776,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ### 하위 {#child}
 
-에서 **mta > 하위** 노드 아래의 매개 변수를 구성합니다. 하위 서버의 구성입니다.
+다음에서 **mta > 하위** 노드에서 다음 매개 변수를 구성합니다. 하위 서버 구성입니다.
 
-자세한 내용은 [이메일 전송 최적화](../../installation/using/email-deliverability.md#email-sending-optimization).
+자세한 내용은 다음을 참조하십시오. [이메일 전송 최적화](../../installation/using/email-deliverability.md#email-sending-optimization).
 
 <table> 
  <thead> 
@@ -1822,7 +1822,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxWaitingMessages<br /> </td> 
-   <td> 보류 중인 메시지: 배달할 메모리에서 대기하는 최대 메시지 수입니다. <br /> </td> 
+   <td> 보류 중인 메시지: 메모리에 대기 중인 전달할 최대 메시지 수. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> 2000<br /> </td> 
   </tr> 
@@ -1839,7 +1839,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
-   <td> startWithFirstMX<br /> </td> 
+   <td> startWithFirstMx<br /> </td> 
    <td> 항상 우선 순위가 가장 높은 MX로 시작.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
@@ -1853,7 +1853,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-에서 **mta > child > smtp** 노드 아래의 매개 변수를 구성합니다. SMTP 세션의 구성입니다.
+다음에서 **mta > 하위 > smtp** 노드에서 다음 매개 변수를 구성합니다. SMTP 세션의 구성입니다.
 
 <table> 
  <thead> 
@@ -1872,14 +1872,14 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> idleSessionTimeoutSec<br /> </td> 
+   <td> 유휴 세션 시간 제한<br /> </td> 
    <td> 유휴 세션 시간 제한 이 매개변수는 특정 도메인에 여러 메시지를 전송하는 데 세션을 재사용하는 경우에만 사용됩니다. MTA가 메시지 전송을 완료하면 사용된 SMTP 세션은 체계적으로 닫히지 않습니다. 이 동일한 도메인에 메시지를 보낼 준비가 되면 동일한 SMTP 세션이 재사용되므로 세션이 자동으로 닫히지 않습니다. 매개변수 IdleSessionTimeout 매개변수를 사용하면 SMTP 세션이 다른 메시지를 대기하며 활성 상태를 유지할 수 있는 시간을 정의할 수 있습니다. 기간이 경과하면 세션이 자동으로 닫힙니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
-   <td> initialDelaySec<br /> </td> 
-   <td> 연결 재시도 이전의 초기 지연. 연결이 실패할 때마다 이 지연이 두 배로 증가합니다.<br /> </td> 
+   <td> 초기 지연<br /> </td> 
+   <td> 연결 재시도 이전의 초기 지연. 이 지연은 연결이 실패할 때마다 두 배가 됩니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
@@ -1892,9 +1892,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-에서 **mta > child > smtp > IPAffness** 노드 아래의 매개 변수를 구성합니다. 최적화된 발신 SMTP 트래픽을 위해 IP 주소가 있는 관심 영역 관리를 구성합니다.
+다음에서 **mta > 하위 > smtp > IPAffinity** 노드에서 다음 매개 변수를 구성합니다. 발신 SMTP 트래픽 최적화를 위해 IP 주소로 선호도를 관리하는 구성입니다.
 
-자세한 내용은 [사용할 IP 주소 목록](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use) 및 [관심도 있는 아웃바운드 SMTP 트래픽 관리](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities).
+자세한 내용은 다음을 참조하십시오. [사용할 IP 주소 목록](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use) 및 [관심도와 함께 아웃바운드 SMTP 트래픽 관리](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities).
 
 <table> 
  <thead> 
@@ -1907,20 +1907,20 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td> 도메인 이름: IP 주소에 연결된 로컬 도메인 이름입니다. SMTP HELO 명령을 실행할 때 사용됩니다.<br /> </td> 
+   <td> 도메인 이름: IP 주소에 연결된 로컬 도메인 이름입니다. SMTP HELO 명령 발행 시 사용됩니다.<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
   <tr> 
    <td> 이름<br /> </td> 
-   <td> 논리 이름: 사용자별로 선호도에 연결된 이름 이름은 세미콜론을 사용하여 구분됩니다.<br /> </td> 
+   <td> 논리적 이름: 사용자가 선호도에 연결한 이름입니다. 이름은 세미콜론으로 구분됩니다.<br /> </td> 
    <td> 문자열<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-에서 **mta > 하위 > smtp > IP** 노드 아래의 매개 변수를 구성합니다.
+다음에서 **mta > 하위 > smtp > IP** 노드에서 다음 매개 변수를 구성합니다.
 
-자세한 내용은 [사용할 IP 주소 목록](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
+자세한 내용은 다음을 참조하십시오. [사용할 IP 주소 목록](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
 
 <table> 
  <thead> 
@@ -1942,7 +1942,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 길게<br /> </td> 
   </tr> 
   <tr> 
-   <td> 가중치<br /> </td> 
+   <td> 두께<br /> </td> 
    <td> 다른 IP와 비교해 이 IP의 사용 빈도를 지정합니다(가중치가 클수록 빈도가 높아짐).<br /> </td> 
    <td> 길게<br /> </td> 
   </tr> 
@@ -1966,7 +1966,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ## nmac {#nmac}
 
-다음은 의 다양한 매개 변수입니다 **nmac** 노드 아래에 있어야 합니다. 푸시 알림 게재에 대한 구성입니다.
+다음은 의 다양한 매개 변수입니다. **nmac** 노드. 푸시 알림 게재에 대한 구성입니다.
 
 <table> 
  <thead> 
@@ -1979,7 +1979,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> useHTTProxy<br /> </td> 
+   <td> useHTTPProxy<br /> </td> 
    <td> shared/proxyHTTP에 정의된 HTTP 프록시 사용. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
@@ -1989,7 +1989,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ### 릴레이 {#relay-1}
 
-다음은 의 다양한 매개 변수입니다 **nmac > relay** 노드 아래에 있어야 합니다. 이렇게 하면 메시지 전달에 대한 릴레이 사용(ios http2 커넥터)을 구성합니다.
+다음은 의 다양한 매개 변수입니다. **nmac > 릴레이** 노드. 메시지 게재를 위한 릴레이(ios http2 커넥터) 사용을 구성합니다.
 
 <table> 
  <thead> 
@@ -2022,9 +2022,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-## 파이프라인 {#pipelined}
+## 파이프라인됨 {#pipelined}
 
-다음은 의 다양한 매개 변수입니다 **파이프라인** 노드 아래에 있어야 합니다. 파이프라인 서비스에 대한 이벤트 처리 모듈의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **파이프라인됨** 노드. 파이프라인 서비스에 대한 이벤트 처리 모듈의 구성입니다.
 
 <table> 
  <thead> 
@@ -2043,7 +2043,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> args<br /> </td> 
+   <td> 인수<br /> </td> 
    <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
@@ -2068,7 +2068,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> disableAuth<br /> </td> 
-   <td> 인증 사용 안 함: 인증 없이 파이프라인 서비스에 연결합니다. <br /> </td> 
+   <td> 인증 비활성화: 인증 없이 파이프라인 서비스에 연결합니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
@@ -2079,14 +2079,14 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 'https://producer-pipeline-pnw.adobe.net'<br /> </td> 
   </tr> 
   <tr> 
-   <td> dumpStatePeriodSec<br /> </td> 
-   <td> 상태 저장 기간: 프로세스의 내부 정보가 파일에 저장되는 빈도. 0인 경우 비활성 상태입니다. <br /> </td> 
+   <td> 덤프 상태 기간 초<br /> </td> 
+   <td> 상태 저장 기간: 프로세스 내부 정보가 파일에 저장되는 빈도. 0이면 비활성화. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> forcedPipelineEndpoint<br /> </td> 
-   <td> 수신 대기 URL: 파이프라인 서비스의 수신 URL을 강제 적용합니다. <br /> </td> 
+   <td> 수신 URL: 파이프라인 서비스의 수신 URL을 강제 실행합니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2098,19 +2098,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 지정된 프로세스에서 소비한 RAM의 양(MB)에 대한 경고입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 주어진 프로세스에서 소비한 RAM의 양(MB)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
-   <td> monitorServerPort<br /> </td> 
-   <td> 상태 서버 포트: 프로세스의 상태를 쿼리할 수 있는 HTTP 서버 포트입니다. 0인 경우 비활성 상태입니다.<br /> </td> 
+   <td> 모니터 서버 포트<br /> </td> 
+   <td> 상태 서버 포트: 프로세스 상태를 쿼리할 수 있는 HTTP 서버 포트입니다. 0이면 비활성화.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 7781<br /> </td> 
   </tr> 
@@ -2122,37 +2122,37 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> pointerFlushPeriodSec<br /> </td> 
-   <td> 포인터가 저장되기 전 지연: 포인터가 이 기간 동안 적어도 한 번 데이터베이스에 저장됩니다(활동이 낮은 경우 유용합니다.).<br /> </td> 
+   <td> 포인터를 저장하기 전 지연: 이 기간 동안 포인터가 데이터베이스에 적어도 한 번 저장됩니다(활동이 적은 경우 유용함).<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 다음을 참조하십시오 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 재시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
-   <td> processingJSONhreads<br /> </td> 
+   <td> processingJSThreads<br /> </td> 
    <td> 맞춤형 JavaScript 커넥터로 이벤트를 처리하는 데 필요한 스레드 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
-   <td> processingThreads<br /> </td> 
+   <td> 처리 스레드<br /> </td> 
    <td> 이벤트 처리에 필요한 스레드 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
-   <td> retryPeriodSec<br /> </td> 
+   <td> 다시 시도 기간 초<br /> </td> 
    <td> 실패가 있는 경우 처리 사이에서 지연.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
   <tr> 
    <td> retryValiditySec<br /> </td> 
-   <td> 이 기간 후 포기: 이 기간 후에도 처리가 계속 실패하면 이벤트를 종료합니다.<br /> </td> 
+   <td> 이 기간이 지난 후 중단: 이 기간이 지난 후에도 처리가 계속 실패하는 경우 이벤트를 중단합니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -2167,7 +2167,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ## 복구 {#repair}
 
-다음은 의 다양한 매개 변수입니다 **복구** 노드 아래에 있어야 합니다. 데이터베이스 복구 모듈의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **복구** 노드. 데이터베이스 복구 모듈의 구성입니다.
 
 <table> 
  <thead> 
@@ -2180,19 +2180,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> repairActionDelayMin<br /> </td> 
-   <td> 게재 작업 복구 모듈: 복구 모듈에서 게재 작업을 처리할 수 있는 지연 시간(분)입니다. <br /> </td> 
+   <td> 복구 작업 지연 시간<br /> </td> 
+   <td> 게재 작업 복구 모듈: 지연(분). 이후 복구 모듈에서 게재 작업을 처리할 수 있습니다. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## securityZone {#securityzone}
+## 보안 영역 {#securityzone}
 
-다음은 의 다양한 매개 변수입니다 **securityZone** 노드 아래에 있어야 합니다.
+다음은 의 다양한 매개 변수입니다. **보안 영역** 노드.
 
-자세한 내용은 [보안 영역 정의](../../installation/using/security-zones.md).
+자세한 내용은 다음을 참조하십시오. [보안 영역 정의](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
@@ -2229,7 +2229,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> allowUserPassword<br /> </td> 
+   <td> allowUserpassword<br /> </td> 
    <td> 사용자/암호 세션 토큰 승인.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
@@ -2247,13 +2247,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> NewName() <br /> </td> 
   </tr> 
   <tr> 
-   <td> sessionTokenOnly<br /> </td> 
+   <td> sessionTokenonly<br /> </td> 
    <td> 보안 토큰 사용 안 함.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> showErrors<br /> </td> 
+   <td> showError<br /> </td> 
    <td> 오류 세부 정보 표시<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
@@ -2261,7 +2261,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-다음은 기본 구성입니다.
+기본 구성은 다음과 같습니다.
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" allowSQLInjection="false" label="Public Network" name="public">
@@ -2286,11 +2286,11 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 </securityZone>
 ```
 
-### subNetwork {#subnetwork}
+### 하위 네트워크 {#subnetwork}
 
-다음은 의 다양한 매개 변수입니다 **securityZone > subNetwork** 노드 아래에 있어야 합니다.
+다음은 의 다양한 매개 변수입니다. **securityZone > 하위 네트워크** 노드.
 
-자세한 내용은 [보안 영역 정의](../../installation/using/security-zones.md).
+자세한 내용은 다음을 참조하십시오. [보안 영역 정의](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
@@ -2331,7 +2331,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ## sms {#sms}
 
-다음은 의 다양한 매개 변수입니다 **sms** 노드 아래에 있어야 합니다. 인바운드 SMS 관리 모듈의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **sms** 노드. 인바운드 SMS 관리 모듈의 구성입니다.
 
 <table> 
  <thead> 
@@ -2344,7 +2344,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> args<br /> </td> 
+   <td> 인수<br /> </td> 
    <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
@@ -2362,7 +2362,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
-   <td> dataSizeMo<br /> </td> 
+   <td> 데이터 크기<br /> </td> 
    <td> SMPP 작업 파일의 최대 크기(MB).<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 512<br /> </td> 
@@ -2375,37 +2375,37 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> keepAlivePeriod<br /> </td> 
-   <td> 세션 연속성 프레임의 되풀이: 최대. 수신 세션이 여전히 활성화되었음을 알리는 두 프레임 사이의 기간(초)<br /> </td> 
+   <td> 세션 연속성 프레임 반복: 최대 수신 세션이 여전히 활성화되어 있음을 알리는 두 프레임 사이의 기간(초)입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 25<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 지정된 프로세스에서 소비한 RAM의 양(MB)에 대한 경고입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 주어진 프로세스에서 소비한 RAM의 양(MB)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> pollPeriod<br /> </td> 
-   <td> 검색 빈도: SMS 계정 폴링 기간입니다.<br /> </td> 
+   <td> 검색 빈도: SMS 계정 폴 기간.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 다음을 참조하십시오 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 재시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> reloadPeriod<br /> </td> 
-   <td> 계정 다시 로드 빈도: 폴링할 계정의 데이터베이스 다시 로드 빈도<br /> </td> 
+   <td> 계정 재로드 빈도: 폴링할 계정의 데이터베이스 재로드 빈도.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -2417,7 +2417,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> srReadDelay<br /> </td> 
-   <td> SR 처리에 대한 지연 시간(초): 현재 시간보다 빠른 복구 날짜에서 srReadDelay에 의해 지정된 기간(초)을 뺀 SR만 사용합니다. <br /> </td> 
+   <td> SR 처리 지연 시간(초): 현재 시간에서 srReadDelay에 지정된 기간(초)을 뺀 일정보다 빠른 복구 날짜가 있는 SR만 해당됩니다. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -2432,7 +2432,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ### netsize {#netsize}
 
-다음은 의 다양한 매개 변수입니다 **sms > netsize** 노드 아래에 있어야 합니다.
+다음은 의 다양한 매개 변수입니다. **sms > netsize** 노드.
 
 <table> 
  <thead> 
@@ -2446,16 +2446,16 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> netsizeConnectionTimeout<br /> </td> 
-   <td> Netsize와의 연결을 설정할 때 시간 제한(초)입니다.<br /> </td> 
+   <td> Netsize로 연결 설정 시 시간 제한(초).<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## stat {#stat}
+## 통계 {#stat}
 
-다음은 의 다양한 매개 변수입니다 **stat** 노드 아래에 있어야 합니다. 다음은 MTA 통계 모듈의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **통계** 노드. MTA 통계 모듈의 구성입니다.
 
 <table> 
  <thead> 
@@ -2468,7 +2468,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> args<br /> </td> 
+   <td> 인수<br /> </td> 
    <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
@@ -2487,13 +2487,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 지정된 프로세스에서 소비한 RAM의 양(MB)에 대한 경고입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 주어진 프로세스에서 소비한 RAM의 양(MB)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
@@ -2505,7 +2505,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 다음을 참조하십시오 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 재시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2518,9 +2518,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-## sylogd {#syslogd}
+## syslogd {#syslogd}
 
-다음은 의 다양한 매개 변수입니다 **sylogd** 노드 아래에 있어야 합니다. 로그 관리 모듈의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **syslogd** 노드. 로그 관리 모듈의 구성입니다.
 
 <table> 
  <thead> 
@@ -2533,7 +2533,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> args<br /> </td> 
+   <td> 인수<br /> </td> 
    <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
@@ -2557,26 +2557,26 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
-   <td> maxNumberOfLoginsFiles<br /> </td> 
+   <td> 최대 로그인 수 파일<br /> </td> 
    <td> 유지할 최대 logins.log 파일 수. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> 365<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 지정된 프로세스에서 소비한 RAM의 양(MB)에 대한 경고입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 주어진 프로세스에서 소비한 RAM의 양(MB)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 다음을 참조하십시오 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 재시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2591,7 +2591,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ## 추적 {#tracking}
 
-다음은 의 다양한 매개 변수입니다 **추적** 노드 아래에 있어야 합니다. 추적 서버의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **추적** 노드. 이는 추적 서버의 구성입니다.
 
 <table> 
  <thead> 
@@ -2604,7 +2604,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> args<br /> </td> 
+   <td> 인수<br /> </td> 
    <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
@@ -2617,7 +2617,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> blockRedirectForUnsignedTrackingLink<br /> </td> 
-   <td> 이전 빌드에서 생성된 잘못된 형식의 URL을 비활성화합니다.<br /> </td> 
+   <td> 이전 빌드에서 생성된 형식이 잘못된 URL을 비활성화합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2629,25 +2629,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> dedupOpenPeriodMin<br /> </td> 
-   <td> 개구부 중복 제거: Outlook과 같은 메일 독자의 메일 미리 보기 효과를 제한하려면 열려 있는 추적 로그가 중복되지 않습니다.<br /> </td> 
+   <td> 열기 중복 제거: 중복 열기 추적 로그를 제거하여 Outlook과 같은 메일 리더에서 메일 미리 보기의 효과를 제한합니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
-   <td> errorIgnorePercent<br /> </td> 
-   <td> 최대 X%의 오류 무시: 아직 고려되지 않은 분개의 비율이 이 값에 도달하지 않는 한 추적 지표를 업데이트하지 마십시오. <br /> </td> 
+   <td> 오류 무시 퍼센트<br /> </td> 
+   <td> 최대 오류 X% 무시: 아직 고려되지 않은 분개의 비율이 이 값에 도달하지 않는 한 추적 지표를 업데이트하지 마십시오. <br /> </td> 
    <td> 바이트<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> errorIgnorePeriod<br /> </td> 
-   <td> 오류 표시기 업데이트: 오류 표시기를 다시 계산하기 전의 최대 기간입니다.<br /> </td> 
+   <td> 오류 지표 업데이트: 오류 지표가 다시 계산되기 전 최대 기간.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> indicatorsDuration<br /> </td> 
-   <td> 다음 작업 중 표시기 계산: 통합 표시기가 더 이상 계산되지 않는 게재 유효 일자 이후의 기간<br /> </td> 
+   <td> 다음 기간 동안 지표 계산: 게재 유효일자 이후 통합 지표가 더 이상 계산되지 않는 기간.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 2592000<br /> </td> 
   </tr> 
@@ -2665,31 +2665,31 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 지정된 프로세스에서 소비한 RAM의 양(MB)에 대한 경고입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 주어진 프로세스에서 소비한 RAM의 양(MB)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
-   <td> phisbowelServiceAPIKey<br /> </td> 
-   <td> Phisbowel Service Endpoint Integration에 대한 API 키. 따라서 이전 빌드에서 생성된 잘못된 형식의 URL의 리디렉션이 보호됩니다. <br /> </td> 
+   <td> phishbowlServiceAPIKey<br /> </td> 
+   <td> Phishbowl 서비스 엔드포인트 통합에 대한 API 키입니다. 이렇게 하면 이전 빌드에서 생성된 잘못된 URL의 리디렉션을 보호합니다. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> phisbowelServiceEndpoint<br /> </td> 
-   <td> Phisbowel Service Endpoint Integration에 대한 끝점입니다. 따라서 이전 빌드에서 생성된 잘못된 형식의 URL의 리디렉션이 보호됩니다.<br /> </td> 
+   <td> phishbowlServiceEndpoint<br /> </td> 
+   <td> Phishbowl 서비스 엔드포인트 통합에 대한 엔드포인트입니다. 이렇게 하면 이전 빌드에서 생성된 잘못된 URL의 리디렉션을 보호합니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 다음을 참조하십시오 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 재시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2701,18 +2701,18 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> trackingIgnorePercent<br /> </td> 
-   <td> 최대 X% 추적 무시: 아직 고려되지 않은 분개의 비율이 이 값에 도달하지 않는 한 추적 지표를 업데이트하지 마십시오.<br /> </td> 
+   <td> 최대 추적 X% 무시: 아직 고려되지 않은 분개의 비율이 이 값에 도달하지 않는 한 추적 지표를 업데이트하지 마십시오.<br /> </td> 
    <td> 바이트<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> trackingIgnorePeriod<br /> </td> 
-   <td> 추적 표시기 업데이트: 추적 지표를 다시 계산하기 전의 최대 기간입니다.<br /> </td> 
+   <td> 추적 지표 업데이트: 추적 지표가 다시 계산되기 전의 최대 기간.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
   <tr> 
-   <td> userAgentCacheSize<br /> </td> 
+   <td> 사용자 에이전트 캐시 크기<br /> </td> 
    <td> 브라우저 식별자 캐시의 크기입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 500<br /> </td> 
@@ -2722,7 +2722,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ## trackinglogd {#trackinglogd}
 
-다음은 의 다양한 매개 변수입니다 **trackinglogd** 노드 아래에 있어야 합니다. 추적 로그 쓰기 데몬의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **trackinglogd** 노드. 추적 로그 기록 데몬의 구성입니다.
 
 <table> 
  <thead> 
@@ -2735,7 +2735,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> args<br /> </td> 
+   <td> 인수<br /> </td> 
    <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
@@ -2754,43 +2754,43 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxCreateFileRetry<br /> </td> 
-   <td> 최대 쓰기 다시 시도: 로그 파일에서 쓰기 오류가 발생할 경우 만들 수 있는 최대 파일 수입니다.<br /> </td> 
+   <td> 최대 쓰기 재시도 수: 로그 파일에 쓰기 실패가 발생한 경우 만들 수 있는 최대 파일 수입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> maxLogsSizeOnDiskMb<br /> </td> 
-   <td> 최대 로그 크기: 디스크에서 로그에 사용되는 최대 공간(MB)입니다. 100MB 이하일 수 있습니다. <br /> </td> 
+   <td> 최대 로그 크기: 디스크의 로그에서 사용되는 최대 공간(MB). 100MB 이상일 수 있습니다. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> 500<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 지정된 프로세스에서 소비한 RAM의 양(MB)에 대한 경고입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 주어진 프로세스에서 소비한 RAM의 양(MB)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSharedLogs<br /> </td> 
-   <td> 최대 로그 수: 공유 메모리에 저장된 최대 로그 수입니다. 10000 이상이어야 합니다. <br /> </td> 
+   <td> 최대 로그 수: 공유 메모리에 저장된 최대 로그 수입니다. 10000보다 작을 수 없습니다. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> 25000<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 다음을 참조하십시오 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 재시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> purgeLogsPeriod<br /> </td> 
-   <td> 제거 전 로그 수: 로그 파일 제거를 시작하기 전에 삽입된 로그 수입니다. 50000 이하일 수 없습니다.<br /> </td> 
+   <td> 제거 전 로그 수: 로그 파일 제거를 시작하기 전에 삽입된 로그 수입니다. 50000보다 작을 수 없습니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 50000<br /> </td> 
   </tr> 
@@ -2801,7 +2801,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
-   <td> webTrackingParamSize<br /> </td> 
+   <td> webTrackingParamsize<br /> </td> 
    <td> 추가 웹 추적 매개변수를 위해 공유 메모리에 저장되는 최대 문자 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 64<br /> </td> 
@@ -2811,9 +2811,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ## 웹 {#web}
 
-다음은 의 다양한 매개 변수입니다 **웹** 노드 아래에 있어야 합니다. 웹 모듈의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **웹** 노드. 웹 모듈의 구성입니다.
 
-자세한 내용은 다음을 참조하십시오 [섹션](configuring-campaign-server.md#default-port-for-tomcat).
+자세한 내용은 다음을 참조하십시오. [섹션](configuring-campaign-server.md#default-port-for-tomcat).
 
 <table> 
  <thead> 
@@ -2832,19 +2832,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> MaxThreads<br /> </td> 
+   <td> 최대 스레드 수<br /> </td> 
    <td> 최대 스레드 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 75<br /> </td> 
   </tr> 
   <tr> 
-   <td> MinSpareThreads<br /> </td> 
+   <td> 최소 스페어 스레드<br /> </td> 
    <td> 최소 스레드 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
-   <td> args<br /> </td> 
+   <td> 인수<br /> </td> 
    <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
@@ -2857,13 +2857,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> controlPort<br /> </td> 
-   <td> Tomcat 수신 제어 포트: 참조 <a href="configure-tomcat.md" target="_blank">Tomcat 구성</a>.<br /> </td> 
+   <td> Tomcat 수신 제어 포트: 을 참조하십시오. <a href="configure-tomcat.md" target="_blank">Tomcat 구성</a>.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 8005<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
-   <td> Tomcat HTTP 수신 대기 포트: 참조 <a href="configure-tomcat.md" target="_blank">Tomcat 구성</a>.<br /> </td> 
+   <td> Tomcat HTTP 수신 포트: 다음을 참조하십시오. <a href="configure-tomcat.md" target="_blank">Tomcat 구성</a>.<br /> </td> 
    <td> 짧음<br /> </td> 
    <td> 8080<br /> </td> 
   </tr> 
@@ -2875,31 +2875,31 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxDeliveryQueueSize<br /> </td> 
-   <td> SubmitDelivery 호출에 대한 큐 크기: 큐에 추가할 수 있는 최대 SubmitDelivery SOAP 호출 수입니다.<br /> </td> 
+   <td> SubmitDelivery 호출에 대한 대기열 크기: 대기열에 추가할 수 있는 최대 SubmitDelivery SOAP 호출 수.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 50<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 지정된 프로세스에서 소비한 RAM의 양(MB)에 대한 경고입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고<br /> </td> 
+   <td> 메모리 소모 경고: 주어진 프로세스에서 소비한 RAM의 양(MB)에 대한 경고<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
-   <td> 알림 릴레이: HostName:알림 릴레이를 활성화하는 포트입니다.<br /> </td> 
+   <td> 알림 릴레이: 알림의 릴레이를 활성화하는 HostName:Port.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 다음을 참조하십시오 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 재시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2920,7 +2920,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ### jsp {#jsp}
 
-다음은 의 다양한 매개 변수입니다 **웹 > jsp** 노드 아래에 있어야 합니다. JSP에서 사용하는 매개 변수의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **웹 > jsp** 노드. JSP에서 사용하는 매개변수의 구성입니다.
 
 <table> 
  <thead> 
@@ -2940,18 +2940,18 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> downloadPath<br /> </td> 
-   <td> 다운로드 폴더: 클라이언트 콘솔용 설치 프로그램의 다운로드 경로입니다.<br /> </td> 
+   <td> 다운로드 폴더: 클라이언트 콘솔용 설치 프로그램의 다운로드 경로.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/datakit/nl/eng/jsp'<br /> </td> 
   </tr> 
   <tr> 
-   <td> foFileName<br /> </td> 
+   <td> fo파일 이름<br /> </td> 
    <td> .fo 파일 경로.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> soapRouter<br /> </td> 
+   <td> soap라우터<br /> </td> 
    <td> SOAP 라우터의 URL(http://myserver/xxx, http://jni 또는 mailto:xxx).<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'http://jni'<br /> </td> 
@@ -2959,7 +2959,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-다음 **웹 > jsp > 클래스 경로** 노드에는 JVM을 시작할 때 사용할 모든 클래스 경로 목록이 들어 있습니다. 다음은 기본 구성입니다.
+다음 **웹 > jsp > 클래스 경로** 노드에는 JVM을 시작할 때 사용할 모든 클래스 경로 목록이 포함되어 있습니다. 기본 구성은 다음과 같습니다.
 
 ```
 '$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar
@@ -2999,7 +2999,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ### jssp {#jssp}
 
-다음은 의 다양한 매개 변수입니다 **웹 > jssp** 노드 아래에 있어야 합니다. JSSP에서 사용하는 매개 변수의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **웹 > jssp** 노드. JSSP에서 사용하는 매개 변수의 구성입니다.
 
 <table> 
  <thead> 
@@ -3012,7 +3012,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> collectionsGarbageAfterRequest<br /> </td> 
+   <td> collectsGarbageAfterRequest<br /> </td> 
    <td> 각 쿼리 후에 JavaScript 컨텍스트의 가비지 수집기를 활성화합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> true<br /> </td> 
@@ -3026,13 +3026,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-다음 **웹 > jsp > 클래스 경로** 노드에는 JVM을 시작할 때 사용할 모든 클래스 경로 목록이 들어 있습니다.
+다음 **웹 > jsp > 클래스 경로** 노드에는 JVM을 시작할 때 사용할 모든 클래스 경로 목록이 포함되어 있습니다.
 
 ### 릴레이 {#relay-2}
 
-다음은 의 다양한 매개 변수입니다 **웹 > 릴레이** 노드 아래에 있어야 합니다. 두 영역 간의 HTTP 요청에 대한 릴레이의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **웹 > 릴레이** 노드. 두 영역 간의 HTTP 요청에 대한 릴레이의 구성입니다.
 
-자세한 내용은 다음을 참조하십시오 [섹션](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
+자세한 내용은 다음을 참조하십시오. [섹션](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
 <table> 
  <thead> 
@@ -3046,25 +3046,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> debugRelay<br /> </td> 
-   <td> 디버그 모드에서 웹 서버 내에서 HTTP 릴레이 모듈을 시작합니다.<br /> </td> 
+   <td> 디버그 모드의 웹 서버 내에서 HTTP 릴레이 모듈을 시작합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> ForbiddenCharsInAuthority<br /> </td> 
-   <td> 금지된 문자(도메인): URI의 'authority' 섹션에 금지된 문자 목록<br /> </td> 
+   <td> forbiddenCharsInAuthority<br /> </td> 
+   <td> 금지된 문자(도메인): URI의 '기관' 섹션에서 금지된 문자 목록입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '.?#@/:' <br /> </td> 
   </tr> 
   <tr> 
    <td> forbiddenCharsInPath<br /> </td> 
-   <td> 금지된 문자(경로): URI의 'path' 섹션에 있는 금지된 문자 목록입니다.<br /> </td> 
+   <td> 금지된 문자(경로): URI의 '경로' 섹션에서 금지된 문자 목록입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '?#/'<br /> </td> 
   </tr> 
   <tr> 
    <td> modDir<br /> </td> 
-   <td> 'mod_dir' 모듈 옵션 값: 폴더의 쿼리 중에 사용할 파일 목록입니다.<br /> </td> 
+   <td> 'mod_dir' 모듈 옵션의 값: 폴더에서 쿼리 시 사용할 파일 목록입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'index.md' <br /> </td> 
   </tr> 
@@ -3089,9 +3089,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-추가 **web > relay > url** 다음 매개 변수를 사용하여 릴레이할 각 URL의 노드(삽입 순서 정의 우선 순위)입니다.
+추가 **웹 > 릴레이 > url** 릴레이할 각 URL의 노드(삽입 순서는 우선순위를 정의함).
 
-자세한 내용은 [동적 페이지 보안 및 릴레이](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) 및 [섹션](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
+자세한 내용은 다음을 참조하십시오. [다이내믹 페이지 보안 및 릴레이](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) 및 [섹션](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
 <table> 
  <thead> 
@@ -3105,7 +3105,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> IPMask<br /> </td> 
-   <td> 공인 IP: 이 마스크에 릴레이를 사용할 수 있는 원본 IP 주소의 쉼표로 구분된 목록입니다.<br /> </td> 
+   <td> 승인된 IP: 이 마스크에 대해 릴레이를 사용할 수 있도록 허용된 소스 IP 주소를 쉼표로 구분한 목록입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3117,33 +3117,33 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> hostMask<br /> </td> 
-   <td> 릴레이할 DNS 별칭: 중계할 DNS 별칭 마스크의 쉼표로 구분된 목록(예: '*.adobe.com').<br /> </td> 
+   <td> 릴레이할 DNS 앨리어스: 릴레이할 DNS 앨리어스 마스크를 쉼표로 구분한 목록(예: '*.adobe.com').<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> httpAllowed<br /> </td> 
-   <td> 보안 영역(예: webApps)에 상관없이 HTTP 액세스가 승인되었습니다. <br /> </td> 
+   <td> httpAllow<br /> </td> 
+   <td> 보안 영역(예: webApps)에 관계없이 인증된 HTTP 액세스. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> relayHost<br /> </td> 
-   <td> 원래 호스트 추가: 릴레이할 때 원본 요청의 HTTP '호스트' 헤더를 사용하십시오.<br /> </td> 
+   <td> 릴레이 호스트<br /> </td> 
+   <td> 원래 호스트 추가: 릴레이할 때 원래 요청의 HTTP '호스트' 헤더를 사용합니다.<br /> </td> 
    <td> 부울<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> relayPath<br /> </td> 
-   <td> 초기 URL 경로 추가: url의 전체 경로를 추가하여 대상 페이지의 URL에 전달합니다. <br /> </td> 
+   <td> 릴레이 경로<br /> </td> 
+   <td> 초기 URL 경로 추가: 대상 페이지의 URL로 릴레이할 URL의 전체 경로를 추가합니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> 상태<br /> </td> 
-   <td> 공용 리소스의 동기화 상태(열거형). 가능한 값은 'normal'(일반 실행), '블랙리스트'(오류 404차단 목록의 경우 url이에 추가됨) 및 'spare'(있는 경우 예비 서버에서 파일 업로드)입니다.<br /> </td> 
+   <td> 공개 리소스의 동기화 상태(열거)입니다. 가능한 값은 '일반'(일반 실행), '블랙리스트'(오류 404의 경우 url이 차단 목록에 추가됨) 및 '예비'(존재하는 경우 예비 서버에 파일 업로드)입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
-   <td> 정상<br /> </td> 
+   <td> 표준<br /> </td> 
   </tr> 
   <tr> 
    <td> targetUrl<br /> </td> 
@@ -3153,7 +3153,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> 시간 제한<br /> </td> 
-   <td> 중계되는 요청의 최대 실행 시간(초)입니다.<br /> </td> 
+   <td> 릴레이 중인 요청의 최대 실행 시간(초)입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3166,7 +3166,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-다음은 기본 구성입니다.
+기본 구성은 다음과 같습니다.
 
 ```
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true"
@@ -3231,9 +3231,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
      timeout="" status="spare" httpAllowed="true" urlPath="/*.jpg"/>
 ```
 
-추가 **web > relay > responseHeader** 각 HTTP 헤더에서 릴레이에 전달된 응답에 추가할 노드입니다.
+추가 **웹 > 릴레이 > responseHeader** 릴레이로 전달되는 응답에 추가할 각 HTTP 헤더에 대한 노드.
 
-자세한 내용은 [HTTP 헤더 관리](../../installation/using/configuring-campaign-server.md#managing-http-headers).
+자세한 내용은 다음을 참조하십시오. [HTTP 헤더 관리](../../installation/using/configuring-campaign-server.md#managing-http-headers).
 
 <table> 
  <thead> 
@@ -3257,7 +3257,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-다음은 기본 구성입니다.
+기본 구성은 다음과 같습니다.
 
 ```
 <responseHeader name="X-XSS-Protection" value="1; mode=block"/>
@@ -3265,9 +3265,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ### 리디렉션 {#redirection}
 
-다음은 의 다양한 매개 변수입니다 **웹 > 리디렉션** 노드 아래에 있어야 합니다. 이것은 리디렉션 모듈의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **웹 > 리디렉션** 노드. 리디렉션 모듈의 구성입니다.
 
-자세한 내용은 다음을 참조하십시오 [섹션](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
+자세한 내용은 다음을 참조하십시오. [섹션](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
 <table> 
  <thead> 
@@ -3281,7 +3281,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> 조직 ID: 방문자 ID 서비스 및 IMS SSO에 특별히 사용되는 Adobe Experience Cloud 내의 고유 조직 식별자입니다. <br /> </td> 
+   <td> 조직 ID: 특히 VisitorID 서비스 및 IMS SSO에 사용되는 Adobe Experience Cloud 내의 고유 조직 식별자입니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3289,7 +3289,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> P3PCompactPolicy<br /> </td> 
    <td> 영구 쿠키에 사용되는 정책을 설명하는 값(P3P 압축 정책 형식 준수). <br /> </td> 
    <td> 문자열<br /> </td> 
-   <td> 'CAO DSP COR CUR A DEVa OUR BUS IND UNI COM NAV'<br /> </td> 
+   <td> 'CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV'<br /> </td> 
   </tr> 
   <tr> 
    <td> cookieDomain<br /> </td> 
@@ -3310,20 +3310,20 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 30<br /> </td> 
   </tr> 
   <tr> 
-   <td> expirationURL<br /> </td> 
-   <td> 만료된 리디렉션 페이지: 배달 작업에 대한 리디렉션이 만료되었을 때 리디렉션 서버에서 기본적으로 사용하는 웹 페이지의 URL입니다.<br /> </td> 
+   <td> 만료 URL<br /> </td> 
+   <td> 만료된 리디렉션용 페이지: 게재 작업의 리디렉션이 만료된 경우 리디렉션 서버에서 기본적으로 사용하는 웹 페이지의 URL입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> maxJobsInCache<br /> </td> 
-   <td> 최대 작업 수: 캐시의 최대 배달 작업 수입니다. 50보다 작을 수 없습니다. <br /> </td> 
+   <td> 최대 작업 수: 캐시의 최대 게재 작업 수. 50보다 작을 수 없습니다. <br /> </td> 
    <td> 길게<br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> showSourceIP<br /> </td> 
-   <td> false로 설정하면 r/test에서 반환한 응답의 sourceIP 값이 빈 문자열입니다. <br /> </td> 
+   <td> false로 설정된 경우 r/test에서 반환된 응답의 sourceIP 값은 빈 문자열입니다. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
@@ -3340,8 +3340,8 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> true<br /> </td> 
   </tr> 
   <tr> 
-   <td> trackWebVisitors<br /> </td> 
-   <td> 웹 추적: 알 수 없는 사용자가 방문한 페이지에 대한 로그 만들기 <br /> </td> 
+   <td> trackWebVisitor<br /> </td> 
+   <td> 웹 추적: 알 수 없는 사용자가 방문한 페이지에 대한 로그 생성. <br /> </td> 
    <td> 부울<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -3354,9 +3354,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-다음은 의 다양한 매개 변수입니다 **웹 > 리디렉션 > spareServer** 노드 아래에 있어야 합니다.
+다음은 의 다양한 매개 변수입니다. **웹 > 리디렉션 > 스페어 서버** 노드.
 
-자세한 내용은 [중복 추적](../../installation/using/configuring-campaign-server.md#redundant-tracking).
+자세한 내용은 다음을 참조하십시오. [중복 추적](../../installation/using/configuring-campaign-server.md#redundant-tracking).
 
 <table> 
  <thead> 
@@ -3370,7 +3370,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> enabledIf<br /> </td> 
-   <td> 다음과 같은 경우 고려합니다. 표현식이 true를 반환하는 경우 추적 서버가 고려됩니다. <br /> </td> 
+   <td> 가정: 표현식이 true를 반환하는 경우 추적 서버를 고려합니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3389,11 +3389,11 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-### spamCheck {#spamcheck}
+### 스팸 확인 {#spamcheck}
 
-다음은 의 다양한 매개 변수입니다 **web > spamCheck** 노드 아래에 있어야 합니다. 이메일 스팸 방지 점수 평가 매개 변수의 구성입니다.
+다음은 의 다양한 매개 변수입니다. **웹 > spamCheck** 노드. 이메일 스팸 방지 점수 평가 매개 변수를 구성하는 것입니다.
 
-자세한 내용은 [SpamAssassin 구성](../../installation/using/configuring-spamassassin.md).
+자세한 내용은 다음을 참조하십시오. [SpamAssassin 구성](../../installation/using/configuring-spamassassin.md).
 
 <table> 
  <thead> 
@@ -3414,9 +3414,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ## wfserver {#wfserver}
 
-다음은 의 다양한 매개 변수입니다 **wfserver** 노드 아래에 있어야 합니다. 워크플로우 프로세스 구성입니다.
+다음은 의 다양한 매개 변수입니다. **wfserver** 노드. 워크플로우 프로세스 구성입니다.
 
-자세한 내용은 [고가용성 워크플로우 및 관심](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
+자세한 내용은 다음을 참조하십시오. [고가용성 워크플로 및 관심도](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
 
 <table> 
  <thead> 
@@ -3429,13 +3429,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> 친화성<br /> </td> 
+   <td> 선호도<br /> </td> 
    <td> 선호도<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> args<br /> </td> 
+   <td> 인수<br /> </td> 
    <td> 시작 매개변수<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
@@ -3447,7 +3447,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> dataBasePoolPeriodSec<br /> </td> 
+   <td> 데이터 베이스 풀 기간<br /> </td> 
    <td> 기간<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 20<br /> </td> 
@@ -3460,25 +3460,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> 메모리 사용량 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 지정된 프로세스에서 소비한 RAM의 양(MB)에 대한 경고입니다.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
-   <td> 메모리 사용 경고: 지정된 프로세스에 사용된 RAM 양(Mb)에 대한 경고.<br /> </td> 
+   <td> 메모리 소모 경고: 주어진 프로세스에서 소비한 RAM의 양(MB)에 대한 경고.<br /> </td> 
    <td> 길게<br /> </td> 
    <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
-   <td> 알림 릴레이: HostName:알림 릴레이를 활성화하는 포트입니다.<br /> </td> 
+   <td> 알림 릴레이: 알림의 릴레이를 활성화하는 HostName:Port.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> 프로세스가 자동으로 다시 시작되는 시간. 자세한 내용은 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 다시 시작</a>.<br /> </td> 
+   <td> 프로세스가 자동으로 다시 시작되는 시간. 다음을 참조하십시오 <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">자동 프로세스 재시작</a>.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 

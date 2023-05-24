@@ -6,7 +6,7 @@ exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -14,17 +14,17 @@ ht-degree: 1%
 
 ![](../../../assets/v7-only.svg)
 
-## 컨텐츠 모델 {#content-model-7}
+## 콘텐츠 모델 {#content-model-7}
 
 join:==EMPTY
 
 ## 속성 {#attributes-7}
 
-* @dstFilterExpr (string)
-* @xpath-dst (string)
-* @xpath-src (string)
+* @dstFilterExpr(문자열)
+* @xpath-dst(문자열)
+* @xpath-src(문자열)
 
-## 부모 {#parents-7}
+## 상위 {#parents-7}
 
 `<element>`
 
@@ -38,29 +38,29 @@ SQL 테이블 간에 조인을 만드는 필드를 정의할 수 있습니다.
 
 ## 사용 및 사용 컨텍스트 {#use-and-context-of-use-5}
 
-A `<join>`  요소는 상위 요소에만 사용할 수 있습니다  `<element>`  요소가 &#39;link&#39; 유형입니다. 즉, 상위 요소에는 &quot;@type=link&quot; 속성이 선언되어야 합니다.
+A `<join>`  요소는 상위 항목에만 사용할 수 있습니다.  `<element>`  요소가 &#39;link&#39; 유형입니다. 즉, 상위 요소에는 &quot;@type=link&quot; 특성이 선언되어 있어야 합니다.
 
-원격 테이블의 이름과 네임스페이스를 `<join>`  요소를 생성하지 않습니다. 상위 항목에서 지정해야 합니다  `<element>`.
+에서 원격 테이블의 이름과 네임스페이스를 지정할 필요는 없습니다 `<join>`  요소를 생성하지 않습니다. 상위 항목에 지정해야 합니다.  `<element>`.
 
-규칙에 따라 링크는 스키마 끝에 정의됩니다.
+규칙에 따라 스키마의 끝에 링크가 정의됩니다.
 
-만약 `<join>` 링크 유형 요소가 정의될 때 요소가 지정되지 않으면 링크가 두 테이블의 기본 키에 자동으로 배치됩니다.
+다음과 같은 경우 `<join>` link type 요소를 정의할 때 요소를 지정하지 않으면 두 테이블의 기본 키에 링크가 자동으로 배치됩니다.
 
 ## 속성 설명 {#attribute-description-7}
 
-* **dstFilterExpr(문자열)**: 이 속성을 사용하면 원격 테이블에서 적합한 값의 수를 제한할 수 있습니다.
-* **xpath-dst(문자열)**: 이 속성은 Xpath(원격 테이블의 @name 특성)를 수신합니다.
-* **xpath-src (문자열)**: 이 속성은 Xpath(현재 스키마의 @name 특성)를 수신합니다.
+* **dstFilterExpr (문자열)**: 이 속성을 사용하면 원격 테이블의 적격 값 수를 제한할 수 있습니다.
+* **xpath-dst (문자열)**: 이 속성은 Xpath(원격 테이블의 @name 속성)를 수신합니다.
+* **xpath-src (문자열)**: 이 속성은 Xpath(현재 스키마의 @name 속성)를 수신합니다.
 
 ## 예제 {#examples-6}
 
-현재 테이블의 &#39;전자 메일&#39; 필드와 원격 테이블의 &quot;@compagny-id&quot; 필드 사이에 연결:
+현재 테이블의 &quot;이메일&quot; 필드와 원격 테이블의 &quot;@compagny-id&quot; 필드 간 링크:
 
 ```
 <join xpath-dst="@compagny-id" xpath-src="@email"/>
 ```
 
-&#39;EN&#39; 값을 포함해야 하는 &quot;@country&quot; 필드의 컨텐츠를 기반으로 &quot;cus:Country&quot; 테이블을 향해 필터링된 링크:
+&#39;EN&#39; 값을 포함해야 하는 &quot;@country&quot; 필드의 콘텐츠를 기반으로 &quot;cus:Country&quot; 테이블로 필터링된 링크:
 
 ```
 <element name="StockEN" type="link" label="MyLink" target="cus:Stock">

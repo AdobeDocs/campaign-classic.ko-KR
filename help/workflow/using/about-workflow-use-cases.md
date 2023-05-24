@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 워크플로우 사용 사례 기본 정보
-description: Campaign Classic 워크플로우를 사용하여 수행할 수 있는 사용 사례에 대해 자세히 알아보십시오
+description: Campaign Classic 워크플로우를 사용하여 수행할 수 있는 사용 사례에 대해 자세히 알아보기
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
@@ -16,9 +16,9 @@ ht-degree: 67%
 
 
 
-이 섹션에서는 Campaign 워크플로우 기능을 활용하는 다양한 사용 사례를 찾을 수 있습니다.
+이 섹션에서는 Campaign 워크플로우 기능을 활용하는 다양한 사용 사례를 살펴볼 수 있습니다.
 
-워크플로우를 사용하고 요구 사항에 대응할 수 있는 다양한 컨텍스트를 발견하는 데 도움이 됩니다.
+이를 통해 워크플로우를 사용할 수 있는 다양한 컨텍스트를 찾고 요구에 응답할 수 있습니다.
 
 ## 게재 {#deliveries}
 

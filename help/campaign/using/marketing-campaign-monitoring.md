@@ -16,40 +16,40 @@ ht-degree: 2%
 
 ## 캠페인 추적 {#tracking-a-campaign}
 
-각 캠페인에 대해 **[!UICONTROL Tracking]** 탭에서는 모든 작업 및 해당 상태를 볼 수 있습니다. 이 하위 탭을 통해 다음 정보에 액세스할 수 있습니다.
+각 캠페인에 대해 **[!UICONTROL Tracking]** 탭에서는 모든 작업과 해당 상태를 볼 수 있습니다. 이 하위 탭을 통해 다음 정보에 액세스할 수 있습니다.
 
-* 활동 저널은 일반적으로 캠페인에서 수행된 작업을 보여줍니다. 워크플로우 만들기 또는 시작, 승인, 추출 등
+* 활동 저널에는 일반적으로 캠페인 시 수행되는 작업(워크플로우 만들기 또는 시작, 승인, 추출 등)이 표시됩니다.
 
    ![](assets/s_ncs_user_op_edit_exe_tab_a.png)
 
-* 다음 **[!UICONTROL Deliveries]** 하위 탭에는 이 보기에서 편집할 수 있는 캠페인의 모든 게재가 포함되어 있습니다. 이렇게 하려면 게재를 선택하고 을(를) 클릭합니다. **[!UICONTROL Detail]** 아이콘.
+* 다음 **[!UICONTROL Deliveries]** 하위 탭에는 이 보기에서 편집할 수 있는 캠페인의 모든 게재가 포함되어 있습니다. 이렇게 하려면 게재를 선택하고 **[!UICONTROL Detail]** 아이콘.
 
    ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* 다음 **[!UICONTROL Tasks]** 하위 탭은 캠페인에 연결된 모든 작업을 그룹화합니다. 이 보기에서는 편집하거나 삭제할 수 있습니다. 작업은 MRM 애플리케이션에서 사용할 수 있습니다. 자세한 내용은 [이 섹션](../../mrm/using/creating-and-managing-tasks.md).
+* 다음 **[!UICONTROL Tasks]** 하위 탭은 캠페인에 연결된 모든 작업을 그룹화합니다. 이 보기를 사용하여 편집하거나 삭제할 수 있습니다. 작업은 MRM 애플리케이션에서 사용할 수 있습니다. 자세한 내용은 다음과 같습니다 [이 섹션](../../mrm/using/creating-and-managing-tasks.md).
 
    ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
-* 서비스 공급자에 대한 메시지를 생성하기 위해 만든 워크플로우는 **[!UICONTROL Jobs on service providers]** 하위 탭. 을(를) 클릭합니다. **[!UICONTROL Detail]** 아이콘을 클릭하여 선택한 워크플로우를 표시합니다.
+* 서비스 공급자에 대한 메시지를 생성하기 위해 만든 워크플로는에 표시됩니다. **[!UICONTROL Jobs on service providers]** 하위 탭. 다음을 클릭합니다. **[!UICONTROL Detail]** 아이콘 - 선택한 워크플로우를 표시합니다.
 
    ![](assets/s_ncs_user_op_edit_exe_tab_d.png)
 
 ## 게재 추적 {#delivery-tracking}
 
-게재 목록은 를 통해 사용할 수 있습니다 **[!UICONTROL Deliveries]** 캠페인 노드의 링크를 클릭합니다.
+게재 목록은 다음을 통해 사용할 수 있습니다. **[!UICONTROL Deliveries]** Campaign 노드의 링크.
 
 ![](assets/s_ncs_user_op_del_state_from_homepage.png)
 
-각 게재에 대해 이 목록을 사용하여 주요 지표에 액세스할 수 있습니다. 상태, 타겟팅된 수신자, 연결된 캠페인 등
+각 게재에 대해 상태, 타겟팅된 수신자 수, 연결된 캠페인 등의 주요 지표에 액세스할 수 있습니다.
 
-게재 상태를 확인하려면 게재 상태를 편집하고 해당 대시보드 및 탭을 확인합니다.
+게재 상태를 확인하려면 게재를 편집하고 해당 대시보드와 탭을 확인합니다.
 
 >[!NOTE]
 >
->게재 세부 사항에 대한 정보는 [이 섹션](../../delivery/using/about-message-tracking.md) 섹션을 참조하십시오.
+>게재 세부 사항에 관한 정보는 다음 위치에서 확인할 수 있습니다. [이 섹션](../../delivery/using/about-message-tracking.md) 섹션.
 
 ## 실행 추적 {#execution-tracking}
 
-을(를) 클릭하여 게재 상태를 조회할 수 있습니다 **[!UICONTROL Deliveries]**: Adobe Campaign 홈 페이지를 통해 액세스할 수 있습니다. 자세한 내용은 [게재 추적](#delivery-tracking).
+다음을 클릭하여 게재 상태를 조회할 수 있습니다. **[!UICONTROL Deliveries]**: Adobe Campaign 홈 페이지를 통해 액세스할 수 있습니다. 다음을 참조하십시오 [게재 추적](#delivery-tracking).
 
-캠페인에서 실행된 프로세스에 대한 정보는 **[!UICONTROL Edit > Audit]** 캠페인 탭을 클릭합니다. 여기에서 캠페인에서 게재 목록을 볼 수 있습니다. [자세히 알아보기](#tracking-a-campaign)
+캠페인에서 실행되는 프로세스에 대한 정보는 **[!UICONTROL Edit > Audit]** 캠페인의 탭. 여기에서 캠페인의 게재 목록을 볼 수 있습니다. [자세히 알아보기](#tracking-a-campaign)

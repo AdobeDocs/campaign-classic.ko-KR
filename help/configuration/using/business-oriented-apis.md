@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # 비즈니스 지향 API{#business-oriented-apis}
 
-비즈니스 API는 각 개체 유형별로 다릅니다. 이 변수는 다음과 같은 효과를 갖습니다.
+비즈니스 API는 각 오브젝트 유형에 따라 다릅니다. 이 변수는 다음에 영향을 줍니다.
 
 * 게재:
 
-   * 게재 작업 만들기는 다음을 참조하십시오 [SubmitDelivery(nms:delivery)](#submitdelivery--nms-delivery-),
+   * 게재 작업 만들기는 다음을 참조하십시오. [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
    * 캠페인 보내기(시작, 일시 중지, 중지, 증명 보내기),
    * 게재 로그를 복구하는 중입니다.
 
@@ -27,17 +27,17 @@ ht-degree: 3%
    * 워크플로우 시작,
    * 프로세스 확인 등
 
-      을(를) 참조하십시오. [JavaScript의 SOAP 메서드](../../configuration/using/soap-methods-in-javascript.md).
+      을(를) 참조하십시오 [JavaScript의 SOAP 메서드](../../configuration/using/soap-methods-in-javascript.md).
 
 * 콘텐츠 관리
-* 구독 관리 [구독(nms:subscription)](#subscribe--nms-subscription-) 및 [구독 취소(nms:subscription)](#unsubscribe--nms-subscription-).
+* 구독 관리, 다음을 참조하십시오. [구독(nms:subscription)](#subscribe--nms-subscription-) 및 [구독 취소(nms:subscription)](#unsubscribe--nms-subscription-).
 * 데이터 프로세스: 가져오기, 내보내기.
 
-이 섹션에서는 &quot;구독&quot;, &quot;구독 취소&quot; 및 &quot;SubmitDelivery&quot; 서비스의 사용에 대해 자세히 설명합니다.
+이 섹션에서는 &quot;Subscribe&quot;, &quot;Unsubscribe&quot; 및 &quot;SubmitDelivery&quot; 서비스 사용에 대해 자세히 설명합니다.
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko) 는 Adobe Campaign에서 SOAP 호출 및 Javascript 사용에 대한 추가 정보와 애플리케이션에서 사용되는 모든 메서드 및 함수에 대한 전체 참조를 포함합니다.
+>[Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko) 에는 SOAP 호출 및 Adobe Campaign에서의 Javascript 사용에 대한 추가 정보와 애플리케이션에 사용되는 모든 메서드 및 함수에 대한 전체 참조가 포함되어 있습니다.
 
 ## 구독(nms:subscription) {#subscribe--nms-subscription-}
 
@@ -47,8 +47,8 @@ ht-degree: 3%
 
 * 인증,
 * 구독 서비스의 내부 이름,
-* 받는 사람 정보(&quot;nms:recipient&quot; 스키마에서)가 포함된 XML 문서
-* 수신자가 없는 경우 수신자를 만들 부울입니다.
+* 수신자 정보가 포함된 XML 문서(&quot;nms:recipient&quot; 스키마의)
+* 수신자 생성을 위한 부울이 아직 없는 경우 입니다.
 
 &quot;nms:subscription&quot; 스키마의 &quot;subscribe&quot; 메서드에 대한 설명:
 
@@ -62,25 +62,25 @@ ht-degree: 3%
 </method>
 ```
 
-조정 키의 정의는 _ 를 통해 입력해야 합니다.**key** 속성 `<recipient>` XML 문서의 요소 이 특성의 내용은 쉼표로 구분된 XPath 목록입니다.
+조정 키의 정의는 _를 통해 입력해야 합니다.**key** 속성 `<recipient>` xml 문서의 요소입니다. 이 속성의 콘텐츠는 쉼표로 구분된 XPath 목록입니다.
 
 이 호출은 오류를 제외하고 데이터를 반환하지 않습니다.
 
 ### 예제 {#examples}
 
-이메일 주소에서 수신자 조정 키가 있는 구독: 입력 XML 문서는 이 필드에 있는 전자 메일 주소와 키의 정의를 참조해야 합니다.
+전자 메일 주소에 수신자 조정 키가 있는 구독: 입력 XML 문서는 전자 메일 주소와 이 필드의 키 정의를 참조해야 합니다.
 
 ```
 <recipient _key="email" email= "john.doe@adobe.com"/>
 ```
 
-구독과 수신자를 업데이트합니다.
+수신자와 구독을 업데이트하는 중입니다.
 
 ```
 <recipient _key="email, [folder-id]" email= "john.doe@adobe.com" folder-id="1305" firstName="John" lastName="Doe"/>
 ```
 
-### SOAP 메시지 예 {#example-of-soap-messages}
+### SOAP 메시지의 예 {#example-of-soap-messages}
 
 * 쿼리:
 
@@ -119,10 +119,10 @@ ht-degree: 3%
 서비스를 호출하려면 다음 매개 변수가 필요합니다.
 
 * 인증,
-* 구독을 취소할 서비스의 내부 이름입니다.
-* 받는 사람 정보(&quot;nms:recipient&quot; 스키마에서)가 포함된 XML 문서
+* 구독을 취소할 서비스의 내부 이름,
+* 수신자 정보가 포함된 XML 문서(&quot;nms:recipient&quot; 스키마의)
 
-nms:subscription 스키마의 &quot;Subscription&quot; 메서드에 대한 설명:
+&quot;nms:subscription&quot; 스키마의 &quot;Unsubscribe&quot; 메서드에 대한 설명:
 
 ```
 <method name="Unsubscribe" static="true">
@@ -133,17 +133,17 @@ nms:subscription 스키마의 &quot;Subscription&quot; 메서드에 대한 설�
 </method>
 ```
 
-조정 키의 정의는 `<recipient>` XML 문서의 요소 이 특성의 내용은 쉼표로 구분된 XPath 목록입니다.
+조정 키의 정의는 의 _key 특성을 통해 입력해야 합니다. `<recipient>` xml 문서의 요소입니다. 이 속성의 콘텐츠는 쉼표로 구분된 XPath 목록입니다.
 
-수신자가 데이터베이스에 없거나 관련 정보 서비스를 구독하지 않은 경우 서비스는 작업을 수행하지 않고 오류를 생성하지 않습니다.
+수신자가 데이터베이스에 없거나 관련 정보 서비스에 가입하지 않은 경우 서비스는 아무 작업도 수행하지 않으며 오류를 생성하지 않습니다.
 
 >[!NOTE]
 >
->서비스 이름이 매개 변수로 지정되지 않은 경우 수신자가 자동으로(@blackList=&quot;1&quot;)차단 목록에 있게 됩니다.
+>서비스 이름이 매개 변수로 지정되지 않은 경우 recipient가 자동으로 차단 목록에 지정됩니다(@blackList=&quot;1&quot;).
 
 이 호출은 오류를 제외하고 데이터를 반환하지 않습니다.
 
-### SOAP 메시지 예 {#example-of-soap-messages-1}
+### SOAP 메시지의 예 {#example-of-soap-messages-1}
 
 쿼리:
 
@@ -173,19 +173,19 @@ nms:subscription 스키마의 &quot;Subscription&quot; 메서드에 대한 설�
 </SOAP-ENV:Envelope>
 ```
 
-## SubmitDelivery(nms:delivery) {#submitdelivery--nms-delivery-}
+## SubmitDelivery (nms:delivery) {#submitdelivery--nms-delivery-}
 
-이 서비스를 통해 게재 작업을 만들고 제출할 수 있습니다.
+이 서비스를 사용하면 게재 작업을 만들고 제출할 수 있습니다.
 
 서비스를 호출하려면 다음 매개 변수가 필요합니다.
 
 * 인증,
 * 게재 템플릿의 내부 이름,
-* 추가 배달 데이터가 포함된 선택적 XML 문서입니다.
+* 추가 게재 데이터가 포함된 선택적 XML 문서입니다.
 
-성능 문제가 발생할 수 있으므로 이 API를 볼륨에서 호출하면 안 됩니다.
+이 API는 성능 문제가 발생할 수 있으므로 볼륨에서 호출하면 안 됩니다.
 
-스키마에 있는 메서드에 대한 설명:
+스키마의 메서드에 대한 설명:
 
 ```
 <method name="SubmitDelivery" static="true">
@@ -196,15 +196,15 @@ nms:subscription 스키마의 &quot;Subscription&quot; 메서드에 대한 설�
 </method>
 ```
 
-게재 템플릿은 Adobe Campaign 클라이언트 콘솔에서 만들어야 합니다. 모든 게재에 공통되는 매개 변수(보낸 사람 주소 또는 메시지의 유효 기간)가 포함되어 있습니다.
+게재 템플릿은 Adobe Campaign 클라이언트 콘솔에서 만들어야 합니다. 여기에는 모든 게재(보낸 사람 주소 또는 메시지의 유효 기간)에 공통되는 매개 변수가 포함되어 있습니다.
 
-입력 XML 문서는 &quot;nms:delivery&quot; 스키마의 구조를 따르는 게재 템플릿 조각입니다. 게재 템플릿에서 정적으로 정의할 수 없는 모든 추가 데이터(예: 타겟으로 수신자 목록)가 포함됩니다.
+입력 XML 문서는 &quot;nms:delivery&quot; 스키마의 구조를 따르는 게재 템플릿 조각입니다. 게재 템플릿에서 정적으로 정의할 수 없는 모든 추가 데이터(예: 타겟팅할 수신자 목록)가 포함됩니다.
 
 이 호출은 오류를 제외하고 데이터를 반환하지 않습니다.
 
 ### XML 문서 예 {#xml-document-example}
 
-이 예는 외부 데이터 소스(이 경우 파일)의 사용자 지정 게재 템플릿을 기반으로 합니다. 구성은 게재 템플릿에서 완전히 설명되므로, 호출이 발생할 때 계속 전송되는 모든 것은 의 파일 컨텐츠입니다 `<externalsource>` 요소를 생성하지 않습니다.
+이 예제는 외부 데이터 소스(이 경우 파일)의 사용자 지정 게재 템플릿을 기반으로 합니다. 구성은 게재 템플릿에 완벽하게 설명되므로 호출이 발생할 때 전송되는 모든 항목은 의 파일 콘텐츠입니다. `<externalsource>` 요소를 생성하지 않습니다.
 
 ```
 <delivery>

@@ -18,13 +18,13 @@ ht-degree: 15%
 
 
 
-오퍼 제안 사항이 작성되면 프레젠테이션 내역을 볼 수 있습니다.
+오퍼 제안이 작성되면 프레젠테이션 기록을 볼 수 있습니다.
 
 >[!NOTE]
 >
->이 기능은 온라인으로 게재 관리자에게만 표시됩니다.
+>이 기능은 온라인으로만 볼 수 있으며 게재 관리자에게만 표시됩니다.
 
-* 오퍼 수준에서 **[!UICONTROL Edit]** 탭, **[!UICONTROL Propositions]**.
+* 오퍼 수준에서 **[!UICONTROL Edit]** 탭을 클릭하고 **[!UICONTROL Propositions]**.
 
    ![](assets/offer_followup_006.png)
 

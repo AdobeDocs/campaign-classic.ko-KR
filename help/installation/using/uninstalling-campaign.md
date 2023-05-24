@@ -20,7 +20,7 @@ ht-degree: 19%
 
 >[!CAUTION]
 >
->이러한 절차는 영구적으로 Adobe Campaign을 제거합니다. 모든 데이터가 손실됩니다.
+>이 절차들은 영구적으로 Adobe Campaign을 제거합니다. 모든 데이터가 손실됩니다.
 
 **RHEL:**
 
@@ -42,4 +42,4 @@ rm -rf /user/local/neolane
 
 **Windows:**
 
-다음을 참조하십시오 [페이지](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version). Campaign 설치 폴더를 제거하는 것을 잊지 마십시오.
+다음을 참조하십시오. [페이지](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version). Campaign 설치 폴더를 제거하는 것을 잊지 마십시오.

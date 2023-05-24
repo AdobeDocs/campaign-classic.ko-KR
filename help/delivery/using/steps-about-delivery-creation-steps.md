@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Adobe Campaign의 게재 만들기 단계 정보
-description: Adobe Campaign에서 주요 게재 만들기 단계를 알아봅니다
+title: Adobe Campaign의 게재 만들기 단계 기본 정보
+description: Adobe Campaign의 주요 게재 만들기 단계 살펴보기
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Channel Configuration
@@ -21,7 +21,7 @@ ht-degree: 14%
 
 1. **게재 만들기 및 식별**. [자세히 보기](steps-create-and-identify-the-delivery.md)
 
-1. **게재 콘텐츠 정의**. 게재 콘텐츠 정의는 각 채널에 따라 다릅니다. 자세한 내용은 전용 섹션을 참조하십시오.
+1. **게재 콘텐츠 정의**. 게재 콘텐츠 정의는 각 채널에 따라 다릅니다. 자세한 내용은 전용 섹션 을 참조하십시오.
 
    * [이메일 채널](defining-the-email-content.md)
    * [SMS 채널](sms-create.md#defining-the-sms-content)
@@ -32,8 +32,8 @@ ht-degree: 14%
 
 1. **게재 보내기**. [자세히 보기](steps-sending-the-delivery.md)
 
-1. **게재 모니터링** (추적, 격리, 보고서 등). 자세한 내용은 [게재 모니터링](about-delivery-monitoring.md) 및 [게재 추적](about-message-tracking.md) 섹션에 자세히 설명되어 있습니다.
+1. **게재 모니터링** (추적, 격리, 보고 등). 자세한 내용은 [게재 모니터링](about-delivery-monitoring.md) 및 [게재 추적](about-message-tracking.md) 섹션.
 
 >[!NOTE]
 >
->이 장에 설명된 단계는 외부 게재의 경우를 제외하고 모든 대상 수신자 및 해당 프로필이 데이터베이스에 저장된다고 가정합니다( 참조) [외부 수신자 선택](steps-defining-the-target-population.md#selecting-external-recipients)).
+>이 장에 설명된 단계는 외부 게재의 경우를 제외하고 모든 대상 수신자 및 해당 프로필이 데이터베이스에 저장되어 있다고 가정합니다(참조) [외부 수신자 선택](steps-defining-the-target-population.md#selecting-external-recipients)).

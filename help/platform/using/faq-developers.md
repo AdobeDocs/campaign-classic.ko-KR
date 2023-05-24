@@ -40,7 +40,7 @@ Adobe Campaign에서 데이터 스키마는 다음 용도로 사용됩니다.
 
 ## 사용자 지정 수신자 테이블을 사용하는 방법  {#how-to-use-a-custom-recipient-table-}
 
-Campaign에서 빌드되지 않은 수신자 테이블을 만들고 구현하여 메시지를 보낼 수 있습니다.
+Campaign에서 기본 제공 수신자 테이블을 만들고 구현하여 메시지를 보낼 수 있습니다.
 
 [여기를 클릭하여 자세한 내용을 확인하세요](../../configuration/using/about-custom-recipient-table.md)
 

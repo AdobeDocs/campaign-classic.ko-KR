@@ -16,15 +16,15 @@ ht-degree: 8%
 
 
 
-다음 **[!UICONTROL Cells]** 활동은 데이터 열 형태로 다양한 하위 집합에 대한 보기를 제공합니다. 부분집합 조작을 용이하게 하며 개인화 가능성을 유도하도록 설계되었습니다.
+다음 **[!UICONTROL Cells]** 활동은 데이터 열의 형태로 다양한 하위 집합의 보기를 제공합니다. 이는 하위 집합 조작을 용이하게 하며 개인화 가능성을 장려하도록 설계되기도 한다.
 
 ![](assets/wf_split_cells.png)
 
-사용자 요구 사항에 따라 특정 매개 변수를 입력하도록 이 활동을 구성할 수 있습니다. 기본적으로 각 서브세트의 세부 정보는 를 통해 전용 창에 자세히 표시됩니다 **[!UICONTROL Selection]** 및 **[!UICONTROL Advanced]** 탭. 아래 예에서는 양식이 수정되었습니다. a **[!UICONTROL Data]** 각 하위 세트에 대한 오퍼 및 우선 순위 수준을 연결할 수 있도록 탭이 추가되었습니다.
+이 활동은 사용자 요구에 따라 특정 매개 변수를 입력하도록 구성할 수 있습니다. 기본적으로 각 하위 집합의 세부 정보는 다음을 통해 전용 창에 자세히 설명되어 있습니다. **[!UICONTROL Selection]** 및 **[!UICONTROL Advanced]** 탭. 아래 예에서는 양식이 수정되었습니다. a **[!UICONTROL Data]** 각 하위 집합에 대해 오퍼와 우선 순위 수준을 연결할 수 있도록 탭이 추가되었습니다.
 
 ![](assets/wf_split_cells_with_customization.png)
 
-이 구성에 대해 다음 정보가 워크플로우 양식( **[!UICONTROL Administration > Configurations > Input forms]** 노드(Adobe Campaign 트리):
+이 구성의 경우 워크플로 양식에 다음 정보가 추가되었습니다( **[!UICONTROL Administration > Configurations > Input forms]** Adobe Campaign 트리의 노드):
 
 ```
 <container img="nms:miniatures/mini-enrich.png" label="Data">
@@ -49,4 +49,4 @@ ht-degree: 8%
                 </container>
 ```
 
-Adobe Campaign의 시작 양식 개인화는 전문가 사용자를 위해 예약되어 있습니다. 자세한 정보는 이 [섹션](../../configuration/using/identifying-a-form.md)을 참조하십시오.
+Adobe Campaign의 시작 양식 개인화는 전문가 사용자용으로 예약되어 있습니다. 자세한 정보는 이 [섹션](../../configuration/using/identifying-a-form.md)을 참조하십시오.

@@ -24,12 +24,12 @@ Adobe Campaign을 사용하면 대화형 마케팅 캠페인 만들기를 조정
 
 >[!AVAILABILITY]
 >
->* 이 컬렉션의 도움말 자료는 Campaign Classic v7에 적용됩니다 [최신 빌드](../../rn/using/latest-release.md). 특정 배지는 Campaign v8에도 섹션이 적용될 때 사용할 수 있습니다.
+>* 이 컬렉션의 도움말 자료는 의 Campaign Classic v7에 적용됩니다. [최신 빌드](../../rn/using/latest-release.md). 특정 배지는 Campaign v8에도 섹션이 적용되는 경우 사용할 수 있습니다.
 >
 >* Adobe Campaign v8 설명서를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html).
 
 
-![](assets/do-not-localize/how-to-video.png) [비디오의 주요 기능 및 기능 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 주요 기능 살펴보기](#video)
 
 ## 주요 기능 {#key-capabilities}
 
@@ -93,7 +93,7 @@ Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 �
 
 ## 튜토리얼 비디오 {#video}
 
-이 비디오에서는 Campaign Classic의 주요 기능과 기능을 제공합니다.
+이 비디오에서는 Campaign Classic의 주요 기능을 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 

@@ -147,7 +147,7 @@ Analytics 플랫폼에 Adobe Campaign을 통합하는 작업은 커넥터를 사
 1. **[!UICONTROL Advanced]** 탭에서는 더 많은 기술 설정을 구성하거나 수정할 수 있습니다.
 
    * **[!UICONTROL Lifespan]**: 기술 워크플로우로 Adobe Campaign에서 웹 이벤트가 복구되는 지연 시간(일)을 지정할 수 있도록 해줍니다. 기본값: 180일.
-   * **[!UICONTROL Persistence]**: 모든 웹 이벤트(예: 구매)가 리마케팅 캠페인에 귀속될 기간을 정의할 수 있습니다. 기본값: 7일.
+   * **[!UICONTROL Persistence]**: 모든 웹 이벤트(예: 구매)가 리마케팅 캠페인에 귀속될 수 있는 기간을 정의할 수 있습니다. 기본값: 7일.
 
 >[!NOTE]
 >

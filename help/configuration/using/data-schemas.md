@@ -20,48 +20,48 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->기본 제공 데이터 스키마는 Adobe Campaign Classic 콘솔 관리자만 삭제할 수 있습니다.
+>기본 제공 데이터 스키마는 Adobe Campaign Classic 콘솔의 관리자만 삭제할 수 있습니다.
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 
-편집 필드에는 소스 스키마의 XML 내용이 표시됩니다.
+편집 필드에는 소스 스키마의 XML 콘텐츠가 표시됩니다.
 
 ![](assets/d_ncs_integration_schema_edition.png)
 
 >[!NOTE]
 >
->이름 편집 컨트롤을 사용하면 이름 및 네임스페이스로 구성된 스키마 키를 입력할 수 있습니다. 스키마의 루트 요소의 &quot;name&quot; 및 &quot;namespace&quot; 속성은 스키마의 XML 편집 영역에서 자동으로 업데이트됩니다.
+>이름 편집 컨트롤을 사용하면 이름과 네임스페이스로 구성된 스키마 키를 입력할 수 있습니다. 스키마의 루트 요소에 대한 &quot;name&quot; 및 &quot;namespace&quot; 속성은 스키마의 XML 편집 영역에서 자동으로 업데이트됩니다.
 
-미리 보기는 확장 스키마를 자동으로 생성합니다.
+미리보기는 확장 스키마를 자동으로 생성합니다.
 
 ![](assets/d_ncs_integration_schema_edition2.png)
 
 >[!NOTE]
 >
->소스 스키마가 저장되면 확장 스키마 생성이 자동으로 시작됩니다.
+>소스 스키마를 저장하면 확장 스키마 생성이 자동으로 실행됩니다.
 
-스키마의 전체 구조를 확인해야 하는 경우 미리 보기 탭을 사용할 수 있습니다. 스키마가 확장되면 모든 확장을 시각화할 수 있습니다. 설명서 탭에는 모든 스키마 속성 및 요소와 속성(SQL 필드, 유형/길이, 레이블, 설명)이 표시됩니다. 설명서 탭은 생성된 스키마에만 적용됩니다. 자세한 내용은 [스키마 다시 생성](../../configuration/using/regenerating-schemas.md) 섹션을 참조하십시오.
+스키마의 전체 구조를 확인해야 하는 경우 미리보기 탭을 사용할 수 있습니다. 스키마가 확장된 경우 모든 해당 확장을 시각화할 수 있습니다. 보완적으로 문서 탭에는 모든 스키마 속성 및 요소와 해당 속성(SQL 필드, 유형/길이, 레이블, 설명)이 표시됩니다. 설명서 탭은 생성된 스키마에만 적용됩니다. 자세한 내용은 [스키마 다시 생성](../../configuration/using/regenerating-schemas.md) 섹션.
 
 ## 예: 계약 테이블 생성 {#example--creating-a-contract-table}
 
-다음 예제에서는 새 테이블을 만들려고 합니다 **계약** ( Adobe Campaign 데이터베이스의 데이터베이스 모델에서)를 참조하십시오. 이 테이블을 사용하면 각 계약에 대해 소유자 및 공동 소유자의 이름과 전자 메일 주소를 저장할 수 있습니다.
+다음 예제에서는 새 테이블을 **계약** (Adobe Campaign 데이터베이스의 데이터베이스 모델). 이 테이블을 사용하면 각 계약에 대한 보유자 및 공동 보유자의 이름과 성 및 이메일 주소를 저장할 수 있습니다.
 
 이렇게 하려면 테이블의 스키마를 만들고 데이터베이스 구조를 업데이트하여 해당 테이블을 생성해야 합니다. 다음 단계를 적용합니다.
 
-1. 편집 **[!UICONTROL Administration > Configuration > Data schemas]** Adobe Campaign 트리의 노드를 클릭하고 **[!UICONTROL New]** .
-1. 을(를) 선택합니다 **[!UICONTROL Create a new table in the data model]** 옵션을 선택하고 **[!UICONTROL Next]** .
+1. 편집 **[!UICONTROL Administration > Configuration > Data schemas]** Adobe Campaign 트리의 노드 및 클릭 **[!UICONTROL New]** .
+1. 다음을 선택합니다. **[!UICONTROL Create a new table in the data model]** 옵션 및 클릭 **[!UICONTROL Next]** .
 
    ![](assets/s_ncs_configuration_create_new_schema.png)
 
-1. 테이블 이름과 네임스페이스를 지정합니다.
+1. 테이블 이름 및 네임스페이스를 지정합니다.
 
    ![](assets/s_ncs_configuration_create_new_param.png)
 
    >[!NOTE]
    >
-   >기본적으로 사용자가 만든 스키마는 &#39;cus&#39; 네임스페이스에 저장됩니다. 자세한 내용은 [스키마 식별](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
+   >기본적으로 사용자가 만든 스키마는 &#39;cus&#39; 네임스페이스에 저장됩니다. 자세한 내용은 다음을 참조하십시오. [스키마 식별](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 
-1. 표의 컨텐츠를 만듭니다. 누락된 설정이 없도록 시작 마법사를 사용하는 것이 좋습니다. 이렇게 하려면 **[!UICONTROL Insert]** 버튼을 클릭하고 추가할 설정 유형을 선택합니다.
+1. 테이블의 내용을 만듭니다. 시작 마법사를 사용하여 설정이 누락되지 않았는지 확인하는 것이 좋습니다. 이렇게 하려면 **[!UICONTROL Insert]** 버튼을 클릭하고 추가할 설정 유형을 선택합니다.
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 
@@ -117,4 +117,4 @@ ht-degree: 1%
 
    ![](assets/s_ncs_configuration_structure.png)
 
-1. 데이터베이스 구조를 업데이트하여 스키마가 연결될 테이블을 만듭니다. 자세한 내용은 [데이터베이스 구조 업데이트](../../configuration/using/updating-the-database-structure.md).
+1. 데이터베이스 구조를 업데이트하여 스키마가 연결될 테이블을 만듭니다. 자세한 내용은 다음을 참조하십시오. [데이터베이스 구조 업데이트](../../configuration/using/updating-the-database-structure.md).

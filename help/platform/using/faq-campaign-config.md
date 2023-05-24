@@ -42,13 +42,13 @@ Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 
 
 ## 전자 메일 게재 기능을 구성하는 방법  {#how-to-configure-email-deliverability-}
 
-추가 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)게재 기능 권장 사항을 참조하여 Campaign 게재 기능을 최대화하기 위해 인스턴스를 구성하는 방법을 이해합니다.
+이외에도 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko), Campaign 게재 기능을 최대화하기 위해 인스턴스를 구성하는 방법을 이해하려면 게재 기능 기술 권장 사항을 참조하십시오.
 
 자세한 내용을 보려면 [여기](../../delivery/using/about-deliverability.md)를 클릭하십시오.
 
 ## 콘텐츠 승인을 구현하려면 어떻게 해야 합니까? {#how-can-i-implement-content-approval-}
 
-Campaign을 사용하면 마케팅 캠페인의 주요 단계에 대한 승인 프로세스를 공동 작업 모드로 설정할 수 있습니다. 각 캠페인에 대해 게재 대상, 콘텐츠 및 비용을 승인할 수 있습니다. 승인이 필요한 Adobe Campaign 운영자는 전자 메일로 통보를 받을 수 있으며 콘솔 또는 웹 연결을 통해 승인을 수락하거나 거부할 수 있습니다.
+Campaign을 사용하면 마케팅 캠페인의 주요 단계에 대한 승인 프로세스를 공동 작업 모드로 설정할 수 있습니다. 각 캠페인에 대해 게재 대상, 콘텐츠 및 비용을 승인할 수 있습니다. 승인을 담당하는 Adobe Campaign 운영자는 이메일로 통보를 받을 수 있으며 콘솔 또는 웹 연결을 통해 승인을 수락하거나 거부할 수 있습니다.
 
 [여기를 클릭하여 자세한 내용을 살펴보고](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries) Campaign에서 게재 콘텐츠 승인을 구현하는 단계를 알아봅니다.
 

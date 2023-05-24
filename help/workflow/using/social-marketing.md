@@ -20,7 +20,7 @@ ht-degree: 8%
 >
 >:warning: 이 기능은 Campaign Classic v7에서만 사용할 수 있습니다. [자세히 알아보기](../../social/using/about-social-marketing.md)
 
-아래 자세히 설명된 워크플로우는 **소셜 마케팅** 기본적으로 모듈입니다.
+아래에 설명된 워크플로우는 **소셜 마케팅** 기본적으로 모듈입니다.
 
 <table> 
  <tbody> 
@@ -47,7 +47,7 @@ ht-degree: 8%
   <tr> 
    <td> <span class="uicontrol">twitter 통계 계산</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> 이 워크플로우는 Twitter 및 방문 횟수에 연결된 통계를 계산합니다.<br /> </td> 
+   <td> 이 워크플로우는 Twitter 시 리트윗 및 방문에 연결된 통계를 계산합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">twitter 페이지 동기화</span> <br /> </td> 

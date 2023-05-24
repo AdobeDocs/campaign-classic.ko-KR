@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 운영자에게 개인화된 경고 보내기
-description: 운영자에게 개인화된 경고를 보내는 방법을 알아봅니다
+description: 운영자에게 개인화된 경고를 보내는 방법 알아보기
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
@@ -16,16 +16,16 @@ ht-degree: 2%
 
 
 
-이 예에서는 뉴스레터를 열었지만 포함된 링크를 클릭하지 않은 프로필의 이름이 포함된 운영자에게 경고를 보내려고 합니다.
+이 예제에서는 뉴스레터를 열었지만 포함된 링크를 클릭하지 않은 프로필의 이름이 포함된 운영자에게 경고를 보내려고 합니다.
 
-프로필의 이름과 성 필드는 **[!UICONTROL Recipients]** 타겟팅 차원 과 **[!UICONTROL Alert]** 활동이 **[!UICONTROL Operator]** 타겟팅 차원. 따라서 조정을 수행하고 이름과 성 필드를 검색하고 경고 활동에 표시할 두 타겟팅 차원 사이에 사용할 수 있는 필드가 없습니다.
+프로필의 이름과 성 필드는 **[!UICONTROL Recipients]** 타겟팅 차원과 반대로 **[!UICONTROL Alert]** 활동이 다음에 연결됨 **[!UICONTROL Operator]** 타겟팅 차원. 따라서 두 타겟팅 차원 간에는 조정을 수행하고 이름 및 성 필드를 검색하여 경고 활동에 표시하는 데 사용할 수 있는 필드가 없습니다.
 
-프로세스는 다음과 같이 워크플로우를 구축하는 것입니다.
+프로세스는 다음과 같이 워크플로우를 빌드합니다.
 
-1. 다음 작업 **[!UICONTROL Query]** 활동을 target 데이터에 추가합니다.
+1. 사용 **[!UICONTROL Query]** 타겟 데이터에 대한 활동.
 1. 추가 **[!UICONTROL JavaScript code]** 활동을 워크플로우에 추가하여 쿼리의 모집단을 인스턴스 변수에 저장합니다.
-1. 다음 작업 **[!UICONTROL Test]** 활동을 통해 모집단 수를 확인합니다.
-1. 다음 중 하나를 사용합니다 **[!UICONTROL Alert]** 활동에 따라 연산자에게 경고를 보내는 활동 **[!UICONTROL Test]** 활동 결과.
+1. 사용 **[!UICONTROL Test]** 활동을 사용하여 모집단 수를 확인합니다.
+1. 사용 **[!UICONTROL Alert]** 활동에 따라 운영자에게 경고를 보냅니다. **[!UICONTROL Test]** 활동 결과.
 
 ![](assets/uc_operator_1.png)
 
@@ -47,18 +47,18 @@ var query = xtk.queryDef.create(
 
 Javascript 코드가 워크플로우 정보에 해당하는지 확인합니다.
 
-* 다음 **[!UICONTROL queryDef schema]** 태그는 쿼리 활동에 사용되는 타겟팅 차원의 이름에 해당해야 합니다.
-* 다음 **[!UICONTROL node expr]** 태그는 검색할 필드의 이름에 해당해야 합니다.
+* 다음 **[!UICONTROL queryDef schema]** 태그는 쿼리 활동에 사용된 타겟팅 차원의 이름에 해당해야 합니다.
+* 다음 **[!UICONTROL node expr]** 태그는 검색할 필드의 이름과 일치해야 합니다.
 
 ![](assets/uc_operator_3.png)
 
-이러한 정보를 검색하려면 아래 단계를 수행하십시오.
+이러한 정보를 검색하려면 아래 단계를 수행합니다.
 
-1. 에서 아웃바운드 전환을 마우스 오른쪽 단추로 클릭합니다. **[!UICONTROL Query]** 활동을 선택한 다음 **[!UICONTROL Display the target]**.
+1. 에서 아웃바운드 전환을 마우스 오른쪽 단추로 클릭합니다. **[!UICONTROL Query]** 활동, 선택 **[!UICONTROL Display the target]**.
 
    ![](assets/uc_operator_4.png)
 
-1. 목록을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Configure list]**.
+1. 목록을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Configure list]**.
 
    ![](assets/uc_operator_5.png)
 
@@ -78,9 +78,9 @@ var.recCount>0
 
 ## 경고 설정 {#setting-up-the-alert}
 
-모집단이 원하는 필드를 사용하여 인스턴스 변수에 추가되었으므로 이 정보를 **[!UICONTROL Alert]** 활동.
+원하는 필드가 있는 인스턴스 변수에 모집단을 추가했으므로 이제 다음 정보를 **[!UICONTROL Alert]** 활동.
 
-이렇게 하려면 를 **[!UICONTROL Source]** 탭 아래 코드:
+이렇게 하려면 을(를) 다음에 추가합니다. **[!UICONTROL Source]** 아래 코드를 탭합니다.
 
 ```
 <ul>
@@ -95,7 +95,7 @@ for each (var item in items){
 
 >[!NOTE]
 >
->다음 **[!UICONTROL <%= item.target.recipient.@fieldName %>]** 명령을 사용하면 다음을 통해 인스턴스 변수에 저장된 필드 중 하나를 추가할 수 있습니다 **[!UICONTROL JavaScript code]** 활동.\
->JavaScript 코드에 삽입된 한 원하는 만큼 필드를 추가할 수 있습니다.
+>다음 **[!UICONTROL <%= item.target.recipient.@fieldName %>]** 명령을 사용하면 인스턴스 변수에 저장된 필드 중 하나를 추가할 수 있습니다. **[!UICONTROL JavaScript code]** 활동.\
+>JavaScript 코드에 삽입된 필드를 원하는 만큼 추가할 수 있습니다.
 
 ![](assets/uc_operator_8.png)

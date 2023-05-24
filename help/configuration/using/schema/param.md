@@ -6,7 +6,7 @@ exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -14,23 +14,23 @@ ht-degree: 2%
 
 ![](../../../assets/v7-only.svg)
 
-## 컨텐츠 모델 {#content-model-12}
+## 콘텐츠 모델 {#content-model-12}
 
 param:==help
 
 ## 속성 {#attributes-12}
 
-* @_operation (string)
-* @desc (string)
-* @enum (string)
-* @inout (string)
-* @label (string)
-* @localizable (string)
-* @name (MNTOKEN)
-* @namespace (MNTOKEN)
-* @type (string)
+* @_operation(문자열)
+* @desc(문자열)
+* @enum(문자열)
+* @inout(문자열)
+* @label(문자열)
+* @localizable(문자열)
+* @name(MNTOKEN)
+* @namespace(MNTOKEN)
+* @type(문자열)
 
-## 부모 {#parents-12}
+## 상위 {#parents-12}
 
 `<parameters>`
 
@@ -40,51 +40,51 @@ param:==help
 
 ## 설명 {#description-12}
 
-이 요소를 사용하면 SOAP 메서드 호출을 위한 매개 변수를 정의할 수 있습니다.
+이 요소를 사용하면 SOAP 메서드를 호출하기 위한 매개 변수를 정의할 수 있습니다.
 
 ## 속성 설명 {#attribute-description-12}
 
-* **desc(문자열)**: 과 관련된 설명 `<param>` 요소를 생성하지 않습니다.
-* **inout(문자열)**: 이 속성은 매개 변수가 SOAP 호출의 입력(in) 또는 출력(출력)에 있는지 여부를 정의합니다. 이 속성을 지정하지 않으면 기본 매개 변수가 입력됩니다(&quot;@inout=in&quot;).
+* **desc(문자열)**: 다음과 관련된 설명 `<param>` 요소를 생성하지 않습니다.
+* **inout(문자열)**: 이 속성은 매개 변수가 SOAP 호출의 입력(in) 또는 출력(out)에 있는지 여부를 정의합니다. 이 속성을 지정하지 않으면 기본 매개 변수가 입력됩니다(&quot;@inout=in&quot;).
 * **레이블(문자열)**: `<param>` 레이블
-* **지역화 가능(문자열)**: 활성화되면 이 속성은 번역을 위한 &quot;@label&quot; 속성 값을 복구하도록 수집 도구에 알려줍니다(내부 사용).
-* **name(MNTOKEN)**: 의 내부 이름 `<param>`
-* **유형(문자열)**: 이 속성은 `<param>` 요소
+* **현지화 가능(문자열)**: 활성화되면 이 속성은 수집 툴에게 번역(내부 사용)을 위해 &quot;@label&quot; 속성 값을 복구하도록 알려줍니다.
+* **이름(MNTOKEN)**: 의 내부 이름 `<param>`
+* **유형(문자열)**: 이 속성은 의 유형을 정의합니다. `<param>` 요소
 
    사용 가능한 유형 목록:
 
-   * 임의
+   * 모든
    * bin
    * blob
    * 부울
-   * byte
-   * CDATA
+   * 바이트
+   * C데이터
    * datetime
    * datetimetz
-   * datetimeenotz
-   * 날짜
+   * 다테티메노츠
+   * date
    * DOMDocument
-   * 돔 요소
-   * 이중
+   * DOMELEMENT
+   * 더블
    * enum
-   * float
+   * 부동
    * html
    * int64
    * 링크
-   * 장기간
+   * 길게
    * 메모
    * MNTOKEN
-   * 퍼센트
+   * percent
    * primarykey
-   * short
-   * string
+   * 짧음
+   * 문자열
    * 시간
-   * 시간 간격
+   * timespan
    * uuid
 
 ## 예제 {#examples-9}
 
-문자열 유형의 &quot;serviceName&quot; 인바운드 설정에 대한 정의:
+문자열 유형의 &quot;serviceName&quot; 인바운드 설정 정의:
 
 ```
 <param desc="Name of the information service(s) (separated with commas)"

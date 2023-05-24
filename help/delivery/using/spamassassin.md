@@ -17,47 +17,47 @@ ht-degree: 6%
 
 
 
-Adobe Campaign이 [SpamAssassin](https://spamassassin.apache.org): 이메일 스팸 필터링에 사용되는 타사 서비스입니다. 이를 통해 이메일에 점수를 매겨 수신 시 사용되는 스팸 방지 도구에 의해 메시지가 스팸으로 간주될 위험이 있는지 여부를 결정할 수 있습니다.
+Adobe Campaign은 다음으로 작동하도록 구성할 수 있습니다. [SpamAssassin](https://spamassassin.apache.org)이메일 스팸 필터링에 사용되는 서드파티 서비스. 이를 통해 이메일에 점수를 매겨 수신 시 사용되는 스팸 방지 도구에 의해 메시지가 스팸으로 간주될 위험이 있는지 여부를 확인할 수 있습니다.
 
-SpamAssassin은 다음과 같은 다양한 스팸 감지 기술을 활용합니다.
+SpamAssassin은 다음을 포함한 다양한 스팸 감지 기술을 활용합니다.
 
-* DNS 기반 및 퍼지 체크섬 기반 스팸 감지
-* 베이시안 필터링
+* DNS 기반 및 Fuzzy-Checksum 기반 스팸 탐지
+* 베이지안 필터링
 * 외부 프로그램
 * 차단 목록
 * 온라인 데이터베이스
 
 >[!NOTE]
 >
->Adobe Campaign 애플리케이션 서버에 SpamAssassin을 설치 및 구성해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-spamassassin.md)을 참조하십시오.
+>SpamAssassin은 Adobe Campaign 애플리케이션 서버에 설치하고 구성해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-spamassassin.md)을 참조하십시오.
 >
 >요소가 스팸인지 여부를 제어하는 규칙은 SpamAssassin을 통해 관리되며 권한이 있는 관리자가 편집할 수 있습니다.
 
 ## Campaign에서 SpamAssassin 사용 {#using-spamassassin}
 
-전자 메일 게재를 만들고 해당 콘텐츠를 정의했으면 아래 단계에 따라 위험을 평가하십시오.
+이메일 게재를 만들고 콘텐츠를 정의했으면 아래 단계에 따라 위험을 평가합니다.
 
 게재 만들기 및 디자인에 대한 자세한 내용은 [이 섹션](about-email-channel.md).
 
 1. **[!UICONTROL Preview]** 탭으로 이동합니다. 
-1. 게재를 미리 볼 수신자를 선택합니다.
+1. 게재를 미리 볼 수신자를 선택하십시오.
 
    ![](assets/s_tn_del_preview_spamassassin_recipient.png)
 
    >[!NOTE]
    >
-   >수신자를 선택하지 않으면 스팸 방지 검사를 수행할 수 없습니다.
+   >수신자를 선택하지 않으면 스팸 방지 확인을 수행할 수 없습니다.
 
-1. 경고 메시지에 테스트 결과가 표시됩니다. 위험 수준이 높은 경우 다음 경고 메시지가 표시됩니다.
+1. 경고 메시지는 테스트 결과를 제공합니다. 높은 수준의 위험이 감지되면 다음과 같은 경고 메시지가 표시됩니다.
 
    ![](assets/s_tn_del_preview_spamassassin_ko.png)
 
-1. 을(를) 클릭합니다. **[!UICONTROL More...]** 경고 옆에 링크를 추가합니다.
+1. 다음을 클릭합니다. **[!UICONTROL More...]** 경고 옆에 있는 링크입니다.
 1. **[!UICONTROL Anti-spam checking]** 탭을 선택합니다. 
-1. 로 이동합니다. **[!UICONTROL Points / Rule / Description]** 섹션을 참조하십시오.
+1. 로 이동 **[!UICONTROL Points / Rule / Description]** 섹션을 통해 이 위험의 이유를 살펴볼 수 있습니다.
 
    ![](assets/s_tn_del_msg_spamassassin_ko.png)
 
 >[!NOTE]
 >
->를 클릭할 때마다 **[!UICONTROL Anti-spam checking]**&#x200B;를 설정하는 경우 SpamAssassin 서비스가 호출되고 스팸 방지를 위해 메시지가 다시 분석됩니다. 스팸 방지 분석을 다시 실행하기 전에 콘텐츠를 변경했는지 확인하십시오.
+>을 클릭할 때마다 **[!UICONTROL Anti-spam checking]**, SpamAssassin 서비스가 호출되고 메시지가 스팸 방지 검색을 위해 다시 분석됩니다. 스팸 방지 분석을 다시 실행하기 전에 콘텐츠를 변경했는지 확인하십시오.
