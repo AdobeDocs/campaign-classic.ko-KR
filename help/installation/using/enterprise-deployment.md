@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1213'
 ht-degree: 3%
 
 ---
@@ -166,7 +166,7 @@ ht-degree: 3%
 
    자세한 내용은 다음을 참조하십시오. [Campaign 서버 구성](../../installation/using/configuring-campaign-server.md).
 
-1. 클라이언트 콘솔 설치 프로그램(**setup-client-7.XX**, **YYYY.exe** v7용 또는 **setup-client-6.XX**, **YYYY.exe** (v6.1)의 경우 **/datakit/nl/eng/jsp** 폴더를 삭제합니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
+1. 클라이언트 콘솔 설치 프로그램 복사 **setup-client-7.XX**, **YYYY.exe** (으)로 **/datakit/nl/eng/jsp** 폴더를 삭제합니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
 
 1. Adobe Campaign 서버 시작(**net start nlserver6** Windows의 경우 **/etc/init.d/nlserver6 시작** linux에서) 명령을 실행합니다 **nlserver 덤프** 활성화된 모든 모듈이 있는지 한 번 더 확인하십시오.
 

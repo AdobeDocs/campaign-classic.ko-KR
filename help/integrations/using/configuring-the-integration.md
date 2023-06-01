@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '528'
 ht-degree: 3%
 
 ---
@@ -120,10 +120,6 @@ Adobe Experience Manager에서 구성을 시작하려면 아래 단계를 따르
 1. 구성 **복제** 를 사용하여 AEM 작성 인스턴스에서 AEM 게시 인스턴스로 복제할 수 있습니다.
 
    복제를 구성하는 방법에 대해 알아보려면 Adobe Experience Manager 를 참조하십시오. [설명서](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/replication.html).
-
-1. 통합 설치 **기능 팩** 그런 다음 제작 인스턴스에서 게시 인스턴스에 설치를 복제합니다. (AEM 버전 5.6.1 및 6.0만 해당).
-
-   FeaturePack 설치 방법에 대한 자세한 내용은 Adobe Experience Manager 를 참조하십시오 [설명서](https://helpx.adobe.com/experience-manager/aem-previous-versions.html).
 
 1. 전용 을 구성하여 Adobe Experience Manager을 Adobe Campaign에 연결 **Cloud Service**.
 

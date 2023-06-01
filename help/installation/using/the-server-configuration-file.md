@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '7979'
+source-wordcount: '7955'
 ht-degree: 40%
 
 ---
@@ -1618,12 +1618,12 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 부울<br /> </td> 
    <td> true <br /> </td> 
   </tr> 
-  <tr> 
-   <td> stat서버 버전<br /> </td> 
-   <td> 사용된 프로토콜 버전: 통신 프로토콜 버전(v5.11 및 6.0.2 서버의 경우 1, v6.1 서버의 경우 2).<br /> </td> 
-   <td> 문자열<br /> </td> 
-   <td> 정의되지 않은 경우 최신 버전이 사용됩니다. <br /> </td> 
-  </tr> 
+  <!--tr> 
+   <td> statServerVersion<br /> </td> 
+   <td> Protocol version used: communication protocol version (1 for a v5.11 and 6.0.2 server, 2 for a v6.1 server).<br /> </td> 
+   <td> String<br /> </td> 
+   <td> If undefined, the latest version is used. <br /> </td> 
+  </tr--> 
   <tr> 
    <td> useMomentum<br /> </td> 
    <td> "true"로 설정하면 인스턴스가 <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">향상된 MTA</a>.<br /> </td> 

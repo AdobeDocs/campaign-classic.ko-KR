@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '1995'
 ht-degree: 3%
 
 ---
@@ -54,15 +54,16 @@ Campaign Classic 19.2부터 상태는 각 빌드에 연결됩니다.
 
 예를 들어 이전 섹션의 스크린샷에 있는 서버 정보를 사용합니다.
 
-* 빌드 업그레이드에는 빌드 6880에서 6880보다 큰 모든 빌드로 이동하는 작업이 포함됩니다. 예: v6.1.1 빌드 8222에서 v6.1.1 빌드 8666으로
+* 빌드 업그레이드에는 빌드 9342에서 9342 이상의 빌드로 이동하는 작업이 포함됩니다. 예: v7.1 빌드 9342에서 v7.1 빌드 9342로
 
-* 버전 업그레이드에는 버전 6.0.2에서 6.0.2 이상의 버전으로 이동하는 작업이 포함됩니다. 예: v6.0.1 빌드 2222에서 v6.1.1 빌드 8666으로
+* 버전 업그레이드에는 버전 6에서 더 최신 버전으로 이동하는 작업이 포함됩니다.  예: v6.1.1 빌드 8666에서 v7.1 빌드 9342.
 
 ## 이러한 업데이트 전에 데이터를 백업해야 합니까?
 
 Adobe은 변경 전에 시스템을 백업합니다. 그러나 비프로덕션 시스템(개발 또는 스테이징 서버)에 중요한 사용자 지정 작업이 있는 경우 업그레이드 전에 패키지로 해당 작업을 내보내는 것이 좋습니다.
 
-![](assets/do-not-localize/how-to-video.png) 자세한 내용은 [시청 방법 비디오](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+<!--
+![](assets/do-not-localize/how-to-video.png) For more information, [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
 
 ## 업그레이드는 언제 수행됩니까?
 
@@ -97,7 +98,9 @@ Adobe은 변경 전에 시스템을 백업합니다. 그러나 비프로덕션 �
 
 ## 빌드 업그레이드를 준비하려면 어떻게 해야 합니까?
 
-개발 및 스테이징 시스템에서 중요하고 유지해야 하는 모든 작업을 내보냅니다. 자세한 정보를 원하시면 [시청 방법 비디오](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+개발 및 스테이징 시스템에서 중요하고 유지해야 하는 모든 작업을 내보냅니다.
+
+<!--For more information please [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
 
 구현이 끝나면 팀에 제공되는 설명서를 검토하여 실행 설명서에서(또는 컨설팅 팀/파트너가) 개발한 중요한 경로 워크플로우 및 게재에 대한 지식을 새로 고칩니다.
 
@@ -105,7 +108,7 @@ Adobe은 변경 전에 시스템을 백업합니다. 그러나 비프로덕션 �
 
 다음 항목 검토 [아래 업그레이드 체크리스트 작성](#check-list) 그리고 테스트 계획을 세우고 이러한 테스트를 수행할 수 있는 리소스를 24~48시간 내에 사용할 수 있도록 합니다. 업그레이드를 완료해야 합니다.
 
-자세한 내용은 [이 문서 참조](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html).
+자세한 내용은 [이 섹션 참조](../../production/using/build-upgrade.md).
 
 ## 야간 또는 업무 시간 외 시간에 업그레이드 구축 가능
 

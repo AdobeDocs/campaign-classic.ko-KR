@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '882'
 ht-degree: 4%
 
 ---
@@ -171,15 +171,3 @@ IIS 웹 서버를 구성할 때 서버에 업로드되는 집합 파일에 대�
 >
 >이 IIS 옵션에 대한 자세한 내용은 [공식 문서](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits).
 
-### HTTP 오류 메시지 표시 구성 {#configuring-http-error-message-display}
-
-6.1 버전의 IIS 서버를 사용하는 경우 메시지에 원하지 않는 HTML 코드가 표시되므로 생성된 오류 메시지를 읽기 어려울 수 있습니다.
-
-이 문제를 해결하고 오류를 올바르게 표시하려면 다음 구성을 적용합니다.
-
-1. 다음을 통해 IIS 열기 **[!UICONTROL Start > Control Panel > Administrative tools]** 메뉴 아래의 제품에서 사용할 수 있습니다.
-1. 다음에서 **연결** 창에서 Adobe Campaign 설치를 위해 생성된 사이트를 선택한 다음 두 번 클릭합니다 **구성 편집기** 기본 창에서 수행할 수 있습니다.
-1. 다음에서 **섹션** 드롭다운 목록에서 다음을 선택합니다. **system.webServer** > **httpErrors**.
-1. 다음 항목 선택 **통과** 값: **existingResponse** 줄.
-
-![](assets/ins_iis_httperrors.png)

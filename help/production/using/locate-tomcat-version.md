@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Adobe Campaign 인스턴스에서 포함된 Tomcat 버전을 찾으려면 아래
 
 1. 다음 위치로 이동 *\tomcat-7\lib* Adobe Campaign 설치 폴더 내의 하위 폴더(예: *C:\Program 파일\ [Installation_folder]* Windows에서 또는 */usr/local/neolane/nl6* Linux에서).
 
-   Tomcat v6을 사용하여 이전 버전의 Adobe Campaign을 실행하는 경우 *\tomcat-6\lib*.
-
 1. 파일 복사 *catalina.jar* 를 외부 임시 폴더(예: 데스크탑)로 바꾸고 확장자를 .jar에서 .zip으로 변경합니다.
 
 1. 복사된 파일의 압축을 풉니다. 이렇게 하면 많은 하위 폴더와 파일이 생성됩니다.
@@ -64,5 +62,4 @@ Adobe Campaign 인스턴스에서 포함된 Tomcat 버전을 찾으려면 아래
 >[!NOTE]
 >
 >임베드된 Tomcat의 주요 버전은 Adobe Campaign의 주요 버전이 변경될 때만 업그레이드됩니다(이전 버전이 더 이상 공식적으로 지원되지 않을 수 있지만 일부 고객이 이러한 버전을 계속 실행하고 있을 수 있으므로 정보가 유용할 수 있음).
->
->예를 들어 Adobe Campaign v6.02는 항상 Tomcat v6.x를 사용합니다.
+

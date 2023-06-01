@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '328'
 ht-degree: 4%
 
 ---
@@ -29,7 +29,7 @@ Adobe Campaign 사용자가 생성 및 구성한 인스턴스에 로그온할 �
 
 1. 콘솔 설치 프로그램이 포함된 패키지를 선택합니다.
 
-   이 파일은 라고 합니다. `setup-client-7.X.XXXX.exe` v7용 또는 `setup-client-6.X.XXXX.exe` v6.1용 `X` 는 Adobe Campaign의 하위 버전이며 `XXXX` 는 빌드 번호입니다.
+   이 파일은 라고 합니다. `setup-client-7.X.XXXX.exe`, 여기서 `X` 는 Adobe Campaign의 하위 버전이며 `XXXX` 는 빌드 번호입니다.
 
 1. 이 패키지를 복사하여 Adobe Campaign 설치 폴더(하이브리드 설치용 마케팅 서버의)에 붙여넣습니다. **/datakit/nl/eng/jsp**.
 1. Adobe Campaign 서버를 시작합니다.

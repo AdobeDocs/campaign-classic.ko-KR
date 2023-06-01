@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -43,10 +43,7 @@ RPM(RHEL, CentOS 및 SUSE) 운영 체제에 Adobe Campaign을 설치하려면 �
 
 1. 먼저 Adobe Campaign 패키지를 얻어야 합니다.
 
-   파일 이름은 다음과 같이 지정됩니다. 여기서 **XXXX** 는 Adobe Campaign 빌드 번호입니다.
-
-   * **nlserver6-v7-XXXX-0.x86_64.rpm** v7용
-   * **nlserver6-XXXX-0.x86_64.rpm** v6.1용
+   파일 이름은 다음과 같이 지정됩니다. 여기서 **XXXX** 는 Adobe Campaign 빌드 번호입니다. **nlserver6-v7-XXXX-0.x86_64.rpm**.
 
    >[!CAUTION]
    >
@@ -78,12 +75,7 @@ yum install bc.x86_64
 
 Debian 64비트 운영 체제에 Adobe Campaign 64비트를 설치하려면 다음 단계를 적용합니다.
 
-1. 먼저 Adobe Campaign 패키지를 얻어야 합니다.
-
-   * **nlserver6-v7-XXXX-linux-2.6-amd64.deb** v7용
-   * **nlserver6-XXXX-linux-2.6-amd64.deb** v6.1용
-
-   **XXXX** 는 Adobe Campaign 빌드 번호입니다.
+1. 먼저 Adobe Campaign 패키지를 얻어야 합니다. **nlserver6-v7-XXXX-linux-2.6-amd64.deb**, 여기서 **XXXX** 는 빌드 번호입니다.
 
    >[!CAUTION]
    >
