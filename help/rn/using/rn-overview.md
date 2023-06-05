@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ Adobe 팀이 사용자의 조직에 업그레이드 여정을 안내해 드리�
     </a>
     </div>
     <ul>
-    <li>Campaign Classic 인스턴스 업그레이드의 노력과 복잡성은 두 버전 간의 거리에 따라 증가합니다.</li>
+    <li>사용하는 Campaign Classic 인스턴스를 업그레이드할 때 들어가는 노력과 복잡도는 두 버전 간 거리가 멀수록 높아집니다.</li>
     <li>조직에서 업그레이드 전 대기하는 기간이 길어질수록 업그레이드가 더욱 복잡해지고, 더 많은 취약점에 노출될 수 있습니다.</li>
     <li>정기 업데이트를 통해 업그레이드에 따른 가동 중지 시간과 회귀 문제가 발생할 위험을 줄일 수 있습니다.</li>
     </ul>
