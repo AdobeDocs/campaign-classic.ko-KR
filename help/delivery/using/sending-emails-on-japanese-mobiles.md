@@ -6,9 +6,9 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Email Design
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,7 @@ Adobe Campaign은 모바일에서 이메일에 대한 세 가지 특정 일본�
 
 >[!NOTE]
 >
->메시지를 만들 때는 각 연산자에 대한 제한 사항을 고려해야 합니다. 다음을 참조하십시오.
->
->* DoCoMo의 경우 다음을 참조하십시오 [이 페이지](https://www.nttdocomo.co.jp/service/developer/make/content/deco_mail/index.html)
->* KDDI AU의 경우 다음을 참조하십시오. [이 페이지](https://www.au.com/ezfactory/tec/spec/decorations/template.html)
->* Softbank의 경우 다음을 참조하십시오 [이 페이지](https://www.support.softbankmobile.co.jp/partner/home_tech3/index.cfm)
+>메시지를 만들 때는 각 연산자에 대한 제한 사항을 고려해야 합니다. 해당 제품 설명서를 참조하십시오.
 
 
 ## 이메일 콘텐츠 테스트 {#testing-the-email-content}

@@ -7,10 +7,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+workflow-type: tm+mt
 source-wordcount: '802'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -369,7 +369,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 
 Microsoft Edge WebView2 런타임 Campaign 클라이언트 콘솔을 사용하려면 최신 버전이 필수입니다.
 
-[Microsoft 개발자 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr)에서 Microsoft Edge WebView2를 다운로드합니다.
+[Microsoft 개발자 사이트](https://www.adobe.com/go/acc-ms-webview2-runtime-download)에서 Microsoft Edge WebView2를 다운로드합니다.
 
 
 ## 모바일 SDK{#MobileSDK}

@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1109'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 
 Campaign Classic 7.3 빌드 버전에서 모든 콘솔 설치에 Microsoft Edge Webview 2 런타임을 설치해야 합니다.
 
-Web View는 기본적으로 Windows 11 운영 체제의 일부로 설치됩니다. 시스템에 아직 없으면 Campaign Classic 콘솔 설치 관리자에서 다운로드할 것인지 묻는 메시지가 표시됩니다. [Microsoft 개발자 웹 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr). Microsoft에서 해당 지원이 더 이상 사용되지 않으므로 다운로드 링크가 Internet Explorer 11 브라우저에서 작동하지 않습니다. 다른 브라우저를 사용하여 링크에 액세스해야 합니다.
+Web View는 기본적으로 Windows 11 운영 체제의 일부로 설치됩니다. 시스템에 아직 없으면 Campaign Classic 콘솔 설치 관리자에서 다운로드할 것인지 묻는 메시지가 표시됩니다. [Microsoft 개발자 웹 사이트](https://www.adobe.com/go/acc-ms-webview2-runtime-download). Microsoft에서 해당 지원이 더 이상 사용되지 않으므로 다운로드 링크가 Internet Explorer 11 브라우저에서 작동하지 않습니다. 다른 브라우저를 사용하여 링크에 액세스해야 합니다.
 
 ## Adobe 호스팅 구현 {#hosted-customers}
 
@@ -132,7 +132,7 @@ Campaign 서버 폴더에서 콘솔을 사용할 수 있게 되면 팝업 창에
 
 1. URL을 통해 Adobe Campaign 애플리케이션 서버에 대한 연결을 지정합니다. 컴퓨터의 DNS, 별칭 또는 IP 주소를 사용합니다.
 
-   예를 들어 [`https://<machine>.<domain>.com`](https://myserver.adobe.com) url을 입력합니다.
+   예를 들어 `https://<machine>.<domain>.com` url을 입력합니다.
 
 1. Adobe IMS가 조직에 대해 구성된 경우 옵션을 선택합니다 **[!UICONTROL Connect with an Adobe ID]**
 

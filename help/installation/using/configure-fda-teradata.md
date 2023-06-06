@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
 workflow-type: tm+mt
-source-wordcount: '1798'
-ht-degree: 2%
+source-wordcount: '1760'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ teradata 외부 계정을 사용하면 Campaign 인스턴스를 Teradata 외부 
 
 | 옵션 | 설명 |
 |---|---|
-| TD_MAX_SESSIONS | teradata Parallel Transporter가 연산자 작업에 대해 얻을 수 있는 최대 로그온 세션 수를 지정합니다. <br>자세한 정보는 이 [페이지](https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/ds2ref/p1naft0um1kn3vn1ubgkrjdf7c3a.html)를 참조하십시오. |
+| TD_MAX_SESSIONS | teradata Parallel Transporter가 연산자 작업에 대해 얻을 수 있는 최대 로그온 세션 수를 지정합니다. |
 | 시간대 이름 | 서버 표준 시간대의 이름입니다. |
 | 문자 집합 | teradata 문자 집합을 구성하는 데 사용됩니다. <br>자세한 정보는 이 [페이지](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001)를 참조하십시오. |
 | IANAAppCodePage | ODBC 응용 프로그램 코드 페이지입니다. <br>[자세한 정보는 이 페이지](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page)를 참조하십시오. |
@@ -226,7 +226,7 @@ sha2를 설치하려면:
 
 ### UDF_UTF16TO8 설치 {#UDF-UTF16TO8-installation}
 
-Adobe Campaign 인스턴스에서 udf_utf16to8 함수를 사용하려면 다음에서 Teradata 데이터베이스에 사용자 모드 함수를 설치해야 합니다. **Teradata 유니코드 툴 키트** 이 중 [페이지](https://downloads.teradata.com/download/tools/unicode-tool-kit) (utk_release1.7.0.0.zip).
+Adobe Campaign Teradata 인스턴스에서 udf_utf16to8 함수를 사용하려면 **Teradata 유니코드 툴 키트**.
 
 다운로드한 파일의 sha1은 e58235f434f52c71316a577cb48e20b97d24f470과 같습니다.
 

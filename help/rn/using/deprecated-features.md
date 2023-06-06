@@ -7,10 +7,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '1684'
-ht-degree: 100%
+source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+workflow-type: tm+mt
+source-wordcount: '1508'
+ht-degree: 96%
 
 ---
 
@@ -211,24 +211,24 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 
 19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 FDA 서버와 호환되지 않습니다:
 
-* PostgreSQL 9.3. [자세히 알아보기](https://www.postgresql.org/support/versioning)
-* MySQL 5.5. [자세히 알아보기](https://www.fromdual.com/support-for-mysql-from-oracle)
-* DB2 9.5. [자세히 알아보기](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Teradata 14 - 14.1. [자세히 알아보기](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)
+* PostgreSQL 9.3.
+* MySQL 5.5.
+* DB2 9.5.
+* Teradata 14 - 14.1.
 
-Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 않습니다.
+Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 않습니다. 최신 버전 또는 시스템을 사용하십시오.
 
-* DB2 UDB 9.5, 9.7. DB2의 최신 버전은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Oracle 9i, 10G R2. 최신 버전의 Oracle은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
-* 최대 9.6의 PostgreSQL 버전이 수명이 종료되었습니다. 최신 버전의 PostgreSQL은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://www.postgresql.org/support/versioning)
-* MSSQL 2000, 2005, 2008 R2. 최신 버전의 SQL Server는 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/1044)
-* MySQL 5.1. 최신 버전의 MySQL은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://en.wikipedia.org/wiki/InfiniDB)
-* InfiniDB는 수명이 종료되었습니다. [자세히 알아보기](https://www.mysql.com/support)
-* Teradata 13, 13.1. 최신 버전의 Teradata는 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://www.info.teradata.com/download.cfm?ItemID=1007255)
-* Netezza 6.02, 7.0. Netezza는 수명이 종료되었습니다. [자세히 알아보기](https://en.wikipedia.org/wiki/Netezza)
-* AsterData 5.0. AsterData는 수명이 종료되었습니다. [자세히 알아보기](https://en.wikipedia.org/wiki/Aster_Data_Systems)
-* Sybase IQ 15.2, 15.4, 15.5 및 Sybase ASE 15.0이 지원됩니다. Sybase의 최신 버전은 FDA(Federated Data Access)를 통해 지원됩니다. [자세히 알아보기](https://sites.google.com/site/dbatipsandtricks/time-tracker)
-* HiveSQL을 통한 Hadoop: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic에서는 여전히 FDA(Federated Data Access)를 통해 HiveSQL을 통해 나열된 Hadoop 버전을 지원하지만, 이러한 버전은 다음과 병합됩니다. HortonWorks(HDP 2.4.X, 2.5.x, 2.6.x) 및 HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)
+* DB2 UDB 9.5, 9.7.
+* Oracle 9i, 10G R2.
+* 최대 9.6의 PostgreSQL 버전이 수명이 종료되었습니다.
+* MSSQL 2000, 2005, 2008 R2.
+* MySQL 5.1.
+* InfiniDB는 수명이 종료되었습니다.
+* Teradata 13, 13.1.
+* Netezza 6.02, 7.0. Netezza는 수명이 종료되었습니다.
+* AsterData 5.0. AsterData는 수명이 종료되었습니다.
+* Sybase IQ 15.2, 15.4, 15.5 및 Sybase ASE 15.0.
+* HiveSQL을 통한 hadoop: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic은 여전히 FDA(Federated Data Access)를 통해 HiveSQL을 통해 나열된 Hadoop 버전을 지원하지만, 이러한 버전은 다음과 병합됩니다. HortonWorks(HDP 2.4.X, 2.5.x, 2.6.x) 및 HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)
 
 **RDBMS 서버**
 
