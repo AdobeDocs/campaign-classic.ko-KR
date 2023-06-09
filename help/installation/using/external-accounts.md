@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 9%
+source-wordcount: '1830'
+ht-degree: 8%
 
 ---
 
@@ -59,27 +59,27 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 
 * **[!UICONTROL Server]**
 
-   POP3 서버의 URL.
+  POP3 서버의 URL.
 
 * **[!UICONTROL Port]**
 
-   POP3 연결 포트 번호. 기본 포트는 110입니다.
+  POP3 연결 포트 번호. 기본 포트는 110입니다.
 
 * **[!UICONTROL Account]**
 
-   사용자 이름.
+  사용자 이름.
 
 * **[!UICONTROL Password]**
 
-   사용자 계정 암호.
+  사용자 계정 암호.
 
 * **[!UICONTROL Encryption]**
 
-   다음 사이에 선택한 암호화 유형: **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** 또는 **[!UICONTROL POP3S]**.
+  다음 사이에 선택한 암호화 유형: **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** 또는 **[!UICONTROL POP3S]**.
 
 * **[!UICONTROL Function]**
 
-   인바운드 이메일 또는 SOAP 라우터
+  인바운드 이메일 또는 SOAP 라우터
 
 >[!IMPORTANT]
 >
@@ -89,19 +89,19 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 
 * **[!UICONTROL Azure tenant]**
 
-   Azure ID(또는 디렉터리(테넌트) ID)는 **기본 사항** azure 포털에서 애플리케이션 개요 드롭다운
+  Azure ID(또는 디렉터리(테넌트) ID)는 **기본 사항** azure 포털에서 애플리케이션 개요 드롭다운
 
 * **[!UICONTROL Azure Client ID]**
 
-   클라이언트 ID(또는 애플리케이션(클라이언트) ID)는 **기본 사항** azure 포털에서 애플리케이션 개요 드롭다운
+  클라이언트 ID(또는 애플리케이션(클라이언트) ID)는 **기본 사항** azure 포털에서 애플리케이션 개요 드롭다운
 
 * **[!UICONTROL Azure Client secret]**
 
-   클라이언트 암호 ID는 **클라이언트 암호** 의 열 **인증서 및 암호** Azure 포털에 있는 애플리케이션의 메뉴.
+  클라이언트 암호 ID는 **클라이언트 암호** 의 열 **인증서 및 암호** Azure 포털에 있는 애플리케이션의 메뉴.
 
 * **[!UICONTROL Azure Redirect URL]**
 
-   리디렉션 URL은 **인증** Azure 포털에 있는 애플리케이션의 메뉴. 다음 구문으로 끝나야 합니다 `nl/jsp/oauth.jsp`, 예: `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
+  리디렉션 URL은 **인증** Azure 포털에 있는 애플리케이션의 메뉴. 다음 구문으로 끝나야 합니다 `nl/jsp/oauth.jsp`, 예: `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
 다른 자격 증명을 입력한 후 **[!UICONTROL Setup the connection]** 외부 계정 구성을 완료합니다.
 
@@ -113,7 +113,7 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 
 다음 채널을 구성할 수 있습니다.
 
-* [이메일](../../installation/using/deploying-an-instance.md#email-channel-parameters)
+* [이메일](#email-routing-external-account)
 * [모바일(SMS)](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)
 * [휴대폰](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [DM](../../delivery/using/about-direct-mail-channel.md)
@@ -121,6 +121,20 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 * [Twitter](../../social/using/about-social-marketing.md)
 * [iOS 채널](../../delivery/using/configuring-the-mobile-application.md)
 * [Android 채널](../../delivery/using/configuring-the-mobile-application-android.md)
+
+### 이메일 라우팅 {#email-routing-external-account}
+
+이메일 라우팅 외부 계정은 기본적으로 제공되며 구성에 맞게 조정됩니다.
+
+온-프레미스 고객은 아래 설명된 대로 새 라우팅 외부 계정을 만들거나 매개 변수를 업데이트할 수 있습니다. 이 구성은 전문가 사용자에게 예약되어 있으며 전달성에 영향을 줄 수 있습니다. 질문이 있는 경우 Adobe 고객 지원 센터 또는 Adobe 담당자에게 문의하십시오.
+
+* 다음을 사용할 수 있습니다. **중간 소싱**, **외부** 라우팅 또는 **일괄** 게재 라우팅 유형.
+
+* 대상 **일괄** 및 **중간 소싱** 게재 모드에서 브랜딩 매개 변수를 **브랜딩** 탭. 이러한 매개 변수는 [기본 매개 변수](../../installation/using/deploying-an-instance.md#email-channel-parameters) 대상 **미러 페이지 URL** 및 **오류 주소** 특정 브랜드 설정을 사용하는 경우입니다.
+
+  ![](assets/ext-account-branding.png)
+
+* 중간 소싱 외부 계정을 구성하려면 다음을 참조하십시오. [이 섹션](mid-sourcing-server.md)
 
 ### 실행 인스턴스  {#execution-instance-external-account}
 
@@ -130,15 +144,15 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 
 * **[!UICONTROL URL]**
 
-   실행 인스턴스가 설치된 서버의 URL.
+  실행 인스턴스가 설치된 서버의 URL.
 
 * **[!UICONTROL Account]**
 
-   계정 이름입니다. 연산자 폴더에 정의된 메시지 센터 에이전트와 일치해야 합니다.
+  계정 이름입니다. 연산자 폴더에 정의된 메시지 센터 에이전트와 일치해야 합니다.
 
 * **[!UICONTROL Password]**
 
-   연산자 폴더에 정의된 계정의 암호입니다.
+  연산자 폴더에 정의된 계정의 암호입니다.
 
 이 구성에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../message-center/using/configuring-instances.md#control-instance).
 
@@ -154,23 +168,23 @@ FTP 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액�
 
 * **[!UICONTROL Server]**
 
-   FTP 서버 이름입니다.
+  FTP 서버 이름입니다.
 
 * **[!UICONTROL Port]**
 
-   FTP 연결 포트 번호입니다. 기본 포트는 21입니다.
+  FTP 연결 포트 번호입니다. 기본 포트는 21입니다.
 
 * **[!UICONTROL Account]**
 
-   사용자 이름.
+  사용자 이름.
 
 * **[!UICONTROL Password]**
 
-   사용자 계정 암호.
+  사용자 계정 암호.
 
 * **[!UICONTROL Encryption]**
 
-   다음 사이에 선택한 암호화 유형: **[!UICONTROL None]** 또는 **[!UICONTROL SSL]**.
+  다음 사이에 선택한 암호화 유형: **[!UICONTROL None]** 또는 **[!UICONTROL SSL]**.
 
 이러한 자격 증명을 찾을 위치를 알려면 다음을 참조하십시오. [페이지](https://help.dreamhost.com/hc/en-us/articles/115000675027-FTP-overview-and-credentials).
 
@@ -182,19 +196,19 @@ SFTP 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액
 
 * **[!UICONTROL Server]**
 
-   SFTP 서버의 URL입니다.
+  SFTP 서버의 URL입니다.
 
 * **[!UICONTROL Port]**
 
-   FTP 연결 포트 번호입니다. 기본 포트는 22입니다.
+  FTP 연결 포트 번호입니다. 기본 포트는 22입니다.
 
 * **[!UICONTROL Account]**
 
-   SFTP 서버에 연결하는 데 사용되는 계정 이름입니다.
+  SFTP 서버에 연결하는 데 사용되는 계정 이름입니다.
 
 * **[!UICONTROL Password]**
 
-   SFTP 서버에 연결하는 데 사용되는 암호입니다.
+  SFTP 서버에 연결하는 데 사용되는 암호입니다.
 
 Windows에서 SSH 키를 추가하려면:
 
@@ -237,39 +251,39 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 다음을 구�
 
 * **[!UICONTROL IMS server]**
 
-   IMS 서버의 URL. 스테이지 및 프로덕션 인스턴스가 동일한 IMS 프로덕션 끝점을 가리켜야 합니다.
+  IMS 서버의 URL. 스테이지 및 프로덕션 인스턴스가 동일한 IMS 프로덕션 끝점을 가리켜야 합니다.
 
 * **[!UICONTROL IMS scope]**
 
-   여기서 정의된 범위는 IMS에서 프로비저닝한 범위의 하위 집합이어야 합니다.
+  여기서 정의된 범위는 IMS에서 프로비저닝한 범위의 하위 집합이어야 합니다.
 
 * **[!UICONTROL IMS client identifier]**
 
-   IMS 클라이언트의 ID.
+  IMS 클라이언트의 ID.
 
 * **[!UICONTROL IMS client secret]**
 
-   IMS 클라이언트 암호의 자격 증명입니다.
+  IMS 클라이언트 암호의 자격 증명입니다.
 
 * **[!UICONTROL Callback server]**
 
-   Adobe Campaign 인스턴스의 URL에 액세스합니다.
+  Adobe Campaign 인스턴스의 URL에 액세스합니다.
 
 * **[!UICONTROL IMS organization ID]**
 
-   조직의 ID. 조직 ID를 찾으려면 다음을 참조하십시오. [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}.
+  조직의 ID. 조직 ID를 찾으려면 다음을 참조하십시오. [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}.
 
 * **[!UICONTROL Association mask]**
 
-   Enterprise Dashboard의 구성 이름을 Adobe Campaign의 그룹과 동기화할 수 있는 구문
+  Enterprise Dashboard의 구성 이름을 Adobe Campaign의 그룹과 동기화할 수 있는 구문
 
 * **[!UICONTROL Server]**
 
-   Adobe Experience Cloud 인스턴스의 URL.
+  Adobe Experience Cloud 인스턴스의 URL.
 
 * **[!UICONTROL Tenant]**
 
-   Adobe Experience Cloud 테넌트의 이름입니다.
+  Adobe Experience Cloud 테넌트의 이름입니다.
 
 이 구성에 대한 자세한 내용은 [이 페이지](../../integrations/using/configuring-ims.md).
 
@@ -289,15 +303,15 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 다음을 구�
 
 * **[!UICONTROL Server]**
 
-   Adobe Experience Manager 서버의 URL.
+  Adobe Experience Manager 서버의 URL.
 
 * **[!UICONTROL Port]**
 
-   Adobe Experience Manager 작성 인스턴스에 연결하는 데 사용되는 계정 이름입니다.
+  Adobe Experience Manager 작성 인스턴스에 연결하는 데 사용되는 계정 이름입니다.
 
 * **[!UICONTROL Password]**
 
-   Adobe Experience Manager 작성 인스턴스에 연결하는 데 사용되는 암호입니다.
+  Adobe Experience Manager 작성 인스턴스에 연결하는 데 사용되는 암호입니다.
 
 자세한 정보는 이 [섹션](../../integrations/using/about-adobe-experience-manager.md)을 참조하십시오.
 
@@ -319,21 +333,21 @@ Campaign - Microsoft Dynamics CRM 커넥터에 대해 자세히 알아보기 [�
 
 * **[!UICONTROL Account]**
 
-   Microsoft CRM에 로그인하는 데 사용되는 계정.
+  Microsoft CRM에 로그인하는 데 사용되는 계정.
 
 * **[!UICONTROL Server]**
 
-   Microsoft CRM 서버의 URL.
+  Microsoft CRM 서버의 URL.
 
-   Microsoft CRM을 찾으려면 **[!UICONTROL Server URL]**, Microsoft Dynamics CRM 계정에 액세스한 다음 **Dynamics 365** 앱을 선택합니다. 그러면 다음을 찾을 수 있습니다. **[!UICONTROL Server URL]** 브라우저의 주소 표시줄에 삽입할 수 있습니다(예: `https://myserver.crm.dynamics.com/`.
+  Microsoft CRM을 찾으려면 **[!UICONTROL Server URL]**, Microsoft Dynamics CRM 계정에 액세스한 다음 **Dynamics 365** 앱을 선택합니다. 그러면 다음을 찾을 수 있습니다. **[!UICONTROL Server URL]** 브라우저의 주소 표시줄에 삽입할 수 있습니다(예: `https://myserver.crm.dynamics.com/`.
 
 * **[!UICONTROL Client identifier]**
 
-   의 Microsoft Azure 관리 포털에서 찾을 수 있는 클라이언트 ID **[!UICONTROL Update your code]** 범주, **[!UICONTROL Client ID]** 필드.
+  의 Microsoft Azure 관리 포털에서 찾을 수 있는 클라이언트 ID **[!UICONTROL Update your code]** 범주, **[!UICONTROL Client ID]** 필드.
 
 * **[!UICONTROL CRM version]**
 
-   선택 **[!UICONTROL Dynamics CRM 365]** CRM 버전입니다.
+  선택 **[!UICONTROL Dynamics CRM 365]** CRM 버전입니다.
 
 포함 **[!UICONTROL Web API]** 배포 유형 및 **[!UICONTROL Certificate]** 인증, 다음 세부 정보를 제공해야 합니다.
 
@@ -341,15 +355,15 @@ Campaign - Microsoft Dynamics CRM 커넥터에 대해 자세히 알아보기 [�
 
 * **[!UICONTROL Server]**
 
-   Microsoft CRM 서버의 URL.
+  Microsoft CRM 서버의 URL.
 
-   Microsoft CRM을 찾으려면 **[!UICONTROL Server URL]**, Microsoft Dynamics CRM 계정에 액세스한 다음 **Dynamics 365** 앱을 선택합니다. 그러면 다음을 찾을 수 있습니다. **[!UICONTROL Server URL]** 브라우저의 주소 표시줄에 삽입할 수 있습니다(예: `https://myserver.crm.dynamics.com/`.
+  Microsoft CRM을 찾으려면 **[!UICONTROL Server URL]**, Microsoft Dynamics CRM 계정에 액세스한 다음 **Dynamics 365** 앱을 선택합니다. 그러면 다음을 찾을 수 있습니다. **[!UICONTROL Server URL]** 브라우저의 주소 표시줄에 삽입할 수 있습니다(예: `https://myserver.crm.dynamics.com/`.
 
 * **[!UICONTROL Private Key (Base64 encoded)]**
 
-   개인 키는 Base64로 인코딩해야 합니다.
+  개인 키는 Base64로 인코딩해야 합니다.
 
-   이렇게 하려면 Base64 인코더의 도움을 사용하거나 명령줄을 사용합니다 `base64 -w0 private.key` Linux용
+  이렇게 하려면 Base64 인코더의 도움을 사용하거나 명령줄을 사용합니다 `base64 -w0 private.key` Linux용
 
 * **[!UICONTROL Custom Key identifier]**
 
@@ -357,11 +371,11 @@ Campaign - Microsoft Dynamics CRM 커넥터에 대해 자세히 알아보기 [�
 
 * **[!UICONTROL Client identifier]**
 
-   의 Microsoft Azure 관리 포털에서 찾을 수 있는 클라이언트 ID **[!UICONTROL Update your code]** 범주, **[!UICONTROL Client ID]** 필드.
+  의 Microsoft Azure 관리 포털에서 찾을 수 있는 클라이언트 ID **[!UICONTROL Update your code]** 범주, **[!UICONTROL Client ID]** 필드.
 
 * **[!UICONTROL CRM version]**
 
-   다음 기간 동안의 CRM 버전 **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** 또는 **[!UICONTROL Dynamics CRM 2016]**.
+  다음 기간 동안의 CRM 버전 **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** 또는 **[!UICONTROL Dynamics CRM 2016]**.
 
 이 구성에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../platform/using/crm-connectors.md).
 
@@ -375,23 +389,23 @@ Adobe Campaign에서 작동하도록 Salesforce CRM 외부 계정을 구성하�
 
 * **[!UICONTROL Account]**
 
-   Salesforce CRM에 로그인하는 데 사용되는 계정입니다.
+  Salesforce CRM에 로그인하는 데 사용되는 계정입니다.
 
 * **[!UICONTROL Password]**
 
-   Salesforce CRM 로그인에 사용되는 암호입니다.
+  Salesforce CRM 로그인에 사용되는 암호입니다.
 
 * **[!UICONTROL Client identifier]**
 
-   클라이언트 식별자를 찾을 수 있는 위치를 파악하려면 다음을 참조하십시오. [페이지](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+  클라이언트 식별자를 찾을 수 있는 위치를 파악하려면 다음을 참조하십시오. [페이지](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
 
 * **[!UICONTROL Security token]**
 
-   보안 토큰을 찾을 위치를 확인하려면 다음을 참조하십시오. [페이지](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+  보안 토큰을 찾을 위치를 확인하려면 다음을 참조하십시오. [페이지](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
 
 * **[!UICONTROL API version]**
 
-   API 버전을 선택합니다.
+  API 버전을 선택합니다.
 
 이 외부 계정의 경우 구성 마법사로 Salesforce CRM을 구성해야 합니다.
 
@@ -409,23 +423,23 @@ Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe 
 
 * **[!UICONTROL AWS S3 Account Server]**
 
-   서버의 URL은 다음과 같이 채워야 합니다.
+  서버의 URL은 다음과 같이 채워야 합니다.
 
-   ```
-   <S3bucket name>.s3.amazonaws.com/<s3object path>
-   ```
+  ```
+  <S3bucket name>.s3.amazonaws.com/<s3object path>
+  ```
 
 * **[!UICONTROL AWS access key ID]**
 
-   AWS 액세스 키 ID를 찾을 수 있는 위치를 알려면 다음을 참조하십시오. [페이지](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
+  AWS 액세스 키 ID를 찾을 수 있는 위치를 알려면 다음을 참조하십시오. [페이지](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
 
 * **[!UICONTROL Secret access key to AWS]**
 
-   AWS에 대한 비밀 액세스 키를 찾을 수 있는 위치를 파악하려면 다음을 참조하십시오. [페이지](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+  AWS에 대한 비밀 액세스 키를 찾을 수 있는 위치를 파악하려면 다음을 참조하십시오. [페이지](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
 * **[!UICONTROL AWS Region]**
 
-   AWS 지역에 대한 자세한 내용은 다음을 참조하십시오. [페이지](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
+  AWS 지역에 대한 자세한 내용은 다음을 참조하십시오. [페이지](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
 
 * 다음 **[!UICONTROL Use server side encryption]** 확인란을 통해 파일을 S3 암호화 모드로 저장할 수 있습니다.
 
@@ -441,12 +455,12 @@ Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe 
 
 * **[!UICONTROL Server]**
 
-   Azure Blob 스토리지 서버의 URL입니다.
+  Azure Blob 스토리지 서버의 URL입니다.
 
 * **[!UICONTROL Encryption]**
 
-   다음 사이에 선택한 암호화 유형: **[!UICONTROL None]** 또는 **[!UICONTROL SSL]**.
+  다음 사이에 선택한 암호화 유형: **[!UICONTROL None]** 또는 **[!UICONTROL SSL]**.
 
 * **[!UICONTROL Access key]**
 
-   찾을 수 있는 위치 알기 **[!UICONTROL Access key]**, 다음을 참조하십시오. [페이지](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+  찾을 수 있는 위치 알기 **[!UICONTROL Access key]**, 다음을 참조하십시오. [페이지](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).

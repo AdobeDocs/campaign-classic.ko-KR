@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 4%
@@ -15,8 +15,6 @@ ht-degree: 4%
 ---
 
 # 서버 보안 설정 {#server-configuration}
-
-
 
 ## 파일 업로드 보호
 
@@ -76,9 +74,9 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 * HSTS, X-FRAME-HEADERS, CSP와 같은 일부 추가 OPTIONS을 추가할 수 있습니다.
 * 프로덕션에 적용하기 전에 테스트 환경에서 테스트해야 합니다.
 
-   >[!IMPORTANT]
-   >
-   >특정 헤더를 추가하여 Adobe Campaign을 중단할 수 있습니다.
+  >[!IMPORTANT]
+  >
+  >특정 헤더를 추가하여 Adobe Campaign을 중단할 수 있습니다.
 
 Adobe Campaign을 사용하면 `<dbcnx .../>` 요소를 생성하지 않습니다. 이 기능을 사용하지 마십시오.
 

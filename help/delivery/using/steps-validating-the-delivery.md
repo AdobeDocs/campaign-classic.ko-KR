@@ -6,7 +6,7 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability, Email Rendering, Proofs
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 8%
@@ -106,6 +106,7 @@ ht-degree: 8%
 이 옵션을 활성화하면 게재 준비가 데이터베이스 내에서 직접 수행되므로 분석을 상당히 가속화할 수 있습니다.
 
 현재 이 옵션은 다음 조건이 충족될 때만 사용할 수 있습니다.
+
 * 게재는 이메일이어야 합니다. 다른 채널은 현재 지원되지 않습니다.
 * 중간 소싱 또는 외부 공정순서를 사용하지 말고 일괄 게재 공정순서 유형만 사용해야 합니다. 에서 사용되는 라우팅을 확인할 수 있습니다. **[!UICONTROL General]** 의 탭 **[!UICONTROL Delivery properties]**.
 * 외부 파일에서 가져온 모집단을 타깃팅할 수 없습니다. 단일 게재의 경우 **[!UICONTROL To]** 다음에서 링크: **[!UICONTROL Email parameters]** 다음을 확인하십시오. **[!UICONTROL Defined in the database]** 옵션이 선택되어 있습니다. 워크플로우에서 사용되는 게재의 경우 수신자가 **[!UICONTROL Specified by the inbound event(s)]** 다음에서 **[!UICONTROL Delivery]** 탭.
@@ -136,7 +137,6 @@ ht-degree: 8%
 >* 사용 가능한 유효성 검사 모드는에 자세히 설명되어 있습니다. [승인 모드 변경](steps-validating-the-delivery.md#changing-the-approval-mode).
 >* 증명 대상 구성에 대해서는 다음에서 설명합니다. [특정 증명 대상 정의](steps-defining-the-target-population.md#defining-a-specific-proof-target).
 >
-
 
 증명을 보내려면 아래 단계를 따르십시오.
 

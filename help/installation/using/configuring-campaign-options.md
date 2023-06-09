@@ -7,16 +7,14 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
 workflow-type: tm+mt
-source-wordcount: '3991'
+source-wordcount: '3993'
 ht-degree: 6%
 
 ---
 
 # Campaign Classic 옵션 목록{#configuring-campaign-options}
-
-
 
 다음 **[!UICONTROL Administration / Platform / Options]** 노드를 사용하면 Adobe Campaign 옵션을 구성할 수 있습니다. 일부는 Campaign 설치 시 기본 제공되며, 일부는 필요한 경우 수동으로 추가할 수 있습니다. 사용 가능한 옵션은 인스턴스와 함께 설치된 패키지에 따라 다릅니다.
 
@@ -26,7 +24,6 @@ ht-degree: 6%
 >* 이 페이지에 나열되지 않은 옵션은 내부용이며 **은(는) 수정할 수 없습니다.**.
 >
 >* Adobe Campaign 옵션 수정 또는 업데이트는 전문가 사용자만 수행할 수 있습니다.
-
 
 ## 게재 {#delivery}
 
@@ -147,11 +144,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultReplyToAddr</span> <br /> </td> 
-   <td> 사용자가 비워 둔 경우 이메일 게재에 사용되는 인스턴스 수준의 기본 '회신' 이메일 주소입니다.<br /> </td> 
+   <td> 사용자가 이메일 게재를 위해 비워 둔 경우 인스턴스 수준에서 사용되는 기본 '회신' 이메일 주소입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> 고객의 일반 이름. 수신자에게 표시되는 일부 경고 메시지에 사용됩니다.<br /> "***** 또는 제휴 회사와 연락하여 이 메시지를 받았습니다. *****에서 더 이상 메시지를 받지 않음"<br /> </td> 
+   <td> 고객의 일반 이름. 수신자에게 표시되는 일부 경고 메시지에 사용됩니다.<br /> "귀하가 '조직' 또는 제휴 회사에 연락하여 이 메시지를 받았습니다. 더 이상 '조직'에서 메시지를 받지 않음<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
@@ -371,7 +368,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 
-   <td> 예약된 모드에서 타겟팅 및 추출 조건에 대한 기간.<br /> </td> 
+   <td> 예약 모드에서 타겟팅 및 추출 조건에 대한 기간.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Workflow_AnalysisThreshold</span> <br /> </td> 
