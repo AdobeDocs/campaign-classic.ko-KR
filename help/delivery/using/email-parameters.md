@@ -6,7 +6,7 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 14%
@@ -61,19 +61,19 @@ Adobe Campaign을 사용하면 메시지 타겟에 BCC 이메일 주소를 추�
 
 * **[!UICONTROL Use recipient preferences]** (기본 모드)
 
-   메시지 형식은 수신자 프로필에 저장된 데이터에 따라 정의되며 기본적으로 **[!UICONTROL email format]** 필드(@emailFormat). 수신자가 특정 형식으로 메시지를 수신하려는 경우에 보내는 형식입니다. 필드를 입력하지 않으면 다중 파트 대체 메시지가 전송됩니다(아래 참조).
+  메시지 형식은 수신자 프로필에 저장된 데이터에 따라 정의되며 기본적으로 **[!UICONTROL email format]** 필드(@emailFormat). 수신자가 특정 형식으로 메시지를 수신하려는 경우에 보내는 형식입니다. 필드를 입력하지 않으면 다중 파트 대체 메시지가 전송됩니다(아래 참조).
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
-   메시지에는 텍스트 및 HTML 두 가지 형식이 모두 포함되어 있습니다. 수신에 표시되는 형식은 수신자의 메일 소프트웨어(다중 파트 대체)의 구성에 따라 다릅니다.
+  메시지에는 텍스트 및 HTML 두 가지 형식이 모두 포함되어 있습니다. 수신에 표시되는 형식은 수신자의 메일 소프트웨어(다중 파트 대체)의 구성에 따라 다릅니다.
 
-   >[!IMPORTANT]
-   >
-   >이 옵션에는 문서의 두 버전이 모두 포함됩니다. 따라서 메시지 크기가 더 크기 때문에 게재 속도에 영향을 줍니다.
+  >[!IMPORTANT]
+  >
+  >이 옵션에는 문서의 두 버전이 모두 포함됩니다. 따라서 메시지 크기가 더 크기 때문에 게재 속도에 영향을 줍니다.
 
 * **[!UICONTROL Send all messages in text format]**
 
-   메시지는 텍스트 형식으로 전송됩니다. HTML 형식은 전송되지 않지만 수신자가 메시지를 클릭할 때만 미러 페이지에 사용됩니다.
+  메시지는 텍스트 형식으로 전송됩니다. HTML 형식은 전송되지 않지만 수신자가 메시지를 클릭할 때만 미러 페이지에 사용됩니다.
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 BCC 이메일 주소를 추�
 * **[!UICONTROL Do not generate the mirror page]**: 링크가 게재에 있어도 미러 페이지가 생성되지 않습니다.
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: 이 옵션을 사용하면 게재 로그 창에서 개인화 정보를 사용하여 미러 페이지의 콘텐츠에 액세스할 수 있습니다. 이렇게 하려면 게재 종료 후 **[!UICONTROL Delivery]** 을(를) 탭하고 미러 페이지를 보려는 수신자의 행을 선택합니다. **[!UICONTROL Display the mirror page for this message...]** 링크를 클릭합니다.
 
-   ![](assets/s_ncs_user_wizard_miror_page_link.png)
+  ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
 ## 문자 인코딩 {#character-encoding}
 
@@ -117,7 +117,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 BCC 이메일 주소를 추�
 
 다음 **[!UICONTROL SMTP]** 게재 매개 변수 탭에서는 바운스 메일 관리를 구성할 수 있습니다.
 
-기본적으로 반송된 이메일은 플랫폼의 기본 오류 상자에 수신되지만 게재에 대한 특정 오류 주소를 정의할 수 있습니다.
+기본적으로 바운스된 이메일은 [플랫폼의 기본 오류 상자](../../installation/using/deploying-an-instance.md#parameters-for-delivered-emails-parameters-for-delivered-emails), 그러나 게재에 대한 특정 오류 주소를 정의할 수 있습니다.
 
 애플리케이션에서 자동으로 반송 메일을 검증할 수 없는 경우 반송 메일의 이유를 조사하기 위해 이 화면에서 특정 주소를 정의할 수도 있습니다. 이러한 각 필드에 대해 **개인화된 필드 추가** 아이콘을 사용하면 개인화 매개 변수를 추가할 수 있습니다.
 

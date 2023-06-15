@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
 workflow-type: tm+mt
 source-wordcount: '1830'
 ht-degree: 8%
@@ -126,7 +126,7 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 
 이메일 라우팅 외부 계정은 기본적으로 제공되며 구성에 맞게 조정됩니다.
 
-온-프레미스 고객은 아래 설명된 대로 새 라우팅 외부 계정을 만들거나 매개 변수를 업데이트할 수 있습니다. 이 구성은 전문가 사용자에게 예약되어 있으며 전달성에 영향을 줄 수 있습니다. 질문이 있는 경우 Adobe 고객 지원 센터 또는 Adobe 담당자에게 문의하십시오.
+온-프레미스/하이브리드 고객은 아래 설명된 대로 새 라우팅 외부 계정을 만들거나 매개 변수를 업데이트할 수 있습니다. 이 구성은 전문가 사용자에게 예약되어 있으며 전달성에 영향을 줄 수 있습니다. 질문이 있는 경우 Adobe 고객 지원 센터 또는 Adobe 담당자에게 문의하십시오.
 
 * 다음을 사용할 수 있습니다. **중간 소싱**, **외부** 라우팅 또는 **일괄** 게재 라우팅 유형.
 
