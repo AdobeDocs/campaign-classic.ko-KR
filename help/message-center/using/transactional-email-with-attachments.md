@@ -5,10 +5,10 @@ description: Adobe Campaign을 사용하여 개별 및/또는 개인화된 첨�
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 5%
+source-wordcount: '663'
+ht-degree: 4%
 
 ---
 
@@ -38,11 +38,13 @@ ht-degree: 5%
 * 위에서 설명한 예제 시나리오와 같이 첨부 파일이 트랜잭션과 연결된 경우 고객 프로세스 중에 생성된 동적 데이터가 포함될 수 있습니다.
 * PDF 파일을 첨부하면 암호화하여 HTTPS를 통해 전송할 수 있으므로 보안이 최적화됩니다.
 
->[!NOTE]
->
->성능 문제를 방지하기 위해 개인화된 URL에서 바로 다운로드한 이미지를 첨부 파일로 포함하는 경우 각 이미지 크기는 기본적으로 100,000바이트를 초과할 수 없습니다. 이 권장 임계값은 다음 위치에서 구성할 수 있습니다. [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
+## Recommendations 및 보호 기능 {#important-notes}
 
-## 권장 사항 {#important-notes}
+성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100MB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션을 선택합니다. 그러나 Adobe은 이메일 게재에서 큰 이미지를 피하는 것을 강력히 권장합니다.
+
+Adobe은 또한 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 기본적으로 하나의 파일만 전자 메일에 첨부 파일로 추가할 수 있습니다. 이 임계값은 다음에서 구성할 수 있습니다. `NmsDelivery_MaxRecommendedAttachments` 옵션을 선택합니다.
+
+다음에서 자세히 알아보기 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
 
 이 시나리오를 구현하기 전에 아래 지침을 주의 깊게 읽어 보십시오.
 

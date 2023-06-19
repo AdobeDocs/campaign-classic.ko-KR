@@ -6,16 +6,14 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1943'
 ht-degree: 1%
 
 ---
 
 # 이메일 콘텐츠 정의 {#defining-the-email-content}
-
-
 
 ## 발신자 {#sender}
 
@@ -29,15 +27,14 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->* 기본적으로 발신자의 주소가 답글에 사용됩니다.
->* 헤더 매개 변수는 비워 둘 수 없습니다. 기본적으로 배포 마법사를 구성할 때 입력되는 값이 포함됩니다. 자세한 내용은 [설치 안내서](../../installation/using/deploying-an-instance.md).
+>* 기본적으로 발신자의 주소가 회신에 사용됩니다.
+>* 헤더 매개 변수는 비워 둘 수 없습니다. 기본적으로 배포 마법사를 구성할 때 입력되는 값이 포함됩니다. [이 섹션](../../installation/using/deploying-an-instance.md)에서 자세히 알아보십시오.
 >* 이메일을 보낼 수 있도록 하려면 발신자 주소가 필요합니다(RFC 표준).
 >* Adobe Campaign은 입력한 이메일 주소의 구문을 확인합니다.
 
-
->[!IMPORTANT]
+>[!CAUTION]
 >
->요청하지 않은 이메일(스팸)을 방지하기 위해 인터넷 액세스 공급자(ISP)가 구현한 검사 컨텍스트에서, Adobe은 게재 및 답글에 지정된 주소에 해당하는 이메일 계정을 만들 것을 권장합니다. 메시징 시스템 관리자에게 문의하십시오.
+>게재 문제를 방지하려면 게재 및 답글에 대해 지정된 주소에 해당하는 이메일 계정이 있어야 하며 모니터링해야 합니다. 시스템 관리자에게 문의하십시오.
 
 ## 메시지 제목 {#message-subject}
 
@@ -71,45 +68,45 @@ ht-degree: 1%
 
 * HTML 콘텐츠를 가져오려면 **[!UICONTROL Open]** 단추를 클릭합니다. 소스 코드를 **[!UICONTROL Source]** 하위 탭.
 
-   를 사용하는 경우 [디지털 콘텐츠 편집기](../../web/using/about-campaign-html-editor.md) (DCE): [콘텐츠 템플릿 선택](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
+  를 사용하는 경우 [디지털 콘텐츠 편집기](../../web/using/about-campaign-html-editor.md) (DCE): [콘텐츠 템플릿 선택](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
 
-   >[!IMPORTANT]
-   >
-   >HTML 콘텐츠를 미리 만든 다음 Adobe Campaign으로 가져와야 합니다. HTML 편집기는 콘텐츠 작성용으로 디자인되지 않았습니다.
+  >[!IMPORTANT]
+  >
+  >HTML 콘텐츠를 미리 만든 다음 Adobe Campaign으로 가져와야 합니다. HTML 편집기는 콘텐츠 작성용으로 디자인되지 않았습니다.
 
-   다음 **[!UICONTROL Preview]** 하위 탭에서는 수신자에 대한 각 콘텐츠의 렌더링을 볼 수 있습니다. 개인화 필드 및 컨텐츠의 조건부 요소는 선택한 프로필에 대한 해당 정보로 대체됩니다.
+  다음 **[!UICONTROL Preview]** 하위 탭에서는 수신자에 대한 각 콘텐츠의 렌더링을 볼 수 있습니다. 개인화 필드 및 컨텐츠의 조건부 요소는 선택한 프로필에 대한 해당 정보로 대체됩니다.
 
-   도구 모음 단추를 사용하면 HTML 페이지에 대한 표준 작업 및 서식 매개 변수에 액세스할 수 있습니다.
+  도구 모음 단추를 사용하면 HTML 페이지에 대한 표준 작업 및 서식 매개 변수에 액세스할 수 있습니다.
 
-   ![](assets/s_ncs_user_wizard_email01_138.png)
+  ![](assets/s_ncs_user_wizard_email01_138.png)
 
-   Adobe Campaign의 로컬 파일 또는 이미지 라이브러리의 메시지에 이미지를 삽입할 수 있습니다. 이렇게 하려면 **[!UICONTROL Image]** 아이콘을 클릭하고 적절한 옵션을 선택합니다.
+  Adobe Campaign의 로컬 파일 또는 이미지 라이브러리의 메시지에 이미지를 삽입할 수 있습니다. 이렇게 하려면 **[!UICONTROL Image]** 아이콘을 클릭하고 적절한 옵션을 선택합니다.
 
-   ![](assets/s_ncs_user_wizard_email01_18.png)
+  ![](assets/s_ncs_user_wizard_email01_18.png)
 
-   라이브러리 이미지는 **[!UICONTROL Resources>Online>Public resources]** 폴더 트리의 폴더. 도 참조하십시오. [이미지 추가 중](#adding-images).
+  라이브러리 이미지는 **[!UICONTROL Resources>Online>Public resources]** 폴더 트리의 폴더. 도 참조하십시오. [이미지 추가 중](#adding-images).
 
-   도구 모음의 마지막 버튼을 사용하여 개인화 필드를 삽입할 수 있습니다.
+  도구 모음의 마지막 버튼을 사용하여 개인화 필드를 삽입할 수 있습니다.
 
-   >[!NOTE]
-   >
-   >개인화 필드 사용은에 나와 있습니다. [개인화 기본 정보](about-personalization.md).
+  >[!NOTE]
+  >
+  >개인화 필드 사용은에 나와 있습니다. [개인화 기본 정보](about-personalization.md).
 
-   페이지 하단에 있는 탭에서는 생성 중인 페이지의 HTML 코드를 표시하고 개인화와 함께 메시지 렌더링을 볼 수 있습니다. 이 디스플레이를 시작하려면 다음을 클릭하십시오. **[!UICONTROL Preview]** 및 을(를) 사용하여 수신자 선택 **[!UICONTROL Test personalization]** 단추를 클릭합니다. 정의된 대상에서 수신자를 선택하거나 다른 수신자를 선택할 수 있습니다.
+  페이지 하단에 있는 탭에서는 생성 중인 페이지의 HTML 코드를 표시하고 개인화와 함께 메시지 렌더링을 볼 수 있습니다. 이 디스플레이를 시작하려면 다음을 클릭하십시오. **[!UICONTROL Preview]** 및 을(를) 사용하여 수신자 선택 **[!UICONTROL Test personalization]** 단추를 클릭합니다. 정의된 대상에서 수신자를 선택하거나 다른 수신자를 선택할 수 있습니다.
 
-   ![](assets/s_ncs_user_wizard_email01_139.png)
+  ![](assets/s_ncs_user_wizard_email01_139.png)
 
-   HTML 메시지의 유효성을 검사할 수 있습니다. 이메일 헤더의 콘텐츠를 볼 수도 있습니다.
+  HTML 메시지의 유효성을 검사할 수 있습니다. 이메일 헤더의 콘텐츠를 볼 수도 있습니다.
 
-   ![](assets/s_ncs_user_wizard_email01_140.png)
+  ![](assets/s_ncs_user_wizard_email01_140.png)
 
 * 텍스트 콘텐츠를 가져오려면 **[!UICONTROL Open]** 단추 또는 **[!UICONTROL Text Content]** 탭으로 이동하여 텍스트 형식으로 표시할 때 메시지의 내용을 입력합니다. 도구 모음 단추를 사용하여 콘텐츠에 대한 작업에 액세스합니다. 마지막 버튼을 사용하여 개인화 필드를 삽입할 수 있습니다.
 
-   ![](assets/s_ncs_user_wizard_email01_141.png)
+  ![](assets/s_ncs_user_wizard_email01_141.png)
 
-   HTML 형식으로는 **[!UICONTROL Preview]** 페이지 하단의 탭을 사용하여 개인화된 메시지 렌더링을 볼 수 있습니다.
+  HTML 형식으로는 **[!UICONTROL Preview]** 페이지 하단의 탭을 사용하여 개인화된 메시지 렌더링을 볼 수 있습니다.
 
-   ![](assets/s_ncs_user_wizard_email01_142.png)
+  ![](assets/s_ncs_user_wizard_email01_142.png)
 
 
 ## 대화형 콘텐츠 정의 {#amp-for-email-format}
@@ -145,22 +142,29 @@ Adobe Campaign을 사용하면 새로운 대화형 기능을 시도할 수 있�
 
 이모티콘 목록을 사용자 지정하려면 다음을 참조하십시오. [페이지](customizing-emoticon-list.md).
 
-## 이미지 추가 중 {#adding-images}
+## 이미지 추가 {#adding-images}
 
 HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 마법사에서 이미지가 포함된 HTML 페이지를 가져오거나 를 통해 HTML 편집기를 사용하여 직접 이미지를 삽입할 수 있습니다. **[!UICONTROL Image]** 아이콘.
+
+
+### 보호 기능 {#img-guardrails}
+
+성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100MB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션을 선택합니다. 그러나 Adobe은 이메일 게재에서 큰 이미지를 피하는 것을 강력히 권장합니다.
+
+다음에서 자세히 알아보기 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
+
+### 이미지 유형 {#img-types}
 
 이미지는 다음과 같을 수 있습니다.
 
 * 로컬 이미지 또는 서버에서 호출된 이미지
 * Adobe Campaign 공용 리소스 라이브러리에 저장된 이미지
 
-   공용 리소스는 **[!UICONTROL Resources > Online]** Adobe Campaign 계층 구조의 노드입니다. 라이브러리로 그룹화되고 이메일 메시지에 포함될 수 있지만, 캠페인이나 작업 또는 컨텐츠 관리에도 사용할 수 있습니다.
+  공용 리소스는 **[!UICONTROL Resources > Online]** Adobe Campaign 계층 구조의 노드입니다. 라이브러리로 그룹화되고 이메일 메시지에 포함될 수 있지만, 캠페인이나 작업 또는 컨텐츠 관리에도 사용할 수 있습니다.
 
 * Adobe Experience Cloud과 공유된 에셋. [이 섹션](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md)을 참조하십시오.
 
->[!IMPORTANT]
->
->게재 마법사를 사용하여 이메일 메시지에 이미지를 포함하려면 공개 리소스 관리를 사용하도록 Adobe Campaign 인스턴스를 구성해야 합니다. 이 절차는 배포 마법사에서 수행할 수 있습니다. 다음을 참조하십시오. [이 섹션](../../installation/using/deploying-an-instance.md) 를 참조하십시오.
+### 이미지 삽입 및 관리 {#manage-images}
 
 게재 마법사를 사용하여 로컬 이미지 또는 라이브러리에 저장된 이미지를 메시지 콘텐츠에 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL Image]** HTML 단추를 클릭합니다.
 
@@ -188,12 +192,10 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
 >[!IMPORTANT]
 >
->* 이미지 액세스 경로는 수동으로 업로드하는 동안 또는 메시지를 보낼 때 수정됩니다.
+> 이미지 URL은 수동으로 업로드하는 동안 또는 메시지를 보낼 때 수정됩니다.
 > 
->* 성능 문제를 방지하기 위해 개인화된 URL에서 바로 다운로드한 이미지를 포함할 경우 [첨부 파일](attaching-files.md), 각 이미지 크기는 기본적으로 100,000바이트를 초과할 수 없습니다. 이 권장 임계값은 다음 위치에서 구성할 수 있습니다. [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
 
-
-**사용 사례: 이미지가 포함된 메시지 보내기**
+### 사용 사례: 이미지가 포함된 메시지 보내기 {#uc-images}
 
 다음은 네 가지 이미지가 포함된 게재 샘플입니다.
 
@@ -253,23 +255,23 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
    * 1D 형식의 경우 Adobe Campaign에서 Codabar, Code 128, GS1-128(이전 EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, Interleaved 2 of 5, POSTNET 및 Royal Mail(RM4SCC) 형식을 사용할 수 있습니다.
 
-      1D 바코드의 예:
+     1D 바코드의 예:
 
-      ![](assets/barcode_insert_08.png)
+     ![](assets/barcode_insert_08.png)
 
    * DataMatrix 및 PDF417 유형은 2D 포맷과 관련이 있습니다.
 
-      2D 바코드의 예:
+     2D 바코드의 예:
 
-      ![](assets/barcode_insert_09.png)
+     ![](assets/barcode_insert_09.png)
 
    * QR 코드를 삽입하려면 이 유형을 선택하고 적용할 오류 수정 비율을 입력합니다. 이 비율은 반복되는 정보의 양과 악화 허용 한도를 정의합니다.
 
-      ![](assets/barcode_insert_06.png)
+     ![](assets/barcode_insert_06.png)
 
-      QR 코드의 예:
+     QR 코드의 예:
 
-      ![](assets/barcode_insert_12.png)
+     ![](assets/barcode_insert_12.png)
 
 1. 이메일에 삽입할 바코드의 크기를 입력합니다. 크기를 구성하면 바코드의 크기를 x1에서 x10으로 늘리거나 줄일 수 있습니다.
 1. 다음 **[!UICONTROL Value]** 필드를 사용하면 바코드의 값을 정의할 수 있습니다. 값은 특별 오퍼와 일치할 수 있으며 기준의 함수가 될 수 있습니다. 이 값은 고객에 연결된 데이터베이스 필드의 값이 될 수 있습니다.

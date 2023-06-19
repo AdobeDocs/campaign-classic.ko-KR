@@ -6,16 +6,14 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '966'
 ht-degree: 7%
 
 ---
 
 # 이메일에 파일 첨부{#attaching-files}
-
-
 
 ## 이메일 첨부 파일 정보 {#about-email-attachments}
 
@@ -33,6 +31,14 @@ ht-degree: 7%
 >[!NOTE]
 >
 >이러한 유형의 구성은 일반적으로 게재 템플릿에서 수행됩니다. 자세한 내용은 다음을 참조하십시오. [템플릿 기본 정보](about-templates.md).
+
+## 보호 기능 {#attachments-guardrails}
+
+성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100MB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션을 선택합니다. 그러나 Adobe은 이메일 게재에서 큰 이미지를 피하는 것을 강력히 권장합니다.
+
+Adobe은 또한 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 기본적으로 하나의 파일만 전자 메일에 첨부 파일로 추가할 수 있습니다. 이 임계값은 다음에서 구성할 수 있습니다. `NmsDelivery_MaxRecommendedAttachments` 옵션을 선택합니다.
+
+다음에서 자세히 알아보기 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## 로컬 파일 첨부 {#attaching-a-local-file}
 
@@ -113,9 +119,7 @@ ht-degree: 7%
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
->[!NOTE]
->
->성능 문제를 방지하기 위해 개인화된 URL에서 바로 다운로드한 이미지를 첨부 파일로 포함하는 경우 각 이미지 크기는 기본적으로 100,000바이트를 초과할 수 없습니다. 이 권장 임계값은 다음 위치에서 구성할 수 있습니다. [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
+
 
 ### 계산된 파일 첨부 {#attach-a-calculated-file}
 
@@ -182,6 +186,6 @@ ht-degree: 7%
 * 모든 수신자에게 첨부 파일을 보내지 않도록 필터 옵션을 정의할 수 있습니다. 옵션 **[!UICONTROL Enable filtering of recipients who will receive the attachment]** 는 JavaScript에 입력해야 하는 수신자 선택 스크립트를 정의하는 데 사용되는 입력 필드를 활성화합니다.
 * 파일 이름을 스크립팅하여 개인화할 수 있습니다.
 
-   창에 텍스트를 입력하고 드롭다운 목록에서 사용할 수 있는 개인화 필드를 사용합니다. 다음 예제에서는 파일 이름이 오늘의 날짜와 수신자의 이름을 포함하도록 개인화됩니다.
+  창에 텍스트를 입력하고 드롭다운 목록에서 사용할 수 있는 개인화 필드를 사용합니다. 다음 예제에서는 파일 이름이 오늘의 날짜와 수신자의 이름을 포함하도록 개인화됩니다.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)
+  ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)
