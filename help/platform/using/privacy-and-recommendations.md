@@ -8,9 +8,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2025'
 ht-degree: 99%
 
 ---
@@ -38,7 +38,7 @@ Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양�
 * [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (상업용 이메일에 관한 규정 및 요구 사항에 설정된 미국 법)
 * [CPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (California Consumer Privacy Act)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Thailand Personal Data Protection Act)
-* [LGPD](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)(브라질 일반 데이터 보호 법률) - 2020년 8월 16일부터 유효
+* [LGPD](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf) (브라질 일반 데이터 보호법)
 
 >[!NOTE]
 >
@@ -50,11 +50,11 @@ Adobe Campaign은 Adobe Experience Cloud 솔루션의 일부입니다. Campaign�
 
 * **Adobe Experience Cloud 사용 시 수집되는 정보**
 
-   Adobe Experience Cloud 솔루션을 사용하는 회사는 수집할 정보를 선택하고 Adobe Experience Cloud 계정으로 보냅니다. 수집할 수 있는 정보의 유형에는 웹 검색 활동, IP 주소, 모바일 디바이스의 위치 정보, 캠페인 성공률, 장바구니에서 구매 또는 장바구니로 배치된 항목 등이 있습니다.
+  Adobe Experience Cloud 솔루션을 사용하는 회사는 수집할 정보를 선택하고 Adobe Experience Cloud 계정으로 보냅니다. 수집할 수 있는 정보의 유형에는 웹 검색 활동, IP 주소, 모바일 디바이스의 위치 정보, 캠페인 성공률, 장바구니에서 구매 또는 장바구니로 배치된 항목 등이 있습니다.
 
-   >[!NOTE]
-   >
-   >모든 Adobe 제품에 대해 Campaign은 앱 및 웹 사이트 사용자에 대한 정보를 수집합니다. 자세한 내용은 [Adobe 개인정보 처리방침](https://www.adobe.com/kr/privacy/policy.html)을 참조하십시오.
+  >[!NOTE]
+  >
+  >모든 Adobe 제품에 대해 Campaign은 앱 및 웹 사이트 사용자에 대한 정보를 수집합니다. 자세한 내용은 [Adobe 개인정보 처리방침](https://www.adobe.com/kr/privacy/policy.html)을 참조하십시오.
 
 * **Adobe Experience Cloud을 정보를 수집하는 데 사용하는 방법**
 
@@ -63,14 +63,14 @@ Adobe Campaign은 Adobe Experience Cloud 솔루션의 일부입니다. Campaign�
 
 * **Adobe Experience Cloud 사용에 대한 사용자의 개인 정보 보호 선택**
 
-   Adobe는 고객에게 다음과 같은 내용을 설명하는 개인정보 처리방침을 제공하도록 요구합니다.
+  Adobe는 고객에게 다음과 같은 내용을 설명하는 개인정보 처리방침을 제공하도록 요구합니다.
 
    * Adobe Experience Cloud과 관련된 개인 정보 보호 사례
    * 사용자가 Adobe Experience Cloud과 관련하여 자신의 정보를 수집하거나 사용하는 것에 대한 환경 설정을 하는 방법
 
-   >[!NOTE]
-   >
-   >모든 Adobe 제품에서 Campaign 사용자는 앱 및 웹 사이트를 통해 수집된 정보의 공유를 옵트아웃할 수 있습니다. 자세한 내용은 [Adobe Experience Cloud 사용 정보 FAQ](https://www.adobe.com/kr/privacy/experience-cloud-usage-info-faq.html)를 참조하십시오.
+  >[!NOTE]
+  >
+  >모든 Adobe 제품에서 Campaign 사용자는 앱 및 웹 사이트를 통해 수집된 정보의 공유를 옵트아웃할 수 있습니다. 자세한 내용은 [Adobe Experience Cloud 사용 정보 FAQ](https://www.adobe.com/kr/privacy/experience-cloud-usage-info-faq.html)를 참조하십시오.
 
 Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 페이지](https://www.adobe.com/kr/privacy/marketing-cloud.html)를 참조하십시오.
 

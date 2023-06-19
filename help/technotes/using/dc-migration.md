@@ -7,9 +7,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1533'
 ht-degree: 2%
 
 ---
@@ -76,8 +76,6 @@ ht-degree: 2%
 ![](assets/GSMigrations.png)
 
 ## 마이그레이션 기본 정보
-
-영향을 받는 계정에 대해 2020/2021년에 Adobe Managed Services(Public Cloud)로 마이그레이션됩니다. Adobe이 귀사에서 이 여정을 안내합니다.
 
 이러한 노력을 시작하기 위해 이 마이그레이션이 필요한 계정은 타임라인을 제공하고 설명서에 액세스할 수 있는 Adobe의 이메일 커뮤니케이션을 수신하게 됩니다. 계정이 마이그레이션되도록 예약되었다는 알림이 됩니다.
 

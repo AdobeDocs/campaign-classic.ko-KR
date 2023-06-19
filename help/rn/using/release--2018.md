@@ -5,9 +5,9 @@ description: Campaign Classic 2018 릴리스에 대해 자세히 알아보기
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hidefromtoc: true
 exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
 workflow-type: tm+mt
-source-wordcount: '5385'
+source-wordcount: '5379'
 ht-degree: 8%
 
 ---
@@ -441,7 +441,7 @@ decryptPassword
  <tbody> 
   <tr> 
    <td> 유럽 연합 개인 정보 보호 규정(GDPR)<br /> </td> 
-   <td> <p>GDPR은 2018년 5월 25일부터 시행되는 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 새로운 개인 정보 보호법입니다. GDPR은 유럽 연합에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p> <p>Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보존 설정 및 사용자 역할 포함) 외에도 데이터 프로세서로서의 역할에서 특정 GDPR 요청에 대해 데이터 컨트롤러로서의 준비를 용이하게 하기 위해 추가 기능을 포함하는 기회를 포착하고 있습니다.</p> 
+   <td> <p>GDPR은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 개인 정보 보호법입니다. GDPR은 유럽 연합에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p> <p>Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보존 설정 및 사용자 역할 포함) 외에도 데이터 프로세서로서의 역할에서 특정 GDPR 요청에 대해 데이터 컨트롤러로서의 준비를 용이하게 하기 위해 추가 기능을 포함하는 기회를 포착하고 있습니다.</p> 
     <ul> 
      <li> <p>액세스 권한: 데이터 주체는 Adobe Campaign에 저장된 데이터를 포함하여 데이터 제어자가 캡처한 개인 데이터의 사본을 받을 수 있습니다.</p> </li> 
      <li> <p>삭제 권한: 데이터 주체가 데이터 제어자에 의해 캡처된 개인 데이터(Adobe Campaign에 저장된 데이터 포함)를 삭제할 수 있는 권한을 부여합니다.</p> </li> 
