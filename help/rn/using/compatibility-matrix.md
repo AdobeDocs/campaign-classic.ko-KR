@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -166,7 +166,6 @@ ht-degree: 99%
 >* RDBMS 드라이버는 RDBMS 서버 버전과 일치해야 합니다.
 >
 >* PostgreSQL은 호스팅 환경용 RDBMS입니다.
-
 
 ## CRM 커넥터{#CRMconnectors}
 
