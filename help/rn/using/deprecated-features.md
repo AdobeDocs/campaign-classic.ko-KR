@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Campaign Classic deprecated and removed features
+title: Campaign Classic 사용 중단 및 제거된 기능
 description: 이 페이지에는 Adobe Campaign Classic의 사용이 중단되었거나 제거된 기능이 있습니다.
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1508'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 
 * 22.1 릴리스부터 Adobe Campaign은 더 이상 CentOs 8.x(64비트)와 호환되지 않습니다. CentOS Linux 8은 2021년 12월 31일부로 EOL(수명 종료) 처리되었습니다. [자세히 알아보기](https://www.centos.org/centos-linux-eol/)
 
-   해당 운영 체제를 사용하는 경우 이에 따라 구현을 조정하세요. CentOS 7.x(64비트) 및 RHEL 8.x/7.x(64비트)는 계속 지원됩니다.
+  해당 운영 체제를 사용하는 경우 이에 따라 구현을 조정하세요. CentOS 7.x(64비트) 및 RHEL 8.x/7.x(64비트)는 계속 지원됩니다.
 
 * 21.1.3 릴리스부터 Adobe Campaign은 더 이상 Debian 8과 호환되지 않습니다.
 
@@ -214,7 +214,7 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 * PostgreSQL 9.3.
 * MySQL 5.5.
 * DB2 9.5.
-* Teradata 14 - 14.1.
+* Teradata 14 – 14.1.
 
 Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 않습니다. 최신 버전 또는 시스템을 사용하십시오.
 
@@ -227,8 +227,8 @@ Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 
 * Teradata 13, 13.1.
 * Netezza 6.02, 7.0. Netezza는 수명이 종료되었습니다.
 * AsterData 5.0. AsterData는 수명이 종료되었습니다.
-* Sybase IQ 15.2, 15.4, 15.5 및 Sybase ASE 15.0.
-* HiveSQL을 통한 hadoop: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic은 여전히 FDA(Federated Data Access)를 통해 HiveSQL을 통해 나열된 Hadoop 버전을 지원하지만, 이러한 버전은 다음과 병합됩니다. HortonWorks(HDP 2.4.X, 2.5.x, 2.6.x) 및 HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)
+* Sybase IQ 15.2, 15.4, 15.5, Sybase ASE 15.0.
+* HiveSQL을 통한 Hadoop: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic은 FDA(Federated Data Access)를 통해 목록에 있는 HiveSQL을 통한 Hadoop 버전을 계속 지원하지만, 해당 버전은 HortonWorks(HDP 2.4.X, 2.5.x, 2.6.x) 및 HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)과 병합됩니다.
 
 **RDBMS 서버**
 
