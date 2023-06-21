@@ -7,8 +7,9 @@ feature: Overview
 role: User
 level: Beginner
 hidefromtoc: true
+hide: true
 exl-id: e2eb7e04-faaa-4df0-913d-471c291eeb03
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 378ac691c15f8200f8a14d573d4b15521f6cb531
 workflow-type: tm+mt
 source-wordcount: '6601'
 ht-degree: 73%
@@ -38,7 +39,6 @@ _2020년 10월 27일_
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다. [자세히 알아보기](../../technotes/using/ims-updates.md)
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
 > * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign의 [레거시 oAuth 인증 모드는](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) **2021년 9월**&#x200B;부로 사용이 중단되었습니다. 호스팅 환경의 경우 **2022년 2월 23일**&#x200B;까지 연장 사용할 수 있습니다. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하면 2022년 2월까지 지원을 연장할 수 있습니다. Adobe에 [OAuth 애플리케이션의 AppID](../../integrations/using/configuring-pipeline.md#step-optional)를 제공해야 합니다.
-
 
 **새로운 기능**
 
@@ -229,7 +229,6 @@ _2020년 12월 22일_
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
 > * oAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/configuring-adobe-io.md) 설명한 대로 Adobe I/O로 이동해야 합니다. Campaign의 [레거시 oAuth 인증 모드는](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) **2021년 9월**&#x200B;부로 사용이 중단되었습니다. 호스팅 환경의 경우 **2022년 2월 23일**&#x200B;까지 연장 사용할 수 있습니다. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하면 2022년 2월까지 지원을 연장할 수 있습니다. Adobe에 [OAuth 애플리케이션의 AppID](../../integrations/using/configuring-pipeline.md#step-optional)를 제공해야 합니다.
 
-
 **개선 사항**
 
 * 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
@@ -374,9 +373,9 @@ _2020년 6월 8일_
 
 * 공유 메모리 버전이 증가했습니다.
 
-   >[!WARNING]
-   >
-   >이 개선 사항은 업그레이드를 수행한 후 추가 단계가 필요합니다. 아래의 **기술 진화** 섹션을 참조하십시오.
+  >[!WARNING]
+  >
+  >이 개선 사항은 업그레이드를 수행한 후 추가 단계가 필요합니다. 아래의 **기술 진화** 섹션을 참조하십시오.
 
 * 정리 워크플로우가 향상되었습니다. 이제 삭제된 모든 워크플로우의 분리된 작업 테이블도 정리 워크플로우에 의해 자동으로 삭제됩니다. [자세히 알아보기](../../production/using/database-cleanup-workflow.md#cleanup-of-workflow-instances)
 
@@ -524,7 +523,6 @@ _2020년 12월 23일_
 > * 이 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Adobe IMS(ID 관리 서비스)를 통해 Campaign에 연결할 경우, **2021년 6월 30일** 이후부터 Campaign 서버 및 클라이언트 콘솔은 Campaign에 연결할 수 있도록 업그레이드를 해야 합니다. [자세히 알아보기](../../technotes/using/ims-updates.md)
 >
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-
 
 * 연결 프로토콜은 새 IMS 인증 메커니즘을 따르도록 업데이트되었습니다.
 * SSRF(Server Side Request Forgery) 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-27777)
