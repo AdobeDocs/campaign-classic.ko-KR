@@ -6,10 +6,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 hide: true
 hidefromtoc: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 36%
+source-wordcount: '351'
+ht-degree: 35%
 
 ---
 
@@ -31,11 +31,11 @@ Adobe 따라서 링크 추적을 위해 서명 메커니즘을 비활성화하�
 
 * Gold Standard 8 ~ 11. [자세히 알아보기](../../rn/using/gold-standard.md#gs-8)
 * Campaign 21.1.1(빌드 9277) - 21.1.2(빌드 9282) 릴리스. [자세히 알아보기](../../rn/using/latest-release.md)
-* Campaign 20.3.1(빌드 9228) - 20.3.3(빌드 9234) 릴리스. [자세히 알아보기](../../rn/using/release--2020.md#release-20-3)
-* Campaign 20.2.1(빌드 9178) - 20.2.4(빌드 9187) 릴리스. [자세히 알아보기](../../rn/using/release--2020.md#release-20-2)
-* Campaign 20.1.1(빌드 9122) - 21.1.3(빌드 9124) 릴리스. [자세히 알아보기](../../rn/using/release--2020.md#release-20-1)
-* Campaign 19.2.2(빌드 9080) - 19.2.3(빌드 9081) 릴리스. [자세히 알아보기](../../rn/using/release--2019.md#release-19-2)
-* Campaign 19.1.5(빌드 9033) - 19.1.7(빌드 9036) 릴리스. [자세히 알아보기](../../rn/using/release--2019.md#release-19-1)
+* Campaign 20.3.1(빌드 9228) - 20.3.3(빌드 9234) 릴리스.
+* Campaign 20.2.1(빌드 9178) - 20.2.4(빌드 9187) 릴리스.
+* Campaign 20.1.1(빌드 9122) - 21.1.3(빌드 9124) 릴리스.
+* Campaign 19.2.2(빌드 9080) - 19.2.3(빌드 9081) 릴리스.
+* Campaign 19.1.5(빌드 9033) - 19.1.7(빌드 9036) 릴리스.
 
 
 버전을 확인하는 방법 알아보기 [이 섹션에서](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
@@ -59,6 +59,7 @@ Adobe 따라서 링크 추적을 위해 서명 메커니즘을 비활성화하�
 >[!NOTE]
 >
 >다음 **config-`<instance>`.xml** 파일이 **serverConf.xml** 설정. 다음과 같은 경우 **signEmailLink** 이(가)에 있습니다.  **config-`<instance>`.xml** (여기서 **인스턴스** 은 인스턴스의 이름입니다.), 로 설정해야 합니다. **false**.
+>
 
 **어떤 영향이 있습니까?**
 
@@ -69,3 +70,4 @@ Adobe 따라서 링크 추적을 위해 서명 메커니즘을 비활성화하�
 >[!NOTE]
 >
 >이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+>

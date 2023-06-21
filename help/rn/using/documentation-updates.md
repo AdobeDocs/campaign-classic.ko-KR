@@ -7,8 +7,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
+workflow-type: tm+mt
 source-wordcount: '3577'
 ht-degree: 100%
 
@@ -290,7 +290,7 @@ Campaign 데이터 모델 개요가 개선되고 재구성되었습니다. [자�
 
 Campaign FDA(Federated Data Access) 설명서가 각 외부 데이터베이스 구성에 대한 세부 사항을 포함하도록 개선되었으며, [이 섹션](../../installation/using/about-fda.md)으로 이동되었습니다.
 
-[Campaign 20.2.3 릴리스](../../rn/using/release--2020.md#release-20-2-3-build-9182)가 GA(General Availability)로 이동되었습니다.
+Campaign 20.2.3 릴리스를 GA(General Availability)로 이동했습니다.
 
 개인 정보 섹션은 [개인 정보 관리](../../platform/using/privacy-management.md) 및 [개인 정보 보호 요청 관리](../../platform/using/privacy-requests.md)라는 두 개의 새 페이지로 이동되고 보강되었습니다. 
 

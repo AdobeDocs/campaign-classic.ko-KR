@@ -4,10 +4,10 @@ title: 기술 정보 - IMS를 사용하여 Adobe Campaign에 연결하도록 환
 description: Campaign - IMS 업데이트
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 10%
+source-wordcount: '579'
+ht-degree: 9%
 
 ---
 
@@ -37,15 +37,15 @@ Campaign에 연결하는 경우 [Adobe ID을 통해](../../integrations/using/ab
 
 * 온-프레미스/하이브리드 고객은 위에 나열된 최신 버전 중 하나로 업그레이드해야 새 클라이언트 콘솔의 이점을 얻고 원활하게 전환할 수 있습니다 **2021년 6월 30일 이전**.
 
-   아래 나열된 새 버전 중 하나로 업그레이드해야 합니다.
+  아래 나열된 새 버전 중 하나로 업그레이드해야 합니다.
 
    * Gold Standard 11. [자세히 알아보기](../../rn/using/gold-standard.md)
    * Campaign 21.1.3 릴리스 [자세히 알아보기](../../rn/using/latest-release.md)
-   * Campaign 20.2.5 릴리스 [자세히 알아보기](../../rn/using/release--2020.md#release-20-2-5-build-9188)
-   * Campaign 20.1.4 릴리스 [자세히 알아보기](../../rn/using/release--2020.md#release-20-1-4-build-9126)
-   * Campaign 19.2.4 릴리스 [자세히 알아보기](../../rn/using/release--2019.md#release-19-2-4-build-9082)
+   * Campaign 20.2.5 릴리스
+   * Campaign 20.1.4 릴리스
+   * Campaign 19.2.4 릴리스
 
-   이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Campaign 서버와 클라이언트 콘솔은 모두 업그레이드해야 합니다. 모든 인스턴스가 업그레이드되면 이후에 Campaign에 연결할 수 있을 뿐만 아니라 클라이언트 콘솔을 이 버전으로 업그레이드해야 합니다 **2021년 6월 30일**.
+  이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Campaign 서버와 클라이언트 콘솔은 모두 업그레이드해야 합니다. 모든 인스턴스가 업그레이드되면 이후에 Campaign에 연결할 수 있을 뿐만 아니라 클라이언트 콘솔을 이 버전으로 업그레이드해야 합니다 **2021년 6월 30일**.
 
 또한 의 최신 업데이트를 확인합니다. [Windows 버전](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), 포함 **Internet Explorer 11** 기본 제공, 각 사용자의 컴퓨터에 설치됩니다.
 
@@ -62,13 +62,13 @@ Campaign에 연결하는 경우 [Adobe ID을 통해](../../integrations/using/ab
 
 * Campaign 클라이언트 콘솔을 실행하고 인스턴스 연결 설정에 액세스합니다. 다음과 같은 경우 **Adobe ID과 연결** 옵션을 선택하면 Adobe IMS를 사용하는 것입니다.
 
-   ![](../../integrations/using/assets/ims_1.png)
+  ![](../../integrations/using/assets/ims_1.png)
 
 또는
 
 * Campaign 클라이언트 콘솔을 실행하고 연결 창을 확인하십시오. 아래 화면에 표시된 대로 Adobe ID으로 연결하는 경우 IMS를 사용합니다.
 
-   ![](../../integrations/using/assets/adobeID.png)
+  ![](../../integrations/using/assets/adobeID.png)
 
 **연결 경고 메시지**
 
@@ -85,6 +85,7 @@ Internet Explorer 버전을 업데이트하지 않으면 다음 메시지가 표
 >[!NOTE]
 >
 >이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+>
 
 ## 유용한 링크
 

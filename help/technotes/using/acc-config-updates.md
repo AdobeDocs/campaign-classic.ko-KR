@@ -6,10 +6,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 13%
+source-wordcount: '1097'
+ht-degree: 11%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 13%
 >[!NOTE]
 >
 >이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+>
 
 ## 보안 업데이트 {#acc-security-updates}
 
@@ -39,10 +40,10 @@ ht-degree: 13%
 
 * Gold Standard 11. [자세히 알아보기](../../rn/using/gold-standard.md)
 * Campaign 21.1.1 릴리스 [자세히 알아보기](../../rn/using/latest-release.md)
-* Campaign 20.2.5 릴리스 [자세히 알아보기](../../rn/using/release--2020.md#release-20-2-5-build-9188)
-* Campaign 20.1.4 릴리스 [자세히 알아보기](../../rn/using/release--2020.md#release-20-1-4-build-9126)
-* Campaign 19.2.4 릴리스 [자세히 알아보기](../../rn/using/release--2019.md#release-19-2-4-build-9082)
-* Campaign 19.1.8 릴리스 [자세히 알아보기](../../rn/using/release--2019.md#release-19-1-8-build-9039)
+* Campaign 20.2.5 릴리스
+* Campaign 20.1.4 릴리스
+* Campaign 19.2.4 릴리스
+* Campaign 19.1.8 릴리스
 
 버전을 확인하는 방법 알아보기 [이 섹션에서](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
@@ -52,22 +53,23 @@ ht-degree: 13%
 
 * 하이브리드 고객은 Adobe에서 중간 소싱 인스턴스에 대해 예약된 업그레이드 날짜를 알려줍니다. Adobe은 마케팅 인스턴스도 업그레이드할 것을 강력히 권장합니다.
 
-   새 빌드는 Campaign Classic Adobe 17.9 릴리스와 역호환되지만, 보안 취약점을 해결하기 위해 모든 인스턴스에서 업그레이드를 수행하는 것이 좋습니다
+  새 빌드는 Campaign Classic Adobe 17.9 릴리스와 역호환되지만, 보안 취약점을 해결하기 위해 모든 인스턴스에서 업그레이드를 수행하는 것이 좋습니다
 
 * 온-프레미스 고객은 마케팅 및 중간 소싱 인스턴스를 최신 빌드로 업그레이드해야 합니다.
 
 >[!CAUTION]
 >
 >권장 기간 내에 업그레이드할 수 없는 경우 **Adobe 고객 지원 팀에 연락하여 인스턴스에 단기 수동 보안 수정 사항을 적용해야 합니다**.
+>
 
 ## Campaign Classic 클라이언트 콘솔 업데이트  {#acc-cc-updates}
 
 다음 **현재 사용 가능** 최근에 식별된 회귀 문제를 해결하려면 아래 콘솔 버전을 설치해야 합니다. 이 회귀로 인해 게재의 날짜 선택기 및 이미지 관리와 같은 클라이언트 콘솔의 일부 구성 요소를 사용할 수 없었습니다. **콘솔 업그레이드** 은(는) 필수입니다.
 
 * 최신 Gold Standard 11 빌드 9032@10c2709. [자세히 알아보기](../../rn/using/gold-standard.md)
-* Campaign 20.1.4 릴리스 [자세히 알아보기](../../rn/using/release--2020.md#release-20-1-4-build-9126)
-* Campaign 19.2.4 릴리스 [자세히 알아보기](../../rn/using/release--2019.md#release-19-2-4-build-9082)
-* Campaign 19.1.8 릴리스 [자세히 알아보기](../../rn/using/release--2019.md#release-19-1-8-build-9039)
+* Campaign 20.1.4 릴리스
+* Campaign 19.2.4 릴리스
+* Campaign 19.1.8 릴리스
 
 ## Adobe Identity Management 시스템(IMS) 업데이트
 
@@ -81,10 +83,10 @@ Campaign에 연결하는 경우 [Adobe ID을 통해](../../integrations/using/ab
 
 * Gold Standard 11. [자세히 알아보기](../../rn/using/gold-standard.md)
 * Campaign 21.1.1 릴리스 [자세히 알아보기](../../rn/using/latest-release.md)
-* Campaign 20.2.5 릴리스 [자세히 알아보기](../../rn/using/release--2020.md#release-20-2-5-build-9188)
-* Campaign 20.1.4 릴리스 [자세히 알아보기](../../rn/using/release--2020.md#release-20-1-4-build-9126)
-* Campaign 19.2.4 릴리스 [자세히 알아보기](../../rn/using/release--2019.md#release-19-2-4-build-9082)
-* Campaign 19.1.8 릴리스 [자세히 알아보기](../../rn/using/release--2019.md#release-19-1-8-build-9039)
+* Campaign 20.2.5 릴리스
+* Campaign 20.1.4 릴리스
+* Campaign 19.2.4 릴리스
+* Campaign 19.1.8 릴리스
 
 이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다. 업그레이드 이후 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결하려면 업그레이드가 필요합니다 **2021년 6월 30일**.
 
@@ -114,8 +116,8 @@ Campaign에 연결하는 경우 [Adobe ID을 통해](../../integrations/using/ab
 
 * Gold Standard 11. [자세히 알아보기](../../rn/using/gold-standard.md)
 * Campaign 21.1.1 릴리스 [자세히 알아보기](../../rn/using/latest-release.md)
-* Campaign 20.2.5 릴리스 [자세히 알아보기](../../rn/using/release--2020.md#release-20-2-5-build-9188)
-* Campaign 19.1.8 릴리스 [자세히 알아보기](../../rn/using/release--2019.md#release-19-1-8-build-9039)
+* Campaign 20.2.5 릴리스
+* Campaign 19.1.8 릴리스
 
 버전을 확인하는 방법 알아보기 [이 섹션에서](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
