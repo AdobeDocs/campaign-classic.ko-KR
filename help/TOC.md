@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 0f831817fc2e6b7b1d95a71f4ea08ec104268d11
-workflow-type: ht
-source-wordcount: '2531'
+source-git-commit: 88ee8d1575f6397a35fb6f7412cd08119a75c131
+workflow-type: tm+mt
+source-wordcount: '2529'
 ht-degree: 100%
 
 ---
@@ -24,9 +24,7 @@ ht-degree: 100%
    + 이전 릴리스 {#previous-releases}
       + [[!DNL Gold Standard]](rn/using/gold-standard.md)
       + [2021](rn/using/release--2021.md)
-      + [2020](rn/using/release--2020.md)
-      + [2019](rn/using/release--2019.md)
-      + [2018](rn/using/release--2018.md)
+      + [2022](rn/using/release--2022.md)
    + [사용되지 않는 기능](rn/using/deprecated-features.md)
    + [호환성 매트릭스](rn/using/compatibility-matrix.md)
 + 시작 {#getting-started}
