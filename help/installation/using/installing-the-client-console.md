@@ -7,16 +7,14 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+source-git-commit: 0bea34e2db2b54bdd2a6fed80b47d473c89f631e
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1135'
 ht-degree: 3%
 
 ---
 
 # Campaign 클라이언트 콘솔 설치 및 업데이트{#installing-the-client-console}
-
-
 
 Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결할 수 있는 리치 클라이언트입니다.
 
@@ -35,6 +33,10 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 >[!CAUTION]
 >
 >Campaign 클라이언트 콘솔 및 Campaign 애플리케이션 서버를 실행해야 합니다. **동일한 제품 버전**. Adobe은 또한 **동일한 제품 빌드**. 에서 Campaign 클라이언트 및 서버 버전을 확인하는 방법을 알아봅니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+>
+>콘솔이 설치된 설치 폴더에 대한 액세스는 의도한 사용자만 제한해야 하므로 쓰기 권한이 그에 따라 제한됩니다.
+
+
 
 ## Microsoft Edge Webview2 런타임 설치 {#webview}
 
