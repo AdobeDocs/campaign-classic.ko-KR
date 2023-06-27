@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: f38d9053a3817fabc196dfbbfc5fff67bf1a7b06
+source-git-commit: 2bbcfbff3ce77501fb36457dc823c0ef86550bec
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 24%
+source-wordcount: '190'
+ht-degree: 25%
 
 ---
 
@@ -29,20 +29,15 @@ Campaign 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결�
 
 >[!IMPORTANT]
 >
->IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우 이후 Campaign에 연결하려면 최신 빌드로 업그레이드해야 합니다 **2021년 6월 30일**. 이 업그레이드는 Campaign 서버와 클라이언트 콘솔 모두에 필수입니다. 현재 버전에 따라 다음 릴리스 중 하나로 업그레이드해야 합니다.
+>IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우 이후 Campaign에 연결하려면 최신 빌드로 업그레이드해야 합니다 **2021년 6월 30일**. 이 업그레이드는 Campaign 서버와 클라이언트 콘솔 모두에 필수입니다.
+>
+>현재 버전에 따라 다음 릴리스 중 하나로 업그레이드해야 합니다.
 >
 > * [캠페인 [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
 > * [Campaign 21.1.4](../../rn/using/latest-release.md)
-
-및
-
-> * Campaign 20.2.5
-> * Campaign 20.1.4
-> * Campaign 19.2.4
-> * Campaign 19.1.8
 >
-[IMS 업데이트에 대해 자세히 알아보기](../../technotes/using/ims-updates.md)
->>
+>[IMS 업데이트에 대해 자세히 알아보기](../../technotes/using/ims-updates.md)
+
 
 ## 추가 리소스
 
