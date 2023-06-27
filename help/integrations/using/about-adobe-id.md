@@ -8,7 +8,7 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
+source-git-commit: f38d9053a3817fabc196dfbbfc5fff67bf1a7b06
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 24%
@@ -16,8 +16,6 @@ ht-degree: 24%
 ---
 
 # Adobe ID 정보{#about-adobe-id}
-
-
 
 IMS(Identity Management System) Adobe은 관리자가 애플리케이션 및 서비스에 대한 사용자의 액세스 권한을 만들고 관리할 수 있도록 도와줍니다. 다양한 유형의 Adobe ID에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/enterprise/using/identity.html).
 
@@ -43,8 +41,8 @@ Campaign 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결�
 > * Campaign 19.2.4
 > * Campaign 19.1.8
 >
-> [!DNL :bulb:] [IMS 업데이트에 대해 자세히 알아보기](../../technotes/using/ims-updates.md)
->
+[IMS 업데이트에 대해 자세히 알아보기](../../technotes/using/ims-updates.md)
+>>
 
 ## 추가 리소스
 
