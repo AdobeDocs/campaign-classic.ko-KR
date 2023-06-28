@@ -5,16 +5,18 @@ description: Campaign Classic 2022 릴리스에 대해 자세히 알아보기
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 88ee8d1575f6397a35fb6f7412cd08119a75c131
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: '2025'
 ht-degree: 100%
 
 ---
 
 # 2022년 릴리스{#release-2022}
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 7.3.1 - 빌드 9352 {#release-7-3-1}
+## 릴리스 7.3.1 - 빌드 9352 {#release-7-3-1}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2022년 7월 1일_
 
@@ -82,7 +84,9 @@ _2022년 7월 1일_
 * 메시지를 준비하는 동안 외부 서버에서 청크 모드로 이미지가 업로드되지 않는 문제를 수정했습니다. (NEO-40307)
 * 원하는 수신자보다 많은 사람에게 게재가 보내질 수 있는 문제를 해결했습니다. (NEO-45108)
 
-## ![](assets/do-not-localize/green_2.png) 릴리스 7.2.2 - 빌드 9349 {#release-7-2-2}
+## 릴리스 7.2.2 - 빌드 9349 {#release-7-2-2}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2022년 3월 1일_
 
@@ -104,7 +108,9 @@ _2022년 3월 1일_
 * 브로드로그가 동시에 1,000개 이상 있는 경우 게재 가능성 워크플로우를 새로 고칠 때 오류가 발생하는 문제를 해결했습니다. (NEO-40276)
 * 오픈율 및 클릭률 게재 지표가 자동으로 업데이트되지 않는 문제를 해결했습니다. (NEO-43253)
 
-## ![](assets/do-not-localize/limited_2.png) 릴리스 7.2.1 - 빌드 9346 {#release-7-2-1}
+## 릴리스 7.2.1 - 빌드 9346 {#release-7-2-1}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2022년 1월 10일_
 

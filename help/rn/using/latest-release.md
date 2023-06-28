@@ -7,20 +7,20 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 88ee8d1575f6397a35fb6f7412cd08119a75c131
-workflow-type: ht
-source-wordcount: '962'
-ht-degree: 100%
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
+workflow-type: tm+mt
+source-wordcount: '986'
+ht-degree: 99%
 
 ---
 
 # 최신 릴리스{#latest-release}
 
-
-
 이 페이지에서는 **최신 Campaign v7 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다. 모든 새 빌드는 색상으로 상태가 표시됩니다. [이 페이지](rn-overview.md)에서 Campaign Classic v7 빌드 상태에 대해 자세히 알아보십시오.
 
-## ![](assets/do-not-localize/green_2.png) 릴리스 7.3.3 - 빌드 9359 {#release-7-3-3}
+## 릴리스 7.3.3 - 빌드 9359 {#release-7-3-3}
+
+[!BADGE 일반 공급]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
 
 >[!CAUTION]
 >
@@ -46,7 +46,9 @@ _2023년 3월 20일_
 * 경우에 따라 DCE(디지털 콘텐츠 편집기)의 **편집** 탭에서 스크롤할 수 없는 문제를 해결했습니다. (NEO-54474)
 * 데이터 보강 활동 두 가지가 연결에 동일한 이름 식별자를 사용하여 두 번째 데이터 보강 활동이 첫 번째 활동의 링크를 사용하는 문제를 해결했습니다. (NEO-48851)
 
-## ![](assets/do-not-localize/orange_2.png) 릴리스 7.3.2 - 빌드 9356 {#release-7-3-2}
+## 릴리스 7.3.2 - 빌드 9356 {#release-7-3-2}
+
+[!BADGE 제한된 가용성]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한된 가용성"}
 
 _2022년 11월 21일_
 

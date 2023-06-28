@@ -7,10 +7,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
-source-wordcount: '1670'
-ht-degree: 100%
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
+workflow-type: tm+mt
+source-wordcount: '1780'
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 100%
 ## [!DNL Gold Standard]년 릴리스 정보
 
 
-### ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 12 릴리스{#gs-12}
+### [!DNL Gold Standard] 12 릴리스{#gs-12}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2021년 9월 7일_
 
@@ -38,7 +40,9 @@ _2021년 8월 27일_
 * 서드파티 도구(이메일 클라이언트, 인터넷 브라우저 등)의 특수문자 처리 방식과 관련된 오류를 방지하기 위해 추적 서명 기능이  개선되었습니다. 이제 URL 매개 변수가 인코딩됩니다.
 * 콘솔에 차단기 오류 메시지가 표시될 수 있는 날짜 선택기 문제가 해결되었습니다. (NEO-36345)
 
-### ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 11 릴리스{#gs-11}
+### [!DNL Gold Standard] 11 릴리스{#gs-11}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2021년 4월 14일_
 
@@ -83,7 +87,9 @@ _2020년 12월 22일_
 
 * **보강** 활동을 실행할 때 워크플로우가 실패할 수 있는 문제를 해결했습니다. (NEO-17338)
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 10 릴리스{#gs-10}
+### [!DNL Gold Standard] 10 릴리스{#gs-10}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2020년 7월 7일_
 
@@ -95,7 +101,9 @@ _2020년 7월 7일_
 >
 >이 릴리스에서 사용할 수 있는 클라이언트 콘솔을 업그레이드하는 것이 좋습니다. [이 페이지](../../installation/using/installing-the-client-console.md)를 참조하십시오
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 9 릴리스{#gs-9}
+### [!DNL Gold Standard] 9 릴리스{#gs-9}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2020년 6월 22일_
 
@@ -111,7 +119,9 @@ _2020년 6월 22일_
 * 피싱 방지 서비스 문제를 해결했습니다. (NEO-25283)
 * 특정 사용자 지정 추적 공식을 사용할 때의 추적 문제를 해결했습니다. (NEO-25277)
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 8 릴리스{#gs-8}
+### [!DNL Gold Standard] 8 릴리스{#gs-8}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2020년 4월 29일_
 
@@ -136,7 +146,9 @@ _2020년 4월 29일_
 * 정리 워크플로우가 충돌하는 회귀 문제를 해결했습니다.
 * 정리 워크플로우 로그에서 사소한 회귀 문제를 해결했습니다.
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 6 릴리스{#gs-6}
+### [!DNL Gold Standard] 6 릴리스{#gs-6}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2020년 3월 9일_
 
@@ -144,7 +156,9 @@ _2020년 3월 9일_
 
 * SSL을 통해 FTP를 사용하는 외부 계정 문제를 해결했습니다. (NEO-20498)
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 5 릴리스{#gs-5}
+### [!DNL Gold Standard] 5 릴리스{#gs-5}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2019년 12월 17일_
 
@@ -152,7 +166,9 @@ _2019년 12월 17일_
 
 * 모바일(SMS, MMS), 푸시(iOS, Android) 및 소셜 네트워크(Facebook, Twitter)와 같은 통신 채널의 추적 문제를 해결했습니다. (NEO-19595)
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 4 릴리스{#gs-4}
+### [!DNL Gold Standard] 4 릴리스{#gs-4}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2019년 12월 11일_
 
@@ -160,7 +176,9 @@ _2019년 12월 11일_
 
 * MSSQL 데이터베이스를 사용하여 메시지를 전송할 때 성능 문제를 해결했습니다. (NEO-17558)
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 3 릴리스{#gs-3}
+### [!DNL Gold Standard] 3 릴리스{#gs-3}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2019년 11월 20일_
 
@@ -170,7 +188,9 @@ _2019년 11월 20일_
 * 다중 게재에 대한 누적 보고서를 표시할 때 발생하는 문제를 해결했습니다. (NEO-18165)
 * 웹 서버 충돌을 차단하거나 야기할 수 있는 문제를 해결했습니다.
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 2 릴리스{#gs-2}
+### [!DNL Gold Standard] 2 릴리스{#gs-2}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2019년 9월 19일_
 
@@ -179,7 +199,9 @@ _2019년 9월 19일_
 * Salesforce용 CRM 커넥터를 사용하는 경우 발생하는 문제를 해결했습니다. (NEO-17712)
 * 트랜잭션 메시지를 보낼 때 성능 문제가 발생할 수 있는 인덱스 문제를 해결했습니다.
 
-### ![](assets/do-not-localize/red_2.png) 릴리스 19.1.4 - 빌드 9032{#release-19-1-4-build-9032}
+### 릴리스 19.1.4 - 빌드 9032{#release-19-1-4-build-9032}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2019년 8월 13일_
 
@@ -200,6 +222,7 @@ _2019년 8월 13일_
 >별도로 언급되지 않는 한 모든 부 릴리스가 지원됩니다.
 >
 >Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구와 호환됩니다. 이러한 타사 시스템 및 도구의 특정 버전이 각각의 작성자와 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며 이후 제품 릴리스의 호환성 매트릭스에서 제거됩니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
+>
 
 ### 운영 체제{#OperatingSystems-gs}
 

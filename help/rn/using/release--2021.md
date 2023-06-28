@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: a06623611ff3f8d9dfb5d498e01686e12a924923
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
 workflow-type: tm+mt
-source-wordcount: '2545'
+source-wordcount: '2595'
 ht-degree: 100%
 
 ---
@@ -19,8 +19,11 @@ ht-degree: 100%
 
 >[!CAUTION]
 >**[!UICONTROL Help > About...]** 메뉴를 사용하여 Adobe Campaign의 [버전 및 빌드 번호](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)를 확인하세요. 그러나 이 페이지에 나열된 9277~9343의 모든 빌드에 대한 버전 번호는 7.1이 아니라 7.0으로 표시됩니다.
+> 
 
-### ![](assets/do-not-localize/limited_2.png) 릴리스 21.1.4 - 빌드 9343 {#release-21-1-4-build-9343}
+### 릴리스 21.1.4 - 빌드 9343 {#release-21-1-4-build-9343}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2021년 10월 8일_
 
@@ -32,7 +35,9 @@ _2021년 10월 8일_
 
 * 다중 중간 소스 인스턴스에서 두 개 이상의 IP 친화성을 사용할 때 게재 전송 중 [중간 서버 xxx에서 ip 친화성 xxx를 찾을 수 없음] 오류가 발생하는 현상을 해결했습니다. (NEO-37514)
 
-### ![](assets/do-not-localize/limited_2.png) 릴리스 21.1.4 - 빌드 9342 {#release-21-1-4-build-9342}
+### 릴리스 21.1.4 - 빌드 9342 {#release-21-1-4-build-9342}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2021년 9월 7일_
 
@@ -66,7 +71,9 @@ _2021년 9월 7일_
 * 수신되는 전환이 FDA 데이터 소스에서 온 경우 **데이터 보강** 워크플로우 활동에서 변수를 사용할 수 없는 문제를 해결했습니다.
 * 이메일 메시지에서 URL의 손상을 유발할 수 있는 문제를 해결했습니다.
 
-### ![](assets/do-not-localize/limited_2.png) 릴리스 21.1.3 - 빌드 9330 {#release-21-1-3-build-9330}
+### 릴리스 21.1.3 - 빌드 9330 {#release-21-1-3-build-9330}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2021년 6월 5일_
 
@@ -222,14 +229,18 @@ _2021년 6월 5일_
 * 게재 개인화에 실패한 특정 조인 메커니즘으로 인해 증명 그룹과 함께 게재를 보낼 수 없는 문제를 수정했습니다. (NEO-14391)
 * 쿼리 및 데이터 보강 활동이 게재 테이블을 타겟팅한 경우 경고 활동으로 경고를 보내지 못하는 문제를 해결했습니다. (NEO-25157)
 
-### ![](assets/do-not-localize/red_2.png) 릴리스 21.1.2 - 빌드 9282 {#release-21-1-2-build-9282}
+### 릴리스 21.1.2 - 빌드 9282 {#release-21-1-2-build-9282}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2021년 4월 15일_
 
 * 암호 관리가 보안을 최적화하기 위해 개선되었습니다.
 * MTA 작동 중단을 발생시킬 수 있는 문제를 수정했습니다.
 
-### ![](assets/do-not-localize/red_2.png) 릴리스 21.1.1 - 빌드 9277 {#release-21-1-1-build-9277}
+### 릴리스 21.1.1 - 빌드 9277 {#release-21-1-1-build-9277}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2021년 2월 22일_
 

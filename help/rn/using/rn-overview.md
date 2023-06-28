@@ -7,10 +7,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: ht
-source-wordcount: '933'
-ht-degree: 100%
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
+workflow-type: tm+mt
+source-wordcount: '932'
+ht-degree: 97%
 
 ---
 
@@ -24,15 +24,26 @@ Adobe Campaign Classic은 새로운 기능, 버그 수정으로 성능, 보안 �
 
 모든 새 빌드는 [릴리스 정보](latest-release.md)에서 색상으로 식별되는 상태를 제공합니다.
 
-![](assets/do-not-localize/green3.png) GA(**General Availability**) - 안정적인 최신 빌드로 프로덕션에서 검증되었으며 Adobe에서 권장합니다.
 
-![](assets/do-not-localize/limited3.png) LA(**Limited Availability**) - 주문형 배포만 가능합니다.
+| 상태 | 설명 |
+|---|---|
+| [!BADGE 일반 공급]{type=Positive} | 안정적인 최신 빌드, 프로덕션에서 검증되었으며 Adobe에서 권장합니다. |
+| [!BADGE 제한된 가용성]{type=Neutral} | 주문형 배포만 가능. |
+| [!BADGE 릴리스 후보]{type=Informative} | 새로운 기능이 포함된 최신 빌드. |
+| [!BADGE 더 이상 사용할 수 없음]{type=Caution} | 배포가 없습니다. 버그 해결이 없습니다. 최신 빌드로 업데이트하는 것이 좋습니다. |
+| [!BADGE 사용되지 않음]{type=negative} | 배포가 없습니다. 버그 해결이 없습니다. 기존 구현을 업그레이드해야 합니다. |
 
-![](assets/do-not-localize/blue3.png) RC(**Release Candidate**) - 새로운 기능이 포함된 최신 빌드입니다.
+<!--
+![](assets/do-not-localize/green3.png) **General Availability** (GA) - Latest stable build, validated in production, and recommended by Adobe. 
 
-![](assets/do-not-localize/orange3.png) **더 이상 사용할 수 없음** - 배포가 없습니다. 버그 해결이 없습니다. 최신 빌드로 업데이트하는 것이 좋습니다.
+![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
-![](assets/do-not-localize/red3.png) **사용되지 않음** - 배포가 없습니다. 버그 해결이 없습니다. 기존 구현을 업그레이드해야 합니다.
+![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest build with new capabilities.
+
+![](assets/do-not-localize/orange3.png) **No longer available** - No deployment. No bug fix. Update to a newer build is recommended.
+
+![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. No bug fix. Existing implementations must be upgraded.
+-->
 
 ## 릴리스 주기{#rn-cycle}
 
