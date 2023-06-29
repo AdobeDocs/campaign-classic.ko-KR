@@ -7,16 +7,14 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 2f6a5884e47ce10ce3c281a4377ee37522c52131
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 8%
+source-wordcount: '257'
+ht-degree: 7%
 
 ---
 
 # Campaign을 Experience Cloud 트리거와 함께 사용하기{#about-adobe-experience-triggers}
-
-
 
 [!DNL Triggers] 는 파이프라인을 사용하여 Adobe Campaign과 Adobe Analytics을 통합한 것입니다. 파이프라인은 사용자의 작업 또는 트리거를 웹 사이트에서 검색합니다. 장바구니 포기는 트리거의 예입니다. 트리거는 거의 실시간으로 이메일을 보내기 위해 Adobe Campaign에서 처리됩니다.
 
@@ -28,6 +26,8 @@ ht-degree: 8%
 
 구성이 최소한이고 서드파티가 관련이 없기 때문에 더 애자일 통합을 허용합니다.
 또한 마케팅 활동의 성능에 영향을 주지 않고 많은 양의 트래픽을 지원합니다. 예를 들어 통합은 시간당 백만 개의 트리거를 처리할 수 있습니다.
+
+![](assets/do-not-localize/book.png) 방법 살펴보기 [Experience Cloud 트리거 만들기](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html) 또한 중요한 소비자 행동을 식별하고, 정의하고, 모니터링합니다.
 
 ## [!DNL Triggers] 아키텍처 {#triggers-architecture}
 
