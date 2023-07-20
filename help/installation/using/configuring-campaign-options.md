@@ -2,14 +2,14 @@
 product: campaign
 title: 캠페인 옵션 구성
 description: Campaign 옵션 구성 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+source-git-commit: 942d44104ae56e9334f42f10751979ce4f4a714d
 workflow-type: tm+mt
-source-wordcount: '3993'
+source-wordcount: '4011'
 ht-degree: 6%
 
 ---
@@ -72,11 +72,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_LogsPerTransac</span> <br /> </td> 
-   <td> 한 번에 게재하기 위해 생성된 BroadLogs 수입니다.<br /> </td> 
+   <td> 게재를 준비하는 동안 broadLogs 삽입을 위한 최소 배치 크기(행 수)입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MaxDelayPerTransac</span> <br /> </td> 
-   <td> 트랜잭션당 로그(broadLogs) 삽입 (테이블에) : 배치당 처리할 행 수입니다.<br /> </td> 
+   <td> broadLogs 삽입을 위한 배치 크기가 게재 준비 중 두 배가 되는 배치 기간 임계값(밀리초 수)입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MidAnalyzeBatchSize</span> <br /> </td> 
