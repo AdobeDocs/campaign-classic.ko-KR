@@ -2,21 +2,19 @@
 product: campaign
 title: Adobe Campaign Classic 정보
 description: 주요 기능, 사용자 인터페이스 및 글로벌 지침을 살펴보십시오.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: be57635a6165790b8c8964d106ed0a3cb76c63af
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '930'
 ht-degree: 92%
 
 ---
 
 # Campaign Classic 시작{#about-adobe-campaign-classic}
-
-
 
 높은 수준의 고객 참여도와 훌륭한 경험을 제공하려면 브랜드는 모든 접점에서 일관된 고객 여정을 만들어야 합니다. 마케터는 이제 마케팅 투자에 대한 높은 수익을 제공하고 충성도를 높일 수 있는 크로스 채널 마케팅 캠페인을 효율적으로 디자인, 계획, 실행, 관리 및 최적화할 수 있습니다.
 
@@ -27,7 +25,6 @@ Adobe Campaign을 사용하면 대화형 마케팅 캠페인 만들기를 조정
 >* 이 컬렉션의 도움말 자료는 의 Campaign Classic v7에 적용됩니다. [최신 빌드](../../rn/using/latest-release.md). 특정 배지는 Campaign v8에도 섹션이 적용되는 경우 사용할 수 있습니다.
 >
 >* Adobe Campaign v8 설명서를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html).
-
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 주요 기능 살펴보기](#video)
 

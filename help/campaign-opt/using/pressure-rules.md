@@ -2,12 +2,12 @@
 product: campaign
 title: 압력 규칙
 description: 압력 규칙
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: be57635a6165790b8c8964d106ed0a3cb76c63af
 workflow-type: tm+mt
-source-wordcount: '3285'
+source-wordcount: '3266'
 ht-degree: 7%
 
 ---
@@ -62,7 +62,6 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
    >
    >예약된 게재는 다음 경우에만 고려됩니다. **[!UICONTROL Take the deliveries into account in the provisional calendar]** 옵션이 선택되어 있습니다. 자세한 내용은 다음을 참조하십시오. [기간 설정](#setting-the-period).
    >
-   >Campaign v8에서는 이 옵션을 사용할 수 없습니다.
 
 1. 가장 많은 메시지 수를 계산하는 방법을 정의합니다.
 
@@ -87,7 +86,8 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
    * 이 탭의 상단 섹션에서는 관련 수신자를 제한할 수 있습니다.
    * 이 탭의 아래 섹션에서는 계산할 메시지를 필터링할 수 있습니다.
 
-      다음 예제에서는 수신자만 **새 연락처** 폴더 및 다음으로 시작하는 게재 고려 **뉴스레터** 걱정하고 있습니다.
+     다음 예제에서는 수신자만 **새 연락처** 폴더 및 다음으로 시작하는 게재 고려 **뉴스레터** 걱정하고 있습니다.
+
    ![](assets/campaign_opt_create_a_rule_05.png)
 
 1. 다음 **[!UICONTROL Typologies]** 탭에서는 이 규칙을 적용하는 캠페인 유형화를 보거나 규칙을 하나 이상의 기존 유형화에 연결할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [유형화 적용](about-campaign-typologies.md#applying-typologies).
@@ -157,9 +157,6 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 또는
 
 1. 입력 **7일** 다음에서 **[!UICONTROL Period considered]** 필드 및 확인 **[!UICONTROL Take the deliveries into account in the provisional calendar]** 옵션: 규칙이 적용되는 게재 일자 이전 최대 7일까지 전송된 게재 및 게재 일자 이후 최대 7일까지 예약된 게재가 계산에 고려됩니다.
-
-   >[!AVAILABILITY]
-   >이 메서드는 Campaign v8에서 사용할 수 없습니다.
 
 기간 시작 일자는 데이터베이스 구성 방식에 따라 다릅니다.
 
@@ -276,15 +273,15 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 
 * 분석 결과 보기:
 
-   ![](assets/campaign_opt_pressure_sample_1_8.png)
+  ![](assets/campaign_opt_pressure_sample_1_8.png)
 
 * 게재를 편집하고 **[!UICONTROL Delivery]** 탭 및 **[!UICONTROL Exclusions]** 하위 탭:
 
-   ![](assets/campaign_opt_pressure_sample_1_9.png)
+  ![](assets/campaign_opt_pressure_sample_1_9.png)
 
 * 다음을 클릭합니다. **[!UICONTROL Audit]** 탭을 클릭한 다음 **[!UICONTROL Causes of exclusions]** 제외 수 및 적용된 유형화 규칙을 표시하는 하위 탭:
 
-   ![](assets/campaign_opt_pressure_sample_1_10.png)
+  ![](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### 비헤이비어를 기반으로 게재 가중치 계산 {#calculating-the-delivery-weight-based-on-behavior}
 
@@ -333,9 +330,6 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
    ![](assets/campaign_opt_pressure_example_1.png)
 
    게재 날짜 이전 최대 7일까지 전송된 게재 및 게재 날짜 이후 최대 7일까지 예약된 게재가 계산에 고려됩니다. 자세한 내용은 다음을 참조하십시오. [기간 설정](#setting-the-period).
-
-   >[!AVAILABILITY]
-   >예약된 게재는 Campaign v8에서 고려할 수 없습니다.
 
 1. 다음에서 **[!UICONTROL Typologies]** 탭에서 규칙을 캠페인 유형화에 연결합니다.
 1. 변경 내용을 저장합니다.
