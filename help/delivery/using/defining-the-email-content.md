@@ -2,13 +2,13 @@
 product: campaign
 title: Adobe Campaign Classic에서 이메일 콘텐츠 정의
 description: Adobe Campaign 사용 시 이메일 콘텐츠를 정의하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
+source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '1955'
 ht-degree: 1%
 
 ---
@@ -149,7 +149,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
 ### 보호 기능 {#img-guardrails}
 
-성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100MB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션을 선택합니다. 그러나 Adobe은 이메일 게재에서 큰 이미지를 피하는 것을 강력히 권장합니다.
+성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100KB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션을 선택합니다. 그러나 Adobe은 이메일 게재에서 큰 이미지를 피하는 것을 강력히 권장합니다.
 
 다음에서 자세히 알아보기 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
 

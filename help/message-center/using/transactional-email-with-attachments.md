@@ -2,12 +2,12 @@
 product: campaign
 title: 첨부 파일이 있는 트랜잭션 이메일 보내기
 description: Adobe Campaign을 사용하여 개별 및/또는 개인화된 첨부 파일이 있는 트랜잭션 이메일을 보내는 방법을 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
+source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '670'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 ## Recommendations 및 보호 기능 {#important-notes}
 
-성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100MB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션을 선택합니다. 그러나 Adobe은 이메일 게재에서 큰 이미지를 피하는 것을 강력히 권장합니다.
+성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100KB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션을 선택합니다. 그러나 Adobe은 이메일 게재에서 큰 이미지를 피하는 것을 강력히 권장합니다.
 
 Adobe은 또한 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 기본적으로 하나의 파일만 전자 메일에 첨부 파일로 추가할 수 있습니다. 이 임계값은 다음에서 구성할 수 있습니다. `NmsDelivery_MaxRecommendedAttachments` 옵션을 선택합니다.
 

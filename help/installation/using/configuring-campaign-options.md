@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 942d44104ae56e9334f42f10751979ce4f4a714d
+source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
 workflow-type: tm+mt
-source-wordcount: '4011'
+source-wordcount: '4012'
 ht-degree: 6%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 6%
   </tr> 
  <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
-   <td> 개인화된 URL에서 다운로드되고 이메일에 첨부된 이미지에 허용되는 최대 크기(바이트)를 정의할 수 있습니다. 기본값은 100,000바이트입니다. 증명을 보내고 이메일을 처리하기 위해 이미지를 다운로드할 때 이미지 크기가 이 값을 초과하거나 다운로드 문제가 있는 경우 게재 로그에 오류가 표시되고 증명 전달이 실패합니다.<br /> </td> 
+   <td> 개인화된 URL에서 다운로드되고 이메일에 첨부된 이미지에 허용되는 최대 크기(바이트)를 정의할 수 있습니다. 기본값은 100,000바이트(100KB)입니다. 증명을 보내고 이메일을 처리하기 위해 이미지를 다운로드할 때 이미지 크기가 이 값을 초과하거나 다운로드 문제가 있는 경우 게재 로그에 오류가 표시되고 증명 전달이 실패합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRecommendedAttachments</span> <br /> </td> 
@@ -208,7 +208,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>이 옵션은 <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationManager</a></span> 실행 중인 게재 수를 계산할 때의 기술 워크플로우입니다.</p>상태가 일관되지 않은 게재가 실행 중인 게재 수에서 제외되는 일 수를 정의할 수 있습니다.</p><p>기본적으로 이 값은 "7"로 설정되어 있습니다. 즉, 7일이 초과된 일관되지 않은 게재는 제외됩니다.</p></td> 
+   <td><p>이 옵션은 <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationManager</a></span> 실행 중인 게재 수를 계산할 때의 기술 워크플로우입니다.</p>상태가 일관되지 않은 게재가 실행 중인 게재 수에서 제외되는 일 수를 정의할 수 있습니다.</p><p>기본적으로 값은 "7"로 설정되어 있습니다. 즉, 7일이 지난 일관되지 않은 게재는 제외됩니다.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -413,7 +413,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPassword</span> <br /> </td> 
-   <td> (설치 호환성 모드: build&gt;6000) 활성화되면(값 "1") 이 옵션을 사용하면 데이터베이스에 저장된 이전 암호를 사용하여 외부 계정 또는 인스턴스에 연결할 수 있습니다.<br /> </td> 
+   <td> (설치 호환성 모드: build&gt;6000) 활성화되면 (값 "1") 이 옵션을 사용하면 데이터베이스에 저장된 이전 암호를 사용하여 외부 계정 또는 인스턴스에 연결할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
