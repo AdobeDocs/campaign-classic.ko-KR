@@ -2,15 +2,15 @@
 product: campaign
 title: 업그레이드 시작
 description: Campaign Classic 업그레이드에 대한 자세한 내용
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Overview
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
+feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 97%
+source-wordcount: '939'
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Adobe Campaign Classic은 새로운 기능, 버그 수정으로 성능, 보안 �
 
 | 상태 | 설명 |
 |---|---|
-| [!BADGE 일반 공급]{type=Positive} | 안정적인 최신 빌드, 프로덕션에서 검증되었으며 Adobe에서 권장합니다. |
-| [!BADGE 제한된 가용성]{type=Neutral} | 주문형 배포만 가능. |
-| [!BADGE 릴리스 후보]{type=Informative} | 새로운 기능이 포함된 최신 빌드. |
-| [!BADGE 더 이상 사용할 수 없음]{type=Caution} | 배포가 없습니다. 버그 해결이 없습니다. 최신 빌드로 업데이트하는 것이 좋습니다. |
-| [!BADGE 사용되지 않음]{type=negative} | 배포가 없습니다. 버그 해결이 없습니다. 기존 구현을 업그레이드해야 합니다. |
+| [!BADGE 일반 공급]{type=Positive} | 안정적인 최신 빌드로 프로덕션에서 검증되었으며 Adobe가 권장하는 빌드입니다. |
+| [!BADGE 제한 공개]{type=Neutral} | 주문형 배포만 가능. |
+| [!BADGE 릴리스 후보]{type=Informative} | 새로운 기능이 포함된 최신 빌드입니다. |
+| [!BADGE 더 이상 사용할 수 없음]{type=Caution} | 배포를 제공하지 않습니다. 버그 해결이 없습니다. 최신 빌드로 업데이트하는 것이 좋습니다. |
+| [!BADGE 사용되지 않음]{type=negative} | 배포를 제공하지 않습니다. 버그 해결이 없습니다. 기존 구현을 업그레이드해야 합니다. |
 
 <!--
 ![](assets/do-not-localize/green3.png) **General Availability** (GA) - Latest stable build, validated in production, and recommended by Adobe. 
