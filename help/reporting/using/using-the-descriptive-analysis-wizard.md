@@ -2,13 +2,13 @@
 product: campaign
 title: 기술적 분석 마법사 사용
 description: 기술적 분석 마법사 사용
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1570'
 ht-degree: 1%
 
 ---
@@ -47,17 +47,17 @@ ht-degree: 1%
 
 * 세트 **수신자**&#x200B;를 클릭하고 분석할 수신자를 선택한 다음 마우스 오른쪽 단추를 클릭하고 을 선택합니다. **[!UICONTROL Actions > Explore...]**, 위에 표시된 대로 필터를 수신자 목록에 적용하면 해당 콘텐츠만 분석됩니다.
 
-   폴더 또는 현재 필터에서 모든 수신자를 선택하려면 Ctrl+A 단축키를 사용합니다. 즉, 표시되지 않은 수신자도 선택됩니다.
+  폴더 또는 현재 필터에서 모든 수신자를 선택하려면 Ctrl+A 단축키를 사용합니다. 즉, 표시되지 않은 수신자도 선택됩니다.
 
-   수신자에 대한 설명 분석의 예는 다음을 참조하십시오. [정성적 데이터 분석](../../reporting/using/use-cases.md#qualitative-data-analysis).
+  수신자에 대한 설명 분석의 예는 다음을 참조하십시오. [정성적 데이터 분석](../../reporting/using/use-cases.md#qualitative-data-analysis).
 
 * 의 맥락에서 **워크플로우**, 수신자 테이블을 가리키는 전환 위에 커서를 놓고 마우스 오른쪽 단추를 누른 다음 을 선택합니다 **[!UICONTROL Analyze target]**. 자세한 내용은 의 예를 참조하십시오. [워크플로우에서 전환 대상 분석](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow).
 * 대상 **목록**&#x200B;를 클릭하고, 하나 이상의 목록을 선택한 다음 수신자와 동일한 프로세스를 적용합니다.
 * 의 맥락에서 **게재**&#x200B;을(를) 클릭하고 분석할 타겟의 게재를 선택한 다음 마우스 오른쪽 단추를 클릭하고 을(를) 선택합니다 **[!UICONTROL Actions > Explore the target]**, 아래와 같이 표시됩니다.
 
-   ![](assets/reporting_descriptive_from_deliveries.png)
+  ![](assets/reporting_descriptive_from_deliveries.png)
 
-   게재에 대한 설명 분석의 예는 여기에 제공됩니다. [모집단 분석](../../reporting/using/use-cases.md#analyzing-a-population) 그리고 여기: [수신자 추적 로그 분석](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
+  게재에 대한 설명 분석의 예는 여기에 제공됩니다. [모집단 분석](../../reporting/using/use-cases.md#analyzing-a-population) 그리고 여기: [수신자 추적 로그 분석](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
 
 ## 정성 배포 템플릿 구성 {#configuring-the-qualitative-distribution-template}
 
@@ -81,32 +81,32 @@ ht-degree: 1%
 
 * **[!UICONTROL None]** : 이 옵션을 사용하면 빈 없이 변수에 사용할 수 있는 모든 값을 표시할 수 있습니다.
 
-   >[!CAUTION]
-   >
-   >이 옵션은 보고서 및 시스템 성능에 큰 영향을 줄 수 있으므로 주의해서 사용해야 합니다.
+  >[!CAUTION]
+  >
+  >이 옵션은 보고서 및 시스템 성능에 큰 영향을 줄 수 있으므로 주의해서 사용해야 합니다.
 
 * **[!UICONTROL Auto]** : 이 옵션을 사용하면 가장 자주 표시되는 n개의 값을 표시할 수 있습니다. 이 숫자들은 자동으로 계산되며, 각각은 빈 수와 비교한 변수의 백분율을 나타냅니다. 숫자 값의 경우 Adobe Campaign은 데이터를 정렬할 n 클래스를 자동으로 생성합니다.
 * **[!UICONTROL Manual]** : 이 옵션은 다음과 같이 작동합니다 **[!UICONTROL Auto]** 옵션을 선택할 수 있습니다. 단, 이러한 값은 수동으로 설정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Add]** 값 테이블 오른쪽에 있는 단추입니다.
 
-   개인화 전에 Adobe Campaign에서 값을 자동으로 초기화할 수 있습니다. 이렇게 하려면 생성할 빈 수를 입력하고 다음을 클릭하십시오. **[!UICONTROL Initialize with]** 링크(아래 참조):
+  개인화 전에 Adobe Campaign에서 값을 자동으로 초기화할 수 있습니다. 이렇게 하려면 생성할 빈 수를 입력하고 다음을 클릭하십시오. **[!UICONTROL Initialize with]** 링크(아래 참조):
 
-   ![](assets/reporting_descriptive_initialize.png)
+  ![](assets/reporting_descriptive_initialize.png)
 
-   그런 다음 필요에 따라 콘텐츠를 조정합니다.
+  그런 다음 필요에 따라 콘텐츠를 조정합니다.
 
-   ![](assets/reporting_descriptive_initialize_perso.png)
+  ![](assets/reporting_descriptive_initialize_perso.png)
 
-   원하는 정밀도 수준에 따라 날짜가 포함된 필드를 시간, 일, 월, 연도 등으로 그룹화할 수 있습니다.
+  원하는 정밀도 수준에 따라 날짜가 포함된 필드를 시간, 일, 월, 연도 등으로 그룹화할 수 있습니다.
 
-   ![](assets/reporting_descriptive_group_by_year.png)
+  ![](assets/reporting_descriptive_group_by_year.png)
 
 * **[!UICONTROL Modulo]** : 숫자 값의 경우 값 그룹을 생성할 수 있습니다. 예를 들어, 값이 10인 모듈로 를 사용하면 10씩 변경되는 값의 간격을 만들 수 있습니다.
 
-   ![](assets/reporting_descriptive_initialize_modulo.png)
+  ![](assets/reporting_descriptive_initialize_modulo.png)
 
-   이 예에서는 연령 그룹별 수신자 분류를 볼 수 있습니다.
+  이 예에서는 연령 그룹별 수신자 분류를 볼 수 있습니다.
 
-   ![](assets/reporting_descriptive_initialize_modulo_result.png)
+  ![](assets/reporting_descriptive_initialize_modulo_result.png)
 
 ### 테이블에 데이터 표시 {#displaying-data-in-the-table}
 
@@ -158,17 +158,17 @@ ht-degree: 1%
 * **[!UICONTROL Column percentage distribution]** 행의 값과 열의 값의 비율을 계산하려면(테이블에만 사용 가능)
 * **[!UICONTROL Total percentage distribution]** 값에 따라 관련된 수신자의 분포를 계산하려면
 
-   ![](assets/s_ncs_user_report_wizard_026.png)
+  ![](assets/s_ncs_user_report_wizard_026.png)
 
 * **[!UICONTROL Calculated field]** 개인화된 연산자(테이블에만 사용 가능)를 생성합니다. 다음 **[!UICONTROL User function]** 필드에서는 데이터에 적용할 계산을 입력할 수 있습니다.
 
-   예: 국가 및 원산지를 기준으로 고객당 평균 구매 금액 계산
+  예: 국가 및 원산지를 기준으로 고객당 평균 구매 금액 계산
 
-   ![](assets/report_compute_data_sample1.png)
+  ![](assets/report_compute_data_sample1.png)
 
-   위의 정보를 테이블에 표시하려면 고객당 평균 구매 금액을 저장하는 계산된 필드를 만들어야 합니다.
+  위의 정보를 테이블에 표시하려면 고객당 평균 구매 금액을 저장하는 계산된 필드를 만들어야 합니다.
 
-   방법은 다음과 같습니다.
+  방법은 다음과 같습니다.
 
    1. 구매 합계를 계산합니다.
 
@@ -226,12 +226,12 @@ ht-degree: 1%
 * **[!UICONTROL Decile distribution]** 숫자 필드 값의 1/10을 나타내도록 반환된 값을 배포합니다.
 * **[!UICONTROL Custom distribution]** 사용자 정의 임계값을 기준으로 반환된 값을 분배합니다.
 
-   다음 **[!UICONTROL Detail...]** 버튼을 사용하면 통계를 편집하고, 필요한 경우 해당 계산 또는 표시를 개인화할 수 있습니다.
+  다음 **[!UICONTROL Detail...]** 버튼을 사용하면 통계를 편집하고, 필요한 경우 해당 계산 또는 표시를 개인화할 수 있습니다.
 
-   ![](assets/s_ncs_user_report_wizard_030.png)
+  ![](assets/s_ncs_user_report_wizard_030.png)
 
-   마법사의 마지막 단계에 정량분석 보고서가 표시됩니다.
+  마법사의 마지막 단계에 정량분석 보고서가 표시됩니다.
 
-   ![](assets/reporting_descriptive_view_report.png)
+  ![](assets/reporting_descriptive_view_report.png)
 
-   보고서를 변경하려면 다음을 참조하십시오 [보고서 처리](../../reporting/using/processing-a-report.md).
+  보고서를 변경하려면 다음을 참조하십시오 [보고서 처리](../../reporting/using/processing-a-report.md).

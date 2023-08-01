@@ -2,14 +2,15 @@
 product: campaign
 title: Snowflake 액세스 구성
 description: FDA에서 Snowflake 액세스를 구성하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '519'
 ht-degree: 6%
 
 ---
@@ -37,19 +38,19 @@ Campaign 사용 **페더레이션 데이터 액세스** (FDA) 외부 데이터�
 
    * Red Hat/CentOS의 경우:
 
-      ```
-      yum update
-      yum upgrade
-      yum install -y grep sed tar wget perl curl
-      ```
+     ```
+     yum update
+     yum upgrade
+     yum install -y grep sed tar wget perl curl
+     ```
 
    * Debian의 경우:
 
-      ```
-      apt-get update
-      apt-get upgrade
-      apt-get install -y grep sed tar wget perl curl
-      ```
+     ```
+     apt-get update
+     apt-get upgrade
+     apt-get install -y grep sed tar wget perl curl
+     ```
 
 1. 스크립트를 실행하기 전에 `--help` 옵션:
 
@@ -98,12 +99,11 @@ Campaign 사용 **페더레이션 데이터 액세스** (FDA) 외부 데이터�
 
       * **[!UICONTROL Password]**: 사용자 계정 암호.
 
-      ![](assets/snowflake.png)
+     ![](assets/snowflake.png)
 
    * 키 쌍 인증의 경우 **[!UICONTROL Keypair Auth]** 탭 사용 **[!UICONTROL Private key]** 을(를) 인증하고 복사하려면 다음을 붙여넣습니다. **[!UICONTROL Private key]**.
 
-      ![](assets/snowflake_4.png)
-
+     ![](assets/snowflake_4.png)
 
 1. 다음을 클릭합니다. **[!UICONTROL Parameters]** 탭을 클릭한 다음 **[!UICONTROL Deploy functions]** 단추를 클릭하여 함수를 만듭니다.
 

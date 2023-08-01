@@ -2,16 +2,17 @@
 product: campaign
 title: IMS 구성
 description: Adobe ID을 통해 연결하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Configuration
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 4%
+source-wordcount: '357'
+ht-degree: 5%
 
 ---
 
@@ -58,13 +59,13 @@ IMS와의 통합을 사용하려면:
 
 * 사용된 IMS 서버의 연결 정보(ID 및 암호). 이 정보는 Adobe 지원에서 제공합니다. 자세한 내용은 [Adobe Experience Cloud 관리자에 대한 FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html).
 
-   다음 **[!UICONTROL Callback server]** 주소는 다음에 지정되어야 합니다. **https**. 이 필드는 Adobe Campaign 인스턴스의 액세스 URL에 해당합니다.
+  다음 **[!UICONTROL Callback server]** 주소는 다음에 지정되어야 합니다. **https**. 이 필드는 Adobe Campaign 인스턴스의 액세스 URL에 해당합니다.
 
 * 조직 ID: 조직 ID를 찾으려면 다음을 참조하십시오. [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}.
 * 연결 마스크: 이 필드에서는 Enterprise Dashboard의 구성 이름을 Adobe Campaign의 그룹과 동기화할 수 있는 구문을 정의할 수 있습니다. 구문 &quot;Campaign - tenant_id - (.&#42;)&quot; 이면 Adobe Campaign에서 만든 보안 그룹이 Enterprise Dashboard의 구성 이름 &quot;Campaign - tenant_id - internal_name&quot;에 연결됩니다.
 
-   >[!CAUTION]
-   >
-   >연결 마스크는 Adobe ID을 통한 연결이 올바르게 작동하는 데 필수적입니다.
+  >[!CAUTION]
+  >
+  >연결 마스크는 Adobe ID을 통한 연결이 올바르게 작동하는 데 필수적입니다.
 
 * Adobe Experience Cloud 연결 정보, 특히 Adobe Experience Cloud 테넌트의 이름입니다.

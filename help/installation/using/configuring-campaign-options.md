@@ -2,12 +2,13 @@
 product: campaign
 title: 캠페인 옵션 구성
 description: Campaign 옵션 구성 방법 알아보기
+feature: Installation, Application Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '4012'
 ht-degree: 6%

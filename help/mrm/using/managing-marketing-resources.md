@@ -2,14 +2,15 @@
 product: campaign
 title: 마케팅 리소스 관리
 description: 마케팅 리소스를 관리하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Resource Management
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1393'
 ht-degree: 1%
 
 ---
@@ -36,7 +37,7 @@ Adobe Campaign 서버에서 리소스를 사용할 수 있도록 하려면 원�
 
 확인 메시지를 사용하여 업로드를 시작할 수 있습니다.
 
-업로드가 완료되면 리소스가 사용 가능한 리소스 목록에 추가됩니다. Adobe Campaign 운영자에 액세스할 수 있습니다. 볼 수 있습니다( 를 통해). **[!UICONTROL Preview]** 탭을 사용하여 복사본을 만들어 수정하거나 서버에서 파일을 업데이트합니다. **[!UICONTROL Edit]** 탭).
+업로드가 완료되면 리소스가 사용 가능한 리소스 목록에 추가됩니다. Adobe Campaign 운영자가 액세스할 수 있습니다. 볼 수 있습니다( 를 통해). **[!UICONTROL Preview]** 탭을 사용하여 복사본을 만들어 수정하거나 서버에서 파일을 업데이트합니다. **[!UICONTROL Edit]** 탭).
 
 ![](assets/s_ncs_user_mkg_resource_extract.png)
 
@@ -45,7 +46,7 @@ Adobe Campaign 서버에서 리소스를 사용할 수 있도록 하려면 원�
 * 리소스가 할당된 운영자는 리소스를 추적할 책임이 있습니다.
 * 승인 운영자는 마케팅 리소스를 승인해야 합니다. 리소스 유효성 검사 프로세스가 시작되면 알림을 받게 됩니다.
 
-   검토자를 선택하지 않으면 리소스 **[!UICONTROL cannot be]** 승인을 받아야 합니다.
+  검토자를 선택하지 않으면 리소스 **[!UICONTROL cannot be]** 승인을 받아야 합니다.
 
 * 필요한 경우 교정자를 지정할 수도 있습니다.
 

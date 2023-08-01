@@ -2,17 +2,18 @@
 product: campaign
 title: Campaign으로 MX 서버 사용
 description: MX 서버가 Adobe Campaign Classic에서 작동하는 방식 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 1%
+source-wordcount: '830'
+ht-degree: 2%
 
 ---
 
@@ -37,8 +38,8 @@ MX 서버가 Adobe Campaign Classic에서 작동하는 방식에 대해 알아�
 연결 프로토콜에서는 서버 스팸 및 독점을 방지하기 위한 규칙을 준수해야 합니다. 가장 중요한 사항은 다음과 같습니다.
 
 * **허용되는 최대 연결 수**: 이 번호가 존중되면 추가 연결로 인해 IP가 차단 목록에 있지 않고 이메일이 거부되지 않습니다.
-* **최대 메시지 수**: 연결 중에 전송할 수 있는 메시지 수를 정의해야 합니다. 이 번호가 정의되지 않으면 서버는 가능한 한 많은 번호를 전송합니다. 그 결과 스팸으로 식별되고 ISP에 의해 차단 목록에 추가된다.
-* **시간당 메시지**: Adobe Campaign은 전자 평판에 맞게 IP가 시간당 전송할 수 있는 이메일 수를 제어합니다. 차단 목록 이 시스템은 이메일 거부 또는/으로부터 사용자를 보호합니다.
+* **최대 메시지 수**: 연결 중에 전송할 수 있는 메시지 수를 정의해야 합니다. 이 번호가 정의되지 않으면 서버는 가능한 한 많은 번호를 전송합니다. 그 결과 스팸으로 식별되고 ISP에 의해 차단 목록에 추가하다에 추가된다.
+* **시간당 메시지**: Adobe Campaign은 전자 평판에 맞게 IP가 시간당 전송할 수 있는 이메일 수를 제어합니다. 차단 목록에 추가하다 이 시스템은 이메일 거부 또는/으로부터 사용자를 보호합니다.
 
 ## 인바운스 이메일
 
@@ -80,7 +81,7 @@ MX 규칙에는 램프 업 프로세스 중에 주로 사용되는 6개의 서�
 
 ## 바운스 예
 
-* **알 수 없는 사용자** (하드 바운스): 550 5.1.1 ... 사용자를 알 수 없습니다. {mx003}
+* **알 수 없는 사용자** (하드 바운스): 550 5.1.1 ... 사용자를 알 수 없음 {mx003}
 * **사서함 가득 참** (소프트 바운스): 550 5.2.2 사용자 할당량 초과
 * **비활성 사서함** (소프트 바운스): 550 5.7.1 : 수신자 주소 거부됨: 비활성 MailBox, 6개월 이상 포핑되지 않음
 * **잘못된 도메인** (소프트 바운스): &#39;ourdan.com&#39;에 대한 DNS 쿼리 실패

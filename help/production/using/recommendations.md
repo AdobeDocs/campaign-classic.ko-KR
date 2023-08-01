@@ -2,16 +2,17 @@
 product: campaign
 title: 권장 사항
 description: 권장 사항
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: e458f6cb-f6d1-4688-9f6d-2a27a2f90829
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 2%
+source-wordcount: '130'
+ht-degree: 10%
 
 ---
 

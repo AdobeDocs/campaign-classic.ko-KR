@@ -2,13 +2,13 @@
 product: campaign
 title: 테이블 만들기
 description: 테이블 만들기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Reporting, Monitoring
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2495'
+source-wordcount: '2507'
 ht-degree: 1%
 
 ---
@@ -64,15 +64,15 @@ A **[!UICONTROL List with group]** 테이블 유형을 사용하면 테이블의
 
 * **헤더 라인**: 이 줄을 사용하면 테이블의 열에 제목을 지정할 수 있습니다.
 
-   ![](assets/s_advuser_ergo_listgroup_003a.png)
+  ![](assets/s_advuser_ergo_listgroup_003a.png)
 
 * **세부 사항 라인**: 이 줄에는 통계값이 포함되어 있습니다.
 
-   ![](assets/s_advuser_ergo_listgroup_004.png)
+  ![](assets/s_advuser_ergo_listgroup_004.png)
 
 * **바닥글 라인**: 이 줄을 사용하면 총 값을 표시할 수 있습니다.
 
-   ![](assets/s_advuser_ergo_listgroup_003.png)
+  ![](assets/s_advuser_ergo_listgroup_003.png)
 
 필요에 따라 행과 열을 추가할 수 있습니다.
 
@@ -104,19 +104,19 @@ A **[!UICONTROL List with group]** 테이블 유형을 사용하면 테이블의
 
 * 테이블에 직접 분석할 값을 삽입하려면 사용 가능한 필드 중에서 선택합니다.
 
-   사용 가능한 필드 목록은 보고서 구성 차트의 테이블 앞에 있는 쿼리 콘텐츠와 일치합니다.
+  사용 가능한 필드 목록은 보고서 구성 차트의 테이블 앞에 있는 쿼리 콘텐츠와 일치합니다.
 
-   ![](assets/s_advuser_ergo_listgroup_011.png)
+  ![](assets/s_advuser_ergo_listgroup_011.png)
 
 * 예를 들어 머리글 레이블을 셀에 입력합니다.
 
-   이렇게 하려면 데이터베이스에 필드를 삽입할 때와 동일한 프로세스를 사용하지만 표현식은 선택하지 마십시오. 에 레이블을 입력합니다. **[!UICONTROL Label]** 필드. 그대로 표시됩니다.
+  이렇게 하려면 데이터베이스에 필드를 삽입할 때와 동일한 프로세스를 사용하지만 표현식은 선택하지 마십시오. 에 레이블을 입력합니다. **[!UICONTROL Label]** 필드. 그대로 표시됩니다.
 
 * 합계 계산(평균, 합계 등) 셀에 표시합니다.
 
-   이렇게 하려면 **[!UICONTROL Aggregates]** 메뉴 항목을 입력하고 원하는 캠페인을 선택합니다.
+  이렇게 하려면 **[!UICONTROL Aggregates]** 메뉴 항목을 입력하고 원하는 캠페인을 선택합니다.
 
-   ![](assets/s_advuser_ergo_listgroup_008.png)
+  ![](assets/s_advuser_ergo_listgroup_008.png)
 
 ### 셀 형식 정의 {#defining-cell-format}
 
@@ -248,7 +248,6 @@ Excel 탭에서:
    * &quot;캠페인&quot;(&quot;ID&quot; 필드) 링크의 외래 키: **@operationId**
    * 오류율: **@errorRatio**
 
-
 1. 다음을 클릭합니다. **[!UICONTROL Next]** 단추를 두 번 눌러 **[!UICONTROL Data filtering]** 단계.
 
    캠페인에 연결된 게재만 수집하려면 필터링 조건을 추가합니다.
@@ -371,7 +370,7 @@ Excel 탭에서:
 
    * 게재 로그 수를 계산하기 위해 기본 키의 합계를 계산합니다.
 
-      ![](assets/reporting_quick_start_query-2_count.png)
+     ![](assets/reporting_quick_start_query-2_count.png)
 
    * 이 필드에서 수신자 이메일 도메인 및 그룹 정보 수집: 이렇게 하려면 다음을 선택합니다. **[!UICONTROL Group]** 도메인 이름 열의 옵션입니다.
 
@@ -382,8 +381,7 @@ Excel 탭에서:
    * count(기본 키): **@count**
    * 이메일 도메인(수신자): **@domain**
 
-      ![](assets/reporting_quick_start_query-2_alias.png)
-
+     ![](assets/reporting_quick_start_query-2_alias.png)
 
 1. 다음을 클릭합니다. **[!UICONTROL Next]** 단추 두 번: 다음 위치로 이동합니다. **[!UICONTROL Data filtering]** 단계.
 
@@ -412,9 +410,9 @@ Excel 탭에서:
    * 오른쪽에 두 열을 추가합니다.
    * 세부 정보 라인의 첫 번째 셀에 **[!UICONTROL rowNum()-1]** 라인 수를 계산하는 표현식. 그런 다음 셀의 형식을 변경합니다. **[!UICONTROL Extra]** 탭, 선택 **[!UICONTROL Color tab]** 및 클릭 **[!UICONTROL Ok]**.
 
-      ![](assets/s_advuser_report_listgroup_018.png)
+     ![](assets/s_advuser_report_listgroup_018.png)
 
-      이 구성을 사용하면 표를 차트의 캡션으로 사용할 수 있습니다.
+     이 구성을 사용하면 표를 차트의 캡션으로 사용할 수 있습니다.
 
    * 세부 사항 라인의 두 번째 셀에 **[!UICONTROL Email domain(Recipient)]** 표현식.
    * 세부 사항 라인의 세 번째 셀에 **[!UICONTROL count(primary key)]** 표현식.

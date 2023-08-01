@@ -2,15 +2,16 @@
 product: campaign
 title: 오퍼 프레젠테이션 관리
 description: 오퍼 프레젠테이션 관리
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Interaction, Offers
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -65,7 +66,7 @@ ht-degree: 1%
 
 ### 오퍼 차원 {#offer-dimensions}
 
-다음에서 **[!UICONTROL Offer presentation]** 탭에서 환경에 구성된 치수와 동일한 치수를 프레젠테이션 규칙에 지정해야 합니다.
+다음에서 **[!UICONTROL Offer presentation]** 탭에서 환경에 구성된 치수와 동일한 치수를 표시 규칙에 지정해야 합니다.
 
 다음 **[!UICONTROL Targeting dimension]** 오퍼 제안을 받을 수신자 테이블(기본적으로 nms:recipients)과 일치합니다. 다음 **[!UICONTROL Storage dimension]** 은 타겟팅 차원에 연결된 제안 내역을 포함하는 테이블과 일치합니다(기본적으로).:nms:propositionRcp).
 
@@ -110,41 +111,41 @@ ht-degree: 1%
 
 * **채널에서 필터링**
 
-   **[!UICONTROL On the same channel only]** : 에 지정된 채널에서 오퍼 제안을 제외할 수 있습니다. **[!UICONTROL General]** 탭.
+  **[!UICONTROL On the same channel only]** : 에 지정된 채널에서 오퍼 제안을 제외할 수 있습니다. **[!UICONTROL General]** 탭.
 
-   예를 들어 의 규칙에 대해 지정된 채널은 **[!UICONTROL General]** 탭은 이메일입니다. 규칙이 적용되는 오퍼가 지금까지 웹 채널에서만 제공된 경우 상호 작용 엔진은 이메일 게재에 오퍼를 표시할 수 있습니다. 그러나 오퍼가 이메일로 제공되면 상호 작용 엔진은 오퍼를 제공할 다른 채널을 선택합니다.
+  예를 들어 의 규칙에 대해 지정된 채널은 **[!UICONTROL General]** 탭은 이메일입니다. 규칙이 적용되는 오퍼가 지금까지 웹 채널에서만 제공된 경우 상호 작용 엔진은 이메일 게재에 오퍼를 표시할 수 있습니다. 그러나 오퍼가 이메일로 제공되면 상호 작용 엔진은 오퍼를 제공할 다른 채널을 선택합니다.
 
-   >[!NOTE]
-   >
-   >우리는 공간이 아니라 채널에 대해 이야기하고 있다. 규칙이 웹 채널에서 오퍼를 제외해야 하는 경우, 웹 사이트에 두 개의 공백으로 표시되도록 지정된 오퍼(예: 배너와 페이지 본문)는 이전에 이미 제공된 경우 사이트에 표시되지 않습니다.
-   >
-   >오퍼 프레젠테이션과 관련된 워크플로우의에 규칙이 구성되어 있는 경우에만 올바로 고려됩니다. **[!UICONTROL All channels]**.
+  >[!NOTE]
+  >
+  >우리는 공간이 아니라 채널에 대해 이야기하고 있다. 규칙이 웹 채널에서 오퍼를 제외해야 하는 경우, 웹 사이트에 두 개의 공백으로 표시되도록 지정된 오퍼(예: 배너와 페이지 본문)는 이전에 이미 제공된 경우 사이트에 표시되지 않습니다.
+  >
+  >오퍼 프레젠테이션과 관련된 워크플로우의에 규칙이 구성되어 있는 경우에만 올바로 고려됩니다. **[!UICONTROL All channels]**.
 
 * **오퍼에 대해 필터링**
 
-   이 필터를 사용하면 오퍼 제안을 특정 오퍼 세트로 계산하도록 제한할 수 있습니다.
+  이 필터를 사용하면 오퍼 제안을 특정 오퍼 세트로 계산하도록 제한할 수 있습니다.
 
-   **[!UICONTROL All offers]** : 기본값. 오퍼에 필터가 적용되지 않습니다.
+  **[!UICONTROL All offers]** : 기본값. 오퍼에 필터가 적용되지 않습니다.
 
-   **[!UICONTROL Offer being presented]** : 다음에 지정된 오퍼 **[!UICONTROL General]** 이미 표시된 탭은 제외됩니다.
+  **[!UICONTROL Offer being presented]** : 다음에 지정된 오퍼 **[!UICONTROL General]** 이미 표시된 탭은 제외됩니다.
 
-   **[!UICONTROL Offers from the same category]** : 동일한 범주의 오퍼가 이미 표시된 경우 오퍼가 제외됩니다.
+  **[!UICONTROL Offers from the same category]** : 동일한 범주의 오퍼가 이미 표시된 경우 오퍼가 제외됩니다.
 
-   **[!UICONTROL The offers which the rule applies to]** : 몇 개의 오퍼가에 정의된 경우 **[!UICONTROL General]** 탭에서는 이 오퍼 세트의 각 오퍼 제안이 고려되며 제안 임계값에 도달하면 모든 오퍼의 제외로 종료됩니다.
+  **[!UICONTROL The offers which the rule applies to]** : 몇 개의 오퍼가에 정의된 경우 **[!UICONTROL General]** 탭에서는 이 오퍼 세트의 각 오퍼 제안이 고려되며 제안 임계값에 도달하면 모든 오퍼의 제외로 종료됩니다.
 
-   예를 들어 오퍼 2, 3 및 5는 **[!UICONTROL General]** 탭. 최대 제안 수는 2로 설정됩니다. 오퍼 2와 5를 각각 한 번씩 제시하면 계산되는 제안 수는 2개가 됩니다. 따라서 오퍼 3은 제공되지 않습니다.
+  예를 들어 오퍼 2, 3 및 5는 **[!UICONTROL General]** 탭. 최대 제안 수는 2로 설정됩니다. 오퍼 2와 5를 각각 한 번씩 제시하면 계산되는 제안 수는 2개가 됩니다. 따라서 오퍼 3은 제공되지 않습니다.
 
 * **제안 상태 필터링**
 
-   이 필터를 사용하면 제안 기록에서 고려할 제안 제안에 대해 가장 빈번한 상태를 선택할 수 있습니다.
+  이 필터를 사용하면 제안 기록에서 고려할 제안 제안에 대해 가장 빈번한 상태를 선택할 수 있습니다.
 
-   **[!UICONTROL Regardless of the proposition status]** : 기본값. 제안 상태에 필터가 적용되지 않습니다.
+  **[!UICONTROL Regardless of the proposition status]** : 기본값. 제안 상태에 필터가 적용되지 않습니다.
 
-   **[!UICONTROL Accepted or rejected propositions]** : 이전에 제공된 오퍼가 수락되거나 거부된 것을 제외할 수 있습니다.
+  **[!UICONTROL Accepted or rejected propositions]** : 이전에 제공된 오퍼가 수락되거나 거부된 것을 제외할 수 있습니다.
 
-   **[!UICONTROL Accepted propositions]** : 이전에 제공된 오퍼가 수락되어 이를 제외할 수 있습니다.
+  **[!UICONTROL Accepted propositions]** : 이전에 제공된 오퍼가 수락되어 이를 제외할 수 있습니다.
 
-   **[!UICONTROL Rejected propositions]** : 이전에 제공된 오퍼가 거부되면 제외할 수 있습니다.
+  **[!UICONTROL Rejected propositions]** : 이전에 제공된 오퍼가 거부되면 제외할 수 있습니다.
 
 ### 수신자 정의 {#defining-recipients}
 

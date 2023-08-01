@@ -2,14 +2,15 @@
 product: campaign
 title: Synapse 액세스 구성
 description: FDA에서 Synapse에 대한 액세스를 구성하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '779'
 ht-degree: 2%
 
 ---
@@ -30,7 +31,6 @@ Campaign 사용 [페더레이션 데이터 액세스](../../installation/using/a
 >* ODBC 드라이버를 설치하려면 루트 권한이 필요합니다.
 >* Microsoft에서 제공하는 Red Hat Enterprise ODBC 드라이버는 CentOS와 함께 사용하여 SQL Server에 연결할 수도 있습니다.
 >* 버전 13.0은 Red Hat 6 및 7에서 작동합니다.
-
 
 CentOS에서 Azure synapse을 구성하려면 아래 단계를 따르십시오.
 
@@ -136,9 +136,9 @@ Windows에서 Azure synapse을 구성하려면:
 * ODBC 드라이버를 설치하려면 루트 권한이 필요합니다.
 * msodbcsql 패키지를 설치하려면 Curl이 필요합니다. 설치되지 않은 경우 다음 명령을 실행합니다.
 
-   ```
-   sudo apt-get install curl
-   ```
+  ```
+  sudo apt-get install curl
+  ```
 
 Debian에서 Azure synapse을 구성하려면:
 
@@ -222,7 +222,7 @@ Debian에서 Azure synapse을 구성하려면:
 
       * **[!UICONTROL Database]**: 데이터베이스 이름
 
-      ![](assets/azure_3.png)
+     ![](assets/azure_3.png)
 
    * 시스템에서 할당한 관리 ID 인증의 경우 다음을 지정해야 합니다.
 
@@ -232,9 +232,7 @@ Debian에서 Azure synapse을 구성하려면:
 
       * **[!UICONTROL Options]**: 다음 구문을 추가합니다 `Authentication=ActiveDirectoryMsi`
 
-      ![](assets/azure_4.png)
-
-
+     ![](assets/azure_4.png)
 
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 

@@ -2,16 +2,17 @@
 product: campaign
 title: Linux를 사용하여 패키지 설치
 description: Linux를 사용하여 패키지 설치
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Application Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 1%
+source-wordcount: '1206'
+ht-degree: 2%
 
 ---
 
@@ -100,27 +101,27 @@ Debian 8/9 운영 체제에 Adobe Campaign을 설치할 때 다음 사항을 고
 * OpenSSL을 미리 설치해야 합니다.
 * 다음 명령을 사용하여 libicu52(Debian 8) 또는 libicu57(Debian 9), libprotobuf9(Debian8) 및 libc-ares2를 설치합니다.
 
-   ```
-   aptitude install libicu52 (Debian 8) libicu57 (Debian 9)
-   ```
+  ```
+  aptitude install libicu52 (Debian 8) libicu57 (Debian 9)
+  ```
 
-   ```
-   aptitude install libc-ares2
-   ```
+  ```
+  aptitude install libc-ares2
+  ```
 
-   ```
-   aptitude install libprotobuf9 (only Debian 8)
-   ```
+  ```
+  aptitude install libprotobuf9 (only Debian 8)
+  ```
 
 * 다음 명령을 사용하여 JDK7을 설치합니다.
 
-   ```
-   aptitude install openjdk-7-jdk (Debian 8)
-   ```
+  ```
+  aptitude install openjdk-7-jdk (Debian 8)
+  ```
 
-   ```
-   aptitude install openjdk-7-jdk (Debian 9)
-   ```
+  ```
+  aptitude install openjdk-7-jdk (Debian 9)
+  ```
 
 ## 매개 변수 개인화 {#personalizing-parameters}
 
@@ -178,55 +179,55 @@ export neolane_LANG=fra
 
 * oracle 클라이언트의 경우:
 
-   ```
-   export ORACLE_HOME=/usr/local/instantclient_10_2
-   export TNS_ADMIN=/etc/oracle
-   export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
-   ```
+  ```
+  export ORACLE_HOME=/usr/local/instantclient_10_2
+  export TNS_ADMIN=/etc/oracle
+  export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
+  ```
 
-   oracle_HOME 환경 변수의 내용은 Oracle 설치 디렉토리와 일치합니다.
+  oracle_HOME 환경 변수의 내용은 Oracle 설치 디렉토리와 일치합니다.
 
-   TNS_ADMIN 변수의 콘텐츠는 의 위치와 일치해야 합니다. **tnsnames.ora** 파일.
+  TNS_ADMIN 변수의 콘텐츠는 의 위치와 일치해야 합니다. **tnsnames.ora** 파일.
 
 * LibreOffice의 경우:
 
-   기존 버전의 LibreOffice에서 Adobe Campaign을 실행하려면 추가 구성이 필요합니다. 설치 디렉터리에 대한 액세스 경로를 지정해야 합니다. 예:
+  기존 버전의 LibreOffice에서 Adobe Campaign을 실행하려면 추가 구성이 필요합니다. 설치 디렉터리에 대한 액세스 경로를 지정해야 합니다. 예:
 
    * Debian
 
-      OOO_INSTALL_DIR 및 OOO_BASIS_INSTALL_DIR의 기본값이 제공됩니다. 다음에서 재정의할 수 있습니다. **customer.sh** LibreOffice 설치 레이아웃이 다른 경우:
+     OOO_INSTALL_DIR 및 OOO_BASIS_INSTALL_DIR의 기본값이 제공됩니다. 다음에서 재정의할 수 있습니다. **customer.sh** LibreOffice 설치 레이아웃이 다른 경우:
 
-      ```
-      export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
-      export OOO_INSTALL_DIR=/usr/lib/libreoffice/
-      ```
+     ```
+     export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
+     export OOO_INSTALL_DIR=/usr/lib/libreoffice/
+     ```
 
    * CentOs
 
-      다음 기본값을 사용합니다.
+     다음 기본값을 사용합니다.
 
-      ```
-      export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
-      export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
-      ```
+     ```
+     export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
+     export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
+     ```
 
 * Java 개발 키트(JDK)의 경우:
 
-   기본적으로 Adobe Campaign 환경의 구성 스크립트(`~/nl6/env.sh`)에서 JDK 설치 디렉토리를 검색합니다. 이 동작은 100% 신뢰할 수 없으므로 사용해야 하는 JDK를 지정해야 합니다. 이렇게 하려면 다음을 강제 적용할 수 있습니다. **JDK_HOME** 다음 명령을 사용하는 환경 변수입니다.
+  기본적으로 Adobe Campaign 환경의 구성 스크립트(`~/nl6/env.sh`)에서 JDK 설치 디렉토리를 검색합니다. 이 동작은 100% 신뢰할 수 없으므로 사용해야 하는 JDK를 지정해야 합니다. 이렇게 하려면 다음을 강제 적용할 수 있습니다. **JDK_HOME** 다음 명령을 사용하는 환경 변수입니다.
 
-   ```
-   export JDK_HOME=/usr/java/jdk1.6.0_07
-   ```
+  ```
+  export JDK_HOME=/usr/java/jdk1.6.0_07
+  ```
 
-   >[!NOTE]
-   >
-   >예. 사용된 JDK 버전이 디렉터리 이름과 일치하는지 확인합니다.
+  >[!NOTE]
+  >
+  >예. 사용된 JDK 버전이 디렉터리 이름과 일치하는지 확인합니다.
 
-   JDK 구성을 테스트하려면 다음 명령을 사용하여 Adobe Campaign 시스템 사용자로 로그인합니다.
+  JDK 구성을 테스트하려면 다음 명령을 사용하여 Adobe Campaign 시스템 사용자로 로그인합니다.
 
-   ```
-   su - neolane
-   ```
+  ```
+  su - neolane
+  ```
 
 변경 사항을 고려하려면 Adobe Campaign 서비스를 다시 시작해야 합니다.
 
@@ -251,29 +252,29 @@ Adobe Campaign에서 Oracle을 사용할 때 Linux에서 Oracle 클라이언트 
 * 전체 클라이언트 사용
 * TNS 정의
 
-   설치 단계에서 TNS 정의를 추가해야 합니다. 이렇게 하려면 다음 명령을 사용합니다.
+  설치 단계에서 TNS 정의를 추가해야 합니다. 이렇게 하려면 다음 명령을 사용합니다.
 
-   ```
-   cd /etc
-   mkdir oracle
-   cd oracle
-   vi tnsnames.ora
-   ```
+  ```
+  cd /etc
+  mkdir oracle
+  cd oracle
+  vi tnsnames.ora
+  ```
 
 * 환경 변수
 
-   을(를) 참조하십시오 [환경 변수](../../installation/using/installing-packages-with-linux.md#environment-variables).
+  을(를) 참조하십시오 [환경 변수](../../installation/using/installing-packages-with-linux.md#environment-variables).
 
 * Adobe Campaign 구성
 
-   Adobe Campaign용 Oracle 클라이언트 설치를 완료하려면 **.so** Adobe Campaign에서 사용하는 파일입니다.
+  Adobe Campaign용 Oracle 클라이언트 설치를 완료하려면 **.so** Adobe Campaign에서 사용하는 파일입니다.
 
-   이렇게 하려면 다음 명령을 사용합니다.
+  이렇게 하려면 다음 명령을 사용합니다.
 
-   ```
-   cd /usr/lib/oracle/10.2.0.4/client/lib
-   ln -s libclntsh.so.10.1 libclntsh.so
-   ```
+  ```
+  cd /usr/lib/oracle/10.2.0.4/client/lib
+  ln -s libclntsh.so.10.1 libclntsh.so
+  ```
 
 문제가 발생하면 패키지에 나열된 패키지가 [Oracle 설치 설명서](https://docs.oracle.com/) 이(가) 올바르게 설치되어 있습니다.
 

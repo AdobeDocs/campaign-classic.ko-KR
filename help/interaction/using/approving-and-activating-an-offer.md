@@ -2,15 +2,16 @@
 product: campaign
 title: 오퍼 승인 및 활성화
 description: 오퍼 승인 및 활성화
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Interaction, Offers
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
@@ -65,27 +66,27 @@ ht-degree: 2%
 
 * 전체 규칙 목록은 다음을 클릭하여 볼 수 있습니다. **[!UICONTROL Schedule and eligibility rules]**.
 
-   ![](assets/offer_validate_005.png)
+  ![](assets/offer_validate_005.png)
 
 * 자격 규칙을 변경하려면 **[!UICONTROL Reject]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Eligibility approval]**.
 
-   ![](assets/offer_validate_007.png)
+  ![](assets/offer_validate_007.png)
 
-   오퍼 대시보드에서 다양한 상태가 업데이트됩니다.
+  오퍼 대시보드에서 다양한 상태가 업데이트됩니다.
 
-   ![](assets/offer_validate_006.png)
+  ![](assets/offer_validate_006.png)
 
 * 오퍼 자격 조건을 수락하려면 다음을 클릭하십시오. **[!UICONTROL Approve eligibility]**.
 
-   ![](assets/offer_validate_008.png)
+  ![](assets/offer_validate_008.png)
 
-   자격 조건을 승인하고 필요한 경우 댓글을 추가한 다음 을 클릭합니다. **[!UICONTROL Eligibility approval]**.
+  자격 조건을 승인하고 필요한 경우 댓글을 추가한 다음 을 클릭합니다. **[!UICONTROL Eligibility approval]**.
 
-   ![](assets/offer_validate_009.png)
+  ![](assets/offer_validate_009.png)
 
-   오퍼 대시보드에서 다양한 상태가 업데이트됩니다.
+  오퍼 대시보드에서 다양한 상태가 업데이트됩니다.
 
-   ![](assets/offer_validate_010.png)
+  ![](assets/offer_validate_010.png)
 
 ## 승인 추적 {#approval-tracking}
 

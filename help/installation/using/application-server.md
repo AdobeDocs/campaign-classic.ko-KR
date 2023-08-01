@@ -2,16 +2,17 @@
 product: campaign
 title: 애플리케이션 서버
 description: 애플리케이션 서버
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 1%
+source-wordcount: '514'
+ht-degree: 3%
 
 ---
 

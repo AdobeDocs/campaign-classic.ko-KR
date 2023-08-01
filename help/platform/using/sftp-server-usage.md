@@ -2,16 +2,17 @@
 product: campaign
 title: SFTP 서버 사용
 description: SFTP 서버 모범 사례 및 문제 해결에 대해 자세히 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Troubleshooting
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 14%
+source-wordcount: '1160'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +26,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 * 암호 만료를 방지하려면 암호 인증 대신 키 기반 인증을 사용하십시오(암호는 유효 기간이 90일입니다). 또한 키 기반 인증을 사용하면 여러 엔티티 관리 등 여러 키를 생성할 수 있습니다. 반대로 암호 인증은 관리하는 모든 엔티티와 암호를 공유해야 합니다.
 
-   지원되는 키 형식은 SSH-2 RSA 2048입니다. 키는 PyTTY(Windows) 또는 ssh-keygen(Unix)과 같은 도구로 생성할 수 있습니다. 다음을 통해 Adobe 지원 팀에 공개 키를 제공해야 합니다. [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Campaign 서버에 업로드하도록 설정합니다.
+  지원되는 키 형식은 SSH-2 RSA 2048입니다. 키는 PyTTY(Windows) 또는 ssh-keygen(Unix)과 같은 도구로 생성할 수 있습니다. 다음을 통해 Adobe 지원 팀에 공개 키를 제공해야 합니다. [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Campaign 서버에 업로드하도록 설정합니다.
 
 * 워크플로우뿐만 아니라 SFTP 업로드에서도 일괄 처리를 사용합니다.
 
@@ -45,7 +46,7 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
 
 >[!NOTE]
 >
->인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic을 사용하여 SFTP 서버 스토리지를 모니터링할 수 있습니다 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html). 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
+>인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic을 사용하여 SFTP 서버 스토리지를 모니터링할 수 있습니다 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html). 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko)에 설명된 단계를 수행합니다.
 >
 >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >

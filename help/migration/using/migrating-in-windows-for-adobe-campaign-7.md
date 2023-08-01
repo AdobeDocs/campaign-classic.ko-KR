@@ -2,16 +2,17 @@
 product: campaign
 title: Microsoft Windows 플랫폼을 Adobe Campaign v7로 마이그레이션
 description: Microsoft Windows 플랫폼을 Adobe Campaign v7로 마이그레이션하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 hide: true
 hidefromtoc: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -288,17 +289,17 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
    * 각 유형의 수신 포트(**[!UICONTROL http]** 및/또는 **[!UICONTROL https]**)를 클릭하고 적절한 선을 선택한 다음 를 클릭합니다 **[!UICONTROL Edit]**.
    * 다른 포트를 입력하십시오. 기본적으로 수신 포트는 http의 경우 80이고 https의 경우 443입니다. 새 포트를 사용할 수 있는지 확인합니다.
 
-      ![](assets/_migration_iis_3_611.png)
+     ![](assets/_migration_iis_3_611.png)
 
-      >[!NOTE]
-      >
-      >IIS 서버에 고급 구성(공유 포트 및 다른 IP 주소)이 있는 Adobe Campaign용 웹 사이트가 여러 개 포함된 경우 관리자에게 문의하십시오.
+     >[!NOTE]
+     >
+     >IIS 서버에 고급 구성(공유 포트 및 다른 IP 주소)이 있는 Adobe Campaign용 웹 사이트가 여러 개 포함된 경우 관리자에게 문의하십시오.
 
 1. Adobe Campaign v7용 새 웹 사이트 만들기:
 
    * 마우스 오른쪽 단추 클릭 **[!UICONTROL Sites]** 폴더 및 선택 **[!UICONTROL Add Web Site...]**.
 
-      ![](assets/_migration_iis_4.png)
+     ![](assets/_migration_iis_4.png)
 
    * 사이트 이름 입력, **Adobe Campaign v7** 예.
    * 웹 사이트의 기본 디렉터리에 대한 액세스 경로는 사용되지 않지만 **[!UICONTROL Physical access path]** 필드를 입력해야 합니다. 기본 IIS 액세스 경로 입력: **C:\inetpub\wwwroot**.
@@ -306,38 +307,38 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
    * 기본값은에 그대로 둘 수 있습니다. **[!UICONTROL IP address]** 및 **[!UICONTROL Port]** 필드. 다른 값을 사용하려면 IP 주소 및/또는 포트를 사용할 수 있는지 확인하십시오.
    * 다음 확인: **[!UICONTROL Start Web site immediately]** 상자.
 
-      ![](assets/_migration_iis_5_7.png)
+     ![](assets/_migration_iis_5_7.png)
 
 1. 실행 **iis_neolane_setup.vbs** 이전에 만든 가상 디렉터리에 있는 Adobe Campaign 서버에서 사용하는 리소스를 자동으로 구성하는 스크립트입니다.
 
    * 이 파일은 **`[Adobe Campaign v7]`\conf** 디렉토리, 여기서 **`[Adobe Campaign v7]`** 는 Adobe Campaign 설치 디렉토리에 대한 액세스 경로입니다. 스크립트를 실행하는 명령은 다음과 같습니다(관리자용).
 
-      ```
-      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
-      cscript iis_neolane_setup.vbs
-      ```
+     ```
+     cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
+     cscript iis_neolane_setup.vbs
+     ```
 
    * 클릭 **[!UICONTROL OK]** 스크립트 실행을 확인합니다.
 
-      ![](assets/s_ncs_install_iis7_parameters_step2_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step2_7.png)
 
    * 이전에 Adobe Campaign v7용으로 만든 웹 사이트의 번호를 입력하고 **[!UICONTROL OK]**.
 
-      ![](assets/s_ncs_install_iis7_parameters_step3_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step3_7.png)
 
    * 확인 메시지가 표시됩니다.
 
-      ![](assets/s_ncs_install_iis7_parameters_step7_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step7_7.png)
 
    * 다음에서 **[!UICONTROL Content view]** 탭에서 웹 사이트 구성이 Adobe Campaign 리소스로 올바르게 구성되었는지 확인합니다.
 
-      ![](assets/s_ncs_install_iis7_parameters_step6_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step6_7.png)
 
-      >[!NOTE]
-      >
-      >트리 구조가 표시되지 않으면 IIS를 다시 시작합니다.
-      >
-      >다음 IIS 구성 단계는에 자세히 설명되어 있습니다 [이 섹션](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
+     >[!NOTE]
+     >
+     >트리 구조가 표시되지 않으면 IIS를 다시 시작합니다.
+     >
+     >다음 IIS 구성 단계는에 자세히 설명되어 있습니다 [이 섹션](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
 
 <!--
 ## Security zones {#security-zones}

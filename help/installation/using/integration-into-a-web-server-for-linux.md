@@ -2,16 +2,17 @@
 product: campaign
 title: Linux용 웹 서버와 통합
 description: Campaign을 웹 서버(Linux)에 통합하는 방법을 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
-source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 2%
+source-wordcount: '579'
+ht-degree: 4%
 
 ---
 
@@ -28,9 +29,9 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 �
 * 기본 수신 포트는 8080입니다. 변경하려면 다음을 참조하십시오. [이 섹션](configure-tomcat.md).
 * 그런 다음 클라이언트 콘솔은 다음과 같은 URL을 사용하여 연결합니다.
 
-   ```
-   http://<computer>:8080
-   ```
+  ```
+  http://<computer>:8080
+  ```
 
 그러나 보안 및 관리상의 이유로 Adobe Campaign을 실행 중인 컴퓨터가 인터넷에 노출되어 네트워크 외부의 콘솔에 대한 액세스를 열고자 할 때 HTTP 트래픽의 기본 진입점으로 전용 웹 서버를 사용하는 것이 좋습니다.
 

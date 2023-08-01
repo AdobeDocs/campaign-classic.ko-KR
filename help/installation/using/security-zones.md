@@ -2,16 +2,17 @@
 product: campaign
 title: 보안 영역 구성
 description: 보안 영역 구성 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 1%
+source-wordcount: '1489'
+ht-degree: 2%
 
 ---
 
@@ -30,6 +31,7 @@ ht-degree: 1%
 >로서의 **호스트됨** 고객, 액세스할 수 있는 경우 [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)보안 영역 셀프 서비스 인터페이스를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko)
 >
 >기타 **하이브리드/호스팅** 고객은 Adobe 지원 팀에 연락하여 허용 목록에 추가하다에 IP를 추가해야 합니다.
+>
 
 ## 보안 영역 만들기 {#creating-security-zones}
 
@@ -150,15 +152,15 @@ ht-degree: 1%
 
 * 보안 영역에서 하위 네트워크를 직접 참조하며 프록시가 구성되지 않습니다. 하위 네트워크 사용자는 Adobe Campaign 서버에 직접 연결할 수 있습니다.
 
-   ![](assets/8101_proxy1.png)
+  ![](assets/8101_proxy1.png)
 
 * 보안 영역의 하위 네트워크에 대해 프록시가 지정됩니다. 이 하위 네트워크의 사용자는 이 프록시를 통해 Adobe Campaign 서버에 액세스할 수 있습니다.
 
-   ![](assets/8101_proxy2.png)
+  ![](assets/8101_proxy2.png)
 
 * 프록시는 보안 영역 하위 네트워크에 포함되어 있습니다. 이 프록시를 통해 액세스할 수 있는 사용자는 출처에 관계없이 Adobe Campaign 서버에 액세스할 수 있습니다.
 
-   ![](assets/8101_proxy3.png)
+  ![](assets/8101_proxy3.png)
 
 Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소는 **`<subnetwork>`** 관련된 하위 네트워크 및 첫 번째 수준 하위 네트워크 **`<subnetwork name="all"/>`**. 예를 들어 IP 주소가 10.131.146.102인 프록시의 경우 다음과 같습니다.
 
@@ -240,15 +242,15 @@ Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소는 **`<s
 
    * allowDebug가 false로 설정되면 출력은 다음과 같습니다.
 
-      ```
-      <redir status='OK' date='...' sourceIP='...'/>
-      ```
+     ```
+     <redir status='OK' date='...' sourceIP='...'/>
+     ```
 
    * allowDebug가 true로 설정되면 출력은 다음과 같습니다.
 
-      ```
-      <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
-      ```
+     ```
+     <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
+     ```
 
 * allowEmptyPassword, allowUserPassword, allowSQLInjection을 true로 설정하지 마십시오. 이러한 속성은 v5 및 v6.0에서 원활하게 마이그레이션할 수 있도록 하기 위한 것입니다.
 

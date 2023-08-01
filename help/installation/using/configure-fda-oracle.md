@@ -2,14 +2,15 @@
 product: campaign
 title: oracle 액세스 구성
 description: FDA에서 Oracle 액세스를 구성하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -50,18 +51,18 @@ FDA에서 Oracle 외부 데이터베이스에 연결하려면 Adobe Campaign 서
 
    * **libclntsh.so**
 
-      ```
-      cd /usr/lib/oracle/<version>/client<architecture>/lib
-      ln -s libclntsh.so.<version> libclntsh.so
-      ```
+     ```
+     cd /usr/lib/oracle/<version>/client<architecture>/lib
+     ln -s libclntsh.so.<version> libclntsh.so
+     ```
 
    * **libaio1**
 
-      ```
-      aptitude install libaio1
-      or
-      yum install libaio1
-      ```
+     ```
+     aptitude install libaio1
+     or
+     yum install libaio1
+     ```
 
 1. 그런 다음 Campaign Classic에서 다음을 구성할 수 있습니다. [!DNL Oracle] 외부 계정입니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#oracle-external).
 
@@ -98,4 +99,5 @@ FDA에서 Oracle 외부 데이터베이스에 연결하려면 Adobe Campaign 서
    * **[!UICONTROL Password]**: 사용자 계정 암호
 
    * **[!UICONTROL Time zone]**: 서버 시간대
+
    ![](assets/oracle_config.png)

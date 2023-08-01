@@ -2,14 +2,14 @@
 product: campaign
 title: ACS 커넥터 시작
 description: ACS 커넥터 원칙 및 데이터 주기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 hide: true
 hidefromtoc: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2045'
 ht-degree: 3%
 
 ---
@@ -151,9 +151,9 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
 * **[!UICONTROL `[ACS] Delivery-message replication`]** (newDlvMsgQualification): 이 증분 워크플로우는 게재 메시지를 Campaign Standard에서 Campaign v7로 복제합니다.
 * **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication): 이 증분 워크플로우는 게재 ID, 이메일 광범위한 로그 및 이메일 추적 로그를 Campaign Standard에서 Campaign v7으로 복제합니다. Campaign v7의 nms:recipients 표에 포함된 프로필로 Campaign Standard에서 보낸 게재만 고려합니다.
 
-   >[!NOTE]
-   >
-   > Campaign Classic 인스턴스와 Campaign Standard 인스턴스가 모두 추적된 URL이 있는 이메일을 보내는 데 사용되는 경우 동기화 중에 중복 URL tagIds 문제가 발생할 수 있습니다. 이 문제가 발생하지 않도록 하려면 **추적 URL 업데이트** (writerTrackingUrls) 활동을 워크플로우에서 실행하고 &quot;ACS&quot; 접두사를 @tagId 소스 표현식에 추가합니다.
+  >[!NOTE]
+  >
+  > Campaign Classic 인스턴스와 Campaign Standard 인스턴스가 모두 추적된 URL이 있는 이메일을 보내는 데 사용되는 경우 동기화 중에 중복 URL tagIds 문제가 발생할 수 있습니다. 이 문제가 발생하지 않도록 하려면 **추적 URL 업데이트** (writerTrackingUrls) 활동을 워크플로우에서 실행하고 &quot;ACS&quot; 접두사를 @tagId 소스 표현식에 추가합니다.
 
 * **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication): 이 증분 워크플로우는 게재 ID, 이메일 광범위한 로그 및 이메일 추적 로그를 Campaign Standard에서 Campaign v7으로 복제합니다. Campaign Standard에서 Campaign v7의 특정 테이블(nms:recipients 이외 정의 대상)에 속한 프로필로 전송된 게재만 고려합니다.
 

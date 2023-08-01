@@ -2,12 +2,12 @@
 product: campaign
 title: 지표 계산
 description: 지표 계산
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
-feature: Reporting
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+feature: Reporting, Monitoring
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2979'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> 열람 수<br /> </td> 
-   <td> @열기<br /> </td> 
+   <td> @opens<br /> </td> 
    <td> URL 기본 @totalClicks이 1인 모든 방문자의 합계입니다.<br /> </td> 
    <td> sum(Iif([@url-id]=1, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -221,7 +221,7 @@ ht-degree: 7%
   <tr> 
    <td> 게재할 메시지 수<br /> </td> 
    <td> @totalTarget<br /> </td> 
-   <td> 게재 분석 중 처리된 총 메시지 수입니다.<br /> </td> 
+   <td> 게재 분석 시 처리된 총 메시지 수입니다.<br /> </td> 
    <td> sum([속성/@totalTarget])<br /> </td> 
   </tr> 
   <tr> 
@@ -752,7 +752,7 @@ ht-degree: 7%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 초기 모집단<br /> </td> 
+   <td> 초기 집단<br /> </td> 
    <td> @totalTarget<br /> </td> 
    <td> 게재 대상의 총 수신자 수입니다.<br /> </td> 
    <td> sum([속성/@totalTarget])<br /> </td> 
@@ -760,7 +760,7 @@ ht-degree: 7%
   <tr> 
    <td> 규칙에 의해 거부된 메시지<br /> </td> 
    <td> @reject<br /> </td> 
-   <td> 유형화 규칙을 준수하며 분석 중에 무시되는 주소 수: 지정되지 않은 주소, 격리된 주소, 차단 목록 등<br /> </td> 
+   <td> 유형화 규칙을 준수하며 분석 중에 무시되는 주소 수: 지정되지 않은 주소, 격리된 주소, 차단 목록에 추가하다 등<br /> </td> 
    <td> sum([속성/@reject])<br /> </td> 
   </tr> 
   <tr> 
@@ -824,7 +824,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 열기<br /> </td> 
-   <td> @열기<br /> </td> 
+   <td> @opens<br /> </td> 
    <td> URL 기본 키가 1인 모든 @totalClicks 수의 합계입니다.<br /> </td> 
    <td> sum(Iif([@url-id] = 1, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -852,7 +852,7 @@ ht-degree: 7%
    <td> @prepared + @error + @success<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재됨<br /> </td> 
+   <td> 게재 대상<br /> </td> 
    <td> @success<br /> </td> 
    <td> 정상적으로 처리된 메시지 수.<br /> </td> 
    <td> 지표/@success<br /> </td> 
@@ -890,7 +890,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-## 열람 분류 {#breakdown-of-opens-1}
+## 열람수 분류 {#breakdown-of-opens-1}
 
 이 보고서는 다음을 기반으로 합니다. **게재** (nms:delivery) 및 **추적 로그** (nms:trackingLogRcp) 테이블.
 

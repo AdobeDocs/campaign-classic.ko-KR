@@ -2,12 +2,12 @@
 product: campaign
 title: 다대다 관계를 사용하여 쿼리
 description: 다대다 관계를 사용하여 쿼리를 수행하는 방법에 대해 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Query Editor
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+feature: Query Editor, Workflows
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * 어떤 테이블을 선택해야 합니까?
 
-   수신자 테이블 (**nms:recipient**)
+  수신자 테이블 (**nms:recipient**)
 
 * 출력 열에 대해 선택할 필드
 
-   기본 키, 성, 이름 및 이메일
+  기본 키, 성, 이름 및 이메일
 
 * 정보가 필터링되는 기준
 
-   오늘 7일 전까지 거슬러 올라가는 수신자의 게재 로그 기준
+  오늘 7일 전까지 거슬러 올라가는 수신자의 게재 로그 기준
 
 다음 단계를 적용합니다.
 
@@ -48,21 +48,21 @@ ht-degree: 0%
 
    * 다음을 선택하여 시작 **[!UICONTROL Recipient delivery logs (broadlog)]** 첫 번째 요소의 컬렉션 요소(주황색 노드) **[!UICONTROL Value]** 열.
 
-      ![](assets/query_editor_nveau_67.png)
+     ![](assets/query_editor_nveau_67.png)
 
-      다음을 선택합니다. **[!UICONTROL do not exist as]** 연산자. 이 행에서 두 번째 값을 선택할 필요는 없습니다.
+     다음을 선택합니다. **[!UICONTROL do not exist as]** 연산자. 이 행에서 두 번째 값을 선택할 필요는 없습니다.
 
    * 두 번째 필터링 조건의 콘텐츠는 첫 번째 필터링 조건에 따라 달라집니다. 여기, **[!UICONTROL Event date]** 필드는 다음에서 직접 제공됩니다. **[!UICONTROL Recipient delivery logs]** 이 테이블에 대한 링크가 있으므로 테이블을 편집하십시오.
 
-      ![](assets/query_editor_nveau_36.png)
+     ![](assets/query_editor_nveau_36.png)
 
-      선택 **[!UICONTROL Event date]** (으)로 **[!UICONTROL greater than or equal to]** 연산자. 다음 항목 선택 **[!UICONTROL DaysAgo (7)]** 값. 이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL Edit expression]** 다음에서 **[!UICONTROL Value]** 필드. 다음에서 **[!UICONTROL Formula type]** 창, 선택 **[!UICONTROL Process on dates]** 및 **[!UICONTROL Current date minus n days]**, &quot;7&quot;을 값으로 제공합니다.
+     선택 **[!UICONTROL Event date]** (으)로 **[!UICONTROL greater than or equal to]** 연산자. 다음 항목 선택 **[!UICONTROL DaysAgo (7)]** 값. 이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL Edit expression]** 다음에서 **[!UICONTROL Value]** 필드. 다음에서 **[!UICONTROL Formula type]** 창, 선택 **[!UICONTROL Process on dates]** 및 **[!UICONTROL Current date minus n days]**, &quot;7&quot;을 값으로 제공합니다.
 
-      ![](assets/query_editor_nveau_37.png)
+     ![](assets/query_editor_nveau_37.png)
 
-      필터 조건이 구성되었습니다.
+     필터 조건이 구성되었습니다.
 
-      ![](assets/query_editor_nveau_38.png)
+     ![](assets/query_editor_nveau_38.png)
 
 1. 다음에서 **[!UICONTROL Data formatting]** 창에서는 성을 대문자로 바꿉니다. 다음을 클릭합니다. **[!UICONTROL Last name]** 줄 입력 **[!UICONTROL Transformation]** 열 및 선택 **[!UICONTROL Switch to upper case]** 을 클릭하여 제품에서 사용할 수 있습니다.
 

@@ -2,12 +2,12 @@
 product: campaign
 title: 유형화 규칙 적용
 description: 유형화 규칙을 적용하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Typology Rules
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+feature: Typology Rules, Campaigns
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '990'
 ht-degree: 9%
 
 ---
@@ -104,21 +104,21 @@ ht-degree: 9%
 
 * **[!UICONTROL At the start of targeting]**
 
-   오류 발생 시 개인화 단계가 실행되지 않도록 하기 위해 여기에서 제어 규칙을 적용할 수 있습니다.
+  오류 발생 시 개인화 단계가 실행되지 않도록 하기 위해 여기에서 제어 규칙을 적용할 수 있습니다.
 
 * **[!UICONTROL After targeting]**
 
-   제어 규칙을 적용하려면 대상의 볼륨을 알고 있어야 하는 경우 이 단계를 선택합니다.
+  제어 규칙을 적용하려면 대상의 볼륨을 알고 있어야 하는 경우 이 단계를 선택합니다.
 
-   예를 들어 **[!UICONTROL Check proof size]** 제어 규칙은 각 타겟팅 단계 후에 적용됩니다. 이 규칙은 증명 수신자가 너무 많은 경우 메시지 개인화를 방지합니다.
+  예를 들어 **[!UICONTROL Check proof size]** 제어 규칙은 각 타겟팅 단계 후에 적용됩니다. 이 규칙은 증명 수신자가 너무 많은 경우 메시지 개인화를 방지합니다.
 
 * **[!UICONTROL At the start of personalization]**
 
-   제어가 메시지 개인화 승인과 관련된 경우 이 단계를 선택해야 합니다. 메시지 개인화는 분석 단계 동안 수행됩니다.
+  제어가 메시지 개인화 승인과 관련된 경우 이 단계를 선택해야 합니다. 메시지 개인화는 분석 단계 동안 수행됩니다.
 
 * **[!UICONTROL At the end of the analysis]**
 
-   메시지 개인화를 완료해야 하는 경우 이 단계를 선택합니다.
+  메시지 개인화를 완료해야 하는 경우 이 단계를 선택합니다.
 
 ## 추가 구성 {#additional-configurations}
 

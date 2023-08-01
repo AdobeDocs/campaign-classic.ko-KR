@@ -2,14 +2,15 @@
 product: campaign
 title: netezza 액세스 구성
 description: FDA에서 Netezza 액세스를 구성하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -36,33 +37,33 @@ FDA에서 Netezza 외부 데이터베이스에 연결하려면 Adobe Campaign �
 
    * **/etc/odbc.ini**
 
-      ```
-      [ODBC]
-      InstallDir=/etc/
-      ```
+     ```
+     [ODBC]
+     InstallDir=/etc/
+     ```
 
-      &quot;InstallDir&quot;은 odbcinst.ini 파일의 위치에 해당합니다.
+     &quot;InstallDir&quot;은 odbcinst.ini 파일의 위치에 해당합니다.
 
    * **/etc/odbcinst.ini**
 
-      ```
-      [ODBC Drivers]
-      NetezzaSQL = Installed
-      
-      [NetezzaSQL]
-      Driver           = /usr/local/nz/lib/libnzsqlodbc3.so
-      Setup            = /usr/local/nz/lib/libnzsqlodbc3.so
-      APILevel         = 1
-      ConnectFunctions = YYN
-      Description      = Netezza ODBC driver
-      DriverODBCVer    = 03.51
-      DebugLogging     = false
-      LogPath          = /tmp
-      UnicodeTranslationOption = utf8
-      CharacterTranslationOption = all
-      PreFetch         = 256
-      Socket           = 16384
-      ```
+     ```
+     [ODBC Drivers]
+     NetezzaSQL = Installed
+     
+     [NetezzaSQL]
+     Driver           = /usr/local/nz/lib/libnzsqlodbc3.so
+     Setup            = /usr/local/nz/lib/libnzsqlodbc3.so
+     APILevel         = 1
+     ConnectFunctions = YYN
+     Description      = Netezza ODBC driver
+     DriverODBCVer    = 03.51
+     DebugLogging     = false
+     LogPath          = /tmp
+     UnicodeTranslationOption = utf8
+     CharacterTranslationOption = all
+     PreFetch         = 256
+     Socket           = 16384
+     ```
 
 1. Adobe Campaign 서버의 환경 변수를 지정합니다.
 

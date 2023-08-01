@@ -2,14 +2,15 @@
 product: campaign
 title: 메시지 템플릿 게시
 description: Adobe Campaign Classic에서의 트랜잭션 메시지 템플릿 게시 및 게시 취소에 대해 알아봅니다.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Transactional Messaging, Message Center, Templates
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '501'
 ht-degree: 2%
 
 ---
@@ -56,7 +57,7 @@ ht-degree: 2%
 
 * 실제로 해당 이벤트가 트리거된 경우에도 게시된 템플릿을 호출할 수 있습니다. 메시지 템플릿을 더 이상 사용하지 않는 경우에는 게시를 취소하는 것이 좋습니다. 이는 실수로 원치 않는 트랜잭션 메시지를 보내는 것을 방지하기 위해서입니다.
 
-   예를 들어 크리스마스 캠페인에만 사용하는 메시지 템플릿을 게시했습니다. 크리스마스 기간이 끝난 후에 게시 취소하고 내년에 다시 게시할 수도 있습니다.
+  예를 들어 크리스마스 캠페인에만 사용하는 메시지 템플릿을 게시했습니다. 크리스마스 기간이 끝난 후에 게시 취소하고 내년에 다시 게시할 수도 있습니다.
 
 * 또한 이 있는 트랜잭션 메시지 템플릿은 삭제할 수 없습니다. **[!UICONTROL Published]** 상태. 먼저 게시를 취소해야 합니다.
 
@@ -82,8 +83,8 @@ ht-degree: 2%
 
 * 두 메시지 템플릿(일괄 처리 및 실시간 유형 이벤트에 적용됨)이 모두 각 실행 인스턴스에서 삭제됩니다.
 
-   이 변수는 더 이상 다음에 나타나지 않습니다. **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** 폴더(참조) [이 섹션](#template-publication)).
+  이 변수는 더 이상 다음에 나타나지 않습니다. **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** 폴더(참조) [이 섹션](#template-publication)).
 
 * 템플릿이 게시 취소되면 컨트롤 인스턴스에서 삭제할 수 있습니다.
 
-   이렇게 하려면 목록에서 해당 항목을 선택하고 **[!UICONTROL Delete]** 화면 오른쪽 상단의 단추.
+  이렇게 하려면 목록에서 해당 항목을 선택하고 **[!UICONTROL Delete]** 화면 오른쪽 상단의 단추.

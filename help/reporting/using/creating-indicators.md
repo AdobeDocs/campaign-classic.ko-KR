@@ -2,11 +2,11 @@
 product: campaign
 title: 표시기 만들기
 description: 표시기 만들기
-feature: Reporting
+feature: Reporting, Monitoring
 hide: true
 hidefromtoc: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 2%
@@ -58,39 +58,39 @@ Dimension은 관련 팩트 스키마를 기반으로 각 큐브에 대해 정의
 
 * 수신자를 선택하여 시작 **나이**. 이 필드의 경우, 나이를 그룹화하고 정보를 더 쉽게 읽을 수 있도록 비닝을 정의할 수 있습니다. 여러 개의 별도 값이 있을 가능성이 있는 경우 비닝을 사용하는 것이 좋습니다.
 
-   이렇게 하려면 다음을 확인하십시오. **[!UICONTROL Enable binning]** 옵션을 선택합니다. 빈 모드는에 자세히 설명되어 있습니다 [데이터 빈](../../reporting/using/concepts-and-methodology.md#data-binning).
+  이렇게 하려면 다음을 확인하십시오. **[!UICONTROL Enable binning]** 옵션을 선택합니다. 빈 모드는에 자세히 설명되어 있습니다 [데이터 빈](../../reporting/using/concepts-and-methodology.md#data-binning).
 
-   ![](assets/s_advuser_cube_wz_05.png)
+  ![](assets/s_advuser_cube_wz_05.png)
 
 * 추가 **날짜** 차원 입력. 여기에서는 수신자 프로필 생성 날짜를 표시하려고 합니다
 
-   이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL Add]** 및 선택 **[!UICONTROL Creation date]** 수신자 테이블의 필드.
+  이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL Add]** 및 선택 **[!UICONTROL Creation date]** 수신자 테이블의 필드.
 
-   ![](assets/s_advuser_cube_wz_06.png)
+  ![](assets/s_advuser_cube_wz_06.png)
 
-   날짜 표시 모드를 선택할 수 있습니다. 이렇게 하려면 사용할 계층과 생성할 레벨을 선택합니다.
+  날짜 표시 모드를 선택할 수 있습니다. 이렇게 하려면 사용할 계층과 생성할 레벨을 선택합니다.
 
-   ![](assets/s_advuser_cube_wz_07.png)
+  ![](assets/s_advuser_cube_wz_07.png)
 
-   이 예제에서는 주, 학기/월을 동시에 사용할 수 없으므로 연도, 월, 일만 표시하려고 합니다. 이러한 수준은 호환되지 않습니다.
+  이 예제에서는 주, 학기/월을 동시에 사용할 수 없으므로 연도, 월, 일만 표시하려고 합니다. 이러한 수준은 호환되지 않습니다.
 
 * 수신자의 도시를 기준으로 데이터를 분석할 다른 차원을 만듭니다
 
-   이렇게 하려면 새 차원을 추가하고 **[!UICONTROL Location]** 수신자 스키마의 노드.
+  이렇게 하려면 새 차원을 추가하고 **[!UICONTROL Location]** 수신자 스키마의 노드.
 
-   ![](assets/s_advuser_cube_wz_08.png)
+  ![](assets/s_advuser_cube_wz_08.png)
 
-   비닝을 활성화하면 정보를 더 쉽게 읽고 값을 열거에 연결할 수 있습니다.
+  비닝을 활성화하면 정보를 더 쉽게 읽고 값을 열거에 연결할 수 있습니다.
 
-   ![](assets/s_advuser_cube_wz_09.png)
+  ![](assets/s_advuser_cube_wz_09.png)
 
-   드롭다운 목록에서 열거형을 선택합니다
+  드롭다운 목록에서 열거형을 선택합니다
 
-   ![](assets/s_advuser_cube_wz_10.png)
+  ![](assets/s_advuser_cube_wz_10.png)
 
-   열거형의 값만 표시됩니다. 다른 항목은 다음에 정의된 레이블 아래에 그룹화됩니다. **[!UICONTROL Label of the other values]** 필드.
+  열거형의 값만 표시됩니다. 다른 항목은 다음에 정의된 레이블 아래에 그룹화됩니다. **[!UICONTROL Label of the other values]** 필드.
 
-   자세한 내용은 다음을 참조하십시오. [동적으로 빈 관리](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
+  자세한 내용은 다음을 참조하십시오. [동적으로 빈 관리](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 
 ## 지표 작성 {#building-indicators}
 

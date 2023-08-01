@@ -2,13 +2,13 @@
 product: campaign
 title: 분석 보고서 사용
 description: 분석 보고서 사용
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '828'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 1%
 * **[!UICONTROL Sort from A to Z]** 변수 값을 낮음에서 높음으로 정렬합니다.
 * **[!UICONTROL Sort from Z to A]** 변수 값을 높음에서 낮음으로 정렬합니다.
 
-   ![](assets/s_ncs_advuser_report_wizard_016.png)
+  ![](assets/s_ncs_advuser_report_wizard_016.png)
 
 초기 표시로 돌아가려면 뷰를 새로 고칩니다.
 
@@ -111,11 +111,11 @@ ht-degree: 1%
 * 다음 **[!UICONTROL Accumulate values]** 옵션을 사용하면 한 계열에서 다른 계열에 값을 추가할 수 있습니다.
 * 차트 범례를 표시할지 여부를 결정할 수 있습니다. 숨기려면 해당 옵션의 선택을 취소합니다. 기본적으로 범례는 오른쪽 상단 모서리에 있는 차트 외부에 표시됩니다.
 
-   범례는 표시 공간에 저장하기 위해 차트 위에 표시될 수도 있습니다. 이렇게 하려면 옵션을 선택합니다 **[!UICONTROL Include in the chart]**
+  범례는 표시 공간에 저장하기 위해 차트 위에 표시될 수도 있습니다. 이렇게 하려면 옵션을 선택합니다 **[!UICONTROL Include in the chart]**
 
-   에서 세로 및 가로 정렬을 선택합니다. **[!UICONTROL Caption position]** 드롭다운 목록입니다.
+  에서 세로 및 가로 정렬을 선택합니다. **[!UICONTROL Caption position]** 드롭다운 목록입니다.
 
-   ![](assets/s_ncs_advuser_report_wizard_3d.png)
+  ![](assets/s_ncs_advuser_report_wizard_3d.png)
 
 ## 분석 보고서 내보내기 {#exporting-an-analysis-report}
 

@@ -2,14 +2,15 @@
 product: campaign
 title: sybase IQ 액세스 구성
 description: FDA에서 Sybase IQ에 대한 액세스를 구성하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0fdf8259-5cab-4a9d-adb3-6c55ec5c8851
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '326'
 ht-degree: 1%
 
 ---
@@ -39,28 +40,28 @@ FDA에서 Sybase IQ 외부 데이터베이스에 연결하려면 Adobe Campaign 
 
    * **/etc/odbc.ini** (다음과 같이 값 바꾸기) `<server_alias>` 자(직접 입력):
 
-      ```
-      [ODBC Data Sources]
-      <server_alias>=libdbodbc.so
-      
-      [<server_alias>]
-      Driver=/opt/sybase/IQ-16_0/lib64/libdbodbc16.so
-      Description=<description>
-      Username=<username>
-      Password=<password>
-      ServerName=<server_name>
-      CommLinks=tcpip(host=<host>)
-      ```
+     ```
+     [ODBC Data Sources]
+     <server_alias>=libdbodbc.so
+     
+     [<server_alias>]
+     Driver=/opt/sybase/IQ-16_0/lib64/libdbodbc16.so
+     Description=<description>
+     Username=<username>
+     Password=<password>
+     ServerName=<server_name>
+     CommLinks=tcpip(host=<host>)
+     ```
 
    * **/etc/odbcinst.ini**
 
-      ```
-      [ODBC DRIVERS]
-      SAP SybaseIQ=Installed
-      
-      [SAP SybaseIQ]
-      Driver=/opt/sybase/IQ-16_0/lib64/libdbodbc16.so
-      ```
+     ```
+     [ODBC DRIVERS]
+     SAP SybaseIQ=Installed
+     
+     [SAP SybaseIQ]
+     Driver=/opt/sybase/IQ-16_0/lib64/libdbodbc16.so
+     ```
 
 1. LD_LIBRARY_PATH 변수에 새 libodbc16.so 라이브러리의 경로를 추가합니다. 방법은 다음과 같습니다.
 

@@ -2,13 +2,14 @@
 product: campaign
 title: 파이프라인 옵션 NmsPipeline_Config
 description: 파이프라인 옵션 NmsPipeline_Config
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Triggers
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '386'
 ht-degree: 3%
 
 ---

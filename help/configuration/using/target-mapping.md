@@ -2,12 +2,13 @@
 product: campaign
 title: 대상 매핑
 description: 대상 매핑을 만드는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Application Settings
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '502'
 ht-degree: 2%
 
 ---

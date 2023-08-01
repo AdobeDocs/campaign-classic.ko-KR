@@ -2,11 +2,12 @@
 product: campaign
 title: 웹 추적 태그 만들기
 description: 웹 추적 태그를 만드는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Application Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---

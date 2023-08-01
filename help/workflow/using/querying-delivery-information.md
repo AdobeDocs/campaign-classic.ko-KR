@@ -2,12 +2,12 @@
 product: campaign
 title: 게재 정보 쿼리
 description: 게재 정보 쿼리 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Query Editor
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+feature: Query Editor, Workflows
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1248'
 ht-degree: 1%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 1%
 
 * 어떤 테이블을 선택해야 합니까?
 
-   수신자 로그 추적 테이블(**[!UICONTROL nms:trackingLogRcp]**)
+  수신자 로그 추적 테이블(**[!UICONTROL nms:trackingLogRcp]**)
 
 * 출력 열에 대해 선택할 필드입니까?
 
-   기본 키(개수 포함) 및 이메일
+  기본 키(개수 포함) 및 이메일
 
 * 정보는 어떤 기준을 기반으로 필터링됩니까?
 
-   게재 레이블의 특정 기간 및 요소
+  게재 레이블의 특정 기간 및 요소
 
 이 예를 수행하려면 다음 단계를 적용합니다.
 
@@ -44,19 +44,19 @@ ht-degree: 1%
 
    * 다음을 클릭합니다. **[!UICONTROL Add]** 아이콘 의 오른쪽 **[!UICONTROL Output columns]** 필드. 다음에서 **[!UICONTROL Formula type]** 창에서 **[!UICONTROL Edit the formula using an expression]** 옵션 및 클릭 **[!UICONTROL Next]**. 다음에서 **[!UICONTROL Field to select]** 창에서 다음을 클릭: **[!UICONTROL Advanced selection]**.
 
-      ![](assets/query_editor_tracklog_06.png)
+     ![](assets/query_editor_tracklog_06.png)
 
    * 다음에서 **[!UICONTROL Formula type]** 창에서 집계 함수에서 프로세스를 실행합니다. 이 프로세스는 기본 키 수가 됩니다.
 
-      선택 **[!UICONTROL Process on an aggregate function]** 다음에서 **[!UICONTROL Aggregate]** 섹션 및 클릭 **[!UICONTROL Count]**.
+     선택 **[!UICONTROL Process on an aggregate function]** 다음에서 **[!UICONTROL Aggregate]** 섹션 및 클릭 **[!UICONTROL Count]**.
 
-      ![](assets/query_editor_nveau_18.png)
+     ![](assets/query_editor_nveau_18.png)
 
-      **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+     **[!UICONTROL Next]**&#x200B;를 클릭합니다.
 
    * 다음 항목 선택 **[!UICONTROL Primary key (@id)]** 필드. 다음 **[!UICONTROL count (primary key)]** 출력 열이 구성되었습니다.
 
-      ![](assets/query_editor_nveau_19.png)
+     ![](assets/query_editor_nveau_19.png)
 
 1. 출력 열에 표시할 다른 필드를 선택합니다. 다음에서 **[!UICONTROL Available fields]** 열, 열기 **[!UICONTROL Recipient]** 노드 및 선택 **[!UICONTROL Email]**. 다음 확인: **[!UICONTROL Group]** 상자 위치: **[!UICONTROL Yes]** 전자 메일 주소별로 추적 로그를 그룹화하려면 이 그룹은 각 로그를 수신자에게 연결합니다.
 
@@ -72,39 +72,39 @@ ht-degree: 1%
 
    * 데이터 필터링을 구성합니다. 이렇게 하려면 다음을 선택합니다. **[!UICONTROL Filter conditions]** 그런 다음 을 클릭합니다. **[!UICONTROL Next]**.
 
-      ![](assets/query_editor_nveau_22.png)
+     ![](assets/query_editor_nveau_22.png)
 
    * 특정 게재에 대해 지정된 기간 동안 추적 로그를 복구합니다. 현재 날짜의 2주 전과 현재 날짜의 전날 사이에서 검색 기간을 설정하는 두 개의 날짜 조건과 특정 게재로 검색을 제한하는 다른 조건, 이렇게 세 가지 필터링 조건이 필요합니다.
 
-      다음에서 **[!UICONTROL Target element]** 창에서 추적 로그를 고려할 시작 날짜를 구성합니다. **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다. 조건 줄이 표시됩니다. 편집 **[!UICONTROL Expression]** 열을 클릭합니다. **[!UICONTROL Edit expression]** 함수. 다음에서 **[!UICONTROL Field to select]** 창, 선택 **[!UICONTROL Date (@logDate)]**.
+     다음에서 **[!UICONTROL Target element]** 창에서 추적 로그를 고려할 시작 날짜를 구성합니다. **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다. 조건 줄이 표시됩니다. 편집 **[!UICONTROL Expression]** 열을 클릭합니다. **[!UICONTROL Edit expression]** 함수. 다음에서 **[!UICONTROL Field to select]** 창, 선택 **[!UICONTROL Date (@logDate)]**.
 
-      ![](assets/query_editor_nveau_23.png)
+     ![](assets/query_editor_nveau_23.png)
 
-      다음 항목 선택 **[!UICONTROL greater than]** 연산자. 다음에서 **[!UICONTROL Value]** 열, 클릭 **[!UICONTROL Edit expression]**, 및 **[!UICONTROL Formula type]** 창, 선택 **[!UICONTROL Process on dates]**. 마지막으로 **[!UICONTROL Current date minus n days]**, &quot;15&quot;를 입력합니다.
+     다음 항목 선택 **[!UICONTROL greater than]** 연산자. 다음에서 **[!UICONTROL Value]** 열, 클릭 **[!UICONTROL Edit expression]**, 및 **[!UICONTROL Formula type]** 창, 선택 **[!UICONTROL Process on dates]**. 마지막으로 **[!UICONTROL Current date minus n days]**, &quot;15&quot;를 입력합니다.
 
-      **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
+     **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
 
-      ![](assets/query_editor_nveau_24.png)
+     ![](assets/query_editor_nveau_24.png)
 
    * 추적 로그 검색 종료 날짜를 선택하려면 다음을 클릭하여 두 번째 조건을 만듭니다. **[!UICONTROL Add]**. 다음에서 **[!UICONTROL Expression]** 열, 선택 **[!UICONTROL Date (@logDate)]** 다시.
 
-      다음 항목 선택 **[!UICONTROL less than]** 연산자. 다음에서 **[!UICONTROL Value]** 열, 클릭 **[!UICONTROL Edit expression]**. 날짜 처리를 위해 **[!UICONTROL Formula type]** 창에서 &quot;1&quot;을 입력합니다. **[!UICONTROL Current date minus n days]**.
+     다음 항목 선택 **[!UICONTROL less than]** 연산자. 다음에서 **[!UICONTROL Value]** 열, 클릭 **[!UICONTROL Edit expression]**. 날짜 처리를 위해 **[!UICONTROL Formula type]** 창에서 &quot;1&quot;을 입력합니다. **[!UICONTROL Current date minus n days]**.
 
-      **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
+     **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
 
-      ![](assets/query_editor_nveau_65.png)
+     ![](assets/query_editor_nveau_65.png)
 
-      이제 쿼리와 관련된 세 번째 필터 조건, 즉 게재 레이블을 구성하려고 합니다.
+     이제 쿼리와 관련된 세 번째 필터 조건, 즉 게재 레이블을 구성하려고 합니다.
 
    * 다음을 클릭합니다. **[!UICONTROL Add]** 다른 필터링 조건을 만드는 함수입니다. 다음에서 **[!UICONTROL Expression]** 열, 클릭 **[!UICONTROL Edit expression]**. 다음에서 **[!UICONTROL Field to select]** 창, 선택 **[!UICONTROL Label]** 다음에서 **[!UICONTROL Delivery]** 노드.
 
-      **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
+     **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
 
-      ![](assets/query_editor_nveau_66.png)
+     ![](assets/query_editor_nveau_66.png)
 
-      &quot;sales&quot;라는 단어가 포함된 게재를 찾습니다. 정확한 레이블이 기억나지 않으므로 다음을 선택할 수 있습니다. **[!UICONTROL contains]** 연산자를 입력하고 다음에 &quot;sales&quot;를 입력합니다. **[!UICONTROL Value]** 열.
+     &quot;sales&quot;라는 단어가 포함된 게재를 찾습니다. 정확한 레이블이 기억나지 않으므로 다음을 선택할 수 있습니다. **[!UICONTROL contains]** 연산자를 입력하고 다음에 &quot;sales&quot;를 입력합니다. **[!UICONTROL Value]** 열.
 
-      ![](assets/query_editor_nveau_25.png)
+     ![](assets/query_editor_nveau_25.png)
 
 1. 클릭 **[!UICONTROL Next]** 다음 위치에 도달할 때까지 **[!UICONTROL Data preview]** 창: 여기서는 서식이 필요하지 않습니다.
 1. 다음에서 **[!UICONTROL Data preview]** 창에서 다음을 클릭: **[!UICONTROL Start the preview of the data]** 게재 수신자별 추적 로그 수를 확인하려면
@@ -184,13 +184,13 @@ ht-degree: 1%
 
 * 예제의 목표
 
-   게재 워크플로우에서는 첫 번째 이메일 커뮤니케이션을 추적하는 여러 가지 방법이 있습니다. 이러한 유형의 작업에는 **[!UICONTROL Split]** 상자.
+  게재 워크플로우에서는 첫 번째 이메일 커뮤니케이션을 추적하는 여러 가지 방법이 있습니다. 이러한 유형의 작업에는 **[!UICONTROL Split]** 상자.
 
 * 컨텍스트
 
-   &quot;여름 스포츠 오퍼&quot; 게재가 전송됩니다. 배송 후 4일이 지나면 다른 두 건의 배송이 전송됩니다. 그 중 하나가 &#39;수상 스포츠 오퍼&#39;이고, 다른 하나는 첫 번째 &#39;여름 스포츠 오퍼&#39; 배송의 후속 오퍼다.
+  &quot;여름 스포츠 오퍼&quot; 게재가 전송됩니다. 배송 후 4일이 지나면 다른 두 건의 배송이 전송됩니다. 그 중 하나가 &#39;수상 스포츠 오퍼&#39;이고, 다른 하나는 첫 번째 &#39;여름 스포츠 오퍼&#39; 배송의 후속 오퍼다.
 
-   첫 번째 게재에서 &quot;수상 스포츠&quot; 링크를 클릭한 수신자에게 &quot;수상 스포츠 오퍼&quot; 게재가 전송됩니다. 이러한 클릭은 수신자가 주제에 관심이 있음을 보여 줍니다. 비슷한 제안을 하도록 그들을 조종하는 것은 타당하다. 단, &#39;여름 스포츠 오퍼&#39;를 클릭하지 않은 수신자는 동일한 콘텐츠를 다시 받게 된다.
+  첫 번째 게재에서 &quot;수상 스포츠&quot; 링크를 클릭한 수신자에게 &quot;수상 스포츠 오퍼&quot; 게재가 전송됩니다. 이러한 클릭은 수신자가 주제에 관심이 있음을 보여 줍니다. 비슷한 제안을 하도록 그들을 조종하는 것은 타당하다. 단, &#39;여름 스포츠 오퍼&#39;를 클릭하지 않은 수신자는 동일한 콘텐츠를 다시 받게 된다.
 
 다음 단계는 를 구성하는 방법을 보여 줍니다 **[!UICONTROL Split]** 두 가지 동작을 통합하여 상자를 만듭니다.
 
@@ -242,4 +242,4 @@ ht-degree: 1%
 * **[!UICONTROL Recipients who didn't open or click (email),]**
 * **[!UICONTROL Recipients who didn't click (email).]**
 
-   ![](assets/query_editor_ex_02.png)
+  ![](assets/query_editor_ex_02.png)

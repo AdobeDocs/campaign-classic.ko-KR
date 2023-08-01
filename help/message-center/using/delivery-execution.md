@@ -2,14 +2,15 @@
 product: campaign
 title: 게재 실행
 description: 트랜잭션 메시지 게재 실행 및 모니터링에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Transactional Messaging, Message Center, Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '240'
 ht-degree: 6%
 
 ---

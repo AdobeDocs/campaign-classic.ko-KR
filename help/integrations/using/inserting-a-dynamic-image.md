@@ -2,15 +2,16 @@
 product: campaign
 title: 동적 이미지 삽입
 description: 동적 이미지 삽입
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Target Integration
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '837'
 ht-degree: 3%
 
 ---
@@ -49,11 +50,11 @@ Adobe Campaign에서는 Target의 동적 이미지를 이메일에 삽입하는 
 
 * 디지털 콘텐츠 편집기를 사용하는 경우 기존 이미지를 선택하고 을 선택합니다 **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** 을 클릭합니다.
 
-   ![](assets/target_5.png)
+  ![](assets/target_5.png)
 
 * 표준 편집기를 사용하는 경우 이미지를 삽입할 위치에 커서를 놓고 을 선택합니다 **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]** 개인화 드롭다운 메뉴에서 을(를) 선택합니다.
 
-   ![](assets/target_12.png)
+  ![](assets/target_12.png)
 
 ### 이미지 매개 변수 정의 {#defining-image-parameters}
 

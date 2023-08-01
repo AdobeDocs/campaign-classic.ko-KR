@@ -2,14 +2,15 @@
 product: campaign
 title: 이벤트 처리
 description: Adobe Campaign Classic에서 트랜잭션 메시지 이벤트를 처리하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Transactional Messaging, Message Center
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '698'
 ht-degree: 2%
 
 ---
@@ -67,11 +68,11 @@ ht-degree: 2%
 
 * 이벤트 자체의 속성에 지정된 이벤트 유형:
 
-   ![](assets/messagecenter_event_type_001.png)
+  ![](assets/messagecenter_event_type_001.png)
 
 * 메시지 템플릿 속성에 지정된 이벤트 유형:
 
-   ![](assets/messagecenter_event_type_002.png)
+  ![](assets/messagecenter_event_type_002.png)
 
 기본적으로 라우팅은 다음 정보를 사용합니다.
 

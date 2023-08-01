@@ -2,11 +2,12 @@
 product: campaign
 title: Campaign On-Premise, 하이브리드 및 호스팅 기능 매트릭스
 description: 호스팅 배포와 온-프레미스 배포 간의 주요 차이점 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Architecture
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '300'
 ht-degree: 28%
 
 ---
@@ -46,6 +47,7 @@ Adobe Campaign은 **페더레이션 데이터 액세스** (FDA) 하나 이상의
 >[!CAUTION]
 >
 >호환되는 외부 데이터베이스 시스템은 호스팅 모델에 따라 다릅니다. 다음에서 자세히 알아보기 [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md).
+>
 
 **참조 항목**
 

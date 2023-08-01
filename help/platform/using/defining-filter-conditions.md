@@ -2,15 +2,16 @@
 product: campaign
 title: 필터 조건 정의
 description: 필터 조건 정의
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Query Editor
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3229'
+source-wordcount: '3241'
 ht-degree: 37%
 
 ---
@@ -134,15 +135,15 @@ ht-degree: 37%
 * **[!UICONTROL And]**: 조건을 추가하고 오버필터링을 활성화합니다.
 * **[!UICONTROL Or]**: 조건을 추가하고 오버필터링을 활성화합니다.
 
-   다음 예에서는 이메일 도메인에 &quot;orange.co.uk&quot;이 포함되어 있거나 게시물 코드가 &quot;NW&quot;로 시작하는 수신자를 찾을 수 있습니다.
+  다음 예에서는 이메일 도메인에 &quot;orange.co.uk&quot;이 포함되어 있거나 게시물 코드가 &quot;NW&quot;로 시작하는 수신자를 찾을 수 있습니다.
 
-   ![](assets/query_condition_modif_02.png)
+  ![](assets/query_condition_modif_02.png)
 
 * **[!UICONTROL Except]**: 필터가 두 개 있고 첫 번째 필터가 값을 반환하지 않는 경우 이 유형의 링크는 예외를 만듭니다.
 
-   다음 예제에서는 수신자의 성이 &quot;Smith&quot;인 경우를 제외하고 이메일 도메인에 &quot;orange.co.uk&quot;가 포함된 수신자를 반환하려고 합니다.
+  다음 예제에서는 수신자의 성이 &quot;Smith&quot;인 경우를 제외하고 이메일 도메인에 &quot;orange.co.uk&quot;가 포함된 수신자를 반환하려고 합니다.
 
-   ![](assets/query_condition_modif_03.png)
+  ![](assets/query_condition_modif_03.png)
 
 이 예는 를 표시할 수 있는 필터를 보여 줍니다. 스페인어를 사용하거나 또는 모바일 번호를 가진 여성인 수신자 또는 계정 번호가 없고 회사 이름이 문자 &quot;N&quot;으로 시작하는 수신자입니다.
 
@@ -155,7 +156,7 @@ ht-degree: 37%
 * 오른쪽을 가리키는 화살표를 사용하면 필터에 괄호 수준을 추가할 수 있습니다.
 * 왼쪽을 가리키는 화살표를 사용하면 선택한 괄호 수준을 필터에서 삭제할 수 있습니다.
 
-   ![](assets/query_condition_modif_04.png)
+  ![](assets/query_condition_modif_04.png)
 
 * 수직 화살표를 사용하면 조건을 이동하여 해당 실행 순서를 변경할 수 있습니다.
 
@@ -183,7 +184,7 @@ ht-degree: 37%
 
 ![](assets/query_editor_nveau_01.png)
 
-고급 필드는 기본적으로 표시되지 않습니다. 클릭 **[!UICONTROL Display advanced fields]** 사용 가능한 필드의 오른쪽 하단 모서리에 있는 을 클릭하여 모든 항목을 표시합니다. 이전 보기로 돌아가려면 다시 클릭합니다.
+고급 필드는 기본적으로 표시되지 않습니다. 클릭 **[!UICONTROL Display advanced fields]** 사용 가능한 필드의 오른쪽 아래 모서리에 모든 것을 표시할 수 있습니다. 이전 보기로 돌아가려면 다시 클릭합니다.
 
 예를 들어 수신자 테이블에서 고급 필드는 다음과 같습니다 **부울 1**, **[!UICONTROL Boolean 2]**, **[!UICONTROL Boolean 3]**, **[!UICONTROL Foreign key of "Folder" link]**&#x200B;등
 
@@ -266,7 +267,6 @@ ht-degree: 37%
 >* 화살표를 사용하여 출력 열의 순서를 변경합니다.
 >* 다음 **[!UICONTROL Distribution of values]** 선택한 필드 값의 분포(예: 수신자 타운, 수신자 언어 등에 연결된 분포)를 보는 데 사용됩니다.
 
-
 ## 계산된 필드 만들기 {#creating-calculated-fields}
 
 필요한 경우 데이터 서식 지정 중에 열을 추가합니다. 계산된 필드는 데이터 미리보기 섹션에 열을 추가합니다. **[!UICONTROL Add a calculated field]**&#x200B;를 클릭합니다.
@@ -277,25 +277,25 @@ ht-degree: 37%
 
 * **[!UICONTROL Fixed string]**: 문자열을 추가할 수 있습니다.
 
-   ![](assets/query_editor_nveau_60.png)
+  ![](assets/query_editor_nveau_60.png)
 
 * **[!UICONTROL String with JavaScript tags]**: 계산된 필드의 값은 문자열과 JavaScript 지시문을 결합합니다.
 
-   ![](assets/query_editor_nveau_61.png)
+  ![](assets/query_editor_nveau_61.png)
 
 * **[!UICONTROL JavaScript expression]**: 계산된 필드의 값은 JavaScript 함수 평가의 결과입니다. 반환된 값(숫자, 날짜 등)을 입력할 수 있습니다.
 
-   ![](assets/query_editor_nveau_62.png)
+  ![](assets/query_editor_nveau_62.png)
 
 * **[!UICONTROL Enumerations]**: 이 유형의 필드를 사용하면 새 열에 있는 출력 열 중 하나의 콘텐츠를 사용/수정할 수 있습니다.
 
-   열의 소스 값을 사용하고 대상 값을 지정할 수 있습니다. 이 대상 값은 새 출력 열에 표시됩니다.
+  열의 소스 값을 사용하고 대상 값을 지정할 수 있습니다. 이 대상 값은 새 출력 열에 표시됩니다.
 
-   계산된 필드 유형 추가의 예 **[!UICONTROL Enumerations]** 사용할 수 있습니다. 다음을 참조하십시오. [이 섹션](../../workflow/using/adding-enumeration-type-calculated-field.md).
+  계산된 필드 유형 추가의 예 **[!UICONTROL Enumerations]** 사용할 수 있습니다. 다음을 참조하십시오. [이 섹션](../../workflow/using/adding-enumeration-type-calculated-field.md).
 
-   ![](assets/query_editor_nveau_63.png)
+  ![](assets/query_editor_nveau_63.png)
 
-   다음 **[!UICONTROL Enumerations]** 유형 계산 필드에는 다음 4가지 조건이 포함될 수 있습니다.
+  다음 **[!UICONTROL Enumerations]** 유형 계산 필드에는 다음 4가지 조건이 포함될 수 있습니다.
 
    * **[!UICONTROL Keep the source value]** 소스 값을 변경하지 않고 타겟으로 복원합니다.
    * **[!UICONTROL Use the following value]** 정의되지 않은 소스 값에 대한 기본 대상 값을 입력할 수 있습니다.
@@ -341,7 +341,7 @@ ht-degree: 37%
    * **[!UICONTROL Minimum value]** 고객을 정렬하고 가장 최근에 오퍼를 구독한 고객을 찾을 수 있습니다.
    * **[!UICONTROL Average]**. 이 함수를 사용하면 수신자의 평균 연령을 계산할 수 있습니다.
 
-      다음 **[!UICONTROL Distinct]** 상자를 사용하면 열의 고유하고 0이 아닌 값을 복구할 수 있습니다. 예를 들어 수신자의 모든 추적 로그를 복구할 수 있으며 이러한 추적 로그는 모두 동일한 수신자와 관련이 있으므로 값 1로 변경됩니다.
+     다음 **[!UICONTROL Distinct]** 상자를 사용하면 열의 고유하고 0이 아닌 값을 복구할 수 있습니다. 예를 들어 수신자의 모든 추적 로그를 복구할 수 있으며 이러한 추적 로그는 모두 동일한 수신자와 관련이 있으므로 값 1로 변경됩니다.
 
 1. **[!UICONTROL Expression]** 다음 열기 **[!UICONTROL Edit the expression]** 창. 이렇게 하면 숫자가 너무 많아 입력 오류일 가능성이 있는 전화 번호를 감지할 수 있습니다.
 
@@ -394,7 +394,7 @@ ht-degree: 37%
    <td> Max(&lt;값&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>분</strong><br /> </td> 
+   <td> <strong>최소</strong><br /> </td> 
    <td> 숫자, 문자열 또는 날짜 유형 열의 최소값 반환<br /> </td> 
    <td> Min(&lt;값&gt;)<br /></td> 
   </tr> 

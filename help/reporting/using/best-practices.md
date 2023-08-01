@@ -2,12 +2,12 @@
 product: campaign
 title: 보고 모범 사례
 description: Campaign 보고 모범 사례
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
-feature: Reporting
+feature: Reporting, Monitoring
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 보고 도구를 사용하는 것은 조작할 데이터의 양, 복잡성 및 설정할 보고 유형에 따라 다릅니다.
 
-보고서의 생성, 사용 및 내구성을 최적화하려면 충족하려는 요구 사항을 면밀히 살펴야 합니다. 이 첫 번째 분석을 통해 생성할 보고서 유형과 최상의 생성 모드를 식별할 수 있습니다. 보고서를 만들려면 다음 단계를 적용합니다.
+보고서의 생성, 사용 및 내구성을 최적화하려면 충족하려는 요구 사항을 자세히 살펴야 합니다. 이 첫 번째 분석을 통해 생성할 보고서 유형과 최상의 생성 모드를 식별할 수 있습니다. 보고서를 만들려면 다음 단계를 적용합니다.
 
 1. 요구 사항 파악
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 * 보고서의 계산 시간은 5분을 초과할 수 없습니다.
 
-   마찬가지로, 설계 단계에서 적은 양의 데이터를 사용할 때 보고서 계산이 60초를 초과하는 경우 계산 방법을 변경해야 합니다.
+  마찬가지로, 설계 단계에서 적은 양의 데이터를 사용할 때 보고서 계산이 60초를 초과하는 경우 계산 방법을 변경해야 합니다.
 
 * Marketing Analytics 모듈을 사용할 때 보고 데이터는 1,000만 줄을 초과할 수 없습니다.
 
@@ -99,17 +99,17 @@ if(string(ctx@_historyId)!==""))
 
 * 데이터 모델 작업: 주로 계산 공식을 개선하는 데 인덱싱된 필드를 사용해야 합니다.
 
-   색인화된 필드를 빠르게 찾으려면 Adobe Campaign 인터페이스에서 열 이름을 확인하십시오. 필드가 색인화된 경우 정렬 화살표는 빨간색으로 밑줄이 그어집니다.
+  색인화된 필드를 빠르게 찾으려면 Adobe Campaign 인터페이스에서 열 이름을 확인하십시오. 필드가 색인화된 경우 정렬 화살표는 빨간색으로 밑줄이 그어집니다.
 
-   인덱스에 대한 자세한 내용은 를 참조하십시오. [이 섹션](../../configuration/using/data-model-best-practices.md#indexes).
+  인덱스에 대한 자세한 내용은 를 참조하십시오. [이 섹션](../../configuration/using/data-model-best-practices.md#indexes).
 
 * 보고서 확장성이 있는지 확인하십시오. 시간이 지남에 따라 데이터 볼륨이 크게 증가할 수 있습니다.
 
-   마찬가지로 테스트 단계 동안 조작되는 데이터의 양이 실제 운영 데이터 양과 다를 수 있습니다. 이것이 테스트 단계가 중요한 이유입니다.
+  마찬가지로 테스트 단계 동안 조작되는 데이터의 양이 실제 운영 데이터 양과 다를 수 있습니다. 이것이 테스트 단계가 중요한 이유입니다.
 
-   마지막으로, 데이터 제거 지연은 용이한 데이터 조작을 위해 필요할 때 알려지고 조정될 필요가 있다.
+  마지막으로, 데이터 제거 지연은 용이한 데이터 조작을 위해 필요할 때 알려지고 조정될 필요가 있다.
 
-   정리 및 데이터 보존에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../configuration/using/data-model-best-practices.md#data-retention).
+  정리 및 데이터 보존에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../configuration/using/data-model-best-practices.md#data-retention).
 
 ### 보고서 내보내기 {#exporting-reports}
 

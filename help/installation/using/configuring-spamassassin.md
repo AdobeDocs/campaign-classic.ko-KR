@@ -2,15 +2,16 @@
 product: campaign
 title: SpamAssassin 구성
 description: SpamAssassin 구성
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1008'
 ht-degree: 2%
 
 ---
@@ -144,16 +145,16 @@ Adobe Campaign과의 통합을 활성화하기 위해 Windows에서 SpamAssassin
 
 * 필요한 경우 다음 명령을 사용하여 Perl 및 SpamAssassin을 설치합니다.
 
-   ```
-   apt-get install spamassassin libxml-writer-perl
-   ```
+  ```
+  apt-get install spamassassin libxml-writer-perl
+  ```
 
 * 다음에서 **serverConf.xml** 파일(다음 위치에서 사용 가능) `/usr/local/[INSTALL]/nl6/conf/`), **스팸 확인** 다음과 같은 줄:
 
-   ```
-   <spamCheck command="perl
-   /usr/local/[NSTALL]/nl6/bin/spamcheck.pl"/>
-   ```
+  ```
+  <spamCheck command="perl
+  /usr/local/[NSTALL]/nl6/bin/spamcheck.pl"/>
+  ```
 
 ### RHEL/CentOS의 설치 단계 {#installation-steps-in-rhel-centos}
 

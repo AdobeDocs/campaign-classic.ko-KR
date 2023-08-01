@@ -2,14 +2,15 @@
 product: campaign
 title: 환경 개요
 description: 환경 개요
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Interaction, Offers
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: ba588591-5171-4c35-bc8c-3979274e21b2
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '102'
 ht-degree: 6%
 
 ---

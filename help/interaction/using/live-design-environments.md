@@ -2,14 +2,15 @@
 product: campaign
 title: 라이브/디자인 환경
 description: 라이브/디자인 환경
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Interaction, Offers
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '454'
 ht-degree: 2%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 2%
 
 각 **[!UICONTROL Design]** 환경이 다음에 연결됨 **[!UICONTROL Live]** 환경. 오퍼가 완료되면 해당 콘텐츠 및 자격 규칙이 승인 주기에 영향을 받습니다. 이 주기가 완료되면 관련 오퍼가 자동으로 **[!UICONTROL Live]** 환경. 지금부터는 배달이 가능할 겁니다.
 
-기본적으로 상호 작용에는 **[!UICONTROL Design]** 환경 및 **[!UICONTROL Live]** 연결된 환경입니다. 두 환경 모두 기본 제공 수신자 테이블을 타깃팅하도록 사전 구성되어 있습니다.
+기본적으로 상호 작용에는 **[!UICONTROL Design]** 환경 및 **[!UICONTROL Live]** 연결된 환경입니다. 두 환경 모두 기본 제공 수신자 테이블을 타겟팅하도록 사전 구성되어 있습니다.
 
 >[!NOTE]
 >

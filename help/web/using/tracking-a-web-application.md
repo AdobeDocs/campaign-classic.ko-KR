@@ -2,13 +2,13 @@
 product: campaign
 title: 웹 애플리케이션에서 방문 수 추적
 description: 웹 애플리케이션에서 방문 수 추적
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Web Apps
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Web Apps, Reporting, Monitoring
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '413'
 ht-degree: 4%
 
 ---
@@ -26,19 +26,19 @@ Adobe Campaign에서는 추적 태그를 삽입하여 웹 애플리케이션 페
 * 탐색 경로 정의(예: 구매, 구독, 반환 등)를 간소화하기 위해 여러 추적 태그를 동일한 페이지에 삽입할 수 있습니다.
 * 웹 애플리케이션 대시보드에서 여러 페이지의 탐색 경로 및 추적 태그 보기
 
-   ![](assets/trackers_1.png)
+  ![](assets/trackers_1.png)
 
 * 전체 추적 보고서를 생성하고 있습니다.
 
-   ![](assets/trackers_5.png)
+  ![](assets/trackers_5.png)
 
-   주요 지표는 다음과 같습니다.
+  주요 지표는 다음과 같습니다.
 
    * **전환율**: 탐색 경로의 모든 단계를 표시한 사람 수입니다.
    * **바운스 비율**: 첫 번째 단계만 표시한 사람 수
    * **전환 단계**: 각 단계 간 손실률.
 
-   또한 **분야** 유형 차트는 해당 소스에 따라 모집단을 보여줍니다.
+  또한 **분야** 유형 차트는 해당 소스에 따라 모집단을 보여줍니다.
 
 ## 트래픽 소스 식별 {#identifying-the-traffic-source}
 

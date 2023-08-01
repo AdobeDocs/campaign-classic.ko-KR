@@ -2,11 +2,12 @@
 product: campaign
 title: 공유 자산 삽입
 description: 공유 자산 삽입
+feature: Asset Sharing
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
-source-git-commit: d399c4800fe6c5b128a6ccb5fec15262cbef5ee8
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 7%
@@ -27,15 +28,15 @@ Adobe Experience Cloud에서 공유한 에셋은 다음과 같이 이메일 및 
 
    * 를 사용하는 경우 [표준 편집 모드](../../delivery/using/defining-the-email-content.md#adding-images), 선택 **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**.
 
-      ![](assets/dam_insert_image_standard.png)
+     ![](assets/dam_insert_image_standard.png)
 
    * 를 사용하는 경우 [고급 편집 모드](../../web/using/about-campaign-html-editor.md) (DCE), 이미지 블록으로 이동한 다음 상황별 메뉴를 통해 을 선택합니다. **[!UICONTROL Select a shared asset]**.
 
-      ![](assets/dam_insert_image_dce.png)
+     ![](assets/dam_insert_image_dce.png)
 
-      >[!NOTE]
-      >
-      >Adobe Campaign의 공유 이미지를 삽입할 수 없습니다. [웹 액세스](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) dce를 사용하는 경우.
+     >[!NOTE]
+     >
+     >Adobe Campaign의 공유 이미지를 삽입할 수 없습니다. [웹 액세스](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) dce를 사용하는 경우.
 
 1. 선택 창이 열리면 이미지를 선택한 다음 확인합니다.
 

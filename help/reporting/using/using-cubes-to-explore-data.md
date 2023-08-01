@@ -2,15 +2,15 @@
 product: campaign
 title: 큐브로 데이터 탐색
 description: 큐브로 데이터 탐색
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Reporting, Monitoring
 hide: true
 hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '968'
 ht-degree: 2%
 
 ---
@@ -108,7 +108,7 @@ Marketing Analytics를 사용하면 보고서를 더 쉽게 만들고 큐브를 
 
    * 측정 조합: 이 측정 유형을 사용하면 기존 측정 단위를 사용하여 새 측정 단위를 작성할 수 있습니다.
 
-      사용 가능한 연산자는 합계, 차이, 곱하기 및 비율입니다.
+     사용 가능한 연산자는 합계, 차이, 곱하기 및 비율입니다.
 
    * 비율: 이 측정 유형을 사용하면 지정된 차원에 대해 측정된 레코드 수를 계산할 수 있습니다. 차원 또는 하위 차원을 기반으로 비례성을 계산할 수 있습니다.
    * 변형: 이 측정값을 사용하여 레벨 값의 변형을 계산할 수 있습니다.

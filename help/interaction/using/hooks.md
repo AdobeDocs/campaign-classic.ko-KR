@@ -2,14 +2,15 @@
 product: campaign
 title: 후크
 description: 후크
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Interaction, Offers
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -73,17 +74,17 @@ ht-degree: 2%
 
 * 제안: 적격 제안 테이블 다음은 이 테이블의 요소 구조 예입니다
 
-   ```
-   { offer_id:1234,
-     weight:2}
-   ```
+  ```
+  { offer_id:1234,
+    weight:2}
+  ```
 
 * dicOffer(xml 유형): 적격 오퍼의 모든 속성(오퍼 코드, 범주 id, 범주 전체 이름, 시작 날짜, 종료 날짜, 레이블, 내부 이름, 오퍼 id, 추가 오퍼 필드)에 대한 사전입니다. 예제
 
-   ```
-   { "1242": <offer category-id="61242" categoryFullName="/FULL/PATH/TO/CATEGORY/" code="CODE" endDate="" id="62473" label="LABEL" name="OFR38_OE4" product-id="43" startDate=""/>,
-     "1243": ...}
-   ```
+  ```
+  { "1242": <offer category-id="61242" categoryFullName="/FULL/PATH/TO/CATEGORY/" code="CODE" endDate="" id="62473" label="LABEL" name="OFR38_OE4" product-id="43" startDate=""/>,
+    "1243": ...}
+  ```
 
 * xmlTarget(xml 유형): 프로필 데이터 노드
 * xmlInteraction(xml 유형): 데이터 노드 호출

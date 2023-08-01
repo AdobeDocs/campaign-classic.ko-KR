@@ -2,14 +2,15 @@
 product: campaign
 title: 전원 부스터 및 전원 클러스터
 description: 전원 부스터 및 전원 클러스터
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '403'
 ht-degree: 7%
 
 ---
@@ -24,11 +25,11 @@ Adobe Campaign은 배포 차원을 높이기 위한 두 가지 미리 패키지�
 
 * **전원 부스터**
 
-   이 옵션은 기본 Adobe Campaign 애플리케이션 인스턴스에서 분리된 단일 추가 실행 인스턴스를 지원합니다. 전용 실행 인스턴스는 원격으로 또는 서드파티에 의해 호스팅될 수 있습니다. 구현 시 이메일 실행, 추적, 미러 페이지 및 바운스 메시지는 중앙 애플리케이션 기능과 독립적으로 처리됩니다.
+  이 옵션은 기본 Adobe Campaign 애플리케이션 인스턴스에서 분리된 단일 추가 실행 인스턴스를 지원합니다. 전용 실행 인스턴스는 원격으로 또는 서드파티에 의해 호스팅될 수 있습니다. 구현 시 이메일 실행, 추적, 미러 페이지 및 바운스 메시지는 중앙 애플리케이션 기능과 독립적으로 처리됩니다.
 
 * **전원 클러스터**
 
-   이 옵션은 지정된 애플리케이션과 관련하여 기본 Adobe Campaign 애플리케이션 인스턴스에서 분리된 2~N 클러스터된 실행 인스턴스를 지원합니다. 클러스터는 원격, 분산 배포 시 및 서드파티가 호스팅할 수 있습니다. Adobe Campaign Power Cluster 옵션은 프로세스 격리의 이점 외에도 상용 하드웨어를 사용하여 이중화 및 확장 전략을 지원하여 SLA 또는 성능 향상을 단순화합니다.
+  이 옵션은 지정된 애플리케이션과 관련하여 기본 Adobe Campaign 애플리케이션 인스턴스에서 분리된 2~N 클러스터된 실행 인스턴스를 지원합니다. 클러스터는 원격, 분산 배포 시 및 서드파티가 호스팅할 수 있습니다. Adobe Campaign Power Cluster 옵션은 프로세스 격리의 이점 외에도 상용 하드웨어를 사용하여 이중화 및 확장 전략을 지원하여 SLA 또는 성능 향상을 단순화합니다.
 
 ![](assets/architectural_options_diagram.png)
 

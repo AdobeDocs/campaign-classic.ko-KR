@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: JavaScript의 SOAP 메서드
+feature: Configuration, Instance Settings
 description: JavaScript의 SOAP 메서드
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '143'
 ht-degree: 9%
 
 ---
@@ -50,52 +51,52 @@ for each (var w in res.workflow)
 
 * &quot;get&quot; 작업을 사용하여 수신자 테이블을 쿼리합니다.
 
-   ```
-   var query = xtk.queryDef.create(  
-     <queryDef schema="nms:recipient" operation="get">    
-       <select>      
-         <node expr="@firstName"/>      
-         <node expr="@lastName"/>      
-         <node expr="@email"/>    
-       </select>    
-       <where>      
-         <condition expr="@email = 'peter.martinez@adobe.com'"/>    
-       </where>  
-     </queryDef>)
-   
-   var recipient = query.ExecuteQuery()
-   
-   logInfo(recipient.@firstName)
-   logInfo(recipient.@lastName)
-   ```
+  ```
+  var query = xtk.queryDef.create(  
+    <queryDef schema="nms:recipient" operation="get">    
+      <select>      
+        <node expr="@firstName"/>      
+        <node expr="@lastName"/>      
+        <node expr="@email"/>    
+      </select>    
+      <where>      
+        <condition expr="@email = 'peter.martinez@adobe.com'"/>    
+      </where>  
+    </queryDef>)
+  
+  var recipient = query.ExecuteQuery()
+  
+  logInfo(recipient.@firstName)
+  logInfo(recipient.@lastName)
+  ```
 
 * &quot;select&quot; 작업을 사용하여 수신자 테이블을 쿼리합니다.
 
-   ```
-   var query = xtk.queryDef.create(  
-     <queryDef schema="nms:recipient" operation="select">    
-       <select>      
-         <node expr="@email"/>      
-         <node expr="@lastName"/>      
-         <node expr="@firstName"/>    
-       </select>    
-       <where>      
-         <condition expr="@age > 25"/>    
-       </where>    
-     </queryDef>)
-   
-   var res = query.ExecuteQuery()
-   
-   for each (var recipient in res.recipient) 
-   {  
-     logInfo(recipient.@email)  
-     logInfo(recipient.@firstName)  
-     logInfo(recipient.@lastName)
-   }
-   ```
+  ```
+  var query = xtk.queryDef.create(  
+    <queryDef schema="nms:recipient" operation="select">    
+      <select>      
+        <node expr="@email"/>      
+        <node expr="@lastName"/>      
+        <node expr="@firstName"/>    
+      </select>    
+      <where>      
+        <condition expr="@age > 25"/>    
+      </where>    
+    </queryDef>)
+  
+  var res = query.ExecuteQuery()
+  
+  for each (var recipient in res.recipient) 
+  {  
+    logInfo(recipient.@email)  
+    logInfo(recipient.@firstName)  
+    logInfo(recipient.@lastName)
+  }
+  ```
 
 * 수신자 테이블에 데이터 쓰기:
 
-   ```
-   xtk.session.Write(<recipient _operation="insert" lastName="Martinez" firstName="Peter" xtkschema="nms:recipient"/>);
-   ```
+  ```
+  xtk.session.Write(<recipient _operation="insert" lastName="Martinez" firstName="Peter" xtkschema="nms:recipient"/>);
+  ```

@@ -2,13 +2,13 @@
 product: campaign
 title: 사용자 정의 수신자 테이블 정보
 description: 사용자 정의 수신자 테이블 정보
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Custom Resources
+feature: Configuration, Custom Resources
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '679'
 ht-degree: 2%
 
 ---
@@ -40,31 +40,31 @@ ht-degree: 2%
 
 * Adobe Campaign은 동일한 broadlog 및/또는 trackinglog 스키마에 연결된 타겟팅 스키마라고 하는 여러 수신자 스키마를 지원하지 않습니다. 그렇지 않으면 이후 데이터 조정에 예외 항목이 발생할 수 있습니다.
 
-   아래 그래픽에서는 각 사용자 지정 수신자 스키마에 대한 필수 관계 구조를 자세히 설명합니다.
-   ![](assets/custom_recipient_limitation.png)
+  아래 그래픽에서는 각 사용자 지정 수신자 스키마에 대한 필수 관계 구조를 자세히 설명합니다.
+  ![](assets/custom_recipient_limitation.png)
 
-   권장 사항:
+  권장 사항:
 
    * 전용 **[!UICONTROL nms:BroadLogRcp]** 및 **[!UICONTROL nms:TrackingLogRcp]** 스키마를 기본 제공 **[!UICONTROL nms:Recipientschema]**. 이러한 두 로그 테이블은 추가 사용자 지정 수신자 테이블에 연결하면 안 됩니다.
    * 각 새 사용자 정의 수신자 스키마에 대한 전용 사용자 정의 브로드로그 및 추적 로그 스키마를 정의합니다. 대상 매핑을 설정할 때 자동으로 수행할 수 있습니다. 다음을 참조하십시오. [대상 매핑](../../configuration/using/target-mapping.md).
 
 * 표준을 사용할 수 없습니다. **[!UICONTROL Services and Subscriptions]** 제품에 제공됩니다.
 
-   이는 다음에 자세히 설명된 전체 작업을 의미합니다. [이 섹션](../../delivery/using/managing-subscriptions.md) 은(는) 적용할 수 없습니다.
+  이는 다음에 자세히 설명된 전체 작업을 의미합니다. [이 섹션](../../delivery/using/managing-subscriptions.md) 은(는) 적용할 수 없습니다.
 
 * 링크 대상: **[!UICONTROL visitor]** 테이블이 작동하지 않습니다.
 
-   따라서 **[!UICONTROL Social Marketing]** 모듈 올바른 테이블을 참조하도록 스토리지 단계를 구성해야 합니다.
+  따라서 **[!UICONTROL Social Marketing]** 모듈 올바른 테이블을 참조하도록 스토리지 단계를 구성해야 합니다.
 
-   마찬가지로 참조 함수를 사용할 때는 표준 초기 메시지 전송 템플릿을 조정해야 합니다.
+  마찬가지로 참조 함수를 사용할 때는 표준 초기 메시지 전송 템플릿을 조정해야 합니다.
 
 * 목록에 프로필을 수동으로 추가할 수 없습니다.
 
-   따라서 다음에 자세히 설명된 절차 [이 섹션](../../platform/using/creating-and-managing-lists.md) 는 추가 구성 없이 적용할 수 없습니다.
+  따라서 다음에 자세히 설명된 절차 [이 섹션](../../platform/using/creating-and-managing-lists.md) 는 추가 구성 없이 적용할 수 없습니다.
 
-   >[!NOTE]
-   >
-   >워크플로우를 사용하여 수신자 목록을 만들 수 있습니다. 자세한 내용은 다음을 참조하십시오. [워크플로우를 사용하여 프로필 목록 만들기](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
+  >[!NOTE]
+  >
+  >워크플로우를 사용하여 수신자 목록을 만들 수 있습니다. 자세한 내용은 다음을 참조하십시오. [워크플로우를 사용하여 프로필 목록 만들기](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
 
 또한 다양한 기본 구성에서 사용되는 기본값을 확인하는 것이 좋습니다. 사용되는 기능에 따라 몇 가지 수정을 수행해야 합니다.
 

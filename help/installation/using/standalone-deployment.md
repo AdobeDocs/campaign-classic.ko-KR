@@ -2,14 +2,15 @@
 product: campaign
 title: 독립형 배포
 description: 독립형 배포
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Architecture, Deployment
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1084'
 ht-degree: 2%
 
 ---
@@ -119,19 +120,19 @@ ht-degree: 2%
 
    * 콘솔을 통해 인스턴스를 만듭니다.
 
-      ![](assets/install_create_new_connexion.png)
+     ![](assets/install_create_new_connexion.png)
 
-      자세한 내용은 다음을 참조하십시오. [인스턴스 만들기 및 로그온](../../installation/using/creating-an-instance-and-logging-on.md).
+     자세한 내용은 다음을 참조하십시오. [인스턴스 만들기 및 로그온](../../installation/using/creating-an-instance-and-logging-on.md).
 
-      또는
+     또는
 
    * 명령줄을 사용하여 인스턴스를 생성합니다.
 
-      ```
-      nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
-      ```
+     ```
+     nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
+     ```
 
-      자세한 내용은 다음을 참조하십시오. [인스턴스 만들기](../../installation/using/command-lines.md#creating-an-instance).
+     자세한 내용은 다음을 참조하십시오. [인스턴스 만들기](../../installation/using/command-lines.md#creating-an-instance).
 
 1. 편집 **config-demo.xml** 파일(이전 단계에서 다음 옆에 생성됨) **config-default.xml**) 및 다음을 확인합니다. **mta** (게재), **wfserver** (워크플로우), **inMail** (바운스 메일) 및 **통계** (통계) 프로세스가 활성화됩니다. 그런 다음 통계 서버 주소를 구성합니다.
 
@@ -235,13 +236,13 @@ ht-degree: 2%
    * 이메일 게재: 반송 메일의 발신자 및 회신 주소와 오류 사서함.
    * 추적: 리디렉션에 사용되는 외부 URL과 내부 URL을 채우고 **추적 서버에 등록** 그리고 다음에서 유효성 검사 **데모** 추적 서버의 인스턴스입니다.
 
-      자세한 내용은 다음을 참조하십시오. [추적 구성](../../installation/using/deploying-an-instance.md#tracking-configuration).
+     자세한 내용은 다음을 참조하십시오. [추적 구성](../../installation/using/deploying-an-instance.md#tracking-configuration).
 
-      ![](assets/s_ncs_install_deployment_wiz_09.png)
+     ![](assets/s_ncs_install_deployment_wiz_09.png)
 
-      Adobe Campaign 서버가 애플리케이션 서버와 리디렉션 서버로 모두 사용되므로 추적 로그를 수집하고 URL을 전송하는 데 사용되는 내부 URL은 Tomcat(https://localhost:8080)에 대한 직접 내부 연결입니다.
+     Adobe Campaign 서버가 애플리케이션 서버와 리디렉션 서버로 모두 사용되므로 추적 로그를 수집하고 URL을 전송하는 데 사용되는 내부 URL은 Tomcat(https://localhost:8080)에 대한 직접 내부 연결입니다.
 
    * 바운스 관리: 바운스 메일을 처리할 매개 변수를 입력합니다. **처리되지 않은 바운스 메일** 섹션에 자세히 설명되어 있습니다.
    * 다음에서 액세스: 보고서, 웹 양식 및 미러 페이지에 대한 두 URL을 제공합니다.
 
-      ![](assets/d_ncs_install_web_url.png)
+     ![](assets/d_ncs_install_web_url.png)

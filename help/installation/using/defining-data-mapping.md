@@ -2,11 +2,12 @@
 product: campaign
 title: 외부 데이터 매핑 정의
 description: 외부 데이터베이스에 데이터를 매핑하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '201'
 ht-degree: 3%
 
 ---
@@ -29,7 +30,7 @@ Adobe Campaign을 사용하면 외부 테이블의 데이터에 대한 매핑을
 
    ![](assets/wf_new_mapping_define_join.png)
 
-1. 확장 스키마의 접미사를 포함하여 정보 저장영역에 대한 매개 변수를 지정하여 쉽게 식별할 수 있도록 합니다.
+1. 확장 스키마의 접미사를 포함하여 정보 저장 영역에 대한 매개 변수를 지정하여 쉽게 식별할 수 있도록 합니다.
 
    ![](assets/wf_new_mapping_define_names.png)
 

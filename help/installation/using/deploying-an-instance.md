@@ -2,16 +2,17 @@
 product: campaign
 title: 인스턴스 배포
 description: Campaign 배포 마법사에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings, Deployment
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3366'
-ht-degree: 2%
+source-wordcount: '3391'
+ht-degree: 3%
 
 ---
 
@@ -119,7 +120,7 @@ Adobe Campaign 데이터베이스에서 모든 이메일 주소는 다음과 같
 
 * **[!UICONTROL Delivery duration of messages]** : 이 시간이 지나면 게재가 중지됩니다(기본적으로 5일).
 * **[!UICONTROL Online resources validity duration]** : 미러 페이지를 생성하기 위해 수신자 프로필의 정보가 유지되는 시간입니다.
-* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** 차단 목록 : 이 옵션을 선택하면 이 수신자에게 연락되지 않습니다.
+* **[!UICONTROL Exclude recipients who no longer wish to be contacted]** 차단 목록에 추가하다 : 이 옵션을 선택하면 이 수신자에게 연락되지 않습니다.
 * **[!UICONTROL Automatically ignore doubles]** : 이 옵션을 선택하면 중복 주소에 대한 게재가 수행되지 않습니다.
 
 >[!NOTE]
@@ -477,7 +478,7 @@ Adobe Campaign을 사용하면 이러한 세 가지 URL을 구별하여 여러 �
 
 * 보통: 기존 동작(동기화 없음)
 
-* 블랙리스트: 44 오류를 반환하는 경우 URL이 차단 목록에 추가됩니다. 차단 목록에 있는 URL의 기간(초)은 **timeout** 기본값이 60초인 속성.
+* 블랙리스트: 44 오류를 반환하는 경우 URL이 차단 목록에 추가하다에 추가됩니다. 차단 목록에 추가하다에 있는 URL의 기간(초)은 **timeout** 기본값이 60초인 속성.
 
 동기화의 기본 구성은 다음과 같습니다.
 

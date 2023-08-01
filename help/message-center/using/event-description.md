@@ -2,14 +2,15 @@
 product: campaign
 title: 이벤트 설명
 description: SOAP 메서드를 사용하여 Adobe Campaign Classic에서 트랜잭션 메시지 이벤트를 관리하는 방법에 대해 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Transactional Messaging, Message Center
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -167,15 +168,15 @@ PushEvents 사용 예:
 
 * 이벤트 처리가 성공적으로 수행된 경우 메서드에서 반환된 식별자의 예:
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
-            <plId xsi:type="xsd:long">72057594037935966</plId>
-         </urn:PushEventResponse>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
+           <plId xsi:type="xsd:long">72057594037935966</plId>
+        </urn:PushEventResponse>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 반환 식별자의 값이 0보다 엄격히 크면 이벤트가 Adobe Campaign에 성공적으로 보관되었음을 의미합니다.
 
@@ -183,51 +184,51 @@ PushEvents 사용 예:
 
 * 쿼리에 로그인이 없거나 지정된 연산자에 필수 권한이 없는 경우 실패한 이벤트의 처리 예:
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <SOAP-ENV:Fault>
-            <faultcode>SOAP-ENV:Client</faultcode>
-            <faultstring xsi:type="xsd:string">Error while reading parameters of method 'PushEvent' of service 'nms:rtEvent'.</faultstring>
-            <detail xsi:type="xsd:string">Invalid login or password. Connection denied.</detail>
-         </SOAP-ENV:Fault>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <SOAP-ENV:Fault>
+           <faultcode>SOAP-ENV:Client</faultcode>
+           <faultstring xsi:type="xsd:string">Error while reading parameters of method 'PushEvent' of service 'nms:rtEvent'.</faultstring>
+           <detail xsi:type="xsd:string">Invalid login or password. Connection denied.</detail>
+        </SOAP-ENV:Fault>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 * 쿼리 오류로 인해 실패한 이벤트의 예(XML 분류가 준수되지 않음):
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <SOAP-ENV:Fault>
-            <faultcode>SOAP-ENV:Client</faultcode>
-            <faultstring xsi:type="xsd:string">The XML SOAP message is invalid (service 'PushEvent', method 'nms:rtEvent').</faultstring>
-            <detail xsi:type="xsd:string"><![CDATA[(16:8) : Expected end of tag 'rtevent'
-   Error while parsing XML string '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:nms:rtEvent">
-      <soapenv:Header/>
-      <soapenv:Body>
-         <urn:PushEvent>
-            <urn:sessiontoken>mc/</urn:sessiontoken>
-            <urn:domEvent>
-   <rtevent type="create_account" email="esther.hall@adobe.com" origin="eCommerce" wishedChannel="email" 
-         externalId="1596" language="english" country="EN" emailFormat="2"
-         mobilePhone="+447700123123">
-     <ctx>
-      <website name="eCommerce" url="http://www.eCo']]></detail>
-         </SOAP-ENV:Fault>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <SOAP-ENV:Fault>
+           <faultcode>SOAP-ENV:Client</faultcode>
+           <faultstring xsi:type="xsd:string">The XML SOAP message is invalid (service 'PushEvent', method 'nms:rtEvent').</faultstring>
+           <detail xsi:type="xsd:string"><![CDATA[(16:8) : Expected end of tag 'rtevent'
+  Error while parsing XML string '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:nms:rtEvent">
+     <soapenv:Header/>
+     <soapenv:Body>
+        <urn:PushEvent>
+           <urn:sessiontoken>mc/</urn:sessiontoken>
+           <urn:domEvent>
+  <rtevent type="create_account" email="esther.hall@adobe.com" origin="eCommerce" wishedChannel="email" 
+        externalId="1596" language="english" country="EN" emailFormat="2"
+        mobilePhone="+447700123123">
+    <ctx>
+     <website name="eCommerce" url="http://www.eCo']]></detail>
+        </SOAP-ENV:Fault>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 * 실패하고 제로 식별자를 반환하는 이벤트의 예(잘못된 메서드 이름):
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
-            <plId xsi:type="xsd:long">0</plId>
-         </urn:PushEventResponse>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
+           <plId xsi:type="xsd:long">0</plId>
+        </urn:PushEventResponse>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```

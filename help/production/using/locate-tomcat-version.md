@@ -2,16 +2,17 @@
 product: campaign
 title: Adobe Campaign에서 Tomcat 버전 찾기
 description: Adobe Campaign 인스턴스에 사용된 Embedded Tomcat 웹 서블릿의 현재 버전을 확인하는 방법을 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 0%
+source-wordcount: '524'
+ht-degree: 1%
 
 ---
 
@@ -62,4 +63,5 @@ Adobe Campaign 인스턴스에서 포함된 Tomcat 버전을 찾으려면 아래
 >[!NOTE]
 >
 >임베드된 Tomcat의 주요 버전은 Adobe Campaign의 주요 버전이 변경될 때만 업그레이드됩니다(이전 버전이 더 이상 공식적으로 지원되지 않을 수 있지만 일부 고객이 이러한 버전을 계속 실행하고 있을 수 있으므로 정보가 유용할 수 있음).
+>
 

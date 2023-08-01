@@ -2,16 +2,17 @@
 product: campaign
 title: 작업 실행 모니터링
 description: 가져오기 및 내보내기 작업 실행을 모니터링하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Monitoring
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 11%
+source-wordcount: '196'
+ht-degree: 12%
 
 ---
 
@@ -34,36 +35,36 @@ ht-degree: 11%
 
 * **편집 진행 중**
 
-   작업이 생성되고 있습니다.
+  작업이 생성되고 있습니다.
 
 * **실행 진행 중**
 
-   작업이 실행되고 있습니다.
+  작업이 실행되고 있습니다.
 
 * **취소**
 
-   다음을 클릭합니다. **[!UICONTROL Cancel]** 버튼: 진행 중인 작업이 취소되었습니다.
+  다음을 클릭합니다. **[!UICONTROL Cancel]** 버튼: 진행 중인 작업이 취소되었습니다.
 
 * **취소 진행 중**
 
-   취소 명령이 고려되었으며 작업이 취소되고 있습니다.
+  취소 명령이 고려되었으며 작업이 취소되고 있습니다.
 
 * **일시 중단 진행 중**
 
-   클릭 **[!UICONTROL Pause]**: 작업이 일시 중단됩니다.
+  클릭 **[!UICONTROL Pause]**: 작업이 일시 중단됩니다.
 
 * **일시 중단됨**
 
-   클릭 **[!UICONTROL Pause]**: 작업이 일시 중단되었습니다. 다음을 클릭하여 다시 시작할 수 있습니다. **[!UICONTROL Start]**.
+  클릭 **[!UICONTROL Pause]**: 작업이 일시 중단되었습니다. 다음을 클릭하여 다시 시작할 수 있습니다. **[!UICONTROL Start]**.
 
 * **완료됨**
 
-   작업 실행이 완료되었습니다.
+  작업 실행이 완료되었습니다.
 
 * **완료되었으나 오류 발생**
 
-   기술 오류로 인해 작업이 실행되지 않았습니다.
+  기술 오류로 인해 작업이 실행되지 않았습니다.
 
 * **서버 종료 진행 중**
 
-   Adobe Campaign 서버가 종료되어 진행 중인 작업이 중단되었습니다.
+  Adobe Campaign 서버가 종료되어 진행 중인 작업이 중단되었습니다.

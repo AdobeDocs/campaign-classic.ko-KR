@@ -2,15 +2,16 @@
 product: campaign
 title: 쿼리를 만드는 단계
 description: 쿼리를 만드는 단계
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Query Editor
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '853'
 ht-degree: 2%
 
 ---
@@ -57,7 +58,7 @@ Adobe Campaign에서 쿼리를 작성하는 단계는 다음과 같습니다.
 
 * 다음 **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** 함수를 사용하면 &quot;그룹화 기준&quot;을 사용하고 그룹화된 항목(&quot;있음&quot;)을 선택할 수 있습니다. 이 함수는 출력 열의 모든 필드에 적용됩니다. 예를 들어, 이 옵션을 사용하면 출력 열의 모든 선택 항목을 그룹화하고 35에서 50 사이의 수신자와 같은 특정 유형의 정보를 복구할 수 있습니다.
 
-   이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/querying-using-grouping-management.md)을 참조하십시오.
+  이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/querying-using-grouping-management.md)을 참조하십시오.
 
 * 다음 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 함수를 사용하면 출력 열에서 얻은 동일한 결과를 중복 제거할 수 있습니다. 예를 들어, 출력 열에서 성, 이름 및 이메일 필드를 선택하여 인구 조사를 수행하면 동일한 연락처가 데이터베이스에 여러 번 입력되었음을 의미하므로 동일한 데이터를 가진 사람은 제거됩니다. 단 하나의 결과만 고려됩니다.
 
@@ -85,13 +86,13 @@ Adobe Campaign에서 쿼리를 작성하는 단계는 다음과 같습니다.
 * 새 필터를 만들려면 데이터를 선택하기 위해 확인할 수식을 만드는 데 필요한 필드, 연산자 및 값을 선택합니다. 여러 조건을 결합할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [필터 조건 정의](../../platform/using/defining-filter-conditions.md)).
 * 이전에 저장한 필터를 사용하려면 다음을 클릭하여 드롭다운 목록을 엽니다. **[!UICONTROL Add]** 단추, 클릭 **[!UICONTROL Predefined filter]** 원하는 항목을 선택합니다.
 
-   ![](assets/query_editor_15.png)
+  ![](assets/query_editor_15.png)
 
 * 에서 생성된 필터 **[!UICONTROL Generic query editor]** 는 다른 쿼리 애플리케이션에서 사용할 수 있으며 그 반대의 경우도 가능합니다. 필터를 저장하려면 **[!UICONTROL Save]** 아이콘.
 
-   >[!NOTE]
-   >
-   >필터 만들기 및 사용에 대한 자세한 내용은 을 참조하십시오. [필터링 옵션](../../platform/using/filtering-options.md).
+  >[!NOTE]
+  >
+  >필터 만들기 및 사용에 대한 자세한 내용은 을 참조하십시오. [필터링 옵션](../../platform/using/filtering-options.md).
 
 다음 예제와 같이 모든 영어권 수신자를 복구하려면 &quot;recipient language&quot;를 선택합니다. **다음과 같음** EN&quot;.
 

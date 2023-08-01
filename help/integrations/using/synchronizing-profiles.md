@@ -2,14 +2,14 @@
 product: campaign
 title: 프로필 동기화
 description: ACS 커넥터와 프로필을 동기화하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 hide: true
 hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1208'
 ht-degree: 3%
 
 ---
@@ -129,7 +129,7 @@ Campaign v7에서 만든 구독 취소 서비스를 사용하는 기존 워크�
 
    ![](assets/acs_connect_profile_sync_12.png)
 
-1. 동일한 콘텐츠 영역 및 유형 내부를 클릭합니다. **구독 취소 링크**.
+1. 동일한 컨텐츠 영역 및 유형 내부를 클릭합니다. **구독 취소 링크**.
 
    ![](assets/acs_connect_profile_sync_13.png)
 

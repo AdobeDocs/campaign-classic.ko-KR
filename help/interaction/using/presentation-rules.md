@@ -2,15 +2,16 @@
 product: campaign
 title: 프레젠테이션 규칙
 description: 프레젠테이션 규칙
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Interaction, Offers
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
 
 ## 프레젠테이션 규칙 만들기 {#creating-a-presentation-rule}
 
-저희 데이터베이스에는 유럽, 아프리카, 미국, 캐나다에 대한 몇 가지 여행 제안이 있습니다. 캐나다 여행에 대한 오퍼를 보내고 싶지만, 수신자가 이 유형의 오퍼를 거부하는 경우 다시 보내고 싶지 않습니다
+저희 데이터베이스에 유럽, 아프리카, 미국, 캐나다에 대한 몇 가지 여행 제안이 있습니다. 캐나다 여행에 대한 오퍼를 보내고 싶지만, 수신자가 이 유형의 오퍼를 거부하는 경우 다시 보내고 싶지 않습니다
 
 캐나다 여행은 수신자 당 한 번만 제공되고 거부되면 다시 제공되지 않도록 규칙을 구성할 예정입니다.
 

@@ -2,15 +2,16 @@
 product: campaign
 title: 시뮬레이션 범위
 description: 시뮬레이션 범위
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Interaction, Offers
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '248'
 ht-degree: 5%
 
 ---
@@ -28,15 +29,15 @@ ht-degree: 5%
 * 환경 또는 오퍼 카테고리입니다.
 * 오퍼 공간.
 * 연락일. 연락 날짜에 적합하지 않은 오퍼는 고려되지 않습니다.
-* 대상 모집단.
+* 대상 집단.
 
-   타겟에서 필터를 구성하지 않으면 전체 수신자 표가 고려됩니다.
+  타겟에서 필터를 구성하지 않으면 전체 수신자 표가 고려됩니다.
 
 * 대상당 시뮬레이션할 제안 수입니다.
 
-   수신자는 이 많은 제안을 받게 됩니다. 예를 들어 5를 입력하면 각 수신자는 최대 5개의 오퍼 제안을 받습니다.
+  수신자는 이 많은 제안을 받게 됩니다. 예를 들어 5를 입력하면 각 수신자는 최대 5개의 오퍼 제안을 받습니다.
 
-   ![](assets/offer_simulation_009.png)
+  ![](assets/offer_simulation_009.png)
 
 시뮬레이션을 위해 고려할 오퍼를 세분화하기 위해 하나 이상의 테마(카테고리에 미리 지정됨)를 추가할 수 있습니다.
 

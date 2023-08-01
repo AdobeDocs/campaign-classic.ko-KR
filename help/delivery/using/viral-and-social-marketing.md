@@ -2,12 +2,13 @@
 product: campaign
 title: 바이럴 및 소셜 마케팅
 description: 바이럴 및 소셜 마케팅
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Social Marketing
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '573'
 ht-degree: 2%
 
 ---
@@ -93,8 +94,8 @@ Adobe Campaign을 사용하면 바이럴 마케팅을 장려하는 도구를 설
 
 * 다음에서 **[!UICONTROL Tracking]** 게재 탭(또는 각 수신자에 대해 개별적으로):
 
-   ![](assets/s_ncs_user_network_del_tracking_tab.png)
+  ![](assets/s_ncs_user_network_del_tracking_tab.png)
 
 * 전용 **[!UICONTROL Sharing to social networks]** 보고서:
 
-   ![](assets/s_ncs_user_viral_report.png)
+  ![](assets/s_ncs_user_viral_report.png)

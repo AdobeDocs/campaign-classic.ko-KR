@@ -2,11 +2,12 @@
 product: campaign
 title: 기술 정보 - IMS를 사용하여 Adobe Campaign에 연결하도록 환경 업데이트
 description: Campaign - IMS 업데이트
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Technote, Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '586'
 ht-degree: 9%
 
 ---
@@ -45,7 +46,7 @@ Campaign에 연결하는 경우 [Adobe ID을 통해](../../integrations/using/ab
    * Campaign 20.1.4 릴리스
    * Campaign 19.2.4 릴리스
 
-  이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Campaign 서버와 클라이언트 콘솔은 모두 업그레이드해야 합니다. 모든 인스턴스가 업그레이드되면 이후에 Campaign에 연결할 수 있을 뿐만 아니라 클라이언트 콘솔을 이 버전으로 업그레이드해야 합니다 **2021년 6월 30일**.
+  이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Campaign 서버와 클라이언트 콘솔은 모두 업그레이드해야 합니다. 모든 인스턴스가 업그레이드되면 이후 Campaign에 연결할 수 있을 뿐만 아니라 클라이언트 콘솔을 이 버전으로 업그레이드해야 합니다 **2021년 6월 30일**.
 
 또한 의 최신 업데이트를 확인합니다. [Windows 버전](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), 포함 **Internet Explorer 11** 기본 제공, 각 사용자의 컴퓨터에 설치됩니다.
 

@@ -2,14 +2,15 @@
 product: campaign
 title: 워크플로우를 통해 오퍼 통합
 description: 워크플로우를 통해 오퍼 통합
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Interaction, Offers, Workflows
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1050'
 ht-degree: 3%
 
 ---
@@ -39,9 +40,10 @@ ht-degree: 3%
 
    * 오퍼 엔진을 호출하려면 **[!UICONTROL Restrict the number of propositions selected]** 상자. 게재에 표시될 오퍼 공간 및 제안 수를 지정합니다.
 
-      오퍼 가중치 및 자격 규칙은 오퍼 엔진에서 고려됩니다.
+     오퍼 가중치 및 자격 규칙은 오퍼 엔진에서 고려됩니다.
 
    * 확인란을 선택하지 않으면 오퍼 엔진을 호출하지 않고 게재 개요의 모든 오퍼가 표시됩니다.
+
    >[!NOTE]
    >
    >미리 보기는 게재에 지정된 오퍼 수를 고려합니다. 워크플로우를 실행할 때 고려되는 번호는 게재 개요에 지정된 번호입니다.
@@ -80,11 +82,11 @@ ht-degree: 3%
 
    * **[!UICONTROL Search for the best offer in a category]** : 이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마, 연락 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. 다음 중 하나를 완료하는 것이 좋습니다. **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드입니다. 두 필드를 동시에 사용하는 것이 아닙니다.
 
-      ![](assets/int_enrichment_offer3.png)
+     ![](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A predefined offer]** : 이 옵션을 선택하고 오퍼 공간, 특정 오퍼 및 연락 날짜를 지정하여 오퍼 엔진을 호출하지 않고 추가하려는 오퍼를 직접 구성합니다.
 
-      ![](assets/int_enrichment_offer4.png)
+     ![](assets/int_enrichment_offer4.png)
 
 1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. 자세한 내용은 [게재에 오퍼 제안 삽입](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) 섹션.
 
@@ -171,6 +173,6 @@ ht-degree: 3%
    * 사용 가능한 필터링 및 제한 규칙을 사용하여 하위 집합 모집단을 지정합니다.
    * 그런 다음 하위 세트에 제공할 오퍼를 선택합니다. 사용 가능한 오퍼는 이전 단계에서 선택한 오퍼 환경에서 적격한 오퍼입니다.
 
-      ![](assets/int_offer_per_cell1.png)
+     ![](assets/int_offer_per_cell1.png)
 
 1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. 자세한 내용은 [게재에 오퍼 제안 삽입](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) 섹션.

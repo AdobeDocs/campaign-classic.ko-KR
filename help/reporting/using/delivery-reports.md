@@ -2,13 +2,13 @@
 product: campaign
 title: 게재 보고서
 description: 게재 보고서
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1463'
 ht-degree: 7%
 
 ---
@@ -71,9 +71,9 @@ ht-degree: 7%
 * **[!UICONTROL Clicks on the mirror page link]** : 미러 페이지 링크를 클릭한 횟수. 고려하려면 게재 마법사(추적된 URL)에서 링크를 이와 같이 정의해야 합니다. 다음을 참조하십시오. [페이지](../../delivery/using/about-delivery-monitoring.md).
 * **[!UICONTROL Estimation of forwards]** : 타겟팅된 수신자가 전달한 이메일 수 예상. 이 값은 고유 사람 수와 이메일을 클릭한 고유 수신자 수를 빼서 계산합니다.
 
-   >[!NOTE]
-   >
-   >고유 사용자와 대상 수신자 간의 차이에 대한 자세한 내용은 을 참조하십시오. [타겟팅된 사람/수신자](../../reporting/using/indicator-calculation.md#targeted-persons---recipients).
+  >[!NOTE]
+  >
+  >고유 사용자와 대상 수신자 간의 차이에 대한 자세한 내용은 을 참조하십시오. [타겟팅된 사람/수신자](../../reporting/using/indicator-calculation.md#targeted-persons---recipients).
 
 **[!UICONTROL 3. Open and click-through rate]**
 
@@ -110,9 +110,9 @@ ht-degree: 7%
 * **[!UICONTROL Average count of articles per transaction]** : 고유 수신자가 수행한 구매당 평균 항목 수입니다.
 * **[!UICONTROL Average amount per message]** : 메시지당 생성된 평균 구매 금액입니다.
 
-   >[!NOTE]
-   >
-   >방문 페이지, 거래, 금액 또는 문서를 고려하려면 웹 추적 태그를 일치하는 웹 페이지에 삽입해야 합니다. 웹 추적 구성은에 표시됩니다. [이 섹션](../../configuration/using/about-web-tracking.md).
+  >[!NOTE]
+  >
+  >방문 페이지, 거래, 금액 또는 문서를 고려하려면 웹 추적 태그를 일치하는 웹 페이지에 삽입해야 합니다. 웹 추적 구성은에 표시됩니다. [이 섹션](../../configuration/using/about-web-tracking.md).
 
 **[!UICONTROL 6. Sharing activities to email and social networks]**
 
@@ -130,9 +130,9 @@ ht-degree: 7%
 
 * **[!UICONTROL Reactivity]** : 게재를 연 예상 대상 수신자 수와 관련하여 게재에서 클릭한 대상 수신자 수의 비율입니다. 옵트아웃 링크 및 미러 페이지의 클릭 수는 고려되지 않습니다.
 
-   >[!NOTE]
-   >
-   >열기 추적에 대한 자세한 내용은 [열람 추적](../../reporting/using/indicator-calculation.md#tracking-opens-).
+  >[!NOTE]
+  >
+  >열기 추적에 대한 자세한 내용은 [열람 추적](../../reporting/using/indicator-calculation.md#tracking-opens-).
 
 * **[!UICONTROL Distinct clicks]** : 게재에서 한 번 이상 클릭한 사람(구독 취소 링크 및 미러 페이지 제외) 수입니다. 표시되는 비율은 성공적으로 게재된 메시지 수를 기반으로 계산됩니다.
 * **[!UICONTROL Cumulated clicks]** : 타겟팅된 수신자의 총 클릭 수 (구독 취소 링크 및 미러 페이지 제외) 표시된 비율은 성공적으로 전달된 메시지 수를 기반으로 계산됩니다.

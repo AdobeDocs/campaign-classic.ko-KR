@@ -2,12 +2,12 @@
 product: campaign
 title: CRM 커넥터 데이터 동기화
 description: Campaign과 CRM 간의 데이터 관리
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Salesforce Integration, Microsoft CRM Integration
+feature: Microsoft CRM Integration, Salesforce Integration
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1543'
 ht-degree: 1%
 
 ---
@@ -110,9 +110,9 @@ Adobe Campaign에서 CRM을 통해 데이터를 가져오려면 다음 유형의
 * **vars.crmStartImport**: 마지막 데이터 복구의 시작 날짜(포함)를 나타냅니다.
 * **vars.crmEndDate**: 마지막 데이터 복구의 종료 날짜(제외됨)를 나타냅니다.
 
-   >[!NOTE]
-   >
-   >이 날짜는 다음 형식으로 표시됩니다. **yyyy/MM/dd hh:mm:ss**.
+  >[!NOTE]
+  >
+  >이 날짜는 다음 형식으로 표시됩니다. **yyyy/MM/dd hh:mm:ss**.
 
 ### 데이터 필터링 {#filtering-data}
 
@@ -256,3 +256,4 @@ CRM측의 오브젝트를 삭제하려면 삭제할 원격 요소의 기본 키�
 >[!NOTE]
 >
 >다음의 경우에도 **[!UICONTROL Process rejects]** 옵션이 비활성화되어 거부된 각 열에 대한 경고가 생성됩니다.
+>

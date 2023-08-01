@@ -2,14 +2,15 @@
 product: campaign
 title: 클라이언트 콘솔 설치
 description: 클라이언트 콘솔을 설치하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 45bf9d76dc41fd8cecfaab3f258856861201db3f
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1142'
 ht-degree: 3%
 
 ---

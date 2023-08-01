@@ -2,14 +2,15 @@
 product: campaign
 title: 메시지 센터 서비스 수준
 description: 메시지 센터 서비스 수준 보고서에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Transactional Messaging, Message Center
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '244'
 ht-degree: 3%
 
 ---

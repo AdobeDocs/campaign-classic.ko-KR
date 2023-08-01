@@ -2,14 +2,15 @@
 product: campaign
 title: 이벤트 구성
 description: 사용자 지정 구현을 위한 이벤트를 구성하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Triggers
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1210'
 ht-degree: 2%
 
 ---
@@ -219,7 +220,7 @@ triggerType 필드는 데이터가 시작되는 트리거를 식별합니다.
 
 >[!NOTE]
 >
->파이프라인 이벤트 노드는 기본 제공되지 않으므로 추가되어야 하며, Campaign에서 관련 양식을 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 정보는 다음 섹션을 참조하십시오. [탐색 계층](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). 및 [양식 편집](../../configuration/using/editing-forms.md).
+>파이프라인 이벤트 노드는 기본 제공되지 않으며 추가되어야 하며, 관련 양식을 Campaign에서 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 정보는 다음 섹션을 참조하십시오. [탐색 계층](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). 및 [양식 편집](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 

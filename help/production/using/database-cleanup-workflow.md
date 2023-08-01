@@ -2,14 +2,15 @@
 product: campaign
 title: 데이터베이스 정리 워크플로우
 description: 오래된 데이터를 자동으로 정리하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Monitoring, Workflows
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2830'
 ht-degree: 0%
 
 ---
@@ -63,16 +64,16 @@ ht-degree: 0%
 * 방문자 프로필: **NmsCleanup_VisitorPurgeDelay** (참조: [방문자 정리](#cleanup-of-visitors))
 * 제안: **NmsCleanup_PropositionPurgeDelay** (참조: [제안 정리](#cleanup-of-propositions))
 
-   >[!NOTE]
-   >
-   >다음 **[!UICONTROL Offer propositions]** 필드는 다음 경우에만 사용할 수 있습니다 **상호 작용** 모듈이 설치되었습니다.
+  >[!NOTE]
+  >
+  >다음 **[!UICONTROL Offer propositions]** 필드는 다음 경우에만 사용할 수 있습니다 **상호 작용** 모듈이 설치되었습니다.
 
 * 이벤트: **NmsCleanup_EventPurgeDelay** (참조: [만료된 이벤트 정리](#cleansing-expired-events))
 * 보관된 이벤트: **NmsCleanup_EventHistoPurgeDelay** (참조: [만료된 이벤트 정리](#cleansing-expired-events))
 
-   >[!NOTE]
-   >
-   >다음 **[!UICONTROL Events]** 및 **[!UICONTROL Archived events]** 필드는 다음 경우에만 사용할 수 있습니다 **메시지 센터** 모듈이 설치되었습니다.
+  >[!NOTE]
+  >
+  >다음 **[!UICONTROL Events]** 및 **[!UICONTROL Archived events]** 필드는 다음 경우에만 사용할 수 있습니다 **메시지 센터** 모듈이 설치되었습니다.
 
 * 감사 추적: **XtkCleanup_AuditTrailPurgeDelay** (참조: [감사 추적 정리](#cleanup-of-audit-trail))
 
@@ -132,19 +133,19 @@ ht-degree: 0%
 
    * 게재 제외 테이블(**NmsDlvExclusion**), 다음 쿼리가 사용됩니다.
 
-      ```sql
-      DELETE FROM NmsDlvExclusion WHERE iDeliveryId=$(l)
-      ```
+     ```sql
+     DELETE FROM NmsDlvExclusion WHERE iDeliveryId=$(l)
+     ```
 
-      위치 **$(l)** 는 게재 식별자입니다.
+     위치 **$(l)** 는 게재 식별자입니다.
 
    * 쿠폰 테이블 (**NmsCouponValue**), 다음 쿼리가 사용됩니다(대량 삭제 사용).
 
-      ```sql
-      DELETE FROM NmsCouponValue WHERE iMessageId IN (SELECT iMessageId FROM NmsCouponValue WHERE EXISTS (SELECT B.iBroadLogId FROM $(BroadLogTableName) B WHERE B.iDeliveryId = $(l) AND B.iBroadLogId = iMessageId ) LIMIT 5000)
-      ```
+     ```sql
+     DELETE FROM NmsCouponValue WHERE iMessageId IN (SELECT iMessageId FROM NmsCouponValue WHERE EXISTS (SELECT B.iBroadLogId FROM $(BroadLogTableName) B WHERE B.iDeliveryId = $(l) AND B.iBroadLogId = iMessageId ) LIMIT 5000)
+     ```
 
-      위치 `$(l)` 는 게재 식별자입니다.
+     위치 `$(l)` 는 게재 식별자입니다.
 
    * 게재 로그 테이블(**NmsBroadlogXxx**), 대량 삭제는 20,000개의 레코드로 일괄 실행됩니다.
    * 오퍼 제안 테이블 (**NmsPropositionXxx**), 대량 삭제는 20,000개의 레코드로 일괄 실행됩니다.
@@ -155,13 +156,13 @@ ht-degree: 0%
    * 배치 프로세스 로그 테이블(**XtkJobLog**), 대량 삭제는 20,000개의 레코드로 일괄 실행됩니다. 이 표에는 삭제할 게재 로그가 포함되어 있습니다.
    * 게재 URL 추적 테이블(**NmsTrackingUrl**), 다음 쿼리가 사용됩니다.
 
-      ```sql
-      DELETE FROM NmsTrackingUrl WHERE iDeliveryId=$(l)
-      ```
+     ```sql
+     DELETE FROM NmsTrackingUrl WHERE iDeliveryId=$(l)
+     ```
 
-      위치 `$(l)` 는 게재 식별자입니다.
+     위치 `$(l)` 는 게재 식별자입니다.
 
-      이 표에는 추적을 활성화하기 위해 삭제할 게재에서 찾은 URL이 포함되어 있습니다.
+     이 표에는 추적을 활성화하기 위해 삭제할 게재에서 찾은 URL이 포함되어 있습니다.
 
 1. 게재가 게재 테이블에서 삭제됩니다(**NmsDelivery**):
 

@@ -2,16 +2,17 @@
 product: campaign
 title: 기술 이메일 구성
 description: 이메일을 게재할 때 인스턴스의 출력을 제어하도록 Campaign을 구성하는 방법에 대해 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Deliverability
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3023'
-ht-degree: 0%
+source-wordcount: '3048'
+ht-degree: 1%
 
 ---
 
@@ -243,41 +244,41 @@ MX에 대해 준수할 규칙은에 정의되어 있습니다 **[!UICONTROL MX m
 
 * **[!UICONTROL MX mask]**: 규칙이 적용되는 도메인. 각 규칙은 MX에 대한 주소 마스크를 정의합니다. 따라서 이 마스크와 이름이 일치하는 모든 MX를 사용할 수 있습니다. 마스크에 &quot;&quot;가 포함될 수 있습니다.&#42;&quot; 및 &quot;?&quot; 일반 문자.
 
-   예를 들어, 다음 주소를 입력합니다.
+  예를 들어, 다음 주소를 입력합니다.
 
    * a.mx.yahoo.com
    * b.mx.yahoo.com
    * c.mx.yahoo.com
 
-   는 다음 마스크와 호환됩니다.
+  는 다음 마스크와 호환됩니다.
 
    * &#42;.yahoo.com
    * ?.mx.yahoo.com
 
-   예를 들어 이메일 주소 foobar@gmail.com의 경우 도메인은 gmail.com이고 MX 레코드는 다음과 같습니다.
+  예를 들어 이메일 주소 foobar@gmail.com의 경우 도메인은 gmail.com이고 MX 레코드는 다음과 같습니다.
 
-   ```
-   gmail.com mail exchanger = 20 alt2.gmail-smtp-in.l.google.com.
-   gmail.com mail exchanger = 10 alt1.gmail-smtp-in.l.google.com.
-   gmail.com mail exchanger = 40 alt4.gmail-smtp-in.l.google.com.
-   gmail.com mail exchanger = 5  gmail-smtp-in.l.google.com.
-   gmail.com mail exchanger = 30 alt3.gmail-smtp-in.l.google.com.
-   ```
+  ```
+  gmail.com mail exchanger = 20 alt2.gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 10 alt1.gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 40 alt4.gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 5  gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 30 alt3.gmail-smtp-in.l.google.com.
+  ```
 
-   이 경우 MX 규칙 `*.google.com` 이 사용됩니다. 알 수 있듯이 MX 규칙 마스크가 반드시 메일의 도메인과 일치하지는 않습니다. gmail.com 이메일 주소에 적용되는 MX 규칙은 마스크가 있는 규칙이 됩니다 `*.google.com`.
+  이 경우 MX 규칙 `*.google.com` 이 사용됩니다. 알 수 있듯이 MX 규칙 마스크가 반드시 메일의 도메인과 일치하지는 않습니다. gmail.com 이메일 주소에 적용되는 MX 규칙은 마스크가 있는 규칙이 됩니다 `*.google.com`.
 
 * **[!UICONTROL Range of identifiers]**: 이 옵션을 사용하여 규칙이 적용되는 식별자(publicID) 범위를 표시할 수 있습니다. 다음을 지정할 수 있습니다.
 
    * 숫자: 규칙은 이 publicId에만 적용됩니다.
    * 숫자 범위(**number1-number2**): 규칙이 이 두 숫자 사이의 모든 publicId에 적용됩니다.
 
-   >[!NOTE]
-   >
-   >필드가 비어 있으면 규칙이 모든 식별자에 적용됩니다.
+  >[!NOTE]
+  >
+  >필드가 비어 있으면 규칙이 모든 식별자에 적용됩니다.
 
-   공용 ID는 하나 또는 여러 MTA에서 사용하는 공용 IP의 내부 식별자입니다. 이러한 ID는 의 MTA 서버에 정의됩니다 **config-instance.xml** 파일.
+  공용 ID는 하나 또는 여러 MTA에서 사용하는 공용 IP의 내부 식별자입니다. 이러한 ID는 의 MTA 서버에 정의됩니다 **config-instance.xml** 파일.
 
-   ![](assets/s_ncs_install_mta_ips.png)
+  ![](assets/s_ncs_install_mta_ips.png)
 
 * **[!UICONTROL Shared]**: 이 MX 규칙의 속성 범위를 정의합니다. 선택하면 인스턴스에서 사용할 수 있는 모든 IP에서 모든 매개 변수가 공유됩니다. 이 옵션을 선택하지 않으면 각 IP에 대해 MX 규칙이 정의됩니다. 최대 메시지 수에 사용 가능한 IP 수를 곱합니다.
 * **[!UICONTROL Maximum number of connections]**: 발신자 도메인에 대한 최대 동시 연결 수
@@ -285,9 +286,9 @@ MX에 대해 준수할 규칙은에 정의되어 있습니다 **[!UICONTROL MX m
 * **[!UICONTROL Messages per hour]**: 한 시간 내에 발신자의 도메인으로 보낼 수 있는 최대 메시지 수.
 * **[!UICONTROL Connection time out]**: 도메인 연결에 대한 시간 임계값입니다.
 
-   >[!NOTE]
-   >
-   >Windows에서 **timeout** 이 임계값 전에, 사용 중인 Windows 버전에 따라 다릅니다.
+  >[!NOTE]
+  >
+  >Windows에서 **timeout** 이 임계값 전에, 사용 중인 Windows 버전에 따라 다릅니다.
 
 * **[!UICONTROL Timeout Data]**: 메시지 콘텐츠 전송 후 최대 대기 시간(SMTP 프로토콜의 데이터 섹션).
 * **[!UICONTROL Timeout]**: SMTP 서버와의 다른 교환에 대한 최대 대기 시간.
@@ -295,9 +296,9 @@ MX에 대해 준수할 규칙은에 정의되어 있습니다 **[!UICONTROL MX m
 
    * **[!UICONTROL Default configuration]**: 적용되는 serverConf.xml 구성 파일에 지정된 일반 구성입니다.
 
-      >[!IMPORTANT]
-      >
-      >기본 구성은 수정하지 않는 것이 좋습니다.
+     >[!IMPORTANT]
+     >
+     >기본 구성은 수정하지 않는 것이 좋습니다.
 
    * **[!UICONTROL Disabled]** : 메시지가 암호화 없이 체계적으로 전송됩니다.
    * **[!UICONTROL Opportunistic]** : 수신 서버(SMTP)가 TLS 프로토콜을 생성할 수 있는 경우 메시지 배달이 암호화됩니다.
@@ -324,7 +325,7 @@ MX에 대해 준수할 규칙은에 정의되어 있습니다 **[!UICONTROL MX m
 
 * **다중 파트**: 메시지가 텍스트 또는 HTML 형식으로 전송됩니다. HTML 형식이 허용되지 않으면 메시지를 텍스트 형식으로 표시할 수 있습니다.
 
-   기본적으로 다중 부품 구조는 **다중 파트/대체**, 하지만 자동으로 **multipart/related** 이미지가 메시지에 추가될 때. 특정 공급자가 다음을 예상함: **multipart/related** 기본적으로 형식은 **[!UICONTROL Force multipart/related]** 옵션은 이미지가 첨부되지 않은 경우에도 이 형식을 지정합니다.
+  기본적으로 다중 부품 구조는 **다중 파트/대체**, 하지만 자동으로 **multipart/related** 이미지가 메시지에 추가될 때. 특정 공급자가 다음을 예상함: **multipart/related** 기본적으로 형식은 **[!UICONTROL Force multipart/related]** 옵션은 이미지가 첨부되지 않은 경우에도 이 형식을 지정합니다.
 
 * **HTML**: HTML 전용 메시지가 전송됩니다. HTML 형식이 허용되지 않으면 메시지가 표시되지 않습니다.
 * **텍스트**: 텍스트 전용 포맷의 메시지가 전송됩니다. 텍스트 형식 메시지의 장점은 크기가 매우 작다는 것입니다.
@@ -406,11 +407,11 @@ Adobe Campaign 플랫폼(데이터베이스 포함)을 구성하는 모든 서�
 
 * **includeDomains**: 특정 도메인에 속한 이메일에 대해 이 IP 주소를 예약할 수 있도록 해줍니다. 하나 이상의 와일드카드(&#39;)를 포함할 수 있는 마스크 목록입니다.&#42;&#39;). 속성을 지정하지 않으면 모든 도메인이 이 IP 주소를 사용할 수 있습니다.
 
-   예: **includeDomains=&quot;wanadoo.com,orange.com,yahoo.&#42;&quot;**
+  예: **includeDomains=&quot;wanadoo.com,orange.com,yahoo.&#42;&quot;**
 
 * **excludeDomains**: 이 IP 주소의 도메인 목록을 제외합니다. 이 필터는 다음 다음에 적용됩니다. **includeDomains** 필터.
 
-   ![](assets/s_ncs_install_mta_ips.png)
+  ![](assets/s_ncs_install_mta_ips.png)
 
 ## 이메일 전송 최적화 {#email-sending-optimization}
 

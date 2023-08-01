@@ -2,16 +2,17 @@
 product: campaign
 title: 일반적인 명령
 description: 일반적인 명령
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 4%
+source-wordcount: '432'
+ht-degree: 6%
 
 ---
 
@@ -32,7 +33,6 @@ ht-degree: 4%
 >* 원하는 경우 다음을 추가할 수 있습니다. **-noconsole** 모듈이 시작되면 표시되는 주석을 삭제하는 인수
 >* 반대로 인수를 추가할 수 있습니다 **-verbose** 을 클릭하여 추가 정보를 표시합니다.
 >
-
 
 ## 명령 모니터링 {#monitoring-commands-}
 
@@ -100,25 +100,25 @@ Adobe Campaign 서비스를 중지하려면 다음 명령 중 하나를 사용�
 
    * Linux에서:
 
-      ```
-      /etc/init.d/nlserver6 stop
-      ```
+     ```
+     /etc/init.d/nlserver6 stop
+     ```
 
-      >[!NOTE]
-      >
-      >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl stop nlserver**
+     >[!NOTE]
+     >
+     >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl stop nlserver**
 
    * Windows에서는:
 
-      ```
-      net stop nlserver6
-      ```
+     ```
+     net stop nlserver6
+     ```
 
 * 그렇지 않은 경우 Adobe Campaign 계정에서 다음을 수행합니다.
 
-   ```
-   nlserver shutdown 
-   ```
+  ```
+  nlserver shutdown 
+  ```
 
 ## 서비스 다시 시작 {#restart-services}
 
@@ -128,9 +128,9 @@ Adobe Campaign 서비스를 중지하려면 다음 명령 중 하나를 사용�
 
    * Linux에서: /etc/init.d/nlserver6 start
 
-      >[!NOTE]
-      >
-      >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
+     >[!NOTE]
+     >
+     >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
 
    * Windows: net start nlserver6
 
@@ -165,3 +165,4 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 >* oracle 데이터베이스의 경우 계정을 지정하지 않아야 합니다. 구문은 다음과 같습니다.
 >
 >  nlserver config -setdblogin:Oracle:test6@dbserver
+>

@@ -2,14 +2,15 @@
 product: campaign
 title: 운영자 프로필
 description: 운영자 프로필
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Interaction, Offers
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '391'
 ht-degree: 9%
 
 ---
@@ -42,9 +43,9 @@ ht-degree: 9%
 * 오퍼 자격 조건을 구성합니다.
 * 오퍼를 승인합니다.
 
-   >[!NOTE]
-   >
-   >오퍼 관리자는 두 가지 특정 경우에만 오퍼를 승인할 수 있습니다. 첫 번째는 특별히 검토자로 지정된 사람이 없는 경우이고, 두 번째는 템플릿을 만드는 작업을 담당하는 운영자(검토자를 할당할 권한이 있음)가 오퍼의 기반이 되는 오퍼 템플릿에서 검토자로 지정한 경우입니다.
+  >[!NOTE]
+  >
+  >오퍼 관리자는 두 가지 특정 경우에만 오퍼를 승인할 수 있습니다. 첫 번째는 특별히 검토자로 지정된 사람이 없는 경우이고, 두 번째는 템플릿을 만드는 작업을 담당하는 운영자(검토자를 할당할 권한이 있음)가 오퍼의 기반이 되는 오퍼 템플릿에서 검토자로 지정한 경우입니다.
 
 ## 게재 관리자 {#delivery-manager}
 
@@ -59,9 +60,9 @@ ht-degree: 9%
 * 오퍼 범주를 표시하고 수정합니다.
 * 이 게재 관리자가 검토자 중 하나로 지정된 경우 오퍼를 승인합니다.
 
-   >[!NOTE]
-   >
-   >게재 관리자는 오퍼 구성 중에 검토자로 정의된 경우에만 오퍼를 승인할 수 있습니다.
+  >[!NOTE]
+  >
+  >게재 관리자는 오퍼 구성 중에 검토자로 정의된 경우에만 오퍼를 승인할 수 있습니다.
 
 ## 연산자에 따른 권한 요약 {#recap-of-rights-according-to-operator}
 

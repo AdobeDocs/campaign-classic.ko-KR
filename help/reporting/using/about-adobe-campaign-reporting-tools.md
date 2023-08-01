@@ -2,13 +2,13 @@
 product: campaign
 title: Adobe Campaign 보고 도구 기본 정보
 description: 빌드-인 또는 사용자 정의 보고서에서 캠페인의 성공을 분석합니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+feature: Reporting, Monitoring
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '346'
 ht-degree: 19%
 
 ---

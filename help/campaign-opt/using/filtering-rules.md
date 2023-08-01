@@ -2,12 +2,12 @@
 product: campaign
 title: 필터링 규칙
 description: 필터링 규칙을 사용하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Typology Rules
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+feature: Typology Rules, Campaigns
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '514'
 ht-degree: 2%
 
 ---
@@ -79,12 +79,13 @@ ht-degree: 2%
 >선택 창에서는 유형화와 필터링 규칙만 사용할 수 있습니다.
 >
 >이러한 구성은 템플릿을 사용하여 만든 모든 새 게재에 자동으로 적용되도록 게재 템플릿에서 정의할 수 있습니다.
+>
 
 ## 기본 게재 가능성 제외 규칙 {#default-deliverability-exclusion-rules}
 
 기본적으로 두 가지 필터링 규칙을 사용할 수 있습니다. **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** ) 및 **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** ). 전자 메일 분석 중에 이러한 규칙은 수신자 전자 메일 주소를 게재 가능성 인스턴스에서 관리되는 암호화된 전역 제외 목록에 포함된 금지된 주소 또는 도메인 이름과 비교합니다. 일치하는 항목이 있으면 메시지가 해당 수신자에게 전송되지 않습니다.
 
-이는 악성 활동, 특히 Spamtrap 사용으로 인해 차단 목록에 추가되는 것을 피하기 위한 것입니다. 예를 들어 웹 양식 중 하나를 통해 구독하는 데 Spamtrap을 사용하는 경우 확인 이메일이 해당 Spamtrap으로 자동 전송되며, 이렇게 되면 주소가 자동으로 차단 목록에 추가됩니다.
+이는 악성 활동, 특히 Spamtrap 사용으로 인해 차단 목록에 추가하다에 추가되는 것을 피하기 위한 것입니다. 예를 들어 웹 양식 중 하나를 통해 구독하는 데 Spamtrap을 사용하는 경우 확인 이메일이 해당 Spamtrap으로 자동 전송되며, 이렇게 되면 주소가 자동으로 차단 목록에 추가하다에 추가됩니다.
 
 >[!NOTE]
 >

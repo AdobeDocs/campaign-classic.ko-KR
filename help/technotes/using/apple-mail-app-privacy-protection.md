@@ -1,9 +1,10 @@
 ---
 product: campaign
 title: Apple 메일 앱의 메일 개인 정보 보호
+feature: Technote, Privacy, Privacy Tools
 description: 캠페인이 Apple의 메일 개인 정보 보호 기능의 영향을 받는 방식을 알아봅니다
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-source-git-commit: 83fe7eb4f857306ac1c8bb3a93a9393b76ae1e3c
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '2056'
 ht-degree: 1%
@@ -61,27 +62,27 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 * **[!UICONTROL Operating Systems]** 보고서
 
-   운영 체제 및 버전당 방문자 수를 파악하려면 이 보고서를 사용합니다. [자세히 보기](../../reporting/using/global-reports.md#operating-systems).
+  운영 체제 및 버전당 방문자 수를 파악하려면 이 보고서를 사용합니다. [자세히 보기](../../reporting/using/global-reports.md#operating-systems).
 
-   총 방문자 수와 관련하여 운영 체제당 방문자 수 분류를 볼 수 있습니다.
+  총 방문자 수와 관련하여 운영 체제당 방문자 수 분류를 볼 수 있습니다.
 
-   ![](../../reporting/using/assets/s_ncs_user_os_report.png)
+  ![](../../reporting/using/assets/s_ncs_user_os_report.png)
 
-   각 운영 체제에 대해 운영 체제 버전별 방문자 분류를 볼 수 있습니다.
+  각 운영 체제에 대해 운영 체제 버전별 방문자 분류를 볼 수 있습니다.
 
-   ![](../../reporting/using/assets/s_ncs_user_os_report2.png)
+  ![](../../reporting/using/assets/s_ncs_user_os_report2.png)
 
 * **[!UICONTROL Breakdown of opens]** 보고서
 
-   운영 체제당 이메일 열람수 비율을 식별하려면 이 보고서를 사용합니다. [자세히 보기](../../reporting/using/global-reports.md#breakdown-of-opens).
+  운영 체제당 이메일 열람수 비율을 식별하려면 이 보고서를 사용합니다. [자세히 보기](../../reporting/using/global-reports.md#breakdown-of-opens).
 
-   ![](../../reporting/using/assets/dlv_useragent_report.png)
+  ![](../../reporting/using/assets/dlv_useragent_report.png)
 
 ### 이메일 열기 추적 사용 방법 결정 {#find-email-open-tracking}
 
 이메일 열기가 세분화, 타겟팅 및 재타겟팅의 기준으로 사용되는 워크플로우를 식별할 수 있습니다.
 
-이렇게 하려면 다음을 사용할 수 있습니다 **[!UICONTROL type]** 추적된 링크 URL의 속성(**[!UICONTROL url/@type]**). 이메일 열기의 경우 이 속성은 로 설정됩니다. **[!UICONTROL Open]**. 이 속성은 쿼리 편집기에서 사용할 수 있으며 **[!UICONTROL Query]** 워크플로우의 활동 및 사전 정의된 필터. 이 속성을 마케팅 캠페인에 대한 타겟팅 기준으로 사용할 수 있습니다.
+이렇게 하려면 다음을 사용할 수 있습니다 **[!UICONTROL type]** 추적된 링크 URL의 속성(**[!UICONTROL url/@type]**). 이메일 열기의 경우 이 속성은 로 설정됩니다. **[!UICONTROL Open]**. 이 속성은 쿼리 편집기에서 사용할 수 있습니다. **[!UICONTROL Query]** 워크플로우의 활동 및 사전 정의된 필터. 이 속성을 마케팅 캠페인에 대한 타겟팅 기준으로 사용할 수 있습니다.
 
 ![](assets/identify-email-open-tracking-1.png)
 
@@ -89,21 +90,21 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 * 쿼리에서 이메일 열기 를 타깃팅 기준으로 사용할 수 있습니다.
 
-   특정 게재의 추적 로그 URL 유형을 다음으로 설정해야 함을 필터링 조건으로 지정할 수 있습니다. **[!UICONTROL Open]**.
+  특정 게재의 추적 로그 URL 유형을 다음으로 설정해야 함을 필터링 조건으로 지정할 수 있습니다. **[!UICONTROL Open]**.
 
-   ![](assets/identify-email-open-tracking-2.png)
+  ![](assets/identify-email-open-tracking-2.png)
 
 * 사전 정의된 필터를 사용할 수 있습니다. [자세히 알아보기](../../workflow/using/creating-a-filter.md)
 
-   ![](assets/identify-email-open-tracking-3.png)
+  ![](assets/identify-email-open-tracking-3.png)
 
-   워크플로우의 쿼리 활동에서 이 사전 정의된 필터를 사용할 수 있습니다.
+  워크플로우의 쿼리 활동에서 이 사전 정의된 필터를 사용할 수 있습니다.
 
-   ![](assets/identify-email-open-tracking-4.png)
+  ![](assets/identify-email-open-tracking-4.png)
 
-   >[!NOTE]
-   >
-   >워크플로우에서는 사전 정의된 필터의 타겟팅 기준을 볼 수 없습니다.
+  >[!NOTE]
+  >
+  >워크플로우에서는 사전 정의된 필터의 타겟팅 기준을 볼 수 없습니다.
 
 이메일이 타겟팅 기준으로 사용되는 워크플로우 목록을 검색하려면 `xtk:workflow` 스키마. 워크플로우의 콘텐츠는 **[!UICONTROL XML memo (data)]** XML 형식의 필드입니다.
 
@@ -326,7 +327,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 * 이 데이터는 제한된 기간 동안 Adobe Campaign에 의해 유지됩니다. 보존 기간은 인스턴스의 구성에 따라 다릅니다.
 
-   인스턴스의 설정을 확인합니다. [자세히 보기](../../platform/using/privacy-management.md#data-retention).
+  인스턴스의 설정을 확인합니다. [자세히 보기](../../platform/using/privacy-management.md#data-retention).
 
 * Apple의 최근 변경 사항 외에도 추적 데이터를 사용하여 고객의 참여를 유도하는 데 큰 가치를 추가할 수 있습니다.
 * Apple은 기본 메일 앱과 메일 개인 정보 보호 기능을 추가로 변경할 수 있습니다.
@@ -433,9 +434,9 @@ Adobe Campaign에서 지원하는 외부 스토리지 솔루션으로 결과를 
 
    1. An **[!UICONTROL End]** 활동은 다음을 따릅니다. **[!UICONTROL Deduplication]** 활동.
 
-   이 유형의 워크플로우는 타깃팅할 기본 제공 수신자 표에만 수신자를 저장하는 경우에 유용합니다.
+  이 유형의 워크플로우는 타깃팅할 기본 제공 수신자 표에만 수신자를 저장하는 경우에 유용합니다.
 
-   ![](assets/export-tracking-data-wkf-1.png)
+  ![](assets/export-tracking-data-wkf-1.png)
 
 * 두 번째 예제 워크플로우는 다음 활동으로 구성됩니다.
 
@@ -445,8 +446,9 @@ Adobe Campaign에서 지원하는 외부 스토리지 솔루션으로 결과를 
 
       * 한 번의 전환에서 **[!UICONTROL Change dimension]** 활동은 추적 로그가 참조하는 수신자를 찾는 데 사용됩니다.
       * 다른 전환에서는 **[!UICONTROL Split]** 활동은 이메일 애플리케이션, 브라우저, 운영 체제 및 장치별로 선택 항목을 분할하는 데 사용됩니다.
+
    1. An **[!UICONTROL End]** 활동은 다음의 각 전환을 따릅니다. **[!UICONTROL Split]** 활동.
 
-   이 유형의 워크플로우는 기본 수신자 테이블 이외의 테이블에 수신자를 저장하는 경우에 유용합니다.
+  이 유형의 워크플로우는 기본 수신자 테이블 이외의 테이블에 수신자를 저장하는 경우에 유용합니다.
 
-   ![](assets/export-tracking-data-wkf-2.png)
+  ![](assets/export-tracking-data-wkf-2.png)

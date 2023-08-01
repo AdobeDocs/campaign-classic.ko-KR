@@ -2,15 +2,16 @@
 product: campaign
 title: 인바운드 채널에 대한 오퍼
 description: 인바운드 채널에 대한 오퍼
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Interaction, Offers
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2100'
 ht-degree: 1%
 
 ---

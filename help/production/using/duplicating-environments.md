@@ -2,16 +2,17 @@
 product: campaign
 title: 환경 복제
 description: 환경 복제
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 1%
+source-wordcount: '1314'
+ht-degree: 2%
 
 ---
 
@@ -73,7 +74,6 @@ Adobe Campaign을 사용하려면 개발, 테스트, 사전 프로덕션, 프로
 >* 아래 명령은 컨텍스트 내에서 적용됩니다. **prod** 인스턴스 및 a **개발** PostgreSQL 아래에 있는 인스턴스입니다.
 >
 
-
 ### 1단계 - 소스 환경(prod) 데이터 백업 {#step-1---make-a-backup-of-the-source-environment--prod--data}
 
 데이터베이스 복사
@@ -121,15 +121,15 @@ pg_dump mydatabase > mydatabase.sql
 
 * Windows에서는:
 
-   ```
-   net stop nlserver6
-   ```
+  ```
+  net stop nlserver6
+  ```
 
 * Linux에서:
 
-   ```
-   /etc/init.d/nlserver6 stop
-   ```
+  ```
+  /etc/init.d/nlserver6 stop
+  ```
 
 다음 명령을 사용하여 모든 프로세스가 중지되었는지 확인합니다.
 
@@ -236,15 +236,15 @@ Adobe Campaign 프로세스를 시작하려면 다음 명령을 사용합니다.
 
 * Windows에서는:
 
-   ```
-   net start nlserver6
-   ```
+  ```
+  net start nlserver6
+  ```
 
 * Linux에서:
 
-   ```
-   /etc/init.d/nlserver6 start
-   ```
+  ```
+  /etc/init.d/nlserver6 start
+  ```
 
 다음 명령을 사용하여 프로세스가 시작되었는지 확인합니다.
 

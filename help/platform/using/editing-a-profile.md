@@ -2,14 +2,15 @@
 product: campaign
 title: 프로필 편집
 description: 프로필 편집
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Profiles
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '478'
 ht-degree: 5%
 
 ---
@@ -42,7 +43,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->다음의 경우 **[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이 차단 목록임을 의미합니다. 즉, 프로필이 (예를 들어, 뉴스레터에서 구독 취소 링크를 클릭하여) 연락하지 않겠다는 의사를 표현했습니다. 더 이상 모든 채널(이메일, DM 등)의 게재가 타겟팅하지 않습니다. 자세한 정보는 이 [페이지](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
+>다음의 경우 **[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이 차단 목록에 추가하다임을 의미합니다. 즉, 프로필이 (예를 들어, 뉴스레터에서 구독 취소 링크를 클릭하여) 연락하지 않겠다는 의사를 표현했습니다. 더 이상 모든 채널(이메일, DM 등)의 게재가 타겟팅하지 않습니다. 자세한 정보는 이 [페이지](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
 
 ## 연락처 정보 탭 {#contact-information-tab}
 

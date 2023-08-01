@@ -2,12 +2,13 @@
 product: campaign
 title: 양식 편집
 description: 양식 편집
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Configuration
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1710'
 ht-degree: 2%
 
 ---
@@ -48,39 +49,39 @@ Forms은 의 엔티티입니다. `xtk:form` 유형. 다음에서 입력 양식 �
 
 * 콘솔 화면
 
-   기본 양식 유형입니다. 양식은 하나의 페이지로 구성됩니다.
+  기본 양식 유형입니다. 양식은 하나의 페이지로 구성됩니다.
 
-   ![](assets/console_screen_form.png)
+  ![](assets/console_screen_form.png)
 
 * 콘텐츠 관리
 
-   콘텐츠 관리에 이 양식 유형을 사용합니다. 이 항목 보기 [사용 사례](../../delivery/using/use-case--creating-content-management.md).
+  콘텐츠 관리에 이 양식 유형을 사용합니다. 이 항목 보기 [사용 사례](../../delivery/using/use-case--creating-content-management.md).
 
-   ![](../../delivery/using/assets/d_ncs_content_form13.png)
+  ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
 * 마법사
 
-   이 양식은 특정 시퀀스로 순서가 지정된 여러 부동 화면으로 구성됩니다. 사용자는 한 화면에서 다음 화면으로 이동합니다. [자세히 보기](form-structure.md#wizards).
+  이 양식은 특정 시퀀스로 순서가 지정된 여러 부동 화면으로 구성됩니다. 사용자는 한 화면에서 다음 화면으로 이동합니다. [자세히 보기](form-structure.md#wizards).
 
 * 아이콘 상자
 
-   이 양식은 여러 페이지로 구성됩니다. 양식을 탐색하려면 양식 왼쪽에 있는 아이콘을 선택합니다.
+  이 양식은 여러 페이지로 구성됩니다. 양식을 탐색하려면 양식 왼쪽에 있는 아이콘을 선택합니다.
 
-   ![](assets/iconbox_form_preview.png)
+  ![](assets/iconbox_form_preview.png)
 
 * Notebook
 
-   이 양식은 여러 페이지로 구성됩니다. 양식을 탐색하려면 양식 맨 위에서 탭을 선택합니다.
+  이 양식은 여러 페이지로 구성됩니다. 양식을 탐색하려면 양식 맨 위에서 탭을 선택합니다.
 
-   ![](assets/notebook_form_preview.png)
+  ![](assets/notebook_form_preview.png)
 
 * 세로 창
 
-   이 양식은 탐색 트리를 보여 줍니다.
+  이 양식은 탐색 트리를 보여 줍니다.
 
 * 가로 창
 
-   이 양식에는 항목 목록이 표시됩니다.
+  이 양식에는 항목 목록이 표시됩니다.
 
 ## 컨테이너
 
@@ -185,28 +186,28 @@ Forms은 의 엔티티입니다. `xtk:form` 유형. 다음에서 입력 양식 �
 
    * 양식 이름과 네임스페이스를 지정합니다.
 
-      양식 이름 및 네임스페이스는 관련 데이터 스키마와 일치할 수 있습니다.  이 예제는 `cus:order` 데이터 스키마:
+     양식 이름 및 네임스페이스는 관련 데이터 스키마와 일치할 수 있습니다.  이 예제는 `cus:order` 데이터 스키마:
 
-      ```xml
-      <form entitySchema="xtk:form" img="xtk:form.png" label="Order" name="order" namespace="cus" type="iconbox" xtkschema="xtk:form">
-        […]
-      </form>
-      ```
+     ```xml
+     <form entitySchema="xtk:form" img="xtk:form.png" label="Order" name="order" namespace="cus" type="iconbox" xtkschema="xtk:form">
+       […]
+     </form>
+     ```
 
-      또는 `entity-schema` 특성.
+     또는 `entity-schema` 특성.
 
-      ```xml
-      <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
-        […]
-      </form>
-      ```
+     ```xml
+     <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
+       […]
+     </form>
+     ```
 
    * 양식에 표시할 레이블을 지정합니다.
    * 필요한 경우 양식 유형을 지정합니다. 양식 유형을 지정하지 않으면 기본적으로 콘솔 화면 유형이 사용됩니다.
 
-      ![](assets/input-form-create-2.png)
+     ![](assets/input-form-create-2.png)
 
-      다중 페이지 양식을 디자인하는 경우 `<form>` 요소를 만들고 컨테이너에 유형을 지정합니다.
+     다중 페이지 양식을 디자인하는 경우 `<form>` 요소를 만들고 컨테이너에 유형을 지정합니다.
 
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
@@ -320,6 +321,7 @@ Forms은 의 엔티티입니다. `xtk:form` 유형. 다음에서 입력 양식 �
           </container>
       </form>
       ```
+
    또는 `type="frame"` 기존 속성 `<container>` 요소.
 
 ### 전자 필기장 양식 만들기
@@ -374,7 +376,7 @@ Forms은 의 엔티티입니다. `xtk:form` 유형. 다음에서 입력 양식 �
 
 * 최상위 양식은 iconbox 양식입니다. 이 양식에는 레이블이 지정된 두 개의 컨테이너가 있습니다. **일반** 및 **세부 사항**.
 
-   그 결과, 외부 양식은 **일반** 및 **세부 사항** 최상위 수준의 페이지. 이러한 페이지에 액세스하려면 양식 왼쪽에 있는 아이콘을 클릭합니다.
+  그 결과, 외부 양식은 **일반** 및 **세부 사항** 최상위 수준의 페이지. 이러한 페이지에 액세스하려면 양식 왼쪽에 있는 아이콘을 클릭합니다.
 
 * 하위 양식은 내부에 중첩된 전자 필기장 양식입니다 **일반** 컨테이너. 하위 폼은 레이블이 지정된 두 개의 컨테이너로 구성됩니다 **이름** 및 **연락처**.
 
@@ -411,7 +413,7 @@ Forms은 의 엔티티입니다. `xtk:form` 유형. 다음에서 입력 양식 �
 
 * 최상위 양식은 iconbox 양식입니다. 이 양식에는 레이블이 지정된 두 개의 컨테이너가 있습니다. **일반** 및 **세부 사항**.
 
-   그 결과, 외부 양식은 **일반** 및 **세부 사항** 최상위 수준의 페이지. 이러한 페이지에 액세스하려면 양식 왼쪽에 있는 아이콘을 클릭합니다.
+  그 결과, 외부 양식은 **일반** 및 **세부 사항** 최상위 수준의 페이지. 이러한 페이지에 액세스하려면 양식 왼쪽에 있는 아이콘을 클릭합니다.
 
 * 하위 양식은 내부에 중첩된 전자 필기장 양식입니다 **일반** 컨테이너. 하위 폼은 레이블이 지정된 두 개의 컨테이너로 구성됩니다 **이름** 및 **연락처**.
 

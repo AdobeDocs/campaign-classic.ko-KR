@@ -2,11 +2,12 @@
 product: campaign
 title: 웹 추적 태그 정의
 description: 웹 추적 태그 정의
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Application Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '360'
 ht-degree: 2%
 
 ---
@@ -100,23 +101,23 @@ ht-degree: 2%
 
 * &#39;홈&#39; 식별자 페이지 방문
 
-   **https://myserver.adobe.com/r/9862?tagid=home**
+  **https://myserver.adobe.com/r/9862?tagid=home**
 
 * 비즈니스 볼륨 데이터 수집
 
-   **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
 
 * 수신자를 찾기 위한 필드 지정
 
-   **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
 
-   계정 번호가 10인 수신자는 홈 페이지로 전송됩니다.
+  계정 번호가 10인 수신자는 홈 페이지로 전송됩니다.
 
 * 기본 게재 사용
 
-   **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
 
-   수신자가 홈 페이지로 전송됩니다. 이 쿼리와 함께 게재 식별자가 포함된 세션 쿠키가 전송되지 않는 한 이 정보는 식별자 230(데이터베이스 16의 e6)이 있는 게재에 저장됩니다.
+  수신자가 홈 페이지로 전송됩니다. 이 쿼리와 함께 게재 식별자가 포함된 세션 쿠키가 전송되지 않는 한 이 정보는 식별자 230(데이터베이스 16의 e6)이 있는 게재에 저장됩니다.
 
 >[!NOTE]
 >

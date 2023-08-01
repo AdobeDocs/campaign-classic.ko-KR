@@ -2,8 +2,9 @@
 product: campaign
 title: 새 게재 기능 서버로 업데이트
 description: 새로운 Campaign 게재 기능 서버로 업데이트하는 방법 알아보기
+feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 50ef144950ca9e79b1b3acdf587ffc13e0beeec4
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 3%
@@ -19,6 +20,7 @@ Campaign Classic 고객은 새 게재 기능 서버를 구현해야 합니다 **
 >[!NOTE]
 >
 >이러한 변경 사항에 대한 자세한 내용은 [FAQ](#faq), 또는 연락처 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
+>
 
 ## 변경 사항{#acc-deliverability-changes}
 
@@ -43,6 +45,7 @@ Adobe이 보안 규정 준수를 이유로 이전 데이터 센터를 폐기하�
 >[!WARNING]
 >
 >이러한 단계는 하이브리드 및 온프레미스 구현에 대해서만 수행해야 합니다.
+>
 
 ### 전제 조건{#prerequisites}
 
@@ -53,7 +56,7 @@ Adobe이 보안 규정 준수를 이유로 이전 데이터 센터를 폐기하�
 1. 다음을 확인하십시오. `DmRendering_cuid` 옵션 값이 입력되었습니다.
 
    * 옵션이 채워지면 구현을 시작할 수 있습니다.
-   * 값을 채우지 않은 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}: CUID를 가져옵니다.
+   * 값을 채우지 않은 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} CUID를 가져옵니다.
 
    이 옵션은 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에 올바른 값으로 채워야 합니다. 하이브리드 고객은 Adobe에게 연락하여 MID, RT 및 EXEC 인스턴스에 옵션을 설정합니다.
 
@@ -88,7 +91,7 @@ Adobe이 보안 규정 준수를 이유로 이전 데이터 센터를 폐기하�
    ![](assets/Add-API.png)
 1. 다음에서 **[!UICONTROL Add an API]** 창, 선택 **[!UICONTROL Adobe Campaign]**.
    ![](assets/AC-API.png)
-1. 클라이언트 ID가 비어 있는 경우 다음을 선택합니다. **[!UICONTROL Generate a key pair]** 공용 및 개인 키 쌍을 만듭니다.
+1. 클라이언트 ID가 비어 있으면 다음을 선택합니다. **[!UICONTROL Generate a key pair]** 공용 및 개인 키 쌍을 만듭니다.
    ![](assets/Generate-a-key-pair.png)
 
    그러면 기본 만료 날짜가 365일인 키가 자동으로 다운로드됩니다. 만료되면 새 키 쌍을 만들고 구성 파일에서 통합을 업데이트해야 합니다. 옵션 2를 사용하여 을(를) 수동으로 만들고 업로드하도록 선택할 수 있습니다 **[!UICONTROL Public key]** 만료일이 더 긴 경우

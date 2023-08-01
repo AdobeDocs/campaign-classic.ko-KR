@@ -2,14 +2,14 @@
 product: campaign
 title: 큐브에 대한 우수 사례
 description: 큐브에 대한 우수 사례
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
-feature: Reporting
+feature: Reporting, Monitoring
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1500'
 ht-degree: 1%
 
 ---
@@ -89,11 +89,11 @@ SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다
 
 * 가장 자주 사용되는 값 복구
 
-   다음 예제에서는 가장 자주 사용하는 4개의 값이 표시되는 반면, 다른 값은 계산되어 &#39;기타&#39; 카테고리로 그룹화됩니다.
+  다음 예제에서는 가장 자주 사용하는 4개의 값이 표시되는 반면, 다른 값은 계산되어 &#39;기타&#39; 카테고리로 그룹화됩니다.
 
 * 슬롯 형태로 빈 생성
 
-   다음 예에서 Adobe Campaign은 데이터베이스에 값을 표시하기 위해 동일한 크기의 값 슬롯 4개를 자동으로 생성합니다.
+  다음 예에서 Adobe Campaign은 데이터베이스에 값을 표시하기 위해 동일한 크기의 값 슬롯 4개를 자동으로 생성합니다.
 
 이 경우 팩트 스키마에서 선택한 필터는 무시됩니다.
 
@@ -153,9 +153,9 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
    * 다음 **[!UICONTROL Scheduler]** 활동을 사용하면 계산 업데이트 빈도를 정의할 수 있습니다. 스케줄러는 다음에 자세히 설명되어 있습니다. [이 섹션](../../workflow/using/scheduler.md).
    * 다음 **[!UICONTROL Aggregate update]** 활동을 사용하면 적용할 업데이트 모드(전체 또는 일부)를 선택할 수 있습니다.
 
-      기본적으로 각 계산 중에 전체 업데이트가 수행됩니다. 부분 업데이트를 활성화하려면 관련 옵션을 선택하고 업데이트 조건을 정의합니다.
+     기본적으로 각 계산 중에 전체 업데이트가 수행됩니다. 부분 업데이트를 활성화하려면 관련 옵션을 선택하고 업데이트 조건을 정의합니다.
 
-      ![](assets/s_advuser_cube_agregate_05.png)
+     ![](assets/s_advuser_cube_agregate_05.png)
 
 ## 측정값 정의 {#defining-measures}
 
@@ -203,7 +203,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 * 다음을 클릭합니다. **[!UICONTROL Edit the configuration of the pivot table]** 구성 창에 액세스하기 위한 아이콘
 
-   측정값의 레이블을 표시할지 여부를 선택하고 해당 레이아웃(선 또는 열)을 구성할 수 있습니다.
+  측정값의 레이블을 표시할지 여부를 선택하고 해당 레이아웃(선 또는 열)을 구성할 수 있습니다.
 
 ![](assets/s_advuser_cube_in_report_config_05.png)
 

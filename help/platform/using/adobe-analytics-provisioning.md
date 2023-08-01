@@ -2,14 +2,14 @@
 product: campaign
 title: Adobe Analytics 커넥터 프로비저닝
 description: Adobe Analytics 커넥터 프로비저닝에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Overview
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '653'
 ht-degree: 2%
 
 ---

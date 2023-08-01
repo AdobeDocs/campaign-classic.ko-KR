@@ -2,14 +2,15 @@
 product: campaign
 title: 외부 데이터베이스 액세스 권한
 description: 외부 데이터베이스 액세스 권한
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '987'
 ht-degree: 1%
 
 ---
@@ -28,9 +29,9 @@ ht-degree: 1%
    * **기본** 외부 데이터베이스 이름과 일치합니다.
    * **server** 외부 데이터베이스 서버의 이름과 일치합니다.
 
-      >[!NOTE]
-      >
-      >다음 **:base** oracle에서 파트는 선택 사항입니다.
+     >[!NOTE]
+     >
+     >다음 **:base** oracle에서 파트는 선택 사항입니다.
 
 1. 명명된 권한을 저장한 다음 선택한 사용자에게 연결합니다. **[!UICONTROL Administration > Access Management > Operators]** Adobe Campaign 탐색기의 노드입니다.
 

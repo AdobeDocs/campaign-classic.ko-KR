@@ -2,16 +2,17 @@
 product: campaign
 title: 캠페인 게재 설정 구성
 description: Campaign 게재 설정을 구성하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Channel Configuration
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 5%
+source-wordcount: '487'
+ht-degree: 6%
 
 ---
 
@@ -23,13 +24,13 @@ ht-degree: 5%
 
 * **DNS 구성**: MTA 모듈에서 만든 MX 유형 DNS 쿼리에 응답하는 데 사용되는 DNS 서버의 게재 도메인 및 IP 주소(또는 호스트)를 지정합니다. **`<dnsconfig>`** 계속.
 
-   >[!NOTE]
-   >
-   >다음 **이름 서버** 매개 변수는 Windows에서 설치하는 데 필수적입니다. Linux에서 설치하는 경우 비워 두어야 합니다.
+  >[!NOTE]
+  >
+  >다음 **이름 서버** 매개 변수는 Windows에서 설치하는 데 필수적입니다. Linux에서 설치하는 경우 비워 두어야 합니다.
 
-   ```
-   <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
-   ```
+  ```
+  <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
+  ```
 
 요구 사항과 설정에 따라 다음 구성을 수행할 수도 있습니다. [SMTP 릴레이](#smtp-relay), 숫자 조정 [MTA 하위 프로세스](#mta-child-processes), [아웃바운드 SMTP 트래픽 관리](#managing-outbound-smtp-traffic-with-affinities).
 

@@ -2,15 +2,16 @@
 product: campaign
 title: 일반 가져오기 샘플
 description: 가져오기 작업을 사용하여 수행할 수 있는 일반 가져오기에 대해 자세히 알아봅니다.
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Data Management
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -76,31 +77,31 @@ ht-degree: 1%
    * 로 이동 **수신자 (nms:recipient)** 테이블.
    * 다음 항목 선택 **[!UICONTROL Insertion]** 작업과 기본값은 다른 필드에 둡니다.
 
-      ![](assets/s_ncs_user_import_example04_01.png)
+     ![](assets/s_ncs_user_import_example04_01.png)
 
 1. 수신자 가져오기
 
    * 필요한 경우 레코드를 가져올 폴더를 지정합니다.
 
-      ![](assets/s_ncs_user_import_example05_01.png)
+     ![](assets/s_ncs_user_import_example05_01.png)
 
 1. 가져오기 실행
 
    * **[!UICONTROL Start]**&#x200B;를 클릭합니다.
 
-      편집기의 중앙 영역에서 가져오기 작업이 성공했는지 확인하고 처리된 레코드 수를 볼 수 있습니다.
+     편집기의 중앙 영역에서 가져오기 작업이 성공했는지 확인하고 처리된 레코드 수를 볼 수 있습니다.
 
-      ![](assets/s_ncs_user_import_example06_01.png)
+     ![](assets/s_ncs_user_import_example06_01.png)
 
-      다음 **[!UICONTROL Tracking]** 모드에서는 소스 파일의 각 레코드에 대한 가져오기 세부 사항을 추적할 수 있습니다. 이렇게 하려면 홈페이지에서 **[!UICONTROL Profiles and Targets]** 그러면 **[!UICONTROL Processes]**&#x200B;를 클릭하고 관련 가져오기를 선택한 다음 **[!UICONTROL General]**, **[!UICONTROL Journal]** 및 **[!UICONTROL Rejects]** 탭.
+     다음 **[!UICONTROL Tracking]** 모드에서는 소스 파일의 각 레코드에 대한 가져오기 세부 사항을 추적할 수 있습니다. 이렇게 하려면 홈페이지에서 **[!UICONTROL Profiles and Targets]** 그러면 **[!UICONTROL Processes]**&#x200B;를 클릭하고 관련 가져오기를 선택한 다음 **[!UICONTROL General]**, **[!UICONTROL Journal]** 및 **[!UICONTROL Rejects]** 탭.
 
       * 가져오기 진행률 확인
 
-         ![](assets/s_ncs_user_import_example07_01.png)
+        ![](assets/s_ncs_user_import_example07_01.png)
 
       * 각 레코드에 대한 프로세스 보기
 
-         ![](assets/s_ncs_user_import_example07_02.png)
+        ![](assets/s_ncs_user_import_example07_02.png)
 
 ## 수신자 업데이트 및 삽입 {#example--update-and-insert-recipients}
 
@@ -128,19 +129,19 @@ ht-degree: 1%
    * 옵션 유지 **[!UICONTROL Management of duplicates]** 위치: **[!UICONTROL Update]** 를 사용하십시오. 그러면 데이터베이스의 기존 레코드가 텍스트 파일의 데이터로 수정됩니다.
    * 필드 선택 **[!UICONTROL Birth date]**, **[!UICONTROL Name]** 및 **[!UICONTROL Company]** 조정 키를 할당합니다.
 
-      ![](assets/s_ncs_user_import_example04_02.png)
+     ![](assets/s_ncs_user_import_example04_02.png)
 
 1. 가져오기 실행
 
    * **[!UICONTROL Start]**&#x200B;를 클릭합니다.
 
-      추적 창에서 가져오기가 성공했는지 확인하고 처리된 레코드 수를 볼 수 있습니다.
+     추적 창에서 가져오기가 성공했는지 확인하고 처리된 레코드 수를 볼 수 있습니다.
 
-      ![](assets/s_ncs_user_import_example06_02.png)
+     ![](assets/s_ncs_user_import_example06_02.png)
 
    * 수신자 테이블에서 레코드가 이 작업에 의해 수정되었는지 확인합니다.
 
-      ![](assets/s_ncs_user_import_example06_03.png)
+     ![](assets/s_ncs_user_import_example06_03.png)
 
 ## 외부 파일의 값으로 값 보강 {#example--enrich-the-values-with-those-of-an-external-file}
 
@@ -150,11 +151,11 @@ ht-degree: 1%
 
 * 가져올 텍스트 파일의 컨텐츠입니다.
 
-   ![](assets/s_ncs_user_import_example02_03.png)
+  ![](assets/s_ncs_user_import_example02_03.png)
 
 * 가져오기 전 데이터베이스 상태
 
-   ![](assets/s_ncs_user_import_example06_04.png)
+  ![](assets/s_ncs_user_import_example06_04.png)
 
 다음 단계를 적용합니다.
 
@@ -181,7 +182,7 @@ ht-degree: 1%
    * 다음에 대해 이 작업 반복 **[!UICONTROL Company (@company)]** 노드.
    * 필드에 조정 키 할당 **[!UICONTROL Birth date]**, **[!UICONTROL Email]** 및 **[!UICONTROL First name]**.
 
-      ![](assets/s_ncs_user_import_example04_03.png)
+     ![](assets/s_ncs_user_import_example04_03.png)
 
 1. 가져오기 실행
 
@@ -201,11 +202,11 @@ ht-degree: 1%
 
 * 가져올 텍스트 파일의 컨텐츠입니다.
 
-   ![](assets/s_ncs_user_import_example02_04.png)
+  ![](assets/s_ncs_user_import_example02_04.png)
 
 * 가져오기 전 데이터베이스 상태
 
-   ![](assets/s_ncs_user_import_example06_07.png)
+  ![](assets/s_ncs_user_import_example06_07.png)
 
 1. 템플릿 선택
 
@@ -229,13 +230,13 @@ ht-degree: 1%
    * 커서를 **[!UICONTROL Account number (@account)]** 노드를 선택하고 옵션을 선택합니다. **[!UICONTROL Take empty values into account]**.
    * 필드 선택 **[!UICONTROL Birth date]**, **[!UICONTROL Email]** 및 **[!UICONTROL First name]** 조정 키를 할당합니다.
 
-      ![](assets/s_ncs_user_import_example04_04.png)
+     ![](assets/s_ncs_user_import_example04_04.png)
 
 1. 가져오기 실행
 
    * **[!UICONTROL Start]**&#x200B;를 클릭합니다.
    * 수신자 테이블에서 작업에 의해 레코드가 수정되었는지 확인합니다.
 
-      ![](assets/s_ncs_user_import_example06_06.png)
+     ![](assets/s_ncs_user_import_example06_06.png)
 
-      비어 있는 텍스트 파일의 값이 데이터베이스의 값을 덮어썼습니다. 데이터베이스의 기존 값이 가져오기 파일의 값과 함께 **[!UICONTROL Update]** 4단계에서 중복에 대해 선택한 옵션입니다.
+     비어 있는 텍스트 파일의 값이 데이터베이스의 값을 덮어썼습니다. 데이터베이스의 기존 값이 가져오기 파일의 값과 함께 **[!UICONTROL Update]** 4단계에서 중복에 대해 선택한 옵션입니다.

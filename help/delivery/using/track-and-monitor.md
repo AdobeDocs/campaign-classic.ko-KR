@@ -2,13 +2,13 @@
 product: campaign
 title: 메시지 추적 및 모니터링
 description: 메시지 추적 및 모니터링 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Monitoring
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Monitoring, Reporting
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '450'
 ht-degree: 3%
 
 ---

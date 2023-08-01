@@ -2,13 +2,13 @@
 product: campaign
 title: SMS 문제 해결
 description: SMS 채널 문제를 해결하는 방법 자세히 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: SMS
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: SMS, Troubleshooting
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: '2756'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ Adobe Campaign은 외부 계정을 관련 없는 엔티티로 취급합니다.
 
 * **하나 또는 여러 계정에서 문제가 발생했습니다**
 
-   이 경우 각 계정에서 다른 문제 해결 절차를 개별적으로 적용할 수 있습니다. 네트워크 트래픽과 로그 수를 줄이기 위해 계정을 진단하는 동안 다른 계정을 비활성화하는 것이 가장 좋습니다.
+  이 경우 각 계정에서 다른 문제 해결 절차를 개별적으로 적용할 수 있습니다. 네트워크 트래픽과 로그 수를 줄이기 위해 계정을 진단하는 동안 다른 계정을 비활성화하는 것이 가장 좋습니다.
 
 * **한 번에 하나의 계정만 활성 상태일 때는 문제가 나타나지 않았습니다**
 
-   계정 간에 충돌이 있습니다. 앞에서 언급했듯이 Adobe Campaign은 계정을 개별적으로 처리하지만 공급자는 이를 단일 계정으로 처리할 수 있습니다.
+  계정 간에 충돌이 있습니다. 앞에서 언급했듯이 Adobe Campaign은 계정을 개별적으로 처리하지만 공급자는 이를 단일 계정으로 처리할 수 있습니다.
 
    * 모든 계정 간에 서로 다른 로그인/암호 조합을 사용하고 있습니다.
 공급자에게 연락하여 잠재적인 충돌을 진단해야 합니다.
@@ -54,17 +54,17 @@ Adobe Campaign은 동일한 외부 계정에서 여러 짧은 코드 처리를 �
 
 * 커넥터가 최근에 변경되었는지 여부와 해당 사용자에 의해 변경되었는지 여부를 조사합니다(그룹으로 외부 계정 확인).
 
-   ```
-   select saccount, (sserver ||':'||sport) as serverPort, iextaccountid, CASE WHEN N0.iactive=1 THEN 'Yes' ELSE 'No' END as "(x) Enabled",
-   
-   (select X1.sname from xtkoperator X1 where N0.icreatedbyid = X1.ioperatorid) as "Created By",
-   
-   (select X1.sname from xtkoperator X1 where N0.imodifiedbyid = X1.ioperatorid) as "Last Modified By",
-   
-   N0.slabel as "External Account", N0.tslastmodified as "LastModifiedDate"
-   
-   from nmsextaccount N0 LEFT JOIN xtkoperator X0 ON (N0.icreatedbyid=X0.ioperatorid) order by 8 DESC LIMIT 50;
-   ```
+  ```
+  select saccount, (sserver ||':'||sport) as serverPort, iextaccountid, CASE WHEN N0.iactive=1 THEN 'Yes' ELSE 'No' END as "(x) Enabled",
+  
+  (select X1.sname from xtkoperator X1 where N0.icreatedbyid = X1.ioperatorid) as "Created By",
+  
+  (select X1.sname from xtkoperator X1 where N0.imodifiedbyid = X1.ioperatorid) as "Last Modified By",
+  
+  N0.slabel as "External Account", N0.tslastmodified as "LastModifiedDate"
+  
+  from nmsextaccount N0 LEFT JOIN xtkoperator X0 ON (N0.icreatedbyid=X0.ioperatorid) order by 8 DESC LIMIT 50;
+  ```
 
 * 시스템이 업그레이드되었는지 여부와 업그레이드 후 언제 업그레이드되었는지 확인합니다.
 * SMS에 영향을 주는 패키지가 최근에 업그레이드되었는지 조사합니다(/var/log/dpkg.log).

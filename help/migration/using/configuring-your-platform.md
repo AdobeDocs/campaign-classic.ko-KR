@@ -2,17 +2,18 @@
 product: campaign
 title: 구성 조정
 description: Campaign v7으로 마이그레이션하기 전후에 구성을 조정하는 방법을 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
 hide: true
 hidefromtoc: true
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 2%
+source-wordcount: '478'
+ht-degree: 3%
 
 ---
 
@@ -59,7 +60,7 @@ Adobe Campaign v7로 마이그레이션할 때 다음 요소를 구성해야 합
 
 * 암호
 
-   다음을 구성해야 합니다. **관리자** 및 **내부** 암호. [자세히 알아보기](../../migration/using/before-starting-migration.md#user-passwords)
+  다음을 구성해야 합니다. **관리자** 및 **내부** 암호. [자세히 알아보기](../../migration/using/before-starting-migration.md#user-passwords)
 
 <!--
 * Tree structure
@@ -82,33 +83,33 @@ Adobe Campaign v7로 마이그레이션할 때 다음 요소를 구성해야 합
 
 * 미러 페이지
 
-   미러 페이지 개인화 블록이 v6.x에서 변경되었습니다. 이 새 버전은 이러한 페이지에 액세스할 때 보안을 향상합니다.
+  미러 페이지 개인화 블록이 v6.x에서 변경되었습니다. 이 새 버전은 이러한 페이지에 액세스할 때 보안을 향상합니다.
 
-   메시지에서 v5 개인화 블록을 사용한 경우 미러 페이지 표시에 실패합니다. Adobe은 메시지에 미러 페이지를 삽입할 때 새 개인화 블록을 사용하는 것을 권장합니다.
+  메시지에서 v5 개인화 블록을 사용한 경우 미러 페이지 표시에 실패합니다. Adobe은 메시지에 미러 페이지를 삽입할 때 새 개인화 블록을 사용하는 것을 권장합니다.
 
-   그러나 임시 해결 방법으로(그리고 미러 페이지가 아직 활성 상태이므로) 옵션을 변경하여 이 문제를 방지하기 위해 이전 개인화 블록으로 돌아갈 수 있습니다 **[!UICONTROL XtkAcceptOldPasswords]** 및 설정 **[!UICONTROL 1]**. 이 경우 새 v6.x 개인화 블록의 사용에는 영향을 주지 않습니다.
+  그러나 임시 해결 방법으로(그리고 미러 페이지가 아직 활성 상태이므로) 옵션을 변경하여 이 문제를 방지하기 위해 이전 개인화 블록으로 돌아갈 수 있습니다 **[!UICONTROL XtkAcceptOldPasswords]** 및 설정 **[!UICONTROL 1]**. 이 경우 새 v6.x 개인화 블록의 사용에는 영향을 주지 않습니다.
 
 * 구문
 
-   업그레이드 후 구문과 관련된 오류가 발생하면 을 일시적으로 활성화해야 합니다. **allowSQLInjection** 의 옵션 **serverConf.xml** 파일을 클릭하면 코드를 다시 작성할 수 있습니다. 코드가 조정되면 보안을 다시 활성화해야 합니다.
+  업그레이드 후 구문과 관련된 오류가 발생하면 을 일시적으로 활성화해야 합니다. **allowSQLInjection** 의 옵션 **serverConf.xml** 파일을 클릭하면 코드를 다시 작성할 수 있습니다. 코드가 조정되면 보안을 다시 활성화해야 합니다.
 
 * 충돌
 
-   마이그레이션은 업그레이드 후 수행되며 보고서, 양식 또는 웹 애플리케이션에 충돌이 표시될 수 있습니다. 이러한 충돌은 콘솔에서 해결할 수 있습니다.
+  마이그레이션은 업그레이드 후 수행되며 보고서, 양식 또는 웹 애플리케이션에 충돌이 표시될 수 있습니다. 이러한 충돌은 콘솔에서 해결할 수 있습니다.
 
 * Tomcat
 
-   설치 폴더를 사용자 지정한 경우 마이그레이션 후 폴더가 올바르게 업데이트되었는지 확인하십시오.
+  설치 폴더를 사용자 지정한 경우 마이그레이션 후 폴더가 올바르게 업데이트되었는지 확인하십시오.
 
 * 보고서
 
-   모든 기본 제공 보고서는 현재 v6.x 렌더링 엔진을 사용합니다. 보고서에 JavaScript 코드를 추가한 경우 일부 요소가 영향을 받을 수 있습니다.
+  모든 기본 제공 보고서는 현재 v6.x 렌더링 엔진을 사용합니다. 보고서에 JavaScript 코드를 추가한 경우 일부 요소가 영향을 받을 수 있습니다.
 
 * 웹 애플리케이션
 
-   업그레이드 후 식별된 웹 애플리케이션에 연결하는 데 문제가 있는 경우 **allowUserpassword** 및 **sessionTokenonly** 의 옵션 **serverConf.xml** 파일. 보안 문제를 방지하려면 문제가 해결된 후 이 두 옵션을 다시 활성화해야 합니다.
+  업그레이드 후 식별된 웹 애플리케이션에 연결하는 데 문제가 있는 경우 **allowUserpassword** 및 **sessionTokenonly** 의 옵션 **serverConf.xml** 파일. 보안 문제를 방지하려면 문제가 해결된 후 이 두 옵션을 다시 활성화해야 합니다.
 
-   웹 응용 프로그램의 유형과 구성에 따라 추가 조작을 수행하여 제대로 작동하는지 확인해야 합니다.
+  웹 응용 프로그램의 유형과 구성에 따라 추가 조작을 수행하여 제대로 작동하는지 확인해야 합니다.
 
 <!--
   If migrating from a v5.11 platform, additional configurations must be carried out. [Learn more](../../migration/using/general-configurations.md#specific-configurations-in-v5-11.md)
@@ -137,7 +138,7 @@ Adobe Campaign v7로 마이그레이션할 때 다음 요소를 구성해야 합
 
 * 상호 작용
 
-   를 사용하는 경우 **상호 작용**&#x200B;마이그레이션 후 매개 변수를 조정해야 합니다.
+  를 사용하는 경우 **상호 작용**&#x200B;마이그레이션 후 매개 변수를 조정해야 합니다.
 
 <!--
 

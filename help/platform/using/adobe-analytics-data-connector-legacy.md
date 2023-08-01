@@ -2,13 +2,13 @@
 product: campaign
 title: Adobe Analytics 데이터 커넥터
 description: Adobe Analytics 데이터 커넥터
-feature: Overview
+feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1659'
 ht-degree: 98%
@@ -201,9 +201,9 @@ Adobe Campaign과 Adobe Analytics - 데이터 커넥터 간의 데이터 교환�
 * **[!UICONTROL Identification of converted contacts]**: 리마케팅 캠페인 후 구매한 방문자의 디렉토리. 이 워크플로우에서 수집한 데이터는 **[!UICONTROL Re-marketing efficiency]** 보고서에서 액세스할 수 있습니다. 이 [페이지](#creating-a-re-marketing-campaign)를 참조하십시오.
 * **[!UICONTROL Sending of indicators and campaign attributes]**: Adobe Analytics - 데이터 커넥터를 사용하여 Adobe Campaign을 통해 Adobe Experience Cloud로 이메일 캠페인 지표를 보낼 수 있습니다. 이 워크플로우는 매일 오전 4시에 트리거되며 데이터를 Analytics에 전송하는 데 24시간이 걸릴 수 있습니다.
 
-   이 워크플로우를 다시 시작하지 않아야 합니다. 그렇지 않으면 Analytics 결과를 왜곡할 수 있는 모든 이전 데이터가 다시 전송됩니다.
+  이 워크플로우를 다시 시작하지 않아야 합니다. 그렇지 않으면 Analytics 결과를 왜곡할 수 있는 모든 이전 데이터가 다시 전송됩니다.
 
-   관련 지표는 다음과 같습니다.
+  관련 지표는 다음과 같습니다.
 
    * **[!UICONTROL Messages to deliver]** (@toDeliver)
    * **[!UICONTROL Processed]** (@processed)
@@ -216,11 +216,11 @@ Adobe Campaign과 Adobe Analytics - 데이터 커넥터 간의 데이터 교환�
    * **[!UICONTROL Opt-Out]** (@optOut)
    * **[!UICONTROL Errors]** (@error)
 
-   >[!NOTE]
-   >
-   >전송된 데이터는 지표 데이터에서 음수 값을 초래할 수 있는 마지막 스냅샷을 기반으로 하는 델타입니다.
+  >[!NOTE]
+  >
+  >전송된 데이터는 지표 데이터에서 음수 값을 초래할 수 있는 마지막 스냅샷을 기반으로 하는 델타입니다.
 
-   전송된 속성은 다음과 같습니다.
+  전송된 속성은 다음과 같습니다.
 
    * **[!UICONTROL Internal name]** (@internalName)
    * **[!UICONTROL Label]** (@label)
@@ -230,7 +230,6 @@ Adobe Campaign과 Adobe Analytics - 데이터 커넥터 간의 데이터 교환�
    * **[!UICONTROL Tag 2]** (webAnalytics/@tag2)
    * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
    * **[!UICONTROL Contact date]** (scheduling/@contactDate)
-
 
 ## Adobe Campaign에서 게재 추적 {#tracking-deliveries-in-adobe-campaign}
 

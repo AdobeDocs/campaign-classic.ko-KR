@@ -2,16 +2,17 @@
 product: campaign
 title: 확장 예제
 description: 확장 예제
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Interaction, Offers
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '165'
+ht-degree: 4%
 
 ---
 
@@ -23,14 +24,14 @@ ht-degree: 3%
 
 * 새 상호 작용 컨텍스트를 추가하려면 **nms:interaction** 스키마와 만큼 생성 **속성** 스키마에 필요한 요소입니다.
 
-   다음 예에서는 추가된 기준이 국가 코드 및 마지막으로 방문한 페이지입니다.
+  다음 예에서는 추가된 기준이 국가 코드 및 마지막으로 방문한 페이지입니다.
 
-   ![](assets/s_ncs_configuration_offer_schemas.png)
+  ![](assets/s_ncs_configuration_offer_schemas.png)
 
 * 그런 다음 자격 기준 정의를 정의할 때 이전에 생성한 속성을 사용할 수 있습니다.
 
-   다음 예제에서는 사용자의 국가 또는 마지막으로 본 웹 페이지를 기반으로 오퍼를 표시하는 자격 조건을 만들 수 있습니다.
+  다음 예제에서는 사용자의 국가 또는 마지막으로 본 웹 페이지를 기반으로 오퍼를 표시하는 자격 조건을 만들 수 있습니다.
 
-   ![](assets/s_ncs_configuration_offer_context.png)
+  ![](assets/s_ncs_configuration_offer_context.png)
 
 * SOAP 호출을 구성할 때 **컨텍스트** 상호 작용 스키마에 추가된 컨텍스트 정보를 참조하는 XML 요소입니다. 자세한 내용은 다음을 참조하십시오. [SOAP를 통한 통합(서버측)](../../interaction/using/integration-via-soap--server-side-.md).

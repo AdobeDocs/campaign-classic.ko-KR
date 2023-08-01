@@ -2,15 +2,16 @@
 product: campaign
 title: 빌드 업그레이드 시작
 description: 새 빌드로 업그레이드하는 주요 단계 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring, Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2380'
 ht-degree: 3%
 
 ---
@@ -125,22 +126,22 @@ ht-degree: 3%
 
    * 유일한 게재 부분이 ID가 설정된 부분인지 확인합니다. **0**:
 
-      ```
-      SELECT * FROM neolane.nmsdeliverypart;
-      ```
+     ```
+     SELECT * FROM neolane.nmsdeliverypart;
+     ```
 
    * 게재 상태 업데이트가 올바른지 확인합니다.
 
-      ```
-      SELECT iSate, count(*) FROM neolane.nmsdeliveryGroup By iProd;
-      ```
+     ```
+     SELECT iSate, count(*) FROM neolane.nmsdeliveryGroup By iProd;
+     ```
 
    * 워크플로우 상태 업데이트가 올바른지 확인합니다.
 
-      ```
-      SELECT iState, count (*) FROM neolane.xtkworkflowGROUP BY iState;
-      SELECT iStatus, count (*) FROM neolane.xtkworkflowGROUP BY iStatus;
-      ```
+     ```
+     SELECT iState, count (*) FROM neolane.xtkworkflowGROUP BY iState;
+     SELECT iStatus, count (*) FROM neolane.xtkworkflowGROUP BY iStatus;
+     ```
 
 ### 서비스 종료
 
@@ -154,6 +155,7 @@ ht-degree: 3%
    >[!NOTE]
    >
    >IIS에서 사용하는 nlsrvmod.dll 파일을 새 버전으로 바꿀 수 있도록 리디렉션 서버(webmdl)가 중지되었는지 확인하십시오.
+   >
 
 1. 를 실행하여 활성화된 작업이 없는지 확인 **nlserver 덤프** 명령입니다. 작업이 없는 경우 출력은 다음과 유사해야 합니다.
 
@@ -188,6 +190,7 @@ ht-degree: 3%
    >[!NOTE]
    >
    >이 작업은 nlserverweb 응용 프로그램 서버에서 한 번만 수행해야 합니다.
+   >
 
    한 데이터베이스만 동기화하려면 다음 명령을 실행합니다.
 
@@ -258,6 +261,7 @@ Campaign 인스턴스에서 트랜잭션 메시지(메시지 센터)를 사용�
 >[!NOTE]
 >
 >중간 소싱 서버는 항상 마케팅 서버와 동일한 버전(또는 최신 버전)을 실행해야 합니다.
+>
 
 ## 충돌의 경우
 
@@ -345,6 +349,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 >[!IMPORTANT]
 >충돌을 해결하는 것이 좋습니다.
+>
 
 ### 병합 수행{#perform-a-merge}
 
@@ -408,6 +413,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 >[!IMPORTANT]
 >복잡한 병합을 수행하기 위해서는 개발 기술이 필요하다.
+>
 
 **관련 항목**
 

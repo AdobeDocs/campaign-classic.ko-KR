@@ -2,16 +2,17 @@
 product: campaign
 title: Campaign Classic 데이터베이스 권장 사항
 description: 데이터베이스 권장 사항
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 2%
+source-wordcount: '302'
+ht-degree: 5%
 
 ---
 
@@ -57,10 +58,10 @@ SELECT * FROM nls_database_parameters ;
 
 * 유니코드 설치의 경우 지원되는 인코딩은 다음과 같습니다.
 
-   ```
-   NLS_NCHAR_CHARACTERSET         AL16UTF16
-   NLS_CHARACTERSET         AL32UTF8
-   ```
+  ```
+  NLS_NCHAR_CHARACTERSET         AL16UTF16
+  NLS_CHARACTERSET         AL32UTF8
+  ```
 
 * ANSI 설치(비유니코드)의 경우 다음 인코딩만 지원됩니다.
 

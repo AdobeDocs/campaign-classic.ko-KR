@@ -2,15 +2,16 @@
 product: campaign
 title: 가설 템플릿
 description: 캠페인 응답 관리자에서 가설 템플릿을 만드는 방법을 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Campaigns, Templates
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1388'
 ht-degree: 2%
 
 ---
@@ -53,23 +54,23 @@ ht-degree: 2%
 
 * **[!UICONTROL Hypothesis type]**: 게재 또는 오퍼에 대한 가설을 위해 템플릿을 지정할지 여부를 결정할 수 있습니다.
 
-   게재 및 오퍼 모두에 적용할 가설을 만들도록 선택할 수도 있습니다.
+  게재 및 오퍼 모두에 적용할 가설을 만들도록 선택할 수도 있습니다.
 
-   >[!NOTE]
-   >
-   >템플릿이 오퍼에 적용되는 경우 **[!UICONTROL Update offer proposition status]** 옵션은에서 사용할 수 있습니다 **[!UICONTROL Transactions]** 탭.
+  >[!NOTE]
+  >
+  >템플릿이 오퍼에 적용되는 경우 **[!UICONTROL Update offer proposition status]** 옵션은에서 사용할 수 있습니다 **[!UICONTROL Transactions]** 탭.
 
 * **[!UICONTROL Measurement with control group]**: 컨트롤 그룹이 게재에 대해 정의되었는지 또는 캠페인에 대해 정의되었는지 여부를 표시하고 측정 지표에 포함할 수 있습니다. 게재를 받지 않는 컨트롤 그룹을 사용하면 게재를 받은 대상 모집단과 비교하여 게재 후 캠페인의 영향을 측정할 수 있습니다.
 
-   >[!NOTE]
-   >
-   >제어 그룹을 고려하도록 템플릿을 구성했지만 가설에 관련된 게재에 그룹이 정의되지 않은 경우 결과는 타겟팅된 수신자만 기반으로 합니다.
+  >[!NOTE]
+  >
+  >제어 그룹을 고려하도록 템플릿을 구성했지만 가설에 관련된 게재에 그룹이 정의되지 않은 경우 결과는 타겟팅된 수신자만 기반으로 합니다.
 
-   컨트롤 그룹 정의 및 구성에 대한 자세한 내용은 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+  컨트롤 그룹 정의 및 구성에 대한 자세한 내용은 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
 * **[!UICONTROL Channel]**: 을 선택하여 특정 채널을 선택하거나 Adobe Campaign 콘솔의 모든 채널에서 가설 템플릿을 사용할 수 있도록 할 수 있습니다 **[!UICONTROL All channels]** 을 클릭합니다. 특정 채널에 대해 템플릿을 구성하는 경우 가설을 생성할 때 채널당 게재를 자동으로 필터링할 수 있습니다. [자세히 알아보기](creating-hypotheses.md)
 
-   ![](assets/response_properties_001.png)
+  ![](assets/response_properties_001.png)
 
 * **[!UICONTROL Execution folder]**: 가설에 대한 실행 폴더를 지정할 수 있습니다.
 * **[!UICONTROL Taken into account in campaign ROI calculation]**: 관련 캠페인에 대한 ROI 계산에서 가설 결과를 고려합니다.
@@ -80,17 +81,17 @@ ht-degree: 2%
 
 * **[!UICONTROL Schedule execution for a time of low activity]**: 가설 시작을 예약하여 Adobe Campaign 성능을 최적화할 수 있습니다. 이 옵션을 선택하면 캠페인 처리 워크플로우가 중단 시간 동안 가설 계산을 실행합니다.
 
-   ![](assets/response_exec_settings_002.png)
+  ![](assets/response_exec_settings_002.png)
 
 * **[!UICONTROL Priority]**: 동시 실행이 있는 경우 가설 계산 명령의 공간을 확보하기 위해 가설에 적용되는 레벨입니다.
 
-   ![](assets/response_exec_settings_003.png)
+  ![](assets/response_exec_settings_003.png)
 
 * **[!UICONTROL Automatic execution]**: 필요한 경우 가설 재계산을 예약할 수 있도록 해줍니다(예: 게재 끝까지 지표를 정기적으로 업데이트하려는 경우).
 
-   ![](assets/response_exec_settings_001.png)
+  ![](assets/response_exec_settings_001.png)
 
-   스케줄을 지정하려면 다음 프로세스를 적용합니다.
+  스케줄을 지정하려면 다음 프로세스를 적용합니다.
 
    1. 다음을 클릭합니다. **[!UICONTROL Frequency of execution...]** 링크를 클릭한 다음 **[!UICONTROL Change...]** 단추를 클릭합니다.
 
@@ -107,11 +108,11 @@ ht-degree: 2%
 * **[!UICONTROL Log SQL queries in journal]**: 이 함수는 전문가 사용자용으로 예약되어 있습니다. 측정 가설 감사에 탭을 추가하여 SQL 쿼리를 표시할 수 있습니다. 이를 통해 시뮬레이션이 오류로 종료될 경우 발생 가능한 오동작을 감지할 수 있다.
 * **[!UICONTROL Keep execution workflow]**: 가설 계산이 시작될 때 자동으로 생성된 워크플로우를 유지할 수 있습니다. 이 옵션이 선택된 템플릿에서 생성된 가설에서 생성된 워크플로는 프로세스를 따를 수 있습니다.
 
-   >[!CAUTION]
-   >
-   >이 옵션은 가설을 실행하는 동안 오류가 발생한 경우에만 디버깅을 위해 활성화해야 합니다.\
-   >또한 자동으로 생성된 워크플로는 수정해서는 안 됩니다. 최종 수정 사항은 나중에 계산할 때 다른 곳에 고려되지 않습니다.\
-   >이 옵션을 선택한 경우 워크플로우를 실행한 후 삭제합니다.
+  >[!CAUTION]
+  >
+  >이 옵션은 가설을 실행하는 동안 오류가 발생한 경우에만 디버깅을 위해 활성화해야 합니다.\
+  >또한 자동으로 생성된 워크플로는 수정해서는 안 됩니다. 최종 수정 사항은 나중에 계산할 때 다른 곳에 고려되지 않습니다.\
+  >이 옵션을 선택한 경우 워크플로우를 실행한 후 삭제합니다.
 
 ### 거래 {#transactions}
 
@@ -125,21 +126,21 @@ ht-degree: 2%
 * **[!UICONTROL Transaction date]**: 이 필드는 선택 사항이지만 가설 계산을 위한 범위를 정의할 수 있도록 하므로 권장됩니다.
 * **[!UICONTROL Measurement period]**: 가설이 실행되고 구매 라인이 복구되는 시작 및 종료 날짜를 구성할 수 있습니다.
 
-   가설이 게재에 연결되면 측정은 DM 게재의 경우 연락일로부터 며칠 후 또는 이메일 또는 SMS 게재의 경우 게재일 후에 자동으로 트리거됩니다.
+  가설이 게재에 연결되면 측정은 DM 게재의 경우 연락일로부터 며칠 후 또는 이메일 또는 SMS 게재의 경우 게재일 후에 자동으로 트리거됩니다.
 
-   ![](assets/response_measurement_001.png)
+  ![](assets/response_measurement_001.png)
 
-   가설이 즉시 실행되면 즉시 트리거하려면 강제 적용할 수 있습니다. 그렇지 않으면 구성된 계산 종료일을 기준으로 자동으로 트리거되며, 이는 가설 생성일을 기준으로 합니다. [자세히 알아보기](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)).
+  가설이 즉시 실행되면 즉시 트리거하려면 강제 적용할 수 있습니다. 그렇지 않으면 구성된 계산 종료일을 기준으로 자동으로 트리거되며, 이는 가설 생성일을 기준으로 합니다. [자세히 알아보기](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)).
 
 * **[!UICONTROL Transaction/Margin amount]**: 이 필드는 선택 사항이며 이직률 지표를 자동으로 계산할 수 있습니다. [자세히 알아보기](hypothesis-tracking.md#indicators)
 * **[!UICONTROL Unit amount]**: 수익 계산을 위한 금액을 설정할 수 있도록 해줍니다. [자세히 알아보기](hypothesis-tracking.md#indicators)
 
-   ![](assets/response_transactions_001.png)
+  ![](assets/response_transactions_001.png)
 
 * **[!UICONTROL Additional measures and data]**: 다른 테이블의 필드에서 추가 보고 측정값이나 축을 지정할 수 있습니다.
 * **[!UICONTROL Update offer proposition status]**: 오퍼 수신자가 가설에 의해 식별되는 경우, 오퍼 제안의 상태를 변경할 수 있습니다.
 
-   ![](assets/response_offer_status_001.png)
+  ![](assets/response_offer_status_001.png)
 
 ### 가설 경계 {#hypothesis-perimeter}
 
@@ -175,13 +176,13 @@ ht-degree: 2%
 
 * **스크립트**: JavaScript 스크립트를 사용하여 실행 중에 가설 설정을 동적으로 오버로드할 수 있습니다.
 
-   이렇게 하려면 **[!UICONTROL Advanced settings]** 링크를 클릭하고 원하는 스크립트를 입력합니다.
+  이렇게 하려면 **[!UICONTROL Advanced settings]** 링크를 클릭하고 원하는 스크립트를 입력합니다.
 
-   >[!NOTE]
-   >
-   >이 옵션은 전문 사용자용입니다.
+  >[!NOTE]
+  >
+  >이 옵션은 전문 사용자용입니다.
 
-   ![](assets/response_hypothesis_model_creation_011.png)
+  ![](assets/response_hypothesis_model_creation_011.png)
 
 ## 예: 게재에 대한 가설 템플릿 만들기 {#example--creating-a-hypothesis-template-on-a-delivery}
 

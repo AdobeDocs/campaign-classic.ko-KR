@@ -2,16 +2,17 @@
 product: campaign
 title: 데이터베이스 만들기 및 구성
 description: 데이터베이스 만들기 및 구성
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 2%
+source-wordcount: '1321'
+ht-degree: 3%
 
 ---
 
@@ -61,11 +62,11 @@ ht-degree: 2%
 * 의 경우 **PostgreSql** 또는 **DB2** 데이터베이스 서버에 액세스하려면 애플리케이션 서버에 정의된 DNS 이름(또는 IP 주소)을 지정해야 합니다.
 * 의 경우 **Microsoft Server** 엔진, 다음을 정의해야 합니다. 데이터베이스 서버에 액세스하려면 애플리케이션 서버에 정의된 DNS 이름(또는 IP 주소): **DNS** 또는 **DNS`\<instance>`** (인스턴스 모드),
 
-   >[!CAUTION]
-   >
-   > 20.3부터 Windows NT 인증이 사용 중단됩니다. **[!UICONTROL SQL Server authentication]** 는 이제 Microsoft SQL Server에서 사용할 수 있는 유일한 인증 모드입니다. [자세히 보기](../../rn/using/deprecated-features.md)
+  >[!CAUTION]
+  >
+  > 20.3부터 Windows NT 인증이 사용 중단됩니다. **[!UICONTROL SQL Server authentication]** 는 이제 Microsoft SQL Server에서 사용할 수 있는 유일한 인증 모드입니다. [자세히 보기](../../rn/using/deprecated-features.md)
 
-   ![](assets/s_ncs_install_db_mssql_creation01.png)
+  ![](assets/s_ncs_install_db_mssql_creation01.png)
 
 ### 2단계 - 서버에 연결 {#step-2---connecting-to-the-server}
 
@@ -90,24 +91,24 @@ ht-degree: 2%
 
 * 생성할 데이터베이스의 이름을 지정합니다.
 
-   >[!NOTE]
-   >
-   >DB2 데이터베이스의 경우 데이터베이스 이름은 8자를 초과할 수 없습니다.
+  >[!NOTE]
+  >
+  >DB2 데이터베이스의 경우 데이터베이스 이름은 8자를 초과할 수 없습니다.
 
 * 이 데이터베이스에 연결된 계정의 암호를 입력합니다.
 * 데이터베이스가 유니코드로 되어 있어야 하는지 여부를 나타냅니다.
 
-   다음 **[!UICONTROL Unicode database]** 옵션을 사용하면 언어에 관계없이 모든 문자 유형을 유니코드에 저장할 수 있습니다.
+  다음 **[!UICONTROL Unicode database]** 옵션을 사용하면 언어에 관계없이 모든 문자 유형을 유니코드에 저장할 수 있습니다.
 
-   >[!NOTE]
-   >
-   >oracle 데이터베이스를 사용하면 **[!UICONTROL Unicode storage]** 옵션을 사용하면 다음을 사용할 수 있습니다. **NCLOB** 및 **NVARCHAR** 필드를 입력합니다.
-   > 
-   >이 옵션을 선택하지 않으면 Oracle 데이터베이스의 문자 세트(charset)가 모든 언어로 데이터 저장을 활성화해야 합니다(AL32UTF8이 권장됨).
+  >[!NOTE]
+  >
+  >oracle 데이터베이스를 사용하면 **[!UICONTROL Unicode storage]** 옵션을 사용하면 다음을 사용할 수 있습니다. **NCLOB** 및 **NVARCHAR** 필드를 입력합니다.
+  > 
+  >이 옵션을 선택하지 않으면 Oracle 데이터베이스의 문자 세트(charset)가 모든 언어로 데이터 저장을 활성화해야 합니다(AL32UTF8이 권장됨).
 
 * 데이터베이스의 시간대를 선택하고 UTC(가능한 경우)로 설정할지 여부를 지정합니다.
 
-   자세한 내용은 다음을 참조하십시오. [시간대 관리](../../installation/using/time-zone-management.md).
+  자세한 내용은 다음을 참조하십시오. [시간대 관리](../../installation/using/time-zone-management.md).
 
 ### 4단계 - 설치할 패키지 {#step-4---packages-to-install}
 
@@ -125,7 +126,7 @@ ht-degree: 2%
 
 * oracle, Microsoft SQL Server 또는 PostgreSQL 데이터베이스의 경우 관리자는 **저장소 매개 변수** 데이터베이스 개체를 만들 때 사용됩니다.
 
-   이러한 매개변수는 정확한 테이블스페이스 이름을 수신합니다(경고: 대소문자 구분). 이러한 ID는 각각 **[!UICONTROL Administration > Platform > Options]** 다음 옵션의 노드(참조) [이 섹션](../../installation/using/configuring-campaign-options.md#database)):
+  이러한 매개변수는 정확한 테이블스페이스 이름을 수신합니다(경고: 대소문자 구분). 이러한 ID는 각각 **[!UICONTROL Administration > Platform > Options]** 다음 옵션의 노드(참조) [이 섹션](../../installation/using/configuring-campaign-options.md#database)):
 
    * **WdbcOptions_TableSpaceUser**: 스키마를 기반으로 하는 사용자 테이블
    * **WdbcOptions_TableSpaceIndex**: 스키마를 기반으로 하는 사용자 테이블 인덱스
@@ -135,7 +136,7 @@ ht-degree: 2%
 * oracle 데이터베이스의 경우 Adobe Campaign 사용자는 일반적으로 의 멤버로서 Oracle 라이브러리에 액세스할 수 있어야 합니다 **oinstall** 그룹입니다.
 * 다음 **[!UICONTROL Set or change the administrator password]** 옵션을 사용하면 관리자 권한이 있는 Adobe Campaign 연산자에 연결된 암호를 입력할 수 있습니다.
 
-   보안을 위해 Adobe Campaign 계정 관리자 암호를 정의하는 것이 좋습니다.
+  보안을 위해 Adobe Campaign 계정 관리자 암호를 정의하는 것이 좋습니다.
 
 ### 6단계 - 데이터베이스 만들기 {#step-6---creating-the-database}
 
@@ -201,10 +202,10 @@ ht-degree: 2%
 * 사용할 데이터베이스의 이름을 입력하십시오.
 * 이 데이터베이스와 연결된 계정의 이름 및 암호를 입력하십시오.
 
-   >[!NOTE]
-   >
-   >스키마 이름과 사용자 이름이 모두 일치하는지 확인하십시오. 데이터베이스를 만드는 권장 방법은 campaign 콘솔 클라이언트를 사용하는 것입니다.
-   >oracle 데이터베이스의 경우 계정 이름을 입력할 필요가 없습니다.
+  >[!NOTE]
+  >
+  >스키마 이름과 사용자 이름이 모두 일치하는지 확인하십시오. 데이터베이스를 만드는 권장 방법은 campaign 콘솔 클라이언트를 사용하는 것입니다.
+  >oracle 데이터베이스의 경우 계정 이름을 입력할 필요가 없습니다.
 
 * 데이터베이스가 유니코드여야 하는지 여부를 나타냅니다.
 
@@ -226,7 +227,7 @@ ht-degree: 2%
 * oracle 데이터베이스의 경우 Adobe Campaign 사용자는 일반적으로 의 멤버로서 Oracle 라이브러리에 액세스할 수 있어야 합니다 **oinstall** 그룹입니다.
 * 다음 **[!UICONTROL Set or change the administrator password]** 옵션을 사용하면 관리자 권한이 있는 Adobe Campaign 연산자에 연결된 암호를 입력할 수 있습니다.
 
-   보안을 위해 Adobe Campaign 계정 관리자 암호를 정의하는 것이 좋습니다.
+  보안을 위해 Adobe Campaign 계정 관리자 암호를 정의하는 것이 좋습니다.
 
 ### 5단계 - 데이터베이스 만들기 {#step-5---creating-the-database}
 

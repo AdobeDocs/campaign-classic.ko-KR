@@ -2,13 +2,13 @@
 product: campaign
 title: 차트 만들기
 description: 차트 디자인 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+feature: Reporting, Monitoring
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '537'
 ht-degree: 3%
 
 ---
@@ -39,15 +39,15 @@ ht-degree: 3%
 
    * 다음을 클릭합니다. **[!UICONTROL Filter data...]** 데이터베이스의 데이터에 대한 필터링 기준을 정의하는 링크입니다.
 
-      ![](assets/reporting_graph_add_filter.png)
+     ![](assets/reporting_graph_add_filter.png)
 
    * 컨텍스트 데이터를 사용하려면 다음을 선택합니다. **[!UICONTROL Context data]** 다음에서 **[!UICONTROL Source]** 드롭다운을 클릭하고 **[!UICONTROL Advanced settings...]** 링크를 클릭합니다. 그런 다음 통계가 고려될 데이터를 선택합니다.
 
-      ![](assets/reporting_graph_from_context.png)
+     ![](assets/reporting_graph_from_context.png)
 
-      그런 다음 컨텍스트 데이터에 액세스하여 차트에 표시할 값을 정의할 수 있습니다.
+     그런 다음 컨텍스트 데이터에 액세스하여 차트에 표시할 값을 정의할 수 있습니다.
 
-      ![](assets/reporting_graph_select-from_context.png)
+     ![](assets/reporting_graph_select-from_context.png)
 
 ## 차트 유형 및 변형 {#chart-types-and-variants}
 

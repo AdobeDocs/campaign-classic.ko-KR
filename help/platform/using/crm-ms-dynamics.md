@@ -2,13 +2,13 @@
 product: campaign
 title: Campaign - Microsoft Dynamics CRM 커넥터
 description: Campaign과 Microsoft Dynamics 연결 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Microsoft CRM Integration
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 3%
+source-wordcount: '1118'
+ht-degree: 4%
 
 ---
 
@@ -48,7 +48,6 @@ Campaign Classic:
 > Microsoft Dynamics와 Adobe Campaign을 연결할 때 다음을 수행할 수 없습니다.
 > * CRM의 동작을 변경하고 Adobe Campaign과의 호환성 문제를 초래할 수 있는 플러그인을 설치합니다.
 > * 여러 열거형 선택
-
 
 ## Microsoft Dynamics CRM 구성 {#config-crm-microsoft}
 
@@ -146,6 +145,7 @@ Campaign Classic:
    >[!NOTE]
    >
    >동일한 이름을 사용하면 중복 키 오류가 발생하므로 이 단계가 필요한지 여부가 확인될 때까지 다른 사용자 이름을 사용하여 계속 진행하십시오.
+   >
 
 1. 할당 **애플리케이션 ID** 대상 [이전에 만든 응용 프로그램](#get-client-id-microsoft).
 1. 클릭 **역할 관리** 및 선택 **시스템 관리자** 역할을 사용자에게 부여합니다.

@@ -2,12 +2,12 @@
 product: campaign
 title: 그룹 관리를 사용한 쿼리
 description: 그룹 관리를 사용하여 쿼리를 수행하는 방법에 대해 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Query Editor
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+feature: Query Editor, Workflows
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '258'
 ht-degree: 4%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 4%
 
 * 어떤 테이블을 선택해야 합니까?
 
-   수신자 테이블(nms:recipient)
+  수신자 테이블(nms:recipient)
 
 * 출력 열에서 선택할 필드입니까?
 
-   이메일 도메인 및 기본 키(개수 포함)
+  이메일 도메인 및 기본 키(개수 포함)
 
 * 데이터 그룹화하시겠습니까?
 
-   기본 키 수가 30개를 초과하는 이메일 도메인 기준. 이 작업은 **[!UICONTROL Group by + Having]** 옵션을 선택합니다. **[!UICONTROL Group by + Having]** 데이터를 그룹화(&quot;그룹화 기준&quot;)하고 그룹화된 항목(&quot;있음&quot;)을 선택할 수 있습니다.
+  기본 키 수가 30개를 초과하는 이메일 도메인 기준. 이 작업은 **[!UICONTROL Group by + Having]** 옵션을 선택합니다. **[!UICONTROL Group by + Having]** 데이터를 그룹화(&quot;그룹화 기준&quot;)하고 그룹화된 항목(&quot;있음&quot;)을 선택할 수 있습니다.
 
 이 예제를 만들려면 다음 단계를 적용합니다.
 

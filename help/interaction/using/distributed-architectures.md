@@ -2,14 +2,15 @@
 product: campaign
 title: 분산 아키텍처
 description: 분산 아키텍처
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Interaction, Offers, Architecture
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1018'
 ht-degree: 1%
 
 ---
@@ -81,10 +82,11 @@ ht-degree: 1%
    * 사용된 애플리케이션 유형 확인: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**&#x200B;또는 둘 다.
    * 사용된 FDA 계정을 입력합니다. 연산자는 실행 인스턴스에 만들어야 하며 해당 인스턴스의 데이터베이스에 대해 다음 읽기 및 쓰기 권한이 있어야 합니다.
 
-      ```
-      grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
-      grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
-      ```
+     ```
+     grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
+     grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
+     ```
+
    >[!NOTE]
    >
    >제어 인스턴스의 IP 주소는 실행 인스턴스에서 인증되어야 합니다.
@@ -96,9 +98,9 @@ ht-degree: 1%
    * 실행 인스턴스 목록을 추가합니다.
    * 각각에 대해 동기화 기간 및 필터 기준(예: 국가별)을 지정합니다.
 
-      >[!NOTE]
-      >
-      >오류가 발생하면 동기화 워크플로우 및 오퍼 알림을 참조할 수 있습니다. 애플리케이션의 기술 워크플로우에서 찾을 수 있습니다.
+     >[!NOTE]
+     >
+     >오류가 발생하면 동기화 워크플로우 및 오퍼 알림을 참조할 수 있습니다. 애플리케이션의 기술 워크플로우에서 찾을 수 있습니다.
 
 최적화를 위해 마케팅 데이터베이스의 일부만 실행 인스턴스에 복제되는 경우 환경에 연결된 제한된 스키마를 지정하여 사용자가 실행 인스턴스에서 사용할 수 있는 데이터만 사용할 수 있도록 할 수 있습니다. 실행 인스턴스에서 사용할 수 없는 데이터를 사용하여 오퍼를 만들 수 있습니다. 이렇게 하려면 아웃바운드 채널에서 이 규칙을 제한하여 다른 채널에서 규칙을 비활성화해야 합니다(**[!UICONTROL Taken into account if]** field).
 

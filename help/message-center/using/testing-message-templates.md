@@ -2,14 +2,15 @@
 product: campaign
 title: 트랜잭션 메시지 템플릿 테스트
 description: Adobe Campaign Classic에서 미리 보고 테스트하기 위해 트랜잭션 메시지의 시드 주소를 관리하는 방법을 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Transactional Messaging, Message Center, Templates
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '567'
 ht-degree: 2%
 
 ---

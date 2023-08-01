@@ -2,16 +2,17 @@
 product: campaign
 title: Campaign Classic으로 마이그레이션
 description: 이전 Campaign 버전에서 Campaign Classic으로 마이그레이션하는 방법에 대해 알아봅니다.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: migration
 content-type: reference
 topic-tags: migration-overview
 hide: true
 hidefromtoc: true
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '459'
 ht-degree: 3%
 
 ---

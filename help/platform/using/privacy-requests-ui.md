@@ -2,15 +2,16 @@
 product: campaign
 title: 개인 정보 보호 요청 생성
 description: 개인 정보 보호 요청을 생성하고 관리하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Privacy, Privacy Tools
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 99%
 
 ---
 
@@ -68,7 +69,6 @@ Adobe Campaign은 Delete 또는 Access 개인 정보 보호 요청을 수행할 
 >* 워크플로우를 통한 프로필 삭제는 하위 테이블을 처리하지 않습니다.
 >* 모든 하위 테이블에 대해 삭제를 처리해야 합니다.
 >* Adobe은 개인 정보 액세스 테이블에서 삭제할 행을 추가하고 **[!UICONTROL Delete privacy requests data]** 워크플로우에서 삭제를 수행하도록 하는 ETL 워크플로우를 만들 것을 권장합니다. 성능을 위해 삭제는 하루에 200개의 프로필로 제한하는 것이 좋습니다.
-
 
 ## 개인 정보 보호 요청 상태 {#privacy-request-statuses}
 

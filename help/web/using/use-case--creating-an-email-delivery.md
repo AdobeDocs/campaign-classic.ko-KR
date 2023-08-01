@@ -2,13 +2,13 @@
 product: campaign
 title: 사용 사례 - 이메일 게재 만들기
 description: 사용 사례 - 이메일 게재 만들기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Web Apps, Web Forms, Landing Pages
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -66,55 +66,55 @@ ht-degree: 1%
 
 * 수신자의 이름 및 이름 표시
 
-   수신자의 첫 번째 이름과 두 번째 이름을 게재의 텍스트 필드에 삽입하려면 선택한 텍스트 필드를 클릭한 다음, 표시할 위치에 커서를 놓습니다. 팝업 도구 모음에서 첫 번째 아이콘을 클릭한 다음 을 클릭합니다 **[!UICONTROL Personalization block]**. 선택 **[!UICONTROL Greetings]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL OK]**.
+  수신자의 첫 번째 이름과 두 번째 이름을 게재의 텍스트 필드에 삽입하려면 선택한 텍스트 필드를 클릭한 다음, 표시할 위치에 커서를 놓습니다. 팝업 도구 모음에서 첫 번째 아이콘을 클릭한 다음 을 클릭합니다 **[!UICONTROL Personalization block]**. 선택 **[!UICONTROL Greetings]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL OK]**.
 
-   ![](assets/dce_personalizationblock_greetings.png)
+  ![](assets/dce_personalizationblock_greetings.png)
 
 * 이미지에 링크 삽입
 
-   이미지를 통해 게재 수신자를 외부 주소로 보내려면 관련 이미지를 클릭하여 팝업 도구 모음을 표시하고 첫 번째 아이콘에 커서를 놓고 을 클릭합니다 **[!UICONTROL Link to an external URL]**. 자세한 내용은 다음을 참조하십시오. [링크 추가](editing-content.md#adding-a-link).
+  이미지를 통해 게재 수신자를 외부 주소로 보내려면 관련 이미지를 클릭하여 팝업 도구 모음을 표시하고 첫 번째 아이콘에 커서를 놓고 을 클릭합니다 **[!UICONTROL Link to an external URL]**. 자세한 내용은 다음을 참조하십시오. [링크 추가](editing-content.md#adding-a-link).
 
-   ![](assets/dce_externalpage.png)
+  ![](assets/dce_externalpage.png)
 
-   에 링크의 URL을 입력합니다. **URL** 다음 형식을 사용하는 필드 **https://www.myURL.com**&#x200B;를 클릭한 다음 확인합니다.
+  에 링크의 URL을 입력합니다 **URL** 다음 형식을 사용하는 필드 **https://www.myURL.com**&#x200B;를 클릭한 다음 확인합니다.
 
-   창의 오른쪽에 있는 섹션을 사용하여 언제든지 링크를 변경할 수 있습니다.
+  창의 오른쪽에 있는 섹션을 사용하여 언제든지 링크를 변경할 수 있습니다.
 
 * 텍스트에 링크 삽입
 
-   외부 링크를 게재의 텍스트에 통합하려면 일부 텍스트 또는 텍스트 블록을 선택한 다음 팝업 도구 모음에서 첫 번째 아이콘을 클릭합니다. 클릭 **[!UICONTROL Link to an external URL]**&#x200B;에 링크 주소를 입력합니다. **[!UICONTROL URL]** 필드. 자세한 내용은 다음을 참조하십시오. [링크 추가](editing-content.md#adding-a-link).
+  외부 링크를 게재의 텍스트에 통합하려면 일부 텍스트 또는 텍스트 블록을 선택한 다음 팝업 도구 모음에서 첫 번째 아이콘을 클릭합니다. 클릭 **[!UICONTROL Link to an external URL]**&#x200B;에 링크 주소를 입력합니다. **[!UICONTROL URL]** 필드. 자세한 내용은 다음을 참조하십시오. [링크 추가](editing-content.md#adding-a-link).
 
-   창의 오른쪽에 있는 섹션을 사용하여 언제든지 링크를 변경할 수 있습니다.
+  창의 오른쪽에 있는 섹션을 사용하여 언제든지 링크를 변경할 수 있습니다.
 
-   >[!CAUTION]
-   >
-   >에 입력한 텍스트 **[!UICONTROL Label]** 필드는 원래 텍스트를 대체합니다.
+  >[!CAUTION]
+  >
+  >에 입력한 텍스트 **[!UICONTROL Label]** 필드는 원래 텍스트를 대체합니다.
 
 * 미러 페이지 추가
 
-   수신자가 웹 브라우저에서 게재 콘텐츠를 볼 수 있도록 하기 위해 미러 페이지에 대한 링크를 게재에 통합할 수 있습니다.
+  수신자가 웹 브라우저에서 게재 콘텐츠를 볼 수 있도록 하기 위해 미러 페이지에 대한 링크를 게재에 통합할 수 있습니다.
 
-   게시된 링크를 볼 텍스트 필드를 클릭합니다. 팝업 도구 모음에서 첫 번째 아이콘을 클릭하고 을 선택합니다. **[!UICONTROL Personalization block]**, 그런 다음 **[!UICONTROL Link to Mirror Page (MirrorPage)]**. **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 확인합니다.
+  게시된 링크를 볼 텍스트 필드를 클릭합니다. 팝업 도구 모음에서 첫 번째 아이콘을 클릭하고 을 선택합니다. **[!UICONTROL Personalization block]**, 그런 다음 **[!UICONTROL Link to Mirror Page (MirrorPage)]**. **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 확인합니다.
 
-   ![](assets/dce_mirrorpage.png)
+  ![](assets/dce_mirrorpage.png)
 
-   >[!CAUTION]
-   >
-   >개인화 블록 레이블은 게재의 원래 텍스트를 자동으로 대체합니다.
+  >[!CAUTION]
+  >
+  >개인화 블록 레이블은 게재의 원래 텍스트를 자동으로 대체합니다.
 
 * 웹 애플리케이션에 링크 통합
 
-   디지털 콘텐츠 편집기를 사용하면 Adobe Campaign 콘솔에서 웹 애플리케이션(예: 랜딩 페이지 또는 양식 페이지)에 대한 링크를 통합할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [웹 애플리케이션에 대한 링크](editing-content.md#link-to-a-web-application).
+  디지털 콘텐츠 편집기를 사용하면 Adobe Campaign 콘솔에서 웹 애플리케이션(예: 랜딩 페이지 또는 양식 페이지)에 대한 링크를 통합할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [웹 애플리케이션에 대한 링크](editing-content.md#link-to-a-web-application).
 
-   웹 애플리케이션 링크에 대한 텍스트 필드를 선택한 다음 첫 번째 아이콘을 클릭합니다. 선택 **[!UICONTROL Link to a Web application]**&#x200B;를 클릭한 다음, 의 끝에 있는 아이콘을 클릭하여 원하는 애플리케이션을 선택합니다 **웹 애플리케이션** 필드.
+  웹 애플리케이션 링크에 대한 텍스트 필드를 선택한 다음 첫 번째 아이콘을 클릭합니다. 선택 **[!UICONTROL Link to a Web application]**&#x200B;를 클릭한 다음, 의 끝에 있는 아이콘을 클릭하여 원하는 애플리케이션을 선택합니다 **웹 애플리케이션** 필드.
 
-   ![](assets/dce_webapp.png)
+  ![](assets/dce_webapp.png)
 
-   클릭 **저장** 확인할 수 있습니다.
+  클릭 **저장** 확인할 수 있습니다.
 
-   >[!NOTE]
-   >
-   >이 단계를 수행하려면 먼저 하나 이상의 웹 애플리케이션을 저장해야 합니다. 다음에서 찾을 수 있습니다. **[!UICONTROL Campaigns > Web applications]** 콘솔의 탭.
+  >[!NOTE]
+  >
+  >이 단계를 수행하려면 먼저 하나 이상의 웹 애플리케이션을 저장해야 합니다. 다음에서 찾을 수 있습니다. **[!UICONTROL Campaigns > Web applications]** 콘솔의 탭.
 
 ## 5단계 - 게재 저장 {#step-5---saving-the-delivery}
 

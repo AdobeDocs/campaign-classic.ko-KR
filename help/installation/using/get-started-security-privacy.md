@@ -2,14 +2,15 @@
 product: campaign
 title: 보안 및 개인 정보 보호에 대해 확인할 사항
 description: 보안 및 개인 정보 보호에 대해 확인할 주요 요소에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Privacy, Access Management, Privacy Tools
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '493'
 ht-degree: 7%
 
 ---

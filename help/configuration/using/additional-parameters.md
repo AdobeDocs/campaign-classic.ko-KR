@@ -2,11 +2,12 @@
 product: campaign
 title: 추가 웹 추적 매개 변수
 description: 웹 추적을 위한 매개 변수에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Configuration, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -68,16 +69,16 @@ webTrackingParamSize="64"/>
 * 리디렉션 모듈(Apache, IIS 등)을 호스팅하는 웹 서버를 중지합니다.
 * Adobe Campaign 서버를 중지합니다. **net stop nlserver6** Windows의 경우 **/etc/init.d/nlserver6 중지** Linux에서
 
-   >[!NOTE]
-   >
-   >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl stop nlserver**
+  >[!NOTE]
+  >
+  >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl stop nlserver**
 
 * Linux에서 다음을 사용하여 공유 메모리 세그먼트 삭제 **ipcrm** 명령,
 * Adobe Campaign 서버를 다시 시작합니다. **net start nlserver6** Windows의 경우 **/etc/init.d/nlserver6 시작** Linux에서
 
-   >[!NOTE]
-   >
-   >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
+  >[!NOTE]
+  >
+  >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
 
 * 웹 서버를 다시 시작합니다.
 

@@ -2,14 +2,14 @@
 product: campaign
 title: 콘텐츠 편집기 인터페이스
 description: 콘텐츠 편집기 인터페이스
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Web Apps, Web Forms, Landing Pages
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 3%
+source-wordcount: '545'
+ht-degree: 4%
 
 ---
 
@@ -41,29 +41,29 @@ DCE 편집 창은 세 개의 서로 다른 섹션으로 분류됩니다. 이를 
 
 * 다음 **다른 콘텐츠 선택** 아이콘을 사용하면 템플릿(기존 템플릿 또는 기본 제공 템플릿)에서 새 콘텐츠를 로드할 수 있습니다.
 
-   ![](assets/dce_popup_templatechoice.png)
+  ![](assets/dce_popup_templatechoice.png)
 
-   >[!CAUTION]
-   >
-   >선택한 콘텐츠가 현재 콘텐츠를 대체합니다.
+  >[!CAUTION]
+  >
+  >선택한 콘텐츠가 현재 콘텐츠를 대체합니다.
 
 * 다음 **템플릿으로 저장** 아이콘을 사용하면 현재 콘텐츠를 템플릿으로 저장할 수 있습니다. 템플릿의 레이블과 내부 이름을 입력해야 합니다. 템플릿은에 저장됩니다 **[!UICONTROL Resources > Templates > Content templates]** 노드.
 
-   ![](assets/dce_popup_savetemplate.png)
+  ![](assets/dce_popup_savetemplate.png)
 
-   저장하면 템플릿을 사용할 수 있으며, 새 콘텐츠를 만들 때 선택할 수 있습니다.
+  저장하면 템플릿을 사용할 수 있으며, 새 콘텐츠를 만들 때 선택할 수 있습니다.
 
-   ![](assets/dce_create_fromtemplate.png)
+  ![](assets/dce_create_fromtemplate.png)
 
 * 다음 **페이지 속성** 아이콘을 사용하면 HTML 페이지의 맨 위에서 콘텐츠 정보를 선택할 수 있습니다.
 
-   ![](assets/dce_popup_headerhtml.png)
+  ![](assets/dce_popup_headerhtml.png)
 
-   >[!NOTE]
-   >
-   >이 정보는 **`<title>`** 및 **`<meta>`** HTML에 태그를 추가합니다.
-   >
-   >주요어는 쉼표로 구분해야 한다.
+  >[!NOTE]
+  >
+  >이 정보는 **`<title>`** 및 **`<meta>`** HTML에 태그를 추가합니다.
+  >
+  >주요어는 쉼표로 구분해야 한다.
 
 ## 블록 옵션 {#block-options}
 

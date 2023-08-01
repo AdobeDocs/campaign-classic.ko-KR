@@ -2,14 +2,15 @@
 product: campaign
 title: 서버 구성 파일
 description: 서버 구성 파일
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '7955'
+source-wordcount: '7962'
 ht-degree: 40%
 
 ---
@@ -3141,7 +3142,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> 상태<br /> </td> 
-   <td> 공개 리소스의 동기화 상태(열거)입니다. 가능한 값은 '일반'(일반 실행), '블랙리스트'(오류 404의 경우 url이 차단 목록에 추가됨) 및 '예비'(존재하는 경우 예비 서버에 파일 업로드)입니다.<br /> </td> 
+   <td> 공개 리소스의 동기화 상태(열거)입니다. 가능한 값은 '일반'(일반 실행), '블랙리스트'(오류 404의 경우 url이 차단 목록에 추가하다에 추가됨) 및 '예비'(존재하는 경우 예비 서버에 파일 업로드)입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 표준<br /> </td> 
   </tr> 

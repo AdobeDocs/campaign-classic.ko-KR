@@ -2,14 +2,15 @@
 product: campaign
 title: 비용 제어
 description: 비용 제어 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Resource Management
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2468'
+source-wordcount: '2475'
 ht-degree: 0%
 
 ---
@@ -52,21 +53,21 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 * 새 예산 추가
 
-   다음을 클릭합니다. **[!UICONTROL New]** 아이콘, 이름 및 예산을 저장합니다.
+  다음을 클릭합니다. **[!UICONTROL New]** 아이콘, 이름 및 예산을 저장합니다.
 
 * 초기 금액 입력
 
-   관련 필드에 할당된 금액을 표시합니다. 다른 금액은 자동으로 입력됩니다. 다음을 참조하십시오 [금액 계산](#calculating-amounts).
+  관련 필드에 할당된 금액을 표시합니다. 다른 금액은 자동으로 입력됩니다. 다음을 참조하십시오 [금액 계산](#calculating-amounts).
 
 * 유효 기간 정의
 
-   시작 및 종료 날짜를 지정합니다. 이 정보는 지시용입니다.
+  시작 및 종료 날짜를 지정합니다. 이 정보는 지시용입니다.
 
 * 경비
 
-   캠페인, 작업 등에 대해 이 예산에 할당된 비용에 대한 경비 범주를 만듭니다. 연결할 수 있습니다. 다음을 참조하십시오 [경비 범주](#expense-categories).
+  캠페인, 작업 등에 대해 이 예산에 할당된 비용에 대한 경비 범주를 만듭니다. 연결할 수 있습니다. 다음을 참조하십시오 [경비 범주](#expense-categories).
 
-   ![](assets/s_ncs_user_budget_create_and_save.png)
+  ![](assets/s_ncs_user_budget_create_and_save.png)
 
 >[!NOTE]
 >

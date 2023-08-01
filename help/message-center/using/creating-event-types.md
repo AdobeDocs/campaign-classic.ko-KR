@@ -2,14 +2,15 @@
 product: campaign
 title: 이벤트 유형 만들기
 description: Adobe Campaign Classic에서 보낼 트랜잭션 메시지와 일치하는 이벤트 유형을 만드는 방법을 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Transactional Messaging, Message Center
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 98b7c827-f31d-46a6-a28d-40a78a4b4248
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '176'
 ht-degree: 3%
 
 ---

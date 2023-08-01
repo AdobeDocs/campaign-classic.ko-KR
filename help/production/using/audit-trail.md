@@ -2,12 +2,12 @@
 product: campaign
 title: 감사 추적
 description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Audit Trail, Monitoring
+feature: Audit Trail, Monitoring, Workflows
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '468'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ Adobe Campaign에서 **[!UICONTROL Audit trail]** 는 인스턴스 내에서 수
 
 * **스키마 감사 추적**: 스키마에 대해 수행된 활동 및 마지막 수정 사항을 확인합니다.
 
-   스키마에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../configuration/using/data-schemas.md).
+  스키마에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../configuration/using/data-schemas.md).
 
 * **워크플로우 감사 추적**: 워크플로우에 대해 수행된 활동 및 마지막 수정 사항과 더불어 워크플로우 상태를 확인합니다. 예를 들면 다음과 같습니다.
 
@@ -42,13 +42,13 @@ Adobe Campaign에서 **[!UICONTROL Audit trail]** 는 인스턴스 내에서 수
    * 지금 대기 중인 작업 실행 작업과 동일한 절전 모드 해제
    * 무조건 정지
 
-   워크플로우에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../workflow/using/about-workflows.md).
+  워크플로우에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../workflow/using/about-workflows.md).
 
-   워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [전용 섹션](../../workflow/using/monitoring-workflow-execution.md).
+  워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [전용 섹션](../../workflow/using/monitoring-workflow-execution.md).
 
 * **옵션 감사 추적**: 활동 및 옵션에 대한 마지막 수정 사항을 확인합니다.
 
-   옵션에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../installation/using/configuring-campaign-options.md).
+  옵션에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../installation/using/configuring-campaign-options.md).
 
 ## 감사 추적 액세스 {#accessing-audit-trail}
 

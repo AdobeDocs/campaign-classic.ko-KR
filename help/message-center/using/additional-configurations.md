@@ -2,14 +2,15 @@
 product: campaign
 title: 추가 구성
 description: Adobe Campaign Classic에서 트랜잭션 메시지를 보내는 추가 구성을 설정하는 방법에 대해 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Transactional Messaging, Message Center
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '754'
 ht-degree: 7%
 
 ---
@@ -83,7 +84,7 @@ Once the control and execution modules are installed on the same instance, you m
 * **[!UICONTROL Processing real time events]** (내부 이름: **[!UICONTROL rtEventsProcessing]** ): 이 워크플로우를 사용하면 메시지 템플릿에 연결되기 전에 대기열의 실시간 이벤트를 분류할 수 있습니다.
 * **[!UICONTROL Update event status]** (내부 이름: **[!UICONTROL updateEventStatus]** ): 이 워크플로우를 사용하면 이벤트에 상태를 지정할 수 있습니다.
 
-   다음 이벤트 상태를 사용할 수 있습니다.
+  다음 이벤트 상태를 사용할 수 있습니다.
 
    * **[!UICONTROL Pending]** : 이벤트가 큐에 있습니다. 메시지 템플릿이 아직 할당되지 않았습니다.
    * **[!UICONTROL Pending delivery]** : 이벤트가 큐에 있고 메시지 템플릿이 할당되어 게재에 의해 처리되는 중입니다.

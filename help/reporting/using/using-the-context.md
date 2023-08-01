@@ -2,13 +2,13 @@
 product: campaign
 title: 보고서의 컨텍스트 사용
 description: 보고서에서 컨텍스트를 사용하는 방법을 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Reporting, Monitoring
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 
 
-다음과 같은 형식으로 데이터를 표시하려는 경우 **[!UICONTROL tables]** 또는 **[!UICONTROL charts]**, 다음 두 소스에서 가져올 수 있습니다. 새 쿼리 (참조: [데이터에 대한 직접 필터 정의](#defining-a-direct-filter-on-data)) 또는 보고서 컨텍스트( 참조: [컨텍스트 데이터 사용](#using-context-data)).
+다음과 같은 형식으로 데이터를 표시하려는 경우 **[!UICONTROL tables]** 또는 **[!UICONTROL charts]**, 새 쿼리 (참조)의 두 소스에서 가져올 수 있습니다. [데이터에 대한 직접 필터 정의](#defining-a-direct-filter-on-data)) 또는 보고서 컨텍스트( 참조: [컨텍스트 데이터 사용](#using-context-data)).
 
 ## 데이터에 대한 직접 필터 정의 {#defining-a-direct-filter-on-data}
 

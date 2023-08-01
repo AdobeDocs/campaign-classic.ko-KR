@@ -2,14 +2,15 @@
 product: campaign
 title: teradata 액세스 구성
 description: FDA에서 Teradata에 대한 액세스를 구성하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1767'
 ht-degree: 1%
 
 ---
@@ -40,26 +41,26 @@ Campaign에 연결하려면 Teradata 드라이버를 설치해야 합니다.
 
    * **/etc/odbc.ini**
 
-      ```
-      [ODBC]
-      InstallDir=/etc/
-      ```
+     ```
+     [ODBC]
+     InstallDir=/etc/
+     ```
 
-      &quot;InstallDir&quot;은 **odbcinst.ini** 파일.
+     &quot;InstallDir&quot;은 **odbcinst.ini** 파일.
 
    * **/etc/odbcinst.ini**
 
-      ```
-      [ODBC DRIVERS]
-      teradata=Installed
-      
-      [teradata]
-      Driver=/opt/teradata/client/17.10/lib64/tdataodbc_sb64.so
-      APILevel=CORE
-      ConnectFunctions=YYY
-      DriverODBCVer=3.51
-      SQLLevel=1
-      ```
+     ```
+     [ODBC DRIVERS]
+     teradata=Installed
+     
+     [teradata]
+     Driver=/opt/teradata/client/17.10/lib64/tdataodbc_sb64.so
+     APILevel=CORE
+     ConnectFunctions=YYY
+     DriverODBCVer=3.51
+     SQLLevel=1
+     ```
 
 1. Adobe Campaign 서버의 환경 변수를 지정합니다.
 
@@ -70,6 +71,7 @@ Campaign에 연결하려면 Teradata 드라이버를 설치해야 합니다.
 >[!NOTE]
 >
 >FDA에서 Teradata 외부 데이터베이스에 연결하려면 Adobe Campaign 서버에서 추가 구성 단계가 필요합니다. [자세히 알아보기](#teradata-additional-configurations)
+>
 
 ## Teradata 외부 계정{#teradata-external}
 
@@ -142,7 +144,7 @@ ODBC도 사용하는 다른 외부 계정(예: Snowflake)을 구성하려면 기
 
 연결을 테스트하는 동안 다음 오류가 나타나면 **TIM-030008 날짜 &#39;2&#39;: 누락된 문자(iRc=-53)** odbc 드라이버가 올바르게 설치되어 있고 LD_LIBRARY_PATH(Linux)/PATH(Windows)가 Campaign 서버에 대해 설정되어 있는지 확인하십시오.
 
-오류 **ODB-240000 ODBC 오류: [Microsoft][ODBC Driver Manager] 데이터 원본 이름을 찾을 수 없으며 기본 드라이버가 지정되지 않았습니다.** 16.X 드라이버를 사용하는 경우 Windows에서 발생합니다. Adobe Campaign에서는 teradata의 이름이 odbcinst.ini에서 &#39;{teradata}&#39;이(가) 되어야 합니다.
+오류 **ODB-240000 ODBC 오류: [Microsoft][ODBC Driver Manager] 데이터 원본 이름을 찾을 수 없으며 기본 드라이버가 지정되지 않았습니다.** 16.X 드라이버를 사용하는 경우 Windows에서 발생합니다. Adobe Campaign에서는 teradata 이름이 &#39; &#39;으로 지정될 것으로 예상합니다.{teradata}odbcinst.ini의 &#39;
 
 * Campaign 18.10부터 외부 계정의 옵션에 ODBCDriverName=&quot;Teradata 데이터베이스 ODBC 드라이버 16.10&quot;을 추가할 수 있습니다. 버전 번호는 변경될 수 있으며, 정확한 이름은 odbcad32.exe를 실행하고 드라이버 탭에 액세스하여 찾을 수 있습니다.
 

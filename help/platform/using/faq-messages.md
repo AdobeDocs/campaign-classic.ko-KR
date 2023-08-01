@@ -2,15 +2,16 @@
 product: campaign
 title: 테스트 및 보내기 FAQ
 description: Campaign Classic FAQ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Troubleshooting
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 98%
+source-wordcount: '742'
+ht-degree: 97%
 
 ---
 

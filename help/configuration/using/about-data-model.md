@@ -2,12 +2,12 @@
 product: campaign
 title: Campaign Classic 데이터 모델 시작
 description: Campaign 데이터 모델을 확장하거나 스키마를 편집하고 API를 사용하는 방법을 알아보십시오.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Data Model
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+feature: Data Model, Configuration
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '987'
 ht-degree: 6%
 
 ---
@@ -112,7 +112,7 @@ Adobe Campaign 데이터 모델을 디자인할 때 [기본 제공 수신자 테
 
 * **각 테이블에 대한 전체 설명** - 각 테이블에 대한 전체 설명에 액세스하려면 **[!UICONTROL Admin > Configuration > Data schemas]**&#x200B;목록에서 리소스를 선택하고 **[!UICONTROL Documentation]** 탭.
 
-   ![](assets/data-model_documentation-tab.png)
+  ![](assets/data-model_documentation-tab.png)
 
 
 * **Campaign 스키마** - 애플리케이션에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. 스키마라고 하는 Adobe Campaign에 특정된 문법을 따릅니다. Adobe Campaign 스키마에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../configuration/using/about-schema-reference.md).

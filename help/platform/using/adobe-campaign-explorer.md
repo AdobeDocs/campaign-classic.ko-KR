@@ -2,15 +2,16 @@
 product: campaign
 title: Adobe Campaign 탐색기 사용
 description: Campaign 탐색기 사용 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Overview
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 1%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
@@ -50,24 +51,24 @@ Campaign 탐색 트리를 구성하는 방법 알아보기 [이 섹션에서](..
 
 * **기본 제공 폴더 사용**
 
-   기본 제공 폴더를 사용하면 프로젝트에 관여하지 않는 사람들이 응용 프로그램을 쉽게 사용하고 유지 관리하며 문제를 해결할 수 있습니다. 수신자, 목록, 게재 등에 대한 사용자 정의 폴더 구조를 만들지 않고 관리, 프로필 및 Target, 캠페인 관리와 같은 표준 폴더를 사용해야 합니다.
+  기본 제공 폴더를 사용하면 프로젝트에 관여하지 않는 사람들이 응용 프로그램을 쉽게 사용하고 유지 관리하며 문제를 해결할 수 있습니다. 수신자, 목록, 게재 등에 대한 사용자 정의 폴더 구조를 만들지 않고 관리, 프로필 및 Target, 캠페인 관리와 같은 표준 폴더를 사용해야 합니다.
 
 * **하위 폴더 만들기**
 
-   기술 워크플로우를 표준 폴더(관리/프로덕션/기술 워크플로우)에 배치하고 워크플로우 유형별로 하위 디렉토리를 만듭니다.
+  기술 워크플로우를 표준 폴더(관리/프로덕션/기술 워크플로우)에 배치하고 워크플로우 유형별로 하위 디렉토리를 만듭니다.
 
 * **명명 규칙 설정**
 
-   예를 들어 실행 순서에 따라 정렬되어 표시되도록 워크플로의 이름을 알파벳 순서로 지정할 수 있습니다.
+  예를 들어 실행 순서에 따라 정렬되어 표시되도록 워크플로의 이름을 알파벳 순서로 지정할 수 있습니다.
 
-   예제:
+  예제:
 
    * A1 - 수신자 가져오기, 10:00에 시작;
    * A2 - 11:00에 시작하는 티켓 가져오기.
 
 * **시작할 사용자를 위한 템플릿 만들기**
 
-   사용자 고유의 게재 템플릿, 워크플로우 템플릿, 캠페인 템플릿을 만듭니다. 이 구조를 사용하면 시간을 절약하고 각 사용자에게 적합한 게재 매핑 및 유형화를 사용할 수 있습니다.
+  사용자 고유의 게재 템플릿, 워크플로우 템플릿, 캠페인 템플릿을 만듭니다. 이 구조를 사용하면 시간을 절약하고 각 사용자에게 적합한 게재 매핑 및 유형화를 사용할 수 있습니다.
 
 ## 화면 해상도 {#screen-resolution}
 

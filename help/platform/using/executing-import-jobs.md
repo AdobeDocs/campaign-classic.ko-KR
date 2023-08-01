@@ -2,15 +2,16 @@
 product: campaign
 title: 가져오기 작업 구성
 description: Campaign에서 가져오기 작업을 구성하고 실행하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Overview
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2966'
 ht-degree: 1%
 
 ---
@@ -75,27 +76,27 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
    * **[!UICONTROL Stop execution if there are too many rejects]**
 
-      이 옵션은 기본적으로 선택되어 있습니다. 거부의 수에 관계없이 가져오기를 계속 실행하려면 가져오기의 선택을 해제할 수 있습니다. 기본적으로 처음 100개 행이 거부되면 실행이 중지됩니다.
+     이 옵션은 기본적으로 선택되어 있습니다. 거부 수에 관계없이 가져오기를 계속 실행하려면 가져오기를 선택 해제할 수 있습니다. 기본적으로 처음 100개 행이 거부되면 실행이 중지됩니다.
 
    * **[!UICONTROL Trace mode]**
 
-      각 라인에 대한 가져오기 실행을 추적하려면 이 옵션을 선택합니다.
+     각 라인에 대한 가져오기 실행을 추적하려면 이 옵션을 선택합니다.
 
    * **[!UICONTROL Start the job in a detached process]**
 
-      이 옵션은 기본적으로 선택되어 있습니다. 가져오기 실행을 분리하여 데이터베이스에서 진행 중인 다른 작업에 영향을 주지 않도록 할 수 있습니다.
+     이 옵션은 기본적으로 선택되어 있습니다. 가져오기 실행을 분리하여 데이터베이스에서 진행 중인 다른 작업에 영향을 주지 않도록 할 수 있습니다.
 
    * **[!UICONTROL Do not update enumerations]**
 
-      데이터베이스에 열거형 값 목록이 보강되지 않도록 하려면 이 옵션을 선택합니다. 다음을 참조하십시오 [열거형 관리](../../platform/using/managing-enumerations.md).
+     데이터베이스에 열거형 값 목록이 보강되지 않도록 하려면 이 옵션을 선택합니다. 다음을 참조하십시오 [열거형 관리](../../platform/using/managing-enumerations.md).
 
 * **[!UICONTROL Variables]** 탭
 
-   쿼리 편집기 및 계산된 필드에서 액세스할 수 있는 작업과 관련된 변수를 정의할 수 있습니다. 변수를 만들려면 **[!UICONTROL Add]** 변수 편집기를 사용하십시오.
+  쿼리 편집기 및 계산된 필드에서 액세스할 수 있는 작업과 관련된 변수를 정의할 수 있습니다. 변수를 만들려면 **[!UICONTROL Add]** 변수 편집기를 사용하십시오.
 
-   >[!IMPORTANT]
-   >
-   >다음 **[!UICONTROL Variables]** 탭은 워크플로 유형 프로그래밍 전용이며 전문가 사용자만 구성해야 합니다.
+  >[!IMPORTANT]
+  >
+  >다음 **[!UICONTROL Variables]** 탭은 워크플로 유형 프로그래밍 전용이며 전문가 사용자만 구성해야 합니다.
 
 ## 2단계 - 소스 파일 선택 {#step-2---source-file-selection}
 
@@ -138,21 +139,21 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 * 다음 **[!UICONTROL Destination schema]** 필드를 사용하면 데이터를 가져올 스키마를 선택할 수 있습니다. 이 정보는 필수입니다. 다음을 클릭합니다. **[!UICONTROL Select link]** 아이콘 - 기존 스키마 중 하나를 선택합니다. 클릭 **[!UICONTROL Edit link]** 을 눌러 선택한 테이블의 내용을 표시합니다.
 * 중앙 테이블에는 소스 파일에 정의된 모든 필드가 표시됩니다. 대상 파일을 연결하려면 가져올 필드를 선택하십시오. 이러한 필드는 수동 또는 자동으로 매핑할 수 있습니다.
 
-   필드를 수동으로 매핑하려면 확인란을 클릭하여 소스 필드를 선택하고 두 번째 열을 클릭하여 선택한 필드에 해당하는 셀을 활성화합니다. 그런 다음 **[!UICONTROL Edit expression]** 아이콘: 현재 테이블의 모든 필드를 표시합니다. 대상 필드를 선택하고 **[!UICONTROL OK]** 을 클릭하여 매핑의 유효성을 검사합니다.
+  필드를 수동으로 매핑하려면 확인란을 클릭하여 소스 필드를 선택하고 두 번째 열을 클릭하여 선택한 필드에 해당하는 셀을 활성화합니다. 그런 다음 **[!UICONTROL Edit expression]** 아이콘: 현재 테이블의 모든 필드를 표시합니다. 대상 필드를 선택하고 **[!UICONTROL OK]** 을 클릭하여 매핑의 유효성을 검사합니다.
 
-   소스 필드와 대상 필드를 자동으로 연결하려면 **[!UICONTROL Guess the destination fields]** 필드 목록 오른쪽에 있는 아이콘. 필요한 경우 제안된 필드를 수정할 수 있습니다.
+  소스 필드와 대상 필드를 자동으로 연결하려면 **[!UICONTROL Guess the destination fields]** 필드 목록 오른쪽에 있는 아이콘. 필요한 경우 제안된 필드를 수정할 수 있습니다.
 
-   >[!IMPORTANT]
-   >
-   >다음 단계로 진행하기 전에 이 작업의 결과를 항상 확인해야 합니다.
+  >[!IMPORTANT]
+  >
+  >다음 단계로 진행하기 전에 이 작업의 결과를 항상 확인해야 합니다.
 
 * 가져온 필드에 변형을 적용할 수 있습니다. 이렇게 하려면 셀의 을 클릭합니다. **[!UICONTROL Transformation]** 관련 필드와 관련된 열을 선택한 다음 적용할 변형을 선택합니다.
 
-   ![](assets/s_ncs_user_import_wizard03_2.png)
+  ![](assets/s_ncs_user_import_wizard03_2.png)
 
-   >[!IMPORTANT]
-   >
-   >가져오기를 수행할 때 변환이 적용됩니다. 그러나 대상 필드에 대한 제약 조건이 정의된 경우(위의 예에서 @lastname 필드에서) 이러한 제약 조건이 우선합니다.
+  >[!IMPORTANT]
+  >
+  >가져오기를 수행할 때 변환이 적용됩니다. 그러나 대상 필드에 대한 제약 조건이 정의된 경우(위의 예에서 @lastname 필드에서) 이러한 제약 조건이 우선합니다.
 
 * 중앙 테이블의 오른쪽에 있는 적절한 아이콘을 사용하여 계산된 필드를 추가할 수 있습니다. 계산된 필드를 사용하면 복잡한 변환을 수행하거나 가상 열을 추가하거나 여러 열의 데이터를 병합할 수 있습니다. 다양한 가능성에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
@@ -167,11 +168,11 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 * **[!UICONTROL JavaScript expression]**: 계산된 필드의 값은 JavaScript 함수의 평가 결과입니다. 반환되는 값은 숫자, 날짜 등이 될 수 있습니다.
 * **[!UICONTROL Enumeration]**: 필드의 값은 소스 파일에 포함된 값에 따라 달라집니다. 편집기를 사용하면 다음 예제와 같이 소스 열을 지정하고 열거형 값 목록을 입력할 수 있습니다.
 
-   ![](assets/s_ncs_user_import_wizard03_3.png)
+  ![](assets/s_ncs_user_import_wizard03_3.png)
 
-   다음 **[!UICONTROL Preview]** 탭에서는 정의된 구성의 결과를 볼 수 있습니다. 여기, **[!UICONTROL Subscription]** 열이 추가되었습니다. 값은 **상태** 필드.
+  다음 **[!UICONTROL Preview]** 탭에서는 정의된 구성의 결과를 볼 수 있습니다. 여기, **[!UICONTROL Subscription]** 열이 추가되었습니다. 값은 **상태** 필드.
 
-   ![](assets/s_ncs_user_import_wizard03_4.png)
+  ![](assets/s_ncs_user_import_wizard03_4.png)
 
 ## 4단계 - 조정 {#step-4---reconciliation}
 
@@ -267,7 +268,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 * **[!UICONTROL Reject parent element]**: 오류를 일으킨 필드뿐만 아니라 레코드의 전체 줄도 거부됩니다.
 * **[!UICONTROL Reject all elements]**: 가져오기가 중지되고 레코드의 모든 요소가 거부됩니다.
 
-   ![](assets/s_ncs_user_import_wizard04_4.png)
+  ![](assets/s_ncs_user_import_wizard04_4.png)
 
 가져오기 인스턴스의 거부 화면에 있는 트리는 거부된 필드와 오류가 발생한 위치를 나타냅니다.
 

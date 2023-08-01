@@ -2,14 +2,14 @@
 product: campaign
 title: URL 추적 옵션 구성
 description: URL 추적 옵션을 구성하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Monitoring, Email Design
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Monitoring, Email Design, Personalization
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 9%
+source-wordcount: '179'
+ht-degree: 10%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 9%
 
 * 모든 메시지에 대한 URL 추적을 활성화/비활성화합니다.
 
-   >[!CAUTION]
-   >
-   >게재 시 추적이 활성화되지 않은 경우(예: **[!UICONTROL Activate tracking]** 옵션이 선택되지 않음), 추적과 관련된 보고서 및 데이터를 사용할 수 없음: 열림, 핫 클릭 및 추적된 URL 보고서에는 데이터가 표시되지 않습니다. **[!UICONTROL Tracking logs]** 이 게재에 대한 탭이 표시되지 않습니다.
+  >[!CAUTION]
+  >
+  >게재 시 추적이 활성화되지 않은 경우(예: **[!UICONTROL Activate tracking]** 옵션이 선택되지 않음), 추적과 관련된 보고서 및 데이터를 사용할 수 없음: 열림, 핫 클릭 및 추적된 URL 보고서에는 데이터가 표시되지 않습니다. **[!UICONTROL Tracking logs]** 이 게재에 대한 탭이 표시되지 않습니다.
 
 * 메시지 열기에 대한 추적 활성화/비활성화
 

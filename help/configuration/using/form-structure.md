@@ -2,12 +2,13 @@
 product: campaign
 title: 양식 구조
 description: 양식 구조
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Application Settings
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2397'
 ht-degree: 0%
 
 ---
@@ -129,7 +130,7 @@ A **`<static>`** 요소를 사용하여 입력 양식 서식을 지정할 수 �
 </form>
 ```
 
-다음 **`<static>`** 을 사용하여 태그 지정 **분리자** 유형을 사용하면 레이블이있는 구분자를 추가할 수 있습니다 **레이블** 특성.
+다음 **`<static>`** 을 사용하여 태그 지정 **분리자** 유형을 사용하면 레이블이있는 구분자를 추가할 수 있습니다. **레이블** 특성.
 
 다음을 사용하여 도움말 텍스트가 추가되었습니다. `<static>` 도움말 유형이 포함된 태그. 텍스트 컨텐트가에 입력됩니다. **레이블** 특성.
 

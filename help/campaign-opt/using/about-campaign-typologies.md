@@ -2,12 +2,12 @@
 product: campaign
 title: 캠페인 유형 분류 정보
 description: 캠페인 유형 분류 정보
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Typology Rules
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+feature: Typology Rules, Campaigns
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '475'
 ht-degree: 21%
 
 ---

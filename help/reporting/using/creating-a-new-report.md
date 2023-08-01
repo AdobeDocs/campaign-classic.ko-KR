@@ -2,9 +2,9 @@
 product: campaign
 title: 새 보고서 만들기
 description: 새 보고서를 만드는 주요 단계 알아보기
-feature: Reporting
+feature: Reporting, Monitoring
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 1%
@@ -145,15 +145,15 @@ A **[!UICONTROL Page]** 에는 다음 요소가 포함될 수 있습니다.
 
 * 라디오 단추 또는 확인란을 통해:
 
-   ![](assets/reporting_radio_buttons.png)
+  ![](assets/reporting_radio_buttons.png)
 
 * 드롭다운 목록을 통해:
 
-   ![](assets/reporting_control_list.png)
+  ![](assets/reporting_control_list.png)
 
 * 달력을 통해:
 
-   ![](assets/reporting_control_date.png)
+  ![](assets/reporting_control_date.png)
 
 마지막으로, 하나 이상의 고급 컨트롤을 보고서에 통합할 수 있습니다. 이러한 유형의 컨트롤을 사용하면 링크, 상수를 삽입하거나 폴더를 선택할 수 있습니다.
 

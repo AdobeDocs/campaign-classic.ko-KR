@@ -2,13 +2,13 @@
 product: campaign
 title: 보고서에 대한 작업
 description: 보고서에 대한 작업
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+feature: Reporting, Monitoring
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '555'
 ht-degree: 3%
 
 ---
@@ -47,11 +47,11 @@ ht-degree: 3%
 
 * 이러한 보고서에는 빈 줄이 없어야 합니다.
 
-   ![](assets/export_limitations_remove_empty_line.png)
+  ![](assets/export_limitations_remove_empty_line.png)
 
 * 목록의 범례는 숨겨야 합니다.
 
-   ![](assets/export_limitations_hide_label.png)
+  ![](assets/export_limitations_hide_label.png)
 
 * 보고서는 셀 수준에서 정의된 특정 서식을 사용할 필요가 없습니다. 사용하는 것이 바람직하다 **[!UICONTROL Form rendering]** 를 클릭하여 표에 있는 셀의 형식을 정의합니다. 다음 **[!UICONTROL Form rendering]** 을 통해 액세스할 수 있음 **[!UICONTROL Administration > Configuration > Form rendering]**.
 * HTML 콘텐츠는 삽입하지 않는 것이 좋습니다.

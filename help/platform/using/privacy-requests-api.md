@@ -2,15 +2,16 @@
 product: campaign
 title: 자동 개인 정보 보호 요청 프로세스
 description: 자동 개인 정보 요청 프로세스를 설정하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Privacy, Privacy Tools
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: a93bac61-f615-4178-bc12-0f056e48687d
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 100%
+source-wordcount: '659'
+ht-degree: 99%
 
 ---
 
@@ -96,87 +97,87 @@ API를 사용하여 개인 정보 보호 요청을 제출하는 경우 반환된
 
 * **이전 빌드(GDPR 패키지 포함)를 사용**&#x200B;하는 경우 아래와 같이 &#39;규정&#39; 필드 없이 API를 계속 사용할 수 있습니다.
 
-   ```
-   loadLibrary("nms:gdpr.js");
-   /**************************** 
-   This code calls an API to create new Privacy request on the DB.
-   It requires 4 parameters below.
-   Feel free to change parameter values.
-   ****************************/
-   // 1. Namespace internal name
-   var namespaceName = "defaultNamespace1";
-   // 2. Reconciliation value for privacy request
-   var reconciliationValue = "example@adobe.com";
-   // 3. Privacy request type
-   // GDPR_REQUEST_TYPE_ACCESS = 1;
-   // GDPR_REQUEST_TYPE_DELETE = 2;
-   var requestType = GDPR_REQUEST_TYPE_ACCESS;
-   // 4. Confirm deleting data required.
-   // value : true or false
-   var ConfirmDeletePending = true;
-   // BEGIN
-   var requestId = nms.privacyRequest.CreateRequestByName(namespaceName, reconciliationValue, requestType, ConfirmDeletePending);
-   // User can use a simple queryDef with requestID as a parameter to check request status.
-   ```
+  ```
+  loadLibrary("nms:gdpr.js");
+  /**************************** 
+  This code calls an API to create new Privacy request on the DB.
+  It requires 4 parameters below.
+  Feel free to change parameter values.
+  ****************************/
+  // 1. Namespace internal name
+  var namespaceName = "defaultNamespace1";
+  // 2. Reconciliation value for privacy request
+  var reconciliationValue = "example@adobe.com";
+  // 3. Privacy request type
+  // GDPR_REQUEST_TYPE_ACCESS = 1;
+  // GDPR_REQUEST_TYPE_DELETE = 2;
+  var requestType = GDPR_REQUEST_TYPE_ACCESS;
+  // 4. Confirm deleting data required.
+  // value : true or false
+  var ConfirmDeletePending = true;
+  // BEGIN
+  var requestId = nms.privacyRequest.CreateRequestByName(namespaceName, reconciliationValue, requestType, ConfirmDeletePending);
+  // User can use a simple queryDef with requestID as a parameter to check request status.
+  ```
 
 * **20.2로 마이그레이션**&#x200B;하고 있고 API를 이미 사용하고 있는 경우 아래와 같이 &#39;규정&#39; 필드를 추가해야 합니다.
 
-   ```
-   loadLibrary("nms:gdpr.js");
-   /**************************** 
-   This code calls an API to create new Privacy request on the DB.
-   It requires 5 parameters below.
-   Feel free to change parameter values.
-   ****************************/
-   // 1. Namespace internal name
-   var namespaceName = "defaultNamespace1";
-   // 2. Reconciliation value for privacy request
-   var reconciliationValue = "example@adobe.com";
-   // 3. Privacy request type
-   // PRIVACY_REQUEST_TYPE_ACCESS = 1;
-   // PRIVACY_REQUEST_TYPE_DELETE = 2;
-   var requestType = PRIVACY_REQUEST_TYPE_ACCESS;
-   // 4. Confirm deleting data required.
-   // value : true or false
-   var ConfirmDeletePending = true;
-   // 5. Specify which regulation applies to newly created request. This is mandatory parameter.
-   // GDPR = 1
-   // CCPA = 2
-   // PDPA = 3
-   // LGPD = 4
-   var regulation = 1;
-   // BEGIN
-   var requestId = nms.privacyRequest.CreateRequestByName(namespaceName, reconciliationValue, requestType, ConfirmDeletePending, regulation);
-   // User can use a simple queryDef with requestID as a parameter to check request status.
-   ```
+  ```
+  loadLibrary("nms:gdpr.js");
+  /**************************** 
+  This code calls an API to create new Privacy request on the DB.
+  It requires 5 parameters below.
+  Feel free to change parameter values.
+  ****************************/
+  // 1. Namespace internal name
+  var namespaceName = "defaultNamespace1";
+  // 2. Reconciliation value for privacy request
+  var reconciliationValue = "example@adobe.com";
+  // 3. Privacy request type
+  // PRIVACY_REQUEST_TYPE_ACCESS = 1;
+  // PRIVACY_REQUEST_TYPE_DELETE = 2;
+  var requestType = PRIVACY_REQUEST_TYPE_ACCESS;
+  // 4. Confirm deleting data required.
+  // value : true or false
+  var ConfirmDeletePending = true;
+  // 5. Specify which regulation applies to newly created request. This is mandatory parameter.
+  // GDPR = 1
+  // CCPA = 2
+  // PDPA = 3
+  // LGPD = 4
+  var regulation = 1;
+  // BEGIN
+  var requestId = nms.privacyRequest.CreateRequestByName(namespaceName, reconciliationValue, requestType, ConfirmDeletePending, regulation);
+  // User can use a simple queryDef with requestID as a parameter to check request status.
+  ```
 
 * **Campaign Classic 20.2(빌드 9178+) 또는 상위 빌드를 사용**&#x200B;하는 경우 다음과 같이 &#39;규정&#39; 필드는 선택 사항입니다.
 
-   ```
-   loadLibrary("nms:gdpr.js");
-   /**************************** 
-   This code calls an API to create new Privacy request on the DB.
-   It requires 5 parameters below.
-   Feel free to change parameter values 
-   ****************************/
-   // 1. Namespace internal name
-   var namespaceName = "defaultNamespace1";
-   // 2. Reconciliation value for privacy request
-   var reconciliationValue = "example@adobe.com";
-   // 3. Privacy request type
-   // PRIVACY_REQUEST_TYPE_ACCESS = 1;
-   // PRIVACY_REQUEST_TYPE_DELETE = 2;
-   var requestType = PRIVACY_REQUEST_TYPE_ACCESS;
-   // 4. Confirm deleting data required.
-   // value : true or false
-   var ConfirmDeletePending = true;
-   // 5. Specify which regulation applies to newly created request. This is optional parameter.
-   // GDPR = 1
-   // CCPA = 2
-   // PDPA = 3
-   // LGPD = 4
-   var regulation = 1;
-   // BEGIN
-   var requestId = nms.privacyRequest.CreateRequestByName(namespaceName, reconciliationValue, requestType, ConfirmDeletePending, regulation);
-   // User can use a simple queryDef with requestID as a parameter to check request status.
-   ```
+  ```
+  loadLibrary("nms:gdpr.js");
+  /**************************** 
+  This code calls an API to create new Privacy request on the DB.
+  It requires 5 parameters below.
+  Feel free to change parameter values 
+  ****************************/
+  // 1. Namespace internal name
+  var namespaceName = "defaultNamespace1";
+  // 2. Reconciliation value for privacy request
+  var reconciliationValue = "example@adobe.com";
+  // 3. Privacy request type
+  // PRIVACY_REQUEST_TYPE_ACCESS = 1;
+  // PRIVACY_REQUEST_TYPE_DELETE = 2;
+  var requestType = PRIVACY_REQUEST_TYPE_ACCESS;
+  // 4. Confirm deleting data required.
+  // value : true or false
+  var ConfirmDeletePending = true;
+  // 5. Specify which regulation applies to newly created request. This is optional parameter.
+  // GDPR = 1
+  // CCPA = 2
+  // PDPA = 3
+  // LGPD = 4
+  var regulation = 1;
+  // BEGIN
+  var requestId = nms.privacyRequest.CreateRequestByName(namespaceName, reconciliationValue, requestType, ConfirmDeletePending, regulation);
+  // User can use a simple queryDef with requestID as a parameter to check request status.
+  ```

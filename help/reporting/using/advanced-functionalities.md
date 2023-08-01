@@ -2,13 +2,13 @@
 product: campaign
 title: 고급 기능
 description: 보고서 작업 시 고급 기능에 대해 자세히 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+feature: Reporting, Monitoring
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '612'
 ht-degree: 4%
 
 ---

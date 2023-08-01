@@ -2,13 +2,13 @@
 product: campaign
 title: 활용 사례
 description: 사용 사례 보고
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Reporting, Monitoring
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
@@ -194,15 +194,15 @@ ht-degree: 0%
 
 * 전환을 대상 활동에서 분리하고 워크플로우를 시작하여 활성화하십시오. 전환이 깜박이기 시작하면 일반적인 방법으로 마법사를 시작합니다.
 
-   ![](assets/s_ncs_user_report_wizard_018.png)
+  ![](assets/s_ncs_user_report_wizard_018.png)
 
 * 다음을 선택하여 워크플로우의 속성을 수정합니다. **[!UICONTROL Keep the result of interim populations between two executions]** 옵션을 선택합니다. 이를 통해 워크플로우가 완료된 경우에도 선택한 전환에 대한 분석을 시작할 수 있습니다.
 
-   ![](assets/s_ncs_user_report_wizard_020.png)
+  ![](assets/s_ncs_user_report_wizard_020.png)
 
-   전환에서 모집단을 삭제한 경우 설명 분석 마법사를 시작하기 전에 관련 옵션을 선택하라는 오류 메시지가 표시됩니다.
+  전환에서 모집단을 삭제한 경우 설명 분석 마법사를 시작하기 전에 관련 옵션을 선택하라는 오류 메시지가 표시됩니다.
 
-   ![](assets/s_ncs_user_report_wizard_019.png)
+  ![](assets/s_ncs_user_report_wizard_019.png)
 
 >[!CAUTION]
 >

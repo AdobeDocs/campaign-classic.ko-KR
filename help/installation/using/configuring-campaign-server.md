@@ -2,15 +2,16 @@
 product: campaign
 title: Campaign 서버 구성
 description: Campaign 서버 구성
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1603'
 ht-degree: 3%
 
 ---
@@ -95,35 +96,35 @@ Confirmation: XXXX
 
 * **다중 인스턴스**: 모든 인스턴스에 대해 하나의 단일 프로세스가 시작됩니다. 이 예는 다음과 같습니다. **웹**, **syslogd** 및 **trackinglogd** 프로세스.
 
-   활성화는 다음에서 구성할 수 있습니다. **config-default.xml** 파일.
+  활성화는 다음에서 구성할 수 있습니다. **config-default.xml** 파일.
 
-   클라이언트 콘솔에 액세스하고 리디렉션(추적)을 위해 Adobe Campaign 서버 선언:
+  클라이언트 콘솔에 액세스하고 리디렉션(추적)을 위해 Adobe Campaign 서버 선언:
 
-   ```
-   vi nl6/conf/config-default.xml
-   <web args="-tomcat" autoStart="true"/>  
-   <!-- to start if the machine is also a redirection server -->  
-   <trackinglogd autoStart="true"/>
-   ```
+  ```
+  vi nl6/conf/config-default.xml
+  <web args="-tomcat" autoStart="true"/>  
+  <!-- to start if the machine is also a redirection server -->  
+  <trackinglogd autoStart="true"/>
+  ```
 
-   이 예제에서 파일은 **vi** linux의 명령. 다음을 사용하여 편집할 수 있습니다. **.txt** 또는 **.xml** 편집자.
+  이 예제에서 파일은 **vi** linux의 명령. 다음을 사용하여 편집할 수 있습니다. **.txt** 또는 **.xml** 편집자.
 
 * **모노 인스턴스**: 각 인스턴스에 대해 하나의 프로세스가 시작됩니다(모듈: **mta**, **wfserver**, **inMail**, **sms** 및 **통계**).
 
-   인스턴스의 구성 파일을 사용하여 활성화를 구성할 수 있습니다.
+  인스턴스의 구성 파일을 사용하여 활성화를 구성할 수 있습니다.
 
-   ```
-   config-<instance>.xml
-   ```
+  ```
+  config-<instance>.xml
+  ```
 
-   게재를 위한 서버 선언, 워크플로우 인스턴스 실행 및 바운스 메일 복구:
+  게재를 위한 서버 선언, 워크플로우 인스턴스 실행 및 바운스 메일 복구:
 
-   ```
-   <mta autoStart="true" statServerAddress="localhost"/>
-   <wfserver autoStart="true"/>  
-   <inMail autoStart="true"/>
-   <stat autoStart="true"/>
-   ```
+  ```
+  <mta autoStart="true" statServerAddress="localhost"/>
+  <wfserver autoStart="true"/>  
+  <inMail autoStart="true"/>
+  <stat autoStart="true"/>
+  ```
 
 **Campaign 데이터 저장소**
 
@@ -131,13 +132,13 @@ Confirmation: XXXX
 
 * Windows에서는 **XTK_VAR_DIR** 시스템 변수
 
-   ```
-   D:\log\AdobeCampaign
-   ```
+  ```
+  D:\log\AdobeCampaign
+  ```
 
 * Linux에서 **customer.sh** 파일 및 표시: **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
 
-   자세한 내용은 다음을 참조하십시오. [매개 변수 개인화](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
+  자세한 내용은 다음을 참조하십시오. [매개 변수 개인화](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
 
 
 ## 다이내믹 페이지 보안 및 릴레이 {#dynamic-page-security-and-relays}

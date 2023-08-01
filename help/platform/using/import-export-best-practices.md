@@ -2,16 +2,17 @@
 product: campaign
 title: 가져오기 및 내보내기 모범 사례
 description: 데이터를 가져오거나 내보낼 때 따라야 할 모범 사례에 대해 자세히 알아보십시오
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Data Management
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 2%
+source-wordcount: '523'
+ht-degree: 3%
 
 ---
 

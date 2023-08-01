@@ -2,14 +2,15 @@
 product: campaign
 title: 표준 배포
 description: 표준 배포
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Architecture, Deployment
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '839'
 ht-degree: 3%
 
 ---
@@ -89,19 +90,20 @@ Adobe Campaign 애플리케이션 서버에서 데이터베이스를 생성할 �
 
    * 콘솔을 통해 인스턴스를 만듭니다.
 
-      ![](assets/install_create_new_connexion.png)
+     ![](assets/install_create_new_connexion.png)
 
-      자세한 내용은 다음을 참조하십시오. [인스턴스 만들기 및 로그온](../../installation/using/creating-an-instance-and-logging-on.md).
+     자세한 내용은 다음을 참조하십시오. [인스턴스 만들기 및 로그온](../../installation/using/creating-an-instance-and-logging-on.md).
 
-      또는
+     또는
 
    * 명령줄을 사용하여 인스턴스를 생성합니다.
 
-      ```
-      nlserver config -addinstance:demo/tracking.campaign.net*
-      ```
+     ```
+     nlserver config -addinstance:demo/tracking.campaign.net*
+     ```
 
-      자세한 내용은 다음을 참조하십시오. [인스턴스 만들기](../../installation/using/command-lines.md#creating-an-instance).
+     자세한 내용은 다음을 참조하십시오. [인스턴스 만들기](../../installation/using/command-lines.md#creating-an-instance).
+
    인스턴스 이름은 애플리케이션 서버의 이름과 같습니다.
 
    를 사용하여 서버에 연결 **nlserver 웹** 로드 밸런서의 URL(tracking.campaign.net)에서 모듈(미러 페이지, 구독 취소)을 만듭니다.
@@ -124,24 +126,24 @@ Adobe Campaign 애플리케이션 서버에서 데이터베이스를 생성할 �
 
    * mta 모듈의 DNS 구성:
 
-      ```
-      <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
-      ```
+     ```
+     <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
+     ```
 
-      >[!NOTE]
-      >
-      >다음 **이름 서버** 매개 변수는 Windows에서만 사용됩니다.
+     >[!NOTE]
+     >
+     >다음 **이름 서버** 매개 변수는 Windows에서만 사용됩니다.
 
-      자세한 내용은 다음을 참조하십시오. [게재 설정](configure-delivery-settings.md).
+     자세한 내용은 다음을 참조하십시오. [게재 설정](configure-delivery-settings.md).
 
    * 리디렉션 매개 변수의 중복 추적 서버:
 
-      ```
-      <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
-      <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
-      ```
+     ```
+     <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
+     <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
+     ```
 
-      자세한 내용은 다음을 참조하십시오. [중복 추적](configuring-campaign-server.md#redundant-tracking).
+     자세한 내용은 다음을 참조하십시오. [중복 추적](configuring-campaign-server.md#redundant-tracking).
 
 1. 웹 사이트를 시작하고 URL에서 리디렉션을 테스트합니다. [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 

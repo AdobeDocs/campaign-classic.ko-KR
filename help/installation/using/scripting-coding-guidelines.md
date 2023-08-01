@@ -2,14 +2,15 @@
 product: campaign
 title: 스크립팅 및 코딩 지침
 description: Adobe Campaign에서 개발할 때 따라야 할 지침(워크플로우, Javascript, JSSP 등)에 대해 자세히 알아보십시오.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '755'
 ht-degree: 5%
 
 ---
@@ -28,28 +29,28 @@ ht-degree: 5%
 
 * 필요한 경우 문자열 연결 대신 매개 변수가 있는 (prepare 문) 함수를 사용하십시오.
 
-   잘못된 방법:
+  잘못된 방법:
 
-   ```
-   sqlGetInt( "select iRecipientId from NmsRecipient where sEmail ='" + request.getParameter('email') +  "'  limit 1" )
-   ```
+  ```
+  sqlGetInt( "select iRecipientId from NmsRecipient where sEmail ='" + request.getParameter('email') +  "'  limit 1" )
+  ```
 
-   모범 사례:
+  모범 사례:
 
-   ```
-   sqlGetInt( "select iRecipientId from NmsRecipient where sEmail = $(sz) limit 1", request.getParameter('email'));
-   ```
+  ```
+  sqlGetInt( "select iRecipientId from NmsRecipient where sEmail = $(sz) limit 1", request.getParameter('email'));
+  ```
 
-   >[!IMPORTANT]
-   >
-   >sqlSelect는 이 기능을 지원하지 않으므로 DBEngine 클래스의 쿼리 함수를 사용해야 합니다.
+  >[!IMPORTANT]
+  >
+  >sqlSelect는 이 기능을 지원하지 않으므로 DBEngine 클래스의 쿼리 함수를 사용해야 합니다.
 
-   ```
-   var cnx = application.getConnection()
-   var stmt = cnx.query("SELECT sFirstName, sLastName FROM NmsRecipient where sEmail = $(sz)", request.getParameter('email'))
-   for each(var row in stmt) logInfo(row[0] + " : " + row[1])
-   cnx.dispose()
-   ```
+  ```
+  var cnx = application.getConnection()
+  var stmt = cnx.query("SELECT sFirstName, sLastName FROM NmsRecipient where sEmail = $(sz)", request.getParameter('email'))
+  for each(var row in stmt) logInfo(row[0] + " : " + row[1])
+  cnx.dispose()
+  ```
 
 허용 목록에 추가하다 SQL 주입을 방지하려면 Adobe Campaign에서 사용할 SQL 함수를 SQL 함수에 추가해야 합니다. 허용 목록에 추가하다에 추가되면 표현식 편집기에서 연산자에게 표시됩니다. [이 페이지](../../configuration/using/adding-additional-sql-functions.md)를 참조하십시오.
 
@@ -79,23 +80,23 @@ ht-degree: 5%
 
 * 일부 시스템 필터(sysFilter)를 추가하여 데이터를 읽거나 쓰지 못하도록 할 수 있습니다(참조) [이 페이지](../../configuration/using/filtering-schemas.md)).
 
-   ```
-   <sysFilter name="writeAccess">    
-       <condition enabledIf="hasNamedRight('myNewRole')=false" expr="FALSE"/>  
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="writeAccess">    
+      <condition enabledIf="hasNamedRight('myNewRole')=false" expr="FALSE"/>  
+  </sysFilter>
+  ```
 
 * 스키마에 정의된 일부 작업(SOAP 메서드)을 보호할 수도 있습니다. 해당 명명된 권한을 값으로 사용하여 액세스 속성을 설정하기만 하면 됩니다.
 
-   ```
-   <method name="grantVIPAccess" access="myNewRole">
-       <parameters>
-   ...
-       </parameters>
-   </method>
-   ```
+  ```
+  <method name="grantVIPAccess" access="myNewRole">
+      <parameters>
+  ...
+      </parameters>
+  </method>
+  ```
 
-   자세한 정보는 이 [페이지](../../configuration/using/implementing-soap-methods.md)를 참조하십시오.
+  자세한 정보는 이 [페이지](../../configuration/using/implementing-soap-methods.md)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -146,7 +147,8 @@ DCE에서 captcha를 추가하는 일반적인 방법은 페이지 콘텐츠 내
    * 4행에서는 captcha 회색 상자 크기(폭/높이)와 생성된 단어의 길이(minWordSize/maxWordSize)를 변경할 수 있습니다.
    * Google reCAPTCHA를 사용하기 전에 Google에 등록하고 새 reCAPTCHA 사이트를 만들어야 합니다.
 
-      `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
+     `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
+
    유효성 검사 단추를 비활성화할 수 있어야 하지만 표준 단추/링크가 없으므로 HTML 자체에서 수행하는 것이 좋습니다. 방법을 알아보려면 다음을 참조하십시오. [이 페이지](https://developers.google.com/recaptcha/).
 
 ### 웹 애플리케이션 업데이트

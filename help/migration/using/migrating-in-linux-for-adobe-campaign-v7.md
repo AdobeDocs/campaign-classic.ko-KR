@@ -2,16 +2,17 @@
 product: campaign
 title: Linux 플랫폼을 Adobe Campaign v7로 마이그레이션
 description: Linux 플랫폼을 Adobe Campaign v7로 마이그레이션하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 hide: true
 hidefromtoc: true
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -218,36 +219,36 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 
    * 위치 **데비안**:
 
-      ```
-      dpkg -l | grep nl
-      ```
+     ```
+     dpkg -l | grep nl
+     ```
 
-      설치된 패키지 목록이 표시됩니다.
+     설치된 패키지 목록이 표시됩니다.
 
-      ```
-      ii  nlserver6                       XXXX                     nlserver6-XXXX
-      ii  nlthirdparty6                   XXXX                     nlthirdparty6-XXXX
-      ```
+     ```
+     ii  nlserver6                       XXXX                     nlserver6-XXXX
+     ii  nlthirdparty6                   XXXX                     nlthirdparty6-XXXX
+     ```
 
    * 위치 **Red Hat**:
 
-      ```
-      rpm -qa | grep nl
-      ```
+     ```
+     rpm -qa | grep nl
+     ```
 
 1. Adobe Campaign v6 패키지를 제거합니다.
 
    * 위치 **데비안**:
 
-      ```
-      dpkg --purge nlserver6 nlthirdparty6
-      ```
+     ```
+     dpkg --purge nlserver6 nlthirdparty6
+     ```
 
    * 위치 **Red Hat**:
 
-      ```
-      rprm -ev nlserver6 nlthirdparty6
-      ```
+     ```
+     rprm -ev nlserver6 nlthirdparty6
+     ```
 
 ## Adobe Campaign v7 배포 {#deploying-adobe-campaign-v7}
 
@@ -475,15 +476,16 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
 
    * 위치 **데비안**:
 
-      ```
-      dpkg -i nlserver6-XXXX-amd64_debX.deb
-      ```
+     ```
+     dpkg -i nlserver6-XXXX-amd64_debX.deb
+     ```
 
    * 위치 **Red Hat**:
 
-      ```
-      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
-      ```
+     ```
+     rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
+     ```
+
    >[!IMPORTANT]
    >
    >다음 단계로 진행하기 전에 패키지를 설치해야 합니다.

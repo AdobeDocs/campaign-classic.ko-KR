@@ -2,14 +2,15 @@
 product: campaign
 title: 전자 메일 보관
 description: 전자 메일 보관
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings, Email
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1366'
 ht-degree: 5%
 
 ---
@@ -85,16 +86,16 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 * **압축 형식**: .eml 파일을 압축할 때 사용하는 형식입니다. 가능한 값은 다음과 같습니다.
 
-   **0**: 압축 없음(기본값)
+  **0**: 압축 없음(기본값)
 
-   **1**: 압축(.zip 형식)
+  **1**: 압축(.zip 형식)
 
 * **압축 일괄 처리 크기**: 보관 파일에 추가된 .eml 파일 수(.zip 파일).
 * **보관 유형**: 사용할 보관 전략 가능한 값은 다음과 같습니다.
 
-   **0**: 보낸 이메일의 원시 사본은 .eml 형식으로에 저장됩니다. **데이터 로그 경로** 폴더(기본값). 의 보관 사본 **`<deliveryid>-<broadlogid>-sent.eml`** 파일이 **dataLogPath/아카이브** 폴더를 삭제합니다. 보낸 이메일 파일 경로가 다음과 같이 변경됩니다. **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
+  **0**: 보낸 이메일의 원시 사본은 .eml 형식으로에 저장됩니다. **데이터 로그 경로** 폴더(기본값). 의 보관 사본 **`<deliveryid>-<broadlogid>-sent.eml`** 파일이 **dataLogPath/아카이브** 폴더를 삭제합니다. 보낸 이메일 파일 경로가 다음과 같이 변경됩니다. **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
 
-   **1**: 보낸 이메일의 원시 사본은 .eml 형식으로에 저장됩니다. **데이터 로그 경로** 폴더와 SMTP를 통해 BCC 이메일 주소로 전송됩니다. BCC 주소로 e- 메일 사본이 전송되면 아카이브 파일 이름이 **`<deliveryid>-<broadlogid>-sent-archived.eml`** 파일이 **dataLogPath/아카이브** 폴더를 삭제합니다. 그러면 전송 및 BCC 보관된 이메일 파일 경로가 **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
+  **1**: 보낸 이메일의 원시 사본은 .eml 형식으로에 저장됩니다. **데이터 로그 경로** 폴더와 SMTP를 통해 BCC 이메일 주소로 전송됩니다. BCC 주소로 e- 메일 사본이 전송되면 아카이브 파일 이름이 **`<deliveryid>-<broadlogid>-sent-archived.eml`** 파일이 **dataLogPath/아카이브** 폴더를 삭제합니다. 그러면 전송 및 BCC 보관된 이메일 파일 경로가 **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
 
 * **expirationDelay**: .eml 파일이 보관되는 일 수입니다. 그런 다음 자동으로 로 이동합니다. **dataLogPath/아카이브** 압축을 위한 폴더입니다. 기본적으로 .eml 파일은 2일 후에 만료됩니다.
 * **purgeArchivesDelay**: 아카이브가 다음 위치에 보관되는 일 수 **dataLogPath/`<archives>`** 폴더를 삭제합니다. 해당 기간이 지나면 영구적으로 삭제됩니다. MTA가 시작되면 제거가 시작됩니다. 기본적으로 7일마다 수행됩니다.

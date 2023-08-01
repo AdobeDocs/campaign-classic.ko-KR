@@ -2,15 +2,16 @@
 product: campaign
 title: 내보내기 작업 구성
 description: Campaign에서 내보내기 작업을 구성하고 실행하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+fearture: Overview
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '937'
 ht-degree: 2%
 
 ---
@@ -53,17 +54,17 @@ ht-degree: 2%
 
 * 기본적으로 **[!UICONTROL Download the file generated on the server after the export]** 옵션이 선택되어 있습니다. 다음에서 **[!UICONTROL Local file]** 필드, 만들 파일의 이름 및 경로를 입력하거나 필드 오른쪽의 폴더를 클릭하여 로컬 디스크를 찾습니다. 이 옵션을 선택 해제하여 서버 출력 파일의 액세스 경로와 이름을 입력할 수 있습니다.
 
-   >[!NOTE]
-   >
-   >자동 가져오기 및 내보내기 작업은 항상 서버에서 수행됩니다.
-   >
-   >일부 데이터만 내보내려면 **[!UICONTROL Advanced parameters]** 및 해당 필드에 내보낼 라인 수를 입력합니다.
+  >[!NOTE]
+  >
+  >자동 가져오기 및 내보내기 작업은 항상 서버에서 수행됩니다.
+  >
+  >일부 데이터만 내보내려면 **[!UICONTROL Advanced parameters]** 및 해당 필드에 내보낼 라인 수를 입력합니다.
 
 * 차등 내보내기를 만들어 마지막 실행 이후 수정된 레코드만 내보낼 수 있습니다. 이렇게 하려면 **[!UICONTROL Advanced parameters]** 링크를 클릭한 다음 **[!UICONTROL Differential export]** 탭을 선택한 다음 를 선택합니다 **[!UICONTROL Activate differential export]**.
 
-   ![](assets/s_ncs_user_export_wizard02_b.png)
+  ![](assets/s_ncs_user_export_wizard02_b.png)
 
-   마지막으로 수정한 날짜를 입력해야 합니다. 필드 또는 계산에서 검색할 수 있습니다.
+  마지막으로 수정한 날짜를 입력해야 합니다. 필드 또는 계산에서 검색할 수 있습니다.
 
 ## 3단계 - 출력 형식 정의 {#step-3---defining-the-output-format}
 
@@ -111,7 +112,7 @@ ht-degree: 2%
    * 대문자로 전환
    * 첫 글자를 대문자로
 
-   ![](assets/s_ncs_user_export_wizard06.png)
+  ![](assets/s_ncs_user_export_wizard06.png)
 
 * 클릭 **[!UICONTROL Add a calculated field]** 새 계산된 필드를 만들려면(예: 성 + 이름이 포함된 열). 자세한 내용은 다음을 참조하십시오. [계산된 필드](../../platform/using/executing-import-jobs.md#calculated-fields).
 

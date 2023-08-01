@@ -2,16 +2,17 @@
 product: campaign
 title: RDBMS 특정 권장 사항
 description: RDBMS 특정 권장 사항
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 1%
+source-wordcount: '1201'
+ht-degree: 2%
 
 ---
 
@@ -143,7 +144,6 @@ VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
 >* 매우 큰 테이블(일반적으로 5Gb 이상)의 경우 VACUUM FULL 문은 매우 비효율적이며 시간이 오래 걸릴 수 있습니다. Adobe은 다음 작업에 사용하지 않는 것이 좋습니다. **YyyNmsBroadLogXxx** 테이블.
 >* 이 유지 관리 작업은 Adobe Campaign 워크플로에서 **[!UICONTROL SQL]** 활동. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/architecture.md)을 참조하십시오. 백업 윈도우와 충돌하지 않는 짧은 작업 시간 동안 유지 관리를 예약해야 합니다.
 >
-
 
 ### 데이터베이스 재구축 {#rebuilding-a-database}
 
@@ -436,19 +436,19 @@ function sqlGetMemo(strSql)
 
    * 지수 단편화율이 10%에서 40% 사이이면 개편을 권고하고 있다.
 
-      재구성할 데이터베이스 및 개체(테이블 또는 뷰)를 선택한 다음 **[!UICONTROL Next]**.
+     재구성할 데이터베이스 및 개체(테이블 또는 뷰)를 선택한 다음 **[!UICONTROL Next]**.
 
-      >[!NOTE]
-      >
-      >구성에 따라 이전에 선택한 테이블이나 데이터베이스의 모든 테이블을 선택할 수 있습니다.
+     >[!NOTE]
+     >
+     >구성에 따라 이전에 선택한 테이블이나 데이터베이스의 모든 테이블을 선택할 수 있습니다.
 
    * 인덱스 단편화 비율이 40%보다 높으면 다시 빌드하는 것이 좋습니다.
 
-      인덱스 다시 작성 작업에 적용할 옵션을 선택한 다음 **[!UICONTROL Next]**.
+     인덱스 다시 작성 작업에 적용할 옵션을 선택한 다음 **[!UICONTROL Next]**.
 
-      >[!NOTE]
-      >
-      >인덱스 재구축 프로세스는 프로세서 사용 측면에서 더 엄격하며 데이터베이스 리소스를 잠급니다. 다음 항목 선택 **[!UICONTROL Keep index online while reindexing]** 다시 작성 중에 인덱스를 사용할 수 있도록 하려면 옵션을 선택합니다.
+     >[!NOTE]
+     >
+     >인덱스 재구축 프로세스는 프로세서 사용 측면에서 더 엄격하며 데이터베이스 리소스를 잠급니다. 다음 항목 선택 **[!UICONTROL Keep index online while reindexing]** 다시 작성 중에 인덱스를 사용할 수 있도록 하려면 옵션을 선택합니다.
 
 1. 활동 보고서에 표시할 옵션을 선택한 다음 를 클릭합니다 **[!UICONTROL Next]**.
 1. 유지 관리 계획에 대해 구성된 작업 목록을 확인한 다음 **[!UICONTROL Finish]**.

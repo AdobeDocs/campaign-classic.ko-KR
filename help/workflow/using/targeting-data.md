@@ -2,13 +2,13 @@
 product: campaign
 title: 데이터 타겟팅
 description: 워크플로우의 데이터 타겟팅에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Query Editor, Data Management
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+feature: Query Editor, Data Management, Workflows
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1922'
-ht-degree: 4%
+source-wordcount: '1929'
+ht-degree: 5%
 
 ---
 
@@ -90,33 +90,33 @@ A **[!UICONTROL Query]** 활동을 사용하면 기본 데이터를 선택하여
 
 * **[!UICONTROL Keys only]**
 
-   이 옵션은 입력 모집단이 동질적일 경우 사용할 수 있습니다.
+  이 옵션은 입력 모집단이 동질적일 경우 사용할 수 있습니다.
 
 * **[!UICONTROL All columns in common]**
 
-   이 옵션을 사용하면 대상의 다양한 모집단에 공통되는 모든 열을 기반으로 데이터를 조정할 수 있습니다.
+  이 옵션을 사용하면 대상의 다양한 모집단에 공통되는 모든 열을 기반으로 데이터를 조정할 수 있습니다.
 
-   Adobe Campaign은 이름을 기반으로 열을 식별합니다. 허용 한도 임계값이 수락됩니다. 예를 들어 &#39;이메일&#39; 열은 &#39;@email&#39; 열과 동일한 것으로 인식될 수 있습니다.
+  Adobe Campaign은 이름을 기반으로 열을 식별합니다. 허용 한도 임계값이 수락됩니다. 예를 들어 &#39;이메일&#39; 열은 &#39;@email&#39; 열과 동일한 것으로 인식될 수 있습니다.
 
 * **[!UICONTROL A selection of columns]**
 
-   데이터 조정을 적용할 열 목록을 정의하려면 이 옵션을 선택합니다.
+  데이터 조정을 적용할 열 목록을 정의하려면 이 옵션을 선택합니다.
 
-   기본 세트(소스 데이터가 포함된 세트)를 선택한 다음 가입에 사용할 열을 선택합니다.
+  기본 세트(소스 데이터가 포함된 세트)를 선택한 다음 가입에 사용할 열을 선택합니다.
 
-   ![](assets/join_reconciliation_options_01.png)
+  ![](assets/join_reconciliation_options_01.png)
 
-   >[!CAUTION]
-   >
-   >데이터 조정 중에 모집단은 중복 제거되지 않습니다.
+  >[!CAUTION]
+  >
+  >데이터 조정 중에 모집단은 중복 제거되지 않습니다.
 
-   주어진 레코드 수로 모집단 크기를 제한할 수 있습니다. 이렇게 하려면 적절한 옵션을 클릭하고 보관할 레코드 수를 지정합니다.
+  주어진 레코드 수로 모집단 크기를 제한할 수 있습니다. 이렇게 하려면 적절한 옵션을 클릭하고 보관할 레코드 수를 지정합니다.
 
-   또한 인바운드 모집단의 우선 순위를 지정합니다. 창의 아래 섹션에는 결합 활동의 인바운드 전환이 나열되며 창 오른쪽에 있는 파란색 화살표를 사용하여 이들을 정렬할 수 있습니다.
+  또한 인바운드 모집단의 우선 순위를 지정합니다. 창의 아래 섹션에는 결합 활동의 인바운드 전환이 나열되며 창 오른쪽에 있는 파란색 화살표를 사용하여 이들을 정렬할 수 있습니다.
 
-   레코드는 목록의 첫 번째 인바운드 전환의 모집단에서 먼저 가져온 다음 최대값에 도달하지 않은 경우 두 번째 인바운드 전환의 모집단에서 가져옵니다.
+  레코드는 목록의 첫 번째 인바운드 전환의 모집단에서 먼저 가져온 다음 최대값에 도달하지 않은 경우 두 번째 인바운드 전환의 모집단에서 가져옵니다.
 
-   ![](assets/join_limit_nb_priority.png)
+  ![](assets/join_limit_nb_priority.png)
 
 ### 관절 데이터 추출(교차) {#extracting-joint-data--intersection-}
 
@@ -132,7 +132,7 @@ A **[!UICONTROL Query]** 활동을 사용하면 기본 데이터를 선택하여
 
 제외 활동을 사용하면 다른 대상 모집단에서 대상 요소를 제외할 수 있습니다. 이 활동의 출력 타겟팅 차원은 기본 세트의 차원이 됩니다.
 
-필요한 경우 인바운드 테이블을 조작할 수 있습니다. 실제로 다른 차원에서 대상을 제외하려면 이 대상을 기본 대상과 동일한 타겟팅 차원으로 반환해야 합니다. 이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL Add]** 단추를 누르고 차원 변경 조건을 지정합니다.
+필요한 경우 인바운드 테이블을 조작할 수 있습니다. 다른 차원에서 대상을 제외하려면 이 대상을 기본 대상과 동일한 타겟팅 차원으로 반환해야 합니다. 이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL Add]** 단추를 누르고 차원 변경 조건을 지정합니다.
 
 데이터 조정은 식별자, 축 변경 또는 조인을 통해 수행됩니다. 예는에서 사용할 수 있습니다. [목록의 데이터 사용: 목록 읽기](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
 
@@ -178,9 +178,9 @@ A **[!UICONTROL Query]** 활동을 사용하면 기본 데이터를 선택하여
 
    자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
 
-   ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 설명서](../../installation/using/about-fda.md)
+   ![](assets/do-not-localize/v7.jpeg)[Campaign v7 설명서](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png)[  Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
+   ![](assets/do-not-localize/v8.png)[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
 
 그런 다음 새 하위 집합을 추가해야 합니다.
 
@@ -220,15 +220,15 @@ A **[!UICONTROL Query]** 활동을 사용하면 기본 데이터를 선택하여
 
 * 다양한 워크플로우 단계에서 데이터 조작 후 데이터베이스의 데이터를 업데이트할 수 있습니다.
 
-   자세한 내용은, [데이터 업데이트](update-data.md).
+  자세한 내용은, [데이터 업데이트](update-data.md).
 
 * 기존 목록의 콘텐츠를 새로 고칠 수도 있습니다.
 
-   자세한 내용은 다음을 참조하십시오. [목록 업데이트](list-update.md).
+  자세한 내용은 다음을 참조하십시오. [목록 업데이트](list-update.md).
 
 * 워크플로우에서 직접 게재를 준비하거나 시작할 수 있습니다.
 
-   자세한 내용은 다음을 참조하십시오. [게재](delivery.md), [게재 제어](delivery-control.md) 및 [연속 게재](continuous-delivery.md).
+  자세한 내용은 다음을 참조하십시오. [게재](delivery.md), [게재 제어](delivery-control.md) 및 [연속 게재](continuous-delivery.md).
 
 ## 데이터 관리 {#data-management}
 

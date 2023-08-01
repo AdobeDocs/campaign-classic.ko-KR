@@ -2,14 +2,15 @@
 product: campaign
 title: 서버 보안 구성
 description: 서버 구성 모범 사례에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '631'
 ht-degree: 4%
 
 ---
@@ -65,7 +66,7 @@ Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 
 
 ## 명령 제한(서버측)
 
-차단 목록에는 여러 명령이 포함되어 있으며 execCommand 함수를 사용하여 실행할 수 없습니다. 전용 Unix 사용자는 외부 명령을 실행하기 위해 추가 보안을 제공합니다. 호스팅된 설치의 경우 이 제한이 자동으로 적용됩니다. 온-프레미스 설치의 경우 의 지침에 따라 이 제한을 수동으로 설정할 수 있습니다. [이 페이지](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). 또한, **[!UICONTROL Script]** 및 **[!UICONTROL External task]** 워크플로우 활동을 사용할 수 없습니다(새로 설치된 인스턴스).
+차단 목록에 추가하다에는 여러 명령이 포함되어 있으며 execCommand 함수를 사용하여 실행할 수 없습니다. 전용 Unix 사용자는 외부 명령을 실행하기 위해 추가 보안을 제공합니다. 호스팅된 설치의 경우 이 제한이 자동으로 적용됩니다. 온-프레미스 설치의 경우 의 지침에 따라 이 제한을 수동으로 설정할 수 있습니다. [이 페이지](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). 또한, **[!UICONTROL Script]** 및 **[!UICONTROL External task]** 워크플로우 활동을 사용할 수 없습니다(새로 설치된 인스턴스).
 
 ## 기타 구성
 

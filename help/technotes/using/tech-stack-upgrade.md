@@ -2,8 +2,9 @@
 product: campaign
 title: 기술 노트 - Adobe Campaign 시스템 업그레이드
 description: Adobe Campaign 시스템 업그레이드
+feature: Technote, Upgrade
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: d04b672fe2049d83ba17d3d855e1b609e81cf8c9
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 9%
@@ -23,6 +24,7 @@ Campaign 인프라는 최신 버전 및 수정 사항으로 정기적으로 업�
 >[!NOTE]
 >
 >이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 다음 항목도 참조하십시오. [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md).
+>
 
 ## Campaign 빌드 업그레이드 {#ac-upgrade}
 

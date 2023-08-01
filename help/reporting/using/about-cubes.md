@@ -2,16 +2,16 @@
 product: campaign
 title: 큐브 정보
 description: 큐브 시작
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+feature: Reporting, Monitoring
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 hide: true
 hidefromtoc: true
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 2%
+source-wordcount: '409'
+ht-degree: 3%
 
 ---
 
@@ -43,22 +43,22 @@ ht-degree: 2%
 
 * 데이터 내보내기는 다음에서 디자인된 보고서에서 직접 수행할 수 있습니다 **[!UICONTROL Reports]** Adobe Campaign 플랫폼 탭.
 
-   이렇게 하려면 새 보고서를 만들고 사용할 큐브를 선택합니다.
+  이렇게 하려면 새 보고서를 만들고 사용할 큐브를 선택합니다.
 
-   ![](assets/cube_create_new.png)
+  ![](assets/cube_create_new.png)
 
-   큐브는 보고서를 작성하는 데 사용하는 템플릿처럼 표시됩니다. 템플릿을 선택한 다음 을(를) 클릭합니다. **[!UICONTROL Create]** 일치하는 보고서를 구성하고 봅니다.
+  큐브는 보고서를 작성하는 데 사용하는 템플릿처럼 표시됩니다. 템플릿을 선택한 다음 을(를) 클릭합니다. **[!UICONTROL Create]** 일치하는 보고서를 구성하고 봅니다.
 
-   측정값을 조정하거나 표시 모드를 변경하거나 테이블을 구성한 다음 기본 단추를 사용하여 보고서를 표시할 수 있습니다.
+  측정값을 조정하거나 표시 모드를 변경하거나 테이블을 구성한 다음 기본 단추를 사용하여 보고서를 표시할 수 있습니다.
 
-   ![](assets/cube_display_new.png)
+  ![](assets/cube_display_new.png)
 
 * 에서 큐브를 참조할 수도 있습니다 **[!UICONTROL Query]** 아래 표시된 대로 지표를 사용할 보고서 상자입니다.
 
-   ![](assets/s_advuser_query_using_a_cube.png)
+  ![](assets/s_advuser_query_using_a_cube.png)
 
 * 큐브를 기반으로 한 피벗 테이블을 보고서의 모든 페이지에 삽입할 수도 있습니다. 이렇게 하려면 다음에서 사용할 큐브를 참조하십시오 **[!UICONTROL Data]** 관련 페이지의 피벗 테이블 탭
 
-   ![](assets/s_advuser_cube_in_report.png)
+  ![](assets/s_advuser_cube_in_report.png)
 
-   자세한 내용은 다음을 참조하십시오. [보고서의 데이터 탐색](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).
+  자세한 내용은 다음을 참조하십시오. [보고서의 데이터 탐색](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).

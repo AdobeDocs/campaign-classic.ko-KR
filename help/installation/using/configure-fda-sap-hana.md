@@ -2,14 +2,15 @@
 product: campaign
 title: SAP HANA 액세스 구성
 description: FDA에서 SAP HANA 액세스를 구성하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 39bfe775-e182-4a0b-ad3c-b7a901297c90
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -36,25 +37,25 @@ FDA에서 SAP HANA 외부 데이터베이스에 연결하려면 Adobe Campaign �
 
    * **/etc/odbc.ini**
 
-      ```
-      [ODBC]
-      InstallDir=/etc/
-      
-      [HDB]
-      Driver=HDBODBC
-      servernode=localhost:39013 (this value depend of your server)
-      User:SYSTEM
-      ```
+     ```
+     [ODBC]
+     InstallDir=/etc/
+     
+     [HDB]
+     Driver=HDBODBC
+     servernode=localhost:39013 (this value depend of your server)
+     User:SYSTEM
+     ```
 
-      &quot;InstallDir&quot;은 **odbcinst.ini** 파일.
+     &quot;InstallDir&quot;은 **odbcinst.ini** 파일.
 
    * **/etc/odbcinst.ini**
 
-      ```
-      [HDBODBC]
-      Description = "SmartCloudPT HANA"
-      Driver = /usr/sap/hdbclient/libodbcHDB.so
-      ```
+     ```
+     [HDBODBC]
+     Description = "SmartCloudPT HANA"
+     Driver = /usr/sap/hdbclient/libodbcHDB.so
+     ```
 
 1. Adobe Campaign 서버의 환경 변수를 지정합니다.
 

@@ -2,16 +2,17 @@
 product: campaign
 title: Linux에서 캠페인 설치 사전 요구 사항
 description: Linux에서 캠페인 설치 사전 요구 사항
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 1%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -44,33 +45,33 @@ Linux에 Adobe Campaign을 설치하려면 필요한 라이브러리가 있는�
 
 * 라이브러리 C는 TLS(Thread Local Storage) 모드를 지원할 수 있어야 합니다. 이 모드는 Xen 지원이 비활성화된 일부 커널을 제외한 대부분의 경우 활성화됩니다.
 
-   이를 확인하려면 다음을 사용할 수 있습니다. **uname -a | grep xen** 예를 들면 다음과 같습니다.
+  이를 확인하려면 다음을 사용할 수 있습니다. **uname -a | grep xen** 예를 들면 다음과 같습니다.
 
-   명령이 아무 것도 반환하지 않으면(빈 줄) 구성이 올바르다는 의미입니다.
+  명령이 아무 것도 반환하지 않으면(빈 줄) 구성이 올바르다는 의미입니다.
 
 * OpenSSL 버전이 있어야 합니다. **1.0.2** 또는 그 이상
 
-   RHEL 7/8 배포의 경우 OpenSSL 버전 1.0이 필요합니다.
+  RHEL 7/8 배포의 경우 OpenSSL 버전 1.0이 필요합니다.
 
 * Adobe Campaign을 사용하려면 다음을 수행해야 합니다. **리비쿠** 라이브러리가 설치되었습니다.
 
-   다음 버전 **리비쿠** 지원(32비트 또는 64비트):
+  다음 버전 **리비쿠** 지원(32비트 또는 64비트):
 
    * RHEL 7/8, CentOS 7: libicu50
    * Debian 8: libicu52
    * Debian 9: libicu57
 
-   Adobe Campaign을 사용하려면 libc-ares 라이브러리를 설치해야 합니다. RHEL/CentOS에서 다음 명령을 실행합니다.
+  Adobe Campaign을 사용하려면 libc-ares 라이브러리를 설치해야 합니다. RHEL/CentOS에서 다음 명령을 실행합니다.
 
-   ```
-   yum install c-ares
-   ```
+  ```
+  yum install c-ares
+  ```
 
-   Debian에서:
+  Debian에서:
 
-   ```
-   aptitude install libc-ares2
-   ```
+  ```
+  aptitude install libc-ares2
+  ```
 
 ### SELinux {#selinux}
 
@@ -114,15 +115,15 @@ Redhat에서 다음 명령을 사용합니다.
 
 * CentOS/RHEL 7의 경우:
 
-   ```
-   yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
-   ```
+  ```
+  yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
+  ```
 
 * RHEL 8의 경우:
 
-   ```
-   dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
-   ```
+  ```
+  dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
+  ```
 
 ### 일본어 인스턴스용 글꼴 {#fonts-for-japanese-instances}
 
@@ -138,15 +139,15 @@ Red Hat에서 다음 명령을 추가합니다.
 
 * RHEL 7의 경우:
 
-   ```
-   yum install ipa-gothic-fonts ipa-mincho-fonts
-   ```
+  ```
+  yum install ipa-gothic-fonts ipa-mincho-fonts
+  ```
 
 * RHEL 8의 경우:
 
-   ```
-   dnf install vlgothic-fonts
-   ```
+  ```
+  dnf install vlgothic-fonts
+  ```
 
 ### LibreOffice for Debian 설치 {#installing-libreoffice-for-debian}
 

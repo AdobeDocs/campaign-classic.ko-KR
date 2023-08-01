@@ -2,13 +2,13 @@
 product: campaign
 title: 추적 문제 해결
 description: 이 섹션에서는 Adobe Campaign의 구성 및 구현 추적과 관련된 일반적인 질문을 제공합니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Monitoring
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Monitoring, Troubleshooting
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '770'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ $ grep -Rn 50x000000000FD7EC86
 
 1. 수동으로 확인 &lt;trackingurlid> 에서 찾을 수 있음 &lt;deliveryid>.xml 파일입니다.
 
-1. 관련된 deliveryID 게재에 broadlogID가 수동으로 있는지 확인합니다.
+1. 관련된 deliveryID 게재에 broadlogID가 수동으로 있는지 확인하십시오.
 
 1. 확인 &lt;deliveryid>../nl6/var/의 .xml 파일 권한&lt;instance_name>/redir/url/year 디렉터리입니다.
 
@@ -140,24 +140,24 @@ NmsTracking_Pointer 옵션을 업데이트할 때 다음 단계를 따르십시�
 
 * 잘못된 구문
 
-   ```
-   <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
-   var pattern = new RegExp("(nl611\.test15|google\.com)", 'i')
-   if( $(urlstring).match(pattern) && delivery.FCP == false )
-   {
-   %>
-   &cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
-   ```
+  ```
+  <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
+  var pattern = new RegExp("(nl611\.test15|google\.com)", 'i')
+  if( $(urlstring).match(pattern) && delivery.FCP == false )
+  {
+  %>
+  &cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
+  ```
 
 * 올바른 구문
 
-   ```
-   <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
-   var pattern = new RegExp("(nl611\.test15|google\.com)", 'i')
-   if( $(urlstring).match(pattern) && delivery.FCP == false )
-   {
-   %>&cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
-   ```
+  ```
+  <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
+  var pattern = new RegExp("(nl611\.test15|google\.com)", 'i')
+  if( $(urlstring).match(pattern) && delivery.FCP == false )
+  {
+  %>&cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
+  ```
 
 추가 줄 바꿈이 있는 위치를 파악하기 위해 JavaScript 표현식을 고정 문자열 STRING으로 바꿀 수 있습니다.
 
@@ -174,26 +174,26 @@ STRING1&cid=STRING2&bid=STRING3
 
 * 잘못된 구문
 
-   ```
-   <%@ include option='NmsTracking_ClickFormula' %>
-   <% // Parameters expected by Adobe Analytics
-   var pattern = new RegExp("(vistaprint|entryUrl)", 'i')
-   if( $(urlstring).match(pattern) && delivery.FCP == false )
-   {%>&cid=<%= message.delivery.internalName%>&bid=<%= message.id.toString().toLowerCase()%>&SHPID=<%= message.recipient.factShopper.shopper_id %><% }
-   
-   %>
-   ```
+  ```
+  <%@ include option='NmsTracking_ClickFormula' %>
+  <% // Parameters expected by Adobe Analytics
+  var pattern = new RegExp("(vistaprint|entryUrl)", 'i')
+  if( $(urlstring).match(pattern) && delivery.FCP == false )
+  {%>&cid=<%= message.delivery.internalName%>&bid=<%= message.id.toString().toLowerCase()%>&SHPID=<%= message.recipient.factShopper.shopper_id %><% }
+  
+  %>
+  ```
 
 * 올바른 구문
 
-   ```
-   <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
-   var pattern = new RegExp("(vistaprint|entryUrl)", 'i')
-   if( $(urlstring).match(pattern) && delivery.FCP == false )
-   {%>&cid=<%= message.delivery.internalName%>&bid=<%= message.id.toString().toLowerCase()%>&SHPID=<%= message.recipient.factShopper.shopper_id %><% }
-   
-   %>
-   ```
+  ```
+  <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
+  var pattern = new RegExp("(vistaprint|entryUrl)", 'i')
+  if( $(urlstring).match(pattern) && delivery.FCP == false )
+  {%>&cid=<%= message.delivery.internalName%>&bid=<%= message.id.toString().toLowerCase()%>&SHPID=<%= message.recipient.factShopper.shopper_id %><% }
+  
+  %>
+  ```
 
 추가 줄 바꿈이 있는 위치를 파악하기 위해 JavaScript 표현식을 고정 문자열 STRING으로 바꿀 수 있습니다.
 

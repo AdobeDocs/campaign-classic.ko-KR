@@ -2,16 +2,17 @@
 product: campaign
 title: 실행 설정
 description: 실행 설정
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Interaction, Offers
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: e2dea4a0-9ed8-47b6-a16b-eeee653d2290
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 4%
+source-wordcount: '150'
+ht-degree: 5%
 
 ---
 

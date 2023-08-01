@@ -2,13 +2,13 @@
 product: campaign
 title: 보고서의 속성
 description: 보고서 속성 설정에 대해 자세히 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Reporting, Monitoring
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '441'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 * 다음 **스토리지** 보고서를 만들 때 이(가) 선택됩니다. 보고서의 데이터 테이블을 변경하려면 **[!UICONTROL Select link]** 아이콘 의 오른쪽 **[!UICONTROL Document type]** 필드.
 
-   ![](assets/s_ncs_advuser_report_properties_02.png)
+  ![](assets/s_ncs_advuser_report_properties_02.png)
 
 * 다음 **액세스 제어** 매개 변수. 이러한 설정은 아래에 설명되어 있습니다.
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 * **[!UICONTROL Anonymous access]**: 이 옵션을 사용하면 보고서에 대한 무제한 액세스를 사용할 수 있습니다. 그러나 조작은 불가능합니다.
 
-   &#39;webapp&#39; 기술 연산자의 권한은 보고서 요소를 표시하는 데 사용됩니다. 자세히 알아보기 [이 섹션에서](../../platform/using/access-management-operators.md).
+  &#39;webapp&#39; 기술 연산자의 권한은 보고서 요소를 표시하는 데 사용됩니다. 자세히 알아보기 [이 섹션에서](../../platform/using/access-management-operators.md).
 
 * **[!UICONTROL Access control]**: 이 옵션을 사용하면 Adobe Campaign 운영자가 로그인한 후 액세스할 수 있습니다.
 * **[!UICONTROL Specific account]**: 이 옵션을 사용하면 다음에서 선택한 연산자의 권한으로 보고서를 실행할 수 있습니다. **[!UICONTROL Operator]** 필드.

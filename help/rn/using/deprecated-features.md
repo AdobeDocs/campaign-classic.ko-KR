@@ -3,14 +3,14 @@ product: campaign
 title: Campaign Classic 사용 중단 및 제거된 기능
 description: 이 페이지에는 Adobe Campaign Classic의 사용이 중단되었거나 제거된 기능이 있습니다.
 feature: Release Notes
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1515'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

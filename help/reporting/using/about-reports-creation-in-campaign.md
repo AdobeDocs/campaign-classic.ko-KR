@@ -2,14 +2,14 @@
 product: campaign
 title: 보고서를 만드는 주요 단계
 description: 보고서를 만드는 주요 단계 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+feature: Reporting, Monitoring
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 0%
+source-wordcount: '182'
+ht-degree: 1%
 
 ---
 

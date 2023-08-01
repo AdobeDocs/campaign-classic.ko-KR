@@ -2,14 +2,15 @@
 product: campaign
 title: FDA 커넥터 구성
 description: FDA에 대한 구성 단계 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '349'
 ht-degree: 5%
 
 ---
@@ -25,6 +26,7 @@ Adobe Campaign에서 액세스할 수 있게 하려는 외부 데이터베이스
 >[!NOTE]
 >
 >호환 버전이에 나열되어 있습니다. [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
+>
 
 ## 구성 단계 {#fda-configuration-steps}
 

@@ -2,14 +2,15 @@
 product: campaign
 title: 엔터프라이즈 배포
 description: 엔터프라이즈 배포
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Architecture, Deployment
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1220'
 ht-degree: 3%
 
 ---
@@ -120,19 +121,19 @@ ht-degree: 3%
 
    * 콘솔을 통해 인스턴스를 만듭니다.
 
-      ![](assets/install_create_new_connexion.png)
+     ![](assets/install_create_new_connexion.png)
 
-      자세한 내용은 다음을 참조하십시오. [인스턴스 만들기 및 로그온](../../installation/using/creating-an-instance-and-logging-on.md).
+     자세한 내용은 다음을 참조하십시오. [인스턴스 만들기 및 로그온](../../installation/using/creating-an-instance-and-logging-on.md).
 
-      또는
+     또는
 
    * 명령줄을 사용하여 인스턴스를 생성합니다.
 
-      ```
-      nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
-      ```
+     ```
+     nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
+     ```
 
-      자세한 내용은 다음을 참조하십시오. [인스턴스 만들기](../../installation/using/command-lines.md#creating-an-instance).
+     자세한 내용은 다음을 참조하십시오. [인스턴스 만들기](../../installation/using/command-lines.md#creating-an-instance).
 
 1. 편집 **config-demo.xml** 파일(이전 명령을 통해 만들어지고 **config-default.xml** file), **mta** (게재), **wfserver** (워크플로우), **inMail** (리바운드 메일) 및 **통계** (통계) 프로세스를 활성화한 다음 **앱** 통계 서버:
 

@@ -2,13 +2,13 @@
 product: campaign
 title: Federated Data Access 시작
 description: 외부 데이터베이스의 데이터에 액세스하고 처리하는 방법에 대해 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Federated Data Access
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 0%
+source-wordcount: '170'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ FDA 옵션을 사용하면 타사 데이터베이스에서 데이터 모델을 �
 * **구성**: 호환되는 외부 데이터베이스 목록은 다음에 따라 다릅니다. [호스팅 모델](../../installation/using/hosting-models.md).
 * **외부 데이터베이스 버전**: Adobe Campaign FDA 모듈과 호환되는 외부 데이터베이스가 있어야 합니다.
 
-   호스팅 모델별 데이터베이스 시스템 및 호환 버전 목록은 Campaign에 자세히 설명되어 있습니다 [호환성 매트릭스](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
+  호스팅 모델별 데이터베이스 시스템 및 호환 버전 목록은 Campaign에 자세히 설명되어 있습니다 [호환성 매트릭스](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
 
 * **권한**: 사용자에게 다음도 있어야 합니다. [필요한 권한](../../installation/using/remote-database-access-rights.md) Adobe Campaign 및 외부 데이터베이스에 있습니다.
 

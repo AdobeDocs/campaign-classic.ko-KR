@@ -2,14 +2,15 @@
 product: campaign
 title: 작업 만들기 및 관리
 description: 작업 만들기 및 관리
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Resource Management
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3729'
+source-wordcount: '3736'
 ht-degree: 0%
 
 ---
@@ -222,7 +223,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 ![](assets/mrm_task_first_notif.png)
 
-하지만 만들고 있는 작업이 너무 먼 경우에는 작업이 시작되기 전에 알림을 보내도록 예약하는 것이 좋습니다. 예를 들어 한 달 후에 작업이 시작되면 작업이 시작되기 1주일 전에 담당자에게 알릴 수 있습니다.
+그러나 만들고 있는 작업이 오래 걸리는 경우에는 작업이 시작되기 전에 알림을 보내도록 예약하는 것이 좋습니다. 예를 들어 한 달 후에 작업이 시작되면 작업이 시작되기 1주일 전에 담당자에게 알릴 수 있습니다.
 
 알림을 예약하려면 **[!UICONTROL Resources]** 상자 및 사용 **[!UICONTROL Initial notification]** 필드.
 
@@ -308,7 +309,7 @@ A **[!UICONTROL Control task]** 게재 승인(타기팅, 콘텐츠, 추출 파�
 * 운영자는 일반(다운로드 또는 업로드, 잠금 및 잠금 해제)과 같은 리소스 작업을 할 수 있습니다. 이는 작업에 영향을 주지 않습니다.
 * 다음 작업을 통해 리소스 승인 및 게시를 수행할 수 있습니다. **[!UICONTROL Publish the marketing resource]** 옵션이 활성화되어 있으면 리소스가 승인되고 작업이 완료되면 자동으로 게시됩니다. 옵션이 활성화되지 않은 경우 작업과 리소스는 상호 작용하지 않습니다. 한 작업에 대해 동작해도 다른 작업에 영향을 주지 않습니다.
 
-   일련의 연결된 작업을 사용하여 전체 승인 주기를 정의할 수 있습니다. 다음 확인: **[!UICONTROL Publish the marketing resource]** 마지막 작업에 대한 옵션만: 리소스를 게시하려면 모든 작업을 완료해야 합니다. 또한 하위 마케팅 리소스 작업을 만들면 하위 작업에서 리소스가 자동으로 선택됩니다.
+  일련의 연결된 작업을 사용하여 전체 승인 주기를 정의할 수 있습니다. 다음 확인: **[!UICONTROL Publish the marketing resource]** 마지막 작업에 대한 옵션만: 리소스를 게시하려면 모든 작업을 완료해야 합니다. 또한 하위 마케팅 리소스 작업을 만들면 하위 작업에서 리소스가 자동으로 선택됩니다.
 
    * **리소스를 통해**: 승인을 위해 리소스를 제출하거나 승인하는 경우 이러한 작업은 작업에 영향을 주지 않습니다.
    * **작업을 통해**: 다음 경우 **[!UICONTROL Publish the marketing resource]** 작업에서 옵션이 선택되어 있으면 리소스가 승인되고 작업이 완료되면 자동으로 게시됩니다(위 참조). 이 옵션을 선택하지 않으면 작업과 리소스가 상호 작용하지 않습니다. 한 작업에 대해 작업을 수행해도 다른 작업에는 영향을 주지 않습니다.
@@ -370,12 +371,12 @@ A **[!UICONTROL Control task]** 게재 승인(타기팅, 콘텐츠, 추출 파�
 
 만드는 동안 작업에 다음 요소를 입력해야 합니다.
 
-* **[!UICONTROL Assigned to]** : 이메일을 받을 운영자 또는 운영자 그룹. 전자 메일이 전송되면 작업을 다시 할당하면 새 운영자에게 전자 메일이 전송되지 않습니다. 이렇게 하려면 작업을 다시 초기화하고 시작 날짜를 변경해야 합니다.
+* **[!UICONTROL Assigned to]** : 이메일을 받을 운영자 또는 운영자 그룹. 이메일을 보낸 후 작업을 다시 할당하면 새 운영자에게 이메일이 전송되지 않습니다(이렇게 하려면 작업을 다시 초기화하고 시작 날짜를 변경해야 함).
 * **작업 시작일**: 알림 이메일을 전송할 날짜입니다. 이 날짜는 작업 기록 시 미래여야 합니다.
 * **작업 종료일**: 작업 상태가 변경되는 날짜 **[!UICONTROL Finished]**. 기본적으로 종료 날짜는 시작 날짜와 동일합니다. 그러나 작업에 기간을 할당하면 필요한 경우 운영자가 일정에서 수행해야 하는 시간을 상징할 수 있습니다.
 * **[!UICONTROL Description]** : 여기에 입력한 텍스트가 알림 이메일의 본문에 표시됩니다.
 
-   ![](assets/mrm_task_notif_dashboard_msg.png)
+  ![](assets/mrm_task_notif_dashboard_msg.png)
 
 작업 및 알림 이메일에 첨부 파일을 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL Documents]** 아이콘 을 클릭하여 오른쪽 상단의 도구 모음에 액세스합니다.
 
@@ -437,7 +438,6 @@ A **[!UICONTROL Control task]** 게재 승인(타기팅, 콘텐츠, 추출 파�
 >* 유효기간이 종료되었더라도 종결되지 않은 업무는 계속 진행 중인 업무 목록에 나타난다. 경고는 작업이 지연되었음을 운영자에게 알립니다.
 >
 
-
 ### 작업 진행 상태 {#progress-status-of-a-task}
 
 실행 상태 외에도 작업을 진행 상태와 연결할 수 있습니다. **[!UICONTROL Late]**, **[!UICONTROL To approve]**, **[!UICONTROL To do today]** 또는 **[!UICONTROL To do this week]**. 이 정보는 작업 일정에 따라 자동으로 입력됩니다.
@@ -466,7 +466,7 @@ A **[!UICONTROL Control task]** 게재 승인(타기팅, 콘텐츠, 추출 파�
    * 알림 이메일을 통해
    * 콘솔 또는 웹 인터페이스를 통해 작업 대시보드를 만듭니다.
 
-      ![](assets/s_ncs_user_task_start_rea.png)
+     ![](assets/s_ncs_user_task_start_rea.png)
 
 1. 참가자가 작업을 승인할 때마다 작업의 진행 상태가 업데이트됩니다.
 

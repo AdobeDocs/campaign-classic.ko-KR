@@ -2,14 +2,14 @@
 product: campaign
 title: 콘텐츠 편집 모범 사례
 description: 콘텐츠 편집 모범 사례
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Web Apps, Web Forms, Landing Pages
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 6%
+source-wordcount: '560'
+ht-degree: 7%
 
 ---
 
@@ -23,21 +23,21 @@ ht-degree: 6%
 * HTML 페이지에 **JavaScript 스크립트**, 실행해야 합니다. **오류 없이** 편집기 외부.
 * 템플릿을 작성할 때 태그에 **&#39;type&#39;** 속성을 추가하는 것이 좋습니다. `<input>` 이 정보는 편집기에서 처리되며 사용자가 웹 응용 프로그램을 구성할 때 데이터베이스의 필드를 양식의 필드에 연결하는 데 도움이 됩니다.
 
-   템플릿의 HTML 코드 예제:
+  템플릿의 HTML 코드 예제:
 
-   ```
-   <input id="email" type="email" name="email"/>
-   ```
+  ```
+  <input id="email" type="email" name="email"/>
+  ```
 
-   다음 **&#39;type&#39;** 속성은 인터페이스에 다음 형식으로 표시됩니다.
+  다음 **&#39;type&#39;** 속성은 인터페이스에 다음 형식으로 표시됩니다.
 
-   ![](assets/dce_sidebar_inputtypechanges.png)
+  ![](assets/dce_sidebar_inputtypechanges.png)
 
-   &#39;type&#39; 속성의 공식 목록을 사용할 수 있습니다. [이 웹 사이트에서](https://www.w3schools.com/tags/att_input_type.asp).
+  &#39;type&#39; 속성의 공식 목록을 사용할 수 있습니다. [이 웹 사이트에서](https://www.w3schools.com/tags/att_input_type.asp).
 
 * DCE를 사용하여 종료 페이지를 시뮬레이션하는 단계:
 
-   ![](assets/dce_enchainement.png)
+  ![](assets/dce_enchainement.png)
 
 * 하나만 있어야 합니다. `<body> </body>` 을 누릅니다.
 * CSS 또는 JS 파일이 업로드되면 .zip 파일 내에 포함된 이미지가 업로드되지 않습니다. 따라서 CSS에 있는 이러한 이미지에 대한 참조는 업데이트되지 않습니다.

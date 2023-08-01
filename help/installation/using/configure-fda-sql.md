@@ -2,11 +2,12 @@
 product: campaign
 title: Microsoft SQL Server 액세스 구성
 description: Microsoft SQL Server에 대한 액세스를 구성하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---

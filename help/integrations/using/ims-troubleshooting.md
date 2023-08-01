@@ -2,15 +2,16 @@
 product: campaign
 title: IMS 문제 해결
 description: IMS 문제 해결
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Configuration
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '419'
 ht-degree: 2%
 
 ---
@@ -75,12 +76,12 @@ Campaign 외부 계정의 위의 설정이 변경되면 서버를 다시 시작�
 
 * 사용자가 adobe.com 페이지로 리디렉션됩니다.
 
-   에 문제가 있습니다. **[!UICONTROL Callback URL]**. 이전 단계를 참조하여 다음을 확인하십시오. **[!UICONTROL Callback URL]** 구성.
+  에 문제가 있습니다. **[!UICONTROL Callback URL]**. 이전 단계를 참조하여 다음을 확인하십시오. **[!UICONTROL Callback URL]** 구성.
 
 * &quot;로그인에 표현식과 일치하는 권한이 없습니다.&quot; 메시지:
 
-   이전 단계를 참조하여 다음을 확인하십시오. **[!UICONTROL Association Mask]** 및 연산자 그룹 구성.
+  이전 단계를 참조하여 다음을 확인하십시오. **[!UICONTROL Association Mask]** 및 연산자 그룹 구성.
 
 * Adobe ID 로그인 페이지에 액세스할 수 없습니다.
 
-   범위 구성을 확인하려면 이전 단계를 참조하십시오.
+  범위 구성을 확인하려면 이전 단계를 참조하십시오.

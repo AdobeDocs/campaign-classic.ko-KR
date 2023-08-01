@@ -2,16 +2,17 @@
 product: campaign
 title: Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성
 description: Adobe Experience Cloud Triggers용 Adobe I/O을 구성하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Triggers
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: integrations
 content-type: reference
 index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 4%
 
 ---

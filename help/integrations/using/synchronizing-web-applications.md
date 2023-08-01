@@ -2,14 +2,14 @@
 product: campaign
 title: 웹 애플리케이션 동기화
 description: 웹 애플리케이션을 ACS 커넥터와 동기화하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 hide: true
 hidefromtoc: true
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '808'
 ht-degree: 1%
 
 ---

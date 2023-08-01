@@ -2,16 +2,17 @@
 product: campaign
 title: Campaign에 중간 소싱 서버 설치
 description: 이 섹션에서는 Campaign의 중간 소싱 서버 설치 및 구성에 대해 자세히 설명합니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 1%
+source-wordcount: '1020'
+ht-degree: 2%
 
 ---
 
@@ -47,32 +48,32 @@ ht-degree: 1%
 
 * 단계: **5**, 다음을 비활성화해야 합니다. **mta** (게재) 및 **inMail** (바운스 메일) 모듈입니다. 다음 **wfserver** (워크플로우) 그러나 모듈은 활성화 상태를 유지해야 합니다.
 
-   ```
-   <?xml version='1.0'?>
-   <serverconf>  
-     <shared>    
-       <!-- add lang="eng" to dataStore to force English for the instance -->    
-       <dataStore hosts="console.campaign.net*">      
-         <mapping logical="*" physical="default"/>    
-       </dataStore>  </shared>  
-       <mta autoStart="false"/>  
-       <wfserver autoStart="true"/>  
-       <inMail autoStart="false"/>  
-       <sms autoStart="false"/>  
-       <listProtect autoStart="false"/>
-   </serverconf>
-   ```
+  ```
+  <?xml version='1.0'?>
+  <serverconf>  
+    <shared>    
+      <!-- add lang="eng" to dataStore to force English for the instance -->    
+      <dataStore hosts="console.campaign.net*">      
+        <mapping logical="*" physical="default"/>    
+      </dataStore>  </shared>  
+      <mta autoStart="false"/>  
+      <wfserver autoStart="true"/>  
+      <inMail autoStart="false"/>  
+      <sms autoStart="false"/>  
+      <listProtect autoStart="false"/>
+  </serverconf>
+  ```
 
-   이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#enabling-processes)을 참조하십시오.
+  이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#enabling-processes)을 참조하십시오.
 
 * 단계 **6**, **9** 및 **10** 필요 없습니다.
-* 단계 중 **12** 및 **13**&#x200B;를 사용하려면 연결 URL에 8080 포트를 표시해야 합니다(콘솔이 웹 서버를 통하지 않고 Tomcat과 직접 통신하므로). URL은 `http://console.campaign.net:8080`. 단계 중 **13**&#x200B;를 선택하고 **[!UICONTROL Issue towards Mid-sourcing]** 설치할 패키지와 패키지를 제공합니다.
+* 단계 중 **12** 및 **13**&#x200B;를 사용하려면 연결 URL에 8080 포트를 나타내야 합니다(콘솔은 웹 서버를 통하지 않고 Tomcat과 직접 통신하므로). URL은 `http://console.campaign.net:8080`. 단계 중 **13**&#x200B;를 선택하고 **[!UICONTROL Issue towards Mid-sourcing]** 설치할 패키지와 패키지를 제공합니다.
 
-   ![](assets/s_ncs_install_midsourcing02.png)
+  ![](assets/s_ncs_install_midsourcing02.png)
 
-   >[!CAUTION]
-   >
-   >기술 게재의 기본 라우팅은 중간 소싱을 통한 이메일 라우팅으로 자동 대체됩니다.
+  >[!CAUTION]
+  >
+  >기술 게재의 기본 라우팅은 중간 소싱을 통한 이메일 라우팅으로 자동 대체됩니다.
 
 ### 중간 소싱 서버 설치 및 구성 {#installing-and-configuring-the-mid-sourcing-server}
 

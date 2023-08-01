@@ -2,14 +2,14 @@
 product: campaign
 title: Adobe Analytics 커넥터
 description: Adobe Analytics 커넥터에 대해 자세히 알아보십시오.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Overview
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1510'
 ht-degree: 88%
 
 ---
@@ -27,7 +27,6 @@ Adobe Analytics 커넥터를 사용하면 Adobe Campaign 및 Adobe Analytics이 
 >* Adobe Analytics 커넥터는 트랜잭션 메시지(메시지 센터)와 호환되지 않습니다.
 >
 >* 시작하기 전에 Adobe IMS(Identity Management System)가 Campaign에서 구현되어 있는지 확인하십시오. [이 페이지에서 자세히 알아보십시오](../../integrations/using/about-adobe-id.md).
-
 
 Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상자를 측정하는 방법(웹 분석)이 있습니다. 이러한 통합 덕분에 Adobe Campaign은 마케팅 캠페인 후 하나 이상의 사이트에 대한 방문자 동작에 대한 데이터를 복구한 다음 (분석 후) 재마케팅 캠페인을 실행하여 방문자를 바이어로 전환할 수 있습니다. 반대로 웹 분석 도구를 사용하면 Adobe Campaign에서 지표와 캠페인 속성을 플랫폼에 전달할 수 있습니다.
 
@@ -227,9 +226,9 @@ Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작
 * **[!UICONTROL Identification of converted contacts]**: 리마케팅 캠페인 후 구매한 방문자의 디렉토리. 이 워크플로우에서 수집한 데이터는 **[!UICONTROL Re-marketing efficiency]** 보고서에서 액세스할 수 있습니다. 이 [페이지](#creating-a-re-marketing-campaign)를 참조하십시오.
 * **[!UICONTROL Sending of indicators and campaign attributes]**: Adobe Analytics Connector를 사용하여 Adobe Campaign을 통해 Adobe Experience Cloud으로 캠페인 지표를 보낼 수 있습니다. 이 워크플로우는 매일 오전 4시에 트리거되며 데이터를 Analytics에 전송하는 데 24시간이 걸릴 수 있습니다.
 
-   이 워크플로우를 다시 시작하지 않아야 합니다. 그렇지 않으면 Analytics 결과를 왜곡할 수 있는 모든 이전 데이터가 다시 전송됩니다.
+  이 워크플로우를 다시 시작하지 않아야 합니다. 그렇지 않으면 Analytics 결과를 왜곡할 수 있는 모든 이전 데이터가 다시 전송됩니다.
 
-   관련 지표는 다음과 같습니다.
+  관련 지표는 다음과 같습니다.
 
    * **[!UICONTROL Messages to deliver]** (@toDeliver)
    * **[!UICONTROL Processed]** (@processed)
@@ -242,11 +241,11 @@ Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작
    * **[!UICONTROL Opt-Out]** (@optOut)
    * **[!UICONTROL Errors]** (@error)
 
-   >[!NOTE]
-   >
-   >전송된 데이터는 지표 데이터에서 음수 값을 초래할 수 있는 마지막 스냅샷을 기반으로 하는 델타입니다.
+  >[!NOTE]
+  >
+  >전송된 데이터는 지표 데이터에서 음수 값을 초래할 수 있는 마지막 스냅샷을 기반으로 하는 델타입니다.
 
-   전송된 속성은 다음과 같습니다.
+  전송된 속성은 다음과 같습니다.
 
    * **[!UICONTROL Internal name]** (@internalName)
    * **[!UICONTROL Label]** (@label)
@@ -256,7 +255,6 @@ Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작
    * **[!UICONTROL Tag 2]** (webAnalytics/@tag2)
    * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
    * **[!UICONTROL Contact date]** (scheduling/@contactDate)
-
 
 ## Adobe Campaign에서 게재 추적 {#tracking-deliveries-in-adobe-campaign}
 

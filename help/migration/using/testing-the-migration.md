@@ -2,16 +2,17 @@
 product: campaign
 title: 마이그레이션 테스트
 description: 마이그레이션 테스트
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
 hide: true
 hidefromtoc: true
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '713'
 ht-degree: 4%
 
 ---
@@ -55,47 +56,46 @@ ht-degree: 4%
 
 * 다음에서 **config** 명령:
 
-   ```
-   nlserver.exe config <option> -instance:<instance-name>
-   ```
+  ```
+  nlserver.exe config <option> -instance:<instance-name>
+  ```
 
 * 또는 업그레이드 후 다음을 수행합니다.
 
-   ```
-   nlserver.exe config -postupgrade <option> -instance:<instance-name>
-   ```
+  ```
+  nlserver.exe config -postupgrade <option> -instance:<instance-name>
+  ```
 
 >[!NOTE]
 >
 >* 다음을 사용해야 합니다. **-인스턴스:`<instanceame>`** 옵션을 선택합니다. 사용하지 않는 것이 좋습니다. **-allinstances** 옵션을 선택합니다.
 >* Adobe Campaign update 명령(**업그레이드 후**) 리소스를 동기화하고 스키마와 데이터베이스를 업데이트할 수 있습니다. 이 작업은 응용 프로그램 서버에서만 한 번만 수행할 수 있습니다. 리소스를 동기화한 후 **업그레이드 후** 명령을 사용하면 동기화에서 오류나 경고가 생성되는지 감지할 수 있습니다.
 
-
 ### 비표준 또는 누락된 개체
 
 * 다음 **-showCustomEntities** 옵션은 모든 비표준 객체 목록을 표시합니다.
 
-   ```
-   nlserver.exe config -showCustomEntities -instance:<instance-name>
-   ```
+  ```
+  nlserver.exe config -showCustomEntities -instance:<instance-name>
+  ```
 
-   보낸 메시지의 예:
+  보낸 메시지의 예:
 
-   ```
-   xtk_migration:opsecurity2 xtk:entity
-   ```
+  ```
+  xtk_migration:opsecurity2 xtk:entity
+  ```
 
 * 다음 **-showDeletedEntities** 옵션은 데이터베이스 또는 파일 시스템에서 누락된 모든 표준 객체 목록을 표시합니다. 누락된 각 개체에 대해 경로가 지정됩니다.
 
-   ```
-   nlserver.exe config -showDeletedEntities -instance:<instance-name>
-   ```
+  ```
+  nlserver.exe config -showDeletedEntities -instance:<instance-name>
+  ```
 
-   보낸 메시지의 예:
+  보낸 메시지의 예:
 
-   ```
-   Out of the box object 'nms:deliveryCustomizationMdl' belonging to the 'xtk:srcSchema' schema has not been found in the file system.
-   ```
+  ```
+  Out of the box object 'nms:deliveryCustomizationMdl' belonging to the 'xtk:srcSchema' schema has not been found in the file system.
+  ```
 
 ### 확인 프로세스 {#verification-process}
 

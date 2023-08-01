@@ -2,14 +2,15 @@
 product: campaign
 title: Google BigQuery에 대한 액세스 구성
 description: FDA에서 Google BigQuery에 대한 액세스를 구성하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '802'
 ht-degree: 2%
 
 ---
@@ -42,19 +43,19 @@ Adobe Campaign Classic 사용 **페더레이션 데이터 액세스** (FDA) 외�
 
    * **[!UICONTROL Project]**: 기존 프로젝트를 만들거나 사용합니다.
 
-      자세한 내용은 다음을 참조하십시오. [페이지](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+     자세한 내용은 다음을 참조하십시오. [페이지](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
 
    * **[!UICONTROL Service account]**: 서비스 계정을 만듭니다.
 
-      자세한 내용은 다음을 참조하십시오. [페이지](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+     자세한 내용은 다음을 참조하십시오. [페이지](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
 
    * **[!UICONTROL Key File Path]**: **[!UICONTROL Service account]** 을(를) 필요로 함 **[!UICONTROL Key File]** 용 [!DNL Google BigQuery] ODBC를 통한 연결.
 
-      자세한 내용은 다음을 참조하십시오. [페이지](https://cloud.google.com/iam/docs/creating-managing-service-account-keys).
+     자세한 내용은 다음을 참조하십시오. [페이지](https://cloud.google.com/iam/docs/creating-managing-service-account-keys).
 
    * **[!UICONTROL Dataset]**: **[!UICONTROL Dataset]** 는 ODBC 연결에 대해 선택 사항입니다. 모든 쿼리는 테이블이 있는 데이터 세트를 제공해야 하므로 **[!UICONTROL Dataset]** 은(는) 의 필수 항목입니다. [!DNL Google BigQuery] Adobe Campaign Classic의 FDA 커넥터.
 
-      자세한 내용은 다음을 참조하십시오. [페이지](https://cloud.google.com/bigquery/docs/datasets).
+     자세한 내용은 다음을 참조하십시오. [페이지](https://cloud.google.com/bigquery/docs/datasets).
 
 1. 그런 다음 Adobe Campaign Classic에서 다음을 구성할 수 있습니다. [!DNL Google BigQuery] 외부 계정입니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#google-external).
 
@@ -94,35 +95,35 @@ Adobe Campaign Classic 사용 **페더레이션 데이터 액세스** (FDA) 외�
 
    * Red Hat/CentOS의 경우:
 
-      ```
-      yum update
-      yum upgrade
-      yum install -y grep sed tar wget perl curl
-      ```
+     ```
+     yum update
+     yum upgrade
+     yum install -y grep sed tar wget perl curl
+     ```
 
    * Debian의 경우:
 
-      ```
-      apt-get update
-      apt-get upgrade
-      apt-get install -y grep sed tar wget perl curl
-      ```
+     ```
+     apt-get update
+     apt-get upgrade
+     apt-get install -y grep sed tar wget perl curl
+     ```
 
 1. 설치하기 전에 시스템 업데이트:
 
    * Red Hat/CentOS의 경우:
 
-      ```
-      # install unixODBC driver manager
-      yum install -y unixODBC
-      ```
+     ```
+     # install unixODBC driver manager
+     yum install -y unixODBC
+     ```
 
    * Debian의 경우:
 
-      ```
-      # install unixODBC driver manager
-      apt-get install -y odbcinst1debian2 libodbc1 odbcinst unixodbc
-      ```
+     ```
+     # install unixODBC driver manager
+     apt-get install -y odbcinst1debian2 libodbc1 odbcinst unixodbc
+     ```
 
 1. 스크립트를 실행하기 전에 —help 인수를 지정하여 자세한 정보를 얻을 수 있습니다.
 
@@ -152,19 +153,19 @@ Adobe Campaign Classic 사용 **페더레이션 데이터 액세스** (FDA) 외�
 
    * Red Hat/CentOS의 경우:
 
-      ```
-      yum update
-      yum upgrade
-      yum install -y python3
-      ```
+     ```
+     yum update
+     yum upgrade
+     yum install -y python3
+     ```
 
    * Debian의 경우:
 
-      ```
-      apt-get update
-      apt-get upgrade
-      apt-get install -y python3
-      ```
+     ```
+     apt-get update
+     apt-get upgrade
+     apt-get install -y python3
+     ```
 
 1. 스크립트가 있는 디렉토리에 액세스하여 다음 스크립트를 실행합니다.
 
@@ -195,6 +196,7 @@ Adobe Campaign Classic 사용 **페더레이션 데이터 액세스** (FDA) 외�
       * **[!UICONTROL Upload key file to the server]**: 선택 **[!UICONTROL Click here to upload]** Adobe Campaign Classic을 통해 키를 업로드하도록 선택하는 경우.
 
       * **[!UICONTROL Enter manually the key file path]**: 기존 키를 사용하도록 선택하는 경우 이 필드에 절대 경로를 복사하거나 붙여 넣습니다.
+
    * **[!UICONTROL Dataset]**: 의 이름 **[!UICONTROL Dataset]**. 자세한 내용은 다음을 참조하십시오. [Google Cloud 설명서](https://cloud.google.com/bigquery/docs/datasets-intro).
 
    ![](assets/google-big-query.png)

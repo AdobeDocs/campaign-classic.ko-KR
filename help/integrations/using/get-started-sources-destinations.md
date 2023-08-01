@@ -2,13 +2,14 @@
 product: campaign
 title: 소스 및 대상 시작
 description: Adobe Experience Platform 소스 및 대상에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Platform Integration
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '313'
 ht-degree: 15%
 
 ---

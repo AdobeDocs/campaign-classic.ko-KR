@@ -3,14 +3,14 @@ product: campaign
 title: 최신 릴리스
 description: 최신 Campaign Classic v7 릴리스 정보
 feature: Release Notes
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ _2023년 3월 20일_
 
 ## 릴리스 7.3.2 - 빌드 9356 {#release-7-3-2}
 
-[!BADGE 제한 공개]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
+[!BADGE 제한된 가용성]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한된 가용성"}
 
 _2022년 11월 21일_
 

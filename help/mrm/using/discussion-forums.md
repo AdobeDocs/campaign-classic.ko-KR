@@ -2,14 +2,15 @@
 product: campaign
 title: 토론 포럼
 description: Campaign 토론 포럼 사용 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Resource Management
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -80,27 +81,27 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 
 ## 포럼 구독 {#subscribing-to-a-forum}
 
-포럼에 가입하면 토론을 따를 수 있습니다. 포럼에 메시지가 게시될 때마다 이메일 알림을 받게 됩니다. 이 이메일에는 메시지 본문과 첨부 파일이 포함됩니다. 메시지에 응답하려면 이메일 본문을 클릭한 다음 Adobe Campaign 웹 인터페이스에 로그인합니다. 포럼에 가입하면 모든 사용자가 이 정보를 볼 수 있습니다.
+포럼에 가입하면 토론을 따를 수 있습니다. 포럼에 메시지가 게시될 때마다 이메일 알림을 받게 됩니다. 이 이메일에는 메시지 본문과 첨부 파일이 포함됩니다. 메시지에 응답하려면 이메일 본문을 클릭한 다음 Adobe Campaign 웹 인터페이스에 로그인합니다. 포럼에 가입하면 이 정보가 모든 사용자에게 표시됩니다.
 
 * 포럼에 가입하려면 **[!UICONTROL Follow discussions]** 메시지 목록 위에 있는 오른쪽 상단 섹션의 단추입니다.
 
-   ![](assets/mrm_forum_subscribe.png)
+  ![](assets/mrm_forum_subscribe.png)
 
-   섹션이 파란색으로 바뀌고 포럼에 가입했음을 보여 줍니다.
+  섹션이 파란색으로 바뀌고 포럼에 가입했음을 보여 줍니다.
 
 * 포럼에서 가입을 해지하려면 **[!UICONTROL Unsubscribe]** 단추를 클릭합니다.
 
-   ![](assets/mrm_forum_unsubscribe.png)
+  ![](assets/mrm_forum_unsubscribe.png)
 
 * 개인 대시보드에는 구독 중인 포럼이 나열됩니다. 다음을 클릭합니다. **[!UICONTROL Subscription to discussion forums]** 링크를 클릭하여 목록을 표시한 다음, 원하는 항목을 클릭하여 해당 포럼에 액세스합니다.
 
-   ![](assets/platform_dashboard_operator_subscr_forums.png)
+  ![](assets/platform_dashboard_operator_subscr_forums.png)
 
-   개인 대시보드에 대한 자세한 내용은 [이 섹션](../../platform/using/access-management-operators.md).
+  개인 대시보드에 대한 자세한 내용은 [이 섹션](../../platform/using/access-management-operators.md).
 
 * 포럼을 구독하는 사용자를 보려면 **[!UICONTROL List of subscribers to this discussion forum]** 메시지 목록 위에 연결합니다.
 
-   ![](assets/mrm_forum_subscribers.png)
+  ![](assets/mrm_forum_subscribers.png)
 
 ## 알림 게재 확인 {#checking-notification-delivery}
 
@@ -112,4 +113,5 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 
    * Adobe Campaign 홈페이지에서 **[!UICONTROL Campaigns > Navigation > Deliveries]**&#x200B;을(를) 열고 **[!UICONTROL Discussion forum notification]** 게재.
    * 탐색기에서 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Discussion forum notifications]**.
-   다음에서 **[!UICONTROL Discussion forum notifications]** 상자에서 게재 로그는 **[!UICONTROL Edit > Delivery]** 탭. 다음을 볼 수도 있습니다. **[!UICONTROL Tracking > Log]** 및 **[!UICONTROL Exclusion causes]** 탭.
+
+  다음에서 **[!UICONTROL Discussion forum notifications]** 상자에서 게재 로그는 **[!UICONTROL Edit > Delivery]** 탭. 다음을 볼 수도 있습니다. **[!UICONTROL Tracking > Log]** 및 **[!UICONTROL Exclusion causes]** 탭.

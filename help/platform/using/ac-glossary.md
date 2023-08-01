@@ -2,10 +2,11 @@
 product: campaign
 title: Adobe Campaign 용어집
 description: Adobe Campaign 용어집
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '5974'
 ht-degree: 4%
@@ -594,7 +595,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 *컨텍스트: 캠페인 상호 작용*
 
-오퍼 **디자인 환경** 은 운영자가 오퍼를 만들고 유형화 규칙을 정의하고 오퍼가 타깃팅할 스키마를 선택하는 환경입니다. 생성된 오퍼 제안을 저장하는 테이블은 환경에 의해서도 정의됩니다. 기본적으로 상호 작용 추가 기능에는 **디자인** 환경 및 **라이브** 연결된 환경입니다. 두 환경 모두 기본 제공 수신자 테이블을 타깃팅하도록 사전 구성되어 있습니다.
+오퍼 **디자인 환경** 은 운영자가 오퍼를 만들고 유형화 규칙을 정의하고 오퍼가 타깃팅할 스키마를 선택하는 환경입니다. 생성된 오퍼 제안을 저장하는 테이블은 환경에 의해서도 정의됩니다. 기본적으로 상호 작용 추가 기능에는 **디자인** 환경 및 **라이브** 연결된 환경입니다. 두 환경 모두 기본 제공 수신자 테이블을 타겟팅하도록 사전 구성되어 있습니다.
 
 자세히 알아보기 [오퍼 디자인 환경](../../interaction/using/fundamental-principles.md).
 +++
@@ -948,7 +949,7 @@ Target 매핑은 게재 채널을 특정 데이터 유형에 매핑하는 것입
 자세히 알아보기 [타겟팅 활동](../../workflow/using/about-targeting-activities.md).
 +++
 
-+++**대상 차원**
++++**타겟팅 차원**
 
 타겟팅 차원은 쿼리 또는 기타 워크플로우 활동에 의해 생성(반환)되는 데이터 유형입니다. Adobe Campaign은 데이터베이스 행을 가져오는 데 사용된 쿼리에 관계없이 응답자 데이터베이스 행의 기본 키만 반환합니다.
 

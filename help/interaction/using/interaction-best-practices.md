@@ -2,14 +2,15 @@
 product: campaign
 title: Adobe Campaign Classic 상호 작용 모범 사례
 description: 이 섹션에서는 Adobe Campaign Classic의 상호 작용 모듈을 관리하는 모범 사례 접근 방식을 제공합니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Interaction, Offers
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 98413cde-50c9-416c-8316-85837f724c27
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
@@ -85,7 +86,7 @@ Adobe Campaign에서의 상호 작용을 효율적으로 운영하려면 세심�
 
 단일 이메일 게재에 여러 오퍼 공간을 포함할 때, 일부 오퍼 공간에는 렌더링 기능이 있고 일부 오퍼 공간에는 렌더링 기능이 없는 경우, 어떤 오퍼가 어떤 오퍼 공간을 사용하는지, 어떤 오퍼 공간에 렌더링 기능이 있는지 기억해야 합니다.
 
-따라서 오퍼 스페이스에 HTML 컨텐츠만 필요한 경우에도 모든 오퍼 스페이스에 HTML 렌더링 기능이 정의되어 있는 것이 좋습니다.
+따라서 오퍼 공간에 HTML 콘텐츠만 필요하더라도 문제를 방지하려면 모든 오퍼 공간에 HTML 렌더링 기능이 정의되어 있는 것이 좋습니다.
 
 ### 제안 로그 테이블에서 등급 설정 {#rank-proposition-log-table}
 
@@ -127,9 +128,9 @@ nms:offer 스키마를 확장할 때 이미 설정된 기본 구조를 따라야
 * 아래에 콘텐츠 저장을 위한 새 필드 정의 `<element name="view">`.
 * 각 새 필드를 두 번 정의해야 합니다. 한 번은 일반 XML 필드로 사용하고 한 번은 이름에 &quot;_jst&quot;가 추가된 CDATA XML 필드로 사용합니다. 예제:
 
-   ```
-   <element label="Price" name="price" type="long" xml="true"/>
-   <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
-   ```
+  ```
+  <element label="Price" name="price" type="long" xml="true"/>
+  <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
+  ```
 
 * 추적할 URL이 포함된 모든 필드는 `<element name="trackedUrls">` 다음에서 찾을 수 있음 `<element name="view" >`.

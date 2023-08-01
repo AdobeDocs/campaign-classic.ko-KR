@@ -2,11 +2,12 @@
 product: campaign
 title: 추가 SQL 함수 추가
 description: 추가 SQL 함수 정의 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Configuration, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -66,20 +67,20 @@ Adobe Campaign을 통해 사용자는 **고유의 기능** 데이터베이스에
 * 다음 **buildVersion** 및 **buildNumber** 필드는 필수입니다. 콘솔이 연결된 서버 번호와 일치해야 합니다. 이 정보는 &quot;도움말/정보&quot; 상자에서 찾을 수 있습니다.
 * 다음 블록, **엔티티** 및 **기능 목록** 필수 항목입니다. funcList에서 &quot;name&quot; 및 &quot;namespace&quot; 필드는 필수이지만 이름은 사용자가 결정할 수 있도록 남겨두고 함수 목록을 고유하게 지정합니다.
 
-   즉, 네임스페이스/이름 쌍이 동일한 다른 함수 목록(여기서 &quot;cus::myList&quot;)을 가져오는 경우 이전에 가져온 함수가 삭제됩니다. 반대로 이 네임스페이스/이름 쌍을 변경하면 가져온 새로운 일련의 함수가 이전 함수에 추가됩니다.
+  즉, 네임스페이스/이름 쌍이 동일한 다른 함수 목록(여기서 &quot;cus::myList&quot;)을 가져오는 경우 이전에 가져온 함수가 삭제됩니다. 반대로 이 네임스페이스/이름 쌍을 변경하면 가져온 새로운 일련의 함수가 이전 함수에 추가됩니다.
 
 * 다음 **그룹** 요소를 사용하여 가져온 함수가 함수 편집기에 나타날 함수 그룹을 지정할 수 있습니다. @name 속성은 이미 존재하는 이름(이 경우 함수가 고려된 그룹에 추가됨) 또는 새 이름(이 경우 새 그룹에 표시됨)일 수 있습니다.
 * 미리 알림: 의 @name 속성에 가능한 값 `<group>` 요소는 다음과 같습니다.
 
-   ```
-     name="aggregate"      ( label="Aggregates"         )
-     name="string"             ( label="String"           )
-     name="date"               ( label="Date"             )
-     name="numeric"          ( label="Numeric"        )
-     name="geomarketing" ( label="Geomarketing"     )
-     name="other"              ( label="Others"           )
-     name="window"          ( label="Windowing functions" )
-   ```
+  ```
+    name="aggregate"      ( label="Aggregates"         )
+    name="string"             ( label="String"           )
+    name="date"               ( label="Date"             )
+    name="numeric"          ( label="Numeric"        )
+    name="geomarketing" ( label="Geomarketing"     )
+    name="other"              ( label="Others"           )
+    name="window"          ( label="Windowing functions" )
+  ```
 
 >[!IMPORTANT]
 >
@@ -108,13 +109,13 @@ Adobe Campaign을 통해 사용자는 **고유의 기능** 데이터베이스에
 * **도움말** 는 표현식 편집기 창 하단에 표시되는 필드입니다.
 * **@display** 는 유용한 메시지입니다.
 
-   >[!NOTE]
-   >
-   >@help 및 @display 속성에서 문자열 &quot;$1&quot;은(는) 첫 번째 함수 매개 변수(여기서는 &quot;Age&quot;)에 제공된 이름을 나타냅니다. $2, $3... 은(는) 다음 매개 변수를 나타냅니다. 아래에 설명된 @body 속성에서 $1은 호출 동안 함수에 전달되는 인수 값을 지정합니다.
+  >[!NOTE]
+  >
+  >@help 및 @display 속성에서 문자열 &quot;$1&quot;은(는) 첫 번째 함수 매개 변수(여기서는 &quot;Age&quot;)에 제공된 이름을 나타냅니다. $2, $3... 은(는) 다음 매개 변수를 나타냅니다. 아래에 설명된 @body 속성에서 $1은 호출 동안 함수에 전달되는 인수 값을 지정합니다.
 
-   >[!NOTE]
-   >
-   >설명은 유효한 XML 문자의 문자열이어야 합니다. &lt; 및 > 대신 &#39;&lt;&#39; 및 &#39;>&#39;를 사용하십시오.
+  >[!NOTE]
+  >
+  >설명은 유효한 XML 문자의 문자열이어야 합니다. &lt; 및 > 대신 &#39;&lt;&#39; 및 &#39;>&#39;를 사용하십시오.
 
 * **@type** 는 함수 반환 형식이며 표준 값(long, string, byte, datetime...)입니다. 생략하면 서버에서 함수를 구현하는 식 내에서 사용 가능한 형식 중 최상의 형식을 결정합니다.
 * **@minArgs** 및 **maxArgs** 매개변수에 대한 매개변수 수(최소 및 최대)를 지정합니다. 예를 들어 매개 변수가 2개인 함수의 경우 minArgs와 maxArgs는 2와 2가 됩니다. 3개의 매개 변수와 1개의 선택적 매개 변수의 경우 각각 3과 4가 됩니다.
@@ -123,9 +124,9 @@ Adobe Campaign을 통해 사용자는 **고유의 기능** 데이터베이스에
    * 다음 **공급자** 속성은 필수 항목이며, 구현이 제공되는 데이터베이스 시스템을 지정합니다. 예제에서 보듯이 표현식 구문 또는 기본 함수가 다른 경우 데이터베이스에 따라 대체 구현이 제공될 수 있습니다.
    * 다음 **@body** 속성에는 함수 구현이 포함됩니다. 참고: 이 구현은 코드 블록이 아닌 데이터베이스 언어로 된 표현식이어야 합니다. 데이터베이스에 따라 표현식은 단일 값만 반환하는 하위 쿼리(&quot;(select column from table where...)&quot;)일 수 있습니다. 예를 들어 Oracle의 경우(쿼리는 대괄호로 작성해야 함)입니다.
 
-   >[!NOTE]
-   >
-   >정의된 함수에 의해 하나 또는 두 개의 데이터베이스만 쿼리될 가능성이 있는 경우 이러한 데이터베이스에 해당하는 정의만 항상 제공할 수 있습니다.
+  >[!NOTE]
+  >
+  >정의된 함수에 의해 하나 또는 두 개의 데이터베이스만 쿼리될 가능성이 있는 경우 이러한 데이터베이스에 해당하는 정의만 항상 제공할 수 있습니다.
 
 ## &#39;통과&#39; 함수 설명자 {#pass-through--function-descriptor}
 

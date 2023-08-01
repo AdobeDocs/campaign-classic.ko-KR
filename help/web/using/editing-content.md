@@ -2,13 +2,13 @@
 product: campaign
 title: 콘텐츠 편집
 description: 콘텐츠 편집
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Web Apps, Web Forms, Landing Pages
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1226'
 ht-degree: 1%
 
 ---
@@ -75,11 +75,11 @@ ht-degree: 1%
 
 * 다음을 클릭합니다. **[!UICONTROL Edit]** 아이콘.
 
-   ![](assets/dce_sidebar_options.png)
+  ![](assets/dce_sidebar_options.png)
 
 * 선택한 필드에서 정의한 항목별 목록 값을 **[!UICONTROL Value]** 필드.
 
-   ![](assets/dce_sidebar_completeoptionradio.png)
+  ![](assets/dce_sidebar_completeoptionradio.png)
 
 ### 양식 필드 수정 {#modifying-form-fields}
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 * 다음을 사용하여 새 블록을 만들어 선택한 필드 복제 **[!UICONTROL Duplicate]** 아이콘.
 * 편집 **[!UICONTROL Form data]** 을 사용하여 데이터베이스 필드를 양식 영역에 연결하는 창 **[!UICONTROL Edit]** 아이콘.
 
-   ![](assets/dce_toolbar_formblock_edition.png)
+  ![](assets/dce_toolbar_formblock_edition.png)
 
 ## 단추에 작업 추가 {#adding-an-action-to-a-button}
 
@@ -138,7 +138,6 @@ ht-degree: 1%
 >* 현재 창(_self)
 >* 기본 브라우저 동작
 >
-
 
 ### URL에 연결 {#link-to-a-url}
 
@@ -204,7 +203,6 @@ ht-degree: 1%
 >
 >* **복제** icon: 블록과 관련된 모든 스타일을 복제합니다.
 
-
 ## 이미지 및 애니메이션 관리 {#managing-images-and-animations}
 
 디지털 콘텐츠 편집기를 사용하여 다음 작업을 수행할 수 있습니다 **모든 유형의 이미지** 브라우저와 호환됩니다.
@@ -238,7 +236,7 @@ ht-degree: 1%
 * **캡션** 이미지에 연결된 캡션을 정의할 수 있습니다( **alt** HTML 속성).
 * **Dimension** 이미지 크기를 픽셀 단위로 지정할 수 있습니다.
 
-   ![](assets/dce_popup_imgsize.png)
+  ![](assets/dce_popup_imgsize.png)
 
 ## 개인화 콘텐츠 추가 {#adding-personalization-content}
 

@@ -3,14 +3,14 @@ product: campaign
 title: Campaign Classic용 호환성 매트릭스
 description: Campaign Classic 호환성 매트릭스
 feature: Release Notes
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

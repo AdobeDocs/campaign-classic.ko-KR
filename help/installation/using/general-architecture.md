@@ -2,14 +2,15 @@
 product: campaign
 title: Campaign Classic 일반 아키텍처
 description: Campaign Classic의 설치 및 구성 방법을 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Architecture
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -22,15 +23,15 @@ ht-degree: 0%
 
 * **개인화된 클라이언트 환경**
 
-   사용자가 소통하고 마케팅 오퍼를 추적하고, 캠페인을 만들고, 모든 마케팅 활동, 프로그램 및 계획(이메일, 워크플로우 및 랜딩 페이지 포함)을 검토 및 관리하고, 고객 프로필을 만들고 관리하고, 고객 대상 유형을 정의할 수 있는 직관적인 그래픽 인터페이스입니다.
+  사용자가 소통하고 마케팅 오퍼를 추적하고, 캠페인을 만들고, 모든 마케팅 활동, 프로그램 및 계획(이메일, 워크플로우 및 랜딩 페이지 포함)을 검토 및 관리하고, 고객 프로필을 만들고 관리하고, 고객 대상 유형을 정의할 수 있는 직관적인 그래픽 인터페이스입니다.
 
 * **개발 환경**
 
-   사용자 인터페이스에 정의된 규칙 및 워크플로를 기반으로 이메일, SMS, 푸시 알림, DM, 웹 또는 소셜과 같은 선택한 통신 채널을 통해 마케팅 캠페인을 실행하는 서버측 소프트웨어입니다.
+  사용자 인터페이스에 정의된 규칙 및 워크플로를 기반으로 이메일, SMS, 푸시 알림, DM, 웹 또는 소셜과 같은 선택한 통신 채널을 통해 마케팅 캠페인을 실행하는 서버측 소프트웨어입니다.
 
 * **데이터베이스 컨테이너**
 
-   관계형 데이터베이스 기술을 기반으로 하는 Adobe Campaign 데이터베이스는 모든 고객 정보, 캠페인 구성 요소, 오퍼 및 워크플로뿐만 아니라 캠페인 결과를 고객 데이터베이스 컨테이너에 저장합니다.
+  관계형 데이터베이스 기술을 기반으로 하는 Adobe Campaign 데이터베이스는 모든 고객 정보, 캠페인 구성 요소, 오퍼 및 워크플로뿐만 아니라 캠페인 결과를 고객 데이터베이스 컨테이너에 저장합니다.
 
 Adobe Campaign은 SOA(서비스 지향 아키텍처)를 기반으로 하며 여러 기능 모듈로 구성됩니다. 이러한 모듈은 확장성, 가용성 및 서비스 격리 측면에서 제약에 따라 하나 이상의 컴퓨터에 단일 또는 여러 인스턴스에 배포할 수 있습니다. 따라서 배포 구성의 범위는 매우 광범위하며 단일 중앙 컴퓨터부터 여러 사이트에 걸쳐 여러 전용 서버를 포함하는 구성까지 포괄합니다.
 

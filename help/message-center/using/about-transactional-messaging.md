@@ -2,12 +2,12 @@
 product: campaign
 title: 트랜잭션 메시지 시작
 description: Adobe Campaign Classic 트랜잭션 메시지 작동 원리 및 주요 단계에 대해 자세히 알아보십시오
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Transactional Messaging
+feature: Transactional Messaging, Message Center
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '651'
 ht-degree: 7%
 
 ---

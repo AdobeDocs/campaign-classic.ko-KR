@@ -2,14 +2,15 @@
 product: campaign
 title: 열거형 관리
 description: 열거형 관리
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
+feature: Data Management
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -33,15 +34,15 @@ ht-degree: 0%
 * 상단 섹션은 항목별 목록이 정의된 필드 목록을 제공합니다.
 * 아래 섹션에는 제안된 값이 나열됩니다. 이 값은 이 필드를 사용하는 편집기에서 반복됩니다.
 
-   ![](assets/s_ncs_user_itemized_list_values.png)
+  ![](assets/s_ncs_user_itemized_list_values.png)
 
-   새 열거형 값을 만들려면 **[!UICONTROL Add]**.
+  새 열거형 값을 만들려면 **[!UICONTROL Add]**.
 
-   ![](assets/s_ncs_user_itemized_list.png)
+  ![](assets/s_ncs_user_itemized_list.png)
 
-   다음과 같은 경우 **[!UICONTROL Open]** 옵션을 선택하면 사용자가 해당 필드에 직접 새 항목별 목록 값을 추가할 수 있습니다. 확인 메시지를 통해 이 값을 만들 수 있습니다.
+  다음과 같은 경우 **[!UICONTROL Open]** 옵션을 선택하면 사용자가 해당 필드에 직접 새 항목별 목록 값을 추가할 수 있습니다. 확인 메시지를 통해 이 값을 만들 수 있습니다.
 
-   ![](assets/s_ncs_user_itemized_list_new_value.png)
+  ![](assets/s_ncs_user_itemized_list_new_value.png)
 
 * 다음과 같은 경우 **[!UICONTROL Closed]** 옵션을 선택하면 사용자가 새 값을 만들 수 없고 사용 가능한 값 중에서 선택할 수만 있습니다.
 
@@ -61,9 +62,9 @@ ht-degree: 0%
 * 또는 해당 별칭으로 자동으로 대체됩니다. 이 경우 **[!UICONTROL Alias]** 항목별 목록의 탭,
 * 또는 는 별칭 목록에 저장됩니다. 나중에 별칭을 할당할 수 있습니다.
 
-   >[!NOTE]
-   >
-   >데이터 정리 기능을 사용해야 하는 경우 **[!UICONTROL Alias cleansing]** 항목이 나열된 상태로 남아 있는 문제를 해결했습니다.
+  >[!NOTE]
+  >
+  >데이터 정리 기능을 사용해야 하는 경우 **[!UICONTROL Alias cleansing]** 항목이 나열된 상태로 남아 있는 문제를 해결했습니다.
 
 ### 별칭 사용 {#using-aliases}
 

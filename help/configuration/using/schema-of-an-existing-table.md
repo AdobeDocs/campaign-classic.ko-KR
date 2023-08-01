@@ -2,11 +2,12 @@
 product: campaign
 title: 기존 테이블의 스키마
 description: 기존 테이블의 스키마
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Custom Resources
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '223'
 ht-degree: 10%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 10%
 
 응용 프로그램이 기존 테이블의 데이터, SQL 뷰 또는 원격 데이터베이스의 데이터에 액세스해야 하는 경우 다음 데이터를 사용하여 Adobe Campaign에서 해당 스키마를 만듭니다.
 
-* 테이블 이름: &quot;sqltable&quot; 특성이 있는 테이블 이름(dblink를 사용할 때 해당 별칭과 함께) 입력
+* 테이블 이름: &quot;sqltable&quot; 특성이 있는 테이블 이름(dblink를 사용할 때 해당 별칭과 함께) 입력,
 * 스키마 키: 조정 필드 참조,
 * 색인: 쿼리 생성에 사용,
 * XML 구조의 필드 및 위치: 응용 프로그램에 사용되는 필드만 채웁니다.

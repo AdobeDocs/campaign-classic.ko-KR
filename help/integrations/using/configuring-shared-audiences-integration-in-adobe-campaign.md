@@ -2,16 +2,17 @@
 product: campaign
 title: Adobe Campaign에서 공유 대상자 통합 구성
 description: 공유 대상자 통합을 구성하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Audiences, People Core Service Integration
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 2%
+source-wordcount: '496'
+ht-degree: 3%
 
 ---
 
@@ -51,9 +52,9 @@ ht-degree: 2%
    * **[!UICONTROL AWS S3 Account Server]**
 서버의 URL은 다음과 같이 채워야 합니다.
 
-      ```
-      <S3bucket name>.s3.amazonaws.com/<s3object path>
-      ```
+     ```
+     <S3bucket name>.s3.amazonaws.com/<s3object path>
+     ```
 
    * **[!UICONTROL AWS access key ID]**
 AWS 액세스 키 ID를 찾을 수 있는 위치를 알려면 다음을 참조하십시오. [페이지](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
@@ -63,6 +64,7 @@ AWS에 대한 비밀 액세스 키를 찾을 수 있는 위치를 파악하려�
 
    * **[!UICONTROL AWS Region]**
 AWS 지역에 대한 자세한 내용은 다음을 참조하십시오. [페이지](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
+
    ![](assets/aam_config_2.png)
 
 1. 클릭 **[!UICONTROL Save]** 및 구성 **[!UICONTROL Import audiences from the Adobe Marketing Cloud]** 이전 단계에서 자세히 설명한 외부 계정입니다.

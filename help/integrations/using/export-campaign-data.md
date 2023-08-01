@@ -2,13 +2,14 @@
 product: campaign
 title: Campaign에서 Adobe Experience Platform으로 데이터 내보내기
 description: Campaign Classic에서 Adobe Experience Platform으로 데이터를 내보내는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Platform Integration
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '504'
 ht-degree: 4%
 
 ---
@@ -33,11 +34,11 @@ Campaign Classic에서 S3 또는 Azure Blob 저장소 위치로 데이터를 내
 
 * An **[!UICONTROL Data extraction (file)]** 활동을 통해 타깃팅된 데이터를 CSV 파일로 추출할 수 있습니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../workflow/using/extraction--file-.md).
 
-   ![](assets/rtcdp-extract-file.png)
+  ![](assets/rtcdp-extract-file.png)
 
 * A **[!UICONTROL File transfer]** 활동을 통해 CSV 파일을 저장소 위치로 전송합니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../workflow/using/file-transfer.md).
 
-   ![](assets/rtcdp-file-transfer.png)
+  ![](assets/rtcdp-file-transfer.png)
 
 예를 들어 아래 워크플로우는 정기적으로 로그를 CSV 파일로 추출한 다음 파일을 저장소 위치로 전송합니다.
 

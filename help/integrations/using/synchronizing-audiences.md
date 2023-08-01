@@ -2,14 +2,14 @@
 product: campaign
 title: 대상자 동기화
 description: 대상자를 ACS 커넥터와 동기화하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 hide: true
 hidefromtoc: true
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1140'
 ht-degree: 1%
 
 ---
@@ -149,6 +149,6 @@ Campaign Standard에서 게재 워크플로우를 만들면 이 대상과 게재
    * **Campaign Standard**: 액세스 [보고서](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) 및 [로그](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) 모든 게재에 대한 게재와 관련되어 있습니다.
    * **Campaign v7 및 Campaign Standard**: 게재 ID, 이메일 브로드 로그 및 이메일 추적 로그가 Campaign v7에 동기화됩니다. 그런 다음 Campaign v7에서 마케팅 캠페인을 360° 각도로 볼 수 있습니다.
 
-      격리는 자동으로 다시 Campaign v7에 동기화됩니다. 이렇게 하면 Campaign v7에서 수행된 다음 타깃팅을 위해 전달할 수 없는 정보를 고려할 수 있습니다.
+     격리는 자동으로 다시 Campaign v7에 동기화됩니다. 이렇게 하면 Campaign v7에서 수행된 다음 타깃팅을 위해 전달할 수 없는 정보를 고려할 수 있습니다.
 
-      Campaign Standard에서 격리 관리에 대한 자세한 내용을 찾을 수 있습니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
+     Campaign Standard에서 격리 관리에 대한 자세한 내용을 찾을 수 있습니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).

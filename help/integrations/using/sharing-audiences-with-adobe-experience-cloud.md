@@ -2,16 +2,17 @@
 product: campaign
 title: Adobe Experience Cloud과 대상 공유
 description: Adobe Experience Cloud과 대상 공유
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Audiences, People Core Service Integration
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 63%
+source-wordcount: '314'
+ht-degree: 61%
 
 ---
 
@@ -38,8 +39,8 @@ Adobe Campaign을 사용하면 Adobe Experience Cloud 솔루션 및 핵심 서�
 * **방문자 ID**: 이 유형의 식별자는 Adobe Experience Cloud 방문자를 Adobe Campaign 수신자와 조정합니다.
 * **선언 ID**: 이 유형의 식별자는 모든 유형의 데이터를 Adobe Campaign 데이터베이스의 요소와 조정합니다. Adobe Campaign에서는 사전 정의된 조정 키로 표시됩니다.
 
-   >[!NOTE]
-   >
-   > 선언된 ID 데이터 소스는 People 핵심 서비스 통합에도 사용할 수 있습니다.
-   >
-   >People 핵심 서비스 통합을 사용 중이고 Audience Manager 통합을 추가하려면 Adobe Audience Manager 컨설턴트의 도움이 필요합니다. 도움을 통해 Adobe Audience Manage 컨텍스트에서 선언 ID 데이터 소스를 사용하여 전환할 때 수집된 모든 ID 동기화를 손실되지 않도록 할 수 있습니다.
+  >[!NOTE]
+  >
+  > 선언된 ID 데이터 소스는 People 핵심 서비스 통합에도 사용할 수 있습니다.
+  >
+  >People 핵심 서비스 통합을 사용 중이고 Audience Manager 통합을 추가하려면 Adobe Audience Manager 컨설턴트의 도움이 필요합니다. 도움을 통해 Adobe Audience Manage 컨텍스트에서 선언 ID 데이터 소스를 사용하여 전환할 때 수집된 모든 ID 동기화를 손실되지 않도록 할 수 있습니다.

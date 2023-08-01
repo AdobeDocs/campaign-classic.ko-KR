@@ -2,13 +2,13 @@
 product: campaign
 title: 설명 분석 시작
 description: 설명 분석 시작
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+feature: Reporting, Monitoring
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,15 @@ ht-degree: 0%
 
 * 표 및 히스토그램:
 
-   ![](assets/reporting_descriptive_sample_1.png)
+  ![](assets/reporting_descriptive_sample_1.png)
 
 * 테이블 없이 누적된 값:
 
-   ![](assets/reporting_descriptive_sample_3.png)
+  ![](assets/reporting_descriptive_sample_3.png)
 
 * 사업 부문별 분류
 
-   ![](assets/reporting_descriptive_sample_2.png)
+  ![](assets/reporting_descriptive_sample_2.png)
 
 정량적 분석은 아래와 같이 선택 항목의 수치 데이터에 대한 전체 통계를 제공합니다.
 

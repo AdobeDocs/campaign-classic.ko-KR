@@ -2,17 +2,18 @@
 product: campaign
 title: 일반 구성
 description: 일반 구성
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 audience: migration
 content-type: reference
 topic-tags: configuration
 hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2625'
-ht-degree: 0%
+source-wordcount: '2632'
+ht-degree: 1%
 
 ---
 
@@ -113,7 +114,7 @@ nlserver config -internalpassword
 
 * 권한이 없는 사용자는 더 이상 Adobe Campaign에 연결할 수 없습니다. 이러한 권한은 수동으로 추가해야 합니다. 예를 들어, 라는 권한을 만들 수 있습니다. **연결**.
 
-   이 수정 사항의 영향을 받는 사용자는 업그레이드 후 식별 및 나열됩니다.
+  이 수정 사항의 영향을 받는 사용자는 업그레이드 후 식별 및 나열됩니다.
 
 * 암호가 비어 있으면 추적이 더 이상 작동하지 않습니다. 이 경우 오류 메시지가 표시되어 재구성을 요청합니다.
 * 사용자 암호는 더 이상 **xtk:sessionInfo** 스키마.
@@ -205,47 +206,47 @@ Adobe Campaign v7에는 최신 JavaScript 인터프리터가 통합되어 있습
 
 * 이전 구문:
 
-   ```
-   employee.@sn
-   ```
+  ```
+  employee.@sn
+  ```
 
 * 새 구문:
 
-   ```
-   employee["sn"]
-   ```
+  ```
+  employee["sn"]
+  ```
 
 XML 객체의 값을 변경하려면 XML 노드를 추가하기 전에 값을 업데이트하여 시작해야 합니다.
 
 * 이전 JavaScript 코드:
 
-   ```
-   var cellStyle = node.style.copy();
-   this.styles.appendChild(cellStyle);
-   cellStyle.@width = column.@width;
-   ```
+  ```
+  var cellStyle = node.style.copy();
+  this.styles.appendChild(cellStyle);
+  cellStyle.@width = column.@width;
+  ```
 
 * 새 JavaScript 코드:
 
-   ```
-   var cellStyle = node.style.copy();
-   cellStyle.@width = column.@width;
-   this.styles.appendChild(cellStyle);
-   ```
+  ```
+  var cellStyle = node.style.copy();
+  cellStyle.@width = column.@width;
+  this.styles.appendChild(cellStyle);
+  ```
 
 더 이상 XML 특성을 테이블 키로 사용할 수 없습니다.
 
 * 이전 구문:
 
-   ```
-   if(serverForm.activities[ctx.activityHistory.activity[0].@name].type !="end")
-   ```
+  ```
+  if(serverForm.activities[ctx.activityHistory.activity[0].@name].type !="end")
+  ```
 
 * 새 구문:
 
-   ```
-   if(serverForm.activities[String(ctx.activityHistory.activity[0].@name)].type !="end"
-   ```
+  ```
+  if(serverForm.activities[String(ctx.activityHistory.activity[0].@name)].type !="end"
+  ```
 
 ### SQLData {#sqldata}
 
@@ -289,53 +290,53 @@ allowSQLInjection="false"
 
 * 이전 구문:
 
-   ```
-   <condition expr="@id NOT IN ([SQLDATA[SELECT iOperatorId FROM XtkOperatorGroup WHERE iGroupId = $(../@owner-id)]])" enabledIf="$(/ignored/@ownerType)=1"/>
-   ```
+  ```
+  <condition expr="@id NOT IN ([SQLDATA[SELECT iOperatorId FROM XtkOperatorGroup WHERE iGroupId = $(../@owner-id)]])" enabledIf="$(/ignored/@ownerType)=1"/>
+  ```
 
 * 새 구문:
 
-   ```
-   <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
-     <subQuery schema="xtk:operatorGroup">
-        <select>
-          <node expr="[@operator-id]" />
-        </select>
-        <where>
-          <condition expr="[@group-id]=$long(../@owner-id)"/>
-        </where>
-      </subQuery>
-   </condition>
-   ```
+  ```
+  <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
+    <subQuery schema="xtk:operatorGroup">
+       <select>
+         <node expr="[@operator-id]" />
+       </select>
+       <where>
+         <condition expr="[@group-id]=$long(../@owner-id)"/>
+       </where>
+     </subQuery>
+  </condition>
+  ```
 
 * 이전 구문:
 
-   ```
-   <queryFilter name="dupEmail" label="Emails duplicated in the folder" schema="nms:recipient">
-       <where>
-         <condition sql="sEmail in (select sEmail from nmsRecipient where iFolderId=$(folderId) group by sEmail having count(sEmail)>1)" internalId="1"/>
-       </where>
-       <folder _operation="none" name="nmsSegment"/>
-     </queryFilter>
-   ```
+  ```
+  <queryFilter name="dupEmail" label="Emails duplicated in the folder" schema="nms:recipient">
+      <where>
+        <condition sql="sEmail in (select sEmail from nmsRecipient where iFolderId=$(folderId) group by sEmail having count(sEmail)>1)" internalId="1"/>
+      </where>
+      <folder _operation="none" name="nmsSegment"/>
+    </queryFilter>
+  ```
 
 * 새 구문:
 
-   ```
-   <queryFilter name="dupEmail" label=" Emails duplicated in the folder " schema="nms:recipient">
-       <where>
-         <condition expr="@email" setOperator="IN" internalId="1">
-           <subQuery schema="nms:recipient">
-             <select><node expr="@email"/></select>
-             <where><condition expr="[@folder-id]=$(folderId)"/></where>
-             <groupBy><node expr="@email"/></groupBy>
-             <having><condition expr="count(@email)>1"/></having>
-           </subQuery>
-         </condition>
-       </where>
-       <folder _operation="none" name="nmsSegment"/>
-     </queryFilter>
-   ```
+  ```
+  <queryFilter name="dupEmail" label=" Emails duplicated in the folder " schema="nms:recipient">
+      <where>
+        <condition expr="@email" setOperator="IN" internalId="1">
+          <subQuery schema="nms:recipient">
+            <select><node expr="@email"/></select>
+            <where><condition expr="[@folder-id]=$(folderId)"/></where>
+            <groupBy><node expr="@email"/></groupBy>
+            <having><condition expr="count(@email)>1"/></having>
+          </subQuery>
+        </condition>
+      </where>
+      <folder _operation="none" name="nmsSegment"/>
+    </queryFilter>
+  ```
 
 **집계**
 
@@ -343,34 +344,34 @@ Aggregate 함수(입력)
 
 * 이전 구문:
 
-   ```
-   <node sql="(select count(*) from NmsNewsgroup WHERE O0.iOperationId=iOperationId)" alias="@nbMessages"/>
-   ```
+  ```
+  <node sql="(select count(*) from NmsNewsgroup WHERE O0.iOperationId=iOperationId)" alias="@nbMessages"/>
+  ```
 
 * 새 구문:
 
-   ```
-   <node expr="count([newsgroup/@id])" alias="../@nbMessages"/>
-   ```
+  ```
+  <node expr="count([newsgroup/@id])" alias="../@nbMessages"/>
+  ```
 
-   >[!NOTE]
-   >
-   >합계 함수에 대해 조인트가 자동으로 수행됩니다. WHERE O0.iOperationId=iOperationId 조건을 더 이상 지정할 필요가 없습니다.
-   >
-   >더 이상 &quot;count(&#42;)&quot; 함수를 참조하십시오. &quot;countall()&quot;을 사용해야 합니다.
+  >[!NOTE]
+  >
+  >합계 함수에 대해 조인트가 자동으로 수행됩니다. WHERE O0.iOperationId=iOperationId 조건을 더 이상 지정할 필요가 없습니다.
+  >
+  >더 이상 &quot;count(&#42;)&quot; 함수를 참조하십시오. &quot;countall()&quot;을 사용해야 합니다.
 
 * 이전 구문:
 
-   ```
-   <node sql="(select Sum(iToDeliver) from NmsDelivery WHERE O0.iOperationId=iOperationId AND iSandboxMode=0 AND iState>=45)" alias="@nbMessages"/>
-   ```
+  ```
+  <node sql="(select Sum(iToDeliver) from NmsDelivery WHERE O0.iOperationId=iOperationId AND iSandboxMode=0 AND iState>=45)" alias="@nbMessages"/>
+  ```
 
 * 새 구문:
 
-   ```
-   <node expr="Sum([delivery-linkedDelivery/properties/@toDeliver])" alias= "../@sumToDeliver">
-                     <where><condition expr="[validation/@sandboxMode]=0 AND @state>=45" /></where></node>
-   ```
+  ```
+  <node expr="Sum([delivery-linkedDelivery/properties/@toDeliver])" alias= "../@sumToDeliver">
+                    <where><condition expr="[validation/@sandboxMode]=0 AND @state>=45" /></where></node>
+  ```
 
 **조인을 통한 필터**
 
@@ -380,16 +381,16 @@ Aggregate 함수(입력)
 
 * 이전 구문:
 
-   ```
-   <condition expr={"[" + joinPart.destination.nodePath + "] = [SQLDATA[W." + joinPart.source.SQLName + "]]"}
-                                            aliasSqlTable={nodeSchemaRoot.SQLTable + " W"}/>
-   ```
+  ```
+  <condition expr={"[" + joinPart.destination.nodePath + "] = [SQLDATA[W." + joinPart.source.SQLName + "]]"}
+                                           aliasSqlTable={nodeSchemaRoot.SQLTable + " W"}/>
+  ```
 
 * 새 구문:
 
-   ```
-   <condition expr={"[" + joinPart.destination.nodePath + "] = [" + nodeSchema.id + ":" + joinPart.source.nodePath + "]]"}/>
-   ```
+  ```
+  <condition expr={"[" + joinPart.destination.nodePath + "] = [" + nodeSchema.id + ":" + joinPart.source.nodePath + "]]"}/>
+  ```
 
 **팁과 트릭**
 
@@ -430,16 +431,16 @@ Aggregate 함수(입력)
 
 * 명령줄 인터페이스에서는 트리플 V자형 V자형 V자형 V자형으로 오류가 나타납니다 **>>>** 동기화가 자동으로 중지됩니다. 경고는 이중 V자형 화살표로 표시됩니다 **>>** 동기화가 완료되면 및 을(를) 해결해야 합니다. 업그레이드 후 요약이 명령 프롬프트에 표시됩니다. 예제:
 
-   ```
-   2013-04-09 07:48:39.749Z        00002E7A          1     info    log     =========Summary of the update==========
-   2013-04-09 07:48:39.749Z        00002E7A          1     info    log     test instance, 6 warning(s) and 0 error(s) during the update.
-   2013-04-09 07:48:39.749Z        00002E7A          1     warning log     The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
-   2013-04-09 07:48:39.749Z        00002E7A          1     warning log     The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
-   2013-04-09 07:48:39.750Z        00002E7A          1     warning log     The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
-   2013-04-09 07:48:39.750Z        00002E7A          1     warning log     Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
-   ```
+  ```
+  2013-04-09 07:48:39.749Z        00002E7A          1     info    log     =========Summary of the update==========
+  2013-04-09 07:48:39.749Z        00002E7A          1     info    log     test instance, 6 warning(s) and 0 error(s) during the update.
+  2013-04-09 07:48:39.749Z        00002E7A          1     warning log     The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
+  2013-04-09 07:48:39.749Z        00002E7A          1     warning log     The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
+  2013-04-09 07:48:39.750Z        00002E7A          1     warning log     The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
+  2013-04-09 07:48:39.750Z        00002E7A          1     warning log     Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
+  ```
 
-   경고가 리소스 충돌과 관련된 경우 이를 해결하기 위해 운영자의 주의가 필요합니다.
+  경고가 리소스 충돌과 관련된 경우 이를 해결하기 위해 운영자의 주의가 필요합니다.
 
 * 다음 **업그레이드 후_`<server version number>`업그레이드 후 시간(_t)`>`.log** 파일에 동기화 결과가 포함되어 있습니다. 기본적으로 다음 디렉터리에서 사용할 수 있습니다. **설치 디렉토리/var/`<instance>`업그레이드 후**. 오류 및 경고는 **오류** 및 **경고** 속성.
 
@@ -458,9 +459,9 @@ Aggregate 함수(입력)
 * **[!UICONTROL Accept the new version]**: Adobe Campaign과 함께 제공된 리소스가 사용자에 의해 변경되지 않은 경우 권장됩니다.
 * **[!UICONTROL Keep the current version]**: 업데이트가 거부됨을 의미합니다.
 
-   >[!IMPORTANT]
-   >
-   >이 해결 모드를 선택하면 새 버전에서 패치가 손실될 위험이 있습니다. 따라서 이 옵션은 전문가 연산자에만 사용하거나 예약하지 않는 것이 좋습니다.
+  >[!IMPORTANT]
+  >
+  >이 해결 모드를 선택하면 새 버전에서 패치가 손실될 위험이 있습니다. 따라서 이 옵션은 전문가 연산자에만 사용하거나 예약하지 않는 것이 좋습니다.
 
 충돌을 수동으로 해결하도록 선택하는 경우 다음과 같이 진행합니다.
 

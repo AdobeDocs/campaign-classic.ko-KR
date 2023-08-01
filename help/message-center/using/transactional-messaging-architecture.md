@@ -2,11 +2,12 @@
 product: campaign
 title: 트랜잭션 메시지 아키텍처
 description: 이 섹션에서는 Adobe Campaign Classic 트랜잭션 메시지 아키텍처 및 트랜잭션 메시지를 전달하는 데 사용할 수 있는 채널에 대해 설명합니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Transactional Messaging, Message Center, Architecture
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1099'
 ht-degree: 1%
 
 ---
@@ -199,14 +200,13 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **마케팅** �
    * **[!UICONTROL Server]** : 데이터베이스 서버 URL을 입력합니다.
    * **[!UICONTROL Account]** : 데이터베이스 계정을 입력합니다.
 
-      >[!NOTE]
-      >
-      >데이터베이스 사용자는 FDA 연결을 위해 XtkOption, NmsVisitor, NmsVisitorSub, NmsService, NmsBroadLogRtEvent, NmsBroadLogBatchEvent, NmsTrackingLogRtEvent, NmsTrackingLogBatchEvent, NmsRtEvent, NmsBatchEvent, NmsBroadLogMsg, NmsTrackingUrl, NmsDelivery, NmsWebTrackingLogXtkFolder 테이블에 대한 읽기 권한이 있어야 합니다.
+     >[!NOTE]
+     >
+     >데이터베이스 사용자는 FDA 연결을 위해 XtkOption, NmsVisitor, NmsVisitorSub, NmsService, NmsBroadLogRtEvent, NmsBroadLogBatchEvent, NmsTrackingLogRtEvent, NmsTrackingLogBatchEvent, NmsRtEvent, NmsBatchEvent, NmsBroadLogMsg, NmsTrackingUrl, NmsDelivery, NmsWebTrackingLogXtkFolder 테이블에 대한 읽기 권한이 있어야 합니다.
 
    * **[!UICONTROL Password]** : 데이터베이스 계정의 암호를 입력합니다.
    * **[!UICONTROL Database]** : 실행 인스턴스의 데이터베이스 이름을 입력합니다.
    * **[!UICONTROL Target of an HTTP relay to remote database's account]** 상자를 선택해야 합니다.
-
 
 1. 만들기 **[!UICONTROL External Database]** 계정 **마케팅** 다음 구성을 사용하는 인스턴스입니다.
 
@@ -223,7 +223,6 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **마케팅** �
    * **[!UICONTROL Account]** : 실행 인스턴스에 액세스하는 데 사용되는 계정을 입력합니다.
    * **[!UICONTROL Password]** : 실행 인스턴스에 액세스하는 데 사용되는 계정의 암호를 입력합니다.
    * **[!UICONTROL Data Source]** : 다음 구문을 입력합니다 **[!UICONTROL nms:extAccount:ID of your external database account in the execution instance]** .
-
 
 1. 만들기 **[!UICONTROL Execution instance]** 의 외부 계정 **마케팅** 다음 구성을 사용하여 데이터 동기화 워크플로우를 생성하는 인스턴스:
 
@@ -245,7 +244,5 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **마케팅** �
    * **[!UICONTROL FDA account]** : 드롭다운에서 FDA 계정을 선택합니다.
    * **[!UICONTROL Create the archiving workflow]** 버튼을 클릭합니다.
    * 다음을 클릭합니다. **[!UICONTROL Create data synchronization workflow]** LINE 데이터 동기화 워크플로를 만드는 단추입니다.
-
-
 
 1. 이제 시작할 수 있습니다. [트랜잭션 메시지 만들기](../../message-center/using/creating-the-message-template.md).

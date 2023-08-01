@@ -2,10 +2,10 @@
 product: campaign
 title: 첨부 파일이 있는 트랜잭션 이메일 보내기
 description: Adobe Campaign을 사용하여 개별 및/또는 개인화된 첨부 파일이 있는 트랜잭션 이메일을 보내는 방법을 알아봅니다
+feature: Transactional Messaging, Message Center
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
-feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 4%

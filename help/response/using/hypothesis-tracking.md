@@ -2,15 +2,16 @@
 product: campaign
 title: 가설 추적
 description: 캠페인 응답 관리자에서 가설을 추적하는 방법에 대해 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Campaigns, Monitoring, Reporting
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '467'
 ht-degree: 1%
 
 ---
@@ -73,8 +74,8 @@ ht-degree: 1%
 
 * **캠페인 수준에서**: 다음 클릭: **[!UICONTROL Reports]** 관련 캠페인의 링크 및 선택 **[!UICONTROL Hypothesis report]**. 이 보고서에는 캠페인 게재 목록과 각 게재에 대해 계산된 가설이 포함되어 있습니다.
 
-   ![](assets/response_hypothesis_campaign_report_001.png)
+  ![](assets/response_hypothesis_campaign_report_001.png)
 
 * **게재 수준**: 보고서에 액세스하려면 관련 게재를 열고 다음을 클릭합니다. **[!UICONTROL Reports]** 다음에서 **[!UICONTROL Summary]** 탭을 클릭하고 다음을 선택합니다. **[!UICONTROL Hypothesis report]**. 동일한 게재에 대해 여러 가설이 계산되었다면 보고서에는 모든 가설이 포함될 것이다.
 
-   ![](assets/response_hypothesis_delivery_report_001.png)
+  ![](assets/response_hypothesis_delivery_report_001.png)
