@@ -2,13 +2,13 @@
 product: campaign
 title: 게재 실패 이해
 description: 게재 실패를 이해하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring, Deliverability
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
 workflow-type: tm+mt
-source-wordcount: '2614'
+source-wordcount: '2624'
 ht-degree: 17%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 17%
 
 메시지가 전송되면 게재 로그를 통해 각 프로필의 게재 상태, 관련 실패 유형 및 이유를 확인할 수 있습니다.
 
-주소가 격리되거나 프로필이 차단 목록에서 제외된 경우 게재 준비 중에 메시지가 제외될 수도 있습니다. 제외된 메시지는 게재 대시보드에 나열됩니다.
+주소가 격리되거나 프로필이 차단 목록에 추가하다에서 제외된 경우 게재 준비 중에 메시지가 제외될 수도 있습니다. 제외된 메시지는 게재 대시보드에 나열됩니다.
 
 **관련 항목:**
 
@@ -83,7 +83,7 @@ ht-degree: 17%
    <td> 차단 목록에 추가된 주소 </td> 
    <td> 하드 </td> 
    <td> 8 </td> 
-   <td> 발송 시 주소가 차단 목록에 추가되었습니다. 이 상태는 외부 목록과 외부 시스템에서 Adobe Campaign 격리 목록으로 데이터를 가져오는 데 사용됩니다.<br /> </td> 
+   <td> 발송 시 주소가 차단 목록에 추가하다에 추가되었습니다. 이 상태는 외부 목록과 외부 시스템에서 Adobe Campaign 격리 목록으로 데이터를 가져오는 데 사용됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 컨트롤 주소 </td> 
@@ -205,7 +205,7 @@ ht-degree: 17%
   >
   >바운스 사서함 구성에 대해서는 다음에서 자세히 설명합니다. [이 섹션](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-  다음 [되먹임 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) 바운스 이메일처럼 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 모든 게재를 차단할 수 있습니다. 이메일을 스팸으로 인증한 사용자에게 전송된 메시지는 이러한 목적을 위해 특별히 만든 이메일 상자를 향해 자동으로 리디렉션됩니다. 구독 취소 링크를 클릭하지 않았는데도 이 사용자들의 주소가 차단 목록에 있습니다. 주소는 ( )에 있는 차단 목록입니다.**Nms 주소**) 격리 테이블이며 (**NmsRecipient**) 수신자 테이블.
+  다음 [되먹임 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) 바운스 이메일처럼 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 모든 게재를 차단할 수 있습니다. 이메일을 스팸으로 인증한 사용자에게 전송된 메시지는 이러한 목적을 위해 특별히 만든 이메일 상자를 향해 자동으로 리디렉션됩니다. 구독 취소 링크를 클릭하지 않았는데도 이 사용자들의 주소가 차단 목록에 추가하다에 있습니다. 주소는 ( )에 있는 차단 목록에 추가하다입니다.**Nms 주소**) 격리 테이블이며 (**NmsRecipient**) 수신자 테이블.
 
   >[!NOTE]
   >
@@ -233,7 +233,7 @@ Adobe Campaign 플랫폼을 사용하면 바운스 메일 기능을 통해 이�
 >
 >* ****&#x200B;비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 자세한 내용은 [이메일 관리 규칙](#email-management-rules).
 >
->* Enhanced MTA를 사용하는 인스턴스의 경우 **웹후크/EFS 제외**, **[!UICONTROL Inbound email]** 규칙은 비동기 바운스 이메일과 동일한 이메일 주소를 사용하여 Enhanced MTA에서 오는 동기 바운스 이메일을 처리하는 데에도 사용됩니다.
+>* Enhanced MTA를 사용하는 인스턴스의 경우 **웹후크 없음**, **[!UICONTROL Inbound email]** 규칙은 비동기 바운스 이메일과 동일한 이메일 주소를 사용하여 Enhanced MTA에서 오는 동기 바운스 이메일을 처리하는 데에도 사용됩니다.
 
 기존 Campaign MTA를 사용하는 온-프레미스 설치 및 호스팅/하이브리드 설치의 경우 이메일 배달이 실패하면 Adobe Campaign 배달 서버가 메시징 서버 또는 원격 DNS 서버로부터 오류 메시지를 수신합니다. 오류 목록은 원격 서버에서 반환된 메시지에 포함된 문자열로 구성됩니다. 각 오류 메시지에는 실패 유형 및 이유가 지정됩니다.
 
@@ -290,7 +290,7 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날
 
 >[!IMPORTANT]
 >
->호스팅 또는 하이브리드 설치의 경우 를 로 업그레이드한 경우 [향상된 MTA](sending-with-enhanced-mta.md)및 인스턴스가 **Webhooks/EFS** 기능, **[!UICONTROL Inbound email]** 동기 게재 실패 오류 메시지에 더 이상 규칙이 사용되지 않습니다. 자세한 내용은 [이 섹션](#bounce-mail-qualification)을 참조하십시오.
+>호스팅 또는 하이브리드 설치의 경우 를 로 업그레이드한 경우 [향상된 MTA](sending-with-enhanced-mta.md)및 인스턴스가 **웹훅** 기능, **[!UICONTROL Inbound email]** 동기 게재 실패 오류 메시지에 더 이상 규칙이 사용되지 않습니다. 자세한 내용은 [이 섹션](#bounce-mail-qualification)을 참조하십시오.
 
 기존 Campaign MTA를 사용하는 온-프레미스 설치 및 호스팅/하이브리드 설치의 경우 이러한 규칙에는 원격 서버에서 반환할 수 있고 오류를 평가할 수 있는 문자 문자열 목록(**하드**, **소프트** 또는 **무시됨**).
 

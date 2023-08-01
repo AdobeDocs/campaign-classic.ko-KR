@@ -6,10 +6,10 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 4c0c3007a03d4274fa1b436259cb2d302fcc8185
+source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
 workflow-type: tm+mt
-source-wordcount: '1736'
-ht-degree: 5%
+source-wordcount: '1352'
+ht-degree: 4%
 
 ---
 
@@ -116,10 +116,6 @@ Campaign 게재 처리량 그래프는 이메일 수신자에게 더 이상 처�
 
 게재 처리량에 대한 자세한 내용은 [이 섹션](../../reporting/using/global-reports.md#delivery-throughput).
 
->[!NOTE]
->
->포함 [이메일 피드백 서비스](#email-feedback-service) (EFS) 기능(현재 Beta로 사용 가능), Campaign 게재 처리량 그래프는 이메일 수신자에 대한 처리량을 계속 보여 줍니다.
-
 ### 재시도
 
 게재의 다시 시도 설정은 Campaign에서 더 이상 사용되지 않습니다. 소프트 바운스 재시도 및 재시도 간 시간은 메시지 이메일 도메인에서 돌아오는 바운스 응답의 유형 및 심각도에 따라 고급 MTA에 의해 결정됩니다.
@@ -157,61 +153,13 @@ DKIM에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](htt
 
 따라서 유효 기간이 끝날 때까지 기다리셔야 최종 결과를 보실 수 있습니다 **[!UICONTROL Success]** 백분율 및 실제 최종 숫자 **[!UICONTROL Sent]** 및 **[!UICONTROL Failed]** 메시지.
 
-<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
-
-### 이메일 피드백 서비스(베타) {#email-feedback-service}
-
-EFS(이메일 피드백 서비스) 기능을 사용하면 피드백이 Enhanced MTA(메시지 전송 에이전트)에서 직접 캡처되므로 각 이메일의 상태가 정확하게 보고됩니다.
-
->[!IMPORTANT]
->
->이메일 피드백 서비스는 현재 베타 기능으로 사용할 수 있습니다.
->
->Beta 프로그램에 참가하려면 다음을 작성하십시오. [이 양식](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) 그리고 우리는 당신에게 다시 연결할 것입니다.
-
-게재가 시작되기만 하면 **[!UICONTROL Success]** 메시지가 Campaign에서 Enhanced MTA로 성공적으로 중계되는 경우의 백분율입니다.
-
-<!--![](assets/efs-sending.png)-->
-
-게재 로그에는 다음이 표시됩니다. **[!UICONTROL Taken into account by the service provider]** 타겟팅된 각 주소의 상태입니다.
-
-<!--![](assets/efs-pending.png)-->
-
-메시지가 타겟팅된 프로필에 실제로 전달되고 Enhanced MTA에서 이 정보가 실시간으로 보고되면 게재 로그에 **[!UICONTROL Sent]** 메시지를 성공적으로 수신한 각 주소의 상태입니다. 다음 **[!UICONTROL Success]** 성공하는 각 게재에 따라 백분율이 적절하게 증가합니다.
-
-하드 바운스 메시지가 Enhanced MTA에서 다시 보고되면 로그 상태가에서 변경됩니다. **[!UICONTROL Taken into account by the service provider]** 끝 **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
-
-소프트 바운싱 메시지가 Enhanced MTA에서 다시 보고되면 로그 상태가 변경되지 않습니다(**[!UICONTROL Taken into account by the service provider]**): 만 [오류 원인](understanding-delivery-failures.md#delivery-failure-types-and-reasons) 업데이트됨<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. 다음 **[!UICONTROL Success]** 백분율은 변경되지 않습니다. 그런 다음 소프트 바운싱 메시지는 게재 전체에서 다시 시도됩니다 [유효 기간](steps-sending-the-delivery.md#defining-validity-period):
-
-* 유효 기간이 끝나기 전에 재시도가 성공하면 메시지 상태가 다음으로 변경됩니다. **[!UICONTROL Sent]** 및 **[!UICONTROL Success]** 그에 따라 백분율이 증가합니다.
-
-* 그렇지 않으면 상태가 다음으로 변경됩니다. **[!UICONTROL Failed]**. 다음 **[!UICONTROL Success]** <!--and **[!UICONTROL Bounces + errors]** -->백분율은 변경되지 않습니다.
-
->[!NOTE]
->
->하드 및 소프트 바운스에 대한 자세한 내용은 [이 섹션](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
->
->일시적 게재 실패 후 다시 시도에 대한 자세한 내용은 [이 섹션](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
-
-
-아래 표에는 EFS 기능에 의해 도입된 KPI 및 전송 로그 상태의 변경 사항이 나와 있습니다.
-
-**이메일 피드백 서비스 사용**
-
-| 전송 프로세스의 단계 | KPI 요약 | 전송 로그 상태 |
-|--- |--- |--- |
-| 메시지가 Campaign에서 Enhanced MTA로 성공적으로 릴레이 | **[!UICONTROL Success]** 백분율이 표시되지 않음(0%에서 시작) | 서비스 제공자의 고려 |
-| 하드 바운싱 메시지가 Enhanced MTA에서 다시 보고됨 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 실패 |
-| 소프트 바운싱 메시지는 Enhanced MTA에서 다시 보고됨 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 서비스 제공자의 고려 |
-| 소프트 바운싱 메시지 다시 시도 성공 | **[!UICONTROL Success]** 그에 따라 백분율 증가 | 전송됨 |
-| 소프트 바운싱 메시지 다시 시도 실패 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 실패 |
-
-**이메일 피드백 서비스 없음**
+아래 표에는 해당 KPI 및 전송 로그 상태와 함께 전송 프로세스의 다양한 단계가 나와 있습니다.
 
 | 전송 프로세스의 단계 | KPI 요약 | 전송 로그 상태 |
 |--- |--- |--- |
 | 메시지가 Campaign에서 Enhanced MTA로 성공적으로 릴레이 | **[!UICONTROL Success]** 백분율이 100%에서 시작 | 전송됨 |
-| 하드 바운싱 메시지가 Enhanced MTA에서 다시 보고됨 | **[!UICONTROL Success]** 그에 따라 백분율 감소 | 실패 |
-| 소프트 바운싱 메시지는 Enhanced MTA에서 다시 보고됨 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 전송됨 |
-| 소프트 바운싱 메시지 다시 시도 성공 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 전송됨 | **[!UICONTROL Success]** 그에 따라 백분율 증가 | 전송됨 |
-| 소프트 바운싱 메시지 다시 시도 실패 | **[!UICONTROL Success]** 그에 따라 백분율 감소 | 실패 |
+| 하드 바운싱 메시지가 Enhanced MTA에서 다시 보고됨 | **[!UICONTROL Success]** 그에 따라 백분율 감소 | 실패 |
+| 소프트 바운싱 메시지는 Enhanced MTA에서 다시 보고됨 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 전송됨 |
+| 소프트 바운싱 메시지 다시 시도 성공 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 전송됨 | **[!UICONTROL Success]** 그에 따라 백분율 증가 | 전송됨 |
+| 소프트 바운싱 메시지 다시 시도 실패 | **[!UICONTROL Success]** 그에 따라 백분율 감소 | 실패 |
+
