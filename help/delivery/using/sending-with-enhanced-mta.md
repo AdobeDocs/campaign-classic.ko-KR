@@ -2,14 +2,14 @@
 product: campaign
 title: Adobe Campaign Classic의 Enhanced MTA 포함
 description: Adobe Campaign Enhanced MTA로 이메일 전송 범위 및 특성에 대해 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 4c0c3007a03d4274fa1b436259cb2d302fcc8185
 workflow-type: tm+mt
-source-wordcount: '1999'
-ht-degree: 4%
+source-wordcount: '1736'
+ht-degree: 5%
 
 ---
 
@@ -90,32 +90,9 @@ No, there is no extra fee associated with the upgrade process to enable the use 
 
 **Enhanced MTA로 업그레이드하면 현재 진행 중인 캠페인이나 게재에 영향을 줍니까?**
 
-인스턴스가 Enhanced MTA를 사용하도록 업그레이드되기 전에 준비된 모든 게재는 새 MTA를 제대로 사용하려면 다시 준비해야 합니다.
-
 Adobe Campaign 트랜잭션 메시지 기능을 사용하는 고객의 경우, 매우 짧은 업그레이드 다운타임 동안 이메일을 트리거하기 위한 모든 API 호출이 대기열에 추가되며 업그레이드가 완료되면 시도됩니다.
 
 ## 향상된 MTA 특성 {#enhanced-mta-impacts}
-
-### 향상된 MTA 헤더
-
-최신 Campaign Classic 인스턴스에는 모든 메시지에 필요한 Enhanced MTA 헤더를 추가하는 코드가 포함됩니다. Adobe Campaign 19.1(빌드 9032) 이상을 사용 중이며, 그렇지 않은 경우 을 요청해야 합니다 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 실행 인스턴스 구성에 &quot;useMomentum=true&quot; 매개 변수를 추가하려면( [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) file), 마케팅 인스턴스일 수 있음, [중간 소싱 인스턴스](../../installation/using/mid-sourcing-server.md), 또는 [트랜잭션 메시지 실행 인스턴스](../../message-center/using/configuring-instances.md#execution-instance), 구성에 따라 다릅니다.
-
-그러나 이 코드를 포함하지 않는 이전 인스턴스를 사용하는 경우 **[!UICONTROL Typology Rule for Enhanced MTAs]** 는 Campaign 인스턴스의 모든 기존 유형화에 추가되어야 합니다.
-이 규칙은 다음에 의해 추가됩니다. **[!UICONTROL Typology]** enhanced MTA로 업그레이드하는 과정에서 패키지가 설치되었습니다.
-
->[!IMPORTANT]
->
->유형화에 이 유형화 규칙이 표시되면 어떤 식으로든 삭제하거나 수정하지 마십시오. 그렇지 않으면 이메일 게재에 부정적인 영향을 미칠 수 있습니다.
-
-이 **[!UICONTROL Typology]** Adobe Campaign 마케팅 인스턴스에 패키지를 설치해야 합니다.
-
-하이브리드 클라이언트인 경우 Adobe Campaign 팀이 설치 방법에 대한 지침을 제공합니다. **[!UICONTROL Typology]** 향상된 MTA로 업그레이드의 일부로 마케팅 인스턴스에 패키징합니다. 자세한 지침은 계정 담당자에게 문의하십시오.
-
->[!IMPORTANT]
->
->Adobe Campaign 팀이 제공하는 설치 방법 지침 **[!UICONTROL Typology]** 패키지를 주의 깊게 따라야 합니다. 그렇지 않으면 이메일을 전송하는 데 사용되는 IP에 심각한 문제가 발생할 수 있습니다.
-
-유형화에 대한 자세한 내용은 [이 섹션](../../campaign-opt/using/about-campaign-typologies.md).
 
 ### 새 MX 규칙
 
