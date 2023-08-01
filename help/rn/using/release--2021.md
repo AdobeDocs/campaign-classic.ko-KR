@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
-source-wordcount: '2595'
+source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -268,9 +268,6 @@ _2021년 2월 22일_
 * 이제 완벽하고 정밀한 보고를 위해 모든 카테고리의 피드백을 캡처합니다.
 * 이제 게재됨 표시기의 계산은 정확도 및 반응도 향상을 위해 Enhanced MTA의 실시간 피드백을 기반으로 합니다.
 * EFS는 동기식 소프트 바운스 보고로 지연되는 문제를 해결합니다.
-
-자세한 내용은 [세부 설명서](../../delivery/using/sending-with-enhanced-mta.md#efs)를 참조하십시오.
-이 개인 베타에 참가하려면 [양식](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u)을 작성해 주십시오. 그러면 연락을 드리겠습니다.
 
 **기타 변경 사항**
 
