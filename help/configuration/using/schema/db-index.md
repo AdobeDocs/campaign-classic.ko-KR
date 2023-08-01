@@ -2,8 +2,9 @@
 product: campaign
 title: 요소 및 속성 - dbindex 요소
 description: dbindex 요소
+feature: Schema Extension
 exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 1%
@@ -50,9 +51,9 @@ dbindex:==keyfield
 
 * **작업(문자열)(_o)**: 데이터베이스에 쓰는 유형을 정의합니다.
 
-   이 속성은 기본 제공 스키마를 확장할 때 주로 사용됩니다.
+  이 속성은 기본 제공 스키마를 확장할 때 주로 사용됩니다.
 
-   액세스 가능한 값은 다음과 같습니다.
+  액세스 가능한 값은 다음과 같습니다.
 
    * &quot;none&quot;: 조정만 가능합니다. 즉, Adobe Campaign은 요소가 존재하지 않는 경우 해당 요소를 업데이트하거나 오류를 생성하지 않고 요소를 복구합니다.
    * &quot;insertOrUpdate&quot;: 삽입을 사용하여 업데이트합니다. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않는 경우 만듭니다.

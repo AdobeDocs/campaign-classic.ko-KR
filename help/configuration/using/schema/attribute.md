@@ -2,11 +2,12 @@
 product: campaign
 title: 요소 및 속성 - 속성 요소
 description: 요소 및 속성
+feature: Schema Extension
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 1%
@@ -47,9 +48,9 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
 
 * **작업(문자열)(_o)**: 데이터베이스에 쓰는 유형을 정의합니다.
 
-   이 속성은 기본 제공 스키마를 확장할 때 주로 사용됩니다.
+  이 속성은 기본 제공 스키마를 확장할 때 주로 사용됩니다.
 
-   액세스 가능한 값은 다음과 같습니다.
+  액세스 가능한 값은 다음과 같습니다.
 
    * &quot;none&quot;: 조정만 가능합니다. 즉, Adobe Campaign은 요소가 존재하지 않는 경우 해당 요소를 업데이트하거나 오류를 생성하지 않고 요소를 복구합니다.
    * &quot;insertOrUpdate&quot;: 삽입을 사용하여 업데이트합니다. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않는 경우 만듭니다.
@@ -84,14 +85,14 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
    * &quot;shared&quot;: 컨텐츠는 데이터 유형별로 공유 테이블에 저장됩니다
    * &quot;전용&quot;: 컨텐츠가 전용 테이블에 저장됩니다.
 
-   SQL 특성 테이블은 특성 유형에 따라 자동으로 작성됩니다.
+  SQL 특성 테이블은 특성 유형에 따라 자동으로 작성됩니다.
 
    * 전용: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * 공유: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
-   특성 필드에는 단일 값이 특성에 대해 인증되는 단순 oà¹ 필드와 특성이 여러 값을 포함할 수 있는 컬렉션 요소에 연결되는 oà¹ 다중 선택 필드의 두 가지 유형이 있습니다.
+  특성 필드에는 단일 값이 특성에 대해 인증되는 단순 oà¹ 필드와 특성이 여러 값을 포함할 수 있는 컬렉션 요소에 연결되는 oà¹ 다중 선택 필드의 두 가지 유형이 있습니다.
 
-   스키마에 특성이 정의된 경우 이 스키마에는 단일 필드를 기반으로 하는 기본 키가 있어야 합니다(복합 키는 승인되지 않음).
+  스키마에 특성이 정의된 경우 이 스키마에는 단일 필드를 기반으로 하는 기본 키가 있어야 합니다(복합 키는 승인되지 않음).
 
 * **featureDate (부울)**: &quot;@feature&quot; 특성 필드에 연결된 속성입니다. 값이 &quot;true&quot;이면 값이 마지막으로 업데이트된 시기를 알 수 있습니다.
 * **img (문자열)**: 필드(네임스페이스 + 이미지 이름)에 연결된 이미지의 경로를 정의할 수 있습니다(예: img=&quot;cus:mypicture.jpg&quot;). 물리적으로 응용 프로그램 서버로 이미지를 가져와야 합니다.
@@ -100,14 +101,14 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
 * **현지화 가능(부울)**: 활성화되면 이 속성은 수집 툴에게 번역(내부 사용)을 위해 &quot;@label&quot; 속성 값을 복구하도록 알려줍니다.
 * **이름(MNTOKEN)**: 테이블의 필드 이름과 일치하는 속성의 이름입니다. &quot;@name&quot; 속성의 값은 짧아야 하며, 영어가 가급적이면 XML 이름 지정 제한을 준수해야 합니다.
 
-   스키마가 데이터베이스에 기록되면 Adobe Campaign에서 필드 이름에 접두사가 자동으로 추가됩니다.
+  스키마가 데이터베이스에 기록되면 Adobe Campaign에서 필드 이름에 접두사가 자동으로 추가됩니다.
 
    * &quot;i&quot;: &#39;정수&#39; 유형의 접두사입니다.
    * &quot;d&quot;: &#39;double&#39; 유형의 접두사입니다.
    * &quot;s&quot;: 문자열 유형의 접두사입니다.
    * &quot;ts&quot;: &#39;날짜&#39; 유형의 접두사입니다.
 
-   테이블에서 필드의 이름을 완전히 정의하려면 속성을 정의할 때 &quot;@sqlname&quot; 옵션을 사용합니다.
+  테이블에서 필드의 이름을 완전히 정의하려면 속성을 정의할 때 &quot;@sqlname&quot; 옵션을 사용합니다.
 
 * **notNull(부울)**: 데이터베이스의 NULL 레코드 관리와 관련된 Adobe Campaign의 동작을 재정의할 수 있습니다. 기본적으로 숫자 필드는 null이 아니며 문자열 및 날짜 유형 필드는 null일 수 있습니다.
 * **pkgStatus(문자열)**: 패키지를 내보내는 동안 &quot;@pkgStatus&quot;의 값에 따라 값이 고려됩니다.
@@ -126,9 +127,9 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
 * **translatedExpr (문자열)**: &quot;@expr&quot; 속성이 있는 경우 &quot;@translatedExpr&quot; 속성을 사용하면 표현식을 번역 도구에서 수집할 @expr에 정의된 것과 일치하도록 재정의할 수 있습니다(내부 사용).
 * **유형(MNTOKEN)**: 필드 유형.
 
-   필드 유형은 일반적입니다. 설치된 데이터베이스 유형에 따라 Adobe Campaign은 구조를 업데이트하는 동안 정의된 유형을 설치된 데이터베이스와 관련된 값으로 변경합니다.
+  필드 유형은 일반적입니다. 설치된 데이터베이스 유형에 따라 Adobe Campaign은 구조를 업데이트하는 동안 정의된 유형을 설치된 데이터베이스와 관련된 값으로 변경합니다.
 
-   사용 가능한 유형 목록:
+  사용 가능한 유형 목록:
 
    * 모든
    * bin
@@ -157,16 +158,16 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
    * timespan
    * uuid
 
-   &quot;@type&quot; 속성을 비워 두면 Adobe Campaign은 기본적으로 길이가 100인 문자열(STRING)을 필드에 연결합니다.
+  &quot;@type&quot; 속성을 비워 두면 Adobe Campaign은 기본적으로 길이가 100인 문자열(STRING)을 필드에 연결합니다.
 
-   필드가 STRING 유형이고 &quot;@sqlname&quot; 특성이 있어 필드 이름을 지정하지 않으면 데이터베이스의 필드 이름 앞에 자동으로 &#39;s&#39;가 붙습니다. 이 운영 모드는 정수 (i), DOUBLE (d) 및 DATES (ts) 유형 필드와 유사합니다.
+  필드가 STRING 유형이고 &quot;@sqlname&quot; 특성이 있어 필드 이름을 지정하지 않으면 데이터베이스의 필드 이름 앞에 자동으로 &#39;s&#39;가 붙습니다. 이 운영 모드는 정수 (i), DOUBLE (d) 및 DATES (ts) 유형 필드와 유사합니다.
 
 * **userEnum(문자열)**: &quot;열린&quot; 열거형의 내부 이름을 받습니다. 열거형의 값은 인터페이스에서 사용자가 정의할 수 있습니다.
 * **visibleIf (문자열)**: 속성을 표시하거나 숨길 조건을 XTK 식 형식으로 정의합니다.
 
-   >[!IMPORTANT]
-   >
-   >속성은 숨겨져 있지만 데이터는 계속 액세스할 수 있습니다.
+  >[!IMPORTANT]
+  >
+  >속성은 숨겨져 있지만 데이터는 계속 액세스할 수 있습니다.
 
 * **xml (부울)**: 이 옵션이 활성화된 경우 필드의 값에 연결된 SQL 필드가 없습니다. Adobe Campaign은 레코드 스토리지용 텍스트 유형 &quot;mData&quot; 필드를 만듭니다. 즉, 이러한 필드에는 필터링이나 정렬이 없습니다.
 

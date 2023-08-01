@@ -2,8 +2,9 @@
 product: campaign
 title: 스키마 요소 및 속성 - 요소 요소
 description: 요소 요소
+feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 0%
@@ -54,9 +55,9 @@ _operation (string), advanced (부울), aggregate (문자열), applicableIf (문
 
 * **작업(문자열)(_o)**: 데이터베이스에 쓰는 유형을 정의합니다.
 
-   이 속성은 기본 제공 스키마를 확장할 때 주로 사용됩니다.
+  이 속성은 기본 제공 스키마를 확장할 때 주로 사용됩니다.
 
-   액세스 가능한 값은 다음과 같습니다.
+  액세스 가능한 값은 다음과 같습니다.
 
    * &quot;none&quot;: 조정만 가능합니다. 즉, Adobe Campaign은 요소가 존재하지 않는 경우 해당 요소를 업데이트하거나 오류를 생성하지 않고 요소를 복구합니다.
    * &quot;insertOrUpdate&quot;: 삽입을 사용하여 업데이트합니다. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않는 경우 만듭니다.
@@ -93,14 +94,14 @@ _operation (string), advanced (부울), aggregate (문자열), applicableIf (문
    * &quot;shared&quot;: 컨텐츠는 데이터 유형별로 공유 테이블에 저장됩니다
    * &quot;전용&quot;: 컨텐츠가 전용 테이블에 저장됩니다.
 
-   SQL 특성 테이블은 특성 유형에 따라 자동으로 작성됩니다.
+  SQL 특성 테이블은 특성 유형에 따라 자동으로 작성됩니다.
 
    * 전용: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * 공유: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
-   특성 필드에는 특성에서 단일 값이 인증되는 단순 필드와 여러 값을 포함할 수 있는 컬렉션 요소에 특성이 연결되는 다중 선택 필드의 두 가지 유형이 있습니다.
+  특성 필드에는 특성에서 단일 값이 인증되는 단순 필드와 여러 값을 포함할 수 있는 컬렉션 요소에 특성이 연결되는 다중 선택 필드의 두 가지 유형이 있습니다.
 
-   스키마에 특성이 정의된 경우 이 스키마에는 단일 필드를 기반으로 하는 기본 키가 있어야 합니다(복합 키는 승인되지 않음).
+  스키마에 특성이 정의된 경우 이 스키마에는 단일 필드를 기반으로 하는 기본 키가 있어야 합니다(복합 키는 승인되지 않음).
 
 * **featureDate (부울)**: &quot;@feature&quot; 특성 필드에 연결된 속성입니다. 값이 &quot;true&quot;이면 값이 마지막으로 업데이트된 시기를 알 수 있습니다.
 * **filterPath (문자열)**: 이 속성은 Xpath를 수신하며 필드에 필터를 정의할 수 있도록 합니다.
@@ -111,7 +112,7 @@ _operation (string), advanced (부울), aggregate (문자열), applicableIf (문
 * **img (문자열)**: 요소에 연결된 이미지의 경로를 받습니다. 이 속성의 값은 &quot;namespace:image name&quot; 유형입니다. 예: img=&quot;cus:myImage.jpg&quot;. 물리적으로 응용 프로그램 서버로 이미지를 가져와야 합니다.
 * **무결성(문자열)**: 대상 테이블에 대한 소스 테이블 발생에 대한 참조 무결성.
 
-   액세스 가능한 값은 다음과 같습니다.
+  액세스 가능한 값은 다음과 같습니다.
 
    * &quot;define&quot;: Adobe Campaign은 링크를 통해 참조되는 엔티티를 삭제하지 않습니다
    * &quot;보통&quot;: 소스 발생 항목을 삭제하면 대상 발생 시 링크의 키가 초기화됩니다(기본 모드). 이 유형의 무결성은 모든 외래 키를 초기화합니다.
@@ -125,14 +126,14 @@ _operation (string), advanced (부울), aggregate (문자열), applicableIf (문
 * **현지화 가능(부울)**: 활성화되면 이 속성은 수집 툴에게 번역(내부 사용)을 위해 &quot;@label&quot; 속성 값을 복구하도록 알려줍니다.
 * **이름(MNTOKEN)**: 테이블 이름과 일치하는 요소의 내부 이름입니다. &quot;@name&quot; 속성 값은 짧아야 하며, 영어여야 하고, XML에 연결된 이름 지정 제약 조건을 준수해야 합니다.
 
-   스키마가 데이터베이스에 기록되면 Adobe Campaign에서 필드 이름에 접두사가 자동으로 추가됩니다.
+  스키마가 데이터베이스에 기록되면 Adobe Campaign에서 필드 이름에 접두사가 자동으로 추가됩니다.
 
    * &quot;i&quot;: &#39;정수&#39; 유형의 접두사입니다.
    * &quot;d&quot;: &#39;double&#39; 유형의 접두사입니다.
    * &quot;s&quot;: 문자열 유형의 접두사입니다.
    * &quot;ts&quot;: &#39;날짜&#39; 유형의 접두사입니다.
 
-   테이블 이름을 자동 방식으로 정의하려면 기본 스키마 요소의 정의에 &quot;@sqltable&quot; 속성을 사용해야 합니다.
+  테이블 이름을 자동 방식으로 정의하려면 기본 스키마 요소의 정의에 &quot;@sqltable&quot; 속성을 사용해야 합니다.
 
 * **noDbIndex(부울)**: 요소가 색인화되지 않도록 지정할 수 있습니다.
 * **ordered (부울)**: 속성이 활성화(ordered=&quot;true&quot;)되면 Adobe Campaign은 XML 컬렉션 요소에 요소 선언 시퀀스를 유지합니다.
@@ -148,12 +149,12 @@ _operation (string), advanced (부울), aggregate (문자열), applicableIf (문
 * **revAdvanced(부울)**: 활성화되면 이 속성은 반대편 링크가 &quot;고급&quot; 링크임을 지정합니다.
 * **revCardinality(문자열)**: 이 속성은 두 테이블 간의 링크 카디널리티를 정의합니다. 링크 유형에 사용됩니다. `<element>`.
 
-   가능한 값:
+  가능한 값:
 
    * &quot;단일&quot; : 단순 1-1 유형 링크
    * &quot;unbound&quot;: 1-N 유형 컬렉션 링크
 
-   링크를 만드는 동안 특성이 지정되지 않으면 기본적으로 카디널리티는 1-N이 됩니다.
+  링크를 만드는 동안 특성이 지정되지 않으면 기본적으로 카디널리티는 1-N이 됩니다.
 
 * **revDesc (문자열)**: 이 속성은 반대편 링크에 연결된 설명을 수신합니다.
 * **revExternalJoin(부울)**: 활성화되면 반대편 링크에 외부 조인을 강제 적용할 수 있습니다.
@@ -172,7 +173,7 @@ _operation (string), advanced (부울), aggregate (문자열), applicableIf (문
 * **translatedExpr (문자열)**: &quot;@expr&quot; 속성이 발견되면 &quot;@translatedExpr&quot; 속성을 사용하여 &quot;@expr&quot;에 정의된 표현식과 일치하는 표현식을 재정의할 수 있으며, 이는 번역 도구로 수집됩니다(내부 사용).
 * **유형(MNTOKEN)**: 요소에 저장되는 데이터의 유형을 정의합니다.
 
-   사용 가능한 유형 목록:
+  사용 가능한 유형 목록:
 
    * 모든
    * bin

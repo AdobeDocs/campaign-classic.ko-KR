@@ -2,8 +2,9 @@
 product: campaign
 title: 스키마 요소 및 속성 - 열거형 요소
 description: 열거형 요소
+feature: Schema Extension
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 6%
@@ -48,7 +49,7 @@ ht-degree: 6%
 
 * **기본 유형(문자열)**: 열거형에 저장된 값의 유형입니다.
 
-   사용 가능한 유형 목록:
+  사용 가능한 유형 목록:
 
    * 모든
    * bin

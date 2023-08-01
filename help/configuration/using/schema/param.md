@@ -2,8 +2,9 @@
 product: campaign
 title: 스키마 요소 및 속성 - 매개 변수 요소
 description: 매개 변수 요소
+feature: Schema Extension
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 7%
@@ -51,7 +52,7 @@ param:==help
 * **이름(MNTOKEN)**: 의 내부 이름 `<param>`
 * **유형(문자열)**: 이 속성은 의 유형을 정의합니다. `<param>` 요소
 
-   사용 가능한 유형 목록:
+  사용 가능한 유형 목록:
 
    * 모든
    * bin
