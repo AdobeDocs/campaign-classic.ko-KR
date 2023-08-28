@@ -3,13 +3,13 @@ product: campaign
 title: Adobe Campaign Classic v7 설명서 업데이트
 description: 이 페이지에서는 Adobe Campaign Classic 설명서의 새로운 기능과 업데이트의 전체 목록을 정리합니다.
 feature: Release Notes
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 324e26ba1db14e10bb79eee60ba43ddc36e8e94f
 workflow-type: tm+mt
-source-wordcount: '3584'
+source-wordcount: '3607'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 99%
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
 ## 2023
+
+### 2023년 8월
+
+Adobe Campaign을 사용하여 4Gb보다 큰 압축 파일의 압축을 풀 수 없다는 제한이 추가되었습니다. [자세히 보기](../../platform/using/unzip-decrypt.md)
 
 ### 2023년 4월
 

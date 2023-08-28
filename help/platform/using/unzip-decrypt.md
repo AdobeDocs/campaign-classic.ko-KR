@@ -9,22 +9,25 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 32c2ce24bdd62724e4b4ff66f4664e8faa259b4b
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '739'
 ht-degree: 11%
 
 ---
 
+
 # 파일 압축 풀기 또는 암호 해독 {#unzipping-or-decrypting-a-file-before-processing}
-
-
 
 Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 수 있습니다. 다음 위치에서 읽기 전 [데이터 로드 중(파일)](../../workflow/using/data-loading--file-.md) 활동을 수행하면 압축을 풀거나 파일의 암호를 해독하는 전처리 과정을 정의할 수 있습니다.
 
+>[!IMPORTANT]
+>
+>4Gb보다 큰 압축 파일은 압축을 풀 수 없습니다.
+
 다음을 수행할 수 있습니다.
 
-1. 사용 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) 공개/개인 키 쌍을 생성합니다.
+1. 사용 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) 파일 암호 해독을 허용하기 위해 공개/개인 키 쌍을 생성합니다.
 
    >[!NOTE]
    >
@@ -32,8 +35,9 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 �
    >
    >인스턴스는 AWS에서 호스팅되어야 하며 [최신 GA 빌드](../../rn/using/rn-overview.md). [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko)에 설명된 단계를 수행합니다.
 
-1. Adobe Campaign 설치가 Adobe에 의해 호스팅되는 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 필요한 유틸리티를 서버에 설치합니다.
 1. Adobe Campaign 설치가 온프레미스에 있는 경우 사용할 유틸리티(예: GPG, GZIP)와 애플리케이션 서버에 필요한 키(암호화 키)를 설치합니다.
+
+   Adobe Campaign 설치가 Adobe에 의해 호스팅되는 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 필요한 유틸리티를 서버에 설치합니다.
 
 그런 다음 원하는 전처리 명령을 워크플로우에 사용할 수 있습니다.
 
