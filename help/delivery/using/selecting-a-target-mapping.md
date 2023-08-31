@@ -2,20 +2,19 @@
 product: campaign
 title: 대상 매핑 선택
 description: 타깃 매핑 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Delivery Templates
+role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 12%
+source-wordcount: '192'
+ht-degree: 14%
 
 ---
 
 # 대상 매핑 선택{#selecting-a-target-mapping}
-
-
 
 기본적으로 게재 템플릿은 타겟팅합니다 **[!UICONTROL Recipients]**. 따라서 대상 매핑은 의 필드를 사용합니다 **nms:recipient** 테이블. Adobe Campaign은 필요에 따라 사용할 게재에 대한 다른 target 매핑을 제공합니다.
 

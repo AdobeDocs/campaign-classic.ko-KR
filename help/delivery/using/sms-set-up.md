@@ -2,20 +2,19 @@
 product: campaign
 title: Campaign SMS 채널 구성
 description: Campaign에서 SMS 채널을 구성하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: SMS
+role: User, Developer, Admin
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1734'
 ht-degree: 34%
 
 ---
 
 # SMS 채널 구성 {#setting-up-sms-channel}
-
-
 
 휴대폰으로 보내려면 다음이 필요합니다.
 
@@ -349,7 +348,7 @@ SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 
 * 각 외부 계정에 대해 하나의 공급자 계정을 만듭니다.
 * 사용 **[!UICONTROL System type]** 의 필드 **[!UICONTROL Mobile]** > **[!UICONTROL Connection settings]** 각 짧은 코드를 구분하는 탭입니다. 공급자에게 각 계정에 대해 다른 값을 요청하십시오.
 
-   ![](assets/extended_smpp_system-type.png)
+  ![](assets/extended_smpp_system-type.png)
 
 Extended Generic SMPP 커넥터를 사용하여 외부 계정을 설정하는 단계는 [SMPP 외부 계정 만들기](#creating-an-smpp-external-account) 섹션.
 

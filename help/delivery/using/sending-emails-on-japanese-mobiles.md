@@ -2,20 +2,19 @@
 product: campaign
 title: Adobe Campaign Classic으로 일본어 모바일에서 이메일 보내기
 description: 일본어 모바일에서 읽을 이메일을 구성, 디자인 및 전송하는 방법에 대해 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email, Email Design
+role: User
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
 
 # 일본어 모바일에서 이메일 보내기 {#sending-emails-on-japanese-mobiles}
-
-
 
 ## 일본어 모바일의 이메일 형식 {#email-formats-for-japanese-mobiles}
 
@@ -60,7 +59,7 @@ Adobe Campaign을 사용하면 메시지 형식이 일본어 모바일로 전송
 * 메시지의 이미지 수가 형식에 지정된 제한을 초과하지 않는지 확인합니다(이미지 20개).
 * 총 메시지 크기 확인(100kB 미만)
 
-   ![](assets/deco-mail_06.png)
+  ![](assets/deco-mail_06.png)
 
 ### 유형화 규칙 실행 {#running-typology-rule}
 

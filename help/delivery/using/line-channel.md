@@ -2,13 +2,14 @@
 product: campaign
 title: LINE 게재 만들기
 description: LINE 메시지를 만드는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Line App
+role: User
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1165'
 ht-degree: 3%
 
 ---
@@ -165,19 +166,19 @@ An **[!UICONTROL Image and link]** [!DNL LINE] 게재는 하나 이상의 URL이
 
 * a **[!UICONTROL Personalized image]**,
 
-   >[!NOTE]
-   >
-   >다음을 사용할 수 있습니다. **%SIZE%** 수신자의 모바일 장치의 화면 크기에 따라 이미지 표시를 최적화하기 위한 변수입니다.
+  >[!NOTE]
+  >
+  >다음을 사용할 수 있습니다. **%SIZE%** 수신자의 모바일 장치의 화면 크기에 따라 이미지 표시를 최적화하기 위한 변수입니다.
 
-   ![](assets/line_message_04.png)
+  ![](assets/line_message_04.png)
 
 * an **[!UICONTROL Image URL]** 장치 화면 크기당,
 
-   ![](assets/line_message_03.png)
+  ![](assets/line_message_03.png)
 
-   다음 **[!UICONTROL Define images per device screen size]** 옵션을 사용하면 다양한 이미지 해상도를 사용하여 모바일 디바이스에서 게재 가시성을 최적화할 수 있습니다. 높이와 너비가 같은 이미지만 지원됩니다.
+  다음 **[!UICONTROL Define images per device screen size]** 옵션을 사용하면 다양한 이미지 해상도를 사용하여 모바일 디바이스에서 게재 가시성을 최적화할 수 있습니다. 높이와 너비가 같은 이미지만 지원됩니다.
 
-   이미지는 화면 크기에 따라 정의할 수 있습니다.
+  이미지는 화면 크기에 따라 정의할 수 있습니다.
 
    * 1040px
    * 700px
@@ -185,17 +186,17 @@ An **[!UICONTROL Image and link]** [!DNL LINE] 게재는 하나 이상의 URL이
    * 300px
    * 240px
 
-   >[!CAUTION]
-   >
-   >1040x1040 픽셀 크기는 링크가 있는 모든 LINE 이미지에 필수입니다.
+  >[!CAUTION]
+  >
+  >1040x1040 픽셀 크기는 링크가 있는 모든 LINE 이미지에 필수입니다.
 
-   그런 다음 수신자의 모바일 장치에 표시되는 대체 텍스트를 추가해야 합니다.
+  그런 다음 수신자의 모바일 장치에 표시되는 대체 텍스트를 추가해야 합니다.
 
 * 및 **[!UICONTROL Links]**.
 
-   다음 **[!UICONTROL Links]** [섹션]을 사용하면 클릭 가능한 여러 영역으로 이미지를 분할하는 서로 다른 레이아웃 중에서 선택할 수 있습니다. 그런 다음 각 사용자에게 전용 을 할당할 수 있습니다 **[!UICONTROL Link URL]**.
+  다음 **[!UICONTROL Links]** [섹션]을 사용하면 클릭 가능한 여러 영역으로 이미지를 분할하는 서로 다른 레이아웃 중에서 선택할 수 있습니다. 그런 다음 각 사용자에게 전용 을 할당할 수 있습니다 **[!UICONTROL Link URL]**.
 
-   ![](assets/line_message_05.png)
+  ![](assets/line_message_05.png)
 
 ### 비디오 메시지 게재 구성 {#configuring-a-video-message-delivery}
 

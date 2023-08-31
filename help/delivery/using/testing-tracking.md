@@ -2,20 +2,19 @@
 product: campaign
 title: 메시지 추적 테스트
 description: 메시지 추적을 테스트하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring
+role: User
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
 
 # 메시지 추적 테스트{#testing-tracking}
-
-
 
 미러 페이지, 이메일 로그 및 링크에 대한 추적을 테스트할 수 있습니다. 방법은 다음과 같습니다.
 
@@ -34,7 +33,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >수신자의 프로필 페이지는에 있습니다. **프로필 및 Target > 수신자** 기본적으로 폴더입니다.
+   >수신자의 프로필 페이지는에 있습니다. **프로필 및 대상 > 수신자** 기본적으로 폴더입니다.
 
    이메일 로그 추적을 확인하려면 값을 찾습니다 **열기** 및 **[!UICONTROL Email click]** 다음에서 **유형** 열.
 

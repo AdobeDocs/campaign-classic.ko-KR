@@ -2,20 +2,19 @@
 product: campaign
 title: 개인화된 링크 추적 시작
 description: Campaign에서 개인화되고 추적을 지원하는 이메일에 링크를 작성하는 방법을 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Personalization
+role: User
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '230'
 ht-degree: 7%
 
 ---
 
 # 개인화된 링크 추적 시작 {#tracking-personalized-links}
-
-
 
 개인화가 포함된 이메일 콘텐츠의 링크는 추적할 특정 구문이 필요합니다.
 

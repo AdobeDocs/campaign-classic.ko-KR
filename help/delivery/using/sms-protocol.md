@@ -2,24 +2,24 @@
 product: campaign
 title: SMS 커넥터 프로토콜 및 설정
 description: SMS 커넥터에 대한 자세한 내용 및 구성 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: SMS
+role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '8460'
+source-wordcount: '8458'
 ht-degree: 1%
 
 ---
 
 # SMS 커넥터 프로토콜 및 설정 {#sms-connector-protocol}
 
-
-
 >[!NOTE]
 >
 >이 문서를 통해 프로토콜, 필드 이름 및 값에 대한 세부 정보에 대한 모든 참조는 [SMPP 3.4 사양](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+>
 
 ## 개요 {#overview}
 
@@ -322,7 +322,7 @@ SR ExampleProvider DELIVRD 000|#MESSAGE#
 
 * 일치하는 경우 `success` regex, 그것은 성공으로 간주될 것입니다.
 
-* 일치하는 경우 `error` 정규 표현식에서, 메시지는 오류로 검증됩니다.
+* 일치하는 경우 `error` 정규 표현식에서 메시지는 오류로 검증됩니다.
 
 * 이 두 정규 표현식 중 어느 하나도 일치하지 않으면 SR이 무시됩니다. Adobe Campaign에서 처리하지 않는 중간 알림일 수 있습니다.
 
@@ -486,7 +486,7 @@ Adobe Campaign Classic에는 KPI에 대해 완전히 다른 메커니즘이 있�
 
 * 소스 번호가 제공되지 않으면 미리보기에 짧은 코드가 표시됩니다. 그것은 휴대폰의 실제 행동을 반영할 것입니다.
 
-* 자동 회신 기능의 설정에 대한 차단 목록은 특정 짧은 코드만 사용자에게 보냅니다.
+* 자동 회신 기능의 설정에 대한 차단 목록에 추가하다는 특정 짧은 코드만 사용자에게 보냅니다.
 
 #### 소스 TON/NPI, 대상 TON/NPI {#ton-npi}
 
@@ -590,7 +590,7 @@ Adobe Campaign에서 지원되는 모든 문자를 인코딩할 수 있고 UCS-2
 
 확인란을 선택하면 사전 처리 및 잠재적 공백, + 접두사 또는 파운드/해시/별 기호 없이 전화 번호가 있는 그대로 전송됩니다.
 
-차단 목록 이 기능은 자동 회신 기능의 동작에도 영향을 줍니다. 확인란을 선택하지 않으면 SMPP 프로토콜 자체에서 전화 번호에서 제거되는 + 접두어를 보상하기 위해 격리 테이블에 삽입된 전화 번호에 + 접두어가 추가됩니다.
+차단 목록에 추가하다 이 기능은 자동 회신 기능의 동작에도 영향을 줍니다. 확인란을 선택하지 않으면 SMPP 프로토콜 자체에서 전화 번호에서 제거되는 + 접두어를 보상하기 위해 격리 테이블에 삽입된 전화 번호에 + 접두어가 추가됩니다.
 
 #### TLS 인증서 검사 건너뛰기 {#skip-tls}
 
@@ -722,7 +722,7 @@ SR 형식은 SMPP 프로토콜 사양에 의해 엄격히 적용되지 않습니
 >
 >Adobe Campaign Classic 및 하이브리드 아키텍처에서 확장된 SMPP 커넥터에 대해 자동 회신을 적용하려면에서 mid 연산자에 대한 쓰기 액세스 권한을 추가해야 합니다 **외부 계정** 폴더를 삭제합니다.
 
-이 기능을 사용하면 MO에 빠르게 텍스트를 응답하고 짧은 코드별로 차단 목록에 보내는 것을 처리할 수 있습니다.
+이 기능을 사용하면 MO에 빠르게 텍스트를 응답하고 짧은 코드별로 차단 목록에 추가하다에 보내는 것을 처리할 수 있습니다.
 
 다음 **키워드** 및 **짧은 코드** 열은 자동 회신을 트리거할 조건을 정의합니다. 두 필드가 일치하면 MO가 전송되고 추가 작업이 트리거됩니다. 와일드카드를 지정하려면 필드를 비워 두어야 합니다. 키워드는 문장 부호 및 선행 공백을 무시하고 MO 텍스트의 첫 번째 영숫자 단어와 일치합니다. 즉, **키워드** 필드는 공백을 포함할 수 없으며 단일 단어여야 합니다.
 
@@ -832,17 +832,16 @@ SMS 프로세스는 매분마다 전체 줄을 확인한 다음 비동기적으�
 ### SMS 테스트 {#test}
 
 * **모든 종류의 문자가 포함된 SMS 보내기**
-GSM 또는 ASCII 이외 문자로 SMS를 전송해야 하는 경우 가능한 한 다양한 문자로 일부 메시지를 보내십시오. 사용자 지정 문자 매핑 테이블을 설정하는 경우, 가능한 모든 항목에 대해 하나 이상의 SMS를 전송하십시오 
-`data_coding` values.
+GSM 또는 ASCII 이외 문자로 SMS를 전송해야 하는 경우 가능한 한 다양한 문자로 일부 메시지를 보내십시오. 사용자 지정 문자 매핑 테이블을 설정하는 경우, 가능한 모든 항목에 대해 하나 이상의 SMS를 전송하십시오 `data_coding` 값.
 
 * **SR이 제대로 처리되었는지 확인**
-SMS는 게재 로그에 수신된 것으로 표시되어야 합니다. 게재 로그는 성공해야 하며 다음과 같습니다. 게재 공급자 이름을 변경했는지 확인하십시오. 게재 로그에는 다음이 포함되지 않아야 합니다.    `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
+SMS는 게재 로그에 수신된 것으로 표시되어야 합니다. 게재 로그는 성공해야 하며 다음과 같습니다.
+  `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 게재 공급자 이름을 변경했는지 확인합니다. 게재 로그에는 다음이 포함되지 않아야 합니다. **SR 일반** 프로덕션 환경에서.
 
 * **MO가 처리되었는지 확인**
 MO(자동 회신, 데이터베이스에 MO 저장 등)를 처리해야 하는 경우 몇 가지 테스트를 해보십시오. 모든 자동 회신 키워드에 대해 몇 개의 SMS를 보내고 몇 초 내로 회신이 충분히 빠른지 확인합니다.
-Adobe Campaign이 성공으로 답글을 남긴다는 로그 확인 
-`DELIVER_SM_RESP` (command_status=0).
+Adobe Campaign이 성공으로 답글을 남긴다는 로그 확인 `DELIVER_SM_RESP` (command_status=0).
 
 ### PDU 확인 {#check-pdus}
 

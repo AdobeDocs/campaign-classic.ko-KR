@@ -2,20 +2,19 @@
 product: campaign
 title: 대상 모집단 정의
 description: 대상 모집단을 정의하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Audiences, Proofs
+role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1610'
 ht-degree: 2%
 
 ---
 
 # 대상 모집단 정의 {#defining-the-target-population}
-
-
 
 각 게재에 대해 여러 유형의 대상 모집단을 정의할 수 있습니다.
 
@@ -52,23 +51,23 @@ ht-degree: 2%
    * **[!UICONTROL Filtering conditions]** : 이 옵션을 사용하면 쿼리를 정의하고 결과를 표시할 수 있습니다. 쿼리를 정의하는 방법은에 나와 있습니다. [이 섹션](../../platform/using/creating-filters.md#creating-an-advanced-filter).
    * **[!UICONTROL Subscribers of an information service]** : 이 옵션을 사용하면 만들어지는 게재에서 수신자를 타겟팅해야 하는 뉴스레터를 선택할 수 있습니다.
 
-      ![](assets/s_ncs_user_wizard_email02c.png)
+     ![](assets/s_ncs_user_wizard_email02c.png)
 
    * **[!UICONTROL Recipients of a delivery]** : 이 옵션을 사용하면 기존 게재의 수신자를 타겟팅 기준으로 정의할 수 있습니다. 그런 다음 목록에서 게재를 선택해야 합니다.
 
-      ![](assets/s_ncs_user_wizard_email02d.png)
+     ![](assets/s_ncs_user_wizard_email02d.png)
 
    * **[!UICONTROL Delivery recipients belonging to a folder]** : 이 옵션을 사용하면 게재 폴더를 선택하고 해당 폴더에서 게재 수신자를 타겟팅할 수 있습니다.
 
-      ![](assets/s_ncs_user_wizard_email02e.png)
+     ![](assets/s_ncs_user_wizard_email02e.png)
 
-      드롭다운 목록에서 선택하여 수신자의 동작을 필터링할 수 있습니다.
+     드롭다운 목록에서 선택하여 수신자의 동작을 필터링할 수 있습니다.
 
-      ![](assets/s_ncs_user_wizard_email02f.png)
+     ![](assets/s_ncs_user_wizard_email02f.png)
 
-      >[!NOTE]
-      >
-      >다음 **[!UICONTROL Include sub-folders]** 또한 옵션을 사용하면 선택한 노드 아래의 트리 구조에 있는 폴더에 포함된 게재를 타겟팅할 수 있습니다.
+     >[!NOTE]
+     >
+     >다음 **[!UICONTROL Include sub-folders]** 또한 옵션을 사용하면 선택한 노드 아래의 트리 구조에 있는 폴더에 포함된 게재를 타겟팅할 수 있습니다.
 
    * **[!UICONTROL Recipients included in a folder]** : 이 옵션을 사용하면 트리의 특정 폴더에 포함된 프로필을 타겟팅할 수 있습니다.
    * **[!UICONTROL A recipient]** : 이 옵션을 사용하면 데이터베이스의 프로필에서 특정 수신자를 선택할 수 있습니다.
@@ -76,7 +75,7 @@ ht-degree: 2%
    * **[!UICONTROL User filters]** : 이 옵션을 사용하면 사전 구성된 필터에 액세스하여 해당 필터를 데이터베이스의 프로필에 대한 필터링 기준으로 사용할 수 있습니다. 사전 구성된 필터는에 표시됩니다. [이 섹션](../../platform/using/creating-filters.md#saving-a-filter).
    * 옵션 **[!UICONTROL Exclude recipients corresponding to this segment]** 정의된 대상 기준을 충족하지 않는 수신자를 타깃팅할 수 있습니다. 이 옵션을 사용하려면 적절한 상자를 선택한 다음 앞에서 정의한 대로 타겟팅을 적용하여 결과 프로필을 제외합니다.
 
-      ![](assets/s_ncs_user_wizard_email02g.png)
+     ![](assets/s_ncs_user_wizard_email02g.png)
 
 1. 에 이 타깃팅의 이름을 입력하십시오. **[!UICONTROL Label]** 필드. 기본적으로 레이블은 첫 번째 타겟팅 기준의 레이블이 됩니다. 조합의 경우 명시적인 이름을 사용하는 것이 좋습니다.
 1. 클릭 **[!UICONTROL Finish]** 를 입력하여 구성된 타깃팅의 유효성을 검사할 수 있습니다.
@@ -134,23 +133,23 @@ ht-degree: 2%
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**. 이 옵션은 기본적으로 활성화되어 있습니다. 게재 중에 중복 이메일 주소를 제거할 수 있습니다. 적용되는 전략은 Adobe Campaign 사용 방법과 데이터베이스의 데이터 유형에 따라 달라질 수 있습니다.
 
-   각 게재 템플릿에 대해 옵션의 기본값을 구성할 수 있습니다.
+  각 게재 템플릿에 대해 옵션의 기본값을 구성할 수 있습니다.
 
-   예제:
+  예제:
 
    * 뉴스레터 또는 전자 문서 게재. 데이터에 기본 중복 항목이 없는 경우에 따라 중복 항목을 제외하지 않습니다. 동일한 이메일 주소를 구독하는 커플은 두 개의 특정 개인화된 이메일 메시지를 받을 수 있습니다. 한 개는 이름별로 각 개인에게 주소가 지정됩니다. 이 경우 이 옵션을 선택 취소할 수 있습니다.
    * 마케팅 캠페인 게재: 동일한 수신자에게 너무 많은 메시지를 보내지 않으려면 중복 제외가 필요합니다. 이 경우 이 옵션을 선택할 수 있습니다.
 
-      이 옵션을 선택 취소하면 추가 옵션에 액세스할 수 있습니다. **[!UICONTROL Keep duplicate records (same identifier)]**. 이를 통해 여러 타겟팅 기준을 충족하는 수신자에게 여러 게재를 승인할 수 있습니다.
+     이 옵션을 선택 취소하면 추가 옵션에 액세스할 수 있습니다. **[!UICONTROL Keep duplicate records (same identifier)]**. 이를 통해 여러 타겟팅 기준을 충족하는 수신자에게 여러 게재를 승인할 수 있습니다.
 
-      ![](assets/s_ncs_user_wizard_email02j.png)
+     ![](assets/s_ncs_user_wizard_email02j.png)
 
-* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , 즉 이메일 주소가 차단 목록(&#39;옵트아웃&#39;)인 수신자입니다. 이 옵션은 e-마케팅의 직업 윤리와 전자 상거래에 관한 법률을 준수하기 위해 선택된 상태로 유지되어야 합니다.
+* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , 즉 이메일 주소가 차단 목록에 추가하다(&#39;옵트아웃&#39;)인 수신자입니다. 이 옵션은 e-마케팅의 직업 윤리와 전자 상거래에 관한 법률을 준수하기 위해 선택된 상태로 유지되어야 합니다.
 * **[!UICONTROL Exclude quarantined recipients]**. 이 옵션을 사용하면 주소가 응답하지 않는 프로필을 타겟에서 제외할 수 있습니다. 이 옵션은 계속 선택하는 것이 좋습니다.
 
-   >[!NOTE]
-   >
-   >격리 관리에 대한 자세한 내용은 다음을 참조하십시오. [격리 관리 이해](understanding-quarantine-management.md).
+  >[!NOTE]
+  >
+  >격리 관리에 대한 자세한 내용은 다음을 참조하십시오. [격리 관리 이해](understanding-quarantine-management.md).
 
 * **[!UICONTROL Limit delivery]** (으)로 설정합니다. 이 옵션을 사용하면 전송할 최대 메시지 수를 입력할 수 있습니다. 타겟의 콘텐츠가 표시된 메시지의 수를 초과하는 경우, 타겟에 무작위 선택이 적용된다.
 

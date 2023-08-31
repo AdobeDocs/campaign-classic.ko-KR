@@ -1,21 +1,20 @@
 ---
 product: campaign
 title: 구독 관리
-description: 구독 관리
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+description: Adobe Campaign에서 구독을 관리하는 방법 알아보기
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Subscriptions
+role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1116'
 ht-degree: 2%
 
 ---
 
 # 구독 관리{#managing-subscriptions}
-
-
 
 ## 정보 서비스 기본 정보 {#about-information-services}
 
@@ -54,9 +53,9 @@ ht-degree: 2%
 
 * 에 서비스 이름을 입력합니다. **[!UICONTROL Label]** 필드를 지정하고 배달 채널(이메일, 모바일, Facebook, Twitter 또는 모바일 애플리케이션)을 선택합니다.
 
-   >[!NOTE]
-   >
-   >Facebook 및 Twitter 구독은에 자세히 설명되어 있습니다. [이 섹션](../../social/using/about-social-marketing.md). 모바일 애플리케이션 구독은에 자세히 설명되어 있습니다. [모바일 앱 채널 기본 정보](about-mobile-app-channel.md).
+  >[!NOTE]
+  >
+  >Facebook 및 Twitter 구독은에 자세히 설명되어 있습니다. [이 섹션](../../social/using/about-social-marketing.md). 모바일 애플리케이션 구독은에 자세히 설명되어 있습니다. [모바일 앱 채널 기본 정보](about-mobile-app-channel.md).
 
 * 이메일 유형 서비스의 경우 **게재 모드**. 가능한 모드는 다음과 같습니다. **[!UICONTROL Newsletter]** 또는 **[!UICONTROL Viral]**.
 * 다음을 보낼 수 있습니다. **확인 메시지** 구독 또는 구독 취소. 이렇게 하려면 다음에서 해당 게재를 만드는 데 사용할 게재 템플릿을 선택합니다. **[!UICONTROL Subscription]** 및 **[!UICONTROL Unsubscription]** 필드. 이러한 템플릿은 **[!UICONTROL Subscription]** 정의된 대상 없이 대상 매핑을 입력합니다. 섹션 참조 [이메일 채널 기본 정보](about-email-channel.md).
@@ -125,22 +124,22 @@ ht-degree: 2%
 
 * 수동으로 서비스 추가: 이렇게 하려면 다음에서 하십시오. **[!UICONTROL Subscriptions]** 프로필 탭, 클릭 **[!UICONTROL Add]** 관련 정보 서비스를 선택합니다.
 
-   자세한 내용은 의 프로필 편집 섹션을 참조하십시오 [이 섹션](../../platform/using/editing-a-profile.md).
+  자세한 내용은 의 프로필 편집 섹션을 참조하십시오 [이 섹션](../../platform/using/editing-a-profile.md).
 
 * 수신자 집합을 이 서비스에 자동으로 구독합니다. 수신자 목록은 필터링 작업, 그룹, 폴더, 가져오기 또는 마우스를 사용한 직접 선택에서 가져올 수 있습니다. 이러한 수신자를 구독하려면 프로필을 선택하고 마우스 오른쪽 단추를 클릭합니다. 선택 **[!UICONTROL Actions > Subscribe selection to a service...]**&#x200B;를 클릭하고 관련 서비스를 선택한 다음 작업을 시작합니다.
 * 수신자를 가져와 정보 서비스에 자동으로 가입합니다. 이렇게 하려면 가져오기 마법사의 마지막 단계에서 관련 서비스를 선택합니다.
 
-   이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/executing-import-jobs.md)을 참조하십시오.
+  이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/executing-import-jobs.md)을 참조하십시오.
 
 * 수신자가 서비스에 가입할 수 있도록 웹 양식을 사용하십시오.
 
-   이 작업에 대한 자세한 정보는 [이 섹션](../../web/using/about-web-applications.md)을 참조하십시오.
+  이 작업에 대한 자세한 정보는 [이 섹션](../../web/using/about-web-applications.md)을 참조하십시오.
 
 * 타겟팅 워크플로우 만들기 및 사용 **[!UICONTROL Subscription service]** 상자.
 
-   ![](assets/s_ncs_user_subscribe_from_wf.png)
+  ![](assets/s_ncs_user_subscribe_from_wf.png)
 
-   워크플로 및 사용 방법은에 자세히 설명되어 있습니다. [이 섹션](../../workflow/using/about-workflows.md).
+  워크플로 및 사용 방법은에 자세히 설명되어 있습니다. [이 섹션](../../workflow/using/about-workflows.md).
 
 ### 서비스에서 수신자 구독 취소 {#unsubscribing-a-recipient-from-a-service}
 
@@ -148,7 +147,7 @@ ht-degree: 2%
 
 법에 따라 이메일 게재에는 구독 취소 링크가 포함되어야 합니다. 수신자는 이 링크를 클릭하여 프로필을 업데이트하고 향후 게재 대상에서 제외할 수 있습니다.
 
-기본 구독 취소 링크는 게재 마법사에 제공된 콘텐츠 편집기의 도구 모음에서 마지막 버튼을 통해 삽입됩니다( 참조) [개인화 기본 정보](about-personalization.md)). 수신자가 이 링크를 클릭하면 프로필이 차단 목록(옵트아웃)에 추가됩니다. 즉, 이 수신자는 더 이상 게재 작업에 의해 타겟팅되지 않습니다.
+기본 구독 취소 링크는 게재 마법사에 제공된 콘텐츠 편집기의 도구 모음에서 마지막 버튼을 통해 삽입됩니다( 참조) [개인화 기본 정보](about-personalization.md)). 수신자가 이 링크를 클릭하면 프로필이 차단 목록에 추가하다(옵트아웃)에 추가됩니다. 즉, 이 수신자는 더 이상 게재 작업에 의해 타겟팅되지 않습니다.
 
 그러나 수신자는 모든 서비스의 구독을 취소하지 않고 서비스 구독을 취소할 수 있습니다. 이를 허용하려면 웹 양식을 사용할 수 있습니다( 참조). [이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)) 또는 개인화된 구독 취소 링크를 삽입합니다( 참조) [개인화 블록](personalization-blocks.md)).
 

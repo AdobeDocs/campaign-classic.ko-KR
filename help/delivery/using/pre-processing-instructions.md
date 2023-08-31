@@ -2,20 +2,19 @@
 product: campaign
 title: 추적된 URL에 대한 전처리 지침
 description: 이메일의 URL을 스크립팅하고 계속 추적하는 데 사용하는 전처리 지침에 대해 자세히 알아보십시오
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring
+role: User, Data Engineer, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '654'
 ht-degree: 2%
 
 ---
 
 # 전처리 지침 {#pre-processing-instructions}
-
-
 
 게재 콘텐츠의 특정 구문을 사용하여 지침을 추가하고 추적된 이메일의 URL을 스크립팅할 수 있습니다. &lt;%@ 지침은 JavaScript가 아닙니다. 이 구문은 Adobe Campaign에만 적용됩니다.
 
@@ -35,31 +34,31 @@ ht-degree: 2%
 
 * 미러 페이지 링크 포함:
 
-   ```
-   <%@ include view="MirrorPage" %>  
-   ```
+  ```
+  <%@ include view="MirrorPage" %>  
+  ```
 
 * 미러 페이지 URL:
 
-   ```
-   View as a <a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page.
-   ```
+  ```
+  View as a <a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page.
+  ```
 
 * 기본 구독 취소 URL:
 
-   ```
-   <%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>
-   ```
+  ```
+  <%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>
+  ```
 
 * 기타 예:
 
-   ```
-   <%@ include file='http://www.google.com' %>
-   <%@ include file='file:///X:/france/service/test.html' %>
-   <%@ include option='NmsServer_URL' %>
-   ```
+  ```
+  <%@ include file='http://www.google.com' %>
+  <%@ include file='file:///X:/france/service/test.html' %>
+  <%@ include option='NmsServer_URL' %>
+  ```
 
-   게재 마법사의 개인화 버튼을 사용하여 올바른 구문을 가져옵니다.
+  게재 마법사의 개인화 버튼을 사용하여 올바른 구문을 가져옵니다.
 
 ## [!DNL value] {#value}
 
@@ -88,17 +87,17 @@ ht-degree: 2%
 
 * JavaScript 사용:
 
-   ```
-   <%= delivery.myField %>`.
-   ```
+  ```
+  <%= delivery.myField %>`.
+  ```
 
-   JavaScript에서는 사용자 지정 필드 게재가 지원되지 않습니다. MTA는 기본 제공 게재 스키마에만 액세스할 수 있으므로 미리 보기에서는 작동하지만 MTA에서는 작동하지 않습니다.
+  JavaScript에서는 사용자 지정 필드 게재가 지원되지 않습니다. MTA는 기본 제공 게재 스키마에만 액세스할 수 있으므로 미리 보기에서는 작동하지만 MTA에서는 작동하지 않습니다.
 
 * 전처리 사용:
 
-   ```
-   <%@ value object="delivery"
-   ```
+  ```
+  <%@ value object="delivery"
+  ```
 
 
 **주의**

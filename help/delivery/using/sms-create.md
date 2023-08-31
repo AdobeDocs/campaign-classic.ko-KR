@@ -2,20 +2,19 @@
 product: campaign
 title: Campaign으로 SMS 만들기
 description: Campaign으로 SMS를 만드는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: SMS
+role: User
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 3%
+source-wordcount: '444'
+ht-degree: 4%
 
 ---
 
-# SMS 게재 만들기  {#creating-a-sms-delivery}
-
-
+# SMS 게재 만들기 {#creating-a-sms-delivery}
 
 ## 게재 채널 선택 {#selecting-the-delivery-channel}
 

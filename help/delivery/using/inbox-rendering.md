@@ -2,20 +2,19 @@
 product: campaign
 title: Campaign의 받은 편지함 렌더링
 description: 이메일 렌더링을 캡처하고 전용 보고서에서 사용할 수 있도록 하는 방법을 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Inbox Rendering, Monitoring, Email Rendering
+role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: e011333411af79b985166a4e73592a1860749cf1
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '851'
 ht-degree: 9%
 
 ---
 
 # 받은 편지함 렌더링{#inbox-rendering}
-
-
 
 ## 받은 편지함 렌더링 정보 {#about-inbox-rendering}
 
@@ -25,6 +24,7 @@ ht-degree: 9%
 
 >[!CAUTION]
 >받은 편지함 렌더링이 와(과) 호환되지 않음 [반복 게재](communication-channels.md#recurring-delivery).
+>
 
 Litmus는 기능이 풍부한 이메일 유효성 검사 및 애플리케이션 미리보기입니다. 이를 통해 이메일 콘텐츠 작성자는 Gmail 받은 편지함 또는 Apple 메일 클라이언트와 같은 70개 이상의 이메일 렌더러에서 메시지 콘텐츠를 미리 볼 수 있습니다.
 
@@ -90,7 +90,6 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 >* 받은 편지함 렌더링 보고서가 생성될 때마다 메시징 클라이언트당 하나의 토큰이 공제됩니다. Outlook 2000 렌더링용 토큰, Outlook 2010 렌더링용 토큰, Apple Mail 9 렌더링용 토큰 등이 있습니다.
 >* 동일한 게재의 경우 받은 편지함 렌더링을 다시 생성하면 사용 가능한 토큰 수가 생성된 렌더링 수만큼 다시 감소합니다.
 >
-
 
 사용 가능한 나머지 토큰 수는 **[!UICONTROL General summary]** / [받은 편지함 렌더링 보고서](#inbox-rendering-report).
 

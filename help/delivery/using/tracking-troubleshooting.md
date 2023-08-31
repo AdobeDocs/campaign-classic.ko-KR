@@ -5,8 +5,9 @@ description: 이 섹션에서는 Adobe Campaign의 구성 및 구현 추적과 �
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring, Troubleshooting
+role: User
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 1%
@@ -14,8 +15,6 @@ ht-degree: 1%
 ---
 
 # 추적 문제 해결 {#tracking-troubleshooting}
-
-
 
 이 섹션에서는 Adobe Campaign Classic의 추적 구성 및 구현과 관련된 일반적인 질문에 대해 설명합니다.
 

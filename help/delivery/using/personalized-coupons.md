@@ -2,20 +2,19 @@
 product: campaign
 title: 개인화된 쿠폰
 description: 개인화된 쿠폰을 만들고 삽입하는 방법을 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Personalization
+role: User
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '897'
 ht-degree: 1%
 
 ---
 
 # 개인화된 쿠폰{#personalized-coupons}
-
-
 
 게재에 쿠폰을 추가하면 수신자에게 제품 및 서비스에 대한 향상된 가치를 제공할 수 있습니다. Campaign 쿠폰 모듈을 사용하여 예정된 마케팅 오퍼에 추가할 쿠폰 세트를 만들 수 있습니다. 게재를 만들 준비가 되면 해당 쿠폰을 할당합니다. 쿠폰은 선택 기간 동안 유효하므로 할당된 쿠폰은 해당 게재 메시지에 고유하게 연결됩니다. 또한 Campaign은 게재를 보내기 전에 메시지 수에 대한 쿠폰이 충분한지 확인합니다.
 
@@ -109,13 +108,14 @@ ht-degree: 1%
 
    * 익명 쿠폰: **[!UICONTROL Coupon > Coupon code]**
 
-      ![](assets/deliv_coup_10.png)
+     ![](assets/deliv_coup_10.png)
 
    * 개별 쿠폰: **[!UICONTROL Coupon value > Coupon code]**
 
-      ![](assets/deliv_coup_11.png)
+     ![](assets/deliv_coup_11.png)
 
-      쿠폰은 지정한 이름이 아닌 코드로 메시지에 삽입됩니다. 이 코드는 Campaign ootb 데이터 모델 내에서 사용됩니다.
+     쿠폰은 지정한 이름이 아닌 코드로 메시지에 삽입됩니다. 이 코드는 Campaign ootb 데이터 모델 내에서 사용됩니다.
+
    ![](assets/deliv_coup_12.png)
 
 1. 테스트를 실행하여 쿠폰에 할당한 이름을 확인합니다. 로 이동 **[!UICONTROL Preview]** tab 키를 누른 다음 클릭 **[!UICONTROL Test personalization]**. 테스트 수신자를 선택합니다.

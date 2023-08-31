@@ -2,20 +2,18 @@
 product: campaign
 title: 이메일에 바코드 삽입
 description: 이메일에 바코드 삽입
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email Design
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+role: User
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
 
-
 # 이메일에 바코드 삽입{#insert-a-barcode-in-an-email}
-
-
 
 바코드 생성 모듈을 사용하면 2D 바코드를 포함하여 많은 공통 표준을 준수하는 여러 유형의 바코드를 만들 수 있습니다.
 
@@ -31,23 +29,23 @@ ht-degree: 0%
 
    * 1D 형식의 경우 Adobe Campaign에서 Codabar, Code 128, GS1-128(이전 EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, Interleaved 2 of 5, POSTNET 및 Royal Mail(RM4SCC) 형식을 사용할 수 있습니다.
 
-      1D 바코드의 예:
+     1D 바코드의 예:
 
-      ![](assets/barcode_insert_08.png)
+     ![](assets/barcode_insert_08.png)
 
    * DataMatrix 및 PDF417 유형은 2D 포맷과 관련이 있습니다.
 
-      2D 바코드의 예:
+     2D 바코드의 예:
 
-      ![](assets/barcode_insert_09.png)
+     ![](assets/barcode_insert_09.png)
 
    * QR 코드를 삽입하려면 이 유형을 선택하고 적용할 오류 수정 비율을 입력합니다. 이 비율은 반복되는 정보의 양과 악화 허용 한도를 정의합니다.
 
-      ![](assets/barcode_insert_06.png)
+     ![](assets/barcode_insert_06.png)
 
-      QR 코드의 예:
+     QR 코드의 예:
 
-      ![](assets/barcode_insert_12.png)
+     ![](assets/barcode_insert_12.png)
 
 1. 이메일에 삽입할 바코드의 크기를 입력합니다. 크기를 구성하면 바코드의 크기를 x1에서 x10으로 늘리거나 줄일 수 있습니다.
 1. 다음 **[!UICONTROL Value]** 필드를 사용하면 바코드의 값을 정의할 수 있습니다. 값은 특별 오퍼와 일치할 수 있으며 기준의 함수가 될 수 있습니다. 이 값은 고객에 연결된 데이터베이스 필드의 값이 될 수 있습니다.

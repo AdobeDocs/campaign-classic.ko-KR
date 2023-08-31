@@ -2,20 +2,19 @@
 product: campaign
 title: Adobe Campaign의 전달성 모니터링
 description: Adobe Campaign의 전달성 모니터링에 대한 도구 및 지침에 대해 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Deliverability
+role: User, Admin
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 1%
+source-wordcount: '543'
+ht-degree: 2%
 
 ---
 
 # 게재 가능성 모니터링{#monitoring-deliverability}
-
-
 
 아래에서는 Adobe Campaign에서 제공하는 다양한 모니터링 도구에 대한 세부 정보와 Adobe Campaign에서 제공하는 기능을 활용하여 플랫폼의 전달성을 모니터링하는 방법에 대한 몇 가지 추가 지침을 확인할 수 있습니다.
 
@@ -42,7 +41,7 @@ Adobe Campaign Classic, **게재 가능성 모니터링** 에서 관리함 **[!U
    * **[!UICONTROL Hard bounces]** 데이터 품질을 나타냅니다. 이 숫자는 2% 미만이어야 합니다.
    * **[!UICONTROL Soft bounces]** 평판을 나타냅니다. 이 숫자는 특정 ISP의 경우 10%보다 커서는 안 됩니다.
 
-   자세한 내용은 [게재 통계](../../reporting/using/global-reports.md#delivery-statistics) 섹션.
+  자세한 내용은 [게재 통계](../../reporting/using/global-reports.md#delivery-statistics) 섹션.
 * 일반적으로 [게재 대시보드](about-delivery-monitoring.md) 에 대한 액세스 권한을 부여합니다.
    * 다음 [게재 요약](delivery-dashboard.md#delivery-summary), 전송 세부 정보 및 정상적으로 전송, 처리 및 전송된 메시지 수를 보여 줍니다.
    * 다음 [게재 로그 및 내역](delivery-dashboard.md#delivery-logs-and-history): 제외된 타겟 및 이유를 보여 줍니다.

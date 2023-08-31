@@ -2,24 +2,23 @@
 product: campaign
 title: 게시 템플릿
 description: 게시 템플릿
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Templates
+role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
 
 # 게시 템플릿{#publication-templates}
 
-
-
 ## 게시 템플릿 기본 정보 {#about-publication-templates}
 
-게시 템플릿은 게시할 콘텐츠의 ID 카드입니다. 게시 프로세스에 사용된 리소스(예:
+게시 템플릿은 게시 프로세스에 사용된 리소스(예:
 
 * 데이터 스키마,
 * 입력 양식,
@@ -73,21 +72,21 @@ ht-degree: 1%
 * 다음 **[!UICONTROL Multi-file generation]** 옵션은 특수 문서 게시 모드를 활성화합니다. 이 옵션은 출력 문서의 각 페이지 시작 부분에서 분할 태그를 채우는 것으로 구성됩니다. 콘텐츠를 생성하면 채워진 각 분할 태그에 대한 파일이 생성됩니다. 이 모드는 콘텐츠 블록에서 미니 사이트를 생성하는 데 사용됩니다. 자세한 내용은 다음을 참조하십시오. [다중 파일 생성](#multi-file-generation).
 * 다음 **[!UICONTROL Location]** 필드에는 출력 파일의 이름이 포함됩니다. 자동 파일 이름을 생성하기 위해 이름을 변수로 구성할 수 있습니다.
 
-   변수는 다음 형식으로 채워집니다. **`$(<xpath>)`**, 여기서 **`<xpath>`** 은 게시 템플릿 데이터 스키마의 필드 경로입니다.
+  변수는 다음 형식으로 채워집니다. **`$(<xpath>)`**, 여기서 **`<xpath>`** 은 게시 템플릿 데이터 스키마의 필드 경로입니다.
 
-   파일 이름은 날짜 유형 필드로 구성할 수 있습니다. 이 필드의 서식을 올바르게 지정하려면 **$date-format** 필드의 경로와 출력 형식을 매개 변수로 사용하는 함수.
+  파일 이름은 날짜 유형 필드로 구성할 수 있습니다. 이 필드의 서식을 올바르게 지정하려면 **$date-format** 필드의 경로와 출력 형식을 매개 변수로 사용하는 함수.
 
-   기본적으로 파일 이름의 구성 형식은 &quot;@name&quot; 및 &quot;@date&quot; 필드의 변수를 사용합니다.
+  기본적으로 파일 이름의 구성 형식은 &quot;@name&quot; 및 &quot;@date&quot; 필드의 변수를 사용합니다.
 
-   ```
-   ct_$(@name)_$date-format(@date,'%4Y%2M%2D').htm
-   ```
+  ```
+  ct_$(@name)_$date-format(@date,'%4Y%2M%2D').htm
+  ```
 
-   생성된 파일 이름은 ct_news12_20110901.htm과 같이 표시됩니다.
+  생성된 파일 이름은 ct_news12_20110901.htm과 같이 표시됩니다.
 
-   >[!NOTE]
-   >
-   >콘텐츠 생성에 대한 자세한 내용은 을 참조하십시오. [콘텐츠 인스턴스 만들기](using-a-content-template.md#creating-a-content-instance).
+  >[!NOTE]
+  >
+  >콘텐츠 생성에 대한 자세한 내용은 을 참조하십시오. [콘텐츠 인스턴스 만들기](using-a-content-template.md#creating-a-content-instance).
 
 ### 게재 {#delivery}
 

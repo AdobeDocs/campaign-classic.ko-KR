@@ -2,20 +2,19 @@
 product: campaign
 title: 게재 유효성 검사
 description: 게재 유효성 검사 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Deliverability, Email Rendering, Proofs
+role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1678'
 ht-degree: 8%
 
 ---
 
 # 게재 유효성 검사 {#validating-the-delivery}
-
-
 
 게재를 만들고 구성한 경우 기본 타겟에게 보내기 전에 먼저 게재의 유효성을 검사해야 합니다.
 

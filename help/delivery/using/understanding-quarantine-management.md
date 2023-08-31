@@ -2,20 +2,19 @@
 product: campaign
 title: 격리 관리 이해
 description: 격리 관리 이해
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring, Deliverability
+role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '2997'
+source-wordcount: '3009'
 ht-degree: 12%
 
 ---
 
 # 격리 관리 이해{#understanding-quarantine-management}
-
-
 
 Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외되며 타겟팅되지 않습니다. 예를 들어, 사서함이 가득 찼거나 주소가 없는 경우 전자 메일 주소를 격리할 수 있습니다. 어떤 경우든, 격리 절차는 아래에 기술된 특정한 규칙을 준수한다.
 
@@ -27,27 +26,27 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 
 이메일 주소 또는 전화번호가 격리된 프로필은 메시지를 준비하는 동안 자동으로 제외됩니다(참조) [게재에 대해 격리된 주소 확인](#identifying-quarantined-addresses-for-a-delivery)). 이를 통해 게재 속도를 높일 수 있습니다. 오류율은 게재 속도에 상당한 영향을 미치기 때문입니다.
 
-일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 이러한 공급자에 의해 차단 목록에 추가되는 것을 피할 수 있습니다.
+일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 이러한 공급자에 의해 차단 목록에 추가하다에 추가되는 것을 피할 수 있습니다.
 
 또한 격리를 통해 잘못된 전화번호를 게재에서 제외하면 SMS를 보내는 비용을 줄이는 데 도움이 됩니다.
 
 게재 보안 향상 및 최적화 모범 사례를 더 알아보려면 [이 페이지](delivery-best-practices.md)를 참조하십시오.
 
-### 차단 목록 방역 {#quarantine-vs-denylist}
+### 차단 목록에 추가하다 방역 {#quarantine-vs-denylist}
 
-차단 목록과 동일한 객체에는 적용되지 않습니다.
+차단 목록에 추가하다와 동일한 객체에는 적용되지 않습니다.
 
 * **격리** 에만 적용됩니다. **주소** (또는 전화 번호 등), 프로필 자체가 아닙니다. 예를 들어 이메일 주소가 격리된 프로필은 프로필을 업데이트하고 새 주소를 입력한 다음 게재 작업으로 다시 타겟팅될 수 있습니다. 마찬가지로, 두 프로필의 전화 번호가 같으면 해당 번호가 격리되면 둘 다 영향을 받습니다.
 
-   격리된 주소 또는 전화번호는 [제외 로그](#identifying-quarantined-addresses-for-a-delivery) (게재용) 또는 [격리 목록](#identifying-quarantined-addresses-for-the-entire-platform) (전체 플랫폼).
+  격리된 주소 또는 전화번호는 [제외 로그](#identifying-quarantined-addresses-for-a-delivery) (게재용) 또는 [격리 목록](#identifying-quarantined-addresses-for-the-entire-platform) (전체 플랫폼).
 
-* 다음에 있음 **차단 목록**&#x200B;반면 은(는) **프로필** 지정된 채널에 대해 구독 취소(옵트아웃) 후와 같이 더 이상 게재의 타겟이 되지 않습니다. 예를 들어 이메일 채널에 대한 차단 목록의 프로필에 두 개의 이메일 주소가 있는 경우 두 주소 모두 게재에서 제외됩니다.
+* 다음에 있음 **차단 목록**&#x200B;반면 은(는) **프로필** 지정된 채널에 대해 구독 취소(옵트아웃) 후와 같이 더 이상 게재의 타겟이 되지 않습니다. 예를 들어 이메일 채널에 대한 차단 목록에 추가하다의 프로필에 두 개의 이메일 주소가 있는 경우 두 주소 모두 게재에서 제외됩니다.
 
-   프로필이 차단 목록에 있는지 또는 의 하나 이상의 채널에 있는지 확인할 수 있습니다. **[!UICONTROL No longer contact]** 프로필 섹션 **[!UICONTROL General]** 탭. [이 섹션](../../platform/using/editing-a-profile.md#general-tab)을 참조하십시오.
+  프로필이 차단 목록에 추가하다에 있는지 또는 의 하나 이상의 채널에 있는지 확인할 수 있습니다. **[!UICONTROL No longer contact]** 프로필 섹션 **[!UICONTROL General]** 탭. [이 섹션](../../platform/using/editing-a-profile.md#general-tab)을 참조하십시오.
 
 >[!NOTE]
 >
->격리 포함 사항 **[!UICONTROL Denylisted]** 상태: 수신자가 메시지를 스팸으로 보고하거나 &quot;STOP&quot;과 같은 키워드를 사용하여 SMS 메시지에 회신할 때 적용됩니다. 이 경우 프로필의 관련 주소 또는 전화번호는 와 함께 격리에 전송됩니다. **[!UICONTROL Denylisted]** 상태. STOP SMS 메시지 관리에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../delivery/using/sms-send.md#processing-inbound-messages).
+>격리 포함 사항 **[!UICONTROL Denylisted]** 상태: 수신자가 메시지를 스팸으로 보고하거나 &quot;STOP&quot;과 같은 키워드를 사용하여 SMS 메시지에 회신할 때 적용됩니다. 이 경우 해당 프로필의 관련 주소나 전화번호는 **[!UICONTROL Denylisted]** 상태. STOP SMS 메시지 관리에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../delivery/using/sms-send.md#processing-inbound-messages).
 
 ## 격리된 주소 확인 {#identifying-quarantined-addresses}
 
@@ -171,13 +170,12 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
 * 에 SMTP 바운스 응답 정보가 있는 Campaign Classic v7 인스턴스 **[!UICONTROL Error text]** 격리 목록의 필드:
 
-   * **오류 텍스트(격리 텍스트)** &quot;550-5.1.1&quot;을 포함하고 **오류 텍스트(격리 텍스트)** &quot;support.ISP.com&quot;을 포함합니다.
+   * **오류 텍스트(격리 텍스트)** 은 &quot;550-5.1.1&quot;을 포함하고 **오류 텍스트(격리 텍스트)** &quot;support.ISP.com&quot;을 포함합니다.
 
-   예를 들어 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;일 수 있습니다.
+  예를 들어 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;일 수 있습니다.
 
    * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이후:MM:오전 SS
    * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이전:MM:오후
-
 
 영향을 받는 수신자 목록이 있으면 **[!UICONTROL Update data]** 활동을 통해 이메일 주소 상태를 다음으로 설정 **[!UICONTROL Valid]** 따라서 다음을 통해 격리 목록에서 제거됩니다. **[!UICONTROL Database cleanup]** 워크플로입니다. 격리 테이블에서 삭제할 수도 있습니다.
 
@@ -591,21 +589,21 @@ SR Generic DELIVRD 000|#MESSAGE#
 * 모든 오류 메시지는 다음으로 시작합니다. **SR** sms 오류 코드와 이메일 오류 코드를 구별합니다.
 * 두 번째 부분(**일반** 이 예제에서) 오류 메시지는에 정의된 SMSC 구현의 이름을 참조합니다. **[!UICONTROL SMSC implementation name]** SMS 외부 계정 필드. [이 페이지](sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
 
-   동일한 오류 코드는 각 공급자에 대해 다른 의미를 가질 수 있으므로 이 필드를 사용하면 오류 코드를 생성한 공급자를 알 수 있습니다. 그런 다음 관련 공급자의 설명서에서 오류를 찾을 수 있습니다.
+  동일한 오류 코드는 각 공급자에 대해 다른 의미를 가질 수 있으므로 이 필드를 사용하면 오류 코드를 생성한 공급자를 알 수 있습니다. 그런 다음 관련 공급자의 설명서에서 오류를 찾을 수 있습니다.
 
 * 세 번째 부분(**배달 목록** 이 예에서는 ) 오류 메시지의 가 SMS 외부 계정에 정의된 상태 추출 정규 표현식을 사용하여 SR에서 검색한 상태 코드에 해당합니다.
 
-   이 정규 표현식은 **[!UICONTROL SMSC specificities]** 외부 계정의 탭입니다. [이 페이지](sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
+  이 정규 표현식은 **[!UICONTROL SMSC specificities]** 외부 계정의 탭입니다. [이 페이지](sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
 
-   ![](assets/tech_quarant_error_regex.png)
+  ![](assets/tech_quarant_error_regex.png)
 
-   기본적으로 정규 표현식은 **통계:** 로 정의된 필드 **부록 B** 의 섹션 **SMPP 3.4 사양**.
+  기본적으로 정규 표현식은 **통계:** 로 정의된 필드 **부록 B** 의 섹션 **SMPP 3.4 사양**.
 
 * 네 번째 부분(**000** 이 예에서는) 오류 메시지의 가 SMS 외부 계정에 정의된 오류 코드 추출 정규 표현식을 사용하여 SR에서 추출된 오류 코드에 해당합니다.
 
-   이 정규 표현식은 **[!UICONTROL SMSC specificities]** 외부 계정의 탭입니다. [이 페이지](sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
+  이 정규 표현식은 **[!UICONTROL SMSC specificities]** 외부 계정의 탭입니다. [이 페이지](sms-set-up.md#creating-an-smpp-external-account)를 참조하십시오.
 
-   기본적으로 정규 표현식은 **오류:** 로 정의된 필드 **부록 B** 의 섹션 **SMPP 3.4 사양**.
+  기본적으로 정규 표현식은 **오류:** 로 정의된 필드 **부록 B** 의 섹션 **SMPP 3.4 사양**.
 
 * 파이프 기호(|) 뒤에 오는 모든 것은 **[!UICONTROL First text]** 열 **[!UICONTROL Delivery log qualification]** 테이블. 이 콘텐츠는 항상 다음으로 대체됩니다. **#MESSAGE#** 메시지가 표준화된 후. 이 프로세스는 유사한 오류에 대해 여러 항목을 포함하지 않으며 이메일과 동일합니다. 자세한 내용은 [반송 메일 조건](understanding-delivery-failures.md#bounce-mail-qualification).
 

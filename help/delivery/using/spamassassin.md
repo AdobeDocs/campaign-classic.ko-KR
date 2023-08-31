@@ -2,20 +2,19 @@
 product: campaign
 title: SpamAssassin
 description: SpamAssassin을 사용하여 이메일 스팸 감지를 설정하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email, Deliverability
+role: User
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 6%
+source-wordcount: '267'
+ht-degree: 7%
 
 ---
 
 # SpamAssassin{#spamassassin}
-
-
 
 Adobe Campaign은 다음으로 작동하도록 구성할 수 있습니다. [SpamAssassin](https://spamassassin.apache.org)이메일 스팸 필터링에 사용되는 서드파티 서비스. 이를 통해 이메일에 점수를 매겨 수신 시 사용되는 스팸 방지 도구에 의해 메시지가 스팸으로 간주될 위험이 있는지 여부를 확인할 수 있습니다.
 

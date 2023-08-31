@@ -5,8 +5,9 @@ description: Adobe Campaign Enhanced MTA로 이메일 전송 범위 및 특성�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email
+role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: e83d85a26a5c8dd26ea2468246ef448edf8fee9b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '1352'
 ht-degree: 4%
@@ -14,8 +15,6 @@ ht-degree: 4%
 ---
 
 # Enhanced MTA로 보내기 {#sending-with-enhanced-mta}
-
-
 
 다음 **Adobe Campaign Enhanced MTA** (Mail Transfer Agent)는 개선된 전송 인프라를 제공하여 게재 능력, 신뢰도, 처리량, 보고, 바운스 처리, IP 램프 업 및 연결 설정 관리를 개선합니다.
 

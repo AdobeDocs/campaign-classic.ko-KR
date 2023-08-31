@@ -2,20 +2,19 @@
 product: campaign
 title: 개인화 블록
 description: 개인화 블록을 사용하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Personalization
+role: User
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '873'
 ht-degree: 3%
 
 ---
 
 # 개인화 블록{#personalization-blocks}
-
-
 
 개인화 블록은 동적이고 개인화된 블록이며 게재에 삽입할 수 있는 특정 렌더링을 포함합니다. 예를 들어 미러 페이지에 로고, 인사말 메시지 또는 링크를 추가할 수 있습니다. 다음을 참조하십시오 [개인화 블록 삽입](#inserting-personalization-blocks).
 
@@ -100,20 +99,20 @@ HTML 소스 코드는 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
 * **[!UICONTROL Powered by Adobe Campaign]** : &quot;Powered by Adobe Campaign&quot; 로고를 삽입합니다.
 * **[!UICONTROL Mirror page URL]** : 미러 페이지 URL을 삽입하여 게재 디자이너가 링크를 확인할 수 있도록 합니다.
 
-   >[!NOTE]
-   >
-   >미러 페이지 생성에 대한 자세한 내용은 [미러 페이지 생성](sending-messages.md#generating-the-mirror-page).
+  >[!NOTE]
+  >
+  >미러 페이지 생성에 대한 자세한 내용은 [미러 페이지 생성](sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Link to mirror page]** : 미러 페이지에 대한 링크를 삽입합니다. &quot;이 메시지를 올바르게 볼 수 없는 경우 여기를 클릭하십시오.&quot;
-* **[!UICONTROL Unsubscription link]** : 모든 게재 구독 취소(차단 목록)에 대한 링크를 삽입합니다.
+* **[!UICONTROL Unsubscription link]** : 모든 게재 구독 취소(차단 목록에 추가하다)에 대한 링크를 삽입합니다.
 * **[!UICONTROL Formatting function for proper nouns]** : 를 생성합니다. **[!UICONTROL toSmartCase]** 각 단어의 첫 번째 문자를 대문자로 변경하는 Javascript 함수입니다.
 * **[!UICONTROL Registration page URL]** : 구독 URL을 삽입합니다( 참조) [서비스 및 구독 기본 정보](about-services-and-subscriptions.md)).
 * **[!UICONTROL Registration link]** : 구독 링크를 삽입합니다. 인스턴스를 구성할 때 정의되었습니다.
 * **[!UICONTROL Registration link (with referrer)]** : 구독 링크를 삽입하여 방문자 및 게재를 식별합니다. 인스턴스를 구성할 때 링크가 정의되었습니다.
 
-   >[!NOTE]
-   >
-   >이 블록은 방문자를 타겟팅하는 게재에만 사용할 수 있습니다.
+  >[!NOTE]
+  >
+  >이 블록은 방문자를 타겟팅하는 게재에만 사용할 수 있습니다.
 
 * **[!UICONTROL Registration confirmation]** : 구독을 확인할 수 있는 링크를 삽입합니다.
 * **[!UICONTROL Social network sharing links]** : 수신자가 이메일 클라이언트, Facebook, Twitter 및 LinkedIn과 미러 페이지 콘텐츠에 대한 링크를 공유할 수 있는 버튼을 삽입합니다( 참조) [바이럴 마케팅: 친구에게 전달](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
@@ -136,9 +135,9 @@ HTML 소스 코드는 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
    * 선택 **[!UICONTROL Visible in the customization menus]** 개인화 필드 삽입 아이콘에서 이 블록에 액세스할 수 있도록 합니다.
    * 필요한 경우 다음을 선택합니다 **[!UICONTROL The content of the personalization block depends upon the format]** HTML 형식의 이메일과 텍스트 형식의 이메일에 대해 두 개의 개별 블록을 정의할 수 있습니다.
 
-      그런 다음 이 편집기의 아래 섹션에 해당 콘텐츠를 정의할 수 있는 두 개의 탭(HTML 콘텐츠 및 텍스트 콘텐츠)이 표시됩니다.
+     그런 다음 이 편집기의 아래 섹션에 해당 콘텐츠를 정의할 수 있는 두 개의 탭(HTML 콘텐츠 및 텍스트 콘텐츠)이 표시됩니다.
 
-      ![](assets/s_ncs_user_personalized_block_b.png)
+     ![](assets/s_ncs_user_personalized_block_b.png)
 
    * 컨텐츠 입력(HTML, 텍스트, JavaScript 등) 개인화 블록의 을(를) 클릭하고 **[!UICONTROL Save]**.
 

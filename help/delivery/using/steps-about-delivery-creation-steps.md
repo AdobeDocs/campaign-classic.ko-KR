@@ -2,20 +2,19 @@
 product: campaign
 title: Adobe Campaign의 게재 만들기 단계 기본 정보
 description: Adobe Campaign의 주요 게재 만들기 단계 살펴보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Channel Configuration
+role: User
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '142'
 ht-degree: 14%
 
 ---
 
 # 게재 만들기 단계 기본 정보 {#about-delivery-creation}
-
-
 
 게재를 만들 때 주요 단계는 다음과 같습니다.
 
