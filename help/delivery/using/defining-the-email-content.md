@@ -5,8 +5,9 @@ description: Adobe Campaign 사용 시 이메일 콘텐츠를 정의하는 방�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email Design
+role: User
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '1955'
 ht-degree: 1%

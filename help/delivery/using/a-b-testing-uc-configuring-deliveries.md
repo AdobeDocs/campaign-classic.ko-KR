@@ -2,20 +2,18 @@
 product: campaign
 title: 게재 구성
 description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법에 대해 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: A/B Testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 0%
+source-wordcount: '249'
+ht-degree: 1%
 
 ---
 
-# 워크플로우에서 게재 구성 {#step-4--configuring-the-deliveries-in-the-workflow}
-
-
+# AB 테스트: 워크플로우에서 게재 구성 {#step-4--configuring-the-deliveries-in-the-workflow}
 
 한 번 [모집단을 만듭니다.](a-b-testing-uc-population-samples.md), 게재를 구성할 수 있습니다. 이 사용 사례에서 처음 두 게재를 사용하면 모집단 A와 B에 서로 다른 콘텐츠를 보낼 수 있습니다. 세 번째 게재는 폴백 게재입니다. A와 B에 속하지 않는 수신자에게 전송됩니다. 콘텐츠는 스크립트로 계산되며, 가장 높은 공개 비율을 득점한 항목에 따라 A 또는 B 중 하나와 동일합니다. 게재 A와 B의 결과를 알아보기 위해 세 번째 게재의 대기 기간을 구성해야 합니다. 세 번째 게재에 다음이 포함된 이유입니다. **[!UICONTROL Wait]** 활동.
 

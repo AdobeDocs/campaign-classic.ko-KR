@@ -2,19 +2,19 @@
 product: campaign
 title: 캠페인 게재 모범 사례
 description: 게재 디자인 및 전송 모범 사례 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Deliverability
+role: User
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 28%
+source-wordcount: '115'
+ht-degree: 26%
 
 ---
 
 # 게재 모범 사례 {#delivery-best-practices}
-
 
 
 게재 디자인 및 Adobe Campaign 전송과 관련된 모범 사례에 대해 알아봅니다. 아래 링크를 사용하여 항목을 탐색하고 지침을 확인하십시오.

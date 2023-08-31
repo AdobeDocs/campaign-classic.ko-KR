@@ -2,20 +2,19 @@
 product: campaign
 title: 개인화된 PDF 문서 생성
 description: 개인화된 PDF 문서를 생성하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Personalization
+role: User
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 1%
+source-wordcount: '454'
+ht-degree: 2%
 
 ---
 
 # 개인화된 PDF 문서 생성{#generating-personalized-pdf-documents}
-
-
 
 ## 변수 PDF 문서 정보 {#about-variable-pdf-documents}
 
@@ -43,9 +42,9 @@ Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서의 이�
 * 표의 두 번째 행에 있는 각 셀에 표시할 값을 반환하는 스크립트를 삽입합니다.
 * 표의 세 번째 줄과 마지막 줄에 있는 고리를 닫습니다.
 
-   동적 테이블 정의의 예:
+  동적 테이블 정의의 예:
 
-   ![](assets/s_ncs_pdf_table.png)
+  ![](assets/s_ncs_pdf_table.png)
 
 ## 외부 이미지 삽입 {#inserting-external-images}
 
@@ -68,9 +67,9 @@ Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서의 이�
 * &quot;My_Logo&quot;를 내부 이름으로 사용하여 새 &quot;내 로고&quot; 개인화 블록을 만듭니다.
 * 을(를) 클릭합니다 **[!UICONTROL Advanced parameters...]** 링크를 클릭한 다음 **[!UICONTROL "The content of the block is included in an attachment"]** 옵션을 선택합니다. 이렇게 하면 개인화 블록의 정의를 OpenOffice 파일의 콘텐츠에 직접 복사할 수 있습니다.
 
-   ![](assets/s_ncs_pdf_bloc_option.png)
+  ![](assets/s_ncs_pdf_bloc_option.png)
 
-   개인화 블록 내에서 두 가지 유형의 선언을 구별해야 합니다.
+  개인화 블록 내에서 두 가지 유형의 선언을 구별해야 합니다.
 
    * &quot;열기&quot; 및 &quot;닫힘&quot; V자형 화살표가 이스케이프 문자로 대체되어야 하는 개인화 필드의 Adobe Campaign 코드(각각) `&lt;` 및 `&gt;`).
    * 전체 OpenOffice XML 코드는 OpenOffice 문서에 복사됩니다.

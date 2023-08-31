@@ -2,20 +2,19 @@
 product: campaign
 title: Adobe Campaign Classic에서 대화형 콘텐츠 정의
 description: Adobe Campaign에서 AMP를 사용하여 인터랙티브하고 다이내믹한 이메일 콘텐츠를 정의하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email Design
+role: User
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: ae7aa6989314677a839795e8caa8ba0f95009e09
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1511'
 ht-degree: 4%
 
 ---
 
 # 대화형 콘텐츠 정의{#defining-interactive-content}
-
-
 
 Adobe Campaign을 사용하면 대화형 [이메일용 AMP](https://amp.dev/about/email/) 형식 - 특정 조건에서 동적 이메일을 보낼 수 있습니다.
 
@@ -144,7 +143,7 @@ Gmail 계정에서 AMP 형식으로 게재를 테스트하는 데 필요한 모�
 
 다음 항목도 확인할 수 있습니다. [Gmail에 대한 팁 및 알려진 제한 사항](https://developers.google.com/gmail/ampemail/tips) 설명서를 참조하십시오.
 
-## AMP 이메일 Target {#targeting-amp-email}
+## AMP 이메일 타겟팅 {#targeting-amp-email}
 
 현재 다음 두 단계로 AMP 이메일 전송을 실험할 수 있습니다.
 

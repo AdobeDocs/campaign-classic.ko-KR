@@ -2,26 +2,25 @@
 product: campaign
 title: 적합한 대상자 정의
 description: 대상자를 선택할 때의 모범 사례에 대해 알아봅니다.
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Audiences
+role: User
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '499'
 ht-degree: 4%
 
 ---
 
 # 적합한 대상자 정의 {#define-the-right-audience}
 
-
-
 타겟팅된 모집단은 중요합니다. 목록을 신중하게 작성하고, 인기 있는 이메일 클라이언트 및 모바일 디바이스에서 이메일을 테스트하고, 이메일 목록이 최신 상태인지 확인합니다(알 수 없거나 오래된 주소는 없음). 전체 유효성 검사 주기를 설정하는 데 도움이 되는 증명을 보낼 수도 있습니다.
 
 대상 모집단에 대해 자세히 알아보기 [이 섹션에서](steps-defining-the-target-population.md)
 
-## 적합한 대상 Target {#target-the-right-audience}
+## 적합한 대상 타기팅 {#target-the-right-audience}
 
 콘텐츠를 준비한 후에는 메시지를 받을 사용자를 신중하게 정의해야 합니다.
 

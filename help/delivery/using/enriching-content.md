@@ -2,20 +2,19 @@
 product: campaign
 title: 콘텐츠 강화
 description: 콘텐츠 강화
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Data Management
+role: User, Developer, Data Engineer
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 0%
+source-wordcount: '673'
+ht-degree: 1%
 
 ---
 
 # 콘텐츠 강화{#enriching-content}
-
-
 
 집계기를 사용하면 외부 데이터로 콘텐츠를 강화할 수 있습니다. 이 데이터는 일반 쿼리 또는 연결된 테이블에서 가져옵니다.
 

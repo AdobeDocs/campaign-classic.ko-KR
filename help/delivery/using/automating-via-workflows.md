@@ -2,20 +2,19 @@
 product: campaign
 title: 워크플로우를 통한 자동화
 description: 워크플로우를 통해 콘텐츠 관리를 자동화하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Workflows
+role: User
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1202'
 ht-degree: 1%
 
 ---
 
 # 워크플로우 자동화{#automating-via-workflows}
-
-
 
 ## 콘텐츠 관리 활동 {#content-management-activity}
 
@@ -36,41 +35,41 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 
 * **전환에 의해 지정됨**
 
-   사용할 컨텐츠가 이전에 생성되었습니다. 프로세스는 수신 이벤트에 의해 전파된 콘텐츠 인스턴스와 관련이 있습니다. 콘텐츠 식별자는 이벤트의 &quot;contentId&quot; 변수를 통해 액세스합니다.
+  사용할 컨텐츠가 이전에 생성되었습니다. 프로세스는 수신 이벤트에 의해 전파된 콘텐츠 인스턴스와 관련이 있습니다. 콘텐츠 식별자는 이벤트의 &quot;contentId&quot; 변수를 통해 액세스합니다.
 
 * **명시적**
 
-   이전에 만든 콘텐츠를 선택할 수 있습니다.
+  이전에 만든 콘텐츠를 선택할 수 있습니다.
 
 * **스크립트로 계산됨**
 
-   JavaScript 템플릿을 기반으로 콘텐츠 인스턴스를 선택합니다. 평가할 코드를 사용하면 콘텐츠 식별자를 검색할 수 있습니다.
+  JavaScript 템플릿을 기반으로 콘텐츠 인스턴스를 선택합니다. 평가할 코드를 사용하면 콘텐츠 식별자를 검색할 수 있습니다.
 
 * **게시 템플릿을 통해 새로 생성됨**
 
-   게시 템플릿을 통해 새 컨텐츠를 만듭니다. 콘텐츠 인스턴스는 채워진 &quot;String&quot; 폴더에 저장됩니다.
+  게시 템플릿을 통해 새 컨텐츠를 만듭니다. 콘텐츠 인스턴스는 채워진 &quot;String&quot; 폴더에 저장됩니다.
 
 ### 콘텐츠 업데이트 {#update-the-content}
 
 * **주제**
 
-   게시할 때 게재 작업의 제목을 수정할 수 있습니다.
+  게시할 때 게재 작업의 제목을 수정할 수 있습니다.
 
 * **XML 피드의 데이터에 액세스**
 
-   외부 소스의 XML 피드에서 콘텐츠가 업데이트됩니다. 데이터 다운로드가 수행되도록 하려면 URL을 입력해야 합니다.
+  외부 소스의 XML 피드에서 콘텐츠가 업데이트됩니다. 데이터 다운로드가 수행되도록 하려면 URL을 입력해야 합니다.
 
-   XSL 스타일시트를 사용하여 들어오는 XML 데이터를 변환할 수 있습니다.
+  XSL 스타일시트를 사용하여 들어오는 XML 데이터를 변환할 수 있습니다.
 
 ### 실행할 작업 {#action-to-execute}
 
 * **저장**
 
-   생성 또는 수정된 콘텐츠를 저장합니다. 저장된 콘텐츠의 식별자가 발신 이벤트의 &quot;contentId&quot; 변수에 전파됩니다.
+  생성 또는 수정된 콘텐츠를 저장합니다. 저장된 콘텐츠의 식별자가 발신 이벤트의 &quot;contentId&quot; 변수에 전파됩니다.
 
 * **생성**
 
-   &quot;파일&quot; 유형의 게시가 있는 각 변환 템플릿에 대한 출력 파일을 생성합니다. 나가는 전환은 생성된 각 파일에 대해 활성화되며, 다음 매개 변수를 사용합니다. &quot;contentId&quot; 변수에 저장된 콘텐츠의 식별자 및 &quot;filename&quot; 변수의 파일 이름.
+  &quot;파일&quot; 유형의 게시가 있는 각 변환 템플릿에 대한 출력 파일을 생성합니다. 나가는 전환은 생성된 각 파일에 대해 활성화되며, 다음 매개 변수를 사용합니다. &quot;contentId&quot; 변수에 저장된 콘텐츠의 식별자 및 &quot;filename&quot; 변수의 파일 이름.
 
 ### 전환 {#transition}
 

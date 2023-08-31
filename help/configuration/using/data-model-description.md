@@ -2,12 +2,13 @@
 product: campaign
 title: Adobe Campaign Classic 데이터 모델 설명
 description: 이 문서에서는 Adobe Campaign 데이터 모델에 대해 설명합니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Data Model
+role: Data Engineer, Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '2374'
+source-wordcount: '2381'
 ht-degree: 2%
 
 ---
@@ -219,7 +220,7 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 * **NmsOfferContext**: 이 테이블은 **nms:offerContext** 스키마. 가중치 계산 공식의 정의 뿐만 아니라 명제의 적용 가능성에 대한 추가적인 기준을 포함하고 있다.
 * **NmsOfferView**: 이 테이블은 **nms:offerView**. 여기에는 오퍼 표현이 포함됩니다.
 * **NmsOfferCategory**: 이 테이블은 **nms:offer범주**. 오퍼 카테고리를 포함합니다.
-* **NmsOffer환경**: 이 테이블은 **nms:offer환경**. 오퍼 환경이 포함되어 있습니다.
+* **NmsOfferEnv**: 이 테이블은 **nms:offer환경**. 오퍼 환경이 포함되어 있습니다.
 
 ## 메시지 센터 모듈 {#message-center-module}
 

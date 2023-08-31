@@ -2,13 +2,14 @@
 product: campaign
 title: 공급자, 재고 및 예산
 description: 공급자, 재고 및 예산
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+role: User
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Budget Management, Campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1902'
-ht-degree: 0%
+source-wordcount: '1909'
+ht-degree: 1%
 
 ---
 
@@ -77,10 +78,10 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
    * 다음을 클릭합니다. **[!UICONTROL Add]** 버튼을 눌러 이 범주와 연관된 비용 유형을 정의합니다.
    * 필요한 경우, 사용된 수량이 자동으로 기존 주식에 관련되도록 각 원가 유형과 재고 라인을 연관시킵니다.
 
-      >[!NOTE]
-      >
-      >재고 라인은에 정의되어 있습니다 **[!UICONTROL Stock management]** 노드.\
-      >자세한 내용은 다음을 참조하십시오. [재고 및 주문 관리](#stock-and-order-management).
+     >[!NOTE]
+     >
+     >재고 라인은에 정의되어 있습니다 **[!UICONTROL Stock management]** 노드.\
+     >자세한 내용은 다음을 참조하십시오. [재고 및 주문 관리](#stock-and-order-management).
 
 1. 이 비용 범주의 값을 미리 선택할 수 있습니다. 이 값은 서비스 공급자 비용 범주(공백 대신)에서 기본적으로 제공됩니다. 이렇게 하려면 **[!UICONTROL Selected]** 관련 범주 유형에 대한 열:
 
@@ -98,17 +99,17 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 ![](assets/s_ncs_user_supplier_node_04.png)
 
-* 비용 구조를 생성하려면 계산 규칙이 적용될 비용 유형뿐만 아니라 드롭다운 목록에서 메시지 유형과 관련 비용 범주를 선택합니다. 이러한 드롭다운 목록의 콘텐츠는 다음을 통해 입력한 정보에서 가져옵니다. **[!UICONTROL Cost categories]** 탭.
+* 비용 구조를 생성하려면 계산 규칙이 적용될 비용 유형뿐만 아니라 드롭다운 목록에서 메시지 유형 및 관련 비용 범주를 선택합니다. 이러한 드롭다운 목록의 콘텐츠는 다음을 통해 입력한 정보에서 가져옵니다. **[!UICONTROL Cost categories]** 탭.
 
-   원가 구조에 레이블을 지정해야 합니다. 기본적으로 다음과 같은 게재 개요가 있습니다. **비용 범주 - 비용 유형**.
+  원가 구조에 레이블을 지정해야 합니다. 기본적으로 다음과 같은 게재 개요가 있습니다. **비용 범주 - 비용 유형**.
 
-   그러나 이름을 바꿀 수 있습니다. 원하는 값을 **[!UICONTROL Label]** 필드.
+  그러나 이름을 바꿀 수 있습니다. 원하는 값을 **[!UICONTROL Label]** 필드.
 
 * 원가 계산 공식은 창의 아래 섹션에 정의되어 있습니다.
 
-   이 수식은 고정(메시지 수에 상관없이)하거나 메시지 수에 따라 계산할 수 있습니다.
+  이 수식은 고정(메시지 수에 상관없이)하거나 메시지 수에 따라 계산할 수 있습니다.
 
-   메시지 수에 따라 달라지는 경우 비용 계산 구조는 다음과 같을 수 있습니다. **[!UICONTROL Linear]**, **[!UICONTROL Linear by threshold]**, 또는 **[!UICONTROL Constant by threshold]**.
+  메시지 수에 따라 달라지는 경우 비용 계산 구조는 다음과 같을 수 있습니다. **[!UICONTROL Linear]**, **[!UICONTROL Linear by threshold]**, 또는 **[!UICONTROL Constant by threshold]**.
 
 #### 선형 구조 {#linear-structure}
 
@@ -146,11 +147,11 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 * 다음 **[!UICONTROL File extraction]** 섹션은 이 서비스를 선택할 때 게재에 사용되는 내보내기 템플릿을 나타냅니다. 에서 출력 파일의 이름을 나타낼 수 있습니다. **[!UICONTROL Extraction file]** 필드. 필드 오른쪽에 있는 버튼을 사용하여 변수를 삽입할 수 있습니다.
 
-   ![](assets/s_ncs_user_supplier_node_02a.png)
+  ![](assets/s_ncs_user_supplier_node_02a.png)
 
 * 다음 **[!UICONTROL Notification email]** 섹션 을 사용하면 파일을 보낸 후 서비스 공급자에게 알릴 템플릿을 지정할 수 있습니다. 경고 메시지를 만드는 데 사용되는 템플릿과 수신자 그룹을 선택합니다.
 
-   기본적으로 알림 메시지의 게재 템플릿은 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 일반 보기에서 액세스할 수 있는 노드.
+  기본적으로 알림 메시지의 게재 템플릿은 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 일반 보기에서 액세스할 수 있는 노드.
 
 * 다음 **[!UICONTROL Post-processing]** 섹션 에서는 게재가 승인된 후 실행할 워크플로우를 선택할 수 있습니다. 워크플로 템플릿을 입력하면 승인이 적용되는 즉시 워크플로 인스턴스가 자동으로 만들어지고 시작됩니다. 예를 들어 이 워크플로우는 외부 서비스 공급자에게 추출 파일을 보내어 처리할 수 있습니다.
 
@@ -166,12 +167,12 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 * DM 게재의 경우 구성 창에서 서비스를 선택할 수 있습니다.
 
-   ![](assets/s_ncs_user_supplier_mail_delivery_select.png)
+  ![](assets/s_ncs_user_supplier_mail_delivery_select.png)
 
 * 모바일 채널 또는 전화에서 전송하는 경우에도 동일한 선택 모드가 적용됩니다.
 * 이메일 게재의 경우 다음에서 서비스가 선택됩니다. **[!UICONTROL Advanced]** 다음 예제와 같이 게재 속성에서 탭을 선택합니다.
 
-   ![](assets/s_ncs_user_supplier_email_delivery_select.png)
+  ![](assets/s_ncs_user_supplier_email_delivery_select.png)
 
 다음 **[!UICONTROL Amount to surcharge]** 열을 사용하면 관련 게재 또는 작업의 컨텍스트에서 이 범주에 대한 비용을 추가할 수 있습니다.
 
@@ -236,7 +237,7 @@ Adobe Campaign은 재고가 소진되거나 최소 임계값에 도달한 경우
 
 * 초기 재고 수량을 나타냅니다. **[!UICONTROL Initial stock]** 필드. 다음 **[!UICONTROL Consumed]** 및 **[!UICONTROL In stock]** 필드는 캠페인 진행에 따라 자동으로 계산되고 업데이트됩니다.
 
-   ![](assets/s_ncs_user_stocks_create_line.png)
+  ![](assets/s_ncs_user_stocks_create_line.png)
 
 * 운영자가 주문 재고에 대해 알림을 받아야 하는 임계값을 나타냅니다. **[!UICONTROL Alert level]** 필드. 경고 수준에 도달하면 이 재고를 사용하는 게재의 승인 창에 경고 메시지가 표시됩니다.
 

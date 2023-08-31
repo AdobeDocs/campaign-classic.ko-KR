@@ -2,20 +2,19 @@
 product: campaign
 title: 템플릿 정보
 description: 게재 템플릿 시작
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Delivery Templates
+role: User
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 1%
+source-wordcount: '288'
+ht-degree: 2%
 
 ---
 
 # 템플릿 정보{#about-templates}
-
-
 
 게재 구성은 다시 사용하기 위해 게재 템플릿에 저장할 수 있습니다. 템플릿에는 게재의 전체 또는 일부 구성이 포함될 수 있습니다.
 

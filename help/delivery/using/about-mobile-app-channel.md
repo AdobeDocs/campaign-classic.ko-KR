@@ -2,20 +2,19 @@
 product: campaign
 title: 모바일 앱 채널 시작
 description: Adobe Campaign에서 모바일 앱 채널 시작
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Push
+role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '677'
 ht-degree: 2%
 
 ---
 
 # 모바일 앱 채널 시작{#about-mobile-app-channel}
-
-
 
 다음 **모바일 앱 채널** Adobe Campaign 플랫폼을 사용하여 앱을 통해 iOS 및 Android 터미널에 개인화된 푸시 알림을 전송할 수 있습니다.
 
@@ -27,11 +26,11 @@ ht-degree: 2%
 
 * Apple 모바일 장치로 알림을 전송할 수 있는 iOS 채널입니다.
 
-   ![](assets/nmac_intro_2.png)
+  ![](assets/nmac_intro_2.png)
 
 * Android 모바일 장치에 데이터 메시지를 보낼 수 있는 Android 채널입니다.
 
-   ![](assets/nmac_intro_1.png)
+  ![](assets/nmac_intro_1.png)
 
 이 두 채널에 해당하는 두 가지 게재 활동이 캠페인 워크플로우에 있습니다.
 
@@ -51,7 +50,6 @@ ht-degree: 2%
 >
 >* 모바일 애플리케이션으로 전송된 알림이 Apple(Apple 푸시 알림 서비스) 및 Google(Firebase Cloud Messaging)에서 지정한 사전 요구 사항 및 조건을 준수하는지 확인해야 합니다.
 >* 경고: 일부 국가에서는 수집된 데이터 유형 모바일 애플리케이션과 처리 목적을 사용자에게 알려야 합니다. 당신은 법률을 확인해야 합니다.
-
 
 다음 **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) 워크플로는 모바일 장치에 대한 구독 취소 알림을 업데이트합니다. 이 워크플로에 대한 자세한 내용은 [기술 워크플로우 목록](../../workflow/using/about-technical-workflows.md).
 
@@ -92,15 +90,15 @@ Adobe Campaign 서버는 iOS HTTP/2 커넥터용 443 포트의 APNs 서버에 �
 
 * 테스트의 경우:
 
-   ```
-   api.development.push.apple.com:443
-   ```
+  ```
+  api.development.push.apple.com:443
+  ```
 
 * 제작 중:
 
-   ```
-   api.push.apple.com:443
-   ```
+  ```
+  api.push.apple.com:443
+  ```
 
 iOS HTTP/2 커넥터를 사용하면 MTA 및 웹 서버가 포트 443의 APNs에 연결할 수 있어야 합니다.
 

@@ -3,10 +3,11 @@ product: campaign
 title: 양식 구조
 description: 양식 구조
 feature: Application Settings
+role: Data Engineer, Developer
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '2397'
 ht-degree: 0%
@@ -269,7 +270,7 @@ A **`<static>`** 요소를 사용하여 입력 양식 서식을 지정할 수 �
 <input xpath="company"/>
 ```
 
-Target 선택은 편집 필드를 통해 액세스할 수 있습니다. 입력 시 자동 완성 기능이 지원되므로 처음 입력한 몇 문자에서 대상 요소를 쉽게 찾을 수 있습니다. 그런 다음 검색은 **계산 문자열** 대상 스키마에 정의되어 있습니다. 컨트롤에서 유효성 검사 후 스키마가 존재하지 않으면 즉시 대상 만들기에 대한 확인 메시지가 표시됩니다. 이 확인란은 대상 테이블에 새 레코드를 만들고 이를 링크와 연결합니다.
+타겟 선택은 편집 필드를 통해 액세스할 수 있습니다. 입력 시 자동 완성 기능이 지원되므로 처음 입력한 몇 문자에서 대상 요소를 쉽게 찾을 수 있습니다. 그런 다음 검색은 **계산 문자열** 대상 스키마에 정의되어 있습니다. 컨트롤에서 유효성 검사 후 스키마가 존재하지 않으면 즉시 대상 만들기에 대한 확인 메시지가 표시됩니다. 이 확인란은 대상 테이블에 새 레코드를 만들고 이를 링크와 연결합니다.
 
 드롭다운 목록은 이미 생성된 레코드 목록에서 대상 요소를 선택하는 데 사용됩니다.
 

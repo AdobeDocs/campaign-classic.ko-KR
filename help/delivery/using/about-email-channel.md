@@ -2,20 +2,19 @@
 product: campaign
 title: Adobe Campaign Classic의 이메일 채널 정보
 description: 이 섹션에서는 Adobe Campaign의 이메일 채널에 대한 일반 정보를 제공합니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email
+role: User
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '148'
 ht-degree: 12%
 
 ---
 
 # 이메일 채널 정보{#about-email-channel}
-
-
 
 Adobe Campaign을 사용하면 개인화된 전자 메시지를 대상 모집단에 대량으로 전달할 수 있습니다.
 

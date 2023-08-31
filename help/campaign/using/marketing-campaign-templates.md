@@ -2,13 +2,14 @@
 product: campaign
 title: 마케팅 캠페인 템플릿
 description: 마케팅 캠페인 템플릿
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+role: User
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Campaigns, Templates
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 4%
+source-wordcount: '1135'
+ht-degree: 5%
 
 ---
 
@@ -94,53 +95,53 @@ ht-degree: 4%
 
 * **컨트롤 그룹**
 
-   이 모듈을 선택하면 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 고급 설정에 추가 탭이 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다. 에서 컨트롤 그룹에 대해 자세히 알아보기 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+  이 모듈을 선택하면 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 고급 설정에 추가 탭이 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다. 에서 컨트롤 그룹에 대해 자세히 알아보기 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
-   ![](assets/s_ncs_user_op_template_activate_1.png)
+  ![](assets/s_ncs_user_op_template_activate_1.png)
 
 * **시드 주소**
 
-   이 모듈을 선택하면 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 고급 설정에 추가 탭이 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다. 의 시드 주소에 대해 자세히 알아보기 [이 섹션](../../delivery/using/about-seed-addresses.md).
+  이 모듈을 선택하면 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 고급 설정에 추가 탭이 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다. 의 시드 주소에 대해 자세히 알아보기 [이 섹션](../../delivery/using/about-seed-addresses.md).
 
-   ![](assets/s_ncs_user_op_template_activate_2.png)
+  ![](assets/s_ncs_user_op_template_activate_2.png)
 
 * **문서**
 
-   이 모듈을 선택하면 추가 탭이 **[!UICONTROL Edition]** 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 탭입니다. 첨부된 문서는 템플릿에서 또는 각 캠페인에 대해 개별적으로 추가할 수 있습니다. 의 문서에 대해 자세히 알아보기 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
+  이 모듈을 선택하면 추가 탭이 **[!UICONTROL Edition]** 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 탭입니다. 첨부된 문서는 템플릿에서 또는 각 캠페인에 대해 개별적으로 추가할 수 있습니다. 의 문서에 대해 자세히 알아보기 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
 
-   ![](assets/s_ncs_user_op_template_activate_3.png)
+  ![](assets/s_ncs_user_op_template_activate_3.png)
 
 * **개요**
 
-   이 모듈을 선택하면 **[!UICONTROL Delivery outlines]** 하위 탭이 **[!UICONTROL Documents]** 탭으로 이동하여 캠페인에 대한 게재 개요를 정의합니다. 에서 게재 개요에 대해 자세히 알아보기 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+  이 모듈을 선택하면 **[!UICONTROL Delivery outlines]** 하위 탭이 **[!UICONTROL Documents]** 탭으로 이동하여 캠페인에 대한 게재 개요를 정의합니다. 에서 게재 개요에 대해 자세히 알아보기 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
-   ![](assets/s_ncs_user_op_template_activate_4.png)
+  ![](assets/s_ncs_user_op_template_activate_4.png)
 
 * **타겟팅 및 워크플로**
 
-   다음을 선택하면 **[!UICONTROL Targeting and workflows]** 모듈에서는 이 템플릿을 기반으로 캠페인용 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 개별적으로 워크플로우를 구성할 수도 있습니다.에서 캠페인 워크플로우에 대해 자세히 알아보세요. [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
+  다음을 선택하면 **[!UICONTROL Targeting and workflows]** 모듈에서는 이 템플릿을 기반으로 캠페인용 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 개별적으로 워크플로우를 구성할 수도 있습니다.에서 캠페인 워크플로우에 대해 자세히 알아보세요. [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
-   ![](assets/s_ncs_user_op_template_activate_5.png)
+  ![](assets/s_ncs_user_op_template_activate_5.png)
 
-   이 모듈이 활성화되면 프로세스 실행 시퀀스를 정의하는 탭이 캠페인의 고급 설정에 추가됩니다.
+  이 모듈이 활성화되면 프로세스 실행 시퀀스를 정의하는 탭이 캠페인의 고급 설정에 추가됩니다.
 
-   ![](assets/s_ncs_user_op_template_activate_5a.png)
+  ![](assets/s_ncs_user_op_template_activate_5a.png)
 
 * **승인**
 
-   을(를) 선택하는 경우 **[!UICONTROL Approval]**&#x200B;를 통해 승인할 프로세스와 승인을 담당하는 연산자를 선택할 수 있습니다. 에서 승인에 대해 자세히 알아보기 [이 섹션](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
+  을(를) 선택하는 경우 **[!UICONTROL Approval]**&#x200B;를 통해 승인할 프로세스와 승인을 담당하는 연산자를 선택할 수 있습니다. 에서 승인에 대해 자세히 알아보기 [이 섹션](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
-   ![](assets/s_ncs_user_op_template_activate_5b.png)
+  ![](assets/s_ncs_user_op_template_activate_5b.png)
 
-   다음을 통해 프로세스 승인을 사용할지 여부를 선택할 수 있습니다. **[!UICONTROL Approvals]** 템플릿 고급 설정 섹션의 탭입니다. 승인이 선택된 작업은 메시지 게재를 승인해야 합니다.
+  다음을 통해 프로세스 승인을 사용할지 여부를 선택할 수 있습니다. **[!UICONTROL Approvals]** 템플릿 고급 설정 섹션의 탭입니다. 승인이 선택된 작업은 메시지 게재를 승인해야 합니다.
 
-   활성화된 각 승인에 검토자 운영자 또는 운영자 그룹을 연결해야 합니다.
+  활성화된 각 승인에 검토자 운영자 또는 운영자 그룹을 연결해야 합니다.
 
 * **경비 및 목표**
 
-   이 모듈을 선택하면 **[!UICONTROL Budget]** 관련 예산을 선택할 수 있도록 이 템플릿을 기반으로 하는 캠페인 및 템플릿의 세부 정보에 탭이 추가됩니다.
+  이 모듈을 선택하면 **[!UICONTROL Budget]** 관련 예산을 선택할 수 있도록 이 템플릿을 기반으로 하는 캠페인 및 템플릿의 세부 정보에 탭이 추가됩니다.
 
-   ![](assets/s_ncs_user_op_template_activate_7.png)
+  ![](assets/s_ncs_user_op_template_activate_7.png)
 
 ## 속성 및 실행 {#general-configuration}
 
@@ -153,14 +154,14 @@ ht-degree: 4%
 * 다음을 입력합니다. **레이블** 템플릿 중: 이 레이블은 기본적으로 이 템플릿을 통해 만드는 모든 캠페인에 할당됩니다.
 * 캠페인 선택 **특성** 을 클릭합니다. 이 목록에서 사용할 수 있는 값은 **[!UICONTROL natureOp]** 열거형입니다.
 
-   >[!NOTE]
-   >
-   >열거형에 대한 자세한 내용은 [시작](../../platform/using/managing-enumerations.md) 섹션.
+  >[!NOTE]
+  >
+  >열거형에 대한 자세한 내용은 [시작](../../platform/using/managing-enumerations.md) 섹션.
 
 * 다음 항목 선택 **캠페인 유형**: 고유, 반복 또는 주기적입니다. 기본적으로 캠페인 템플릿은 고유한 캠페인에 적용됩니다. 반복 및 정기 캠페인에 대해서는 다음에서 자세히 설명합니다. [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
 * 캠페인 기간, 즉 캠페인이 진행될 일 수를 지정합니다. 이 템플릿을 기반으로 캠페인을 만들 때 캠페인 시작 및 종료 날짜가 자동으로 채워집니다.
 
-   캠페인이 반복되면 템플릿에서 직접 캠페인 시작 및 종료 날짜를 지정해야 합니다.
+  캠페인이 반복되면 템플릿에서 직접 캠페인 시작 및 종료 날짜를 지정해야 합니다.
 
 * 다음을 지정합니다. **관련 프로그램** 템플릿 중: 이 템플릿을 기반으로 하는 캠페인이 선택한 프로그램에 연결됩니다.
 

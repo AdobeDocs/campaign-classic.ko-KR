@@ -2,19 +2,18 @@
 product: campaign
 title: iOS 장치에 대한 푸시 알림 만들기
 description: iOS용 푸시 알림을 만드는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Push
+role: User, Developer, Data Engineer
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 6%
+source-wordcount: '972'
+ht-degree: 8%
 
 ---
 
 # iOS에 대한 알림 만들기{#create-notifications-ios}
-
-
 
 이 섹션에서는 iOS 알림 전달과 관련된 요소에 대해 자세히 설명합니다. 게재 만들기에 대한 전체적인 개념은에 나와 있습니다. [이 섹션](steps-about-delivery-creation-steps.md).
 
@@ -50,7 +49,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 따르십시
 
    >[!NOTE]
    >
-   >다음 **자동 푸시** 모드에서는 &quot;자동&quot; 알림을 모바일 애플리케이션으로 전송할 수 있습니다. 사용자는 알림이 도착한 것을 알 수 없습니다. 애플리케이션에 바로 전송됩니다.
+   >다음 **자동 푸시** 모드에서는 &quot;자동&quot; 알림을 모바일 애플리케이션으로 전송할 수 있습니다. 사용자는 알림이 도착했음을 알지 못합니다. 애플리케이션으로 직접 전송됩니다.
 
 1. 다음에서 **[!UICONTROL Title]** 필드에 알림 센터에서 사용할 수 있는 알림 목록에 표시할 제목의 레이블을 입력합니다.
 
@@ -75,6 +74,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 따르십시
    * **[!UICONTROL Name]**: 알림을 수신할 때 모바일 디바이스에서 재생할 사운드를 선택합니다.
 
    * **[!UICONTROL Volume]**: 0에서 100 사이의 사운드 볼륨입니다.
+
    >[!NOTE]
    >
    >사운드는 애플리케이션에 포함되어야 하며 서비스를 만들 때 정의되어야 합니다. [이 섹션](configuring-the-mobile-application.md#configuring-external-account-ios)을 참조하십시오.
@@ -110,6 +110,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 따르십시
       * **[!UICONTROL Time sensitive]**: 시스템에서 알림을 즉시 표시하고 화면을 켜며 사운드를 재생하고 포커스 모드를 중단할 수 있습니다. 이 수준에서는 Apple의 특별한 권한이 필요하지 않습니다.
 
       * **[!UICONTROL Critical]**: 시스템에서 알림을 즉시 표시하고 화면을 켜며 음소거 스위치 또는 포커스 모드를 건너뜁니다. 이 수준에는 Apple의 특별한 권한이 필요합니다.
+
    * **[!UICONTROL Relevance score]**: 관련성 점수를 0에서 100으로 설정합니다. 시스템은 이 옵션을 사용하여 알림 요약의 알림을 정렬합니다.
 
    ![](assets/nmac_delivery_ios_8.png)

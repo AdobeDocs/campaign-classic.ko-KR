@@ -2,13 +2,14 @@
 product: campaign
 title: 마케팅 캠페인 디자인 및 실행
 description: 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+role: User
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 22%
+source-wordcount: '450'
+ht-degree: 23%
 
 ---
 
@@ -32,35 +33,35 @@ Campaign의 컨텍스트에서 다음 개념을 알고 있어야 합니다.
 
 * **캠페인**
 
-   캠페인은 게재, 타겟팅 규칙, 비용, 파일 내보내기, 관련 문서 등 마케팅 캠페인과 관련된 모든 요소를 중앙에서 관리합니다. 각 캠페인은 프로그램에 첨부됩니다.
+  캠페인은 게재, 타겟팅 규칙, 비용, 파일 내보내기, 관련 문서 등 마케팅 캠페인과 관련된 모든 요소를 중앙에서 관리합니다. 각 캠페인은 프로그램에 첨부됩니다.
 
-   자세한 내용은 다음을 참조하십시오. [캠페인 추가](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-campaign).
+  자세한 내용은 다음을 참조하십시오. [캠페인 추가](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-campaign).
 
 * **프로그램**
 
-   프로그램을 사용하여 일정 기간에 대해 론칭, 캔버스, 충성도 등 마케팅 작업을 정의할 수 있습니다. 각 프로그램에는 전체 보기를 제공하는 달력에 연결된 캠페인이 포함되어 있습니다.
+  프로그램을 사용하여 일정 기간에 대해 론칭, 캔버스, 충성도 등 마케팅 작업을 정의할 수 있습니다. 각 프로그램에는 전체 보기를 제공하는 달력에 연결된 캠페인이 포함되어 있습니다.
 
 * **플랜**
 
-   마케팅 계획에는 여러 프로그램이 포함될 수 있습니다. 일정 기간과 연결되며 예산이 할당되어 문서 및 목표에 연결할 수도 있습니다.
+  마케팅 계획에는 여러 프로그램이 포함될 수 있습니다. 일정 기간과 연결되며 예산이 할당되어 문서 및 목표에 연결할 수도 있습니다.
 
-   자세한 내용은 다음을 참조하십시오. [캠페인 캘린더](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
+  자세한 내용은 다음을 참조하십시오. [캠페인 캘린더](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
 
 * **워크플로우**
 
-   캠페인 워크플로우에는 모든 워크플로우와 동일한 활동이 포함되지만 캠페인에만 해당됩니다. 이를 통해 사용 가능한 모든 채널에 대한 게재를 만들고 구성할 수 있습니다.
+  캠페인 워크플로우에는 모든 워크플로우와 동일한 활동이 포함되지만 캠페인에만 해당됩니다. 이를 통해 사용 가능한 모든 채널에 대한 게재를 만들고 구성할 수 있습니다.
 
-   이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)을 참조하십시오.
+  이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)을 참조하십시오.
 
 * **목표**
 
-   캠페인, 프로그램 또는 계획 내에서 목표 목록을 명시할 수 있습니다. 도달할 수량화된 값입니다. 캠페인, 프로그램 또는 계획이 끝날 때 MRM 모듈을 사용하면 전용 보고서에서 목표와 결과를 비교할 수 있습니다.
+  캠페인, 프로그램 또는 계획 내에서 목표 목록을 명시할 수 있습니다. 도달할 수량화된 값입니다. 캠페인, 프로그램 또는 계획이 끝날 때 MRM 모듈을 사용하면 전용 보고서에서 목표와 결과를 비교할 수 있습니다.
 
 * **게재 개요**
 
-   게재 개요는 게재의 구조화된 설명입니다. 모든 게재는 관련 오퍼, 첨부할 문서 또는 저장소에 대한 링크 등이 포함된 게재 개요를 참조할 수 있습니다. 오퍼는 선택한 게재 개요에 따라 게재에서 참조할 수 있습니다.
+  게재 개요는 게재의 구조화된 설명입니다. 모든 게재는 관련 오퍼, 첨부할 문서 또는 저장소에 대한 링크 등이 포함된 게재 개요를 참조할 수 있습니다. 오퍼는 선택한 게재 개요에 따라 게재에서 참조할 수 있습니다.
 
-   이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)을 참조하십시오.
+  이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)을 참조하십시오.
 
 ## 튜토리얼 {#video}
 

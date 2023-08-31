@@ -2,13 +2,14 @@
 product: campaign
 title: 마케팅 캠페인 타겟 대상자
 description: 마케팅 캠페인 대상을 정의하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+role: User
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 2%
+source-wordcount: '1492'
+ht-degree: 3%
 
 ---
 
@@ -46,7 +47,7 @@ ht-degree: 2%
 >
 >캠페인에 28개 이상의 워크플로우를 추가해서는 안 됩니다. 이 제한을 초과하면 추가 워크플로우가 인터페이스에 표시되지 않고 오류를 생성할 수 있습니다.
 
-### 워크플로우 만들기 {#creating-a-targeting-workflow}
+### 워크플로 만들기 {#creating-a-targeting-workflow}
 
 타겟팅은 워크플로우의 그래픽 시퀀스에서 필터링 조건의 조합을 통해 만들 수 있습니다. 요구 사항에 따라 타겟팅할 모집단과 하위 모집단을 만들 수 있습니다. 워크플로우 편집기를 표시하려면 **[!UICONTROL Targeting and workflows]** 캠페인 대시보드의 탭입니다.
 
@@ -99,72 +100,73 @@ ht-degree: 2%
 
    * 다음 **[!UICONTROL Start]** 아이콘을 사용하면 타겟팅 워크플로우를 시작할 수 있습니다. 이 아이콘을 클릭하면 입력 전환이 없는 모든 활동이 활성화됩니다(끝점 이동 제외).
 
-      ![](assets/s_user_segmentation_start.png)
+     ![](assets/s_user_segmentation_start.png)
 
-      서버는 상태와 같이 요청을 고려합니다.
+     서버는 상태와 같이 요청을 고려합니다.
 
-      ![](assets/s_user_segmentation_start_status.png)
+     ![](assets/s_user_segmentation_start_status.png)
 
-      프로세스 상태가 다음으로 변경됨 **[!UICONTROL Started]**.
+     프로세스 상태가 다음으로 변경됨 **[!UICONTROL Started]**.
 
    * 적절한 도구 모음 아이콘을 통해 타겟팅 워크플로우를 다시 시작할 수 있습니다. 이 명령은 다음과 같은 경우에 유용합니다. **[!UICONTROL Start]** 예를 들어 타겟팅 워크플로우 중지가 진행 중인 경우 아이콘을 사용할 수 없습니다. 이 경우 **[!UICONTROL Restart]** 다시 시작을 예상하는 아이콘입니다. 서버는 상태가 다음과 같이 요청을 고려합니다.
 
-      ![](assets/s_user_segmentation_restart_status.png)
+     ![](assets/s_user_segmentation_restart_status.png)
 
-      그런 다음 프로세스가 **[!UICONTROL Started]** 상태.
+     그런 다음 프로세스가 **[!UICONTROL Started]** 상태.
 
 * 중지 또는 일시 중지
 
    * 도구 모음 아이콘을 사용하면 진행 중인 타겟팅 워크플로우를 중지하거나 일시 중지할 수 있습니다.
 
-      다음을 클릭: **[!UICONTROL Pause]**, 작업 진행 중 **[!UICONTROL are not]** 일시 중지되었지만 다음 다시 시작할 때까지 다른 활동이 실행되지 않습니다.
+     다음을 클릭: **[!UICONTROL Pause]**, 작업 진행 중 **[!UICONTROL are not]** 일시 중지되었지만 다음 다시 시작할 때까지 다른 활동이 실행되지 않습니다.
 
-      ![](assets/s_user_segmentation_pause.png)
+     ![](assets/s_user_segmentation_pause.png)
 
-      서버는 상태가 다음과 같이 명령을 고려합니다.
+     서버는 상태가 다음과 같이 명령을 고려합니다.
 
-      ![](assets/s_user_segmentation_pause_status.png)
+     ![](assets/s_user_segmentation_pause_status.png)
 
-      타겟팅 워크플로우 실행이 특정 활동에 도달하면 자동으로 일시 중지할 수도 있습니다. 이렇게 하려면 타겟팅 워크플로우를 일시 중지할 활동을 마우스 오른쪽 단추로 클릭하고 를 선택합니다 **[!UICONTROL Enable but do not execute]**.
+     타겟팅 워크플로우 실행이 특정 활동에 도달하면 자동으로 일시 중지할 수도 있습니다. 이렇게 하려면 타겟팅 워크플로우를 일시 중지할 활동을 마우스 오른쪽 단추로 클릭하고 를 선택합니다 **[!UICONTROL Enable but do not execute]**.
 
-      ![](assets/s_user_segmentation_donotexecute.png)
+     ![](assets/s_user_segmentation_donotexecute.png)
 
-      이 구성은 특수 아이콘으로 표시됩니다.
+     이 구성은 특수 아이콘으로 표시됩니다.
 
-      ![](assets/s_user_segmentation_pause_activity.png)
+     ![](assets/s_user_segmentation_pause_activity.png)
 
-      >[!NOTE]
-      >
-      >이 옵션은 고급 타겟팅 캠페인 디자인 및 테스트 단계 중에 유용합니다.
+     >[!NOTE]
+     >
+     >이 옵션은 고급 타겟팅 캠페인 디자인 및 테스트 단계 중에 유용합니다.
 
-      클릭 **[!UICONTROL Start]** 실행을 다시 시작합니다.
+     클릭 **[!UICONTROL Start]** 실행을 다시 시작합니다.
 
    * 다음을 클릭합니다. **[!UICONTROL Stop]** ( 진행 중인 실행을 중지하는 아이콘)
 
-      ![](assets/s_user_segmentation_stop.png)
+     ![](assets/s_user_segmentation_stop.png)
 
-      서버는 상태가 다음과 같이 명령을 고려합니다.
+     서버는 상태가 다음과 같이 명령을 고려합니다.
 
-      ![](assets/s_user_segmentation_stop_status.png)
-   실행이 활동에 도달하면 타겟팅 워크플로우를 자동으로 중지할 수도 있습니다. 이렇게 하려면 타겟팅 워크플로우가 중단될 활동을 마우스 오른쪽 버튼으로 클릭하고 을 선택합니다. **[!UICONTROL Do not activate]**.
+     ![](assets/s_user_segmentation_stop_status.png)
 
-   ![](assets/s_user_segmentation_donotactivate.png)
+  실행이 활동에 도달하면 타겟팅 워크플로우를 자동으로 중지할 수도 있습니다. 이렇게 하려면 타겟팅 워크플로우가 중단될 활동을 마우스 오른쪽 버튼으로 클릭하고 을 선택합니다. **[!UICONTROL Do not activate]**.
 
-   ![](assets/s_user_segmentation_unactivation.png)
+  ![](assets/s_user_segmentation_donotactivate.png)
 
-   이 구성은 특수 아이콘으로 표시됩니다.
+  ![](assets/s_user_segmentation_unactivation.png)
 
-   >[!NOTE]
-   >
-   >이 옵션은 고급 타겟팅 캠페인 디자인 및 테스트 단계 중에 유용합니다.
+  이 구성은 특수 아이콘으로 표시됩니다.
+
+  >[!NOTE]
+  >
+  >이 옵션은 고급 타겟팅 캠페인 디자인 및 테스트 단계 중에 유용합니다.
 
 * 무조건 정지
 
-   탐색기에서 **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** 모든 캠페인 워크플로우에 액세스하고 작업을 수행합니다.
+  탐색기에서 **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** 모든 캠페인 워크플로우에 액세스하고 작업을 수행합니다.
 
-   다음을 클릭하여 워크플로를 무조건 중단할 수 있습니다. **[!UICONTROL Actions]** 아이콘 및 선택 **[!UICONTROL Unconditional]** 멈춰. 이 작업은 캠페인 워크플로우를 종료합니다.
+  다음을 클릭하여 워크플로를 무조건 중단할 수 있습니다. **[!UICONTROL Actions]** 아이콘 및 선택 **[!UICONTROL Unconditional]** 멈춰. 이 작업은 캠페인 워크플로우를 종료합니다.
 
-   ![](assets/s_user_segmentation_stop_unconditional.png)
+  ![](assets/s_user_segmentation_stop_unconditional.png)
 
 ## 컨트롤 그룹 추가 {#defining-a-control-group}
 

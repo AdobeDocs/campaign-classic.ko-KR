@@ -5,8 +5,9 @@ description: 게재 성능 및 게재 모니터링과 관련된 문제를 해결
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring, Deliverability, Troubleshooting
+role: User
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 1%
@@ -14,8 +15,6 @@ ht-degree: 1%
 ---
 
 # 게재 전송 문제 해결 {#delivery-troubleshooting}
-
-
 
 이 섹션에서는 게재를 보낼 때 발생할 수 있는 일반적인 문제와 해결 방법을 나열합니다.
 

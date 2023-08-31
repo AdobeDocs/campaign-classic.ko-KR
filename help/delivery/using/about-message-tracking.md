@@ -2,13 +2,14 @@
 product: campaign
 title: 추적 시작
 description: Adobe Campaign에서의 추적을 위한 일반 지침 자세히 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring, Email
+role: User
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '695'
 ht-degree: 10%
 
 ---
@@ -111,12 +112,12 @@ Campaign Classic 추적 기능을 사용하면 개인화할 수 있고 추적을
 
 * trackinglogd 프로세스가 실행 중인지 확인
 
-   이 프로세스는 IIS/웹 서버 공유 메모리를 읽고 리디렉션 로그를 기록합니다.
+  이 프로세스는 IIS/웹 서버 공유 메모리를 읽고 리디렉션 로그를 기록합니다.
 
-   인스턴스의 모니터링 탭을 선택하여 홈페이지에서 액세스할 수 있습니다. 인스턴스에서 다음 명령을 실행할 수도 있습니다. `<user>@<instance>:~$ nlserver pdump`
+  인스턴스의 모니터링 탭을 선택하여 홈페이지에서 액세스할 수 있습니다. 인스턴스에서 다음 명령을 실행할 수도 있습니다. `<user>@<instance>:~$ nlserver pdump`
 
-   trackinglogd 프로세스가 목록에 표시되지 않으면 인스턴스에서 다음 명령을 사용하여 시작합니다. `<user>@<instance>:~$ nlserver start trackinglogd`
+  trackinglogd 프로세스가 목록에 표시되지 않으면 인스턴스에서 다음 명령을 사용하여 시작합니다. `<user>@<instance>:~$ nlserver start trackinglogd`
 
 * 추적 기술 워크플로우가 최근에 실행되었는지 확인합니다.
 
-   폴더 관리 > 프로덕션 > 기술 워크플로우에서 추적 기술 워크플로우를 찾을 수 있습니다.
+  폴더 관리 > 프로덕션 > 기술 워크플로우에서 추적 기술 워크플로우를 찾을 수 있습니다.

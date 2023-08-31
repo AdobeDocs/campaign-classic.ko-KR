@@ -2,20 +2,19 @@
 product: campaign
 title: 콘텐츠 관리 정보
 description: Campaign 콘텐츠 관리자 모듈 시작
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Landing Pages, Email Design
+role: User
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '261'
+ht-degree: 3%
 
 ---
 
 # 콘텐츠 관리 정보{#about-content-management}
-
-
 
 Adobe Campaign Content Manager 모듈은 특정 Campaign Classic [기본 제공 패키지](../../installation/using/installing-campaign-standard-packages.md) 를 설치하면 되풀이되는 뉴스레터 또는 웹 사이트를 만들 수 있습니다. 메시지를 만들고, 검증하고, 게시하는 데 도움이 될 수 있습니다.
 
@@ -44,4 +43,4 @@ Adobe Campaign Content Manager 모듈은 특정 Campaign Classic [기본 제공 
 그러나 이러한 컨텐츠 작성 모드에는 다음과 같은 몇 가지 제한 사항이 포함됩니다.
 
 * 최종 문서 디자인에 대한 제한된 자유
-* 최종 사용자가 기능 누락으로 불편을 겪지 않도록 요구 사항 분석을 엄격히 해야 한다.
+* 최종 사용자가 기능 누락으로 불편을 겪지 않도록 요구사항 분석을 엄격히 해야 한다.

@@ -2,20 +2,19 @@
 product: campaign
 title: 게재 템플릿 만들기
 description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법에 대해 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+role: User
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: A/B Testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 20%
+source-wordcount: '100'
+ht-degree: 16%
 
 ---
 
-# 게재 템플릿 만들기 {#step-3--creating-two-delivery-templates}
-
-
+# AB 테스트: 게재 템플릿 만들기 {#step-3--creating-two-delivery-templates}
 
 이제 두 개의 게재 템플릿을 만들겠습니다. 각 템플릿은 **[!UICONTROL Email delivery]** 에 연결된 활동 **[!UICONTROL Split]** 활동. 이 작업에 대한 자세한 정보는 [이 섹션](about-templates.md)을 참조하십시오.
 

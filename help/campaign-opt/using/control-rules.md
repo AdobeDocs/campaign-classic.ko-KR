@@ -1,14 +1,15 @@
 ---
 product: campaign
 title: 제어 규칙
-description: 제어 규칙
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+description: Adobe Campaign에서 제어 규칙을 사용하여 작업하는 방법을 알아봅니다.
+role: User, Data Engineer
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Typology Rules, Campaigns
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 2%
+source-wordcount: '368'
+ht-degree: 3%
 
 ---
 

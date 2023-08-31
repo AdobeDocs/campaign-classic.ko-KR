@@ -2,19 +2,19 @@
 product: campaign
 title: 게재 대시보드
 description: 게재 대시보드를 사용하여 게재를 모니터링하는 방법에 대해 자세히 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring
+role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1186'
 ht-degree: 7%
 
 ---
 
 # 게재 대시보드 {#delivery-dashboard}
-
 
 
 다음 **게재 대시보드** 는 메시지를 보내는 동안 발생하는 게재 및 최종 문제를 모니터링하는 키입니다.

@@ -2,19 +2,18 @@
 product: campaign
 title: Android 디바이스용 푸시 알림 만들기
 description: Android용 푸시 알림을 만드는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Push
+role: User, Developer, Data Engineer
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 1%
+source-wordcount: '720'
+ht-degree: 2%
 
 ---
 
 # Android용 알림 만들기{#create-notificaations-android}
-
-
 
 Adobe Campaign을 사용하여 Android 디바이스에서 푸시 알림을 보냅니다. 게재 만들기에 대한 전체적인 개념은에 나와 있습니다. [이 섹션](steps-about-delivery-creation-steps.md).
 
@@ -25,10 +24,10 @@ Adobe Campaign을 사용하여 Android 디바이스에서 푸시 알림을 보�
 Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에서 선택할 수 있습니다.
 
 * **[!UICONTROL Data message]**클라이언트 앱에서 처리됩니다.
-   <br>메시지는 android 알림을 생성하고 장치에 표시하는 모바일 애플리케이션으로 직접 전송됩니다. 데이터 메시지에는 사용자 정의 애플리케이션 변수만 포함됩니다.
+  <br>메시지는 android 알림을 생성하고 장치에 표시하는 모바일 애플리케이션으로 직접 전송됩니다. 데이터 메시지에는 사용자 정의 애플리케이션 변수만 포함됩니다.
 
 * **[!UICONTROL Notification message]**FCM SDK에 의해 자동으로 처리됩니다.
-   <br> FCM은 클라이언트 앱을 대신하여 사용자의 장치에 메시지를 자동으로 표시합니다. 알림 메시지에는 사전 정의된 매개 변수 및 옵션 세트가 포함되어 있지만 사용자 지정 애플리케이션 변수를 사용하여 추가로 개인화할 수 있습니다.
+  <br> FCM은 클라이언트 앱을 대신하여 사용자의 장치에 메시지를 자동으로 표시합니다. 알림 메시지에는 사전 정의된 매개 변수 및 옵션 세트가 포함되어 있지만 사용자 지정 애플리케이션 변수를 사용하여 추가로 개인화할 수 있습니다.
 
 Firebase Cloud 메시지 유형에 대한 자세한 내용은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages).
 

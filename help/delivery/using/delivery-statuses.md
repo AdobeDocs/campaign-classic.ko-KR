@@ -2,13 +2,14 @@
 product: campaign
 title: 게재 상태
 description: 게재 대시보드에서 사용할 수 있는 상태에 대해 자세히 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring, Deliverability
+role: User
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '644'
 ht-degree: 8%
 
 ---
@@ -99,11 +100,11 @@ Adobe Campaign 이메일 전달성을 최적화하는 방법을 알아보려면 
 
 * 게재 서버에서 모듈 및 프로세스를 실행하고 이메일 전송을 관리하는 MTA(메시지 전송 에이전트)가 시작되지 않았거나 다시 시작해야 할 수 있습니다.
 
-   이를 확인하고 필요한 경우 모듈을 시작하려면 다음 단계를 적용합니다.
+  이를 확인하고 필요한 경우 모듈을 시작하려면 다음 단계를 적용합니다.
 
-   >[!NOTE]
-   >
-   >이 작업은 **온-프레미스** 또는 **잡종** Campaign 서버에 액세스할 수 있는 호스팅 모델(참조 [호스팅 모델](../../installation/using/hosting-models.md)).
+  >[!NOTE]
+  >
+  >이 작업은 **온-프레미스** 또는 **잡종** Campaign 서버에 액세스할 수 있는 호스팅 모델(참조 [호스팅 모델](../../installation/using/hosting-models.md)).
 
    1. 다음을 확인하십시오. `mta@<instance>` 모듈은 MTA 서버에서 실행됩니다.
 
@@ -127,13 +128,13 @@ Adobe Campaign 이메일 전달성을 최적화하는 방법을 알아보려면 
 
 * 게재는 전송 서버에 구성되지 않은 선호도를 사용할 수 있습니다.
 
-   이 경우 트래픽 관리(IP 선호도)의 구성을 확인하고 를 사용합니다. **[!UICONTROL Managing affinities with IP addresses]** 선호도를 관리하는 MTA에 게재를 연결하는 필드입니다. 관심도에 대한 자세한 내용은 [이 섹션](../../installation/using/configure-delivery-settings.md).
+  이 경우 트래픽 관리(IP 선호도)의 구성을 확인하고 를 사용합니다. **[!UICONTROL Managing affinities with IP addresses]** 선호도를 관리하는 MTA에 게재를 연결하는 필드입니다. 관심도에 대한 자세한 내용은 [이 섹션](../../installation/using/configure-delivery-settings.md).
 
-* 너무 많은 캠페인이 실행 중인 경우 게재 상태는 &#39;보류 중&#39; 상태로 유지됩니다.
+* 너무 많은 캠페인이 실행 중일 때 게재 상태는 &#39;보류 중&#39; 상태로 유지됩니다.
 
-   동시 캠페인의 제한은 **[!UICONTROL NmsOperation_LimitConcurrency]** 옵션을 선택합니다. 기본값은 10입니다.
+  동시 캠페인의 제한은 **[!UICONTROL NmsOperation_LimitConcurrency]** 옵션을 선택합니다. 기본값은 10입니다.
 
-   의 옵션에 대해 자세히 알아보기 [이 페이지](../../installation/using/configuring-campaign-options.md).
+  의 옵션에 대해 자세히 알아보기 [이 페이지](../../installation/using/configuring-campaign-options.md).
 
 
 **관련 항목:**

@@ -2,20 +2,19 @@
 product: campaign
 title: 시드 주소 정보
 description: 시드 주소 시작
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Seed Address
+role: User
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 8%
+source-wordcount: '391'
+ht-degree: 9%
 
 ---
 
 # 시드 주소 정보{#about-seed-addresses}
-
-
 
 시드 주소는 정의된 대상 기준과 일치하지 않는 수신자를 타겟팅 하는 데 사용됩니다. 이렇게 하면 게재 범위를 벗어난 수신자는 다른 대상 수신자와 마찬가지로 게재를 받을 수 있습니다.
 
@@ -46,6 +45,5 @@ DM 게재의 경우 시드 주소가 추출 중에 추가되고 출력 문서에
 >DM 게재의 경우 추출 파일 형식은 다음 제한 사항을 준수해야 합니다.
 >
 >* 옵션을 사용하면 안 됩니다. **[!UICONTROL Handle groupings (GROUP BY+HAVING)]**.
->* 요소 컬렉션이 추출되면 이 필드에는 다음과 같은 경우가 아니면 시드 주소에 대해 빈 값이 표시됩니다. **[!UICONTROL Single row (expert user)]** 옵션이 선택되어 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/executing-export-jobs.md#step-7---data-formatting)을 참조하십시오.
+>* 요소 컬렉션이 추출되면 이 필드에는 다음과 같은 상황이 발생하지 않는 한 시드 주소에 대한 값이 비어 있습니다. **[!UICONTROL Single row (expert user)]** 옵션이 선택되어 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/executing-export-jobs.md#step-7---data-formatting)을 참조하십시오.
 >
-

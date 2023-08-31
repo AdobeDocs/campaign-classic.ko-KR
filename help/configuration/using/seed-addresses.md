@@ -2,13 +2,14 @@
 product: campaign
 title: 시드 주소
 description: 시드 주소
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+role: Data Engineer, Developer
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '334'
 ht-degree: 7%
 
 ---
@@ -80,7 +81,8 @@ ht-degree: 7%
    >    * 확장 중에 다음을 지정해야 합니다 **SQL 이름(@sqlname)** 이메일 필드. SQL 이름은 수신자 스키마에 대해 예약된 &#39;sEmail&#39;과 달라야 합니다.
    >    * 확장할 때 생성된 스키마로 데이터베이스 구조를 업데이트해야 합니다 **nms:seedMember**.
    >    * 다음에서 **nms:seedMember** 확장 프로그램, 이메일 주소가 포함된 필드는 다음과 같아야 합니다. **name=&quot;email&quot;** 를 속성으로 사용하십시오. SQL 이름은 수신자 스키마에 이미 사용된 &#39;sEmail&#39;과 달라야 합니다. 이 속성은 바로 아래에 선언되어야 합니다. **`<element name="custom_cus_person" />`** 요소를 생성하지 않습니다.
-
+   >    
+   >
 
 1. 수정 **[!UICONTROL seedMember]** 에 새 &quot;내부 수신자&quot; 탭을 정의할 수 있는 양식 **[!UICONTROL Seed addresses]** 창. 자세한 정보는 이 [페이지](../../configuration/using/form-structure.md)를 참조하십시오.
 

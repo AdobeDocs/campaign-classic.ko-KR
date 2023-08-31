@@ -2,20 +2,19 @@
 product: campaign
 title: 조건부 콘텐츠
 description: 조건부 콘텐츠를 추가하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Personalization, Multilingual Messages
+role: User
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '494'
 ht-degree: 7%
 
 ---
 
 # 조건부 콘텐츠{#conditional-content}
-
-
 
 조건부 콘텐츠 필드를 구성하여 예를 들어 수신자의 프로필을 기반으로 동적 개인화를 만들 수 있습니다. 특정 조건이 충족되면 텍스트 블록 및/또는 이미지가 교체됩니다.
 
@@ -48,22 +47,22 @@ ht-degree: 7%
 
    * 표현식의 첫 번째 요소 선택, **`<field>`**, (기본적으로 이 요소는 삽입 중에 강조 표시됩니다.) **if** 표현식)을 클릭하고 개인화 아이콘을 클릭하여 테스트 필드로 대체합니다.
 
-      ![](assets/s_ncs_user_conditional_content03.png)
+     ![](assets/s_ncs_user_conditional_content03.png)
 
    * 바꾸기 **`<value>`** 조건이 충족되는 필드의 값 포함. 이 값은 따옴표로 묶어야 합니다.
    * 조건이 충족될 때 삽입할 콘텐츠를 지정합니다. 텍스트, 이미지, 양식, 하이퍼텍스트 링크 등으로 구성할 수 있습니다.
 
-      ![](assets/s_ncs_user_conditional_content04.png)
+     ![](assets/s_ncs_user_conditional_content04.png)
 
 1. 다음을 클릭합니다. **[!UICONTROL Preview]** 게재 수신자에 따라 메시지 콘텐츠를 볼 수 있는 탭:
 
    * 조건이 참인 수신자 선택:
 
-      ![](assets/s_ncs_user_conditional_content05.png)
+     ![](assets/s_ncs_user_conditional_content05.png)
 
    * 조건이 true가 아닌 수신자 선택:
 
-      ![](assets/s_ncs_user_conditional_content06.png)
+     ![](assets/s_ncs_user_conditional_content06.png)
 
 다른 대소문자를 추가하고 하나 이상의 필드 값에 따라 다른 콘텐츠를 정의할 수 있습니다. 이렇게 하려면 다음을 사용합니다. **[!UICONTROL Conditional content > Else]** 및 **[!UICONTROL Conditional content > Else if]**. 이러한 표현식은 과 동일한 방식으로 구성됩니다. **if** 표현식.
 

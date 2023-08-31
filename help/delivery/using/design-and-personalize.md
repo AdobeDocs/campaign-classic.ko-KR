@@ -2,20 +2,19 @@
 product: campaign
 title: 개인화된 콘텐츠 작성
 description: Adobe Campaign 게재에서 개인화된 콘텐츠를 작성하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email Design, Personalization
+role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1300'
 ht-degree: 7%
 
 ---
 
 # 개인화된 콘텐츠 작성 {#build-personalized-content}
-
-
 
 메시지 콘텐츠를 디자인할 때 게재를 실행할 수 없는 일반적인 문제를 방지하십시오. 대부분의 경우 가능한 오류는 [개인화](about-personalization.md), [서식](defining-the-email-content.md#message-content) 및 [이미지](defining-the-email-content.md#adding-images).
 
@@ -66,7 +65,7 @@ Adobe Campaign 데이터베이스에 저장되거나 추적, 랜딩 페이지, �
 
 * 대문자와 &quot;!&quot;, &quot;!&quot;, &quot; €&quot;, &quot;$&quot;와 같은 특수 문자는 사용하지 마십시오.
 
-### 미러 페이지
+### 페이지 미러링
 
 항상 미러 페이지 링크를 포함하십시오. 기본 위치는 이메일의 상단입니다. [자세히 알아보기](sending-messages.md#generating-the-mirror-page)
 

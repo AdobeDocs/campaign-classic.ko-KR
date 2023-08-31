@@ -2,19 +2,19 @@
 product: campaign
 title: DM 채널 정보
 description: DM 채널 정보
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Direct Mail
+role: User
 exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '142'
 ht-degree: 9%
 
 ---
 
 # DM 채널 정보{#about-direct-mail-channel}
-
 
 
 Adobe Campaign을 사용하면 개인화된 문자를 대량으로 전달할 파일을 생성할 수 있습니다. 수신자 프로필에는 적어도 이름과 우편 주소가 포함되어야 합니다.

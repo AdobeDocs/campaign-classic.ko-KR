@@ -3,12 +3,13 @@ product: campaign
 title: 웹 추적 모드
 description: 웹 추적 모드를 선택하는 방법을 알아봅니다
 feature: Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+role: Data Engineer, Developer
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 

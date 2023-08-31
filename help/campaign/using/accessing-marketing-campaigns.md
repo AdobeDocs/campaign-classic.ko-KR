@@ -2,13 +2,14 @@
 product: campaign
 title: 마케팅 캠페인 액세스
 description: 마케팅 캠페인 액세스
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+role: User
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 3%
+source-wordcount: '1206'
+ht-degree: 4%
 
 ---
 
@@ -71,13 +72,13 @@ Campaign을 사용하면 다양한 마케팅 캠페인으로 구성된 프로그
 
 * 다음 **예약** 탭에는 달력 헤더에서 클릭하는 탭에 따라 월, 주 또는 일의 프로그램 달력이 표시됩니다.
 
-   필요한 경우 이 페이지를 통해 캠페인, 프로그램 또는 작업을 만들 수 있습니다.
+  필요한 경우 이 페이지를 통해 캠페인, 프로그램 또는 작업을 만들 수 있습니다.
 
-   ![](assets/s_ncs_user_interface_campaign02.png)
+  ![](assets/s_ncs_user_interface_campaign02.png)
 
 * 다음 **편집** 탭에서는 이름, 시작 및 종료 일자, 예산, 링크된 문서 등 프로그램을 개인화할 수 있습니다.
 
-   ![](assets/s_ncs_user_interface_campaign05.png)
+  ![](assets/s_ncs_user_interface_campaign05.png)
 
 #### 캠페인 찾아보기 {#browsing-campaigns}
 

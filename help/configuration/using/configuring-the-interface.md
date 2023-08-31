@@ -3,10 +3,11 @@ product: campaign
 title: 인터페이스 구성
 description: Campaign 인터페이스를 구성하는 방법 알아보기
 feature: Application Settings
+role: Data Engineer, Developer
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -14,8 +15,6 @@ ht-degree: 1%
 ---
 
 # 인터페이스 구성{#configuring-the-interface}
-
-
 
 Adobe Campaign 인터페이스에서 새 수신자 테이블을 보고 대화 상자를 표시하려면 다음 단계를 적용합니다.
 

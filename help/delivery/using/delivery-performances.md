@@ -2,20 +2,19 @@
 product: campaign
 title: 게재 성능 모범 사례
 description: 게재 성능 및 모범 사례에 대해 자세히 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Deliverability
+role: User, Data Engineer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '470'
 ht-degree: 6%
 
 ---
 
 # 게재 성능 모범 사례 {#delivery-performances}
-
-
 
 게재 문제가 발생할 경우 게재가 제대로 수행되고 수행되는지 확인하려면 아래 지침을 따르는 것이 좋습니다.
 

@@ -2,20 +2,19 @@
 product: campaign
 title: 타기팅 워크플로우 만들기
 description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법에 대해 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: A/B Testing
+role: User
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 10%
+source-wordcount: '147'
+ht-degree: 8%
 
 ---
 
-# 타기팅 워크플로우 만들기 {#step-1--creating-a-targeting-workflow}
-
-
+# AB 테스트: 타겟팅 워크플로우 만들기 {#step-1--creating-a-targeting-workflow}
 
 에서 워크플로우를 만들어야 합니다. **[!UICONTROL Targeting and Workflows]** 캠페인의 탭입니다. Id는 **[!UICONTROL Query]** 활동, a **[!UICONTROL Split]** 두 개에 연결된 활동 **[!UICONTROL Email delivery]** 활동, a **[!UICONTROL Wait]** 활동, a **[!UICONTROL JavaScript code]** 활동 및 **[!UICONTROL Delivery]** 활동.
 

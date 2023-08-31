@@ -2,12 +2,13 @@
 product: campaign
 title: 승인 프로세스 설정 및 관리
 description: 마케팅 캠페인 승인 관리 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+role: User
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '2438'
+source-wordcount: '2445'
 ht-degree: 2%
 
 ---
@@ -107,19 +108,19 @@ ht-degree: 2%
 
 * 캠페인 승인 로그에서 **[!UICONTROL Approvals]** 의 하위 탭 **[!UICONTROL Edit > Tracking]** 탭:
 
-   ![](assets/s_user_validation_log_from_op.png)
+  ![](assets/s_user_validation_log_from_op.png)
 
 * 캠페인 게재 로그에서 **[!UICONTROL Deliveries]** 의 하위 탭 **[!UICONTROL Edit > Tracking]** 탭:
 
-   ![](assets/s_user_validation_log_from_delivery_list.png)
+  ![](assets/s_user_validation_log_from_delivery_list.png)
 
 * 각 게재에 대한 승인 상태는 다음을 클릭하여 볼 수 있습니다. **[!UICONTROL Hide/show log]** 옵션 **[!UICONTROL Summary]** 탭.
 
-   ![](assets/s_user_validation_log_delivery.png)
+  ![](assets/s_user_validation_log_delivery.png)
 
 * 이 정보는 를 통해서도 액세스할 수 있습니다. **[!UICONTROL Tracking > Approvals]** 각 게재의 탭:
 
-   ![](assets/s_user_validation_log_from_exe_tab.png)
+  ![](assets/s_user_validation_log_from_exe_tab.png)
 
 >[!NOTE]
 >
@@ -182,6 +183,7 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 >[!NOTE]
 >
 >승인이 필요한 프로세스를 선택하려면 캠페인 템플릿을 수정합니다. 자세한 내용은 다음을 참조하십시오. [캠페인 템플릿](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>
 
 ![](assets/s_ncs_user_edit_del_to_validate.png)
 
@@ -195,37 +197,37 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
 * **타겟팅, 콘텐츠 및 예산**
 
-   다음의 경우 **[!UICONTROL Enable target approval]**, **[!UICONTROL Enable content approval]** 또는 **[!UICONTROL Enable budget approval]** 작업 승인 설정 창에서 옵션을 선택하면 관련 게재에 대한 캠페인 대시보드에 관련 링크가 표시됩니다.
+  다음의 경우 **[!UICONTROL Enable target approval]**, **[!UICONTROL Enable content approval]** 또는 **[!UICONTROL Enable budget approval]** 작업 승인 설정 창에서 옵션을 선택하면 관련 게재에 대한 캠페인 대시보드에 관련 링크가 표시됩니다.
 
-   >[!NOTE]
-   >
-   >예산 승인은 승인 설정 창에서 타겟팅 승인이 사용되도록 설정된 경우에만 사용할 수 있습니다. 예산 승인을 위한 링크는 대상이 분석된 후에만 표시됩니다. 또한 이 링크는 대상 승인을 위한 링크와 함께 표시됩니다.
+  >[!NOTE]
+  >
+  >예산 승인은 승인 설정 창에서 타겟팅 승인이 사용되도록 설정된 경우에만 사용할 수 있습니다. 예산 승인을 위한 링크는 대상이 분석된 후에만 표시됩니다. 또한 이 링크는 대상 승인을 위한 링크와 함께 표시됩니다.
 
-   다음과 같은 경우 **[!UICONTROL Assign content editing]** 또는 **[!UICONTROL External content approval]** 승인 설정 창에서 옵션을 선택하면 대시보드에 **[!UICONTROL Available content]** 및 **[!UICONTROL External content approval]** 링크.
+  다음과 같은 경우 **[!UICONTROL Assign content editing]** 또는 **[!UICONTROL External content approval]** 승인 설정 창에서 옵션을 선택하면 대시보드에 **[!UICONTROL Available content]** 및 **[!UICONTROL External content approval]** 링크.
 
-   콘텐츠 승인을 통해 전송된 증명에 액세스할 수 있습니다.
+  콘텐츠 승인을 통해 전송된 증명에 액세스할 수 있습니다.
 
 * **추출 승인(DM 게재)**
 
-   날짜 **[!UICONTROL Enable extraction approval]** 승인 설정 창에서 을(를) 선택합니다. 추출한 파일을 승인해야 라우터에 알릴 수 있습니다.
+  날짜 **[!UICONTROL Enable extraction approval]** 승인 설정 창에서 을(를) 선택합니다. 추출한 파일을 승인해야 라우터에 알릴 수 있습니다.
 
-   An **[!UICONTROL Approve content]** 링크는 아래와 같이 campaign 대시보드에서 사용할 수 있습니다.
+  An **[!UICONTROL Approve content]** 링크는 아래와 같이 campaign 대시보드에서 사용할 수 있습니다.
 
-   ![](assets/s_ncs_user_edit_file_valid.png)
+  ![](assets/s_ncs_user_edit_file_valid.png)
 
-   추출 파일은 승인 상자를 통해 미리 본 다음 승인 또는 거부할 수 있습니다.
+  추출 파일은 승인 상자를 통해 미리 본 다음 승인 또는 거부할 수 있습니다.
 
-   ![](assets/s_ncs_user_edit_file_valid_preview_file.png)
+  ![](assets/s_ncs_user_edit_file_valid_preview_file.png)
 
-   >[!NOTE]
-   >
-   >추출 파일 미리 보기는 데이터 샘플에만 적용됩니다. 전체 출력 파일이 로드되지 않습니다.
+  >[!NOTE]
+  >
+  >추출 파일 미리 보기는 데이터 샘플에만 적용됩니다. 전체 출력 파일이 로드되지 않습니다.
 
 * **연계된 게재 승인**
 
-   다음 **[!UICONTROL Enable individual approval of each associated delivery]** 옵션은 보조 게재와 연결된 하나의 기본 게재에 사용됩니다. 기본적으로 이 옵션은 기본 게재의 전체 승인을 수행할 수 있도록 선택되어 있지 않습니다. 이 옵션을 선택한 경우 각 게재를 개별적으로 승인해야 합니다.
+  다음 **[!UICONTROL Enable individual approval of each associated delivery]** 옵션은 보조 게재와 연결된 하나의 기본 게재에 사용됩니다. 기본적으로 이 옵션은 기본 게재의 전체 승인을 수행할 수 있도록 선택되어 있지 않습니다. 이 옵션을 선택한 경우 각 게재를 개별적으로 승인해야 합니다.
 
-   ![](assets/s_ncs_user_task_valid_associate.png)
+  ![](assets/s_ncs_user_task_valid_associate.png)
 
 ### 승인 프로세스 선택 {#choosing-the-processes-to-be-approved}
 
@@ -251,7 +253,6 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 >* 검토자 편집 창의 아래 섹션에서 캠페인에 대한 승인 일정을 정의할 수 있습니다. 기본적으로 검토자는 프로세스를 승인하기 위해 제출 날짜부터 3일이 있습니다. 승인 마감 전에 관련 운영자에게 자동으로 전송되는 미리 알림을 구성할 수 있습니다.
 >* 이 섹션에서 미리 알림을 추가할 수 있습니다.
 >
-
 
 ![](assets/s_ncs_user_edit_op_valid_calendar.png)
 
@@ -285,21 +286,21 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
    * 알림 이메일을 통해:
 
-      ![](assets/s_ncs_user_del_content_valid_bat_notif.png)
+     ![](assets/s_ncs_user_del_content_valid_bat_notif.png)
 
-      >[!NOTE]
-      >
-      >알림 이메일에는 이미 전송된 증명에 대한 링크가 포함되어 있으며, 다음과 같은 경우 다양한 웹 메일에 대한 메시지 렌더링에 대한 링크가 포함될 수 있습니다. **전달성** 이 인스턴스에 대해 옵션이 활성화되어 있습니다.
+     >[!NOTE]
+     >
+     >알림 이메일에는 이미 전송된 증명에 대한 링크가 포함되어 있으며, 다음과 같은 경우 다양한 웹 메일에 대한 메시지 렌더링에 대한 링크가 포함될 수 있습니다. **전달성** 이 인스턴스에 대해 옵션이 활성화되어 있습니다.
 
    * 콘솔 또는 웹 인터페이스, 게재 추적, 게재 대시보드 또는 캠페인 대시보드를 통해 다음과 같은 작업을 수행할 수 있습니다.
 
-      ![](assets/s_ncs_user_validation_content_bat_op.png)
+     ![](assets/s_ncs_user_validation_content_bat_op.png)
 
-      >[!NOTE]
-      >
-      >이 캠페인 대시보드를 사용하면 보낸 증명 목록을 클릭하여 볼 수 있습니다. **[!UICONTROL Inbox rendering...]** 링크를 클릭합니다. 콘텐츠를 보려면 **[!UICONTROL Detail]** 목록 오른쪽에 있는 아이콘.
+     >[!NOTE]
+     >
+     >이 캠페인 대시보드를 사용하면 보낸 증명 목록을 클릭하여 볼 수 있습니다. **[!UICONTROL Inbox rendering...]** 링크를 클릭합니다. 콘텐츠를 보려면 **[!UICONTROL Detail]** 목록 오른쪽에 있는 아이콘입니다.
 
-      ![](assets/s_ncs_user_validation_content_BAT_details.png)
+     ![](assets/s_ncs_user_validation_content_BAT_details.png)
 
 1. 콘텐츠 승인 여부를 알리는 알림 이메일이 캠페인 책임자에게 전송됩니다.
 
@@ -335,19 +336,19 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
    * 클릭: **[!UICONTROL Available content]** Adobe Campaign 콘솔을 통해 연결합니다.
 
-      ![](assets/s_ncs_user_validation_submit_content_available.png)
+     ![](assets/s_ncs_user_validation_submit_content_available.png)
 
    * 알림 메시지에서 링크를 클릭한 다음 콘텐츠 가용성을 승인합니다.
 
-      ![](assets/s_ncs_user_validation_submit_content_available2.png)
+     ![](assets/s_ncs_user_validation_submit_content_available2.png)
 
-      운영자는 콘텐츠를 캠페인 담당자에게 제출하기 전에 댓글을 추가할 수 있습니다.
+     운영자는 콘텐츠를 캠페인 담당자에게 제출하기 전에 댓글을 추가할 수 있습니다.
 
-      ![](assets/s_ncs_user_validation_submit_content_available3.png)
+     ![](assets/s_ncs_user_validation_submit_content_available3.png)
 
-      알림 메시지를 통해 검토자는 컨텐츠를 승인하거나 거부할 수 있습니다.
+     알림 메시지를 통해 검토자는 컨텐츠를 승인하거나 거부할 수 있습니다.
 
-      ![](assets/s_ncs_user_validation_submit_content_available4.png)
+     ![](assets/s_ncs_user_validation_submit_content_available4.png)
 
 #### 외부 콘텐츠 승인 {#external-content-approval}
 

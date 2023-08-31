@@ -2,13 +2,14 @@
 product: campaign
 title: 마케팅 캠페인 게재
 description: 마케팅 캠페인 게재에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+role: User
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 2%
+source-wordcount: '1494'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 2%
 
 캠페인에서 생성되면 게재는 이 캠페인에 연결되고 캠페인 수준에서 통합됩니다.
 
-![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[비디오에서 이 기능 살펴보기](#create-email-video)
 
 ## 게재 만들기 {#creating-deliveries}
 
@@ -68,32 +69,32 @@ ht-degree: 2%
 
 * 추출 파일이 승인되면 라우터 알림 이메일의 증명을 생성할 수 있습니다. 이 이메일 메시지는 게재 템플릿을 기반으로 구축됩니다. 승인을 받아야 합니다.
 
-   >[!NOTE]
-   >
-   >이 단계는 승인 창에서 증명 전송 및 승인이 활성화된 경우에만 사용할 수 있습니다.
+  >[!NOTE]
+  >
+  >이 단계는 승인 창에서 증명 전송 및 승인이 활성화된 경우에만 사용할 수 있습니다.
 
 ![](assets/s_ncs_user_file_valid_select_BAT.png)
 
 
 * 다음을 클릭합니다. **[!UICONTROL Send a proof]** 버튼을 클릭하여 증명을 만듭니다.
 
-   증명 대상을 미리 정의해야 합니다.
+  증명 대상을 미리 정의해야 합니다.
 
-   필요한 만큼 증명을 만들 수 있습니다. 다음을 통해 액세스됩니다. **[!UICONTROL Direct mail...]** 게재 세부 정보 링크.
+  필요한 만큼 증명을 만들 수 있습니다. 다음을 통해 액세스됩니다. **[!UICONTROL Direct mail...]** 게재 세부 정보 링크.
 
-   ![](assets/s_ncs_user_file_notif_submit_proof.png)
+  ![](assets/s_ncs_user_file_notif_submit_proof.png)
 
 * 게재 상태가 다음으로 변경됨 **[!UICONTROL To submit]**. 다음을 클릭합니다. **[!UICONTROL Submit proofs]** 버튼을 클릭하여 승인 프로세스를 시작합니다.
 
-   ![](assets/s_ncs_user_file_notif_submit_proof_validation.png)
+  ![](assets/s_ncs_user_file_notif_submit_proof_validation.png)
 
 * 게재 상태가 다음으로 변경됨 **[!UICONTROL Proof to validate]** 버튼을 사용하면 승인을 수락하거나 거부할 수 있습니다.
 
-   ![](assets/s_ncs_user_file_notif_supplier_link.png)
+  ![](assets/s_ncs_user_file_notif_supplier_link.png)
 
-   이 승인을 수락 또는 거부하거나 추출 단계로 돌아갈 수 있습니다.
+  이 승인을 수락 또는 거부하거나 추출 단계로 돌아갈 수 있습니다.
 
-   ![](assets/s_ncs_user_file_notif_supplier_link_confirm.png)
+  ![](assets/s_ncs_user_file_notif_supplier_link_confirm.png)
 
 * 추출 파일이 라우터로 전송되고 게재가 완료됩니다.
 
@@ -101,13 +102,13 @@ ht-degree: 2%
 
 파일 추출에서는 예산 계산과 재고 계산이라는 두 가지 작업을 실행합니다. 예산 항목이 갱신됩니다.
 
-* 다음 **[!UICONTROL Budget]** 탭에서는 캠페인에 대한 예산을 관리할 수 있습니다. 비용 항목의 합계는 다음에 표시됩니다. **[!UICONTROL Calculates cost]** 캠페인의 메인 탭 및 해당 캠페인이 속한 프로그램의 필드. 금액은 캠페인 예산에도 반영됩니다.
+* 다음 **[!UICONTROL Budget]** 탭에서는 캠페인에 대한 예산을 관리할 수 있습니다. 비용 항목의 합계는 다음에 표시됩니다. **[!UICONTROL Calculates cost]** 캠페인의 메인 탭 필드 및 캠페인이 속한 프로그램. 금액은 캠페인 예산에도 반영됩니다.
 
-   실제 비용은 결국 라우터가 제공한 정보로부터 산출될 것이다. 실제로 전송된 메시지만 송장이 발행됩니다.
+  실제 비용은 결국 라우터가 제공한 정보로부터 산출될 것이다. 실제로 전송된 메시지만 송장이 발행됩니다.
 
 * 주식은 다음에 정의됩니다. **[!UICONTROL Administration > Campaign management > Stocks]** 트리의 노드 및 의 비용 구조 **[!UICONTROL Administration > Campaign management > Service providers]** 노드.
 
-   재고 라인이 재고 섹션에 표시됩니다. 초기 재고를 정의하려면 재고 라인을 엽니다. 게재가 발생할 때마다 재고가 감소합니다. 경고 수준 및 알림을 정의할 수 있습니다.
+  재고 라인이 재고 섹션에 표시됩니다. 초기 재고를 정의하려면 재고 라인을 엽니다. 게재가 발생할 때마다 재고가 감소합니다. 경고 수준 및 알림을 정의할 수 있습니다.
 
 >[!NOTE]
 >
@@ -190,19 +191,19 @@ ht-degree: 2%
 * 예를 들어, 여기에서 참조되고 설명되며 게재에 첨부될 실제 문서가 항목일 수 있습니다.
 * 개인화 필드를 사용하면 수신자가 아닌 게재와 관련된 개인화 요소를 만들 수 있습니다. 따라서 특정 대상(환영 오퍼, 할인 등)에 대한 게재에 사용할 값을 만들 수 있습니다. Adobe Campaign에서 만들어지고 를 통해 아웃라인으로 가져옵니다. **[!UICONTROL Import personalization fields...]** 링크를 클릭합니다.
 
-   ![](assets/s_ncs_user_op_add_composition_field.png)
+  ![](assets/s_ncs_user_op_add_composition_field.png)
 
-   아웃라인에서 직접 생성할 수도 있습니다. **[!UICONTROL Add]** 목록 영역 오른쪽에 있는 아이콘.
+  아웃라인에서 직접 생성할 수도 있습니다. **[!UICONTROL Add]** 목록 영역 오른쪽에 있는 아이콘.
 
-   ![](assets/s_ncs_user_op_add_composition_field_button.png)
+  ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
 * 리소스는 다음을 통해 액세스되는 마케팅 리소스 대시보드에서 생성된 마케팅 리소스입니다. **[!UICONTROL Resources]** 링크 **[!UICONTROL Campaigns]** 탭.
 
-   ![](assets/s_ncs_user_mkg_resource_ovv.png)
+  ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
-   >[!NOTE]
-   >
-   >마케팅 리소스에 대한 자세한 내용은 다음을 참조하십시오. [마케팅 리소스 관리](../../mrm/using/managing-marketing-resources.md).
+  >[!NOTE]
+  >
+  >마케팅 리소스에 대한 자세한 내용은 다음을 참조하십시오. [마케팅 리소스 관리](../../mrm/using/managing-marketing-resources.md).
 
 #### 윤곽선 선택 {#selecting-an-outline}
 

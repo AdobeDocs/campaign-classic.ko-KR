@@ -2,20 +2,19 @@
 product: campaign
 title: 양식화
 description: 양식화
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email Design
+role: User, Developer, Data Engineer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 0%
+source-wordcount: '1459'
+ht-degree: 1%
 
 ---
 
 # 양식화{#formatting}
-
-
 
 ## JavaScript 템플릿 {#javascript-templates}
 
@@ -87,75 +86,75 @@ JavaScript 템플릿은 스키마 및 양식과 마찬가지로 이름 및 네�
 
 * 조건부 테스트:
 
-   ```
-   <% if (content.@number == 1 || content.@language == 'en') { %>
-   <!-- Content to be displayed if test is true--> 
-   <% } %>
-   ```
+  ```
+  <% if (content.@number == 1 || content.@language == 'en') { %>
+  <!-- Content to be displayed if test is true--> 
+  <% } %>
+  ```
 
 * 함수 호출:
 
-   ```
-   <!-- Displays a horizontal bar -->
-   ;<% function DisplayHorizontalBar() { %>
-     <hr/>
-   <% } %> 
-   
-   <!-- The same function in a block  -->
-   <% 
-   function DisplayHorizontalBar2()
-   {
-     document.write('<hr/>');
-   }
-   %> 
-   
-   <!-- Returns the value in uppercase -->
-   <% 
-   function formatName(value)
-   { 
-     return value.toUpperCase(); 
-   }
-   %>
-   
-   <!-- Call functions -->
-   <%= DisplayHorizontalBar1() %>
-   <%= DisplayHorizontalBar2() %>
-   <%= formatName(content.@name) %>
-   ```
+  ```
+  <!-- Displays a horizontal bar -->
+  ;<% function DisplayHorizontalBar() { %>
+    <hr/>
+  <% } %> 
+  
+  <!-- The same function in a block  -->
+  <% 
+  function DisplayHorizontalBar2()
+  {
+    document.write('<hr/>');
+  }
+  %> 
+  
+  <!-- Returns the value in uppercase -->
+  <% 
+  function formatName(value)
+  { 
+    return value.toUpperCase(); 
+  }
+  %>
+  
+  <!-- Call functions -->
+  <%= DisplayHorizontalBar1() %>
+  <%= DisplayHorizontalBar2() %>
+  <%= formatName(content.@name) %>
+  ```
 
 * 선언 및 변수 호출:
 
-   ```
-   <%  var counter = 0; %>
-   
-   <%= counter += 10 %>
-   ```
+  ```
+  <%  var counter = 0; %>
+  
+  <%= counter += 10 %>
+  ```
 
 * 정적 메서드를 사용한 수신자 이름 검색 및 표시:
 
-   ```
-   <% var recipient = nms.recipient.get(1246); %>
-   <%= recipient.lastName %>
-   ```
+  ```
+  <% var recipient = nms.recipient.get(1246); %>
+  <%= recipient.lastName %>
+  ```
 
 * 비정적 메서드를 사용한 수신자 이름 복구 및 표시:
 
-   ```
-   <% var query = xtk.queryDef.create(
-     <queryDef schema="nms:recipient" operation="get">
-       <select>
-         <node expr="@lastName"/>
-       </select>
-       <where>
-         <condition expr="@id=1246"/>
-       </where>
-     </queryDef>);
-   
-     var recipient = query.ExecuteQuery();
-   %>
-   
-   <%= recipient.@lastName %>
-   ```
+  ```
+  <% var query = xtk.queryDef.create(
+    <queryDef schema="nms:recipient" operation="get">
+      <select>
+        <node expr="@lastName"/>
+      </select>
+      <where>
+        <condition expr="@id=1246"/>
+      </where>
+    </queryDef>);
+  
+    var recipient = query.ExecuteQuery();
+  %>
+  
+  <%= recipient.@lastName %>
+  ```
 
 ### JavaScript 템플릿 포함 {#including-a-javascript-template}
 
@@ -268,101 +267,101 @@ JavaScript 템플릿은 스키마 및 양식과 마찬가지로 이름 및 네�
 
    * 이 예에서 HTML은
 
-      ```
-      <html>     
-        <head>         
-          <title>Newsletter</title>
-           <style type="text/css">
-            .body {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#514c48; margin-left: auto; margin-right: auto;}
-            .body table {width:748; border: solid 1px; cellpadding:0; cellspacing:0"}
-           </style>
-        </head>     
-        <body>
-          <p><center><%= mirrorPage %></center></p>
-          <center>
-            <table>      
-             <tr>
-              <td>                                                         
-                <img src="[LOGO]"/>                                   
-              </td>
-              <td>
-                <h1><%= content.@title %></h1>
-              </td>
-             </tr>
-             <tr>
-      
+     ```
+     <html>     
+       <head>         
+         <title>Newsletter</title>
+          <style type="text/css">
+           .body {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#514c48; margin-left: auto; margin-right: auto;}
+           .body table {width:748; border: solid 1px; cellpadding:0; cellspacing:0"}
+          </style>
+       </head>     
+       <body>
+         <p><center><%= mirrorPage %></center></p>
+         <center>
+           <table>      
+            <tr>
+             <td>                                                         
+               <img src="[LOGO]"/>                                   
+             </td>
              <td>
-              <div >                                    
-                <h0><%= hello,</h0>                              
-                <p><%= content.presentation %></p>                                          
-      
-                <h0>Useful information</h0>                              
-                <p>                                  
-                  <img src="[IMAGE 1]"/>When? <br/><%= formatDate(content.@date, "%2D %Bl %4Y") %> From 10 AM in your bookshop.</p><br/>                                       
-                <p>                                  
-                  <img src="[IMAGE 2]"/>Who? <br>Meet our favorite authors and illustrators and get a signed copy of their book.</p><br/>                                                         
-                <p>                                  
-                  <img src="[IMAGE 3]"/>Attendance is free but there is a limited number of seats: sign up now!</p>
-            </div>
-            </td>
-      
-              <td>                                                    
-               <div style="text-align:left; width:210; height:400px; background:url([IMAGE DE FOND])">
-      
-                  <h0><%= participant %></h0>
-                  <%
-                  var i
-                  var iLength = content.attendeesList.length()
-                  for (i=0; i<iLength; i++)
-                  { %>
-                  <p>
-                    <%= generateImgTag(content.attendeesList[i].@["image-id"]) %>  <%= content.attendeesList[i].@description %>
-                  </p>  
-                  <% }  
-                  %>                              
-               </div2>
-              </td>
-          </tr>
-        </table>
-      </center>
-      </body>    
-      </html>
-      ```
+               <h1><%= content.@title %></h1>
+             </td>
+            </tr>
+            <tr>
+     
+            <td>
+             <div >                                    
+               <h0><%= hello,</h0>                              
+               <p><%= content.presentation %></p>                                          
+     
+               <h0>Useful information</h0>                              
+               <p>                                  
+                 <img src="[IMAGE 1]"/>When? <br/><%= formatDate(content.@date, "%2D %Bl %4Y") %> From 10 AM in your bookshop.</p><br/>                                       
+               <p>                                  
+                 <img src="[IMAGE 2]"/>Who? <br>Meet our favorite authors and illustrators and get a signed copy of their book.</p><br/>                                                         
+               <p>                                  
+                 <img src="[IMAGE 3]"/>Attendance is free but there is a limited number of seats: sign up now!</p>
+           </div>
+           </td>
+     
+             <td>                                                    
+              <div style="text-align:left; width:210; height:400px; background:url([IMAGE DE FOND])">
+     
+                 <h0><%= participant %></h0>
+                 <%
+                 var i
+                 var iLength = content.attendeesList.length()
+                 for (i=0; i<iLength; i++)
+                 { %>
+                 <p>
+                   <%= generateImgTag(content.attendeesList[i].@["image-id"]) %>  <%= content.attendeesList[i].@description %>
+                 </p>  
+                 <% }  
+                 %>                              
+              </div2>
+             </td>
+         </tr>
+       </table>
+     </center>
+     </body>    
+     </html>
+     ```
 
    * 텍스트의 경우:
 
-      ```
-      <%= content.@title %>
-      <%= content.presentation %>
-      
-      *** When? On <%= formatDate(content.@date, "%2D %Bl %4Y") %> From 10 AM in your bookshop.
-      
-      *** Who? Come and meet our favorite authors and illustrators and get a signed copy of their books. 
-      
-      *** Attendance is free but there is a limited number of seats: sign up now!
-      
-      Guests:
-      ******************
-      <%
-      var i
-      var iLength = content.attendeesList.length()
-      //for (i=(iLength-1); i>-1; i--)
-      for( i=0 ; i<iLength ; i++ )
-        { %>
-        Description <%= i %> : <%= content.attendeesList[i].@description %>
-        <% }  
-      %>
-      ```
+     ```
+     <%= content.@title %>
+     <%= content.presentation %>
+     
+     *** When? On <%= formatDate(content.@date, "%2D %Bl %4Y") %> From 10 AM in your bookshop.
+     
+     *** Who? Come and meet our favorite authors and illustrators and get a signed copy of their books. 
+     
+     *** Attendance is free but there is a limited number of seats: sign up now!
+     
+     Guests:
+     ******************
+     <%
+     var i
+     var iLength = content.attendeesList.length()
+     //for (i=(iLength-1); i>-1; i--)
+     for( i=0 ; i<iLength ; i++ )
+       { %>
+       Description <%= i %> : <%= content.attendeesList[i].@description %>
+       <% }  
+     %>
+     ```
 
 1. 이제 두 형식 모두에 사용되는 게시 템플릿을 만듭니다.
 
    * HTML:
 
-      ![](assets/d_ncs_content_sample_2.png)
+     ![](assets/d_ncs_content_sample_2.png)
 
    * 텍스트의 경우:
 
-      ![](assets/d_ncs_content_sample_3.png)
+     ![](assets/d_ncs_content_sample_3.png)
 
 1. 그런 다음 게재에서 이 콘텐츠 템플릿을 사용할 수 있습니다.
 
@@ -462,21 +461,21 @@ XSLT 언어를 사용하면 XML 문서를 출력 문서로 변경할 수 있습�
 
 * &quot;html&quot; 유형 필드의 내용 표시:
 
-   ```
-   <xsl:value-of select="summary" disable-output-escaping="yes"/>
-   ```
+  ```
+  <xsl:value-of select="summary" disable-output-escaping="yes"/>
+  ```
 
 * 개인화 필드 삽입 **&lt;%= recipient.email %>**:
 
-   ```
-   <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
-   ```
+  ```
+  <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
+  ```
 
 * 조건부 테스트 추가 **&lt;% if (recipient.language == &#39;en&#39;) `{` %>**:
 
-   ```
-   <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>
-   ```
+  ```
+  <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>
+  ```
 
 ### 스타일시트 포함 {#including-stylesheets}
 
@@ -578,28 +577,28 @@ Adobe Campaign은 아래에 자세히 설명된 JavaScript 템플릿 및 XSL 스
 
 * 에 날짜 표시 **31/10/2018** 형식:
 
-   ```
-    <%= formatDate(content.@date, "%2D/%2M/%4Y") %>
-   ```
+  ```
+   <%= formatDate(content.@date, "%2D/%2M/%4Y") %>
+  ```
 
 * 에 날짜 표시 **2018년 7월** 형식:
 
-   ```
-   <%
-    function displayDate(date)
-     {
-       var aMonth = 
-       [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ];
-   
-       var month = formatDate(content.@date, "%2M")
-       var year = formatDate(content.@date, "%4Y")
-   
-       return aMonth[month-1]+" "+year;
-     }
-   %>
-   
-   <%= displayDate(content.@date) %>
-   ```
+  ```
+  <%
+   function displayDate(date)
+    {
+      var aMonth = 
+      [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ];
+  
+      var month = formatDate(content.@date, "%2M")
+      var year = formatDate(content.@date, "%4Y")
+  
+      return aMonth[month-1]+" "+year;
+    }
+  %>
+  
+  <%= displayDate(content.@date) %>
+  ```
 
 ### XSL 날짜 서식 {#xsl-date-formatting}
 
@@ -609,38 +608,38 @@ XSLT 구문에는 표준 날짜 관리 함수가 없습니다. 원하는 형식�
 
 * 에 날짜를 표시하려면 **2018/01/10** 형식:
 
-   ```
-   <xsl:value-of select="external:date-format(@date, '%2D/%2M/%4Y')"/>
-   ```
+  ```
+  <xsl:value-of select="external:date-format(@date, '%2D/%2M/%4Y')"/>
+  ```
 
 * 에 날짜를 표시하려면 **2018년 7월** 형식:
 
-   ```
-   <!-- Returns the month in the form of a string with the month number as input -->
-   <xsl:template name="longMonth">
-     <xsl:param name="monthNumber"/>
-   
-     <xsl:choose>
-       <xsl:when test="$monthNumber = 1">January</xsl:when>
-       <xsl:when test="$monthNumber = 2">February</xsl:when>
-       <xsl:when test="$monthNumber = 3">March</xsl:when>
-       <xsl:when test="$monthNumber = 4">April</xsl:when>
-       <xsl:when test="$monthNumber = 5">May</xsl:when>
-       <xsl:when test="$monthNumber = 6">June</xsl:when>
-       <xsl:when test="$monthNumber = 7">July</xsl:when>
-       <xsl:when test="$monthNumber = 8">August</xsl:when>
-       <xsl:when test="$monthNumber = 9">September</xsl:when>
-       <xsl:when test="$monthNumber = 10">October</xsl:when>
-       <xsl:when test="$monthNumber = 11">November</xsl:when>
-       <xsl:when test="$monthNumber = 12">December</xsl:when>
-     </xsl:choose>
-   </xsl:template> 
-   
-   <!-- Display date -->
-   <xsl:call-template name="longMonth">
-     <xsl:with-param name="monthNumber">
-       <xsl:value-of select="external:date-format(@date, '%2M')"/>
-     </xsl:with-param>
-   </xsl:call-template>
-    <xsl:value-of select="external:date-format(@date, '%4y')"/>
-   ```
+  ```
+  <!-- Returns the month in the form of a string with the month number as input -->
+  <xsl:template name="longMonth">
+    <xsl:param name="monthNumber"/>
+  
+    <xsl:choose>
+      <xsl:when test="$monthNumber = 1">January</xsl:when>
+      <xsl:when test="$monthNumber = 2">February</xsl:when>
+      <xsl:when test="$monthNumber = 3">March</xsl:when>
+      <xsl:when test="$monthNumber = 4">April</xsl:when>
+      <xsl:when test="$monthNumber = 5">May</xsl:when>
+      <xsl:when test="$monthNumber = 6">June</xsl:when>
+      <xsl:when test="$monthNumber = 7">July</xsl:when>
+      <xsl:when test="$monthNumber = 8">August</xsl:when>
+      <xsl:when test="$monthNumber = 9">September</xsl:when>
+      <xsl:when test="$monthNumber = 10">October</xsl:when>
+      <xsl:when test="$monthNumber = 11">November</xsl:when>
+      <xsl:when test="$monthNumber = 12">December</xsl:when>
+    </xsl:choose>
+  </xsl:template> 
+  
+  <!-- Display date -->
+  <xsl:call-template name="longMonth">
+    <xsl:with-param name="monthNumber">
+      <xsl:value-of select="external:date-format(@date, '%2M')"/>
+    </xsl:with-param>
+  </xsl:call-template>
+   <xsl:value-of select="external:date-format(@date, '%4y')"/>
+  ```
