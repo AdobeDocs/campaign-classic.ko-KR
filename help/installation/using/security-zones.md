@@ -3,15 +3,15 @@ product: campaign
 title: 보안 영역 구성
 description: 보안 영역 구성 방법 알아보기
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1475'
 ht-degree: 2%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 2%
 
   ![](assets/8101_proxy3.png)
 
-Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소는 **`<subnetwork>`** 관련된 하위 네트워크 및 첫 번째 수준 하위 네트워크 **`<subnetwork name="all"/>`**. 예를 들어 IP 주소가 10.131.146.102인 프록시의 경우 다음과 같습니다.
+Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소는 두 가지 모두에 입력해야 합니다. **`<subnetwork>`** 관련된 하위 네트워크 및 첫 번째 수준 하위 네트워크 **`<subnetwork name="all"/>`**. 예를 들어 IP 주소가 10.131.146.102인 프록시의 경우 다음과 같습니다.
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" label="Public Network" 
@@ -252,7 +252,7 @@ Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소는 **`<s
      <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
      ```
 
-* allowEmptyPassword, allowUserPassword, allowSQLInjection을 true로 설정하지 마십시오. 이러한 속성은 v5 및 v6.0에서 원활하게 마이그레이션할 수 있도록 하기 위한 것입니다.
+* allowEmptyPassword, allowUserPassword, allowSQLInjection을 true로 설정하지 마십시오.
 
    * **allowEmptyPassword** 연산자의 암호가 비어 있을 수 있습니다. 이 경우 모든 운영자에게 기한을 지정하여 암호를 설정하도록 알립니다. 이 기한이 지나면 이 속성을 false로 변경하십시오.
 

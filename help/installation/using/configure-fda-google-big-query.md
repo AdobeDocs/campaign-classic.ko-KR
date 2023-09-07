@@ -3,14 +3,14 @@ product: campaign
 title: Google BigQuery에 대한 액세스 구성
 description: FDA에서 Google BigQuery에 대한 액세스를 구성하는 방법 알아보기
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '1015'
 ht-degree: 2%
 
 ---
@@ -211,3 +211,7 @@ Adobe Campaign Classic 사용 **페더레이션 데이터 액세스** (FDA) 외�
 | ProxyUid | 인증된 프록시에 사용되는 사용자 이름 |
 | 프록시 로드 | ProxyUid 암호 |
 | bqpath | 이 기능은 대량 로드 도구(Cloud SDK)에만 적용할 수 있습니다. </br> PATH 변수를 사용하지 않거나 google-cloud-sdk 디렉토리를 다른 위치로 이동해야 하는 경우 이 옵션을 사용하여 서버의 cloud sdk bin 디렉토리에 대한 정확한 경로를 지정할 수 있습니다. |
+| GCloudConfigName | 릴리스 7.3.4 릴리스부터 대량 로드 도구 전용(Cloud SDK)에 적용할 수 있습니다.</br> Google Cloud SDK는 구성을 사용하여 데이터를 BigQuery 테이블에 로드합니다. 이름이 인 구성 `accfda` 데이터를 로드하기 위한 매개 변수를 저장합니다. 그러나 이 옵션을 사용하면 구성에 대해 다른 이름을 지정할 수 있습니다. |
+| GCloudDefaultConfigName | 릴리스 7.3.4 릴리스부터 대량 로드 도구 전용(Cloud SDK)에 적용할 수 있습니다.</br> 활성 태그를 새 구성으로 먼저 전송하지 않으면 활성 Google Cloud SDK 구성을 삭제할 수 없습니다. 이 임시 구성은 데이터 로드를 위한 기본 구성을 다시 만드는 데 필요합니다. 임시 구성의 기본 이름은 입니다. `default`, 필요한 경우 변경할 수 있습니다. |
+| GCloudRecreateConfig | 릴리스 7.3.4 릴리스부터 대량 로드 도구 전용(Cloud SDK)에 적용할 수 있습니다.</br> 로 설정된 경우 `false`, 벌크 로드 메커니즘은 Google Cloud SDK 구성을 다시 생성, 삭제 또는 수정하지 않습니다. 대신 시스템의 기존 구성을 사용하여 데이터 로드를 계속 진행합니다. 이 기능은 다른 작업이 Google Cloud SDK 구성에 따라 달라질 때 유용합니다. </br> 사용자가 적절한 구성 없이 이 엔진 옵션을 활성화하면 벌크 로드 메커니즘에서 다음과 같은 경고 메시지가 표시됩니다. `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. 추가 오류를 방지하기 위해 기본 ODBC 배열 삽입 대량 로드 메커니즘을 사용하는 것으로 돌아갑니다. |
+

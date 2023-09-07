@@ -3,14 +3,14 @@ product: campaign
 title: 캠페인 옵션 구성
 description: Campaign 옵션 구성 방법 알아보기
 feature: Installation, Application Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '4012'
+source-wordcount: '4004'
 ht-degree: 6%
 
 ---
@@ -696,7 +696,7 @@ ht-degree: 6%
     <ul> 
      <li> <p> <span class="uicontrol">데이터 유형:</span> 정수</p> </li> 
      <li> <p> <span class="uicontrol">값(텍스트)</span> : 1 </p> </li> 
-    </ul> 기본 제공 탐색 트리가 너무 많이 변경된 경우에만 이 옵션을 사용해야 합니다.<br /> 이 작업에 대한 자세한 정보는 <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11">이 섹션</a>을 참조하십시오.<br /> </td> 
+    </ul> 기본 제공 탐색 트리가 너무 많이 변경된 경우에만 이 옵션을 사용해야 합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span> <br /> </td> 

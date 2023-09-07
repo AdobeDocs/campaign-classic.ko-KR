@@ -3,14 +3,14 @@ product: campaign
 title: 빌드 업그레이드 FAQ
 description: Campaign 빌드 업그레이드와 관련된 일반적인 질문
 feature: Upgrade, Troubleshooting
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '2002'
+source-wordcount: '1998'
 ht-degree: 3%
 
 ---
@@ -57,7 +57,7 @@ Campaign Classic 19.2부터 상태는 각 빌드에 연결됩니다.
 
 * 빌드 업그레이드에는 빌드 9342에서 9342 이상의 빌드로 이동하는 작업이 포함됩니다. 예: v7.1 빌드 9342에서 v7.1 빌드 9342로
 
-* 버전 업그레이드에는 버전 6에서 더 최신 버전으로 이동하는 작업이 포함됩니다.  예: v6.1.1 빌드 8666에서 v7.1 빌드 9342.
+* 버전 업그레이드에는 이전 주요 버전에서 더 최신 버전으로 이동하는 작업이 포함됩니다.
 
 ## 이러한 업데이트 전에 데이터를 백업해야 합니까?
 

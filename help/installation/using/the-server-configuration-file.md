@@ -3,14 +3,14 @@ product: campaign
 title: 서버 구성 파일
 description: 서버 구성 파일
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '7962'
+source-wordcount: '8056'
 ht-degree: 40%
 
 ---
@@ -43,6 +43,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 위치: **conf** �
 * [proxyConfig](#proxyconfig)
 * [threadPool](#threadpool)
 * [urlPermission](#urlpermission)
+* [cusHeaders](#cusheaders)
 * [xtkJobs](#xtkjobs)
 
 **기타 매개 변수**
@@ -997,6 +998,29 @@ URL을 찾을 수 없는 경우 지정된 기본 모드에 따라 기본 작업�
   </tr> 
  </tbody> 
 </table>
+
+## cusHeaders {#cusheaders}
+
+이 노드를 사용하면 외부 서버에서 파일을 업로드할 때 수행된 요청에 특정 헤더를 추가할 수 있습니다. 콘텐츠 전달 네트워크(CND)는 요청자를 신뢰하기 위해 특정 헤더를 요청할 수 있습니다. 이러한 헤더는 Campaign 요청에 대한 신뢰를 개선하는 데 사용할 수 있습니다. 특히 게재 실행 단계에서 각 수신자에 대해 개인화된 문서를 다운로드할 때 유용합니다. 리소스 다운로드 요청의 수가 많으면 DDos 공격으로 해석될 수 있습니다. dnsPattern을 사용하면 도메인 이름을 기반으로 다양한 CDN에 대한 특정 헤더 이름과 값을 설정할 수 있습니다.
+
+```
+  <!-- List of custom headers added to request. 
+         -->
+    <cusHeaders>
+
+    <!-- Pattern of DNS name or domain 
+         value :  dnsPattern: All or part of the URL's domain to verify, * is a wild card Default:  -->
+      <dnsPattern value="">
+
+    <!-- Header Name and Value 
+           headerName :  Header Name 
+           headerValue :  Header Value -->
+        <headerDef headerName="" headerValue=""/>
+
+      </dnsPattern>
+
+    </cusHeaders> 
+```
 
 ### URL {#url}
 

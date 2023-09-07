@@ -3,16 +3,16 @@ product: campaign
 title: 표준 시간대 관리
 description: 표준 시간대 관리
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 2%
+source-wordcount: '978'
+ht-degree: 3%
 
 ---
 
@@ -102,3 +102,7 @@ Adobe Campaign 데이터베이스에 액세스하는 외부 도구와의 호환�
 * 아메리카/뉴욕 등
 
   이 값은 tz(Olson) 데이터베이스에서 가져옵니다. 자세한 내용은 다음을 참조하십시오. [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
+
+## Oracle 데이터베이스 및 서버 시간대
+
+기본 데이터베이스의 경우 Campaign은 서버 시간대를 사용하여 데이터베이스 연결에서 세션 시간대를 설정합니다. &quot;WdbcTimeZone&quot; 옵션은 영향을 주지 않습니다. 따라서 서버 시간대는 Campaign에서 사용하는 기본 데이터베이스의 시간대와 일치해야 합니다. 서버 시간대를 변경할 수 없는 경우 customer.sh에서 TZ 환경 변수를 설정하여 Campaign에서 사용하는 시간대를 재정의할 수 있습니다.

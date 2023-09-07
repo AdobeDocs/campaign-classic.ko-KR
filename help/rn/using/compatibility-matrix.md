@@ -3,13 +3,13 @@ product: campaign
 title: Campaign Classic용 호환성 매트릭스
 description: Campaign Classic 호환성 매트릭스
 feature: Release Notes
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '784'
 ht-degree: 99%
 
 ---
@@ -43,7 +43,6 @@ ht-degree: 99%
 <td>
 <p>7.x</p>
 <p><strong>중요:</strong> RHEL을 사용하는 경우 SELinux를 비활성화하거나 설계자가 사용자 지정 SELinux 규칙을 작성하여 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인해야 합니다.</p>
-<p>8.x</br><strong>중요 사항:</strong> CentOS Linux 8은 2021년 12월 31일에 EOL(수명 종료)됩니다. 자세한 내용은 <a href="../../rn/using/deprecated-features.md">더 이상 사용하지 않는 기능</a> 페이지를 참조하십시오.</p>
 </td>
 </tr>
 <tr>
@@ -51,7 +50,6 @@ ht-degree: 99%
 <td>
 <p>11(Campaign v7.3부터)</p>
 <p>10</p>
-<p>9</p>
 </td>
 </tr>
 <tr>
@@ -143,7 +141,6 @@ ht-degree: 99%
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
-<p>10.x</p>
 <p><strong>참고:</strong> 위에 지정된 버전을 통해 PostgreSQL용 Amazon RDS도 사용할 수 있습니다.</p>
 </td>
 </tr>
@@ -217,7 +214,6 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
-<p>10.x</p>
 </td>
 <td>최소 v7.0 19.1.4</td>
 </tr>
@@ -306,11 +302,8 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tr>
 <td>Teradata</td>
 <td>
-<p>17</p>
-<p>16.20</p>
-<p>16</p>
-<p>15.10</p>
-<p>15.0</p>
+<p>17.x</p>
+<p>16.x(최신 버전)</p>
 </td>
 <td>최소 v7.0</td>
 </tr>

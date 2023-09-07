@@ -3,16 +3,16 @@ product: campaign
 title: 파일 및 리소스 관리
 feature: Installation, Application Settings
 description: Campaign에서 파일 및 리소스 관리를 구성하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 2%
+source-wordcount: '664'
+ht-degree: 3%
 
 ---
 
@@ -104,7 +104,7 @@ FTP/FTPS 연결은 proxyFTP 매개 변수에 정의되어 있습니다.
 
 여러 연결 유형에 동일한 프록시를 사용하는 경우 useSingleProxy가 &quot;1&quot; 또는 &quot;true&quot;로 설정된 proxyHTTP만 정의됩니다.
 
-프록시를 거쳐야 하는 내부 연결이 있는 경우 재정의 매개 변수에 해당 연결을 추가합니다.
+프록시를 거치지 않아야 하는 내부 연결이 있는 경우 재정의 매개 변수에 해당 연결을 추가합니다.
 
 프록시 연결을 일시적으로 비활성화하려면 활성화된 매개 변수를 &quot;false&quot; 또는 &quot;0&quot;으로 설정합니다.
 
