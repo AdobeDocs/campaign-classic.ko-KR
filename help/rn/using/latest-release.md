@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
+source-git-commit: 155fbcd2846cfc5a8db25194bd8d7007356db24e
 workflow-type: tm+mt
 source-wordcount: '1869'
 ht-degree: 57%
@@ -28,7 +28,7 @@ ht-degree: 57%
 >
 > 을 사용하는 경우 [Campaign - Microsoft Dynamics CRM 커넥터](../../platform/using/crm-connectors.md), 이 새로운 빌드를 사용하여 마케팅 및 중간 소싱 서버를 모두 업그레이드해야 합니다.
 
-_9월_ 7, 2023_
+_2023년 9월 7일_
 
 **보안 개선**
 
@@ -88,7 +88,7 @@ _9월_ 7, 2023_
 
 ## 릴리스 7.3.3 - 빌드 9359 {#release-7-3-3}
 
-[!BADGE 일반 공급]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
+[!BADGE 제한 공개]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
 >[!CAUTION]
 >
