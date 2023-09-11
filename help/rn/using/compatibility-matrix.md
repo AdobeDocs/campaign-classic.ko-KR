@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
+source-git-commit: 3db5242e2074c6d0530258073ae83c11164d7365
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '772'
 ht-degree: 99%
 
 ---
@@ -65,8 +65,6 @@ ht-degree: 99%
 <td>
 <p>2019(Campaign v7.2부터)</p>
 <p>2016</p>
-<p>2012 R2</p>
-<p>2012</p>
 </td>
 </tr>
 </tbody>
@@ -80,8 +78,6 @@ ht-degree: 99%
 <td>Microsoft IIS</td>
 <td>
 <p>Windows Server 2016의 10.0 및 2019</p>
-<p>Windows Server 2012 R2의 8.5</p>
-<p>Windows Server 2012의 8.0 - Windows 8</p>
 </td>
 </tr>
 <tr>
@@ -336,7 +332,6 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <td>
 <p>11</p>
 <p>10</p>
-<p>8</p>
 </td>
 <td>
 <p>최소 v7.3 </p>
@@ -348,7 +343,6 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <td>
 <p>2019</p>
 <p>2016</p>
-<p>2012</p>
 </td>
 <td>
 <p>최소 v7.2.1 </p>
