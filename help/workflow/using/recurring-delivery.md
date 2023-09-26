@@ -2,13 +2,13 @@
 product: campaign
 title: 반복 게재
 description: 반복 게재 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 05210269da2a32310c19911a3bc32240c84dc7ad
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 17%
+source-wordcount: '277'
+ht-degree: 19%
 
 ---
 
@@ -34,7 +34,7 @@ A **[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인과 관련
 
 사용 중인 이 활동의 예는 다음을 참조하십시오. [섹션](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
-## 반복 게재를 설정하는 방법
+## 반복 게재를 설정하는 방법 {#set-up-recurring-delivery}
 
 A **반복 게재** 은 실행될 때마다 새 게재 인스턴스를 만듭니다. 예를 들어 워크플로우를 일주일에 한 번 실행하도록 예약하면 1년 후 52회 게재가 됩니다. 즉, 광범위한 로그 및 추적 로그가 각 게재 인스턴스에 의해 구분됩니다.
 
@@ -46,9 +46,9 @@ A **반복 게재** 은 실행될 때마다 새 게재 인스턴스를 만듭니
 >
 >에서 증명을 보낼 수 없음 **[!UICONTROL Recurring delivery]** 활동을 입력합니다.
 > 
->캠페인 워크플로우를 통해 직접 게재를 만들려면 사전 구성된 채널별 활동(예: **[!UICONTROL Email delivery]**).
+>캠페인 워크플로우를 통해 직접 게재를 만들려면 사전 구성된 채널별 활동(예: **[!UICONTROL Recurring delivery]**).
 
-## 튜토리얼 비디오 (#recurring-delivery-video)
+## 튜토리얼 비디오 {#recurring-delivery-video}
 
 이 비디오에서는 반복 게재 및 예약 활동을 구성하는 방법을 설명합니다.
 
