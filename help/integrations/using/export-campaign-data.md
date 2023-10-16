@@ -2,15 +2,15 @@
 product: campaign
 title: Campaign에서 Adobe Experience Platform으로 데이터 내보내기
 description: Campaign Classic에서 Adobe Experience Platform으로 데이터를 내보내는 방법 알아보기
-feature: Platform Integration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+feature: Experience Platform Integration
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: d15592aaccf036fc956049e611139ea5a46e9fc0
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -48,7 +48,7 @@ Campaign Classic에서 S3 또는 Azure Blob 저장소 위치로 데이터를 내
 
 S3 또는 Azure Blob 저장소 위치를 로 연결하는 주요 단계 **소스** Adobe experience Platform의 은 아래에 나열되어 있습니다. 이러한 각 단계에 대한 자세한 내용은 [소스 커넥터 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko).
 
-1. Adobe Experience Platform에서 **[!UICONTROL Sources]** 메뉴에서 스토리지 위치에 대한 연결을 만듭니다.
+1. Experience Platform Adobe **[!UICONTROL Sources]** 메뉴에서 스토리지 위치에 대한 연결을 만듭니다.
 
    * [Amazon S3 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
    * [Azure Blob 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
