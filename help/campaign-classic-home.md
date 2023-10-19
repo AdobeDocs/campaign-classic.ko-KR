@@ -4,10 +4,10 @@ product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 feature: Overview
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: baa1cfe3b8e65daee7902c85c0ca3ef293b44657
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 62%
+source-wordcount: '171'
+ht-degree: 67%
 
 ---
 
@@ -17,13 +17,11 @@ ht-degree: 62%
 
 ## 새로운 기능
 
-* **[3월 릴리스가 시작되었습니다.](rn/using/latest-release.md)**<br/> 릴리스 정보에서 새로운 기능, 개선 사항 및 수정 사항을 살펴봅니다
-
-* **[2022 릴리스 프로그램](technotes/using/dc-migration.md)**<br/> 환경을 업그레이드하고 보안, 인프라 및 성능을 개선합니다.
+* **[9월 릴리스가 공개되었습니다!](rn/using/latest-release.md)**<br/> 릴리스 정보에서 새로운 기능, 개선 사항 및 수정 사항을 살펴봅니다
 
 <!--* **[Secure your Campaign environment](technotes/using/tech-stack-upgrade.md)**<br/> Update to the latest versions to secure your Campaign platform-->
 
-* **[Adobe Experience Cloud Triggers 통합 업데이트](integrations/using/configuring-adobe-io.md)**<br/> 레거시 oAuth 인증 서비스가 종료되었습니다. Adobe I/O으로 마이그레이션해야 합니다.
+* **[Adobe Experience Cloud 통합 업데이트](integrations/using/configuring-adobe-io.md)**<br/> 레거시 oAuth 인증 서비스가 종료되었습니다. Adobe I/O으로 마이그레이션해야 합니다.
 
 [추가 업데이트](rn/using/documentation-updates.md)
 
