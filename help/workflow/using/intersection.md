@@ -2,13 +2,13 @@
 product: campaign
 title: 교차
 description: 교차
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Targeting Activity
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 13%
+source-wordcount: '443'
+ht-degree: 18%
 
 ---
 
@@ -31,7 +31,7 @@ An **교차**-type 활동은 수신된 타겟의 교차에서 타겟을 생성�
 
 교차 활동 구성 및 사용에 대한 자세한 내용은 을 참조하십시오 [공동 데이터 추출(교차)](targeting-data.md#extracting-joint-data--intersection-).
 
-다음 확인: **[!UICONTROL Generate complement]** 나머지 모집단을 처리하려면 옵션을 선택합니다. 보충 자료에는 교차를 제외한 모든 인바운드 활동의 결과의 합집합도 포함됩니다. 그러면 다음과 같이 추가 아웃바운드 전환이 활동에 추가됩니다.
+다음 확인: **[!UICONTROL Generate complement]** 나머지 모집단을 처리하려면 옵션을 선택합니다. 보조 항목에는 교차를 제외한 모든 인바운드 활동 결과의 합집합이 포함됩니다. 그러면 다음과 같이 추가 아웃바운드 전환이 활동에 추가됩니다.
 
 ![](assets/s_user_segmentation_inter_compl.png)
 
