@@ -3,19 +3,16 @@ product: campaign
 title: 개인화 및 개인 정보 보호
 description: 개인 정보 보호 및 개인화에 대한 보안 모범 사례 알아보기
 feature: Installation, Privacy, Privacy Tools, URL Personalization
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a2106e55617209f28da42c50008d16188563b2da
 workflow-type: tm+mt
 source-wordcount: '852'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # 개인화 및 개인 정보 보호 {#privacy}
-
-
-
 
 ## URL 개인화 {#url-personalization}
 
@@ -58,7 +55,7 @@ ht-degree: 3%
 
 19.1.4 빌드에서 실행 중인 경우 추적 링크를 사용한 푸시 알림 게재 또는 앵커 태그를 사용한 게재 문제가 발생할 수 있습니다. 이 경우 URL 서명을 비활성화하는 것이 좋습니다.
 
-Campaign 호스팅, 관리 Cloud Services 또는 하이브리드 고객은 다음에 연결해야 합니다. [고객 지원 센터](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) URL 서명이 비활성화되어 있습니다.
+Campaign 호스팅, 관리 Cloud Service 또는 하이브리드 고객은 다음에 연결해야 합니다. [고객 지원 센터](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) URL 서명이 비활성화되어 있습니다.
 
 하이브리드 아키텍처에서 Campaign을 실행하는 경우 URL 서명을 활성화하기 전에 호스팅된 중간 소싱 인스턴스가 다음과 같이 업그레이드되었는지 확인하십시오.
 

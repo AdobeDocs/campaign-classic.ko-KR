@@ -2,14 +2,14 @@
 product: campaign
 title: 데이터 가져오기 및 내보내기 시작
 description: Campaign에서 데이터 가져오기 및 내보내기에 대해 자세히 알아보기
-feature: Data Management
+feature: Data Management, Encryption
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a2106e55617209f28da42c50008d16188563b2da
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 12%
