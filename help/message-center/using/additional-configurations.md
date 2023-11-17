@@ -3,14 +3,14 @@ product: campaign
 title: 추가 구성
 description: Adobe Campaign Classic에서 트랜잭션 메시지를 보내는 추가 구성을 설정하는 방법에 대해 알아봅니다
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 52dcc8c01c5ce2421bfb59235bd0e458e7c8122f
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '812'
 ht-degree: 7%
 
 ---
@@ -92,6 +92,12 @@ Once the control and execution modules are installed on the same instance, you m
    * **[!UICONTROL Ignored by the delivery]** : 이 상태는 게재 로그에서 복사됩니다. 게재가 무시되었다는 뜻입니다.
    * **[!UICONTROL Delivery failed]** : 이 상태는 게재 로그에서 복사됩니다. 게재에 실패했다는 뜻입니다.
    * **[!UICONTROL Event not taken into account]** : 이벤트를 메시지 템플릿에 연결할 수 없습니다. 이벤트가 처리되지 않습니다.
+
+### 워크플로우 일정 보관
+
+을 수정하지 마십시오 **보관 워크플로우** 제어 인스턴스에서 실행되는 일정을 예약합니다. 그렇지 않으면 실행 인스턴스에서 가져오는 일부 추적 데이터가 손실될 수 있습니다.
+
+보관 워크플로우 일정을 수정하는 경우 **추적 워크플로** 제어 인스턴스의 보관 워크플로우 일정과 일치하도록 실행 인스턴스의 일정을 예약합니다.
 
 ## 멀티브랜딩 구성 {#configuring-multibranding}
 
