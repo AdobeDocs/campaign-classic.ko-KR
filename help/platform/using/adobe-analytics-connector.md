@@ -2,21 +2,19 @@
 product: campaign
 title: Adobe Analytics 커넥터
 description: Adobe Analytics 커넥터에 대해 자세히 알아보십시오.
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: ccc48c93d81266b0971acc3a549458e0823eeb37
 workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
 # Adobe Analytics 커넥터{#adobe-analytics-connector}
-
-
 
 ## Adobe Analytics 커넥터 통합 정보 {#about-analytics-connector-integration}
 

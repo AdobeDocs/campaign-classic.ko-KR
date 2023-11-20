@@ -2,21 +2,19 @@
 product: campaign
 title: Adobe Analytics 커넥터 프로비저닝
 description: Adobe Analytics 커넥터 프로비저닝에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: ccc48c93d81266b0971acc3a549458e0823eeb37
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 2%
+source-wordcount: '673'
+ht-degree: 3%
 
 ---
 
 # Adobe Analytics 커넥터 프로비저닝 {#adobe-analytics-connector-provisioning}
-
-
 
 >[!IMPORTANT]
 >
@@ -31,6 +29,12 @@ Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 Adobe IMS(Iden
 * 새 커넥터를 구현하는 경우 Adobe IMS 구현은 선택 사항입니다. Adobe ID 사용자가 없으면 Adobe Campaign은 기술 사용자를 사용하여 Adobe Analytics과 동기화합니다.
 
 이 통합이 작동하려면 Analytics 커넥터에만 사용되는 Adobe Analytics 제품 프로필을 만들어야 합니다. 그런 다음 Adobe I/O 프로젝트를 만들어야 합니다.
+
+<!--
+>[!AVAILABILITY]
+>
+> JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
+-->
 
 ## Adobe Analytics 제품 프로필 만들기 {#analytics-product-profile}
 
@@ -72,7 +76,9 @@ Analytics 제품 프로필이 이미 있는 경우 Analytics 커넥터에만 사
 
    ![](assets/do-not-localize/triggers_13.png)
 
-1. 의 경우 **[!UICONTROL Dimensions]** 기능, 추가 **[!UICONTROL Dimensions]** 나중에 구성해야 합니다.
+1. 의 경우 **[!UICONTROL Dimensions]** 기능, 추가 **[!UICONTROL Dimensions]** 향후 구성에 필요합니다.
+
+   선택한 Dimension이 다음에서 구성할 도메인과 일치하는지 확인합니다. [외부 계정](adobe-analytics-connector.md#external-account-classic) 및 의 해당 eVar 번호에 맞게 정렬합니다. [Adobe Analytics](adobe-analytics-connector.md#configure-conversion-success).
 
 1. 의 경우 **[!UICONTROL Report Suite Tools]** 기능을 사용하려면 다음 권한을 추가하십시오.
 
