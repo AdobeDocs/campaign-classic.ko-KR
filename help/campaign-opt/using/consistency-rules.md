@@ -6,9 +6,9 @@ role: User, Data Engineer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Typology Rules, Campaigns
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: a37e67ef3f348737a099dab00a84b6854bd52e57
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '776'
 ht-degree: 4%
 
 ---
@@ -101,7 +101,7 @@ Adobe Campaign은 캠페인 유형화에 포함된 규칙 세트를 통해 일�
 
 ![](assets/campaign_opt_create_capacity_04.png)
 
-처리할 메시지 수는 정의된 가용성 범위에 걸쳐 고르게 분류됩니다. 이는 하루 최대 통화 수가 제한되어 있기 때문에 콜센터에 특히 유용합니다. 이메일 게재의 경우 **[!UICONTROL Do not limit instantaneous delivery capacity]** 옵션을 사용하면 이 가용성 범위를 무시하고 이메일을 동시에 보낼 수 있습니다.
+처리할 수 있는 최대 메시지 수는 정의된 가용성 범위에 걸쳐 고르게 분류됩니다. 이는 하루 최대 통화 수가 제한되어 있기 때문에 콜센터에 특히 유용합니다. 이메일 게재의 경우 **[!UICONTROL Do not limit instantaneous delivery capacity]** 옵션을 사용하면 이 가용성 범위를 무시하고 이메일을 동시에 보낼 수 있습니다.
 
 ![](assets/campaign_opt_create_capacity_05.png)
 
