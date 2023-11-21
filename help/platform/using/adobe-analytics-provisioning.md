@@ -7,9 +7,9 @@ feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: ccc48c93d81266b0971acc3a549458e0823eeb37
+source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '710'
 ht-degree: 3%
 
 ---
@@ -30,11 +30,9 @@ Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 Adobe IMS(Iden
 
 이 통합이 작동하려면 Analytics 커넥터에만 사용되는 Adobe Analytics 제품 프로필을 만들어야 합니다. 그런 다음 Adobe I/O 프로젝트를 만들어야 합니다.
 
-<!--
 >[!AVAILABILITY]
 >
-> JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
--->
+> JWT(JSON 웹 토큰)는 현재 감가상각 중이며 OAuth로 대체되고 있습니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행되고 설명서는 이러한 업데이트를 반영하도록 업데이트됩니다.
 
 ## Adobe Analytics 제품 프로필 만들기 {#analytics-product-profile}
 

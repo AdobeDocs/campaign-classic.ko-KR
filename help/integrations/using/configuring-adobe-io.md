@@ -3,23 +3,21 @@ product: campaign
 title: Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성
 description: Adobe Experience Cloud Triggers용 Adobe I/O을 구성하는 방법 알아보기
 feature: Triggers
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: integrations
 content-type: reference
 index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 4%
+source-wordcount: '761'
+ht-degree: 5%
 
 ---
 
 # Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성 {#configuring-adobe-io}
-
-
 
 >[!CAUTION]
 >
@@ -39,11 +37,11 @@ ht-degree: 4%
 
 ## 1단계: Adobe I/O 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
 
-1. 액세스 [!DNL Adobe I/O] 조직의 개발자 액세스 권한으로 로그인합니다.
+>[!AVAILABILITY]
+>
+> JWT(JSON 웹 토큰)는 현재 감가상각 중이며 OAuth로 대체되고 있습니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행되고 설명서는 이러한 업데이트를 반영하도록 업데이트됩니다.
 
-   >[!NOTE]
-   >
-   > 올바른 조직 포털에 로그인했는지 확인하십시오.
+1. 액세스 [!DNL Adobe I/O] 조직의 개발자 액세스 권한으로 로그인합니다. 올바른 조직 포털에 로그인했는지 확인하십시오.
 
 1. 인스턴스 구성 파일 ims/authIMSTAClientId에서 기존 통합 클라이언트 식별자(클라이언트 ID)를 추출합니다. 존재하지 않거나 비어 있는 속성은 클라이언트 식별자가 구성되지 않았음을 나타냅니다.
 

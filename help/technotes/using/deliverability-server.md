@@ -4,9 +4,9 @@ title: 새 게재 기능 서버로 업데이트
 description: 새로운 Campaign 게재 기능 서버로 업데이트하는 방법 알아보기
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1356'
 ht-degree: 3%
 
 ---
@@ -40,12 +40,15 @@ Adobe이 보안 규정 준수를 이유로 이전 데이터 센터를 폐기하�
 
 ## 구현 단계 {#implementation-steps}
 
-새 게재율 서버 통합의 일부로, Campaign은 IMS(Identity Management Service) 기반 인증을 통해 Adobe Shared Services와 통신해야 합니다. 선호하는 방법은 Adobe Developer 기반 게이트웨이 토큰(기술 계정 토큰 또는 Adobe IO JWT라고도 함)을 사용하는 것입니다.
-
 >[!WARNING]
 >
 >이러한 단계는 하이브리드 및 온프레미스 구현에 대해서만 수행해야 합니다.
+
+새 게재율 서버 통합의 일부로, Campaign은 IMS(Identity Management Service) 기반 인증을 통해 Adobe Shared Services와 통신해야 합니다. 선호하는 방법은 Adobe Developer 기반 게이트웨이 토큰(기술 계정 토큰 또는 Adobe IO JWT라고도 함)을 사용하는 것입니다.
+
+>[!AVAILABILITY]
 >
+> JWT(JSON 웹 토큰)는 현재 감가상각 중이며 OAuth로 대체되고 있습니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행되고 설명서는 이러한 업데이트를 반영하도록 업데이트됩니다.
 
 ### 전제 조건{#prerequisites}
 
