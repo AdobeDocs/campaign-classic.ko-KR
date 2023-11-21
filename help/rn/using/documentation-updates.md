@@ -7,22 +7,24 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 324e26ba1db14e10bb79eee60ba43ddc36e8e94f
+source-git-commit: 8ecb5aba9a070276927e97586ed463ab485717d6
 workflow-type: tm+mt
-source-wordcount: '3607'
-ht-degree: 100%
+source-wordcount: '3645'
+ht-degree: 98%
 
 ---
 
 # 설명서 업데이트{#documentation-updates}
-
-
 
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
 ## 2023
+
+### 2023년 11월
+
+JWT(JSON 웹 토큰)는 현재 감가상각 중이며 OAuth로 대체되고 있습니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행되고 설명서는 이러한 업데이트를 반영하도록 업데이트됩니다.
 
 ### 2023년 8월
 
@@ -183,7 +185,7 @@ LINE 채널 개선 사항 - [자세히 알아보기](../../delivery/using/line-c
 
 새로운 Google BigQuery FDA 커넥터 - [자세히 알아보기](../../installation/using/configure-fda-google-big-query.md)
 
-이제 &quot;청구(billing)&quot; 기술 워크플로우 설명에 원래는 &quot;활성 청구 프로필 수(billingActiveContactCount)&quot;에 의해 수행되는 작업이 포함됩니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
+이제 &quot;청구(billing)&quot; 기술 워크플로우 설명에 원래 &quot;활성 청구 프로필 수(billingActiveContactCount)&quot;에 의해 수행되는 작업이 포함됩니다. [자세히 보기](../../workflow/using/about-technical-workflows.md)
 
 ## 2021년 5월 {#may-2021}
 
@@ -400,9 +402,9 @@ Campaign Classic 모니터링과 관련된 지침과 함께 새 섹션이 추가
 
 개인정보 보호 및 동의 섹션은 보다 자세한 정보와 유용한 링크로 개선되었습니다. [자세한 내용](../../platform/using/privacy-and-recommendations.md)
 
-Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요청 프로세스를 설정할 수 있는 API를 사용할 때 사용 가능한 &#39;규정&#39; 필드에 대한 정보로 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요청 프로세스를 설정할 수 있는 API를 사용할 때 사용 가능한 &#39;규정&#39; 필드에 대한 정보로 업데이트되었습니다. [자세히 보기](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-개인 정보 관리 개요 페이지는 태국의 PDPA(개인 정보 보호법) 및 브라질의 LGPD(Lei Geral de Proteção de Dados)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](../../platform/using/privacy-and-recommendations.md)
+개인 정보 관리 개요 페이지가 태국 PDPA(개인 정보 보호법) 및 브라질 LGPD(Lei Geral de Proteção de Dados)와 관련한 정보를 포함하도록 업데이트되었습니다. [자세히 보기](../../platform/using/privacy-and-recommendations.md)
 
 오류 발생 시 하위 워크플로우 로그 및 동작에 정보가 추가되었습니다. [자세한 내용](../../workflow/using/sub-workflow.md)
 
