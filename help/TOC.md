@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 사용하여 이메일, 모바일, 오프라인 채널 등에서 고객이 실제로 원하는 동적 캠페인을 만들고 조정 및 게재할 수 있습니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 88ee8d1575f6397a35fb6f7412cd08119a75c131
-workflow-type: ht
-source-wordcount: '2529'
-ht-degree: 100%
+source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
+workflow-type: tm+mt
+source-wordcount: '2532'
+ht-degree: 99%
 
 ---
 
@@ -652,6 +652,7 @@ ht-degree: 100%
          + [모범 사례 및 제한 사항](installation/using/fda-best-practices.md)
          + 구성 지침 {#config-databases}
             + [구성 단계](installation/using/configure-fda.md)
+            + [Amazon Redshift 구성](installation/using/configure-fda-redshift.md)
             + [Azure Synapse 구성](installation/using/configure-fda-synapse.md)
             + [Google BigQuery 구성](installation/using/configure-fda-google-big-query.md)
             + [Hadoop 구성](installation/using/configure-fda-hadoop.md)
@@ -785,8 +786,8 @@ ht-degree: 100%
       + [JavaScript의 SOAP 메서드](configuration/using/soap-methods-in-javascript.md)
       + [추가 SQL 함수 추가](configuration/using/adding-additional-sql-functions.md)
    + 탐색 계층 {#navigation-hierarchy}
-      + [Explorer 계층 구성](configuration/using/configuration.md)
-      + [Explorer 계층 편집](configuration/using/edition.md)
+      + [탐색기 계층 구성](configuration/using/configuration.md)
+      + [탐색기 계층 편집](configuration/using/edition.md)
    + 사용자 정의 수신자 테이블 사용 {#use-a-custom-recipient-table}
       + [사용자 정의 수신자 테이블 정보](configuration/using/about-custom-recipient-table.md)
       + [스키마 특성](configuration/using/schema-characteristics.md)

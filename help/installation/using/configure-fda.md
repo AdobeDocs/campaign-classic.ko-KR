@@ -3,15 +3,15 @@ product: campaign
 title: FDA 커넥터 구성
 description: FDA에 대한 구성 단계 알아보기
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 5%
+source-wordcount: '354'
+ht-degree: 7%
 
 ---
 
@@ -45,6 +45,7 @@ Adobe Campaign에서 액세스할 수 있게 하려는 외부 데이터베이스
 
 자세한 내용은 아래 링크를 참조하십시오.
 
+* 캠페인 및 연결 [Amazon Redshift](../../installation/using/configure-fda-redshift.md)
 * 캠페인 및 연결 [Azure synapse](../../installation/using/configure-fda-synapse.md)
 * 캠페인 및 연결 [Google Bigquery](../../installation/using/configure-fda-google-big-query.md)
 * 캠페인 및 연결 [Hadoop](../../installation/using/configure-fda-hadoop.md)
