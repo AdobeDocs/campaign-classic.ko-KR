@@ -3,24 +3,25 @@ product: campaign
 title: Adobe Analytics 커넥터 프로비저닝
 description: Adobe Analytics 커넥터 프로비저닝에 대해 자세히 알아보기
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
+source-git-commit: 26d1b0bc9886988ff636d322c781a23f95a9bcd0
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Adobe Analytics 커넥터 프로비저닝 {#adobe-analytics-connector-provisioning}
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 > 이러한 단계는 하이브리드 및 온프레미스 구현에서만 수행해야 합니다.
 >
->호스팅 구현의 경우 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀.
+>호스팅 및 Campaign Managed Services 구현의 경우 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀.
 
 Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 Adobe IMS(Identity Management Service)를 지원합니다.
 
