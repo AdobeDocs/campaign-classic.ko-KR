@@ -9,10 +9,10 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e6a2986e5355b32164386e1f6d64f52dc6977632
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 3%
+source-wordcount: '582'
+ht-degree: 4%
 
 ---
 
@@ -30,6 +30,10 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >demdex 도메인을 사용하고 구문을 따르는 경우 **ftp-out.demdex.com** 외부 계정 가져오기 및 **ftp-in.demdex.com** 외부 계정을 내보내는 경우 그에 따라 구현을 조정하고 Amazon Simple Storage Service(S3) 커넥터로 이동하여 데이터를 가져오거나 내보내야 합니다. Amazon S3를 사용하여 외부 계정을 구성하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [섹션](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign).
+
+다음 다이어그램은 이 통합이 작동하는 방식을 자세히 설명합니다. 여기서 AAM은 Adobe Audience Manager을 나타내고 AC는 Adobe Campaign을 나타냅니다.
+
+![](assets/aam_diagram.png){align="center"}
 
 ## 1단계: Adobe Campaign에서 외부 계정 구성 또는 확인 {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
@@ -87,10 +91,16 @@ AWS 지역에 대한 자세한 내용은 다음을 참조하십시오. [페이�
 
 People 핵심 서비스 또는 Audience Manager와의 통합을 구성하려면 Campaign 추적 서버도 구성해야 합니다.
 
-Campaign 추적 서버가 도메인(CNAME)에 등록되어 있는지 확인해야 합니다. 도메인 이름 위임에 대한 자세한 내용은에서 찾을 수 있습니다. [이 문서](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko).
+공유 대상이 방문자 ID로 작동하도록 하려면 추적 서버 도메인이 클릭한 URL 또는 기본 웹 사이트의 하위 도메인이어야 합니다.
+
+>[!IMPORTANT]
+>
+>Campaign 추적 서버가 도메인(CNAME)에 등록되어 있는지 확인해야 합니다. 도메인 이름 위임에 대한 자세한 내용은에서 찾을 수 있습니다. [이 문서](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko).
 
 ## 4단계: 방문자 ID 서비스 구성 {#step-4--configure-the-visitor-id-service}
 
 웹 속성이나 웹 사이트에서 방문자 ID 서비스가 구성된 적이 없는 경우 다음을 참조하십시오 [문서](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) 을(를) 사용하여 서비스 또는 다음을 구성하는 방법에 대해 알아보십시오 [비디오](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+
+를 사용하여 고객 식별자를 선언된 ID와 동기화 `setCustomerID` 통합 코드가 있는 Experience Cloud ID 서비스의 함수: `AdobeCampaignID`. 다음 `AdobeCampaignID` 은(는) 구성된 수신자 데이터 소스에 설정된 조정 키 값과 일치해야 합니다. [2단계: 데이터 소스 구성](#step-2--configure-the-data-sources).
 
 구성 및 프로비저닝이 완료되었으므로 이제 통합을 사용하여 대상자 또는 세그먼트를 가져오고 내보낼 수 있습니다.
