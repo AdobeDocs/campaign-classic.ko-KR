@@ -8,10 +8,10 @@ feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 26d1b0bc9886988ff636d322c781a23f95a9bcd0
+source-git-commit: d690a5c4b9779ccd90b50bfbc74df18f0ac60d14
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '761'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,11 @@ ht-degree: 0%
 
 Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 Adobe IMS(Identity Management Service)를 지원합니다.
 
-* 마이그레이션된 외부 계정을 관리하는 경우 Adobe IMS를 구현하고 Adobe ID을 통해 Adobe Campaign에 연결해야 합니다. Adobe ID IMS를 통해 로그인한 사용자는 의 소유자여야 합니다 **데이터 커넥터** Adobe Analytics의 계정 및 **제품 프로필** 아래에 설명되어 있습니다.
+* 마이그레이션된 외부 계정을 관리하는 경우 Adobe IMS를 구현하고 Adobe ID을 통해 Adobe Campaign에 연결해야 합니다.
+
+  Adobe ID IMS를 통해 로그인한 사용자는 의 소유자여야 합니다. **데이터 커넥터** Adobe Analytics 계정 및 다음에 대한 권한이 있습니다. **제품 프로필** 언급 [아래](#analytics-product-profile).
+
+문제는 데이터 커넥터 소유자가 Campaign에 로그인하여 Analytics와의 통합을 시도한 사용자와 다른 사용자라는 것이었습니다.
 
 * 새 커넥터를 구현하는 경우 Adobe IMS 구현은 선택 사항입니다. Adobe ID 사용자가 없으면 Adobe Campaign은 기술 사용자를 사용하여 Adobe Analytics과 동기화합니다.
 
@@ -33,7 +37,7 @@ Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 Adobe IMS(Iden
 
 >[!AVAILABILITY]
 >
-> JWT(JSON 웹 토큰)는 현재 감가상각 중이며 OAuth로 대체되고 있습니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행되고 설명서는 이러한 업데이트를 반영하도록 업데이트됩니다.
+> 현재 JWT(JSON 웹 토큰) 지원 종료를 준비하고 있으며 이를 OAuth로 대체하는 과정이 진행 중입니다. Campaign의 예정된 릴리스 내에서 이 전환을 점진적으로 수행하며 설명서에 업데이트를 반영하여 업데이트합니다.
 
 ## Adobe Analytics 제품 프로필 만들기 {#analytics-product-profile}
 
