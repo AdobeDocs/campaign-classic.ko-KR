@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 8ecb5aba9a070276927e97586ed463ab485717d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3645'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 ### 2023년 11월
 
-JWT(JSON 웹 토큰)는 현재 감가상각 중이며 OAuth로 대체되고 있습니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행되고 설명서는 이러한 업데이트를 반영하도록 업데이트됩니다.
+현재 JWT(JSON 웹 토큰) 지원 종료를 준비하고 있으며 이를 OAuth로 대체하는 과정이 진행 중입니다. Campaign의 예정된 릴리스 내에서 이 전환을 점진적으로 수행하며 설명서에 업데이트를 반영하여 업데이트합니다.
 
 ### 2023년 8월
 
@@ -185,7 +185,7 @@ LINE 채널 개선 사항 - [자세히 알아보기](../../delivery/using/line-c
 
 새로운 Google BigQuery FDA 커넥터 - [자세히 알아보기](../../installation/using/configure-fda-google-big-query.md)
 
-이제 &quot;청구(billing)&quot; 기술 워크플로우 설명에 원래 &quot;활성 청구 프로필 수(billingActiveContactCount)&quot;에 의해 수행되는 작업이 포함됩니다. [자세히 보기](../../workflow/using/about-technical-workflows.md)
+이제 “과금(billing)” 기술 워크플로우 설명에 원래 “활성 과금 프로필 수(billingActiveContactCount)”에 의해 수행되는 작업이 포함됩니다. [자세히 보기](../../workflow/using/about-technical-workflows.md)
 
 ## 2021년 5월 {#may-2021}
 
