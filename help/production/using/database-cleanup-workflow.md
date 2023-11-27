@@ -3,12 +3,12 @@ product: campaign
 title: 데이터베이스 정리 워크플로우
 description: 오래된 데이터를 자동으로 정리하는 방법 알아보기
 feature: Monitoring, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 624978901943b4c74f50c20298c9596f73b25b1b
 workflow-type: tm+mt
 source-wordcount: '2830'
 ht-degree: 0%
@@ -282,7 +282,7 @@ ht-degree: 0%
 1. 이름이 다음으로 시작하는 테이블 목록 **wkDlv_** 는 다음 쿼리(postgresql)를 사용하여 먼저 복구됩니다.
 
    ```sql
-   SELECT relname FROM pg_class WHERE relname LIKE Lower('wkDlv_') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
+   SELECT relname FROM pg_class WHERE relname LIKE Lower('wkDlv_%') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
    ```
 
 1. 그러면 진행 중인 워크플로우에서 사용하는 표는 제외됩니다. 이를 위해 다음 쿼리를 사용하여 진행 중인 게재 목록을 복구합니다.
