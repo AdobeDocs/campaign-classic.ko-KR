@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1120'
 ht-degree: 2%
 
 ---
@@ -51,11 +51,11 @@ ht-degree: 2%
 
 ![](assets/s_ncs_user_services_add.png)
 
-* 에 서비스 이름을 입력합니다. **[!UICONTROL Label]** 필드를 지정하고 배달 채널(이메일, 모바일, Facebook, Twitter 또는 모바일 애플리케이션)을 선택합니다.
+* 에 서비스 이름을 입력합니다. **[!UICONTROL Label]** 필드를 지정하고 배달 채널: 이메일, 모바일, Facebook, X(이전의 Twitter) 또는 모바일 애플리케이션 을 선택합니다.
 
   >[!NOTE]
   >
-  >Facebook 및 Twitter 구독은에 자세히 설명되어 있습니다. [이 섹션](../../social/using/about-social-marketing.md). 모바일 애플리케이션 구독은에 자세히 설명되어 있습니다. [모바일 앱 채널 기본 정보](about-mobile-app-channel.md).
+  >Facebook 및 X 구독은에 자세히 설명되어 있습니다. [이 섹션](../../social/using/about-social-marketing.md). 모바일 애플리케이션 구독은에 자세히 설명되어 있습니다. [모바일 앱 채널 기본 정보](about-mobile-app-channel.md).
 
 * 이메일 유형 서비스의 경우 **게재 모드**. 가능한 모드는 다음과 같습니다. **[!UICONTROL Newsletter]** 또는 **[!UICONTROL Viral]**.
 * 다음을 보낼 수 있습니다. **확인 메시지** 구독 또는 구독 취소. 이렇게 하려면 다음에서 해당 게재를 만드는 데 사용할 게재 템플릿을 선택합니다. **[!UICONTROL Subscription]** 및 **[!UICONTROL Unsubscription]** 필드. 이러한 템플릿은 **[!UICONTROL Subscription]** 정의된 대상 없이 대상 매핑을 입력합니다. 섹션 참조 [이메일 채널 기본 정보](about-email-channel.md).

@@ -2,14 +2,14 @@
 product: campaign
 title: 프로필 시작
 description: Adobe Campaign에서 프로필 작업
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '853'
 ht-degree: 16%
 
 ---
@@ -98,7 +98,7 @@ Adobe Campaign 탐색기의 일반 레이아웃은에 표시되어 있습니다.
 
 >[!NOTE]
 >
->페이스북과 트위터 채널은 고려되지 않습니다.
+>Facebook 및 X(이전의 Twitter) 채널은 고려되지 않습니다.
 
 다음에 대한 활성 프로필 수를 사용할 수 있습니다. **마케팅 인스턴스** 만 해당. 실행 인스턴스에는 사용할 수 없습니다. 즉, MID(중간 소싱) 및 RT(메시지 센터/실시간 메시징) 인스턴스를 의미합니다.
 

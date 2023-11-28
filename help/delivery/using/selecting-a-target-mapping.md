@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Delivery Templates
 role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 14%
+source-wordcount: '196'
+ht-degree: 13%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 14%
 | 이름 | 사용 | 표준 스키마 |
 |---|---|---|
 | 수신자 | Adobe Campaign 데이터베이스 수신자에게 게재 | nms:recipient |
-| 방문자 | 예를 들어 추천(바이럴 마케팅) 또는 소셜 네트워크(Facebook, Twitter)를 통해 프로필이 수집된 방문자에게 제공합니다. | mns:visitor |
+| 방문자 | 예를 들어 추천(바이럴 마케팅) 또는 소셜 네트워크(Facebook, X - 이전 Twitter)를 통해 프로필이 수집된 방문자에게 제공합니다. | mns:visitor |
 | 구독 | 뉴스레터 등 정보 서비스를 구독한 수신자에게 게재 | nms:subscription |
 | 방문자 구독 | 정보 서비스를 구독한 방문자에게 게재 | nms:visitorSub |
-| 서비스 | twitter 계정 또는 Facebook 페이지에 게시 | nms:service |
+| 서비스 | X 계정 또는 Facebook 페이지에 게시 | nms:service |
 | 연산자 | Adobe Campaign 운영자에게 게재 | nms:operator |
 | 외부 파일 | 게재에 필요한 모든 정보가 포함된 파일을 통해 게재 | 연결된 스키마 없음, 입력된 대상 없음 |
 

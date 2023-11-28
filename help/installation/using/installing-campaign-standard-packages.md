@@ -3,13 +3,13 @@ product: campaign
 title: Campaign Classic 기본 제공 패키지 설치
 description: Campaign 기본 제공 패키지를 설치하는 방법 알아보기
 feature: Installation, Application Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 13%
+source-wordcount: '1282'
+ht-degree: 14%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 13%
   </tr--> 
   <tr> 
    <td> 소셜 네트워크(소셜 마케팅) <br /> </td> 
-   <td> Adobe Campaign을 Twitter 및 Facebook과 동기화합니다. <a href="../../social/using/about-social-marketing.md">자세히 알아보기</a> <br /> </td> 
+   <td> Adobe Campaign을 X(이전의 Twitter) 및 Facebook과 동기화합니다. <a href="../../social/using/about-social-marketing.md">자세히 알아보기</a> <br /> </td> 
    <td> 모두</td> 
   </tr> 
   <tr> 

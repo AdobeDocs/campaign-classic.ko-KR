@@ -3,15 +3,15 @@ product: campaign
 title: 외부 계정
 description: 외부 계정을 만드는 방법 알아보기
 feature: Installation, Application Settings, External Account
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '1837'
-ht-degree: 8%
+source-wordcount: '1841'
+ht-degree: 9%
 
 ---
 
@@ -119,7 +119,7 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 * [휴대폰](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [DM](../../delivery/using/about-direct-mail-channel.md)
 * [에이전시](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
-* [Twitter](../../social/using/about-social-marketing.md)
+* [X(이전 명칭: Twitter)](../../social/using/about-social-marketing.md)
 * [iOS 채널](../../delivery/using/configuring-the-mobile-application.md)
 * [Android 채널](../../delivery/using/configuring-the-mobile-application-android.md)
 

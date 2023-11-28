@@ -5,10 +5,10 @@ description: 전반적 보고서
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '2304'
-ht-degree: 7%
+source-wordcount: '2308'
+ht-degree: 8%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic을 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html). 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)에 설명된 단계를 수행합니다.
+>인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic을 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html). 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko)에 설명된 단계를 수행합니다.
 >
 >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
@@ -102,13 +102,13 @@ ht-degree: 7%
 * **[!UICONTROL Unreachable]** : 메시지 배포 문자열에서 발생하는 오류 유형: SMTP 릴레이 장애, 일시적으로 도메인에 연결할 수 없음 등
 * **[!UICONTROL Not connected]** : 전송 시 수신자의 휴대폰이 꺼져 있거나 네트워크에서 연결이 끊겼음을 나타내는 오류 유형입니다.
 
-   >[!NOTE]
-   >
-   >이 표시기는 모바일 채널 게재에만 관련됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/sms-channel.md)을 참조하십시오.
+  >[!NOTE]
+  >
+  >이 표시기는 모바일 채널 게재에만 관련됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../delivery/using/sms-channel.md)을 참조하십시오.
 
-   다음을 눌러 값 테이블의 각 행을 열 수 있습니다. `[+]` 기호. 각 오류 유형에 대해 도메인별 오류 메시지 분류를 표시할 수 있습니다.
+  다음을 눌러 값 테이블의 각 행을 열 수 있습니다. `[+]` 기호. 각 오류 유형에 대해 도메인별 오류 메시지 분류를 표시할 수 있습니다.
 
-   ![](assets/s_ncs_user_errors_report_detail.png)
+  ![](assets/s_ncs_user_errors_report_detail.png)
 
 **[!UICONTROL Breakdown of errors per domain]**
 
@@ -167,9 +167,9 @@ ht-degree: 7%
 
 ### 소셜 네트워크에 공유 {#sharing-to-social-networks}
 
-바이럴 마케팅을 통해 게재 수신자는 연락처 네트워크와 정보를 공유할 수 있습니다. 프로필에 링크(Facebook, Twitter 등)를 추가할 수 있습니다. 또는 친구에게 메시지를 보냅니다. 각 공유 및 공유 정보에 대한 각 액세스는 게재 내에서 추적됩니다. 바이럴 마케팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/viral-and-social-marketing.md).
+바이럴 마케팅을 통해 게재 수신자는 연락처 네트워크와 정보를 공유할 수 있습니다. 프로필에 링크를 추가할 수 있습니다(Facebook, X - 이전 명칭: Twitter 등) 또는 친구에게 메시지를 보냅니다. 각 공유 및 공유 정보에 대한 각 액세스는 게재 내에서 추적됩니다. 바이럴 마케팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/viral-and-social-marketing.md).
 
-이 보고서는 소셜 네트워크(Facebook, Twitter 등)당 공유 및 열린 메시지의 분류를 보여줍니다. 및/또는 이메일당.
+이 보고서는 소셜 네트워크(Facebook, X 등)당 공유 및 열린 메시지의 분류를 보여줍니다. 및/또는 이메일당.
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -202,7 +202,7 @@ ht-degree: 7%
 
 ## 공유 활동에 대한 통계 {#statistics-on-sharing-activities}
 
-이 보고서는 소셜 네트워크(Facebook, Twitter, 이메일 등)에 대한 공유의 발전을 보여 줍니다. 늦지 않게
+이 보고서는 소셜 네트워크(Facebook, X - 이전에는 Twitter, 이메일 등으로 알려짐)에 대한 공유를 발전시킨 모습을 보여줍니다. 늦지 않게
 
 바이럴 마케팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/viral-and-social-marketing.md).
 
@@ -292,15 +292,15 @@ ht-degree: 7%
 * **[!UICONTROL Hard bounces]** : 처리된 총 메시지 수 대비 &quot;하드&quot; 바운스 수의 백분율입니다.
 * **[!UICONTROL Soft bounces]** : 처리된 총 메시지 수 대비 &quot;소프트&quot; 바운스 수의 백분율입니다.
 
-   >[!NOTE]
-   >
-   >하드 및 소프트 바운스에 대한 자세한 내용은 [격리 관리](../../delivery/using/understanding-quarantine-management.md).
+  >[!NOTE]
+  >
+  >하드 및 소프트 바운스에 대한 자세한 내용은 [격리 관리](../../delivery/using/understanding-quarantine-management.md).
 
 * **[!UICONTROL Opens]** : 성공적으로 처리된 메시지 수와 비교하여 메시지를 한 번 이상 연 타겟팅된 수신자 수의 백분율입니다.
 * **[!UICONTROL Clicks]** : 성공적으로 처리된 메시지 수와 비교하여 게재를 한 번 이상 클릭한 사람 수의 백분율입니다.
 * **[!UICONTROL Unsubscription]** : 성공적으로 처리된 메시지 수와 비교한 구독 취소 링크의 클릭 수의 백분율입니다.
 
-## 열람 분류 {#breakdown-of-opens}
+## 열람수 분류 {#breakdown-of-opens}
 
 이 보고서는 해당 기간에 대한 운영 체제, 장치 및 브라우저별 열기 분석을 보여 줍니다. 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째 차트에는 모바일 디바이스에서의 열람과 관련된 통계만 표시됩니다.
 

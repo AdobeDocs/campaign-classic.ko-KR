@@ -2,12 +2,12 @@
 product: campaign
 title: 기술 워크플로우
 description: Campaign Classic 패키지와 함께 사용할 수 있는 기술 워크플로우에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1716'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 4%
 |------|--------|-----------|
 | **별칭 정리** (aliasCleaning) | 게재 | 이 워크플로우는 열거형 값을 표준화합니다. 기본적으로 매일 오전 3시에 트리거됩니다. |
 | **청구** (청구) | 게재 | 이 워크플로우는 &#39;과금&#39; 운영자에게 이메일로 시스템 활동 보고서를 보냅니다. 마케팅 인스턴스에서 매월 25일에 트리거됩니다. |
-| **twitter 통계 계산** (statsTwitter) | 소셜 네트워크(소셜 마케팅) - Campaign v7만 해당 | 이 워크플로우는 Twitter 시 리트윗 및 방문에 연결된 통계를 계산합니다. |
+| **twitter 통계 계산** (statsTwitter) | 소셜 네트워크(소셜 마케팅) - Campaign v7만 해당 | 이 워크플로우는 X(이전에는 Twitter)의 리트윗 및 방문에 연결된 통계를 계산합니다. |
 | **캠페인 작업** (operationMgt) | 마케팅 캠페인(캠페인) | 이 워크플로우는 마케팅 캠페인(론치 타기팅, 파일 추출 등)에 대한 작업을 관리합니다. 또한 반복 및 정기 캠페인과 관련된 워크플로우를 만듭니다. |
 | **HeatMap 서비스를 위한 데이터 수집** (collectDataHeatMapService) | 기본적으로 설치됨 | 이 워크플로우는 HeatMap 서비스에 필요한 데이터를 검색합니다. |
 | **개인 정보 보호 요청 수집** (collectPrivacyRequests) | 개인 정보 보호 규정 | 이 워크플로우는 Adobe Campaign에 저장된 수신자의 데이터를 생성하여 개인 정보 보호 요청의 화면에서 다운로드할 수 있도록 합니다. |
@@ -70,12 +70,12 @@ ht-degree: 4%
 | **실시간 이벤트 처리 중** (rtEventsProcessing) | 트랜잭션 메시지 실행(메시지 센터 - 실행) | 이 워크플로우를 사용하면 실시간 이벤트를 메시지 템플릿과 연결하기 전에 대기열에 넣을 수 있습니다. |
 | **제안 동기화** (제안 동기화) | 실행 인스턴스가 있는 오퍼 엔진 제어 | 이 워크플로우는 상호 작용에 사용되는 마케팅 인스턴스와 실행 인스턴스 간의 제안을 동기화합니다. |
 | **웹 이벤트 복구** (webAnalyticsGetWebevents) | 웹 분석 커넥터 | 매시간마다 이 워크플로우는 주어진 사이트에서 인터넷 사용자 비헤이비어에 대한 세그먼트를 다운로드하여 Adobe Campaign 데이터베이스에 넣고 리마케팅 워크플로우를 시작합니다. |
-| **합계 보고** (reportingAggregates) | 게재 | 이 워크플로우는 보고서에 사용되는 합계를 업데이트합니다. 기본적으로 매일 오전 2시에 트리거됩니다. |
+| **합계 보고** (reportingAggregates) | 게재 | 이 워크플로우는 보고서에 사용된 합계를 업데이트합니다. 기본적으로 매일 오전 2시에 트리거됩니다. |
 | **지표 및 캠페인 속성 전송** (webAnalyticsSendMetric) | 웹 분석 커넥터 | 이 워크플로우를 사용하면 Adobe® Analytics 커넥터를 통해 Adobe Campaign에서 Adobe Experience Cloud Suite로 이메일 캠페인 지표를 보낼 수 있습니다. 관련 지표는 다음과 같습니다. 전송됨(iSent), 총 열람 수(iTotalRecipientOpen), 클릭한 총 수신자 수(iTotalRecipientClick), 오류(iError), 옵트아웃(optOut) |
 | **재고: 주문 및 경고** (stockMgt) | 마케팅 캠페인(캠페인) | 이 워크플로우는 주문 라인에서 재고 계산을 시작하고 경고 경고 임계값을 관리합니다. |
 | **facebook 팬 동기화** (syncFacebookFans) | 소셜 네트워크(소셜 마케팅) - Campaign v7만 해당 | 이 워크플로우는 매일 오전 7시에 Facebook 팬을 Adobe Campaign으로 가져옵니다. |
 | **facebook 페이지 동기화** (syncFacebook) | 소셜 네트워크(소셜 마케팅) - Campaign v7만 해당 | 이 워크플로우는 매일 오전 7시에 Facebook 페이지를 Adobe Campaign과 동기화합니다. |
-| **twitter 페이지 동기화** (syncTwitter) | 소셜 네트워크(소셜 마케팅) - Campaign v7만 해당 | 이 워크플로우는 매일 오전 7시에 Twitter 팔로워를 Adobe Campaign으로 가져옵니다. |
+| **twitter 페이지 동기화** (syncTwitter) | 소셜 네트워크(소셜 마케팅) - Campaign v7만 해당 | 이 워크플로우는 매일 오전 7시에 X명의 팔로워를 Adobe Campaign으로 가져옵니다. |
 | **작업 알림** (taskManager) | MRM(마케팅 리소스) - Campaign v7만 해당 | 이 워크플로우를 통해 마케팅 캠페인의 작업과 관련된 알림 메시지를 보낼 수 있습니다. |
 | **추적** (추적) | 게재 | 이 워크플로우는 추적 정보의 복구 및 통합을 수행합니다. 또한 특히 메시지 센터 아카이빙 워크플로우에서 사용하는 추적 및 게재 통계를 다시 계산할 수 있습니다. 기본적으로 시간당 한 번 트리거됩니다. |
 | **이벤트 상태 업데이트** (updateEventsStatus) | 트랜잭션 메시지 실행(메시지 센터 - 실행) | 이 워크플로우를 통해 이벤트에 상태를 할당할 수 있습니다. 이벤트 상태는 다음과 같습니다.<ul><li>보류 중: 이벤트가 큐에 있습니다. 아직 연결된 메시지 템플릿이 없습니다.</li><li>게재 보류 중: 이벤트가 큐에 있고 메시지 템플릿이 연결되어 있으며 현재 게재에서 처리 중입니다.</li><li>전송됨: 이 상태는 게재 로그에서 복사됩니다. 게재가 전송되었음을 의미합니다.</li><li>게재에서 무시됨: 이 상태는 게재 로그에서 복사됩니다. 게재가 무시되었음을 의미합니다.</li><li>게재 오류: 이 상태는 게재 로그에서 복사됩니다. 게재가 실패했다는 뜻입니다.</li><li>이벤트가 포함되지 않음: 이벤트를 메시지 템플릿과 연결하지 못했습니다. 이벤트는 재처리되지 않습니다.</li></ul> |

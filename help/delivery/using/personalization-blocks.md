@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Personalization
 role: User
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '877'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,7 @@ HTML 소스 코드는 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
   >이 블록은 방문자를 타겟팅하는 게재에만 사용할 수 있습니다.
 
 * **[!UICONTROL Registration confirmation]** : 구독을 확인할 수 있는 링크를 삽입합니다.
-* **[!UICONTROL Social network sharing links]** : 수신자가 이메일 클라이언트, Facebook, Twitter 및 LinkedIn과 미러 페이지 콘텐츠에 대한 링크를 공유할 수 있는 버튼을 삽입합니다( 참조) [바이럴 마케팅: 친구에게 전달](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
+* **[!UICONTROL Social network sharing links]** : 수신자가 이메일 클라이언트, Facebook, X(이전의 Twitter) 및 LinkedIn과 미러 페이지 컨텐츠에 대한 링크를 공유할 수 있는 버튼을 삽입합니다(참조) [바이럴 마케팅: 친구에게 전달](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
 * **[!UICONTROL Style of content emails]** 및 **[!UICONTROL Notification style]** : 사전 정의된 HTML 스타일을 사용하여 이메일 서식을 지정하는 코드를 생성합니다. 이러한 블록은 의 게재 소스 코드에 삽입되어야 합니다. **[!UICONTROL ...]** 섹션, 종료 **`<style>...</style>`** 태그 사이에 코드를 삽입하지 마십시오.
 * **[!UICONTROL Offer acceptance URL in unitary mode]** : 상호 작용 오퍼를 설정할 수 있는 URL을 삽입합니다. **[!UICONTROL Accepted]** (참조 [이 섹션](../../interaction/using/offer-analysis-report.md)).
 

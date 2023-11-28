@@ -2,15 +2,15 @@
 product: campaign
 title: Adobe Campaign Classic 정보
 description: 주요 기능, 사용자 인터페이스 및 글로벌 지침을 살펴보십시오.
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: be57635a6165790b8c8964d106ed0a3cb76c63af
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 92%
+source-wordcount: '934'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign을 사용하면 대화형 마케팅 캠페인 만들기를 조정
 >
 >* 이 컬렉션의 도움말 자료는 의 Campaign Classic v7에 적용됩니다. [최신 빌드](../../rn/using/latest-release.md). 특정 배지는 Campaign v8에도 섹션이 적용되는 경우 사용할 수 있습니다.
 >
->* Adobe Campaign v8 설명서를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html).
+>* Adobe Campaign v8 설명서를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko).
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 주요 기능 살펴보기](#video)
 
@@ -77,7 +77,7 @@ Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 �
 * [MRM](../../mrm/using/about-marketing-resource-management.md) - 마케팅 리소스 및 예산 관리,
 * [상호 작용](../../interaction/using/interaction-and-offer-management.md) - 캠페인으로 오퍼 관리,
 * [메시지 센터](../../message-center/using/about-transactional-messaging.md) - 전자 메일, SMS 또는 모바일 앱으로 트랜잭션 메시지를 보낼 수 있습니다.
-* [소셜 마케팅](../../social/using/about-social-marketing.md) - Facebook, Twitter와 같은 소셜 미디어에서 커뮤니케이션,
+* [소셜 마케팅](../../social/using/about-social-marketing.md) - 소셜 미디어에서 커뮤니케이션: Facebook, X (이전에는 Twitter),
 * [워크플로우](../../workflow/using/about-workflows.md) /데이터 관리 - 워크플로우를 통해 프로세스 자동화 및 데이터 관리
 * [웹 애플리케이션](../../web/using/about-web-applications.md) - 웹 페이지 및 양식 만들기,
 * [설문 조사 관리자](../../surveys/using/about-surveys.md) - 온라인 설문 조사 및 투표 만들기,

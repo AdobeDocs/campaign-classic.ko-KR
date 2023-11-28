@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 feature: Data Model
 role: Data Engineer, Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2385'
 ht-degree: 2%
 
 ---
@@ -261,12 +261,12 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ## 소셜 마케팅 모듈 {#social-marketing-module}
 
-이 테이블 집합은 **소셜 네트워크 관리** facebook 및 Twitter을 통해 고객 및 잠재 고객과 상호 작용할 수 있는 모듈입니다. 자세한 내용은 [소셜 마케팅 정보](../../social/using/about-social-marketing.md).
+이 테이블 집합은 **소셜 네트워크 관리** facebook 및 X(이전의 Twitter)를 통해 고객 및 잠재 고객과 상호 작용할 수 있는 모듈입니다. 자세한 내용은 [소셜 마케팅 정보](../../social/using/about-social-marketing.md).
 
 ![](assets/data-model_social.png)
 
 * **NmsVisitor**: 이 테이블은 **nms:visitor** 스키마. 여기에는 방문자에 대한 정보가 포함되어 있습니다.
-* **NmsVisitorSub**: 이 테이블은 **nms:visitorSub** 스키마. 방문자가 가입한 서비스(Twitter 또는 Facebook)에 방문자를 연결할 수 있습니다.
+* **NmsVisitorSub**: 이 테이블은 **nms:visitorSub** 스키마. 방문자가 가입한 서비스(X 또는 Facebook)에 방문자를 연결할 수 있습니다.
 * **NmsFriendShipRel**: 이 테이블은 **nms:friendshipRel** 스키마. facebook 서비스의 컨텍스트 내에서 방문자를 친구와 연결할 수 있습니다.
 * **NmsVisitorInterestRel**: 이 테이블은 **nms:visitorInterestRel** 스키마. 방문자와 방문자의 관심사를 연결할 수 있습니다.
 * **NmsInterest**: 이 테이블은 **nms:interest** 스키마. 여기에는 각 방문자의 관심 목록이 포함되어 있습니다.

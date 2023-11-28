@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 100%
+source-wordcount: '2553'
+ht-degree: 98%
 
 ---
 
@@ -291,7 +291,7 @@ _2021년 2월 22일_
 * 게재 분석을 수행할 때 서버의 메모리 사용을 줄일 수 있는 문제를 해결했습니다.
 * 복잡한 특정 쿼리를 실행하려 할 때 인스턴스가 작동하지 않는 문제를 해결했습니다.
 * **Twitter 페이지 동기화** 기술 워크플로우가 실행되지 않는 문제를 해결했습니다. (NEO-28634)
-* **트윗(twitter)** 게재 템플릿을 사용하여 Twitter에 게시하려고 할 때 decryptPassword 기능과 관련된 오류 메시지를 표시할 수 있는 문제를 수정했습니다. (NEO-28216)
+* 를 사용하여 X(이전의 Twitter)에 게시하려고 할 때 decryptPassword 기능과 관련된 오류 메시지를 표시할 수 있는 문제를 수정했습니다. **트윗(twitter)** 게재 템플릿. (NEO-28216)
 * 워크플로우에서 **JavaScript** 활동을 사용하여 HTTP 요청을 할 때 발생하는 문제를 해결했습니다. 호스트 이름에서 포트 번호를 정의한 후 다음 오류로 호출이 실패합니다(NEO-29146).
 
 ```

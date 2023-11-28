@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 155fbcd2846cfc5a8db25194bd8d7007356db24e
-workflow-type: ht
-source-wordcount: '1869'
-ht-degree: 100%
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+workflow-type: tm+mt
+source-wordcount: '1873'
+ht-degree: 98%
 
 ---
 
@@ -141,7 +141,7 @@ _2022년 11월 21일_
 
 **사용되지 않는 기능**
 
-* Facebook을 사용한 소셜 마케팅은 이제 더 이상 사용되지 않습니다. Twitter 통합을 사용하여 소셜 미디어에 게시하거나 Adobe를 사용하여 사용자 지정 채널을 만들 수 있습니다.
+* Facebook을 사용한 소셜 마케팅은 이제 더 이상 사용되지 않습니다. X(이전의 Twitter) 통합을 사용하여 소셜 미디어에 게시하거나, Adobe을 사용하여 사용자 지정 채널을 만들 수 있습니다.
 * ACS 커넥터(Prime offering)는 이제 더 이상 사용되지 않습니다. 캠페인 내보내기/가져오기 기능을 사용하여 두 제품의 데이터를 추출하고 삽입할 수 있습니다.
 
 더 자세한 내용은 [사용되지 않거나 제거된 기능 페이지](deprecated-features.md)를 참조하십시오.

@@ -6,20 +6,18 @@ feature: Social Marketing
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '577'
 ht-degree: 2%
 
 ---
 
 # 바이럴 및 소셜 마케팅{#viral-and-social-marketing}
 
-
-
 Adobe Campaign을 사용하면 바이럴 마케팅을 장려하는 도구를 설정할 수 있습니다.
 
-이렇게 하면 게재 수신자 또는 웹 사이트 방문자가 Facebook 또는 Twitter 프로필에 대한 링크 추가에서 친구에게 메시지 보내기에 대한 정보를 네트워크와 공유할 수 있습니다.
+이렇게 하면 게재 수신자 또는 웹 사이트 방문자가 Facebook 또는 X(이전의 Twitter) 프로필에 대한 링크 추가에서 친구에게 메시지를 보내는 것과 같은 정보를 네트워크와 공유할 수 있습니다.
 
 ![](assets/s_ncs_user_viral_icons.png)
 

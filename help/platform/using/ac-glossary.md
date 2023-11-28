@@ -6,9 +6,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '5974'
+source-wordcount: '5978'
 ht-degree: 4%
 
 ---
@@ -119,7 +119,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 +++**채널**
 
-채널은 통신을 전송하는 매체입니다. Adobe Campaign의 기본 제공 채널에는 이메일, SMS, DM, 푸시 알림, LINE 및 Twitter이 있습니다. 비표준 채널 요구 사항에 맞게 사용자 지정 채널을 구현할 수 있습니다.
+채널은 통신을 전송하는 매체입니다. Adobe Campaign의 기본 제공 채널에는 이메일, SMS, DM, 푸시 알림, LINE 및 X(이전에는 Twitter)가 있습니다. 비표준 채널 요구 사항에 맞게 사용자 지정 채널을 구현할 수 있습니다.
 
 자세히 알아보기 [채널](../../delivery/using/communication-channels.md).
 +++
@@ -874,7 +874,7 @@ Campaigns that re-target the recipients of a previous delivery or deliveries.
 자세히 알아보기 [스키마](../../configuration/using/about-schema-reference.md).
 +++
 
-+++**스키마 확장**
++++**스키마 확장 기능**
 
 스키마 확장을 사용하면 비즈니스 사용 사례에 가장 적합하게 기본 제공 스키마를 사용자 지정할 수 있습니다. 예를 들어 &quot;충성도&quot; 필드를 수신자 표에 추가할 수 있습니다.
 
@@ -923,16 +923,16 @@ Adobe Campaign을 사용하면 뉴스레터 또는 제품 업데이트와 같은
 
 *컨텍스트: Campaign 분산 마케팅*
 
-Target 승인은 게재를 보내기 전에 (분석 단계에서 타겟이 생성된 후) 별도의 운영자 또는 운영자 그룹이 게재의 최종 타겟을 승인하도록 하는 프로세스입니다.
+대상 승인은 게재를 보내기 전에 (분석 단계에서 대상을 생성한 후) 별도의 운영자 또는 운영자 그룹이 게재의 최종 대상을 승인하도록 하는 프로세스입니다.
 
-자세히 알아보기 [Target 승인](../../workflow/using/local-approval.md).
+자세히 알아보기 [대상 승인](../../workflow/using/local-approval.md).
 +++
 
 +++**타겟 데이터**
 
-Target 데이터는 워크플로우의 작업 테이블(전환)에 저장된 데이터입니다. 이 데이터는 게재 콘텐츠를 개인화하거나 게재의 동적 요소 논리를 정의하는 데 게재 내에서 사용할 수 있습니다.
+대상 데이터는 워크플로우의 작업 테이블(전환)에 저장된 데이터입니다. 이 데이터는 게재 콘텐츠를 개인화하거나 게재의 동적 요소 논리를 정의하는 데 게재 내에서 사용할 수 있습니다.
 
-자세히 알아보기 [Target 데이터](../../workflow/using/data-life-cycle.md#target-data).
+자세히 알아보기 [대상 데이터](../../workflow/using/data-life-cycle.md#target-data).
 +++
 
 +++**대상 매핑**

@@ -2,12 +2,12 @@
 product: campaign
 title: 보고서 목록
 description: 보고서 목록
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1018'
 ht-degree: 2%
 
 ---
@@ -96,7 +96,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
   </tr> 
   <tr> 
    <td> 게재 요약(deliveryStatistics)<br /> </td> 
-   <td> 선택한 게재에 대한 요약 테이블: Target, 제외 및 보낸 메시지.<br /> </td> 
+   <td> 선택한 게재에 대한 요약 테이블: 타겟, 제외 및 보낸 메시지.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
   </tr> 
   <tr> 
    <td> 게재 요약(operationStatistics)<br /> </td> 
-   <td> 캠페인 게재의 요약 차트(Target, 제외 및 보낸 메시지).<br /> </td> 
+   <td> 캠페인 게재의 요약 차트(타겟, 제외 및 보낸 메시지).<br /> </td> 
   </tr> 
   <tr> 
    <td> URL 및 클릭 처리량(operationTopUrlDelivery)<br /> </td> 
@@ -360,7 +360,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
   </tr> 
   <tr> 
    <td> 소셜 잠재 고객 확보 기록(socialVisitorStatistics)<br /> </td> 
-   <td> twitter 및 Facebook 잠재 고객 확보 기록은 소셜 마케팅 추가 기능에 따라 다릅니다.<br /> </td> 
+   <td> X(이전의 Twitter) 및 Facebook 잠재 고객 확보 기록은 소셜 마케팅 추가 기능에 따라 다릅니다.<br /> </td> 
    <td> nms:visitor<br /> </td> 
   </tr> 
   <tr> 

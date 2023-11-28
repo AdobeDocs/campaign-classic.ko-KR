@@ -2,13 +2,13 @@
 product: campaign
 title: 크로스 채널 게재
 description: 크로스 채널 게재에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 8%
+source-wordcount: '294'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
 * [이메일](../../delivery/using/about-email-channel.md)
 * [DM](../../delivery/using/about-direct-mail-channel.md)
 * [모바일](../../delivery/using/sms-channel.md)
-* [Twitter](../../social/using/about-social-marketing.md)
+* [X(이전 명칭: Twitter)](../../social/using/about-social-marketing.md)
 * [iOS](../../delivery/using/create-notifications-ios.md)
 * [Android](../../delivery/using/create-notifications-android.md)
 

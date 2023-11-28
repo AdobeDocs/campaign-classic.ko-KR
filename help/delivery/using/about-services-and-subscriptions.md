@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Subscriptions
 role: User
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 6%
+source-wordcount: '170'
+ht-degree: 5%
 
 ---
 
@@ -22,4 +22,4 @@ Adobe Campaign을 사용하면 뉴스레터와 같은 정보 서비스를 만들
 
 >[!NOTE]
 >
->이 기능은 Adobe Campaign에 기본적으로 제공됩니다. 선택적 애플리케이션인 소셜 마케팅을 사용하면 Facebook 및 Twitter을 통해 고객 및 잠재 고객에게 연락할 수 있습니다.
+>이 기능은 Adobe Campaign에 기본적으로 제공됩니다. 선택적 애플리케이션인 소셜 마케팅을 사용하면 Facebook 및 X(이전의 Twitter)를 통해 고객 및 잠재 고객에게 연결할 수 있습니다.
