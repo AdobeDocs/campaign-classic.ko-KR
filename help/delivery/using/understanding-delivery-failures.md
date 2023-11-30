@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: 8b0162680d6a3a2d4891d1f71020b44b28046ad7
 workflow-type: tm+mt
-source-wordcount: '2624'
+source-wordcount: '2573'
 ht-degree: 17%
 
 ---
@@ -287,11 +287,13 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날
 
 #### 인바운드 이메일 {#inbound-email}
 
->[!IMPORTANT]
->
->호스팅 또는 하이브리드 설치의 경우 를 로 업그레이드한 경우 [향상된 MTA](sending-with-enhanced-mta.md)및 인스턴스가 **웹훅** 기능, **[!UICONTROL Inbound email]** 동기 게재 실패 오류 메시지에 더 이상 규칙이 사용되지 않습니다. 자세한 내용은 [이 섹션](#bounce-mail-qualification)을 참조하십시오.
+<!--
+STATEMENT ONLY TRUE with Momentum and EFS+:
+For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), and if your instance has **Webhooks** functionality, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
 
-기존 Campaign MTA를 사용하는 온-프레미스 설치 및 호스팅/하이브리드 설치의 경우 이러한 규칙에는 원격 서버에서 반환할 수 있고 오류를 평가할 수 있는 문자 문자열 목록(**하드**, **소프트** 또는 **무시됨**).
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, these rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).-->
+
+다음 **[!UICONTROL Inbound email]** 규칙에는 원격 서버에서 반환할 수 있는 문자 문자열 목록이 포함되어 있어 오류를 평가할 수 있습니다(**하드**, **소프트** 또는 **무시됨**).
 
 이메일이 실패하면 원격 서버는 바운스 메시지를 [플랫폼 매개 변수](../../installation/using/deploying-an-instance.md). Adobe Campaign은 각 바운스 메일의 콘텐츠를 규칙 목록의 문자열과 비교한 다음 세 가지 중 하나를 지정합니다 [오류 유형](#delivery-failure-types-and-reasons).
 
