@@ -5,16 +5,14 @@ description: 반복 게재 워크플로우 활동에 대해 자세히 알아보�
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 05210269da2a32310c19911a3bc32240c84dc7ad
+source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 19%
+source-wordcount: '289'
+ht-degree: 12%
 
 ---
 
 # 반복 게재{#recurring-delivery}
-
-
 
 A **[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인과 관련된 게재 템플릿 발생을 구성할 수 있습니다.
 
@@ -31,6 +29,10 @@ A **[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인과 관련
 1. 게재 템플릿을 구성합니다.
 
 이 활동에 대한 구성 프로세스는 사용 가능한 옵션 측면에서 게재 템플릿을 만드는 프로세스와 유사합니다. 자세한 정보는 이 [섹션](../../delivery/using/about-templates.md)을 참조하십시오.
+
+>[!CAUTION]
+>
+>반복 게재는 다음을 포함한 증명 전송을 지원하지 않습니다. [대상 데이터](../../workflow/using/data-life-cycle.md#target-data) 개인화 요소.
 
 사용 중인 이 활동의 예는 다음을 참조하십시오. [섹션](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 

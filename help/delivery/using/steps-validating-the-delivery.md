@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1677'
 ht-degree: 8%
 
 ---
@@ -133,13 +133,16 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->* 사용 가능한 유효성 검사 모드는에 자세히 설명되어 있습니다. [승인 모드 변경](steps-validating-the-delivery.md#changing-the-approval-mode).
->* 증명 대상 구성에 대해서는 다음에서 설명합니다. [특정 증명 대상 정의](steps-defining-the-target-population.md#defining-a-specific-proof-target).
->
+>사용 가능한 유효성 검사 모드는에 자세히 설명되어 있습니다. [승인 모드 변경](steps-validating-the-delivery.md#changing-the-approval-mode).
 
 증명을 보내려면 아래 단계를 따르십시오.
 
 1. 에 설명된 대로 증명 대상이 구성되었는지 확인합니다. [특정 증명 대상 정의](steps-defining-the-target-population.md#defining-a-specific-proof-target).
+
+   >[!CAUTION]
+   >
+   >[반복 게재](../../workflow/using/recurring-delivery.md) 다음을 포함한 증명 보내기를 지원하지 않음 [대상 데이터](../../workflow/using/data-life-cycle.md#target-data) 개인화 요소.
+
 1. 클릭 **[!UICONTROL Send a proof]** 게재 마법사의 상단 표시줄에서 을 클릭합니다.
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
