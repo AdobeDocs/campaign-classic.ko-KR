@@ -5,9 +5,9 @@ description: 반복 게재 워크플로우 활동에 대해 자세히 알아보�
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
+source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '292'
 ht-degree: 12%
 
 ---
@@ -32,7 +32,7 @@ A **[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인과 관련
 
 >[!CAUTION]
 >
->반복 게재는 다음을 포함한 증명 전송을 지원하지 않습니다. [대상 데이터](../../workflow/using/data-life-cycle.md#target-data) 개인화 요소.
+>반복 게재는 콘텐츠 미리보기 또는 다음을 포함한 증명 전송을 지원하지 않습니다. [대상 데이터](../../workflow/using/data-life-cycle.md#target-data) 개인화 요소.
 
 사용 중인 이 활동의 예는 다음을 참조하십시오. [섹션](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
