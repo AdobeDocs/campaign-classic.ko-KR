@@ -4,10 +4,10 @@ title: 새 게재 기능 서버로 업데이트
 description: 새로운 Campaign 게재 기능 서버로 업데이트하는 방법 알아보기
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
+source-git-commit: eea3657f1cffa215e1fc1cb1eb8782b83321aae4
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 3%
+source-wordcount: '1252'
+ht-degree: 4%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe이 보안 규정 준수를 이유로 이전 데이터 센터를 폐기하�
 
 >[!AVAILABILITY]
 >
-> JWT(JSON 웹 토큰)는 현재 감가상각 중이며 OAuth로 대체되고 있습니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행되고 설명서는 이러한 업데이트를 반영하도록 업데이트됩니다.
+> 현재 JWT(JSON 웹 토큰)의 지원 종료를 준비하고 있으며, 이를 OAuth로 대체하는 과정이 진행 중입니다. Campaign의 예정된 릴리스 내에서 이 전환을 점진적으로 수행하며, 설명서에 이러한 업데이트를 반영하여 업데이트합니다.
 
 ### 전제 조건{#prerequisites}
 
@@ -145,15 +145,7 @@ Adobe이 보안 규정 준수를 이유로 이전 데이터 센터를 폐기하�
 
 1. 수정 사항을 고려하려면 서버를 중지했다가 다시 시작해야 합니다. 다음을 실행할 수도 있습니다 `config -reload` 명령입니다.
 
-### 3단계: 새 게재율 서버 활성화
-
-이제 새 게재 기능 서버를 활성화할 수 있습니다. 다음을 수행하십시오.
-
-1. 클라이언트 콘솔을 열고 Adobe Campaign에 관리자로 로그온합니다.
-1. 다음으로 이동 **관리 > 플랫폼 > 옵션**.
-1. 액세스 `NewDeliverabilityServer_FeatureFlag` 옵션을 선택하고 값을 로 설정합니다. `1`. 이 구성은 모든 Campaign 인스턴스(MKT, MID, RT, EXEC)에서 수행해야 합니다. 하이브리드 고객은 Adobe에게 연락하여 MID, RT 및 EXEC 인스턴스에 옵션을 설정합니다.
-
-### 4단계: 구성 유효성 검사
+### 3단계: 구성 유효성 검사
 
 통합이 성공했는지 확인하려면 아래 단계를 수행합니다.
 
