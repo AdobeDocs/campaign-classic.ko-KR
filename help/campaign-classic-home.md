@@ -3,7 +3,7 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 5fe07c7955b529cd7f1a481167dd4139aa886bb0
+source-git-commit: 4917efbe0ac119875029305b3f8c3303056cfcc8
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 5%
@@ -27,7 +27,7 @@ Campaign Classic v7.3.5의 업데이트, 개선 사항 및 패치를 살펴보�
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
->[!TAB Adobe Identity Management 서비스로 이동]
+>[!TAB Adobe Identity Management 시스템으로 이동]
 
 보안 및 인증 프로세스를 강화하기 위해 Adobe Campaign은 최종 사용자 인증 모드를 로그인/암호 기본 인증에서 Adobe Identity Management 시스템(IMS)으로 마이그레이션할 것을 강력히 권장합니다.
 
