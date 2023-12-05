@@ -3,15 +3,15 @@ product: campaign
 title: 전자 메일 보관
 description: 전자 메일 보관
 feature: Installation, Instance Settings, Email
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e808e71ccf949bdaf735cdb2895389f03638bd71
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 5%
+source-wordcount: '1218'
+ht-degree: 2%
 
 ---
 
@@ -80,7 +80,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 ```
 <archiving autoStart="false" compressionFormat="0" compressBatchSize="10000"
-           archivingType="0" expirationDelay="2" purgeArchivesDelay="7"
+           archivingType="1" expirationDelay="2" purgeArchivesDelay="7"
            pollDelay="600" acquireLimit="5000" smtpNbConnection="2"/>
 ```
 
@@ -91,11 +91,12 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
   **1**: 압축(.zip 형식)
 
 * **압축 일괄 처리 크기**: 보관 파일에 추가된 .eml 파일 수(.zip 파일).
-* **보관 유형**: 사용할 보관 전략 가능한 값은 다음과 같습니다.
 
-  **0**: 보낸 이메일의 원시 사본은 .eml 형식으로에 저장됩니다. **데이터 로그 경로** 폴더(기본값). 의 보관 사본 **`<deliveryid>-<broadlogid>-sent.eml`** 파일이 **dataLogPath/아카이브** 폴더를 삭제합니다. 보낸 이메일 파일 경로가 다음과 같이 변경됩니다. **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
 
-  **1**: 보낸 이메일의 원시 사본은 .eml 형식으로에 저장됩니다. **데이터 로그 경로** 폴더와 SMTP를 통해 BCC 이메일 주소로 전송됩니다. BCC 주소로 e- 메일 사본이 전송되면 아카이브 파일 이름이 **`<deliveryid>-<broadlogid>-sent-archived.eml`** 파일이 **dataLogPath/아카이브** 폴더를 삭제합니다. 그러면 전송 및 BCC 보관된 이메일 파일 경로가 **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
+* **보관 유형**: 사용할 보관 전략 가능한 유일한 값은 입니다. **1**. 보낸 이메일의 원시 사본은 .eml 형식으로 **데이터 로그 경로** 폴더와 SMTP를 통해 BCC 이메일 주소로 전송됩니다. BCC 주소로 e- 메일 사본이 전송되면 아카이브 파일 이름이 **`<deliveryid>-<broadlogid>-sent-archived.eml`** 파일이 **dataLogPath/아카이브** 폴더를 삭제합니다. 그러면 전송 및 BCC 보관된 이메일 파일 경로가 **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
+
+  <!--
+  **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.-->
 
 * **expirationDelay**: .eml 파일이 보관되는 일 수입니다. 그런 다음 자동으로 로 이동합니다. **dataLogPath/아카이브** 압축을 위한 폴더입니다. 기본적으로 .eml 파일은 2일 후에 만료됩니다.
 * **purgeArchivesDelay**: 아카이브가 다음 위치에 보관되는 일 수 **dataLogPath/`<archives>`** 폴더를 삭제합니다. 해당 기간이 지나면 영구적으로 삭제됩니다. MTA가 시작되면 제거가 시작됩니다. 기본적으로 7일마다 수행됩니다.
@@ -131,23 +132,23 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 >
 >또한 릴레이는 **[!UICONTROL Sent]** 전송되지 않은 상태를 포함하여 모든 이메일에 대한 상태. 따라서 모든 메시지가 보관됩니다.
 
-## 새 이메일 BCC로 이동 {#updated-email-archiving-system--bcc-}
+<!--
+## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
 
-[!BADGE 온-프레미스 및 하이브리드]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"}
-
-
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
 
 >[!IMPORTANT]
 >
->BCC(전자 메일 보관 시스템)가 Adobe Campaign 17.2(빌드 8795)로 변경되었습니다. 이전 빌드에서 업그레이드하는 경우 이미 전자 메일 보관 기능을 사용하고 있다면 수동으로 새 BCC(전자 메일 보관 시스템)로 업그레이드해야 합니다.
+>The email archiving system (BCC) changed with Adobe Campaign 17.2 (build 8795). If you are upgrading from an older build and were already using email archiving capabilities, you must upgrade manually to the new email archiving system (BCC).
 
-이렇게 하려면 다음을 변경합니다. **`config-<instance>.xml`** 파일:
+To do this, make the following changes to the **`config-<instance>.xml`** file:
 
-1. 제거 **zip 경로** 의 매개 변수 **`<archiving>`** 노드.
-1. 설정 **압축 형식** 매개 변수 **1** 필요한 경우.
-1. 설정 **보관 유형** 매개 변수 **1**.
+1. Remove the **zipPath** parameter from the **`<archiving>`** node.
+1. Set the **compressionFormat** parameter to **1** if needed.
+1. Set the **archivingType** parameter to **1**.
 
-이메일 BCC가 구성되면 **[!UICONTROL Email BCC]** 게재 템플릿 또는 게재에 있는 옵션. 자세한 내용은 [이 섹션](../../delivery/using/sending-messages.md#archiving-emails)을 참조하십시오.
+Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]** option in the delivery template or the delivery. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
+-->
 
 ## 이메일 BCC 모범 사례 {#best-practices}
 
