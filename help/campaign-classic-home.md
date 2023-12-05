@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 93d6ffc4ac3047ab6a9a41859bed48f6ffac605b
+source-git-commit: 41dcf70724761237a8230bad04322bd3322c0e6f
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 6%
+source-wordcount: '314'
+ht-degree: 5%
 
 ---
 
@@ -20,17 +20,24 @@ Adobe Campaign Classic v7 제품 및 설명서의 최신 개선 사항을 살펴
 
 >[!BEGINTABS]
 
+
+>[!TAB 12월 릴리스가 공개되었습니다!]
+
+Campaign Classic v7.3.5의 업데이트, 개선 사항 및 패치를 살펴보십시오.
+
+[![이미지](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
+
+>[!TAB Adobe Identity Management 서비스로 이동]
+
+보안 및 인증 프로세스를 강화하기 위해 Adobe Campaign은 최종 사용자 인증 모드를 로그인/암호 기본 인증에서 Adobe Identity Management 시스템(IMS)으로 마이그레이션할 것을 강력히 권장합니다.
+
+[![이미지](assets/do-not-localize/learn-more-button.svg)](technotes/using/migrate-users-to-ims.md)
+
 >[!TAB Adobe Experience Cloud 통합 업데이트]
 
 레거시 oAuth 인증 서비스가 종료되었습니다. Adobe I/O으로 마이그레이션해야 합니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](integrations/using/configuring-adobe-io.md)
-
->[!TAB 9월 릴리스가 공개되었습니다!]
-
-이 새 버전에서 제공하는 보안 및 호환성 업데이트, 개선 사항 및 패치를 살펴보십시오.
-
-[![이미지](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
 >[!ENDTABS]
 
