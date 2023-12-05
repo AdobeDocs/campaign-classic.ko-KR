@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: f2e6db9e198f96e1e0250d461b419ac00e39bf45
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 98%
+source-wordcount: '2221'
+ht-degree: 88%
 
 ---
 
@@ -18,9 +18,35 @@ ht-degree: 98%
 
 이 페이지에서는 **최신 Campaign v7 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다. 모든 새 빌드는 색상으로 상태가 표시됩니다. [이 페이지](rn-overview.md)에서 Campaign Classic v7 빌드 상태에 대해 자세히 알아보십시오.
 
-## 릴리스 7.3.4 - 빌드 9364 {#release-7-3-4}
+## 릴리스 7.3.5 - 빌드 9368 {#release-7-3-5}
 
 [!BADGE 일반 공급]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
+
+
+_2023년 12월 5일 수요일_
+
+
+**향상된 보안 기능**
+
+
+* Campaign Classic v7.3.5를 통해 인증 프로세스가 개선되고 보호되었습니다. 이제 기술 운영자는 IMS(Adobe Identity Management System)를 사용하여 Campaign에 연결해야 합니다. 에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다. [이 기술 노트](../../technotes/using/ims-migration.md).
+
+* 또한 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Adobe Campaign은 최종 사용자 인증 모드를 로그인/암호 기본 인증에서 Adobe Identity Management 시스템(IMS)으로 마이그레이션할 것을 강력히 권장합니다. 에서 연산자를 마이그레이션하는 방법을 알아봅니다. [이 기술 노트](../../technotes/using/migrate-users-to-ims.md).
+
+**패치**
+
+* Google Big Query 데이터베이스의 데이터를 사용하고 Oracle 데이터베이스에서 데이터를 업데이트할 때 발생하는 문제가 해결되었습니다. 모든 키가 로 설정되었습니다. `0` 워크플로 임시 테이블에서 참조할 수 있습니다. (NEO-65091)
+* Google Big Query 데이터베이스의 두 쿼리가 **합집합** 워크플로우 활동. (NEO-63705)
+* 을(를) 클릭할 때 사용자에게 다시 인증하도록 요청하는 문제를 해결했습니다. `Back` Campaign 보고서의 단추. (NEO-65087)
+* 게재 증명 전에 게재를 삭제할 때 발생하는 데이터베이스 정리 워크플로우의 오류를 수정했습니다. (NEO-48114)
+* 클라이언트 콘솔에 연결하는 동안 TLS 확인에 대한 최근 업데이트로 연결 오류가 발생하는 문제를 해결했습니다. (NEO-50488)
+* Campaign을 7.3.1로 업그레이드 후 HTTP 프록시 인증과 관련된 문제를 해결했습니다. Campaign 워크플로우의 HTTP 요청이 다음과 같이 실패했습니다. `error 407 – proxy auth required is returned`. (NEO-49624)
+* 에서 GPG 암호 해독의 중간 오류를 해결했습니다. **스크립트** 워크플로우 활동. 관련 오류 메시지는 다음과 같습니다. `gpg: decryption failed: No secret key`. (NEO-50257)
+  <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
+
+## 릴리스 7.3.4 - 빌드 9364 {#release-7-3-4}
+
+[!BADGE 제한 공개]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
 >[!CAUTION]
 >
