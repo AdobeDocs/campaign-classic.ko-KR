@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 8ecb5aba9a070276927e97586ed463ab485717d6
-workflow-type: ht
-source-wordcount: '3645'
-ht-degree: 100%
+source-git-commit: 38cd50072bdedbac566eb3a56d86328d1e5e1883
+workflow-type: tm+mt
+source-wordcount: '3648'
+ht-degree: 99%
 
 ---
 
@@ -22,9 +22,11 @@ ht-degree: 100%
 
 ## 2023
 
-### 2023년 11월
+### 2023년 12월
 
-현재 JWT(JSON 웹 토큰) 지원 종료를 준비하고 있으며 이를 OAuth로 대체하는 과정이 진행 중입니다. Campaign의 예정된 릴리스 내에서 이 전환을 점진적으로 수행하며 설명서에 업데이트를 반영하여 업데이트합니다.
+현재 JWT(JSON 웹 토큰)의 지원 종료를 준비하고 있으며, 이를 OAuth로 대체하는 과정이 진행 중입니다. Campaign의 예정된 릴리스 내에서 이 전환을 점진적으로 수행하며, 설명서에 이러한 업데이트를 반영하여 업데이트합니다.
+
+Amazon Redshift에 대한 FDA 외부 계정 구성을 추가했습니다. [자세히 보기](../../installation/using/configure-fda-redshift.md)
 
 ### 2023년 8월
 
@@ -534,7 +536,7 @@ HTTP를 통한 FDA에 대한 제한이 트랜잭션 메시지 가이드에 추�
 
 URL 보고서 구성에 대한 새 매개 변수가 [여기](../../reporting/using/properties-of-the-report.md#defining-additional-settings)에 설명되어 있습니다.
 
-**Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스** 페이지가 새로운 FDA 커넥터로 업데이트되었습니다. [자세한 내용](../../installation/using/capability-matrix.md).
+**Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스** 페이지가 새로운 FDA 커넥터로 업데이트되었습니다. [자세히 보기](../../installation/using/capability-matrix.md).
 
 **Campaign Classic 기능 매트릭스** 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
