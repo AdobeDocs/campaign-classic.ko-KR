@@ -2,12 +2,14 @@
 product: campaign
 title: 공개 클라우드로 마이그레이션
 description: 공개 클라우드로의 Campaign Classic 마이그레이션에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Technote, Upgrade
 role: User
 level: Beginner
+solution: Campaign
+version: Classic v7
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 87a27eb96fe9fbcb68a5e961b95cb4588eee85e3
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 2%
@@ -20,13 +22,13 @@ ht-degree: 2%
 
 ## 컨텍스트
 
-소중한 Adobe Campaign Classic 고객으로서 최고의 경험과 가치를 제공하기 위해 최선을 다하고 있습니다. 수년에 걸쳐 Dell은 클라우드에서 고객을 호스팅할 수 있는 가치와 안정성을 실현했습니다.  의 일부로 [연간 업그레이드 이니셔티브](../../rn/using/rn-overview.md#yearly-upgrade), 더 우수하고 안정적인 서비스를 제공하기 위해 모든 고객을 Adobe Managed Services(AWS의 Public Cloud)로 이동하고 있습니다.
+소중한 Adobe Campaign Classic 고객으로서 최고의 경험과 가치를 제공하기 위해 최선을 다하고 있습니다. 수년에 걸쳐 Dell은 클라우드에서 고객을 호스팅할 수 있는 가치와 안정성을 실현했습니다.  의 일부로 [연간 업그레이드 이니셔티브](../../rn/using/rn-overview.md#yearly-upgrade), 우리는 더 우수하고 안정적인 서비스를 제공하기 위해 모든 고객을 Managed Services(AWS의 공용 클라우드) Adobe으로 이동하고 있습니다.
 
 이 프로그램에는 세 가지 주요 목표가 있습니다.
 
 * 인프라를 안전한 최신 환경(AWS)으로 이동하여 식별된 보안 취약점을 해결합니다.
 * 잠재적으로 번거로운 확장 프로세스를 제거하고 [향상된 MTA](../../delivery/using//sending-with-enhanced-mta.md) 또한 모든 유지 보수 서비스 수준을 향상시킬 수 있습니다.
-* 많은 리소스와 시간이 필요하지 않은 보다 자동화된 정기적 업그레이드를 포함하여 Adobe Campaign Classic의 미래를 위한 인스턴스를 준비합니다.
+* 많은 리소스와 시간이 필요하지 않은 보다 자동화된 정기적인 업그레이드를 포함하여 Adobe Campaign Classic의 미래를 위한 인스턴스를 준비합니다.
 
 ### 용어집
 
@@ -38,7 +40,7 @@ ht-degree: 2%
 
 
 >[!NOTE]
->공용 클라우드로 마이그레이션하는 Campaign Classic v7은 다음을 사용하는 고객에게 영향을 줍니다. **Adobe Managed Services** 만 해당.
+>공용 클라우드로 마이그레이션하는 Campaign Classic v7은 다음을 사용하는 고객에게 영향을 줍니다. **Managed Services Adobe** 만 해당.
 
 
 ## 이점
@@ -79,7 +81,7 @@ ht-degree: 2%
 
 이러한 노력을 시작하기 위해 이 마이그레이션이 필요한 계정은 타임라인을 제공하고 설명서에 액세스할 수 있는 Adobe의 이메일 커뮤니케이션을 수신하게 됩니다. 계정이 마이그레이션되도록 예약되었다는 알림이 됩니다.
 
-마이그레이션은 다음 방법으로 시작할 수 있습니다. [새 고객 지원 티켓 열기](https://experienceleague.adobe.com/?support-solution=Campaign#support). &quot;AWS으로 마이그레이션&quot;이라는 제목을 사용합니다.
+마이그레이션은 다음 방법으로 시작할 수 있습니다. [새 고객 지원 티켓 열기](https://experienceleague.adobe.com/?support-solution=Campaign#support). 제목란 &quot;AWS으로 마이그레이션&quot;을 사용합니다.
 
 ### 이 마이그레이션은 필수입니까?
 
@@ -208,6 +210,6 @@ Adobe은 새 데이터 센터에 동일한 수의 IP를 프로비저닝합니다
 
 ## 지원 및 기타 유용한 링크{#support}
 
-* [Adobe Managed Services(Public Cloud)로 마이그레이션 FAQ](dc-migration-faq.md)
+* [Adobe Managed Services(공용 클라우드)로 마이그레이션 FAQ](dc-migration-faq.md)
 * [캠페인 연간 업그레이드](../../rn/using/rn-overview.md)
 * [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)
