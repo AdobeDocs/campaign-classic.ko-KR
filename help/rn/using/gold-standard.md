@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1791'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ _2019년 12월 17일_
 
 빌드 9032@d6b8062에는 다음 수정 사항이 포함되어 있습니다.
 
-* 모바일(SMS, MMS), 푸시(iOS, Android) 및 소셜 네트워크(Facebook, X - 이전의 Twitter)와 같은 통신 채널의 추적 문제를 해결했습니다. (NEO-19595)
+* 모바일(SMS, MMS), 푸시(iOS, Android), 소셜 네트워크(Facebook, X(예전 이름 Twitter)) 등 통신 채널의 추적 문제를 해결했습니다. (NEO-19595)
 
 ### [!DNL Gold Standard] 4 릴리스{#gs-4}
 
