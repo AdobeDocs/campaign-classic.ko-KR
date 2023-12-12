@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign을 통해 풍부한 고객 데이터를 �
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: c2ac8fcf1d9746dbddffc90491a6f214e2c3df2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2544'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -811,7 +811,7 @@ ht-degree: 99%
 + 마이그레이션 안내서 {#migrating-to-a-new-version}
    + [Adobe Campaign v7로 마이그레이션하기](migration/using/about-migration.md)
    + 마이그레이션 절차 {#migration-procedure}
-      + [전제 조건](migration/using/before-starting-migration.md)
+      + [필수 구성 요소](migration/using/before-starting-migration.md)
       + [마이그레이션 테스트 정보](migration/using/testing-the-migration.md)
       + [구성 조정](migration/using/configuring-your-platform.md)
    + 마이그레이션 시작 {#migrating-to-adobe-campaign-7}
