@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: cc6d85bcf822ba9be99e39cf459a5aa20cc2d4fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3648'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -312,7 +312,7 @@ Campaign 20.2.3 릴리스를 GA(General Availability)로 이동했습니다.
 
 ## 2020년 10월 {#oct-2020}
 
-**릴리스에 포함된 새로운 기능**
+**20.3 릴리스에 포함된 새로운 기능**
 
 iOS용 푸시 알림 개선 - [자세한 내용](../../delivery/using/configuring-the-mobile-application.md)
 
