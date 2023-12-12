@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: f2e6db9e198f96e1e0250d461b419ac00e39bf45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2221'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -29,19 +29,19 @@ _2023년 12월 5일 수요일_
 **향상된 보안 기능**
 
 
-* Campaign Classic v7.3.5를 통해 인증 프로세스가 개선되고 보호되었습니다. 이제 기술 운영자는 IMS(Adobe Identity Management System)를 사용하여 Campaign에 연결해야 합니다. 에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다. [이 기술 노트](../../technotes/using/ims-migration.md).
+* Campaign Classic v7.3.5를 통해 인증 프로세스가 개선되고 안전해졌습니다. 이제 기술 운영자는 Adobe IMS(Identity Management System)를 사용하여 Campaign에 연결해야 합니다. [이 기술 노트](../../technotes/using/ims-migration.md)에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다.
 
-* 또한 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Adobe Campaign은 최종 사용자 인증 모드를 로그인/암호 기본 인증에서 Adobe Identity Management 시스템(IMS)으로 마이그레이션할 것을 강력히 권장합니다. 에서 연산자를 마이그레이션하는 방법을 알아봅니다. [이 기술 노트](../../technotes/using/migrate-users-to-ims.md).
+* 또한 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Adobe Campaign은 최종 사용자 인증 모드를 로그인/암호 기본 인증에서 Adobe IMS(Identity Management System)로 마이그레이션할 것을 강력히 권장합니다. [이 기술 노트](../../technotes/using/migrate-users-to-ims.md)에서 운영자를 마이그레이션하는 방법을 알아봅니다.
 
 **패치**
 
-* Google Big Query 데이터베이스의 데이터를 사용하고 Oracle 데이터베이스에서 데이터를 업데이트할 때 발생하는 문제가 해결되었습니다. 모든 키가 로 설정되었습니다. `0` 워크플로 임시 테이블에서 참조할 수 있습니다. (NEO-65091)
-* Google Big Query 데이터베이스의 두 쿼리가 **합집합** 워크플로우 활동. (NEO-63705)
-* 을(를) 클릭할 때 사용자에게 다시 인증하도록 요청하는 문제를 해결했습니다. `Back` Campaign 보고서의 단추. (NEO-65087)
-* 게재 증명 전에 게재를 삭제할 때 발생하는 데이터베이스 정리 워크플로우의 오류를 수정했습니다. (NEO-48114)
-* 클라이언트 콘솔에 연결하는 동안 TLS 확인에 대한 최근 업데이트로 연결 오류가 발생하는 문제를 해결했습니다. (NEO-50488)
-* Campaign을 7.3.1로 업그레이드 후 HTTP 프록시 인증과 관련된 문제를 해결했습니다. Campaign 워크플로우의 HTTP 요청이 다음과 같이 실패했습니다. `error 407 – proxy auth required is returned`. (NEO-49624)
-* 에서 GPG 암호 해독의 중간 오류를 해결했습니다. **스크립트** 워크플로우 활동. 관련 오류 메시지는 다음과 같습니다. `gpg: decryption failed: No secret key`. (NEO-50257)
+* Google Big Query 데이터베이스의 데이터를 사용하고 Oracle 데이터베이스의 데이터를 업데이트할 때 워크플로우 임시 테이블의 모든 키가 `0`(으)로 설정되는 문제를 해결했습니다. (NEO-65091)
+* Google Big Query 데이터베이스의 두 쿼리가 **합집합** 워크플로우 활동으로 결합되어 있을 때 워크플로우 실행에 실패하는 문제를 해결했습니다. (NEO-63705)
+* Campaign 보고서의 `Back` 버튼을 클릭할 때 사용자에게 다시 인증하라는 요청이 표시되는 문제를 해결했습니다. (NEO-65087)
+* 게재 증명 전에 게재를 삭제할 때 발생하는 데이터베이스 정리 워크플로우의 오류를 해결했습니다. (NEO-48114)
+* TLS 인증에 대한 최근 업데이트로 인해 클라이언트 콘솔에 연결할 때 연결 오류가 발생하는 문제를 해결했습니다. (NEO-50488)
+* Campaign을 7.3.1로 업그레이드한 후 HTTP 프록시 인증 시 Campaign 워크플로우의 HTTP 요청이 실패하며 `error 407 – proxy auth required is returned`라는 오류 메시지가 표시되는 문제를 해결했습니다. (NEO-49624)
+* **스크립트** 워크플로우 활동에서 GPG 암호 해독이 간헐적으로 실패하는 오류를 해결했습니다. 관련 오류 메시지는 다음과 같습니다. `gpg: decryption failed: No secret key`. (NEO-50257)
   <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
 
 ## 릴리스 7.3.4 - 빌드 9364 {#release-7-3-4}
