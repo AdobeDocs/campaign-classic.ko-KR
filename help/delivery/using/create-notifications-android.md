@@ -6,10 +6,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 feature: Push
 role: User, Developer, Data Engineer
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 2%
+source-wordcount: '654'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,8 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 * **[!UICONTROL Notification message]**FCM SDK에 의해 자동으로 처리됩니다.
   <br> FCM은 클라이언트 앱을 대신하여 사용자의 장치에 메시지를 자동으로 표시합니다. 알림 메시지에는 사전 정의된 매개 변수 및 옵션 세트가 포함되어 있지만 사용자 지정 애플리케이션 변수를 사용하여 추가로 개인화할 수 있습니다.
 
-Firebase Cloud 메시지 유형에 대한 자세한 내용은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages).
+Firebase Cloud 메시지 유형에 대한 자세한 내용은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages){target="_blank"}.
+
 
 ## 데이터 메시지 만들기 {#creating-data-message}
 
@@ -68,11 +69,7 @@ Firebase Cloud 메시지 유형에 대한 자세한 내용은 다음을 참조�
 
 ## 알림 메시지 만들기 {#creating-notification-message}
 
->[!NOTE]
->
->알림 메시지에 대한 추가 옵션은 HTTP v1 API 구성에서만 사용할 수 있습니다. 자세한 정보는 이 [섹션](configuring-the-mobile-application-android.md#android-service-httpv1)을 참조하십시오.
-
-![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 푸시 알림을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html#additional-resources)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 푸시 알림을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html#additional-resources){target="_blank"}.
 
 1. 다음으로 이동 **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 
@@ -103,7 +100,7 @@ Firebase Cloud 메시지 유형에 대한 자세한 내용은 다음을 참조�
    * **[!UICONTROL Tag]**: 알림 창에서 기존 알림을 바꾸는 데 사용되는 식별자를 설정합니다.
    * **[!UICONTROL Click action]**: 알림에 대한 사용자 클릭과 관련된 작업을 설정합니다.
 
-   자세한 내용은 **[!UICONTROL Notification options]** 이러한 필드를 채우는 방법은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification).
+   자세한 내용은 **[!UICONTROL Notification options]** 이러한 필드를 채우는 방법은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
 
    ![](assets/nmac_android_8.png)
 
@@ -116,7 +113,7 @@ Firebase Cloud 메시지 유형에 대한 자세한 내용은 다음을 참조�
    * **[!UICONTROL Notification Priority]**: 알림의 우선 순위 수준을 기본값, 최소, 낮음 또는 높음으로 설정합니다. 자세한 내용은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority).
    * **[!UICONTROL Visibility]**: 알림의 가시성 수준을 공개, 비공개 또는 비밀로 설정합니다. 자세한 내용은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility).
 
-   자세한 내용은 **[!UICONTROL HTTP v1 additional options]** 이러한 필드를 채우는 방법은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification).
+   자세한 내용은 **[!UICONTROL HTTP v1 additional options]** 이러한 필드를 채우는 방법은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
 
    ![](assets/nmac_android_9.png)
 

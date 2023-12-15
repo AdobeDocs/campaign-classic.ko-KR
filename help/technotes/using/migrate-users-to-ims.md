@@ -1,7 +1,8 @@
 ---
 title: 캠페인 운영자를 IMS(Identity Management System) Adobe으로 마이그레이션
 description: Campaign 연산자를 IMS(Identity Management System) Adobe으로 마이그레이션하는 방법에 대해 알아봅니다.
-source-git-commit: 18166dd389847d6b844ed478e19c42e457abeb80
+exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
+source-git-commit: bc9367d598474b7971f25c27980ff25dd93bf87a
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 2%
@@ -34,7 +35,7 @@ Campaign Classic을 사용하면 모든 일반 사용자가 이미 Adobe Identit
 
 ## 호스팅 및 Managed Services 환경을 마이그레이션하는 방법 {#ims-migration-procedure}
 
-### 전제 조건 {#ims-migration-prerequisites}
+### 필수 구성 요소 {#ims-migration-prerequisites}
 
 마이그레이션 프로세스를 시작하기 전에 Adobe 기술 팀이 기존 운영자 Adobe 및 IMS(Identity Management System) Adobe에 대한 명명된 권한을 마이그레이션할 수 있도록 Adobe 전환 관리자(Managed Services 고객용) 또는 고객 지원 센터(다른 호스팅 고객용)에 연락해야 합니다.
 

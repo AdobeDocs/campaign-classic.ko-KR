@@ -6,22 +6,16 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 7%
+source-wordcount: '621'
+ht-degree: 4%
 
 ---
 
 # iOS용 구성 단계 {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
-
-
 패키지가 설치되면 Adobe Campaign Classic에서 iOS 앱 설정을 정의할 수 있습니다.
-
->[!NOTE]
->
->Android용 앱을 구성하는 방법 및 Android용 게재를 만드는 방법에 대해 알아보려면 다음을 참조하십시오. [섹션](configuring-the-mobile-application-android.md).
 
 주요 단계:
 
@@ -30,7 +24,6 @@ ht-degree: 7%
 1. [Campaign에서 iOS 모바일 앱 통합](#creating-ios-app)
 
 그러면 다음을 수행할 수 있습니다. [iOS 장치에 대한 푸시 알림 만들기](create-notifications-ios.md).
-
 
 ## iOS 외부 계정 구성 {#configuring-external-account-ios}
 
@@ -102,7 +95,7 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 
 1. 클릭 **[!UICONTROL Next]** 개발 응용 프로그램 구성을 시작합니다.
 
-1. 동일한 것으로 확인 **[!UICONTROL Integration key]** 는 Adobe Campaign 및 SDK를 통한 애플리케이션 코드에 정의되어 있습니다. 자세한 정보는 이 [페이지](integrating-campaign-sdk-into-the-mobile-application.md)를 참조하십시오. 각 애플리케이션에 해당하는 이 통합 키를 사용하면 모바일 애플리케이션을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
+1. 동일한 것으로 확인 **[!UICONTROL Integration key]** 는 Adobe Campaign 및 SDK를 통한 애플리케이션 코드에 정의되어 있습니다. 자세한 내용은 다음을 참조하십시오. [이 페이지](integrating-campaign-sdk-into-the-mobile-application.md). 각 애플리케이션에 해당하는 이 통합 키를 사용하면 모바일 애플리케이션을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
 
    >[!NOTE]
    >

@@ -3,7 +3,8 @@ title: 기술 사용자를 Adobe Developer 콘솔로 마이그레이션
 description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 계정으로 마이그레이션하는 방법을 알아봅니다
 feature: Technote
 role: Admin
-source-git-commit: 68d1f5ae0089a0c447acf67c28c27f4e1069a218
+exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
+source-git-commit: bc9367d598474b7971f25c27980ff25dd93bf87a
 workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 0%
