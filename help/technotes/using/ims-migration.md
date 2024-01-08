@@ -4,9 +4,9 @@ description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 �
 feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
-source-git-commit: bc9367d598474b7971f25c27980ff25dd93bf87a
+source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1694'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Campaign Classic v7.3.5부터 보안 및 인증 프로세스를 강화하기 위
 
 Campaign 외부 시스템에서 Campaign 마케팅 인스턴스 또는 실시간 메시지 센터 인스턴스로 API를 호출하는 경우, Adobe은 아래에 자세히 설명된 대로 Adobe Developer 콘솔을 통해 기술 연산자를 기술 계정으로 마이그레이션할 것을 강력히 권장합니다.
 
-이 변경 사항은 Campaign Classic v7.3.5부터 적용할 수 있으며 **필수** Adobe Campaign v8로 이동합니다.
+이 변경 사항은 Campaign Classic v7.3.5(및 최신 버전)부터 적용됩니다. [IMS 마이그레이션 호환 버전](#ims-versions-tech)) 및 는 **필수** Adobe Campaign v8로 이동합니다.
 
 ## 마이그레이션 프로세스 {#ims-migration-procedure}
 
@@ -36,13 +36,24 @@ Campaign 외부 시스템에서 Campaign 마케팅 인스턴스 또는 실시간
 * 새로 만든 기술 계정 자격 증명을 사용하도록 API 업데이트
 * Campaign 인스턴스에서 기존 기술 연산자 제거
 
+
+### IMS 마이그레이션 호환 버전 {#ims-versions-tech}
+
+이 마이그레이션의 전제 조건은 환경을 다음 제품 버전 중 하나로 업그레이드하는 것입니다.
+
+* Campaign v7.3.5 (권장)
+* Campaign v7.3.3.IMS
+  <!--* Campaign v7.3.2.IMS-->
+
+이러한 Campaign 버전은 다음에 자세히 설명되어 있습니다. [릴리스 정보](../../rn/using/latest-release.md).
+
 ### 마이그레이션 사전 요구 사항{#ims-migration-prerequisites}
 
 <!--To be able to create the technical accounts which replace the technical operators, the prerequisite that the proper Campaign Product Profiles exist within the Admin Console for all Campaign instances need to be validated. You can learn more about Product Profiles within the Adobe Console in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.-->
 
 * Campaign Hosted 및 Managed Services 고객
 
-  메시지 센터 인스턴스에 대한 API 호출의 경우 Campaign v7.3.5로 업그레이드하는 동안 또는 인스턴스를 프로비저닝하는 동안 제품 프로필을 만들어야 합니다. 이 제품 프로필의 이름은 다음과 같습니다.
+  메시지 센터 인스턴스에 대한 API 호출의 경우 Campaign v7.3.5(또는 기타)로 업그레이드하는 동안 제품 프로필을 만들어야 합니다 [IMS 마이그레이션 호환 버전](#ims-versions-tech)), 또는 인스턴스 프로비저닝 중에 선택할 수 있습니다. 이 제품 프로필의 이름은 다음과 같습니다.
 
   `campaign - <your campaign instance> - messagecenter`
 
@@ -227,7 +238,7 @@ Campaign 인스턴스에 대한 API 호출이 하나 이상 만들어져야 IMS�
 
    ![](assets/do-not-translate/ims-updates-07.png)
 
-   자격 증명 화면에서 아래로 스크롤하여 **기술 계정 이메일**을 찾고 **복사** 단추를 클릭합니다.
+   다음에서 **자격 증명 세부 정보** 탭을 아래로 스크롤하여 **기술 계정 이메일** 을(를) 클릭하고 **복사** 단추를 클릭합니다.
 
    ![](assets/do-not-translate/ims-updates-08.png)
 

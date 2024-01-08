@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: f2e6db9e198f96e1e0250d461b419ac00e39bf45
-workflow-type: ht
-source-wordcount: '2221'
-ht-degree: 100%
+source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
+workflow-type: tm+mt
+source-wordcount: '2258'
+ht-degree: 97%
 
 ---
 
@@ -20,20 +20,20 @@ ht-degree: 100%
 
 ## 릴리스 7.3.5 - 빌드 9368 {#release-7-3-5}
 
-[!BADGE 일반 공급]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
+[!BADGE 일반 공급]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
 
 
 _2023년 12월 5일 수요일_
 
 
-**향상된 보안 기능**
+### 향상된 보안 기능 {#release-7-3-5-security}
 
 
 * Campaign Classic v7.3.5를 통해 인증 프로세스가 개선되고 안전해졌습니다. 이제 기술 운영자는 Adobe IMS(Identity Management System)를 사용하여 Campaign에 연결해야 합니다. [이 기술 노트](../../technotes/using/ims-migration.md)에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다.
 
 * 또한 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Adobe Campaign은 최종 사용자 인증 모드를 로그인/암호 기본 인증에서 Adobe IMS(Identity Management System)로 마이그레이션할 것을 강력히 권장합니다. [이 기술 노트](../../technotes/using/migrate-users-to-ims.md)에서 운영자를 마이그레이션하는 방법을 알아봅니다.
 
-**패치**
+### 패치 {#release-7-3-5-patches}
 
 * Google Big Query 데이터베이스의 데이터를 사용하고 Oracle 데이터베이스의 데이터를 업데이트할 때 워크플로우 임시 테이블의 모든 키가 `0`(으)로 설정되는 문제를 해결했습니다. (NEO-65091)
 * Google Big Query 데이터베이스의 두 쿼리가 **합집합** 워크플로우 활동으로 결합되어 있을 때 워크플로우 실행에 실패하는 문제를 해결했습니다. (NEO-63705)
@@ -48,27 +48,28 @@ _2023년 12월 5일 수요일_
 
 [!BADGE 제한 공개]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
+
 >[!CAUTION]
 >
 >클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../../installation/using/installing-the-client-console.md)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
 >
-> [Campaign - Microsoft Dynamics CRM 커넥터](../../platform/using/crm-connectors.md)를 사용하는 경우, 이 새로운 빌드를 사용하여 마케팅 및 중간 소싱 서버를 모두 업그레이드해야 합니다.
+>[Campaign - Microsoft Dynamics CRM 커넥터](../../platform/using/crm-connectors.md)를 사용하는 경우, 이 새로운 빌드를 사용하여 마케팅 및 중간 소싱 서버를 모두 업그레이드해야 합니다.
 
 _2023년 9월 7일_
 
-**보안 개선**
+### 향상된 보안 기능 {#release-7-3-4-security}
 
 * IMS API의 보안이 개선되었습니다. 클라이언트에 민감한 정보(즉, 액세스 토큰)가 URL 매개 변수에서 제거되었습니다. 이제 이러한 자격 증명이 post 데이터 또는 인증 헤더로 전송되어 더욱 안전한 통신 프로세스가 보장됩니다. (NEO-63045)
 * DDOS 공격을 방지하기 위해 웹 앱의 보안이 개선되었습니다. (NEO-50757)
 * PII 데이터가 웹 로그 오류에 노출되지 않도록 보안이 향상되었습니다. (NEO-46827)
 * 보안 토큰이 Campaign 홈 페이지 URL에 포함되지 않도록 보안이 최적화되었습니다. (NEO-38519)
 
-**호환성 업데이트**
+### 호환성 업데이트  {#release-7-3-4-compat}
 
 * Tomcat이 버전 8.5.91로 업데이트되었습니다.
 * libexpat 라이브러리가 보안을 개선하기 위해 2.5.0으로 업데이트되었습니다. (NEO-51023)
 
-**개선 사항**
+### 개선 사항 {#release-7-3-4-improvements}
 
 * 서버 구성 파일(serverConf.xml)의 MaxWorkingSetMb 매개 변수가 게재에 대한 메모리 할당을 최적화하도록 수정되었습니다. (NEO-49204)
 * BigQuery 외부 계정이 GCloud SDK를 설정하는 데 사용되는 새로운 옵션으로 향상되었습니다. (NEO-63879) [자세히 보기](../../installation/using/configure-fda-google-big-query.md#google-external)
@@ -76,7 +77,7 @@ _2023년 9월 7일_
 * lastMsgId에 대한 부정적인 ID를 방지하기 위해 추적 로그 관리가 개선되었습니다. int32에서 int64로 변경되었습니다. (NEO-52290)
 * 중간 소싱(게재 통계) 워크플로우가 즉시 추가되었습니다. 이 새 워크플로우는 게재 통계 데이터(nms:deliveryStat)를 중간에서 마케팅 인스턴스로 동기화합니다. (NEO-36802)
 
-**패치**
+### 패치 {#release-7-3-4-patches}
 
 * 서비스 요청 호출 인증이 서비스 토큰을 사용하는 경우 IMS 로그인 전에 서비스 요청을 했을 때 발생할 수 있는 문제를 해결했습니다. (NEO-64903)
 * 디지털 콘텐츠 편집기를 사용할 때 스크롤 문제로 이어질 수 있는 회귀 문제를 해결했습니다. (NEO-64671, NEO-59256)
@@ -117,17 +118,21 @@ _2023년 9월 7일_
 
 [!BADGE 제한 공개]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
->[!CAUTION]
+>[!AVAILABILITY]
 >
->클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../../installation/using/installing-the-client-console.md)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
+>이 버전에서는 환경에 다른 패치가 적용되지 않은 경우 특정 Campaign v7.3.3.IMS 패치 업그레이드를 사용할 수 있습니다. 다음을 제공합니다. [Adobe Identity Management System(IMS) 보안 업데이트 v7.3.5](#release-7-3-5-security) 기존 v7.3.3 환경에
+
 
 _2023년 3월 20일_
 
-**보안 개선**
+
+### 향상된 보안 {#release-7-3-3-security}
 
 * 보안을 최적화하기 위해 Tomcat이 버전 8.5.81에서 8.5.85로 업데이트되었습니다. (NEO-56936)
 
-**개선 사항**
+
+
+### 개선 사항 {#release-7-3-3-improvements}
 
 * 과금 워크플로우를 개선하여 성능을 최적화했습니다. (NEO-47658)
 * 추적 워크플로우를 개선하여 게재 용량이 큰 경우의 성능을 최적화했습니다. (NEO-45064)
@@ -135,7 +140,11 @@ _2023년 3월 20일_
 
 <!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
 
-**패치**
+>[!CAUTION]
+>
+>클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../../installation/using/installing-the-client-console.md)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
+
+### 패치 {#release-7-3-3-patches}
 
 * 컨트롤 인스턴스(트랜잭션 메시지 컨텍스트)에서 iOS 증명 푸시 알림이 보내지지 않는 문제를 해결했습니다. (NEO-54713)
 * 경우에 따라 DCE(디지털 콘텐츠 편집기)의 **편집** 탭에서 스크롤할 수 없는 문제를 해결했습니다. (NEO-54474)
@@ -145,13 +154,14 @@ _2023년 3월 20일_
 
 [!BADGE 제한 공개]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
+<!--
+>[!AVAILABILITY]
+>
+>A specific Campaign v7.3.2.IMS patch upgrade is available for this version - if no other patch has been applied to your environment. It brings [Adobe Identity Management System (IMS) security updates coming with v7.3.5](#release-7-3-5-security) to existing v7.3.3 environments.-->
+
 _2022년 11월 21일_
 
->[!CAUTION]
->
->클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../../installation/using/installing-the-client-console.md)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
-
-**호환성 업데이트**
+### 호환성 업데이트 {#release-7-3-2-compat}
 
 * Adobe Campaign이 이제 PostgreSQL 14와 호환됩니다. 자세한 정보는 이 [기술 노트](../../technotes/using/tech-stack-upgrade.md)를 참조하세요.
 
@@ -159,20 +169,24 @@ _2022년 11월 21일_
 
 자세한 내용은 [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md#RDBMSservers)를 참조하십시오.
 
-**개선 사항**
+>[!CAUTION]
+>
+>클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../../installation/using/installing-the-client-console.md)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
+
+### 개선 사항 {#release-7-3-2-improvements}
 
 * 이제 Google BigQuery 커넥터가 부울 필드를 완전히 지원합니다. (NEO-49181)
 * 이제 serverConf.xml 파일의 `Configuration for the redirection service` 섹션에서 IMS 쿠키 유효 기간을 구성할 수 있습니다. 이는 `uuid230`, `nllastdelid` 및 `AMCV_`(NEO-42541) 쿠키에 적용됩니다.
 * 이제 `showSourceIP`을(를) serverConf.xml 파일의 리디렉션 노드에서 false로 설정하여 IP를 “/r/test” 요청에서 숨길 수 있습니다. [자세히 보기](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
 
-**사용되지 않는 기능**
+### 사용되지 않는 기능  {#release-7-3-2-deprecated}
 
 * Facebook을 사용한 소셜 마케팅은 이제 더 이상 사용되지 않습니다. X(예전 이름 Twitter) 통합을 사용하여 소셜 미디어에 게시하거나 Adobe를 통해 사용자 정의 채널을 만들 수 있습니다.
 * ACS 커넥터(Prime offering)는 이제 더 이상 사용되지 않습니다. 캠페인 내보내기/가져오기 기능을 사용하여 두 제품의 데이터를 추출하고 삽입할 수 있습니다.
 
 더 자세한 내용은 [사용되지 않거나 제거된 기능 페이지](deprecated-features.md)를 참조하십시오.
 
-**기타 변경 사항**
+### 기타 변경 사항  {#release-7-3-2-other}
 
 * 웹 로그가 향상되었습니다. 이제 관리자 권한이 있는 사용자에 대해서만 `logonEscalation` 경고가 표시됩니다. (NEO-47167)
 * 오류를 방지하기 위해 **Heatmap 서비스를 위한 데이터 수집**(collectDataHeatMapService) 워크플로우가 기본적으로 중지됩니다. (NEO-33959)
@@ -180,7 +194,7 @@ _2022년 11월 21일_
 * 충돌을 방지하기 위해 loadLibraryDebug JS 메서드를 제거했습니다. (NEO-46968)
 * log4j 라이브러리에 대한 나머지 참조를 Windows의 Campaign 설치에서 제거했습니다. (NEO-44851)
 
-**패치**
+### 패치 {#release-7-3-2-patches}
 
 * **선택한 라인 병합** 워크플로우 옵션을 사용할 수 없는 문제를 해결했습니다. (NEO-48488)
 * Adobe Campaign Enhanced MTA를 사용할 때 **성공** 게재 지표가 올바르게 업데이트되지 않는 문제를 해결했습니다. (NEO-50462)

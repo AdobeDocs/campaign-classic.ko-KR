@@ -2,9 +2,9 @@
 title: 캠페인 운영자를 IMS(Identity Management System) Adobe으로 마이그레이션
 description: Campaign 연산자를 IMS(Identity Management System) Adobe으로 마이그레이션하는 방법에 대해 알아봅니다.
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
-source-git-commit: bc9367d598474b7971f25c27980ff25dd93bf87a
+source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1221'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Campaign v8에서는 사용자/암호(즉, 기본 인증)와의 연결이 더 이상 허용되지 않습니다. **Adobe Campaign v7.3.5에서 이 마이그레이션을 수행하여 Campaign v8로 원활하게 마이그레이션할 수 있도록 하는 것이 좋습니다.**
 
-이 문서에서는 Adobe Developer 콘솔에서 기술 연산자를 기술 계정으로 마이그레이션하는 데 필요한 단계에 대해 자세히 설명합니다.
+
 
 ## 변경 사항{#move-to-ims-changes}
 
@@ -24,6 +24,8 @@ Campaign Classic을 사용하면 모든 일반 사용자가 이미 Adobe Identit
 또한 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 이제 Adobe Campaign 클라이언트 애플리케이션이 IMS 기술 계정 토큰을 사용하여 Campaign API를 직접 호출합니다. 기술 운영자를 위한 마이그레이션에 대해서는 전용 문서에 자세히 설명되어 있으며 다음에서 사용할 수 있습니다. [이 페이지](ims-migration.md).
 
 이 변경 사항은 이미 Campaign Classic v7에 적용되며 다음과 같습니다. **필수** Campaign v8로 이동합니다.
+
+Adobe은 이러한 마이그레이션 노력에서 여러분을 지원합니다. 아래 문서에서 자세한 컨텍스트와 단계별 지침을 찾을 수 있습니다.
 
 ## 영향을 받습니까?{#migrate-ims-impacts}
 
@@ -39,11 +41,21 @@ Campaign Classic을 사용하면 모든 일반 사용자가 이미 Adobe Identit
 
 마이그레이션 프로세스를 시작하기 전에 Adobe 기술 팀이 기존 운영자 Adobe 및 IMS(Identity Management System) Adobe에 대한 명명된 권한을 마이그레이션할 수 있도록 Adobe 전환 관리자(Managed Services 고객용) 또는 고객 지원 센터(다른 호스팅 고객용)에 연락해야 합니다.
 
+### IMS 마이그레이션 호환 버전 {#ims-versions}
+
+이 마이그레이션의 전제 조건은 환경을 다음 제품 버전 중 하나로 업그레이드하는 것입니다.
+
+* Campaign v7.3.5 (권장)
+* Campaign v7.3.3.IMS
+  <!--* Campaign v7.3.2.IMS-->
+
+이러한 Campaign 버전은 다음에 자세히 설명되어 있습니다. [릴리스 정보](../../rn/using/latest-release.md).
+
 ### 주요 단계 {#ims-migration-steps}
 
 이 마이그레이션에 대한 주요 단계는 아래에 나와 있습니다.
 
-1. Adobe은 환경을 Campaign v7.3.5로 업그레이드합니다.
+1. Adobe이 환경을 Campaign v7.3.5로 업그레이드(또는 [IMS 마이그레이션 호환 버전](#ims-versions)).
 1. 업그레이드 후에도 기본 사용자 또는 IMS와 같은 두 가지 방법을 사용하여 새 사용자를 만들 수 있습니다.
 1. 내부 Campaign 관리자는 Campaign 클라이언트 콘솔의 모든 기본 사용자에게 고유한 이메일을 추가하고, 작업이 완료되면 Adobe 담당자/고객 지원 센터에 확인해야 합니다.  이 단계는에 자세히 설명되어 있습니다. [이 섹션](#ims-migration-id).
 1. Adobe 담당자/고객 지원 팀과 협력하여 기술 전문가가 아닌 사용자(운영자) 및 제품 프로필에 대해 자동 마이그레이션을 실행할 Adobe 날짜를 확보하십시오. 이 단계에는 서비스에 대한 다운타임 없이 1시간 동안의 시간이 필요합니다.
@@ -58,7 +70,7 @@ Campaign Classic을 사용하면 모든 일반 사용자가 이미 Adobe Identit
 
 이 마이그레이션에 대한 주요 단계는 아래에 나와 있습니다.
 
-1. 환경을 Campaign v7.3.5로 업그레이드하십시오.
+1. 환경을 Campaign v7.3.5로 업그레이드(또는 [IMS 마이그레이션 호환 버전](#ims-versions)).
 1. 업그레이드 후에도 기본 사용자 또는 IMS와 같은 두 가지 방법을 사용하여 새 사용자를 만들 수 있습니다.
 1. 내부 Campaign 관리자는에 자세히 설명된 대로 Adobe IMS를 구성해야 합니다. [이 섹션](../../integrations/using/configuring-ims.md).
 1. 그런 다음 Campaign 클라이언트 콘솔의 모든 기본 사용자에게 고유한 이메일을 추가합니다. 이 단계는에 자세히 설명되어 있습니다. [이 섹션](#ims-migration-id).
@@ -73,13 +85,13 @@ Campaign Classic을 사용하면 모든 일반 사용자가 이미 Adobe Identit
 
 ### 언제 마이그레이션을 시작할 수 있습니까? {#ims-migration-start}
 
-로의 마이그레이션에 대한 권장 사항 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} 환경을 Campaign Classic v7.3.5로 업그레이드하는 것입니다.
+로의 마이그레이션에 대한 권장 사항 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} 환경을 Campaign Classic v7.3.5로 업그레이드 (또는 [IMS 마이그레이션 호환 버전](#ims-versions)).
 
-스테이징 환경에서 IMS 마이그레이션을 시작하고 Campaign Classic v7.3.5로 업그레이드한 후 프로덕션 환경을 계획할 수 있습니다.
+스테이징 환경에서 IMS 마이그레이션을 시작하고 최신 버전으로 업그레이드한 후 프로덕션 환경에 대한 계획을 수립할 수 있습니다.
 
 ### Campaign Classic v7.3.5로 빌드 업그레이드 후 어떻게 됩니까? {#ims-migration-after-upgrade}
 
-환경이 Campaign Classic v7.3.5로 업그레이드된 후 로 전환을 시작할 수 있습니다. [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}.
+환경이 Campaign Classic v7.3.5로 업그레이드된 후 또는 [IMS 마이그레이션 호환 버전](#ims-versions))으로 전환을 시작할 수 있습니다. [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}.
 
 ### 마이그레이션이 언제 완료됩니까? {#ims-migration-end}
 
@@ -87,7 +99,7 @@ IMS(Adobe Identity Management System)로 최종 사용자 마이그레이션 및
 
 ### 마이그레이션 후 사용자를 만드는 방법 {#ims-migration-native}
 
-Adobe은 Campaign Classic v7.3.5로 업그레이드한 후 IMS 사용자만 만들 것을 권장합니다.
+Adobe은 Campaign Classic v7.3.5(또는 [IMS 마이그레이션 호환 버전](#ims-versions)).
 
 Campaign 관리자는 Adobe Admin Console 및 Campaign 클라이언트 콘솔을 통해 조직의 사용자에게 권한을 부여할 수 있습니다. 사용자가 Adobe ID으로 Adobe Campaign에 로그온합니다. 에서 IMS를 사용하여 권한을 설정하는 방법 알아보기 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}.
 
