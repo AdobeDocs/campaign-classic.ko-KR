@@ -1,44 +1,43 @@
 ---
 product: campaign
-title: Campaign에서 Adobe ID 사용
-description: Adobe IMS 통합에 대해 자세히 알아보기
+title: Adobe ID을 사용하여 Adobe Campaign에 연결
+description: Adobe Campaign의 Adobe IMS 구현에 대해 자세히 알아보기
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 49271e291953483ee14709b26ec053217a336718
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 24%
+source-wordcount: '143'
+ht-degree: 20%
 
 ---
 
-# Adobe ID 정보{#about-adobe-id}
+# Adobe ID 정보 {#about-adobe-id}
 
-IMS(Identity Management System) Adobe은 관리자가 애플리케이션 및 서비스에 대한 사용자의 액세스 권한을 만들고 관리할 수 있도록 도와줍니다. 다양한 유형의 Adobe ID에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/enterprise/using/identity.html).
+IMS(Identity Management System) Adobe은 관리자가 애플리케이션 및 서비스에 대한 사용자의 액세스 권한을 만들고 관리할 수 있도록 도와줍니다. 다양한 유형의 Adobe ID에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/kr/enterprise/using/identity.html).
 
-Campaign 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결할 수 있습니다. 이 통합은 다음과 같은 이점을 제공합니다.
+Campaign 사용자는 대신 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결할 수 있습니다. [기본 사용자/암호 인증](../../platform/using/access-management-operators.md). 이 구현은 다음과 같은 이점을 제공합니다.
 
 *  모든 Experience Cloud 솔루션에 동일한 ID를 사용할 수 있습니다.
-* 서로 다른 통합으로 Adobe Campaign을 사용하는 경우 연결이 기억됩니다.
-* 보안 암호 관리 정책.
+* 서로 다른 통합으로 Adobe Campaign을 사용하는 경우 연결이 유지됩니다.
+* 기본 로그인/암호보다 안전한 암호 관리 정책.
 * 페더레이션 ID 계정 사용(외부 ID 공급자).
 
-
+<!--
 >[!IMPORTANT]
 >
->IMS(Adobe ID 서비스)를 통해 Campaign에 연결하는 경우 이후 Campaign에 연결하려면 최신 빌드로 업그레이드해야 합니다 **2021년 6월 30일**. 이 업그레이드는 Campaign 서버와 클라이언트 콘솔 모두에 필수입니다.
+>If you are connecting to Campaign through Adobe Identity Service (IMS), you need to upgrade to the latest build to be able to connect to Campaign after **June 30, 2021**. This upgrade is mandatory for both Campaign server and client console. 
 >
->현재 버전에 따라 다음 릴리스 중 하나로 업그레이드해야 합니다.
+>Depending on your current version, you must upgrade to one of the following releases: 
 >
-> * [캠페인 [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
+> * [Campaign [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
 > * [Campaign 21.1.4](../../rn/using/latest-release.md)
 >
->[IMS 업데이트에 대해 자세히 알아보기](../../technotes/using/ims-updates.md)
-
+>[Learn more about IMS updates](../../technotes/using/ims-updates.md)
+-->
 
 ## 추가 리소스
 

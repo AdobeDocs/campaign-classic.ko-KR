@@ -4,34 +4,28 @@ title: IMS 구현
 description: IMS 구현
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 49271e291953483ee14709b26ec053217a336718
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 3%
+source-wordcount: '78'
+ht-degree: 2%
 
 ---
 
 # IMS 구현{#implementing-ims}
 
+한 번 [IMS 구성](configuring-ims.md) 이(가) 완료되면 연결을 활성화할 수 있습니다.
 
+Adobe Campaign에서 IMS 인증 모드를 활성화하려면 다음 단계를 따르십시오.
 
-## IMS 연결 활성화 {#enabling-the-ims-connection}
-
-1. IMS를 통해 연결을 활성화하려면 다음을 확인하십시오. **[!UICONTROL Connect with an Adobe ID]** 를 클릭합니다.
+1. 클라이언트 콘솔 연결 화면을 엽니다.
+1. 연결을 활성화해야 하는 환경을 선택합니다.
+1. 다음 확인: **[!UICONTROL Connect with an Adobe ID]** 옵션을 선택하고 변경 내용을 저장합니다.
 
    ![](assets/ims_1.png)
 
-1. Adobe ID 및 암호를 입력합니다. 그러면 Adobe Campaign 홈 화면이 나타납니다.
-
-   ![](assets/ims_2.png)
-
-## IMS 연결 비활성화 {#disabling-the-ims-connection}
-
-Adobe ID을 통한 연결을 비활성화하려면 연결을 끊고 **[!UICONTROL File > Connections]** 및 선택 취소 **[!UICONTROL Connect with an Adobe ID]**.
-
-![](assets/ims_4.png)
+1. 이 환경에 연결할 때 Adobe ID 및 암호를 사용하십시오.

@@ -4,23 +4,22 @@ title: IMS 문제 해결
 description: IMS 문제 해결
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 49271e291953483ee14709b26ec053217a336718
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 2%
+source-wordcount: '418'
+ht-degree: 1%
 
 ---
 
 # IMS 문제 해결{#ims-troubleshooting}
 
 
-
-다음 문제 해결 팁이 도움이 됩니다 **온-프레미스** 고객은 IMS 통합을 사용할 때 발생하는 가장 일반적인 문제를 해결합니다. 대상 **호스트됨** 고객님, Adobe에게 문의해 주십시오.
+다음 문제 해결 팁이 도움이 됩니다 **온-프레미스** 및 **잡종** 고객은 IMS 통합을 사용할 때 발생하는 가장 일반적인 문제를 해결합니다. 대상 **호스트됨** 고객님, Adobe에게 문의해 주십시오.
 
 **외부 계정**
 
