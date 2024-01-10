@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2258'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 _2023년 12월 5일 수요일_
 
 
-### 향상된 보안 기능 {#release-7-3-5-security}
+### 보안 기능 개선 {#release-7-3-5-security}
 
 
 * Campaign Classic v7.3.5를 통해 인증 프로세스가 개선되고 안전해졌습니다. 이제 기술 운영자는 Adobe IMS(Identity Management System)를 사용하여 Campaign에 연결해야 합니다. [이 기술 노트](../../technotes/using/ims-migration.md)에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다.
@@ -57,7 +57,7 @@ _2023년 12월 5일 수요일_
 
 _2023년 9월 7일_
 
-### 향상된 보안 기능 {#release-7-3-4-security}
+### 보안 기능 개선 {#release-7-3-4-security}
 
 * IMS API의 보안이 개선되었습니다. 클라이언트에 민감한 정보(즉, 액세스 토큰)가 URL 매개 변수에서 제거되었습니다. 이제 이러한 자격 증명이 post 데이터 또는 인증 헤더로 전송되어 더욱 안전한 통신 프로세스가 보장됩니다. (NEO-63045)
 * DDOS 공격을 방지하기 위해 웹 앱의 보안이 개선되었습니다. (NEO-50757)
@@ -120,13 +120,13 @@ _2023년 9월 7일_
 
 >[!AVAILABILITY]
 >
->이 버전에서는 환경에 다른 패치가 적용되지 않은 경우 특정 Campaign v7.3.3.IMS 패치 업그레이드를 사용할 수 있습니다. 다음을 제공합니다. [Adobe Identity Management System(IMS) 보안 업데이트 v7.3.5](#release-7-3-5-security) 기존 v7.3.3 환경에
+>이 버전에서는 환경에 다른 패치가 적용되지 않은 경우에 특수한 Campaign v7.3.3.IMS 패치 업그레이드를 사용할 수 있습니다. 해당 패치를 사용하면 기존 v7.3.3 환경에 [v7.3.5 버전에서 추가된 Adobe IMS(Identity Management System) 보안 업데이트](#release-7-3-5-security)를 적용할 수 있습니다.
 
 
 _2023년 3월 20일_
 
 
-### 향상된 보안 {#release-7-3-3-security}
+### 보안 개선 {#release-7-3-3-security}
 
 * 보안을 최적화하기 위해 Tomcat이 버전 8.5.81에서 8.5.85로 업데이트되었습니다. (NEO-56936)
 
