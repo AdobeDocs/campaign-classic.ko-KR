@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: 73fd678d54ba1db647c1c188e8064b28466b3cd2
 workflow-type: tm+mt
-source-wordcount: '8458'
+source-wordcount: '8448'
 ht-degree: 1%
 
 ---
@@ -358,7 +358,7 @@ SMPP 프로토콜에서 GSM7 텍스트를 문자당 8비트로 확장하면 보�
 
 | 인코딩 | 일반적인 데이터 코딩 | 메시지 크기(문자) | 다중 부분 SMS의 부분 크기 | 사용 가능한 문자 |
 |:-:|:-:|:-:|:-:|:-:|
-| GSM 7 | 0 | 160 | 152 | GSM7 기본 문자 세트 + 확장 문자(확장 문자에는 문자 2개가 필요) |
+| GSM7 | 0 | 160 | 152 | GSM7 기본 문자 세트 + 확장 문자(확장 문자에는 문자 2개가 필요) |
 | 라틴-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS- <br>UTF-16 | 8 | 70 | 67 | 유니코드(통화 시 다름) |
 
@@ -412,7 +412,7 @@ Adobe Campaign Classic Extended SMPP 커넥터는 MTA 하위 항목당 연결 �
 
 Adobe Campaign Classic의 경우 서로 다른 수의 수신기 및 송신기 연결이 있을 수 있습니다.
 
-* **송신기 연결 = MTA 하위 연결 수 * MTA 하위 프로세스 수 * MTA 수 </br> (자동 회신이 설정된 경우) + MTA 하위 연결 수**
+* **송신기 연결 = MTA 하위 연결 수 * MTA 하위 프로세스 수 * MTA 수(자동 회신이 설정된 경우) * MTA 하위 연결 수**
 
 위에서 제안한 대로 자동 회신이 활성화된 경우 Adobe Campaign Classic SMS 프로세스에서 더 많은 송신기 연결을 엽니다. 이러한 추가 연결은 자동 답장을 보내는 데 사용됩니다.
 
@@ -603,8 +603,8 @@ TLS가 활성화되면 모든 인증서 검사를 건너뜁니다.
 인증서 유효성 검사에 대해 세 가지 다른 값 중에서 선택할 수 있습니다.
 
 * 전체 인증 확인(호스트 이름 포함), 기본값
-* 호스트 이름 인증 건너뛰기.
-* 인증서 인증 건너뛰기.
+* 호스트 이름 확인을 건너뜁니다.
+* 인증서 확인을 건너뜁니다.
 
 #### 바인딩 TON/NPI {#bind-ton-npi}
 
@@ -716,7 +716,7 @@ SR 형식은 SMPP 프로토콜 사양에 의해 엄격히 적용되지 않습니
 
 이 설정은 메시지당 하나의 TLV 옵션만 추가할 수 있습니다.
 
-### MO에 자동 답장 보내기 {#automatic-reply}
+### MO로 자동 회신 전송됨 {#automatic-reply}
 
 >[!IMPORTANT]
 >
