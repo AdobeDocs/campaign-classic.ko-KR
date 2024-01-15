@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
-workflow-type: ht
-source-wordcount: '2258'
-ht-degree: 100%
+source-git-commit: da35a3050d838cd8e57bf802dc066e32f22f8273
+workflow-type: tm+mt
+source-wordcount: '2295'
+ht-degree: 99%
 
 ---
 
@@ -154,10 +154,10 @@ _2023년 3월 20일_
 
 [!BADGE 제한 공개]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
-<!--
+
 >[!AVAILABILITY]
 >
->A specific Campaign v7.3.2.IMS patch upgrade is available for this version - if no other patch has been applied to your environment. It brings [Adobe Identity Management System (IMS) security updates coming with v7.3.5](#release-7-3-5-security) to existing v7.3.3 environments.-->
+>이 버전에서는 환경에 다른 패치가 적용되지 않은 경우 특정 Campaign v7.3.2.IMS 패치 업그레이드를 사용할 수 있습니다. 해당 패치를 사용하면 기존 v7.3.3 환경에 [v7.3.5 버전에서 추가된 Adobe IMS(Identity Management System) 보안 업데이트](#release-7-3-5-security)를 적용할 수 있습니다.
 
 _2022년 11월 21일_
 
