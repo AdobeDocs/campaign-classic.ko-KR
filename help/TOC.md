@@ -3,7 +3,7 @@ audience: end-user
 breadcrumb-title: Campaign Classic v7 설명서
 product: campaign
 title: Campaign Classic v7 안내서
-user-guide-description: Adobe Campaign Classic v7에 대한 제품 설명서.
+user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: cb1f079fbb7af6bb6645aae86261ca723fd97c3a
