@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: cc6d85bcf822ba9be99e39cf459a5aa20cc2d4fe
-workflow-type: ht
-source-wordcount: '3648'
-ht-degree: 100%
+source-git-commit: 31705e7dd0ecb4e66fe4a22369995384d3ce39d4
+workflow-type: tm+mt
+source-wordcount: '3680'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,12 @@ ht-degree: 100%
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
+
+## 2024
+
+### 2024년 1월 {#jan-2024}
+
+DM에 대한 기본 postalAddress 필드를 정의하는 방법과 주소가 완전한지 확인하는 것이 중요한 이유에 대한 정보가 추가되었습니다. [자세히 보기](../../delivery/using/about-direct-mail-channel.md)
 
 ## 2023
 
