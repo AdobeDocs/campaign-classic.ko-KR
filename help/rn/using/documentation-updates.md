@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 31705e7dd0ecb4e66fe4a22369995384d3ce39d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3680'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 99%
 
 ### 2024년 1월 {#jan-2024}
 
-DM에 대한 기본 postalAddress 필드를 정의하는 방법과 주소가 완전한지 확인하는 것이 중요한 이유에 대한 정보가 추가되었습니다. [자세히 보기](../../delivery/using/about-direct-mail-channel.md)
+다이렉트 메일의 기본 postalAddress 필드를 정의하는 방법과 주소가 완전한지 확인하는 것이 중요한 이유에 관한 정보를 추가했습니다. [자세히 보기](../../delivery/using/about-direct-mail-channel.md)
 
 ## 2023
 
