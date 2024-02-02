@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: cb1f079fbb7af6bb6645aae86261ca723fd97c3a
-workflow-type: ht
-source-wordcount: '2524'
-ht-degree: 100%
+source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
+workflow-type: tm+mt
+source-wordcount: '2536'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,9 @@ ht-degree: 100%
       + [파일 첨부](delivery/using/attaching-files.md)
    + SMS 보내기 {#sending-messages-on-mobiles}
       + [SMS 시작](delivery/using/sms-channel.md)
-      + [SMS 채널 구성](delivery/using/sms-set-up.md)
+      + SMS 채널 구성 {#sms-set-up}
+         + [독립 실행형 인스턴스에서 SMS 구성](delivery/using/sms-set-up.md)
+         + [중간 소싱 인프라에서 SMS 구성](delivery/using/sms-set-up-mid.md)
       + [SMS 만들기](delivery/using/sms-create.md)
       + [SMS 보내기 및 추적](delivery/using/sms-send.md)
       + [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)

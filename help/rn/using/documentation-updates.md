@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 31705e7dd0ecb4e66fe4a22369995384d3ce39d4
-workflow-type: ht
-source-wordcount: '3680'
-ht-degree: 100%
+source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
+workflow-type: tm+mt
+source-wordcount: '3699'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 ### 2024년 1월 {#jan-2024}
 
 다이렉트 메일의 기본 postalAddress 필드를 정의하는 방법과 주소가 완전한지 확인하는 것이 중요한 이유에 관한 정보를 추가했습니다. [자세히 보기](../../delivery/using/about-direct-mail-channel.md)
+
+중간 소싱 인프라에서 Campaign의 SMS 채널을 구성하는 방법에 대한 새 페이지를 추가했습니다. [자세히 보기](../../delivery/using/sms-set-up-mid.md)
 
 ## 2023
 

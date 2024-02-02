@@ -7,14 +7,14 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: SMS
 role: User, Developer, Admin
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
 workflow-type: tm+mt
-source-wordcount: '1734'
-ht-degree: 34%
+source-wordcount: '1751'
+ht-degree: 26%
 
 ---
 
-# SMS 채널 구성 {#setting-up-sms-channel}
+# 독립 실행형 인스턴스에서 SMS 채널 구성 {#setting-up-sms-channel}
 
 휴대폰으로 보내려면 다음이 필요합니다.
 
@@ -37,7 +37,7 @@ ht-degree: 34%
 휴대폰에 SMS를 전송하려면 먼저 SMPP 외부 계정을 만들어야 합니다.
 SMS 프로토콜 및 설정에 대한 자세한 내용은 다음을 참조하십시오. [페이지](sms-protocol.md).
 
-이렇게 하려면 아래 단계를 수행합니다:
+이렇게 하려면 아래 단계를 수행합니다.
 
 1. 다음에서 **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** 트리의 노드를 클릭하고 **[!UICONTROL New]** 아이콘.
 1. 계정 유형을 다음으로 정의 **라우팅**, 다음으로 채널 **모바일(SMS)**, 게재 모드: **일괄 게재**.
@@ -67,7 +67,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 다음을 참조하십
 
    >[!NOTE]
    >
-   >특정 문자(중괄호, 대괄호, 유로 심벌 등)는 두 글자로 계산합니다.
+   >특정 문자(중괄호, 대괄호, 유로 기호 등)는 2로 계산됩니다.
    >
    >사용 가능한 GSM 문자 목록은 아래에 나와 있습니다.
 
@@ -112,7 +112,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 다음을 참조하십
 
 그러나 SMS 메시지에 유니코드 메시지를 생성하는 문자가 많이 포함된 경우, 이 옵션을 활성화하여 메시지 전송 비용을 제한할 수 있습니다.
 
-다음 표에는 GSM 표준에서 고려하는 문자가 나와 있습니다. 아래에 언급된 문자 외에 메시지 본문에 삽입된 모든 문자는 전체 메시지를 이진 형식(유니코드)으로 전환하여 70자로 제한합니다.
+다음 표에는 GSM 표준에서 고려하는 문자가 나와 있습니다. 아래에 언급된 문자 외에 메시지 본문에 삽입된 모든 문자는 전체 메시지를 이진 형식(유니코드)으로 변환하여 70자로 제한합니다.
 
 **기본 문자**
 
@@ -123,13 +123,13 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 다음을 참조하십
    <td> <img height="21px" src="assets/delta.png" /> </td> 
    <td> SP </td> 
    <td> 0 </td> 
-   <td> ¡ </td> 
+   <td> " </td> 
    <td> P </td> 
-   <td> ¿ </td> 
+   <td> 0 </td> 
    <td> p </td> 
   </tr> 
   <tr> 
-   <td> £ </td> 
+   <td> 파운드 </td> 
    <td> _ </td> 
    <td> ! </td> 
    <td> 1 </td> 
@@ -143,13 +143,13 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 다음을 참조하십
    <td> <img height="21px" src="assets/phi.png" /> </td> 
    <td> " </td> 
    <td> 2 </td> 
-   <td> B </td> 
+   <td> byte </td> 
    <td> R </td> 
    <td> b </td> 
    <td> r </td> 
   </tr> 
   <tr> 
-   <td> ¥ </td> 
+   <td> · </td> 
    <td> <img height="21px" src="assets/gamma.png" /> </td> 
    <td> # </td> 
    <td> 3 </td> 
@@ -161,7 +161,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 다음을 참조하십
   <tr> 
    <td> è </td> 
    <td> <img height="21px" src="assets/delta.png" /> </td> 
-   <td> ¤ </td> 
+   <td> 남현 </td> 
    <td> 4 </td> 
    <td> D </td> 
    <td> T </td> 
@@ -181,7 +181,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 다음을 참조하십
   <tr> 
    <td> ù </td> 
    <td> <img height="21px" src="assets/pi.png" /> </td> 
-   <td> &amp; </td> 
+   <td> 및 </td> 
    <td> 6 </td> 
    <td> F </td> 
    <td> V </td> 
@@ -240,7 +240,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 다음을 참조하십
   </tr> 
   <tr> 
    <td> ø </td> 
-   <td> Æ </td> 
+   <td> AE </td> 
    <td> , </td> 
    <td> &lt; </td> 
    <td> L </td> 
