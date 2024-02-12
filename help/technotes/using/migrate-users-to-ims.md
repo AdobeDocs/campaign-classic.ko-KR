@@ -2,9 +2,9 @@
 title: 캠페인 운영자를 IMS(Identity Management System) Adobe으로 마이그레이션
 description: Campaign 연산자를 IMS(Identity Management System) Adobe으로 마이그레이션하는 방법에 대해 알아봅니다.
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
-source-git-commit: da35a3050d838cd8e57bf802dc066e32f22f8273
+source-git-commit: 1879fe179381be654bad876de2423d25049db43c
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1280'
 ht-degree: 2%
 
 ---
@@ -132,6 +132,24 @@ Adobe은 마이그레이션 기간 동안 모든 사용자를 로그오프할 �
 이 마이그레이션에는 최종 사용자 마이그레이션(및 제품 프로필 포함)과 기술 사용자 마이그레이션(사용자 지정 코드의 API에 사용됨)의 두 가지 측면이 있습니다.
 
 모든 사용자(캠페인 운영자)가 IMS에 있는 경우에도 Adobe 담당자/고객 지원 센터에 문의하여 제품 프로필 마이그레이션을 계획해야 합니다. 사용자 지정 코드에서 사용했을 수 있는 기술 사용자를 마이그레이션해야 합니다. [이 페이지](ims-migration.md)에서 자세히 알아보십시오.
+
+### 운영자의 인증 유형을 보는 방법
+
+Campaign에서 연산자의 인증 유형을 보는 방법을 알아봅니다.
+
+1. 다음에서 **탐색기**, 액세스 **관리** `>` **액세스 관리** `>` **연산자**.
+
+1. 머리글 행을 마우스 오른쪽 단추로 클릭하고 **목록 구성** 메뉴 아래의 제품에서 사용할 수 있습니다.
+
+   ![](assets/ims_2.png)
+
+1. 추가 **계정 비활성화됨** 및 **인증 유형** 다음으로: **출력 열**.
+
+   ![](assets/ims_1.png)
+
+이제 의 목록을 볼 수 있습니다. **연산자** 및 해당 **인증 유형**.
+
+![](assets/ims_3.png)
 
 ## 유용한 링크 {#ims-useful-links}
 
