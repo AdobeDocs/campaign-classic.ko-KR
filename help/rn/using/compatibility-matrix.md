@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 3db5242e2074c6d0530258073ae83c11164d7365
-workflow-type: ht
-source-wordcount: '772'
-ht-degree: 100%
+source-git-commit: e430978dd182eaea082122ef748118e5210b05d5
+workflow-type: tm+mt
+source-wordcount: '805'
+ht-degree: 96%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 100%
 <tr> 
 <td>CentOs</td>
 <td>
+<p>8.x(하이브리드 환경에만 해당)</p>
 <p>7.x</p>
 <p><strong>중요:</strong> RHEL을 사용하는 경우 SELinux를 비활성화하거나 설계자가 사용자 지정 SELinux 규칙을 작성하여 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인해야 합니다.</p>
 </td>
@@ -77,7 +78,7 @@ ht-degree: 100%
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>Windows Server 2016의 10.0 및 2019</p>
+<p>Windows Server 2016 및 2019의 10.0</p>
 </td>
 </tr>
 <tr>
@@ -353,7 +354,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 
 ### Microsoft WebView2 런타임
 
-Microsoft Edge WebView2 런타임 Campaign 클라이언트 콘솔을 사용하려면 최신 버전이 필수입니다.
+Microsoft Edge WebView2 런타임 최신 버전은 Campaign 클라이언트 콘솔에 필수입니다.
 
 [Microsoft 개발자 사이트](https://www.adobe.com/go/acc-ms-webview2-runtime-download)에서 Microsoft Edge WebView2를 다운로드합니다.
 
