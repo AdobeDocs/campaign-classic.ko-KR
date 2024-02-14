@@ -9,16 +9,14 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: a2106e55617209f28da42c50008d16188563b2da
+source-git-commit: 58998fa2480a33776507a434ed846541ac19e58b
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 8%
+source-wordcount: '517'
+ht-degree: 5%
 
 ---
 
 # 파일 압축 또는 암호화 {#zipping-or-encrypting-a-file}
-
-
 
 Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 내보낼 수 있습니다. 를 통해 내보내기를 정의할 때 **[!UICONTROL Data extraction (file)]** 활동을 수행하면 zip 또는 파일 암호화에 대한 후처리를 정의할 수 있습니다.
 

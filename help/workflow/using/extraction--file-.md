@@ -2,13 +2,13 @@
 product: campaign
 title: 데이터 추출(파일)
 description: 데이터 추출(파일) 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Data Management Activity
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 58998fa2480a33776507a434ed846541ac19e58b
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 1%
+source-wordcount: '332'
+ht-degree: 3%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 데이터 추출 중에 실행할 후 프로세스를 정의하여 파일을 압축하거나 암호화할 수 있습니다. 이렇게 하려면 원하는 명령을 **[!UICONTROL Script]** 활동의 탭입니다.
 
-자세한 정보는 이 섹션 을 참조하십시오. [파일 압축 또는 암호화](how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+자세한 정보는 이 섹션 을 참조하십시오. [파일 압축 또는 암호화](../../platform/using/zip-encrypt.md)
 
 ![](assets/postprocessing_dataextraction.png)
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Count]** (집계된 필드의) 중복 값을 포함하여 집계될 필드의 null이 아닌 모든 값을 계산하려면
 
-   **[!UICONTROL Distinct]** 집계할 필드의 서로 다른 값과 null이 아닌 값의 총 수를 계산하려면(중복 값은 계산 전에 제외됨)
+  **[!UICONTROL Distinct]** 집계할 필드의 서로 다른 값과 null이 아닌 값의 총 수를 계산하려면(중복 값은 계산 전에 제외됨)
 
 * **[!UICONTROL Sum]** 숫자 필드 값의 합계를 계산하려면
 * **[!UICONTROL Minimum value]** 필드의 최소값(숫자 또는 기타)을 계산하려면
