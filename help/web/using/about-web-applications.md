@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: 웹 애플리케이션 시작
-description: 동적 웹 응용 프로그램, 랜딩 페이지 및 설문 조사를 만들고 공유할 수 있습니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+description: 동적 웹 응용 프로그램, 랜딩 페이지 및 설문 조사 만들기 및 공유
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 22%
+source-wordcount: '697'
+ht-degree: 20%
 
 ---
 
@@ -50,12 +50,12 @@ Adobe Campaign의 웹 애플리케이션은 다음 기능에 액세스할 수 �
 * 이메일 초대 또는 알림. 자세한 정보는 이 [페이지](publishing-a-web-form.md#delivering-a-form-via-email)를 참조하십시오.
 * 오류 및 종료 메시지의 개인화입니다. 자세한 정보는 이 [페이지](defining-web-forms-properties.md#setting-up-an-error-page)를 참조하십시오.
 * 이미지, 비디오, 하이퍼텍스트 링크, captcha 등의 사용 자세한 정보는 이 [페이지](editing-content.md)를 참조하십시오.
-* 실시간 응답 모니터링. 자세한 정보는 이 [페이지](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking)를 참조하십시오.
+* 실시간 응답 모니터링. 자세한 정보는 이 [페이지](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking)를 참조하십시오.
 
 선택 사항 **설문 조사** 생성 모듈은 다음과 같은 추가 기능을 제공합니다.
 
 * 데이터베이스의 동적 확장: 초기 데이터 템플릿에 포함되지 않은 응답 만들기. 자세한 정보는 이 [페이지](../../surveys/using/managing-answers.md#storing-collected-answers)를 참조하십시오.
-* 전용 보고서를 생성하고 있습니다. 자세한 정보는 이 [페이지](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys)를 참조하십시오.
+* 전용 보고서를 생성하고 있습니다. 자세한 정보는 이 [페이지](../../surveys/using/publish-track-and-use-collected-data.md#reports-on-surveys)를 참조하십시오.
 
 웹 응용 프로그램에 비해 설문 조사는 편집 컨트롤 수가 줄어든 간단한 그래픽 인터페이스를 제공합니다.
 

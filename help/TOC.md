@@ -6,8 +6,8 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
-workflow-type: ht
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
 source-wordcount: '2536'
 ht-degree: 100%
 
@@ -23,8 +23,8 @@ ht-degree: 100%
    + [최신 릴리스](rn/using/latest-release.md)
    + 이전 릴리스 {#previous-releases}
       + [[!DNL Gold Standard]](rn/using/gold-standard.md)
-      + [2021](rn/using/release--2021.md)
-      + [2022](rn/using/release--2022.md)
+      + [2021](rn/using/release-2021.md)
+      + [2022](rn/using/release-2022.md)
    + [사용되지 않는 기능](rn/using/deprecated-features.md)
    + [호환성 매트릭스](rn/using/compatibility-matrix.md)
 + 시작 {#getting-started}
@@ -184,8 +184,8 @@ ht-degree: 100%
       + [시드 주소 만들기](delivery/using/creating-seed-addresses.md)
       + [시드 주소 추가](delivery/using/adding-seed-addresses.md)
       + [외부 수신자 테이블 사용](delivery/using/using-an-external-recipient-table.md)
-      + [활용 사례: 기준 시드 주소 선택](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
-      + [활용 사례: 필드 대체 구성](delivery/using/use-case--configuring-the-field-substitution.md)
+      + [활용 사례: 기준 시드 주소 선택](delivery/using/use-case-selecting-seed-addresses-on-criteria.md)
+      + [활용 사례: 필드 대체 구성](delivery/using/use-case-configuring-the-field-substitution.md)
    + A/B 테스트 {#a-b-testing}
       + [A/B 테스트 시작](delivery/using/get-started-a-b-testing.md)
       + [A/B 테스트 구성](delivery/using/configuring-a-b-testing.md)
@@ -233,7 +233,7 @@ ht-degree: 100%
    + 콘텐츠 관리 모듈 {#content-management}
       + [콘텐츠 관리 정보](delivery/using/about-content-management.md)
       + [콘텐츠 관리자 리소스 및 원칙](delivery/using/content-manager-resources-and-principles.md)
-      + [활용 사례: 콘텐츠 관리 만들기](delivery/using/use-case--creating-content-management.md)
+      + [활용 사례: 콘텐츠 관리 만들기](delivery/using/use-case-creating-content-management.md)
       + [데이터 스키마](delivery/using/data-schemas.md)
       + [입력 양식](delivery/using/input-forms.md)
       + [양식화](delivery/using/formatting.md)
@@ -253,7 +253,7 @@ ht-degree: 100%
       + [문서 및 에셋 관리](campaign/using/marketing-campaign-assets.md)
       + [승인 설정 및 관리](campaign/using/marketing-campaign-approval.md)
       + [캠페인 모니터링](campaign/using/marketing-campaign-monitoring.md)
-      + [공급자, 재고 및 예산](campaign/using/providers--stocks-and-budgets.md)
+      + [공급자, 재고 및 예산](campaign/using/providers-stocks-and-budgets.md)
    + 캠페인 최적화 {#campaign-optimization}
       + [캠페인 유형 분류 정보](campaign-opt/using/about-campaign-typologies.md)
       + [압력 규칙](campaign-opt/using/pressure-rules.md)
@@ -320,7 +320,7 @@ ht-degree: 100%
       + [웹 애플리케이션 시작](web/using/about-web-applications.md)
       + [새 웹 애플리케이션 만들기](web/using/creating-a-new-web-application.md)
       + [웹 애플리케이션 디자인](web/using/designing-a-web-application.md)
-      + [활용 사례: 개요 만들기](web/using/use-cases--creating-overviews.md)
+      + [활용 사례: 개요 만들기](web/using/use-cases-creating-overviews.md)
       + [웹 애플리케이션 번역](web/using/translating-a-web-application.md)
       + [웹 애플리케이션에서 방문 수 추적](web/using/tracking-a-web-application.md)
       + [웹 애플리케이션 추적 옵트아웃](web/using/web-application-tracking-opt-out.md)
@@ -331,7 +331,7 @@ ht-degree: 100%
       + [콘텐츠 편집](web/using/editing-content.md)
       + [콘텐츠 편집 모범 사례](web/using/content-editing-best-practices.md)
       + [랜딩 페이지 만들기](web/using/creating-a-landing-page.md)
-      + [활용 사례: 이메일 게재 만들기](web/using/use-case--creating-an-email-delivery.md)
+      + [활용 사례: 이메일 게재 만들기](web/using/use-case-creating-an-email-delivery.md)
    + 웹 양식 {#web-forms}
       + [웹 양식 시작](web/using/about-web-forms.md)
       + [웹 양식 템플릿 사용](web/using/using-a-web-form-template.md)
@@ -344,16 +344,16 @@ ht-degree: 100%
       + [웹 양식 게시](web/using/publishing-a-web-form.md)
       + [웹 양식 속성 정의](web/using/defining-web-forms-properties.md)
       + [웹 양식 번역](web/using/translating-a-web-form.md)
-      + [활용 사례: 웹 양식](web/using/use-cases--web-forms.md)
+      + [활용 사례: 웹 양식](web/using/use-cases-web-forms.md)
 + 온라인 설문 조사 만들기 {#online-surveys}
    + [설문 조사 시작](surveys/using/about-surveys.md)
    + [설문 조사 만들기의 주요 단계](surveys/using/getting-started-with-surveys.md)
    + [설문 조사 디자인](surveys/using/building-a-survey.md)
    + [답변 관리](surveys/using/managing-answers.md)
-   + [수집된 데이터 게시, 추적 및 사용](surveys/using/publish--track-and-use-collected-data.md)
+   + [수집된 데이터 게시, 추적 및 사용](surveys/using/publish-track-and-use-collected-data.md)
    + [설문 조사 구성](surveys/using/configuring-surveys.md)
-   + [활용 사례: 참조 양식 만들기](surveys/using/use-case--creating-a-refer-a-friend-form.md)
-   + [사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
+   + [활용 사례: 참조 양식 만들기](surveys/using/use-case-creating-a-refer-a-friend-form.md)
+   + [사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Adobe Experience Cloud와 통합 {#integrating-with-adobe-experience-cloud}
    + [Campaign 통합 정보](integrations/using/about-campaign-integrations.md)
    + 대상자 공유 {#audience-sharing}
@@ -437,7 +437,7 @@ ht-degree: 100%
       + [대기](workflow/using/wait.md)
       + [시간 제한](workflow/using/time-constraint.md)
       + [하위 워크플로우](workflow/using/sub-workflow.md)
-      + [이동(시작점 및 끝점)](workflow/using/jump--start-point-and-end-point-.md)
+      + [이동(시작점 및 끝점)](workflow/using/jump-start-point-and-end-point.md)
       + [외부 신호](workflow/using/external-signal.md)
       + [승인](workflow/using/approval.md)
       + [경고](workflow/using/alert.md)
@@ -450,11 +450,11 @@ ht-degree: 100%
       + [반복 게재](workflow/using/recurring-delivery.md)
       + [크로스 채널 게재](workflow/using/cross-channel-deliveries.md)
       + [로컬 승인](workflow/using/local-approval.md)
-      + [데이터 로딩(RDBMS)](workflow/using/data-loading--rdbms-.md)
-      + [로딩(SOAP)](workflow/using/loading--soap-.md)
-      + [데이터 로딩(파일)](workflow/using/data-loading--file-.md)
+      + [데이터 로딩(RDBMS)](workflow/using/data-loading-rdbms.md)
+      + [로딩(SOAP)](workflow/using/loading-soap.md)
+      + [데이터 로딩(파일)](workflow/using/data-loading-file.md)
       + [콘텐츠 관리](workflow/using/content-management.md)
-      + [데이터 추출(파일)](workflow/using/extraction--file-.md)
+      + [데이터 추출(파일)](workflow/using/extraction-file.md)
       + [SQL 코드 및 JavaScript 코드](workflow/using/sql-code-and-javascript-code.md)
       + [SQL 데이터 관리](workflow/using/sql-data-management.md)
       + [Nlserver 모듈](workflow/using/nlserver-module.md)
@@ -505,7 +505,7 @@ ht-degree: 100%
       + [고급 매개 변수](workflow/using/advanced-parameters.md)
       + [JavaScript 스크립트 및 템플릿](workflow/using/javascript-scripts-and-templates.md)
       + [워크플로우의 JavaScript 코드 예](workflow/using/javascript-in-workflows.md)
-      + [외부 데이터베이스 액세스](workflow/using/accessing-an-external-database--fda-.md)
+      + [외부 데이터베이스 액세스](workflow/using/accessing-an-external-database-fda.md)
       + [권한 관리](workflow/using/managing-rights.md)
       + [활동 이미지 변경](workflow/using/managing-activity-images.md)
       + [표준 시간대 관리](workflow/using/managing-time-zones.md)
@@ -543,8 +543,8 @@ ht-degree: 100%
       + [워크플로우를 통한 오퍼 통합](interaction/using/integrating-an-offer-via-a-workflow.md)
    + 유니터리 상호 작용 {#unitary-interactions}
       + [인바운드 채널 정보](interaction/using/about-inbound-channels.md)
-      + [JavaScript를 통한 통합(클라이언트측)](interaction/using/integration-via-javascript--client-side-.md)
-      + [SOAP를 통한 통합(서버측)](interaction/using/integration-via-soap--server-side-.md)
+      + [JavaScript를 통한 통합(클라이언트측)](interaction/using/integration-via-javascript-client-side.md)
+      + [SOAP를 통한 통합(서버측)](interaction/using/integration-via-soap-server-side.md)
       + [익명의 상호 작용](interaction/using/anonymous-interactions.md)
    + 오퍼 추적 {#tracking-offers}
       + [오퍼 제안 내역](interaction/using/offer-proposition-history.md)
@@ -556,7 +556,7 @@ ht-degree: 100%
       + [테스트 환경 만들기](interaction/using/creating-a-test-environment.md)
       + [표준 엔진 동작 수정](interaction/using/hooks.md)
       + [분산 아키텍처](interaction/using/distributed-architectures.md)
-      + [데이터 버퍼 구성](installation/using/interaction---data-buffer.md)
+      + [데이터 버퍼 구성](installation/using/interaction-data-buffer.md)
    + 활용 사례 {#case-study}
       + [프레젠테이션 규칙](interaction/using/presentation-rules.md)
       + [인바운드 채널에 대한 오퍼](interaction/using/offers-on-an-inbound-channel.md)
@@ -590,7 +590,7 @@ ht-degree: 100%
       + 호스팅 모델{#hosting-models-lp}
          + [Campaign 호스팅 모델](installation/using/hosting-models.md)
          + [기능 매트릭스](installation/using/capability-matrix.md)
-   + 배포 유형 {#deployment-types-}
+   + 배포 유형 {#deployment-types}
       + [배포 유형 정보](installation/using/about-deployment-types.md)
       + [독립형 배포](installation/using/standalone-deployment.md)
       + [표준 배포](installation/using/standard-deployment.md)
@@ -611,12 +611,12 @@ ht-degree: 100%
          + [애플리케이션 서버](installation/using/application-server.md)
          + [메시시 서버](installation/using/messaging-server.md)
          + [네트워크 구성](installation/using/network-configuration.md)
-      + Windows의 Campaign {#installing-campaign-in-windows-}
+      + Windows의 Campaign {#installing-campaign-in-windows}
          + [시작](installation/using/prerequisites-of-campaign-installation-in-windows.md)
          + [서버 설치](installation/using/installing-the-server.md)
          + [웹 서버에 통합(Windows)](installation/using/integration-into-a-web-server-for-windows.md)
          + [Windows용 클라이언트 콘솔 가용성](installation/using/client-console-availability-for-windows.md)
-      + Linux의 Campaign {#installing-campaign-in-linux-}
+      + Linux의 Campaign {#installing-campaign-in-linux}
          + [필수 구성 요소](installation/using/prerequisites-of-campaign-installation-in-linux.md)
          + [패키지 설치](installation/using/installing-packages-with-linux.md)
          + [웹 서버에 통합](installation/using/integration-into-a-web-server-for-linux.md)
@@ -803,7 +803,7 @@ ht-degree: 100%
    + 웹 추적 설정 {#setting-up-web-tracking}
       + [웹 추적 정보](configuration/using/about-web-tracking.md)
       + [웹 추적 모드](configuration/using/web-tracking-mode.md)
-      + [웹 추적 태그: 정의](configuration/using/web-tracking-tag--definition.md)
+      + [웹 추적 태그: 정의](configuration/using/web-tracking-tag-definition.md)
       + [설정 단계](configuration/using/setup-stages.md)
       + [추가 매개 변수](configuration/using/additional-parameters.md)
       + [웹 추적 태그 만들기](configuration/using/creating-web-tracking-tags.md)

@@ -6,10 +6,10 @@ feature: Installation, Application Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 14%
+source-wordcount: '1271'
+ht-degree: 4%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 14%
    <td> 모두<br /> </td>
   </tr> 
   <tr> 
-   <td> 모바일 채널(SMS) <br /> </td> 
+   <td> 모바일 채널 (SMS) <br /> </td> 
    <td> Adobe Campaign과 모바일/SMS 채널을 사용하여 게재를 전송합니다. 선택 사항입니다. <a href="../../delivery/using/sms-channel.md">자세히 알아보기</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
@@ -158,11 +158,11 @@ ht-degree: 14%
   </tr> 
   <tr> 
    <td> 외부 데이터 액세스(Federated Data Access)<br /> </td> 
-   <td> Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있도록 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위한 FDA(Federated Data Access) 옵션을 제공합니다.  선택 사항입니다. <a href="../../workflow/using/accessing-an-external-database--fda-.md">자세히 알아보기</a> <br /> </td> 
+   <td> Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있도록 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위한 FDA(Federated Data Access) 옵션을 제공합니다.  선택 사항입니다. <a href="../../workflow/using/accessing-an-external-database-fda.md">자세히 알아보기</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
-   <td> 캠페인 최적화<br /> </td> 
+   <td> Campaign 최적화<br /> </td> 
    <td> 회사 커뮤니케이션 정책을 준수하면서 고객의 요구 사항과 기대치에 가장 적합한 메시지를 보낼 수 있도록 게재 전송을 제어, 필터링 및 모니터링합니다. 선택 사항입니다. <a href="../../campaign-opt/using/about-campaign-typologies.md">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 

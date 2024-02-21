@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 2%
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이중 옵트인으로 구독 양식을 만드는 샘플은에 자세히 설명되어 있습니다. [이 섹션](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in).
+>이중 옵트인으로 구독 양식을 만드는 샘플은에 자세히 설명되어 있습니다. [이 섹션](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
 
 ## 정보 서비스 만들기 {#creating-an-information-service}
 

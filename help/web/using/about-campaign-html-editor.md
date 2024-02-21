@@ -6,7 +6,7 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -50,11 +50,11 @@ ht-degree: 1%
 
 을(를) 만들려면 **이메일 게재**, 다음을 수행해야 합니다.
 
-1. DCE 템플릿에서 게재 만들기 - [자세히 알아보기](use-case--creating-an-email-delivery.md)
+1. DCE 템플릿에서 게재 만들기 - [자세히 알아보기](use-case-creating-an-email-delivery.md)
 1. 기존 콘텐츠를 선택하거나 [표준 템플릿](template-management.md)
 1. 온라인 콘텐츠 편집 및 구성
 1. 게재 보내기 - [자세히 알아보기](../../delivery/using/steps-about-delivery-creation-steps.md)
 
 >[!NOTE]
 >
->이메일 게재 컨텍스트의 전체 구현 샘플은에서 사용할 수 있습니다 [이 사용 사례](use-case--creating-an-email-delivery.md).
+>이메일 게재 컨텍스트의 전체 구현 샘플은에서 사용할 수 있습니다 [이 사용 사례](use-case-creating-an-email-delivery.md).

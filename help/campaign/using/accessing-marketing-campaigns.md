@@ -6,10 +6,10 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Campaign을 사용하면 마케팅 캠페인을 생성, 구성, 실행 및
 
 ## Workspace 기본 사항 {#workspace-basics}
 
-### 홈페이지 {#home-page}
+### 홈 페이지 {#home-page}
 
 Adobe Campaign에 연결되면 탐색 막대의 링크를 사용하여 다양한 기능을 탐색합니다.
 
@@ -142,7 +142,7 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등의 다양한 마케
 캠페인은 캠페인 템플릿을 통해 만들어집니다. 일부 옵션을 선택하고 다른 설정을 이미 저장한 재사용 가능한 템플릿을 구성할 수 있습니다. 각 캠페인에 대해 다음 기능이 제공됩니다.
 
 * 참조 [문서 및 리소스](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents): 문서(개요, 보고서, 이미지 등)를 캠페인과 연결할 수 있습니다. 모든 문서 형식이 지원됩니다.
-* 비용 정의: 각 캠페인에 대해 Adobe Campaign을 사용하여 다음을 정의할 수 있습니다. [원가 입력 및 원가 계산 구조](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories) 마케팅 캠페인을 만들 때 사용할 수 있습니다. 예를 들어 인쇄 비용, 외부 에이전시 사용, 룸 대여.
+* 비용 정의: 각 캠페인에 대해 Adobe Campaign을 사용하여 다음을 정의할 수 있습니다. [원가 입력 및 원가 계산 구조](../../campaign/using/providers-stocks-and-budgets.md#defining-cost-categories) 마케팅 캠페인을 만들 때 사용할 수 있습니다. 예를 들어 인쇄 비용, 외부 에이전시 사용, 룸 대여.
 * 목표 정의: 구독자 수, 거래량 등 캠페인에 대한 수량화할 수 있는 목표를 정의할 수 있습니다. 이 정보는 나중에 캠페인 보고서에 사용됩니다.
 * 관리 [시드 주소](../../delivery/using/about-seed-addresses.md) 및 [컨트롤 그룹](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 * 승인 관리: 승인할 처리를 선택하고 필요한 경우 검토 운영자 또는 운영자 그룹을 선택할 수 있습니다. [자세히 알아보기](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)
@@ -184,7 +184,7 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등의 다양한 마케
 | 재고 | 스톡 라인 삭제 |
 | 오퍼 시뮬레이션 | 시뮬레이션 시작 및 중지 |
 | 타겟팅 워크플로우 | 워크플로우 시작, 일시 중지 및 중지 |
-| 보고서 | 보고서 내역에 현재 데이터 저장 |
+| 보고 | 보고서 내역에 현재 데이터 저장 |
 | 포럼 | 토론 추가<br/>토론의 메시지에 회신<br/>토론을 팔로우하고 구독을 취소합니다 |
 
 ### 승인

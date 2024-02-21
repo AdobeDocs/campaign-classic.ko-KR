@@ -2,13 +2,13 @@
 product: campaign
 title: 설문 조사 시작
 description: Campaign 설문 조사 시작
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '534'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,6 @@ Adobe Campaign에는 웹 애플리케이션을 정의하고 게시하는 그래�
 >
 >* 웹 애플리케이션 관리에 대한 자세한 내용은 [이 문서](../../web/using/about-web-applications.md). 자세한 내용은 이 장을 참조하십시오.
 
-
 ## 기능 범위 {#campaign-surveys-scope}
 
 Adobe Campaign에서 다음을 사용합니다 [웹 애플리케이션](../../web/using/about-web-forms.md) 끝:
@@ -52,8 +51,8 @@ Adobe Campaign에서 다음을 사용합니다 [웹 애플리케이션](../../we
 * 데이터베이스의 동적 확장: 초기 데이터 모델에 속하지 않는 답변 만들기. [자세히 알아보기](../../surveys/using/managing-answers.md#storing-collected-answers)
 * 점수 관리. [자세히 알아보기](../../surveys/using/managing-answers.md#score-management)
 * 질문을 임의로 표시합니다. [자세히 알아보기](../../surveys/using/building-a-survey.md#adding-questions)
-* 답변을 실시간으로 추적합니다. [자세히 알아보기](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking)
-* 전용 보고서를 생성하고 있습니다. [자세히 알아보기](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys)
+* 답변을 실시간으로 추적합니다. [자세히 알아보기](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking)
+* 전용 보고서를 생성하고 있습니다. [자세히 알아보기](../../surveys/using/publish-track-and-use-collected-data.md#reports-on-surveys)
 
 
 ## 구현 단계 {#surveys-implementation-steps}

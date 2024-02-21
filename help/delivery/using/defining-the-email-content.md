@@ -7,22 +7,22 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Email Design
 role: User
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '1961'
 ht-degree: 1%
 
 ---
 
 # 이메일 콘텐츠 정의 {#defining-the-email-content}
 
-## 발신자 {#sender}
+## 보낸 사람 {#sender}
 
 보낸 메시지의 헤더에 표시할 보낸 사람의 이름과 주소를 정의하려면 **[!UICONTROL From]** 링크를 클릭합니다.
 
 ![](assets/s_ncs_user_wizard_email02.png)
 
-이 창에서는 전자 메일 메시지 머리글을 만드는 데 필요한 모든 정보를 입력할 수 있습니다. 이러한 정보는 개인화할 수 있습니다. 이렇게 하려면 입력 필드 오른쪽에 있는 버튼을 사용하여 개인화 필드를 삽입합니다.
+이 창에서는 전자 메일 메시지 머리글을 만드는 데 필요한 모든 정보를 입력할 수 있습니다. 이 정보는 개인화할 수 있습니다. 이렇게 하려면 입력 필드 오른쪽에 있는 버튼을 사용하여 개인화 필드를 삽입합니다.
 
 개인화 필드를 삽입하고 사용하는 방법을 알아보려면 다음을 참조하십시오. [개인화 기본 정보](about-personalization.md) 섹션.
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 * HTML 콘텐츠를 가져오려면 **[!UICONTROL Open]** 단추를 클릭합니다. 소스 코드를 **[!UICONTROL Source]** 하위 탭.
 
-  를 사용하는 경우 [디지털 콘텐츠 편집기](../../web/using/about-campaign-html-editor.md) (DCE): [콘텐츠 템플릿 선택](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
+  를 사용하는 경우 [디지털 콘텐츠 편집기](../../web/using/about-campaign-html-editor.md) (DCE): [콘텐츠 템플릿 선택](../../web/using/use-case-creating-an-email-delivery.md#step-3---selecting-a-content).
 
   >[!IMPORTANT]
   >

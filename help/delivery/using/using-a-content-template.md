@@ -2,13 +2,13 @@
 product: campaign
 title: 콘텐츠 템플릿 사용
 description: 콘텐츠 템플릿 사용
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '439'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-자세한 내용은 전체 구현 예를 참조하십시오. [게재 마법사에서 콘텐츠 만들기](use-case--creating-content-management.md#creating-content-in-the-delivery-wizard).
+자세한 내용은 전체 구현 예를 참조하십시오. [게재 마법사에서 콘텐츠 만들기](use-case-creating-content-management.md#creating-content-in-the-delivery-wizard).
 
 ## 콘텐츠 인스턴스 만들기 {#creating-a-content-instance}
 

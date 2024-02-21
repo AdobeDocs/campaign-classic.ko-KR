@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Seed Address
 role: User
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 9%
 
 시드 주소 기능을 사용하면 다음과 같은 이점이 있습니다.
 
-* 수신자 프로필에서 가져온 데이터로 필드를 임의로 대체: 시드 주소 섹션과 같은 이메일 주소만 입력하고 Campaign에서 프로필의 다른 필드를 자동으로 채울 수 있습니다(참조) [사용 사례: 필드 대체 구성](use-case--configuring-the-field-substitution.md)).
+* 수신자 프로필에서 가져온 데이터로 필드를 임의로 대체: 시드 주소 섹션과 같은 이메일 주소만 입력하고 Campaign에서 프로필의 다른 필드를 자동으로 채울 수 있습니다(참조) [사용 사례: 필드 대체 구성](use-case-configuring-the-field-substitution.md)).
 * Datamanagement 기능이 있는 워크플로우를 사용하는 경우 게재에서 처리된 추가 데이터를 시드 주소 수준에서 입력하여 값을 강제 적용할 수 있습니다. 이는 무작위 값 대체를 회피합니다.
 * 시드 주소는 다음 게재 통계에 대한 보고서에서 자동으로 제외됩니다. **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
 
@@ -36,7 +36,7 @@ ht-degree: 9%
 >
 >시드 주소는 수신자 테이블에 속하지 않으며 별도의 테이블에 생성됩니다. 새 데이터로 수신자 테이블을 확장하는 경우 동일한 데이터로 시드 주소 테이블을 확장해야 합니다. 그렇지 않으면 확장 필드는 시드 주소에 대해 고려되지 않습니다.
 >
->시드 주소 테이블을 확장하는 방법의 예는 이 섹션에 나와 있습니다. [사용 사례: 기준 시드 주소 선택](use-case--selecting-seed-addresses-on-criteria.md).
+>시드 주소 테이블을 확장하는 방법의 예는 이 섹션에 나와 있습니다. [사용 사례: 기준 시드 주소 선택](use-case-selecting-seed-addresses-on-criteria.md).
 
 DM 게재의 경우 시드 주소가 추출 중에 추가되고 출력 문서에 혼합됩니다.
 

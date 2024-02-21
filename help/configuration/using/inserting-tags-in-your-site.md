@@ -6,9 +6,9 @@ feature: Configuration
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '336'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 >
 >이 방법은 웹 브라우저에서 보낸 쿠키를 사용하여 수신자를 식별하며 100% 신뢰할 수 없습니다.
 
-**예제**:
+**예**:
 
 ```
 <img height='0' width='0' alt='' src='https://localhost/r/12343?tagid=home'
@@ -126,7 +126,7 @@ ht-degree: 2%
 
 리디렉션 서버로 전송되는 정보를 제어하려는 경우 페이지 생성 언어를 사용하여 HTTP 쿼리를 동기적으로 직접 수행하는 것이 가장 안정적인 방법입니다.
 
-생성하는 URL은에 정의된 구문 규칙을 준수해야 합니다. [웹 추적 태그: 정의](../../configuration/using/web-tracking-tag--definition.md).
+생성하는 URL은에 정의된 구문 규칙을 준수해야 합니다. [웹 추적 태그: 정의](../../configuration/using/web-tracking-tag-definition.md).
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 

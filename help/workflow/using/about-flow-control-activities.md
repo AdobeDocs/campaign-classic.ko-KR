@@ -2,13 +2,13 @@
 product: campaign
 title: 흐름 제어 활동 정보
 description: 흐름 제어 활동 정보
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 5%
+source-wordcount: '241'
+ht-degree: 8%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 * **대기**: 주어진 시간 제한 후 아웃바운드 전환을 활성화합니다. 을(를) 참조하십시오 [대기](wait.md).
 * **시간 제한**: 일정 기간 동안 작업을 일시 중지할 수 있습니다. 을(를) 참조하십시오 [시간 제한](time-constraint.md).
 * **하위 워크플로우**: 다른 워크플로우를 실행할 수 있습니다. 을(를) 참조하십시오 [하위 워크플로우](sub-workflow.md).
-* **점프**: 링크 없이 전환을 구현할 수 있도록 해줍니다. 을(를) 참조하십시오 [이동(시작점 및 끝점)](jump--start-point-and-end-point-.md).
+* **점프**: 링크 없이 전환을 구현할 수 있도록 해줍니다. 을(를) 참조하십시오 [이동(시작점 및 끝점)](jump-start-point-and-end-point.md).
 * **외부 신호**: 외부 신호를 받은 후 아웃바운드 전환을 활성화할 수 있습니다. [외부 신호](external-signal.md) 섹션을 참조하십시오.
 * **승인**: 운영자 또는 운영자 그룹에 이메일을 보내고 승인이 실행되어 계속 지날 때까지 기다릴 수 있습니다. 다음을 참조하십시오. [승인](approval.md) 섹션.
 * **경고**: 연산자 또는 연산자 그룹에 경고를 보낼 수 있습니다. 다음을 참조하십시오. [경고](alert.md) 섹션.

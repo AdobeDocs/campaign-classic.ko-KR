@@ -9,7 +9,7 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 4%
@@ -34,4 +34,4 @@ ht-degree: 4%
 
   ![](assets/s_ncs_configuration_offer_context.png)
 
-* SOAP 호출을 구성할 때 **컨텍스트** 상호 작용 스키마에 추가된 컨텍스트 정보를 참조하는 XML 요소입니다. 자세한 내용은 다음을 참조하십시오. [SOAP를 통한 통합(서버측)](../../interaction/using/integration-via-soap--server-side-.md).
+* SOAP 호출을 구성할 때 **컨텍스트** 상호 작용 스키마에 추가된 컨텍스트 정보를 참조하는 XML 요소입니다. 자세한 내용은 다음을 참조하십시오. [SOAP를 통한 통합(서버측)](../../interaction/using/integration-via-soap-server-side.md).

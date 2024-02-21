@@ -2,13 +2,13 @@
 product: campaign
 title: 하위 워크플로우
 description: 하위 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 단일 워크플로우에서 여러 하위 워크플로우를 호출할 수 있습니다. 하위 워크플로우는 동기적으로 실행됩니다.
 
-아래 예에서 기본 워크플로우는 점프를 사용하여 하위 워크플로를 호출하는 것입니다. 점프 유형 그래픽 객체에 대한 자세한 내용은 [이 섹션](jump--start-point-and-end-point-.md).
+아래 예에서 기본 워크플로우는 점프를 사용하여 하위 워크플로를 호출하는 것입니다. 점프 유형 그래픽 객체에 대한 자세한 내용은 [이 섹션](jump-start-point-and-end-point.md).
 
 1. 다른 워크플로우에서 하위 워크플로우로 사용할 워크플로우를 만듭니다.
 1. 삽입 **[!UICONTROL Jump (end point)]** 워크플로우 시작 시 우선순위가 1인 활동. &quot;끝점&quot; 유형 점프가 여러 개 있는 경우 Adobe Campaign에서 가장 낮은 숫자의 &quot;끝점&quot; 점프를 사용합니다.
@@ -54,7 +54,7 @@ ht-degree: 0%
 * 중간 모집단 수를 표시할 수 없습니다.
 * 하위 워크플로우 로그는 기본 워크플로우에 표시됩니다.
 
-   ![](assets/subworkflow_logs.png)
+  ![](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

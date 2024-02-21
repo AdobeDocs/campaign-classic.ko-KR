@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
-source-git-commit: d15592aaccf036fc956049e611139ea5a46e9fc0
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '477'
 ht-degree: 5%
 
 ---
@@ -32,7 +32,7 @@ Campaign Classic에서 S3 또는 Azure Blob 저장소 위치로 데이터를 내
 
 이렇게 하려면 다음을 추가하고 구성합니다.
 
-* An **[!UICONTROL Data extraction (file)]** 활동을 통해 타깃팅된 데이터를 CSV 파일로 추출할 수 있습니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../workflow/using/extraction--file-.md).
+* An **[!UICONTROL Data extraction (file)]** 활동을 통해 타깃팅된 데이터를 CSV 파일로 추출할 수 있습니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../workflow/using/extraction-file.md).
 
   ![](assets/rtcdp-extract-file.png)
 

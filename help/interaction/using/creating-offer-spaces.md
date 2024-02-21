@@ -3,14 +3,14 @@ product: campaign
 title: 오퍼 공간 만들기
 description: 오퍼 공간 만들기
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '993'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 카탈로그 오퍼의 콘텐츠는 오퍼 공간에 구성됩니다. 기본적으로 콘텐츠에는 다음 필드가 포함될 수 있습니다. **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** 및 **[!UICONTROL Text content]**. 오퍼 공간에 필드 시퀀스가 구성되어 있습니다.
 
-고급 매개 변수를 사용하면 연락처 식별 키(예: 다양한 요소, 이름 및 이메일 필드로 동시에 구성할 수 있음)를 지정할 수 있습니다. 자세한 내용은 [식별된 오퍼 표시](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) 섹션.
+고급 매개 변수를 사용하면 연락처 식별 키(예: 다양한 요소, 이름 및 이메일 필드로 동시에 구성할 수 있음)를 지정할 수 있습니다. 자세한 내용은 [식별된 오퍼 표시](../../interaction/using/integration-via-javascript-client-side.md#presenting-an-identified-offer) 섹션.
 
 HTML 또는 XML 렌더링은 렌더링 함수를 통해 생성됩니다. 렌더링 함수에 정의된 필드의 시퀀스는 콘텐츠에 구성된 시퀀스와 동일해야 합니다.
 

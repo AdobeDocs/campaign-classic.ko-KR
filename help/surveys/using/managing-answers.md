@@ -2,13 +2,13 @@
 product: campaign
 title: 답변 관리
 description: 설문 조사 답변을 관리하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Adobe Campaign의 모든 웹 양식에 공통되는 표준 저장소 모드(데�
 
 ### 저장소 설정 {#storage-settings}
 
-설문 조사에 대한 답변을 XML 형식으로 보관할 수 있습니다. 이렇게 하면 수집된 답변의 원시 사본을 저장할 수 있습니다. 이는 항목별 목록에서 데이터를 과도하게 표준화한 경우에 유용합니다. [자세히 알아보기](../../surveys/using/publish--track-and-use-collected-data.md#standardizing-data)
+설문 조사에 대한 답변을 XML 형식으로 보관할 수 있습니다. 이렇게 하면 수집된 답변의 원시 사본을 저장할 수 있습니다. 이는 항목별 목록에서 데이터를 과도하게 표준화한 경우에 유용합니다. [자세히 알아보기](../../surveys/using/publish-track-and-use-collected-data.md#standardizing-data)
 
 >[!CAUTION]
 >
@@ -138,7 +138,7 @@ Adobe Campaign의 모든 웹 양식에 공통되는 표준 저장소 모드(데�
 
 * 테스트에 점수를 사용하려면 **[!UICONTROL Score]** 테스트 계산 공식의 필드입니다.
 
-   ![](assets/s_ncs_admin_survey_score_in_a_test.png)
+  ![](assets/s_ncs_admin_survey_score_in_a_test.png)
 
 * 스크립트에서 점수를 사용할 수 있습니다.
 
@@ -146,18 +146,18 @@ Adobe Campaign의 모든 웹 양식에 공통되는 표준 저장소 모드(데�
 
 * 설문 조사에서 다음 페이지에서는 드롭다운 목록에서 선택한 값에 따라 사용자에게 다른 점수를 할당할 수 있습니다.
 
-   ![](assets/s_ncs_admin_survey_score_exa.png)
+  ![](assets/s_ncs_admin_survey_score_exa.png)
 
 * 선택한 옵션에 따라 이 점수를 두 번째 값과 결합할 수 있습니다.
 
-   ![](assets/s_ncs_admin_survey_score_exb.png)
+  ![](assets/s_ncs_admin_survey_score_exb.png)
 
 * 사용자가 **[!UICONTROL Next]** 단추를 클릭하면 두 값이 추가됩니다.
 
-   ![](assets/s_ncs_admin_survey_score_exe.png)
+  ![](assets/s_ncs_admin_survey_score_exe.png)
 
 * 스코어에 따라 표시될 페이지에 조건을 적용할 수 있다. 이는 다음과 같이 구성됩니다.
 
-   ![](assets/s_ncs_admin_survey_score_exd.png)
+  ![](assets/s_ncs_admin_survey_score_exd.png)
 
-   ![](assets/s_ncs_admin_survey_score_exg.png)
+  ![](assets/s_ncs_admin_survey_score_exg.png)

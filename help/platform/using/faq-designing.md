@@ -3,15 +3,15 @@ product: campaign
 title: 메시지 디자인 FAQ
 description: Campaign Classic FAQ
 feature: Audiences, Troubleshooting
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 98%
+ht-degree: 82%
 
 ---
 
@@ -39,9 +39,9 @@ Adobe Campaign으로 옴니채널 메시지를 디자인하는 주요 단계를 
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/defining-the-email-content.md#message-content).
 
-## 캠페인 DCE를 사용하여 전자 메일 콘텐츠를 만드는 방법  {#how-to-use-campaign-dce-to-create-an-email-content-}
+## Campaign DCE를 사용하여 이메일 콘텐츠를 만드는 방법 {#how-to-use-campaign-dce-to-create-an-email-content-}
 
-[Campaign 디지털 콘텐츠 편집기를 사용하여 전자 메일 디자인](../../web/using/use-case--creating-an-email-delivery.md): 예를 통해 Campaign DCE를 사용하여 전자 메일을 디자인하는 방법을 배웁니다.
+[Campaign 디지털 콘텐츠 편집기를 사용하여 전자 메일 디자인](../../web/using/use-case-creating-an-email-delivery.md): 예를 통해 Campaign DCE를 사용하여 전자 메일을 디자인하는 방법을 배웁니다.
 
 ## Campaign에서 구독 기반 뉴스레터를 만들려면 어떻게 해야 합니까? {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 
@@ -62,6 +62,6 @@ Adobe Campaign이 전달하는 메시지는 콘텐츠 또는 메시지 모양을
 
 이렇게 하려면 메시지 콘텐츠를 현지화하고 [조건](../../delivery/using/conditional-content.md)을 사용하여 수신자의 프로필에 따라 개인화할 수 있습니다. 또한 [워크플로우](../../workflow/using/split.md)를 사용하여 기본 언어 테스트에 따라 전송할 메시지 버전을 선택할 수도 있습니다.
 
-## Webform을 현지화하려면 어떻게 해야 합니까? {#how-can-i-localize-a-webform-}
+## 웹 양식을 현지화하려면 어떻게 해야 합니까? {#how-can-i-localize-a-webform-}
 
 웹 애플리케이션을 여러 언어로 현지화할 수 있습니다. 변환 메커니즘은 [이 섹션](../../web/using/translating-a-web-form.md)에서 제공됩니다.

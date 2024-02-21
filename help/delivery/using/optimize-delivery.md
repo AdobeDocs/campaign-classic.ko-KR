@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Deliverability
 role: User
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 9%
+source-wordcount: '736'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 9%
 
 바운스되지 않거나 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달하려면 메시지의 게재 가능성을 개선해야 합니다.
 
-* 전달성의 정의?
+* 전달성이란 무엇입니까?
 
    * 받는 사람의 서버에서 수락할 수 있는 전자 메일의 기능을 결정하는 요소를 말합니다. ISP(인터넷 서비스 공급자)는 스팸으로 식별되는 이메일을 필터링하거나 이미지가 다운로드되지 않도록 차단합니다. 특정 도메인에서 너무 많은 이메일을 보내고 있다고 판단되면 해당 발신자로부터 받을 이메일 수에 대한 제한을 설정합니다.
 
@@ -64,7 +64,7 @@ ht-degree: 9%
 
 * Adobe 잘못된 주소 목록이 있는 경우 다음을 통해 격리 테이블로 가져오는 것이 좋습니다. **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**.
 
-* 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외됩니다. 이 수신자는 타겟팅되지 않습니다. 이를 통해 게재 속도를 높일 수 있습니다. 오류율은 게재 속도에 상당한 영향을 미치기 때문입니다. 예를 들어 받은 편지함이 가득 찼거나 주소가 없는 경우 이메일 주소를 격리할 수 있습니다. [자세히 알아보기](#identifying-quarantined-addresses-for-a-delivery)
+* 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외됩니다. 이 수신자는 타겟팅되지 않습니다. 이렇게 하면 오류율이 게재 속도에 중요한 영향을 미치므로 게재 속도가 빨라집니다. 예를 들어 받은 편지함이 가득 찼거나 주소가 없는 경우 이메일 주소를 격리할 수 있습니다. [자세히 알아보기](#identifying-quarantined-addresses-for-a-delivery)
 
 * Adobe Campaign은 반환된 오류 유형에 따라 잘못된 주소를 관리합니다. 이 작업에 대한 자세한 정보는 [이 섹션](understanding-quarantine-management.md)을 참조하십시오.
 
@@ -77,4 +77,4 @@ ht-degree: 9%
 
 잘못된 주소로 메시지를 보내지 않도록 하고 부적절한 통신을 제한하며 보낸 사람의 평판을 향상시키기 위해 Adobe은 구독 후 확인을 위해 이중 옵트인 메커니즘을 구현하는 것을 권장합니다. 이렇게 하면 수신자가 의도적으로 가입했는지 확인하는 데 도움이 됩니다.
 
-이 메커니즘을 구현하기 위한 자세한 내용은 [이 섹션](../../web/using/use-cases--web-forms.md).
+이 메커니즘을 구현하기 위한 자세한 내용은 [이 섹션](../../web/using/use-cases-web-forms.md).

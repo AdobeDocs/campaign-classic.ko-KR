@@ -6,10 +6,10 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring, Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 5%
+source-wordcount: '490'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
 설문 조사에 대한 답변을 수집하려면 다음 단계를 적용합니다.
 
-1. 워크플로우 만들기 및 배치 **[!UICONTROL Answers to a survey]** 활동. 이 활동 사용에 대한 자세한 내용은 을 참조하십시오. [이 섹션](../../surveys/using/publish--track-and-use-collected-data.md#using-the-collected-data).
+1. 워크플로우 만들기 및 배치 **[!UICONTROL Answers to a survey]** 활동. 이 활동 사용에 대한 자세한 내용은 을 참조하십시오. [이 섹션](../../surveys/using/publish-track-and-use-collected-data.md#using-the-collected-data).
 1. 활동을 편집하고 분석할 답변이 있는 설문 조사를 선택합니다.
 1. 활성화 **[!UICONTROL Select all the answer data]** 모든 정보를 수집하는 옵션입니다.
 

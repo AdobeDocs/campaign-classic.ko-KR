@@ -2,12 +2,12 @@
 product: campaign
 title: 데이터 타겟팅
 description: 워크플로우의 데이터 타겟팅에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Query Editor, Data Management, Workflows
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1926'
 ht-degree: 5%
 
 ---
@@ -198,7 +198,7 @@ A **[!UICONTROL Query]** 활동을 사용하면 기본 데이터를 선택하여
 
    >[!NOTE]
    >
-   >를 획득한 경우 **페더레이션 데이터 액세스** 옵션을 사용하면 외부 기반의 정보를 기반으로 하위 집합을 만들 수 있습니다. 이렇게 하려면에서 외부 테이블의 스키마를 선택합니다 **[!UICONTROL Targeting dimension]** 필드. 자세한 내용은 다음을 참조하십시오. [외부 데이터베이스 액세스(FDA)](accessing-an-external-database--fda-.md).
+   >를 획득한 경우 **페더레이션 데이터 액세스** 옵션을 사용하면 외부 기반의 정보를 기반으로 하위 집합을 만들 수 있습니다. 이렇게 하려면에서 외부 테이블의 스키마를 선택합니다 **[!UICONTROL Targeting dimension]** 필드. 자세한 내용은 다음을 참조하십시오. [외부 데이터베이스 액세스(FDA)](accessing-an-external-database-fda.md).
 
 하위 집합이 만들어지면 기본적으로 분할 활동은 하위 집합이 있는 수만큼 출력 전환을 표시합니다.
 
@@ -240,7 +240,7 @@ Adobe Campaign에서 데이터 관리 는 보다 효율적이고 유연한 도�
 
 Adobe Campaign에서는 이러한 작업을 구현하기 위해 다음을 제공합니다.
 
-* 데이터 수집 활동: [파일 전송](file-transfer.md), [데이터 로드 중(파일)](data-loading--file-.md), [데이터 로드(RDBMS)](data-loading--rdbms-.md), [데이터 업데이트](update-data.md). 데이터를 수집하는 이 첫 번째 단계에서는 다른 활동에서 처리할 수 있도록 데이터를 준비합니다. 워크플로우가 올바르게 실행되고 예상 결과가 제공되도록 여러 매개 변수를 모니터링해야 합니다. 예를 들어 데이터를 가져올 때 이 데이터의 기본 키(Pkey)는 각 레코드에 대해 고유해야 합니다.
+* 데이터 수집 활동: [파일 전송](file-transfer.md), [데이터 로드 중(파일)](data-loading-file.md), [데이터 로드(RDBMS)](data-loading-rdbms.md), [데이터 업데이트](update-data.md). 데이터를 수집하는 이 첫 번째 단계에서는 다른 활동에서 처리할 수 있도록 데이터를 준비합니다. 워크플로우가 올바르게 실행되고 예상 결과가 제공되도록 여러 매개 변수를 모니터링해야 합니다. 예를 들어 데이터를 가져올 때 이 데이터의 기본 키(Pkey)는 각 레코드에 대해 고유해야 합니다.
 * 데이터 관리 옵션으로 보강된 타겟팅 활동: [쿼리](query.md), [합집합](union.md), [교차](intersection.md), [분할](split.md). 이를 통해 데이터 조정이 가능한 한 여러 다른 타겟팅 차원의 데이터 간 결합 또는 교차를 구성할 수 있습니다.
 * 데이터 변환 활동: [데이터 보강](enrichment.md), [차원 변경](change-dimension.md).
 

@@ -3,14 +3,14 @@ product: campaign
 title: 작업 만들기 및 관리
 description: 작업 만들기 및 관리
 feature: Resource Management
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '3736'
+source-wordcount: '3750'
 ht-degree: 0%
 
 ---
@@ -195,7 +195,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 이렇게 하려면 작업 속성을 편집하고 관련 서비스 공급자를 선택합니다. 서비스 제공자와 연관된 비용 범주가 창의 중앙 섹션에 자동으로 나열됩니다.
 
-자세한 내용은 다음을 참조하십시오. [서비스 공급자 및 해당 비용 범주 만들기](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+자세한 내용은 다음을 참조하십시오. [서비스 공급자 및 해당 비용 범주 만들기](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 작업 실행과 관련된 비용 범주를 선택합니다. 이를 위해 비용 유형을 선택하고 필요한 경우 추가 비용에 금액을 추가합니다.
 
@@ -223,7 +223,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 ![](assets/mrm_task_first_notif.png)
 
-그러나 만들고 있는 작업이 오래 걸리는 경우에는 작업이 시작되기 전에 알림을 보내도록 예약하는 것이 좋습니다. 예를 들어 한 달 후에 작업이 시작되면 작업이 시작되기 1주일 전에 담당자에게 알릴 수 있습니다.
+하지만 만들고 있는 작업이 너무 먼 경우에는 작업이 시작되기 전에 알림을 보내도록 예약하는 것이 좋습니다. 예를 들어 한 달 후에 작업이 시작되면 작업이 시작되기 1주일 전에 담당자에게 알릴 수 있습니다.
 
 알림을 예약하려면 **[!UICONTROL Resources]** 상자 및 사용 **[!UICONTROL Initial notification]** 필드.
 

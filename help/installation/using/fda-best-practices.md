@@ -3,15 +3,15 @@ product: campaign
 title: Campaign FDA 모범 사례 및 제한 사항
 description: 외부 데이터베이스(FDA) 작업 시 모범 사례 및 제한 사항에 대해 알아봅니다
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 * **하위 집합 만들기** - [분할](../../workflow/using/split.md) 활동을 사용하면 하위 세트를 만들 수 있습니다. 외부 데이터를 사용하여 사용할 필터링 기준을 정의할 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/split.md)를 참조하십시오.
 
-* **외부 데이터베이스 로드** - 다음에서 외부 데이터를 사용할 수 있습니다. [데이터 로드 중](../../workflow/using/data-loading--rdbms-.md) (RDBMS) 활동. [이 페이지](../../workflow/using/data-loading--rdbms-.md)에서 자세히 알아보십시오.
+* **외부 데이터베이스 로드** - 다음에서 외부 데이터를 사용할 수 있습니다. [데이터 로드 중](../../workflow/using/data-loading-rdbms.md) (RDBMS) 활동. [이 페이지](../../workflow/using/data-loading-rdbms.md)에서 자세히 알아보십시오.
 
 * **정보 및 링크 추가** - [데이터 보강](../../workflow/using/enrichment.md) 활동을 사용하면 워크플로우의 작업 테이블에 데이터를 추가하고 외부 테이블에 대한 링크를 추가할 수 있습니다. 이 컨텍스트에서는 외부 데이터베이스의 데이터를 사용할 수 있습니다. [이 페이지](../../workflow/using/enrichment.md)에서 자세히 알아보십시오.
 

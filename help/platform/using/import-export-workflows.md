@@ -9,10 +9,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 
 워크플로우에서 처리된 데이터는 Adobe Campaign으로 가져올 수 있도록 구조화된 파일에서 추출할 수 있습니다.
 
-데이터 로드 활동에 대한 설명은 [데이터 로드 중(파일)](../../workflow/using/data-loading--file-.md) 섹션.
+데이터 로드 활동에 대한 설명은 [데이터 로드 중(파일)](../../workflow/using/data-loading-file.md) 섹션.
 
 가져올 구조화된 파일의 예:
 
@@ -54,4 +54,4 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 워크플로우는 일부 내보내기 프로세스를 자동화하거나 데이터를 변형하는 데 사용할 수 있는 일부 데이터 관리 활동을 사용한 후 정확한 데이터 세트를 내보내는 유용한 방법이 될 수 있습니다.
 
-내보내기 작업은 **[!UICONTROL Data extraction (file) activity]**. 활동을 구성하고 사용하는 방법에 대한 자세한 내용은 을 참조하십시오. [이 페이지](../../workflow/using/extraction--file-.md).
+내보내기 작업은 **[!UICONTROL Data extraction (file) activity]**. 활동을 구성하고 사용하는 방법에 대한 자세한 내용은 을 참조하십시오. [이 페이지](../../workflow/using/extraction-file.md).

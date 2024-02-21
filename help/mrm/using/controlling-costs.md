@@ -3,14 +3,14 @@ product: campaign
 title: 비용 제어
 description: 비용 제어 방법 알아보기
 feature: Resource Management
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2495'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 1. 원가 계산 방법 정의
 
-   서비스 공급자에 대해 비용 구조가 정의됩니다. 다음을 참조하십시오 [서비스 공급자 및 해당 비용 범주 만들기](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+   서비스 공급자에 대해 비용 구조가 정의됩니다. 다음을 참조하십시오 [서비스 공급자 및 해당 비용 범주 만들기](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 1. 캠페인 비용 정의(게재/작업)
 
@@ -170,7 +170,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 >[!NOTE]
 >
->비용 범주 및 구조는에 나와 있습니다. [서비스 공급자 및 해당 비용 범주 만들기](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+>비용 범주 및 구조는에 나와 있습니다. [서비스 공급자 및 해당 비용 범주 만들기](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 ## 비용 약정, 계산 및 과금 {#cost-commitment--calculation-and-charging}
 
@@ -233,7 +233,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 #### 2단계 - 서비스 공급자 구성 및 원가 구조 정의 {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. 에서 비용 구조를 사용하여 서비스 제공업체 및 서비스 템플릿을 만듭니다. **[!UICONTROL Administration > Campaigns]** 노드. 자세한 내용은 다음을 참조하십시오. [서비스 공급자 및 해당 비용 범주 만들기](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+1. 에서 비용 구조를 사용하여 서비스 제공업체 및 서비스 템플릿을 만듭니다. **[!UICONTROL Administration > Campaigns]** 노드. 자세한 내용은 다음을 참조하십시오. [서비스 공급자 및 해당 비용 범주 만들기](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
    DM 게재의 경우 비용 범주 만들기 **[!UICONTROL Envelopes]** (유형 114x229 및 162x229), **[!UICONTROL Postage]** 및 **[!UICONTROL Print]** (유형 A3 및 A4). 그런 다음 다음과 같은 비용 구조를 생성합니다.
 

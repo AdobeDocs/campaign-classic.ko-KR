@@ -6,10 +6,10 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 3%
+source-wordcount: '1492'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 제안된 구성은 DM, 이메일, 모바일 채널 등 다양한 유형의 게재에 적합합니다. [자세히 알아보기](../../delivery/using/steps-about-delivery-creation-steps.md)
 
-## 게재를 시작합니다 {#starting-a-delivery}
+## 게재 시작 {#starting-a-delivery}
 
 모든 승인이 승인되면 게재를 시작할 수 있습니다. 게재 절차는 게재 유형에 따라 다릅니다. 이메일 또는 모바일 채널 게재에 대해서는 다음을 참조하십시오. [온라인 게재 시작](#starting-an-online-delivery)및 DM 게재에 대해서는 다음을 참조하십시오. [오프라인 게재 시작](#starting-an-offline-delivery).
 
@@ -112,11 +112,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->원가 계산 및 재고 관리에 대한 자세한 내용은 [공급자, 재고 및 예산](../../campaign/using/providers--stocks-and-budgets.md).
+>원가 계산 및 재고 관리에 대한 자세한 내용은 [공급자, 재고 및 예산](../../campaign/using/providers-stocks-and-budgets.md).
 
 ## 관련 문서 관리 {#managing-associated-documents}
 
-보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인에 연결할 수 있습니다. 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 제공됩니다. 문서를 캠페인과 연결하는 방법 알아보기 [이 섹션에서](../../campaign/using/marketing-campaign-assets.md).
+보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인과 연결할 수 있습니다. 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 제공됩니다. 문서를 캠페인과 연결하는 방법 알아보기 [이 섹션에서](../../campaign/using/marketing-campaign-assets.md).
 
 >[!IMPORTANT]
 >
@@ -227,7 +227,7 @@ ht-degree: 3%
 
 ![](assets/s_ncs_user_op_composition_in_export_template.png)
 
-내보내기 모델은 관련 게재에 대해 선택한 서비스 공급자와 연결되어야 합니다. 다음을 참조하십시오 [서비스 공급자 및 해당 비용 구조 생성](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+내보내기 모델은 관련 게재에 대해 선택한 서비스 공급자와 연결되어야 합니다. 다음을 참조하십시오 [서비스 공급자 및 해당 비용 구조 생성](../../campaign/using/providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
 >[!NOTE]
 >

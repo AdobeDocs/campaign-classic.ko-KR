@@ -3,15 +3,15 @@ product: campaign
 title: 보고 FAQ
 description: Campaign Classic FAQ
 feature: Troubleshooting, Reporting
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: b29340a0-954d-41e4-b0a3-9d356e4dc753
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 98%
+ht-degree: 82%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 
 
-## 새 보고서를 만드려면 어떻게 해야 합니까? {#how-can-i-create-new-reports-}
+## 새 보고서를 만들려면 어떻게 해야 합니까? {#how-can-i-create-new-reports-}
 
 기본 제공 보고서 외에도 Adobe Campaign을 사용하면 다양한 컨텍스트에서 보고서를 생성하여 다양한 요구를 충족할 수 있습니다.
 
@@ -49,7 +49,7 @@ Campaign Classic을 사용하면 [고급 보고서를 만들](../../reporting/us
 
 ## 온라인 설문 조사에 대한 응답으로 보고서를 만들 수 있습니까? {#can-i-create-a-report-from-answers-to-an-online-survey-}
 
-온라인 설문 조사 에 대한 답변을 표시하는 보고서를 디자인하는 방법을 배우려면 [이 사용 사례](../../surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)를 참조하십시오.
+온라인 설문 조사 에 대한 답변을 표시하는 보고서를 디자인하는 방법을 배우려면 [이 사용 사례](../../surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)를 참조하십시오.
 
 ## Campaign 인터페이스에서 보고서에 대한 액세스 권한을 공유하려면 어떻게 해야 합니까? {#how-can-i-share-access-to-my-report}
 

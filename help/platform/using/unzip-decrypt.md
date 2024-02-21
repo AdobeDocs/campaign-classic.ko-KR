@@ -9,17 +9,17 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: a2106e55617209f28da42c50008d16188563b2da
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 11%
+source-wordcount: '702'
+ht-degree: 9%
 
 ---
 
 
 # 파일 압축 풀기 또는 암호 해독 {#unzipping-or-decrypting-a-file-before-processing}
 
-Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 수 있습니다. 다음 위치에서 읽기 전 [데이터 로드 중(파일)](../../workflow/using/data-loading--file-.md) 활동을 수행하면 압축을 풀거나 파일의 암호를 해독하는 전처리 과정을 정의할 수 있습니다.
+Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 수 있습니다. 다음 위치에서 읽기 전 [데이터 로드 중(파일)](../../workflow/using/data-loading-file.md) 활동을 수행하면 압축을 풀거나 파일의 암호를 해독하는 전처리 과정을 정의할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -52,7 +52,7 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 �
 
 **관련 항목:**
 
-* [데이터 로드(파일) 활동](../../workflow/using/data-loading--file-.md).
+* [데이터 로드(파일) 활동](../../workflow/using/data-loading-file.md).
 * [파일 압축 또는 암호화](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
 ## 사용 사례: Campaign 컨트롤 패널에서 생성한 키를 사용하여 암호화된 데이터 가져오기 {#use-case-gpg-decrypt}
@@ -85,7 +85,7 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 �
 
    활동을 구성하는 방법에 대한 전체적인 개념은에서 사용할 수 있습니다. [이 섹션](../../workflow/using/file-transfer.md).
 
-1. 를 엽니다. **[!UICONTROL Data loading (file)]** 활동을 구성한 다음 필요에 따라 구성합니다. 활동을 구성하는 방법에 대한 전체적인 개념은에서 사용할 수 있습니다. [이 섹션](../../workflow/using/data-loading--file-.md).
+1. 를 엽니다. **[!UICONTROL Data loading (file)]** 활동을 구성한 다음 필요에 따라 구성합니다. 활동을 구성하는 방법에 대한 전체적인 개념은에서 사용할 수 있습니다. [이 섹션](../../workflow/using/data-loading-file.md).
 
    들어오는 데이터를 해독하기 위해 활동에 전처리 단계를 추가합니다. 이렇게 하려면 **[!UICONTROL Pre-process the file]** 옵션을 선택한 다음 **[!UICONTROL Command]** 필드 :
 

@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Audiences, Proofs
 role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1605'
 ht-degree: 2%
 
 ---
@@ -222,11 +222,11 @@ ht-degree: 2%
 
 다음을 사용하여 특정 증명 대상의 정의와 시드 주소 사용을 결합할 수 있습니다. **[!UICONTROL Specific target and Seed addresses]** 옵션을 선택합니다. 그런 다음 관련 구성이 두 개의 개별 하위 탭에서 정의됩니다.
 
-참조 항목:
+다음도 참조하십시오.
 
 * [증명 대상 선택](#selecting-the-proof-target)
 * [시드 주소 정보](about-seed-addresses.md)
-* [활용 사례: 기준 시드 주소 선택](use-case--selecting-seed-addresses-on-criteria.md)
+* [활용 사례: 기준 시드 주소 선택](use-case-selecting-seed-addresses-on-criteria.md)
 
 ## 튜토리얼 비디오 {#seeds-and-proofs-video}
 

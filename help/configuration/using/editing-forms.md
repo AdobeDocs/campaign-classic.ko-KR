@@ -7,7 +7,7 @@ role: Data Engineer, Developer
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '1710'
 ht-degree: 2%
@@ -54,7 +54,7 @@ Forms은 의 엔티티입니다. `xtk:form` 유형. 다음에서 입력 양식 �
 
 * 콘텐츠 관리
 
-  콘텐츠 관리에 이 양식 유형을 사용합니다. 이 항목 보기 [사용 사례](../../delivery/using/use-case--creating-content-management.md).
+  콘텐츠 관리에 이 양식 유형을 사용합니다. 이 항목 보기 [사용 사례](../../delivery/using/use-case-creating-content-management.md).
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
@@ -255,7 +255,7 @@ Forms은 의 엔티티입니다. `xtk:form` 유형. 다음에서 입력 양식 �
    | `<container>` | `type="visibleGroup" visibleIf="`*edit-expr*`"` | 조건부로 필드 그룹 표시 |
    | `<container>` | `type="enabledGroup" enabledIf="`*edit-expr*`"` | 조건부로 필드 그룹 활성화 |
 
-   예제:
+   예:
 
    ```xml
    <container type="enabledGroup" enabledIf="@gender=1">
@@ -496,7 +496,7 @@ JavaScript SOAP 호출을 사용하여 콘솔에서 양식 데이터의 유효�
 
 1. JS 파일에 유효성 검사 함수를 만듭니다.
 
-   예제:
+   예:
 
    ```js
    function nms_recipient_checkValue(value)

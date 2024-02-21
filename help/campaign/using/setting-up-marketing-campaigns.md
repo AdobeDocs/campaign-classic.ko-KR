@@ -6,10 +6,10 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 6%
+source-wordcount: '1255'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 1. 게재 모니터링. [자세히 알아보기](../../campaign/using/marketing-campaign-monitoring.md)
 
-1. 캠페인 및 관련 비용 계획 [자세히 알아보기](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)
+1. 캠페인 및 관련 비용 계획 [자세히 알아보기](../../campaign/using/providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)
 
 이러한 단계가 완료되면 게재를 시작할 수 있습니다( 참조) [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery))을 클릭하여 게재와 관련된 데이터, 프로세스 및 정보를 확인하고 필요한 경우 관련 문서를 관리합니다( 참조). [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). 캠페인 및 게재의 처리 단계 실행을 추적할 수도 있습니다(참조) [이 섹션](../../campaign/using/marketing-campaign-monitoring.md)).
 

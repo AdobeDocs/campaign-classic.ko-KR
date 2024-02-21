@@ -6,10 +6,10 @@ role: User, Data Engineer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Fatigue Management, Typology Rules, Campaigns
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '3274'
-ht-degree: 7%
+source-wordcount: '3343'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 7%
 캠페인은 정의된 임계값 및 메시지 가중치를 기반으로 선택됩니다.
 
 * 임계값은 지정된 기간 내에 지정된 수신자에 대해 승인된 가장 높은 게재 수입니다. 또는 변수를 설정할 수 있습니다. 유형화 규칙 설정에서 설정되거나 계산됩니다. 을(를) 참조하십시오 [최대 메시지 수](#maximum-number-of-messages).
-* 게재 가중치를 통해 압력 관리 프레임워크 내에서 최우선 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지는 우선 순위가 높습니다. 을(를) 참조하십시오 [메시지 가중치](#message-weight).
+* 게재 가중치를 통해 압력 관리 프레임워크 내에서 최우선 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지에 우선 순위가 있습니다. 을(를) 참조하십시오 [메시지 가중치](#message-weight).
 
 중재에는 진행 중인 캠페인보다 비중이 큰 예약된 캠페인이 과도한 프로필 요청으로 이어지지 않도록 하는 것이 포함됩니다. 이 경우 프로필이 게재에서 제외됩니다.
 
@@ -107,13 +107,13 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 >
 >입력 중 **0** 임계값은 고려되는 기간 동안 대상 모집단에 대한 모든 게재를 방지합니다.
 
-**예제:**
+**예:**
 
 수신자가 속한 세그먼트에 따라 허용된 메시지 수를 인덱싱할 수 있습니다. 즉, 웹 세그먼트에 속하는 수신자가 다른 수신자보다 더 많은 메시지를 받을 수 있습니다. An **[!UICONTROL Iif (@origin='Web', 5, 3)]** 유형 수식은 수신자에게 5개의 메시지를 게재하고 다른 세그먼트의 경우 3개의 메시지를 게재하도록 허용합니다. 구성은 다음과 같습니다.
 
 ![](assets/campaign_opt_pressure_sample.png)
 
-임계값을 정의하려면 타겟팅 차원에 연결된 차원을 사용할 수 있습니다. 예를 들어, 방문자 테이블에 저장된 수신자 프로필에 전달된 메시지를 포함하려면 다음을 참조하십시오. 방문자 테이블에 대한 자세한 내용은 [이 섹션](../../surveys/using/use-case--creating-a-refer-a-friend-form.md))를 클릭하거나 수신자의 메시지와 연결된 차원에서 식별된 동일한 가구(여러 이메일 주소를 의미할 수 있음)에 매주 두 개 이상의 메시지를 보내지 않도록 합니다.
+임계값을 정의하려면 타겟팅 차원에 연결된 차원을 사용할 수 있습니다. 예를 들어, 방문자 테이블에 저장된 수신자 프로필에 전달된 메시지를 포함하려면 다음을 참조하십시오. 방문자 테이블에 대한 자세한 내용은 [이 섹션](../../surveys/using/use-case-creating-a-refer-a-friend-form.md))를 클릭하거나 수신자의 메시지와 연결된 차원에서 식별된 동일한 가구(여러 이메일 주소를 의미할 수 있음)에 매주 두 개 이상의 메시지를 보내지 않도록 합니다.
 
 이렇게 하려면 **[!UICONTROL Count messages on a linked dimension]** 옵션을 선택한 다음 방문자 또는 연락처 테이블을 선택합니다.
 
@@ -128,7 +128,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 >유형화 규칙에 정의된 가중치를 의 각 게재에 대해 개별적으로 오버로드할 수 있습니다. **[!UICONTROL Properties]** 탭. 다음을 클릭합니다. **[!UICONTROL Typology]** 탭으로 이동하여 캠페인 유형화를 선택하고, 필요한 경우 적용할 가중치를 지정합니다.\
 >그러나 A 유형화 규칙에 선언된 가중치는 B 유형화 규칙을 계산하는 데 사용되지 않습니다. 이 가중치는 A 규칙을 사용하는 게재에만 적용됩니다.
 
-**예제:**
+**예:**
 
 다음 예에서는 음악에 대한 뉴스레터의 가중치를 수신자의 성향 점수와 연결하려고 합니다. 방법은 다음과 같습니다.
 
@@ -170,7 +170,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 
 기간이 0보다 큰 경우(예: 1) 계산 임계값은 전날의 게재를 고려할 수 있습니다. 따라서 이전 날짜가 이전 달력 주에 해당하고 선택한 기간 유형이 &#39;주별 그룹화&#39;인 경우 계산 임계값에 이전 주가 모두 고려됩니다.
 
-**예제:**
+**예:**
 
 2주 기간 동안 권유를 3개의 메시지로 제한하고 해당 달로 그룹화하는 압력 규칙을 만들려고 합니다.
 
@@ -337,7 +337,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 
 이제 압력 규칙을 적용할 각 게재에 대한 워크플로우를 만들고 구성합니다.
 
-1. 캠페인 만들기. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
+1. 캠페인을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
 1. 다음에서 **[!UICONTROL Targeting and workflows]** 캠페인의 탭에서 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 내용은 을 참조하십시오. [이 섹션](../../workflow/using/query.md).
 1. 추가 **[!UICONTROL Email delivery]** 활동을 워크플로우에 추가하고 엽니다. 이 활동 사용에 대한 자세한 내용은 을 참조하십시오. [이 섹션](../../workflow/using/delivery.md).
 1. 로 이동 **[!UICONTROL Approvals]** 의 탭 **[!UICONTROL Delivery properties]** 모든 승인을 비활성화합니다.
@@ -369,7 +369,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
   <tr> 
    <th> 게재<br /> </th> 
    <th> 승인<br /> </th> 
-   <th> 가중치<br /> </th> 
+   <th> 두께<br /> </th> 
    <th> 추출 날짜/시간<br /> </th> 
    <th> 연락일<br /> </th> 
    <th> 게재 시작 날짜/시간<br /> </th> 
@@ -383,9 +383,9 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
    <td> 게재 1<br /> </td> 
    <td> 비활성화됨<br /> </td> 
    <td> 5<br /> </td> 
-   <td> 3pm<br /> </td> 
+   <td> 오후 3시<br /> </td> 
    <td> 오전 8시(다음 날)<br /> </td> 
-   <td> 2pm<br /> </td> 
+   <td> 오후 2시<br /> </td> 
    <td> 매일 밤<br /> </td> 
    <td> 제외됨<br /> </td> 
    <td> 제외됨<br /> </td> 
@@ -394,9 +394,9 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
    <td> 게재 2<br /> </td> 
    <td> 비활성화됨<br /> </td> 
    <td> 10<br /> </td> 
-   <td> 4pm<br /> </td> 
+   <td> 오후 4시<br /> </td> 
    <td> 오전 9시(다음 날)<br /> </td> 
-   <td> 2pm<br /> </td> 
+   <td> 오후 2시<br /> </td> 
    <td> 매일 밤<br /> </td> 
    <td> 전송됨<br /> </td> 
    <td> 오전 9시(다음 날)<br /> </td> 

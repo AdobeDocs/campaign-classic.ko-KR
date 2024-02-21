@@ -9,7 +9,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: 58998fa2480a33776507a434ed846541ac19e58b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 5%
@@ -37,7 +37,7 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 내보낼 �
 **관련 항목:**
 
 * [처리하기 전에 파일 압축 풀기 또는 암호 해독](../../platform/using/unzip-decrypt.md)
-* [데이터 추출(파일) 활동](../../workflow/using/extraction--file-.md).
+* [데이터 추출(파일) 활동](../../workflow/using/extraction-file.md).
 
 ## 사용 사례: Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기 {#use-case-gpg-encrypt}
 
@@ -60,7 +60,7 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 내보낼 �
 
 1. 구성 **[!UICONTROL Query]** 활동으로 데이터베이스에서 원하는 데이터를 타겟팅할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/query.md)을 참조하십시오.
 
-1. 를 엽니다. **[!UICONTROL Data extraction (file)]** 그런 다음 필요에 따라 활동을 구성합니다. 활동을 구성하는 방법에 대한 전체적인 개념은에서 사용할 수 있습니다. [이 섹션](../../workflow/using/extraction--file-.md).
+1. 를 엽니다. **[!UICONTROL Data extraction (file)]** 그런 다음 필요에 따라 활동을 구성합니다. 활동을 구성하는 방법에 대한 전체적인 개념은에서 사용할 수 있습니다. [이 섹션](../../workflow/using/extraction-file.md).
 
    ![](assets/gpg-data-extraction.png)
 

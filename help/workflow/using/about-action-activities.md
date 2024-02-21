@@ -2,13 +2,13 @@
 product: campaign
 title: 작업 활동 정보
 description: 작업 활동 정보
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Data Management
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 2%
+source-wordcount: '277'
+ht-degree: 4%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 2%
 * **반복 게재**: 캠페인 내에서 게재 템플릿 발생을 구성할 수 있습니다. 을(를) 참조하십시오 [반복 게재](recurring-delivery.md).
 * **크로스 채널 게재**: 해당 채널에서 게재를 구성할 수 있습니다. 다음을 참조하십시오. [크로스 채널 게재](cross-channel-deliveries.md) 섹션.
 * **로컬 승인**: 분산 마케팅 컨텍스트 내에서 승인 및 타겟팅 알림을 수행할 수 있습니다(선택 모듈). 을(를) 참조하십시오 [로컬 승인](local-approval.md).
-* **데이터 로드(RDBMS)**: 외부 데이터베이스에 액세스하여 데이터를 가져올 수 있습니다. 다음을 참조하십시오. [데이터 로드(RDBMS)](data-loading--rdbms-.md) 섹션.
-* **로드 중(SOAP)**: SOAP 호출을 통해 데이터를 수집할 수 있습니다. 을(를) 참조하십시오 [로드 중(SOAP)](loading--soap-.md).
-* **데이터 로드 중(파일)**: 외부 데이터 소스에 액세스하여 해당 데이터를 사용할 수 있습니다. 다음을 참조하십시오. [데이터 로드 중(파일)](data-loading--file-.md) 섹션.
+* **데이터 로드(RDBMS)**: 외부 데이터베이스에 액세스하여 데이터를 가져올 수 있습니다. 다음을 참조하십시오. [데이터 로드(RDBMS)](data-loading-rdbms.md) 섹션.
+* **로드 중(SOAP)**: SOAP 호출을 통해 데이터를 수집할 수 있습니다. 을(를) 참조하십시오 [로드 중(SOAP)](loading-soap.md).
+* **데이터 로드 중(파일)**: 외부 데이터 소스에 액세스하여 해당 데이터를 사용할 수 있습니다. 다음을 참조하십시오. [데이터 로드 중(파일)](data-loading-file.md) 섹션.
 * **콘텐츠 관리**: 컨텐츠를 만들거나 사용자 정의할 수 있습니다. 다음을 참조하십시오. [콘텐츠 관리](content-management.md) 섹션.
-* **추출(파일)**: 파일의 테이블에서 데이터를 추출할 수 있습니다. 다음을 참조하십시오. [추출(파일)](extraction--file-.md) 섹션.
+* **추출(파일)**: 파일의 테이블에서 데이터를 추출할 수 있습니다. 다음을 참조하십시오. [추출(파일)](extraction-file.md) 섹션.
 * **SQL 코드 및 JavaScript 코드**: 활동에 지정된 SQL 스크립트 또는 JavaScript를 실행합니다. 을(를) 참조하십시오 [SQL 코드 및 JavaScript 코드](sql-code-and-javascript-code.md).
 * **SQL 데이터 관리**: 자체 SQL 쿼리를 작성하여 작업 테이블을 만들고 채울 수 있습니다. 을(를) 참조하십시오 [SQL 데이터 관리](sql-data-management.md).
 * **nlserver 모듈**: 인수로 nlserver 모듈을 시작합니다. 을(를) 참조하십시오 [Nlserver 모듈](nlserver-module.md).

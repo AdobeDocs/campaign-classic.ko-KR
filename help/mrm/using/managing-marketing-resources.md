@@ -3,12 +3,12 @@ product: campaign
 title: 마케팅 리소스 관리
 description: 마케팅 리소스를 관리하는 방법 알아보기
 feature: Resource Management
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 1%
@@ -195,7 +195,7 @@ Adobe Campaign을 게시하려면 적절한 워크플로우를 만들어 리소�
 
 >[!NOTE]
 >
->Adobe Campaign의 주식 관리에 대한 자세한 내용은 [재고 관리](../../campaign/using/providers--stocks-and-budgets.md#stock-management).
+>Adobe Campaign의 주식 관리에 대한 자세한 내용은 [재고 관리](../../campaign/using/providers-stocks-and-budgets.md#stock-management).
 
 마케팅 리소스를 스톡과 연결하려면 스톡 맵을 편집하고 스톡을 편집하거나 만듭니다. 재고 라인을 추가하고 해당 마케팅 리소스를 선택합니다.
 

@@ -6,7 +6,7 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 1%
@@ -126,7 +126,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_op_composition_in_export_template.png)
 
-내보내기 모델은 관련 게재에 대해 선택한 서비스 공급자와 연결되어야 합니다. [이 섹션](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)을 참조하십시오.
+내보내기 모델은 관련 게재에 대해 선택한 서비스 공급자와 연결되어야 합니다. 다음을 참조하십시오 [이 섹션](../../campaign/using/providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
 >[!NOTE]
 >

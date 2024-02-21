@@ -2,13 +2,13 @@
 product: campaign
 title: 양식 렌더링
 description: 양식 렌더링
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '999'
 ht-degree: 2%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 2%
 * **[!UICONTROL Lines]**: 의 라인 수 **[!UICONTROL Multi-line text]** 유형 영역,
 * **[!UICONTROL Style inline]**: 추가 설정으로 CSS 스타일 시트를 오버로드할 수 있습니다. 다음을 사용하여 구분됩니다. **;** 아래 예와 같은 문자:
 
-   ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
+  ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
 ### 머리글 및 바닥글 정의 {#defining-headers-and-footers}
 
@@ -148,15 +148,15 @@ ht-degree: 2%
 
 * 기본 트리에는 양식 컨텍스트의 매개 변수가 포함되어 있습니다. 기본 매개 변수는 식별자(수신자의 암호화된 식별자와 일치), 언어 및 원본입니다.
 
-   자세한 정보는 이 [페이지](defining-web-forms-properties.md#form-url-parameters)를 참조하십시오.
+  자세한 정보는 이 [페이지](defining-web-forms-properties.md#form-url-parameters)를 참조하십시오.
 
 * 다음 **[!UICONTROL Recipients]** 하위 트리에는 양식에 삽입되어 데이터베이스에 저장된 입력 필드가 포함됩니다.
 
-   자세한 내용은 다음을 참조하십시오. [데이터베이스에 데이터 저장](web-forms-answers.md#storing-data-in-the-database).
+  자세한 내용은 다음을 참조하십시오. [데이터베이스에 데이터 저장](web-forms-answers.md#storing-data-in-the-database).
 
 * 다음 **[!UICONTROL Variables]** 하위 트리에는 이 양식에 사용할 수 있는 변수가 포함되어 있습니다. 자세한 내용은 다음을 참조하십시오. [로컬 변수에 데이터 저장](web-forms-answers.md#storing-data-in-a-local-variable).
 
-자세한 내용은 여기에서 사용 사례를 참조하십시오. [선택한 값에 따라 다른 옵션 표시](use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
+자세한 내용은 여기에서 사용 사례를 참조하십시오. [선택한 값에 따라 다른 옵션 표시](use-cases-web-forms.md#displaying-different-options-depending-on-the-selected-values).
 
 다음을 사용하여 양식 페이지 표시 조건을 지정할 수도 있습니다. **[!UICONTROL Test]** 개체. 자세한 정보는 이 [페이지](defining-web-forms-page-sequencing.md#conditional-page-display)를 참조하십시오.
 
