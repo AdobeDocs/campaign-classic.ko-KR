@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '1519'
+source-git-commit: f3dc9d56c693f334923d627a28a9e45b92b1c0c3
+workflow-type: tm+mt
+source-wordcount: '1558'
 ht-degree: 100%
 
 ---
@@ -48,13 +48,13 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
  <td>Facebook을 사용한 소셜 마케팅</td>
  <td>Facebook을 사용한 소셜 마케팅은 이제 더 이상 사용되지 않습니다. X(예전 이름 Twitter) 통합을 사용하여 소셜 미디어에 게시하거나 Adobe를 통해 사용자 정의 채널을 만들 수 있습니다.
  <p></p>
-  <p>Target 제거 날짜: 2023년 말</p>
+  <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
 <tr>
  <td>ACS 커넥터</td>
  <td>ACS 커넥터(Prime offering)는 이제 더 이상 사용되지 않습니다. 캠페인 내보내기/가져오기 기능을 사용하여 두 제품의 데이터를 추출하고 삽입할 수 있습니다.<p></p>
-  <p>Target 제거 날짜: 2023년 말</p>
+  <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
  </tbody> 
