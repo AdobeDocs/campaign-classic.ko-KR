@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: da35a3050d838cd8e57bf802dc066e32f22f8273
-workflow-type: ht
-source-wordcount: '2295'
+source-git-commit: 23f2565cc847805cff6df028935f74404cdcff24
+workflow-type: tm+mt
+source-wordcount: '2278'
 ht-degree: 100%
 
 ---
@@ -188,7 +188,7 @@ _2022년 11월 21일_
 
 ### 기타 변경 사항  {#release-7-3-2-other}
 
-* 웹 로그가 향상되었습니다. 이제 관리자 권한이 있는 사용자에 대해서만 `logonEscalation` 경고가 표시됩니다. (NEO-47167)
+<!--* Web logs have been improved: `logonEscalation` warnings are now only displayed for users with admin privileges. (NEO-47167)-->
 * 오류를 방지하기 위해 **Heatmap 서비스를 위한 데이터 수집**(collectDataHeatMapService) 워크플로우가 기본적으로 중지됩니다. (NEO-33959)
 * 캠페인 대시보드의 CPU 사용을 최적화하기 위해 다양한 개선 사항이 구현되었습니다. (NEO-46417)
 * 충돌을 방지하기 위해 loadLibraryDebug JS 메서드를 제거했습니다. (NEO-46968)

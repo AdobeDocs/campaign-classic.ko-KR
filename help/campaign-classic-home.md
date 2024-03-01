@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 6dd2a2343c0204c01dd0fa4910299efa15c29849
+source-git-commit: 23f2565cc847805cff6df028935f74404cdcff24
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 4%
+source-wordcount: '354'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 ## 새로운 기능
 
-Adobe Campaign Classic v7 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세 정보를 확인하십시오 [릴리스 정보](rn/using/latest-release.md).  다음을 방문하여 설명서의 최신 변경 사항을 최신 상태로 유지하십시오. [설명서 업데이트 페이지](rn/using/documentation-updates.md).
+Adobe Campaign Classic v7 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세 정보를 확인하십시오 [릴리스 정보](rn/using/latest-release.md).  [설명서 업데이트 페이지](rn/using/documentation-updates.md)를 방문하여 설명서의 최신 변경 사항을 최신 상태로 유지하십시오.
 
 >[!BEGINTABS]
 
@@ -106,7 +106,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>개발자 리소스</strong><br/><a href="configuration/using/about-data-model.md">데이터 모델 설명</a> - <a href="configuration/using/about-schema-reference.md">스키마 구조</a> - <a href="configuration/using/editing-forms.md">스키마 구조</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="configuration/using/about-custom-recipient-table.md">사용자 지정 수신자 테이블</a>
+      <strong>개발자 리소스</strong><br/><a href="configuration/using/about-data-model.md">데이터 모델 설명</a> - <a href="configuration/using/about-schema-reference.md">스키마 구조</a> - <a href="configuration/using/editing-forms.md">스키마 구조</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html&gt;JSAPI 참조 설명서&lt;/a&gt; - &lt;a href=&quot;&quot;&gt;" configuration/using/about-custom-recipient-table.md">사용자 지정 수신자 테이블</a>
     </td>
   </tr>
 </table>
