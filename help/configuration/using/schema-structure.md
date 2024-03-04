@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 스키마 구조
+title: Adobe Campaign의 스키마 구조 이해
 description: 스키마 구조
 feature: Custom Resources
 role: Data Engineer, Developer
@@ -9,18 +9,22 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 2%
+source-wordcount: '1496'
+ht-degree: 1%
 
 ---
 
-# 스키마 구조{#schema-structure}
+# 스키마 구조 이해 {#schema-structure}
 
-의 기본 구조 `<srcschema>` 는 다음과 같습니다.
+아래에 스키마의 기본 구조가 설명되어 있습니다.
 
-```
+## 데이터 스키마  {#data-schema}
+
+의 경우 `<srcschema>`, 구조는 다음과 같습니다.
+
+```sql
 <srcSchema>
     <enumeration>
         ...          //definition of enumerations
@@ -63,7 +67,7 @@ ht-degree: 2%
 
 데이터 스키마의 XML 문서에는 **`<srcschema>`** 루트 요소 **이름** 및 **네임스페이스** 속성을 사용하여 스키마 이름과 해당 네임스페이스를 채웁니다.
 
-```
+```sql
 <srcSchema name="schema_name" namespace="namespace">
 ...
 </srcSchema>
@@ -71,7 +75,7 @@ ht-degree: 2%
 
 다음 XML 콘텐츠를 사용하여 데이터 스키마의 구조를 보여 드리겠습니다.
 
-```
+```sql
 <recipient email="John.doe@aol.com" created="2009/03/12" gender="1"> 
   <location city="London"/>
 </recipient>
@@ -79,7 +83,7 @@ ht-degree: 2%
 
 해당 데이터 스키마 포함:
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email"/>
@@ -94,7 +98,7 @@ ht-degree: 2%
 
 ## 설명 {#description}
 
-스키마의 시작점은 주 요소입니다. 스키마와 이름이 같기 때문에 식별하기 쉽고 루트 요소의 하위 항목이어야 합니다. 콘텐츠에 대한 설명은 이 요소에서 시작됩니다.
+스키마의 진입점이 주 요소입니다. 스키마와 이름이 같기 때문에 식별하기 쉽고 루트 요소의 하위 항목이어야 합니다. 콘텐츠에 대한 설명은 이 요소에서 시작됩니다.
 
 이 예제에서 기본 요소는 다음 줄로 표시됩니다.
 
@@ -102,11 +106,11 @@ ht-degree: 2%
 <element name="recipient">
 ```
 
-요소 **`<attribute>`** 및 **`<element>`** 기본 요소 다음에 오는 를 사용하면 XML 구조에서 데이터 항목의 위치와 이름을 정의할 수 있습니다.
+다음 **`<attribute>`** 및 **`<element>`** 기본 요소 다음에 오는 요소는 XML 구조에서 데이터 항목의 위치와 이름을 정의하는 데 사용됩니다.
 
 샘플 스키마에서는 다음과 같습니다.
 
-```
+```sql
 <attribute name="email"/>
 <attribute name="created"/>
 <attribute name="gender"/>
@@ -115,13 +119,13 @@ ht-degree: 2%
 </element>
 ```
 
-다음 규칙을 준수해야 합니다.
+다음 규칙이 적용됩니다.
 
 * 각 **`<element>`** 및 **`<attribute>`** 은(는) 다음을 통해 이름으로 식별되어야 합니다. **이름** 특성.
 
   >[!IMPORTANT]
   >
-  >요소의 이름은 간결해야 하며, 가급적 영어로 작성해야 하고, XML 이름 지정 규칙에 따라 승인된 문자만 포함해야 합니다.
+  >요소의 이름은 간결해야 하며, 가급적 영어로 작성해야 하고, XML 이름 지정 규칙에 허용되는 문자만 포함해야 합니다.
 
 * 전용 **`<element>`** 요소는 다음을 포함할 수 있습니다. **`<attribute>`** 요소 및 **`<element>`** 요소를 XML 구조로 만듭니다.
 * An **`<attribute>`** 요소는 다음 내에서 고유한 이름을 가져야 합니다. **`<element>`**.
@@ -131,7 +135,7 @@ ht-degree: 2%
 
 데이터 유형은 다음을 통해 입력됩니다. **유형** 의 속성 **`<attribute>`** 및 **`<element>`** 요소.
 
-자세한 목록은 의 설명에서 사용할 수 있습니다. [`<attribute>` 요소](../../configuration/using/schema/attribute.md) 및 [`<element>` 요소](../../configuration/using/schema/element.md)).
+자세한 목록은 의 설명에서 사용할 수 있습니다. [`<attribute>` 요소](../../configuration/using/schema/attribute.md) 및 [`<element>` 요소](../../configuration/using/schema/element.md).
 
 이 속성이 채워지지 않으면 **문자열** 요소에 자식 요소가 포함되지 않은 경우 는 기본 데이터 형식입니다. 이 경우 요소를 계층적으로 구성하는 데만 사용됩니다(**`<location>`** 요소(예)를 참조하십시오.
 
@@ -152,11 +156,11 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >포함 **uuid** Microsoft SQL Server가 아닌 다른 엔진의 필드에서는 &quot;newuuid()&quot; 함수를 추가하고 기본값으로 완료해야 합니다.
+  >포함 **uuid** Microsoft SQL Server 이외의 RDBMS의 필드 `the newuuid()` 함수를 추가하고 기본값으로 완료해야 합니다.
 
 다음은 입력한 유형이 포함된 예제 스키마입니다.
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email" type="string" length="80"/>
@@ -179,91 +183,76 @@ ht-degree: 2%
    <td> <strong>Adobe Campaign</strong><br /> </td> 
    <td> <strong>PostgreSQL</strong><br /> </td> 
    <td> <strong>Oracle</strong><br /> </td> 
-   <td> <strong>MS SQL</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> 문자열<br /> </td> 
    <td> VARCHAR(255)<br /> </td> 
    <td> VARCHAR2(유니코드의 경우 NVARCHAR2)<br /> </td> 
-   <td> VARCHAR(유니코드의 경우 NVARCHAR)<br /> </td> 
   </tr> 
   <tr> 
    <td> 부울<br /> </td> 
    <td> 스말린트<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
-   <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
    <td> 바이트<br /> </td> 
    <td> 스말린트<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
-   <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
    <td> 짧음<br /> </td> 
    <td> 스말린트<br /> </td> 
    <td> NUMBER(5)<br /> </td> 
-   <td> 스말린트<br /> </td> 
   </tr> 
   <tr> 
-   <td> 더블<br /> </td> 
+   <td> Double<br /> </td> 
    <td> 배정밀도<br /> </td> 
-   <td> 부동<br /> </td> 
    <td> 부동<br /> </td> 
   </tr> 
   <tr> 
    <td> 길게<br /> </td> 
    <td> 정수<br /> </td> 
    <td> NUMBER(10)<br /> </td> 
-   <td> INT<br /> </td> 
   </tr> 
   <tr> 
    <td> Int64<br /> </td> 
    <td> BIGINT<br /> </td> 
    <td> NUMBER(20)<br /> </td> 
-   <td> BIGINT<br /> </td> 
   </tr> 
   <tr> 
    <td> 날짜<br /> </td> 
    <td> 날짜<br /> </td> 
    <td> 날짜<br /> </td> 
-   <td> 날짜/시간<br /> </td> 
   </tr> 
   <tr> 
    <td> 시간<br /> </td> 
    <td> 시간<br /> </td> 
-   <td> 부동<br /> </td> 
    <td> 부동<br /> </td> 
   </tr> 
   <tr> 
    <td> 날짜/시간<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> 날짜<br /> </td> 
-   <td> MS SQL &lt; 2008: 날짜/시간<br /> MS SQL &gt;= 2012: DATETIMEOFFSET<br /> </td> 
   </tr> 
   <tr> 
    <td> 다테티메노츠<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> 날짜<br /> </td> 
-   <td> MS SQL &lt; 2008: 날짜/시간<br /> MS SQL &gt;= 2012: DATETIME2<br /> </td> 
   </tr> 
   <tr> 
    <td> Timespan<br /> </td> 
    <td> 배정밀도<br /> </td> 
-   <td> 부동<br /> </td> 
    <td> 부동<br /> </td> 
   </tr> 
   <tr> 
    <td> 메모<br /> </td> 
    <td> 텍스트<br /> </td> 
    <td> CLOB(유니코드인 경우 NCLOB)<br /> </td> 
-   <td> 텍스트(유니코드의 경우 NTEXT)<br /> </td> 
   </tr> 
   <tr> 
    <td> Blob<br /> </td> 
    <td> BLOB<br /> </td> 
    <td> BLOB<br /> </td> 
-   <td> 이미지<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -280,37 +269,37 @@ ht-degree: 2%
   >
   >레이블은 인스턴스의 현재 언어와 연결됩니다.
 
-  **예제**:
+  **예**:
 
-  ```
+  ```sql
   <attribute name="email" type="string" length="80" label="Email"/>
   ```
 
-  레이블은 Adobe Campaign 클라이언트 콘솔 입력 양식에서 볼 수 있습니다.
+  레이블은 Adobe Campaign 클라이언트 콘솔 입력 양식에 표시됩니다.
 
   ![](assets/d_ncs_integration_schema_label.png)
 
 * 다음 **desc** 속성을 사용하면 긴 설명을 입력할 수 있습니다.
 
-  설명은 Adobe Campaign 클라이언트 콘솔 주 창의 상태 표시줄에 있는 입력 양식에서 볼 수 있습니다.
+  설명은 Adobe Campaign 클라이언트 콘솔 주 창의 상태 표시줄에 있는 입력 양식에 표시됩니다.
 
   >[!NOTE]
   >
   >설명은 인스턴스의 현재 언어와 연결됩니다.
 
-  **예제**:
+  **예**:
 
-  ```
+  ```sql
   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
   ```
 
 ### 기본값 {#default-values}
 
-다음 **기본값** 속성을 사용하면 콘텐츠 생성 시 기본값을 반환하는 표현식을 정의할 수 있습니다.
+사용 **기본값** 속성을 사용하여 콘텐츠 생성 시 기본값을 반환하는 표현식을 정의할 수 있습니다.
 
 값은 XPath 언어를 준수하는 표현식이어야 합니다. 자세한 내용은 다음을 참조하십시오. [XPath를 사용하여 참조](../../configuration/using/schema-structure.md#referencing-with-xpath).
 
-**예제**:
+**예**:
 
 * 현재 날짜: **default=&quot;GetDate()&quot;**
 * 카운터: **default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
@@ -319,9 +308,9 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >Adobe Campaign 클라이언트 콘솔에서 **[!UICONTROL Administration>Counters]** 노드는 카운터를 관리하는 데 사용됩니다.
+  >Adobe Campaign 클라이언트 콘솔에서 다음을 찾습니다. **[!UICONTROL Administration > Counters]** 카운터를 관리할 탐색기의 폴더입니다.
 
-필드에 기본값을 연결하려면 `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
+필드에 기본값을 연결하려면 `<default>`  또는  `<sqldefault>`   필드.
 
 `<default>` : 엔티티를 생성할 때 필드를 기본값으로 미리 채울 수 있습니다. 이 값은 기본 SQL 값이 아닙니다.
 
@@ -329,13 +318,13 @@ ht-degree: 2%
 
 ### 열거형 {#enumerations}
 
-#### 자유 열거형 {#free-enumeration}
+#### 열거 {#free-enumeration}
 
-다음 **userEnum** 속성을 사용하면 이 필드를 통해 입력한 값을 기억하고 표시하는 자유 열거형을 정의할 수 있습니다. 구문은 다음과 같습니다.
+다음 **userEnum** 속성을 사용하면 이 필드를 통해 입력한 값을 저장하고 표시하는 열린 열거형을 정의할 수 있습니다.
 
-**userEnum=&quot;열거형 이름&quot;**
+구문은 다음과 같습니다.
 
-열거형에 지정한 이름은 자유롭게 선택하고 다른 필드와 공유할 수 있습니다.
+`userEnum="name of enumeration"`
 
 다음 값은 입력 양식의 드롭다운 목록에 표시됩니다.
 
@@ -343,7 +332,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Adobe Campaign 클라이언트 콘솔에서 **[!UICONTROL Administration > Enumerations]** 노드는 열거형을 관리하는 데 사용됩니다.
+>Adobe Campaign 클라이언트 콘솔에서 다음을 찾습니다. **[!UICONTROL Administration > Enumerations]** 열거형을 관리할 탐색기의 폴더입니다.
 
 #### 열거형 설정 {#set-enumeration}
 
@@ -357,7 +346,7 @@ ht-degree: 2%
 
 데이터 스키마의 열거 선언 예:
 
-```
+```sql
 <enumeration name="gender" basetype="byte" default="0">    
   <value name="unknown" label="Not specified" value="0"/>    
   <value name="male" label="male" value="1"/>   
@@ -369,33 +358,31 @@ ht-degree: 2%
 
 열거형 속성은 다음과 같습니다.
 
-* **baseType**: 값과 연관된 데이터의 유형,
-* **레이블**: 열거형에 대한 설명,
-* **이름**: 열거형의 이름,
+* **baseType**: 값과 연결된 데이터 유형
+* **레이블**: 열거형에 대한 설명
+* **이름**: 열거형의 이름
 * **기본값**: 열거형의 기본값
 
 열거형 값은 **`<value>`** 다음 속성을 가진 요소:
 
-* **이름**: 내부에 저장된 값의 이름,
-* **레이블**: 그래픽 인터페이스를 통해 표시되는 레이블.
+* **이름**: 내부적으로 저장된 값의 이름
+* **레이블**: 그래픽 인터페이스에 표시되는 레이블
 
 #### 드베넘 열거 {#dbenum-enumeration}
 
-* 다음 **드베넘** 속성을 사용하면 속성과 유사한 속성을 가진 열거형을 정의할 수 있습니다. **enum** 속성.
+*다음 **드베넘** 속성을 사용하면 속성과 유사한 속성을 가진 열거형을 정의할 수 있습니다. **enum** 속성.
 
-  그러나 **이름** 속성은 값을 내부적으로 저장하지 않으며, 관련 테이블을 스키마를 수정하지 않고 확장할 수 있는 코드를 저장합니다.
+그러나 **이름** 속성은 값을 내부적으로 저장하지 않으며, 관련 테이블을 스키마를 수정하지 않고 확장할 수 있는 코드를 저장합니다.
 
-  값은 다음을 통해 정의됩니다. **[!UICONTROL Administration>Enumerations]** 노드.
+예를 들어 이 열거형은 캠페인의 특성을 지정하는 데 사용됩니다.
 
-  예를 들어 이 열거형은 캠페인의 특성을 지정하는 데 사용됩니다.
-
-  ![](assets/d_ncs_configuration_schema_dbenum.png)
+![](assets/d_ncs_configuration_schema_dbenum.png)
 
 ### 예제 {#example}
 
 다음은 속성이 채워진 예제 스키마입니다.
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -422,7 +409,7 @@ ht-degree: 2%
 
 **예**: 의 정의 **`<group>`** 스키마의 컬렉션 요소입니다.
 
-```
+```sql
 <element name="group" unbound="true" label="List of groups">
   <attribute name="label" type="string" label="Label"/>
 </element>
@@ -430,7 +417,7 @@ ht-degree: 2%
 
 XML 콘텐츠 투영 시:
 
-```
+```sql
 <group label="Group1"/>
 <group label="Group2"/>
 ```
@@ -443,7 +430,7 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 요소는 이름으로 지정되고, 속성은 &quot;@&quot; 문자 앞에 오는 이름으로 지정됩니다.
 
-**예제**:
+**예**:
 
 * **@email**: 이메일을 선택하고,
 * **위치/@city**: 아래에서 &quot;city&quot; 속성을 선택합니다. **`<location>`** 요소
@@ -470,10 +457,10 @@ Adobe Campaign 클라이언트 콘솔에서 표현식 편집기를 통해 사용
 
 ![](assets/d_ncs_integration_schema_function.png)
 
-**예제**:
+**예**:
 
 * **GetDate()**: 현재 날짜를 반환합니다.
-* **Year(@created)**: &quot;created&quot; 속성에 포함된 날짜의 연도를 반환합니다.
+* **Year(@created)**: &quot;created&quot; 속성에 포함된 날짜의 연도 반환
 * **GetEmailDomain(@email)**: 이메일 주소의 도메인을 반환합니다.
 
 ## 계산 문자열을 통해 문자열 빌드 {#building-a-string-via-the-compute-string}
@@ -484,7 +471,7 @@ A **계산 문자열** 는 스키마와 연결된 테이블의 레코드를 나�
 
 **예**: 수신자 테이블의 계산 문자열.
 
-```
+```sql
 <srcSchema name="recipient" namespace="nms">  
   <element name="recipient">
     <compute-string expr="@lastName + ' ' + @firstName +' (' + @email + ')' "/>

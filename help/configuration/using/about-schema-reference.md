@@ -1,31 +1,31 @@
 ---
 product: campaign
-title: Adobe Campaign Classic의 스키마 참조 정보
-description: Adobe Campaign Classic 데이터베이스의 개념 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법을 알아봅니다
+title: Adobe Campaign에서 스키마 시작
+description: 스키마로 작업하고 Adobe Campaign 데이터베이스의 개념적 데이터 모델을 확장하는 방법을 알아봅니다
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 9%
+source-wordcount: '376'
+ht-degree: 2%
 
 ---
 
-# 스키마 참조 정보{#about-schema-reference}
+# 스키마 시작 {#about-schema-reference}
+
+## 스키마란? {#what-is-a-schema}
 
 이 장에서는 Adobe Campaign 데이터베이스의 개념 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법에 대해 설명합니다.
 
-Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 [Campaign Classic 데이터 모델](https://helpx.adobe.com/kr/campaign/kb/acc-datamodel.html).
+Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 [Campaign Classic 데이터 모델](about-data-model.md).
 
-애플리케이션에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. 라고 하는 Adobe Campaign 고유의 문법을 따릅니다. **스키마**.
-
-스키마는 데이터베이스 테이블과 연관된 XML 문서입니다. 데이터 구조를 정의하고 테이블의 SQL 정의를 설명합니다.
+Adobe Campaign에서 애플리케이션에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. A **스키마** 는 데이터베이스 테이블과 연결된 XML 문서입니다. 데이터 구조를 정의하고 테이블의 SQL 정의를 설명합니다.
 
 * 테이블 이름
 * 필드
-* 인덱스
+* 색인
 * 다른 테이블과의 링크
 
 또한 데이터를 저장하는 데 사용되는 XML 구조에 대해서도 설명합니다.
