@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
+source-git-commit: f03e72d4ecd17446264adf74603aefca95f99d41
 workflow-type: tm+mt
-source-wordcount: '2538'
+source-wordcount: '2542'
 ht-degree: 99%
 
 ---
@@ -744,6 +744,8 @@ ht-degree: 99%
       + [스키마 시작](configuration/using/about-schema-reference.md)
       + [스키마 구조](configuration/using/schema-structure.md)
       + [데이터베이스 매핑](configuration/using/database-mapping.md)
+      + [키 관리](configuration/using/database-keys.md)
+      + [링크 관리](configuration/using/database-links.md)
       + 요소 및 속성 {#elements-attributes}
          + [소개](configuration/using/schema-introduction.md)
          + [속성](configuration/using/schema/attribute.md)
