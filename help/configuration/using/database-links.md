@@ -5,10 +5,10 @@ description: 데이터베이스 매핑
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
-source-git-commit: f03e72d4ecd17446264adf74603aefca95f99d41
+source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 1%
+source-wordcount: '939'
+ht-degree: 2%
 
 ---
 
@@ -222,3 +222,13 @@ FDA 표에 대한 자세한 내용은 [외부 데이터베이스 액세스](../.
 ```
 
 &quot;companyEmail&quot; 이름 키의 정의가 &quot;company&quot; 링크의 외래 키로 확장되었습니다. 이 키는 두 필드 모두에서 고유한 색인을 생성합니다.
+
+## 자세히 알아보기
+
+자세한 내용은 다음 링크를 참조하십시오.
+
+* [스키마 시작](about-schema-reference.md)
+* [스키마 구조](schema-structure.md)
+* [데이터베이스 매핑](database-mapping.md)
+* [키 관리](database-keys.md)
+* [Campaign 데이터 모델](about-data-model.md)

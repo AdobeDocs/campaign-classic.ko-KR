@@ -5,10 +5,10 @@ description: 데이터 스키마의 키 관리 이해
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
-source-git-commit: f03e72d4ecd17446264adf74603aefca95f99d41
+source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 1%
+source-wordcount: '625'
+ht-degree: 2%
 
 ---
 
@@ -180,3 +180,13 @@ Adobe Campaign 스키마에서 참조된 시퀀스(**NmsTrackingLogId** 예를 �
 >
 >기본 키가 0으로 설정된 레코드는 테이블 생성 시 자동으로 삽입됩니다. 이 레코드는 볼륨 테이블에 적용되지 않는 외부 조인을 피하는 데 사용됩니다. 기본적으로 모든 외래 키는 값 0으로 초기화되므로 데이터 항목이 채워지지 않은 경우 조인에서 항상 결과가 반환될 수 있습니다.
 
+
+## 자세히 알아보기
+
+자세한 내용은 다음 링크를 참조하십시오.
+
+* [스키마 시작](about-schema-reference.md)
+* [스키마 구조](schema-structure.md)
+* [데이터베이스 매핑](database-mapping.md)
+* [링크 관리](database-links.md)
+* [Campaign 데이터 모델](about-data-model.md)

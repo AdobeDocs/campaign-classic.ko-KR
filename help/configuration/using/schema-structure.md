@@ -9,9 +9,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
+source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1517'
 ht-degree: 1%
 
 ---
@@ -485,3 +485,14 @@ A **계산 문자열** 는 스키마와 연결된 테이블의 레코드를 나�
 >[!NOTE]
 >
 >스키마에 계산 문자열이 포함되지 않으면 계산 문자열은 기본적으로 스키마의 기본 키 값으로 채워집니다.
+
+
+## 자세히 알아보기
+
+자세한 내용은 다음 링크를 참조하십시오.
+
+* [스키마 시작](about-schema-reference.md)
+* [데이터베이스 매핑](database-mapping.md)
+* [링크 관리](database-links.md)
+* [키 관리](database-keys.md)
+* [Campaign 데이터 모델](about-data-model.md)
