@@ -5,7 +5,7 @@ description: 데이터 스키마의 키 관리 이해
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
-source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
+source-git-commit: 4a29c189e1e438bbb90067ece63ced0196c618ec
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 2%
@@ -28,7 +28,6 @@ ht-degree: 2%
 ```
 
 키를 스키마에서 처음 채울 때 또는 가 포함된 경우 &#39;기본 키&#39;라고 합니다 `internal` 속성이 &quot;true&quot;로 설정되어 있습니다.
-
 
 키에는 다음 규칙이 적용됩니다.
 
