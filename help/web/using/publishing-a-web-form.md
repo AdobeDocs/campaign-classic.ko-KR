@@ -2,13 +2,13 @@
 product: campaign
 title: 웹 양식 게시
 description: 웹 양식 게시
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 8bb839bd0118010ac8e3e4bde88f6f3972786ed0
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '1287'
 ht-degree: 1%
 
 ---
@@ -25,43 +25,43 @@ ht-degree: 1%
 
 * **[!UICONTROL Adobe Campaign Encryption]**
 
-   이 암호화 방법은 암호화된 Adobe Campaign 식별자(ID)를 사용합니다. 이 메서드는 Adobe Campaign 개체에만 적용할 수 있으며 암호화된 ID는 Adobe Campaign 플랫폼에서만 생성할 수 있습니다.
+  이 암호화 방법은 암호화된 Adobe Campaign 식별자(ID)를 사용합니다. 이 메서드는 Adobe Campaign 개체에만 적용할 수 있으며 암호화된 ID는 Adobe Campaign 플랫폼에서만 생성할 수 있습니다.
 
-   이 방법을 사용하는 경우 를 추가하여 양식 URL을 이메일 주소에 전달하도록 조정해야 합니다 **`<%=escapeUrl(recipient.cryptedId) %>`** 매개 변수. 자세한 내용은 다음을 참조하십시오. [이메일을 통해 양식 게재](#delivering-a-form-via-email).
+  이 방법을 사용하는 경우 를 추가하여 양식 URL을 이메일 주소에 전달하도록 조정해야 합니다 **`<%=escapeUrl(recipient.cryptedId) %>`** 매개 변수. 자세한 내용은 다음을 참조하십시오. [이메일을 통해 양식 게재](#delivering-a-form-via-email).
 
 * **[!UICONTROL DES encryption]**
 
-   ![](assets/s_ncs_admin_survey_preload_methods_001.png)
+  ![](assets/s_ncs_admin_survey_preload_methods_001.png)
 
-   이 암호화 방법은 외부에서 제공되는 식별자(ID)를 사용하며, Adobe Campaign 및 외부 공급자에 의해 공유되는 키에 연결됩니다. 다음 **[!UICONTROL Des key]** 필드에서는 이 암호화 키를 입력할 수 있습니다.
+  이 암호화 방법은 외부에서 제공되는 식별자(ID)를 사용하며, Adobe Campaign 및 외부 공급자에 의해 공유되는 키에 연결됩니다. 다음 **[!UICONTROL Des key]** 필드에서는 이 암호화 키를 입력할 수 있습니다.
 
 * **[!UICONTROL List of fields]**
 
-   이 옵션을 사용하면 양식의 현재 컨텍스트에 있는 필드 중에서 데이터베이스에서 해당 프로필을 찾는 데 사용할 필드를 선택할 수 있습니다.
+  이 옵션을 사용하면 양식의 현재 컨텍스트에 있는 필드 중에서 데이터베이스에서 해당 프로필을 찾는 데 사용할 필드를 선택할 수 있습니다.
 
-   ![](assets/s_ncs_admin_survey_preload_methods_002.png)
+  ![](assets/s_ncs_admin_survey_preload_methods_002.png)
 
-   필드를 양식 속성에 추가하려면 **[!UICONTROL Parameters]** 탭(참조: [매개 변수 추가](defining-web-forms-properties.md#adding-parameters)). 양식 URL 또는 입력 영역에 배치됩니다.
+  필드를 양식 속성에 추가하려면 **[!UICONTROL Parameters]** 탭(참조: [매개 변수 추가](defining-web-forms-properties.md#adding-parameters)). 양식 URL 또는 입력 영역에 배치됩니다.
 
-   >[!CAUTION]
-   >
-   >선택한 필드의 데이터가 암호화되지 않습니다. Adobe Campaign에서 암호를 해독할 수 없는 경우 암호화된 형식으로 제공해서는 안 됩니다. **[!UICONTROL Field list]** 옵션이 선택되어 있습니다.
+  >[!CAUTION]
+  >
+  >선택한 필드의 데이터가 암호화되지 않습니다. Adobe Campaign에서 암호를 해독할 수 없는 경우 암호화된 형식으로 제공해서는 안 됩니다. **[!UICONTROL Field list]** 옵션이 선택되어 있습니다.
 
-   다음 예에서 프로필 미리 로드는 이메일 주소를 기반으로 합니다.
+  다음 예에서 프로필 미리 로드는 이메일 주소를 기반으로 합니다.
 
-   URL에는 암호화되지 않은 이메일 주소가 포함될 수 있으며, 이 경우 사용자는 관련된 페이지에 직접 액세스할 수 있습니다.
+  URL에는 암호화되지 않은 이메일 주소가 포함될 수 있으며, 이 경우 사용자는 관련된 페이지에 직접 액세스할 수 있습니다.
 
-   ![](assets/s_ncs_admin_survey_preload_methods_003.png)
+  ![](assets/s_ncs_admin_survey_preload_methods_003.png)
 
-   그렇지 않으면 암호를 입력하라는 메시지가 표시됩니다.
+  그렇지 않으면 암호를 입력하라는 메시지가 표시됩니다.
 
-   ![](assets/s_ncs_admin_survey_preload_methods_004.png)
+  ![](assets/s_ncs_admin_survey_preload_methods_004.png)
 
-   >[!CAUTION]
-   >
-   >목록에 여러 필드가 지정된 경우 **모든 필드** 프로필을 업데이트하려면 데이터베이스에 저장된 데이터와 일치해야 합니다. 그렇지 않으면 새 프로필이 만들어집니다.
-   > 
-   >이 함수는 웹 응용 프로그램에 특히 유용하지만 공용 양식에는 권장되지 않습니다. 선택한 액세스 제어 옵션은 &quot;액세스 제어 활성화&quot;여야 합니다.
+  >[!CAUTION]
+  >
+  >목록에 여러 필드가 지정된 경우 **모든 필드** 프로필을 업데이트하려면 데이터베이스에 저장된 데이터와 일치해야 합니다. 그렇지 않으면 새 프로필이 만들어집니다.
+  > 
+  >이 함수는 웹 응용 프로그램에 특히 유용하지만 공용 양식에는 권장되지 않습니다. 선택한 액세스 제어 옵션은 &quot;액세스 제어 활성화&quot;여야 합니다.
 
 다음 **[!UICONTROL Skip preloading if no ID]** 프로필을 업데이트하지 않으려면 옵션을 선택해야 합니다. 이 경우 입력한 각 프로필은 양식 승인 후 데이터베이스에 추가됩니다. 이 옵션은 양식이 웹 사이트에 게시되는 경우 등에 사용됩니다.
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 양식의 라이프 사이클에는 세 단계가 있습니다.
 
-1. **편집 중인 양식**
+1. **편집 중**
 
    초기 설계 단계입니다. 새 양식이 만들어지면 편집 단계에 있습니다. 테스트 목적으로만 양식에 액세스하려면 매개 변수가 필요합니다. **[!UICONTROL __uuid]** 해당 URL에서 사용할 수 있습니다. 이 URL은 **[!UICONTROL Preview]** 하위 탭. 다음을 참조하십시오 [양식 URL 매개 변수](defining-web-forms-properties.md#form-url-parameters).
 
@@ -89,21 +89,33 @@ ht-degree: 1%
    >
    >양식을 편집하는 한 해당 액세스 URL은 특수 URL입니다.
 
-1. **양식 온라인**
+1. **게시 보류 중**
 
-   디자인 단계가 완료되면 양식을 전달할 수 있습니다. 먼저 게시해야 합니다. 자세한 내용은 다음을 참조하십시오. [양식 게시](#publishing-a-form).
+   경우에 따라(예: [패키지를 통해 양식 가져오기](#import-web-packages)) 웹 양식에는 **[!UICONTROL Pending publication]** 라이브할 때까지의 상태.
+
+   >[!NOTE]
+   >
+   >기술 웹 애플리케이션용(다음을 통해 사용 가능) **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Web applications]** 메뉴), **[!UICONTROL Pending publication]** 상태는 자동으로 [게시됨](#publishing-a-form) 및 가져오기 **[!UICONTROL Online]** 상태.
+
+1. **온라인**
+
+   디자인 단계가 완료되면 양식을 전달할 수 있습니다.
+
+   양식에 **[!UICONTROL Being edited]** 또는 **[!UICONTROL Pending publication]** 상태, 다음과 같아야 합니다. [게시됨](#publishing-a-form) 브라우저에서 웹 양식 URL을 통해 온라인 및 액세스할 수 있습니다.
+
+   게시되면 양식이 만료될 때까지 활성화됩니다.
 
    양식은 다음과 같습니다 **[!UICONTROL Live]** 만료될 때까지.
 
    >[!CAUTION]
    >
-   >게재하려면 설문 조사의 URL에 **[!UICONTROL __uuid]** 매개 변수.
+   >배달하려면 양식의 URL에 **[!UICONTROL __uuid]** 매개 변수.
 
-1. **양식을 사용할 수 없음**
+1. **종료됨**
 
    양식이 닫히면 게재 단계가 끝나고 양식을 사용할 수 없게 됩니다. 사용자는 더 이상 양식에 액세스할 수 없습니다.
 
-   양식 속성 창에서 만료일을 정의할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [온라인에서 양식 사용 가능](#making-a-form-available-online)
+   양식 속성 창에서 만료일을 정의할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [온라인에서 양식 사용 가능](#making-a-form-available-online).
 
 양식의 게시 상태가 양식 목록에 표시됩니다.
 
@@ -121,11 +133,11 @@ ht-degree: 1%
 
 * 에서 필드 사용 **[!UICONTROL Project]** 섹션에 양식의 시작 날짜와 종료 날짜를 입력합니다.
 
-   ![](assets/webapp_availability_date.png)
+  ![](assets/webapp_availability_date.png)
 
 * 다음을 클릭합니다. **[!UICONTROL Personalize the message displayed if the form is closed...]** 링크가 유효하지 않은 상태에서 사용자가 양식에 액세스하려고 할 때 표시할 오류 메시지를 정의하는 링크입니다.
 
-   다음을 참조하십시오 [양식의 접근성](defining-web-forms-properties.md#accessibility-of-the-form).
+  다음을 참조하십시오 [양식의 접근성](defining-web-forms-properties.md#accessibility-of-the-form).
 
 ### 이메일을 통해 양식 게재 {#delivering-a-form-via-email}
 
@@ -156,3 +168,35 @@ ht-degree: 1%
 ![](assets/s_ncs_admin_survey_trace_edit.png)
 
 예를 들어, 미리 알림을 전송할 때 응답자가 아닌 사람만 타겟팅하거나 응답자에게만 특정 커뮤니케이션을 제공하기 위해 쿼리에 제공된 응답 로그를 처리할 수 있습니다.
+
+### 웹 양식 패키지 가져오기 {#import-web-packages}
+
+인스턴스에서 다른 인스턴스로(예: 스테이지에서 프로덕션으로) 웹 양식을 포함하는 패키지를 내보내고 가져올 때 새 인스턴스의 웹 양식 상태는 여러 조건에 따라 달라질 수 있습니다. 다른 사례는 아래에 나열되어 있습니다.
+
+에서 웹 양식의 다양한 상태에 대해 자세히 알아보십시오 [이 섹션](#life-cycle-of-a-form).
+
+>[!NOTE]
+>
+>패키지를 통해 웹 양식을 내보낼 때 최종 패키지의 컨텐츠에 양식 상태가 표시됩니다.
+
+* 웹 양식 상태가 다음과 같은 경우 **[!UICONTROL Pending publication]** 또는 **[!UICONTROL Online]** 첫 번째 인스턴스에서 내보낼 때:
+
+   * 웹 양식은 **[!UICONTROL Pending publication]** 새 인스턴스로 가져올 때의 상태입니다.
+
+   * 웹 양식이 새 인스턴스에 이미 있으면 새 버전의 양식으로 대체되고 **[!UICONTROL Pending publication]** 이전 버전의 양식인 경우에도 상태 **[!UICONTROL Online]**.
+
+   * 양식이 존재하든 존재하지 않든 양식은 다음과 같아야 합니다. [게시됨](#publishing-a-form) 다음 대상이 됨 **[!UICONTROL Online]** 새 인스턴스에서 브라우저의 웹 양식 URL을 통해 액세스할 수 있습니다.
+
+* 웹 양식 상태가 다음과 같은 경우 **[!UICONTROL Being edited]** 내보낼 때:
+
+   * 패키지를 가져오는 인스턴스에서 웹 양식을 새로 만드는 경우 웹 양식은 **[!UICONTROL Being edited]** 상태.
+
+   * 새 인스턴스에 웹 양식이 이미 있는 경우 기존 양식을 수정한 것입니다. 이전 버전의 양식이 **[!UICONTROL Online]**, 양식의 새 버전이 지정될 때까지 이전 버전은 온라인으로 유지됩니다. [게시됨](#publishing-a-form) 다시 새 인스턴스에 대해 설명합니다.
+
+  >[!NOTE]
+  >
+  >다음을 사용하여 웹 양식의 최신 버전을 확인할 수 있습니다. **[!UICONTROL Preview]** 탭.
+
+<!--For RN:
+* Now, when a web form has the **Pending publication** status, it must be published before it becomes **Online** and accessible through the web form URL in a web browser. [Read more](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
+-->
