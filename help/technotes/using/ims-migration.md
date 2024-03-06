@@ -4,9 +4,9 @@ description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 �
 feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
-source-git-commit: b2c37e2426d3b6ba5174d4a446320e0f50485a76
+source-git-commit: 17a43a6e2e3ee7a3a2b81545bf96d766e6e97a05
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,6 @@ ht-degree: 0%
 Campaign Classic v7.3.5부터 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로, Campaign Classic에 대한 인증 프로세스가 개선되고 있습니다. 기술 운영자는 이제 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}. **Adobe Campaign v7.3.5에서 이 마이그레이션을 수행하여 Campaign v8로 원활하게 마이그레이션할 수 있도록 하는 것이 좋습니다.**
 
 기술 운영자는 API 통합을 위해 명시적으로 생성된 Campaign 사용자 프로필입니다. 이 문서에서는 Adobe Developer 콘솔을 통해 기술 연산자를 기술 계정으로 마이그레이션하는 데 필요한 단계에 대해 자세히 설명합니다.
-
 
 ## 영향을 받습니까?{#ims-impacts}
 
@@ -53,7 +52,7 @@ Campaign 외부 시스템에서 Campaign 마케팅 인스턴스 또는 실시간
 
 * Campaign Hosted 및 Managed Services 고객
 
-  메시지 센터 인스턴스에 대한 API 호출의 경우 Campaign v7.3.5(또는 기타)로 업그레이드하는 동안 제품 프로필을 만들어야 합니다 [IMS 마이그레이션 호환 버전](#ims-versions-tech)), 또는 인스턴스 프로비저닝 중에 선택할 수 있습니다. 이 제품 프로필의 이름은 다음과 같습니다.
+  메시지 센터 인스턴스에 대한 API 호출의 경우 Campaign v7.3.5(또는 기타)로 업그레이드하는 동안 제품 프로필(아래 언급됨)을 만들어야 합니다 [IMS 마이그레이션 호환 버전](#ims-versions-tech)), 또는 인스턴스 프로비저닝 중에 선택할 수 있습니다. 제품 프로필이 표시되지 않는 경우 IMS 마이그레이션을 시작하기 전에 제품 프로필을 만들려면 전환 관리자 또는 고객 지원에 문의하십시오. 이 제품 프로필의 이름은 다음과 같습니다.
 
   `campaign - <your campaign instance> - messagecenter`
 
