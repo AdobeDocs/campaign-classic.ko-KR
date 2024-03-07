@@ -2,16 +2,16 @@
 product: campaign
 title: ISP 중단 후 바운스 자격 업데이트
 description: ISP 중단 후 바운스 자격을 업데이트하는 방법을 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Deliverability
 hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 4%
+source-wordcount: '495'
+ht-degree: 3%
 
 ---
 
@@ -29,13 +29,14 @@ ISP가 중단되는 경우 Campaign을 통해 보낸 이메일이 수신자에�
 
 * &quot;550명의 &#39;이메일 주소&#39; 수신자 거부됨&quot;
 
-지연 바운스가 &quot;452 요청된 작업이 중단되었습니다. 나중에 다시 시도하십시오&quot;라는 메시지와 함께 관찰되는 경우 작업이 자동으로 다시 시도되며 필요하지 않습니다. ISP가 전체 용량을 복구하므로 성능이 향상되어야 합니다.
+지연 바운스가 &quot;452 요청된 작업이 중단됨: 나중에 다시 시도&quot;라는 메시지와 함께 관찰되는 경우 자동으로 다시 시도되며 작업이 필요하지 않습니다. ISP가 전체 용량을 복구하므로 성능이 향상되어야 합니다.
 
 >[!NOTE]
 >
 >에서 Apple 시스템 상태 대시보드를 확인할 수 있습니다. [이 페이지](https://www.apple.com/support/systemstatus/){_blank}.
 >
 >에서 Google 작업 공간 상태 대시보드 를 확인할 수 있습니다. [이 페이지](https://www.google.com/appsstatus#hl=en&amp;v=status){_blank}.
+>
 
 ## 영향{#update-bounce-impact}
 
@@ -55,17 +56,17 @@ Apple 격리 테이블에서 쿼리를 실행하여 중단의 영향을 받을 �
 
    * **오류 텍스트(격리 텍스트)** 에는 &quot;Momen_Code10_InvalidRecipient&quot;가 포함되어 있습니다.
    * **이메일 도메인(@domain)** domain1.com과 같음 또는 **이메일 도메인(@domain)** domain2.com과 같음 또는 **이메일 도메인(@domain)** domain3.com과 같음
-   * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이후:MM:오전 SS
-   * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이전:MM:오후
+   * **업데이트 상태(@lastModified)** 다음 또는 이후 `MM/DD/YYYY HH:MM:SS AM`
+   * **업데이트 상태(@lastModified)** 다음 또는 이전 `MM/DD/YYYY HH:MM:SS PM`
 
 * 에 SMTP 바운스 응답 정보가 있는 캠페인 환경의 경우 **[!UICONTROL Error text]** 격리 목록의 필드:
 
-   * **오류 텍스트(격리 텍스트)** &quot;550-5.1.1&quot;을 포함하고 **오류 텍스트(격리 텍스트)** &quot;support.ISP.com&quot;을 포함합니다.
+   * **오류 텍스트(격리 텍스트)** 은 &quot;550-5.1.1&quot;을 포함하고 **오류 텍스트(격리 텍스트)** &quot;support.ISP.com&quot;을 포함합니다.
 
-      예를 들어 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;일 수 있습니다.
+     예를 들어 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;일 수 있습니다.
 
-   * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이후:MM:오전 SS
-   * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이전:MM:오후
+   * **업데이트 상태(@lastModified)** 다음 또는 이후 `MM/DD/YYYY HH:MM:SS AM`
+   * **업데이트 상태(@lastModified)** 다음 또는 이전  `MM/DD/YYYY HH:MM:SS PM`
 
 
 영향을 받는 수신자 목록이 있으면 다음 상태로 설정할 수 있습니다. **[!UICONTROL Valid]** 따라서 다음을 통해 격리 목록에서 제거됩니다. **[!UICONTROL Database cleanup]** 워크플로우 또는 테이블에서 삭제하기만 하면 됩니다.

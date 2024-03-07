@@ -3,16 +3,16 @@ product: campaign
 title: 일반 구성
 description: 일반 구성
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: migration
 content-type: reference
 topic-tags: configuration
 hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2607'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ nlserver config -internalpassword
 
 * 암호가 비어 있으면 추적이 더 이상 작동하지 않습니다. 이 경우 오류 메시지가 표시되어 재구성을 요청합니다.
 * 사용자 암호는 더 이상 **xtk:sessionInfo** 스키마.
-* 이제 를 사용하려면 관리 권한이 필요합니다 **xtk:builder:EvaluateJavaScript** 및 **xtk:builder:EvaluateJavaScriptTemplate** 함수.
+* 이제 를 사용하려면 관리 권한이 필요합니다 **`xtk:builder:EvaluateJavaScript`** 및 **`xtk:builder:EvaluateJavaScriptTemplate`** 함수.
 
 특정 기본 스키마가 수정되었으며 이제 를 사용하는 연산자에 대한 쓰기 권한으로만 기본적으로 액세스할 수 있습니다. **admin** 권한:
 
@@ -396,7 +396,7 @@ Aggregate 함수(입력)
 
 다음 기간 `<subQuery>` 요소, 기본 항목의 &quot;필드&quot; 필드 참조 `<queryDef>`   요소를 사용하려면 다음 구문을 사용합니다. `[../@field]`
 
-예제:
+예:
 
 ```
 <queryDef operation="select" schema="xtk:jobLog" startPath="/" xtkschema="xtk:queryDef">
@@ -461,7 +461,7 @@ Aggregate 함수(입력)
 
   >[!IMPORTANT]
   >
-  >이 해결 모드를 선택하면 새 버전에서 패치가 손실될 위험이 있습니다. 따라서 이 옵션은 전문가 연산자에만 사용하거나 예약하지 않는 것이 좋습니다.
+  이 해결 모드를 선택하면 새 버전에서 패치가 손실될 위험이 있습니다. 따라서 이 옵션은 전문가 연산자에만 사용하거나 예약하지 않는 것이 좋습니다.
 
 충돌을 수동으로 해결하도록 선택하는 경우 다음과 같이 진행합니다.
 
@@ -490,9 +490,9 @@ $(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
 $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 ```
 
-## 상호 작용 {#interaction}
+## 상호 작용 수 {#interaction}
 
-### 전제 조건 {#prerequisites}
+### 필수 구성 요소 {#prerequisites}
 
 **업그레이드 후 이전**, v7에 더 이상 존재하지 않는 6.02에서 모든 스키마 참조를 삭제해야 합니다.
 
@@ -508,13 +508,13 @@ v7에서 오퍼 콘텐츠가 이동되었습니다. v6.02에서 콘텐츠는 각
 
 >[!IMPORTANT]
 >
->마이그레이션 후 구성된 오퍼를 사용하는 일부 게재를 전송해야 하는 경우 v7에서 이러한 모든 게재를 삭제하고 다시 만들어야 합니다. 이 작업을 수행할 수 없는 경우 &quot;호환성 모드&quot;가 제공됩니다. 이 모드는 Interaction v7의 모든 새로운 기능을 활용할 수 없으므로 권장되지 않습니다. 실제 6.1 마이그레이션 전에 진행 중인 캠페인을 완료할 수 있는 전환 모드입니다. 이 모드에 대한 자세한 내용은 당사에 문의하십시오.
+마이그레이션 후 구성된 오퍼를 사용하는 일부 게재를 전송해야 하는 경우 v7에서 이러한 모든 게재를 삭제하고 다시 만들어야 합니다. 이 작업을 수행할 수 없는 경우 &quot;호환성 모드&quot;가 제공됩니다. 이 모드는 Interaction v7의 모든 새로운 기능을 활용할 수 없으므로 권장되지 않습니다. 실제 6.1 마이그레이션 전에 진행 중인 캠페인을 완료할 수 있는 전환 모드입니다. 이 모드에 대한 자세한 내용은 당사에 문의하십시오.
 
 이동 스크립트의 예(**interactionTo610_full_XX.js**)는에서 사용할 수 있습니다. **마이그레이션** Adobe Campaign v7 폴더 내의 폴더입니다. 이 파일은 오퍼당 단일 이메일 표현을 사용하는 클라이언트용 스크립트의 예를 보여 줍니다(다음 **[!UICONTROL htmlSource]** 및 **[!UICONTROL textSource]** 필드). 에 있었던 콘텐츠 **NmsEmailOfferView** 테이블이 오퍼 테이블로 이동되었습니다.
 
 >[!NOTE]
 >
->이 스크립트를 사용해도 &quot;콘텐츠 관리&quot; 및 &quot;렌더링 기능&quot; 옵션의 혜택을 얻을 수 없습니다. 이러한 기능을 활용하려면 카탈로그 오퍼, 특히 오퍼 콘텐츠 및 구성 공간을 다시 고려해야 합니다.
+이 스크립트를 사용해도 &quot;콘텐츠 관리&quot; 및 &quot;렌더링 기능&quot; 옵션의 혜택을 얻을 수 없습니다. 이러한 기능을 활용하려면 카탈로그 오퍼, 특히 오퍼 콘텐츠 및 구성 공간을 다시 고려해야 합니다.
 
 ```
 loadLibrary("/nl/core/shared/nl.js");
@@ -614,7 +614,7 @@ logInfo("Done");
 
    >[!NOTE]
    >
-   >온라인 카테고리 및 오퍼 이름은 라이브로 전환된 후 수정됩니다. 수신 채널에서 오퍼 및 카테고리에 대한 모든 참조를 업데이트합니다.
+   온라인 카테고리 및 오퍼 이름은 라이브로 전환된 후 수정됩니다. 수신 채널에서 오퍼 및 카테고리에 대한 모든 참조를 업데이트합니다.
 
 ## 보고서 {#reports}
 

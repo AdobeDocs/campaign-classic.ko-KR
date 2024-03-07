@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '1791'
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
+workflow-type: tm+mt
+source-wordcount: '1781'
 ht-degree: 100%
 
 ---
@@ -466,7 +466,7 @@ _2019년 8월 13일_
 
 ### 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
 
-:warning: Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
+`:warning:` Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
 
 #### 운영 체제
 

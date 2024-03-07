@@ -3,15 +3,15 @@ product: campaign
 title: Adobe Campaign에서 Tomcat 버전 찾기
 description: Adobe Campaign 인스턴스에 사용된 Embedded Tomcat 웹 서블릿의 현재 버전을 확인하는 방법을 알아봅니다
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -52,11 +52,11 @@ Adobe Campaign 인스턴스에서 포함된 Tomcat 버전을 찾으려면 아래
 
 예를 들어, *ServerInfo.properties* Adobe Campaign용 파일에는 Tomcat v8.5.X를 나타내는 다음 정보가 포함됩니다.
 
-*server.info=Apache Tomcat/8.5.X*
+*`server.info=Apache Tomcat/8.5.X`*
 
-*server.number=8.5.X.Y*
+*`server.number=8.5.X.Y`*
 
-*server.built=MM DD YYY HH:MM:SS*
+*`server.built=MM DD YYY HH:MM:SS`*
 
 특정 인스턴스에서 사용되는 Tomcat의 정확한 버전을 설정할 수 있으면 Tomcat 관련 문제를 해결하는 데 도움이 될 수 있습니다.
 

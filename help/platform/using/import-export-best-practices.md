@@ -9,9 +9,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
 * 구분 기호: 탭 또는 세미콜론
 * 머리글이 있는 첫 번째 줄
 * 문자열 구분 기호 없음
-* 날짜 형식: YYYY/MM/DD HH:mm:SS
+* 날짜 형식: `YYYY/MM/DD HH:mm:SS`
 
 가져올 파일의 예:
 

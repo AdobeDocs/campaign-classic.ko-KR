@@ -3,15 +3,15 @@ product: campaign
 title: 웹 서버 구성
 description: 웹 서버 구성 기본 모범 사례에 대해 자세히 알아보기
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 0%
+source-wordcount: '294'
+ht-degree: 3%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 0%
 
   **Apache에서**, /etc/apache2/mods-available/ssl.conf을 편집합니다. 예를 들면 다음과 같습니다.
 
-   * SSLProtocol all -SSLv2 -SSLv3 -TLSv1
-   * SSLCipherSuite 높음:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1
+   * `SSLProtocol all -SSLv2 -SSLv3 -TLSv1`
+   * `SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1`
 
   **IIS에서** (다음을 참조하십시오. [설명서](https://support.microsoft.com/en-us/kb/245030)) 다음 구성을 수행합니다.
 

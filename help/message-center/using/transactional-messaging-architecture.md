@@ -3,12 +3,12 @@ product: campaign
 title: 트랜잭션 메시지 아키텍처
 description: 이 섹션에서는 Adobe Campaign Classic 트랜잭션 메시지 아키텍처 및 트랜잭션 메시지를 전달하는 데 사용할 수 있는 채널에 대해 설명합니다
 feature: Transactional Messaging, Message Center, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 1%
+source-wordcount: '1110'
+ht-degree: 2%
 
 ---
 
@@ -157,7 +157,7 @@ You also have to enable the unitary mode on your offer spaces. For more on this,
          <urn:domEvent>
 
               <rtEvent wishedChannel="41" type="DELIVERY" registrationToken="2cefnefzef758398493srefzefkzq483974">
-                <mobileApp _operation=”none” uuid="com.adobe.NeoMiles"/>
+                <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
                     <url>http://www.adobe.com</url>
@@ -222,7 +222,7 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **마케팅** �
    * **[!UICONTROL Server]** : 실행 인스턴스의 캠페인 서버 URL을 입력합니다.
    * **[!UICONTROL Account]** : 실행 인스턴스에 액세스하는 데 사용되는 계정을 입력합니다.
    * **[!UICONTROL Password]** : 실행 인스턴스에 액세스하는 데 사용되는 계정의 암호를 입력합니다.
-   * **[!UICONTROL Data Source]** : 다음 구문을 입력합니다 **[!UICONTROL nms:extAccount:ID of your external database account in the execution instance]** .
+   * **[!UICONTROL Data Source]** : 다음 구문을 입력합니다 **`nms:extAccount:ID`** 실행 인스턴스에 있는 외부 데이터베이스 계정의 수입니다.
 
 1. 만들기 **[!UICONTROL Execution instance]** 의 외부 계정 **마케팅** 다음 구성을 사용하여 데이터 동기화 워크플로우를 생성하는 인스턴스:
 

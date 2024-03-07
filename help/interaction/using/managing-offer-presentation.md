@@ -9,10 +9,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 1%
+source-wordcount: '1013'
+ht-degree: 0%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 
 다음에서 **[!UICONTROL Offer presentation]** 탭에서 환경에 구성된 치수와 동일한 치수를 표시 규칙에 지정해야 합니다.
 
-다음 **[!UICONTROL Targeting dimension]** 오퍼 제안을 받을 수신자 테이블(기본적으로 nms:recipients)과 일치합니다. 다음 **[!UICONTROL Storage dimension]** 은 타겟팅 차원에 연결된 제안 내역을 포함하는 테이블과 일치합니다(기본적으로).:nms:propositionRcp).
+다음 **[!UICONTROL Targeting dimension]** 수신자 테이블과 일치합니다(기본적으로: `nms:recipients`) 오퍼를 받을 사람입니다. 다음 **[!UICONTROL Storage dimension]** 은 타겟팅 차원에 연결된 제안 내역을 포함하는 테이블과 일치합니다(기본적으로: `nms:propositionRcp`).
 
 ![](assets/offer_typology_009.png)
 

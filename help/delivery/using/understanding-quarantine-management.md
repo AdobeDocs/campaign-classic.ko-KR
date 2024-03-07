@@ -7,16 +7,16 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '3009'
-ht-degree: 12%
+source-wordcount: '2990'
+ht-degree: 8%
 
 ---
 
 # 격리 관리 이해{#understanding-quarantine-management}
 
-Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외되며 타겟팅되지 않습니다. 예를 들어, 사서함이 가득 찼거나 주소가 없는 경우 전자 메일 주소를 격리할 수 있습니다. 어떤 경우든, 격리 절차는 아래에 기술된 특정한 규칙을 준수한다.
+Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외되며 타겟팅되지 않습니다. 예를 들어 사서함이 가득 찼거나 주소가 없는 경우 전자 메일 주소를 격리할 수 있습니다. 어떤 경우든, 격리 절차는 아래에 기술된 특정한 규칙을 준수한다.
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 >
 >1년말: (1)&#42;0.33)/(1+0.5)=22%.
 >
->2년말: (1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%.
+2년말: (1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%.
 
 ### 게재 보고서에서 격리된 주소 확인 {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -109,7 +109,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
 >[!NOTE]
 >
->Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
+Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
 
 격리된 주소 목록(참조) [플랫폼 전체에 대해 격리된 주소 확인](#identifying-quarantined-addresses-for-the-entire-platform)), **[!UICONTROL Error reason]** 필드는 선택한 주소가 격리된 이유를 나타냅니다.
 
@@ -145,7 +145,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
 >[!IMPORTANT]
 >
->에 주소가 있는 수신자 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 이메일을 수신하더라도 상태는 제거되지 않습니다.
+에 주소가 있는 수신자 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 이메일을 수신하더라도 상태는 제거되지 않습니다.
 
 ### 수동 업데이트 {#unquarantine-manual}
 
@@ -165,8 +165,8 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
    * **오류 텍스트(격리 텍스트)** 에는 &quot;Momen_Code10_InvalidRecipient&quot;가 포함되어 있습니다.
    * **이메일 도메인(@domain)** domain1.com과 같음 또는 **이메일 도메인(@domain)** domain2.com과 같음 또는 **이메일 도메인(@domain)** domain3.com과 같음
-   * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이후:MM:오전 SS
-   * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이전:MM:오후
+   * **업데이트 상태(@lastModified)** 다음 또는 이후 `MM/DD/YYYY HH:MM:SS AM`
+   * **업데이트 상태(@lastModified)** 다음 또는 이전 `MM/DD/YYYY HH:MM:SS PM`
 
 * 에 SMTP 바운스 응답 정보가 있는 Campaign Classic v7 인스턴스 **[!UICONTROL Error text]** 격리 목록의 필드:
 
@@ -174,8 +174,8 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
   예를 들어 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;일 수 있습니다.
 
-   * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이후:MM:오전 SS
-   * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이전:MM:오후
+   * **업데이트 상태(@lastModified)** 다음 또는 이후 `MM/DD/YYYY HH:MM:SS AM`
+   * **업데이트 상태(@lastModified)** 다음 또는 이전  `MM/DD/YYYY HH:MM:SS PM`
 
 영향을 받는 수신자 목록이 있으면 **[!UICONTROL Update data]** 활동을 통해 이메일 주소 상태를 다음으로 설정 **[!UICONTROL Valid]** 따라서 다음을 통해 격리 목록에서 제거됩니다. **[!UICONTROL Database cleanup]** 워크플로입니다. 격리 테이블에서 삭제할 수도 있습니다.
 
@@ -262,7 +262,7 @@ HTTP/V2 프로토콜을 통해 각 푸시 게재에 대한 직접 피드백 및 
    <td> 실패<br /> </td> 
    <td> 등록되지 않음<br /> </td> 
    <td> 하드<br /> </td> 
-   <td> 사용자 알 수 없음<br /> </td> 
+   <td> 알 수 없는 사용자<br /> </td> 
    <td> 아니요<br /> </td> 
   </tr> 
   <tr> 
@@ -292,13 +292,13 @@ HTTP/V2 프로토콜을 통해 각 푸시 게재에 대한 직접 피드백 및 
 
 >[!NOTE]
 >
->Baidu 커넥터를 사용하는 고객의 경우 다음과 같은 다양한 유형의 오류가 있습니다.
+Baidu 커넥터를 사용하는 고객의 경우 다음과 같은 다양한 유형의 오류가 있습니다.
 >
->* 게재 시작 시 연결 문제: 실패 유형 **[!UICONTROL Undefined]**, 실패 이유 **[!UICONTROL Unreachable]**, 재시도가 수행됩니다.
->* 게재 중 연결 끊김: 소프트 오류, 실패 이유 **[!UICONTROL Refused]**, 재시도가 수행됩니다.
->* 전송 중 Baidu에서 동기 오류 반환: 하드 오류, 실패 이유 **[!UICONTROL Refused]**, 재시도가 수행되지 않습니다.
+* 게재 시작 시 연결 문제: 실패 유형 **[!UICONTROL Undefined]**, 실패 이유 **[!UICONTROL Unreachable]**, 재시도가 수행됩니다.
+* 게재 중 연결 끊김: 소프트 오류, 실패 이유 **[!UICONTROL Refused]**, 재시도가 수행됩니다.
+* 전송 중 Baidu에서 동기 오류 반환: 하드 오류, 실패 이유 **[!UICONTROL Refused]**, 재시도가 수행되지 않습니다.
 >
->Adobe Campaign은 10분마다 Baidu 서버에 연결하여 보낸 메시지의 상태를 검색하고 broadlogs를 업데이트합니다. 메시지가 전송됨으로 선언되면 브로드로그의 메시지 상태는 다음과 같이 설정됩니다. **[!UICONTROL Received]**. Baidu에서 오류를 선언하면 상태가 로 설정됩니다. **[!UICONTROL Failed]**.
+Adobe Campaign은 10분마다 Baidu 서버에 연결하여 보낸 메시지의 상태를 검색하고 broadlogs를 업데이트합니다. 메시지가 전송됨으로 선언되면 브로드로그의 메시지 상태는 다음과 같이 설정됩니다. **[!UICONTROL Received]**. Baidu에서 오류를 선언하면 상태가 로 설정됩니다. **[!UICONTROL Failed]**.
 
 **Android V2용**
 
@@ -367,7 +367,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 실패<br /> </td> 
    <td> </td> 
    <td> 하드<br /> </td> 
-   <td> 사용자 알 수 없음<br /> </td> 
+   <td> 알 수 없는 사용자<br /> </td> 
    <td> 아니요<br /> </td> 
   </tr> 
   <tr> 
@@ -399,7 +399,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 실패<br /> </td> 
    <td> SENDER_ID_MISMATCH </td> 
    <td> 소프트</td>
-   <td> 사용자 알 수 없음<br /> </td> 
+   <td> 알 수 없는 사용자<br /> </td> 
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
@@ -407,7 +407,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 실패<br /> </td>
    <td> 등록되지 않음 </td> 
    <td> 하드</td> 
-   <td> 사용자 알 수 없음<br /> </td> 
+   <td> 알 수 없는 사용자<br /> </td> 
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
@@ -517,7 +517,7 @@ SMS 메시지의 격리 메커니즘은 전체적으로 일반 프로세스와 �
 
 >[!NOTE]
 >
->다음 **[!UICONTROL Delivery log qualification]** 표는 다음에 적용되지 않습니다. **확장된 일반 SMPP** 커넥터.
+다음 **[!UICONTROL Delivery log qualification]** 표는 다음에 적용되지 않습니다. **확장된 일반 SMPP** 커넥터.
 
 <table> 
  <tbody> 
@@ -537,7 +537,7 @@ SMS 메시지의 격리 메커니즘은 전체적으로 일반 프로세스와 �
   </tr> 
   <tr> 
    <td> 모바일에서 수신됨<br /> </td> 
-   <td> 수신됨<br /> </td> 
+   <td> 받음<br /> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -576,9 +576,9 @@ SMPP 커넥터는 정규 표현식(정규 표현식)을 사용하여 반환되�
 
 >[!NOTE]
 >
->실패 유형 및 실패 이유는 이메일과 동일합니다. 다음을 참조하십시오 [게재 실패 유형 및 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+실패 유형 및 실패 이유는 이메일과 동일합니다. 다음을 참조하십시오 [게재 실패 유형 및 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
->게재 로그 자격 표에서 적절한 실패 유형 및 실패 이유를 설정하려면 공급자에게 상태 및 오류 코드 목록을 요청하십시오.
+게재 로그 자격 표에서 적절한 실패 유형 및 실패 이유를 설정하려면 공급자에게 상태 및 오류 코드 목록을 요청하십시오.
 
 생성된 메시지의 예:
 

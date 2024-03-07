@@ -3,11 +3,11 @@ product: campaign
 title: CRM 커넥터 데이터 동기화
 description: Campaign과 CRM 간의 데이터 관리
 feature: Microsoft CRM Integration, Salesforce Integration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1536'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Adobe Campaign에서 CRM을 통해 데이터를 가져오려면 다음 유형의
 >
 >이 참고는 원본에만 적용됩니다. **[!UICONTROL CRM Connector]** 활동. 다른 CRM 활동의 경우 프로세스는 자동입니다.
 >
->이 옵션은에서 수동으로 만들고 채워야 합니다. **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. 이 옵션은 텍스트 옵션이어야 하며 값은 다음 형식과 일치해야 합니다. **yyyy/MM/dd hh:mm:ss**.
+>이 옵션은에서 수동으로 만들고 채워야 합니다. **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. 이 옵션은 텍스트 옵션이어야 하며 값은 다음 형식과 일치해야 합니다. **`yyyy/MM/dd hh:mm:ss`**.
 > 
 >추가 가져오기를 수행하려면 이 옵션을 수동으로 업데이트해야 합니다.
 
@@ -112,7 +112,7 @@ Adobe Campaign에서 CRM을 통해 데이터를 가져오려면 다음 유형의
 
   >[!NOTE]
   >
-  >이 날짜는 다음 형식으로 표시됩니다. **yyyy/MM/dd hh:mm:ss**.
+  >이 날짜는 다음 형식으로 표시됩니다. **`yyyy/MM/dd hh:mm:ss`**.
 
 ### 데이터 필터링 {#filtering-data}
 
@@ -142,7 +142,7 @@ Microsoft Dynamics 및 Salesforce.com에서 가져올 원격 필드를 오름차
 
 ![](assets/crm_import_order.png)
 
-### 기록 식별 {#record-identification}
+### 레코드 식별 {#record-identification}
 
 CRM에 포함되고 필터링될 수 있는 요소를 가져오지 않고 워크플로우에서 미리 계산된 모집단을 사용할 수 있습니다.
 

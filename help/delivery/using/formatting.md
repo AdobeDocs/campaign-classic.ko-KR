@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Email Design
 role: User, Developer, Data Engineer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '1459'
-ht-degree: 1%
+source-wordcount: '1454'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ JavaScript 템플릿은 스키마 및 양식과 마찬가지로 이름 및 네�
 
 콘텐츠의 속성 및 요소는 JavaScript 개체로 표시되며 소스 문서의 구조를 준수합니다.
 
-**예제**:
+**예**:
 
 * **콘텐츠.@name**: 기본 요소의 &quot;name&quot; 속성 값을 검색합니다.
 * **콘텐츠.@`['name']`**: 와 같음 **콘텐츠.@name** 구문
@@ -78,11 +78,11 @@ JavaScript 템플릿은 스키마 및 양식과 마찬가지로 이름 및 네�
 >
 >&#39;-&#39; 문자는 JavaScript 언어로 예약되어 있으므로 이 문자를 포함하는 모든 속성 또는 요소의 값 복구는 다음을 통해 수행해야 합니다. `['<field>']` 구문.
 >
->예제: `content.@['offer-id']`.
+>예: `content.@['offer-id']`.
 
 프로그래밍 언어의 모든 기능 (변수, 루프, 조건부 테스트, 함수 등). )를 사용하여 출력 문서를 구성할 수 있습니다. 출력 문서를 보강하기 위해 SOAP API에 액세스할 수 있습니다.
 
-예제:
+예:
 
 * 조건부 테스트:
 
@@ -457,7 +457,7 @@ XSLT 언어를 사용하면 XML 문서를 출력 문서로 변경할 수 있습�
 
 다음 **`<xsl:text>`** 지시문을 **disable-output-escaping=&quot;yes&quot;** 옵션을 사용하면 개인화 필드 또는 조건부 테스트에 대한 JavaScript 태그를 삽입할 수 있습니다.
 
-예제:
+예:
 
 * &quot;html&quot; 유형 필드의 내용 표시:
 
@@ -522,7 +522,7 @@ HTML 출력 문서에 입력된 이미지는 절대 또는 상대 참조로 참�
 
 이 두 옵션은 의 옵션 관리 화면을 통해 액세스할 수 있습니다. **[!UICONTROL Administration > Platform > Options]** 폴더를 삭제합니다.
 
-**예제**:
+**예**:
 
 * NcmResourcesDir = &quot;https://server/images/&quot;
 * NcmResourcesDirPreview = &quot;x:/images/&quot;
@@ -565,7 +565,7 @@ HTML 출력 문서에 입력된 이미지는 절대 또는 상대 참조로 참�
 
 ## 날짜 표시 {#date-display}
 
-XML 입력 문서에서 날짜는 내부 XML 형식으로 저장됩니다. **YYYY/MM/DD HH:MM:SS** (예 2018/10/01 12):23:30).
+XML 입력 문서에서 날짜는 내부 XML 형식으로 저장됩니다. **`YYYY/MM/DD HH:MM:SS`** (예 `2018/10/01 12:23:30`).
 
 Adobe Campaign은 아래에 자세히 설명된 JavaScript 템플릿 및 XSL 스타일시트에 대한 날짜 서식 함수를 제공합니다.
 
@@ -573,7 +573,7 @@ Adobe Campaign은 아래에 자세히 설명된 JavaScript 템플릿 및 XSL 스
 
 날짜를 원하는 형식으로 표시하기 위해 Adobe Campaign은 **formatDate** 다음 구문을 사용하여 출력 형식을 지정하는 문자열 및 날짜의 콘텐츠를 입력으로 사용하는 함수: **%4Y/%2M/%2D %2H%2N%2S**
 
-예제:
+예:
 
 * 에 날짜 표시 **31/10/2018** 형식:
 
@@ -604,7 +604,7 @@ Adobe Campaign은 아래에 자세히 설명된 JavaScript 템플릿 및 XSL 스
 
 XSLT 구문에는 표준 날짜 관리 함수가 없습니다. 원하는 형식으로 날짜를 표시하기 위해 Adobe Campaign은 외부 기능을 제공합니다 **날짜 형식**. 이 함수는 날짜 콘텐츠와 다음 구문을 사용하여 출력 형식을 지정하는 문자열을 입력으로 사용합니다. **%4Y/%2M/%2D %2H%2N%2S**
 
-예제:
+예:
 
 * 에 날짜를 표시하려면 **2018/01/10** 형식:
 
