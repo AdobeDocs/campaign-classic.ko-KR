@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: f03e72d4ecd17446264adf74603aefca95f99d41
+source-git-commit: de57e7aec255ab2995d1a758642e6a73cafa91b3
 workflow-type: tm+mt
-source-wordcount: '2542'
+source-wordcount: '2549'
 ht-degree: 99%
 
 ---
@@ -824,6 +824,7 @@ ht-degree: 99%
    + [롤백 절차](migration/using/about-rollback.md)
 + 기술 노트 {#technotes}
    + [하드웨어 크기 조정 권장 사항](technotes/using/hardware-sizing.md)
+   + [중간 소싱 인프라에 대한 인바운드 SMS 워크플로우 활동](technotes/using/inbound-sms.md)
    + IMS로 업그레이드{#ims}
       + [사용자를 IMS로 마이그레이션](technotes/using/migrate-users-to-ims.md)
       + [기술 운영자를 Developer Console로 마이그레이션](technotes/using/ims-migration.md)
