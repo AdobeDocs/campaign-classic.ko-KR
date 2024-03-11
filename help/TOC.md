@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: e4d57effe5cae1effcd6fbcd716b9dcf4eec6189
+source-git-commit: 834d6c02536187b348842e6d524c4a83d02b355d
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2552'
 ht-degree: 99%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 99%
 # Adobe Campaign Classic v7 설명서 {#using}
 
 + [Campaign v7 설명서](campaign-classic-home.md)
-+ [최신 업데이트](rn/using/documentation-updates.md)
 + 릴리스 정보 {#release-notes}
    + [업그레이드 시작](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
    + 이전 릴리스 {#previous-releases}
-      + [2022](rn/using/release-2022.md)
-      + [2021](rn/using/release-2021.md)
-      + [[!DNL Gold Standard]](rn/using/gold-standard.md)
+      + [2022 릴리스](rn/using/release-2022.md)
+      + [2021년 릴리스](rn/using/release-2021.md)
+      + [[!DNL Gold Standard] 릴리스](rn/using/gold-standard.md)
    + [사용되지 않는 기능](rn/using/deprecated-features.md)
    + [호환성 매트릭스](rn/using/compatibility-matrix.md)
+   + [설명서 업데이트](rn/using/documentation-updates.md)
 + 시작 {#getting-started}
    + Adobe Campaign 시작 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic 시작](platform/using/about-adobe-campaign-classic.md)
