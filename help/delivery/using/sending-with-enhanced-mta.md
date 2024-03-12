@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: bc6f5d569d0c8a5eba4499a854af370258ce83a2
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 4%
+source-wordcount: '1380'
+ht-degree: 1%
 
 ---
 
@@ -109,6 +109,10 @@ Campaign의 반송 조건 **[!UICONTROL Delivery log qualification]** 표는 더
 
 바운스 자격에 대한 자세한 내용은 [이 섹션](understanding-delivery-failures.md#bounce-mail-qualification).
 
+### 게재
+
+Enhanced MTA로 전송되면 게재를 중단할 수 없습니다. 이렇게 하면 게재가 다음과 같이 표시됩니다. **[!UICONTROL Stopped]** Campaign의 상태입니다.
+
 ### 게재 처리량
 
 Campaign 게재 처리량 그래프는 이메일 수신자에게 더 이상 처리량을 표시하지 않습니다. 이제 이 그래프는 Campaign에서 Enhanced MTA로 메시지를 릴레이하는 처리량 속도를 보여 줍니다.
@@ -127,7 +131,7 @@ Campaign 게재 처리량 그래프는 이메일 수신자에게 더 이상 처�
 
 예를 들어 Campaign에서 유효 기간을 기본값 5일로 설정하면 소프트 바운싱 메시지가 Enhanced MTA로 다시 시도되고 해당 메시지가 Enhanced MTA에 도달한 후 최대 3.5일 동안만 다시 시도됩니다. 이 경우 Campaign에 설정된 값은 사용되지 않습니다.
 
-메시지가 3.5일 동안 Enhanced MTA 큐에 있고 게재에 실패하면 시간이 초과되고 게재 로그에서 해당 상태가 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 업데이트됩니다.
+메시지가 3.5일 동안 Enhanced MTA 큐에 있고 게재에 실패하면 시간이 초과되고 다음부터 상태가 업데이트됩니다. **[!UICONTROL Sent]** 끝 **[!UICONTROL Failed]** 게재 로그에서.
 
 유효 기간에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](steps-sending-the-delivery.md#defining-validity-period).
 
@@ -156,9 +160,9 @@ DKIM에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](htt
 
 | 전송 프로세스의 단계 | KPI 요약 | 전송 로그 상태 |
 |--- |--- |--- |
-| 메시지가 Campaign에서 Enhanced MTA로 성공적으로 릴레이 | **[!UICONTROL Success]** 백분율이 100%에서 시작 | 전송됨 |
+| 메시지가 Campaign에서 Enhanced MTA로 성공적으로 릴레이 | **[!UICONTROL Success]** 백분율이 100%에서 시작 | 보냄 |
 | 하드 바운싱 메시지가 Enhanced MTA에서 다시 보고됨 | **[!UICONTROL Success]** 그에 따라 백분율 감소 | 실패 |
-| 소프트 바운싱 메시지는 Enhanced MTA에서 다시 보고됨 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 전송됨 |
-| 소프트 바운싱 메시지 다시 시도 성공 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 전송됨 | **[!UICONTROL Success]** 그에 따라 백분율 증가 | 전송됨 |
+| 소프트 바운싱 메시지는 Enhanced MTA에서 다시 보고됨 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 보냄 |
+| 소프트 바운싱 메시지 다시 시도 성공 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 보냄 | **[!UICONTROL Success]** 그에 따라 백분율 증가 | 보냄 |
 | 소프트 바운싱 메시지 다시 시도 실패 | **[!UICONTROL Success]** 그에 따라 백분율 감소 | 실패 |
 
