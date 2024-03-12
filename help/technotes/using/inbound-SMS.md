@@ -4,9 +4,9 @@ title: 중간 소싱 인프라에 대한 인바운드 SMS 워크플로우 활동
 description: 중간 소싱 인프라에 대한 인바운드 SMS 워크플로우 활동
 feature: Technote, SMS
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
-source-git-commit: de57e7aec255ab2995d1a758642e6a73cafa91b3
+source-git-commit: 5667cb6b45742638f8c984d7eb9633660f64fc0f
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '430'
 ht-degree: 2%
 
 ---
@@ -70,11 +70,20 @@ ht-degree: 2%
    ```
 
    중간 소싱 레코드의 기본 키와 마케팅 SMS 라우팅의 외부 계정 ID를 결합하여 복합 키를 기반으로 inSMS 데이터를 업데이트하는 다음의 새로운 사용자 지정 스크립트를 사용합니다.
+아래의 사전 요구 사항을 따르십시오.
 
-   ```
+   * 에 대한 실제 값 입력 `<EXTERNAL_ACCOUNT_ID>`, 예, `var iExtAccountId=72733155`.
+   * 사용자 지정 스크립트에 다음 요소를 유지해야 합니다.
+      * `_operation="insertOrUpdate"`
+      * `_key="@midInSMSId,@extAccount-id"`
+      * `midInSMSId={smsMessage.id}`
+      * `inSms.@["extAccount-id"] = iExtAccountId;{}`
+
+   ```Javascript
    // please enter real external account ID to replace <EXTERNAL ACCOUNT ID>
    var iExtAccountId=<EXTERNAL_ACCOUNT_ID>;
-   // make sure to keep the following elements in the custom script (the rest is optional and custom code can be added): _operation="insertOrUpdate", _key="@midInSMSId,@extAccount-id", midInSMSId={smsMessage.id}, inSms.@["extAccount-id"] = iExtAccountId;, var inSms = <inSMS xtkschema="nms:inSMS" _operation="insertOrUpdate"
+   
+   var inSms = <inSMS xtkschema="nms:inSMS" _operation="insertOrUpdate"
    
                _key="@midInSMSId,@extAccount-id"
                midInSMSId={smsMessage.id}
@@ -90,6 +99,7 @@ ht-degree: 2%
                operatorCode = {smsMessage.operatorCode}
                linkedSmsId={smsMessage.linkedSmsId}
                separator = {smsMessage.separator}/>
+   
    inSms.@["extAccount-id"] = iExtAccountId;
    
    xtk.session.Write(inSms);
