@@ -4,7 +4,7 @@ title: 중간 소싱 인프라에 대한 인바운드 SMS 워크플로우 활동
 description: 중간 소싱 인프라에 대한 인바운드 SMS 워크플로우 활동
 feature: Technote, SMS
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
-source-git-commit: 5667cb6b45742638f8c984d7eb9633660f64fc0f
+source-git-commit: 85adfe3515480bed559091427ff1acec14a70320
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 1. 에 확장 추가 `nms:inSMS` 마케팅 인스턴스의 스키마. 확장 프로그램은 새 속성을 `nms:inSMS` 중간 소싱 인스턴스에서 발생하는 inSMS 레코드 기본 키를 스키마와 추적합니다.
 
-   ```
+   ```xml
    <element img="nms:miniatures/mini-sms.png" label="Incoming SMS"
           labelSingular="Incoming SMS" name="inSMS">
    <dbindex name="midInSMSId" unique="false">
@@ -55,7 +55,7 @@ ht-degree: 2%
 
    아래 블록을 바꿉니다. 이 스크립트는 이전에 이 코드를 사용자 지정한 경우에 달라질 수 있습니다.
 
-   ```
+   ```Javascript
    var lastSynchKey = getOption('SMS_MO_INDEX_WKF1105_inSmsUS_smsmidus');
    
    var smsId = application.getNewIds(1);
@@ -70,7 +70,8 @@ ht-degree: 2%
    ```
 
    중간 소싱 레코드의 기본 키와 마케팅 SMS 라우팅의 외부 계정 ID를 결합하여 복합 키를 기반으로 inSMS 데이터를 업데이트하는 다음의 새로운 사용자 지정 스크립트를 사용합니다.
-아래의 사전 요구 사항을 따르십시오.
+
+   아래의 사전 요구 사항을 따르십시오.
 
    * 에 대한 실제 값 입력 `<EXTERNAL_ACCOUNT_ID>`, 예, `var iExtAccountId=72733155`.
    * 사용자 지정 스크립트에 다음 요소를 유지해야 합니다.
@@ -111,7 +112,7 @@ ht-degree: 2%
 
    스크립트는 기본 키 포인터를 24시간 전으로 재설정합니다. 워크플로우는 이전 24시간 내에 중간 소싱 인스턴스의 모든 inSMS 데이터를 재처리하고 누락된 데이터를 마케팅 인스턴스에 추가합니다.
 
-   ```
+   ```Javascript
    // please enter real external account ID to replace <EXTERNAL_ACCOUNT_ID>
    // please enter real pointer option name to replace '<POINTER_OPTION_NAME>'
    // OPTION NAME format: SMS_MO_INDEX_{internal name of the workflow}_inSms_{internal name of the external account to access the mid}
