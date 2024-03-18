@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
+source-git-commit: 466f04bce8f4c62b5dbb0e9d15150ab0c3bf2fbd
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '603'
 ht-degree: 4%
 
 ---
@@ -103,21 +103,24 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 
 1. 에서 기본 제공 아이콘 중 하나를 선택합니다. **[!UICONTROL Application icon]** 서비스에서 모바일 애플리케이션을 개인화하는 필드입니다.
 
-1. **[!UICONTROL Authentication mode]**&#x200B;을(를) 선택합니다. 나중에 언제든지 에서 인증 모드를 변경할 수 있습니다. **[!UICONTROL Certificate]** 모바일 애플리케이션의 탭입니다.
+1. **[!UICONTROL Authentication mode]**&#x200B;을(를) 선택합니다.
+
+   ![](assets/nmac_ios_5.png)
+
+   두 가지 모드를 사용할 수 있습니다.
+
+   * (권장) **[!UICONTROL Token-based authentication]**: APNs 연결 설정을 입력합니다 **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** 및 **[!UICONTROL Bundle Id]** 그런 다음 를 클릭하여 p8 인증서를 선택합니다. **[!UICONTROL Enter the private key...]**. 에 대한 자세한 내용 **[!UICONTROL Token-based authentication]**, 참조 [Apple 설명서](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
+
    * **[!UICONTROL Certificate-based authentication]**: 클릭 **[!UICONTROL Enter the certificate...]**  그런 다음 p12 키를 선택하고 모바일 애플리케이션 개발자가 제공한 암호를 입력합니다.
-   * **[!UICONTROL Token-based authentication]**: 연결 설정 채우기 **[!UICONTROL Key ID]**, **[!UICONTROL Team ID]** 및 **[!UICONTROL Bundle ID]** 그런 다음 를 클릭하여 p8 인증서를 선택합니다. **[!UICONTROL Enter the private key]**. 에 대한 자세한 내용 **[!UICONTROL Token-based authentication]**, 참조 [Apple 설명서](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns).
 
    >[!NOTE]
    >
-   > Adobe은 다음을 권장합니다. **[!UICONTROL Token-based authentication]** 이 인증 모드는 보다 안전하며 인증서 만료에 바인딩되지 않으므로 iOS 구성에 적합합니다.
+   > Adobe은 다음을 권장합니다. **[!UICONTROL Token-based authentication]** P8 인증 키가 보다 새롭고 안전하므로 iOS 구성에 적합합니다.
 
-   ![](assets/nmac_ios_4.png)
-
-1. 다음을 클릭할 수 있습니다. **[!UICONTROL Test the connection]** 성공했는지 확인하기 위해.
+1. 사용 **[!UICONTROL Test the connection]** 단추를 클릭하여 구성을 확인합니다.
 
 1. 클릭 **[!UICONTROL Next]** 프로덕션 애플리케이션 구성을 시작하고 위에 설명된 것과 동일한 단계를 수행합니다.
 
-   ![](assets/nmac_ios_5.png)
 
 1. **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
 
