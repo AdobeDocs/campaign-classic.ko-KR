@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 834d6c02536187b348842e6d524c4a83d02b355d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
    + [업그레이드 시작](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
    + 이전 릴리스 {#previous-releases}
-      + [2022 릴리스](rn/using/release-2022.md)
+      + [2022년 릴리스](rn/using/release-2022.md)
       + [2021년 릴리스](rn/using/release-2021.md)
       + [[!DNL Gold Standard] 릴리스](rn/using/gold-standard.md)
    + [사용되지 않는 기능](rn/using/deprecated-features.md)
@@ -741,7 +741,7 @@ ht-degree: 99%
       + [데이터 모델 설명](configuration/using/data-model-description.md)
       + [모범 사례](configuration/using/data-model-best-practices.md)
    + 스키마 작업 {#schema-reference}
-      + [스키마 시작](configuration/using/about-schema-reference.md)
+      + [스키마 시작하기](configuration/using/about-schema-reference.md)
       + [스키마 구조](configuration/using/schema-structure.md)
       + [데이터베이스 매핑](configuration/using/database-mapping.md)
       + [키 관리](configuration/using/database-keys.md)

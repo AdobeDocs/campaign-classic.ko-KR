@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 517f09e508207b14e6b870f926753b2d9a547262
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ _2023년 12월 5일 수요일_
 
 * 또한 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Adobe Campaign은 최종 사용자 인증 모드를 로그인/암호 기본 인증에서 Adobe IMS(Identity Management System)로 마이그레이션할 것을 강력히 권장합니다. [이 기술 노트](../../technotes/using/migrate-users-to-ims.md)에서 운영자를 마이그레이션하는 방법을 알아봅니다.
 
-* 이제 웹 양식에 **게시 보류 중** 상태는 자동으로 라이브가 되지 않습니다. 보안 문제를 방지하려면 이 문제가 발생하기 전에 게시해야 합니다. **온라인** 웹 브라우저의 웹 양식 URL을 통해 액세스할 수 있습니다. [자세히 보기](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
+* 이제 웹 양식이 **게시 보류 중** 상태인 경우 자동으로 게시되지 않습니다. 보안 문제를 방지하려면 **온라인**&#x200B;이 되기 전에 게시해야 하며 웹 브라우저에서 웹 양식 URL을 통해 액세스할 수 있어야 합니다. [자세히 보기](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
 
 ### 패치 {#release-7-3-5-patches}
 

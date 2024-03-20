@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 3e771d9a18c083bee8239b95d1d68d63928217c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '764'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -150,7 +150,7 @@ ht-degree: 92%
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 및 SP2</p>
-<p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html#database-access-layers">자세히 알아보기</a></p>
+<p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html?lang=ko#database-access-layers">자세히 알아보기</a></p>
 </td>
 </tr>
 </tbody>
@@ -355,7 +355,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 
 ### Microsoft WebView2 런타임
 
-Microsoft Edge WebView2 런타임 최신 버전은 Campaign 클라이언트 콘솔에 필수입니다.
+Campaign 클라이언트 콘솔을 사용하려면 Microsoft Edge WebView2 런타임 최신 버전이 필수입니다.
 
 [Microsoft 개발자 사이트](https://www.adobe.com/go/acc-ms-webview2-runtime-download)에서 Microsoft Edge WebView2를 다운로드합니다.
 
