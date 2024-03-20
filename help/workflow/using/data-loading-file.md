@@ -5,10 +5,10 @@ description: 데이터 로드(파일) 워크플로우 활동에 대해 자세히
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 67a6e03318a74b665dc6928028470f98c0abae5e
+source-git-commit: 229844437770c460d958724e2dc15941e35939a6
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 15%
+source-wordcount: '1147'
+ht-degree: 14%
 
 ---
 
@@ -28,11 +28,17 @@ ht-degree: 15%
 
 ![](assets/s_advuser_wf_etl_file.png)
 
-예를 들어, 서버에서 파일의 압축을 풀지 않고(따라서 압축 해제된 파일에 대한 공간을 절약할 필요가 없음) 파일 처리 시 압축 해제를 포함할 수 있도록 파일 가져오기 중에 실행할 사전 프로세스를 정의할 수 있습니다. 다음 항목 선택 **[!UICONTROL Pre-process the file]** 옵션을 선택하고 다음 세 가지 옵션 중 하나를 선택합니다. **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) 또는 **[!UICONTROL Decrypt]** (gpg).
+## 사전 처리 단계 적용 {#pre-processing}
+
+예를 들어, 서버에서 파일의 압축을 풀지 않고(따라서 압축 해제된 파일에 대한 공간을 절약할 필요가 없음) 파일 처리 시 압축 해제를 포함할 수 있도록 파일 가져오기 중에 실행할 사전 프로세스를 정의할 수 있습니다. [처리하기 전에 파일의 압축을 풀거나 암호를 해독하는 방법을 알아봅니다](../../platform/using/unzip-decrypt.md).
+
+이렇게 하려면 **[!UICONTROL Pre-process the file]** 옵션을 선택하고 다음 세 가지 옵션 중 하나를 선택합니다. **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) 또는 **[!UICONTROL Decrypt]** (gpg).
 
 ![](assets/preprocessing-dataloading.png)
 
-자세한 정보는 이 섹션 을 참조하십시오. [처리 전 파일 압축 해제 또는 암호 해독](../../platform/using/unzip-decrypt.md).
+>[!CAUTION]
+>
+>하이브리드 또는 온-프레미스 배포로 작업하는 경우 기본 구성에서 Windows에서 사용할 수 없는 &#39;zcat&#39;을 사용하므로 전처리 명령이 즉시 작동하지 않을 수 있습니다. 이 경우 를 조정해야 합니다. **preProcessCommand** 필요에 맞게 서버 구성 파일(serverConf.xml)의 노드 [서버 구성 파일에서 전처리 명령을 구성하는 방법을 알아봅니다](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 ## 파일 형식 정의 {#defining-the-file-format}
 
