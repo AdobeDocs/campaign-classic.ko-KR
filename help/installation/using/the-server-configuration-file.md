@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 67a6e03318a74b665dc6928028470f98c0abae5e
 workflow-type: tm+mt
 source-wordcount: '8075'
 ht-degree: 3%
@@ -16,8 +16,6 @@ ht-degree: 3%
 ---
 
 # 서버 구성 파일{#the-server-configuration-file}
-
-
 
 Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 위치: **conf** 설치 디렉토리 디렉토리. 이 섹션에는 의 다양한 노드와 매개 변수가 모두 나열되어 있습니다. **serverConf.xml** 파일.
 

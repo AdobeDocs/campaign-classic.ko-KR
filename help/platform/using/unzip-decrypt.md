@@ -9,9 +9,9 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 67a6e03318a74b665dc6928028470f98c0abae5e
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '703'
 ht-degree: 9%
 
 ---
@@ -44,7 +44,7 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 �
 1. 추가 및 구성 **[!UICONTROL File transfer]** 워크플로우의 활동.
 1. 추가 **[!UICONTROL Data loading (file)]** 활동을 실행하고 파일 형식을 정의합니다.
 1. **[!UICONTROL Pre-process the file]** 옵션을 선택합니다.
-1. 적용할 전처리 명령을 지정합니다.
+1. 적용할 전처리 명령을 선택합니다.
 1. 다른 활동을 추가하여 파일에서 오는 데이터를 관리합니다.
 1. 워크플로우를 저장하고 실행합니다.
 
@@ -87,17 +87,15 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 �
 
 1. 를 엽니다. **[!UICONTROL Data loading (file)]** 활동을 구성한 다음 필요에 따라 구성합니다. 활동을 구성하는 방법에 대한 전체적인 개념은에서 사용할 수 있습니다. [이 섹션](../../workflow/using/data-loading-file.md).
 
-   들어오는 데이터를 해독하기 위해 활동에 전처리 단계를 추가합니다. 이렇게 하려면 **[!UICONTROL Pre-process the file]** 옵션을 선택한 다음 **[!UICONTROL Command]** 필드 :
-
-   `gpg --batch --passphrase passphrase --decrypt <%=vars.filename%>`
+   들어오는 데이터를 해독하기 위해 활동에 전처리 단계를 추가합니다. 이렇게 하려면 **[!UICONTROL Pre-process the file]** 옵션을 선택한 다음 을 선택합니다 **[!UICONTROL Decrypt]** 다음에서 **[!UICONTROL Command]** 드롭다운 목록:
 
    ![](assets/gpg_load.png)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >이 예제에서는 Campaign 컨트롤 패널에서 기본적으로 사용되는 암호, 즉 &quot;passphrase&quot;를 사용합니다.
+   >사용 가능한 명령에 대한 변경 사항이 필요한 경우 다음 대상에게 연락할 수 있습니다 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 를 클릭하여 preProcessCommand 설정을 조정합니다.
    >
-   >과거에 고객 지원 센터 요청을 통해 인스턴스에 GPG 키를 이미 설치한 경우 암호가 변경되었을 수 있으며 기본적으로 암호와 다릅니다.
+   >하이브리드 배포로 작업하는 경우 서버 구성 파일(serverConf.xml)에서 직접 이러한 명령을 구성할 수 있습니다. [서버 구성 파일에서 전처리 명령을 구성하는 방법을 알아봅니다](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 1. 클릭 **[!UICONTROL OK]** 활동 구성을 확인합니다.
 
