@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
-workflow-type: ht
-source-wordcount: '3699'
-ht-degree: 100%
+source-git-commit: a6113868f5e22583c8017b1134f69d66b92e92f1
+workflow-type: tm+mt
+source-wordcount: '3716'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 100%
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
 ## 2024
+
+### 2024년 3월 {#mar-2024}
+
+모바일 앱 구성 섹션이 APNs에 대한 iOS 토큰 기반 연결에 대해 업데이트되었습니다. [자세히 보기](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app)
 
 ### 2024년 1월 {#jan-2024}
 
