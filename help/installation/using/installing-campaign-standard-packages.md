@@ -6,7 +6,7 @@ feature: Installation, Application Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 4%
@@ -193,7 +193,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> 웹 분석 커넥터<br /> </td> 
-   <td> Adobe Campaign 및 Adobe Analytics이 Web Analytics 커넥터 패키지를 통해 상호 작용할 수 있습니다. 트랜잭션 메시지(메시지 센터 패키지)와 호환되지 않습니다. <a href="../../platform/using/adobe-analytics-connector.md">자세히 알아보기</a><br /> </td> 
+   <td> Adobe Campaign 및 Adobe Analytics이 Web Analytics 커넥터 패키지를 통해 상호 작용할 수 있습니다. 트랜잭션 메시지(메시지 센터 패키지)와 호환되지 않습니다. <a href="../../platform/using/gs-aa.md">자세히 알아보기</a><br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
   <tr> 

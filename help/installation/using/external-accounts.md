@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '1841'
-ht-degree: 9%
+source-wordcount: '1794'
+ht-degree: 8%
 
 ---
 
@@ -294,7 +294,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 다음을 구�
 
 ![](assets/ext_account_10.png)
 
-이 외부 계정의 경우 추적된 URL의 계산 수식을 보강하고 두 솔루션 간의 연결을 승인해야 합니다. 자세한 정보는 이 [페이지](../../platform/using/adobe-analytics-connector.md#external-account-classic)를 참조하십시오.
+이 외부 계정의 경우 추적된 URL의 계산 수식을 보강하고 두 솔루션 간의 연결을 승인해야 합니다. 자세한 정보는 이 [페이지](../../platform/using/gs-aa.md)를 참조하십시오.
 
 ### Adobe Experience Manager {#adobe-experience-manager-external-account}
 

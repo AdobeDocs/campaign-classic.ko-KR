@@ -2,16 +2,15 @@
 product: campaign
 title: Adobe Analytics 커넥터 프로비저닝
 description: Adobe Analytics 커넥터 프로비저닝에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
-badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="v7 온-프레미스 및 하이브리드 배포에만 적용"
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: d690a5c4b9779ccd90b50bfbc74df18f0ac60d14
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 9%
+source-wordcount: '728'
+ht-degree: 6%
 
 ---
 
@@ -37,7 +36,7 @@ Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 Adobe IMS(Iden
 
 >[!AVAILABILITY]
 >
-> 현재 JWT(JSON 웹 토큰) 지원 종료를 준비하고 있으며 이를 OAuth로 대체하는 과정이 진행 중입니다. Campaign의 예정된 릴리스 내에서 이 전환을 점진적으로 수행하며 설명서에 업데이트를 반영하여 업데이트합니다.
+> 현재 JWT(JSON 웹 토큰)의 지원 종료를 준비하고 있으며, 이를 OAuth로 대체하는 과정이 진행 중입니다. Campaign의 예정된 릴리스 내에서 이 전환을 점진적으로 수행하며, 설명서에 이러한 업데이트를 반영하여 업데이트합니다.
 
 ## Adobe Analytics 제품 프로필 만들기 {#analytics-product-profile}
 
@@ -69,7 +68,7 @@ Analytics 제품 프로필이 이미 있는 경우 Analytics 커넥터에만 사
 
 1. 의 경우 **[!UICONTROL Report Suites]** 기능, 추가 **[!UICONTROL Report Suites]** 나중에 를 사용해야 합니다.
 
-   보고서 세트가 없는 경우 다음을 통해 생성할 수 있습니다. [다음 단계](../../platform/using/adobe-analytics-connector.md#report-suite-analytics).
+   보고서 세트가 없는 경우 다음을 통해 생성할 수 있습니다. [다음 단계](../../platform/using/gs-aa.md).
 
    ![](assets/do-not-localize/triggers_4.png)
 
@@ -81,7 +80,7 @@ Analytics 제품 프로필이 이미 있는 경우 Analytics 커넥터에만 사
 
 1. 의 경우 **[!UICONTROL Dimensions]** 기능, 추가 **[!UICONTROL Dimensions]** 향후 구성에 필요합니다.
 
-   선택한 Dimension이 다음에서 구성할 도메인과 일치하는지 확인합니다. [외부 계정](adobe-analytics-connector.md#external-account-classic) 및 의 해당 eVar 번호에 맞게 정렬합니다. [Adobe Analytics](adobe-analytics-connector.md#configure-conversion-success).
+   선택한 Dimension이 외부 계정에서 구성할 eVar와 일치하고 Adobe Analytics의 해당 eVar 번호와 일치하는지 확인합니다.
 
 1. 의 경우 **[!UICONTROL Report Suite Tools]** 기능을 사용하려면 다음 권한을 추가하십시오.
 

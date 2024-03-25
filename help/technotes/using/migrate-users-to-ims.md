@@ -2,9 +2,9 @@
 title: 캠페인 운영자를 IMS(Identity Management System) Adobe으로 마이그레이션
 description: Campaign 연산자를 IMS(Identity Management System) Adobe으로 마이그레이션하는 방법에 대해 알아봅니다.
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
-source-git-commit: 1879fe179381be654bad876de2423d25049db43c
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1278'
 ht-degree: 2%
 
 ---
@@ -13,9 +13,7 @@ ht-degree: 2%
 
 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로, Adobe Campaign은 최종 사용자 인증 모드를 로그인/암호 기본 인증에서 Adobe Identity Management 시스템(IMS)으로 마이그레이션할 것을 강력히 권장합니다. 모든 연산자가 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} Campaign에 연결합니다.
 
-Campaign v8에서는 사용자/암호(즉, 기본 인증)와의 연결이 더 이상 허용되지 않습니다. **Adobe Campaign v7.3.5에서 이 마이그레이션을 수행하여 Campaign v8로 원활하게 마이그레이션할 수 있도록 하는 것이 좋습니다.**
-
-
+Campaign v8에서는 사용자/암호(즉, 기본 인증)로 연결할 수 없습니다. **Adobe Campaign v7.3.5에서 이 마이그레이션을 수행하여 Campaign v8로 원활하게 마이그레이션할 수 있도록 하는 것이 좋습니다.**
 
 ## 변경 사항{#move-to-ims-changes}
 
@@ -101,7 +99,7 @@ IMS(Adobe Identity Management System)로 최종 사용자 마이그레이션 및
 
 Adobe은 Campaign Classic v7.3.5(또는 [IMS 마이그레이션 호환 버전](#ims-versions)).
 
-Campaign 관리자는 Adobe Admin Console 및 Campaign 클라이언트 콘솔을 통해 조직의 사용자에게 권한을 부여할 수 있습니다. 사용자가 Adobe ID으로 Adobe Campaign에 로그온합니다. 에서 IMS를 사용하여 권한을 설정하는 방법 알아보기 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}.
+Campaign 관리자는 Adobe Admin Console 및 Campaign 클라이언트 콘솔을 통해 조직의 사용자에게 권한을 부여할 수 있습니다. 사용자가 Adobe ID으로 Adobe Campaign에 로그온합니다. 에서 IMS를 사용하여 권한을 설정하는 방법 알아보기 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ko){target="_blank"}.
 
 ### 현재 기본 사용자의 이메일을 추가하는 방법 {#ims-migration-id}
 

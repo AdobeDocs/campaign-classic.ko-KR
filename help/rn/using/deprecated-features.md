@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: f3dc9d56c693f334923d627a28a9e45b92b1c0c3
-workflow-type: ht
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
       <tr>
   <td>Adobe Analytics 데이터 커넥터<br></td>
    <td><p>Adobe Analytics 데이터 커넥터는 2022년 8월 17일부로 제거되었습니다. Campaign 21.1.3 릴리스에서 더 이상 사용되지 않습니다.</p>
-   <p>이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../platform/using/adobe-analytics-connector.md">자세히 알아보기</a></p>
+   <p>이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../platform/using/gs-aa.md">자세히 알아보기</a></p>
   </td>
  </tr>
     <tr>

@@ -6,10 +6,12 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
-source-git-commit: ccc48c93d81266b0971acc3a549458e0823eeb37
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1489'
 ht-degree: 89%
 
 ---
@@ -121,7 +123,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   **[!UICONTROL Success events]**&#x200B;를 구성하는 방법에 대해 알아보려면 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)을 참조하십시오..
+   구성 방법을 알아보려면 **[!UICONTROL Success events]**, 다음을 참조하십시오. [섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools).
 
    >[!NOTE]
    >
@@ -213,7 +215,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
 ### 웹 분석 프로세스의 기술 워크플로우 {#technical-workflows-of-web-analytics-processes}
 
-Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작업으로 실행되는 4개의 기술 워크플로우에서 처리됩니다.
+Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 배경 작업으로 실행되는 4개의 기술 워크플로우에서 처리됩니다.
 
 이러한 속성은 Adobe Campaign 트리의 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]** 폴더 아래에서 사용할 수 있습니다.
 

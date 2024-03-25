@@ -3,12 +3,12 @@ product: campaign
 title: Adobe Analytics 커넥터로 마이그레이션
 description: Campaign - Analytics 커넥터 FAQ
 feature: Technote, Analytics Integration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="v7 온-프레미스 및 하이브리드 배포에만 적용"
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 5%
+source-wordcount: '840'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 
 2021년 8월 1일에 Adobe Campaign Classic이 기존 Data Connectors UI에서 제거되었지만 기존 Campaign 통합은 2022년 8월 17일까지 데이터를 계속 수집하여 Adobe Analytics에 전달합니다. 이 날짜 이후, 통합은 데이터를 수집하고 Adobe Analytics에 전달하는 것을 중단합니다.
 
-본인 **다음을 구현해야 함** 기존 Adobe Analytics 통합을 대체하는 Adobe Exchange에서의 새로운 Data Connectors 커넥터 통합. Adobe Analytics 커넥터에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../../platform/using/adobe-analytics-connector.md).
+본인 **다음을 구현해야 함** 기존 Adobe Analytics 통합을 대체하는 Adobe Exchange에서의 새로운 Data Connectors 커넥터 통합. Adobe Analytics 커넥터에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../../platform/using/gs-aa.md).
 
 이러한 변경 사항에 대한 질문이 있으면 [FAQ](#faq-aa). 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
@@ -52,7 +52,7 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 
 Campaign 21.1.3(또는 이상)으로 업그레이드해야 합니다. **2022년 8월 17일 이전**.
 
-호스팅된 Adobe은 사용자와 함께 인스턴스를 최신 버전으로 업그레이드합니다. 그런 다음 을 사용할 수 있습니다. [Adobe Analytics 커넥터](../../platform/using/adobe-analytics-connector.md).
+호스팅된 Adobe은 사용자와 함께 인스턴스를 최신 버전으로 업그레이드합니다. 그런 다음 을 사용할 수 있습니다. [Adobe Analytics 커넥터](../../platform/using/gs-aa.md).
 
 온-프레미스/하이브리드 고객은 새 통합의 이점을 활용하려면 최신 버전 중 하나로 업그레이드해야 합니다.
 모든 인스턴스가 업그레이드되면 다음 작업을 수행할 수 있습니다. [새 통합 구현](../../platform/using/adobe-analytics-provisioning.md) Adobe Analytics 커넥터로 원활하게 전환할 수 있습니다.

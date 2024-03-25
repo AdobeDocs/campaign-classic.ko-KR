@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: 49271e291953483ee14709b26ec053217a336718
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 20%
+source-wordcount: '176'
+ht-degree: 16%
 
 ---
 
@@ -25,6 +25,11 @@ Campaign 사용자는 대신 Adobe ID을 사용하여 Adobe Campaign 콘솔에 �
 * 서로 다른 통합으로 Adobe Campaign을 사용하는 경우 연결이 유지됩니다.
 * 기본 로그인/암호보다 안전한 암호 관리 정책.
 * 페더레이션 ID 계정 사용(외부 ID 공급자).
+
+>[!IMPORTANT]
+>
+> Campaign v8에서는 사용자/암호(즉, 기본 인증)로 연결할 수 없습니다. **Adobe Campaign v7.3.5에서 이 마이그레이션을 수행하여 Campaign v8로 원활하게 마이그레이션할 수 있도록 하는 것이 좋습니다.**
+
 
 <!--
 >[!IMPORTANT]

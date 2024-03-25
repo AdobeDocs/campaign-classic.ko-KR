@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 834d6c02536187b348842e6d524c4a83d02b355d
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+workflow-type: tm+mt
+source-wordcount: '2558'
+ht-degree: 99%
 
 ---
 
@@ -107,8 +107,9 @@ ht-degree: 100%
          + [Salesforce.com과 연결](platform/using/crm-sfdc.md)
          + [CRM과 데이터 동기화](platform/using/crm-data-sync.md)
       + Adobe Analytics 커넥터{#analytics-connector}
-         + [Adobe Analytics 커넥터 프로비저닝](platform/using/adobe-analytics-provisioning.md)
+         + [Adobe Analytics 커넥터 시작](platform/using/gs-aa.md)
          + [Adobe Analytics 커넥터 통합](platform/using/adobe-analytics-connector.md)
+         + [Adobe Analytics 커넥터 프로비저닝](platform/using/adobe-analytics-provisioning.md)
          + [Adobe Analytics Connector로 마이그레이션하는 방법](technotes/using/aa-connector-migration.md)
          + [Adobe Analytics 데이터 커넥터](platform/using/adobe-analytics-data-connector-legacy.md)
    + [도움말 및 지원 옵션](support.md)

@@ -9,10 +9,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
 source-wordcount: '1980'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양�
 
 개인 정보를 올바로 처리하고 개인 데이터를 관리하기 위해 운영하는 지역에 적용되는 법규 내에서 작업하십시오. 다음과 같은 규정이 있습니다.
 * [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (European General Data Protection Regulation)
-* [DPA](https://www.gov.uk/data-protection) (UK’s implementation of GDPR)
+* [DPA](https://www.gov.uk/data-protection)(영국의 GDPR 구현)
 * [개인 정보 및 전자 통신에 관한 유럽 지침](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
 * [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (상업용 이메일에 관한 규정 및 요구 사항에 설정된 미국 법)
 * [CPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (California Consumer Privacy Act)
@@ -81,7 +81,7 @@ Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 �
 * **개인 데이터**&#x200B;는 살아있는 개인을 직접 또는 간접적으로 식별할 수 있는 정보입니다.
 * **중요한 개인 데이터**&#x200B;는 노동조합 멤버십뿐 아니라 개인의 인종, 정치적 관점, 종교적 신념, 범죄 기록, 유전자 정보, 건강 정보, 성적 선호도, 생체 인식 정보 등과 관련된 정보입니다.
 
-[Adobe Analytic](../../platform/using/adobe-analytics-connector.md), [Audience Manager나 People 핵심 서비스](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md) 또는 [CRM Connector](../../platform/using/crm-connectors.md)를 통하는 기타 솔루션과 같이 대상을 다른 시스템으로 전송할 수 있는 기타 Experience Cloud 솔루션을 Campaign과 통합하면 개인 데이터 보호를 위해 추가 비용을 지불해야 합니다.
+[Adobe Analytic](../../platform/using/gs-aa.md), [Audience Manager나 People 핵심 서비스](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md) 또는 [CRM Connector](../../platform/using/crm-connectors.md)를 통하는 기타 솔루션과 같이 대상을 다른 시스템으로 전송할 수 있는 기타 Experience Cloud 솔루션을 Campaign과 통합하면 개인 데이터 보호를 위해 추가 비용을 지불해야 합니다.
 
 [기본 규정](#privacy-regulations)은 다음과 같이 데이터를 관리하는 서로 다른 엔터티를 의미합니다.
 * **데이터 컨트롤러**&#x200B;는 개인 데이터를 수집, 사용 및 공유하는 방법과 목적을 결정하는 인증 기관입니다.
@@ -100,7 +100,7 @@ Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 �
 
 * **Laura**&#x200B;는 **데이터 주체**&#x200B;입니다. Laura는 항공사로부터 메시지를 받는 수신자입니다. Laura는 정기적인 고객이지만, 어떤 시점에서는 항공사로부터 개인화된 광고나 마케팅 메시지를 받고 싶지 않다고 결정할 수 있습니다. Laura는 항공사의 절차에 따라 정기 고객 번호를 삭제하도록 요구할 겁니다.
 
-* **Anne**&#x200B;는 항공사의 **데이터 컨트롤러**&#x200B;입니다. Laura의 요청을 받고 데이터 주체를 확인하기 위해 요청한 유용한 ID를 검색한 후, Adobe Campaign에서 요청을 제출합니다.
+* **Anne**&#x200B;는 항공사의 **데이터 컨트롤러**&#x200B;입니다. Laura의 요청을 받고 데이터 주체를 식별하기 위해 요청한 유용한 ID를 검색한 다음 Adobe Campaign에서 요청을 제출합니다.
 
 * **Adobe Campaign**&#x200B;은 **데이터 프로세서**&#x200B;입니다.
 

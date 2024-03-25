@@ -9,10 +9,10 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 12%
+source-wordcount: '736'
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 핵심 서비스와 �
 
 ## 솔루션 연결 {#working-with-experience-cloud-solutions}
 
-여러 솔루션을 Adobe Experience Cloud에 연결할 수 있습니다. 다음 **조직** 는 관리자가 그룹과 사용자를 구성하고, Adobe Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 고객 엔티티입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 역할을 합니다. 대부분의 경우 조직은 회사의 이름입니다. 하지만 회사는 여러 조직을 가질 수 있습니다.
+여러 솔루션을 Adobe Experience Cloud에 연결할 수 있습니다. 다음 **조직** 는 관리자가 그룹과 사용자를 구성하고, Adobe Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 고객 엔티티입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 역할을 합니다. 대부분의 경우 조직은 회사의 이름입니다. 그러나 회사는 여러 조직을 가질 수 있습니다.
 
 조직 관리 및 Adobe Experience Cloud 계정 연결에 대한 자세한 내용은 [Adobe Experience Cloud 도움말 포털](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html).
 
@@ -95,7 +95,7 @@ Adobe Experience Cloud ID 서비스(ID 서비스)는 Experience Cloud의 모든 
   </tr> 
   <tr> 
    <td> <strong>Adobe Analytics 커넥터</strong><br /> </td> 
-   <td> <strong>Adobe Analytics 커넥터</strong> 에서는 Adobe Campaign 및 Adobe Analytics이 이메일 캠페인 후 사용자 행동에 대한 세그먼트를 통해 상호 작용할 수 있습니다. 반대로 Adobe Campaign에서 게재하는 이메일 캠페인의 지표와 특성은 Adobe Analytics로 보냅니다. <br /> <p><a href="../../platform/using/adobe-analytics-connector.md">자세히 알아보기</a> campaign - Analytics 커넥터 통합 정보.</p><br /> </td> 
+   <td> <strong>Adobe Analytics 커넥터</strong> 에서는 Adobe Campaign 및 Adobe Analytics이 이메일 캠페인 후 사용자 행동에 대한 세그먼트를 통해 상호 작용할 수 있습니다. 반대로 Adobe Campaign에서 게재한 이메일 캠페인의 지표와 특성을 Adobe Analytics으로 보냅니다.<br /> <p><a href="../../platform/using/gs-aa.md">자세히 알아보기</a> campaign - Analytics 커넥터 통합 정보.</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>

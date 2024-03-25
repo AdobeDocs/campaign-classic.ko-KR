@@ -2,12 +2,12 @@
 product: campaign
 title: 웹 분석
 description: 웹 분석 패키지에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Analytics Integration
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '185'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 
 
-아래에 설명된 워크플로우는 **웹 분석 커넥터** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 정보는 다음을 참조하십시오. [섹션](../../platform/using/adobe-analytics-connector.md).
+아래에 설명된 워크플로우는 **웹 분석 커넥터** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 정보는 다음을 참조하십시오. [섹션](../../platform/using/gs-aa.md).
 
 <table> 
  <tbody> 
@@ -33,7 +33,7 @@ ht-degree: 4%
   <tr> 
    <td> <span class="uicontrol">전환된 연락처 식별</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsFindConverted</span> <br /> </td> 
-   <td> 이 워크플로우는 리마케팅 캠페인 후 구매를 완료한 사이트 방문자를 색인화합니다. 이 워크플로우에서 복구한 데이터는 <span class="uicontrol">리마케팅 효율성 보고서</span> (이 참조) <a href="../../platform/using/adobe-analytics-connector.md#creating-a-re-marketing-campaign"> 페이지</a>). <br /> </td> 
+   <td> 이 워크플로우는 리마케팅 캠페인 후 구매를 완료한 사이트 방문자를 색인화합니다. 이 워크플로우에서 복구한 데이터는 <span class="uicontrol">리마케팅 효율성 보고서</span>. <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">이벤트 삭제</span> <br /> </td> 
