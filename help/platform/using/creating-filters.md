@@ -11,7 +11,7 @@ topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
 1. 필터를 활성화하려면 키보드에서 Enter 키를 누르거나 필터 필드의 오른쪽에 있는 녹색 화살표를 클릭합니다.
 
-데이터를 필터링할 필드가 프로필 형태로 표시되지 않으면 표시된 열에 추가한 다음 해당 열을 필터링할 수 있습니다. 삭제 방법,
+데이터를 필터링할 필드가 프로필 형태로 표시되지 않으면 표시된 열에 추가한 다음 해당 열을 필터링할 수 있습니다. 이렇게 하려면,
 
 1. 다음을 클릭합니다. **[!UICONTROL Configure the list]** 아이콘.
 

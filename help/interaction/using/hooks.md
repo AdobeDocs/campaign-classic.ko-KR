@@ -3,7 +3,7 @@ product: campaign
 title: 후크
 description: 후크
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 ![](assets/interaction_hooks_2.png)
 
-## Target 로드 중 {#target-loading}
+## 대상 로드 중 {#target-loading}
 
 이 후크를 사용하면 기본 제공 쿼리로 로드한 연락처의 프로필을 외부 시스템의 추가 데이터로 보강할 수 있습니다.
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 >
 >다음 **xmlInteraction** 매개 변수에는 호출 데이터와 기본 쿼리로 로드한 연락처의 프로필이 모두 포함됩니다.
 
-**예제:**
+**예:**
 
 ```
 // Call an external system to get additional data for the target
@@ -79,7 +79,7 @@ ht-degree: 2%
     weight:2}
   ```
 
-* dicOffer(xml 유형): 적격 오퍼의 모든 속성(오퍼 코드, 범주 id, 범주 전체 이름, 시작 날짜, 종료 날짜, 레이블, 내부 이름, 오퍼 id, 추가 오퍼 필드)에 대한 사전입니다. 예제
+* dicOffer(xml 유형): 적격 오퍼의 모든 속성(오퍼 코드, 범주 id, 범주 전체 이름, 시작 날짜, 종료 날짜, 레이블, 내부 이름, 오퍼 id, 추가 오퍼 필드)에 대한 사전입니다. 예
 
   ```
   { "1242": <offer category-id="61242" categoryFullName="/FULL/PATH/TO/CATEGORY/" code="CODE" endDate="" id="62473" label="LABEL" name="OFR38_OE4" product-id="43" startDate=""/>,
@@ -95,7 +95,7 @@ ht-degree: 2%
 * 수정된 제안 목록(후크의 첫 번째 매개 변수)
 * 수정된 상호 작용 노드
 
-**예제:**
+**예:**
 
 ```
 var aReturnedProps = [];
@@ -144,7 +144,7 @@ return aReturnedProps;
 >
 >시스템은 오퍼 ID가 입력 및 반환 매개 변수 모두에 대해 동일한지 확인합니다.
 
-**예제:**
+**예:**
 
 ```
 var product = getUrl("https://EXTERNAL_SYSTEM?offerCode=" + encodeURIComponent(xmlOffer.@code));

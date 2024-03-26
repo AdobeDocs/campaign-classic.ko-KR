@@ -9,8 +9,8 @@ level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
+source-wordcount: '505'
+ht-degree: 1%
 
 ---
 
@@ -69,6 +69,7 @@ ht-degree: 0%
 
    * **[!UICONTROL INSERT FOLDERS]**: Adobe Campaign 트리에 폴더를 삽입할 권한(관련 분기에 대한 편집 권한이 있는 경우)
    * **[!UICONTROL WORKFLOW]**: 워크플로우를 사용할 수 있는 권한.
+
    >[!NOTE]
    >
    >이 그룹에서는 운영자가 게재를 시작할 수 없습니다.

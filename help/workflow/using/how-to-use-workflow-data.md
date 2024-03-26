@@ -2,13 +2,13 @@
 product: campaign
 title: 워크플로우 데이터 사용 방법
 description: 워크플로우 데이터 사용 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Data Management
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 2%
+source-wordcount: '416'
+ht-degree: 1%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 2%
 
 * 다음 **[!UICONTROL List update]** 활동을 사용하면 작업 테이블을 데이터 목록에 저장할 수 있습니다.
 
-   기존 목록을 선택하거나 만들 수 있습니다. 이 경우 이름과 레코드 폴더가 계산됩니다.
+  기존 목록을 선택하거나 만들 수 있습니다. 이 경우 이름과 레코드 폴더가 계산됩니다.
 
-   ![](assets/s_user_create_list.png)
+  ![](assets/s_user_create_list.png)
 
-   을(를) 참조하십시오 [목록 업데이트](list-update.md).
+  을(를) 참조하십시오 [목록 업데이트](list-update.md).
 
 * 다음 **[!UICONTROL Update data]** 활동은 데이터베이스의 필드에 대한 대량 업데이트를 수행합니다.
 
-   자세한 내용은 다음을 참조하십시오. [데이터 업데이트](update-data.md).
+  자세한 내용은 다음을 참조하십시오. [데이터 업데이트](update-data.md).
 
 ### 구독/구독 취소 관리 {#subscription-unsubscription-management}
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 ![](assets/s_advuser_using_additional_data.png)
 
-워크플로우 테이블에 포함된 데이터는 항상 로 구성되어 있는 이름으로 식별됩니다. **targetData** 링크를 클릭합니다. 자세한 내용은 다음을 참조하십시오. [Target 데이터](data-life-cycle.md#target-data).
+워크플로우 테이블에 포함된 데이터는 항상 로 구성되어 있는 이름으로 식별됩니다. **targetData** 링크를 클릭합니다. 자세한 내용은 다음을 참조하십시오. [대상 데이터](data-life-cycle.md#target-data).
 
 이메일 게재 프레임워크 내에서 개인화 필드는 아래 예와 같이 타겟팅 워크플로우 단계에서 수행된 타겟 확장의 데이터를 사용할 수도 있습니다.
 

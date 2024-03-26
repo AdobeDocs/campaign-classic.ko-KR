@@ -2,13 +2,13 @@
 product: campaign
 title: 목록으로 보고서 보내기
 description: 워크플로우가 있는 목록으로 보고서를 보내는 방법을 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 1%
+source-wordcount: '639'
+ht-degree: 2%
 
 ---
 
@@ -52,25 +52,25 @@ ht-degree: 1%
 
    * 다음을 클릭합니다. **[!UICONTROL Attachments]** 링크 및 클릭 **[!UICONTROL Add]**&#x200B;을 선택한 다음 을 선택합니다. **[!UICONTROL Calculated attachment]**.
 
-      ![](assets/use_case_report_4.png)
+     ![](assets/use_case_report_4.png)
 
    * 로 이동 **[!UICONTROL Type]** 을(를) 필드에 추가하고 네 번째 옵션을 선택합니다. **[!UICONTROL File name is computed during delivery of each message (it may then depend on the recipient profile)]**.
 
-      ![](assets/use_case_report_5.png)
+     ![](assets/use_case_report_5.png)
 
-      에 입력한 값 **[!UICONTROL Label]** 최종 게재에는 필드가 표시되지 않습니다.
+     에 입력한 값 **[!UICONTROL Label]** 최종 게재에는 필드가 표시되지 않습니다.
 
    * 편집 영역으로 이동하여 파일의 액세스 경로와 이름을 입력합니다.
 
-      ![](assets/use_case_report_6.png)
+     ![](assets/use_case_report_6.png)
 
-      >[!CAUTION]
-      >
-      >파일이 서버에 있어야 합니다. 경로 및 이름은 다음에 입력한 것과 동일해야 합니다 **[!UICONTROL JavaScript code]** 워크플로우의 활동을 입력합니다(참조: [3단계: 워크플로우 만들기](#step-3--creating-the-workflow)).
+     >[!CAUTION]
+     >
+     >파일이 서버에 있어야 합니다. 경로 및 이름은 다음에 입력한 것과 동일해야 합니다 **[!UICONTROL JavaScript code]** 워크플로우의 활동을 입력합니다(참조: [3단계: 워크플로우 만들기](#step-3--creating-the-workflow)).
 
    * 다음 항목 선택 **[!UICONTROL Advanced]** tab 키 및 check **[!UICONTROL Script the name of the file name displayed in the mails sent]**. 편집 영역으로 이동하여 최종 게재에서 첨부를 부여할 이름을 입력합니다.
 
-      ![](assets/use_case_report_6bis.png)
+     ![](assets/use_case_report_6bis.png)
 
 ## 3단계: 워크플로우 만들기 {#step-3--creating-the-workflow}
 
@@ -114,9 +114,9 @@ ht-degree: 1%
    * **var reportName**: 보고서의 내부 이름을 큰따옴표로 입력하십시오. 이 경우 의 내부 이름 **추적 표시기** 보고서는 &quot;deliveryFeedback&quot;입니다.
    * **var 경로**: 파일의 저장 경로(&quot;tmp/files/&quot;), 파일에 지정할 이름(&quot;deliveryFeedback&quot;) 및 파일 확장명(&quot;.pdf&quot;)을 입력합니다. 이 경우 파일 이름으로 내부 이름을 사용했습니다. 값은 큰따옴표 사이여야 하며 &quot;+&quot; 문자로 구분해야 합니다.
 
-      >[!CAUTION]
-      >
-      >파일을 서버에 저장해야 합니다. 에 동일한 경로와 동일한 이름을 입력해야 합니다. **[!UICONTROL General]** 계산된 첨부 파일에 대한 편집 창의 탭( 참조: [2단계: 게재 템플릿 만들기](#step-2--creating-the-delivery-template)).
+     >[!CAUTION]
+     >
+     >파일을 서버에 저장해야 합니다. 에 동일한 경로와 동일한 이름을 입력해야 합니다. **[!UICONTROL General]** 계산된 첨부 파일에 대한 편집 창의 탭( 참조: [2단계: 게재 템플릿 만들기](#step-2--creating-the-delivery-template)).
 
    * **var exportFormat**: 파일의 내보내기 형식(&quot;PDF&quot;)을 입력합니다.
    * **var _ctx** (컨텍스트): 이 경우 **[!UICONTROL Tracking indicators]** 전역 컨텍스트에서 보고합니다.
@@ -127,4 +127,5 @@ ht-degree: 1%
    * 의 경우 **[!UICONTROL Recipients]** 및 **[!UICONTROL Content]** 필드, 선택 **[!UICONTROL Specified in the delivery]**.
    * **[!UICONTROL Action to execute]**: 선택 **[!UICONTROL Prepare and start]**.
    * 선택 취소 **[!UICONTROL Generate an outbound transition]** 및 **[!UICONTROL Process errors]**.
+
    ![](assets/use_case_report_11.png)

@@ -3,15 +3,15 @@ product: campaign
 title: 주요 개념
 description: Campaign Classic FAQ
 feature: Troubleshooting
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 97%
+source-wordcount: '835'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 Adobe Campaign으로 시작하는 주요 단계를 배웁니다.
 
-## Adobe Id로 Campaign Classic에 연결할 수 있습니까? {#can-i-connect-to-campaign-classic-with-an-adobe-id-}
+## Adobe ID으로 Campaign Classic에 연결할 수 있습니까? {#can-i-connect-to-campaign-classic-with-an-adobe-id-}
 
 IMS(Adobe Identity Management 시스템)와의 통합 덕분에 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결할 수 있습니다. 이 통합은 다음과 같은 이점을 제공합니다.
 
@@ -54,7 +54,7 @@ Campaign 관리자는 조직의 사용자에 대한 권한을 설정할 수 있�
 
 사용자 권한에 대한 [자세한 내용을 보려면 여기를 클릭하십시오](../../platform/using/access-management.md).
 
-## Campaign을 통한 개인 정보 보호 규정 준수 방법  {#how-to-be-gdpr-compliant-with-campaign-}
+## Campaign을 통한 개인 정보 보호 규정 준수 방법 {#how-to-be-gdpr-compliant-with-campaign-}
 
 Adobe Campaign은 GDPR 및 CCPA에 대한 개인 정보 보호 규정을 준수하는 데 도움이 되는 도구를 제공합니다.
 
@@ -82,41 +82,41 @@ Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체
 
 워크플로우에 대한 [자세한 내용을 살펴보려면 여기를 클릭하십시오](../../workflow/using/about-workflows.md). 또한 [워크플로우 모범 사례](../../workflow/using/building-a-workflow.md)를 참조할 수 있습니다.
 
-## 첫 번째 전자 메일을 만들고 보내는 방법  {#how-to-create-and-send-a-first-email-}
+## 첫 번째 이메일을 만들고 보내는 방법 {#how-to-create-and-send-a-first-email-}
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/about-email-channel.md).
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 방법 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
-## SMS 메시지를 보내는 방법  {#how-to-send-sms-messages-}
+## SMS 메시지를 보내는 방법 {#how-to-send-sms-messages-}
 
 [이 섹션](../../delivery/using/sms-channel.md)에서 플랫폼을 구성하고 SMS 메시지를 전송하는 방법을 살펴보십시오.
 
-## 푸시 알림을 전송하는 방법  {#how-to-send-push-notifications-}
+## 푸시 알림을 전송하는 방법 {#how-to-send-push-notifications-}
 
 Adobe Campaign을 사용하여 앱을 통해 iOS 및 Android 디바이스에 [개인화된 푸시 알림 보내기](../../delivery/using/create-notifications-ios.md) 방법을 살펴볼 수 있습니다.
 
-## 온라인 설문 조사를 디자인하고 공유하는 방법  {#how-to-design-and-share-an-online-survey-}
+## 온라인 설문 조사를 디자인하고 공유하는 방법 {#how-to-design-and-share-an-online-survey-}
 
 Campaign Classic을 사용하여 [온라인 설문 조사를 만들기](../../surveys/using/getting-started-with-surveys.md)위해 디자인하고 게재하는 주요 단계를 배웁니다.
 
-## 랜딩 페이지를 만드는 방법  {#how-to-create-landing-page-}
+## 랜딩 페이지를 만드는 방법 {#how-to-create-landing-page-}
 
 Adobe Campaign 디지털 콘텐츠 편집기를 사용하여 랜딩 페이지를 디자인하고 데이터베이스 필드가 있는 매핑을 정의할 수 있습니다.
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../web/using/creating-a-landing-page.md).
 
-## 게재를 추적하려면 어떻게 해야 합니까? {#how-can-i-track-deliveries-}
+## 게재를 추적하려면 어떻게 합니까? {#how-can-i-track-deliveries-}
 
 전용 [게재 보고서](../../reporting/using/delivery-reports.md)를 통해 Campaign Classic으로 전송된 게재를 추적한 다음 게재를 모니터링할 수 있습니다.
 
 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/acc-tracking.html)에서 Campaign의 추적 관리에 대해 자세히 알아보십시오.
 
-## 보안 모범 사례 (온-프레미스)란 무엇입니까?  {#what-are-security-best-practices--on-premise--}
+## 보안 모범 사례 (온-프레미스)란 무엇입니까? {#what-are-security-best-practices--on-premise--}
 
 [보안 구성 체크리스트를](https://helpx.adobe.com/kr/campaign/kb/acc-security.html) 참조하여 보안 구성 및 온-프레미스 배포에 대한 보안 구성 및 강화 위한 주요 요소를 탐색합니다.
 
-## 오류 메시지를 번역하는 방법  {#how-to-translate-an-error-message-}
+## 오류 메시지를 번역하는 방법 {#how-to-translate-an-error-message-}
 
 외국어로 오류 메시지가 표시됩니까? 모든 오류 메시지와 해당 번역이 [이 페이지](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)에 나열됩니다.
 

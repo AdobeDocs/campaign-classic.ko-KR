@@ -2,13 +2,13 @@
 product: campaign
 title: 데이터 수명 주기
 description: 워크플로우의 데이터 수명 주기에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Data Management
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 5%
+source-wordcount: '517'
+ht-degree: 6%
 
 ---
 
@@ -28,17 +28,17 @@ ht-degree: 5%
 
 * 대상 표시
 
-   이 메뉴에는 대상 모집단에서 사용 가능한 데이터와 작업 테이블(**[!UICONTROL Schema]** 탭).
+  이 메뉴에는 대상 모집단에서 사용 가능한 데이터와 작업 테이블(**[!UICONTROL Schema]** 탭).
 
-   ![](assets/wf-right-click-display.png)
+  ![](assets/wf-right-click-display.png)
 
-   자세한 내용은 다음을 참조하십시오. [작업 테이블 및 워크플로 스키마](monitoring-workflow-execution.md#worktables-and-workflow-schema).
+  자세한 내용은 다음을 참조하십시오. [작업 테이블 및 워크플로 스키마](monitoring-workflow-execution.md#worktables-and-workflow-schema).
 
 * 대상 분석
 
-   이 메뉴를 사용하여 전환 데이터에 대한 통계 및 보고서를 작성할 수 있는 설명 분석 마법사에 액세스할 수 있습니다.
+  이 메뉴를 사용하여 전환 데이터에 대한 통계 및 보고서를 작성할 수 있는 설명 분석 마법사에 액세스할 수 있습니다.
 
-   자세한 정보는 이 [섹션](../../reporting/using/using-the-descriptive-analysis-wizard.md)을 참조하십시오.
+  자세한 정보는 이 [섹션](../../reporting/using/using-the-descriptive-analysis-wizard.md)을 참조하십시오.
 
 워크플로우가 실행되면 대상 데이터가 제거됩니다. 마지막 작업 테이블만 액세스할 수 있습니다. 모든 작업 테이블에 액세스할 수 있도록 워크플로를 구성할 수 있습니다. 다음을 확인하십시오. **[!UICONTROL Keep the result of interim populations between two executions]** 옵션을 선택합니다.
 

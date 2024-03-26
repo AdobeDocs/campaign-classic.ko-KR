@@ -3,7 +3,7 @@ product: campaign
 title: 워크플로우 FAQ
 description: Campaign Classic FAQ
 feature: Troubleshooting, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -11,7 +11,7 @@ exl-id: 7d1bb3c6-d056-4212-9500-75459a0046fa
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 95%
+ht-degree: 79%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign 워크플로우를 통해 프로세스와 작업을 오케스트�
 
 [이 페이지](../../workflow/using/starting-a-workflow.md)에서 캠페인 워크플로우 실행을 모니터링하는 방법을 이해합니다.
 
-## 워크플로우로 Campaign 데이터를 어떻게 업데이트할 수 있습니까? {#how-can-i-update-campaign-data-with-a-workflow-}
+## 워크플로우로 Campaign 데이터를 업데이트하려면 어떻게 해야 합니까? {#how-can-i-update-campaign-data-with-a-workflow-}
 
 데이터베이스의 데이터에 대해 대규모 업데이트, 병합 및 삽입 작업을 수행할 수 있습니다.
 

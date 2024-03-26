@@ -3,7 +3,7 @@ product: campaign
 title: 독립형 배포
 description: 독립형 배포
 feature: Installation, Architecture, Deployment
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
@@ -11,7 +11,7 @@ exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 이러한 유형의 구성은 예를 들어 다음 소프트웨어 계층을 사용하여 100,000명 미만의 수신자 목록을 관리할 때 실행할 수 있습니다.
 
 * Linux,
-* Apache,
+* 아파치
 * PostgreSQL,
 * Qmail.
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 ## 설치 및 구성 단계 {#installation-and-configuration-steps}
 
-### 전제 조건 {#prerequisites}
+### 필수 구성 요소 {#prerequisites}
 
 * JDK,
 * 웹 서버(IIS, Apache),

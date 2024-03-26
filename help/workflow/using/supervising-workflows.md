@@ -2,13 +2,13 @@
 product: campaign
 title: 워크플로우 감독
 description: Campaign 워크플로우를 관리하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 0%
+source-wordcount: '657'
+ht-degree: 1%
 
 ---
 
@@ -137,17 +137,17 @@ vars.strWorkflowStop = strStop;
 * **감독자의 이메일 주소**.
 * **HTML 컨텐츠** 개인화된 텍스트를 삽입할 수 있습니다.
 
-   ![](assets/uc_monitoring_workflow_variables_diffusion.png)
+  ![](assets/uc_monitoring_workflow_variables_diffusion.png)
 
-   선언된 세 변수(WF_Stop, WF_Paused, WF_Error)는 세 워크플로우 이벤트 변수와 일치합니다.
+  선언된 세 변수(WF_Stop, WF_Paused, WF_Error)는 세 워크플로우 이벤트 변수와 일치합니다.
 
-   이러한 변수는 다음에서 선언해야 합니다 **변수** 게재 템플릿 속성 탭.
+  이러한 변수는 다음에서 선언해야 합니다 **변수** 게재 템플릿 속성 탭.
 
-   복구하려면 **워크플로우 이벤트 변수의 콘텐츠**, JavaScript 코드에서 반환하는 값으로 초기화되는 게재와 관련된 변수를 선언해야 합니다.
+  복구하려면 **워크플로우 이벤트 변수의 콘텐츠**, JavaScript 코드에서 반환하는 값으로 초기화되는 게재와 관련된 변수를 선언해야 합니다.
 
-   게재 템플릿에는 다음 콘텐츠가 있습니다.
+  게재 템플릿에는 다음 콘텐츠가 있습니다.
 
-   ![](assets/uc_monitoring_workflow_model_diffusion.png)
+  ![](assets/uc_monitoring_workflow_model_diffusion.png)
 
 템플릿을 만들고 승인했으면 다음을 구성해야 합니다 **게재** 활동 대상:
 
@@ -161,21 +161,21 @@ vars.strWorkflowStop = strStop;
 * 실행할 작업: 선택 **준비 및 시작**.
 * 선택 취소 **프로세스 오류** 옵션을 선택합니다.
 
-   ![](assets/uc_monitoring_workflow_optionmodel.png)
+  ![](assets/uc_monitoring_workflow_optionmodel.png)
 
 * 로 이동 **스크립트** 의 탭 **게재** 활동, 3개 추가 **문자열** 개인화 필드 메뉴를 통해 변수를 입력합니다.
 
-   ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
+  ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
 
-   ![](assets/uc_monitoring_workflow_linkvariables.png)
+  ![](assets/uc_monitoring_workflow_linkvariables.png)
 
-   선언된 세 가지 변수는 다음과 같습니다.
+  선언된 세 가지 변수는 다음과 같습니다.
 
-   ```
-   delivery.variables._var[0].stringValue = vars.strWorkflowError;
-   delivery.variables._var[1].stringValue = vars.strWorkflowPaused;
-   delivery.variables._var[2].stringValue = vars.strWorkflowStop; 
-   ```
+  ```
+  delivery.variables._var[0].stringValue = vars.strWorkflowError;
+  delivery.variables._var[1].stringValue = vars.strWorkflowPaused;
+  delivery.variables._var[2].stringValue = vars.strWorkflowStop; 
+  ```
 
 이 모니터링 워크플로우가 시작되면 수신자에게 다음 요약을 보냅니다.
 

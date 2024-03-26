@@ -2,13 +2,13 @@
 product: campaign
 title: 로컬 승인 활동 사용
 description: 로컬 승인 활동을 사용하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 2%
+source-wordcount: '1290'
+ht-degree: 3%
 
 ---
 
@@ -82,9 +82,9 @@ ht-degree: 2%
    * **[!UICONTROL Label]**: 승인 및 피드백 알림에 표시할 도메인의 레이블을 입력합니다.
    * **[!UICONTROL Group or operator]**: 도메인에 할당된 연산자 또는 연산자 그룹을 선택합니다.
 
-      >[!CAUTION]
-      >
-      >운영자에게 적절한 권한이 할당되었는지 확인합니다.
+     >[!CAUTION]
+     >
+     >운영자에게 적절한 권한이 할당되었는지 확인합니다.
 
 ## 2단계: 타겟팅 워크플로우 만들기 {#step-2--creating-the-targeting-workflow}
 

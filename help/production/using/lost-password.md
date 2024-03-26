@@ -3,7 +3,7 @@ product: campaign
 title: 암호 분실
 description: 암호 분실
 feature: Monitoring, Access Management
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
@@ -11,8 +11,8 @@ topic-tags: troubleshooting
 exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 12%
+source-wordcount: '188'
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 12%
 ## Campaign 운영자가 암호를 분실했습니다. {#password-lost-by-campaign-operator}
 
 Adobe Campaign 연산자가 암호를 분실하면 변경할 수 있습니다.
-이렇게 하려면 아래 단계를 수행합니다:
+이렇게 하려면 아래 단계를 수행합니다.
 
 1. 관리자 권한이 있는 연산자를 통해 연결합니다.
 1. 연산자를 마우스 오른쪽 버튼으로 클릭합니다.

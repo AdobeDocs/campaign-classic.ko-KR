@@ -3,11 +3,11 @@ product: campaign
 title: Campaign On-Premise, 하이브리드 및 호스팅 기능 매트릭스
 description: 호스팅 배포와 온-프레미스 배포 간의 주요 차이점 알아보기
 feature: Installation, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '294'
 ht-degree: 28%
 
 ---
@@ -26,7 +26,7 @@ Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니�
 
 | 기능 | 호스트됨 | 하이브리드 | 온프레미스 | 세부 정보 |
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 캠페인 서버 구성 | 온디맨드 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../installation/using/the-server-configuration-file.md) |
+| Campaign 서버 구성 | 온디맨드 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../installation/using/the-server-configuration-file.md) |
 | 이메일 BCC | 온디맨드 | 온디맨드 | 사용 가능 | [자세히 알아보기](../../installation/using/email-archiving.md) |
 | 메시지 센터 실행 인스턴스 관리 | 온디맨드 | 온디맨드 | 사용 가능 | [자세히 알아보기](../../message-center/using/about-transactional-messaging.md) |
 | 중간 소싱 플랫폼 관리 | 온디맨드 | 온디맨드 | 사용 가능 | [자세히 알아보기](../../installation/using/mid-sourcing-server.md) |

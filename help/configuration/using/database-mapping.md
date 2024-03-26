@@ -9,7 +9,7 @@ exl-id: 728b509f-2755-48df-8b12-449b7044e317
 source-git-commit: 4a29c189e1e438bbb90067ece63ced0196c618ec
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -172,7 +172,7 @@ XML에서 필드를 채우려면 다음을 추가해야 합니다. **xml** 관�
 
 자세한 내용은 다음 링크를 참조하십시오.
 
-* [스키마 시작](about-schema-reference.md)
+* [스키마 시작하기](about-schema-reference.md)
 * [스키마 구조](schema-structure.md)
 * [키 관리](database-keys.md)
 * [링크 관리](database-links.md)

@@ -2,13 +2,13 @@
 product: campaign
 title: 웹 다운로드
 description: 웹 다운로드 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '415'
+ht-degree: 3%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 1%
 
    * 다운로드할 파일의 URL을 직접 입력하려면 **[!UICONTROL Explicit URL]** 옵션을 선택하고 적절한 필드에 URL을 지정합니다. 이 URL은 변수 데이터로 구성할 수 있습니다.
 
-      ![](assets/download_web_edit.png)
+     ![](assets/download_web_edit.png)
 
    * 을(를) 사용하려면 **[!UICONTROL External account]**&#x200B;을 클릭하고 드롭다운 목록에서 계정을 선택한 다음 다운로드할 파일을 지정합니다.
 
-      외부 계정은 **[!UICONTROL Administration > Platform > External accounts]** Adobe Campaign 트리의 노드입니다. 계정 매개 변수는 **[!UICONTROL Edit link]** 아이콘.
+     외부 계정은 **[!UICONTROL Administration > Platform > External accounts]** Adobe Campaign 트리의 노드입니다. 계정 매개 변수는 **[!UICONTROL Edit link]** 아이콘.
 
-      ![](assets/download_web_edit_external.png)
+     ![](assets/download_web_edit_external.png)
 
    * Adobe Campaign 인스턴스에서 파일을 다운로드하려면 **[!UICONTROL Adobe Campaign Instance]** 옵션을 선택합니다.
 
-      ![](assets/download_web_edit_instance.png)
+     ![](assets/download_web_edit_instance.png)
 
 1. **파일 기록**
 

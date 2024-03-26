@@ -3,26 +3,26 @@ product: campaign
 title: Linux에서 캠페인 설치 사전 요구 사항
 description: Linux에서 캠페인 설치 사전 요구 사항
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
-badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
+badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용됩니다"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 2%
+source-wordcount: '923'
+ht-degree: 1%
 
 ---
 
-# Linux에 Campaign을 설치하기 위한 사전 요구 사항{#prerequisites-of-campaign-installation-in-linux}
+# Linux에 Campaign을 설치하기 위한 전제 조건{#prerequisites-of-campaign-installation-in-linux}
 
 
 
-## 소프트웨어 사전 요구 사항 {#software-prerequisites}
+## 소프트웨어 필수 구성 요소 {#software-prerequisites}
 
-이 섹션에서는 Adobe Campaign을 설치하기 전에 필요한 사전 구성 단계에 대해 자세히 설명합니다.
+이 섹션에서는 Adobe Campaign을 설치하기 전에 필요한 예비 구성 단계에 대해 자세히 설명합니다.
 
 Adobe Campaign 설치에 필요한 기술 및 소프트웨어 구성은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md).
 
@@ -43,9 +43,9 @@ Adobe Campaign 설치에 필요한 기술 및 소프트웨어 구성은 [호환�
 
 Linux에 Adobe Campaign을 설치하려면 필요한 라이브러리가 있는지 확인하십시오.
 
-* 라이브러리 C는 TLS(Thread Local Storage) 모드를 지원할 수 있어야 합니다. 이 모드는 Xen 지원이 비활성화된 일부 커널을 제외한 대부분의 경우 활성화됩니다.
+* 라이브러리 C는 TLS(스레드 로컬 저장소) 모드를 지원할 수 있어야 합니다. 이 모드는 Xen 지원이 비활성화된 일부 커널을 제외하고는 대부분의 경우에 활성화됩니다.
 
-  이를 확인하려면 다음을 사용할 수 있습니다. **uname -a | grep xen** 예를 들면 다음과 같습니다.
+  이를 확인하려면 예를 들어 uname -a | grep xen **명령을 사용할**&#x200B;수 있습니다.
 
   명령이 아무 것도 반환하지 않으면(빈 줄) 구성이 올바르다는 의미입니다.
 
@@ -53,15 +53,15 @@ Linux에 Adobe Campaign을 설치하려면 필요한 라이브러리가 있는�
 
   RHEL 7/8 배포의 경우 OpenSSL 버전 1.0이 필요합니다.
 
-* Adobe Campaign을 사용하려면 다음을 수행해야 합니다. **리비쿠** 라이브러리가 설치되었습니다.
+* Adobe Campaign을 사용하려면 libicu **라이브러리가**&#x200B;설치되어 있어야 합니다.
 
-  다음 버전 **리비쿠** 지원(32비트 또는 64비트):
+  다음 버전의 **libicu** 가 지원됩니다(32비트 또는 64비트).
 
    * RHEL 7/8, CentOS 7: libicu50
-   * Debian 8: libicu52
-   * Debian 9: libicu57
+   * 데비안 8: libicu52
+   * 데비안 9: libicu57
 
-  Adobe Campaign을 사용하려면 libc-ares 라이브러리를 설치해야 합니다. RHEL/CentOS에서 다음 명령을 실행합니다.
+  Adobe Campaign을 사용하려면 libc-ares 라이브러리가 설치되어 있어야 합니다. RHEL/CentOS에서 다음 명령을 실행합니다.
 
   ```
   yum install c-ares
@@ -103,7 +103,7 @@ SELINUX=disabled
 
 ### MTA 통계용 글꼴 {#fonts-for-mta-statistics}
 
-MTA 통계(nms/fra/jsp/stat.jsp)에 대한 보고서가 올바르게 표시되도록 하려면 글꼴을 추가합니다.
+MTA 통계(nms/fra/jsp/stat.jsp)에 대한 보고서를 올바르게 표시하려면 글꼴을 추가합니다.
 
 Debian에서 다음 명령을 추가합니다.
 
@@ -125,7 +125,7 @@ Redhat에서 다음 명령을 사용합니다.
   dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
   ```
 
-### 일본어 인스턴스용 글꼴 {#fonts-for-japanese-instances}
+### 일본어 인스턴스의 글꼴 {#fonts-for-japanese-instances}
 
 보고서를 PDF 형식으로 내보내려면 일본어 인스턴스에 특정 문자의 글꼴이 필요합니다.
 
@@ -183,15 +183,15 @@ yum install libreoffice-headless libreoffice-writer libreoffice-calc
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaign은 버전 7.2의 모든 PostgreSQL 클라이언트 라이브러리 버전을 지원합니다. (**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** 및 **libpq.so.3.1**).
+Adobe Campaign은 버전 7.2부터 PostgreSQL 클라이언트 라이브러리의 모든 버전(**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** 및 **libpq.so.3.1**)을 지원합니다.
 
-Adobe Campaign과 함께 PostgreSQL을 사용하려면 해당 을 설치해야 합니다 **흑단 암호** 라이브러리.
+PostgreSQL을 Adobe Campaign 과 함께 사용하려면 해당 **pgcrypto** 라이브러리도 설치해야 합니다.
 
 ### Oracle {#oracle}
 
-64비트 Debian용 라이브러리 버전을 검색합니다. 즉, 다음과 같습니다. **libclntsh.so**, **libclntsh.so.11.1** 및 **libclntsh.so.10.1**.
+64비트 Debian의 라이브러리 버전(예 **: libclntsh.so**, **libclntsh.so.11.1** 및 **libclntsh.so.10.1**)을 검색합니다.
 
-oracle 기술 네트워크에서 Linux RPM 패키지를 가져올 수 있습니다.
+Oracle Technology Network에서 Linux RPM 패키지를 얻을 수 있습니다.
 
 >[!NOTE]
 >
@@ -215,7 +215,7 @@ oracle 클라이언트 또는 서버 업데이트, 버전 변경 또는 인스�
 
 1. 클라이언트와 서버가 동일한 것을 사용하도록 하십시오. **시간대 파일**.
 
-### DB2 {#db2}
+### DB2 (영문) {#db2}
 
 지원되는 라이브러리 버전은 입니다 **libdb2.so**.
 
@@ -225,7 +225,7 @@ Linux용 Adobe Campaign 설치는 서버 설치 후 인스턴스 구성의 순�
 
 설치 프로세스는 이 장에 설명되어 있습니다. 설치 단계는 다음과 같습니다.
 
-* 1단계: 응용 프로그램 서버 설치 [Linux를 사용하여 패키지 설치](../../installation/using/installing-packages-with-linux.md).
+* 1단계: 애플리케이션 서버 설치는 Linux](../../installation/using/installing-packages-with-linux.md)를 사용하여 패키지 설치를 참조하십시오[.
 * 2단계: 웹 서버와 통합(배포된 구성 요소에 따라 선택 사항)
 
-설치 단계가 완료되면 인스턴스, 데이터베이스 및 서버를 구성해야 합니다. 자세한 내용은 다음을 참조하십시오. [초기 구성 정보](../../installation/using/about-initial-configuration.md).
+설치 단계가 완료되면 인스턴스, 데이터베이스 및 서버를 구성해야 합니다. 자세한 내용은 초기 구성](../../installation/using/about-initial-configuration.md) 정보를 참조하십시오[.

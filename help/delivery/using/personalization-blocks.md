@@ -9,8 +9,8 @@ role: User
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 3%
+source-wordcount: '873'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 개인화 블록은 동적이고 개인화된 블록이며 게재에 삽입할 수 있는 특정 렌더링을 포함합니다. 예를 들어 미러 페이지에 로고, 인사말 메시지 또는 링크를 추가할 수 있습니다. 다음을 참조하십시오 [개인화 블록 삽입](#inserting-personalization-blocks).
 
-![](assets/do-not-localize/how-to-video.png)[ 비디오에서 이 기능 살펴보기](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png) 이 기능 살펴보기 [비디오에서](#personalization-blocks-video)
 
 개인화 블록은 **[!UICONTROL Resources > Campaign Management > Personalization blocks]** Adobe Campaign 탐색기의 노드입니다. 기본적으로 여러 블록을 사용할 수 있습니다( 참조) [기본 개인화 블록](#out-of-the-box-personalization-blocks)).
 

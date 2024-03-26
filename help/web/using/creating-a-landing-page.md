@@ -2,14 +2,14 @@
 product: campaign
 title: 랜딩 페이지 만들기
 description: 랜딩 페이지 만들기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 3%
+source-wordcount: '739'
+ht-degree: 2%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 다음을 �
 
    ![](assets/dce_uc1_transition.png)
 
-1. 변경 내용 저장.
+1. 변경 사항을 저장합니다.
 
 그런 다음 다음 다음 순서를 가져옵니다.
 

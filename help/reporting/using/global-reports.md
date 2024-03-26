@@ -7,8 +7,8 @@ feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '2308'
-ht-degree: 8%
+source-wordcount: '2292'
+ht-degree: 6%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 8%
 
 ![](assets/s_ncs_user_report_toolbar.png)
 
-시간 표시 막대를 변경하여 표시되는 값을 구성할 수 있습니다(1시간 보기, 3시간 보기, 24시간 보기 등). **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 선택 항목을 확인합니다.
+시간 표시 막대를 변경하여 표시되는 값을 구성할 수 있습니다(1시간 보기, 3시간 보기, 24시간 보기 등). 클릭 **[!UICONTROL Refresh]** 을 클릭하여 선택 항목을 확인합니다.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ ht-degree: 8%
 >
 >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
->인스턴스를 최신 버전으로 업그레이드해야 합니다. [Gold 표준](../../rn/using/gold-standard.md) 또는 [최신 GA 빌드(21.1.3)](../../rn/using/latest-release.md). [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다.
+>인스턴스를 최신 버전으로 업그레이드해야 합니다. [Gold 표준](../../rn/using/gold-standard.md) 또는 [최신 GA 빌드(21.1.3)](../../rn/using/latest-release.md). 에서 버전을 확인하는 방법을 알아봅니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 ## 사용자 활동 {#user-activities}
 
@@ -126,7 +126,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이러한 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브. 이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/ac-cubes.md)을 참조하십시오. 다음 **[!UICONTROL Others]** 카테고리에는 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
+>이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이러한 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브. 자세한 내용은 다음을 참조하십시오. [이 섹션](../../reporting/using/ac-cubes.md). 다음 **[!UICONTROL Others]** 카테고리에는 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
 
 ## 브라우저 {#browsers}
 

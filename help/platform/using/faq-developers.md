@@ -3,15 +3,15 @@ product: campaign
 title: 개발자 FAQ
 description: 개발자 FAQ
 feature: Troubleshooting, Configuration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 95%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign 데이터베이스의 개념적 데이터 모델은 내장된 테
 
 모범 사례는 [이 문서](../../configuration/using/data-model-best-practices.md)에 나열되어 있습니다.
 
-## Campaign 스키마로 작업하는 방법  {#how-to-work-with-campaign-schemas-}
+## Campaign 스키마로 작업하는 방법 {#how-to-work-with-campaign-schemas-}
 
 Adobe Campaign에서 데이터 스키마는 다음 용도로 사용됩니다.
 
@@ -39,11 +39,11 @@ Adobe Campaign에서 데이터 스키마는 다음 용도로 사용됩니다.
 
 데이터 스키마로 작업하고, Campaign을 확장 및 사용자 지정하여 필요에 맞게 조정하는 방법을 이해하려면 [테이블 및 스키마 시작하기](../../configuration/using/about-schema-edition.md)를 참조하십시오.
 
-## 사용자 지정 수신자 테이블을 사용하는 방법  {#how-to-use-a-custom-recipient-table-}
+## 사용자 지정 수신자 테이블을 사용하는 방법 {#how-to-use-a-custom-recipient-table-}
 
 Campaign에서 기본 제공 수신자 테이블을 만들고 구현하여 메시지를 보낼 수 있습니다.
 
-[여기를 클릭하여 자세한 내용을 확인하세요](../../configuration/using/about-custom-recipient-table.md)
+[자세한 내용을 보려면 여기를 클릭하십시오.](../../configuration/using/about-custom-recipient-table.md)
 
 ## Campaign에서 쿼리를 정의하는 모범 사례는 무엇입니까? {#what-are-the-best-practices-to-define-queries-in-campaign-}
 

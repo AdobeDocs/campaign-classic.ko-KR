@@ -8,7 +8,7 @@ role: Data Engineer, Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1871'
 ht-degree: 1%
 
 ---
@@ -579,7 +579,7 @@ Write 메서드는에 나와 있습니다. [쓰기/쓰기 컬렉션(xtk:session)
 
 ### 링크의 예 {#example-on-links}
 
-#### 예제 1 {#example-1}
+#### 예 1 {#example-1}
 
 내부 이름(@name)을 기반으로 폴더를 수신자와 연결합니다.
 

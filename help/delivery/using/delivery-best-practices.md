@@ -9,8 +9,8 @@ role: User
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 26%
+source-wordcount: '111'
+ht-degree: 7%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 26%
     </a>
     <div>
       <a href="define-the-right-audience.md">
-    <strong>적합한 대상자 정의</strong>
+    <strong>적합한 대상 정의</strong>
     </a>
     </div>
     <p>
@@ -104,7 +104,7 @@ ht-degree: 26%
 </tr>
 </table>
 
-참조 항목:
+다음도 참조하십시오.
 
 * [게재 기능 시작](about-deliverability.md)
 

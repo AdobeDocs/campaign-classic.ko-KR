@@ -3,7 +3,7 @@ product: campaign
 title: 워크플로우를 통해 오퍼 통합
 description: 워크플로우를 통해 오퍼 통합
 feature: Interaction, Offers, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
@@ -11,7 +11,7 @@ exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1050'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 3%
 쿼리를 구성한 후( [워크플로우 안내서](../../workflow/using/query.md)):
 
 1. 데이터 보강 활동을 추가하고 엽니다.
-1. **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;를 선택합니다.
+1. 다음에서 **[!UICONTROL Enrichment]** 탭, 선택 **[!UICONTROL Add data]**.
 1. 선택 **[!UICONTROL An offer proposition]** 추가할 데이터 형식에서 을 참조하십시오.
 
    ![](assets/int_enrichment_offer2.png)

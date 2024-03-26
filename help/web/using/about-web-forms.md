@@ -2,14 +2,14 @@
 product: campaign
 title: 웹 양식 시작
 description: Campaign에서 웹 양식 시작
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Landing Pages, Web Forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 5%
+source-wordcount: '510'
+ht-degree: 2%
 
 ---
 
@@ -55,15 +55,15 @@ Adobe Campaign은 웹 양식을 정의하고 게시하기 위한 그래픽 모�
 
 * 먼저 필수 페이지 및 컨트롤(입력 필드, 드롭다운 목록, HTML 컨텐츠 등)을 만듭니다.
 
-   이 단계는 아래에 자세히 설명되어 있습니다.
+  이 단계는 아래에 자세히 설명되어 있습니다.
 
 * 페이지 시퀀싱 및 표시 조건을 정의합니다.
 
-   이 단계는에 자세히 설명되어 있습니다. [웹 양식 페이지 순서 정의](defining-web-forms-page-sequencing.md).
+  이 단계는에 자세히 설명되어 있습니다. [웹 양식 페이지 순서 정의](defining-web-forms-page-sequencing.md).
 
 * 필요한 경우 콘텐츠를 번역합니다.
 
-   이 단계는에 자세히 설명되어 있습니다. [웹 양식 번역](translating-a-web-form.md).
+  이 단계는에 자세히 설명되어 있습니다. [웹 양식 번역](translating-a-web-form.md).
 
 ## 웹 양식 디자인 기본 정보 {#about-web-forms-designing}
 
@@ -81,7 +81,6 @@ Adobe Campaign은 웹 양식을 정의하고 게시하기 위한 그래픽 모�
 >* 페이지를 디자인하는 동안 **[!UICONTROL Preview]** 탭. 변경 사항을 보려면 먼저 양식을 저장하십시오. 모든 오류는 **[!UICONTROL Log]** 탭.
 >* 페이지 표시와 정보 저장이 적절한 순서로 이루어지도록 하려면 웹 양식에서 디버그 모드를 활성화합니다. 이렇게 하려면 **[!UICONTROL Preview]** 하위 탭 및 확인 **[!UICONTROL Enable debug mode]** 상자: 수집된 모든 정보와 가능한 실행 오류가 각 페이지 하단에 표시됩니다.
 >
-
 
 ### 도구 모음에서 아이콘 사용 {#using-the-icons-in-the-toolbar}
 

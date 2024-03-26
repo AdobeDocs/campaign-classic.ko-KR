@@ -9,7 +9,7 @@ exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '1492'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 ## 그룹에 보내기
 
-모집단을 목록으로 가져온 다음 게재에서 이 목록을 타겟팅할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
+모집단을 목록으로 가져온 다음 게재에서 이 목록을 타겟팅할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 관련 게재를 편집하고 **[!UICONTROL To]** 대상 모집단을 변경하는 링크입니다.
 

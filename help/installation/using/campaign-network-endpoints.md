@@ -3,12 +3,12 @@ product: campaign
 title: Campaign 네트워크 엔드포인트
 description: Campaign 네트워크 엔드포인트
 feature: Installation, Application Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 027ed2b6-365f-434f-9a18-2140512168e9
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 21%
+ht-degree: 32%
 
 ---
 

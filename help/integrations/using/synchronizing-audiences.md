@@ -3,13 +3,13 @@ product: campaign
 title: 대상자 동기화
 description: 대상자를 ACS 커넥터와 동기화하는 방법 알아보기
 feature: ACS Connector
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 hide: true
 hidefromtoc: true
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1117'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Microsoft Dynamics와 같은 커넥터를 통해 들어오는 데이터 또는 �
 >
 >필요한 모든 데이터가 이미 복제된 경우 Adobe Campaign Standard에서 합계 및 컬렉션을 사용하여 데이터를 보강할 수도 있습니다.
 
-## 전제 조건 {#prerequisites}
+## 필수 구성 요소 {#prerequisites}
 
 이를 위해서는 다음이 필요합니다.
 

@@ -3,7 +3,7 @@ product: campaign
 title: 유지 관리할 테이블
 description: 유지 관리할 테이블
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
@@ -11,8 +11,8 @@ topic-tags: database-maintenance
 exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 3%
+source-wordcount: '1146'
+ht-degree: 1%
 
 ---
 
@@ -47,25 +47,25 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> NmsDeliveryPart<br /> </td> 
-   <td> 미디엄<br /> </td> 
+   <td> Medium<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
    <td> 게재를 준비하는 동안 레코드가 삽입되는 작업 테이블입니다. 그런 다음 게재 중에 업데이트되고, 게재가 완료되면 최종적으로 삭제됩니다.<br /> 이 표는 평균 크기가 상당히 제한되어 있음에도 불구하고 빠르게 조각화되는 경향이 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsMirrorPageInfo<br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 삭제<br /> </td> 
    <td> 이 표에는 개인화된 미러 페이지를 생성하는 데 필요한 정보가 포함되어 있습니다. 여기에는 메모(CLOB) 필드가 포함되어 있으며, 따라서 매우 큰 경향이 있습니다. 볼륨은 보관된 미러 페이지 기록에 정비례합니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> NmsDeliveryStat<br /> </td> 
-   <td> 미디엄<br /> </td> 
+   <td> Medium<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
    <td> 이 표에는 게재 프로세스에 대한 통계가 포함되어 있습니다. 그 기록은 정기적으로 갱신된다. <br /> </td> 
   </tr> 
   <tr> 
    <td> Nms 주소<br /> </td> 
-   <td> 미디엄<br /> </td> 
+   <td> Medium<br /> </td> 
    <td> 업데이트, 삽입<br /> </td> 
    <td> 이 표에는 이메일 주소에 대한 정보가 포함되어 있습니다. 격리 프로세스의 일부로 자주 업데이트됩니다(첫 번째 게재 오류 시 레코드가 만들어지고, 게재가 성공하면 카운터가 변경되어 삭제됨). <br /> </td> 
   </tr> 
@@ -101,7 +101,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> NmsTrackingLog<br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 삭제<br /> </td> 
    <td> 추적 로그는 기록이 삭제되더라도 업데이트되지 않을 때 삽입 및 삭제됩니다. <br /> </td> 
   </tr> 
@@ -113,61 +113,61 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> NmsEmailErrorStat<br /> </td> 
-   <td> 미디엄<br /> </td> 
+   <td> Medium<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
    <td> 이 표에는 도메인별로 정렬된 SMTP 오류에 대한 합계가 포함되어 있습니다. 처음에는 오래된 정리 작업이 되면 해당 작업에 의해 집계되는 자세한 정보가 포함됩니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> NmsBroadLogMid(중간 소싱 인스턴스)<br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
    <td> 5.10(또는 이상) 인스턴스가 중간 소싱 인스턴스로 사용되는 경우에만 해당합니다. 데이터베이스에서 가장 큰 테이블 중 하나입니다. 보낸 메시지당 하나의 레코드가 있으며 이러한 레코드는 삽입되고 업데이트되어 게재 상태를 추적하며 기록이 삭제될 때 삭제됩니다. 중간 소싱을 사용할 때 권장 사항은 내역을 제한하는 것입니다(일반적으로 2개월 미만). 따라서 이 테이블은 크기 측면에서 합리적으로 유지되지만(6,000만 행에 대해 300개 미만, 데이터+색인), 간혹 다시 빌드하는 것이 매우 중요합니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> NmsBroadLogRcp(NmsRecipient 테이블이 사용되는 경우) <br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
    <td> 이것은 시스템에서 가장 큰 테이블입니다. 보낸 메시지당 하나의 레코드가 있으며 이러한 레코드는 삽입되고 업데이트되어 게재 상태를 추적하며 기록이 삭제될 때 삭제됩니다. 5.10 버전에서는 SMTP 메시지 텍스트가 5.10 버전의 NmsBroadLogMsg 테이블에서 인수분해되므로 이 테이블은 4.05(NmsBroadLog)의 해당 테이블보다 작습니다. 그러나 이 표를 정기적으로(2주마다 시작하여) 다시 색인화하고, 때때로(한 달에 한 번 또는 성능에 영향을 미칠 때) 완전히 다시 빌드하는 것이 중요합니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> YyyBroadLogXxx (외부 수신자 테이블이 사용되는 경우)<br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
    <td> NmsBroadLogRcp와 동일하지만 외부 수신자 테이블이 있습니다. 게재 매핑의 값으로 Yyy와 Xxx를 조정하십시오. <br /> </td> 
   </tr> 
   <tr> 
    <td> NmsTrackingLogRcp(NmsRecipient 테이블을 사용하는 경우) <br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 삭제<br /> </td> 
    <td> 추적 로그는 기록이 삭제되더라도 업데이트되지 않을 때 삽입 및 삭제됩니다. 볼륨은 데이터 보존 기간에 따라 다릅니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> YyyTrackingLogXxx (외부 수신자 테이블이 사용되는 경우)<br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 삭제<br /> </td> 
    <td> NmsTrackingLogRcp와 동일하지만 외부 수신자 테이블이 있습니다. 게재 매핑에 사용된 값으로 Yyy 및 Xxx를 조정하십시오. <br /> </td> 
   </tr> 
   <tr> 
    <td> NmsBroadLogRtEvent(메시지 센터 실행 인스턴스)<br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
    <td> 다른 Broadlog 테이블과 비슷하지만 NmsRecipient 대신 NmsRtEvent가 사용됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsTrackingLogRtEvent( 메시지 센터 실행 인스턴스)<br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 삭제<br /> </td> 
    <td> 다른 trackingLog 테이블과 비슷하지만 NmsRecipient 대신 NmsRtEvent 테이블이 사용됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsRtEvent(메시지 센터 실행 인스턴스)<br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
    <td> 메시지 센터 이벤트 큐가 포함된 테이블. 이러한 이벤트가 처리되면 메시지 센터에서 해당 이벤트의 상태를 업데이트합니다. 삭제 작업은 삭제 중에 수행됩니다. 이 테이블의 인덱스를 정기적으로 다시 만들고 다시 빌드하는 것이 좋습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsEventHisto(메시지 센터 제어 인스턴스)<br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
    <td> NmsRtEvent와 유사합니다. 이 테이블은 모든 실행 인스턴스의 모든 이벤트를 보관합니다. 실시간 프로세스가 없으며 보고서에서만 사용됩니다.<br /> </td> 
   </tr> 
@@ -179,19 +179,19 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> NmsAppSubscriptionRcp<br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 업데이트<br /> </td> 
    <td> 알림을 전송하는 데 사용되는 모바일 장치(주소)의 식별자를 포함하는 테이블(수신자 테이블과 유사).<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsBroadLogAppSubRcp<br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
    <td> 다른 Broadlog 테이블과 비슷하지만 NmsRecipient 대신 NmsappSubscriptionRcp가 사용됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsTrackingLogAppSubRcp<br /> </td> 
-   <td> 대형<br /> </td> 
+   <td> 크게<br /> </td> 
    <td> 삽입, 삭제<br /> </td> 
    <td> 다른 trackingLog 테이블과 유사하지만 NmsRecipient 대신 NmsappSubscriptionRcp 테이블이 사용됩니다.<br /> </td> 
   </tr> 

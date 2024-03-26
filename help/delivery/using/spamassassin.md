@@ -9,8 +9,8 @@ role: User
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 7%
+source-wordcount: '266'
+ht-degree: 5%
 
 ---
 
@@ -38,7 +38,7 @@ SpamAssassin은 다음을 포함한 다양한 스팸 감지 기술을 활용합�
 
 게재 만들기 및 디자인에 대한 자세한 내용은 [이 섹션](about-email-channel.md).
 
-1. **[!UICONTROL Preview]** 탭으로 이동합니다. 
+1. 로 이동 **[!UICONTROL Preview]** 탭.
 1. 게재를 미리 볼 수신자를 선택하십시오.
 
    ![](assets/s_tn_del_preview_spamassassin_recipient.png)

@@ -8,8 +8,8 @@ role: Data Engineer, Developer
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 5%
+source-wordcount: '649'
+ht-degree: 4%
 
 ---
 
@@ -26,11 +26,11 @@ Adobe Campaign API는 애플리케이션 내의 JavaScript와 애플리케이션
 >하루에 인증된 엔진 호출 수는 라이선스 계약에 따라 다릅니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-classic---product-description.html)를 참조하십시오.\
 >전체 설명을 포함한 모든 API 목록은 다음에서 사용할 수 있습니다. [이 전용 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html.
 
-## 전제 조건 {#prerequisites}
+## 필수 구성 요소 {#prerequisites}
 
 Adobe Campaign API를 사용하기 전에 다음 항목에 익숙해야 합니다.
 
-* Javascript
+* JavaScript
 * 프로토콜
 * Adobe Campaign 데이터 모델
 

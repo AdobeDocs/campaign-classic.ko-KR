@@ -2,13 +2,13 @@
 product: campaign
 title: 유효성 검사
 description: 유효성 검사
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Direct Mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '253'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,6 @@ DM 게재의 출력 파일은 게재 분석 중에 생성됩니다. 파일의 �
 * **[!UICONTROL Messages are considered sent after validation]** (기본 모드): 이 기능 모드에서 모든 브로드로그는 운영자가 전송을 확인하고(상태가 &#39;게재 보류 중&#39;에서 &#39;전송됨&#39;)게재가 자동으로 다음으로 설정되면 업데이트됩니다. **[!UICONTROL Finished]**.
 * **[!UICONTROL A file of results determines the messages that are sent and those that have failed]** : 이 모드에서는 서비스 공급자가 보낸 외부 파일을 통해 broadlogs를 업데이트할 수 있습니다. 이 경우 브로드로그 상태를 업데이트하려면 이 정보를 처리하는 워크플로우를 사용해야 합니다.
 
-   >[!NOTE]
-   >
-   >이 경우 게재 상태도 (으)로 변경되어야 합니다. **[!UICONTROL Finished]** 브로드로그가 업데이트되는 즉시 사용자가 설정합니다.
+  >[!NOTE]
+  >
+  >이 경우 게재 상태도 (으)로 변경되어야 합니다. **[!UICONTROL Finished]** 브로드로그가 업데이트되는 즉시 사용자가 설정합니다.

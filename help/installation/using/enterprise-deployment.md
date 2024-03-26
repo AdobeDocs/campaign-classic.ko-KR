@@ -3,14 +3,14 @@ product: campaign
 title: 엔터프라이즈 배포
 description: 엔터프라이즈 배포
 feature: Installation, Architecture, Deployment
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1225'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 ## 설치 및 구성 단계 {#installation-and-configuration-steps}
 
-### 전제 조건 {#prerequisites}
+### 필수 구성 요소 {#prerequisites}
 
 * 두 애플리케이션 서버의 JDK,
 * 양쪽 프론트엔드의 웹 서버(IIS, Apache)

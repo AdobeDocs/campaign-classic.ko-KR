@@ -2,13 +2,13 @@
 product: campaign
 title: 웹 양식 속성 정의
 description: 웹 양식 속성 정의
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1223'
 ht-degree: 1%
 
 ---
@@ -136,15 +136,15 @@ ht-degree: 1%
 * **원본** 응답자의 출처를 지정합니다.
 * **_uuid** 게시 및 오류 추적 전에 양식을 볼 수 있도록 합니다. 이 매개 변수는 내부용(만들기 및 디버그)입니다. 이 URL을 통해 웹 양식에 액세스하면 만들어진 레코드가 추적(보고서)에서 고려되지 않습니다. 원본은 **[!UICONTROL Adobe Campaign]** 값.
 
-   와 함께 사용됩니다. **미리 보기(_F)** 매개 변수 및/또는 **_debug**:
+  와 함께 사용됩니다. **미리 보기(_F)** 매개 변수 및/또는 **_debug**:
 
-   **미리 보기(_F)** 마지막으로 저장한 버전을 표시합니다. 이 매개 변수는 테스트 단계에서만 사용해야 합니다.
+  **미리 보기(_F)** 마지막으로 저장한 버전을 표시합니다. 이 매개 변수는 테스트 단계에서만 사용해야 합니다.
 
-   **_debug** 폼의 페이지에 입력하거나 계산된 데이터 추적을 표시합니다. 양식이 게시된 후 등 오류에 대한 자세한 정보를 얻는 데 사용됩니다.
+  **_debug** 폼의 페이지에 입력하거나 계산된 데이터 추적을 표시합니다. 양식이 게시된 후 등 오류에 대한 자세한 정보를 얻는 데 사용됩니다.
 
-   >[!CAUTION]
-   >
-   >양식이 URL을 통해 표시될 때 **_uuid** 매개 변수, 값 **[!UICONTROL origin]** 매개 변수가 강제로 **Adobe Campaign**.
+  >[!CAUTION]
+  >
+  >양식이 URL을 통해 표시될 때 **_uuid** 매개 변수, 값 **[!UICONTROL origin]** 매개 변수가 강제로 **Adobe Campaign**.
 
 ## 매개 변수 추가 {#adding-parameters}
 

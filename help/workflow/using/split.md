@@ -2,12 +2,12 @@
 product: campaign
 title: 분할
 description: 분할 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,8 @@ A **분할**-type 활동을 사용하면 대상을 여러 하위 집합으로 �
    * **[!UICONTROL Keep only the first records after sorting]**: 이 옵션을 사용하면 하나 이상의 정렬 명령을 기준으로 제한을 정의할 수 있습니다. 을(를) 선택하는 경우 **[!UICONTROL Age]** 필드를 정렬 기준으로 하고 100을 제한으로 설정하면 가장 어린 100명의 수신자만 유지됩니다.
    * **[!UICONTROL Keep the first ones after sorting (criteria, random)]**: 이 옵션은 앞의 두 옵션을 결합합니다. 하나 이상의 정렬 순서에 따라 제한을 정의한 다음, 일부 레코드가 정의된 기준과 동일한 값을 갖는 경우 첫 번째 레코드에 무작위 선택을 적용할 수 있습니다.
 
-      예를 들어 **[!UICONTROL Age]** 필드를 정렬 기준으로 사용하고 제한을 100개로 정의하지만, 데이터베이스의 가장 최신 수신자 2000명은 모두 18개이므로 2000개 중 100명의 수신자가 임의로 선택됩니다.
+     예를 들어 **[!UICONTROL Age]** 필드를 정렬 기준으로 사용하고 제한을 100개로 정의하지만, 데이터베이스의 가장 최신 수신자 2000명은 모두 18개이므로 2000개 중 100명의 수신자가 임의로 선택됩니다.
+
    ![](assets/s_user_segmentation_partage_wz1.png)
 
 1. 정렬 기준을 정의하려면 추가 단계를 통해 열과 정렬 순서를 정의할 수 있습니다.
@@ -91,7 +92,7 @@ A **분할**-type 활동을 사용하면 대상을 여러 하위 집합으로 �
 
    * **[!UICONTROL Size (in %)]**: 레코드의 비율. 예를 들어 아래 구성은 전체 모집단의 10%를 추출합니다.
 
-      백분율은 활동의 결과가 아닌 초기 모집단에 적용됩니다.
+     백분율은 활동의 결과가 아닌 초기 모집단에 적용됩니다.
 
    * **[!UICONTROL Size (as a % of the segment)]**: 하위 집합에만 관련되고 초기 모집단과 관련되지 않은 레코드의 백분율입니다.
    * **[!UICONTROL Maximum size]**: 최대 레코드 수입니다.
@@ -152,7 +153,7 @@ A **분할**-type 활동을 사용하면 대상을 여러 하위 집합으로 �
    * **[!UICONTROL Assignment type]**: 데이터 배포 할당 유형을 선택합니다. 그룹별 또는 연산자별 지정과 로컬 개체별 지정 중에서 선택할 수 있습니다. 로컬 엔티티별 할당은에서 사용됩니다. **분산 마케팅**. 자세한 내용은 다음을 참조하십시오. [섹션](../../distributed/using/about-distributed-marketing.md).
    * **[!UICONTROL Approval storage]**: 를 사용하는 경우 **[!UICONTROL Local approval]** 타겟팅 워크플로우의 활동( 참조) [로컬 승인](local-approval.md))에 승인 결과를 저장할 스키마를 입력합니다. 타깃팅 스키마당 하나의 저장소 스키마를 지정해야 합니다. 를 사용하는 경우 **[!UICONTROL Recipients]** 타깃팅 스키마, 기본값 입력 **[!UICONTROL Local approval of recipients]** 스토리지 스키마.
 
-      로컬 승인 없이 데이터 그룹화에 의해 간단하게 제한되는 경우 **[!UICONTROL Approvals storage]** 필드.
+     로컬 승인 없이 데이터 그룹화에 의해 간단하게 제한되는 경우 **[!UICONTROL Approvals storage]** 필드.
 
 1. 를 사용하는 경우 **[!UICONTROL Local approval]** 활동(참조: [로컬 승인](local-approval.md)), 다음을 입력합니다. **[!UICONTROL Advanced settings]** 배포 템플릿의 경우:
 
@@ -162,23 +163,23 @@ A **분할**-type 활동을 사용하면 대상을 여러 하위 집합으로 �
 
    * **[!UICONTROL Approve targeted messages]**: 승인할 수신자 목록에서 모든 수신자를 미리 선택하려면 이 옵션을 선택합니다. 이 옵션을 선택 취소하면 수신자를 미리 선택하지 않습니다.
 
-      >[!NOTE]
-      >
-      >이 옵션은 기본적으로 선택되어 있습니다.
+     >[!NOTE]
+     >
+     >이 옵션은 기본적으로 선택되어 있습니다.
 
-      ![](assets/local_validation_notification.png)
+     ![](assets/local_validation_notification.png)
 
    * **[!UICONTROL Delivery label]**: 반환 알림에 게재 레이블을 표시하는 표현식을 정의할 수 있습니다. 기본 표현식은 게재의 표준 레이블(계산 문자열)에 대한 정보를 제공합니다. 이 표현식은 수정할 수 있습니다.
 
-      ![](assets/local_validation_notification_3.png)
+     ![](assets/local_validation_notification_3.png)
 
    * **[!UICONTROL Grouping field]**: 이 필드에서는 수신자를 승인 및 반송 알림에 표시하는 데 사용되는 그룹화를 정의할 수 있습니다.
 
-      ![](assets/local_validation_notification_4.png)
+     ![](assets/local_validation_notification_4.png)
 
    * **[!UICONTROL Web Interface]**: 웹 애플리케이션을 수신자 목록에 연결할 수 있습니다. 승인 및 반환 알림에서 각 수신자는 클릭할 수 있고 선택한 웹 애플리케이션에 연결됩니다. 다음 **[!UICONTROL Parameters]** 필드(예 **[!UICONTROL recipientId]**)을 사용하면 URL 및 웹 애플리케이션에서 사용할 추가 매개 변수를 구성할 수 있습니다.
 
-      ![](assets/local_validation_notification_5.png)
+     ![](assets/local_validation_notification_5.png)
 
 1. 다음 **[!UICONTROL Breakdown]** 탭에서는 배포 값 목록을 정의할 수 있습니다.
 
@@ -187,16 +188,16 @@ A **분할**-type 활동을 사용하면 대상을 여러 하위 집합으로 �
    * **[!UICONTROL Value]**: 배포 값을 입력합니다.
    * **[!UICONTROL Percentage / Set]**: 각 값에 연결된 레코드 제한(고정 또는 백분율)을 입력합니다.
 
-      이 열은 **[!UICONTROL Distribution type]** 필드 내 **[!UICONTROL General]** 탭.
+     이 열은 **[!UICONTROL Distribution type]** 필드 내 **[!UICONTROL General]** 탭.
 
    * **[!UICONTROL Label]**: 각 값에 연결된 레이블을 입력합니다.
    * **[!UICONTROL Group or operator]**: 를 사용하는 경우 **[!UICONTROL Local approval]** 활동(참조: [로컬 승인](local-approval.md)) 각 배포 값에 할당된 연산자 또는 연산자 그룹을 선택합니다.
 
-      로컬 승인 없이 데이터 그룹화에 의해 간단하게 제한되는 경우 **[!UICONTROL Group or operator]** 필드.
+     로컬 승인 없이 데이터 그룹화에 의해 간단하게 제한되는 경우 **[!UICONTROL Group or operator]** 필드.
 
-      >[!IMPORTANT]
-      >
-      >운영자에게 적절한 권한이 할당되었는지 확인합니다.
+     >[!IMPORTANT]
+     >
+     >운영자에게 적절한 권한이 할당되었는지 확인합니다.
 
    * **[!UICONTROL Local entity]**: 각 배포 값에 할당된 로컬 엔티티를 선택합니다. 로컬 엔티티는에서 사용됩니다. **분산 마케팅**. 자세한 내용은 다음을 참조하십시오. [섹션](../../distributed/using/about-distributed-marketing.md).
 
@@ -212,7 +213,7 @@ A **분할**-type 활동을 사용하면 대상을 여러 하위 집합으로 �
 
 이 옵션이 제대로 작동하려면 인바운드 데이터에 기본 키가 있어야 합니다.
 
-예를 들어 Netezza (색인의 개념을 지원하지 않음)과 같은 외부 데이터베이스에서 **[!UICONTROL Data loading (RDBMS)]** 활성, 다음으로 생성된 보체 **[!UICONTROL Split]** 활동이 올바르지 않습니다.
+예를 들어 Netezza(색인의 개념을 지원하지 않음)와 같은 외부 데이터베이스에서 **[!UICONTROL Data loading (RDBMS)]** 활성, 다음으로 생성된 보체 **[!UICONTROL Split]** 활동이 올바르지 않습니다.
 
 이 문제를 방지하기 위해 **[!UICONTROL Enrichment]** 활동 바로 앞 **[!UICONTROL Split]** 활동. 다음에서 **[!UICONTROL Enrichment]** 활동, 확인 **[!UICONTROL Keep all additional data from the main set]** 및 추가 데이터에서 의 필터를 구성하는 데 사용할 열을 지정합니다. **[!UICONTROL Split]** 활동. 의 인바운드 전환에서 가져온 데이터 **[!UICONTROL Split]** 그런 다음 활동은 Adobe Campaign 서버의 임시 테이블에 로컬로 저장되며 보조 활동을 올바르게 생성할 수 있습니다.
 

@@ -1,9 +1,9 @@
 ---
 product: campaign
 title: Campaign Classic 일반 아키텍처
-description: Campaign Classic의 설치 및 구성 방법을 알아봅니다
+description: Campaign Classic 설치 및 구성 방법 알아보기
 feature: Installation, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models

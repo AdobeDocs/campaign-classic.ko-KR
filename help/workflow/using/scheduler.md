@@ -2,13 +2,13 @@
 product: campaign
 title: 예약
 description: 예약 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 10%
+source-wordcount: '340'
+ht-degree: 12%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 10%
 
 * 예약 활동을 사용하면 워크플로우가 여러 번 동시에 실행될 수 있습니다. 예를 들어 스케줄러가 한 시간마다 워크플로우 실행을 트리거하도록 할 수 있지만 경우에 따라 전체 워크플로우를 실행하는 데 한 시간 이상이 걸립니다.
 
-   워크플로우가 이미 실행 중인 경우 실행을 건너뛸 수 있습니다. 워크플로우의 동시 실행을 방지하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions).
+  워크플로우가 이미 실행 중인 경우 실행을 건너뛸 수 있습니다. 워크플로우의 동시 실행을 방지하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions).
 
 * 워크플로우가 가져오기 와 같은 장기 작업을 실행하거나 wfserver 모듈이 잠시 중지된 경우 몇 시간 후에 전환을 활성화할 수 있습니다. 이 경우, 스케줄러가 활성화한 태스크의 실행을 일정 시간 범위로 제한할 필요가 있을 수 있다.
 

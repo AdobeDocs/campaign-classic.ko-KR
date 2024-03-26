@@ -9,8 +9,8 @@ topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 1%
+source-wordcount: '1558'
+ht-degree: 0%
 
 ---
 
@@ -140,8 +140,8 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
    * datetime
    * datetimetz
    * 다테티메노츠
-   * date
-   * 더블
+   * 일자
+   * 중복
    * enum
    * 부동
    * html
@@ -150,7 +150,7 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
    * 길게
    * 메모
    * MNTOKEN
-   * percent
+   * 백분율
    * primarykey
    * 짧음
    * 문자열

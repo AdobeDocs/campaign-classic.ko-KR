@@ -3,13 +3,13 @@ product: campaign
 title: 웹 애플리케이션 동기화
 description: 웹 애플리케이션을 ACS 커넥터와 동기화하는 방법 알아보기
 feature: ACS Connector
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 hide: true
 hidefromtoc: true
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Campaign v7에 많은 서비스와 웹 애플리케이션이 있는 경우 Campaign Standard에서 모두 다시 만들지 않도록 선택할 수 있습니다. ACS 커넥터를 사용하면 기존의 모든 Campaign v7 웹 애플리케이션 및 서비스를 사용하고, 이를 Campaign Standard이 보낸 게재에 연결할 수 있습니다.
 
-## 전제 조건 {#prerequisites}
+## 필수 구성 요소 {#prerequisites}
 
 이를 위해서는 다음이 필요합니다.
 

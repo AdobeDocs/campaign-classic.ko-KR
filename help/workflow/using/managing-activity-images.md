@@ -2,13 +2,13 @@
 product: campaign
 title: 활동 이미지 변경
 description: 활동 이미지를 변경하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 3%
+source-wordcount: '165'
+ht-degree: 7%
 
 ---
 
@@ -20,27 +20,27 @@ ht-degree: 3%
 
 * 배경 이미지를 변경하려면 원하는 타겟팅 워크플로우를 선택하고 **[!UICONTROL Properties]** 탭.
 
-   ![](assets/s_user_segmentation_properties_tab.png)
+  ![](assets/s_user_segmentation_properties_tab.png)
 
-   사용할 이미지를 선택하려면 **[!UICONTROL Select link]** 아이콘 의 오른쪽 **[!UICONTROL Background image]** 필드.
+  사용할 이미지를 선택하려면 **[!UICONTROL Select link]** 아이콘 의 오른쪽 **[!UICONTROL Background image]** 필드.
 
-   >[!NOTE]
-   >
-   >배경 이미지의 너비(픽셀 단위)는 4의 배수여야 합니다.
+  >[!NOTE]
+  >
+  >배경 이미지의 너비(픽셀 단위)는 4의 배수여야 합니다.
 
-   ![](assets/s_user_segmentation_background_select.png)
+  ![](assets/s_user_segmentation_background_select.png)
 
-   다음 **[!UICONTROL Edit link]** 아이콘을 사용하면 선택한 이미지를 볼 수 있습니다.
+  다음 **[!UICONTROL Edit link]** 아이콘을 사용하면 선택한 이미지를 볼 수 있습니다.
 
 * 활동과 연관된 이미지를 변경하려면 개체를 두 번 클릭한 다음 **[!UICONTROL Advanced]** 탭.
 
-   사용할 이미지를 선택하려면 **[!UICONTROL Select link]** 아이콘 의 오른쪽 **[!UICONTROL Image]** 필드.
+  사용할 이미지를 선택하려면 **[!UICONTROL Select link]** 아이콘 의 오른쪽 **[!UICONTROL Image]** 필드.
 
-   ![](assets/s_user_segmentation_activity_image.png)
+  ![](assets/s_user_segmentation_activity_image.png)
 
-   다음 **[!UICONTROL Edit link]** 아이콘을 사용하면 선택한 이미지를 볼 수 있습니다.
+  다음 **[!UICONTROL Edit link]** 아이콘을 사용하면 선택한 이미지를 볼 수 있습니다.
 
-   ![](assets/s_user_segmentation_activity_image_select.png)
+  ![](assets/s_user_segmentation_activity_image_select.png)
 
 >[!NOTE]
 >

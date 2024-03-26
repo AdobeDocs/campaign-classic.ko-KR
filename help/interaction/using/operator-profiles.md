@@ -3,7 +3,7 @@ product: campaign
 title: 운영자 프로필
 description: 운영자 프로필
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
@@ -11,7 +11,7 @@ exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 9%
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 9%
 * **[!UICONTROL Offer manager]** : 오퍼를 만들고 유지 관리합니다. 오퍼가 워크플로우에서 사용되는 경우 연산자는 다음에 있어야 합니다. **[!UICONTROL Administrator]** 또는 **[!UICONTROL Offer managers]** 워크플로우를 실행할 연산자 그룹입니다.
 * **[!UICONTROL Delivery manager]** : 오퍼 승인 및 사용
 
-상호 작용과 관련된 연산자를 만드는 단계는 플랫폼에서 다른 모든 연산자를 만드는 데 사용되는 단계와 동일합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/access-management.md)을 참조하십시오. 권한은 연산자 생성 중에 구성됩니다.
+상호 작용과 관련된 연산자를 만드는 단계는 플랫폼에서 다른 모든 연산자를 만드는 데 사용되는 단계와 동일합니다. 자세한 내용은 다음을 참조하십시오. [이 섹션](../../platform/using/access-management.md). 권한은 연산자 생성 중에 구성됩니다.
 
 ## 오퍼 관리자 {#offer-manager}
 
@@ -39,7 +39,7 @@ ht-degree: 9%
 * 보기 **[!UICONTROL Live]** 환경.
 * 관리 기능(사전 정의된 스페이스 및 필터)을 구성합니다.
 * 범주를 만들고 변경합니다.
-* 오퍼 만들기.
+* 오퍼를 만듭니다.
 * 오퍼 자격 조건을 구성합니다.
 * 오퍼를 승인합니다.
 
@@ -99,7 +99,7 @@ ht-degree: 9%
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 미리 정의된 오퍼 필터<br /> </td> 
+   <td> 사전 정의된 오퍼 필터<br /> </td> 
    <td> 읽기 / 쓰기<br /> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
@@ -119,7 +119,7 @@ ht-degree: 9%
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오퍼 범주<br /> </td> 
+   <td> 오퍼 카테고리<br /> </td> 
    <td> 읽기 / 쓰기<br /> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
@@ -159,7 +159,7 @@ ht-degree: 9%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 미리 정의된 오퍼 필터<br /> </td> 
+   <td> 사전 정의된 오퍼 필터<br /> </td> 
    <td> 읽기<br /> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
@@ -179,7 +179,7 @@ ht-degree: 9%
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오퍼 범주<br /> </td> 
+   <td> 오퍼 카테고리<br /> </td> 
    <td> </td> 
    <td> 읽기<br /> </td> 
   </tr> 

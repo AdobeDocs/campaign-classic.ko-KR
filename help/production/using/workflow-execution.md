@@ -3,7 +3,7 @@ product: campaign
 title: 워크플로우 실행
 description: 워크플로우 실행
 feature: Monitoring, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
@@ -11,8 +11,8 @@ topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 5%
+source-wordcount: '650'
+ht-degree: 4%
 
 ---
 
@@ -120,5 +120,5 @@ ht-degree: 5%
 워크플로우가 실패하면 다음 단계를 수행합니다.
 
 1. 워크플로우 분개를 확인합니다. 자세한 내용은 [워크플로우 실행 모니터링](../../workflow/using/monitoring-workflow-execution.md) 및 [로그 표시](../../workflow/using/monitoring-workflow-execution.md#displaying-logs) 섹션.
-1. 기술 워크플로우 모니터링. 자세한 내용은 다음을 참조하십시오. [이 섹션](../../workflow/using/monitoring-technical-workflows.md).
+1. 기술 워크플로우를 모니터링합니다. 자세한 내용은 다음을 참조하십시오. [이 섹션](../../workflow/using/monitoring-technical-workflows.md).
 1. 개별 워크플로우 활동에서 실패를 찾습니다.

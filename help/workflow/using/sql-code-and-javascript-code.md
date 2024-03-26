@@ -2,13 +2,13 @@
 product: campaign
 title: SQL 코드 및 JavaScript 코드
 description: SQL 및 JavaScript 코드 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 10%
+source-wordcount: '277'
+ht-degree: 12%
 
 ---
 
@@ -24,11 +24,11 @@ An **[!UICONTROL SQL code]** 활동은 SQL 스크립트를 실행합니다. 스�
 
 * **[!UICONTROL Script]**
 
-   편집기의 중앙 영역에는 실행할 스크립트가 포함되어 있습니다. 이 스크립트는 JST 템플릿이므로 워크플로우 컨텍스트에 따라 구성할 수 있습니다.
+  편집기의 중앙 영역에는 실행할 스크립트가 포함되어 있습니다. 이 스크립트는 JST 템플릿이므로 워크플로우 컨텍스트에 따라 구성할 수 있습니다.
 
 * **[!UICONTROL Processing errors]**
 
-   을(를) 참조하십시오 [처리 오류](monitoring-workflow-execution.md#processing-errors).
+  을(를) 참조하십시오 [처리 오류](monitoring-workflow-execution.md#processing-errors).
 
 ## JavaScript 코드 및 고급 JavaScript 코드 {#javascript-code}
 

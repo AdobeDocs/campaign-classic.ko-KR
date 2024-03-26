@@ -2,13 +2,13 @@
 product: campaign
 title: 중복 제거
 description: 중복 제거 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Targeting Activity
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 11%
+source-wordcount: '1122'
+ht-degree: 9%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 11%
 
 | 마지막 수정일 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
 -----|------------|-----------|-------|--------------|------
-| 02/03/2020 | Bob | 티스너 | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
-| 05/19/2020 | 로버트 | 티스너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
-| 07/22/2020 | 보비 | 티스너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 2020/03/02 | Bob | 티스너 | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+| 2020/05/19 | 로버트 | 티스너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 2020년 7월 22일 | 보비 | 티스너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 다음 **[!UICONTROL Deduplication]** 활동에는 중복이 식별된 후 전체 행을 고유 레코드로 유지하는 기능이 있습니다. 예를 들어 위의 사용 사례에서 활동이 가장 오래된 레코드만 유지하도록 구성된 경우 **[!UICONTROL Date]**, 결과는 다음과 같습니다.
 
 | 날짜 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
 -----|----------|------------|-------|--------------|------
-| 02/03/2020 | Bob | 티스너 | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+| 2020/03/02 | Bob | 티스너 | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
 선택한 주 레코드는 중복 행의 다른 관련 데이터와 필드 데이터를 병합하지 않고 데이터를 전달합니다.
 
@@ -38,8 +38,8 @@ ht-degree: 11%
 
 | 날짜 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
 -----|------------|-----------|-------|--------------|------
-| 05/19/2020 | 로버트 | 티스너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
-| 07/22/2020 | 보비 | 티스너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 2020/05/19 | 로버트 | 티스너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 2020년 7월 22일 | 보비 | 티스너 | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 ## 모범 사례 {#best-practices}
 
@@ -83,15 +83,16 @@ ht-degree: 11%
    * **[!UICONTROL Choose for me]**: 중복 중에서 유지할 레코드를 임의로 선택합니다.
    * **[!UICONTROL Following a list of values]**: 하나 이상의 필드에 대한 값 우선 순위를 정의할 수 있습니다. 값을 정의하려면 필드를 선택하거나 표현식을 만든 다음 해당 테이블에 값을 추가합니다. 새 필드를 정의하려면 값 목록 위에 있는 **[!UICONTROL Add]** 버튼을 클릭합니다.
 
-      ![](assets/s_user_segmentation_dedup_param5.png)
+     ![](assets/s_user_segmentation_dedup_param5.png)
 
    * **[!UICONTROL Non-empty value]**: 선택한 표현식의 값이 비어 있지 않은 레코드를 우선 순위로 유지할 수 있습니다.
 
-      ![](assets/s_user_segmentation_dedup_param6.png)
+     ![](assets/s_user_segmentation_dedup_param6.png)
 
    * **[!UICONTROL Using an expression]**: 주어진 표현식의 가장 낮은(또는 가장 높은) 값을 갖는 레코드를 유지할 수 있습니다.
 
-      ![](assets/s_user_segmentation_dedup_param7.png)
+     ![](assets/s_user_segmentation_dedup_param7.png)
+
    >[!NOTE]
    >
    >다음 **[!UICONTROL Merge]** 기능, 를 통해 액세스 가능 **[!UICONTROL Advanced parameters]** 링크를 사용하면 필드나 필드 그룹을 단일 결과 데이터 레코드로 병합하기 위해 규칙 세트를 구성할 수 있습니다. 자세한 내용은 [필드를 단일 레코드로 병합](#merging-fields-into-single-record).

@@ -3,15 +3,15 @@ product: campaign
 title: Campaign 설정 FAQ
 description: Campaign Classic FAQ
 feature: Troubleshooting, Application Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 92%
+source-wordcount: '759'
+ht-degree: 76%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign 사용자 인터페이스는 영어, 프랑스어, 독일어 및 
 
 Campaign을 설치할 때 미국 영어 또는 영국 영어 중 하나를 선택할 수 있습니다. 날짜 및 시간 형식이 다릅니다. 차이점에 대한 자세한 정보는 [이 섹션](../../platform/using/adobe-campaign-workspace.md#date-and-time)을 참조하십시오.
 
-## 다른 Adobe 솔루션과 함께 Campaign Classic을 사용할 수 있습니까? {#can-i-use-campaign-classic-with-other-adobe-solutions-}
+## 다른 Adobe 솔루션에서 Campaign Classic을 사용할 수 있습니까? {#can-i-use-campaign-classic-with-other-adobe-solutions-}
 
 Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 경험을 개인화할 수 있도록 만들어진 솔루션 세트를 결합할 수 있습니다.
 
@@ -41,7 +41,7 @@ Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../installation/using/deploying-an-instance.md#tracking-configuration).
 
-## 전자 메일 게재 기능을 구성하는 방법  {#how-to-configure-email-deliverability-}
+## 이메일 게재 기능을 구성하는 방법 {#how-to-configure-email-deliverability-}
 
 이외에도 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko), Campaign 게재 기능을 최대화하기 위해 인스턴스를 구성하는 방법을 이해하려면 게재 기능 기술 권장 사항을 참조하십시오.
 
@@ -75,11 +75,11 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 
 이러한 커넥터를 사용하면 빠르고 손쉽게 데이터를 통합할 수 있습니다. Adobe Campaign은 CRM에서 사용할 수 있는 테이블을 수집하고 선택하는 전용 마법사를 제공합니다. 이렇게 하면 시스템 전체에서 항상 데이터가 최신 상태로 유지되도록 양방향 동기화를 보장합니다.
 
-CRM 도구를 Adobe Campaign과 동기화하는 방법을 배우려면 [CRM 커넥터 구성](../../platform/using/crm-connectors.md)을 참조하십시오.
+읽기 [CRM 커넥터 구성](../../platform/using/crm-connectors.md) crm 도구를 Adobe Campaign과 동기화하는 방법을 알아봅니다.
 
-![](assets/do-not-localize/how-to-video.png)[ Adobe Campaign 및 Microsoft Dynamics 365 통합](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html)에 대한 이 사용 사례 비디오를 시청하십시오.
+![](assets/do-not-localize/how-to-video.png) 다음에서 이 사용 사례 비디오 보기: [Adobe Campaign 및 Microsoft Dynamics 365 통합](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
 
-## 컴퓨터에 특정하거나 사용자에 특정한 문제인 경우 소프트 캐시 지우기를 수행하는 방법  {#perform-soft-cache-clear}
+## 컴퓨터에 특정하거나 사용자에 특정한 문제인 경우 소프트 캐시 지우기를 수행하는 방법 {#perform-soft-cache-clear}
 
 새 로고가 올바로 반영되고 시스템별/사용자별 데이터를 성공적으로 내보낼 수 있는 등의 문제가 있는 경우 Windows(Windows 7, Windows XP, Windows 10)에서 소프트 캐시 지우기를 수행해야 할 수 있습니다.
 
@@ -89,7 +89,7 @@ CRM 도구를 Adobe Campaign과 동기화하는 방법을 배우려면 [CRM 커�
 
 그래도 도움이 되지 않는 경우 아래 단계를 수행하여 하드 캐시를 지우십시오.
 
-## 컴퓨터에 특정하거나 사용자에 특정한 문제인 경우 하드 캐시 지우기를 수행하는 방법  {#perform-hard-cache-clear}
+## 컴퓨터에 특정하거나 사용자에 특정한 문제인 경우 하드 캐시 지우기를 수행하는 방법 {#perform-hard-cache-clear}
 
 새 로고가 올바로 반영되고 시스템별/사용자별 데이터를 성공적으로 내보낼 수 있는 등의 문제가 있는 경우 Windows(Windows 7, Windows XP, Windows 10)에서 하드 캐시 지우기를 수행해야 할 수 있습니다.
 

@@ -3,15 +3,15 @@ product: campaign
 title: 자동 개인 정보 보호 요청 프로세스
 description: 자동 개인 정보 요청 프로세스를 설정하는 방법 알아보기
 feature: Privacy, Privacy Tools
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: a93bac61-f615-4178-bc12-0f056e48687d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 99%
+source-wordcount: '662'
+ht-degree: 100%
 
 ---
 

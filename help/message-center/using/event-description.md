@@ -3,15 +3,15 @@ product: campaign
 title: 이벤트 설명
 description: SOAP 메서드를 사용하여 Adobe Campaign Classic에서 트랜잭션 메시지 이벤트를 관리하는 방법에 대해 알아봅니다
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 0%
+source-wordcount: '756'
+ht-degree: 1%
 
 ---
 
@@ -41,7 +41,7 @@ WSDL 파일 생성에 대한 자세한 내용은 [이 섹션](../../configuratio
 
 두 메서드 모두 **`<urn:sessiontoken>`** 트랜잭션 메시지 모듈에 로그온하기 위한 요소입니다. 신뢰할 수 있는 IP 주소를 통해 식별 방법을 사용하는 것이 좋습니다. 세션 토큰을 검색하려면 로그온 SOAP 호출을 수행한 다음 get 토큰 뒤에 로그오프를 수행합니다. 여러 RT 호출에 동일한 토큰을 사용합니다. 이 섹션에 포함된 예는 권장되는 세션 토큰 메서드를 사용하는 것입니다.
 
-부하 분산 서버를 사용하는 경우 사용자/암호 인증(RT 메시지 수준)을 사용할 수 있습니다. 예제:
+부하 분산 서버를 사용하는 경우 사용자/암호 인증(RT 메시지 수준)을 사용할 수 있습니다. 예:
 
 ```
 <PushEvent xmlns="urn:nms:rtEvent">

@@ -3,14 +3,14 @@ product: campaign
 title: 기술 노트 - Adobe Campaign 구성 업데이트
 description: Adobe Campaign 구성 업데이트
 feature: Technote, Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 11%
+source-wordcount: '1110'
+ht-degree: 8%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 11%
 
 * 하이브리드 고객은 Adobe에서 중간 소싱 인스턴스에 대해 예약된 업그레이드 날짜를 알려줍니다. Adobe은 마케팅 인스턴스도 업그레이드할 것을 강력히 권장합니다.
 
-  새 빌드는 Campaign Classic Adobe 17.9 릴리스와 역호환되지만, 보안 취약점을 해결하기 위해 모든 인스턴스에서 업그레이드를 수행하는 것이 좋습니다
+  새 빌드는 Campaign Classic Adobe 17.9 릴리스와 역호환되지만, 보안 취약점을 해결하기 위해 모든 인스턴스에서 업그레이드하는 것이 좋습니다
 
 * 온-프레미스 고객은 마케팅 및 중간 소싱 인스턴스를 최신 빌드로 업그레이드해야 합니다.
 

@@ -3,7 +3,7 @@ product: campaign
 title: ACS 커넥터 문제 해결
 description: ACS 커넥터 문제 해결
 feature: ACS Connector, Troubleshooting
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 1%
+source-wordcount: '879'
+ht-degree: 0%
 
 ---
 

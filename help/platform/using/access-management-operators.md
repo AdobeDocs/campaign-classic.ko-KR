@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1152'
 ht-degree: 2%
 
 ---
@@ -102,31 +102,31 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 * 다음 **[!UICONTROL Disable account]** 옵션을 사용하면 운영자의 계정을 비활성화할 수 있습니다. 이 사용자는 더 이상 Adobe Campaign에 액세스하지 않습니다.
 
-   >[!NOTE]
-   >
-   >계정이 비활성화된 경우에도 운영자는 Campaign에서 경고 또는 알림을 계속 받을 수 있습니다. Adobe 이 운영자에게 Campaign 알림 전송을 중단하려면 해당 프로필에서 이메일 주소를 제거하는 것이 좋습니다.
+  >[!NOTE]
+  >
+  >계정이 비활성화된 경우에도 운영자는 Campaign에서 경고 또는 알림을 계속 받을 수 있습니다. Adobe 이 운영자에게 Campaign 알림 전송을 중단하려면 해당 프로필에서 이메일 주소를 제거하는 것이 좋습니다.
 
 * 다음 **[!UICONTROL Forbid access from the rich client]** 옵션을 사용하면 Adobe Campaign 사용을 다음으로 제한할 수 있습니다. [웹 액세스](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) 또는 API를 통해: Adobe Campaign 클라이언트 콘솔에 더 이상 액세스할 수 없습니다.
 * 작업자에게 안전구역을 연결시켜 줄 수 있습니다. 자세한 정보는 이 [페이지](../../installation/using/security-zones.md)를 참조하십시오.
 * 적절한 링크를 사용하여 신뢰할 수 있는 IP 마스크를 정의할 수도 있습니다.
 
-   운영자는 IP 주소가 이 목록에 있는 경우 암호를 입력하지 않고 Adobe Campaign에 연결할 수 있습니다.
+  운영자는 IP 주소가 이 목록에 있는 경우 암호를 입력하지 않고 Adobe Campaign에 연결할 수 있습니다.
 
-   다음 예제와 같이 암호 없이 연결하도록 승인될 IP 주소 집합을 지정할 수도 있습니다.
+  다음 예제와 같이 암호 없이 연결하도록 승인될 IP 주소 집합을 지정할 수도 있습니다.
 
-   ![](assets/operator_trustip.png)
+  ![](assets/operator_trustip.png)
 
-   >[!NOTE]
-   >
-   >플랫폼에 대한 액세스를 안전하게 유지하려면 이 옵션을 신중하게 사용해야 합니다.
+  >[!NOTE]
+  >
+  >플랫폼에 대한 액세스를 안전하게 유지하려면 이 옵션을 신중하게 사용해야 합니다.
 
 * 다음 **[!UICONTROL Restrict to information found in sub-folders of:]** 옵션을 사용하면 폴더 운영자에게 귀속되는 권한을 제한할 수 있습니다. 이 옵션에 지정된 노드의 하위 폴더만 사용자에게 표시됩니다.
 
-   ![](assets/s_ncs_user_restrictions_operators.png)
+  ![](assets/s_ncs_user_restrictions_operators.png)
 
-   >[!IMPORTANT]
-   >
-   >이는 매우 엄격한 제한이며, 신중하게 사용해야 합니다. 이 유형의 권한으로 로그인한 운영자는 지정된 폴더의 콘텐츠만 볼 수 있으며 탐색기를 통해 트리의 다른 노드에 액세스할 수 없습니다. 그러나 이 운영자가 액세스할 수 있는 기능(예: 워크플로우)에 따라 사용자는 일반적으로 액세스할 수 없는 노드에 저장된 데이터를 표시할 수 있습니다.
+  >[!IMPORTANT]
+  >
+  >이는 매우 엄격한 제한이며, 신중하게 사용해야 합니다. 이 유형의 권한으로 로그인한 운영자는 지정된 폴더의 콘텐츠만 볼 수 있으며 탐색기를 통해 트리의 다른 노드에 액세스할 수 없습니다. 그러나 이 운영자가 액세스할 수 있는 기능(예: 워크플로우)에 따라 사용자는 일반적으로 액세스할 수 없는 노드에 저장된 데이터를 표시할 수 있습니다.
 
 ### 설정 확인 {#check-settings}
 
@@ -136,15 +136,15 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 * 연산자에 연결된 폴더의 권한 목록입니다.
 
-   ![](assets/operator_folder_permissions.png)
+  ![](assets/operator_folder_permissions.png)
 
-   >[!NOTE]
-   >
-   >자세한 내용은 다음을 참조하십시오. [폴더 액세스 관리](#folder-access-management).
+  >[!NOTE]
+  >
+  >자세한 내용은 다음을 참조하십시오. [폴더 액세스 관리](#folder-access-management).
 
 * 연산자 승인 로그.
 
-   ![](assets/operator_profile_validations.png)
+  ![](assets/operator_profile_validations.png)
 
 * 구독할 토론 포럼 목록입니다.
 * 캘린더에 있는 이벤트.

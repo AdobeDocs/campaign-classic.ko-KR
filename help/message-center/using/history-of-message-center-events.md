@@ -3,7 +3,7 @@ product: campaign
 title: 메시지 센터 이벤트 내역
 description: 메시지 센터 이벤트 내역 보고서에 대해 자세히 알아보기
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: message-center
 content-type: reference
 topic-tags: reports
@@ -11,7 +11,7 @@ exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 

@@ -13,7 +13,7 @@ ht-degree: 6%
 
 ---
 
-# Campaign 데이터 모델 시작{#about-data-model}
+# Campaign 데이터 모델 시작하기{#about-data-model}
 
 Adobe Campaign 데이터베이스의 개념적 데이터 모델은 내장된 테이블과 상호 작용으로 구성됩니다. 이 페이지에는 기본 테이블과 개념이 나열되어 있습니다.
 

@@ -9,8 +9,8 @@ role: User
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 1%
+source-wordcount: '1200'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 
 ### 콘텐츠 업데이트 {#update-the-content}
 
-* **주제**
+* **제목**
 
   게시할 때 게재 작업의 제목을 수정할 수 있습니다.
 

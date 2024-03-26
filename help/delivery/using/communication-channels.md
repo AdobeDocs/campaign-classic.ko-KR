@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 소통 채널
+title: 커뮤니케이션 채널
 description: 여러 채널에서 개인화된 메시지를 보낼 수 있는 게재 정보를 만듭니다.
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
@@ -9,12 +9,12 @@ role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 20%
+source-wordcount: '1217'
+ht-degree: 15%
 
 ---
 
-# 소통 채널{#communication-channels}
+# 커뮤니케이션 채널{#communication-channels}
 
 Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및 DM을 비롯한 크로스 채널 캠페인을 전송하고 다양한 전용 항목을 사용하여 효과를 측정할 수 있습니다 [보고서](../../reporting/using/delivery-reports.md). 이러한 메시지는 게재를 통해 디자인되고 전송되며 각 수신자에 대해 개인화할 수 있습니다.
 
@@ -29,9 +29,9 @@ Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및
 Adobe Campaign은 다음과 같은 게재 채널을 제공합니다.
 
 1. **이메일 채널**: 이메일 게재를 사용하면 개인화된 이메일을 대상 모집단으로 보낼 수 있습니다. 을(를) 참조하십시오 [이메일 채널 기본 정보](about-email-channel.md).
-1. **DM 채널**: DM 게재는 대상 모집단에서 데이터를 포함하는 추출 파일을 생성할 수 있습니다. 을(를) 참조하십시오 [DM 채널 기본 정보](about-direct-mail-channel.md).
+1. **다이렉트 메일 채널**: DM 게재는 대상 모집단에서 데이터를 포함하는 추출 파일을 생성할 수 있습니다. 을(를) 참조하십시오 [DM 채널 기본 정보](about-direct-mail-channel.md).
 1. **모바일 채널**: 모바일 채널 게재는 개인화된 SMS 또는 LINE 메시지를 대상 모집단으로 보낼 수 있습니다. 을(를) 참조하십시오 [SMS 채널](sms-channel.md).
-1. **모바일 앱 채널**: 모바일 앱 게재를 사용하면 iOS 및 Android 시스템에 알림을 전송할 수 있습니다. 다음을 참조하십시오. [모바일 앱 채널](about-mobile-app-channel.md) 챕터.
+1. **모바일 애플리케이션 채널**: 모바일 앱 게재를 사용하면 iOS 및 Android 시스템에 알림을 전송할 수 있습니다. 다음을 참조하십시오. [모바일 앱 채널](about-mobile-app-channel.md) 챕터.
 
    다른 채널은에 설명되어 있습니다. [이 페이지](steps-about-delivery-creation-steps.md#other-channels).
 
@@ -81,7 +81,7 @@ Adobe Campaign을 통해 개인화되고 세그먼트화된 결과를 보낼 수
 
 ## DM {#direct-mail}
 
-[DM은 다이렉트 메일 공급자가 요구하는 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다. ](about-direct-mail-channel.md) DM을 통해 고객 여정의 온오프라인 채널을 혼합하여 운영할 수 있습니다.
+[다이렉트 메일](about-direct-mail-channel.md) 는 DM 공급자가 요구하는 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다. DM을 통해 고객 여정의 온오프라인 채널을 혼합하여 운영할 수 있습니다.
 
 온라인 채널을 통해 메시지(이메일, SMS, 모바일 앱 게재 등)를 만들고 Adobe Campaign에서 바로 대상자에게 보낼 수 있습니다. 하지만 오프라인 채널에서는 다릅니다. Adobe Campaign은 DM 게재 준비 시 타겟팅 프로필과 선택한 연락처 정보(예를 들면 우편 주소)가 있는 파일을 생성합니다. 그러면 이 파일을 DM 공급자에게 보내어 실제 전송을 처리하도록 할 수 있습니다.
 

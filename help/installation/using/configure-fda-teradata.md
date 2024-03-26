@@ -3,14 +3,14 @@ product: campaign
 title: teradata 액세스 구성
 description: FDA에서 Teradata에 대한 액세스를 구성하는 방법 알아보기
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
@@ -105,8 +105,8 @@ teradata 외부 계정을 사용하면 Campaign 인스턴스를 Teradata 외부 
 |---|---|
 | TD_MAX_SESSIONS | teradata Parallel Transporter가 연산자 작업에 대해 얻을 수 있는 최대 로그온 세션 수를 지정합니다. |
 | 시간대 이름 | 서버 표준 시간대의 이름입니다. |
-| 문자 집합 | teradata 문자 집합을 구성하는 데 사용됩니다. <br>자세한 정보는 이 [페이지](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001)를 참조하십시오. |
-| IANAAppCodePage | ODBC 응용 프로그램 코드 페이지입니다. <br>[자세한 정보는 이 페이지](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page)를 참조하십시오. |
+| 문자 집합 | teradata 문자 집합을 구성하는 데 사용됩니다. <br>자세한 내용은 다음을 참조하십시오. [이 페이지](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001). |
+| IANAAppCodePage | ODBC 응용 프로그램 코드 페이지입니다. <br>자세한 내용은 다음을 참조하십시오. [이 페이지](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page) |
 
 ### 추가 ODBC 외부 계정 추가 {#add-external}
 

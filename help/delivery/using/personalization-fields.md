@@ -9,8 +9,8 @@ role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 10%
+source-wordcount: '894'
+ht-degree: 9%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 10%
 
 이 옵션을 사용하려면 아래 단계를 따르십시오.
 
-1. 캠페인 만들기. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
+1. 캠페인을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
 1. 다음에서 **[!UICONTROL Targeting and workflows]** 캠페인의 탭에서 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 내용은 을 참조하십시오. [이 섹션](../../workflow/using/query.md).
 1. 추가 **[!UICONTROL Email delivery]** 활동을 워크플로우에 추가하고 엽니다. 이 활동 사용에 대한 자세한 내용은 을 참조하십시오. [이 섹션](../../workflow/using/delivery.md).
 1. 로 이동 **[!UICONTROL Analysis]** 의 탭 **[!UICONTROL Delivery properties]** 및 선택 **[!UICONTROL Prepare the personalization data with a workflow]** 옵션을 선택합니다.

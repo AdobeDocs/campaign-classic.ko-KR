@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Campaign 기본 제공 보고서 기본 정보
-description: Campaign 기본 제공 보고서 기본 정보
+title: Campaign 기본 제공 보고서 정보
+description: Campaign 기본 제공 보고서 정보
 feature: Reporting, Monitoring
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
@@ -9,11 +9,11 @@ exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
-# Campaign 기본 제공 보고서 기본 정보{#about-campaign-built-in-reports}
+# Campaign 기본 제공 보고서 정보{#about-campaign-built-in-reports}
 
 
 

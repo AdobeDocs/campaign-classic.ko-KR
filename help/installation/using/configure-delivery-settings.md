@@ -3,7 +3,7 @@ product: campaign
 title: 캠페인 게재 설정 구성
 description: Campaign 게재 설정을 구성하는 방법 알아보기
 feature: Installation, Channel Configuration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
@@ -11,7 +11,7 @@ topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '482'
 ht-degree: 6%
 
 ---
@@ -74,7 +74,7 @@ IP 주소를 사용하여 선호도를 통해 아웃바운드 SMTP 트래픽을 
 
    하나의 관심도가 여러 가지 다른 이름을 가질 수 있습니다. 이름을 구분하려면 다음을 사용하십시오. **;** 문자.
 
-   예제:
+   예:
 
    ```
     IPAffinity name="mid.Server;WWserver;local.Server">

@@ -3,7 +3,7 @@ product: campaign
 title: 데이터베이스 성능
 description: 데이터베이스 성능
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
@@ -11,8 +11,8 @@ topic-tags: troubleshooting
 exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 10%
+source-wordcount: '494'
+ht-degree: 7%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->운영하는데 시간이 오래 걸리고 공간이 많이 확보된다면 그만큼 심층적인 유지 보수(인덱스 리빌딩 등)가 필요하다는 뜻이다. 이 작업에 대한 자세한 정보는 [이 섹션](../../production/using/recommendations.md)을 참조하십시오.
+>운영하는데 오랜 시간이 걸리고 많은 공간을 비우면 그만큼 심층적인 유지 보수(인덱스 리빌딩 등)가 필요하다는 의미다. 이 작업에 대한 자세한 정보는 [이 섹션](../../production/using/recommendations.md)을 참조하십시오.
 
 **Adobe Campaign 프로세스 모니터링**
 

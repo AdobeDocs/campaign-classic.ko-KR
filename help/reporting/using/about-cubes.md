@@ -11,7 +11,7 @@ exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 
 
-## 용어 {#terminology}
+## Terminology {#terminology}
 
 큐브로 작업할 때의 특정 용어는 아래에 나와 있습니다.
 

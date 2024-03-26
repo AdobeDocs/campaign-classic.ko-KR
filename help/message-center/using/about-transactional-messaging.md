@@ -3,12 +3,12 @@ product: campaign
 title: 트랜잭션 메시지 시작
 description: Adobe Campaign Classic 트랜잭션 메시지 작동 원리 및 주요 단계에 대해 자세히 알아보십시오
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 7%
+source-wordcount: '647'
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 7%
 
 * **중요한 이유** 일반적으로 트랜잭션 메시지는 오픈율이 높습니다. 따라서 고객 관계를 정의하므로 고객의 행동에 강력한 영향을 줄 수 있으므로 신중하게 설계해야 합니다.
 
-* **예제?** 계정 생성 후 환영 메시지, 주문 배송 확인, 청구서, 암호 변경 확인 메시지, 고객이 웹 사이트를 열람한 후 알림, 제품 비가용성 커뮤니케이션, 계정 명세서 등이 될 수 있습니다.
+* **예를 들어?** 계정 생성 후 환영 메시지, 주문 배송 확인, 청구서, 암호 변경 확인 메시지, 고객이 웹 사이트를 열람한 후 알림, 제품 비가용성 커뮤니케이션, 계정 명세서 등이 될 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -72,7 +72,7 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 1. [이벤트 유형 만들기](../../message-center/using/creating-event-types.md).
 1. [메시지 템플릿 만들기 및 디자인](../../message-center/using/creating-the-message-template.md). 이 단계에서 메시지에 이벤트를 연결해야 합니다.
 1. [메시지 테스트](../../message-center/using/testing-message-templates.md).
-1. [메시지 템플릿을 게시합니다](../../message-center/using/publishing-message-templates.md).
+1. [메시지 템플릿 게시](../../message-center/using/publishing-message-templates.md).
 
 >[!NOTE]
 >

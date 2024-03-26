@@ -2,12 +2,12 @@
 product: campaign
 title: 집계 컴퓨팅 수행
 description: 쿼리에서 집계 컴퓨팅을 수행하는 방법에 대해 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '238'
 ht-degree: 2%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 2%
 
 * 어떤 테이블을 선택해야 합니까?
 
-   수신자 테이블 (**nms:recipient**)
+  수신자 테이블 (**nms:recipient**)
 
 * 출력 열에서 어떤 필드를 선택해야 합니까?
 
-   기본 키(개수 포함) 및 성별
+  기본 키(개수 포함) 및 성별
 
 * 필터링된 정보는 어떤 조건을 기반으로 합니까?
 
-   London에 거주하는 수신자 기준
+  London에 거주하는 수신자 기준
 
 이 예제를 만들려면 다음 단계를 적용합니다.
 

@@ -3,7 +3,7 @@ product: campaign
 title: 마케팅 리소스 관리 시작
 description: 마케팅 리소스 관리 살펴보기
 feature: Resource Management
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
@@ -11,7 +11,7 @@ exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -57,6 +57,6 @@ MRM(마케팅 리소스 관리) 추가 기능을 사용하면 계획 및 프로�
 
 * **예산 관리**. [자세히 알아보기](../../mrm/using/controlling-costs.md)
 
-* **작업 관리**. [자세히 알아보기](../../mrm/using/creating-and-managing-tasks.md)
+* **작업 관리**.  [자세히 알아보기](../../mrm/using/creating-and-managing-tasks.md)
 
 * **리소스 관리**. [자세히 알아보기](../../mrm/using/managing-marketing-resources.md)

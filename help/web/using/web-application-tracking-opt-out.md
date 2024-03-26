@@ -2,13 +2,13 @@
 product: campaign
 title: 웹 애플리케이션 추적 옵트아웃
 description: 웹 애플리케이션 추적 옵트아웃
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '679'
 ht-degree: 3%
 
 ---
@@ -42,11 +42,11 @@ Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너�
 * 배너 없음.
 * 각 페이지에서 수동으로 배너 구성: 이 옵션을 선택하고 페이지 속성의 각 페이지에서 배너를 선택합니다.
 
-   ![](assets/pageproperties.png)
+  ![](assets/pageproperties.png)
 
 * 모든 페이지에 배너를 자동으로 추가: 웹 애플리케이션 속성에서 직접 배너를 선택합니다.
 
-   ![](assets/optoutconfig.png)
+  ![](assets/optoutconfig.png)
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Adobe Campaign은 쿠키 값을 관리하고 사용자 환경 설정을 검색�
 * **NL.ClientWebTracking.forbid()**: 웹 추적을 금지하도록 옵트아웃 쿠키 값을 설정합니다. 웹 추적을 금지하려면 사용자 입력이 필요합니다.
 * **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: 사용자가 수락 또는 거부 버튼을 클릭한 후 옵트아웃 쿠키 배너를 닫습니다. (클릭 이벤트 버블링 단계 동안)
 
-   bannerDomElt {DOMElement} 제거해야 하는 쿠키 배너의 루트 DOM 요소
+  bannerDomElt {DOMElement} 제거해야 하는 쿠키 배너의 루트 DOM 요소
 
 * **NL.ClientWebTracking.hasUserPrefs()**: 사용자가 웹 추적에 대한 환경 설정을 선택한 경우 true를 반환합니다.
 * **NL.ClientWebTracking.getUserPrefs()**: 사용자의 환경 설정을 정의하는 옵트아웃 쿠키 값을 반환합니다.
@@ -93,23 +93,23 @@ JSSP를 작성해야 하는 경우 서버측 API를 사용할 수 있습니다.
 
 * **NL.ServerWebTracking.generateOptOutBanner(escapeJs)**: 옵트아웃 배너가 JSSP 페이지에 삽입하기 위한 마크업을 생성합니다
 
-   **escapeJs {Boolean}**: JavaScript 내에서 사용하기 위해 생성된 마크업을 이스케이프해야 하는 경우 true입니다.
+  **escapeJs {Boolean}**: JavaScript 내에서 사용하기 위해 생성된 마크업을 이스케이프해야 하는 경우 true입니다.
 
-   페이지에 인쇄해야 하는 옵트아웃 배너 마크업의 HTML을 반환합니다.
+  페이지에 인쇄해야 하는 옵트아웃 배너 마크업의 HTML을 반환합니다.
 
 * **NL.ServerWebTracking._displayOptOutBanner()**
 
-   관리자가 옵트아웃 배너를 선택한 후 옵트아웃 배너를 표시해야 하는 경우 &quot;true&quot;를 반환합니다.
+  관리자가 옵트아웃 배너를 선택한 후 옵트아웃 배너를 표시해야 하는 경우 &quot;true&quot;를 반환합니다.
 
-   이 코드는 관리자가 이미 웹 추적 옵트아웃 배너를 사용하도록 선택한 경우에 호출됩니다.
+  이 코드는 관리자가 이미 웹 추적 옵트아웃 배너를 사용하도록 선택한 경우에 호출됩니다.
 
-   사용자가 아직 추적 여부를 선택하지 않은 경우 배너가 표시되어야 합니다.
+  사용자가 아직 추적 여부를 선택하지 않은 경우 배너가 표시되어야 합니다.
 
 * **NL.ServerWebTracking.renderOptOutBanner(escapeJs)**
 
-   옵트아웃 배너를 JSSP 페이지에 삽입하여 마크업을 렌더링합니다. Jssp에서 &lt;% %> 사이의 그대로 호출됩니다.
+  옵트아웃 배너를 JSSP 페이지에 삽입하여 마크업을 렌더링합니다. Jssp에서 &lt;% %> 사이의 그대로 호출됩니다.
 
-   **escapeJs {Boolean}**: JavaScript 내에서 사용하기 위해 생성된 마크업을 이스케이프해야 하는 경우 true
+  **escapeJs {Boolean}**: JavaScript 내에서 사용하기 위해 생성된 마크업을 이스케이프해야 하는 경우 true
 
 JSSP 예:
 

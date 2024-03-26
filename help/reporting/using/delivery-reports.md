@@ -8,8 +8,8 @@ feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 7%
+source-wordcount: '1464'
+ht-degree: 9%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->이 보고서에 표시되는 도메인 이름은 큐브 수준에서 사용되는 항목별 목록에 정의됩니다. 기본 도메인을 변경, 추가 또는 제거하려면 **[!UICONTROL Domains]** 항목별 목록을 작성하고 값과 별칭을 수정합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/managing-enumerations.md)을 참조하십시오. 다음 **[!UICONTROL Others]** 카테고리에는 항목별 목록의 값에 속하지 않는 도메인 이름이 포함되어 있습니다.
+>이 보고서에 표시되는 도메인 이름은 큐브 수준에서 사용되는 항목별 목록에 정의됩니다. 기본 도메인을 변경, 추가 또는 제거하려면 **[!UICONTROL Domains]** 항목별 목록을 작성하고 값과 별칭을 수정합니다. 자세한 내용은 다음을 참조하십시오. [이 섹션](../../platform/using/managing-enumerations.md). 다음 **[!UICONTROL Others]** 카테고리에는 항목별 목록의 값에 속하지 않는 도메인 이름이 포함되어 있습니다.
 
 **[!UICONTROL 4. Generated click streams]**
 
@@ -124,7 +124,7 @@ ht-degree: 7%
 
 ![](assets/s_ncs_user_url_report.png)
 
-표시할 점수 차트, 시간 필터(작업 실행 이후, 실행 후 처음 6시간 등)를 선택하여 이 보고서의 내용을 구성할 수 있습니다. 및 데이터 표시 모드(레이블별, URL별, 범주별)입니다. **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 선택 항목을 확인합니다.
+표시할 점수 차트, 시간 필터(작업 실행 이후, 실행 후 처음 6시간 등)를 선택하여 이 보고서의 내용을 구성할 수 있습니다. 및 데이터 표시 모드(레이블별, URL별, 범주별)입니다. 클릭 **[!UICONTROL Refresh]** 을 클릭하여 선택 항목을 확인합니다.
 
 보고서의 상단 섹션에는 다음 비율이 표시됩니다.
 
@@ -170,9 +170,9 @@ ht-degree: 7%
 이 섹션에는 다음 지표가 포함됩니다.
 
 * **[!UICONTROL Messages to be delivered]** : 게재 분석 후 게재할 총 메시지 수
-* **[!UICONTROL Success]** : 정상적으로 처리된 메시지 수. 연관된 비율은 게재할 메시지 수와 관련된 비율입니다.
-* **[!UICONTROL Errors]** : 게재 및 자동 반올림 처리 중 누적된 총 오류 수. 연관된 비율은 게재할 메시지 수와 관련된 비율입니다.
-* **[!UICONTROL New quarantines]** : 게재 실패 후 격리된 주소 수(사용자 알 수 없음, 잘못된 도메인). 연관된 비율은 게재할 메시지 수와 관련된 비율입니다.
+* **[!UICONTROL Success]** : 정상적으로 처리된 메시지 수. 결합된 비율은 게재될 메시지 수에 대한 비율입니다.
+* **[!UICONTROL Errors]** : 게재 및 자동 반올림 처리 중 누적된 총 오류 수. 결합된 비율은 게재될 메시지 수에 대한 비율입니다.
+* **[!UICONTROL New quarantines]** : 게재 실패 후 격리된 주소 수(사용자 알 수 없음, 잘못된 도메인). 결합된 비율은 게재될 메시지 수에 대한 비율입니다.
 
 ## 핫 클릭 {#hot-clicks}
 
@@ -190,7 +190,7 @@ ht-degree: 7%
 
 ![](assets/s_ncs_user_stat_report.png)
 
-게재의 마케팅 효과를 추적할 수 있습니다. 시간표(1시간, 3시간 또는 24시간 보기 등)를 변경하여 값이 표시되는 방식을 구성할 수 있습니다. **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 선택 항목을 확인합니다.
+게재의 마케팅 효과를 추적할 수 있습니다. 시간표(1시간, 3시간 또는 24시간 보기 등)를 변경하여 값이 표시되는 방식을 구성할 수 있습니다. 클릭 **[!UICONTROL Refresh]** 을 클릭하여 선택 항목을 확인합니다.
 
 이 보고서는 게재가 최대 효율에 도달하는 데 필요한 시간을 표시하는 값 테이블과 파레토 차트를 제공합니다. 다음 지표가 사용됩니다.
 

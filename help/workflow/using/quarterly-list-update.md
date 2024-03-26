@@ -2,13 +2,13 @@
 product: campaign
 title: 증분 쿼리를 사용한 분기별 목록 업데이트
 description: 이 사용 사례에서는 수신자 목록을 자동으로 업데이트하는 데 증분 쿼리를 사용합니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 5%
+source-wordcount: '284'
+ht-degree: 7%
 
 ---
 

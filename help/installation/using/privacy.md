@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: a2106e55617209f28da42c50008d16188563b2da
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 4%
+source-wordcount: '812'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 위의 을(를) 사용하고 있지 않은지 확인하고 확인하려면 다음을 통해 추적 URL 테이블에서 쿼리를 실행합니다. [Campaign 일반 쿼리 편집기](../../platform/using/steps-to-create-a-query.md) 또는 의 필터 조건으로 워크플로우를 만듭니다. [쿼리 활동](../../workflow/using/query.md).
 
-예제:
+예:
 
 1. 워크플로우 만들기 및 추가 **쿼리** 활동. [자세히 알아보기](../../workflow/using/query.md)
 

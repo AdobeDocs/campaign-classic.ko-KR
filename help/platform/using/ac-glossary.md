@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '5978'
-ht-degree: 4%
+source-wordcount: '5959'
+ht-degree: 2%
 
 ---
 
@@ -51,7 +51,7 @@ Learn more about [ACS Connector](../../integrations/using/acs-connector-principl
 
 +++**활성 프로필**
 
-지난 12개월 동안 어느 채널을 통해 프로필을 타겟팅하거나 통신한 경우 프로필이 활성 상태로 간주됩니다. 계약에 따라 각 Campaign 인스턴스에는 청구 용도로 계산되는 특정 수의 활성 프로필이 제공됩니다.
+지난 12개월 동안 어떤 채널을 통해 프로필을 타겟팅하거나 통신한 경우 프로필이 활성 상태로 간주됩니다. 계약에 따라 각 Campaign 인스턴스에는 청구 용도로 계산되는 특정 수의 활성 프로필이 제공됩니다.
 
 자세히 알아보기 [활성 프로필](../../platform/using/about-profiles.md#active-profiles).
 +++
@@ -334,7 +334,7 @@ An engine call is a server call that starts real-time processing on server side 
 +++
 -->
 
-+++**보강 활동**
++++**데이터 보강 활동**
 
 데이터 보강 활동은 워크플로우에서 처리될 생성된 작업 테이블 데이터를 운영자가 보강할 수 있도록 하는 고급 워크플로우 활동입니다. 이 활동은 일반적으로 타겟팅 활동 다음이나 파일을 가져온 후 타겟팅된 데이터를 사용하는 활동 전에 사용됩니다. 보강은 인바운드 전환 데이터를 변환하고 향상된 데이터로 출력 전환을 완료하도록 활동을 구성할 수 있습니다. 이를 통해 운영자는 여러 데이터 세트의 데이터를 결합하거나 임시 리소스에 대한 링크를 만들 수 있습니다.
 
@@ -371,7 +371,7 @@ Explorer 보기는 Adobe Campaign 아티팩트와 데이터를 포함하는 폴�
 자세히 알아보기 [피로도 관리](../../campaign-opt/using/pressure-rules.md).
 +++
 
-+++**FDA(Federated Data Access)**
++++**페더레이션 데이터 액세스(FDA)**
 
 Federated Data Access는 타사 데이터베이스를 포함하도록 클라이언트 데이터 모델의 확장을 지원합니다. 대상 테이블의 구조를 자동으로 감지하고 SQL 소스의 데이터를 사용합니다. Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.
 
@@ -408,7 +408,7 @@ Federated Data Access는 타사 데이터베이스를 포함하도록 클라이�
 자세히 알아보기 [폴더 보기](../../platform/using/adobe-campaign-explorer.md).
 +++
 
-+++**양식**
++++**Forms**
 
 Forms은 특정 스키마 유형에 대한 인터페이스 표현을 정의합니다. Forms은 수신자, 게재 및 캠페인과 같이 제품에서 데이터 요소를 쉽게 만들고 편집하는 데 사용되는 수단입니다. Adobe Campaign의 모든 인터페이스 요소는 Forms을 사용하여 제품 자체에서 만들어집니다. 양식은 선택 사항이며 모든 스키마에 양식이 있는 것은 아닙니다.
 
@@ -708,14 +708,14 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 자세히 알아보기 [오퍼 가중치](../../interaction/using/creating-an-offer.md#offer-weight).
 +++
 
-+++**운영자**
++++**연산자**
 
 운영자는 로그인하고 작업을 수행할 수 있는 권한이 있는 Adobe Campaign 사용자입니다. 연산자는 연산자 그룹과 연결되고 이러한 그룹의 권한과 권한을 상속합니다. 명명된 권한을 연산자에 직접 지정할 수도 있습니다.
 
 자세히 알아보기 [연산자](../../platform/using/access-management-operators.md).
 +++
 
-+++**운영자 그룹**
++++**연산자 그룹**
 
 연산자 그룹을 사용하면 Campaign 연산자의 역할을 관리할 수 있습니다. 권한을 지정할 연산자 그룹을 정의한 다음 연산자를 하나 이상의 그룹에 연결합니다. 이렇게 하면 권한을 재사용하고 운영자 프로필을 보다 일관되게 만들 수 있습니다. 또한 프로필 관리 및 유지 관리를 용이하게 합니다.
 
@@ -825,7 +825,7 @@ Learn more about [Predictive Engagement Scoring](../../platform/using/creating-f
 자세히 알아보기 [프로그램](../../campaign/using/setting-up-marketing-campaigns.md).
 +++
 
-+++**퍼블릭 리소스**
++++**공개 리소스**
 
 Adobe Campaign의 공개 리소스 폴더에는 애플리케이션 서버가 호스팅하는 이미지가 들어 있습니다. 게재의 이미지는 이메일과 같은 게재에 표시되려면 애플리케이션 서버(또는 Campaign이 이렇게 구성된 경우 이미지 호스팅 서버)에 게시되어야 합니다.
 
@@ -874,7 +874,7 @@ Campaigns that re-target the recipients of a previous delivery or deliveries.
 자세히 알아보기 [스키마](../../configuration/using/about-schema-reference.md).
 +++
 
-+++**스키마 확장 기능**
++++**스키마 확장**
 
 스키마 확장을 사용하면 비즈니스 사용 사례에 가장 적합하게 기본 제공 스키마를 사용자 지정할 수 있습니다. 예를 들어 &quot;충성도&quot; 필드를 수신자 표에 추가할 수 있습니다.
 
@@ -1068,7 +1068,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 자세히 알아보기 [웹 애플리케이션](../../web/using/about-web-applications.md).
 +++
 
-+++**워크플로우**
++++**워크플로**
 
 워크플로우는 캠페인 실행 흐름을 시각적으로 표현한 것입니다. 애플리케이션 서버의 여러 모듈에 걸쳐 전체 프로세스 및 작업을 오케스트레이션할 수 있습니다. 이 포괄적인 그래픽 환경을 사용하면 세분화, 캠페인 실행, 파일 처리, 인력 참여 등의 프로세스를 디자인할 수 있습니다. 워크플로우 엔진은 이러한 프로세스를 실행하고 추적합니다.
 

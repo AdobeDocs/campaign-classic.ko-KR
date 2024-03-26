@@ -2,13 +2,13 @@
 product: campaign
 title: 고급 매개 변수
 description: 고급 매개 변수
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Data Management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 5%
+source-wordcount: '508'
+ht-degree: 6%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 5%
 
 * 간소화된 버전(용 **[!UICONTROL Start]** 및 **[!UICONTROL End]** 활동(예: )
 
-   ![](assets/wf-advanced-basic.png)
+  ![](assets/wf-advanced-basic.png)
 
 * 더 자세한 버전 (용 **[!UICONTROL Query]** 활동(예: )
 
-   ![](assets/wf-advanced-full.png)
+  ![](assets/wf-advanced-full.png)
 
 에 입력할 필드 **[!UICONTROL Advanced]** 탭은 다음 섹션에 자세히 설명되어 있습니다.
 
@@ -53,7 +53,7 @@ ht-degree: 5%
 고가용성 워크플로 구성은 다음 항목에 자세히 설명되어 있습니다. [섹션](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
 
 
-## 최대. 실행 기간 {#max--execution-period}
+## 최대 실행 기간 {#max--execution-period}
 
 이 필드에서는 작업이 너무 오래 걸리는 경우에 대한 경고를 설정할 수 있습니다. 워크플로우 작업에는 영향을 주지 않습니다. 다음 시간까지 작업이 완료되지 않은 경우 **[!UICONTROL Max. execution period]** 종료, **[!UICONTROL Instance monitoring]** 이 워크플로에 대한 경고가 페이지에 표시됩니다. 이 페이지는 **[!UICONTROL Monitoring]** 홈 페이지의 탭입니다.
 

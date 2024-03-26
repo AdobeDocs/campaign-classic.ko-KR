@@ -3,7 +3,7 @@ product: campaign
 title: 테스트 환경 만들기
 description: 테스트 환경 만들기
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
@@ -11,7 +11,7 @@ exl-id: 49ac279b-bc67-4311-b0a4-0e23f2a99c52
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 10%
+ht-degree: 5%
 
 ---
 

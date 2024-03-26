@@ -10,7 +10,7 @@ topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
 source-git-commit: 624978901943b4c74f50c20298c9596f73b25b1b
 workflow-type: tm+mt
-source-wordcount: '2830'
+source-wordcount: '2834'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 다음 **[!UICONTROL Database cleanup]** 을 통해 액세스할 수 있는 워크플로우 **[!UICONTROL Administration > Production > Technical workflows]** 노드를 사용하면 데이터베이스의 기하급수적인 증가를 방지하기 위해 오래된 데이터를 삭제할 수 있습니다. 워크플로우는 사용자의 개입 없이 자동으로 트리거됩니다.
 
-![cleanup](assets/ncs_cleanup_workflow.png)
+![정리](assets/ncs_cleanup_workflow.png)
 
 ## 구성 {#configuration}
 

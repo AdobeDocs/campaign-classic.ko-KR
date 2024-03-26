@@ -2,14 +2,14 @@
 product: campaign
 title: 웹 양식의 정적 요소
 description: 웹 양식의 정적 요소
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 3%
+source-wordcount: '1039'
+ht-degree: 1%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 3%
 * 리소스 라이브러리 또는 사용자가 액세스할 수 있는 서버에 저장된 이미지입니다. 다음을 참조하십시오 [이미지 삽입](#inserting-images).
 * 클라이언트측 및/또는 서버측에서 실행되는 스크립트. 클라이언트측에서 올바른 실행을 위해 JavaScript로 작성되어야 하며 대부분의 브라우저와 호환되어야 합니다.
 
-   >[!NOTE]
-   >
-   >서버측에서 스크립트는에 정의된 함수를 사용할 수 있습니다. [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko).
+  >[!NOTE]
+  >
+  >서버측에서 스크립트는에 정의된 함수를 사용할 수 있습니다. [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko).
 
 ## HTML 컨텐츠 삽입 {#inserting-html-content}
 
@@ -63,7 +63,7 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 * 다음 **[!UICONTROL Window]** 필드에서는 사이트의 경우 링크에 대한 표시 모드를 선택할 수 있습니다. 새 창, 현재 창 또는 다른 창에서 링크를 열도록 결정할 수 있습니다.
 * 아래와 같이 도구 설명을 추가할 수 있습니다.
 
-   ![](assets/s_ncs_admin_survey_send_an_email.png)
+  ![](assets/s_ncs_admin_survey_send_an_email.png)
 
 * 링크를 버튼이나 이미지로 표시하도록 선택할 수 있습니다. 이렇게 하려면 **[!UICONTROL Type]** 필드.
 
@@ -77,39 +77,39 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
 * 페이지 새로 고침
 
-   이렇게 하려면 **[!UICONTROL Refresh page]** 드롭다운 상자의 옵션 **[!UICONTROL Action]** 필드.
+  이렇게 하려면 **[!UICONTROL Refresh page]** 드롭다운 상자의 옵션 **[!UICONTROL Action]** 필드.
 
-   ![](assets/s_ncs_admin_survey_link_refresh.png)
+  ![](assets/s_ncs_admin_survey_link_refresh.png)
 
 * 다음/이전 페이지 표시
 
-   이렇게 하려면 **[!UICONTROL Next page]** 또는 **[!UICONTROL Previous page]** 드롭다운 상자의 옵션 **[!UICONTROL Action]** 필드.
+  이렇게 하려면 **[!UICONTROL Next page]** 또는 **[!UICONTROL Previous page]** 드롭다운 상자의 옵션 **[!UICONTROL Action]** 필드.
 
-   ![](assets/s_ncs_admin_survey_link_next.png)
+  ![](assets/s_ncs_admin_survey_link_next.png)
 
-   다음을 숨길 수 있습니다. **[!UICONTROL Next]** 및/또는 **[!UICONTROL Back]** 링크로 대체해야 하는 단추입니다. 다음을 참조하십시오. [페이지](defining-web-forms-page-sequencing.md).
+  다음을 숨길 수 있습니다. **[!UICONTROL Next]** 및/또는 **[!UICONTROL Back]** 링크로 대체해야 하는 단추입니다. 다음을 참조하십시오. [페이지](defining-web-forms-page-sequencing.md).
 
-   링크가 다음을 대체합니다. **[!UICONTROL Next]** 기본적으로 사용되는 단추입니다.
+  링크가 다음을 대체합니다. **[!UICONTROL Next]** 기본적으로 사용되는 단추입니다.
 
-   ![](assets/s_ncs_admin_survey_link_next_ex.png)
+  ![](assets/s_ncs_admin_survey_link_next_ex.png)
 
 * 다른 페이지 표시
 
-   다음 **[!UICONTROL Enable a transition]** 옵션에서 선택한 아웃바운드 전환과 연관된 특정 페이지를 표시할 수 있습니다. **[!UICONTROL Transition]** 필드.
+  다음 **[!UICONTROL Enable a transition]** 옵션에서 선택한 아웃바운드 전환과 연관된 특정 페이지를 표시할 수 있습니다. **[!UICONTROL Transition]** 필드.
 
-   ![](assets/s_ncs_admin_survey_link_viral.png)
+  ![](assets/s_ncs_admin_survey_link_viral.png)
 
-   기본적으로 페이지에는 출력 전환이 하나만 있습니다. 새 전환을 만들려면 페이지를 선택한 다음 **[!UICONTROL Add]** 의 단추 **[!UICONTROL Output transitions]** 섹션에 자세히 설명되어 있습니다.
+  기본적으로 페이지에는 출력 전환이 하나만 있습니다. 새 전환을 만들려면 페이지를 선택한 다음 **[!UICONTROL Add]** 의 단추 **[!UICONTROL Output transitions]** 섹션에 자세히 설명되어 있습니다.
 
-   ![](assets/s_ncs_admin_survey_add_transition.png)
+  ![](assets/s_ncs_admin_survey_add_transition.png)
 
-   다이어그램에서 이 추가는 다음과 같이 표시됩니다.
+  다이어그램에서 이 추가는 다음과 같이 표시됩니다.
 
-   ![](assets/s_ncs_admin_survey_add_transition_graph.png)
+  ![](assets/s_ncs_admin_survey_add_transition_graph.png)
 
-   >[!NOTE]
-   >
-   >웹 양식의 페이지 시퀀싱에 대한 자세한 내용은 [웹 양식 페이지 순서 정의](defining-web-forms-page-sequencing.md).
+  >[!NOTE]
+  >
+  >웹 양식의 페이지 시퀀싱에 대한 자세한 내용은 [웹 양식 페이지 순서 정의](defining-web-forms-page-sequencing.md).
 
 ### HTML 콘텐츠 개인화 {#personalizing-html-content}
 
@@ -142,7 +142,7 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
 이 메서드를 사용하면 문자열을 쉽게 현지화할 수 있습니다. 다음을 참조하십시오 [웹 양식 번역](translating-a-web-form.md)
 
-예를 들어 **연락처** HTML 컨텐츠에 &quot;마지막 연락 날짜:&quot; 문자열을 표시할 수 있는 필드입니다. 이렇게 하려면 아래 단계를 수행합니다:
+예를 들어 **연락처** HTML 컨텐츠에 &quot;마지막 연락 날짜:&quot; 문자열을 표시할 수 있는 필드입니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 을(를) 클릭합니다 **[!UICONTROL Text]** HTML 텍스트 탭입니다.
 1. 다음을 클릭합니다. **[!UICONTROL Add]** 아이콘.

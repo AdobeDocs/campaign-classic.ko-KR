@@ -2,12 +2,12 @@
 product: campaign
 title: 개인 정보 보호 규정 워크플로
 description: 개인 정보 보호 규정 워크플로우에 대해 자세히 알아보십시오
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Privacy
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 12%
+source-wordcount: '111'
+ht-degree: 9%
 
 ---
 

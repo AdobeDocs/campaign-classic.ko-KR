@@ -3,7 +3,7 @@ product: campaign
 title: SpamAssassin 구성
 description: SpamAssassin 구성
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
@@ -11,8 +11,8 @@ topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 2%
+source-wordcount: '992'
+ht-degree: 1%
 
 ---
 
@@ -172,7 +172,7 @@ cpan Mail::SpamAssassin
 
 ### 필터 규칙 업데이트 {#updating-filter-rules}
 
-필터 규칙은 다음을 사용하여 자동으로 업데이트할 수 있습니다 **sa-update** 도구. 공식 SpamAssassin 웹 사이트를 참조하십시오 [https://spamassassin.apache.org/](https://spamassassin.apache.org/) 추가 정보.
+필터 규칙은 다음을 사용하여 자동으로 업데이트할 수 있습니다. **sa-update** 도구. 공식 SpamAssassin 웹 사이트를 참조하십시오 [https://spamassassin.apache.org/](https://spamassassin.apache.org/) 추가 정보.
 
 Debian에서는 매일 업데이트가 자동으로 수행됩니다.
 

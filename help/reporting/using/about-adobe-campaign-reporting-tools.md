@@ -8,12 +8,12 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 19%
+source-wordcount: '347'
+ht-degree: 18%
 
 ---
 
-# 보고 시작하기 {#about-adobe-campaign-reporting-tools}
+# 보고 시작 {#about-adobe-campaign-reporting-tools}
 
 
 

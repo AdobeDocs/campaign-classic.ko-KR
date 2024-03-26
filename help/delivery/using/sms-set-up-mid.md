@@ -6,7 +6,8 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: SMS
 role: User, Developer, Admin
-source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
+exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
+source-git-commit: 46dcd80d5adc31a66b47c6d75e7914b0a686326b
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 8%
@@ -187,4 +188,3 @@ SMS 채널을 통해 메시지를 전송하려면 채널 커넥터에 대한 참
 * [SMS 문자 변환](sms-set-up.md#about-character-transliteration)
 * [텍스트 인코딩](sms-set-up.md#about-text-encodings)
 * [자동 회신](sms-set-up.md#automatic-reply)
-

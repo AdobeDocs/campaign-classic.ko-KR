@@ -11,8 +11,8 @@ topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 2%
+source-wordcount: '506'
+ht-degree: 1%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 2%
 
 
 
-이 섹션에서는 Assets 핵심 서비스 또는 Adobe Experience Manager Assets(AEM Assets) 라이브러리와 통합 기능을 사용하기 위해 Adobe Campaign에서 필요한 구성 단계에 대해 자세히 설명합니다.
+이 섹션에서는 Adobe Campaign 핵심 서비스 또는 Adobe Experience Manager Assets(AEM Assets) 라이브러리와 통합 기능을 사용하는 데 필요한 구성 단계에 대해 자세히 설명합니다.
 
 >[!CAUTION]
 >
 >이러한 통합은 동시에 수행됩니다. 구성하기 전에 다음 정보를 주의 깊게 읽으십시오.
 
 * 과 통합 **Experience Cloud 에셋**: 이 통합을 사용하면 Adobe Experience Cloud 라이브러리의 이미지를 삽입할 수 있습니다. 이 통합은 다음을 설치하여 설정해야 합니다 **[!UICONTROL Integration with the Adobe Experience Cloud]** Adobe Campaign의 기본 제공 패키지
-* 과 통합 **AEM Assets**: 이 통합을 통해 Adobe Experience Manager Assets 라이브러리의 이미지를 삽입할 수 있습니다. 이 통합은 다음을 설치하여 설정해야 합니다 **[!UICONTROL AEM Integration]** Adobe Campaign의 기본 제공 패키지 Adobe Experience Manager 6.4부터는 이 통합을 더 이상 사용할 수 없습니다.
+* 과 통합 **AEM Assets**: 이 통합을 사용하면 Adobe Experience Manager Assets 라이브러리의 이미지를 삽입할 수 있습니다. 이 통합은 다음을 설치하여 설정해야 합니다 **[!UICONTROL AEM Integration]** Adobe Campaign의 기본 제공 패키지 Adobe Experience Manager 6.4부터는 이 통합을 더 이상 사용할 수 없습니다.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ AEM Assets을 Adobe Campaign과 통합하려면 먼저 Adobe Experience Manager�
 
 에서 Adobe Campaign 및 Adobe Experience Manager을 통합하는 방법을 알아봅니다. [자세한 설명서](../../integrations/using/about-adobe-experience-manager.md).
 
-이 통합이 설정되면 Adobe Campaign에서 AEM Assets 라이브러리를 사용하도록 새 게재 템플릿을 구성할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
+이 통합이 설정되면 Adobe Campaign에서 AEM Assets 라이브러리를 사용하도록 새 게재 템플릿을 구성할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 새 게재 템플릿을 만들거나 기존 템플릿을 복제합니다. 게재 템플릿에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../../delivery/using/about-templates.md).
 1. 편집 **속성** 이 템플릿의 일부입니다.

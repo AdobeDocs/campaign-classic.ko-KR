@@ -63,10 +63,10 @@ param:==help
    * datetime
    * datetimetz
    * 다테티메노츠
-   * date
+   * 일자
    * DOMDocument
    * DOMELEMENT
-   * 더블
+   * 중복
    * enum
    * 부동
    * html
@@ -75,7 +75,7 @@ param:==help
    * 길게
    * 메모
    * MNTOKEN
-   * percent
+   * 백분율
    * primarykey
    * 짧음
    * 문자열

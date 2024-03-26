@@ -2,12 +2,12 @@
 product: campaign
 title: 데이터 업데이트
 description: 데이터 업데이트 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Targeting Activity, Data Management
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '859'
 ht-degree: 2%
 
 ---
@@ -32,13 +32,13 @@ An **데이터 업데이트**-type 활동은 데이터베이스의 필드에 대
 
 다음 **[!UICONTROL Batch size]** 필드를 사용하면 업데이트할 인바운드 전환 요소 수를 선택할 수 있습니다. 예를 들어 500이라고 지정하면 처음 처리된 500개의 레코드가 업데이트됩니다.
 
-## 기록 식별 {#record-identification}
+## 레코드 식별 {#record-identification}
 
 데이터베이스의 레코드를 식별하는 방법을 지정합니다.
 
 * 데이터 항목이 기존 타겟팅 차원과 관련된 경우 **[!UICONTROL By directly using the targeting dimension]** 옵션을 선택하고 **[!UICONTROL Updated dimension]** 필드.
 
-   다음을 사용하여 선택한 차원에 대한 필드를 표시할 수 있습니다. **[!UICONTROL Edit this link]** 돋보기 단추.
+  다음을 사용하여 선택한 차원에 대한 필드를 표시할 수 있습니다. **[!UICONTROL Edit this link]** 돋보기 단추.
 
 * 그렇지 않으면 데이터베이스의 데이터를 식별하거나 조정 키를 직접 사용할 수 있는 링크를 하나 이상 지정합니다.
 
@@ -101,7 +101,7 @@ An **데이터 업데이트**-type 활동은 데이터베이스의 필드에 대
 
 1. 기본 레코드로 이동할 컬렉션과 업데이트할 필드를 선택합니다.
 
-   하나 또는 여러 개의 보조 레코드가 식별되면 여기에 적용되는 규칙을 입력합니다. 이를 위해 표현식 빌더를 사용할 수 있습니다. 자세한 정보는 이 [섹션](../../platform/using/defining-filter-conditions.md#building-expressions)을 참조하십시오. 예를 들어, 보관해야 하는 모든 레코드 중에서 가장 최근에 업데이트된 값임을 지정하여 를 들 수 있습니다.
+   하나 또는 여러 개의 보조 레코드가 식별되면 여기에 적용되는 규칙을 입력합니다. 이를 위해 표현식 빌더를 사용할 수 있습니다. 자세한 정보는 다음을 참조하십시오. [섹션](../../platform/using/defining-filter-conditions.md#building-expressions). 예를 들어, 보관해야 하는 모든 레코드 중에서 가장 최근에 업데이트된 값임을 지정하여 를 들 수 있습니다.
 
    그런 다음 규칙에 고려할 조건을 입력합니다.
 

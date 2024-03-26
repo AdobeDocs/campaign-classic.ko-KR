@@ -11,8 +11,8 @@ topic-tags: asset-sharing
 exl-id: b28aa5a5-afba-458b-8a85-375493c6c836
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 1%
+source-wordcount: '173'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Experience Cloud 에셋은 솔루션 간에 공유할 수 있는 마케팅 준�
 * 에셋 스토리지, 관리 인터페이스, 포함된 선택 인터페이스(솔루션을 통해 액세스).
 * Creative Cloud 및 Experience Cloud 솔루션과 통합
 
-Adobe Campaign에서 이메일 게재 또는 랜딩 페이지를 편집할 때 Adobe Experience Cloud 라이브러리에서 에셋을 배치할 수 있습니다. 사용 중인 솔루션에 따라 이러한 에셋은 에셋 핵심 서비스 또는 Adobe Experience Manager 에셋에 저장할 수 있습니다.
+Adobe Campaign에서 이메일 게재 또는 랜딩 페이지를 편집할 때 Adobe Experience Cloud 라이브러리에서 에셋을 배치할 수 있습니다. 사용 중인 솔루션에 따라 이러한 에셋은 에셋 핵심 서비스 또는 Adobe Experience Manager Assets에 저장할 수 있습니다.
 
 사용 가능한 여러 라이브러리는 다음에 자세히 설명되어 있습니다. [이 문서](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html).
 

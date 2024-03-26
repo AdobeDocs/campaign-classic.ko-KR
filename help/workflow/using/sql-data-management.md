@@ -2,13 +2,13 @@
 product: campaign
 title: SQL 데이터 관리
 description: SQL 데이터 관리 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 4%
+source-wordcount: '419'
+ht-degree: 5%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 4%
 
 다음 **SQL 데이터 관리** 활동을 사용하면 고유한 SQL 스크립트를 작성하여 작업 테이블을 만들고 채울 수 있습니다.
 
-## 전제 조건 {#prerequisites}
+## 필수 구성 요소 {#prerequisites}
 
 활동을 구성하기 전에 다음 전제 조건이 충족되는지 확인하십시오.
 
 * 활동은 원격 데이터 소스에만 사용할 수 있습니다. 다음 **[!UICONTROL FDA]** 따라서 인스턴스에 (Federated Data Access) 패키지를 설치해야 합니다. [자세히 알아보기](../../installation/using/about-fda.md)
 
-   자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
+  자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
 
-   ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 설명서](../../installation/using/about-fda.md)
+  ![](assets/do-not-localize/v7.jpeg)[Campaign v7 설명서](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png)[  Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
+  ![](assets/do-not-localize/v8.png)[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko)
 
 * 아웃바운드 스키마는 데이터베이스에 있어야 하며 FDA 데이터베이스에 연결되어 있어야 합니다.
 * 워크플로우를 실행하는 연산자에는 **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** 명명된 권한. [자세히 알아보기](../../platform/using/access-management-named-rights.md)
@@ -59,9 +59,9 @@ ht-degree: 4%
    * **activity.tableName**: 아웃바운드 작업 테이블의 SQL 이름입니다.
    * **task.incomingTransitionByName(&#39;name&#39;).tableName**: 사용할 들어오는 전환(해당 전환으로 식별됨)에 의해 수행되는 작업 테이블의 SQL 이름.
 
-      >[!NOTE]
-      >
-      >(&#39;name&#39;) 값은 **[!UICONTROL Name]** 전환 속성의 필드입니다.
+     >[!NOTE]
+     >
+     >(&#39;name&#39;) 값은 **[!UICONTROL Name]** 전환 속성의 필드입니다.
 
 1. SQL 스크립트에 이미 아웃바운드 작업 테이블을 만드는 명령이 포함되어 있는 경우 **[!UICONTROL Automatically create work table]** 옵션을 선택합니다. 그렇지 않으면 워크플로우가 실행되면 작업 테이블이 자동으로 만들어집니다.
 1. 클릭 **[!UICONTROL Ok]** 활동 구성을 확인합니다.

@@ -2,13 +2,13 @@
 product: campaign
 title: JavaScript 스크립트 및 템플릿
 description: JavaScript 스크립트 및 템플릿
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 2%
+source-wordcount: '1254'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 * &#39;Test&#39; 활동은 적절한 전환을 활성화하기 위해 JavaScript 표현식을 평가합니다.
 * 대부분의 텍스트 필드는 JavaScript 템플릿입니다. JavaScript 표현식은 &lt;%=~%> 사이에 포함될 수 있습니다. 이러한 필드에는 표현식 입력에 도움이 되는 드롭다운 목록을 여는 버튼이 있습니다.
 
-   ![](assets/script-button.png)
+  ![](assets/script-button.png)
 
 ## 오브젝트 노출됨 {#objects-exposed}
 
@@ -100,7 +100,7 @@ logInfo("Start date: " + task.creationDate)
 
 1. 인스턴스 변수를 정의하도록 JavaScript 코드 활동을 추가하고 구성합니다.
 
-   예제: `instance.vars.segmentpercent = 10;`
+   예: `instance.vars.segmentpercent = 10;`
 
    ![](assets/js_ex1.png)
 

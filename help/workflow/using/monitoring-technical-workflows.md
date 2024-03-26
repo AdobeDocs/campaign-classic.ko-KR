@@ -2,13 +2,13 @@
 product: campaign
 title: 기술 워크플로우 모니터링
 description: 기술 워크플로우 모니터링
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 5%
+source-wordcount: '511'
+ht-degree: 6%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 5%
 대상 **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
 1. 다음을 확인하십시오. **[!UICONTROL Database Cleanup]** 워크플로우가 매일 성공적으로 실행 및 완료됩니다. 자세한 정보는 다음을 참조하십시오. [페이지](../../production/using/database-cleanup-workflow.md)..
-1. 저널을 검토하여 경과 시간이 시간에 따라 비교적 일정하고 다른 워크플로우에 방해가 되지 않는지 확인하십시오.
+1. 저널을 검토하여 경과 시간이 시간에 따라 비교적 일정하고 다른 워크플로우에 영향을 주지 않는지 확인하십시오.
 
 대상 **[!UICONTROL Tracking workflow (‘tracking’)]**:
 

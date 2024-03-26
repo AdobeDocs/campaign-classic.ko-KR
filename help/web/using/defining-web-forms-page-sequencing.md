@@ -2,14 +2,14 @@
 product: campaign
 title: 웹 양식 페이지 순서 정의
 description: 웹 양식 페이지 순서 정의
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 0%
+source-wordcount: '714'
+ht-degree: 1%
 
 ---
 
@@ -35,19 +35,19 @@ ht-degree: 0%
 
 * 양식의 다른 페이지입니다. 이렇게 하려면 다음을 선택합니다. **[!UICONTROL Internal activity]** 원하는 페이지를 다음과 같이 지정합니다.
 
-   ![](assets/s_ncs_admin_jump_param1.png)
+  ![](assets/s_ncs_admin_jump_param1.png)
 
 * 다른 양식입니다. 이렇게 하려면 **[!UICONTROL Explicit]** 옵션을 설정하고 대상 양식을 지정합니다.
 
-   ![](assets/s_ncs_admin_jump_param2.png)
+  ![](assets/s_ncs_admin_jump_param2.png)
 
 * 대상은 변수에 저장할 수 있습니다. 이 경우 아래와 같이 드롭다운 목록에서 선택합니다.
 
-   ![](assets/s_ncs_admin_jump_param3.png)
+  ![](assets/s_ncs_admin_jump_param3.png)
 
 * 다음 **[!UICONTROL Comment]** 탭에서는 작업자가 다이어그램에서 개체를 클릭할 때 표시되는 정보를 입력할 수 있습니다.
 
-   ![](assets/s_ncs_admin_survey_jump_comment.png)
+  ![](assets/s_ncs_admin_survey_jump_comment.png)
 
 ## 예: URL의 매개 변수에 따라 다른 양식에 액세스 {#example--accessing-another-form-according-to-a-parameter-of-the-url}
 

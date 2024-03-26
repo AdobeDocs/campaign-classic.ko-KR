@@ -10,8 +10,8 @@ topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '4004'
-ht-degree: 6%
+source-wordcount: '3838'
+ht-degree: 1%
 
 ---
 
@@ -288,15 +288,15 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NcmResourcesDir</span> <br /> </td> 
-   <td> Adobe Campaign 클라이언트 콘솔에 게시할 리소스 위치입니다. <a href="../../delivery/using/formatting.md#image-referencing">이 섹션</a>을 참조하십시오.<br /> </td> 
+   <td> Adobe Campaign 클라이언트 콘솔에 게시할 리소스 위치입니다. 다음을 참조하십시오 <a href="../../delivery/using/formatting.md#image-referencing">이 섹션</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmResourcesDirPreview</span> <br /> </td> 
-   <td> Adobe Campaign 클라이언트 콘솔에서 미리 볼 수 있는 리소스의 위치입니다. <a href="../../delivery/using/formatting.md#image-referencing">이 섹션</a>을 참조하십시오.<br /> </td> 
+   <td> Adobe Campaign 클라이언트 콘솔에서 미리 볼 수 있는 리소스의 위치입니다. 다음을 참조하십시오 <a href="../../delivery/using/formatting.md#image-referencing">이 섹션</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_DefaultIgnoredImage</span> <br /> </td> 
-   <td> 업로드 도중 건너뛴 이미지의 URL 마스크 목록.<br /> </td> 
+   <td> 업로드하는 동안 건너뛴 이미지에 대한 URL 마스크 목록입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImagePublishing</span> </td> 
@@ -304,7 +304,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImageSubDirectory</span> <br /> </td> 
-   <td> 서버의 이미지가 저장될 폴더.<br /> </td> 
+   <td> 서버의 이미지를 저장할 폴더입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_LogoPath</span> <br /> </td> 
@@ -336,7 +336,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkFileRes_Public_URL</span> <br /> </td> 
-   <td> 공개 리소스 파일의 새 URL.<br /> </td> 
+   <td> 공개 리소스 파일의 새 URL입니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -535,11 +535,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventQueueAlert</span> <br /> </td> 
-   <td> 보류 중인 실시간 이벤트 대기열의 중요 상태 전 임계값.<br /> </td> 
+   <td> 보류 중인 실시간 이벤트 대기열의 중요 조건 전 임계값.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventQueueWarning</span> <br /> </td> 
-   <td> 보류 중인 실시간 이벤트 대기열의 경고 전 임계값.<br /> </td> 
+   <td> 보류 중인 실시간 이벤트 대기열에 대한 경고 전 임계값.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventThroughputAlert</span> <br /> </td> 
@@ -676,7 +676,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkInstancePrefix</span> <br /> </td> 
-   <td> 자동으로 생성된 내부 이름에 추가된 접두사.<br /> </td> 
+   <td> 자동으로 생성된 내부 이름에 추가된 접두사입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkQuery_Schema_LineCount</span> <br /> </td> 
@@ -741,11 +741,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_EdgeServer</span> <br /> </td> 
-   <td> 통합에 사용되는 Adobe Target 서버입니다. 이 옵션은 기본적으로 이미 선택되어 있습니다. 이 값은 Adobe Target 도메인 서버 다음에 /m2 값이 옵니다. 예: tt.omtrdc.net/m2.<br /><a href="../../integrations/using/configuring-the-integration-with-adobe-target.md"> 이 섹션</a>을 참조하십시오.<br /> </td> 
+   <td> 통합에 사용되는 Adobe Target 서버입니다. 이 옵션은 기본적으로 이미 선택되어 있습니다. 이 값은 Adobe Target 도메인 서버 다음에 /m2 값이 옵니다. 예: tt.omtrdc.net/m2.<br /> 다음을 참조하십시오 <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">이 섹션</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_TenantName</span> <br /> </td> 
-   <td> Adobe Target 조직 이름. 이 값은 Adobe Target 클라이언트의 이름에 해당합니다.<br /><a href="../../integrations/using/configuring-the-integration-with-adobe-target.md"> 이 섹션</a>을 참조하십시오.<br /> </td> 
+   <td> Adobe Target 조직 이름. 이 값은 Adobe Target 클라이언트의 이름에 해당합니다.<br /> 다음을 참조하십시오 <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">이 섹션</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DataSourceId</span> <br /> </td> 
@@ -856,7 +856,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ClickFormula</span> <br /> </td> 
-   <td> 추적 URL 계산 스크립트.<br /> </td> 
+   <td> 추적 URL 계산 스크립트입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ExtAccount</span> <br /> </td> 
@@ -872,7 +872,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_OpenFormula</span> <br /> </td> 
-   <td> URL 계산 스크립트 열기.<br /> </td> 
+   <td> URL 계산 스크립트를 엽니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_Password</span> <br /> </td> 
@@ -1047,7 +1047,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersMode</span> <br /> </td> 
-   <td> 웹 폼의 무효화 모드를 지정할 수 있는 옵션: 기본적으로 로컬, 옵션이 '추적'인 경우 추적 서버를 사용하고 '기타 서버' 옵션과 함께 개인화된 목록을 사용합니다.<br /> </td> 
+   <td> 웹 양식의 무효화 모드를 지정할 수 있는 옵션: 기본적으로 로컬, 옵션이 '추적'인 경우 추적 서버를 사용하고 '기타 서버' 옵션과 함께 개인화된 목록을 사용합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersURLs</span> <br /> </td> 

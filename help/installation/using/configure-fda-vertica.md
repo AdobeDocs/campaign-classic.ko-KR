@@ -3,15 +3,15 @@ product: campaign
 title: vertica analytics에 대한 액세스 구성
 description: FDA에서 Vertica analytics에 대한 액세스를 구성하는 방법 알아보기
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 3%
+source-wordcount: '376'
+ht-degree: 2%
 
 ---
 
@@ -84,7 +84,7 @@ Campaign 사용 **페더레이션 데이터 액세스** (FDA) 외부 데이터�
 
 1. 다운로드 [Windows용 ODBC 드라이버](https://www.vertica.com/download/vertica/client-drivers/). Windows용 드라이버를 설치하려면 .NET Framework 3.5를 사용하도록 설정해야 합니다. 그렇지 않으면 설치 마법사가 자동으로 사용하도록 설정하고 다운로드합니다.
 
-1. Windows에서 ODBC 드라이버를 구성합니다. 자세한 정보는 이 [페이지](https://www.vertica.com/docs/9.2.x/HTML/Content/Authoring/ConnectingToVertica/ClientODBC/SettingUpADSN.htm)를 참조하십시오
+1. Windows에서 ODBC 드라이버를 구성합니다. 자세한 내용은 다음을 참조하십시오. [이 페이지](https://www.vertica.com/docs/9.2.x/HTML/Content/Authoring/ConnectingToVertica/ClientODBC/SettingUpADSN.htm)
 
 1. 그런 다음 Adobe Campaign에서 다음을 구성할 수 있습니다. [!DNL Vertica Analytics] 외부 계정입니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#vertical-external).
 

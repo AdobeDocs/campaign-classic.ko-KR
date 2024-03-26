@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: 결합
+title: 합집합
 description: 결합 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Targeting Activity
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 1%
+source-wordcount: '312'
+ht-degree: 2%
 
 ---
 
-# 결합{#union}
+# 합집합{#union}
 
 
 
@@ -37,7 +37,7 @@ ht-degree: 1%
    최대 수신자 수를 입력하고 모집단의 우선 순위를 선택하여 이 최종 수를 지정합니다.
 
 1. 결합 활동을 승인한 다음 목록 업데이트 활동을 구성합니다(참조). [목록 업데이트](list-update.md)).
-1. 워크플로우 시작. 결과 수가 표시되고 목록 업데이트 활동에 정의된 목록이 생성되거나 업데이트됩니다. 이 목록에는 두 쿼리 모두에 대한 수신자 집합 또는 해당하는 경우 이전 단계에서 정의된 숫자가 포함됩니다.
+1. 워크플로우를 시작합니다. 결과 수가 표시되고 목록 업데이트 활동에 정의된 목록이 생성되거나 업데이트됩니다. 이 목록에는 두 쿼리 모두에 대한 수신자 집합 또는 해당하는 경우 이전 단계에서 정의된 숫자가 포함됩니다.
 
    ![](assets/union_example.png)
 

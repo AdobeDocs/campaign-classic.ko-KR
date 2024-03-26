@@ -2,12 +2,12 @@
 product: campaign
 title: 메시지 센터(실행)
 description: 메시지 센터(실행)
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 10%
+source-wordcount: '230'
+ht-degree: 5%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 10%
 
 자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
 
-![](assets/do-not-localize/v7.jpeg)[  Campaign v7 설명서](../../message-center/using/about-transactional-messaging.md)
+![](assets/do-not-localize/v7.jpeg)[Campaign v7 설명서](../../message-center/using/about-transactional-messaging.md)
 
-![](assets/do-not-localize/v8.png)[  Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html)
+![](assets/do-not-localize/v8.png)[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html)
 
 <table> 
  <tbody> 

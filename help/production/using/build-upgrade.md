@@ -3,7 +3,7 @@ product: campaign
 title: 빌드 업그레이드 시작
 description: 새 빌드로 업그레이드하는 주요 단계 알아보기
 feature: Monitoring, Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
@@ -11,8 +11,8 @@ topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2380'
-ht-degree: 3%
+source-wordcount: '2330'
+ht-degree: 1%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 3%
 
 다음은 소스 환경을 타겟 환경으로 복원하기 위해 Adobe Campaign 환경을 복제하여 두 개의 동일한 작업 환경을 만드는 방법입니다.
 
-이렇게 하려면 아래 단계를 수행합니다:
+이렇게 하려면 아래 단계를 수행합니다.
 
 1. 소스 환경의 모든 인스턴스에 데이터베이스 복사본을 만듭니다.
 

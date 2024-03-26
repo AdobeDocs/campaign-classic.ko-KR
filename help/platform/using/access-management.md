@@ -7,8 +7,8 @@ feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 6%
+source-wordcount: '256'
+ht-degree: 7%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaign을 사용하면 다양한 연산자에 할당된 권한을 정의
 * [액세스 권한 지표](access-management-named-rights.md#access-rights-matrix)
 
 
-참조 항목:
+다음도 참조하십시오.
 
 * [워크플로우에 대한 권한 관리](../../workflow/using/managing-rights.md)
 * [분산 마케팅에 대한 권한 관리](../../distributed/using/about-distributed-marketing.md#operators-and-entities)

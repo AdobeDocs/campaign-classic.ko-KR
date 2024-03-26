@@ -2,13 +2,13 @@
 product: campaign
 title: 설문 조사 디자인
 description: 설문 조사를 디자인하는 주요 단계 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '796'
 ht-degree: 2%
 
 ---
@@ -92,7 +92,6 @@ ht-degree: 2%
 >
 >* 이 기능은 에만 사용할 수 있습니다. **설문 조사** 양식을 입력합니다.
 >* 이 옵션은 무작위 질문 표시와 호환되지 않습니다. [자세히 알아보기](#adding-questions)
-
 
 ### 질문 추가 {#adding-questions}
 

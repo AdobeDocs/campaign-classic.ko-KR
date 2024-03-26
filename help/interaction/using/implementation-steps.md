@@ -3,12 +3,12 @@ product: campaign
 title: 구현 단계
 description: Campaign 상호 작용 모듈에 대한 구현 단계
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 82b88ab7-6a95-4bb3-b8b3-abea0fdd4ca0
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -55,5 +55,5 @@ ht-degree: 2%
 >
 >다음 단계는 **게재 관리자** 프로필. 라이브 환경에서만 오퍼를 편집할 수 있습니다.
 
-1. 캠페인 만들기.
+1. 캠페인을 만드는 중입니다.
 1. 캠페인 또는 캠페인 게재에서 오퍼 참조. 자세한 내용은 다음을 참조하십시오. [아웃바운드 채널 기본 정보](../../interaction/using/about-outbound-channels.md).

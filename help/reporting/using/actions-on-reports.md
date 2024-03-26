@@ -8,7 +8,7 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 3%
 
 ---
@@ -94,7 +94,7 @@ document.nl_waitBeforeRender = true;
 
 ## 보고서 아카이브 만들기 {#creating-report-archives}
 
-보고서를 보관하면 다양한 기간에 보고서 보기를 만들 수 있습니다. 예를 들어 주어진 기간에 대한 통계를 표시할 수 있습니다.
+보고서를 보관하면 지정된 기간 동안의 통계를 표시하는 등 다양한 기간에 보고서 보기를 만들 수 있습니다.
 
 아카이브를 만들려면 관련 보고서를 열고 해당 아이콘을 클릭합니다.
 

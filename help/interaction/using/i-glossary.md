@@ -3,7 +3,7 @@ product: campaign
 title: Campaign 통합 용어
 description: Campaign 통합 용어
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview

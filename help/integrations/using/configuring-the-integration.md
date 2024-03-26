@@ -10,8 +10,8 @@ content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 4%
+source-wordcount: '509'
+ht-degree: 2%
 
 ---
 
@@ -124,7 +124,7 @@ Adobe Experience Manager에서 구성을 시작하려면 아래 단계를 따르
 
 1. 전용 을 구성하여 Adobe Experience Manager을 Adobe Campaign에 연결 **Cloud Service**.
 
-   Cloud Services을 통해 두 솔루션을 모두 연결하는 방법은 Adobe Experience Manager 를 참조하십시오 [설명서](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) .
+   Cloud Service을 통해 두 솔루션을 모두 연결하는 방법은 Adobe Experience Manager 를 참조하십시오 [설명서](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) .
 
 1. 구성 **Externalizer 서비스**.
 

@@ -3,15 +3,15 @@ product: campaign
 title: Adobe Campaign 탐색기 사용
 description: Campaign 탐색기 사용 방법 알아보기
 feature: Overview
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 2%
+source-wordcount: '454'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ Campaign 탐색 트리를 구성하는 방법 알아보기 [이 섹션에서](..
 
 * **기본 제공 폴더 사용**
 
-  기본 제공 폴더를 사용하면 프로젝트에 관여하지 않는 사람들이 응용 프로그램을 쉽게 사용하고 유지 관리하며 문제를 해결할 수 있습니다. 수신자, 목록, 게재 등에 대한 사용자 정의 폴더 구조를 만들지 않고 관리, 프로필 및 Target, 캠페인 관리와 같은 표준 폴더를 사용해야 합니다.
+  기본 제공 폴더를 사용하면 프로젝트에 관여하지 않는 사람들이 응용 프로그램을 쉽게 사용하고 유지 관리하며 문제를 해결할 수 있습니다. 수신자, 목록, 게재 등에 대한 사용자 정의 폴더 구조를 만들지 않고 관리, 프로필 및 타겟, 캠페인 관리와 같은 표준 폴더를 사용해야 합니다.
 
 * **하위 폴더 만들기**
 

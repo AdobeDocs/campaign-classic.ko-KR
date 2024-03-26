@@ -3,12 +3,12 @@ product: campaign
 title: 큐브 시작
 description: 큐브 시작
 feature: Reporting, Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 71d24f03-d41d-49bc-b9a5-8237902f7d6a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 24%
+source-wordcount: '343'
+ht-degree: 26%
 
 ---
 
@@ -46,4 +46,4 @@ Campaign Marketing Analytics 모듈을 사용하여 다음을 수행합니다.
 1. 큐브에서 계산되고 집계된 데이터를 사용하여 쿼리를 작성합니다.
 1. 모집단을 식별하고 목록에서 참조합니다.
 
-에서 큐브를 만들고 사용하는 방법을 알아봅니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html){target="_blank"}.
+에서 큐브를 만들고 사용하는 방법을 알아봅니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=ko){target="_blank"}.

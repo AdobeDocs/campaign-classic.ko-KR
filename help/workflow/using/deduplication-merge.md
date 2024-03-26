@@ -1,13 +1,13 @@
 ---
 title: 중복 제거 활동의 병합 기능 사용
 description: 중복 제거 활동의 병합 기능을 사용하는 방법에 대해 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Data Management
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 8%
+source-wordcount: '577'
+ht-degree: 6%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 8%
 | 마지막 수정일 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
 |-----|------------|-----------|-------|--------------|------|
 | 5/19/2020 | 로버트 | 티스너 | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 7/22/2020 | 보비 | 티스너 | bob@mycompany.com |  | 777-777-7777 |
-| 10/03/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
+| 2020년 7월 22일 | 보비 | 티스너 | bob@mycompany.com | | 777-777-7777 |
+| 10/03/2020 | Bob |  | bob@mycompany.com | | 888-888-8888 |
 
 중복 제거 활동 사용 **[!UICONTROL Merge]** 구성 기능을 사용하면 중복 제거에 대한 규칙 세트를 구성하여 필드 그룹을 정의하여 단일 결과 데이터 레코드로 병합할 수 있습니다. 예를 들어 중복 레코드 집합이 있는 경우 가장 오래된 전화 번호나 가장 최근 이름을 유지하도록 선택할 수 있습니다.
 
@@ -94,8 +94,8 @@ ht-degree: 8%
 | 수정일 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
 |-----|------------|-----------|-------|--------------|------|
 | 5/19/2020 | 로버트 | 티스너 | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 7/22/2020 | 보비 | 티스너 | bob@mycompany.com |  | 777-777-7777 |
-| 10/03/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
+| 2020년 7월 22일 | 보비 | 티스너 | bob@mycompany.com | | 777-777-7777 |
+| 10/03/2020 | Bob |  | bob@mycompany.com | | 888-888-8888 |
 
 결과는 이전에 구성된 규칙에 따라 세 레코드에서 병합됩니다. 비교 결과, 원래의 전화번호와 함께 가장 최근의 이름과 휴대전화를 사용하는 것으로 결론이 난다.
 

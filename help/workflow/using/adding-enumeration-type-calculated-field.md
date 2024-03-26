@@ -2,7 +2,7 @@
 product: campaign
 title: 열거형 유형 계산 필드 추가
 description: 열거형 유형 계산 필드를 추가하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,8 +10,8 @@ feature: Workflows, Data Management
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 0%
+source-wordcount: '444'
+ht-degree: 2%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 0%
 
 * 어떤 테이블을 선택해야 합니까?
 
-   수신자 테이블(nms:recipient)
+  수신자 테이블(nms:recipient)
 
 * 출력 열에서 선택할 필드입니까?
 
-   성, 이름, 성별
+  성, 이름, 성별
 
 * 정보를 필터링할 기준
 
-   수신자 언어
+  수신자 언어
 
 다음 단계를 적용합니다.
 

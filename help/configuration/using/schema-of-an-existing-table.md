@@ -9,7 +9,7 @@ exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 13%
 
    스키마는에서 view=&quot;true&quot; 속성으로 채워야 합니다. `<srcSchema>` 테이블 생성 SQL 스크립트를 생성하지 않기 위한 루트 요소입니다.
 
-**예제** :
+**예** :
 
 ```
 <srcSchema name="recipient" namespace="cus" view="true">

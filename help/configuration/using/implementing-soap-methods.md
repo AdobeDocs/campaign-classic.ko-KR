@@ -8,8 +8,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 5%
+source-wordcount: '426'
+ht-degree: 4%
 
 ---
 
@@ -38,7 +38,7 @@ JavaScript에서는 SOAP 메서드를 만들 수 있습니다. 이 함수는 응
 
 이 이름은 &#39;JavaScript 코드&#39; 유형 엔터티의 이름(네임스페이스 포함)과 일치합니다.
 
-예제:
+예:
 
 testLog(msg) 메서드는 nms:recipient 확장에서 선언됩니다.
 
@@ -72,7 +72,7 @@ SOAP 메서드는 라이브러리를 나타내는 스크립트로 그룹화된 J
  <schema-namespace>_<schema-name>_<method-name>
 ```
 
-예제:
+예:
 
 다음 JavaScript 함수는 위에 설명된 메서드의 구현입니다. &#39;cus:test&#39; 이름을 사용하여 &#39;JavaScript 코드&#39; 유형 엔터티에 정의되어야 합니다.
 
@@ -108,7 +108,7 @@ function nms_recipient_setLastName(self, name)
 
 여러 값을 반환할 때는 표에 표시해야 합니다.
 
-예제:
+예:
 
 ```
 function nms_recipient_getKey(self)

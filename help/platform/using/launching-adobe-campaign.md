@@ -3,15 +3,15 @@ product: campaign
 title: Adobe Campaign 시작
 description: Adobe Campaign 시작
 feature: Access Management, Permissions
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 12%
+source-wordcount: '508'
+ht-degree: 10%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe ID을 사용하여 Adobe Campaign에 연결할 수 있습니다. 자세한
 
    데이터베이스에 처음 액세스하면 관리자가 제공한 암호가 암호가 됩니다. 연결되면 다음을 통해 암호를 변경할 수 있습니다. **[!UICONTROL Tools > Change password...]** 메뉴 아래의 제품에서 사용할 수 있습니다. 연산자 및 연결에 대한 자세한 내용은에서 확인할 수 있습니다 [액세스 관리](../../platform/using/access-management.md).
 
-1. **[!UICONTROL LOG IN]**&#x200B;을(를) 클릭하여 확인합니다.<!--You can also press the **Enter** key to launch connection.-->
+1. 클릭 **[!UICONTROL LOG IN]** 확인할 수 있습니다.<!--You can also press the **Enter** key to launch connection.-->
 
 이제 액세스할 수 있습니다. [Adobe Campaign 작업 영역](../../platform/using/adobe-campaign-workspace.md).
 

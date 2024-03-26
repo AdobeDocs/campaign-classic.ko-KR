@@ -10,7 +10,7 @@ exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ SMS를 전송하는 주요 단계는 다음과 같습니다.
 * [SMS 채널 구성](sms-set-up.md)
 * [SMS 게재 만들기](sms-create.md)
 * [대상자 정의](sms-create.md#selecting-the-target-population)
-* [SMS 콘텐츠를 정의합니다](sms-create.md#defining-the-sms-content)
+* [SMS 콘텐츠 정의](sms-create.md#defining-the-sms-content)
 * [SMS 전송, 모니터링 및 추적](sms-send.md)
 * [문제 해결](troubleshooting-sms.md)
 

@@ -12,7 +12,7 @@ exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
 source-git-commit: a2106e55617209f28da42c50008d16188563b2da
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -62,7 +62,7 @@ Campaign Classic을 사용하면 압축 또는 암호화된 파일을 가져오�
 * [파일 압축 풀기 또는 암호 해독](../../platform/using/unzip-decrypt.md)
 * [파일 압축 또는 암호화](../../platform/using/zip-encrypt.md)
 
-## 모범 사례 및 문제 해결 {#best-practices-troubleshooting}
+## 우수 사례 및 문제 해결 {#best-practices-troubleshooting}
 
 <img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
 

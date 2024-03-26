@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 대상 가져오기 및 내보내기
-description: 대상 가져오기 및 내보내기
+title: 대상자 가져오기 및 내보내기
+description: 대상자 가져오기 및 내보내기
 feature: Audiences, People Core Service Integration
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
@@ -11,13 +11,13 @@ topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 4%
+source-wordcount: '630'
+ht-degree: 0%
 
 ---
 
 
-# 대상 가져오기 및 내보내기{#importing-and-exporting-audiences}
+# 대상자 가져오기 및 내보내기{#importing-and-exporting-audiences}
 
 
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 1. 열려 있는 창에서 다음을 클릭합니다. **[!UICONTROL Select a shared audience]** 다른 Adobe Experience Cloud 솔루션에서 사용할 수 있는 공유 대상/세그먼트 목록으로 이동합니다.
 1. 대상을 선택하고 확인합니다. 대상자의 정보가 자동으로 완료됩니다.
 
-   공유 대상자를 가져오려면 다음을 할당해야 합니다. **[!UICONTROL Audience library]** admin console의 제품 및 Audience Manager의 관리자가 될 수 있습니다. 자세한 내용은 [Admin Console 설명서를 참조하십시오](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html).
+   공유 대상자를 가져오려면 다음을 할당해야 합니다. **[!UICONTROL Audience library]** admin console의 제품 및 Audience Manager의 관리자가 될 수 있습니다. 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html).
 
    ![](assets/aam_import_audience_3.png)
 

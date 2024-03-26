@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## 콘텐츠 모델 {#content-model-14}
 
-srcSchema:==(attribute | 작성자 | 데이터 | 요소 | 열거 | 도움말 | 인터페이스 | 메서드 | 수정자)
+srcSchema:==(attribute | createdBy | 데이터 | 요소 | 열거 | 도움말 | 인터페이스 | 메서드 | modifiedBy)
 
 ## 속성 {#attributes-14}
 

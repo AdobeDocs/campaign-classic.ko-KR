@@ -3,13 +3,13 @@ product: campaign
 title: 큐브에 대한 우수 사례
 description: 큐브에 대한 우수 사례
 feature: Reporting, Monitoring
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1506'
 ht-degree: 1%
 
 ---

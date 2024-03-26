@@ -3,7 +3,7 @@ product: campaign
 title: 관리
 description: 관리
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
@@ -11,7 +11,7 @@ topic-tags: production-procedures
 exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '431'
 ht-degree: 3%
 
 ---
@@ -63,7 +63,7 @@ Adobe Campaign을 설치하면 **nlserver** 부팅 순서 중에 서비스가 �
 
   다음을 사용할 수도 있습니다 **nlserver 다시 시작`<module>[@<instance>]`** 모듈을 다시 시작하는 명령.
 
-  예제:
+  예:
 
   **nlserver 시작 웹**
 
@@ -84,7 +84,7 @@ Adobe Campaign을 설치하면 **nlserver** 부팅 순서 중에 서비스가 �
   >* 사용 **-noconsole** 옵션을 사용하여 실행된 모듈이 콘솔에 아무 것도 표시되지 않도록 합니다. 해당 로그는 를 통해 디스크에 기록됩니다. **syslogd** 모듈.
   >* 사용 **-verbose** 프로세스 작업에 대한 추가 정보를 표시하는 옵션.
   >
-  >   예제:
+  >   예:
   >
   >   **nlserver 다시 시작 웹 -verbose**
   >

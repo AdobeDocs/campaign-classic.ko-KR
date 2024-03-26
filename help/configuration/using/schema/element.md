@@ -6,7 +6,7 @@ feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 콘텐츠 모델 {#content-model-4}
 
-element:==(attribute | 계산 문자열 | dbindex | 기본값 | 요소 | 도움말 | 참가 | 키 | sysFilter | translatedDefault)
+element:==(attribute | 계산 문자열 | dbindex | 기본값 | 요소 | 도움말 | 가입 | key | sysFilter | translatedDefault)
 
 ## 속성 {#attributes-4}
 
@@ -184,8 +184,8 @@ _operation (string), advanced (부울), aggregate (문자열), applicableIf (문
    * datetime
    * datetimetz
    * 다테티메노츠
-   * date
-   * 더블
+   * 일자
+   * 중복
    * enum
    * 부동
    * html
@@ -194,7 +194,7 @@ _operation (string), advanced (부울), aggregate (문자열), applicableIf (문
    * 길게
    * 메모
    * MNTOKEN
-   * percent
+   * 백분율
    * primarykey
    * 짧음
    * 문자열

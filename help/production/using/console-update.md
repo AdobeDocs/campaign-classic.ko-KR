@@ -3,7 +3,7 @@ product: campaign
 title: 콘솔 업데이트
 description: 콘솔 업데이트
 feature: Monitoring, Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,7 +11,7 @@ exl-id: 3a127bbe-9abb-4b5b-bd7e-e1ea550929ba
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 11%
+ht-degree: 20%
 
 ---
 

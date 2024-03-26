@@ -3,15 +3,15 @@ product: campaign
 title: Synapse 액세스 구성
 description: FDA에서 Synapse에 대한 액세스를 구성하는 방법 알아보기
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 2%
+source-wordcount: '742'
+ht-degree: 3%
 
 ---
 
@@ -131,7 +131,7 @@ Windows에서 Azure synapse을 구성하려면:
 
 ## Debian azure synapse {#azure-debian}
 
-**필수 구성 요소:**
+**사전 요구 사항:**
 
 * ODBC 드라이버를 설치하려면 루트 권한이 필요합니다.
 * msodbcsql 패키지를 설치하려면 Curl이 필요합니다. 설치되지 않은 경우 다음 명령을 실행합니다.

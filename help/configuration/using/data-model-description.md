@@ -8,8 +8,8 @@ role: Data Engineer, Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '2385'
-ht-degree: 2%
+source-wordcount: '2406'
+ht-degree: 1%
 
 ---
 
@@ -181,9 +181,9 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 * 컨트롤 그룹의 응답률: **dProofReactedRate**. 가설 컨트롤 그룹의 응답률입니다.
 * 연락한 인구의 총 수익: **dContactReactedTotalAmount**. 가설에 있는 타겟팅된 연락처의 총 매출액.
 * 컨트롤 그룹의 평균 수익: **dContactReactedAvgAmount**. 가설에 있는 타겟팅된 컨트롤 그룹 연락처의 평균 매출액.
-* 컨트롤 그룹의 총 수익: **dProofReactedTotalAmount**. 가설 컨트롤 그룹의 총 수익.
+* 컨트롤 그룹의 총 수익: **dProofReactedTotalAmount**. 가설 컨트롤 그룹의 총 매출입니다.
 * 컨트롤 그룹의 평균 수익: **dProofReactedAvgAmount**. 가설 컨트롤 그룹의 평균 매출입니다.
-* 연락처당 총 이익: **dContactReactedTotalMargin**. 가설에서 타겟팅된 연락처당 총 이익.
+* 연락처당 총 이익: **dContactReactedTotalMargin**. 가설에 타겟팅된 연락처당 총 이익.
 * 연락처당 평균 이익: **dContactReactedAvgMargin**. 가설에 타겟팅된 연락처당 평균 이익.
 * 컨트롤 그룹의 총 이익: **dProofReactedTotalMargin**. 가설에 타겟팅된 컨트롤 그룹의 총 이익.
 * 컨트롤 그룹의 평균 이익: **dProofReactedAvgMargin**. 가설에 타겟팅된 통제집단의 평균 이익.

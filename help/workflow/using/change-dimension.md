@@ -2,13 +2,13 @@
 product: campaign
 title: 차원 변경
 description: 차원 변경
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Targeting Activity
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 4%
 
 ---
 
@@ -52,27 +52,27 @@ ht-degree: 2%
 
    * 다음을 클릭합니다. **[!UICONTROL Add data...]** 링크 및 선택 **[!UICONTROL Data linked to the filtering dimension]**.
 
-      ![](assets/wf_change-dimension_sample_01.png)
+     ![](assets/wf_change-dimension_sample_01.png)
 
-      >[!NOTE]
-      >
-      >추가 열 생성 및 관리에 대한 자세한 내용은 [데이터 추가 중](query.md#adding-data).
+     >[!NOTE]
+     >
+     >추가 열 생성 및 관리에 대한 자세한 내용은 [데이터 추가 중](query.md#adding-data).
 
    * 이전 타겟팅 차원(축 전환 전)을 선택하고 **[!UICONTROL Zip Code]** 수신자 **[!UICONTROL Location]** 하위 트리에서 를 클릭한 다음 **[!UICONTROL Edit expression]**.
 
-      ![](assets/wf_change-dimension_sample_02.png)
+     ![](assets/wf_change-dimension_sample_02.png)
 
    * 클릭 **[!UICONTROL Advanced selection]** 및 선택 **[!UICONTROL Edit the formula using an expression]**.
 
-      ![](assets/wf_change-dimension_sample_03.png)
+     ![](assets/wf_change-dimension_sample_03.png)
 
    * 목록에서 제공되는 함수를 사용하고 수행할 계산을 지정합니다.
 
-      ![](assets/wf_change-dimension_sample_04.png)
+     ![](assets/wf_change-dimension_sample_04.png)
 
    * 마지막으로 방금 만든 열의 레이블을 입력합니다.
 
-      ![](assets/wf_change-dimension_sample_05.png)
+     ![](assets/wf_change-dimension_sample_05.png)
 
 1. 워크플로우를 실행하여 이 구성의 결과를 확인합니다. 차원 변경 활동 전후의 테이블에서 데이터를 비교하고 다음 예와 같이 워크플로 테이블의 구조를 비교합니다.
 

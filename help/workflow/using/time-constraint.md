@@ -2,13 +2,13 @@
 product: campaign
 title: 시간 제한
 description: 시간 제한 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 5%
+source-wordcount: '87'
+ht-degree: 12%
 
 ---
 

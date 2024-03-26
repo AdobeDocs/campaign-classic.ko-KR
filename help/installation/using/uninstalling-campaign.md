@@ -1,9 +1,9 @@
 ---
 product: campaign
-title: Campaign 제거
+title: 캠페인 제거
 description: Campaign 제거 방법 알아보기
 feature: Installation
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: appendices
@@ -15,7 +15,7 @@ ht-degree: 18%
 
 ---
 
-# Campaign 제거{#uninstalling-campaign}
+# 캠페인 제거{#uninstalling-campaign}
 
 
 
@@ -32,7 +32,7 @@ groupdel neolane
 rm -rf /user/local/neolane
 ```
 
-**Debian:**
+**데비안:**
 
 ```
 apt purge nlserver6-v7

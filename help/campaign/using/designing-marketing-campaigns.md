@@ -8,8 +8,8 @@ feature: Campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 23%
+source-wordcount: '445'
+ht-degree: 21%
 
 ---
 
@@ -47,7 +47,7 @@ Campaign의 컨텍스트에서 다음 개념을 알고 있어야 합니다.
 
   자세한 내용은 다음을 참조하십시오. [캠페인 캘린더](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
 
-* **워크플로우**
+* **워크플로**
 
   캠페인 워크플로우에는 모든 워크플로우와 동일한 활동이 포함되지만 캠페인에만 해당됩니다. 이를 통해 사용 가능한 모든 채널에 대한 게재를 만들고 구성할 수 있습니다.
 

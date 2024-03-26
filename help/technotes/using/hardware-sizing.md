@@ -3,11 +3,11 @@ product: campaign
 title: Campaign Classic v7에 대한 하드웨어 크기 조정 권장 사항
 description: Campaign Classic v7에 대한 하드웨어 크기 조정 권장 사항
 feature: Technote
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2519'
+source-wordcount: '2576'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->완전히 호스팅된 Adobe Campaign 인스턴스(Adobe Cloud Services에 배포된 인스턴스)를 사용하는 경우에는 이 문서의 정보가 적용되지 않습니다.
+>완전히 호스팅된 Adobe Campaign 인스턴스(Adobe Cloud Service에 배포된 인스턴스)를 사용하는 경우에는 이 문서의 정보가 적용되지 않습니다.
 
 소프트웨어 호환성에 대한 자세한 내용은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md).
 

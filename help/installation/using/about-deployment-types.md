@@ -3,7 +3,7 @@ product: campaign
 title: 배포 유형 정보
 description: 배포 유형 정보
 feature: Installation, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
@@ -11,7 +11,7 @@ exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 

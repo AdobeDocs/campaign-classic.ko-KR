@@ -2,12 +2,12 @@
 product: campaign
 title: 워크플로우의 JavaScript 코드 예
 description: 다음 예에서는 워크플로우에서 JavaScript 코드를 사용하는 방법을 보여 줍니다
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1702'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 3%
 1. 활동에 JavaScript 코드를 추가합니다. [자세히 알아보기](advanced-parameters.md)
 1. 워크플로우를 저장합니다.
 1. 예제를 테스트합니다.
-   1. 워크플로우 시작. [자세히 알아보기](starting-a-workflow.md)
+   1. 워크플로우를 시작합니다. [자세히 알아보기](starting-a-workflow.md)
    1. 분개를 엽니다. [자세히 알아보기](monitoring-workflow-execution.md#displaying-logs)
 
 ## 예제 1: 데이터베이스에 쓰기{#write-example}
@@ -70,7 +70,7 @@ ht-degree: 3%
 * 수정할 테이블의 스키마
 * 채울 테이블 필드
 
-예제:
+예:
 
 ```javascript
 var myXML = <recipient xtkschema="nms:recipient"
@@ -89,7 +89,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 * 업데이트할 테이블 필드
 * 업데이트할 레코드를 식별하는 데 필요한 주요 인수
 
-예제:
+예:
 
 ```javascript
 var myXML = <recipient xtkschema="nms:recipient"
@@ -108,7 +108,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 * 수정할 테이블의 스키마
 * 다음 `where` XML 요소 형식으로 업데이트할 레코드를 식별하는 데 필요한 절
 
-예제:
+예:
 
 ```javascript
 xtk.session.DeleteCollection(
@@ -185,47 +185,47 @@ xtk.session.Write(myXML)
 
 * `select` 절
 
-   반환할 열을 지정합니다. 예를 들어 개인의 이름과 성을 선택하려면 다음 코드를 작성합니다.
+  반환할 열을 지정합니다. 예를 들어 개인의 이름과 성을 선택하려면 다음 코드를 작성합니다.
 
-   ```xml
-   <select>
-       <node expr="@firstName"/>
-       <node expr="@lastName"/>
-   </select>
-   ```
+  ```xml
+  <select>
+      <node expr="@firstName"/>
+      <node expr="@lastName"/>
+  </select>
+  ```
 
-   포함 `nms:recipient` 스키마, 요소는 다음 형식으로 반환됩니다.
+  포함 `nms:recipient` 스키마, 요소는 다음 형식으로 반환됩니다.
 
-   ```xml
-   <recipient firstName="Bo" lastName="Didley"/>
-   ```
+  ```xml
+  <recipient firstName="Bo" lastName="Didley"/>
+  ```
 
 * `where` 절
 
-   조건을 지정하려면 `where` 절. 예를 들어, **교육** 폴더, 다음 코드를 작성할 수 있습니다.
+  조건을 지정하려면 `where` 절. 예를 들어, **교육** 폴더, 다음 코드를 작성할 수 있습니다.
 
-   ```xml
-   <where>
-       <condition expr="[folder/@label]='Training'"/>
-   </where>
-   ```
+  ```xml
+  <where>
+      <condition expr="[folder/@label]='Training'"/>
+  </where>
+  ```
 
-   여러 표현식을 결합할 때는 첫 번째 표현식에 부울 연산자를 사용하십시오. 예를 들어 Isabel Garcia라는 이름을 가진 모든 사람을 선택하려면 다음 코드를 작성할 수 있습니다.
+  여러 표현식을 결합할 때는 첫 번째 표현식에 부울 연산자를 사용하십시오. 예를 들어 Isabel Garcia라는 이름을 가진 모든 사람을 선택하려면 다음 코드를 작성할 수 있습니다.
 
-   ```xml
-   <condition boolOperator="AND" expr="@firstName='Isabel'"/>
-   <condition expr="@lastName='Garcia'"/>
-   ```
+  ```xml
+  <condition boolOperator="AND" expr="@firstName='Isabel'"/>
+  <condition expr="@lastName='Garcia'"/>
+  ```
 
 * `orderBy` 절
 
-   결과 집합을 정렬하려면 `orderBy` 절을 사용하여 XML 요소로서 `sortDesc` 특성. 예를 들어 성을 오름차순으로 정렬하려면 다음 코드를 작성할 수 있습니다.
+  결과 집합을 정렬하려면 `orderBy` 절을 사용하여 XML 요소로서 `sortDesc` 특성. 예를 들어 성을 오름차순으로 정렬하려면 다음 코드를 작성할 수 있습니다.
 
-   ```xml
-   <orderBy>
-       <node expr="@lastName> sortDesc="false"/>
-   </orderBy>
-   ```
+  ```xml
+  <orderBy>
+      <node expr="@lastName> sortDesc="false"/>
+  </orderBy>
+  ```
 
 ### 2단계: 쿼리 개체 만들기
 
@@ -368,14 +368,14 @@ for each (var rcp in res.recipient)
 
 * 워크플로우 인라인, 즉 의 기본 스크립트에서 트리거할 수 있습니다. **[!UICONTROL JavaScript code]** 활동.
 * 다른 작업이 완료되면 워크플로우를 트리거할 수 있습니다.
-   * 초기화 스크립트를 **[!UICONTROL End]** 초기 워크플로의 활동입니다.
+   * 초기화 스크립트를 **[!UICONTROL End]** 초기 워크플로우의 활동입니다.
    * 추가 **[!UICONTROL External signal]** target 워크플로우의 시작 시 활동.
 
-      초기 워크플로가 완료되면 이벤트가 게시됩니다. 나가는 전환이 활성화되고 이벤트 변수가 채워집니다. 그런 다음 대상 워크플로우에서 이벤트를 수신합니다.
+     초기 워크플로가 완료되면 이벤트가 게시됩니다. 나가는 전환이 활성화되고 이벤트 변수가 채워집니다. 그런 다음 대상 워크플로우에서 이벤트를 수신합니다.
 
-      >[!TIP]
-      >
-      >가장 좋은 방법은 활동에 스크립트를 추가할 때 활동 이름을 이중 하이픈으로 묶는 것입니다. 예: `-- end --`. [자세히 알아보기](workflow-best-practices.md) 워크플로우 모범 사례 정보.
+     >[!TIP]
+     >
+     >가장 좋은 방법은 활동에 스크립트를 추가할 때 활동 이름을 이중 하이픈으로 묶는 것입니다. 예: `-- end --`. [자세히 알아보기](workflow-best-practices.md) 워크플로우 모범 사례 정보.
 
 구문 `PostEvent` 방법:
 
@@ -558,7 +558,7 @@ for each (var w in res.recipient)
 * 다음 `update` 작업
 * 다음 `insertOrUpdate` 작업, 포함 `_key` 업데이트할 레코드를 식별하는 인수
 
-   을 지정하지 않으면 **수신자** 그런 다음 일치하는 항목이 있으면 모든 하위 폴더에서 레코드가 업데이트됩니다. 그렇지 않으면 루트에 레코드가 만들어집니다 **수신자** 폴더를 삭제합니다.
+  을 지정하지 않으면 **수신자** 그런 다음 일치하는 항목이 있으면 모든 하위 폴더에서 레코드가 업데이트됩니다. 그렇지 않으면 루트에 레코드가 만들어집니다 **수신자** 폴더를 삭제합니다.
 
 * 다음 `delete` 작업
 

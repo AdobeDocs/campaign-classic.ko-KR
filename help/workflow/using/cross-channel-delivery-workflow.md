@@ -2,13 +2,13 @@
 product: campaign
 title: 크로스 채널 게재 워크플로우
 description: 크로스 채널 게재 워크플로우에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Channels Activity
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 3%
+source-wordcount: '677'
+ht-degree: 4%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 
 대상을 정의하려면 수신자를 식별하는 쿼리를 만듭니다.
 
-1. 캠페인 만들기. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
+1. 캠페인을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
 1. 다음에서 **[!UICONTROL Targeting and workflows]** 캠페인의 탭에서 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 내용은 을 참조하십시오. [이 섹션](query.md).
 1. 게재를 받을 수신자를 정의합니다. 예를 들어 &#39;골드&#39; 멤버를 대상 차원으로 선택합니다.
 1. 쿼리에 필터링 조건을 추가합니다. 이 예에서는 전자 메일 주소와 휴대폰 번호가 있는 수신자를 선택합니다.

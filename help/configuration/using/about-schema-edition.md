@@ -8,8 +8,8 @@ role: Data Engineer, Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 8%
+source-wordcount: '1013'
+ht-degree: 7%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign에 즉시 존재하지 않는 완전히 새로운 유형의 데�
 
 먼저 스키마의 주 요소 앞에 열거형을 정의합니다. 값을 목록에 표시하여 주어진 필드에 대해 사용자가 선택할 수 있는 사항을 제한할 수 있습니다.
 
-예제:
+예:
 
 ```
 <enumeration basetype="byte" name="exTransactionTypeEnum" default="store">
@@ -66,7 +66,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 고유하거나 고유하지 않을 수 있으며 하나 이상의 필드를 참조할 수 있습니다.
 
-예제:
+예:
 
 ```
 <dbindex name="email" unique="true">
@@ -95,7 +95,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 기본 키는 다음을 사용하여 정의할 수도 있습니다. **내부** 특성.
 
-예제:
+예:
 
 ```
 <key name="householdId" internal="true">
@@ -127,12 +127,12 @@ type="string" enum="exTransactionTypeEnum"/>
 * **@expr**
 * **@label**
 * **@length**
-* **@이름**
+* **@name**
 * **@notNull**
 * **@required**
 * **@ref**
 * **@xml**
-* **@유형**
+* **@type**
 
   다른 데이터베이스 관리 시스템에 대해 Adobe Campaign에서 생성한 데이터 유형에 대한 매핑을 나열하는 테이블을 보려면 [Adobe Campaign/DBMS 데이터 유형 매핑](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) 섹션.
 

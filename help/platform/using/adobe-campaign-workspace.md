@@ -2,15 +2,15 @@
 product: campaign
 title: Adobe Campaign 작업 영역
 description: Campaign 작업 영역을 사용하고 맞춤화하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 6%
+source-wordcount: '923'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png)[ 비디오에서 캠페인 작업 영역 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png) 에서 Campaign 작업 영역 살펴보기 [비디오](#video)
 
 >[!NOTE]
 >
@@ -90,11 +90,11 @@ Adobe Campaign Classic 인스턴스에 대해 선택한 언어는 날짜 및 시
 
 * 핵심 기능 또는 링크를 클릭하면 관련 페이지가 현재 페이지를 대체합니다. 이전 페이지로 돌아가려면 **[!UICONTROL Back]** 단추를 클릭합니다. 홈 페이지로 돌아가려면 **[!UICONTROL Home]** 단추를 클릭합니다.
 
-   ![](assets/d_ncs_user_interface_back_home_buttons.png)
+  ![](assets/d_ncs_user_interface_back_home_buttons.png)
 
 * 메뉴 또는 디스플레이 화면에 대한 바로 가기(예: 웹 애플리케이션, 프로그램, 게재, 보고서 등)의 경우, 일치하는 페이지가 다른 탭에 표시됩니다. 이 경우 탭을 사용하여 한 페이지에서 다른 페이지로 이동할 수 있습니다.
 
-   ![](assets/d_ncs_user_interface_tabs.png)
+  ![](assets/d_ncs_user_interface_tabs.png)
 
 ### 요소 만들기 {#creating-an-element}
 

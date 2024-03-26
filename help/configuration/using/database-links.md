@@ -5,13 +5,13 @@ description: 데이터베이스 매핑
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
-source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
+exl-id: e05dcd81-bbca-4767-8da3-ea064f7f6c8e
+source-git-commit: 46dcd80d5adc31a66b47c6d75e7914b0a686326b
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 2%
 
 ---
-
 
 # 링크 관리 {#links--relation-between-tables}
 
@@ -227,7 +227,7 @@ FDA 표에 대한 자세한 내용은 [외부 데이터베이스 액세스](../.
 
 자세한 내용은 다음 링크를 참조하십시오.
 
-* [스키마 시작](about-schema-reference.md)
+* [스키마 시작하기](about-schema-reference.md)
 * [스키마 구조](schema-structure.md)
 * [데이터베이스 매핑](database-mapping.md)
 * [키 관리](database-keys.md)

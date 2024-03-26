@@ -8,8 +8,8 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 7%
+source-wordcount: '566'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 * 다음 이전 **HTML 페이지 템플릿 가져오기** Adobe Campaign에서는 템플릿이 열리고 다양한 브라우저에서 올바르게 표시되는지 확인하십시오.
 * HTML 페이지에 **JavaScript 스크립트**, 실행해야 합니다. **오류 없이** 편집기 외부.
-* 템플릿을 작성할 때 태그에 **&#39;type&#39;** 속성을 추가하는 것이 좋습니다. `<input>` 이 정보는 편집기에서 처리되며 사용자가 웹 응용 프로그램을 구성할 때 데이터베이스의 필드를 양식의 필드에 연결하는 데 도움이 됩니다.
+* 템플릿을 작성할 때 다음을 추가하는 것이 좋습니다 **&#39;type&#39;** 특성 대상 `<input>` 태그 사이에 코드를 삽입하지 마십시오. 이 정보는 편집기에서 처리되며 사용자가 웹 응용 프로그램을 구성할 때 데이터베이스의 필드를 양식의 필드에 연결하는 데 도움이 됩니다.
 
   템플릿의 HTML 코드 예제:
 

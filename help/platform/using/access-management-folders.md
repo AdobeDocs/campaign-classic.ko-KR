@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '758'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 �
 
    ![](assets/s_ncs_user_add_folder_exple.png)
 
-1. **[!UICONTROL Restriction]** 탭에서 **[!UICONTROL This folder is a view]**&#x200B;를 선택합니다. 그러면 데이터베이스의 모든 게재가 표시됩니다.
+1. 다음에서 **[!UICONTROL Restriction]** 탭, 선택 **[!UICONTROL This folder is a view]**. 그러면 데이터베이스의 모든 게재가 표시됩니다.
 
    ![](assets/s_ncs_user_add_folder_exple01.png)
 
@@ -99,13 +99,13 @@ Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 �
 
 * **그룹 또는 연산자 바꾸기**. 이렇게 하려면 폴더에 대한 권한이 있는 그룹(또는 연산자) 중 하나를 클릭하고 드롭다운 목록에서 새 그룹(또는 새 연산자)을 선택합니다.
 
-   ![](assets/s_ncs_user_folder_properties_security02.png)
+  ![](assets/s_ncs_user_folder_properties_security02.png)
 
 * **그룹 또는 운영자 승인**. 이렇게 하려면 **[!UICONTROL Add]** 버튼을 클릭하고 이 폴더에 권한을 할당할 그룹 또는 연산자를 선택합니다.
 * **그룹 또는 연산자 금지**. 이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL Delete]** 이 폴더에 대한 인증을 제거할 그룹 또는 연산자를 선택합니다.
 * **그룹 또는 연산자에 할당된 권한 선택**. 이렇게 하려면 관련 그룹 또는 연산자를 클릭한 다음 부여할 액세스 권한을 선택하고 나머지 권한은 선택 해제합니다.
 
-   ![](assets/s_ncs_user_folder_properties_security03.png)
+  ![](assets/s_ncs_user_folder_properties_security03.png)
 
 ### 권한 전파 {#propagate-permissions}
 

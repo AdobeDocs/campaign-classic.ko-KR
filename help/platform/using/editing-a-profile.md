@@ -3,7 +3,7 @@ product: campaign
 title: 프로필 편집
 description: 프로필 편집
 feature: Profiles
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: profile-management

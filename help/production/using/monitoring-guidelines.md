@@ -3,12 +3,12 @@ product: campaign
 title: 모니터링 지침
 description: Campaign 인스턴스 및 프로세스를 모니터링하기 위한 지침과 모범 사례를 알아봅니다
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 22%
+source-wordcount: '750'
+ht-degree: 18%
 
 ---
 
@@ -73,7 +73,7 @@ Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관�
 
 **워크플로우 문제 해결**
 
-워크플로우 실행에 문제가 발생할 때 특정 작업을 수행할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](../../production/using/workflow-execution.md)하십시오
+워크플로우 실행에 문제가 발생할 때 특정 작업을 수행할 수 있습니다. [여기를 클릭하십시오.](../../production/using/workflow-execution.md) 추가 정보
 
 **워크플로우 상태 모니터링**
 
@@ -126,7 +126,7 @@ SMTP 보고서에는 도메인별 게재 통계 및 SMTP 오류가 표시됩니�
 
 *온-프레미스 및 하이브리드 호스팅 모델만 해당*
 
-컴퓨터에 문제가 발생할 경우(물리적 문제이든 시스템 관련 문제이든) 데이터 손실을 방지하려면 반드시 백업을 수행해야 합니다. 자세한 정보를 보려면 [여기를 클릭](../../production/using/backup.md)하십시오. 복원 절차는에 설명되어 있습니다. [이 섹션](../../production/using/restoration.md).
+컴퓨터에 문제가 발생할 경우(물리적 문제이든 시스템 관련 문제이든) 데이터 손실을 방지하려면 반드시 백업을 수행해야 합니다. [여기를 클릭하십시오.](../../production/using/backup.md) 추가 정보. 복원 절차는에 설명되어 있습니다. [이 섹션](../../production/using/restoration.md).
 
 ## Campaign Classic 기술 원칙 {#campaign-classic-technical-principles}
 

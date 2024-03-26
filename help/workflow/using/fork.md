@@ -2,13 +2,13 @@
 product: campaign
 title: 포크
 description: 포크 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 1%
+source-wordcount: '424'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 * 쿼리 결과 저장
 * 결과를 세그먼트화하여 여러 게재 보내기
 
-   ![포크 활동은 두 쿼리의 교차를 따르며 목록 업데이트 활동 및 분할 활동 앞에 옵니다.](assets/wkf_fork_example.png)
+  ![포크 활동은 두 쿼리의 교차를 따르며 목록 업데이트 활동 및 분할 활동 앞에 옵니다.](assets/wkf_fork_example.png)
 
 워크플로우는 다음 활동으로 구성됩니다.
 

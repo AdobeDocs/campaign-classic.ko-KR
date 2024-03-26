@@ -9,7 +9,7 @@ exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 5%
 
 1. 다음을 완료합니다. **레이블** 필드 및 클릭 **확인**.
 1. 요구 사항에 따라 워크플로우를 만듭니다.
-1. **저장**&#x200B;을 클릭합니다. 이제 템플릿을 캠페인에서 사용할 준비가 되었습니다.
+1. 클릭 **저장**. 이제 템플릿을 캠페인에서 사용할 준비가 되었습니다.
 
 다음을 수행할 수도 있습니다. **복제** 구성을 다시 사용하고 조정하는 기본 템플릿입니다.
 
@@ -117,7 +117,7 @@ ht-degree: 5%
 
   ![](assets/s_ncs_user_op_template_activate_4.png)
 
-* **타겟팅 및 워크플로**
+* **타겟팅 및 워크플로우**
 
   다음을 선택하면 **[!UICONTROL Targeting and workflows]** 모듈에서는 이 템플릿을 기반으로 캠페인용 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 개별적으로 워크플로우를 구성할 수도 있습니다.에서 캠페인 워크플로우에 대해 자세히 알아보세요. [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 

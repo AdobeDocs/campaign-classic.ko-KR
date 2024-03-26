@@ -11,8 +11,8 @@ topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3241'
-ht-degree: 37%
+source-wordcount: '3307'
+ht-degree: 34%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">비슷하지 않음</span> <br /> </td> 
-   <td> <span class="uicontrol">비슷함</span>과 유사합니다 . 입력한 값을 복구할 수 없습니다. 여기서도 입력한 값은 <span class="uicontrol">%</span> 와일드카드 문자를 포함해야 합니다.<br /> </td> 
+   <td> 다음과 유사 <span class="uicontrol">좋아요</span> . 입력한 값을 복구할 수 없습니다. 여기서도 입력한 값은 <span class="uicontrol">%</span> 와일드카드 문자를 포함해야 합니다.<br /> </td> 
    <td> <strong>성(@lastName)이 'Smi%h'와(과) 다릅니다.</strong>. 여기에서 성이 'Smi%h'인 수신자는 반환되지 않습니다.<br /> </td> 
   </tr> 
   <tr> 
@@ -184,7 +184,7 @@ ht-degree: 37%
 
 ![](assets/query_editor_nveau_01.png)
 
-고급 필드는 기본적으로 표시되지 않습니다. 클릭 **[!UICONTROL Display advanced fields]** 사용 가능한 필드의 오른쪽 아래 모서리에 모든 것을 표시할 수 있습니다. 이전 보기로 돌아가려면 다시 클릭합니다.
+고급 필드는 기본적으로 표시되지 않습니다. 클릭 **[!UICONTROL Display advanced fields]** 사용 가능한 필드의 오른쪽 하단 모서리에 있는 을 클릭하여 모든 항목을 표시합니다. 이전 보기로 돌아가려면 다시 클릭합니다.
 
 예를 들어 수신자 테이블에서 고급 필드는 다음과 같습니다 **부울 1**, **[!UICONTROL Boolean 2]**, **[!UICONTROL Boolean 3]**, **[!UICONTROL Foreign key of "Folder" link]**&#x200B;등
 
@@ -199,7 +199,7 @@ ht-degree: 37%
   <tr> 
    <th> 아이콘<br /> </th> 
    <th> 설명<br /> </th> 
-   <th> 예제<br /> </th> 
+   <th> 예<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -371,12 +371,12 @@ ht-degree: 37%
   <tr> 
    <td> <strong>평균</strong><br /> </td> 
    <td> 숫자 유형 열의 평균 반환<br /> </td> 
-   <td> Avg(&lt;값&gt;)<br /></td> 
+   <td> Avg(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>횟수</strong><br /> </td> 
+   <td> <strong>카운트</strong><br /> </td> 
    <td> 열의 null이 아닌 값 계산<br /> </td> 
-   <td> Count(&lt;값&gt;)<br /></td>  
+   <td> Count(&lt;value&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>CountAll</strong><br /> </td> 
@@ -386,17 +386,17 @@ ht-degree: 37%
   <tr> 
    <td> <strong>Countdistinct</strong><br /> </td> 
    <td> 열의 null이 아닌 개별 값 계산<br /> </td> 
-   <td> Countdistinct(&lt;값&gt;)<br /></td> 
+   <td> Countdistinct(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>최대</strong><br /> </td> 
    <td> 숫자, 문자열 또는 날짜 유형 열의 최대값 반환<br /> </td> 
-   <td> Max(&lt;값&gt;)<br /></td>  
+   <td> Max(&lt;value&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>최소</strong><br /> </td> 
+   <td> <strong>분</strong><br /> </td> 
    <td> 숫자, 문자열 또는 날짜 유형 열의 최소값 반환<br /> </td> 
-   <td> Min(&lt;값&gt;)<br /></td> 
+   <td> Min(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>표준 개발</strong><br /> </td> 
@@ -406,7 +406,7 @@ ht-degree: 37%
   <tr> 
    <td> <strong>합계</strong><br /> </td> 
    <td> 숫자, 문자열 또는 날짜 유형 열 값의 합계 반환<br /> </td> 
-   <td> Sum(&lt;값&gt;)<br /></td> 
+   <td> Sum(&lt;value&gt;)<br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -423,37 +423,37 @@ ht-degree: 37%
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
    <td> 모든 매개 변수가 null이 아니고 비어 있지 않은지 표시<br /> </td> 
-   <td> AllNonNull2(&lt;문자열&gt;, &lt;문자열&gt;)<br /></td> 
+   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> 모든 매개 변수가 null이 아니고 비어 있지 않은지 표시<br /> </td> 
-   <td> AllNonNull3(&lt;문자열&gt;, &lt;문자열&gt;, &lt;문자열&gt;)<br /></td> 
+   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ascii</strong><br /> </td> 
-   <td> 문자열에서 첫 번째 문자의 ASCII 값 반환.<br /> </td> 
-   <td> Ascii(&lt;문자열&gt;)<br /></td> 
+   <td> 문자열에서 첫 번째 문자의 ASCII 값을 반환합니다.<br /> </td> 
+   <td> Ascii(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> 'n' ASCII 코드에 해당하는 문자 반환<br /> </td> 
-   <td> Char(&lt;숫자&gt;)<br /></td>  
+   <td> Char(&lt;number&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
-   <td> 문자열 1에서 문자열 2의 위치 반환.<br /> </td> 
-   <td> Charindex(&lt;문자열&gt;, &lt;문자열&gt;)<br /></td> 
+   <td> 문자열 1에서 문자열 2의 위치를 반환합니다.<br /> </td> 
+   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> 문자열의 n번째(1에서 n까지) 행 반환<br /> </td> 
-   <td> GetLine(&lt;문자열&gt;)<br /></td> 
+   <td> GetLine(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
    <td> 처음 두 매개 변수가 동일한 경우 세 번째 매개 변수를 반환합니다. 그렇지 않으면 마지막 매개 변수를 반환합니다.<br /> </td> 
-   <td> IfEquals(&lt;문자열&gt;, &lt;문자열&gt;, &lt;문자열&gt;, &lt;문자열&gt;)<br /></td> 
+   <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
@@ -463,12 +463,12 @@ ht-degree: 37%
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
    <td> 매개 변수로 전달된 문자열을 연결합니다. 필요한 경우 문자열 사이에 공백을 추가합니다.<br /> </td> 
-   <td> JuxtWords(&lt;문자열&gt;, &lt;문자열&gt;)<br /></td> 
+   <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> 매개 변수로 전달된 문자열을 연결합니다. 필요한 경우 문자열 사이에 공백을 추가합니다.<br /> </td> 
-   <td> JuxtWords3(&lt;문자열&gt;, &lt;문자열&gt;, &lt;문자열&gt;)<br /></td>  
+   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
@@ -478,37 +478,37 @@ ht-degree: 37%
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> 문자열의 처음 n자 반환<br /> </td> 
-   <td> Left(&lt;문자열&gt;, &lt;숫자&gt;)<br /></td> 
+   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
    <td> 문자열의 길이 반환<br /> </td> 
-   <td> Length(&lt;문자열&gt;)<br /></td> 
+   <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 문자열을 소문자로 반환<br /> </td> 
-   <td> Lower(&lt;문자열&gt;)<br /></td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> 문자열 왼쪽의 공백 제거<br /> </td> 
-   <td> Ltrim(&lt;문자열&gt;)<br /></td> 
+   <td> Ltrim(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> 문자열의 MD5 키를 16진수로 반환<br /> </td> 
-   <td> Md5Digest(&lt;문자열&gt;)<br /></td> 
+   <td> Md5Digest(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> 메모에 매개 변수로 전달된 문자열이 포함되어 있는지 지정<br /> </td> 
-   <td> MemoContains(&lt;메모&gt;, &lt;문자열&gt;)<br /></td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> 오른쪽에 완성된 문자열 반환<br /> </td> 
-   <td> RPad(&lt;문자열&gt;, &lt;숫자&gt;, &lt;문자&gt;)<br /></td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -1023,7 +1023,7 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
-   <td> 테이블 파티션 및 정렬 시퀀스에 따라 행 번호 생성.<br /> </td> 
+   <td> 테이블 파티션 및 정렬 시퀀스에 따라 행 번호를 생성합니다.<br /> </td> 
    <td> RowNum(PartitionBy(&lt;값 1&gt;), OrderBy(&lt;값 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 

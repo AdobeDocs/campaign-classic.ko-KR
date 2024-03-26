@@ -8,8 +8,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 1%
+source-wordcount: '1193'
+ht-degree: 0%
 
 ---
 
@@ -97,7 +97,7 @@ A **`<command>`** 요소는 다음을 포함할 수 있습니다. **`<command>`*
 
 양식 컨텍스트는 초기화 시 **`<enter>`** 태그에 가깝게 배치하십시오. 이 태그에 대한 자세한 내용은 입력 양식에 대한 설명서를 참조하십시오.
 
-**예제**:
+**예**:
 
 * &quot;xtk:import&quot; 양식을 실행하기 위한 전역 명령 선언:
 
@@ -270,7 +270,7 @@ A **`<command>`** 요소는 다음을 포함할 수 있습니다. **`<command>`*
 
 양식 컨텍스트는 를 통해 초기화 시 업데이트할 수 있습니다. **`<enter>`** 태그에 가깝게 배치하십시오. 이 태그에 대한 자세한 내용은 입력 양식 설명서를 참조하십시오.
 
-**예제**:
+**예**:
 
 ```
 <command desc="Cancel execution of the job" enabledIf="EV(@status, 'running')"

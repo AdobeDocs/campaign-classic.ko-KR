@@ -2,13 +2,13 @@
 product: campaign
 title: 다대다 관계를 사용하여 쿼리
 description: 다대다 관계를 사용하여 쿼리를 수행하는 방법에 대해 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Query Editor, Workflows
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 2%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
      ![](assets/query_editor_nveau_36.png)
 
-     선택 **[!UICONTROL Event date]** (으)로 **[!UICONTROL greater than or equal to]** 연산자. 다음 항목 선택 **[!UICONTROL DaysAgo (7)]** 값. 이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL Edit expression]** 다음에서 **[!UICONTROL Value]** 필드. 다음에서 **[!UICONTROL Formula type]** 창, 선택 **[!UICONTROL Process on dates]** 및 **[!UICONTROL Current date minus n days]**, &quot;7&quot;을 값으로 제공합니다.
+     선택 **[!UICONTROL Event date]** (으)로 **[!UICONTROL greater than or equal to]** 연산자. 다음 항목 선택 **[!UICONTROL DaysAgo (7)]** 값. 이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL Edit expression]** 다음에서 **[!UICONTROL Value]** 필드. 다음에서 **[!UICONTROL Formula type]** 창, 선택 **[!UICONTROL Process on dates]** 및 **[!UICONTROL Current date minus n days]**, 값으로 &quot;7&quot;을 제공합니다.
 
      ![](assets/query_editor_nveau_37.png)
 

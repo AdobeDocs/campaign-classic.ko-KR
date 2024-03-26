@@ -10,8 +10,8 @@ topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: 52dcc8c01c5ce2421bfb59235bd0e458e7c8122f
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 7%
+source-wordcount: '811'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 다음에 표시되는 표시기의 경고 임계값(주황색) 및 경고 임계값(빨간색)을 구성할 수 있습니다. **메시지 센터 서비스 수준** 및 **메시지 센터 처리 시간** 보고서(참조: [트랜잭션 메시지 보고서 액세스](../../message-center/using/about-transactional-messaging-reports.md)).
 
-이렇게 하려면 아래 단계를 수행합니다:
+이렇게 하려면 아래 단계를 수행합니다.
 
 1. 에서 배포 마법사를 엽니다. **실행 인스턴스**.
 
@@ -103,7 +103,7 @@ Once the control and execution modules are installed on the same instance, you m
 
 이 섹션에서는 Adobe Campaign에서 트랜잭션 메시지에 대해 브랜드당 추적 및 미러 페이지 URL을 구성하는 한 가지 솔루션에 대해 설명합니다.
 
-### 전제 조건 {#prerequisites}
+### 필수 구성 요소 {#prerequisites}
 
 * 모든 호스트는 인스턴스의 구성 파일에 추가해야 합니다(`config-<instance>.xml`).
 * 각 브랜드에는 하위 도메인을 할당해야 합니다.
@@ -166,7 +166,7 @@ Once the control and execution modules are installed on the same instance, you m
 
 제어 인스턴스에서는 게재 템플릿과 외부 계정을 연결해야 합니다.
 
-이렇게 하려면 아래 단계를 수행합니다:
+이렇게 하려면 아래 단계를 수행합니다.
 
 1. 에 정의된 것과 동일한 내부 이름을 사용하는 브랜드당 하나의 외부 계정을 만듭니다. [실행 인스턴스](#execution-instance) (1단계)
 

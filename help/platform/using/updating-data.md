@@ -1,9 +1,9 @@
 ---
 product: campaign
-title: 데이터 업데이트
-description: 데이터 업데이트
+title: 데이터 업데이트 중
+description: 데이터 업데이트 중
 feature: Data Management
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: profile-management

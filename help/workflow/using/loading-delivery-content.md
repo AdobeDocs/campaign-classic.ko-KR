@@ -1,8 +1,8 @@
 ---
 product: campaign
 title: 게재 콘텐츠 로드
-description: 게재 콘텐츠 로드
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+description: 게재 콘텐츠 로드 중
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
 source-git-commit: 81d12ac055536fbe097466ad737bf7fee1b593ad

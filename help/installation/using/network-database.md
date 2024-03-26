@@ -3,15 +3,15 @@ product: campaign
 title: 네트워크, 데이터베이스 및 SSL/TLS
 description: 네트워크, 데이터베이스 및 SSL/TLS 구성 모범 사례에 대해 자세히 알아보기
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 9%
+source-wordcount: '139'
+ht-degree: 14%
 
 ---
 

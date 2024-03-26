@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 타기팅 워크플로우 만들기
+title: 타겟팅 워크플로우 만들기
 description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법에 대해 알아봅니다
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
@@ -10,7 +10,7 @@ exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 8%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 
    ![](assets/use_case_abtesting_targetwkfl_001.png)
 
-1. **[!UICONTROL Targeting and Workflows]** 탭으로 이동합니다. 
+1. 로 이동 **[!UICONTROL Targeting and Workflows]** 탭.
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 

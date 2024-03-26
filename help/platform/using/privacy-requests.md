@@ -3,15 +3,15 @@ product: campaign
 title: 개인 정보 보호 요청 관리
 description: 개인 정보 보호 요청에 대해 알아보기
 feature: Privacy, Privacy Tools
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 98%
+source-wordcount: '497'
+ht-degree: 100%
 
 ---
 

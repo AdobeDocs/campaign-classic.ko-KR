@@ -5,13 +5,13 @@ description: 데이터 스키마의 키 관리 이해
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
-source-git-commit: 4a29c189e1e438bbb90067ece63ced0196c618ec
+exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
+source-git-commit: 46dcd80d5adc31a66b47c6d75e7914b0a686326b
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
-
 
 # 스키마의 키 관리 {#management-of-keys}
 
@@ -184,7 +184,7 @@ Adobe Campaign 스키마에서 참조된 시퀀스(**NmsTrackingLogId** 예를 �
 
 자세한 내용은 다음 링크를 참조하십시오.
 
-* [스키마 시작](about-schema-reference.md)
+* [스키마 시작하기](about-schema-reference.md)
 * [스키마 구조](schema-structure.md)
 * [데이터베이스 매핑](database-mapping.md)
 * [링크 관리](database-links.md)

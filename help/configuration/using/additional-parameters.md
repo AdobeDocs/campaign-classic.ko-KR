@@ -9,7 +9,7 @@ exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign 플랫폼은 두 개의 트랜잭션 유형의 웹 추적 매개 
 
 추가 매개 변수를 정의하려면 이 스키마를 확장해야 합니다.
 
-**예제**:
+**예**:
 
 ```
 <srcSchema extendedSchema="nms:webTrackingLog" label="Web Tracking"
@@ -52,7 +52,7 @@ Adobe Campaign 플랫폼은 두 개의 트랜잭션 유형의 웹 추적 매개 
 
 이렇게 하려면 다음을 수정합니다. **webTrackingParamsize** 속성 **`<trackinglogd>`** 의 요소 **serverConf.xml** 파일. 이 파일은 **conf** Adobe Campaign 설치 디렉토리의 하위 디렉토리.
 
-**예제**:
+**예**:
 
 기본값은 64자입니다. 이 값을 사용하면 다음을 고려할 수 있습니다. **금액** 및 **기사** (&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&quot;) 표준 매개 변수입니다.
 

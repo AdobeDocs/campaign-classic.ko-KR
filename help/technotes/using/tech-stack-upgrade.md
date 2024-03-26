@@ -6,8 +6,8 @@ feature: Technote, Upgrade
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 9%
+source-wordcount: '502'
+ht-degree: 4%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 Campaign 인프라는 최신 버전 및 수정 사항으로 정기적으로 업데이트해야 하는 서드파티 시스템을 사용합니다. 이러한 업데이트는 서비스의 연속성을 보장하고 보안 위험으로부터 Campaign 환경을 보호하기 위해 필수입니다. 또한 서드파티 시스템 변경 사항과의 호환성을 보장하려면 Campaign을 업그레이드해야 합니다.
 
-로서의 **호스팅 또는 관리 Cloud Services 고객**, Adobe은 이러한 업그레이드가 필요할 때 사용자에게 알려 줍니다. 규정 준수를 보장하기 위해 권장 사항에 따라 환경을 업그레이드해야 합니다.
+로서의 **호스팅 또는 관리 Cloud Service 고객**, Adobe은 이러한 업그레이드가 필요할 때 사용자에게 알려 줍니다. 규정 준수를 보장하기 위해 권장 사항에 따라 환경을 업그레이드해야 합니다.
 
 (으)로 **온-프레미스 또는 하이브리드 고객**, Adobe은 동일한 달력에 따라 시스템 및 Campaign 버전을 업그레이드할 것을 강력히 권장합니다.
 
@@ -23,7 +23,7 @@ Campaign 인프라는 최신 버전 및 수정 사항으로 정기적으로 업�
 
 >[!NOTE]
 >
->이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 다음 항목도 참조하십시오. [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md).
+>이러한 변경 사항에 대한 질문이 있으면 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). 다음 항목도 참조하십시오. [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md).
 >
 
 ## Campaign 빌드 업그레이드 {#ac-upgrade}
@@ -34,7 +34,7 @@ Campaign 인프라는 최신 버전 및 수정 사항으로 정기적으로 업�
 
 **업데이트 방법**
 
-* 호스팅 또는 관리 Cloud Services 고객인 Adobe은 귀하에게 연락하여 Campaign 버전을 업그레이드합니다.
+* 호스팅 또는 관리 Cloud Service 고객인 Adobe은 귀하에게 연락하여 Campaign 버전을 업그레이드합니다.
 * 하이브리드 고객은 Adobe이 중간 소싱 환경에 대해 예약된 빌드 업그레이드 날짜를 알려줍니다. 또한 마케팅 환경을 동일한 버전으로 업그레이드해야 합니다.
 * 온-프레미스 고객은 Campaign 환경을 최신 7.3.2 빌드로 업그레이드해야 합니다.
 
@@ -47,7 +47,7 @@ Campaign 인프라는 최신 버전 및 수정 사항으로 정기적으로 업�
 
 **업데이트 방법**
 
-* 호스팅 또는 관리 Cloud Services 고객인 Adobe은 귀하에게 연락하여 환경을 업그레이드합니다.
+* 호스팅 또는 관리 Cloud Service 고객인 Adobe은 귀하에게 연락하여 환경을 업그레이드합니다.
 * 하이브리드 고객은 Adobe에서 중간 소싱 환경에 대해 예약된 업그레이드 날짜를 알려줍니다. 마케팅 환경도 Debian에서 실행 중인 경우 Debian 11로 업그레이드해야 합니다.
 * 온프레미스 고객은 환경을 Debian 11로 업그레이드해야 합니다.
 
@@ -59,7 +59,7 @@ Campaign용 데이터베이스 시스템이 PostgreSQL인 경우 최신 PostgreS
 
 **업데이트 방법**
 
-* 호스팅 또는 관리 Cloud Services 고객인 Adobe은 사용자에게 연락하여 데이터베이스 시스템을 PostgreSQL 11에서 PostgreSQL 14로 업그레이드합니다.
+* 호스팅 또는 관리 Cloud Service 고객인 Adobe은 사용자에게 연락하여 데이터베이스 시스템을 PostgreSQL 11에서 PostgreSQL 14로 업그레이드합니다.
 * 하이브리드 고객인 경우 마케팅 데이터베이스 시스템이 PostgreSQL인 경우 PostgreSQL 14로 업그레이드해야 합니다.
 * 온-프레미스 고객은 데이터베이스 시스템을 PostgreSQL 14로 업그레이드해야 합니다.
 

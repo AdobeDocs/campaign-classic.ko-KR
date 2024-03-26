@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성
+title: Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성
 description: Adobe Experience Cloud Triggers용 Adobe I/O을 구성하는 방법 알아보기
 feature: Triggers
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
@@ -12,12 +12,12 @@ snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 5%
+source-wordcount: '753'
+ht-degree: 6%
 
 ---
 
-# Adobe Experience Cloud 트리거에 대한 Adobe I/O 구성 {#configuring-adobe-io}
+# Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성 {#configuring-adobe-io}
 
 >[!CAUTION]
 >
@@ -26,7 +26,7 @@ ht-degree: 5%
 >
 >Campaign의 레거시 oAuth 인증 모드가 사용 중지됨 **2021년 10월 20일**. 호스팅된 환경은 다음 기한까지 확장 혜택을 받을 수 있습니다. **2022년 5월 25일**. 온-프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 연락하여 지원 대상을 확장합니다. **2022년 5월**. 다음을 수행해야 합니다. [oaUth 애플리케이션의 AppID 제공](../../integrations/using/configuring-pipeline.md#step-optional) Adobe.
 
-## 전제 조건 {#adobe-io-prerequisites}
+## 필수 구성 요소 {#adobe-io-prerequisites}
 
 이 통합은 시작에만 적용됩니다. **Campaign Classic 20.2.4 이상, 19.1.8 및 Gold Standard 11 릴리스**.
 
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
-> JWT(JSON 웹 토큰)는 현재 감가상각 중이며 OAuth로 대체되고 있습니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행되고 설명서는 이러한 업데이트를 반영하도록 업데이트됩니다.
+> 현재 JWT(JSON 웹 토큰)의 지원 종료를 준비하고 있으며, 이를 OAuth로 대체하는 과정이 진행 중입니다. Campaign의 예정된 릴리스 내에서 이 전환을 점진적으로 수행하며, 설명서에 이러한 업데이트를 반영하여 업데이트합니다.
 
 1. 액세스 [!DNL Adobe I/O] 조직의 개발자 액세스 권한으로 로그인합니다. 올바른 조직 포털에 로그인했는지 확인하십시오.
 

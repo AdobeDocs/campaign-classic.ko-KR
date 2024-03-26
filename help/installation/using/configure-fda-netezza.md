@@ -3,15 +3,15 @@ product: campaign
 title: netezza 액세스 구성
 description: FDA에서 Netezza 액세스를 구성하는 방법 알아보기
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 0%
+source-wordcount: '376'
+ht-degree: 1%
 
 ---
 
@@ -81,7 +81,7 @@ netezza 외부 계정을 사용하면 Campaign 인스턴스를 Netezza 외부 �
 
 1. 을(를) 구성하려면 다음을 수행하십시오. **[!UICONTROL Netezza]** 외부 계정에서 다음을 지정해야 합니다.
 
-   * **[!UICONTROL Type]**: Netezza
+   * **[!UICONTROL Type]**: NETEZZA
 
    * **[!UICONTROL Server]**: Netezza 서버의 URL
 

@@ -9,8 +9,8 @@ role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 7%
+source-wordcount: '1296'
+ht-degree: 4%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign 데이터베이스에 저장되거나 추적, 랜딩 페이지, �
 
 작업 [제목란](defining-the-email-content.md#message-content) 열람율을 향상시키려면
 
-* 너무 긴 과목은 피하세요. 최대 50자를 사용할 수 있습니다
+* 너무 긴 과목은 피하세요. 최대 50자 사용
 
 * 스팸으로 간주될 수 있는 &quot;무료&quot; 또는 &quot;오퍼&quot;와 같은 단어를 반복적으로 사용하지 마십시오
 
@@ -93,7 +93,7 @@ Adobe Campaign 데이터베이스에 저장되거나 추적, 랜딩 페이지, �
 
 ### SMS 길이
 
-기본적으로 SMS의 글자 수는 GSM(이동통신 글로벌 시스템) 표준을 충족합니다. GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 또는 여러 부분으로 나누어 전송되는 메시지의 경우 153자로 제한됩니다.
+기본적으로 SMS의 문자 수는 GSM(이동통신 글로벌 시스템) 표준을 충족합니다. GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 또는 여러 부분으로 나누어 전송되는 메시지의 경우 153자로 제한됩니다.
 
 변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다. SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다. 해당 항목의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다 **[!UICONTROL External account]**.
 자세히 알아보기 [이 섹션에서](sms-set-up.md#creating-an-smpp-external-account).

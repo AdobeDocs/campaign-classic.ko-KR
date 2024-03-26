@@ -10,7 +10,7 @@ exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -51,6 +51,6 @@ ht-degree: 6%
 게재 콘텐츠를 구성할 준비가 되었습니다. 게재 콘텐츠 정의는 각 채널에 따라 다릅니다. 자세한 내용은 전용 섹션 을 참조하십시오.
 
 * [이메일 콘텐츠 정의](defining-the-email-content.md)
-* [SMS 콘텐츠를 정의합니다](sms-create.md#defining-the-sms-content)
+* [SMS 콘텐츠 정의](sms-create.md#defining-the-sms-content)
 * [DM 콘텐츠 정의](defining-the-direct-mail-content.md)
 * [푸시 알림](about-mobile-app-channel.md)

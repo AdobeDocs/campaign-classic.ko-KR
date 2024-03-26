@@ -10,7 +10,7 @@ exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 20%
+ht-degree: 11%
 
 ---
 
@@ -27,5 +27,5 @@ ht-degree: 20%
 
    ![](assets/direct_mail.png)
 
-1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 이 작업에 대한 자세한 정보는 [이 섹션](steps-create-and-identify-the-delivery.md#identifying-the-delivery)을 참조하십시오
+1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 자세한 내용은 다음을 참조하십시오. [이 섹션](steps-create-and-identify-the-delivery.md#identifying-the-delivery)
 1. 클릭 **계속** 이 정보를 확인하고 메시지 구성 창을 표시합니다.

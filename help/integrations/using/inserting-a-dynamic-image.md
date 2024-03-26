@@ -11,7 +11,7 @@ topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '822'
 ht-degree: 3%
 
 ---
@@ -63,7 +63,7 @@ Adobe Campaign에서는 Target의 동적 이미지를 이메일에 삽입하는 
 * 다음 **[!UICONTROL Landing Page]**: 기본 이미지가 기본 랜딩 페이지로 리디렉션되도록 하는 경우. 이 URL은 기본 이미지가 최종 이메일에 표시되는 경우에만 해당되며 선택 사항입니다.
 * 다음 **[!UICONTROL Additional decision parameters]**: Adobe Target 세그먼트에 정의된 필드와 Adobe Campaign 필드 간의 매핑을 지정합니다. 사용된 Adobe Campaign 필드는 rawbox에 지정했어야 합니다. 이 예제에서는 국가 필드를 추가했습니다.
 
-Adobe Target의 설정에서 Enterprise 권한을 사용하는 경우 이 필드에 해당 속성을 추가합니다. 에서 엔터프라이즈 권한 Target에 대해 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html).
+Adobe Target의 설정에서 Enterprise 권한을 사용하는 경우 이 필드에 해당 속성을 추가합니다. 에서 Target 엔터프라이즈 권한에 대해 자세히 알아보십시오. [이 페이지](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html).
 
 ![](assets/target_13.png)
 
@@ -103,7 +103,7 @@ Target에서 오퍼를 방문하는 사람을 전달할 다른 콘텐츠에 대�
 
 ## 경험 타깃팅 활동 만들기 {#creating-targeting-activity}
 
-Target 시 경험 타깃팅 활동을 만들고, 다양한 경험을 정의하고, 해당 오퍼와 연결해야 합니다.
+Target에서 경험 타깃팅 활동을 만들고, 다양한 경험을 정의하고, 해당 오퍼와 연결해야 합니다.
 
 ### 대상자 정의 {#defining-the-audience}
 

@@ -2,13 +2,13 @@
 product: campaign
 title: 분산 마케팅 샘플
 description: 분산 마케팅 샘플
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 0%
+source-wordcount: '1303'
+ht-degree: 1%
 
 ---
 
@@ -42,35 +42,35 @@ ht-degree: 0%
 
 * 주문하는 동안 로컬 엔티티가 입력할 필드,
 
-   ![](assets/mkg_dist_web_app2.png)
+  ![](assets/mkg_dist_web_app2.png)
 
 * 로컬 엔티티가 캠페인을 평가할 수 있도록 하는 링크(예: 타겟, 예산, 콘텐츠 등),
 
-   ![](assets/mkg_dist_web_app3.png)
+  ![](assets/mkg_dist_web_app3.png)
 
 * 이러한 평가의 결과를 계산하고 표시할 수 있는 스크립트.
 
-   ![](assets/mkg_dist_web_app4.png)
+  ![](assets/mkg_dist_web_app4.png)
 
 이 예에서는 다음 API가 사용됩니다.
 
 * 대상 평가의 경우,
 
-   ```
-   var res = nms.localOrder.EvaluateTarget(ctx.localOrder);
-   ```
+  ```
+  var res = nms.localOrder.EvaluateTarget(ctx.localOrder);
+  ```
 
 * 예산 평가를 위해,
 
-   ```
-   var res = nms.localOrder.EvaluateDeliveryBudget(ctx.@deliveryId, NL.XTK.parseNumber(ctx.@compt));
-   ```
+  ```
+  var res = nms.localOrder.EvaluateDeliveryBudget(ctx.@deliveryId, NL.XTK.parseNumber(ctx.@compt));
+  ```
 
 * 콘텐츠 평가를 위해,
 
-   ```
-   var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
-   ```
+  ```
+  var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
+  ```
 
 ## 공동 작업 캠페인 만들기(대상 승인별) {#creating-a-collaborative-campaign--by-target-approval-}
 
@@ -219,7 +219,7 @@ ht-degree: 0%
    * 게재 콘텐츠 미리 보기,
    * 기여도를 승인합니다.
 
-      ![](assets/mkg_dist_use_case_form_8.png)
+     ![](assets/mkg_dist_use_case_form_8.png)
 
 1. 주문의 검증을 담당하는 운영자가 그 참여를 승인한다.
 

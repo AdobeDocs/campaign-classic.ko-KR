@@ -2,12 +2,12 @@
 product: campaign
 title: 공동 캠페인 만들기
 description: 공동 작업 캠페인을 만드는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '922'
 ht-degree: 4%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 4%
 
 캠페인 워크플로우는 다음과 통합되어야 합니다. **로컬 승인** 활동을 입력합니다. 활동 매개 변수는 다음과 같습니다.
 
-* **[!UICONTROL Action to perform]** : 대상 승인 미리 알림.
+* **[!UICONTROL Action to perform]** : Target 승인 알림입니다.
 * **[!UICONTROL Distribution context]** : 명시적.
 * **[!UICONTROL Data distribution]** : 로컬 엔티티 배포
 
@@ -90,7 +90,7 @@ ht-degree: 4%
 
 ![](assets/mkg_dist_data_distribution2.png)
 
-다시 추가할 수 있습니다. **Target 승인** 다음 이후 **게재** activity를 입력하여 보고서를 구성합니다.
+다시 추가할 수 있습니다. **대상 승인** 다음 이후 **게재** activity를 입력하여 보고서를 구성합니다.
 
 캠페인 생성 알림 메시지에서 로컬 엔티티는 중앙 엔티티 매개 변수에 의해 미리 정의된 연락처 목록을 수신합니다.
 
@@ -100,7 +100,7 @@ ht-degree: 4%
 
 ![](assets/mkg_dist_mutual_op_by_valid2.png)
 
-### 단순 {#simple}
+### 심플 {#simple}
 
 간단한 공동 작업 캠페인을 만들려면 **[!UICONTROL Collaborative campaign (simple)]** 템플릿을 선택해야 합니다.
 

@@ -3,12 +3,12 @@ product: campaign
 title: Campaign - Microsoft Dynamics CRM 커넥터
 description: Campaign과 Microsoft Dynamics 연결 방법 알아보기
 feature: Microsoft CRM Integration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 4%
+source-wordcount: '1111'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ Microsoft Dynamics CRM에서:
 1. 앱 사용자 만들기
 1. 개인 키 인코딩
 
-[이 섹션에서 자세히 알아보십시오](#config-crm-microsoft)
+[이 섹션에서 자세히 알아보기](#config-crm-microsoft)
 
 Campaign Classic:
 1. 새 외부 계정 만들기
@@ -41,7 +41,7 @@ Campaign Classic:
 1. 구성 마법사를 사용하여 테이블을 매핑하고 열거형을 동기화합니다.
 1. 동기화 워크플로우 만들기
 
-[이 섹션에서 자세히 알아보십시오](#configure-acc-for-microsoft)
+[이 섹션에서 자세히 알아보기](#configure-acc-for-microsoft)
 
 
 >[!CAUTION]
@@ -170,7 +170,7 @@ Microsoft Dynamics 365와 Campaign을 연결하려면 전용 을(를) 만들고 
 
    ![](assets/crm-ms-dynamics-ext-account.png)
 
-1. **[!UICONTROL Microsoft CRM configuration wizard...]** 링크를 클릭합니다. Adobe Campaign은 Microsoft Dynamics 데이터 템플릿에서 테이블을 자동으로 검색합니다.
+1. 다음을 클릭합니다. **[!UICONTROL Microsoft CRM configuration wizard...]** 링크를 클릭합니다. Adobe Campaign은 Microsoft Dynamics 데이터 템플릿에서 테이블을 자동으로 검색합니다.
 
    ![](assets/crm_connectors_msdynamics_02.png)
 

@@ -2,13 +2,13 @@
 product: campaign
 title: 승인
 description: 승인
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Approvals
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 1%
 
 ---
 
@@ -26,15 +26,15 @@ An **승인** 작업에는 연산자의 참여가 필요합니다. 운영자에�
 
 * 단일 연산자를 선택하려면 **[!UICONTROL Operator]** 의 값 **[!UICONTROL Assignment type]** 필드를 작성하고 드롭다운 목록에서 관련 연산자를 선택합니다. **[!UICONTROL Assignee]** 필드.
 
-   ![](assets/s_advuser_validation_box_assign.png)
+  ![](assets/s_advuser_validation_box_assign.png)
 
-   >[!CAUTION]
-   >
-   >선택한 운영자만 작업을 승인할 수 있습니다.
+  >[!CAUTION]
+  >
+  >선택한 운영자만 작업을 승인할 수 있습니다.
 
 * 승인 연산자를 필터링할 쿼리를 정의할 수 있습니다. 이렇게 하려면 **[!UICONTROL Filter]** 의 값 **[!UICONTROL Assignment type]** 필드를 클릭하고 **[!UICONTROL Advanced parameters...]** 다음 예와 같이 필터링 조건을 정의하는 링크:
 
-   ![](assets/s_advuser_validation_box_filter.png)
+  ![](assets/s_advuser_validation_box_filter.png)
 
 1회 승인 시 운영자 선택에 해당하는 전환이 활성화되고 작업이 종료됨: 다른 운영자는 회신할 수 없음.
 
@@ -70,8 +70,8 @@ An **승인** 작업에는 연산자의 참여가 필요합니다. 운영자에�
 
 * **[!UICONTROL response]**
 
-   응답 관련 댓글
+  응답 관련 댓글
 
 * **[!UICONTROL responseOperator]**
 
-   응답한 연산자의 식별자입니다. 이 필드는 숫자이지만 **[!UICONTROL String]** 필드.
+  응답한 연산자의 식별자입니다. 이 필드는 숫자이지만 **[!UICONTROL String]** 필드.

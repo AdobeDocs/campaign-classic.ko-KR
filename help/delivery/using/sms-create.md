@@ -9,8 +9,8 @@ role: User
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 4%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 4%
 1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 이 작업에 대한 자세한 정보는 [이 섹션](steps-create-and-identify-the-delivery.md#identifying-the-delivery)을 참조하십시오.
 1. 클릭 **[!UICONTROL Continue]** 이 정보를 확인하고 메시지 구성 창을 표시합니다.
 
-## SMS 콘텐츠를 정의합니다 {#defining-the-sms-content}
+## SMS 콘텐츠 정의 {#defining-the-sms-content}
 
 SMS의 콘텐츠를 만들려면 아래 단계를 수행합니다.
 

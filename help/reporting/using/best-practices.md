@@ -3,12 +3,12 @@ product: campaign
 title: 보고 모범 사례
 description: Campaign 보고 모범 사례
 feature: Reporting, Monitoring
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 0%
+source-wordcount: '851'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 보고 도구를 사용하는 것은 조작할 데이터의 양, 복잡성 및 설정할 보고 유형에 따라 다릅니다.
 
-보고서의 생성, 사용 및 내구성을 최적화하려면 충족하려는 요구 사항을 자세히 살펴야 합니다. 이 첫 번째 분석을 통해 생성할 보고서 유형과 최상의 생성 모드를 식별할 수 있습니다. 보고서를 만들려면 다음 단계를 적용합니다.
+보고서의 생성, 사용 및 내구성을 최적화하려면 충족하려는 요구 사항을 면밀히 살펴야 합니다. 이 첫 번째 분석을 통해 생성할 보고서 유형과 최상의 생성 모드를 식별할 수 있습니다. 보고서를 만들려면 다음 단계를 적용합니다.
 
 1. 요구 사항 파악
 
@@ -30,15 +30,15 @@ ht-degree: 0%
 
    예를 들어 다음과 같은 작업을 수행할 수 있습니다.
 
-   * 데이터베이스의 데이터를 탐색하고 측정을 정의합니다. 자세히 알아보기 [이 섹션에서](../../reporting/using/ac-cubes.md)
-   * 기존 보고서에 지표 추가. 자세히 알아보기 [이 섹션에서](../../reporting/using/about-reports-creation-in-campaign.md)
-   * 데이터베이스에서 데이터를 봅니다. 자세히 알아보기 [이 섹션에서](../../reporting/using/about-descriptive-analysis.md)
+   * 데이터베이스의 데이터를 탐색하고 측정을 정의합니다. [이 섹션에서](../../reporting/using/ac-cubes.md) 자세히 알아보기
+   * 기존 보고서에 지표 추가. [이 섹션에서](../../reporting/using/about-reports-creation-in-campaign.md) 자세히 알아보기
+   * 데이터베이스에서 데이터를 봅니다. [이 섹션에서](../../reporting/using/about-descriptive-analysis.md) 자세히 알아보기
    * 새 게재 보고서를 만듭니다. 자세히 알아보기 [이 섹션에서](../../reporting/using/about-reports-creation-in-campaign.md)),
    * Adobe Campaign 데이터베이스에서 데이터 내보내기(워크플로우를 통해): [이 섹션](../../workflow/using/about-workflows.md)
-   * 피벗 테이블을 만듭니다. 자세히 알아보기 [이 섹션에서](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
-   * 집계된 데이터를 탐색합니다. 자세히 알아보기 [이 섹션에서](../../reporting/using/ac-cubes.md)
-   * 마법사를 사용하여 데이터를 분석합니다. 자세히 알아보기 [이 섹션에서](../../reporting/using/about-descriptive-analysis.md)
-   * 대량의 데이터를 분석합니다. 자세히 알아보기 [이 섹션에서](../../reporting/using/about-reports-creation-in-campaign.md)
+   * 피벗 테이블을 만듭니다. [이 섹션에서](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table) 자세히 알아보기
+   * 집계된 데이터를 탐색합니다. [이 섹션에서](../../reporting/using/ac-cubes.md) 자세히 알아보기
+   * 마법사를 사용하여 데이터를 분석합니다. [이 섹션에서](../../reporting/using/about-descriptive-analysis.md) 자세히 알아보기
+   * 대량의 데이터를 분석합니다. [이 섹션에서](../../reporting/using/about-reports-creation-in-campaign.md) 자세히 알아보기
 
 1. 대상 모집단 식별
 

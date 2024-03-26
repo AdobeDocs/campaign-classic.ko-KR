@@ -2,13 +2,13 @@
 product: campaign
 title: 그룹 관리를 사용한 쿼리
 description: 그룹 관리를 사용하여 쿼리를 수행하는 방법에 대해 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Query Editor, Workflows
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 4%
+source-wordcount: '263'
+ht-degree: 6%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 4%
 
    ![](assets/query_editor_nveau_70.png)
 
-1. **[!UICONTROL Data filtering]**&#x200B;에서 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택합니다. 로 이동 **[!UICONTROL Target elements]** 창에서 클릭 **[!UICONTROL Next]**.
+1. 위치 **[!UICONTROL Data filtering]**, 선택 **[!UICONTROL Filtering conditions]**. 로 이동 **[!UICONTROL Target elements]** 창에서 클릭 **[!UICONTROL Next]**.
 1. 다음에서 **[!UICONTROL Data grouping]** 창에서 **[!UICONTROL Email domain]** 다음을 클릭: **[!UICONTROL Add]**.
 
    이 데이터 그룹화 창은 **[!UICONTROL Handle groupings (GROUP BY + HAVING]**) 상자를 선택했습니다.

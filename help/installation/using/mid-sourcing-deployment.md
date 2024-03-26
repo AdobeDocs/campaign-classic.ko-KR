@@ -3,15 +3,15 @@ product: campaign
 title: 중간 소싱 배포
 description: 중간 소싱 배포
 feature: Installation, Architecture, Deployment
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 2%
+source-wordcount: '363'
+ht-degree: 4%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 ## 설치 및 구성 단계 {#installation-and-configuration-steps-}
 
-### 전제 조건 {#prerequisites}
+### 필수 구성 요소 {#prerequisites}
 
 * 애플리케이션 서버의 JDK.
 * 응용 프로그램 서버의 데이터베이스 서버에 대한 액세스

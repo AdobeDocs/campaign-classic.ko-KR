@@ -3,12 +3,12 @@ product: campaign
 title: Adobe Experience Cloud 솔루션 워크플로우와 통합
 description: Adobe Experience Cloud 솔루션과 통합 워크플로우에 대해 자세히 알아보기
 feature: Workflows, Audiences, People Core Service Integration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 topic-tags: technical-workflows
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 16%
+ht-degree: 13%
 
 ---
 

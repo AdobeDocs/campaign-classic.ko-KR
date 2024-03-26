@@ -2,12 +2,12 @@
 product: campaign
 title: 분산 마케팅
 description: 분산 마케팅 패키지에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Data Management, Distributed Marketing
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 11%
+source-wordcount: '76'
+ht-degree: 17%
 
 ---
 

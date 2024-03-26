@@ -8,8 +8,8 @@ feature: Typology Rules, Campaigns
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 3%
+source-wordcount: '371'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 필요에 맞게 새로운 제어 규칙을 만들 수 있습니다. 이렇게 하려면 다음을 만듭니다. **[!UICONTROL Control]** 유형화 규칙을 선택하고 SQL에서 **[!UICONTROL Code]** 탭.
 
-**예제:**
+**예:**
 
 다음 예제에서는 SMS 오퍼가 100명 이상의 수신자에게 전송되지 않도록 규칙을 만들려고 합니다. 이 규칙은 캠페인 유형화에 연결된 다음, 관련 오퍼를 사용할 수 있는 SMS 게재에 연결됩니다.
 

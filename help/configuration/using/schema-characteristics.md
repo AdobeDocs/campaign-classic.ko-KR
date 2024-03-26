@@ -10,7 +10,7 @@ exl-id: 099161b4-b4cb-433c-aed6-71157269a536
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 * **sqltable** 스키마의 기본 요소 내에서 테이블을 지정하려면
 * **sqlname** 각 속성 내에서 열을 지정합니다.
 
-**예제**:
+**예**:
 
 ```
 <element label="Individual" name="individual" sqltable="individual">
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 소스 스키마의 각 키 및 링크 선언에 대해 색인이 암시적으로 선언됩니다. 인덱스 선언은 **noDbIndex=&quot;true&quot;** 특성:
 
-**예제**:
+**예**:
 
 ```
 <key internal="true" name="customer" noDbIndex="true">

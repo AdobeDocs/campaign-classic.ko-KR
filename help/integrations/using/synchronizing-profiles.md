@@ -3,14 +3,14 @@ product: campaign
 title: 프로필 동기화
 description: ACS 커넥터와 프로필을 동기화하는 방법 알아보기
 feature: ACS Connector
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 hide: true
 hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 3%
+source-wordcount: '1189'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ ACS 커넥터는 Campaign v7에서 Campaign Standard으로 데이터를 복제�
 * **Campaign Standard에서 게재 만들기**: 워크플로우를 따라 완료로 게재를 전송합니다. 다음을 참조하십시오 [게재 만들기](#creating-a-delivery).
 * **구독 취소 링크 확인**: Campaign v7 웹 애플리케이션을 사용하여 수신자가 서비스 구독을 취소하도록 선택한 항목이 Campaign v7 데이터베이스로 전송되도록 합니다. 서비스 수신을 중지하는 옵션이 Campaign Standard에 복제됩니다. 다음을 참조하십시오 [구독 취소 링크 변경](#changing-the-unsubscription-link).
 
-## 전제 조건 {#prerequisites}
+## 필수 구성 요소 {#prerequisites}
 
 다음 섹션에서는 ACS 커넥터를 통해 Campaign v7에서 수신자를 추가 및 편집한 다음 Campaign Standard 게재에서 사용하는 방법에 대해 설명합니다. ACS 커넥터는 다음 조건을 충족해야 합니다.
 

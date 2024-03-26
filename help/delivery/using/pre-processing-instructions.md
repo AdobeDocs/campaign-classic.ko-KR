@@ -9,8 +9,8 @@ role: User, Data Engineer, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 2%
+source-wordcount: '656'
+ht-degree: 1%
 
 ---
 
@@ -147,7 +147,7 @@ Javascript 섹션에서 &lt;%@ 값 사용을 허용하려면 두 개의 특수 �
 * **[!DNL index]** (선택 사항): xpath가 &quot;.&quot;가 아닌 경우 그리고 개체는 배열 자체이며, 개체의 항목 인덱스입니다(0에서 시작).
 * **[!DNL item]** (선택 사항): foreach 루프 내에서 &lt;%@ 값으로 액세스할 수 있는 새 개체의 이름입니다. 스키마에 링크 이름이 있는 기본값.
 
-예제:
+예:
 
 게재 속성/개인화에서 문서 배열 및 수신자와 문서 간의 관계 테이블을 로드합니다.
 

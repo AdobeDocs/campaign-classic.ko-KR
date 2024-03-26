@@ -11,8 +11,8 @@ topic-tags: simulating-offers
 exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 5%
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 5%
 * 환경 또는 오퍼 카테고리입니다.
 * 오퍼 공간.
 * 연락일. 연락 날짜에 적합하지 않은 오퍼는 고려되지 않습니다.
-* 대상 집단.
+* 대상 모집단.
 
   타겟에서 필터를 구성하지 않으면 전체 수신자 표가 고려됩니다.
 

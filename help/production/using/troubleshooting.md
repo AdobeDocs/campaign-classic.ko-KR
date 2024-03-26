@@ -3,7 +3,7 @@ product: campaign
 title: 프로덕션 문제 해결
 description: Adobe Campaign 구성, 모니터링, 업그레이드 프로세스, 데이터 처리 및 데이터베이스 유지 관리 절차와 관련된 프로덕션 문제 해결 절차 살펴보기
 feature: Monitoring, Troubleshooting
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,7 +11,7 @@ exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 18%
+ht-degree: 15%
 
 ---
 

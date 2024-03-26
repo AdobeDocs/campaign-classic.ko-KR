@@ -3,7 +3,7 @@ product: campaign
 title: 열거형 관리
 description: 열거형 관리
 feature: Data Management
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: administration-basics

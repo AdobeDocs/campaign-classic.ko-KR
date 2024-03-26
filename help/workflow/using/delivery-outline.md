@@ -2,13 +2,13 @@
 product: campaign
 title: 게재 개요
 description: 게재 개요 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Targeting Activity
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 1%
+source-wordcount: '274'
+ht-degree: 4%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign의 게재 개요에 대한 자세한 내용은 다음을 참조�
 
    * 오퍼 엔진을 호출하려면 **[!UICONTROL Restrict the number of propositions selected]** 상자. 게재에 표시될 오퍼 공간 및 제안 수를 지정합니다.
 
-      오퍼 가중치 및 자격 규칙은 오퍼 엔진에서 고려됩니다.
+     오퍼 가중치 및 자격 규칙은 오퍼 엔진에서 고려됩니다.
 
    * 확인란을 선택하지 않으면 오퍼 엔진을 호출하지 않고 게재 개요의 모든 오퍼가 표시됩니다.
 

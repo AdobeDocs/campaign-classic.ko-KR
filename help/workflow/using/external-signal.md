@@ -2,13 +2,13 @@
 product: campaign
 title: 외부 신호
 description: 외부 신호 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '175'
+ht-degree: 6%
 
 ---
 

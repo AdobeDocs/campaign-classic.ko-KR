@@ -3,7 +3,7 @@ product: campaign
 title: 새 빌드로 업그레이드
 description: 새 빌드로 업그레이드하는 기술 단계 알아보기
 feature: Monitoring, Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
 content-type: reference
@@ -11,8 +11,8 @@ topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 4%
+source-wordcount: '1133'
+ht-degree: 2%
 
 ---
 
@@ -75,8 +75,8 @@ Windows 환경에서 아래 단계에 따라 Adobe Campaign을 새 빌드로 업
    이 파일을 다운로드하려면 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html) 사용자 자격 증명을 사용합니다. 에서 소프트웨어 배포에 대해 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko).
 
 1. 설치 모드 선택: 선택 **[!UICONTROL Update or repair]**
-1. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL Next]** .
+1. 클릭 **[!UICONTROL Finish]** .
 
    그런 다음 설치 프로그램이 새 파일을 복사합니다.
 
@@ -96,7 +96,7 @@ Windows 환경에서 아래 단계에 따라 Adobe Campaign을 새 빌드로 업
 
 >[!NOTE]
 >
->이 작업은 한 번만 수행해야 하며 (**nlserver 웹**) 응용 프로그램 서버입니다.
+>이 작업은 한 번만 수행해야 하며, (**nlserver 웹**) 응용 프로그램 서버입니다.
 
 그런 다음 동기화에서 오류 또는 경고가 생성되었는지 확인합니다. 자세한 내용은 다음을 참조하십시오. [업그레이드 충돌 해결](#resolving-upgrade-conflicts).
 

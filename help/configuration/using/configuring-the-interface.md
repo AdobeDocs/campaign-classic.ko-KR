@@ -9,8 +9,8 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다.
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 1%
+source-wordcount: '316'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign은 &quot;Nms_DefaultRcpSchema&quot; 전역 변수를 사용하여
 
 1. 로 이동 **[!UICONTROL Administration>Platform>Options]** 탐색기의 노드입니다.
 1. 값 변경 **Nms_DefaultRcpSchema** 외부 수신자 테이블과 일치하는 스키마 이름의 변수입니다(이 경우 cus:individual).
-1. 변경 내용 저장.
+1. 변경 사항을 저장합니다.
 
 ## 새 양식 만들기 {#creating-a-new-form-}
 

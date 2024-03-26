@@ -3,12 +3,12 @@ product: campaign
 title: 감사 추적
 description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링하는 방법 알아보기
 feature: Audit Trail, Monitoring, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 3%
+source-wordcount: '471'
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign에서 **[!UICONTROL Audit trail]** 는 인스턴스 내에서 수
    * 일시 정지
    * 정지
    * 다시 시작
-   * 정리 작업 삭제 내역과 같음
+   * 정리 - 작업 삭제 내역에 해당합니다.
    * 시뮬레이션 모드에서 시작 작업과 동일한 시뮬레이션
    * 지금 대기 중인 작업 실행 작업과 동일한 절전 모드 해제
    * 무조건 정지
@@ -105,4 +105,4 @@ Adobe Campaign에서 **[!UICONTROL Audit trail]** 는 인스턴스 내에서 수
 
    ![](assets/audit_trail_6.png)
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL Save]** .

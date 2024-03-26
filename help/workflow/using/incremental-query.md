@@ -2,13 +2,13 @@
 product: campaign
 title: 증분 쿼리
 description: 증분 쿼리 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Targeting Activity
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 3%
+source-wordcount: '363'
+ht-degree: 5%
 
 ---
 
@@ -50,15 +50,15 @@ ht-degree: 3%
 
    * **[!UICONTROL History in days]**
 
-      이미 타겟팅된 수신자는 타겟팅된 날로부터 최대 일 수를 기록할 수 있습니다. 이 값이 0이면 수신자는 로그에서 삭제되지 않습니다.
+     이미 타겟팅된 수신자는 타겟팅된 날로부터 최대 일 수를 기록할 수 있습니다. 이 값이 0이면 수신자는 로그에서 삭제되지 않습니다.
 
    * **[!UICONTROL Keep history when starting]**
 
-      이 옵션을 사용하면 활동이 활성화된 경우 로그를 제거할 수 없습니다.
+     이 옵션을 사용하면 활동이 활성화된 경우 로그를 제거할 수 없습니다.
 
    * **[!UICONTROL SQL table name]**
 
-      이 매개 변수를 사용하면 내역 데이터가 포함된 기본 SQL 테이블을 오버로드할 수 있습니다.
+     이 매개 변수를 사용하면 내역 데이터가 포함된 기본 SQL 테이블을 오버로드할 수 있습니다.
 
 ## 출력 매개 변수 {#output-parameters}
 

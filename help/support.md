@@ -7,8 +7,8 @@ hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 69%
+source-wordcount: '657'
+ht-degree: 63%
 
 ---
 
@@ -137,7 +137,7 @@ Campaign 컨트롤 패널에서 Campaign Classic 인스턴스 설정을 관리�
 
 ### 전문가에게 물어보세요!
 
-Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_공백}.
+Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Campaign 다운로드 센터 액세스
 

@@ -10,8 +10,8 @@ content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 2%
+source-wordcount: '1209'
+ht-degree: 1%
 
 ---
 
@@ -64,7 +64,7 @@ function processPipelineMessage(xmlTrigger) {}
 * **[!UICONTROL @offset]** 은 메시지에 대한 &quot;포인터&quot;입니다. 대기열 내의 메시지 순서를 나타냅니다.
 * **[!UICONTROL @partition]** 는 대기열 내의 메시지 컨테이너입니다. 오프셋은 분할 영역에 상대적입니다. <br>대기열에는 약 15개의 파티션이 있습니다.
 
-예제:
+예:
 
 ```
 <trigger offset="1500435" partition="4" triggerId="LogoUpload_1_Visits_from_specific_Channel_or_ppp">
@@ -86,7 +86,7 @@ function processPipelineMessage(xmlTrigger) {}
 
 * **[!UICONTROL timeGMT]** 은 Adobe Analytics 측의 트리거 시간을 UTC Epoch 형식(01/01/1970 UTC 이후 초)으로 포함할 수 있습니다.
 
-예제:
+예:
 
 ```
 {
@@ -205,12 +205,12 @@ triggerType 필드는 데이터가 시작되는 트리거를 식별합니다.
 
 | 속성 | 유형 | 레이블 | 설명 |
 |:-:|:-:|:-:|:-:|
-| pipelineEventId | 길게 | 기본 키 | 트리거의 내부 기본 키입니다. |
+| pipelineEventId | 긺 | 기본 키 | 트리거의 내부 기본 키입니다. |
 | 데이터 | 메모 | 데이터 트리거 | XML 형식의 트리거 데이터의 전체 콘텐츠입니다. 디버깅 및 감사 목적으로 |
 | triggerType | 문자열 50 | 트리거 유형 | 트리거의 이름입니다. 웹 사이트에서 고객의 행동을 식별합니다. |
 | shopper_id | 문자열 32 | shopper_id | 구매자의 내부 식별자. 조정 워크플로우에 의해 설정됩니다. 0이면 Campaign에서 고객을 알 수 없음을 의미합니다. |
-| shopper_key | 길게 | shopper_key | Analytics에 의해 캡처된 구매자의 외부 식별자. |
-| 생성됨 | 날짜/시간 | 제작일 | Campaign에서 이벤트가 생성된 시간입니다. |
+| shopper_key | 긺 | shopper_key | Analytics에 의해 캡처된 구매자의 외부 식별자. |
+| 생성됨 | 날짜/시간 | 생성됨 | Campaign에서 이벤트가 생성된 시간입니다. |
 | 마지막 수정일 | 날짜/시간 | 마지막 수정일 | Adobe에서 마지막으로 이벤트가 수정된 시간입니다. |
 | timeGMT | 날짜/시간 | 타임스탬프 | Analytics에서 이벤트가 생성된 시간입니다. |
 
@@ -220,7 +220,7 @@ triggerType 필드는 데이터가 시작되는 트리거를 식별합니다.
 
 >[!NOTE]
 >
->파이프라인 이벤트 노드는 기본 제공되지 않으며 추가되어야 하며, 관련 양식을 Campaign에서 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 정보는 다음 섹션을 참조하십시오. [탐색 계층](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). 및 [양식 편집](../../configuration/using/editing-forms.md).
+>파이프라인 이벤트 노드는 기본 제공되지 않으므로 추가되어야 하며, Campaign에서 관련 양식을 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 정보는 다음 섹션을 참조하십시오. [탐색 계층](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). 및 [양식 편집](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 

@@ -2,13 +2,13 @@
 product: campaign
 title: 인바운드 이메일
 description: 인바운드 이메일 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Channels Activity
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 1%
+source-wordcount: '349'
+ht-degree: 3%
 
 ---
 
@@ -26,31 +26,31 @@ ht-degree: 1%
 
    * **[!UICONTROL Use an external account]**
 
-      이 옵션이 활성화되면 연결 매개 변수를 입력하는 대신 외부 POP3 계정을 선택할 수 있습니다. 다음 **[!UICONTROL External account]** 필드는 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. 이 필드는 &#39;외부 계정 사용&#39; 옵션이 활성화된 경우에만 표시됩니다.
+     이 옵션이 활성화되면 연결 매개 변수를 입력하는 대신 외부 POP3 계정을 선택할 수 있습니다. 다음 **[!UICONTROL External account]** 필드는 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. 이 필드는 &#39;외부 계정 사용&#39; 옵션이 활성화된 경우에만 표시됩니다.
 
-      이 옵션을 선택하지 않으면 다음 매개 변수를 지정해야 합니다.
+     이 옵션을 선택하지 않으면 다음 매개 변수를 지정해야 합니다.
 
-      ![](assets/email_rec_edit_1b.png)
+     ![](assets/email_rec_edit_1b.png)
 
       * **[!UICONTROL POP3 server]**
 
-         POP3 서버 이름.
+        POP3 서버 이름.
 
       * **[!UICONTROL POP3 account]**
 
-         사용자 이름.
+        사용자 이름.
 
       * **[!UICONTROL Password]**
 
-         사용자 계정 암호.
+        사용자 계정 암호.
 
       * **[!UICONTROL Port]**
 
-         POP3 연결 포트 번호. 기본 포트는 110입니다.
+        POP3 연결 포트 번호. 기본 포트는 110입니다.
+
    * **[!UICONTROL Stop as soon as email is processed]**
 
-      이 옵션을 사용하면 이메일을 하나씩 처리할 수 있습니다. 활동은 전환을 한 번만 활성화한 다음 처리를 완료하여 처리되지 않은 메시지를 서버에 남깁니다.
-
+     이 옵션을 사용하면 이메일을 하나씩 처리할 수 있습니다. 활동은 전환을 한 번만 활성화한 다음 처리를 완료하여 처리되지 않은 메시지를 서버에 남깁니다.
 
 1. **[!UICONTROL Script]**
 

@@ -6,7 +6,7 @@ feature: Schema Extension
 exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ dbindex:==keyfield
 
 ## 예제 {#examples-3}
 
-&quot;id&quot; 필드에 인덱스를 만듭니다. (의 &quot;@unique&quot; 속성 `<dbindex>` 요소 는 데이터베이스(쿼리)에 인덱스를 만들 때 &quot;UNIQUE&quot; SQL 키워드의 추가를 트리거합니다.
+&quot;id&quot; 필드에 인덱스를 만듭니다. (의 &quot;@unique&quot; 속성 `<dbindex>` 요소는 데이터베이스(쿼리)에 인덱스가 생성될 때 &quot;UNIQUE&quot; SQL 키워드를 추가하는 것을 트리거합니다.
 
 ```
 <element label="Sample" name="Sample">

@@ -2,13 +2,13 @@
 product: campaign
 title: 지표 계산
 description: 지표 계산
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Reporting, Monitoring
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2979'
-ht-degree: 7%
+source-wordcount: '3049'
+ht-degree: 3%
 
 ---
 
@@ -29,20 +29,20 @@ ht-degree: 7%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 열람 수<br /> </td> 
+   <td> 열림<br /> </td> 
    <td> @opens<br /> </td> 
    <td> URL 기본 @totalClicks이 1인 모든 방문자의 합계입니다.<br /> </td> 
    <td> sum(Iif([@url-id]=1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수<br /> </td> 
+   <td> 클릭수<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> URL 유형이 "이메일 클릭"과 동일한 모든 @totalClicks 요소의 합계입니다.<br /> </td> 
    <td> sum(Iif([url/@type]=1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 거래<br /> </td> 
-   <td> @거래<br /> </td> 
+   <td> 트랜잭션<br /> </td> 
+   <td> @transactions<br /> </td> 
    <td> URL 유형이 "트랜잭션"과 같은 모든 @totalClicks 수의 합계입니다.<br /> </td> 
    <td> sum(Iif([url/@type]=5, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -74,7 +74,7 @@ ht-degree: 7%
    <td> @prepared + @error + @success<br /> </td> 
   </tr> 
   <tr> 
-   <td> 사용자 알 수 없음<br /> </td> 
+   <td> 알 수 없는 사용자<br /> </td> 
    <td> @unknownUser<br /> </td> 
    <td> 상태가 "실패"와 같고 이유가 "사용자 알 수 없음"과 같은 모든 메시지 수입니다. <br /> </td> 
    <td> Count(@status=2 및 msg/@failureReason=1)<br /> </td> 
@@ -111,7 +111,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 오류<br /> </td> 
-   <td> @값<br /> </td> 
+   <td> @value<br /> </td> 
    <td> 이 유형의 오류에 대해 실패한 메시지 수입니다.<br /> </td> 
    <td> Count(@status=2 및 msg/@failureReason="오류 유형의 값")<br /> </td> 
   </tr> 
@@ -151,7 +151,7 @@ ht-degree: 7%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 방문자<br /> </td> 
+   <td> 방문자 수<br /> </td> 
    <td> @totalVisitors<br /> </td> 
    <td> 게재를 한 번 이상 클릭한 이 브라우저의 총 대상 수신자 수입니다.<br /> </td> 
    <td> Sum(@visitors)<br /> </td> 
@@ -221,7 +221,7 @@ ht-degree: 7%
   <tr> 
    <td> 게재할 메시지 수<br /> </td> 
    <td> @totalTarget<br /> </td> 
-   <td> 게재 분석 시 처리된 총 메시지 수입니다.<br /> </td> 
+   <td> 게재 분석 중 처리된 총 메시지 수입니다.<br /> </td> 
    <td> sum([속성/@totalTarget])<br /> </td> 
   </tr> 
   <tr> 
@@ -232,7 +232,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 이메일<br /> </td> 
-   <td> @이메일<br /> </td> 
+   <td> @email<br /> </td> 
    <td> URL 범주가 "이메일"과 같은 모든 @totalClicks 요소의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
   </tr> 
@@ -324,7 +324,7 @@ ht-degree: 7%
    <td> 열람 수 <br /> </td> 
    <td> @open<br /> </td> 
    <td> 웹 추적 테이블의 총 추적 라인 수입니다.<br /> </td> 
-   <td> 횟수<br /> </td> 
+   <td> 카운트<br /> </td> 
   </tr> 
   <tr> 
    <td> 분류<br /> </td> 
@@ -362,7 +362,7 @@ ht-degree: 7%
    <td> 공식: count(@id)<br /> 필터: @recipient-id != 0<br /> </td> 
   </tr> 
   <tr> 
-   <td> 열람 수<br /> </td> 
+   <td> 열림<br /> </td> 
    <td> @opened<br /> </td> 
    <td> URL 유형이 "열기"와 동일한 모든 @ids 수.<br /> </td> 
    <td> count (Iif([url/@type] = 2, @id, 0))<br /> </td> 
@@ -393,13 +393,13 @@ ht-degree: 7%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 방문자<br /> </td> 
+   <td> 방문자 수<br /> </td> 
    <td> @totalVisitors / @days<br /> </td> 
    <td> 게재를 한 번 이상 클릭한 운영 체제가 타겟팅한 총 수신자 수의 일별 평균.<br /> </td> 
    <td> Sum(@visitors)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 조회한 페이지<br /> </td> 
+   <td> 페이지 조회함<br /> </td> 
    <td> @totalPages / @days<br /> </td> 
    <td> 모든 게재에 대한 운영 체제당 게재 링크의 총 클릭 수의 일별 평균.<br /> </td> 
    <td> Sum(@pages)<br /> </td> 
@@ -562,13 +562,13 @@ ht-degree: 7%
    <td> Count(@status=2 및 msg/@failureReason=8)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 열람 수<br /> </td> 
+   <td> 열림<br /> </td> 
    <td> @recipientOpen<br /> </td> 
    <td> 모든 추적 로그에 있는 모든 @broadLog-ids 수.<br /> </td> 
    <td> Countdistinct([@broadLog-id])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수<br /> </td> 
+   <td> 클릭수<br /> </td> 
    <td> @recipientClick<br /> </td> 
    <td> URL 유형이 "이메일 클릭"과 동일한 @broadLog-ids의 고유 개수. <br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @broadLog-id, 0))<br /> </td> 
@@ -586,7 +586,7 @@ ht-degree: 7%
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 누적 클릭수<br /> </td> 
+   <td> 누적된 클릭 수<br /> </td> 
    <td> @totalRecipientClick<br /> </td> 
    <td> "이메일 클릭"과 같은 URL 범주를 가진 모든 @ids 수.<br /> </td> 
    <td> count(Iif([url/@type]=1, @id, 0))<br /> </td> 
@@ -610,7 +610,7 @@ ht-degree: 7%
    <td> count(Iif([url/@type]=4 또는 [url/@type]=5, @id, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 거래<br /> </td> 
+   <td> 트랜잭션<br /> </td> 
    <td> @transaction<br /> </td> 
    <td> URL 유형이 "트랜잭션"과 동일한 모든 @ids 수.<br /> </td> 
    <td> count(Iif([url/@type]=5, @id, 0))<br /> </td> 
@@ -647,7 +647,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 이메일<br /> </td> 
-   <td> @이메일<br /> </td> 
+   <td> @email<br /> </td> 
    <td> "이메일"과 같은 URL 범주가 있는 모든 @totalClicks 수의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
   </tr> 
@@ -705,31 +705,31 @@ ht-degree: 7%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 재활동<br /> </td> 
+   <td> 반응성<br /> </td> 
    <td> @reactivity<br /> </td> 
    <td> 게재를 한 번 이상 클릭한 대상 수신자 수와 게재를 한 번 이상 연 예상 대상 수신자 수의 비율.<br /> </td> 
    <td> percent([표시기/@recipientClick], [표시기/@estimatedRecipientOpen])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 고유 클릭수<br /> </td> 
+   <td> 고유 클릭 수<br /> </td> 
    <td> @distinctClicks<br /> </td> 
    <td> 성공으로 배달된 메시지 수와 비교하여 배달을 한 번 이상 클릭한 고유한 사람 수의 비율입니다.<br /> </td> 
    <td> percent([표시기/@personClick], [표시기/@success])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 누적 클릭수<br /> </td> 
+   <td> 누적된 클릭 수<br /> </td> 
    <td> @totalClicks<br /> </td> 
    <td> 성공으로 배달된 메시지 수 대비 타겟팅된 수신자의 총 클릭 수의 비율입니다.<br /> </td> 
    <td> percent([표시기/@totalRecipientClick], [표시기/@success])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수<br /> </td> 
+   <td> 클릭수<br /> </td> 
    <td> @_click<br /> </td> 
    <td> URL 기본 키가 1과 다른 모든 @totalClicks 수<br /> </td> 
    <td> count(Iif([@url-id] != 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수 (%)<br /> </td> 
+   <td> 클릭수 (%)<br /> </td> 
    <td> -<br /> </td> 
    <td> 누적된 총 클릭 수와 비교한 클릭 수의 백분율입니다.<br /> </td> 
    <td> percent(@_click, @_total)<br /> </td> 
@@ -752,7 +752,7 @@ ht-degree: 7%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 초기 집단<br /> </td> 
+   <td> 초기 모집단<br /> </td> 
    <td> @totalTarget<br /> </td> 
    <td> 게재 대상의 총 수신자 수입니다.<br /> </td> 
    <td> sum([속성/@totalTarget])<br /> </td> 
@@ -811,13 +811,13 @@ ht-degree: 7%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 거래<br /> </td> 
-   <td> @거래<br /> </td> 
+   <td> 트랜잭션<br /> </td> 
+   <td> @transactions<br /> </td> 
    <td> URL 유형이 "거래"와 같은 모든 @totalClicks 수의 합계입니다.<br /> </td> 
    <td> sum(Iif([url/@type] = 5, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수<br /> </td> 
+   <td> 클릭수<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> URL 유형이 "이메일 클릭"과 같은 모든 @totalClicks 요소의 합계입니다.<br /> </td> 
    <td> sum(Iif([url/@type] = 1, @totalClicks, 0))<br /> </td> 
@@ -852,7 +852,7 @@ ht-degree: 7%
    <td> @prepared + @error + @success<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재 대상<br /> </td> 
+   <td> 전달됨<br /> </td> 
    <td> @success<br /> </td> 
    <td> 정상적으로 처리된 메시지 수.<br /> </td> 
    <td> 지표/@success<br /> </td> 
@@ -870,13 +870,13 @@ ht-degree: 7%
    <td> @unreachable + @mailBoxFull + @invalidDomain + @disabled + @notConnected + @refused<br /> </td> 
   </tr> 
   <tr> 
-   <td> 열람 수<br /> </td> 
+   <td> 열림<br /> </td> 
    <td> @recipientOpen<br /> </td> 
    <td> 추적 로그의 총 @broadLog-ids 수입니다.<br /> </td> 
    <td> Countdistinct([@broadLog-id])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수<br /> </td> 
+   <td> 클릭수<br /> </td> 
    <td> @personClick<br /> </td> 
    <td> URL 범주가 "이메일 클릭"과 같은 총 @source-ids 수입니다. <br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0)) <br /> </td> 
@@ -905,7 +905,7 @@ ht-degree: 7%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 열람 수<br /> </td> 
+   <td> 열림<br /> </td> 
    <td> @totalRecipientOpen<br /> </td> 
    <td> URL 기본 @id이 1(열기)인 모든 히트의 합계입니다. <br /> </td> 
    <td> count(Iif([@url-id] = 1, @id, 0))<br /> </td> 
@@ -925,7 +925,7 @@ ht-degree: 7%
 
 ## 열람 추적 {#tracking-opens-}
 
-Adobe Campaign에서 메시지 열기를 감지하려면 수신자가 이메일의 이미지를 다운로드해야 합니다. HTML 및 다중 파트/대체 이메일에는 열려 있는 메시지를 감지할 수 있는 0픽셀 이미지가 포함되어 있습니다. 텍스트 형식의 메시지에는 이미지가 포함되지 않기 때문에 열림 여부를 감지할 수 없습니다. 이미지 표시에 연결된 오류 여백으로 인해 메시지 열기를 기반으로 계산된 값은 항상 예상 값입니다.
+Adobe Campaign에서 메시지 열기를 감지하려면 수신자가 이메일의 이미지를 다운로드해야 합니다. HTML 및 다중 파트/대체 이메일에는 열람된 메시지를 감지할 수 있는 0픽셀 이미지가 포함되어 있습니다. 텍스트 포맷의 메시지에는 이미지가 포함되어 있지 않으므로 열람되었는지 여부를 감지할 수 없습니다. 메시지 열람 수를 기준으로 계산된 값은 이미지 표시와 관련된 오차 범위로 인해 언제까지나 추정치에 불과합니다.
 
 ## 타겟팅된 사람/수신자 {#targeted-persons---recipients}
 

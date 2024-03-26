@@ -3,7 +3,7 @@ product: campaign
 title: 네트워크 구성
 description: 시스템 통신 지침 학습
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
@@ -11,8 +11,8 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 6%
+source-wordcount: '713'
+ht-degree: 2%
 
 ---
 
@@ -162,11 +162,11 @@ Adobe Campaign 리치 클라이언트용(**nlclient**) 다음 포트가 열려 �
    <td> 데이터베이스 서버<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>PostgreSQL</strong><br /> </td> 
+   <td> <strong>PostgreSql</strong><br /> </td> 
    <td> 5432/tcp<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Microsoft SQL Server</strong><br /> </td> 
+   <td> <strong>Microsoft Server</strong><br /> </td> 
    <td> 1433/tcp<br /> </td> 
   </tr> 
   <tr> 

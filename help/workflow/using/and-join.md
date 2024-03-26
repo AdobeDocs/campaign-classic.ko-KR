@@ -2,13 +2,13 @@
 product: campaign
 title: AND-결합
 description: AND-결합
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 8b6d5c03-e104-4cf0-82ab-a08467e3e478
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 5%
+source-wordcount: '197'
+ht-degree: 17%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 
 
-가입은 모든 인바운드 전환이 활성화된 경우, 즉 모든 이전 활동이 완료된 경우에만 아웃바운드 전환을 트리거합니다. 이를 통해 워크플로우를 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다.
+가입은 모든 인바운드 전환이 활성화된 경우, 즉 모든 이전 활동이 완료된 경우에만 아웃바운드 전환을 트리거합니다. 이렇게 하면 워크플로를 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다.
 
 예를 들어 콘텐츠 작성 및 게재 전송 자동화 컨텍스트에서 AND-join 활동을 사용하여 타겟 쿼리 및 콘텐츠 업데이트 단계가 완료된 후에만 게재가 시작되도록 할 수 있습니다. 전용 사용 사례는에서 사용할 수 있습니다. [이 섹션](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)
 

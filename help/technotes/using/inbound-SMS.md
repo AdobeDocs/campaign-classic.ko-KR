@@ -4,10 +4,11 @@ title: 중간 소싱 인프라에 대한 인바운드 SMS 워크플로우 활동
 description: 중간 소싱 인프라에 대한 인바운드 SMS 워크플로우 활동
 feature: Technote, SMS
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
-source-git-commit: 85adfe3515480bed559091427ff1acec14a70320
+exl-id: 756039b2-5f57-4dc5-8166-a421206b886b
+source-git-commit: f9a17541596ba2afa96502dc99408b6f99d2cb2b
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -145,5 +146,3 @@ ht-degree: 2%
    > * 중간 소싱 인스턴스당 여러 개의 inSMS 워크플로우가 있는 경우 중간 소싱 SMS ID가 일정하게 유지되고 외부 계정 ID가 다르므로 데이터가 중복될 수 있습니다.
 
 1. 워크플로우를 저장하고 다시 시작합니다.
-
-

@@ -10,7 +10,7 @@ exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 source-git-commit: 92c79e7050124bc707f4d6b87c7952016586002c
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
   >[!IMPORTANT]
   >
-  >Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다. 자세히 알아보기 [Adobe Campaign v8 기술 노트](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+  >Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 미칠 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다. 자세히 알아보기 [Adobe Campaign v8 기술 노트](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=ko){target="_blank"}.
 
 이 두 채널에 해당하는 두 가지 게재 활동이 캠페인 워크플로우에 있습니다. 트랜잭션 메시지에는 두 개의 트랜잭션 메시지 템플릿도 사용할 수 있습니다.
 

@@ -2,13 +2,13 @@
 product: campaign
 title: 워크플로우 사용 사례 기본 정보
 description: Campaign Classic 워크플로우를 사용하여 수행할 수 있는 사용 사례에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Data Management
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 67%
+source-wordcount: '213'
+ht-degree: 30%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 67%
 
 * [로컬 승인 활동 사용](using-the-local-approval-activity.md)
 * [A/B 테스트](../../delivery/using/a-b-testing-use-case.md)
-* [생일 전자 메일 보내기](sending-a-birthday-email.md)
-* [게재 콘텐츠 로드](loading-delivery-content.md)
+* [생일 이메일 보내기](sending-a-birthday-email.md)
+* [게재 콘텐츠 로드 중](loading-delivery-content.md)
 * [크로스 채널 게재 워크플로우](cross-channel-delivery-workflow.md)
 * [사용자 정의 날짜 필드를 통한 이메일 강화](email-enrichment-with-custom-date-fields.md)
 * [콘텐츠 만들기, 에디션 및 게시 자동화](../../delivery/using/automating-via-workflows.md#examples)
@@ -55,7 +55,7 @@ ht-degree: 67%
 * [중복 제거 활동의 병합 기능 사용](deduplication-merge.md)
 * [반복 가져오기 워크플로우 설정](recurring-import-workflow.md)
 
-##  타겟팅  {#designing-queries}
+## 타겟팅 {#designing-queries}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 

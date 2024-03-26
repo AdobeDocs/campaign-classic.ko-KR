@@ -3,14 +3,14 @@ product: campaign
 title: ACS 커넥터 시작
 description: ACS 커넥터 원칙 및 데이터 주기
 feature: ACS Connector
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 hide: true
 hidefromtoc: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2045'
-ht-degree: 3%
+source-wordcount: '2043'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ ACS 커넥터를 사용하면 디지털 마케터가 캠페인을 디자인, 타
 >
 >ACS 커넥터는 사용권 계약에 따라 Campaign v7에 포함됩니다. ACS 커넥터를 사용하려면 Campaign v7과 Campaign Standard 간을 전환할 수 있는지 확인하십시오. 버전과 포함된 기능이 확실하지 않은 경우 관리자에게 문의하십시오.
 
-## 배합 색상 {#process}
+## 프로세스 {#process}
 
 ### 데이터 복제 {#data-replication}
 
@@ -174,7 +174,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
    <td> @sourceId<br /> </td> 
   </tr> 
   <tr> 
-   <td> 생성 일자<br /> </td> 
+   <td> 제작일<br /> </td> 
    <td> @created<br /> </td> 
   </tr> 
   <tr> 
@@ -183,7 +183,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
   </tr> 
   <tr> 
    <td> 이메일<br /> </td> 
-   <td> @이메일<br /> </td> 
+   <td> @email<br /> </td> 
   </tr> 
   <tr> 
    <td> 성<br /> </td> 
@@ -202,7 +202,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
    <td> @mobilePhone<br /> </td> 
   </tr> 
   <tr> 
-   <td> 생년월일<br /> </td> 
+   <td> 생일<br /> </td> 
    <td> @birthDate<br /> </td> 
   </tr> 
   <tr> 
@@ -222,11 +222,11 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
    <td> @blackListEmail<br /> </td> 
   </tr> 
   <tr> 
-   <td> 더 이상 연락하지 않음(SMS<br /> </td> 
+   <td> 더 이상 연락하지 않음(SMS)<br /> </td> 
    <td> @blackListMobile<br /> </td> 
   </tr> 
   <tr> 
-   <td> 휴대폰<br /> </td> 
+   <td> 전화<br /> </td> 
    <td> @phone<br /> </td> 
   </tr> 
   <tr> 
@@ -234,7 +234,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
    <td> @fax<br /> </td> 
   </tr> 
   <tr> 
-   <td> 주소 1(아파트)<br /> </td> 
+   <td> 주소 1 (아파트)<br /> </td> 
    <td> [위치/@address1]<br /> </td> 
   </tr> 
   <tr> 
@@ -254,7 +254,7 @@ ACS 커넥터와 관련된 모든 기술 요소는 **[!UICONTROL Administration 
    <td> [위치/@zipCode]<br /> </td> 
   </tr> 
   <tr> 
-   <td> 시<br /> </td> 
+   <td> 도시<br /> </td> 
    <td> [위치/@city]<br /> </td> 
   </tr> 
   <tr> 

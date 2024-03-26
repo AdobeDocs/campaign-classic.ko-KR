@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: 워크플로우 활동 기본 정보
+title: 워크플로 활동 정보
 description: 활동 정보
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Data Management
 exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 12%
+source-wordcount: '102'
+ht-degree: 16%
 
 ---
 
-# 워크플로 활동{#wf-activities}
+# 워크플로우 활동{#wf-activities}
 
 
 
@@ -24,7 +24,7 @@ ht-degree: 12%
 
 ![](assets/wf-activity-tabs.png)
 
-자세히 표시:
+자세한 내용:
 
 * [타겟팅 활동 기본 정보](about-targeting-activities.md)
 * [워크플로우 실행](starting-a-workflow.md)

@@ -2,13 +2,13 @@
 product: campaign
 title: 로컬 캠페인 만들기
 description: 로컬 캠페인 만들기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Distributed Marketing
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 1%
+source-wordcount: '1572'
+ht-degree: 2%
 
 ---
 
@@ -60,24 +60,24 @@ ht-degree: 1%
 
 * **[!UICONTROL By brief]** : 로컬 엔티티는 캠페인 구성을 설명하는 설명을 제공해야 합니다. 주문이 승인되면 중앙 엔티티는 캠페인 전체를 구성하고 실행합니다.
 
-   ![](assets/mkt_distr_6.png)
+  ![](assets/mkt_distr_6.png)
 
 * **[!UICONTROL By form]** : 로컬 엔티티는 사용된 템플릿에 따라, 콘텐츠, 타겟, 최대 크기, 개인화 필드를 사용한 생성 및 추출 날짜를 편집할 수 있는 웹 양식에 액세스할 수 있습니다. 로컬 엔티티는 이 웹 양식에서 타겟을 평가하고 콘텐츠를 미리 볼 수 있습니다.
 
-   ![](assets/mkt_distr_8.png)
+  ![](assets/mkt_distr_8.png)
 
-   제공된 양식은 의 드롭다운 목록에서 선택해야 하는 웹 애플리케이션에 지정됩니다. **[!UICONTROL web Interface]** 템플릿의 필드 **[!UICONTROL Advanced campaign settings...]** 링크를 클릭합니다. 을(를) 참조하십시오 [로컬 캠페인 만들기(양식별)](examples.md#creating-a-local-campaign--by-form-).
+  제공된 양식은 의 드롭다운 목록에서 선택해야 하는 웹 애플리케이션에 지정됩니다. **[!UICONTROL web Interface]** 템플릿의 필드 **[!UICONTROL Advanced campaign settings...]** 링크를 클릭합니다. 을(를) 참조하십시오 [로컬 캠페인 만들기(양식별)](examples.md#creating-a-local-campaign--by-form-).
 
-   >[!NOTE]
-   >
-   >이 예제에 사용된 웹 응용 프로그램이 예입니다. 양식을 사용하려면 특정 웹 앱을 만들어야 합니다. 을(를) 참조하십시오 [API](../../configuration/using/about-web-services.md).
+  >[!NOTE]
+  >
+  >이 예제에 사용된 웹 응용 프로그램이 예입니다. 양식을 사용하려면 특정 웹 앱을 만들어야 합니다. 을(를) 참조하십시오 [API](../../configuration/using/about-web-services.md).
 
-   ![](assets/mkt_distr_7.png)
+  ![](assets/mkt_distr_7.png)
 
-* **[!UICONTROL By external form]** : 로컬 엔티티는 엑스트라넷의 캠페인 매개 변수에 액세스할 수 있습니다(Adobe Campaign 아님). 이러한 매개 변수는 **로컬 캠페인(양식 기준)**.
+* **[!UICONTROL By external form]** : 로컬 엔티티는 엑스트라넷의 캠페인 매개 변수에 액세스할 수 있습니다(Adobe Campaign 아님). 이러한 매개변수는 의 매개변수와 동일합니다. **로컬 캠페인(양식 기준)**.
 * **[!UICONTROL Pre-set]** : 로컬 엔티티는 현지화하지 않고 기본 양식을 사용하여 캠페인을 주문합니다.
 
-   ![](assets/mkt_distr_5.png)
+  ![](assets/mkt_distr_5.png)
 
 ### 기본값 {#default-values}
 

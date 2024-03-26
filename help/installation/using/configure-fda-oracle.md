@@ -3,14 +3,14 @@ product: campaign
 title: oracle 액세스 구성
 description: FDA에서 Oracle 액세스를 구성하는 방법 알아보기
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ FDA에서 Oracle 외부 데이터베이스에 연결하려면 Adobe Campaign 서
 
 1. 구성 **[!UICONTROL Oracle]** 외부 계정에서 다음을 지정해야 합니다.
 
-   * **[!UICONTROL Type]**: Oracle
+   * **[!UICONTROL Type]**: ORACLE
 
    * **[!UICONTROL Server]**: DNS 이름
 

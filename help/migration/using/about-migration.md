@@ -3,7 +3,7 @@ product: campaign
 title: Campaign Classic으로 마이그레이션
 description: 이전 Campaign 버전에서 Campaign Classic으로 마이그레이션하는 방법에 대해 알아봅니다.
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: migration
 content-type: reference
 topic-tags: migration-overview
@@ -12,7 +12,7 @@ hidefromtoc: true
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 >Adobe Campaign v7의 새로운 기능 및 향상된 기능은 [릴리스 정보](../../rn/using/latest-release.md).
 
 
-## 전제 조건
+## 필수 구성 요소
 
 * 마이그레이션 프로세스는 전문가 사용자가 수행해야 합니다. Adobe Campaign에서 적어도 데이터베이스 전문가, 시스템 관리자 및 애플리케이션 개발자의 도움을 받아야 합니다.
 * 마이그레이션을 시작하기 전에 사용하는 시스템 및 시스템 구성 요소가 v7과 호환되는지 확인하십시오. [자세히 알아보기](../../rn/using/compatibility-matrix.md)

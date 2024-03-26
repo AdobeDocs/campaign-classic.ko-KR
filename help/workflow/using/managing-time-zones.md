@@ -2,17 +2,17 @@
 product: campaign
 title: 표준 시간대 관리
 description: 표준 시간대 관리
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 4%
+source-wordcount: '289'
+ht-degree: 5%
 
 ---
 
-# 시간대 관리{#managing-time-zones}
+# 표준 시간대 관리{#managing-time-zones}
 
 
 
@@ -34,19 +34,19 @@ Adobe Campaign에서 시간대 구성에 대한 자세한 내용은 을 참조�
 
 * 서버 시간대
 
-   Adobe Campaign 애플리케이션 서버의 시간대를 사용합니다.
+  Adobe Campaign 애플리케이션 서버의 시간대를 사용합니다.
 
 * 사용자 시간대
 
-   워크플로우를 실행하는 Adobe Campaign 연산자의 시간대를 사용합니다.
+  워크플로우를 실행하는 Adobe Campaign 연산자의 시간대를 사용합니다.
 
 * 데이터베이스 시간대
 
-   사용된 데이터베이스 서버의 시간대를 사용합니다.
+  사용된 데이터베이스 서버의 시간대를 사용합니다.
 
 * 특정 시간대
 
-   선택한 시간대를 사용합니다.
+  선택한 시간대를 사용합니다.
 
 다음과 같은 경우 **[!UICONTROL By default]** 값을 선택하면 워크플로의 시간대가 적용되거나, 그렇지 않으면 애플리케이션 서버의 시간대가 적용됩니다.
 

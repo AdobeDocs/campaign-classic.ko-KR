@@ -9,8 +9,8 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 97%
+source-wordcount: '500'
+ht-degree: 80%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign Classic은 특히 다양한 기술을 사용하여 가치를 전�
 
 ## 2. 데이터베이스 정리 워크플로우란 무엇입니까? {#what-is-the-database-cleanup-workflow-}
 
-데이터베이스 정리 워크플로우는 데이터베이스의 기하급수적인 증가를 방지하기 위해 오래된 데이터를 삭제합니다. 기본 제공되는 이 기술 워크플로우는 사용자 개입 없이 자동으로 트리거됩니다. Campaign Explorer의 **[!UICONTROL Administration > Production > Technical workflows]** 노드를 통해 액세스할 수  있습니다.
+데이터베이스 정리 워크플로우는 데이터베이스의 기하급수적인 증가를 방지하기 위해 오래된 데이터를 삭제합니다. 기본 제공되는 이 기술 워크플로우는 사용자 개입 없이 자동으로 트리거됩니다. Campaign 탐색기의 **[!UICONTROL Administration > Production > Technical workflows]** 노드를 통해 액세스할 수 있습니다.
 
 데이터베이스 정리 워크플로우에 대한 [자세한 내용을 보려면 여기를 클릭하십시오](../../production/using/database-cleanup-workflow.md).
 
@@ -62,7 +62,7 @@ Adobe Campaign Classic에 연결하려면 Adobe Campaign 클라이언트 콘솔�
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../platform/using/launching-adobe-campaign.md).
 
-## 7. 어떤 시스템과 구성 요소가 Campaign Classic과 호환됩니까? {#which-systems-and-components-campaign-classic-is-compatible-with-}
+## 7. 어떤 시스템과 구성 요소 Campaign Classic이 호환됩니까? {#which-systems-and-components-campaign-classic-is-compatible-with-}
 
 [Adobe Campaign Classic 호환성 매트릭스](../../rn/using/compatibility-matrix.md)에서 최신 캠페인 빌드에 대해 지원되는 모든 시스템 및 구성 요소 목록을 가져올 수 있습니다.
 

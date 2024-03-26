@@ -37,7 +37,7 @@ ht-degree: 5%
    >
    >모든 WEB-type 태그를 그대로 사이트의 페이지에 추가할 수 있습니다. 추가 정보(금액, 항목 등)를 포함하려면 TRANSACTION 태그를 동적으로 수정하거나 추가해야 합니다.
 
-**예제**:
+**예**:
 
 ```
 <script type="text/javascript">

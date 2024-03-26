@@ -3,15 +3,15 @@ product: campaign
 title: 프로필 및 대상 그룹 FAQ
 description: Campaign Classic FAQ
 feature: Audiences, Troubleshooting
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ba8bf610-cbac-41e9-8b6e-130deb8b97e2
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 90%
+source-wordcount: '261'
+ht-degree: 76%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 90%
 
 Adobe Campaign 내에서 모집단을 타겟팅하고 대상 그룹을 관리하는 방법을 배웁니다.
 
-## 수신자를 만드는 방법  {#how-to-create-recipients-}
+## 수신자를 만드는 방법 {#how-to-create-recipients-}
 
 수신자를 가져오거나 Campaign 클라이언트 콘솔을 사용하여 수동으로 만들 수 있습니다. [이 섹션](../../platform/using/about-profiles.md)을 읽고 Campaign에서 프로필을 만들고 관리하는 방법을 배웁니다.
 
-## 프로필을 가져오는 방법? {#how-to-import-profiles-}
+## 프로필을 가져오는 방법 {#how-to-import-profiles-}
 
 데이터베이스에서 [프로필을 가져오기](../../platform/using/import-operations-samples.md) 위해 쉬운 사용 사례를 살펴봅니다.
 
@@ -36,7 +36,7 @@ Adobe Campaign 내에서 모집단을 타겟팅하고 대상 그룹을 관리하
 [워크플로우를 사용하여 마케팅 캠페인의 대상 모집단을 만들 수](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) 있습니다.
 
 
-## 프로필의 목록을 만들려면 어떻게 해야 합니까? {#how-can-i-create-a-list-of-profiles-}
+## 프로필 목록을 만들려면 어떻게 해야 합니까? {#how-can-i-create-a-list-of-profiles-}
 
 목록은 가져오기 작업 또는 워크플로우 실행 중에 업데이트되는 게재 작업에서 타겟팅할 수 있는 정적 수신자의 집합입니다. 예를 들어 쿼리를 통해 데이터베이스에서 추출한 모집단은 목록을 제공할 수 있습니다.
 

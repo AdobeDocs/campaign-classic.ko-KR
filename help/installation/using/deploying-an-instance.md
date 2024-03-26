@@ -3,7 +3,7 @@ product: campaign
 title: 인스턴스 배포
 description: Campaign 배포 마법사에 대해 자세히 알아보기
 feature: Installation, Instance Settings, Deployment
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
@@ -11,8 +11,8 @@ topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3391'
-ht-degree: 3%
+source-wordcount: '3395'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign은 Adobe Campaign 클라이언트 콘솔에서 사용할 수 있�
 구성 단계는 다음과 같습니다.
 
 1. [일반 매개 변수](#general-parameters)
-1. [전자 메일 채널 매개 변수](#email-channel-parameters)
+1. [이메일 채널 매개 변수](#email-channel-parameters)
 1. [반송된 이메일 관리](#managing-bounced-emails)
 1. [추적 구성](#tracking-configuration)
 1. [모바일 채널 매개 변수](#mobile-channel-parameters)
@@ -67,7 +67,7 @@ Adobe Campaign은 Adobe Campaign 클라이언트 콘솔에서 사용할 수 있�
 * **[!UICONTROL Managing bounced emails]** : 수신 이메일을 선택하는 데 사용되는 POP 계정을 정의합니다. 을(를) 참조하십시오 [반송된 이메일 관리](#managing-bounced-emails).
 * **[!UICONTROL LDAP integration]** : LDAP 디렉터리를 통해 사용자 인증을 구성합니다. 을(를) 참조하십시오 [LDAP를 통해 연결](../../installation/using/connecting-through-ldap.md).
 
-## 전자 메일 채널 매개 변수 {#email-channel-parameters}
+## 이메일 채널 매개 변수 {#email-channel-parameters}
 
 다음 단계에서는 메시지 헤더에 표시할 정보를 정의할 수 있습니다.
 

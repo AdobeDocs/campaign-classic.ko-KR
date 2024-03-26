@@ -2,13 +2,13 @@
 product: campaign
 title: 웹 양식 레이아웃 정의
 description: 웹 양식 레이아웃 정의
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Forms
 exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '536'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 양식의 필드 및 레이블 정렬을 정의할 수 있습니다.
 
-기본적으로 필드 및 페이지의 다른 컨텐츠에 대한 표시 매개 변수는 양식의 일반 구성, 페이지의 구성 또는 상위 컨테이너의 구성(있는 경우)에서 상속됩니다.
+기본적으로 필드 및 페이지의 다른 컨텐츠에 대한 표시 매개 변수는 양식의 일반 구성, 페이지 구성 또는 상위 컨테이너의 구성(있는 경우)에서 상속됩니다.
 
 전체 양식에 대한 글로벌 표시 매개 변수는 양식 속성 상자에 지정됩니다. 다음 **[!UICONTROL Rendering]** 탭에서는 레이블의 위치를 선택할 수 있습니다.
 

@@ -9,8 +9,8 @@ role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: 8b0162680d6a3a2d4891d1f71020b44b28046ad7
 workflow-type: tm+mt
-source-wordcount: '2573'
-ht-degree: 17%
+source-wordcount: '2570'
+ht-degree: 12%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 17%
    <td> 정의되지 않음 </td> 
    <td> 정의되지 않음 </td> 
    <td> 0 </td> 
-   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에게 알립니다. 그런 다음 를 통해 메시지 분석을 수행하고 이 오류를 평가할 수 있습니다. <span class="uicontrol">관리</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">비게재 항목 관리</span> 트리 구조의 노드<br /> </td> 
+   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에 알립니다. 그런 다음 를 통해 메시지 분석을 수행하고 이 오류를 평가할 수 있습니다. <span class="uicontrol">관리</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">비게재 항목 관리</span> 트리 구조의 노드<br /> </td> 
   </tr> 
   <tr> 
    <td> 오퍼에 적합하지 않음 </td> 
@@ -230,7 +230,7 @@ Adobe Campaign 플랫폼을 사용하면 바운스 메일 기능을 통해 이�
 >
 >* 의 반송 조건 **[!UICONTROL Delivery log qualification]** 표는 더 이상 다음에 사용되지 않습니다: **동시-** 게재 실패 오류 메시지. Enhanced MTA는 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign에 다시 전송합니다.
 >
->* ****&#x200B;비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 자세한 내용은 [이메일 관리 규칙](#email-management-rules).
+>* **비동기** 바운스는 여전히 다음을 통해 inMail 프로세스에 의해 검증됩니다. **[!UICONTROL Inbound email]** 규칙. 자세한 내용은 [이메일 관리 규칙](#email-management-rules).
 >
 >* Enhanced MTA를 사용하는 인스턴스의 경우 **웹후크 없음**, **[!UICONTROL Inbound email]** 규칙은 비동기 바운스 이메일과 동일한 이메일 주소를 사용하여 Enhanced MTA에서 오는 동기 바운스 이메일을 처리하는 데에도 사용됩니다.
 

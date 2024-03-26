@@ -2,13 +2,13 @@
 product: campaign
 title: 웹 양식 번역
 description: 웹 양식 번역
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1547'
 ht-degree: 1%
 
 ---
@@ -114,16 +114,16 @@ Adobe Campaign 이외의 도구를 사용하여 문자 문자열을 내보내고
    * **[!UICONTROL One file per language]**: 내보내기를 수행하면 번역 언어당 하나의 파일이 생성됩니다. 각 파일은 선택한 모든 웹 애플리케이션에 공통됩니다.
    * **[!UICONTROL One file per Web application]**: 내보내기를 수행하면 선택한 웹 애플리케이션당 하나의 파일이 생성됩니다. 각 파일에는 모든 번역 언어가 포함됩니다.
 
-      >[!NOTE]
-      >
-      >이 유형의 내보내기는 XLIFF 내보내기에 사용할 수 없습니다.
+     >[!NOTE]
+     >
+     >이 유형의 내보내기는 XLIFF 내보내기에 사용할 수 없습니다.
 
    * **[!UICONTROL One file per language and per Web application]**: 내보내기를 수행하면 여러 파일이 생성됩니다. 각 파일에는 웹 애플리케이션당 하나의 번역 언어가 포함됩니다.
    * **[!UICONTROL One file for all]**: 내보내기를 수행하면 모든 웹 애플리케이션에 대해 단일 다국어 파일이 생성됩니다. 선택한 모든 웹 응용 프로그램에 대한 모든 번역 언어를 포함합니다.
 
-      >[!NOTE]
-      >
-      >이 유형의 내보내기는 XLIFF 내보내기에 사용할 수 없습니다.
+     >[!NOTE]
+     >
+     >이 유형의 내보내기는 XLIFF 내보내기에 사용할 수 없습니다.
 
 1. 그런 다음 를 선택합니다. **[!UICONTROL Target folder]** 파일이 기록될 위치.
 1. 파일 형식 선택( **[!UICONTROL CSV]** 또는 **[!UICONTROL XLIFF]** ) 및 클릭 **[!UICONTROL Start]**.

@@ -11,8 +11,8 @@ topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: e6a2986e5355b32164386e1f6d64f52dc6977632
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 4%
+source-wordcount: '558'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 >
 >demdex 도메인을 사용하고 구문을 따르는 경우 **ftp-out.demdex.com** 외부 계정 가져오기 및 **ftp-in.demdex.com** 외부 계정을 내보내는 경우 그에 따라 구현을 조정하고 Amazon Simple Storage Service(S3) 커넥터로 이동하여 데이터를 가져오거나 내보내야 합니다. Amazon S3를 사용하여 외부 계정을 구성하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [섹션](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign).
 
-다음 다이어그램은 이 통합이 작동하는 방식을 자세히 설명합니다. 여기서 AAM은 Adobe Audience Manager을 나타내고 AC는 Adobe Campaign을 나타냅니다.
+다음 다이어그램은 이 통합의 작동 방식을 자세히 설명합니다. 여기서 AAM은 Adobe Audience Manager을 나타내고 AC는 Adobe Campaign을 나타냅니다.
 
 ![](assets/aam_diagram.png){align="center"}
 

@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: 기술 정보 - Campaign 환경에서 Microsoft Edge Chromium 활성화
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 description: Campaign - 에지 크롬
 feature: Technote, Upgrade
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 13%
+source-wordcount: '249'
+ht-degree: 10%
 
 ---
 

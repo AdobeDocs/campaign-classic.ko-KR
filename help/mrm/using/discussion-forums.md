@@ -3,7 +3,7 @@ product: campaign
 title: 토론 포럼
 description: Campaign 토론 포럼 사용 방법 알아보기
 feature: Resource Management
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
@@ -11,7 +11,7 @@ exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 
 ## 포럼 구독 {#subscribing-to-a-forum}
 
-포럼에 가입하면 토론을 따를 수 있습니다. 포럼에 메시지가 게시될 때마다 이메일 알림을 받게 됩니다. 이 이메일에는 메시지 본문과 첨부 파일이 포함됩니다. 메시지에 응답하려면 이메일 본문을 클릭한 다음 Adobe Campaign 웹 인터페이스에 로그인합니다. 포럼에 가입하면 이 정보가 모든 사용자에게 표시됩니다.
+포럼에 가입하면 토론을 따를 수 있습니다. 포럼에 메시지가 게시될 때마다 이메일 알림을 받게 됩니다. 이 이메일에는 메시지 본문과 첨부 파일이 포함됩니다. 메시지에 응답하려면 이메일 본문을 클릭한 다음 Adobe Campaign 웹 인터페이스에 로그인합니다. 포럼에 가입하면 모든 사용자가 이 정보를 볼 수 있습니다.
 
 * 포럼에 가입하려면 **[!UICONTROL Follow discussions]** 메시지 목록 위에 있는 오른쪽 상단 섹션의 단추입니다.
 

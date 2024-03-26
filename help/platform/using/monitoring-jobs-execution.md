@@ -12,7 +12,7 @@ exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 12%
+ht-degree: 3%
 
 ---
 
@@ -49,11 +49,11 @@ ht-degree: 12%
 
   취소 명령이 고려되었으며 작업이 취소되고 있습니다.
 
-* **일시 중단 진행 중**
+* **일시 중지 진행 중**
 
   클릭 **[!UICONTROL Pause]**: 작업이 일시 중단됩니다.
 
-* **일시 중단됨**
+* **일시 중지됨**
 
   클릭 **[!UICONTROL Pause]**: 작업이 일시 중단되었습니다. 다음을 클릭하여 다시 시작할 수 있습니다. **[!UICONTROL Start]**.
 

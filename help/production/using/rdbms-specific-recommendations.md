@@ -11,8 +11,8 @@ topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
 source-git-commit: 624978901943b4c74f50c20298c9596f73b25b1b
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 3%
+source-wordcount: '1249'
+ht-degree: 1%
 
 ---
 
@@ -146,7 +146,7 @@ VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
 >* Adobe은 중요 업데이트가 발생할 수 있는 데이터 모델에 특정한 테이블을 추가할 것을 권장합니다. 다음과 같은 경우에 해당됩니다. **NmsRecipient** 일별 데이터 복제 흐름이 큰 경우.
 >* VACUUM 문은 유지 관리가 수행되는 동안 일부 프로세스를 일시 중지하는 테이블을 잠급니다.
 >* 매우 큰 테이블(일반적으로 5Gb 이상)의 경우 VACUUM FULL 문은 매우 비효율적이며 시간이 오래 걸릴 수 있습니다. Adobe은 다음 작업에 사용하지 않는 것이 좋습니다. **YyyNmsBroadLogXxx** 테이블.
->* 이 유지 관리 작업은 Adobe Campaign 워크플로에서 **[!UICONTROL SQL]** 활동. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/architecture.md)을 참조하십시오. 백업 윈도우와 충돌하지 않는 짧은 작업 시간 동안 유지 관리를 예약해야 합니다.
+>* 이 유지 관리 작업은 Adobe Campaign 워크플로에서 **[!UICONTROL SQL]** 활동. 자세한 내용은 다음을 참조하십시오. [이 섹션](../../workflow/using/architecture.md). 백업 윈도우와 충돌하지 않는 짧은 작업 시간 동안 유지 관리를 예약해야 합니다.
 >
 
 ### 데이터베이스 재구축 {#rebuilding-a-database}

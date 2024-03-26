@@ -1,9 +1,9 @@
 ---
 product: campaign
-title: Campaign 서버 구성
-description: Campaign 서버 구성
+title: 캠페인 서버 구성
+description: 캠페인 서버 구성
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
@@ -11,8 +11,8 @@ topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 3%
+source-wordcount: '1575'
+ht-degree: 1%
 
 ---
 
@@ -167,7 +167,7 @@ Adobe Campaign은 다음 JSP 페이지를 사용합니다.
 * nms/mobile/1/registerIOS.jssp
 * nms/mobile/1/registerAndroid.jssp
 
-**예제:**
+**예:**
 
 클라이언트 시스템이 외부에서 연결되는 것을 방지할 수 있습니다. 이렇게 하려면 의 실행을 제한하면 됩니다. **soaprouter.jsp** 미러 페이지, 바이럴 링크, 웹 양식 및 공개 리소스의 실행만 승인합니다.
 
@@ -266,7 +266,7 @@ sh
 
 중복 서버의 URL은 리디렉션 구성에서 다음을 통해 지정해야 합니다. **serverConf.xml** 파일.
 
-**예제:**
+**예:**
 
 ```
 <spareserver enabledIf="$(hostname)!='front_srv1'" id="1" url="http://front_srv1:8080" />

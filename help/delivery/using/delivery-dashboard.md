@@ -9,8 +9,8 @@ role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 7%
+source-wordcount: '1189'
+ht-degree: 4%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 7%
 
 ## 게재 추적 로그 및 내역 {#tracking-logs}
 
-다음 **[!UICONTROL Tracking]** 탭에는 이 게재에 대한 추적 기록이 나열됩니다. 이 탭에는 전송된 메시지, 즉 Adobe Campaign에서 추적할 수 있는 모든 URL에 대한 추적 데이터가 표시됩니다. 추적 데이터는 시간별로 업데이트됩니다.
+다음 **[!UICONTROL Tracking]** 탭에는 이 게재에 대한 추적 기록이 나열됩니다. 이 탭에는 전송된 메시지에 대한 추적 데이터, 즉 Adobe Campaign에 의한 추적이 적용되는 모든 URL이 표시됩니다. 추적 데이터는 시간별로 업데이트됩니다.
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ ht-degree: 7%
 
 수정이 완료되면 데이터베이스 구조가 논리적 설명과 일치하도록 업데이트해야 합니다.
 
-이렇게 하려면 아래 단계를 수행합니다:
+이렇게 하려면 아래 단계를 수행합니다.
 
 1. 다음을 클릭합니다. **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Update database structure...]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 

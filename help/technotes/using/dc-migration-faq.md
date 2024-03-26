@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Adobe Managed Services(Public Cloud)로 마이그레이션 FAQ
+title: Adobe Managed Services(공용 클라우드)로 마이그레이션 FAQ
 description: 공개 클라우드로 Campaign Classic 마이그레이션 FAQ
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ IP, 차단 목록, 하위 도메인 및 URL에 대한 전역 영향은 아래에
    * Adobe으로 하위 도메인을 위임하는 경우(기본값) Adobe에서 모든 변경 사항을 처리하여 원활한 전환을 보장합니다.
    * CNAME 설정(예외)의 경우 클라이언트는 Adobe과 함께 변경 사항을 구현하도록 요청받습니다.
 
-## 구성 및 접속성에 미치는 영향
+## 구성 및 연결에 미치는 영향
 
 ![](assets/do-not-translate/maintenance.png)
 

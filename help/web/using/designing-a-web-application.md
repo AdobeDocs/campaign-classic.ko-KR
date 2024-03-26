@@ -2,13 +2,13 @@
 product: campaign
 title: 웹 애플리케이션 디자인
 description: 웹 애플리케이션 디자인
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Apps
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '289'
 ht-degree: 4%
 
 ---
@@ -57,10 +57,10 @@ Adobe Campaign 인터페이스는 많은 웹 애플리케이션을 사용하여 
 
 * 사전 로드 상자
 
-   대부분의 경우 표시할 데이터가 미리 로드되어 있어야 합니다. 이러한 양식에 액세스하는 사용자는 액세스 제어를 통해 식별되므로 사전 로드가 반드시 암호화되지는 않습니다.
+  대부분의 경우 표시할 데이터가 미리 로드되어 있어야 합니다. 이러한 양식에 액세스하는 사용자는 액세스 제어를 통해 식별되므로 사전 로드가 반드시 암호화되지는 않습니다.
 
 * 저장 상자
 * 페이지 추가
 
-   &quot;개요&quot; 유형의 웹 응용 프로그램에는 모두 단일 페이지가 있는 반면, 편집 양식은 특정 기준(테스트, 선택 사항, 연결된 연산자 프로필 등)에 따라 페이지 시퀀스를 제공할 수 있습니다.
+  &quot;개요&quot; 유형의 웹 응용 프로그램에는 모두 단일 페이지가 있는 반면, 편집 양식은 특정 기준(테스트, 선택 사항, 연결된 연산자 프로필 등)에 따라 페이지 시퀀스를 제공할 수 있습니다.
 

@@ -3,14 +3,14 @@ product: campaign
 title: 표준 배포
 description: 표준 배포
 feature: Installation, Architecture, Deployment
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '843'
 ht-degree: 3%
 
 ---
@@ -45,7 +45,7 @@ LAN의 애플리케이션 서버는 최종 사용자에게 서비스를 제공�
 
 ## 설치 및 구성 단계 {#installation-and-configuration-steps}
 
-### 전제 조건 {#prerequisites}
+### 필수 구성 요소 {#prerequisites}
 
 * JDK가 세 대의 컴퓨터에 깔려 있고
 * 양쪽 프론트엔드의 웹 서버(IIS, Apache)

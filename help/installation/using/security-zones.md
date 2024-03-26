@@ -11,8 +11,8 @@ topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 2%
+source-wordcount: '1458'
+ht-degree: 1%
 
 ---
 
@@ -146,7 +146,7 @@ ht-degree: 2%
 >
 >또한 이제 릴레이가 프록시처럼 생성됩니다. 따라서 보안 영역 구성의 프록시 목록에 IP 주소 127.0.0.1을 추가할 수 있습니다.
 >
->예제: &quot; `<subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />`&quot;.
+>예: &quot; `<subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />`&quot;.
 
 다음과 같은 다양한 경우가 발생할 수 있습니다.
 

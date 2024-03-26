@@ -11,8 +11,8 @@ topic-tags: additional-configurations
 exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 3%
+source-wordcount: '957'
+ht-degree: 2%
 
 ---
 
@@ -98,7 +98,7 @@ Adobe Campaign 데이터베이스에 액세스하는 외부 도구와의 호환�
 가능한 값의 예:
 
 * 유럽/파리,
-* 유럽/런던,
+* 유럽/런던
 * 아메리카/뉴욕 등
 
   이 값은 tz(Olson) 데이터베이스에서 가져옵니다. 자세한 내용은 다음을 참조하십시오. [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).

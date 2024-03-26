@@ -3,12 +3,12 @@ product: campaign
 title: 지원되지 않는 SMS 커넥터 마이그레이션
 description: 지원되지 않는 SMS 커넥터를 Extended Generic SMPP 커넥터로 마이그레이션
 feature: SMS, Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 hidefromtoc: true
 exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '464'
 ht-degree: 3%
 
 ---

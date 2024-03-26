@@ -2,13 +2,13 @@
 product: campaign
 title: 워크플로우 구축
 description: 워크플로우 구축 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 6%
+source-wordcount: '1631'
+ht-degree: 4%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 6%
 
 ## 활동 추가 및 연결 {#adding-and-linking-activities}
 
-이제 다양한 활동을 정의하고 이를 다이어그램에서 서로 연결해야 합니다. 이 구성 단계에서는 다이어그램 레이블 및 워크플로 상태(편집 진행 중)를 볼 수 있습니다. 창의 아래 섹션은 다이어그램을 편집하는 데만 사용됩니다. 여기에는 도구 모음, 활동 팔레트(왼쪽) 및 다이어그램 자체(오른쪽)가 포함되어 있습니다.
+이제 다양한 활동을 정의하고 이를 다이어그램에서 함께 연결해야 합니다. 이 구성 단계에서는 다이어그램 레이블 및 워크플로 상태(편집 진행 중)를 볼 수 있습니다. 창의 아래 섹션은 다이어그램을 편집하는 데만 사용됩니다. 여기에는 도구 모음, 활동 팔레트(왼쪽) 및 다이어그램 자체(오른쪽)가 포함되어 있습니다.
 
 ![](assets/new-workflow-2.png)
 
@@ -87,28 +87,28 @@ ht-degree: 6%
 
 * **도구 모음 사용**
 
-   다이어그램 편집 도구 모음을 사용하면 워크플로우의 레이아웃 및 실행 기능에 액세스할 수 있습니다.
+  다이어그램 편집 도구 모음을 사용하면 워크플로우의 레이아웃 및 실행 기능에 액세스할 수 있습니다.
 
-   ![](assets/s_user_segmentation_wizard_10.png)
+  ![](assets/s_user_segmentation_wizard_10.png)
 
-   이렇게 하면 팔레트 표시와 그래픽 객체의 개요, 크기 및 정렬과 같은 편집 도구의 레이아웃을 조정할 수 있습니다.
+  이렇게 하면 팔레트 표시와 그래픽 객체의 개요, 크기 및 정렬과 같은 편집 도구의 레이아웃을 조정할 수 있습니다.
 
-   ![](assets/s_user_segmentation_toolbar.png)
+  ![](assets/s_user_segmentation_toolbar.png)
 
-   진행률 및 로그 표시와 관련된 아이콘은 다음 섹션에 자세히 설명되어 있습니다.
+  진행률 및 로그 표시와 관련된 아이콘은 다음 섹션에 자세히 설명되어 있습니다.
 
    * [진행 상황 표시](../../workflow/using/monitoring-workflow-execution.md#displaying-progress)
    * [로그 표시](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)
 
 * **개체 정렬**
 
-   아이콘을 정렬하려면 아이콘을 선택하고 **[!UICONTROL Align vertically]** 또는 **[!UICONTROL Align horizontally]** 아이콘.
+  아이콘을 정렬하려면 아이콘을 선택하고 **[!UICONTROL Align vertically]** 또는 **[!UICONTROL Align horizontally]** 아이콘.
 
-   사용 **CTRL** 키를 눌러 여러 분산 활동을 선택하거나 하나 이상의 활동을 선택 해제합니다. 다이어그램 배경을 클릭하여 모든 항목을 선택 취소합니다.
+  사용 **CTRL** 키를 눌러 여러 분산 활동을 선택하거나 하나 이상의 활동을 선택 해제합니다. 다이어그램 배경을 클릭하여 모든 항목을 선택 취소합니다.
 
 * **이미지 관리**
 
-   다이어그램의 배경 이미지와 다양한 활동과 관련된 배경 이미지를 사용자 지정할 수 있습니다. 을(를) 참조하십시오 [활동 이미지 변경](managing-activity-images.md).
+  다이어그램의 배경 이미지와 다양한 활동과 관련된 배경 이미지를 사용자 지정할 수 있습니다. 을(를) 참조하십시오 [활동 이미지 변경](managing-activity-images.md).
 
 ## 활동 구성 {#configuring-activities}
 
@@ -124,7 +124,7 @@ ht-degree: 6%
 
 ![](assets/example1-comment.png)
 
-## 타겟팅 워크플로우 {#targeting-workflows}
+## 타겟팅 워크플로 {#targeting-workflows}
 
 타겟팅 워크플로우를 사용하면 여러 게재 타겟을 구축할 수 있습니다. 워크플로우 활동 덕분에 쿼리를 만들고, 특정 기준에 따라 유니온 또는 제외를 정의하고, 예약을 추가할 수 있습니다. 이 타겟팅의 결과는 게재 작업의 타겟이 될 수 있는 목록으로 자동으로 전송될 수 있습니다
 
@@ -150,7 +150,7 @@ ht-degree: 6%
 1. **준비** 게재 요구 사항을 충족하는 데이터 - 참조 [데이터 강화 및 수정](targeting-data.md#enriching-and-modifying-data)
 1. **사용** 업데이트 또는 게재 내에서 수행할 데이터 - 다음을 참조하십시오. [데이터베이스 업데이트](how-to-use-workflow-data.md#updating-the-database)
 
-타겟팅 중에 수행되는 모든 보강 및 모든 처리의 결과는 개인화 필드에 저장되고 액세스할 수 있습니다. 특히 개인화된 메시지를 만들 때 사용할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [Target 데이터](data-life-cycle.md#target-data)
+타겟팅 중에 수행되는 모든 보강 및 모든 처리의 결과는 개인화 필드에 저장되고 액세스할 수 있습니다. 특히 개인화된 메시지를 만들 때 사용할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [대상 데이터](data-life-cycle.md#target-data)
 
 ### 차원 타겟팅 및 필터링 {#targeting-and-filtering-dimensions}
 
@@ -204,7 +204,7 @@ Campaign 워크플로우 및 구현 예는에 자세히 설명되어 있습니�
 
 제공되는 활동은 타겟팅 워크플로우와 동일합니다. [자세히 알아보기](#implementation-steps-)
 
-## 워크플로 템플릿 {#workflow-templates}
+## 워크플로우 템플릿 {#workflow-templates}
 
 워크플로우 템플릿에는 속성의 전체 구성과 다이어그램 내에서 연결되는 다양한 활동이 포함됩니다. 이 구성은 특정 수의 사전 구성된 요소를 포함하는 새 워크플로를 만드는 데 재사용할 수 있습니다
 

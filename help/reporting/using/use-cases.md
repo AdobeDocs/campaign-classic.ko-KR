@@ -188,7 +188,7 @@ ht-degree: 0%
 
    나머지 구성은 모든 설명 분석과 동일합니다.
 
-### Target 분석 권장 사항 {#target-analyze-recommendations}
+### 타겟 분석 권장 사항 {#target-analyze-recommendations}
 
 워크플로우의 모집단을 분석하려면 전환 시 모집단이 계속 존재해야 합니다. 워크플로우가 시작되면 모집단과 관련된 결과가 전환에서 삭제될 수 있습니다. 분석을 실행하기 위해 다음 중 하나를 수행할 수 있습니다.
 
@@ -237,7 +237,7 @@ ht-degree: 0%
 
    ![](assets/reporting_descriptive_sample_tracking_3.png)
 
-1. 그런 다음 **[!UICONTROL General]** 탭을 사용하여 통계 레이블 및 별칭의 이름을 변경할 수 있습니다.
+1. 그런 다음 **[!UICONTROL General]** 통계 레이블 및 별칭의 이름을 바꾸는 탭입니다.
 
    ![](assets/reporting_descriptive_sample_tracking_4.png)
 

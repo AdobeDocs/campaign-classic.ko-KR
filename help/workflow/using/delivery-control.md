@@ -2,13 +2,13 @@
 product: campaign
 title: 게재 제어
 description: 게재 제어 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 2%
+source-wordcount: '171'
+ht-degree: 6%
 
 ---
 
@@ -28,11 +28,11 @@ A **게재 제어**-type 작업을 사용하여 게재를 시작, 일시 중지 
 
 * **[!UICONTROL Generate an outbound transition]**
 
-   실행 종료 시 활성화될 아웃바운드 전환을 만듭니다. 아웃바운드 게재의 타겟을 검색할지 여부를 선택할 수 있습니다.
+  실행 종료 시 활성화될 아웃바운드 전환을 만듭니다. 아웃바운드 게재의 타겟을 검색할지 여부를 선택할 수 있습니다.
 
 * **[!UICONTROL Processing errors]**
 
-   을(를) 참조하십시오 [처리 오류](monitoring-workflow-execution.md#processing-errors).
+  을(를) 참조하십시오 [처리 오류](monitoring-workflow-execution.md#processing-errors).
 
 ## 입력 매개 변수 {#input-parameters}
 

@@ -9,8 +9,8 @@ role: User
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 6%
+source-wordcount: '186'
+ht-degree: 4%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 6%
 
 1. 나머지 모집단 만들기:
 
-   * **[!UICONTROL General]** 탭으로 이동합니다. 
+   * 로 이동 **[!UICONTROL General]** 탭.
 
      ![](assets/use_case_abtesting_createrecipients_011.png)
 

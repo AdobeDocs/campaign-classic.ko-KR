@@ -9,8 +9,8 @@ role: User
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 8%
+source-wordcount: '640'
+ht-degree: 2%
 
 ---
 
@@ -69,7 +69,7 @@ ajouter screenshot -->
    <td> 운영자가 게재를 취소했습니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 서비스 제공자의 고려<br /> </td> 
+   <td> 서비스 제공자의 고려 사항<br /> </td> 
    <td> SMS 서비스 공급자가 게재를 받았습니다.<br /> 호스팅 또는 하이브리드 설치의 경우 를 로 업그레이드한 경우 <a href="sending-with-enhanced-mta.md" target="_blank">향상된 MTA</a>, 메시지가 Campaign에서 Enhanced MTA로 성공적으로 중계되었습니다.</td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ ajouter screenshot -->
    <td> 수신자가 모바일 디바이스에서 SMS를 수신했습니다.<br /> </td> 
   </tr>
   <tr> 
-   <td> 서비스 제공자에게 전송<br /> </td> 
+   <td> 서비스 공급자에게 전송됨<br /> </td> 
    <td> 게재를 SMS 서비스 공급자에게 보냈지만 아직 받지 못했습니다.<br />
    </td> 
   </tr> 

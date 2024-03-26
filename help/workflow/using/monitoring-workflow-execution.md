@@ -2,12 +2,12 @@
 product: campaign
 title: 워크플로우 실행 모니터링
 description: 워크플로우 실행 모니터링
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2025'
 ht-degree: 2%
 
 ---
@@ -42,23 +42,23 @@ ht-degree: 2%
 
 * 다음 항목 선택 **[!UICONTROL Tracking]** 세부 정보 탭 이 목록에는 모든 워크플로우 메시지가 포함되어 있습니다.
 
-   ![](assets/new-workflow-display-log-tab.png)
+  ![](assets/new-workflow-display-log-tab.png)
 
 * 활동별로 로그 메시지를 필터링합니다. 이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL Display the tasks and the log]** 을(를) 표시하기 위해 다이어그램 위에 있는 도구 모음에서 **[!UICONTROL Log]** 및 **[!UICONTROL Tasks]** 다이어그램 아래의 탭입니다. 모든 관련 메시지를 볼 활동을 선택하십시오. 이 목록에는 활동을 선택하지 않은 경우 모든 메시지가 포함됩니다.
 
-   ![](assets/new-workflow-display-log-activity.png)
+  ![](assets/new-workflow-display-log-activity.png)
 
-   >[!NOTE]
-   >
-   >다이어그램의 배경을 클릭하여 모든 요소의 선택을 취소합니다.
+  >[!NOTE]
+  >
+  >다이어그램의 배경을 클릭하여 모든 요소의 선택을 취소합니다.
 
 * 주어진 작업에 연결된 메시지만 봅니다. 이렇게 하려면 **[!UICONTROL Tasks]** 을 탭한 다음 다이어그램에서 활동을 선택하여 목록을 제한합니다. 작업을 두 번 눌러 정보를 표시합니다. 창의 마지막 탭에 로그가 포함됩니다.
 
-   ![](assets/new-workflow-display-tasks-activity.png)
+  ![](assets/new-workflow-display-tasks-activity.png)
 
-   다음 **[!UICONTROL Details...]** 버튼을 사용하면 활동 실행에 대한 모든 추가 정보를 표시할 수 있습니다. 예를 들어 다음 예제와 같이 유효성 검사 연산자와 적용 가능한 경우 승인 중에 입력한 설명을 볼 수 있습니다.
+  다음 **[!UICONTROL Details...]** 버튼을 사용하면 활동 실행에 대한 모든 추가 정보를 표시할 수 있습니다. 예를 들어 다음 예제와 같이 유효성 검사 연산자와 적용 가능한 경우 승인 중에 입력한 설명을 볼 수 있습니다.
 
-   ![](assets/new-workflow-display-tasks-activity-details.png)
+  ![](assets/new-workflow-display-tasks-activity-details.png)
 
 >[!NOTE]
 >
@@ -68,15 +68,15 @@ ht-degree: 2%
 
 * 타깃팅 캠페인 로그
 
-   타겟팅 캠페인이 실행되면 **[!UICONTROL Tracking]** 실행 추적을 보려면 탭하십시오.
+  타겟팅 캠페인이 실행되면 **[!UICONTROL Tracking]** 실행 추적을 보려면 탭하십시오.
 
-   ![](assets/s_user_segmentation_journal.png)
+  ![](assets/s_user_segmentation_journal.png)
 
-   모든 캠페인 메시지가 표시됩니다. 캠페인은 물론 경고 또는 오류도 수행됩니다.
+  모든 캠페인 메시지가 표시됩니다. 캠페인은 물론 경고 또는 오류도 수행됩니다.
 
 * 활동 로그
 
-   실행 로그와 각 활동의 세부 정보도 볼 수 있습니다. 두 가지 방법으로 이 작업을 수행할 수 있습니다.
+  실행 로그와 각 활동의 세부 정보도 볼 수 있습니다. 두 가지 방법으로 이 작업을 수행할 수 있습니다.
 
    1. 타겟팅된 활동을 선택하고 **[!UICONTROL Display the tasks and the log]** 아이콘.
 
@@ -225,9 +225,9 @@ instance.vars.isRunning = false
 * JavaScript에서 정의되지 않은 값은 테스트에서 false이므로 인스턴스 변수를 초기화하기 전에도 테스트할 수 있습니다.
 * &quot;no&quot; 끝의 초기화 스크립트에 로깅 명령을 추가하여 이 메커니즘으로 인해 처리되지 않는 활동을 모니터링할 수 있습니다.
 
-   ```
-   logInfo("Workflow already running, parallel execution not allowed.");
-   ```
+  ```
+  logInfo("Workflow already running, parallel execution not allowed.");
+  ```
 
 사용 사례는 이 섹션에 나와 있습니다. [데이터 업데이트 조정](coordinating-data-updates.md).
 
@@ -270,7 +270,7 @@ Campaign Classic 인터페이스를 사용하면 사전 정의된 워크플로�
 
 1. 보기를 추가할 폴더를 마우스 오른쪽 단추로 클릭합니다.
 1. 위치 **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**&#x200B;를 클릭하고 추가할 보기를 선택합니다.
-1. 폴더가 트리에 추가되면 해당 원본 폴더와 관계없이 모든 워크플로우가 표시되도록 해당 폴더를 보기로 구성해야 합니다.보기를 구성하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../platform/using/access-management-folders.md).
+1. 폴더가 트리에 추가되면 해당 원본 폴더와 관계없이 모든 워크플로가 표시되도록 해당 폴더를 보기로 구성해야 합니다.보기를 구성하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../platform/using/access-management-folders.md).
 
 이러한 보기 외에 필터 폴더를 설정하여 실행 상태에 따라 워크플로 목록을 필터링할 수 있습니다. 방법은 다음과 같습니다.
 

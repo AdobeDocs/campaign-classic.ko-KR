@@ -3,7 +3,7 @@ product: campaign
 title: 테스트 및 보내기 FAQ
 description: Campaign Classic FAQ
 feature: Troubleshooting
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -11,7 +11,7 @@ exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 97%
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe에서는 주요 대상으로 보내기 전에 승인 그룹에서 전달�
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-### Adobe Campaign에서 시드 주소를 사용하는 방법  {#how-to-use-seed-addresses-in-adobe-campaign-}
+### Adobe Campaign에서 시드 주소를 사용하는 방법 {#how-to-use-seed-addresses-in-adobe-campaign-}
 
 시드 주소는 정의된 대상 기준과 일치하지 않는 수신자를 타겟팅 하는 데 사용됩니다. 이러한 수신자는 전달 또는 캠페인에서 직접 가져오거나 만들 수 있는 대상에 추가됩니다. 직접 메일 게재의 경우 추출 중에 추가되고 출력 문서에 혼합됩니다.
 
@@ -62,7 +62,7 @@ Adobe에서는 주요 대상으로 보내기 전에 승인 그룹에서 전달�
 
 Adobe Campaign을 사용하여 다양한 채널에서 메시지를 보내는 방법을 배웁니다.
 
-### 전자 메일을 웨이브로 보내려면 어떻게 해야 합니까??  {#how-can-i-send-emails-in-waves-}
+### 전자 메일을 웨이브로 보내려면 어떻게 해야 합니까? {#how-can-i-send-emails-in-waves-}
 
 게재를 큰 모집단으로 보내기 전에 [웨이브를 구성](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)하여 여러 개의 배치로 메시지를 나누어 부하의 균형을 맞출 수 있습니다.
 
@@ -72,7 +72,7 @@ Adobe Campaign을 사용하여 다양한 채널에서 메시지를 보내는 방
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-### 게재를 예약하는 방법  {#how-to-schedule-a-delivery-}
+### 게재를 예약하는 방법 {#how-to-schedule-a-delivery-}
 
 게재 예약이나 판매 압력을 관리하고 모집단을 지나치게 모집하지 않기 위해 메시지 게재를 연기할 수 있습니다.
 
@@ -88,7 +88,7 @@ Campaign Classic을 통해 개인화된 첨부 파일을 전자 메일에 추가
 
 메시지가 전송되고 나면 Adobe Campaign을 통해 영향력을 추적하고 측정하는 방법을 배웁니다.
 
-### 전자 메일 게재에서 추적된 링크를 구성하려면 어떻게 해야 합니까? {#how-can-i-configure-tracked-links-in-an-email-delivery-}
+### 이메일 게재에서 추적된 링크를 구성하려면 어떻게 해야 합니까? {#how-can-i-configure-tracked-links-in-an-email-delivery-}
 
 각 게재에 대해 메시지 수신 및 메시지 콘텐츠에 삽입된 링크의 활성화를 추적할 수 있습니다. 이렇게 하면 수신자가 타겟팅된 게재 작업 이후 수신자의 동작을 추적할 수 있습니다.
 

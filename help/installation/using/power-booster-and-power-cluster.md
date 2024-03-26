@@ -3,14 +3,14 @@ product: campaign
 title: 전원 부스터 및 전원 클러스터
 description: 전원 부스터 및 전원 클러스터
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '416'
 ht-degree: 7%
 
 ---
@@ -58,13 +58,13 @@ Adobe Campaign은 배포 차원을 높이기 위한 두 가지 미리 패키지�
    <td> 매월 1억 건 이상의 이메일<br /> </td> 
   </tr> 
   <tr> 
-   <td> 트랜잭션 메시지 <br /> </td> 
+   <td> 트랜잭션 메시지<br /> </td> 
    <td> 실행 서버당 시간당 50,000<br /> </td> 
    <td> 실행 서버당 시간당 50,000<br /> </td> 
    <td> 실행 서버당 시간당 50,000<br /> </td> 
   </tr> 
   <tr> 
-   <td> 가용성<br /> </td> 
+   <td> 사용 가능<br /> </td> 
    <td> 기본 데이터베이스의 ID<br /> </td> 
    <td> 실행 인스턴스에 대한 유지 관리 기간 및 가동 중지 시간 제외 24/7<br /> </td> 
    <td> 24/7/365 서비스 가능<br /> </td> 

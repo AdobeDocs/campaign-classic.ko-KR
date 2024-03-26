@@ -3,7 +3,7 @@ product: campaign
 title: 구성 조정
 description: Campaign v7으로 마이그레이션하기 전후에 구성을 조정하는 방법을 알아봅니다
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 3%
+source-wordcount: '475'
+ht-degree: 4%
 
 ---
 
@@ -136,7 +136,7 @@ Adobe Campaign v7로 마이그레이션할 때 다음 요소를 구성해야 합
 
 -->
 
-* 상호 작용
+* 상호 작용 수
 
   를 사용하는 경우 **상호 작용**&#x200B;마이그레이션 후 매개 변수를 조정해야 합니다.
 

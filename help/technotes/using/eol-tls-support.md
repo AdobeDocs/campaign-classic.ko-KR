@@ -3,15 +3,15 @@ product: campaign
 title: TLS 1.0 및 1.1 수명 종료
 description: TLS 1.0 및 1.1 수명 종료
 feature: Technote
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용됩니다."
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 4%
+source-wordcount: '867'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe은 더 낮은 버전의 TLS(TLS 1.0 및 1.1 포함)에 대한 지원을 �
 
 다음 인기 있는 브라우저 중 하나를 다운로드하여 설치할 수 있습니다.
 
-* [Google Chrome](https://www.google.com/chrome/)
+* [Google 크롬](https://www.google.com/chrome/)
 * [Apple Safari](https://www.apple.com/safari/)
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [Microsoft Edge](https://www.microsoft.com/en-us/edge)

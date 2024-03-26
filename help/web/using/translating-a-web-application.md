@@ -2,13 +2,13 @@
 product: campaign
 title: 웹 애플리케이션 번역
 description: 웹 애플리케이션 번역
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Apps
 exl-id: 82c5c610-8161-4686-aa79-1b690e763765
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '376'
 ht-degree: 5%
 
 ---
@@ -45,11 +45,11 @@ Adobe Campaign DCE(디지털 콘텐츠 편집기)로 만든 웹 애플리케이�
    * 선택한 블록에 여러 문자열/블록이 포함되어 있으면 번역할 단일 문자열로 플래그가 지정됩니다. 문자열에는 가 포함되며 이 블록 내에 있는 요소의 HTML 코드가 포함됩니다.
    * 여러 문자열이 포함된 블록에 플래그를 지정하려는 경우 이러한 문자열 중 하나 이상에 이미 플래그가 지정되어 있으면 경고가 표시됩니다. 그런 다음 격리된 문자열에서 플래그를 제거하고 전체 블록을 추가할 수 있습니다.
 
-      ![](assets/dce_translation_4.png)
+     ![](assets/dce_translation_4.png)
 
    * 이미 플래그가 지정된 블록에 포함된 문자열에서 플래그를 제거하려면 문자열 번역 옵션을 직접 수정할 수 없습니다. 하지만 문자열을 포함하는 블록에 액세스하여 변경할 수 있습니다.
 
-      ![](assets/dce_translation_2.png)
+     ![](assets/dce_translation_2.png)
 
 1. 문자열에 플래그 지정을 완료한 후 웹 애플리케이션으로 돌아가서 **[!UICONTROL Translations]** 탭.
 1. **[!UICONTROL Collect the strings to translate]**&#x200B;을(를) 선택합니다. DCE에 플래그가 지정된 문자열이 웹 애플리케이션의 문자열에 추가됩니다.

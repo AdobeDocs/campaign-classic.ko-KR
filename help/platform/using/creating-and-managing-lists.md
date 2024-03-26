@@ -2,14 +2,14 @@
 product: campaign
 title: 목록 만들기 및 관리
 description: 목록을 만들고 관리하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Profiles
 role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '806'
 ht-degree: 9%
 
 ---
@@ -30,11 +30,11 @@ Adobe Campaign에서는 두 가지 유형의 목록을 사용할 수 있습니�
 
 * **[!UICONTROL Group]** 유형: **[!UICONTROL Group]** 유형 목록은 다음에 속함: **정적** 특정 기준에 따라 선택된 사람의 목록입니다. 이 목록은 프로필 세트의 스냅샷과 같습니다. 프로필이 데이터베이스에 추가되는 경우 자동으로 업데이트되지 않습니다.
 
-   을(를) 만드는 방법에 대한 자세한 내용은 **[!UICONTROL Group]** 유형 목록, 다음을 참조하십시오. [페이지](#creating-a-profile-list-from-a-group).
+  을(를) 만드는 방법에 대한 자세한 내용은 **[!UICONTROL Group]** 유형 목록, 다음을 참조하십시오. [페이지](#creating-a-profile-list-from-a-group).
 
 * **[!UICONTROL List]** 유형: **[!UICONTROL List]** 유형 목록을 사용하면 워크플로우를 사용하여 목록을 만들고 관리할 수 있습니다. 이러한 목록은 데이터 가져오기로 인해 발생한 특정 목록이며, 전용 을 통해 업데이트할 수 있습니다. **[!UICONTROL List update]** 워크플로우 활동.
 
-   와(과) 달리 **[!UICONTROL Group]** 유형 목록, 이 유형 목록은 **[!UICONTROL Scheduler]** 활동. 을 만드는 방법에 대한 예를 보려면 다음을 참조하십시오 **[!UICONTROL List]** 유형 목록, 참조 [이 페이지](../../workflow/using/list-update.md).
+  와(과) 달리 **[!UICONTROL Group]** 유형 목록, 이 유형 목록은 **[!UICONTROL Scheduler]** 활동. 을 만드는 방법에 대한 예를 보려면 다음을 참조하십시오 **[!UICONTROL List]** 유형 목록, 참조 [이 페이지](../../workflow/using/list-update.md).
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#create-list-video)
 
@@ -58,7 +58,7 @@ Adobe Campaign에서는 두 가지 유형의 목록을 사용할 수 있습니�
    * 이 목록에 대한 설명을 추가합니다.
    * 만료 날짜를 지정할 수 있습니다. 이 날짜에 도달하면 목록이 삭제되고 자동으로 삭제됩니다.
 
-      ![](assets/list_expiration_date.png)
+     ![](assets/list_expiration_date.png)
 
 1. 다음에서 **[!UICONTROL Content]** 탭을 클릭하고 **[!UICONTROL Add]** 목록에 속한 프로파일을 선택합니다.
 
@@ -113,11 +113,11 @@ Adobe Campaign 홈 페이지를 통해 목록을 편집할 수도 있습니다. 
 
 * 목록을 편집하고에서 프로필을 선택합니다 **[!UICONTROL Content]** 탭을 클릭한 다음 **[!UICONTROL Delete]** 아이콘.
 
-   ![](assets/list_remove_a_recipient.png)
+  ![](assets/list_remove_a_recipient.png)
 
 * 프로필을 편집하고 **[!UICONTROL List]** 탭을 클릭한 다음 **[!UICONTROL Delete]** 아이콘.
 
-   ![](assets/recipient_remove_a_list.png)
+  ![](assets/recipient_remove_a_list.png)
 
 ## 프로필 목록 삭제 {#deleting-a-list-of-profiles}
 

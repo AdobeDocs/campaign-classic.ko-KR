@@ -9,7 +9,7 @@ exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: 92c79e7050124bc707f4d6b87c7952016586002c
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다. 자세히 알아보기 [Adobe Campaign v8 기술 노트](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+>Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 미칠 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다. 자세히 알아보기 [Adobe Campaign v8 기술 노트](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=ko){target="_blank"}.
 
 
 ## Android 외부 계정 구성 {#configuring-external-account-android}
@@ -109,7 +109,7 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
->Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줄 수 있습니다. 서비스 개선을 위한 Google의 지속적인 노력의 일환으로 레거시 FCM API는에서 중단됩니다. **2024년 6월 20일**. 자세히 알아보기 [Adobe Campaign v8 기술 노트](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+>Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 미칠 수 있습니다. 서비스 개선을 위한 Google의 지속적인 노력의 일환으로 레거시 FCM API는에서 중단됩니다. **2024년 6월 20일**. 자세히 알아보기 [Adobe Campaign v8 기술 노트](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=ko){target="_blank"}.
 
 서비스 및 새 모바일 애플리케이션을 만든 후에는 모바일 애플리케이션을 구성해야 합니다. 다음 **HTTP(기존)** API는 Google에서 더 이상 사용되지 않으므로 선택하면 안 됩니다.
 
