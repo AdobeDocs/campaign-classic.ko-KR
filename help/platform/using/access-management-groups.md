@@ -7,9 +7,9 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 4e99ec73f99264e91ca427542e29bd42da88a3f9
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL Access to reports]**
 
-   이 그룹은 외부 운영자가 웹 액세스를 통해 게재 보고서에 액세스하도록 예약되어 있습니다.
+   이 그룹은 특정 연산자에 대해 Campaign 대시보드의 보고서, 예약 및 포럼 아이콘을 활성화하기 위해 외부 연산자용으로 예약되어 있습니다.
 
 1. **[!UICONTROL Workflow execution]**
 
