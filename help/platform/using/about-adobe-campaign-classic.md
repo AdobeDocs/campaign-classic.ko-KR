@@ -7,10 +7,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: 776560c5f9ba91a5864a7dc950fd7499ceb37d1b
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 90%
+source-wordcount: '919'
+ht-degree: 89%
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 
 
 ## 핵심 기능 및 추가 기능 {#core-capabilities-and-add-ons}
 
-Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 기능을 구현하고 최적화하는 데 도움이 되는 기능의 집합을 제공합니다. 일부는 핵심 기능이며 일부는 패키지 설치 및 구성에 따라 다릅니다. 자세한 제품 설명은 [Adobe Campaign Classic 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-classic---product-description.html)에 나와 있습니다.
+Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 기능을 구현하고 최적화하는 데 도움이 되는 기능의 집합을 제공합니다. 일부는 핵심 기능이며 일부는 패키지 설치 및 구성에 따라 다릅니다. 자세한 제품 설명은 여기에서 확인할 수 있습니다. [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 다음 기능을 사용할 수 있습니다. 사용권 계약에 따라 이러한 기능 중 일부를 사용자 인스턴스에 사용하거나 사용하지 않을 수 있습니다.
 
