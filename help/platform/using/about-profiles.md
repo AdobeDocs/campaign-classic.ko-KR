@@ -7,10 +7,10 @@ feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: c4fa3ea6d5a9d9acae267fc1ca27cf3bc140683c
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 15%
+source-wordcount: '912'
+ht-degree: 16%
 
 ---
 
@@ -90,21 +90,19 @@ Adobe Campaign 탐색기의 일반 레이아웃은에 표시되어 있습니다.
 
 ## 활성 프로필 {#active-profiles}
 
-활성 프로필은 청구 용도로 계산되는 프로필입니다.
+활성 프로필은 고객이 지난 12개월 동안 모든 채널을 통해 통신하려고 시도한 프로필입니다.
 
-청구는 다음 프로필에만 관련됩니다. **활성**. 지난 12개월 동안 어떤 채널을 통해 프로필을 타겟팅하거나 통신한 경우 프로필이 활성 상태로 간주됩니다.
+계약에 따라 각 캠페인 인스턴스에는 청구 용도로 계산되는 특정 양의 활성 프로필이 제공됩니다. 구입한 활성 프로필 수에 대한 자세한 내용은 최신 계약을 참조하십시오. 다음에서 자세히 알아보기 [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-여러 게재에서 타겟팅한 프로필은 한 번만 카운트됩니다.
+Campaign Campaign 컨트롤 패널에서 직접 인스턴스의 활성 프로필 수를 모니터링할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
->[!NOTE]
->
->Facebook 및 X(이전의 Twitter) 채널은 고려되지 않습니다.
+다음과 같은 보호 기능 및 제한 사항이 적용됩니다.
 
-다음에 대한 활성 프로필 수를 사용할 수 있습니다. **마케팅 인스턴스** 만 해당. 실행 인스턴스에는 사용할 수 없습니다. 즉, MID(중간 소싱) 및 RT(메시지 센터/실시간 메시징) 인스턴스를 의미합니다.
+* 여러 게재에서 타겟팅한 프로필은 한 번만 카운트됩니다.
+* X의 소셜 마케팅(Twitter) 또는 Facebook에서 타겟팅한 프로필은 활성 프로필로 고려하지 않습니다.
+* 다음에 대해 사용 가능한 활성 프로필 수 **마케팅 인스턴스** 만 해당. 실행 인스턴스에는 사용할 수 없습니다. 즉, MID(중간 소싱) 및 RT(메시지 센터/실시간 메시징) 인스턴스를 의미합니다.
+* 카운트는 수신자 기본 키를 기반으로 합니다. 따라서 프로필이 두 개의 서로 다른 수신자 테이블에 있으면 활성 프로필로 두 번 계산될 수 있습니다.
 
->[!NOTE]
->
->Campaign Campaign 컨트롤 패널에서 직접 인스턴스의 활성 프로필 수를 모니터링할 수도 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 
 ## 튜토리얼 비디오 {#create-profiles-video}
 
