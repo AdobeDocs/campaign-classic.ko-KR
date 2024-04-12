@@ -2,13 +2,12 @@
 product: campaign
 title: 보고서의 컨텍스트 사용
 description: 보고서에서 컨텍스트를 사용하는 방법을 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---

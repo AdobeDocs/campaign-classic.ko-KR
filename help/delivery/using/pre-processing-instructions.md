@@ -2,14 +2,13 @@
 product: campaign
 title: 추적된 URL에 대한 전처리 지침
 description: 이메일의 URL을 스크립팅하고 계속 추적하는 데 사용하는 전처리 지침에 대해 자세히 알아보십시오
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring
 role: User, Data Engineer, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 1%
 
 ---

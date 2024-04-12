@@ -3,15 +3,14 @@ product: campaign
 title: 오퍼 템플릿 관리
 description: 오퍼 템플릿 관리
 feature: Interaction, Offers, Templates
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: e4a6cc22-05bd-4b8a-984d-d0706fc210e1
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '174'
 ht-degree: 2%
 
 ---

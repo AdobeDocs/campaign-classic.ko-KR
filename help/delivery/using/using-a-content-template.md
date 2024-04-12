@@ -2,13 +2,12 @@
 product: campaign
 title: 콘텐츠 템플릿 사용
 description: 콘텐츠 템플릿 사용
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 2%
 
 ---

@@ -2,14 +2,13 @@
 product: campaign
 title: SMS 문제 해결
 description: SMS 채널 문제를 해결하는 방법 자세히 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: SMS, Troubleshooting
 role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2764'
 ht-degree: 0%
 
 ---
@@ -38,7 +37,7 @@ Adobe Campaign은 외부 계정을 관련 없는 엔티티로 취급합니다.
 
 * **한 번에 하나의 계정만 활성 상태일 때는 문제가 나타나지 않았습니다**
 
-  계정 간에 충돌이 있습니다. 앞에서 언급했듯이 Adobe Campaign은 계정을 개별적으로 처리하지만 공급자는 이를 단일 계정으로 처리할 수 있습니다.
+  계정 간에 충돌이 있습니다. 앞에서 언급한 바와 같이 Adobe Campaign 은 계정을 개별적으로 취급하지만 제공자는 단일 계정 으로 취급할 수 있습니다.
 
    * 모든 계정 간에 서로 다른 로그인/암호 조합을 사용하고 있습니다.
 공급자 측의 잠재적인 충돌을 진단하려면 공급자에게 문의해야 합니다.
@@ -46,12 +45,12 @@ Adobe Campaign은 외부 계정을 관련 없는 엔티티로 취급합니다.
    * 일부 외부 계정은 동일한 로그인/암호 조합을 공유합니다.
 공급자는 어떤 외부 계정 `BIND PDU` 에서 오는지 알 수 있는 방법이 없으므로 여러 계정의 모든 연결을 단일 연결로 처리합니다. 두 계정에서 MO 및 SR을 임의로 라우팅하여 문제가 발생했을 수 있습니다.
 공급자가 동일한 로그인/암호 조합에 대해 여러 짧은 코드를 지원하는 경우 공급자에게 해당 짧은 코드를 `BIND PDU`. 이 정보는 `BIND PDU`, 및 에는 없음 `SUBMIT_SM`, 이후 `BIND PDU` 은 MO 라우팅을 올바르게 허용하는 유일한 위치입니다.
-다음을 참조하십시오. [각 유형의 PDU에 있는 정보](sms-protocol.md#information-pdu) 위의 섹션에서 사용할 수 있는 필드를 알아봅니다. `BIND PDU`, 일반적으로 짧은 코드를에 추가합니다. `address_range`, 그러나 공급자의 특별한 지원이 필요합니다. 여러 짧은 코드를 독립적으로 라우팅하는 방법에 대해 알아보려면 관리자에게 문의하십시오.
-Adobe Campaign은 동일한 외부 계정에서 여러 짧은 코드 처리를 지원합니다.
+다음을 참조하십시오. [각 유형의 PDU에 있는 정보](sms-protocol.md#information-pdu) 위의 섹션에서 사용할 수 있는 필드를 알아봅니다. `BIND PDU`, 일반적으로 짧은 코드를에 추가합니다. `address_range`, 그러나 공급자의 특별한 지원이 필요합니다. 여러 단축 코드를 독립적으로 라우팅하는 방법을 알려면 해당 업체에 문의하십시오.
+Adobe Campaign에서는 동일한 외부 계정 여러 개의 단축 코드를 처리할 수 있습니다.
 
-## 일반 외부 계정 문제 {#external-account-issues}
+## 일반적인 외부 계정 관련 문제 {#external-account-issues}
 
-* 커넥터가 최근에 변경되었는지 여부와 해당 사용자에 의해 변경되었는지 여부를 조사합니다(그룹으로 외부 계정 확인).
+* 커넥터가 최근에 변경되었는지 여부와 변경된 주체를 조사합니다(외부 계정을 그룹 확인).
 
   ```
   select saccount, (sserver ||':'||sport) as serverPort, iextaccountid, CASE WHEN N0.iactive=1 THEN 'Yes' ELSE 'No' END as "(x) Enabled",
@@ -68,21 +67,21 @@ Adobe Campaign은 동일한 외부 계정에서 여러 짧은 코드 처리를 �
 * 시스템이 업그레이드되었는지 여부와 시기를 조사합니다(/postupgrade 디렉토리에서).
 * SMS에 영향을 주는 패키지가 최근에 업그레이드되었는지 조사합니다(/var/log/dpkg.log).
 
-## 중간 소싱 문제(호스팅됨){#issue-mid-sourcing}
+## 중간 소싱(호스팅) 문제{#issue-mid-sourcing}
 
 * 중간 소싱 환경에서 문제가 발생하는 경우 중간 소싱 서버에서 게재 및 광범위한 로그가 올바르게 생성 및 업데이트되었는지 확인하십시오. 그렇지 않은 경우 SMS 문제가 아닙니다.
 
 * 모든 것이 미드 서버에서 작동하고 SMS가 제대로 전송되지만 마케팅 인스턴스가 제대로 업데이트되지 않으면 중간 동기화 문제가 발생할 수 있습니다.
 
-## 공급자에 연결할 때 발생하는 문제 {#issue-provider}
+## 공급자에 연결할 때 문제 발생 {#issue-provider}
 
-* `BIND PDU` 0 `command_status` 이 아닌 코드를 반환하는 경우 공급자에게 자세한 내용을 문의하십시오.
+* 다음과 같은 경우 `BIND PDU` 0이 아닌 숫자 반환 `command_status` 코드, 자세한 내용은 공급자에게 문의하십시오.
 
-* 공급자에 대한 TCP 연결을 설정할 수 있도록 네트워크가 올바르게 구성되었는지 확인합니다.
+* 공급자에 TCP 연결을 수행할 수 있도록 네트워크가 올바르게 구성되었는지 확인합니다.
 
-* 공급자에게 IP를 Adobe Campaign 인스턴스 허용 목록에 올바르게 추가했는지 확인하도록 요청합니다.
+* 공급업체에 Adobe Campaign 인스턴스의 IP 허용 목록에 IP를 올바르게 추가했는지 확인하십시오.
 
-* 외부 계정&#x200B;**설정을 확인합니다**. 공급자에게 필드 값을 요청합니다.
+* 확인 **외부 계정** 설정. 공급자에게 필드의 값을 물어봅니다.
 
 * 연결이 성공했지만 불안정한 경우 [불안정한 연결 문제](troubleshooting-sms.md#issues-unstable-connection) 섹션.
 
@@ -142,21 +141,21 @@ Adobe Campaign은 동일한 외부 계정에서 여러 짧은 코드 처리를 �
 
 * 많이 보시면 `BIND/UNBIND`, 연결이 불안정합니다. 다음을 참조하십시오.[불안정한 연결 문제](troubleshooting-sms.md#issues-unstable-connection) 섹션 을 참조하십시오.
 
-재시도 시 중복 항목 수 감소:
+재시도 시 중복 횟수 줄이기:
 
 * 전송 창을 낮춥니다. 전송 창은 대기 시간을 처리할 `SUBMIT_SM_RESP` 수 있을 만큼 커야 합니다. 이 값은 창이 꽉 차 있는 동안 오류가 발생할 경우 복제할 수 있는 최대 메시지 수를 나타냅니다.
 
-## SR(배송 영수증) 처리 시 문제 {#issue-process-SR}
+## SR(게재 영수증) 처리 시 문제 {#issue-process-SR}
 
 * 모든 종류의 SR 문제 해결을 수행하려면 SMPP 추적을 활성화해야 합니다.
 
 * 다음을 확인하십시오. `DELIVER_SM PDU` 은(는) 공급자로부터 발생하며 형식이 잘 지켜집니다.
 
-* Adobe Campaign이 성공적으로 회신했는지 확인 `DELIVER_SM_RESP PDU` 적시에. Adobe Campaign Classic에서 이렇게 하면 SR이 `providerMsgId` SMS 프로세스에서 지연된 처리에 대한 테이블입니다.
+* Adobe Campaign 이 적시에 성공적으로 `DELIVER_SM_RESP PDU` 응답하는지 확인합니다. 이렇게 하면 Adobe Campaign Classic 에서 SR이 SMS 프로세스에 의한 지연된 처리를 위해 테이블에 삽입 `providerMsgId` 되었습니다.
 
-다음과 같은 경우 `DELIVER_SM PDU` 이(가) 정상적으로 승인되지 않은 경우 다음을 확인해야 합니다.
+성공적으로 `DELIVER_SM PDU` 승인되지 않으면 다음을 확인해야 합니다.
 
-* 에서 ID 추출 및 오류 처리와 관련된 정규 표현식 확인 **외부 계정**. 의 컨텐츠 `DELIVER_SM PDU`내용에 대해 유효성을 검사해야 할 수도 있습니다.
+* 외부 계정&#x200B;**내에서 ID 추출 및 오류 처리와 관련된 정규식을**&#x200B;확인하십시오. 의 컨텐츠 `DELIVER_SM PDU`내용에 대해 유효성을 검사해야 할 수도 있습니다.
 
 * 테이블에 오류가 제대로 프로비저닝 `broadLogMsg` 되었는지 확인합니다.
 
@@ -166,7 +165,7 @@ Adobe Campaign은 동일한 외부 계정에서 여러 짧은 코드 처리를 �
 
 ## MO 처리 시 문제(및 블랙리스트/자동 회신){#issue-process-MO}
 
-* 테스트 중 SMPP 추적을 활성화합니다. TLS를 사용하도록 설정하지 않으면 MO 문제를 해결할 때 네트워크 캡처를 수행하여 PDU에 올바른 정보가 포함되어 있고 형식이 올바르게 지정되었는지 확인해야 합니다.
+* 테스트 중 SMPP 추적을 활성화합니다. TLS를 활성화하지 않으면 MO 문제 해결 시 네트워크 캡처를 수행하여 PDU에 올바른 정보가 포함되어 있고 형식이 제대로 지정되어 있는지 확인해야 합니다.
 
 * 네트워크 트래픽을 캡처하거나 SMPP 추적을 분석할 때 회신이 구성된 경우 MO 및 해당 회신 MT와의 전체 대화를 캡처해야 합니다.
 
@@ -244,7 +243,7 @@ Adobe Campaign, SMS 공급자에 대한 지원 티켓을 열거나 문제에 대
 
 * 연결 문제가 발생하지만 자세한 메시지가 표시되지 않습니다. `BIND_RESP PDU`.
 
-* 오류 메시지가 없는 원인 불명의 연결 해제, 낮은 수준의 프로토콜 오류를 감지할 때 커넥터의 일반적인 동작.
+* 오류 메시지가 없는 설명할 수 없는 연결 끊김, 낮은 수준의 프로토콜 오류를 감지할 때 커넥터의 일반적인 동작입니다.
 
 * 공급자가 바인딩 해제/연결 해제 프로세스에 대해 불만을 토로합니다.
 

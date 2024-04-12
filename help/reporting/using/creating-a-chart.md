@@ -3,13 +3,12 @@ product: campaign
 title: 차트 만들기
 description: 차트 디자인 방법 알아보기
 feature: Reporting, Monitoring
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 3%
+source-wordcount: '538'
+ht-degree: 2%
 
 ---
 

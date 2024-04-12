@@ -2,13 +2,12 @@
 product: campaign
 title: 웹 애플리케이션 시작
 description: 동적 웹 응용 프로그램, 랜딩 페이지 및 설문 조사 만들기 및 공유
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '694'
 ht-degree: 20%
 
 ---

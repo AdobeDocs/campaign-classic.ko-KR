@@ -2,14 +2,13 @@
 product: campaign
 title: 모바일 앱 채널 시작
 description: Adobe Campaign에서 모바일 앱 채널 시작
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 92c79e7050124bc707f4d6b87c7952016586002c
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '681'
 ht-degree: 8%
 
 ---

@@ -2,14 +2,13 @@
 product: campaign
 title: Adobe Campaign Classic의 게재 기능 관리 시 주요 사항
 description: Adobe Campaign에서 게재 능력을 관리할 때 확인할 주요 사항 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Deliverability, Troubleshooting
 role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---

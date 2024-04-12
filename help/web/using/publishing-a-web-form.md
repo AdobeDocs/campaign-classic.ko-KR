@@ -2,13 +2,12 @@
 product: campaign
 title: 웹 양식 게시
 description: 웹 양식 게시
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: 8bb839bd0118010ac8e3e4bde88f6f3972786ed0
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1284'
 ht-degree: 1%
 
 ---

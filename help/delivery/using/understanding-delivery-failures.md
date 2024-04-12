@@ -2,14 +2,13 @@
 product: campaign
 title: 게재 실패 이해
 description: 게재 실패를 이해하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 8b0162680d6a3a2d4891d1f71020b44b28046ad7
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2567'
 ht-degree: 12%
 
 ---

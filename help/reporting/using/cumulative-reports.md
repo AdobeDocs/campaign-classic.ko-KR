@@ -2,14 +2,13 @@
 product: campaign
 title: 누적 보고서
 description: 누적 보고서
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 exl-id: e67748dd-fa50-4992-b85f-474389e876cf
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 8%
+source-wordcount: '78'
+ht-degree: 7%
 
 ---
 

@@ -2,14 +2,13 @@
 product: campaign
 title: SMS 커넥터 프로토콜 및 설정
 description: SMS 커넥터에 대한 자세한 내용 및 구성 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 73fd678d54ba1db647c1c188e8064b28466b3cd2
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '8448'
+source-wordcount: '8445'
 ht-degree: 1%
 
 ---

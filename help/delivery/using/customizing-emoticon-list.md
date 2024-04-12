@@ -2,15 +2,14 @@
 product: campaign
 title: 이모티콘 목록 사용자 정의
 description: Adobe Campaign 사용 시 이모티콘 목록을 사용자 지정하는 방법 알아보기
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email, Push
 role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 4%
+source-wordcount: '445'
+ht-degree: 3%
 
 ---
 

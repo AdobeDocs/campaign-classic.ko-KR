@@ -3,12 +3,11 @@ product: campaign
 title: 바이럴 및 소셜 마케팅
 description: 바이럴 및 소셜 마케팅
 feature: Social Marketing
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '574'
 ht-degree: 2%
 
 ---

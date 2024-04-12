@@ -2,14 +2,13 @@
 product: campaign
 title: 중간 소싱 인프라에서 Campaign SMS 채널 구성
 description: 중간 소싱 인프라에서 Campaign의 SMS 채널을 구성하는 방법을 알아봅니다
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: SMS
 role: User, Developer, Admin
 exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
-source-git-commit: 46dcd80d5adc31a66b47c6d75e7914b0a686326b
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '990'
 ht-degree: 8%
 
 ---

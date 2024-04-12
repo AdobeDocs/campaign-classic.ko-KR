@@ -3,15 +3,14 @@ product: campaign
 title: 파일 압축 해제 또는 암호 해독
 description: 처리하기 전에 Campaign에서 파일의 압축을 풀거나 암호를 해독하는 방법을 알아봅니다
 feature: Workflows, Encryption
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 67a6e03318a74b665dc6928028470f98c0abae5e
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '700'
 ht-degree: 9%
 
 ---

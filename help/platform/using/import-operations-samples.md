@@ -3,15 +3,14 @@ product: campaign
 title: 일반 가져오기 샘플
 description: 가져오기 작업을 사용하여 수행할 수 있는 일반 가져오기에 대해 자세히 알아봅니다.
 feature: Data Management
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
