@@ -2,13 +2,12 @@
 product: campaign
 title: 테스트
 description: 테스트 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 5%
+source-wordcount: '187'
+ht-degree: 1%
 
 ---
 

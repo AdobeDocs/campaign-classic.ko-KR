@@ -2,14 +2,14 @@
 product: campaign
 title: Adobe Campaign 및 Adobe Analytics 작업
 description: Adobe Campaign 및 Adobe Analytics 작업
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+exl-id: 985cf088-7546-4875-8e11-cafe5bd3e323
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 26%
+source-wordcount: '181'
+ht-degree: 23%
 
 ---
 
@@ -34,4 +34,3 @@ Adobe Campaign-Adobe Analytics 커넥터 작업을 시작하기 전에 다음 �
 ## 구성 및 사용 {#adobe-analytics-connector-usage}
 
 에서 Adobe Campaign 및 Adobe Analytics을 사용하여 작업하는 방법을 알아봅니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}.
-

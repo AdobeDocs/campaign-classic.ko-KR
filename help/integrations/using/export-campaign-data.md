@@ -3,14 +3,13 @@ product: campaign
 title: Campaign에서 Adobe Experience Platform으로 데이터 내보내기
 description: Campaign Classic에서 Adobe Experience Platform으로 데이터를 내보내는 방법 알아보기
 feature: Experience Platform Integration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 5%
+source-wordcount: '470'
+ht-degree: 3%
 
 ---
 

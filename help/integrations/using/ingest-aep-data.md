@@ -3,14 +3,13 @@ product: campaign
 title: Adobe Experience Platform 세그먼트를 Campaign으로 수집
 description: Adobe Experience Platform 대상을 Campaign Classic으로 수집하는 방법에 대해 알아봅니다
 feature: Experience Platform Integration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: integrations
 content-type: reference
 exl-id: 6db8a653-b649-402c-8814-24826edadba7
-source-git-commit: d15592aaccf036fc956049e611139ea5a46e9fc0
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 2%
+source-wordcount: '296'
+ht-degree: 0%
 
 ---
 

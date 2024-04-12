@@ -3,15 +3,14 @@ product: campaign
 title: 서버 보안 구성
 description: 서버 구성 모범 사례에 대해 자세히 알아보기
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 5%
+source-wordcount: '625'
+ht-degree: 4%
 
 ---
 

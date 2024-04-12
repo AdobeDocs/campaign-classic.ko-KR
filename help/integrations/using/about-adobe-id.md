@@ -3,14 +3,13 @@ product: campaign
 title: Adobe ID을 사용하여 Adobe Campaign에 연결
 description: Adobe Campaign의 Adobe IMS 구현에 대해 자세히 알아보기
 feature: Configuration
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '170'
 ht-degree: 16%
 
 ---

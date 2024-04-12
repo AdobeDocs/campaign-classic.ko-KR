@@ -2,13 +2,12 @@
 product: campaign
 title: Adobe Campaign Classic 데이터 모델 설명
 description: 이 문서에서는 Adobe Campaign 데이터 모델에 대해 설명합니다
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Data Model
 role: Data Engineer, Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2399'
 ht-degree: 1%
 
 ---

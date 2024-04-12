@@ -3,15 +3,14 @@ product: campaign
 title: IMS 문제 해결
 description: IMS 문제 해결
 feature: Configuration
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
-source-git-commit: 49271e291953483ee14709b26ec053217a336718
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---

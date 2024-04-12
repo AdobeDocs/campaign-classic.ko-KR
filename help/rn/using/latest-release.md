@@ -3,13 +3,12 @@ product: campaign
 title: 최신 릴리스
 description: 최신 Campaign Classic v7 릴리스 정보
 feature: Release Notes
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 517f09e508207b14e6b870f926753b2d9a547262
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2312'
 ht-degree: 100%
 
 ---

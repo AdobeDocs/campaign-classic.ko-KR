@@ -2,13 +2,12 @@
 product: campaign
 title: 예약
 description: 예약 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 12%
+source-wordcount: '333'
+ht-degree: 10%
 
 ---
 

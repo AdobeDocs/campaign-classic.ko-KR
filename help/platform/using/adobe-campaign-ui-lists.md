@@ -2,13 +2,12 @@
 product: campaign
 title: 목록 관리 및 사용자 지정
 description: 목록 검색 및 구성 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 2%
+source-wordcount: '1153'
+ht-degree: 1%
 
 ---
 

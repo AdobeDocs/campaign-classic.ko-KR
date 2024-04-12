@@ -3,12 +3,11 @@ product: campaign
 title: Federated Data Access 시작
 description: 외부 데이터베이스의 데이터에 액세스하고 처리하는 방법에 대해 알아봅니다
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 4%
+source-wordcount: '163'
+ht-degree: 0%
 
 ---
 

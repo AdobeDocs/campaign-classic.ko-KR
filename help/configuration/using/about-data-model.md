@@ -2,14 +2,13 @@
 product: campaign
 title: Campaign Classic 데이터 모델 시작
 description: Campaign 데이터 모델을 확장하거나 스키마를 편집하고 API를 사용하는 방법을 알아보십시오.
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Data Model, Configuration
 role: Data Engineer, Developer
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 6%
+source-wordcount: '980'
+ht-degree: 5%
 
 ---
 

@@ -3,15 +3,14 @@ product: campaign
 title: 인스턴스 구성
 description: Adobe Campaign Classic에서 트랜잭션 메시지 제어 및 실행 인스턴스를 구성하는 방법에 대해 알아봅니다
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 2%
+source-wordcount: '1236'
+ht-degree: 1%
 
 ---
 

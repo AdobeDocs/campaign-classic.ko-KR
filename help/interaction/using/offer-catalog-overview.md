@@ -3,15 +3,14 @@ product: campaign
 title: 오퍼 카탈로그 개요
 description: Campaign의 오퍼 카탈로그에 대해 자세히 알아보기
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 464a6548-1b91-4e09-b620-3b820ef69653
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 9%
+source-wordcount: '131'
+ht-degree: 4%
 
 ---
 

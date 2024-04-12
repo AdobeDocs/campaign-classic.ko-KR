@@ -3,13 +3,12 @@ product: campaign
 title: 마케팅 캠페인 디자인 및 실행
 description: 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다.
 role: User
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 21%
+source-wordcount: '438'
+ht-degree: 20%
 
 ---
 

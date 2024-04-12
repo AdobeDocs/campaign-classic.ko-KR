@@ -2,13 +2,12 @@
 product: campaign
 title: 목록으로 보고서 보내기
 description: 워크플로우가 있는 목록으로 보고서를 보내는 방법을 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 2%
+source-wordcount: '632'
+ht-degree: 1%
 
 ---
 

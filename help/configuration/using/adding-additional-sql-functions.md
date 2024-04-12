@@ -4,12 +4,11 @@ title: 추가 SQL 함수 추가
 description: 추가 SQL 함수 정의 방법 알아보기
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 1%
+source-wordcount: '1034'
+ht-degree: 0%
 
 ---
 

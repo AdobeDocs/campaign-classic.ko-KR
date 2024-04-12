@@ -2,13 +2,12 @@
 product: campaign
 title: 흐름 제어 활동 정보
 description: 흐름 제어 활동 정보
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 8%
+source-wordcount: '234'
+ht-degree: 5%
 
 ---
 

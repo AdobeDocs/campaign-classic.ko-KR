@@ -3,15 +3,14 @@ product: campaign
 title: Amazon Redshift 액세스 구성
 description: FDA에서 Amazon Redshift에 대한 액세스를 구성하는 방법 알아보기
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ef2b98bd-441e-4e59-bb41-4e835e250663
-source-git-commit: 2ba6066b2999973e64ed3b429af78696f093dd09
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 4%
+source-wordcount: '248'
+ht-degree: 1%
 
 ---
 

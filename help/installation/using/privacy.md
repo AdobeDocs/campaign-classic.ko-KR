@@ -3,12 +3,11 @@ product: campaign
 title: 개인화 및 개인 정보 보호
 description: 개인 정보 보호 및 개인화에 대한 보안 모범 사례 알아보기
 feature: Installation, Privacy, Privacy Tools, URL Personalization
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: a2106e55617209f28da42c50008d16188563b2da
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 3%
+source-wordcount: '805'
+ht-degree: 2%
 
 ---
 

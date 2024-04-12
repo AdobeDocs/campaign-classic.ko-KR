@@ -3,13 +3,12 @@ product: campaign
 title: 대상자 동기화
 description: 대상자를 ACS 커넥터와 동기화하는 방법 알아보기
 feature: ACS Connector
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 hide: true
 hidefromtoc: true
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1110'
 ht-degree: 1%
 
 ---

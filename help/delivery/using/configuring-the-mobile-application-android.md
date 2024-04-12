@@ -2,14 +2,13 @@
 product: campaign
 title: Adobe Campaign에서 Android 모바일 애플리케이션 구성
 description: Android용 모바일 애플리케이션을 설정하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Push
 role: User, Developer
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 92c79e7050124bc707f4d6b87c7952016586002c
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 12%
+source-wordcount: '849'
+ht-degree: 11%
 
 ---
 

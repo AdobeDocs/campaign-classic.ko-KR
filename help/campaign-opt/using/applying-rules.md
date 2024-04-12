@@ -3,12 +3,11 @@ product: campaign
 title: 유형화 규칙 적용
 description: 유형화 규칙을 적용하는 방법 알아보기
 role: User, Data Engineer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Typology Rules, Campaigns
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '987'
 ht-degree: 8%
 
 ---

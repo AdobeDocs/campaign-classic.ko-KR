@@ -2,13 +2,12 @@
 product: campaign
 title: 대기
 description: 대기 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 4%
+source-wordcount: '192'
+ht-degree: 1%
 
 ---
 

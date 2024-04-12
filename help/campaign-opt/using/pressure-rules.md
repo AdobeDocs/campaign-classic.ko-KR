@@ -3,12 +3,11 @@ product: campaign
 title: 압력 규칙
 description: Adobe Campaign에서 압력 규칙으로 작업하는 방법을 알아봅니다.
 role: User, Data Engineer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Fatigue Management, Typology Rules, Campaigns
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '3343'
+source-wordcount: '3336'
 ht-degree: 6%
 
 ---

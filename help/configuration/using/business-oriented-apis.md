@@ -2,14 +2,13 @@
 product: campaign
 title: 비즈니스 지향 API
 description: 비즈니스 지향 API
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: API
 role: Data Engineer, Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 3%
+source-wordcount: '629'
+ht-degree: 2%
 
 ---
 

@@ -2,13 +2,12 @@
 product: campaign
 title: 워크플로 활동 정보
 description: 활동 정보
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Data Management
 exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 16%
+source-wordcount: '95'
+ht-degree: 10%
 
 ---
 

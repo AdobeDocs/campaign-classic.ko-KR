@@ -4,12 +4,11 @@ title: 웹 추적 태그 정의
 description: 웹 추적 태그 정의
 feature: Application Settings
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 4%
+source-wordcount: '332'
+ht-degree: 2%
 
 ---
 

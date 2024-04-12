@@ -2,14 +2,13 @@
 product: campaign
 title: 공개 클라우드로 마이그레이션
 description: 공개 클라우드로의 Campaign Classic 마이그레이션에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1533'
 ht-degree: 2%
 
 ---

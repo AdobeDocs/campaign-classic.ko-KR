@@ -2,14 +2,13 @@
 product: campaign
 title: Adobe Campaign에서 iOS 모바일 애플리케이션 구성
 description: iOS용 모바일 애플리케이션을 설정하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 466f04bce8f4c62b5dbb0e9d15150ab0c3bf2fbd
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 4%
+source-wordcount: '596'
+ht-degree: 3%
 
 ---
 

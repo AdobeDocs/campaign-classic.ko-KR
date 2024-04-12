@@ -2,13 +2,12 @@
 product: campaign
 title: 파일 수집기
 description: 파일 수집기 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: 1f87a5fba1298955fa07b9a045b21718c76a7fce
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 2%
+source-wordcount: '524'
+ht-degree: 0%
 
 ---
 

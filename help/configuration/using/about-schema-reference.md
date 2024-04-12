@@ -2,14 +2,13 @@
 product: campaign
 title: Adobe Campaign에서 스키마 시작
 description: 스키마로 작업하고 Adobe Campaign 데이터베이스의 개념적 데이터 모델을 확장하는 방법을 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 3%
+source-wordcount: '369'
+ht-degree: 1%
 
 ---
 

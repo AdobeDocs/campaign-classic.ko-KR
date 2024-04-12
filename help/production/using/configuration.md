@@ -3,13 +3,12 @@ product: campaign
 title: 추가 구성
 description: 구성
 feature: Monitoring, Configuration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 5%
+source-wordcount: '174'
+ht-degree: 1%
 
 ---
 

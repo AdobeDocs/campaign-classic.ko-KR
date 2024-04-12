@@ -3,17 +3,16 @@ product: campaign
 title: 이전 버전으로 롤백
 description: 이전 버전으로 롤백하는 방법에 대해 알아봅니다
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: migration
 content-type: reference
 topic-tags: rollback
 hide: true
 hidefromtoc: true
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 5%
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 

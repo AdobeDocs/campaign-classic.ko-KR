@@ -2,13 +2,12 @@
 product: campaign
 title: 지속적인 게재
 description: 지속적인 게재
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Channels Activity
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 11%
+source-wordcount: '359'
+ht-degree: 10%
 
 ---
 

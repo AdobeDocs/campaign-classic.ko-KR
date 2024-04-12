@@ -3,15 +3,14 @@ product: campaign
 title: 소셜 마케팅 정보
 description: Campaign을 사용하여 Twitter을 통해 고객과 상호 작용하는 방법을 알아봅니다
 feature: Social Marketing
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: social
 content-type: reference
 topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 14%
+source-wordcount: '88'
+ht-degree: 7%
 
 ---
 

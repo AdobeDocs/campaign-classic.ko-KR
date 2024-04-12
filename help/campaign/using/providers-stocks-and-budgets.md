@@ -3,13 +3,12 @@ product: campaign
 title: 공급자, 재고 및 예산
 description: 공급자, 재고 및 예산
 role: User
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Budget Management, Campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1925'
-ht-degree: 1%
+source-wordcount: '1918'
+ht-degree: 0%
 
 ---
 

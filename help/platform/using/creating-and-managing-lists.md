@@ -2,15 +2,14 @@
 product: campaign
 title: 목록 만들기 및 관리
 description: 목록을 만들고 관리하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Profiles
 role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 9%
+source-wordcount: '799'
+ht-degree: 8%
 
 ---
 

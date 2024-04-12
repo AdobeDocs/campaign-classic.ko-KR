@@ -2,14 +2,13 @@
 product: campaign
 title: Adobe Campaign Classic 정보
 description: 주요 기능, 사용자 인터페이스 및 글로벌 지침을 살펴보십시오.
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: 776560c5f9ba91a5864a7dc950fd7499ceb37d1b
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '912'
 ht-degree: 89%
 
 ---

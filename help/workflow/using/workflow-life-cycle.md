@@ -2,13 +2,12 @@
 product: campaign
 title: 워크플로우 수명 주기
 description: 워크플로우의 라이프 사이클에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 4%
+source-wordcount: '269'
+ht-degree: 2%
 
 ---
 

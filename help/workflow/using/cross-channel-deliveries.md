@@ -2,13 +2,12 @@
 product: campaign
 title: 크로스 채널 게재
 description: 크로스 채널 게재에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 9%
+source-wordcount: '287'
+ht-degree: 7%
 
 ---
 

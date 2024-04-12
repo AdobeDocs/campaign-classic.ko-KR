@@ -2,13 +2,12 @@
 product: campaign
 title: 필터 만들기
 description: 쿼리를 수행할 때 필터를 만드는 방법을 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Query Editor, Workflows
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 5%
+source-wordcount: '213'
+ht-degree: 2%
 
 ---
 

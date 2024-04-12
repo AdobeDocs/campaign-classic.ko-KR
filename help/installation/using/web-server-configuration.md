@@ -3,15 +3,14 @@ product: campaign
 title: 웹 서버 구성
 description: 웹 서버 구성 기본 모범 사례에 대해 자세히 알아보기
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 3%
+source-wordcount: '287'
+ht-degree: 0%
 
 ---
 

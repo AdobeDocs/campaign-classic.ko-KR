@@ -3,14 +3,13 @@ product: campaign
 title: 데이터베이스 정리 워크플로우
 description: 오래된 데이터를 자동으로 정리하는 방법 알아보기
 feature: Monitoring, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 624978901943b4c74f50c20298c9596f73b25b1b
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '2834'
+source-wordcount: '2827'
 ht-degree: 0%
 
 ---

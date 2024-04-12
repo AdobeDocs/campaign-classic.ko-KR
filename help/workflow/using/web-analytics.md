@@ -2,12 +2,11 @@
 product: campaign
 title: 웹 분석
 description: 웹 분석 패키지에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows, Analytics Integration
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 7%
+source-wordcount: '178'
+ht-degree: 3%
 
 ---
 

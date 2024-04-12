@@ -2,12 +2,11 @@
 product: campaign
 title: 워크플로우 구축
 description: 워크플로우 구축 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1624'
 ht-degree: 4%
 
 ---
@@ -204,7 +203,7 @@ Campaign 워크플로우 및 구현 예는에 자세히 설명되어 있습니�
 
 제공되는 활동은 타겟팅 워크플로우와 동일합니다. [자세히 알아보기](#implementation-steps-)
 
-## 워크플로우 템플릿 {#workflow-templates}
+## 워크플로 템플릿 {#workflow-templates}
 
 워크플로우 템플릿에는 속성의 전체 구성과 다이어그램 내에서 연결되는 다양한 활동이 포함됩니다. 이 구성은 특정 수의 사전 구성된 요소를 포함하는 새 워크플로를 만드는 데 재사용할 수 있습니다
 

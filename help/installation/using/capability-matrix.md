@@ -3,12 +3,11 @@ product: campaign
 title: Campaign On-Premise, 하이브리드 및 호스팅 기능 매트릭스
 description: 호스팅 배포와 온-프레미스 배포 간의 주요 차이점 알아보기
 feature: Installation, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 28%
+source-wordcount: '287'
+ht-degree: 26%
 
 ---
 

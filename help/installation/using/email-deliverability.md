@@ -3,15 +3,14 @@ product: campaign
 title: 기술 이메일 구성
 description: 이메일을 게재할 때 인스턴스의 출력을 제어하도록 Campaign을 구성하는 방법에 대해 알아봅니다
 feature: Installation, Deliverability
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 badge-v7-prem: label="온-프레미스 및 하이브리드" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '3100'
+source-wordcount: '3093'
 ht-degree: 0%
 
 ---

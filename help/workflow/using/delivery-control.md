@@ -2,13 +2,12 @@
 product: campaign
 title: 게재 제어
 description: 게재 제어 워크플로우 활동에 대해 자세히 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 6%
+source-wordcount: '164'
+ht-degree: 2%
 
 ---
 

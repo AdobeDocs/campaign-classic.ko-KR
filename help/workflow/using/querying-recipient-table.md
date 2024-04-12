@@ -2,13 +2,12 @@
 product: campaign
 title: 수신자 테이블 쿼리
 description: 수신자 테이블을 쿼리하는 방법 알아보기
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Query Editor, Workflows
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 5%
+source-wordcount: '392'
+ht-degree: 3%
 
 ---
 

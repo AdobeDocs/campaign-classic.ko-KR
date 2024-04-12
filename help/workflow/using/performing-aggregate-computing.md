@@ -2,13 +2,12 @@
 product: campaign
 title: 집계 컴퓨팅 수행
 description: 쿼리에서 집계 컴퓨팅을 수행하는 방법에 대해 알아봅니다
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 2%
+source-wordcount: '231'
+ht-degree: 0%
 
 ---
 

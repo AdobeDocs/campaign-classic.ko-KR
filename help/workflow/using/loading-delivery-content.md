@@ -2,13 +2,12 @@
 product: campaign
 title: 게재 콘텐츠 로드
 description: 게재 콘텐츠 로드 중
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
-source-git-commit: 81d12ac055536fbe097466ad737bf7fee1b593ad
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 4%
+source-wordcount: '317'
+ht-degree: 2%
 
 ---
 

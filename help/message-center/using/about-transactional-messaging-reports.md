@@ -3,15 +3,14 @@ product: campaign
 title: 트랜잭션 메시지 보고서 액세스
 description: Adobe Campaign Classic 트랜잭션 메시지 보고서에 액세스하는 방법 알아보기
 feature: Transactional Messaging, Message Center, Reporting
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: 42d43d67-7660-4d81-9280-10f030aa8f0e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 25%
+source-wordcount: '51'
+ht-degree: 15%
 
 ---
 
