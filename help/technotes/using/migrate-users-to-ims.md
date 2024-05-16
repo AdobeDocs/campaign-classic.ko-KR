@@ -2,9 +2,9 @@
 title: 캠페인 운영자를 IMS(Identity Management System) Adobe으로 마이그레이션
 description: Campaign 연산자를 IMS(Identity Management System) Adobe으로 마이그레이션하는 방법에 대해 알아봅니다.
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: c8cd1ef5e79e14c3ce804c32be0e995408d9358c
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1279'
 ht-degree: 2%
 
 ---
@@ -77,6 +77,7 @@ Adobe은 이러한 마이그레이션 노력에서 여러분을 지원합니다.
 1. 에 자세히 설명된 대로 연결에 Adobe IMS 구현 [이 페이지](../../integrations/using/implementing-ims.md).
 
 에 설명된 대로 기술 연산자를 Adobe Developer 콘솔로 마이그레이션할 수도 있습니다. [이 기술 노트](ims-migration.md).
+
 
 
 ## FAQ(자주 묻는 질문) {#ims-migration-faq}
@@ -152,5 +153,5 @@ Campaign에서 연산자의 인증 유형을 보는 방법을 알아봅니다.
 ## 유용한 링크 {#ims-useful-links}
 
 * [기술 사용자를 Adobe Developer 콘솔로 마이그레이션](ims-migration.md)
-* [Adobe Campaign v8 릴리스 노트](../../rn/using/latest-release.md)
+* [Adobe Campaign Classic v7 릴리스 노트](../../rn/using/latest-release.md)
 * [IMS(Identity Management System) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}
