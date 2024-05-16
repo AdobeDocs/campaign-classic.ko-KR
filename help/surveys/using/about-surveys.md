@@ -5,18 +5,21 @@ description: Campaign 설문 조사 시작
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '554'
 ht-degree: 3%
 
 ---
 
 # 설문 조사 시작{#about-surveys}
 
-
-
 Adobe Campaign에는 웹 애플리케이션을 정의하고 게시하는 그래픽 모듈이 포함되어 있습니다. 엑스트라넷의 편집 양식과 같은 페이지 또는 테이블, 차트, 입력 양식 등이 있는 데이터베이스의 데이터를 포함하는 알림 양식을 만드는 데 사용됩니다. 이 기능을 사용하여 사용자가 정보를 조회하거나 입력할 수 있는 웹 페이지를 디자인하고 게시합니다.
+
+>[!AVAILABILITY]
+>
+>엔터프라이즈(FFDA) 배포의 컨텍스트에서는 Campaign v8에서 설문 조사 관리를 사용할 수 없습니다. 다음에서 자세히 알아보기 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
+
 
 선택 사항 **설문 조사** 추가 기능을 사용하면 새로운 유형의 웹 애플리케이션을 만들어 프로필 정보를 추가하거나 수정하기 위한 양식, 정보 서비스 가입 또는 가입 해지하기, 대회 참가 양식 등과 같은 온라인 설문지를 만들고 관리할 수 있습니다. 응답이 수집되면 데이터베이스나 로컬 변수에 저장됩니다. 데이터 모델은 질문에 대한 답변을 통해 동적으로 확장할 수 있습니다. 결과를 실시간으로 보고, 응답을 필터링하고, 전용 차트를 사용하여 분석할 수 있습니다.
 

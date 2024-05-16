@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Personalization
 role: User
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '911'
 ht-degree: 1%
 
 ---
@@ -17,15 +17,17 @@ ht-degree: 1%
 
 게재에 쿠폰을 추가하면 수신자에게 제품 및 서비스에 대한 향상된 가치를 제공할 수 있습니다. Campaign 쿠폰 모듈을 사용하여 예정된 마케팅 오퍼에 추가할 쿠폰 세트를 만들 수 있습니다. 게재를 만들 준비가 되면 해당 쿠폰을 할당합니다. 쿠폰은 선택 기간 동안 유효하므로 할당된 쿠폰은 해당 게재 메시지에 고유하게 연결됩니다. 또한 Campaign은 게재를 보내기 전에 메시지 수에 대한 쿠폰이 충분한지 확인합니다.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->쿠폰 관리는 설치해야 하는 패키지입니다. 쿠폰 관리 기능이 있는지 확인하려면 다음을 확인하십시오. **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
->
->쿠폰 데이터는 CSV 및 XML 포맷을 사용하여 가져오고 내보낼 수 있습니다. 가져오기 및 내보내기에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../platform/using/get-started-data-import-export.md).
+>엔터프라이즈(FFDA) 배포의 컨텍스트에서는 Campaign v8에서 쿠폰 관리를 사용할 수 없습니다. 다음에서 자세히 알아보기 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
+
+쿠폰 관리는 설치해야 하는 패키지를 사용합니다. 쿠폰 관리 기능이 있는지 확인하려면 다음을 확인하십시오. **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
+
+쿠폰 데이터는 CSV 및 XML 포맷을 사용하여 가져오고 내보낼 수 있습니다. [자세히 알아보기](../../platform/using/get-started-data-import-export.md)
 
 ## 쿠폰 만들기 {#creating-a-coupon}
 
-쿠폰 모듈은 쿠폰을 생성할 때 다음 두 가지 옵션을 제공합니다.
+쿠폰 관리 모듈은 쿠폰을 생성할 때 다음 두 가지 옵션을 제공합니다.
 
 * **익명**: 선택한 수신자 또는 수신자 목록을 위한 일반 쿠폰입니다.
 * **개인**: 선택한 수신자를 위한 개인화된 쿠폰입니다.
