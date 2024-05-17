@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: c8cd1ef5e79e14c3ce804c32be0e995408d9358c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2550'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -108,8 +108,8 @@ ht-degree: 99%
          + [CRM과 데이터 동기화](platform/using/crm-data-sync.md)
       + Adobe Analytics 커넥터{#analytics-connector}
          + [Adobe Analytics 커넥터 시작](platform/using/gs-aa.md)
-         + [Adobe Analytics 커넥터 프로비저닝](platform/using/adobe-analytics-provisioning.md)
-         + [Adobe Analytics Connector로 마이그레이션하는 방법](technotes/using/aa-connector-migration.md)
+         + [Adobe Analytics 커넥터 프로비전](platform/using/adobe-analytics-provisioning.md)
+         + [Adobe Analytics 커넥터로 마이그레이션하는 방법](technotes/using/aa-connector-migration.md)
    + [도움말 및 지원 옵션](support.md)
 + 메시지 만들기 및 보내기 {#sending-messages}
    + [메시지 시작](delivery/using/communication-channels.md)
