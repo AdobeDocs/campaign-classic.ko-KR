@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: c736ac1cda9490548f1e4b56142d61fccaca5c4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3764'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 98%
 
 ### 2024년 4월 {#apr-2024}
 
-IMS(Adobe Identity Management System)를 사용한 사용자 만들기에 대한 주의 사항이 추가되었습니다. [자세히 보기](../../platform/using/access-management.md)
+Adobe IMS(Identity Management System)를 사용한 사용자 만들기에 대한 주의 사항이 추가되었습니다. [자세히 보기](../../platform/using/access-management.md)
 
 웹 다운로드 워크플로우 활동에 대한 누락된 옵션이 추가되었습니다. [자세히 보기](../../workflow/using/web-download.md)
 
-경고 노트가 다음에 추가되었습니다. **차원 변경** 및 **데이터 소스 변경** 워크플로우에서의 사용에 대한 활동. [자세히 보기](../../workflow/using/change-data-source.md)
+**차원 변경** 및 **데이터 소스 변경** 활동에 워크플로우에서의 사용에 대한 주의 사항이 추가되었습니다. [자세히 보기](../../workflow/using/change-data-source.md)
 
 ### 2024년 3월 {#mar-2024}
 
