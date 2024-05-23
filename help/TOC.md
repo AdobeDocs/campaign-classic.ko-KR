@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: c8cd1ef5e79e14c3ce804c32be0e995408d9358c
+source-git-commit: 8fec4d038eddaa3c5a2aade1b619f2543453d4de
 workflow-type: tm+mt
-source-wordcount: '2550'
-ht-degree: 100%
+source-wordcount: '2552'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
    + [업그레이드 시작](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
    + 이전 릴리스 {#previous-releases}
+      + [2023 릴리스](rn/using/release-2023.md)
       + [2022년 릴리스](rn/using/release-2022.md)
       + [2021년 릴리스](rn/using/release-2021.md)
       + [[!DNL Gold Standard] 릴리스](rn/using/gold-standard.md)
