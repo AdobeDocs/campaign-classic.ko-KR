@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 8fbfc211c4e791b324c34d3d180daa7597c00c7f
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 15%
@@ -32,7 +32,7 @@ Adobe Campaign은 다음과 같은 게재 채널을 제공합니다.
 1. **모바일 채널**: 모바일 채널 게재는 개인화된 SMS 또는 LINE 메시지를 대상 모집단으로 보낼 수 있습니다. 을(를) 참조하십시오 [SMS 채널](sms-channel.md).
 1. **모바일 애플리케이션 채널**: 모바일 앱 게재를 사용하면 iOS 및 Android 시스템에 알림을 전송할 수 있습니다. 다음을 참조하십시오. [모바일 앱 채널](about-mobile-app-channel.md) 챕터.
 
-   다른 채널은에 설명되어 있습니다. [이 페이지](steps-about-delivery-creation-steps.md#other-channels).
+   다른 채널은에 설명되어 있습니다. [이 섹션](#other-channels).
 
    >[!NOTE]
    >

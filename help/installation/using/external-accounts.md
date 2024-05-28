@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 8fbfc211c4e791b324c34d3d180daa7597c00c7f
 workflow-type: tm+mt
 source-wordcount: '1787'
 ht-degree: 8%
@@ -15,8 +15,6 @@ ht-degree: 8%
 ---
 
 # 외부 계정{#external-accounts}
-
-
 
 Adobe Campaign에는 미리 정의된 외부 계정 집합이 포함되어 있습니다. 외부 시스템과의 연결을 설정하기 위해 새 외부 계정을 만들 수 있습니다.
 
@@ -115,9 +113,9 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 
 * [이메일](#email-routing-external-account)
 * [모바일(SMS)](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)
-* [휴대폰](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
+* [휴대폰](../../delivery/using/communication-channels.md#other-channels)
 * [DM](../../delivery/using/about-direct-mail-channel.md)
-* [에이전시](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
+* [에이전시](../../delivery/using/communication-channels.md#other-channels)
 * [X(이전 명칭: Twitter)](../../social/using/about-social-marketing.md)
 * [iOS 채널](../../delivery/using/configuring-the-mobile-application.md)
 * [Android 채널](../../delivery/using/configuring-the-mobile-application-android.md)
