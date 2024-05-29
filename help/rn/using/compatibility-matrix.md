@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '757'
+source-git-commit: b7339512d85a7bd0c5aae24af46739daafb1ba51
+workflow-type: tm+mt
+source-wordcount: '753'
 ht-degree: 100%
 
 ---
@@ -148,7 +148,6 @@ ht-degree: 100%
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
-<p>2012 - SP1 및 SP2</p>
 <p><strong>중요:</strong> Campaign 서버가 Linux에서 실행 중인 경우 Microsoft SQL Server가 기본 데이터베이스로 지원되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html?lang=ko#database-access-layers">자세히 알아보기</a></p>
 </td>
 </tr>
