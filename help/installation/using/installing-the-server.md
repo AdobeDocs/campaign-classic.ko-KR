@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 1%
@@ -16,8 +16,6 @@ ht-degree: 1%
 ---
 
 # 서버 설치{#installing-the-server}
-
-
 
 ## 설치 프로그램 실행 {#executing-the-installation-program}
 
@@ -70,13 +68,13 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
 
 다음 명령을 사용하여 초기 설치를 테스트할 수 있습니다.
 
-```
+```sql
 nlserver pdump
 ```
 
 Adobe Campaign이 시작되지 않은 경우 응답은 다음과 같습니다.
 
-```
+```sql
 No task
 ```
 
@@ -84,7 +82,7 @@ No task
 
 설치 테스트가 완료되면 다음을 통해 명령 프롬프트를 엽니다. **[!UICONTROL Start > Programs > Adobe Campaign]** 메뉴를 클릭하고 다음 명령을 입력합니다.
 
-```
+```sql
 nlserver web
 ```
 
@@ -104,13 +102,13 @@ nlserver web
 
 누르기 **Ctrl+C** 프로세스를 중지하려면 다음 명령을 입력합니다.
 
-```
+```sql
 nlserver start web
 ```
 
 다음 정보가 표시됩니다.
 
-```
+```sql
 12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:17:21 >   Start of the 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair') task in a new process 
 12:17:21 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -122,13 +120,13 @@ nlserver start web
 
 중지하려면 다음을 입력합니다.
 
-```
+```sql
 nlserver stop web
 ```
 
 다음 정보가 표시됩니다.
 
-```
+```sql
 12:18:31 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:18:31 >   Stop requested for 'web@default' ('nlserver web -tracefile:web@default -instance:default -detach -tomcat -autorepair', pid=29188, tid=-1224824320)...
 12:18:31 >   Stop requested (pid=29188)
@@ -145,13 +143,13 @@ Adobe Campaign 서버는 이라는 기술 로그인을 정의합니다 **내부*
 
 Adobe Campaign 서비스를 시작하려면 서비스 관리자를 사용하거나 명령줄에 적절한 권한으로 다음을 입력할 수 있습니다.
 
-```
+```sql
 net start nlserver6
 ```
 
 나중에 Adobe Campaign 프로세스를 중지해야 하는 경우 다음 명령을 사용합니다.
 
-```
+```sql
 net stop nlserver6
 ```
 
@@ -161,6 +159,6 @@ LibreOffice를 다운로드하고 일반적인 설치 단계를 따릅니다.
 
 다음 환경 변수를 추가합니다.
 
-```
+```sql
 OOO_BASIS_INSTALL_DIR="C:\Program Files (x86)\LibreOffice 6\"
 ```

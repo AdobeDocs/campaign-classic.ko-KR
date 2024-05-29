@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '408'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 4%
 
 매개 변수를 추가할 수 있습니다 **-후** 진행 중인 연결을 나열합니다(데이터베이스 및 응용 프로그램).
 
-```
+```sql
 nlserver pdump -who
 HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 web@default (9984) - 50.1 Mo
@@ -65,7 +65,7 @@ default xxxxx myserver myprovider test400
 
 매개 변수를 추가할 수 있습니다 **-missing** 누락된 모듈을 나열하려면(모듈 오류, 모듈 종료 등)
 
-```
+```sql
 nlserver monitor -missing
 HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 inMail@test
@@ -79,11 +79,11 @@ wfserver@test
 
 모듈을 시작하는 구문은 여전히 다음 형식을 갖습니다.
 
-```
+```sql
 nlserver start <module>@<INSTANCE>
 ```
 
-```
+```sql
 nlserver stop <module>@<INSTANCE>
 ```
 
@@ -99,7 +99,7 @@ Adobe Campaign 서비스를 중지하려면 다음 명령 중 하나를 사용�
 
    * Linux에서:
 
-     ```
+     ```sql
      /etc/init.d/nlserver6 stop
      ```
 
@@ -109,13 +109,13 @@ Adobe Campaign 서비스를 중지하려면 다음 명령 중 하나를 사용�
 
    * Windows에서는:
 
-     ```
+     ```sql
      net stop nlserver6
      ```
 
 * 그렇지 않은 경우 Adobe Campaign 계정에서 다음을 수행합니다.
 
-  ```
+  ```sql
   nlserver shutdown 
   ```
 
@@ -125,13 +125,13 @@ Adobe Campaign 서비스를 중지하려면 다음 명령 중 하나를 사용�
 
 * 루트 또는 관리자 액세스 권한이 있는 경우:
 
-   * Linux에서: /etc/init.d/nlserver6 start
+   * Linux에서: `/etc/init.d/nlserver6 start`
 
      >[!NOTE]
      >
      >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
 
-   * Windows: net start nlserver6
+   * Windows에서는: `net start nlserver6`
 
 * 그렇지 않으면 Adobe Campaign 계정에서 다음을 수행합니다. **nlserver watchdog -svc -noconsole**
 
@@ -141,11 +141,11 @@ Adobe Campaign 서비스를 중지하려면 다음 명령 중 하나를 사용�
 
 사용 **config** 명령 **nlserver** 이 포함된 실행 파일 **-setdblogin** 매개 변수.
 
-```
+```sql
 nlserver config -setdblogin:<[dbms:]account[:database][/password]@server>
 ```
 
-```
+```sql
 nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 ```
 

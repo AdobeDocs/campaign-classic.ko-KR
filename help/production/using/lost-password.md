@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
-source-git-commit: ef7f3888e010cbe331b5e06cd1ea5e07127a47d2
+source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 3%
@@ -71,7 +71,7 @@ Campaign 암호를 재설정하려면 아래 단계를 따르십시오.
 
 1. 변경 내용을 저장하고 파일을 닫습니다.
 
-1. 중지 `nlserver` 프로세스
+1. 중지 `nlserver` 프로세스.
 
 1. 새 암호를 구성합니다. 이렇게 하려면 다음 명령을 입력합니다.
 
@@ -85,6 +85,6 @@ Campaign 암호를 재설정하려면 아래 단계를 따르십시오.
    Confirmation 
    ```
 
-1. 시작 `nlserver` 프로세스
+1. 시작 `nlserver` 프로세스.
 
 1. 이제 새 암호를 사용하여 연결할 수 있습니다. **내부** 모드.
