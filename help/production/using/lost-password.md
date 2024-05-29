@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: ef7f3888e010cbe331b5e06cd1ea5e07127a47d2
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '209'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,12 @@ ht-degree: 3%
 ## Campaign 운영자가 암호를 분실했습니다. {#password-lost-by-campaign-operator}
 
 Adobe Campaign 연산자가 암호를 분실하면 변경할 수 있습니다.
-이렇게 하려면 아래 단계를 수행합니다.
+
+>[!NOTE]
+>
+>이 절차는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 다음을 참조하십시오. [이 설명서](https://helpx.adobe.com/ie/manage-account/using/change-or-reset-password.html){target="_blank"}.
+
+Campaign 암호를 재설정하려면 아래 단계를 따르십시오.
 
 1. 관리자 권한이 있는 연산자를 통해 연결합니다.
 1. 연산자를 마우스 오른쪽 버튼으로 클릭합니다.
@@ -45,31 +50,32 @@ Adobe Campaign 연산자가 암호를 분실하면 변경할 수 있습니다.
 >이 섹션은 온-프레미스 고객에게만 적용됩니다.
 
 내부 암호가 손실되면 다시 초기화해야 합니다.
+
 이렇게 하려면 다음 절차를 적용합니다.
 
 1. 편집 **/usr/local/neolane/nl6/conf/serverConf.xml** 파일.
 
 1. 로 이동 **internalPassword** 줄.
 
-   ```
+   ```xml
    <!-- XTK authentication mode internalPassword : Password of internal account -->
    <xtk internalPassword="myPassword"/>
    ```
 
-1. 문자열을 따옴표로 묶어 삭제합니다(이 경우). **myPassword**
+1. 문자열을 따옴표로 묶어 삭제합니다(이 경우). `myPassword`. 다음 줄을 볼 수 있습니다.
 
-   따라서 다음 줄을 얻습니다.
-
-   ```
-   !-- XTK authentication mode internalPassword : Password of internal account -->
-   <xtk internalPassword=""/
+   ```xml
+   <!-- XTK authentication mode internalPassword : Password of internal account -->
+   <xtk internalPassword=""/>
    ```
 
 1. 변경 내용을 저장하고 파일을 닫습니다.
 
+1. 중지 `nlserver` 프로세스
+
 1. 새 암호를 구성합니다. 이렇게 하려면 다음 명령을 입력합니다.
 
-   ```
+   ```javascript
    nlserver config -internalpassword
    HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    Enter current password.
@@ -78,5 +84,7 @@ Adobe Campaign 연산자가 암호를 분실하면 변경할 수 있습니다.
    Password: 
    Confirmation 
    ```
+
+1. 시작 `nlserver` 프로세스
 
 1. 이제 새 암호를 사용하여 연결할 수 있습니다. **내부** 모드.
