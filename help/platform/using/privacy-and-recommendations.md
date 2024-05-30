@@ -8,15 +8,14 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 5d237d42adabe42a07bc759913dd9453df650671
 workflow-type: tm+mt
-source-wordcount: '1977'
-ht-degree: 98%
+source-wordcount: '1910'
+ht-degree: 97%
 
 ---
 
 # 개인 정보 및 동의{#privacy-and-recommendations}
-
 
 
 ## 일반 권장 사항 {#general-recommendations}
@@ -31,18 +30,7 @@ Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양�
 
 ### 개인 정보 보호 규정 {#privacy-regulations}
 
-개인 정보를 올바로 처리하고 개인 데이터를 관리하기 위해 운영하는 지역에 적용되는 법규 내에서 작업하십시오. 다음과 같은 규정이 있습니다.
-* [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (European General Data Protection Regulation)
-* [DPA](https://www.gov.uk/data-protection)(영국의 GDPR 구현)
-* [개인 정보 및 전자 통신에 관한 유럽 지침](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
-* [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (상업용 이메일에 관한 규정 및 요구 사항에 설정된 미국 법)
-* [CPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (California Consumer Privacy Act)
-* [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Thailand Personal Data Protection Act)
-* [LGPD](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf) (브라질 일반 데이터 보호법)
-
->[!NOTE]
->
->GDPR, CCPA, PDPA 및 LGPD가 Adobe Campaign에 적용되는 방법에 대한 자세한 내용은 [이 페이지](../../platform/using/privacy-management.md#privacy-management-regulations)를 참조하십시오.
+개인 정보를 올바로 처리하고 개인 데이터를 관리하기 위해 운영하는 지역에 적용되는 법규 내에서 작업하십시오. Adobe Campaign의 기능은 다음과 같은 규정을 준수하는 데 도움이 됩니다. [이 페이지](../../platform/using/privacy-management.md#privacy-management-regulations).
 
 ### Adobe Experience Cloud 개인 정보 보호 {#experience-cloud-privacy}
 
