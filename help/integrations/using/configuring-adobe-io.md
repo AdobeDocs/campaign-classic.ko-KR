@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: a08b386ff73fd9a2e9b3909c8f8de5e419104ce4
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 6%
+source-wordcount: '874'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,11 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
-> 현재 JWT(JSON 웹 토큰)의 지원 종료를 준비하고 있으며, 이를 OAuth로 대체하는 과정이 진행 중입니다. Campaign의 예정된 릴리스 내에서 이 전환을 점진적으로 수행하며, 설명서에 이러한 업데이트를 반영하여 업데이트합니다.
+> 서비스 계정(JWT) 자격 증명은 Adobe에서 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 통합은 이제 OAuth 서버 간 자격 증명을 사용해야 합니다. </br>
+>
+> * Campaign과 인바운드 통합을 구현한 경우 이 설명서에 자세히 설명된 대로 기술 계정을 마이그레이션해야 합니다. 기존 서비스 계정(JWT) 자격 증명은 2025년 1월 27일까지 계속 작동합니다. 또한 2024년 6월 3일부터 개발자 콘솔에서 새 서비스 계정(JWT) 자격 증명을 더 이상 만들 수 없습니다. 이 날짜 이후에는 새 서비스 계정(JWT) 자격 증명을 만들거나 프로젝트에 추가할 수 없습니다. </br>
+>
+> * Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 구현한 경우 2025년 1월 27일까지 계속 작동합니다. 그러나 해당 날짜 이전에 Campaign 환경을 v7.4.1로 업그레이드하고 기술 계정을 oAuth로 마이그레이션해야 합니다. 2024년 6월 3일부터 개발자 콘솔에서 새 서비스 계정(JWT) 자격 증명을 만들 수 없으므로 이 날짜 이후에는 JWT를 사용하는 새 아웃바운드 통합을 만들 수 없습니다
 
 1. 액세스 [!DNL Adobe I/O] 조직의 개발자 액세스 권한으로 로그인합니다. 올바른 조직 포털에 로그인했는지 확인하십시오.
 
