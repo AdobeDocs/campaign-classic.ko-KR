@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Templates
 role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: a94774daa4005fe95066b85f921d9baa981b2a7c
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 1%
@@ -77,7 +77,7 @@ ht-degree: 1%
 
   기본적으로 파일 이름의 구성 형식은 &quot;@name&quot; 및 &quot;@date&quot; 필드의 변수를 사용합니다.
 
-  ```
+  ```xml
   ct_$(@name)_$date-format(@date,'%4Y%2M%2D').htm
   ```
 
@@ -117,7 +117,7 @@ ht-degree: 1%
 
 해당 스타일시트(&quot;cus:book.xsl&quot;)는 다음과 같습니다.
 
-```
+```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -140,7 +140,7 @@ ht-degree: 1%
 
 챕터의 세부 정보를 생성하려면 두 번째 스타일시트(&quot;cus:chapter.xsl&quot;)가 필요합니다.
 
-```
+```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -167,7 +167,7 @@ ht-degree: 1%
 
 분할 태그는 생성할 파일에 포함될 페이지의 시작 부분에서 채워집니다.
 
-```
+```xml
 <xsl:comment> #nl:output_replace($(path)/<xsl:value-of select="@id"/>.htm)</xsl:comment>
 ```
 
