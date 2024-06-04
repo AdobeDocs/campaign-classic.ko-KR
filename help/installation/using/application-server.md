@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 30670fba2fb84b968ef2e8a8f24746c81cc05f57
+source-git-commit: 7e1c3b256cf43232e49d9daa0bf44d1e114b565b
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '622'
 ht-degree: 1%
 
 ---
@@ -32,28 +32,28 @@ oracle에서 개발한 JDK(Java Development Kit)와 **오픈JDK**.
 지원되는 버전은 Campaign에 자세히 설명되어 있습니다 [호환성 매트릭스](../../rn/using/compatibility-matrix.md).
 
 
-
 ### 권장 사항
 
-시스템의 다른 애플리케이션에서 이미 사용하고 있는 적절한 JDK 버전을 사용하여 Java 개발 키트를 설치할 수 있습니다.
+Java 개발 키트를 설치하고 업그레이드할 때 다음 권장 사항을 적용하십시오.
 
-JDK를 설치할 때 웹 브라우저와의 통합이 필요하지 않습니다.
+* 시스템의 다른 애플리케이션에서 이미 사용하고 있는 적절한 JDK 버전을 사용하여 Java 개발 키트를 설치할 수 있습니다.
 
-게재 에이전트만 실행하는 컴퓨터(**nlserver mta** process) 또는 워크플로 서버(**nlserver wfserver** 프로세스), JDK 설치는 필요하지 않습니다.
+* JDK를 설치할 때 웹 브라우저와의 통합이 필요하지 않습니다.
 
+* 게재 에이전트만 실행하는 컴퓨터(**nlserver mta** process) 또는 워크플로 서버(**nlserver wfserver** 프로세스), JDK 설치는 필요하지 않습니다.
 
->[!CAUTION]
->
-> 플랫폼 작업 성능을 유지하고 설치된 버전과의 호환성을 보장하려면 Windows 및 Linux에서 자동 JDK 업데이트 기능을 비활성화해야 합니다.
->
-> Java 버전을 업그레이드할 때 먼저 이전 버전을 제거해야 합니다. 동일한 컴퓨터에 설치된 두 Java 버전이 충돌할 수 있습니다.
+* 플랫폼 작업 성능을 유지하고 설치된 버전과의 호환성을 보장하려면 Windows 및 Linux에서 자동 JDK 업데이트 기능을 비활성화해야 합니다.
+
+* Java 버전을 업그레이드할 때 먼저 이전 버전을 제거해야 합니다. 동일한 컴퓨터에 설치된 두 Java 버전이 충돌할 수 있습니다.
+
+  온-프레미스 고객은 다음을 확인할 수 있습니다. `LD_LIBRARY_PATH` [환경 변수](installing-packages-with-linux.md#environment-variables) 최신 버전으로 설정되어 있습니다(예: ). java11). 이전 버전으로 설정된 경우(예: Java8)로 업데이트해야 합니다. JDK 11의 경우 JDK 라이브러리를 찾는 경로는 다음과 같습니다. `/usr/lib/jvm/java-11-openjdk-amd64/lib`.
 
 
 ### 설치 단계
 
 Java Development Kit는 플랫폼에 따라 다릅니다. 각 운영 체제에 대해 별도의 설치 관리자가 필요합니다.
 
-Java JDK를 다운로드하려면 다음을 연결하십시오. [웹 사이트 oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
+JDK를 다운로드하려면 [웹 사이트 oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -73,6 +73,7 @@ RHEL의 경우 다음 명령을 사용합니다.
 ```sql
 yum install java-1.8.0-openjdk
 ```
+
 
 ## Openssl {#openssl}
 
