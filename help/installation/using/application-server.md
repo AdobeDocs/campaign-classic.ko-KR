@@ -8,20 +8,20 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 30670fba2fb84b968ef2e8a8f24746c81cc05f57
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '565'
 ht-degree: 1%
 
 ---
 
 # 애플리케이션 서버{#application-server}
 
-
-
 필요한 데이터베이스 액세스 계층은 서버에 설치되어 있고 Adobe Campaign 계정에서 액세스할 수 있어야 합니다.
 
 ## Java 개발 키트 - JDK {#java-development-kit---jdk}
+
+Java 개발 키트(JDK)는 소프트웨어 개발 키트입니다. Java 애플리케이션 및 Java 애플릿 개발을 가능하게 하는 기본 구성 요소입니다.
 
 동적 웹 페이지 생성기는 JSP 1.2 기술을 사용합니다. 이를 위해 Tomcat 엔진(Apache의)이 애플리케이션에 포함됩니다. Adobe Campaign 애플리케이션이 설치된 모든 서버에 JDK(Java Development Kit)가 설치되어 있어야 합니다.
 
@@ -31,33 +31,46 @@ oracle에서 개발한 JDK(Java Development Kit)와 **오픈JDK**.
 
 지원되는 버전은 Campaign에 자세히 설명되어 있습니다 [호환성 매트릭스](../../rn/using/compatibility-matrix.md).
 
->[!NOTE]
->
->시스템의 다른 애플리케이션에서 이미 사용하고 있는 적절한 JDK 버전을 사용하여 설치할 수 있습니다.
->  
->설치할 때 웹 브라우저와의 통합을 수행할 필요가 없습니다.
->
->게재 에이전트만 실행하는 컴퓨터(**nlserver mta** process) 또는 워크플로 서버(**nlserver wfserver** 프로세스), JDK 설치는 필요하지 않습니다.
 
-Java JDK를 다운로드하려면 다음 위치에 연결하십시오. [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-**경고: JRE가 아닌 JDK를 다운로드해야 합니다.**
+### 권장 사항
+
+시스템의 다른 애플리케이션에서 이미 사용하고 있는 적절한 JDK 버전을 사용하여 Java 개발 키트를 설치할 수 있습니다.
+
+JDK를 설치할 때 웹 브라우저와의 통합이 필요하지 않습니다.
+
+게재 에이전트만 실행하는 컴퓨터(**nlserver mta** process) 또는 워크플로 서버(**nlserver wfserver** 프로세스), JDK 설치는 필요하지 않습니다.
+
 
 >[!CAUTION]
 >
->플랫폼 작업 성능을 유지하고 설치된 버전과의 호환성을 보장하려면 Windows 및 Linux에서 자동 JDK 업데이트 기능을 비활성화해야 합니다.
+> 플랫폼 작업 성능을 유지하고 설치된 버전과의 호환성을 보장하려면 Windows 및 Linux에서 자동 JDK 업데이트 기능을 비활성화해야 합니다.
+>
+> Java 버전을 업그레이드할 때 먼저 이전 버전을 제거해야 합니다. 동일한 컴퓨터에 설치된 두 Java 버전이 충돌할 수 있습니다.
 
-Linux 환경에 JDSL을 설치하려면 패키지 관리자를 사용하는 것이 좋습니다.
 
-Debian 8 및 9에서 다음 명령을 사용합니다.
+### 설치 단계
 
-```
+Java Development Kit는 플랫폼에 따라 다릅니다. 각 운영 체제에 대해 별도의 설치 관리자가 필요합니다.
+
+Java JDK를 다운로드하려면 다음을 연결하십시오. [웹 사이트 oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
+
+>[!CAUTION]
+>
+> JRE(Java Runtime Environment)가 아닌 JDK(Java Development Kit)를 다운로드해야 합니다.
+
+
+Adobe Linux 환경에 JDSL을 설치하려면 패키지 관리자를 사용하는 것이 좋습니다.
+
+Debian의 경우 다음 명령을 사용합니다.
+
+```sql
 aptitude install openjdk-8-jdk
 ```
 
-RHEL 7의 경우 다음 명령을 사용합니다.
+RHEL의 경우 다음 명령을 사용합니다.
 
-```
+```sql
 yum install java-1.8.0-openjdk
 ```
 
@@ -67,7 +80,11 @@ Linux에서 OpenSSL을 설치해야 합니다. Adobe Campaign은 OpenSSL 버전 
 
 ## 보고서 내보내기 {#exporting-reports}
 
-Adobe Campaign을 사용하면 플랫폼 보고서를 Microsoft Excel 및 Adobe PDF 형식으로 내보낼 수 있습니다. Microsoft Excel 형식의 경우 Adobe Campaign은 **LibreOffice**. Adobe PDF 형식의 경우 Adobe Campaign은 **팬텀JS** 변환기. PhantomJs는 팩토리 패키지에 포함되어 있으며 Adobe Campaign 애플리케이션 서버가 실행되는 컴퓨터에 LibreOffice가 설치되어 있어야 합니다(**nlserver 웹** 프로세스).
+Adobe Campaign을 사용하여 보고서를 Microsoft Excel 및 Adobe PDF으로 내보낼 수 있습니다.
+
+* Microsoft Excel 형식의 경우 Adobe Campaign은 **LibreOffice**.
+
+* Adobe PDF 형식의 경우 Adobe Campaign은 **팬텀JS** 변환기. PhantomJs는 팩토리 패키지에 포함되어 있으며 Adobe Campaign 애플리케이션 서버가 실행되는 컴퓨터에 LibreOffice가 설치되어 있어야 합니다(**nlserver 웹** 프로세스).
 
 >[!NOTE]
 >
