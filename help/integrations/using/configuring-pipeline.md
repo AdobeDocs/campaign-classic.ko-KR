@@ -1,60 +1,50 @@
 ---
 product: campaign
 title: 파이프라인 구성
-description: 파이프라인 구성 방법 알아보기
+description: Campaign - 트리거 통합을 위한 파이프라인을 구성하는 방법을 알아봅니다.
 feature: Triggers
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 271e0f9fde0cbfb016e201c8390b26673d8fc696
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
 
 # 파이프라인 구성 {#configuring-pipeline}
 
-
-
 고객 ID, 개인 키 및 인증 끝점과 같은 인증 매개 변수는 인스턴스 구성 파일에 구성됩니다.
+
 처리할 트리거 목록은 JSON 형식의 옵션으로 구성됩니다.
+
 트리거는 이메일을 보내는 캠페인 워크플로우에서 타겟팅하는 데 사용됩니다. 캠페인은 트리거 이벤트가 모두 있는 고객이 이메일을 받도록 설정됩니다.
 
 ## 필수 구성 요소 {#prerequisites}
 
-이 구성을 시작하기 전에 다음을 사용 중인지 확인하십시오.
+이 구성을 시작하기 전에 다음을 확인하십시오.
 
-* 최소, 다음 Adobe Campaign 빌드 중 하나:
-   * 19.1.8.9039
-   * 19.1.4.9032 - 금 표준 11
-   * 20.2.4.9187
-   * 20.3.1
-* Adobe Analytics Standard 버전
-
-또한 다음과 같은 사항도 필요합니다.
-
-* Adobe I/O 프로젝트 인증
-* 유효한 조직 ID - 조직 ID를 찾으려면 다음을 참조하십시오. [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}
+* Adobe Developer 프로젝트
+* 유효한 조직 ID - 조직 ID를 찾으려면 다음을 참조하십시오. [이 페이지](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}
 * 조직에 대한 개발자 액세스 권한
-* Adobe Analytics에서 트리거 구성 완료
+* Adobe Analytics의 유효한 트리거 구성
 
 ## 인증 및 구성 파일 {#authentication-configuration}
 
-파이프라인이 Adobe Experience Cloud에서 호스팅되므로 인증이 필요합니다.
-공개 키와 개인 키 쌍을 사용합니다. 이 프로세스는 사용자/암호와 동일한 기능을 가지고 있지만 보다 안전합니다.
-Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩니다.
+파이프라인이 Adobe Experience Cloud에서 호스팅되므로 인증이 필요합니다. 공개 키와 개인 키 쌍을 사용합니다. 이 프로세스는 사용자/암호와 동일한 기능을 가지고 있지만 보다 안전합니다. 인증은 Adobe Developer 프로젝트를 통해 Marketing Cloud에 대해 지원됩니다.
 
-## 1단계: Adobe I/O 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
+## 1단계: Adobe Developer 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
 
-호스팅된 고객의 경우, 고객 지원 티켓을 만들어 트리거 통합을 위한 기술 계정 토큰 Adobe I/O으로 귀사에서 사용할 수 있도록 할 수 있습니다.
+호스팅된 고객의 경우, Adobe 담당자/고객 지원 팀과 협력하여 트리거 통합을 위해 조직에서 Adobe Developer 계정 토큰을 사용할 수 있도록 하십시오.
 
-온프레미스 고객의 경우 [Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성](../../integrations/using/configuring-adobe-io.md) 페이지를 가리키도록 업데이트하는 중입니다. 다음을 선택해야 합니다. **[!UICONTROL Adobe Analytics]** Adobe I/O 자격 증명에 API를 추가하는 동안.
+온-프레미스/하이브리드 고객의 경우 [Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성](../../integrations/using/configuring-adobe-io.md) 페이지를 가리키도록 업데이트하는 중입니다. 다음을 선택해야 합니다. **[!UICONTROL Adobe Analytics]** Adobe Developer 자격 증명에 API를 추가하는 동안.
 
-## 2단계: NmsPipeline_Config 파이프라인 옵션 구성 {#configuring-nmspipeline}
+## 2단계: 파이프라인 옵션 구성 {#configuring-nmspipeline}
 
 인증이 설정되면 파이프라인이 이벤트를 검색합니다. Adobe Campaign에 구성된 트리거만 처리합니다. 트리거는 Adobe Analytics에서 생성되어 파이프라인으로 푸시되어야 하며 파이프라인은 Adobe Campaign에 구성된 트리거만 처리합니다.
+
 이름과 관계없이 모든 트리거를 catch하기 위해 와일드카드로 옵션을 구성할 수도 있습니다.
 
 1. Adobe Campaign에서 아래의 옵션 메뉴에 액세스합니다 **[!UICONTROL Administration]** > **[!UICONTROL Platform]**  > **[!UICONTROL Options]** 다음에서 **[!UICONTROL Explorer]**.
@@ -63,7 +53,7 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 
 1. 다음에서 **[!UICONTROL Value (long text)]** 필드에서는 두 개의 트리거를 지정하는 다음 JSON 코드를 붙여넣을 수 있습니다. 주석을 제거해야 합니다.
 
-   ```
+   ```json
    {
    "topics": [ // list of "topics" that the pipelined is listening to.
       {
@@ -85,7 +75,7 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 
 1. 모든 트리거를 catch하는 다음 JSON 코드를 붙여넣도록 선택할 수도 있습니다.
 
-   ```
+   ```json
    {
    "topics": [
      {
@@ -102,7 +92,7 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
    }
    ```
 
-### 소비자 매개 변수 {#consumer-parameter}
+### 소비자 매개 변수 설정 {#consumer-parameter}
 
 파이프라인은 공급업체 및 소비자 모델처럼 작동합니다. 메시지는 개별 소비자에 대해서만 소비됩니다. 각 소비자는 메시지의 자체 복사본을 가져옵니다.
 
@@ -114,18 +104,18 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 
 파이프라인 옵션을 구성하려면 다음 권장 사항을 따라야 합니다.
 
-* 아래에 트리거 추가 또는 편집 **[!UICONTROL Triggers]**&#x200B;나머지 부분은 편집하지 마십시오.
-* JSON이 유효한지 확인합니다. JSON 유효성 검사기를 사용할 수 있습니다. 이 내용을 참조하십시오. [웹 사이트](https://jsonlint.com/) 예.
-* &quot;name&quot;은 트리거 ID에 해당합니다. 와일드카드 &quot;*&quot;가 모든 트리거를 catch합니다.
-* &quot;소비자&quot;는 호출 인스턴스 또는 응용 프로그램의 이름에 해당합니다.
-* 파이프라인에서는 &quot;별칭&quot; 항목도 지원합니다.
-* 변경한 후에는 항상 파이프라인을 다시 시작해야 합니다.
+* 아래에 트리거 추가 또는 편집 **[!UICONTROL Triggers]**.
+* JSON이 유효한지 확인합니다.
+* 다음 **이름** 매개 변수는 트리거 ID에 해당합니다. 와일드카드 &quot;*&quot;가 모든 트리거를 catch합니다.
+* 다음 **소비자** 매개 변수는 호출 인스턴스 또는 응용 프로그램의 이름에 해당합니다.
+* 다음 `pipelined`프로세스는 &quot;별칭&quot; 항목도 지원합니다.
+* 항상 다시 시작해야 합니다. `pipelined`변경 후 처리합니다.
 
 ## 3단계: 선택적 구성 {#step-optional}
 
-로드 요구 사항에 따라 일부 내부 매개변수를 변경할 수 있지만 프로덕션에 적용하기 전에 테스트해야 합니다.
+로드 요구 사항에 따라 일부 내부 매개 변수를 변경할 수 있지만, 프로덕션 환경에 적용하기 전에 테스트해야 합니다.
 
-선택적 매개 변수 목록은 아래에서 찾을 수 있습니다.
+선택적 매개 변수 목록은 다음과 같습니다.
 
 | 옵션 | 설명 |
 |:-:|:-:|
@@ -146,11 +136,11 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 
 ### 파이프라인 프로세스 자동 시작 {#pipelined-process-autostart}
 
-파이프라인된 프로세스를 자동으로 시작해야 합니다.
+다음 `pipelined` 프로세스를 자동으로 시작해야 합니다.
 
-이를 위해 구성 파일의 &lt; pipelined > 요소를 autostart=&quot;true&quot;로 설정합니다.
+이 경우 다음을 설정하십시오. `<`파이프라인됨`>` autostart=&quot;true&quot;에 대한 구성 파일의 요소:
 
-```
+```sql
  <pipelined autoStart="true" ... "/>
 ```
 
@@ -158,7 +148,7 @@ Adobe I/O 프로젝트를 통해 Marketing Cloud에 대한 인증이 지원됩�
 
 변경 사항을 적용하려면 다시 시작해야 합니다.
 
-```
+```sql
 nlserver restart pipelined@instance
 ```
 
@@ -166,6 +156,6 @@ nlserver restart pipelined@instance
 
 프로비저닝에 대한 파이프라인 설정의 유효성을 검사하려면 아래 단계를 수행하십시오.
 
-* 다음을 확인합니다. [!DNL pipelined] 프로세스가 실행 중입니다.
-* pipelined.log에서 파이프라인 연결 로그를 확인합니다.
+* 다음을 확인합니다. `pipelined` 프로세스가 실행 중입니다.
+* 다음 확인: `pipelined.log` 파이프라인 연결 로그.
 * 연결을 확인하고 Ping이 수신되는지 확인합니다. 호스팅된 고객은 클라이언트 콘솔에서 모니터링을 사용할 수 있습니다.

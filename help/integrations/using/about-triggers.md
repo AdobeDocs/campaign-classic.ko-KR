@@ -7,9 +7,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 271e0f9fde0cbfb016e201c8390b26673d8fc696
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->이 기능은 제품의 일부로 기본 제공되지 않습니다. 이 구현의 경우 먼저 Adobe 지원에서 티켓을 열어야 합니다. 그런 다음 이 섹션에 자세히 설명된 단계를 따를 수 있습니다 [페이지](../../integrations/using/configuring-pipeline.md#prerequisites).
+>이 기능은 제품의 일부로 기본 제공되지 않습니다. 이 구현의 경우 Adobe 담당자/고객 지원 센터와 협력하십시오. 그런 다음 이 섹션에 자세히 설명된 단계를 따를 수 있습니다 [페이지](../../integrations/using/configuring-pipeline.md#prerequisites).
 
 [!DNL Triggers] 사용자 작업 후 짧은 시간 내에 마케팅 작업을 실행합니다. 일반적인 응답 시간은 1시간 미만입니다.
 
