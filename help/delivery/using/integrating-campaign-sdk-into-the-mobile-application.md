@@ -5,9 +5,9 @@ description: Campaign SDK를 모바일 앱에 통합하는 방법을 알아봅�
 feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
+source-git-commit: 00d46a7508def4d472e6bb8940a4d40a23c4fb07
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -542,7 +542,7 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 
 +++**변수**
 
-변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드 및 Adobe Campaign 콘솔의 **[!UICONTROL Variables]** 전용 모바일 애플리케이션 서비스의 탭(참조) [Adobe Campaign에서 모바일 애플리케이션 구성](configuring-the-mobile-application.md)). 다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
+변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드 및 Adobe Campaign 콘솔의 **[!UICONTROL Variables]** 전용 모바일 애플리케이션의 탭(참조) [Adobe Campaign에서 모바일 애플리케이션 구성](configuring-the-mobile-application.md)). 다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
 
 * **Android**:
 
