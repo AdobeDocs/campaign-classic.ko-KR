@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 8fbfc211c4e791b324c34d3d180daa7597c00c7f
+source-git-commit: ef6a864c76c04ac94383c1c2ad74095dd5ef63a1
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1757'
 ht-degree: 8%
 
 ---
@@ -208,13 +208,14 @@ SFTP 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액
 
   SFTP 서버에 연결하는 데 사용되는 암호입니다.
 
-Windows에서 SSH 키를 추가하려면:
+<!--To add SSH keys on Windows:
 
-1. 만들기 **홈** 값이 설치 디렉터리로 설정된 환경 변수입니다.
+1. Create the **HOME** environment variable with value set as the installation directory.
 
-2. 에 개인 키 추가 `/$HOME/.ssh/id_rsa` 폴더를 삭제합니다.
+2. Add your private key to the `/$HOME/.ssh/id_rsa` folder.
 
-3. Adobe Campaign 서비스를 다시 시작합니다.
+3. Restart the Adobe Campaign services.
+-->
 
 ### 외부 데이터베이스(FDA) {#external-database-external-account}
 
