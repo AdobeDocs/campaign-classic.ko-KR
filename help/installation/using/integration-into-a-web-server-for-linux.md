@@ -8,15 +8,14 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0e88ac270423ad419237264e562a03ab0c42efb5
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
-# Linux용 웹 서버에 통합{#integration-into-a-web-server-for-linux}
-
+# Linux용 웹 서버에 통합 {#integration-into-a-web-server-for-linux}
 
 
 Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 진입점 역할을 하는 Apache Tomcat이 포함되어 있습니다.
@@ -29,7 +28,7 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 �
 * 그런 다음 클라이언트 콘솔은 다음과 같은 URL을 사용하여 연결합니다.
 
   ```
-  http://<computer>:8080
+  https://<computer>:8080
   ```
 
 그러나 보안 및 관리상의 이유로 Adobe Campaign을 실행 중인 컴퓨터가 인터넷에 노출되어 네트워크 외부의 콘솔에 대한 액세스를 열고자 할 때 HTTP 트래픽의 기본 진입점으로 전용 웹 서버를 사용하는 것이 좋습니다.

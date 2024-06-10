@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: a94774daa4005fe95066b85f921d9baa981b2a7c
+source-git-commit: 0e88ac270423ad419237264e562a03ab0c42efb5
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 98%
+source-wordcount: '856'
+ht-degree: 86%
 
 ---
 
@@ -33,7 +33,10 @@ ht-degree: 98%
 >
 >이 매트릭스는 지원되는 새 항목이 추가되고 더 이상 사용되지 않는 항목이 제거되면서 정기적으로 업데이트됩니다.
 
-## 운영 체제{#OperatingSystems}
+## 운영 체제 {#OperatingSystems}
+
+온-프레미스/하이브리드 고객은 아래 나열된 운영 체제 중 하나에 Adobe Campaign을 설치해야 합니다. Campaign Classic v7 설치 단계에 대해 자세히 알아보기 [이 페이지](../../installation/using/application-server.md).
+
 
 <table> 
 <tbody> 
@@ -71,7 +74,9 @@ ht-degree: 98%
 >
 >RHEL을 사용하는 경우 SELinux를 비활성화하거나 설계자가 사용자 지정 SELinux 규칙을 작성하여 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인해야 합니다.
 
-## 웹 서버{#WebServers}
+## 웹 서버 {#WebServers}
+
+온프레미스/하이브리드 고객은 운영 체제에 따라 Campaign을 아래 나열된 웹 서버 중 하나에 통합해야 합니다. 웹 서버 구성 단계에 대해 자세히 알아보십시오. [이 페이지](../../installation/using/integration-into-a-web-server-for-windows.md) (Windows의 경우) 및 [이 페이지](../../installation/using/integration-into-a-web-server-for-linux.md) (Linux의 경우) .
 
 <table>
 <tbody>
@@ -90,7 +95,9 @@ ht-degree: 98%
 </tbody>
 </table>
 
-## 도구{#Tools}
+## 도구 {#Tools}
+
+온-프레미스/하이브리드 고객은 아래 나열된 도구를 설치 및 구성해야 합니다. [자세히 알아보기](../../installation/using/application-server.md)
 
 <table>
 <tbody>
@@ -119,6 +126,9 @@ ht-degree: 98%
 </table>
 
 ## RDBMS(관계 데이터베이스 관리 시스템){#RDBMSservers}
+
+온-프레미스/하이브리드 고객은 아래 나열된 데이터베이스 중 하나를 설치 및 구성해야 합니다. [자세히 알아보기](../../installation/using/database.md)
+
 
 <table>
 <tbody>
@@ -158,7 +168,7 @@ ht-degree: 98%
 >
 >* RDBMS 드라이버는 RDBMS 서버 버전과 일치해야 합니다.
 >
->* PostgreSQL은 호스팅 환경용 RDBMS입니다.
+>* PostgreSQL은 호스팅/관리 Cloud Service 환경을 위한 RDBMS입니다.
 
 ## CRM 커넥터{#CRMconnectors}
 
@@ -394,7 +404,7 @@ Campaign을 사용하여 아래 목록의 운영 체제에서 [푸시 알림을 
 
 
 
-## 비슷한 항목 더 보기{#Morelikethis}
+## 비슷한 항목 더 보기 {#Morelikethis}
 
 * [Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)
 * [Campaign 일반 아키텍처](../../installation/using/general-architecture.md)
