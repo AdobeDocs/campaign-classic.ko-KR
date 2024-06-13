@@ -5,9 +5,9 @@ description: 웹 양식 속성 정의
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 1d4990917fea54e67ed23cd0771295de03a4f01a
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1375'
 ht-degree: 1%
 
 ---
@@ -83,6 +83,32 @@ ht-degree: 1%
 샘플 렌더링은 속성 창의 아래쪽에 표시됩니다. 다음 **[!UICONTROL Edit link]** 아이콘을 사용하면 선택한 테마에 대한 구성을 볼 수 있습니다.
 
 ![](assets/s_ncs_admin_survey_properties_render.png)
+
+## 양식의 로고 {#logo-in-the-form}
+
+양식에 사용된 로고는 자체 로고로 변경할 수 있습니다.
+
+다음에서 **[!UICONTROL Rendering]** 탭 내부 **[!UICONTROL Properties]** 웹 앱에서 템플릿의 유리 아이콘 을 클릭합니다.
+
+![](assets/logo_glass.png)
+
+새 창에서 **[!UICONTROL Page layout]** 링크 :
+
+![](assets/logo_pagelayout.png)
+
+여기에서 로고 이미지의 경로를 변경할 수 있습니다.
+
+![](assets/logo_path.png)
+
+사용 가능한 이미지는 아래에 있습니다. **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]**. 여기에 로고를 추가할 수 있습니다.
+
+이러한 이미지는 인스턴스의 백엔드 디렉토리에 배치됩니다 *datakit\nms\fra\img\activities* 또는 *datakit\nms\eng\img\activities* (인스턴스의 언어에 따라 eng 또는 fra).
+
+이 디렉터리(및 이미지)에서 사용할 수 있는 새 이미지를 얻으려면 Adobe 지원 팀에 문의하여 백엔드 디렉터리를 변경하십시오.
+
+온-프레미스 인스턴스의 경우 직접 데이터 키트에 이미지를 추가할 수 있습니다.
+
+업로드된 이미지가 Campaign 클라이언트에서 표시되지 않아도 됩니다. 올바른 경로는 새 로고로 사용하기에 충분합니다.
 
 ## 양식 텍스트 {#texts-in-the-form}
 
