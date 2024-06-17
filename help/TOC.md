@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2548'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

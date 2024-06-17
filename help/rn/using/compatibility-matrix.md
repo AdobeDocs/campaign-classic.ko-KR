@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 28302b40d4fa43b400a3e1b6dd3e133976a01418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 86%
 
 ## 운영 체제 {#OperatingSystems}
 
-온-프레미스/하이브리드 고객은 아래 나열된 운영 체제 중 하나에 Adobe Campaign을 설치해야 합니다. Campaign Classic v7 설치 단계에 대해 자세히 알아보기 [이 페이지](../../installation/using/application-server.md).
+온-프레미스/하이브리드 고객은 아래 나열된 운영 체제 중 하나에 Adobe Campaign을 설치해야 합니다. [이 페이지](../../installation/using/application-server.md)에서 Campaign Classic v7 설치 단계에 대해 자세히 알아보십시오.
 
 
 <table> 
@@ -76,7 +76,7 @@ ht-degree: 86%
 
 ## 웹 서버 {#WebServers}
 
-온프레미스/하이브리드 고객은 운영 체제에 따라 Campaign을 아래 나열된 웹 서버 중 하나에 통합해야 합니다. 웹 서버 구성 단계에 대해 자세히 알아보십시오. [이 페이지](../../installation/using/integration-into-a-web-server-for-windows.md) (Windows의 경우) 및 [이 페이지](../../installation/using/integration-into-a-web-server-for-linux.md) (Linux의 경우) .
+온프레미스/하이브리드 고객은 운영 체제에 따라 Campaign을 아래 나열된 웹 서버 중 하나에 통합해야 합니다. [이 페이지](../../installation/using/integration-into-a-web-server-for-windows.md)(Windows의 경우) 및 [이 페이지](../../installation/using/integration-into-a-web-server-for-linux.md)(Linux의 경우)에서 웹 서버 구성 단계에 대해 자세히 알아보십시오.
 
 <table>
 <tbody>
@@ -97,7 +97,7 @@ ht-degree: 86%
 
 ## 도구 {#Tools}
 
-온-프레미스/하이브리드 고객은 아래 나열된 도구를 설치 및 구성해야 합니다. [자세히 알아보기](../../installation/using/application-server.md)
+온-프레미스/하이브리드 고객은 아래 나열된 도구를 설치 및 구성해야 합니다. [자세히 알아보기](../../installation/using/application-server.md).
 
 <table>
 <tbody>
@@ -107,7 +107,7 @@ ht-degree: 86%
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>에서 JDK 및 캠페인에 대해 자세히 알아보십시오. <a href="https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/deployment-guidelines/application-server#java-development-kit---jdk" target="_blank">이 페이지</a>.</p>
+<p><a href="https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/deployment-guidelines/application-server#java-development-kit---jdk" target="_blank">이 페이지</a>에서 JDK 및 캠페인에 대해 자세히 알아보십시오.</p>
 </td>
 </tr>
 <tr>
@@ -127,7 +127,7 @@ ht-degree: 86%
 
 ## RDBMS(관계 데이터베이스 관리 시스템){#RDBMSservers}
 
-온-프레미스/하이브리드 고객은 아래 나열된 데이터베이스 중 하나를 설치 및 구성해야 합니다. [자세히 알아보기](../../installation/using/creating-and-configuring-the-database.md)
+온-프레미스/하이브리드 고객은 아래 나열된 데이터베이스 중 하나를 설치 및 구성해야 합니다. [자세히 알아보기](../../installation/using/creating-and-configuring-the-database.md).
 
 
 <table>
@@ -168,7 +168,7 @@ ht-degree: 86%
 >
 >* RDBMS 드라이버는 RDBMS 서버 버전과 일치해야 합니다.
 >
->* PostgreSQL은 호스팅/관리 Cloud Service 환경을 위한 RDBMS입니다.
+>* PostgreSQL은 호스팅/관리 클라우드 서비스 환경용 RDBMS입니다.
 
 ## CRM 커넥터{#CRMconnectors}
 
