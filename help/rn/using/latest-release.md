@@ -6,42 +6,52 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 8fec4d038eddaa3c5a2aade1b619f2543453d4de
-workflow-type: ht
-source-wordcount: '352'
-ht-degree: 100%
+source-git-commit: d31aa28da06e65664da655b6b082563767b35f7a
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 19%
 
 ---
 
-# 최신 릴리스{#latest-release}
+# 최신 릴리스 {#latest-release}
 
 이 페이지에서는 **최신 Campaign v7 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다. 모든 새 빌드는 색상으로 상태가 표시됩니다. [이 페이지](rn-overview.md)에서 Campaign Classic v7 빌드 상태에 대해 자세히 알아보십시오.
 
-## 릴리스 7.3.5 - 빌드 9368 {#release-7-3-5}
+## 릴리스 7.4.1 - 빌드 9383 {#release-7-4-1}
 
 [!BADGE 일반 공급]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
 
+_2024년 6월 18일 수요일_
 
-_2023년 12월 5일 수요일_
+### 변경 사항 및 개선 사항 {#release-7-4-1-changes}
+
+* 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으므로 Adobe 솔루션 및 앱과의 Campaign 아웃바운드 통합은 이제 OAuth 서버 간 자격 증명을 사용합니다. Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 구현한 경우 2025년 1월 27일 이전에 Campaign 환경을 v7.4.1로 업그레이드하고 기술 계정을 oAuth로 마이그레이션해야 합니다. [자세히 알아보기](../../integrations/using/oauth-technical-account.md)
+
+* 다음 작업을 완료하면 [campaign 기술 운영자를 개발자 콘솔로 마이그레이션했습니다.](../../technotes/using/ims-migration.md) 및 [최종 사용자 인증을 위해 IMS로 전환됨](../../technotes/using/migrate-users-to-ims.md), 이제 사용자 인터페이스 및 API 제한을 활성화하여 기본 인증과 관련된 옵션 및 기능을 제거할 수 있습니다. [자세히 알아보기](../../technotes/using/impact-ims-migration.md)
 
 
-### 보안 기능 개선 {#release-7-3-5-security}
+
+### 호환성 업데이트 {#release-7-4-1-compat}
+
+다음 [Adobe Campaign용 호환성 매트릭스](compatibility-matrix.md) 이(가) 이 새로운 릴리스와 함께 제공되는 변경 사항으로 업데이트되었으며, 아래에 나열되어 있습니다.
+
+* Adobe Campaign은 이제 와 호환됩니다. **Microsoft 서버 2022** 및 **RHEL 9** 운영 체제.
+
+* Adobe Campaign은 이제 와 호환됩니다. **Microsoft Server 2022** 및 **Oracle 23c** 를 관계 데이터베이스 관리 시스템으로, FDA(Federated Data Access)로,
+
+* 이제 Adobe Campaign에 JDK(Java Development Kit) 11 이상이 필요합니다. Windows에서는 의 설명에 따라 JRE를 사용할 수 있어야 합니다. [이 섹션](../../installation/using/application-server.md#jdk).
+
+* 모바일 애플리케이션용 Campaign(Neolane) SDK는 이제 더 이상 사용되지 않습니다. 이제 Adobe Experience Platform SDK로 전환해야 합니다. [자세히 알아보기](deprecated-features.md).
+
+  서비스 연속성을 보장하기 위해 Campaign v7.4에는 다음이 포함되어 있습니다.
+
+   * iOS 16 및 17과 호환되는 iOS용 새 Campaign SDK 1.0.27 및 최신 버전 [Apple iOS 개인 정보 보호 요청 요구 사항](https://developer.apple.com/news/?id=r1henawx){target="_blank"}.
+   * android 14용 새로운 Campaign SDK.
 
 
-* Campaign Classic v7.3.5를 통해 인증 프로세스가 개선되고 안전해졌습니다. 이제 기술 운영자는 Adobe IMS(Identity Management System)를 사용하여 Campaign에 연결해야 합니다. [이 기술 노트](../../technotes/using/ims-migration.md)에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다.
+### 패치 {#release-7-4-1-patches}
 
-* 또한 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Adobe Campaign은 최종 사용자 인증 모드를 로그인/암호 기본 인증에서 Adobe IMS(Identity Management System)로 마이그레이션할 것을 강력히 권장합니다. [이 기술 노트](../../technotes/using/migrate-users-to-ims.md)에서 운영자를 마이그레이션하는 방법을 알아봅니다.
+이 릴리스는 다음 수정 사항과 함께 제공됩니다.
 
-* 이제 웹 양식이 **게시 보류 중** 상태인 경우 자동으로 게시되지 않습니다. 보안 문제를 방지하려면 **온라인**&#x200B;이 되기 전에 게시해야 하며 웹 브라우저에서 웹 양식 URL을 통해 액세스할 수 있어야 합니다. [자세히 보기](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
-
-### 패치 {#release-7-3-5-patches}
-
-* Google Big Query 데이터베이스의 데이터를 사용하고 Oracle 데이터베이스의 데이터를 업데이트할 때 워크플로우 임시 테이블의 모든 키가 `0`(으)로 설정되는 문제를 해결했습니다. (NEO-65091)
-* Google Big Query 데이터베이스의 두 쿼리가 **합집합** 워크플로우 활동으로 결합되어 있을 때 워크플로우 실행에 실패하는 문제를 해결했습니다. (NEO-63705)
-* Campaign 보고서의 `Back` 버튼을 클릭할 때 사용자에게 다시 인증하라는 요청이 표시되는 문제를 해결했습니다. (NEO-65087)
-* 게재 증명 전에 게재를 삭제할 때 발생하는 데이터베이스 정리 워크플로우의 오류를 해결했습니다. (NEO-48114)
-* TLS 인증에 대한 최근 업데이트로 인해 클라이언트 콘솔에 연결할 때 연결 오류가 발생하는 문제를 해결했습니다. (NEO-50488)
-* Campaign을 7.3.1로 업그레이드한 후 HTTP 프록시 인증 시 Campaign 워크플로우의 HTTP 요청이 실패하며 `error 407 – proxy auth required is returned`라는 오류 메시지가 표시되는 문제를 해결했습니다. (NEO-49624)
-* **스크립트** 워크플로우 활동에서 GPG 암호 해독이 간헐적으로 실패하는 오류를 해결했습니다. 관련 오류 메시지는 다음과 같습니다. `gpg: decryption failed: No secret key`. (NEO-50257)
-  <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
+NEO-74754, NEO-73174, NEO-72504, NEO-71534, NEO-71473, NEO-70195, NEO-69663, NEO-69651, NEO-67620, NEO-67235, NEO-66797, NEO-64680, NEO-63706, NEO-63657, NEO-62964, NEO-62575, NEO-58734 40531 36189 29592
 
