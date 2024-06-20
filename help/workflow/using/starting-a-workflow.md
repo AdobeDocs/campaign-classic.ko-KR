@@ -4,10 +4,10 @@ title: 워크플로우 시작
 description: 워크플로우를 시작하고 워크플로우 작업 을 검색하는 방법 도구 모음 및 마우스 오른쪽 버튼 클릭 메뉴
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 98815fe0417f9126826e0273caa80888164793ec
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -64,6 +64,16 @@ ht-degree: 1%
   이 작업은 중지된 후 워크플로우를 다시 시작합니다. 대부분의 경우 이를 통해 보다 빠르게 다시 시작할 수 있습니다. 중지하는 데 일정 시간이 걸리는 경우 다시 시작을 자동화하는 것도 유용합니다. 워크플로우를 중지하는 동안에는 &#39;중지&#39; 명령을 사용할 수 없기 때문입니다.
 
   다음 **[!UICONTROL Start / Pause / Stop / Restart]** 작업은 도구 모음의 실행 아이콘을 통해서도 사용할 수 있습니다. 자세한 정보는 이 [섹션](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow)을 참조하십시오.
+
+  다음 사항에 주의하십시오. **다시 시작** 작업이 과 비교하여 워크플로 인스턴스 변수를 지우지 않습니다. **실행**, **중지**, 및 **시작** 작업(시작 작업 시 발생하는 인스턴스 변수 지우기). 워크플로우를 다시 시작할 때 인스턴스 변수를 보존된 값과 함께 사용할 수 있습니다. 이를 지우려면 다음 중 하나를 수행합니다.
+   * 수행 **중지** 및 **시작** 작업.
+   * 워크플로우 실행이 끝나면 아래 javascript 코드를 추가합니다.
+
+     ```
+     var wkf = xtk.workflow.load(instance.id)
+     wkf.variables='<variables/>'
+     wkf.save()
+     ```
 
 * **[!UICONTROL Purge history]**
 
