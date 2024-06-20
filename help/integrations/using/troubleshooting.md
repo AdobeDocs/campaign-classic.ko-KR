@@ -7,10 +7,12 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
+hide: true
+hidefromtoc: true
 exl-id: 61bb184e-affa-430c-8571-56e911cd5a3d
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '136'
 ht-degree: 3%
 
 ---
@@ -32,4 +34,4 @@ ht-degree: 3%
 
   위치 **[!UICONTROL Administration > Platform > AMC Data sources]**&#x200B;를 클릭하여 AMC 데이터 소스가 제대로 설정되어 있는지 확인합니다.
 
-People 핵심 서비스를 통해 대상자를 공유하거나 대상자를 가져올 때 일부 데이터가 누락될 수 있습니다. ID(&#39;방문자 ID&#39; 또는 &#39;선언된 ID&#39;)가 프로필 차원과 조정될 수 있는 레코드만 전송됩니다. Adobe Campaign에서 인식하지 못하는 사람 핵심 서비스 세그먼트의 ID는 가져오지 않습니다.
+Experience Cloud 대상을 통해 대상을 공유하거나 대상을 가져올 때 일부 데이터가 누락될 수 있습니다. ID(&#39;방문자 ID&#39; 또는 &#39;선언된 ID&#39;)가 프로필 차원과 조정될 수 있는 레코드만 전송됩니다. Adobe Campaign에서 인식하지 못하는 세그먼트의 ID는 가져오지 않습니다.

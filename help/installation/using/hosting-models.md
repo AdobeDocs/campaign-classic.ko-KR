@@ -6,7 +6,7 @@ feature: Installation, Architecture, Deployment
 role: Architect
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: a38d53f4b37aadbc53446b5e399af2eae56c12af
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Adobe Campaign을 온-프레미스로 배포할 수 있습니다. 사용자 인�
 * 다음을 읽어 보십시오. [호환성 매트릭스](../../rn/using/compatibility-matrix.md) Adobe Campaign에 대해 지원되는 시스템 및 구성 요소의 모든 버전이 나열됩니다.
 * 환경에 따라 다음을 참조하십시오. [windows용 사전 요구 사항](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) 및 [linux 사전 요구 사항](../../installation/using/prerequisites-of-campaign-installation-in-linux.md).
 * 데이터베이스 엔진 관련 권장 사항 알아보기 [이 섹션에서](../../installation/using/database.md).
-* 필요한 데이터베이스 액세스 레이어가 서버에 설치되어 있고 Adobe Campaign 계정에서 액세스할 수 있는지 확인하십시오. [자세히 알아보기](../../installation/using/application-server.md)
+* 필요한 데이터베이스 액세스 레이어가 서버에 설치되어 있고 Adobe Campaign 계정에서 액세스할 수 있는지 확인하십시오. [자세히 알아보기](../../installation/using/application-server.md).
 * 일부 프로세스가 다른 프로세스와 통신하거나 LAN 및 인터넷에 액세스해야 하므로 네트워크를 구성합니다. 즉, 이러한 프로세스를 위해 일부 TCP 포트를 열어야 합니다. [자세히 알아보기](../../installation/using/network-configuration.md) 네트워크 구성 요구 사항 정보.
 * 읽기 [Campaign 보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html).
 * 온프레미스 배포에 대한 하드웨어 요구 사항 추정에 대한 일반 지침 확인 [이 문서에서](https://helpx.adobe.com/kr/campaign/kb/hardware-sizing-guide.html).

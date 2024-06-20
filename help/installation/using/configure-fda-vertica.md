@@ -1,20 +1,20 @@
 ---
 product: campaign
-title: vertica analytics에 대한 액세스 구성
-description: FDA에서 Vertica analytics에 대한 액세스를 구성하는 방법 알아보기
+title: ' [!DNL Vertica Analytics] 액세스 구성'
+description: 액세스 권한 구성 방법 알아보기 [!DNL Vertica Analytics] FDA에서
 feature: Installation, Federated Data Access
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: fcc42e84817277ad46218165b5acef370747c1ca
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 0%
+source-wordcount: '355'
+ht-degree: 1%
 
 ---
 
-# vertica analytics에 대한 액세스 구성 {#configure-fda-vertica}
+# 액세스 권한 구성 [!DNL Vertica Analytics] {#configure-fda-vertica}
 
 
 
@@ -25,7 +25,7 @@ Campaign 사용 **페더레이션 데이터 액세스** (FDA) 외부 데이터�
 
 ![](assets/snowflake_3.png)
 
-## CentOS의 vertica analytics {#vertica-centos}
+## [!DNL Vertica Analytics] CentOS에서 {#vertica-centos}
 
 구성하려면 [!DNL Vertica Analytics] CentOS에서 아래 단계를 수행합니다.
 
@@ -79,7 +79,7 @@ Campaign 사용 **페더레이션 데이터 액세스** (FDA) 외부 데이터�
 
 1. 그런 다음 Adobe Campaign에서 다음을 구성할 수 있습니다. [!DNL Vertica Analytics] 외부 계정입니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#vertica-external).
 
-## Windows의 vertica analytics {#vertica-windows}
+## [!DNL Vertica Analytics] Windows의 경우 {#vertica-windows}
 
 1. 다운로드 [Windows용 ODBC 드라이버](https://www.vertica.com/download/vertica/client-drivers/). Windows용 드라이버를 설치하려면 .NET Framework 3.5를 사용하도록 설정해야 합니다. 그렇지 않으면 설치 마법사가 자동으로 사용하도록 설정하고 다운로드합니다.
 
@@ -87,7 +87,7 @@ Campaign 사용 **페더레이션 데이터 액세스** (FDA) 외부 데이터�
 
 1. 그런 다음 Adobe Campaign에서 다음을 구성할 수 있습니다. [!DNL Vertica Analytics] 외부 계정입니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#vertical-external).
 
-## 데비안 vertica analytics {#vertica-debian}
+## [!DNL Vertica Analytics] 데비안에서 {#vertica-debian}
 
 1. 다음에 대한 ODBC 드라이버 다운로드 [!DNL Vertica Analytics]. [여기를 클릭하십시오.](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) 다운로드를 시작합니다.
 
@@ -141,7 +141,7 @@ Campaign 사용 **페더레이션 데이터 액세스** (FDA) 외부 데이터�
 
 1. 그런 다음 Adobe Campaign에서 다음을 구성할 수 있습니다. [!DNL Vertica Analytics] 외부 계정입니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#vertica-external).
 
-## Vertica analytics 외부 계정 {#vertica-external}
+## [!DNL Vertica Analytics] 외부 계정 {#vertica-external}
 
 다음을 만들어야 합니다. [!DNL Vertica Analytics] Campaign 인스턴스를 [!DNL Vertica Analytics] 외부 데이터베이스.
 

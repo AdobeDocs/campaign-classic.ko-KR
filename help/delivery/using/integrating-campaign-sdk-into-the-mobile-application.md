@@ -4,8 +4,10 @@ title: Campaign SDK 통합
 description: Campaign SDK를 모바일 앱에 통합하는 방법을 알아봅니다
 feature: Mobile SDK Integration, Push
 role: User, Developer
+hide: true
+hidefromtoc: true
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: 00d46a7508def4d472e6bb8940a4d40a23c4fb07
+source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 0%
@@ -13,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Campaign SDK를 앱과 통합 {#integrating-campaign-sdk-into-the-mobile-application}
-
-
 
 >[!CAUTION]
 >

@@ -8,16 +8,18 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
-source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
+source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '221'
 ht-degree: 3%
 
 ---
 
 # 암호 분실{#lost-password}
 
-
+>[!NOTE]
+>
+>이 페이지는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다.
 
 분실된 암호를 변경하거나 복구할 수 있습니다.
 다음과 같은 두 가지 가능한 시나리오가 있습니다.

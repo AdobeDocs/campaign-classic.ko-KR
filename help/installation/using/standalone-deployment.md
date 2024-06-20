@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 2%
@@ -89,7 +89,7 @@ ht-degree: 2%
 
 1. Adobe Campaign 서버가 설치되면 명령을 사용하여 애플리케이션 서버(웹)를 시작합니다 **nlserver web -tomcat** (웹 모듈을 사용하면 포트 8080에서 수신하는 독립 실행형 웹 서버 모드에서 Tomcat을 시작할 수 있음) Tomcat이 올바르게 시작되었는지 확인할 수 있습니다.
 
-   ```
+   ```sql
    12:08:18 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    12:08:18 >   Starting Web server module (pid=28505, tid=-1225184768)...
    12:08:18 >   Tomcat started
@@ -165,7 +165,7 @@ ht-degree: 2%
 
    자세한 내용은 다음을 참조하십시오. [Campaign 서버 구성](../../installation/using/configuring-campaign-server.md).
 
-1. 클라이언트 콘솔 설치 프로그램 복사 **setup-client-7.XXX.exe** (으)로 **/datakit/nl/eng/jsp** 폴더를 삭제합니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
+1. 클라이언트 콘솔 설치 프로그램 복사 **setup-client-7.XXX.exe** (으)로 **/datakit/nl/eng/jsp** 폴더를 삭제합니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md).
 
 1. 다음 섹션에 설명된 웹 서버 통합 절차(IIS, Apache)를 따릅니다.
 
@@ -191,7 +191,7 @@ ht-degree: 2%
    >
    >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
 
-   ```
+   ```sql
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    syslogd@default (7611) - 9.2 MB
    stat@demo (5988) - 1.5 MB
@@ -208,7 +208,7 @@ ht-degree: 2%
 
    이 URL을 사용하면 클라이언트 설치 프로그램의 다운로드 페이지에 액세스할 수 있습니다.
 
-   다음을 입력합니다. **내부** 액세스 제어 페이지에 도달하면 로그인 및 관련 암호. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
+   다음을 입력합니다. **내부** 액세스 제어 페이지에 도달하면 로그인 및 관련 암호. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md).
 
    ![](assets/s_ncs_install_access_client.png)
 

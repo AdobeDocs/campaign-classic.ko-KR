@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: ef6a864c76c04ac94383c1c2ad74095dd5ef63a1
+source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
 workflow-type: tm+mt
 source-wordcount: '1757'
 ht-degree: 8%
@@ -292,7 +292,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 다음을 구�
 
 ![](assets/ext_account_10.png)
 
-이 외부 계정의 경우 추적된 URL의 계산 수식을 보강하고 두 솔루션 간의 연결을 승인해야 합니다. 자세한 정보는 이 [페이지](../../platform/using/gs-aa.md)를 참조하십시오.
+이 외부 계정의 경우 추적된 URL의 계산 수식을 보강하고 두 솔루션 간의 연결을 승인해야 합니다. 자세한 정보는 이 [페이지](../../integrations/using/gs-aa.md)를 참조하십시오.
 
 ### Adobe Experience Manager {#adobe-experience-manager-external-account}
 
@@ -320,7 +320,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 다음을 구�
 
 >[!NOTE]
 >
-> **[!UICONTROL On-premise]** 및 **[!UICONTROL Office 365]** 이제 배포 유형이 더 이상 사용되지 않습니다. [자세히 알아보기](../../rn/using/deprecated-features.md)
+> **[!UICONTROL On-premise]** 및 **[!UICONTROL Office 365]** 이제 배포 유형이 더 이상 사용되지 않습니다. [자세히 알아보기](../../rn/using/deprecated-features.md).
 
 다음 **[!UICONTROL Microsoft Dynamics CRM]** 외부 계정을 사용하면 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
 

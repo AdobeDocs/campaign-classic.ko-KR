@@ -3,7 +3,7 @@ product: campaign
 title: 웹 분석
 description: 웹 분석 패키지에 대해 자세히 알아보기
 feature: Workflows, Analytics Integration
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 
 
-아래에 설명된 워크플로우는 **웹 분석 커넥터** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 정보는 다음을 참조하십시오. [섹션](../../platform/using/gs-aa.md).
+아래에 설명된 워크플로우는 **웹 분석 커넥터** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 정보는 다음을 참조하십시오. [섹션](../../integrations/using/gs-aa.md).
 
 <table> 
  <tbody> 

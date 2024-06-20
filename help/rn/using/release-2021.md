@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: 88edf912235edf729b173c3fb79fb6479657e58d
-workflow-type: ht
-source-wordcount: '2592'
-ht-degree: 100%
+source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
+workflow-type: tm+mt
+source-wordcount: '2584'
+ht-degree: 99%
 
 ---
 
@@ -185,8 +185,7 @@ _2021년 6월 5일_
 
 **사용되지 않는 기능**
 
-* Campaign 21.1 릴리스부터 Adobe Analytics 데이터 커넥터는 사용 중단됩니다. 이 커넥터를 사용하는 경우 새로운 커넥터인 Adobe Analytics 커넥터에 맞게 구현을 조정해야 합니다.
-자세한 내용은 [세부 설명서](../../technotes/using/aa-connector-migration.md)를 참조하십시오.
+* Campaign 21.1 릴리스부터 Adobe Analytics 데이터 커넥터는 사용 중단됩니다. 이 커넥터를 사용하는 경우 새로운 커넥터 Adobe Analytics 커넥터에 따라 구현을 조정해야 합니다.
 * Debian 8에 대한 지원은 이제 중단되었습니다.
 * 20.3에서 Oracle CRM의 사용 중단 이후, 관련 외부 계정이 인터페이스에서 제거되었습니다.
 

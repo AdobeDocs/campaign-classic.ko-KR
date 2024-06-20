@@ -5,10 +5,10 @@ description: Android용 모바일 애플리케이션을 설정하는 방법 알�
 feature: Push
 role: User, Developer
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 11%
+source-wordcount: '837'
+ht-degree: 10%
 
 ---
 
@@ -90,7 +90,7 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
    ![](assets/nmac_android.png)
 
-1. 동일한 것으로 확인 **[!UICONTROL Integration key]** 는 Adobe Campaign 및 SDK를 통한 애플리케이션 코드에 정의되어 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](integrating-campaign-sdk-into-the-mobile-application.md)을 참조하십시오.
+1. 동일한 것으로 확인 **[!UICONTROL Integration key]** 는 Adobe Campaign 및 SDK를 통한 애플리케이션 코드에 정의되어 있습니다. <!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
 
    >[!NOTE]
    >
@@ -156,4 +156,4 @@ HTTP v1 API 버전을 구성하려면 아래 단계를 수행합니다.
 
    >[!CAUTION]
    >
-   >에서 구성 이름을 확인하십시오. **[!UICONTROL Subscription parameters]** 탭은 모바일 애플리케이션 코드의 탭과 동일합니다. [이 섹션](integrating-campaign-sdk-into-the-mobile-application.md)을 참조하십시오.
+   >에서 구성 이름을 확인하십시오. **[!UICONTROL Subscription parameters]** 탭은 모바일 애플리케이션 코드의 탭과 동일합니다. <!--Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->

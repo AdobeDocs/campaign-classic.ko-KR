@@ -7,9 +7,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 271e0f9fde0cbfb016e201c8390b26673d8fc696
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '833'
 ht-degree: 1%
 
 ---
@@ -31,15 +31,13 @@ ht-degree: 1%
 * 조직에 대한 개발자 액세스 권한
 * Adobe Analytics의 유효한 트리거 구성
 
-## 인증 및 구성 파일 {#authentication-configuration}
-
-파이프라인이 Adobe Experience Cloud에서 호스팅되므로 인증이 필요합니다. 공개 키와 개인 키 쌍을 사용합니다. 이 프로세스는 사용자/암호와 동일한 기능을 가지고 있지만 보다 안전합니다. 인증은 Adobe Developer 프로젝트를 통해 Marketing Cloud에 대해 지원됩니다.
+파이프라인이 Adobe Experience Cloud에서 호스팅되므로 인증이 필요합니다. Adobe Developer 프로젝트를 통해에 지원되는 인증을 사용합니다.
 
 ## 1단계: Adobe Developer 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
 
-호스팅된 고객의 경우, Adobe 담당자/고객 지원 팀과 협력하여 트리거 통합을 위해 조직에서 Adobe Developer 계정 토큰을 사용할 수 있도록 하십시오.
+트리거 통합을 위해 Adobe Developer 계정 토큰을 사용하여 조직을 활성화해야 합니다.
 
-온-프레미스/하이브리드 고객의 경우 [Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성](../../integrations/using/configuring-adobe-io.md) 페이지를 가리키도록 업데이트하는 중입니다. 다음을 선택해야 합니다. **[!UICONTROL Adobe Analytics]** Adobe Developer 자격 증명에 API를 추가하는 동안.
+에서 Adobe 기술 계정을 만드는 방법을 알아봅니다 [이 페이지](../../integrations/using/oauth-technical-account.md). 다음을 선택해야 합니다. **[!UICONTROL Adobe Analytics]** Adobe Developer 자격 증명에 API를 추가하는 동안.
 
 ## 2단계: 파이프라인 옵션 구성 {#configuring-nmspipeline}
 
@@ -111,7 +109,7 @@ ht-degree: 1%
 * 다음 `pipelined`프로세스는 &quot;별칭&quot; 항목도 지원합니다.
 * 항상 다시 시작해야 합니다. `pipelined`변경 후 처리합니다.
 
-## 3단계: 선택적 구성 {#step-optional}
+## (선택 사항) 3단계: 추가 구성 {#step-optional}
 
 로드 요구 사항에 따라 일부 내부 매개 변수를 변경할 수 있지만, 프로덕션 환경에 적용하기 전에 테스트해야 합니다.
 

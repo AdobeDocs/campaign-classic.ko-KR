@@ -6,7 +6,7 @@ feature: Technote, Upgrade
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 8%
@@ -73,7 +73,7 @@ ht-degree: 8%
 
 ## Adobe Identity Management 시스템(IMS) 업데이트
 
-IMS(Adobe ID 서비스)가에서 이전 Internet Explorer 버전 지원을 중단합니다. **2021년 6월 30일**. [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
+IMS(Adobe ID 서비스)가에서 이전 Internet Explorer 버전 지원을 중단합니다. **2021년 6월 30일**. [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
 Adobe IMS와의 호환성을 보장하려면 Campaign 클라이언트 콘솔을 업그레이드해야 합니다.
 
@@ -123,11 +123,11 @@ Campaign에 연결하는 경우 [Adobe ID을 통해](../../integrations/using/ab
 
 **업데이트 방법**
 
-인스턴스가 최신 버전으로 업그레이드되면 모든 고객은 다음을 따라야 합니다. [새 인증 모드로 프로시저 이동](../../integrations/using/configuring-adobe-io.md). 이를 위해서는 새 Adobe I/O 토큰을 생성하고 구현에서 사용해야 합니다.  
+인스턴스가 최신 버전으로 업그레이드되면 모든 고객은 다음을 따라야 합니다. [새 인증 모드로 프로시저 이동](../../integrations/using/about-triggers.md#implement). 이를 위해서는 새 Adobe I/O 토큰을 생성하고 구현에서 사용해야 합니다.  
 
-또한 하이브리드 환경의 경우 고객은 파이프라인이 중간 소싱 인스턴스에 구성되어 있는지 확인해야 합니다. [자세히 알아보기](../../integrations/using/configuring-pipeline.md)
+또한 하이브리드 환경의 경우 고객은 파이프라인이 중간 소싱 인스턴스에 구성되어 있는지 확인해야 합니다. [자세히 알아보기](../../integrations/using/configuring-pipeline.md).
 
-[Adobe I/O으로 마이그레이션하는 방법 알아보기](../../integrations/using/configuring-adobe-io.md).
+[Adobe I/O으로 마이그레이션하는 방법 알아보기](../../integrations/using/about-triggers.md#implement).
 
 ## APNs 업데이트 {#acc-apns-updates}
 

@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Windows 환경에서 아래 단계에 따라 Adobe Campaign을 새 빌드로 업
 
 1. 를 실행하여 활성화된 작업이 없는지 확인 **nlserver 덤프** 명령입니다. 다음이 표시됩니다.
 
-   ```
+   ```sql
    C:<installation path>Adobe Campaign v7bin>nlserver pdump
    HH:MM:SS > Application Server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    No tasks

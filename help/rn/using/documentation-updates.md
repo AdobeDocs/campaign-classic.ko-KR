@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: c736ac1cda9490548f1e4b56142d61fccaca5c4a
-workflow-type: ht
-source-wordcount: '3764'
-ht-degree: 100%
+source-git-commit: 98859f6452b5f1008a19a48b9b77edd9acf49261
+workflow-type: tm+mt
+source-wordcount: '3746'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
 ## 2024
+
+### 2024년 6월 {#june-2024}
+
+워크플로우를 다시 시작할 때 인스턴스 변수를 지우는 방법을 지정하는 메모가 추가되었습니다. [자세히 보기](../../workflow/using/starting-a-workflow.md)
 
 ### 2024년 4월 {#apr-2024}
 
@@ -78,7 +82,7 @@ Teradata 17이 지원되도록 호환성 매트릭스를 업데이트했습니�
 
 ## 2022년 7월 {#july-2022}
 
-새 게재 기능 서버로 전환하는 방법은 새 기술 문서에 자세히 설명되어 있습니다. [자세히 보기](../../technotes/using/deliverability-server.md)
+<!--Transition to the new deliverability server is detailed in a new technote. [Read more](../../technotes/using/deliverability-server.md)-->
 
 **릴리스 7.3.1에 따른 설명서 업데이트**
 
@@ -151,11 +155,9 @@ CentOs 8은 수명이 종료되었으며 이제 Adobe Campaign Classic에서 더
 
 CRM 커넥터 배포에 대한 마이그레이션 프로세스 로그 세부 정보를 업데이트했습니다. [자세히 표시](../../migration/using/testing-the-migration.md#verification-process)
 
-Adobe Campaign-Adobe Analytics 통합을 구현하기 위한 IMS 권한에 대한 요구 사항이 추가되었습니다. [자세히 표시](../../platform/using/adobe-analytics-provisioning.md)
+Adobe Campaign-Adobe Analytics 통합을 구현하기 위한 IMS 권한에 대한 요구 사항이 추가되었습니다. [자세히 표시](../../integrations/using/adobe-analytics-provisioning.md)
 
 Adobe Analytics Data Connector 수명 종료 날짜를 2022년 3월 1일에서 2022년 8월 17일로 업데이트했습니다. [자세히 표시](deprecated-features.md)
-
-Launch에서 Campaign 확장을 구성하는 방법을 학습하기 위해 Adobe Experience Platform 모바일 SDK 설명서에 대한 링크를 추가했습니다. [자세히 표시](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
 
 JavaScript를 사용하여 값을 계산하고 데이터를 교환하며 SOAP 호출을 사용하여 특정 작업을 실행하는 방법에 대한 섹션을 추가했습니다.[자세히 표시](../../workflow/using/javascript-scripts-and-templates.md)
 
@@ -346,7 +348,7 @@ Android용 푸시 알림 개선 - [자세한 내용](../../delivery/using/config
 [!DNL Gold Standard] 릴리스의 릴리스 정보 및 호환성 매트릭스를 이제 전용 섹션에서 확인할 수 있습니다.
 [자세한 내용](../../rn/using/gold-standard.md).
 
-기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합이 변경되었으며 Adobe I/O로 이동되었습니다. [자세히 알아보기](../../integrations/using/configuring-adobe-io.md)
+기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합이 변경되었으며 Adobe I/O로 이동되었습니다. [자세히 알아보기](../../integrations/using/about-triggers.md#implement)
 
 **기타 업데이트**
 

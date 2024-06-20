@@ -6,14 +6,46 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
-source-git-commit: ac086604b17df96355563308c3dec3096b407542
-workflow-type: ht
-source-wordcount: '1973'
-ht-degree: 100%
+source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
+workflow-type: tm+mt
+source-wordcount: '2337'
+ht-degree: 97%
 
 ---
 
 # 2023년 릴리스{#release-2023}
+
+## 릴리스 7.3.5 - 빌드 9368 {#release-7-3-5}
+
+[!BADGE 제한 공개]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
+
+_2023년 12월 5일 수요일_
+
+### 보안 기능 개선 {#release-7-3-5-security}
+
+
+* Campaign Classic v7.3.5를 통해 인증 프로세스가 개선되고 안전해졌습니다. 이제 기술 운영자는 Adobe IMS(Identity Management System)를 사용하여 Campaign에 연결해야 합니다. [이 기술 노트](../../technotes/using/ims-migration.md)에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다.
+
+* 또한 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Adobe Campaign은 최종 사용자 인증 모드를 로그인/암호 기본 인증에서 Adobe IMS(Identity Management System)로 마이그레이션할 것을 강력히 권장합니다. [이 기술 노트](../../technotes/using/migrate-users-to-ims.md)에서 운영자를 마이그레이션하는 방법을 알아봅니다.
+
+* 이제 웹 양식이 **게시 보류 중** 상태인 경우 자동으로 게시되지 않습니다. 보안 문제를 방지하려면 **온라인**&#x200B;이 되기 전에 게시해야 하며 웹 브라우저에서 웹 양식 URL을 통해 액세스할 수 있어야 합니다. [자세히 보기](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
+
+### 기타 개선 사항 {#release-7-3-5-other}
+
+이 릴리스부터 이미 전송된 이메일의 링크 추적은 업그레이드 중에도 계속 작동합니다. [자세히 보기](../../platform/using/faq-build-upgrade.md)
+
+### 패치 {#release-7-3-5-patches}
+
+* Google Big Query 데이터베이스의 데이터를 사용하고 Oracle 데이터베이스의 데이터를 업데이트할 때 워크플로우 임시 테이블의 모든 키가 `0`(으)로 설정되는 문제를 해결했습니다. (NEO-65091)
+* Google Big Query 데이터베이스의 두 쿼리가 **합집합** 워크플로우 활동으로 결합되어 있을 때 워크플로우 실행에 실패하는 문제를 해결했습니다. (NEO-63705)
+* Campaign 보고서의 `Back` 버튼을 클릭할 때 사용자에게 다시 인증하라는 요청이 표시되는 문제를 해결했습니다. (NEO-65087)
+* 게재 증명 전에 게재를 삭제할 때 발생하는 데이터베이스 정리 워크플로우의 오류를 해결했습니다. (NEO-48114)
+* TLS 인증에 대한 최근 업데이트로 인해 클라이언트 콘솔에 연결할 때 연결 오류가 발생하는 문제를 해결했습니다. (NEO-50488)
+* Campaign을 7.3.1로 업그레이드한 후 HTTP 프록시 인증 시 Campaign 워크플로우의 HTTP 요청이 실패하며 `error 407 – proxy auth required is returned`라는 오류 메시지가 표시되는 문제를 해결했습니다. (NEO-49624)
+* **스크립트** 워크플로우 활동에서 GPG 암호 해독이 간헐적으로 실패하는 오류를 해결했습니다. 관련 오류 메시지는 다음과 같습니다. `gpg: decryption failed: No secret key`. (NEO-50257)
+  <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
+
+
 
 
 ## 릴리스 7.3.4 - 빌드 9364 {#release-7-3-4}
@@ -103,12 +135,12 @@ _2023년 3월 20일_
 * 보안을 최적화하기 위해 Tomcat이 버전 8.5.81에서 8.5.85로 업데이트되었습니다. (NEO-56936)
 
 
-
 ### 개선 사항 {#release-7-3-3-improvements}
 
 * 과금 워크플로우를 개선하여 성능을 최적화했습니다. (NEO-47658)
 * 추적 워크플로우를 개선하여 게재 용량이 큰 경우의 성능을 최적화했습니다. (NEO-45064)
 * 추적 관리를 개선하여 URL의 동적 매개 변수에 발생할 수 있는 문제를 해결했습니다. 이제 추적 관리 v3가 ajax 유형 URL(‘#’ 뒤에 매개 변수가 있음)을 처리하며 서드파티 도구에서 추적 URL을 수정하지 못하도록 합니다. 이 변경 사항을 적용하려면 Adobe에 문의해야 합니다. (NEO-46535)
+* 이 릴리스부터 이미 전송된 이메일의 링크 추적은 업그레이드 중에도 계속 작동합니다. [자세히 보기](../../platform/using/faq-build-upgrade.md)
 
 <!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
 
@@ -150,6 +182,8 @@ _2022년 11월 21일_
 * 이제 Google BigQuery 커넥터가 부울 필드를 완전히 지원합니다. (NEO-49181)
 * 이제 serverConf.xml 파일의 `Configuration for the redirection service` 섹션에서 IMS 쿠키 유효 기간을 구성할 수 있습니다. 이는 `uuid230`, `nllastdelid` 및 `AMCV_`(NEO-42541) 쿠키에 적용됩니다.
 * 이제 `showSourceIP`을(를) serverConf.xml 파일의 리디렉션 노드에서 false로 설정하여 IP를 “/r/test” 요청에서 숨길 수 있습니다. [자세히 보기](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
+* 이 릴리스부터 이미 전송된 이메일의 링크 추적은 업그레이드 중에도 계속 작동합니다. [자세히 보기](../../platform/using/faq-build-upgrade.md)
+
 
 ### 사용되지 않는 기능  {#release-7-3-2-deprecated}
 

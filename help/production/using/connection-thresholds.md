@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 757e3a5395f24e0bdd04737aba0458881e4ea780
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 4%
 
    * **Tomcat** 측면: 실제로 Adobe Campaign Tomcat 클라이언트에 도착하는 모든 쿼리
 
-     이 임계값은 **nl6/tomcat-8/conf/server.xml** 파일. 다음 **maxThread** 속성을 사용하면 한 번에 처리되는 쿼리 수의 임계값을 늘릴 수 있습니다. 예를 들어 250으로 변경할 수 있습니다.
+     이 임계값은 **nl6/tomcat-X/conf/server.xml** 파일. 다음 **maxThread** 속성을 사용하면 한 번에 처리되는 쿼리 수의 임계값을 늘릴 수 있습니다. 예를 들어 250으로 변경할 수 있습니다.
 
      ```
      <Connector protocol="HTTP/1.1" port="8080"

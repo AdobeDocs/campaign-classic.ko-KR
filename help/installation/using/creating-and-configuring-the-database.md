@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1306'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 1%
 선택된 데이터베이스 엔진에 따라, 서버 식별 정보는 달라질 수 있다.
 
 * 의 경우 **Oracle** 엔진, 다음을 채우기 **TNS 이름** 응용 프로그램 서버에 대해 정의됩니다.
-* 의 경우 **PostgreSql** 또는 **DB2** 데이터베이스 서버에 액세스하려면 애플리케이션 서버에 정의된 DNS 이름(또는 IP 주소)을 지정해야 합니다.
+* 의 경우 **PostgreSql** 데이터베이스 서버에 액세스하려면 애플리케이션 서버에 정의된 DNS 이름(또는 IP 주소)을 지정해야 합니다.
 * 의 경우 **Microsoft Server** 엔진, 다음을 정의해야 합니다. 데이터베이스 서버에 액세스하려면 애플리케이션 서버에 정의된 DNS 이름(또는 IP 주소): **DNS** 또는 **DNS`\<instance>`** (인스턴스 모드),
 
   >[!CAUTION]
@@ -78,7 +78,6 @@ ht-degree: 1%
 * **시스템** oracle 데이터베이스의 경우
 * **sa** Microsoft SQL Server 데이터베이스의 경우
 * **postgres** PostgreSQL 데이터베이스의 경우
-* **db2inst1** DB2 데이터베이스용
 
 ### 3단계 - 데이터베이스 연결 및 특성 {#step-3---connection-and-characteristics-of-the-database}
 
@@ -89,11 +88,6 @@ ht-degree: 1%
 다음 설정을 정의해야 합니다.
 
 * 생성할 데이터베이스의 이름을 지정합니다.
-
-  >[!NOTE]
-  >
-  >DB2 데이터베이스의 경우 데이터베이스 이름은 8자를 초과할 수 없습니다.
-
 * 이 데이터베이스에 연결된 계정의 암호를 입력합니다.
 * 데이터베이스가 유니코드로 되어 있어야 하는지 여부를 나타냅니다.
 
@@ -182,7 +176,7 @@ ht-degree: 1%
 선택된 데이터베이스 엔진에 따라, 서버 식별 정보는 달라질 수 있다.
 
 * 의 경우 **Oracle** 엔진, 다음을 채우기 **TNS 이름** 응용 프로그램 서버에 대해 정의됩니다.
-* 의 경우 **PostgreSql** 또는 **DB2** 데이터베이스 서버에 액세스하려면 애플리케이션 서버에 정의된 DNS 이름(또는 IP 주소)을 지정해야 합니다.
+* 의 경우 **PostgreSql** 데이터베이스 서버에 액세스하려면 애플리케이션 서버에 정의된 DNS 이름(또는 IP 주소)을 지정해야 합니다.
 * 의 경우 **Microsoft Server** 엔진, 다음을 정의해야 합니다.
 
    1. 데이터베이스 서버에 액세스하기 위해 애플리케이션 서버에 정의된 DNS 이름(또는 IP 주소),

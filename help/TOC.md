@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
-workflow-type: ht
-source-wordcount: '2548'
-ht-degree: 100%
+source-git-commit: 3307c75ed7df0fcd357dd7c684481c62e0457e04
+workflow-type: tm+mt
+source-wordcount: '2552'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
    + [업그레이드 시작](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
    + 이전 릴리스 {#previous-releases}
+      + [20](rn/using/release-2024.md)
       + [2023](rn/using/release-2023.md)
       + [2022](rn/using/release-2022.md)
       + [2021](rn/using/release-2021.md)
@@ -36,6 +37,7 @@ ht-degree: 100%
          + [Campaign UI 시작](platform/using/adobe-campaign-workspace.md)
          + [Campaign 탐색기 사용](platform/using/adobe-campaign-explorer.md)
          + [목록 찾아보기 및 사용자 지정](platform/using/adobe-campaign-ui-lists.md)
+      + [Campaign 커넥터](platform/using/about-connectors.md)
       + FAQ {#faq}
          + [주요 질문](platform/using/common-questions.md)
          + [전반적 개념](platform/using/faq-key-concepts.md)
@@ -100,17 +102,11 @@ ht-degree: 100%
    + 데이터 패키지 및 열거형 {#administration-basics}
       + [데이터 패키지](platform/using/working-with-data-packages.md)
       + [열거형](platform/using/managing-enumerations.md)
-   + 커넥터 {#connectors}
-      + [커넥터 정보](platform/using/about-connectors.md)
-      + CRM 커넥터{#crm-connectors}
-         + [CRM 커넥터 시작](platform/using/crm-connectors.md)
-         + [Microsoft Dynamics 365와 연결](platform/using/crm-ms-dynamics.md)
-         + [Salesforce.com과 연결](platform/using/crm-sfdc.md)
-         + [CRM과 데이터 동기화](platform/using/crm-data-sync.md)
-      + Adobe Analytics 커넥터{#analytics-connector}
-         + [Adobe Analytics 커넥터 시작](platform/using/gs-aa.md)
-         + [Adobe Analytics 커넥터 프로비전](platform/using/adobe-analytics-provisioning.md)
-         + [Adobe Analytics 커넥터로 마이그레이션하는 방법](technotes/using/aa-connector-migration.md)
+   + CRM 커넥터 {#connectors}
+      + [CRM 커넥터 시작](platform/using/crm-connectors.md)
+      + [Microsoft Dynamics 365와 연결](platform/using/crm-ms-dynamics.md)
+      + [Salesforce.com과 연결](platform/using/crm-sfdc.md)
+      + [CRM과 데이터 동기화](platform/using/crm-data-sync.md)
    + [도움말 및 지원 옵션](support.md)
 + 메시지 만들기 및 보내기 {#sending-messages}
    + [메시지 시작](delivery/using/communication-channels.md)
@@ -355,7 +351,21 @@ ht-degree: 100%
    + [활용 사례: 참조 양식 만들기](surveys/using/use-case-creating-a-refer-a-friend-form.md)
    + [사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Adobe Experience Cloud와 통합 {#integrating-with-adobe-experience-cloud}
-   + [Campaign 통합 정보](integrations/using/about-campaign-integrations.md)
+   + [Campaign 통합 시작](integrations/using/about-campaign-integrations.md)
+   + [Adobe 기술 계정 만들기](integrations/using/oauth-technical-account.md)
+   + Adobe Experience Cloud Triggers {#experience-triggers}
+      + [ [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
+      + [파이프라인 구성](integrations/using/configuring-pipeline.md)
+      + [사용자 정의 구현을 위한 이벤트 구성](integrations/using/events.md)
+      + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
+      + [파이프라인 문제 해결](integrations/using/pipeline-troubleshooting.md)
+   + Adobe Experience Platform 소스 및 대상 {#aep-sources-destinations}
+      + [소스 및 대상 작업](integrations/using/get-started-sources-destinations.md)
+      + [Adobe Experience Platform 대상자를 Campaign으로 수집](integrations/using/ingest-aep-data.md)
+      + [Campaign에서 Adobe Experience Platform으로 데이터 내보내기](integrations/using/export-campaign-data.md)
+   + Adobe Analytics 커넥터{#analytics-connector}
+      + [Adobe Analytics 커넥터 시작](integrations/using/gs-aa.md)
+      + [Adobe Analytics 커넥터 프로비전](integrations/using/adobe-analytics-provisioning.md)
    + 대상자 공유 {#audience-sharing}
       + [ [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
@@ -380,17 +390,6 @@ ht-degree: 100%
       + [대상자 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
       + [ [!DNL ACS Connector] 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
-   + Adobe Experience Cloud Triggers {#experience-triggers}
-      + [ [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
-      + [파이프라인 구성](integrations/using/configuring-pipeline.md)
-      + [ [!DNL Experience Cloud Triggers]을(를) 위한 Adobe I/O 구성](integrations/using/configuring-adobe-io.md)
-      + [사용자 정의 구현을 위한 이벤트 구성](integrations/using/events.md)
-      + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
-      + [파이프라인 문제 해결](integrations/using/pipeline-troubleshooting.md)
-   + Adobe Experience Platform 소스 및 대상 {#aep-sources-destinations}
-      + [소스 및 대상 작업](integrations/using/get-started-sources-destinations.md)
-      + [Adobe Experience Platform 대상자를 Campaign으로 수집](integrations/using/ingest-aep-data.md)
-      + [Campaign에서 Adobe Experience Platform으로 데이터 내보내기](integrations/using/export-campaign-data.md)
 + 워크플로우 자동화 {#automating-with-workflows}
    + 워크플로우 시작 {#introduction}
       + [워크플로우 정보](workflow/using/about-workflows.md)
@@ -824,10 +823,12 @@ ht-degree: 100%
    + [롤백 절차](migration/using/about-rollback.md)
 + 기술 노트 {#technotes}
    + [하드웨어 크기 조정 권장 사항](technotes/using/hardware-sizing.md)
-   + [중간 소싱 인프라에 대한 인바운드 SMS 워크플로우 활동](technotes/using/inbound-SMS.md)
+   + [중간 소싱 인프라에 대한 인바운드 SMS 워크플로우 활동](technotes/using/inbound-sms-wf.md)
    + IMS로 업그레이드{#ims}
+      + [Adobe IMS로 전환](technotes/using/ac-ims.md)
       + [사용자를 IMS로 마이그레이션](technotes/using/migrate-users-to-ims.md)
       + [기술 운영자를 Developer Console로 마이그레이션](technotes/using/ims-migration.md)
+      + [IMS 마이그레이션 후 인터페이스에 미치는 영향](technotes/using/impact-ims-migration.md)
    + 업그레이드 및 호환성{#technote-migration}
       + [기술 노트](technotes/using/technote.md)
       + [Microsoft Edge Chromium 사용](technotes/using/edge-chromium.md)

@@ -5,9 +5,9 @@ description: Campaign 기본 제공 패키지를 설치하는 방법 알아보�
 feature: Installation, Application Settings
 badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1264'
 ht-degree: 3%
 
 ---
@@ -192,7 +192,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> 웹 분석 커넥터<br /> </td> 
-   <td> Adobe Campaign 및 Adobe Analytics이 Web Analytics 커넥터 패키지를 통해 상호 작용할 수 있습니다. 트랜잭션 메시지(메시지 센터 패키지)와 호환되지 않습니다. <a href="../../platform/using/gs-aa.md">자세히 알아보기</a><br /> </td> 
+   <td> Adobe Campaign 및 Adobe Analytics이 Web Analytics 커넥터 패키지를 통해 상호 작용할 수 있습니다. 트랜잭션 메시지(메시지 센터 패키지)와 호환되지 않습니다. <a href="../../integrations/using/gs-aa.md">자세히 알아보기</a><br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
   <tr> 
@@ -202,7 +202,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> Adobe Experience Cloud 공유 대상 통합<br /> </td> 
-   <td> Adobe Experience Cloud 솔루션 및 핵심 서비스와 대상자/세그먼트를 교환하고 공유할 수 있습니다. IMS가 필요합니다. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">자세히 알아보기</a> <br /> </td> 
+   <td> Adobe Experience Cloud 솔루션 및 앱과 대상/세그먼트를 교환하고 공유할 수 있습니다. IMS가 필요합니다. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 

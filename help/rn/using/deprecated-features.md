@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '1551'
-ht-degree: 100%
+source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
+workflow-type: tm+mt
+source-wordcount: '1637'
+ht-degree: 92%
 
 ---
 
@@ -43,16 +43,21 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <td><strong>기능</strong></td>
    <td><strong>세부 정보</strong></td>
   </tr>
+  <tr>
+ <td>Campaign(Neolane) 레거시 SDK</td>
+ <td><p>모바일 애플리케이션용 Campaign(Neolane) SDK는 이제 더 이상 사용되지 않습니다. 대신 데이터 수집 UI에서 Adobe Experience Platform 확장 기능을 구성하여 Adobe Campaign Mobile SDK를 사용합니다. Adobe Experience Platform Mobile SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 강화하는 데 도움이 됩니다. SDK 구성은 유연한 구성 및 확장 가능한 규칙 기반 통합을 위해 데이터 수집 UI를 통해 관리됩니다. 에서 모바일 앱 채널을 구성하는 방법에 대해 알아봅니다. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 설명서</a>.</p>
+<p>Target 제거 날짜: 2024년 말 </p>
+</td>
+</tr>
 <tr>
  <td>Facebook을 사용한 소셜 마케팅</td>
- <td>Facebook을 사용한 소셜 마케팅은 이제 더 이상 사용되지 않습니다. X(예전 이름 Twitter) 통합을 사용하여 소셜 미디어에 게시하거나 Adobe를 통해 사용자 정의 채널을 만들 수 있습니다.
- <p></p>
+ <td><p>Facebook을 사용한 소셜 마케팅은 이제 더 이상 사용되지 않습니다. X(예전 이름 Twitter) 통합을 사용하여 소셜 미디어에 게시하거나 Adobe를 통해 사용자 정의 채널을 만들 수 있습니다.</p>
   <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
 <tr>
  <td>ACS 커넥터</td>
- <td>ACS 커넥터(Prime offering)는 이제 더 이상 사용되지 않습니다. 캠페인 내보내기/가져오기 기능을 사용하여 두 제품의 데이터를 추출하고 삽입할 수 있습니다.<p></p>
+ <td><p>ACS 커넥터(Prime offering)는 이제 더 이상 사용되지 않습니다. 캠페인 내보내기/가져오기 기능을 사용하여 두 제품의 데이터를 추출하고 삽입할 수 있습니다.</p>
   <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
@@ -72,7 +77,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
       <tr>
   <td>Adobe Analytics 데이터 커넥터<br></td>
    <td><p>Adobe Analytics 데이터 커넥터는 2022년 8월 17일부로 제거되었습니다. Campaign 21.1.3 릴리스에서 더 이상 사용되지 않습니다.</p>
-   <p>이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../platform/using/gs-aa.md">자세히 알아보기</a></p>
+   <p>이 커넥터를 사용하는 경우 그에 따라 구현을 조정해야 합니다. <a href="../../integrations/using/gs-aa.md">자세히 알아보기</a></p>
   </td>
  </tr>
     <tr>
@@ -83,8 +88,8 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
  </tr>
   <tr>
   <td>OAuth 인증(OAuth 및 JWT)<br></td>
-  <td><p> 기존 oAUTH 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증을 변경하고 Adobe I/O로 이동했습니다. Campaign 20.3 릴리스부터는 더 이상 이 인증 모드를 사용하지 않습니다.<p>
-  <p>기존에 트리거 통합을 사용 중이었던 경우 <a href="../../integrations/using/configuring-adobe-io.md">이 페이지에서</a> 구현을 조정하는 방법을 알아보세요.</p> 
+  <td><p> 기존 OAuth 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O으로 이동되었습니다. 이 인증 모드는 Campaign 20.3 릴리스에서 더 이상 사용되지 않습니다.<p>
+  <p>기존에 트리거 통합을 사용 중이었던 경우 <a href="../../integrations/using/about-triggers.md#implement">이 페이지에서</a> 구현을 조정하는 방법을 알아보세요.</p> 
   <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지</a>를 참조하십시오</p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
   </td>

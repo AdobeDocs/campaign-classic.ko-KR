@@ -7,16 +7,18 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 6%
+source-wordcount: '520'
+ht-degree: 5%
 
 ---
 
 # 명명된 권한을 사용하여 사용 권한 설정{#named-rights}
 
-
+>[!NOTE]
+>
+>이 페이지는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 다음을 참조하십시오. [이 설명서](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html).
 
 기본적으로 Adobe Campaign에서는 연산자 및 연산자 그룹에 할당된 권한을 정의할 수 있는 명명된 권한 집합을 제안합니다. 이러한 권한은 다음에서 편집할 수 있습니다 **[!UICONTROL Administration > Access management > Named rights]** 트리의 노드.
 

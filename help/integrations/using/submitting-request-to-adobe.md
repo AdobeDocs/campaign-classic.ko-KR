@@ -2,34 +2,32 @@
 product: campaign
 title: Adobe에 요청 제출
 description: Adobe에 요청 제출
-feature: Audiences, People Core Service Integration
+feature: Audiences
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '130'
 ht-degree: 2%
 
 ---
 
 # Adobe에 요청 제출{#submitting-request-to-adobe}
 
-
-
 >[!NOTE]
 >
->v7 사용자로서 계속 진행하려면 시스템에 IMS(Identity Management System) Adobe 가 활성화되어 있는지 확인하십시오. [자세히 알아보기](../../integrations/using/about-adobe-id.md)
+>v7 사용자로서 계속 진행하려면 시스템에 IMS(Identity Management System) Adobe 가 활성화되어 있는지 확인하십시오. [자세히 알아보기](../../integrations/using/about-adobe-id.md).
 
-조직에 대해 IMS가 활성화되면 Campaign과의 사람 핵심 서비스/Audience Manager 통합 프로비저닝을 요청할 수 있습니다. 이렇게 하려면 (으)로 이메일을 보내십시오. [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) 다음 정보가 포함된 경우:
+조직에 대해 IMS(Identity Management 서비스) Adobe이 활성화되면 [Experience Cloud 대상](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview){target="_blank"} Campaign과 통합. 이렇게 하려면 (으)로 이메일을 보내십시오. [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) 다음 정보가 포함된 경우:
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>요청 유형</strong><br /> </td> 
-   <td> AAM/People 핵심 서비스-캠페인 통합 구성 </td> 
+   <td> 대상자 구성 - Campaign 통합 </td> 
   </tr> 
   <tr> 
    <td> <strong>조직 이름</strong><br /> </td> 
@@ -43,10 +41,10 @@ ht-degree: 2%
    <td> <strong>환경</strong><br /> </td> 
    <td> 예: 프로덕션 </td> 
   </tr> 
-  <tr> 
-   <td> <strong>AAM 또는 People 서비스</strong><br /> </td> 
-   <td> 예: Adobe Audience Manager. Audience Manager 라이선스 보유 여부를 반드시 언급하십시오.</td> 
-  </tr> 
+  <!--tr> 
+   <td> <strong>AAM or People Service</strong><br /> </td> 
+   <td> Example: Adobe Audience Manager. Make sure to mention whether or not you own Audience Manager license.</td> 
+  </tr--> 
   <tr> 
    <td> <strong>선언된 ID 또는 방문자 ID</strong><br /> </td> 
    <td> 예: 선언된 ID </td> 

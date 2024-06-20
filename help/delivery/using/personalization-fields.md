@@ -6,10 +6,10 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Personalization
 role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 0cf7f249f366a6ef0e9bd0326ec14131fcf7dc18
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 9%
+source-wordcount: '1024'
+ht-degree: 8%
 
 ---
 
@@ -115,6 +115,26 @@ ht-degree: 9%
 기본값은 5초입니다.
 
 이 옵션을 0으로 설정하면 개인화 단계에 대한 시간 제한이 없습니다.
+
+## 개인화 탭 {#personalization-tab}
+
+게재 속성에는 개인화 탭이 있습니다.
+
+다음을 클릭하여 타겟팅 차원의 프로필 쿼리에 데이터를 추가할 수 있습니다. **&quot;수신자 프로필 로드 쿼리 편집&quot;**. 표현식 내에서 직접 추출된 데이터를 사용하여 필요한 것을 추출할 수 있습니다. 이러한 데이터는 컨텍스트에 추가됩니다.
+
+![](assets/persotab-edit.png){zoomable="yes"}
+
+추가하려는 데이터가 타겟팅 차원에 없는 경우 다음을 클릭하면 됩니다. **&quot;스크립트의 실행 컨텍스트에 개체 추가&quot;**.
+
+![](assets/persotab_addobjects.png){zoomable="yes"}
+
+필요한 오브젝트 스키마를 선택할 수 있으며 그런 다음 Javascript 코드 내에서 이러한 데이터를 사용할 수 있습니다. 이 데이터는 게재 준비 중에 실행됩니다.
+
+![](assets/persotab_addobjects_articles.png){zoomable="yes"}
+
+개체 스키마를 추가하여 컨텍스트에 추가할 필드를 선택할 수 있습니다.
+
+![](assets/persotab_addobjects_fields.png){zoomable="yes"}
 
 ## 튜토리얼 비디오 {#personalization-fields-video}
 

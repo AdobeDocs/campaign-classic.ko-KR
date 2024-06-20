@@ -7,16 +7,18 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 4e99ec73f99264e91ca427542e29bd42da88a3f9
+source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
 
 # 운영자 그룹 만들기 및 관리 {#operator-groups}
 
-
+>[!NOTE]
+>
+>이 절차는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 다음을 참조하십시오. [이 설명서](https://helpx.adobe.com/kr/enterprise/using/user-groups.html).
 
 연산자 그룹은 **[!UICONTROL Administration > Access management > Operator groups]** 트리의 노드.
 

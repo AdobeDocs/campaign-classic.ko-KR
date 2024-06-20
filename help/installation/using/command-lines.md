@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
-source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '145'
 ht-degree: 4%
 
 ---
@@ -45,7 +45,6 @@ nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 * **postgresql**: PostgreSQL의 경우,
 * **oracle**: Oracle의 경우
 * **mssql**: Microsoft SQL Server의 경우
-* **DB2**: DB2 엔진용
 
 다음 명령은 **데모** SQL 유형 서버가 있는 인스턴스(알려진 경우) **base6**, 다음에 연결됨 **campaign** 계정 및 해당 **암호** 다음에 있음 **dbsrv** 서버:
 

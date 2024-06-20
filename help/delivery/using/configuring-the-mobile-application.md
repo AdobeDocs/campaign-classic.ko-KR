@@ -5,9 +5,9 @@ description: iOS용 모바일 애플리케이션을 설정하는 방법 알아�
 feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -94,7 +94,7 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 
 1. 클릭 **[!UICONTROL Next]** 개발 응용 프로그램 구성을 시작합니다.
 
-1. 동일한 것으로 확인 **[!UICONTROL Integration key]** 는 Adobe Campaign 및 SDK를 통한 애플리케이션 코드에 정의되어 있습니다. 자세한 내용은 다음을 참조하십시오. [이 페이지](integrating-campaign-sdk-into-the-mobile-application.md). 각 애플리케이션에 해당하는 이 통합 키를 사용하면 모바일 애플리케이션을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
+1. 동일한 것으로 확인 **[!UICONTROL Integration key]** 는 Adobe Campaign 및 SDK를 통한 애플리케이션 코드에 정의되어 있습니다. <!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).--> 각 애플리케이션에 해당하는 이 통합 키를 사용하면 모바일 애플리케이션을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
 
    >[!NOTE]
    >

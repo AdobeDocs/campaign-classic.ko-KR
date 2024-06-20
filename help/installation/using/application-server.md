@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 7e1c3b256cf43232e49d9daa0bf44d1e114b565b
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 1%
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 필요한 데이터베이스 액세스 계층은 서버에 설치되어 있고 Adobe Campaign 계정에서 액세스할 수 있어야 합니다.
 
-## Java 개발 키트 - JDK {#java-development-kit---jdk}
+## Java 개발 키트 - JDK {#jdk}
 
 Java 개발 키트(JDK)는 소프트웨어 개발 키트입니다. Java 애플리케이션 및 Java 애플릿 개발을 가능하게 하는 기본 구성 요소입니다.
 
-동적 웹 페이지 생성기는 JSP 1.2 기술을 사용합니다. 이를 위해 Tomcat 엔진(Apache의)이 애플리케이션에 포함됩니다. Adobe Campaign 애플리케이션이 설치된 모든 서버에 JDK(Java Development Kit)가 설치되어 있어야 합니다.
+동적 웹 페이지 생성기는 JSP 기술을 사용합니다. 이를 위해 Tomcat 엔진(Apache의)이 애플리케이션에 포함됩니다. Adobe Campaign 애플리케이션이 설치된 모든 서버에 JDK(Java Development Kit)가 설치되어 있어야 합니다.
 
 먼저 Adobe Campaign 애플리케이션 서버( )를 실행할 컴퓨터에 JDK를 설치해야 합니다.**nlserver 웹** 프로세스) 동적 웹 페이지(보고서, 웹 양식 등)를 생성하는 데 사용되는 서블릿 컨테이너인 Apache Tomcat이 통합되어 있습니다.
 
@@ -31,6 +31,13 @@ oracle에서 개발한 JDK(Java Development Kit)와 **오픈JDK**.
 
 지원되는 버전은 Campaign에 자세히 설명되어 있습니다 [호환성 매트릭스](../../rn/using/compatibility-matrix.md).
 
+
+>[!AVAILABILITY]
+>
+>* v7.4.1부터 Campaign에는 Java JDK 11 이상이 필요합니다. Campaign 서버가 Windows 환경에 설치된 경우 기본적으로 더 이상 제공되지 않으므로 JRE를 생성해야 합니다.
+>
+>* v7.4.1부터 Tomcat 10.1이 기본 버전입니다.
+>
 
 ### 권장 사항
 
@@ -41,8 +48,6 @@ Java 개발 키트를 설치하고 업그레이드할 때 다음 권장 사항�
 * JDK를 설치할 때 웹 브라우저와의 통합이 필요하지 않습니다.
 
 * 게재 에이전트만 실행하는 컴퓨터(**nlserver mta** process) 또는 워크플로 서버(**nlserver wfserver** 프로세스), JDK 설치는 필요하지 않습니다.
-
-* 플랫폼 작업 성능을 유지하고 설치된 버전과의 호환성을 보장하려면 Windows 및 Linux에서 자동 JDK 업데이트 기능을 비활성화해야 합니다.
 
 * Java 버전을 업그레이드할 때 먼저 이전 버전을 제거해야 합니다. 동일한 컴퓨터에 설치된 두 Java 버전이 충돌할 수 있습니다.
 
@@ -65,19 +70,16 @@ Adobe Linux 환경에 JDSL을 설치하려면 패키지 관리자를 사용하�
 Debian의 경우 다음 명령을 사용합니다.
 
 ```sql
-aptitude install openjdk-8-jdk
+apt install openjdk-11-jdk-headless
 ```
 
 RHEL의 경우 다음 명령을 사용합니다.
 
 ```sql
-yum install java-1.8.0-openjdk
+dnf install java-11-openjdk-headless
 ```
 
 
-## Openssl {#openssl}
-
-Linux에서 OpenSSL을 설치해야 합니다. Adobe Campaign은 OpenSSL 버전 1.0.2 이상을 지원합니다.
 
 ## 보고서 내보내기 {#exporting-reports}
 

@@ -6,10 +6,10 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 8%
+source-wordcount: '772'
+ht-degree: 7%
 
 ---
 
@@ -51,6 +51,12 @@ ht-degree: 8%
 Adobe Campaign은 HTTP/2 APNs와 호환됩니다. 구성 단계에 대한 자세한 내용은 [이 섹션](configuring-the-mobile-application.md) 섹션.
 
 게재를 만드는 방법에 대한 전역 정보는 을 참조하십시오. [이 섹션](steps-about-delivery-creation-steps.md).
+
+
+## 푸시 알림 채널 구성 {#push-notification-configuration}
+
+Adobe Campaign을 사용하여 푸시 알림을 전송하려면 먼저 환경과 앱을 구성해야 합니다. Adobe Campaign을 사용하여 푸시 알림 전송을 시작하기 전에 모바일 앱과 Adobe Experience Platform의 태그에 대한 구성 및 통합이 제대로 되어 있는지 확인해야 합니다. Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다. SDK 구성은 유연한 구성 및 확장 가능한 규칙 기반 통합을 위해 데이터 수집 UI를 통해 관리됩니다. 다음에서 자세히 알아보기 [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings).
+
 
 ## 데이터 경로 {#data-path}
 

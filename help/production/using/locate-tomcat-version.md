@@ -8,16 +8,14 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 757e3a5395f24e0bdd04737aba0458881e4ea780
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # Tomcat 버전 찾기{#locate-tomcat-version}
-
-
 
 Adobe Campaign은 **Apache Tomcat이라는 포함된 웹 서블릿** 클라이언트 콘솔, 추적된 URL 링크, SOAP 호출 등 모든 외부 인터페이스와 응용 프로그램 간 HTTP/HTTPS 요청을 처리합니다. 모든 외부 대상 Adobe Campaign 인스턴스의 경우 종종 이 앞에 외부 웹 서버(일반적으로 IIS 또는 Apache)가 있습니다.
 
@@ -31,6 +29,12 @@ Adobe Campaign에서 사용되는 Tomcat은 일반적으로 사용 가능한 전
 
 Tomcat의 내장 버전의 새 버전 또는 업그레이드된 버전은 Adobe Campaign 빌드의 외부에 별도의 패치가 아닌 Adobe Campaign 자체의 새 빌드와 함께 출시됩니다.
 
+>[!AVAILABILITY]
+>
+>
+> Campaign v7.4.1부터 Tomcat 10.1이 기본 버전입니다.
+>
+
 ## 포함된 Tomcat 버전을 찾는 방법
 
 Adobe Campaign 인스턴스에서 포함된 Tomcat 버전을 찾으려면 아래 단계를 따르십시오.
@@ -39,7 +43,7 @@ Adobe Campaign 인스턴스에서 포함된 Tomcat 버전을 찾으려면 아래
 >
 >확인해야 하는 Adobe Campaign 서버의 파일에 대한 액세스 권한이 있어야 합니다. 아래에 설명된 절차는 다음 경우에만 적용됩니다. **온-프레미스 호스팅 모델**.
 
-1. 다음 위치로 이동 *\tomcat-7\lib* Adobe Campaign 설치 폴더 내의 하위 폴더(예: *C:\Program 파일\ [Installation_folder]* Windows에서 또는 */usr/local/neolane/nl6* Linux에서).
+1. 다음 위치로 이동 *\tomcat-11\lib* Adobe Campaign 설치 폴더 내의 하위 폴더(예: *C:\Program 파일\ [Installation_folder]* Windows에서 또는 */usr/local/neolane/nl6* Linux에서).
 
 1. 파일 복사 *catalina.jar* 를 외부 임시 폴더(예: 데스크탑)로 바꾸고 확장자를 .jar에서 .zip으로 변경합니다.
 
@@ -49,11 +53,11 @@ Adobe Campaign 인스턴스에서 포함된 Tomcat 버전을 찾으려면 아래
 
 1. 완료되면 만든 임시 파일을 서버 시스템에 있는 경우 삭제합니다.
 
-예를 들어, *ServerInfo.properties* Adobe Campaign용 파일에는 Tomcat v8.5.X를 나타내는 다음 정보가 포함됩니다.
+예를 들어, *ServerInfo.properties* Adobe Campaign용 파일에는 Tomcat v11.X를 나타내는 다음 정보가 포함되어 있습니다.
 
-*`server.info=Apache Tomcat/8.5.X`*
+*`server.info=Apache Tomcat/11.X`*
 
-*`server.number=8.5.X.Y`*
+*`server.number=A.B.X.Y`*
 
 *`server.built=MM DD YYY HH:MM:SS`*
 

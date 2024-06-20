@@ -3,10 +3,12 @@ product: campaign
 title: 새 게재 기능 서버로 업데이트
 description: 새로운 Campaign 게재 기능 서버로 업데이트하는 방법 알아보기
 feature: Technote, Deliverability
+hide: true
+hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 514f390b5615a504f3805de68f882af54e0c3949
+source-git-commit: 19b40f0b827c4b5b7b6484fe4953aebe61d00d1d
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '991'
 ht-degree: 1%
 
 ---
@@ -50,9 +52,9 @@ Adobe이 보안 규정 준수를 이유로 이전 데이터 센터를 폐기하�
 >
 > 서비스 계정(JWT) 자격 증명은 Adobe에서 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 통합은 이제 OAuth 서버 간 자격 증명을 사용해야 합니다. </br>
 >
-> * Campaign과 인바운드 통합을 구현하면에 자세히 설명된 대로 기술 계정을 마이그레이션해야 합니다. [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). 기존 서비스 계정(JWT) 자격 증명은 2025년 1월 27일까지 계속 작동합니다. 또한 2024년 6월 3일부터 개발자 콘솔에서 새 서비스 계정(JWT) 자격 증명을 더 이상 만들 수 없습니다. 이 날짜 이후에는 새 서비스 계정(JWT) 자격 증명을 만들거나 프로젝트에 추가할 수 없습니다. </br>
+> * Campaign과 인바운드 통합을 구현하면에 자세히 설명된 대로 기술 계정을 마이그레이션해야 합니다. [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). 기존 서비스 계정(JWT) 자격 증명은 2025년 1월 27일까지 계속 작동합니다. </br>
 >
-> * Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 구현한 경우 2025년 1월 27일까지 계속 작동합니다. 그러나 해당 날짜 이전에 Campaign 환경을 v7.4.1로 업그레이드하고 기술 계정을 oAuth로 마이그레이션해야 합니다. 2024년 6월 3일부터 개발자 콘솔에서 새 서비스 계정(JWT) 자격 증명을 만들 수 없으므로 이 날짜 이후에는 JWT를 사용하는 새 아웃바운드 통합을 만들 수 없습니다
+> * Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 구현한 경우 2025년 1월 27일까지 계속 작동합니다. 그러나 해당 날짜 이전에 Campaign 환경을 v7.4.1로 업그레이드하고 기술 계정을 oAuth로 마이그레이션해야 합니다.
 
 ### 필수 구성 요소{#prerequisites}
 
@@ -80,74 +82,18 @@ Adobe이 보안 규정 준수를 이유로 이전 데이터 센터를 폐기하�
 
 >[!CAUTION]
 >
->온프레미스 고객은 방화벽이 사용자 쪽에 구현된 경우 이 URL을 추가해야 합니다 `https://deliverability-service.adobe.io` 허용 목록에 추가하다에 [자세히 알아보기](../../installation/using/url-permissions.md)
+>온프레미스 고객은 방화벽이 사용자 쪽에 구현된 경우 이 URL을 추가해야 합니다 `https://deliverability-service.adobe.io` 허용 목록에 추가하다에 [자세히 알아보기](../../installation/using/url-permissions.md).
 
 
 ### 1단계: Adobe Developer 프로젝트 만들기/업데이트 {#adobe-io-project}
 
-1. 액세스 [Adobe Developer 콘솔](https://developer.adobe.com/console/home) 조직의 개발자 액세스 권한으로 로그인합니다. 올바른 조직 포털에 로그인했는지 확인하십시오.
-   **주의**: 둘 이상의 조직이 있는 경우 올바른 조직을 선택해야 합니다. 조직에 대해 자세히 알아보기 [이 페이지에서](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
-1. **[!UICONTROL Create new project]**을(를) 선택합니다.
-   ![](assets/New-Project.png)
+Adobe Analytics 커넥터 구성을 계속하려면 Adobe Developer 콘솔에 액세스하고 OAuth 서버 간 프로젝트를 만듭니다.
 
-   >[!CAUTION]
-   >
-   >Analytics 커넥터 또는 Adobe 트리거와 같은 다른 통합에 대해 이미 Adobe IO JWT 인증 기능을 사용 중인 경우 을 추가하여 프로젝트를 업데이트해야 합니다 **캠페인 API** 해당 프로젝트에
-
-1. 선택 **[!UICONTROL Add API]**.
-   ![](assets/Add-API.png)
-1. 다음에서 **[!UICONTROL Add an API]** 창, 선택 **[!UICONTROL Adobe Campaign]**.
-   ![](assets/AC-API.png)
-1. 클라이언트 ID가 비어 있으면 다음을 선택합니다. **[!UICONTROL Generate a key pair]** 공용 및 개인 키 쌍을 만듭니다.
-   ![](assets/Generate-a-key-pair.png)
-
-   그러면 기본 만료 날짜가 365일인 키가 자동으로 다운로드됩니다. 만료되면 새 키 쌍을 만들고 구성 파일에서 통합을 업데이트해야 합니다. 옵션 2를 사용하여 을(를) 수동으로 만들고 업로드하도록 선택할 수 있습니다 **[!UICONTROL Public key]** 만료일이 더 긴 경우
-   ![](assets/New-key-pair.png)
-
-   >[!CAUTION]
-   >
-   >다음을 저장해야 합니다. `config.zip` 다시 다운로드할 수 없으므로 다운로드 프롬프트가 나타나면 파일을 생성합니다.
-
-1. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
-1. 기존 항목 선택 **[!UICONTROL Product profile]** 또는 필요한 경우 새 템플릿을 만듭니다. 이에 대한 권한은 필요하지 않습니다. **[!UICONTROL Product profile]**. 에 대한 자세한 내용 **[!UICONTROL Product Profiles]**, 참조 [이 페이지](https://helpx.adobe.com/enterprise/using/manage-developers.html){_blank}.
-   ![](assets/Product-Profile-API.png)
-
-   그런 다음 을 클릭합니다. **[!UICONTROL Save configured API]**.
-
-1. 프로젝트에서 을 선택합니다. **[!UICONTROL Adobe Campaign]** 다음 정보를 복사합니다. **[!UICONTROL Service Account (JWT)]**
-
-   ![](assets/Config-API.png)
-
-   * **[!UICONTROL Client ID]**
-   * **[!UICONTROL Client Secret]**
-   * **[!UICONTROL Technical account ID]**
-   * **[!UICONTROL Organization ID]**
-
->[!CAUTION]
->
->Adobe Developer 인증서는 12개월 후에 만료됩니다. 매년 새 키 쌍을 생성해야 합니다.
+을(를) 참조하십시오 [이 페이지](../../integrations/using/oauth-technical-account.md#oauth-service) 을 참조하십시오.
 
 ### 2단계: Adobe Campaign에서 프로젝트 자격 증명 추가 {#add-credentials-campaign}
 
-개인 키는 base64 UTF-8 형식으로 인코딩해야 합니다.
-
-방법은 다음과 같습니다.
-
-1. 위의 단계에서 생성된 개인 키를 사용합니다.
-1. 다음 명령을 사용하여 개인 키를 인코딩합니다. `base64 ./private.key > private.key.base64`. 이렇게 하면 base64 컨텐츠가 새 파일에 저장됩니다 `private.key.base64`.
-
-   >[!NOTE]
-   >
-   >개인 키를 복사/붙여넣을 때 추가 줄을 자동으로 추가할 수도 있습니다. 개인 키를 인코딩하기 전에 제거해야 합니다.
-
-1. 파일에서 내용 복사 `private.key.base64`.
-1. SSH를 통해 Adobe Campaign 인스턴스가 설치된 각 컨테이너에 로그인하고 다음 명령을 실행하여 Adobe Campaign에서 프로젝트 자격 증명을 추가합니다. `neolane` 사용자. 이렇게 하면 **[!UICONTROL Technical Account]** 인스턴스 구성 파일의 자격 증명입니다.
-
-   ```sql
-   nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
-   ```
-
-1. 수정 사항을 고려하려면 서버를 중지했다가 다시 시작해야 합니다. 다음을 실행할 수도 있습니다 `config -reload` 명령입니다.
+다음에 자세히 설명된 단계 수행 [이 페이지](../../integrations/using/oauth-technical-account.md#add-credentials) Adobe Campaign에서 OAuth 프로젝트 자격 증명을 추가할 수 있습니다.
 
 ### 3단계: 구성 유효성 검사
 

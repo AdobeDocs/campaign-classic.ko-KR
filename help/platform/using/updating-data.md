@@ -7,16 +7,18 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '717'
 ht-degree: 1%
 
 ---
 
 # 데이터 업데이트{#updating-data}
 
-
+>[!NOTE]
+>
+>이 페이지는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다.
 
 수신자의 프로필에 연결된 데이터는 수동 또는 자동으로 업데이트할 수 있습니다.
 

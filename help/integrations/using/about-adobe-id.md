@@ -7,10 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ffab91fc9fa7e60973fdda930239f5836671a341
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 16%
+source-wordcount: '180'
+ht-degree: 15%
 
 ---
 
@@ -27,7 +27,10 @@ Campaign 사용자는 대신 Adobe ID을 사용하여 Adobe Campaign 콘솔에 �
 
 >[!IMPORTANT]
 >
-> Campaign v8에서는 사용자/암호(즉, 기본 인증)로 연결할 수 없습니다. **Adobe Campaign v7.3.5에서 이 마이그레이션을 수행하여 Campaign v8로 원활하게 마이그레이션할 수 있도록 하는 것이 좋습니다.**
+> Campaign v8에서는 사용자/암호(즉, 기본 인증)로 연결할 수 없습니다. **Adobe은 Campaign v7.3.5부터 이 마이그레이션을 수행하여 Campaign v8로 원활하게 마이그레이션할 수 있도록 권장합니다.**
+>
+>에서 Adobe IMS로 마이그레이션하는 방법 알아보기 [이 섹션](../../technotes/using/ac-ims.md).
+>
 
 
 <!--

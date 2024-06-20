@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: fa089574b028193b6da346482d6ea42b1d19f0aa
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 1%
@@ -21,11 +21,11 @@ ht-degree: 1%
 
 이 장에서는 요구 사항 및 환경 특성에 맞게 수행할 수 있는 서버측 구성에 대해 자세히 설명합니다.
 
-## 제한 사항
+## 제한
 
 이 절차는 다음으로 제한됩니다. **온-프레미스**/**잡종** 배포 및 관리 권한이 필요합니다.
 
-대상 **호스트됨** 배포, 서버측 설정은 Adobe 전용으로만 구성할 수 있습니다. 그러나 일부 설정은 내에서 설정할 수 있습니다. [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)IP 허용 목록 관리 또는 URL 권한 등. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko)
+대상 **호스트됨** 배포, 서버측 설정은 Adobe 전용으로만 구성할 수 있습니다. 그러나 일부 설정은 내에서 설정할 수 있습니다. [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)IP 허용 목록 관리 또는 URL 권한 등. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko).
 
 자세한 내용은 다음 섹션을 참조하십시오.
 
@@ -69,13 +69,13 @@ Campaign Classic 구성 파일은 **conf** Adobe Campaign 설치 폴더의 폴�
 
 다음 명령을 사용하십시오.
 
-```
+```sql
 nlserver config -internalpassword
 ```
 
 그러면 다음 정보가 표시됩니다. 암호를 입력하고 확인합니다.
 
-```
+```sql
 17:33:57 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 Enter the current password.
 Password:

@@ -2,21 +2,20 @@
 product: campaign
 title: Adobe Campaign에서 공유 대상자 통합 구성
 description: 공유 대상자 통합을 구성하는 방법 알아보기
-feature: Audiences, People Core Service Integration
+feature: Audiences
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
 
 # Adobe Campaign에서 공유 대상자 통합 구성{#configuring-shared-audiences-integration-in-adobe-campaign}
-
 
 
 이 요청을 제출하면 Adobe에서 자동으로 통합 프로비저닝을 진행하고 연락하여 구성을 완료해야 하는 세부 정보와 정보를 제공합니다.
@@ -88,7 +87,7 @@ AWS 지역에 대한 자세한 내용은 다음을 참조하십시오. [페이�
 
 ## 3단계: Campaign 추적 서버 구성 {#step-3--configure-campaign-tracking-server}
 
-People 핵심 서비스 또는 Audience Manager와의 통합을 구성하려면 Campaign 추적 서버도 구성해야 합니다.
+Audience manager와의 통합을 구성하려면 Campaign 추적 서버도 구성해야 합니다.
 
 공유 대상이 방문자 ID로 작동하도록 하려면 추적 서버 도메인이 클릭한 URL 또는 기본 웹 사이트의 하위 도메인이어야 합니다.
 

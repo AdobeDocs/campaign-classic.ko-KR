@@ -7,7 +7,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -69,7 +69,7 @@ ht-degree: 0%
 2021-05-31T08:43:09.160Z        66462   66501   1       error   log     Error while authenticating: '{"error":"This client: df73c224e5-triggers-test is no longer allowed to get access token."}' (iRc=16384)
 ```
 
-이 오류 메시지는 기존 Omniture 기본 OAuth를 사용하여 인증을 구성함을 의미합니다. 다음을 참조하십시오. [Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성](../../integrations/using/configuring-adobe-io.md) 인증을 업그레이드하기 위한 설명서입니다.
+이 오류 메시지는 기존 Omniture 기본 OAuth를 사용하여 인증을 구성함을 의미합니다. 다음을 참조하십시오. [Adobe Experience Cloud Triggers에 대한 Adobe I/O 구성](../../integrations/using/about-triggers.md#implement) 인증을 업그레이드하기 위한 설명서입니다.
 
 **검색된 트리거가 없습니다.**
 

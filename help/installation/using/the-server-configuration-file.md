@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '8068'
+source-wordcount: '8067'
 ht-degree: 3%
 
 ---
@@ -337,7 +337,7 @@ Adobe Campaign의 전체 구성은 **serverConf.xml** 파일, 위치: **conf** �
   </tr> 
   <tr> 
    <td> 공급자<br /> </td> 
-   <td> 유형(열거형). 가능한 값은 'Oracle', 'MSSQL'(Microsoft SQL Server), 'PostgreSQL'(PostgreSQL), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA'(SAP HANA), 'RedShift'(Amazon Redshift), 'ODBC'(ODBC(Sybase ASE, Sybase IQ)), '릴레이'(원격 데이터베이스에 대한 HTTP 릴레이)입니다.<br /> </td> 
+   <td> 유형(열거형). 가능한 값은 'Oracle', 'MSSQL'(Microsoft SQL Server), 'PostgreSQL'(PostgreSQL), 'Teradata', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA'(SAP HANA), 'RedShift'(Amazon Redshift), 'ODBC'(ODBC(Sybase ASE, Sybase IQ)), '릴레이'(원격 데이터베이스에 대한 HTTP 릴레이)입니다.<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 
@@ -2984,18 +2984,18 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 다음 **웹 > jsp > 클래스 경로** 노드에는 JVM을 시작할 때 사용할 모든 클래스 경로 목록이 포함되어 있습니다. 기본 구성은 다음과 같습니다.
 
 ```
-'$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/bin/tomcat-juli.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-coyote.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-util.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/annotations-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/catalina.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/websocket-api.jar
-          $(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat7-websocket.jar
+'$(XTK_INSTALL_DIR)/tomcat-X/bin/bootstrap.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/bin/tomcat-juli.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat-coyote.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat-util.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/servlet-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/jsp-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/el-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/annotations-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/catalina.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/websocket-api.jar
+          $(XTK_INSTALL_DIR)/tomcat-X/lib/tomcat7-websocket.jar
           $(XTK_INSTALL_DIR)/java/lib/pdfbox-2.0.4.jar
           $(XTK_INSTALL_DIR)/java/lib/FontBox-0.1.0.jar
           $(XTK_INSTALL_DIR)/java/lib/AGJavaEndpoint.22.jar

@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 3%
@@ -89,7 +89,7 @@ ht-degree: 3%
 
 1. Adobe Campaign 서버가 설치되면 명령을 사용하여 애플리케이션 서버(웹)를 시작합니다 **nlserver web -tomcat** (웹 모듈을 사용하면 포트 8080에서 수신하는 독립 실행형 웹 서버 모드에서 Tomcat을 시작할 수 있음) Tomcat이 올바르게 시작되었는지 확인할 수 있습니다.
 
-   ```
+   ```sql
    12:08:18 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    12:08:18 >   Starting Web server module (pid=28505, tid=-1225184768)...
    12:08:18 >   Tomcat started
@@ -136,7 +136,7 @@ ht-degree: 3%
 
 1. 편집 **config-demo.xml** 파일(이전 명령을 통해 만들어지고 **config-default.xml** file), **mta** (게재), **wfserver** (워크플로우), **inMail** (리바운드 메일) 및 **통계** (통계) 프로세스를 활성화한 다음 **앱** 통계 서버:
 
-   ```
+   ```xml
    <?xml version='1.0'?>
    <serverconf>  
      <shared>    
@@ -156,7 +156,7 @@ ht-degree: 3%
 
 1. 편집 **serverConf.xml** 파일을 만들고 게재 도메인을 지정한 다음 MX 유형 DNS 쿼리에 응답하기 위해 MTA 모듈에서 사용하는 DNS 서버의 IP(또는 호스트) 주소를 지정합니다.
 
-   ```
+   ```xml
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
    ```
 
@@ -166,7 +166,7 @@ ht-degree: 3%
 
    자세한 내용은 다음을 참조하십시오. [Campaign 서버 구성](../../installation/using/configuring-campaign-server.md).
 
-1. 클라이언트 콘솔 설치 프로그램 복사 **setup-client-7.XX**, **YYYY.exe** (으)로 **/datakit/nl/eng/jsp** 폴더를 삭제합니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
+1. 클라이언트 콘솔 설치 프로그램 복사 **setup-client-7.XX**, **YYYY.exe** (으)로 **/datakit/nl/eng/jsp** 폴더를 삭제합니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md).
 
 1. Adobe Campaign 서버 시작(**net start nlserver6** Windows의 경우 **/etc/init.d/nlserver6 시작** linux에서) 명령을 실행합니다 **nlserver 덤프** 활성화된 모든 모듈이 있는지 한 번 더 확인하십시오.
 
@@ -175,7 +175,7 @@ ht-degree: 3%
    >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
 
 
-   ```
+   ```sql
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    syslogd@default (7611) - 9.2 MB
    stat@demo (5988) - 1.5 MB
@@ -190,7 +190,7 @@ ht-degree: 3%
 
 1. 테스트 **nlserver 웹** url을 사용하는 모듈: [https://console.campaign.net/nl/jsp/logon.jsp](https://tracking.campaign.net/r/test).
 
-   이 URL을 사용하면 클라이언트 설치 프로그램의 다운로드 페이지에 액세스할 수 있습니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md)
+   이 URL을 사용하면 클라이언트 설치 프로그램의 다운로드 페이지에 액세스할 수 있습니다. [자세히 알아보기](../../installation/using/client-console-availability-for-windows.md).
 
    다음을 입력합니다. **내부** 액세스 제어 페이지에 도달하면 로그인 및 관련 암호.
 
@@ -214,7 +214,7 @@ ht-degree: 3%
 
 1. 편집 **config-demo.xml** 파일(이전 명령을 통해 만들어지고 **config-default.xml** file), **mta** (게재), **wfserver** (워크플로우), **inMail** (리바운드 메일) 및 **통계** (통계) 프로세스를 활성화한 다음 **앱** 통계 서버:
 
-   ```
+   ```xml
    <?xml version='1.0'?>
    <serverconf>  
      <shared>    
@@ -234,7 +234,7 @@ ht-degree: 3%
 
 1. 편집 **serverConf.xml** 파일을 만들고 MTA 모듈의 DNS 구성을 채웁니다.
 
-   ```
+   ```xml
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
    ```
 
@@ -266,7 +266,7 @@ ht-degree: 3%
 1. 다음을 복사합니다. **config-demo.xml** 및 **serverConf.xml** 설치 중에 생성된 파일입니다. 다음에서 **config-demo.xml** 파일, 활성화 **trackinglogd** 프로세스 및 비활성화 **mta**, **inmail**, **wfserver** 및 **통계** 프로세스.
 1. 편집 **serverConf.xml** 파일을 만들고 리디렉션의 매개 변수에 중복 추적 서버를 채웁니다.
 
-   ```
+   ```xml
    <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
    <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
    ```
@@ -275,13 +275,13 @@ ht-degree: 3%
 
    브라우저는 로드 밸런서에서 리디렉션된 URL에 따라 다음 메시지를 표시해야 합니다.
 
-   ```
+   ```xml
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv1"/>
    ```
 
    또는
 
-   ```
+   ```xml
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv2"/>
    ```
 
