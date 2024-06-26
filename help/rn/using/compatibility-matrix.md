@@ -7,21 +7,21 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: b23632d0718d62d61e94e636937b93aa39bbe43f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 # 호환성 매트릭스 {#compatibility-matrix}
 
-의 [최신 빌드](../../rn/using/latest-release.md), Adobe Campaign Classic v7은 이 페이지에 나열된 모든 시스템 및 도구와 호환됩니다. 이러한 타사 시스템 및 도구의 특정 버전이 각각의 작성자와 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며 이후 제품 릴리스의 호환성 매트릭스에서 제거됩니다. 문제가 발생하지 않도록 이 호환성 매트릭스에 나와 있는 모든 시스템의 지원되는 버전을 사용하고 있는지 확인하십시오. 더 이상 사용되지 않는 항목에 대한 자세한 내용은 [이 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
+Adobe Campaign Classic v7 [최신 빌드](../../rn/using/latest-release.md)는 이 페이지의 목록에 있는 모든 시스템 및 도구와 호환됩니다. 이 서드파티 시스템 및 도구의 특정 버전이 각 제작자가 발표한 EOL(End-of-Life)에 도달하면 해당 버전은 더 이상 Adobe Campaign과 호환되지 않으며, 이후 제품 릴리스의 호환성 매트릭스에서 제거됩니다. 문제가 생기지 않도록 호환성 매트릭스에 나와 있는 모든 시스템에 대해 지원 버전을 사용하고 있는지 확인하십시오. 더 이상 사용되지 않는 항목에 대한 자세한 내용은 [이 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
 
 별도로 언급되지 않는 한 모든 마이너 릴리스도 지원됩니다.
 
 >[!CAUTION]
 >
->이 매트릭스는 지원되는 새로운 시스템 및 도구가 추가되고 더 이상 사용되지 않으며 정기적으로 업데이트됩니다.
+>이 매트릭스는 정기적으로 새로 지원되는 시스템 및 도구를 추가하고 더 이상 사용되지 않는 항목을 제거하는 방식으로 업데이트됩니다.
 
 ## 운영 체제 {#OperatingSystems}
 
@@ -31,7 +31,7 @@ ht-degree: 63%
 <tbody> 
 <td><strong>운영 체제</strong></td>
 <td><strong>운영 체제 버전</strong></td>
-<td><strong>최소 캠페인 버전</strong></td>
+<td><strong>최소 Campaign 버전</strong></td>
 <tr> 
 <td>CentOs</td>
 <td>
@@ -83,7 +83,7 @@ ht-degree: 63%
 
 >[!IMPORTANT]
 >
->RHEL을 사용하는 경우 비활성화할 의사가 있어야 합니다 [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux) 또는 설계자가 사용자 지정 SELinux 규칙을 작성하여 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인해야 합니다.
+>RHEL을 사용하는 경우 [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux)를 비활성화하거나, 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않도록 설계자가 사용자 정의 SELinux 규칙을 작성해야 합니다.
 
 ## 웹 서버 {#WebServers}
 
@@ -114,7 +114,7 @@ ht-degree: 63%
 <tbody>
 <td><strong>도구</strong></td>
 <td><strong>버전</strong></td>
-<td><strong>최소 캠페인 버전</strong></td>
+<td><strong>최소 Campaign 버전</strong></td>
 <tr>
 <td><p>JDK(Java Development Kit)</p>
 <p><a href="../../installation/using/application-server.md#jdk" target="_blank">이 페이지</a>에서 자세히 알아보십시오.</p>
@@ -159,7 +159,7 @@ ht-degree: 63%
 <tbody>
 <td><strong>데이터베이스 시스템</strong></td>
 <td><strong>데이터베이스 버전</strong></td>
-<td><strong>최소 캠페인 버전</strong></td>
+<td><strong>최소 Campaign 버전</strong></td>
 <tr>
 <td>Oracle</td>
 <td>
@@ -254,7 +254,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tbody>
 <td><strong>데이터베이스 시스템</strong></td>
 <td><strong>데이터베이스 버전</strong></td>
-<td><strong>최소 캠페인 버전</strong></td>
+<td><strong>최소 Campaign 버전</strong></td>
 <tr>
 <td>Amazon Redshift</td>
 <td><p> </p>
@@ -295,7 +295,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tbody>
 <td><strong>데이터베이스 시스템</strong></td>
 <td><strong>데이터베이스 버전</strong></td>
-<td><strong>최소 캠페인 버전</strong></td>
+<td><strong>최소 Campaign 버전</strong></td>
 <tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td> </td>
@@ -344,7 +344,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2022년(Campaign v7.4부터)</p>
+<p>2022(Campaign v7.4부터)</p>
 <p>2019</p>
 <p>2017</p>
 <p>2016</p>
@@ -391,7 +391,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 <tbody>
 <td><strong>시스템</strong></td>
 <td><strong>OS 버전</strong></td>
-<td><strong>최소 캠페인 버전</strong></td>
+<td><strong>최소 Campaign 버전</strong></td>
 <tr>
 <td>Microsoft Windows</td>
 <td>
@@ -426,9 +426,9 @@ Campaign 클라이언트 콘솔을 사용하려면 Microsoft Edge WebView2 런�
 
 ## 모바일 SDK {#MobileSDK}
 
-Campaign을 사용하여 다음을 수행할 수 있습니다. [푸시 알림 보내기](../../delivery/using/about-mobile-app-channel.md): 데이터 수집 UI에서 Adobe Experience Platform 확장을 구성하여 Adobe Campaign Mobile SDK를 통해.
+데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform 모바일 SDK를 통해 Campaign을 [푸시 알림 보내기](../../delivery/using/about-mobile-app-channel.md)에 사용할 수 있습니다.
 
-Campaign SDK 는 [더 이상 사용되지 않음](deprecated-features.md) campaign v7.4를 시작하는 중. 기존 구현을 AEP Mobile SDK로 원활하게 전환하기 위해 아래에 나열된 운영 체제에서 계속 사용할 수 있습니다<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
+Campaign v7.4부터 Campaign SDK는 [더 이상 사용되지 않습니다](deprecated-features.md). 기존 구현을 AEP 모바일 SDK로 원활하게 전환할 수 있도록 아래 목록의 운영 체제에서는 계속 사용할 수 있습니다<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
 
 
 <table>
@@ -437,17 +437,17 @@ Campaign SDK 는 [더 이상 사용되지 않음](deprecated-features.md) campai
 <td>Google Android</td>
 <td>
 <p>7 - 14</p>
-<p>(모바일 SDK 빌드 1.1.1 사용)</p>
-<p>Android 13 및 14는 Campaign v7.4부터 지원됩니다.</p>
-<p>Android 12는 Campaign v7.3부터 지원됩니다.</p>
+<p>모바일 SDK 빌드 1.1.1과 함께 사용할 수 있습니다</p>
+<p>Android 13 및 14은 Campaign v7.4부터 지원됩니다.</p>
+<p>Android 12는 Campaign v7.3부터 지원됩니다</p>
 </td>
 </tr>
 <tr>
 <td>Apple iOS</td>
 <td>
 <p>iOS 9 - 17</p>
-<p>(모바일 SDK 빌드 1.0.26 사용)</p>
-<p>Apple iOS 15는 Campaign v7.3부터 지원됩니다. </p>
+<p>모바일 SDK 빌드 1.0.26과 함께 사용할 수 있습니다.</p>
+<p>Apple iOS 15은 Campaign v7.3부터 지원됩니다 </p>
 <p>Apple iOS 16 및 17은 Campaign v7.4부터 지원됩니다.</p>
 </td>
 </tr>
@@ -467,7 +467,7 @@ Campaign SDK 는 [더 이상 사용되지 않음](deprecated-features.md) campai
 
 >[!MORELIKETHIS]
 >
->* [Campaign Classic 릴리스 노트](../../rn/using/latest-release.md)
+>* [Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)
 >* [Campaign 일반 아키텍처](../../installation/using/general-architecture.md)
 >* [하드웨어 크기 조정 권장 사항](../../technotes/using/hardware-sizing.md)
 >* [사용되지 않는 기능 및 시스템](../../rn/using/deprecated-features.md)

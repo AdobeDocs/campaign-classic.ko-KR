@@ -9,9 +9,9 @@ hidefromtoc: true
 hide: true
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1774'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ _2021년 4월 14일_
 >
 > * Adobe IMS(Identity Management Service)를 통해 Adobe ID로 Campaign에 연결하는 경우 **2021년 6월 30일** 이후부터 Campaign 서버와 클라이언트 콘솔을 모두 업그레이드해야 Campaign에 연결할 수 있습니다. [자세히 알아보기](../../technotes/using/ims-updates.md)
 > * 이 릴리스는 [보안 픽스](https://helpx.adobe.com/kr/security/products/campaign/apsb21-04.html)와 함께 제공됩니다. 환경 보안을 강화하려면 업그레이드가 필요합니다.
-> * OAuth 인증을 통해 Experience Cloud 트리거 통합을 사용하는 경우 설명된 대로 Adobe I/O으로 이동해야 합니다 [이 페이지에서](../../integrations/using/about-triggers.md#implement). Campaign의 [레거시 oAuth 인증 모드는](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko) **2021년 9월**&#x200B;부로 사용이 중단되었습니다. 호스팅 환경의 경우 **2022년 2월 23일**&#x200B;까지 연장 사용할 수 있습니다. 온프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하면 2022년 2월까지 지원을 연장할 수 있습니다. Adobe에 [OAuth 애플리케이션의 AppID](../../integrations/using/configuring-pipeline.md#step-optional)를 제공해야 합니다.
+> * OAuth 인증을 통해 Experience Cloud 트리거 통합을 사용할 경우 [이 페이지에서](../../integrations/using/about-triggers.md#implement) 설명하는 대로 Adobe I/O로 전환해야 합니다. Campaign의 레거시 oAuth 인증 모드는 **2021년 9월**&#x200B;부로 [사용이 중단](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ko)되었습니다. 호스팅 환경의 경우 **2022년 2월 23일**&#x200B;까지 연장 사용할 수 있습니다. 온프레미스 또는 하이브리드 고객은 Adobe 고객 지원 센터에 문의하면 2022년 2월까지 지원을 연장할 수 있습니다. Adobe에 [OAuth 애플리케이션의 AppID](../../integrations/using/configuring-pipeline.md#step-optional)를 제공해야 합니다.
 >
 >이 [[!DNL Gold Standard] 섹션](../../rn/using/gold-standard.md)에서 자세히 알아보기
 
@@ -220,9 +220,9 @@ _2019년 8월 13일_
 이 문서에는 **Adobe Campaign Classic[!DNL Gold Standard]** 19.1 빌드에 대해 지원되는 시스템 및 구성 요소의 전체 목록이 있습니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign의 해당 버전과 호환되지 않습니다.
 
 >[!CAUTION]
->별도로 언급되지 않는 한 모든 부 릴리스가 지원됩니다.
+>별도로 언급되지 않는 한 모든 마이너 릴리스도 지원됩니다.
 >
->Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구와 호환됩니다. 이러한 타사 시스템 및 도구의 특정 버전이 각각의 작성자와 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며 이후 제품 릴리스의 호환성 매트릭스에서 제거됩니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
+>Adobe Campaign Classic은 이 페이지에 나열된 모든 시스템 및 도구와 호환됩니다. 이 서드파티 시스템 및 도구의 특정 버전이 각 제작자가 발표한 EOL(End-of-Life)에 도달하면 해당 버전은 더 이상 Adobe Campaign과 호환되지 않으며, 이후 제품 릴리스의 호환성 매트릭스에서 제거됩니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
 >
 
 ### 운영 체제{#OperatingSystems-gs}

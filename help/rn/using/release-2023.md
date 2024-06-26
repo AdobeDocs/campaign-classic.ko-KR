@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
 source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 [!BADGE 제한 공개]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
-_2023년 12월 5일 수요일_
+_2023년 12월 5일_
 
 ### 보안 기능 개선 {#release-7-3-5-security}
 
@@ -32,7 +32,7 @@ _2023년 12월 5일 수요일_
 
 ### 기타 개선 사항 {#release-7-3-5-other}
 
-이 릴리스부터 이미 전송된 이메일의 링크 추적은 업그레이드 중에도 계속 작동합니다. [자세히 보기](../../platform/using/faq-build-upgrade.md)
+이번 릴리스부터 이미 보낸 이메일의 링크 추적이 업그레이드 중에도 계속 진행됩니다. [자세히 보기](../../platform/using/faq-build-upgrade.md)
 
 ### 패치 {#release-7-3-5-patches}
 
@@ -140,7 +140,7 @@ _2023년 3월 20일_
 * 과금 워크플로우를 개선하여 성능을 최적화했습니다. (NEO-47658)
 * 추적 워크플로우를 개선하여 게재 용량이 큰 경우의 성능을 최적화했습니다. (NEO-45064)
 * 추적 관리를 개선하여 URL의 동적 매개 변수에 발생할 수 있는 문제를 해결했습니다. 이제 추적 관리 v3가 ajax 유형 URL(‘#’ 뒤에 매개 변수가 있음)을 처리하며 서드파티 도구에서 추적 URL을 수정하지 못하도록 합니다. 이 변경 사항을 적용하려면 Adobe에 문의해야 합니다. (NEO-46535)
-* 이 릴리스부터 이미 전송된 이메일의 링크 추적은 업그레이드 중에도 계속 작동합니다. [자세히 보기](../../platform/using/faq-build-upgrade.md)
+* 이번 릴리스부터 이미 보낸 이메일의 링크 추적이 업그레이드 중에도 계속 진행됩니다. [자세히 보기](../../platform/using/faq-build-upgrade.md)
 
 <!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
 
@@ -182,7 +182,7 @@ _2022년 11월 21일_
 * 이제 Google BigQuery 커넥터가 부울 필드를 완전히 지원합니다. (NEO-49181)
 * 이제 serverConf.xml 파일의 `Configuration for the redirection service` 섹션에서 IMS 쿠키 유효 기간을 구성할 수 있습니다. 이는 `uuid230`, `nllastdelid` 및 `AMCV_`(NEO-42541) 쿠키에 적용됩니다.
 * 이제 `showSourceIP`을(를) serverConf.xml 파일의 리디렉션 노드에서 false로 설정하여 IP를 “/r/test” 요청에서 숨길 수 있습니다. [자세히 보기](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
-* 이 릴리스부터 이미 전송된 이메일의 링크 추적은 업그레이드 중에도 계속 작동합니다. [자세히 보기](../../platform/using/faq-build-upgrade.md)
+* 이번 릴리스부터 이미 보낸 이메일의 링크 추적이 업그레이드 중에도 계속 진행됩니다. [자세히 보기](../../platform/using/faq-build-upgrade.md)
 
 
 ### 사용되지 않는 기능  {#release-7-3-2-deprecated}

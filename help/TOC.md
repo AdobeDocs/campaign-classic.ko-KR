@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 3307c75ed7df0fcd357dd7c684481c62e0457e04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
    + [업그레이드 시작](rn/using/rn-overview.md)
    + [최신 릴리스](rn/using/latest-release.md)
    + 이전 릴리스 {#previous-releases}
-      + [20](rn/using/release-2024.md)
+      + [2024](rn/using/release-2024.md)
       + [2023](rn/using/release-2023.md)
       + [2022](rn/using/release-2022.md)
       + [2021](rn/using/release-2021.md)
@@ -353,7 +353,7 @@ ht-degree: 99%
 + Adobe Experience Cloud와 통합 {#integrating-with-adobe-experience-cloud}
    + [Campaign 통합 시작](integrations/using/about-campaign-integrations.md)
    + [Adobe 기술 계정 만들기](integrations/using/oauth-technical-account.md)
-   + Adobe Experience Cloud Triggers {#experience-triggers}
+   + Adobe Experience Cloud 트리거 {#experience-triggers}
       + [ [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
       + [사용자 정의 구현을 위한 이벤트 구성](integrations/using/events.md)
@@ -828,7 +828,7 @@ ht-degree: 99%
       + [Adobe IMS로 전환](technotes/using/ac-ims.md)
       + [사용자를 IMS로 마이그레이션](technotes/using/migrate-users-to-ims.md)
       + [기술 운영자를 Developer Console로 마이그레이션](technotes/using/ims-migration.md)
-      + [IMS 마이그레이션 후 인터페이스에 미치는 영향](technotes/using/impact-ims-migration.md)
+      + [IMS 마이그레이션이 인터페이스에 미치는 영향](technotes/using/impact-ims-migration.md)
    + 업그레이드 및 호환성{#technote-migration}
       + [기술 노트](technotes/using/technote.md)
       + [Microsoft Edge Chromium 사용](technotes/using/edge-chromium.md)
