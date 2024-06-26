@@ -8,8 +8,8 @@ level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 33d06c00ca9c7cd0ff077341df2b5b52ddf747a4
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr>
   <tr>
  <td>Campaign(Neolane) 레거시 SDK</td>
- <td><p>모바일 애플리케이션용 Campaign(Neolane) SDK는 이제 더 이상 사용되지 않습니다. 대신 데이터 수집 UI에서 Adobe Experience Platform 확장 기능을 구성하여 Adobe Campaign Mobile SDK를 사용합니다. Adobe Experience Platform Mobile SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 강화하는 데 도움이 됩니다. SDK 구성은 유연한 구성 및 확장 가능한 규칙 기반 통합을 위해 데이터 수집 UI를 통해 관리됩니다. 에서 모바일 앱 채널을 구성하는 방법에 대해 알아봅니다. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 설명서</a>.</p>
+ <td><p>모바일 애플리케이션용 Campaign(Neolane) SDK의 사용이 종료되었습니다. 대신 데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform 모바일 SDK를 사용하면 됩니다. Adobe Experience Platform 모바일 SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 구동하는 데 도움이 됩니다. SDK 구성은 데이터 수집 UI를 통해 관리되므로 유연한 구성과 확장 가능한 규칙 기반 통합을 이용할 수 있습니다. <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 설명서</a>에서 모바일 앱 채널을 구성하는 방법에 대해 알아봅니다.</p>
 <p>목표 제거일: 2025년 여름 </p>
 </td>
 </tr>
@@ -88,7 +88,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
  </tr>
   <tr>
   <td>OAuth 인증(OAuth 및 JWT)<br></td>
-  <td><p> 기존 OAuth 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되었으며 Adobe I/O으로 이동되었습니다. 이 인증 모드는 Campaign 20.3 릴리스에서 더 이상 사용되지 않습니다.<p>
+  <td><p> OAuth 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증을 변경하고 Adobe I/O로 이동했습니다. Campaign 20.3 릴리스부터는 더 이상 이 인증 모드를 사용하지 않습니다.<p>
   <p>기존에 트리거 통합을 사용 중이었던 경우 <a href="../../integrations/using/about-triggers.md#implement">이 페이지에서</a> 구현을 조정하는 방법을 알아보세요.</p> 
   <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지</a>를 참조하십시오</p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
