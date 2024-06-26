@@ -4,16 +4,16 @@ description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 �
 feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
-source-git-commit: c8ff250c1e4013d4c8271a3a388ddbabcfaeea38
+source-git-commit: af811b2df325efcaee38a967252b6952e67680d1
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1775'
 ht-degree: 0%
 
 ---
 
 # Campaign 기술 운영자를 Adobe Developer 콘솔로 마이그레이션 {#migrate-tech-users-to-ims}
 
-Campaign Classic v7.3.5부터 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로, Campaign Classic에 대한 인증 프로세스가 개선되고 있습니다. 기술 운영자는 이제 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}. **Adobe Campaign v7.3.5에서 이 마이그레이션을 수행하여 Campaign v8로 원활하게 마이그레이션할 수 있도록 하는 것이 좋습니다.**
+Campaign Classic v7.3.5부터 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로, Campaign Classic에 대한 인증 프로세스가 개선되고 있습니다. 기술 운영자는 이제 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} Campaign에 연결합니다. 에서 새 서버 간 인증 프로세스에 대해 자세히 알아봅니다. [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}. **Adobe은 Campaign v8로 원활하게 마이그레이션할 수 있도록 v7에서 이 마이그레이션을 수행하는 것을 권장합니다.**
 
 기술 운영자는 API 통합을 위해 명시적으로 생성된 Campaign 사용자 프로필입니다. 이 문서에서는 Adobe Developer 콘솔을 통해 기술 연산자를 기술 계정으로 마이그레이션하는 데 필요한 단계에 대해 자세히 설명합니다.
 
@@ -21,7 +21,7 @@ Campaign Classic v7.3.5부터 보안 및 인증 프로세스를 강화하기 위
 
 Campaign 외부 시스템에서 Campaign 마케팅 인스턴스 또는 실시간 메시지 센터 인스턴스로 API를 호출하는 경우, Adobe은 아래에 자세히 설명된 대로 Adobe Developer 콘솔을 통해 기술 연산자를 기술 계정으로 마이그레이션할 것을 강력히 권장합니다.
 
-이 변경 사항은 Campaign Classic v7.3.5(및 최신 버전)부터 적용됩니다. [IMS 마이그레이션 호환 버전](#ims-versions-tech)) 및 는 **필수** Adobe Campaign v8로 이동합니다.
+이 변경 사항은 Campaign Classic v7.3.5(및 최신 버전)부터 적용됩니다. [IMS 마이그레이션 호환 버전](ac-ims.md#ims-versions)) 및 는 **필수** Adobe Campaign v8로 이동합니다.
 
 ## 마이그레이션 프로세스 {#ims-migration-procedure}
 
@@ -31,20 +31,10 @@ Campaign 외부 시스템에서 Campaign 마케팅 인스턴스 또는 실시간
 
 * Adobe Developer 콘솔 내에서 프로젝트 만들기
 * 새로 생성된 프로젝트에 적절한 API 할당
-* 프로젝트에 필요한 캠페인 제품 프로필 부여
-* 새로 만든 기술 계정 자격 증명을 사용하도록 API 업데이트
+* 프로젝트에 필요한 Campaign 제품 프로필 부여
+* 새로 만든 기술 계정 자격 증명을 사용하도록 API를 업데이트합니다
 * Campaign 인스턴스에서 기존 기술 연산자 제거
 
-
-### IMS 마이그레이션 호환 버전 {#ims-versions-tech}
-
-이 마이그레이션의 전제 조건은 환경을 다음 제품 버전 중 하나로 업그레이드하는 것입니다.
-
-* Campaign v7.3.5 (권장)
-* Campaign v7.3.3.IMS
-* Campaign v7.3.2.IMS
-
-이러한 Campaign 버전은 다음에 자세히 설명되어 있습니다. [릴리스 정보](../../rn/using/latest-release.md).
 
 ### 마이그레이션 사전 요구 사항{#ims-migration-prerequisites}
 
@@ -52,7 +42,7 @@ Campaign 외부 시스템에서 Campaign 마케팅 인스턴스 또는 실시간
 
 * Campaign Hosted 및 Managed Services 고객
 
-  메시지 센터 인스턴스에 대한 API 호출의 경우 Campaign v7.3.5(또는 기타)로 업그레이드하는 동안 제품 프로필(아래 언급됨)을 만들어야 합니다 [IMS 마이그레이션 호환 버전](#ims-versions-tech)), 또는 인스턴스 프로비저닝 중에 선택할 수 있습니다. 제품 프로필이 표시되지 않는 경우 IMS 마이그레이션을 시작하기 전에 제품 프로필을 만들려면 전환 관리자 또는 고객 지원에 문의하십시오. 이 제품 프로필의 이름은 다음과 같습니다.
+  메시지 센터 인스턴스에 대한 API 호출의 경우 Campaign v7.4.1(또는 기타)로 업그레이드하는 동안 제품 프로필(아래 언급됨)을 만들어야 합니다 [IMS 마이그레이션 호환 버전](ac-ims.md#ims-versions)), 또는 인스턴스 프로비저닝 중에 선택할 수 있습니다. 제품 프로필이 표시되지 않는 경우 IMS 마이그레이션을 시작하기 전에 제품 프로필을 만들려면 전환 관리자 또는 고객 지원에 문의하십시오. 이 제품 프로필의 이름은 다음과 같습니다.
 
   `campaign - <your campaign marketing instance> - messagecenter`
 
@@ -60,7 +50,7 @@ Campaign 외부 시스템에서 Campaign 마케팅 인스턴스 또는 실시간
 
   다른 사례의 경우, Adobe 기술 팀이 기존 운영자 Adobe 및 명명된 권한을 Admin Console 내의 제품 프로필로 마이그레이션할 수 있도록 Adobe 전환 관리자(Managed Services 사용자용) 또는 고객 지원 센터(다른 호스트형 사용자용)에 연결해야 합니다.
 
-* Campaign On-Premise 및 하이브리드 고객
+* Campaign On-premise 및 Hybrid 고객
 
   메시지 센터 인스턴스에 대한 API 호출의 경우 이름이 인 제품 프로필을 만들어야 합니다.
 
@@ -169,6 +159,12 @@ You can now add your Campaign product profile to the project, as detailed below:
 이제 Adobe Campaign에 호출하여 새로 만든 기술 계정을 사용하려면 모든 API 통합을 업데이트해야 합니다.
 
 API 통합 단계에 대한 자세한 내용은 아래 코드 샘플을 참조하십시오.
+
+IMS(Adobe Identity Management 시스템) 인증을 사용할 때 WSDL 파일을 생성하려면 권한 부여: 전달자를 추가해야 합니다 &lt;ims_technical_token_token> postman 호출:
+
+```
+curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'
+```
 
 >[!BEGINTABS]
 
@@ -489,3 +485,12 @@ Campaign 인스턴스에 대한 API 호출이 하나 이상 만들어져야 IMS�
 모든 타사 시스템을 마이그레이션하여 IMS 인증이 있는 새 기술 계정을 사용하면 Campaign 클라이언트 콘솔에서 이전 기술 연산자를 삭제할 수 있습니다.
 
 이렇게 하려면 Campaign 클라이언트 콘솔에 로그인하고 로 이동합니다. **관리 > 액세스 관리 > 연산자** 이전 기술 사용자를 찾아 삭제합니다.
+
+
+>[!MORELIKETHIS]
+>
+>* [최종 사용자를 IMS로 마이그레이션](migrate-users-to-ims.md)
+>* [IMS 마이그레이션 후 Campaign 인터페이스 업데이트](impact-ims-migration.md)
+>* [Adobe Campaign Classic v7 최신 릴리스 노트](../../rn/using/latest-release.md)
+>* [IMS(Identity Management System) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}
+

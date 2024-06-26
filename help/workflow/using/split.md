@@ -4,26 +4,26 @@ title: 분할
 description: 분할 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 13eb777e96602ddd3463f721c6b2a3e6b67cb329
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
 
 # 분할{#split}
 
-
-
 A **분할**-type 활동을 사용하면 대상을 여러 하위 집합으로 분할할 수 있습니다. 타겟은 받은 모든 결과로 구성됩니다. 따라서 이 활동을 실행하려면 모든 이전 활동이 완료되어야 합니다.
 
 이 활동은 인바운드 모집단의 결합을 트리거하지 않습니다. 여러 전환이 하나의 분할 활동으로 랜딩되는 경우 **[!UICONTROL Union]** 활동 을 참조하십시오.
 
-사용 중인 분할 활동의 예는 를 참조하십시오. [분할 활동을 사용하여 하위 집합 만들기](targeting-data.md#creating-subsets-using-the-split-activity).
+>[!NOTE]
+>
+>소스가 다른 테이블에 대해서는 분할 작업을 수행할 수 없습니다. 이를 위해 다음을 추가해야 합니다 **데이터 보강** 다음 이전 활동 **분할** 활동.
 
-분할 활동을 사용하여 필터링 조건을 사용하여 대상을 다른 모집단으로 분할하는 방법을 보여 주는 예제에 설명되어 있습니다 [이 섹션](cross-channel-delivery-workflow.md).
-
-분할 활동에서 인스턴스 변수를 사용하는 방법을 보여주는 예는에서 사용할 수 있습니다. [이 섹션](javascript-scripts-and-templates.md).
+* 사용 중인 분할 활동의 예는 를 참조하십시오. [분할 활동을 사용하여 하위 집합 만들기](targeting-data.md#creating-subsets-using-the-split-activity).
+* 분할 활동을 사용하여 필터링 조건을 사용하여 대상을 다른 모집단으로 분할하는 방법을 보여 주는 예제에 설명되어 있습니다 [이 섹션](cross-channel-delivery-workflow.md).
+* 분할 활동에서 인스턴스 변수를 사용하는 방법을 보여주는 예는에서 사용할 수 있습니다. [이 섹션](javascript-scripts-and-templates.md).
 
 이 활동을 구성하려면 하위 집합 콘텐츠와 레이블을 **[!UICONTROL Subsets]** 탭을 선택한 다음, **[!UICONTROL General]** 탭.
 

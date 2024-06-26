@@ -4,23 +4,24 @@ title: 기술 정보 - Campaign 환경에서 Microsoft Edge Chromium 활성화
 description: Campaign - 에지 크롬
 feature: Technote, Upgrade
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 8734e6ef26a7342042a5242d54854b7d3a5e6244
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 7%
+source-wordcount: '263'
+ht-degree: 6%
 
 ---
 
 # 환경에서 Microsoft Edge Chromium을 활성화하는 방법 {#edge-conf}
 
-
-
-
 ## 변경 사항
 
 Microsoft Internet Explorer 11의 수명 종료에 따라 클라이언트 콘솔의 대시보드용 HTML 렌더링 엔진은 Edge Chromium을 사용하여 Campaign Classic v7.3을 시작합니다.
 
-Microsoft Edge Webview 2 런타임 설치, 이제 [클라이언트 콘솔 설치에 필요](../../installation/using/installing-the-client-console.md#webview), 인스턴스에서 Microsoft Edge Chromium을 활성화해야 합니다.
+Microsoft Edge Webview 2 런타임을 설치할 수 있습니다. [클라이언트 콘솔 설치에 필요](../../installation/using/installing-the-client-console.md#webview), 인스턴스에서 Microsoft Edge Chromium을 활성화해야 합니다.
+
+>[!NOTE]
+>
+>Microsoft Edge Chromium을 활성화한 후 `Ctrl+F` (Windows) 또는 `Command+F` (Mac) 브라우저의 검색 대화 상자를 여는 바로 가기가 더 이상 작동하지 않습니다.
 
 ## 영향을 받습니까?
 
@@ -28,7 +29,7 @@ Microsoft Edge Webview 2 런타임 설치, 이제 [클라이언트 콘솔 설치
 
 ## 업데이트 방법
 
-* 로서의 **호스트됨** 고객 Adobe이 인스턴스에서 Microsoft Edge Chromium을 이미 활성화했습니다. 추가 작업은 필요하지 않습니다.
+* 로서의 **호스트됨** 고객 Adobe에서 이미 인스턴스에서 Microsoft Edge Chromium을 활성화했습니다. 추가 작업은 필요하지 않습니다.
 
 * (으)로 **온-프레미스/하이브리드** 고객은 인스턴스에서 Microsoft Edge Chromium을 활성화해야 합니다.
 
