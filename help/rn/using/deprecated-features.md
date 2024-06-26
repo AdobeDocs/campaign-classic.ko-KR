@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
+source-git-commit: 33d06c00ca9c7cd0ff077341df2b5b52ddf747a4
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1636'
 ht-degree: 92%
 
 ---
@@ -46,7 +46,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <tr>
  <td>Campaign(Neolane) 레거시 SDK</td>
  <td><p>모바일 애플리케이션용 Campaign(Neolane) SDK는 이제 더 이상 사용되지 않습니다. 대신 데이터 수집 UI에서 Adobe Experience Platform 확장 기능을 구성하여 Adobe Campaign Mobile SDK를 사용합니다. Adobe Experience Platform Mobile SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 강화하는 데 도움이 됩니다. SDK 구성은 유연한 구성 및 확장 가능한 규칙 기반 통합을 위해 데이터 수집 UI를 통해 관리됩니다. 에서 모바일 앱 채널을 구성하는 방법에 대해 알아봅니다. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 설명서</a>.</p>
-<p>Target 제거 날짜: 2024년 말 </p>
+<p>목표 제거일: 2025년 여름 </p>
 </td>
 </tr>
 <tr>
