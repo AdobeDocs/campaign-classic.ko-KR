@@ -8,16 +8,14 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '738'
 ht-degree: 2%
 
 ---
 
 # 성능 및 처리량 문제{#performance-and-throughput-issues}
-
-
 
 먼저 최신 빌드가 설치되어 있는지 확인해야 합니다. 이렇게 하면 최신 기능과 버그 수정 사항이 있습니다.
 
@@ -54,6 +52,11 @@ Adobe Campaign은 [도구](../../production/using/monitoring-processes.md#manual
 
 * MTA 및 MTAChild 프로세스 및 메모리: **mta** 모듈이 메시지를 해당 모듈에 배포함 **일치 항목** 하위 모듈. 각 **일치 항목** 통계 서버에서 인증을 요청하고 전송하기 전에 메시지를 준비합니다. 다음을 참조하십시오. [페이지](../../installation/using/email-deliverability.md) 추가 정보.
 * TLS 구성: TLS를 전역적으로 활성화하면 처리량을 줄일 수 있으므로 권장되지 않습니다. 대신 전달성 팀에서 관리하는 도메인별 TLS 설정은 필요에 따라 조정해야 합니다. 다음을 참조하십시오. [페이지](../../installation/using/email-deliverability.md#mx-configuration) 추가 정보.
+
+  >[!NOTE]
+  >
+  >전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 Adobe 담당자에게 문의해야 합니다.
+
 * DKIM: DKIM의 보안 수준을 보장하기 위해 권장되는 암호화 크기로 1024b를 사용하는 것이 좋습니다. 낮은 DKIM 키는 대부분의 액세스 공급자에서 유효한 것으로 간주되지 않습니다. [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)를 참조하십시오.
 
 ## 전달성 문제 {#deliverability-issues}
@@ -62,10 +65,15 @@ Adobe Campaign은 [도구](../../production/using/monitoring-processes.md#manual
 
 * IP 신뢰도: IP 신뢰도가 충분하지 않으면 성능에 영향을 줍니다. 다음 **게재 기능 모니터링** 모듈은 플랫폼의 전달성 성능을 추적하는 다양한 도구를 제공합니다. 다음을 참조하십시오. [페이지](../../delivery/using/monitoring-deliverability.md).
 * IP 준비: IP 준비는 게재 가능성 팀이 수행합니다. 여기에는 몇 주 동안 새 IP를 통해 이메일 수가 점차적으로 증가합니다.
+
+  >[!NOTE]
+  >
+  >전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 Adobe 담당자에게 문의해야 합니다.
+
 * IP 선호도 설정: 잘못된 IP 선호도 설정은 이메일을 모두 중지하거나(구성에서 잘못된 연산자/선호도 이름) 처리량을 줄일 수 있습니다(선호도에 있는 적은 수의 IP). 다음을 참조하십시오. [페이지](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
 * 이메일 크기: 이메일 크기는 처리량에 중요한 역할을 합니다. 권장되는 최대 이메일 크기는 60KB입니다. 다음을 참조하십시오. [페이지](https://helpx.adobe.com/legal/product-descriptions/campaign.html). 다음에서 [게재 처리량](../../reporting/using/global-reports.md#delivery-throughput) 시간별로 전송된 바이트 수를 확인합니다.
 * 부적합한 수신자 많음: 부적합한 수신자가 많으면 처리량에 영향을 줄 수 있습니다. MTA가 잘못된 수신자에게 이메일 전송을 계속 재시도합니다. 데이터베이스가 잘 관리되고 있는지 확인하십시오.
-* 개인화 양: 게재가 &quot;개인화 진행 중&quot;에 있는 경우 개인화 블록에 사용된 JavaScript를 확인하십시오.
+* 개인화 양: 게재가 &quot;Personalization 진행 중&quot;에 머무르는 경우 개인화 블록에 사용된 JavaScript을 확인하십시오.
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
 workflow-type: tm+mt
-source-wordcount: '8445'
+source-wordcount: '8466'
 ht-degree: 1%
 
 ---
@@ -383,6 +383,10 @@ SMPP 공급자에 연결할 수 있는 MTA 인스턴스 수로 제한을 설정�
 
 SMSC 구현의 이름을 설정합니다. 공급자 이름으로 설정해야 합니다. 이 필드에 추가할 내용을 알아보려면 관리자 또는 게재 팀에 문의하십시오. 이 필드의 역할은 다음에서 설명합니다. [SR 오류 관리](sms-protocol.md#sr-error-management) 섹션.
 
+>[!NOTE]
+>
+>전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 Adobe 담당자에게 문의해야 합니다.
+
 #### 서버 {#server}
 
 연결할 서버의 DNS 이름 또는 IP 주소입니다.
@@ -487,7 +491,7 @@ Adobe Campaign Classic에는 KPI에 대해 완전히 다른 메커니즘이 있�
 
 * 자동 회신 기능의 설정에 대한 차단 목록에 추가하다는 특정 짧은 코드만 사용자에게 보냅니다.
 
-#### 소스 TON/NPI, 대상 TON/NPI {#ton-npi}
+#### Source TON/NPI, 대상 TON/NPI {#ton-npi}
 
 TON(숫자 유형) 및 NPI(번호 매기기 계획 표시기)는 의 섹션 5.2.5에 설명되어 있습니다. [SMPP 3.4 사양](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (117쪽). 이러한 값은 공급자의 필요에 맞게 설정해야 합니다.
 

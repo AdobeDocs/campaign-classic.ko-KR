@@ -6,9 +6,9 @@ feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2225'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,10 @@ IP, 차단 목록, 하위 도메인 및 URL에 대한 전역 영향은 아래에
 
   기존 하위 도메인이 기존 데이터 센터에서 공용 클라우드(AWS)로 이동됩니다. 이 부분은 Adobe 전달성 팀이 마이그레이션 프로세스의 일부로 처리합니다.
 
+  >[!NOTE]
+  >
+  >전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 Adobe 담당자에게 문의해야 합니다.
+
   Adobe은 마이그레이션 후 새 Public Cloud(AWS) 서버에서 구성이 실행되고 있는지 확인하는 데 필요한 테스트를 안내합니다.
 
 * **마이그레이션이 추적, 리소스 및 웹 애플리케이션에 대한 새 URL을 생성합니까?**
@@ -91,7 +95,7 @@ IP, 차단 목록, 하위 도메인 및 URL에 대한 전역 영향은 아래에
 
 * **IP Warming에 대한 계획은 무엇입니까?**
 
-  먼저 Adobe 전달성은 플랫폼의 전달성 상태를 평가하고 새 IP로 전환하는 계획을 권장합니다
+  우선 Adobe 전달성 은 플랫폼의 전달성 상태를 평가하고 새 IP로 전환하는 계획을 권장합니다
 
   마이그레이션 후에는 준비 작업이 필요하지 않습니다. 예외일 수도 있고, 그런 경우에는 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support) 은 고객에게 연락합니다.
 
