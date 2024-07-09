@@ -8,9 +8,9 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: b02089bd205de58c6af86fc8de3d5b3294ec9975
+source-git-commit: e40331266f34e2d6aa7b7720948d0cf26d4c6009
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1066'
 ht-degree: 8%
 
 ---
@@ -43,11 +43,11 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
 
 >[!NOTE]
 >
->Campaign Classic을 사용하여 SFTP 서버 스토리지를 모니터링할 수 있습니다 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
+>* Campaign Classic을 사용하여 SFTP 서버 스토리지를 모니터링할 수 있습니다 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
 >
->컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는에 자세히 설명되어 있습니다 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel){target="_blank"}.
+>* 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는에 자세히 설명되어 있습니다 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel){target="_blank"}.
 >
->인스턴스를 업그레이드해야 합니다. [최신 GA 빌드](../../rn/using/rn-overview.md). 에서 버전을 확인하는 방법을 알아봅니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}.
+>* 인스턴스를 업그레이드해야 합니다. [최신 GA 빌드](../../rn/using/rn-overview.md). 에서 버전을 확인하는 방법을 알아봅니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}.
 
 * 서버 크기 기능은 사용 중인 라이센스에 따라 다릅니다. 어떤 경우든 가능한 최소 데이터를 유지하고 필요한 동안만 데이터를 유지합니다(15일이 최대 시간 제한).
 
@@ -72,13 +72,13 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
 
 1. 인스턴스가 실행 중인지 확인하십시오. 이렇게 하려면 브라우저를 연 다음 **[!UICONTROL GET]** 인스턴스 호출 **[!UICONTROL /r/test]** 끝점:
 
-   ```
+   ```xml
    https://instanceUrl/r/test
    ```
 
    인스턴스가 실행 중인 경우 다음 유형의 응답을 받아야 합니다.
 
-   ```
+   ```xml
    <redir status='OK' date='YYYY-MM-DD HH:MM:SS' build='XXXX' instance='instance-name'
    sourceIP='AAA.BB.CCC.DD' host='instanceUrl' localHost='instance-name'/>
    ```
@@ -87,7 +87,7 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
 
 1. SFTP 연결을 시작하려는 사이트에서 아웃바운드 포트 22가 열려 있는지 확인합니다. 이렇게 하려면 다음 명령을 사용합니다.
 
-   ```
+   ```xml
    bash-3.2$ nc -vz <SFTP_URL> 22
    # Replace the SFTP_URL with actual SFTP instance URL
    # If the port 22 is opened you will see output similar to the below one
@@ -109,7 +109,7 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
 
 워크플로우 저널에는 다음 로그가 표시됩니다.
 
-```
+```xml
 16/05/2016 12:49:03    fileTransfer    Upload error in cURL
 16/05/2016 12:49:03    fileTransfer    Couldn't resolve host name
 16/05/2016 12:49:03    fileTransfer    Couldn't resolve host name
@@ -144,7 +144,7 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
 
    그렇지 않으면 다음을 확인합니다.
 
-   * 암호에 &#39;@&#39;이(가) 포함되어 있지 않습니다. 암호에 &#39;@&#39;이(가) 있으면 연결하지 못했습니다.
+   * 암호에 다음이 포함되어 있지 않습니다. `@` 문자. 다음 항목이 있는 경우 연결이 실패합니다. `@` 암호에 있는 문자
    * Adobe Campaign 애플리케이션 서버와 SFTP 서버 간의 통신을 방해할 수 있는 방화벽 문제는 없습니다.
    * Campaign 서버에서 sftp로 tracert 및 telnet 명령을 실행하여 연결 문제가 있는지 확인합니다.
    * 통신 프로토콜 문제가 없습니다.
