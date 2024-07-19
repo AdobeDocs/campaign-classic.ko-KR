@@ -17,7 +17,7 @@ ht-degree: 18%
 
 ## 인스턴스 모니터링 대시보드 {#instance-monitoring-dashboard}
 
-다음 **[!UICONTROL Monitoring]** Campaign Classic 홈페이지에서 액세스할 수 있는 탭은 인스턴스를 모니터링하는 데 도움이 되는 기본 진입점입니다.
+Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monitoring]** 탭은 인스턴스를 모니터링하는 데 도움이 되는 기본 진입점입니다.
 
 상태(빌드 버전, 설치된 패키지 등), 시스템 표시기, 로그, 현재 실행 중인 워크플로, 마지막으로 보낸 게재 상태 등 인스턴스에서 발생하는 항목의 대시보드를 제공합니다.
 
@@ -56,7 +56,7 @@ Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관�
 >
 >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
->인스턴스는 AWS에서 호스팅되어야 하며 [최신 GA 빌드](../../rn/using/rn-overview.md). [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko)에 설명된 단계를 수행합니다.
+>인스턴스는 AWS에서 호스팅되어야 하며 [최신 GA 빌드](../../rn/using/rn-overview.md)(으)로 업그레이드되어야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko)에 설명된 단계를 수행합니다.
 
 ### 워크플로우 모니터링 {#monitoring-workflows}
 
@@ -68,13 +68,13 @@ Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관�
 
 **감사 추적**
 
-감사 추적을 사용하면 워크플로우에서 수정된 모든 사항과 현재 상태를 시각화할 수 있습니다. [여기를 클릭하십시오.](../../production/using/audit-trail.md).
+감사 추적을 사용하면 워크플로우에서 수정된 모든 사항과 현재 상태를 시각화할 수 있습니다. [여기를 클릭하세요](../../production/using/audit-trail.md).
 
 **워크플로우 문제 해결**
 
-워크플로우 실행에 문제가 발생할 때 특정 작업을 수행할 수 있습니다. [여기를 클릭하십시오.](../../production/using/workflow-execution.md) 추가 정보
+워크플로우 실행에 문제가 발생할 때 특정 작업을 수행할 수 있습니다. 자세한 내용을 보려면 [여기를 클릭](../../production/using/workflow-execution.md)하세요.
 
-**워크플로우 상태 모니터링**
+**워크플로 상태 모니터링**
 
 Heatmap뿐만 아니라 워크플로 세트의 상태를 모니터링하고 감독자에게 반복 메시지를 보낼 수 있는 워크플로를 만들 수도 있습니다. 자세한 정보를 보려면 [여기를 클릭](../../workflow/using/supervising-workflows.md)하십시오.
 
@@ -94,14 +94,14 @@ SMTP 보고서에는 도메인별 게재 통계 및 SMTP 오류가 표시됩니�
 
 **모범 사례**
 
-[게재 전송 및 디자인 모범 사례](../../delivery/using/delivery-best-practices.md) 그들의 성과를 향상시키는데 도움을 줄 수 있습니다.
+[게재 전송 및 디자인 모범 사례](../../delivery/using/delivery-best-practices.md)를 통해 성능을 개선할 수 있습니다.
 
-**게재 문제 해결**
+**배달 문제 해결**
 게재와 관련된 문제가 발생할 때 특정 작업을 수행할 수 있습니다.
 * [전달성 문제](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [이미지 표시 문제](../../production/using/image-display-issues.md)
 * [게재 성능 문제](../../delivery/using/delivery-performances.md)
-* [임시 파일 문제](../../production/using/temporary-files.md) - *온-프레미스 호스팅 모델만 해당*
+* [임시 파일 문제](../../production/using/temporary-files.md) - *온-프레미스 호스팅 모델만*
 
 ### 데이터베이스 모니터링 {#monitoring-database}
 
@@ -117,15 +117,15 @@ SMTP 보고서에는 도메인별 게재 통계 및 SMTP 오류가 표시됩니�
 
 **데이터베이스 유지 관리**
 
-*온-프레미스 및 하이브리드 호스팅 모델만 해당*
+*온-프레미스 및 하이브리드 호스팅 모델만*
 
 정기적으로 데이터베이스 유지 관리를 수행하여 디스크 공간이 과도하게 소모되어 데이터베이스 액세스에 영향을 주지 않도록 하는 것이 좋습니다. 자세한 정보를 보려면 [여기를 클릭](../../production/using/recommendations.md)하십시오.
 
 **백업 및 복원**
 
-*온-프레미스 및 하이브리드 호스팅 모델만 해당*
+*온-프레미스 및 하이브리드 호스팅 모델만*
 
-컴퓨터에 문제가 발생할 경우(물리적 문제이든 시스템 관련 문제이든) 데이터 손실을 방지하려면 반드시 백업을 수행해야 합니다. [여기를 클릭하십시오.](../../production/using/backup.md) 추가 정보. 복원 절차는에 설명되어 있습니다. [이 섹션](../../production/using/restoration.md).
+컴퓨터에 문제가 발생할 경우(물리적 문제이든 시스템 관련 문제이든) 데이터 손실을 방지하려면 반드시 백업을 수행해야 합니다. 자세한 내용을 보려면 [여기를 클릭하세요](../../production/using/backup.md). 복원 프로시저는 [이 섹션](../../production/using/restoration.md)에 설명되어 있습니다.
 
 ## Campaign Classic 기술 원칙 {#campaign-classic-technical-principles}
 
@@ -138,7 +138,7 @@ SMTP 보고서에는 도메인별 게재 통계 및 SMTP 오류가 표시됩니�
 
 **서버 구성**
 
-*온-프레미스 및 하이브리드 호스팅 모델만 해당*
+*온-프레미스 및 하이브리드 호스팅 모델만*
 
 * [서버 구성](../../installation/using/configuring-campaign-server.md)
 * [Serverconf.xml 파일 구성](../../installation/using/the-server-configuration-file.md)

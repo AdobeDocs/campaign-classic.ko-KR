@@ -25,12 +25,12 @@ ht-degree: 6%
 
 ![](assets/Offermgt2.png)
 
-![](assets/do-not-localize/how-to-video.png) Campaign 상호 작용에 사용되는 상호 작용 기능 및 용어를 숙지하려면 다음을 시청하십시오. [이 비디오](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
+![](assets/do-not-localize/how-to-video.png) Campaign 상호 작용에 사용되는 상호 작용 기능 및 용어를 숙지하려면 [이 비디오](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)를 시청하세요.
 
 ## 관련 항목
 
 | 유용한 페이지 | 추가 자료 |
 |---|---|
 | [상호 작용 구현 단계](../../interaction/using/implementation-steps.md) | [오퍼 배포 테스트](../../interaction/using/about-offers-simulation.md) |
-| [라이브/디자인 환경](../../interaction/using/live-design-environments.md) | [이메일에 오퍼 추가](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
+| [라이브/디자인 환경](../../interaction/using/live-design-environments.md) | [전자 메일에 오퍼 추가](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
 | [오퍼 공간 만들기](../../interaction/using/creating-offer-spaces.md) | [사용 사례: 웹 사이트에 오퍼 추가](../../interaction/using/offers-on-an-inbound-channel.md) |

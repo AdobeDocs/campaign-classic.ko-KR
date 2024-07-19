@@ -26,9 +26,9 @@ ht-degree: 1%
 
 ## 추가 데이터 구성 {#additional-data-configuration}
 
-다음을 확장해야 합니다. **nms:interaction** 환경에 연결된 스키마를 선언하고 상호 작용 엔진 호출 중에 사용할 추가 필드 목록을 선언합니다. 자격 규칙을 만들거나 오퍼를 개인화할 때에서 이러한 필드에 액세스할 수 있습니다. **상호 작용** 노드( 참조) [추가 데이터 사용](#using-additional-data)).
+환경에 연결된 **nms:interaction** 스키마를 확장하고 Interaction 엔진을 호출하는 동안 사용할 추가 필드 목록을 선언해야 합니다. 자격 규칙을 만들거나 오퍼를 개인화할 때 **상호 작용** 노드에서 이러한 필드에 액세스할 수 있습니다([추가 데이터 사용](#using-additional-data) 참조).
 
-인바운드 채널의 경우 호출 데이터 필드를 **상호 작용** 노드.
+인바운드 채널의 경우 **상호 작용** 노드에 호출 데이터 필드를 추가해야 합니다.
 
 ```
 <element label="Interactions" labelSingular="Interaction" name="interaction">
@@ -40,7 +40,7 @@ ht-degree: 1%
 >
 >Xml 컬렉션은 인바운드 채널에서 지원되지만 다른 스키마에 대한 링크는 지원되지 않습니다.
 
-아웃바운드 채널의 경우 다음을 추가해야 합니다 **targetData** 에 추가 필드가 포함된 요소 **상호 작용** 노드.
+아웃바운드 채널의 경우 추가 필드가 포함된 **targetData** 요소를 **상호 작용** 노드에 추가해야 합니다.
 
 ```
 <element label="Interactions" labelSingular="Interaction" name="interaction">
@@ -54,7 +54,7 @@ ht-degree: 1%
 >
 >컬렉션은 아웃바운드 채널에 대해 지원되지 않습니다. 하지만 다른 스키마에 대한 링크를 만들 수 있습니다.
 
-제안 테이블에 이 데이터를 저장하려면 도 확장해야 합니다. **nms:propositionRcp** 이러한 필드를 스키마하고 선언합니다.
+제안 테이블에 이 데이터를 저장하려면 **nms:propositionRcp** 스키마도 확장하고 이러한 필드를 선언해야 합니다.
 
 ```
 <element label="Recipient offer propositions" labelSingular="Recipient offer proposition" name="propositionRcp">
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 ### 입력 채널(웹 페이지) {#input-channel--web-page-}
 
-엔진을 호출할 때 추가 데이터를 전송하려면 다음을 추가해야 합니다 **interactionGlobalCtx** 변수를 웹 페이지의 JavaScript 코드에 추가합니다. 삽입 **상호 작용** 이 변수에 대한 호출 데이터를 포함하는 노드입니다. 에 있는 것과 동일한 xml 구조를 준수해야 합니다. **nms:interaction** 스키마. 다음을 참조하십시오. [추가 데이터 구성](#additional-data-configuration).
+엔진을 호출할 때 추가 데이터를 전송하려면 **interactionGlobalCtx** 변수를 웹 페이지의 JavaScript 코드에 추가해야 합니다. 호출 데이터가 포함된 **상호 작용** 노드를 이 변수에 삽입하십시오. **nms:interaction** 스키마에 있는 동일한 xml 구조를 준수해야 합니다. [추가 데이터 구성](#additional-data-configuration)을 참조하세요.
 
 ```
 interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
@@ -75,7 +75,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 ### 출력 채널 {#output-channel}
 
-와 동일한 xml 구조 및 내부 이름을 고려하여 작업 표에 추가 데이터를 로드하는 타겟팅 워크플로우를 만들어야 합니다. **nms:interaction** 스키마. 다음을 참조하십시오. [추가 데이터 구성](#additional-data-configuration).
+**nms:interaction** 스키마와 동일한 xml 구조 및 동일한 내부 이름을 적용하여 작업 테이블에서 추가 데이터를 로드하는 타깃팅 워크플로우를 만들어야 합니다. [추가 데이터 구성](#additional-data-configuration)을 참조하세요.
 
 ## 추가 데이터 사용 {#using-additional-data}
 
@@ -89,7 +89,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 >[!NOTE]
 >
->데이터가 정의된 채널에서 규칙을 제한해야 합니다. 이 예제에서는 인바운드 웹 채널(**[!UICONTROL Taken into account if]** field).
+>데이터가 정의된 채널에서 규칙을 제한해야 합니다. 이 예제에서는 인바운드 웹 채널(**[!UICONTROL Taken into account if]** 필드)의 규칙을 제한하고 있습니다.
 
 ### 개인화 {#personalization}
 
@@ -101,11 +101,11 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 >
 >데이터가 정의된 채널에서 개인화를 제한해야 합니다. 이 예에서는 인바운드 웹 채널에 대한 규칙을 제한하고 있습니다.
 
-추가 데이터를 사용하여 오퍼를 개인화한 경우 이 데이터는 데이터베이스에서 사용할 수 없으므로 기본적으로 미리보기에 표시되지 않습니다. 의 환경에서 **[!UICONTROL Example of call data]** 탭에서 미리 보기에 사용할 값 샘플을 추가해야 합니다. 에 있는 것과 동일한 xml 구조를 존중하십시오. **nms:interaction** 스키마 확장명. 자세한 내용은 다음을 참조하십시오. [추가 데이터 구성](#additional-data-configuration).
+추가 데이터를 사용하여 오퍼를 개인화한 경우 이 데이터는 데이터베이스에서 사용할 수 없으므로 기본적으로 미리보기에 표시되지 않습니다. 환경의 **[!UICONTROL Example of call data]** 탭에서 미리 보기에 사용할 값 샘플을 추가해야 합니다. **nms:interaction** 스키마 확장에 있는 동일한 xml 구조를 준수하십시오. 자세한 내용은 [추가 데이터 구성](#additional-data-configuration)을 참조하세요.
 
 ![](assets/ita_calldata_preview.png)
 
-미리 볼 때 **[!UICONTROL Content personalization options for the preview]** 및 다음에서 값 선택 **[!UICONTROL Call data]** 필드.
+미리 볼 때 **[!UICONTROL Content personalization options for the preview]**&#x200B;을(를) 클릭하고 **[!UICONTROL Call data]** 필드에서 값을 선택합니다.
 
 ![](assets/ita_calldata_preview2.png)
 
@@ -115,11 +115,11 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 >[!NOTE]
 >
->을(를) 연장했어야 합니다. **nms:propositionRcp** 저장할 데이터를 포함할 필드를 스키마와 선언했습니다. 자세한 내용: [추가 데이터 구성](#additional-data-configuration).
+>**nms:propositionRcp** 스키마를 확장하고 저장할 데이터를 포함할 필드를 선언해야 합니다. 자세한 내용은 [추가 데이터 구성](#additional-data-configuration)을 참조하십시오.
 
-오퍼 공간에서 **[!UICONTROL Storage]** 탭을 클릭하고 **[!UICONTROL Add]** 단추를 클릭합니다.
+오퍼 공간에서 **[!UICONTROL Storage]** 탭으로 이동하여 **[!UICONTROL Add]** 단추를 클릭합니다.
 
-다음에서 **[!UICONTROL Storage path]** 열에서 제안 테이블의 저장 영역 필드를 선택합니다. 다음에서 **[!UICONTROL Expression]** 열에서 추가 필드를 선택합니다 **[!UICONTROL Interaction]** 노드.
+**[!UICONTROL Storage path]** 열에서 제안 테이블의 저장소 필드를 선택합니다. **[!UICONTROL Expression]** 열에서 **[!UICONTROL Interaction]** 노드의 추가 필드를 선택합니다.
 
 제안이 생성되거나 수락될 때(사용자가 오퍼를 클릭할 때) 호출 데이터를 검색할 수 있습니다.
 

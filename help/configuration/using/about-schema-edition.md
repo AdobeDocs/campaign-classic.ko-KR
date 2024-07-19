@@ -20,13 +20,13 @@ Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 * Campaign 애플리케이션 내에서 서로 다른 데이터 개체 간의 링크를 정의합니다.
 * 각 개체에 포함된 개별 필드를 정의하고 설명합니다.
 
-Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 을(를) 참조하십시오. [이 섹션](https://helpx.adobe.com/kr/campaign/kb/acc-datamodel.html).
+Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 [이 섹션](https://helpx.adobe.com/kr/campaign/kb/acc-datamodel.html)을 참조하세요.
 
 ## 스키마 확장 또는 생성 {#extending-or-creating-schemas}
 
-필드, 인덱스 또는 기타 요소를 Campaign의 핵심 데이터 스키마 중 하나(예: 수신자 테이블(nms:recipient)에 추가하려면 해당 스키마를 확장해야 합니다. 자세한 내용은 [스키마 확장](../../configuration/using/extending-a-schema.md) 섹션.
+필드, 인덱스 또는 기타 요소를 Campaign의 핵심 데이터 스키마 중 하나(예: 수신자 테이블(nms:recipient)에 추가하려면 해당 스키마를 확장해야 합니다. 자세한 내용은 [스키마 확장](../../configuration/using/extending-a-schema.md) 섹션을 참조하십시오.
 
-Adobe Campaign에 즉시 존재하지 않는 완전히 새로운 유형의 데이터(예: 계약 테이블)를 추가하려면 사용자 지정 스키마를 직접 만들 수 있습니다. 자세한 내용은 [데이터 스키마](../../configuration/using/data-schemas.md) 섹션.
+Adobe Campaign에 즉시 존재하지 않는 완전히 새로운 유형의 데이터(예: 계약 테이블)를 추가하려면 사용자 지정 스키마를 직접 만들 수 있습니다. 자세한 내용은 [데이터 스키마](../../configuration/using/data-schemas.md) 섹션을 참조하십시오.
 
 ![](assets/schemaextension_getting_started_1.png)
 
@@ -55,9 +55,9 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->사용자 관리 열거형을 사용할 수도 있습니다(일반적으로 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** )을 클릭하여 특정 필드의 값을 지정합니다. 이러한 열거형은 효과적으로 전역 열거형이며, 작업 중인 특정 스키마 외부에서 열거형을 사용할 수 있는 경우 더 나은 선택입니다.
+>사용자 관리 열거형(일반적으로 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** 아래)을 사용하여 지정된 필드에 대한 값을 지정할 수도 있습니다. 이러한 열거형은 효과적으로 전역 열거형이며, 작업 중인 특정 스키마 외부에서 열거형을 사용할 수 있는 경우 더 나은 선택입니다.
 
-열거형에 대한 자세한 내용은 [열거형](../../configuration/using/schema-structure.md#enumerations) 및 [`<enumeration>` 요소](../../configuration/using/schema/enumeration.md) 섹션.
+열거형에 대한 자세한 내용은 [열거형](../../configuration/using/schema-structure.md#enumerations) 및 [`<enumeration>` 요소](../../configuration/using/schema/enumeration.md) 섹션을 참조하세요.
 
 ## 색인 {#index}
 
@@ -80,19 +80,19 @@ type="string" enum="exTransactionTypeEnum"/>
 </dbindex>
 ```
 
-다음 **xpath** 속성은 인덱싱하려는 스키마의 필드를 가리킵니다.
+**xpath** 특성은 인덱싱하려는 스키마의 필드를 가리킵니다.
 
 >[!IMPORTANT]
 >
 >인덱스에서 제공하는 SQL 쿼리 읽기 성능 향상에도 레코드 쓰기에 대한 성능 히트가 있다는 것을 기억해야 합니다. 따라서 색인은 주의해서 사용해야 합니다.
 
-인덱스에 대한 자세한 내용은 [인덱싱된 필드](../../configuration/using/database-mapping.md#indexed-fields) 섹션.
+인덱스에 대한 자세한 내용은 [인덱싱된 필드](../../configuration/using/database-mapping.md#indexed-fields) 섹션을 참조하십시오.
 
 ## 키 {#keys}
 
-모든 테이블에는 하나 이상의 키가 있어야 하며, 종종 를 사용하여 스키마의 기본 요소에 자동으로 설정됩니다. **@autopk=true** 속성이 &quot;true&quot;로 설정되어 있습니다.
+모든 테이블에는 하나 이상의 키가 있어야 하며 종종 &quot;true&quot;로 설정된 **@autopk=true** 특성을 사용하여 스키마의 기본 요소에 자동으로 설정됩니다.
 
-기본 키는 다음을 사용하여 정의할 수도 있습니다. **내부** 특성.
+**internal** 특성을 사용하여 기본 키를 정의할 수도 있습니다.
 
 예:
 
@@ -102,21 +102,21 @@ type="string" enum="exTransactionTypeEnum"/>
 </key>
 ```
 
-이 예제에서는 를 허용하는 대신 **@autopk** attribute 고유한 &quot;householdId&quot; 기본 키를 지정하는 &quot;id&quot;라는 기본 기본 키를 만듭니다.
+이 예제에서는 **@autopk** 특성이 &quot;id&quot;라는 기본 기본 키를 만들도록 하는 대신 고유한 &quot;householdId&quot; 기본 키를 지정합니다.
 
 >[!IMPORTANT]
 >
 >새 스키마를 생성하거나 스키마 확장 중에 전체 스키마에 대해 동일한 기본 키 시퀀스 값(@pkSequence)을 유지해야 합니다.
 
-키에 대한 자세한 내용은 [키 관리](../../configuration/using/database-mapping.md#management-of-keys) 섹션.
+키에 대한 자세한 내용은 [키 관리](../../configuration/using/database-mapping.md#management-of-keys) 섹션을 참조하십시오.
 
 ## 속성(필드) {#attributes--fields-}
 
-속성을 사용하면 데이터 개체를 구성하는 필드를 정의할 수 있습니다. 다음을 사용할 수 있습니다. **[!UICONTROL Insert]** 빈 속성 템플릿을 커서가 있는 XML에 끌어 놓기 위한 스키마 편집 도구 모음의 단추입니다. 자세한 내용은 [데이터 스키마](../../configuration/using/data-schemas.md) 섹션.
+속성을 사용하면 데이터 개체를 구성하는 필드를 정의할 수 있습니다. 스키마 편집 도구 모음의 **[!UICONTROL Insert]** 단추를 사용하여 커서가 있는 XML에 빈 특성 템플릿을 놓을 수 있습니다. 자세한 내용은 [데이터 스키마](../../configuration/using/data-schemas.md) 섹션을 참조하십시오.
 
 ![](assets/schemaextension_getting_started_2.png)
 
-속성의 전체 목록은 [`<attribute>` 요소](../../configuration/using/schema/attribute.md) 섹션. 다음은 가장 일반적으로 사용되는 속성 중 일부입니다.
+[`<attribute>` 요소](../../configuration/using/schema/attribute.md) 섹션에서 전체 특성 목록을 사용할 수 있습니다. 다음은 가장 일반적으로 사용되는 속성 중 일부입니다.
 
 * **@advanced**
 * **@dataPolicy**
@@ -133,9 +133,9 @@ type="string" enum="exTransactionTypeEnum"/>
 * **@xml**
 * **@type**
 
-  다른 데이터베이스 관리 시스템에 대해 Adobe Campaign에서 생성한 데이터 유형에 대한 매핑을 나열하는 테이블을 보려면 [Adobe Campaign/DBMS 데이터 유형 매핑](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) 섹션.
+  다른 데이터베이스 관리 시스템에 대해 Adobe Campaign에서 생성한 데이터 유형에 대한 매핑을 나열하는 테이블을 보려면 [Adobe Campaign/DBMS 데이터 유형 매핑](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) 섹션을 참조하십시오.
 
-각 속성에 대한 자세한 내용은 [속성 설명](../../configuration/using/schema/attribute.md) 섹션.
+각 특성에 대한 자세한 내용은 [특성 설명](../../configuration/using/schema/attribute.md) 섹션을 참조하십시오.
 
 ### 예제 {#examples}
 
@@ -151,13 +151,13 @@ type="string" enum="exTransactionTypeEnum"/>
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
-를 사용하여 숨겨진 계산된 필드의 예 **@advanced** 특성:
+**@advanced** 특성을 사용하여 숨겨진 계산 필드의 예:
 
 ```
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
-SQL 필드에 저장되며 **@dataPolicy** 특성.
+SQL 필드에 저장되며 **@dataPolicy** 특성이 있는 XML 필드의 예입니다.
 
 ```
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
@@ -173,7 +173,7 @@ SQL 필드에 저장되며 **@dataPolicy** 특성.
 
 링크는 스키마의 기본 요소에 있는 마지막 요소 중 일부입니다. 인스턴스의 모든 스키마가 서로 관련되는 방식을 정의합니다.
 
-링크는 를 포함하는 스키마에서 선언됩니다. **외래 키** 연결된 테이블의
+링크가 연결된 테이블의 **외래 키**&#x200B;을(를) 포함하는 스키마에서 링크가 선언되었습니다.
 
 카디널리티에는 1-1, 1-N, N-N의 세 가지 유형이 있습니다. 기본적으로 사용되는 1-N 유형입니다.
 
@@ -221,4 +221,4 @@ SQL 필드에 저장되며 **@dataPolicy** 특성.
 
 >[!NOTE]
 >
->수정 사항이 데이터베이스 구조에 영향을 주지 않으면 스키마만 재생성하면 됩니다. 이렇게 하려면 업데이트할 스키마를 선택하고 마우스 오른쪽 버튼을 클릭한 다음 을(를) 선택합니다 **[!UICONTROL Actions > Regenerate selected schemas...]** . 자세한 내용은 [스키마 다시 생성](../../configuration/using/regenerating-schemas.md) 섹션.
+>수정 사항이 데이터베이스 구조에 영향을 주지 않으면 스키마만 재생성하면 됩니다. 이렇게 하려면 업데이트할 스키마를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **[!UICONTROL Actions > Regenerate selected schemas...]** 을(를) 선택합니다. 자세한 내용은 [스키마 다시 생성](../../configuration/using/regenerating-schemas.md) 섹션을 참조하십시오.

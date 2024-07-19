@@ -15,7 +15,7 @@ ht-degree: 2%
 
 
 
-아래에 설명된 워크플로우는 **개인 정보 보호 규정** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 정보는 다음을 참조하십시오. [기사](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html).
+아래에 설명된 워크플로는 기본적으로 **개인 정보 보호 규정** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html)를 참조하세요.
 
 <table> 
  <tbody> 
@@ -32,12 +32,12 @@ ht-degree: 2%
   <tr> 
    <td> <span class="uicontrol">개인 정보 보호 요청 데이터 삭제</span> <br /> </td> 
    <td> <span class="uicontrol">deletePrivacyRequestsData</span> <br /> </td> 
-   <td> 이 워크플로우는 Adobe Campaign에 저장된 수신자의 데이터를 삭제합니다.<br /> </td> 
+   <td> 이 워크플로는 Adobe Campaign에 저장된 받는 사람의 데이터를 삭제합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">개인 정보 보호 요청 정리</span> <br /> </td> 
    <td> <span class="uicontrol">cleanupPrivacyRequests</span> <br /> </td> 
-   <td> 이 워크플로우는 90일 이전의 액세스 요청 파일을 삭제합니다.<br /> </td> 
+   <td> 이 워크플로에서는 90일 이전의 액세스 요청 파일을 삭제합니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 웹 양식에서 필드를 사용하면 사용자가 정보를 입력하고 옵션을 선택할 수 있습니다. 웹 양식은 입력 필드, 선택 필드, 정적 및 고급 콘텐츠(captcha, 구독 등)를 제공할 수 있습니다.
 
-마법사를 사용하여 필드를 추가하면 필드 유형은 선택한 필드 또는 저장소 변수를 기반으로 자동으로 감지됩니다. 다음을 사용하여 편집할 수 있습니다. **[!UICONTROL Type]** 드롭다운 상자 **[!UICONTROL General]** 탭.
+마법사를 사용하여 필드를 추가하면 필드 유형은 선택한 필드 또는 저장소 변수를 기반으로 자동으로 감지됩니다. **[!UICONTROL General]** 탭의 **[!UICONTROL Type]** 드롭다운 상자를 사용하여 편집할 수 있습니다.
 
 ![](assets/s_ncs_admin_webform_change_type.png)
 
@@ -26,18 +26,18 @@ ht-degree: 0%
 
 다음 유형의 필드를 사용할 수 있습니다.
 
-* 텍스트/숫자 입력. 다음을 참조하십시오 [입력 필드 추가](#adding-input-fields).
-* 드롭다운 목록 선택. 다음을 참조하십시오 [드롭다운 목록 추가](#adding-drop-down-lists).
-* 확인란을 통해 다중 선택. 다음을 참조하십시오 [확인란 추가](#adding-checkboxes).
-* 라디오 버튼을 통한 단독 선택. 다음을 참조하십시오 [라디오 단추 추가](#adding-radio-buttons).
-* 옵션 표에서 투표합니다. 다음을 참조하십시오 [격자 추가](#adding-grids).
-* 숫자 및 날짜. 다음을 참조하십시오 [날짜 및 숫자 추가](#adding-dates-and-numbers).
-* 정보 서비스 구독/구독 취소. 다음을 참조하십시오 [구독 확인란](#subscription-checkboxes).
-* Captcha 유효성 검사. 다음을 참조하십시오 [captcha 삽입](#inserting-a-captcha).
+* 텍스트/숫자 입력. [입력 필드 추가](#adding-input-fields)를 참조하세요.
+* 드롭다운 목록 선택. [드롭다운 목록 추가](#adding-drop-down-lists)를 참조하십시오.
+* 확인란을 통해 다중 선택. [확인란 추가](#adding-checkboxes)를 참조하십시오.
+* 라디오 버튼을 통한 단독 선택. [라디오 단추 추가](#adding-radio-buttons)를 참조하십시오.
+* 옵션 표에서 투표합니다. [그리드 추가](#adding-grids)를 참조하십시오.
+* 숫자 및 날짜. [날짜 및 숫자 추가](#adding-dates-and-numbers)를 참조하세요.
+* 정보 서비스 구독/구독 취소. [구독 확인란](#subscription-checkboxes)을 참조하세요.
+* Captcha 유효성 검사. [captcha 삽입](#inserting-a-captcha)을 참조하십시오.
 * 다운로드 단추. [파일 업로드](#uploading-a-file).
-* 숨겨진 상수. 다음을 참조하십시오 [숨겨진 상수 삽입](#inserting-a-hidden-constant).
+* 숨겨진 상수. [숨겨진 상수 삽입](#inserting-a-hidden-constant)을 참조하세요.
 
-응답 저장 모드를 지정하십시오. 데이터베이스에서 필드를 업데이트하거나(저장한 마지막 값만 저장) 변수에 저장하십시오(답변은 저장되지 않음). 자세한 내용은 다음을 참조하십시오. [응답 스토리지 필드](web-forms-answers.md#response-storage-fields).
+응답 저장 모드를 지정하십시오. 데이터베이스에서 필드를 업데이트하거나(저장한 마지막 값만 저장) 변수에 저장하십시오(답변은 저장되지 않음). 자세한 내용은 [응답 저장소 필드](web-forms-answers.md#response-storage-fields)를 참조하세요.
 
 >[!NOTE]
 >
@@ -45,23 +45,23 @@ ht-degree: 0%
 
 ## 필드 만들기 마법사 {#field-creation-wizard}
 
-양식의 각 페이지에 대해 도구 모음의 첫 번째 버튼을 통해 필드를 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL Add using the wizard]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+양식의 각 페이지에 대해 도구 모음의 첫 번째 버튼을 통해 필드를 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL Add using the wizard]** 메뉴로 이동하십시오.
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
 만들려는 필드 유형을 선택합니다. 데이터베이스에 필드를 추가하거나 변수를 추가하거나 다른 양식에서 만들어 컨테이너에 수집된 필드 그룹을 가져올 수 있습니다.
 
-클릭 **[!UICONTROL Next]** 저장소 필드 또는 변수나 가져올 컨테이너를 선택합니다.
+**[!UICONTROL Next]**&#x200B;을(를) 클릭하고 가져올 저장소 필드, 변수 또는 컨테이너를 선택합니다.
 
 ![](assets/s_ncs_admin_webform_wz_confirm_db.png)
 
-클릭 **[!UICONTROL Finish]** 을 눌러 선택한 필드를 페이지에 삽입합니다.
+선택한 필드를 페이지에 삽입하려면 **[!UICONTROL Finish]**&#x200B;을(를) 클릭하십시오.
 
 ![](assets/s_ncs_admin_webform_wz_insert_field.png)
 
 ## 입력 필드 추가 {#adding-input-fields}
 
-입력 필드를 추가하려면 **[!UICONTROL Input control]** 버튼을 클릭하고 추가할 필드 유형을 선택합니다.
+입력 필드를 추가하려면 **[!UICONTROL Input control]** 단추를 클릭하고 추가할 필드 형식을 선택합니다.
 
 ![](assets/s_ncs_admin_webform_select_field.png)
 
@@ -73,9 +73,9 @@ ht-degree: 0%
 
   ![](assets/s_ncs_admin_survey_txt_ex.png)
 
-* **숫자**: 사용자가 한 줄에 숫자를 입력할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [숫자 추가](#adding-numbers).
+* **숫자**: 사용자가 한 줄에 숫자를 입력할 수 있습니다. 자세한 내용은 [숫자 추가](#adding-numbers)를 참조하세요.
 
-  페이지가 승인되면 입력한 값이 필드와 호환되는지 확인하기 위해 필드 콘텐츠를 확인합니다. 자세한 내용은 다음을 참조하십시오. [컨트롤 설정 정의](form-rendering.md#defining-control-settings).
+  페이지가 승인되면 입력한 값이 필드와 호환되는지 확인하기 위해 필드 콘텐츠를 확인합니다. 자세한 내용은 [컨트롤 설정 정의](form-rendering.md#defining-control-settings)를 참조하세요.
 
 * **암호**: 사용자가 한 줄에 텍스트를 입력할 수 있습니다. 텍스트를 입력하는 동안 문자가 마침표로 대체됩니다.
 
@@ -94,15 +94,15 @@ ht-degree: 0%
   >여러 줄 텍스트 필드는 캐리지 리턴을 포함할 수 있는 특정 필드입니다. 저장소 공간은 XML 특성이 아닌 XML 요소에 매핑된 필드와 연결되어 있어야 합니다.
   >   
 
-* **보강된 여러 줄 텍스트**: 사용자가 HTML 형식으로 저장되는 레이아웃으로 텍스트를 입력할 수 있습니다.
+* **보강된 여러 줄 텍스트**: HTML 형식으로 저장되는 레이아웃으로 텍스트를 입력할 수 있습니다.
 
   ![](assets/s_ncs_admin_survey_txthtmli_ex.png)
 
-  사용자에게 제공되는 편집기 유형을 선택할 수 있습니다. 이렇게 하려면 **[!UICONTROL HTML editor]** 의 필드 **[!UICONTROL Advanced]** 탭.
+  사용자에게 제공되는 편집기 유형을 선택할 수 있습니다. 이렇게 하려면 **[!UICONTROL Advanced]** 탭에서 **[!UICONTROL HTML editor]** 필드의 드롭다운 상자를 사용합니다.
 
   ![](assets/webapp_enrich_text_type.png)
 
-  표시되는 아이콘 수는 편집기 유형에 따라 다릅니다. 의 경우 **[!UICONTROL Advanced]** 편집자, 렌더링은 다음과 같습니다.
+  표시되는 아이콘 수는 편집기 유형에 따라 다릅니다. **[!UICONTROL Advanced]** 편집기의 경우 렌더링은 다음과 같습니다.
 
   ![](assets/webapp_enrich_text_max.png)
 
@@ -112,15 +112,15 @@ ht-degree: 0%
 
 ![](assets/s_ncs_admin_survey_txt_param.png)
 
-다음 **[!UICONTROL General]** 탭에서는 필드의 이름을 입력하고 필요한 경우 필드에 기본값을 지정할 수 있습니다.
+**[!UICONTROL General]** 탭에서는 필드 이름을 입력하고 필요한 경우 필드에 기본값을 지정할 수 있습니다.
 
-응답 스토리지 모드는 **[!UICONTROL Edit storage...]** 링크를 클릭합니다. 값은 데이터베이스의 기존 필드에 저장할 수도 있고, 정보를 데이터베이스에 저장하지 않도록 선택할 수도 있습니다(로컬 변수 사용).
+응답 저장 모드는 **[!UICONTROL Edit storage...]** 링크를 통해 변경할 수 있습니다. 값은 데이터베이스의 기존 필드에 저장할 수도 있고, 정보를 데이터베이스에 저장하지 않도록 선택할 수도 있습니다(로컬 변수 사용).
 
 >[!NOTE]
 >
->저장 모드는에 자세히 설명되어 있습니다. [응답 스토리지 필드](web-forms-answers.md#response-storage-fields)
+>저장소 모드는 [응답 저장소 필드](web-forms-answers.md#response-storage-fields)에 자세히 설명되어 있습니다.
 
-다음 **[!UICONTROL Advanced]** 탭에서는 필드의 표시 매개 변수(레이블 위치, 정렬 등)를 정의할 수 있습니다. 다음을 참조하십시오 [웹 양식 레이아웃 정의](defining-web-forms-layout.md).
+**[!UICONTROL Advanced]** 탭에서는 필드의 표시 매개 변수(레이블 위치, 정렬 등)를 정의할 수 있습니다. [웹 양식 레이아웃 정의](defining-web-forms-layout.md)를 참조하십시오.
 
 ## 드롭다운 목록 추가 {#adding-drop-down-lists}
 
@@ -128,13 +128,13 @@ ht-degree: 0%
 
 ![](assets/s_ncs_admin_survey_dropdown_sample.png)
 
-양식 페이지에 드롭다운 상자를 추가하려면 **[!UICONTROL Selection controls > Drop-down list]** 단추를 클릭합니다.
+양식 페이지에 드롭다운 상자를 추가하려면 페이지 편집기의 도구 모음에서 **[!UICONTROL Selection controls > Drop-down list]** 단추를 클릭합니다.
 
 ![](assets/s_ncs_admin_survey_create_dropdown.png)
 
 응답 저장 모드를 선택하고 선택을 확인합니다.
 
-아래 섹션에서 목록의 레이블과 값을 정의합니다. **[!UICONTROL General]** 탭. 정보가 데이터베이스의 기존 필드에 저장되어 있고 열거형 필드인 경우 **[!UICONTROL Initialize the list of values from the database]** , 아래와 같이 표시됩니다.
+**[!UICONTROL General]** 탭의 아래 섹션에서 목록의 레이블과 값을 정의합니다. 정보가 데이터베이스의 기존 필드에 저장되어 있고 열거형 필드인 경우 아래와 같이 **[!UICONTROL Initialize the list of values from the database]**&#x200B;을(를) 클릭하여 값을 자동으로 채울 수 있습니다.
 
 ![](assets/s_ncs_admin_survey_database_values.png)
 
@@ -142,11 +142,11 @@ ht-degree: 0%
 >
 >값 목록 오른쪽에 있는 화살표를 사용하여 순서를 변경합니다.
 
-데이터가 연결된 테이블에 저장된 경우 목록에서 제안할 값이 저장된 필드를 선택할 수 있습니다. 예를 들어 국가 테이블을 선택하는 경우 **[!UICONTROL Initialize the list of values from the database...]** 원하는 필드를 선택합니다.
+데이터가 연결된 테이블에 저장된 경우 목록에서 제안할 값이 저장된 필드를 선택할 수 있습니다. 예를들어 국가 표를 선택하는 경우 **[!UICONTROL Initialize the list of values from the database...]**&#x200B;을(를) 클릭하고 원하는 필드를 선택합니다.
 
 ![](assets/s_ncs_admin_survey_preload_values.png)
 
-그런 다음 **[!UICONTROL Load]** 값을 검색하는 링크:
+그런 다음 **[!UICONTROL Load]** 링크를 클릭하여 값을 검색합니다.
 
 ![](assets/s_ncs_admin_survey_load_button.png)
 
@@ -160,17 +160,17 @@ ht-degree: 0%
 
 ![](assets/s_ncs_admin_survey_check_box.png)
 
-양식에 확인란을 추가하려면 **[!UICONTROL Selection controls > Checkbox...]** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다.
+양식에 확인란을 추가하려면 페이지 편집기의 도구 모음에서 **[!UICONTROL Selection controls > Checkbox...]** 아이콘을 클릭합니다.
 
 응답 저장 모드를 선택하고 선택을 확인합니다.
 
-상자에 상자 레이블을 입력합니다. **[!UICONTROL Label]** 필드 **[!UICONTROL General]** 탭.
+**[!UICONTROL General]** 탭의 **[!UICONTROL Label]** 필드에 상자의 레이블을 입력합니다.
 
 ![](assets/s_ncs_admin_survey_check_box_edit.png)
 
-확인란을 선택하면 확인란의 선택 여부에 따라 저장 영역 필드(또는 값)에 값을 할당할 수 있습니다. 다음 **[!UICONTROL Values]** 섹션에서 상자를 선택한 경우 할당할 값을 입력할 수 있습니다. **[!UICONTROL Value]** 필드)와 값을 할당할 수 있습니다( **[!UICONTROL Empty value]** field). 이러한 값은 데이터 저장소 형식에 따라 다릅니다.
+확인란을 선택하면 확인란의 선택 여부에 따라 저장 영역 필드(또는 값)에 값을 할당할 수 있습니다. **[!UICONTROL Values]** 섹션을 사용하면 **[!UICONTROL Value]** 필드에서 상자를 선택한 경우 할당할 값을 입력하고, **[!UICONTROL Empty value]** 필드에서 상자를 선택하지 않은 경우 할당할 값을 입력할 수 있습니다. 이러한 값은 데이터 저장소 형식에 따라 다릅니다.
 
-저장소 필드(또는 변수)가 부울이면 상자를 선택하지 않았을 때 할당할 값이 자동으로 추론됩니다. 이 경우 **[!UICONTROL Value if checked]** 아래 표시된 대로 필드가 제공됩니다.
+저장소 필드(또는 변수)가 부울이면 상자를 선택하지 않았을 때 할당할 값이 자동으로 추론됩니다. 이 경우 아래와 같이 **[!UICONTROL Value if checked]** 필드만 제공됩니다.
 
 ![](assets/s_ncs_admin_survey_check_box_enum.png)
 
@@ -180,11 +180,11 @@ ht-degree: 0%
 
 ![](assets/s_ncs_admin_survey_check_box_ex.png)
 
-정보는 데이터베이스와 기존 필드(이 경우 **[!UICONTROL Comment]** field):
+정보가 데이터베이스 및 기존 필드(이 경우 **[!UICONTROL Comment]** 필드)에 업로드됩니다.
 
 ![](assets/s_ncs_admin_survey_check_box_ex_list.png)
 
-&quot;Maintenance required&quot; 상자를 선택하면 **[!UICONTROL Comment]** 열에는 &quot;Maintenance required&quot; 가 포함됩니다. 확인란을 선택하지 않으면 열에 &quot;유지 관리가 필요하지 않음&quot;이 표시됩니다. 이 결과를 얻으려면 양식 페이지의 확인란에 다음 구성을 적용하십시오.
+&quot;유지 관리 필수&quot; 상자를 선택하면 **[!UICONTROL Comment]** 열에 &quot;유지 관리 필수&quot;가 포함됩니다. 확인란을 선택하지 않으면 열에 &quot;유지 관리가 필요하지 않음&quot;이 표시됩니다. 이 결과를 얻으려면 양식 페이지의 확인란에 다음 구성을 적용하십시오.
 
 ![](assets/s_ncs_admin_survey_check_box_ex_edit.png)
 
@@ -202,15 +202,15 @@ ht-degree: 0%
 
 ### 단일 버튼 추가 {#add-single-buttons}
 
-양식 페이지에 라디오 단추를 추가하려면 **[!UICONTROL Selection controls > Radio button]** 메뉴 아래의 페이지 편집기 도구 모음에서 저장 모드를 선택합니다.
+양식 페이지에 라디오 단추를 추가하려면 페이지 편집기의 도구 모음에서 **[!UICONTROL Selection controls > Radio button]** 메뉴로 이동하여 저장 모드를 선택하십시오.
 
 ![](assets/s_ncs_admin_survey_radio_button_sample.png)
 
-라디오 단추는 확인란과 유사한 방식으로 구성됩니다( 참조) [확인란 추가](#adding-checkboxes)). 그러나 옵션을 선택하지 않으면 값이 할당되지 않습니다. 여러 개의 버튼이 상호 종속되도록 하려면(즉, 하나를 선택하면 다른 버튼이 자동으로 선택 해제되도록), 동일한 필드에 저장되어야 합니다. 데이터베이스에 저장되지 않은 경우 동일한 로컬 변수를 임시 저장소에 사용해야 합니다. 다음을 참조하십시오 [응답 스토리지 필드](web-forms-answers.md#response-storage-fields).
+라디오 단추는 확인란과 유사한 방식으로 구성되어 있습니다([확인란 추가](#adding-checkboxes) 참조). 그러나 옵션을 선택하지 않으면 값이 할당되지 않습니다. 여러 개의 버튼이 상호 종속되도록 하려면(즉, 하나를 선택하면 다른 버튼이 자동으로 선택 해제되도록), 동일한 필드에 저장되어야 합니다. 데이터베이스에 저장되지 않은 경우 동일한 로컬 변수를 임시 저장소에 사용해야 합니다. [응답 저장소 필드](web-forms-answers.md#response-storage-fields)를 참조하세요.
 
 ### 단추 목록 추가 {#add-a-list-of-buttons}
 
-목록을 통해 라디오 단추를 추가하려면 **[!UICONTROL Selection controls>Multiple choice]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+목록을 통해 라디오 단추를 추가하려면 페이지 편집기의 도구 모음에 있는 **[!UICONTROL Selection controls>Multiple choice]** 메뉴로 이동하십시오.
 
 ![](assets/s_ncs_admin_survey_radio_button_sample2.png)
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >웹 응용 프로그램에서는 다중 선택을 활성화할 수 없습니다.
->그러나 를 삽입할 수 있습니다 **[!UICONTROL Multiple choice]** 웹 애플리케이션에 필드를 입력하지만 사용자가 여러 값을 선택할 수는 없습니다.
+>그러나 **[!UICONTROL Multiple choice]** 형식 필드를 웹 응용 프로그램에 삽입할 수는 있지만 이렇게 하면 사용자가 여러 값을 선택할 수 없습니다.
 
 ## 격자 추가 {#adding-grids}
 
@@ -239,7 +239,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 예제에서는 격자의 레이블이 숨겨집니다. 이렇게 하려면 **[!UICONTROL Advanced]** 탭, **[!UICONTROL Label position]** 디스플레이가 다음으로 정의됨 **[!UICONTROL Hidden]** . 다음을 참조하십시오 [레이블의 위치 정의](defining-web-forms-layout.md#defining-the-position-of-labels).
+>이 예제에서는 격자의 레이블이 숨겨집니다. 이렇게 하려면 **[!UICONTROL Advanced]** 탭으로 이동하십시오. **[!UICONTROL Label position]** 디스플레이는 **[!UICONTROL Hidden]**(으)로 정의됩니다. [레이블 위치 정의](defining-web-forms-layout.md#defining-the-position-of-labels)를 참조하십시오.
 
 ## 날짜 및 숫자 추가 {#adding-dates-and-numbers}
 
@@ -249,7 +249,7 @@ ht-degree: 0%
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
-사용자가 양식 페이지에 날짜를 입력할 수 있도록 하려면 입력 필드를 추가하고 유형을 선택합니다 **[!UICONTROL Date...]**.
+사용자가 양식 페이지에 날짜를 입력할 수 있도록 하려면 입력 필드를 추가하고 **[!UICONTROL Date...]** 유형을 선택하십시오.
 
 필드에 대한 레이블을 입력하고 데이터 저장 모드를 구성합니다.
 
@@ -265,13 +265,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->기본적으로 양식에 사용된 날짜는 달력을 통해 입력됩니다. 다국어 양식의 경우 사용된 모든 언어로 캘린더를 사용할 수 있는지 확인하십시오. 다음을 참조하십시오 [웹 양식 번역](translating-a-web-form.md).
+>기본적으로 양식에 사용된 날짜는 달력을 통해 입력됩니다. 다국어 양식의 경우 사용된 모든 언어로 캘린더를 사용할 수 있는지 확인하십시오. [웹 양식 번역](translating-a-web-form.md)을 참조하세요.
 
 그러나 경우에 따라(예: 생년월일 입력) 드롭다운 목록을 사용하는 것이 더 쉬울 수 있습니다.
 
 ![](assets/s_ncs_admin_survey_date_list_select.png)
 
-이렇게 하려면 **[!UICONTROL Advanced]** 을(를) 탭하고 다음을 사용하여 입력 모드 선택 **[!UICONTROL Drop-down lists]**.
+이렇게 하려면 **[!UICONTROL Advanced]** 탭을 클릭하고 **[!UICONTROL Drop-down lists]**&#x200B;을(를) 사용하여 입력 모드를 선택합니다.
 
 ![](assets/s_ncs_admin_survey_date_selection.png)
 
@@ -293,7 +293,7 @@ ht-degree: 0%
 
 기본값은 양식을 게시할 때 필드에 표시되는 값입니다. 사용자가 수정할 수 있습니다.
 
-다음을 통해 숫자 필드에 접두어 및/또는 접미어를 추가할 수 있습니다. **[!UICONTROL Advanced]** 아래 표시된 대로 탭:
+아래와 같이 **[!UICONTROL Advanced]** 탭을 통해 숫자 필드에 접두사 및/또는 접미사를 추가할 수 있습니다.
 
 ![](assets/s_ncs_admin_survey_number_ex_conf.png)
 
@@ -305,15 +305,15 @@ ht-degree: 0%
 
 사용자가 하나 이상의 정보 서비스(뉴스레터, 경고, 실시간 알림 등)를 구독하거나 구독을 취소할 수 있도록 하는 컨트롤을 추가할 수 있습니다. 가입하기 위해 사용자는 해당 서비스를 확인한다.
 
-구독 확인란을 만들려면 **[!UICONTROL Advanced controls>Subscription]**.
+구독 확인란을 만들려면 **[!UICONTROL Advanced controls>Subscription]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/s_ncs_admin_survey_subscription_edit.png)
 
-확인란의 레이블을 지정하고 다음을 사용하여 관련 정보 서비스를 선택합니다. **[!UICONTROL Service]** 드롭다운 상자.
+확인란의 레이블을 지정하고 **[!UICONTROL Service]** 드롭다운 상자를 사용하여 관련 정보 서비스를 선택합니다.
 
 >[!NOTE]
 >
->정보 서비스는 다음에 자세히 설명되어 있습니다. [이 페이지](../../delivery/using/managing-subscriptions.md).
+>정보 서비스는 [이 페이지](../../delivery/using/managing-subscriptions.md)에 자세히 설명되어 있습니다.
 
 사용자는 해당 옵션을 선택하여 서비스에 가입한다.
 
@@ -325,23 +325,23 @@ ht-degree: 0%
 
 ## captcha 삽입 {#inserting-a-captcha}
 
-의 목적 **captcha** 테스트는 웹 양식의 부정 사용을 방지하기 위한 것입니다.
+**captcha** 테스트의 목적은 웹 양식의 부정 사용을 방지하기 위한 것입니다.
 
 >[!CAUTION]
 >
 >양식에 여러 페이지가 포함되어 있는 경우 보안 조치를 무시하지 않도록 Captcha를 항상 저장 상자 바로 앞의 마지막 페이지에 배치해야 합니다.
 
-양식에 Captcha를 삽입하려면 도구 모음에서 첫 번째 단추를 클릭하고 선택 **[!UICONTROL Advanced controls>Captcha]**.
+양식에 Captcha를 삽입하려면 도구 모음에서 첫 번째 단추를 클릭하고 **[!UICONTROL Advanced controls>Captcha]**&#x200B;을(를) 선택합니다.
 
 ![](assets/s_ncs_admin_survey_add_captcha.png)
 
-필드의 레이블을 입력합니다. 이 레이블은 Captcha 표시 영역 앞에 표시됩니다. 에서 이 레이블의 위치를 변경할 수 있습니다. **[!UICONTROL Advanced]** 탭.
+필드의 레이블을 입력합니다. 이 레이블은 Captcha 표시 영역 앞에 표시됩니다. **[!UICONTROL Advanced]** 탭에서 이 레이블의 위치를 변경할 수 있습니다.
 
 ![](assets/s_ncs_admin_survey_captcha_adv.png)
 
 >[!NOTE]
 >
->대상 **[!UICONTROL captcha]** 유형 컨트롤을 사용하면 저장소 필드 또는 변수를 나타낼 필요가 없습니다.
+>**[!UICONTROL captcha]** 형식 컨트롤의 경우 저장소 필드 또는 변수를 표시할 필요가 없습니다.
 
 Captcha는 시각적 개체 아래에 입력 필드가 있는 페이지에 삽입됩니다. 이 두 요소는 분리할 수 없으며 페이지 레이아웃의 목적으로 단일 항목으로 간주됩니다(단일 셀을 점유).
 
@@ -351,7 +351,7 @@ Captcha는 시각적 개체 아래에 입력 필드가 있는 페이지에 삽�
 
 ![](assets/s_ncs_admin_survey_captcha_error.png)
 
-표시할 오류 메시지를 만들 수 있습니다. 이렇게 하려면 다음을 사용하십시오. **[!UICONTROL Personalize the message]** 링크 **[!UICONTROL General]** 탭.
+표시할 오류 메시지를 만들 수 있습니다. 이렇게 하려면 **[!UICONTROL General]** 탭의 **[!UICONTROL Personalize the message]** 링크를 사용합니다.
 
 ![](assets/s_ncs_admin_survey_captcha_error_msg.png)
 
@@ -365,9 +365,9 @@ Captcha는 시각적 개체 아래에 입력 필드가 있는 페이지에 삽�
 
 ![](assets/s_ncs_admin_survey_download_file.png)
 
-양식 페이지에 업로드 필드를 삽입하려면 **[!UICONTROL Advanced controls > File...]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+양식 페이지에 업로드 필드를 삽입하려면 페이지 편집기의 도구 모음에서 **[!UICONTROL Advanced controls > File...]** 메뉴를 선택합니다.
 
-기본적으로 업로드된 파일은 를 통해 액세스할 수 있는 리소스 파일에 저장됩니다 **[!UICONTROL Resources > Online > Public resources]** 메뉴 아래의 제품에서 사용할 수 있습니다. 스크립트를 사용하여 이 동작을 변경할 수 있습니다. 이 스크립트는에 정의된 함수를 사용할 수 있습니다. [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)파일 조작과 관련된 문서를 포함합니다.
+기본적으로 업로드된 파일은 **[!UICONTROL Resources > Online > Public resources]** 메뉴를 통해 액세스할 수 있는 리소스 파일에 저장됩니다. 스크립트를 사용하여 이 동작을 변경할 수 있습니다. 이 스크립트는 파일 조작과 관련된 함수를 포함하여 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)에 정의된 함수를 사용할 수 있습니다.
 
 이러한 파일에 대한 링크를 로컬 변수 또는 데이터베이스 필드에 저장할 수 있습니다. 예를 들어 수신자 스키마를 확장하여 파일 기반 리소스에 대한 링크를 추가할 수 있습니다.
 
@@ -385,8 +385,8 @@ Captcha는 시각적 개체 아래에 입력 필드가 있는 페이지에 삽�
 
 이 필드는 사용자에게 표시되지 않지만 사용자 프로필에서 데이터를 보강하는 데 사용할 수 있습니다.
 
-이렇게 하려면 다음을 배치합니다. **상수** 페이지에서 값과 저장 위치를 지정합니다.
+이렇게 하려면 페이지에 **상수**&#x200B;를 배치하고 값과 저장소 위치를 지정하십시오.
 
-다음 예제에서는 **원본** 사용자가 이 페이지를 승인할 때마다 수신자 프로필의 필드가 자동으로 채워집니다. 상수는 페이지에 표시되지 않습니다.
+다음 예제에서는 사용자가 이 페이지를 승인할 때마다 수신자 프로필의 **origin** 필드가 자동으로 채워집니다. 상수는 페이지에 표시되지 않습니다.
 
 ![](assets/s_ncs_admin_survey_constante.png)

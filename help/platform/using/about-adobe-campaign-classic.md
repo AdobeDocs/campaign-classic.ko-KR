@@ -21,11 +21,11 @@ Adobe Campaign을 사용하면 대화형 마케팅 캠페인 만들기를 조정
 
 >[!AVAILABILITY]
 >
->* 이 컬렉션의 도움말 자료는 의 Campaign Classic v7에 적용됩니다. [최신 빌드](../../rn/using/latest-release.md). 특정 배지는 Campaign v8에도 섹션이 적용되는 경우 사용할 수 있습니다.
+>* 이 컬렉션의 도움말 자료는 [최신 빌드](../../rn/using/latest-release.md)의 Campaign Classic v7에 적용됩니다. 특정 배지는 Campaign v8에도 섹션이 적용되는 경우 사용할 수 있습니다.
 >
->* Adobe Campaign v8 설명서를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko).
+>* Adobe Campaign v8 설명서는 [여기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko)에서 확인할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 주요 기능 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 기본 기능 살펴보기](#video)
 
 ## 주요 기능 {#key-capabilities}
 
@@ -53,7 +53,7 @@ Adobe Campaign은 고도로 타기팅되고 차별화된 오퍼를 만들 수 �
 
 Adobe Campaign을 사용하면 타기팅되고 개인화된 캠페인을 이메일, DM, SMS, 푸시 알림과 같은 다양한 채널에 디자인 및 오케스트레이션 할 수 있습니다. 단일 인터페이스는 모든 캠페인 및 커뮤니케이션을 일정 계획, 오케스트레이션, 구성, 개인화, 자동화, 실행 및 측정하는 데 필요한 모든 기능을 제공합니다. 캠페인 일정 예약 및 실행에 대한 자세한 내용은 [이 페이지](../../campaign/using/setting-up-marketing-campaigns.md)를 참조하십시오.
 
-### 개인화 및 실시간 상호 작용 {#personalization-and-real-time-interaction}
+### Personalization 및 실시간 상호 작용 {#personalization-and-real-time-interaction}
 
 고객 프로필과 기본 설정을 기반으로 한 메시지 콘텐츠와 헤더의 고급 개인화 덕분에 고객의 관심을 유도하고 응답률을 향상시킬 수 있습니다. 메시지 콘텐츠 관리 및 개인화에 대한 자세한 내용은 [이 페이지](../../delivery/using/about-personalization.md)를 참조하십시오. 콘텐츠, 알림 및 승인 회로의 공동 관리 기능은 [이 섹션](../../mrm/using/about-marketing-resource-management.md)에 자세히 설명되어 있습니다.
 
@@ -67,7 +67,7 @@ Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 
 
 ## 핵심 기능 및 추가 기능 {#core-capabilities-and-add-ons}
 
-Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 기능을 구현하고 최적화하는 데 도움이 되는 기능의 집합을 제공합니다. 일부는 핵심 기능이며 일부는 패키지 설치 및 구성에 따라 다릅니다. 자세한 제품 설명은 여기에서 확인할 수 있습니다. [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 기능을 구현하고 최적화하는 데 도움이 되는 기능의 집합을 제공합니다. 일부는 핵심 기능이며 일부는 패키지 설치 및 구성에 따라 다릅니다. 자세한 제품 설명은 [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}에서 확인할 수 있습니다.
 
 다음 기능을 사용할 수 있습니다. 사용권 계약에 따라 이러한 기능 중 일부를 사용자 인스턴스에 사용하거나 사용하지 않을 수 있습니다.
 
@@ -76,7 +76,7 @@ Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 �
 * [MRM](../../mrm/using/about-marketing-resource-management.md) - 마케팅 리소스 및 예산 관리,
 * [상호 작용](../../interaction/using/interaction-and-offer-management.md) - 캠페인으로 오퍼 관리,
 * [메시지 센터](../../message-center/using/about-transactional-messaging.md) - 전자 메일, SMS 또는 모바일 앱으로 트랜잭션 메시지를 보낼 수 있습니다.
-* [소셜 마케팅](../../social/using/about-social-marketing.md) - 소셜 미디어에서 커뮤니케이션: Facebook, X (이전에는 Twitter),
+* [소셜 마케팅](../../social/using/about-social-marketing.md) - 소셜 미디어에서 커뮤니케이션: Facebook, X(이전 Twitter),
 * [워크플로우](../../workflow/using/about-workflows.md) /데이터 관리 - 워크플로우를 통해 프로세스 자동화 및 데이터 관리
 * [웹 애플리케이션](../../web/using/about-web-applications.md) - 웹 페이지 및 양식 만들기,
 * [설문 조사 관리자](../../surveys/using/about-surveys.md) - 온라인 설문 조사 및 투표 만들기,
@@ -93,4 +93,4 @@ Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 �
 
 >[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
-추가 Campaign Classic 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).
+추가 Campaign Classic 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합니다.
 
-* [1단계 - 제작할 콘텐츠 분석](#step-1---analyzing-the-content-to-be-produced),
+* [1단계 - 생성할 콘텐츠 분석](#step-1---analyzing-the-content-to-be-produced),
 * [2단계 - 데이터 스키마 만들기](#step-2---creating-the-data-schema),
 * [3단계 - 입력 양식 만들기](#step-3---creating-the-input-form),
 * [4단계 - 구성 템플릿 만들기](#step-4---creating-the-construction-template),
@@ -47,7 +47,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 
    ![](assets/s_ncs_content_define_statics.png)
 
-이 뉴스레터의 다양한 요소는 삽입할 모든 요소를 참조하고 해당 레이아웃을 개념화하는 JavaScript 템플릿에 정의된 규칙을 기반으로 조합됩니다.
+이 뉴스레터의 다양한 요소는 삽입할 모든 요소를 참조하고 해당 레이아웃을 개념화하는 JavaScript 템플릿에 정의된 규칙을 기반으로 결합됩니다.
 
 이러한 요소는 각 컨텐츠에 대해 이름, 레이블, 유형, 크기 및 Adobe Campaign에서의 처리와 관련된 기타 모든 정보를 지정하는 전용 스키마를 통해 생성됩니다.
 
@@ -57,17 +57,17 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 
 >[!NOTE]
 >
->Adobe Campaign에서 데이터 스키마를 만들고 구성하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../configuration/using/about-schema-edition.md).
+>Adobe Campaign에서 데이터 스키마를 만들고 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../configuration/using/about-schema-edition.md)을 참조하세요.
 >
->콘텐츠 관리와 관련된 구성 요소는에 자세히 설명되어 있습니다. [데이터 스키마](data-schemas.md).
+>콘텐츠 관리와 관련된 구성 요소는 [데이터 스키마](data-schemas.md)에 자세히 설명되어 있습니다.
 
 데이터 스키마를 생성하려면 다음 단계를 적용합니다.
 
-1. Adobe Campaign 탐색기를 열고 **[!UICONTROL Administration > Configuration > Data schemas]** 노드.
+1. Adobe Campaign 탐색기를 열고 **[!UICONTROL Administration > Configuration > Data schemas]** 노드를 선택합니다.
 
-   다음을 클릭합니다. **[!UICONTROL New]** 데이터 스키마 목록 위에 있는 아이콘입니다.
+   데이터 스키마 목록 위에 있는 **[!UICONTROL New]** 아이콘을 클릭합니다.
 
-1. 다음 항목 선택 **[!UICONTROL Create a schema]** 컨텐츠 관리 옵션을 선택한 다음 **[!UICONTROL Next]**.
+1. 콘텐츠 관리에 대한 **[!UICONTROL Create a schema]** 옵션을 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/s_ncs_content_create_schema.png)
 
@@ -75,15 +75,15 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 
    ![](assets/s_ncs_content_param_schema.png)
 
-   클릭 **[!UICONTROL Next]** 유효성을 검사합니다.
+   유효성을 검사하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
 
-1. 에 스키마 콘텐츠 입력 **[!UICONTROL Edit schema]** 창.
+1. **[!UICONTROL Edit schema]** 창에 스키마 내용을 입력합니다.
 
-   사용 **[!UICONTROL Insert]** 단추를 클릭하여 스키마 콘텐츠를 만듭니다.
+   **[!UICONTROL Insert]** 단추를 사용하여 스키마 콘텐츠를 만드십시오.
 
    ![](assets/s_ncs_content_param_schema_step2.png)
 
-   자세한 내용은 다음을 참조하십시오. [스키마 편집](data-schemas.md#editing-schemas).
+   자세한 내용은 [스키마 편집](data-schemas.md#editing-schemas)을 참조하세요.
 
    콘텐츠에 참조된 각 요소에 대해 일치하는 유형을 선택해야 합니다.
 
@@ -92,7 +92,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>콘텐츠</strong> <br /> </th> 
+   <th> <strong>컨텐츠</strong> <br /> </th> 
    <th> <strong>형식</strong> <br /> </th> 
    <th> <strong>유형</strong> <br /> </th> 
    <th> <strong>레이블</strong> <br /> </th> 
@@ -101,19 +101,19 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
  <tbody> 
   <tr> 
    <td> 제목<br /> </td> 
-   <td> 속성<br /> </td> 
+   <td> 특성<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 제목<br /> </td> 
   </tr> 
   <tr> 
    <td> 하위 제목<br /> </td> 
-   <td> 속성<br /> </td> 
+   <td> 특성<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> 이름<br /> </td> 
   </tr> 
   <tr> 
    <td> 이벤트 날짜<br /> </td> 
-   <td> 속성<br /> </td> 
+   <td> 특성<br /> </td> 
    <td> 날짜<br /> </td> 
    <td> 날짜<br /> </td> 
   </tr> 
@@ -124,8 +124,8 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
    <td> 개요<br /> </td> 
   </tr> 
   <tr> 
-   <td> 작성자 사진<br /> </td> 
-   <td> 속성<br /> </td> 
+   <td> 작성자 <br />의 사진 </td> 
+   <td> 특성<br /> </td> 
    <td> 문자열<br /> </td> 
    <td> URL<br /> </td> 
   </tr> 
@@ -137,7 +137,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
   </tr> 
   <tr> 
    <td> 헤더 로고(Adobe Campaign 공개 리소스에 저장됨)<br /> </td> 
-   <td> 속성<br /> </td> 
+   <td> 특성<br /> </td> 
    <td> 링크<br /> </td> 
    <td> 이미지<br /> </td> 
   </tr> 
@@ -159,7 +159,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
   </element>
 ```
 
-1. 클릭 **[!UICONTROL Save]** 를 클릭하여 데이터 스키마를 만듭니다.
+1. 데이터 스키마를 만들려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 3단계 - 입력 양식 만들기 {#step-3---creating-the-input-form}
 
@@ -169,23 +169,23 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 
 >[!NOTE]
 >
->Adobe Campaign에서 양식을 만들고 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../configuration/using/identifying-a-form.md).
+>Adobe Campaign에서 양식을 만들고 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../configuration/using/identifying-a-form.md)을 참조하세요.
 >
->콘텐츠 관리와 관련된 구성 요소는에 자세히 설명되어 있습니다. [입력 양식](input-forms.md).
+>콘텐츠 관리와 관련된 구성 요소는 [입력 양식](input-forms.md)에 자세히 설명되어 있습니다.
 
 컨텐츠 관리에 사용할 입력 양식을 만들려면 다음 단계를 적용합니다.
 
-1. Adobe Campaign 탐색기를 열고 **[!UICONTROL Administration > Configuration > Input forms]** 노드.
+1. Adobe Campaign 탐색기를 열고 **[!UICONTROL Administration > Configuration > Input forms]** 노드를 선택합니다.
 
-   다음을 클릭합니다. **[!UICONTROL New]** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다.
+   양식 목록 위에 있는 **[!UICONTROL New]** 아이콘을 클릭합니다.
 
-1. 양식 이름과 양식에 연결된 레이블을 입력한 다음 **[!UICONTROL Content management]** 유형.
+1. 양식 이름과 양식에 연결된 레이블을 입력한 다음 **[!UICONTROL Content management]** 유형을 선택합니다.
 
    ![](assets/s_ncs_content_param_form_edit.png)
 
    >[!NOTE]
    >
-   >두 요소가 자동으로 일치하도록 하려면 연결된 데이터 스키마와 동일한 이름을 사용하는 것이 좋습니다. 사용 **[!UICONTROL Insert]** 입력 영역 위에 있는 단추를 클릭하여 양식에 연결된 스키마의 필드를 추가합니다.
+   >두 요소가 자동으로 일치하도록 하려면 연결된 데이터 스키마와 동일한 이름을 사용하는 것이 좋습니다. 입력 영역 위의 **[!UICONTROL Insert]** 단추를 사용하여 양식에 연결된 스키마의 필드를 추가하십시오.
 
    ![](assets/s_ncs_content_param_form_edit_step2.png)
 
@@ -207,11 +207,11 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
      </input>
    ```
 
-   다음 **[!UICONTROL Preview]** 탭을 사용하면 양식을 편집하는 동안 양식의 렌더링을 확인할 수 있습니다.
+   **[!UICONTROL Preview]** 탭에서는 양식을 편집하는 동안 양식의 렌더링을 확인할 수 있습니다.
 
    ![](assets/s_ncs_content_param_form_preview.png)
 
-1. 클릭 **[!UICONTROL Save]** 입력 양식을 작성합니다.
+1. 입력 양식을 만들려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
 
 ## 4단계 - 구성 템플릿 만들기 {#step-4---creating-the-construction-template}
 
@@ -221,18 +221,18 @@ XSLT 언어를 사용하면 XML 문서를 다른 출력 문서로 변환할 수 
 
 >[!NOTE]
 >
->문서 작성에 연결된 제한(JavaScript 또는 XSL 템플릿)은에 자세히 설명되어 있습니다. [서식](formatting.md).
+>문서 작성(JavaScript 또는 XSL 템플릿)에 연결된 제약 조건은 [서식](formatting.md)에 자세히 설명되어 있습니다.
 
 Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 적용합니다.
 
-1. Adobe Campaign 탐색기를 열고 **[!UICONTROL Administration > Configuration > JavaScript Templates]** 노드.
+1. Adobe Campaign 탐색기를 열고 **[!UICONTROL Administration > Configuration > JavaScript Templates]** 노드를 선택합니다.
 
-   다음을 클릭합니다. **[!UICONTROL New]** 템플릿 목록 위에 있는 아이콘
+   템플릿 목록 위에 있는 **[!UICONTROL New]** 아이콘을 클릭합니다.
 
 1. 템플릿 이름을 입력하고 콘텐츠 관리를 위해 만든 스키마를 선택합니다.
 1. 메시지에 표시할 집합 콘텐츠를 가져옵니다.
 
-   에 설명된 구문을 준수하면서 변수 요소를 추가합니다. [JavaScript 템플릿](formatting.md#javascript-templates).
+   [JavaScript 템플릿](formatting.md#javascript-templates)에 설명된 구문을 준수하면서 변수 요소를 추가합니다.
 
    이 예제에 표시된 컨텐츠를 표시하려면 JavaScript 템플릿에 다음 요소가 포함되어야 합니다.
 
@@ -325,7 +325,7 @@ Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 �
    </html>
    ```
 
-   템플릿 시작 시 함수를 호출하면 Adobe Campaign 데이터베이스(이 경우 recipient.firstName 및 recipient.lastName)에서 가져온 개인화 데이터에 대한 호출을 설정할 수 있으므로 게재에서 사용할 때 해석될 수 있습니다. 자세한 내용은 다음을 참조하십시오. [JavaScript 템플릿 포함](formatting.md#including-a-javascript-template).
+   템플릿 시작 시 함수를 호출하면 Adobe Campaign 데이터베이스(이 경우 recipient.firstName 및 recipient.lastName)에서 가져온 개인화 데이터에 대한 호출을 설정할 수 있으므로 게재에서 사용할 때 해석될 수 있습니다. 자세한 내용은 [JavaScript 템플릿 포함](formatting.md#including-a-javascript-template)을 참조하세요.
 
    이 예에서 함수에는 다음 코드가 포함됩니다.
 
@@ -344,7 +344,7 @@ Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 �
    }
    ```
 
-   JavaScript 템플릿이 유효하려면 미리 다음에서 이 함수를 만들어야 합니다. **[!UICONTROL JavaScript codes]** 트리 구조의 노드:
+   JavaScript 템플릿이 유효하려면 다음과 같이 트리 구조의 **[!UICONTROL JavaScript codes]** 노드에서 이 함수를 미리 만들어야 합니다.
 
    ![](assets/contentmgt_jscode_perso_sample.png)
 
@@ -354,25 +354,25 @@ Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 �
 
 >[!NOTE]
 >
->콘텐츠 게시 템플릿에 대한 자세한 내용은 [게시 템플릿](publication-templates.md).
+>콘텐츠 게시 템플릿에 대한 자세한 내용은 [게시 템플릿](publication-templates.md)을 참조하세요.
 
 이 예에서 단계는 다음과 같습니다.
 
-1. 다음을 통해 새 게시 템플릿 만들기 **[!UICONTROL Administration > Configuration > Publication templates]** 노드.
+1. **[!UICONTROL Administration > Configuration > Publication templates]** 노드를 통해 새 게시 템플릿을 만듭니다.
 1. 이름과 레이블을 입력하고 사용할 스키마와 양식을 선택합니다.
-1. 그런 다음 템플릿 이름을 입력하고 적용할 렌더링 모드를 선택합니다. 여기, **[!UICONTROL JavaScript]** 위에서 만든 템플릿을 기반으로 렌더링을 입력합니다.
+1. 그런 다음 템플릿 이름을 입력하고 적용할 렌더링 모드를 선택합니다. 위에서 만든 템플릿을 기반으로 하는 **[!UICONTROL JavaScript]** 유형 렌더링이 있습니다.
 
    ![](assets/s_ncs_content_param_form_publish.png)
 
    >[!NOTE]
    >
-   >다음 **[!UICONTROL DOM interface]** 옵션은 기본적으로 선택되어 있으며, 이는 E4X 구문을 사용하는 경우에는 이 문서에 액세스할 수 없음을 의미합니다. 이 옵션이 선택된 경우 DOM 인터페이스를 사용해야 하며 이것이 권장되는 구문입니다.
+   >**[!UICONTROL DOM interface]** 옵션은 기본적으로 선택되어 있으며, 이는 E4X 구문을 사용하는 경우 이 문서에 액세스할 수 없음을 의미합니다. 이 옵션이 선택된 경우 DOM 인터페이스를 사용해야 하며 이것이 권장되는 구문입니다.
    >
    >E4X 구문을 계속 사용할 수 있습니다. 이 경우 이 옵션의 선택을 취소해야 합니다.
 
-   사용 **[!UICONTROL Add]** 단추를 클릭하여 다른 변형 템플릿을 만듭니다.
+   **[!UICONTROL Add]** 단추를 사용하여 다른 변환 템플릿을 만듭니다.
 
-1. 클릭 **[!UICONTROL Save]** 게시 템플릿을 만듭니다.
+1. 게시 템플릿을 만들려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
 
 ## 6단계 - 콘텐츠 만들기 {#step-6---creating-contents}
 
@@ -380,13 +380,13 @@ Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 �
 
 >[!NOTE]
 >
->콘텐츠 만들기에 대한 자세한 내용은 [콘텐츠 템플릿 사용](using-a-content-template.md).
+>콘텐츠 만들기에 대한 자세한 내용은 [콘텐츠 템플릿 사용](using-a-content-template.md)을 참조하세요.
 
 ### 게재 마법사에서 콘텐츠 만들기 {#creating-content-in-the-delivery-wizard}
 
 게재에서 직접 콘텐츠를 만들려면 다음 단계를 적용합니다.
 
-1. 다음을 통해 게시 템플릿을 참조하여 시작 **[!UICONTROL Advanced]** 게재 속성 탭.
+1. 게재 속성의 **[!UICONTROL Advanced]** 탭을 통해 게시 템플릿을 참조하여 시작합니다.
 
    ![](assets/s_ncs_content_in_delivery.png)
 
@@ -396,6 +396,6 @@ Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 �
 
    ![](assets/s_ncs_content_in_delivery_edition_tab.png)
 
-1. 다음을 클릭합니다. **[!UICONTROL HTML preview]** 탭을 클릭하여 렌더링을 확인합니다. 개인화를 테스트할 수신자를 선택해야 합니다.
+1. 렌더링을 보려면 **[!UICONTROL HTML preview]** 탭을 클릭하십시오. 개인화를 테스트할 수신자를 선택해야 합니다.
 
    ![](assets/s_ncs_content_use_in_delivery_preview.png)

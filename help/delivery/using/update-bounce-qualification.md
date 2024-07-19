@@ -22,11 +22,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->에서 Apple 시스템 상태 대시보드를 확인할 수 있습니다. [이 페이지](https://www.apple.com/support/systemstatus/).
+>[이 페이지](https://www.apple.com/support/systemstatus/)에서 Apple 시스템 상태 대시보드를 확인할 수 있습니다.
 
 ISP가 중단되는 경우 Campaign을 통해 보낸 이메일이 수신자에게 정상적으로 전달될 수 없습니다. 이러한 이메일은 바운스로 잘못 표시됩니다.
 
-표준 바운스 처리 논리에 따라 Adobe Campaign은 다음과 같이 격리 목록에 이러한 수신자를 자동으로 추가했습니다. **[!UICONTROL Status]** 설정 **[!UICONTROL Quarantine]**. 이 문제를 해결하려면 이러한 수신자를 찾아 제거하거나 수신자를 변경하여 Campaign에서 격리 테이블을 업데이트해야 합니다 **[!UICONTROL Status]** 끝 **[!UICONTROL Valid]** 따라서 야간 정리 워크플로우에서 제거됩니다.
+표준 바운스 처리 논리에 따라 Adobe Campaign은 **[!UICONTROL Status]** 설정이 **[!UICONTROL Quarantine]**&#x200B;인 격리 목록에 이 수신자를 자동으로 추가했습니다. 이 문제를 해결하려면 야간 정리 워크플로우에서 해당 수신자를 찾아 제거하거나 **[!UICONTROL Status]**&#x200B;을(를) **[!UICONTROL Valid]**(으)로 변경하여 Campaign에서 격리 테이블을 업데이트해야 합니다.
 
 이 문제의 영향을 받은 수신자를 찾으려면 또는 다른 ISP에서 이 문제가 다시 발생하는 경우 아래 지침을 참조하십시오.
 
@@ -40,20 +40,20 @@ ISP가 중단되는 경우 Campaign을 통해 보낸 이메일이 수신자에�
 >
 >이 날짜/시간은 동부 표준 시간대(EST)를 기반으로 합니다. 인스턴스의 시간대를 조정하십시오.
 
-* 에 SMTP 바운스 응답 정보가 있는 캠페인 인스턴스 **[!UICONTROL Error text]** 격리 목록의 필드:
+* 격리 목록의 **[!UICONTROL Error text]** 필드에 SMTP 바운스 응답 정보가 있는 캠페인 인스턴스의 경우:
 
-   * **오류 텍스트(격리 텍스트)** 에는 &quot;사용자 조회 성공했지만 사용자 레코드를 찾을 수 없음&quot;이 포함되어 있고 **오류 텍스트(격리 텍스트)** &quot;support.apple.com&quot;을 포함합니다.
-   * **업데이트 상태(@lastModified)** 2021년 4월 26일 또는 그 이후 07:00:오전 00
-   * **업데이트 상태(@lastModified)** 2021년 4월 26일 또는 이전 01:00:오후
+   * **오류 텍스트(격리 텍스트)**&#x200B;에 &quot;사용자 조회 성공했지만 사용자 레코드를 찾을 수 없음&quot;이 포함되고 **오류 텍스트(격리 텍스트)**&#x200B;에 &quot;support.apple.com&quot;이 포함됩니다.
+   * **업데이트 상태(@lastModified)**(2021년 4월 26일 오전 또는 이후):00:00
+   * **업데이트 상태(@lastModified)** 2021년 4월 26일 또는 그 이전:00:
 
-* 에 인바운드 이메일 규칙 정보가 있는 캠페인 인스턴스 **[!UICONTROL Error text]** 격리 목록의 필드:
+* 격리 목록의 **[!UICONTROL Error text]** 필드에 인바운드 전자 메일 규칙 정보가 있는 캠페인 인스턴스의 경우:
 
-   * **오류 텍스트(격리 텍스트)** 에는 &quot;Momen_Code10_InvalidRecipient&quot;가 포함되어 있습니다.
-   * **이메일 도메인(@domain)** icloud.com과 같음 또는 **이메일 도메인(@domain)** me.com과 같음 또는 **이메일 도메인(@domain)** mac.com과 같음
-   * **업데이트 상태(@lastModified)** 2021년 4월 26일 또는 그 이후 07:00:오전 00
-   * **업데이트 상태(@lastModified)** 2021년 4월 26일 또는 이전 01:00:오후
+   * **오류 텍스트(격리 텍스트)**&#x200B;에 &quot;Momen_Code10_InvalidRecipient&quot;가 포함되어 있습니다.
+   * **전자 메일 도메인(@domain)**&#x200B;이 icloud.com과 같음 또는 **전자 메일 도메인(@domain)**&#x200B;이 me.com과 같음 또는 **전자 메일 도메인(@domain)**&#x200B;이 mac.com과 같음
+   * **업데이트 상태(@lastModified)**(2021년 4월 26일 오전 또는 이후):00:00
+   * **업데이트 상태(@lastModified)** 2021년 4월 26일 또는 그 이전:00:
 
-영향을 받는 수신자 목록이 있으면 다음 상태로 설정할 수 있습니다. **[!UICONTROL Valid]** 따라서 다음을 통해 격리 목록에서 제거됩니다. **[!UICONTROL Database cleanup]** 워크플로우 또는 테이블에서 삭제하기만 하면 됩니다.
+영향을 받는 받는 받는 받는 받는 사람 목록을 가지고 있으면 **[!UICONTROL Database cleanup]** 워크플로에 의해 격리 목록에서 제거될 수 있도록 해당 받는 사람을 **[!UICONTROL Valid]** 상태로 설정하거나 표에서 삭제할 수 있습니다.
 
 **관련 항목:**
 * [게재 실패 이해](understanding-delivery-failures.md)

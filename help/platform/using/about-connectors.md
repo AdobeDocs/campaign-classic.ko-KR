@@ -9,7 +9,7 @@ exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
 source-git-commit: efd09fd71069878a5096bfa3592e6ebbaa9dd4e4
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Campaign은 외부 애플리케이션과 통신하고, 데이터베이스 
 
 사용 가능한 커넥터는 다음과 같습니다.
 
-* 다음 **FDA(Federated Data Access) 커넥터** Campaign을 하나 이상의 외부 데이터베이스에 연결하고 Campaign 데이터에 영향을 주지 않고 저장된 정보를 처리할 수 있습니다. [자세히 알아보기](../../installation/using/about-fda.md).
+* **FDA(Federated Data Access) 커넥터**&#x200B;를 사용하면 Campaign 데이터에 영향을 주지 않고 하나 이상의 외부 데이터베이스에 Campaign을 연결하고 저장된 정보를 처리할 수 있습니다. [자세히 알아보기](../../installation/using/about-fda.md).
 * CRM 커넥터를 사용하면 전용 워크플로우 활동을 사용하여 Adobe Campaign과 CRM 솔루션 간에 데이터를 교환할 수 있습니다. [자세히 알아보기](../../platform/using/crm-connectors.md).
 * Analytics 커넥터를 사용하면 Adobe Campaign과 Adobe Analytics 간에 데이터를 공유할 수 있습니다. [자세히 알아보기](../../integrations/using/gs-aa.md).
 
@@ -31,4 +31,4 @@ Adobe Campaign은 외부 애플리케이션과 통신하고, 데이터베이스 
 
 >[!NOTE]
 >
->이러한 모듈의 사용 가능 여부 및 사용은 설치 배포 유형에 따라 달라질 수 있습니다. 을(를) 참조하십시오 [Campaign On-Premise - 호스팅 기능 매트릭스](../../installation/using/capability-matrix.md).
+>이러한 모듈의 사용 가능 여부 및 사용은 설치 배포 유형에 따라 달라질 수 있습니다. [Campaign On-Premise - 호스팅된 기능 매트릭스](../../installation/using/capability-matrix.md)를 참조하세요.

@@ -17,7 +17,7 @@ ht-degree: 1%
 
 게재 구성은 다시 사용하기 위해 게재 템플릿에 저장할 수 있습니다. 템플릿에는 게재의 전체 또는 일부 구성이 포함될 수 있습니다.
 
-게재 템플릿은 이 장에 설명된 대로 수동으로 실행하거나 이벤트(설정된 시간에 시작, 서버에 파일 도착 등)에 따라 실행할 수 있습니다. 게재 템플릿은 **[!UICONTROL Resources > Templates > Delivery templates]** 트리의 노드.
+게재 템플릿은 이 장에 설명된 대로 수동으로 실행하거나 이벤트(설정된 시간에 시작, 서버에 파일 도착 등)에 따라 실행할 수 있습니다. 트리의 **[!UICONTROL Resources > Templates > Delivery templates]** 노드를 통해 게재 템플릿을 구성할 수 있습니다.
 
 ![](assets/s_user_template_list.png)
 
@@ -33,4 +33,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->사용 가능한 템플릿은 액세스 권한, 인스턴스 구성 및 컨텍스트에 따라 다릅니다. 예를 들어, 정보 서비스를 생성할 때 확인 메시지에 대한 전달 템플릿을 연결할 수 있습니다. 그런 다음 대상 매핑이 구독 매핑인 템플릿에만 액세스할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [대상 매핑 선택](selecting-a-target-mapping.md) 및 [서비스 및 구독](about-services-and-subscriptions.md).
+>사용 가능한 템플릿은 액세스 권한, 인스턴스 구성 및 컨텍스트에 따라 다릅니다. 예를 들어, 정보 서비스를 생성할 때 확인 메시지에 대한 전달 템플릿을 연결할 수 있습니다. 그런 다음 대상 매핑이 구독 매핑인 템플릿에만 액세스할 수 있습니다. 자세한 내용은 [대상 매핑 선택](selecting-a-target-mapping.md) 및 [서비스 및 구독](about-services-and-subscriptions.md)을 참조하세요.

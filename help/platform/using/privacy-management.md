@@ -40,12 +40,12 @@ It also contains information on important features to manage Privacy ([Consent, 
 
 Adobe Campaign의 기능은 다음과 같은 규정을 준수하는 데 도움이 됩니다.
 
-* **GDPR** (General Data Protection Regulation)은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 개인 정보 보호법입니다.
-* **CCPA** (California Consumer Privacy Act)는 캘리포니아 거주자들에게 개인 정보에 대한 새로운 권리를 제공하고 캘리포니아에서 비즈니스를 수행하는 특정 엔터티에 데이터 보호 책임을 부과합니다.
-* **PDPA** (개인 정보 보호법)은 태국에 대한 데이터 보호 요구 사항을 통합하고 현대화한 개인 정보 보호법입니다.
-* **LGPD** (Lei Geral de Proteção de Dados)는 브라질에서 개인 데이터를 수집하거나 처리하는 모든 회사에 적용됩니다.
-* **CACL** (캐나다 스팸 방지법)은 캐나다에서 들어오고 나가는 모든 메시지를 포함하지만 캐나다를 통해 라우팅되는 메시지는 포함하지 않습니다.
-* **VCDPA** (버지니아 소비자 데이터 보호법) 및 **CPA** (Colorado Privacy Act)는 비즈니스를 수행하거나 해당 주 내의 거주자를 타겟팅하는 모든 회사에 적용됩니다.
+* **GDPR**(General Data Protection Regulation)은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 개인 정보 보호법입니다.
+* **CCPA**(California Consumer Privacy Act)은(는) 캘리포니아 거주자들에게 개인 정보에 대한 새로운 권리를 제공하고 캘리포니아에서 비즈니스를 수행하는 특정 엔터티에 데이터 보호 책임을 부과합니다.
+* **PDPA**(Personal Data Protection Act)은 태국에 대한 데이터 보호 요구 사항을 통합하고 현대화한 개인 정보 보호법입니다.
+* **LGPD**(Lei Geral de Proteção de Dados)은 브라질에서 개인 데이터를 수집하거나 처리하는 모든 회사에 적용됩니다.
+* **CASL**(캐나다 스팸 방지 법)은 캐나다에서 보내거나 나가는 모든 메시지를 포함하지만 캐나다를 통해 라우팅되는 메시지는 포함하지 않습니다.
+* **VCDPA**(Virginia Consumer Data Protection Act) 및 **CPA**(Colorado Privacy Act)은 비즈니스를 수행하거나 해당 주 내의 거주자를 대상으로 하는 모든 회사에 적용됩니다.
 
 이러한 모든 규정은 위에 언급된 각 지역 또는 국가에 있는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.
 

@@ -15,11 +15,11 @@ ht-degree: 2%
 
 # 콘텐츠 관리 정보{#about-content-management}
 
-Adobe Campaign Content Manager 모듈은 특정 Campaign Classic [기본 제공 패키지](../../installation/using/installing-campaign-standard-packages.md) 를 설치하면 되풀이되는 뉴스레터 또는 웹 사이트를 만들 수 있습니다. 메시지를 만들고, 검증하고, 게시하는 데 도움이 될 수 있습니다.
+Adobe Campaign Content Manager 모듈은 반복 뉴스레터 또는 웹 사이트를 만들기 위해 설치할 수 있는 특정 Campaign Classic [기본 제공 패키지](../../installation/using/installing-campaign-standard-packages.md)입니다. 메시지를 만들고, 검증하고, 게시하는 데 도움이 될 수 있습니다.
 
 >[!NOTE]
 >
->이 섹션은 콘텐츠 관리 모듈을 참조합니다. 이메일 게재 콘텐츠를 디자인하는 방법에 대한 자세한 내용은 을(를) 참조하십시오. [이 섹션](defining-the-email-content.md).
+>이 섹션은 콘텐츠 관리 모듈을 참조합니다. 전자 메일 게재 콘텐츠를 디자인하는 방법에 대한 자세한 내용은 [이 섹션](defining-the-email-content.md)을 참조하세요.
 
 컨텐츠 관리 모듈에는 작업 그룹, 워크플로우 및 컨텐츠 집계 기능이 통합되어 있습니다. 이렇게 하면 이메일, 메일, SMS, 웹 등 메시지의 서식을 자동으로 지정할 수 있습니다.
 
@@ -37,7 +37,7 @@ Adobe Campaign Content Manager 모듈은 특정 Campaign Classic [기본 제공 
 * 데이터 콘텐츠 분리 및 표시 방법(XML 형식으로 생성),
 * 다양한 형식의 문서 생성(html, txt, XML 등) 그래픽 문자 규정 준수를 보장하기 위해 스타일시트를 기반으로 합니다.
 * 외부 컨텐츠 흐름의 복구 및 자동 집계,
-* 데이터 유효성 검사 및 검사를 위한 워크플로우와의 공동 작업.
+* 데이터 유효성 검사 및 검사를 위한 워크플로가 포함된 Collaboration.
 
 그러나 이러한 컨텐츠 작성 모드에는 다음과 같은 몇 가지 제한 사항이 포함됩니다.
 

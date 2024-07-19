@@ -30,9 +30,9 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->프로필 테이블의 필드와 관련된 XML 스키마 및 양식은 **[!UICONTROL Administration > Configuration > Data schemas]** Adobe Campaign 트리의 노드입니다. 전문가 사용자만 이러한 스키마를 변경할 수 있습니다.
+>프로필 테이블의 필드와 관련된 XML 스키마와 양식은 Adobe Campaign 트리의 **[!UICONTROL Administration > Configuration > Data schemas]** 노드를 통해 액세스됩니다. 전문가 사용자만 이러한 스키마를 변경할 수 있습니다.
 >
->자세한 내용은 다음을 참조하십시오. [이 페이지](../../configuration/using/about-schema-edition.md).
+>자세한 내용은 [이 페이지](../../configuration/using/about-schema-edition.md)를 참조하세요.
 
 ## 일반 탭 {#general-tab}
 
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->다음의 경우 **[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이 차단 목록에 추가하다임을 의미합니다. 즉, 프로필이 (예를 들어, 뉴스레터에서 구독 취소 링크를 클릭하여) 연락하지 않겠다는 의사를 표현했습니다. 더 이상 모든 채널(이메일, DM 등)의 게재가 타겟팅하지 않습니다. 자세한 정보는 이 [페이지](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
+>**[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이 차단 목록에 추가하다에 있음을 의미합니다. 즉, 프로필이 (예를 들어, 뉴스레터에서 구독 취소 링크를 클릭하여) 연락하지 않기를 원합니다. 더 이상 모든 채널(이메일, DM 등)의 게재가 타겟팅하지 않습니다. 자세한 정보는 이 [페이지](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
 
 ## 연락처 정보 탭 {#contact-information-tab}
 
@@ -54,21 +54,21 @@ ht-degree: 4%
 
 ## 기타 탭 {#other-tab}
 
-이 화면에는 요구 사항에 따라 개인화할 수 있는 사용자 정의 필드가 포함되어 있습니다. 를 통해 필드의 이름을 변경하고 해당 형식을 정의할 수도 있습니다. **[!UICONTROL Field properties...]**, 아래와 같이 표시됩니다.
+이 화면에는 요구 사항에 따라 개인화할 수 있는 사용자 정의 필드가 포함되어 있습니다. 아래와 같이 **[!UICONTROL Field properties...]**&#x200B;을(를) 통해 필드 이름을 변경하고 해당 형식을 정의할 수도 있습니다.
 
 ![](assets/s_ncs_user_profile_others_tab.png)
 
 >[!NOTE]
 >
->필드 속성 및 필드 추가에 대한 자세한 내용은 [이 페이지](../../configuration/using/new-field-wizard.md).
+>필드 속성 및 필드 추가에 대한 자세한 내용은 [이 페이지](../../configuration/using/new-field-wizard.md)를 참조하세요.
 
 ## 목록 탭 {#lists-tab}
 
-이 화면에는 선택한 프로필이 속한 그룹이 표시됩니다. 클릭 **[!UICONTROL Add]** 을 클릭하여 목록에 프로필을 구독합니다. 클릭 **[!UICONTROL Detail]** 선택한 목록에 설명 및 프로필 목록을 표시합니다.
+이 화면에는 선택한 프로필이 속한 그룹이 표시됩니다. **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 목록에 프로필을 구독합니다. 선택한 목록에 설명 및 프로필 목록을 표시하려면 **[!UICONTROL Detail]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
-자세한 내용은 다음을 참조하십시오. [목록 만들기 및 관리](../../platform/using/creating-and-managing-lists.md).
+자세한 내용은 [목록 만들기 및 관리](../../platform/using/creating-and-managing-lists.md)를 참조하세요.
 
 ## 구독 탭 {#subscriptions-tab}
 
@@ -76,7 +76,7 @@ ht-degree: 4%
 
 ![](assets/s_ncs_user_profile_subscript_tab_details.png)
 
-다음 **[!UICONTROL Detail]** 버튼은 선택한 구독의 속성을 표시합니다. 다음 **[!UICONTROL Add]** 버튼은 새 구독을 수동으로 추가하는 데 사용됩니다.
+**[!UICONTROL Detail]** 단추는 선택한 구독의 속성을 표시합니다. **[!UICONTROL Add]** 단추는 새 구독을 수동으로 추가하는 데 사용됩니다.
 
 자세한 정보는 이 [페이지](../../delivery/using/managing-subscriptions.md)를 참조하십시오.
 
@@ -98,4 +98,4 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->추적 기능에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../../delivery/using/delivery-dashboard.md).
+>추적 기능에 대한 자세한 내용은 [이 페이지](../../delivery/using/delivery-dashboard.md)를 참조하세요.

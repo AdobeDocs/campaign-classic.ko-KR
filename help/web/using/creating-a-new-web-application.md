@@ -18,19 +18,19 @@ ht-degree: 20%
 
 만드는 동안 웹 응용 프로그램 유형을 선택합니다.
 
-로 이동 **캠페인** 탭을 클릭하고 다음을 선택합니다. **[!UICONTROL Web Applications]** 메뉴 아래의 제품에서 사용할 수 있습니다. **[!UICONTROL Create]** 버튼을 클릭합니다. 사용할 웹 응용 프로그램 템플릿을 선택합니다.
+**캠페인** 탭으로 이동하여 **[!UICONTROL Web Applications]** 메뉴를 선택하십시오. **[!UICONTROL Create]** 버튼을 클릭합니다. 사용할 웹 응용 프로그램 템플릿을 선택합니다.
 
 ![](assets/webapp_create_from_campaign.png)
 
 >[!NOTE]
 >
->개인 정보가 포함될 수 있는 페이지는 항상 보호하십시오. 다음을 참조하십시오. [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy).
+>개인 정보가 포함될 수 있는 페이지는 항상 보호하십시오. [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy)을 참조하세요.
 
 이 템플릿은 웹 응용 프로그램의 유형을 결정합니다. 다음을 만들 수 있습니다.
 
 1. 웹 양식(+ 프로필 수정)
 
-   웹 양식을 사용하면 입력 또는 선택 필드가 있는 웹 페이지를 제공할 수 있습니다. 사용자가 입력한 정보는 Adobe Campaign 데이터베이스에 저장할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [웹 양식](about-web-forms.md).
+   웹 양식을 사용하면 입력 또는 선택 필드가 있는 웹 페이지를 제공할 수 있습니다. 사용자가 입력한 정보는 Adobe Campaign 데이터베이스에 저장할 수 있습니다. 자세한 내용은 [웹 양식](about-web-forms.md)을 참조하세요.
 
 1. 웹 애플리케이션
 
@@ -42,18 +42,18 @@ ht-degree: 20%
 
 1. 설문 조사
 
-   Adobe Campaign을 사용하면 다음을 통해 **설문 조사 관리자** 온라인 설문 조사를 설계 및 관리하고 결과를 처리하는 옵션: 동적 필드 생성, 점수 관리, 답변 내보내기 및 전용 보고서. 이 작업에 대한 자세한 정보는 [이 섹션](../../surveys/using/about-surveys.md)을 참조하십시오.
+   Adobe Campaign을 사용하면 **설문 조사 관리자** 옵션을 통해 온라인 설문 조사를 디자인하고 관리하며 동적 필드 만들기, 점수 관리, 답변 내보내기 및 전용 보고서 등의 결과를 처리할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../surveys/using/about-surveys.md)을 참조하십시오.
 
    >[!CAUTION]
    >
-   >**설문 조사 관리자** 는 선택적 Adobe Campaign 모듈입니다. 사용권 계약을 확인하십시오.
+   >**설문 조사 관리자**&#x200B;는 선택적 Adobe Campaign 모듈입니다. 사용권 계약을 확인하십시오.
 
 1. Facebook 애플리케이션
 
-   덕분에 **소셜 마케팅** Adobe Campaign 옵션을 사용하면 Facebook 애플리케이션에 개인화된 콘텐츠를 게시할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../social/using/about-social-marketing.md)을 참조하십시오.
+   **소셜 마케팅** 옵션 덕분에 Adobe Campaign을 사용하여 개인화된 콘텐츠를 Facebook 애플리케이션에 게시할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../social/using/about-social-marketing.md)을 참조하십시오.
 
    >[!CAUTION]
    >
-   >**소셜 마케팅** 는 선택적 Adobe Campaign 모듈입니다. 사용권 계약을 확인하십시오.
+   >**소셜 마케팅**&#x200B;은(는) 선택적 Adobe Campaign 모듈입니다. 사용권 계약을 확인하십시오.
 
 페이지 구성 모드 및 사용 가능한 구성은 여러 웹 애플리케이션 유형에 대해 동일할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](about-web-forms.md)을 참조하십시오.

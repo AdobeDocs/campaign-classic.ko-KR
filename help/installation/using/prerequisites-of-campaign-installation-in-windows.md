@@ -19,16 +19,16 @@ ht-degree: 0%
 
 
 
-Adobe Campaign 설치에 필요한 기술 구성 및 소프트웨어는 [호환성 매트릭스](../../rn/using/compatibility-matrix.md).
+Adobe Campaign을 설치하는 데 필요한 기술 구성 및 소프트웨어는 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)에 나와 있습니다.
 
-다중 인스턴스 사용을 위한 Adobe Campaign 서버 설치 프로세스는 아래에 설명되어 있습니다. [서버 설치](../../installation/using/installing-the-server.md).
+다중 인스턴스 사용을 위한 Adobe Campaign 서버 설치 프로세스는 [서버 설치](../../installation/using/installing-the-server.md)에 설명되어 있습니다.
 
 주요 단계는 다음과 같습니다.
 
-1. 응용 프로그램 서버를 설치하려면 다음을 참조하십시오. [설치 프로그램 실행](../../installation/using/installing-the-server.md#executing-the-installation-program).
-1. 웹 서버와 통합(선택 사항, 배포된 구성 요소에 따라)은 다음을 참조하십시오. [IIS 웹 서버 구성](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
+1. 응용 프로그램 서버를 설치하려면 [설치 프로그램 실행](../../installation/using/installing-the-server.md#executing-the-installation-program)을 참조하세요.
+1. 웹 서버와 통합(배포된 구성 요소에 따라 선택 사항)하려면 [IIS 웹 서버 구성](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server)을 참조하세요.
 
-설치 단계가 완료되면 인스턴스, 데이터베이스 및 서버를 구성해야 합니다. 자세한 내용은 다음을 참조하십시오. [초기 구성 정보](../../installation/using/about-initial-configuration.md).
+설치 단계가 완료되면 인스턴스, 데이터베이스 및 서버를 구성해야 합니다. 자세한 내용은 [초기 구성 정보](../../installation/using/about-initial-configuration.md)를 참조하세요.
 
 >[!NOTE]
 >

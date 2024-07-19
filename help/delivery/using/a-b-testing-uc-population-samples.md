@@ -17,15 +17,15 @@ ht-degree: 4%
 
 ## 쿼리 활동 구성 {#configuring-the-query-activity}
 
-* 를 두 번 클릭합니다. **[!UICONTROL Query]** 활동.
+* **[!UICONTROL Query]** 활동을 두 번 클릭합니다.
 
   ![](assets/use_case_abtesting_createrecipients_001.png)
 
-* 다음을 클릭합니다. **[!UICONTROL Edit query]** 타겟팅할 수신자를 연결하고 선택합니다.
+* **[!UICONTROL Edit query]** 링크를 클릭하고 타겟팅할 수신자를 선택합니다.
 
   ![](assets/use_case_abtesting_createrecipients_002.png)
 
-* 링크 **[!UICONTROL Query]** 에 대한 활동 **[!UICONTROL Split]** 활동.
+* **[!UICONTROL Query]** 활동을 **[!UICONTROL Split]** 활동에 연결합니다.
 
   ![](assets/use_case_abtesting_createrecipients_003.png)
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 1. 모집단 A 만들기:
 
-   * 를 두 번 클릭합니다. **[!UICONTROL Split]** 활동.
+   * **[!UICONTROL Split]** 활동을 두 번 클릭합니다.
 
      ![](assets/use_case_abtesting_createrecipients_004.png)
 
@@ -43,21 +43,21 @@ ht-degree: 4%
 
      ![](assets/use_case_abtesting_createrecipients_005.png)
 
-   * 다음 항목 선택 **[!UICONTROL Limit the selected records]** 옵션을 선택합니다.
+   * **[!UICONTROL Limit the selected records]** 옵션을 선택하십시오.
 
      ![](assets/use_case_abtesting_createrecipients_006.png)
 
-   * 다음을 클릭합니다. **[!UICONTROL Edit]** 링크, 선택 **[!UICONTROL Activate random sampling]**, 및 클릭 **[!UICONTROL Next]**.
+   * **[!UICONTROL Edit]** 링크를 클릭하고 **[!UICONTROL Activate random sampling]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
      ![](assets/use_case_abtesting_createrecipients_007.png)
 
-   * 임계값을 10%로 설정한 다음 **[!UICONTROL Finish]**.
+   * 임계값을 10%로 설정한 다음 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
      ![](assets/use_case_abtesting_createrecipients_008.png)
 
 1. 모집단 B 만들기:
 
-   * 클릭 **[!UICONTROL Add]** 모집단 B에 대한 새 탭을 만듭니다.
+   * 모집단 B에 대한 새 탭을 만들려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
      ![](assets/use_case_abtesting_createrecipients_009.png)
 
@@ -67,7 +67,7 @@ ht-degree: 4%
 
 1. 나머지 모집단 만들기:
 
-   * 로 이동 **[!UICONTROL General]** 탭.
+   * **[!UICONTROL General]** 탭으로 이동합니다.
 
      ![](assets/use_case_abtesting_createrecipients_011.png)
 
@@ -75,7 +75,7 @@ ht-degree: 4%
 
      ![](assets/use_case_abtesting_createrecipients_012.png)
 
-   * 이 모집단에 A와 B가 모두 포함되지 않도록 레이블을 변경하고 **[!UICONTROL OK]** 활동을 닫습니다.
+   * 이 모집단에 A와 B가 모두 포함되지 않도록 레이블을 변경하고 **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 활동을 닫습니다.
 
      ![](assets/use_case_abtesting_createrecipients_013.png)
 

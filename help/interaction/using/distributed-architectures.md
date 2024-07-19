@@ -57,15 +57,15 @@ ht-degree: 1%
 
 ## 패키지 구성 {#packages-configuration}
 
-에 직접 연결된 모든 스키마 확장 **상호 작용** (오퍼, 제안, 수신자 등) 은(는) 실행 인스턴스에 배포되어야 합니다.
+**상호 작용**&#x200B;에 직접 연결된 모든 스키마 확장(오퍼, 제안, 수신자 등) 은(는) 실행 인스턴스에 배포되어야 합니다.
 
 상호 작용 패키지는 모든 인스턴스(제어 및 실행)에 설치해야 합니다. 두 개의 추가 패키지를 사용할 수 있습니다. 하나는 제어 인스턴스에 설치되고 다른 하나는 각 실행 인스턴스에 설치됩니다.
 
 >[!NOTE]
 >
->패키지를 설치할 때 **길게** 의 필드 입력 **nms:proposition** 제안 ID와 같은 표는 다음과 같습니다. **int64** 필드를 입력합니다. 이러한 유형의 데이터는 다음에 자세히 설명되어 있습니다. [이 섹션](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
+>패키지를 설치할 때 제안 ID와 같은 **nms:proposition** 테이블의 **long** 유형 필드는 **int64** 유형 필드가 됩니다. 이 유형의 데이터는 [이 섹션](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data)에 자세히 설명되어 있습니다.
 
-데이터 보존 기간은 각 인스턴스에서( 를 통해) 구성해야 합니다. **[!UICONTROL Data purge]** 배포 마법사의 창)을 참조하십시오. 실행 인스턴스에서 이 기간은 유형화 규칙(슬라이딩 기간) 및 자격 규칙을 계산하는 데 필요한 기록 깊이에 해당해야 합니다.
+데이터 보존 기간은 배포 마법사의 **[!UICONTROL Data purge]** 창을 통해 각 인스턴스에 구성해야 합니다. 실행 인스턴스에서 이 기간은 유형화 규칙(슬라이딩 기간) 및 자격 규칙을 계산하는 데 필요한 기록 깊이에 해당해야 합니다.
 
 컨트롤 인스턴스:
 
@@ -77,8 +77,8 @@ ht-degree: 1%
    * **[!UICONTROL Execution instance]**&#x200B;을(를) 선택합니다.
    * **[!UICONTROL Enabled]** 옵션을 선택합니다.
    * 실행 인스턴스에 대한 연결 매개 변수를 완료합니다.
-   * 모든 실행 인스턴스는 ID에 연결되어 있어야 합니다. 이 ID는 다음을 클릭하면 지정됩니다. **[!UICONTROL Initialize connection]** 단추를 클릭합니다.
-   * 사용된 애플리케이션 유형 확인: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**&#x200B;또는 둘 다.
+   * 모든 실행 인스턴스는 ID에 연결되어 있어야 합니다. **[!UICONTROL Initialize connection]** 단추를 클릭하면 이 ID가 할당됩니다.
+   * 사용된 응용 프로그램의 형식을 확인하십시오. **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]** 또는 둘 다.
    * 사용된 FDA 계정을 입력합니다. 연산자는 실행 인스턴스에 만들어야 하며 해당 인스턴스의 데이터베이스에 대해 다음 읽기 및 쓰기 권한이 있어야 합니다.
 
      ```
@@ -101,7 +101,7 @@ ht-degree: 1%
      >
      >오류가 발생하면 동기화 워크플로우 및 오퍼 알림을 참조할 수 있습니다. 애플리케이션의 기술 워크플로우에서 찾을 수 있습니다.
 
-최적화를 위해 마케팅 데이터베이스의 일부만 실행 인스턴스에 복제되는 경우 환경에 연결된 제한된 스키마를 지정하여 사용자가 실행 인스턴스에서 사용할 수 있는 데이터만 사용할 수 있도록 할 수 있습니다. 실행 인스턴스에서 사용할 수 없는 데이터를 사용하여 오퍼를 만들 수 있습니다. 이렇게 하려면 아웃바운드 채널에서 이 규칙을 제한하여 다른 채널에서 규칙을 비활성화해야 합니다(**[!UICONTROL Taken into account if]** field).
+최적화를 위해 마케팅 데이터베이스의 일부만 실행 인스턴스에 복제되는 경우 환경에 연결된 제한된 스키마를 지정하여 사용자가 실행 인스턴스에서 사용할 수 있는 데이터만 사용할 수 있도록 할 수 있습니다. 실행 인스턴스에서 사용할 수 없는 데이터를 사용하여 오퍼를 만들 수 있습니다. 이렇게 하려면 아웃바운드 채널(**[!UICONTROL Taken into account if]** 필드)에서 이 규칙을 제한하여 다른 채널의 규칙을 비활성화해야 합니다.
 
 ![](assets/ita_filtering.png)
 
@@ -113,9 +113,9 @@ ht-degree: 1%
 >
 >이러한 옵션은 특정 유지 관리 사례에만 사용해야 합니다.
 
-* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**: 특정 인스턴스에서 환경이 동기화된 마지막 날짜입니다.
+* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**: 특정 인스턴스에서 환경이 마지막으로 동기화된 날짜입니다.
 * **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**: 특정 스키마의 제안이 한 인스턴스에서 다른 인스턴스로 동기화된 마지막 날짜입니다.
-* **`NmsInteraction_MapWorkflowId`**: 생성된 모든 동기화 워크플로 목록이 포함된 옵션.
+* **`NmsInteraction_MapWorkflowId`**: 생성된 모든 동기화 워크플로 목록이 포함된 옵션입니다.
 
 실행 인스턴스에서 다음 옵션을 사용할 수 있습니다.
 
@@ -168,7 +168,7 @@ ALTER TABLE nmspropositionrcp
 
 ### Oracle {#oracle}
 
-크기 편집 **숫자** 유형이 값 또는 색인을 다시 작성하지 않습니다. 따라서 그것은 즉각적입니다.
+**숫자** 형식의 크기를 편집해도 값이나 인덱스가 다시 작성되지 않습니다. 따라서 그것은 즉각적입니다.
 
 실행할 쿼리는 다음과 같습니다.
 

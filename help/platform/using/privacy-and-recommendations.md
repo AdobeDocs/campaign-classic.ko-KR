@@ -30,7 +30,7 @@ Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양�
 
 ### 개인 정보 보호 규정 {#privacy-regulations}
 
-개인 정보를 올바로 처리하고 개인 데이터를 관리하기 위해 운영하는 지역에 적용되는 법규 내에서 작업하십시오. Adobe Campaign의 기능은 다음과 같은 규정을 준수하는 데 도움이 됩니다. [이 페이지](../../platform/using/privacy-management.md#privacy-management-regulations).
+개인 정보를 올바로 처리하고 개인 데이터를 관리하기 위해 운영하는 지역에 적용되는 법규 내에서 작업하십시오. Adobe Campaign의 기능을 사용하면 [이 페이지](../../platform/using/privacy-management.md#privacy-management-regulations)에 나열된 규정을 준수할 수 있습니다.
 
 ### Adobe Experience Cloud 개인 정보 보호 {#experience-cloud-privacy}
 
@@ -68,7 +68,7 @@ Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 �
 * **개인 데이터**&#x200B;는 살아있는 개인을 직접 또는 간접적으로 식별할 수 있는 정보입니다.
 * **중요한 개인 데이터**&#x200B;는 노동조합 멤버십뿐 아니라 개인의 인종, 정치적 관점, 종교적 신념, 범죄 기록, 유전자 정보, 건강 정보, 성적 선호도, 생체 인식 정보 등과 관련된 정보입니다.
 
-Campaign을 다른 Experience Cloud 솔루션과 통합하여 다음과 같이 대상을 다른 시스템으로 전송할 수 있습니다. [Adobe Analytics](../../integrations/using/gs-aa.md), [Experience Cloud 대상](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md)또는 을 통해 다른 솔루션과 [CRM 커넥터](../../platform/using/crm-connectors.md), 개인 데이터 보호에 대해 추가 비용을 지불해야 합니다.
+[Adobe Analytics](../../integrations/using/gs-aa.md), [대상 Experience Cloud](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md) 또는 [CRM 커넥터](../../platform/using/crm-connectors.md)를 통해 다른 솔루션과 같이 대상을 다른 시스템으로 전송할 수 있는 다른 Experience Cloud 솔루션과 Campaign을 통합하면 개인 데이터 보호를 위해 추가 비용을 지불해야 합니다.
 
 [기본 규정](#privacy-regulations)은 다음과 같이 데이터를 관리하는 서로 다른 엔터티를 의미합니다.
 

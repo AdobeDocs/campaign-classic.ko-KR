@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 값에 대한 액세스 {#access-to-values}
 
-이 유형의 필드에 대한 값이 정의되며 이러한 필드의 전체 관리(값 추가/삭제)는 **[!UICONTROL Administration > Platform > Enumerations]** 트리의 노드.
+이 유형의 필드 값이 정의되어 있으며, 트리의 **[!UICONTROL Administration > Platform > Enumerations]** 노드를 통해 이러한 필드를 전체적으로 관리(값 추가/삭제)합니다.
 
 ![](assets/s_ncs_user_itemized_list_node.png)
 
@@ -36,15 +36,15 @@ ht-degree: 0%
 
   ![](assets/s_ncs_user_itemized_list_values.png)
 
-  새 열거형 값을 만들려면 **[!UICONTROL Add]**.
+  새 열거형 값을 만들려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
   ![](assets/s_ncs_user_itemized_list.png)
 
-  다음과 같은 경우 **[!UICONTROL Open]** 옵션을 선택하면 사용자가 해당 필드에 직접 새 항목별 목록 값을 추가할 수 있습니다. 확인 메시지를 통해 이 값을 만들 수 있습니다.
+  **[!UICONTROL Open]** 옵션을 선택하면 사용자가 해당 필드에 직접 새 항목별 목록 값을 추가할 수 있습니다. 확인 메시지를 통해 이 값을 만들 수 있습니다.
 
   ![](assets/s_ncs_user_itemized_list_new_value.png)
 
-* 다음과 같은 경우 **[!UICONTROL Closed]** 옵션을 선택하면 사용자가 새 값을 만들 수 없고 사용 가능한 값 중에서 선택할 수만 있습니다.
+* **[!UICONTROL Closed]** 옵션을 선택하면 사용자는 새 값을 만들 수 없고 사용 가능한 값 중에서 선택할 수만 있습니다.
 
 ## 데이터 표준화 {#standardizing-data}
 
@@ -59,26 +59,26 @@ ht-degree: 0%
 입력한 값은 다음 중 하나입니다.
 
 * 항목별 목록 값에 추가됨: 이 경우 **[!UICONTROL Open]** 옵션을 선택해야 합니다.
-* 또는 해당 별칭으로 자동으로 대체됩니다. 이 경우 **[!UICONTROL Alias]** 항목별 목록의 탭,
+* 또는 해당 별칭으로 자동으로 대체됩니다. 이 경우 항목별 목록의 **[!UICONTROL Alias]** 탭에서 이 대/소문자를 정의해야 합니다.
 * 또는 는 별칭 목록에 저장됩니다. 나중에 별칭을 할당할 수 있습니다.
 
   >[!NOTE]
   >
-  >데이터 정리 기능을 사용해야 하는 경우 **[!UICONTROL Alias cleansing]** 항목이 나열된 상태로 남아 있는 문제를 해결했습니다.
+  >데이터 정리 기능을 사용해야 하는 경우 항목별 목록에서 **[!UICONTROL Alias cleansing]** 옵션을 선택하십시오.
 
 ### 별칭 사용 {#using-aliases}
 
-옵션 **[!UICONTROL Alias cleansing]** 선택한 항목별 목록에 별칭을 사용할 수 있습니다. 이 옵션을 선택하면 **[!UICONTROL Alias]** 창 하단에 탭이 표시됩니다.
+**[!UICONTROL Alias cleansing]** 옵션을 사용하면 선택한 항목별 목록에 별칭을 사용할 수 있습니다. 이 옵션을 선택하면 **[!UICONTROL Alias]** 탭이 창 하단에 표시됩니다.
 
 ![](assets/s_ncs_user_itemized_list_alias_option.png)
 
 #### 별칭 만들기 {#creating-an-alias}
 
-별칭을 만들려면 **[!UICONTROL Add]**.
+별칭을 만들려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/s_ncs_user_itemized_list_alias_create.png)
 
-변환할 별칭과 적용할 값을 입력하고 **[!UICONTROL Ok]**.
+변환할 별칭과 적용할 값을 입력하고 **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/s_ncs_user_itemized_list_alias_create_2.png)
 
@@ -90,21 +90,21 @@ ht-degree: 0%
 
 ![](assets/s_ncs_user_itemized_list_alias_create_3.png)
 
-따라서 사용자가 값을 입력할 때 **네일센** &quot;회사&quot; 필드(Adobe Campaign 콘솔 또는 양식)에서는 값으로 자동 교체됩니다 **닐슨 주식회사**. 값 교체는 다음을 통해 수행됩니다. **별칭 정리** 워크플로입니다. 을(를) 참조하십시오 [데이터 정리 실행](#running-data-cleansing).
+따라서 사용자가 &quot;회사&quot; 필드(Adobe Campaign 콘솔 또는 양식)에 값 **NEILSEN**&#x200B;을(를) 입력하면 자동으로 값 **NIELSEN Ltd**(으)로 바뀝니다. 값 교체는 **별칭 정리** 워크플로우에서 수행됩니다. [데이터 정리 실행](#running-data-cleansing)을 참조하세요.
 
 ![](assets/s_ncs_user_itemized_list_alias_use.png)
 
 #### 값을 별칭으로 변환 {#converting-values-into-aliases}
 
-열거형 값을 별칭으로 변환하려면 값 목록을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Convert values into aliases...]**.
+열거형 값을 별칭으로 변환하려면 값 목록에서 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Convert values into aliases...]**&#x200B;을(를) 선택합니다.
 
 ![](assets/s_ncs_user_itemized_list_alias_detail.png)
 
-변환할 값을 선택하고 **[!UICONTROL Next]**.
+변환할 값을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/s_ncs_user_itemized_list_alias_transform.png)
 
-클릭 **[!UICONTROL Start]** 변환을 실행합니다.
+변환을 실행하려면 **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/s_ncs_user_itemized_list_alias_detail1.png)
 
@@ -114,35 +114,35 @@ ht-degree: 0%
 
 #### 별칭 히트 검색 {#retrieving-alias-hits}
 
-사용자가 입력한 값을 별칭으로 변환할 수 있습니다. 따라서 사용자가 항목별 목록에 포함되지 않은 값을 입력하면 해당 값이 **[!UICONTROL Alias]** 탭.
+사용자가 입력한 값을 별칭으로 변환할 수 있습니다. 따라서 사용자가 항목별 목록에 포함되지 않은 값을 입력하면 해당 값이 **[!UICONTROL Alias]** 탭에 저장됩니다.
 
-다음 **별칭 정리** 기술 워크플로우는 매일 밤 이러한 값을 복구하여 항목별 목록을 업데이트합니다. 을(를) 참조하십시오 [데이터 정리 실행](#running-data-cleansing)
+**별칭 정리** 기술 워크플로는 매일 밤 이러한 값을 복구하여 항목별 목록을 업데이트합니다. [데이터 정리 실행](#running-data-cleansing)을 참조하세요.
 
-필요한 경우 **[!UICONTROL Hits]** 열은 이 값이 입력된 횟수를 표시할 수 있습니다. 이 값을 계산하는 데는 시간과 메모리가 모두 필요할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [시작 발생 횟수 계산](#calculating-entry-occurrences).
+필요한 경우 **[!UICONTROL Hits]** 열에 이 값이 입력된 횟수를 표시할 수 있습니다. 이 값을 계산하는 데는 시간과 메모리가 모두 필요할 수 있습니다. 자세한 내용은 [항목 발생 횟수 계산](#calculating-entry-occurrences)을 참조하세요.
 
 ### 데이터 정리 실행 {#running-data-cleansing}
 
-데이터 정리는 **[!UICONTROL Alias cleansing]** 기술 워크플로우입니다. 열거형에 대해 정의된 구성은 실행 중에 적용됩니다. 을(를) 참조하십시오 [별칭 정리 워크플로우](#alias-cleansing-workflow).
+데이터 정리는 **[!UICONTROL Alias cleansing]** 기술 워크플로우에서 수행됩니다. 열거형에 대해 정의된 구성은 실행 중에 적용됩니다. [별칭 정리 워크플로우](#alias-cleansing-workflow)를 참조하세요.
 
-정리는 다음을 통해 트리거될 수 있습니다. **[!UICONTROL Cleanse values...]** 링크를 클릭합니다.
+**[!UICONTROL Cleanse values...]** 링크를 통해 정리를 트리거할 수 있습니다.
 
 ![](assets/s_ncs_user_itemized_list_alias_start_normalize.png)
 
-다음 **[!UICONTROL Advanced parameters...]** 링크를 사용하면 수집된 값이 고려되는 시작 날짜를 설정할 수 있습니다.
+**[!UICONTROL Advanced parameters...]** 링크를 사용하여 수집된 값을 고려하는 시작 날짜를 설정할 수 있습니다.
 
 ![](assets/s_ncs_user_itemized_list_alias_normalize.png)
 
-다음을 클릭합니다. **[!UICONTROL Start]** 데이터 정리를 실행하는 단추입니다.
+데이터 정리를 실행하려면 **[!UICONTROL Start]** 단추를 클릭하세요.
 
 #### 시작 발생 횟수 계산 {#calculating-entry-occurrences}
 
-다음 **[!UICONTROL Alias]** 항목별 목록의 하위 탭에는 입력된 모든 값 중에서 별칭이 발생한 횟수가 표시됩니다. 이 정보는 예상 값이며 **[!UICONTROL Hits]** 열.
+항목별 목록의 **[!UICONTROL Alias]** 하위 탭에는 입력된 모든 값 중에서 별칭이 발생한 횟수가 표시됩니다. 이 정보는 예상 정보이며 **[!UICONTROL Hits]** 열에 표시됩니다.
 
 >[!CAUTION]
 >
 >별칭 항목 발생 횟수를 계산하는 데 시간이 오래 걸릴 수 있습니다. 그렇기 때문에 이 기능을 사용할 때는 주의해야 한다.
 
-다음을 통해 히트 계산을 수동으로 실행할 수 있습니다. **[!UICONTROL Cleanse values...]** 링크를 클릭합니다. 이렇게 하려면 **[!UICONTROL Advanced parameters...]** 링크를 클릭하고 원하는 옵션을 선택합니다.
+**[!UICONTROL Cleanse values...]** 링크를 통해 히트 계산을 수동으로 실행할 수 있습니다. 이렇게 하려면 **[!UICONTROL Advanced parameters...]** 링크를 클릭하고 원하는 옵션을 선택합니다.
 
 ![](assets/s_ncs_user_itemized_list_alias_hits.png)
 
@@ -151,15 +151,15 @@ ht-degree: 0%
 
 예를 들어 일주일에 한 번, 주어진 기간 동안 자동으로 계산이 실행되도록 전용 워크플로우를 만들 수도 있습니다.
 
-이렇게 하려면 **[!UICONTROL Alias cleansing]** 워크플로우에서 스케줄러를 변경하고 **[!UICONTROL Enumeration value cleansing]** 활동:
+이렇게 하려면 **[!UICONTROL Alias cleansing]** 워크플로우의 복사본을 만들고 스케줄러를 변경한 후 **[!UICONTROL Enumeration value cleansing]** 활동에서 다음 설정을 사용하십시오.
 
-* **-updateHits** 별칭 히트 수를 업데이트하려면
-* **-updateHits:full** 모든 별칭 히트를 다시 계산합니다.
+* 별칭 히트 수를 업데이트하려면 **-updateHits**&#x200B;을(를) 업데이트하십시오.
+* 모든 별칭 히트를 다시 계산하기 위해 **-updateHits:full**.
 
 #### 별칭 정리 워크플로우 {#alias-cleansing-workflow}
 
-다음 **별칭 정리** 워크플로는 열거형 값 정리를 실행합니다. 기본적으로 매일 실행됩니다.
+**별칭 정리** 워크플로는 열거형 값 정리를 실행합니다. 기본적으로 매일 실행됩니다.
 
-를 통해 액세스됩니다. **[!UICONTROL Administration > Production > Technical workflows]** 노드.
+**[!UICONTROL Administration > Production > Technical workflows]** 노드를 통해 액세스합니다.
 
 ![](assets/s_ncs_user_itemized_list_alias_wf.png)

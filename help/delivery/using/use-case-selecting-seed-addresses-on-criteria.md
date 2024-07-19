@@ -17,7 +17,7 @@ ht-degree: 2%
 
 게재 또는 캠페인의 프레임워크에서 **[!UICONTROL Edit the dynamic condition...]** 링크를 사용하면 특정 선택 기준에 따라 시드 주소를 선택할 수 있습니다.
 
-이 사용 사례에서는 사이트가 **내 온라인 라이브러리** 고객의 문학적인 취향에 따라 뉴스레터를 개인화하고 싶습니다.
+이 사용 사례에서는 사이트 **내 온라인 라이브러리**&#x200B;에서 클라이언트의 문학적 취향에 따라 뉴스레터를 개인화하려고 합니다.
 
 구매부서와 연계해 배달을 담당하는 이용자가 경찰소설을 구입한 구독자를 위한 뉴스레터를 만들었다.
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 ## 1단계 - 게재 만들기 {#step-1---creating-a-delivery}
 
-게재를 만드는 단계는 [이메일 게재 만들기](creating-an-email-delivery.md) 섹션.
+게재를 만드는 단계는 [전자 메일 게재 만들기](creating-an-email-delivery.md) 섹션에 자세히 설명되어 있습니다.
 
 이 예에서 게재 관리자는 뉴스레터를 생성하고 수신자를 선택했습니다.
 
@@ -38,18 +38,18 @@ ht-degree: 2%
 
 ## 2단계 - 공통 값 만들기 {#step-2---creating-a-common-value}
 
-예제(구매 부서)의 값과 같은 공통 값을 생성하려면 먼저 를 확장해야 합니다. **데이터 스키마** 시드 주소 및 관련 입력 양식 편집
+예제(구매 부서)의 값과 같은 공통 값을 만들려면 먼저 시드 주소의 **데이터 스키마**&#x200B;를 확장하고 관련 입력 양식을 편집해야 합니다.
 
 ### 데이터 스키마 확장 {#extending-the-data-schema}
 
-스키마 확장에 대한 자세한 내용은 [이 섹션](../../configuration/using/data-schemas.md).
+스키마 확장에 대한 자세한 내용은 [이 섹션](../../configuration/using/data-schemas.md)을 참조하세요.
 
-1. 다음에서 **[!UICONTROL Administration > Configuration > Data schemas]** 노드를 클릭하고 **[!UICONTROL New]** 아이콘.
-1. 다음에서 **[!UICONTROL Creation of a data schema]** 창에서 **[!UICONTROL Extension of a schema]** 옵션 및 클릭 **[!UICONTROL Next]**.
+1. **[!UICONTROL Administration > Configuration > Data schemas]** 노드에서 **[!UICONTROL New]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Creation of a data schema]** 창에서 **[!UICONTROL Extension of a schema]** 옵션을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/dlv_seeds_usecase_09.png)
 
-1. 다음 항목 선택 **[!UICONTROL Seed addresses]** 소스 스키마, 입력 **문서** (으)로 **[!UICONTROL Namespace]** 및 클릭 **[!UICONTROL Ok]**.
+1. **[!UICONTROL Seed addresses]** 원본 스키마를 선택하고 **doc**&#x200B;을(를) **[!UICONTROL Namespace]**(으)로 입력한 다음 **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/dlv_seeds_usecase_10.png)
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 
    ![](assets/dlv_seeds_usecase_20.png)
 
-   그런 다음 다음 다음 줄을 복사하여 아래에 붙여넣습니다. **[!UICONTROL Seed to insert in the export files]** 요소를 생성하지 않습니다.
+   다음 줄을 복사하여 **[!UICONTROL Seed to insert in the export files]** 요소 아래에 붙여 넣습니다.
 
    ```
        <element aggregate="doc:seedMember:common">
@@ -76,14 +76,14 @@ ht-degree: 2%
 
    ![](assets/dlv_seeds_usecase_29.png)
 
-   이 경우 이름이 인 새 열거형이 **[!UICONTROL Department]** 이(가) 시드 주소 테이블에 만들어졌으며 표준을 기반으로 합니다 **[!UICONTROL @company]** 열거형 템플릿(이름 아래에 레이블 지정됨) **회사** ( 시드 주소 양식)을 참조하십시오.
+   이 경우 시드 주소 테이블에 **[!UICONTROL Department]**(이)라는 새 열거형이 만들어지고 표준 **[!UICONTROL @company]** 열거형 템플릿(시드 주소 양식의 이름 **Company** 아래에 레이블이 지정됨)을 기반으로 하도록 지정합니다.
 
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
-1. 다음에서 **[!UICONTROL Tools > Advanced]** 메뉴에서 **[!UICONTROL Update database structure]** 옵션을 선택합니다.
+1. **[!UICONTROL Tools > Advanced]** 메뉴에서 **[!UICONTROL Update database structure]** 옵션을 선택합니다.
 
    ![](assets/dlv_seeds_usecase_12.png)
 
-1. 업데이트 마법사가 표시되면 **[!UICONTROL Next]** [테이블 편집] 창에 액세스하기 위한 단추: 시드 주소 데이터 스키마에서 변경을 수행하려면 구조를 갱신해야 합니다.
+1. 업데이트 마법사가 표시되면 **[!UICONTROL Next]** 단추를 클릭하여 테이블 편집 창에 액세스합니다. 시드 주소 데이터 스키마에서 변경을 수행하려면 구조를 업데이트해야 합니다.
 
    ![](assets/dlv_seeds_usecase_13.png)
 
@@ -93,17 +93,17 @@ ht-degree: 2%
 
    업데이트가 완료되면 마법사를 닫을 수 있습니다.
 
-1. 연결을 끊고 Adobe Campaign에 다시 연결합니다. 시드 주소 데이터 스키마에서 변경한 사항이 이제 적용됩니다. 시드 주소 화면에서 이를 보려면 관련 항목을 업데이트해야 합니다 **[!UICONTROL Input form]**. 다음을 참조하십시오. [입력 양식 업데이트](#updating-the-input-form) 섹션.
+1. 연결을 끊고 Adobe Campaign에 다시 연결합니다. 시드 주소 데이터 스키마에서 변경한 사항이 이제 적용됩니다. 시드 주소 화면에서 표시하려면 연결된 **[!UICONTROL Input form]**&#x200B;을(를) 업데이트해야 합니다. [입력 양식 업데이트](#updating-the-input-form) 섹션을 참조하세요.
 
 #### 연결된 테이블에서 데이터 스키마 확장 {#extending-the-data-schema-from-a-linked-table}
 
 시드 주소 데이터 스키마는 수신자 데이터 스키마 - 수신자 (nms)에 연결된 테이블의 값을 사용할 수 있습니다.
 
-예를 들어, 사용자는 **[!UICONTROL Internet Extension]** 다음에서 찾음: **[!UICONTROL Country]** 수신자 스키마에 연결된 테이블입니다.
+예를 들어 사용자는 수신자 스키마에 연결된 **[!UICONTROL Country]** 테이블에 있는 **[!UICONTROL Internet Extension]**&#x200B;을(를) 통합하려고 합니다.
 
 ![](assets/dlv_seeds_usecase_06.png)
 
-따라서 섹션에 자세히 설명된 대로 시드 주소 데이터 스키마를 확장해야 합니다. 단, 통합할 코드 행은 **4단계** 은 다음과 같습니다.
+따라서 섹션에 자세히 설명된 대로 시드 주소 데이터 스키마를 확장해야 합니다. 그러나 **단계 4**&#x200B;에서 통합할 코드 줄은 다음과 같습니다.
 
 ```
 <element name="country">
@@ -116,28 +116,28 @@ ht-degree: 2%
 
 다음 사항을 나타냅니다.
 
-* 을 추가하여 라는 새 요소를 **[!UICONTROL Internet Extension]**,
-* 이 요소는 **[!UICONTROL Country]** 테이블.
+* 사용자가 **[!UICONTROL Internet Extension]**(이)라는 새 요소를 만들려고 합니다.
+* 이 요소는 **[!UICONTROL Country]** 테이블에서 가져옵니다.
 
 >[!CAUTION]
 >
->연결된 테이블 이름에서 **xpath-dst** 연결된 테이블의
+>연결된 테이블 이름에서 연결된 테이블의 **xpath-dst**&#x200B;을(를) 지정해야 합니다.
 >
->다음에서 찾을 수 있습니다. **[!UICONTROL Country]** 요소를 추가합니다.
+>받는 사람 테이블의 **[!UICONTROL Country]** 요소에서 찾을 수 있습니다.
 
 ![](assets/dlv_seeds_usecase_07.png)
 
-사용자는 다음 위치에서 팔로우할 수 있습니다. **5단계** 섹션에 있는 마지막 항목이 **[!UICONTROL Input form]** 시드 주소.
+그런 다음 섹션의 **단계 5**&#x200B;을(를) 따르고 시드 주소의 **[!UICONTROL Input form]**&#x200B;을(를) 업데이트할 수 있습니다.
 
-다음을 참조하십시오. [입력 양식 업데이트](#updating-the-input-form) 섹션.
+[입력 양식 업데이트](#updating-the-input-form) 섹션을 참조하세요.
 
 #### 입력 양식 업데이트 {#updating-the-input-form}
 
-1. 다음에서 **[!UICONTROL Administration > Configuration > Input forms]** 노드에서 시드 주소 입력 양식을 찾습니다.
+1. **[!UICONTROL Administration > Configuration > Input forms]** 노드에서 시드 주소 입력 양식을 찾습니다.
 
    ![](assets/dlv_seeds_usecase_19.png)
 
-1. 양식을 편집하고에 다음 줄을 삽입합니다. **[!UICONTROL Recipient]** 컨테이너.
+1. 양식을 편집하고 **[!UICONTROL Recipient]** 컨테이너에 다음 줄을 삽입하십시오.
 
    ```
    <input xpath="@workField"/>
@@ -146,11 +146,11 @@ ht-degree: 2%
    ![](assets/dlv_seeds_usecase_21.png)
 
 1. 변경 내용을 저장합니다.
-1. 시드 주소를 엽니다. 다음 **[!UICONTROL Department]** 필드에 다음이 표시됩니다. **[!UICONTROL Recipient]** 테이블.
+1. 시드 주소를 엽니다. **[!UICONTROL Department]** 필드가 **[!UICONTROL Recipient]** 테이블에 나타납니다.
 
    ![](assets/dlv_seeds_usecase_22.png)
 
-1. 게재에 사용할 시드 주소를 편집하고 입력합니다 **구매** 을 의 값으로 **[!UICONTROL Department]** 필드.
+1. 게재에 사용할 시드 주소를 편집하고 **[!UICONTROL Department]** 필드에 값으로 **구매**&#x200B;를 입력하십시오.
 
 ## 3단계 - 조건 정의 {#step-3---defining-the-condition}
 
@@ -160,36 +160,36 @@ ht-degree: 2%
 
    ![](assets/dlv_seeds_usecase_01.png)
 
-1. 다음을 클릭합니다. **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Seed addresses]** 탭을 사용하여 액세스 **[!UICONTROL Edit the dynamic condition...]** 링크를 클릭합니다.
+1. **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Seed addresses]** 탭을 클릭하여 **[!UICONTROL Edit the dynamic condition...]** 링크에 액세스합니다.
 
    ![](assets/dlv_seeds_usecase_02.png)
 
-1. 원하는 시드 주소를 선택할 수 있는 표현식을 선택합니다. 여기에서 사용자는 **[!UICONTROL Department (@workField)]** 표현식.
+1. 원하는 시드 주소를 선택할 수 있는 표현식을 선택합니다. 여기서 사용자가 **[!UICONTROL Department (@workField)]** 식을 선택합니다.
 
    ![](assets/dlv_seeds_usecase_03.png)
 
-1. 원하는 값을 선택합니다. 이 예에서 사용자는 **구매** 부서(값 드롭다운 목록)
+1. 원하는 값을 선택합니다. 이 예제에서는 사용자가 드롭다운 값 목록에서 **구매** 부서를 선택합니다.
 
    ![](assets/dlv_seeds_usecase_17.png)
 
    >[!NOTE]
    >
-   >이전에 만든 스키마 확장은 **수신자** 스키마. 위의 화면에 표시되는 값은 **수신자** 스키마.
+   >이전에 만든 스키마 확장은 **recipient** 스키마에서 가져온 것입니다. 위의 화면에 표시된 값은 **recipient** 스키마의 열거형에서 가져온 것입니다.
 
 1. **[!UICONTROL Ok]**&#x200B;를 클릭합니다.
 
-   쿼리가 **[!UICONTROL Select target]** 창.
+   쿼리가 **[!UICONTROL Select target]** 창에 표시됩니다.
 
    ![](assets/dlv_seeds_usecase_04.png)
 
-1. 클릭 **[!UICONTROL Ok]** 쿼리를 승인합니다.
-1. 게재를 분석한 다음 **[!UICONTROL Delivery]** 탭으로 이동하여 게재 로그에 액세스합니다.
+1. 쿼리를 승인하려면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭하십시오.
+1. 게재를 분석한 다음 **[!UICONTROL Delivery]** 탭을 클릭하여 게재 로그에 액세스합니다.
 
    구매 부서의 시드 주소는 수신자 또는 다른 시드 주소의 시드 주소와 마찬가지로 게재 보류 중으로 표시됩니다.
 
    ![](assets/dlv_seeds_usecase_05.png)
 
-1. 다음을 클릭합니다. **[!UICONTROL Send]** 버튼을 클릭하여 게재를 시작합니다.
+1. **[!UICONTROL Send]** 단추를 클릭하여 게재를 시작합니다.
 
    구매 부서의 구성원은 이메일 받은 편지함에 게재를 받을 시드 주소의 일부를 구성합니다.
 

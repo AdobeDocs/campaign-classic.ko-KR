@@ -25,7 +25,7 @@ ajouter screenshot -->
 
 ![](assets/delivery-status.png)
 
-접할 수 있는 다양한 게재 실패 및 해결 방법에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](understanding-delivery-failures.md).
+발생할 수 있는 다양한 게재 실패와 해결 방법에 대한 자세한 내용은 [이 페이지](understanding-delivery-failures.md)를 참조하세요.
 
 **관련 항목:**
 
@@ -44,8 +44,8 @@ ajouter screenshot -->
  </thead> 
  <tbody> 
   <tr> 
-   <td> 전송됨<br /> </td> 
-   <td> 게재가 메시지 제공자에게 올바르게 전송되었지만 수신자가 반드시 받은 것은 아닙니다.<br /> </td> 
+   <td> 보냄<br /> </td> 
+   <td> 게재가 메시지 공급자에게 올바르게 전송되었지만 받는 사람이 받을 필요는 없습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 무시됨<br /> </td> 
@@ -53,11 +53,11 @@ ajouter screenshot -->
   </tr> 
   <tr> 
    <td> 실패<br /> </td> 
-   <td> 잘못된 주소 또는 전체 받은 편지함 등으로 인해 게재가 수신자에게 도달하지 못했습니다. 또한 스키마가 게재 매핑과 일치하지 않을 때 오류를 생성할 수 있으므로 개인화 블록의 문제와 연결할 수도 있습니다. 다음을 참조하십시오 <a href="understanding-delivery-failures.md" target="_blank">게재 실패 이해</a><br /> </td> 
+   <td> 잘못된 주소 또는 전체 받은 편지함 등으로 인해 게재가 수신자에게 도달하지 못했습니다. 또한 스키마가 게재 매핑과 일치하지 않을 때 오류를 생성할 수 있으므로 개인화 블록의 문제와 연결할 수도 있습니다. <a href="understanding-delivery-failures.md" target="_blank">게재 오류 이해</a><br />를 참조하세요. </td> 
   </tr>
   <tr> 
    <td> 보류 중<br /> </td> 
-   <td> 게재를 보낼 준비가 되었으며 게재 서버(MTA)에서 처리합니다. 다음을 참조하십시오 <a href="#pending-status" target="_blank">보류 중인 상태</a>.<br /> </td> 
+   <td> 게재를 보낼 준비가 되었으며 게재 서버(MTA)에서 처리합니다. <a href="#pending-status" target="_blank">보류 중 상태</a>.<br /> 보기 </td> 
   </tr> 
   <tr> 
    <td> 적용할 수 없음<br /> </td> 
@@ -65,18 +65,18 @@ ajouter screenshot -->
   </tr>  
   <tr> 
    <td> 게재 취소됨<br /> </td> 
-   <td> 운영자가 게재를 취소했습니다.<br /> </td> 
+   <td> 연산자가 게재를 취소했습니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 서비스 제공자의 고려 사항<br /> </td> 
-   <td> SMS 서비스 공급자가 게재를 받았습니다.<br /> 호스팅 또는 하이브리드 설치의 경우 를 로 업그레이드한 경우 <a href="sending-with-enhanced-mta.md" target="_blank">향상된 MTA</a>, 메시지가 Campaign에서 Enhanced MTA로 성공적으로 중계되었습니다.</td> 
+   <td> 서비스 공급자가 고려함<br /> </td> 
+   <td> SMS 서비스 공급자가 게재를 받았습니다.<br /> 호스팅 또는 하이브리드 설치의 경우 <a href="sending-with-enhanced-mta.md" target="_blank">Enhanced MTA</a>(으)로 업그레이드한 경우 메시지가 Campaign에서 Enhanced MTA로 성공적으로 릴레이되었습니다.</td> 
   </tr> 
   <tr> 
    <td> 모바일에서 수신됨<br /> </td> 
-   <td> 수신자가 모바일 디바이스에서 SMS를 수신했습니다.<br /> </td> 
+   <td> 받는 사람이 모바일 장치에서 SMS를 받았습니다.<br /> </td> 
   </tr>
   <tr> 
-   <td> 서비스 공급자에게 전송됨<br /> </td> 
+   <td> 서비스 공급자<br />에게 전송됨 </td> 
    <td> 게재를 SMS 서비스 공급자에게 보냈지만 아직 받지 못했습니다.<br />
    </td> 
   </tr> 
@@ -87,15 +87,15 @@ ajouter screenshot -->
  </tbody> 
 </table>
 
-Adobe Campaign 이메일 전달성을 최적화하는 방법을 알아보려면 다음을 참조하십시오. [이 섹션](about-deliverability.md). 전달성에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko).
+Adobe Campaign 이메일의 전달성을 최적화하는 방법에 대해 알아보려면 [이 섹션](about-deliverability.md)을 참조하세요. 전달성에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하세요.
 
 ## 보류 중인 상태 {#pending-status}
 
-게재를 확인한 후 게재 상태가 다음과 같음을 알 수 있습니다. **[!UICONTROL Pending]**. 이 상태는 실행 프로세스가 일부 리소스의 가용성을 대기 중임을 의미합니다.
+게재를 확인한 후 게재 상태가 **[!UICONTROL Pending]**&#x200B;임을 확인할 수 있습니다. 이 상태는 실행 프로세스가 일부 리소스의 가용성을 대기 중임을 의미합니다.
 
-다음 **[!UICONTROL Pending]** 상태는 먼저 게재가 예약되었고 지정된 날짜까지 보류 중임을 의미할 수 있습니다. 자세한 내용은 [게재 예약](steps-sending-the-delivery.md#scheduling-the-delivery-sending) 섹션.
+**[!UICONTROL Pending]** 상태는 먼저 게재가 예약되어 지정된 날짜까지 보류 중임을 의미할 수 있습니다. 자세한 내용은 [배달 예약](steps-sending-the-delivery.md#scheduling-the-delivery-sending) 섹션을 참조하세요.
 
-게재가 전송되지 않고 상태가 지속되는 경우 **[!UICONTROL Pending]**, 다음과 같은 결과가 될 수 있습니다.
+게재를 보낼 수 없고 상태가 **[!UICONTROL Pending]**&#x200B;인 경우 다음 결과가 발생할 수 있습니다.
 
 * 게재 서버에서 모듈 및 프로세스를 실행하고 이메일 전송을 관리하는 MTA(메시지 전송 에이전트)가 시작되지 않았거나 다시 시작해야 할 수 있습니다.
 
@@ -103,9 +103,9 @@ Adobe Campaign 이메일 전달성을 최적화하는 방법을 알아보려면 
 
   >[!NOTE]
   >
-  >이 작업은 **온-프레미스** 또는 **잡종** Campaign 서버에 액세스할 수 있는 호스팅 모델(참조 [호스팅 모델](../../installation/using/hosting-models.md)).
+  >이 작업은 Campaign 서버에 액세스할 수 있는 **온-프레미스** 또는 **하이브리드** 호스팅 모델로 수행할 수 있습니다([호스팅 모델](../../installation/using/hosting-models.md) 참조).
 
-   1. 다음을 확인하십시오. `mta@<instance>` 모듈은 MTA 서버에서 실행됩니다.
+   1. `mta@<instance>` 모듈이 MTA 서버에서 시작되었는지 확인합니다.
 
       ```
       nlserver pdump
@@ -123,17 +123,17 @@ Adobe Campaign 이메일 전달성을 최적화하는 방법을 알아보려면 
 
       >[!NOTE]
       >
-      >바꾸기 `<instance-name>` 인스턴스 이름(프로덕션, 개발 등)으로 인스턴스 이름은 구성 파일을 통해 식별됩니다. `[path of application]nl6/conf/config-<instance-name>.xml`
+      >`<instance-name>`을(를) 인스턴스 이름(프로덕션, 개발 등)으로 바꿉니다. 구성 파일을 통해 인스턴스 이름을 식별합니다. `[path of application]nl6/conf/config-<instance-name>.xml`
 
 * 게재는 전송 서버에 구성되지 않은 선호도를 사용할 수 있습니다.
 
-  이 경우 트래픽 관리(IP 선호도)의 구성을 확인하고 를 사용합니다. **[!UICONTROL Managing affinities with IP addresses]** 선호도를 관리하는 MTA에 게재를 연결하는 필드입니다. 관심도에 대한 자세한 내용은 [이 섹션](../../installation/using/configure-delivery-settings.md).
+  이 경우 트래픽 관리(IP 선호도)의 구성을 확인하고 **[!UICONTROL Managing affinities with IP addresses]** 필드를 사용하여 선호도를 관리하는 MTA에 게재를 연결합니다. 관심도에 대한 자세한 내용은 [이 섹션](../../installation/using/configure-delivery-settings.md)을 참조하세요.
 
 * 너무 많은 캠페인이 실행 중일 때 게재 상태는 &#39;보류 중&#39; 상태로 유지됩니다.
 
-  동시 캠페인의 제한은 **[!UICONTROL NmsOperation_LimitConcurrency]** 옵션을 선택합니다. 기본값은 10입니다.
+  동시 캠페인의 제한은 **[!UICONTROL NmsOperation_LimitConcurrency]** 옵션에 정의되어 있습니다. 기본값은 10입니다.
 
-  의 옵션에 대해 자세히 알아보기 [이 페이지](../../installation/using/configuring-campaign-options.md).
+  [이 페이지](../../installation/using/configuring-campaign-options.md)의 옵션에 대해 자세히 알아보세요.
 
 
 **관련 항목:**

@@ -30,19 +30,19 @@ ht-degree: 2%
 
 Adobe Campaign에서 이 통합을 구성하려면 아래 단계를 따르십시오.
 
-1. 설치 **[!UICONTROL Integration with the Adobe Experience Cloud]** 기본 제공 패키지. [자세히 알아보기](../../platform/using/working-with-data-packages.md#importing-packages)
+1. **[!UICONTROL Integration with the Adobe Experience Cloud]** 기본 제공 패키지를 설치합니다. [자세히 알아보기](../../platform/using/working-with-data-packages.md#importing-packages)
 
    이 패키지를 사용하면 Digital Asset Manager를 통해 공유 에셋에 액세스할 수 있습니다.
 
 1. IMS(Adobe ID 연결 서비스)를 통한 연결을 활성화하여 이메일에서 Adobe Experience Cloud을 통해 공유되는 이미지를 사용합니다. [자세히 알아보기](../../integrations/using/about-adobe-id.md)
-1. 다음으로 이동 **[!UICONTROL Administration > Platform > Options]** Adobe Target에 대한 서버 및 조직(테넌트) 옵션을 구성하려면 다음을 수행하십시오.
+1. **[!UICONTROL Administration > Platform > Options]**(으)로 이동하여 Adobe Target에 대한 서버 및 조직(테넌트) 옵션을 구성합니다.
 
    ![](assets/tar_options.png)
 
-   * **[!UICONTROL TNT_EdgeServer]** : 통합에 사용되는 Adobe Target 서버입니다. 이 옵션은 기본적으로 이미 선택되어 있습니다. 이 값은 Adobe Target에 해당합니다 **[!UICONTROL Domain Server]**, 뒤에 값 **/m2**. 예: **tt.omtrdc.net/m2**.
-   * **[!UICONTROL TNT_TenantName]** : Adobe Target 조직 이름 이 값은 Adobe Target의 이름에 해당합니다. **[!UICONTROL Client]**.
+   * **[!UICONTROL TNT_EdgeServer]** : 통합에 사용되는 Adobe Target 서버입니다. 이 옵션은 기본적으로 이미 선택되어 있습니다. 이 값은 **[!UICONTROL Domain Server]** Adobe Target 다음에 **/m2** 값이 옵니다. 예: **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_TenantName]** : Adobe Target 조직 이름입니다. 이 값은 Adobe Target **[!UICONTROL Client]**&#x200B;의 이름에 해당합니다.
 
 
 >[!CAUTION]
 >
->하이브리드 및 호스팅 아키텍처의 경우 이러한 옵션은 다음을 포함하여 모든 서버에서 설정해야 합니다. [중간 소싱 서버](../../installation/using/mid-sourcing-server.md) 및 [실행 인스턴스](../../message-center/using/configuring-instances.md#execution-instance).
+>하이브리드 및 호스팅 아키텍처의 경우 이러한 옵션은 [중간 소싱 서버](../../installation/using/mid-sourcing-server.md) 및 [실행 인스턴스](../../message-center/using/configuring-instances.md#execution-instance)를 포함한 모든 서버에서 설정해야 합니다.

@@ -32,17 +32,17 @@ Adobe Campaign 콘솔이 시작되면 로그인 페이지에 액세스합니다.
 
 새 인스턴스 생성 하려면 아래 단계를 팔로우 수행하십시오.
 
-1. 자격 증명 필드의 오른쪽 상단 모서리에 있는 링크 를 클릭하여 연결 구성 창에 액세스합니다. 이 링크는 다음 중 하나일 수 있습니다. **[!UICONTROL New...]** 또는 기존 인스턴스 이름.
+1. 자격 증명 필드의 오른쪽 상단 모서리에 있는 링크 를 클릭하여 연결 구성 창에 액세스합니다. 이 링크는 **[!UICONTROL New...]** 또는 기존 인스턴스 이름일 수 있습니다.
 
    ![](assets/s_ncs_install_define_connection_01.png)
 
-1. 클릭 **[!UICONTROL Add > Connection]** 및 Adobe Campaign 애플리케이션 서버의 레이블과 URL을 입력합니다.
+1. **[!UICONTROL Add > Connection]**&#x200B;을(를) 클릭하고 Adobe Campaign 응용 프로그램 서버의 레이블과 URL을 입력합니다.
 
    ![](assets/s_ncs_install_define_connection_02.png)
 
 1. URL을 통해 Adobe Campaign 애플리케이션 서버에 대한 연결을 지정합니다. 컴퓨터의 DNS, 별칭 또는 IP 주소를 사용합니다.
 
-   예를 들어 `https://<machine>.<domain>.com` url을 입력합니다.
+   예를 들어 `https://<machine>.<domain>.com` 유형 URL을 사용할 수 있습니다.
 
    >[!CAUTION]
    >
@@ -58,7 +58,7 @@ Adobe Campaign 콘솔이 시작되면 로그인 페이지에 액세스합니다.
 
 1. **[!UICONTROL DNS masks]** 필드에 인스턴스 연결 대상 DNS 마스크&#x200B;**목록을 입력합니다**. Adobe Campaign 서버는 HTTP 요청에 나타나는 호스트 이름을 사용하여 연결할 인스턴스를 결정합니다.
 
-   호스트 이름이 문자열 사이에 포함되어 있습니다. **https://** 및 첫 번째 슬래시 문자 **/** / 서버 주소입니다.
+   호스트 이름은 문자열 **https://**&#x200B;과(와) 서버 주소의 첫 번째 슬래시 문자 **/** 사이에 포함되어 있습니다.
 
    쉼표로 구분된 값 목록을 정의할 수 있습니다.
 
@@ -72,13 +72,13 @@ Adobe Campaign 콘솔이 시작되면 로그인 페이지에 액세스합니다.
 
 1. **[!UICONTROL Language]** 드롭다운 목록에서 인스턴스 언어&#x200B;**(**&#x200B;영어(미국), 영어(영국), 프랑스어 또는 일본어를 선택합니다.
 
-   미국 영어와 영국 영어의 차이점은에서 설명합니다. [이 섹션](../../platform/using/adobe-campaign-workspace.md#date-and-time).
+   미국 영어와 영국 영어의 차이점은 [이 섹션](../../platform/using/adobe-campaign-workspace.md#date-and-time)에 설명되어 있습니다.
 
    >[!CAUTION]
    >
    >이 단계 후에는 인스턴스 언어를 수정할 수 없습니다. Adobe Campaign 인스턴스는 다국어가 아닙니다. 인터페이스를 언어에서 다른 언어로 전환할 수 없습니다.
 
-1. 클릭 **[!UICONTROL Ok]** 인스턴스 선언을 확인합니다. 데이터베이스를 선언하려면 로그오프했다가 다시 로그온합니다.
+1. 인스턴스 선언을 확인하려면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭하십시오. 데이터베이스를 선언하려면 로그오프했다가 다시 로그온합니다.
 
    >[!NOTE]
    >

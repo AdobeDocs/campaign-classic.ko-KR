@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # AB 테스트: 워크플로우에서 게재 구성 {#step-4--configuring-the-deliveries-in-the-workflow}
 
-한 번 [모집단을 만듭니다.](a-b-testing-uc-population-samples.md), 게재를 구성할 수 있습니다. 이 사용 사례에서 처음 두 게재를 사용하면 모집단 A와 B에 서로 다른 콘텐츠를 보낼 수 있습니다. 세 번째 게재는 폴백 게재입니다. A와 B에 속하지 않는 수신자에게 전송됩니다. 콘텐츠는 스크립트로 계산되며, 가장 높은 공개 비율을 득점한 항목에 따라 A 또는 B 중 하나와 동일합니다. 게재 A와 B의 결과를 알아보기 위해 세 번째 게재의 대기 기간을 구성해야 합니다. 세 번째 게재에 다음이 포함된 이유입니다. **[!UICONTROL Wait]** 활동.
+[모집단](a-b-testing-uc-population-samples.md)이 만들어지면 게재를 구성할 수 있습니다. 이 사용 사례에서 처음 두 게재를 사용하면 모집단 A와 B에 서로 다른 콘텐츠를 보낼 수 있습니다. 세 번째 게재는 폴백 게재입니다. A와 B에 속하지 않는 수신자에게 전송됩니다. 콘텐츠는 스크립트로 계산되며, 가장 높은 공개 비율을 득점한 항목에 따라 A 또는 B 중 하나와 동일합니다. 게재 A와 B의 결과를 알아보기 위해 세 번째 게재의 대기 기간을 구성해야 합니다. 세 번째 게재에 **[!UICONTROL Wait]** 활동이 포함된 이유입니다.
 
-1. 로 이동 **[!UICONTROL Split]** 활동을 실행하고 모집단 A로 지정된 전환을 워크플로우에 이미 있는 이메일 게재 중 하나에 연결합니다.
+1. **[!UICONTROL Split]** 활동으로 이동하여 모집단 A로 지정된 전환을 워크플로에 이미 있는 전자 메일 게재 중 하나에 연결합니다.
 
    ![](assets/use_case_abtesting_createdeliveries_001.png)
 
@@ -25,11 +25,11 @@ ht-degree: 0%
 
    ![](assets/use_case_abtesting_createdeliveries_003.png)
 
-1. 클릭 **[!UICONTROL Continue]** 게재를 보고 저장합니다.
+1. **[!UICONTROL Continue]**&#x200B;을(를) 클릭하여 게재를 확인한 다음 저장합니다.
 
    ![](assets/use_case_abtesting_createdeliveries_002.png)
 
-1. 의 전환 연결 **[!UICONTROL Split]** 활동이 두 번째 이메일 게재로 모집단 B를 지정했습니다.
+1. 모집단 B로 지정된 **[!UICONTROL Split]** 활동의 전환을 두 번째 이메일 게재에 연결합니다.
 
    ![](assets/use_case_abtesting_createdeliveries_004.png)
 
@@ -37,16 +37,16 @@ ht-degree: 0%
 
    ![](assets/use_case_abtesting_createdeliveries_005.png)
 
-1. 나머지 모집단으로 지정된 전환을 **[!UICONTROL Wait]** 활동.
+1. 나머지 모집단으로 지정된 전환을 **[!UICONTROL Wait]** 활동에 연결합니다.
 
    ![](assets/use_case_abtesting_createdeliveries_006.png)
 
-1. 를 엽니다. **[!UICONTROL Wait]** 활동을 수행하고 5일 대기 기간을 구성합니다.
+1. **[!UICONTROL Wait]** 활동을 열고 5일 대기 기간을 구성하십시오.
 
    ![](assets/use_case_abtesting_createdeliveries_007.png)
 
-1. 링크 **[!UICONTROL Wait]** 에 대한 활동 **[!UICONTROL JavaScript code]** 활동.
+1. **[!UICONTROL Wait]** 활동을 **[!UICONTROL JavaScript code]** 활동에 연결합니다.
 
    ![](assets/use_case_abtesting_createdeliveries_008.png)
 
-이제 스크립트를 만들 수 있습니다. [자세히 알아보기](a-b-testing-uc-script.md)
+이제 스크립트를 만들 수 있습니다. [자세히 알아보기](a-b-testing-uc-script.md).

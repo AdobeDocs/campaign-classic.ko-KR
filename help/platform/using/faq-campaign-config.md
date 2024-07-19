@@ -42,7 +42,7 @@ Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 
 
 ## 이메일 게재 기능을 구성하는 방법 {#how-to-configure-email-deliverability-}
 
-이외에도 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko), Campaign 게재 기능을 최대화하기 위해 인스턴스를 구성하는 방법을 이해하려면 게재 기능 기술 권장 사항을 참조하십시오.
+[Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko) 외에 전달성 기술 권장 사항을 읽어 Campaign 전달 기능을 최대화하기 위해 인스턴스를 구성하는 방법을 이해합니다.
 
 자세한 내용을 보려면 [여기](../../delivery/using/about-deliverability.md)를 클릭하십시오.
 
@@ -74,9 +74,9 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 
 이러한 커넥터를 사용하면 빠르고 손쉽게 데이터를 통합할 수 있습니다. Adobe Campaign은 CRM에서 사용할 수 있는 테이블을 수집하고 선택하는 전용 마법사를 제공합니다. 이렇게 하면 시스템 전체에서 항상 데이터가 최신 상태로 유지되도록 양방향 동기화를 보장합니다.
 
-읽기 [CRM 커넥터 구성](../../platform/using/crm-connectors.md) crm 도구를 Adobe Campaign과 동기화하는 방법을 알아봅니다.
+CRM 도구를 Adobe Campaign과 동기화하는 방법을 배우려면 [CRM 커넥터 구성](../../platform/using/crm-connectors.md)을 참조하십시오.
 
-![](assets/do-not-localize/how-to-video.png) 다음에서 이 사용 사례 비디오 보기: [Adobe Campaign 및 Microsoft Dynamics 365 통합](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
+![](assets/do-not-localize/how-to-video.png) [Adobe Campaign 및 Microsoft Dynamics 365 통합](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html)에서 이 사용 사례 비디오를 시청하십시오.
 
 ## 컴퓨터에 특정하거나 사용자에 특정한 문제인 경우 소프트 캐시 지우기를 수행하는 방법 {#perform-soft-cache-clear}
 

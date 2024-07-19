@@ -26,7 +26,7 @@ keyfield:==EMPTY
 
 ## 상위 {#parents-9}
 
-`<key>`  ,  `<dbindex />`
+`<key>` , `<dbindex />`
 
 ## 하위 {#children-9}
 
@@ -38,8 +38,8 @@ keyfield:==EMPTY
 
 ## 속성 설명 {#attribute-description-9}
 
-* **xlink(MNTOKEN)**: 관계 테이블(N-N 링크)에 대한 조인에 정의된 외래 키를 자동으로 참조할 수 있습니다.
-* **xpath(MNTOKEN)**: 의 인덱스 또는 키 정의 `<attribute>`  요소를 생성하지 않습니다. 이 속성은 키 또는 인덱스를 정의하는 스키마 속성에 대한 경로를 정의하는 Xpath를 수신합니다.
+* **xlink(MNTOKEN)**: 관계 테이블(N-N 링크)의 조인에서 정의된 외래 키를 자동으로 참조할 수 있도록 해 줍니다.
+* **xpath(MNTOKEN)**: `<attribute>` 요소의 인덱스 또는 키 정의. 이 속성은 키 또는 인덱스를 정의하는 스키마 속성에 대한 경로를 정의하는 Xpath를 수신합니다.
 
 ## 예제 {#examples-}
 

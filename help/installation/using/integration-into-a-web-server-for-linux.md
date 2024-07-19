@@ -24,7 +24,7 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 �
 
 이 경우:
 
-* 기본 수신 포트는 8080입니다. 변경하려면 다음을 참조하십시오. [이 섹션](configure-tomcat.md).
+* 기본 수신 포트는 8080입니다. 변경하려면 [이 섹션](configure-tomcat.md)을 참조하세요.
 * 그런 다음 클라이언트 콘솔은 다음과 같은 URL을 사용하여 연결합니다.
 
   ```
@@ -53,13 +53,13 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 �
    a2dismod auth_basic authn_file authz_default authz_user autoindex cgi dir env negotiation userdir
    ```
 
-   다음을 확인합니다. **별칭**, **authz_host** 및 **mime** 모듈이 여전히 활성화되어 있습니다. 이렇게 하려면 다음 명령을 사용합니다.
+   **alias**, **authz_host** 및 **mime** 모듈이 계속 활성화되어 있는지 확인하십시오. 이렇게 하려면 다음 명령을 사용합니다.
 
    ```
    a2enmod  alias authz_host mime
    ```
 
-1. 파일 만들기 **nlsrv.load** 위치: **/etc/apache2/mods-available** 다음 컨텐츠를 삽입합니다.
+1. **/etc/apache2/mods-available**&#x200B;에서 **nlsrv.load** 파일을 만들고 다음 내용을 삽입합니다.
 
    Debian 8에서:
 
@@ -67,7 +67,7 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 �
    LoadModule requesthandler24_module /usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so
    ```
 
-1. 파일 만들기 **nlsrv.conf** 위치: **/etc/apache2/mods-available** 다음 명령 사용:
+1. 다음 명령을 사용하여 **/etc/apache2/mods-available**&#x200B;의 **nlsrv.conf** 파일을 만듭니다.
 
    ```
    ln -s /usr/local/[INSTALL]/nl6/conf/apache_neolane.conf /etc/apache2/mods-available/nlsrv.conf
@@ -79,13 +79,13 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 �
     a2enmod nlsrv
    ```
 
-   를 사용하는 경우 **mod_rewrite** Adobe Campaign 페이지용 모듈에서는 **nlsrv.load** 및 **nlsrv.conf** 파일 위치: **zz-nlsrv.load** 및 **zz-nlsrv.conf**. 모듈을 활성화하려면 다음 명령을 실행합니다.
+   Adobe Campaign 페이지에 **mod_rewrite** 모듈을 사용하는 경우 **nlsrv.load** 및 **nlsrv.conf** 파일의 이름을 **zz-nlsrv.load** 및 **zz-nlsrv.conf**(으)로 변경해야 합니다. 모듈을 활성화하려면 다음 명령을 실행합니다.
 
    ```
    a2enmod zz-nlsrv
    ```
 
-1. 편집 **/etc/apache2/envvars** 파일에서 다음 줄을 추가합니다.
+1. **/etc/apache2/envars** 파일을 편집하고 다음 줄을 추가합니다.
 
    ```
    # Added Neolane
@@ -114,7 +114,7 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 �
 
 다음 단계를 적용합니다.
 
-1. 다음에서 `httpd.conf` 파일, 다음 Apache 모듈을 활성화합니다.
+1. `httpd.conf` 파일에서 다음 Apache 모듈을 활성화합니다.
 
    ```
    alias
@@ -153,18 +153,18 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 �
    ForceLanguagePriority
    ```
 
-1. 에서 Adobe Campaign 특정 구성 파일 만들기 `/etc/httpd/conf.d/` 폴더를 삭제합니다. 예 `CampaignApache.conf`
+1. `/etc/httpd/conf.d/` 폴더에 Adobe Campaign 관련 구성 파일을 만듭니다. 예: `CampaignApache.conf`
 
-1. 대상 **RHEL7**&#x200B;를 클릭하고 파일에 다음 지침을 추가합니다.
+1. **RHEL7**&#x200B;의 경우 파일에 다음 지침을 추가하십시오.
 
    ```
    LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
    Include /usr/local/neolane/nl6/conf/apache_neolane.conf
    ```
 
-1. 대상 **RHEL7**:
+1. **RHEL7**&#x200B;의 경우:
 
-   추가 `/etc/systemd/system/httpd.service` 다음 내용이 포함된 파일:
+   다음 내용이 포함된 `/etc/systemd/system/httpd.service` 파일을 추가하십시오.
 
    ```
    .include /usr/lib/systemd/system/httpd.service
@@ -245,4 +245,4 @@ GET /r/test
 Connection closed by foreign host.
 ```
 
-URL을 요청할 수도 있습니다 `https://myserver.adobe.com/r/test` 웹 브라우저에서.
+웹 브라우저에서 `https://myserver.adobe.com/r/test` URL을 요청할 수도 있습니다.

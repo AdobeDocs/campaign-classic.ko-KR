@@ -43,13 +43,13 @@ dbindex:==keyfield
 
 여러 색인을 정의할 수 있습니다. 하나의 색인이 하나 이상의 테이블 필드를 참조할 수 있습니다. 인덱스 선언은 일반적으로 주 스키마 요소의 정의를 따릅니다.
 
-의 순서 `<keyfield>` 에 정의된 요소 `<dbindex>` 매우 중요합니다. 첫 번째 `<keyfield>` 쿼리가 주로 기반으로 하는 색인 지정 기준이어야 합니다.
+`<dbindex>`에 정의된 `<keyfield>` 요소의 순서가 매우 중요합니다. 첫 번째 `<keyfield>`은(는) 쿼리가 주로 기반으로 하는 색인 기준이어야 합니다.
 
 데이터베이스의 인덱스 이름은 테이블 이름과 인덱스 이름을 연결하여 계산됩니다. 예: 테이블 이름 &quot;Sample&quot;, 네임스페이스 &quot;Cus&quot;, 인덱스 이름 &quot;MyIndex&quot;-> 인덱스 생성 쿼리 중 인덱스 필드의 이름: &quot;CusSample_myIndex&quot;.
 
 ## 속성 설명 {#attribute-description-3}
 
-* **작업(문자열)(_o)**: 데이터베이스에 쓰는 유형을 정의합니다.
+* **_operation(string)**: 데이터베이스에 쓰는 형식을 정의합니다.
 
   이 속성은 기본 제공 스키마를 확장할 때 주로 사용됩니다.
 
@@ -61,14 +61,14 @@ dbindex:==keyfield
    * &quot;update&quot;: update. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않는 경우 오류를 생성합니다.
    * &quot;delete&quot;: 삭제. 즉, Adobe Campaign에서 요소를 복구하고 삭제합니다.
 
-* **applicableIf (문자열)**: 인덱스를 고려하는 조건 - XTK 표현식을 받습니다.
-* **레이블(문자열)**: 색인 레이블.
-* **이름(MNTOKEN)**: 고유 인덱스 이름입니다.
-* **고유(부울)**: 이 옵션이 활성화된 경우(@unique=&quot;true&quot;), 속성은 필드 전체에서 색인의 고유성을 보장합니다.
+* **applicableIf (문자열)**: 인덱스를 고려하는 조건입니다. XTK 식을 받습니다.
+* **레이블(문자열)**: 인덱스 레이블입니다.
+* **이름(MNTOKEN)**: 고유한 인덱스 이름입니다.
+* **고유(부울)**: 이 옵션이 활성화된 경우(@unique=&quot;true&quot;) 특성은 필드 전체에서 색인의 고유성을 보장합니다.
 
 ## 예제 {#examples-3}
 
-&quot;id&quot; 필드에 인덱스를 만듭니다. (의 &quot;@unique&quot; 속성 `<dbindex>` 요소는 데이터베이스(쿼리)에 인덱스가 생성될 때 &quot;UNIQUE&quot; SQL 키워드를 추가하는 것을 트리거합니다.
+&quot;id&quot; 필드에 인덱스를 만듭니다. `<dbindex>` 요소의 &quot;@unique&quot; 특성은 데이터베이스(쿼리)에 인덱스를 만들 때 &quot;UNIQUE&quot; SQL 키 단어의 추가를 트리거합니다.
 
 ```
 <element label="Sample" name="Sample">

@@ -13,11 +13,11 @@ ht-degree: 8%
 
 # 반복 게재{#recurring-delivery}
 
-A **[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인과 관련된 게재 템플릿 발생을 구성할 수 있습니다.
+**[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인에 관련된 게재 템플릿 발생을 구성할 수 있습니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#recurring-delivery-video)
 
-이 활동은 다음에서만 사용할 수 있습니다. **[!UICONTROL Targeting and workflows]** 캠페인에 있는 탭.
+이 활동은 캠페인에 있는 **[!UICONTROL Targeting and workflows]** 탭에서만 사용할 수 있습니다.
 
 방법은 다음과 같습니다.
 
@@ -31,13 +31,13 @@ A **[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인과 관련
 
 >[!CAUTION]
 >
->반복 게재는 콘텐츠 미리보기 또는 다음을 포함한 증명 전송을 지원하지 않습니다. [대상 데이터](../../workflow/using/data-life-cycle.md#target-data) 개인화 요소.
+>반복 게재는 [대상 데이터](../../workflow/using/data-life-cycle.md#target-data) 개인화 요소를 포함하여 콘텐츠를 미리 보거나 증명을 보낼 수 없습니다.
 
-사용 중인 이 활동의 예는 다음을 참조하십시오. [섹션](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+사용 중인 이 활동의 예를 보려면 이 [섹션](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)을 참조하세요.
 
 ## 반복 게재를 설정하는 방법 {#set-up-recurring-delivery}
 
-A **반복 게재** 은 실행될 때마다 새 게재 인스턴스를 만듭니다. 예를 들어 워크플로우를 일주일에 한 번 실행하도록 예약하면 1년 후 52회 게재가 됩니다. 즉, 광범위한 로그 및 추적 로그가 각 게재 인스턴스에 의해 구분됩니다.
+**반복 게재**&#x200B;은(는) 실행될 때마다 새 게재 인스턴스를 만듭니다. 예를 들어 워크플로우를 일주일에 한 번 실행하도록 예약하면 1년 후 52회 게재가 됩니다. 즉, 광범위한 로그 및 추적 로그가 각 게재 인스턴스에 의해 구분됩니다.
 
 ![반복 게재](assets/delivery_recurring.jpg)
 
@@ -45,9 +45,9 @@ A **반복 게재** 은 실행될 때마다 새 게재 인스턴스를 만듭니
 
 >[!NOTE]
 >
->에서 증명을 보낼 수 없음 **[!UICONTROL Recurring delivery]** 활동을 입력합니다.
+>**[!UICONTROL Recurring delivery]** 유형 활동에서 증명을 보낼 수 없습니다.
 > 
->캠페인 워크플로우를 통해 직접 게재를 만들려면 사전 구성된 채널별 활동(예: **[!UICONTROL Recurring delivery]**).
+>캠페인 워크플로우를 통해 직접 게재를 만들려면 미리 구성된 채널별 활동(예: **[!UICONTROL Recurring delivery]**)을 사용하십시오.
 
 ## 튜토리얼 비디오 {#recurring-delivery-video}
 
@@ -55,4 +55,4 @@ A **반복 게재** 은 실행될 때마다 새 게재 인스턴스를 만듭니
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-추가 Campaign Classic 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).
+추가 Campaign Classic 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

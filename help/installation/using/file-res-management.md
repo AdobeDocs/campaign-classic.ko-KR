@@ -21,27 +21,27 @@ ht-degree: 1%
 
 ## 업로드 파일 형식 제한 {#limiting-uploadable-files}
 
-사용 **uploadWhiteList** Adobe Campaign 서버에서 업로드할 수 있는 파일 형식을 제한하는 속성입니다.
+**uploadWhiteList** 특성을 사용하여 Adobe Campaign 서버에서 업로드할 수 있는 파일 형식을 제한하십시오.
 
-이 속성은 다음 내에서 사용할 수 있습니다 **데이터 저장소** 의 요소 **serverConf.xml** 파일. 에서 사용할 수 있는 모든 매개 변수 **serverConf.xml** 다음에 나열됨 [섹션](../../installation/using/the-server-configuration-file.md).
+이 특성은 **serverConf.xml** 파일의 **dataStore** 요소에서 사용할 수 있습니다. **serverConf.xml**&#x200B;에서 사용할 수 있는 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
-이 속성의 기본값은 입니다. **.+** 모든 파일 유형을 업로드할 수 있습니다.
+이 특성의 기본값은 **입니다.+** 및 을(를) 사용하면 모든 파일 형식을 업로드할 수 있습니다.
 
 가능한 형식을 제한하려면 속성 값을 유효한 Java 정규 표현식으로 바꿉니다. 쉼표로 구분하여 여러 값을 입력할 수 있습니다.
 
-예: **uploadWhiteList=&quot;.&#42;.png,.&#42;.jpg&quot;** 에서는 서버에 PNG 및 JPG 형식을 업로드할 수 있습니다. 다른 형식은 허용되지 않습니다.
+예: **uploadWhiteList=&quot;.&#42;.png,.&#42;.jpg&quot;**&#x200B;을(를) 통해 PNG 및 JPG 형식을 서버에 업로드할 수 있습니다. 다른 형식은 허용되지 않습니다.
 
 웹 서버를 구성하여 중요한 파일이 업로드되지 않도록 할 수도 있습니다. [자세히 알아보기](web-server-configuration.md)
 
 >[!NOTE]
 >
->다음 **uploadWhiteList** 속성은 Adobe Campaign 서버에서 업로드할 수 있는 파일 유형을 제한합니다. 그러나 게시 모드가 다음과 같을 경우 **추적 서버** 또는 **기타 Adobe Campaign 서버**, **uploadWhitelist** 이러한 서버에서도 속성을 업데이트해야 합니다.
+>**uploadWhiteList** 특성은 Adobe Campaign 서버에서 업로드할 수 있는 파일 형식을 제한합니다. 그러나 게시 모드가 **추적 서버** 또는 **다른 Adobe Campaign 서버**&#x200B;인 경우 **uploadWhitelist** 특성도 해당 서버에서 업데이트해야 합니다.
 
 ## 프록시 연결 구성 {#proxy-connection-configuration}
 
-다음을 사용하여 프록시를 통해 외부 시스템에 Campaign 서버를 연결할 수 있습니다. **파일 전송** 워크플로우 활동(예: ) 이를 위해서는 다음을 구성해야 합니다. **proxyConfig** 의 섹션 **serverConf.xml** 특정 명령을 통해 파일을 작성합니다. 에서 사용할 수 있는 모든 매개 변수 **serverConf.xml** 다음에 나열됨 [섹션](../../installation/using/the-server-configuration-file.md).
+예를 들어 **파일 전송** 워크플로우 활동을 사용하여 프록시를 통해 Campaign 서버를 외부 시스템에 연결할 수 있습니다. 이렇게 하려면 특정 명령을 통해 **serverConf.xml** 파일의 **proxyConfig** 섹션을 구성해야 합니다. **serverConf.xml**&#x200B;에서 사용할 수 있는 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
-가능한 프록시 연결은 HTTP, HTTPS, FTP, SFTP입니다. 20.2 Campaign 릴리스부터 HTTP 및 HTTPS 프로토콜 매개 변수는 다음과 같습니다 **더 이상 사용할 수 없음**. 이러한 매개 변수는 9032를 포함하여 이전 빌드에서 계속 사용할 수 있으므로 아래에 계속 언급되어 있습니다.
+가능한 프록시 연결은 HTTP, HTTPS, FTP, SFTP입니다. 20.2 Campaign 릴리스부터 HTTP 및 HTTPS 프로토콜 매개 변수는 **더 이상 사용할 수 없습니다**. 이러한 매개 변수는 9032를 포함하여 이전 빌드에서 계속 사용할 수 있으므로 아래에 계속 언급되어 있습니다.
 
 >[!CAUTION]
 >
@@ -112,23 +112,23 @@ FTP/FTPS 연결은 proxyFTP 매개 변수에 정의되어 있습니다.
 * 인증 없이 HTTP
 * HTTP 기본 인증
 
-프록시 모드를 활성화하려면에서 다음 사항을 변경해야 합니다 `serverconf.xml` 파일:
+프록시 모드를 활성화하려면 `serverconf.xml` 파일에서 다음 변경을 수행해야 합니다.
 
 ```
 <nmac useHTTPProxy="true">
 ```
 
-이 iOS HTTP/2 커넥터에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../delivery/using/about-mobile-app-channel.md).
+이 iOS HTTP/2 커넥터에 대한 자세한 내용은 이 [페이지](../../delivery/using/about-mobile-app-channel.md)를 참조하세요.
 
 ## 공개 리소스 관리 {#managing-public-resources}
 
-캠페인에 연결된 이메일 및 공개 리소스에 사용되는 이미지를 공개적으로 사용할 수 있으려면 외부에서 액세스할 수 있는 서버에 표시해야 합니다. 그런 다음 외부 수신자 또는 운영자가 사용할 수 있습니다. [자세히 알아보기](../../installation/using/deploying-an-instance.md#managing-public-resources)
+캠페인에 연결된 이메일 및 공개 리소스에 사용되는 이미지를 공개적으로 사용할 수 있으려면 외부에서 액세스할 수 있는 서버에 표시해야 합니다. 그런 다음 외부 수신자 또는 운영자가 사용할 수 있습니다. [자세히 알아보기](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
-공개 리소스는 **/var/res/instance** Adobe Campaign 설치 디렉토리의 디렉토리.
+공개 리소스는 Adobe Campaign 설치 디렉터리의 **/var/res/instance** 디렉터리에 저장됩니다.
 
-일치하는 URL: **http://server/res/instance** 위치 **인스턴스** 는 추적 인스턴스의 이름입니다.
+일치하는 URL은 **http://server/res/instance**&#x200B;입니다. 여기서 **instance**&#x200B;은(는) 추적 인스턴스의 이름입니다.
 
-에 노드를 추가하여 다른 디렉토리를 지정할 수 있습니다 **conf-`<instance>`.xml** 서버에서 스토리지를 구성하는 파일입니다. 즉, 다음 줄을 추가합니다.
+**conf-`<instance>`.xml** 파일에 노드를 추가하여 서버에서 저장소를 구성하여 다른 디렉터리를 지정할 수 있습니다. 즉, 다음 줄을 추가합니다.
 
 ```
 <serverconf>

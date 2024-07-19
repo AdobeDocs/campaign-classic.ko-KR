@@ -23,8 +23,8 @@ Adobe Campaign에는 HTTP(및 SOAP)를 통해 애플리케이션 서버에서 �
 
 이 경우:
 
-* 기본 수신 포트는 8080입니다. 변경하려면 다음을 참조하십시오. [이 섹션](../../installation/using/configure-tomcat.md).
-* 그런 다음 클라이언트 콘솔은 와 같은 URL을 사용하여 연결합니다 ```https:// `<computer>`:8080```.
+* 기본 수신 포트는 8080입니다. 변경하려면 [이 섹션](../../installation/using/configure-tomcat.md)을 참조하세요.
+* 그런 다음 클라이언트 콘솔은 ```https:// `<computer>`:8080```과(와) 같은 URL을 사용하여 연결합니다.
 
 그러나 보안 및 관리상의 이유로 Adobe Campaign을 실행 중인 컴퓨터가 인터넷에 노출되어 네트워크 외부의 콘솔에 대한 액세스를 열고자 할 때 HTTP 트래픽의 기본 진입점으로 전용 웹 서버를 사용하는 것이 좋습니다.
 
@@ -52,17 +52,17 @@ Adobe Campaign을 Microsoft IIS 웹 서버와 통합하려면 다음 단계를 �
 
    ![](assets/s_ncs_install_iis7_parameters_step1.png)
 
-1. A **VBS** 스크립트를 사용하면 방금 만든 가상 디렉터리에서 Adobe Campaign 서버에서 사용하는 리소스를 자동으로 구성할 수 있습니다. 시작하려면 다음을 두 번 클릭합니다. **iis_neolane_setup.vbs** 파일 위치: `[INSTALL]\conf` 폴더, 위치 `[INSTALL]` 는 Adobe Campaign 설치 폴더에 액세스하기 위한 경로입니다.
+1. **VBS** 스크립트를 사용하면 방금 만든 가상 디렉터리에서 Adobe Campaign 서버에서 사용하는 리소스를 자동으로 구성할 수 있습니다. 시작하려면 `[INSTALL]\conf` 폴더에 있는 **iis_neolane_setup.vbs** 파일을 두 번 클릭합니다. 여기서 `[INSTALL]`은(는) Adobe Campaign 설치 폴더에 액세스하는 경로입니다.
 
    >[!NOTE]
    >
    >VBS 스크립트를 실행하거나 관리자로 스크립트를 실행하려면 관리자로 로그인해야 합니다.
 
-   클릭 **[!UICONTROL OK]** 웹 서버를 추적 리디렉션 서버로 사용하는 경우 **[!UICONTROL Cancel]**.
+   웹 서버가 추적 리디렉션 서버로 사용되는 경우 **[!UICONTROL OK]**&#x200B;을(를) 클릭하고, 그렇지 않으면 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭합니다.
 
-   웹 서버에 여러 사이트가 이미 구성된 경우 설치할 웹 사이트를 지정할 중간 페이지가 표시됩니다. 사이트에 연결된 번호를 입력하고 를 클릭합니다. **[!UICONTROL OK]**.
+   웹 서버에 여러 사이트가 이미 구성된 경우 설치할 웹 사이트를 지정할 중간 페이지가 표시됩니다. 사이트에 연결된 번호를 입력하고 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
-1. 다음에서 **[!UICONTROL Content View]** 탭에서 웹 사이트가 Adobe Campaign 리소스로 올바르게 구성되었는지 확인합니다.
+1. **[!UICONTROL Content View]** 탭에서 웹 사이트가 Adobe Campaign 리소스로 올바르게 구성되었는지 확인합니다.
 
    트리가 표시되지 않으면 Microsoft IIS를 다시 시작합니다.
 
@@ -72,11 +72,11 @@ Adobe Campaign을 Microsoft IIS 웹 서버와 통합하려면 다음 단계를 �
 
 그렇게 하려면 다음 단계를 적용합니다.
 
-1. 다음 항목 선택 **[!UICONTROL Features View]** tab 키를 누른 채 **인증** 링크를 클릭합니다.
+1. **[!UICONTROL Features View]** 탭을 선택하고 **인증** 링크를 두 번 클릭합니다.
 
    ![](assets/s_ncs_install_iis7_parameters_step8.png)
 
-1. 다음에서 **디렉터리 보안** 웹 사이트의 탭에서 익명 액세스가 활성화되어 있는지 확인합니다. 필요한 경우 **[!UICONTROL Edit]** 설정을 변경하는 링크입니다.
+1. 웹 사이트의 **디렉터리 보안** 탭에서 익명 액세스가 활성화되어 있는지 확인하십시오. 필요한 경우 **[!UICONTROL Edit]** 링크를 클릭하여 설정을 변경합니다.
 
    ![](assets/s_ncs_install_iis7_parameters_step9.png)
 
@@ -86,7 +86,7 @@ Adobe Campaign을 Microsoft IIS 웹 서버와 통합하려면 다음 단계를 �
 
 이렇게 하려면 다음 절차를 적용합니다.
 
-1. 다음을 사용하여 Microsoft IIS 서버 다시 시작 **iisreset** 명령줄.
+1. **iisreset** 명령줄을 사용하여 Microsoft IIS 서버를 다시 시작하십시오.
 
 1. Adobe Campaign 서비스를 시작한 다음 실행 중인지 확인합니다.
 
@@ -119,7 +119,7 @@ ISAPI DLL이 올바르게 로드되었는지 확인할 수도 있습니다.
 
 그렇게 하려면 다음 단계를 적용합니다.
 
-1. 다음을 클릭하여 Adobe Campaign 사이트에 대한 ISAPI 필터 편집 **[!UICONTROL Driver mapping]** 아이콘.
+1. **[!UICONTROL Driver mapping]** 아이콘을 클릭하여 Adobe Campaign 사이트에 대한 ISAPI 필터를 편집합니다.
 1. ISAPI 필터의 콘텐츠를 확인합니다.
 
 
@@ -129,9 +129,9 @@ IIS 웹 서버를 구성할 때 서버에 업로드되는 집합 파일에 대�
 
 특히 이 제한보다 큰 파일을 업로드하려는 경우 Adobe Campaign에 영향을 줄 수 있습니다.
 
-예를 들어 **데이터 로드 중(파일)** 워크플로우에 활동을 입력하여 50MB 파일을 가져오면 오류가 발생하여 워크플로우가 제대로 실행되지 않습니다.
+예를 들어 워크플로우에서 **데이터 로드(파일)** 유형 활동을 사용하여 50MB 파일을 가져오는 경우 오류가 발생하면 워크플로우가 올바르게 실행되지 않습니다.
 
 이 경우 이 제한을 늘려야 합니다.
 
-이 Microsoft IIS 옵션에 대한 자세한 내용은 [Microsoft 설명서](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}.
+이 Microsoft IIS 옵션에 대한 자세한 내용은 [Microsoft 설명서](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}의 &quot;HowTo&quot; 섹션을 참조하십시오.
 

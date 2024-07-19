@@ -15,6 +15,6 @@ ht-degree: 27%
 
 
 
-An **nlserver 모듈** 활동은 중앙 창에 지정된 매개 변수로 nlserver 모듈을 시작합니다.
+**nlserver 모듈** 활동은 중앙 창에 지정된 매개 변수로 nlserver 모듈을 시작합니다.
 
 ![](assets/nlserver_module_edit.png)

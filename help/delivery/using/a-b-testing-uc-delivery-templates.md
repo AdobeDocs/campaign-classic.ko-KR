@@ -15,10 +15,10 @@ ht-degree: 14%
 
 # AB 테스트: 게재 템플릿 만들기 {#step-3--creating-two-delivery-templates}
 
-이제 두 개의 게재 템플릿을 만들겠습니다. 각 템플릿은 **[!UICONTROL Email delivery]** 에 연결된 활동 **[!UICONTROL Split]** 활동. 이 작업에 대한 자세한 정보는 [이 섹션](about-templates.md)을 참조하십시오.
+이제 두 개의 게재 템플릿을 만들겠습니다. 각 템플릿은 **[!UICONTROL Split]** 활동에 연결된 **[!UICONTROL Email delivery]** 활동에서 참조됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](about-templates.md)을 참조하십시오.
 
-1. 다음으로 이동 **[!UICONTROL Resources > Delivery template]** 폴더를 삭제합니다.
-1. 복제 **[!UICONTROL Email]** 게재 템플릿.
+1. **[!UICONTROL Resources > Delivery template]** 폴더를 찾습니다.
+1. **[!UICONTROL Email]** 게재 템플릿을 복제합니다.
 
    ![](assets/use_case_abtesting_deliverymodel_001.png)
 
@@ -30,4 +30,4 @@ ht-degree: 14%
 
    ![](assets/use_case_abtesting_deliverymodel_003.png)
 
-이제 워크플로우에서 게재를 구성할 수 있습니다. [자세히 알아보기](a-b-testing-uc-configuring-deliveries.md)
+이제 워크플로우에서 게재를 구성할 수 있습니다. [자세히 알아보기](a-b-testing-uc-configuring-deliveries.md).

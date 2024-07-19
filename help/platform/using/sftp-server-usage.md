@@ -43,11 +43,11 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
 
 >[!NOTE]
 >
->* Campaign Classic을 사용하여 SFTP 서버 스토리지를 모니터링할 수 있습니다 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
+>* [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"} Campaign Classic으로 SFTP 서버 저장소를 모니터링할 수 있습니다.
 >
->* 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는에 자세히 설명되어 있습니다 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel){target="_blank"}.
+>* 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel){target="_blank"}에 자세히 설명되어 있습니다.
 >
->* 인스턴스를 업그레이드해야 합니다. [최신 GA 빌드](../../rn/using/rn-overview.md). 에서 버전을 확인하는 방법을 알아봅니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}.
+>* 인스턴스를 [최신 GA 빌드](../../rn/using/rn-overview.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}에서 버전을 확인하는 방법을 알아보세요.
 
 * 서버 크기 기능은 사용 중인 라이센스에 따라 다릅니다. 어떤 경우든 가능한 최소 데이터를 유지하고 필요한 동안만 데이터를 유지합니다(15일이 최대 시간 제한).
 
@@ -63,14 +63,14 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
 
 또한 Campaign Classic에서 외부 SFTP 서버에 대한 경로를 지정할 때 SFTP 서버 운영 체제에 따라 경로 구문이 다릅니다.
 
-* SFTP 서버가 켜져 있는 경우 **Windows**, 항상 상대 경로를 사용하십시오.
-* STP 서버가 켜져 있는 경우 **리눅스**&#x200B;에서는 항상 홈을 기준으로 하는 경로(&quot;~/&quot;로 시작)나 절대 경로(&quot;/&quot;로 시작)를 사용합니다.
+* SFTP 서버가 **Windows**&#x200B;에 있는 경우 항상 상대 경로를 사용하십시오.
+* STP 서버가 **Linux**&#x200B;에 있는 경우 항상 홈을 기준으로 하는 경로(&quot;~/&quot;로 시작) 또는 절대 경로(&quot;/&quot;로 시작)를 사용하십시오.
 
 ## 호스팅된 Adobe SFTP 서버 연결 문제 {#sftp-server-troubleshooting}
 
-아래 섹션에는 을(를) 통해 확인하고 Adobe 지원 팀에 제공할 정보가 나열되어 있습니다. [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 호스팅된 Adobe SFTP 서버에 연결 문제가 발생하는 경우.
+아래 섹션에는 Adobe 호스팅 SFTP 서버에 연결 문제가 발생할 때 [고객 지원 센터 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}을(를) 통해 Adobe 지원 팀에 확인하고 제공하는 정보가 나열되어 있습니다.
 
-1. 인스턴스가 실행 중인지 확인하십시오. 이렇게 하려면 브라우저를 연 다음 **[!UICONTROL GET]** 인스턴스 호출 **[!UICONTROL /r/test]** 끝점:
+1. 인스턴스가 실행 중인지 확인하십시오. 이렇게 하려면 브라우저를 연 다음 인스턴스 **[!UICONTROL /r/test]** 끝점에서 **[!UICONTROL GET]**&#x200B;을(를) 호출합니다.
 
    ```xml
    https://instanceUrl/r/test
@@ -96,11 +96,11 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
    myCompany-stage-sftp.neolane.net [AAA.BBB.CCC.D] 22 (ssh) open
    ```
 
-   포트가 열리지 않으면 측에서 아웃바운드 연결을 열어야 합니다. 그런 다음 다시 시도하십시오. 여전히 연결 문제가 발생하는 경우 명령 출력을 와 공유합니다. [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀.
+   포트가 열리지 않으면 측에서 아웃바운드 연결을 열어야 합니다. 그런 다음 다시 시도하십시오. 여전히 연결 문제가 발생하면 명령 출력을 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀과 공유하십시오.
 
 1. SFTP 연결을 시작하려는 퍼블릭 IP가 Adobe 지원 for the 허용 목록에 추가하다에 제공한 IP인지 확인합니다.
-1. 암호 기반 인증을 사용하는 경우 암호가 만료되었을 수 있습니다(암호에는 90일의 유효 기간이 있음). 따라서 키 기반 인증을 사용하는 것이 좋습니다(참조) [SFTP 서버 모범 사례](#sftp-server-best-practices)).
-1. 키 기반 인증을 사용하는 경우 사용 중인 키가 입력한 키와 같은지 확인하십시오 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 인스턴스 구성을 위한 팀.
+1. 암호 기반 인증을 사용하는 경우 암호가 만료되었을 수 있습니다(암호에는 90일의 유효 기간이 있음). 따라서 키 기반 인증을 사용하는 것이 좋습니다([SFTP 서버 모범 사례](#sftp-server-best-practices) 참조).
+1. 키 기반 인증을 사용하는 경우 사용 중인 키가 인스턴스 구성을 위해 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀에 제공한 키와 같은지 확인하십시오.
 1. FileZilla 또는 이와 동등한 FTP 도구를 사용하는 경우 지원 티켓에 연결 로그 세부 사항을 입력합니다.
 
 ## &quot;호스트 이름을 확인할 수 없음&quot; 오류
@@ -121,7 +121,7 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
 
 이 오류는 FTP 서버 도메인 이름을 제대로 확인할 수 없음을 나타냅니다. 문제를 해결하려면 다음을 수행하십시오.
 
-1. 문제 해결 **DNS 서버 구성**:
+1. **DNS 서버 구성 문제 해결**:
 
    1. 서버 이름이 로컬 DNS 서버에 추가되었는지 확인합니다.
    1. 그렇다면 Adobe Campaign 서버에서 다음 명령을 실행하여 IP 주소를 가져옵니다.
@@ -130,10 +130,10 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
 
       FTP 서버가 작동하며 Adobe Campaign 애플리케이션 서버에서 연결할 수 있는지 확인합니다.
 
-1. 문제 해결 **세션 로그**:
+1. **세션 로그** 문제 해결:
 
-   1. 워크플로우에서 를 두 번 클릭합니다. [파일 전송](../../workflow/using/file-transfer.md) 활동.
-   1. 다음으로 이동 **[!UICONTROL File Transfer]** 탭을 클릭한 다음 를 클릭합니다 **[!UICONTROL Advanced Parameters]**.
+   1. 워크플로우에서 [파일 전송](../../workflow/using/file-transfer.md) 활동을 두 번 클릭합니다.
+   1. **[!UICONTROL File Transfer]** 탭으로 이동한 다음 **[!UICONTROL Advanced Parameters]**&#x200B;을(를) 클릭합니다.
    1. **[!UICONTROL Display the session logs]** 옵션을 선택합니다.
 
       ![](assets/sftp-error-display-logs.png)
@@ -144,7 +144,7 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
 
    그렇지 않으면 다음을 확인합니다.
 
-   * 암호에 다음이 포함되어 있지 않습니다. `@` 문자. 다음 항목이 있는 경우 연결이 실패합니다. `@` 암호에 있는 문자
+   * 암호에 `@` 문자가 포함되어 있지 않습니다. 암호에 `@` 문자가 있으면 연결이 실패합니다.
    * Adobe Campaign 애플리케이션 서버와 SFTP 서버 간의 통신을 방해할 수 있는 방화벽 문제는 없습니다.
    * Campaign 서버에서 sftp로 tracert 및 telnet 명령을 실행하여 연결 문제가 있는지 확인합니다.
    * 통신 프로토콜 문제가 없습니다.

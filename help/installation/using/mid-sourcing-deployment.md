@@ -29,7 +29,7 @@ ht-degree: 2%
 ![](assets/s_ncs_install_midsourcing.png)
 
 * 실행 및 바운스 관리 모듈은 인스턴스에서 비활성화됩니다.
-* 애플리케이션은 SOAP 호출(HTTP 또는 HTTPS를 통해)을 사용하여 구동되는 원격 &quot;중간 소스&quot; 서버에서 메시지 실행을 수행하도록 구성됩니다.
+* SOAP 호출을 사용하여 구동되는 원격 &quot;중간 소스&quot; 서버에서(HTTP 또는 HTTPS를 통해) 메시지를 실행하도록 애플리케이션이 구성됩니다.
 
 ## 기능 {#features}
 
@@ -65,4 +65,4 @@ ht-degree: 2%
 
 ### 설치 및 구성(중간 소싱 배포) {#installing-and-configuring--mid-sourcing-deployment-}
 
-을(를) 참조하십시오 [중간 소싱 서버](../../installation/using/mid-sourcing-server.md).
+[중간 소싱 서버](../../installation/using/mid-sourcing-server.md)를 참조하세요.

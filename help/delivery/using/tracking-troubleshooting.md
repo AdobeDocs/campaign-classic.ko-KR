@@ -25,7 +25,7 @@ ht-degree: 1%
 >
 >Windows에서만 사용 가능
 
-손상된 추적 로그 파일 .../nl6/var/&lt;instance_name>/redir/log/0x0000 로그를 사용하여 추적 워크플로우를 중지할 수 있습니다. 손상된 줄을 쉽게 감지하고 제거하여 추적 워크플로우를 다시 시작하려면 아래 명령을 사용할 수 있습니다.
+손상된 추적 로그 파일 .../nl6/var/&lt;instance_name>/redir/log/0x0000 로그는 추적 워크플로우를 중지할 수 있습니다. 손상된 줄을 쉽게 감지하고 제거하여 추적 워크플로우를 다시 시작하려면 아래 명령을 사용할 수 있습니다.
 
 ### 손상된 줄이 어떤 파일인지 알 수 있습니다.
 
@@ -85,7 +85,7 @@ $ grep -Rn 50x000000000FD7EC86
 
 `Requested URL '/r/ id=h787bc0,281a4d8,281a4da&amp;p1=1' cannot be found`
 
-1. 액세스 &lt;redirection_server>/r/test URL을 사용하고 요청에 의해 빌드 번호와 localhost가 반환되었는지 확인합니다.
+1. &lt;redirection_server>/r/test URL에 액세스하여 요청이 빌드 번호 및 localhost를 반환했는지 확인합니다.
 
 1. serverConf.xml 파일에서 추적 서버에 대한 spareServer 구성을 확인합니다. 이 구성은 리디렉션 모드여야 합니다.
 
@@ -102,13 +102,13 @@ $ grep -Rn 50x000000000FD7EC86
    </redirection>
    ```
 
-1. 다음을 수행할지 수동으로 확인 &lt;deliveryid>.xml 파일이 ../nl6/var/의 시스템에 있습니다.&lt;instance_name>/redir/url/&lt;yyyy> 디렉터리(YYYY는 배달 연도를 나타냄).
+1. ../nl6/var/&lt;instance_name>/redir/url/&lt;YYYY> 디렉터리의 시스템에 &lt;deliveryID>.xml 파일이 있는지 수동으로 확인합니다(YYYY는 배달 연도를 나타냄).
 
-1. 수동으로 확인 &lt;trackingurlid> 에서 찾을 수 있음 &lt;deliveryid>.xml 파일입니다.
+1. &lt;deliveryID>.xml 파일에서 &lt;trackingUrlId>을(를) 찾을 수 있는지 수동으로 확인하십시오.
 
 1. 관련된 deliveryID 게재에 broadlogID가 수동으로 있는지 확인하십시오.
 
-1. 확인 &lt;deliveryid>../nl6/var/의 .xml 파일 권한&lt;instance_name>/redir/url/year 디렉터리입니다.
+1. ../nl6/var/&lt;instance_name>/redir/url/year 디렉토리에서 &lt;deliveryID>.xml 파일 권한을 확인합니다.
 
    Apache가 요청된 링크를 리디렉션하기 위해 추적 URL을 읽을 수 있도록 최소 644 권한이 있어야 합니다.
 
@@ -157,7 +157,7 @@ NmsTracking_Pointer 옵션을 업데이트할 때 다음 단계를 따르십시�
   %>&cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
   ```
 
-추가 줄 바꿈이 있는 위치를 파악하기 위해 JavaScript 표현식을 고정 문자열 STRING으로 바꿀 수 있습니다.
+추가 줄 바꿈이 있는 위치를 이해하기 위해 JavaScript 표현식을 고정 문자열 STRING으로 바꿀 수 있습니다.
 
 ```
 // Incorrect
@@ -193,7 +193,7 @@ STRING1&cid=STRING2&bid=STRING3
   %>
   ```
 
-추가 줄 바꿈이 있는 위치를 파악하기 위해 JavaScript 표현식을 고정 문자열 STRING으로 바꿀 수 있습니다.
+추가 줄 바꿈이 있는 위치를 이해하기 위해 JavaScript 표현식을 고정 문자열 STRING으로 바꿀 수 있습니다.
 
 ```
 // Incorrect
@@ -205,7 +205,7 @@ STRING1&cid=STRING2&bid=STRING3&SHPID=STRING4
 
 ## 추적 로그 검색이 너무 느립니다. {#slow-retrieval}
 
-인스턴스가 직접 추적 로그를 검색하지 않지만 먼 Adobe Campaign Classic 서버에서 로그를 검색하는 경우 remoteTracking 스키마에 정의된 GetTrackingLogs SOAP 호출을 통해 로그가 검색됩니다.
+인스턴스가 직접 추적 로그를 검색하지 않지만 멀리 있는 Adobe Campaign Classic 서버에서 검색하는 경우 remoteTracking 스키마에 정의된 GetTrackingLogs SOAP 호출을 통해 로그가 검색됩니다.
 
 serverConf.xml 파일의 옵션을 사용하면 logCountPerRequest 메서드를 통해 한 번에 검색되는 로그 수를 설정할 수 있습니다.
 

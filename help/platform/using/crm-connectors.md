@@ -26,12 +26,12 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 
 >[!NOTE]
 >
->이 기능은 Adobe Campaign에서 다음을 통해 사용할 수 있습니다. **CRM 커넥터** 전용 패키지.
+>이 기능은 **CRM 커넥터** 전용 패키지를 통해 Adobe Campaign에서 사용할 수 있습니다.
 
 
 ### 호환 시스템 {#compatible-crm-systems-and-limitations}
 
-지원되는 CRM 및 버전은 Campaign에 자세히 설명되어 있습니다. [호환성 매트릭스](../../rn/using/compatibility-matrix.md).
+지원되는 CRM 및 버전은 Campaign [호환성 매트릭스](../../rn/using/compatibility-matrix.md)에 자세히 설명되어 있습니다.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 
 ### 구현 단계 {#crm-implementation-steps}
 
-Campaign과 Microsoft Dynamics를 연결하는 단계별 절차 알아보기 [이 섹션에서](../../platform/using/crm-ms-dynamics.md)
+이 섹션](../../platform/using/crm-ms-dynamics.md)에서 Campaign과 Microsoft Dynamics [을(를) 연결하는 단계별 절차에 대해 알아봅니다.
 
 
-Campaign과 Salesforce를 연결하는 단계별 절차 알아보기 [이 섹션에서](../../platform/using/crm-sfdc.md)
+이 섹션](../../platform/using/crm-sfdc.md)에서 Campaign과 Salesforce [을(를) 연결하는 단계별 절차에 대해 알아봅니다.

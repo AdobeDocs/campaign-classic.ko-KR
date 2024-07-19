@@ -15,7 +15,7 @@ ht-degree: 4%
 # 새 필드 마법사{#new-field-wizard}
 
 
-를 통해 액세스할 수 있는 마법사 **[!UICONTROL Tools > Advanced > Add new fields]** 데이터베이스의 테이블에 하나 이상의 필드를 추가할 수 있습니다.
+**[!UICONTROL Tools > Advanced > Add new fields]**&#x200B;을(를) 통해 액세스할 수 있는 마법사를 사용하면 데이터베이스의 테이블에 하나 이상의 필드를 추가할 수 있습니다.
 
 마법사 유효성 검사에서는 확장할 테이블의 확장 스키마를 업데이트하고 SQL 스크립트를 실행하여 데이터베이스의 물리적 구조를 수정합니다.
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
    ![](assets/d_ncs_integration_schema_addfield2.png)
 
-1. 변경 사항을 확인하려면 **[!UICONTROL Finish]** 단추를 클릭합니다.
+1. 변경 내용을 확인하려면 **[!UICONTROL Finish]** 단추를 클릭하십시오.
 
 이 예제에서 &quot;cus:recipient&quot;라고 하는 확장 파일이 자동으로 만들어지고 해당 SQL 스크립트가 실행됩니다.
 
@@ -47,4 +47,4 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->기본적으로 추가된 필드는 속성으로 선언됩니다 **사용자** (&quot;true&quot; 값 포함). 이렇게 하면 &quot;treeEdit&quot; 유형의 컨트롤을 사용하여 확장 스키마의 입력 양식에서 필드를 표시하고 편집할 수 있습니다(입력 양식 참조).
+>기본적으로 추가된 필드는 속성 **user**(값 &quot;true&quot; 사용)으로 선언됩니다. 이렇게 하면 &quot;treeEdit&quot; 유형의 컨트롤을 사용하여 확장 스키마의 입력 양식에서 필드를 표시하고 편집할 수 있습니다(입력 양식 참조).

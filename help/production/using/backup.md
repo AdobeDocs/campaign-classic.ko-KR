@@ -30,19 +30,19 @@ ht-degree: 2%
 
 파일은 여러 카테고리로 나뉩니다.
 
-* 구성 파일, 저장 위치 **nl6/conf**&#x200B;을(를) 사용하면 Adobe Campaign을 매우 빠르게 재구성할 수 있습니다.
+* **nl6/conf**&#x200B;에 저장된 구성 파일을 사용하면 Adobe Campaign을 매우 빠르게 재구성할 수 있습니다.
 
-* 리디렉션 파일, 저장  **nl6/var/`<instance-name>`/redir**&#x200B;는 추적(&#39;전면&#39;이라고도 함) 서버에 있으며 이전의 모든 캠페인 리디렉션을 포함합니다. 이전 캠페인에서도 여전히 사용됩니다.
+* **nl6/var/`<instance-name>`/redir**&#x200B;에 저장된 리디렉션 파일은 추적(종종 &#39;전면&#39;이라고 함) 서버에 있으며 이전의 모든 캠페인 리디렉션을 포함합니다. 이전 캠페인에서도 여전히 사용됩니다.
 
-* 로그 파일, 저장 위치 **nl6/var/`<instance-name>`/log**&#x200B;를 사용하여 문제를 추적할 수 있습니다.
+* **nl6/var/`<instance-name>`/log**&#x200B;에 저장된 로그 파일을 사용하여 문제를 추적할 수 있습니다.
 
 따라서 백업할 디렉토리는 다음과 같습니다.
 
 * nl6/conf
 
-* nl6/var/`<instance-name>`/redir (각 인스턴스에 대해)
+* nl6/var/`<instance-name>`/redir(각 인스턴스용)
 
-* nl6/var/`<instance-name>`/log (선택 사항)
+* nl6/var/`<instance-name>`/log(선택 사항)
 
 * nl6/var/`<instance-name>`/relay (선택 사항)
 

@@ -39,11 +39,11 @@ ht-degree: 2%
 
 ## Recommendations 및 보호 기능 {#important-notes}
 
-성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100KB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션을 선택합니다. 그러나 Adobe은 이메일 게재에서 큰 이미지를 피하는 것을 강력히 권장합니다.
+성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100KB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션에서 변경할 수 있습니다. 그러나 Adobe은 이메일 게재에서 큰 이미지를 피하는 것을 강력히 권장합니다.
 
-Adobe은 또한 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 기본적으로 하나의 파일만 전자 메일에 첨부 파일로 추가할 수 있습니다. 이 임계값은 다음에서 구성할 수 있습니다. `NmsDelivery_MaxRecommendedAttachments` 옵션을 선택합니다.
+Adobe은 또한 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 기본적으로 하나의 파일만 전자 메일에 첨부 파일로 추가할 수 있습니다. 이 임계값은 `NmsDelivery_MaxRecommendedAttachments` 옵션에서 구성할 수 있습니다.
 
-다음에서 자세히 알아보기 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
+[Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery)에서 자세히 알아보세요.
 
 이 시나리오를 구현하기 전에 아래 지침을 주의 깊게 읽어 보십시오.
 
@@ -54,7 +54,7 @@ Adobe은 또한 첨부 파일의 크기와 수를 제한하는 것을 권장합�
 
 >[!NOTE]
 >
->성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. 권장 임계값은 다음 위치에서 구성할 수 있습니다. [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery).
+>성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery)에서 권장 임계값을 구성할 수 있습니다.
 
 ## 구현 {#implementation}
 
@@ -70,11 +70,11 @@ Adobe은 또한 첨부 파일의 크기와 수를 제한하는 것을 권장합�
 
 1. SOAP 메시지 트리거를 통해 이메일을 보낼 수 있습니다. SOAP 호출에는 URL 매개 변수(attachmentURL)가 있습니다.
 
-   SOAP 요청에 대한 자세한 내용은 [이벤트 설명](../../message-center/using/event-description.md).
+   SOAP 요청에 대한 자세한 내용은 [이벤트 설명](../../message-center/using/event-description.md)을 참조하세요.
 
-1. 이메일을 디자인할 때 **[!UICONTROL Attachment]**.
+1. 전자 메일을 디자인할 때 **[!UICONTROL Attachment]**&#x200B;을(를) 클릭합니다.
 
-1. 다음에서 **[!UICONTROL Attachment definition]** 화면에서 SOAP 첨부 파일 매개 변수를 입력합니다.
+1. **[!UICONTROL Attachment definition]** 화면에서 SOAP 첨부 파일 매개 변수를 입력하십시오.
 
    ```
    <%= rtEvent.ctx.attachmentUrl %>

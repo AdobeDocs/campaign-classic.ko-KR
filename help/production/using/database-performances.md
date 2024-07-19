@@ -32,11 +32,11 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->다음을 의미할 수 있습니다. [Adobe Campaign 하드웨어 크기 조정 안내서](https://helpx.adobe.com/kr/campaign/kb/hardware-sizing-guide.html) 를 참조하십시오.
+>인사이트는 [Adobe Campaign 하드웨어 크기 조정 가이드](https://helpx.adobe.com/kr/campaign/kb/hardware-sizing-guide.html)를 참조하십시오.
 
 ## 플랫폼 구성 {#platform-configuration}
 
-구성이 부적절하면 플랫폼 성능에 영향을 줄 수 있습니다. 에서 네트워크 구성, 플랫폼 제공 옵션 및 MTA 구성을 확인하는 것이 좋습니다. **serverConf.xml** 파일.
+구성이 부적절하면 플랫폼 성능에 영향을 줄 수 있습니다. **serverConf.xml** 파일에서 네트워크 구성, 플랫폼 게재 기능 옵션 및 MTA 구성을 확인하는 것이 좋습니다.
 
 ## 데이터베이스 유지 관리 {#database-maintenance}
 
@@ -62,9 +62,9 @@ ht-degree: 6%
 
 작업 테이블 번호와 크기를 확인해 주세요. 특정 크기를 초과하면 데이터베이스 성능에 영향을 줍니다. 이러한 테이블은 워크플로우 및 게재에 의해 만들어집니다. 워크플로우 및 게재가 활성 상태인 동안 데이터베이스에 유지됩니다. 작업 테이블의 크기를 제한하려면 다음 작업을 수행할 수 있습니다.
 
-* 다음 상태의 게재 중지 또는 삭제: **[!UICONTROL Failed]**, **[!UICONTROL In progress]**, **[!UICONTROL Ready for delivery]**, 또는 **[!UICONTROL Paused]**.
+* **[!UICONTROL Failed]**, **[!UICONTROL In progress]**, **[!UICONTROL Ready for delivery]** 또는 **[!UICONTROL Paused]** 상태의 게재를 중지하거나 삭제합니다.
 * 오류로 인해 일시 중지된 워크플로우를 중지하거나 삭제합니다.
-* 이(가) 포함되지 않은 테스트에 사용되는 모든 워크플로 중단 **[!UICONTROL End]** 따라서 상태가 남아 있는 활동 **[!UICONTROL Paused]**.
+* **[!UICONTROL End]** 활동이 포함되지 않아 상태가 **[!UICONTROL Paused]**(으)로 남아 있는 테스트에 사용되는 모든 워크플로를 중지합니다.
 
 >[!IMPORTANT]
 >
@@ -74,8 +74,8 @@ ht-degree: 6%
 
 Adobe Campaign 설치 설정에 따라 플랫폼 모니터링에 두 가지 도구를 사용할 수 있습니다.
 
-* 인스턴스 프로덕션 페이지입니다. 자세한 내용은 다음을 참조하십시오. [수동 모니터링](../../production/using/monitoring-processes.md#manual-monitoring).
-* 다음 *netreport* 스크립트. 자세한 내용은 다음을 참조하십시오. [Adobe Campaign 스크립트를 통한 자동 모니터링](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
+* 인스턴스 프로덕션 페이지입니다. 자세한 내용은 [수동 모니터링](../../production/using/monitoring-processes.md#manual-monitoring)을 참조하세요.
+* *netreport* 스크립트입니다. 자세한 내용은 [Adobe Campaign 스크립트를 통한 자동 모니터링](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)을 참조하세요.
 
 ## 세부 사항 {#specifics}
 

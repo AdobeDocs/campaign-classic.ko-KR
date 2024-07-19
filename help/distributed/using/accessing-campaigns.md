@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ![](assets/mkg_dist_local_op_edit_new_op1.png)
 
-캠페인은 다음을 통해 위치한 캠페인 개요에서 계속 액세스할 수 있습니다. **[!UICONTROL Campaigns]** 홈 페이지에 연결합니다.
+캠페인은 홈 페이지의 **[!UICONTROL Campaigns]** 링크를 통해 위치한 캠페인 개요에서 계속 액세스할 수 있습니다.
 
 ## 사용 가능한 설정 {#available-settings}
 

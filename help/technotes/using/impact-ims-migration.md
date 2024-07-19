@@ -1,7 +1,8 @@
 ---
 title: IMS 마이그레이션 후 Campaign 인터페이스 업데이트
 description: Adobe Identity Management 시스템 마이그레이션 인터페이스가 미치는 영향을 활성화하는 방법에 대해 알아봅니다
-source-git-commit: ab1bb91bdbc9961b4f3f0feba7cfd354b02b6511
+exl-id: 8b13fe4d-d8d3-43b3-bbe4-c8c5574f585a
+source-git-commit: 8eadea9f9cc0a44522726024bfbc825e3b4cad98
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
@@ -10,7 +11,7 @@ ht-degree: 1%
 
 # IMS 마이그레이션 후 Campaign 인터페이스 업데이트 {#impact-ims-migration}
 
-다음 작업을 완료하면 [campaign 기술 운영자를 개발자 콘솔로 마이그레이션했습니다.](ims-migration.md) 및 [최종 사용자 인증을 위해 IMS로 전환됨](migrate-users-to-ims.md)마지막 단계는 사용자 인터페이스와 API 제한을 활성화하여 기본 인증과 관련된 옵션과 기능을 제거하는 것입니다. 이 업데이트는 Campaign v7.4.1부터 사용할 수 있습니다.
+[Campaign 기술 연산자를 Developer Console으로 마이그레이션](ims-migration.md)하고 [최종 사용자 인증을 위해 IMS로 전환](migrate-users-to-ims.md)하면 마지막 단계에서 사용자 인터페이스와 API 제한을 활성화하여 기본 인증과 관련된 옵션과 기능을 제거하는 것입니다. 이 업데이트는 Campaign v7.4.1부터 사용할 수 있습니다.
 
 ## IMS 제한 사용 {#ims-restrictions}
 
@@ -20,8 +21,8 @@ IMS(Adobe 식별 관리 시스템)로의 마이그레이션을 완료하려면 �
 
 온-프레미스/하이브리드 사용자는 다음 단계를 수행합니다.
 
-1. 다음으로 이동 `<imsConfig>` 인스턴스 구성 파일의 섹션입니다.
-1. UI 제한을 활성화하려면 다음을 업데이트하십시오. `nonIMSOperatorMgmtInClientConsoleRestricted` 옵션, 내부 `nonIMSOperatorMgmtInClientConsole` 요소, 대상 `true`, 아래와 같이:
+1. 인스턴스 구성 파일의 `<imsConfig>` 섹션으로 이동합니다.
+1. UI 제한을 사용하려면 `nonIMSOperatorMgmtInClientConsole` 요소 내부의 `nonIMSOperatorMgmtInClientConsoleRestricted` 옵션을 아래와 같이 `true`(으)로 업데이트하십시오.
 
 
    ```xml
@@ -34,7 +35,7 @@ IMS(Adobe 식별 관리 시스템)로의 마이그레이션을 완료하려면 �
    </serverConf>
    ```
 
-1. API 제한을 활성화하려면 `disableAPI` 옵션, 내부 `nonIMSAuthnAPI` 요소, 대상 `true`, 아래와 같이:
+1. API 제한을 사용하려면 `nonIMSAuthnAPI` 요소 내부의 `disableAPI` 옵션을 아래와 같이 `true`(으)로 업데이트하십시오.
 
    ```xml
    <serverConf>
@@ -48,7 +49,7 @@ IMS(Adobe 식별 관리 시스템)로의 마이그레이션을 완료하려면 �
    </serverConf>
    ```
 
-일부 연산자는 기본 인증을 사용하여 Adobe Campaign에 연결할 수 있습니다. 이러한 기술 운영자는 기본적으로 활성화되어 있으므로 수정해서는 안 됩니다. 이 예외를 허용하려면 기본적으로 이러한 기술 연산자가 허용 목록에 추가됩니다. 다음 목록에서 이 목록을 찾을 수 있습니다. `<imsConfig>` 인스턴스 구성 파일의 섹션 `allowOperator` 내 옵션 `nonIMSAuthnAPI` 요소를 생성하지 않습니다.
+일부 연산자는 기본 인증을 사용하여 Adobe Campaign에 연결할 수 있습니다. 이러한 기술 운영자는 기본적으로 활성화되어 있으므로 수정해서는 안 됩니다. 이 예외를 허용하려면 기본적으로 이러한 기술 연산자가 허용 목록에 추가됩니다. 이 목록은 인스턴스 구성 파일의 `<imsConfig>` 섹션에서 `nonIMSAuthnAPI` 요소 내부의 `allowOperator` 옵션에 있습니다.
 
 ```xml
 <serverConf>
@@ -65,7 +66,7 @@ IMS(Adobe 식별 관리 시스템)로의 마이그레이션을 완료하려면 �
 </serverConf>
 ```
 
-연산자를 허용 목록에 추가해야 하는 경우 새 연산자를 추가합니다 `allowOperator` 연산자 이름을 사용하는 요소입니다. 예를 들어, 이름이 인 새 연산자를 추가하려면 `test`, 다음과 같이 이 섹션을 업데이트합니다.
+허용 목록에 추가하다에 연산자를 추가해야 하는 경우 연산자 이름이 있는 새 `allowOperator` 요소를 추가합니다. 예를 들어 이름이 `test`인 새 연산자를 추가하려면 이 섹션을 다음과 같이 업데이트하십시오.
 
 ```xml
 <serverConf>
@@ -93,13 +94,13 @@ IMS(Adobe 식별 관리 시스템)로의 마이그레이션을 완료하려면 �
 
 따라서 이러한 작업은 클라이언트 콘솔에서 비활성화되었습니다.
 
-운영자의 관리는 Adobe Admin Console에서 중앙 집중화되며, 이제 다음 작업이 이 콘솔을 통해 독점적으로 관리됩니다. 에서 사용자를 만들고 권한을 할당하는 방법에 대해 알아봅니다. [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}.
+운영자의 관리는 Adobe Admin Console에서 중앙 집중화되며, 이제 다음 작업이 이 콘솔을 통해 독점적으로 관리됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}에서 사용자를 만들고 권한을 할당하는 방법에 대해 알아봅니다.
 
 ### 사용할 수 없는 옵션 {#unavailable-migration}
 
 마이그레이션 후에는 클라이언트 콘솔에서 다음 작업을 더 이상 사용할 수 없습니다.
 
-* 사용 [선택한 라인 병합 옵션](../../platform/using/updating-data.md#merge-data) 연산자 병합.
+* 연산자를 병합하려면 [선택한 줄 병합 옵션](../../platform/using/updating-data.md#merge-data)을 사용하십시오.
 
 * 연산자에 대해 다음 필드를 업데이트합니다.
    * 이름
@@ -116,8 +117,7 @@ IMS(Adobe 식별 관리 시스템)로의 마이그레이션을 완료하려면 �
 
 >[!MORELIKETHIS]
 >
->* [최종 사용자를 IMS로 마이그레이션](migrate-users-to-ims.md)
->* [기술 운영자를 Adobe Developer 콘솔로 마이그레이션](ims-migration.md)
+>* [IMS로 최종 사용자 마이그레이션](migrate-users-to-ims.md)
+>* [기술 연산자를 Adobe Developer 콘솔로 마이그레이션](ims-migration.md)
 >* [Adobe Campaign Classic v7 최신 릴리스 노트](../../rn/using/latest-release.md)
->* [IMS(Identity Management System) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}
-
+>* [IMS(Identity Management System) Adobe은 무엇입니까](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}

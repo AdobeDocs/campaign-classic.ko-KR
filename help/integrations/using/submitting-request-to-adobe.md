@@ -21,7 +21,7 @@ ht-degree: 2%
 >
 >v7 사용자로서 계속 진행하려면 시스템에 IMS(Identity Management System) Adobe 가 활성화되어 있는지 확인하십시오. [자세히 알아보기](../../integrations/using/about-adobe-id.md).
 
-조직에 대해 IMS(Identity Management 서비스) Adobe이 활성화되면 [Experience Cloud 대상](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview){target="_blank"} Campaign과 통합. 이렇게 하려면 (으)로 이메일을 보내십시오. [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) 다음 정보가 포함된 경우:
+조직에 대해 IMS(Adobe Identity Management 서비스)를 사용하도록 설정하면 Campaign과의 [Experience Cloud 대상](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview){target="_blank"} 통합의 프로비저닝을 요청할 수 있습니다. 이렇게 하려면 [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com)(으)로 다음 정보가 포함된 전자 메일을 보내십시오.
 
 <table> 
  <tbody> 
@@ -35,7 +35,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <strong>조직 ID</strong><br /> </td> 
-   <td> 조직 ID입니다. <br> 조직 ID를 찾으려면 다음을 참조하십시오. <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko">이 페이지</a></td> 
+   <td> 조직 ID입니다. <br> 조직 ID를 찾으려면 <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko">이 페이지</a>를 참조하세요.</td> 
   </tr> 
   <tr> 
    <td> <strong>환경</strong><br /> </td> 

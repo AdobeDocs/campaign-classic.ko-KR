@@ -15,22 +15,22 @@ ht-degree: 4%
 
 # AB 테스트: 타겟팅 워크플로우 만들기 {#step-1--creating-a-targeting-workflow}
 
-에서 워크플로우를 만들어야 합니다. **[!UICONTROL Targeting and Workflows]** 캠페인의 탭입니다. Id는 **[!UICONTROL Query]** 활동, a **[!UICONTROL Split]** 두 개에 연결된 활동 **[!UICONTROL Email delivery]** 활동, a **[!UICONTROL Wait]** 활동, a **[!UICONTROL JavaScript code]** 활동 및 **[!UICONTROL Delivery]** 활동.
+캠페인의 **[!UICONTROL Targeting and Workflows]** 탭에서 워크플로우를 만들어야 합니다. **[!UICONTROL Query]** 활동, 두 개의 **[!UICONTROL Email delivery]** 활동에 연결된 **[!UICONTROL Split]** 활동, **[!UICONTROL Wait]** 활동, **[!UICONTROL JavaScript code]** 활동 및 **[!UICONTROL Delivery]** 활동으로 구성됩니다.
 
-1. 캠페인을 아직 만들지 않은 경우 캠페인을 만듭니다(자세한 내용은 다음을 참조하십시오.) [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).
+1. 아직 만들지 않은 경우 캠페인을 만드십시오. 자세한 내용은 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하세요.
 
    ![](assets/use_case_abtesting_targetwkfl_001.png)
 
-1. 로 이동 **[!UICONTROL Targeting and Workflows]** 탭.
+1. **[!UICONTROL Targeting and Workflows]** 탭으로 이동합니다.
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. 기존 워크플로우의 레이블을 변경하거나 **[!UICONTROL Add]** 새 템플릿을 만들려면(자세한 내용은 다음을 참조하십시오.) [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
+1. 기존 워크플로우의 레이블을 변경하거나 **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 새 워크플로우를 만듭니다. 자세한 내용은 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)을(를) 참조하십시오.
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
-1. 마우스를 사용하여 활동을 워크플로 다이어그램으로 끌어서 놓습니다. **[!UICONTROL Query]** (**[!UICONTROL Target]** tab), a **[!UICONTROL Split]** (**[!UICONTROL Target]** tab), 2 **[!UICONTROL Email deliveries]** (**[!UICONTROL Deliveries]** tab), a **[!UICONTROL Wait]** 활동(**[!UICONTROL Flow Control]** tab), a **[!UICONTROL JavaScript code]** 활동(**[!UICONTROL Actions]** tab) 및 **[!UICONTROL Delivery]** 활동(**[!UICONTROL Actions]** 탭).
+1. 마우스를 사용하여 **[!UICONTROL Query]**(**[!UICONTROL Target]** 탭), **[!UICONTROL Split]**(**[!UICONTROL Target]** 탭), 두 개의 **[!UICONTROL Email deliveries]**(**[!UICONTROL Deliveries]** 탭), **[!UICONTROL Wait]** 활동(**[!UICONTROL Flow Control]** 탭), **[!UICONTROL JavaScript code]** 활동(**[!UICONTROL Actions]** 탭) 및 **[!UICONTROL Delivery]** 활동(**[!UICONTROL Actions]** 탭)을 포함하는 활동을 워크플로 다이어그램으로 끌어서 놓습니다.
 
 ![](assets/use_case_abtesting_targetwkfl_004.png)
 
-이제 모집단 샘플을 구성할 수 있습니다. [자세히 알아보기](a-b-testing-uc-population-samples.md)
+이제 모집단 샘플을 구성할 수 있습니다. [자세히 알아보기](a-b-testing-uc-population-samples.md).

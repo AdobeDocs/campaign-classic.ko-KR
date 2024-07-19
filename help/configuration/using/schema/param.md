@@ -7,7 +7,7 @@ exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -41,16 +41,16 @@ param:==help
 
 ## 설명 {#description-12}
 
-이 요소를 사용하면 SOAP 메서드를 호출하기 위한 매개 변수를 정의할 수 있습니다.
+이 요소를 사용하여 SOAP 메서드 호출을 위한 매개 변수를 정의할 수 있습니다.
 
 ## 속성 설명 {#attribute-description-12}
 
-* **desc(문자열)**: 다음과 관련된 설명 `<param>` 요소를 생성하지 않습니다.
-* **inout(문자열)**: 이 속성은 매개 변수가 SOAP 호출의 입력(in) 또는 출력(out)에 있는지 여부를 정의합니다. 이 속성을 지정하지 않으면 기본 매개 변수가 입력됩니다(&quot;@inout=in&quot;).
+* **desc(문자열)**: `<param>` 요소와 관련된 설명입니다.
+* **inout(문자열)**: 이 특성은 매개 변수가 SOAP 호출의 입력(in) 또는 출력(out)에 있는지 여부를 정의합니다. 이 속성을 지정하지 않으면 기본 매개 변수가 입력됩니다(&quot;@inout=in&quot;).
 * **레이블(문자열)**: `<param>` 레이블
-* **현지화 가능(문자열)**: 활성화되면 이 속성은 수집 툴에게 번역(내부 사용)을 위해 &quot;@label&quot; 속성 값을 복구하도록 알려줍니다.
-* **이름(MNTOKEN)**: 의 내부 이름 `<param>`
-* **유형(문자열)**: 이 속성은 의 유형을 정의합니다. `<param>` 요소
+* **localizable(문자열)**: 활성화되면 이 특성은 컬렉션 도구에 변환을 위해 &quot;@label&quot; 특성의 값을 복구하도록 알려줍니다(내부 사용).
+* **이름(MNTOKEN)**: `<param>`의 내부 이름
+* **type(문자열)**: 이 특성은 `<param>` 요소의 유형을 정의합니다.
 
   사용 가능한 유형 목록:
 

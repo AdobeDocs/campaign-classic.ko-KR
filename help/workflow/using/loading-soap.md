@@ -17,9 +17,9 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->다음 **로드 중(SOAP)** 활동은 다음을 보유한 경우에만 사용할 수 있습니다. **FDA(Federated Data Access)** 모듈이 설치되었습니다. 사용권 계약을 확인하십시오.
+>**로드 중(SOAP)** 활동은 **FDA(Federated Data Access)** 모듈이 설치된 경우에만 사용할 수 있습니다. 사용권 계약을 확인하십시오.
 
-다음 **로드 중(SOAP)** 활동은 다음에 사용됩니다. **데이터 로드(RDBMS)** 외부 데이터베이스에서 FDA를 통해 직접 데이터를 수집할 수 없는 경우 활동.
+외부 데이터베이스에서 FDA를 통해 직접 데이터를 수집할 수 없는 경우 **로딩(SOAP)** 활동은 **데이터 로딩(RDBMS)** 활동 외에 사용됩니다.
 
 작업은 다음과 같습니다.
 
@@ -35,13 +35,13 @@ ht-degree: 4%
 
    ![](assets/soap_load_003.png)
 
-1. 선택 **[!UICONTROL Click here to view and edit analysis results]** 식별된 각 열을 지정합니다.
+1. 식별된 각 열을 지정하려면 **[!UICONTROL Click here to view and edit analysis results]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/soap_load_001.png)
 
-   예제를 업데이트하려면 다음을 선택합니다. **[!UICONTROL Re-analyze the example]**.
+   예제를 업데이트하려면 **[!UICONTROL Re-analyze the example]**&#x200B;을(를) 선택합니다.
 
-   를 통해 열 데이터의 형식을 개인화할 수도 있습니다. **[!UICONTROL Advanced parameters]** 링크를 클릭합니다. 가져온 데이터의 형식에 대한 자세한 내용은 다음을 참조하십시오. [섹션](../../platform/using/executing-import-jobs.md).
+   **[!UICONTROL Advanced parameters]** 링크를 통해 열 데이터 형식을 개인화할 수도 있습니다. 가져온 데이터 서식 지정에 대한 자세한 내용은 이 [섹션](../../platform/using/executing-import-jobs.md)을 참조하세요.
 
 1. 줄 번호를 식별자로 사용하거나 SOAP 호출이 여러 요소를 반환하도록 지정할 수 있습니다.
 1. 기능에 따라 다음 탭 스크립트를 입력합니다.
@@ -51,4 +51,4 @@ ht-degree: 4%
 
      이 탭의 코드는 null XML 개체가 반환될 때까지 Adobe Campaign에서 루프에서 호출됩니다.
 
-   * **[!UICONTROL Finalization]**: 연결을 닫거나 처리 중에 생성된 다른 리소스를 해제합니다.
+   * **[!UICONTROL Finalization]**: 연결을 닫거나 처리하는 동안 만들어진 다른 리소스를 사용하지 않습니다.

@@ -17,11 +17,11 @@ ht-degree: 5%
 
 기술 워크플로우는 모니터링해야 하며 실패할 경우 작업을 수행해야 합니다.
 
-다양한 Campaign 프로세스를 모니터링하는 추가 방법이에 나와 있습니다. [이 페이지](../../production/using/monitoring-guidelines.md).
+다른 Campaign 프로세스를 모니터링하는 추가 방법은 [이 페이지](../../production/using/monitoring-guidelines.md)에 나와 있습니다.
 
 ## 인스턴스 모니터링 대시보드 {#instance-monitoring-dashboard}
 
-인스턴스 모니터링 대시보드는 **[!UICONTROL Monitoring]** 탭.
+**[!UICONTROL Monitoring]** 탭을 통해 인스턴스 모니터링 대시보드에 액세스할 수 있습니다.
 
 ![](assets/monitoring_technical_workflows1.png)
 
@@ -33,34 +33,34 @@ ht-degree: 5%
 
 ## 기술 워크플로우 {#technical-workflows}
 
-기술 워크플로는에서 사용할 수 있습니다. **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
+기술 워크플로우는 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**&#x200B;에서 사용할 수 있습니다.
 
 기술 워크플로우에 따라 아래 설명된 단계에 따라 모든 것이 예상대로 작동하는지 확인하십시오.
 
-각 기술 워크플로우가 수행해야 하는 작업을 더 잘 이해하려면 다음을 참조하십시오 [섹션](about-technical-workflows.md).
+각 기술 워크플로우가 수행해야 하는 작업을 더 잘 이해하려면 이 [섹션](about-technical-workflows.md)을 참조하세요.
 
-대상 **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
+**[!UICONTROL Database Cleanup workflow (‘cleanup’)]**&#x200B;의 경우:
 
-1. 다음을 확인하십시오. **[!UICONTROL Database Cleanup]** 워크플로우가 매일 성공적으로 실행 및 완료됩니다. 자세한 정보는 다음을 참조하십시오. [페이지](../../production/using/database-cleanup-workflow.md)..
+1. **[!UICONTROL Database Cleanup]** 워크플로우가 매일 실행되고 성공적으로 완료되는지 확인하십시오. 자세한 정보는 이 [페이지](../../production/using/database-cleanup-workflow.md)를 참조하세요.
 1. 저널을 검토하여 경과 시간이 시간에 따라 비교적 일정하고 다른 워크플로우에 영향을 주지 않는지 확인하십시오.
 
-대상 **[!UICONTROL Tracking workflow (‘tracking’)]**:
+**[!UICONTROL Tracking workflow (‘tracking’)]**&#x200B;의 경우:
 
 추적 워크플로우가 예약된 대로(기본적으로 매 시간) 실행되고 저널이 반복적인 오류를 강조 표시하지 않는지 확인합니다. 자세한 정보는 이 [섹션](delivery.md)을 참조하십시오.
 
-대상 **[!UICONTROL Refresh for Deliverability (deliverabilityUpdate)]**:
+**[!UICONTROL Refresh for Deliverability (deliverabilityUpdate)]**&#x200B;의 경우:
 
-1. 다음을 확인하십시오. **[!UICONTROL Refresh for Deliverability]** 워크플로우가 매일 성공적으로 실행 및 완료됩니다.
+1. **[!UICONTROL Refresh for Deliverability]** 워크플로우가 매일 실행되고 성공적으로 완료되는지 확인하십시오.
 1. 저널에서 규칙이 정기적으로 업데이트되고 있는지 확인합니다.
 
-대상 **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
+**[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**&#x200B;의 경우:
 
-1. 아래에 있는 모든 워크플로를 살펴봅니다. **[!UICONTROL Campaign process]** 폴더를 삭제합니다. 자세한 정보는 이 [페이지](about-technical-workflows.md)를 참조하십시오.
+1. **[!UICONTROL Campaign process]** 폴더 아래에 있는 모든 워크플로를 살펴봅니다. 자세한 정보는 이 [페이지](about-technical-workflows.md)를 참조하십시오.
 1. 워크플로우가 예약대로 실행되는지 그리고 저널이 반복적인 오류를 강조 표시하지 않는지 확인하십시오.
 
 ## 워크플로우 감독 {#workflow-supervision}
 
-다음 **[!UICONTROL Workflow supervisors]** 그룹에는 실패를 알려야 하고 제때 조치를 취할 수 있는 운영자가 포함되어야 합니다.
+**[!UICONTROL Workflow supervisors]** 그룹에는 실패를 알려야 하고 적시에 조치를 취할 수 있는 운영자가 포함되어야 합니다.
 
 ![](assets/monitoring_technical_workflows3.png)
 

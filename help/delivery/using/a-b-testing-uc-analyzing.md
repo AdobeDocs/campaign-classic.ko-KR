@@ -17,11 +17,11 @@ ht-degree: 2%
 
 테스트 게재가 전송되면 전송된 수신자와 열기 여부를 확인할 수 있습니다.
 
-* 타겟팅한 수신자를 확인하려면 캠페인 대시보드를 통해 게재를 열고 **[!UICONTROL Delivery]** 탭.
+* 타겟팅한 수신자를 확인하려면 캠페인 대시보드를 통해 게재를 열고 **[!UICONTROL Delivery]** 탭을 클릭하십시오.
 
   ![](assets/use_case_abtesting_analysis_001.png)
 
-* 게재가 열렸는지 확인하려면 **[!UICONTROL Tracking]** 탭.
+* 게재가 열렸는지 확인하려면 **[!UICONTROL Tracking]** 탭으로 이동합니다.
 
   ![](assets/use_case_abtesting_analysis_002.png)
 

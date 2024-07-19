@@ -51,11 +51,11 @@ ht-degree: 7%
 
 Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항상 다음 지침을 따르십시오.
 
-* **스크립팅**&#x200B;허용 목록에 추가하다 : SQL 문을 사용하지 말고 문자열 연결 대신 매개 변수가 있는 함수를 사용하십시오. SQL 문에 사용할 SQL 함수를 추가하여 SQL 삽입을 방지하십시오.
+* 허용 목록에 추가하다 **스크립팅**: SQL 문을 피하고 문자열 연결 대신 매개 변수가 있는 함수를 사용하고, SQL 함수를 추가하여 SQL 삽입을 피하십시오.
 
-* **데이터 모델 보호**: 명명된 권한을 사용하여 연산자 작업을 제한하고 시스템 필터(sysFilter)를 추가합니다.
+* **데이터 모델 보안**: 명명된 권한을 사용하여 연산자 작업을 제한하고 시스템 필터(sysFilter)를 추가하십시오.
 
-* **웹 애플리케이션에서 captcha 추가**: 공개 랜딩 페이지 및 구독 페이지에 captcha를 추가하는 방법을 알아봅니다.
+* **웹 응용 프로그램에 CAPTCHA 추가**: 공개 랜딩 페이지 및 구독 페이지에 CAPTCHA를 추가하는 방법을 알아봅니다.
 
 [자세히 표시](../../installation/using/scripting-coding-guidelines.md)
 
@@ -74,17 +74,17 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
 
 <img src="assets/do-not-localize/icon_server.svg" width="60px">
 
-모든 서버에서 구성을 수행해야 합니다. 구성 파일의 유형은 다음과 같습니다 **serverConf.xml** 및 **`config-<instance>.xml`**. 다음은 확인해야 하는 주요 요소입니다.
+모든 서버에서 구성을 수행해야 합니다. 구성 파일의 형식은 **serverConf.xml** 및 **`config-<instance>.xml`**&#x200B;입니다. 다음은 확인해야 하는 주요 요소입니다.
 
-* **보안 영역**: 프록시의 클라이언트 IP 주소를 직접 고려하도록 보안 영역을 구성합니다.
+* **보안 영역**: 프록시의 클라이언트의 IP 주소를 직접 고려하도록 보안 영역을 구성합니다.
 
-* **파일 업로드 보호**: 새 uploadAllowList 속성을 사용하여 Adobe Campaign 서버에 업로드할 수 있는 파일 유형을 제한합니다. 서버 구성 파일에서 사용할 수 있습니다.
+* **파일 업로드 보호**: 새 uploadAllowList 특성을 사용하여 Adobe Campaign 서버에 업로드할 수 있는 파일 형식을 제한합니다. 서버 구성 파일에서 사용할 수 있습니다.
 
-* **릴레이**: 사용하지 않는 모듈/애플리케이션에 대한 릴레이 규칙을 비활성화하여 릴레이 구성을 미세 조정합니다.
+* **릴레이**: 사용하지 않는 모듈/응용 프로그램에 대한 릴레이 규칙을 비활성화하여 릴레이 구성을 미세 조정하십시오.
 
-* **발신 연결 보호** 및 **명령 제한** (서버측)
+* **발신 연결 보호** 및 **명령 제한**(서버측)
 
-* 추가 HTTP 헤더를 추가하고, checkIPConsistent, enableTLS, sessionTimeOutSec 등을 활성화할 수도 있습니다. 다음을 참조하십시오. [Campaign 서버 구성 설명서](../../installation/using/configuring-campaign-server.md) 및 [서버 구성 파일 설명](../../installation/using/the-server-configuration-file.md) 추가 정보.
+* 추가 HTTP 헤더를 추가하고, checkIPConsistent, enableTLS, sessionTimeOutSec 등을 활성화할 수도 있습니다. 자세한 내용은 [Campaign 서버 구성 설명서](../../installation/using/configuring-campaign-server.md) 및 [서버 구성 파일 설명](../../installation/using/the-server-configuration-file.md)을 참조하세요.
 
 [자세히 표시](../../installation/using/server-configuration.md)
 

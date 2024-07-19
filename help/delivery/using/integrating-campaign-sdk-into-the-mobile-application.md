@@ -10,7 +10,7 @@ exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe은 데이터 수집 UI에서 Adobe Experience Platform 확장 기능을 구성하여 Adobe Campaign Mobile SDK를 사용할 것을 강력히 권장합니다. Adobe Experience Platform Mobile SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 강화하는 데 도움이 됩니다. SDK 구성은 유연한 구성 및 확장 가능한 규칙 기반 통합을 위해 데이터 수집 UI를 통해 관리됩니다. [Adobe Developer 설명서에서 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+>Adobe은 데이터 수집 UI에서 Adobe Experience Platform 확장 기능을 구성하여 Adobe Campaign Mobile SDK를 사용할 것을 강력히 권장합니다. Adobe Experience Platform 모바일 SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 구동하는 데 도움이 됩니다. SDK 구성은 데이터 수집 UI를 통해 관리되므로 유연한 구성과 확장 가능한 규칙 기반 통합을 이용할 수 있습니다. [Adobe Developer 설명서에서 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
-Campaign SDK(이전의 Neolane SDK)를 가져오려면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+Campaign SDK(이전의 Neolane SDK)를 가져오려면 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}에 문의하십시오.
 
-지원되는 다른 Android 및 iOS 버전에 대한 자세한 내용은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md#MobileSDK).
+지원되는 다른 Android 및 iOS 버전에 대한 자세한 내용은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md#MobileSDK)를 참조하십시오.
 
 Campaign SDK의 통합 단계는 아래에 나와 있습니다.
 
 +++**Campaign SDK 로드**
 
-* **Android**: **neolane_sdk-release.aar** 파일이 프로젝트에 연결되어 있어야 합니다.
+* **Android**&#x200B;에서: **neolane_sdk-release.aar** 파일이 프로젝트에 연결되어 있어야 합니다.
 
   다음 권한은 Adobe Campaign 서버에 대한 액세스 권한을 부여합니다.
 
@@ -48,11 +48,11 @@ Campaign SDK의 통합 단계는 아래에 나와 있습니다.
 
   SDK 버전 1.0.26부터는 이 권한이 더 이상 사용되지 않습니다.
 
-* **iOS에서**: **libNeolaneSDK.a** 및 **Neolane_SDK.h** 파일이 프로젝트에 연결되어 있어야 합니다. SDK 버전 1.0.24에서 옵션 **ENABLE_BITCODE** 활성화되었습니다.
+* **iOS**&#x200B;에서: **libNeolaneSDK.a** 및 **Neolane_SDK.h** 파일이 프로젝트에 연결되어 있어야 합니다. SDK 버전 1.0.24에서 **ENABLE_BITCODE** 옵션이 활성화됩니다.
 
   >[!NOTE]
   >
-  >SDK 버전 1.0.25의 경우에서 네 가지 아키텍처를 사용할 수 있습니다. **Neolane_SDK.h** 파일.
+  >SDK 버전 1.0.25의 경우 **Neolane_SDK.h** 파일에서 4가지 아키텍처를 사용할 수 있습니다.
 
 +++
 
@@ -64,10 +64,10 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
   >[!NOTE]
   >
-  >이 통합 키는 Adobe Campaign 콘솔의 **[!UICONTROL Information]** 모바일 애플리케이션 전용 서비스 탭입니다. 을(를) 참조하십시오 [Adobe Campaign에서 모바일 애플리케이션 구성](configuring-the-mobile-application.md).
+  >이 통합 키는 모바일 애플리케이션 전용 서비스의 **[!UICONTROL Information]** 탭에 있는 Adobe Campaign 콘솔에 입력됩니다. [Adobe Campaign에서 모바일 응용 프로그램 구성](configuring-the-mobile-application.md)을 참조하세요.
 
-* **추적 URL**: Adobe Campaign 추적 서버 주소와 일치합니다.
-* **마케팅 URL**: 구독 컬렉션을 활성화합니다.
+* **Adobe Campaign 추적 서버 주소와 일치하는 추적 URL**.
+* **마케팅 URL**: 구독 컬렉션을 사용하도록 설정합니다.
 
 * **Android**:
 
@@ -77,7 +77,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
   ```
 
-* **iOS에서**:
+* **iOS**:
 
   ```
   Neolane_SDK *nl = [Neolane_SDK getInstance];
@@ -88,11 +88,11 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
 +++
 
-+++**등록 기능**
++++**등록 함수**
 
 등록 기능을 사용하여 다음을 수행할 수 있습니다.
 
-* 알림 ID 또는 푸시 ID(iOS의 경우 deviceToken, Android의 경우 registrationID)를 Adobe Campaign에 보냅니다.
+* 알림 ID 또는 푸시 ID(iOS의 경우 deviceToken, Android의 경우 registrationID)를 Adobe Campaign으로 보냅니다.
 * 조정 키 또는 userKey(예: 이메일 또는 계정 번호) 복구
 
 * **Android**:
@@ -110,7 +110,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
   }
   ```
 
-  FCM(Firebase Cloud Messaging)을 사용하는 경우 **registerDevice** 호출 시 함수 **토큰 새로 고침** 사용자의 모바일 장치 토큰의 변경을 Adobe Campaign에 알리는 기능입니다.
+  FCM(Firebase Cloud Messaging)을 사용하는 경우 **onTokenRefresh** 함수를 호출하여 사용자의 모바일 장치 토큰의 변경 사항을 Adobe Campaign에 알릴 때 **registerDevice** 함수를 사용하는 것이 좋습니다.
 
   ```
   public class NeoTripFirebaseInstanceIDService extends FirebaseInstanceIdService {
@@ -132,7 +132,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
   }
   ```
 
-* **iOS에서**:
+* **iOS**:
 
   ```
   // Callback called on successful registration to the APNs
@@ -152,7 +152,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
   추적 기능을 사용하면 알림 활성화(열림) 및 알림 표시(스크린샷)를 추적할 수 있습니다.
 
-  알림 표시를 추적하려면 ( 를 호출하여 완료) **notifyReceive** SDK의 기능)을 사용하려면 아래 구현을 따르십시오. FCM(Firebase 클라우드 메시징)을 사용하는 경우 **notifyReceive** 함수 위치: **onMessageReceived** 함수는 Android 시스템에서 호출됩니다.
+  SDK의 **notifyReceive** 함수를 호출하여 알림 표시를 추적하려면 아래 구현을 따르십시오. FCM(Firebase Cloud Messaging)을 사용하는 경우 Android 시스템에서 **onMessageReceived** 함수를 호출할 때 **notifyReceive** 함수를 사용하는 것이 좋습니다.
 
   ```
   package com.android.YourApplication;
@@ -248,7 +248,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
   }
   ```
 
-  다음은 열린 알림(를 호출하여 실행됨)을 추적하는 구현 예입니다. **notifyOpen** SDK)의 기능입니다. 다음 **알림 활동** 클래스는 클래스를 만드는 데 사용되는 클래스에 해당합니다. **notifIntent** 이전 예제의 개체.
+  다음은 SDK의 **notifyOpening** 함수를 호출하여 실행되는 알림 열기를 추적하는 구현 예입니다. **NotificationActivity** 클래스는 이전 예제의 **notifIntent** 개체를 만드는 데 사용되는 클래스에 해당합니다.
 
   ```
   public class NotificationActivity extends Activity {
@@ -279,7 +279,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
   }
   ```
 
-* **iOS에서**:
+* **iOS**:
 
   추적 기능을 사용하면 알림이 활성화(열기)되는 시기를 추적할 수 있습니다.
 
@@ -296,7 +296,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
   >[!NOTE]
   >
-  >버전 7.0에서 한 번 **`application:didReceiveRemoteNotification:fetchCompletionHandler`** 함수가 구현되면 운영 체제는 이 함수만 호출합니다. 다음 **`application:didReceiveRemoteNotification`** 따라서 함수는 호출되지 않습니다.
+  >버전 7.0부터 **`application:didReceiveRemoteNotification:fetchCompletionHandler`** 함수가 구현되면 운영 체제에서 이 함수만 호출합니다. 따라서 **`application:didReceiveRemoteNotification`** 함수는 호출되지 않습니다.
 
 +++
 
@@ -348,17 +348,17 @@ iOS을 사용하면 모바일 애플리케이션에 표시되지 않고 직접 �
 >
 >이 기능은 iOS 전용입니다.
 
-iOS에서 위임 프로토콜을 사용하면 의 결과를 가져올 수 있습니다. **registerDevice** 를 호출하고 를 사용하여 등록 중에 오류가 발생했는지 확인할 수 있습니다.
+iOS에서 위임 프로토콜을 사용하면 **registerDevice** 호출 결과를 가져올 수 있으며 등록 중에 오류가 발생했는지 확인하는 데 사용할 수 있습니다.
 
-다음 **registerDeviceStatus** 프로토타입:
+**registerDeviceStatus** 프로토타입:
 
 ```
 - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
 ```
 
-**상태** 등록이 성공했는지 또는 오류가 발생했는지 알 수 있습니다.
+**상태**&#x200B;를 통해 등록이 성공했는지 또는 오류가 발생했는지 확인할 수 있습니다.
 
-**ErrorReason** 은 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 해당 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
+**ErrorReason**&#x200B;에서 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 해당 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
 
 <table> 
  <thead>
@@ -372,32 +372,32 @@ iOS에서 위임 프로토콜을 사용하면 의 결과를 가져올 수 있습
   <tr>
    <td> ACCRegisterDeviceStatusSuccess <br /> </td>
    <td> 등록 성공<br /> </td>
-   <td> 비어 있음<br /> </td>
+   <td> EMPTY<br /> </td>
   </tr>
   <tr> 
    <td> ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td>
    <td> ACC 마케팅 서버 호스트 이름이 비어 있거나 설정되지 않았습니다.<br /> </td>
-   <td> 비어 있음<br /> </td>
+   <td> EMPTY<br /> </td>
   </tr>
   <tr> 
    <td> ACCRegisterDeviceStatusFailureIntegrationKeyEmpty <br /> </td>
    <td> 통합 키가 비어 있거나 설정되지 않았습니다.<br /> </td>
-   <td> 비어 있음<br /> </td>
+   <td> EMPTY<br /> </td>
   </tr>
   <tr> 
    <td> ACCRegisterDeviceStatusFailureConnectionIssue<br /> </td>
-   <td> ACC 연결 문제<br /> </td>
+   <td> ACC<br /> 연결 문제 </td>
    <td> 추가 정보(OS 현재 언어)<br /> </td>
   </tr>
   <tr> 
    <td> ACCRegisterDeviceStatusFailureUnknownUUID<br /> </td>
-   <td> 입력한 UUID(통합 키)를 알 수 없습니다.<br /> </td>
-   <td> 비어 있음<br /> </td>
+   <td> 제공된 UUID(통합 키)를 알 수 없습니다.<br /> </td>
+   <td> EMPTY<br /> </td>
   </tr>
   <tr> 
    <td> ACCRegisterDeviceStatusFailureUnexpectedError<br /> </td>
    <td> ACC 서버에 예기치 않은 오류가 반환되었습니다.<br /> </td>
-   <td> ACC에 오류 메시지가 반환되었습니다.<br /> </td>
+   <td> 오류 메시지가 ACC에 반환되었습니다.<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -434,9 +434,9 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 @end
 ```
 
-구현하려면 **registerDeviceStatus** 위임자는 다음 단계를 수행합니다.
+**registerDeviceStatus** 대리자를 구현하려면 다음 단계를 수행하십시오.
 
-1. 구현 **setDelegate** sdk 초기화 중에.
+1. SDK를 초기화하는 동안 **setDelegate**&#x200B;을 구현합니다.
 
    ```
    // AppDelegate.m
@@ -465,7 +465,7 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
    }
    ```
 
-1. 에 프로토콜 추가 **@interface** 수업 중.
+1. 클래스의 **@interface**&#x200B;에 프로토콜을 추가합니다.
 
    ```
    //  AppDelegate.h
@@ -487,7 +487,7 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
    }
    ```
 
-1. 에서 위임 구현 **AppDelegate**.
+1. **AppDelegate**&#x200B;에서 대리자를 구현합니다.
 
    ```
    //  AppDelegate.m
@@ -542,7 +542,7 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 
 +++**변수**
 
-변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드 및 Adobe Campaign 콘솔의 **[!UICONTROL Variables]** 전용 모바일 애플리케이션의 탭(참조) [Adobe Campaign에서 모바일 애플리케이션 구성](configuring-the-mobile-application.md)). 다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
+변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 응용 프로그램 코드 및 Adobe Campaign 콘솔의 전용 모바일 응용 프로그램의 **[!UICONTROL Variables]** 탭에서 정의해야 합니다([Adobe Campaign에서 모바일 응용 프로그램 구성](configuring-the-mobile-application.md) 참조). 다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
 
 * **Android**:
 
@@ -554,7 +554,7 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
   }
   ```
 
-* **iOS에서**:
+* **iOS**:
 
   ```
   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -626,7 +626,7 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 
 +++
 
-+++**알림 컨텐츠 확장**
++++**알림 콘텐츠 확장**
 
 **iOS용**
 
@@ -634,11 +634,11 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 
 * 컨텐츠 확장을 Adobe Campaign에서 전송한 카테고리에 연결:
 
-  모바일 애플리케이션에서 이미지를 표시하도록 하려면 Adobe Campaign에서 카테고리 값을 &quot;이미지&quot;로 설정하고 모바일 애플리케이션에서 를 사용하여 알림 확장을 만듭니다. **UNNotificationExtension범주** 매개 변수가 &quot;image&quot;로 설정되어 있습니다. 푸시 알림이 디바이스에서 수신되면 정의된 카테고리 값에 따라 확장이 호출됩니다.
+  모바일 응용 프로그램에서 이미지를 표시하려면 Adobe Campaign에서 범주 값을 &quot;image&quot;로 설정하고 모바일 응용 프로그램에서는 **UNNotificationExtensionCategory** 매개 변수가 &quot;image&quot;로 설정된 알림 확장을 만듭니다. 푸시 알림이 디바이스에서 수신되면 정의된 카테고리 값에 따라 확장이 호출됩니다.
 
 * 알림 레이아웃 정의
 
-  관련 위젯으로 레이아웃을 정의해야 합니다. 이미지의 경우 위젯 이름이 로 지정됩니다. **UImageView**.
+  관련 위젯으로 레이아웃을 정의해야 합니다. 이미지의 경우 위젯 이름이 **UIImageView**&#x200B;입니다.
 
 * 미디어 표시
 

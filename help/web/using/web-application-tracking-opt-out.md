@@ -18,11 +18,11 @@ ht-degree: 2%
 
 Adobe Campaign을 사용하면 쿠키 또는 웹 비콘을 통해 행동 추적을 옵트아웃하는 최종 사용자의 웹 행동 추적을 중지할 수 있습니다. 기능에는 최종 사용자에게 해당 옵션을 제공하는 배너를 표시하는 기능이 포함됩니다. 이러한 배너를 웹 애플리케이션이나 랜딩 페이지에 추가할 수 있습니다.
 
-최종 사용자가 쿠키 또는 웹 비콘을 통한 행동 추적을 옵트아웃하면 해당 정보가 JavaScript API를 사용하여 Adobe Campaign 추적 서버로 전송됩니다. 일부 관할권에서는 옵트아웃이 제공되기 전에 옵트인을 보유한 최종 사용자를 고객에게 요청하도록 할 수 있으며(또는 기타 법적 요구 사항이 있음), 이는 적용 가능한 법을 준수하는 것이 고객의 책임입니다.
+최종 사용자가 쿠키 또는 웹 비콘을 통해 행동 추적을 옵트아웃하면 해당 정보가 JavaScript API를 통해 Adobe Campaign 추적 서버로 전송됩니다. 일부 관할권에서는 옵트아웃이 제공되기 전에 옵트인을 보유한 최종 사용자를 고객에게 요청하도록 할 수 있으며(또는 기타 법적 요구 사항이 있음), 이는 적용 가능한 법을 준수하는 것이 고객의 책임입니다.
 
 >[!NOTE]
 >
->스크립팅은 항상 다음에 설명된 지침을 따릅니다 [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#dev).
+>스크립팅할 때는 항상 [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#dev)에 설명된 지침을 따릅니다.
 
 ## 배너 구성 {#configuring-the-banner-}
 
@@ -34,7 +34,7 @@ Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너�
 >
 >나만의 배너를 만들려면 기본 제공 배너를 개인화해야 합니다.
 
-배너를 활성화하려면 웹 애플리케이션 속성을 구성해야 합니다. 다음을 참조하십시오. [웹 애플리케이션 디자인](designing-a-web-application.md) 섹션.
+배너를 활성화하려면 웹 애플리케이션 속성을 구성해야 합니다. [웹 응용 프로그램 디자인](designing-a-web-application.md) 섹션을 참조하십시오.
 
 웹 추적이 활성화되면 다음 중 하나를 수행할 수 있습니다.
 
@@ -63,7 +63,7 @@ Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너�
       
 ```
 
-다음을 교체해야 합니다. **여기에 메시지를 삽입하십시오.** 추적 정보가 포함된 블록을 포함합니다. 이 대체는 옵트아웃 배너와 관련된 새 개인화 블록에서 실행해야 합니다.
+**여기에 메시지를 삽입하세요**. 추적 정보가 포함된 블록으로 바꿉니다. 이 대체는 옵트아웃 배너와 관련된 새 개인화 블록에서 실행해야 합니다.
 
 배너는 특정 CSS와 함께 제공됩니다. 그러나 웹 페이지를 만들고 구성할 때 스타일을 덮어쓸 수 있습니다. [이 페이지](content-editor-interface.md)를 참조하십시오.
 
@@ -71,7 +71,7 @@ Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너�
 
 Adobe Campaign은 쿠키 값을 관리하고 사용자 환경 설정을 검색할 수 있는 API와 함께 제공됩니다.
 
-쿠키 이름은 입니다. **acoptout**. 일반적인 값은 다음과 같습니다.
+쿠키 이름은 **acoptout**&#x200B;입니다. 일반적인 값은 다음과 같습니다.
 
 * 0: 사용자가 웹 추적을 허용함(기본값)
 * 1: 사용자가 웹 추적을 금지했습니다.
@@ -79,20 +79,20 @@ Adobe Campaign은 쿠키 값을 관리하고 사용자 환경 설정을 검색�
 
 배너를 사용자 지정하는 데 사용할 수 있는 클라이언트측 API는 다음과 같습니다.
 
-* **NL.ClientWebTracking.allow()**: 웹 추적을 허용하도록 옵트아웃 쿠키 값을 설정합니다. 웹 추적은 기본적으로 허용됩니다.
+* **NL.ClientWebTracking.allow()**: 옵트아웃 쿠키 값을 설정하여 웹 추적을 허용합니다. 웹 추적은 기본적으로 허용됩니다.
 * **NL.ClientWebTracking.forbid()**: 웹 추적을 금지하도록 옵트아웃 쿠키 값을 설정합니다. 웹 추적을 금지하려면 사용자 입력이 필요합니다.
-* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: 사용자가 수락 또는 거부 버튼을 클릭한 후 옵트아웃 쿠키 배너를 닫습니다. (클릭 이벤트 버블링 단계 동안)
+* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: 사용자가 수락 또는 거부 단추를 클릭한 후 옵트아웃 쿠키 배너를 닫습니다. (클릭 이벤트 버블링 단계 동안)
 
   bannerDomElt {DOMElement} 제거해야 하는 쿠키 배너의 루트 DOM 요소
 
-* **NL.ClientWebTracking.hasUserPrefs()**: 사용자가 웹 추적에 대한 환경 설정을 선택한 경우 true를 반환합니다.
+* **NL.ClientWebTracking.hasUserPrefs()**: 사용자가 웹 추적에 대한 기본 설정을 선택한 경우 true를 반환합니다.
 * **NL.ClientWebTracking.getUserPrefs()**: 사용자의 환경 설정을 정의하는 옵트아웃 쿠키 값을 반환합니다.
 
 JSSP를 작성해야 하는 경우 서버측 API를 사용할 수 있습니다.
 
-* **NL.ServerWebTracking.generateOptOutBanner(escapeJs)**: 옵트아웃 배너가 JSSP 페이지에 삽입하기 위한 마크업을 생성합니다
+* **NL.ServerWebTracking.generateOptOutBanner(escapeJs)**: JSSP 페이지에 삽입할 옵트아웃 배너에 대한 태그를 생성합니다
 
-  **escapeJs {Boolean}**: JavaScript 내에서 사용하기 위해 생성된 마크업을 이스케이프해야 하는 경우 true입니다.
+  **escapeJs {Boolean}**: JavaScript 내에서 사용하려면 생성된 태그를 이스케이프해야 하는 경우 true입니다.
 
   페이지에 인쇄해야 하는 옵트아웃 배너 마크업의 HTML을 반환합니다.
 
@@ -108,7 +108,7 @@ JSSP를 작성해야 하는 경우 서버측 API를 사용할 수 있습니다.
 
   옵트아웃 배너를 JSSP 페이지에 삽입하여 마크업을 렌더링합니다. Jssp에서 &lt;% %> 사이의 그대로 호출됩니다.
 
-  **escapeJs {Boolean}**: JavaScript 내에서 사용하기 위해 생성된 마크업을 이스케이프해야 하는 경우 true
+  **escapeJs {Boolean}**: JavaScript 내에서 사용하려면 생성된 태그를 이스케이프해야 하는 경우 true
 
 JSSP 예:
 

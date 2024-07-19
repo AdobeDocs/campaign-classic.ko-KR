@@ -19,13 +19,13 @@ ht-degree: 9%
 
 
 
-시뮬레이션이 완료되면 다음을 통해 결과를 분석할 수 있습니다. **[!UICONTROL Results]** 시뮬레이션 창과 **[!UICONTROL Breakdown of offers by rank]** 시뮬레이션 대시보드에서 를 통해 사용할 수 있는 보고서입니다.
+시뮬레이션이 완료되면 시뮬레이션 창에 추가된 **[!UICONTROL Results]** 탭과 시뮬레이션 대시보드의 **[!UICONTROL Breakdown of offers by rank]** 보고서를 통해 결과를 분석할 수 있습니다.
 
 시뮬레이션 결과에는 등급별 및 수신자별 제안 분류가 포함됩니다. 보고 축도 고려되며 이 탭에 표시됩니다.
 
 이러한 결과를 저장하고 필요한 경우 결과에 대한 설명 분석을 만들어 내보낼 수 있습니다. 이렇게 하려면 결과 창에서 적절한 링크를 클릭합니다.
 
-을(를) 참조하십시오 [이 섹션](../../reporting/using/about-descriptive-analysis.md) 설명 분석 마법사에 대한 자세한 정보입니다.
+설명 분석 마법사에 대한 자세한 내용은 [이 섹션](../../reporting/using/about-descriptive-analysis.md)을 참조하세요.
 
 ![](assets/offer_simulation_012.png)
 

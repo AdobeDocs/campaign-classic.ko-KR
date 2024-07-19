@@ -19,17 +19,17 @@ ht-degree: 7%
 
 ## 기존 게재를 템플릿으로 변환 {#converting-an-existing-delivery-to-a-template}
 
-게재를 템플릿으로 변환하여 반복된 새로운 게재 작업을 수행할 수 있습니다. 게재를 템플릿으로 변환하려면 게재 목록에서 게재를 선택하고 **[!UICONTROL Campaign management]** 트리의 노드.
+게재를 템플릿으로 변환하여 반복된 새로운 게재 작업을 수행할 수 있습니다. 게재를 템플릿으로 변환하려면 트리의 **[!UICONTROL Campaign management]** 노드를 통해 액세스할 수 있는 게재 목록에서 해당 게재를 선택합니다.
 
-마우스 오른쪽 단추를 클릭하고 선택 **[!UICONTROL Actions > Save as template...]**.
+마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Actions > Save as template...]**&#x200B;을(를) 선택합니다.
 
 ![](assets/s_ncs_user_campaign_save_as_scenario.png)
 
-이 작업은 선택한 게재에서 게재 템플릿을 만듭니다. 폴더가 저장된 폴더를 입력해야 합니다. **[!UICONTROL Folder]** 필드)와 이 템플릿을 기반으로 하여 만든 게재가 만들어지는 폴더( **[!UICONTROL Execution folder]** field).
+이 작업은 선택한 게재에서 게재 템플릿을 만듭니다. **[!UICONTROL Folder]** 필드에 저장된 폴더와 **[!UICONTROL Execution folder]** 필드에 이 템플릿을 기반으로 만들어진 게재가 만들어지는 폴더를 입력해야 합니다.
 
 ![](assets/s_ncs_user_campaign_save_as_scenario_a.png)
 
-구성 모드에 대한 자세한 내용은 [게재에 템플릿 연결](creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery).
+구성 모드에 대한 자세한 내용은 [게재에 템플릿 연결](creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery)을 참조하세요.
 
 ## 새 템플릿 만들기 {#creating-a-new-template}
 
@@ -40,31 +40,31 @@ ht-degree: 7%
 게재 템플릿을 구성하려면 다음 단계를 수행하십시오.
 
 1. 캠페인 탐색기를 엽니다.
-1. 다음에서 **리소스** 폴더, 선택 **템플릿** 그러면 **게재 템플릿**.
+1. **리소스** 폴더에서 **템플릿**, **게재 템플릿**&#x200B;을 선택합니다.
 
    ![](assets/delivery_template_1.png)
 
-1. 클릭 **신규** 도구 모음에서 새 게재 템플릿을 만들거나 **복제** 기존 템플릿입니다.
+1. 도구 모음에서 **새로 만들기**&#x200B;를 클릭하여 새 게재 템플릿을 만들거나 기존 템플릿을 **복제**&#x200B;합니다.
 
    ![](assets/delivery_template_2.png)
 
-1. 수정 **레이블** 및 **내부 이름** 폴더의 입니다.
+1. 폴더의 **레이블** 및 **내부 이름**&#x200B;을(를) 수정합니다.
 1. 템플릿을 저장하고 다시 엽니다.
-1. 다음을 클릭합니다. **속성** 을 누르고 요구 사항에 따라 값을 수정합니다.
+1. **속성** 단추를 클릭한 다음 요구 사항에 따라 값을 수정합니다.
 
    ![](assets/delivery_template_3.png)
 
-1. 다음에서 **일반** 탭에서 선택한 위치를 확인하거나 변경합니다. **실행 폴더**, **폴더**, 및 **라우팅** 드롭다운 메뉴.
+1. **일반** 탭에서 **실행 폴더**, **폴더** 및 **라우팅** 드롭다운 메뉴에서 선택한 위치를 확인하거나 변경합니다.
 
    ![](assets/delivery_template_4.png)
 
-1. 다음을 완료합니다. **이메일 매개 변수** 이메일 제목과 타겟팅된 모집단을 포함하는 카테고리.
-1. 사용자 추가 **HTML 컨텐츠** 템플릿을 개인화하기 위해 미러 페이지 링크와 구독 취소 링크를 표시할 수 있습니다.
-1. 다음 항목 선택 **미리 보기** 탭. 다음에서 **개인화 테스트** 드롭다운 메뉴에서 다음을 선택합니다. **수신자** 을 클릭하여 템플릿을 선택한 프로필로 미리 봅니다.
+1. 전자 메일 제목과 대상 모집단을 사용하여 **전자 메일 매개 변수** 범주를 완료합니다.
+1. **HTML 콘텐츠**&#x200B;를 추가하여 템플릿을 개인화하십시오. 미러 페이지 링크와 구독 취소 링크를 표시할 수 있습니다.
+1. **미리 보기** 탭을 선택합니다. **개인화 테스트** 드롭다운 메뉴에서 **수신자**&#x200B;를 선택하여 선택한 프로필로 템플릿을 미리 봅니다.
 
    ![](assets/delivery_template_5.png)
 
-1. 클릭 **저장**. 이제 템플릿을 게재에서 사용할 준비가 되었습니다.
+1. **저장**&#x200B;을 클릭합니다. 이제 템플릿을 게재에서 사용할 준비가 되었습니다.
 
 
 ## 튜토리얼 비디오 {#delivery-template-video}
@@ -87,4 +87,4 @@ ht-degree: 7%
 
 >[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)
 
-추가 Campaign Classic 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).
+추가 Campaign Classic 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

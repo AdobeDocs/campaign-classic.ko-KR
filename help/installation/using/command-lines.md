@@ -28,9 +28,9 @@ ht-degree: 4%
 nlserver config -addinstance:instance/masques DNS[/lang]
 ```
 
-(여기서 **eng** 및 **fra** 다음에 대해 가능한 값: `[lang]` 매개 변수)
+(여기서 **eng** 및 **fra**&#x200B;은(는) `[lang]` 매개 변수에 사용할 수 있는 값입니다.)
 
-명령 **nlserver config -addinstance:instance1/demo&#42;/eng** 을(를) 통해 이라는 인스턴스를 **instance1** DNS 마스크 데모 사용&#42;.
+**nlserver config -addinstance:instance1/demo&#42;/eng** 명령을 사용하면 DNS 마스크 demo&#42;을(를) 사용하여 영어로 **instance1**&#x200B;이라는 인스턴스를 만들 수 있습니다.
 
 ## 데이터베이스 선언 {#declaring-a-database}
 
@@ -40,13 +40,13 @@ nlserver config -addinstance:instance/masques DNS[/lang]
 nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 ```
 
-다음 값은 다음에 대해 가능합니다. **`[rdbms]`** 매개 변수:
+**`[rdbms]`** 매개 변수에는 다음 값을 사용할 수 있습니다.
 
-* **postgresql**: PostgreSQL의 경우,
-* **oracle**: Oracle의 경우
+* **postgresql**: PostgreSQL의 경우
+* **oracle**: Oracle,
 * **mssql**: Microsoft SQL Server의 경우
 
-다음 명령은 **데모** SQL 유형 서버가 있는 인스턴스(알려진 경우) **base6**, 다음에 연결됨 **campaign** 계정 및 해당 **암호** 다음에 있음 **dbsrv** 서버:
+다음 명령은 **dbsrv** 서버에서 **campaign** 계정 및 해당 **password**&#x200B;에 연결된 SQL 유형 서버(**base6**)를 사용하여 **demo** 인스턴스를 구성합니다.
 
 ```sql
  nlserver config -setdblogin:db:campaign:myBase/password@dbServer -instance:demo

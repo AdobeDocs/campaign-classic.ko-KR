@@ -23,9 +23,9 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->개인화가 포함된 이메일 콘텐츠의 링크는 추적할 특정 구문이 필요합니다. 개인화할 수 있고 추적을 지원하는 이메일에 링크를 추가하는 방법에 대한 자세한 내용은 을 참조하십시오. [이 섹션](tracking-personalized-links.md).
+>개인화가 포함된 이메일 콘텐츠의 링크는 추적할 특정 구문이 필요합니다. 개인화할 수 있고 추적을 지원하는 전자 메일에 링크를 추가하는 방법에 대한 자세한 내용은 [이 섹션](tracking-personalized-links.md)을 참조하세요.
 
-에 URL을 구분 기호로 묶는 것이 좋습니다. **[!UICONTROL Text content]** 추적 공식을 적용하기 전의 탭입니다. 이 탭에 입력하는 URL 구분 기호는 Adobe Campaign에서 문자 문자열 내에서 URL을 식별하는 데 사용됩니다. 다음 구분 기호 쌍을 사용할 수 있습니다.
+추적 수식을 적용하기 전에 **[!UICONTROL Text content]** 탭에서 URL을 구분 기호로 묶는 것이 좋습니다. 이 탭에 입력하는 URL 구분 기호는 Adobe Campaign에서 문자 문자열 내에서 URL을 식별하는 데 사용됩니다. 다음 구분 기호 쌍을 사용할 수 있습니다.
 * 괄호( )
 * 대괄호 [ ]
 * 중괄호 { }
@@ -37,7 +37,7 @@ ht-degree: 10%
 
 메시지 추적은 기본적으로 활성화되어 있습니다. URL을 추적하는 방법을 개인화하려면 아래 단계를 따르십시오.
 
-1. 다음 항목 선택 **[!UICONTROL Display URLs]** 게재 마법사의 메시지 내용 아래에 있는 옵션입니다.
+1. 메시지 콘텐츠 아래 게재 마법사의 아래 섹션에서 **[!UICONTROL Display URLs]** 옵션을 선택합니다.
 
    ![](assets/s_ncs_user_email_del_display_urls.png)
 
@@ -59,17 +59,17 @@ ht-degree: 10%
    >
    >게재 추적 시 정보 읽기를 간소화하도록 추적된 URL의 레이블과 레이블을 수정할 수 있습니다. 클릭 수를 계산할 때 이름이 같은 URL 두 개 또는 레이블 두 개가 함께 추가됩니다.
 
-1. 필요한 경우 추적 모드를 변경하고 **[!UICONTROL Tracking]** 아래 표시된 대로 타겟팅된 링크와 일치하는 열:
+1. 필요한 경우 추적 모드를 변경하고 **[!UICONTROL Tracking]** 열에서 아래 표시된 대로 대상 링크와 일치하는 새 모드를 선택하십시오.
 
    ![](assets/s_ncs_user_select_tracking_mode.png)
 
    각 개별 URL에 대해 추적 모드를 다음 값 중 하나로 설정할 수 있습니다.
 
-   * **[!UICONTROL Enabled]** : 이 URL에 대한 추적을 활성화합니다.
+   * **[!UICONTROL Enabled]** : 이 URL에서 추적을 활성화합니다.
    * **[!UICONTROL Not tracked]** : 이 URL에 대한 추적을 비활성화합니다.
    * **[!UICONTROL Always enabled]** : 항상 이 URL의 추적을 활성화합니다. 이 정보는 다음에 URL이 향후 메시지 콘텐츠에 다시 나타나는 경우 해당 추적이 자동으로 활성화되도록 저장됩니다.
-   * **[!UICONTROL Never tracked]** : 이 URL 추적을 활성화하지 않습니다. 이 정보는 다음에 URL이 향후 메시지에 다시 나타나는 경우 해당 추적이 자동으로 비활성화되도록 저장됩니다.
+   * **[!UICONTROL Never tracked]** : 이 URL의 추적을 활성화하지 않습니다. 이 정보는 다음에 URL이 향후 메시지에 다시 나타나는 경우 해당 추적이 자동으로 비활성화되도록 저장됩니다.
    * **[!UICONTROL Opt-out]** : 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
    * **[!UICONTROL Mirror page]** : 이 URL을 미러 페이지 URL로 간주합니다.
 
-1. 또한 의 드롭다운 목록에서 각 추적된 URL에 대한 카테고리를 선택할 수 있습니다. **[!UICONTROL Category]** 열. 이러한 범주는 다음과 같이 보고서에 표시될 수 있습니다. **[!UICONTROL URLs and click streams]** (참조 [이 섹션](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). 범주는 특정 열거형에 정의됩니다. **[!UICONTROL urlCategory]** (참조 [열거형 관리](../../platform/using/managing-enumerations.md)).
+1. 또한 **[!UICONTROL Category]** 열의 드롭다운 목록에서 각 추적된 URL의 범주를 선택할 수 있습니다. 이러한 범주는 **[!UICONTROL URLs and click streams]**&#x200B;과(와) 같이 보고서에 표시될 수 있습니다([이 섹션](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams) 참조). 특정 열거형에 범주가 정의되어 있습니다. **[!UICONTROL urlCategory]**([열거형 관리](../../platform/using/managing-enumerations.md) 참조).

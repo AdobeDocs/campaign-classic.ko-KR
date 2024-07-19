@@ -17,7 +17,7 @@ ht-degree: 5%
 
 
 
-1. 클릭 **[!UICONTROL Start]** 워크플로입니다.
+1. **[!UICONTROL Start]** 워크플로를 클릭합니다.
 
    ![](assets/use_case_abtesting_startwkfl_001.png)
 
@@ -31,4 +31,4 @@ ht-degree: 5%
 
 1. 세 번째 게재의 콘텐츠가 결정되면 타겟 및 콘텐츠를 승인합니다.
 
-이제 결과를 분석할 수 있습니다. [자세히 알아보기](a-b-testing-uc-analyzing.md)
+이제 결과를 분석할 수 있습니다. [자세히 알아보기](a-b-testing-uc-analyzing.md).

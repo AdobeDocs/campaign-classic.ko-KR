@@ -20,11 +20,11 @@ ht-degree: 1%
 
 적절한 권한이 있는 경우 템플릿에서 만든 분석 보고서를 저장하거나 Excel, PDF 또는 OpenOffice 형식으로 내보낼 수 있습니다.
 
-보고서를 저장하려면 를 클릭합니다. **[!UICONTROL Save]** 보고서에 레이블을 지정합니다.
+보고서를 저장하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하고 보고서에 레이블을 지정하십시오.
 
-선택 **[!UICONTROL Also save data]** 보고서의 내역을 만들고 저장 시 보고서 값을 보려면. 자세한 내용은 다음을 참조하십시오. [분석 보고서 보관](#archiving-analysis-reports).
+보고서 기록을 만들고 저장 시 보고서 값을 보려면 **[!UICONTROL Also save data]**&#x200B;을(를) 선택하십시오. 자세한 내용은 [분석 보고서 보관](#archiving-analysis-reports)을 참조하세요.
 
-다음 **[!UICONTROL Share this report]** 옵션을 사용하면 다른 운영자가 보고서에 액세스할 수 있습니다.
+**[!UICONTROL Share this report]** 옵션을 사용하면 다른 운영자가 보고서에 액세스할 수 있습니다.
 
 ![](assets/s_ncs_user_report_wizard_010.png)
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_report_wizard_08a.png)
 
-이 보고서를 변경하려면 **[!UICONTROL Administration > Configuration > Adobe Campaign tree reports]** Adobe Campaign 트리의 노드(또는 연산자가 편집 권한을 갖는 첫 번째 &#39;Reports&#39; 유형 폴더). 자세한 내용은 다음을 참조하십시오. [설명 분석 보고서의 레이아웃 구성](#configuring-the-layout-of-a-descriptive-analysis-report).
+이 보고서를 변경하려면 Adobe Campaign 트리의 **[!UICONTROL Administration > Configuration > Adobe Campaign tree reports]** 노드(또는 연산자에게 편집 권한이 있는 첫 번째 &#39;Reports&#39; 형식 폴더)를 편집하십시오. 자세한 내용은 [설명 분석 보고서의 레이아웃 구성](#configuring-the-layout-of-a-descriptive-analysis-report)을 참조하세요.
 
 ## 분석 보고서 추가 설정 {#analysis-report-additional-settings}
 
@@ -40,19 +40,19 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_report_wizard_08b.png)
 
-이러한 옵션은 표준 보고서와 동일하며 다음에서 자세히 설명합니다. [이 페이지](../../reporting/using/properties-of-the-report.md).
+이러한 옵션은 표준 보고서와 동일하며 [이 페이지](../../reporting/using/properties-of-the-report.md)에 자세히 설명되어 있습니다.
 
 ## 설명 분석 보고서의 레이아웃 구성 {#configuring-the-layout-of-a-descriptive-analysis-report}
 
-설명 분석의 차트 및 테이블에서 데이터의 표시 및 레이아웃을 개인화할 수 있습니다. 모든 옵션은 의 Adobe Campaign 트리를 통해 액세스합니다 **[!UICONTROL Edit]** 각 보고서의 탭.
+설명 분석의 차트 및 테이블에서 데이터의 표시 및 레이아웃을 개인화할 수 있습니다. 모든 옵션은 각 보고서의 **[!UICONTROL Edit]** 탭에서 Adobe Campaign 트리를 통해 액세스할 수 있습니다.
 
 ### 분석 보고서 표시 모드 {#analysis-report-display-mode}
 
-를 사용하여 보고서를 만들 때 **[!UICONTROL qualitative distribution]** 템플릿, 테이블 및 차트 표시 모드는 기본적으로 선택됩니다. 디스플레이 모드를 하나만 표시하려면 해당 상자를 선택 취소합니다. 즉, 선택한 표시 모드의 탭만 사용할 수 있습니다.
+**[!UICONTROL qualitative distribution]** 템플릿을 사용하여 보고서를 만들면 기본적으로 테이블 및 차트 표시 모드가 선택됩니다. 디스플레이 모드를 하나만 표시하려면 해당 상자를 선택 취소합니다. 즉, 선택한 표시 모드의 탭만 사용할 수 있습니다.
 
 ![](assets/s_ncs_advuser_report_display_01.png)
 
-보고서의 스키마를 변경하려면 **[!UICONTROL Select the link]** 데이터베이스에서 다른 테이블을 선택합니다.
+보고서의 스키마를 변경하려면 **[!UICONTROL Select the link]**&#x200B;을(를) 클릭하고 데이터베이스에서 다른 테이블을 선택하십시오.
 
 ![](assets/s_ncs_advuser_report_display_02.png)
 
@@ -86,12 +86,12 @@ ht-degree: 1%
 
 설명 분석 테이블에서 직접 데이터 레이아웃을 개인화할 수 있습니다. 이렇게 하려면 작업할 변수를 마우스 오른쪽 단추로 클릭합니다. 드롭다운 메뉴에서 사용 가능한 옵션을 선택합니다.
 
-* **[!UICONTROL Pivot]** 를 클릭하여 변수의 축을 변경합니다.
-* **[!UICONTROL Up]** / **[!UICONTROL Down]** 을 눌러 변수를 선으로 바꿉니다.
-* **[!UICONTROL Move to the right]** / **[!UICONTROL Move to the left]** 을 눌러 열의 변수를 바꿉니다.
-* **[!UICONTROL Turn]** 를 클릭하여 변수 축을 반전합니다.
-* **[!UICONTROL Sort from A to Z]** 변수 값을 낮음에서 높음으로 정렬합니다.
-* **[!UICONTROL Sort from Z to A]** 변수 값을 높음에서 낮음으로 정렬합니다.
+* **[!UICONTROL Pivot]**&#x200B;을(를) 입력하여 변수의 축을 변경합니다.
+* **[!UICONTROL Up]** / **[!UICONTROL Down]**(으)로 변수를 바꿉니다.
+* **[!UICONTROL Move to the right]** / **[!UICONTROL Move to the left]**&#x200B;을(를) 사용하여 열의 변수를 바꿉니다.
+* 변수 축을 반전하려면 **[!UICONTROL Turn]**&#x200B;을(를) 사용합니다.
+* 변수 값을 낮음에서 높음으로 정렬하는 **[!UICONTROL Sort from A to Z]**.
+* 변수 값을 높음에서 낮음으로 정렬하는 **[!UICONTROL Sort from Z to A]**.
 
   ![](assets/s_ncs_advuser_report_wizard_016.png)
 
@@ -99,20 +99,20 @@ ht-degree: 1%
 
 ### 분석 보고서 차트 옵션 {#analysis-report-chart-options}
 
-차트에 있는 데이터 표시를 개인화할 수 있습니다. 이렇게 하려면 **[!UICONTROL Variables...]** 링크는 차트 유형 선택 단계에서 사용할 수 있습니다.
+차트에 있는 데이터 표시를 개인화할 수 있습니다. 이렇게 하려면 차트 유형 선택 단계에서 사용할 수 있는 **[!UICONTROL Variables...]** 링크를 클릭합니다.
 
 ![](assets/s_ncs_advuser_report_wizard_3c.png)
 
 다음 옵션을 사용할 수 있습니다.
 
 * 창의 위쪽 섹션에서 차트 표시 영역을 수정할 수 있습니다.
-* 기본적으로 차트에 레이블이 표시됩니다. 다음을 선택 취소하여 숨길 수 있습니다. **[!UICONTROL Show values]** 옵션을 선택합니다.
-* 다음 **[!UICONTROL Accumulate values]** 옵션을 사용하면 한 계열에서 다른 계열에 값을 추가할 수 있습니다.
+* 기본적으로 차트에 레이블이 표시됩니다. **[!UICONTROL Show values]** 옵션을 선택 취소하여 숨길 수 있습니다.
+* **[!UICONTROL Accumulate values]** 옵션을 사용하면 한 계열에서 다른 계열에 값을 추가할 수 있습니다.
 * 차트 범례를 표시할지 여부를 결정할 수 있습니다. 숨기려면 해당 옵션의 선택을 취소합니다. 기본적으로 범례는 오른쪽 상단 모서리에 있는 차트 외부에 표시됩니다.
 
-  범례는 표시 공간에 저장하기 위해 차트 위에 표시될 수도 있습니다. 이렇게 하려면 옵션을 선택합니다 **[!UICONTROL Include in the chart]**
+  범례는 표시 공간에 저장하기 위해 차트 위에 표시될 수도 있습니다. 이렇게 하려면 **[!UICONTROL Include in the chart]** 옵션을 선택하십시오.
 
-  에서 세로 및 가로 정렬을 선택합니다. **[!UICONTROL Caption position]** 드롭다운 목록입니다.
+  **[!UICONTROL Caption position]** 드롭다운 목록에서 세로 및 가로 정렬을 선택합니다.
 
   ![](assets/s_ncs_advuser_report_wizard_3d.png)
 
@@ -128,9 +128,9 @@ ht-degree: 1%
 
 Adobe Campaign에 이미 저장된 기존 보고서를 사용하여 데이터에 대한 설명 분석 보고서를 만들 수 있습니다. 이 모드는 분석을 저장하거나 설명 분석 마법사를 통해 액세스할 수 있도록 보고서를 만들고 구성한 경우 가능합니다.
 
-설명 분석을 저장하는 방법을 알아보려면 다음을 참조하십시오. [분석 보고서 저장](#saving-an-analysis-report).
+설명 분석을 저장하는 방법을 알아보려면 [분석 보고서 저장](#saving-an-analysis-report)을 참조하세요.
 
-설명 분석 보고서를 작성하려면 워크플로우 전환 또는 를 통해 설명 분석 마법사를 실행해야 합니다. **[!UICONTROL Tools > Descriptive analysis]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+설명 분석 보고서를 만들려면 워크플로우 전환 또는 **[!UICONTROL Tools > Descriptive analysis]** 메뉴를 통해 설명 분석 마법사를 실행해야 합니다.
 
 1. **[!UICONTROL Existing analyses and reports]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 1. 사용 가능한 보고서 목록에 액세스할 수 있습니다. 생성하려는 보고서를 선택합니다.

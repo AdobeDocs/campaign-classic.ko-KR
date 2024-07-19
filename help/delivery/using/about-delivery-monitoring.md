@@ -32,7 +32,7 @@ ht-degree: 5%
 
 <img src="assets/do-not-localize/icon_guidelines.svg" width="60px">
 
-**게재 성능 보호**
+**보안 게재 성능**
 
 게재 성능을 보장하기 위해서는 몇 가지 지침을 따라야 합니다. 게재를 전송할 때 발생할 수 있는 일반적인 문제는 게재를 효율적으로 전송하는 데 도움이 될 수도 있습니다.
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 
 프로필에 메시지를 보낼 수 없는 경우 원격 서버는 오류 메시지를 자동으로 전송합니다. 오류 메시지는 Adobe Campaign 플랫폼에서 선택하며 이메일 주소 또는 전화 번호 격리 여부를 결정할 수 있습니다.
 
-[게재 실패 이해](understanding-delivery-failures.md) 는 마케팅 캠페인을 개선하는 데 도움이 되는 주요 단계입니다.
+[게재 실패 이해](understanding-delivery-failures.md)는 마케팅 캠페인을 개선하는 데 도움이 되는 주요 단계입니다.
 
 <img src="assets/do-not-localize/icon_quarantine.svg" width="60px">
 
@@ -53,4 +53,4 @@ ht-degree: 5%
 
 Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외되며 타겟팅되지 않습니다.
 
-위치 [이 섹션](understanding-quarantine-management.md)에서는 격리된 주소를 식별하고 관리하는 방법에 대한 정보를 확인할 수 있으며 주소를 격리하는 조건에 대해 자세히 알아봅니다.
+[이 섹션](understanding-quarantine-management.md)에서는 격리된 주소를 식별하고 관리하는 방법에 대한 정보를 확인할 수 있으며 주소를 격리하는 조건에 대해 자세히 알아봅니다.

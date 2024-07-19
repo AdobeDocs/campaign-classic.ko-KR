@@ -24,9 +24,9 @@ ht-degree: 1%
 
 전체적으로 세 가지 유형의 비닝을 사용할 수 있습니다.
 
-1. 수동으로 정의된 값 범위 사용. (예: 연령, 평균 장바구니, 열린 게재 수 등). 자세한 내용은 다음을 참조하십시오. [각 bin 정의](#defining-each-bin).
-1. 동적으로 열거형의 값에 따라 열거형에 포함된 값만 표시하고 다른 모든 값은 &#39;기타&#39;로 그룹화합니다. 자세한 내용은 다음을 참조하십시오. [동적으로 빈 관리](#dynamically-managing-bins).
-1. 값 범위를 사용하여 다른 모든 항목은 함께 그룹화됩니다. 예를 들어, 18세에서 25세, 26세에서 59세, 그리고 다른 사람들은. 자세한 내용은 다음을 참조하십시오. [값 범위 만들기](#creating-value-ranges).
+1. 수동으로 정의된 값 범위 사용. (예: 연령, 평균 장바구니, 열린 게재 수 등). 자세한 내용은 [각 저장소 정의](#defining-each-bin)를 참조하세요.
+1. 동적으로 열거형의 값에 따라 열거형에 포함된 값만 표시하고 다른 모든 값은 &#39;기타&#39;로 그룹화합니다. 자세한 내용은 [동적으로 빈 관리](#dynamically-managing-bins)를 참조하세요.
+1. 값 범위를 사용하여 다른 모든 항목은 함께 그룹화됩니다. 예를 들어, 18세에서 25세, 26세에서 59세, 그리고 다른 사람들은. 자세한 내용은 [값 범위 만들기](#creating-value-ranges)를 참조하세요.
 
 비닝을 활성화하려면 차원을 생성할 때 해당 상자를 선택합니다.
 
@@ -38,11 +38,11 @@ Adobe Campaign은 자동 비닝을 위한 도우미도 제공합니다. 값은 N
 
 ### 각 저장소 정의 {#defining-each-bin}
 
-각 저장소를 개별적으로 만들려면 **[!UICONTROL Define each bin]** 옵션을 선택하고 표를 사용하여 다양한 저장소를 생성합니다.
+각 저장소를 개별적으로 만들려면 **[!UICONTROL Define each bin]** 옵션을 선택하고 표를 사용하여 다양한 저장소를 만드십시오.
 
 ![](assets/s_advuser_cube_class_01.png)
 
-다음을 클릭합니다. **[!UICONTROL Add]** 단추를 클릭하여 새 저장소를 만들고 저장소로 그룹화할 값을 나열합니다.
+새 저장소를 만들고 저장소로 그룹화할 값을 나열하려면 **[!UICONTROL Add]** 단추를 클릭하십시오.
 
 ![](assets/s_advuser_cube_class_02.png)
 
@@ -50,9 +50,9 @@ Adobe Campaign은 자동 비닝을 위한 도우미도 제공합니다. 값은 N
 
 ![](assets/s_advuser_cube_class_03.png)
 
-SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다. 이렇게 하려면 다음을 확인하십시오. **[!UICONTROL Yes]** 다음에서 **[!UICONTROL Use an SQL mask]** 열에 을 추가하고 다음에 적용할 SQL 필터를 입력합니다. **[!UICONTROL Value or expression]** 열.
+SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다. 이렇게 하려면 **[!UICONTROL Use an SQL mask]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 확인하고 **[!UICONTROL Value or expression]** 열에 적용할 SQL 필터를 입력하십시오.
 
-아래 예에서 시작하는 모든 이메일 도메인 **yahoo** (yahoo.fr, yahoo.com, yahoo.be 등), 또는 **이메일** (ymail.com, ymail.eu 등) 레이블 아래에 그룹화됩니다. **야후!**, 및 를 사용하는 주소 **rocketmail.com** 도메인.
+아래 예에서는 **yahoo**(yahoo.fr, yahoo.com, yahoo.be 등)으로 시작되거나 **ymail**(ymail.com, ymail.eu 등)로 시작하는 모든 전자 메일 도메인입니다. **YAHOO! 레이블 아래에 그룹화됩니다.** 및 **rocketmail.com** 도메인의 주소입니다.
 
 ![](assets/s_advuser_cube_class_03b.png)
 
@@ -63,7 +63,7 @@ SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다
 이러한 유형의 값 비닝을 만들려면 다음 단계를 적용합니다.
 
 1. 새 차원을 만들고 비닝을 활성화합니다.
-1. 다음 항목 선택 **[!UICONTROL Dynamically link the values to an enumeration]** 옵션을 선택하고 일치하는 열거형을 선택합니다.
+1. **[!UICONTROL Dynamically link the values to an enumeration]** 옵션을 선택하고 일치하는 열거형을 선택하십시오.
 
    ![](assets/s_advuser_cube_class_04.png)
 
@@ -73,15 +73,15 @@ SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다
 
 원하는 간격에 따라 값을 범위로 그룹화할 수 있습니다.
 
-범위를 수동으로 정의하려면 **[!UICONTROL Add]** 단추 및 선택 **[!UICONTROL Define a range]** :
+범위를 수동으로 정의하려면 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Define a range]**:
 
 ![](assets/s_advuser_cube_class_05.png)
 
-그런 다음 하한과 상한을 지정하고 을 클릭합니다 **[!UICONTROL Ok]** 확인할 수 있습니다.
+그런 다음 하한과 상한을 지정하고 **[!UICONTROL Ok]**&#x200B;을(를) 클릭하여 확인합니다.
 
 ### 자동으로 빈 생성 {#generating-bins-automatically}
 
-빈을 자동으로 생성할 수도 있습니다. 이렇게 하려면 **[!UICONTROL Generate bins...]** 링크를 클릭합니다.
+빈을 자동으로 생성할 수도 있습니다. 이렇게 하려면 **[!UICONTROL Generate bins...]** 링크를 클릭하십시오.
 
 ![](assets/s_advuser_cube_class_06.png)
 
@@ -109,17 +109,17 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 ![](assets/nmx_enum_domain.png)
 
-이 열거형을 사용하여 보고서를 만들려면 **[!UICONTROL Email domain]** 차원. 다음을 선택합니다. **[!UICONTROL Enable binning]** 옵션 then **[!UICONTROL Dynamically link the values to an enumeration]**. 그런 다음 를 선택합니다. **도메인** 열거형(위에 표시된 대로). 지정된 별칭이 없는 모든 값은 **기타** 레이블.
+이 열거형을 사용하여 보고서를 만들려면 **[!UICONTROL Email domain]** 차원을 사용하여 큐브를 만드십시오. **[!UICONTROL Enable binning]** 옵션을 선택한 다음 **[!UICONTROL Dynamically link the values to an enumeration]**&#x200B;을(를) 선택하십시오. 그런 다음 위와 같이 **도메인** 열거형을 선택합니다. 지정된 별칭이 없는 모든 값은 **기타** 레이블 아래에 다시 그룹화됩니다.
 
 ![](assets/nmx_add_dimension.png)
 
 그런 다음 이 큐브를 기반으로 보고서를 만들어 값을 표시합니다.
 
-관련 보고서를 업데이트하려면 열거형만 수정하면 됩니다. 예를 들어 **Adobe** 값 및 추가 **adobe.com** 별칭과 보고서는 열거형 수준에서 Adobe 값으로 자동 업데이트됩니다.
+관련 보고서를 업데이트하려면 열거형만 수정하면 됩니다. 예를 들어 **Adobe** 값을 만들고 **adobe.com** 별칭을 추가하면 보고서가 열거형 수준에서 Adobe 값으로 자동 업데이트됩니다.
 
 ![](assets/nmx_add_alias.png)
 
-다음 **[!UICONTROL Domains]** 열거형은 도메인 목록을 표시하는 기본 제공 보고서를 생성하는 데 사용됩니다. 이러한 보고서의 콘텐츠를 조정하기 위해 이 목록을 편집할 수 있습니다.
+**[!UICONTROL Domains]** 열거형은 도메인 목록을 표시하는 기본 제공 보고서를 생성하는 데 사용됩니다. 이러한 보고서의 콘텐츠를 조정하기 위해 이 목록을 편집할 수 있습니다.
 
 빈에 예약된 다른 열거형을 만들어 다른 큐브에서 사용할 수 있습니다. 모든 별칭 값은 첫 번째 열거형 탭에 지정된 빈에 다시 그룹화됩니다.
 
@@ -137,7 +137,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 새 합계를 만들려면 다음 단계를 적용합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Aggregates]** 큐브의 탭을 클릭한 다음 **[!UICONTROL Add]** 단추를 클릭합니다.
+1. 큐브의 **[!UICONTROL Aggregates]** 탭을 클릭한 다음 **[!UICONTROL Add]** 단추를 클릭합니다.
 
    ![](assets/s_advuser_cube_agregate_02.png)
 
@@ -146,12 +146,12 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
    ![](assets/s_advuser_cube_agregate_03.png)
 
 1. 차원 및 레벨을 선택합니다. 각 차원 및 각 레벨에 대해 이 프로세스를 반복합니다.
-1. 다음을 클릭합니다. **[!UICONTROL Workflow]** 탭을 사용하여 합계 워크플로우를 만들 수 있습니다.
+1. 집계 워크플로우를 만들려면 **[!UICONTROL Workflow]** 탭을 클릭하십시오.
 
    ![](assets/s_advuser_cube_agregate_04.png)
 
-   * 다음 **[!UICONTROL Scheduler]** 활동을 사용하면 계산 업데이트 빈도를 정의할 수 있습니다. 스케줄러는 다음에 자세히 설명되어 있습니다. [이 섹션](../../workflow/using/scheduler.md).
-   * 다음 **[!UICONTROL Aggregate update]** 활동을 사용하면 적용할 업데이트 모드(전체 또는 일부)를 선택할 수 있습니다.
+   * **[!UICONTROL Scheduler]** 활동을 통해 계산 업데이트 빈도를 정의할 수 있습니다. 스케줄러는 [이 섹션](../../workflow/using/scheduler.md)에 자세히 설명되어 있습니다.
+   * **[!UICONTROL Aggregate update]** 활동을 사용하면 적용할 업데이트 모드를 전체 또는 일부 중에서 선택할 수 있습니다.
 
      기본적으로 각 계산 중에 전체 업데이트가 수행됩니다. 부분 업데이트를 활성화하려면 관련 옵션을 선택하고 업데이트 조건을 정의합니다.
 
@@ -159,39 +159,39 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 ## 측정값 정의 {#defining-measures}
 
-측정 유형은 **[!UICONTROL Measures]** 큐브의 탭. 합계, 평균, 편차 등을 계산할 수 있습니다.
+측정 단위 유형은 큐브의 **[!UICONTROL Measures]** 탭에서 정의됩니다. 합계, 평균, 편차 등을 계산할 수 있습니다.
 
-필요한 만큼 측정값을 생성할 수 있습니다. 그런 다음 테이블에 표시하거나 숨길 측정값을 선택합니다. 자세한 내용은 다음을 참조하십시오. [측정값 표시](#displaying-measures).
+필요한 만큼 측정값을 생성할 수 있습니다. 그런 다음 테이블에 표시하거나 숨길 측정값을 선택합니다. 자세한 내용은 [측정값 표시](#displaying-measures)를 참조하세요.
 
 새 측정값을 정의하려면 다음 단계를 적용합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Add]** 측정 단위 목록 위에 버튼을 누르고 측정 유형과 계산할 공식을 선택합니다.
+1. 측정값 목록 위에 있는 **[!UICONTROL Add]** 단추를 클릭하고 측정값 유형과 계산할 공식을 선택합니다.
 
    ![](assets/s_advuser_cube_create_a_measure.png)
 
 1. 필요한 경우 연산자에 따라 연산에 관련된 표현식을 선택합니다.
 
-   다음 **[!UICONTROL Advanced selection]** 버튼을 사용하면 복잡한 계산 공식을 생성할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/about-queries-in-campaign.md)을 참조하십시오.
+   **[!UICONTROL Advanced selection]** 단추를 사용하면 복잡한 계산 공식을 만들 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/about-queries-in-campaign.md)을 참조하십시오.
 
    ![](assets/s_advuser_cube_create_a_measure_01.png)
 
-1. 다음 **[!UICONTROL Filter the measure data...]** 링크를 사용하여 계산 필드를 제한하고 데이터베이스의 특정 데이터에만 적용할 수 있습니다.
+1. **[!UICONTROL Filter the measure data...]** 링크를 사용하면 계산 필드를 제한하고 데이터베이스의 특정 데이터에만 적용할 수 있습니다.
 
    ![](assets/s_advuser_cube_create_a_measure_02.png)
 
-1. 측정값의 레이블을 입력하고 설명을 추가한 다음 을 클릭합니다. **[!UICONTROL Finish]** 만들어 보십시오.
+1. 측정값의 레이블을 입력하고 설명을 추가한 다음 **[!UICONTROL Finish]**&#x200B;을(를) 클릭하여 만듭니다.
 
 ## 측정값 표시 {#displaying-measures}
 
 필요에 따라 테이블에서 측정 단위 표시를 구성할 수 있습니다.
 
-* 측정 단위 표시 순서(참조: [시퀀스 표시](#display-sequence)),
-* 보고서에 표시하거나 숨길 정보(참조) [디스플레이 구성](#configuring-the-display))
-* 표시할 측정 단위: 백분율, 합계, 소수점 수 등 (참조: [표시되는 측정 유형 변경](#changing-the-type-of-measure-displayed)).
+* 측정값의 표시 순서([표시 순서](#display-sequence) 참조),
+* 보고서에 표시하거나 숨길 정보([표시 구성](#configuring-the-display) 참조)
+* 표시할 측정 단위: 백분율, 합계, 소수점 수 등 ([표시되는 측정 유형을 변경](#changing-the-type-of-measure-displayed)을(를) 참조하십시오.)
 
 ### 시퀀스 표시 {#display-sequence}
 
-큐브에서 계산된 측정 단위는 다음을 통해 구성됩니다. **[!UICONTROL Measures]** 단추를 클릭합니다.
+큐브에서 계산된 측정값은 **[!UICONTROL Measures]** 단추를 통해 구성됩니다.
 
 표시 순서를 변경하려면 선을 이동합니다. 다음 예에서 프랑스어 데이터는 목록의 맨 아래로 이동됩니다. 즉, 마지막 열에 표시됩니다.
 
@@ -201,7 +201,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 측정값, 라인 및 열의 구성은 각 측정값 또는 전체에 대해 개별적으로 수행할 수 있습니다. 특정 아이콘을 사용하여 표시 모드 선택 창에 액세스할 수 있습니다.
 
-* 다음을 클릭합니다. **[!UICONTROL Edit the configuration of the pivot table]** 구성 창에 액세스하기 위한 아이콘
+* 구성 창에 액세스하려면 **[!UICONTROL Edit the configuration of the pivot table]** 아이콘을 클릭하십시오.
 
   측정값의 레이블을 표시할지 여부를 선택하고 해당 레이아웃(선 또는 열)을 구성할 수 있습니다.
 
@@ -221,11 +221,11 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 보고서가 구성되면 이를 저장하고 다른 연산자와 공유할 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL Show the report properties]** 아이콘 및 활성화 **[!UICONTROL Share this report]** 옵션을 선택합니다.
+이렇게 하려면 **[!UICONTROL Show the report properties]** 아이콘을 클릭하고 **[!UICONTROL Share this report]** 옵션을 활성화합니다.
 
 ![](assets/cube_share_option.png)
 
-보고서가 속한 범주 및 해당 관련성을 지정합니다. 자세한 내용은 다음을 참조하십시오. [이 페이지](../../reporting/using/configuring-access-to-the-report.md#report-display-context) (으)로 **시퀀스 표시**&#x200B;및 **필터링 옵션 정의** 섹션.
+보고서가 속한 범주 및 해당 관련성을 지정합니다. 자세한 내용은 [이 페이지](../../reporting/using/configuring-access-to-the-report.md#report-display-context)에서 **표시 순서**&#x200B;와 **필터링 옵션 정의** 섹션을 참조하세요.
 
 이러한 변경 사항을 확인하려면 보고서를 저장해야 합니다.
 
@@ -237,7 +237,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 방법은 다음과 같습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Add a filter]** 아이콘.
+1. **[!UICONTROL Add a filter]** 아이콘을 클릭합니다.
 
    ![](assets/neolap_add_filter.png)
 
@@ -263,7 +263,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 필터가 수정 (추가, 제거, 변경)될 때마다 보고서는 다시 계산되어야 합니다.
 
-선택 항목을 기반으로 필터를 만들 수도 있습니다. 이렇게 하려면 소스 셀, 줄 및 열을 선택한 다음 **[!UICONTROL Add a filter]** 아이콘.
+선택 항목을 기반으로 필터를 만들 수도 있습니다. 이렇게 하려면 원본 셀, 줄 및 열을 선택한 다음 **[!UICONTROL Add a filter]** 아이콘을 클릭합니다.
 
 라인, 열 또는 셀을 선택하려면 마우스 왼쪽 단추로 클릭합니다. 선택을 취소하려면 다시 클릭합니다.
 

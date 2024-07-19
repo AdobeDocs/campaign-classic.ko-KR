@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 데이터 스키마  {#data-schema}
 
-의 경우 `<srcschema>`, 구조는 다음과 같습니다.
+`<srcschema>`의 구조는 다음과 같습니다.
 
 ```sql
 <srcSchema>
@@ -64,7 +64,7 @@ ht-degree: 1%
 </srcSchema>
 ```
 
-데이터 스키마의 XML 문서에는 **`<srcschema>`** 루트 요소 **이름** 및 **네임스페이스** 속성을 사용하여 스키마 이름과 해당 네임스페이스를 채웁니다.
+데이터 스키마의 XML 문서에는 스키마 이름과 해당 네임스페이스를 채우려면 **이름** 및 **네임스페이스** 특성이 있는 **`<srcschema>`** 루트 요소가 있어야 합니다.
 
 ```sql
 <srcSchema name="schema_name" namespace="namespace">
@@ -105,7 +105,7 @@ ht-degree: 1%
 <element name="recipient">
 ```
 
-다음 **`<attribute>`** 및 **`<element>`** 기본 요소 다음에 오는 요소는 XML 구조에서 데이터 항목의 위치와 이름을 정의하는 데 사용됩니다.
+기본 요소 다음에 오는 **`<attribute>`** 및 **`<element>`** 요소는 XML 구조에서 데이터 항목의 위치 및 이름을 정의하는 데 사용됩니다.
 
 샘플 스키마에서는 다음과 같습니다.
 
@@ -120,42 +120,42 @@ ht-degree: 1%
 
 다음 규칙이 적용됩니다.
 
-* 각 **`<element>`** 및 **`<attribute>`** 은(는) 다음을 통해 이름으로 식별되어야 합니다. **이름** 특성.
+* 각 **`<element>`** 및 **`<attribute>`**&#x200B;은(는) **name** 특성을 통해 이름으로 식별되어야 합니다.
 
   >[!IMPORTANT]
   >
   >요소의 이름은 간결해야 하며, 가급적 영어로 작성해야 하고, XML 이름 지정 규칙에 허용되는 문자만 포함해야 합니다.
 
-* 전용 **`<element>`** 요소는 다음을 포함할 수 있습니다. **`<attribute>`** 요소 및 **`<element>`** 요소를 XML 구조로 만듭니다.
-* An **`<attribute>`** 요소는 다음 내에서 고유한 이름을 가져야 합니다. **`<element>`**.
-* 사용 **`<elements>`** 여러 줄 데이터 문자열에서 를 사용하는 것이 좋습니다.
+* XML 구조에는 **`<element>`** 요소만 **`<attribute>`** 요소와 **`<element>`** 요소를 포함할 수 있습니다.
+* **`<attribute>`** 요소는 **`<element>`** 내에서 고유한 이름을 가져야 합니다.
+* 여러 줄 데이터 문자열에서 **`<elements>`**&#x200B;을(를) 사용하는 것이 좋습니다.
 
 ## 데이터 유형 {#data-types}
 
-데이터 유형은 다음을 통해 입력됩니다. **유형** 의 속성 **`<attribute>`** 및 **`<element>`** 요소.
+데이터 형식은 **`<attribute>`** 및 **`<element>`** 요소의 **type** 특성을 통해 입력됩니다.
 
-자세한 목록은 의 설명에서 사용할 수 있습니다. [`<attribute>` 요소](../../configuration/using/schema/attribute.md) 및 [`<element>` 요소](../../configuration/using/schema/element.md).
+자세한 목록은 [`<attribute>` 요소](../../configuration/using/schema/attribute.md) 및 [`<element>` 요소](../../configuration/using/schema/element.md)의 설명에서 사용할 수 있습니다.
 
-이 속성이 채워지지 않으면 **문자열** 요소에 자식 요소가 포함되지 않은 경우 는 기본 데이터 형식입니다. 이 경우 요소를 계층적으로 구성하는 데만 사용됩니다(**`<location>`** 요소(예)를 참조하십시오.
+이 특성이 채워지지 않으면 요소에 자식 요소가 들어 있지 않으면 **string**&#x200B;이(가) 기본 데이터 형식입니다. 이 경우 요소를 계층 구조화하는 데만 사용됩니다(이 예제에서는 **`<location>`** 요소).
 
 스키마에서 지원되는 데이터 유형은 다음과 같습니다.
 
 * **문자열**: 문자열. 예: 이름, 마을 등
 
-  크기는 다음을 통해 지정할 수 있습니다 **length** attribute(선택 사항, 기본값 &quot;255&quot;).
+  **length** 특성(선택 사항, 기본값 &quot;255&quot;)을 통해 크기를 지정할 수 있습니다.
 
-* **부울**: 부울 필드. 가능한 값의 예: true/false, 0/1, yes/no 등.
-* **바이트**, **짧음**, **길게**: 정수(1바이트, 2바이트, 4바이트). 예: 나이, 계정 번호, 포인트 수 등
-* **더블**: 배정밀도 부동 소수점 숫자 예: 가격, 요금 등
-* **날짜**, **datetime**: 날짜 및 날짜 + 시간입니다. 예: 생년월일, 구매일 등
-* **다테티메노츠**: 시간대 데이터가 없는 날짜 + 시간입니다.
+* **부울**: 부울 필드입니다. 가능한 값의 예: true/false, 0/1, yes/no 등.
+* **바이트**, **짧음**, **길이**: 정수(1바이트, 2바이트, 4바이트). 예: 나이, 계정 번호, 포인트 수 등
+* **double**: 배정밀도 부동 소수점 수입니다. 예: 가격, 요금 등
+* **날짜**, **날짜/시간**: 날짜 및 날짜 + 시간. 예: 생년월일, 구매일 등
+* **datetimenotz**: 시간대 데이터가 없는 날짜 + 시간입니다.
 * **timespan**: 기간. 예: 연공서열.
-* **메모**: 긴 텍스트 필드(여러 줄). 예: 설명, 주석 등
-* **uuid**: GUID를 지원하는 &quot;uniqueidentifier&quot; 필드(Microsoft SQL Server에서만 지원됨).
+* **메모**: 긴 텍스트 필드(여러 줄)입니다. 예: 설명, 주석 등
+* **uuid**: GUID를 지원하는 &quot;uniqueidentifier&quot; 필드(Microsoft SQL Server에서만 지원됨)입니다.
 
   >[!NOTE]
   >
-  >포함 **uuid** Microsoft SQL Server 이외의 RDBMS의 필드 `the newuuid()` 함수를 추가하고 기본값으로 완료해야 합니다.
+  >Microsoft SQL Server 이외의 RDBMS에 **uuid** 필드를 포함하려면 `the newuuid()` 함수를 추가하고 기본값으로 완료해야 합니다.
 
 다음은 입력한 유형이 포함된 예제 스키마입니다.
 
@@ -180,36 +180,36 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <strong>Adobe Campaign</strong><br /> </td> 
-   <td> <strong>PostgreSQL</strong><br /> </td> 
+   <td> <strong>PosgreSQL</strong><br /> </td> 
    <td> <strong>Oracle</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> 문자열<br /> </td> 
    <td> VARCHAR(255)<br /> </td> 
-   <td> VARCHAR2(유니코드의 경우 NVARCHAR2)<br /> </td> 
+   <td> VARCHAR2(유니코드인 경우 NVARCHAR2)<br /> </td> 
   </tr> 
   <tr> 
    <td> 부울<br /> </td> 
-   <td> 스말린트<br /> </td> 
-   <td> NUMBER(3)<br /> </td> 
+   <td> SMALLINT<br /> </td> 
+   <td> 숫자(3)<br /> </td> 
   </tr> 
   <tr> 
    <td> 바이트<br /> </td> 
-   <td> 스말린트<br /> </td> 
-   <td> NUMBER(3)<br /> </td> 
+   <td> SMALLINT<br /> </td> 
+   <td> 숫자(3)<br /> </td> 
   </tr> 
   <tr> 
    <td> 짧음<br /> </td> 
-   <td> 스말린트<br /> </td> 
-   <td> NUMBER(5)<br /> </td> 
+   <td> SMALLINT<br /> </td> 
+   <td> 숫자(5)<br /> </td> 
   </tr> 
   <tr> 
    <td> Double<br /> </td> 
    <td> 배정밀도<br /> </td> 
-   <td> 부동<br /> </td> 
+   <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
-   <td> 길게<br /> </td> 
+   <td> <br /> 길 </td> 
    <td> 정수<br /> </td> 
    <td> NUMBER(10)<br /> </td> 
   </tr> 
@@ -226,22 +226,22 @@ ht-degree: 1%
   <tr> 
    <td> 시간<br /> </td> 
    <td> 시간<br /> </td> 
-   <td> 부동<br /> </td> 
+   <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
-   <td> 날짜/시간<br /> </td> 
+   <td> Datetime<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> 날짜<br /> </td> 
   </tr> 
   <tr> 
-   <td> 다테티메노츠<br /> </td> 
+   <td> Datatimenotz<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> 날짜<br /> </td> 
   </tr> 
   <tr> 
    <td> Timespan<br /> </td> 
    <td> 배정밀도<br /> </td> 
-   <td> 부동<br /> </td> 
+   <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
    <td> 메모<br /> </td> 
@@ -258,11 +258,11 @@ ht-degree: 1%
 
 ## 속성 {#properties}
 
-다음 **`<elements>`** 및 **`<attributes>`** 데이터 스키마의 요소를 다양한 속성으로 보강할 수 있습니다. 현재 요소를 설명하기 위해 레이블을 채울 수 있습니다.
+데이터 스키마의 **`<elements>`** 및 **`<attributes>`** 요소를 다양한 속성으로 보강할 수 있습니다. 현재 요소를 설명하기 위해 레이블을 채울 수 있습니다.
 
 ### 레이블 및 설명 {#labels-and-descriptions}
 
-* 다음 **레이블** 속성을 사용하면 간단한 설명을 입력할 수 있습니다.
+* **label** 속성을 사용하면 간단한 설명을 입력할 수 있습니다.
 
   >[!NOTE]
   >
@@ -278,7 +278,7 @@ ht-degree: 1%
 
   ![](assets/d_ncs_integration_schema_label.png)
 
-* 다음 **desc** 속성을 사용하면 긴 설명을 입력할 수 있습니다.
+* **desc** 속성을 사용하면 긴 설명을 입력할 수 있습니다.
 
   설명은 Adobe Campaign 클라이언트 콘솔 주 창의 상태 표시줄에 있는 입력 양식에 표시됩니다.
 
@@ -294,32 +294,32 @@ ht-degree: 1%
 
 ### 기본값 {#default-values}
 
-사용 **기본값** 속성을 사용하여 콘텐츠 생성 시 기본값을 반환하는 표현식을 정의할 수 있습니다.
+콘텐츠 생성 시 기본값을 반환하는 식을 정의하려면 **default** 속성을 사용하십시오.
 
-값은 XPath 언어를 준수하는 표현식이어야 합니다. 자세한 내용은 다음을 참조하십시오. [XPath를 사용하여 참조](../../configuration/using/schema-structure.md#referencing-with-xpath).
+값은 XPath 언어를 준수하는 표현식이어야 합니다. 자세한 내용은 [XPath를 사용하여 참조](../../configuration/using/schema-structure.md#referencing-with-xpath)를 참조하세요.
 
 **예**:
 
 * 현재 날짜: **default=&quot;GetDate()&quot;**
 * 카운터: **default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
 
-  이 예제에서 기본값은 문자열의 연결을 사용하여 생성되며 **카운터 값** 무료 카운터 이름이 있는 함수. 반환되는 숫자는 삽입 시마다 하나씩 증가합니다.
+  이 예제에서 기본값은 문자열의 연결을 사용하여 만들어지고 무료 카운터 이름으로 **CounterValue** 함수를 호출합니다. 반환되는 숫자는 삽입 시마다 하나씩 증가합니다.
 
   >[!NOTE]
   >
-  >Adobe Campaign 클라이언트 콘솔에서 다음을 찾습니다. **[!UICONTROL Administration > Counters]** 카운터를 관리할 탐색기의 폴더입니다.
+  >Adobe Campaign 클라이언트 콘솔에서 탐색기의 **[!UICONTROL Administration > Counters]** 폴더로 이동하여 카운터를 관리합니다.
 
-필드에 기본값을 연결하려면 `<default>`  또는  `<sqldefault>`   필드.
+필드에 기본값을 연결하려면 `<default>` 또는 `<sqldefault>`을(를) 사용합니다.   필드.
 
-`<default>` : 엔티티를 생성할 때 필드를 기본값으로 미리 채울 수 있습니다. 이 값은 기본 SQL 값이 아닙니다.
+`<default>` : 엔터티를 만들 때 기본값으로 필드를 미리 채울 수 있도록 해줍니다. 이 값은 기본 SQL 값이 아닙니다.
 
-`<sqldefault>` : 필드를 생성할 때 추가 값을 가질 수 있도록 해줍니다. 이 값은 SQL 결과로 나타납니다. 스키마 업데이트 중에는 새 레코드만 이 값의 영향을 받습니다.
+`<sqldefault>` : 필드를 만들 때 값을 추가할 수 있습니다. 이 값은 SQL 결과로 나타납니다. 스키마 업데이트 중에는 새 레코드만 이 값의 영향을 받습니다.
 
 ### 열거형 {#enumerations}
 
 #### 열거 {#free-enumeration}
 
-다음 **userEnum** 속성을 사용하면 이 필드를 통해 입력한 값을 저장하고 표시하는 열린 열거형을 정의할 수 있습니다.
+**userEnum** 속성을 사용하면 이 필드를 통해 입력한 값을 저장하고 표시할 공개 열거형을 정의할 수 있습니다.
 
 구문은 다음과 같습니다.
 
@@ -331,13 +331,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Adobe Campaign 클라이언트 콘솔에서 다음을 찾습니다. **[!UICONTROL Administration > Enumerations]** 열거형을 관리할 탐색기의 폴더입니다.
+>Adobe Campaign 클라이언트 콘솔에서 탐색기의 **[!UICONTROL Administration > Enumerations]** 폴더로 이동하여 열거형을 관리합니다.
 
 #### 열거형 설정 {#set-enumeration}
 
-다음 **enum** 속성을 사용하면 가능한 값 목록을 미리 알 때 사용되는 고정 열거형을 정의할 수 있습니다.
+**enum** 속성을 사용하면 가능한 값 목록을 미리 알 때 사용되는 고정 열거형을 정의할 수 있습니다.
 
-다음 **enum** 특성은 기본 요소 외부의 스키마에 채워진 열거형 클래스의 정의를 나타냅니다.
+**enum** 특성은 기본 요소 외부의 스키마에 채워진 열거형 클래스의 정의를 참조합니다.
 
 열거형을 사용하면 일반 입력 필드에 값을 입력하는 대신 드롭다운 목록에서 값을 선택할 수 있습니다.
 
@@ -353,25 +353,25 @@ ht-degree: 1%
 </enumeration>
 ```
 
-열거형은 를 통해 기본 요소 외부에 선언됩니다. **`<enumeration>`** 요소를 생성하지 않습니다.
+열거형은 **`<enumeration>`** 요소를 통해 주 요소 외부에 선언됩니다.
 
 열거형 속성은 다음과 같습니다.
 
 * **baseType**: 값과 연결된 데이터 유형
-* **레이블**: 열거형에 대한 설명
+* **label**: 열거형에 대한 설명
 * **이름**: 열거형의 이름
 * **기본값**: 열거형의 기본값
 
-열거형 값은 **`<value>`** 다음 속성을 가진 요소:
+열거형 값은 다음 특성을 사용하여 **`<value>`** 요소에 선언됩니다.
 
-* **이름**: 내부적으로 저장된 값의 이름
-* **레이블**: 그래픽 인터페이스에 표시되는 레이블
+* **name**: 내부적으로 저장된 값의 이름
+* **label**: 그래픽 인터페이스에 표시되는 레이블
 
 #### 드베넘 열거 {#dbenum-enumeration}
 
-*다음 **드베넘** 속성을 사용하면 속성과 유사한 속성을 가진 열거형을 정의할 수 있습니다. **enum** 속성.
+***dbenum** 속성을 사용하면 **enum** 속성과 유사한 속성을 가진 열거형을 정의할 수 있습니다.
 
-그러나 **이름** 속성은 값을 내부적으로 저장하지 않으며, 관련 테이블을 스키마를 수정하지 않고 확장할 수 있는 코드를 저장합니다.
+그러나 **name** 특성은 값을 내부적으로 저장하지 않으며, 관련 테이블을 스키마를 수정하지 않고 확장할 수 있는 코드를 저장합니다.
 
 예를 들어 이 열거형은 캠페인의 특성을 지정하는 데 사용됩니다.
 
@@ -404,9 +404,9 @@ ht-degree: 1%
 
 컬렉션은 이름이 같고 계층 수준이 같은 요소의 목록입니다.
 
-다음 **바인딩되지 않음** attribute에 &quot;true&quot; 값을 지정하면 컬렉션 요소를 채울 수 있습니다.
+값이 &quot;true&quot;인 **unbound** 특성을 사용하면 컬렉션 요소를 채울 수 있습니다.
 
-**예**: 의 정의 **`<group>`** 스키마의 컬렉션 요소입니다.
+**예**: 스키마에 있는 **`<group>`** 컬렉션 요소의 정의입니다.
 
 ```sql
 <element name="group" unbound="true" label="List of groups">
@@ -431,24 +431,24 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 **예**:
 
-* **@email**: 이메일을 선택하고,
-* **위치/@city**: 아래에서 &quot;city&quot; 속성을 선택합니다. **`<location>`** 요소
-* **../@email**: 현재 요소의 상위 요소에서 이메일 주소를 선택합니다
-* **그룹`[1]/@label`**: 첫 번째 요소의 하위 요소인 &quot;label&quot; 속성을 선택합니다 **`<group>`** 수집 요소
-* **그룹`[@label='test1']`**: 의 하위 항목인 &quot;label&quot; 속성을 선택합니다. **`<group>`** 요소를 반환하고 값 &quot;test1&quot;을 포함합니다.
+* **@email**: 전자 메일을 선택하고
+* **location/@city**: **`<location>`** 요소 아래에서 &quot;city&quot; 특성을 선택합니다.
+* **../@email**: 현재 요소의 부모 요소에서 전자 메일 주소를 선택합니다.
+* **그룹`[1]/@label`**: 첫 번째 **`<group>`** 컬렉션 요소의 자식 &quot;label&quot; 특성을 선택합니다.
+* **그룹`[@label='test1']`**: **`<group>`** 요소의 자식이며 &quot;test1&quot; 값을 포함하는 &quot;label&quot; 특성을 선택합니다.
 
 >[!NOTE]
 >
 >경로가 하위 요소를 교차하면 추가 제약 조건이 추가됩니다. 이 경우 대괄호 사이에 다음 표현식을 배치해야 합니다.
 >
->* **위치/@city** 은(는) 유효하지 않습니다. 다음을 사용하십시오. **`[location/@city]`**
->* **`[@email]`** 및 **@email** 등가물
+>* **location/@city**&#x200B;이(가) 잘못되었습니다. **`[location/@city]`**&#x200B;을(를) 사용하십시오.
+>* **`[@email]`**&#x200B;과(와) **@email**&#x200B;이(가) 같습니다.
 >
 
 다음 산술 연산과 같은 복잡한 표현식을 정의할 수도 있습니다.
 
-* **@gender+1**: 의 콘텐츠에 1을 추가합니다. **성별** 속성,
-* **@email + &#39;(&#39;+@created+&#39;)&#39;**: 괄호 사이에 생성 날짜에 추가된 이메일 주소 값을 사용하여 문자열을 구성합니다(문자열 유형의 경우 상수를 따옴표로 묶음).
+* **@gender+1**: **gender** 특성의 콘텐츠에 1을 추가합니다.
+* **@email + &#39;(&#39;+@created+&#39;)&#39;**: 괄호 사이에 만든 날짜에 추가된 전자 메일 주소의 값을 사용하여 문자열을 구성합니다(문자열 형식의 경우 상수를 따옴표로 묶음).
 
 이 언어의 잠재력을 강화하기 위해 표현식에 높은 수준의 함수가 추가되었습니다.
 
@@ -459,16 +459,16 @@ Adobe Campaign 클라이언트 콘솔에서 표현식 편집기를 통해 사용
 **예**:
 
 * **GetDate()**: 현재 날짜를 반환합니다.
-* **Year(@created)**: &quot;created&quot; 속성에 포함된 날짜의 연도 반환
-* **GetEmailDomain(@email)**: 이메일 주소의 도메인을 반환합니다.
+* **Year(@created)**: &quot;created&quot; 특성에 포함된 날짜의 연도를 반환합니다.
+* **GetEmailDomain(@email)**: 전자 메일 주소의 도메인을 반환합니다.
 
 ## 계산 문자열을 통해 문자열 빌드 {#building-a-string-via-the-compute-string}
 
-A **계산 문자열** 는 스키마와 연결된 테이블의 레코드를 나타내는 문자열을 구성하는 데 사용되는 XPath 표현식입니다. **계산 문자열** 는 주로 그래픽 인터페이스에서 선택한 레코드의 레이블을 표시하는 데 사용됩니다.
+**계산 문자열**&#x200B;은 스키마와 연결된 테이블의 레코드를 나타내는 문자열을 만드는 데 사용되는 XPath 식입니다. **계산 문자열**&#x200B;은 주로 선택한 레코드의 레이블을 표시하는 그래픽 인터페이스에 사용됩니다.
 
-다음 **계산 문자열** 다음을 통해 정의됨 **`<compute-string>`** 요소는 데이터 스키마의 main 요소 아래에 있습니다. An **expr** 속성에는 표시를 계산하는 XPath 식이 포함되어 있습니다.
+**계산 문자열**&#x200B;은(는) 데이터 스키마의 기본 요소 아래에 있는 **`<compute-string>`** 요소를 통해 정의됩니다. **expr** 특성에 표시를 계산하는 XPath 식이 포함되어 있습니다.
 
-**예**: 수신자 테이블의 계산 문자열.
+**예**: 받는 사람 테이블의 계산 문자열입니다.
 
 ```sql
 <srcSchema name="recipient" namespace="nms">  
@@ -479,7 +479,7 @@ A **계산 문자열** 는 스키마와 연결된 테이블의 레코드를 나�
 </srcSchema>
 ```
 
-수신자에 대해 계산된 문자열의 결과: **Doe John(john.doe@aol.com)**
+받는 사람에 대한 계산 문자열 결과: **Doe John(john.doe@aol.com)**
 
 >[!NOTE]
 >

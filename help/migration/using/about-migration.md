@@ -22,25 +22,25 @@ ht-degree: 2%
 
 이 문서에서는 마이그레이션에 대한 사전 요구 사항 및 Adobe Campaign Classic v7으로 마이그레이션하는 단계에 대해 자세히 설명합니다. 단계 및 옵션 설정은 구성에 따라 다릅니다.
 
-이주 과정은 신중하게 수행되어야 하며, 그 영향은 사전에 충분히 고려되어야 하고 절차는 엄격하게 수행되어야 한다. 전문가 사용자만 수행해야 합니다. 다음으로 연락하는 것이 좋습니다. [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 마이그레이션 절차를 시작하기 전에
+이주 과정은 신중하게 수행되어야 하며, 그 영향은 사전에 충분히 고려되어야 하고 절차는 엄격하게 수행되어야 한다. 전문가 사용자만 수행해야 합니다. 마이그레이션 절차를 시작하기 전에 [고객 지원 센터 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 연락하는 것이 좋습니다.
 
 마이그레이션이 오류 없이 원활하게 실행되는지 확인하기 위해 테스트/스테이징 환경에서 미리 테스트해야 합니다. 프로덕션 환경 마이그레이션은 마이그레이션된 테스트 환경의 유효성을 완전히 검사한 후에만 수행해야 합니다.
 
 >[!NOTE]
 >
->Adobe Campaign v7의 새로운 기능 및 향상된 기능은 [릴리스 정보](../../rn/using/latest-release.md).
+>Adobe Campaign v7의 새로운 기능 및 향상된 기능은 [릴리스 노트](../../rn/using/latest-release.md)에 자세히 설명되어 있습니다.
 
 
 ## 필수 구성 요소
 
 * 마이그레이션 프로세스는 전문가 사용자가 수행해야 합니다. Adobe Campaign에서 적어도 데이터베이스 전문가, 시스템 관리자 및 애플리케이션 개발자의 도움을 받아야 합니다.
-* 마이그레이션을 시작하기 전에 사용하는 시스템 및 시스템 구성 요소가 v7과 호환되는지 확인하십시오. [자세히 알아보기](../../rn/using/compatibility-matrix.md)
+* 마이그레이션을 시작하기 전에 사용하는 시스템 및 시스템 구성 요소가 v7과 호환되는지 확인하십시오. [자세히 알아보기](../../rn/using/compatibility-matrix.md).
 * Adobe Campaign 클라우드 메시징(중간 소싱 배포)을 사용하는 경우 시작하기 전에 Adobe 고객 지원 센터에 문의하십시오.
-* 마이그레이션 프로세스를 시작하기 전에 **필수** 데이터를 백업합니다.
+* 마이그레이션 프로세스를 시작하기 전에 **반드시**&#x200B;데이터를 백업해야 합니다.
 * 마이그레이션 프로세스를 완료하는 데 며칠이 걸릴 수 있습니다.
 * Adobe Campaign v7은 이전 버전보다 안전한 버전입니다. 이는 데이터 손상과 같은 문제를 방지하고 데이터베이스의 데이터 무결성을 유지하기 위한 구성 지침에 영향을 줍니다. 고객은 워크플로우를 포함한 모든 구성을 테스트할 책임이 있습니다.
 
-에서 추가 전제 조건을 사용할 수 있습니다. [이 페이지](../../migration/using/before-starting-migration.md).
+[이 페이지](../../migration/using/before-starting-migration.md)에서 추가 전제 조건을 사용할 수 있습니다.
 
 
 ## 현대화 된 환경 {#modernizing-your-environment}
@@ -49,11 +49,11 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Adobe Campaign v7에서 지원하는 버전에 대한 자세한 내용은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md).
+>Adobe Campaign v7에서 지원하는 버전에 대한 자세한 내용은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.
 
 ## 주요 마이그레이션 단계 {#key-migration-steps}
 
-Adobe Campaign v7으로 마이그레이션하는 일반 절차는에 자세히 설명되어 있습니다. [이 페이지](../../migration/using/before-starting-migration.md).
+Adobe Campaign v7로 마이그레이션하는 일반 절차는 [이 페이지](../../migration/using/before-starting-migration.md)에 자세히 설명되어 있습니다.
 
 
 ## 특정 구성 {#specific-configurations}

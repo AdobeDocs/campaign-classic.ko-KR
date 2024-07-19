@@ -16,14 +16,14 @@ ht-degree: 1%
 
 # Amazon Redshift 액세스 구성 {#configure-access-to-redshift}
 
-Campaign 사용 **페더레이션 데이터 액세스** (FDA) 외부 데이터베이스에 저장된 정보를 처리하는 옵션. Amazon Redshift에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
+외부 데이터베이스에 저장된 정보를 처리하려면 Campaign **FDA(Federated Data Access**) 옵션을 사용하십시오. Amazon Redshift에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
 
-1. 구성 [Amazon Redshift 데이터베이스](#configuring-redshift)
-1. Amazon Redshift 구성 [외부 계정](#redshift-external) 캠페인에서
+1. [Amazon Redshift 데이터베이스 구성](#configuring-redshift)
+1. Campaign에서 Amazon Redshift [외부 계정](#redshift-external) 구성
 
 ## Linux의 Amazon Redshift {#redshift-linux}
 
-구성하려면 [!DNL Amazon Redshift] linux의 경우 아래 단계를 수행합니다.
+Linux에서 [!DNL Amazon Redshift]을(를) 구성하려면 아래 단계를 수행하십시오.
 
 1. ODBC를 설치하기 전에 Linux 배포판에 다음 패키지가 설치되어 있는지 확인하십시오.
 
@@ -43,7 +43,7 @@ Campaign 사용 **페더레이션 데이터 액세스** (FDA) 외부 데이터�
       apt-get install -y grep sed tar wget perl curl
      ```
 
-1. 스크립트를 실행하기 전에 `--help` 옵션:
+1. 스크립트를 실행하기 전에 `--help` 옵션을 사용하여 추가 정보에 액세스할 수 있습니다.
 
    ```
    cd /usr/local/neolane/nl6/bin/fda-setup-scripts/
@@ -64,19 +64,19 @@ Campaign 사용 **페더레이션 데이터 액세스** (FDA) 외부 데이터�
    systemctl start nlserver.service
    ```
 
-1. 그런 다음 Campaign에서 다음을 구성할 수 있습니다. [!DNL Amazon Redshift] 외부 계정입니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#redshift-external).
+1. 그런 다음 Campaign에서 [!DNL Amazon Redshift] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#redshift-external)을 참조하세요.
 
 ## Amazon Redshift 외부 계정 {#redshift-external}
 
-다음 [!DNL Amazon Redshift] 외부 계정을 사용하면 Campaign 인스턴스를 Amazon Redshift 외부 데이터베이스에 연결할 수 있습니다.
+[!DNL Amazon Redshift] 외부 계정을 사용하면 Campaign 인스턴스를 Amazon Redshift 외부 데이터베이스에 연결할 수 있습니다.
 
-1. Campaign Classic에서 [!DNL Amazon Redshift] 외부 계정입니다. 다음에서 **[!UICONTROL Explorer]**, 클릭 **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+1. Campaign Classic에서 [!DNL Amazon Redshift] 외부 계정을 구성합니다. **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
-1. 선택 **[!UICONTROL External database]** 외부 계정으로 **[!UICONTROL Type]**.
+1. **[!UICONTROL External database]**&#x200B;을(를) 외부 계정의 **[!UICONTROL Type]**(으)로 선택합니다.
 
-1. 구성 **[!UICONTROL Amazon Redshift]** 외부 계정에서 다음을 지정해야 합니다.
+1. **[!UICONTROL Amazon Redshift]** 외부 계정을 구성하십시오. 다음을 지정해야 합니다.
 
    * **[!UICONTROL Type]**: Amazon Redshift
 

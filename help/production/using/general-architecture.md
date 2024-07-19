@@ -46,7 +46,7 @@ Adobe Campaign은 여러 시스템에 걸쳐 분류할 수 있는 여러 모듈�
 
 >[!NOTE]
 >
->다양한 아키텍처에 대한 자세한 내용은 [이 섹션](../../installation/using/general-architecture.md).
+>다양한 아키텍처에 대한 자세한 내용은 [이 섹션](../../installation/using/general-architecture.md)을 참조하세요.
 
 ## 열린 포트 목록 {#list-of-open-ports}
 

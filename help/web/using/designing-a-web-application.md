@@ -16,11 +16,11 @@ ht-degree: 4%
 
 
 
-웹 애플리케이션은 다음과 동일한 원리에 따라 생성 및 관리됩니다. [웹 양식](about-web-forms.md).
+웹 응용 프로그램은 [웹 양식](about-web-forms.md)과 동일한 원칙에 따라 만들고 관리됩니다.
 
 >[!CAUTION]
 >
->사용 **[!UICONTROL Preview]** 웹 응용 프로그램을 디자인하는 동안 오류를 확인할 수 있는 하위 탭입니다. 웹 애플리케이션을 미리 보는 데 사용되는 프로필 테스트는 **[!UICONTROL Access rights]** 대상: **[!UICONTROL Web application agent]** 연산자. </br>웹 애플리케이션이 게시될 때까지 변경 사항은 최종 사용자에게 노출되지 않습니다.
+>웹 응용 프로그램을 디자인하는 동안 오류를 확인하려면 **[!UICONTROL Preview]** 하위 탭을 사용하십시오. 웹 응용 프로그램을 미리 보는 데 사용되는 프로필 테스트는 **[!UICONTROL Web application agent]** 연산자의 **[!UICONTROL Access rights]**&#x200B;이(가) 있는 폴더에 있어야 합니다. </br>웹 응용 프로그램이 게시될 때까지 변경 내용이 최종 사용자에게 노출되지 않습니다.
 
 ## 웹 애플리케이션에 차트 삽입 {#inserting-charts-in-a-web-application}
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 ![](assets/s_ncs_admin_webapps_bar_graph.png)
 
-다음을 선택할 수도 있습니다. **[!UICONTROL Add a chart]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+**[!UICONTROL Add a chart]** 메뉴도 선택할 수 있습니다.
 
 ![](assets/s_ncs_admin_webapps_graph.png)
 
@@ -48,7 +48,7 @@ Adobe Campaign 인터페이스는 많은 웹 애플리케이션을 사용하여 
 
 이러한 화면은 페이지가 한 개만 있는 대시보드 형태로 인터페이스에 표시됩니다.
 
-기본 웹 응용 프로그램은 **[!UICONTROL Administration > Configuration > Web applications]** 노드.
+기본 웹 응용 프로그램은 **[!UICONTROL Administration > Configuration > Web applications]** 노드에 저장됩니다.
 
 ## 양식 유형 웹 애플리케이션 편집 {#edit-forms-type-web-applications}
 

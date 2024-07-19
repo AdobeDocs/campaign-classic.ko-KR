@@ -23,7 +23,7 @@ ht-degree: 0%
 
 이렇게 하면 개인 사용자 테이블로 Adobe Campaign 외부에 있는 트랜잭션 표의 특정 특성에 표준 데이터 모델을 적용하는 방법을 이해할 수 있습니다. 이 개인 테이블은 Adobe Campaign의 사용 가능한 개인 테이블 또는 다른 테이블과 일치할 수 있습니다
 
-측정 가설은 작업 프로세스 워크플로우( **[!UICONTROL operationMgt]** ). 각 가설은 실행 상태(편집 중, 보류 중, 완료됨, 실패 등)와 함께 비동기적으로 실행되는 별도의 프로세스를 나타냅니다. 우선 순위 제한, 동시 프로세스 수 제한, 낮은 활동 페이지 및 빈도로 자동 실행을 관리하는 스케줄러가 제어합니다.
+작업 프로세스 워크플로(**[!UICONTROL operationMgt]**)에서 측정 가설을 시작합니다. 각 가설은 실행 상태(편집 중, 보류 중, 완료됨, 실패 등)와 함께 비동기적으로 실행되는 별도의 프로세스를 나타냅니다. 우선 순위 제한, 동시 프로세스 수 제한, 낮은 활동 페이지 및 빈도로 자동 실행을 관리하는 스케줄러가 제어합니다.
 
 ## 스키마 구성 {#configuring-schemas}
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 
 ### 표준 스키마 {#standard-schemas}
 
-기본 제공 **[!UICONTROL nms:remaMatch]** 스키마에는 반응 로그 테이블, 즉 개인, 가설 및 트랜잭션 테이블 간의 관계가 포함되어 있습니다. 이 스키마는 반응 로그의 최종 대상 테이블에 대한 상속 스키마로 사용됩니다.
+기본 **[!UICONTROL nms:remaMatch]** 스키마에는 반응 로그 테이블, 즉 개인, 가설 및 트랜잭션 테이블 간의 관계가 포함되어 있습니다. 이 스키마는 반응 로그의 최종 대상 테이블에 대한 상속 스키마로 사용됩니다.
 
-다음 **[!UICONTROL nms:remaMatchRcp]** 스키마도 표준으로 제공되며 Adobe Campaign 수신자에 대한 반응 로그 저장소가 포함됩니다( **[!UICONTROL nms:recipient]** ). 사용하려면 트랜잭션 표(구매 등 포함)에 매핑되도록 확장해야 합니다.
+**[!UICONTROL nms:remaMatchRcp]** 스키마도 표준으로 제공되며 Adobe Campaign 수신자( **[!UICONTROL nms:recipient]** )에 대한 반응 로그 저장소가 포함되어 있습니다. 사용하려면 트랜잭션 표(구매 등 포함)에 매핑되도록 확장해야 합니다.
 
 ### 트랜잭션 테이블 및 트랜잭션 세부 정보 {#transaction-tables-and-transaction-details}
 
@@ -59,22 +59,22 @@ ht-degree: 0%
 
 ### 응답 관리 및 수신자 {#response-management-with-adobe-campaign-recipients}
 
-이 예에서는 Adobe Campaign 기본 제공 수신자 테이블을 사용하여 응답 관리 모듈의 구매 테이블을 통합합니다 **[!UICONTROL nms:recipient]**.
+이 예제에서는 Adobe Campaign 기본 제공 수신자 테이블 **[!UICONTROL nms:recipient]**&#x200B;을(를) 사용하여 응답 관리 모듈의 구매 테이블을 통합합니다.
 
-다음에 대한 응답 로그 테이블 **[!UICONTROL nms:remaMatchRcp]** 수신자가 확장되어 구매 테이블 스키마에 링크가 추가됩니다. 다음 예에서는 구매 테이블이 호출됩니다. **demo:purchase**.
+**[!UICONTROL nms:remaMatchRcp]** 받는 사람의 응답 로그 테이블을 확장하여 구매 테이블 스키마에 링크를 추가합니다. 다음 예제에서는 구매 테이블을 **demo:purchase**&#x200B;라고 합니다.
 
-1. Adobe Campaign 탐색기를 통해 **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**.
-1. 마우스 오른쪽 버튼 클릭 **수신자** 그런 다음 선택 **[!UICONTROL Actions]** 및 **[!UICONTROL Modify the options of the targeting dimensions]**.
+1. Adobe Campaign 탐색기를 통해 **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**&#x200B;을(를) 선택합니다.
+1. **받는 사람**&#x200B;을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Actions]** 및 **[!UICONTROL Modify the options of the targeting dimensions]**&#x200B;을(를) 선택합니다.
 
    ![](assets/delivery_mapping1.png)
 
-1. 다음을 개인화할 수 있습니다. **[!UICONTROL Extension namespace]** 다음 창에서 를 클릭합니다. **[!UICONTROL Next]**.
+1. 다음 창에서 **[!UICONTROL Extension namespace]**&#x200B;을(를) 개인화한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/delivery_mapping2.png)
 
-1. 다음에서 **[!UICONTROL Response management]** 범주, 다음을 확인합니다. **[!UICONTROL Generate a storage schema for reactions]** 확인란이 선택되어 있습니다.
+1. **[!UICONTROL Response management]** 범주에서 **[!UICONTROL Generate a storage schema for reactions]** 상자가 선택되어 있는지 확인하십시오.
 
-   그런 다음 **[!UICONTROL Define additional fields...]** 관련 트랜잭션 표를 선택하고 원하는 필드를 nms:remaMatchRcp 스키마의 확장에 추가합니다.
+   그런 다음 **[!UICONTROL Define additional fields...]**&#x200B;을(를) 클릭하여 관련 트랜잭션 테이블을 선택하고 원하는 필드를 nms:remaMatchRcp 스키마의 확장에 추가합니다.
 
    ![](assets/delivery_mapping3.png)
 
@@ -106,11 +106,11 @@ name="remaMatchRcp" namespace="cus">
 
 이 예에서는 Adobe Campaign에서 사용할 수 있는 수신자 테이블 이외의 개인 테이블을 사용하여 응답 관리 모듈의 구매 테이블을 통합합니다.
 
-* 에서 파생된 새 응답 로그 스키마 만들기 **[!UICONTROL nms:remaMatch]** 스키마.
+* **[!UICONTROL nms:remaMatch]** 스키마에서 파생된 새 응답 로그 스키마를 만듭니다.
 
-  개인 사용자 테이블은 Adobe Campaign 수신자 테이블과 다르므로 을(를) 기반으로 응답 로그의 새 스키마를 만들어야 합니다. **[!UICONTROL nms:remaMatch]** 스키마. 그런 다음 게재 로그 및 구매 테이블에 대한 링크를 포함하여 완료합니다.
+  개인 사용자 테이블은 Adobe Campaign 수신자 테이블과 다르므로 **[!UICONTROL nms:remaMatch]** 스키마를 기반으로 응답 로그의 새 스키마를 만들어야 합니다. 그런 다음 게재 로그 및 구매 테이블에 대한 링크를 포함하여 완료합니다.
 
-  다음 예제에서는 **demo:broadLogPers** 스키마 및 **demo:purchase** 트랜잭션 테이블:
+  다음 예제에서는 **demo:broadLogPers** 스키마와 **demo:purchase** 트랜잭션 표를 사용합니다.
 
   ```
   <srcSchema desc="Linking of a recipient transaction to a hypothesis"    
@@ -129,7 +129,7 @@ name="remaMatchRcp" namespace="cus">
   </srcSchema>
   ```
 
-* 에서 가설 양식 수정 **[!UICONTROL nms:remaHypothesis]** 스키마.
+* **[!UICONTROL nms:remaHypothesis]** 스키마에서 가설 양식을 수정합니다.
 
   기본적으로 응답 로그 목록은 수신자 로그에 표시됩니다. 따라서 이전 단계에서 생성된 새 응답 로그를 보려면 가설 양식을 수정해야 합니다.
 

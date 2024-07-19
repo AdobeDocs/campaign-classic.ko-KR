@@ -27,7 +27,7 @@ Adobe Campaign 플랫폼의 다양한 애플리케이션 서버 간 내부 통�
 
 ### 게재 서버 {#delivery-server}
 
-게재 서버용(**nlserver mta**) 다음 포트가 열려 있어야 합니다.
+게재 서버(**nlserver mta**)의 경우 다음 포트가 열려 있어야 합니다.
 
 <table> 
  <tbody> 
@@ -39,12 +39,12 @@ Adobe Campaign 플랫폼의 다양한 애플리케이션 서버 간 내부 통�
   <tr> 
    <td> 25/tcp(smtp)<br /> </td> 
    <td> 어디서나<br /> </td> 
-   <td> 이메일 브로드캐스트용 SMTP 트래픽.<br /> </td> 
+   <td> 전자 메일 브로드캐스트용 SMTP 트래픽입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 53/udp(도메인)<br /> </td> 
    <td> DNS 서버<br /> </td> 
-   <td> DNS 쿼리.<br /> </td> 
+   <td> DNS 쿼리입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 38000/tcp(기본 포트)<br /> </td> 
@@ -54,14 +54,14 @@ Adobe Campaign 플랫폼의 다양한 애플리케이션 서버 간 내부 통�
   <tr> 
    <td> 7777/udp<br /> </td> 
    <td> 통계 서버<br /> </td> 
-   <td> 통계 서버 액세스<br /> </td> 
+   <td> 통계 서버에 액세스하는 중입니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 인바운드 메일 {#inbound-mail}
 
-인바운드 메일 복구 프로세스(**nlserver inMail**) 다음 포트가 열려 있어야 합니다.
+인바운드 메일 복구 프로세스(**nlserver inMail**)의 경우 다음 포트가 열려 있어야 합니다.
 
 <table> 
  <tbody> 
@@ -78,14 +78,14 @@ Adobe Campaign 플랫폼의 다양한 애플리케이션 서버 간 내부 통�
   <tr> 
    <td> 25/tcp(smtp)<br /> </td> 
    <td> 내부 메일 서버<br /> </td> 
-   <td> 사전 정의된 규칙에 의해 자동으로 처리되지 않는 나머지 바운스 메시지를 보내기 위한 SMTP 트래픽.<br /> </td> 
+   <td> 사전 정의된 규칙에 의해 자동으로 처리되지 않는 나머지 바운스 메시지를 보내기 위한 SMTP 트래픽입니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 애플리케이션 서버 {#application-server}
 
-애플리케이션 서버용(**nlserver 웹**) 다음 포트가 열려 있어야 합니다.
+응용 프로그램 서버(**nlserver web**)의 경우 다음 포트가 열려 있어야 합니다.
 
 <table> 
  <tbody> 
@@ -97,7 +97,7 @@ Adobe Campaign 플랫폼의 다양한 애플리케이션 서버 간 내부 통�
   <tr> 
    <td> 80/tcp(http)<br /> 443/tcp(https)<br /> </td> 
    <td> 어디서나<br /> </td> 
-   <td> HTTP 또는 HTTPS 트래픽(게재 가능성 오퍼용 포함).<br /> </td> 
+   <td> HTTP 또는 HTTPS 트래픽(게재 기능 오퍼에 대한 포함).<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,7 +106,7 @@ Adobe Campaign 플랫폼의 여러 애플리케이션 서버가 서로 통신해
 
 ### SMS 게재 상태 {#sms-delivery-status}
 
-SMS 게재를 추적하려면(**nlserver sms**) 다음 포트가 열려 있어야 합니다.
+SMS 게재(**nlserver sms**)를 추적하려면 다음 포트가 열려 있어야 합니다.
 
 <table> 
  <tbody> 
@@ -125,7 +125,7 @@ SMS 게재를 추적하려면(**nlserver sms**) 다음 포트가 열려 있어�
 
 ### 리치 클라이언트 {#rich-client}
 
-Adobe Campaign 리치 클라이언트용(**nlclient**) 다음 포트가 열려 있어야 합니다.
+Adobe Campaign 리치 클라이언트(**nlclient**)의 경우 다음 포트가 열려 있어야 합니다.
 
 <table> 
  <tbody> 
@@ -136,7 +136,7 @@ Adobe Campaign 리치 클라이언트용(**nlclient**) 다음 포트가 열려 �
   </tr> 
   <tr> 
    <td><p> 80/tcp(http)</p><p>443/tcp(https)</p><br /> </td> 
-   <td> 애플리케이션 서버<br /> </td> 
+   <td> 응용 프로그램 서버<br /> </td> 
    <td> SOAP 트래픽(HTTP).<br /> </td> 
   </tr> 
  </tbody> 
@@ -161,11 +161,11 @@ Adobe Campaign 리치 클라이언트용(**nlclient**) 다음 포트가 열려 �
    <td> 데이터베이스 서버<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>PostgreSql</strong><br /> </td> 
+   <td> <strong>PostgreSQL</strong><br /> </td> 
    <td> 5432/tcp<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Microsoft Server</strong><br /> </td> 
+   <td> <strong>Microsoft SQL Server</strong><br /> </td> 
    <td> 1433/tcp<br /> </td> 
   </tr> 
  </tbody> 
@@ -217,14 +217,14 @@ Adobe Campaign 리치 클라이언트용(**nlclient**) 다음 포트가 열려 �
   </tr> 
   <tr> 
    <td><p> 80/tcp(http)</p><p> 443/tcp(https)</p><br /> </td> 
-   <td> 씬 클라이언트 또는 리치 클라이언트를 실행하는 모든 컴퓨터<br /> </td> 
+   <td> 씬 클라이언트 또는 리치 클라이언트를 실행하는 모든 컴퓨터입니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Adobe Experience Manager과 통합 {#integration-with-adobe-experience-manager}
 
-Adobe Campaign과 Adobe Experience Manager을 통합하려면 설치가 &quot;온프레미스&quot;인 경우 여러 포트를 열어야 합니다. 이 통합 구성에 대한 자세한 내용은 [자세한 설명서](../../integrations/using/about-adobe-experience-manager.md).
+Adobe Campaign과 Adobe Experience Manager을 통합하려면 설치가 &quot;온프레미스&quot;인 경우 여러 포트를 열어야 합니다. 이 통합 구성에 대한 자세한 내용은 [자세한 설명서](../../integrations/using/about-adobe-experience-manager.md)를 참조하세요.
 
 <table> 
  <tbody> 
@@ -234,11 +234,11 @@ Adobe Campaign과 Adobe Experience Manager을 통합하려면 설치가 &quot;�
   </tr> 
   <tr> 
    <td> 80<br /> </td> 
-   <td> Adobe Campaign에 대한 AEM 연결<br /> </td> 
+   <td> Adobe Campaign<br />에 AEM 연결 </td> 
   </tr> 
   <tr> 
    <td><p> 4502</p><p> 4503</p><br /> </td> 
-   <td> AEM "작성" 및 "게시" 인스턴스에 대한 Adobe Campaign 연결. 여는 포트는 AEM 구성에 따라 기본 포트와 다를 수 있습니다.<br /> </td> 
+   <td> AEM의 "작성" 및 "게시" 인스턴스에 대한 Adobe Campaign 연결. AEM 구성에 따라 열 포트가 기본 포트와 다를 수 있습니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

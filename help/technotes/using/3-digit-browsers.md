@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # 3자리 브라우저 버전이 Campaign 웹 구성 요소에 미치는 영향 {#version-100}
 
-Google과 모질라는 Chrome과 Firefox가 예정된 3자리 버전 때문에 일부 웹 사이트를 중단할 수 있다고 경고하고 있습니다.
+Google과 Mozilla는 Chrome과 Firefox가 예정된 3자리 버전 때문에 일부 웹 사이트를 중단할 수 있다고 경고하고 있습니다.
 
-Chrome v100은에서 릴리스되도록 설정되어 있습니다. **2022년 3월 29일**, 및 의 Firefox v100 **2022년 5월 3일**.
+Chrome v100은 **2022년 3월 29일**&#x200B;에, Firefox v100은 **2022년 5월 3일**&#x200B;에 릴리스되도록 설정되었습니다.
 
 Microsoft은 2022년 3월 이전에 Edge v100을 출시했습니다.
 
@@ -29,7 +29,7 @@ Microsoft은 2022년 3월 이전에 Edge v100을 출시했습니다.
 
 Adobe은 웹 양식 및 설문 조사를 포함한 Campaign 웹 애플리케이션을 테스트하여 이러한 새 브라우저 버전에서 정상적으로 작동하는지 확인할 것을 권장합니다.
 
-이 권장 사항은 모든 웹 애플리케이션에 적용되며, 특히 JavaScript 코드를 포함한 경우에 적용됩니다.
+이 권장 사항은 모든 웹 애플리케이션에 적용되며, 특히 JavaScript 코드를 포함한 경우 더욱 그렇습니다.
 
 모든 브라우저, 모바일 및 데스크톱을 확인해야 합니다.
 
@@ -43,8 +43,8 @@ Adobe은 웹 양식 및 설문 조사를 포함한 Campaign 웹 애플리케이�
 
 Mozilla Firefox 100으로 웹 페이지를 테스트하려면 사용자 에이전트 문자열을 수동으로 변경하여 웹 앱에서 예정된 사용자 에이전트 변경을 시뮬레이션할 수 있습니다.
 
-1. Firefox를 열고 를 입력합니다. `about:config` 주소 표시줄에서 enter 키를 누릅니다.
-1. 검색 대상 `general.useragent.override`.
+1. Firefox를 열고 주소 표시줄에 `about:config`을(를) 입력한 다음 Enter 키를 누릅니다.
+1. `general.useragent.override` 검색
 1. &#39;문자열&#39;을 선택한 다음 더하기(+) 기호를 클릭합니다.
 
    ![](assets/force-user-agent-firefox.png)
@@ -58,33 +58,33 @@ Mozilla Firefox 100으로 웹 페이지를 테스트하려면 사용자 에이�
 1. 파란색 확인 표시 버튼을 클릭하여 설정을 저장합니다.
 1. 브라우저를 닫았다가 다시 실행합니다.
 
-사용자 에이전트를 기본값으로 되돌리려면 로 돌아가면 됩니다. `about:config` 및 검색 `general.useragent.override` 다시 설정합니다.  표시되는 경우 휴지통 아이콘을 클릭하여 설정을 삭제하고 브라우저를 다시 시작합니다.
+사용자 에이전트를 기본값으로 다시 변경하려면 `about:config`(으)로 돌아가서 `general.useragent.override` 설정을 다시 검색하면 됩니다.  표시되는 경우 휴지통 아이콘을 클릭하여 설정을 삭제하고 브라우저를 다시 시작합니다.
 
 ### Chrome 100으로 테스트{#test-chrome-100}
 
 자체 웹 앱에서 Google Chrome 100 사용자 에이전트를 테스트하려면 다음 단계를 사용하여 이 테스트를 활성화할 수 있습니다.
 
-1. Chrome을 열고 를 입력합니다. `chrome://flags` 주소 표시줄에서 enter 키를 누릅니다.
-1. 검색 `Force major version to 100 in User-Agent` 검색 필드에서 을 선택한 다음 아래와 같이 활성화합니다.
+1. Chrome을 열고 주소 표시줄에 `chrome://flags`을(를) 입력한 다음 Enter 키를 누릅니다.
+1. 검색 필드에서 `Force major version to 100 in User-Agent`을(를) 검색하고 아래 표시된 대로 활성화합니다.
 
    ![](assets/force-user-agent-chrome.png)
 
 1. 브라우저를 다시 시작합니다.
-1. 닫기 `chrome://flags` 탭.
+1. `chrome://flags` 탭을 닫습니다.
 
-사용자 에이전트를 다시 기본값으로 변경하려면 이 프로세스를 따르고 플래그 설정을 로 변경하십시오. `Default` 브라우저를 다시 시작합니다.
+사용자 에이전트를 기본값으로 다시 변경하려면 이 프로세스를 따라 플래그의 설정을 `Default`(으)로 변경하고 브라우저를 다시 시작하십시오.
 
 
 ### Microsoft Edge 100으로 테스트{#test-ms-edge-100}
 
-v97부터 사이트 소유자는 실험 플래그를 활성화하여 이 버전을 에뮬레이션할 수 있습니다  `#force-major-version-to-100` 위치: `edge://flags`.
+v97부터 사이트 소유자는 `edge://flags`에서 실험 플래그 `#force-major-version-to-100`을(를) 활성화하여 이 버전을 에뮬레이션할 수 있습니다.
 
-1. Microsoft Edge를 열고 를 입력합니다. `edge://flags` 주소 표시줄에서 enter 키를 누릅니다.
-1. 검색 대상 `force-major-version-to-100` 을 누르고 아래에 표시된 대로 활성화합니다.
+1. Microsoft Edge을 열고 주소 표시줄에 `edge://flags`을(를) 입력한 다음 Enter 키를 누릅니다.
+1. `force-major-version-to-100` 필드를 검색하고 아래 표시된 대로 활성화하십시오.
 
    ![](assets/force-user-agent-edge.png)
 
 1. 브라우저를 다시 시작합니다.
-1. 닫기 `edge://flags` 탭.
+1. `edge://flags` 탭을 닫습니다.
 
-사용자 에이전트를 다시 기본값으로 변경하려면 이 프로세스를 따르고 플래그 설정을 로 변경하십시오. `Default` 브라우저를 다시 시작합니다.
+사용자 에이전트를 기본값으로 다시 변경하려면 이 프로세스를 따라 플래그의 설정을 `Default`(으)로 변경하고 브라우저를 다시 시작하십시오.

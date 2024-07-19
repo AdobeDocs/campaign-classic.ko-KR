@@ -43,7 +43,7 @@ Adobe Campaign은 업데이트 중에 조작해야 하는 서버측에서 실행
 
 >[!NOTE]
 >
->다양한 Adobe Campaign 프로세스에 대한 자세한 내용은 [이 섹션](../../installation/using/general-architecture.md#logical-application-layer).\
+>다양한 Adobe Campaign 프로세스에 대한 자세한 내용은 [이 섹션](../../installation/using/general-architecture.md#logical-application-layer)을 참조하세요.\
 >Power Booster 또는 Power Cluster 유형 아키텍처를 사용하는 경우 모든 Power Booster/Cluster 서버에 이 프로세스를 적용해야 합니다.
 
 새 버전에 데이터베이스 구조 변경이 포함된 경우 다음 순서로 서버를 다시 시작하는 것이 좋습니다.

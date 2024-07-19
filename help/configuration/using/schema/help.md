@@ -25,7 +25,7 @@ ht-degree: 12%
 
 ## 상위 {#parents-6}
 
-`<srcschema>`  ,  `<element>`   ,   `<attribute>`    ,    `<enumeration>`     ,     `<value>`      ,     `<param />`,      `<method />`
+`<srcschema>` , `<element>`   ,   `<attribute>`    ,    `<enumeration>`     ,     `<value>`      ,     `<param />`,      `<method />`
 
 ## 하위 {#children-6}
 
@@ -33,7 +33,7 @@ ht-degree: 12%
 
 ## 설명 {#description-6}
 
-이 요소를 사용하여 다음을 설명할 수 있습니다 `<element>`  또는  `<attribute>`   요소를 생성하지 않습니다. 텍스트만 포함할 수 있으며 데이터베이스의 XML에 저장됩니다.
+이 요소를 사용하여 `<element>` 또는 `<attribute>`을(를) 설명할 수 있습니다.   요소를 생성하지 않습니다. 텍스트만 포함할 수 있으며 데이터베이스의 XML에 저장됩니다.
 
 ## 속성 설명 {#attribute-description-6}
 

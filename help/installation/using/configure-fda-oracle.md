@@ -18,21 +18,21 @@ ht-degree: 0%
 
 
 
-Campaign 사용 [페더레이션 데이터 액세스](../../installation/using/about-fda.md) (FDA) 외부 데이터베이스에 저장된 정보를 처리하는 옵션. oracle 액세스를 구성하려면 아래 단계를 따르십시오.
+외부 데이터베이스에 저장된 정보를 처리하려면 Campaign [FDA(Federated Data Access](../../installation/using/about-fda.md)) 옵션을 사용하십시오. oracle 액세스를 구성하려면 아래 단계를 따르십시오.
 
-1. oracle 구성 [리눅스](#oracle-linux) 또는 [Windows](#azure-windows)
-1. oracle 구성 [외부 계정](#oracle-external) 캠페인에서
+1. [Linux](#oracle-linux) 또는 [Windows](#azure-windows)에서 Oracle 구성
+1. Campaign에서 Oracle [외부 계정](#oracle-external) 구성
 
 ## Linux의 oracle {#oracle-linux}
 
 FDA에서 Oracle 외부 데이터베이스에 연결하려면 Adobe Campaign 서버에서 아래 추가 구성이 필요합니다.
 
 1. 사용 중인 Oracle 버전에 해당하는 Oracle 전체 클라이언트를 설치합니다.
-1. 설치에 TNS 정의를 추가합니다. 이렇게 하려면 **tnsnames.ora** /etc/oracle 저장소의 파일입니다. 이 저장소가 없으면 만듭니다.
+1. 설치에 TNS 정의를 추가합니다. 이렇게 하려면 /etc/oracle 저장소의 **tnsnames.ora** 파일에 지정합니다. 이 저장소가 없으면 만듭니다.
 
    oracle 그런 다음 새 TNS_ADMIN 환경 변수(TNS_ADMIN=/etc/export)를 생성하고 컴퓨터를 다시 시작합니다.
 
-1. Adobe Campaign 서버(nlserver)에 Oracle을 통합합니다. 이렇게 하려면 다음을 확인하십시오. **customer.sh** 파일은 Adobe Campaign 서버 트리 구조의 &quot;nl6&quot; 폴더에 있으며 Oracle 라이브러리에 대한 링크를 포함합니다.
+1. Adobe Campaign 서버(nlserver)에 Oracle을 통합합니다. 이렇게 하려면 **customer.sh** 파일이 Adobe Campaign 서버 트리 구조의 &quot;nl6&quot; 폴더에 있고 Oracle 라이브러리에 대한 링크가 포함되어 있는지 확인하십시오.
 
    예를 들어 11.2에 있는 클라이언트의 경우:
 
@@ -63,7 +63,7 @@ FDA에서 Oracle 외부 데이터베이스에 연결하려면 Adobe Campaign 서
      yum install libaio1
      ```
 
-1. 그런 다음 Campaign Classic에서 다음을 구성할 수 있습니다. [!DNL Oracle] 외부 계정입니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#oracle-external).
+1. 그런 다음 Campaign Classic에서 [!DNL Oracle] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#oracle-external)을 참조하세요.
 
 ## Windows의 oracle {#oracle-windows}
 
@@ -71,25 +71,25 @@ FDA에서 Oracle 외부 데이터베이스에 연결하려면 Adobe Campaign 서
 
 1. oracle 클라이언트를 설치합니다.
 
-1. C:Oracle 폴더에서 **tnsnames.ora** tns 정의가 포함된 파일입니다.
+1. C:Oracle 폴더에서 TNS 정의가 포함된 **tnsnames.ora** 파일을 만듭니다.
 
 1. C:ADMIN 값이 있는 TNS_ADMIN 환경 Oracle을 추가하고 시스템을 다시 시작합니다.
 
-1. 그런 다음 Campaign Classic에서 다음을 구성할 수 있습니다. [!DNL Oracle] 외부 계정입니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#oracle-external).
+1. 그런 다음 Campaign Classic에서 [!DNL Oracle] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#oracle-external)을 참조하세요.
 
 ## 외부 계정 oracle {#oracle-external}
 
-다음 [!DNL Oracle] 외부 계정을 사용하면 Campaign 인스턴스를 Oracle 외부 데이터베이스에 연결할 수 있습니다.
+[!DNL Oracle] 외부 계정을 사용하면 Campaign 인스턴스를 Oracle 외부 데이터베이스에 연결할 수 있습니다.
 
-1. 출처: Campaign **[!UICONTROL Explorer]**, 선택 **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. **[!UICONTROL Explorer]** 캠페인에서 **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**&#x200B;을(를) 선택합니다.
 
-1. 선택 **[!UICONTROL New]**.
+1. **[!UICONTROL New]**&#x200B;을(를) 선택하십시오.
 
-1. 선택 **[!UICONTROL External database]** 외부 계정으로 **[!UICONTROL Type]**.
+1. **[!UICONTROL External database]**&#x200B;을(를) 외부 계정의 **[!UICONTROL Type]**(으)로 선택합니다.
 
-1. 구성 **[!UICONTROL Oracle]** 외부 계정에서 다음을 지정해야 합니다.
+1. **[!UICONTROL Oracle]** 외부 계정을 구성하십시오. 다음을 지정해야 합니다.
 
-   * **[!UICONTROL Type]**: ORACLE
+   * **[!UICONTROL Type]**: Oracle
 
    * **[!UICONTROL Server]**: DNS 이름
 

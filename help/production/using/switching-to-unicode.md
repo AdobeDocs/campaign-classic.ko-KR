@@ -19,7 +19,7 @@ ht-degree: 0%
 
 
 
-기존 **prod** linux/PostgreSQL에서 유니코드로 전환하는 단계는 다음과 같습니다.
+Linux/PostgreSQL의 기존 **prod** 인스턴스의 경우 유니코드로 전환하는 단계는 다음과 같습니다.
 
 1. 데이터베이스에 쓰는 프로세스를 중지합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
    vi config-prod.xml
    ```
 
-   추가 **u** 데이터베이스 식별자 관련 값 앞에 있는 문자(**databaseId**):
+   데이터베이스 식별자(**databaseId**)와 관련된 값 앞에 **u** 문자를 추가하십시오.
 
    ```
    <web>

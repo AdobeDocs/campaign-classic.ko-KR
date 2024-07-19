@@ -18,7 +18,7 @@ ht-degree: 1%
 
 
 
-다음 [!DNL pipelined] 상태 웹 서비스는 의 상태에 대한 정보를 제공합니다. [!DNL pipelined] 프로세스.
+[!DNL pipelined] 상태 웹 서비스가 [!DNL pipelined] 프로세스의 상태에 대한 정보를 제공합니다.
 
 브라우저를 사용하여 수동으로 또는 모니터링 응용 프로그램으로 자동으로 액세스할 수 있습니다.
 
@@ -43,12 +43,12 @@ ht-degree: 1%
    * next-offsets-flush: 완료되면 다음 배치까지 대기할 시간입니다.
    * processed-since-last-flush: 마지막 배치에서 처리된 트리거 수입니다.
 * 라우팅
-   * 트리거: 트리거 목록을 검색했습니다. 에서 구성됨 [!DNL pipelined] 옵션을 선택합니다.
+   * 트리거: 트리거 목록을 검색했습니다. [!DNL pipelined] 옵션에서 구성됩니다.
 * 통계
    * average-pointer-flush-time-ms: 트리거 배치 1개에 대한 평균 처리 시간입니다.
    * average-trigger-processing-time-ms: 트리거 데이터를 구문 분석하는 데 걸린 평균 시간입니다.
    * bytes-read: 프로세스가 시작된 후 큐에서 읽은 바이트 수입니다.
-   * current-messages: 대기열에서 가져와서 처리 대기 중인 보류 중인 현재 메시지 수입니다. **이 표시기는 0에 가까워야 합니다.**.
+   * current-messages: 대기열에서 가져와서 처리 대기 중인 보류 중인 현재 메시지 수입니다. **이 표시기는 0에 가깝습니다**.
    * current-retries: 처리에 실패하여 재시도 대기 중인 현재 메시지 수입니다.
    * 피크 메시지: 프로세스가 시작된 후 처리한 최대 보류 메시지 수입니다.
    * 포인터 플러시: 시작 이후 처리된 메시지 배치 수입니다.
@@ -61,8 +61,8 @@ ht-degree: 1%
 
 * average-trigger-processing-time-ms: 트리거 데이터를 구문 분석하는 데 걸린 평균 시간입니다.
 * is-JS-processor: 이 스레드가 사용자 지정 JS를 사용하는 경우 값 &quot;1&quot;.
-* trigger-discarded: 처리 오류로 인해 너무 많은 다시 시도 후 삭제된 메시지 수입니다. **이 표시기는 0이어야 합니다.**.
-* trigger-failures: JS의 처리 오류 수. **이 표시기는 0이어야 합니다.**.
+* trigger-discarded: 처리 오류로 인해 너무 많은 다시 시도 후 삭제된 메시지 수입니다. **이 표시기는 0이어야 합니다**.
+* trigger-failures: JS의 처리 오류 수. **이 표시기는 0이어야 합니다**.
 * trigger-received: 큐에서 받은 메시지 수입니다.
 
 * 설정: 구성 파일에 설정됩니다.

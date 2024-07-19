@@ -20,16 +20,16 @@ ht-degree: 0%
 
 Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게재의 콘텐츠와 양식을 Adobe Experience Manager에서 직접 관리할 수 있습니다.
 
-Adobe Campaign에서 이메일 또는 랜딩 페이지를 편집하는 동안 AEM Assets 라이브러리에서 자산을 직접 삽입할 수도 있습니다. 이 기능은 다음에 자세히 설명되어 있습니다. [에셋](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md) 챕터.
+Adobe Campaign에서 이메일 또는 랜딩 페이지를 편집하는 동안 AEM Assets 라이브러리에서 자산을 직접 삽입할 수도 있습니다. 이 기능은 [Assets](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md) 장에 자세히 설명되어 있습니다.
 
-즉, AEM 컨텐츠 편집 기능과 Adobe Campaign의 전달 기능을 모두 활용할 수 있습니다.
+즉, AEM의 콘텐츠 편집 기능과 Adobe Campaign의 게재 기능을 모두 활용할 수 있습니다.
 
 **필수 구성 요소**
 
 다음 요소가 있어야 합니다.
 
-* 안 Adobe Experience Manager **작성** 인스턴스.
-* 안 Adobe Experience Manager **게시** 인스턴스.
+* Adobe Experience Manager **작성** 인스턴스.
+* Adobe Experience Manager **게시** 인스턴스.
 * Adobe Campaign 인스턴스.
 
-자세한 내용은 다음을 참조하십시오. [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html)
+자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html)를 참조하세요.

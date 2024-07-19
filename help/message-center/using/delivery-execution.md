@@ -26,7 +26,7 @@ ht-degree: 1%
 >
 >MTA는 다른 게재보다 트랜잭션 메시지 처리에 우선 순위를 둡니다.
 
-모든 게재는 **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]** 폴더를 삭제합니다.
+모든 게재는 **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]** 폴더에 그룹화됩니다.
 
 ![](assets/messagecenter_deliveries_execinstances_001.png)
 
@@ -36,13 +36,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->호스팅 또는 하이브리드 설치의 경우 를 로 업그레이드한 경우 [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)또한 Adobe Campaign Enhanced MTA를 사용하여 모든 트랜잭션 메시지를 보냄으로써 게재 능력, 처리량 및 반송 처리를 개선할 수 있습니다. 모든 영향은 표준 마케팅 메시지와 동일합니다.
+>호스팅 또는 하이브리드 설치의 경우 [향상된 MTA](../../delivery/using/sending-with-enhanced-mta.md)(으)로 업그레이드한 경우 게재 능력, 처리량 및 반송 처리를 개선하기 위해 Adobe Campaign 향상된 MTA를 사용하여 모든 트랜잭션 메시지를 전송할 수도 있습니다. 모든 영향은 표준 마케팅 메시지와 동일합니다.
 
 ## 트랜잭션 메시지 모니터링 {#transactional-message-monitoring}
 
-트랜잭션 메시지를 모니터링하려면 다음을 확인하십시오. [게재 로그](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
+트랜잭션 메시지를 모니터링하려면 [게재 로그](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)를 확인하세요.
 
-실행 인스턴스에서 전송된 트랜잭션 게재는 기술 워크플로우( )를 통해 컨트롤 인스턴스와 다시 동기화됩니다.**[!UICONTROL Message Center execution instance]**)를 반환합니다.
+실행 인스턴스에서 보낸 트랜잭션 게재는 매시간 실행되는 기술 워크플로우(**[!UICONTROL Message Center execution instance]**)를 통해 컨트롤 인스턴스로 다시 동기화됩니다.
 
 >[!NOTE]
 >
@@ -75,4 +75,4 @@ To summarize, the deliveries weekly accumulate the events based on the latest ev
 
 Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.-->
 
-실행 인스턴스의 활동 및 실행을 모니터링하려면 다음을 참조하십시오. [트랜잭션 메시지 보고서](../../message-center/using/about-transactional-messaging-reports.md).
+실행 인스턴스의 활동 및 실행을 모니터링하려면 [트랜잭션 메시지 보고서](../../message-center/using/about-transactional-messaging-reports.md)를 참조하세요.

@@ -21,7 +21,7 @@ ht-degree: 5%
 
 ## 구현 {#implementation}
 
-1. 에 확장 추가 `nms:inSMS` 마케팅 인스턴스의 스키마. 확장 프로그램은 새 속성을 `nms:inSMS` 중간 소싱 인스턴스에서 발생하는 inSMS 레코드 기본 키를 스키마와 추적합니다.
+1. 마케팅 인스턴스의 `nms:inSMS` 스키마에 확장을 추가합니다. 확장은 `nms:inSMS` 스키마에 새 특성을 추가하고 중간 소싱 인스턴스에서 나오는 inSMS 레코드 기본 키를 추적합니다.
 
    ```xml
    <element img="nms:miniatures/mini-sms.png" label="Incoming SMS"
@@ -35,23 +35,23 @@ ht-degree: 5%
    </element>
    ```
 
-1. 스키마에 대한 수정 사항을 적용하려면 데이터베이스 업데이트 마법사를 시작합니다. 이 마법사는 다음을 통해 액세스할 수 있습니다. **도구** > **고급** > **데이터베이스 구조 업데이트**. 데이터베이스의 물리적 구조가 논리적 설명과 일치하는지 확인하고 SQL 업데이트 스크립트를 실행합니다. [자세히 알아보기](../../configuration/using/updating-the-database-structure.md)
+1. 스키마에 대한 수정 사항을 적용하려면 데이터베이스 업데이트 마법사를 시작합니다. 이 마법사는 **도구** > **고급** > **데이터베이스 구조 업데이트**&#x200B;를 통해 액세스할 수 있습니다. 데이터베이스의 물리적 구조가 논리적 설명과 일치하는지 확인하고 SQL 업데이트 스크립트를 실행합니다. [자세히 알아보기](../../configuration/using/updating-the-database-structure.md)
 
-1. 다음 내용이 포함된 워크플로우 중지 및 백업 **인바운드 SMS 활동**.
+1. **인바운드 SMS 활동**&#x200B;이 포함된 워크플로우를 중지하고 백업합니다.
 
-   다음 형식으로 해당 옵션 포인터 백업 `SMS_MO_INDEX_{internal name of the workflow}_{name of the insms workflow activity}_{internal name of the external account to access the mid}`.
+   해당 옵션 포인터를 `SMS_MO_INDEX_{internal name of the workflow}_{name of the insms workflow activity}_{internal name of the external account to access the mid}` 형식으로 백업합니다.
 
 [백업에 대한 자세한 내용](../../production/using/backup.md)
 
-1. (**선택 사항**) 이미 스케줄러 활동을 사용 중인 경우 워크플로우를 열고 다음과 같이 다시 구성합니다.
+1. (**선택 사항**) 이미 스케줄러 활동을 사용 중인 경우 워크플로우를 열고 다음과 같이 다시 구성하십시오.
 
-   1. 에서 현재 설정 복제 **예약** 의 탭 **인바운드 SMS** 외부로의 활동 **스케줄러** 활동.
+   1. **인바운드 SMS** 활동의 **일정** 탭에서 현재 설정을 외부 **스케줄러** 활동으로 복제합니다.
 
-   1. 에서 현재 설정 비활성화 **예약** 탭 / **인바운드 SMS** 활동.
+   1. **인바운드 SMS** 활동의 **일정** 탭에서 현재 설정을 사용하지 않도록 설정하십시오.
 
       ![](assets/inbound_sms_1.png)
 
-1. 업데이트 **인바운드 SMS** 사용자 지정 스크립트.
+1. **인바운드 SMS** 사용자 지정 스크립트를 업데이트합니다.
 
    아래 블록을 바꿉니다. 이 스크립트는 이전에 이 코드를 사용자 지정한 경우에 달라질 수 있습니다.
 
@@ -73,7 +73,7 @@ ht-degree: 5%
 
    아래의 사전 요구 사항을 따르십시오.
 
-   * 에 대한 실제 값 입력 `<EXTERNAL_ACCOUNT_ID>`, 예, `var iExtAccountId=72733155`.
+   * `<EXTERNAL_ACCOUNT_ID>`의 실제 값(예: `var iExtAccountId=72733155`)을 입력하십시오.
    * 사용자 지정 스크립트에 다음 요소를 유지해야 합니다.
       * `_operation="insertOrUpdate"`
       * `_key="@midInSMSId,@extAccount-id"`

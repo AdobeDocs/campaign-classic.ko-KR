@@ -19,19 +19,19 @@ ht-degree: 11%
 
 다음은 워크플로우에 적용할 모범 사례를 포함하여 캠페인 성과 최적화에 대한 일반 지침입니다.
 
-워크플로우 실행과 관련된 문제 해결 지침은에서 사용할 수 있습니다 [Campaign Classic v7 프로덕션 안내서](../../production/using/workflow-execution.md).
+워크플로우 실행과 관련된 문제 해결 지침은 [Campaign Classic v7 프로덕션 안내서](../../production/using/workflow-execution.md)에서도 제공됩니다.
 
 ### 로그 {#logs}
 
-JavaScript 메서드 **[!UICONTROL logInfo()]** 는 워크플로우 디버깅에 적합한 솔루션입니다. 유용하지만 특히 자주 실행되는 활동에 신중하게 사용해야 합니다. 로그를 오버로드하고 로그 테이블의 크기를 크게 늘릴 수 있습니다. 그러나 다음보다 더 많은 것이 필요할 수 있습니다. **[!UICONTROL logInfo()]**.
+JavaScript 메서드 **[!UICONTROL logInfo()]**&#x200B;은(는) 워크플로우를 디버깅하는 데 좋은 솔루션입니다. 유용하지만 특히 자주 실행되는 활동에 신중하게 사용해야 합니다. 로그를 오버로드하고 로그 테이블의 크기를 크게 늘릴 수 있습니다. 그러나 **[!UICONTROL logInfo()]**&#x200B;개 이상이 필요할 수도 있습니다.
 
 도움이 되는 두 가지 추가 솔루션을 사용할 수 있습니다.
 
-* **두 차례 실행 사이의 중간 모집단 결과 유지**
+* **두 실행 사이의 중간 모집단 결과 유지**
 
-  이 옵션은 워크플로우의 두 실행 사이에 임시 테이블을 유지합니다. 워크플로우 속성에서 사용할 수 있습니다. **[!UICONTROL General]** 데이터를 모니터링하고 결과를 확인하는 개발 및 테스트 용도로 사용할 수 있습니다. 개발 환경에서 이 옵션을 사용할 수 있지만 프로덕션 환경에서는 절대 사용하지 마십시오. 임시 테이블을 유지하면 데이터베이스 크기가 크게 증가하여 크기 제한에 도달할 수 있으며 백업 속도도 느려집니다.
+  이 옵션은 워크플로우의 두 실행 사이에 임시 테이블을 유지합니다. 워크플로우 속성의 **[!UICONTROL General]** 탭에서 사용할 수 있으며 개발 및 테스트 목적으로 데이터를 모니터링하고 결과를 확인하는 데 사용할 수 있습니다. 개발 환경에서 이 옵션을 사용할 수 있지만 프로덕션 환경에서는 절대 사용하지 마십시오. 임시 테이블을 유지하면 데이터베이스 크기가 크게 증가하여 크기 제한에 도달할 수 있으며 백업 속도도 느려집니다.
 
-  워크플로의 마지막 실행에 대한 작업 테이블만 유지됩니다. 이전 실행의 작업 테이블은 **[!UICONTROL cleanup]** 매일 실행되는 워크플로우입니다.
+  워크플로의 마지막 실행에 대한 작업 테이블만 유지됩니다. 이전 실행의 작업 테이블은 매일 실행되는 **[!UICONTROL cleanup]** 워크플로우에 의해 삭제됩니다.
 
   >[!CAUTION]
   >
@@ -39,10 +39,10 @@ JavaScript 메서드 **[!UICONTROL logInfo()]** 는 워크플로우 디버깅에
 
 * **저널에 SQL 쿼리 기록**
 
-  다음에서 사용 가능 **[!UICONTROL Execution]** 워크플로 속성의 탭입니다. 이 옵션은 다른 활동에서 도구로 생성된 모든 SQL 쿼리를 기록합니다. 플랫폼에서 실제로 실행되는 것을 볼 수 있는 좋은 방법입니다. 그러나 이 옵션은 개발 도중에만 임시로 사용하고 프로덕션 환경에서는 활성화하지 않아야 합니다.
+  워크플로우 속성의 **[!UICONTROL Execution]** 탭에서 사용할 수 있는 이 옵션은 다른 활동에서 도구로 생성된 모든 SQL 쿼리를 기록합니다. 플랫폼에서 실제로 실행되는 것을 볼 수 있는 좋은 방법입니다. 그러나 이 옵션은 개발 도중에만 임시로 사용하고 프로덕션 환경에서는 활성화하지 않아야 합니다.
 
-로그가 더 이상 필요하지 않으면 제거하십시오. 워크플로우 내역은 자동으로 삭제되지 않습니다. 기본적으로 모든 메시지가 유지됩니다. 내역을 다음을 통해 삭제할 수 있습니다. **[!UICONTROL File > Actions]** 메뉴 또는 목록 위의 도구 모음에 있는 작업 버튼을 클릭합니다. 삭제 내역을 선택합니다.
-로그를 제거하는 방법에 대해 알아보려면 다음을 참조하십시오. [설명서](starting-a-workflow.md).
+로그가 더 이상 필요하지 않으면 제거하십시오. 워크플로우 내역은 자동으로 삭제되지 않습니다. 기본적으로 모든 메시지가 유지됩니다. **[!UICONTROL File > Actions]** 메뉴를 사용하거나 목록 위의 도구 모음에 있는 작업 단추를 클릭하여 기록을 삭제할 수 있습니다. 삭제 내역을 선택합니다.
+로그를 제거하는 방법에 대해 알아보려면 이 [설명서](starting-a-workflow.md)를 참조하세요.
 
 ### 워크플로 계획 {#workflow-planning}
 
@@ -50,12 +50,12 @@ JavaScript 메서드 **[!UICONTROL logInfo()]** 는 워크플로우 디버깅에
 * 리소스 경합을 줄이기 위해 데이터 로드를 하룻밤 예약합니다.
 * 긴 워크플로우는 잠재적으로 서버 및 데이터베이스 리소스에 영향을 줄 수 있습니다. 가장 긴 워크플로우를 분할하여 처리 시간을 줄입니다.
 * 전반적인 실행 시간을 줄이려면 시간이 많이 걸리는 활동을 간소화하고 빨라진 활동으로 대체하십시오.
-* 20개 이상의 워크플로우를 동시에 실행하지 마십시오. 너무 많은 워크플로우가 동시에 실행되면 시스템의 리소스가 부족해지고 불안정해질 수 있습니다. 워크플로우가 시작되지 않는 이유에 대한 자세한 내용은 다음을 참조하십시오 [기사](https://helpx.adobe.com/ie/campaign/kb/workflows-not-starting-in-a-campaign-technical-workflows.html).
+* 20개 이상의 워크플로우를 동시에 실행하지 마십시오. 너무 많은 워크플로우가 동시에 실행되면 시스템의 리소스가 부족해지고 불안정해질 수 있습니다. 워크플로우가 시작되지 않는 이유에 대한 자세한 내용은 이 [문서](https://helpx.adobe.com/ie/campaign/kb/workflows-not-starting-in-a-campaign-technical-workflows.html)을 참조하세요.
 
 
 ### 엔진에서 실행 옵션 {#execute-in-the-engine-option}
 
-다음에서 **[!UICONTROL Workflow properties]** 창, 확인 안 함 **[!UICONTROL Execute in the engine]** 옵션을 선택합니다. 이 옵션을 활성화하면 워크플로가 우선하며 이 옵션이 완료될 때까지 다른 모든 워크플로는 워크플로 엔진에 의해 중지됩니다.
+**[!UICONTROL Workflow properties]** 창에서 **[!UICONTROL Execute in the engine]** 옵션을 선택하지 마십시오. 이 옵션을 활성화하면 워크플로가 우선하며 이 옵션이 완료될 때까지 다른 모든 워크플로는 워크플로 엔진에 의해 중지됩니다.
 
 ![](assets/wf-execute-in-engine.png)
 
@@ -65,7 +65,7 @@ JavaScript 메서드 **[!UICONTROL logInfo()]** 는 워크플로우 디버깅에
 
 Adobe은 전용 폴더에 워크플로우를 만들 것을 권장합니다.
 
-워크플로가 플랫폼 전체에 영향을 주는 경우(예: 정리 프로세스) 기본 제공 기능에 하위 폴더를 추가하는 것을 고려해 볼 수 있습니다 **[!UICONTROL Technical Workflows]** 폴더를 삭제합니다.
+워크플로가 플랫폼 전체에 영향을 주는 경우(예: 정리 프로세스) 기본 제공 **[!UICONTROL Technical Workflows]** 폴더에 하위 폴더를 추가하는 것이 좋습니다.
 
 ### 워크플로우 이름 지정 {#workflow-naming}
 
@@ -83,7 +83,7 @@ Adobe은 전용 폴더에 워크플로우를 만들 것을 권장합니다.
 
 ### 워크플로우 심각도 {#workflow-severity}
 
-워크플로우 속성에서 워크플로우의 심각도를 구성할 수 있습니다 **[!UICONTROL Execution]** 탭:
+**[!UICONTROL Execution]** 탭의 워크플로 속성에서 워크플로의 심각도를 구성할 수 있습니다.
 
 * 일반
 * 프로덕션
@@ -99,44 +99,44 @@ Adobe은 전용 폴더에 워크플로우를 만들 것을 권장합니다.
 
 오류가 있는 경우 알림을 받으려면 프로덕션 환경에서 실행되는 모든 예약된 워크플로우를 모니터링해야 합니다.
 
-워크플로 속성에서 기본값인 감독자 그룹을 선택합니다 **[!UICONTROL Workflow supervisors]** 또는 사용자 지정 그룹. 이메일을 설정한 상태에서 최소 한 명 이상의 운영자가 이 그룹에 속하는지 확인하십시오.
+워크플로 속성에서 기본 **[!UICONTROL Workflow supervisors]** 또는 사용자 지정 그룹인 감독자 그룹을 선택합니다. 이메일을 설정한 상태에서 최소 한 명 이상의 운영자가 이 그룹에 속하는지 확인하십시오.
 
-워크플로우 작성을 시작하기 전에 워크플로우 감독자를 정의해야 합니다. 오류 발생 시 이메일로 알림이 전송됩니다. 자세한 내용은 다음을 참조하십시오. [오류 관리](monitoring-workflow-execution.md#managing-errors).
+워크플로우 작성을 시작하기 전에 워크플로우 감독자를 정의해야 합니다. 오류 발생 시 이메일로 알림이 전송됩니다. 자세한 내용은 [오류 관리](monitoring-workflow-execution.md#managing-errors)를 참조하세요.
 
-다음을 정기적으로 확인합니다. **[!UICONTROL Monitoring]** 활성 워크플로우의 전체 상태를 볼 수 있는 탭입니다. 자세한 내용은 다음을 참조하십시오. [인스턴스 감독](monitoring-workflow-execution.md#instance-supervision).
+활성 워크플로의 전체 상태를 보려면 정기적으로 **[!UICONTROL Monitoring]** 탭을 확인하십시오. 자세한 내용은 [인스턴스 감독](monitoring-workflow-execution.md#instance-supervision)을 참조하세요.
 
-워크플로우 HeatMap을 사용하면 Adobe Campaign 플랫폼 관리자가 인스턴스의 로드를 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [워크플로우 모니터링](heatmap.md).
+워크플로우 HeatMap을 사용하면 Adobe Campaign 플랫폼 관리자가 인스턴스의 로드를 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다. 자세한 내용은 [워크플로 모니터링](heatmap.md)을 참조하세요.
 
 ## 활동 사용 {#using-activities}
 
 >[!CAUTION]
 >
->동일한 워크플로우 내에서 활동을 복사하여 붙여넣을 수 있습니다. 하지만 다른 워크플로우에서는 붙여넣기 활동을 복사하지 않는 것이 좋습니다. 게재 및 스케줄러와 같은 활동에 첨부된 일부 설정은 대상 워크플로우를 실행하는 동안 충돌 및 오류를 초래할 수 있습니다. 대신 다음을 추천했습니다.  **복제** 워크플로. 자세한 내용은 [워크플로우 복제](building-a-workflow.md#duplicating-workflows).
+>동일한 워크플로우 내에서 활동을 복사하여 붙여넣을 수 있습니다. 하지만 다른 워크플로우에서는 붙여넣기 활동을 복사하지 않는 것이 좋습니다. 게재 및 스케줄러와 같은 활동에 첨부된 일부 설정은 대상 워크플로우를 실행하는 동안 충돌 및 오류를 초래할 수 있습니다. 대신 워크플로우를 **복제**&#x200B;하는 것이 좋습니다. 자세한 내용은 [워크플로 복제](building-a-workflow.md#duplicating-workflows)를 참조하십시오.
 
 ### 활동 이름 {#name-of-the-activity}
 
 워크플로우를 개발하는 동안 모든 활동에는 모든 Adobe Campaign 개체와 같은 이름이 있습니다. 도구에서 이름을 생성하는 동안에는 구성할 때 명시적인 이름으로 이름을 바꾸는 것이 좋습니다. 나중에 하면 다른 이전 활동의 이름을 사용하는 활동으로 워크플로우가 중단될 수 있습니다. 따라서 나중에 이름을 업데이트하는 것은 어려운 일입니다.
 
-활동 이름은에서 찾을 수 있습니다. **[!UICONTROL Advanced]** 탭. 이름을 지정하지 마십시오. **[!UICONTROL query]**, **[!UICONTROL query1]**, **[!UICONTROL query11]**, 하지만 다음과 같은 명시적인 이름을 지정합니다. **[!UICONTROL querySubscribedRecipients]**. 이 이름은 저널에 표시되며 SQL 로그에 해당하는 경우 워크플로를 구성할 때 워크플로를 디버깅하는 데 도움이 됩니다.
+**[!UICONTROL Advanced]** 탭에서 활동 이름을 찾을 수 있습니다. 이름을 **[!UICONTROL query]**, **[!UICONTROL query1]**, **[!UICONTROL query11]**(으)로 유지하지 말고 **[!UICONTROL querySubscribedRecipients]**&#x200B;과(와) 같은 명시적 이름을 지정하십시오. 이 이름은 저널에 표시되며 SQL 로그에 해당하는 경우 워크플로를 구성할 때 워크플로를 디버깅하는 데 도움이 됩니다.
 
 ### 첫 번째 및 마지막 활동 {#first-and-last-activities}
 
-* 항상 (으)로 워크플로우 시작 **[!UICONTROL Start]** 활동 또는 a **[!UICONTROL Scheduler]** 활동. 관련성이 있는 경우 **[!UICONTROL External signal]** 활동.
-* 워크플로우를 빌드할 때는 한 개만 사용합니다. **[!UICONTROL Scheduler]** 분기별 활동. 워크플로우의 동일한 분기에 여러 개의 스케줄러(서로 연결됨)가 있는 경우 실행할 작업 수가 기하급수적으로 증가하여 데이터베이스가 상당히 과부하 됩니다. 이 규칙은 이 있는 모든 활동에도 적용됩니다. **[!UICONTROL Scheduling & History]** 탭. 자세히 알아보기 [예약](scheduler.md).
+* 항상 **[!UICONTROL Start]** 활동 또는 **[!UICONTROL Scheduler]** 활동으로 워크플로우를 시작합니다. 관련성이 있는 경우 **[!UICONTROL External signal]** 활동을 사용할 수도 있습니다.
+* 워크플로우를 빌드할 때는 분기당 **[!UICONTROL Scheduler]** 활동을 하나만 사용하십시오. 워크플로우의 동일한 분기에 여러 개의 스케줄러(서로 연결됨)가 있는 경우 실행할 작업 수가 기하급수적으로 증가하여 데이터베이스가 상당히 과부하 됩니다. 이 규칙은 **[!UICONTROL Scheduling & History]** 탭이 있는 모든 활동에도 적용됩니다. [예약](scheduler.md)에 대해 자세히 알아보세요.
 
   ![](assets/wf-scheduler.png)
 
-* 사용 **[!UICONTROL End]** 모든 워크플로우에 대한 활동. 이를 통해 Adobe Campaign은 워크플로우 내에서 계산에 사용되는 임시 공간을 확보할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [시작 및 종료](start-and-end.md).
+* 모든 워크플로우에 **[!UICONTROL End]** 활동을 사용합니다. 이를 통해 Adobe Campaign은 워크플로우 내에서 계산에 사용되는 임시 공간을 확보할 수 있습니다. 자세한 내용은 [시작 및 끝](start-and-end.md)을 참조하세요.
 
 ### 활동 내의 Javascript {#javascript-within-an-activity}
 
-워크플로우 활동을 초기화할 때 JavaScript를 추가할 수 있습니다. 활동에서 수행할 수 있습니다. **[!UICONTROL Advanced]** 활동의 탭입니다.
+워크플로우 활동을 초기화할 때 JavaScript을 추가할 수 있습니다. 이 작업은 활동의 **[!UICONTROL Advanced]** 탭에서 수행할 수 있습니다.
 
 워크플로우를 보다 쉽게 파악할 수 있도록 활동 레이블의 시작과 끝에서 다음과 같이 이중 대시를 사용하는 것이 좋습니다. — 내 레이블 —
 
 ### 신호 {#signal}
 
-대부분의 경우 신호가 어디에서 호출되는지 알 수 없습니다. 이 문제를 방지하려면 **[!UICONTROL Comment]** 필드 내 **[!UICONTROL Advanced]** 신호 활동의 탭으로서, 이 활동에 대한 신호의 예상 출처를 문서화합니다.
+대부분의 경우 신호가 어디에서 호출되는지 알 수 없습니다. 이 문제를 방지하려면 신호 활동의 **[!UICONTROL Advanced]** 탭에 있는 **[!UICONTROL Comment]** 필드를 사용하여 이 활동에 대해 예상되는 신호 출처를 문서화합니다.
 
 ![](assets/workflow-signal-bp.png)
 

@@ -26,12 +26,12 @@ ht-degree: 2%
 </key>
 ```
 
-키를 스키마에서 처음 채울 때 또는 가 포함된 경우 &#39;기본 키&#39;라고 합니다 `internal` 속성이 &quot;true&quot;로 설정되어 있습니다.
+스키마에서 처음 채울 때 또는 &quot;true&quot;로 설정된 `internal` 특성이 포함된 경우 키를 &#39;기본 키&#39;라고 합니다.
 
 키에는 다음 규칙이 적용됩니다.
 
 * 키는 테이블에서 하나 이상의 필드를 참조할 수 있습니다
-* 고유 인덱스는 각 키 정의에 대해 암시적으로 선언됩니다. 를 설정하여 키에 인덱스를 만들 수 없습니다. `noDbIndex` 속성을 &quot;true&quot;로 설정합니다.
+* 고유 인덱스는 각 키 정의에 대해 암시적으로 선언됩니다. `noDbIndex` 특성을 &quot;true&quot;로 설정하여 키에 인덱스를 만들 수 없습니다.
 
 >[!NOTE]
 >
@@ -126,21 +126,21 @@ ht-degree: 2%
 
 ## 자동 증분 키 {#auto-incremental-key}
 
-대부분의 Adobe Campaign 테이블의 기본 키는 데이터베이스 엔진에서 자동으로 생성된 32비트 정수(Long)입니다. 키 값의 계산은 시퀀스에 따라 다릅니다(기본적으로 **XtkNewId** SQL 함수)를 사용하여 전체 데이터베이스에서 고유한 숫자를 생성합니다. 키의 내용은 레코드 삽입 시 자동으로 입력됩니다.
+대부분의 Adobe Campaign 테이블의 기본 키는 데이터베이스 엔진에서 자동으로 생성된 32비트 정수(Long)입니다. 키 값의 계산은 전체 데이터베이스에서 고유한 숫자를 생성하는 시퀀스(기본적으로 **XtkNewId** SQL 함수)에 따라 달라집니다. 키의 내용은 레코드 삽입 시 자동으로 입력됩니다.
 
 증분 키의 장점은 테이블 간의 조인에 수정할 수 없는 기술 키를 제공한다는 것입니다. 또한 이 키는 2바이트 정수를 사용하므로 메모리를 많이 차지하지 않습니다.
 
-소스 스키마에서 와 함께 사용할 시퀀스의 이름을 지정할 수 있습니다 **pkSequence** 특성. 소스 스키마에 이 속성이 지정되지 않으면 **XtkNewId** 기본 시퀀스가 사용됩니다. 응용 프로그램은 다음에 대한 전용 시퀀스를 사용합니다. **nms:broadLog** 및 **nms:trackingLog** 스키마 (**NmsBroadLogId** 및 **NmsTrackingLogId** 각각) - 가장 많은 레코드를 포함하는 테이블이기 때문입니다.
+소스 스키마에서 **pkSequence** 특성과 함께 사용할 시퀀스의 이름을 지정할 수 있습니다. 이 특성이 원본 스키마에 지정되어 있지 않으면 **XtkNewId** 기본 시퀀스가 사용됩니다. **nms:broadLog** 및 **nms:trackingLog** 스키마(**NmsBroadLogId** 및 **NmsTrackingLogId**)에 대해 전용 시퀀스를 사용합니다. 이 스키마는 가장 많은 레코드를 포함하는 테이블이기 때문입니다.
 
-ACC 18.10에서, **XtkNewId** 기본 스키마에서 시퀀스의 기본값이 더 이상 아닙니다. 이제 전용 시퀀스로 스키마를 빌드하거나 기존 스키마를 확장할 수 있습니다.
+ACC 18.10에서 **XtkNewId**&#x200B;은(는) 기본 제공 스키마에서 시퀀스에 대한 기본값이 아닙니다. 이제 전용 시퀀스로 스키마를 빌드하거나 기존 스키마를 확장할 수 있습니다.
 
 >[!IMPORTANT]
 >
 >새 스키마를 생성하거나 스키마 확장 중에 전체 스키마에 대해 동일한 기본 키 시퀀스 값(@pkSequence)을 유지해야 합니다.
 
-Adobe Campaign 스키마에서 참조된 시퀀스(**NmsTrackingLogId** 예를 들어 )는 매개 변수의 ID 수를 쉼표로 구분하여 반환하는 SQL 함수와 연결되어야 합니다. 이 함수를 호출해야 합니다. **GetNew** XXX **Id**, 여기서 **XXX** 는 시퀀스의 이름입니다(**GetNewNmsTrackingLogIds** 예). 보기 **postgres-nms.sql**, **mssql-nms.sql** 또는 **oracle-nms.sql** 에서 응용 프로그램과 함께 제공된 파일 **datakit/nms/eng/sql/** 각 데이터베이스 엔진에 대한 &#39;NmsTrackingLogId&#39; 시퀀스 작성의 예를 복구하기 위한 디렉터리입니다.
+Adobe Campaign 스키마에서 참조된 시퀀스(예: **NmsTrackingLogId**)는 매개 변수의 ID 수를 쉼표로 구분하여 반환하는 SQL 함수와 연결되어야 합니다. 이 함수를 **GetNew** XXX **Ids**&#x200B;이라고 해야 합니다. 여기서 **XXX**&#x200B;은(는) 시퀀스 이름입니다(예: **GetNewNmsTrackingLogIds**). **datakit/nms/eng/sql/** 디렉터리에서 응용 프로그램과 함께 제공된 **postgres-nms.sql**, **mssql-nms.sql** 또는 **oracle-nms.sql** 파일을 확인하여 각 데이터베이스 엔진에 대한 &#39;NmsTrackingLogId&#39; 시퀀스 생성의 예를 복구하십시오.
 
-고유 키를 선언하려면 **autopk** 속성(값 &quot;true&quot; 사용)이 데이터 스키마의 기본 요소에 있습니다.
+고유 키를 선언하려면 데이터 스키마의 기본 요소에서 **autopk** 특성(&quot;true&quot; 값 포함)을 채웁니다.
 
 **예**:
 

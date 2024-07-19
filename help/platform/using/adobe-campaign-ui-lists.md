@@ -21,19 +21,19 @@ ht-degree: 1%
 
 기본적으로 Adobe Campaign은 목록의 처음 200개의 레코드를 로드합니다. 즉, 표시에서 보고 있는 테이블의 모든 레코드가 표시되지는 않습니다. 목록에 있는 레코드 수 개수를 실행하고 더 많은 레코드를 로드할 수 있습니다.
 
-목록 화면의 오른쪽 하단에서 **[!UICONTROL counter]** 로드된 레코드 수와 데이터베이스에 있는 총 레코드 수를 표시합니다(필터를 적용한 후).
+목록 화면의 오른쪽 하단에서 **[!UICONTROL counter]**&#x200B;은(는) 로드된 레코드 수와 데이터베이스의 총 레코드 수를 표시합니다(필터를 적용한 후).
 
 ![](assets/s_ncs_user_nb_200_0.png)
 
-인 경우&#x200B;**?**&#x200B;오른쪽에 있는 숫자 대신 &quot;&quot;가 나타나면 카운터를 클릭하여 계산을 시작합니다.
+&quot;**&quot;인 경우오른쪽에 숫자 대신**&quot;이(가) 나타나면 카운터를 클릭하여 계산을 시작합니다.
 
 ### 더 많은 레코드 로드 {#loading-more-records}
 
-추가 레코드(기본적으로 200줄)를 로드하여 표시하려면 다음을 클릭합니다. **[!UICONTROL Continue loading]**.
+추가 레코드(기본적으로 200줄)를 로드하여 표시하려면 **[!UICONTROL Continue loading]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/s_ncs_user_load_list.png)
 
-모든 레코드를 로드하려면 목록을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Load all]**.
+모든 레코드를 로드하려면 목록을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Load all]**&#x200B;을(를) 선택합니다.
 
 >[!CAUTION]
 >
@@ -41,11 +41,11 @@ ht-degree: 1%
 
 ### 기본 레코드 수 변경 {#change-default-number-of-records}
 
-로드된 기본 레코드 수를 변경하려면 **[!UICONTROL Configure list]** 목록의 오른쪽 하단 모서리에 있습니다.
+로드된 기본 레코드 수를 변경하려면 목록의 오른쪽 아래 모서리에 있는 **[!UICONTROL Configure list]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/s_ncs_user_configure_list.png)
 
-목록 구성 창에서 **[!UICONTROL Advanced parameters]** (왼쪽 하단) 및 검색할 라인의 수를 변경합니다.
+목록 구성 창에서 **[!UICONTROL Advanced parameters]**(왼쪽 아래)을(를) 클릭하고 검색할 줄 수를 변경합니다.
 
 ![](assets/s_ncs_user_configurelist_advancedparam.png)
 
@@ -66,55 +66,55 @@ ht-degree: 1%
 
 예를 들어 세부 정보 화면에 표시되지 않는 데이터를 표시하려는 경우 열을 추가하는 또 다른 방법은 목록 구성 창을 사용하는 것입니다. 방법은 다음과 같습니다.
 
-1. 클릭 **[!UICONTROL Configure list]** 목록 아래와 오른쪽에 있습니다.
+1. 목록 아래 및 오른쪽에 있는 **[!UICONTROL Configure list]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. 목록 구성 창에서 추가할 필드를 두 번 클릭합니다. **[!UICONTROL Available fields]** 목록에 추가하기 **[!UICONTROL Output columns]**.
+1. 목록 구성 창에서 **[!UICONTROL Available fields]** 목록에 추가할 필드를 두 번 클릭하여 **[!UICONTROL Output columns]**&#x200B;에 추가합니다.
 
    ![](assets/s_ncs_user_configurelist.png)
 
    >[!NOTE]
    >
-   >기본적으로 고급 필드는 표시되지 않습니다. 이를 표시하려면 다음을 클릭합니다. **고급 필드 표시** 사용 가능한 필드 목록의 아래쪽과 오른쪽에.
+   >기본적으로 고급 필드는 표시되지 않습니다. 이러한 필드를 표시하려면 사용 가능한 필드 목록 아래 및 오른쪽에 있는 **고급 필드 표시**&#x200B;를 클릭하십시오.
    >
    >레이블은 표로 표시된 다음 알파벳순으로 표시됩니다.
    >
-   >사용 **검색** 사용 가능한 필드에서 검색을 실행하는 필드입니다. 자세한 내용은 다음을 참조하십시오. [이 섹션](#sorting-a-list).
+   >**검색** 필드를 사용하여 사용 가능한 필드에서 검색을 실행하십시오. 자세한 내용은 [이 섹션](#sorting-a-list)을 참조하세요.
    >
-   >필드는 SQL 필드, 연결된 테이블, 계산된 필드 등의 특정 아이콘으로 식별됩니다. 선택한 각 필드에 대해 사용 가능한 필드 목록 아래에 설명이 표시됩니다. [자세히 알아보기](#configuring-lists)
+   >필드는 SQL 필드, 연결된 테이블, 계산된 필드 등의 특정 아이콘으로 식별됩니다. 선택한 각 필드에 대해 사용 가능한 필드 목록 아래에 설명이 표시됩니다. [자세히 알아보기](#configuring-lists).
    >
    >데이터를 정렬 및 필터링할 수도 있습니다. [이 섹션](../../platform/using/filtering-options.md)을 참조하십시오.
 
 1. 표시할 각 열에 대해 이 작업을 반복합니다.
-1. 화살표를 사용하여 **표시 순서**. 가장 높은 열은 레코드 목록의 왼쪽에 있습니다.
+1. 화살표를 사용하여 **표시 순서**&#x200B;를 수정합니다. 가장 높은 열은 레코드 목록의 왼쪽에 있습니다.
 
    ![](assets/s_ncs_user_columns_order_down.png)
 
-1. 필요한 경우 **[!UICONTROL Distribution of values]** 현재 폴더의 선택한 필드에 대한 값 재분할을 봅니다.
+1. 필요한 경우 **[!UICONTROL Distribution of values]**&#x200B;을(를) 클릭하여 현재 폴더에서 선택한 필드에 대한 값 다시 분할을 볼 수 있습니다.
 
    ![](assets/s_ncs_user_configurelist_values.png)
 
-1. 클릭 **[!UICONTROL OK]** 구성을 확인하고 결과를 표시합니다.
+1. 구성을 확인하고 결과를 표시하려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
 ### 새 열 만들기 {#create-a-new-column}
 
 새 열을 만들어 목록에 추가 필드를 표시할 수 있습니다. 방법은 다음과 같습니다.
 
-1. 클릭 **[!UICONTROL Configure the list]** 목록 아래와 오른쪽에 있습니다.
-1. 클릭 **[!UICONTROL Add]** 새 필드를 목록에 표시합니다.
+1. 목록의 아래쪽과 오른쪽에 있는 **[!UICONTROL Configure the list]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 목록에 새 필드를 표시합니다.
 
 ### 열 제거 {#remove-a-column}
 
-다음을 사용하여 레코드 목록에서 하나 이상의 열을 마스킹할 수 있습니다. **[!UICONTROL Configure list]** 목록 아래와 오른쪽에 있습니다.
+목록 아래 및 오른쪽에 있는 **[!UICONTROL Configure list]**&#x200B;을(를) 사용하여 레코드 목록에서 하나 이상의 열을 마스킹할 수 있습니다.
 
 ![](assets/s_ncs_user_configure_list.png)
 
-목록 구성 창의 목록에서 마스킹할 열을 선택합니다 **[!UICONTROL Output columns]** zone 을 설정하고 delete 버튼을 클릭합니다.
+목록 구성 창에서 **[!UICONTROL Output columns]** 영역에서 마스킹할 열을 선택하고 삭제 단추를 클릭합니다.
 
 ![](assets/s_ncs_user_removecolumn_icon.png)
 
-마스킹할 각 열에 대해 이 작업을 반복합니다. 클릭 **[!UICONTROL OK]** 구성을 확인하고 결과를 표시합니다.
+마스킹할 각 열에 대해 이 작업을 반복합니다. 구성을 확인하고 결과를 표시하려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
 ### 열 너비 조정 {#adjust-column-width}
 
@@ -127,7 +127,7 @@ ht-degree: 1%
 * 선택한 폴더에만 포함된 레코드
 * 또는 선택한 폴더 및 해당 하위 폴더의 레코드입니다.
 
-한 디스플레이 모드에서 다른 디스플레이 모드로 전환하려면 **[!UICONTROL Display sub-levels]** 을 클릭합니다.
+한 표시 모드에서 다른 표시 모드로 전환하려면 도구 모음에서 **[!UICONTROL Display sub-levels]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/s_ncs_user_display_children_icon.png)
 
@@ -147,25 +147,25 @@ ht-degree: 1%
 
 1. 표시된 데이터가 포함된 폴더를 마우스 오른쪽 단추로 클릭합니다.
 1. **[!UICONTROL Properties]**&#x200B;을(를) 선택합니다.
-1. 클릭 **[!UICONTROL Advanced settings]** 이름을 지정한 다음 **[!UICONTROL Configuration]** 필드.
+1. **[!UICONTROL Advanced settings]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Configuration]** 필드에 이름을 지정합니다.
 
    ![](assets/s_ncs_user_folder_save_config_2.png)
 
-1. 클릭 **[!UICONTROL OK]** 그런 다음 을 클릭합니다. **[!UICONTROL Save]**.
+1. **[!UICONTROL OK]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-그런 다음 이 구성을 다른 페이지에 적용할 수 있습니다 **게재** 폴더:
+그런 다음 이 구성을 다른 **배달** 폴더에 적용할 수 있습니다.
 
 ![](assets/s_ncs_user_folder_save_config_3.png)
 
-클릭 **[!UICONTROL Save]** 폴더 속성 창에서 액세스합니다. 목록 표시가 지정된 구성과 일치하도록 수정됩니다.
+폴더 속성 창에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 목록 표시가 지정된 구성과 일치하도록 수정됩니다.
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
 ## 목록 내보내기 {#exporting-a-list}
 
-목록에서 데이터를 내보내려면 내보내기 마법사를 사용해야 합니다. 액세스하려면 목록에서 내보낼 요소를 선택하고 마우스 오른쪽 버튼을 클릭한 다음 를 선택합니다 **[!UICONTROL Export...]**.
+목록에서 데이터를 내보내려면 내보내기 마법사를 사용해야 합니다. 액세스하려면 목록에서 내보낼 요소를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **[!UICONTROL Export...]**&#x200B;을(를) 선택합니다.
 
-에서는 가져오기 및 내보내기 기능 사용에 대해 설명합니다 [일반 가져오기 및 내보내기](../../platform/using/about-generic-imports-exports.md).
+가져오기 및 내보내기 함수의 사용은 [일반 가져오기 및 내보내기](../../platform/using/about-generic-imports-exports.md)에 설명되어 있습니다.
 
 >[!CAUTION]
 >
@@ -179,11 +179,11 @@ ht-degree: 1%
 
 정렬을 구성하거나 정렬 기준을 결합할 수도 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
-1. **[!UICONTROL Configure list]** 목록 아래와 오른쪽에 있습니다.
+1. **[!UICONTROL Configure list]**(이)가 목록 아래 오른쪽에 있습니다.
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. 목록 구성 창에서 **[!UICONTROL Sorting]** 탭.
+1. 목록 구성 창에서 **[!UICONTROL Sorting]** 탭을 클릭합니다.
 1. 정렬할 필드와 정렬 방향(오름차순 또는 내림차순)을 선택합니다.
 
    ![](assets/s_ncs_user_configurelist_sort.png)
@@ -194,12 +194,12 @@ ht-degree: 1%
 
    정렬 우선 순위는 목록의 열 표시에 영향을 주지 않습니다.
 
-1. 클릭 **[!UICONTROL Ok]** 이 구성을 확인하고 결과를 목록에 표시합니다.
+1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭하여 이 구성을 확인하고 결과를 목록에 표시합니다.
 
 ### 요소 검색 중 {#running-a-search}
 
-를 사용하여 편집기에서 사용 가능한 필드 검색을 실행할 수 있습니다. **[!UICONTROL Search]** 필드 목록 위에 있는 필드입니다. 누르기 **입력** 키보드에서 또는 목록을 탐색합니다. 검색과 일치하는 필드에 굵은 레이블이 표시됩니다.
+필드 목록 위에 있는 **[!UICONTROL Search]** 필드를 사용하여 편집기에서 사용 가능한 필드를 검색할 수 있습니다. 키보드에서 **Enter**&#x200B;를 누르거나 목록을 찾아봅니다. 검색과 일치하는 필드에 굵은 레이블이 표시됩니다.
 
 >[!NOTE]
 >
->필터를 만들어 목록의 일부 데이터만 표시할 수 있습니다. [자세히 알아보기](../../platform/using/creating-filters.md)
+>필터를 만들어 목록의 일부 데이터만 표시할 수 있습니다. [자세히 알아보기](../../platform/using/creating-filters.md).

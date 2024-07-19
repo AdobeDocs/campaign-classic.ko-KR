@@ -22,10 +22,10 @@ ht-degree: 12%
 
 ## 공통 및 일반적인 문제 {#common-and-general-issues}
 
-* 이 [페이지](../../production/using/modules-and-frequent-issues.md) 는 나열된 모듈에서 가장 자주 발생하는 문제를 설명합니다.
-* 이 [페이지](../../production/using/workflow-execution.md) 워크플로우 실행과 관련하여 문제가 발생할 때 따라야 할 일반적인 문제 해결 절차를 나열합니다.
-* 이 [페이지](../../production/using/lost-password.md) 손실된 암호를 변경하거나 복구하는 방법에 대해 자세히 설명합니다.
-* 이 [페이지](../../production/using/console-update.md) 해당 옵션을 비활성화한 경우 콘솔 업데이트 요청을 다시 활성화하는 방법에 대해 자세히 알아보십시오.
+* 이 [페이지](../../production/using/modules-and-frequent-issues.md)에서는 나열된 모듈에 대해 가장 자주 발생하는 문제를 보여 줍니다.
+* 이 [페이지](../../production/using/workflow-execution.md)에는 워크플로우 실행에 문제가 있을 때 따라야 하는 일반적인 문제 해결 절차가 나열되어 있습니다.
+* 이 [페이지](../../production/using/lost-password.md)에서는 손실된 암호를 변경하거나 복구하는 방법에 대해 자세히 설명합니다.
+* 이 [페이지](../../production/using/console-update.md)에서는 해당 옵션을 비활성화한 경우 콘솔 업데이트 요청을 다시 활성화하는 방법에 대해 자세히 설명합니다.
 
 ## 게재 문제 해결 {#delivery-troubleshooting}
 
@@ -33,7 +33,7 @@ ht-degree: 12%
 * [전달성 문제](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [이미지 표시 문제](../../production/using/image-display-issues.md)
 * [이미지 누락](../../production/using/images-missing.md)
-* [임시 파일 문제](../../production/using/temporary-files.md) (*온-프레미스 호스팅 모델만 해당*)
+* [임시 파일 문제](../../production/using/temporary-files.md)(*온-프레미스 호스팅 모델만*)
 
 **관련 항목**:
 

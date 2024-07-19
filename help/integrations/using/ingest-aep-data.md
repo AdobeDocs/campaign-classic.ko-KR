@@ -17,7 +17,7 @@ ht-degree: 0%
 
 
 
-Adobe Experience Platform 대상자를 Campaign에 수집하고 워크플로우에서 사용하려면 먼저 Adobe Campaign as a Adobe Experience Platform에 연결해야 합니다 **대상** 내보낼 세그먼트로 구성합니다.
+Adobe Experience Platform 대상을 Campaign으로 수집하여 워크플로우에서 사용하려면 먼저 Adobe Campaign을 Adobe Experience Platform **대상**(으)로 연결하고 내보낼 세그먼트로 구성해야 합니다.
 
 대상이 구성되면 데이터가 스토리지 위치로 내보내지며, 이를 수집하려면 Campaign Classic에서 전용 워크플로우를 구축해야 합니다.
 
@@ -25,7 +25,7 @@ Adobe Experience Platform 대상자를 Campaign에 수집하고 워크플로우�
 
 Experience Platform Adobe에서 내보낸 세그먼트에 대한 저장소 위치를 선택하여 Adobe Campaign과의 연결을 구성합니다. 또한 이 단계를 통해 내보낼 세그먼트를 선택하고 포함할 추가 XDM 필드를 지정할 수 있습니다.
 
-자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html)를 참조하세요.
 
 대상이 구성되면 Adobe Experience Platform은 사용자가 제공한 저장소 위치에 탭으로 구분된 .txt 또는 .csv 파일을 생성합니다. 이 작업은 24시간에 한 번 예약되고 수행됩니다.
 
@@ -35,7 +35,7 @@ Experience Platform Adobe에서 내보낸 세그먼트에 대한 저장소 위�
 
 Campaign Classic이 대상으로 구성되면 Adobe Experience Platform에서 내보낸 파일을 가져올 수 있는 전용 워크플로우를 빌드해야 합니다.
 
-이렇게 하려면 을(를) 추가하고 구성해야 합니다 **[!UICONTROL File transfer]** 활동. 이 활동을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../workflow/using/file-transfer.md).
+이 작업을 수행하려면 **[!UICONTROL File transfer]** 활동을 추가하고 구성해야 합니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../workflow/using/file-transfer.md)을 참조하세요.
 
 ![](assets/rtcdp-file-transfer.png)
 

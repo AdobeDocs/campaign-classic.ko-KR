@@ -32,7 +32,7 @@ ht-degree: 2%
 
 1. 사용하려는 사용자 지정 테이블의 필드를 통합하는 새 데이터 스키마를 만듭니다.
 
-   자세한 내용은 다음을 참조하십시오. [스키마 참조(xtk:srcSchema)](../../configuration/using/about-schema-reference.md).
+   자세한 내용은 [스키마 참조(xtk:srcSchema)](../../configuration/using/about-schema-reference.md)를 참조하십시오.
 
    이 예제에서는 ID, 이름, 성, 이메일 주소, 휴대폰 번호 필드를 포함하는 매우 간단한 표인 고객 스키마를 만듭니다. 목표는 이 표에 저장된 개인에게 이메일 또는 SMS 경고를 보낼 수 있습니다.
 
@@ -53,7 +53,7 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-1. =&quot;true&quot; 속성을 사용하여 스키마를 외부 보기로 선언합니다. 을(를) 참조하십시오 [보기 속성](../../configuration/using/schema-characteristics.md#the-view-attribute).
+1. =&quot;true&quot; 속성을 사용하여 스키마를 외부 보기로 선언합니다. [보기 특성](../../configuration/using/schema-characteristics.md#the-view-attribute)을 참조하세요.
 
    ```
     <srcSchema desc="External recipient table" namespace="cus" view="true"....>
@@ -82,35 +82,35 @@ ht-degree: 2%
       </element>
    ```
 
-1. 다음을 클릭합니다. **[!UICONTROL Administration > Campaign management > Target mappings]** 노드.
-1. 다음을 클릭합니다. **신규** 버튼을 클릭하여 대상 매핑 생성 마법사를 엽니다.
-1. 다음을 입력합니다. **레이블** 필드에서 방금 만든 스키마를 선택합니다 **타겟팅 차원** 필드.
+1. **[!UICONTROL Administration > Campaign management > Target mappings]** 노드를 클릭합니다.
+1. **새로 만들기** 단추를 클릭하여 대상 매핑 만들기 마법사를 엽니다.
+1. **레이블** 필드를 입력하고 **타깃팅 차원** 필드에서 방금 만든 스키마를 선택합니다.
 
    ![](assets/mapping_diffusion_wizard_1.png)
 
-1. 다음에서 **주소 양식 편집** 창에서 여러 게재 주소와 일치하는 스키마의 필드를 선택합니다. 여기에서 를 매핑할 수 있습니다. **@email** 및 **@mobile** 필드.
+1. **주소 양식 편집** 창에서 다양한 게재 주소와 일치하는 스키마의 필드를 선택합니다. 여기에서 **@email** 및 **@mobile** 필드를 매핑할 수 있습니다.
 
    ![](assets/mapping_diffusion_wizard_2.png)
 
-1. 다음에서 **스토리지** 창에서 다음을 입력합니다 **확장 스키마의 접미사** 새 스키마를 Adobe Campaign에서 제공하는 기본 스키마와 구별하기 위한 필드입니다.
+1. 다음 **저장소** 창에서 새 스키마를 Adobe Campaign에서 제공하는 기본 제공 스키마와 구별하기 위해 확장 스키마의 **접미사** 필드를 입력하십시오.
 
-   클릭 **[!UICONTROL Define new additional fields]** 게재에서 타겟팅할 차원을 선택합니다.
+   **[!UICONTROL Define new additional fields]**&#x200B;을(를) 클릭하여 게재에서 타겟팅할 차원을 선택합니다.
 
    기본적으로 제외 관리는 메시지와 동일한 표에 저장됩니다.
 
-   다음 확인: **추적을 위한 저장소 스키마 생성** 대상 매핑에 연결된 추적에 대한 저장소를 구성하려면 상자를 선택합니다.
+   대상 매핑에 연결된 추적에 대한 저장소를 구성하려면 **추적을 위한 저장소 스키마 생성** 상자를 선택합니다.
 
    ![](assets/mapping_diffusion_wizard_3.png)
 
    >[!IMPORTANT]
    >
-   >Adobe Campaign은 동일한 broadlog 및/또는 trackinglog 스키마에 연결된 타겟팅 스키마라고 하는 여러 수신자 스키마를 지원하지 않습니다. 그렇지 않으면 이후 데이터 조정에 예외 항목이 발생할 수 있습니다. 자세한 내용은 [권장 사항 및 제한 사항](../../configuration/using/about-custom-recipient-table.md) 페이지를 가리키도록 업데이트하는 중입니다.
+   >Adobe Campaign은 동일한 broadlog 및/또는 trackinglog 스키마에 연결된 타겟팅 스키마라고 하는 여러 수신자 스키마를 지원하지 않습니다. 그렇지 않으면 이후 데이터 조정에 예외 항목이 발생할 수 있습니다. 자세한 내용은 [권장 사항 및 제한 사항](../../configuration/using/about-custom-recipient-table.md) 페이지를 참조하세요.
 
-1. 다음에서 **확장** 창에서 생성할 선택적 스키마를 선택합니다(사용 가능한 스키마 목록은 Adobe Campaign 플랫폼에 설치된 모듈에 따라 다름).
+1. **확장** 창에서 생성할 선택적 스키마를 선택합니다. 사용 가능한 스키마 목록은 Adobe Campaign 플랫폼에 설치된 모듈에 따라 다릅니다.
 
    ![](assets/mapping_diffusion_wizard_4.png)
 
-1. 다음을 클릭합니다. **저장** 단추를 클릭하여 마법사를 닫습니다.
+1. 마법사를 닫으려면 **저장** 단추를 클릭하십시오.
 
    마법사는 시작 스키마를 사용하여 새 대상 매핑 작업에 필요한 다른 모든 스키마를 만듭니다.
 

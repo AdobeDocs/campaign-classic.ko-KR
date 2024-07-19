@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ### Linux에서 {#in-linux}
 
-편집 **customer.sh** 파일을 추가하고 다음 줄을 추가합니다.
+**customer.sh** 파일을 편집하고 다음 줄을 추가합니다.
 
 ```
 export TRACE_ADDR=localhost:<listening port>
@@ -32,7 +32,7 @@ export TRACE_ADDR=localhost:<listening port>
 
 ### Windows {#in-windows}
 
-다음을 만들어야 합니다. **TRACE 주소** 이 포함된 환경 변수 **localhost** 값: **`<listening port="" />`**.
+**localhost** 값으로 **TRACE_ADDR** 환경 변수를 만들어야 합니다. **`<listening port="" />`**.
 
 >[!IMPORTANT]
 >
@@ -40,8 +40,8 @@ export TRACE_ADDR=localhost:<listening port>
 
 ## 보안 영역 구성 {#configuring-security-zones}
 
-각 연산자는 영역에 연결되어 인스턴스에 로그온해야 하며 연산자 IP는 보안 영역에 정의된 주소 또는 주소 집합에 포함되어야 합니다. 기술 영역 구성은 Adobe Campaign 서버의 구성 파일에서 수행됩니다. 연산자를 보안 영역에 연결하는 방법은 콘솔에서 정의해야 합니다( **[!UICONTROL Administration > Access management > Operators]** node).
+각 연산자는 영역에 연결되어 인스턴스에 로그온해야 하며 연산자 IP는 보안 영역에 정의된 주소 또는 주소 집합에 포함되어야 합니다. 기술 영역 구성은 Adobe Campaign 서버의 구성 파일에서 수행됩니다. 연산자와 보안 영역 간의 연결을 콘솔(**[!UICONTROL Administration > Access management > Operators]** 노드)에서 정의해야 합니다.
 
 >[!NOTE]
 >
->보안 영역 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/security-zones.md).
+>보안 영역 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/security-zones.md)을 참조하세요.

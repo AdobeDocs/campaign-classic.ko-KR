@@ -23,15 +23,15 @@ ht-degree: 2%
 
 Adobe Campaign의 다양한 구성 요소와의 연결을 사용할 수 있는 한 데이터베이스 서버의 운영 체제는 중요하지 않습니다.
 
-다음 항목도 확인 [데이터베이스 액세스 계층](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) 섹션.
+[데이터베이스 액세스 계층](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) 섹션도 확인하십시오.
 
 ## Microsoft SQL Server {#microsoft-sql-server}
 
 Adobe Campaign 애플리케이션 서버에 기본 클라이언트를 설치해야 합니다.
 
-ODBC 드라이버 구성 패널을 통해 **SQL Server Native Client 11.0**.
+**SQL Server Native Client 11.0**&#x200B;의 ODBC 드라이버 구성 패널을 통해 서버의 네이티브 클라이언트를 확인할 수 있습니다.
 
-다음 액세스 DLL이 있어야 합니다. **sqlncli11.dll**.
+액세스 DLL **sqlncli11.dll**&#x200B;이(가) 있어야 합니다.
 
 액세스 DLL은 Microsoft 웹 사이트에 있습니다.
 
@@ -45,11 +45,11 @@ ODBC 드라이버 구성 패널을 통해 **SQL Server Native Client 11.0**.
 >
 >멀티바이트 문자가 있는 열 이름은 지원되지 않습니다.
 
-다음 **NLS_NCHAR_CHARACTERSET** 및 **NLS_CHARACTERSET** 데이터베이스가 유니코드 또는 ANSI로 작동하려면 매개 변수를 올바르게 구성해야 합니다.
+데이터베이스가 유니코드 또는 ANSI로 작동하려면 **NLS_NCHAR_CHARACTERSET** 및 **NLS_CHARACTERSET** 매개 변수를 올바르게 구성해야 합니다.
 
 Adobe Campaign은 기본 Oracle 인코딩을 사용합니다. 다른 인코딩을 사용하면 호환성 문제가 트리거될 수 있습니다. 이 경우 기술 지원에 문의하십시오.
 
-인코딩에 대해 알아보려면 다음을 사용하십시오 **sqlplus** 명령:
+인코딩에 대해 알아보려면 다음 **sqlplus** 명령을 사용하십시오.
 
 ```
 SELECT * FROM nls_database_parameters ;
@@ -68,7 +68,7 @@ SELECT * FROM nls_database_parameters ;
   NLS_CHARACTERSET WE8MSWIN1252
 ```
 
-로그온하려면 **sqlplus**, Oracle 사용자 프로필 사용:
+**sqlplus**&#x200B;에 로그온하려면 Oracle 사용자 프로필을 사용하십시오.
 
 ```
 su - oracle 
@@ -76,7 +76,7 @@ sqlplus
 [login] [password]
 ```
 
-다음을 참조할 수도 있습니다. [Linux의 oracle 클라이언트](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux).
+Linux에서 [Oracle 클라이언트](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux)도 참조할 수 있습니다.
 
 ## PostgresSQL {#postgressql}
 

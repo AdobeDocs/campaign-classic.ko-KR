@@ -33,11 +33,11 @@ ht-degree: 12%
 
 ## 설명 {#description-13}
 
-이 요소는 `<parameter>`  요소.
+이 요소는 `<parameter>`개 요소 그룹을 정의합니다.
 
 ## 사용 및 사용 컨텍스트 {#use-and-context-of-use-8}
 
-이 요소는 단일 요소라도 필수입니다 `<param>` 의 하위 요소 `<method>`  요소를 생성하지 않습니다.
+이 요소는 `<method>` 요소의 단일 `<param>` 자식 요소에서도 필수입니다.
 
 ## 속성 설명 {#attribute-description-13}
 

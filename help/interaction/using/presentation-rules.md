@@ -25,8 +25,8 @@ ht-degree: 1%
 
 캐나다 여행은 수신자 당 한 번만 제공되고 거부되면 다시 제공되지 않도록 규칙을 구성할 예정입니다.
 
-1. Adobe Campaign 트리에서 **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]** 노드.
-1. 새로 만들기 **[!UICONTROL Offer presentation]** 규칙을 입력합니다.
+1. Adobe Campaign 트리에서 **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]** 노드로 이동합니다.
+1. 새 **[!UICONTROL Offer presentation]** 형식 규칙을 만듭니다.
 
    ![](assets/offer_typology_example_001.png)
 
@@ -34,19 +34,19 @@ ht-degree: 1%
 
    ![](assets/offer_typology_example_002.png)
 
-1. 다음을 선택합니다. **[!UICONTROL All channels]** 모든 채널로 규칙을 확장하는 옵션입니다.
+1. 규칙을 모든 채널로 확장하려면 **[!UICONTROL All channels]** 옵션을 선택하십시오.
 
    ![](assets/offer_typology_example_003.png)
 
-1. 다음을 클릭합니다. **[!UICONTROL Edit expression]** 링크 및 선택 **[!UICONTROL Category]** 노드를 표현식으로 사용하십시오.
+1. **[!UICONTROL Edit expression]** 링크를 클릭하고 **[!UICONTROL Category]** 노드를 식으로 선택합니다.
 
    ![](assets/offer_typology_example_004.png)
 
-1. 캐나다의 여행 오퍼와 일치하는 카테고리를 선택하고 **[!UICONTROL OK]** 을 눌러 쿼리 창을 닫습니다.
+1. 캐나다 여행 오퍼와 일치하는 범주를 선택하고 **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 쿼리 창을 닫습니다.
 
    ![](assets/offer_typology_example_005.png)
 
-1. 다음에서 **[!UICONTROL Offer presentation]** 탭에서 환경에 구성된 차원과 동일한 차원을 선택합니다.
+1. **[!UICONTROL Offer presentation]** 탭에서 환경에 구성된 차원과 동일한 차원을 선택합니다.
 
    ![](assets/offer_typology_example_006.png)
 
@@ -58,17 +58,17 @@ ht-degree: 1%
 
    ![](assets/offer_typology_example_008.png)
 
-1. 다음 항목 선택 **[!UICONTROL Offers for the same category]** 에서 모든 오퍼를 제외하도록 필터링 **캐나다** 범주.
+1. **캐나다** 범주에서 모든 오퍼를 제외하려면 **[!UICONTROL Offers for the same category]** 필터를 선택하십시오.
 
    ![](assets/offer_typology_example_020.png)
 
-1. 다음 항목 선택 **[!UICONTROL Rejected propositions]** 수신자가 거부한 제안만 고려하도록 필터링합니다.
+1. 받는 사람이 거부한 제안만 고려하려면 **[!UICONTROL Rejected propositions]** 필터를 선택하세요.
 
    ![](assets/offer_typology_example_021.png)
 
 1. 이 규칙을 적용할 수신자를 선택합니다.
 
-   이 예제에서는 **빈번한 여행자** 수신자.
+   이 예제에서는 **자주 방문하는 사람**&#x200B;명을 선택합니다.
 
    ![](assets/offer_typology_example_009.png)
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
    ![](assets/offer_typology_example_013.png)
 
-1. 오퍼 환경으로 이동, (**환경 - 수신자** 이 경우)에서 드롭다운 목록을 사용하여 방금 만든 새 유형화를 참조하십시오. **[!UICONTROL Eligibility]** 탭.
+1. 오퍼 환경(**환경 - 이 경우 수신자**)으로 이동한 다음 **[!UICONTROL Eligibility]** 탭의 드롭다운 목록을 사용하여 방금 만든 새 유형화를 참조합니다.
 
    ![](assets/offer_typology_example_014.png)
 
@@ -86,20 +86,20 @@ ht-degree: 1%
 
 우리는 캐나다 카테고리에 속하는 첫 번째 오퍼 제안을 보내려고 합니다. 수신자가 오퍼를 한 번 거부하면 다시 오퍼가 제공되지 않습니다.
 
-1. 다음에서 **빈번한 여행자** 수신자 폴더, 프로필 중 하나를 선택하여 해당 오퍼를 확인합니다. 다음 중 하나를 클릭합니다. **[!UICONTROL Propositions]** 탭을 클릭한 다음 **[!UICONTROL Preview]** 탭.
+1. **자주 찾는 여행자** 받는 사람 폴더에서 프로필 중 하나를 선택하여 해당 프로필에 해당하는 오퍼를 확인합니다. **[!UICONTROL Propositions]** 탭을 클릭한 다음 **[!UICONTROL Preview]** 탭을 클릭합니다.
 
-   이 예제에서는 **팀 램지** 의 일부인 오퍼에 적격입니다. **아메리카** 범주.
+   이 예제에서 **Tim Ramsey**&#x200B;은(는) **Americas** 카테고리의 일부인 오퍼에 참가할 수 있습니다.
 
    ![](assets/offer_typology_example_015.png)
 
-1. 을(를) 타겟팅할 이메일 게재를 만드는 것부터 시작하십시오. **빈번한 여행자** 오퍼가 있는 수신자.
+1. 먼저 **자주 방문하는 사용자**&#x200B;명의 받는 사람을 대상으로 하는 전자 메일 게재를 만듭니다.
 1. 오퍼 엔진 호출 매개 변수를 선택합니다.
 
-   이 예에서는 **미국 여행** 선택한 카테고리에 다음이 포함됩니다. **캐나다** 및 **미국** 하위 범주.
+   이 예제에서는 **캐나다** 및 **미국** 하위 범주를 포함하는 **미국 여행** 범주를 선택합니다.
 
    ![](assets/offer_typology_example_016.png)
 
-1. 메시지 본문에 오퍼를 삽입하고 게재를 보냅니다. 자세한 내용은 다음을 참조하십시오. [아웃바운드 채널 기본 정보](../../interaction/using/about-outbound-channels.md).
+1. 메시지 본문에 오퍼를 삽입하고 게재를 보냅니다. 자세한 내용은 [아웃바운드 채널 정보](../../interaction/using/about-outbound-channels.md)를 참조하세요.
 
    수신자가 적격한 오퍼를 수신했습니다.
 

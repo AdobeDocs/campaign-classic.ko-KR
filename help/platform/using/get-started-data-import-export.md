@@ -29,7 +29,7 @@ Adobe Campaign Classic은 데이터를 가져오고 내보낼 수 있는 데이�
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-**워크플로** 는 가져오기 프로세스를 자동화하는 유용한 방법입니다. 로컬 파일에서 데이터를 가져오든 SFTP에서 데이터를 가져오든 간에 데이터 관리 절차를 표준화할 수 있습니다.
+**워크플로**&#x200B;는 가져오기 프로세스를 자동화하는 유용한 방법입니다. 로컬 파일에서 데이터를 가져오든 SFTP에서 데이터를 가져오든 간에 데이터 관리 절차를 표준화할 수 있습니다.
 
 워크플로우를 사용하면 일정에 따라 가져오기 및 내보내기 작업을 자동으로 반복할 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다.
 
@@ -39,11 +39,11 @@ Adobe Campaign Classic은 데이터를 가져오고 내보낼 수 있는 데이�
 
 <img src="assets/do-not-localize/icon_templates.svg" width="60px">
 
-또한 Campaign Classic은 **일반 가져오기 및 내보내기** 이를 통해 가끔씩 가져오기 또는 내보내기 작업을 만들 수 있습니다.
+또한 Campaign Classic은 가끔씩 가져오기 또는 내보내기 작업을 만들 수 있도록 하는 **일반 가져오기 및 내보내기**&#x200B;를 제공합니다.
 
 가져오기 및 내보내기는 전용 템플릿에서 구성되며 가져오기 및 내보내기 작업을 시작하고 모니터링하는 데 사용하고 구성할 수 있습니다.
 
-일반 가져오기 및 내보내기에 대한 자세한 내용은 [이 섹션](../../platform/using/about-generic-imports-exports.md).
+일반 가져오기 및 내보내기에 대한 자세한 내용은 [이 섹션](../../platform/using/about-generic-imports-exports.md)을 참조하세요.
 
 >[!IMPORTANT]
 >일반 수입과 수출은 수시 작업에만 사용해야 합니다. 데이터 일관성을 보장하고 효율성을 높이려면 워크플로우를 사용하여 가져오기 및 내보내기 작업을 수행하는 것이 좋습니다.
@@ -65,6 +65,6 @@ Campaign Classic을 사용하면 압축 또는 암호화된 파일을 가져오�
 
 <img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
 
-몇 군데를 따라가셔야 합니다 [우수 사례](../../platform/using/import-export-best-practices.md) 데이터베이스 내에서 데이터 일관성을 보장하고 업데이트 또는 내보내기 작업 중 일반적인 오류를 방지하기 위해 가져오기 및 내보내기 작업을 수행할 때.
+가져오기 및 내보내기 작업을 수행할 때 데이터베이스 내에서 데이터 일관성을 보장하고 업데이트 또는 내보내기 작업 중 일반적인 오류를 방지하려면 몇 가지 [모범 사례](../../platform/using/import-export-best-practices.md)를 따라야 합니다.
 
-또한 SFTP 서버 사용과 관련된 권장 사항 및 일반적인 문제는에서 사용할 수 있습니다. [이 섹션](../../platform/using/sftp-server-usage.md).
+또한 SFTP 서버 사용과 관련된 권장 사항 및 일반적인 문제는 [이 섹션](../../platform/using/sftp-server-usage.md)에서 확인할 수 있습니다.

@@ -18,37 +18,37 @@ ht-degree: 3%
 
 Adobe Campaign 애플리케이션 서버는 점점 다양해지고 복잡한 회사 정보 시스템과 개방적이고 쉽게 통합되도록 설계되었습니다.
 
-Adobe Campaign API는 애플리케이션 내의 JavaScript와 애플리케이션 외부의 SOAP에서 사용됩니다. 이러한 라이브러리는 보강할 수 있는 일반 함수 라이브러리를 구성합니다. 자세한 내용은 다음을 참조하십시오. [SOAP 메서드 구현](../../configuration/using/implementing-soap-methods.md).
+Adobe Campaign API는 애플리케이션 내의 JavaScript 및 애플리케이션 외부의 SOAP에서 사용됩니다. 이러한 라이브러리는 보강할 수 있는 일반 함수 라이브러리를 구성합니다. 자세한 내용은 [SOAP 메서드 구현](../../configuration/using/implementing-soap-methods.md)을 참조하세요.
 
 >[!IMPORTANT]
 >
 >하루에 인증된 엔진 호출 수는 라이선스 계약에 따라 다릅니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-classic---product-description.html)를 참조하십시오.\
->전체 설명을 포함한 모든 API 목록은 다음에서 사용할 수 있습니다. [이 전용 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html.
+>전체 설명을 포함한 모든 API 목록은 [이 전용 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html)에서 확인할 수 있습니다.
 
 ## 필수 구성 요소 {#prerequisites}
 
 Adobe Campaign API를 사용하기 전에 다음 항목에 익숙해야 합니다.
 
 * JavaScript
-* 프로토콜
+* SOAP 프로토콜
 * Adobe Campaign 데이터 모델
 
 ## Adobe Campaign API 사용 {#using-adobe-campaign-apis}
 
 Adobe Campaign에서는 두 가지 유형의 API를 사용합니다.
 
-* 데이터 모델 데이터 쿼리를 위한 일반 데이터 액세스 API입니다. 을(를) 참조하십시오 [데이터 지향 API](../../configuration/using/data-oriented-apis.md).
-* 게재, 워크플로우, 구독 등 각 오브젝트에 대해 작업을 수행할 수 있는 비즈니스별 API. 을(를) 참조하십시오 [비즈니스 지향 API](../../configuration/using/business-oriented-apis.md).
+* 데이터 모델 데이터 쿼리를 위한 일반 데이터 액세스 API입니다. [데이터 지향 API](../../configuration/using/data-oriented-apis.md)를 참조하세요.
+* 게재, 워크플로우, 구독 등 각 오브젝트에 대해 작업을 수행할 수 있는 비즈니스별 API. [비즈니스 지향 API](../../configuration/using/business-oriented-apis.md)를 참조하세요.
 
-API를 개발하고 Adobe Campaign과 상호 작용하려면 데이터 모델에 익숙해야 합니다. Adobe Campaign을 사용하면 기본 사항에 대한 전체 설명을 생성할 수 있습니다. 을(를) 참조하십시오 [모델에 대한 설명](../../configuration/using/data-oriented-apis.md#description-of-the-model).
+API를 개발하고 Adobe Campaign과 상호 작용하려면 데이터 모델에 익숙해야 합니다. Adobe Campaign을 사용하면 기본 사항에 대한 전체 설명을 생성할 수 있습니다. [모델에 대한 설명](../../configuration/using/data-oriented-apis.md#description-of-the-model)을 참조하세요.
 
 ## SOAP 호출 {#soap-calls}
 
-SOAP 프로토콜을 사용하면 리치 클라이언트를 통해 API 메서드를 호출하거나 웹 서비스를 사용하는 타사 응용 프로그램을 호출하거나 이러한 메서드를 기본적으로 사용하는 JSP를 호출할 수 있습니다.
+SOAP 프로토콜을 사용하면 리치 클라이언트를 통해 API 메서드를 호출하거나 웹 서비스를 사용하는 서드파티 애플리케이션 또는 기본적으로 이러한 메서드를 사용하는 JSP를 호출할 수 있습니다.
 
 ![](assets/s_ncs_configuration_architecture.png)
 
-SOAP 메시지의 구조는 다음과 같습니다.
+SOAP 메시지 구조는 다음과 같습니다.
 
 * 메시지 구조를 정의하는 봉투,
 * 선택적 헤더,
@@ -63,13 +63,13 @@ SOAP 메시지의 구조는 다음과 같습니다.
 
 ## &#39;ExecuteQuery&#39; 메서드에 대한 SOAP 메시지의 예 {#example-of-a-soap-message-on-the--executequery--method--}
 
-이 예에서 SOAP 쿼리는 &quot;ExecuteQuery&quot; 메서드를 호출합니다. 이 메서드는 인증을 위한 매개 변수(세션 토큰)로 문자열을 사용하고 실행할 쿼리 설명에 대한 XML 콘텐츠를 사용합니다.
+이 예에서 SOAP 쿼리는 &quot;ExecuteQuery&quot; 메서드를 호출합니다. 이 메서드는 문자열을 인증을 위한 매개 변수(세션 토큰)로 사용하고 실행할 쿼리 설명에 대한 XML 콘텐츠를 사용합니다.
 
-자세한 내용은 다음을 참조하십시오. [ExecuteQuery(xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-).
+자세한 내용은 [ExecuteQuery(xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-)을 참조하세요.
 
 >[!NOTE]
 >
->이 서비스의 WSDL 설명은 다음 예제에서 완료됩니다. [웹 서비스 설명: WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
+>이 서비스의 WSDL 설명은 [웹 서비스 설명: WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl)과 같은 예제에서 완성됩니다.
 
 ### SOAP 쿼리 {#soap-query}
 
@@ -89,13 +89,13 @@ SOAP 메시지의 구조는 다음과 같습니다.
 </SOAP-ENV:Envelope>
 ```
 
-다음 `<soap-env:envelope>` element는 SOAP 봉투를 나타내는 메시지의 첫 번째 요소입니다.
+`<soap-env:envelope>` 요소는 SOAP Envelope을 나타내는 메시지의 첫 번째 요소입니다.
 
-다음 `<soap-env:body>` 요소는 포락선의 첫 번째 자식 요소입니다. 여기에는 메시지에 대한 설명, 즉 쿼리 또는 응답의 콘텐츠가 포함됩니다.
+`<soap-env:body>` 요소는 봉투의 첫 번째 자식 요소입니다. 여기에는 메시지에 대한 설명, 즉 쿼리 또는 응답의 콘텐츠가 포함됩니다.
 
-호출할 메서드가 `<executequery>` 요소를 추가합니다.
+호출할 메서드가 SOAP 메시지 본문의 `<executequery>` 요소에 입력되었습니다.
 
-SOAP에서 매개변수는 표시 순서에 따라 인식됩니다. 첫 번째 매개 변수, `<__sessiontoken>`는 인증 체인을 가져옵니다. 두 번째 매개변수는 쿼리의 XML 설명입니다. `<querydef>` 요소를 생성하지 않습니다.
+SOAP에서 매개 변수는 표시 순서에 따라 인식됩니다. 첫 번째 매개 변수 `<__sessiontoken>`은(는) 인증 체인을 사용하며 두 번째 매개 변수는 `<querydef>` 요소의 쿼리에 대한 XML 설명입니다.
 
 ### SOAP 응답 {#soap-response}
 
@@ -112,11 +112,11 @@ SOAP에서 매개변수는 표시 순서에 따라 인식됩니다. 첫 번째 �
 </SOAP-ENV:Envelope>
 ```
 
-쿼리 결과는에서 입력됩니다. `<pdomoutput>` 요소를 생성하지 않습니다.
+쿼리 결과는 `<pdomoutput>` 요소에서 입력됩니다.
 
 ## 오류 관리 {#error-management}
 
-SOAP 오류 응답 예:
+예제 SOAP 오류 응답:
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -132,7 +132,7 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 </SOAP-ENV:Envelope>
 ```
 
-다음 `<soap-env:fault>` soap 메시지 본문의 요소는 웹 서비스 처리 중에 발생하는 오류 신호를 전달하는 데 사용됩니다. 이는 다음 하위 요소로 구성됩니다.
+SOAP 메시지 본문의 `<soap-env:fault>` 요소는 웹 서비스를 처리하는 동안 발생하는 오류 신호를 전달하는 데 사용됩니다. 이는 다음 하위 요소로 구성됩니다.
 
 * `<faultcode>` : 오류 유형을 나타냅니다. 오류 유형은 다음과 같습니다.
 
@@ -144,7 +144,7 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 * `<faultstring>` : 오류를 설명하는 메시지
 * `<detail>` : 긴 오류 메시지
 
-다음 경우에 서비스 호출의 성공 또는 실패가 식별됩니다. `<faultcode>` 요소가 확인되었습니다.
+`<faultcode>` 요소가 확인되면 서비스 호출의 성공 또는 실패가 식별됩니다.
 
 >[!IMPORTANT]
 >
@@ -174,4 +174,4 @@ catch (SoapException e)
 
 https://serverName/nl/jsp/soaprouter.jsp
 
-포함 **`<server>`** Adobe Campaign 애플리케이션 서버(**nlserver 웹**).
+**`<server>`**&#x200B;에 Adobe Campaign 응용 프로그램 서버(**nlserver web**)가 있습니다.

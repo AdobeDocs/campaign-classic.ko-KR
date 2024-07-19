@@ -33,8 +33,8 @@ ht-degree: 5%
    * 데이터베이스의 데이터를 탐색하고 측정을 정의합니다. [이 섹션에서](../../reporting/using/ac-cubes.md) 자세히 알아보기
    * 기존 보고서에 지표 추가. [이 섹션에서](../../reporting/using/about-reports-creation-in-campaign.md) 자세히 알아보기
    * 데이터베이스에서 데이터를 봅니다. [이 섹션에서](../../reporting/using/about-descriptive-analysis.md) 자세히 알아보기
-   * 새 게재 보고서를 만듭니다. 자세히 알아보기 [이 섹션에서](../../reporting/using/about-reports-creation-in-campaign.md)),
-   * Adobe Campaign 데이터베이스에서 데이터 내보내기(워크플로우를 통해): [이 섹션](../../workflow/using/about-workflows.md)
+   * 새 게재 보고서를 만듭니다. 자세히 알아보기 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)),
+   * 워크플로우를 통해 Adobe Campaign 데이터베이스에서 데이터를 내보냅니다. [이 섹션](../../workflow/using/about-workflows.md) 참조
    * 피벗 테이블을 만듭니다. [이 섹션에서](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table) 자세히 알아보기
    * 집계된 데이터를 탐색합니다. [이 섹션에서](../../reporting/using/ac-cubes.md) 자세히 알아보기
    * 마법사를 사용하여 데이터를 분석합니다. [이 섹션에서](../../reporting/using/about-descriptive-analysis.md) 자세히 알아보기
@@ -101,7 +101,7 @@ if(string(ctx@_historyId)!==""))
 
   색인화된 필드를 빠르게 찾으려면 Adobe Campaign 인터페이스에서 열 이름을 확인하십시오. 필드가 색인화된 경우 정렬 화살표는 빨간색으로 밑줄이 그어집니다.
 
-  인덱스에 대한 자세한 내용은 를 참조하십시오. [이 섹션](../../configuration/using/data-model-best-practices.md#indexes).
+  인덱스에 대한 자세한 내용은 [이 섹션](../../configuration/using/data-model-best-practices.md#indexes)을 참조하세요.
 
 * 보고서 확장성이 있는지 확인하십시오. 시간이 지남에 따라 데이터 볼륨이 크게 증가할 수 있습니다.
 
@@ -109,8 +109,8 @@ if(string(ctx@_historyId)!==""))
 
   마지막으로, 데이터 제거 지연은 용이한 데이터 조작을 위해 필요할 때 알려지고 조정될 필요가 있다.
 
-  정리 및 데이터 보존에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../configuration/using/data-model-best-practices.md#data-retention).
+  정리 및 데이터 보존에 대한 자세한 내용은 [이 섹션](../../configuration/using/data-model-best-practices.md#data-retention)을 참조하세요.
 
 ### 보고서 내보내기 {#exporting-reports}
 
-보고서 내보내기와 관련된 Recommendations은에 자세히 설명되어 있습니다. [이 섹션](../../reporting/using/actions-on-reports.md#exporting-a-report).
+보고서 내보내기에 관련된 Recommendations은 [이 섹션](../../reporting/using/actions-on-reports.md#exporting-a-report)에 자세히 설명되어 있습니다.

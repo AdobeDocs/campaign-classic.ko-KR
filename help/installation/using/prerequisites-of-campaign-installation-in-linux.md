@@ -21,16 +21,16 @@ ht-degree: 0%
 
 이 섹션에서는 Adobe Campaign을 설치하기 전에 필요한 사전 구성 단계에 대해 자세히 설명합니다.
 
-Adobe Campaign 설치에 필요한 기술 및 소프트웨어 구성은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md).
+Adobe Campaign 설치에 필요한 기술 및 소프트웨어 구성은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)에 자세히 설명되어 있습니다.
 
 다시 말해서 다음 구성 요소를 설치하고 올바르게 구성해야 합니다.
 
-* Apache는 을 참조하십시오. [호환성 매트릭스](../../rn/using/compatibility-matrix.md),
-* Java JDK 및 OpenJDK는 다음을 참조하십시오. [Java 개발 키트 - JDK](../../installation/using/application-server.md#jdk),
-* 라이브러리는 을 참조하십시오. [라이브러리](#libraries),
-* 데이터베이스 액세스 계층은 다음을 참조하십시오. [데이터베이스 액세스 계층](#database-access-layers),
-* LibreOffice에서 다음을 참조하십시오. [LibreOffice for Debian 설치](#installing-libreoffice-for-debian) 및 [CentOS용 LibreOffice 설치](#installing-libreoffice-for-centos),
-* 글꼴은 을 참조하십시오. [MTA 통계용 글꼴](#fonts-for-mta-statistics) 및 [일본어 인스턴스용 글꼴](#fonts-for-japanese-instances).
+* Apache, [호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.
+* Java JDK 및 OpenJDK는 [Java 개발 키트 - JDK](../../installation/using/application-server.md#jdk)를 참조하십시오.
+* 라이브러리는 [라이브러리](#libraries)를 참조하십시오.
+* 데이터베이스 액세스 계층입니다. [데이터베이스 액세스 계층](#database-access-layers)을 참조하세요.
+* LibreOffice는 [Debian용 LibreOffice 설치](#installing-libreoffice-for-debian) 및 [CentOS용 LibreOffice 설치](#installing-libreoffice-for-centos)를 참조하세요.
+* 글꼴은 [MTA 통계용 글꼴](#fonts-for-mta-statistics) 및 [일본어 인스턴스용 글꼴](#fonts-for-japanese-instances)을 참조하십시오.
 
 
 ### 라이브러리 {#libraries}
@@ -43,11 +43,11 @@ Linux에 Adobe Campaign을 설치하려면 필요한 라이브러리가 있는�
 
   명령이 빈 줄을 반환하지 않으면 구성이 올바르다는 의미입니다.
 
-* OpenSSL 버전이 있어야 합니다. **1.0.2** 또는 그 이상
+* OpenSSL 버전 **1.0.2** 이상이 있어야 합니다.
 
   RHEL 배포의 경우 OpenSSL 버전 1.0이 필요합니다.
 
-* Adobe Campaign을 사용하려면 다음을 수행해야 합니다. **리비쿠** 라이브러리가 설치되었습니다.
+* Adobe Campaign을 사용하려면 **libicu** 라이브러리가 설치되어 있어야 합니다.
 
 ### SELinux {#selinux}
 
@@ -59,7 +59,7 @@ Linux에 Adobe Campaign을 설치하려면 필요한 라이브러리가 있는�
 echo 0 >/selinux/enforce
 ```
 
-이 외에도 **/etc/sysconfig/httpd** Adobe Campaign 환경 구성 스크립트를 참조하기 위해 다음 줄을 추가했습니다.
+이 외에 **/etc/sysconfig/httpd** 파일에 Adobe Campaign 환경 구성 스크립트를 참조하기 위해 다음 줄이 추가되었습니다.
 
 ```
 . ~neolane/nl6/env.sh
@@ -67,9 +67,9 @@ echo 0 >/selinux/enforce
 
 RHEL 및 CentOS에서는 SELinux가 활성화되면 데이터베이스의 클라이언트 계층에 호환성 문제가 발생합니다. Adobe Campaign이 올바르게 작동할 수 있도록 SELinux를 비활성화하는 것이 좋습니다.
 
-**다음 프로세스를 적용합니다.**
+**다음 프로세스 적용:**
 
-* 파일 편집 **/etc/selinux/config**
+* **/etc/selinux/config** 파일을 편집합니다.
 
 * 다음과 같이 SELINUX 줄을 수정합니다.
 
@@ -138,15 +138,15 @@ yum install libreoffice-headless libreoffice-writer libreoffice-calc
 
 사용 중인 데이터베이스 엔진에 대한 액세스 계층은 서버에 설치되어 있어야 하며 Adobe Campaign 계정 통해 액세스할 수 있어야 합니다. 버전 및 설치 모드는 사용되는 데이터베이스 엔진에 따라 달라질 수 있습니다.
 
-지원되는 파일럿 버전은 다음에 자세히 설명되어 있습니다 [호환성 매트릭스](../../rn/using/compatibility-matrix.md).
+지원되는 파일럿 버전은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)에 자세히 설명되어 있습니다.
 
-일반 항목도 확인합니다. [데이터베이스](../../installation/using/database.md) 섹션.
+일반 [데이터베이스](../../installation/using/database.md) 섹션도 확인하십시오.
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaign은 버전 9.6의 모든 PostgreSQL 클라이언트 라이브러리 버전을 지원합니다. **libpq.so.5**.
+Adobe Campaign은 버전 9.6의 모든 PostgreSQL 클라이언트 라이브러리 버전 **libpq.so.5**&#x200B;을 지원합니다.
 
-Adobe Campaign과 함께 PostgreSQL을 사용하려면 해당 을 설치해야 합니다 **흑단 암호** 라이브러리.
+Adobe Campaign에서 PostgreSQL을 사용하려면 해당 **pgcrypto** 라이브러리를 설치해야 합니다.
 
 ### Oracle {#oracle}
 
@@ -164,7 +164,7 @@ oracle 클라이언트 또는 서버 업데이트, 버전 변경 또는 인스�
 
 클라이언트 콘솔에서 로그, 워크플로우 마지막 처리, 다음 처리 등에 예기치 않은 시간 지연(1시간 이상)이 있는 것을 발견하면 Oracle 클라이언트의 라이브러리와 Oracle 서버 간에 문제가 발생할 수 있습니다. 이러한 문제를 방지하려면
 
-1. 다음을 사용하십시오. **전체 클라이언트**.
+1. **전체 클라이언트**&#x200B;를 사용해야 합니다.
 
    Oracle Instant Client 버전을 사용할 때 다양한 문제가 확인되었습니다. 또한 인스턴트 클라이언트에서 시간대 파일을 변경할 수 없습니다.
 
@@ -174,7 +174,7 @@ oracle 클라이언트 또는 서버 업데이트, 버전 변경 또는 인스�
 
    또한 ORACLE_HOME 값을 확인하여 예상되는 클라이언트 버전(컴퓨터에 여러 버전이 설치된 경우)을 가리키는지 확인합니다.
 
-1. 클라이언트와 서버가 동일한 것을 사용하도록 하십시오. **시간대 파일**.
+1. 클라이언트와 서버가 동일한 **표준 시간대 파일**&#x200B;을(를) 사용하는지 확인하십시오.
 
 ## 구현 단계 {#implementation-steps}
 
@@ -182,7 +182,7 @@ Linux용 Adobe Campaign 설치는 서버 설치 후 인스턴스 구성의 순�
 
 설치 프로세스는 이 장에 설명되어 있습니다. 설치 단계는 다음과 같습니다.
 
-* 1단계: 응용 프로그램 서버 설치 [Linux를 사용하여 패키지 설치](../../installation/using/installing-packages-with-linux.md).
+* 1단계: 응용 프로그램 서버를 설치하려면 [Linux를 사용하여 패키지 설치](../../installation/using/installing-packages-with-linux.md)를 참조하십시오.
 * 2단계: 웹 서버와 통합(배포된 구성 요소에 따라 선택 사항)
 
-설치 단계가 완료되면 인스턴스, 데이터베이스 및 서버를 구성해야 합니다. 자세한 내용은 다음을 참조하십시오. [초기 구성 정보](../../installation/using/about-initial-configuration.md).
+설치 단계가 완료되면 인스턴스, 데이터베이스 및 서버를 구성해야 합니다. 자세한 내용은 [초기 구성 정보](../../installation/using/about-initial-configuration.md)를 참조하세요.

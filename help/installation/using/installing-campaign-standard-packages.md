@@ -32,17 +32,17 @@ ht-degree: 3%
 
 기본 제공 패키지를 설치하려면
 
-1. 에서 패키지 가져오기 마법사에 액세스 **[!UICONTROL Tools > Advanced > Import package]** Adobe Campaign 클라이언트 콘솔에서 게시할 수 있습니다.
+1. Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Tools > Advanced > Import package]**&#x200B;에서 패키지 가져오기 마법사에 액세스합니다.
 1. **[!UICONTROL Install a standard package]**&#x200B;을(를) 선택합니다.
 1. 패키지 목록에서 설치할 패키지를 선택합니다.
    >[!NOTE]
    >
    >패키지가 회색으로 표시되면 이미 설치되어 있거나 인스턴스와 호환되지 않음을 의미합니다. 호환성은 아래 표에 자세히 설명되어 있습니다.
-1. 클릭 **[!UICONTROL Next]**, 그런 다음 **[!UICONTROL Start]** 패키지 설치를 시작합니다.
+1. 패키지 설치를 시작하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 
-   패키지가 설치되면 진행률 표시줄이 표시됩니다 **100%** 설치 로그에서 다음 메시지를 확인할 수 있습니다. **[!UICONTROL Installation of packages successful]**.
+   패키지가 설치되면 진행률 표시줄에 **100%**&#x200B;이(가) 표시되며, 설치 로그에 **[!UICONTROL Installation of packages successful]** 메시지가 표시됩니다.
 
-1. **[!UICONTROL Close]** 설치 창.
+1. **[!UICONTROL Close]** 설치 창을 엽니다.
 
 이제 패키지가 설치되었습니다.
 
@@ -60,7 +60,7 @@ ht-degree: 3%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 게재<br /> </td> 
+   <td> 배달<br /> </td> 
    <td> 메시지를 보낼 때 발생하는 게재 및 최종 문제를 모니터링합니다. <a href="../../delivery/using/about-delivery-monitoring.md">자세히 알아보기</a><br /> </td> 
    <td> 모두</td> 
   </tr> 
@@ -101,7 +101,7 @@ ht-degree: 3%
    <td> 모두</td> 
   </tr> 
   <tr> 
-   <td> 트랜잭션 메시지 제어(메시지 센터 - 제어)<br /> </td> 
+   <td> 트랜잭션 메시지 컨트롤(메시지 센터 - 컨트롤)<br /> </td> 
    <td> 정보 시스템에서 트리거된 이벤트에서 생성된 트리거 메시지를 관리합니다. 선택 사항입니다. <a href="../../message-center/using/about-transactional-messaging.md">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
@@ -116,12 +116,12 @@ ht-degree: 3%
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
-   <td> 다이렉트 메일 채널<br /> </td> 
+   <td> DM 채널<br /> </td> 
    <td> Adobe Campaign의 DM 채널을 사용하여 게재를 보냅니다. 선택 사항입니다. <a href="../../delivery/using/about-direct-mail-channel.md">자세히 알아보기</a><br /> </td> 
    <td> 모두<br /> </td>
   </tr> 
   <tr> 
-   <td> 모바일 채널 (SMS) <br /> </td> 
+   <td> 모바일 채널(SMS) <br /> </td> 
    <td> Adobe Campaign과 모바일/SMS 채널을 사용하여 게재를 전송합니다. 선택 사항입니다. <a href="../../delivery/using/sms-channel.md">자세히 알아보기</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
@@ -141,7 +141,7 @@ ht-degree: 3%
    <td> </td>
   </tr> 
   <tr> 
-   <td> 온라인 설문 조사(Survey Manager)<br /> </td> 
+   <td> 온라인 설문 조사(설문 조사 관리자)<br /> </td> 
    <td> 프로필 정보 추가 또는 수정, 가입, 가입 해지 또는 대회 참가 양식을 위한 온라인 양식을 만들고 관리합니다. 선택 사항입니다. <a href="../../surveys/using/about-surveys.md">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
@@ -151,22 +151,22 @@ ht-degree: 3%
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
-   <td> 반응 관리자<br /> </td> 
+   <td> 응답 관리자<br /> </td> 
    <td> 마케팅 캠페인의 성공 및 수익성을 측정하거나 모든 커뮤니케이션 채널에 대한 제안을 제공합니다.  선택 사항입니다. <a href="../../response/using/about-response-manager.md">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
-   <td> 외부 데이터 액세스(Federated Data Access)<br /> </td> 
+   <td> 외부 데이터에 액세스(페더레이션 데이터 액세스)<br /> </td> 
    <td> Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있도록 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위한 FDA(Federated Data Access) 옵션을 제공합니다.  선택 사항입니다. <a href="../../workflow/using/accessing-an-external-database-fda.md">자세히 알아보기</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campaign 최적화<br /> </td> 
+   <td> 캠페인 최적화<br /> </td> 
    <td> 회사 커뮤니케이션 정책을 준수하면서 고객의 요구 사항과 기대치에 가장 적합한 메시지를 보낼 수 있도록 게재 전송을 제어, 필터링 및 모니터링합니다. 선택 사항입니다. <a href="../../campaign-opt/using/about-campaign-typologies.md">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
-   <td> 전달성 모니터링(이메일 전달성)<br /> </td> 
+   <td> 게재 가능성 모니터링(전자 메일 게재 가능성)<br /> </td> 
    <td> 캠페인이 바운스 없이 또는 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달했는지 측정합니다. 선택 사항입니다. <a href="../../delivery/using/about-deliverability.md">자세히 알아보기</a> <br /> </td> 
    <td> 모두 </td> 
   </tr> 
@@ -197,7 +197,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> AEM 통합<br /> </td> 
-   <td> AEM 콘텐츠 편집 기능과 Adobe Campaign의 게재 기능을 활용하기 위해 Adobe Experience Manager에서 이메일 게재 콘텐츠와 양식을 직접 관리할 수 있습니다. <a href="../../integrations/using/about-adobe-experience-manager.md">자세히 알아보기</a> <br /> </td> 
+   <td> Adobe Experience Manager에서 이메일 게재 콘텐츠와 양식을 직접 관리할 수 있으므로 AEM의 콘텐츠 편집 기능과 Adobe Campaign의 게재 기능을 활용할 수 있습니다. <a href="../../integrations/using/about-adobe-experience-manager.md">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅</td> 
   </tr> 
   <tr> 
@@ -206,7 +206,7 @@ ht-degree: 3%
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud과 통합<br /> </td> 
+   <td> Adobe Experience Cloud<br />과(와) 통합 </td> 
    <td> 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. 선택 사항입니다. <a href="../../integrations/using/configuring-ims.md#installing-the-package">자세히 알아보기</a> </td> 
    <td> 마케팅</td> 
   </tr> 
@@ -216,7 +216,7 @@ ht-degree: 3%
    <td> 모두</td> 
   </tr> 
   <tr> 
-   <td> 중간 소싱으로 전송 <br /> </td> 
+   <td> 중간 소싱 <br />(으)로 전송 </td> 
    <td> 중간 소싱 서버의 설치 및 구성과 서드파티가 중간 소싱 모드에서 메시지를 보낼 수 있는 인스턴스의 배포에 대해 자세히 설명합니다. 선택 사항입니다. <a href="../../installation/using/mid-sourcing-server.md">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
@@ -242,30 +242,30 @@ ht-degree: 3%
 
 게재 채널(이메일, 모바일 채널, 모바일 앱 채널, LINE 등)을 설치해야 합니다. 트랜잭션 메시지를 설치하기 전에(메시지 센터 패키지). 이메일 전용 메시지 센터 프로젝트를 시작했으며 나중에 새 채널을 추가해야 하는 경우 다음 단계를 따라야 합니다.
 
-1. 새 채널 설치(예: ) **모바일 채널**, 패키지 가져오기 마법사 사용( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
-1. 파일 가져오기( **[!UICONTROL Tools > Advanced > Import package > File]**), 다음을 선택합니다.
+1. 패키지 가져오기 마법사(**[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**)를 사용하여 새 채널(예: **모바일 채널**)을 설치합니다.
+1. 파일(**[!UICONTROL Tools > Advanced > Import package > File]**)을 가져온 다음 다음을 선택합니다.
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. 다음에서 **[!UICONTROL XML data content to import]**, 관련 채널에 해당하는 메시지 센터 게재 템플릿만 유지합니다. 예를 들어 를 추가한 경우 **모바일 채널**, 다음 항목만 유지 **엔티티** 에 해당하는 요소 **[!UICONTROL Mobile transactional message]** (smsTriggerMessage) 템플릿. 을(를) 추가한 경우 **모바일 앱 채널**, 다음 항목만 유지 **iOS 트랜잭션 메시지** 템플릿(iosTriggerMessage) 및 **Android 트랜잭션 메시지** (androidTriggerMessage).
+1. **[!UICONTROL XML data content to import]**&#x200B;에서 관련 채널에 해당하는 메시지 센터 게재 템플릿만 유지합니다. 예를 들어 **Mobile 채널**&#x200B;을 추가한 경우 **[!UICONTROL Mobile transactional message]**(smsTriggerMessage) 템플릿에 해당하는 **entities** 요소만 유지합니다. **모바일 앱 채널**&#x200B;을 추가한 경우 **iOS 트랜잭션 메시지** 템플릿(iosTriggerMessage) 및 **Android 트랜잭션 메시지**(androidTriggerMessage)만 유지합니다.
 
    ![](assets/messagecenter_install_channel.png)
 
 
 ### [!DNL LINE] 채널 설정{#line-package}
 
-을(를) 설정하려면 [!DNL LINE] channel, 먼저 [!DNL LINE] 패키지.
+[!DNL LINE] 채널을 설정하려면 먼저 [!DNL LINE] 패키지를 설치해야 합니다.
 
 중간 소싱 구성의 컨텍스트에서 다음을 수행해야 합니다.
 
-* 설치 [!DNL LINE] Marketing 및 MID 인스턴스에 모두 패키지
+* Marketing 및 MID 인스턴스에 모두 [!DNL LINE] 패키지 설치
 
-* 설정 [!DNL LINE] 게재 모드를 변경하여 mid 인스턴스를 가리키도록 mkt 인스턴스의 외부 계정입니다. [자세히 알아보기](../../delivery/using/line-channel.md#configure-line-external)
+* 게재 모드를 변경하여 mid 인스턴스를 가리키도록 mkt 인스턴스에서 [!DNL LINE] 외부 계정을 설정합니다. [자세히 알아보기](../../delivery/using/line-channel.md#configure-line-external)
 
-* 설정 [!DNL LINE] mid 인스턴스의 외부 계정에 있는 자격 증명입니다.
+* MID 인스턴스의 외부 계정에 [!DNL LINE] 자격 증명을 설정합니다.
 
 >[!CAUTION]
 >
->의 메시지 센터 게재 템플릿 [!DNL LINE] 이전에 메시지 센터 패키지를 설치한 경우에는 채널을 사용할 수 없습니다. [!DNL LINE].
+>[!DNL LINE] 전에 메시지 센터 패키지를 설치하면 [!DNL LINE] 채널의 메시지 센터 게재 템플릿을 사용할 수 없습니다.

@@ -15,7 +15,7 @@ ht-degree: 25%
 
 
 
-데이터베이스의 데이터 탐색은 **Marketing Analytics** 모듈. 이를 통해 데이터를 분석 및 측정하고, 통계를 계산하며, 보고서 작성 및 계산을 간소화 및 최적화할 수 있습니다. 이 외에도 Marketing Analytics를 사용하여 보고서를 만들고 대상 모집단을 빌드할 수 있습니다. 식별되면 Adobe Campaign에서 사용할 수 있는 목록(타겟팅, 세그멘테이션 등)에 저장됩니다.
+**Marketing Analytics** 모듈을 통해 데이터베이스의 데이터를 탐색할 수 있습니다. 이를 통해 데이터를 분석 및 측정하고, 통계를 계산하며, 보고서 작성 및 계산을 간소화 및 최적화할 수 있습니다. 이 외에도 Marketing Analytics를 사용하여 보고서를 만들고 대상 모집단을 빌드할 수 있습니다. 식별되면 Adobe Campaign에서 사용할 수 있는 목록(타겟팅, 세그멘테이션 등)에 저장됩니다.
 
 큐브는 게재 보고서(게재 추적, 클릭, 열기 등)를 포함하여 특정 기본 제공 보고서를 생성하는 데 사용됩니다. 큐브를 기반으로 한 보고서는 5백만 팩트 라인 미만의 데이터 볼륨에 대한 표준으로만 사용할 수 있습니다.
 
@@ -25,7 +25,7 @@ ht-degree: 25%
 
 >[!CAUTION]
 >
->**Marketing Analytics** 는 Adobe Campaign 모듈입니다. 아래 설명된 기능을 사용하려면 인스턴스에 설치해야 합니다.
+>**마케팅 분석**&#x200B;은(는) Adobe Campaign 모듈입니다. 아래 설명된 기능을 사용하려면 인스턴스에 설치해야 합니다.
 
 Campaign Marketing Analytics 모듈을 사용하여 다음을 수행합니다.
 
@@ -45,4 +45,4 @@ Campaign Marketing Analytics 모듈을 사용하여 다음을 수행합니다.
 1. 큐브에서 계산되고 집계된 데이터를 사용하여 쿼리를 작성합니다.
 1. 모집단을 식별하고 목록에서 참조합니다.
 
-에서 큐브를 만들고 사용하는 방법을 알아봅니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=ko){target="_blank"}.
+[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=ko){target="_blank"}에서 큐브를 만들고 사용하는 방법에 대해 알아봅니다.

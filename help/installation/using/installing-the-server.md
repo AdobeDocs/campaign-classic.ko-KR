@@ -23,7 +23,7 @@ Windows 32비트 플랫폼의 경우 Adobe Campaign 32비트를 설치합니다.
 
 Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
 
-1. 파일 실행 **setup.exe**.
+1. **setup.exe** 파일을 실행합니다.
 
    ![](assets/s_ncs_install_installer_01.png)
 
@@ -33,12 +33,12 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
 
    몇 가지 설치 유형을 사용할 수 있습니다.
 
-   * **[!UICONTROL Installation of an application server]** : Adobe Campaign 애플리케이션 서버와 클라이언트 콘솔을 설치합니다.
+   * **[!UICONTROL Installation of an application server]** : Adobe Campaign 응용 프로그램 서버와 클라이언트 콘솔을 설치합니다.
    * **[!UICONTROL Minimal installation (Network)]** : 네트워크에서 클라이언트 컴퓨터 설치 필요한 경우 제한된 수의 DLL만 컴퓨터에 설치되고 다른 모든 구성 요소는 네트워크 드라이브에서 사용됩니다.
    * **[!UICONTROL Installation of a client]** : Adobe Campaign 클라이언트에 필요한 구성 요소 설치
    * **[!UICONTROL Custom installation]** : 사용자가 설치할 요소를 선택합니다.
 
-   선택 **애플리케이션 서버 설치**&#x200B;을 클릭하고 아래와 같이 다른 단계를 수행합니다.
+   **응용 프로그램 서버 설치**&#x200B;를 선택하고 아래와 같이 다른 단계를 수행합니다.
 
    ![](assets/s_ncs_install_installer_02.png)
 
@@ -46,7 +46,7 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
 
    ![](assets/s_ncs_install_installer_03.png)
 
-1. 클릭 **[!UICONTROL Finish]** 설치를 시작하려면:
+1. 설치를 시작하려면 **[!UICONTROL Finish]**&#x200B;을(를) 클릭하십시오.
 
    ![](assets/s_ncs_install_installer_04.png)
 
@@ -62,7 +62,7 @@ Adobe Campaign 서버의 설치 단계는 다음과 같습니다.
    >
    >서버 설치가 완료되면 네트워크 문제를 방지하기 위해 서버를 재부팅해야 합니다.
 
-   설치가 완료되면 Adobe Campaign을 시작하여 구성 파일을 만듭니다. 을(를) 참조하십시오 [서버의 첫 번째 시작](#first-start-up-of-the-server).
+   설치가 완료되면 Adobe Campaign을 시작하여 구성 파일을 만듭니다. [서버의 첫 번째 시작](#first-start-up-of-the-server)을 참조하세요.
 
 ## 요약 설치 테스트 {#summary-installation-testing}
 
@@ -80,7 +80,7 @@ No task
 
 ## 서버의 첫 번째 시작 {#first-start-up-of-the-server}
 
-설치 테스트가 완료되면 다음을 통해 명령 프롬프트를 엽니다. **[!UICONTROL Start > Programs > Adobe Campaign]** 메뉴를 클릭하고 다음 명령을 입력합니다.
+설치 테스트가 완료되면 **[!UICONTROL Start > Programs > Adobe Campaign]** 메뉴를 통해 명령 프롬프트를 열고 다음 명령을 입력합니다.
 
 ```sql
 nlserver web
@@ -100,7 +100,7 @@ nlserver web
 15:30:12 >   Web server stop (pid=664, tid=4188)...
 ```
 
-누르기 **Ctrl+C** 프로세스를 중지하려면 다음 명령을 입력합니다.
+**Ctrl+C**&#x200B;를 눌러 프로세스를 중지한 다음 다음 명령을 입력합니다.
 
 ```sql
 nlserver start web
@@ -135,7 +135,7 @@ nlserver stop web
 
 ## 내부 식별자 암호 {#password-for-the-internal-identifier}
 
-Adobe Campaign 서버는 이라는 기술 로그인을 정의합니다 **내부** 모든 인스턴스에 대한 모든 권한이 있습니다. 설치 후 로그인에 암호가 없습니다. 하나를 정의해야 합니다.
+Adobe Campaign 서버는 모든 인스턴스에 대한 모든 권한이 있는 기술 로그인 **internal**&#x200B;을(를) 정의합니다. 설치 후 로그인에 암호가 없습니다. 하나를 정의해야 합니다.
 
 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)에서 자세히 알아보십시오.
 

@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ### 1단계 - 정보 서비스 만들기 {#step-1---creating-information-services}
 
-1. 수신자에게 제공할 뉴스레터 구독 서비스를 만듭니다. 뉴스레터를 만드는 방법에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-services-and-subscriptions.md).
+1. 수신자에게 제공할 뉴스레터 구독 서비스를 만듭니다. 뉴스레터를 만드는 방법에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-services-and-subscriptions.md)을 참조하세요.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 
@@ -39,17 +39,17 @@ ht-degree: 0%
 
 확인 메시지는 임시 서비스 수준에서 참조되는 전용 게재 템플릿을 통해 전송됩니다.
 
-1. 다음에서 **[!UICONTROL Explorer]** , 선택 **[!UICONTROL Resources > Templates > Delivery templates]**.
+1. **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Resources > Templates > Delivery templates]**&#x200B;을(를) 선택합니다.
 1. 구독 확인 메시지를 보내기 위한 게재 템플릿을 만듭니다.
-1. 다음을 클릭합니다. **[!UICONTROL To]** 의 단추 **[!UICONTROL Email parameters]** 게재 템플릿을 수신자 대신 구독 대상 매핑과 연결합니다.
+1. 게재 템플릿을 수신자 대신 구독 대상 매핑과 연결하려면 **[!UICONTROL Email parameters]**&#x200B;에서 **[!UICONTROL To]** 단추를 클릭하십시오.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
 1. 이 게재 수신자가 승인을 확인하지 않았기 때문에 아직 데이터베이스 차단 목록에 추가하다에 있습니다. 이 사용자가 이 통신을 수신하려면 이 템플릿을 기반으로 하여 수신자를 타겟팅하는 게재를 차단 목록에 추가하다에서 승인해야 합니다.
 
-   이렇게 하려면 **[!UICONTROL Exclusions]** 탭.
+   이렇게 하려면 **[!UICONTROL Exclusions]** 탭을 클릭합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Edit...]** 링크 및 선택 취소 **[!UICONTROL Exclude recipients who no longer want to be contacted]** 옵션을 선택합니다.
+1. **[!UICONTROL Edit...]** 링크를 클릭하고 **[!UICONTROL Exclude recipients who no longer want to be contacted]** 옵션의 선택을 취소합니다.
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
@@ -79,27 +79,27 @@ ht-degree: 0%
 
 이렇게 하려면 아래 단계를 수행합니다.
 
-1. 웹 양식을 만들고 템플릿 선택 **[!UICONTROL Newsletter subscription (subNewsletter)]**.
+1. 웹 양식을 만들고 템플릿 **[!UICONTROL Newsletter subscription (subNewsletter)]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5a.png)
 
-1. 다음에서 **[!UICONTROL Edit]** 탭에서는 가입하려는 수신자에게 확인 메시지를 추가하려고 하므로 기존 워크플로우를 구성해야 합니다.
+1. **[!UICONTROL Edit]** 탭에서 구독하려는 수신자에게 확인 메시지를 추가하려 하므로 기존 워크플로우를 구성해야 합니다.
 
-   이렇게 하려면 다음을 두 번 클릭합니다 **[!UICONTROL Preloading]** 상자를 표시하고 다음과 같이 구성합니다.
+   이렇게 하려면 **[!UICONTROL Preloading]** 상자를 두 번 클릭하고 다음과 같이 구성합니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5b.png)
 
    즉, 사용자가 확인 메시지의 링크를 통해 이 양식에 액세스하면 프로필 정보가 로드됩니다. 웹 사이트의 페이지를 통해 웹 양식에 액세스하면 정보가 로드되지 않습니다.
 
-1. 추가 **[!UICONTROL Test]** 활동을 워크플로우에 추가합니다.
+1. 워크플로우에 **[!UICONTROL Test]** 활동을 추가합니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6e.png)
 
-   다음 **[!UICONTROL Test]** 활동은 수신자 이메일과 관련될 수 있습니다. 이 경우 다음과 같이 구성합니다.
+   **[!UICONTROL Test]** 활동은 받는 사람 전자 메일과 관련이 있을 수 있습니다. 이 경우 다음과 같이 구성합니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6d.png)
 
-1. 두 개 추가 **[!UICONTROL Script]** 활동을 워크플로우에 추가합니다.
+1. 워크플로우에 두 개의 **[!UICONTROL Script]** 활동을 추가합니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
@@ -122,15 +122,15 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >다음 **[!UICONTROL Temp]** 분할 영역은 워크플로우를 사용하여 정기적으로 제거할 수도 있습니다.
+   >**[!UICONTROL Temp]** 파티션은 워크플로우를 사용하여 정기적으로 제거할 수도 있습니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6b.png)
 
-1. 를 두 번 클릭합니다. **[!UICONTROL Subscription]** 활동을 통해 구독 양식을 개인화하고 확인란을 이전에 만든 임시 서비스와 연결할 수 있습니다.
+1. **[!UICONTROL Subscription]** 활동을 두 번 클릭하여 구독 양식을 개인화하고 이전에 만든 임시 서비스에 확인란을 연결합니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5c.png)
 
-1. 구성 **[!UICONTROL Storage]** 활동을 사용하여 양식 페이지에 입력한 정보를 저장합니다.
+1. 양식 페이지에 입력한 정보를 저장하려면 **[!UICONTROL Storage]** 활동을 구성하십시오.
 
    이 활동을 사용하면 전용 임시 폴더에 수신자 프로필을 만들어 메시지를 보낼 수 있는 데이터베이스의 프로필과 별도로 설정할 수 있습니다.
 
@@ -140,9 +140,9 @@ ht-degree: 0%
    >
    >조정 옵션을 정의해서는 안 됩니다.
 
-1. 두 개 추가 **[!UICONTROL End]** 사용자에게 메시지를 표시하는 활동.
+1. **[!UICONTROL End]** 활동을 두 개 추가하여 사용자에 대한 메시지를 표시합니다.
 
-   두 번째 **[!UICONTROL End]** 구독이 완료되면 상자에 확인 메시지가 표시됩니다.
+   구독이 완료되면 두 번째 **[!UICONTROL End]** 상자에 확인 메시지가 표시됩니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5h.png)
 
@@ -166,7 +166,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   사용자가 의 Adobe Campaign 데이터베이스에 추가됩니다. **[!UICONTROL Temp]** 폴더를 만들고 이메일을 통해 구독을 확인할 때까지 프로필을 차단 목록에 추가하다에 추가합니다.
+   사용자가 **[!UICONTROL Temp]** 폴더의 Adobe Campaign 데이터베이스에 추가되고 구독이 전자 메일로 확인될 때까지 프로필이 차단 목록에 추가하다에 있습니다.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 

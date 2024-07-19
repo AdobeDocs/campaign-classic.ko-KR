@@ -26,11 +26,11 @@ Adobe Campaign에서 제공하는 웹 추적 모듈을 사용하면 메시지를
 
 ## 서버 구성 {#server-configuration}
 
-서버는 의 특정 요소를 오버로드하여 구성됩니다. **serverConf.xml** 파일. 이러한 파일은 **conf** Adobe Campaign 설치 디렉토리의 하위 디렉토리.
+**serverConf.xml** 파일의 특정 요소를 오버로드하여 서버를 구성합니다. 이러한 파일은 Adobe Campaign 설치 디렉터리의 **conf** 하위 디렉터리에 저장됩니다.
 
 ### 리디렉션 서버 {#redirection-server}
 
-리디렉션 서버의 경우 **trackWebVisitor** 속성 **리디렉션** 요소 대상 **true**.
+리디렉션 서버의 경우 **redirection** 요소의 **trackWebVisitors** 특성을 **true**(으)로 설정합니다.
 
 ```
 <redirection P3PCompactPolicy="CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV"
@@ -43,7 +43,7 @@ trackingPassword=""
 
 클라이언트 콘솔을 통해 추적 정보를 보려면 다음을 수행해야 합니다.
 
-* 만들기 **더미 전달** (게재 매핑은 대상 스키마의 매핑과 동일해야 함),
-* 다음을 입력합니다. **내부 이름** 의 이 게재에 대한 **NmsTracking_WebTrackingDelivery** 옵션을 선택합니다.
+* **더미 배달**&#x200B;을 만듭니다(배달 매핑은 대상 스키마의 매핑과 동일해야 함).
+* **NmsTracking_WebTrackingDelivery** 옵션에 이 게재의 **내부 이름**&#x200B;을(를) 입력하십시오.
 
 이메일을 클릭한 바로 뒤에 없는 모든 사이트 추적 정보는 만든 더미 게재에서 볼 수 있습니다.

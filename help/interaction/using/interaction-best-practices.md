@@ -67,7 +67,7 @@ Adobe Campaign에서의 상호 작용을 효율적으로 운영하려면 세심�
 
 데이터 보강 활동에서 오퍼를 선택할 때 사용할 오퍼 공간을 선택할 수 있습니다. 그러나 선택한 오퍼 공간에 관계없이 게재 사용자 지정 메뉴는 게재에서 설정된 오퍼 공간에 따라 다릅니다.
 
-아래 예에서 게재에서 선택한 오퍼 공간은 입니다. **[!UICONTROL Email (Environment - Recipient)]**:
+아래 예제에서 게재에서 선택한 오퍼 공간은 **[!UICONTROL Email (Environment - Recipient)]**&#x200B;입니다.
 
 ![](assets/Interaction-best-practices-offer-space-selected.png)
 
@@ -77,9 +77,9 @@ Adobe Campaign에서의 상호 작용을 효율적으로 운영하려면 세심�
 
 ![](assets/Interaction-best-practices-HTML-rendering.png)
 
-이 함수는 다음과 같은 코드를 삽입합니다. `<%@ include proposition="targetData.proposition" view="rendering/html" %>`.
+이 함수는 `<%@ include proposition="targetData.proposition" view="rendering/html" %>`과(와) 같은 코드를 삽입합니다.
 
-제안을 선택할 때 의 값은 **[!UICONTROL view]** 속성은 다음과 같습니다.
+제안을 선택하면 **[!UICONTROL view]** 특성의 값은 다음과 같습니다.
 * &quot;rendering/html&quot;: html 렌더링. HTML 렌더링 기능을 사용합니다.
 * &quot;offer/view/html&quot;: html 콘텐츠입니다. HTML 렌더링 기능을 사용하지 않습니다. HTML 필드만 포함됩니다.
 
@@ -109,7 +109,7 @@ Adobe Campaign에서의 상호 작용을 효율적으로 운영하려면 세심�
 
 제안 테이블에 @rank라는 필드가 있으므로 워크플로우 임시 테이블의 값이 복사됩니다.
 
-제안 테이블에 추가 필드를 저장하는 방법에 대한 자세한 내용은 [워크플로우를 통해 오퍼 통합](../../interaction/using/integrating-an-offer-via-a-workflow.md#storing-offer-rankings-and-weights).
+제안 테이블에 추가 필드를 저장하는 방법에 대한 자세한 내용은 [워크플로우를 통해 오퍼 통합](../../interaction/using/integrating-an-offer-via-a-workflow.md#storing-offer-rankings-and-weights)을 참조하십시오.
 
 상호 작용이 있는 아웃바운드 오퍼의 경우 여러 오퍼를 선택하고 이를 이메일에 표시할 순서를 기록하려는 경우 유용합니다.
 
@@ -124,7 +124,7 @@ Adobe Campaign에서의 상호 작용을 효율적으로 운영하려면 세심�
 ### nms:offer 스키마 확장 {#extending-nms-offer-schema}
 
 nms:offer 스키마를 확장할 때 이미 설정된 기본 구조를 따라야 합니다.
-* 아래에 콘텐츠 저장을 위한 새 필드 정의 `<element name="view">`.
+* `<element name="view">` 아래에 콘텐츠 저장소에 대한 새 필드를 정의하십시오.
 * 각 새 필드를 두 번 정의해야 합니다. 한 번은 일반 XML 필드로 사용하고 한 번은 이름에 &quot;_jst&quot;가 추가된 CDATA XML 필드로 사용합니다. 예제:
 
   ```
@@ -132,4 +132,4 @@ nms:offer 스키마를 확장할 때 이미 설정된 기본 구조를 따라야
   <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
   ```
 
-* 추적할 URL이 포함된 모든 필드는 `<element name="trackedUrls">` 다음에서 찾을 수 있음 `<element name="view" >`.
+* 추적할 URL이 포함된 모든 필드는 `<element name="view" >`에 있는 `<element name="trackedUrls">`에 배치해야 합니다.

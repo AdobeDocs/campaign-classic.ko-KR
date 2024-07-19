@@ -17,21 +17,21 @@ ht-degree: 7%
 
 ## 받은 편지함 렌더링 정보 {#about-inbox-rendering}
 
-을(를) 누르기 전에 **보내기** 단추, 메시지가 다양한 웹 클라이언트, 웹 메일 및 디바이스에서 최적의 방식으로 수신자에게 표시되는지 확인합니다.
+**보내기** 단추를 누르기 전에 메시지가 다양한 웹 클라이언트, 웹 메일 및 장치에서 최적의 방식으로 수신자에게 표시되는지 확인하십시오.
 
-이를 위해 Adobe Campaign은 [리트머스](https://litmus.com/email-testing) 렌더링을 캡처하고 전용 보고서에서 사용할 수 있도록 하는 웹 기반 이메일 테스트 솔루션. 이렇게 하면 메시지가 수신될 수 있는 다른 컨텍스트에서 전송된 메시지를 미리 보고 주요 데스크톱 및 응용 프로그램의 호환성을 확인할 수 있습니다.
+이를 위해 Adobe Campaign은 [Litmus](https://litmus.com/email-testing) 웹 기반 전자 메일 테스트 솔루션을 활용하여 렌더링을 캡처하고 전용 보고서에서 사용할 수 있도록 합니다. 이렇게 하면 메시지가 수신될 수 있는 다른 컨텍스트에서 전송된 메시지를 미리 보고 주요 데스크톱 및 응용 프로그램의 호환성을 확인할 수 있습니다.
 
 >[!CAUTION]
->받은 편지함 렌더링이 와(과) 호환되지 않음 [반복 게재](communication-channels.md#recurring-delivery).
+>받은 편지함 렌더링이 [반복 게재](communication-channels.md#recurring-delivery)와(과) 호환되지 않습니다.
 >
 
 Litmus는 기능이 풍부한 이메일 유효성 검사 및 애플리케이션 미리보기입니다. 이를 통해 이메일 콘텐츠 작성자는 Gmail 받은 편지함 또는 Apple 메일 클라이언트와 같은 70개 이상의 이메일 렌더러에서 메시지 콘텐츠를 미리 볼 수 있습니다.
 
-에 사용할 수 있는 모바일, 메시징 및 웹 메일 클라이언트 **받은 편지함 렌더링** Adobe Campaign의 목록은에 있습니다. [리트머스 웹사이트](https://litmus.com/email-testing) (클릭 **모든 이메일 클라이언트 보기**).
+Adobe Campaign에서 **받은 편지함 렌더링**&#x200B;에 사용할 수 있는 모바일, 메시징 및 웹 메일 클라이언트는 [Litmus 웹 사이트](https://litmus.com/email-testing)에 나열됩니다(**모든 이메일 클라이언트 보기** 클릭).
 
 >[!NOTE]
 >
->받은 편지함 렌더링은 게재에서 개인화를 테스트하는 데 필요하지 않습니다. 개인화는 다음과 같은 Adobe Campaign 도구를 사용하여 확인할 수 있습니다. **[!UICONTROL Preview]** 및 [증명](steps-validating-the-delivery.md#sending-a-proof).
+>받은 편지함 렌더링은 게재에서 개인화를 테스트하는 데 필요하지 않습니다. Personalization은 **[!UICONTROL Preview]** 및 [증명](steps-validating-the-delivery.md#sending-a-proof)과 같은 Adobe Campaign 도구로 확인할 수 있습니다.
 
 ## 받은 편지함 렌더링 활성화 {#activating-inbox-rendering}
 
@@ -41,10 +41,10 @@ Litmus는 기능이 풍부한 이메일 유효성 검사 및 애플리케이션 
 
 온-프레미스 설치의 경우 아래 단계에 따라 받은 편지함 렌더링을 구성합니다.
 
-1. 설치 **[!UICONTROL Inbox rendering (IR)]** 를 통한 패키지 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** 메뉴 아래의 제품에서 사용할 수 있습니다. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md).
-1. 를 통해 HTTP 유형의 외부 계정 구성 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** 노드. 자세한 내용은 [외부 계정 만들기](../../installation/using/external-accounts.md#creating-an-external-account).
+1. **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** 메뉴를 통해 **[!UICONTROL Inbox rendering (IR)]** 패키지를 설치하십시오. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
+1. **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** 노드를 통해 HTTP 유형의 외부 계정을 구성합니다. 자세한 내용은 [외부 계정 만들기](../../installation/using/external-accounts.md#creating-an-external-account)를 참조하세요.
 1. 외부 계정 매개 변수를 다음과 같이 설정합니다.
-   * **[!UICONTROL Label]**: 게재 기능 서버 정보
+   * **[!UICONTROL Label]**: 게재 가능성 서버 정보
    * **[!UICONTROL Internal name]**: deliverabilityInstance
    * **[!UICONTROL Type]**: HTTP
    * **[!UICONTROL Server]**: https://deliverability-app.neolane.net/deliverability
@@ -53,8 +53,8 @@ Litmus는 기능이 풍부한 이메일 유효성 검사 및 애플리케이션 
 
    ![](assets/s_tn_inbox_rendering_external-account.png)
 
-1. 로 이동 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 노드. 검색 **[!UICONTROL DmRendering_cuid]** 에 복사해야 하는 게재 보고서 식별자를 얻으려면 옵션 및 지원 센터에 문의 **[!UICONTROL Value (text)]** 필드.
-1. 편집 **serverConf.xml** Litmus 서버에 대한 호출을 허용하는 파일입니다. 다음 줄을 추가합니다. `<urlPermission>` 섹션:
+1. **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 노드로 이동합니다. **[!UICONTROL DmRendering_cuid]** 옵션을 검색하고 **[!UICONTROL Value (text)]** 필드에 복사해야 하는 게재 보고서 식별자를 가져오려면 지원 팀에 문의하십시오.
+1. Litmus 서버를 호출할 수 있도록 **serverConf.xml** 파일을 편집합니다. `<urlPermission>` 섹션에 다음 줄을 추가합니다.
 
    ```
    <url dnsSuffix="deliverability-app.neolane.net" urlRegEx="https://.*"/>
@@ -80,7 +80,7 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 >
 >사용 가능한 Litmus 토큰의 수는 구입한 Campaign 라이선스에 따라 다릅니다. 사용권 계약을 확인하십시오.
 
-을(를) 사용할 때마다 **[!UICONTROL Inbox rendering]** 게재 시 기능이며, 생성된 각 렌더링은 사용 가능한 토큰을 하나씩 감소시킵니다.
+게재에서 **[!UICONTROL Inbox rendering]** 기능을 사용할 때마다 생성되는 각 렌더링은 사용 가능한 토큰을 하나씩 감소시킵니다.
 
 >[!IMPORTANT]
 >
@@ -90,7 +90,7 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 >* 동일한 게재의 경우 받은 편지함 렌더링을 다시 생성하면 사용 가능한 토큰 수가 생성된 렌더링 수만큼 다시 감소합니다.
 >
 
-사용 가능한 나머지 토큰 수는 **[!UICONTROL General summary]** / [받은 편지함 렌더링 보고서](#inbox-rendering-report).
+사용 가능한 나머지 토큰 수가 [받은 편지함 렌더링 보고서](#inbox-rendering-report)의 **[!UICONTROL General summary]**&#x200B;에 표시됩니다.
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -100,20 +100,20 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
 전자 메일 게재를 만들고 타겟팅된 모집단과 해당 컨텐츠까지 정의했으면 아래 단계를 따르십시오.
 
-게재 만들기, 디자인 및 타겟팅에 대한 자세한 내용은 을 참조하십시오. [이 섹션](about-email-channel.md).
+게재 만들기, 디자인 및 타깃팅에 대한 자세한 내용은 [이 섹션](about-email-channel.md)을 참조하세요.
 
-1. 게재 상단 막대에서 **[!UICONTROL Inbox rendering]** 단추를 클릭합니다.
-1. 선택 **[!UICONTROL Analyze]** 캡처 프로세스를 시작합니다.
+1. 게재 상단 표시줄에서 **[!UICONTROL Inbox rendering]** 단추를 클릭합니다.
+1. 캡처 프로세스를 시작하려면 **[!UICONTROL Analyze]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   증명이 전송되었습니다. 이메일을 보낸 후 몇 분 후에 해당 증명에서 렌더링 축소판에 액세스할 수 있습니다. 증명 전송에 대한 자세한 내용은 을 참조하십시오. [이 섹션](steps-validating-the-delivery.md#sending-a-proof).
+   증명이 전송되었습니다. 이메일을 보낸 후 몇 분 후에 해당 증명에서 렌더링 축소판에 액세스할 수 있습니다. 증명 전송에 대한 자세한 내용은 [이 섹션](steps-validating-the-delivery.md#sending-a-proof)을 참조하세요.
 
 1. 전송되면 게재 목록에 증명이 표시됩니다. 두 번 클릭합니다.
 
    ![](assets/s_tn_inbox_rendering_delivery_list.png)
 
-1. 로 이동 **받은 편지함 렌더링** 증명 탭입니다.
+1. 증명의 **받은 편지함 렌더링** 탭으로 이동합니다.
 
    ![](assets/s_tn_inbox_rendering_tab.png)
 
@@ -123,13 +123,13 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
 이 보고서는 수신자에게 표시되는 받은 편지함 렌더링을 표시합니다. 렌더링은 브라우저, 모바일 디바이스 또는 이메일 애플리케이션 등 수신자가 이메일 게재를 여는 방법에 따라 다를 수 있습니다.
 
-다음 **[!UICONTROL General summary]** 는 수신된 메시지, 원치 않는 메시지(스팸), 수신되지 않은 메시지 또는 수신 보류 중인 메시지 수를 목록으로, 그래픽 색상으로 구분된 표시를 통해 제공합니다.
+**[!UICONTROL General summary]**&#x200B;은(는) 받은 메시지 수, 원치 않는 메시지(스팸), 받지 못한 메시지 수 또는 수신 대기 중인 메시지 수를 목록으로 표시하며 그래픽 색상으로 구분됩니다.
 
 ![](assets/s_tn_inbox_rendering_summary.png)
 
 차트 위로 마우스를 가져가면 각 색상에 대한 세부 정보가 표시됩니다.
 
-보고서의 본문은 다음 세 부분으로 나뉘어져 있습니다. **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, 및 **[!UICONTROL Webmails]**. 보고서를 아래로 스크롤하여 이 세 가지 범주로 그룹화된 모든 렌더링을 표시합니다.
+보고서의 본문은 **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, **[!UICONTROL Webmails]** 세 부분으로 나뉘어져 있습니다. 보고서를 아래로 스크롤하여 이 세 가지 범주로 그룹화된 모든 렌더링을 표시합니다.
 
 ![](assets/s_tn_inbox_rendering_report.png)
 

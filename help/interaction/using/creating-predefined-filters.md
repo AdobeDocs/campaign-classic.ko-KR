@@ -22,7 +22,7 @@ ht-degree: 1%
 
 필터를 만들려면 다음 프로세스를 적용합니다.
 
-1. 로 이동 **[!UICONTROL Administration]** 폴더 및 선택 **[!UICONTROL Pre-defined offer filters]**.
+1. **[!UICONTROL Administration]** 폴더로 이동하여 **[!UICONTROL Pre-defined offer filters]**&#x200B;을(를) 선택합니다.
 
    ![](assets/offer_filter_create_005.png)
 
@@ -42,6 +42,6 @@ ht-degree: 1%
 
    ![](assets/offer_filter_create_004.png)
 
-1. 클릭 **[!UICONTROL Preview]** 필터 결과를 봅니다.
+1. 필터 결과를 보려면 **[!UICONTROL Preview]**&#x200B;을(를) 클릭하십시오.
 
    ![](assets/offer_filter_create_006.png)

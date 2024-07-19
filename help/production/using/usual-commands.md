@@ -21,25 +21,25 @@ ht-degree: 4%
 
 이 섹션에는 Adobe Campaign의 일반적인 명령이 나열됩니다.
 
-명령 **nlserver** 는 전체 Adobe Campaign 애플리케이션에 대한 입력 명령입니다.
+**nlserver** 명령은 전체 Adobe Campaign 응용 프로그램에 대한 입력 명령입니다.
 
 이 명령에는 다음 구문이 있습니다. **nlserver **`<command>`****`<arguments>`****
 
-매개 변수 **`<command>`** 모듈에 해당합니다.
+**`<command>`** 매개 변수는 모듈에 해당합니다.
 
 >[!NOTE]
 >
->* 원하는 경우 다음을 추가할 수 있습니다. **-noconsole** 모듈이 시작되면 표시되는 주석을 삭제하는 인수
->* 반대로 인수를 추가할 수 있습니다 **-verbose** 을 클릭하여 추가 정보를 표시합니다.
+>* 어떤 경우든 **-noconsole** 인수를 추가하여 모듈이 시작되면 표시되는 주석을 삭제할 수 있습니다.
+>* 반대로 **-verbose** 인수를 추가하여 자세한 정보를 표시할 수 있습니다.
 >
 
 ## 명령 모니터링 {#monitoring-commands-}
 
 >[!NOTE]
 >
->모든 모듈을 나열하려면 **nlserver 덤프** 명령입니다.
+>모든 모듈을 나열하려면 **nlserver pdump** 명령을 사용해야 합니다.
 
-매개 변수를 추가할 수 있습니다 **-후** 진행 중인 연결을 나열합니다(데이터베이스 및 응용 프로그램).
+**-who** 매개 변수를 추가하여 진행 중인 연결(데이터베이스 및 응용 프로그램)을 나열할 수 있습니다.
 
 ```sql
 nlserver pdump -who
@@ -61,9 +61,9 @@ Datasource Server Provider Login
 default xxxxx myserver myprovider test400
 ```
 
-또 다른 유용한 명령은 입니다. **nlserver 모니터**. Adobe Campaign 클라이언트에서 또는 를 통해 얻은 모니터링 XML 파일이 나열됩니다. **monitor.jsp** 웹 페이지).
+다른 유용한 명령은 **nlserver monitor**&#x200B;입니다. 모니터링 XML 파일(Adobe Campaign 클라이언트 또는 **monitor.jsp** 웹 페이지를 통해 가져옴)이 나열됩니다.
 
-매개 변수를 추가할 수 있습니다 **-missing** 누락된 모듈을 나열하려면(모듈 오류, 모듈 종료 등)
+**-missing** 매개 변수를 추가하여 누락된 모듈을 나열할 수 있습니다(모듈, 모듈 종료 등의 오류).
 
 ```sql
 nlserver monitor -missing
@@ -89,7 +89,7 @@ nlserver stop <module>@<INSTANCE>
 
 >[!NOTE]
 >
->**`<instance>`** 는 구성 파일에 입력한 인스턴스 이름에 해당합니다. 또는 **기본값** 단일 인스턴스 모듈의 경우.
+>**`<instance>`**&#x200B;은(는) 구성 파일에 입력한 인스턴스 이름에 해당하거나, 모노 인스턴스 모듈의 경우 **default**&#x200B;입니다.
 
 ## 서비스 종료 {#shut-down-services}
 
@@ -129,17 +129,17 @@ Adobe Campaign 서비스를 중지하려면 다음 명령 중 하나를 사용�
 
      >[!NOTE]
      >
-     >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
+     >20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
 
-   * Windows에서는: `net start nlserver6`
+   * Windows에서: `net start nlserver6`
 
 * 그렇지 않으면 Adobe Campaign 계정에서 다음을 수행합니다. **nlserver watchdog -svc -noconsole**
 
 ## config 명령 {#the-config-command}
 
-다음 **config** 명령을 사용하면 데이터베이스 연결 재구성을 포함하여 서버 구성을 관리할 수 있습니다.
+**config** 명령을 사용하면 데이터베이스 연결 재구성을 포함하여 서버 구성을 관리할 수 있습니다.
 
-사용 **config** 명령 **nlserver** 이 포함된 실행 파일 **-setdblogin** 매개 변수.
+**-setdblogin** 매개 변수와 함께 **nlserver** 실행 파일의 **config** 명령을 사용합니다.
 
 ```sql
 nlserver config -setdblogin:<[dbms:]account[:database][/password]@server>
@@ -151,15 +151,15 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 
 암호를 입력합니다.
 
-을(를) 변경하려면 **내부** 암호: **nlserver 구성 -internalpassword**
+**내부** 암호를 변경하려면: **nlserver config -internalpassword**
 
 >[!IMPORTANT]
 >
->로 로그온하려면 **내부** 식별자, 암호를 미리 정의해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)을 참조하십시오.
+>**내부** 식별자로 로그온하려면 미리 암호를 정의해야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)을 참조하십시오.
 
 >[!NOTE]
 >
->* 일반적으로 구성 파일을 직접 수정하는 대신 **config** 명령
+>* 일반적으로 수동으로 구성 파일을 수정하는 대신 **config** 명령을 사용할 수 있습니다
 >* 매개 변수 목록을 가져오려면 **-?** 매개 변수: **nlserver 구성 -?**
 >* oracle 데이터베이스의 경우 계정을 지정하지 않아야 합니다. 구문은 다음과 같습니다.
 >

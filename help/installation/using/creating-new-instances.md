@@ -24,8 +24,8 @@ Adobe Campaign이 설치되고 인스턴스가 생성되면 콘솔에서 새 인
 
 1. 새 인스턴스 선언
 
-   다음으로 이동 **[!UICONTROL Tools > Advanced > Declare a new instance...]** 마법사를 시작합니다.
+   마법사를 시작하려면 **[!UICONTROL Tools > Advanced > Declare a new instance...]**(으)로 이동하십시오.
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 
-   새 인스턴스의 매개 변수를 지정합니다. 자세한 내용은 다음을 참조하십시오. [인스턴스 만들기 및 로그온](../../installation/using/creating-an-instance-and-logging-on.md).
+   새 인스턴스의 매개 변수를 지정합니다. 자세한 내용은 [인스턴스 만들기 및 로그온](../../installation/using/creating-an-instance-and-logging-on.md)을 참조하세요.

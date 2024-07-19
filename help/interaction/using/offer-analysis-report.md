@@ -18,7 +18,7 @@ ht-degree: 10%
 
 
 
-다음 **[!UICONTROL Offer analysis]** 보고서는 수락되거나 거부된 제안 수에 대한 개요를 제공합니다.
+**[!UICONTROL Offer analysis]** 보고서는 수락되거나 거부된 제안 수에 대한 개요를 제공합니다.
 
 >[!NOTE]
 >
@@ -38,6 +38,6 @@ ht-degree: 10%
 
   ![](assets/offer_report_perdeliveries.png)
 
-데이터는 보고서의 상단 섹션에서 사용할 수 있는 다양한 기준을 기반으로 필터링할 수 있습니다. 원하는 기준을 선택한 후 **[!UICONTROL Refresh]** 링크를 클릭하여 보고서에 적용합니다.
+데이터는 보고서의 상단 섹션에서 사용할 수 있는 다양한 기준을 기반으로 필터링할 수 있습니다. 원하는 기준을 선택하면 **[!UICONTROL Refresh]** 링크를 클릭하여 보고서에 적용합니다.
 
 ![](assets/offer_report_criteria.png)

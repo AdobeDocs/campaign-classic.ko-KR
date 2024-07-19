@@ -32,13 +32,13 @@ Javascript 코드를 편집하려면 기술 기술이 필요하므로 적절한 
 
 파이프라인은 JavaScript 함수를 사용하여 각 메시지를 처리합니다. 이 함수는 사용자 정의입니다.
 
-다음에서 구성됩니다. **[!UICONTROL NmsPipeline_Config]** 옵션은 &quot;JSConnector&quot; 속성 아래에 있습니다. 이 JavaScript는 이벤트가 수신될 때마다 호출됩니다. 다음에 의해 실행됩니다. [!DNL pipelined] 프로세스.
+**[!UICONTROL NmsPipeline_Config]** 옵션에서 &quot;JSConnector&quot; 특성 아래에 구성되어 있습니다. 이 JavaScript은 이벤트가 수신될 때마다 호출됩니다. [!DNL pipelined] 프로세스에 의해 실행됩니다.
 
 샘플 Javascript 파일은 cus:triggers.js입니다.
 
 ### JavaScript 기능 {#function-js}
 
-다음 [!DNL pipelined] Javascript는 특정 함수로 시작해야 합니다.
+[!DNL pipelined] Javascript는 특정 함수로 시작해야 합니다.
 
 이 함수는 모든 이벤트에 대해 한 번 호출됩니다.
 
@@ -52,16 +52,16 @@ function processPipelineMessage(xmlTrigger) {}
 <undefined/>
 ```
 
-다시 시작해야 합니다. [!DNL pipelined] javascript 편집 후
+Javascript를 편집한 후 [!DNL pipelined]을(를) 다시 시작해야 합니다.
 
 ### 데이터 형식 트리거 {#trigger-format}
 
-다음 [!DNL trigger] 데이터는 XML 형식으로 JS 함수에 전달됩니다.
+[!DNL trigger] 데이터가 XML 형식으로 JS 함수에 전달됩니다.
 
-* 다음 **[!UICONTROL @triggerId]** 속성에는 [!DNL trigger].
-* 다음 **강화** json 형식의 요소에는 Adobe Analytics에서 생성한 데이터가 포함되어 있으며 트리거에 첨부됩니다.
-* **[!UICONTROL @offset]** 은 메시지에 대한 &quot;포인터&quot;입니다. 대기열 내의 메시지 순서를 나타냅니다.
-* **[!UICONTROL @partition]** 는 대기열 내의 메시지 컨테이너입니다. 오프셋은 분할 영역에 상대적입니다. <br>대기열에는 약 15개의 파티션이 있습니다.
+* **[!UICONTROL @triggerId]** 특성에 [!DNL trigger]의 이름이 있습니다.
+* JSON 형식의 **보강** 요소에는 Adobe Analytics에서 생성된 데이터가 포함되어 있으며 트리거에 첨부되어 있습니다.
+* **[!UICONTROL @offset]**&#x200B;은(는) 메시지의 &quot;포인터&quot;입니다. 대기열 내의 메시지 순서를 나타냅니다.
+* **[!UICONTROL @partition]**&#x200B;은(는) 큐 내의 메시지 컨테이너입니다. 오프셋은 분할 영역에 상대적입니다. <br>큐에 약 15개의 파티션이 있습니다.
 
 예:
 
@@ -81,9 +81,9 @@ function processPipelineMessage(xmlTrigger) {}
 콘텐츠는 각 트리거에 대해 Adobe Analytics에서 JSON 형식으로 정의됩니다.
 예를 들어, 트리거인 LogoUpload_upload_Visits에서 다음을 수행합니다.
 
-* **[!UICONTROL eVar01]** 은 Adobe Campaign 수신자와 조정하는 데 사용되는 구매자 ID를 문자열 형식으로 포함할 수 있습니다. <br>기본 키인 구매자 ID를 찾으려면 조정이 필요합니다.
+* **[!UICONTROL eVar01]**&#x200B;은(는) Adobe Campaign 수신자와 조정하는 데 사용되는 String 형식의 구매자 ID를 포함할 수 있습니다. <br>기본 키인 구매자 ID를 찾으려면 조정해야 합니다.
 
-* **[!UICONTROL timeGMT]** 은 Adobe Analytics 측의 트리거 시간을 UTC Epoch 형식(01/01/1970 UTC 이후 초)으로 포함할 수 있습니다.
+* **[!UICONTROL timeGMT]**&#x200B;은(는) Adobe Analytics 측의 트리거 시간을 UTC Epoch 형식(01/01/1970 UTC 이후 초)으로 포함할 수 있습니다.
 
 예:
 
@@ -111,20 +111,20 @@ function processPipelineMessage(xmlTrigger) {}
 
 ### 이벤트 처리 순서{#order-events}
 
-이벤트는 오프셋 순서로 한 번에 하나씩 처리됩니다. 의 각 스레드 [!DNL pipelined] 다른 파티션을 처리합니다.
+이벤트는 오프셋 순서로 한 번에 하나씩 처리됩니다. [!DNL pipelined]의 각 스레드가 다른 파티션을 처리합니다.
 
 검색된 마지막 이벤트의 &#39;offset&#39;이 데이터베이스에 저장됩니다. 따라서 프로세스가 중지되면 마지막 메시지에서 다시 시작됩니다. 이 데이터는 내장 스키마 xtk:pipelineOffset에 저장됩니다.
 
 이 포인터는 각 인스턴스와 각 소비자에 따라 다릅니다. 따라서 많은 인스턴스가 서로 다른 소비자를 사용하여 동일한 파이프라인에 액세스할 때 각 인스턴스는 동일한 순서로 모든 메시지를 수신합니다.
 
-다음 **소비자** 파이프라인 옵션의 매개 변수는 호출 인스턴스를 식별합니다.
+파이프라인 옵션의 **consumer** 매개 변수는 호출 인스턴스를 식별합니다.
 
 현재는 &#39;스테이징&#39; 또는 &#39;개발&#39;과 같은 별도의 환경에 대해 서로 다른 큐를 가질 방법이 없습니다.
 
 ### 로깅 및 오류 처리 {#logging-error-handling}
 
-logInfo()와 같은 로그는 [!DNL pipelined] 로그합니다. logError()와 같은 오류는 [!DNL pipelined] 이벤트를 로그하여 다시 시도 큐에 넣습니다. 이 경우 파이프된 로그를 확인해야 합니다.
-오류 메시지는 다음에 설정된 기간 동안 여러 번 다시 시도됩니다. [!DNL pipelined] 옵션.
+logInfo()와 같은 로그가 [!DNL pipelined] 로그로 전달됩니다. logError()와 같은 오류가 [!DNL pipelined] 로그에 기록되어 이벤트가 다시 시도 큐에 들어갑니다. 이 경우 파이프된 로그를 확인해야 합니다.
+오류 메시지는 [!DNL pipelined] 옵션에 설정된 기간 동안 여러 번 다시 시도됩니다.
 
 디버깅 및 모니터링을 위해 전체 트리거 데이터는 XML 형식의 &quot;data&quot; 필드에 있는 트리거 테이블에 작성됩니다. 또는 트리거 데이터가 포함된 logInfo()도 동일한 용도로 사용됩니다.
 
@@ -204,12 +204,12 @@ triggerType 필드는 데이터가 시작되는 트리거를 식별합니다.
 
 | 속성 | 유형 | 레이블 | 설명 |
 |:-:|:-:|:-:|:-:|
-| pipelineEventId | 긺 | 기본 키 | 트리거의 내부 기본 키입니다. |
+| pipelineEventId | Long | 기본 키 | 트리거의 내부 기본 키입니다. |
 | 데이터 | 메모 | 데이터 트리거 | XML 형식의 트리거 데이터의 전체 콘텐츠입니다. 디버깅 및 감사 목적으로 |
 | triggerType | 문자열 50 | 트리거 유형 | 트리거의 이름입니다. 웹 사이트에서 고객의 행동을 식별합니다. |
 | shopper_id | 문자열 32 | shopper_id | 구매자의 내부 식별자. 조정 워크플로우에 의해 설정됩니다. 0이면 Campaign에서 고객을 알 수 없음을 의미합니다. |
-| shopper_key | 긺 | shopper_key | Analytics에 의해 캡처된 구매자의 외부 식별자. |
-| 생성됨 | 날짜/시간 | 생성됨 | Campaign에서 이벤트가 생성된 시간입니다. |
+| shopper_key | Long | shopper_key | Analytics에 의해 캡처된 구매자의 외부 식별자. |
+| 생성됨 | 날짜/시간 | 생성일 | Campaign에서 이벤트가 생성된 시간입니다. |
 | 마지막 수정일 | 날짜/시간 | 마지막 수정일 | Adobe에서 마지막으로 이벤트가 수정된 시간입니다. |
 | timeGMT | 날짜/시간 | 타임스탬프 | Analytics에서 이벤트가 생성된 시간입니다. |
 
@@ -219,7 +219,7 @@ triggerType 필드는 데이터가 시작되는 트리거를 식별합니다.
 
 >[!NOTE]
 >
->파이프라인 이벤트 노드는 기본 제공되지 않으므로 추가되어야 하며, Campaign에서 관련 양식을 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 정보는 다음 섹션을 참조하십시오. [탐색 계층](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). 및 [양식 편집](../../configuration/using/editing-forms.md).
+>파이프라인 이벤트 노드는 기본 제공되지 않으므로 추가되어야 하며, Campaign에서 관련 양식을 만들어야 합니다. 이러한 작업은 전문가 사용자로만 제한됩니다. 자세한 내용은 다음 섹션을 참조하십시오. [탐색 계층](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). 및 [양식 편집](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 

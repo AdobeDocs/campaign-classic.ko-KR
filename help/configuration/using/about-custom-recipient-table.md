@@ -43,33 +43,33 @@ ht-degree: 2%
 
   권장 사항:
 
-   * 전용 **[!UICONTROL nms:BroadLogRcp]** 및 **[!UICONTROL nms:TrackingLogRcp]** 스키마를 기본 제공 **[!UICONTROL nms:Recipientschema]**. 이러한 두 로그 테이블은 추가 사용자 지정 수신자 테이블에 연결하면 안 됩니다.
-   * 각 새 사용자 정의 수신자 스키마에 대한 전용 사용자 정의 브로드로그 및 추적 로그 스키마를 정의합니다. 대상 매핑을 설정할 때 자동으로 수행할 수 있습니다. 다음을 참조하십시오. [대상 매핑](../../configuration/using/target-mapping.md).
+   * **[!UICONTROL nms:BroadLogRcp]** 및 **[!UICONTROL nms:TrackingLogRcp]** 스키마를 기본 제공 **[!UICONTROL nms:Recipientschema]**&#x200B;에 전용으로 사용 중입니다. 이러한 두 로그 테이블은 추가 사용자 지정 수신자 테이블에 연결하면 안 됩니다.
+   * 각 새 사용자 정의 수신자 스키마에 대한 전용 사용자 정의 브로드로그 및 추적 로그 스키마를 정의합니다. 대상 매핑을 설정할 때 자동으로 수행할 수 있습니다. [대상 매핑](../../configuration/using/target-mapping.md)을 참조하세요.
 
-* 표준을 사용할 수 없습니다. **[!UICONTROL Services and Subscriptions]** 제품에 제공됩니다.
+* 제품에 제공되는 표준 **[!UICONTROL Services and Subscriptions]**&#x200B;을(를) 사용할 수 없습니다.
 
-  이는 다음에 자세히 설명된 전체 작업을 의미합니다. [이 섹션](../../delivery/using/managing-subscriptions.md) 은(는) 적용할 수 없습니다.
+  즉, [이 섹션](../../delivery/using/managing-subscriptions.md)에 자세히 설명된 전체 작업을 적용할 수 없습니다.
 
-* 링크 대상: **[!UICONTROL visitor]** 테이블이 작동하지 않습니다.
+* **[!UICONTROL visitor]** 테이블이 있는 링크가 작동하지 않습니다.
 
-  따라서 **[!UICONTROL Social Marketing]** 모듈 올바른 테이블을 참조하도록 스토리지 단계를 구성해야 합니다.
+  따라서 **[!UICONTROL Social Marketing]** 모듈을 사용하려면 올바른 테이블을 참조하도록 저장소 단계를 구성해야 합니다.
 
   마찬가지로 참조 함수를 사용할 때는 표준 초기 메시지 전송 템플릿을 조정해야 합니다.
 
 * 목록에 프로필을 수동으로 추가할 수 없습니다.
 
-  따라서 다음에 자세히 설명된 절차 [이 섹션](../../platform/using/creating-and-managing-lists.md) 는 추가 구성 없이 적용할 수 없습니다.
+  따라서 [이 섹션](../../platform/using/creating-and-managing-lists.md)에 설명된 프로시저는 추가 구성이 없으면 적용할 수 없습니다.
 
   >[!NOTE]
   >
-  >워크플로우를 사용하여 수신자 목록을 만들 수 있습니다. 자세한 내용은 다음을 참조하십시오. [워크플로우를 사용하여 프로필 목록 만들기](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
+  >워크플로우를 사용하여 수신자 목록을 만들 수 있습니다. 자세한 내용은 [워크플로를 사용하여 프로필 목록 만들기](../../configuration/using/creating-a-profile-list-with-a-workflow.md)를 참조하세요.
 
 또한 다양한 기본 구성에서 사용되는 기본값을 확인하는 것이 좋습니다. 사용되는 기능에 따라 몇 가지 수정을 수행해야 합니다.
 
 예제:
 
-* 특정 표준 보고서, 특히 제공 **상호 작용** 및 **모바일 애플리케이션** 다시 개발해야 합니다. 다음을 참조하십시오. [보고서 관리](../../configuration/using/managing-reports.md) 섹션.
-* 특정 워크플로우 활동에 대한 기본 구성은 표준 수신자 테이블(**[!UICONTROL nms:recipient]**): 외부 수신자 테이블에 사용할 때 이러한 구성을 변경해야 합니다. 다음을 참조하십시오. [워크플로우 관리](../../configuration/using/managing-workflows.md) 섹션.
+* 특정 표준 보고서, 특히 **상호 작용** 및 **모바일 응용 프로그램**&#x200B;에서 제공하는 보고서를 다시 개발해야 합니다. [보고서 관리](../../configuration/using/managing-reports.md) 섹션을 참조하십시오.
+* 특정 워크플로우 활동에 대한 기본 구성은 표준 수신자 테이블(**[!UICONTROL nms:recipient]**)을 참조합니다. 외부 수신자 테이블에 사용할 때 이러한 구성을 변경해야 합니다. [워크플로 관리](../../configuration/using/managing-workflows.md) 섹션을 참조하십시오.
 * 표준 **[!UICONTROL Unsubscription link]** 개인화 블록을 조정해야 합니다.
 * 표준 게재 템플릿의 대상 매핑을 수정해야 합니다.
 * V4 양식은 외부 수신자 테이블과 함께 사용할 수 없습니다. 웹 응용 프로그램을 사용해야 합니다.

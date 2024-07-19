@@ -18,11 +18,11 @@ ht-degree: 5%
 
 Adobe Campaign DCE(디지털 콘텐츠 편집기)로 만든 웹 애플리케이션 페이지를 번역할 수 있습니다.
 
-를 통해 하나 이상의 추가 언어를 선택하는 경우 **[!UICONTROL Localization]** 의 탭 **[!UICONTROL Properties]** 웹 애플리케이션의 경우 DCE로 편집된 페이지에서 HTML 콘텐츠 블록을 추가할 때 새로운 옵션을 사용할 수 있습니다.
+웹 응용 프로그램의 **[!UICONTROL Properties]**&#x200B;에 있는 **[!UICONTROL Localization]** 탭을 통해 하나 이상의 추가 언어를 선택하는 경우 DCE로 편집한 페이지에 HTML 콘텐츠 블록을 추가할 때 새로운 옵션을 사용할 수 있습니다.
 
 이 옵션을 사용하여 블록 콘텐츠를 번역해야 하는지 여부를 나타낼 수 있습니다.
 
-번역할 문자열은 를 통해 웹 애플리케이션의 다른 문자열과 동일한 방식으로 수집됩니다 **[!UICONTROL Translations]** 애플리케이션 탭. 자세한 정보는 이 [페이지](translating-a-web-form.md)를 참조하십시오.
+번역할 문자열은 응용 프로그램의 **[!UICONTROL Translations]** 탭을 통해 웹 응용 프로그램의 다른 문자열과 동일한 방식으로 수집됩니다. 자세한 정보는 이 [페이지](translating-a-web-form.md)를 참조하십시오.
 
 번역할 문자열에 플래그를 지정하려면 다음을 수행합니다.
 
@@ -31,7 +31,7 @@ Adobe Campaign DCE(디지털 콘텐츠 편집기)로 만든 웹 애플리케이�
    ![](assets/dce_translation_3.png)
 
 1. HTML 블록을 선택합니다.
-1. 오른쪽의 매개 변수 블록에서 **[!UICONTROL Localization]** 옵션을 사용하면 선택한 블록의 콘텐츠에 플래그를 지정할 수 있습니다. 기본적으로 페이지 제목만 번역됩니다.
+1. 오른쪽의 매개 변수 블록에서 **[!UICONTROL Localization]** 옵션을 사용하면 선택한 블록의 내용에 플래그를 지정할 수 있습니다. 기본적으로 페이지 제목만 번역됩니다.
 
    ![](assets/dce_translation_1.png)
 
@@ -50,7 +50,7 @@ Adobe Campaign DCE(디지털 콘텐츠 편집기)로 만든 웹 애플리케이�
 
      ![](assets/dce_translation_2.png)
 
-1. 문자열에 플래그 지정을 완료한 후 웹 애플리케이션으로 돌아가서 **[!UICONTROL Translations]** 탭.
+1. 문자열 플래그 지정을 마치면 웹 응용 프로그램으로 돌아가 **[!UICONTROL Translations]** 탭을 선택합니다.
 1. **[!UICONTROL Collect the strings to translate]**&#x200B;을(를) 선택합니다. DCE에 플래그가 지정된 문자열이 웹 애플리케이션의 문자열에 추가됩니다.
 
    >[!NOTE]
@@ -59,4 +59,4 @@ Adobe Campaign DCE(디지털 콘텐츠 편집기)로 만든 웹 애플리케이�
 
 1. 문자열을 번역하고 승인합니다.
 
-   그런 다음 원하는 언어를 선택하여 번역을 미리 볼 수 있습니다. **[!UICONTROL Preview]** 웹 응용 프로그램의 탭입니다.
+   그런 다음 웹 응용 프로그램의 **[!UICONTROL Preview]** 탭에서 원하는 언어를 선택하여 번역을 미리 볼 수 있습니다.

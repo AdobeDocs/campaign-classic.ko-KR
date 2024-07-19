@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## 범위 정의 {#definition-of-the-scope}
 
-를 엽니다. **[!UICONTROL Scope]** 탭을 클릭하여 설정을 선택합니다.
+설정을 선택하려면 **[!UICONTROL Scope]** 탭을 여십시오.
 
 다음 항목은 필수입니다.
 
@@ -48,8 +48,8 @@ ht-degree: 2%
 
 ## 보고 축 추가 {#adding-reporting-axes}
 
-를 통해 타겟 또는 오퍼 자체에 대한 보고 축을 추가하여 시뮬레이션 분석을 향상시킬 수 있습니다. **[!UICONTROL Calculations]** 탭.
+**[!UICONTROL Calculations]** 탭을 통해 대상 또는 오퍼 자체에 대한 보고 축을 추가하여 시뮬레이션 분석을 향상시킬 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL Add]** 버튼을 클릭하고 적절한 필드를 선택합니다. 축은 시뮬레이션을 계산하는 데 사용되며 분석 보고서에 표시됩니다. 자세한 내용은 다음을 참조하십시오. [시뮬레이션 추적](../../interaction/using/simulation-tracking.md).
+이렇게 하려면 **[!UICONTROL Add]** 단추를 클릭하고 적절한 필드를 선택합니다. 축은 시뮬레이션을 계산하는 데 사용되며 분석 보고서에 표시됩니다. 자세한 내용은 [시뮬레이션 추적](../../interaction/using/simulation-tracking.md)을 참조하세요.
 
 ![](assets/offer_simulation_011.png)

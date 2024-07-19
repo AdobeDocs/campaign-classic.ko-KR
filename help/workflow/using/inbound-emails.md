@@ -15,17 +15,17 @@ ht-degree: 1%
 
 
 
-다음 **인바운드 이메일** 활동을 사용하면 POP3 메일 서버에서 이메일 메시지를 다운로드하고 처리할 수 있습니다.
+**인바운드 이메일** 활동을 통해 POP3 메일 서버에서 이메일 메시지를 다운로드하고 처리할 수 있습니다.
 
 ![](assets/email_rec_edit_1.png)
 
-의 첫 번째 탭 **인바운드 이메일** 활동을 사용하면 POP3 서버의 매개 변수를 입력하고 각 메시지를 받을 때 실행할 스크립트를 입력할 수 있습니다. 두 번째 탭에서는 활동에 일정을 지정할 수 있으며 세 번째 탭에서는 활동 만료 조건을 정의합니다.
+**인바운드 전자 메일** 활동의 첫 번째 탭에서는 POP3 서버의 매개 변수를 입력하고 각 메시지를 받을 때 실행할 스크립트를 입력할 수 있습니다. 두 번째 탭에서는 활동에 일정을 지정할 수 있으며 세 번째 탭에서는 활동 만료 조건을 정의합니다.
 
 1. **[!UICONTROL Inbound Emails]**
 
    * **[!UICONTROL Use an external account]**
 
-     이 옵션이 활성화되면 연결 매개 변수를 입력하는 대신 외부 POP3 계정을 선택할 수 있습니다. 다음 **[!UICONTROL External account]** 필드는 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. 이 필드는 &#39;외부 계정 사용&#39; 옵션이 활성화된 경우에만 표시됩니다.
+     이 옵션이 활성화되면 연결 매개 변수를 입력하는 대신 외부 POP3 계정을 선택할 수 있습니다. **[!UICONTROL External account]** 필드는 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. 이 필드는 &#39;외부 계정 사용&#39; 옵션이 활성화된 경우에만 표시됩니다.
 
      이 옵션을 선택하지 않으면 다음 매개 변수를 지정해야 합니다.
 
@@ -62,18 +62,18 @@ ht-degree: 1%
    * 3 - 서버에서 메시지를 삭제합니다.
    * 4 - 서버에 메시지를 둡니다.
 
-   메시지 내용은 글로벌에서 액세스할 수 있습니다 **[!UICONTROL mailMessage]** 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다.
+   메시지의 내용은 전역 **[!UICONTROL mailMessage]** 변수에서 액세스할 수 있습니다.
 
 1. **[!UICONTROL Schedule]**
 
-   활동의 일정을 정의하려면 다음을 클릭합니다. **[!UICONTROL Scheduling]** tab 키 및 check **[!UICONTROL Plan execution]**. 다음을 클릭합니다. **[!UICONTROL Change]** 단추를 클릭하여 일정을 구성합니다.
+   활동의 일정을 정의하려면 **[!UICONTROL Scheduling]** 탭을 클릭하고 **[!UICONTROL Plan execution]**&#x200B;을(를) 확인합니다. **[!UICONTROL Change]** 단추를 클릭하여 일정을 구성합니다.
 
-   예약 구성은 예약 활동과 동일합니다. 을(를) 참조하십시오 [스케줄러](scheduler.md).
+   예약 구성은 예약 활동과 동일합니다. [스케줄러](scheduler.md)을(를) 참조하세요.
 
 1. **[!UICONTROL Expiration]**
 
-   다음을 통해 만료 지연을 정의할 수 있습니다. **[!UICONTROL Expiration]** 탭.
+   **[!UICONTROL Expiration]** 탭을 통해 만료 지연을 정의할 수 있습니다.
 
    ![](assets/email_rec_edit_3.png)
 
-   구성은 예약 활동과 동일합니다. 을(를) 참조하십시오 [만료](defining-approvals.md).
+   구성은 예약 활동과 동일합니다. [만료](defining-approvals.md)을 참조하세요.

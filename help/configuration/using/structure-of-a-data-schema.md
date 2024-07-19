@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # 데이터 스키마 구조{#structure-of-a-data-schema}
 
-데이터 스키마의 구조는 트리 구조의 형태로 표시됩니다. Adobe Campaign 클라이언트 콘솔에서 그래픽으로 보려면 타겟팅된 스키마를 선택하고 **[!UICONTROL Structure]** 하위 탭.
+데이터 스키마의 구조는 트리 구조의 형태로 표시됩니다. Adobe Campaign 클라이언트 콘솔에서 그래픽으로 보려면 타겟팅된 스키마를 선택하고 **[!UICONTROL Structure]** 하위 탭을 클릭하십시오.
 
 ![](assets/d_ncs_integration_schema_arbo.png)
 

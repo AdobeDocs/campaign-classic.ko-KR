@@ -15,7 +15,7 @@ ht-degree: 1%
 
 
 
-아래에 설명된 워크플로우는 **중간 소싱으로 전송** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 [Campaign Classic v7 설치 안내서](../../installation/using/mid-sourcing-deployment.md).
+아래에 설명된 워크플로는 기본적으로 **중간 소싱으로 전송** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 내용은 [Campaign Classic v7 설치 안내서](../../installation/using/mid-sourcing-deployment.md)를 참조하세요.
 
 <table> 
  <tbody> 
@@ -26,13 +26,13 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">중간 소싱(게재 카운터)</span> <br /> </td> 
-   <td> <span class="uicontrol">defaultMidSourcesDlv</span> <br /> </td> 
+   <td> <span class="uicontrol">defaultMidSourcingDlv</span> <br /> </td> 
    <td> <p>이 워크플로우는 중간 소싱 서버의 게재에 대한 카운트 정보를 수집합니다. 카운트 정보에는 전송된 게재 수 등과 같은 일반 게재 지표가 포함됩니다.</p> <p>열림 등의 추적 정보는 포함되지 않습니다.</p> <p>기본적으로 10분마다 트리거됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">중간 소싱(게재 로그)</span> <br /> </td> 
-   <td> <span class="uicontrol">defaultMid소싱로그</span> <br /> </td> 
-   <td> 이 워크플로우는 중간 소싱 서버에서 게재 로그를 수집합니다. 기본적으로 매시간 트리거됩니다.<br /> </td> 
+   <td> <span class="uicontrol">defaultMidSourcingLog</span> <br /> </td> 
+   <td> 이 워크플로우는 중간 소싱 서버에서 게재 로그를 수집합니다. 기본적으로 매 시간마다 트리거됩니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

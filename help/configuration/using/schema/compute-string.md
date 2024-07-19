@@ -33,15 +33,15 @@ compute-string:==EMPTY
 
 ## 설명 {#description-1}
 
-다음 `<compute-string>` 요소를 사용하면 XTK 표현식을 기반으로 문자열을 생성하여 여러 값을 기반으로 인터페이스에 &quot;빌드된&quot; 레이블을 표시할 수 있습니다.
+`<compute-string>` 요소를 사용하면 XTK 식을 기반으로 문자열을 생성하여 여러 값을 기반으로 인터페이스에 &quot;빌드된&quot; 레이블을 표시할 수 있습니다.
 
 ## 사용 및 사용 컨텍스트 {#use-and-context-of-use-1}
 
-없는 경우 `<compute-string>` 가 정의된 횟수, `<compute-string>` 요소는 기본적으로 스키마의 기본 키 값과 함께 입력됩니다.
+`<compute-string>`이(가) 정의되지 않으면 기본적으로 스키마에 기본 키 값으로 `<compute-string>` 요소가 입력됩니다.
 
 ## 속성 설명 {#attribute-description-1}
 
-* **expr (문자열)**: XTK 및/또는 Xpath 식
+* **expr(문자열)**: XTK 및/또는 Xpath 식
 
 ## 예제 {#examples-1}
 

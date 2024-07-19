@@ -14,7 +14,7 @@ ht-degree: 3%
 
 ---
 
-# SOAP를 통한 통합(서버측){#integration-via-soap-server-side}
+# SOAP을 통한 통합(서버측){#integration-via-soap-server-side}
 
 
 
@@ -22,12 +22,12 @@ ht-degree: 3%
 
 ## 오퍼 제안 {#offer-proposition}
 
-SOAP를 통한 오퍼 제안에 대해 **nms:proposition#제안** 명령 뒤에 다음 매개 변수가 옵니다.
+SOAP을 통한 오퍼 제안에 대해 **nms:proposition#Propose** 명령과 다음 매개 변수를 추가합니다.
 
-* **targetId**: 수신자의 기본 키(복합 키일 수 있음).
-* **maxCount**: 연락처에 대한 오퍼 제안 수를 지정합니다.
-* **컨텍스트**: 공간 스키마에 컨텍스트 정보를 추가할 수 있습니다. 사용된 스키마가 **nms:interaction**, **`<empty>`** 을 추가해야 합니다.
-* **카테고리**: 오퍼가 속해야 하는 범주/코드를 지정합니다.
+* **targetId**: 받는 사람의 기본 키(복합 키일 수 있음).
+* **maxCount**: 연락처의 오퍼 제안 수를 지정합니다.
+* **컨텍스트**: 스페이스 스키마에 컨텍스트 정보를 추가할 수 있습니다. 사용된 스키마가 **nms:interaction**&#x200B;인 경우 **`<empty>`**&#x200B;을(를) 추가해야 합니다.
+* **categories**: 오퍼가 속해야 하는 범주/IE를 지정합니다.
 * **테마**: 오퍼가 속해야 하는 테마를 지정합니다.
 * **uuid**: Adobe Campaign 영구 쿠키의 값(&quot;uuid230&quot;).
 * **nli**: Adobe Campaign 세션 쿠키의 값(&quot;nlid&quot;)입니다.
@@ -35,20 +35,20 @@ SOAP를 통한 오퍼 제안에 대해 **nms:proposition#제안** 명령 뒤에 
 
 >[!NOTE]
 >
->다음 **targetId** 및 **maxCount** 설정은 필수입니다. 다른 것들은 선택 사항입니다.
+>**targetId** 및 **maxCount** 설정은 필수입니다. 다른 것들은 선택 사항입니다.
 
 쿼리에 대한 응답으로 SOAP 서비스는 다음 매개 변수를 반환합니다.
 
 * **interactionId**: 인터랙션의 ID입니다.
-* **제안**: XML 요소이며, 각각 고유한 ID와 HTML 표현이 있는 제안 목록을 포함합니다.
+* **제안**: XML 요소에는 각각 고유한 ID와 HTML 표현이 있는 제안 목록이 포함됩니다.
 
 ## 오퍼 업데이트 {#offer-update}
 
-추가 **nms:interaction#UpdateStatus** 다음 매개 변수가 뒤에 옵니다.
+**nms:interaction#UpdateStatus** 명령을 URL에 추가한 다음 다음 매개 변수를 추가합니다.
 
-* **제안**: 문자열로 구성되며 오퍼 제안 중 출력으로 제공된 제안 ID를 포함합니다. 을(를) 참조하십시오 [오퍼 제안](#offer-proposition).
-* **상태**: 문자열 유형으로 오퍼의 새 상태를 지정합니다. 가능한 값은 **제안 상태** 열거형, **nms:common** 스키마. 예를 들어, 기본적으로 숫자 3은 **수락됨** 상태.
-* **컨텍스트**: XML 요소를 사용하여 공간 스키마에 컨텍스트 정보를 추가할 수 있습니다. 사용된 스키마가 **nms:interaction**, **`<empty>`** 을 추가해야 합니다.
+* **제안**: 문자열로, 오퍼 제안 중 출력으로 제공된 제안 ID가 포함되어 있습니다. [오퍼 제안](#offer-proposition)을 참조하세요.
+* **상태**: 문자열 형식이며 오퍼의 새 상태를 지정합니다. 가능한 값은 **nms:common** 스키마의 **propositionStatus** 열거형에 나열됩니다. 예를 들어, 기본적으로 숫자 3은 **수락됨** 상태에 해당합니다.
+* **context**: XML 요소를 사용하면 공간 스키마에 컨텍스트 정보를 추가할 수 있습니다. 사용된 스키마가 **nms:interaction**&#x200B;인 경우 **`<empty>`**&#x200B;을(를) 추가해야 합니다.
 
 ## SOAP 호출 사용 예 {#example-using-a-soap-call}
 

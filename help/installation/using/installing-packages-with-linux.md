@@ -17,33 +17,33 @@ ht-degree: 0%
 
 # Linux를 사용하여 패키지 설치{#installing-packages-with-linux}
 
-Adobe Campaign에는 **nlserver** 특정 버전에 대한 바이너리 및 구성 파일이 포함된 패키지
+Adobe Campaign에는 특정 버전에 대한 바이너리 및 구성 파일이 포함된 **nlserver** 패키지가 포함되어 있습니다.
 
 설치 명령을 사용하여 다음을 수행할 수 있습니다.
 
-* 파일 복사 위치: **/usr/local/neolane**
-* 다음을 사용하여 만든 Adobe Campaign Linux 계정(및 관련 그룹) 만들기 **/usr/local/neolane** 홈 디렉터리로
-* 자동 스크립트 만들기 **/etc/init.d/nlserver6** 시작 시 사용하거나 시스템 단위 만들기
+* **/usr/local/neolane**&#x200B;에 파일 복사
+* **/usr/local/neolane**&#x200B;을(를) 홈 디렉터리로 사용하여 만든 Adobe Campaign Linux 계정(및 관련 그룹)을 만듭니다.
+* 시작 시 사용할 자동 스크립트 **/etc/init.d/nlserver6**&#x200B;을(를) 만들거나 시스템 단위를 만드십시오
 
 >[!NOTE]
 >
->다음 **Neolane** 명령이 실행되기 전에 시스템 사용자가 만들어지지 않아야 합니다. 다음 **Neolane** 설치 중에 사용자가 자동으로 만들어집니다.
+>명령을 실행하기 전에 **neolane** 시스템 사용자를 만들지 않아야 합니다. 설치하는 동안 **neolane** 사용자가 자동으로 만들어집니다.
 >
->다음 **홈** 에 연결된 디렉토리 **Neolane** 사용자는에서 자동으로 생성됩니다. **[!UICONTROL /usr/local/neolane]**. 에 충분한 공간이 있는지 확인하십시오. **[!UICONTROL /usr/local]** 디스크입니다.
+>**neolane** 사용자에 연결된 **home** 디렉터리도 **[!UICONTROL /usr/local/neolane]**&#x200B;에서 자동으로 만들어집니다. **[!UICONTROL /usr/local]** 디스크에 충분한 공간이 있는지 확인하십시오.
 
-다음을 실행할 수 있습니다. **ping`hostname`** 서버에 연결할 수 있는지 확인하는 명령입니다.
+**ping`hostname`** 명령을 실행하여 서버가 자체적으로 도달할 수 있는지 확인할 수 있습니다.
 
 ## RPM 패키지를 기반으로 배포 {#distribution-based-on-rpm--packages}
 
 RPM(RHEL, CentOS) 운영 체제에 Adobe Campaign을 설치하려면 다음 단계를 수행하십시오.
 
-1. Adobe Campaign 패키지를 가져옵니다. 파일 이름은 입니다. **nlserver6-v7-XXXX-0.x86_64.rpm**, 여기서 **XXXX** 는 Adobe Campaign 빌드 번호입니다.
+1. Adobe Campaign 패키지를 가져옵니다. 파일 이름은 **nlserver6-v7-XXXX-0.x86_64.rpm**&#x200B;입니다. 여기서 **XXXX**&#x200B;은(는) Adobe Campaign 빌드 번호입니다.
 
    >[!CAUTION]
    >
    >이 섹션의 명령 샘플에서 사용 중인 Adobe Campaign 버전에 올바른 파일 이름을 사용해야 합니다.
 
-1. 설치하려면 다음으로 연결 **루트** 다음 명령을 실행합니다. 여기서 **XXXX** 는 Adobe Campaign 빌드 번호입니다.
+1. 설치하려면 **root**(으)로 연결하고 다음 명령을 실행합니다. 여기서 **XXXX**&#x200B;은(는) Adobe Campaign 빌드 번호입니다.
 
    ```
    yum install nlserver6-v7-XXXX-0.x86_64.rpm
@@ -55,9 +55,9 @@ RPM(RHEL, CentOS) 운영 체제에 Adobe Campaign을 설치하려면 다음 단�
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
-다음 `bc` 명령, 실행 필수 [netreport](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)는 모든 Linux 배포판에서 기본적으로 사용할 수 없습니다. 명령을 사용할 수 있는지 확인하려면 `which bc` 명령입니다. 그렇지 않으면 설치해야 합니다.
+[netreport](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts) 실행에 필수인 `bc` 명령은 모든 Linux 배포판에서 기본적으로 사용할 수 없습니다. 명령을 사용할 수 있는지 확인하려면 `which bc` 명령을 실행합니다. 그렇지 않으면 설치해야 합니다.
 
-CentOS를 사용하는 경우 bc.x86_64 패키지: connect as 를 설치해야 합니다. **루트** 다음 명령을 실행합니다.
+CentOS를 사용하는 경우 bc.x86_64 패키지를 설치해야 합니다. **root**(으)로 연결하고 다음 명령을 실행합니다.
 
 ```
 yum install bc.x86_64
@@ -67,13 +67,13 @@ yum install bc.x86_64
 
 Debian 64비트 운영 체제에 Adobe Campaign을 설치하려면 다음 단계를 적용합니다.
 
-1. Adobe Campaign 패키지를 가져옵니다. 파일 이름은 입니다. **nlserver6-v7-XXXX-linux-2.6-amd64.deb**, 여기서 **XXXX** 는 Adobe Campaign 빌드 번호입니다.
+1. Adobe Campaign 패키지를 가져옵니다. 파일 이름은 **nlserver6-v7-XXXX-linux-2.6-amd64.deb**&#x200B;입니다. 여기서 **XXXX**&#x200B;은(는) Adobe Campaign 빌드 번호입니다.
 
    >[!CAUTION]
    >
    >이 섹션의 명령 샘플에서 사용 중인 Adobe Campaign 버전에 올바른 파일 이름을 사용해야 합니다.
 
-1. 설치하려면 다음으로 연결 **루트** 다음 명령을 실행합니다. 여기서 **XXXX** 는 Adobe Campaign 빌드 번호입니다.
+1. 설치하려면 **root**(으)로 연결하고 다음 명령을 실행합니다. 여기서 **XXXX**&#x200B;은(는) Adobe Campaign 빌드 번호입니다.
 
    ```
    dpkg -i nlserver6-v7-XXXX-linux-2.6-amd64.deb
@@ -105,9 +105,9 @@ Debian 64비트 운영 체제에 Adobe Campaign을 설치하려면 다음 단계
 
 ## 매개 변수 개인화 {#personalizing-parameters}
 
-일부 매개변수는 다음을 통해 개인화할 수 있습니다. **customer.sh** 파일
+일부 매개 변수는 **customer.sh** 파일을 통해 개인화할 수 있습니다.
 
-설치를 처음 수행하는 경우 **customer.sh** 파일이 서버에 아직 없을 수 있습니다.
+처음 설치하는 경우 **customer.sh** 파일이 서버에 아직 없을 수 있습니다.
 
 만들고 실행 권한이 있는지 확인합니다. 그렇지 않은 경우 다음 명령을 입력합니다.
 
@@ -123,7 +123,7 @@ chmod +x /usr/local/neolane/nl6/customer.sh
 >
 >이 변경 사항은 파일 시스템(워크플로우 또는 JavaScript 스크립트를 통해 로드된 파일)과의 상호 작용 및 파일 인코딩에 영향을 줍니다. 따라서 기본 환경을 사용하는 것이 좋습니다.
 
-을(를) 만들려면 **일본어 인스턴스**, UTF-8 환경을 사용해야 합니다.
+**일본어 인스턴스**&#x200B;를 만들려면 UTF-8 환경을 사용해야 합니다.
 
 UTF-8 환경을 활성화하려면 다음 명령을 사용합니다.
 
@@ -136,9 +136,9 @@ touch /usr/local/neolane/nl6/unicodeenv
 
 다음 환경 변수를 올바르게 정의해야 합니다.
 
-특정 조합에는 Adobe Campaign 실행에 사용되는 환경을 변경해야 합니다. 특정 파일(`/usr/local/neolane/nl6/customer.sh`)을 만들고 편집하여 Adobe Campaign 환경과 관련된 수정 사항을 추가할 수 있습니다.
+특정 조합에는 Adobe Campaign 실행에 사용되는 환경을 변경해야 합니다. Adobe Campaign 환경과 관련된 수정 사항을 추가하기 위해 특정 파일(`/usr/local/neolane/nl6/customer.sh`)을 만들고 편집할 수 있습니다.
 
-필요한 경우 **customer.sh** 를 사용하는 파일 **vi customer.sh** 명령 및 구성을 조정하거나 누락된 줄을 추가합니다.
+필요한 경우 **vi customer.sh** 명령을 사용하여 **customer.sh** 파일을 편집하고 구성을 조정하거나 누락된 줄을 추가합니다.
 
 * oracle 클라이언트의 경우:
 
@@ -150,7 +150,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
   oracle_HOME 환경 변수의 내용은 Oracle 설치 디렉토리와 일치합니다.
 
-  TNS_ADMIN 변수의 콘텐츠는 의 위치와 일치해야 합니다. **tnsnames.ora** 파일.
+  TNS_ADMIN 변수의 콘텐츠는 **tnsnames.ora** 파일의 위치와 일치해야 합니다.
 
 * LibreOffice의 경우:
 
@@ -158,7 +158,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
    * Debian
 
-     OOO_INSTALL_DIR 및 OOO_BASIS_INSTALL_DIR의 기본값이 제공됩니다. 다음에서 재정의할 수 있습니다. **customer.sh** LibreOffice 설치 레이아웃이 다른 경우:
+     OOO_INSTALL_DIR 및 OOO_BASIS_INSTALL_DIR의 기본값이 제공됩니다. LibreOffice 설치 레이아웃이 다른 경우 **customer.sh**&#x200B;에서 재정의할 수 있습니다.
 
      ```
      export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
@@ -176,7 +176,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
 * Java 개발 키트(JDK)의 경우:
 
-  기본적으로 Adobe Campaign 환경의 구성 스크립트(`~/nl6/env.sh`)에서 JDK 설치 디렉토리를 검색합니다. 그러나 사용해야 하는 JDK를 지정하는 것이 좋습니다. 이렇게 하려면 다음을 강제 적용할 수 있습니다. **JDK_HOME** 다음 명령을 사용하는 환경 변수입니다.
+  기본적으로 Adobe Campaign 환경(`~/nl6/env.sh`)의 구성 스크립트는 JDK 설치 디렉터리를 검색합니다. 그러나 사용해야 하는 JDK를 지정하는 것이 좋습니다. 이렇게 하려면 다음 명령을 사용하여 **JDK_HOME** 환경 변수를 강제 적용할 수 있습니다.
 
   ```
   export JDK_HOME=/usr/java/jdkX.Y.Z
@@ -219,11 +219,11 @@ Adobe Campaign에서 Oracle을 사용할 때 Linux에서 Oracle 클라이언트 
 
 * 환경 변수
 
-  을(를) 참조하십시오 [환경 변수](#environment-variables).
+  [환경 변수](#environment-variables)를 참조하세요.
 
 * Adobe Campaign 구성
 
-  Adobe Campaign용 Oracle 클라이언트 설치를 완료하려면 **.so** Adobe Campaign에서 사용하는 파일입니다.
+  Adobe Campaign용 Oracle 클라이언트 설치를 완료하려면 Adobe Campaign에서 사용하는 **.so** 파일에 대한 심볼 링크를 만들어야 합니다.
 
   이렇게 하려면 다음 명령을 사용합니다.
 
@@ -269,9 +269,9 @@ nlserver web
 17:11:08 >   Web server stop(pid=17546, tid=-151316352)...
 ```
 
-이 명령을 사용하면 다음을 만들 수 있습니다 **config-default.xml** 및 **serverConf.xml** 구성 파일입니다. 에서 사용할 수 있는 모든 매개 변수 **serverConf.xml** 다음에 나열됨 [섹션](../../installation/using/the-server-configuration-file.md).
+이 명령을 사용하면 **config-default.xml** 및 **serverConf.xml** 구성 파일을 만들 수 있습니다. **serverConf.xml**&#x200B;에서 사용할 수 있는 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
-누르기 **Ctrl+C** 프로세스를 중지하려면 다음 명령을 입력합니다.
+**Ctrl+C**&#x200B;를 눌러 프로세스를 중지한 다음 다음 명령을 입력합니다.
 
 ```
 nlserver start web
@@ -306,6 +306,6 @@ nlserver stop web
 
 ## 내부 식별자 암호 {#password-for-the-internal-identifier}
 
-Adobe Campaign 서버는 이라는 기술 로그인을 정의합니다 **내부** 모든 인스턴스에 대한 모든 권한이 있습니다. 설치 후 로그인에 암호가 없습니다. 하나를 정의해야 합니다.
+Adobe Campaign 서버는 모든 인스턴스에 대한 모든 권한이 있는 기술 로그인 **internal**&#x200B;을(를) 정의합니다. 설치 후 로그인에 암호가 없습니다. 하나를 정의해야 합니다.
 
 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)에서 자세히 알아보십시오.

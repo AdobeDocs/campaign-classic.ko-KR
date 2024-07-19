@@ -24,11 +24,11 @@ ht-degree: 5%
 
 **Apache 사용자:**
 
-Apache 사용자는 제공된 를 사용하는 경우 영향을 받지 않습니다 **apache_neolane.conf**.
+Apache 사용자가 제공된 **apache_neolane.conf**&#x200B;을(를) 사용하는 경우 Apache 사용자에게 영향을 주지 않습니다.
 
 **IIS 사용자:**
 
 IIS 사용자(Windows의 경우)의 경우 빌드 업데이트 후 콘솔에 여러 아이콘이 표시되지 않습니다. 추가 IIS 업데이트 단계가 필요합니다.
 
-1. 빌드 업데이트 후 를 두 번 클릭합니다 **iis_neolane_setup.vbs** Campaign 설치 디렉터리에 있습니다. 기본 경로는 C:\Program Files (x86)\Adobe\Adobe Campaign v7\conf입니다.
+1. 빌드를 업데이트한 후 Campaign 설치 디렉터리에 있는 **iis_neolane_setup.vbs**&#x200B;을(를) 두 번 클릭합니다. 기본 경로는 C:\Program Files (x86)\Adobe\Adobe Campaign v7\conf입니다.
 1. 이전 단계에서 업데이트한 IIS 사이트를 다시 시작합니다.

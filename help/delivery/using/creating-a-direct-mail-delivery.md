@@ -19,12 +19,12 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->게재 만들기에 대한 전체적인 개념은에 나와 있습니다. [이 섹션](steps-about-delivery-creation-steps.md).
+>게재 만들기에 대한 전체 개념은 [이 섹션](steps-about-delivery-creation-steps.md)에 나와 있습니다.
 
 1. 게재 대시보드 등에서 새 게재를 만듭니다.
-1. 게재 템플릿 선택 **DM(종이 문서) 제공**.
+1. 게재 템플릿 **DM(용지)으로 게재**&#x200B;을(를) 선택하십시오.
 
    ![](assets/direct_mail.png)
 
-1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 자세한 내용은 다음을 참조하십시오. [이 섹션](steps-create-and-identify-the-delivery.md#identifying-the-delivery)
-1. 클릭 **계속** 이 정보를 확인하고 메시지 구성 창을 표시합니다.
+1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 자세한 정보는 [이 섹션](steps-create-and-identify-the-delivery.md#identifying-the-delivery)을 참조하세요.
+1. **계속**&#x200B;을 클릭하여 이 정보를 확인하고 메시지 구성 창을 표시합니다.

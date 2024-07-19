@@ -20,15 +20,15 @@ ht-degree: 8%
 
 1. 캠페인 유형화를 만듭니다.
 
-   유형화는 **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** 노드.
+   유형화는 **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** 노드를 통해 액세스됩니다.
 
-1. 로 이동 **[!UICONTROL Rules]** 탭을 클릭하고 **[!UICONTROL Add]** 버튼을 클릭하고 이 유형화에 적용할 규칙을 선택합니다.
+1. **[!UICONTROL Rules]** 탭으로 이동하여 **[!UICONTROL Add]** 버튼을 클릭하고 이 유형화에 적용할 규칙을 선택합니다.
 
    ![](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. 유형화 저장: 기존 유형화 목록에 추가됨.
 1. 규칙을 적용할 게재를 엽니다.
-1. 게재 속성을 열고 **[!UICONTROL Typology]** 탭.
+1. 게재 속성을 열고 **[!UICONTROL Typology]** 탭에 액세스합니다.
 1. 드롭다운 목록에서 유형을 선택합니다.
 
    ![](assets/campaign_opt_pressure_sample_1_7.png)
@@ -43,7 +43,7 @@ ht-degree: 8%
 
 연결된 특정 게재 또는 게재 대상 중 특정 수신자만 관련되도록 유형화 규칙을 구성할 수 있습니다.
 
-규칙의 적용 조건을 정의하려면 **[!UICONTROL Edit the rule application conditions...]** 링크 **[!UICONTROL General]** 탭.
+규칙의 응용 프로그램 조건을 정의하려면 **[!UICONTROL General]** 탭에서 **[!UICONTROL Edit the rule application conditions...]** 링크를 클릭합니다.
 
 그런 다음 쿼리 편집기를 사용하여 필터링 조건을 정의합니다. 다음 예에서 용량 규칙은 레이블에 &#39;offer&#39;라는 단어가 포함된 게재 또는 2013년 4월 1일 전에 생성된 게재에만 관련됩니다.
 
@@ -51,7 +51,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->필터링 규칙의 경우 필터링 기준의 적용 조건을 선택할 수 있습니다. 적용 조건은 게재 또는 게재 아웃라인에 따라 달라질 수 있습니다. 자세한 내용은 다음을 참조하십시오. [필터링 규칙 조건화](filtering-rules.md#conditioning-a-filtering-rule).
+>필터링 규칙의 경우 필터링 기준의 적용 조건을 선택할 수 있습니다. 적용 조건은 게재 또는 게재 아웃라인에 따라 달라질 수 있습니다. 자세한 내용은 [필터링 규칙 조정](filtering-rules.md#conditioning-a-filtering-rule)을 참조하세요.
 
 ## 계산 빈도 조정 {#adjusting-calculation-frequency}
 
@@ -59,11 +59,11 @@ ht-degree: 8%
 
 실제로, 어떤 계산은 매일 변하지 않는 값을 사용한다. 따라서 매일 데이터를 다시 계산하고 데이터베이스를 무의미하게 오버로드하는 것은 관련이 없습니다. 예를 들어 프로세스가 고객 성향 점수와 주별 구매 정보로 마케팅 데이터베이스를 보강하는 경우 이러한 값을 기반으로 하는 데이터를 매일 다시 계산할 필요가 없습니다.
 
-이렇게 하려면 **[!UICONTROL Frequency]** 필드 **[!UICONTROL General]** 탭에서는 타깃팅이 저장되는 최대 기간을 정의할 수 있습니다. 기본적으로 값은 **0** 일별 재중재의 다음 실행까지 계산이 유효함을 나타냅니다.
+이를 위해 **[!UICONTROL General]** 탭의 **[!UICONTROL Frequency]** 필드를 사용하면 타깃팅을 저장하는 최대 기간을 정의할 수 있습니다. 기본적으로 값 **0**&#x200B;은(는) 일별 재중재를 다음에 실행할 때까지 계산이 유효함을 나타냅니다.
 
-이 기간 이후의 결과를 저장하려면 다음에 12보다 큰 값을 입력합니다 **[!UICONTROL Frequency]** 필드: 이 기간이 만료되면 모든 규칙이 다시 적용됩니다.
+이 기간 이후의 결과를 저장하려면 **[!UICONTROL Frequency]** 필드에 12보다 큰 값을 입력하십시오. 이 기간이 만료되면 모든 규칙이 다시 적용됩니다.
 
-다음 **[!UICONTROL Re-apply the rule at the start of personalization]** 옵션을 사용하면 기간에 지정된 경우를 포함하여 개인화 단계 중에 규칙을 자동으로 적용할 수 있습니다. **[!UICONTROL Frequency]** 필드는 여전히 유효합니다.
+**[!UICONTROL Re-apply the rule at the start of personalization]** 옵션을 사용하면 **[!UICONTROL Frequency]** 필드에 지정된 기간이 여전히 유효한지 여부를 포함하여 개인화 단계 동안 규칙을 자동으로 적용할 수 있습니다.
 
 ## 규칙 적용 단계 선택 {#selecting-the-rule-application-phase}
 
@@ -90,13 +90,13 @@ ht-degree: 8%
 >
 >Campaign 상호 작용 모듈로 작업하는 경우 오퍼 자격 규칙은 필터링 규칙과 동시에 적용되거나(게재 개요에 있는 오퍼의 경우) 오퍼 엔진 호출 중에 개인화 단계 동안 적용됩니다.
 
-의 적절한 필드를 사용하여 유형이 동일한 규칙의 실행 순서를 조정할 수 있습니다. **[!UICONTROL General]** 규칙의 탭입니다. 동일한 메시지 처리 단계 동안 여러 규칙이 실행되면 **[!UICONTROL Execution sequence]** 필드.
+규칙의 **[!UICONTROL General]** 탭에 있는 적절한 필드를 사용하여 형식이 같은 규칙의 실행 순서를 조정할 수 있습니다. 동일한 메시지 처리 단계 동안 여러 규칙이 실행되면 **[!UICONTROL Execution sequence]** 필드에서 해당 실행 순서를 구성할 수 있습니다.
 
 예를 들어 실행 순서가 20인 압력 규칙은 실행 순서가 30인 압력 규칙 이전에 실행됩니다.
 
 ### 제어 규칙 {#control-rules}
 
-대상 **[!UICONTROL Control]** 규칙은 규칙을 적용할 게재 수명 주기 시점(타겟팅 전 또는 후, 개인화 시작 시, 분석 종료 시)을 결정할 수 있습니다. 의 드롭다운 목록에서 적용할 값을 선택합니다. **[!UICONTROL Phase]** 필드, **[!UICONTROL General]** 유형화 규칙의 탭입니다.
+**[!UICONTROL Control]** 규칙의 경우 규칙이 적용되는 게재 수명 주기의 시점을 결정할 수 있습니다(타겟팅 전 또는 후, 개인화 시작 시, 분석 종료 시). 유형화 규칙의 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL Phase]** 필드의 드롭다운 목록에서 적용할 값을 선택합니다.
 
 ![](assets/campaign_opt_define_control_phase.png)
 
@@ -124,22 +124,22 @@ ht-degree: 8%
 
 ### 발신 SMTP 트래픽 제어 {#control-outgoing-smtp-traffic}
 
-옵션으로 다음을 사용할 수 있습니다. **[!UICONTROL Managing affinities with IP addresses]** 이 선호도를 MTA(게재 서버)에 게재하기 위한 필드입니다. 이를 통해 시스템 또는 출력 주소에 대한 특정 게재에 대한 이메일 수를 제한할 수 있습니다.
+옵션으로 **[!UICONTROL Managing affinities with IP addresses]** 필드를 사용하여 이 선호도를 MTA(게재 서버)에 게재할 수 있습니다. 이를 통해 시스템 또는 출력 주소에 대한 특정 게재에 대한 이메일 수를 제한할 수 있습니다.
 
 ![](assets/campaign_opt_select_ip_affinity.png)
 
 >[!NOTE]
 >
->선호도 관리가 다음에 적용되지 않음 **[!UICONTROL Filtering]** 유형화.\
+>**[!UICONTROL Filtering]** 유형화에는 선호도 관리가 적용되지 않습니다.\
 >관심도는 Adobe Campaign 서버의 인스턴스 구성 파일에 정의됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../installation/using/about-initial-configuration.md)을 참조하십시오.
 
 ### 캠페인 최적화 및 분산 마케팅 {#campaign-optimization-and-distributed-marketing}
 
-다음 **[!UICONTROL Distributed Marketing]** 탭에서는 공유 캠페인이 주문 및/또는 예약될 때 적용되는 유형화 및/또는 규칙의 재매핑을 정의할 수 있습니다. 로컬 엔티티에 대해 정의된 유형화/규칙(중앙 엔티티에 대해 정의된 유형화와 연결)이 중앙 엔티티에 대해 연결된 규칙/유형화를 대체합니다. 다시 매핑을 사용하면 중앙 엔티티 규칙을 캠페인을 정렬하는 로컬 엔티티에 맞게 조정할 수 있습니다.
+**[!UICONTROL Distributed Marketing]** 탭에서는 공유 캠페인이 주문 및/또는 예약될 때 적용되는 유형화 및/또는 규칙의 다시 매핑을 정의할 수 있습니다. 로컬 엔티티에 대해 정의된 유형화/규칙(중앙 엔티티에 대해 정의된 유형화와 연결)이 중앙 엔티티에 대해 연결된 규칙/유형화를 대체합니다. 다시 매핑을 사용하면 중앙 엔티티 규칙을 캠페인을 정렬하는 로컬 엔티티에 맞게 조정할 수 있습니다.
 
 ![](assets/simu_campaign_opti_distrib_mkg.png)
 
 >[!NOTE]
 >
->유형화 및 유형화 규칙에서 **[!UICONTROL Distributed Marketing]** 라이센스에 이 옵션이 포함된 경우 탭이 추가됩니다. 사용권 계약을 확인하십시오.\
->분산 마케팅에 대한 자세한 내용은 [분산 마케팅 기본 정보](../../distributed/using/about-distributed-marketing.md).
+>라이선스에 다음 옵션이 포함된 경우 유형화 및 유형화 규칙에서 **[!UICONTROL Distributed Marketing]** 탭이 추가됩니다. 사용권 계약을 확인하십시오.\
+>분산 마케팅에 대한 자세한 내용은 [분산 마케팅 정보](../../distributed/using/about-distributed-marketing.md)를 참조하세요.

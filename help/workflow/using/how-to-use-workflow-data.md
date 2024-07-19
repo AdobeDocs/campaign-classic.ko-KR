@@ -23,27 +23,27 @@ ht-degree: 0%
 
 두 가지 전용 활동을 사용하여 Adobe Campaign 데이터베이스 및 기존 목록의 데이터를 업데이트할 수 있습니다.
 
-* 다음 **[!UICONTROL List update]** 활동을 사용하면 작업 테이블을 데이터 목록에 저장할 수 있습니다.
+* **[!UICONTROL List update]** 활동을 통해 작업 테이블을 데이터 목록에 저장할 수 있습니다.
 
   기존 목록을 선택하거나 만들 수 있습니다. 이 경우 이름과 레코드 폴더가 계산됩니다.
 
   ![](assets/s_user_create_list.png)
 
-  을(를) 참조하십시오 [목록 업데이트](list-update.md).
+  [목록 업데이트](list-update.md)를 참조하세요.
 
-* 다음 **[!UICONTROL Update data]** 활동은 데이터베이스의 필드에 대한 대량 업데이트를 수행합니다.
+* **[!UICONTROL Update data]** 활동에서는 데이터베이스의 필드에 대한 대량 업데이트를 수행합니다.
 
-  자세한 내용은 다음을 참조하십시오. [데이터 업데이트](update-data.md).
+  자세한 내용은 [데이터 업데이트](update-data.md)를 참조하세요.
 
 ### 구독/구독 취소 관리 {#subscription-unsubscription-management}
 
-워크플로우를 통해 정보 서비스에 수신자를 구독 및 구독 취소하는 방법에 대한 자세한 내용은 [구독 서비스](subscription-services.md).
+워크플로우를 통해 정보 서비스에 수신자를 구독 및 구독 취소하는 방법에 대한 자세한 내용은 [구독 서비스](subscription-services.md)를 참조하세요.
 
 ## 워크플로우를 통해 보내기 {#sending-via-a-workflow}
 
 ### 게재 활동 {#delivery-activity}
 
-게재 활동은에 자세히 설명되어 있습니다. [게재](delivery.md).
+게재 활동은 [게재](delivery.md)에 자세히 설명되어 있습니다.
 
 ### 게재 강화 및 타겟팅 {#enriching-and-targeting-deliveries}
 
@@ -57,12 +57,12 @@ ht-degree: 0%
 
 ![](assets/s_advuser_using_additional_data.png)
 
-워크플로우 테이블에 포함된 데이터는 항상 로 구성되어 있는 이름으로 식별됩니다. **targetData** 링크를 클릭합니다. 자세한 내용은 다음을 참조하십시오. [대상 데이터](data-life-cycle.md#target-data).
+워크플로 테이블에 포함된 데이터는 해당 이름으로 식별됩니다. 이 데이터는 항상 **targetData** 링크로 구성됩니다. 자세한 내용은 [대상 데이터](data-life-cycle.md#target-data)를 참조하세요.
 
 이메일 게재 프레임워크 내에서 개인화 필드는 아래 예와 같이 타겟팅 워크플로우 단계에서 수행된 타겟 확장의 데이터를 사용할 수도 있습니다.
 
 ![](assets/s_advuser_add_data_email.png)
 
-타깃팅 활동에 세그먼트 코드가 지정된 경우 워크플로우 테이블의 특정 열에 추가되고 개인화 필드와 함께 제공됩니다. 모든 개인화 필드를 표시하려면 **[!UICONTROL Target extension > Other...]** 개인화 버튼을 통해 액세스할 수 있는 링크입니다.
+타깃팅 활동에 세그먼트 코드가 지정된 경우 워크플로우 테이블의 특정 열에 추가되고 개인화 필드와 함께 제공됩니다. 모든 개인화 필드를 표시하려면 개인화 단추를 통해 액세스할 수 있는 **[!UICONTROL Target extension > Other...]** 링크를 클릭하십시오.
 
 ![](assets/s_advuser_segment_code_select.png)

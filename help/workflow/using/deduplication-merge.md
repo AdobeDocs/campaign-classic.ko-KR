@@ -16,11 +16,11 @@ ht-degree: 4%
 
 ## 이 활용 사례 정보 {#about-this-use-case}
 
-이 사용 사례에서는 **[!UICONTROL Merge]** 의 기능 **[!UICONTROL Deduplication]** 활동.
+이 사용 사례에서는 **[!UICONTROL Deduplication]** 활동에서 **[!UICONTROL Merge]** 기능을 사용하는 방법을 설명합니다.
 
-이 기능에 대한 자세한 내용은 [이 섹션](deduplication.md#merging-fields-into-single-record).
+이 기능에 대한 자세한 내용은 [이 섹션](deduplication.md#merging-fields-into-single-record)을 참조하세요.
 
-다음 **[!UICONTROL Deduplication]** 활동은 데이터 세트에서 중복 행을 제거하는 데 사용됩니다. 이 사용 사례에서는 아래에 표시된 데이터가 이메일 필드를 기반으로 복제됩니다.
+**[!UICONTROL Deduplication]** 활동은 데이터 집합에서 중복 행을 제거하는 데 사용됩니다. 이 사용 사례에서는 아래에 표시된 데이터가 이메일 필드를 기반으로 복제됩니다.
 
 | 마지막 수정일 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
 |-----|------------|-----------|-------|--------------|------|
@@ -28,24 +28,24 @@ ht-degree: 4%
 | 2020년 7월 22일 | 보비 | 티스너 | bob@mycompany.com | | 777-777-7777 |
 | 10/03/2020 | Bob |  | bob@mycompany.com | | 888-888-8888 |
 
-중복 제거 활동 사용 **[!UICONTROL Merge]** 구성 기능을 사용하면 중복 제거에 대한 규칙 세트를 구성하여 필드 그룹을 정의하여 단일 결과 데이터 레코드로 병합할 수 있습니다. 예를 들어 중복 레코드 집합이 있는 경우 가장 오래된 전화 번호나 가장 최근 이름을 유지하도록 선택할 수 있습니다.
+중복 제거 활동의 **[!UICONTROL Merge]** 특성을 사용하여 중복 제거에 대한 규칙 집합을 구성하여 단일 결과 데이터 레코드로 병합할 필드 그룹을 정의할 수 있습니다. 예를 들어 중복 레코드 집합이 있는 경우 가장 오래된 전화 번호나 가장 최근 이름을 유지하도록 선택할 수 있습니다.
 
 ## 병합 기능 활성화 {#activating-merge}
 
 
-병합 기능을 활성화하려면 먼저 다음을 구성해야 합니다 **[!UICONTROL Deduplication]** 활동. 이렇게 하려면 다음 단계를 수행합니다.
+병합 기능을 사용하려면 먼저 **[!UICONTROL Deduplication]** 활동을 구성해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 
-1. 활동을 연 다음 **[구성 편집]** 링크를 클릭합니다.
+1. 활동을 열고 **[구성 편집]** 링크를 클릭합니다.
 
-1. 중복 제거에 사용할 조정 필드를 선택한 다음 **[!UICONTROL Next]**. 이 예제에서는 이메일 필드를 기반으로 중복을 제거하려고 합니다.
+1. 중복 제거에 사용할 조정 필드를 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다. 이 예제에서는 이메일 필드를 기반으로 중복을 제거하려고 합니다.
 
    ![](assets/uc_merge_edit.png)
 
-1. 다음을 클릭합니다. **[!UICONTROL Advanced parameters]** 링크를 클릭한 다음 를 활성화합니다. **[!UICONTROL Merge records]** 및 **[!UICONTROL Use several record merging criteria]** 옵션.
+1. **[!UICONTROL Advanced parameters]** 링크를 클릭한 다음 **[!UICONTROL Merge records]** 및 **[!UICONTROL Use several record merging criteria]** 옵션을 활성화합니다.
 
    ![](assets/uc_merge_advanced_parameters.png)
 
-1. 다음 **[!UICONTROL Merge]** 탭이 다음에 추가됩니다. **[!UICONTROL Deduplication]** 구성 화면입니다. 이 탭을 사용하여 중복 제거를 수행할 때 병합할 데이터를 지정합니다.
+1. **[!UICONTROL Merge]** 탭이 **[!UICONTROL Deduplication]** 구성 화면에 추가됩니다. 이 탭을 사용하여 중복 제거를 수행할 때 병합할 데이터를 지정합니다.
 
 ## 병합할 필드 구성 {#configuring-rules}
 
@@ -58,7 +58,7 @@ ht-degree: 4%
 
 이러한 규칙을 구성하려면 다음 단계를 수행합니다.
 
-1. 를 엽니다. **[!UICONTROL Merge]** 탭을 클릭한 다음 **[!UICONTROL Add]** 단추를 클릭합니다.
+1. **[!UICONTROL Merge]** 탭을 열고 **[!UICONTROL Add]** 단추를 클릭합니다.
 
    ![](assets/uc_merge_add.png)
 
@@ -88,7 +88,7 @@ ht-degree: 4%
 
 ## 결과 {#results}
 
-이러한 규칙을 구성한 후, 다음 데이터가 **[!UICONTROL Deduplication]** 활동.
+이러한 규칙을 구성한 후 **[!UICONTROL Deduplication]** 활동이 끝날 때 다음 데이터가 수신됩니다.
 
 | 수정일 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
 |-----|------------|-----------|-------|--------------|------|

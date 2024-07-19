@@ -29,24 +29,24 @@ Apple의 새로운 기능은 이메일 개인 정보 보호 측면에서 업계�
 
 ### 캠페인 트리거에 미치는 영향 평가
 
-이러한 변경 사항이 현재 캠페인 트리거에 미치는 영향을 평가합니다. 이메일 열기가 세분화, 타겟팅 또는 재타겟팅의 기준으로 사용되는 워크플로우를 식별합니다. 읽기 [팁과 트릭](#find-email-open-tracking).
+이러한 변경 사항이 현재 캠페인 트리거에 미치는 영향을 평가합니다. 이메일 열기가 세분화, 타겟팅 또는 재타겟팅의 기준으로 사용되는 워크플로우를 식별합니다. [팁과 트릭](#find-email-open-tracking)을 읽어 보세요.
 
 ### 데이터 유지
 
-데이터를 보존하고 디바이스에 대한 현재 지식을 통합합니다. 사용자 에이전트에 대한 주요 성과 지표(KPI)의 기준을 지정할 수 있습니다. 예를 들어 iOS 및 Apple의 메일 앱을 사용하는 사람의 프로필에 대해 KPI를 작성할 수 있습니다. 읽기 [팁과 트릭](#preserve-tracking-data).
+데이터를 보존하고 디바이스에 대한 현재 지식을 통합합니다. 사용자 에이전트에 대한 주요 성과 지표(KPI)의 기준을 지정할 수 있습니다. 예를 들어 iOS 및 Apple의 메일 앱을 사용하는 사람의 프로필에 대해 KPI를 작성할 수 있습니다. [팁과 트릭](#preserve-tracking-data)을 읽어 보세요.
 
 ### 보존 기간 이후에 추적 로그 보관
 
 Adobe Campaign의 보존 기간 이후에 추적 로그를 보관합니다.
 
 1. 캠페인 인스턴스에서 보존 기간 기간을 확인합니다.
-1. 활성 대상 매핑을 다시 확인하십시오. 기본 제공 프로필 표(`nmsRecipient`).
+1. 활성 대상 매핑을 다시 확인하십시오. 기본 제공 프로필 테이블(`nmsRecipient`) 외에 사용자 지정 프로필 테이블을 사용할지 여부를 결정합니다.
 1. Adobe Campaign에서 추적 로그를 내보냅니다. 사용자 에이전트 및 운영 체제에 대한 데이터가 포함된 로그를 포함합니다.
 
 ### 현재 공개 비율 추세 평가
 
 iOS 장치에서 Apple의 메일 앱을 사용하는 대상자의 비율을 결정합니다.
-이 평가를 사용하여 잠재적인 예외적인 격차와 그 원인을 파악할 수 있습니다. 공백이 캠페인 성능 문제로 인한 것인지 Apple의 개인 정보 보호 기능으로 인한 것인지 확인할 수 있습니다. 읽기 [팁과 트릭](#measure-ios-footprint).
+이 평가를 사용하여 잠재적인 예외적인 격차와 그 원인을 파악할 수 있습니다. 공백이 캠페인 성능 문제로 인한 것인지 Apple의 개인 정보 보호 기능으로 인한 것인지 확인할 수 있습니다. [팁과 트릭](#measure-ios-footprint)을 읽어 보세요.
 
 ### 캠페인 전략 및 성과 지표 재평가
 
@@ -82,7 +82,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 이메일 열기가 세분화, 타겟팅 및 재타겟팅의 기준으로 사용되는 워크플로우를 식별할 수 있습니다.
 
-이렇게 하려면 다음을 사용할 수 있습니다 **[!UICONTROL type]** 추적된 링크 URL의 속성(**[!UICONTROL url/@type]**). 이메일 열기의 경우 이 속성은 로 설정됩니다. **[!UICONTROL Open]**. 이 속성은 쿼리 편집기에서 사용할 수 있습니다. **[!UICONTROL Query]** 워크플로우의 활동 및 사전 정의된 필터. 이 속성을 마케팅 캠페인에 대한 타겟팅 기준으로 사용할 수 있습니다.
+이렇게 하려면 추적된 링크 URL(**[!UICONTROL url/@type]**)의 **[!UICONTROL type]** 특성을 사용합니다. 전자 메일 열기의 경우 이 특성은 **[!UICONTROL Open]**(으)로 설정됩니다. 이 특성은 쿼리 편집기, 워크플로우의 **[!UICONTROL Query]** 활동 및 사전 정의된 필터에서 사용할 수 있습니다. 이 속성을 마케팅 캠페인에 대한 타겟팅 기준으로 사용할 수 있습니다.
 
 ![](assets/identify-email-open-tracking-1.png)
 
@@ -90,11 +90,11 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 * 쿼리에서 이메일 열기 를 타깃팅 기준으로 사용할 수 있습니다.
 
-  특정 게재의 추적 로그 URL 유형을 다음으로 설정해야 함을 필터링 조건으로 지정할 수 있습니다. **[!UICONTROL Open]**.
+  특정 게재의 추적 로그의 URL 유형을 **[!UICONTROL Open]**(으)로 설정해야 함을 필터링 조건으로 지정할 수 있습니다.
 
   ![](assets/identify-email-open-tracking-2.png)
 
-* 사전 정의된 필터를 사용할 수 있습니다. [자세히 알아보기](../../workflow/using/creating-a-filter.md)
+* 사전 정의된 필터를 사용할 수 있습니다. [자세히 알아보기](../../workflow/using/creating-a-filter.md).
 
   ![](assets/identify-email-open-tracking-3.png)
 
@@ -106,7 +106,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
   >
   >워크플로우에서는 사전 정의된 필터의 타겟팅 기준을 볼 수 없습니다.
 
-이메일이 타겟팅 기준으로 사용되는 워크플로우 목록을 검색하려면 `xtk:workflow` 스키마. 워크플로우의 콘텐츠는 **[!UICONTROL XML memo (data)]** XML 형식의 필드입니다.
+전자 메일 열기가 타겟팅 기준으로 사용되는 워크플로우 목록을 검색하려면 `xtk:workflow` 스키마를 쿼리해야 합니다. 워크플로우의 콘텐츠는 XML 형식의 **[!UICONTROL XML memo (data)]** 필드에 저장됩니다.
 
 ![](assets/identify-email-open-tracking-5.png)
 
@@ -114,7 +114,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 `expr="[url/@type] = 2"`
 
-이 타겟팅 기준은 추적된 URL의 유형을 로 설정해야 함을 의미합니다 **[!UICONTROL Open]**.
+이 타깃팅 기준은 추적된 URL의 유형을 **[!UICONTROL Open]**(으)로 설정해야 함을 의미합니다.
 
 ![](assets/identify-email-open-tracking-6.png)
 
@@ -139,13 +139,13 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 >
 >비프로덕션 환경에서 이 패키지를 테스트하고 확인하는 것이 좋습니다.
 
-다운로드 [샘플 패키지](assets/PKG_Search_workflows_using_Opens_in_queries_V1.xml) 설치 [자세히 알아보기](../../platform/using/working-with-data-packages.md#importing-packages)
+[샘플 패키지](assets/PKG_Search_workflows_using_Opens_in_queries_V1.xml)를 다운로드하고 설치하십시오. [자세히 알아보기](../../platform/using/working-with-data-packages.md#importing-packages).
 
 패키지를 설치한 후에는 인스턴스에 기본 제공 기술 워크플로우가 포함된 폴더에서 워크플로우에 액세스할 수 있습니다.
 
 `/Administration/Production/Technical workflows/nmsTechnicalWorkflow`
 
-사용자 인터페이스에서 을(를) 선택합니다 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
+사용자 인터페이스에서 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**&#x200B;을(를) 선택합니다.
 
 ![](assets/identify-email-open-tracking-8.png)
 
@@ -159,7 +159,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 워크플로우는 다음과 같은 세부 단계로 구성됩니다.
 
-1. 초기 활동은 의 쿼리 활동입니다 `xtk:workflow` 스키마. 이 활동은 인스턴스에서 타겟팅 기준으로 이메일을 포함하는 명시적 워크플로우 쿼리를 찾는 데 사용됩니다.
+1. 초기 활동은 `xtk:workflow` 스키마의 쿼리 활동입니다. 이 활동은 인스턴스에서 타겟팅 기준으로 이메일을 포함하는 명시적 워크플로우 쿼리를 찾는 데 사용됩니다.
 
    ![](assets/identify-email-open-tracking-9.png)
 
@@ -340,11 +340,11 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 >[!IMPORTANT]
 >
->다음 예제는 기본 제공 기능에 중점을 둡니다 `nms:Recipient` 스키마(기본 프로필 스키마) 사용자 지정 프로필에 첨부된 추가 사용자 지정 대상 매핑을 사용하는 경우 이 내보내기 전략을 모든 사용자 지정 로그 표로 확장하는 것이 좋습니다. [자세히 보기](../../configuration/using/target-mapping.md).
+>다음 예제에서는 기본 프로필 스키마인 기본 `nms:Recipient` 스키마에 중점을 둡니다. 사용자 지정 프로필에 첨부된 추가 사용자 지정 대상 매핑을 사용하는 경우 이 내보내기 전략을 모든 사용자 지정 로그 표로 확장하는 것이 좋습니다. [자세히 보기](../../configuration/using/target-mapping.md).
 
 ##### 원칙
 
-기본적으로 `nms:Recipient` 스키마가 엑스포트해야 하는 세 개의 스키마에 연결되어 있습니다.
+기본적으로 `nms:Recipient` 스키마는 내보내야 하는 세 개의 스키마에 연결되어 있습니다.
 
 | 스키마 | 콘텐츠 |
 | --- | --- |
@@ -382,11 +382,11 @@ Adobe Campaign에서 지원하는 외부 스토리지 솔루션으로 결과를 
    초기 쿼리는 지난 3개월 동안의 추적 로그를 검색하는 데 사용됩니다.
 증분 쿼리를 사용하여 아직 내보내지 않은 레코드만 추출할 수 있습니다.
 
-   에서 필요한 모든 정보를 추가합니다. **[!UICONTROL Additional data]** 노드.
+   **[!UICONTROL Additional data]** 노드에서 필요한 모든 정보를 추가합니다.
 
    ![](assets/export-tracking-data-2.png)
 
-1. 추가 **[!UICONTROL Data extraction (file)]** 활동. 쿼리의 모든 데이터를 추출 파일 형식에 매핑합니다.
+1. **[!UICONTROL Data extraction (file)]** 활동을 추가합니다. 쿼리의 모든 데이터를 추출 파일 형식에 매핑합니다.
 
    ![](assets/export-tracking-data-3.png)
 
@@ -425,14 +425,14 @@ Adobe Campaign에서 지원하는 외부 스토리지 솔루션으로 결과를 
 
 * 첫 번째 예제 워크플로우는 다음 활동으로 구성됩니다.
 
-   1. 초기 **[!UICONTROL Query]** 활동은 지난 3개월 동안 열린 모든 이메일을 선택하는 데 사용됩니다.
-   1. A **[!UICONTROL Split]** 활동은 이메일 애플리케이션, 브라우저, 운영 체제 및 장치별로 선택 항목을 분할하는 데 사용됩니다.
+   1. 초기 **[!UICONTROL Query]** 활동은 지난 3개월 동안 열린 모든 전자 메일을 선택하는 데 사용됩니다.
+   1. **[!UICONTROL Split]** 활동은 전자 메일 응용 프로그램, 브라우저, 운영 체제 및 장치별로 선택 항목을 분할하는 데 사용됩니다.
 
-   1. A **[!UICONTROL Deduplication]** 활동은 다음을 따릅니다. **[!UICONTROL Split]** 활동. 다음 **[!UICONTROL Deduplication]** 활동은 중복 이메일 주소를 제거하는 데 사용됩니다.
+   1. **[!UICONTROL Deduplication]** 활동은 각 **[!UICONTROL Split]** 활동 뒤에 옵니다. **[!UICONTROL Deduplication]** 활동은 중복 전자 메일 주소를 제거하는 데 사용됩니다.
 
-      다음 **[!UICONTROL Deduplication]** 활동은 다음 뒤에 배치됩니다. **[!UICONTROL Split]** 다양한 장치를 사용하는 수신자에 대한 정보가 손실되지 않도록 하는 활동.
+      **[!UICONTROL Deduplication]** 활동은 다양한 장치를 사용하는 수신자에 대한 정보가 손실되지 않도록 **[!UICONTROL Split]** 활동 뒤에 배치됩니다.
 
-   1. An **[!UICONTROL End]** 활동은 다음을 따릅니다. **[!UICONTROL Deduplication]** 활동.
+   1. **[!UICONTROL End]** 활동은 각 **[!UICONTROL Deduplication]** 활동 뒤에 옵니다.
 
   이 유형의 워크플로우는 타깃팅할 기본 제공 수신자 표에만 수신자를 저장하는 경우에 유용합니다.
 
@@ -440,14 +440,14 @@ Adobe Campaign에서 지원하는 외부 스토리지 솔루션으로 결과를 
 
 * 두 번째 예제 워크플로우는 다음 활동으로 구성됩니다.
 
-   1. 초기 **[!UICONTROL Query]** 활동은 지난 3개월 동안 열린 모든 이메일을 선택하는 데 사용됩니다.
-   1. A **[!UICONTROL Deduplication]** 활동은 중복 이메일 주소를 제거하는 데 사용됩니다.
-   1. A **[!UICONTROL Fork]** 활동이 사용됩니다.
+   1. 초기 **[!UICONTROL Query]** 활동은 지난 3개월 동안 열린 모든 전자 메일을 선택하는 데 사용됩니다.
+   1. **[!UICONTROL Deduplication]** 활동은 중복 전자 메일 주소를 제거하는 데 사용됩니다.
+   1. **[!UICONTROL Fork]** 활동이 사용됨:
 
-      * 한 번의 전환에서 **[!UICONTROL Change dimension]** 활동은 추적 로그가 참조하는 수신자를 찾는 데 사용됩니다.
-      * 다른 전환에서는 **[!UICONTROL Split]** 활동은 이메일 애플리케이션, 브라우저, 운영 체제 및 장치별로 선택 항목을 분할하는 데 사용됩니다.
+      * 한 전환에서 **[!UICONTROL Change dimension]** 활동은 추적 로그가 참조하는 수신자를 찾는 데 사용됩니다.
+      * 다른 전환에서는 **[!UICONTROL Split]** 활동을 사용하여 전자 메일 응용 프로그램, 브라우저, 운영 체제 및 장치별로 선택 항목을 분할합니다.
 
-   1. An **[!UICONTROL End]** 활동은 다음의 각 전환을 따릅니다. **[!UICONTROL Split]** 활동.
+   1. **[!UICONTROL End]** 활동은 **[!UICONTROL Split]** 활동 이후의 각 전환을 따릅니다.
 
   이 유형의 워크플로우는 기본 수신자 테이블 이외의 테이블에 수신자를 저장하는 경우에 유용합니다.
 

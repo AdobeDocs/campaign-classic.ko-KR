@@ -23,8 +23,8 @@ Adobe Campaign 인터페이스에서 새 수신자 테이블을 보고 대화 �
 
 Adobe Campaign은 &quot;Nms_DefaultRcpSchema&quot; 전역 변수를 사용하여 기본 수신자 데이터베이스(nms:recipient)와 대화를 나눕니다. 따라서 이 변수를 변경해야 합니다.
 
-1. 로 이동 **[!UICONTROL Administration>Platform>Options]** 탐색기의 노드입니다.
-1. 값 변경 **Nms_DefaultRcpSchema** 외부 수신자 테이블과 일치하는 스키마 이름의 변수입니다(이 경우 cus:individual).
+1. 탐색기의 **[!UICONTROL Administration>Platform>Options]** 노드로 이동합니다.
+1. **Nms_DefaultRcpSchema** 변수의 값을 외부 수신자 테이블과 일치하는 스키마 이름으로 변경합니다(이 경우 cus:individual).
 1. 변경 사항을 저장합니다.
 
 ## 새 양식 만들기 {#creating-a-new-form-}
@@ -35,15 +35,15 @@ Adobe Campaign은 &quot;Nms_DefaultRcpSchema&quot; 전역 변수를 사용하여
 >
 >양식 이름은 관련된 스키마의 이름과 동일해야 합니다.
 
-1. 로 이동 **관리 > 구성 > 입력 양식** 탐색기의 노드입니다.
-1. 새로 만들기 **xtk:form** 유형 **양식** 파일.
+1. 탐색기의 **관리 > 구성 > 입력 양식** 노드로 이동합니다.
+1. 새 **xtk:form** 형식 **form** 파일을 만듭니다.
 1. 테이블 템플릿에 따라 필요한 모든 모니터링 및 필드를 설명합니다.
 
    >[!NOTE]
    >
-   >에 대해 자세히 알아보려면 **양식** 파일 입력, 참조 [이 페이지](../../configuration/using/identifying-a-form.md).
+   >**양식** 형식 파일에 대한 자세한 내용은 [이 페이지](../../configuration/using/identifying-a-form.md)를 참조하세요.
 
-   현재 예제에서는 **양식** 파일은 다음을 기반으로 해야 합니다. **cus:individual** 스키마이므로 다음 레이아웃이 있습니다.
+   현재 예제에서 **form** 파일은 **cus:individual** 스키마를 기반으로 해야 하므로 다음 레이아웃이 있어야 합니다.
 
    ```
    <container colspan="2">
@@ -62,15 +62,15 @@ Adobe Campaign은 &quot;Nms_DefaultRcpSchema&quot; 전역 변수를 사용하여
 
 ## 탐색 계층에 새 유형의 폴더 만들기 {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
 
-1. 로 이동 **[!UICONTROL Administration>Configuration>Navigation hierarchies]** 노드.
-1. 새로 만들기 **xtk:navtree** 유형 **탐색** 문서.
+1. **[!UICONTROL Administration>Configuration>Navigation hierarchies]** 노드로 이동합니다.
+1. 새 **xtk:navtree** 형식 **navtree** 문서를 만드십시오.
 1. 테이블 템플릿에 따라 필요한 모든 모니터링 및 필드를 설명합니다.
 
    >[!NOTE]
    >
-   >에 대한 자세한 내용 **탐색** 파일 입력, 참조 [이 페이지](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
+   >**navtree** 형식 파일에 대한 자세한 내용은 [이 페이지](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy)를 참조하세요.
 
-   현재 예제에서는 **탐색** 파일은 다음을 기반으로 해야 합니다. **cus:individual** 스키마이므로 다음 형식을 갖습니다.
+   현재 예제에서 **navtree** 파일은 **cus:individual** 스키마를 기반으로 해야 하므로 다음 형식을 사용해야 합니다.
 
    ```
     <model name="root">

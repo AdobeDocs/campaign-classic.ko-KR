@@ -17,16 +17,16 @@ ht-degree: 7%
 
 개인화가 포함된 이메일 콘텐츠의 링크는 추적할 특정 구문이 필요합니다.
 
-이메일 콘텐츠(HTML 또는 텍스트)에서 JavaScript를 사용하면 두 가지 제한 사항을 포함하여 다이내믹 콘텐츠를 생성하여 수신자에게 보낼 수 있습니다.
+이메일 콘텐츠(HTML 또는 텍스트)에서 JavaScript을 사용하면 두 가지 제한 사항을 포함하여 다이내믹 콘텐츠를 생성하여 수신자에게 보낼 수 있습니다.
 
 * 스크립트는 데이터베이스에 직접 액세스할 수 없습니다(SQL 함수 및 API 함수를 사용할 수 없음).
 * 링크를 추적할 수 있도록 Adobe Campaign에서 URL을 감지할 수 있어야 합니다. [자세히 알아보기](detecting-tracking-urls.md)
 
 특정 전처리 명령을 추가하여 URL을 스크립팅하고 추적할 수 있습니다. [자세히 알아보기](pre-processing-instructions.md)
 
-추적 검색을 위해 Adobe Campaign이 임베드됨 [단정해](https://www.html-tidy.org/) HTML 소스를 구문 분석하고 패턴을 감지합니다. 콘텐츠의 모든 URL을 나열하므로 개별적으로 추적할 수 있습니다. Adobe Campaign은 Tidy를 다시 사용하여 URL( )을 바꿉니다.`http://myurl.com`)를 사용하여 Adobe Campaign 리디렉션 서버를 지정합니다.
+추적 검색을 위해 Adobe Campaign은 [Tidy](https://www.html-tidy.org/)을 임베드하여 HTML 소스를 구문 분석하고 패턴을 감지합니다. 콘텐츠의 모든 URL을 나열하므로 개별적으로 추적할 수 있습니다. Adobe Campaign은 Tidy를 다시 사용하여 URL(`http://myurl.com`)을 Adobe Campaign 리디렉션 서버를 가리키는 URL로 바꿉니다.
 
-예를 들어 초기 콘텐츠에서 다음을 수행합니다. `http://myurl.com/a.php?name=<%=escapeUrl(recipient.lastName)%>` 은(는) 특정 수신자 한 명에 대해 다음으로 대체됩니다. `http://emailing.customer.com/r/?id=h617791,71ffa3,71ffa8&p1=CustomerName`
+예를 들어 초기 콘텐츠에서 `http://myurl.com/a.php?name=<%=escapeUrl(recipient.lastName)%>`은(는) `http://emailing.customer.com/r/?id=h617791,71ffa3,71ffa8&p1=CustomerName`(으)로 한 특정 수신자에 대해 대체됩니다.
 
 위치:
 

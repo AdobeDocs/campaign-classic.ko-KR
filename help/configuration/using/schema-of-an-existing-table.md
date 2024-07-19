@@ -28,8 +28,8 @@ ht-degree: 7%
 
 해당 스키마를 생성하려면 다음 단계를 적용합니다.
 
-1. 편집 **[!UICONTROL Administration>Configuration>Data schemas]** Adobe Campaign 트리의 노드 및 클릭 **[!UICONTROL New]** .
-1. 다음 항목 선택 **[!UICONTROL Access data from an existing table or an SQL view]** 옵션 및 클릭 **[!UICONTROL Next]** .
+1. Adobe Campaign 트리의 **[!UICONTROL Administration>Configuration>Data schemas]** 노드를 편집하고 **[!UICONTROL New]** 을(를) 클릭합니다.
+1. **[!UICONTROL Access data from an existing table or an SQL view]** 옵션을 선택하고 **[!UICONTROL Next]** 을(를) 클릭합니다.
 
    ![](assets/s_ncs_configuration_extand_a_schema.png)
 
@@ -41,9 +41,9 @@ ht-degree: 7%
 
    ![](assets/s_ncs_configuration_view_create_schema.png)
 
-   스키마는에서 view=&quot;true&quot; 속성으로 채워야 합니다. `<srcSchema>` 테이블 생성 SQL 스크립트를 생성하지 않기 위한 루트 요소입니다.
+   테이블 생성 SQL 스크립트를 생성하지 않으려면 `<srcSchema>` 루트 요소에서 view=&quot;true&quot; 특성으로 스키마를 채워야 합니다.
 
-**예** :
+**예**:
 
 ```
 <srcSchema name="recipient" namespace="cus" view="true">
@@ -58,6 +58,6 @@ ht-degree: 7%
 
 ## 외부 데이터베이스 액세스 {#accessing-an-external-database}
 
-다음 **페더레이션 데이터 액세스 - FDA** 옵션을 사용하면 외부 데이터베이스에 저장된 데이터에 액세스할 수 있습니다.
+**페더레이션 데이터 액세스 - FDA** 옵션을 사용하면 외부 데이터베이스에 저장된 데이터에 액세스할 수 있습니다.
 
-스키마에서 외부 데이터베이스의 데이터에 액세스하기 위해 전달될 구성에 대해 자세히 설명합니다. [이 페이지](../../installation/using/creating-data-schema.md).
+외부 데이터베이스의 데이터에 액세스하기 위해 스키마에 포함할 구성이 [이 페이지](../../installation/using/creating-data-schema.md)에 자세히 설명되어 있습니다.

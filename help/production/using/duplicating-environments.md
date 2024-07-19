@@ -37,13 +37,13 @@ Adobe Campaign을 사용하려면 개발, 테스트, 사전 프로덕션, 프로
 
 1. 소스 환경의 모든 인스턴스에 데이터베이스 복사본을 만듭니다.
 1. 타겟 환경의 모든 인스턴스에서 이러한 복사본을 복원합니다.
-1. 실행 **nms:freezeInstance.js** 시작하기 전에 대상 환경에 대한 소작술 스크립트.
+1. 시작하기 전에 대상 환경에서 **nms:freezeInstance.js** 소작 스크립트를 실행하십시오.
 
    이 프로세스는 서버와 서버 구성에 영향을 주지 않습니다.
 
    >[!NOTE]
    >
-   >Adobe Campaign의 컨텍스트에서 **소작술** 는 로그, 추적, 게재, 캠페인 워크플로우 등과 같이 외부와 상호 작용하는 모든 프로세스를 중지할 수 있는 작업을 결합합니다.\
+   >Adobe Campaign의 컨텍스트에서 **설명**&#x200B;은(는) 로그, 추적, 게재, 캠페인 워크플로 등과 같이 외부와 상호 작용하는 모든 프로세스를 중지할 수 있는 작업을 결합합니다.\
    >이 단계는 메시지를 여러 번(명목 환경에서 한 번, 중복 환경에서 한 번) 배달하지 않도록 하는 데 필요합니다.
 
    >[!IMPORTANT]
@@ -63,14 +63,14 @@ Adobe Campaign을 사용하려면 개발, 테스트, 사전 프로덕션, 프로
 
 ### 전송 절차 {#transfer-procedure}
 
-이 섹션은 사례 연구를 통해 소스 환경을 타겟 환경으로 전송하는 데 필요한 단계를 이해하는 데 도움이 됩니다. 여기의 목표는 프로덕션 환경을 복원하는 것입니다. (**prod** 인스턴스)를 개발 환경(**개발** 인스턴스)를 사용하여 &#39;라이브&#39; 플랫폼에 최대한 가까운 컨텍스트에서 작업할 수 있습니다.
+이 섹션은 사례 연구를 통해 소스 환경을 대상 환경으로 전송하는 데 필요한 단계를 이해하는 데 도움이 됩니다. 여기서의 목표는 프로덕션 환경(**prod** 인스턴스)을 개발 환경(**dev** 인스턴스)으로 복원하여 &#39;라이브&#39; 플랫폼에 최대한 가까운 컨텍스트에서 작동하는 것입니다.
 
 다음 단계는 주의해서 수행해야 합니다. 소스 환경 데이터베이스를 복사할 때 일부 프로세스가 계속 진행 중일 수 있습니다. 소작(아래 3단계)은 메시지가 두 번 전송되지 않도록 하고 데이터 일관성을 유지합니다.
 
 >[!IMPORTANT]
 >
 >* 다음 프로시저는 PostgreSQL 언어로 유효합니다. SQL 언어가 다른 경우(예: Oracle) SQL 쿼리를 조정해야 합니다.
->* 아래 명령은 컨텍스트 내에서 적용됩니다. **prod** 인스턴스 및 a **개발** PostgreSQL 아래에 있는 인스턴스입니다.
+>* 아래 명령은 PostgreSQL 아래의 **prod** 인스턴스 및 **dev** 인스턴스의 컨텍스트에서 적용됩니다.
 >
 
 ### 1단계 - 소스 환경(prod) 데이터 백업 {#step-1---make-a-backup-of-the-source-environment--prod--data}
@@ -89,14 +89,14 @@ pg_dump mydatabase > mydatabase.sql
 
 대부분의 구성 요소는 외부 계정(중간 소싱, 라우팅 등), 기술 옵션(플랫폼 이름, DatabaseId, 이메일 주소 및 기본 URL 등)마다 다릅니다.
 
-대상 데이터베이스에 소스 데이터베이스를 저장하기 전에 대상 환경(개발) 구성을 내보내야 합니다. 이렇게 하려면 다음 두 테이블의 내용을 내보냅니다. **xtkoption** 및 **nmsextaccount**.
+대상 데이터베이스에 소스 데이터베이스를 저장하기 전에 대상 환경(개발) 구성을 내보내야 합니다. 이렇게 하려면 **xtkoption** 및 **nmsextaccount** 테이블의 내용을 내보냅니다.
 
 이 내보내기를 사용하면 개발 구성을 유지하고 개발 데이터(워크플로우, 템플릿, 웹 애플리케이션, 수신자 등)만 새로 고칠 수 있습니다.
 
 이렇게 하려면 다음 두 요소에 대해 패키지 내보내기를 수행합니다.
 
-* 내보내기 **xtk:option** 내부 이름이 &#39;WdbcTimeZone&#39;, &#39;NmsServer_LastPostUpgrade&#39; 및 &#39;NmsBroadcast_RegexRules&#39;인 레코드가 없는 &#39;options_dev.xml&#39; 파일로 테이블을 만듭니다.
-* &#39;extaccount_dev.xml&#39; 파일에서 **nms:extAccount** ID가 0이 아닌 모든 레코드의 테이블(@id &lt;> 0).
+* 내부 이름이 &#39;WdbcTimeZone&#39;, &#39;NmsServer_LastPostUpgrade&#39; 및 &#39;NmsBroadcast_RegexRules&#39;인 레코드 없이 **xtk:option** 테이블을 &#39;options_dev.xml&#39; 파일로 내보냅니다.
+* &#39;extaccount_dev.xml&#39; 파일에서 ID가 0이 아닌 모든 레코드(@id &lt;> 0)에 대해 **nms:extAccount** 테이블을 내보냅니다.
 
 내보낸 옵션/계정의 수가 각 파일에서 내보낼 라인 수와 같은지 확인합니다.
 
@@ -138,14 +138,14 @@ nlserver pdump
 
 >[!NOTE]
 >
->Windows에서는 **물갈퀴띠** 프로세스는 다른 작업에 영향을 주지 않고 계속 활성 상태일 수 있습니다.
+>Windows에서는 다른 작업에 영향을 주지 않고 **webmdl** 프로세스를 계속 활성화할 수 있습니다.
 
 아직 실행 중인 시스템 프로세스가 없는지 확인할 수도 있습니다.
 
 이렇게 하려면 다음 프로세스를 사용합니다.
 
-* Windows에서: **작업 관리자** 및 이(가) 없는지 확인 **nlserver.exe** 프로세스.
-* Linux에서: **ps aux | grep nlserver** 가 없는지 명령 및 확인 **nlserver** 프로세스.
+* Windows에서 **작업 관리자**&#x200B;를 열고 **nlserver.exe** 프로세스가 없는지 확인합니다.
+* Linux에서: **ps 보조 실행 | grep nlserver** 명령과 **nlserver** 프로세스가 없는지 확인합니다.
 
 ### 4단계 - 대상 환경(개발)에서 데이터베이스 복원 {#step-4---restore-the-databases-in-the-target-environment--dev-}
 
@@ -192,9 +192,9 @@ nlserver javascript nms:freezeInstance.js -instance:<dev> -arg:run
 
 >[!NOTE]
 >
->에서 Adobe Campaign을 다시 시작하기 전에 **개발** 환경에서 추가 안전 절차를 적용할 수 있습니다. **웹** 모듈만 해당됩니다.
+>**dev** 환경에서 Adobe Campaign을 다시 시작하기 전에 추가 안전 절차를 적용할 수 있습니다. **web** 모듈만 시작합니다.
 >  
->이렇게 하려면 인스턴스의 구성 파일(**config-dev.xml**)를 입력한 다음 각 모듈(mta, stat 등)에 대한 autoStart=&quot;true&quot; 옵션 앞에 &quot;_&quot; 문자를 추가합니다.
+>이렇게 하려면 인스턴스의 구성 파일(**config-dev.xml**)을 편집한 다음 각 모듈(mta, stat 등)의 autoStart=&quot;true&quot; 옵션 앞에 &quot;_&quot; 문자를 추가합니다.
 
 다음 명령을 실행하여 웹 프로세스를 시작합니다.
 
@@ -223,11 +223,11 @@ nlserver pdump
 1. 데이터베이스의 Admin Console을 열고 ID가 0이 아닌 외부 계정(테이블 nms:extAccount)을 제거합니다(@id &lt;> 0).
 1. Adobe Campaign 콘솔에서 패키지 가져오기 기능을 통해 이전에 만든 options_dev.xml 패키지를 가져옵니다.
 
-   옵션이에서 실제로 업데이트되었는지 확인합니다. **[!UICONTROL Administration > Platform > Options]** 노드.
+   **[!UICONTROL Administration > Platform > Options]** 노드에서 옵션이 업데이트되었는지 확인합니다.
 
 1. Adobe Campaign 콘솔에서 패키지 가져오기 기능을 통해 이전에 만든 extaccount_dev.xml을 가져옵니다
 
-   에서 외부 데이터베이스를 실제로 가져왔는지 확인합니다. **[!UICONTROL Administration > Platform > External accounts]** .
+   외부 데이터베이스를 **[!UICONTROL Administration > Platform > External accounts]**&#x200B;에서 가져왔는지 확인하십시오.
 
 ### 9단계 - 모든 프로세스 다시 시작 및 사용자 변경(개발) {#step-9---restart-all-processes-and-change-users--dev-}
 

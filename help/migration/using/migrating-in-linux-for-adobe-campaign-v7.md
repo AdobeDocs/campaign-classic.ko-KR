@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Linux의 마이그레이션 단계는 다음과 같습니다.
 
-1. 모든 서비스 중지 - [자세히 알아보기](#service-stop).
-1. 데이터베이스 저장 - [자세히 알아보기](#back-up-the-database).
-1. 이전 Adobe Campaign 버전 패키지 제거 - [자세히 알아보기](#uninstalling-adobe-campaign-previous-version-packages).
+1. 모든 서비스를 중지합니다. - [자세히 알아보기](#service-stop).
+1. 데이터베이스를 저장합니다. [자세히 알아보기](#back-up-the-database).
+1. 이전 Adobe Campaign 버전 패키지를 제거합니다. [자세히 알아보기](#uninstalling-adobe-campaign-previous-version-packages).
 1. 플랫폼 마이그레이션 - [자세히 알아보기](#deploying-adobe-campaign-v7).
 1. 서비스 다시 시작 - [자세히 알아보기](#re-starting-services).
 
@@ -32,14 +32,14 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 
 먼저, 관련된 모든 시스템의 데이터베이스에 액세스할 수 있는 모든 프로세스를 중지합니다.
 
-1. 다음으로 로그인 **루트**.
-1. 리디렉션 모듈을 사용하는 모든 서버(**물갈퀴띠** 서비스)를 중지해야 합니다. Apache의 경우 다음 명령을 실행합니다.
+1. **root**(으)로 로그인합니다.
+1. 리디렉션 모듈(**webmdl** 서비스)을 사용하는 모든 서버를 중지해야 합니다. Apache의 경우 다음 명령을 실행합니다.
 
    ```
    /etc/init.d/apache2 stop
    ```
 
-1. 다음으로 다시 로그인 **루트**.
+1. **root**(으)로 다시 로그인합니다.
 1. 모든 서버에서 Adobe Campaign 이전 버전 서비스를 중지합니다.
 
    ```
@@ -156,7 +156,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 -->
 
 1. Adobe Campaign 데이터베이스를 백업합니다.
-1. 다음으로 로그인 **Neolane** 다음을 백업합니다. **nl6** 다음 명령을 사용하는 디렉토리:
+1. **neolane**(으)로 로그인하고 다음 명령을 사용하여 **nl6** 디렉터리를 백업합니다.
 
    ```
    su - neolane
@@ -165,7 +165,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 
    >[!IMPORTANT]
    >
-   >예방 차원에서 다음을 압축하는 것이 좋습니다. **nl6.back** 폴더를 만들고 서버 이외의 안전한 위치에 저장합니다.
+   >따라서 **nl6.back** 폴더를 압축하여 서버가 아닌 안전한 위치에 저장하는 것이 좋습니다.
 
 ## Adobe Campaign 이전 버전 패키지 제거 {#uninstalling-adobe-campaign-previous-version-packages}
 
@@ -213,10 +213,10 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 
 이 섹션에서는 Adobe Campaign v6.1 패키지를 제거하는 방법을 보여줍니다.
 
-1. 다음으로 로그인 **루트**.
+1. **root**(으)로 로그인합니다.
 1. 다음 명령을 사용하여 설치된 Adobe Campaign 패키지를 식별합니다.
 
-   * 위치 **데비안**:
+   * **Debian**&#x200B;에서:
 
      ```
      dpkg -l | grep nl
@@ -229,7 +229,7 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
      ii  nlthirdparty6                   XXXX                     nlthirdparty6-XXXX
      ```
 
-   * 위치 **Red Hat**:
+   * **Red Hat**&#x200B;에서:
 
      ```
      rpm -qa | grep nl
@@ -237,13 +237,13 @@ Linux의 마이그레이션 단계는 다음과 같습니다.
 
 1. Adobe Campaign v6 패키지를 제거합니다.
 
-   * 위치 **데비안**:
+   * **Debian**&#x200B;에서:
 
      ```
      dpkg --purge nlserver6 nlthirdparty6
      ```
 
-   * 위치 **Red Hat**:
+   * **Red Hat**&#x200B;에서:
 
      ```
      rprm -ev nlserver6 nlthirdparty6
@@ -473,13 +473,13 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
 
 1. 다음 명령을 사용하여 최신 Adobe Campaign v7 패키지를 설치합니다.
 
-   * 위치 **데비안**:
+   * **Debian**&#x200B;에서:
 
      ```
      dpkg -i nlserver6-XXXX-amd64_debX.deb
      ```
 
-   * 위치 **Red Hat**:
+   * **Red Hat**&#x200B;에서:
 
      ```
      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
@@ -491,7 +491,7 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
 
    >[!NOTE]
    >
-   >Adobe Campaign v7이 설치된에 **/usr/local/neolane/nl6/** 기본적으로 디렉터리입니다.
+   >Adobe Campaign v7은 기본적으로 **/usr/local/neolane/nl6/** 디렉터리에 설치됩니다.
 
 1. 클라이언트 콘솔 설치 프로그램을 사용할 수 있도록 하려면 다음 명령을 사용하여 Adobe Campaign 설치 디렉토리에 복사합니다.
 
@@ -501,9 +501,9 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
 
    >[!NOTE]
    >
-   >Linux에서 Adobe Campaign을 설치하는 방법에 대한 자세한 내용은 [이 섹션](../../installation/using/installing-campaign-standard-packages.md).
+   >Linux에서 Adobe Campaign을 설치하는 방법에 대한 자세한 내용은 [이 섹션](../../installation/using/installing-campaign-standard-packages.md)을 참조하세요.
 
-1. 로 이동 **nl6.back** 폴더를 백업하고 각 인스턴스의 구성 파일 및 하위 폴더를 복사(덮어쓰기)합니다. 다음으로 로그인 **Neolane** 다음 명령을 실행합니다.
+1. **nl6.back** 백업 폴더로 이동하여 각 인스턴스의 구성 파일 및 하위 폴더를 복사(덮어쓰기)합니다. **neolane**(으)로 로그인하고 다음 명령을 실행합니다.
 
    ```
    su - neolane
@@ -520,7 +520,7 @@ Adobe Campaign을 배포하려면 다음 단계를 적용합니다.
    nlserver config -reload
    ```
 
-1. 다음 명령을 사용하여 업그레이드 후 프로세스를 시작합니다( 계속 **Neolane**):
+1. 다음 명령(**neolane**)을 사용하여 업그레이드 후 프로세스를 시작합니다.
 
    ```
    su - neolane
