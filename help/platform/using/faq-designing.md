@@ -59,7 +59,7 @@ Adobe Campaign이 전달하는 메시지는 콘텐츠 또는 메시지 모양을
 
 수신자의 선호도 또는 국가에 따라 다국어 메시지를 보낼 수 있습니다.
 
-이렇게 하려면 메시지 콘텐츠를 현지화하고 [조건](../../delivery/using/conditional-content.md)을 사용하여 수신자의 프로필에 따라 개인화할 수 있습니다. 또한 [워크플로우](../../workflow/using/split.md)를 사용하여 기본 언어 테스트에 따라 전송할 메시지 버전을 선택할 수도 있습니다.
+이렇게 하려면 메시지 콘텐츠를 현지화하고 [조건](../../delivery/using/conditional-content.md)을 사용하여 수신자의 프로필에 따라 개인화할 수 있습니다. 또한 [워크플로](../../workflow/using/split.md)를 사용하여 기본 언어 테스트에 따라 전송할 메시지 버전을 선택할 수도 있습니다.
 
 ## 웹 양식을 현지화하려면 어떻게 해야 합니까? {#how-can-i-localize-a-webform-}
 

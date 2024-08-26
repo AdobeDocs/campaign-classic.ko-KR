@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 프로필 및 대상 그룹 FAQ
+title: 프로필 및 대상자 FAQ
 description: Campaign Classic FAQ
 feature: Audiences, Troubleshooting
 audience: platform
@@ -14,11 +14,11 @@ ht-degree: 75%
 
 ---
 
-# 프로필 및 대상 그룹 FAQ {#audiences-faq}
+# 프로필 및 대상자 FAQ {#audiences-faq}
 
 
 
-Adobe Campaign 내에서 모집단을 타겟팅하고 대상 그룹을 관리하는 방법을 배웁니다.
+Adobe Campaign 내에서 모집단을 타기팅하고 대상자를 관리하는 방법을 배웁니다.
 
 ## 수신자를 만드는 방법 {#how-to-create-recipients-}
 
@@ -32,12 +32,12 @@ Adobe Campaign 내에서 모집단을 타겟팅하고 대상 그룹을 관리하
 
 ## 마케팅 캠페인의 대상 모집단을 정의하려면 어떻게 해야 합니까? {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
-[워크플로우를 사용하여 마케팅 캠페인의 대상 모집단을 만들 수](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) 있습니다.
+[워크플로를 사용하여 마케팅 캠페인의 대상 모집단을 만들 수](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) 있습니다.
 
 
 ## 프로필 목록을 만들려면 어떻게 해야 합니까? {#how-can-i-create-a-list-of-profiles-}
 
-목록은 가져오기 작업 또는 워크플로우 실행 중에 업데이트되는 게재 작업에서 타겟팅할 수 있는 정적 수신자의 집합입니다. 예를 들어 쿼리를 통해 데이터베이스에서 추출한 모집단은 목록을 제공할 수 있습니다.
+목록은 가져오기 작업 또는 워크플로 실행 중에 업데이트되는 게재 작업에서 타겟팅할 수 있는 정적 수신자의 집합입니다. 예를 들어 쿼리를 통해 데이터베이스에서 추출한 모집단은 목록을 제공할 수 있습니다.
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group).
 
@@ -45,7 +45,7 @@ Adobe Campaign 내에서 모집단을 타겟팅하고 대상 그룹을 관리하
 
 ## 메시지를 보내기 전에 모집단 중복을 제거하려면 어떻게 해야 합니까? {#how-can-i-deduplicate-a-population-before-sending-a-message-}
 
-동일한 메시지를 수신자에게 여러 번 보내지 않도록 워크플로우를 사용하여 게재의 대상에서 중복을 제외할 수 있습니다.
+동일한 메시지를 수신자에게 여러 번 보내지 않도록 워크플로를 사용하여 게재의 대상에서 중복을 제외할 수 있습니다.
 
 예제를 통해 [자세한 내용을 보려면 여기를 클릭하십시오](../../workflow/using/deduplication.md#example--identify-the-duplicates-before-a-delivery).
 

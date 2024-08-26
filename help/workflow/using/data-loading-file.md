@@ -77,7 +77,7 @@ ht-degree: 14%
 * **[!UICONTROL White space management]**: 문자열에서 특정 공백을 무시할지 여부를 지정합니다. **[!UICONTROL Ignore spaces]** 값은 문자열의 시작과 끝에 있는 공백만 무시할 수 있습니다.
 * **[!UICONTROL Error processings]**: 오류가 발생하는 경우의 비헤이비어를 정의합니다.
 
-   * **[!UICONTROL Ignore the value]**: 값이 무시됩니다. 워크플로우 실행 로그에 경고가 생성됩니다.
+   * **[!UICONTROL Ignore the value]**: 값이 무시됩니다. 워크플로 실행 로그에 경고가 생성됩니다.
    * **[!UICONTROL Reject line]**: 전체 줄을 처리하지 않습니다.
    * **[!UICONTROL Use a default value in case of error]**: 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다.
    * **[!UICONTROL Reject the line when there is no remapping value]**: 잘못된 값에 대한 매핑이 정의되어 있지 않은 경우 전체 줄을 처리하지 않습니다(아래 **[!UICONTROL Mapping]** 옵션 참조).

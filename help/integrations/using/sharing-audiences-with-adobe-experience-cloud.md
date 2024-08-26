@@ -30,7 +30,7 @@ Adobe Campaign을 사용하면 Adobe Experience Cloud 서비스와 대상자 및
 
    * 다양한 Adobe Experience Cloud 솔루션의 공유 대상자/세그먼트를 Adobe Campaign으로 가져옵니다. Adobe Campaign의 목록을 통해 대상자를 가져올 수 있습니다.
 
-   * Adobe Experience Cloud 공유 대상자 양식으로 목록을 내보냅니다. 이러한 대상자는 사용하고 있는 여러 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. 대상자는 워크플로우에서 타겟팅한 후 전용 **[!UICONTROL Update shared audience]** 활동을 사용하여 내보낼 수 있습니다.
+   * Adobe Experience Cloud 공유 대상자 양식으로 목록을 내보냅니다. 이러한 대상자는 사용하고 있는 여러 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. 대상자는 워크플로에서 타겟팅한 후 전용 **[!UICONTROL Update shared audience]** 활동을 사용하여 내보낼 수 있습니다.
 
 이 통합은 두 가지 유형의 Adobe Experience Cloud ID를 지원합니다:
 

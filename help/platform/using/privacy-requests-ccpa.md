@@ -75,7 +75,7 @@ Adobe Campaign이 제공하는 [동의 관리](privacy-management.md#consent-man
 
 * 수신자의 세부 정보를 편집하여 Campaign의 인터페이스 사용
 * API 사용
-* 데이터 가져오기 작업 과정을 통해
+* 데이터 가져오기 워크플로를 통해
 
 그런 다음 옵트아웃한 프로필의 개인 정보를 제3자에게 판매해서는 안 됩니다.
 

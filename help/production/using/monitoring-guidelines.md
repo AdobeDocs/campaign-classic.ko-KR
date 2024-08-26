@@ -29,7 +29,7 @@ Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monit
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">인스턴스 모니터링</a></p></td>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#monitoring-workflows">워크플로우 모니터링</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#monitoring-workflows">워크플로 모니터링</a></p></td>
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">게재 모니터링</a></p></td>
 <td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">데이터베이스 모니터링</a></p></td></tr>
 </table>
@@ -62,7 +62,7 @@ Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관�
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-**워크플로우 열 지도**
+**워크플로 열 지도**
 
 워크플로우 HeatMap에서는 인스턴스에서 실행되는 모든 워크플로우를 시각적으로 표현했습니다. 이를 통해 인스턴스의 로드를 쉽게 모니터링하고 그에 따라 워크플로우를 계획할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](../../workflow/using/heatmap.md)하십시오.
 
@@ -82,7 +82,7 @@ Heatmap뿐만 아니라 워크플로 세트의 상태를 모니터링하고 감�
 
 워크플로우를 사용할 때 다음과 같은 지침 및 모범 사례를 통해 성능을 향상시킬 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
 * [워크플로우 사용 모범 사례](../../workflow/using/workflow-best-practices.md)
-* [워크플로우 실행 모니터링](../../workflow/using/monitoring-workflow-execution.md)
+* [워크플로 실행 모니터링](../../workflow/using/monitoring-workflow-execution.md)
 
 ### 게재 모니터링 {#monitoring-deliveries}
 
@@ -107,7 +107,7 @@ SMTP 보고서에는 도메인별 게재 통계 및 SMTP 오류가 표시됩니�
 
 <img src="assets/do-not-localize/icon_database.svg" width="60px">
 
-**데이터베이스 정리 워크플로우**
+**데이터베이스 정리 워크플로**
 
 데이터베이스 정리 워크플로우를 사용하면 데이터베이스에서 오래된 데이터를 삭제할 수 있습니다. 데이터베이스의 기하급수적인 증가를 피하는 것이 좋습니다. 자세한 정보를 보려면 [여기를 클릭](../../production/using/database-cleanup-workflow.md)하십시오.
 

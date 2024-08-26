@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 워크플로우 구축
+title: 워크플로 구축
 description: 워크플로우 구축 방법 알아보기
 feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
@@ -11,7 +11,7 @@ ht-degree: 4%
 
 ---
 
-# 워크플로우 구축 {#building-a-workflow}
+# 워크플로 구축 {#building-a-workflow}
 
 
 
@@ -185,7 +185,7 @@ ht-degree: 4%
 
 캠페인 워크플로우 및 구현 예제는 [이 페이지](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)에 자세히 설명되어 있습니다.
 
-## 기술 워크플로우 {#technical-workflows}
+## 기술 워크플로 {#technical-workflows}
 
 기술 워크플로우는 Adobe Campaign과 함께 즉시 제공됩니다. 서버에서 주기적으로 실행되도록 예약된 작업 또는 작업입니다. 이를 통해 데이터베이스 유지 관리를 수행하고, 게재에 대한 추적 정보를 전달하고, 게재에 대한 임시 프로세스를 설정할 수 있습니다. 기술 워크플로우는 **[!UICONTROL Administration > Production > Technical workflows]** 노드를 통해 구성됩니다.
 

@@ -36,7 +36,7 @@ ht-degree: 100%
 
    ![](assets/privacy-request-properties.png)
 
-개인 정보 기술 워크플로우는 매일 한 번 실행되며 각각의 새로운 요청을 처리합니다.
+개인 정보 기술 워크플로는 매일 한 번 실행되며 각각의 새로운 요청을 처리합니다.
 
 * Delete 요청: Adobe Campaign에 저장된 수신자 데이터가 지워집니다.
 * Access 요청: Adobe Campaign에 저장된 수신자의 데이터가 생성되고 요청 화면의 왼쪽에서 XML 파일로 사용할 수 있습니다.
@@ -64,22 +64,22 @@ Adobe Campaign은 Delete 또는 Access 개인 정보 보호 요청을 수행할 
 
 >[!IMPORTANT]
 >
->프로필 삭제 워크플로우를 사용하여 개인 정보 일괄 처리 요청을 수행하는 경우, 다음 사항을 고려하십시오.
->* 워크플로우를 통한 프로필 삭제는 하위 테이블을 처리하지 않습니다.
+>프로필 삭제 워크플로를 사용하여 개인 정보 일괄 처리 요청을 수행하는 경우, 다음 사항을 고려하십시오.
+>* 워크플로를 통한 프로필 삭제는 하위 테이블을 처리하지 않습니다.
 >* 모든 하위 테이블에 대해 삭제를 처리해야 합니다.
->* Adobe은 개인 정보 액세스 테이블에서 삭제할 행을 추가하고 **[!UICONTROL Delete privacy requests data]** 워크플로우에서 삭제를 수행하도록 하는 ETL 워크플로우를 만들 것을 권장합니다. 성능을 위해 삭제는 하루에 200개의 프로필로 제한하는 것이 좋습니다.
+>* Adobe은 개인 정보 액세스 테이블에서 삭제할 행을 추가하고 **[!UICONTROL Delete privacy requests data]** 워크플로에서 삭제를 수행하도록 하는 ETL 워크플로를 만들 것을 권장합니다. 성능을 위해 삭제는 하루에 200개의 프로필로 제한하는 것이 좋습니다.
 
 ## 개인 정보 보호 요청 상태 {#privacy-request-statuses}
 
 개인정보 보호 요청에 대한 다양한 상태는 다음과 같습니다.
 
-* **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: 진행 중이며 워크플로우는 아직 요청을 처리하지 않았습니다.
-* **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: 워크플로우가 요청을 처리하고 있습니다.
-* **[!UICONTROL Delete pending]**: 워크플로우는 삭제하려는 모든 수신자 데이터를 식별했습니다.
-* **[!UICONTROL Delete in progress]**: 워크플로우가 삭제를 처리하고 있습니다.
-* **[!UICONTROL Delete Confirmation Pending]**(2단계 프로세스 모드에서 Delete 요청): 워크플로우에서 Access 요청을 처리했습니다. 삭제를 수행하려면 수동 확인이 요구됩니다. 버튼은 15일 동안 사용할 수 있습니다.
+* **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: 진행 중이며 워크플로는 아직 요청을 처리하지 않았습니다.
+* **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: 워크플로가 요청을 처리하고 있습니다.
+* **[!UICONTROL Delete pending]**: 워크플로는 삭제하려는 모든 수신자 데이터를 식별했습니다.
+* **[!UICONTROL Delete in progress]**: 워크플로가 삭제를 처리하고 있습니다.
+* **[!UICONTROL Delete Confirmation Pending]**(2단계 프로세스 모드에서 Delete 요청): 워크플로에서 Access 요청을 처리했습니다. 삭제를 수행하려면 수동 확인이 요구됩니다. 버튼은 15일 동안 사용할 수 있습니다.
 * **[!UICONTROL Complete]**: 요청 처리가 오류 없이 끝났습니다.
-* **[!UICONTROL Error]**: 워크플로우에서 오류가 발생했습니다. 이유는 **[!UICONTROL Request status]** 열의 개인 정보 보호 요청 목록에 표시됩니다. 예를 들어 **[!UICONTROL Error data not found]**&#x200B;은(는) 데이터 주체의 **[!UICONTROL Reconciliation value]**&#x200B;와(과) 일치하는 수신자 데이터가 데이터베이스에 없음을 의미합니다.
+* **[!UICONTROL Error]**: 워크플로에서 오류가 발생했습니다. 이유는 **[!UICONTROL Request status]** 열의 개인 정보 보호 요청 목록에 표시됩니다. 예를 들어 **[!UICONTROL Error data not found]**&#x200B;은(는) 데이터 주체의 **[!UICONTROL Reconciliation value]**&#x200B;와(과) 일치하는 수신자 데이터가 데이터베이스에 없음을 의미합니다.
 
 ## 2단계 프로세스 {#two-step-process}
 
@@ -105,7 +105,7 @@ Access 요청을 처리할 때 Adobe Campaign은 데이터베이스에서 수신
 
 이 URL은 **[!UICONTROL Privacy Requests (gdprRequest)]** 스키마의 **[!UICONTROL "File location" (@urlFile)]** 필드에 저장됩니다.
 
-이 정보는 데이터베이스에서 90일 동안 사용할 수 있습니다. 기술 워크플로우에서 요청을 정리하면 해당 정보가 데이터베이스에서 제거되고 URL이 더 이상 사용되지 않습니다. 웹 페이지에서 데이터를 다운로드하기 전에 URL이 여전히 유효한지 확인하십시오.
+이 정보는 데이터베이스에서 90일 동안 사용할 수 있습니다. 기술 워크플로에서 요청을 정리하면 해당 정보가 데이터베이스에서 제거되고 URL이 더 이상 사용되지 않습니다. 웹 페이지에서 데이터를 다운로드하기 전에 URL이 여전히 유효한지 확인하십시오.
 
 다음은 데이터 주체의 데이터 파일 예입니다.
 

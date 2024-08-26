@@ -29,9 +29,9 @@ ht-degree: 100%
 
 Adobe IMS(Identity Management System)를 사용한 사용자 만들기에 대한 주의 사항이 추가되었습니다. [자세히 보기](../../platform/using/access-management.md)
 
-웹 다운로드 워크플로우 활동에 대한 누락된 옵션이 추가되었습니다. [자세히 보기](../../workflow/using/web-download.md)
+웹 다운로드 워크플로 활동에 대한 누락된 옵션이 추가되었습니다. [자세히 보기](../../workflow/using/web-download.md)
 
-**차원 변경** 및 **데이터 소스 변경** 활동에 워크플로우에서의 사용에 대한 주의 사항이 추가되었습니다. [자세히 보기](../../workflow/using/change-data-source.md)
+**차원 변경** 및 **데이터 소스 변경** 활동에 워크플로에서의 사용에 대한 주의 사항이 추가되었습니다. [자세히 보기](../../workflow/using/change-data-source.md)
 
 ### 2024년 3월 {#mar-2024}
 
@@ -113,7 +113,7 @@ iOS 15를 사용한 Time Sensitive 알림. [자세히 보기](../../delivery/usi
 
 주소를 격리하는 방법과 격리 목록에서 주소를 제거하는 방법에 대한 섹션을 업데이트했습니다. [자세히 보기](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-동일한 워크플로우에서 여러 정지 요청을 수행하지 않도록 추천하는 워크플로우 모범 사례를 추가했습니다. [자세히 보기](../../workflow/using/workflow-best-practices.md)
+동일한 워크플로에서 여러 정지 요청을 수행하지 않도록 추천하는 워크플로 모범 사례를 추가했습니다. [자세히 보기](../../workflow/using/workflow-best-practices.md)
 
 캠페인 내에서 반복 게재의 실행을 중지하는 방법에 대한 정보를 추가했습니다. [자세히 보기](../../workflow/using/recurring-delivery.md)
 
@@ -133,7 +133,7 @@ Google BigQuery FDA Connector를 업데이트했습니다. [자세히 표시](..
 
 Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동의 사용이 중단됨에 따라 해당 항목을 설명서에서 제거했습니다.
 
-새로운 옵션 **오류 시 중단**&#x200B;을 워크플로우 오류 관리 섹션에 추가했습니다. [자세히 표시](../../workflow/using/advanced-parameters.md#in-case-of-errors)
+새로운 옵션 **오류 시 중단**&#x200B;을 워크플로 오류 관리 섹션에 추가했습니다. [자세히 표시](../../workflow/using/advanced-parameters.md#in-case-of-errors)
 
 CRM 커넥터 활동에 일괄 업데이트 옵션을 추가했습니다. [자세히 표시](../../workflow/using/crm-connector.md)
 
@@ -161,7 +161,7 @@ Adobe Analytics Data Connector 수명 종료 날짜를 2022년 3월 1일에서 2
 
 JavaScript를 사용하여 값을 계산하고 데이터를 교환하며 SOAP 호출을 사용하여 특정 작업을 실행하는 방법에 대한 섹션을 추가했습니다.[자세히 표시](../../workflow/using/javascript-scripts-and-templates.md)
 
-워크플로우에 JavaScript 코드 구현 샘플이 추가되었습니다. [자세히 표시](../../workflow/using/javascript-in-workflows.md)
+워크플로에 JavaScript 코드 구현 샘플이 추가되었습니다. [자세히 표시](../../workflow/using/javascript-in-workflows.md)
 
 
 ## 2021년 10월{#oct-2021}
@@ -178,11 +178,11 @@ JavaScript를 사용하여 값을 계산하고 데이터를 교환하며 SOAP �
 
 Adobe Flash 제거 후 보고서 및 웹 애플리케이션 스크린샷과 매개 변수를 업데이트했습니다.
 
-[청구 기술 워크플로우](../../production/using/monitoring-processes.md#billing-report) 설명에 새 가드레일을 업데이트했습니다.
+[청구 기술 워크플로](../../production/using/monitoring-processes.md#billing-report) 설명에 새 가드레일을 업데이트했습니다.
 
 ## 2021년 8월{#aug-2021}
 
-새 워크플로우 활동인 데이터 소스 변경을 추가했습니다. [자세히 알아보기](../../workflow/using/change-data-source.md)
+새 워크플로 활동인 데이터 소스 변경을 추가했습니다. [자세히 알아보기](../../workflow/using/change-data-source.md)
 
 설명서 페이지에 적용 가능성 배지가 추가되었습니다. Campaign Classic v7 기능에만 적용되는 기능을 보려면 **v7 적용성**&#x200B;을, 일반 기능을 보려면 **v7 및 v8 적용성**&#x200B;을 참고하십시오.
 
@@ -208,11 +208,11 @@ LINE 채널 개선 사항 - [자세히 알아보기](../../delivery/using/line-c
 
 새로운 Google BigQuery FDA 커넥터 - [자세히 알아보기](../../installation/using/configure-fda-google-big-query.md)
 
-이제 “과금(billing)” 기술 워크플로우 설명에 원래 “활성 과금 프로필 수(billingActiveContactCount)”에 의해 수행되는 작업이 포함됩니다. [자세히 보기](../../workflow/using/about-technical-workflows.md)
+이제 “과금(billing)” 기술 워크플로 설명에 원래 “활성 과금 프로필 수(billingActiveContactCount)”에 의해 수행되는 작업이 포함됩니다. [자세히 보기](../../workflow/using/about-technical-workflows.md)
 
 ## 2021년 5월 {#may-2021}
 
-워크플로우 Heatmap 보고서 설명서를 업데이트 및 개선했습니다. [자세히 알아보기](../../workflow/using/heatmap.md)
+워크플로 Heatmap 보고서 설명서를 업데이트 및 개선했습니다. [자세히 알아보기](../../workflow/using/heatmap.md)
 
 호환성 매트릭스에서 Campaign 클라이언트 콘솔 요구 사항이 업데이트되었습니다. [자세히 알아보기](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
 
@@ -239,7 +239,7 @@ Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 
 다음 새로운 페이지를 통해 캠페인을 만들고 관리하는 방법을 알아봅니다.
 * [Campaign 템플릿 만들기 및 구성](../../campaign/using/marketing-campaign-templates.md)
 * [마케팅 캠페인 게재](../../campaign/using/marketing-campaign-deliveries.md)
-* [캠페인 대상 선택](../../campaign/using/marketing-campaign-target.md)
+* [캠페인 대상자 선택](../../campaign/using/marketing-campaign-target.md)
 * [관련 문서 관리](../../campaign/using/marketing-campaign-assets.md)
 * [승인 프로세스 설정 및 관리](../../campaign/using/marketing-campaign-approval.md)
 
@@ -261,7 +261,7 @@ Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 
 
 **기타 업데이트**
 
-워크플로우를 사용하여 A/B 테스트를 하는 방법에 대한 자세한 정보의 새 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/get-started-a-b-testing.md)
+워크플로를 사용하여 A/B 테스트를 하는 방법에 대한 자세한 정보의 새 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/get-started-a-b-testing.md)
 
 Adobe Campaign Enhanced MTA 섹션이 [여기](../../delivery/using/sending-with-enhanced-mta.md)로 이동되었습니다.
 
@@ -285,11 +285,11 @@ Adobe Campaign Enhanced MTA 섹션이 [여기](../../delivery/using/sending-with
 
 [여기](../../production/using/locate-tomcat-version.md)에서 Adobe Campaign 인스턴스에 사용된 Embedded Tomcat 웹 서블릿의 현재 버전을 확인하는 방법을 알아봅니다.
 
-관련 패키지가 포함된 기술 워크플로우 목록이 하나의 단일 페이지로 향상되고 중앙 집중화되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
+관련 패키지가 포함된 기술 워크플로 목록이 하나의 단일 페이지로 향상되고 중앙 집중화되었습니다. [자세한 내용](../../workflow/using/about-technical-workflows.md)
 
 **모니터링** 안내서의 문제 해결 섹션이 랜딩 페이지로 다시 구성되고 향상되었습니다. [자세한 내용](../../production/using/troubleshooting.md).
 
-**데이터 가져오기 및 내보내기** 새 섹션은 워크플로우, 데이터 압축, 암호화 및 가져오기 모범 사례와 관련된 새 페이지에서 사용할 수 있습니다. [자세한 내용](../../platform/using/get-started-data-import-export.md)
+**데이터 가져오기 및 내보내기** 새 섹션은 워크플로, 데이터 압축, 암호화 및 가져오기 모범 사례와 관련된 새 페이지에서 사용할 수 있습니다. [자세한 내용](../../platform/using/get-started-data-import-export.md)
 
 +++
 
@@ -406,7 +406,7 @@ Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추�
 
 FTP 서버에 연결한 후 &quot;호스트 이름을 확인할 수 없습니다&quot; 라는 오류를 가져올 때 수행할 검사 및 작업에 대한 정보가 추가되었습니다. [자세한 내용](../../platform/using/sftp-server-usage.md)
 
-[워크플로우 사용 사례](../../workflow/using/about-workflow-use-cases.md) 목록에서 새로운 사용 사례를 참조했습니다.
+[워크플로 사용 사례](../../workflow/using/about-workflow-use-cases.md) 목록에서 새로운 사용 사례를 참조했습니다.
 
 * 콘텐츠 만들기, 에디션 및 게시 자동화
 * 게재가 전송되기 전에 수신자 승인 프로세스 설정
@@ -417,7 +417,7 @@ FTP 서버에 연결한 후 &quot;호스트 이름을 확인할 수 없습니다
 
 ## 2020년 7월 {#july-2020}
 
-증분 쿼리를 사용하여 목록을 자동으로 업데이트하는 방법에 대한 사용 사례가 워크플로우 사용 사례에 추가되었습니다. [자세한 내용](../../workflow/using/about-workflow-use-cases.md)
+증분 쿼리를 사용하여 목록을 자동으로 업데이트하는 방법에 대한 사용 사례가 워크플로 사용 사례에 추가되었습니다. [자세한 내용](../../workflow/using/about-workflow-use-cases.md)
 
 [릴리스 정보](../../rn/using/latest-release.md)가 다음과 같이 재구성되었습니다. 빌드 상태, 업그레이드 프로세스, 권장 사항 및 중요 링크에 대한 정보가 포함된 [개요 페이지](../../rn/using/latest-release.md)가 추가되었습니다. [[!DNL Gold Standard] 릴리스](../../rn/using/gold-standard.md)에 대한 전용 페이지가 추가되었으며 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)가 통합되었습니다.
 
@@ -429,7 +429,7 @@ Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요�
 
 개인 정보 관리 개요 페이지가 태국 PDPA(개인 정보 보호법) 및 브라질 LGPD(Lei Geral de Proteção de Dados)와 관련한 정보를 포함하도록 업데이트되었습니다. [자세히 보기](../../platform/using/privacy-and-recommendations.md)
 
-오류 발생 시 하위 워크플로우 로그 및 동작에 정보가 추가되었습니다. [자세한 내용](../../workflow/using/sub-workflow.md)
+오류 발생 시 하위 워크플로 로그 및 동작에 정보가 추가되었습니다. [자세한 내용](../../workflow/using/sub-workflow.md)
 
 **[!UICONTROL Scheduler]** 활동 섹션에 모범 사례가 추가되었습니다. [자세한 내용](../../workflow/using/scheduler.md)
 
@@ -437,7 +437,7 @@ Campaign Classic의 개인 정보 관리 페이지가 자동 개인 정보 요�
 
 격리된 주소 제거 섹션이 업데이트되었습니다. 여기에는 격리 목록에서 주소가 자동으로 제거되는 경우의 확인이 포함됩니다. [자세한 내용](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화](../../platform/using/zip-encrypt.md)하고 [해독](../../platform/using/unzip-decrypt.md)하는 방법에대한 사용 사례가 추가되었습니다.
+제어판 및 캠페인 워크플로를 사용하여 데이터를 [암호화](../../platform/using/zip-encrypt.md)하고 [해독](../../platform/using/unzip-decrypt.md)하는 방법에대한 사용 사례가 추가되었습니다.
 
 Experience Cloud 트리거 및 Adobe Campaign Classic 통합 페이지는 [여기](../../integrations/using/about-triggers.md)로 이동했습니다
 
@@ -465,7 +465,7 @@ Azure Synapse FDA 커넥터 - [자세한 내용](../../installation/using/config
 
 호환성 매트릭스가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
-정리 워크플로우 섹션이 업데이트되었습니다. [자세히 알아보기](../../production/using/database-cleanup-workflow.md)
+정리 워크플로 섹션이 업데이트되었습니다. [자세히 알아보기](../../production/using/database-cleanup-workflow.md)
 
 캠페인 네트워크 엔드포인트가 [이 섹션](../../installation/using/campaign-network-endpoints.md)으로 이동되었습니다.
 
@@ -495,7 +495,7 @@ FAQ는 소프트 및 하드 캐시를 삭제하는 방법에 대한 팁과 함�
 
 Adobe Campaign 기본 제공 데이터 모델을 설명하는 섹션이 각 테이블에 대한 자세한 내용을 포함하여 업데이트되었습니다. [자세한 내용](../../configuration/using/data-model-description.md)
 
-워크플로우 사용 사례는 주제별로 업데이트되고 재구성되었습니다. [자세한 내용](../../workflow/using/about-workflow-use-cases.md)
+워크플로 사용 사례는 주제별로 업데이트되고 재구성되었습니다. [자세한 내용](../../workflow/using/about-workflow-use-cases.md)
 
 [바운스 메일 자격](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) 및 [전자 메일 관리 규칙](../../delivery/using/understanding-delivery-failures.md#email-management-rules) 섹션이 업데이트된 정보로 향상되었습니다.
 
@@ -545,11 +545,11 @@ Hadoop FDA 커넥터 개선 사항 - [자세한 내용](../../installation/using
 
 설치 안내서에 IP 선호도에 대한 모범 사례가 추가되었습니다. [자세한 내용](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-데이터베이스 정리 워크플로우 섹션이 업데이트되었습니다. 이제 제공된 배치 수치가 코드 구현을 반영합니다. [자세한 내용](../../production/using/database-cleanup-workflow.md)
+데이터베이스 정리 워크플로 섹션이 업데이트되었습니다. 이제 제공된 배치 수치가 코드 구현을 반영합니다. [자세한 내용](../../production/using/database-cleanup-workflow.md)
 
 HTTP를 통한 FDA에 대한 제한이 트랜잭션 메시지 가이드에 추가되었습니다. [자세한 내용](../../production/using/database-cleanup-workflow.md)
 
-새 옵션에 **[!UICONTROL JavaScript code]** 및&#x200B;**[!UICONTROL Advanced JavaScript code]** 워크플로우 활동을 위한 시간 초과 기간을 정의할 수 있는 정보가 추가되었습니다. [자세한 내용](../../workflow/using/sql-code-and-javascript-code.md)
+새 옵션에 **[!UICONTROL JavaScript code]** 및&#x200B;**[!UICONTROL Advanced JavaScript code]** 워크플로 활동을 위한 시간 초과 기간을 정의할 수 있는 정보가 추가되었습니다. [자세한 내용](../../workflow/using/sql-code-and-javascript-code.md)
 
 **[!UICONTROL Administration]** > **[!UICONTROL Audit]** > **[!UICONTROL Workflows Status]** 노드에서 사용할 수 있는 새 **[!UICONTROL Start Pending]** 보기에 정보가 추가되었습니다. [자세한 내용](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
@@ -561,9 +561,9 @@ URL 보고서 구성에 대한 새 매개 변수가 [여기](../../reporting/usi
 
 **Campaign Classic 기능 매트릭스** 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/compatibility-matrix.html)
 
-새 **[!UICONTROL Cleanup of Nmsaddress]** 워크플로우는 [여기에](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress) 설명되어 있습니다.
+새 **[!UICONTROL Cleanup of Nmsaddress]** 워크플로는 [여기에](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress) 설명되어 있습니다.
 
-워크플로우에서 쿼리 활동을 사용할 때 제한이 추가되었습니다. [자세한 내용](../../workflow/using/query.md).
+워크플로에서 쿼리 활동을 사용할 때 제한이 추가되었습니다. [자세한 내용](../../workflow/using/query.md).
 
 소프트 오류가 발생하는 경우 격리할 주소를 보내기 위해 향상된 전자 메일 주소 유효성 검사 규칙을 자세히 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
@@ -585,6 +585,6 @@ URL 보고서 구성에 대한 새 매개 변수가 [여기](../../reporting/usi
 
 보고 가이드가 업데이트되고 재구성되었습니다. [자세한 내용](../../reporting/using/about-adobe-campaign-reporting-tools.md)
 
-워크플로우에서 인스턴스 변수를 사용하는 방법의 예가 추가되었습니다. [자세한 내용](../../workflow/using/javascript-scripts-and-templates.md)
+워크플로에서 인스턴스 변수를 사용하는 방법의 예가 추가되었습니다. [자세한 내용](../../workflow/using/javascript-scripts-and-templates.md)
 
 +++

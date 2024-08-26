@@ -68,7 +68,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Analytics 인터페이스의 특정 트리거 이름에 대한 [!DNL Trigger] UID 값은 트리거 인터페이스에서 URL 쿼리 문자열 매개 변수의 일부로 찾을 수 있습니다. triggerType UID는 파이프라인 데이터 스트림으로 전달되며 코드를 pipeline.JS에 작성하여 트리거 UID를 pipelineEvents 스키마의 트리거 이름 열에 저장할 수 있는 사용자에게 친숙한 레이블로 매핑할 수 있습니다.
+>Analytics 인터페이스의 특정 트리거 이름에 대한 [!DNL Trigger] UID 값은 트리거 인터페이스에서 URL 쿼리 문자열 매개 변수의 일부로 찾을 수 있습니다. triggerType UID은 파이프라인 데이터 스트림으로 전달되며 코드를 pipeline.JS에 작성하여 트리거 UID을 pipelineEvents 스키마의 트리거 이름 열에 저장할 수 있는 사용자에게 친숙한 레이블로 매핑할 수 있습니다.
 
 ## 소비자 매개 변수 {#consumer-parameter}
 

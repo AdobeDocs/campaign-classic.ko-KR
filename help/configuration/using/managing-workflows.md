@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 워크플로우 관리
-description: 워크플로우 관리
+title: 워크플로 관리
+description: 워크플로 관리
 feature: Workflows, Configuration
 role: Data Engineer, Developer
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ---
 
-# 워크플로우 관리{#managing-workflows}
+# 워크플로 관리{#managing-workflows}
 
 
 

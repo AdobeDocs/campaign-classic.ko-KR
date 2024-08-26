@@ -28,7 +28,7 @@ Campaign 보고 기능에 대한 [자세한 내용을 보려면 여기를 클릭
 
 ## 모집단에 대한 통계 보고서를 디자인하고 공유하려면 어떻게 해야 합니까? {#how-can-i-design-and-share-statistic-reports-on-populations-}
 
-Adobe Campaign [설명 분석 보고서](../../reporting/using/about-descriptive-analysis.md)를 사용하면 모집단에 대한 통계 보고서를 디자인하고 공유할 수 있고 [뉴스레터 대상을 탐색](../../reporting/using/use-cases.md#analyzing-a-population)하거나 [워크플로우 전환의 모집단에 대한 보고서를 만들](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow) 수 있습니다. 예를 들어 [뉴스레터 수신자의 반응성 비율을 분석](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs)할 수도 있습니다.
+Adobe Campaign [설명 분석 보고서](../../reporting/using/about-descriptive-analysis.md)를 사용하면 모집단에 대한 통계 보고서를 디자인하고 공유할 수 있고 [뉴스레터 대상자를 탐색](../../reporting/using/use-cases.md#analyzing-a-population)하거나 [워크플로 전환의 모집단에 대한 보고서를 만들](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow) 수 있습니다. 예를 들어 [뉴스레터 수신자의 반응성 비율을 분석](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs)할 수도 있습니다.
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../reporting/using/about-descriptive-analysis.md).
 

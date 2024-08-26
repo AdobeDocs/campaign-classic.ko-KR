@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 워크플로우 수명 주기
+title: 워크플로 수명 주기
 description: 워크플로우의 라이프 사이클에 대해 자세히 알아보기
 feature: Workflows
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
@@ -11,7 +11,7 @@ ht-degree: 2%
 
 ---
 
-# 워크플로우 수명 주기 {#workflow-life-cycle}
+# 워크플로 수명 주기 {#workflow-life-cycle}
 
 
 

@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 크로스 채널 게재 워크플로우
+title: 크로스 채널 게재 워크플로
 description: 크로스 채널 게재 워크플로우에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
@@ -11,7 +11,7 @@ ht-degree: 3%
 
 ---
 
-# 크로스 채널 게재 워크플로우{#cross-channel-delivery-workflow}
+# 크로스 채널 게재 워크플로{#cross-channel-delivery-workflow}
 
 
 

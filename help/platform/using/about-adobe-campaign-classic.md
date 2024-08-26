@@ -77,7 +77,7 @@ Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 �
 * [상호 작용](../../interaction/using/interaction-and-offer-management.md) - 캠페인으로 오퍼 관리,
 * [메시지 센터](../../message-center/using/about-transactional-messaging.md) - 전자 메일, SMS 또는 모바일 앱으로 트랜잭션 메시지를 보낼 수 있습니다.
 * [소셜 마케팅](../../social/using/about-social-marketing.md) - 소셜 미디어에서 커뮤니케이션: Facebook, X(이전 Twitter),
-* [워크플로우](../../workflow/using/about-workflows.md) /데이터 관리 - 워크플로우를 통해 프로세스 자동화 및 데이터 관리
+* [워크플로](../../workflow/using/about-workflows.md) /데이터 관리 - 워크플로를 통해 프로세스 자동화 및 데이터 관리
 * [웹 애플리케이션](../../web/using/about-web-applications.md) - 웹 페이지 및 양식 만들기,
 * [설문 조사 관리자](../../surveys/using/about-surveys.md) - 온라인 설문 조사 및 투표 만들기,
 * [Content Manager](../../delivery/using/about-content-management.md) - 전자 메일 콘텐츠 관리,

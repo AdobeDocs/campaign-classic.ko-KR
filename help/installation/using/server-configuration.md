@@ -43,7 +43,7 @@ Adobe Campaign은 파일 크기를 제한하지 않습니다. 그러나 IIS/Apac
 
 ## 발신 연결 보호
 
-Campaign Classic 인스턴스에서 워크플로우 등의 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 은(는) 제한적입니다. 새 URL을 허용하려면 관리자는 [serverConf.xml 파일](../../installation/using/the-server-configuration-file.md)에서 이를 참조해야 합니다.
+Campaign Classic 인스턴스에서 워크플로 등의 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 은(는) 제한적입니다. 새 URL을 허용하려면 관리자는 [serverConf.xml 파일](../../installation/using/the-server-configuration-file.md)에서 이를 참조해야 합니다.
 
 세 가지 연결 보호 모드가 있습니다.
 

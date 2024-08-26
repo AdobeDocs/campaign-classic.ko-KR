@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 타겟팅 워크플로우 만들기
+title: 타겟팅 워크플로 만들기
 description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법에 대해 알아봅니다
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: A/B Testing

@@ -103,7 +103,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr>
   <tr>
   <td>Demdex 도메인<br></td>
-  <td><p> Campaign 21.1.3 릴리스부터 대상을 Adobe Experience Cloud으로 가져오고 내보내는 데 사용되는 demdex 도메인은 사용되지 않습니다. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">자세히 알아보기</a></p> 
+  <td><p> Campaign 21.1.3 릴리스부터 대상자를 Adobe Experience Cloud으로 가져오고 내보내는 데 사용되는 demdex 도메인은 사용되지 않습니다. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">자세히 알아보기</a></p> 
   </td>
   </tr>
    <tr> 
@@ -116,7 +116,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr> 
    <tr> 
    <td>리드 관리</td>
-   <td><p>Campaign 20.2 릴리스를 시작하면 더 이상 리드 관리 패키지를 사용할 수 없습니다. 다른 기본 워크플로우 활동 및 데이터 모델 수정을 통해 유사한 기능을 구현할 수 있습니다.</p></td>
+   <td><p>Campaign 20.2 릴리스를 시작하면 더 이상 리드 관리 패키지를 사용할 수 없습니다. 다른 기본 워크플로 활동 및 데이터 모델 수정을 통해 유사한 기능을 구현할 수 있습니다.</p></td>
    </tr>
    <tr>
    <td>Campaign API 설명서 - jsapi.chm 파일</td>

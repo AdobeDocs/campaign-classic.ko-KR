@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # 게재 구성 및 보내기 {#configuring-and-sending-the-delivery}
 
-## 사용 권한{#delivery-permissions}
+## 권한{#delivery-permissions}
 
 게재 소유자만 게재를 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 게재를 시작하려면 **[!UICONTROL Delivery start:]** 필드에 검토자로 추가하십시오. [자세히 알아보기](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 

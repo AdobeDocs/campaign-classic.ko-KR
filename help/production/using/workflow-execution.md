@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 워크플로우 실행
-description: 워크플로우 실행
+title: 워크플로 실행
+description: 워크플로 실행
 feature: Monitoring, Workflows
 badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 audience: production
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 ---
 
-# 워크플로우 실행{#workflow-execution}
+# 워크플로 실행{#workflow-execution}
 
 
 
@@ -23,9 +23,9 @@ ht-degree: 2%
 
 워크플로우에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
-* [워크플로우 정보](../../workflow/using/about-workflows.md)
+* [워크플로 정보](../../workflow/using/about-workflows.md)
 * [워크플로우 시작](../../workflow/using/starting-a-workflow.md)
-* [워크플로우 수명 주기](../../workflow/using/workflow-life-cycle.md)
+* [워크플로 수명 주기](../../workflow/using/workflow-life-cycle.md)
 * [워크플로우 사용 모범 사례](../../workflow/using/workflow-best-practices.md)
 
 ## 캠페인에서 가능한 한 빨리 시작 {#start-as-soon-as-possible-in-campaigns}

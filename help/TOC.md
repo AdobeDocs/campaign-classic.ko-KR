@@ -46,7 +46,7 @@ ht-degree: 100%
          + [대상자](platform/using/faq-audiences.md)
          + [메시지 디자인](platform/using/faq-designing.md)
          + [메시지 보내기](platform/using/faq-messages.md)
-         + [워크플로우](platform/using/faq-workflows.md)
+         + [워크플로](platform/using/faq-workflows.md)
          + [구성](platform/using/faq-campaign-config.md)
          + [보고서](platform/using/faq-reporting.md)
          + [개발](platform/using/faq-developers.md)
@@ -70,7 +70,7 @@ ht-degree: 100%
       + [목록 만들기 및 관리](platform/using/creating-and-managing-lists.md)
    + 데이터 가져오기 및 내보내기 {#importing-and-exporting-data}
       + [데이터 가져오기 및 내보내기 시작](platform/using/get-started-data-import-export.md)
-      + [워크플로우를 사용하여 데이터 가져오기 및 내보내기](platform/using/import-export-workflows.md)
+      + [워크플로를 사용하여 데이터 가져오기 및 내보내기](platform/using/import-export-workflows.md)
       + 일반 가져오기 및 내보내기 만들기 {#generic-imports-exports}
          + [일반 가져오기 및 내보내기 시작](platform/using/about-generic-imports-exports.md)
          + [가져오기 및 내보내기 템플릿 만들기](platform/using/creating-import-export-templates.md)
@@ -187,13 +187,13 @@ ht-degree: 100%
       + [A/B 테스트 구성](delivery/using/configuring-a-b-testing.md)
       + 활용 사례 {#use-case}
          + [이 활용 사례 정보](delivery/using/a-b-testing-use-case.md)
-         + [타겟팅 워크플로우 만들기](delivery/using/a-b-testing-uc-targeting-workflow.md)
+         + [타겟팅 워크플로 만들기](delivery/using/a-b-testing-uc-targeting-workflow.md)
          + [모집단 샘플 구성](delivery/using/a-b-testing-uc-population-samples.md)
          + [게재 템플릿 만들기](delivery/using/a-b-testing-uc-delivery-templates.md)
          + [게재 구성](delivery/using/a-b-testing-uc-configuring-deliveries.md)
          + [스크립트 만들기](delivery/using/a-b-testing-uc-script.md)
          + [최종 게재 정의](delivery/using/a-b-testing-uc-final-delivery.md)
-         + [워크플로우 시작](delivery/using/a-b-testing-uc-start-workflow.md)
+         + [워크플로 시작](delivery/using/a-b-testing-uc-start-workflow.md)
          + [결과 분석](delivery/using/a-b-testing-uc-analyzing.md)
    + 서비스 및 구독 {#subscriptions-and-referrals}
       + [서비스 및 구독 정보](delivery/using/about-services-and-subscriptions.md)
@@ -236,7 +236,7 @@ ht-degree: 100%
       + [게시 템플릿](delivery/using/publication-templates.md)
       + [콘텐츠 템플릿 사용](delivery/using/using-a-content-template.md)
       + [콘텐츠 강화](delivery/using/enriching-content.md)
-      + [워크플로우를 통한 자동화](delivery/using/automating-via-workflows.md)
+      + [워크플로를 통한 자동화](delivery/using/automating-via-workflows.md)
 + 마케팅 캠페인 오케스트레이션 {#orchestrating-campaigns}
    + 마케팅 캠페인 정보 {#about-marketing-campaigns}
       + [마케팅 캠페인 디자인](campaign/using/designing-marketing-campaigns.md)
@@ -390,17 +390,17 @@ ht-degree: 100%
       + [대상자 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
       + [ [!DNL ACS Connector] 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
-+ 워크플로우 자동화 {#automating-with-workflows}
-   + 워크플로우 시작 {#introduction}
-      + [워크플로우 정보](workflow/using/about-workflows.md)
++ 워크플로 자동화 {#automating-with-workflows}
+   + 워크플로 시작 {#introduction}
+      + [워크플로 정보](workflow/using/about-workflows.md)
       + [활동 정보](workflow/using/about-activities.md)
-      + [워크플로우 구축](workflow/using/building-a-workflow.md)
+      + [워크플로 구축](workflow/using/building-a-workflow.md)
       + [타겟 데이터](workflow/using/targeting-data.md)
-      + [워크플로우 데이터 사용](workflow/using/how-to-use-workflow-data.md)
-      + [워크플로우 모범 사례](workflow/using/workflow-best-practices.md)
-   + 워크플로우 실행 {#executing-a-workflow}
-      + [워크플로우 시작](workflow/using/starting-a-workflow.md)
-      + [워크플로우 수명 주기](workflow/using/workflow-life-cycle.md)
+      + [워크플로 데이터 사용](workflow/using/how-to-use-workflow-data.md)
+      + [워크플로 모범 사례](workflow/using/workflow-best-practices.md)
+   + 워크플로 실행 {#executing-a-workflow}
+      + [워크플로 시작](workflow/using/starting-a-workflow.md)
+      + [워크플로 수명 주기](workflow/using/workflow-life-cycle.md)
       + [데이터 수명 주기](workflow/using/data-life-cycle.md)
       + [승인 정의](workflow/using/defining-approvals.md)
       + [아키텍처](workflow/using/architecture.md)
@@ -435,7 +435,7 @@ ht-degree: 100%
       + [테스트](workflow/using/test.md)
       + [대기](workflow/using/wait.md)
       + [시간 제한](workflow/using/time-constraint.md)
-      + [하위 워크플로우](workflow/using/sub-workflow.md)
+      + [하위 워크플로](workflow/using/sub-workflow.md)
       + [이동(시작점 및 끝점)](workflow/using/jump-start-point-and-end-point.md)
       + [외부 신호](workflow/using/external-signal.md)
       + [승인](workflow/using/approval.md)
@@ -466,16 +466,16 @@ ht-degree: 100%
       + [인바운드 이메일](workflow/using/inbound-emails.md)
       + [인바운드 SMS](workflow/using/inbound-sms.md)
    + 사용 사례 {#use-cases}
-      + [워크플로우 사용 사례 기본 정보](workflow/using/about-workflow-use-cases.md)
+      + [워크플로 사용 사례 기본 정보](workflow/using/about-workflow-use-cases.md)
       + 게재 {#deliveries}
          + [로컬 승인 활동 사용](workflow/using/using-the-local-approval-activity.md)
          + [생일 이메일 보내기](workflow/using/sending-a-birthday-email.md)
          + [게재 콘텐츠 로드](workflow/using/loading-delivery-content.md)
-         + [크로스 채널 게재 워크플로우](workflow/using/cross-channel-delivery-workflow.md)
+         + [크로스 채널 게재 워크플로](workflow/using/cross-channel-delivery-workflow.md)
          + [사용자 정의 날짜 필드를 통한 이메일 강화](workflow/using/email-enrichment-with-custom-date-fields.md)
       + 모니터링 {#monitoring}
          + [목록으로 보고서 보내기](workflow/using/sending-a-report-to-a-list.md)
-         + [워크플로우 관리](workflow/using/supervising-workflows.md)
+         + [워크플로 관리](workflow/using/supervising-workflows.md)
          + [운영자에게 개인화된 경고 보내기](workflow/using/sending-personalized-alerts-to-operators.md)
       + 데이터 관리 {#data-management}
          + [데이터 업데이트 조정](workflow/using/coordinating-data-updates.md)
@@ -483,7 +483,7 @@ ht-degree: 100%
          + [데이터 강화](workflow/using/enriching-data.md)
          + [집계 사용](workflow/using/using-aggregates.md)
          + [중복 제거 활동의 병합 기능 사용](workflow/using/deduplication-merge.md)
-         + [가져오기 반복 워크플로우 설정](workflow/using/recurring-import-workflow.md)
+         + [가져오기 반복 워크플로 설정](workflow/using/recurring-import-workflow.md)
       + 쿼리 디자인 {#designing-queries}
          + [증분 쿼리를 사용한 분기별 목록 업데이트](workflow/using/quarterly-list-update.md)
       + 쿼리 및 필터 {#designing-queries}
@@ -495,20 +495,20 @@ ht-degree: 100%
          + [열거형 계산 필드 추가](workflow/using/adding-enumeration-type-calculated-field.md)
          + [필터 만들기](workflow/using/creating-a-filter.md)
          + [중복 수신자 필터링](workflow/using/filtering-duplicated-recipients.md)
-   + 워크플로우 모니터링 {#monitoring-workflows}
-      + [워크플로우 실행 모니터링](workflow/using/monitoring-workflow-execution.md)
-      + [기술 워크플로우 모니터링](workflow/using/monitoring-technical-workflows.md)
-      + [워크플로우 히트맵](workflow/using/heatmap.md)
+   + 워크플로 모니터링 {#monitoring-workflows}
+      + [워크플로 실행 모니터링](workflow/using/monitoring-workflow-execution.md)
+      + [기술 워크플로 모니터링](workflow/using/monitoring-technical-workflows.md)
+      + [워크플로 히트맵](workflow/using/heatmap.md)
    + 고급 관리 {#advanced-management}
-      + [워크플로우 속성](workflow/using/workflow-properties.md)
+      + [워크플로 속성](workflow/using/workflow-properties.md)
       + [고급 매개 변수](workflow/using/advanced-parameters.md)
       + [JavaScript 스크립트 및 템플릿](workflow/using/javascript-scripts-and-templates.md)
-      + [워크플로우의 JavaScript 코드 예](workflow/using/javascript-in-workflows.md)
+      + [워크플로의 JavaScript 코드 예](workflow/using/javascript-in-workflows.md)
       + [외부 데이터베이스 액세스](workflow/using/accessing-an-external-database-fda.md)
       + [권한 관리](workflow/using/managing-rights.md)
       + [활동 이미지 변경](workflow/using/managing-activity-images.md)
       + [표준 시간대 관리](workflow/using/managing-time-zones.md)
-      + [기술 워크플로우](workflow/using/about-technical-workflows.md)
+      + [기술 워크플로](workflow/using/about-technical-workflows.md)
 + 오퍼 관리 {#managing-offers}
    + 상호 작용 시작 {#interaction-overview}
       + [상호 작용 및 오퍼 관리](interaction/using/interaction-and-offer-management.md)
@@ -539,7 +539,7 @@ ht-degree: 100%
    + 오퍼 게재 {#delivering-an-offer}
       + [아웃바운드 채널 정보](interaction/using/about-outbound-channels.md)
       + [마법사를 통한 오퍼 통합](interaction/using/integrating-an-offer-via-the-wizard.md)
-      + [워크플로우를 통한 오퍼 통합](interaction/using/integrating-an-offer-via-a-workflow.md)
+      + [워크플로를 통한 오퍼 통합](interaction/using/integrating-an-offer-via-a-workflow.md)
    + 유니터리 상호 작용 {#unitary-interactions}
       + [인바운드 채널 정보](interaction/using/about-inbound-channels.md)
       + [JavaScript를 통한 통합(클라이언트측)](interaction/using/integration-via-javascript-client-side.md)
@@ -696,7 +696,7 @@ ht-degree: 100%
       + [백업](production/using/backup.md)
       + [복원](production/using/restoration.md)
       + [환경 복제](production/using/duplicating-environments.md)
-      + [데이터베이스 정리 워크플로우](production/using/database-cleanup-workflow.md)
+      + [데이터베이스 정리 워크플로](production/using/database-cleanup-workflow.md)
    + Adobe Campaign 업데이트 {#updating-adobe-campaign}
       + [소개](production/using/introduction.md)
       + [빌드 업그레이드 수행](production/using/build-upgrade.md)
@@ -713,7 +713,7 @@ ht-degree: 100%
       + [만들기 문제 해결 개요](production/using/troubleshooting.md)
       + 공통 및 일반적인 문제 {#common-general-issues-toc}
          + [모듈 및 자주 발생하는 문제](production/using/modules-and-frequent-issues.md)
-         + [워크플로우 실행](production/using/workflow-execution.md)
+         + [워크플로 실행](production/using/workflow-execution.md)
          + [암호 분실](production/using/lost-password.md)
          + [콘솔 업데이트](production/using/console-update.md)
       + 게재 문제 해결 {#delivery-troubleshooting-toc}
@@ -798,8 +798,8 @@ ht-degree: 100%
       + [인터페이스 구성](configuration/using/configuring-the-interface.md)
       + [시드 주소](configuration/using/seed-addresses.md)
       + [필터 만들기](configuration/using/creating-filters.md)
-      + [워크플로우를 사용하여 프로필 목록 만들기](configuration/using/creating-a-profile-list-with-a-workflow.md)
-      + [워크플로우 관리](configuration/using/managing-workflows.md)
+      + [워크플로를 사용하여 프로필 목록 만들기](configuration/using/creating-a-profile-list-with-a-workflow.md)
+      + [워크플로 관리](configuration/using/managing-workflows.md)
       + [보고서 관리](configuration/using/managing-reports.md)
    + 웹 추적 설정 {#setting-up-web-tracking}
       + [웹 추적 정보](configuration/using/about-web-tracking.md)
@@ -823,7 +823,7 @@ ht-degree: 100%
    + [롤백 절차](migration/using/about-rollback.md)
 + 기술 노트 {#technotes}
    + [하드웨어 크기 조정 권장 사항](technotes/using/hardware-sizing.md)
-   + [중간 소싱 인프라에 대한 인바운드 SMS 워크플로우 활동](technotes/using/inbound-sms-wf.md)
+   + [중간 소싱 인프라에 대한 인바운드 SMS 워크플로 활동](technotes/using/inbound-sms-wf.md)
    + IMS로 업그레이드{#ims}
       + [Adobe IMS로 전환](technotes/using/ac-ims.md)
       + [사용자를 IMS로 마이그레이션](technotes/using/migrate-users-to-ims.md)

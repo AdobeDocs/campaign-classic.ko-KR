@@ -12,7 +12,7 @@ ht-degree: 1%
 
 ---
 
-# 캠페인 대상 선택 {#marketing-campaign-deliveries}
+# 캠페인 대상자 선택 {#marketing-campaign-deliveries}
 
 마케팅 캠페인에서 각 게재에 대해 다음을 정의할 수 있습니다.
 

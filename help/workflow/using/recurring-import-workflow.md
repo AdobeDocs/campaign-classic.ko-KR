@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# 가져오기 반복 워크플로우 설정 {#setting-up-a-recurring-import}
+# 가져오기 반복 워크플로 설정 {#setting-up-a-recurring-import}
 
 
 

@@ -36,9 +36,9 @@ Adobe Campaign Classic은 특히 다양한 기술을 사용하여 가치를 전�
 
 ## 2. 데이터베이스 정리 워크플로우란 무엇입니까? {#what-is-the-database-cleanup-workflow-}
 
-데이터베이스 정리 워크플로우는 데이터베이스의 기하급수적인 증가를 방지하기 위해 오래된 데이터를 삭제합니다. 기본 제공되는 이 기술 워크플로우는 사용자 개입 없이 자동으로 트리거됩니다. Campaign 탐색기의 **[!UICONTROL Administration > Production > Technical workflows]** 노드를 통해 액세스할 수 있습니다.
+데이터베이스 정리 워크플로는 데이터베이스의 기하급수적인 증가를 방지하기 위해 오래된 데이터를 삭제합니다. 기본 제공되는 이 기술 워크플로는 사용자 개입 없이 자동으로 트리거됩니다. Campaign 탐색기의 **[!UICONTROL Administration > Production > Technical workflows]** 노드를 통해 액세스할 수 있습니다.
 
-데이터베이스 정리 워크플로우에 대한 [자세한 내용을 보려면 여기를 클릭하십시오](../../production/using/database-cleanup-workflow.md).
+데이터베이스 정리 워크플로에 대한 [자세한 내용을 보려면 여기를 클릭하십시오](../../production/using/database-cleanup-workflow.md).
 
 ## 3. 보안 영역을 구성하려면 어떻게 해야 합니까? {#how-can-i-configure-security-zones-}
 
@@ -54,7 +54,7 @@ Adobe Campaign에는 전자 메일 게재를 모니터링하는 대시보드 및
 
 ## 5. 워크플로우 실행을 모니터링할 수 있습니까? {#can-i-monitor-workflow-execution}
 
-[이 페이지](../../workflow/using/starting-a-workflow.md)에서 캠페인 워크플로우 실행을 모니터링하는 방법을 이해합니다.
+[이 페이지](../../workflow/using/starting-a-workflow.md)에서 캠페인 워크플로 실행을 모니터링하는 방법을 이해합니다.
 
 ## 6. Campaign Classic에 연결하려면 어떻게 해야 합니까? {#how-can-i-connect-to-campaign-classic-}
 

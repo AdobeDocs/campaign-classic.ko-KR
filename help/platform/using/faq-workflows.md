@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 워크플로우 FAQ
+title: 워크플로 FAQ
 description: Campaign Classic FAQ
 feature: Troubleshooting, Workflows
 audience: platform
@@ -14,23 +14,23 @@ ht-degree: 79%
 
 ---
 
-# 워크플로우 FAQ {#workflows-faq}
+# 워크플로 FAQ {#workflows-faq}
 
 
 
-Adobe Campaign 워크플로우를 통해 프로세스와 작업을 오케스트레이션하는 방법을 배웁니다.
+Adobe Campaign 워크플로를 통해 프로세스와 작업을 오케스트레이션하는 방법을 배웁니다.
 
 ## 워크플로우를 만드는 주요 단계는 무엇입니까? {#what-are-the-key-steps-to-create-a-workflow-}
 
-[첫 번째 워크플로우를 만드는 방법을 배우려면 여기를 클릭하십시오](../../workflow/using/building-a-workflow.md). Campaign에서 워크플로우를 빌드하기 위한 개념과 모범 사례를 배웁니다.
+[첫 번째 워크플로를 만드는 방법을 배우려면 여기를 클릭하십시오](../../workflow/using/building-a-workflow.md). Campaign에서 워크플로를 빌드하기 위한 개념과 모범 사례를 배웁니다.
 
 ## Campaign에서 데이터를 가져오려면 어떻게 해야 합니까? {#how-can-i-import-data-in-campaign-}
 
 [이 섹션](../../platform/using/import-export-best-practices.md)에서 데이터를 가져오는 모범 사례에 대해 알아봅니다.
 
-## 워크플로우 실행을 모니터링할 수 있습니까? {#can-i-monitor-workflow-execution-}
+## 워크플로 실행을 모니터링할 수 있습니까? {#can-i-monitor-workflow-execution-}
 
-[이 페이지](../../workflow/using/starting-a-workflow.md)에서 캠페인 워크플로우 실행을 모니터링하는 방법을 이해합니다.
+[이 페이지](../../workflow/using/starting-a-workflow.md)에서 캠페인 워크플로 실행을 모니터링하는 방법을 이해합니다.
 
 ## 워크플로우로 Campaign 데이터를 업데이트하려면 어떻게 해야 합니까? {#how-can-i-update-campaign-data-with-a-workflow-}
 
@@ -42,11 +42,11 @@ Adobe Campaign 워크플로우를 통해 프로세스와 작업을 오케스트�
 
 Adobe Campaign에서는 보다 효율적이고 유연한 도구를 제공하여 복잡한 타겟팅 문제를 해결하는 활동 집합을 활용할 수 있습니다. 데이터 관리 활동을 사용하면 계약, 구독, 게재 반응성 등과 관련된 정보를 사용하여 연락처와 모든 커뮤니케이션을 일관성 있게 관리할 수 있습니다. 데이터 관리를 사용하면 세분화 작업 중 특히 다음의 데이터 라이프 사이클을 추적할 수 있습니다.
 
-* 데이터 마트에서 모델링되지 않은 데이터를 포함하여 타겟팅 프로세스를 단순화 및 최적화(새 테이블 만들기: 구성에 따라 각 타겟팅 워크플로우에 대한 로컬 확장).
+* 데이터 마트에서 모델링되지 않은 데이터를 포함하여 타겟팅 프로세스를 단순화 및 최적화(새 테이블 만들기: 구성에 따라 각 타겟팅 워크플로에 대한 로컬 확장).
 * 특히 타겟 구성 단계 또는 데이터베이스 관리 동안 버퍼 계산 보관 및 전달
 * 외부 베이스 액세스(선택 사항): 타겟팅 프로세스 중에 고려된 다른 유형의 데이터베이스
 
-[여기를 클릭하여 자세히 알아보고](../../workflow/using/targeting-data.md#data-management) 복합 타겟을 디자인하며 데이터 관리 워크플로우 활동을 결합한 데이터 작업을 수행합니다.
+[여기를 클릭하여 자세히 알아보고](../../workflow/using/targeting-data.md#data-management) 복합 타겟을 디자인하며 데이터 관리 워크플로 활동을 결합한 데이터 작업을 수행합니다.
 
 ## 개인화된 메시지 전송을 자동화할 수 있습니까? {#can-i-automate-personalized-messages-sending-}
 

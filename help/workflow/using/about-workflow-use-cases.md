@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 워크플로우 사용 사례 기본 정보
+title: 워크플로 사용 사례 기본 정보
 description: Campaign Classic 워크플로우를 사용하여 수행할 수 있는 사용 사례에 대해 자세히 알아보기
 feature: Workflows, Data Management
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
@@ -27,7 +27,7 @@ ht-degree: 28%
 * [A/B 테스트](../../delivery/using/a-b-testing-use-case.md)
 * [생일 이메일 보내기](sending-a-birthday-email.md)
 * [게재 콘텐츠 로드 중](loading-delivery-content.md)
-* [크로스 채널 게재 워크플로우](cross-channel-delivery-workflow.md)
+* [크로스 채널 게재 워크플로](cross-channel-delivery-workflow.md)
 * [사용자 정의 날짜 필드를 통한 이메일 강화](email-enrichment-with-custom-date-fields.md)
 * [콘텐츠 만들기, 에디션 및 게시 자동화](../../delivery/using/automating-via-workflows.md#examples)
 

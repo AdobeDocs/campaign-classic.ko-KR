@@ -55,7 +55,7 @@ ht-degree: 4%
 데이터베이스 정리 워크플로우에 대한 자세한 내용은 [이 섹션](../../production/using/database-cleanup-workflow.md)을 참조하십시오.
 
 
-## 기술 워크플로우 {#technical-workflows}
+## 기술 워크플로 {#technical-workflows}
 
 트랜잭션 메시지 템플릿을 배포하기 전에 제어 인스턴스 및 다른 실행 인스턴스의 기술 워크플로우가 실제로 생성 및 시작되었는지 확인해야 합니다.
 

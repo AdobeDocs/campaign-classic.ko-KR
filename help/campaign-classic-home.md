@@ -57,7 +57,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     </td>
     <td>
     <a href="workflow/using/about-workflows.md"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
-    <div><strong>워크플로우로 자동화</strong><br/>워크플로우를 활용하여 세분화, 캠페인 실행, 파일 처리, 인원 참여 등의 프로세스를 디자인하는 방법을 알아봅니다.
+    <div><strong>워크플로로 자동화</strong><br/>워크플로를 활용하여 세분화, 캠페인 실행, 파일 처리, 인원 참여 등의 프로세스를 디자인하는 방법을 알아봅니다.
     </div></td>
     <td>
     <a href="delivery/using/steps-about-delivery-creation-steps.md"><img src="assets/do-not-localize/start-deliveries.jpeg"></a>
@@ -84,7 +84,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>고객 경험</strong><br/><a href="workflow/using/about-workflows.md">워크플로우로 자동화</a> - <a href="campaign/using/setting-up-marketing-campaigns.md">마케팅 캠페인</a> - <a href="interaction/using/interaction-and-offer-management.md">상호 작용 및 오퍼 관리</a> - <a href="delivery/using/about-personalization.md">개인화</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">보고</a>
+      <strong>고객 경험</strong><br/><a href="workflow/using/about-workflows.md">워크플로로 자동화</a> - <a href="campaign/using/setting-up-marketing-campaigns.md">마케팅 캠페인</a> - <a href="interaction/using/interaction-and-offer-management.md">상호 작용 및 오퍼 관리</a> - <a href="delivery/using/about-personalization.md">개인화</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">보고</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">

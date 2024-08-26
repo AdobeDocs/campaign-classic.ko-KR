@@ -11,7 +11,7 @@ ht-degree: 10%
 
 ---
 
-# 워크플로우 활동{#wf-activities}
+# 워크플로 활동{#wf-activities}
 
 
 
@@ -27,4 +27,4 @@ ht-degree: 10%
 
 * [타겟팅 활동 기본 정보](about-targeting-activities.md)
 * [워크플로우 실행](starting-a-workflow.md)
-* [워크플로우 모범 사례](workflow-best-practices.md)
+* [워크플로 모범 사례](workflow-best-practices.md)

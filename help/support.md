@@ -32,7 +32,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 
 ### FAQ
 
-새 빌드로 업그레이드하는 방법 워크플로우 실행을 모니터링하는 방법 데이터베이스 정리 워크플로란?.. [상위 10개 질문 읽기](platform/using/common-questions.md).
+새 빌드로 업그레이드하는 방법 워크플로 실행을 모니터링하는 방법 데이터베이스 정리 워크플로란?.. [상위 10개 질문 읽기](platform/using/common-questions.md).
 
 <table>
     <tr><td><strong>주제 질문 및 답변</strong></td><td><strong>일반적인 문제</strong></td><td><strong>모범 사례</strong></td><td><strong>방법</strong></td></tr>
@@ -61,11 +61,11 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
     </td>
    <td valign="top">
         <ul>
-        <li><a href="workflow/using/workflow-best-practices.md">워크플로우 모범 사례</a></li>
+        <li><a href="workflow/using/workflow-best-practices.md">워크플로 모범 사례</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">기술 워크플로우 모니터링</a></li>
         <li><a href="delivery/using/about-message-tracking.md">추적 관리 이해</a></li>
         <li><a href="production/using/monitoring-guidelines.md">모니터링 도구 살펴보기</a></li>
-        <li><a href="platform/using/import-export-workflows.md">워크플로우로 데이터 가져오기</a></li>
+        <li><a href="platform/using/import-export-workflows.md">워크플로로 데이터 가져오기</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">여러 번의 웨이브로 메시지 보내기</a></li>
         <li><a href="delivery/using/defining-the-email-content.md">이메일 콘텐츠 디자인</a></li>
         <li><a href="delivery/using/delivery-best-practices.md">게재 모범 사례</a></li>
@@ -81,7 +81,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
         <li><a href="platform/using/privacy-management.md">개인 정보 및 동의 관리</a></li>
         <li><a href="platform/using/steps-to-create-a-query.md">쿼리 디자인</a></li>
         <li><a href="workflow/using/querying-recipient-table.md">쿼리 샘플</a></li>
-        <li><a href="workflow/using/building-a-workflow.md">워크플로우 구축</a></li>
+        <li><a href="workflow/using/building-a-workflow.md">워크플로 구축</a></li>
         </ul>
     </td>
     </tr>

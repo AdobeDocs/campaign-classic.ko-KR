@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 워크플로우를 사용하여 프로필 목록 만들기
+title: 워크플로를 사용하여 프로필 목록 만들기
 description: 워크플로우에서 프로필 목록을 만드는 방법을 알아봅니다
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Workflows, Profiles
@@ -13,7 +13,7 @@ ht-degree: 11%
 
 ---
 
-# 워크플로우를 사용하여 프로필 목록 만들기{#creating-a-profile-list-with-a-workflow}
+# 워크플로를 사용하여 프로필 목록 만들기{#creating-a-profile-list-with-a-workflow}
 
 
 새 받는 사람 테이블을 기반으로 **[!UICONTROL List]** 형식 목록을 만들려면 목록을 생성할 타깃팅 워크플로우를 만들어야 합니다.

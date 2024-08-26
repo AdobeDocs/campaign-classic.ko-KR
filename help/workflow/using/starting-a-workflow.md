@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 워크플로우 시작
+title: 워크플로 시작
 description: 워크플로우를 시작하고 워크플로우 작업 을 검색하는 방법 도구 모음 및 마우스 오른쪽 버튼 클릭 메뉴
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 ---
 
-# 워크플로우 시작 {#starting-a-workflow}
+# 워크플로 시작 {#starting-a-workflow}
 
 
 

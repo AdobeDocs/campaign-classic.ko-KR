@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 데이터베이스 정리 워크플로우
+title: 데이터베이스 정리 워크플로
 description: 오래된 데이터를 자동으로 정리하는 방법 알아보기
 feature: Monitoring, Workflows
 audience: production
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# 데이터베이스 정리 워크플로우{#database-cleanup-workflow}
+# 데이터베이스 정리 워크플로{#database-cleanup-workflow}
 
 
 

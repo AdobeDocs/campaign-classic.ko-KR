@@ -34,7 +34,7 @@ ht-degree: 13%
 **[!UICONTROL JavaScript code]** 및 **[!UICONTROL Advanced JavaScript code]** 활동은 워크플로우의 컨텍스트에서 JavaScript 스크립트를 실행합니다. 스크립팅에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
 * [JavaScript 스크립트 및 템플릿](javascript-scripts-and-templates.md)
-* [워크플로우의 JavaScript 코드 예](javascript-in-workflows.md)
+* [워크플로의 JavaScript 코드 예](javascript-in-workflows.md)
 
 ### 실행 지연 {#exec-delay}
 

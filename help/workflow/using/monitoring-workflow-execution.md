@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 워크플로우 실행 모니터링
-description: 워크플로우 실행 모니터링
+title: 워크플로 실행 모니터링
+description: 워크플로 실행 모니터링
 feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
@@ -11,7 +11,7 @@ ht-degree: 2%
 
 ---
 
-# 워크플로우 실행 모니터링 {#monitoring-workflow-execution}
+# 워크플로 실행 모니터링 {#monitoring-workflow-execution}
 
 
 

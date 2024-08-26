@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 기술 워크플로우 모니터링
-description: 기술 워크플로우 모니터링
+title: 기술 워크플로 모니터링
+description: 기술 워크플로 모니터링
 feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
@@ -11,7 +11,7 @@ ht-degree: 5%
 
 ---
 
-# 기술 워크플로우 모니터링 {#monitoring-technical-workflows}
+# 기술 워크플로 모니터링 {#monitoring-technical-workflows}
 
 
 
@@ -31,7 +31,7 @@ ht-degree: 5%
 * 너무 오래된 프로세스가 없는지 확인합니다.
 * 다른 프로세스의 로그 파일에 경고 및 반복 오류가 포함되어 있지 않은지 확인하십시오.
 
-## 기술 워크플로우 {#technical-workflows}
+## 기술 워크플로 {#technical-workflows}
 
 기술 워크플로우는 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**&#x200B;에서 사용할 수 있습니다.
 

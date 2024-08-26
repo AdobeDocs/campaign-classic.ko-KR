@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 워크플로우를 통한 자동화
+title: 워크플로를 통한 자동화
 description: 워크플로우를 통해 콘텐츠 관리를 자동화하는 방법 알아보기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Workflows
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# 워크플로우 자동화{#automating-via-workflows}
+# 워크플로 자동화{#automating-via-workflows}
 
 ## 콘텐츠 관리 활동 {#content-management-activity}
 

@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 기술 워크플로우
+title: 기술 워크플로
 description: Campaign Classic 패키지와 함께 사용할 수 있는 기술 워크플로우에 대해 자세히 알아보기
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 ---
 
-# 기술 워크플로우{#about-technical-workflows}
+# 기술 워크플로{#about-technical-workflows}
 
 
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 기술 워크플로우 목록 {#list-technical-workflows}
 
-| 기술 워크플로우 | 패키지 | 설명 |
+| 기술 워크플로 | 패키지 | 설명 |
 |------|--------|-----------|
 | **별칭 정리**(aliasCleaning) | 게재 | 이 워크플로우는 열거형 값을 표준화합니다. 기본적으로 매일 오전 3시에 트리거됩니다. |
 | **청구**(청구) | 게재 | 이 워크플로우는 &#39;과금&#39; 운영자에게 이메일로 시스템 활동 보고서를 보냅니다. 마케팅 인스턴스에서 매월 25일에 트리거됩니다. |
