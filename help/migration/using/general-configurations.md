@@ -9,7 +9,7 @@ topic-tags: configuration
 hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: afbec7b3df810c8c1818a4fb93c5f7e30f7a753b
+source-git-commit: 7906e9fee164d731659bbb9f96394faca5961240
 workflow-type: tm+mt
 source-wordcount: '2558'
 ht-degree: 0%
@@ -17,8 +17,6 @@ ht-degree: 0%
 ---
 
 # 일반 구성{#general-configurations}
-
-
 
 이 섹션에서는 v5.11 또는 v6.02에서 마이그레이션할 때 Adobe Campaign v7에서 수행해야 하는 구성에 대해 자세히 설명합니다.
 

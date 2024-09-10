@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+source-git-commit: 7906e9fee164d731659bbb9f96394faca5961240
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Java 개발 키트(JDK)는 소프트웨어 개발 키트입니다. Java 애플�
 
 >[!AVAILABILITY]
 >
->* v7.4.1부터 Campaign에는 Java JDK 11 이상이 필요합니다. Campaign 서버가 Windows 환경에 설치된 경우 기본적으로 더 이상 제공되지 않으므로 JRE를 생성해야 합니다.
+>* v7.4.1부터 Campaign에는 Java JDK 11 이상이 필요합니다. Campaign 서버가 Windows 환경에 설치된 경우 기본적으로 더 이상 제공되지 않으므로 JRE를 생성해야 합니다. Java 런타임 DLL(jvm.dll)을 찾으려면 JRE_HOME 환경 변수가 필요합니다.
 >
 >* v7.4.1부터 Tomcat 10.1이 기본 버전입니다.
 >
