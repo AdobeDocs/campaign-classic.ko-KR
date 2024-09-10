@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 1%
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 오퍼는 자동으로 배포된 후 실행 및 제어 인스턴스에 게시됩니다.
 
-디자인 환경에서 삭제된 오퍼는 모든 온라인 인스턴스에서 비활성화됩니다. 사용되지 않는 제안 및 오퍼는 제거 기간(각 인스턴스의 배포 도우미에 지정됨) 및 슬라이딩 기간(수신 제안 유형화 규칙에 지정됨) 이후 모든 인스턴스에서 자동으로 삭제됩니다.
+디자인 환경에서 삭제된 오퍼는 모든 온라인 인스턴스에서 비활성화됩니다. 사용되지 않는 제안 및 오퍼는 제거 기간(각 인스턴스의 배포 마법사에 지정됨) 및 슬라이딩 기간(수신 제안 유형화 규칙에 지정됨) 이후 모든 인스턴스에서 자동으로 삭제됩니다.
 
 ![](assets/interaction_powerbooster_schema2.png)
 

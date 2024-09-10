@@ -6,7 +6,7 @@ feature: Application Settings
 role: Data Engineer, Developer
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '2398'
 ht-degree: 0%
@@ -613,12 +613,12 @@ ht-degree: 0%
 
 ## 마법사 {#wizards}
 
-마법사는 페이지 형태로 데이터 입력 단계를 안내합니다. 입력한 데이터는 양식의 유효성을 검사할 때 저장됩니다.
+도우미는 페이지 형태로 데이터 입력 단계 집합을 안내합니다. 입력한 데이터는 양식의 유효성을 검사할 때 저장됩니다.
 
-마법사에는 다음과 같은 구조가 있습니다.
+어시스턴트는 다음과 같은 구조를 가지고 있습니다.
 
 ```xml
-<form type="wizard" name="example" namespace="cus" img="nms:rcpgroup32.png" label="Wizard example" entity-schema="nms:recipient">
+<form type="wizard" name="example" namespace="cus" img="nms:rcpgroup32.png" label="Assistant example" entity-schema="nms:recipient">
   <container title="Title of page 1" desc="Long description of page 1">
     <input xpath="@lastName"/>
     <input xpath="comment"/>
@@ -632,7 +632,7 @@ ht-degree: 0%
 
 ![](assets/d_ncs_integration_form_exemple19.png)
 
-`<form>` 요소에 **type=&quot;wizard&quot;** 특성이 있으면 양식 구성에서 마법사 모드를 정의할 수 있습니다. `<form>` 요소의 하위 요소인 `<container>` 요소에서 페이지가 완료됩니다. 페이지의 `<container>` 요소는 제목의 제목 특성으로 채워지고 페이지 제목 아래에 설명을 표시하도록 설명됩니다. 페이지 간 탐색을 허용하도록 **[!UICONTROL Previous]** 및 **[!UICONTROL Next]** 단추가 자동으로 추가됩니다.
+`<form>` 요소에 **type=&quot;wizard&quot;** 특성이 있으면 양식을 작성할 때 도우미 모드를 정의할 수 있습니다. `<form>` 요소의 하위 요소인 `<container>` 요소에서 페이지가 완료됩니다. 페이지의 `<container>` 요소는 제목의 제목 특성으로 채워지고 페이지 제목 아래에 설명을 표시하도록 설명됩니다. 페이지 간 탐색을 허용하도록 **[!UICONTROL Previous]** 및 **[!UICONTROL Next]** 단추가 자동으로 추가됩니다.
 
 **[!UICONTROL Finish]** 단추를 사용하면 입력한 데이터가 저장되고 양식이 닫힙니다.
 

@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 2%
@@ -216,11 +216,11 @@ ht-degree: 2%
 
    [이 페이지](../../installation/using/creating-an-instance-and-logging-on.md) 및 [이 섹션](../../installation/using/configuring-campaign-server.md#internal-identifier)을 참조하세요.
 
-   처음으로 로그인하면 데이터베이스 만들기 마법사가 나타납니다.
+   처음으로 로그인하면 Database Creation Assistant가 나타납니다.
 
    ![](assets/s_ncs_install_db_oracle_creation01.png)
 
-   마법사의 단계에 따라 연결 인스턴스와 연결된 데이터베이스를 만듭니다.
+   도우미의 단계에 따라 연결 인스턴스와 연결된 데이터베이스를 만듭니다.
 
    자세한 내용은 [데이터베이스 만들기 및 구성](../../installation/using/creating-and-configuring-the-database.md)을 참조하세요.
 

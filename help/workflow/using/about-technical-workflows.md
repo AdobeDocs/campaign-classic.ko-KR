@@ -4,7 +4,7 @@ title: 기술 워크플로
 description: Campaign Classic 패키지와 함께 사용할 수 있는 기술 워크플로우에 대해 자세히 알아보기
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 | **HeatMap 서비스에 대한 데이터 수집**(collectDataHeatMapService) | 기본적으로 설치됨 | 이 워크플로우는 HeatMap 서비스에 필요한 데이터를 검색합니다. |
 | **개인 정보 보호 요청 수집**(collectPrivacyRequests) | 개인 정보 보호 규정 | 이 워크플로우는 Adobe Campaign에 저장된 수신자의 데이터를 생성하여 개인 정보 보호 요청의 화면에서 다운로드할 수 있도록 합니다. |
 | **비용 계산**(budgetMgt) | 마케팅 캠페인(캠페인) | 이 워크플로우에서는 예산, 계획, 프로그램, 캠페인, 게재 및 태스크에 대한 경비 및 원가 라인 계산을 시작합니다. |
-| **데이터베이스 정리**(정리) | 게재 | 이 워크플로우는 데이터베이스 유지 관리 워크플로우입니다. 통계 및 프로세스에서 다른 계산을 수행하고 배포 도우미에 정의된 구성에 따라 데이터베이스에서 오래된 데이터를 삭제합니다. 기본적으로 매일 오전 4시에 트리거됩니다. 자세한 정보는 [이 페이지](../../production/using/database-cleanup-workflow.md#monitoring-campaign-classic)를 참조하십시오. |
+| **데이터베이스 정리**(정리) | 게재 | 이 워크플로우는 데이터베이스 유지 관리 워크플로우입니다. 통계 및 프로세스에서 다른 계산을 수행하고 배치 마법사에서 정의된 구성에 따라 데이터베이스에서 오래된 데이터를 삭제합니다. 기본적으로 매일 오전 4시에 트리거됩니다. 자세한 정보는 [이 페이지](../../production/using/database-cleanup-workflow.md#monitoring-campaign-classic)를 참조하십시오. |
 | **차단된 LINE 사용자 삭제**(deleteBlockedLineUsersV2) | LINE 채널 | 이 워크플로우에서는 180일 동안 LINE 공식 계정을 차단한 후 LINE V2 사용자의 데이터를 삭제합니다. |
 | **개인 정보 보호 요청 데이터 삭제**(deletePrivacyRequestsData) | 개인 정보 보호 규정 | 이 워크플로우는 Adobe Campaign에 저장된 수신자의 데이터를 삭제합니다. |
 | **게재 표시기**(deliveryIndicators) | 중간 소싱 플랫폼 | 이 워크플로우는 게재에 대한 게재 추적 지표를 업데이트합니다. 이 워크플로우는 기본적으로 매 시간마다 트리거됩니다. |

@@ -8,22 +8,25 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
 
-# LDAP를 통해 연결{#connecting-through-ldap}
+# LDAP를 통해 연결 {#connecting-through-ldap}
 
 ## Campaign 및 LDAP 구성 {#configuring-campaign-and-ldap}
 
 >[!NOTE]
 >
->LDAP 구성은 온-프레미스 또는 하이브리드 설치에서만 가능합니다.
+>* LDAP 구성은 온-프레미스 또는 하이브리드 설치에서만 가능합니다.
+>
+>* 시스템 및 openssl 버전이 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)에서 Campaign과 호환되는지 확인하십시오. 오래된 버전은 LDAP 인증에 영향을 줄 수 있습니다.
+>
 
-LDAP 구성은 배포 마법사에서 수행됩니다. 첫 번째 구성 단계에서 **[!UICONTROL LDAP integration]** 옵션을 선택해야 합니다. [배포 마법사](../../installation/using/deploying-an-instance.md#deployment-wizard)를 참조하세요.
+LDAP 구성은 배포 마법사에서 수행됩니다. 첫 번째 구성 단계에서 **[!UICONTROL LDAP integration]** 옵션을 선택해야 합니다. [배포 마법사](../../installation/using/deploying-an-instance.md#deployment-assistant)를 참조하세요.
 
 이 창에서는 지정된 LDAP 디렉터리를 통해 Adobe Campaign 사용자 식별을 구성할 수 있습니다.
 
@@ -32,29 +35,19 @@ LDAP 구성은 배포 마법사에서 수행됩니다. 첫 번째 구성 단계�
 * **[!UICONTROL LDAP server]** 필드에 LDAP 서버의 주소를 지정하십시오. 포트 번호를 추가할 수 있습니다. 기본적으로 사용되는 포트는 389입니다.
 * 드롭다운 목록에서 사용자에 대한 인증 방법을 선택합니다.
 
-   * 암호화된 암호(**md5**)
+   * 암호화된 암호(**md5**) - 기본 모드입니다.
 
-     기본 모드.
-
-   * 일반 텍스트 암호 + SSL(**TLS**)
-
-     전체 인증 절차(암호 포함)는 암호화됩니다. 이 모드에서는 보안 포트 636을 사용하지 않아야 합니다. Adobe Campaign은 자동으로 보안 모드로 전환됩니다.
+   * 일반 텍스트 암호 + SSL(**TLS**) - 전체 인증 절차(암호 포함)가 암호화됩니다. 이 모드에서는 보안 포트 636을 사용하지 않아야 합니다. Adobe Campaign은 자동으로 보안 모드로 전환됩니다.
 
      이 인증 모드를 사용하는 경우 Linux에서는 openLDAP 클라이언트 라이브러리로 인증서를 확인합니다. 인증 절차가 암호화되도록 유효한 SSL 인증서를 사용하는 것이 좋습니다. 그렇지 않으면 정보는 일반 텍스트로 표시됩니다.
 
      인증서는 Windows에서도 확인됩니다.
 
-   * Windows NT LAN 관리자(**NTLM**)
+   * Windows NT LAN 관리자(**NTLM**) - 소유 Windows 인증. **[!UICONTROL Unique identifier]**&#x200B;은(는) 도메인 이름에만 사용됩니다.
 
-     소유 Windows 인증. **[!UICONTROL Unique identifier]**&#x200B;은(는) 도메인 이름에만 사용됩니다.
+   * 분산 암호 인증(**DPA**) - 전용 Windows 인증. **[!UICONTROL Unique identifier]**&#x200B;은(는) 도메인 이름(domain.com)에만 사용됩니다.
 
-   * 분산 암호 인증(**DPA**)
-
-     소유 Windows 인증. **[!UICONTROL Unique identifier]**&#x200B;은(는) 도메인 이름(domain.com)에만 사용됩니다.
-
-   * 일반 텍스트 암호
-
-     암호화 없음(테스트 단계에서만 사용).
+   * 일반 텍스트 암호 - 암호화 없음(테스트 단계에서만 사용).
 
 * 사용자 인증 모드를 선택하십시오. **[!UICONTROL Automatically compute the unique user identifier]**([고유 이름 계산](#distinguished-name-calculation)단계 참조) 또는 **[!UICONTROL Search the unique user identifier in the directory]**([식별자 검색](#searching-for-identifiers)단계 참조).
 

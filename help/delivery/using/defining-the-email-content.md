@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Email Design
 role: User
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '1958'
 ht-degree: 1%
@@ -117,7 +117,7 @@ Adobe Campaign을 사용하면 특정 조건에서 동적 전자 메일을 전�
 
 ## 콘텐츠 관리 사용 {#using-content-management}
 
-콘텐츠 관리 양식을 사용하여 게재 마법사에서 직접 게재 콘텐츠를 정의할 수 있습니다. 이렇게 하려면 게재 속성의 **[!UICONTROL Advanced]** 탭에서 사용할 콘텐츠 관리의 게시 템플릿을 참조해야 합니다.
+콘텐츠 관리 양식을 사용하여 게재 도우미에서 직접 게재 콘텐츠를 정의할 수 있습니다. 이렇게 하려면 게재 속성의 **[!UICONTROL Advanced]** 탭에서 사용할 콘텐츠 관리의 게시 템플릿을 참조해야 합니다.
 
 ![](assets/s_ncs_content_in_delivery.png)
 
@@ -144,7 +144,7 @@ Adobe Campaign을 사용하면 특정 조건에서 동적 전자 메일을 전�
 
 ## 이미지 추가 {#adding-images}
 
-HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 마법사에서 이미지가 포함된 HTML 페이지를 가져오거나 **[!UICONTROL Image]** 아이콘을 통해 HTML 편집기를 사용하여 직접 이미지를 삽입할 수 있습니다.
+HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 도우미에서 이미지가 포함된 HTML 페이지를 가져오거나 **[!UICONTROL Image]** 아이콘을 통해 HTML 편집기를 사용하여 직접 이미지를 삽입할 수 있습니다.
 
 
 ### 보호 기능 {#img-guardrails}
@@ -166,7 +166,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
 ### 이미지 삽입 및 관리 {#manage-images}
 
-게재 마법사를 사용하여 로컬 이미지 또는 라이브러리에 저장된 이미지를 메시지 콘텐츠에 추가할 수 있습니다. 이렇게 하려면 HTML 콘텐츠 도구 모음에서 **[!UICONTROL Image]** 단추를 클릭합니다.
+게재 도우미에서 로컬 이미지 또는 라이브러리에 저장된 이미지를 메시지 콘텐츠에 추가할 수 있습니다. 이렇게 하려면 HTML 콘텐츠 도구 모음에서 **[!UICONTROL Image]** 단추를 클릭합니다.
 
 ![](assets/s_ncs_user_image_from_library.png)
 
@@ -174,7 +174,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 >
 >수신자가 수신한 메시지에 포함된 이미지를 볼 수 있으려면 이러한 메시지는 외부에서 액세스할 수 있는 서버에서 사용할 수 있어야 합니다.
 
-게재 마법사를 통해 이미지를 관리하려면 다음 작업을 수행하십시오.
+게재 도우미를 통해 이미지를 관리하려면 다음을 수행하십시오.
 
 1. 도구 모음에서 **[!UICONTROL Tracking & Images]** 아이콘을 클릭합니다.
    ![](assets/s_ncs_user_email_del_img_param.png)
@@ -184,9 +184,9 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
    ![](assets/s_ncs_user_email_del_img_upload.png)
 
 * 게재 분석 단계를 기다리지 않고 이미지를 수동으로 업로드할 수 있습니다. 이렇게 하려면 **[!UICONTROL Upload the images straightaway...]** 링크를 클릭하십시오.
-* 추적 서버의 이미지에 액세스하기 위한 다른 경로를 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Images URL]** 필드에 입력하십시오. 이 값은 설치 마법사의 매개 변수에 정의된 값을 재정의합니다.
+* 추적 서버의 이미지에 액세스하기 위한 다른 경로를 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Images URL]** 필드에 입력하십시오. 이 값은 설치 도우미의 매개 변수에 정의된 값을 재정의합니다.
 
-게재 마법사에 포함된 이미지가 있는 HTML 콘텐츠를 열면 메시지가 게재 매개 변수에 따라 이미지를 즉시 업로드할 수 있는 옵션을 제공합니다.
+게재 도우미에 포함된 이미지가 있는 HTML 콘텐츠를 열면 메시지가 게재 매개 변수에 따라 이미지를 즉시 업로드할 수 있는 옵션을 제공합니다.
 
 ![](assets/s_ncs_user_email_del_img_local.png)
 

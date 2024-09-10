@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '3389'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 >서버측 구성은 Adobe에서 호스팅하는 배포에 대해 Adobe에 의해서만 수행될 수 있습니다. 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지](../../installation/using/capability-matrix.md)를 참조하세요.
 
-## 배포 마법사 {#deployment-wizard}
+## 배포 마법사 {#deployment-assistant}
 
 Adobe Campaign은 Adobe Campaign 클라이언트 콘솔에서 사용할 수 있는 그래픽 도우미를 제공하여 연결할 인스턴스의 매개 변수를 정의합니다.
 
@@ -396,11 +396,11 @@ Adobe Campaign을 사용하면 이러한 세 가지 URL을 구별하여 여러 �
 각 URL 마스크를 구분하기 위해 쉼표를 사용하여 여러 URL 마스크를 지정할 수 있습니다.
 
 * 전자 메일에서 이미지를 사용하고 관리하는 방법에 대한 자세한 내용은 [이 섹션](../../delivery/using/defining-the-email-content.md#adding-images)을 참조하세요.
-* 게재 마법사에서 이러한 URL에서 호출된 이미지의 상태는 &quot;무시됨&quot;입니다.
+* 게재 도우미에서 이러한 URL에서 호출된 이미지는 &quot;무시됨&quot; 상태가 됩니다.
 
 ### 게시 모드 {#publication-modes}
 
-마법사의 아래 섹션에서는 공개 리소스 및 이미지의 게시 옵션을 선택할 수 있습니다.
+길잡이의 아래 섹션에서 공개 리소스 및 이미지의 게시 옵션을 선택할 수 있습니다.
 
 다음 게시 모드를 사용할 수 있습니다.
 

@@ -3,7 +3,7 @@ product: campaign
 title: 게재
 description: 기본 게재 워크플로우에 대해 자세히 알아보기
 feature: Workflows
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 4%
@@ -47,7 +47,7 @@ ht-degree: 4%
   <tr> 
    <td> <span class="uicontrol">데이터베이스 정리</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
-   <td> <p>이 워크플로우는 데이터베이스 유지 관리 워크플로우입니다. 통계 및 프로세스에서 다른 계산을 수행하고 배포 도우미에 정의된 구성에 따라 데이터베이스에서 오래된 데이터를 삭제합니다. 기본적으로 매일 오전 4시에 트리거됩니다.</p> <p>자세한 정보는 이 <a href="../../production/using/database-cleanup-workflow.md">페이지</a>를 참조하세요.</p> </td> 
+   <td> <p>이 워크플로우는 데이터베이스 유지 관리 워크플로우입니다. 통계 및 프로세스에서 다른 계산을 수행하고 배치 마법사에서 정의된 구성에 따라 데이터베이스에서 오래된 데이터를 삭제합니다. 기본적으로 매일 오전 4시에 트리거됩니다.</p> <p>자세한 정보는 이 <a href="../../production/using/database-cleanup-workflow.md">페이지</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">워크플로 정리가 일시 중지됨</span> <br /> </td> 

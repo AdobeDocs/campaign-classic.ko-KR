@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 1%
@@ -133,13 +133,13 @@ ht-degree: 1%
 
 ### 6단계 - 데이터베이스 만들기 {#step-6---creating-the-database}
 
-마법사의 마지막 단계에서는 데이터베이스를 만들 수 있습니다. **[!UICONTROL Start]**&#x200B;을(를) 클릭하여 확인합니다.
+도우미의 마지막 단계에서는 데이터베이스를 만들 수 있습니다. **[!UICONTROL Start]**&#x200B;을(를) 클릭하여 확인합니다.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
 데이터베이스가 생성되면 다시 연결하여 인스턴스 구성을 완료할 수 있습니다.
 
-이제 배포 마법사를 시작하여 인스턴스 구성을 완료해야 합니다. [배포 마법사](../../installation/using/deploying-an-instance.md#deployment-wizard)를 참조하세요.
+이제 배포 마법사를 시작하여 인스턴스 구성을 완료해야 합니다. [배포 마법사](../../installation/using/deploying-an-instance.md#deployment-assistant)를 참조하세요.
 
 인스턴스에 연결된 데이터베이스에 대한 연결 설정이 Adobe Campaign 설치 디렉터리에 있는 **`/conf/config-<instance>.xml`** 파일에 저장됩니다.
 
@@ -224,13 +224,13 @@ ht-degree: 1%
 
 ### 5단계 - 데이터베이스 만들기 {#step-5---creating-the-database}
 
-마법사의 마지막 단계에서는 데이터베이스를 만들 수 있습니다. **[!UICONTROL Start]**&#x200B;을(를) 클릭하여 확인합니다.
+도우미의 마지막 단계에서는 데이터베이스를 만들 수 있습니다. **[!UICONTROL Start]**&#x200B;을(를) 클릭하여 확인합니다.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
 데이터베이스 생성이 완료되면 다시 연결하여 인스턴스 구성을 완료할 수 있습니다.
 
-이제 배포 마법사를 시작하여 인스턴스 구성을 완료해야 합니다. [배포 마법사](../../installation/using/deploying-an-instance.md#deployment-wizard)를 참조하세요.
+이제 배포 마법사를 시작하여 인스턴스 구성을 완료해야 합니다. [배포 마법사](../../installation/using/deploying-an-instance.md#deployment-assistant)를 참조하세요.
 
 인스턴스에 연결된 데이터베이스에 대한 연결 설정이 Adobe Campaign 설치 디렉터리에 있는 **`/conf/config-<instance>.xml`** 파일에 저장됩니다.
 

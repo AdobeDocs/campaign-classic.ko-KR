@@ -7,7 +7,7 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 4%
@@ -34,11 +34,11 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->큐에 대기 중인 이벤트 수가 Adobe Campaign 프로세스 모니터링 페이지의 [시스템 표시기](../../production/using/monitoring-processes.md#system-indicators) 섹션에 표시됩니다. 배포 마법사에 대한 자세한 내용은 [이 섹션](../../installation/using/deploying-an-instance.md#deployment-wizard)을 참조하세요.
+>큐에 대기 중인 이벤트 수가 Adobe Campaign 프로세스 모니터링 페이지의 [시스템 표시기](../../production/using/monitoring-processes.md#system-indicators) 섹션에 표시됩니다. 배포 마법사에 대한 자세한 내용은 [이 섹션](../../installation/using/deploying-an-instance.md#deployment-assistant)을 참조하세요.
 
 ## 이벤트 제거 {#purging-events}
 
-[배포 마법사](../../production/using/database-cleanup-workflow.md#deployment-wizard)를 사용하여 데이터베이스에 데이터를 저장할 기간을 구성할 수 있습니다.
+[배포 마법사](../../production/using/database-cleanup-workflow.md#deployment-assistant)를 사용하여 데이터베이스에 데이터를 저장할 기간을 구성할 수 있습니다.
 
 이벤트 삭제는 [데이터베이스 정리 워크플로우](../../production/using/database-cleanup-workflow.md)에서 자동으로 수행됩니다. 이 워크플로우는 실행 인스턴스에 수신 및 저장된 이벤트와 제어 인스턴스에 보관된 이벤트를 삭제합니다.
 
