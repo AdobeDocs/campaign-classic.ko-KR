@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 3307c75ed7df0fcd357dd7c684481c62e0457e04
+source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
 workflow-type: tm+mt
 source-wordcount: '2552'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -294,7 +294,7 @@ ht-degree: 100%
       + [사람 및 수신자](reporting/using/person-people-recipients.md)
    + 모집단 분석 {#analyzing-populations}
       + [기술적 분석 정보](reporting/using/about-descriptive-analysis.md)
-      + [기술적 분석 마법사 사용](reporting/using/using-the-descriptive-analysis-wizard.md)
+      + [설명 분석 도우미 사용](reporting/using/using-the-descriptive-analysis-wizard.md)
       + [보고서 설정](reporting/using/processing-a-report.md)
       + [활용 사례](reporting/using/use-cases.md)
    + 새 보고서 만들기 {#creating-new-reports}
@@ -538,7 +538,7 @@ ht-degree: 100%
       + [시뮬레이션 추적](interaction/using/simulation-tracking.md)
    + 오퍼 게재 {#delivering-an-offer}
       + [아웃바운드 채널 정보](interaction/using/about-outbound-channels.md)
-      + [마법사를 통한 오퍼 통합](interaction/using/integrating-an-offer-via-the-wizard.md)
+      + [도우미를 통해 오퍼 통합](interaction/using/integrating-an-offer-via-the-wizard.md)
       + [워크플로를 통한 오퍼 통합](interaction/using/integrating-an-offer-via-a-workflow.md)
    + 유니터리 상호 작용 {#unitary-interactions}
       + [인바운드 채널 정보](interaction/using/about-inbound-channels.md)
@@ -772,7 +772,7 @@ ht-degree: 100%
       + [스키마 필터링](configuration/using/filtering-schemas.md)
       + [PII 보기 제한](configuration/using/restricting-pii-view.md)
       + [데이터베이스 구조 업데이트](configuration/using/updating-the-database-structure.md)
-      + [새 필드 마법사](configuration/using/new-field-wizard.md)
+      + [새 필드 도우미](configuration/using/new-field-wizard.md)
       + [데이터 스키마 구조](configuration/using/structure-of-a-data-schema.md)
       + [스키마 다시 생성](configuration/using/regenerating-schemas.md)
       + [스키마 편집 사례](configuration/using/examples-of-schemas-edition.md)

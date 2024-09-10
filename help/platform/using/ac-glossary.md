@@ -6,7 +6,7 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
 workflow-type: tm+mt
 source-wordcount: '5959'
 ht-degree: 2%
@@ -249,7 +249,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 배포 마법사는 기본 네임스페이스, 데이터베이스 정리 일정, 데이터 보존 기간 및 기타 기술 설정과 같은 Campaign 인스턴스의 매개 변수를 정의합니다.
 
-[배포 마법사](../../installation/using/deploying-an-instance.md#deployment-wizard)에 대해 자세히 알아보세요.
+[배포 마법사](../../installation/using/deploying-an-instance.md#deployment-assistant)에 대해 자세히 알아보세요.
 +++
 
 +++**설명 분석**
@@ -492,7 +492,7 @@ Learn more about [Image serving](../../delivery/using/defining-the-email-content
 
 +++**작업(가져오기 및 내보내기)**
 
-작업은 제품에서 들어오고 나가는 데이터를 간편하게 가져오고 내보내는 마법사 시스템을 통해 관리됩니다. 작업은 단순성과 일관성을 위해 템플릿 시스템을 사용하며 일정에 따라 실행되도록 정의할 수 있습니다.
+작업 관리는 제품에서 들어오고 나가는 데이터를 간편하게 가져오고 내보낼 수 있는 보조 시스템에 의해 관리됩니다. 작업은 단순성과 일관성을 위해 템플릿 시스템을 사용하며 일정에 따라 실행되도록 정의할 수 있습니다.
 
 [가져오기 및 내보내기 작업](../../platform/using/get-started-data-import-export.md)에 대해 자세히 알아보세요.
 +++
