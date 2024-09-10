@@ -5,9 +5,9 @@ description: 마케팅 캠페인 대상을 정의하는 방법 알아보기
 role: User
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 7453db63a0ed2c617e9f7e4cbfa3480b3ed5020d
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1492'
 ht-degree: 1%
 
 ---
@@ -166,6 +166,10 @@ ht-degree: 1%
   **[!UICONTROL Actions]** 아이콘을 클릭하고 **[!UICONTROL Unconditional]** 중지를 선택하여 워크플로우를 무조건적으로 중지할 수 있습니다. 이 작업은 캠페인 워크플로우를 종료합니다.
 
   ![](assets/s_user_segmentation_stop_unconditional.png)
+
+  >[!CAUTION]
+  >
+  >무조건부 중지는 관리자 사용자로 제한됩니다.
 
 ## 컨트롤 그룹 추가 {#defining-a-control-group}
 
