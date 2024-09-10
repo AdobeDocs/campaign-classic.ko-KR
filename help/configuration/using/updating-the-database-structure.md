@@ -5,7 +5,7 @@ description: 데이터베이스 구조 업데이트
 feature: Configuration
 role: Data Engineer, Developer
 exl-id: 6c1e061b-8636-4285-8d83-97474544d252
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 8%
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 
 
-스키마에 대한 수정 사항을 적용하려면 데이터베이스 업데이트 마법사를 시작합니다. 이 마법사는 **[!UICONTROL Tools > Advanced > Update database structure]** 을(를) 통해 액세스할 수 있습니다. 데이터베이스의 물리적 구조가 논리적 설명과 일치하는지 확인하고 SQL 업데이트 스크립트를 실행합니다.
+스키마에 대한 수정 사항을 적용하려면 Database Update Assistant를 실행합니다. 이 도우미는 **[!UICONTROL Tools > Advanced > Update database structure]** 을(를) 통해 액세스할 수 있습니다. 데이터베이스의 물리적 구조가 논리적 설명과 일치하는지 확인하고 SQL 업데이트 스크립트를 실행합니다.
 
 ![](assets/d_ncs_integration_schema_update.png)
 

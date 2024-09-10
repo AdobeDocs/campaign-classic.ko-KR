@@ -5,7 +5,7 @@ description: 스키마 에디션 시작
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 6%
@@ -213,7 +213,7 @@ SQL 필드에 저장되며 **@dataPolicy** 특성이 있는 XML 필드의 예입
 
 ## 데이터베이스 구조 업데이트 {#updating-the-database-structure}
 
-변경 사항이 완료되고 저장되면 SQL 구조에 영향을 줄 수 있는 모든 변경 사항을 데이터베이스에 적용해야 합니다. 이렇게 하려면 데이터베이스 업데이트 마법사를 사용합니다.
+변경 사항이 완료되고 저장되면 SQL 구조에 영향을 줄 수 있는 모든 변경 사항을 데이터베이스에 적용해야 합니다. 이렇게 하려면 Database Update Assistant를 사용합니다.
 
 ![](assets/schemaextension_getting_started_3.png)
 

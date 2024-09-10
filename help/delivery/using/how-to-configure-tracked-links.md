@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Monitoring
 role: User, Developer
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 10%
@@ -37,7 +37,7 @@ ht-degree: 10%
 
 메시지 추적은 기본적으로 활성화되어 있습니다. URL을 추적하는 방법을 개인화하려면 아래 단계를 따르십시오.
 
-1. 메시지 콘텐츠 아래 게재 마법사의 아래 섹션에서 **[!UICONTROL Display URLs]** 옵션을 선택합니다.
+1. 메시지 콘텐츠 아래 배달 도우미의 아래 섹션에서 **[!UICONTROL Display URLs]** 옵션을 선택합니다.
 
    ![](assets/s_ncs_user_email_del_display_urls.png)
 

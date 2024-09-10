@@ -4,7 +4,7 @@ title: 분할
 description: 분할 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: 13eb777e96602ddd3463f721c6b2a3e6b67cb329
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1971'
 ht-degree: 3%
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 1. 대상에서 추출할 최대 레코드 수를 지정하여 하위 집합을 만들 수 있습니다. 이렇게 하려면 **[!UICONTROL Limit the selected records]** 옵션을 선택하고 **[!UICONTROL Edit...]** 링크를 클릭하십시오.
 
-   마법사를 사용하여 이 하위 집합의 레코드에 대한 선택 모드를 선택할 수 있습니다. [하위 집합 레코드 수 제한](#limiting-the-number-of-subset-records)에서 단계를 찾을 수 있습니다.
+   도우미에서 이 하위 집합의 레코드에 대한 선택 모드를 선택할 수 있습니다. [하위 집합 레코드 수 제한](#limiting-the-number-of-subset-records)에서 단계를 찾을 수 있습니다.
 
    ![](assets/s_user_segmentation_partage4.png)
 

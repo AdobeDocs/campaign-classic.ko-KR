@@ -5,7 +5,7 @@ description: 추가 SQL 함수 정의 방법 알아보기
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Adobe Campaign을 통해 사용자는 데이터베이스에서 제공하는 함�
 
 추가할 함수가 XML 형식 **의**&quot;package&quot; 파일에 있습니다. 이 파일의 구조는 다음 단락에 자세히 설명되어 있습니다.
 
-콘솔에서 설치하려면 메뉴에서 **도구/고급/가져오기 패키지** 옵션을 선택한 다음 **[!UICONTROL Install from file]**&#x200B;을(를) 선택하고 가져오기 마법사의 지침을 따릅니다.
+콘솔에서 설치하려면 메뉴에서 **도구/고급/가져오기 패키지** 옵션을 선택한 다음 **[!UICONTROL Install from file]**&#x200B;을(를) 선택하고 가져오기 도우미의 지침을 따릅니다.
 
 >[!IMPORTANT]
 >

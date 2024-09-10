@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Adobe Campaign 콘솔이 시작되면 로그인 페이지에 액세스합니다.
    >연결 URL의 `[a-z]`경우 , , `[A-Z]``[0-9]` 대시(-) 또는 마침표만 사용하십시오.
 
 1. 설정을 확인하려면 클릭 **[!UICONTROL Ok]** : 이제 인스턴스 생성 프로세스를 시작할 수 있습니다.
-1. **[!UICONTROL Connection settings]** 창에서 내부&#x200B;**로그인와 암호 입력하여** Adobe Campaign 애플리케이션 서버에 연결합니다. 연결되면 인스턴스 만들기 마법사에 액세스하여 새 인스턴스를 선언합니다
+1. **[!UICONTROL Connection settings]** 창에서 내부&#x200B;**로그인와 암호 입력하여** Adobe Campaign 애플리케이션 서버에 연결합니다. 연결되면 인스턴스 생성 도우미에 액세스하여 새 인스턴스를 선언합니다
 1. **[!UICONTROL Name]** 필드에 인스턴스 이름을&#x200B;**입력합니다**. 이 이름은 구성 파일 **config-`<instance>`.xml** 를 생성하는 데 사용되며 명령줄 매개 변수에서 인스턴스 식별하는 데 사용되므로 특수 문자가 없는 짧은 이름을 선택해야 합니다. 예: **eMarketing**.
 
    ![](assets/s_ncs_install_create_instance.png)

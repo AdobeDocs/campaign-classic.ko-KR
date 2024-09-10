@@ -8,7 +8,7 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 9%
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 이러한 결과를 저장하고 필요한 경우 결과에 대한 설명 분석을 만들어 내보낼 수 있습니다. 이렇게 하려면 결과 창에서 적절한 링크를 클릭합니다.
 
-설명 분석 마법사에 대한 자세한 내용은 [이 섹션](../../reporting/using/about-descriptive-analysis.md)을 참조하세요.
+설명 분석 도우미에 대한 자세한 내용은 [이 섹션](../../reporting/using/about-descriptive-analysis.md)을 참조하세요.
 
 ![](assets/offer_simulation_012.png)
 

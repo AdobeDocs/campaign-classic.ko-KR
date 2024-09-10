@@ -5,7 +5,7 @@ description: Campaign 보고 모범 사례
 feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 5%
@@ -37,7 +37,7 @@ ht-degree: 5%
    * 워크플로우를 통해 Adobe Campaign 데이터베이스에서 데이터를 내보냅니다. [이 섹션](../../workflow/using/about-workflows.md) 참조
    * 피벗 테이블을 만듭니다. [이 섹션에서](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table) 자세히 알아보기
    * 집계된 데이터를 탐색합니다. [이 섹션에서](../../reporting/using/ac-cubes.md) 자세히 알아보기
-   * 마법사를 사용하여 데이터를 분석합니다. [이 섹션에서](../../reporting/using/about-descriptive-analysis.md) 자세히 알아보기
+   * 도우미를 사용하여 데이터를 분석합니다. [이 섹션에서](../../reporting/using/about-descriptive-analysis.md) 자세히 알아보기
    * 대량의 데이터를 분석합니다. [이 섹션에서](../../reporting/using/about-reports-creation-in-campaign.md) 자세히 알아보기
 
 1. 대상 모집단 식별

@@ -4,7 +4,7 @@ title: 증분 쿼리
 description: 증분 쿼리 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 3%
@@ -35,7 +35,7 @@ ht-degree: 3%
 1. **[!UICONTROL Scheduling & History]** 탭에서 **[!UICONTROL Schedule execution]** 옵션을 선택합니다. 작업은 일단 생성되면 활성 상태로 유지되며, 쿼리 실행 일정에서 지정한 시간에만 트리거됩니다. 그러나 이 옵션을 사용하지 않으면 쿼리가 즉시 **한 번에**&#x200B;실행됩니다.
 1. **[!UICONTROL Change]** 버튼을 클릭합니다.
 
-   **[!UICONTROL Schedule editing wizard]** 창에서 빈도 유형, 이벤트 반복 및 이벤트 유효 기간을 구성할 수 있습니다.
+   **[!UICONTROL Schedule editing assistant]** 창에서 빈도 유형, 이벤트 반복 및 이벤트 유효 기간을 구성할 수 있습니다.
 
    ![](assets/s_user_segmentation_wizard_11.png)
 

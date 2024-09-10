@@ -5,7 +5,7 @@ description: 보고서에 대한 액세스 구성
 feature: Reporting, Monitoring
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 2%
@@ -82,7 +82,7 @@ ht-degree: 2%
 
 예를 들어 수신자 목록을 통해 액세스할 수 있도록 보고서에 대한 링크를 만들 것입니다.
 
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭하고 보고서 만들기 마법사에서 **[!UICONTROL Create a link to an existing report]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL New]**&#x200B;을(를) 클릭하고 보고서 만들기 도우미에서 **[!UICONTROL Create a link to an existing report]**&#x200B;을(를) 선택합니다.
 
    ![](assets/s_ncs_advuser_report_wizard_link_01.png)
 
@@ -126,7 +126,7 @@ ht-degree: 2%
 
 다른 연산자와 공유하고 사용 가능한 보고서 목록에 표시하려면 보고서를 게시해야 합니다([보고서 표시 컨텍스트](#report-display-context) 참조). 보고서를 변경할 때마다 이 작업을 다시 수행해야 합니다.
 
-1. 도구 모음에서 **[!UICONTROL Publish]**&#x200B;을(를) 클릭하여 게시 마법사를 엽니다.
+1. 도구 모음에서 **[!UICONTROL Publish]**&#x200B;을(를) 클릭하여 게시 도우미를 엽니다.
 
    ![](assets/s_ncs_advuser_report_publish_01.png)
 

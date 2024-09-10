@@ -8,7 +8,7 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '2097'
 ht-degree: 1%
@@ -197,7 +197,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
 ### 익명 연락처를 위한 환경 만들기 {#creating-an-environment-for-anonymous-contacts}
 
-1. 게재 매핑 마법사(**방문자** 매핑)를 통해 익명 인바운드 상호 작용을 위한 오퍼 환경을 만듭니다. 자세한 내용은 [오퍼 환경 만들기](../../interaction/using/live-design-environments.md#creating-an-offer-environment)를 참조하세요.
+1. 게재 매핑 도우미(**방문자** 매핑)를 통해 익명 인바운드 상호 작용을 위한 오퍼 환경을 만듭니다. 자세한 내용은 [오퍼 환경 만들기](../../interaction/using/live-design-environments.md#creating-an-offer-environment)를 참조하세요.
 
    ![](assets/offer_env_anonymous_003.png)
 

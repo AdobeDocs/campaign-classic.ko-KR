@@ -5,7 +5,7 @@ description: 빌드-인 또는 사용자 정의 보고서에서 캠페인의 성
 feature: Reporting, Monitoring
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 18%
@@ -28,7 +28,7 @@ Adobe Campaign은 다음과 같은 몇 가지 보고 도구를 제공합니다.
 
    이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/about-campaign-built-in-reports.md)을 참조하십시오.
 
-1. **설명 데이터 분석**: Adobe Campaign에서는 데이터베이스의 데이터에 대한 통계를 생성하는 시각적 도구를 제공합니다. 전용 마법사를 사용하여 설명 분석 보고서를 만들고 필요에 따라 콘텐츠와 레이아웃을 조정할 수 있습니다.
+1. **설명 데이터 분석**: Adobe Campaign에서는 데이터베이스의 데이터에 대한 통계를 생성하는 시각적 도구를 제공합니다. 전용 도우미를 사용하여 설명 분석 보고서를 만들고 필요에 따라 콘텐츠와 레이아웃을 조정할 수 있습니다.
 
    이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/about-descriptive-analysis.md)을 참조하십시오.
 

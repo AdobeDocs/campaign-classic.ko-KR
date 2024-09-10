@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
-source-git-commit: fcc42e84817277ad46218165b5acef370747c1ca
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -81,7 +81,7 @@ CentOS에서 [!DNL Vertica Analytics]을(를) 구성하려면 아래 단계를 �
 
 ## Windows의 [!DNL Vertica Analytics] {#vertica-windows}
 
-1. Windows용 [ODBC 드라이버](https://www.vertica.com/download/vertica/client-drivers/)를 다운로드합니다. Windows용 드라이버를 설치하려면 .NET Framework 3.5를 사용하도록 설정해야 합니다. 그렇지 않으면 설치 마법사가 자동으로 사용하도록 설정하고 다운로드합니다.
+1. Windows용 [ODBC 드라이버](https://www.vertica.com/download/vertica/client-drivers/)를 다운로드합니다. Windows용 드라이버를 설치하려면 .NET Framework 3.5를 사용하도록 설정해야 합니다. 그렇지 않으면 설치 도우미가 자동으로 사용하도록 설정하고 다운로드합니다.
 
 1. Windows에서 ODBC 드라이버를 구성합니다. 자세한 정보는 [이 페이지](https://www.vertica.com/docs/9.2.x/HTML/Content/Authoring/ConnectingToVertica/ClientODBC/SettingUpADSN.htm)를 참조하세요.
 

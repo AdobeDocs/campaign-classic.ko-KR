@@ -9,7 +9,7 @@ topic-tags: migrating-to-adobe-campaign-7
 hide: true
 hidefromtoc: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 0%
@@ -370,7 +370,7 @@ Before you delete and cleanse the Adobe Campaign v5 installation, you must apply
 
 1. In IIS, delete the **Neolane v5** website, then the **Neolane v5** application pool. 
 1. Rename the **Neolane v5.back** folder as **Neolane v5**.
-1. Uninstall Adobe Campaign v5 using the Add/remove components wizard. 
+1. Uninstall Adobe Campaign v5 using the Add/remove components assistant. 
 
    ![](assets/migration_wizard_2.png)
 
@@ -391,7 +391,7 @@ Before you delete and cleanse the Adobe Campaign v6.02 installation, you must ap
 
 1. In IIS, delete the **Neolane v6** website, then the **Neolane v6** application pool. 
 1. Rename the **Neolane v6.back** folder as **Neolane v6**.
-1. Uninstall Adobe Campaign v6.02 using the Add/remove components wizard. 
+1. Uninstall Adobe Campaign v6.02 using the Add/remove components assistant. 
 
    ![](assets/migration_wizard_2.png)
 
@@ -406,7 +406,7 @@ Adobe Campaign v6 설치를 삭제하고 정리하기 전에 다음 권장 사�
 
 1. IIS에서 **Adobe Campaign v6** 웹 사이트를 삭제한 다음 **Adobe Campaign v6** 응용 프로그램 풀을 삭제합니다.
 1. **Adobe Campaign v6.back** 폴더의 이름을 **Adobe Campaign v6**(으)로 바꿉니다.
-1. 구성 요소 추가/제거 마법사를 사용하여 Adobe Campaign v6을 제거합니다.
+1. 구성 요소 추가/제거 도우미를 사용하여 Adobe Campaign v6을 제거합니다.
 
    ![](assets/migration_wizard_2.png)
 

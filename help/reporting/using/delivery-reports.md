@@ -5,7 +5,7 @@ description: 게재 보고서
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 8%
@@ -67,7 +67,7 @@ ht-degree: 8%
 * **[!UICONTROL Distinct opens for the population reached]** : 메시지를 한 번 이상 연 대상 받는 사람 수 예상. 링크를 클릭하려면 이메일을 열어야 하므로 추적된 URL에 대한 클릭 수가 고려됩니다.
 * **[!UICONTROL Sum of opens for the population reached]** : 타깃팅된 수신자의 총 열람 수 예상.
 * **[!UICONTROL Clicks on opt-out link]** : 구독 취소 링크의 클릭 수입니다.
-* **[!UICONTROL Clicks on the mirror page link]** : 미러 페이지 링크를 클릭한 횟수. 고려하려면 게재 마법사(추적된 URL)에서 링크를 이와 같이 정의해야 합니다. 이 [페이지](../../delivery/using/about-delivery-monitoring.md)를 참조하세요.
+* **[!UICONTROL Clicks on the mirror page link]** : 미러 페이지 링크를 클릭한 횟수. 고려하려면 링크를 게재 도우미(추적된 URL)에서 이와 같이 정의해야 합니다. 이 [페이지](../../delivery/using/about-delivery-monitoring.md)를 참조하세요.
 * **[!UICONTROL Estimation of forwards]** : 타겟팅된 수신자가 전달한 전자 메일 수 예상. 이 값은 고유 사람 수와 이메일을 클릭한 고유 수신자 수를 빼서 계산합니다.
 
   >[!NOTE]

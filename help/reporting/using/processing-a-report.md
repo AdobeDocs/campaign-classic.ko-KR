@@ -5,7 +5,7 @@ description: 분석 보고서 사용
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 1%
@@ -126,11 +126,11 @@ ht-degree: 1%
 
 ## 기존 보고서 및 분석 다시 사용 {#re-using-existing-reports-and-analyses}
 
-Adobe Campaign에 이미 저장된 기존 보고서를 사용하여 데이터에 대한 설명 분석 보고서를 만들 수 있습니다. 이 모드는 분석을 저장하거나 설명 분석 마법사를 통해 액세스할 수 있도록 보고서를 만들고 구성한 경우 가능합니다.
+Adobe Campaign에 이미 저장된 기존 보고서를 사용하여 데이터에 대한 설명 분석 보고서를 만들 수 있습니다. 이 모드는 분석이 저장되었거나 설명 분석 도우미를 통해 액세스할 수 있도록 보고서를 만들고 구성한 경우에 가능합니다.
 
 설명 분석을 저장하는 방법을 알아보려면 [분석 보고서 저장](#saving-an-analysis-report)을 참조하세요.
 
-설명 분석 보고서를 만들려면 워크플로우 전환 또는 **[!UICONTROL Tools > Descriptive analysis]** 메뉴를 통해 설명 분석 마법사를 실행해야 합니다.
+설명 분석 보고서를 만들려면 워크플로우 전환 또는 **[!UICONTROL Tools > Descriptive analysis]** 메뉴를 통해 설명 분석 도우미를 실행해야 합니다.
 
 1. **[!UICONTROL Existing analyses and reports]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 1. 사용 가능한 보고서 목록에 액세스할 수 있습니다. 생성하려는 보고서를 선택합니다.
@@ -143,7 +143,7 @@ Adobe Campaign에 이미 저장된 기존 보고서를 사용하여 데이터에
 
 히스토리를 만들려면 다음 단계를 적용합니다.
 
-1. 기존 분석을 열거나 새 설명 분석 마법사를 만듭니다.
+1. 기존 분석을 열거나 새 설명 분석 도우미를 만듭니다.
 1. 보고서 표시 페이지에서 버튼을 클릭하여 도구 모음에 기록을 만든 다음 아래와 같이 확인합니다.
 
    ![](assets/reporting_descriptive_historize_icon.png)

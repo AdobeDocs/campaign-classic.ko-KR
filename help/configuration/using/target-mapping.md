@@ -6,7 +6,7 @@ feature: Application Settings
 role: Data Engineer, Developer
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 * Adobe Campaign에서 제공한 수신자 테이블 이외의 수신자 테이블을 사용하는 경우
 * 대상 매핑 화면에서 표준 타겟팅 차원과 다른 필터링 차원을 구성하는 경우.
 
-대상 매핑 생성 마법사는 사용자 지정 테이블을 사용하는 데 필요한 모든 스키마를 생성하는 데 도움이 됩니다.
+대상 매핑 생성 도우미를 통해 사용자 지정 테이블을 사용하는 데 필요한 모든 스키마를 생성할 수 있습니다.
 
 ## 사용자 지정 테이블에 연결된 스키마 생성 및 구성 {#creating-and-configuring-schemas-linked-to-the-custom-table}
 
@@ -83,7 +83,7 @@ ht-degree: 2%
    ```
 
 1. **[!UICONTROL Administration > Campaign management > Target mappings]** 노드를 클릭합니다.
-1. **새로 만들기** 단추를 클릭하여 대상 매핑 만들기 마법사를 엽니다.
+1. **새로 만들기** 단추를 클릭하여 대상 매핑 생성 도우미를 엽니다.
 1. **레이블** 필드를 입력하고 **타깃팅 차원** 필드에서 방금 만든 스키마를 선택합니다.
 
    ![](assets/mapping_diffusion_wizard_1.png)
@@ -110,9 +110,9 @@ ht-degree: 2%
 
    ![](assets/mapping_diffusion_wizard_4.png)
 
-1. 마법사를 닫으려면 **저장** 단추를 클릭하십시오.
+1. 도우미를 닫으려면 **저장** 단추를 클릭하십시오.
 
-   마법사는 시작 스키마를 사용하여 새 대상 매핑 작업에 필요한 다른 모든 스키마를 만듭니다.
+   도우미는 시작 스키마를 사용하여 새 대상 매핑 작업에 필요한 다른 모든 스키마를 만듭니다.
 
    ![](assets/mapping_schema_list.png)
 

@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Monitoring, Email Design, Personalization
 role: User
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 9%
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # URL 추적 옵션 구성{#personalizing-url-tracking}
 
-고급 메시지 추적 설정은 게재 마법사의 도구 모음에 있는 **[!UICONTROL Tracking & Images]** 아이콘을 통해 액세스할 수 있습니다.
+고급 메시지 추적 설정은 배달 도우미의 도구 모음에 있는 **[!UICONTROL Tracking & Images]** 아이콘을 통해 액세스할 수 있습니다.
 
 >[!NOTE]
 >

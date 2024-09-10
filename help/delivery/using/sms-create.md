@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: SMS
 role: User
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 2%
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 SMS의 콘텐츠를 만들려면 아래 단계를 수행합니다.
 
-1. 마법사의 **[!UICONTROL Text content]** 섹션에 메시지 내용을 입력합니다. 도구 모음 단추를 사용하여 콘텐츠를 가져오거나 저장하거나 검색할 수 있습니다. 마지막 버튼은 개인화 필드를 삽입하는 데 사용됩니다.
+1. 도우미의 **[!UICONTROL Text content]** 섹션에 메시지 내용을 입력하십시오. 도구 모음 단추를 사용하여 콘텐츠를 가져오거나 저장하거나 검색할 수 있습니다. 마지막 버튼은 개인화 필드를 삽입하는 데 사용됩니다.
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 

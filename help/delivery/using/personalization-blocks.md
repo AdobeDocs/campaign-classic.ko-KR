@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Personalization
 role: User
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 메시지에 개인화 블록을 삽입하려면 아래 단계를 수행합니다.
 
-1. 게재 마법사의 콘텐츠 편집기에서 개인화된 필드 아이콘을 클릭하고 **[!UICONTROL Include]** 메뉴를 선택합니다.
+1. 게재 길잡이의 콘텐츠 편집기에서 개인화된 필드 아이콘을 클릭하고 **[!UICONTROL Include]** 메뉴를 선택합니다.
 1. 목록에서 개인화 블록을 선택하거나(목록에 마지막으로 사용된 블록 10개가 표시됨) **[!UICONTROL Other...]** 메뉴를 클릭하여 전체 목록에 액세스합니다.
 
    ![](assets/s_ncs_user_personalized_block01.png)
@@ -71,7 +71,7 @@ HTML 소스 코드는 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
 >미러 페이지 생성에 대한 자세한 내용은 [미러 페이지 생성](sending-messages.md#generating-the-mirror-page)을 참조하세요.
 
 1. 새 게재를 만들거나 기존 이메일 유형 게재를 엽니다.
-1. 게재 마법사에서 **[!UICONTROL Subject]**&#x200B;을(를) 클릭하여 메시지 제목을 편집하고 제목을 입력합니다.
+1. 게재 도우미에서 **[!UICONTROL Subject]**&#x200B;을(를) 클릭하여 메시지 제목을 편집하고 제목을 입력합니다.
 1. 메시지 본문에 개인화 블록을 삽입합니다. 이렇게 하려면 메시지 콘텐츠를 클릭하고 개인화된 필드 아이콘을 클릭한 다음 **[!UICONTROL Include]** 메뉴를 선택합니다.
 1. 삽입할 첫 번째 블록을 선택합니다. 다른 두 블록을 포함하도록 절차를 갱신합니다.
 

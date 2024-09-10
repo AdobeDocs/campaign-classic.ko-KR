@@ -4,7 +4,7 @@ title: 목록 관리 및 사용자 지정
 description: 목록 검색 및 구성 방법 알아보기
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 1%
@@ -163,7 +163,7 @@ ht-degree: 1%
 
 ## 목록 내보내기 {#exporting-a-list}
 
-목록에서 데이터를 내보내려면 내보내기 마법사를 사용해야 합니다. 액세스하려면 목록에서 내보낼 요소를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **[!UICONTROL Export...]**&#x200B;을(를) 선택합니다.
+목록에서 데이터를 내보내려면 내보내기 도우미를 사용해야 합니다. 액세스하려면 목록에서 내보낼 요소를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **[!UICONTROL Export...]**&#x200B;을(를) 선택합니다.
 
 가져오기 및 내보내기 함수의 사용은 [일반 가져오기 및 내보내기](../../platform/using/about-generic-imports-exports.md)에 설명되어 있습니다.
 

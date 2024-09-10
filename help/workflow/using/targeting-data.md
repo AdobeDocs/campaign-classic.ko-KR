@@ -4,7 +4,7 @@ title: 데이터 타겟팅
 description: 워크플로우의 데이터 타겟팅에 대해 자세히 알아보기
 feature: Query Editor, Data Management, Workflows
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 5%
@@ -47,7 +47,7 @@ ht-degree: 5%
 
 하위 요소는 매핑된 컬렉션의 하위 트리에 표시됩니다.
 
-컬렉션은 **[!UICONTROL Collections]** 하위 탭에 표시됩니다. 선택한 컬렉션의 **[!UICONTROL Detail]** 아이콘을 클릭하여 수집된 요소를 필터링할 수 있습니다. 필터 마법사를 사용하여 수집된 데이터를 선택하고, 컬렉션의 데이터에 적용할 필터링 조건을 지정할 수 있습니다.
+컬렉션은 **[!UICONTROL Collections]** 하위 탭에 표시됩니다. 선택한 컬렉션의 **[!UICONTROL Detail]** 아이콘을 클릭하여 수집된 요소를 필터링할 수 있습니다. 필터 도우미에서 수집된 데이터를 선택하고, 컬렉션의 데이터에 적용할 필터링 조건을 지정할 수 있습니다.
 
 ![](assets/query_add_columns_collection.png)
 

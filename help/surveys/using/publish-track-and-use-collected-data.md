@@ -5,7 +5,7 @@ description: 설문 조사에서 수집된 데이터를 게시, 추적 및 사�
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 2%
@@ -94,7 +94,7 @@ URL 매개 변수에 대한 자세한 정보는 [이 페이지](../../web/using/
 
    그런 다음 내보낼 정보와 저장소 파일을 입력합니다.
 
-   내보내기 마법사에서 출력 파일의 내용과 형식을 구성할 수 있습니다.
+   내보내기 도우미에서 출력 파일의 내용과 형식을 구성할 수 있습니다.
 
    이렇게 하면 다음 작업을 수행할 수 있습니다.
 

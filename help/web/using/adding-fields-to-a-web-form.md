@@ -5,7 +5,7 @@ description: 웹 양식에 필드 추가
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 웹 양식에서 필드를 사용하면 사용자가 정보를 입력하고 옵션을 선택할 수 있습니다. 웹 양식은 입력 필드, 선택 필드, 정적 및 고급 콘텐츠(captcha, 구독 등)를 제공할 수 있습니다.
 
-마법사를 사용하여 필드를 추가하면 필드 유형은 선택한 필드 또는 저장소 변수를 기반으로 자동으로 감지됩니다. **[!UICONTROL General]** 탭의 **[!UICONTROL Type]** 드롭다운 상자를 사용하여 편집할 수 있습니다.
+도우미를 사용하여 필드를 추가하면 필드 유형은 선택한 필드 또는 저장소 변수를 기반으로 자동으로 감지됩니다. **[!UICONTROL General]** 탭의 **[!UICONTROL Type]** 드롭다운 상자를 사용하여 편집할 수 있습니다.
 
 ![](assets/s_ncs_admin_webform_change_type.png)
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 >
 >기본적으로 필드는 현재 트리의 맨 아래에 삽입됩니다. 도구 모음의 화살표를 사용하여 위나 아래로 이동합니다.
 
-## 필드 만들기 마법사 {#field-creation-wizard}
+## 필드 만들기 도우미 {#field-creation-assistant}
 
-양식의 각 페이지에 대해 도구 모음의 첫 번째 버튼을 통해 필드를 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL Add using the wizard]** 메뉴로 이동하십시오.
+양식의 각 페이지에 대해 도구 모음의 첫 번째 버튼을 통해 필드를 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL Add using the assistant]** 메뉴로 이동하십시오.
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 

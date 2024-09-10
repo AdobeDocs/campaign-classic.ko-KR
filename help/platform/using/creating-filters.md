@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1979'
 ht-degree: 0%
@@ -204,7 +204,7 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
 고급 필터를 저장하여 **응용 프로그램 필터**&#x200B;을(를) 만들 수 있습니다. 목록을 마우스 오른쪽 단추로 클릭하거나 목록 위에 있는 **[!UICONTROL Filters]** 단추를 통해 다시 사용할 수 있습니다.
 
-이러한 필터는 대상 선택 단계에서 게재 마법사를 통해 직접 액세스할 수도 있습니다(게재 만들기에 대한 자세한 내용은 [이 섹션](../../delivery/using/creating-an-email-delivery.md) 참조). 응용 프로그램 필터를 만들려면 다음 작업을 수행할 수 있습니다.
+이러한 필터는 대상 선택 단계에서 게재 도우미를 통해 직접 액세스할 수도 있습니다(게재 만들기에 대한 자세한 내용은 [이 섹션](../../delivery/using/creating-an-email-delivery.md) 참조). 응용 프로그램 필터를 만들려면 다음 작업을 수행할 수 있습니다.
 
 * 고급 필터를 응용 프로그램 필터로 변환합니다. 이렇게 하려면 고급 필터 편집기를 닫기 전에 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
 
@@ -376,6 +376,6 @@ Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
 
   사용자가 이 필터를 재정의하지 못하도록 하려면 **[!UICONTROL Do not restrict the filter]** 옵션을 선택하십시오.
 
-  이 옵션은 게재 마법사에서 제공되는 오버로드할 수 없는 &quot;게재 수신자&quot; 및 &quot;폴더에 속한 게재 수신자&quot; 필터에 대해 활성화됩니다.
+  이 옵션은 오버로드할 수 없는 게재 도우미에서 제공되는 &quot;게재 수신자&quot; 및 &quot;폴더에 속한 게재 수신자&quot; 필터에 대해 활성화됩니다.
 
   ![](assets/s_ncs_user_filter_advanced_param.png)

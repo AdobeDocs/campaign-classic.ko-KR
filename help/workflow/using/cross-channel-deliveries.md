@@ -4,7 +4,7 @@ title: 크로스 채널 게재
 description: 크로스 채널 게재에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 7%
@@ -49,7 +49,7 @@ ht-degree: 7%
 1. 워크플로우에 **[!UICONTROL Split]** 활동을 추가하여 휴대폰 번호가 있는 수신자와 이메일 주소가 있는 수신자를 나눕니다.
 1. **[!UICONTROL Delivery]** 탭에서 각 대상에 대한 게재를 선택합니다.
 
-   워크플로우에서 게재 활동을 두 번 클릭하여 클래식 게재 마법사와 동일한 방식으로 게재를 만듭니다. 자세한 정보는 이 [페이지](../../delivery/using/about-email-channel.md)를 참조하십시오.
+   워크플로우에서 게재 활동을 두 번 클릭하여 클래식 게재 도우미를 사용하는 것과 동일한 방식으로 게재를 만듭니다. 자세한 정보는 이 [페이지](../../delivery/using/about-email-channel.md)를 참조하십시오.
 
    ![](assets/cross_channel_delivery_3.png)
 

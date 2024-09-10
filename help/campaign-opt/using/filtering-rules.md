@@ -5,7 +5,7 @@ description: Adobe Campaign에서 필터링 규칙을 사용하는 방법을 알
 role: User, Data Engineer
 feature: Typology Rules, Campaigns
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 2%
@@ -64,7 +64,7 @@ ht-degree: 2%
 
 ![](assets/campaign_opt_create_typo_filtering.png)
 
-이러한 특정 유형화는 대상이 선택될 때 게재에 연결할 수 있습니다. 게재 마법사에서 **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Exclusions]** 탭을 클릭합니다.
+이러한 특정 유형화는 대상이 선택될 때 게재에 연결할 수 있습니다. 게재 도우미에서 **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Exclusions]** 탭을 클릭합니다.
 
 ![](assets/campaign_opt_apply_typo_filtering.png)
 

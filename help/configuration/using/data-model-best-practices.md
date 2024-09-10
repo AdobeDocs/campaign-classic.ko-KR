@@ -4,7 +4,7 @@ title: 데이터 모델 모범 사례
 description: Campaign Classic 데이터 모델을 사용하여 작업하는 방법에 대해 알아봅니다
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '4013'
 ht-degree: 1%
@@ -90,7 +90,7 @@ SQLServer 데이터베이스의 경우 성능이 필요한 경우 &quot;클러�
 
 스키마의 테이블스페이스 속성을 사용하여 테이블에 대한 전용 테이블스페이스를 지정할 수 있습니다.
 
-설치 마법사를 사용하여 데이터, 임시, 색인 등 유형별로 개체를 저장할 수 있습니다.
+설치 도우미에서 유형(데이터, 임시 및 색인)별로 개체를 저장할 수 있습니다.
 
 전용 테이블스페이스는 분할, 보안 규칙에 더 적합하며 유동적이고 유연한 관리, 더 나은 최적화 및 성능을 제공합니다.
 

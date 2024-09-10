@@ -5,7 +5,7 @@ description: 콘텐츠 템플릿 사용
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## 콘텐츠 관리를 통해 게재 만들기 {#creating-a-delivery-via-content-management}
 
-입력 필드를 사용하여 콘텐츠를 입력한다는 관점에서 게재 시 콘텐츠 템플릿을 참조할 수 있습니다. 게재 콘텐츠를 정의하기 위해 게재 마법사에 탭이 더 추가됩니다.
+입력 필드를 사용하여 콘텐츠를 입력한다는 관점에서 게재 시 콘텐츠 템플릿을 참조할 수 있습니다. 게재 콘텐츠를 정의하기 위해 게재 도우미에 추가 탭이 추가됩니다.
 
 ![](assets/s_ncs_content_deliver_a_content.png)
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-자세한 내용은 전체 구현 예제를 참조하십시오. [게재 마법사에서 콘텐츠 만들기](use-case-creating-content-management.md#creating-content-in-the-delivery-wizard).
+자세한 내용은 전체 구현 예제를 참조하십시오. [게재 도우미에서 콘텐츠 만들기](use-case-creating-content-management.md#creating-content-in-the-delivery-assistant).
 
 ## 콘텐츠 인스턴스 만들기 {#creating-a-content-instance}
 

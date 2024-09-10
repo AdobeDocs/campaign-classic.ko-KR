@@ -5,7 +5,7 @@ description: 동적 웹 응용 프로그램, 랜딩 페이지 및 설문 조사 
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 20%
@@ -94,7 +94,7 @@ Adobe Campaign의 웹 애플리케이션은 다음 기능에 액세스할 수 �
 
 Adobe Campaign 트리의 **[!UICONTROL Resources > Templates > Web Application templates]** 노드를 통해 새 템플릿을 만들 수 있습니다.
 
-만들기 마법사를 사용하면 아래와 같이 활성화할 옵션을 선택할 수 있습니다.
+만들기 도우미에서 아래와 같이 활성화할 옵션을 선택할 수 있습니다.
 
 ![](assets/webapp_create_template.png)
 

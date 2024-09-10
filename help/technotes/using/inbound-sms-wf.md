@@ -4,7 +4,7 @@ title: 중간 소싱 인프라에 대한 인바운드 SMS 워크플로 활동
 description: 중간 소싱 인프라에 대한 인바운드 SMS 워크플로 활동
 feature: Technote, SMS
 exl-id: 756039b2-5f57-4dc5-8166-a421206b886b
-source-git-commit: 5c42ff45b4d0bc4d61f4fccdba4518801ea4c9da
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 5%
@@ -35,7 +35,7 @@ ht-degree: 5%
    </element>
    ```
 
-1. 스키마에 대한 수정 사항을 적용하려면 데이터베이스 업데이트 마법사를 시작합니다. 이 마법사는 **도구** > **고급** > **데이터베이스 구조 업데이트**&#x200B;를 통해 액세스할 수 있습니다. 데이터베이스의 물리적 구조가 논리적 설명과 일치하는지 확인하고 SQL 업데이트 스크립트를 실행합니다. [자세히 알아보기](../../configuration/using/updating-the-database-structure.md)
+1. 스키마에 대한 수정 사항을 적용하려면 Database Update Assistant를 실행합니다. 이 도우미는 **도구** > **고급** > **데이터베이스 구조 업데이트**&#x200B;를 통해 액세스할 수 있습니다. 데이터베이스의 물리적 구조가 논리적 설명과 일치하는지 확인하고 SQL 업데이트 스크립트를 실행합니다. [자세히 알아보기](../../configuration/using/updating-the-database-structure.md)
 
 1. **인바운드 SMS 활동**&#x200B;이 포함된 워크플로우를 중지하고 백업합니다.
 

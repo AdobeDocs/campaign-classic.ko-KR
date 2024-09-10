@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 2%
@@ -126,7 +126,7 @@ ht-degree: 2%
   자세한 내용은 [이 섹션](../../platform/using/editing-a-profile.md)의 프로필 편집 섹션을 참조하세요.
 
 * 수신자 집합을 이 서비스에 자동으로 구독합니다. 수신자 목록은 필터링 작업, 그룹, 폴더, 가져오기 또는 마우스를 사용한 직접 선택에서 가져올 수 있습니다. 이러한 수신자를 구독하려면 프로필을 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Actions > Subscribe selection to a service...]**&#x200B;을(를) 선택하고 관련 서비스를 선택한 다음 작업을 시작합니다.
-* 수신자를 가져와 정보 서비스에 자동으로 가입합니다. 이렇게 하려면 가져오기 마법사의 마지막 단계에서 관련 서비스를 선택합니다.
+* 수신자를 가져와 정보 서비스에 자동으로 가입합니다. 이렇게 하려면 가져오기 도우미의 마지막 단계에서 관련 서비스를 선택합니다.
 
   이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/executing-import-jobs.md)을 참조하십시오.
 
@@ -146,7 +146,7 @@ ht-degree: 2%
 
 법에 따라 이메일 게재에는 구독 취소 링크가 포함되어야 합니다. 수신자는 이 링크를 클릭하여 프로필을 업데이트하고 향후 게재 대상에서 제외할 수 있습니다.
 
-기본 구독 취소 링크는 게재 마법사에서 제공하는 콘텐츠 편집기의 도구 모음에 있는 마지막 단추를 통해 삽입됩니다([개인화 정보](about-personalization.md) 참조). 수신자가 이 링크를 클릭하면 프로필이 차단 목록에 추가하다(옵트아웃)에 추가됩니다. 즉, 이 수신자는 더 이상 게재 작업에 의해 타겟팅되지 않습니다.
+기본 구독 취소 링크는 게재 도우미에 제공된 콘텐츠 편집기의 도구 모음에 있는 마지막 단추를 통해 삽입됩니다([개인화 정보](about-personalization.md) 참조). 수신자가 이 링크를 클릭하면 프로필이 차단 목록에 추가하다(옵트아웃)에 추가됩니다. 즉, 이 수신자는 더 이상 게재 작업에 의해 타겟팅되지 않습니다.
 
 그러나 수신자는 모든 서비스의 구독을 취소하지 않고 서비스 구독을 취소할 수 있습니다. 이를 허용하려면 웹 양식을 사용하거나([이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes) 참조) 개인화된 구독 취소 링크를 삽입할 수 있습니다([개인화 블록](personalization-blocks.md) 참조).
 

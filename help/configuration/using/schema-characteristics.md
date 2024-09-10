@@ -6,7 +6,7 @@ feature: Custom Resources
 role: Data Engineer, Developer
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -29,13 +29,13 @@ ht-degree: 1%
 
 ## 보기 속성 {#the-view-attribute}
 
-Source 스키마는 **srcSchema** 루트 요소에 대해 **view** 특성을 허용합니다. 사용자 지정 테이블에서 Adobe Campaign을 조작하는 경우 사용해야 합니다. **view=&quot;true&quot;** 특성은 데이터베이스 구조 업데이트 마법사에 이 스키마를 무시하도록 지시합니다. 따라서 테이블, 열 및 인덱스를 해당 스키마와 동기화할 수 없습니다.
+Source 스키마는 **srcSchema** 루트 요소에 대해 **view** 특성을 허용합니다. 사용자 지정 테이블에서 Adobe Campaign을 조작하는 경우 사용해야 합니다. **view=&quot;true&quot;** 특성은 데이터베이스 구조 업데이트 도우미에 이 스키마를 무시하도록 지시합니다. 따라서 테이블, 열 및 인덱스를 해당 스키마와 동기화할 수 없습니다.
 
 이 특성이 **true**(으)로 설정된 경우 스키마는 이 테이블의 데이터에 액세스할 수 있는 SQL 쿼리를 생성하는 데만 사용됩니다.
 
 ## 테이블 및 열 이름 {#names-of-tables-and-columns}
 
-테이블 업데이트 마법사로 테이블을 만들면 테이블 및 열의 이름이 각 스키마 및 속성의 이름을 기반으로 자동으로 생성됩니다. 그러나 다음 속성을 입력하여 SQL 이름을 강제로 사용할 수 있습니다.
+테이블 업데이트 도우미에서 테이블을 만들면 테이블 및 열의 이름이 각 스키마 및 속성의 이름을 기반으로 자동으로 생성됩니다. 그러나 다음 속성을 입력하여 SQL 이름을 강제로 사용할 수 있습니다.
 
 * **sqltable**(스키마의 기본 요소)을(를) 사용하여 테이블을 지정하려면
 * 열을 지정하려면 각 특성 내에서 **sqlname**&#x200B;을(를) 지정합니다.

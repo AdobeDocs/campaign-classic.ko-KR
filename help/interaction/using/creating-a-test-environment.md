@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 49ac279b-bc67-4311-b0a4-0e23f2a99c52
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->테스트 환경에만 이 환경 생성 방법을 사용하십시오. 다른 모든 경우에는 대상 매핑 마법사를 사용하십시오. 자세한 내용은 [오퍼 환경 만들기](../../interaction/using/live-design-environments.md#creating-an-offer-environment)를 참조하세요.
+>테스트 환경에만 이 환경 생성 방법을 사용하십시오. 다른 모든 경우에는 대상 매핑 도우미를 사용하십시오. 자세한 내용은 [오퍼 환경 만들기](../../interaction/using/live-design-environments.md#creating-an-offer-environment)를 참조하세요.
 
 1. Adobe Campaign 탐색기를 시작하고 인스턴스 루트로 이동합니다.
 1. 마우스 오른쪽 단추를 클릭하고 드롭다운 메뉴를 사용하여 **[!UICONTROL Generic folder]**&#x200B;을(를) 추가합니다.

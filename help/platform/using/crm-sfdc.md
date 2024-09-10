@@ -4,7 +4,7 @@ title: Campaign - Salesforce CRM 커넥터
 description: Campaign과 Salesforce를 연결하는 방법 알아보기
 feature: Salesforce Integration
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Salesforce CRM 로그인에 사용되는 암호입니다.
 
    * **[!UICONTROL API version]**
 API 버전을 선택합니다.
-1. 구성 마법사를 실행하여 사용 가능한 CRM 테이블을 생성합니다. 구성 마법사를 사용하여 테이블을 수집하고 일치하는 스키마를 생성할 수 있습니다.
+1. 구성 도우미를 실행하여 사용 가능한 CRM 테이블을 생성합니다. 구성 도우미를 사용하여 테이블을 수집하고 일치하는 스키마를 생성할 수 있습니다.
 
    ![](assets/crm_connectors_sfdc_launch.png)
 

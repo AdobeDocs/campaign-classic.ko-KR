@@ -4,7 +4,7 @@ title: 감사 추적
 description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링하는 방법 알아보기
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 2%
@@ -78,7 +78,7 @@ Adobe Campaign에서 **[!UICONTROL Audit trail]**&#x200B;을(를) 사용하면 �
 
 >[!NOTE]
 >
->기본적으로 보존 기간은 **[!UICONTROL Audit logs]**&#x200B;에 대해 180일로 설정됩니다. 보존 기간을 변경하는 방법에 대한 자세한 내용은 이 [페이지](../../production/using/database-cleanup-workflow.md#deployment-wizard)를 참조하세요.
+>기본적으로 보존 기간은 **[!UICONTROL Audit logs]**&#x200B;에 대해 180일로 설정됩니다. 보존 기간을 변경하는 방법에 대한 자세한 내용은 이 [페이지](../../production/using/database-cleanup-workflow.md#deployment-assistant)를 참조하세요.
 
 ## 감사 추적 활성화/비활성화 {#enable-disable-audit-trail}
 

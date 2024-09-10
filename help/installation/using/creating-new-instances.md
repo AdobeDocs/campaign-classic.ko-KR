@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 3b87eb3c-3b50-4ed4-80b1-4333261ffe0b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Adobe Campaign이 설치되고 인스턴스가 생성되면 콘솔에서 새 인
 
 1. 새 인스턴스 선언
 
-   마법사를 시작하려면 **[!UICONTROL Tools > Advanced > Declare a new instance...]**(으)로 이동하십시오.
+   도우미를 시작하려면 **[!UICONTROL Tools > Advanced > Declare a new instance...]**(으)로 이동하세요.
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 

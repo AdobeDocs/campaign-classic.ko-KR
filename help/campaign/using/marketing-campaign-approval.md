@@ -5,7 +5,7 @@ description: 마케팅 캠페인 승인 관리 방법 알아보기
 role: User
 feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '2437'
 ht-degree: 1%
@@ -321,7 +321,7 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
    ![](assets/s_ncs_user_validation_submit_content_notif.png)
 
-1. 그런 다음 콘솔에 로그온하여 게재를 열고 간소화된 마법사를 사용하여 편집하여 제목, HTML 및 텍스트 콘텐츠를 변경하고 증명을 보낼 수 있습니다.
+1. 그런 다음 콘솔에 로그온하여 게재를 열고 간소화된 도우미를 사용하여 편집하여 제목, HTML 및 텍스트 콘텐츠를 변경하고 증명을 보낼 수 있습니다.
 
    ![](assets/s_user_validation_content_edition.png)
 

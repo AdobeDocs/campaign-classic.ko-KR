@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Data Management
 role: User, Developer, Data Engineer
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ### 쿼리 추가 {#adding-a-query}
 
-쿼리 매개 변수는 마법사를 사용하여 편집됩니다.
+쿼리 매개 변수는 도우미를 사용하여 편집됩니다.
 
 1. 첫 번째 페이지에서 검색할 데이터가 포함된 레이블과 스키마를 지정합니다.
 

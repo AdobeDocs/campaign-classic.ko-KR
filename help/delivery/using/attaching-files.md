@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Email
 role: User
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Adobe은 또한 첨부 파일의 크기와 수를 제한하는 것을 권장합�
 
    ![](assets/s_ncs_user_wizard_email_attachement.png)
 
-배달 **[!UICONTROL Attachments]** 필드에 파일을 직접 끌어서 놓거나 배달 마법사 도구 모음에서 **[!UICONTROL Attach]** 아이콘을 사용할 수도 있습니다.
+배달 **[!UICONTROL Attachments]** 필드에 파일을 직접 끌어서 놓거나 배달 도우미 도구 모음에서 **[!UICONTROL Attach]** 아이콘을 사용할 수도 있습니다.
 
 ![](assets/s_ncs_user_wizard_add_file_ico.png)
 

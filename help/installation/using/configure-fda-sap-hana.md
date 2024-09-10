@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 39bfe775-e182-4a0b-ad3c-b7a901297c90
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -30,7 +30,7 @@ FDA에서 SAP HANA 외부 데이터베이스에 연결하려면 Adobe Campaign �
 1. 사용하는 운영 체제에 따라 SAP HANA용 ODBC 드라이버를 설치합니다.
 
    * Linux용 **hdb_client_linux.tgz**. 압축이 풀리면 hdbinst 명령을 실행하고 지침에 따라 드라이버 설치를 완료합니다.
-   * Windows용 **hdb_client_windows.zip**. 파일의 압축을 풀고 실행 파일(**hdbinst.exe**)을 시작합니다. 마법사 지침에 따라 드라이버 설치를 완료합니다.
+   * Windows용 **hdb_client_windows.zip**. 파일의 압축을 풀고 실행 파일(**hdbinst.exe**)을 시작합니다. 드라이버 설치를 완료하려면 어시스턴트 지침을 따르십시오.
 
 1. ODBC 드라이버를 구성합니다. 일반 매개 변수의 경우 /etc/odbc.ini에서, 드라이버를 선언하는 경우 /etc/odbcinst.ini에서 구성을 수행할 수 있습니다.
 

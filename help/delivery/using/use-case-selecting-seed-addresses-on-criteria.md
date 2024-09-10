@@ -5,7 +5,7 @@ description: "사용 사례: 기준 시드 주소 선택"
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 2%
@@ -83,15 +83,15 @@ ht-degree: 2%
 
    ![](assets/dlv_seeds_usecase_12.png)
 
-1. 업데이트 마법사가 표시되면 **[!UICONTROL Next]** 단추를 클릭하여 테이블 편집 창에 액세스합니다. 시드 주소 데이터 스키마에서 변경을 수행하려면 구조를 업데이트해야 합니다.
+1. 업데이트 도우미가 표시되면 **[!UICONTROL Next]** 단추를 클릭하여 테이블 편집 창에 액세스합니다. 시드 주소 데이터 스키마에서 변경을 수행하려면 구조를 업데이트해야 합니다.
 
    ![](assets/dlv_seeds_usecase_13.png)
 
-1. 업데이트를 실행할 페이지로 이동할 때까지 마법사를 따릅니다. **[!UICONTROL Start]** 버튼을 클릭합니다.
+1. 업데이트를 실행하려면 페이지로 이동할 때까지 도우미를 따르십시오. **[!UICONTROL Start]** 버튼을 클릭합니다.
 
    ![](assets/dlv_seeds_usecase_14.png)
 
-   업데이트가 완료되면 마법사를 닫을 수 있습니다.
+   업데이트가 완료되면 도우미를 닫을 수 있습니다.
 
 1. 연결을 끊고 Adobe Campaign에 다시 연결합니다. 시드 주소 데이터 스키마에서 변경한 사항이 이제 적용됩니다. 시드 주소 화면에서 표시하려면 연결된 **[!UICONTROL Input form]**&#x200B;을(를) 업데이트해야 합니다. [입력 양식 업데이트](#updating-the-input-form) 섹션을 참조하세요.
 

@@ -5,7 +5,7 @@ description: Campaign 기본 제공 패키지를 설치하는 방법 알아보�
 feature: Installation, Application Settings
 badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 3%
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 기본 제공 패키지를 설치하려면
 
-1. Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Tools > Advanced > Import package]**&#x200B;에서 패키지 가져오기 마법사에 액세스합니다.
+1. Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Tools > Advanced > Import package]**&#x200B;에서 패키지 가져오기 도우미에 액세스합니다.
 1. **[!UICONTROL Install a standard package]**&#x200B;을(를) 선택합니다.
 1. 패키지 목록에서 설치할 패키지를 선택합니다.
    >[!NOTE]
@@ -242,7 +242,7 @@ ht-degree: 3%
 
 게재 채널(이메일, 모바일 채널, 모바일 앱 채널, LINE 등)을 설치해야 합니다. 트랜잭션 메시지를 설치하기 전에(메시지 센터 패키지). 이메일 전용 메시지 센터 프로젝트를 시작했으며 나중에 새 채널을 추가해야 하는 경우 다음 단계를 따라야 합니다.
 
-1. 패키지 가져오기 마법사(**[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**)를 사용하여 새 채널(예: **모바일 채널**)을 설치합니다.
+1. 패키지 가져오기 도우미(**[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**)를 사용하여 새 채널(예: **모바일 채널**)을 설치합니다.
 1. 파일(**[!UICONTROL Tools > Advanced > Import package > File]**)을 가져온 다음 다음을 선택합니다.
 
    ```

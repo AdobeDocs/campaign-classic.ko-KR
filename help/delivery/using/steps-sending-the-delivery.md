@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Channel Configuration
 role: User
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 11%
@@ -55,7 +55,7 @@ ht-degree: 11%
 
 완료되면 **[!UICONTROL Confirm delivery]**&#x200B;을(를) 클릭하여 메시지 배달을 시작합니다.
 
-그런 다음 게재 마법사를 닫고 이 게재의 세부 정보 또는 게재 목록을 통해 액세스할 수 있는 **[!UICONTROL Delivery]** 탭에서 게재 실행을 추적할 수 있습니다.
+그런 다음 게재 도우미를 닫고 이 게재의 세부 정보 또는 게재 목록을 통해 액세스할 수 있는 **[!UICONTROL Delivery]** 탭에서 게재 실행을 추적할 수 있습니다.
 
 메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오.
 

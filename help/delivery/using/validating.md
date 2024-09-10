@@ -5,7 +5,7 @@ description: 유효성 검사
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Direct Mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 1%
@@ -32,7 +32,7 @@ DM 게재의 출력 파일은 게재 분석 중에 생성됩니다. 파일의 �
 
 ![](assets/s_ncs_user_postal_del_send_confirm_postal.png)
 
-그런 다음 마법사를 닫고 게재 세부 정보를 통해 액세스할 수 있는 **[!UICONTROL Delivery]** 탭을 통해 게재 로그를 확인할 수 있습니다.
+그런 다음 도우미를 닫고 게재 세부 정보를 통해 액세스할 수 있는 **[!UICONTROL Delivery]** 탭을 통해 게재 로그를 확인할 수 있습니다.
 
 게재 속성의 **[!UICONTROL Analysis]** 탭에서 게재 로그 검색 모드를 구성할 수 있습니다.
 

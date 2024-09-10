@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1757'
 ht-degree: 8%
@@ -406,7 +406,7 @@ Adobe Campaign에서 작동하도록 Salesforce CRM 외부 계정을 구성하�
 
   API 버전을 선택합니다.
 
-이 외부 계정의 경우 구성 마법사로 Salesforce CRM을 구성해야 합니다.
+이 외부 계정의 경우 구성 도우미를 사용하여 Salesforce CRM을 구성해야 합니다.
 
 이 구성에 대한 자세한 내용은 이 [페이지](../../platform/using/crm-connectors.md)를 참조하세요.
 

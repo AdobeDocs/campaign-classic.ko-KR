@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%
@@ -30,7 +30,7 @@ FDA에서 Netezza 외부 데이터베이스에 연결하려면 Adobe Campaign �
 1. 사용하는 운영 체제에 따라 Netezza용 ODBC 드라이버를 설치합니다.
 
    * Linux용 **nz-linuxclient-v7.2.0.0.tar.gz**. 운영 체제(linux 또는 linux64)에 해당하는 폴더를 선택하고 unpack 명령을 시작합니다. 기본적으로 제안된 저장소에 설치를 수행할 수 있습니다. &quot;/usr/local/nz&quot;.
-   * Windows용 **nz-winclient-v7.2.0.0.zip**. 파일의 압축을 풀고 운영 체제에 해당하는 실행 스크립트 nzodbcsetup.exe 또는 nzodbcsetup64.exe를 시작합니다. 마법사 지침에 따라 드라이버 설치를 완료합니다.
+   * Windows용 **nz-winclient-v7.2.0.0.zip**. 파일의 압축을 풀고 운영 체제에 해당하는 실행 스크립트 nzodbcsetup.exe 또는 nzodbcsetup64.exe를 시작합니다. 드라이버 설치를 완료하려면 어시스턴트 지침을 따르십시오.
 
 1. ODBC 드라이버를 구성합니다. 일반 매개 변수의 경우 **/etc/odbc.ini**, 드라이버 선언의 경우 **/etc/odbcinst.ini** 표준 파일에서 구성을 수행할 수 있습니다.
 

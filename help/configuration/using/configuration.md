@@ -5,7 +5,7 @@ feature: Application Settings
 description: Campaign 탐색기 탐색 트리를 구성하는 방법 알아보기
 role: Data Engineer, Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -101,7 +101,7 @@ XML 문서에 문서 이름과 네임스페이스를 지정하는 **name** 및 *
 * &quot;xtk:import&quot; 양식을 실행하기 위한 전역 명령 선언:
 
   ```
-  <command desc="Start the data import wizard" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
+  <command desc="Start the data import assistant" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
   ```
 
   명령 레이블에 **&amp;**&#x200B;이(가) 있으면 &#39;I&#39; 문자에 키보드 단축키가 선언됩니다.

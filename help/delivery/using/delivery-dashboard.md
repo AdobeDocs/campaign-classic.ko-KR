@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Monitoring
 role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 4%
@@ -76,7 +76,7 @@ ht-degree: 4%
 >
 >게재에 대해 추적이 활성화되어 있지 않은 경우 이 탭이 표시되지 않습니다.
 
-추적 구성은 게재 마법사의 적절한 단계에서 수행됩니다. [추적된 링크를 구성하는 방법](how-to-configure-tracked-links.md)을 참조하세요.
+추적 구성은 게재 도우미의 적절한 단계에서 수행됩니다. [추적된 링크를 구성하는 방법](how-to-configure-tracked-links.md)을 참조하세요.
 
 **[!UICONTROL Tracking]** 데이터가 게재 보고서에 해석되어 있습니다. [이 섹션](../../reporting/using/delivery-reports.md)을 참조하십시오.
 

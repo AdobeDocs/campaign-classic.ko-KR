@@ -5,7 +5,7 @@ description: Campaign 데이터 스키마 시작
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
@@ -61,7 +61,7 @@ ht-degree: 1%
    >
    >기본적으로 사용자가 만든 스키마는 &#39;cus&#39; 네임스페이스에 저장됩니다. 자세한 내용은 [스키마 식별](../../configuration/using/about-schema-reference.md#identification-of-a-schema)을 참조하세요.
 
-1. 테이블의 내용을 만듭니다. 시작 마법사를 사용하여 설정이 누락되지 않았는지 확인하는 것이 좋습니다. 이렇게 하려면 **[!UICONTROL Insert]** 단추를 클릭하고 추가할 설정 유형을 선택합니다.
+1. 테이블의 내용을 만듭니다. 시작 도우미를 사용하여 설정이 누락되지 않았는지 확인하는 것이 좋습니다. 이렇게 하려면 **[!UICONTROL Insert]** 단추를 클릭하고 추가할 설정 유형을 선택합니다.
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 

@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->다른 테이블(익명 오퍼의 방문자 테이블 또는 특정 수신자 테이블)을 타겟팅하려면 타겟 매핑 마법사를 사용하여 환경을 만들어야 합니다. 자세한 내용은 [오퍼 환경 만들기](#creating-an-offer-environment)를 참조하세요.
+>다른 테이블(익명 오퍼의 방문자 테이블 또는 특정 수신자 테이블)을 타겟팅하려면 target 매핑 도우미를 사용하여 환경을 만들어야 합니다. 자세한 내용은 [오퍼 환경 만들기](#creating-an-offer-environment)를 참조하세요.
 
 ![](assets/offer_environments_overview_002.png)
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
    ![](assets/offer_env_anonymous_001.png)
 
-1. 마법사의 다음 화면으로 진행하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하고 **[!UICONTROL Generate a storage schema for propositions]** 상자를 선택한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 길잡이의 다음 화면으로 진행하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하고 **[!UICONTROL Generate a storage schema for propositions]** 상자를 선택한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/offer_env_anonymous_002.png)
 

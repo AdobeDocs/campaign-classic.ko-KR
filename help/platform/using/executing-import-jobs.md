@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '2973'
 ht-degree: 1%
@@ -25,9 +25,9 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 >
 >**[!UICONTROL Import a list]** 함수를 사용하여 데이터베이스 데이터와 매핑하지 않고 데이터를 가져올 수 있습니다. 그런 다음 **[!UICONTROL Read list]** 개체를 통해 워크플로우에서만 데이터를 사용할 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/read-list.md)를 참조하십시오.
 
-가져오기 마법사를 사용하여 가져오기를 구성하고, 해당 옵션(예: 데이터 변환)을 정의하고, 실행을 시작할 수 있습니다. 가져오기 유형(단순 또는 다중)과 운영자의 권한에 따라 콘텐츠가 달라지는 일련의 화면입니다.
+가져오기 도우미에서 가져오기를 구성하고, 해당 옵션(예: 데이터 변환)을 정의하고, 실행을 시작할 수 있습니다. 가져오기 유형(단순 또는 다중)과 운영자의 권한에 따라 콘텐츠가 달라지는 일련의 화면입니다.
 
-가져오기 마법사는 새 가져오기 작업을 만든 후에 표시됩니다([가져오기 및 내보내기 작업 만들기](../../platform/using/creating-import-export-jobs.md) 참조).
+가져오기 도우미는 새 가져오기 작업을 만든 후에 표시됩니다([가져오기 및 내보내기 작업 만들기](../../platform/using/creating-import-export-jobs.md) 참조).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 ## 1단계 - 가져오기 템플릿 선택 {#step-1---choosing-the-import-template}
 
-가져오기 마법사를 시작할 때 먼저 템플릿을 선택해야 합니다. 예를 들어 뉴스레터를 수신한 수신자의 가져오기를 구성하려면 아래 단계를 따르십시오.
+가져오기 도우미를 시작할 때 먼저 템플릿을 선택해야 합니다. 예를 들어 뉴스레터를 수신한 수신자의 가져오기를 구성하려면 아래 단계를 따르십시오.
 
 1. **[!UICONTROL Profiles and Targets > Job > Generic imports and exports]** 폴더를 선택하십시오.
 1. **새로 만들기**&#x200B;를 클릭한 다음 **가져오기**&#x200B;를 클릭하여 가져오기 템플릿을 만듭니다.
@@ -53,7 +53,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 1. **[!UICONTROL Label]** 필드에 이 가져오기의 이름을 입력하십시오. 설명을 추가할 수 있습니다.
 1. 해당 필드에서 가져오기 유형을 선택합니다. 가져올 수 있는 유형에는 두 가지가 있습니다. **[!UICONTROL Simple import]**&#x200B;은(는) 한 개의 파일만 가져오고 **[!UICONTROL Multiple import]**&#x200B;은(는) 여러 개의 파일을 한 번에 가져옵니다.
 
-   다중 가져오기의 경우 가져오기 마법사의 첫 번째 화면에 있는 **[!UICONTROL Import type]** 드롭다운 목록에서 **[!UICONTROL Multiple import]**&#x200B;을(를) 선택합니다.
+   여러 번 가져오려면 가져오기 도우미의 첫 번째 화면에 있는 **[!UICONTROL Import type]** 드롭다운 목록에서 **[!UICONTROL Multiple import]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/s_ncs_user_import_wizard01_2.png)
 
@@ -61,7 +61,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
-   파일을 추가할 때마다 **[!UICONTROL File to import]** 마법사의 화면이 표시됩니다. [2단계 - Source 파일 선택](#step-2---source-file-selection) 섹션을 보고 마법사의 단계에 따라 간단한 가져오기에 대한 가져오기 옵션을 정의합니다.
+   파일을 추가할 때마다 **[!UICONTROL File to import]** 길잡이의 화면이 표시됩니다. [2단계 - Source 파일 선택](#step-2---source-file-selection) 섹션을 보고 도우미의 단계에 따라 가져오기 옵션을 간단히 정의하십시오.
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 ## 4단계 - 조정 {#step-4---reconciliation}
 
-가져오기 마법사의 조정 단계에서는 파일의 데이터를 데이터베이스의 기존 데이터와 조정하는 모드를 정의하고 파일 데이터와 데이터베이스 데이터 간의 우선순위 규칙을 설정할 수 있습니다. 구성 창은 다음과 같습니다.
+가져오기 도우미의 조정 단계에서는 파일의 데이터를 데이터베이스의 기존 데이터와 조정하는 모드를 정의하고 파일 데이터와 데이터베이스 데이터 간의 우선순위 규칙을 설정할 수 있습니다. 구성 창은 다음과 같습니다.
 
 ![](assets/s_ncs_user_import_wizard04_1.png)
 
@@ -277,7 +277,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 ## 5단계 - 수신자를 가져올 때 추가 단계 {#step-5---additional-step-when-importing-recipients}
 
-가져오기 마법사의 다음 단계에서는 데이터를 가져올 폴더를 선택하거나 만들고, 가져온 수신자를 (신규 또는 기존) 목록에 자동으로 매핑하고, 수신자를 서비스에 가입할 수 있습니다.
+가져오기 도우미의 다음 단계에서는 데이터를 가져올 폴더를 선택하거나 만들고, 가져온 수신자를 (신규 또는 기존) 목록에 자동으로 매핑하고, 수신자를 서비스에 가입할 수 있습니다.
 
 ![](assets/s_ncs_user_import_wizard05_1.png)
 
@@ -333,7 +333,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 ## 6단계 - 가져오기 시작 {#step-6---launching-the-import}
 
-마법사의 마지막 단계에서는 데이터 가져오기를 시작할 수 있습니다. 이렇게 하려면 **[!UICONTROL Start]** 단추를 클릭하십시오.
+도우미의 마지막 단계에서는 데이터 가져오기를 시작할 수 있습니다. 이렇게 하려면 **[!UICONTROL Start]** 단추를 클릭하십시오.
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 

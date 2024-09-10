@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: bc4329b4-d272-4d32-bdaa-290cb9912af4
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 1%
@@ -57,7 +57,7 @@ created (datetime), createdBy-id (long), desc (string), entitySchema (string), e
 * **desc(문자열)**: 스키마 설명
 * **entitySchema(문자열)**: 구문 및 승인이 기반으로 하는 기본 스키마(기본적으로 Adobe Campaign의 경우 xtk:srcSchema). 현재 스키마를 저장하면 Adobe Campaign은 @xtkschema 속성에 선언된 스키마로 해당 문법을 승인합니다.
 * **extendedSchema(string)**: 현재 스키마 확장의 기반이 되는 기본 스키마 이름을 받습니다. 양식은 &quot;namespace:name&quot;입니다.
-* **img(문자열)**: 스키마에 연결된 아이콘(스키마 만들기 마법사에서 정의할 수 있음).
+* **img(문자열)**: 스키마에 연결된 아이콘(스키마 만들기 도우미에서 정의할 수 있음).
 * **레이블(문자열)**: 스키마 레이블입니다.
 * **labelSingular(문자열)**: 인터페이스에 표시할 레이블(singular).
 * **lastModified(datetime)**: 이 특성은 마지막 수정 날짜 및 시간에 대한 정보를 제공합니다. 여기에는 &quot;날짜/시간&quot; 양식이 있습니다. 표시된 값은 서버에서 가져옵니다. 시간은 UTC 형식으로 표시됩니다.
@@ -73,7 +73,7 @@ created (datetime), createdBy-id (long), desc (string), entitySchema (string), e
 * **이름(문자열)**: 고유한 스키마 이름입니다.
 * **네임스페이스(문자열)**: 스키마의 네임스페이스(기본값: nms, xtk, nl). 프로젝트에 대한 새 스키마를 생성할 때 전용 네임스페이스를 사용하는 것이 좋습니다.
 * **useRecycleBin(부울)**: 응용 프로그램에서 휴지통 기능을 활성화합니다. 삭제된 레코드는 최종 삭제 전에 휴지통에 보관됩니다. 이 함수는 &quot;게재&quot; 모드에서만 사용할 수 있습니다.
-* **보기(부울)**: 활성화되면(@view=&quot;true&quot;) 스키마가 보기로 사용됩니다. 데이터베이스 구조 업데이트 마법사는 스키마를 고려하지 않습니다. 이 옵션은 주로 외부 테이블을 참조하는 데 사용됩니다.
+* **보기(부울)**: 활성화되면(@view=&quot;true&quot;) 스키마가 보기로 사용됩니다. 데이터베이스 구조 업데이트 도우미는 스키마를 고려하지 않습니다. 이 옵션은 주로 외부 테이블을 참조하는 데 사용됩니다.
 * **xtkschema(string)**: 스키마 문법을 정의하는 스키마의 이름입니다(기본적으로 xtk:srcSchema).
 
 ## 예제 {#examples-11}

@@ -5,7 +5,7 @@ description: "사용 사례: 개요 만들기"
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Apps
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 0%
@@ -94,7 +94,7 @@ ht-degree: 0%
    >
    >**nms:webApp**&#x200B;이(가) 웹 응용 프로그램 스키마와 일치합니다.
    >
-   >**nms:newWebApp**&#x200B;이(가) 새 웹 응용 프로그램 만들기 마법사와 일치합니다.
+   >**nms:newWebApp**&#x200B;이(가) 새 웹 응용 프로그램 만들기 도우미와 일치합니다.
 
 1. 동일한 창에 URL을 표시하도록 선택합니다.
 1. 이미지 필드에 웹 응용 프로그램 아이콘을 추가합니다. **/nms/img/webApp.png**.

@@ -4,7 +4,7 @@ title: JavaScript 스크립트 및 템플릿
 description: JavaScript 스크립트 및 템플릿
 feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 2%
@@ -59,7 +59,7 @@ logInfo("Start date: " + task.creationDate)
 
 **[!UICONTROL logInfo(message)]** 함수는 로그에 메시지를 삽입합니다.
 
-**[!UICONTROL OK]**&#x200B;을(를) 클릭하여 만들기 마법사를 닫은 다음 워크플로 목록의 오른쪽 맨 위에 있는 작업 단추를 사용하여 워크플로를 시작합니다. 실행이 끝나면 로그를 참조하십시오. 스크립트에 해당하는 두 개의 메시지가 표시되어야 합니다. 하나는 워크플로우의 레이블을 표시하고 다른 하나는 스크립트가 활성화된 날짜를 표시합니다.
+**[!UICONTROL OK]**&#x200B;을(를) 클릭하여 만들기 도우미를 닫은 다음 워크플로 목록의 오른쪽 상단에 있는 작업 단추를 사용하여 워크플로를 시작합니다. 실행이 끝나면 로그를 참조하십시오. 스크립트에 해당하는 두 개의 메시지가 표시되어야 합니다. 하나는 워크플로우의 레이블을 표시하고 다른 하나는 스크립트가 활성화된 날짜를 표시합니다.
 
 ## 변수 {#variables}
 

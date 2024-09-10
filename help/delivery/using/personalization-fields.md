@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Personalization
 role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: 0cf7f249f366a6ef0e9bd0326ec14131fcf7dc18
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 8%
@@ -49,7 +49,7 @@ ht-degree: 8%
 먼저 수신자의 이름을 삽입한 다음 메시지 본문에 프로필 생성 날짜를 추가하는 이메일을 만듭니다. 방법은 다음과 같습니다.
 
 1. 새 게재를 만들거나 기존 이메일 유형 게재를 엽니다.
-1. 게재 마법사에서 **[!UICONTROL Subject]**&#x200B;을(를) 클릭하여 메시지 제목을 편집하고 제목을 입력합니다.
+1. 게재 도우미에서 **[!UICONTROL Subject]**&#x200B;을(를) 클릭하여 메시지 제목을 편집하고 제목을 입력합니다.
 1. &quot; **[!UICONTROL Special offer for]**&quot;을(를) 입력하고 도구 모음의 단추를 사용하여 개인화 필드를 삽입합니다. **[!UICONTROL Recipients>Title]**&#x200B;을(를) 선택합니다.
 
    ![](assets/s_ncs_user_insert_custom_field.png)

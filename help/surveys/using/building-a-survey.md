@@ -5,7 +5,7 @@ description: 설문 조사를 디자인하는 주요 단계 알아보기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 ## 필드 추가 {#adding-fields}
 
-양식의 필드를 사용하면 정보를 입력하고 옵션을 선택할 수 있습니다. 양식의 각 페이지에 대해 **[!UICONTROL Add using the wizard]** 메뉴를 사용하여 도구 모음의 첫 번째 단추를 통해 만듭니다.
+양식의 필드를 사용하면 정보를 입력하고 옵션을 선택할 수 있습니다. 양식의 각 페이지에 대해 **[!UICONTROL Add using the assistant]** 메뉴를 사용하여 도구 모음의 첫 번째 단추를 통해 만듭니다.
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 

@@ -4,7 +4,7 @@ title: 예약
 description: 예약 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
 exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 10%
@@ -37,7 +37,7 @@ ht-degree: 10%
 
 ![](assets/s_user_segmentation_scheduler.png)
 
-마법사를 사용하여 활동의 빈도와 유효 기간을 정의할 수 있습니다. 구성 단계는 다음과 같습니다.
+도우미에서 활동의 빈도와 유효 기간을 정의할 수 있습니다. 구성 단계는 다음과 같습니다.
 
 1. 활성화 빈도를 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 

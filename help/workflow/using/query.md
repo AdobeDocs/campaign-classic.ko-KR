@@ -4,7 +4,7 @@ title: 쿼리
 description: 쿼리 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    ![](assets/query_temporary_table.png)
 
-1. 마법사를 사용하여 모집단을 정의합니다. 입력할 필드는 대상 유형에 따라 다를 수 있습니다. **[!UICONTROL Preview]** 탭을 사용하여 현재 기준으로 타겟팅된 모집단을 미리 볼 수 있습니다.
+1. 도우미를 사용하여 모집단을 정의합니다. 입력할 필드는 대상 유형에 따라 다를 수 있습니다. **[!UICONTROL Preview]** 탭을 사용하여 현재 기준으로 타겟팅된 모집단을 미리 볼 수 있습니다.
 
    필터 또는 쿼리를 만들고 사용하는 방법에 대한 자세한 내용은 이 [섹션](../../platform/using/filtering-options.md)을 참조하세요.
 
@@ -97,7 +97,7 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
 
 대상 모집단에 연결된 정보 컬렉션을 추가하려면 다음을 수행합니다.
 
-1. 마법사의 첫 번째 단계에서 **[!UICONTROL Data linked to the filtering dimension]** 옵션을 선택합니다.
+1. 도우미의 첫 번째 단계에서 **[!UICONTROL Data linked to the filtering dimension]** 옵션을 선택합니다.
 1. 수집할 정보가 포함된 테이블을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/wf_add_data_linked_table.png)

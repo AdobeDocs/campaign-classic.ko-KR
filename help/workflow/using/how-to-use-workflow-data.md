@@ -4,7 +4,7 @@ title: 워크플로우 데이터 사용 방법
 description: 워크플로우 데이터 사용 방법 알아보기
 feature: Workflows, Data Management
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ![](assets/s_advuser_add_data_postal_mail.png)
 
-일반적인 개인화 필드 외에도 워크플로우 단계의 개인화 필드를 게재 콘텐츠에 추가할 수 있습니다. DM 게재 프레임워크 내에서 출력 파일의 이름을 정의하기 위해 워크플로우 활동에 정의된 추가 데이터를 아래 예와 같이 게재 마법사에서 유지하고 액세스할 수 있습니다.
+일반적인 개인화 필드 외에도 워크플로우 단계의 개인화 필드를 게재 콘텐츠에 추가할 수 있습니다. DM 게재 프레임워크 내에서 출력 파일의 이름을 정의하기 위해 워크플로우 활동에서 정의된 추가 데이터를 아래 예제와 같이 게재 도우미에서 유지하고 액세스할 수 있습니다.
 
 ![](assets/s_advuser_using_additional_data.png)
 

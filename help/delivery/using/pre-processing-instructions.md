@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Monitoring
 role: User, Data Engineer, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 * **[!DNL value]**: 게재 필드, 게재 변수 및 게재에 로드된 사용자 지정 개체에 대한 액세스 권한을 부여합니다. [자세히 알아보기](#value)
 * **[!DNL foreach]**: 사용자 지정 개체로 로드된 배열을 루프합니다. [자세히 알아보기](#foreach)
 
-게재 마법사에서 직접 테스트할 수 있습니다. 이러한 속성은 콘텐츠 미리 보기에서, 그리고 URL 목록을 보기 위해 추적 단추를 클릭할 때 적용됩니다.
+게재 도우미에서 직접 테스트할 수 있습니다. 이러한 속성은 콘텐츠 미리 보기에서, 그리고 URL 목록을 보기 위해 추적 단추를 클릭할 때 적용됩니다.
 
 ## [!DNL include] {#include}
 
@@ -57,7 +57,7 @@ ht-degree: 1%
   <%@ include option='NmsServer_URL' %>
   ```
 
-  게재 마법사의 개인화 버튼을 사용하여 올바른 구문을 가져옵니다.
+  게재 도우미의 개인화 버튼을 사용하여 올바른 구문을 가져옵니다.
 
 ## [!DNL value] {#value}
 

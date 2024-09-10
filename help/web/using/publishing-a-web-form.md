@@ -5,7 +5,7 @@ description: 웹 양식 게시
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -140,7 +140,7 @@ ht-degree: 1%
 
 ### 이메일을 통해 양식 게재 {#delivering-a-form-via-email}
 
-전자 메일을 통해 초대를 전달할 때 데이터 조정에 **[!UICONTROL Adobe Campaign Encryption]** 옵션을 사용할 수 있습니다. 이렇게 하려면 게재 마법사로 이동하여 다음 매개 변수를 추가하여 양식에 대한 링크를 조정합니다.
+전자 메일을 통해 초대를 전달할 때 데이터 조정에 **[!UICONTROL Adobe Campaign Encryption]** 옵션을 사용할 수 있습니다. 이렇게 하려면 게재 도우미로 이동하여 다음 매개 변수를 추가하여 양식에 대한 링크를 조정합니다.
 
 ```
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">

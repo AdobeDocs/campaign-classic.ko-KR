@@ -6,7 +6,7 @@ feature: Configuration
 role: Data Engineer, Developer
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 2%
@@ -57,7 +57,7 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
-* 마법사
+* 어시스턴트
 
   이 양식은 특정 시퀀스로 순서가 지정된 여러 부동 화면으로 구성됩니다. 사용자는 한 화면에서 다음 화면으로 이동합니다. [자세히 보기](form-structure.md#wizards).
 

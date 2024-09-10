@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Monitoring, Reporting
 role: User
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -40,7 +40,7 @@ mta@instance 모듈이 MTA 서버에서 시작되었는지 확인하고 필요�
 
 수신자의 동작을 더 잘 알기 위해 수신, 열기, 링크 클릭, 구독 취소 등 수신자가 게재에 어떻게 반응하는지를 추적할 수 있습니다. Campaign Classic에서 이 정보는 게재의 타겟팅한 수신자의 추적 탭과 게재의 추적 탭에 표시됩니다.
 
-**팁**: 메시지 추적은 기본적으로 사용할 수 있습니다. URL을 구성하려면 게재 마법사의 아래 섹션에서 URL 표시 옵션을 선택합니다. 메시지의 각 URL에 대해 추적을 활성화할지 여부를 선택할 수 있습니다.
+**팁**: 메시지 추적은 기본적으로 사용할 수 있습니다. URL을 구성하려면 게재 도우미의 아래 섹션에서 URL 표시 옵션을 선택합니다. 메시지의 각 URL에 대해 추적을 활성화할지 여부를 선택할 수 있습니다.
 
 자세한 내용은 [추적 구성](how-to-configure-tracked-links.md) 섹션 및 [추적 표시기](../../reporting/using/delivery-reports.md#tracking-indicators) 설명을 참조하세요.
 

@@ -4,7 +4,7 @@ title: 개인화 및 개인 정보 보호
 description: 개인 정보 보호 및 개인화에 대한 보안 모범 사례 알아보기
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 2%
@@ -94,7 +94,7 @@ URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 �
 
 1. **[!UICONTROL External Account]**(extAccount)을 선택합니다.
 
-1. 마지막 마법사 화면에서 새 &#39;srcSchema&#39;를 편집하여 모든 암호 필드에 대한 액세스를 제한합니다.
+1. 마지막 지원 화면에서 새 &#39;srcSchema&#39;를 편집하여 모든 암호 필드에 대한 액세스를 제한합니다.
 
    주 요소(`<element name="extAccount" ... >`)를 다음과 같이 바꿀 수 있습니다.
 

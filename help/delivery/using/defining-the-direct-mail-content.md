@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Direct Mail
 role: User
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 10%
@@ -27,7 +27,7 @@ DM 게재의 경우 **[!UICONTROL Edit the extraction file format...]** 링크�
 
 ![](assets/s_ncs_user_mail_delivery_format_link.png)
 
-이 링크를 사용하면 추출 마법사에 액세스하고 출력 파일로 내보낼 정보(열)를 정의할 수 있습니다.
+이 링크를 사용하면 추출 도우미에 액세스하고 출력 파일로 내보낼 정보(열)를 정의할 수 있습니다.
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
@@ -35,4 +35,4 @@ DM 게재의 경우 **[!UICONTROL Edit the extraction file format...]** 링크�
 
 >[!NOTE]
 >
->이 마법사에는 [시작](../../platform/using/executing-export-jobs.md) 섹션에 자세히 설명되어 있는 내보내기 마법사의 단계가 포함되어 있습니다.
+>이 도우미에는 [시작](../../platform/using/executing-export-jobs.md) 섹션에 자세히 설명되어 있는 내보내기 도우미의 단계가 포함되어 있습니다.

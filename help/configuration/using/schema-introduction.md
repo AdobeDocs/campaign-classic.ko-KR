@@ -5,7 +5,7 @@ description: 스키마 참조 목록
 feature: Custom Resources
 role: Data Engineer, Developer
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 21%
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # 스키마 참조 {#schema-reference}
 
-스키마를 편집할 때 소스 스키마(xtk:srcSchema)를 기반으로 하는 승인 시스템을 사용할 수 있습니다. &quot;데이터베이스 구조 업데이트...&quot; 마법사를 사용하여 데이터베이스를 업데이트할 때도 일부 오류가 발견될 수 있습니다.
+스키마를 편집할 때 소스 스키마(xtk:srcSchema)를 기반으로 하는 승인 시스템을 사용할 수 있습니다. &quot;데이터베이스 구조 업데이트...&quot; 도우미를 사용하여 데이터베이스를 업데이트할 때도 일부 오류가 발견될 수 있습니다.
 
 기본적으로 Adobe Campaign 스키마에서 모든 부울 유형 속성은 &quot;false&quot;입니다. 활성화하려면 스키마에서 속성을 지정하고 값을 &quot;true&quot;로 설정해야 합니다.
 

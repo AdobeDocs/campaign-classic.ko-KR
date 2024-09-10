@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Monitoring
 role: User
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 3%
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->대량 게재의 경우 이러한 값을 업데이트할 수 있습니다. 이렇게 하려면 해당 게재를 선택한 다음 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Action > Recompute delivery and tracking indicators...]**&#x200B;을(를) 선택한 다음 마법사를 사용하여 이 정보를 업데이트합니다.
+>대량 게재의 경우 이러한 값을 업데이트할 수 있습니다. 이렇게 하려면 해당 게재를 선택한 다음 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Action > Recompute delivery and tracking indicators...]**&#x200B;을(를) 선택한 다음 도우미를 사용하여 이 정보를 업데이트하세요.
 
 **관련 항목:**
 

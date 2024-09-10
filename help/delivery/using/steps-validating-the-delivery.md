@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 8%
@@ -138,7 +138,7 @@ ht-degree: 8%
 
 1. [특정 증명 대상 정의](steps-defining-the-target-population.md#defining-a-specific-proof-target)에 설명된 대로 증명 대상이 구성되었는지 확인하십시오.
 
-1. 게재 마법사의 상단 표시줄에서 **[!UICONTROL Send a proof]**&#x200B;을(를) 클릭합니다.
+1. 게재 도우미의 상단 표시줄에서 **[!UICONTROL Send a proof]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
 
@@ -171,7 +171,7 @@ ht-degree: 8%
 
 * 첫 번째 옵션을 사용하면 증명이 두 번 표시되도록 할 수 있습니다.
 * 다음 두 옵션 모두 수신자의 차단 목록 및 주소를 격리할 수 있도록 해줍니다. [제외 설정 사용자 지정](steps-defining-the-target-population.md#customizing-exclusion-settings)에서 기본 대상에 대한 이러한 옵션에 대한 설명을 참조하십시오. 기본적으로 이러한 주소가 제외되는 게재 대상과 달리, 게재 대상은 기본적으로 증명 대상으로 유지됩니다.
-* **[!UICONTROL Keep the delivery code for the proof]** 옵션을 사용하면 증명에 관련된 게재에 대해 정의된 것과 동일한 게재 코드를 제공할 수 있습니다. 이 코드는 게재 마법사의 첫 번째 단계에서 지정됩니다.
+* **[!UICONTROL Keep the delivery code for the proof]** 옵션을 사용하면 증명에 관련된 게재에 대해 정의된 것과 동일한 게재 코드를 제공할 수 있습니다. 이 코드는 게재 도우미의 첫 번째 단계에서 지정됩니다.
 * 기본적으로 증명 제목에는 &#39;Proof #&#39;가 붙습니다. 여기서 #은 증명 번호입니다. **[!UICONTROL Label prefix]** 필드에서 이 접두사를 변경할 수 있습니다.
 
 ## 유형화를 사용한 유효성 검사 프로세스 {#validation-process-with-typologies}

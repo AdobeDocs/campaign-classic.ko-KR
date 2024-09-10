@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 1%
@@ -32,17 +32,17 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_action_icon.png)
 
-업데이트에는 수신자 집합에 대한 대량 업데이트와 두 프로필 간의 데이터 병합의 두 가지 유형이 있습니다. 각 작업에 대해 마법사를 사용하여 업데이트를 구성할 수 있습니다.
+업데이트에는 수신자 집합에 대한 대량 업데이트와 두 프로필 간의 데이터 병합의 두 가지 유형이 있습니다. 각 작업에 대해 도우미를 사용하여 업데이트를 구성할 수 있습니다.
 
 ### 대량 업데이트 {#mass-update}
 
-대량 업데이트를 수행하려면 **[!UICONTROL Action > Mass update of selected lines...]**&#x200B;을(를) 사용하십시오. 마법사는 업데이트를 구성하고 실행하는 데 도움이 됩니다.
+대량 업데이트를 수행하려면 **[!UICONTROL Action > Mass update of selected lines...]**&#x200B;을(를) 사용하십시오. 도우미는 업데이트를 구성하고 실행하는 데 도움이 됩니다.
 
-마법사의 첫 번째 단계는 업데이트할 필드를 지정하는 것입니다.
+도우미의 첫 번째 단계는 업데이트할 필드를 지정하는 것입니다.
 
-마법사의 왼쪽 섹션에 사용 가능한 필드 목록이 표시됩니다. **[!UICONTROL Find]** 필드를 사용하여 해당 필드 검색을 실행하십시오. 목록을 탐색하려면 **Enter** 키를 누르십시오. 항목과 일치하는 필드 이름은 아래와 같이 굵게 표시됩니다.
+도우미의 왼쪽 섹션에 사용 가능한 필드 목록이 표시됩니다. **[!UICONTROL Find]** 필드를 사용하여 해당 필드 검색을 실행하십시오. 목록을 탐색하려면 **Enter** 키를 누르십시오. 항목과 일치하는 필드 이름은 아래와 같이 굵게 표시됩니다.
 
-업데이트할 필드를 두 번 클릭하여 마법사의 오른쪽 섹션에 표시합니다.
+업데이트할 필드를 도우미의 오른쪽 섹션에 표시하려면 두 번 클릭합니다.
 
 ![](assets/s_ncs_user_update_wizard01_1.png)
 
@@ -60,19 +60,19 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_update_wizard01_3.png)
 
-이 창을 닫고 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 두 번째 업데이트 마법사 단계를 표시합니다. 이 단계에서는 **[!UICONTROL Start]**&#x200B;을(를) 클릭하여 업데이트를 시작할 수 있습니다.
+이 창을 닫고 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 두 번째 업데이트 도우미 단계를 표시합니다. 이 단계에서는 **[!UICONTROL Start]**&#x200B;을(를) 클릭하여 업데이트를 시작할 수 있습니다.
 
 ![](assets/s_ncs_user_update_wizard01_4.png)
 
-업데이트 실행에 관한 정보가 마법사의 위쪽 섹션에 표시됩니다.
+업데이트 실행에 관한 정보가 어시스턴트의 상단 섹션에 표시됩니다.
 
 **[!UICONTROL Stop]**&#x200B;을(를) 통해 업데이트를 취소할 수 있지만 특정 레코드가 업데이트되었을 수 있으며 프로세스를 중지해도 이러한 업데이트가 취소되지 않습니다. 진행률 표시줄에는 작업이 얼마나 진행되었는지 표시됩니다.
 
 ### 데이터 병합 {#merge-data}
 
-**[!UICONTROL Merge selected lines...]**&#x200B;을(를) 선택하여 두 받는 사람 프로필의 병합을 시작합니다. 옵션을 선택하기 전에 병합할 프로필을 선택해야 합니다. 마법사를 사용하여 병합을 구성하고 시작합니다.
+**[!UICONTROL Merge selected lines...]**&#x200B;을(를) 선택하여 두 받는 사람 프로필의 병합을 시작합니다. 옵션을 선택하기 전에 병합할 프로필을 선택해야 합니다. 병합은 도우미를 사용하여 구성 및 시작됩니다.
 
-마법사는 하나 이상의 소스 프로필에서 완료된 각 필드에 대해 검색할 값을 표시합니다. 병합할 프로필에 있는 하나 이상의 필드에 다른 값이 있으면 **[!UICONTROL List of conflicts]** 섹션에 표시됩니다. 그런 다음 다음 다음 예와 같이 목록 아래의 라디오 단추를 사용하여 기본 프로파일을 선택할 수 있습니다.
+이 도우미는 하나 이상의 소스 프로필에서 완료된 각 필드에 대해 검색할 값을 표시합니다. 병합할 프로필에 있는 하나 이상의 필드에 다른 값이 있으면 **[!UICONTROL List of conflicts]** 섹션에 표시됩니다. 그런 다음 다음 다음 예와 같이 목록 아래의 라디오 단추를 사용하여 기본 프로파일을 선택할 수 있습니다.
 
 ![](assets/s_ncs_user_merge_wizard01_1.png)
 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_user_export_list_start.png)
 
-   내보내기 마법사를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/executing-export-jobs.md)을 참조하세요.
+   내보내기 도우미를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/executing-export-jobs.md)을 참조하세요.
 
 ## 서비스 구독 {#subscribing-to-a-service}
 

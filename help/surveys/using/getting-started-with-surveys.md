@@ -5,7 +5,7 @@ description: Campaign을 사용하여 첫 번째 설문 조사 만들기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 1%
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 * **입력 필드 추가**
 
-  페이지의 콘텐츠를 만들려면 편집해야 합니다. 이렇게 하려면 **[!UICONTROL Page]** 개체를 두 번 클릭하십시오. 도구 모음에서 첫 번째 아이콘을 클릭하여 필드 만들기 마법사를 엽니다. 받는 사람 프로필의 일치하는 필드에 저장할 사용자 이름에 대한 입력 필드를 만들려면 **[!UICONTROL Edit a recipient]**&#x200B;을(를) 선택합니다.
+  페이지의 콘텐츠를 만들려면 편집해야 합니다. 이렇게 하려면 **[!UICONTROL Page]** 개체를 두 번 클릭하십시오. 도구 모음에서 첫 번째 아이콘을 클릭하여 필드 만들기 도우미를 엽니다. 받는 사람 프로필의 일치하는 필드에 저장할 사용자 이름에 대한 입력 필드를 만들려면 **[!UICONTROL Edit a recipient]**&#x200B;을(를) 선택합니다.
 
   ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
@@ -130,7 +130,7 @@ ht-degree: 1%
 사용자가 HTML 페이지에 액세스할 수 있으려면 애플리케이션을 사용할 수 있어야 합니다. 더 이상 편집 단계가 아닌 프로덕션 단계여야 합니다. 프로덕션에 설문 조사를 넣으려면 설문 조사를 게시해야 합니다. 방법은 다음과 같습니다.
 
 * 설문 조사 대시보드 위에 있는 **[!UICONTROL Publish]** 단추를 클릭합니다.
-* 게시를 시작하고 마법사를 닫으려면 **[!UICONTROL Start]**&#x200B;을(를) 클릭하십시오.
+* 게시를 시작하고 도우미를 닫으려면 **[!UICONTROL Start]**&#x200B;을(를) 클릭하십시오.
 
   ![](assets/s_ncs_admin_survey_start_publ.png)
 

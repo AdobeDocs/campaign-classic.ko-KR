@@ -5,7 +5,7 @@ description: iOS용 푸시 알림을 만드는 방법 알아보기
 feature: Push
 role: User, Developer, Data Engineer
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 8%
@@ -56,7 +56,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 따르십시
 
 1. iOS 알림 페이로드의 자막 매개 변수의 **[!UICONTROL Subtitle]** 값을 추가할 수 있습니다. [이 섹션](configuring-the-mobile-application.md)을 참조하세요.
 
-1. 마법사의 **[!UICONTROL Message content]** 섹션에 메시지 내용을 입력합니다. 개인화 필드 사용은 [개인화 정보](about-personalization.md) 섹션에 나와 있습니다.
+1. 도우미의 **[!UICONTROL Message content]** 섹션에 메시지 내용을 입력하십시오. 개인화 필드 사용은 [개인화 정보](about-personalization.md) 섹션에 나와 있습니다.
 
    ![](assets/nmac_delivery_ios_5.png)
 

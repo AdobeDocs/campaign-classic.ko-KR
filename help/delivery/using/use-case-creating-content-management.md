@@ -5,7 +5,7 @@ description: "사용 사례: 콘텐츠 관리 만들기"
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 0%
@@ -382,7 +382,7 @@ Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 �
 >
 >콘텐츠 만들기에 대한 자세한 내용은 [콘텐츠 템플릿 사용](using-a-content-template.md)을 참조하세요.
 
-### 게재 마법사에서 콘텐츠 만들기 {#creating-content-in-the-delivery-wizard}
+### 게재 도우미에서 콘텐츠 만들기 {#creating-content-in-the-delivery-assistant}
 
 게재에서 직접 콘텐츠를 만들려면 다음 단계를 적용합니다.
 
@@ -390,7 +390,7 @@ Adobe Campaign에서 JavaScript 템플릿을 사용하려면 다음 단계를 �
 
    ![](assets/s_ncs_content_in_delivery.png)
 
-   콘텐츠 관리 양식을 통해 콘텐츠를 정의하기 위해 게재 마법사에 탭이 더 추가됩니다.
+   콘텐츠 관리 양식을 통해 콘텐츠를 정의할 수 있도록 게재 도우미에 추가 탭이 추가됩니다.
 
 1. 뉴스레터의 변수 정보를 입력합니다.
 

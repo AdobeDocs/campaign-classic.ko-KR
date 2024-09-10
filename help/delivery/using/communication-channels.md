@@ -6,10 +6,10 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 8fbfc211c4e791b324c34d3d180daa7597c00c7f
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 62%
 
 Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및 DM을 비롯한 크로스 채널 캠페인을 보내고, 다양한 전용 [보고서](../../reporting/using/delivery-reports.md)를 사용하여 효과를 측정할 수 있습니다. 이러한 메시지는 게재를 통해 디자인되고 전송되며 각 수신자에 대해 개인화할 수 있습니다.
 
-핵심 기능에는 타기팅, 정의 및 메시지 개인화, 커뮤니케이션 실행 및 관련 운영 보고서가 포함됩니다. 주요 기능 액세스 포인트는 게재 마법사입니다. 이 액세스 포인트는 Adobe Campaign에서 다루는 다양한 기능으로 이어집니다.
+핵심 기능에는 타기팅, 정의 및 메시지 개인화, 커뮤니케이션 실행 및 관련 운영 보고서가 포함됩니다. 주요 기능 액세스 포인트는 게재 도우미입니다. 이 액세스 포인트는 Adobe Campaign에서 다루는 다양한 기능으로 이어집니다.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Adobe Campaign은 다음과 같은 게재 채널을 제공합니다.
 채널에 따라 게재 모드는 다음과 같을 수 있습니다.
 
 * Adobe Campaign을 통한 직접 대량 게재(이메일 채널의 기본 모드).
-* 게재 마법사에서 생성된 출력 파일이 제공되는 전문가 연산자를 통한 외부 게재(DM 채널의 기본 모드).
+* 배달 도우미에서 생성한 출력 파일이 제공되는 전문 운영자를 통한 외부 배달(DM 채널의 기본 모드).
 
 외부 계정은 **[!UICONTROL Administration > Platform > External accounts]** 노드를 통해 구성됩니다. 이 구성은 전문가 사용자만 수행해야 합니다.
 

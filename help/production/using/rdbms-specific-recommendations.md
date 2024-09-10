@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 0654046f7e8271377e38b21a7b2e48f3859353f0
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 1%
@@ -417,7 +417,7 @@ function sqlGetMemo(strSql)
 아래 예제는 Microsoft SQL Server 2005입니다. 다른 버전을 사용하는 경우 데이터베이스 관리자에게 문의하여 유지 관리 절차에 대해 알아보십시오.
 
 1. 먼저 관리자 권한이 있는 로그인을 사용하여 Microsoft SQL Server Management Studio에 연결합니다.
-1. **[!UICONTROL Management > Maintenance Plans]** 폴더로 이동하여 해당 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Maintenance Plan Wizard]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Management > Maintenance Plans]** 폴더로 이동하여 해당 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Maintenance Plan Assistant]**&#x200B;을(를) 선택합니다.
 1. 첫 페이지가 나타나면 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. 만들 유지 관리 계획 유형(각 작업에 대한 별도의 일정 또는 전체 계획에 대한 단일 일정)을 선택한 다음 **[!UICONTROL Change...]** 단추를 클릭합니다.
 1. **[!UICONTROL Job schedule properties]** 창에서 원하는 실행 설정을 선택하고 **[!UICONTROL OK]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.

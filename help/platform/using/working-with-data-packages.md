@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 2%
@@ -91,7 +91,7 @@ XML 문서는 **`<package>`** 요소로 시작하고 끝나야 합니다. 다음
 
 패키지를 다음과 같은 세 가지 방법으로 내보낼 수 있습니다.
 
-* **[!UICONTROL Package Export Wizard]**&#x200B;을(를) 사용하면 단일 패키지로 개체 집합을 내보낼 수 있습니다. 자세한 내용은 [패키지에서 개체 집합 내보내기](#exporting-a-set-of-objects-in-a-package)를 참조하세요.
+* **[!UICONTROL Package Export Assistant]**&#x200B;을(를) 사용하면 단일 패키지로 개체 집합을 내보낼 수 있습니다. 자세한 내용은 [패키지에서 개체 집합 내보내기](#exporting-a-set-of-objects-in-a-package)를 참조하세요.
 * **단일 개체**&#x200B;를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions > Export in a package]**&#x200B;을(를) 선택하여 패키지로 직접 내보낼 수 있습니다.
 * **패키지 정의**&#x200B;를 사용하면 나중에 패키지에서 내보낼 개체를 추가하는 패키지 구조를 만들 수 있습니다. 자세한 내용은 [패키지 정의 관리](#managing-package-definitions)를 참조하세요.
 
@@ -99,11 +99,11 @@ XML 문서는 **`<package>`** 요소로 시작하고 끝나야 합니다. 다음
 
 ### 패키지의 개체 집합 내보내기 {#exporting-a-set-of-objects-in-a-package}
 
-패키지 내보내기 마법사는 Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Tools > Advanced > Export package...]** 메뉴를 통해 액세스할 수 있습니다.
+패키지 내보내기 도우미는 Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Tools > Advanced > Export package...]** 메뉴를 통해 액세스할 수 있습니다.
 
 ![](assets/ncs_datapackage_typepackage.png)
 
-세 가지 유형의 패키지에 대해 마법사는 다음 단계를 제공합니다.
+세 가지 유형의 패키지에 대해 도우미는 다음 단계를 제공합니다.
 
 1. 문서 유형별로 내보낼 엔티티 나열:
 
@@ -139,7 +139,7 @@ XML 문서는 **`<package>`** 요소로 시작하고 끝나야 합니다. 다음
 
    ![](assets/ncs_datapackage_export6.png)
 
-1. 패키지 내보내기 마법사의 마지막 페이지를 사용하여 내보내기를 시작할 수 있습니다. 데이터는 **[!UICONTROL File]** 필드에 지정된 파일에 저장됩니다.
+1. 패키지 내보내기 도우미의 마지막 페이지를 사용하여 내보내기를 시작할 수 있습니다. 데이터는 **[!UICONTROL File]** 필드에 지정된 파일에 저장됩니다.
 
    ![](assets/ncs_datapackage_export7.png)
 
@@ -303,7 +303,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ## 패키지 가져오기 {#importing-packages}
 
-패키지 가져오기 마법사는 Adobe Campaign 클라이언트 콘솔의 기본 메뉴 **[!UICONTROL Tools > Advanced > Import package]**&#x200B;을(를) 통해 액세스할 수 있습니다.
+패키지 가져오기 도우미는 Adobe Campaign 클라이언트 콘솔의 기본 메뉴 **[!UICONTROL Tools > Advanced > Import package]**&#x200B;을(를) 통해 액세스할 수 있습니다.
 
 라이선스 약관에 따라 이전에 수행한 내보내기(예: 다른 Adobe Campaign 인스턴스 또는 [기본 제공 패키지](../../installation/using/installing-campaign-standard-packages.md)에서 패키지 가져오기를 수행할 수 있습니다.
 
