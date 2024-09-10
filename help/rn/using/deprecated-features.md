@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 33d06c00ca9c7cd0ff077341df2b5b52ddf747a4
-workflow-type: ht
-source-wordcount: '1636'
-ht-degree: 100%
+source-git-commit: ef89551952cfbfd525a4dff716fe4676c1252d05
+workflow-type: tm+mt
+source-wordcount: '1653'
+ht-degree: 98%
 
 ---
 
@@ -172,6 +172,7 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 
 ### 운영 체제 {#o-s-eol}
 
+* 7.3.1 릴리스부터 Adobe Campaign은 더 이상 Windows 8 및 Windows Server 2012와 호환되지 않습니다.
 
 * 22.1 릴리스부터 Adobe Campaign은 더 이상 CentOs 8.x(64비트)와 호환되지 않습니다. CentOS Linux 8은 2021년 12월 31일부로 EOL(수명 종료) 처리되었습니다. [자세히 알아보기](https://www.centos.org/centos-linux-eol/)
 
