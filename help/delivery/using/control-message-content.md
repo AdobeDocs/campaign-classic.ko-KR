@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: de6e86eb2304a88e836c5759b87d7f38446ed357
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 6%
@@ -14,7 +14,6 @@ ht-degree: 6%
 ---
 
 # 메시지 콘텐츠 제어{#control-message-content}
-
 
 이메일이 수신자에게 도달하고 이메일 게재 가능성을 높이려면 많은 규칙을 준수해야 합니다. 그렇지 않으면 특정 메시지의 콘텐츠가 스팸으로 감지될 수 있습니다. Adobe Campaign은 콘텐츠가 이러한 규칙을 준수하도록 하는 몇 가지 도구를 제공합니다.
 
@@ -36,7 +35,7 @@ ht-degree: 6%
 
 특정 ISP는 메시지를 수락하기 전에 보낸 사람 주소(**[!UICONTROL From]**)의 유효성을 확인합니다. 잘못된 형식의 주소는 수신 서버에서 거부될 수 있습니다.
 
-인스턴스 수준(메뉴 **[!UICONTROL Tools > Advanced > Deployment wizard...]**) 또는 가장 자주 사용하는 시나리오에서 올바른 주소가 지정되었는지 확인해야 합니다.
+인스턴스 수준(메뉴 **[!UICONTROL Tools > Advanced > deployment wizard...]**) 또는 가장 자주 사용하는 시나리오에서 올바른 주소가 지정되었는지 확인해야 합니다.
 
 자세한 내용은 [이 페이지](defining-the-email-content.md)를 참조하십시오.
 
