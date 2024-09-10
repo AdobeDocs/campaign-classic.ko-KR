@@ -5,10 +5,10 @@ description: Adobe API 계정을 만드는 방법에 대해 자세히 알아보�
 role: User, Admin
 level: Beginner
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
-source-git-commit: 8eadea9f9cc0a44522726024bfbc825e3b4cad98
+source-git-commit: 9516101771899e132dbd3d1344c833e82714f775
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 7%
+source-wordcount: '324'
+ht-degree: 6%
 
 ---
 
@@ -61,9 +61,16 @@ ht-degree: 7%
    * **[!UICONTROL Technical account ID]**
    * **[!UICONTROL Organization ID]**
 
-## Adobe Campaign에서 OAuth 프로젝트 자격 증명 추가 {#add-credentials}
+## Campaign에서 OAuth 프로젝트 자격 증명 추가 {#add-credentials}
 
-Adobe Campaign에서 OAuth 프로젝트 자격 증명을 추가하려면 아래 단계를 따르십시오.
+위의 단계가 실행되면 Adobe Campaign에서 OAuth 프로젝트 자격 증명을 추가합니다.
+
+>[!NOTE]
+>
+>호스팅 또는 관리 Cloud Service 고객인 경우 이 단계는 필요하지 않습니다. Adobe이 이미 OAuth 프로젝트 자격 증명을 환경에 추가했습니다.
+>
+
+온-프레미스 또는 하이브리드 고객은 다음 단계를 수행합니다.
 
 1. Adobe Campaign 인스턴스가 설치된 각 컨테이너에 SSH를 통해 로그인합니다.
 
