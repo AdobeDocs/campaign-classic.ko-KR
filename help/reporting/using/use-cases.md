@@ -5,7 +5,7 @@ description: 사용 사례 보고
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
 workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 모집단 분석 {#analyzing-a-population}
 
-다음 예에서는 설명 분석 마법사를 사용하여 뉴스레터 세트에서 타겟팅한 모집단을 탐색할 수 있습니다.
+다음 예에서는 설명 분석 도우미를 사용하여 뉴스레터 세트에서 타겟팅한 모집단을 탐색할 수 있습니다.
 
 구현 단계는 아래에 자세히 설명되어 있으며 옵션 및 설명의 전체 목록은 이 장의 다른 섹션에서 사용할 수 있습니다.
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ### 표시 형식 정의 {#defining-the-display-format}
 
-마법사의 다음 단계에서는 생성할 차트 유형을 선택할 수 있습니다.
+지원의 다음 단계에서는 생성할 차트 유형을 선택할 수 있습니다.
 
 이 경우 히스토그램을 선택합니다.
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ### 계산할 통계 구성 {#configuring-the-statistic-to-calculate}
 
-그런 다음 수집된 데이터에 적용할 계산을 지정합니다. 기본적으로 설명 분석 마법사는 값의 간단한 카운트를 수행합니다.
+그런 다음 수집된 데이터에 적용할 계산을 지정합니다. 기본적으로 설명 분석 도우미는 값의 간단한 개수를 수행합니다.
 
 이 창에서는 계산할 통계 목록을 정의할 수 있습니다.
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ### 보고서 보기 및 사용 {#viewing-and-using-the-report}
 
-마법사의 마지막 단계에 테이블과 차트가 표시됩니다.
+지원의 마지막 단계에 테이블과 차트가 표시됩니다.
 
 표 위에 있는 도구 모음을 사용하여 데이터를 저장, 내보내기 또는 인쇄할 수 있습니다. 자세한 내용은 [보고서 처리](../../reporting/using/processing-a-report.md)를 참조하세요.
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 **Target**: 잠재 고객 또는 고객의 위치에 대한 분석 보고서를 생성합니다.
 
-1. 설명 분석 마법사를 열고 **[!UICONTROL Chart]**&#x200B;만 선택합니다.
+1. 설명 분석 도우미를 열고 **[!UICONTROL Chart]**&#x200B;만 선택합니다.
 
    ![](assets/s_ncs_user_report_wizard_05a.png)
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 **Target**: 회사 전자 메일 도메인을 분석합니다.
 
-1. 설명 분석 마법사를 열고 **[!UICONTROL Array]** 표시 모드만 선택합니다.
+1. 설명 분석 도우미를 열고 **[!UICONTROL Array]** 표시 모드만 선택합니다.
 
    ![](assets/s_ncs_user_report_wizard_03a.png)
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 **대상**: 받는 사람 연령에 대한 정량적 분석 보고서를 생성합니다.
 
-1. 설명 분석 마법사를 열고 드롭다운 목록에서 **[!UICONTROL Quantitative distribution]**&#x200B;을(를) 선택합니다.
+1. 설명 분석 도우미를 열고 드롭다운 목록에서 **[!UICONTROL Quantitative distribution]**&#x200B;을(를) 선택합니다.
 
    ![](assets/s_ncs_user_report_wizard_011a.png)
 
@@ -191,7 +191,7 @@ ht-degree: 0%
 
 워크플로우의 모집단을 분석하려면 전환 시 모집단이 계속 존재해야 합니다. 워크플로우가 시작되면 모집단과 관련된 결과가 전환에서 삭제될 수 있습니다. 분석을 실행하기 위해 다음 중 하나를 수행할 수 있습니다.
 
-* 전환을 대상 활동에서 분리하고 워크플로우를 시작하여 활성화하십시오. 전환이 깜박이기 시작하면 일반적인 방법으로 마법사를 시작합니다.
+* 전환을 대상 활동에서 분리하고 워크플로우를 시작하여 활성화하십시오. 전환이 깜박이기 시작하면 일반적인 방법으로 도우미를 시작합니다.
 
   ![](assets/s_ncs_user_report_wizard_018.png)
 
@@ -199,7 +199,7 @@ ht-degree: 0%
 
   ![](assets/s_ncs_user_report_wizard_020.png)
 
-  전환에서 모집단을 삭제한 경우 설명 분석 마법사를 시작하기 전에 관련 옵션을 선택하라는 오류 메시지가 표시됩니다.
+  전환에서 모집단을 삭제한 경우 설명 분석 도우미를 실행하기 전에 관련 옵션을 선택하라는 오류 메시지가 표시됩니다.
 
   ![](assets/s_ncs_user_report_wizard_019.png)
 
@@ -210,13 +210,13 @@ ht-degree: 0%
 
 ## 수신자 추적 로그 분석 {#analyzing-recipient-tracking-logs}
 
-설명 분석 마법사는 다른 작업 표에 대한 보고서를 생성할 수 있습니다. 즉, 전용 보고서를 만들어 게재 로그를 분석할 수 있습니다.
+설명 분석 도우미는 다른 작업 표에 대한 보고서를 생성할 수 있습니다. 즉, 전용 보고서를 만들어 게재 로그를 분석할 수 있습니다.
 
 이 예제에서는 뉴스레터 수신자의 반응성 비율을 분석하려고 합니다.
 
 그렇게 하려면 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Tools > Descriptive analysis]** 메뉴를 통해 설명 분석 마법사를 열고 기본 작업 표를 변경합니다. **[!UICONTROL Recipient tracking log]**&#x200B;을(를) 선택하고 필터를 추가하여 증명을 제외하고 뉴스레터를 포함하십시오.
+1. **[!UICONTROL Tools > Descriptive analysis]** 메뉴를 통해 설명 분석 도우미를 열고 기본 작업 표를 변경합니다. **[!UICONTROL Recipient tracking log]**&#x200B;을(를) 선택하고 필터를 추가하여 증명을 제외하고 뉴스레터를 포함하십시오.
 
    ![](assets/reporting_descriptive_sample_tracking_1.png)
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 
 ![](assets/reporting_descriptive_exclusion_menu.png)
 
-이렇게 하면 설명 분석 마법사로 이동하며 분석은 수신자 제외 로그와 관련이 있습니다.
+이렇게 하면 설명 분석 도우미로 이동하며, 분석은 수신자 제외 로그와 관련이 있습니다.
 
 예를 들어 제외된 모든 주소의 도메인을 표시하고 제외 날짜별로 정렬할 수 있습니다.
 

@@ -5,7 +5,7 @@ description: 테이블 만들기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 1%
@@ -461,6 +461,6 @@ Excel 탭에서:
 
 이 유형의 테이블을 사용하면 데이터베이스의 데이터에 대해 계산된 통계를 표시할 수 있습니다.
 
-이러한 유형의 보고서는 설명 분석 마법사에 사용되는 구성과 유사합니다. 자세한 정보는 이 [페이지](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template)를 참조하십시오.
+이러한 유형의 보고서는 설명 분석 도우미에 사용되는 구성과 유사합니다. 자세한 정보는 이 [페이지](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template)를 참조하십시오.
 
 피벗 테이블을 만드는 방법에 대한 자세한 내용은 [이 섹션](../../reporting/using/ac-cubes.md)을 참조하세요.

@@ -1,30 +1,30 @@
 ---
 product: campaign
-title: 기술적 분석 마법사 사용
-description: 기술적 분석 마법사 사용
+title: 설명 분석 도우미 사용
+description: 설명 분석 도우미 사용
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# 기술적 분석 마법사 사용{#using-the-descriptive-analysis-wizard}
+# 설명 분석 도우미 사용{#using-the-descriptive-analysis-wizard}
 
 
 
-설명 분석 보고서를 만들려면 전용 마법사를 사용하십시오. 구성은 분석할 데이터와 원하는 렌더링에 따라 다릅니다.
+설명 분석 보고서를 만들려면 전용 도우미를 사용하십시오. 구성은 분석할 데이터와 원하는 렌더링에 따라 다릅니다.
 
 ## 데이터베이스의 데이터 분석 {#analyzing-data-in-the-database}
 
-설명 분석 마법사는 **[!UICONTROL Tools > Descriptive analysis]** 메뉴를 통해 시작할 수 있습니다. 이 경우 기본적으로(**nms:recipient**) 분석을 받는 사람과 관련됩니다. Adobe Campaign 데이터베이스의 모든 데이터에 적용됩니다.
+설명 분석 도우미는 **[!UICONTROL Tools > Descriptive analysis]** 메뉴를 통해 시작할 수 있습니다. 이 경우 기본적으로 분석 도우미는 받는 사람과 관련됩니다(**nms:recipient**). Adobe Campaign 데이터베이스의 모든 데이터에 적용됩니다.
 
 ![](assets/reporting_descriptive_wz_launch.png)
 
-표준 수신자 이외의 테이블(**nms:recipient**)을 분석하려면 마법사의 마지막 단계에서 **[!UICONTROL Advanced settings...]** 링크를 클릭하고 설정과 일치하는 테이블을 선택합니다(이 경우 **cus:individual**).
+표준 수신자 이외의 테이블(**nms:recipient**)을 분석하려면 도우미의 마지막 단계에서 **[!UICONTROL Advanced settings...]** 링크를 클릭하고 사용자의 설정과 일치하는 테이블을 선택합니다(이 경우 **cus:individual**).
 
 ![](assets/reporting_descriptive_other_schema.png)
 
@@ -36,11 +36,11 @@ ht-degree: 1%
 
 ## 데이터 세트 분석 {#analyzing-a-set-of-data}
 
-목록, 워크플로우 전환, 하나 이상의 게재, 수신자 선택 등 다른 컨텍스트를 통해 설명 분석 마법사를 사용할 수 있습니다.
+목록, 워크플로우 전환, 하나 이상의 게재, 수신자 선택 등 다른 컨텍스트를 통해 설명 분석 도우미를 사용할 수 있습니다.
 
 수신자 테이블을 가리키는 Adobe Campaign 트리의 여러 노드를 통해 액세스할 수 있습니다.
 
-항목을 선택하고 마우스 오른쪽 단추를 클릭하여 설명 분석 마법사를 엽니다. 선택한 데이터만 분석됩니다.
+항목을 선택하고 마우스 오른쪽 단추를 클릭하여 설명 분석 도우미를 엽니다. 선택한 데이터만 분석됩니다.
 
 ![](assets/reporting_descriptive_from_recipients.png)
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 **[!UICONTROL Qualitative distribution]** 템플릿을 통해 만든 보고서에 사용할 수 있는 구성 옵션은 [테이블의 데이터 표시](#displaying-data-in-the-table)에 자세히 설명되어 있습니다. 전체 예제는 [모집단 분석](../../reporting/using/use-cases.md#analyzing-a-population)에 자세히 설명되어 있습니다.
 
-설명 분석 마법사를 사용하여 데이터를 분석할 때 사용 가능한 옵션은 선택한 설정에 따라 다릅니다. 이러한 내용은 아래에 자세히 설명되어 있습니다.
+설명 분석 도우미를 사용하여 데이터를 분석할 때 사용 가능한 옵션은 선택한 설정에 따라 다릅니다. 이러한 내용은 아래에 자세히 설명되어 있습니다.
 
 ### 데이터 빈 {#data-binning}
 
@@ -119,7 +119,7 @@ ht-degree: 1%
 
 ### 차트에 데이터 표시 {#displaying-data-in-the-chart}
 
-설명 분석 마법사의 첫 번째 단계에서는 표 없이 차트 양식으로만 데이터를 표시하도록 선택할 수 있습니다. 이 경우 그래픽을 구성할 때 변수 선택을 수행해야 합니다. 먼저 표시할 변수 수를 선택하고 관련 데이터베이스에서 필드를 선택해야 합니다.
+설명 분석 길잡이의 첫 번째 단계에서는 표 없이 차트 양식으로만 데이터를 표시하도록 선택할 수 있습니다. 이 경우 그래픽을 구성할 때 변수 선택을 수행해야 합니다. 먼저 표시할 변수 수를 선택하고 관련 데이터베이스에서 필드를 선택해야 합니다.
 
 ![](assets/s_ncs_user_report_wizard_023.png)
 
@@ -139,7 +139,7 @@ ht-degree: 1%
 
 ### 통계 계산 {#statistics-calculation}
 
-설명 분석 마법사를 사용하여 데이터에 대한 여러 유형의 통계를 계산할 수 있습니다. 기본적으로 단순 개수는 하나만 구성됩니다.
+설명 분석 도우미에서 데이터에 대한 여러 유형의 통계를 계산할 수 있습니다. 기본적으로 단순 개수는 하나만 구성됩니다.
 
 새 통계를 만들려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
@@ -183,7 +183,7 @@ ht-degree: 1%
 
 ### 보고서 표시 {#displaying-the-report}
 
-마법사의 마지막 단계에서는 보고서, 즉 구성된 테이블이나 차트를 표시할 수 있습니다.
+도우미의 마지막 단계에서는 보고서, 즉 구성된 테이블이나 차트를 표시할 수 있습니다.
 
 보고서에 표가 있으면 계산 결과 셀에 색상이 지정됩니다. 결과가 높을수록 색상이 더 강렬해집니다.
 
@@ -205,7 +205,7 @@ ht-degree: 1%
 
 **[!UICONTROL Quantitative distribution]** 템플릿을 통해 만든 분석 보고서의 구성 모드는 구현 예제 [정량 데이터 분석](../../reporting/using/use-cases.md#quantitative-data-analysis)에 자세히 설명되어 있습니다.
 
-설명 분석 마법사를 사용하여 정량 보고서를 만들 때 사용할 수 있는 옵션은 아래에 자세히 설명되어 있습니다.
+설명 분석 도우미를 사용하여 정량 보고서를 만들 때 사용할 수 있는 옵션은 아래에 자세히 설명되어 있습니다.
 
 계산과 관련된 변수를 선택하여 시작합니다.
 
@@ -229,7 +229,7 @@ ht-degree: 1%
 
   ![](assets/s_ncs_user_report_wizard_030.png)
 
-  마법사의 마지막 단계에 정량분석 보고서가 표시됩니다.
+  조교의 마지막 단계는 정량분석 보고서를 보여준다.
 
   ![](assets/reporting_descriptive_view_report.png)
 

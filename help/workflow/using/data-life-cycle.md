@@ -4,7 +4,7 @@ title: 데이터 수명 주기
 description: 워크플로우의 데이터 수명 주기에 대해 자세히 알아보기
 feature: Workflows, Data Management
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 5%
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 * 대상 분석
 
-  이 메뉴를 사용하여 전환 데이터에 대한 통계 및 보고서를 작성할 수 있는 설명 분석 마법사에 액세스할 수 있습니다.
+  이 메뉴를 사용하여 전환 데이터에 대한 통계 및 보고서를 작성할 수 있는 설명 분석 도우미에 액세스할 수 있습니다.
 
   자세한 정보는 이 [섹션](../../reporting/using/using-the-descriptive-analysis-wizard.md)을 참조하십시오.
 
