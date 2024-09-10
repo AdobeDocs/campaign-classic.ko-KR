@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 6c85ca9d50dd970915b7c46939f88f4d7fdf07d8
 workflow-type: tm+mt
 source-wordcount: '2827'
 ht-degree: 0%
@@ -47,9 +47,9 @@ ht-degree: 0%
 >
 >스케줄러에 정의된 날짜 및 시간에 **[!UICONTROL Database cleanup]** 워크플로우를 시작하려면 워크플로우 엔진(wfserver)을 시작해야 합니다.
 
-### 배포 마법사 {#deployment-wizard}
+### 배포 마법사 {#deployment-assistant}
 
-**[!UICONTROL Tools > Advanced]** 메뉴를 통해 액세스할 수 있는 **[!UICONTROL Deployment wizard]**&#x200B;을(를) 사용하면 데이터가 저장되는 기간을 구성할 수 있습니다. 값은 일 단위로 표시됩니다. 이 값을 변경하지 않으면 워크플로우는 기본값을 사용합니다.
+**[!UICONTROL Tools > Advanced]** 메뉴를 통해 액세스할 수 있는 **[!UICONTROL deployment wizard]**&#x200B;을(를) 사용하면 데이터가 저장되는 기간을 구성할 수 있습니다. 값은 일 단위로 표시됩니다. 이 값을 변경하지 않으면 워크플로우는 기본값을 사용합니다.
 
 ![](assets/ncs_cleanup_deployment-wizard.png)
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 이 작업은 삭제하거나 재활용할 모든 게재를 삭제합니다.
 
-1. **[!UICONTROL Database cleanup]** 워크플로에서는 **deleteStatus** 필드의 값이 **[!UICONTROL Yes]** 또는 **[!UICONTROL Recycled]**&#x200B;이고 삭제 날짜가 배포 마법사의 **[!UICONTROL Deleted deliveries]**(**NmsCleanup_RecycedDeliveryPurgeDelay**) 필드에 정의된 기간 이전인 모든 게재를 선택합니다. 자세한 내용은 [배포 마법사](#deployment-wizard)를 참조하세요. 이 기간은 현재 서버 날짜를 기준으로 계산됩니다.
+1. **[!UICONTROL Database cleanup]** 워크플로에서는 **deleteStatus** 필드의 값이 **[!UICONTROL Yes]** 또는 **[!UICONTROL Recycled]**&#x200B;이고 삭제 날짜가 배포 마법사의 **[!UICONTROL Deleted deliveries]**(**NmsCleanup_RecycedDeliveryPurgeDelay**) 필드에 정의된 기간 이전인 모든 게재를 선택합니다. 자세한 내용은 [배포 마법사](#deployment-assistant)를 참조하세요. 이 기간은 현재 서버 날짜를 기준으로 계산됩니다.
 1. 각 중간 소싱 서버에 대해 작업은 삭제할 게재 목록을 선택합니다.
 1. **[!UICONTROL Database cleanup]** 워크플로는 게재 로그, 첨부 파일, 미러 페이지 정보 및 기타 모든 관련 데이터를 삭제합니다.
 1. 정상적으로 게재를 삭제하기 전에 워크플로우는 다음 표에서 연결된 정보를 삭제합니다.
@@ -308,7 +308,7 @@ ht-degree: 0%
    DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l)
    ```
 
-   여기서 `$(curDate)`은(는) **NmsCleanup_RejectPurgeDelay** 옵션([배포 마법사](#deployment-wizard) 참조)에 대해 정의된 기간을 뺀 현재 서버 날짜이고 `$(l)`은(는) 대량 삭제할 최대 레코드 수입니다.
+   여기서 `$(curDate)`은(는) **NmsCleanup_RejectPurgeDelay** 옵션([배포 마법사](#deployment-assistant) 참조)에 대해 정의된 기간을 뺀 현재 서버 날짜이고 `$(l)`은(는) 대량 삭제할 최대 레코드 수입니다.
 
 1. 그런 다음 모든 고아 거부가 다음 쿼리를 사용하여 삭제됩니다.
 
@@ -395,7 +395,7 @@ SELECT iGroupId FROM NmsGroup WHERE iType>0"
 
 ### 방문자 정리 {#cleanup-of-visitors}
 
-이 작업은 일괄 삭제를 사용하여 방문자 테이블에서 오래된 레코드를 삭제합니다. 사용되지 않는 레코드는 마지막 수정이 배포 마법사에 정의된 보존 기간보다 이전입니다([배포 마법사](#deployment-wizard) 참조). 다음 쿼리가 사용됩니다.
+이 작업은 일괄 삭제를 사용하여 방문자 테이블에서 오래된 레코드를 삭제합니다. 사용되지 않는 레코드는 마지막 수정이 배포 마법사에 정의된 보존 기간보다 이전입니다([배포 마법사](#deployment-assistant) 참조). 다음 쿼리가 사용됩니다.
 
 ```sql
 DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WHERE iRecipientId = 0 AND tsLastModified < AddDays(GetDate(), -30) AND iOrigin = 0 LIMIT 20000)
@@ -423,7 +423,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
 ### 추적 로그 정리 {#cleanup-of-tracking-logs}
 
-이 작업은 추적 및 웹 추적 로그 테이블에서 오래된 레코드를 삭제합니다. 오래된 레코드는 배포 마법사에 정의된 보존 기간보다 이전입니다([배포 마법사](#deployment-wizard) 참조).
+이 작업은 추적 및 웹 추적 로그 테이블에서 오래된 레코드를 삭제합니다. 오래된 레코드는 배포 마법사에 정의된 보존 기간보다 이전입니다([배포 마법사](#deployment-assistant) 참조).
 
 1. 먼저 다음 쿼리를 사용하여 추적 로그 테이블 목록을 복구합니다.
 
@@ -464,7 +464,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
    DELETE FROM $(tableName) WHERE iBroadLogId IN (SELECT iBroadLogId FROM $(tableName) WHERE tsLastModified < $(option) LIMIT 5000) 
    ```
 
-   여기서 `$(tableName)`은(는) 스키마 목록에 있는 각 테이블의 이름이고 `$(option)`은(는) **NmsCleanup_BroadLogPurgeDelay** 옵션에 대해 정의된 날짜입니다([배포 마법사](#deployment-wizard) 참조).
+   여기서 `$(tableName)`은(는) 스키마 목록에 있는 각 테이블의 이름이고 `$(option)`은(는) **NmsCleanup_BroadLogPurgeDelay** 옵션에 대해 정의된 날짜입니다([배포 마법사](#deployment-assistant) 참조).
 
 1. 마지막으로 워크플로는 **NmsProviderMsgId** 테이블이 있는지 확인합니다. 이 경우 다음 쿼리를 사용하여 오래된 모든 데이터가 삭제됩니다.
 
@@ -472,7 +472,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
    DELETE FROM NmsProviderMsgId WHERE iBroadLogId IN (SELECT iBroadLogId FROM NmsProviderMsgId WHERE tsCreated < $(option) LIMIT 5000)
    ```
 
-   여기서 `$(option)`은(는) **NmsCleanup_BroadLogPurgeDelay** 옵션에 대해 정의된 날짜와 일치합니다([배포 마법사](#deployment-wizard) 참조).
+   여기서 `$(option)`은(는) **NmsCleanup_BroadLogPurgeDelay** 옵션에 대해 정의된 날짜와 일치합니다([배포 마법사](#deployment-assistant) 참조).
 
 ### NmsEmailErrorStat 테이블 정리 {#cleanup-of-the-nmsemailerrorstat-table-}
 
@@ -552,7 +552,7 @@ DELETE FROM NmsMxDomain WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailE
 DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FROM NmsPropositionXxx WHERE tsLastModified < $(option) LIMIT 5000) 
 ```
 
-여기서 `$(option)`은(는) **NmsCleanup_PropositionPurgeDelay** 옵션에 대해 정의된 날짜입니다([배포 마법사](#deployment-wizard) 참조).
+여기서 `$(option)`은(는) **NmsCleanup_PropositionPurgeDelay** 옵션에 대해 정의된 날짜입니다([배포 마법사](#deployment-assistant) 참조).
 
 ### 시뮬레이션 테이블 정리 {#cleanup-of-simulation-tables}
 
