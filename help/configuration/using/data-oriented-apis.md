@@ -5,9 +5,9 @@ description: 데이터 지향 API
 feature: API
 role: Data Engineer, Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9d84c01b217579b5a291d5761a5dd2f8f8960df8
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1811'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 &quot;xtk:queryDef&quot; 스키마의 &quot;ExecuteQuery&quot; 메서드 정의:
 
-```
+```xml
 <method name="ExecuteQuery" const="true">
   <parameters>
     <param desc="Output XML document" name="output" type="DOMDocument" inout="out"/>
@@ -80,7 +80,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 쿼리의 XML 문서 구조는 &quot;xtk:queryDef &quot; 스키마에 설명되어 있습니다. 이 문서에서는 SQL 쿼리의 &quot;select&quot;, &quot;where&quot;, &quot;order by&quot;, &quot;group by&quot;, &quot;having&quot; 절에 대해 설명합니다.
 
-```
+```xml
 <queryDef schema="schema_key" operation="operation_type">
   <select>
     <node expr="expression1">
@@ -114,7 +114,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 `<subquery>  : </subquery>`의 예
 
-```
+```xml
 <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
   <subQuery schema="xtk:operatorGroup">
      <select>
@@ -143,7 +143,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 이메일에 대한 필터를 사용하여 수신자의 성(&quot;nms:recipient&quot; 스키마)과 이름을 검색합니다.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="get">
   <!-- fields to retrieve -->
   <select>
@@ -162,7 +162,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 폴더 및 이메일 도메인에서 필터링된 수신자 목록을 생일 기준으로 내림차순으로 정렬하여 반환합니다.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select">
   <select>
     <node expr="@email"/>
@@ -189,14 +189,14 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 쿼리에서 반환되는 레코드 수를 100개로 제한하려면 다음을 수행합니다.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select" lineCount="100">
 ...
 ```
 
 다음 100개의 레코드를 검색하려면 **startLine** 특성을 추가하여 동일한 쿼리를 다시 실행하십시오.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select" lineCount="100" startLine="100">
 ...
 ```
@@ -205,7 +205,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 쿼리의 레코드 수를 계산하려면 다음을 수행하십시오.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="count"">
   <!-- condition on the folder and domain of the email -->
   <where>  
@@ -222,7 +222,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 두 번 이상 참조된 이메일 주소를 검색하려면 다음 작업을 수행하십시오.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="select">
   <select>
     <node expr="@email"/>
@@ -244,7 +244,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 **groupBy** 특성을 그룹화할 필드에 직접 추가하여 쿼리를 단순화할 수 있습니다.
 
-```
+```xml
 <select>
   <node expr="@email" groupBy="true"/>
 </select>
@@ -260,7 +260,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 * 단일 표현식의 단순 버전:
 
-  ```
+  ```xml
   <where>
     <condition expr="(@age > 15 or @age <= 45) and  (@city = 'Newton' or @city = 'Culver City') "/>
   </where>
@@ -268,7 +268,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 * `<condition>` 요소가 있는 구조화된 버전:
 
-  ```
+  ```xml
   <where>
     <condition bool-operator="AND">
       <condition expr="@age > 15" bool-operator="OR"/>
@@ -283,7 +283,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 동일한 필드에 여러 조건이 적용될 때 &#39;OR&#39; 연산자를 &#39;IN&#39; 작업으로 바꿀 수 있습니다.
 
-```
+```xml
 <where>
   <condition>
     <condition expr="@age IN (15, 45)"/>
@@ -300,7 +300,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
   폴더 레이블의 필터 예:
 
-  ```
+  ```xml
   <where>
     <condition expr="[folder/@label] like 'Segment%'"/>
   </where>
@@ -308,7 +308,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
   &quot;nms:recipient&quot; 스키마에서 폴더의 필드를 검색하려면 다음을 수행하십시오.
 
-  ```
+  ```xml
   <select>
     <!-- label of recipient folder -->
     <node expr="[folder/@label]"/>
@@ -321,7 +321,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
   &#39;뉴스레터&#39; 정보 서비스를 구독한 수신자를 필터링하려면 다음을 수행하십시오.
 
-  ```
+  ```xml
   <where>
     <condition expr="subscription" setOperator="EXISTS">
       <condition expr="@name = 'Newsletter'"/>
@@ -333,7 +333,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
   &quot;구독&quot; 컬렉션 링크의 예:
 
-  ```
+  ```xml
   <select>
     <node expr="subscription/@label"/>
   </select>
@@ -345,7 +345,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
   이 예제에서 각 수신자에 대해 쿼리는 수신자가 구독하는 이메일과 정보 서비스 목록을 반환합니다.
 
-  ```
+  ```xml
   <queryDef schema="nms:recipient" operation="select">
     <select>
       <node expr="@email"/>
@@ -371,7 +371,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 쿼리가 구성되면 &quot;바인딩된&quot; 값이 문자(? ODBC의 `#[index]#`(postgres...), SQL 쿼리 본문의
 
-```
+```xml
 <select>
   <!--the value will be bound by the engine -->
   <node expr="@startDate = #2002/02/01#"/>                   
@@ -386,21 +386,6 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 >
 >쿼리에 &quot;order-by&quot; 또는 &quot;group-by&quot; 명령이 포함되어 있으면 데이터베이스 엔진이 값을 &quot;바인딩&quot;할 수 없습니다. 쿼리의 &quot;select&quot; 및/또는 &quot;where&quot; 지침에 @noSqlBind=&quot;true&quot; 속성을 배치해야 합니다.
 
-#### 쿼리 작성 팁: {#query-building-tip-}
-
-쿼리 구문을 사용하려면 Adobe Campaign 클라이언트 콘솔(**[!UICONTROL Tools/ Generic query editor...]** 메뉴)에서 일반 쿼리 편집기를 사용하여 쿼리를 작성할 수 있습니다. 방법은 다음과 같습니다.
-
-1. 검색할 데이터 선택:
-
-   ![](assets/s_ncs_integration_webservices_queyr1.png)
-
-1. 필터 조건을 정의합니다.
-
-   ![](assets/s_ncs_integration_webservices_queyr2.png)
-
-1. 쿼리를 실행하고 Ctrl+F4를 눌러 쿼리 소스 코드를 봅니다.
-
-   ![](assets/s_ncs_integration_webservices_queyr3.png)
 
 ### 출력 문서 형식 {#output-document-format}
 
@@ -414,7 +399,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 &quot;select&quot; 작업 시 반환되는 문서는 요소의 열거형입니다.
 
-```
+```xml
 <!-- the name of the first element does not matter -->
 <recipient-collection>   
   <recipient email="john.doe@adobe.com" lastName"Doe" firstName="John"/>
@@ -425,15 +410,15 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 &quot;count&quot; 유형 작업에 대해 반환된 문서의 예:
 
-```
+```xml
 <recipient count="3"/>
 ```
 
-#### 앨리어스 {#alias}
+#### 별칭 {#alias}
 
 별칭을 사용하면 출력 문서의 데이터 위치를 수정할 수 있습니다. **alias** 특성은 해당 필드에 XPath를 지정해야 합니다.
 
-```
+```xml
 <queryDef schema="nms:recipient" operation="get">
   <select>
     <node expr="@firstName" alias="@firstName"/>
@@ -445,13 +430,13 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 반환:
 
-```
+```xml
 <recipient My_folder="Recipients" First name ="John" lastName="Doe"/>
 ```
 
 대신:
 
-```
+```xml
 <recipient firstName="John" lastName="Doe">
   <folder label="Recipients"/>
 </recipient>
@@ -461,7 +446,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 * 쿼리:
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -486,7 +471,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 * 응답:
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -511,7 +496,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 &quot;xtk:session&quot; 스키마의 &quot;Write&quot; 및 &quot;WriteCollection&quot; 메서드에 대한 정의:
 
-```
+```xml
 <method name="Write" static="true">
   <parameters>
     <param name="doc" type="DOMDocument" desc="Difference document"/>
@@ -548,7 +533,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 이메일 주소, 생년월일 및 도시를 사용하여 수신자 업데이트 또는 삽입 (암시적 &quot;insertOrUpdate&quot; 작업):
 
-```
+```xml
 <recipient xtkschema="nms:recipient" email="john.doe@adobe.com" birthDate="1956/05/04" folder-id=1203 _key="@email, [@folder-id]">
   <location city="Newton"/>
 </recipient>
@@ -556,7 +541,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 수신자 삭제:
 
-```
+```xml
 <recipient xtkschema="nms:recipient" _operation="delete" email="rene.dupont@adobe.com" folder-id=1203 _key="@email, [@folder-id]"/>
 ```
 
@@ -568,7 +553,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 여러 수신자에 대한 업데이트 또는 삽입:
 
-```
+```xml
 <recipient-collection xtkschema="nms:recipient">    
   <recipient email="john.doe@adobe.com" firstName="John" lastName="Doe" _key="@email"/>
   <recipient email="peter.martinez@adobe.com" firstName="Peter" lastName="Martinez" _key="@email"/>
@@ -582,7 +567,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 내부 이름(@name)을 기반으로 폴더를 수신자와 연결합니다.
 
-```
+```xml
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
   <folder name="Folder2" _operation="none"/>
 </recipient>
@@ -600,7 +585,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 수신자로부터 회사(&quot;cus:company&quot; 스키마의 연결된 테이블) 업데이트:
 
-```
+```xml
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
   <company name="adobe" code="ERT12T" _key="@name" _operation="update"/>
 </recipient>
@@ -610,7 +595,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 그룹 관계 테이블(&quot;nms:rcpGrpRel&quot;)을 사용하여 그룹에 수신자 추가:
 
-```
+```xml
 <recipient _key="@email" email="martin.ledger@adobe.net" xtkschema="nms:recipient">
   <rcpGrpRel _key="[rcpGroup/@name]">
     <rcpGroup name="GRP1"/>
@@ -630,7 +615,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 * 쿼리:
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -646,7 +631,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 * 응답:
 
-  ```
+  ```xml
   <?xml version='1.0' encoding='ISO-8859-1'?>
   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
@@ -658,7 +643,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
   오류가 있는 반환:
 
-  ```
+  ```xml
   <?xml version='1.0'?>
   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
     <SOAP-ENV:Body>
