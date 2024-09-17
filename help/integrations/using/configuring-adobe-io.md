@@ -11,7 +11,7 @@ snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 hide: true
 hidefromtoc: true
-source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
+source-git-commit: 8d15a5666b5768bc0f17a4391061c4fcb9f76811
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 1%
@@ -46,7 +46,7 @@ This integration only applies starting **Campaign Classic 20.2.4 and above, 19.1
 >
 > 서비스 계정(JWT) 자격 증명은 Adobe에서 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 통합은 이제 OAuth 서버 간 자격 증명을 사용해야 합니다. </br>
 >
-> * Campaign과 인바운드 통합을 구현한 경우 [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)에 설명된 대로 기술 계정을 마이그레이션해야 합니다. 기존 서비스 계정(JWT) 자격 증명은 2025년 1월 27일까지 계속 작동합니다.</br>
+> * Campaign과 인바운드 통합을 구현한 경우 [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)에 설명된 대로 기술 계정을 마이그레이션해야 합니다. 기존 [서비스 계정(JWT) 자격 증명](oauth-technical-account.md)은(는) 2025년 1월 27일까지 계속 작동합니다.</br>
 >
 > * Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 구현한 경우 2025년 1월 27일까지 계속 작동합니다. 그러나 해당 날짜 이전에 Campaign 환경을 v7.4.1로 업그레이드하고 기술 계정을 oAuth로 마이그레이션해야 합니다.
 
