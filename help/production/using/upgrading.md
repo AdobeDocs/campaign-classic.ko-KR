@@ -8,16 +8,14 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+source-git-commit: 1ab08a89b17fca20e9497696417ecba580e26802
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 새 빌드로 업그레이드 중(온-프레미스){#upgrading}
-
-
 
 업그레이드 프로세스를 시작하기 전에 업그레이드할 Adobe Campaign 버전을 확인하고 [릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
 
@@ -119,15 +117,17 @@ Linux 환경에서 아래 단계에 따라 Adobe Campaign을 새 빌드로 업�
 
 [클라이언트 콘솔 가용성에 대해 자세히 알아보세요](../../installation/using/client-console-availability-for-windows.md).
 
->[!NOTE]
->
->빌드 8757부터 타사 라이브러리가 더 이상 필요하지 않습니다.
-
 ### 업데이트된 패키지 가져오기 {#obtain-updated-packages}
 
 Adobe Campaign의 업데이트된 두 패키지를 모두 복구하여 시작합니다. 사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에 연결합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko)에서 소프트웨어 배포에 대해 자세히 알아보세요.
 
 파일은 **nlserver6-v7-XXX.rpm**&#x200B;입니다.
+
+>[!AVAILABILITY]
+>
+>v7.4.1부터 RPM Linux용 라이브러리는 더 이상 Campaign에 포함되지 않습니다. 이러한 라이브러리를 설치해야 합니다.
+> 
+
 
 ### 업데이트 수행 {#perform-an-update}
 
