@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 22420452d4df2e8161c91a42ad0d20ceb4796e82
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '503'
 ht-degree: 2%
 
 ---
@@ -21,9 +21,12 @@ Campaign **FDA(Federated Data Access**) 옵션을 사용하여 외부 데이터�
 1. [Linux](#snowflake-linux)에서 [!DNL Snowflake]을(를) 구성합니다.
 1. Campaign에서 [!DNL Snowflake] [외부 계정](#snowflake-external) 구성
 
->[!NOTE]
+>[!CAUTION]
 >
->[!DNL Snowflake] 커넥터는 호스팅 및 온-프레미스 배포에 사용할 수 있습니다. 자세한 정보는 이 [페이지](../../installation/using/capability-matrix.md)를 참조하십시오.
+>* [!DNL Snowflake] 커넥터는 호스팅 및 온-프레미스 배포에 사용할 수 있습니다. 자세한 정보는 이 [페이지](../../installation/using/capability-matrix.md)를 참조하십시오.
+>
+>* [!DNL Snowflake] ODBC 드라이버의 최소 지원 버전은 **2.24.4**&#x200B;입니다.
+>
 
 ![](assets/snowflake_3.png)
 
