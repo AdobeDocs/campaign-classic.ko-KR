@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 757e3a5395f24e0bdd04737aba0458881e4ea780
+source-git-commit: fd4a815bca23b94590012c4883cfaa9c29b6f118
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,11 @@ Tomcat의 내장 버전의 새 버전 또는 업그레이드된 버전은 Adobe 
 >[!AVAILABILITY]
 >
 >
-> Campaign v7.4.1부터 Tomcat 10.1이 기본 버전입니다.
+>* Campaign v7.4.1부터 Tomcat 10.1이 기본 버전입니다.
 >
+>* Adobe Campaign Classic은 WebSocket 및 HTTP2 프로토콜을 사용하지 않습니다.
+>
+
 
 ## 포함된 Tomcat 버전을 찾는 방법
 
