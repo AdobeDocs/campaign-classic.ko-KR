@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 
 
-유지 관리할 테이블 목록은 사용 중인 Adobe Campaign 버전, 사용 방법 및 데이터 모델 구성에 따라 다릅니다.
+유지 관리할 테이블 목록은 Adobe Campaign 버전, 사용 방법 및 데이터 모델 구성에 따라 다릅니다.
 
 다음 목록에는 조각화가 가장 많이 적용되는 표만 포함되어 있습니다. 그 영향은 다음과 같습니다.
 

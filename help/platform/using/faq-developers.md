@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 85%
+source-wordcount: '509'
+ht-degree: 84%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 85%
 
 Adobe Campaign 데이터베이스의 개념적 데이터 모델은 내장된 테이블과 상호 작용으로 구성됩니다. 애플리케이션에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. 스키마라고 하는 Adobe Campaign에 특정된 문법을 따릅니다. Adobe Campaign 스키마에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../configuration/using/about-schema-edition.md).
 
-[Campaign 데이터 모델에 대한 자세한 내용을 보려면 여기를 클릭하십시오](https://helpx.adobe.com/kr/campaign/kb/acc-datamodel.html).
+[Campaign 데이터 모델에 대한 자세한 내용을 보려면 여기를 클릭하세요](https://helpx.adobe.com/kr/campaign/kb/acc-datamodel.html).
 
 모범 사례는 [이 문서](../../configuration/using/data-model-best-practices.md)에 나열되어 있습니다.
 
