@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: d31aa28da06e65664da655b6b082563767b35f7a
+source-git-commit: 4be5bf54362240aac1b77298b08b14d3e5542f52
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 100%
+source-wordcount: '385'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,6 @@ _2024년 6월 18일 수요일_
 * [Campaign 기술 운영자를 Developer Console로 마이그레이션](../../technotes/using/ims-migration.md)하고 [최종 사용자 인증 방식을 IMS로 전환](../../technotes/using/migrate-users-to-ims.md)한 뒤에는 사용자 인터페이스 및 API 제한을 활성화하여 기본 인증과 관련된 옵션 및 기능을 제거할 수 있습니다. [자세히 알아보기](../../technotes/using/impact-ims-migration.md)
 
 
-
 ### 호환성 업데이트 {#release-7-4-1-compat}
 
 [Adobe Campaign 호환성 매트릭스](compatibility-matrix.md)에 이번 새로운 릴리스와 함께 제공되는 변경 사항을 업데이트했습니다. 아래에서 목록을 확인할 수 있습니다.
@@ -48,6 +47,9 @@ _2024년 6월 18일 수요일_
    * 새로운 iOS용 Campaign SDK 1.0.27(iOS 16 및 17 호환) 및 최신 [Apple iOS 개인 정보 요청 요구 사항](https://developer.apple.com/news/?id=r1henawx){target="_blank"}.
    * 새로운 Android 14용 Campaign SDK.
 
+### 기타 변경 사항 {#release-7-4-1-other}
+
+v7.4.1부터 RPM Linux용 XML 라이브러리는 더 이상 Campaign에 포함되지 않습니다. 온-프레미스 또는 하이브리드 고객은 이러한 라이브러리를 설치해야 합니다.
 
 ### 패치 {#release-7-4-1-patches}
 
