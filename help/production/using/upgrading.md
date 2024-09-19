@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 1ab08a89b17fca20e9497696417ecba580e26802
+source-git-commit: fee880f4b200b322c2b2a0034f17975993c862b3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1136'
+ht-degree: 1%
 
 ---
 
@@ -125,7 +125,7 @@ Adobe Campaign의 업데이트된 두 패키지를 모두 복구하여 시작합
 
 >[!AVAILABILITY]
 >
->v7.4.1부터 RPM Linux용 라이브러리는 더 이상 Campaign에 포함되지 않습니다. 이러한 라이브러리를 설치해야 합니다.
+>v7.4.1부터 RPM Linux용 XML 라이브러리는 더 이상 Campaign에 포함되지 않습니다. 이러한 라이브러리를 설치해야 합니다.
 > 
 
 
