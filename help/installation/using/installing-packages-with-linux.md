@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: fee880f4b200b322c2b2a0034f17975993c862b3
+source-git-commit: b4ab1fe5e98211c2b1bcdb319f10777c032831c7
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 0%
@@ -18,8 +18,6 @@ ht-degree: 0%
 # Linux를 사용하여 패키지 설치{#installing-packages-with-linux}
 
 Adobe Campaign에는 특정 버전에 대한 바이너리 및 구성 파일이 포함된 **nlserver** 패키지가 포함되어 있습니다.
-
-
 
 설치 명령을 사용하여 다음을 수행할 수 있습니다.
 
