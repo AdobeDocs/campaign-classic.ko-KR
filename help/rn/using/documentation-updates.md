@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 98859f6452b5f1008a19a48b9b77edd9acf49261
+source-git-commit: 3f6bbf2766a61580c4f232d3919fe955d82a7881
 workflow-type: tm+mt
-source-wordcount: '3746'
-ht-degree: 100%
+source-wordcount: '3782'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,15 @@ ht-degree: 100%
 
 ## 2024
 
+### 2024년 9월 {#sept-2024}
+
+릴리스 상태가 축소되고 단순해졌습니다. [자세히 보기](rn-overview.md)
+
+v7.4.1용 Linux 패키지 설치가 업데이트되었습니다. [자세한 내용](../../installation/using/installing-packages-with-linux.md)
+
 ### 2024년 6월 {#june-2024}
+
+릴리스 정보 섹션을 7.4.1 개선 사항, 호환성 업데이트 및 패치로 업데이트했습니다. [자세히 보기](latest-release.md)
 
 워크플로를 다시 시작할 때 인스턴스 변수를 지우는 방법을 안내하는 메모가 추가되었습니다. [자세히 보기](../../workflow/using/starting-a-workflow.md)
 
