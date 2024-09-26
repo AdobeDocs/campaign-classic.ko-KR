@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: fee880f4b200b322c2b2a0034f17975993c862b3
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1171'
 ht-degree: 1%
 
 ---
@@ -117,7 +117,7 @@ Linux 환경에서 아래 단계에 따라 Adobe Campaign을 새 빌드로 업�
 
 [클라이언트 콘솔 가용성에 대해 자세히 알아보세요](../../installation/using/client-console-availability-for-windows.md).
 
-### 업데이트된 패키지 가져오기 {#obtain-updated-packages}
+### 업데이트된 패키지 설치 {#obtain-updated-packages}
 
 Adobe Campaign의 업데이트된 두 패키지를 모두 복구하여 시작합니다. 사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에 연결합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko)에서 소프트웨어 배포에 대해 자세히 알아보세요.
 
@@ -128,15 +128,14 @@ Adobe Campaign의 업데이트된 두 패키지를 모두 복구하여 시작합
 >v7.4.1부터 RPM Linux용 XML 라이브러리는 더 이상 Campaign에 포함되지 않습니다. 이러한 라이브러리를 설치해야 합니다.
 > 
 
-
-### 업데이트 수행 {#perform-an-update}
+그런 다음 아래에 자세히 설명된 대로 필요한 패키지를 설치할 수 있습니다.
 
 * RPM 기반 배포(RedHat, SuSe)
 
   설치하려면 루트로 를 실행합니다.
 
   ```
-  $rpm -Uvh nlserver6-v7-XXXX.rpm
+  yum install ./nlserver6-v7-XXXX.rpm
   ```
 
   여기서 XXX는 파일의 버전입니다.
@@ -147,17 +146,20 @@ Adobe Campaign의 업데이트된 두 패키지를 모두 복구하여 시작합
   rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
   ```
 
+  대부분의 종속성은 필수 항목이며, 설치되어 있지 않으면 `nlserver`을(를) 시작할 수 없습니다. 유일한 예외는 openjdk입니다. 필요한 경우 다른 JDK를 설치할 수 있습니다.
+
+
 * DEB 기반 분포(Debian)
 
   설치하려면 루트로 를 실행합니다.
 
   ```
-  dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+  apt install ./nlserver6-v7-XXXX-amd64_debX.deb
   ```
 
 >[!NOTE]
 >
->전체 설치 절차는 [이 섹션](../../installation/using/installing-campaign-standard-packages.md)에 자세히 설명되어 있습니다. 리소스는 자동으로 동기화되지만 오류가 발생하지 않았는지 확인해야 합니다. 자세한 내용은 [업그레이드 충돌 해결](#resolving-upgrade-conflicts)을 참조하세요.
+>전체 설치 절차는 [이 섹션](../../installation/using/installing-packages-with-linux.md)에 자세히 설명되어 있습니다. 리소스는 자동으로 동기화되지만 오류가 발생하지 않았는지 확인해야 합니다. 자세한 내용은 [업그레이드 충돌 해결](#resolving-upgrade-conflicts)을 참조하세요.
 
 ### 웹 서버 재부팅 {#reboot-the-web-server}
 

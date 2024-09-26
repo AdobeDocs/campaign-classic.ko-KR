@@ -6,7 +6,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
-source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
 source-wordcount: '2337'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 릴리스 7.3.5 - 빌드 9368 {#release-7-3-5}
 
-[!BADGE 제한 공개]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
+[!BADGE 제한 공개]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
 _2023년 12월 5일_
 
@@ -50,7 +50,7 @@ _2023년 12월 5일_
 
 ## 릴리스 7.3.4 - 빌드 9364 {#release-7-3-4}
 
-[!BADGE 제한 공개]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
+[!BADGE 제한 공개]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
 
 >[!CAUTION]
@@ -120,7 +120,7 @@ _2023년 9월 7일_
 
 ## 릴리스 7.3.3 - 빌드 9359 {#release-7-3-3}
 
-[!BADGE 제한 공개]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
+[!BADGE 제한 공개]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
 >[!AVAILABILITY]
 >
@@ -156,7 +156,7 @@ _2023년 3월 20일_
 
 ## 릴리스 7.3.2 - 빌드 9356 {#release-7-3-2}
 
-[!BADGE 제한 공개]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
+[!BADGE 제한 공개]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
 
 >[!AVAILABILITY]

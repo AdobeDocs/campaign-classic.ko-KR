@@ -7,9 +7,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1573'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
 * **dbEnum(문자열)**: &quot;닫힘&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 `<srcschema>`에 정의해야 합니다.
 * **defOnDuplicate(부울)**: 이 특성이 활성화되면 레코드가 복제되면 기본값(@default에 정의됨)이 레코드에 자동으로 다시 적용됩니다.
 * **기본(문자열)**: 기본 필드(함수 호출, 기본값)의 값을 정의할 수 있습니다. 이 속성은 XTK 식을 받습니다.
-* **desc(문자열)**: 특성에 대한 설명을 삽입할 수 있습니다. 이 설명은 인터페이스의 상태 표시줄에 표시됩니다.
+* **desc(문자열)**: 특성에 대한 설명을 삽입할 수 있습니다. 이 설명은 요소란 무엇이며 어떤 용도로 사용되는지 이해하는 데 사용됩니다. 양식으로 표시할 수 있습니다.
 * **편집(문자열)**: 이 특성은 스키마에 연결된 양식에서 사용될 입력 형식을 지정합니다.
 * **enum(문자열)**: 필드에 연결된 열거형의 이름을 받습니다. 열거형은 동일한 스키마에 삽입하거나 원격 스키마에 삽입할 수 있습니다.
 * **expr(문자열)**: 필드 사전 계산 식을 정의합니다. 이 속성은 Xpath 또는 XTK 식을 받습니다.
@@ -90,7 +90,7 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
    * 전용: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * 공유: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
-  특성 필드에는 단일 값이 특성에 대해 인증되는 단순 oà¹ 필드와 특성이 여러 값을 포함할 수 있는 컬렉션 요소에 연결되는 oà¹ 다중 선택 필드의 두 가지 유형이 있습니다.
+  특성 필드에는 특성에서 단일 값이 인증되는 단순 oà<sup>1</sup> 필드와 여러 값을 포함할 수 있는 컬렉션 요소에 특성이 연결되는 oà<sup>1</sup> 다중 선택 필드의 두 가지 유형이 있습니다.
 
   스키마에 특성이 정의된 경우 이 스키마에는 단일 필드를 기반으로 하는 기본 키가 있어야 합니다(복합 키는 승인되지 않음).
 
@@ -140,7 +140,7 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
    * datetime
    * datetimetz
    * 다테티메노츠
-   * 일자
+   * 날짜
    * 중복
    * enum
    * 부동

@@ -4,9 +4,9 @@ title: 스키마 요소 및 속성 - 요소 요소
 description: 요소 요소
 feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2029'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
 * **dbEnum(문자열)**: &quot;닫힘&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 `<srcschema>`에 정의해야 합니다.
 * **defOnDuplicate(부울)**: 이 특성이 활성화되면 레코드가 복제되면 기본값(@default에 정의됨)이 레코드에 자동으로 다시 적용됩니다.
 * **기본(문자열)**: 요소 동작(함수 호출, 기본값)을 정의할 수 있습니다. 이 속성은 XTK 식을 받습니다.
-* **desc(문자열)**: 요소에 대한 설명을 삽입할 수 있습니다. 이 설명은 인터페이스의 상태 표시줄에 표시됩니다.
+* **desc(문자열)**: 요소에 대한 설명을 삽입할 수 있습니다. 이 설명은 요소란 무엇이며 어떤 용도로 사용되는지 이해하는 데 사용됩니다. 양식으로 표시할 수 있습니다.
 * **displayAsField(부울)**: 이 특성이 활성화되면 &quot;link&quot; 유형 `<element>`이(가) 스키마의 트리 보기(&quot;구조&quot; 탭)에 필드로 표시됩니다. 이렇게 하면 링크를 로컬 필드로 표시하고 쿼리 중에 해당 동작을 변경할 수 있습니다. 쿼리의 SELECT에서 요소를 찾으면 링크 대상의 값이 사용됩니다. 요소가 쿼리의 WHERE에 있으면 링크의 기본 키가 사용됩니다.
 * **편집(문자열)**: 이 특성은 스키마에 연결된 양식에서 사용될 입력 형식을 지정합니다.
 * **enum(문자열)**: 필드에 연결된 열거형의 이름을 받습니다. 열거형은 동일한 스키마에 삽입하거나 원격 스키마에 삽입할 수 있습니다.
@@ -184,7 +184,7 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
    * datetime
    * datetimetz
    * 다테티메노츠
-   * 일자
+   * 날짜
    * 중복
    * enum
    * 부동
