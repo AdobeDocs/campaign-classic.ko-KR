@@ -4,7 +4,7 @@ title: 수신자 테이블 쿼리
 description: 수신자 테이블을 쿼리하는 방법 알아보기
 feature: Query Editor, Workflows
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: d6bed05e083b2e349db331e6016cbb8f91f00eaf
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 3%
@@ -83,6 +83,6 @@ ht-degree: 3%
 
    ![](assets/query_editor_nveau_13.png)
 
-   **[!UICONTROL Generated QSL queries]** 탭에는 쿼리 결과가 SQL 형식으로 표시됩니다.
+   **[!UICONTROL Generated SQL queries]** 탭에는 쿼리 결과가 SQL 형식으로 표시됩니다.
 
    ![](assets/query_editor_nveau_14.png)
