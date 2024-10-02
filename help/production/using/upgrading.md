@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
+source-git-commit: cc614ed608f1e8229c0ef1ccf35dbac6cb9dddd3
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 2%
@@ -170,7 +170,9 @@ Adobe Campaign의 업데이트된 두 패키지를 모두 복구하여 시작합
   nlserver6-v7                    x86_64        XXXX.0.0-1                 @commandline         63 M
   ```
 
-  `Upgrading:` 대신 `Removing:`을(를) 읽으면 명령을 취소합니다. 제거를 설명하는 일부 오류(위에 나열됨)가 있을 수 있습니다. 이러한 경우 나열된 누락된 종속성을 업데이트/설치하여 이러한 오류를 수정한 다음 명령을 다시 실행하십시오.
+  >[!IMPORTANT]
+  >
+  >`Upgrading:` 대신 `Removing:`을(를) 읽으면 명령을 취소합니다. 제거를 설명하는 일부 오류(위에 나열됨)가 있을 수 있습니다. 이러한 경우 나열된 누락된 종속성을 업데이트/설치하여 이러한 오류를 수정한 다음 명령을 다시 실행하십시오.
 
 * DEB 기반 분포(Debian)
 
