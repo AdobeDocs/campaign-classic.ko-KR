@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
+source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 1%
+source-wordcount: '1247'
+ht-degree: 2%
 
 ---
 
@@ -148,6 +148,29 @@ Adobe Campaign의 업데이트된 두 패키지를 모두 복구하여 시작합
 
   대부분의 종속성은 필수 항목이며, 설치되어 있지 않으면 `nlserver`을(를) 시작할 수 없습니다. 유일한 예외는 openjdk입니다. 필요한 경우 다른 JDK를 설치할 수 있습니다.
 
+  `epel-release` 패키지가 설치되지 않은 경우 설치하십시오. 이렇게 하려면 다음 명령을 root로 입력합니다.
+
+  ```
+  yum install epel-release
+  ```
+
+  Campaign 패키지를 설치하려면 루트로 를 실행합니다.
+
+  ```
+  yum update ./nlserver6-v7-XXXX.rpm
+  ```
+
+  업데이트를 확인하기 전에 출력이 다음과 같이 표시되는지 확인하십시오.
+
+  ```
+  ==================================================================================================== 
+  Package                         Architecture  Version                    Repository           Size 
+  ==================================================================================================== 
+  Upgrading: 
+  nlserver6-v7                    x86_64        XXXX.0.0-1                 @commandline         63 M
+  ```
+
+  `Upgrading:` 대신 `Removing:`을(를) 읽으면 명령을 취소합니다. 제거를 설명하는 일부 오류(위에 나열됨)가 있을 수 있습니다. 이러한 경우 나열된 누락된 종속성을 업데이트/설치하여 이러한 오류를 수정한 다음 명령을 다시 실행하십시오.
 
 * DEB 기반 분포(Debian)
 
@@ -160,6 +183,7 @@ Adobe Campaign의 업데이트된 두 패키지를 모두 복구하여 시작합
 >[!NOTE]
 >
 >전체 설치 절차는 [이 섹션](../../installation/using/installing-packages-with-linux.md)에 자세히 설명되어 있습니다. 리소스는 자동으로 동기화되지만 오류가 발생하지 않았는지 확인해야 합니다. 자세한 내용은 [업그레이드 충돌 해결](#resolving-upgrade-conflicts)을 참조하세요.
+>
 
 ### 웹 서버 재부팅 {#reboot-the-web-server}
 
@@ -195,12 +219,12 @@ Adobe Campaign의 업데이트된 두 패키지를 모두 복구하여 시작합
 * 명령줄 인터페이스에서 트리플 V자 **>>>**&#x200B;에 의해 오류가 발생하고 동기화가 자동으로 중지됩니다. 경고는 이중 V자형 화살표 **>>**&#x200B;에 의해 구체화되며 동기화가 완료되면 해결되어야 합니다. 업그레이드 후 요약이 명령 프롬프트에 표시됩니다. 다음과 같이 표시될 수 있습니다.
 
   ```
-  2013-04-09 07:48:39.749Z 00002E7A 1 info log =========Summary of the update==========
-  2013-04-09 07:48:39.749Z 00002E7A 1 info log <instance name> instance, 6 warning(s) and 0 error(s) during the update.
-  2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
-  2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
-  2013-04-09 07:48:39.750Z 00002E7A 1 warning log The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
-  2013-04-09 07:48:39.750Z 00002E7A 1 warning log Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
+  AAAA-MM-DD HH:MM:SS.749Z 00002E7A 1 info log =========Summary of the update==========
+  AAAA-MM-DD HH:MM:SS.749Z 00002E7A 1 info log <instance name> instance, 6 warning(s) and 0 error(s) during the update.
+  AAAA-MM-DD HH:MM:SS.749Z 00002E7A 1 warning log The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
+  AAAA-MM-DD HH:MM:SS.749Z 00002E7A 1 warning log The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
+  AAAA-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
+  AAAA-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
   ```
 
   경고가 리소스 충돌과 관련된 경우 이를 해결하기 위해 사용자의 주의가 필요합니다.
@@ -260,7 +284,7 @@ Adobe Campaign 응용 프로그램 서버가 설치된 컴퓨터(**nlserver web*
 Adobe Campaign 애플리케이션 서버(**nlserver web**)가 설치된 컴퓨터에서 **setup-client-6.XXXX.exe** 패키지를 검색하여 복사하여 **/usr/local/neolane/nl6/datakit/nl/eng/jsp**(으)로 저장합니다.
 
 ```
- cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
+cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
 ```
 
 다음 번에 클라이언트 콘솔이 연결되면 창은 사용자에게 업데이트 가용성에 대해 알리고 다운로드 및 설치 가능성을 제공합니다.

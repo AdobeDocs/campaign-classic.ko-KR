@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 2%
@@ -169,10 +169,10 @@ XML 문서는 **`<package>`** 요소로 시작하고 끝나야 합니다. 다음
 <package author="Administrator (admin)" buildNumber="7974" buildVersion="7.1" img=""
 label="" name="" namespace="" vendor="">
  <desc></desc>
- <version buildDate="2013-01-09 10:30:18.954Z"/>
+ <version buildDate="AAAA-MM-DD HH:MM:SS.954Z"/>
  <entities schema="nms:operation">
-  <operation duration="432000" end="2013-01-14" internalName="OP1" label="MyCampaign"
-  modelName="opEmpty" start="2013-01-09">
+  <operation duration="432000" end="AAAA-MM-DD" internalName="OP1" label="MyCampaign"
+  modelName="opEmpty" start="AAAA-MM-DD">
    <controlGroup>
     <where filteringSchema=""/>
    </controlGroup>
@@ -188,7 +188,7 @@ label="" name="" namespace="" vendor="">
    </fcpSeed>
    <owner _operation="none" name="admin" type="0"/>
    <program _operation="none" name="nmsOperations"/>
-   <task end="2013-01-17 10:07:51.000Z" label="MyTask" name="TSK2" start="2013-01-16 10:07:51.000Z"
+   <task end="2023-01-17 10:07:51.000Z" label="MyTask" name="TSK2" start="2023-01-16 10:07:51.000Z"
    status="1">
     <owner _operation="none" name="admin" type="0"/>
     <operation _operation="none" internalName="OP1"/>
@@ -354,7 +354,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 >[!IMPORTANT]
 >
 >Adobe은 다른 버전 간 가져오기를 지원하지 않습니다.
-<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
+<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won't be able to help you resolve any issues you encounter.-->
 
 스키마와 데이터베이스 구조에 주의하십시오. 스키마를 사용한 패키지 가져오기 뒤에는 스키마 생성이 있어야 합니다.
 
@@ -369,7 +369,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 * 엔티티를 &quot;admin&quot; 및 &quot;platform&quot; 요소로 고려할 수 있습니다.
 * Campaign 인스턴스에 업로드할 때 패키지에 둘 이상의 엔티티를 포함해서는 안 됩니다.
 
-<!--Nothing “works” alone. An entity package does not have a specific role or objective.-->
+<!--Nothing "works" alone. An entity package does not have a specific role or objective.-->
 
 새 인스턴스에 구성을 배포해야 하는 경우 모든 엔티티 패키지를 가져올 수 있습니다.
 
@@ -427,7 +427,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 #### 패키지 업데이트 {#update-package}
 
-마지막 사항은 업데이트 패키지 번호 매기기에 관한 것입니다. 접두사로 &quot;5&quot;가 있는 패키지 번호(엔티티, 기능 또는 캠페인)입니다. 예제:
+마지막 사항은 업데이트 패키지 번호 매기기에 관한 것입니다. 접두사로 &quot;5&quot;를 사용하는 패키지 번호(엔티티, 기능 또는 캠페인)입니다. 예제:
 * 스키마 1개를 업데이트하는 5001
 * 5200: 모든 캠페인 업데이트
 * 5101 - 101 기능 업데이트
@@ -450,7 +450,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ![](assets/ncs_datapackage_best-practices-2.png)
 
-댓글에 날짜도 지정해야 합니다. 업데이트 패키지에 대한 의견을 항상 &quot;상위&quot;(5개의 접두사가 없는 패키지)에 보고합니다.
+댓글에 날짜도 지정해야 합니다. 업데이트 패키지에 대한 의견을 항상 &quot;상위&quot;(접두사 5개가 없는 패키지)에 보고합니다.
 
 >[!IMPORTANT]
 >
