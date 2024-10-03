@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign Classic v7 [최신 빌드](../../rn/using/latest-release.md)는 �
 
 >[!CAUTION]
 >
->이 매트릭스는 지원되는 새 시스템 및 도구가 추가되고 더 이상 사용되지 않는 항목이 제거되면서 정기적으로 업데이트됩니다.
+>이 매트릭스는 정기적으로 새로 지원되는 시스템 및 도구를 추가하고 더 이상 사용되지 않는 항목을 제거하는 방식으로 업데이트됩니다.
 
 ## 운영 체제 {#OperatingSystems}
 
@@ -53,7 +53,7 @@ Adobe Campaign Classic v7 [최신 빌드](../../rn/using/latest-release.md)는 �
 </td>
 </tr>
 <tr>
-<td>Red Hat Enterprise Linux(RHEL)</td>
+<td>RHEL(Red Hat Enterprise Linux)</td>
 <td>
 <p>9.x</p>
 <p>8.x</p>
@@ -83,7 +83,7 @@ Adobe Campaign Classic v7 [최신 빌드](../../rn/using/latest-release.md)는 �
 
 >[!IMPORTANT]
 >
->RHEL을 사용하면 [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux)을(를) 비활성화하거나 설계자가 사용자 지정 SELinux 규칙을 작성하여 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인해야 합니다.
+>RHEL을 사용하려면 [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux)를 비활성화하거나, 아키텍트에게 활성화된 SELinux가 Campaign 작업에 문제를 일으키지 않는지 확인하기 위한 사용자 정의 SELinux 규칙 작성을 요청해야 합니다.
 
 ## 웹 서버 {#WebServers}
 

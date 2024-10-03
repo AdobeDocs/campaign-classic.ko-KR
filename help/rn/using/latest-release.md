@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 9526d466dc4613410905d9d7265c6471cd1df599
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '387'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ _2024년 6월 18일 수요일_
 
 ### 기타 변경 사항 {#release-7-4-1-other}
 
-v7.4.1부터 RPM Linux용 XML 라이브러리는 더 이상 Campaign에 포함되지 않습니다. 온-프레미스 또는 하이브리드 고객은 이러한 라이브러리를 설치해야 합니다. [자세히 알아보기](../../installation/using/installing-packages-with-linux.md)
+v7.4.1부터 RPM Linux용 XML 라이브러리는 더 이상 Campaign에 포함되지 않습니다. 온-프레미스 또는 하이브리드 고객의 경우 관리자가 해당 라이브러리를 설치해야 합니다. [자세히 알아보기](../../installation/using/installing-packages-with-linux.md)
 
 ### 패치 {#release-7-4-1-patches}
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Aligned with this naming, Campaign has 3 types of upgrades:
 | 상태 | 설명 |
 |---|---|
 | [!BADGE 일반 공급]{type=Positive} | 안정적인 최신 빌드로 프로덕션에서 검증되었으며 Adobe가 권장하는 빌드입니다. |
-| [!BADGE 제한된 가용성]{type=Informative} | 주문형 배포만 가능. |
+| [!BADGE 제한 공개]{type=Informative} | 주문형 배포만 가능. |
 | [!BADGE 사용되지 않음]{type=negative} | 배포를 제공하지 않습니다. 버그 해결이 없습니다. 기존 구현을 업그레이드해야 합니다. |
 
 ## 릴리스 주기{#rn-cycle}
