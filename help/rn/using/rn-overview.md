@@ -6,14 +6,14 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
+source-git-commit: 7b71cac6f4c2fc2e8d30683130adb27eff757b73
 workflow-type: ht
 source-wordcount: '903'
 ht-degree: 100%
 
 ---
 
-# 릴리스 업데이트{#rn-overview}
+# 릴리스 업데이트 {#rn-overview}
 
 Adobe Campaign Classic은 새로운 기능, 버그 수정으로 성능, 보안 및 유용성을 향상시키는 제품 업데이트를 정기적으로 릴리스합니다. 이러한 업데이트는 **제품 빌드**&#x200B;로 릴리스됩니다. 각 새 빌드에 대한 자세한 내용은 [릴리스 정보](latest-release.md)에서 확인할 수 있습니다.
 
@@ -34,10 +34,9 @@ Aligned with this naming, Campaign has 3 types of upgrades:
 1. Patch Upgrades - A patch upgrade includes fixes only (ex: 8.5.1 to 8.5.2)
 -->
 
-## 릴리스 상태{#rn-statuses}
+## 릴리스 상태 {#rn-statuses}
 
 모든 새 빌드는 [릴리스 정보](latest-release.md)에서 색상으로 식별되는 상태를 제공합니다.
-
 
 | 상태 | 설명 |
 |---|---|
@@ -45,7 +44,7 @@ Aligned with this naming, Campaign has 3 types of upgrades:
 | [!BADGE 제한 공개]{type=Informative} | 주문형 배포만 가능. |
 | [!BADGE 사용되지 않음]{type=negative} | 배포를 제공하지 않습니다. 버그 해결이 없습니다. 기존 구현을 업그레이드해야 합니다. |
 
-## 릴리스 주기{#rn-cycle}
+## 릴리스 주기 {#rn-cycle}
 
 Adobe Campaign은 정기적으로 업데이트됩니다. 이렇게 정기적으로 업데이트를 제공하는 이유는 사용자가 최신 기능을 바로 사용할 수 있도록 하고 사용자의 환경을 안전하게 지키며 Adobe 제품 관련 경험을 개선하겠다는 목표를 위해서입니다.
 
@@ -53,7 +52,7 @@ Adobe Campaign은 정기적으로 업데이트됩니다. 이렇게 정기적으�
 
 호스팅된 고객은 별도의 조치 없이 안정적인 최신 빌드의 업그레이드를 자동으로 사용할 수 있습니다. 자세한 내용은 [연간 업그레이드 섹션](#yearly-upgrade)을 참조하십시오. 이전 빌드에서 마이그레이션하는 경우 먼저 이 빌드로 업그레이드하는 것이 좋습니다.
 
-## 권장 사항{#recommendations}
+## 권장 사항 {#rn-recommendations}
 
 Adobe는 안정적인 구성을 위해 동일한 클라이언트 구성에서 실행하는 모든 서버에 **동일한 빌드**&#x200B;를 설치하기를 권장합니다.
 
