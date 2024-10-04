@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: cc614ed608f1e8229c0ef1ccf35dbac6cb9dddd3
+source-git-commit: 0da7fb912a909af222d796652efba4b30e39dc1c
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1220'
 ht-degree: 2%
 
 ---
@@ -132,22 +132,6 @@ Adobe Campaign의 업데이트된 두 패키지를 모두 복구하여 시작합
 
 * RPM 기반 배포(RedHat, SuSe)
 
-  설치하려면 루트로 를 실행합니다.
-
-  ```
-  yum install ./nlserver6-v7-XXXX.rpm
-  ```
-
-  여기서 XXX는 파일의 버전입니다.
-
-  rpm 파일은 CentOS/Red Hat 배포판에서 찾을 수 있는 패키지에 종속되어 있습니다. 이러한 종속성 중 일부를 사용하지 않으려면 rpm의 &quot;nodeps&quot; 옵션을 사용해야 할 수 있습니다.
-
-  ```
-  rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
-  ```
-
-  대부분의 종속성은 필수 항목이며, 설치되어 있지 않으면 `nlserver`을(를) 시작할 수 없습니다. 유일한 예외는 openjdk입니다. 필요한 경우 다른 JDK를 설치할 수 있습니다.
-
   `epel-release` 패키지가 설치되지 않은 경우 설치하십시오. 이렇게 하려면 다음 명령을 root로 입력합니다.
 
   ```
@@ -173,6 +157,14 @@ Adobe Campaign의 업데이트된 두 패키지를 모두 복구하여 시작합
   >[!IMPORTANT]
   >
   >`Upgrading:` 대신 `Removing:`을(를) 읽으면 명령을 취소합니다. 제거를 설명하는 일부 오류(위에 나열됨)가 있을 수 있습니다. 이러한 경우 나열된 누락된 종속성을 업데이트/설치하여 이러한 오류를 수정한 다음 명령을 다시 실행하십시오.
+
+  rpm 파일은 CentOS/Red Hat 배포판에서 찾을 수 있는 패키지에 종속되어 있습니다. 이러한 종속성 중 일부를 사용하지 않으려면 rpm의 &quot;nodeps&quot; 옵션을 사용해야 할 수 있습니다.
+
+  ```
+  rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
+  ```
+
+  대부분의 종속성은 필수 항목이며, 설치되어 있지 않으면 `nlserver`을(를) 시작할 수 없습니다. 유일한 예외는 openjdk입니다. 필요한 경우 다른 JDK를 설치할 수 있습니다.
 
 * DEB 기반 분포(Debian)
 
@@ -202,7 +194,7 @@ Adobe Campaign의 업데이트된 두 패키지를 모두 복구하여 시작합
 >* 스크립트를 **apache** 대신 **httpd**(으)로 호출할 수 있습니다.
 >* 다음 회신을 받을 때까지 이 명령을 실행해야 합니다.
 >
->   Apache가 새 라이브러리를 적용하려면 이 작업이 필요합니다.
+>   `This operation is required in order for Apache to apply the new library.`
 
 그런 다음 Apache를 다시 시작합니다.
 
