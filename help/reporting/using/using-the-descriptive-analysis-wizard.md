@@ -1,20 +1,18 @@
 ---
 product: campaign
-title: 설명 분석 도우미 사용
-description: 설명 분석 도우미 사용
+title: 첫 번째 설명 분석 보고서 만들기
+description: 도우미를 사용하여 첫 번째 설명 분석 보고서를 만드는 방법을 알아봅니다
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
 
-# 설명 분석 도우미 사용{#using-the-descriptive-analysis-wizard}
-
-
+# 첫 번째 설명 분석 보고서 만들기 {#using-the-descriptive-analysis-wizard}
 
 설명 분석 보고서를 만들려면 전용 도우미를 사용하십시오. 구성은 분석할 데이터와 원하는 렌더링에 따라 다릅니다.
 

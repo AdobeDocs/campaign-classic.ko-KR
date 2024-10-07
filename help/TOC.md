@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
+workflow-type: tm+mt
+source-wordcount: '2560'
+ht-degree: 99%
 
 ---
 
@@ -293,10 +293,10 @@ ht-degree: 100%
       + [지표 계산](reporting/using/indicator-calculation.md)
       + [사람 및 수신자](reporting/using/person-people-recipients.md)
    + 모집단 분석 {#analyzing-populations}
-      + [기술적 분석 정보](reporting/using/about-descriptive-analysis.md)
-      + [기술적 분석 도우미 사용](reporting/using/using-the-descriptive-analysis-wizard.md)
-      + [보고서 설정](reporting/using/processing-a-report.md)
-      + [활용 사례](reporting/using/use-cases.md)
+      + [설명 분석이란?](reporting/using/about-descriptive-analysis.md)
+      + [첫 번째 설명 분석 보고서 만들기](reporting/using/using-the-descriptive-analysis-wizard.md)
+      + [분석 보고서 관리 및 구성](reporting/using/processing-a-report.md)
+      + [Analysis Reporting 사용 사례](reporting/using/use-cases.md)
    + 새 보고서 만들기 {#creating-new-reports}
       + [보고서 디자인의 주요 단계](reporting/using/about-reports-creation-in-campaign.md)
       + [새 보고서 만들기](reporting/using/creating-a-new-report.md)

@@ -1,20 +1,18 @@
 ---
 product: campaign
-title: 설명 분석 시작
-description: 설명 분석 시작
+title: 설명 분석이란?
+description: 설명 분석 보고서를 사용하여 모집단 분석
 feature: Reporting, Monitoring
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
-# 설명 분석 시작{#about-descriptive-analysis}
-
-
+# 설명 분석이란? {#about-descriptive-analysis}
 
 데이터베이스의 데이터에 대한 통계를 생성하려면 전용 도우미를 사용하여 설명 분석 보고서를 만들고 필요에 맞게 콘텐츠와 프레젠테이션을 조정하십시오.
 

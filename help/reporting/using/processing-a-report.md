@@ -1,20 +1,18 @@
 ---
 product: campaign
-title: 분석 보고서 사용
-description: 분석 보고서 사용
+title: 분석 보고서 관리 및 구성
+description: 분석 보고서 관리 및 구성
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '831'
 ht-degree: 1%
 
 ---
 
-# 분석 보고서 사용{#processing-a-report}
-
-
+# 분석 보고서 관리 및 구성 {#processing-a-report}
 
 ## 분석 보고서 저장 {#saving-an-analysis-report}
 
