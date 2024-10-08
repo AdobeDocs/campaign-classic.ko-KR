@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Email, Push
 role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 287d1bf60b39e9e2b389701097995dbea962dec9
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '448'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,8 @@ ht-degree: 3%
 
 팝업에 표시되는 이모티콘 목록은 열거형에 의해 제어되며, 열거형을 통해 목록에 값을 표시하여 사용자가 지정된 필드에 대해 선택할 수 있는 사항을 제한할 수 있습니다.
 이모티콘 목록 순서는 사용자 지정할 수 있으며, 목록에 다른 이모티콘을 추가할 수도 있습니다.
-이모티콘을 이메일로 사용할 수 있으며 자세한 내용은 이 [페이지](defining-the-email-content.md#inserting-emoticons)를 참조하세요.
+
+이모티콘은 이메일 및 푸시에만 사용할 수 있습니다. 자세한 정보는 이 [페이지](defining-the-email-content.md#inserting-emoticons)를 참조하세요.
 
 ## 새 이모티콘 추가 {#add-new-emoticon}
 
