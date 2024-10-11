@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Campaign Classic 데이터 모델 시작
-description: Campaign 데이터 모델을 확장하거나 스키마를 편집하고 API를 사용하는 방법을 알아보십시오.
+description: Campaign 데이터 모델을 확장하거나 스키마를 편집하고 API를 사용하는 방법에 대해 알아봅니다.
 feature: Data Model, Configuration
 role: Data Engineer, Developer
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
