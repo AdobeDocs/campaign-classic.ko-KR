@@ -6,7 +6,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 9c13556fb1a822f27aeb37a3812736976a20cea6
+source-git-commit: 4525651445b729b44f05dec69650584271675cef
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 100%
@@ -84,13 +84,17 @@ Adobe Campaign Classic v7 [최신 빌드](../../rn/using/latest-release.md)는 �
 <td><strong>웹 서버</strong></td>
 <td><strong>웹 서버 버전</strong></td>
 <tr>
-<td>Microsoft IIS</td>
+<td>
+<p>Microsoft IIS</p>
+</td>
 <td>
 <p>10.0</p>
 </td>
 </tr>
 <tr>
-<td>Apache</td>
+<td>
+<p>Apache</p>
+</td>
 <td>
 <p>2.4</p>
 </td>
@@ -153,7 +157,9 @@ Adobe Campaign Classic v7 [최신 빌드](../../rn/using/latest-release.md)는 �
 <td><strong>데이터베이스 버전</strong></td>
 <td><strong>최소 Campaign 버전</strong></td>
 <tr>
-<td>Oracle</td>
+<td>
+<p>Oracle</p>
+</td>
 <td>
 <p>23c</p>
 <p>19c</p>
@@ -170,7 +176,9 @@ Adobe Campaign Classic v7 [최신 빌드](../../rn/using/latest-release.md)는 �
 </td>
 </tr>
 <tr>
-<td>PostgreSQL</td>
+<td>
+<p>PostgreSQL</p>
+</td>
 <td>
 <p>14.x</p>
 <p>13.x</p>
@@ -185,7 +193,9 @@ Adobe Campaign Classic v7 [최신 빌드](../../rn/using/latest-release.md)는 �
 </td>
 </tr>
 <tr>
-<td>Microsoft SQL Server</td>
+<td>
+<p>Microsoft SQL Server</p>
+</td>
 <td>
 <p>2022</p>
 <p>2019</p>
@@ -222,13 +232,17 @@ Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다
 <table>
 <tbody>
 <tr>
-<td>Salesforce 커넥터 API</td>
+<td>
+<p>Salesforce 커넥터 API</p>
+</td>
 <td>
 <p>API 버전 49</p>
 </td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 커넥터</td>
+<td>
+<p>Microsoft Dynamics 커넥터</p>
+</td>
 <td>
 <p>웹 API</p>
 </td>
