@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Email Design, Personalization
 role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: d34f75fadb02b4c03acc0c2d7be52df65320ec2d
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1287'
 ht-degree: 4%
 
 ---
@@ -123,7 +123,7 @@ Personalization 기본 사항은 [이 섹션](personalization-fields.md)에 나�
 
 * 미리 보기 모드를 사용하고 증명을 전송하여 최대한 많은 장치에서 렌더링을 테스트합니다.
 
-* Adobe Campaign Classic DCE(디지털 콘텐츠 편집기) 모듈에는 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**&#x200B;을(를) 통해 사용할 수 있는 모바일용 반응형 디자인 서식 템플릿이 포함되어 있습니다. 이 문서에서 [자세히 알아보기](https://theblog.adobe.com/responsive-email-design-101/)
+* Adobe Campaign Classic DCE(디지털 콘텐츠 편집기) 모듈에는 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**&#x200B;을(를) 통해 사용할 수 있는 모바일용 반응형 디자인 서식 템플릿이 포함되어 있습니다.
 
 ## 이미지 관리 {#manage-images}
 
