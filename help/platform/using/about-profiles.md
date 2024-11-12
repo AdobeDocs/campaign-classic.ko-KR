@@ -6,9 +6,9 @@ feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '896'
 ht-degree: 16%
 
 ---
@@ -117,10 +117,6 @@ Campaign Campaign 컨트롤 패널에서 직접 인스턴스의 활성 프로필
 
 * [Campaign의 개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html)
 
-* [대상 모집단 정의](../../delivery/using/define-the-right-audience.md)
-
 * [워크플로우에서 쿼리 및 세그먼트 데이터 만들기](../../workflow/using/targeting-data.md)
 
 * [대상 매핑 선택](../../delivery/using/selecting-a-target-mapping.md)
-
-* [대상자 정의 - 모범 사례](../../delivery/using/define-the-right-audience.md)

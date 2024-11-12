@@ -5,8 +5,10 @@ description: 메시지 추적 및 모니터링 방법 알아보기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring, Reporting
 role: User
+hide: true
+hidefromtoc: true
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%

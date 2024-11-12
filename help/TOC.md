@@ -6,8 +6,8 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
-workflow-type: ht
+source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+workflow-type: tm+mt
 source-wordcount: '2560'
 ht-degree: 100%
 
@@ -116,8 +116,8 @@ ht-degree: 100%
       + [대상자 정의](delivery/using/steps-defining-the-target-population.md)
       + [게재 유효성 검사](delivery/using/steps-validating-the-delivery.md)
       + [게재 보내기](delivery/using/steps-sending-the-delivery.md)
+      + [게재 모범 사례](delivery/using/delivery-best-practices.md)
       + 게재 모범 사례 {#delivery-bestpractices}
-         + [모범 사례 학습](delivery/using/delivery-best-practices.md)
          + [게재 최적화](delivery/using/optimize-delivery.md)
          + [템플릿 사용](delivery/using/use-templates.md)
          + [개인화된 콘텐츠 작성](delivery/using/design-and-personalize.md)

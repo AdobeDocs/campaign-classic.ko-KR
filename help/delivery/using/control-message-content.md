@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: de6e86eb2304a88e836c5759b87d7f38446ed357
+source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '748'
 ht-degree: 6%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->전자 메일 콘텐츠 편집에 대한 자세한 내용은 [전자 메일 콘텐츠 정의](defining-the-email-content.md) 및 [개인화된 콘텐츠 작성](design-and-personalize.md)을 참조하세요.
+>전자 메일 콘텐츠 편집에 대한 자세한 내용은 [전자 메일 콘텐츠 정의](defining-the-email-content.md)를 참조하세요.
 
 ## 보낸 사람 주소 {#sender-address}
 
@@ -44,8 +44,6 @@ ht-degree: 6%
 Adobe Campaign을 사용하면 수신자의 경험을 개선하여 이메일을 열 수 있으므로 메시지를 개인화할 수 있습니다.
 
 Adobe Campaign에서 개인화 필드를 사용하는 방법에 대한 자세한 내용은 [이 섹션](personalization-fields.md)을 참조하세요.
-
-콘텐츠를 작성할 때 개인화를 최적화하는 몇 가지 팁이 [이 섹션](design-and-personalize.md#optimize-personalization)에 표시됩니다.
 
 ## 옵트아웃 링크 및 양식 {#opt-out}
 
