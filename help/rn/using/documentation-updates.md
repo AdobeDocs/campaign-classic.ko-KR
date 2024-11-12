@@ -6,8 +6,8 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 3f6bbf2766a61580c4f232d3919fe955d82a7881
-workflow-type: ht
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
+workflow-type: tm+mt
 source-wordcount: '3782'
 ht-degree: 100%
 
@@ -398,7 +398,7 @@ Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추�
 
 * [조건부 콘텐츠로 다국어 뉴스레터를 만드는 방법](../../delivery/using/conditional-content.md)
 
-* [게재 템플릿 구성 및 배포 방법](../../delivery/using/creating-a-delivery-template.md)
+* [게재 템플릿 구성 및 배포 방법](../../delivery/using/about-templates.md)
 
 * [이메일에 AMP를 활성화하고 사용하는 방법](../../delivery/using/defining-interactive-content.md)
 

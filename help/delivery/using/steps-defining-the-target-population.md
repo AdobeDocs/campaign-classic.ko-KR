@@ -2,14 +2,13 @@
 product: campaign
 title: 대상 모집단 정의
 description: 대상 모집단을 정의하는 방법 알아보기
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Audiences, Proofs
 role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 2%
+source-wordcount: '1729'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +34,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Target mapping]** 드롭다운 목록에서 대상 매핑을 선택합니다. Adobe Campaign 기본 대상 매핑은 **nms:recipient** 스키마를 기반으로 하는 **[!UICONTROL Recipients]**&#x200B;입니다.
 
-   다른 대상 매핑을 사용할 수 있으며, 일부는 특정 구성과 관련될 수 있습니다. 대상 매핑에 대한 자세한 내용은 [대상 매핑 선택](selecting-a-target-mapping.md)을 참조하세요.
+   다른 대상 매핑을 사용할 수 있으며, 일부는 특정 구성과 관련될 수 있습니다.[자세히 알아보기](#select-a-target-mapping).
 
 1. 제한 필터를 정의하려면 **[!UICONTROL Add]** 단추를 클릭하십시오.
 
@@ -94,7 +93,7 @@ ht-degree: 2%
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. 기본적으로 수신자는 데이터베이스에서 가져옵니다. **[!UICONTROL Target mapping]**&#x200B;을(를) 선택해야 합니다. 대상 매핑에 대한 자세한 내용은 [대상 매핑 선택](selecting-a-target-mapping.md)을 참조하세요.
+1. 기본적으로 수신자는 데이터베이스에서 가져옵니다. **[!UICONTROL Target mapping]**&#x200B;을(를) 선택해야 합니다. [자세히 알아보기](#select-a-target-mapping)
 
    **[!UICONTROL Do not import the recipients into the database]**&#x200B;을(를) 선택할 수도 있습니다.
 
@@ -226,6 +225,25 @@ ht-degree: 2%
 * [증명 대상 선택](#selecting-the-proof-target)
 * [시드 주소 정보](about-seed-addresses.md)
 * [활용 사례: 기준 시드 주소 선택](use-case-selecting-seed-addresses-on-criteria.md)
+
+## 대상 매핑 선택 {#select-a-target-mapping}
+
+기본적으로 게재 템플릿은 **[!UICONTROL Recipients]**&#x200B;을(를) 대상으로 합니다. 따라서 대상 매핑은 **nms:recipient** 테이블의 필드를 사용합니다. Adobe Campaign은 필요에 따라 사용할 게재에 대한 다른 target 매핑을 제공합니다.
+
+![](assets/delivery_select_mapping.png)
+
+이러한 매핑은 다음과 같습니다.
+
+| 이름 | 사용 | 표준 스키마 |
+|---|---|---|
+| 수신자 | Adobe Campaign 데이터베이스 수신자에게 게재 | nms:recipient |
+| 방문자 | 예를 들어 추천(바이럴 마케팅) 또는 소셜 네트워크(Facebook, X - 이전 Twitter)를 통해 프로필이 수집된 방문자에게 제공합니다. | mns:visitor |
+| 구독 | 뉴스레터 등 정보 서비스를 구독한 수신자에게 게재 | nms:subscription |
+| 방문자 구독 | 정보 서비스를 구독한 방문자에게 게재 | nms:visitorSub |
+| 서비스 | X 계정 또는 Facebook 페이지로 Publish | nms:service |
+| 연산자 | Adobe Campaign 운영자에게 게재 | nms:operator |
+| 외부 파일 | 게재에 필요한 모든 정보가 포함된 파일을 통해 게재 | 연결된 스키마 없음, 입력된 대상 없음 |
+
 
 ## 튜토리얼 비디오 {#seeds-and-proofs-video}
 

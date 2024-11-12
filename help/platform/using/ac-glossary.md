@@ -6,7 +6,7 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
 workflow-type: tm+mt
 source-wordcount: '5959'
 ht-degree: 2%
@@ -188,7 +188,7 @@ Campaign 데이터 모델은 데이터 유형 및 해당 관계(링크)를 정�
 
 *Context: Transactional Messaging*
 
-Dedicated execution server(s) to leverage Transactional Messaging. A server can typically process up to 50,000 Engine Calls per hour. The “Per-Dedicated Server” designation does not necessarily have a 1:1 correlation with a physical server as Adobe may utilize virtualization technologies to achieve the equivalent effect.
+Dedicated execution server(s) to leverage Transactional Messaging. A server can typically process up to 50,000 Engine Calls per hour. The "Per-Dedicated Server" designation does not necessarily have a 1:1 correlation with a physical server as Adobe may utilize virtualization technologies to achieve the equivalent effect.
 
 Learn more about [Transactional Messaging](../../message-center/using/about-transactional-messaging.md).
 +++
@@ -198,7 +198,7 @@ Learn more about [Transactional Messaging](../../message-center/using/about-tran
 
 *컨텍스트: 전자 메일 게재 기능*
 
-전달성을 사용하면 캠페인이 바운스 없이 또는 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달했는지 측정할 수 있습니다. 더 정확히 말하면 이메일 전달성이란 메시지가 개인 이메일 주소를 통해, 짧은 시간 내에, 그리고 콘텐츠와 형식 측면에서 예상되는 품질로 대상에 도달할 수 있는지를 결정하는 일련의 특성을 의미합니다.
+전달성을 사용하면 캠페인이 바운스 없이 또는 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달했는지 측정할 수 있습니다. 더 정확히 말해, 이메일 전달성이란 메시지가 개인 이메일 주소를 통해, 짧은 시간 내에, 그리고 콘텐츠와 형식 측면에서 예상되는 품질로 대상에 도달할 수 있는지를 결정하는 일련의 특징들을 말합니다.
 
 [전달성](../../delivery/using/about-deliverability.md)에 대해 자세히 알아보세요.
 +++
@@ -240,7 +240,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *컨텍스트: DM*
 
-게재 개요는 구조화된 요소 세트(문서, 스토어, 프로모션 쿠폰 등)입니다. 회사에서 만든 다음 특정 캠페인을 위해 만듭니다. DM 게재 컨텍스트에서 사용됩니다.
+게재 개요는 회사에서 만들고 특정 캠페인을 위해 만든 구조화된 요소 세트(문서, 스토어, 프로모션 쿠폰 등)입니다. DM 게재 컨텍스트에서 사용됩니다.
 
 [DM](../../delivery/using/about-direct-mail-channel.md)에 대해 자세히 알아보세요.
 +++
@@ -263,12 +263,12 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *컨텍스트: 분산 마케팅*
 
-Distributed Marketing 추가 기능은 중앙 엔터티(본사, 마케팅 부서 등) 간의 캠페인을 구현하기 위한 공동 작업 영역을 캠페인 운영자에게 제공합니다 공동 캠페인을 실시할 수 있습니다. 이러한 협력은 공유 작업 공간(**캠페인 패키지 목록**)을 기반으로 하는데, 여기서 중앙에서 만든 캠페인 템플릿 및 인스턴스가 로컬 엔터티에 제공됩니다.
+Distributed Marketing 추가 기능은 중앙 엔터티(본사, 마케팅 부서 등)와 로컬 엔터티(영업 지점, 지역 에이전시 등) 간의 캠페인을 구현하기 위한 공동 작업 영역을 캠페인 운영자에게 제공합니다. 이러한 협력은 공유 작업 공간(**캠페인 패키지 목록**)을 기반으로 하는데, 여기서 중앙에서 만든 캠페인 템플릿 및 인스턴스가 로컬 엔터티에 제공됩니다.
 
 [분산 마케팅](../../distributed/using/about-distributed-marketing.md)에 대해 자세히 알아보기
 +++
 
-+++**값 배포**
++++**값 분포**
 
 값 분포는 데이터베이스에 현재 존재하는 스키마 속성에 대한 값 분포를 보여 주는 도구입니다. 이렇게 하면 사용 가능한 값, 해당 개수 및 백분율을 결정하고, 쿼리나 표현식을 만들 때 값의 대문자 및 맞춤법에 문제가 발생하지 않도록 하는 데 도움이 됩니다.
 
@@ -460,7 +460,7 @@ Campaign Heatmap은 24시간 동안의 워크플로우 실행 정보를 보여�
 ----NOT USEFUL HERE?----
 +++**Image serving**
 
-The functionality that supplies the images embedded in emails to the delivery’s recipients. The insertion of the images based on an emails system’s “download images” functionality is what generates an “open” entry in Campaign’s tracking logs.
+The functionality that supplies the images embedded in emails to the delivery's recipients. The insertion of the images based on an emails system's "download images" functionality is what generates an "open" entry in Campaign's tracking logs.
 
 Learn more about [Image serving](../../delivery/using/defining-the-email-content.md#adding-images).
 +++
@@ -676,7 +676,7 @@ Offer Live 환경이 Campaign **디자인 환경**&#x200B;에 연결되어 있�
 
 *컨텍스트: 캠페인 상호 작용*
 
-오퍼 시뮬레이션을 사용하면 운영자가 정의된 범위(게재 날짜, 타겟 세그먼트, 오퍼 수, 테마 등)에 걸쳐 오퍼 배포를 테스트할 수 있습니다. 오퍼를 실제로 보내기 전에. 오퍼 효율성을 극대화하기 위해 오퍼 우선 순위 및 자격 규칙을 조정하는 데 사용할 수 있습니다.
+오퍼 시뮬레이션을 사용하면 운영자가 오퍼를 실제로 전송하기 전에 정의된 범위(게재 날짜, 타겟 세그먼트, 오퍼 수, 테마 등)에 걸쳐 오퍼 배포를 테스트할 수 있습니다. 오퍼 효율성을 극대화하기 위해 오퍼 우선 순위 및 자격 규칙을 조정하는 데 사용할 수 있습니다.
 
 [오퍼 시뮬레이션](../../interaction/using/about-offers-simulation.md)에 대해 자세히 알아보세요.
 +++
@@ -775,7 +775,7 @@ Adobe Campaign은 게재에 삽입할 수 있는 기본 제공 개인화 블록�
 
 +++**Personalization 변수**
 
-Personalization 변수는 수신자의 정보에 따라 서로 다른 수신자에게 다양한 텍스트를 표시할 수 있는 게재의 코드 조각입니다. 이러한 필드는 개인화 필드 또는 블록으로 구현할 수 있습니다.
+Personalization 변수는 수신자의 정보에 따라 수신자마다 다른 텍스트를 표시할 수 있는 게재의 코드 조각입니다. 이러한 필드는 개인화 필드 또는 블록으로 구현할 수 있습니다.
 
 [Personalization 변수](../../delivery/using/about-personalization.md)에 대해 자세히 알아보세요.
 +++
@@ -845,7 +845,7 @@ Adobe Campaign의 공개 리소스 폴더에는 애플리케이션 서버가 호
 
 +++**받는 사람**
 
-Adobe Campaign에서 수신자는 게재(이메일, SMS 등)를 전송할 타겟팅된 기본 프로필입니다 고객에게 전달합니다. 데이터베이스에 저장된 수신자 데이터를 사용하면 타겟을 필터링하고 개인화 데이터를 추가할 수 있습니다. 일반적으로 개인, 연락처, 인구 통계학적 및 트랜잭션 정보이지만, 마케팅 및 분석을 지원하는 모든 유형의 정보일 수 있습니다.
+Adobe Campaign에서 수신자는 고객에게 게재(이메일, SMS 등)를 보낼 타겟팅된 기본 프로필입니다. 데이터베이스에 저장된 수신자 데이터를 사용하면 타겟을 필터링하고 개인화 데이터를 추가할 수 있습니다. 일반적으로 개인, 연락처, 인구 통계학적 및 트랜잭션 정보이지만, 마케팅 및 분석을 지원하는 모든 유형의 정보일 수 있습니다.
 
 [받는 사람](../../configuration/using/about-data-model.md)에 대해 자세히 알아보세요.
 +++
@@ -939,7 +939,7 @@ Adobe Campaign을 사용하면 뉴스레터 또는 제품 업데이트와 같은
 
 Target 매핑은 게재 채널을 특정 데이터 유형에 매핑하는 것입니다. Target 매핑은 서로 다른 게재 채널이 스키마의 데이터 필드에 연결되는 방식을 정의합니다. Campaign에서 특정 필드 또는 표현식을 사용하여 해당 데이터 유형으로 보내는 방법을 정의합니다.
 
-[대상 매핑](../../delivery/using/selecting-a-target-mapping.md)에 대해 자세히 알아보세요.
+[대상 매핑](../../delivery/using/steps-defining-the-target-population.md#select-a-target-mapping)에 대해 자세히 알아보세요.
 +++
 
 +++**타깃팅 활동**
@@ -984,7 +984,7 @@ Learn more about [Tasks](../../workflow/using/about-workflows.md).
 -----ACS -> SEEDS IN ACC-----
 +++**Test profiles**
 
-Allows targeting of additional recipients who do not match the defined targeting criteria. They are added to a message’s audience to detect any fraudulent use of your recipient database or to ensure delivery. Seen as the Seed type in the Campaign interface.
+Allows targeting of additional recipients who do not match the defined targeting criteria. They are added to a message's audience to detect any fraudulent use of your recipient database or to ensure delivery. Seen as the Seed type in the Campaign interface.
 
 Learn more about [Test profiles](../../workflow/using/about-workflows.md).
 +++

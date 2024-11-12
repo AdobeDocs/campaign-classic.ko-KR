@@ -7,9 +7,9 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '793'
 ht-degree: 4%
 
 ---
@@ -169,10 +169,6 @@ Once the control and execution modules are installed on the same instance, you m
 
 1. [실행 인스턴스](#execution-instance)에 정의된 내부 이름과 동일한 외부 계정을 브랜드당 하나씩 만듭니다(1단계).
 
-1. 브랜드당 하나의 기본 게재 템플릿을 만듭니다.
-
-   >[!NOTE]
-   >
-   >    [이 섹션](../../delivery/using/creating-a-delivery-template.md#creating-a-new-template)에서 게재 템플릿을 만드는 방법을 알아봅니다.
+1. 브랜드당 [게재 템플릿](../../delivery/using/about-templates.md)을(를) 만듭니다.
 
 1. 게재 템플릿의 **[!UICONTROL Properties]**&#x200B;에서 라우팅을 브랜드의 외부 계정으로 설정합니다.

@@ -8,7 +8,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 4%
@@ -33,7 +33,7 @@ Campaign Classic에서 기본적으로 게재 템플릿은 **받는 사람**&#x2
 
 예를 들어 소셜 네트워크를 통해 프로필이 수집된 방문자 또는 정보 서비스를 구독한 방문자에게 를 제공할 수 있습니다.
 
-이 매핑은 [이 섹션](selecting-a-target-mapping.md)에 표시됩니다.
+이 매핑은 [이 섹션](steps-defining-the-target-population.md#select-a-target-mapping)에 표시됩니다.
 
 사용자 지정된 대상 매핑을 만들고 사용할 수도 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../configuration/using/target-mapping.md)을 참조하십시오.
 
