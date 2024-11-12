@@ -2,14 +2,15 @@
 product: campaign
 title: 대상 매핑 선택
 description: 타깃 매핑 방법 알아보기
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Delivery Templates
+hide: true
+hidefromtoc: true
 role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 12%
+source-wordcount: '184'
+ht-degree: 13%
 
 ---
 

@@ -2,13 +2,14 @@
 product: campaign
 title: 게재 템플릿 만들기
 description: 게재 템플릿 만들기
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Delivery Templates
+hide: true
+hidefromtoc: true
 role: User
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '378'
 ht-degree: 7%
 
 ---
