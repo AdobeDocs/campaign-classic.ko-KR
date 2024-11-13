@@ -2,13 +2,12 @@
 product: campaign
 title: Campaign으로 SMS 만들기
 description: Campaign으로 SMS를 만드는 방법 알아보기
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: SMS
 role: User
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---

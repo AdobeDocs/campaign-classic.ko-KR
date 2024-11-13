@@ -2,13 +2,12 @@
 product: campaign
 title: Campaign SMS 채널 구성
 description: Campaign에서 SMS 채널을 구성하는 방법 알아보기
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: SMS
 role: User, Developer, Admin
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1739'
 ht-degree: 26%
 
 ---
@@ -33,8 +32,8 @@ ht-degree: 26%
 >
 >여러 외부 SMS 계정에 동일한 계정과 암호를 사용하면 계정 간에 충돌과 겹칠 수 있습니다. [](troubleshooting-sms.md#external-account-conflict)
 
-휴대폰에 SMS를 전송하려면 먼저 SMPP 외부 계정을 만들어야 합니다.
-SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-protocol.md)를 참조하세요.
+To send a SMS to a mobile phone, you first need to create your SMPP external account.
+[](sms-protocol.md)
 
 이렇게 하려면 아래 단계를 수행합니다.
 
@@ -353,7 +352,7 @@ SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 
 
 ## Change the delivery template {#changing-the-delivery-template}
 
-Adobe Campaign은 모바일에 게재하기 위한 템플릿을 제공합니다. 이 템플릿은 **[!UICONTROL Resources > Templates > Delivery templates]** 노드에서 사용할 수 있습니다. 자세한 내용은 [템플릿 정보](about-templates.md) 섹션을 참조하세요.
+Adobe Campaign provides you with a template for delivering to mobiles. 이 템플릿은 **[!UICONTROL Resources > Templates > Delivery templates]** 노드에서 사용할 수 있습니다. 자세한 내용은 [템플릿 정보](about-templates.md) 섹션을 참조하세요.
 
 SMS 채널을 통해 게재하려면 채널 커넥터가 참조되는 템플릿을 만들어야 합니다.
 
