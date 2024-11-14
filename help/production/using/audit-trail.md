@@ -4,9 +4,9 @@ title: 감사 추적
 description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링하는 방법 알아보기
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: 6d94ca01f23f7f2409fbdcb4e4c4716d694d527f
+source-git-commit: 3d1ed85dcafc5afc4088db98c09d78fb7e9c0a39
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '421'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!INFO]
 >
->Adobe Campaign v8 설명서에서 감사 추적 기능에 대해 자세히 알아보십시오.
+>[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail)에서 감사 추적 기능에 대해 자세히 알아보세요.
 
 Adobe Campaign에서 **[!UICONTROL Audit trail]**&#x200B;을(를) 사용하면 인스턴스 내에서 수행한 변경 내용의 전체 기록에 액세스할 수 있습니다.
 
