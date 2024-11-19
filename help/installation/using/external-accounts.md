@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 8180f77c2824f9b54ae3c924b1cc45532675cf85
 workflow-type: tm+mt
-source-wordcount: '1757'
+source-wordcount: '1784'
 ht-degree: 8%
 
 ---
@@ -100,6 +100,8 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 * **[!UICONTROL Azure Redirect URL]**
 
   리디렉션 URL은 Azure 포털에 있는 응용 프로그램의 **인증** 메뉴에서 찾을 수 있습니다. `nl/jsp/oauth.jsp` 구문(예: `https://redirect.adobe.net/nl/jsp/oauth.jsp`)으로 끝나야 합니다.
+
+인터넷 액세스가 필요하며 클라이언트 콘솔에서 **[!UICONTROL Test Connection]** 단추를 사용해야 합니다. 설정 후 inMail 프로세스는 인터넷 없이 Microsoft 서버와 통신할 수 있습니다.
 
 다른 자격 증명을 입력한 후 **[!UICONTROL Setup the connection]**&#x200B;을(를) 클릭하여 외부 계정 구성을 완료할 수 있습니다.
 
@@ -388,7 +390,7 @@ Adobe Campaign에서 작동하도록 Salesforce CRM 외부 계정을 구성하�
 
 * **[!UICONTROL Account]**
 
-  Salesforce CRM에 로그인하는 데 사용되는 계정입니다.
+  Salesforce CRM에 로그인하는 데 사용되는 계정.
 
 * **[!UICONTROL Password]**
 
