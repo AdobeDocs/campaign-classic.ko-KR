@@ -4,7 +4,7 @@ title: JavaScript 스크립트 및 템플릿
 description: JavaScript 스크립트 및 템플릿
 feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: d4a2138e03a33092403d5ca00a41a3d7f9aea33e
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 2%
@@ -159,7 +159,7 @@ logInfo("Start date: " + task.creationDate)
 
 활동에서 인스턴스 변수를 지정했으면 워크플로우 쿼리에서 다시 사용할 수 있습니다.
 
-따라서 필터에서 변수 **instance.vars.xxx = &quot;yyy&quot;**&#x200B;을(를) 호출하려면 **$(instance/vars/xxx)**&#x200B;을(를) 입력하십시오.
+따라서 필터에서 변수 **instance.vars.xxx = &quot;yyy&quot;**&#x200B;을(를) 호출하려면 **$(instance/vars/@xxx)**&#x200B;을(를) 입력하십시오.
 
 예제:
 
