@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: "사용 사례: 기준 시드 주소 선택"
-description: "사용 사례: 기준 시드 주소 선택"
+title: '활용 사례: 기준 시드 주소 선택'
+description: '활용 사례: 기준 시드 주소 선택'
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 

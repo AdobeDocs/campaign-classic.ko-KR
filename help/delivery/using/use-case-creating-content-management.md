@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: "사용 사례: 콘텐츠 관리 만들기"
-description: "사용 사례: 콘텐츠 관리 만들기"
+title: '사용 사례: 콘텐츠 관리 만들기'
+description: '사용 사례: 콘텐츠 관리 만들기'
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0

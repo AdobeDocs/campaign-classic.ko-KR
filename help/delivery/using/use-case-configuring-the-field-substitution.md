@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: "사용 사례: 필드 대체 구성"
-description: "사용 사례: 필드 대체 구성"
+title: '활용 사례: 필드 대체 구성'
+description: '활용 사례: 필드 대체 구성'
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 

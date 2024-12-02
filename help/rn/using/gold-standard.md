@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: "[!DNL Gold Standard] 릴리스"
+title: '[!DNL Gold Standard] 릴리스'
 description: Campaign Classic 릴리스 정보 및 호환성 매트릭스 [!DNL Gold Standard]
 feature: Release Notes
 role: User
@@ -9,9 +9,9 @@ hidefromtoc: true
 hide: true
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1774'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ _2021년 8월 27일_
 
 빌드 9032@99a3894에는 다음 수정 사항이 포함되어 있습니다.
 
-* 서드파티 도구(이메일 클라이언트, 인터넷 브라우저 등)의 특수문자 처리 방식과 관련된 오류를 방지하기 위해 추적 서명 기능이  개선되었습니다. 이제 URL 매개 변수가 인코딩됩니다.
+* 서드파티 도구(이메일 클라이언트, 인터넷 브라우저 등)가 특수 문자를 처리하는 방식과 관련된 오류를 방지하기 위해 추적 서명 기능이 개선되었습니다. 이제 URL 매개 변수가 인코딩됩니다.
 * 콘솔에 차단기 오류 메시지가 표시될 수 있는 날짜 선택기 문제가 해결되었습니다. (NEO-36345)
 
 ### [!DNL Gold Standard] 11 릴리스{#gs-11}

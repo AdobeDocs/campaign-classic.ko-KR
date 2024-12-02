@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: "사용 사례: 개요 만들기"
-description: "사용 사례: 개요 만들기"
+title: '활용 사례: 개요 만들기'
+description: '활용 사례: 개요 만들기'
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Apps
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
@@ -198,7 +198,7 @@ ht-degree: 0%
    * &#39;작성자&#39; 링크의 **식:** 외래 키
    * **연산자:**&#x200B;이(가) 다음과 같음
    * **값:** 변수(변수)
-   * **고려 사항:** &#39;$(var2/@id)&#39;!=&#39;&#39;
+   * **다음 경우 고려:** &#39;$(var2/@id)&#39;!=&#39;&#39;
 
    ![](assets/s_ncs_configuration_webapp_filter002.png)
 
