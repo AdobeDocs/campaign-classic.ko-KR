@@ -5,7 +5,7 @@ description: 구성
 feature: Monitoring, Configuration
 badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
-source-git-commit: 7906e9fee164d731659bbb9f96394faca5961240
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 1%

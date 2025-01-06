@@ -5,7 +5,7 @@ description: Android용 모바일 애플리케이션을 설정하는 방법 알�
 feature: Push
 role: User, Developer
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 10%
@@ -90,7 +90,7 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
    ![](assets/nmac_android.png)
 
-1. SDK를 통해 Adobe Campaign 및 응용 프로그램 코드에 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되어 있는지 확인하십시오. <!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+1. Adobe Campaign 및 SDK을 통한 응용 프로그램 코드에서 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되어 있는지 확인하십시오. <!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
 
    >[!NOTE]
    >

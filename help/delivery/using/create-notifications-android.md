@@ -5,7 +5,7 @@ description: Android용 푸시 알림을 만드는 방법 알아보기
 feature: Push
 role: User, Developer, Data Engineer
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 * **[!UICONTROL Data message]**(클라이언트 앱에서 처리됨).
   <br>android 알림을 생성하여 장치에 표시하는 모바일 응용 프로그램으로 직접 메시지를 보냅니다. 데이터 메시지에는 사용자 정의 애플리케이션 변수만 포함됩니다.
 
-* **[!UICONTROL Notification message]**, FCM SDK에 의해 자동으로 처리됩니다.
+* **[!UICONTROL Notification message]**, FCM SDK에서 자동으로 처리됨.
   <br> FCM은 클라이언트 앱을 대신하여 사용자의 장치에 메시지를 자동으로 표시합니다. 알림 메시지에는 사전 정의된 매개 변수 및 옵션 세트가 포함되어 있지만 사용자 지정 애플리케이션 변수를 사용하여 추가로 개인화할 수 있습니다.
 
 Firebase 클라우드 메시징 메시지 유형에 대한 자세한 내용은 [FCM 설명서](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages){target="_blank"}를 참조하십시오.

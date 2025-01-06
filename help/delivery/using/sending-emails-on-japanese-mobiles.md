@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Email, Email Design
 role: User
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Adobe Campaign을 사용하면 메시지 형식이 일본어 모바일로 전송
 
 이 유형화 규칙을 사용하면 게재가 일본어 연산자에 의해 정의된 [형식 제약 조건](#limitations-and-recommendations)을 준수하는지 확인할 수 있습니다. 특히 전자 메일의 전체 크기, HTML 및 텍스트 섹션의 크기, 메시지의 이미지 수, HTML 컨텐츠의 태그와 관련하여 그러합니다.
 
-### 증명 보내기 {#sending-proofs}
+### 교정쇄 보내기 {#sending-proofs}
 
 증명을 전송하여 게재를 테스트할 수 있습니다. 증명을 보낼 때 대체 주소를 사용하고 있다면 사용한 프로필의 이메일 형식에 해당하는 주소를 입력하십시오.
 

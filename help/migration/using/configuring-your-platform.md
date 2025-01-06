@@ -9,7 +9,7 @@ topic-tags: migration-procedure
 hide: true
 hidefromtoc: true
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 2%
@@ -135,7 +135,7 @@ Adobe Campaign v7로 마이그레이션할 때 다음 요소를 구성해야 합
 
 -->
 
-* 상호 작용 수
+* 인터랙션
 
   **상호 작용**&#x200B;을 사용하는 경우 마이그레이션 후 매개 변수를 조정해야 합니다.
 

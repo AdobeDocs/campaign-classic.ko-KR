@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 6%
@@ -83,7 +83,7 @@ Adobe Campaign은 배포 차원을 높이기 위한 두 가지 미리 패키지�
  </tbody> 
 </table>
 
-## 권장 사항 {#recommendations}
+## 추천 {#recommendations}
 
 * 실행 인스턴스는 서비스 전용이어야 합니다. 구독하지 않은 서비스에 대한 패키지를 설치할 수 없습니다. 예를 들어 **메시지 센터** 서비스에 대한 **전원 부스터** 옵션을 구독하는 경우 전용 실행 인스턴스에만 **[!UICONTROL Execution of transactional messages]** 패키지를 설치할 수 있습니다. 사용권 계약을 확인하십시오.
 * 전용 인스턴스(또는 클러스터)는 Adobe Campaign 인스턴스이므로 권장 사항은 기본 인스턴스와 동일합니다. 자세한 정보는 [이 문서](../../production/using/foreword.md)를 참조하세요.

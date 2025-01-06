@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: fd4a815bca23b94590012c4883cfaa9c29b6f118
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Adobe Campaign은 Apache Tomcat **이라는**&#x200B;포함된 웹 서블릿을 
 
 Tomcat은 Java에서 실행되며 JDK를 설치해야 합니다. 자세한 내용은 [Campaign 호환성 매트릭스](../../rn/using/compatibility-matrix.md) 섹션의 JDK(Java Development Kit)를 참조하십시오.
 
-Adobe Campaign에서 사용되는 Tomcat은 일반적으로 사용 가능한 전체 Tomcat 릴리스의 모든 기능을 사용하지 않는 사용자 정의 내장 버전이며 전체 버전의 모든 취약성을 겪지 않을 수 있습니다. 또한 Tomcat은 외부 인터넷에 노출되지 않아야 하며 노출된 모든 Adobe Campaign 인스턴스에는 외부 웹 서버(IIS, Apache 등)가 있어야 합니다 Tomcat을 보호하기 위해 Tomcat의 앞쪽에 설치하는 것입니다.
+Adobe Campaign에서 사용되는 Tomcat은 일반적으로 사용 가능한 전체 Tomcat 릴리스의 모든 기능을 사용하지 않는 사용자 정의 내장 버전이며 전체 버전의 모든 취약성을 겪지 않을 수 있습니다. 또한 Tomcat은 외부 인터넷에 노출되지 않아야 하며 노출된 모든 Adobe Campaign 인스턴스에는 Tomcat 앞에 외부 웹 서버(IIS, Apache 등)가 있어야 보호됩니다.
 
 Tomcat의 내장 버전의 새 버전 또는 업그레이드된 버전은 Adobe Campaign 빌드의 외부에 별도의 패치가 아닌 Adobe Campaign 자체의 새 빌드와 함께 출시됩니다.
 

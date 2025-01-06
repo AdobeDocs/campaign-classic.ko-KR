@@ -6,10 +6,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '916'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -99,7 +99,7 @@ Adobe Campaign Classic 인스턴스에 대해 선택한 언어는 날짜 및 시
 
 각 핵심 기능 섹션을 통해 사용 가능한 요소 간을 검색할 수 있습니다. 이렇게 하려면 **[!UICONTROL Browsing]** 섹션에서 바로 가기를 사용합니다. **[!UICONTROL Other choices]** 링크를 사용하면 환경에 관계없이 다른 모든 페이지에 액세스할 수 있습니다.
 
-새 요소(게재, 웹 애플리케이션, 워크플로우 등)를 만들 수 있습니다. 화면 왼쪽의 **[!UICONTROL Create]** 섹션에서 바로 가기를 사용합니다. 목록 위에 있는 **[!UICONTROL Create]** 단추를 사용하여 새 요소를 목록에 추가하십시오.
+화면 왼쪽의 **[!UICONTROL Create]** 섹션에서 바로 가기를 사용하여 새 요소(게재, 웹 애플리케이션, 워크플로 등)를 만들 수 있습니다. 목록 위에 있는 **[!UICONTROL Create]** 단추를 사용하여 새 요소를 목록에 추가하십시오.
 
 예를 들어 게재 페이지에서 **[!UICONTROL Create]** 단추를 사용하여 새 게재를 만듭니다.
 
@@ -172,4 +172,4 @@ Campaign을 설치할 때 언어가 선택되며 나중에 변경할 수 없습�
 
 >[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
 
-추가 Campaign Classic 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

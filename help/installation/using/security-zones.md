@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 0%
@@ -222,7 +222,7 @@ Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소를 관�
 
 
 
-## 권장 사항
+## 추천
 
 * 의 역방향 프록시가 subNetwork에서 허용되지 않는지 확인하십시오. 이 경우 **모두** 트래픽은 이 로컬 IP에서 오는 것으로 검색되므로 신뢰할 수 있습니다.
 

@@ -5,7 +5,7 @@ description: Campaign 설문 조사 시작
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 3%
@@ -43,7 +43,7 @@ Adobe Campaign에서 [웹 응용 프로그램](../../web/using/about-web-forms.m
 * 개인화 추가 및 필드 위치 정의,
 * 답변에 따른 설문 조사 필드의 상태 표시,
 * 조건 페이지 표시,
-* 예상되는 데이터 유형(번호, 이메일 주소, 날짜 등)에 따라 승인 전에 정보를 확인합니다. 및 필수 필드,
+* 예상 데이터 유형(번호, 이메일 주소, 날짜 등) 및 필수 필드에 따라 승인 전에 정보를 확인합니다.
 * 이메일 초대/알림 보내기,
 * 오류 및 종료 페이지 개인화,
 * 양식에 이미지, 비디오, 하이퍼텍스트 링크, captcha 등을 추가합니다.

@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '3389'
 ht-degree: 1%
@@ -237,7 +237,7 @@ URL이 채워지면 추적 서버를 등록해야 합니다.
 
 1. **기존 인스턴스에 추적 지원 추가**
 
-   이 선택은 인스턴스가 다른 요구 사항(MTA 서버 등)을 위해 이미 생성된 경우에 적용됩니다. 추적 서버로 사용할 서버입니다.
+   이 선택은 추적 서버로 사용될 서버에서 다른 요구(MTA 서버 등)를 위해 인스턴스가 이미 생성된 경우에 적용됩니다.
 
    ![](assets/s_ncs_install_deployment_wiz_11.png)
 

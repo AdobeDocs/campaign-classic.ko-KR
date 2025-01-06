@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Adobe Campaign을 사용하면 날짜/시간을 UTC(협정 세계시) 형식으�
 
 Adobe Campaign 플랫폼에서 시간대 관리가 필요하지 않은 경우 특정 연결된 시간대를 사용하여 저장소 모드를 로컬 형식으로 유지할 수 있습니다.
 
-## 권장 사항 {#recommendations}
+## 추천 {#recommendations}
 
 시간대는 여러 현실을 결합합니다. 표현식은 UTC 날짜와 함께 일정한 시차를 나타내거나 일년에 두 번 변경될 수 있는 지역의 시간(일광 절약 시간)을 나타낼 수 있습니다.
 

@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 98413cde-50c9-416c-8316-85837f724c27
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe Campaign에서의 상호 작용을 효율적으로 운영하려면 세심�
 다음은 상호 작용을 구현하고 구성할 때 염두에 두어야 하는 중요한 요소 목록입니다.
 
 * 배치 엔진(일반적으로 이메일과 같은 아웃바운드 통신에서 사용됨)의 경우 여러 연락처를 동시에 처리할 수 있으므로 처리량이 주요 문제입니다. 일반적인 병목 현상은 데이터베이스 성능입니다.
-* 단일 엔진에 대한 주요 제한 사항(일반적으로 웹 사이트의 배너와 같은 인바운드 통신에서 사용됨)은 누군가가 답변을 기대하기 때문에 지연입니다. 일반적인 병목 현상은 CPU 성능입니다.
+* 단일 엔진에 대한 주요 제한 사항(일반적으로 웹 사이트의 배너와 같은 인바운드 통신에서 사용됨)은 누군가가 답변을 기대하기 때문에 지연입니다. 대표적인 병목 현상이 CPU 성능입니다.
 * 오퍼 카탈로그 디자인은 Adobe Campaign Classic 성능에 큰 영향을 줍니다.
 * 오퍼가 많으면 여러 오퍼 카탈로그로 분할하십시오.
 

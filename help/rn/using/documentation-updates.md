@@ -6,8 +6,8 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
-workflow-type: ht
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+workflow-type: tm+mt
 source-wordcount: '3782'
 ht-degree: 100%
 
@@ -406,7 +406,7 @@ Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추�
 
 * [개인화 필드를 사용하여 이메일을 개인화하는 방법](../../delivery/using/personalization-fields.md)
 
-* [이메일에서 시드 및 증명을 관리하는 방법](../../delivery/using/steps-defining-the-target-population.md)
+* [이메일에서 시드 및 교정쇄를 관리하는 방법](../../delivery/using/steps-defining-the-target-population.md)
 
 * [반복 게재를 설정하는 방법](../../workflow/using/recurring-delivery.md)
 

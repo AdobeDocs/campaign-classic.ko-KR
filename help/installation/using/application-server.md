@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 387bcf39c13cc1f9544433b9441769f4b16b52ca
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Java 개발 키트(JDK)는 소프트웨어 개발 키트입니다. Java 애플�
 >* v7.4.1부터 Tomcat 10.1이 기본 버전입니다.
 >
 
-### 권장 사항
+### 추천
 
 Java 개발 키트를 설치하고 업그레이드할 때 다음 권장 사항을 적용하십시오.
 

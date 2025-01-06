@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Campaign Classic 2023 릴리스
-description: Campaign Classic 2023 릴리스에 대해 자세히 알아보기
+description: 'Campaign Classic 2023 릴리스에 대해 자세히 알아보기 '
 feature: Release Notes
 role: User
 level: Beginner
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
-source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
-workflow-type: ht
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+workflow-type: tm+mt
 source-wordcount: '2337'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ _2023년 12월 5일_
 * Google Big Query 데이터베이스의 데이터를 사용하고 Oracle 데이터베이스의 데이터를 업데이트할 때 워크플로 임시 테이블의 모든 키가 `0`(으)로 설정되는 문제를 해결했습니다. (NEO-65091)
 * Google Big Query 데이터베이스의 두 쿼리가 **합집합** 워크플로 활동으로 결합되어 있을 때 워크플로 실행에 실패하는 문제를 해결했습니다. (NEO-63705)
 * Campaign 보고서의 `Back` 버튼을 클릭할 때 사용자에게 다시 인증하라는 요청이 표시되는 문제를 해결했습니다. (NEO-65087)
-* 게재 증명 전에 게재를 삭제할 때 발생하는 데이터베이스 정리 워크플로의 오류를 해결했습니다. (NEO-48114)
+* 게재 교정 전에 게재를 삭제할 때 발생하는 데이터베이스 정리 워크플로의 오류를 해결했습니다. (NEO-48114)
 * TLS 인증에 대한 최근 업데이트로 인해 클라이언트 콘솔에 연결할 때 연결 오류가 발생하는 문제를 해결했습니다. (NEO-50488)
 * Campaign을 7.3.1로 업그레이드한 후 HTTP 프록시 인증 시 Campaign 워크플로의 HTTP 요청이 실패하며 `error 407 – proxy auth required is returned`라는 오류 메시지가 표시되는 문제를 해결했습니다. (NEO-49624)
 * **스크립트** 워크플로 활동에서 GPG 암호 해독이 간헐적으로 실패하는 오류를 해결했습니다. 관련 오류 메시지는 다음과 같습니다. `gpg: decryption failed: No secret key`. (NEO-50257)
@@ -150,7 +150,7 @@ _2023년 3월 20일_
 
 ### 패치 {#release-7-3-3-patches}
 
-* 컨트롤 인스턴스(트랜잭션 메시지 컨텍스트)에서 iOS 증명 푸시 알림이 보내지지 않는 문제를 해결했습니다. (NEO-54713)
+* 컨트롤 인스턴스(트랜잭션 메시지 컨텍스트)에서 iOS 교정쇄 푸시 알림이 보내지지 않는 문제를 해결했습니다. (NEO-54713)
 * 경우에 따라 DCE(디지털 콘텐츠 편집기)의 **편집** 탭에서 스크롤할 수 없는 문제를 해결했습니다. (NEO-54474)
 * 데이터 보강 활동 두 가지가 연결에 동일한 이름 식별자를 사용하여 두 번째 데이터 보강 활동이 첫 번째 활동의 링크를 사용하는 문제를 해결했습니다. (NEO-48851)
 

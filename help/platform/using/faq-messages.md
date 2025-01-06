@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 83%
@@ -30,7 +30,7 @@ Adobe Campaign 내에서 메시지를 보내기 전에 테스트 및 유효성 �
 
 ### 증명을 만들어야 하는 이유는 무엇입니까? {#why-should-i-create-proofs-}
 
-Adobe에서는 주요 대상으로 보내기 전에 승인 그룹에서 전달을 테스트하기 위하여 증명 메시지를 만드는 것을 강력히 권장합니다. 그런 다음 메시지 콘텐츠, 개인화 및 게재 매개 변수의 유효성을 검사할 수 있습니다.
+Adobe에서는 주요 대상으로 보내기 전에 승인 그룹에서 전달을 테스트하기 위하여 교정쇄 메시지를 만드는 것을 강력히 권장합니다. 그런 다음 메시지 콘텐츠, 개인화 및 게재 매개 변수의 유효성을 검사할 수 있습니다.
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
@@ -47,7 +47,7 @@ Adobe에서는 주요 대상으로 보내기 전에 승인 그룹에서 전달�
 
 ### 메시지를 보내기 전에 승인 프로세스를 설정하려면 어떻게 해야 합니까? {#how-can-i-set-up-an-approval-process-before-sending-messages-}
 
-메시지 구성에서 발생할 수 있는 오류를 탐지하기 위해 Adobe에서는 게재 유효성 검사 주기를 설정할 것을 강력히 권장합니다. 필요한 만큼 자주 테스트 내용을 수신자에게 보내서 콘텐츠가 승인되었는지 확인합니다. 콘텐츠를 승인하려면 변경 사항이 있을 때마다 증명을 보내야 합니다.
+메시지 구성에서 발생할 수 있는 오류를 탐지하기 위해 Adobe에서는 게재 유효성 검사 주기를 설정할 것을 강력히 권장합니다. 필요한 만큼 자주 테스트 내용을 수신자에게 보내서 콘텐츠가 승인되었는지 확인합니다. 콘텐츠를 승인하려면 변경 사항이 있을 때마다 교정쇄를 보내야 합니다.
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
