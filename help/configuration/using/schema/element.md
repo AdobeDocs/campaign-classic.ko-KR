@@ -4,7 +4,7 @@ title: 스키마 요소 및 속성 - 요소 요소
 description: 요소 요소
 feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
-source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 0%
@@ -13,7 +13,6 @@ ht-degree: 0%
 
 # 요소 요소 {#element--element}
 
-![](../../../assets/v7-only.svg)
 
 ## 콘텐츠 모델 {#content-model-4}
 
@@ -21,7 +20,7 @@ element:==(attribute | 계산 문자열 | dbindex | 기본값 | 요소 | 도움�
 
 ## 속성 {#attributes-4}
 
-_operation (string), advanced (부울), aggregate (문자열), applicableIf (문자열), autopk (부울), assetsTo (문자열), convDate (문자열), dataPolicy (문자열), dataSource (문자열), dbEnum (문자열), defOnDuplicate (부울), default (문자열), desc (문자열), displayAsField (부울), doesNotSupportDiff (부울), edit (문자열), emptyKeyValue (문자열), enum (문자열), enumImage (문자열), expand (문자열), externalJoin (부울), feature (문자열), featureDate (부울), filterPath (문자열), folderLink) , folderModel(string), folderProcess(string), fullLoad(부울), hierarchical(부울), hierarchicalPath(문자열), img(문자열), inout(문자열), integrity(문자열), label(문자열), labelSingular(문자열), length(문자열), localizable(부울), name(MNTOKEN), noDbIndex(부울), noKey(부울), ordered(부울), overflowtable(부울), pkSequence(문자열), pkgStatus(문자열), ref(문자열), required(부울), revAdvanced(부울), revCardinality(문자열), revDesc(문자열), revIntegrity(문자열) link (string), revTarget (string), revVisibleIf (string), sql (부울), sqlname (문자열), sqltable (문자열), tableSpace (문자열), tableSpaceIndex (문자열), target (MNTOKEN), template (문자열), temporaryTable (부울), translatedDefault (문자열), translatedExpr (문자열), type (MNTOKEN), unbound (부울), user (부울), userEnum (문자열), visibleIf (문자열), xml (부울), xmlChildren (부울)
+_operation (string), advanced (부울), aggregate (문자열), applicableIf (문자열), autopk (부울), assetsTo (문자열), convDate (문자열), dataPolicy (문자열), dataSource (문자열), dbEnum (문자열), defOnDuplicate (부울), default (문자열), desc (문자열), displayAsField (부울), doesNotSupportDiff (부울), edit (문자열), emptyKeyValue (문자열), enum (문자열), enumImage (문자열), expand (문자열), externalJoin (부울), feature (문자열), featureDate (부울), filterPath (문자열), folderLink (string), folderModel(string), folderProcess(string), fullLoad(부울), hierarchical(부울), hierarchicalPath(문자열), img(문자열), inout(문자열), integrity(문자열), label(문자열), labelSingular(문자열), length(문자열), localizable(부울), name(MNTOKEN), noDbIndex(부울), noKey(부울), ordered(부울), overflowtable(부울), pkSequence(문자열), pkgStatus(문자열), ref(문자열), revAdvanced(부울), revCardinality(문자열), revDesc(문자열), revExternalJoin(부울), revIntegrity(문자열) link (string), revTarget (string), revVisibleIf (string), sql (부울), sqlname (문자열), sqltable (문자열), tableSpace (문자열), tableSpaceIndex (문자열), target (MNTOKEN), template (문자열), temporaryTable (부울), translatedDefault (문자열), translatedExpr (문자열), type (MNTOKEN), unbound (부울), user (부울), userEnum (문자열), visibleIf (문자열), xml (부울), xmlChildren (부울)
 
 ## 상위 {#parents-4}
 

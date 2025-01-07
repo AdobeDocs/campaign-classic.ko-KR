@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 1%
@@ -16,7 +16,6 @@ ht-degree: 1%
 
 # 속성 요소 {#attribute--element}
 
-![](../../../assets/v7-only.svg)
 
 ## 콘텐츠 모델 {#content-model}
 
@@ -24,7 +23,7 @@ attribute:==help
 
 ## 속성 {#attributes}
 
-_operation (string), advanced (부울), applicableIf (문자열), autoIncrement (부울), includesTo (문자열), dataPolicy (문자열), dbEnum (문자열), defOnDuplicate (부울), default (문자열), desc (문자열), edit (문자열), enum (문자열), expr (문자열), feature (문자열), featureDate (부울), img (문자열), inout (문자열), label (문자열), length (문자열), localizable (부울), name (MNTOKEN), notNull (부울), pkgStatus (문자열), ref (문자열), required (부울), sql (부울), sqlDefault (문자열), sqlname (문자열), sqltable (문자열) , translatedDefault (문자열), translatedExpr (문자열), type (MNTOKEN), user (부울), userEnum (문자열), visibleIf (문자열), xml (부울)
+_operation (string), advanced (부울), applicableIf (문자열), autoIncrement (부울), includesTo (문자열), dataPolicy (문자열), dbEnum (문자열), defOnDuplicate (부울), default (문자열), desc (문자열), edit (문자열), enum (문자열), expr (문자열), feature (문자열), featureDate (부울), img (문자열), inout (문자열), label (문자열), length (문자열), localizable (부울), name (MNTOKEN), notNull (부울), pkgStatus (문자열), ref (문자열), required (부울), sql (부울), sqlDefault (문자열), sqlname (문자열), sqltable (문자열), sqltable (문자열), 문자열), 문자열) (문자열), translatedDefault (문자열), translatedExpr (문자열), type (MNTOKEN), user (부울), userEnum (문자열), visibleIf (문자열), xml (부울)
 
 ## 상위 {#parents}
 

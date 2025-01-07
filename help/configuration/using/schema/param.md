@@ -4,7 +4,7 @@ title: 스키마 요소 및 속성 - 매개 변수 요소
 description: 매개 변수 요소
 feature: Schema Extension
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 9%
@@ -13,7 +13,6 @@ ht-degree: 9%
 
 # 매개 변수 요소 {#param--element}
 
-![](../../../assets/v7-only.svg)
 
 ## 콘텐츠 모델 {#content-model-12}
 
@@ -63,7 +62,7 @@ param:==help
    * datetime
    * datetimetz
    * 다테티메노츠
-   * 일자
+   * 날짜
    * DOMDocument
    * DOMELEMENT
    * 중복

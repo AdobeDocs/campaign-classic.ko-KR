@@ -4,7 +4,7 @@ title: 스키마 요소 및 속성 - 열거형 요소
 description: 열거형 요소
 feature: Schema Extension
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 8%
@@ -13,7 +13,6 @@ ht-degree: 8%
 
 # 열거형 요소 {#enumeration--element}
 
-![](../../../assets/v7-only.svg)
 
 ## 콘텐츠 모델 {#content-model-5}
 
@@ -60,7 +59,7 @@ ht-degree: 8%
    * datetime
    * datetimetz
    * 다테티메노츠
-   * 일자
+   * 날짜
    * DOMDocument
    * DOMELEMENT
    * 중복

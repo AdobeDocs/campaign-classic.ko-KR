@@ -4,7 +4,7 @@ title: 스키마 요소 및 속성 - 도움말 요소
 description: 도움말 요소
 feature: Schema Extension
 exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 12%
@@ -13,7 +13,6 @@ ht-degree: 12%
 
 # 도움말 요소 {#help--element}
 
-![](../../../assets/v7-only.svg)
 
 ## 콘텐츠 모델 {#content-model-6}
 
