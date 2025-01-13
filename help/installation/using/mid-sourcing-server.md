@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: b500b2cbf68fd46bd84ddbfa71cf9431c6b60060
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1005'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 1%
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. **nlserver 웹 서버 다시 시작** 명령을 사용하여 웹 모듈을 다시 시작합니다.
+1. ** web** 명령을 사용하여 웹 모듈을 다시 시작합니다.
 
 serverConf.xml 파일에서 중간 소싱 서버 설정을 변경해야 합니다. 다음 줄을 기존 줄 아래의 &quot;IP 주소를 사용한 선호도 관리&quot; 섹션에 추가해야 합니다.
 

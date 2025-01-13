@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 32a1e16c3c085c0d928b4223e1b46ed6545122d3
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 2%
+source-wordcount: '1110'
+ht-degree: 1%
 
 ---
 
@@ -50,13 +50,13 @@ RPM(RHEL, CentOS) 운영 체제에 Adobe Campaign을 설치하려면 다음 단�
 
 1. 설치하려면 **root**(으)로 연결하고 다음 명령을 실행합니다. 여기서 **XXXX**&#x200B;은(는) Adobe Campaign 빌드 번호입니다.
 
-   ```
+   ```sql
    yum install nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
    rpm 파일은 CentOS/Red Hat 배포판에서 찾을 수 있는 패키지에 종속되어 있습니다. 이러한 종속성 중 일부를 사용하지 않으려면(예: OpenJDK 대신 Oracle JDK를 사용하려는 경우) rpm의 &quot;nodeps&quot; 옵션을 사용해야 할 수 있습니다.
 
-   ```
+   ```sql
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
@@ -66,8 +66,27 @@ RPM(RHEL, CentOS) 운영 체제에 Adobe Campaign을 설치하려면 다음 단�
 
 CentOS를 사용하는 경우 bc.x86_64 패키지를 설치해야 합니다. **root**(으)로 연결하고 다음 명령을 실행합니다.
 
-```
+```sql
 yum install bc.x86_64
+```
+
+
+### 온-프레미스 배포용 RHEL 9 {#rhel-9-update}
+
+RHEL 9를 사용하는 온-프레미스 고객인 Campaign v7.4.1에서 DKIM/도메인 키를 사용하려면 시스템 설정을 업데이트해야 합니다.
+
+이렇게 하려면 다음 단계를 수행합니다.
+
+1. 다음 명령을 루트로 실행합니다.
+
+```sql
+update-crypto-policies --set LEGACY
+```
+
+1. MTA 모듈을 다시 시작합니다.
+
+```sql
+nlserver restart mta@<instance-name>
 ```
 
 ## APT 기반 배포(Debian) {#distribution-based-on-apt--debian-}
@@ -82,7 +101,7 @@ Debian 64비트 운영 체제에 Adobe Campaign을 설치하려면 다음 단계
 
 1. 설치하려면 **root**(으)로 연결하고 다음 명령을 실행합니다. 여기서 **XXXX**&#x200B;은(는) Adobe Campaign 빌드 번호입니다.
 
-   ```
+   ```sql
    apt install ./nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
 
@@ -95,7 +114,7 @@ Debian 64비트 운영 체제에 Adobe Campaign을 설치하려면 다음 단계
 
 만들고 실행 권한이 있는지 확인합니다. 그렇지 않은 경우 다음 명령을 입력합니다.
 
-```
+```sql
 chmod +x /usr/local/neolane/nl6/customer.sh
 ```
 
@@ -111,7 +130,7 @@ chmod +x /usr/local/neolane/nl6/customer.sh
 
 UTF-8 환경을 활성화하려면 다음 명령을 사용합니다.
 
-```
+```sql
 mkdir -p /usr/local/neolane/nl6 
 touch /usr/local/neolane/nl6/unicodeenv
 ```
@@ -126,7 +145,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
 * oracle 클라이언트의 경우:
 
-  ```
+  ```sql
   export ORACLE_HOME=/usr/local/instantclient_10_2
   export TNS_ADMIN=/etc/oracle
   export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
@@ -144,7 +163,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
      OOO_INSTALL_DIR 및 OOO_BASIS_INSTALL_DIR의 기본값이 제공됩니다. LibreOffice 설치 레이아웃이 다른 경우 **customer.sh**&#x200B;에서 재정의할 수 있습니다.
 
-     ```
+     ```sql
      export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
      export OOO_INSTALL_DIR=/usr/lib/libreoffice/
      ```
@@ -153,7 +172,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
      다음 기본값을 사용합니다.
 
-     ```
+     ```sql
      export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
      export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
      ```
@@ -162,7 +181,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
   기본적으로 Adobe Campaign 환경(`~/nl6/env.sh`)의 구성 스크립트는 JDK 설치 디렉터리를 검색합니다. 그러나 사용해야 하는 JDK를 지정하는 것이 좋습니다. 이렇게 하려면 다음 명령을 사용하여 **JDK_HOME** 환경 변수를 강제 적용할 수 있습니다.
 
-  ```
+  ```sql
   export JDK_HOME=/usr/java/jdkX.Y.Z
   ```
 
@@ -172,7 +191,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
   JDK 구성을 테스트하려면 다음 명령을 사용하여 Adobe Campaign 시스템 사용자로 로그인합니다.
 
-  ```
+  ```sql
   su - neolane
   ```
 
@@ -180,7 +199,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
 명령은 다음과 같습니다.
 
-```
+```sql
 systemctl stop nlserver
 systemctl start nlserver
 ```
@@ -194,7 +213,7 @@ Adobe Campaign에서 Oracle을 사용할 때 Linux에서 Oracle 클라이언트 
 
   설치 단계에서 TNS 정의를 추가해야 합니다. 이렇게 하려면 다음 명령을 사용합니다.
 
-  ```
+  ```sql
   cd /etc
   mkdir oracle
   cd oracle
@@ -211,7 +230,7 @@ Adobe Campaign에서 Oracle을 사용할 때 Linux에서 Oracle 클라이언트 
 
   이렇게 하려면 다음 명령을 사용합니다.
 
-  ```
+  ```sql
   cd /usr/lib/oracle/10.2.0.4/client/lib
   ln -s libclntsh.so.10.1 libclntsh.so
   ```
@@ -222,14 +241,14 @@ Adobe Campaign에서 Oracle을 사용할 때 Linux에서 Oracle 클라이언트 
 
 이제 다음 명령을 사용하여 초기 설치 테스트를 수행할 수 있습니다.
 
-```
+```sql
 su - neolane
 nlserver pdump
 ```
 
 Adobe Campaign이 시작되지 않은 경우 응답은 다음과 같습니다.
 
-```
+```sql
 no task
 ```
 
@@ -237,7 +256,7 @@ no task
 
 설치 테스트가 완료되면 다음 명령을 입력합니다.
 
-```
+```sql
 nlserver web
 ```
 
@@ -257,7 +276,7 @@ nlserver web
 
 **Ctrl+C**&#x200B;를 눌러 프로세스를 중지한 다음 다음 명령을 입력합니다.
 
-```
+```sql
 nlserver start web
 ```
 
@@ -275,7 +294,7 @@ nlserver start web
 
 중지하려면 다음을 입력합니다.
 
-```
+```sql
 nlserver stop web
 ```
 
