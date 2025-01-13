@@ -7,7 +7,7 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2562'
 ht-degree: 100%
 
@@ -704,7 +704,7 @@ ht-degree: 100%
       + [유니코드로 전환](production/using/switching-to-unicode.md)
       + [마이그레이션 절차](production/using/migration-procedures.md)
    + 데이터베이스 유지 관리 {#database-maintenance}
-      + [Recommendations](production/using/recommendations.md)
+      + [추천](production/using/recommendations.md)
       + [유지 관리할 테이블](production/using/tables-to-maintain.md)
       + [유지 관리 유형](production/using/types-of-maintenance.md)
       + [RDBMS 특정 권장 사항](production/using/rdbms-specific-recommendations.md)
