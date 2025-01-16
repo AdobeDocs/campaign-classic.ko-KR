@@ -6,7 +6,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Email
 role: User, Developer, Data Engineer
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: f7da066d32391341e449397d64853fcbae639a59
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 10%
@@ -33,7 +33,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 BCC 이메일 주소를 추�
 
 >[!NOTE]
 >
->향상된 MTA가 포함된 이메일 BCC를 사용하는 경우 이 옵션은 모든 게재에 대해 자동으로 활성화됩니다.
+>[향상된 MTA](ending-with-enhanced-mta.md)에서 이메일 BCC를 사용하는 경우 이 옵션은 모든 게재에 대해 자동으로 활성화됩니다.
 
 이메일 게재 템플릿에 대해 이메일 BCC를 활성화하려면 아래 단계를 수행합니다.
 
