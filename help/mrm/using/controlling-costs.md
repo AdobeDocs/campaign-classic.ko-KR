@@ -5,9 +5,11 @@ description: 비용 제어 방법 알아보기
 feature: Resource Management
 audience: campaign
 content-type: reference
+hide: true
+hidefromtoc: true
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 942edcf028207eab2ea583949ebc99ab61539ea0
 workflow-type: tm+mt
 source-wordcount: '2488'
 ht-degree: 0%
@@ -191,7 +193,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 1. 계산된 비용
 
-   계산된 비용은 관련 요소(캠페인, 게재, 작업 등)에 따라 다릅니다. 및 해당 상태(편집 중, 진행 중, 완료됨). 어떤 경우든 실질 원가가 특정되면 계산된 원가는 이 금액을 사용하게 된다.
+   계산된 비용은 관련 요소(캠페인, 게재, 작업 등)와 상태(편집 중, 진행 중, 완료 중)에 따라 다릅니다. 어떤 경우든 실질 원가가 특정되면 계산된 원가는 이 금액을 사용하게 된다.
 
    실제 비용이 제공되지 않는 경우 다음 규칙이 적용됩니다.
 
