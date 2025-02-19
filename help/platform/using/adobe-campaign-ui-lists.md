@@ -4,10 +4,10 @@ title: 목록 관리 및 사용자 지정
 description: 목록 검색 및 구성 방법 알아보기
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: f43b15e61fb286a612f057d8d3bf5a1ff6ecb253
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 1%
+source-wordcount: '66'
+ht-degree: 0%
 
 ---
 
@@ -15,191 +15,197 @@ ht-degree: 1%
 
 
 
-탐색기를 사용하여 Campaign 데이터베이스의 레코드 목록에 액세스할 수 있습니다. 이러한 목록을 필터링하고, 검색을 실행하고, 정보를 추가하고, 데이터를 필터링하고 정렬할 수 있습니다.
+Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. 이러한 목록을 필요에 맞게 조정할 수 있습니다. 예를 들어 열을 추가하고, 데이터를 필터링하고, 레코드를 카운트하고, 설정을 저장하고 공유할 수 있습니다.
 
-## 레코드 수 {#counting-records}
+>[!NOTE]
+>
+>Adobe Campaign에서 목록을 관리하고 사용자 지정하는 방법에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}를 참조하세요.
 
-기본적으로 Adobe Campaign은 목록의 처음 200개의 레코드를 로드합니다. 즉, 표시에서 보고 있는 테이블의 모든 레코드가 표시되지는 않습니다. 목록에 있는 레코드 수 개수를 실행하고 더 많은 레코드를 로드할 수 있습니다.
+<!--
+## Count records {#counting-records}
 
-목록 화면의 오른쪽 하단에서 **[!UICONTROL counter]**&#x200B;은(는) 로드된 레코드 수와 데이터베이스의 총 레코드 수를 표시합니다(필터를 적용한 후).
+By default, Adobe Campaign loads the first 200 records of a list. This means that the display does not necessarily show all the records of the table you are viewing. You can run a count of the number of records in the list and load more records.
+
+In the lower right-hand part of the list screen, a **[!UICONTROL counter]** shows how many records have been loaded and the total number of records in the database (after applying any filters):
 
 ![](assets/s_ncs_user_nb_200_0.png)
 
-&quot;**&quot;인 경우오른쪽에 숫자 대신**&quot;이(가) 나타나면 카운터를 클릭하여 계산을 시작합니다.
+If a "**?**" appears instead of the number on the right, click the counter to launch the calculation.
 
-### 더 많은 레코드 로드 {#loading-more-records}
+### Load more records {#loading-more-records}
 
-추가 레코드(기본적으로 200줄)를 로드하여 표시하려면 **[!UICONTROL Continue loading]**&#x200B;을(를) 클릭합니다.
+To load (and therefore display) additional records (200 lines by default) click **[!UICONTROL Continue loading]**.
 
 ![](assets/s_ncs_user_load_list.png)
 
-모든 레코드를 로드하려면 목록을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Load all]**&#x200B;을(를) 선택합니다.
+To load all the records, right-click the list and select **[!UICONTROL Load all]**.
 
 >[!CAUTION]
 >
->레코드 수에 따라 전체 목록을 로드하는 시간이 길어질 수 있습니다.
+>Depending on the number of records, the time for loading the full list can be long.
 
-### 기본 레코드 수 변경 {#change-default-number-of-records}
+### Change default number of records {#change-default-number-of-records}
 
-로드된 기본 레코드 수를 변경하려면 목록의 오른쪽 아래 모서리에 있는 **[!UICONTROL Configure list]**&#x200B;을(를) 클릭합니다.
+To change the default number of records loaded, click **[!UICONTROL Configure list]** in the bottom right-hand corner of the list.
 
 ![](assets/s_ncs_user_configure_list.png)
 
-목록 구성 창에서 **[!UICONTROL Advanced parameters]**(왼쪽 아래)을(를) 클릭하고 검색할 줄 수를 변경합니다.
+In the list configuration window, click **[!UICONTROL Advanced parameters]** (bottom left) and change the number of lines to retrieve.
 
 ![](assets/s_ncs_user_configurelist_advancedparam.png)
 
-## 목록 구성 {#configuring-lists}
+## Configure lists {#configuring-lists}
 
-### 열 추가 {#add-columns}
+### Add columns {#add-columns}
 
-목록에 열을 추가하는 방법에는 두 가지가 있습니다.
+There are two ways to add a column in a list.
 
-레코드의 세부 정보에서 목록에 열을 빠르게 추가할 수 있습니다. 방법은 다음과 같습니다.
+You can quickly add a column to a list from the detail of a record. To do this:
 
-1. 세부 정보 화면에서 열에 표시할 필드를 마우스 오른쪽 단추로 클릭합니다.
-1. **[!UICONTROL Add in the list]**&#x200B;을(를) 선택합니다.
+1. From a detail screen, right-click the field you want to display in a column.
+1. Select **[!UICONTROL Add in the list]**.
 
-   열이 기존 열의 오른쪽에 추가됩니다.
+   The column is added to the right of the existing columns.
 
 ![](assets/s_ncs_user_add_in_list.png)
 
-예를 들어 세부 정보 화면에 표시되지 않는 데이터를 표시하려는 경우 열을 추가하는 또 다른 방법은 목록 구성 창을 사용하는 것입니다. 방법은 다음과 같습니다.
+Another way to add columns, for example if you want to display data which is not displayed on the detail screen, is to use the list configuration window. To do this:
 
-1. 목록 아래 및 오른쪽에 있는 **[!UICONTROL Configure list]**&#x200B;을(를) 클릭합니다.
+1. Click **[!UICONTROL Configure list]** below and to the right of the list.
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. 목록 구성 창에서 **[!UICONTROL Available fields]** 목록에 추가할 필드를 두 번 클릭하여 **[!UICONTROL Output columns]**&#x200B;에 추가합니다.
+1. In the list configuration window, double-click the field to be added in the **[!UICONTROL Available fields]** list in order to add it to the **[!UICONTROL Output columns]**. 
 
    ![](assets/s_ncs_user_configurelist.png)
 
    >[!NOTE]
    >
-   >기본적으로 고급 필드는 표시되지 않습니다. 이러한 필드를 표시하려면 사용 가능한 필드 목록 아래 및 오른쪽에 있는 **고급 필드 표시**&#x200B;를 클릭하십시오.
+   >By default, advanced fields are not displayed. To display them, click **Display advanced fields** below and to the right of the list of available fields.
    >
-   >레이블은 표로 표시된 다음 알파벳순으로 표시됩니다.
+   >The labels are displayed by table and then in alphabetical order.
    >
-   >**검색** 필드를 사용하여 사용 가능한 필드에서 검색을 실행하십시오. 자세한 내용은 [이 섹션](#sorting-a-list)을 참조하세요.
+   >Use the **Search** field to run a search in the available fields. For further information, refer to [this section](#sorting-a-list).
    >
-   >필드는 SQL 필드, 연결된 테이블, 계산된 필드 등의 특정 아이콘으로 식별됩니다. 선택한 각 필드에 대해 사용 가능한 필드 목록 아래에 설명이 표시됩니다. [자세히 알아보기](#configuring-lists).
+   >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields. [Learn more](#configuring-lists).  
    >
-   >데이터를 정렬 및 필터링할 수도 있습니다. [이 섹션](../../platform/using/filtering-options.md)을 참조하십시오.
+   >You can also sort and filter data. See [this section](../../platform/using/filtering-options.md).
 
-1. 표시할 각 열에 대해 이 작업을 반복합니다.
-1. 화살표를 사용하여 **표시 순서**&#x200B;를 수정합니다. 가장 높은 열은 레코드 목록의 왼쪽에 있습니다.
+1. Repeat for each column to be displayed.
+1. Use the arrows to modify the **display order**. The highest column will be on the left in the list of records.
 
    ![](assets/s_ncs_user_columns_order_down.png)
 
-1. 필요한 경우 **[!UICONTROL Distribution of values]**&#x200B;을(를) 클릭하여 현재 폴더에서 선택한 필드에 대한 값 다시 분할을 볼 수 있습니다.
+1. If you need, you can click **[!UICONTROL Distribution of values]** to view the repartition of values for the selected field in the current folder.
 
    ![](assets/s_ncs_user_configurelist_values.png)
 
-1. 구성을 확인하고 결과를 표시하려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
+1. Click **[!UICONTROL OK]** to confirm the configuration and display the result.
 
-### 새 열 만들기 {#create-a-new-column}
+### Create a new column {#create-a-new-column}
 
-새 열을 만들어 목록에 추가 필드를 표시할 수 있습니다. 방법은 다음과 같습니다.
+You can create new columns to display additional fields in the list. To do this:
 
-1. 목록의 아래쪽과 오른쪽에 있는 **[!UICONTROL Configure the list]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 목록에 새 필드를 표시합니다.
+1. Click **[!UICONTROL Configure the list]** at below and to the right of the list.
+1. Click **[!UICONTROL Add]** to display a new field in the list.
 
-### 열 제거 {#remove-a-column}
+### Remove a column {#remove-a-column}
 
-목록 아래 및 오른쪽에 있는 **[!UICONTROL Configure list]**&#x200B;을(를) 사용하여 레코드 목록에서 하나 이상의 열을 마스킹할 수 있습니다.
+You can mask one or more columns in a list of records using **[!UICONTROL Configure list]** located below and to the right of the list.
 
 ![](assets/s_ncs_user_configure_list.png)
 
-목록 구성 창에서 **[!UICONTROL Output columns]** 영역에서 마스킹할 열을 선택하고 삭제 단추를 클릭합니다.
+In the list configuration window, select the column to be masked from the **[!UICONTROL Output columns]** zone, and click the delete button.
 
 ![](assets/s_ncs_user_removecolumn_icon.png)
 
-마스킹할 각 열에 대해 이 작업을 반복합니다. 구성을 확인하고 결과를 표시하려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
+Repeat for each column to be masked. Click **[!UICONTROL OK]** to confirm the configuration and display the result.
 
-### 열 너비 조정 {#adjust-column-width}
+### Adjust column width {#adjust-column-width}
 
-목록이 활성 상태인 경우(즉, 하나 이상의 줄이 선택된 경우) F9 키를 사용하여 모든 열이 화면에 표시되도록 열의 너비를 조정할 수 있습니다.
+When a list is active, i.e. at least one line is selected, you can use F9 to adjust the width of the columns so that all the columns can be displayed on screen.
 
-### 하위 폴더에 데이터 표시 {#display-sub-folders-records}
+### Display data in sub-folders {#display-sub-folders-records}
 
-목록은 다음을 표시할 수 있습니다.
+Lists can display:
 
-* 선택한 폴더에만 포함된 레코드
-* 또는 선택한 폴더 및 해당 하위 폴더의 레코드입니다.
+* Either the records contained in the selected folder only,
+* Or the records in the selected folder AND its sub-folders.
 
-한 표시 모드에서 다른 표시 모드로 전환하려면 도구 모음에서 **[!UICONTROL Display sub-levels]**&#x200B;을(를) 클릭합니다.
+To switch from one display mode to the other, click **[!UICONTROL Display sub-levels]** in the toolbar.
 
 ![](assets/s_ncs_user_display_children_icon.png)
 
-## 목록 구성 저장 {#saving-a-list-configuration}
+## Save a list configuration {#saving-a-list-configuration}
 
-목록 구성은 워크스테이션 수준에서 로컬로 정의됩니다. 로컬 캐시가 지워지면 로컬 구성이 비활성화됩니다.
+The list configurations are defined locally at the workstation level. When the local cache is cleared, local configurations are disabled.
 
-기본적으로 정의된 디스플레이 매개변수는 해당 폴더 유형을 가진 모든 목록에 적용됩니다. 따라서 폴더에서 수신자 목록이 표시되는 방법을 수정하면 이 구성이 다른 모든 수신자 폴더에 적용됩니다.
+By default, the defined display parameters apply to all lists with the corresponding folder type. Thus, when you modify how the list of recipients is displayed from a folder, this configuration will be applied to all the other recipient folders.
 
-그러나 동일한 유형의 다른 폴더에 적용할 구성을 두 개 이상 저장할 수 있습니다. 구성은 데이터가 포함된 폴더의 속성과 함께 저장되며 다시 적용할 수 있습니다.
+It is, however, possible to save more than one configuration to be applied to different folders of the same type. The configuration is saved with the properties of the folder containing the data and can be reapplied.
 
-예를 들어 게재 폴더의 경우 다음 표시를 구성할 수 있습니다.
+For example, for a delivery folder, it is possible to configure the following display:
 
 ![](assets/s_ncs_user_folder_save_config_1.png)
 
-재사용할 수 있도록 이 목록 구성을 저장하려면 아래 단계를 수행합니다.
+To save this list configuration so that it can be reused, follow the steps below:
 
-1. 표시된 데이터가 포함된 폴더를 마우스 오른쪽 단추로 클릭합니다.
-1. **[!UICONTROL Properties]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Advanced settings]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Configuration]** 필드에 이름을 지정합니다.
+1. Right click the folder containing the displayed data.
+1. Select **[!UICONTROL Properties]**.
+1. Click **[!UICONTROL Advanced settings]** and then specify a name in the **[!UICONTROL Configuration]** field. 
 
    ![](assets/s_ncs_user_folder_save_config_2.png)
 
-1. **[!UICONTROL OK]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. Click **[!UICONTROL OK]** and then click **[!UICONTROL Save]**.
 
-그런 다음 이 구성을 다른 **배달** 폴더에 적용할 수 있습니다.
+You can then apply this configuration to another **Delivery** folder:
 
 ![](assets/s_ncs_user_folder_save_config_3.png)
 
-폴더 속성 창에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 목록 표시가 지정된 구성과 일치하도록 수정됩니다.
+Click **[!UICONTROL Save]** in the folder properties window. The list display is modified to match the specified configuration:
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
-## 목록 내보내기 {#exporting-a-list}
+## Export a list {#exporting-a-list}
 
-목록에서 데이터를 내보내려면 내보내기 도우미를 사용해야 합니다. 액세스하려면 목록에서 내보낼 요소를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **[!UICONTROL Export...]**&#x200B;을(를) 선택합니다.
+To export data from a list, you must use an export assistant. To access it, select the elements to be exported from the list, right-click and select **[!UICONTROL Export...]**.
 
-가져오기 및 내보내기 함수의 사용은 [일반 가져오기 및 내보내기](../../platform/using/about-generic-imports-exports.md)에 설명되어 있습니다.
+The use of the import and export functions is explained in [Generic imports and exports](../../platform/using/about-generic-imports-exports.md).
 
 >[!CAUTION]
 >
->목록의 요소는 복사/붙여넣기 기능을 사용하여 내보낼 수 없습니다.
+>Elements from a list must not be exported using the Copy/Paste function.
 
-## 목록 정렬 {#sorting-a-list}
+## Sort a list {#sorting-a-list}
 
-목록에는 많은 양의 데이터가 포함될 수 있습니다. 이러한 데이터를 정렬하거나 단순 또는 고급 필터를 적용할 수 있습니다. 정렬을 사용하여 데이터를 오름차순 또는 내림차순으로 표시할 수 있습니다. 필터를 사용하면 기준을 정의하고 결합하여 선택한 데이터만 표시할 수 있습니다.
+Lists can contain a large amount of data. You can sort these data or apply simple or advanced filters. Sorting lets you display data in ascending or descending order. Filters let you define and combine criteria to display selected data only.
 
-오름차순 또는 내림차순 정렬을 적용하거나 데이터 정렬을 취소하려면 열 헤더를 클릭합니다. 활성 정렬 상태 및 정렬 순서는 열 레이블 앞에 파란색 화살표로 표시됩니다. 열 레이블 앞에 빨간색 대시가 있으면 데이터베이스에서 인덱싱된 데이터에 정렬이 적용됨을 의미합니다. 이 정렬 방법은 정렬 작업을 최적화하는 데 사용됩니다.
+Click the column header to apply an ascending or descending sort, or to cancel data sorting. Active sort status and sorting order are indicated by a blue arrow before the column label. A red dash before the column label means that the sort is applied to data indexed from the database. This sorting method is used to optimize sort jobs.
 
-정렬을 구성하거나 정렬 기준을 결합할 수도 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
+You can also configure sorting or combine sort criteria. To do this, follow the steps below:
 
-1. **[!UICONTROL Configure list]**(이)가 목록 아래 오른쪽에 있습니다.
+1. **[!UICONTROL Configure list]** below and to the right of the list. 
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. 목록 구성 창에서 **[!UICONTROL Sorting]** 탭을 클릭합니다.
-1. 정렬할 필드와 정렬 방향(오름차순 또는 내림차순)을 선택합니다.
+1. In the list configuration window, click the **[!UICONTROL Sorting]** tab.
+1. Select the fields to sort and the sort direction (ascending or descending).
 
    ![](assets/s_ncs_user_configurelist_sort.png)
 
-1. 정렬 우선순위는 정렬 열의 순서로 정의됩니다. 우선 순위를 변경하려면 해당 아이콘을 사용하여 열의 순서를 변경합니다.
+1. Sort priority is defined by the order of the sort columns. To change the priority, use the appropriate icons to change the order of the columns.
 
    ![](assets/s_ncs_user_configurelist_move.png)
 
-   정렬 우선 순위는 목록의 열 표시에 영향을 주지 않습니다.
+   Sort priority does not affect the display of the columns in the list.
 
-1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭하여 이 구성을 확인하고 결과를 목록에 표시합니다.
+1. Click **[!UICONTROL Ok]** to confirm this configuration and display the result in the list.
 
-### 요소 검색 중 {#running-a-search}
+### Searching elements {#running-a-search}
 
-필드 목록 위에 있는 **[!UICONTROL Search]** 필드를 사용하여 편집기에서 사용 가능한 필드를 검색할 수 있습니다. 키보드에서 **Enter**&#x200B;를 누르거나 목록을 찾아봅니다. 검색과 일치하는 필드에 굵은 레이블이 표시됩니다.
+You can run a search of the available fields in an editor using the **[!UICONTROL Search]** field located above the list of fields. Press **Enter** on the keyboard or browse the list. The fields that match your search will have bold labels.
 
 >[!NOTE]
 >
->필터를 만들어 목록의 일부 데이터만 표시할 수 있습니다. [자세히 알아보기](../../platform/using/creating-filters.md).
+>You can create filters to display only some of the data in a list. [Learn more](../../platform/using/creating-filters.md).
+-->
