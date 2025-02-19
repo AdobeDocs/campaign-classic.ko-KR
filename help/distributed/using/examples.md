@@ -3,8 +3,10 @@ product: campaign
 title: 분산 마케팅 샘플
 description: 분산 마케팅 샘플
 feature: Distributed Marketing
+hide: true
+hidefromtoc: true
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
 workflow-type: tm+mt
 source-wordcount: '1296'
 ht-degree: 0%
@@ -96,7 +98,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Data distribution]** 활동을 만듭니다.
 1. 공동 작업 캠페인을 만듭니다.
-1. Publish 캠페인입니다.
+1. 캠페인을 게시합니다.
 
 ### 로컬 엔티티 측 {#local-entity-side}
 
@@ -157,7 +159,7 @@ ht-degree: 0%
 
 1. 레코드를 저장합니다.
 
-#### 캠페인 Publish {#publishing-the-campaign}
+#### 캠페인 게시 {#publishing-the-campaign}
 
 이제 **[!UICONTROL Campaigns]** 탭에서 **캠페인 패키지**&#x200B;를 추가할 수 있습니다.
 

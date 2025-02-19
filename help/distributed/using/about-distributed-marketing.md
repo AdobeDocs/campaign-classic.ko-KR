@@ -4,10 +4,10 @@ title: 분산 마케팅 시작
 description: 분산 마케팅 시작
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 1%
+source-wordcount: '136'
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 
 
-Adobe Campaign에서는 중앙 엔터티(본사, 마케팅 부서 등) 간의 공동 캠페인을 구현하기 위한 **분산 마케팅** 응용 프로그램을 제공합니다. 공동 캠페인을 실시할 수 있습니다. 이러한 협력은 중앙에서 만든 캠페인 템플릿 및 인스턴스가 로컬 엔터티에 제공되는 공유 작업 공간(**[!UICONTROL list of campaign packages]**)을 기반으로 합니다.
+Adobe Campaign은 중앙 엔터티(본사, 마케팅 부서 등)와 로컬 엔터티(영업 지점, 지역 에이전시 등) 간의 협력 캠페인을 구현하기 위한 **분산 마케팅** 애플리케이션을 제공합니다. 이러한 협력은 중앙에서 만든 캠페인 템플릿 및 인스턴스가 로컬 엔터티에 제공되는 공유 작업 공간(**[!UICONTROL list of campaign packages]**)을 기반으로 합니다.
 
 중앙 엔티티는 로컬 엔티티가 사용할 수 있는 캠페인을 제공합니다. 캠페인은 로컬 또는 공동 작업 캠페인을 나타내는 패키지로 구체화됩니다. 캠페인을 사용하려면 로컬 엔티티가 캠페인을 주문해야 하며 해당 주문이 승인되어야 합니다.
 
@@ -23,141 +23,146 @@ Adobe Campaign에서는 중앙 엔터티(본사, 마케팅 부서 등) 간의 �
 >
 >분산 마케팅 모듈은 **캠페인** 옵션입니다. 사용권 계약을 확인하십시오.
 
-## 용어 {#terminology}
+>[!NOTE]
+>
+>Adobe Campaign용 Distributed Marketing 및 사용 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}를 참조하세요.
 
-* **중앙 엔터티**
+<!--
+## Terminology {#terminology}
 
-  중앙 엔티티는 커뮤니케이션을 지정하고 로컬 엔티티가 마케팅 캠페인을 실행하는 데 도움을 주는 마케팅 운영자로 구성됩니다.
+* **Central entities**
 
-  분산 마케팅 모듈은 중앙 엔티티가 다음과 같은 작업을 수행할 수 있도록 합니다.
+   Central entities are made up of marketing operators in charge of specifying communications and assisting local entities in executing their marketing campaign.
 
-   * 로컬 엔티티에 대한 마케팅 캠페인 패키지 설정,
-   * 고객/잠재 고객 커뮤니케이션, 타기팅, 콘텐츠 등의 선택에 대한 로컬 엔티티의 자율성 정도를 높입니다.
-   * 비용 관리 및 제어,
-   * 에이전시 네트워크를 처리합니다.
+   The distributed marketing module allows the central entity to:
 
-* **로컬 엔터티**
+   * set up marketing campaign packages for local entities,
+   * increase local entities' degree of autonomy regarding their choice in customer/prospect communication, targeting, content, etc.
+   * manage and control costs, 
+   * handle a network of agencies.
 
-  지역 주체는 특정 지역 운영자(국가 또는 지역 관리자, 브랜드 관리자 등)의 에이전시, 스토어 또는 그룹이 될 수 있다.
+* **Local entities**
 
-  분산 마케팅을 통해 로컬 엔티티는 실행 비용을 최적화하는 동시에 더 많은 자율성을 가질 수 있습니다.
+   Local entities can be agencies, stores or groups of specific local operators (country or regional managers, brand managers, etc.).
 
-* **로컬라이제이션**
+   Distributed Marketing allows local entities to have more autonomy while optimizing execution costs.
 
-  로컬라이제이션은 로컬 엔티티가 캠페인의 대상과 콘텐츠를 수정할 수 있는 기능입니다. 가능한 현지화 수준은 캠페인 유형 및 해당 구현에 따라 다릅니다.
+* **Localization**
 
-* **캠페인 패키지 목록**
+   Localization is the capacity for a local entity to modify the target and content of a campaign. The possible level of localization depends on the type of campaign and its implementation.
 
-  캠페인 패키지 목록에는 로컬 엔티티에서 사용할 수 있는 캠페인이 포함되어 있습니다.
+* **List of campaign packages**
 
-* **캠페인 패키지**
+   The list of campaign packages contains the campaigns available to local entities.
 
-  중앙 엔티티에 의해 만들어지고 로컬 엔티티 세트에서 사용할 수 있는 템플릿(또는 캠페인 인스턴스)입니다.
+* **Campaign package**
 
-* **로컬 캠페인**
+   Template (or campaign instance) created by a central entity and made available to a set of local entities.
 
-  로컬 캠페인은 **특정 실행 일정**&#x200B;을(를) 사용하여 **[!UICONTROL campaign packages]** 목록에서 참조된 템플릿에서 만든 인스턴스입니다. 중앙 엔티티에 의해 설정 및 구성된 캠페인 템플릿을 사용하여 로컬 통신 요구 사항을 충족하는 것이 목표입니다.
+* **Local campaign**
 
-  지방자치 단체의 자치 정도는 이용하는 실시에 따라 달라진다.
+   A local campaign is an instance created from a template referenced in the list of **[!UICONTROL campaign packages]** with a **specific execution schedule**. Its aim is to meet a local communication need using a campaign template that was set up and configured by the central entity.
 
-  [로컬 캠페인 만들기](creating-a-local-campaign.md)를 참조하세요.
+   The local entity's degree of autonomy depends on the implementation used.
 
-* **공동 작업 캠페인**
+   Refer to [Creating a local campaign](creating-a-local-campaign.md).
 
-  공동 작업 캠페인은 중앙 엔터티에서 **실행 일정을 정의**&#x200B;하는 캠페인으로, 로컬 엔터티에서 사용할 수 있습니다. 콘텐츠는 각 로컬 엔티티에 대해 동일하게 유지되지만 비용은 공유됩니다. 참여하기 위해 로컬 엔티티는 공동 작업 캠페인에 가입합니다.
+* **Collaborative campaign**
 
-   * **[!UICONTROL Collaborative campaign (by form)]**: 최대 300개의 로컬 엔터티를 포함하는 캠페인에 권장됩니다. 로컬 엔티티는 웹 양식에 타겟팅 및 콘텐츠 개인화를 위한 사전 정의된 매개 변수를 입력할 수 있습니다. 양식은 Adobe Campaign 양식 또는 외부 양식(엑스트라넷 클라이언트)일 수 있습니다. 기능 관리자는 통합자가 정의한 양식 템플릿을 기반으로 양식을 정의하고 구성할 수 있습니다. 캠페인을 주문하려면 로컬 엔티티에 웹 액세스만 하면 됩니다.
-   * **[!UICONTROL Collaborative campaign (by campaign)]**: 수십 개의 로컬 엔터티를 대상으로 하는 캠페인에 대해 권장됩니다. 이 유형의 캠페인은 각 로컬 엔티티에 대해 하위 캠페인을 만듭니다. 중앙 엔터티에서 **[!UICONTROL collaborative campaign (by campaign)]**&#x200B;을(를) 승인하면 로컬 엔터티에서 캠페인을 사용할 수 있으며, 로컬 엔터티는 수정할 수 있습니다. 상위 캠페인과 하위 캠페인 간에 실행이 자동으로 동기화됩니다. 캠페인을 주문하고 참여하려면 로컬 엔티티에 인스턴스에 대한 액세스 권한이 있어야 합니다.
-   * **[!UICONTROL Collaborative campaign (by target approval)]**: 수천 개의 로컬 엔터티를 대상으로 하는 캠페인에 권장됩니다. 로컬 엔티티는 중앙 엔티티에 의해 미리 정의된 연락처 목록을 수신한다. 로컬 엔티티는 웹 양식을 통해 캠페인 콘텐츠에 따라 특정 연락처를 유지할지 여부를 결정합니다. 선택한 연락처 목록에서 로컬 엔티티를 추론합니다. 캠페인에 참여하려면 로컬 엔티티에 웹 액세스만 하면 됩니다.
-   * **[!UICONTROL Collaborative campaign (simple)]**: 이 모드는 이전 버전의 특정 실행 프로세스와의 호환성을 보장합니다.
+   A collaborative campaign is a campaign whose **execution schedule is defined** by the central entity, which the local entity may use. The content remains the same for each local entity but costs are shared. To take part, local entities subscribe to the collaborative campaign.
 
-  [공동 작업 캠페인 만들기](creating-a-collaborative-campaign.md)를 참조하세요.
+   * **[!UICONTROL Collaborative campaign (by form)]**: recommended for campaigns involving up to 300 local entities. The local entity can enter predefined parameters for targeting and content personalization in a web form. The form can be an Adobe Campaign form or an external form (extranet client). A functional administrator can define and configure the form based on a form template defined by the integrator. To order the campaign, the local entity just needs web access.
+   * **[!UICONTROL Collaborative campaign (by campaign)]**: recommended for campaigns aimed at dozens of local entities. This type of campaign creates child campaigns for each local entity. Once the **[!UICONTROL collaborative campaign (by campaign)]** is approved by the central entity, the campaign is made available to the local entity, who can modify it. Execution is automatically synched between parent and child campaigns. The local entity must have access to an instance to order a campaign and participate in it.
+   * **[!UICONTROL Collaborative campaign (by target approval)]**: recommended for campaigns aimed at several thousand local entities. Local entity receives a contact list that has been predefined by the central entity. The local entity decides whether or not to keep certain contacts based on the campaign content, via a web form. Local entities are deduced from the list of selected contacts. To participate in the campaign, the local entity just needs web access.
+   * **[!UICONTROL Collaborative campaign (simple)]**: this mode ensures compatibility with the specific execution processes of previous versions.
 
-**캠페인 패키지 순서 지정**
+   Refer to [Creating a collaborative campaign](creating-a-collaborative-campaign.md).
 
-로컬 엔티티가 캠페인에 등록하는 경우 캠페인 현지화에 대한 모든 정보를 다시 그룹화하는 순서로 수행됩니다.
+**Ordering campaign packages**
 
-## 작업 영역 {#workspace}
+   If a local entity registers for a campaign this is made into an order which regroups all information relative to the campaign localization.
 
-캠페인 패키지 목록은 **캠페인** 탭에서 액세스할 수 있습니다. **[!UICONTROL Campaign packages]** 링크를 클릭하십시오.
+## Workspace {#workspace}
+
+The list of campaign packages can be accessed from the **Campaigns** tab: click the **[!UICONTROL Campaign packages]** link.
 
 ![](assets/mkg_dist_home_local_op.png)
 
-이 창에서는 모든 로컬 운영자가 로컬 에이전시에서 사용할 수 있는 캠페인을 볼 수 있습니다.
+This window allows all local operators to view the campaigns available for their local agency.
 
-중앙 에이전시의 경우, 이 창에는 캠페인 패키지 목록에서 사용할 수 있는 모든 패키지가 표시되며, 목록 편집에 대한 추가 링크를 제공합니다.
+In the case of central agencies, this window displays all packages available in the list of campaign packages and offers additional links for editing the list.
 
-## 연산자 및 엔티티 {#operators-and-entities}
+## Operators and entities {#operators-and-entities}
 
-**[!UICONTROL Access management]** 폴더를 통해 중앙 및 로컬 엔터티 연산자를 지정하여 시작합니다.
+Start by specifying the central and local entity operators via the **[!UICONTROL Access management]** folder.
 
 ![](assets/s_advuser_mkg_dist_tree.png)
 
-### 연산자 {#operators}
+### Operators {#operators}
 
-중앙 및 로컬 연산자를 만들어야 합니다.
+You need to create central and local operators.
 
-Central 연산자는 **[!UICONTROL Central management]** 연산자 그룹에 속하거나 **[!UICONTROL CENTRAL]** 명명된 권한이 있어야 합니다.
+Central operators must belong to the **[!UICONTROL Central management]** operator group or have the **[!UICONTROL CENTRAL]** named right.
 
-로컬 연산자는 **[!UICONTROL Local management]** 연산자 그룹에 속하거나 **[!UICONTROL LOCAL]** 명명된 권한이 있어야 합니다. 또한 로컬 엔티티에 연결되어 있어야 합니다.
+Local operators must belong to the **[!UICONTROL Local management]** operator group or have the **[!UICONTROL LOCAL]** named right. They must also be linked to their local entity.
 
 ![](assets/s_advuser_mkg_dist_local_create.png)
 
-### 조직 엔티티 {#organizational-entities}
+### Organizational entities {#organizational-entities}
 
-조직 엔터티를 만들려면 **[!UICONTROL Administration > Access management > Organizational entities]** 노드를 클릭하고 엔터티 목록 위에 있는 **[!UICONTROL New]** 아이콘을 클릭합니다.
+To create an organizational entity, click the **[!UICONTROL Administration > Access management > Organizational entities]** node and click the **[!UICONTROL New]** icon above the list of entities.
 
 ![](assets/s_advuser_mkg_dist_local_list.png)
 
-각 조직 엔티티는 식별 정보(레이블, 내부 이름, 연락처 정보 등)를 포함합니다. 및 주문 승인 프로세스와 관련된 그룹입니다. 이는 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL Notifications and approvals]** 섹션에 정의되어 있습니다.
+Each organizational entity contains identification information (label, internal name, contact information, etc.) and groups involved in the order approval process. These are defined in the **[!UICONTROL Notifications and approvals]** section found in the **[!UICONTROL General]** tab.
 
-* 패키지 알림 그룹 정의: 이 그룹의 운영자는 캠페인 패키지 목록에 새 패키지가 추가되고 캠페인을 사용할 수 있을 때마다 알림을 받게 됩니다.
-* 주문 승인 담당 검토자 그룹(예: 로컬 엔티티에서 주문하는 캠페인 승인 담당 그룹을 선택합니다.
-* 마지막으로 로컬 캠페인 승인 담당 검토자 그룹(대상, 콘텐츠, 예산 등)을 선택합니다. 이 그룹은 템플릿에 따라 캠페인 주문 시에 추가될 수 있습니다.
+* Define a package notification group: operators in this group will receive a notification each time a new package is added to the list of campaign packages and each time a campaign becomes available.
+* Select the group of reviewers in charge of approving orders, i.e. those in charge of approving campaigns ordered by the local entity.
+* Finally, select the group of reviewers in charge of approving the local campaign (target, content, budget, etc.). This group may be added to when ordering a campaign, depending on the template.
 
 >[!NOTE]
 >
->승인 프로세스는 [승인 프로세스](creating-a-local-campaign.md#approval-process) 섹션에 표시됩니다.
+>The approval process is presented in the [Approval process](creating-a-local-campaign.md#approval-process) section.
 
-## 구현 {#implementation}
+## Implementation {#implementation}
 
-분산 마케팅 캠페인은 중앙 엔티티에 의해 생성 및 게시됩니다. 필요에 따라 로컬 및 중앙 엔티티에 의해 사용될 수 있습니다.
+Distributed Marketing campaigns are created and published by the central entity. They may be used by both local and central entities as needed.
 
-구현 절차는 사용된 캠페인 패키지 유형 및 로컬 엔티티 위임 수준에 따라 다릅니다.
+The implementation procedure depends on the type of campaign package used and the local entity delegation levels.
 
-### 통합자 작업 {#integrator-side}
+### Integrator tasks {#integrator-side}
 
-1. 로컬 엔티티를 생성합니다.
-1. 수신자를 로컬 엔티티를 관리하는 연산자와 연결합니다.
+1. Create local entities.
+1. Link recipients with the operators that manage local entities.
 
    ![](assets/mkg_dist_local_entity_association.png)
 
-1. 로컬 엔티티에 대한 권한 및 검색 규칙 지정
-1. 캠페인 현지화에 필요한 필드 세트를 지정합니다.
+1. Specify rights and browsing rules for local entities
+1. Specify the set of fields necessary for campaign localization:
 
-   * 대상 정의 및 최대 크기,
-   * 콘텐츠 정의,
-   * 실행 일정(연락 날짜 및 추출 날짜), **로컬 운영자만 해당**,
-   * 필요한 모든 추가 필드가 포함된 주문 스키마 확장명.
+    * target definition and maximum size,
+    * content definition,
+    * execution schedule (contact date and extraction date), **for local operators only**,
+    * extension of order schema with all necessary additional fields.
 
-1. 현지화 매개 변수를 표시하고, 타겟과 예산을 평가하고, 콘텐츠를 미리 보고, 주문을 승인할 수 있는 웹 양식(Adobe 또는 엑스트라넷)을 만듭니다.
+1. Create a web form (Adobe or extranet) that allows you to display localization parameters, evaluate the target and budget, as well as preview the content and approve the order.
 
-   **공동 작업 캠페인(대상 승인별)**&#x200B;의 경우 각 로컬 엔터티에 대한 승인을 저장할 테이블을 만드십시오.
+   For **collaborative campaigns (by target approval)**, create the table where the approvals for each local entity will be saved.
 
-### 기능 관리자 작업 {#functional-administrator-side}
+### Functional administrator tasks {#functional-administrator-side}
 
-각 캠페인을 만들 때 다음 단계를 수행해야 합니다.
+These steps must be carried out when creating each campaign.
 
-1. 캠페인 현지화에 사용되는 필드를 사용하여 양식을 업데이트합니다.
-1. 적절한 캠페인 템플릿(공동 작업 캠페인)에서 인스턴스를 만들거나 캠페인 템플릿(로컬 캠페인)을 복제합니다.
-1. 현지화 필드 및 양식 참조로 캠페인을 구성합니다.
-1. Publish 캠페인입니다.
+1. Update the form with the fields used for campaign localization.
+1. Create an instance from an appropriate campaign template (collaborative campaign) or duplicate the campaign template (local campaign).
+1. Configure the campaign with the localization fields and the form reference.
+1. Publish the campaign.
 
-### 로컬 운영자 작업 {#local-operator-side}
+### Local operator tasks {#local-operator-side}
 
-각 캠페인에 대해 이러한 단계를 수행해야 합니다.
+These steps must be carried out for each campaign.
 
-1. 캠페인 패키지의 사용 가능 여부에 대한 알림을 받으면 캠페인의 위치를 지정합니다(선택 사항).
-1. 목표, 예산 등을 평가합니다.
-1. 캠페인 콘텐츠를 미리 봅니다.
-1. 캠페인을 주문합니다.
+1. Once you receive notification of the campaign package's availability, specify the campaign's location (optional).
+1. Evaluate the target, the budget, etc.
+1. Preview campaign content.
+1. Order the campaign. --!>

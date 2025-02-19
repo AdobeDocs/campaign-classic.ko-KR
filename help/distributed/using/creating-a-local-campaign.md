@@ -3,8 +3,10 @@ product: campaign
 title: 로컬 캠페인 만들기
 description: 로컬 캠페인 만들기
 feature: Distributed Marketing
+hide: true
+hidefromtoc: true
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 1%
@@ -105,7 +107,7 @@ ht-degree: 1%
 
 ### 문서 {#documents}
 
-로컬 엔티티 운영자가 문서(텍스트 파일, 스프레드시트, 이미지, 캠페인 설명 등)를 연결할 수 있도록 할 수 있습니다. 주문을 생성할 때 로컬 캠페인에 사용됩니다. **[!UICONTROL Advanced parameters for campaign entry...]** 링크를 사용하여 문서 수를 제한할 수 있습니다. 이렇게 하려면 **[!UICONTROL Number of documents]** 필드에 허용된 최대 수를 입력하기만 하면 됩니다.
+순서를 생성할 때 로컬 엔티티 운영자가 문서(텍스트 파일, 스프레드시트, 이미지, 캠페인 설명 등)를 로컬 캠페인에 연결할 수 있도록 할 수 있습니다. **[!UICONTROL Advanced parameters for campaign entry...]** 링크를 사용하여 문서 수를 제한할 수 있습니다. 이렇게 하려면 **[!UICONTROL Number of documents]** 필드에 허용된 최대 수를 입력하기만 하면 됩니다.
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 
@@ -145,7 +147,7 @@ ht-degree: 1%
 
 ![](assets/mkg_dist_local_op_creation4e.png)
 
-게재 HTML을 찾습니다. 예를 들어 **[!UICONTROL Delivery > Current order > Additional fields]**&#x200B;에서 **[!UICONTROL Age segment]** 필드를 사용하여 대상 기간에 따라 게재를 찾습니다.
+게재의 HTML을 찾습니다. 예를 들어 **[!UICONTROL Delivery > Current order > Additional fields]**&#x200B;에서 **[!UICONTROL Age segment]** 필드를 사용하여 대상 기간에 따라 게재를 찾습니다.
 
 ![](assets/mkt_dist_local_campaign_localize_html.png)
 
