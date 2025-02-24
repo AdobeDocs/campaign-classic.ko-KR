@@ -8,16 +8,17 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 813ef65ff45407a92c5f9d7f3d07189972a5742b
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 0%
+source-wordcount: '166'
+ht-degree: 3%
 
 ---
 
 # 필터 만들기{#creating-filters}
 
 
+데이터 필터링은 데이터 세트에서 작은 부분, 특정 기준과 일치하는 레코드만 선택하고 특정 작업(업데이트, 대상 만들기) 또는 분석에 해당 하위 집합을 사용하는 프로세스입니다.
 
 홈 페이지의 **[!UICONTROL Explorer]** 메뉴에서 Adobe Campaign 트리를 탐색하면 데이터베이스에 포함된 데이터가 목록에 표시됩니다. 이러한 목록은 연산자가 필요로 하는 데이터만 표시하도록 구성할 수 있다. 그런 다음 필터링된 데이터에 대해 작업을 실행할 수 있습니다. 필터 구성을 통해 **[!UICONTROL dynamically]** 목록에서 데이터를 선택할 수 있습니다. 데이터가 수정되면 필터링된 데이터가 업데이트됩니다.
 
@@ -25,357 +26,365 @@ ht-degree: 0%
 >
 >사용자 인터페이스 구성 설정은 장치 수준에서 로컬로 정의됩니다. 특히 데이터를 새로 고칠 때 문제가 발생하는 경우 이 데이터를 정리해야 하는 경우가 있습니다. 이렇게 하려면 **[!UICONTROL File > Clear the local cache]** 메뉴를 사용합니다.
 
-## 사용 가능한 필터의 유형화 {#typology-of-available-filters}
+>[!NOTE]
+>
+>필터 및 사용 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}를 참조하세요.
 
-Adobe Campaign을 사용하면 데이터 목록에 필터를 적용할 수 있습니다.
 
-이러한 필터는 한 번 사용하거나 나중에 사용할 수 있도록 저장할 수 있습니다. 여러 필터를 동시에 적용할 수 있습니다.
+<!--
 
-Adobe Campaign에서는 다음 필터 유형을 사용할 수 있습니다.
+## Typology of available filters {#typology-of-available-filters}
 
-* **기본 필터**
+Adobe Campaign lets you apply filters to data lists.
 
-  **기본 필터**&#x200B;은(는) 목록 위에 있는 필드를 통해 액세스할 수 있습니다. 사전 정의된 필드를 필터링할 수 있습니다(수신자 프로필의 경우 기본적으로 이름과 이메일 주소). 필드를 사용하여 필터링할 문자를 입력하거나 드롭다운 목록에서 필터 조건을 선택할 수 있습니다.
+These filters can be used once, or you can save them for future use. You can apply several filters at the same time.
+
+The following filter types are available in Adobe Campaign:
+
+* **Default filters**
+
+  The **default filter** is accessible via the fields located above the lists. It lets you filter on predefined fields (for recipient profiles, these are the name and email address by default). You can use the fields to enter the characters to filter on or to selection the filter conditions from a drop-down list.
 
   ![](assets/filters_recipient_default_filter.png)
 <!--
   >[!NOTE]
   >
   >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an email address in the domain "yahoo.com".
--->
-목록의 기본 필터를 변경할 수 있습니다. 자세한 내용은 [기본 필터 변경](#altering-the-default-filter)을 참조하세요.
 
-* **단순 필터**
+  You can change the default filter of a list. For more on this, refer to [Change the default filter](#altering-the-default-filter).
 
-  **단순 필터**&#x200B;은(는) 열에서 일회성 필터입니다. 표시된 열에 하나 이상의 단순 검색 기준으로 정의됩니다.
+* **Simple filters**
 
-  동일한 데이터 목록에서 여러 개의 간단한 필터를 결합하여 검색을 구체화할 수 있습니다. 필터 필드는 다른 필드 아래에 표시됩니다. 이러한 파일은 서로 독립적으로 삭제할 수 있습니다.
+  **Simple filters** are one-off filters on the columns. They are defined with one or more simple search criteria on the displayed columns.
+
+  You can combine several simple filters on the same data list to refine your search. The filter fields are displayed one beneath the other. They can be deleted independently of each other.
 
   ![](assets/filters_recipient_simple_filter.png)
 
-  단순 필터는 [단순 필터 만들기](#creating-a-simple-filter)에 자세히 설명되어 있습니다.
+  Simple filters are detailed in [Create a simple filter](#creating-a-simple-filter).
 
-* **고급 필터**
+* **Advanced filters**
 
-  **고급 필터**&#x200B;은(는) 데이터에 대한 쿼리 또는 쿼리 조합을 사용하여 만들어집니다.
+  **Advanced filters** are created using a query or a combination of queries on the data.
 
-  고급 필터를 만드는 방법에 대한 자세한 내용은 [고급 필터 만들기](#creating-an-advanced-filter)를 참조하세요.
+  For more on creating an advanced filter, refer to [Create an advanced filter](#creating-an-advanced-filter).
 
-  함수를 사용하여 필터의 콘텐츠를 정의할 수 있습니다. 자세한 내용은 [함수를 사용하여 고급 필터 만들기](#creating-an-advanced-filter-with-functions)를 참조하세요.
+  You can use functions to define the content of the filter. For more on this, refer to [Create an advanced filter with functions](#creating-an-advanced-filter-with-functions).
 
   >[!NOTE]
   >
-  >Adobe Campaign에서 쿼리를 작성하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/about-queries-in-campaign.md)을 참조하세요.
+  >For more on building queries in Adobe Campaign, refer to [this section](../../platform/using/about-queries-in-campaign.md).
 
-* **사용자 필터**
+* **User filters**
 
-  **응용 프로그램 필터**&#x200B;은(는) 저장된 고급 필터로서, 이 필터를 사용하여 다른 연산자와 구성을 공유할 수 있습니다.
+  An **application filter** is an advanced filter that has been saved, to use and share its configuration with the other operators.
 
-  목록 위에 있는 **[!UICONTROL Filters]** 단추는 필터링을 세분화하기 위해 결합할 수 있는 응용 프로그램 필터 집합을 제공합니다. 이러한 필터를 만드는 방법은 [필터 저장](#saving-a-filter)에 나와 있습니다.
+  The **[!UICONTROL Filters]** button located above the lists offers a set of application filters that can be combined to refine the filtering. The method for creating these filters is presented in [Save a filter](#saving-a-filter).
 
-## 기본 필터 변경 {#altering-the-default-filter}
+## Change the default filter {#altering-the-default-filter}
 
-받는 사람 목록의 기본 필터를 변경하려면 트리의 **[!UICONTROL Profiles and Targets > Pre-defined filters]** 노드를 클릭하십시오.
+To change the default filter for a recipient list, click the **[!UICONTROL Profiles and Targets > Pre-defined filters]** node of the tree.
 
-다른 모든 데이터 형식의 경우 **[!UICONTROL Administration > Configuration > Predefined filters]** 노드를 통해 기본 필터를 구성하십시오.
+For all other types of data, configure the default filter via the **[!UICONTROL Administration > Configuration > Predefined filters]** node.
 
-다음 단계를 적용합니다.
+Apply the following steps:
 
-1. 기본적으로 사용할 필터를 선택합니다.
-1. **[!UICONTROL Parameters]** 탭을 클릭하고 **[!UICONTROL Default filter for the associated document type]**&#x200B;을(를) 선택합니다.
+1. Select the filter you want to be used by default.
+1. Click the **[!UICONTROL Parameters]** tab and select **[!UICONTROL Default filter for the associated document type]**.
 
    ![](assets/s_ncs_user_default_filter.png)
 
    >[!CAUTION]
    >
-   >기본 필터가 이미 목록에 적용된 경우 새 필터를 적용하기 전에 비활성화해야 합니다. 이렇게 하려면 필터링 필드 오른쪽에 있는 빨간색 십자가를 클릭합니다.
+   >If a default filter is already applied to the list, you need to disable it before applying a new filter. To do this, click the red cross to the right of the filtering fields.
 
-1. 필터를 적용하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
+1. Click **[!UICONTROL Save]** to apply the filter.
 
    >[!NOTE]
    >
-   >필터 정의 창은 [고급 필터 만들기](#creating-an-advanced-filter) 및 [필터 저장](#saving-a-filter)에 자세히 설명되어 있습니다.
+   >The filter definition window is detailed in [Create an advanced filter](#creating-an-advanced-filter) and [Save a filter](#saving-a-filter).
 
-## 간단한 필터 만들기 {#creating-a-simple-filter}
+## Create a simple filter {#creating-a-simple-filter}
 
-**단순 필터**&#x200B;를 만들려면 다음 단계를 적용하십시오.
+To create a **simple filter**, apply the following steps:
 
-1. 필터링할 필드를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Filter on this field]**&#x200B;을(를) 선택합니다.
+1. Right-click the field you want to filter and select **[!UICONTROL Filter on this field]**.
 
    ![](assets/s_ncs_user_sort_this_field.png)
 
-   기본 필터 필드가 목록 위에 표시됩니다.
+   The default filter fields are displayed above the list.
 
-1. 드롭다운 목록에서 필터 옵션을 선택하거나 적용할 필터 기준을 입력합니다(기준을 선택하거나 입력하는 방법은 필드 유형(텍스트, 열거 등)에 따라 다릅니다).
+1. Select the filter option from the drop-down list, or enter the filter criteria to apply (the method for selecting or entering criteria depends on the type of field: text, enumerated, etc.).
 
    ![](assets/s_ncs_user_sort_fields.png)
 
-1. 필터를 활성화하려면 키보드에서 Enter 키를 누르거나 필터 필드의 오른쪽에 있는 녹색 화살표를 클릭합니다.
+1. To activate the filter, press Enter on the keyboard, or click the green arrow to the right of the filter fields.
 
-데이터를 필터링할 필드가 프로필 형태로 표시되지 않으면 표시된 열에 추가한 다음 해당 열을 필터링할 수 있습니다. 이렇게 하려면,
+If the field on which you want to filter the data is not displayed in the form of the profile, you can add it in the columns displayed, then filter on that column. To do this,
 
-1. **[!UICONTROL Configure the list]** 아이콘을 클릭합니다.
+1. Click the **[!UICONTROL Configure the list]** icon.
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. 표시할 열(예: 수신자 연령)을 선택합니다.
+1. Select the column to be displayed, for example the age of the recipients.
 
    ![](assets/s_ncs_user_select_fields_to_display.png)
 
-1. 받는 사람 목록에서 **나이** 열을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Filter on this column]**&#x200B;을(를) 선택합니다.
+1. Right-click the **Age** column in the recipient list, and select **[!UICONTROL Filter on this column]**.
 
    ![](assets/s_ncs_user_sort_this_column.png)
 
-   그런 다음 연령 필터링 옵션을 선택할 수 있습니다.
+   You can then select the age filtering options.
 
    ![](assets/s_ncs_user_delete_filter.png)
 
-## 고급 필터 만들기 {#creating-an-advanced-filter}
+## Create an advanced filter {#creating-an-advanced-filter}
 
-**고급 필터**&#x200B;를 만들려면 다음 단계를 적용하십시오.
+To create an **advanced filter**, apply the following steps:
 
-1. **[!UICONTROL Filters]** 단추를 클릭하고 **[!UICONTROL Advanced filter...]**&#x200B;을(를) 선택합니다.
+1. Click the **[!UICONTROL Filters]** button and select **[!UICONTROL Advanced filter...]**. 
 
    ![](assets/filters_recipient_create_adv_filter.png)
 
-   필터링할 데이터 목록을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Advanced filter...]**&#x200B;을(를) 선택할 수도 있습니다.
+   You can also right-click the list of data to filter and select **[!UICONTROL Advanced filter...]**.
 
-   필터링 조건 정의 창이 표시됩니다.
+   The filtering condition definition window is displayed.
 
-1. **[!UICONTROL Expression]** 열을 클릭하여 입력 값을 정의합니다.
-1. 필터를 적용할 필드를 선택하려면 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭하십시오.
+1. Click the **[!UICONTROL Expression]** column to define the input value.
+1. Click **[!UICONTROL Edit expression]** to select the field to which the filter will be applied.
 
    ![](assets/s_user_filter_choose_field.png)
 
-1. 목록에서 데이터를 필터링할 필드를 선택합니다. **[!UICONTROL Finish]**&#x200B;을(를) 클릭하여 확인합니다.
-1. **[!UICONTROL Operator]** 열을 클릭하고 드롭다운 목록에서 적용할 연산자를 선택합니다.
-1. **[!UICONTROL Value]** 열에서 예상 값을 선택하십시오. 여러 필터를 결합하여 쿼리를 구체화할 수 있습니다. 필터 조건을 추가하려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+1. From the list, select the field on which data will be filtered. Click **[!UICONTROL Finish]** to confirm.
+1. Click the **[!UICONTROL Operator]** column and select the operator to be applied from the drop-down list.
+1. Select an expected value from the **[!UICONTROL Value]** column. You can combine several filters to refine your query. To add a filter condition, click **[!UICONTROL Add]**.
 
    ![](assets/s_ncs_user_filter_add_button_alone.png)
 
-1. 표현식에 계층을 지정하거나 도구 모음 화살표를 사용하여 쿼리 표현식의 순서를 변경할 수 있습니다.
-1. 표현식 사이의 기본 연산자는 **And**&#x200B;이지만 필드를 클릭하여 변경할 수 있습니다. **Or** 연산자를 선택할 수 있습니다.
+1. You can assign a hierarchy to the expressions or change the order of the query expressions using the toolbar arrows.
+1. The default operator between expressions is **And**, but you can change this by clicking the field. You can select an **Or** operator.
 
    ![](assets/s_ncs_user_filter_operator.png)
 
-1. **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 필터 만들기를 확인하고 목록에 적용합니다.
+1. Click **[!UICONTROL OK]** to confirm filter creation and apply it to the list.
 
-적용된 필터가 목록 위에 표시됩니다.
+The filter applied is displayed above the list.
 
 ![](assets/s_ncs_user_filter_adv_edit.png)
 
-이 필터를 편집하거나 수정하려면 해당 레이블을 클릭합니다.
+To edit or modify this filter, click its label.
 
-이 필터를 취소하려면 필터 오른쪽에 있는 **[!UICONTROL Remove this filter]** 아이콘을 클릭합니다.
+To cancel this filter, click the **[!UICONTROL Remove this filter]** icon to the right of the filter.
 
 ![](assets/s_ncs_user_filter_adv_remove.png)
 
-고급 필터를 저장하여 나중에 사용할 수 있도록 유지할 수 있습니다. 이 필터 유형에 대한 자세한 내용은 [필터 저장](#saving-a-filter)을 참조하세요.
+You can save an advanced filter to keep it for future use. For further information about this type of filter, see [Save a filter](#saving-a-filter).
 
-### 함수를 사용하여 고급 필터 만들기 {#creating-an-advanced-filter-with-functions}
+### Create an advanced filter with functions {#creating-an-advanced-filter-with-functions}
 
-고급 필터에서는 함수를 사용할 수 있습니다. **함수가 있는 필터**&#x200B;는 데이터베이스 데이터와 고급 함수를 사용하여 수식을 만들 수 있는 식 편집기를 통해 만들어집니다. 함수가 있는 필터를 만들려면 고급 필터 만들기 단계 1, 2 및 3을 반복한 후 다음과 같이 진행합니다.
+Advanced filters can use functions; **filters with functions** are created via an expression editor that lets you create formulas using the database data and advanced functions. To create a filter with functions, repeat advanced filter creation steps 1, 2 and 3, then proceed as follows:
 
-1. 필드 선택 창에서 **[!UICONTROL Advanced selection]**&#x200B;을(를) 클릭합니다.
-1. 사용할 공식 유형(집계, 기존 사용자 필터 또는 표현식)을 선택합니다.
+1. In the field selection window, click **[!UICONTROL Advanced selection]**.
+1. Select the type of formula to be used: aggregate, existing user filter or expression.
 
    ![](assets/s_ncs_user_filter_formula_select.png)
 
-   다음 옵션을 사용할 수 있습니다.
+   The following options are available:
 
-   * 필드를 선택하려면 **[!UICONTROL Field only]**&#x200B;하세요. 기본 모드입니다.
-   * **[!UICONTROL Aggregate]**&#x200B;을(를) 사용하여 사용할 집계 수식(개수, 합계, 평균, 최대, 최소)을 선택합니다.
-   * **[!UICONTROL User filter]**&#x200B;을(를) 클릭하여 기존 사용자 필터 중 하나를 선택합니다. 사용자 필터는 [필터 저장](#saving-a-filter)에 자세히 설명되어 있습니다.
-   * **[!UICONTROL Expression]**&#x200B;하여 표현식 편집기에 액세스할 수 있습니다.
+    * **[!UICONTROL Field only]** to select a field. This is the default mode. 
+    * **[!UICONTROL Aggregate]** to select the aggregate formula to be used (counts, sum, average, maximum, minimum).
+    * **[!UICONTROL User filter]** to select one of the existing user filters. User filters are detailed in [Save a filter](#saving-a-filter).
+    * **[!UICONTROL Expression]** to access the expressions editor.
 
-     표현식 편집기를 사용하여 고급 필터를 정의할 수 있습니다. 다음과 같습니다.
+      The expression editor lets you define an advanced filter. It looks like this:
+    
+      ![](assets/s_ncs_user_create_exp_exple01.png)
 
-     ![](assets/s_ncs_user_create_exp_exple01.png)
+      It lets you select fields in the database tables and attach advanced functions to them: Select the function to use in the **[!UICONTROL List of functions]**. The functions available are detailed in [List of functions](../../platform/using/defining-filter-conditions.md#list-of-functions). Next, select the field or fields concerned by the functions and click **[!UICONTROL OK]** to approve the expression.
 
-     데이터베이스 테이블에서 필드를 선택하고 고급 함수를 연결할 수 있습니다. **[!UICONTROL List of functions]**&#x200B;에서 사용할 함수를 선택하십시오. 사용 가능한 함수는 [함수 목록](../../platform/using/defining-filter-conditions.md#list-of-functions)에 자세히 설명되어 있습니다. 그런 다음 함수에 관련된 필드를 선택하고 **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 식을 승인합니다.
+      >[!NOTE]
+      >
+      >For an example of filter creation based on an expression, refer to [this section](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
 
-     >[!NOTE]
-     >
-     >식을 기반으로 필터를 만드는 예를 보려면 [이 섹션](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is)을 참조하세요.
+## Save a filter {#saving-a-filter}
 
-## 필터 저장 {#saving-a-filter}
+Filters are specific to each operator and are re-initialized each time the operator clears the cache of their client console.
 
-필터는 각 연산자에 따라 다르며 연산자가 클라이언트 콘솔의 캐시를 지울 때마다 다시 초기화됩니다.
+You can create an **application filter** by saving an advanced filter: it can be re-used by right-clicking in any list or via the **[!UICONTROL Filters]** button located above the lists.
 
-고급 필터를 저장하여 **응용 프로그램 필터**&#x200B;을(를) 만들 수 있습니다. 목록을 마우스 오른쪽 단추로 클릭하거나 목록 위에 있는 **[!UICONTROL Filters]** 단추를 통해 다시 사용할 수 있습니다.
+These filters can also be accessed directly via the delivery assistant, in the target selection stage (refer to [this section](../../delivery/using/creating-an-email-delivery.md) for more on creating deliveries). To create the application filter, you can:
 
-이러한 필터는 대상 선택 단계에서 게재 도우미를 통해 직접 액세스할 수도 있습니다(게재 만들기에 대한 자세한 내용은 [이 섹션](../../delivery/using/creating-an-email-delivery.md) 참조). 응용 프로그램 필터를 만들려면 다음 작업을 수행할 수 있습니다.
-
-* 고급 필터를 응용 프로그램 필터로 변환합니다. 이렇게 하려면 고급 필터 편집기를 닫기 전에 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
+* Convert an advanced filter to an application filter. To do this, click **[!UICONTROL Save]** before closing the advanced filter editor.
 
   ![](assets/s_ncs_user_filter_save.png)
 
-* 트리의 **[!UICONTROL Administration > Configuration > Predefined filters]**(또는 수신자의 경우 **[!UICONTROL Profiles and targets > Predefined filters]**) 노드를 통해 이 응용 프로그램 필터를 만듭니다. 이렇게 하려면 필터 목록을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL New...]**&#x200B;을(를) 선택합니다. 이 절차는 고급 필터를 만드는 절차와 동일합니다.
+* Create this application filter via the **[!UICONTROL Administration > Configuration > Predefined filters]** (or **[!UICONTROL Profiles and targets > Predefined filters]** for recipients) node of the tree. To do this, right-click the list of filters, and select **[!UICONTROL New...]**. The procedure is the same as for creating advanced filters.
 
-  **[!UICONTROL Label]** 필드를 사용하면 이 필터의 이름을 지정할 수 있습니다. 이 이름은 **[!UICONTROL Filters...]** 단추의 콤보 상자에 나타납니다.
+  The **[!UICONTROL Label]** field enables you to name this filter. This name will appear in the combo box of the **[!UICONTROL Filters...]** button. 
 
   ![](assets/user_filter_apply.png)
 
-마우스 오른쪽 단추를 클릭하고 **[!UICONTROL No filter]**&#x200B;을(를) 선택하거나 목록 위에 있는 **[!UICONTROL Filters]** 아이콘을 통해 현재 목록의 모든 필터를 삭제할 수 있습니다.
+You can delete all filters on the current list by right-clicking and selecting **[!UICONTROL No filter]** or via the **[!UICONTROL Filters]** icon located above the list.  
 
-**[!UICONTROL Filters]** 단추를 클릭하고 **[!UICONTROL And...]** 메뉴를 사용하여 필터를 결합할 수 있습니다.
+You can combine filters by clicking the **[!UICONTROL Filters]** button and using the **[!UICONTROL And...]** menu.
 
 ![](assets/s_ncs_user_filter_combination.png)
 
-## 수신자 필터링 {#filtering-recipients}
+## Filter recipients {#filtering-recipients}
 
-미리 정의된 필터([필터 저장](#saving-a-filter) 참조)를 사용하면 데이터베이스에 포함된 수신자 프로필을 필터링할 수 있습니다. 트리의 **[!UICONTROL Profiles and Targets > Predefined filters]** 노드에서 필터를 편집할 수 있습니다. **[!UICONTROL Filters]** 단추를 통해 작업 영역의 위쪽 섹션에 필터가 나열됩니다.
+Predefined filters (see [Save a filter](#saving-a-filter)) enable you to filter the profiles of recipients contained in the database. You can edit filters from the **[!UICONTROL Profiles and Targets > Predefined filters]** node of the tree. The filters are listed in the upper section of the workspace, via the **[!UICONTROL Filters]** button.
 
-필터를 선택하여 해당 정의를 표시하고 필터링된 데이터 미리보기에 액세스합니다.
+Select a filter to display its definition and to access a preview of the filtered data.
 
 ![](assets/s_ncs_user_segment_edit.png)
 
 >[!NOTE]
 >
->미리 정의된 필터를 만드는 자세한 예제는 [사용 사례](../../platform/using/use-case.md)를 참조하세요.
+>For a detailed example of predefined filter creation, refer to [Use case](../../platform/using/use-case.md).
 
-사전 정의된 필터는 다음과 같습니다.
+The predefined filters are:
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>레이블</strong><br /> </td> 
-   <td> <strong>쿼리</strong><br /> </td> 
+   <td> <strong>Label</strong><br /> </td> 
+   <td> <strong>Query</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> 열림<br /> </td> 
-   <td> 게재를 연 수신자를 선택합니다.<br /> </td> 
+   <td> Opened<br /> </td> 
+   <td> Selects recipients who have opened a delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 열었지만 클릭하지 않았습니다.<br /> </td> 
-   <td> 게재를 열었지만 링크를 클릭하지 않은 수신자를 선택합니다.<br /> </td> 
+   <td> Opened but not clicked<br /> </td> 
+   <td> Selects recipients who have opened a delivery but have not clicked on a link.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 비활성 수신자<br /> </td> 
-   <td> X개월 동안 게재를 열지 않은 수신자를 선택합니다.<br /> </td> 
+   <td> Inactive recipients<br /> </td> 
+   <td> Selects recipients who have not opened a delivery in X months.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 장치 유형<br />별 마지막 활동 </td> 
-   <td> 지난 Z일 동안 장치 X를 사용하여 배달 Y를 클릭하거나 연 수신자를 선택합니다.<br /> </td> 
+   <td> Last activity by device type<br /> </td> 
+   <td> Selects recipients who have clicked or opened delivery Y using device X in the last Z days.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 장치 유형(추적)별 마지막 활동<br /> </td> 
-   <td> 지난 Z일 동안 장치 X를 사용하여 배달 Y를 클릭하거나 연 수신자를 선택합니다.<br /> </td> 
+   <td> Last activity by device type (Tracking)<br /> </td> 
+   <td> Selects recipients who have clicked or opened delivery Y using device X in the last Z days.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 타겟팅되지 않은 받는 사람<br /> </td> 
-   <td> X개월 동안 채널 Y를 통해 타겟팅한 적이 없는 수신자를 선택합니다.<br /> </td> 
+   <td> Untargeted recipients<br /> </td> 
+   <td> Selects recipients who have never been targeted via channel Y in X months.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 매우 활성 받는 사람<br /> </td> 
-   <td> 지난 Y개월 동안 게재를 X번 이상 클릭한 수신자를 선택합니다.<br /> </td> 
+   <td> Very active recipients<br /> </td> 
+   <td> Selects recipients who have clicked in a delivery at least X times in the last Y months.<br /> </td> 
   </tr> 
   <tr> 
- <td> 차단 목록에 추가된 전자 메일 주소<br /> </td> 
-    <td> 전자 메일 주소가 차단 목록에 있는 수신자를 선택합니다.<br/> </td>
+ <td> Denylisted email address<br /> </td> 
+    <td> Selects recipients whose email address is on the denylist.<br/> </td>
   </tr> 
   <tr> 
-   <td> 격리된 전자 메일 주소<br /> </td> 
-   <td> 전자 메일 주소가 격리된 수신자를 선택합니다.<br /> </td> 
+   <td> Quarantined email address<br /> </td> 
+   <td> Selects recipients whose email address is quarantined.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <br /> 폴더에 중복된 전자 메일 주소 </td> 
-   <td> 폴더에 전자 메일 주소가 중복되는 수신자를 선택합니다.<br /> </td> 
+   <td> Email addresses duplicated in the folder<br /> </td> 
+   <td> Selects recipients whose email address is duplicated in the folder.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 열지도 클릭하지도 않음<br /> </td> 
-   <td> 게재를 열지 않았거나 게재를 클릭한 수신자를 선택합니다.<br /> </td> 
+   <td> Neither opened nor clicked<br /> </td> 
+   <td> Selects recipients who have not opened a delivery, or clicked in a delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 새 수신자(일)<br /> </td> 
-   <td> 지난 X일 동안 만든 수신자를 선택합니다.<br /> </td> 
+   <td> New recipients (days)<br /> </td> 
+   <td> Selects recipients that were created in the last X days.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 새 수신자(분)<br /> </td> 
-   <td> 지난 X분 동안 만든 수신자를 선택합니다.<br /> </td> 
+   <td> New recipients (minutes)<br /> </td> 
+   <td> Selects recipients that were created in the last X minutes.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 새 수신자(개월)<br /> </td> 
-   <td> 지난 X개월 동안 만든 수신자를 선택합니다.<br /> </td> 
+   <td> New recipients (months)<br /> </td> 
+   <td> Selects recipients that were created in the last X months.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 구독별<br /> </td> 
-   <td> 구독별로 수신자를 선택합니다.<br /> </td> 
+   <td> By subscription<br /> </td> 
+   <td> Selects recipients by subscription.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 특정 링크를 클릭하여<br /> </td> 
-   <td> 게재에서 특정 URL을 클릭한 수신자를 선택합니다.<br /> </td> 
+   <td> By clicking on a specific link<br /> </td> 
+   <td> Selects recipients who clicked on a particular URL in a delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재 후 동작<br /> </td> 
-   <td> 게재를 받은 후 해당 동작에 따라 수신자를 선택합니다.<br /> </td> 
+   <td> By post delivery behavior<br /> </td> 
+   <td> Selects recipients according to their behavior after receiving a delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 만든 날짜<br />까지 </td> 
-   <td> X개월(현재 날짜에서 n개월을 뺀 숫자)에서 Y개월(현재 날짜에서 n개월을 뺀 숫자) 사이의 기간 동안 생성 날짜별로 수신자를 선택합니다.<br /> </td> 
+   <td> By creation date<br /> </td> 
+   <td> Selects recipients by creation date, over a period ranging from X months (current date minus n months) to Y months (current date minus n months).<br /> </td> 
   </tr> 
   <tr> 
-   <td> <br /> 목록별 </td> 
-   <td> 목록을 기준으로 수신자를 선택합니다.<br /> </td> 
+   <td> By list<br /> </td> 
+   <td> Selects recipients by list.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수<br /> </td> 
-   <td> 지난 X개월 동안 게재를 클릭한 수신자를 선택합니다.<br /> </td> 
+   <td> By number of clicks<br /> </td> 
+   <td> Selects recipients who clicked in a delivery in the last X months.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 받은 메시지 수<br />개 </td> 
-   <td> 받은 메시지 수에 따라 수신자를 선택합니다.<br /> </td> 
+   <td> By number of messages received<br /> </td> 
+   <td> Selects recipients according to the number of messages that they received.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 열기 횟수별<br /> </td> 
-   <td> Z 시간 동안 X와 Y 게재 사이에 연 수신자를 선택합니다.<br /> </td> 
+   <td> By number of opens<br /> </td> 
+   <td> Selects recipients who opened between X and Y deliveries over Z amount of time.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 이름 또는 전자 메일로<br /> </td> 
-   <td> 이름 또는 전자 메일에 따라 수신자를 선택합니다.<br /> </td> 
+   <td> By name or email<br /> </td> 
+   <td> Selects recipients according to their name or email.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령 범위별<br /> </td> 
-   <td> 나이에 따라 수신자를 선택합니다.<br /> </td> 
+   <td> By age range<br /> </td> 
+   <td> Selects recipients according to their age.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->계산 및 기간에 대한 모든 비교는 넓은 의미로 이해해야 합니다(쿼리 제한에 해당하는 수신자는 비교에 포함됨).
+>All comparisons concerning counting and periods are to be understood in the broader sense (recipients that correspond to the query limits are included in the comparison).
 
-데이터 계산 방식의 예:
+Examples of how the data is calculated:
 
-* 30세 미만의 수신자를 선택합니다.
+* Selects recipients who are less than 30 years old: 
 
   ![](assets/predefined_filters_01.png)
 
-* 18세 이상의 수신자를 선택합니다.
+* Selects recipients who are 18 years of age or older:
 
   ![](assets/predefined_filters_03.png)
 
-* 18세에서 30세 사이의 수신자를 선택합니다.
+* Selects recipients aged between 18 and 30:
 
   ![](assets/predefined_filters_02.png)
 
-## 데이터 필터에 대한 고급 설정 {#advanced-settings-for-data-filters}
+## Advanced settings for data filters {#advanced-settings-for-data-filters}
 
-다음 옵션에 액세스하려면 **[!UICONTROL Settings]** 탭을 클릭하십시오.
+Click the **[!UICONTROL Settings]** tab to access the following options:
 
-* **[!UICONTROL Default filter for the associated document type]**: 이 옵션을 사용하면 정렬과 관련된 목록의 편집기에서 기본적으로 이 필터를 제안할 수 있습니다.
+* **[!UICONTROL Default filter for the associated document type]**: this option lets you suggest this filter by default in the editor of the lists concerned by the sort.
 
-  예를 들어 **[!UICONTROL By name or login]** 필터는 연산자에 적용됩니다. 이 옵션이 선택되어 있으므로 필터가 항상 모든 연산자 목록에서 제공됩니다.
+  For example, the **[!UICONTROL By name or login]** filter is applied to operators. This option is selected, and so the filter is always offered on all operator lists.
 
-* **[!UICONTROL Filter shared with other operators]**: 이 옵션을 사용하면 현재 데이터베이스의 다른 모든 연산자가 필터를 사용할 수 있습니다.
-* **[!UICONTROL Use parameter entry form]**: 이 옵션을 사용하면 이 필터를 선택할 때 목록 위에 표시할 필터 필드를 정의할 수 있습니다. 이러한 필드를 사용하면 필터 설정을 정의할 수 있습니다. 이 양식은 **[!UICONTROL Form]** 단추를 통해 XML 형식으로 입력해야 합니다. 예를 들어 수신자 목록에서 사용할 수 있는 사전 구성된 필터 **[!UICONTROL Recipients who have opened]**&#x200B;에는 필터를 적용할 게재를 선택할 수 있는 필터 필드가 표시됩니다.
+* **[!UICONTROL Filter shared with other operators]**: this option lets you make the filter available to all the other operators on the current database.
+* **[!UICONTROL Use parameter entry form]**: this option lets you define the filter field(s) to be displayed above the list when this filter is selected. These fields let you define the filter settings. This form must be entered in XML format via the **[!UICONTROL Form]** button. For example, the preconfigured filter **[!UICONTROL Recipients who have opened]**, available from the recipients list, displays a filter field that lets you select the delivery at which the filter is aimed.
 
-  **[!UICONTROL Preview]** 단추는 선택한 필터의 결과를 표시합니다.
+  The **[!UICONTROL Preview]** button displays the result of the selected filter.
 
-* **[!UICONTROL Advanced parameters]** 링크를 사용하여 추가 설정을 정의할 수 있습니다. 특히, SQL 테이블을 필터와 연결하여 테이블을 공유하는 모든 편집기에 공통되도록 할 수 있습니다.
+* The **[!UICONTROL Advanced parameters]** link lets you define additional settings. In particular, you can associate a SQL table with the filter to make it common to all editors that share the table.
 
-  사용자가 이 필터를 재정의하지 못하도록 하려면 **[!UICONTROL Do not restrict the filter]** 옵션을 선택하십시오.
+  Select the **[!UICONTROL Do not restrict the filter]** option if you want to stop the user from overriding this filter.
 
-  이 옵션은 오버로드할 수 없는 게재 도우미에서 제공되는 &quot;게재 수신자&quot; 및 &quot;폴더에 속한 게재 수신자&quot; 필터에 대해 활성화됩니다.
+  This option is enabled for "Recipients of a delivery" and "Recipients of deliveries belonging to a folder" filters offered in the delivery assistant that cannot be overloaded.
 
   ![](assets/s_ncs_user_filter_advanced_param.png)
+-->
