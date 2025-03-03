@@ -5,7 +5,7 @@ description: Campaign 기능에 대한 액세스 권한을 부여하는 방법 �
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: e1a085384fb27ec165c487c112fbc70fe9738d9e
+source-git-commit: 2759d65150299e4fa679ea986df8136cd9525370
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 5%
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->Campaign Classic v7.3.1부터 모든 연산자는 [IMS(Identity Management 시스템) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}을(를) 사용하여 Campaign에 연결해야 합니다.
+>Campaign Classic v7.3.1부터 모든 연산자는 [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 사용하여 Campaign에 연결해야 합니다.
 >
->보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Adobe Campaign은 모든 기존 운영자 인증 모드를 로그인/암호 기본 인증에서 Adobe Identity Management System(IMS)으로 마이그레이션할 것을 강력히 권장합니다. [이 페이지](../../technotes/using/migrate-users-to-ims.md)에서 연산자를 마이그레이션하는 방법에 대해 알아보세요.
+>보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로, Adobe Campaign은 모든 기존 운영자 인증 모드를 로그인/암호 기본 인증에서 Adobe Identity Management System(IMS)으로 마이그레이션할 것을 강력히 권장합니다. [이 페이지](../../technotes/using/migrate-users-to-ims.md)에서 연산자를 마이그레이션하는 방법에 대해 알아보세요.
 > 
 >이 마이그레이션 후에는 다음 섹션이 더 이상 적용되지 않습니다.  [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ko){target="_blank"}에서 Adobe IMS를 사용하여 권한을 설정하는 방법에 대해 알아봅니다.
 
@@ -42,7 +42,7 @@ Adobe Campaign을 사용하면 다양한 연산자에 할당된 권한을 정의
 
 >[!NOTE]
 >
->Adobe 권한 정의를 시작하기 전에 [보안 구성 검사 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html)을 읽는 것이 좋습니다.
+>Adobe 사용 권한 정의를 시작하기 전에 [보안 구성 검사 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html)을 읽는 것이 좋습니다.
 
 액세스 권한 부여 및 권한 설정 방법은 다음 섹션에서 알아봅니다.
 
