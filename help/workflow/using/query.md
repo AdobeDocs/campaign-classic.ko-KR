@@ -3,8 +3,10 @@ product: campaign
 title: 쿼리
 description: 쿼리 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity, Query Editor
+hide: true
+hidefromtoc: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 0%
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->쿼리 활동을 Oracle을 사용할 때 CLOB 필드와 호환되지 않습니다.
+>Oracle을 사용할 때 쿼리 활동이 CLOB 필드와 호환되지 않습니다.
 
 ![](assets/s_user_segmentation_wizard_9.png)
 

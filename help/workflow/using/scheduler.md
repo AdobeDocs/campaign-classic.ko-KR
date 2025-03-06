@@ -3,8 +3,10 @@ product: campaign
 title: 예약
 description: 예약 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 10%

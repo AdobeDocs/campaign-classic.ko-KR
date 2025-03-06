@@ -3,11 +3,13 @@ product: campaign
 title: 목록 업데이트
 description: 목록 업데이트
 feature: Workflows, Targeting Activity
+hide: true
+hidefromtoc: true
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -73,4 +75,4 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-추가 Campaign Classic 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

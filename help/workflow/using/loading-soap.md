@@ -3,8 +3,10 @@ product: campaign
 title: 로딩(SOAP)
 description: 로딩(SOAP)
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 4%
@@ -43,7 +45,7 @@ ht-degree: 4%
 
    **[!UICONTROL Advanced parameters]** 링크를 통해 열 데이터 형식을 개인화할 수도 있습니다. 가져온 데이터 서식 지정에 대한 자세한 내용은 이 [섹션](../../platform/using/executing-import-jobs.md)을 참조하세요.
 
-1. 줄 번호를 식별자로 사용하거나 SOAP 호출이 여러 요소를 반환하도록 지정할 수 있습니다.
+1. 줄 번호를 식별자로 사용하고/하거나 SOAP 호출이 여러 요소를 반환하도록 지정할 수 있습니다.
 1. 기능에 따라 다음 탭 스크립트를 입력합니다.
 
    * **[!UICONTROL Initialization]**: SOAP 연결을 설정합니다.

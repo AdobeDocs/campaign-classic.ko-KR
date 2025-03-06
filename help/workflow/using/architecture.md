@@ -3,8 +3,10 @@ product: campaign
 title: 아키텍처
 description: 워크플로우는 처리 로드를 공유하기 위해 여러 서버에서 시작할 수 있는 특정 모듈에 의해 처리됩니다
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 46801f78-706c-4dfa-bce7-3d15f569f222
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 1%

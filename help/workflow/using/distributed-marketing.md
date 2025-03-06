@@ -2,8 +2,10 @@
 product: campaign
 title: 분산 마케팅
 description: 분산 마케팅 패키지에 대해 자세히 알아보기
+hide: true
+hidefromtoc: true
 feature: Workflows, Data Management, Distributed Marketing
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 8%

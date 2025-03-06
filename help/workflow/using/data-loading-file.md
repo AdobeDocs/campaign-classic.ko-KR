@@ -3,8 +3,10 @@ product: campaign
 title: 데이터 로딩(파일)
 description: 데이터 로드(파일) 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Data Management Activity
+hide: true
+hidefromtoc: true
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1140'
 ht-degree: 14%
@@ -94,7 +96,7 @@ ht-degree: 14%
 
 1. 파일 컬렉터를 사용하면 지정된 빈도에 따라 디렉토리에 저장된 파일을 복구할 수 있습니다.
 
-   **[!UICONTROL Directory]** 탭에는 복구할 파일에 대한 정보가 포함되어 있습니다. 이 예제에서 이름에 &#39;customers&#39;라는 단어가 포함되어 있고 서버의 tmp/Adobe/데이터/파일 디렉터리에 저장된 텍스트 형식의 모든 파일은 복구됩니다.
+   **[!UICONTROL Directory]** 탭에는 복구할 파일에 대한 정보가 포함되어 있습니다. 이 예제에서 이름에 &#39;customers&#39;라는 단어가 포함되어 있고 서버의 tmp/Adobe/Data/files 디렉터리에 저장된 텍스트 형식의 모든 파일이 복구됩니다.
 
    **[!UICONTROL File collector]** 사용에 대해서는 [파일 수집기](file-collector.md) 섹션에 자세히 설명되어 있습니다.
 

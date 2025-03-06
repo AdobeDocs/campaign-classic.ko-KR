@@ -3,8 +3,10 @@ product: campaign
 title: 캠페인 워크플로우 열 지도
 description: 워크플로우 HeatMap으로 워크플로우 모니터링
 feature: Workflows, Heatmap
+hide: true
+hidefromtoc: true
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 3%
@@ -139,7 +141,7 @@ Campaign 관리자는 워크플로우 HeatMap을 사용하여 활동을 느리�
    ![](assets/wkf_monitoring_long_duration.png)
 
 1. **[!UICONTROL Min duration]** 필터를 줄여 더 많은 결과를 포함하십시오.
-1. 결과를 탐색하여 서버와 데이터베이스 리소스(CPU, RAM, 네트워크, IOPS 등)에 더 많은 영향을 미칠 수 있는 가장 긴 워크플로우를 찾아보십시오.
+1. 결과를 탐색하여 서버 및 데이터베이스 리소스(CPU, RAM, 네트워크, IOPS 등)에 더 많은 영향을 미칠 수 있는 가장 긴 워크플로우를 찾아보십시오.
 1. 적절한 조치를 취합니다.
 
    * 마케팅 사용자에게 처리 시간을 줄이기 위해 가장 긴 워크플로우를 분할하도록 권고합니다.

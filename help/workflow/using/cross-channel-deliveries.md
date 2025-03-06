@@ -3,8 +3,10 @@ product: campaign
 title: 크로스 채널 게재
 description: 크로스 채널 게재에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
+hide: true
+hidefromtoc: true
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 7%
@@ -22,7 +24,7 @@ ht-degree: 7%
 * [이메일](../../delivery/using/about-email-channel.md)
 * [DM](../../delivery/using/about-direct-mail-channel.md)
 * [모바일](../../delivery/using/sms-channel.md)
-* [X(이전 명칭: Twitter)](../../social/using/about-social-marketing.md)
+* [X(이전 Twitter라고 함)](../../social/using/about-social-marketing.md)
 * [iOS](../../delivery/using/create-notifications-ios.md)
 * [Android](../../delivery/using/create-notifications-android.md)
 

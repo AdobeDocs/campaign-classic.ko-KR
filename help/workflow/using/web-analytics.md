@@ -2,8 +2,10 @@
 product: campaign
 title: 웹 분석
 description: 웹 분석 패키지에 대해 자세히 알아보기
+hide: true
+hidefromtoc: true
 feature: Workflows, Analytics Integration
-source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 3%

@@ -3,7 +3,9 @@ product: campaign
 title: 소셜 마케팅
 description: 소셜 마케팅 기술 워크플로우에 대해 자세히 알아보기
 feature: Workflows
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+hide: true
+hidefromtoc: true
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 6%
@@ -31,7 +33,7 @@ ht-degree: 6%
   <tr> 
    <td> <span class="uicontrol">Facebook 통계 계산</span> <br /> </td> 
    <td> <span class="uicontrol">statsFacebook</span> <br /> </td> 
-   <td> 이 워크플로우는 Facebook 팬과의 상호 작용에 연결된 통계를 계산합니다.<br /> </td> 
+   <td> 이 워크플로는 Facebook 팬과의 상호 작용에 연결된 통계를 계산합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Facebook 팬 동기화</span> <br /> </td> 
@@ -46,7 +48,7 @@ ht-degree: 6%
   <tr> 
    <td> <span class="uicontrol">Twitter 통계 계산</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> 이 워크플로우는 X(이전에는 Twitter)의 리트윗 및 방문에 연결된 통계를 계산합니다.<br /> </td> 
+   <td> 이 워크플로우는 X(이전에는 Twitter라고 함)의 리트윗 및 방문에 연결된 통계를 계산합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Twitter 페이지 동기화</span> <br /> </td> 

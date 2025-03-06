@@ -3,8 +3,10 @@ product: campaign
 title: Adobe Experience Cloud 솔루션 워크플로우와 통합
 description: Adobe Experience Cloud 솔루션과 통합 워크플로우에 대해 자세히 알아보기
 feature: Workflows, Audiences
+hide: true
+hidefromtoc: true
 topic-tags: technical-workflows
-source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 8%

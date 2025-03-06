@@ -3,8 +3,10 @@ product: campaign
 title: 워크플로 모범 사례
 description: 캠페인 워크플로우 모범 사례 학습
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 11%
@@ -63,7 +65,7 @@ JavaScript 메서드 **[!UICONTROL logInfo()]**&#x200B;은(는) 워크플로우�
 
 ### 워크플로 폴더 {#workflow-folders}
 
-Adobe은 전용 폴더에 워크플로우를 만들 것을 권장합니다.
+Adobe에서는 전용 폴더에 워크플로우를 만들 것을 권장합니다.
 
 워크플로가 플랫폼 전체에 영향을 주는 경우(예: 정리 프로세스) 기본 제공 **[!UICONTROL Technical Workflows]** 폴더에 하위 폴더를 추가하는 것이 좋습니다.
 

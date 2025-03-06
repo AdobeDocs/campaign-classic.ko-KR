@@ -3,8 +3,10 @@ product: campaign
 title: 사용자 정의 날짜 필드를 통한 이메일 강화
 description: 사용자 지정 날짜 필드를 사용하여 이메일을 보강하는 방법 알아보기
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 3%

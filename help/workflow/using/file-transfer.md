@@ -3,8 +3,10 @@ product: campaign
 title: 파일 전송
 description: 파일 전송 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Data Management
+hide: true
+hidefromtoc: true
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 1%
@@ -16,7 +18,7 @@ ht-degree: 1%
 
 
 **파일 전송** 활동을 사용하면 파일을 받거나 보내고, 파일의 존재 여부를 테스트하거나, 서버에 있는 파일을 나열할 수 있습니다. 사용되는 프로토콜은 Azure Blob Storage, Amazon Simple Storage Service(S3), FTP 또는 SFTP입니다.
-S3, Azure Blob Storage 또는 SFTP 연결을 통해 Adobe 실시간 고객 데이터 플랫폼을 통해 세그먼트 데이터를 Adobe Campaign으로 가져올 수도 있습니다. 자세한 정보는 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html)를 참조하세요.
+S3, Azure Blob Storage 또는 SFTP 연결을 통해 Adobe Real-time Customer Data Platform을 사용하여 세그먼트 데이터를 Adobe Campaign으로 가져올 수도 있습니다. 자세한 정보는 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html)를 참조하세요.
 
 >[!NOTE]
 >

@@ -3,8 +3,10 @@ product: campaign
 title: 필터 만들기
 description: 쿼리를 수행할 때 필터를 만드는 방법을 알아봅니다
 feature: Query Editor, Workflows
+hide: true
+hidefromtoc: true
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 2%

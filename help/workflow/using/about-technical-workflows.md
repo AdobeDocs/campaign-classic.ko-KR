@@ -3,8 +3,10 @@ product: campaign
 title: 기술 워크플로
 description: Campaign Classic 패키지와 함께 사용할 수 있는 기술 워크플로우에 대해 자세히 알아보기
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 1%
@@ -35,7 +37,7 @@ ht-degree: 1%
 |------|--------|-----------|
 | **별칭 정리**(aliasCleaning) | 게재 | 이 워크플로우는 열거형 값을 표준화합니다. 기본적으로 매일 오전 3시에 트리거됩니다. |
 | **청구**(청구) | 게재 | 이 워크플로우는 &#39;과금&#39; 운영자에게 이메일로 시스템 활동 보고서를 보냅니다. 마케팅 인스턴스에서 매월 25일에 트리거됩니다. |
-| **Twitter 통계 계산**(statsTwitter) | 소셜 네트워크(소셜 마케팅) - Campaign v7만 해당 | 이 워크플로우는 X(이전에는 Twitter)의 리트윗 및 방문에 연결된 통계를 계산합니다. |
+| **Twitter 통계 계산**(statsTwitter) | 소셜 네트워크(소셜 마케팅) - Campaign v7만 해당 | 이 워크플로우는 X(이전에는 Twitter라고 함)의 리트윗 및 방문에 연결된 통계를 계산합니다. |
 | **캠페인 작업**(operationMgt) | 마케팅 캠페인(캠페인) | 이 워크플로우는 마케팅 캠페인(론치 타기팅, 파일 추출 등)에 대한 작업을 관리합니다. 또한 반복 및 정기 캠페인과 관련된 워크플로우를 만듭니다. |
 | **HeatMap 서비스에 대한 데이터 수집**(collectDataHeatMapService) | 기본적으로 설치됨 | 이 워크플로우는 HeatMap 서비스에 필요한 데이터를 검색합니다. |
 | **개인 정보 보호 요청 수집**(collectPrivacyRequests) | 개인 정보 보호 규정 | 이 워크플로우는 Adobe Campaign에 저장된 수신자의 데이터를 생성하여 개인 정보 보호 요청의 화면에서 다운로드할 수 있도록 합니다. |

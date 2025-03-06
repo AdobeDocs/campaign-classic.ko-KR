@@ -3,8 +3,10 @@ product: campaign
 title: 워크플로 구축
 description: 워크플로우 구축 방법 알아보기
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 4%
@@ -153,7 +155,7 @@ ht-degree: 4%
 
 ### 차원 타겟팅 및 필터링 {#targeting-and-filtering-dimensions}
 
-데이터 세분화 작업 중에 타겟팅 키는 필터링 차원에 매핑됩니다. 타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 필터링 차원을 사용하면 약정 소유자, 뉴스레터 구독자 등 특정 기준에 따라 모집단을 선택할 수 있습니다.
+데이터 세분화 작업 중에 타겟팅 키는 필터링 차원에 매핑됩니다. 타기팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타기팅하는 집단을 정의할 수 있습니다. 필터링 차원을 사용하면 약정 소유자, 뉴스레터 구독자 등 특정 기준에 따라 모집단을 선택할 수 있습니다.
 
 예를 들어, 5년 이상 생명 보험 계약을 보유한 클라이언트를 선택하려면 다음 대상 차원을 선택합니다. **클라이언트** 및 필터링 차원: **계약 소유자**. 그런 다음 쿼리 활동 내에 필터링 조건을 정의할 수 있습니다
 

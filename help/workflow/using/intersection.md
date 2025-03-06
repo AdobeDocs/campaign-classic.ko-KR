@@ -3,8 +3,10 @@ product: campaign
 title: 교차
 description: 교차
 feature: Workflows, Targeting Activity
+hide: true
+hidefromtoc: true
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 13%
@@ -30,7 +32,7 @@ ht-degree: 13%
 
 교차 활동 구성 및 사용에 대한 자세한 내용은 [공동 데이터 추출(교차)](targeting-data.md#extracting-joint-data--intersection-)을 참조하세요.
 
-나머지 모집단을 처리하려면 **[!UICONTROL Generate complement]** 옵션을 선택하십시오. 보조 항목에는 교차를 제외한 모든 인바운드 활동 결과의 합집합이 포함됩니다. 그러면 다음과 같이 추가 아웃바운드 전환이 활동에 추가됩니다.
+나머지 모집단을 처리하려면 **[!UICONTROL Generate complement]** 옵션을 선택하십시오. 여집합에는 교차를 제외한 모든 인바운드 활동 결과의 합집합이 포함됩니다. 그러면 다음과 같이 추가 아웃바운드 전환이 활동에 추가됩니다.
 
 ![](assets/s_user_segmentation_inter_compl.png)
 

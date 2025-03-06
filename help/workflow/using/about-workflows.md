@@ -3,8 +3,10 @@ product: campaign
 title: 워크플로 정보
 description: 워크플로를 통해 프로세스를 자동화하고 데이터 및 대상자를 관리하며 메시지 전송 등을 수행할 수 있습니다
 feature: Workflows, Data Management
+hide: true
+hidefromtoc: true
 exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 37%

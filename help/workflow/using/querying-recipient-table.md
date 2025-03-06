@@ -3,8 +3,10 @@ product: campaign
 title: 수신자 테이블 쿼리
 description: 수신자 테이블을 쿼리하는 방법 알아보기
 feature: Query Editor, Workflows
+hide: true
+hidefromtoc: true
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: d6bed05e083b2e349db331e6016cbb8f91f00eaf
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 3%

@@ -3,8 +3,10 @@ product: campaign
 title: 워크플로 실행 모니터링
 description: 워크플로 실행 모니터링
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '2018'
 ht-degree: 2%
@@ -19,9 +21,9 @@ ht-degree: 2%
 
 [이 섹션](supervising-workflows.md#supervising-workflows)에서 &quot;일시 중지됨&quot;, &quot;중지됨&quot; 또는 &quot;오류 있음&quot;인 워크플로 집합의 상태를 모니터링할 수 있는 워크플로를 만드는 방법에 대한 사용 사례도 확인할 수 있습니다.
 
-또한 인스턴스 관리자는 **감사 추적**&#x200B;을 사용하여 워크플로우에 수행된 활동 및 마지막 수정 사항, 즉 워크플로우의 상태를 확인할 수 있습니다. 자세한 내용은 [Campaign Classic v7 프로덕션 가이드](../../production/using/audit-trail.md)를 참조하세요.
+또한 인스턴스 관리자는 **감사 추적**&#x200B;을 사용하여 워크플로우에 수행된 활동 및 마지막 수정 사항, 즉 워크플로우의 상태를 확인할 수 있습니다. 자세한 내용은 [Campaign Classic v7 프로덕션 안내서](../../production/using/audit-trail.md)를 참조하세요.
 
-다른 Campaign 프로세스를 모니터링하는 추가 방법은 [Campaign Classic v7 프로덕션 가이드](../../production/using/monitoring-guidelines.md)에 나와 있습니다.
+다양한 Campaign 프로세스를 모니터링하는 추가 방법은 [Campaign Classic v7 프로덕션 안내서](../../production/using/monitoring-guidelines.md)에 나와 있습니다.
 
 ## 진행 상황 표시 {#displaying-progress}
 
@@ -234,7 +236,7 @@ instance.vars.isRunning = false
 
 워크플로우는 공간을 소모하는 많은 작업 표를 사용하며, 유지하지 않을 경우 전체 플랫폼의 속도를 느리게 합니다. 데이터베이스 유지 관리에 대한 자세한 내용은 이 [섹션](../../production/using/tables-to-maintain.md) 을 참조하세요.
 
-**관리 > 프로덕션 > 기술 워크플로우** 노드를 통해 액세스할 수 있는 **데이터베이스 정리** 워크플로우를 사용하면 데이터베이스의 기하급수적인 증가를 방지하기 위해 오래된 데이터를 삭제할 수 있습니다. 워크플로우는 사용자의 개입 없이 자동으로 트리거됩니다. [Campaign Classic v7 프로덕션 가이드](../../production/using/database-cleanup-workflow.md)를 참조하세요.
+**관리 > 프로덕션 > 기술 워크플로우** 노드를 통해 액세스할 수 있는 **데이터베이스 정리** 워크플로우를 사용하면 데이터베이스의 기하급수적인 증가를 방지하기 위해 오래된 데이터를 삭제할 수 있습니다. 워크플로우는 사용자의 개입 없이 자동으로 트리거됩니다. [Campaign Classic v7 프로덕션 안내서](../../production/using/database-cleanup-workflow.md)를 참조하세요.
 
 또한 특정 기술 워크플로우를 만들어 불필요한 데이터 사용 공간을 제거할 수도 있습니다. [Campaign Classic v7 프로덕션 가이드](../../production/using/application-objects.md) 및 이 [섹션](#purging-the-logs)을 참조하세요.
 

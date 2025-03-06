@@ -3,8 +3,10 @@ product: campaign
 title: 목록으로 보고서 보내기
 description: 워크플로우가 있는 목록으로 보고서를 보내는 방법을 알아봅니다
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 1%
@@ -15,7 +17,7 @@ ht-degree: 1%
 
 
 
-이 사용 사례에서는 PDF 형식으로 기본 제공되는 월별 **[!UICONTROL Tracking indicators]** 보고서를 생성하는 방법과 받는 사람 목록으로 보내는 방법을 자세히 설명합니다.
+이 사용 사례에서는 PDF 형식으로 기본 제공되는 월별 **[!UICONTROL Tracking indicators]** 보고서를 생성하는 방법과 이를 수신자 목록으로 보내는 방법을 자세히 설명합니다.
 
 ![](assets/use_case_report_intro.png)
 
@@ -23,7 +25,7 @@ ht-degree: 1%
 
 * 게재를 받을 수신자 목록을 만드는 중입니다([1단계: 수신자 목록 만들기](#step-1--creating-the-recipient-list) 참조).
 * 워크플로우를 실행할 때마다 새 게재를 생성할 수 있는 게재 템플릿을 만듭니다(참조: [2단계: 게재 템플릿 만들기](#step-2--creating-the-delivery-template)).
-* PDF 형식으로 보고서를 생성하여 수신자 목록으로 보낼 수 있는 워크플로우를 만듭니다(참조: [3단계: 워크플로우 만들기](#step-3--creating-the-workflow)).
+* PDF 형식으로 보고서를 생성하고 수신자 목록으로 보낼 수 있는 워크플로우를 만듭니다(참조: [3단계: 워크플로우 만들기](#step-3--creating-the-workflow)).
 
 ## 1단계: 수신자 목록 만들기 {#step-1--creating-the-recipient-list}
 

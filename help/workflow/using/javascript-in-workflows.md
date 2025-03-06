@@ -3,8 +3,10 @@ product: campaign
 title: 워크플로의 JavaScript 코드 예
 description: 다음 예에서는 워크플로우에서 JavaScript 코드를 사용하는 방법을 보여 줍니다
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1695'
 ht-degree: 3%
@@ -52,7 +54,7 @@ ht-degree: 3%
    1. `xtk:session` 스키마에서 `Write` 메서드를 호출합니다.
 
       >[!IMPORTANT]
-      > Adobe Campaign v8을 사용하는 경우 Snowflake 테이블에서 `Write` 메서드에 대한 **수집** 및 **데이터 업데이트/삭제** API와 함께 스테이징 메커니즘을 사용하는 것이 좋습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
+      > Adobe Campaign v8을 사용하는 경우 Snowflake 테이블의 `Write` 메서드에 대해 **수집** 및 **데이터 업데이트/삭제** API와 함께 스테이징 메커니즘을 사용하는 것이 좋습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
    1. XML 코드를 쓰기 요청의 인수로 전달합니다.
 
@@ -562,7 +564,7 @@ for each (var w in res.recipient)
 * `delete` 작업
 
 >[!IMPORTANT]
-> Adobe Campaign v8을 사용하는 경우 Snowflake 테이블에서 `Write` 메서드에 대한 **수집** 및 **데이터 업데이트/삭제** API와 함께 스테이징 메커니즘을 사용하는 것이 좋습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
+> Adobe Campaign v8을 사용하는 경우 Snowflake 테이블의 `Write` 메서드에 대해 **수집** 및 **데이터 업데이트/삭제** API와 함께 스테이징 메커니즘을 사용하는 것이 좋습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
 #### 예제 1: 레코드 삽입 또는 업데이트
 
