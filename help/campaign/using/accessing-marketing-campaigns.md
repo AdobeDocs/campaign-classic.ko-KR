@@ -4,8 +4,10 @@ title: 마케팅 캠페인 액세스
 description: 마케팅 캠페인 액세스
 role: User
 feature: Campaigns, Cross Channel Orchestration
+hide: true
+hidefromtoc: true
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 2%
@@ -114,7 +116,7 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등의 다양한 마케
 >
 >캠페인 템플릿 구성은 [캠페인 템플릿](../../campaign/using/marketing-campaign-templates.md#campaign-templates)에 표시됩니다.
 
-#### 예약 {#schedule}
+#### 일정 {#schedule}
 
 캠페인은 게재 세트를 중앙 집중화합니다. 각 캠페인에 대해 일정에서는 모든 구성 요소에 대한 전역 보기를 제공합니다. 작업 및 게재를 표시하고 쉽게 액세스할 수 있습니다.
 
@@ -174,7 +176,7 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등의 다양한 마케
 | 캠페인, 게재, 오퍼 등 목록 | 목록 항목 삭제 |
 | 캠페인 | 캠페인 취소 |
 | 게재 | 게재 콘텐츠 및 대상 승인<br/>게재 콘텐츠 제출<br/>게재 확인<br/>게재 일시 중지 및 중지 |
-| 웹 애플리케이션 | 웹 응용 프로그램을 만듭니다<br/>응용 프로그램 콘텐츠 및 속성을 편집합니다<br/>응용 프로그램 콘텐츠를 템플릿으로 저장합니다<br/>응용 프로그램 Publish |
+| 웹 애플리케이션 | 웹 응용 프로그램을 만듭니다<br/>응용 프로그램 콘텐츠 및 속성을 편집합니다<br/>응용 프로그램 콘텐츠를 템플릿으로 저장합니다<br/>응용 프로그램을 게시합니다. |
 | 오퍼 | 오퍼 콘텐츠 및 자격 승인<br/>온라인 오퍼 사용 안 함 |
 | 작업 | 작업 완료<br/>작업 취소 |
 | 마케팅 리소스 | 리소스 승인<br/>리소스 잠금 및 잠금 해제 |

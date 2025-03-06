@@ -4,8 +4,10 @@ title: 필터링 규칙
 description: Adobe Campaign에서 필터링 규칙을 사용하는 방법을 알아봅니다.
 role: User, Data Engineer
 feature: Typology Rules, Campaigns
+hide: true
+hidefromtoc: true
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 2%
@@ -16,7 +18,7 @@ ht-degree: 2%
 
 필터링 규칙을 사용하면 쿼리에 정의된 기준에 따라 제외할 메시지를 정의할 수 있습니다. 이러한 규칙은 타겟팅 차원에 연결됩니다.
 
-필터링 규칙은 다른 유형의 규칙(제어, 압력 등)에 연결할 수 있습니다. 유형화에서 또는 전용 **필터링** 유형화로 그룹화되었습니다. 자세한 내용은 [필터링 유형화 만들기 및 사용](#creating-and-using-a-filtering-typology)을 참조하세요.
+필터링 규칙은 유형화의 다른 규칙 유형(제어, 압력 등)에 연결되거나 전용 **필터링** 유형화로 그룹화될 수 있습니다. 자세한 내용은 [필터링 유형화 만들기 및 사용](#creating-and-using-a-filtering-typology)을 참조하세요.
 
 ## 필터링 규칙 만들기 {#creating-a-filtering-rule}
 

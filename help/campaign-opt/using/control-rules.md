@@ -4,8 +4,10 @@ title: 제어 규칙
 description: Adobe Campaign에서 제어 규칙을 사용하여 작업하는 방법을 알아봅니다.
 role: User, Data Engineer
 feature: Typology Rules, Campaigns
+hide: true
+hidefromtoc: true
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%

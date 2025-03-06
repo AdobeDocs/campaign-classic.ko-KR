@@ -4,11 +4,13 @@ title: 마케팅 캠페인 게재
 description: 마케팅 캠페인 게재에 대해 자세히 알아보기
 role: User
 feature: Campaigns, Resource Management, Cross Channel Orchestration
+hide: true
+hidefromtoc: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '1485'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -115,7 +117,7 @@ ht-degree: 0%
 
 ## 관련 문서 관리 {#managing-associated-documents}
 
-보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인과 연결할 수 있습니다. 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 제공됩니다. 문서를 [ 캠페인과 연결하는 방법은 이 섹션](../../campaign/using/marketing-campaign-assets.md)에서 알아보세요.
+보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인에 연결할 수 있습니다. 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 제공됩니다. 문서를 [ 캠페인과 연결하는 방법은 이 섹션](../../campaign/using/marketing-campaign-assets.md)에서 알아보세요.
 
 >[!IMPORTANT]
 >
@@ -133,7 +135,7 @@ ht-degree: 0%
 
 **[!UICONTROL Documents]** 탭에는 다음이 포함됩니다.
 
-* 콘텐츠에 필요한 모든 문서 목록(템플릿, 이미지 등) 적절한 권한이 있는 Adobe Campaign 운영자가 로컬로 다운로드할 수 있습니다.
+* 적절한 권한이 있는 Adobe Campaign 운영자가 로컬로 다운로드할 수 있는 콘텐츠(템플릿, 이미지 등)에 필요한 모든 문서의 목록,
 * 라우터에 대한 정보가 포함된 문서(있는 경우).
 
 문서는 **[!UICONTROL Edit > Documents]** 탭을 통해 프로그램 또는 캠페인에 연결됩니다.
@@ -160,7 +162,7 @@ ht-degree: 0%
 >
 >게재 개요는 DM 캠페인 컨텍스트에서만 사용됩니다.
 
-게재 개요는 구조화된 요소 세트(문서, 지점/스토어, 프로모션 쿠폰 등)를 나타냅니다. 회사 및 특정 캠페인을 위해 만들어졌습니다.
+게재 개요는 회사 및 특정 캠페인에 대해 생성된 구조화된 요소 세트(문서, 지점/스토어, 프로모션 쿠폰 등)를 나타냅니다.
 
 이러한 요소는 게재 개요로 그룹화되고, 특정 게재 개요는 게재와 연결됩니다. 이 요소는 게재에 첨부하기 위해 **서비스 공급자**&#x200B;에 전송된 추출 파일에서 참조됩니다. 예를 들어 분기와 분기가 사용하는 마케팅 브로셔를 참조하는 게재 개요를 만들 수 있습니다.
 
@@ -220,7 +222,7 @@ ht-degree: 0%
 
 #### 추출 결과 {#extraction-result}
 
-추출하여 서비스 공급업체에 보내는 파일에서 아웃라인의 이름과 필요한 경우 해당 특성(비용, 설명 등)을 표시합니다. 서비스 공급자와 연관된 내보내기 템플릿의 정보에 따라 콘텐츠에 추가됩니다.
+추출하여 서비스 공급자에게 보내는 파일에서 아웃라인의 이름과 필요한 경우 서비스 공급자와 연관된 내보내기 템플릿의 정보에 따라 해당 특성(비용, 설명 등)이 콘텐츠에 추가됩니다.
 
 다음 예제에서는 게재와 연결된 아웃라인에 대한 레이블, 예상 비용 및 설명을 추출 파일에 추가합니다.
 

@@ -4,8 +4,10 @@ title: 마케팅 캠페인 템플릿
 description: 마케팅 캠페인 템플릿
 role: User
 feature: Campaigns, Templates
+hide: true
+hidefromtoc: true
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 3%
@@ -66,7 +68,7 @@ ht-degree: 3%
 
 ![](assets/s_ncs_user_op_template_tab1.3.png)
 
-기능을 선택하지 않으면 프로세스와 관련된 요소(메뉴, 아이콘, 옵션, 탭, 하위 탭 등)가 은 템플릿의 인터페이스 또는 이 템플릿을 기반으로 하는 캠페인에 표시되지 않습니다. 캠페인 세부 정보의 왼쪽에 있는 탭은 일반적으로 템플릿에서 선택한 프로세스와 일치합니다. 예를 들어 **경비 및 목표**&#x200B;를 선택하지 않으면 해당 **[!UICONTROL Budget]** 탭이 이 템플릿을 기반으로 하는 캠페인에 표시되지 않습니다.
+기능을 선택하지 않으면 프로세스와 관련된 요소(메뉴, 아이콘, 옵션, 탭, 하위 탭 등)가 템플릿 인터페이스나 이 템플릿을 기반으로 하는 캠페인에 표시되지 않습니다. 캠페인 세부 정보의 왼쪽에 있는 탭은 일반적으로 템플릿에서 선택한 프로세스와 일치합니다. 예를 들어 **경비 및 목표**&#x200B;를 선택하지 않으면 해당 **[!UICONTROL Budget]** 탭이 이 템플릿을 기반으로 하는 캠페인에 표시되지 않습니다.
 
 또한 구성 창에 대한 단축키가 캠페인 대시보드에 추가됩니다. 기능을 활성화하면 직접 링크를 통해 캠페인 대시보드에서 액세스할 수 있습니다.
 
@@ -166,7 +168,7 @@ ht-degree: 3%
 
 ### 템플릿 실행 매개 변수 {#template-execution-parameters}
 
-**[!UICONTROL Advanced campaign settings...]** 링크를 사용하면 게재 대상(컨트롤 그룹, 시드 주소 등)을 처리하기 위한 템플릿의 고급 옵션을 구성할 수 있습니다. 캠페인 측정 및 워크플로우 실행 구성
+**[!UICONTROL Advanced campaign settings...]** 링크를 사용하면 게재 대상(컨트롤 그룹, 시드 주소 등)을 처리하기 위한 템플릿의 고급 옵션과 캠페인 측정 및 워크플로우 실행 구성을 구성할 수 있습니다.
 
 ![](assets/s_ncs_user_op_template_tab1.2.png)
 

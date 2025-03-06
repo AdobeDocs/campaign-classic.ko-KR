@@ -4,8 +4,10 @@ title: 마케팅 캠페인 타겟 대상자
 description: 마케팅 캠페인 대상을 정의하는 방법 알아보기
 role: User
 feature: Campaigns, Audiences
+hide: true
+hidefromtoc: true
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: 7453db63a0ed2c617e9f7e4cbfa3480b3ed5020d
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
@@ -91,7 +93,7 @@ ht-degree: 1%
 
 타겟팅은 스케줄(스케줄러) 또는 이벤트(외부 신호, 파일 가져오기 등)에 따라 자동 실행을 위해 프로그래밍될 수 있다.
 
-타겟팅 워크플로우 실행과 관련된 작업(실행, 중지, 일시 중지 등) **비동기** 프로세스입니다. 명령이 저장되며 서버에서 명령을 적용할 수 있는 즉시 적용됩니다.
+타깃팅 워크플로우 실행(실행, 중지, 일시 중지 등)과 관련된 작업은 **비동기** 프로세스입니다. 명령은 저장되며 서버에서 해당 명령을 적용할 수 있게 되면 즉시 적용됩니다.
 
 도구 모음 아이콘을 사용하면 타겟팅 워크플로우 실행에 관한 작업을 수행할 수 있습니다.
 
@@ -186,7 +188,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_user_edit_op_target.png)
 
-1. **[!UICONTROL Enable and edit control group configuration]** 옵션을 선택하십시오.
+1. **[!UICONTROL Enable and edit control group configuration]** 옵션을 선택합니다.
 1. 컨트롤 그룹을 구성하려면 **[!UICONTROL Edit...]**&#x200B;을(를) 클릭하십시오.
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)

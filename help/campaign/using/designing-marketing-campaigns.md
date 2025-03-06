@@ -4,11 +4,13 @@ title: 마케팅 캠페인 디자인 및 실행
 description: 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다.
 role: User
 feature: Campaigns
+hide: true
+hidefromtoc: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -68,4 +70,4 @@ Campaign의 컨텍스트에서 다음 개념을 알고 있어야 합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
-추가 Campaign Classic 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

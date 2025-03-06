@@ -4,8 +4,10 @@ title: 일관성 규칙
 description: Adobe Campaign에서 일관성 규칙을 사용하여 작업하는 방법을 알아봅니다.
 role: User, Data Engineer
 feature: Typology Rules, Campaigns
+hide: true
+hidefromtoc: true
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 3%
