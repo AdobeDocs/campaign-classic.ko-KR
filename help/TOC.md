@@ -6,7 +6,7 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
 workflow-type: tm+mt
 source-wordcount: '2571'
 ht-degree: 99%
@@ -237,8 +237,8 @@ ht-degree: 99%
       + [콘텐츠 템플릿 사용](delivery/using/using-a-content-template.md)
       + [콘텐츠 강화](delivery/using/enriching-content.md)
       + [워크플로를 통한 자동화](delivery/using/automating-via-workflows.md)
++ [마케팅 캠페인 오케스트레이션](campaign/using/about-marketing-campaigns.md)
 + 마케팅 캠페인 오케스트레이션 {#orchestrating-campaigns}
-   + [마케팅 캠페인 기본 정보](campaign/using/about-marketing-campaigns.md)
    + [캠페인 최적화 기본 정보](campaign-opt/using/about-campaign-optimization.md)
    + 마케팅 캠페인 정보 {#about-marketing-campaigns}
       + [마케팅 캠페인 디자인](campaign/using/designing-marketing-campaigns.md)
@@ -392,8 +392,8 @@ ht-degree: 99%
       + [대상자 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
       + [ [!DNL ACS Connector] 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
++ [워크플로 자동화](workflow/using/about-workflow-automation.md)
 + 워크플로 자동화 {#automating-with-workflows}
-   + [워크플로우 자동화 기본 정보](workflow/using/about-workflow-automation.md)
    + 워크플로 시작 {#introduction}
       + [워크플로 정보](workflow/using/about-workflows.md)
       + [활동 정보](workflow/using/about-activities.md)

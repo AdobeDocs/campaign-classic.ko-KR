@@ -3,18 +3,15 @@ product: campaign
 title: 워크플로 정보
 description: 워크플로를 통해 프로세스를 자동화하고 데이터 및 대상자를 관리하며 메시지 전송 등을 수행할 수 있습니다
 feature: Workflows, Data Management
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+exl-id: 024a7344-9376-4ff3-926a-003148229f9f
+source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 92%
+source-wordcount: '274'
+ht-degree: 59%
 
 ---
 
-# 워크플로 시작{#gs-workflows}
-
-
-
-## 워크플로 정보{#about-workflows}
+# 워크플로 자동화 {#gs-workflows}
 
 Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체 프로세스 및 작업을 오케스트레이션할 수 있는 워크플로 모듈이 포함되어 있습니다. 이 포괄적인 그래픽 환경을 사용하면 세분화, 캠페인 실행, 파일 처리, 인력 참여 등의 프로세스를 디자인할 수 있습니다. 워크플로 엔진은 이러한 프로세스를 실행하고 추적합니다.
 
@@ -24,9 +21,21 @@ Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체
 
 워크플로는 캠페인 관리 프로세스의 다양한 컨텍스트 및 단계 내에서 발생합니다.
 
->[!NOTE]
->
->워크플로우 관리에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target=_blank}를 참조하세요.
+워크플로우 관리에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target=_blank}를 참조하세요.
+
+![](assets/do-not-localize/workflow.jpg){width="40%"}
+
+워크플로우 관리와 관련된 주요 단계를 알아봅니다.
+
+* [워크플로우 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=ko){target=_blank}: 활동이 작업 템플릿을 설명합니다. 워크플로우에는 타겟팅, 흐름 제어, 작업 및 이벤트 활동이 포함됩니다.
+
+* [워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target=_blank}: 타깃팅, 캠페인 및 기술 워크플로우를 만들고 실행하는 방법을 알아봅니다.
+
+* [모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target=_blank}: Campaign 워크플로 성능을 최적화하고, 워크플로 디자인을 개선하고, 올바른 설정을 선택하는 지침에 대해 알아봅니다.
+
+* [워크플로우 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target=_blank}: 모든 것이 올바르게 실행되고 있는지 확인하기 위해 워크플로우 실행을 모니터링하는 방법에 대해 알아봅니다.
+
+* [워크플로우 사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html){target=_blank}: 워크플로우를 사용할 수 있는 다양한 컨텍스트와 엔드 투 엔드 사용 사례를 통해 워크플로를 구현하는 방법을 알아봅니다.
 
 <!--
 
