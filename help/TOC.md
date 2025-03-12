@@ -239,7 +239,7 @@ ht-degree: 99%
       + [워크플로를 통한 자동화](delivery/using/automating-via-workflows.md)
 + [마케팅 캠페인 오케스트레이션](campaign/using/about-marketing-campaigns.md)
 + 마케팅 캠페인 오케스트레이션 {#orchestrating-campaigns}
-   + [캠페인 최적화 기본 정보](campaign-opt/using/about-campaign-optimization.md)
+   + [캠페인 최적화 정보](campaign-opt/using/about-campaign-optimization.md)
    + 마케팅 캠페인 정보 {#about-marketing-campaigns}
       + [마케팅 캠페인 디자인](campaign/using/designing-marketing-campaigns.md)
       + [마케팅 캠페인 액세스](campaign/using/accessing-marketing-campaigns.md)
