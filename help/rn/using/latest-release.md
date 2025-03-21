@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: ab38c7fd45513c6f7a8ecf7ef8601f0b5a4b5757
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: bf45c8bcdd41e614f9be09bc0fd6385707159841
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 35%
 
 ---
 
@@ -17,49 +17,41 @@ ht-degree: 100%
 
 이 페이지에서는 **최신 Campaign v7 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다. 모든 새 빌드는 색상으로 상태가 표시됩니다. [이 페이지](rn-overview.md)에서 Campaign Classic v7 빌드 상태에 대해 자세히 알아보십시오.
 
-## 릴리스 7.4.1 - 빌드 9383 {#release-7-4-1}
+## 릴리스 7.4.2 - 빌드 9390 {#release-7-4-2}
 
-[!BADGE 일반 공급]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
+[!BADGE 제한 공개]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
-_2024년 6월 18일 수요일_
+_2025년 3월 21일 토요일_
 
-### 변경 및 개선 사항 {#release-7-4-1-changes}
+>[!AVAILABILITY]
+>
+>이 릴리스는 **제한 공개**(LA) 상태입니다. 호스팅/관리 서비스 사용자만 사용할 수 있습니다. 이 릴리스는 곧 하이브리드 및 온-프레미스 고객에게 제공될 예정입니다.
 
-* Adobe의 서비스 계정(JWT) 자격 증명 사용 종료에 따라 Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 구현한 경우 2025년 1월 27일 이전에 Campaign 환경을 v7.4.1로 업그레이드하고 기술 계정을 oAuth로 마이그레이션해야 합니다. [자세히 알아보기](../../integrations/using/oauth-technical-account.md)
+<!--
+### Compatibility updates {#comp-7-4-2}
 
-* [Campaign 기술 운영자를 Developer Console로 마이그레이션](../../technotes/using/ims-migration.md)하고 [최종 사용자 인증 방식을 IMS로 전환](../../technotes/using/migrate-users-to-ims.md)한 뒤에는 사용자 인터페이스 및 API 제한을 활성화하여 기본 인증과 관련된 옵션 및 기능을 제거할 수 있습니다. [자세히 알아보기](../../technotes/using/impact-ims-migration.md)
+This release comes with the following compatibility updates:
 
+* JQuery library update: fixes multiple UI issues (reports, web apps)
+* PostgreSQL 15 and 16
 
-### 호환성 업데이트 {#release-7-4-1-compat}
+-->
 
-[Adobe Campaign 호환성 매트릭스](compatibility-matrix.md)에 이번 새로운 릴리스와 함께 제공되는 변경 사항을 업데이트했습니다. 아래에서 목록을 확인할 수 있습니다.
+### 보안 개선 사항 {#security-7-4-2}
 
-* Adobe Campaign이 이제 **Microsoft Server 2022** 운영 체제와 호환됩니다.
-* Adobe Campaign이 이제 **RHEL 9** 운영 체제와 호환됩니다.
+이 릴리스에는 몇 가지 보안 수정 사항이 함께 제공됩니다.
 
-  >[!CAUTION]
-  >
-  >RHEL 9를 사용하는 온-프레미스 고객이 DKIM(Domain Keys Identified Mail) 인증을 사용하려면 [이 섹션](../../installation/using/installing-packages-with-linux.md#rhel-9-update)에서 설명하는 대로 시스템 설정을 업데이트해야 합니다.
+보안을 강화하기 위해 **[!UICONTROL Adobe Experience Cloud]** 외부 계정을 통해 Adobe 솔루션 및 앱과의 연결을 업데이트했습니다.
 
+### 해결 사항 {#release-7-4-2-fixes}
 
-* Adobe Campaign이 이제 **Microsoft SQL Server 2022** 및 **Oracle 23c** 관계형 데이터베이스 관리 시스템과 호환되며, FDA(Federated Data Access)에서 사용할 수 있습니다.
+이 릴리스는 다음과 같은 주요 수정 사항과 함께 제공됩니다.
 
-* 이제 Adobe Campaign에 JDK(Java Development Kit) 11 이상이 필요합니다. Windows에서는 [이 섹션](../../installation/using/application-server.md#jdk)의 설명대로 JRE를 사용할 수 있어야 합니다.
+* TLS/SMPP 연결 수정 사항
+* Google BigQuery 수정
+* MTA 수정
 
-* 모바일 애플리케이션용 Campaign(Neolane) SDK의 사용이 종료되었습니다. 이제 Adobe Experience Platform SDK로 전환해야 합니다. [자세히 알아보기](deprecated-features.md).
+이 릴리스에서는 다음 문제도 해결되었습니다.
 
-  한편 서비스 연속성을 보장하기 위해 Campaign v7.4에는 다음이 포함되어 있습니다.
-
-   * 새로운 iOS용 Campaign SDK 1.0.27(iOS 16 및 17 호환) 및 최신 [Apple iOS 개인 정보 요청 요구 사항](https://developer.apple.com/news/?id=r1henawx){target="_blank"}.
-   * 새로운 Android 14용 Campaign SDK.
-
-### 기타 변경 사항 {#release-7-4-1-other}
-
-v7.4.1부터 RPM Linux용 XML 라이브러리는 더 이상 Campaign에 포함되지 않습니다. 온-프레미스 또는 하이브리드 고객의 경우 관리자가 해당 라이브러리를 설치해야 합니다. [자세히 알아보기](../../installation/using/installing-packages-with-linux.md)
-
-### 패치 {#release-7-4-1-patches}
-
-이 릴리스에서는 다음 수정 사항이 제공됩니다.
-
-NEO-74754, NEO-73174, NEO-72504, NEO-71534, NEO-71473, NEO-70195, NEO-69663, NEO-69651, NEO-67620, NEO-67235, NEO-66797, NEO-64680, NEO-63706, NEO-63657, NEO-62964, NEO-62575, NEO-58734, NEO-40531, NEO-36189, NEO-29592
+NEO-47269, NEO-59059, NEO-62455, NEO-65774, NEO-66462, NEO-66989, NEO-77898, NEO-78843, NEO-79373, NEO-79598, NEO-80145, NEO-80245, NEO-80434, NEO-80683, NEO-81222, NEO-81433, NEO-81864, NEO-82351, NEO-82781, NEO-82838, NEO-82923, NEO-83252, NEO-83809, NEO-83826, NEO-84024, NEO-84553 85150
 
