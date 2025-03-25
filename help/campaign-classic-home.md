@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: fb19195c7331a2adc0bcf7a37ae7678078dce5e6
+source-git-commit: ec39e513a3474bdcdcf39be7b5e184d62b98f7a2
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 94%
 
 ---
 
@@ -21,9 +21,9 @@ Adobe Campaign Classic v7 제품 및 설명서의 최신 개선 사항을 살펴
 >[!BEGINTABS]
 
 
->[!TAB 6월 릴리스가 공개되었습니다!]
+>[!TAB 2025년 3월 릴리스가 공개되었습니다!]
 
-Campaign Classic v7.4.1에서 제공하는 업데이트, 개선 사항, 패치를 살펴봅니다.
+Campaign Classic v7.4.2 - 2025년 3월 릴리스의 업데이트, 개선 사항 및 수정 사항을 살펴보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -89,7 +89,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>메시지 보내기</strong><br/><a href="delivery/using/communication-channels.md">커뮤니케이션 채널</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">증명 보내기</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B 테스트</a> - <a href="delivery/using/about-message-tracking.md">메시지 추적</a> - <a href="delivery/using/about-deliverability.md">전달성</a> - <a href="message-center/using/about-transactional-messaging.md">트랜잭션 메시지</a>
+      <strong>메시지 보내기</strong><br/><a href="delivery/using/communication-channels.md">커뮤니케이션 채널</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">교정쇄 보내기</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B 테스트</a> - <a href="delivery/using/about-message-tracking.md">메시지 추적</a> - <a href="delivery/using/about-deliverability.md">전달성</a> - <a href="message-center/using/about-transactional-messaging.md">트랜잭션 메시지</a>
     </td>
   </tr>
   <tr style="border: 0;">
