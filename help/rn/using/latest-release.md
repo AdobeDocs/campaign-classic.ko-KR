@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: a92e49e1ac8b0e8f619e06fadba73090a693bc4a
+source-git-commit: 631188b5974eaa4cd1bf667c5df9f2ff0f983cf0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '251'
+ht-degree: 27%
 
 ---
 
@@ -47,9 +47,19 @@ This release comes with the following compatibility updates:
 
 이 릴리스는 다음과 같은 주요 수정 사항과 함께 제공됩니다.
 
-* TLS/SMPP 연결 수정 사항
-* Google BigQuery 수정
-* MTA 수정
+* TLS/SMPP 연결 - SMPP 안정성 문제가 해결되었습니다
+
+* Google BigQuery 수정 사항:
+
+   * 부울 데이터 유형에 대한 회귀가 수정되었습니다.
+   * 프록시 설정 문제가 해결되었습니다.
+   * DATETIME 데이터 형식에 대한 회귀가 수정되었습니다.
+   * 고정 벌크 로드 안정성
+   * ODBC 버전에 대한 내부 테스트 개선
+   * 연결 문자열에 특수 문자가 있는 문제가 해결되었습니다.
+   * Google BigQuery 쿼리에서 기본 시간 초과(5분)를 제거했습니다.
+
+* MTA(메일 전송 에이전트) - 고아 MTA 하위가 **[!UICONTROL Start pending]** 상태에서 중단되는 문제를 해결했습니다.
 
 이 릴리스에서는 다음 문제도 해결되었습니다.
 
