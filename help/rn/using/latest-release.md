@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 631188b5974eaa4cd1bf667c5df9f2ff0f983cf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 27%
 
 [!BADGE 제한 공개]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
-_2025년 3월 21일 토요일_
+_2025년 3월 21일_
 
 >[!AVAILABILITY]
 >
->이 릴리스는 **제한 공개**(LA) 상태입니다. 호스팅/관리 서비스 사용자만 사용할 수 있습니다. 이 릴리스는 곧 하이브리드 및 온-프레미스 고객에게 제공될 예정입니다.
+>이 릴리스는 **제한 공개**(LA) 상태입니다. Hosted/Managed Services 사용자만 사용할 수 있습니다. 이 릴리스는 곧 하이브리드 및 온-프레미스 고객에게 제공될 예정입니다.
 
 <!--
 ### Compatibility updates {#comp-7-4-2}
@@ -39,29 +39,29 @@ This release comes with the following compatibility updates:
 
 ### 보안 개선 사항 {#security-7-4-2}
 
-이 릴리스에는 몇 가지 보안 수정 사항이 함께 제공됩니다.
+이 릴리스에서는 여러 보안 문제를 해결합니다.
 
-보안을 강화하기 위해 **[!UICONTROL Adobe Experience Cloud]** 외부 계정을 통해 Adobe 솔루션 및 앱과의 연결을 업데이트했습니다.
+보안을 강화하기 위해 **[!UICONTROL Adobe Experience Cloud]** 외부 계정을 통한 Adobe 솔루션 및 앱 연결을 업데이트했습니다.
 
 ### 해결 사항 {#release-7-4-2-fixes}
 
-이 릴리스는 다음과 같은 주요 수정 사항과 함께 제공됩니다.
+이 릴리스에서는 다음과 같은 주요 문제가 해결되었습니다.
 
-* TLS/SMPP 연결 - SMPP 안정성 문제가 해결되었습니다
+* TLS/SMPP 연결 - SMPP 안정성 문제를 해결했습니다.
 
-* Google BigQuery 수정 사항:
+* Google BigQuery 문제 해결:
 
-   * 부울 데이터 유형에 대한 회귀가 수정되었습니다.
-   * 프록시 설정 문제가 해결되었습니다.
-   * DATETIME 데이터 형식에 대한 회귀가 수정되었습니다.
-   * 고정 벌크 로드 안정성
-   * ODBC 버전에 대한 내부 테스트 개선
-   * 연결 문자열에 특수 문자가 있는 문제가 해결되었습니다.
-   * Google BigQuery 쿼리에서 기본 시간 초과(5분)를 제거했습니다.
+   * 부울 데이터 유형에 대한 회귀 문제를 해결했습니다.
+   * 프록시 설정 문제를 해결했습니다.
+   * DATETIME 데이터 유형에 대한 회귀 문제를 해결했습니다.
+   * 대량 로드 안정성 문제를 해결했습니다.
+   * ODBC 버전에 대한 내부 테스트를 개선했습니다.
+   * 연결 문자열의 특수 문자에 발생하는 문제를 해결했습니다.
+   * Google BigQuery 쿼리에서 기본 시간 제한(5분)을 제거했습니다.
 
-* MTA(메일 전송 에이전트) - 고아 MTA 하위가 **[!UICONTROL Start pending]** 상태에서 중단되는 문제를 해결했습니다.
+* 메일 전송 에이전트(MTA) - 분리된 MTA 하위 요소가 **[!UICONTROL Start pending]** 상태에서 중단되는 문제를 해결했습니다.
 
-이 릴리스에서는 다음 문제도 해결되었습니다.
+이 릴리스에서는 다음 문제도 해결합니다.
 
-NEO-47269, NEO-59059, NEO-62455, NEO-65774, NEO-66462, NEO-66989, NEO-77898, NEO-78843, NEO-79373, NEO-79598, NEO-80145, NEO-80245, NEO-80434, NEO-80683, NEO-81222, NEO-81433, NEO-81864, NEO-82351, NEO-82781, NEO-82838, NEO-82923, NEO-83252, NEO-83809, NEO-83826, NEO-84024, NEO-84553 85150
+NEO-47269, NEO-59059, NEO-62455, NEO-65774, NEO-66462, NEO-66989, NEO-77898, NEO-78843, NEO-79373, NEO-79598, NEO-80145, NEO-80245, NEO-80434, NEO-80683, NEO-81222, NEO-81433, NEO-81864, NEO-82351, NEO-82781, NEO-82838, NEO-82923, NEO-83252, NEO-83809, NEO-83826, NEO-84024, NEO-84553, NEO-85150
 

@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2571'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -392,7 +392,7 @@ ht-degree: 99%
       + [대상자 동기화](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화](integrations/using/synchronizing-web-applications.md)
       + [ [!DNL ACS Connector] 문제 해결](integrations/using/troubleshooting-the-acs-connector.md)
-+ [워크플로 자동화](workflow/using/about-workflow-automation.md)
++ [워크플로로 자동화](workflow/using/about-workflow-automation.md)
 + 워크플로 자동화 {#automating-with-workflows}
    + 워크플로 시작 {#introduction}
       + [워크플로 정보](workflow/using/about-workflows.md)

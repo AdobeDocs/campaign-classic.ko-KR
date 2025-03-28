@@ -4,9 +4,9 @@ product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: ec39e513a3474bdcdcf39be7b5e184d62b98f7a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign Classic v7 제품 및 설명서의 최신 개선 사항을 살펴
 
 >[!TAB 2025년 3월 릴리스가 공개되었습니다!]
 
-Campaign Classic v7.4.2 - 2025년 3월 릴리스의 업데이트, 개선 사항 및 수정 사항을 살펴보십시오.
+Campaign Classic v7.4.2 - 2025년 3월 릴리스의 업데이트, 개선 사항, 해결 사항을 알아보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
