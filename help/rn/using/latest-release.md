@@ -6,8 +6,8 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 631188b5974eaa4cd1bf667c5df9f2ff0f983cf0
-workflow-type: ht
+source-git-commit: c5aa626c166f513084d5fa141f307aba8bd57d36
+workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 100%
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 ## 릴리스 7.4.2 - 빌드 9390 {#release-7-4-2}
 
-[!BADGE 제한 공개]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
+[!BADGE 일반 공급]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
 
-_2025년 3월 21일_
+_2025년 4월 2일 목요일_
 
 >[!AVAILABILITY]
 >
