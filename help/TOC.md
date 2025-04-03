@@ -6,7 +6,7 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 1a23e55190ae26edd7193838600a803137f13201
+source-git-commit: efeb6c7d0969c66ec9bd63f4bf424224c8ca222b
 workflow-type: tm+mt
 source-wordcount: '2571'
 ht-degree: 100%
@@ -237,8 +237,8 @@ ht-degree: 100%
       + [콘텐츠 템플릿 사용](delivery/using/using-a-content-template.md)
       + [콘텐츠 강화](delivery/using/enriching-content.md)
       + [워크플로를 통한 자동화](delivery/using/automating-via-workflows.md)
++ [마케팅 캠페인 오케스트레이션](campaign/using/about-marketing-campaigns.md)
 + 마케팅 캠페인 오케스트레이션 {#orchestrating-campaigns}
-   + [마케팅 캠페인 오케스트레이션](campaign/using/about-marketing-campaigns.md)
    + [캠페인 최적화 정보](campaign-opt/using/about-campaign-optimization.md)
    + 마케팅 캠페인 정보 {#about-marketing-campaigns}
       + [마케팅 캠페인 디자인](campaign/using/designing-marketing-campaigns.md)
