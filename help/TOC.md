@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
-workflow-type: ht
-source-wordcount: '2571'
+source-git-commit: 3daf88e14792bfc675cd4cbec6571377c9aa9392
+workflow-type: tm+mt
+source-wordcount: '2568'
 ht-degree: 100%
 
 ---
@@ -238,20 +238,19 @@ ht-degree: 100%
       + [콘텐츠 강화](delivery/using/enriching-content.md)
       + [워크플로를 통한 자동화](delivery/using/automating-via-workflows.md)
 + [마케팅 캠페인 오케스트레이션](campaign/using/about-marketing-campaigns.md)
-+ 마케팅 캠페인 오케스트레이션 {#orchestrating-campaigns}
    + [캠페인 최적화 정보](campaign-opt/using/about-campaign-optimization.md)
-   + 마케팅 캠페인 정보 {#about-marketing-campaigns}
-      + [마케팅 캠페인 디자인](campaign/using/designing-marketing-campaigns.md)
-      + [마케팅 캠페인 액세스](campaign/using/accessing-marketing-campaigns.md)
-   + 캠페인 오케스트레이션 {#orchestrate-campaigns}
-      + [마케팅 캠페인 시작](campaign/using/setting-up-marketing-campaigns.md)
-      + [템플릿 만들기 및 구성](campaign/using/marketing-campaign-templates.md)
-      + [게재 추가](campaign/using/marketing-campaign-deliveries.md)
-      + [대상자 선택](campaign/using/marketing-campaign-target.md)
-      + [문서 및 에셋 관리](campaign/using/marketing-campaign-assets.md)
-      + [승인 설정 및 관리](campaign/using/marketing-campaign-approval.md)
-      + [캠페인 모니터링](campaign/using/marketing-campaign-monitoring.md)
-      + [공급자, 재고 및 예산](campaign/using/providers-stocks-and-budgets.md)
+      + 마케팅 캠페인 정보 {#about-marketing-campaigns}
+         + [마케팅 캠페인 디자인](campaign/using/designing-marketing-campaigns.md)
+         + [마케팅 캠페인 액세스](campaign/using/accessing-marketing-campaigns.md)
+      + 캠페인 오케스트레이션 {#orchestrate-campaigns}
+         + [마케팅 캠페인 시작](campaign/using/setting-up-marketing-campaigns.md)
+         + [템플릿 만들기 및 구성](campaign/using/marketing-campaign-templates.md)
+         + [게재 추가](campaign/using/marketing-campaign-deliveries.md)
+         + [대상자 선택](campaign/using/marketing-campaign-target.md)
+         + [문서 및 에셋 관리](campaign/using/marketing-campaign-assets.md)
+         + [승인 설정 및 관리](campaign/using/marketing-campaign-approval.md)
+         + [캠페인 모니터링](campaign/using/marketing-campaign-monitoring.md)
+         + [공급자, 재고 및 예산](campaign/using/providers-stocks-and-budgets.md)
       + 캠페인 최적화 {#campaign-optimization}
          + [캠페인 유형 분류 정보](campaign-opt/using/about-campaign-typologies.md)
          + [압력 규칙](campaign-opt/using/pressure-rules.md)
