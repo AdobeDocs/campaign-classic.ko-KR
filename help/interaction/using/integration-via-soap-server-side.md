@@ -7,9 +7,9 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '325'
 ht-degree: 3%
 
 ---
@@ -37,10 +37,10 @@ SOAP을 통한 오퍼 제안에 대해 **nms:proposition#Propose** 명령과 다
 >
 >**targetId** 및 **maxCount** 설정은 필수입니다. 다른 것들은 선택 사항입니다.
 
-쿼리에 대한 응답으로 SOAP 서비스는 다음 매개 변수를 반환합니다.
+쿼리에 대해 SOAP 서비스는 다음 매개 변수를 반환합니다.
 
 * **interactionId**: 인터랙션의 ID입니다.
-* **제안**: XML 요소에는 각각 고유한 ID와 HTML 표현이 있는 제안 목록이 포함됩니다.
+* **제안**: XML 요소에는 각각 고유한 ID와 HTML 표현이 있는 제안 목록이 포함되어 있습니다.
 
 ## 오퍼 업데이트 {#offer-update}
 
@@ -54,8 +54,15 @@ SOAP을 통한 오퍼 제안에 대해 **nms:proposition#Propose** 명령과 다
 
 다음은 SOAP 호출에 대한 코드의 예입니다.
 
+다음은 URL의 예입니다.
+
+```
+http://<urlOfYourJSSP>?env=liveRcp&sp=<nameSpaceOfferSpace>&t=<targetID>
+```
+
 ```
 <%
+  var env = request.getUTF8Parameter("env");
   var space = request.parameters.sp
   var cnx = new HttpSoapConnection(
     "https://" + request.serverName + ":" + request.serverPort + "/interaction/" + env + "/" + space,
@@ -104,7 +111,7 @@ SOAP을 통한 오퍼 제안에 대해 **nms:proposition#Propose** 명령과 다
       var result = session.Propose(target, count, category, theme, <empty/>)
       var props = result[1]
   %><table><tr><%
-      for each( var propHtml in props.proposition.*.mdSource )
+      for each( var propHtml in props.proposition.*.htmlSource )
       {
         %><td><%=propHtml%></td><%
       }

@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '3782'
-ht-degree: 100%
+source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
+workflow-type: tm+mt
+source-wordcount: '3864'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,17 @@ ht-degree: 100%
 이 페이지에는 월별 모든 새로운 기능과 설명서 업데이트와 Campaign 릴리스가 나열됩니다.
 
 릴리스 관련 업데이트는 [Adobe Campaign Classic 릴리스 정보](../../rn/using/latest-release.md)를 참조하십시오.
+
+## 2025
+
+### 2025년 3월 {#march-2025}
+
+Campaign v8 홍보 이니셔티브의 일환으로 Campaign Classic 설명서 세트 재구성을 시작했습니다. 7.4.2에서는 첫 번째 이정표를 발표합니다. 다음 안내서는 v8 설명서에 대한 링크를 포함하는 랜딩 페이지로 대체되었습니다.
+
+* 마케팅 캠페인 오케스트레이션: 이 가이드는 [랜딩 페이지](../../campaign/using/about-marketing-campaigns.md)(으)로 대체되었습니다.
+* 마케팅 리소스 관리: 이 안내서는 제거되었습니다.
+* 분산 마케팅: 이 안내서는 제거되었습니다.
+* 워크플로우 자동화: 이 안내서는 [랜딩 페이지](../../workflow/using/about-workflow-automation.md)(으)로 대체되었습니다.
 
 ## 2024
 
@@ -232,7 +243,7 @@ Campaign 클라이언트 콘솔 설치 단계가 개선되었고 명확해졌습
 
 새로운 섹션에서는 Adobe Experience Platform 소스 및 대상을 사용하여 Campaign Standard 및 Adobe RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공유하는 방법에 대해 설명합니다. [자세히 알아보기](../../integrations/using/get-started-sources-destinations.md)
 
-ISP 중단 후 바운스 자격을 업데이트하는 방법을 알려 주는 새로운 기술 정보가 생성되었습니다. [자세한 내용](../../delivery/using/update-bounce-qualification.md)
+ISP 중단 후 바운스 선별을 업데이트하는 방법을 알려 주는 새로운 기술 정보가 생성되었습니다. [자세한 내용](../../delivery/using/update-bounce-qualification.md)
 
 ## 2021년 3월 {#march-2021}
 
@@ -505,7 +516,7 @@ Adobe Campaign 기본 제공 데이터 모델을 설명하는 섹션이 각 테�
 
 워크플로 사용 사례는 주제별로 업데이트되고 재구성되었습니다. [자세한 내용](../../workflow/using/about-workflow-use-cases.md)
 
-[바운스 메일 자격](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) 및 [전자 메일 관리 규칙](../../delivery/using/understanding-delivery-failures.md#email-management-rules) 섹션이 업데이트된 정보로 향상되었습니다.
+[바운스 메일 선별](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) 및 [전자 메일 관리 규칙](../../delivery/using/understanding-delivery-failures.md#email-management-rules) 섹션이 업데이트된 정보로 향상되었습니다.
 
 Adobe Campaign Enhanced MTA 문서가 업데이트되었습니다. 이제 Campaign Classic에만 적용됩니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acc-campaign-enhanced-mta.html)
 

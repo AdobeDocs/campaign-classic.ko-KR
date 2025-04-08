@@ -8,9 +8,9 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: e40331266f34e2d6aa7b7720948d0cf26d4c6009
+source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1075'
 ht-degree: 8%
 
 ---
@@ -37,13 +37,13 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 SFTP 서버는 파일의 보존 및 삭제를 제어할 수 있는 임시 저장소 공간으로 설계되었습니다.
 
-올바르게 사용하거나 모니터링하지 않으면 이러한 공백이 서버에서 사용 가능한 실제 공간을 빠르게 채우고 이후 업로드 시 파일이 잘릴 수 있습니다. 공간이 포화 상태가 되면 자동 제거는 SFTP 저장소에서 가장 오래된 파일을 트리거하여 지울 수 있습니다.
+올바르게 사용하거나 모니터링하지 않으면 이러한 공백이 서버에서 사용 가능한 실제 공간을 빠르게 채우고 이후 업로드 시 파일이 잘릴 수 있습니다. Adobe에서 호스팅하는 SFTP 서버에서 SFTP 스토리지가 80% 임계값에 도달하면 파일이 압축됩니다. 이 프로세스는 자동으로 수행되며 Adobe 모니터링 시스템에 의해 트리거됩니다.
 
-Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것이 좋습니다.
+이러한 문제를 방지하기 위해 Adobe에서는 아래 모범 사례를 따를 것을 권장합니다.
 
 >[!NOTE]
 >
->* [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"} Campaign Classic으로 SFTP 서버 저장소를 모니터링할 수 있습니다.
+>* Campaign Classic [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}를 사용하여 SFTP 서버 저장소를 모니터링할 수 있습니다.
 >
 >* 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel){target="_blank"}에 자세히 설명되어 있습니다.
 >
@@ -61,14 +61,14 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
 
 자체 SFTP 서버를 사용하는 경우 위의 권장 사항을 최대한 준수하십시오.
 
-또한 Campaign Classic에서 외부 SFTP 서버에 대한 경로를 지정할 때 SFTP 서버 운영 체제에 따라 경로 구문이 다릅니다.
+또한 Campaign Classic에서 외부 SFTP 서버에 대한 경로를 지정할 때 경로 구문은 SFTP 서버 운영 체제에 따라 다릅니다.
 
 * SFTP 서버가 **Windows**&#x200B;에 있는 경우 항상 상대 경로를 사용하십시오.
 * STP 서버가 **Linux**&#x200B;에 있는 경우 항상 홈을 기준으로 하는 경로(&quot;~/&quot;로 시작) 또는 절대 경로(&quot;/&quot;로 시작)를 사용하십시오.
 
-## 호스팅된 Adobe SFTP 서버 연결 문제 {#sftp-server-troubleshooting}
+## Adobe 호스팅 SFTP 서버 연결 문제 {#sftp-server-troubleshooting}
 
-아래 섹션에는 Adobe 호스팅 SFTP 서버에 연결 문제가 발생할 때 [고객 지원 센터 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}을(를) 통해 Adobe 지원 팀에 확인하고 제공하는 정보가 나열되어 있습니다.
+아래 섹션에는 Adobe 호스팅 SFTP 서버에 연결 문제가 발생할 때 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}를 통해 Adobe 지원 팀에 확인하고 제공하는 정보가 나열되어 있습니다.
 
 1. 인스턴스가 실행 중인지 확인하십시오. 이렇게 하려면 브라우저를 연 다음 인스턴스 **[!UICONTROL /r/test]** 끝점에서 **[!UICONTROL GET]**&#x200B;을(를) 호출합니다.
 
@@ -96,11 +96,11 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
    myCompany-stage-sftp.neolane.net [AAA.BBB.CCC.D] 22 (ssh) open
    ```
 
-   포트가 열리지 않으면 측에서 아웃바운드 연결을 열어야 합니다. 그런 다음 다시 시도하십시오. 여전히 연결 문제가 발생하면 명령 출력을 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀과 공유하십시오.
+   포트가 열리지 않으면 측에서 아웃바운드 연결을 열어야 합니다. 그런 다음 다시 시도하십시오. 여전히 연결 문제가 발생하면 명령 출력을 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀과 공유하십시오.
 
-1. SFTP 연결을 시작하려는 퍼블릭 IP가 Adobe 지원 for the 허용 목록에 추가하다에 제공한 IP인지 확인합니다.
+1. SFTP 연결을 시작하려는 퍼블릭 IP가 Adobe 지원 for 허용 목록에 추가하다에 제공한 IP인지 확인합니다.
 1. 암호 기반 인증을 사용하는 경우 암호가 만료되었을 수 있습니다(암호에는 90일의 유효 기간이 있음). 따라서 키 기반 인증을 사용하는 것이 좋습니다([SFTP 서버 모범 사례](#sftp-server-best-practices) 참조).
-1. 키 기반 인증을 사용하는 경우 사용 중인 키가 인스턴스 구성을 위해 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀에 제공한 키와 같은지 확인하십시오.
+1. 키 기반 인증을 사용하는 경우 사용 중인 키가 인스턴스 구성을 위해 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀에 제공한 키와 같은지 확인하십시오.
 1. FileZilla 또는 이와 동등한 FTP 도구를 사용하는 경우 지원 티켓에 연결 로그 세부 사항을 입력합니다.
 
 ## &quot;호스트 이름을 확인할 수 없음&quot; 오류
@@ -140,7 +140,7 @@ Adobe 이러한 문제를 방지하려면 아래 모범 사례를 따르는 것�
 
    1. 워크플로우 감사로 이동하여 로그에 &#39;호스트 이름을 확인할 수 없습니다&#39; 오류가 표시되는지 확인합니다.
 
-1. SFTP 서버가 Adobe에 의해 호스팅되는 경우 고객 지원 센터에 문의하여 IP가 허용 목록에 추가하다에 추가되었는지 확인하십시오.
+1. SFTP 서버가 Adobe에서 호스팅되는 경우 고객 지원 센터에 문의하여 IP가 허용 목록에 추가하다에 추가되었는지 확인하십시오.
 
    그렇지 않으면 다음을 확인합니다.
 
