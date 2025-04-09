@@ -6,11 +6,12 @@ feature: Overview
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
+level: Intermediate, Experienced
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 597d24fa780a324507c56c55a5309b6ee1cf46eb
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '700'
 ht-degree: 4%
 
 ---
@@ -25,7 +26,7 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 앱 서비스와 관�
 
 >[!CAUTION]
 >
->이러한 통합을 사용하려면 Adobe ID을 통해 로그인하려면 IMS(Adobe Identity Management System)를 구현해야 합니다. [이 페이지에서 자세히 알아보십시오](../../integrations/using/about-adobe-id.md).
+>이러한 통합을 사용하려면 Adobe IMS(Identity Management System)를 구현하고 Adobe ID을 통해 로그인해야 합니다. [이 페이지에서 자세히 알아보십시오](../../integrations/using/about-adobe-id.md).
 >
 
 ## 솔루션 연결 {#working-with-experience-cloud-solutions}
@@ -46,7 +47,7 @@ Adobe Experience Cloud ID 서비스(ID 서비스)는 Experience Cloud의 모든 
 
 ## Experience Cloud 통합 {#experience-cloud-integrations}
 
-다음 표는 사용 가능한 Experience Cloud 통합 문서에 대한 액세스를 제공합니다.
+다음 표는 사용 가능한 Experience Cloud 통합 설명서에 대한 액세스를 제공합니다.
 
 <table> 
  <thead> 
@@ -57,11 +58,11 @@ Adobe Experience Cloud ID 서비스(ID 서비스)는 Experience Cloud의 모든 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <strong>RTCDP(Adobe Real-time Customer Data Platform)</strong><br /> </td> 
-   <td> Adobe Campaign과 RTCDP(Adobe Real-time Customer Data Platform) 간의 통합을 구성하여 세그먼트 데이터를 공유하고 Adobe Campaign으로 대상을 가져옵니다.<br /> <p>Campaign - Adobe Real-time Customer Data Platform 통합에 대해 <a href="../../integrations/using/get-started-sources-destinations.md">자세히 알아보기</a>.</p><br /> </td> 
+   <td> <strong>Adobe 실시간 고객 데이터 플랫폼(RTCDP)</strong><br /> </td> 
+   <td> Adobe Campaign과 Adobe Real-time Customer Data Platform(RTCDP) 간의 통합을 구성하여 세그먼트 데이터를 공유하고 대상을 Adobe Campaign으로 가져옵니다.<br /> <p>Campaign - Adobe 실시간 고객 데이터 플랫폼 통합에 대해 <a href="../../integrations/using/get-started-sources-destinations.md">자세히 알아보기</a>.</p><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>IMS(Identity Management 시스템) Adobe - Adobe ID</strong><br /> </td> 
+   <td> <strong>Adobe IMS(Identity Management System) - Adobe ID</strong><br /> </td> 
    <td> 다른 Adobe Experience Cloud 솔루션과 동일한 Adobe ID을 사용하여 Adobe Campaign에 연결하도록 Adobe IMS를 구성합니다.<br /> Adobe Experience Cloud 통합에 연결된 특정 기능을 사용하려면 Adobe ID을 사용하여 로그인해야 합니다.<br /> <p>Adobe Campaign을 사용한 Adobe ID 구현에 대해 <a href="../../integrations/using/about-adobe-id.md">자세히 알아보세요</a>.</p><br /> </td> 
   </tr> 
   <tr> 
@@ -86,7 +87,7 @@ Adobe Experience Cloud ID 서비스(ID 서비스)는 Experience Cloud의 모든 
   </tr> 
   <tr> 
    <td> <strong>Experience Cloud 트리거</strong><br /> </td> 
-   <td> <strong>Adobe Experience Cloud Triggers</strong>와(과) Adobe Campaign 간의 통합을 구성하여 Adobe Analytics이 웹 사이트에서 추적한 특정 행동에 반응하여 고객에게 개인화된 이메일을 보냅니다.<br /> <p>Adobe Campaign - Experience Cloud 트리거 통합에 대해 <a href="about-triggers.md">자세히 알아보기</a>.</p><br /> </td> 
+   <td> <strong>Adobe Experience Cloud 트리거</strong>와(과) Adobe Campaign 간의 통합을 구성하여 Adobe Analytics이 웹 사이트에서 추적한 특정 행동에 반응하여 고객에게 개인화된 이메일을 보냅니다.<br /> <p>Adobe Campaign - Experience Cloud 트리거 통합에 대해 <a href="about-triggers.md">자세히 알아보기</a>.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Analytics 커넥터</strong><br /> </td> 

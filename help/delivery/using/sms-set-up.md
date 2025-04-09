@@ -4,8 +4,9 @@ title: Campaign SMS 채널 구성
 description: Campaign에서 SMS 채널을 구성하는 방법 알아보기
 feature: SMS
 role: User, Developer, Admin
+level: Experienced
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 26%
@@ -18,7 +19,7 @@ ht-degree: 26%
 
 1. 커넥터 및 메시지 유형을 지정하는 외부 계정입니다.
 
-   레거시 커넥터는 이제 사용되지 않습니다. 사용 중단되는 기능은 계속 사용할 수는 있지만 더 이상 향상 또는 지원되지 않습니다. [이 페이지](../../rn/using/deprecated-features.md)에서 자세히 알아보십시오.
+   레거시 커넥터는 이제 더 이상 사용되지 않습니다. 사용 중단되는 기능은 계속 사용할 수는 있지만 더 이상 향상 또는 지원되지 않습니다. [이 페이지](../../rn/using/deprecated-features.md)에서 자세히 알아보십시오.
 
 1. 이 외부 계정이 참조되는 게재 템플릿입니다.
 
@@ -32,8 +33,8 @@ ht-degree: 26%
 >
 >여러 외부 SMS 계정에 동일한 계정과 암호를 사용하면 계정 간에 충돌과 겹칠 수 있습니다. [](troubleshooting-sms.md#external-account-conflict)
 
-To send a SMS to a mobile phone, you first need to create your SMPP external account.
-[](sms-protocol.md)
+휴대폰에 SMS를 전송하려면 먼저 SMPP 외부 계정을 만들어야 합니다.
+SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-protocol.md)를 참조하세요.
 
 이렇게 하려면 아래 단계를 수행합니다.
 
@@ -53,9 +54,9 @@ To send a SMS to a mobile phone, you first need to create your SMPP external acc
 
 1. **[!UICONTROL Enable verbose SMPP traces in the log file]** 옵션을 사용하면 모든 SMPP 트래픽을 로그 파일로 덤프할 수 있습니다. 커넥터의 문제를 해결하고 공급자가 보는 트래픽과 비교하려면 이 옵션을 활성화해야 합니다.
 
-1. SMS 서비스 공급자에게 문의하여 **[!UICONTROL Connection settings]** 탭에서 다양한 외부 계정 필드를 완료하는 방법을 설명하십시오.
+1. SMS 서비스 제공 업체에 문의하면 탭 에서 **[!UICONTROL Connection settings]** 다양한 외부 계정 필드를 작성하는 방법을 설명합니다.
 
-   선택한 항목에 따라 공급자에게 문의하여 **[!UICONTROL SMSC implementation name]** 필드에 입력할 값을 제공합니다.
+   그런 다음 선택한 공급자에 따라 공급자에게 **[!UICONTROL SMSC implementation name]** 연락하여 필드에 입력할 값을 제공합니다.
 
    MTA 하위 항목당 공급자에 대한 연결 수를 정의할 수 있습니다. 기본적으로 1로 설정되어 있습니다.
 
@@ -65,9 +66,9 @@ To send a SMS to a mobile phone, you first need to create your SMPP external acc
 
    >[!NOTE]
    >
-   >특정 문자(중괄호, 대괄호, 유로 기호 등)는 2로 계산됩니다.
+   >특정 문자는 2로 카운트됩니다(중괄호, 대괄호, 유로 기호 등).
    >
-   >사용 가능한 GSM 문자 목록은 아래에 나와 있습니다.
+   >사용 가능한 GSM 문자 목록은 다음과 같습니다.
 
    원하는 경우 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다.
 
@@ -75,15 +76,15 @@ To send a SMS to a mobile phone, you first need to create your SMPP external acc
 
    이 작업에 대한 자세한 정보는 [이 섹션](#about-character-transliteration)을 참조하십시오.
 
-1. **[!UICONTROL Throughput and delays]** 탭에서 아웃바운드 메시지의 최대 처리량(&quot;MT&quot;, 모바일 착신)을 초당 MT 단위로 지정할 수 있습니다. 해당 필드에 &quot;0&quot;을 입력하면 처리량이 무제한이 됩니다.
+1. **[!UICONTROL Throughput and delays]** 탭 에서 초당 MT 단위의 아웃바운드 메시지(&quot;MT&quot;, 모바일 종료)의 최대 처리량을 지정할 수 있습니다. 해당 필드에 &quot;0&quot;을 입력하면 처리량이 무제한이 됩니다.
 
    지속 시간에 해당하는 모든 필드의 값은 초 단위로 입력해야 합니다.
 
-1. **[!UICONTROL Mapping of encodings]** 탭에서 인코딩을 정의할 수 있습니다.
+1. **[!UICONTROL Mapping of encodings]** 탭 에서 인코딩을 정의할 수 있습니다.
 
    이 작업에 대한 자세한 정보는 [이 섹션](#about-text-encodings)을 참조하십시오.
 
-1. **[!UICONTROL SMSC specificities]** 탭에서 **[!UICONTROL Send full phone number]** 옵션은 기본적으로 비활성화되어 있습니다. SMPP 프로토콜을 준수하고 SMS 공급자(SMSC) 서버로 숫자만 전송하려면 활성화하지 마십시오.
+1. **[!UICONTROL SMSC specificities]** 탭 **[!UICONTROL Send full phone number]** 이 옵션은 기본적으로 비활성화되어 있습니다. SMPP 프로토콜을 준수하고 SMS 공급자(SMSC)의 서버로 숫자만 전송하려는 경우 활성화하지 마십시오.
 
    그러나 특정 공급자가 &#39;+&#39; 접두사 사용을 요청하는 경우 해당 공급자에게 확인하는 것이 좋습니다. 필요한 경우 공급자가 이 옵션을 활성화하라고 요청할 것입니다.
 
@@ -93,7 +94,7 @@ To send a SMS to a mobile phone, you first need to create your SMPP external acc
 
    이 작업에 대한 자세한 정보는 [이 섹션](#automatic-reply)을 참조하십시오.
 
-## SMS 문자 변환 {#about-character-transliteration}
+## SMS 문자 음역 {#about-character-transliteration}
 
 문자 변환은 SMPP 모바일 게재 외부 계정의 **[!UICONTROL Mobile]** 탭에서 설정할 수 있습니다.
 
@@ -104,13 +105,13 @@ To send a SMS to a mobile phone, you first need to create your SMPP external acc
 
 >[!IMPORTANT]
 >
->SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다.
+>SMS 메시지의 컨텐츠에 개인화 필드를 삽입하면 GSM 인코딩에 의해 계정되지 않는 문자가 도입될 수 있습니다.
 
 문자 변환은 기본적으로 비활성화되어 있습니다. SMS 메시지의 모든 문자를 그대로 유지하려는 경우, 예를 들어 제대로 된 이름이 바뀌지 않게 하려는 경우 이 옵션을 활성화하지 않는 것을 추천합니다.
 
 그러나 SMS 메시지에 유니코드 메시지를 생성하는 문자가 많이 포함된 경우, 이 옵션을 활성화하여 메시지 전송 비용을 제한할 수 있습니다.
 
-다음 표에는 GSM 표준에서 고려하는 문자가 나와 있습니다. 아래에 언급된 문자 외에 메시지 본문에 삽입된 모든 문자는 전체 메시지를 이진 형식(유니코드)으로 변환하여 70자로 제한합니다.
+다음 표에는 GSM 표준에서 계정 사용하는 문자가 나와 있습니다. 아래에 언급 된 문자를 제외하고 메시지 본문에 삽입 된 모든 문자는 전체 메시지를 이진 포맷 (유니코드)으로 전환 하므로 70 자로 제한됩니다.
 
 **기본 문자**
 
@@ -340,7 +341,7 @@ SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 
 * 키워드와 관계없이 동일한 회신을 보내려면 **[!UICONTROL Keyword]** 열을 비워 둡니다.
 * 응답을 보내지 않고 작업을 수행하려면 **[!UICONTROL Response]** 열을 비워 둡니다. 예를 들어 &quot;STOP&quot; 이외의 다른 메시지로 답장하는 사용자를 격리에서 제거할 수 있습니다.
 
-공급자 계정이 동일한 확장 일반 SMPP 커넥터를 사용하는 외부 계정이 여러 개 있는 경우 다음 문제가 발생할 수 있습니다. 짧은 코드에 회신을 보낼 때 외부 계정 연결 시 회신이 수신될 수 있습니다. 따라서 전송된 자동 회신이 예상 메시지가 될 수 없습니다.
+동일한 공급자 계정을 가진 확장 일반 SMPP 커넥터를 사용하는 여러 외부 계정이 있는 경우 다음과 같은 문제가 발생할 수 있습니다. 단축 코드로 회신을 보낼 때 외부 계정 연결에서 회신을 받을 수 있습니다. 따라서 전송된 자동 회신이 예상 메시지가 될 수 없습니다.
 이러한 문제를 방지하려면 사용 중인 공급자에 따라 다음 솔루션 중 하나를 적용하십시오.
 
 * 각 외부 계정에 대해 하나의 공급자 계정을 만듭니다.
@@ -350,7 +351,7 @@ SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 
 
 확장된 일반 SMPP 커넥터를 사용하여 외부 계정을 설정하는 단계는 [SMPP 외부 계정 만들기](#creating-an-smpp-external-account) 섹션에 자세히 설명되어 있습니다.
 
-## Change the delivery template {#changing-the-delivery-template}
+## 게재 템플릿 변경 {#changing-the-delivery-template}
 
 Adobe Campaign provides you with a template for delivering to mobiles. 이 템플릿은 **[!UICONTROL Resources > Templates > Delivery templates]** 노드에서 사용할 수 있습니다. 자세한 내용은 [템플릿 정보](about-templates.md) 섹션을 참조하세요.
 

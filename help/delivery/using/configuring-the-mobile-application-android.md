@@ -4,8 +4,9 @@ title: Adobe Campaign에서 Android 모바일 애플리케이션 구성
 description: Android용 모바일 애플리케이션을 설정하는 방법 알아보기
 feature: Push
 role: User, Developer
+level: Intermediate, Experienced
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 10%
@@ -51,13 +52,13 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
    ![](assets/nmac_connectors3.png)
 
-1. Android V2의 경우 Adobe 서버 구성 파일(serverConf.xml)에서 한 개의 추가 매개 변수를 사용할 수 있습니다.
+1. Android V2의 경우 Adobe 서버 구성 파일(serverConf.xml)에서 다음 매개 변수 하나를 추가로 사용할 수 있습니다.
 
    * **maxGCMConnectPerChild**: 각 하위 서버에서 시작된 FCM에 대한 병렬 HTTP 요청의 최대 제한(기본적으로 8개).
 
 ## Android 서비스 구성 {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 서비스를 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
+![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 서비스를 구성하는 방법에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
 
 1. **[!UICONTROL Profiles and Targets > Services and subscriptions]** 노드로 이동하여 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 

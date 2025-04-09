@@ -5,12 +5,13 @@ description: Campaign Classic FAQ
 feature: Troubleshooting, Application Settings
 audience: platform
 content-type: reference
+level: Beginner, Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '752'
-ht-degree: 72%
+ht-degree: 70%
 
 ---
 
@@ -28,7 +29,7 @@ Adobe Campaign 사용자 인터페이스는 영어, 프랑스어, 독일어 및 
 
 Campaign을 설치할 때 미국 영어 또는 영국 영어 중 하나를 선택할 수 있습니다. 날짜 및 시간 형식이 다릅니다. 차이점에 대한 자세한 정보는 [이 섹션](../../platform/using/adobe-campaign-workspace.md#date-and-time)을 참조하십시오.
 
-## 다른 Adobe 솔루션에서 Campaign Classic을 사용할 수 있습니까? {#can-i-use-campaign-classic-with-other-adobe-solutions-}
+## 다른 Adobe 솔루션과 함께 Campaign Classic을 사용할 수 있습니까? {#can-i-use-campaign-classic-with-other-adobe-solutions-}
 
 Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 경험을 개인화할 수 있도록 만들어진 솔루션 세트를 결합할 수 있습니다.
 
@@ -42,7 +43,7 @@ Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 
 
 ## 이메일 게재 기능을 구성하는 방법 {#how-to-configure-email-deliverability-}
 
-[Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko) 외에 전달성 기술 권장 사항을 읽어 Campaign 전달 기능을 최대화하기 위해 인스턴스를 구성하는 방법을 이해합니다.
+[Adobe 게재 기능 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko) 외에 게재 기능 권장 사항을 읽어 Campaign 게재 기능을 최대화하기 위해 인스턴스를 구성하는 방법을 이해합니다.
 
 자세한 내용을 보려면 [여기](../../delivery/using/about-deliverability.md)를 클릭하십시오.
 

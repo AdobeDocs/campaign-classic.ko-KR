@@ -4,8 +4,9 @@ title: Adobe Campaign에서 iOS 모바일 애플리케이션 구성
 description: iOS용 모바일 애플리케이션을 설정하는 방법 알아보기
 feature: Push
 role: User, Developer
+level: Intermediate, Experienced
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 3%
@@ -31,7 +32,7 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 이 커넥터를 구성하려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL Administration > Platform > External accounts]**(으)로 이동합니다.
-1. **[!UICONTROL iOS routing]** 외부 계정을 선택하십시오.
+1. **[!UICONTROL iOS routing]** 외부 계정 선택
 1. **[!UICONTROL Connector]** 탭에서 **[!UICONTROL Access URL of the connector]** 필드를 다음 URL로 채웁니다. ```http://localhost:8080/nms/jsp/iosHTTP2.jsp```
 
    ![](assets/nmac_connectors.png)
@@ -84,7 +85,7 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 
    ![](assets/nmac_ios_3.png)
 
-1. **[!UICONTROL Subscription parameters]** 탭에서 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 스키마의 확장으로 매핑을 정의할 수 있습니다.
+1. 이 **[!UICONTROL Subscription parameters]** 탭 사용하면 스키마 확장을 사용하여 매핑을 정의할 수 있습니다 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** .
 
    >[!NOTE]
    >
@@ -94,7 +95,7 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 
 1. 개발 응용 프로그램 구성을 시작하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
 
-1. Adobe Campaign 및 SDK를 통해 응용 프로그램 코드에 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되어 있는지 확인하십시오. <!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).--> 각 애플리케이션에 해당하는 이 통합 키를 사용하면 모바일 애플리케이션을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
+1. Adobe Campaign 및 SDK을 통해 응용 프로그램 코드에 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되어 있는지 확인하십시오. <!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).--> 각 애플리케이션에 해당하는 이 통합 키를 사용하면 모바일 애플리케이션을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
 
    >[!NOTE]
    >
@@ -114,7 +115,7 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 
    >[!NOTE]
    >
-   > P8 인증 키가 보다 새롭고 안전하므로 Adobe은 iOS 구성에 **[!UICONTROL Token-based authentication]**&#x200B;을(를) 사용하는 것을 권장합니다.
+   > P8 인증 키가 보다 새롭고 안전하므로 Adobe에서는 iOS 구성에 **[!UICONTROL Token-based authentication]**&#x200B;을(를) 사용하는 것이 좋습니다.
 
 1. **[!UICONTROL Test the connection]** 단추를 사용하여 구성의 유효성을 검사하십시오.
 

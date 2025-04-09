@@ -3,9 +3,9 @@ product: campaign
 title: API에 대한 Adobe 기술 계정 만들기 및 구성
 description: Adobe API 계정을 만드는 방법에 대해 자세히 알아보기
 role: User, Admin
-level: Beginner
+level: Intermediate, Experienced
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
-source-git-commit: 5352426fc68cbcb6519127e5c89c1e9f8619ca6b
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 6%
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 ## 기존 통합 마이그레이션 {#migrate-jwt}
 
-서비스 계정(JWT) 자격 증명은 Adobe에서 더 이상 사용되지 않습니다. 이제 Adobe 솔루션 및 앱과의 Campaign 통합은 OAuth 서버 간 자격 증명을 사용해야 합니다.
+JWT(서비스 계정) 자격 증명은 Adobe에서 더 이상 사용되지 않습니다. 이제 Adobe 솔루션 및 앱과의 Campaign 통합은 OAuth 서버 간 자격 증명을 사용해야 합니다.
 
 2024년 6월 이전에 Campaign과의 인바운드 또는 아웃바운드 통합을 구현한 경우 Campaign 환경을 v7.4.1로 업그레이드하고 기술 계정을 oAuth로 마이그레이션해야 합니다(자세한 내용: 이 설명서 [의](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}). **2025년 1월 27일**&#x200B;까지는 기존 서비스 계정(JWT) 자격 증명을 계속 사용할 수 있습니다. 
 
@@ -67,7 +67,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->호스팅 또는 관리 Cloud Service 고객인 경우 이 단계는 필요하지 않습니다. Adobe이 이미 OAuth 프로젝트 자격 증명을 환경에 추가했습니다.
+>호스팅 또는 Managed Cloud Services 고객인 경우 이 단계는 필요하지 않습니다. Adobe이 이미 OAuth 프로젝트 자격 증명을 환경에 추가했습니다.
 >
 
 온-프레미스 또는 하이브리드 고객은 다음 단계를 수행합니다.

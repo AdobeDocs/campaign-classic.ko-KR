@@ -6,10 +6,11 @@ feature: Triggers
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
+level: Intermediate, Experienced
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -47,7 +48,7 @@ ht-degree: 1%
 
 1. Adobe Campaign에서 **[!UICONTROL Explorer]**&#x200B;의 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 아래에 있는 옵션 메뉴에 액세스합니다.
 
-1. **[!UICONTROL NmsPipeline_Config]** 옵션을 선택하십시오.
+1. **[!UICONTROL NmsPipeline_Config]** 옵션을 선택합니다.
 
 1. **[!UICONTROL Value (long text)]** 필드에 두 개의 트리거를 지정하는 다음 JSON 코드를 붙여넣을 수 있습니다. 주석을 제거해야 합니다.
 

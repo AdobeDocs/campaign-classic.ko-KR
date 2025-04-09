@@ -1,26 +1,27 @@
 ---
 product: campaign
 title: Adobe Experience Cloud Triggers 기본 정보
-description: Adobe Experience Cloud Triggers 구현 시작
+description: Adobe Experience Cloud 트리거 구현 시작
 feature: Triggers
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 audience: integrations
 content-type: reference
+level: Intermediate, Experienced
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
-source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 7%
 
 ---
 
-# Campaign을 Experience Cloud 트리거와 함께 사용하기{#about-adobe-experience-triggers}
+# Campaign 및 Experience Cloud 트리거 작업{#about-adobe-experience-triggers}
 
 [!DNL Triggers]은(는) 파이프라인을 사용하여 Adobe Campaign과 Adobe Analytics 간의 통합입니다. 파이프라인은 사용자의 작업 또는 트리거를 웹 사이트에서 검색합니다. 장바구니 포기는 트리거의 예입니다. 트리거는 거의 실시간으로 이메일을 보내기 위해 Adobe Campaign에서 처리됩니다.
 
 >[!CAUTION]
 >
->이 기능은 제품의 일부로 기본 제공되지 않습니다. 이 구현의 경우 Adobe 담당자/고객 지원 센터와 협력하십시오. 그러면 이 [페이지](../../integrations/using/configuring-pipeline.md#prerequisites)에 설명된 단계를 따를 수 있습니다.
+>이 기능은 제품의 일부로 기본 제공되지 않습니다. 이 구현을 위해 Adobe 담당자/고객 지원 팀과 협력합니다. 그러면 이 [페이지](../../integrations/using/configuring-pipeline.md#prerequisites)에 설명된 단계를 따를 수 있습니다.
 
 [!DNL Triggers]은(는) 사용자의 작업 후 짧은 시간 내에 마케팅 작업을 실행합니다. 일반적인 응답 시간은 1시간 미만입니다.
 
