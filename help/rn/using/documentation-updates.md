@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3864'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 97%
 
 ### 2025년 3월 {#march-2025}
 
-Campaign v8 홍보 이니셔티브의 일환으로 Campaign Classic 설명서 세트 재구성을 시작했습니다. 7.4.2에서는 첫 번째 이정표를 발표합니다. 다음 안내서는 v8 설명서에 대한 링크를 포함하는 랜딩 페이지로 대체되었습니다.
+Campaign v8 프로모션 이니셔티브의 일환으로 Campaign Classic 설명서 세트 재구성을 시작했습니다. 7.4.2에서는 첫 번째 마일스톤을 발표합니다. 다음 안내서는 v8 설명서에 대한 링크를 포함하는 랜딩 페이지로 대체되었습니다.
 
-* 마케팅 캠페인 오케스트레이션: 이 가이드는 [랜딩 페이지](../../campaign/using/about-marketing-campaigns.md)(으)로 대체되었습니다.
+* 마케팅 캠페인 오케스트레이션: 이 안내서는 [랜딩 페이지](../../campaign/using/about-marketing-campaigns.md)로 대체되었습니다.
 * 마케팅 리소스 관리: 이 안내서는 제거되었습니다.
 * 분산 마케팅: 이 안내서는 제거되었습니다.
-* 워크플로우 자동화: 이 안내서는 [랜딩 페이지](../../workflow/using/about-workflow-automation.md)(으)로 대체되었습니다.
+* 워크플로 자동화: 이 안내서는 [랜딩 페이지](../../workflow/using/about-workflow-automation.md)로 대체되었습니다.
 
 ## 2024
 

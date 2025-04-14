@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2574'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -849,5 +849,5 @@ ht-degree: 99%
    + Adobe Managed Services로 마이그레이션{#dc-migration}
       + [공개 클라우드로 마이그레이션](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
-   + [GCM 기반 함수](technotes/using/gcm-functions.md)
+   + [GCM 기반 기능](technotes/using/gcm-functions.md)
 + [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
