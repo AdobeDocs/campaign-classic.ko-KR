@@ -7,9 +7,9 @@ feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 8d15a5666b5768bc0f17a4391061c4fcb9f76811
+source-git-commit: 84e6b2fad97f0ca5d6621cff4648e0be0bef7521
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 > 이러한 단계는 하이브리드 및 온프레미스 구현에서만 수행해야 합니다.
 >
->호스팅 및 Campaign Managed Services 구현의 경우 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀에 문의하십시오.
+>호스팅 및 Campaign Managed Services 구현의 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀에 문의하십시오.
 
 Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 Adobe IMS(Identity Management Service)를 지원합니다.
 
@@ -38,9 +38,9 @@ Adobe Campaign Classic과 Adobe Analytics 인증 간의 통합은 Adobe IMS(Iden
 >
 > 서비스 계정(JWT) 자격 증명은 Adobe에서 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 통합은 이제 OAuth 서버 간 자격 증명을 사용해야 합니다. </br>
 >
-> * Campaign과 인바운드 통합을 구현한 경우 [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)에 설명된 대로 기술 계정을 마이그레이션해야 합니다. 기존 [서비스 계정(JWT) 자격 증명](oauth-technical-account.md)은(는) 2025년 1월 27일까지 계속 작동합니다.</br>
+> * Campaign과 인바운드 통합을 구현한 경우 [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank)에 설명된 대로 기술 계정을 마이그레이션해야 합니다. 기존 [서비스 계정(JWT) 자격 증명](oauth-technical-account.md)은(는) 2025년 6월 30일까지 계속 작동합니다.</br>
 >
-> * Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 구현한 경우 2025년 1월 27일까지 계속 작동합니다. 그러나 해당 날짜 이전에 Campaign 환경을 v7.4.1로 업그레이드하고 기술 계정을 OAuth로 마이그레이션해야 합니다.
+> * Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 구현한 경우 2025년 6월 30일까지 계속 작동합니다. 그러나 해당 날짜 이전에 Campaign 환경을 v7.4.1로 업그레이드하고 기술 계정을 OAuth로 마이그레이션해야 합니다.
 
 ## Adobe Analytics 제품 프로필 만들기 {#analytics-product-profile}
 
@@ -84,7 +84,7 @@ Analytics 제품 프로필이 이미 있는 경우 Analytics 커넥터에만 사
 
 1. **[!UICONTROL Dimensions]** 기능의 경우 향후 구성에 필요한 **[!UICONTROL Dimensions]**&#x200B;을(를) 추가합니다.
 
-   선택한 Dimension이 외부 계정에서 구성할 eVar와 일치하고 Adobe Analytics의 해당 eVar 번호와 일치하는지 확인합니다.
+   선택한 차원이 외부 계정에서 구성할 차원과 일치하고 Adobe Analytics의 해당 eVar 번호와 일치하는지 확인하십시오.
 
 1. **[!UICONTROL Report Suite Tools]** 기능에 대해 다음 권한을 추가하십시오.
 
@@ -114,4 +114,4 @@ Adobe Analytics 커넥터 구성을 계속하려면 Adobe Developer 콘솔에 �
 
 ## 구성 및 사용 {#adobe-analytics-connector-usage}
 
-[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}에서 Adobe Analytics 및 Adobe Campaign을 사용하는 방법에 대해 알아봅니다.
+[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}에서 Adobe Analytics 및 Adobe Campaign을 사용하여 작업하는 방법을 알아보세요.
