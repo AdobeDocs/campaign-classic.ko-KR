@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9b93603a076b007d66aad52b05e560e17e316eeb
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '854'
 ht-degree: 7%
 
 ---
@@ -37,7 +37,7 @@ Adobe Campaign에서 **받은 편지함 렌더링**&#x200B;에 사용할 수 있
 
 [!BADGE 온-프레미스 및 하이브리드]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"}
 
-호스팅 및 하이브리드 클라이언트의 경우 받은 편지함 렌더링은 Adobe 기술 지원 및 컨설턴트에 의해 인스턴스에서 구성됩니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
+호스팅 및 하이브리드 클라이언트의 경우 Adobe 기술 지원 및 컨설턴트에 의해 인스턴스에서 받은 편지함 렌더링을 구성합니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
 
 온-프레미스 설치의 경우 아래 단계에 따라 받은 편지함 렌더링을 구성합니다.
 
@@ -90,7 +90,7 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 >* 동일한 게재의 경우 받은 편지함 렌더링을 다시 생성하면 사용 가능한 토큰 수가 생성된 렌더링 수만큼 다시 감소합니다.
 >
 
-사용 가능한 나머지 토큰 수가 [받은 편지함 렌더링 보고서](#inbox-rendering-report)의 **[!UICONTROL General summary]**&#x200B;에 표시됩니다.
+사용 가능한 나머지 토큰 수가 [받은 편지함 렌더링 보고서](#inbox-rendering-report)에 표시됩니다.
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -123,13 +123,13 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
 이 보고서는 수신자에게 표시되는 받은 편지함 렌더링을 표시합니다. 렌더링은 브라우저, 모바일 디바이스 또는 이메일 애플리케이션 등 수신자가 이메일 게재를 여는 방법에 따라 다를 수 있습니다.
 
-**[!UICONTROL General summary]**&#x200B;은(는) 받은 메시지 수, 원치 않는 메시지(스팸), 받지 못한 메시지 수 또는 수신 대기 중인 메시지 수를 목록으로 표시하며 그래픽 색상으로 구분됩니다.
+상단 섹션은 받은 메시지, 원치 않는 메시지(스팸), 받지 못한 메시지 또는 보류 중인 수신 수를 그래픽 색상으로 구분된 표현을 통해 다시 분할합니다.
 
-![](assets/s_tn_inbox_rendering_summary.png)
+![](assets/s_tn_inbox_rendering_summary.png){width="40%" align="left"}
 
-차트 위로 마우스를 가져가면 각 색상에 대한 세부 정보가 표시됩니다.
+차트 위로 마우스를 가져가면 각 색상에 대한 세부 정보가 표시됩니다. 목록에서 항목을 클릭하여 차트에서 해당 범주를 숨기거나 표시합니다.
 
-보고서의 본문은 **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, **[!UICONTROL Webmails]** 세 부분으로 나뉘어져 있습니다. 보고서를 아래로 스크롤하여 이 세 가지 범주로 그룹화된 모든 렌더링을 표시합니다.
+보고서의 본문은 **[!UICONTROL Mobile]**, **[!UICONTROL Desktop]**, **[!UICONTROL Webmails]** 세 부분으로 나뉘어져 있습니다. 보고서를 아래로 스크롤하여 이 세 가지 범주로 그룹화된 모든 렌더링을 표시합니다.
 
 ![](assets/s_tn_inbox_rendering_report.png)
 
