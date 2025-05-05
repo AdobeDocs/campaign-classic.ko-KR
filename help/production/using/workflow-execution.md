@@ -64,7 +64,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >**`<instance-name>`**을(를) 인스턴스 이름(프로덕션, 개발 등)으로 바꿉니다. 인스턴스 이름은 구성 파일을 통해 식별됩니다.
+   >**`<instance-name>`**&#x200B;을(를) 인스턴스 이름(프로덕션, 개발 등)으로 바꿉니다. 인스턴스 이름은 구성 파일을 통해 식별됩니다.
    >`[path of application]nl6/conf/config-<instance-name>.xml`
 
    모듈을 다시 시작하는 방법에 대한 자세한 내용은 [이 섹션](../../production/using/usual-commands.md#module-launch-commands)을 참조하세요.
@@ -109,7 +109,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >**`<instance-name>`**을(를) 인스턴스 이름(프로덕션, 개발 등)으로 바꿉니다. 인스턴스 이름은 구성 파일을 통해 식별됩니다.
+   >**`<instance-name>`**&#x200B;을(를) 인스턴스 이름(프로덕션, 개발 등)으로 바꿉니다. 인스턴스 이름은 구성 파일을 통해 식별됩니다.
    >`[path of application]nl6/conf/config-<instance-name>.xml`
 
    모듈을 다시 시작하는 방법에 대한 자세한 내용은 [이 섹션](../../production/using/usual-commands.md#module-launch-commands)을 참조하세요.

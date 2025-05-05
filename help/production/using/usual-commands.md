@@ -23,7 +23,7 @@ ht-degree: 4%
 
 **nlserver** 명령은 전체 Adobe Campaign 응용 프로그램에 대한 입력 명령입니다.
 
-이 명령에는 다음 구문이 있습니다. **nlserver **`<command>`****`<arguments>`****
+이 명령에는 다음 구문이 있습니다. **nlserver &#x200B;**`<command>`**&#x200B;**`<arguments>`**&#x200B;**
 
 **`<command>`** 매개 변수는 모듈에 해당합니다.
 

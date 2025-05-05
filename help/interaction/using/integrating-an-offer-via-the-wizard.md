@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ![](assets/offer_delivery_009.png)
 
-DM 게재에 대한 자세한 내용은 이 섹션](../../delivery/using/about-direct-mail-channel.md)을 참조하세요. [ 마케팅 캠페인에 대해 자세히 알아보기 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md).
+DM 게재에 대한 자세한 내용은 이 섹션[&#128279;](../../delivery/using/about-direct-mail-channel.md)을 참조하세요.  마케팅 캠페인에 대해 자세히 알아보기 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md).
 
 ### 게재에 오퍼를 삽입하는 주요 단계 {#main-steps-for-inserting-an-offer-into-a-delivery}
 

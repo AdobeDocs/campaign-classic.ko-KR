@@ -72,9 +72,9 @@ Adobe이 보안 규정 준수를 이유로 이전 데이터 센터를 폐기하�
 온-프레미스 고객은 조직에 Campaign **[!UICONTROL Product profile]**&#x200B;을(를) 사용할 수 있는지도 확인해야 합니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 관리자는 [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}에 연결합니다.
-1. **제품 및 서비스** 섹션에 액세스하여 **Adobe Campaign**이(가) 나열되는지 확인하십시오.
+1. **제품 및 서비스** 섹션에 액세스하여 **Adobe Campaign**&#x200B;이(가) 나열되는지 확인하십시오.
 **Adobe Campaign**&#x200B;이 표시되지 않으면 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}에 문의하여 추가하십시오.
-1. **Adobe Campaign**을(를) 클릭하고 조직을 선택합니다.
+1. **Adobe Campaign**&#x200B;을(를) 클릭하고 조직을 선택합니다.
    **주의**: 둘 이상의 조직이 있는 경우 올바른 조직을 선택하십시오. 조직 [에 대한 자세한 내용은 이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}를 참조하세요.
 
 1. **[!UICONTROL Product profile]**&#x200B;이(가) 있는지 확인하십시오. 그렇지 않으면 만듭니다. 이 **[!UICONTROL Product profile]**&#x200B;에는 권한이 필요하지 않습니다.

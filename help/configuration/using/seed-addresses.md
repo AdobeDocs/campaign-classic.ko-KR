@@ -22,7 +22,7 @@ ht-degree: 6%
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-시드 주소 사용에 대한 자세한 내용은 이 섹션을](../../delivery/using/about-seed-addresses.md) 참조하십시오[.
+시드 주소 사용에 대한 자세한 내용은 이 섹션을[&#128279;](../../delivery/using/about-seed-addresses.md) 참조하십시오.
 
 ## 이행 {#implementation}
 

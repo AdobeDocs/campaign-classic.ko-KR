@@ -179,9 +179,9 @@ ht-degree: 5%
 
    자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
 
-   ![](assets/do-not-localize/v7.jpeg)[Campaign v7 설명서](../../installation/using/about-fda.md)
+   ![](assets/do-not-localize/v7.jpeg) [Campaign v7 설명서](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png)[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko)
+   ![](assets/do-not-localize/v8.png) [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko)
 
 그런 다음 새 하위 집합을 추가해야 합니다.
 

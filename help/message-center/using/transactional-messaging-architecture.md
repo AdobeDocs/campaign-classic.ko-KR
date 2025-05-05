@@ -86,7 +86,7 @@ Adobe은 **트랜잭션 메시지 패키지를 설치하기 전에 항상 게재
 >이 절차는 작업 중인 시스템과 동일한 시스템에 설치된 Windows NLServer를 사용하는 고객에게만 적용됩니다.
 
 1. 패키지 가져오기 도우미(**[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]**)를 사용하여 필요한 채널(예: **모바일 채널**)을 설치합니다.
-1. 파일 가져오기(**[!UICONTROL Tools > Advanced > Import package... > File]**)를 수행하고 **datakitnms **`[Your language]`**packagemessageCenter.xml** 파일을 선택하십시오.
+1. 파일 가져오기(**[!UICONTROL Tools > Advanced > Import package... > File]**)를 수행하고 **datakitnms &#x200B;**`[Your language]`**packagemessageCenter.xml** 파일을 선택하십시오.
 1. **[!UICONTROL XML content of the data to import]**&#x200B;에서 추가된 채널에 해당하는 게재 템플릿만 유지합니다. 예를 들어 **Mobile 채널**&#x200B;을 추가한 경우 **[!UICONTROL Mobile transactional message]**(smsTriggerMessage)에 해당하는 **entities** 요소만 유지합니다. **모바일 앱 채널**&#x200B;을 추가한 경우 **iOS 트랜잭션 메시지**(iosTriggerMessage) 및 **Android 트랜잭션 메시지**(androidTriggerMessage)만 유지합니다.
 
    ![](assets/messagecenter_install_channel.png)

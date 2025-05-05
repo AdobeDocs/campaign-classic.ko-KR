@@ -20,10 +20,10 @@ ht-degree: 2%
 
 **[!UICONTROL Change data source]** 활동을 사용하면 **[!UICONTROL Working table]** 워크플로우의 데이터 원본을 변경할 수 있습니다. 이렇게 하면 FDA, FFDA 및 로컬 데이터베이스와 같은 다양한 데이터 소스에서 데이터를 보다 유연하게 관리할 수 있습니다.
 
-**[!UICONTROL Working table]**을(를) 사용하면 Adobe Campaign Classic 워크플로우에서 데이터를 처리하고 워크플로우 활동과 데이터를 공유할 수 있습니다.
+**[!UICONTROL Working table]**&#x200B;을(를) 사용하면 Adobe Campaign Classic 워크플로우에서 데이터를 처리하고 워크플로우 활동과 데이터를 공유할 수 있습니다.
 기본적으로 **[!UICONTROL Working table]**&#x200B;은(는) 쿼리하는 데이터의 원본과 동일한 데이터베이스에 만들어집니다.
 
-예를 들어 클라우드 데이터베이스에 저장된 **[!UICONTROL Profiles]** 테이블을 쿼리할 때 동일한 클라우드 데이터베이스에 **[!UICONTROL Working table]**을(를) 만듭니다.
+예를 들어 클라우드 데이터베이스에 저장된 **[!UICONTROL Profiles]** 테이블을 쿼리할 때 동일한 클라우드 데이터베이스에 **[!UICONTROL Working table]**&#x200B;을(를) 만듭니다.
 이를 변경하려면 **[!UICONTROL Change Data Source]** 활동을 추가하여 **[!UICONTROL Working table]**&#x200B;의 다른 데이터 원본을 선택할 수 있습니다.
 
 **[!UICONTROL Change Data Source]** 활동을 사용하는 경우 워크플로우 실행을 계속하려면 클라우드 데이터베이스로 다시 전환해야 합니다.

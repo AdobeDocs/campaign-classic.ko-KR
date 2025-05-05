@@ -39,7 +39,7 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 
 ### 구현 단계 {#crm-implementation-steps}
 
-이 섹션](../../platform/using/crm-ms-dynamics.md)에서 Campaign과 Microsoft Dynamics [을(를) 연결하는 단계별 절차에 대해 알아봅니다.
+이 섹션[&#128279;](../../platform/using/crm-ms-dynamics.md)에서 Campaign과 Microsoft Dynamics 을(를) 연결하는 단계별 절차에 대해 알아봅니다.
 
 
-이 섹션](../../platform/using/crm-sfdc.md)에서 Campaign과 Salesforce [을(를) 연결하는 단계별 절차에 대해 알아봅니다.
+이 섹션[&#128279;](../../platform/using/crm-sfdc.md)에서 Campaign과 Salesforce 을(를) 연결하는 단계별 절차에 대해 알아봅니다.

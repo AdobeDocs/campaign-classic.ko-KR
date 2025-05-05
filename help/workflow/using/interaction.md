@@ -21,9 +21,9 @@ ht-degree: 3%
 
 자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
 
-![](assets/do-not-localize/v7.jpeg)[Campaign v7 설명서](../../interaction/using/interaction-and-offer-management.md)
+![](assets/do-not-localize/v7.jpeg) [Campaign v7 설명서](../../interaction/using/interaction-and-offer-management.md)
 
-![](assets/do-not-localize/v8.png)[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html)
+![](assets/do-not-localize/v8.png) [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html)
 
 
 <table> 

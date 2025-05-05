@@ -97,7 +97,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
 
    >[!WARNING]
    >
-   >**[!UICONTROL Internal name]**을(를) 할당할 때 지정된 명명 규칙을 따라야 합니다.
+   >**[!UICONTROL Internal name]**&#x200B;을(를) 할당할 때 지정된 명명 규칙을 따라야 합니다.
    > </br>`SMS Operator Name_Internal Name of the Marketing SMS external account`
 
    ![](assets/mid_external_account_6.png)

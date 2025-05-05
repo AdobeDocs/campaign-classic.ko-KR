@@ -21,9 +21,9 @@ ht-degree: 5%
 
 Adobe Campaign에서 푸시 알림을 보내려면 다음을 수행해야 합니다.
 
-* **[!UICONTROL Mobile application]** Neotrips 모바일 애플리케이션 용 유형 정보 서비스를 만들기. iOS](configuring-the-mobile-application.md#configuring-ios-service)의 경우 이 섹션을 참조하십시오[. 및 [이 섹션은 Android](configuring-the-mobile-application-android.md#configuring-android-service) 용입니다.
+* **[!UICONTROL Mobile application]** Neotrips 모바일 애플리케이션 용 유형 정보 서비스를 만들기. iOS[&#128279;](configuring-the-mobile-application.md#configuring-ios-service)의 경우 이 섹션을 참조하십시오. 및 [이 섹션은 Android](configuring-the-mobile-application-android.md#configuring-android-service) 용입니다.
 * 이 서비스에 iOS 및 Android 버전의 애플리케이션을 추가합니다.
-* iOS](create-notifications-ios.md) 및 [Android](create-notifications-android.md) 용 [게재를 만들기.
+* iOS[&#128279;](create-notifications-ios.md) 및 [Android](create-notifications-android.md) 용 게재를 만들기.
 
 ![](assets/nmac_service_diagram.png)
 
@@ -35,15 +35,15 @@ Adobe Campaign에서 푸시 알림을 보내려면 다음을 수행해야 합니
 
 [!BADGE 온프레미스 및 하이브리드]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용됩니다"}
 
-![](assets/do-not-localize/how-to-video.png)[비디오로 모바일 앱 패키지를 설치하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html#sending-messages)
+![](assets/do-not-localize/how-to-video.png) [비디오로 모바일 앱 패키지를 설치하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html#sending-messages)
 
-하이브리드/호스팅 고객의 경우 Campaign 푸시 알림 채널에 액세스하려면 Adobe Systems 고객 지원](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀 팀에 문의하십시오[.
+하이브리드/호스팅 고객의 경우 Campaign 푸시 알림 채널에 액세스하려면 Adobe Systems 고객 지원[&#128279;](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀 팀에 문의하십시오.
 
 온-프레미스 고객은 기본 제공 패키지를 설치해야 합니다.
 
 >[!CAUTION]
 >
->이 페이지](../../installation/using/installing-campaign-standard-packages.md)에서 Campaign 내장 패키지, 모범 사례 및 권장 사항에 [대해 자세히 알아보십시오.
+>이 페이지[&#128279;](../../installation/using/installing-campaign-standard-packages.md)에서 Campaign 내장 패키지, 모범 사례 및 권장 사항에 대해 자세히 알아보십시오.
 
 설치 단계는 다음과 같습니다.
 

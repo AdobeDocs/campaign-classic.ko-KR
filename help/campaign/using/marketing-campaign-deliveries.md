@@ -20,7 +20,7 @@ ht-degree: 1%
 
 캠페인에서 생성되면 게재는 이 캠페인에 연결되고 캠페인 수준에서 통합됩니다.
 
-![](assets/do-not-localize/how-to-video.png)[비디오에서 이 기능 살펴보기](#create-email-video)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#create-email-video)
 
 ## 게재 만들기 {#creating-deliveries}
 

@@ -53,7 +53,7 @@ Adobe ID을 통해 [IMS(Identity Management 서비스) Adobe을 통해 ](../../i
 
 **Campaign 버전을 확인하려면 어떻게 해야 합니까?**
 
-이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 [을(를) 확인하는 방법을 알아보세요.
+이 섹션[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
 
 
 **IMS를 사용하는지 어떻게 확인할 수 있습니까?**

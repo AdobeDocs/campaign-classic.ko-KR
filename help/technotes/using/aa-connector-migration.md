@@ -46,7 +46,7 @@ Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터�
 
 기존 Adobe Analytics 데이터 커넥터(이전 이름: Genesis 통합)를 사용 중이며 통합이 Campaign 21.1.3보다 낮은 빌드에서 구현된 경우 영향을 받습니다.
 
-이 섹션](../../integrations/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 [을(를) 확인하는 방법을 알아보세요.
+이 섹션[&#128279;](../../integrations/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
 
 ## 업데이트 방법
 

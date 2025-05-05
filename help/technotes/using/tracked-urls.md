@@ -38,7 +38,7 @@ Adobe 따라서 링크 추적을 위해 서명 메커니즘을 비활성화하�
 * Campaign 19.1.5(빌드 9033) - 19.1.7(빌드 9036) 릴리스.
 
 
-이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 [을(를) 확인하는 방법을 알아보세요.
+이 섹션[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
 
 **업데이트 방법**
 

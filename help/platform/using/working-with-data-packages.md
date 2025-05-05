@@ -442,6 +442,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
    * 외부 계정이 생성되었습니다.
    * 새 패키지는 5101 - 2 - 소셜 애플리케이션 외부 계정(socialApplication_extAccount)입니다.
    * 동시에 101 패키지가 외부 계정에 추가되도록 업데이트되지만 배포되지 않습니다.
+
      ![](assets/ncs_datapackage_best-practices-1.png)
 
 #### 패키지 설명서 {#package-documentation}

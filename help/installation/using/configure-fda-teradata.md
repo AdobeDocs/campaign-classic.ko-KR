@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Campaign에 연결하려면 Teradata 드라이버를 설치해야 합니다.
 
-1. teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux)용 [ODBC 드라이버를 설치합니다.
+1. teradata[&#128279;](https://downloads.teradata.com/download/connectivity/odbc-driver/linux)용 ODBC 드라이버를 설치합니다.
 
    Red Hat(또는 CentOS)/Suse에 다음 순서로 설치할 수 있는 세 가지 패키지로 구성됩니다.
 

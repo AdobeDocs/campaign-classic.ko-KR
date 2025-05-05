@@ -73,7 +73,7 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 >
 >1년말: (1&#42;0.33)/(1+0.5)=22%
 >
-2년말: ((1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%
+>2년말: ((1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%
 
 ### 게재 보고서에서 격리된 주소 확인 {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -108,7 +108,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
 >[!NOTE]
 >
-Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
+>Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
 
 격리된 주소 목록([플랫폼 전체에 대해 격리된 주소 확인](#identifying-quarantined-addresses-for-the-entire-platform) 참조)에서 **[!UICONTROL Error reason]** 필드는 선택한 주소가 격리된 이유를 나타냅니다.
 
@@ -144,7 +144,7 @@ Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를
 
 >[!IMPORTANT]
 >
-주소가 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 상태인 수신자는 이메일을 수신하더라도 제거되지 않습니다.
+>주소가 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 상태인 수신자는 이메일을 수신하더라도 제거되지 않습니다.
 
 ### 수동 업데이트 {#unquarantine-manual}
 
@@ -291,13 +291,13 @@ HTTP/V2 프로토콜을 통해 각 푸시 게재에 대한 직접 피드백 및 
 
 >[!NOTE]
 >
-Baidu 커넥터를 사용하는 고객의 경우 다음과 같은 다양한 유형의 오류가 있습니다.
+>Baidu 커넥터를 사용하는 고객의 경우 다음과 같은 다양한 유형의 오류가 있습니다.
 >
-* 게재 시작 시 연결 문제: 실패 유형 **[!UICONTROL Undefined]**, 실패 이유 **[!UICONTROL Unreachable]**, 다시 시도됩니다.
-* 게재 중 연결이 끊어졌습니다. 소프트 오류, 실패 이유 **[!UICONTROL Refused]**, 다시 시도합니다.
-* 보내는 동안 Baidu에서 동기 오류를 반환했습니다. 하드 오류, 오류 원인 **[!UICONTROL Refused]**, 다시 시도하지 않습니다.
+>* 게재 시작 시 연결 문제: 실패 유형 **[!UICONTROL Undefined]**, 실패 이유 **[!UICONTROL Unreachable]**, 다시 시도됩니다.
+>* 게재 중 연결이 끊어졌습니다. 소프트 오류, 실패 이유 **[!UICONTROL Refused]**, 다시 시도합니다.
+>* 보내는 동안 Baidu에서 동기 오류를 반환했습니다. 하드 오류, 오류 원인 **[!UICONTROL Refused]**, 다시 시도하지 않습니다.
 >
-Adobe Campaign은 10분마다 Baidu 서버에 연결하여 보낸 메시지의 상태를 검색하고 broadlogs를 업데이트합니다. 메시지가 보낸 것으로 선언되면 브로드로그의 메시지 상태가 **[!UICONTROL Received]**(으)로 설정됩니다. Baidu에서 오류를 선언하면 상태가 **[!UICONTROL Failed]**(으)로 설정됩니다.
+>Adobe Campaign은 10분마다 Baidu 서버에 연결하여 보낸 메시지의 상태를 검색하고 broadlogs를 업데이트합니다. 메시지가 보낸 것으로 선언되면 브로드로그의 메시지 상태가 **[!UICONTROL Received]**(으)로 설정됩니다. Baidu에서 오류를 선언하면 상태가 **[!UICONTROL Failed]**(으)로 설정됩니다.
 
 **Android V2용**
 
@@ -516,7 +516,7 @@ SMS 메시지의 격리 메커니즘은 전체적으로 일반 프로세스와 �
 
 >[!NOTE]
 >
-**[!UICONTROL Delivery log qualification]** 테이블은 **확장된 일반 SMPP** 커넥터에 적용되지 않습니다.
+>**[!UICONTROL Delivery log qualification]** 테이블은 **확장된 일반 SMPP** 커넥터에 적용되지 않습니다.
 
 <table> 
  <tbody> 
@@ -575,9 +575,9 @@ SMPP 커넥터는 정규 표현식(정규 표현식)을 사용하여 반환되�
 
 >[!NOTE]
 >
-실패 유형 및 실패 이유는 이메일과 동일합니다. [게재 실패 유형 및 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons)를 참조하세요.
+>실패 유형 및 실패 이유는 이메일과 동일합니다. [게재 실패 유형 및 이유](understanding-delivery-failures.md#delivery-failure-types-and-reasons)를 참조하세요.
 >
-게재 로그 자격 표에서 적절한 실패 유형 및 실패 이유를 설정하려면 공급자에게 상태 및 오류 코드 목록을 요청하십시오.
+>게재 로그 자격 표에서 적절한 실패 유형 및 실패 이유를 설정하려면 공급자에게 상태 및 오류 코드 목록을 요청하십시오.
 
 생성된 메시지의 예:
 

@@ -45,7 +45,7 @@ ht-degree: 8%
 * Campaign 19.2.4 릴리스
 * Campaign 19.1.8 릴리스
 
-이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 [을(를) 확인하는 방법을 알아보세요.
+이 섹션[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
 
 **업데이트 방법**
 
@@ -90,7 +90,7 @@ Adobe ID을 통해 [Campaign에 연결](../../integrations/using/about-adobe-id.
 
 이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다. **2021년 6월 30일** 이후에 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결하려면 업그레이드가 필요합니다.
 
-이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 [을(를) 확인하는 방법을 알아보세요.
+이 섹션[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
 
 **업데이트 방법**
 
@@ -119,7 +119,7 @@ Adobe ID을 통해 [Campaign에 연결](../../integrations/using/about-adobe-id.
 * Campaign 20.2.5 릴리스
 * Campaign 19.1.8 릴리스
 
-이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 [을(를) 확인하는 방법을 알아보세요.
+이 섹션[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
 
 **업데이트 방법**
 
@@ -139,7 +139,7 @@ Adobe ID을 통해 [Campaign에 연결](../../integrations/using/about-adobe-id.
 
 인스턴스가 Campaign 21.1,**보다 이전**&#x200B;버전에서 실행 중이고 레거시 Apple 이진 프로토콜로 푸시 알림을 보내는 경우 HTTP/2 기반 APNs 공급자 API로 업데이트해야 합니다.
 
-이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 [을(를) 확인하는 방법을 알아보세요.
+이 섹션[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
 
 **업데이트 방법**
 

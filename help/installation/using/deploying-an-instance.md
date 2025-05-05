@@ -383,7 +383,7 @@ Adobe Campaign을 사용하면 이러한 세 가지 URL을 구별하여 여러 �
 
   이 값은 각 게재에 대해 재정의할 수 있습니다.
 
-* 공개 리소스의 경우 URL **https://** server **/res/** instance ****. 여기서&#x200B;**instance**은(는) 추적 인스턴스의 이름입니다.
+* 공개 리소스의 경우 URL **https://** server **/res/** instance **&#x200B;**. 여기서&#x200B;**instance**&#x200B;은(는) 추적 인스턴스의 이름입니다.
 
 ### 게재 이미지 감지 {#delivery-image-detection}
 

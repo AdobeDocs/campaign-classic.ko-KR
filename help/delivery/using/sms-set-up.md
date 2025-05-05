@@ -31,7 +31,7 @@ ht-degree: 26%
 
 >[!IMPORTANT]
 >
->여러 외부 SMS 계정에 동일한 계정과 암호를 사용하면 계정 간에 충돌과 겹칠 수 있습니다. [](troubleshooting-sms.md#external-account-conflict)
+>여러 외부 SMS 계정에 동일한 계정과 암호를 사용하면 계정 간에 충돌과 겹칠 수 있습니다. [&#128279;](troubleshooting-sms.md#external-account-conflict)
 
 휴대폰에 SMS를 전송하려면 먼저 SMPP 외부 계정을 만들어야 합니다.
 SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-protocol.md)를 참조하세요.

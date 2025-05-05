@@ -42,7 +42,7 @@ https://<your Adobe Campaign server>:>port number>/nl/jsp/logon.jsp
 
 이 페이지에는 응용 프로그램에 정의된 로그인 및 암호가 필요합니다.
 
-이 섹션](../../installation/using/installing-the-client-console.md)에서 콘솔 [을(를) 설치하는 방법을 알아봅니다.
+이 섹션[&#128279;](../../installation/using/installing-the-client-console.md)에서 콘솔 을(를) 설치하는 방법을 알아봅니다.
 
 ## 최종 사용자에게 클라이언트 콘솔 업그레이드 제안
 

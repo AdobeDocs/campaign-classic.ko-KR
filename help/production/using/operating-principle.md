@@ -33,7 +33,7 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 
 **nlserver** 도구의 일반 구문은 다음과 같습니다.
 
-**nlserver `<command>``<command arguments>`**
+**nlserver `<command>` `<command arguments>`**
 
 사용 가능한 모듈 목록을 보려면 **nlserver** 명령을 사용하십시오.
 

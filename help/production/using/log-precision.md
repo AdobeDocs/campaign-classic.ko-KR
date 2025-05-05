@@ -50,8 +50,8 @@ Adobe Campaign은 다음 두 가지 수준의 로그로 작동할 수 있습니�
    >[!NOTE]
    >
    >**tracefilter:&#42;**&#x200B;을(를) 사용하는 경우 모든 로그 유형이 활성화됩니다. ncm, rdr, nms, jst, timing, wdbc, ldap, soap, xtk, xtkquery, session, xtkwriter, network, pop3, inmail\
-   가장 유용한 로그 유형은 **wdbc**(모든 SQL 쿼리 표시), **soap**(모든 SOAP 호출 표시), **ldap**(인증 후 모든 LDAP 쿼리 표시), **xtkquery**(모든 querydef 목록 표시)입니다.\
-   개별적으로 사용할 수 있습니다(예: **tracefilter:soap,wdbc**). 모든 기능을 활성화하고 특정 다른 기능을 제외하도록 선택할 수도 있습니다. **-tracefilter:&#42;,!soap**
+   >가장 유용한 로그 유형은 **wdbc**(모든 SQL 쿼리 표시), **soap**(모든 SOAP 호출 표시), **ldap**(인증 후 모든 LDAP 쿼리 표시), **xtkquery**(모든 querydef 목록 표시)입니다.\
+   >개별적으로 사용할 수 있습니다(예: **tracefilter:soap,wdbc**). 모든 기능을 활성화하고 특정 다른 기능을 제외하도록 선택할 수도 있습니다. **-tracefilter:&#42;,!soap**
 
    오류가 실제로 발생했는지 확인한 후 프로세스를 정상적으로 다시 시작합니다.
 
@@ -61,7 +61,7 @@ Adobe Campaign은 다음 두 가지 수준의 로그로 작동할 수 있습니�
 
 >[!IMPORTANT]
 >
-이러한 명령의 로그는 모듈의 로그 파일에 저장됩니다.
+>이러한 명령의 로그는 모듈의 로그 파일에 저장됩니다.
 
 다음은 웹 모듈과 관련된 예입니다. 다른 모듈은 위에 표시된 대로 작동합니다.
 
@@ -85,12 +85,12 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 
 >[!NOTE]
 >
-**Tracefile** 모드를 사용하면 로그를 저장할 수 있습니다. 위의 예에서 로그는 **var/`<instance-name>`/mta_debug.log** 및 **var/default/web_debug.log** 파일에 저장됩니다.
+>**Tracefile** 모드를 사용하면 로그를 저장할 수 있습니다. 위의 예에서 로그는 **var/`<instance-name>`/mta_debug.log** 및 **var/default/web_debug.log** 파일에 저장됩니다.
 
 >[!IMPORTANT]
 >
-Windows에서는 LD_PRELOAD 옵션을 추가하지 마십시오. 다음 명령으로 충분합니다.\
-nlserver web -tomcat -verbose -tracefilter:&#42;
+>Windows에서는 LD_PRELOAD 옵션을 추가하지 마십시오. 다음 명령으로 충분합니다.\
+>nlserver web -tomcat -verbose -tracefilter:&#42;
 
 문제가 다시 발생하는지 확인한 후 모듈을 다시 시작합니다.
 

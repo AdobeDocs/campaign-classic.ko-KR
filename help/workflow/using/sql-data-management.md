@@ -27,9 +27,9 @@ ht-degree: 4%
 
   자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
 
-  ![](assets/do-not-localize/v7.jpeg)[Campaign v7 설명서](../../installation/using/about-fda.md)
+  ![](assets/do-not-localize/v7.jpeg) [Campaign v7 설명서](../../installation/using/about-fda.md)
 
-  ![](assets/do-not-localize/v8.png)[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko)
+  ![](assets/do-not-localize/v8.png) [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko)
 
 * 아웃바운드 스키마는 데이터베이스에 있어야 하며 FDA 데이터베이스에 연결되어 있어야 합니다.
 * 워크플로우를 실행하는 연산자에는 이름이 **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]**&#x200B;인 권한이 있어야 합니다. [자세히 알아보기](../../platform/using/access-management-named-rights.md).

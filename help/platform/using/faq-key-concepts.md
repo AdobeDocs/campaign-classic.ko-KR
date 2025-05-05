@@ -24,7 +24,7 @@ Adobe Campaign으로 시작하는 주요 단계를 배웁니다.
 
 IMS(Adobe Identity Management 시스템)와의 통합 덕분에 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결할 수 있습니다. 이 통합은 다음과 같은 이점을 제공합니다.
 
-*  모든 Experience Cloud 솔루션에 동일한 ID를 사용할 수 있습니다.
+* 모든 Experience Cloud 솔루션에 동일한 ID를 사용할 수 있습니다.
 * 서로 다른 통합으로 Adobe Campaign을 사용하는 경우 연결이 기억됩니다.
 * 보안 암호 관리 정책.
 * 페더레이션 ID 계정 사용(외부 ID 공급자).

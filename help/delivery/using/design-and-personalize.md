@@ -76,7 +76,7 @@ Personalization 기본 사항은 [이 섹션](personalization-fields.md)에 나�
 
 **팁**: 사람의 실수는 항상 가능하므로 보낼 때마다 옵트아웃 링크가 올바르게 작동하는지 확인하세요. 예를 들어 증명을 보낼 때 링크가 유효한지, 양식이 온라인 상태인지, 이 받는 사람에게 더 이상 연락하지 않음 필드가 예로 변경되었는지 확인합니다.
 
-이 섹션](personalization-blocks.md#personalization-blocks-example)에서 옵트아웃 링크 [을(를) 삽입하는 방법을 알아봅니다.
+이 섹션[&#128279;](personalization-blocks.md#personalization-blocks-example)에서 옵트아웃 링크 을(를) 삽입하는 방법을 알아봅니다.
 
 ### 이메일 크기
 
@@ -96,7 +96,7 @@ Personalization 기본 사항은 [이 섹션](personalization-fields.md)에 나�
 
 기본적으로 SMS의 문자 수는 GSM(이동통신 글로벌 시스템) 표준을 충족합니다. GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 또는 여러 부분으로 나누어 전송되는 메시지의 경우 153자로 제한됩니다.
 
-변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다. SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다. 해당 **[!UICONTROL External account]**의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다.
+변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다. SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다. 해당 **[!UICONTROL External account]**&#x200B;의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다.
 자세한 내용은 [이 섹션](sms-set-up.md#creating-an-smpp-external-account)을 참조하세요.
 
 **팁**:
@@ -113,7 +113,7 @@ Personalization 기본 사항은 [이 섹션](personalization-fields.md)에 나�
 
 * **날짜 서식** 수정: Adobe Campaign에서는 JavaScript 서식 파일 및 XSL 스타일시트에 날짜 서식 함수를 제공합니다. [자세히 알아보기](formatting.md#date-display)
 
-* 이메일의 **승인된 문자** 사용: 이메일 주소에 대한 유효한 문자 목록이 &quot;XtkEmail_Characters&quot; 옵션에 정의되어 있습니다. 이 섹션](../../installation/using/configuring-campaign-options.md)에서 Campaign 옵션 [에 액세스하는 방법을 알아봅니다. 특수 문자를 올바르게 처리하려면 Adobe Campaign이 유니코드에 설치되어 있어야 합니다.
+* 이메일의 **승인된 문자** 사용: 이메일 주소에 대한 유효한 문자 목록이 &quot;XtkEmail_Characters&quot; 옵션에 정의되어 있습니다. 이 섹션[&#128279;](../../installation/using/configuring-campaign-options.md)에서 Campaign 옵션 에 액세스하는 방법을 알아봅니다. 특수 문자를 올바르게 처리하려면 Adobe Campaign이 유니코드에 설치되어 있어야 합니다.
 
 * **전자 메일 인증** 구성: 전자 메일 헤더에 DKIM 서명이 포함되어 있는지 확인하십시오. DKIM(Domain Keys Identified Mail) 인증을 사용하면 수신 이메일 서버에서 메시지가 전송되었다고 주장하는 사람이나 엔티티가 실제로 메시지를 보냈는지 확인하고, 원래 보낸 시간(및 DKIM &quot;서명됨&quot;)과 받은 시간 사이에 메시지 콘텐츠가 변경되었는지 여부를 확인할 수 있습니다. 이 표준은 일반적으로 보낸 사람 또는 보낸 사람 헤더의 도메인을 사용합니다. 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)를 참조하세요.
 

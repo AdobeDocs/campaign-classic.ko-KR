@@ -85,7 +85,7 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 
 프로젝트에 API를 추가하려면 다음 단계를 수행합니다.
 
-1. **API 추가**를 클릭하여 프로젝트에 추가할 API를 선택합니다.
+1. **API 추가**&#x200B;를 클릭하여 프로젝트에 추가할 API를 선택합니다.
    ![](assets/do-not-translate/ims-updates-01.png)
 1. Adobe Campaign API를 선택하고 프로젝트에 추가합니다. 카드를 마우스로 가리키면 표시되는 Adobe Campaign 카드의 오른쪽 상단 모서리에 있는 상자를 선택합니다
    ![](assets/do-not-translate/ims-updates-02.png)

@@ -158,7 +158,7 @@ Adobe Campaign은 동일한 외부 계정에서 여러 짧은 코드 처리를 �
 
 * 테이블에 오류가 제대로 프로비저닝 `broadLogMsg` 되었는지 확인합니다.
 
-`DELIVER_SM PDU` 가 Adobe Campaign Classic 확장 SMPP 커넥터에 의해 승인되었지만 broadLog가 제대로 업데이트되지 않은 경우 MT, SR 및 브로드로그 항목](sms-protocol.md#matching-mt) 일치 섹션에 [설명된 ID 조정 프로세스를 확인합니다.
+`DELIVER_SM PDU` 가 Adobe Campaign Classic 확장 SMPP 커넥터에 의해 승인되었지만 broadLog가 제대로 업데이트되지 않은 경우 MT, SR 및 브로드로그 항목[&#128279;](sms-protocol.md#matching-mt) 일치 섹션에 설명된 ID 조정 프로세스를 확인합니다.
 
 모든 것을 수정했지만 일부 잘못된 SR이 여전히 공급자의 버퍼에 있는 경우 &quot;잘못된 ID 승인 수&quot; 옵션을 사용하여 건너뛸 수 있습니다. 주의해서 사용해야 하며 버퍼가 정리된 후 가능한 한 빨리 0으로 재설정해야 합니다.
 

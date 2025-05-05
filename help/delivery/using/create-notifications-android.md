@@ -47,7 +47,7 @@ Firebase 클라우드 메시징 메시지 유형에 대한 자세한 내용은 [
 
 1. **[!UICONTROL Target type]** 창에서 **[!UICONTROL Subscribers of an Android mobile application]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Service]** 드롭다운에서 이전에 만든 서비스를 선택한 다음 응용 프로그램을 선택하고 **[!UICONTROL Finish]**을(를) 클릭합니다.
+1. **[!UICONTROL Service]** 드롭다운에서 이전에 만든 서비스를 선택한 다음 응용 프로그램을 선택하고 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 구성 단계 중에 추가된 내용에 따라 **[!UICONTROL Application variables]**&#x200B;이(가) 자동으로 추가됩니다.
 
    ![](assets/nmac_android_6.png)
