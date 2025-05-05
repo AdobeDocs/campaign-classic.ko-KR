@@ -146,7 +146,7 @@ Adobe Campaign에서 기본 키를 autoPK로 사용하여 사용자 지정 테�
 
 기본적으로 사용자 지정 시퀀스의 값은 +1,000에서 +2.1BB입니다. 기술적으로 음수 ID를 활성화하여 4BB의 전체 범위를 가져올 수 있습니다. 이 변수는 주의하여 사용해야 하며 음수에서 양수로 교차하면 ID 하나가 손실됩니다. 레코드 0은 일반적으로 생성된 SQL 쿼리에서 Adobe Campaign에서 무시됩니다.
 
-시퀀스 소모에 대한 자세한 내용은 [이 비디오](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)를 시청하세요.
+시퀀스 소모에 대한 자세한 내용은 [이 비디오](https://helpx.adobe.com/kr/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)를 시청하세요.
 
 ## 색인 {#indexes}
 

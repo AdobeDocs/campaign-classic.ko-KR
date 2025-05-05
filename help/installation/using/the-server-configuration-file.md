@@ -410,7 +410,7 @@ Adobe Campaign의 전체 구성은 설치 디렉터리의 **conf** 디렉터리�
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
-   <td> 새 연결을 거부하기 전에 허용되는 최대 연결 수. 이 <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">기술 정보</a>.<br /> 보기 </td> 
+   <td> 새 연결을 거부하기 전에 허용되는 최대 연결 수. 이 <a href="https://helpx.adobe.com/kr/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">기술 정보</a>.<br /> 보기 </td> 
    <td> 짧음<br /> </td> 
   </tr> 
   <tr> 

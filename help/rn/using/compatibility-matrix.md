@@ -437,7 +437,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 
 Campaign 클라이언트 콘솔을 사용하려면 Microsoft Edge WebView2 런타임 최신 버전이 필수입니다.
 
-[Microsoft 개발자 사이트](https://www.adobe.com/go/acc-ms-webview2-runtime-download)에서 Microsoft Edge WebView2를 다운로드합니다.
+[Microsoft 개발자 사이트](https://www.adobe.com/go/acc-ms-webview2-runtime-download_kr)에서 Microsoft Edge WebView2를 다운로드합니다.
 
 
 ## 모바일 SDK {#MobileSDK}

@@ -25,7 +25,7 @@ ht-degree: 1%
 ## 필수 구성 요소 {#prerequisites}
 
 * Adobe Experience Cloud 조직 이름과 ID가 있어야 합니다. 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}를 참조하세요.
-* Experience Cloud에 사용자를 추가해야 합니다. 자세한 정보는 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html){_blank}를 참조하세요.
+* Experience Cloud에 사용자를 추가해야 합니다. 자세한 정보는 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko){_blank}를 참조하세요.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 다음 정보를 입력합니다.
 
-* 사용된 IMS 서버의 연결 정보(ID 및 암호). 이 정보는 Adobe 고객 지원 팀에서 제공합니다. 자세한 내용은 [Adobe Experience Cloud 관리자를 위한 FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html)를 참조하십시오.
+* 사용된 IMS 서버의 연결 정보(ID 및 암호). 이 정보는 Adobe 고객 지원 팀에서 제공합니다. 자세한 내용은 [Adobe Experience Cloud 관리자를 위한 FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=ko)를 참조하십시오.
 
   **[!UICONTROL Callback server]** 주소는 **https**&#x200B;에 지정해야 합니다. 이 필드는 Adobe Campaign 인스턴스의 액세스 URL에 해당합니다.
 

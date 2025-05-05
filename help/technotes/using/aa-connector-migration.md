@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # 기존 Genesis 통합을 Adobe Analytics Connector로 마이그레이션하는 방법 {#acc-aa-faq}
 
-Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터는 사용 중단됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html)
+Campaign Classic v7 21.1.3 릴리스부터 Adobe Analytics 데이터 커넥터는 사용 중단됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=ko)
 
 2021년 8월 1일에 Adobe Campaign Classic이 기존 Data Connectors UI에서 제거되었지만 기존 Campaign 통합은 2022년 8월 17일까지 데이터를 계속 수집하여 Adobe Analytics에 전달합니다. 이 날짜 이후, 통합은 데이터를 수집하고 Adobe Analytics에 전달하는 것을 중단합니다.
 

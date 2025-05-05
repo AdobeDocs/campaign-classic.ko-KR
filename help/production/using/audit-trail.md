@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!INFO]
 >
->[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail)에서 감사 추적 기능에 대해 자세히 알아보세요.
+>[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/audit-trail)에서 감사 추적 기능에 대해 자세히 알아보세요.
 
 Adobe Campaign에서 **[!UICONTROL Audit trail]**&#x200B;을(를) 사용하면 인스턴스 내에서 수행한 변경 내용의 전체 기록에 액세스할 수 있습니다.
 

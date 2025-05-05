@@ -35,7 +35,7 @@ Adobe Campaign에서 푸시 알림을 보내려면 다음을 수행해야 합니
 
 [!BADGE 온프레미스 및 하이브리드]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용됩니다"}
 
-![](assets/do-not-localize/how-to-video.png) [비디오로 모바일 앱 패키지를 설치하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html#sending-messages)
+![](assets/do-not-localize/how-to-video.png) [비디오로 모바일 앱 패키지를 설치하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=ko#sending-messages)
 
 하이브리드/호스팅 고객의 경우 Campaign 푸시 알림 채널에 액세스하려면 Adobe Systems 고객 지원[&#128279;](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀 팀에 문의하십시오.
 

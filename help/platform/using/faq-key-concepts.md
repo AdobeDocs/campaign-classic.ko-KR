@@ -63,7 +63,7 @@ Adobe 서비스를 사용할 때 GDPR 준수를 위해 Adobe Campaign이 제공�
 
 Adobe Campaign 작업 영역의 기본 사항에 대한 자세한 내용은 [이 섹션을](../../platform/using/adobe-campaign-workspace.md) 참조하십시오.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 캠페인 작업 영역 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 캠페인 작업 영역 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html?lang=ko)
 
 ## 메시지 대상자를 선택하려면 어떻게 해야 합니까? {#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -85,7 +85,7 @@ Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/about-email-channel.md).
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 방법 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 방법 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html?lang=ko)
 
 ## SMS 메시지를 보내는 방법 {#how-to-send-sms-messages-}
 
@@ -131,6 +131,6 @@ Adobe는 제품 및 시간의 경과에 따라 기능을 보다 강력한 버전
 
 ## 새로운 설명서 업데이트 및 도움말 자료가 출시됩니까? {#are-there-new-documentation-updates-and-help-materials-released-}
 
-최신 Campaign Classic 설명서 업데이트가 [이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html)에 나열됩니다.
+최신 Campaign Classic 설명서 업데이트가 [이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=ko)에 나열됩니다.
 
 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/article-list.html)에 나열된 최신 기술 노트를 참조할 수도 있습니다.

@@ -25,7 +25,7 @@ Adobe Experience Platform 대상을 Campaign으로 수집하여 워크플로우�
 
 Experience Platform Adobe에서 내보낸 세그먼트에 대한 저장소 위치를 선택하여 Adobe Campaign과의 연결을 구성합니다. 또한 이 단계를 통해 내보낼 세그먼트를 선택하고 포함할 추가 XDM 필드를 지정할 수 있습니다.
 
-자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html)를 참조하세요.
+자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ko)를 참조하세요.
 
 대상이 구성되면 Adobe Experience Platform은 사용자가 제공한 저장소 위치에 탭으로 구분된 .txt 또는 .csv 파일을 생성합니다. 이 작업은 24시간에 한 번 예약되고 수행됩니다.
 

@@ -909,7 +909,7 @@ Adobe Campaign을 사용하면 뉴스레터 또는 제품 업데이트와 같은
 
 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 컨트롤 패널에서는 스토리지 용량 모니터링, IP 주소 관리 허용 목록 및 공개 SSH 키 관리와 같은 작업을 SFTP 서버에 수행할 수 있습니다.
 
-[SFTP 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)에 대해 자세히 알아보세요.
+[SFTP 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko)에 대해 자세히 알아보세요.
 +++
 
 +++**구독 서비스 활동**

@@ -28,7 +28,7 @@ Adobe Campaign 내에서 모집단을 타기팅하고 대상자를 관리하는 
 
 데이터베이스에서 [프로필을 가져오기](../../platform/using/import-operations-samples.md) 위해 쉬운 사용 사례를 살펴봅니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/importing-profiles.html)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/importing-profiles.html?lang=ko)
 
 ## 마케팅 캠페인의 대상 모집단을 정의하려면 어떻게 해야 합니까? {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
@@ -41,7 +41,7 @@ Adobe Campaign 내에서 모집단을 타기팅하고 대상자를 관리하는 
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group).
 
-![](assets/do-not-localize/how-to-video.png)이 비디오 [및 다른 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html)에서 [이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)
+![](assets/do-not-localize/how-to-video.png)이 비디오 [및 다른 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html?lang=ko)에서 [이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html?lang=ko)
 
 ## 메시지를 보내기 전에 모집단 중복을 제거하려면 어떻게 해야 합니까? {#how-can-i-deduplicate-a-population-before-sending-a-message-}
 

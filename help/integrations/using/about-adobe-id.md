@@ -50,6 +50,6 @@ Campaign 사용자는 [기본 사용자/암호 인증](../../platform/using/acce
 
 | 유용한 페이지 | 추가 자료 |
 |---|---|
-| [IMS 구성](../../integrations/using/configuring-ims.md) | [Experience Cloud FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) |
+| [IMS 구성](../../integrations/using/configuring-ims.md) | [Experience Cloud FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=ko) |
 | [IMS 구현](../../integrations/using/implementing-ims.md) | [액세스 관리](../../platform/using/access-management.md) |
 | [IMS 문제 해결](../../integrations/using/ims-troubleshooting.md) | [Campaign 패키지 설치](../../installation/using/installing-campaign-standard-packages.md) |

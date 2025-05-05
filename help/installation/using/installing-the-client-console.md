@@ -42,7 +42,7 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 
 Campaign Classic 7.3 빌드 버전에서 콘솔을 설치하려면 Microsoft Edge Webview 2 런타임을 설치해야 합니다.
 
-Web View는 기본적으로 Windows 11 운영 체제의 일부로 설치됩니다. 시스템에 아직 없는 경우 Campaign Classic 콘솔 설치 관리자가 [Microsoft 개발자 웹 사이트](https://www.adobe.com/go/acc-ms-webview2-runtime-download)에서 다운로드하라는 메시지를 표시합니다. Microsoft에서 해당 지원이 더 이상 사용되지 않으므로 다운로드 링크가 Internet Explorer 11 브라우저에서 작동하지 않습니다. 다른 브라우저를 사용하여 링크에 액세스해야 합니다.
+Web View는 기본적으로 Windows 11 운영 체제의 일부로 설치됩니다. 시스템에 아직 없는 경우 Campaign Classic 콘솔 설치 관리자가 [Microsoft 개발자 웹 사이트](https://www.adobe.com/go/acc-ms-webview2-runtime-download_kr)에서 다운로드하라는 메시지를 표시합니다. Microsoft에서 해당 지원이 더 이상 사용되지 않으므로 다운로드 링크가 Internet Explorer 11 브라우저에서 작동하지 않습니다. 다른 브라우저를 사용하여 링크에 액세스해야 합니다.
 
 ## Adobe 호스팅 구현 {#hosted-customers}
 

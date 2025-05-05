@@ -60,7 +60,7 @@ ht-degree: 2%
 </tr>
 <tr>
 <td>보안 영역의 일반 구성을 확인합니다.</td>
-<td>보안 영역 구성에 대한 자세한 정보는 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html#configuring-campaign-server"/>이 섹션을 참조하십시오.</a></td>
+<td>보안 영역 구성에 대한 자세한 정보는 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=ko#configuring-campaign-server"/>이 섹션을 참조하십시오.</a></td>
 </tr>
 <tr>
 <td>nlserver pdump 명령이 <b>작업 없음</b>을 반환합니다.</td>

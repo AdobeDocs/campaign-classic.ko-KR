@@ -190,7 +190,7 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
 
   ![](assets/do-not-localize/v7.jpeg) [Campaign v7 설명서](../../configuration/using/database-mapping.md)
 
-  ![](assets/do-not-localize/v8.png) [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html)
+  ![](assets/do-not-localize/v8.png) [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=ko)
 
 ### 함수 {#functions}
 

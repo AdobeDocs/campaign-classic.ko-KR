@@ -24,7 +24,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->개인 정보가 포함될 수 있는 페이지는 항상 보호하십시오. [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy)을 참조하세요.
+>개인 정보가 포함될 수 있는 페이지는 항상 보호하십시오. [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html#privacy)을 참조하세요.
 
 이 템플릿은 웹 응용 프로그램의 유형을 결정합니다. 다음을 만들 수 있습니다.
 

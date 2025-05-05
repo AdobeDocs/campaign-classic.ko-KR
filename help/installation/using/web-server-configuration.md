@@ -81,5 +81,5 @@ ht-degree: 0%
 
 관련 항목:
 
-* [Adobe Marketing Cloud 규정 준수 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
-* [Adobe Campaign 보안 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#security)
+* [Adobe Marketing Cloud 규정 준수 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
+* [Adobe Campaign 보안 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/overview#security)

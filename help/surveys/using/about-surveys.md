@@ -18,7 +18,7 @@ Adobe Campaign에는 웹 애플리케이션을 정의하고 게시하는 그래�
 
 >[!AVAILABILITY]
 >
->엔터프라이즈(FFDA) 배포의 컨텍스트에서는 Campaign v8에서 설문 조사 관리를 사용할 수 없습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}를 참조하세요.
+>엔터프라이즈(FFDA) 배포의 컨텍스트에서는 Campaign v8에서 설문 조사 관리를 사용할 수 없습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}를 참조하세요.
 
 
 선택 사항인 **설문 조사** 추가 기능을 사용하면 새 유형의 웹 응용 프로그램을 만들어 프로필 정보를 추가하거나 수정하는 양식, 정보 서비스 또는 경쟁 가입 양식에 가입하거나 가입 해지하는 양식 등의 온라인 설문 조사를 만들고 관리할 수 있습니다. 응답이 수집되면 데이터베이스나 로컬 변수에 저장됩니다. 데이터 모델은 질문에 대한 답변을 통해 동적으로 확장할 수 있습니다. 결과를 실시간으로 보고, 응답을 필터링하고, 전용 차트를 사용하여 분석할 수 있습니다.

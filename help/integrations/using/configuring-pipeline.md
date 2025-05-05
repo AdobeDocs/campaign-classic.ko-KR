@@ -28,7 +28,7 @@ ht-degree: 1%
 이 구성을 시작하기 전에 다음을 확인하십시오.
 
 * Adobe Developer 프로젝트
-* 올바른 조직 ID - 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}를 참조하세요.
+* 올바른 조직 ID - 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}를 참조하세요.
 * 조직에 대한 개발자 액세스 권한
 * Adobe Analytics의 유효한 트리거 구성
 

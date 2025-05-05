@@ -32,4 +32,4 @@ Adobe Campaign 운영자는 보고, 승인 추적, 알림, 토론 포럼 등 완
 
 >[!NOTE]
 >
->Adobe Campaign용 MRM 및 사용 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/mrm/about-marketing-resource-management){target=_blank}를 참조하세요.
+>Adobe Campaign용 MRM 및 사용 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/automation/mrm/about-marketing-resource-management){target=_blank}를 참조하세요.

@@ -73,7 +73,7 @@ ht-degree: 8%
 
 ## Adobe Identity Management 시스템(IMS) 업데이트
 
-IMS(Adobe ID 서비스)가 **2021년 6월 30일**&#x200B;부터 이전 Internet Explorer 버전의 지원을 중지합니다. [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
+IMS(Adobe ID 서비스)가 **2021년 6월 30일**&#x200B;부터 이전 Internet Explorer 버전의 지원을 중지합니다. [자세히 알아보기](https://helpx.adobe.com/kr/x-productkb/global/update-operating-system-and-browser.html).
 
 Adobe IMS와의 호환성을 보장하려면 Campaign 클라이언트 콘솔을 업그레이드해야 합니다.
 

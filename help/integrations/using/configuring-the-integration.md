@@ -28,7 +28,7 @@ Adobe Campaign에서 구성을 시작하려면 아래 단계를 따르십시오.
 1. [외부 계정 구성](#configure-the-external-account)
 1. [AEM 리소스 필터링 구성](#configure-aem-resources-filtering)
 
-개인화 필드 및 블록 관리와 같은 고급 구성용. Adobe Experience Manager [설명서](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html)를 참조하세요.
+개인화 필드 및 블록 관리와 같은 고급 구성용. Adobe Experience Manager [설명서](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/campaignonpremise.html)를 참조하세요.
 
 ### Adobe Campaign에 AEM 통합 패키지 설치 {#install-the-aem-integration-package-in-adobe-campaign}
 
@@ -119,12 +119,12 @@ Adobe Experience Manager에서 구성을 시작하려면 아래 단계를 따르
 
 1. AEM 작성 인스턴스에서 AEM 게시 인스턴스로 복제하도록 **복제**&#x200B;를 구성하십시오.
 
-   복제를 구성하는 방법에 대해 알아보려면 Adobe Experience Manager [설명서](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/replication.html)를 참조하세요.
+   복제를 구성하는 방법에 대해 알아보려면 Adobe Experience Manager [설명서](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/replication.html)를 참조하세요.
 
 1. 전용 **Cloud Service**&#x200B;을(를) 구성하여 Adobe Experience Manager을 Adobe Campaign에 연결합니다.
 
-   Cloud Service을 통해 두 솔루션을 모두 연결하는 방법은 Adobe Experience Manager [설명서](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) 를 참조하십시오.
+   Cloud Service을 통해 두 솔루션을 모두 연결하는 방법은 Adobe Experience Manager [설명서](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) 를 참조하십시오.
 
 1. **외부화 서비스**&#x200B;를 구성하십시오.
 
-   구성 방법에 대해 알아보려면 Adobe Experience Manager [설명서](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/externalizer.html)를 참조하세요.
+   구성 방법에 대해 알아보려면 Adobe Experience Manager [설명서](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/externalizer.html)를 참조하세요.

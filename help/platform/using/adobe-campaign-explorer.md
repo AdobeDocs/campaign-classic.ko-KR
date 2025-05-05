@@ -22,7 +22,7 @@ Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 �
 
 >[!NOTE]
 >
->Adobe Campaign 탐색기에 대한 자세한 내용은 Campaign v8 설명서의 다음 페이지를 참조하십시오. [사용자 인터페이스에 대한 자세한 정보](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}, 사용자 인터페이스의 [설정](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} 또는 [탐색기에서 폴더 및 보기를 관리하는 방법](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
+>Adobe Campaign 탐색기에 대한 자세한 내용은 Campaign v8 설명서의 다음 페이지를 참조하십시오. [사용자 인터페이스에 대한 자세한 정보](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}, 사용자 인터페이스의 [설정](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} 또는 [탐색기에서 폴더 및 보기를 관리하는 방법](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 
 <!--

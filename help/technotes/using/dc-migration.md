@@ -78,7 +78,7 @@ ht-degree: 2%
 
 이러한 노력을 시작하기 위해 이 마이그레이션이 필요한 계정은 타임라인을 제공하고 설명서에 액세스할 수 있는 Adobe의 이메일 커뮤니케이션을 수신하게 됩니다. 계정이 마이그레이션되도록 예약되었다는 알림이 됩니다.
 
-[새 고객 지원 티켓을 열기](https://experienceleague.adobe.com/?support-solution=Campaign#support)하여 마이그레이션을 시작할 수 있습니다. 제목란 &quot;AWS으로 마이그레이션&quot;을 사용합니다.
+[새 고객 지원 티켓을 열기](https://experienceleague.adobe.com/ko?support-solution=Campaign#support)하여 마이그레이션을 시작할 수 있습니다. 제목란 &quot;AWS으로 마이그레이션&quot;을 사용합니다.
 
 ### 이 마이그레이션은 필수입니까?
 

@@ -51,7 +51,7 @@ Adobe Campaign과 Adobe Experience Cloud 간에 연결을 활성화하려면 IMS
 
 >[!CAUTION]
 >
->이 기능은 Adobe Experience Manager 6.4부터 사용 중단되었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html#removed-features)
+>이 기능은 Adobe Experience Manager 6.4부터 사용 중단되었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=ko#removed-features)
 
 AEM Assets을 Adobe Campaign과 통합하려면 먼저 Adobe Experience Manager과 Adobe Campaign 간의 통합을 구성해야 합니다. 이 구성은 주로 다음을 필요로 합니다.
 

@@ -28,7 +28,7 @@ ht-degree: 7%
 구성이 최소한이고 서드파티가 관련이 없기 때문에 더 애자일 통합을 허용합니다.
 또한 마케팅 활동의 성능에 영향을 주지 않고 많은 양의 트래픽을 지원합니다. 예를 들어 통합은 시간당 백만 개의 트리거를 처리할 수 있습니다.
 
-![](assets/do-not-localize/book.png) [Experience Cloud 트리거를 만들고](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)중요한 소비자 행동을 식별하고, 정의하고, 모니터링하는 방법을 알아봅니다.
+![](assets/do-not-localize/book.png) [Experience Cloud 트리거를 만들고](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ko)중요한 소비자 행동을 식별하고, 정의하고, 모니터링하는 방법을 알아봅니다.
 
 ## [!DNL Triggers] 아키텍처 {#triggers-architecture}
 
@@ -43,7 +43,7 @@ ht-degree: 7%
 이 구현을 시작하기 전에 다음을 확인하십시오.
 
 * 올바른 **조직 식별자**: 조직 ID는 Adobe Experience Cloud 내의 고유 식별자이며, 예를 들어 VisitorID 서비스 및 IMS SSO(Single Sign-On)에 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)
-* 조직에 대한 **개발자 액세스**. 조직의 시스템 관리자는 트리거와 연결된 Adobe Analytics 제품의 `Analytics - {tenantID}` 제품 프로필에 대한 개발자 액세스 권한을 제공하려면 **단일 제품 프로필에 개발자 추가** 절차(이 페이지의 [설명](https://helpx.adobe.com/enterprise/using/manage-developers.html))를 따라야 합니다.
+* 조직에 대한 **개발자 액세스**. 조직의 시스템 관리자는 트리거와 연결된 Adobe Analytics 제품의 `Analytics - {tenantID}` 제품 프로필에 대한 개발자 액세스 권한을 제공하려면 **단일 제품 프로필에 개발자 추가** 절차(이 페이지의 [설명](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html))를 따라야 합니다.
 
 ## 구현 단계 {#implement}
 

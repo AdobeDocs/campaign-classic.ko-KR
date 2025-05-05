@@ -24,7 +24,7 @@ ht-degree: 50%
 
 Adobe Campaign을 사용하면 Adobe Experience Cloud 서비스와 대상자 및 세그먼트를 공유할 수 있습니다. 두 가지 옵션을 사용할 수 있습니다.
 
-1. Adobe Experience Platform 세그먼트 데이터를 Adobe Campaign으로 보냅니다. 이 통합을 구현하려면 Real-time Customer Data Platform을 Campaign(RTCDP)에 연결해야 합니다. [이 섹션에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
+1. Adobe Experience Platform 세그먼트 데이터를 Adobe Campaign으로 보냅니다. 이 통합을 구현하려면 Real-time Customer Data Platform을 Campaign(RTCDP)에 연결해야 합니다. [이 섹션에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ko){target="_blank"}.
 
 1. **Adobe Campaign**&#x200B;을(를) **Experience Cloud 대상** 또는 **Adobe Audience Manager**&#x200B;과(와) 통합합니다. 그러면 다음을 수행할 수 있습니다:
 

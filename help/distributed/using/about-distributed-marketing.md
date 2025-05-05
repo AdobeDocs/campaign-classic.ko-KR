@@ -27,7 +27,7 @@ Adobe Campaign은 중앙 엔터티(본사, 마케팅 부서 등)와 로컬 엔�
 
 >[!NOTE]
 >
->Adobe Campaign용 Distributed Marketing 및 사용 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}를 참조하세요.
+>Adobe Campaign용 Distributed Marketing 및 사용 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}를 참조하세요.
 
 <!--
 ## Terminology {#terminology}

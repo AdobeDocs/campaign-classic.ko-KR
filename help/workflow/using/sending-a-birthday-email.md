@@ -27,7 +27,7 @@ ht-degree: 2%
 
 이 (일일 실행) 워크플로우는 현재 날짜에 생일이 있는 모든 수신자를 선택합니다.
 
-![](assets/do-not-localize/how-to-video.png) 이 사용 사례는 비디오 형식에서도 찾을 수 있습니다. 자세한 내용은 [워크플로 만들기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html) 비디오를 참조하십시오.
+![](assets/do-not-localize/how-to-video.png) 이 사용 사례는 비디오 형식에서도 찾을 수 있습니다. 자세한 내용은 [워크플로 만들기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html?lang=ko) 비디오를 참조하십시오.
 
 이렇게 하려면 캠페인을 만들고 **[!UICONTROL Targeting and workflows]** 탭을 클릭하십시오. 자세한 내용은 [워크플로우에서 기본 대상 만들기](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) 섹션을 참조하십시오.
 

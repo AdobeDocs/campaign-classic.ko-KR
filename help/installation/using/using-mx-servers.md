@@ -91,4 +91,4 @@ MX 규칙에는 램프 업 프로세스 중에 주로 사용되는 6개의 서�
 * [MX 구성](../../installation/using/email-deliverability.md#mx-configuration)
 * [기술 이메일 구성](../../installation/using/email-deliverability.md)
 * [게재 실패 이해](../../delivery/using/understanding-delivery-failures.md)
-* [Campaign Classic - 기술 Recommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html)
+* [Campaign Classic - 기술 Recommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ko)

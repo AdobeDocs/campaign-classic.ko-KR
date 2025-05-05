@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->엔터프라이즈(FFDA) 배포의 컨텍스트에서는 Campaign v8에서 쿠폰 관리를 사용할 수 없습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}를 참조하세요.
+>엔터프라이즈(FFDA) 배포의 컨텍스트에서는 Campaign v8에서 쿠폰 관리를 사용할 수 없습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}를 참조하세요.
 
 쿠폰 관리는 설치해야 하는 패키지를 사용합니다. 쿠폰 관리 기능이 있는지 확인하려면 **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**&#x200B;을(를) 확인하세요.
 

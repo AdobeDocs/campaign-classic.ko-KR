@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 전달성의 정의{#about-deliverability}
 
-전달성을 사용하면 캠페인이 바운스 없이 또는 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달했는지 측정할 수 있습니다. [전달성이 중요한 이유를 알아보세요](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
+전달성을 사용하면 캠페인이 바운스 없이 또는 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달했는지 측정할 수 있습니다. [전달성이 중요한 이유를 알아보세요](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=ko#why-deliverability-matters).
 
 더 정확히 말해, 이메일 전달성이란 메시지가 개인 이메일 주소를 통해, 짧은 시간 내에, 그리고 콘텐츠와 형식 측면에서 예상되는 품질로 대상에 도달할 수 있는지를 결정하는 일련의 특징들을 말합니다.
 
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 전달성 문제는 일반적으로 인터넷 서비스 공급자 및 메일 서버 관리자가 구현하는 스팸 방지 측정과 연결됩니다.
 
-* 성공적인 이메일 마케팅 캠페인을 디자인하는 방법에 대한 일반적인 권장 사항은 [전달성 전략 및 정의](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html)를 참조하십시오.
+* 성공적인 이메일 마케팅 캠페인을 디자인하는 방법에 대한 일반적인 권장 사항은 [전달성 전략 및 정의](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=ko)를 참조하십시오.
 
 * Adobe Campaign 이메일의 전달성을 최적화하는 방법에 대한 보다 구체적인 권장 사항을 알려면, Adobe에서는 이 섹션에 나열된 모범 사례를 사용할 것을 권장합니다.
 
@@ -40,12 +40,12 @@ ht-degree: 7%
 Adobe Campaign의 경우 전달률은 여러 가지 요인에 따라 다릅니다. 특히
 
 * 인스턴스의 올바른 구성: 도움이 필요하면 Adobe 담당자에게 문의하십시오.
-* 올바른 네트워크 구성: [도메인 설정 및 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy)을 참조하세요.
-* IP 주소 신뢰도: [IP 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy)을 참조하세요.
-* 낮은 [컴플레인](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) 및 [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) 비율.
+* 올바른 네트워크 구성: [도메인 설정 및 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#domain-setup-and-strategy)을 참조하세요.
+* IP 주소 신뢰도: [IP 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#ip-strategy)을 참조하세요.
+* 낮은 [컴플레인](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ko) 및 [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#hard-bounces) 비율.
 * 메시지 내용: [전자 메일 내용 제어](control-message-content.md)를 참조하세요.
-* 메시지 인증(SPF, DKIM, DMARC): [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)을 참조하세요.
-* 보낸 사람의 신뢰도: 기본 ISP에서 보낸 사람의 신뢰도를 평가하는 방법을 알아보려면 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html)을 참조하세요.
+* 메시지 인증(SPF, DKIM, DMARC): [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#authentication)을 참조하세요.
+* 보낸 사람의 신뢰도: 기본 ISP에서 보낸 사람의 신뢰도를 평가하는 방법을 알아보려면 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=ko)을 참조하세요.
 
 ## Campaign 전달성 도구 {#deliverability-tools}
 
@@ -67,7 +67,7 @@ Adobe Campaign은 플랫폼의 전달성 성능을 추적하고 개선하는 여
 
 자세한 내용은 [이중 옵트인](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)을 사용하여 구독 양식 만들기를 참조하십시오.
 
-고객으로부터 데이터를 수집하는 모범 사례에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene)를 참조하세요.
+고객으로부터 데이터를 수집하는 모범 사례에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=ko#data-quality-and-hygiene)를 참조하세요.
 
 ### 격리 관리 활용
 

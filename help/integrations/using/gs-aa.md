@@ -35,4 +35,4 @@ Adobe Campaign-Adobe Analytics 커넥터 작업을 시작하기 전에 다음 �
 
 이 통합을 사용하려면 [이 페이지](oauth-technical-account.md)에 자세히 설명된 대로 Adobe 기술 계정을 만들어야 합니다.
 
-[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}에서 Adobe Analytics 및 Adobe Campaign을 사용하는 방법에 대해 알아봅니다.
+[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}에서 Adobe Analytics 및 Adobe Campaign을 사용하는 방법에 대해 알아봅니다.

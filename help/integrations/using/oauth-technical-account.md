@@ -30,7 +30,7 @@ JWT(서비스 계정) 자격 증명은 Adobe에서 더 이상 사용되지 않�
 
 1. Adobe Developer 콘솔에 액세스하고 조직의 **시스템 관리자**(으)로 로그인합니다.
 
-   관리자 역할에 대한 자세한 내용은 이 [페이지](https://helpx.adobe.com/enterprise/using/admin-roles.html)를 참조하세요.
+   관리자 역할에 대한 자세한 내용은 이 [페이지](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html)를 참조하세요.
 
 1. **[!UICONTROL Create a new project]**&#x200B;를 클릭합니다.
 
@@ -48,7 +48,7 @@ JWT(서비스 계정) 자격 증명은 Adobe에서 더 이상 사용되지 않�
 
 1. 프로젝트에 대한 **[!UICONTROL Product profile]** 링크를 선택하십시오.
 
-   필요한 경우 새 폴더를 만들 수 있습니다. [자세히 알아보기](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)
+   필요한 경우 새 폴더를 만들 수 있습니다. [자세히 알아보기](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)
 
 1. **[!UICONTROL Save Configured API]**&#x200B;을(를) 클릭합니다.
 

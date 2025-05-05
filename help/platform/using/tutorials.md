@@ -24,7 +24,7 @@ ht-degree: 2%
 Adobe Campaign의 직관적인 단계별 안내서를 참조하여 시작하십시오.
 
 * [개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html): 서비스를 사용할 때 Adobe Campaign Classic에서 개인 정보 보호 규정을 준수하는 데 도움이 되는 기능을 알아봅니다.
-* [전자 메일에 동적 콘텐츠 통합](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html): Campaign Classic과 Target Standard 간의 통합을 시작하기 위한 기본 사항을 살펴보십시오.
+* [전자 메일에 동적 콘텐츠 통합](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html?lang=ko): Campaign Classic과 Target Standard 간의 통합을 시작하기 위한 기본 사항을 살펴보십시오.
 * [게재 기능 관리](../../delivery/using/about-deliverability.md): 게재 기능과 관련된 개념과 모범 사례와 Adobe Campaign Classic에서 제공하는 게재 전송 최적화 도구에 대해 알아봅니다.
 * [게재 모범 사례](../../delivery/using/delivery-best-practices.md): 게재 디자인 및 Adobe Campaign Classic 전송과 관련된 모범 사례에 대해 알아봅니다.
 * [빌드 업그레이드를 수행하는 중](https://helpx.adobe.com/kr/campaign/kb/acc-build-upgrade.html): 이 안내서에서는 Campaign Classic으로 빌드 업그레이드를 수행하는 주요 단계 및 모범 사례를 제공합니다.
@@ -52,4 +52,4 @@ Adobe Campaign의 직관적인 단계별 안내서를 참조하여 시작하십�
 
 ### Experience League 과정
 
-또한 Adobe Campaign Classic의 [권장 과정](https://experienceleague.adobe.com/#dashboard/learning)을 방문할 수도 있습니다. 과정은 기술과 지식을 빠르게 습득하는 데 도움이 되는 전문적인 학습 모음입니다.
+또한 Adobe Campaign Classic의 [권장 과정](https://experienceleague.adobe.com/ko#dashboard/learning)을 방문할 수도 있습니다. 과정은 기술과 지식을 빠르게 습득하는 데 도움이 되는 전문적인 학습 모음입니다.
