@@ -170,6 +170,6 @@ Campaign을 설치할 때 언어가 선택되며 나중에 변경할 수 없습�
 
 이 비디오에서는 Campaign Classic 작업 영역을 제공합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/39536?quality=12&captions=kor)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

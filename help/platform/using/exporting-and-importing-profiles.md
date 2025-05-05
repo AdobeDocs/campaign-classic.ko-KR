@@ -39,6 +39,6 @@ ht-degree: 30%
 
 이 비디오에서는 Adobe Campaign에서 프로필을 가져오는 방법을 설명합니다(가끔 가져오기).
 
->[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31903?quality=12&captions=kor)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

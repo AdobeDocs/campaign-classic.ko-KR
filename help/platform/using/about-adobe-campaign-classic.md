@@ -91,6 +91,6 @@ Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 �
 
 이 비디오에서는 Campaign Classic의 주요 기능을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/39520?quality=12&captions=kor)
 
 추가 Campaign Classic 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

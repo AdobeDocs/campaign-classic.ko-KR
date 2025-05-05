@@ -224,6 +224,6 @@ ht-degree: 5%
 
 이 비디오에서는 마케팅 계획, 프로그램 및 캠페인을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326561?quality=12&captions=kor)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

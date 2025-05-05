@@ -173,6 +173,6 @@ Campaign 서버 폴더에서 콘솔을 사용할 수 있게 되면 팝업 창에
 
 이 비디오는 Adobe Campaign 클라이언트를 설치하고 설정하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38271?quality=12&captions=kor)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.
