@@ -19,7 +19,7 @@ ht-degree: 13%
 >id="ac_workflow_intersection"
 >title="교차 활동"
 >abstract="교차 유형 활동은 수신된 대상의 교차점에서 대상을 만듭니다. 교차를 통해 모든 인바운드 활동 결과에 공통인 모집단만 추출할 수 있습니다."
->additional-url="https://video.tv.adobe.com/v/329373" text="데모 비디오 시청"
+>additional-url="https://video.tv.adobe.com/v/341375?captions=kor" text="데모 비디오 시청"
 
 
 
