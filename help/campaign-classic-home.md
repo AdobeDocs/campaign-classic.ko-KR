@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: ec39e513a3474bdcdcf39be7b5e184d62b98f7a2
-workflow-type: ht
+source-git-commit: 961f056ca8bf201e8cedcddb3a2b1f1a4e32b08a
+workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ Adobe Campaign Classic v7 제품 및 설명서의 최신 개선 사항을 살펴
 >[!BEGINTABS]
 
 
->[!TAB 2025년 3월 릴리스가 공개되었습니다!]
+>[!TAB 2025년 4월 릴리스가 공개되었습니다!]
 
-Campaign Classic v7.4.2 - 2025년 3월 릴리스의 업데이트, 개선 사항, 해결 사항을 알아보십시오.
+Campaign Classic v7.4.2 - 2025년 4월 릴리스의 업데이트, 개선 사항 및 수정 사항을 살펴보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -113,4 +113,4 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
 
 ## 추가 리소스
 
-[오류 메시지 목록](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko) - [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [호환성 매트릭스](rn/using/compatibility-matrix.md) - [튜토리얼](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko){target="_blank"} - [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
+[오류 메시지 목록](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko) - [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [호환성 매트릭스](rn/using/compatibility-matrix.md) - [자습서](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko){target="_blank"} - [Campaign용 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
