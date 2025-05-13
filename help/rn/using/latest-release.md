@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 458821770c6233ec1893d4efe60169516b311bdd
+source-git-commit: be7412f2ccf050a44eb32ebe8280c695349faac8
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '903'
 ht-degree: 26%
 
 ---
@@ -17,7 +17,20 @@ ht-degree: 26%
 
 이 페이지에서는 **최신 Campaign v7 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다. 모든 새 빌드는 색상으로 상태가 표시됩니다. [이 페이지](rn-overview.md)에서 Campaign Classic v7 빌드 상태에 대해 자세히 알아보십시오.
 
-## 릴리스 7.4.2 - 빌드 9390 {#release-7-4-2}
+## 릴리스 7.4.2  {#release-7-4-2}
+
+### 빌드 9391 {#build-9391}
+
+[!BADGE 제한 공개]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
+
+_2025년 5월 12일 화요일_
+
+이 빌드에는 다음 수정 사항이 포함되어 있습니다.
+
+* 비 Oracle 설정에서 발생한 업그레이드 후 문제를 해결했습니다. (NEO-87012)
+* 클라이언트 콘솔과 서버 모두에 영향을 주는 TLS/HTTPS 백엔드 문제를 해결했습니다. (NEO-87432)
+
+### 빌드 9390 {#build-9390}
 
 [!BADGE 일반 공급]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
 
@@ -33,13 +46,13 @@ This release comes with the following compatibility updates:
 
 -->
 
-### 보안 개선 사항 {#security-7-4-2}
+**보안 개선 사항**
 
 이 릴리스에서는 여러 보안 문제를 해결합니다.
 
 보안을 강화하기 위해 **[!UICONTROL Adobe Experience Cloud]** 외부 계정을 통한 Adobe 솔루션 및 앱 연결을 업데이트했습니다.
 
-### 주요 수정 사항 {#release-7-4-2-fixes}
+**주요 수정 사항**
 
 이 릴리스에서는 다음과 같은 주요 문제가 해결되었습니다.
 
@@ -58,7 +71,7 @@ This release comes with the following compatibility updates:
 * 메일 전송 에이전트(MTA) - 분리된 MTA 하위 요소가 **[!UICONTROL Start pending]** 상태에서 중단되는 문제를 해결했습니다.
 
 
-### 기타 수정 사항 {#release-7-4-2-other-fixes}
+**기타 수정 사항**
 
 이 릴리스에서는 다음 문제도 해결합니다.
 
