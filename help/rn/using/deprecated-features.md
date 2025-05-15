@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 84e6b2fad97f0ca5d6621cff4648e0be0bef7521
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1652'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <tr>
  <td>Campaign(Neolane) 레거시 SDK</td>
  <td><p>모바일 애플리케이션용 Campaign(Neolane) SDK의 사용이 종료되었습니다. 대신 데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform 모바일 SDK를 사용하면 됩니다. Adobe Experience Platform 모바일 SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 구동하는 데 도움이 됩니다. SDK 구성은 데이터 수집 UI를 통해 관리되므로 유연한 구성과 확장 가능한 규칙 기반 통합을 이용할 수 있습니다. <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 설명서</a>에서 모바일 앱 채널을 구성하는 방법에 대해 알아봅니다.</p>
-<p>목표 제거일: 2025년 7월 31일 금요일 </p>
+<p>목표 제거일: 2025년 7월 31일 </p>
 </td>
 </tr>
 <tr>
@@ -83,7 +83,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
     <tr>
   <td>기술 게재성 모니터링 보고서<br></td>
    <td><p>기술 게재 가능성 모니터링 보고서를 더 이상 사용할 수 없습니다. Campaign 21.1.3 릴리스에서 더 이상 사용되지 않습니다.</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
@@ -137,7 +137,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <tr> 
    <td>decryptString API</td>
    <td><p>보안상의 이유로 Campaign 18.6 릴리스부터는 <em>decryptString</em> API는 기본적으로 더 이상 새로 설치할 수 없습니다.</p> 
-   <p>18.6 또는 그 이상으로 업그레이드 후 컨텍스트에서 이 API는 더 이상 활성화되지 않으며 <em>decryptPassword</em> 함수로 대체되었습니다. <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=ko&hl=decrypt">자세히 알아보기</a></p></td>
+   <p>18.6 또는 그 이상으로 업그레이드 후 컨텍스트에서 이 API는 더 이상 활성화되지 않으며 <em>decryptPassword</em> 함수로 대체되었습니다. <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">자세히 알아보기</a></p></td>
   </tr> 
    <tr> 
    <td>모바일 채널 - MMS 및 WAP 푸시 메시지</td>
@@ -200,7 +200,7 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 도구와 호환되지 않습니다.
 
 * Java JDK 7. [자세히 알아보기](https://www.oracle.com/technetwork/java/javase/eol-135779.html)
-* Libre Office 3.5/4.3/5.x(다른 도구에 내장된 경우 제외) [자세히 알아보기](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
+* Libre Office 3.5/4.3/5.x(다른 도구에 임베딩된 경우 제외) [자세히 알아보기](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### 데이터베이스 엔진 {#dbe-eol}
 
