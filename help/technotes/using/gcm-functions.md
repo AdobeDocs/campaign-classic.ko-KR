@@ -3,14 +3,15 @@ product: campaign
 title: 새로운 GCM 기반 함수
 description: 새로운 GCM 기반 함수
 feature: Technote
-source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
+exl-id: 154dee7a-a1e9-40a2-bfa5-3641382d0574
+source-git-commit: b6d64f66d287dba79be5eddec48ee852c2c7740c
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# GCM 기반 함수 {#new-functions}
+# GCM 기반 기능 {#new-functions}
 
 보안을 개선하기 위해 암호화 작업에 CBC(Cipher Block Chaining) 모드를 사용하는 AES(Advanced Encryption Standard) 알고리즘의 사용을 중단했습니다. 새로운 암호화 기능이 도입되었습니다. 이러한 기능은 AES를 Galois/Counter Mode(AES-GCM)와 함께 사용하여 보다 안전한 대안을 제공합니다. 이러한 기능은 JavaScript, JSP, SOAP API 및 XML 스키마에서 사용할 수 있으므로 고객은 암호화 및 암호 해독을 위해 CBC에서 GCM으로 전환할 수 있습니다.
 
@@ -37,7 +38,7 @@ GCM 모드의 AES 알고리즘을 사용하여 인스턴스 키로 문자열을 
 
 ```
             String 
-            encrypted = Encrypt (
+            encrypted = EncryptString (
             String       
             decrypted
             
@@ -85,7 +86,7 @@ GCM 모드의 AES 알고리즘을 사용하여 서버 키로 문자열을 암호
 인스턴스 키 또는 다른 키로 문자 문자열을 암호화합니다.
 
 ```
-            cryptString (str [, key
+            encryptString (str [, key
       ] [, useSalt ])
          
 ```
@@ -126,7 +127,7 @@ decryptString 함수를 사용하여 암호 해독을 수행합니다.
 
 ### decryptString() {#decryptString-javascript}
 
-인스턴스 키 또는 다른 키로 문자 문자열을 암호화합니다. 이 레거시 기능은 GCM과 함께 사용할 수 있습니다. AES-CBC 모드를 사용하여 암호화된 암호 텍스트의 암호 해독은 더 이상 사용되지 않습니다.
+인스턴스 키 또는 다른 키를 사용하여 문자 문자열의 암호를 해독합니다. 이 레거시 기능은 GCM과 함께 사용할 수 있습니다. AES-CBC 모드를 사용하여 암호화된 암호 텍스트의 암호 해독은 더 이상 사용되지 않습니다.
 
 ```
             decryptString (str [, key
