@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->워크플로우를 사용하여 데이터를 가져오고 내보내는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}를 참조하세요.
+>워크플로우를 사용하여 데이터를 가져오고 내보내는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}를 참조하세요.
 
 
 <!--
