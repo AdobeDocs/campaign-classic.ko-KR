@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 4fb262c616276f785f97b42bec22c150afc6e5c8
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 2%
+source-wordcount: '87'
+ht-degree: 0%
 
 ---
 
@@ -23,21 +23,27 @@ ht-degree: 2%
 
 워크플로우는 일부 가져오기 프로세스를 자동화하는 유용한 방법이 될 수 있습니다. 로컬 파일에서 데이터를 가져오든 SFTP에서 데이터를 가져오든 간에 워크플로우를 사용하여 데이터 관리 절차를 표준화할 수 있습니다.
 
-### 목록의 데이터 사용: 목록 읽기 {#using-data-from-a-list--read-list}
+>[!NOTE]
+>
+>워크플로우를 사용하여 데이터를 가져오고 내보내는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}를 참조하세요.
 
-워크플로우에서 전송된 데이터는 미리 데이터를 준비하고 구조화한 목록에서 가져올 수 있습니다.
 
-이 목록은 Adobe Campaign에서 직접 만들었거나 **[!UICONTROL Import a list]** 옵션으로 가져왔을 수 있습니다. 이 옵션에 대한 자세한 정보는 이 [페이지](../../platform/using/about-generic-imports-exports.md)를 참조하세요.
+<!--
+### Use data from a list: Read list {#using-data-from-a-list--read-list}
 
-워크플로우에서 목록 읽기 활동을 사용하는 방법에 대한 자세한 내용은 [이 페이지](../../workflow/using/read-list.md)를 참조하세요.
+The data sent in a workflow can come from lists whereby the data has been prepared and structured beforehand.
 
-### 파일에서 데이터 로드 {#loading-data-from-a-file}
+This list may have been directly created in Adobe Campaign or imported by the **[!UICONTROL Import a list]** option. For more on this option, refer to this [page](../../platform/using/about-generic-imports-exports.md).
 
-워크플로우에서 처리된 데이터는 Adobe Campaign으로 가져올 수 있도록 구조화된 파일에서 추출할 수 있습니다.
+For more on using the read list activity in a workflow, refer to [this page](../../workflow/using/read-list.md).
 
-데이터 로드 활동에 대한 설명은 [데이터 로드(파일)](../../workflow/using/data-loading-file.md) 섹션에서 찾을 수 있습니다.
+### Load data from a file {#loading-data-from-a-file}
 
-가져올 구조화된 파일의 예:
+The data processed in a workflow can be extracted from a structured file so that it can be imported into Adobe Campaign.
+
+A description of the loading data activity can be found in the [Data loading (file)](../../workflow/using/data-loading-file.md) section.
+
+Example of structured file to import:
 
 ```
 lastname;firstname;birthdate;email;crmID
@@ -47,10 +53,11 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-데이터가 수집되면 워크플로우에서 사용할 수 있습니다. 예를 들어 게재를 보강하거나 데이터베이스를 업데이트할 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/how-to-use-workflow-data.md)를 참조하십시오.
+Once data has been collected you can use it in your workflows, for example to enrich a delivery or update the database. For more on this, refer to [this page](../../workflow/using/how-to-use-workflow-data.md).
 
-## 데이터 내보내기 {#exporting-data-via-a-workflow}
+## Export data {#exporting-data-via-a-workflow}
 
-워크플로우는 일부 내보내기 프로세스를 자동화하거나 데이터를 변형하는 데 사용할 수 있는 일부 데이터 관리 활동을 사용한 후 정확한 데이터 세트를 내보내는 유용한 방법이 될 수 있습니다.
+Workflows can be a useful way to automate some of your export processes or to export precise sets of data after using some of the available data management activities available to transform your data.
 
-내보내기 작업은 **[!UICONTROL Data extraction (file) activity]**&#x200B;을(를) 사용하여 수행됩니다. 활동을 구성하고 사용하는 방법에 대한 자세한 내용은 [이 페이지](../../workflow/using/extraction-file.md)를 참조하세요.
+Export operations are performed using a **[!UICONTROL Data extraction (file) activity]**. For more on how to configure and use the activity, refer to [this page](../../workflow/using/extraction-file.md).
+-->
