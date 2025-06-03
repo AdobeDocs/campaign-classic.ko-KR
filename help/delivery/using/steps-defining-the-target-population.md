@@ -251,6 +251,6 @@ ht-degree: 23%
 
 이 비디오에서는 기존 이메일에 시드 및 증명을 추가하는 방법과 이를 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35559?quality=12&captions=kor)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.
