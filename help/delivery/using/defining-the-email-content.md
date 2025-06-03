@@ -5,8 +5,10 @@ description: Adobe Campaign 사용 시 이메일 콘텐츠를 정의하는 방�
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email Design
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '1958'
 ht-degree: 1%
@@ -72,11 +74,11 @@ ht-degree: 1%
 
   >[!IMPORTANT]
   >
-  >HTML 콘텐츠를 미리 만든 다음 Adobe Campaign으로 가져와야 합니다. HTML 편집기는 콘텐츠 작성용으로 디자인되지 않았습니다.
+  >HTML 콘텐츠는 미리 만든 다음 Adobe Campaign으로 가져와야 합니다. HTML 편집기는 콘텐츠 작성용으로 디자인되지 않았습니다.
 
   **[!UICONTROL Preview]** 하위 탭에서는 수신자에 대한 각 콘텐츠의 렌더링을 볼 수 있습니다. 개인화 필드 및 컨텐츠의 조건부 요소는 선택한 프로필에 대한 해당 정보로 대체됩니다.
 
-  도구 모음 단추를 사용하면 HTML 페이지에 대한 표준 작업 및 서식 매개 변수에 액세스할 수 있습니다.
+  도구 모음 버튼은 HTML 페이지의 표준 작업 및 형식 매개 변수에 대한 액세스를 제공합니다.
 
   ![](assets/s_ncs_user_wizard_email01_138.png)
 
@@ -104,7 +106,7 @@ ht-degree: 1%
 
   ![](assets/s_ncs_user_wizard_email01_141.png)
 
-  HTML 형식에서는 페이지 하단의 **[!UICONTROL Preview]** 탭을 클릭하여 개인화된 메시지 렌더링을 확인합니다.
+  HTML 형식인 경우 페이지 하단의 **[!UICONTROL Preview]** 탭을 클릭하여 개인화된 메시지 렌더링을 확인합니다.
 
   ![](assets/s_ncs_user_wizard_email01_142.png)
 
@@ -149,9 +151,9 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
 ### 보호 기능 {#img-guardrails}
 
-성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100KB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션에서 변경할 수 있습니다. 그러나 Adobe은 이메일 게재에서 큰 이미지를 피하는 것을 강력히 권장합니다.
+성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100KB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션에서 변경할 수 있습니다. 그러나 Adobe에서는 이메일 게재에 큰 이미지를 사용하지 않는 것이 좋습니다.
 
-[Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery)에서 자세히 알아보세요.
+자세한 내용은 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery)을 참조하세요.
 
 ### 이미지 유형 {#img-types}
 

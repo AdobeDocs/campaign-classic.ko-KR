@@ -1,10 +1,12 @@
 ---
 product: campaign
 title: Campaign - Microsoft Dynamics CRM 커넥터
-description: Campaign과 Microsoft Dynamics 연결 방법 알아보기
+description: Campaign과 Microsoft Dynamics을 연결하는 방법 알아보기
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+hide: true
+hidefromtoc: true
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -17,13 +19,13 @@ ht-degree: 2%
 
 이 페이지에서는 Campaign Classic을 **Microsoft Dynamics CRM 365**&#x200B;에 연결하는 방법을 배웁니다.
 
-**웹 API**&#x200B;을(를) 통해 배포할 수 있습니다(권장). Microsoft Dynamics와의 연결을 설정하는 단계를 알아보려면 [아래 섹션](#microsoft-dynamics-implementation-step)을 참조하세요.
+**웹 API**&#x200B;을(를) 통해 배포할 수 있습니다(권장). Microsoft Dynamics과의 연결을 설정하는 단계를 알아보려면 [아래 섹션](#microsoft-dynamics-implementation-step)을 참조하세요.
 
 데이터 동기화는 전용 워크플로우 활동을 통해 수행됩니다. [자세히 알아보기](../../platform/using/crm-data-sync.md).
 
 ## 구현 단계{#microsoft-dynamics-implementation-steps}
 
-**웹 API**&#x200B;를 통해 Microsoft Dynamics 365를 Adobe Campaign에서 작동하도록 연결하려면 다음 단계를 적용해야 합니다.
+**웹 API**&#x200B;를 통해 Adobe Campaign에서 작동하도록 Microsoft Dynamics 365를 연결하려면 다음 단계를 적용해야 합니다.
 
 Microsoft Dynamics CRM에서:
 1. Microsoft Dynamics 클라이언트 ID 가져오기
@@ -44,7 +46,7 @@ Campaign Classic:
 
 
 >[!CAUTION]
-> Microsoft Dynamics와 Adobe Campaign을 연결할 때 다음을 수행할 수 없습니다.
+> Adobe Campaign과 Microsoft Dynamics을 연결할 때 다음을 수행할 수 없습니다.
 > * CRM의 동작을 변경하고 Adobe Campaign과의 호환성 문제를 초래할 수 있는 플러그인을 설치합니다.
 > * 여러 열거형 선택
 
@@ -155,17 +157,17 @@ Campaign Classic:
 >
 > Microsoft에서 [RDS](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891%28v=crm.8%29#microsoft-dynamics-crm-2011-endpoint) 사용 중단 후, 온-프레미스 및 Office 365 유형의 CRM 배포는 더 이상 Campaign과 호환되지 않습니다. Adobe Campaign은 이제 CRM 버전 **Dynamic CRM 365**&#x200B;에 대한 웹 API 배포만 지원합니다. [자세히 알아보기](../../rn/using/deprecated-features.md#crm-connectors).
 
-Microsoft Dynamics 365와 Campaign을 연결하려면 Campaign에서 전용 **[!UICONTROL External Account]**&#x200B;을(를) 만들고 구성해야 합니다.
+Microsoft Dynamics 365와 Campaign에 연결하려면 Campaign에서 전용 **[!UICONTROL External Account]**&#x200B;을(를) 만들고 구성해야 합니다.
 
 1. **[!UICONTROL Administration > Platform > External accounts]**(으)로 이동합니다.
 
 1. **[!UICONTROL Microsoft Dynamics CRM]** 외부 계정을 선택하십시오. **[!UICONTROL Enabled]** 옵션을 선택합니다.
 
-1. Microsoft Dynamics 365 및 Campaign에 연결하는 데 필요한 정보를 입력합니다.
+1. Microsoft Dynamics 365와 Campaign을 연결하는 데 필요한 정보를 입력합니다.
 
    >[!NOTE]
    >
-   >각 **[!UICONTROL CRM O-Auth type]**&#x200B;이(가) 있는 Microsoft Dynamics CRM 외부 계정 구성은 이 섹션[&#128279;](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)의 에 자세히 설명되어 있습니다.
+   >각 **[!UICONTROL CRM O-Auth type]**&#x200B;이(가) 있는 Microsoft Dynamics CRM 외부 계정 구성은 이 섹션](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)의 [에 자세히 설명되어 있습니다.
 
    ![](assets/crm-ms-dynamics-ext-account.png)
 
@@ -193,7 +195,7 @@ Microsoft Dynamics 365와 Campaign을 연결하려면 Campaign에서 전용 **[!
 
    ![](assets/crm_connectors_msdynamics_06.png)
 
-이제 Campaign과 Microsoft Dynamics가 연결되었습니다. 두 시스템 간에 데이터 동기화를 설정할 수 있습니다. 자세한 내용은 [데이터 동기화](../../platform/using/crm-data-sync.md) 섹션을 참조하세요.
+이제 Campaign과 Microsoft Dynamics이 연결되었습니다. 두 시스템 간에 데이터 동기화를 설정할 수 있습니다. 자세한 내용은 [데이터 동기화](../../platform/using/crm-data-sync.md) 섹션을 참조하세요.
 
 >[!NOTE]
 >
@@ -201,7 +203,7 @@ Microsoft Dynamics 365와 Campaign을 연결하려면 Campaign에서 전용 **[!
 
 ## 지원되는 필드 데이터 유형 {#ms-dyn-supported-types}
 
-Microsoft Dynamics 365의 경우 지원되는/지원되지 않는 특성 유형은 다음과 같습니다.
+Microsoft Dynamics 365의 경우 지원되는/지원되지 않는 속성 유형은 아래에 나와 있습니다.
 
 
 | 속성 유형 | 지원됨 |

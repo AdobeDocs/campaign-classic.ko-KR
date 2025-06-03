@@ -4,11 +4,13 @@ title: 게재 만들기 및 식별
 description: 게재 만들기 및 식별
 feature: Channel Configuration
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 5%
+ht-degree: 29%
 
 ---
 
@@ -23,7 +25,7 @@ ht-degree: 5%
 
 ![](assets/s_ncs_user_wizard_email01_1.png)
 
-기본 템플릿은 DM, 이메일, 팩스, 전화, 모바일 채널(SMS), Facebook, X(이전의 Twitter) 등 설치한 각 채널에 대해 제공됩니다.
+기본 템플릿은 설치한 각 채널에 대해 제공됩니다(DM, 이메일, 팩스, 전화, 모바일 채널(SMS), Facebook, X(이전 명칭: Twitter) 등).
 
 >[!NOTE]
 >
@@ -35,7 +37,7 @@ ht-degree: 5%
 
 게재를 식별하려면 매개 변수를 완료해야 합니다. 방법은 다음과 같습니다.
 
-1. **[!UICONTROL Label]** 필드에 게재 이름을 입력하십시오.
+1. **[!UICONTROL Label]** 필드에 게재 이름을 입력합니다.
 
    게재 코드를 게재에 지정할 수도 있습니다. 게재 이름 및 해당 코드는 게재 목록에 표시되지만 수신자는 볼 수 없습니다.
 
@@ -46,7 +48,7 @@ ht-degree: 5%
 
 1. **[!UICONTROL Continue]**&#x200B;을(를) 클릭하여 이 정보를 확인하고 메시지 구성 창을 표시합니다.
 
-게재 콘텐츠를 구성할 준비가 되었습니다. 게재 콘텐츠 정의는 각 채널에 따라 다릅니다. 자세한 내용은 전용 섹션 을 참조하십시오.
+게재 콘텐츠를 구성할 준비가 되었습니다. 게재 콘텐츠 정의는 각 채널별로 이루어집니다. 자세한 내용은 해당 섹션을 참조하십시오.
 
 * [이메일 콘텐츠 정의](defining-the-email-content.md)
 * [SMS 콘텐츠 정의](sms-create.md#defining-the-sms-content)

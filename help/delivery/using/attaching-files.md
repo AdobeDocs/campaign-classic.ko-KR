@@ -5,8 +5,10 @@ description: 파일 첨부 중
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email
 role: User
+hide: true
+hidefromtoc: true
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 1%
@@ -21,12 +23,12 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery)에서 권장 임계값을 구성할 수 있습니다.
+>성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. 권장 임계값은 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery)에서 구성할 수 있습니다.
 
 두 가지 가능한 경우가 있습니다.
 
 * 파일을 선택하여 그대로 게재에 첨부합니다.
-* 각 수신자에 대한 첨부 파일의 콘텐츠를 개인화합니다. 이 경우 **계산된 첨부 파일**&#x200B;을 만들어야 합니다. 첨부 파일의 이름은 받는 사람에 따라 각 메시지의 게재 시 계산됩니다. **가변 디지털 인쇄** 옵션이 있는 경우 콘텐츠를 개인화하고 배달 시 PDF 형식으로 변환할 수도 있습니다.
+* 각 수신자에 대한 첨부 파일의 콘텐츠를 개인화합니다. 이 경우 **계산된 첨부 파일**&#x200B;을 만들어야 합니다. 첨부 파일의 이름은 받는 사람에 따라 각 메시지의 게재 시 계산됩니다. **가변 디지털 인쇄** 옵션이 있는 경우 게재 시 콘텐츠를 개인화하고 PDF 형식으로 변환할 수도 있습니다.
 
 >[!NOTE]
 >
@@ -34,11 +36,11 @@ ht-degree: 1%
 
 ## 보호 기능 {#attachments-guardrails}
 
-성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100KB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션에서 변경할 수 있습니다. 그러나 Adobe은 이메일 게재에서 큰 이미지를 피하는 것을 강력히 권장합니다.
+성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100KB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션에서 변경할 수 있습니다. 그러나 Adobe에서는 이메일 게재에 큰 이미지를 사용하지 않는 것이 좋습니다.
 
-Adobe은 또한 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 기본적으로 하나의 파일만 전자 메일에 첨부 파일로 추가할 수 있습니다. 이 임계값은 `NmsDelivery_MaxRecommendedAttachments` 옵션에서 구성할 수 있습니다.
+Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 기본적으로 하나의 파일만 전자 메일에 첨부 파일로 추가할 수 있습니다. 이 임계값은 `NmsDelivery_MaxRecommendedAttachments` 옵션에서 구성할 수 있습니다.
 
-[Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery)에서 자세히 알아보세요.
+자세한 내용은 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery)을 참조하세요.
 
 ## 로컬 파일 첨부 {#attaching-a-local-file}
 
@@ -115,7 +117,7 @@ Adobe은 또한 첨부 파일의 크기와 수를 제한하는 것을 권장합�
 
 1. 게재를 분석한 다음 시작합니다.
 
-   각 수신자는 게재에 첨부된 개인화된 PDF을 받습니다.
+   각 수신자는 게재에 첨부된 개인화된 PDF을 수신합니다.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 

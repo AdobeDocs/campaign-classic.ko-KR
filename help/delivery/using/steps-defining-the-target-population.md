@@ -4,8 +4,10 @@ title: 대상 모집단 정의
 description: 대상 모집단을 정의하는 방법 알아보기
 feature: Audiences, Proofs
 role: User
+hide: true
+hidefromtoc: true
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 23%
@@ -237,10 +239,10 @@ ht-degree: 23%
 | 이름 | 사용 | 표준 스키마 |
 |---|---|---|
 | 수신자 | Adobe Campaign 데이터베이스 수신자에게 게재 | nms:recipient |
-| 방문자 | 예를 들어 추천(바이럴 마케팅) 또는 소셜 네트워크(Facebook, X - 이전 Twitter)를 통해 프로필이 수집된 방문자에게 제공합니다. | mns:visitor |
+| 방문자 | 예를 들어 추천(바이럴 마케팅) 또는 소셜 네트워크(Facebook, X - 이전에는 Twitter라고 함)를 통해 프로필이 수집된 방문자에게 제공합니다. | mns:visitor |
 | 구독 | 뉴스레터 등 정보 서비스를 구독한 수신자에게 게재 | nms:subscription |
 | 방문자 구독 | 정보 서비스를 구독한 방문자에게 게재 | nms:visitorSub |
-| 서비스 | X 계정 또는 Facebook 페이지로 Publish | nms:service |
+| 서비스 | X 계정 또는 Facebook 페이지에 게시 | nms:service |
 | 연산자 | Adobe Campaign 운영자에게 게재 | nms:operator |
 | 외부 파일 | 게재에 필요한 모든 정보가 포함된 파일을 통해 게재 | 연결된 스키마 없음, 입력된 대상 없음 |
 
@@ -249,6 +251,6 @@ ht-degree: 23%
 
 이 비디오에서는 기존 이메일에 시드 및 증명을 추가하는 방법과 이를 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/35559?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

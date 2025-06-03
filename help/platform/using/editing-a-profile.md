@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
-source-git-commit: ec774cc10a69a694b3c2bf5a6f662afd12a1435a
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 4%
+source-wordcount: '115'
+ht-degree: 2%
 
 ---
 
@@ -34,68 +34,77 @@ ht-degree: 4%
 >
 >자세한 내용은 [이 페이지](../../configuration/using/about-schema-edition.md)를 참조하세요.
 
-## 일반 탭 {#general-tab}
+>[!NOTE]
+>
+>프로필을 편집하고 액세스하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}의 상세 설명서를 참조하십시오.
 
-이 화면에는 선택한 프로필에 대한 모든 일반 데이터가 포함되어 있습니다. 특히 성, 이름, 이메일 주소, 이메일 수신 형식 등을 포함하고 있다. 다음과 같습니다.
+
+
+<!--
+## General tab {#general-tab}
+
+This screen contains all general data about the selected profile. In particular, it contains the last name, first name, email address, email reception format, etc. It looks like this:
 
 ![](assets/s_ncs_user_profile_general_tab.png)
 
 >[!NOTE]
 >
->**[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이 차단 목록에 추가하다에 있음을 의미합니다. 즉, 프로필이 (예를 들어, 뉴스레터에서 구독 취소 링크를 클릭하여) 연락하지 않기를 원합니다. 더 이상 모든 채널(이메일, DM 등)의 게재가 타겟팅하지 않습니다. 자세한 정보는 이 [페이지](../../delivery/using/understanding-quarantine-management.md)를 참조하십시오.
+>When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on denylist, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). They will no longer be targeted by deliveries on any channel (email, direct mail, etc.). For more on this, refer to [this page](../../delivery/using/understanding-quarantine-management.md).
 
-## 연락처 정보 탭 {#contact-information-tab}
+## Contact information tab {#contact-information-tab}
 
-이 화면에는 선택한 프로필의 DM 주소가 포함됩니다. 다음과 같습니다.
+This screen contains the direct mail address of the selected profile. It looks like this:
 
 ![](assets/s_ncs_user_profile_details_tab.png)
 
-이 화면에는 주소의 품질 인덱스와 주소에 포함된 오류 수가 표시됩니다. 이 정보는 이전 게재 중 발견된 오류 수를 기반으로 하여 통신사에서 직접 사용되며 수동으로 수정할 수 없습니다.
+This screen shows the quality index of the address, as well as how many errors the address contains. This information is used directly by the mail carrier based on the number of errors found during previous deliveries, and is not modifiable manually.
 
-## 기타 탭 {#other-tab}
+## Other tab {#other-tab}
 
-이 화면에는 요구 사항에 따라 개인화할 수 있는 사용자 정의 필드가 포함되어 있습니다. 아래와 같이 **[!UICONTROL Field properties...]**&#x200B;을(를) 통해 필드 이름을 변경하고 해당 형식을 정의할 수도 있습니다.
+This screen contains user-defined fields that can be personalized based on requirements. You can also change the names of the fields and define their format, via **[!UICONTROL Field properties...]**, as shown below:
 
 ![](assets/s_ncs_user_profile_others_tab.png)
 
 >[!NOTE]
 >
->필드 속성 및 필드 추가에 대한 자세한 내용은 [이 페이지](../../configuration/using/new-field-wizard.md)를 참조하세요.
+>For more on field properties and on adding fields, refer to [this page](../../configuration/using/new-field-wizard.md).
 
-## 목록 탭 {#lists-tab}
+## Lists tab {#lists-tab}
 
-이 화면에는 선택한 프로필이 속한 그룹이 표시됩니다. **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 목록에 프로필을 구독합니다. 선택한 목록에 설명 및 프로필 목록을 표시하려면 **[!UICONTROL Detail]**&#x200B;을(를) 클릭합니다.
+This screen displays the group(s) to which the selected profile belongs. Click **[!UICONTROL Add]** to subscribe the profile to a list. Click **[!UICONTROL Detail]** to display the description and the list of profiles in the selected list.
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
-자세한 내용은 [목록 만들기 및 관리](../../platform/using/creating-and-managing-lists.md)를 참조하세요.
+For more on this, refer to [Create and manage lists](../../platform/using/creating-and-managing-lists.md).
 
-## 구독 탭 {#subscriptions-tab}
+## Subscriptions tab {#subscriptions-tab}
 
-이 화면에는 프로필이 구독한 정보 서비스가 포함되어 있습니다.
+This screen contains the information services to which the profile has subscribed.
 
 ![](assets/s_ncs_user_profile_subscript_tab_details.png)
 
-**[!UICONTROL Detail]** 단추는 선택한 구독의 속성을 표시합니다. **[!UICONTROL Add]** 단추는 새 구독을 수동으로 추가하는 데 사용됩니다.
+The **[!UICONTROL Detail]** button displays the properties of the selected subscription. The **[!UICONTROL Add]** button is used to add a new subscription manually.
 
-자세한 정보는 이 [페이지](../../delivery/using/managing-subscriptions.md)를 참조하십시오.
+For more on this, refer to [this page](../../delivery/using/managing-subscriptions.md).
 
-## 게재 탭 {#deliveries-tab}
+## Deliveries tab {#deliveries-tab}
 
-이 화면에는 선택한 프로필에 대한 게재 로그가 표시됩니다. 모든 채널을 통해 프로필에 지정된 게재 작업의 레이블, 날짜 및 상태를 표시할 수도 있습니다.
+This screen displays the delivery logs for the selected profile. You can also display the labels, dates, and status of the delivery actions addressed to the profile via all channels.
 
 ![](assets/s_ncs_user_profile_delivery_tab.png)
 
-## 추적 탭 {#tracking-tab}
+## Tracking tab {#tracking-tab}
 
-이 화면에서는 선택한 프로필에 대한 추적 로그를 볼 수 있습니다. 이 정보는 게재 후 프로필 동작을 추적하는 데 사용됩니다.
+This screen lets you view the tracking logs for the selected profile. This information is used to track profile behavior following deliveries.
 
 ![](assets/s_ncs_user_profile_tracking_tab.png)
 
-이 탭은 게재에서 추적된 모든 URL의 누적 합계를 보여줍니다.
+This tab shows the cumulative total of all URLs tracked in deliveries.
 
-목록은 구성할 수 있으며, 일반적으로 다음과 같은 항목이 포함됩니다. 클릭한 URL, 클릭한 날짜 및 시간, URL이 포함된 문서.
+The list is configurable, and usually contains: the URL clicked, date and time of click, and the document that contained the URL.
 
 >[!NOTE]
 >
->추적 기능에 대한 자세한 내용은 [이 페이지](../../delivery/using/delivery-dashboard.md)를 참조하세요.
+>For more on tracking functionality, please refer to [this page](../../delivery/using/delivery-dashboard.md).
+
+-->

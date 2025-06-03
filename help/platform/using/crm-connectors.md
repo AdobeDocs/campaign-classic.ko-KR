@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 41%
+source-wordcount: '134'
+ht-degree: 46%
 
 ---
 
@@ -26,20 +26,23 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 
 >[!NOTE]
 >
->이 기능은 **CRM 커넥터** 전용 패키지를 통해 Adobe Campaign에서 사용할 수 있습니다.
+>* 이 기능은 **CRM 커넥터** 전용 패키지를 통해 Adobe Campaign에서 사용할 수 있습니다.
+>* CRM 커넥터와 Microsoft Dynamics 및 Salesforce에 연결하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-crm/crm){target=_blank}를 참조하세요.
 
+<!--
+### Compatible systems {#compatible-crm-systems-and-limitations}
 
-### 호환 시스템 {#compatible-crm-systems-and-limitations}
-
-지원되는 CRM 및 버전은 Campaign [호환성 매트릭스](../../rn/using/compatibility-matrix.md)에 자세히 설명되어 있습니다.
+Supported CRM and versions are detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 >[!NOTE]
 >
->CRM 커넥터는 보안 URL(https)에서만 작동합니다.
+>The CRM connectors only work with a secure URL (https).
 
-### 구현 단계 {#crm-implementation-steps}
+### Implementation steps {#crm-implementation-steps}
 
-이 섹션[&#128279;](../../platform/using/crm-ms-dynamics.md)에서 Campaign과 Microsoft Dynamics 을(를) 연결하는 단계별 절차에 대해 알아봅니다.
+Learn step-by-step procedure to connect Campaign and Microsoft Dynamics [in this section](../../platform/using/crm-ms-dynamics.md)
 
 
-이 섹션[&#128279;](../../platform/using/crm-sfdc.md)에서 Campaign과 Salesforce 을(를) 연결하는 단계별 절차에 대해 알아봅니다.
+Learn step-by-step procedure to connect Campaign and Salesforce [in this section](../../platform/using/crm-sfdc.md)
+
+-->

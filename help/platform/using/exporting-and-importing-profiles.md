@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: fd0f7b6e-84e1-442d-ae88-817fb6758d64
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 30%
+source-wordcount: '54'
+ht-degree: 16%
 
 ---
 
@@ -22,23 +22,31 @@ ht-degree: 30%
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#import-profiles-video)
 
-## 워크플로우 사용{#use-workflows}
+>[!NOTE]
+>
+>프로필을 가져오고 내보내는 방법을 알아보려면 Campaign v8 설명서를 참조하십시오.
 
-내보내기 및 가져오기는 가져오기 및 내보내기 활동을 통해 워크플로우를 통해 실행되는 전용 템플릿에서 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. [자세히 알아보기](../../platform/using/import-export-workflows.md#best-practices-when-importing-data)
 
-필요한 경우 아래 설명된 **[!UICONTROL Generic imports and exports]** 기능을 통해 가끔씩 가져오기 또는 내보내기 작업을 만들 수 있습니다.
+<!--
 
-## 작업 만들기{#create-jobs}
+## Use workflows{#use-workflows}
 
-데이터 가져오기 및 내보내기 작업을 구성하고 실행하려면 **[!UICONTROL Profiles and targets]** 탭으로 이동하여 **[!UICONTROL Jobs]** 링크를 클릭합니다. [자세히 알아보기](../../platform/using/about-generic-imports-exports.md)
+Exports and imports are configured in dedicated templates executed through workflows via import and export activities. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. [Learn more](../../platform/using/import-export-workflows.md#best-practices-when-importing-data)
+
+If necessary, you can create an occasional import or export job via the **[!UICONTROL Generic imports and exports]** feature described below.
+
+## Create jobs{#create-jobs}
+
+To configure and execute data imports and exports jobs, go to the **[!UICONTROL Profiles and targets]** tab and click the **[!UICONTROL Jobs]** link. [Learn more](../../platform/using/about-generic-imports-exports.md)
 
 ![](assets/s_ncs_user_interface_import_link.png)
 
 
-## 튜토리얼 비디오 {#import-profiles-video}
+## Tutorial video {#import-profiles-video}
 
-이 비디오에서는 Adobe Campaign에서 프로필을 가져오는 방법을 설명합니다(가끔 가져오기).
+This video explains how to import profiles in Adobe Campaign, for an occasional import.
 
->[!VIDEO](https://video.tv.adobe.com/v/31903?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
 
-추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+-->

@@ -5,23 +5,25 @@ description: Campaign에서 SMS를 보내고, 모니터링하고, 추적하는 �
 feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 3%
+source-wordcount: '887'
+ht-degree: 0%
 
 ---
 
-# SMS 게재 보내기, 모니터링 및 추적{#sms-properties}
+# 추가 구성{#sms-properties}
 
-## SMS 메시지 보내기 {#sending-sms-messages}
+<!--
+## Send SMS messages {#sending-sms-messages}
 
-메시지를 승인하고 만들 게재의 받는 사람에게 보내려면 **[!UICONTROL Send]**&#x200B;을(를) 클릭합니다.
+To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
 
-게재의 유효성을 검사하고 전송할 때 자세한 프로세스는 아래 섹션에 나와 있습니다.
+The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [게재 유효성 검사](steps-validating-the-delivery.md)
-* [게재 보내기](steps-sending-the-delivery.md)
+* [Validate the delivery](steps-validating-the-delivery.md)
+* [Send the delivery](steps-sending-the-delivery.md)
+-->
 
 ## 고급 매개 변수 {#advanced-parameters}
 
@@ -55,13 +57,15 @@ ht-degree: 3%
 
 * **메시지당 최대 SMS 수**: 이 옵션을 사용하면 메시지를 보내는 데 사용할 SMS 수를 설정할 수 있습니다. 이 수를 0으로 설정하면 SMS를 사용하여 메시지를 전달할 수 있습니다. 예를 들어 SMS 수가 1 또는 2로 설정되어 있고 메시지가 이 임계값을 초과하는 경우 전송되지 않습니다.
 
-## SMS 모니터링 및 추적 {#monitoring-and-tracking-sms-deliveries}
+<!--
+## Monitor and track SMS {#monitoring-and-tracking-sms-deliveries}
 
-메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오.
+After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [게재 모니터링](about-delivery-monitoring.md)
-* [게재 실패 이해](understanding-delivery-failures.md)
-* [메시지 추적 정보](about-message-tracking.md)
+* [Monitor a delivery](about-delivery-monitoring.md)
+* [Understand delivery failures](understanding-delivery-failures.md)
+* [About message tracking](about-message-tracking.md)
+-->
 
 ## 인바운드 메시지 처리 {#processing-inbound-messages}
 

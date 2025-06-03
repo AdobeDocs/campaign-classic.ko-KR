@@ -7,7 +7,7 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 2%
@@ -18,18 +18,17 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Campaign Classic v7.3.1부터 모든 연산자는 [IMS(Identity Management 시스템) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}을(를) 사용하여 Campaign에 연결해야 합니다.
->
->보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Adobe Campaign은 모든 기존 운영자 인증 모드를 로그인/암호 기본 인증에서 Adobe Identity Management System(IMS)으로 마이그레이션할 것을 강력히 권장합니다. [이 페이지](../../technotes/using/migrate-users-to-ims.md)에서 연산자를 마이그레이션하는 방법에 대해 알아보세요.
+>* Campaign Classic v7.3.1부터 모든 연산자는 [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 사용하여 Campaign에 연결해야 합니다.
+>  >보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로, Adobe Campaign은 모든 기존 운영자 인증 모드를 로그인/암호 기본 인증에서 Adobe Identity Management System(IMS)으로 마이그레이션할 것을 강력히 권장합니다. [이 페이지](../../technotes/using/migrate-users-to-ims.md)에서 연산자를 마이그레이션하는 방법에 대해 알아보세요.
 > 
->이 마이그레이션 후에는 다음 섹션이 더 이상 적용되지 않습니다.  [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ko){target="_blank"}에서 Adobe IMS를 사용하여 권한을 설정하는 방법에 대해 알아봅니다.
+>* 이 마이그레이션 후에는 다음 섹션이 더 이상 적용되지 않습니다.  [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ko){target="_blank"}에서 Adobe IMS를 사용하여 권한을 설정하는 방법에 대해 알아봅니다.
 
 
 ## Campaign 연산자 시작 {#about-operators}
 
 >[!NOTE]
 >
->이 절차는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 [이 설명서](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html#_blank)를 참조하세요.
+>이 절차는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 [이 설명서](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank)를 참조하세요.
 
 운영자는 로그인하고 작업을 수행할 수 있는 권한이 있는 Adobe Campaign 사용자입니다.
 

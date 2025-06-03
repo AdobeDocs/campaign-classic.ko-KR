@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 89%
+source-wordcount: '142'
+ht-degree: 57%
 
 ---
 
@@ -23,74 +23,78 @@ Adobe Campaign을 사용하면 대화형 마케팅 캠페인 만들기를 조정
 >
 >* 이 컬렉션의 도움말 자료는 [최신 빌드](../../rn/using/latest-release.md)의 Campaign Classic v7에 적용됩니다. 특정 배지는 Campaign v8에도 섹션이 적용되는 경우 사용할 수 있습니다.
 >
->* Adobe Campaign v8 설명서는 [여기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko)에서 확인할 수 있습니다.
+>* Adobe Campaign 및 시작 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/get-started){target=_blank}를 참조하세요.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 기본 기능 살펴보기](#video)
 
-## 주요 기능 {#key-capabilities}
+<!--
 
-Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플랫폼을 제공하며 시각적인 캠페인 오케스트레이션, 실시간 상호 작용 관리 및 크로스 채널 실행 환경을 제공합니다.
+## Key capabilities {#key-capabilities}
 
-Adobe Campaign의 마케팅 캠페인 주기는 제품의 주요 기능을 보여줍니다.
+Adobe Campaign provides a platform for designing cross-channel customer experiences and provides an environment for visual campaign orchestration, real time interaction management and cross channel execution.
+
+The marketing campaign cycle in Adobe Campaign illustrates the main areas of functionality of the product:
 
 ![](assets/d_ncs_user_emarketing.png)
 
-### Integrated Customer Profile {#integrated-customer-profile}
+### Integrated customer profile {#integrated-customer-profile}
 
-프로필(고객, 잠재 고객, 뉴스레터 구독자 등) 은 Adobe Campaign 데이터베이스에 중앙 집중화됩니다. 프로필을 가져오고 이 데이터베이스를 빌드하는 데 사용할 수 있는 메커니즘은 웹 양식을 통한 온라인 수집, 텍스트 파일 수동 또는 자동 가져오기, 회사 데이터베이스 또는 기타 정보 시스템을 사용한 복제와 같이 다양합니다. Adobe Campaign을 사용하면 마케팅 기록, 구매 정보, 환경 설정, CRM 데이터 및 관련 PII 데이터를 통합 뷰에 통합하여 분석하고 조치를 취할 수 있습니다.
+Profiles (customers, prospects, newsletter subscribers, etc.) are centralized in the Adobe Campaign database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PII data in a consolidated view to analyze and take action.
 
-Adobe Campaign에서 수신자는 게재(전자 메일, SMS 등)를 보낼 타겟팅된 기본 프로필입니다. 데이터베이스에 저장된 수신자 데이터 덕분에 주어진 게재를 받을 대상을 필터링하고 게재 콘텐츠에 개인화 데이터를 추가할 수 있습니다. 데이터베이스에 다른 유형의 프로필이 있습니다. 다양한 용도로 디자인되어 있습니다. 예를 들어 최종 대상으로 전송되기 전에 시드 프로필을 테스트하여 게재를 테스트합니다.
+In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Thanks to the recipient data that are stored in the database, you will be able to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
 
-프로필 관리 기본 사항은 [프로필 정보](../../platform/using/about-profiles.md)에서 설명합니다.
+Profile management basics are explained in [About profiles](../../platform/using/about-profiles.md).
 
-### 타기팅된 세분화 {#targeted-segmentation}
+### Targeted segmentation {#targeted-segmentation}
 
-Adobe Campaign은 고도로 타기팅되고 차별화된 오퍼를 만들 수 있는 강력하고 사용자 친화적인 세분화 및 타기팅 기능을 제공합니다. 설명 분석 기능을 사용하면 마케팅 캠페인의 업스트림 및 다운스트림에 대한 정보를 분석할 수 있으며 필터 관리 및 [그래픽 쿼리 편집기](../../platform/using/about-queries-in-campaign.md) 기능을 사용하면 구독자 모집단을 필터링하고 기준을 제한 없이 대상 그룹을 샘플링하거나 만들 수 있습니다. 분석 및 타겟팅 기능은 [이 페이지](../../reporting/using/about-descriptive-analysis.md) 및 [필터 만들기](../../platform/using/creating-filters.md) 섹션에 설명되어 있습니다.
+Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and [graphical query editor](../../platform/using/about-queries-in-campaign.md) functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](../../platform/using/creating-filters.md) section.
 
-고급 데이터 관리 기능은 데이터 처리 기능을 확장합니다. 데이터 마트에서 모델링되지 않은 데이터를 포함하여 타겟팅 프로세스를 단순화하고 최적화합니다. 이 기능은 [이 페이지에](../../workflow/using/targeting-data.md#data-management) 자세히 설명되어 있습니다.
+The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. This functionality is detailed in [this page](../../workflow/using/targeting-data.md#data-management).
 
-### 크로스 채널 캠페인 오케스트레이션 {#cross-channel-campaign-orchestration}
+### Cross-channel campaign orchestration {#cross-channel-campaign-orchestration}
 
-Adobe Campaign을 사용하면 타기팅되고 개인화된 캠페인을 이메일, DM, SMS, 푸시 알림과 같은 다양한 채널에 디자인 및 오케스트레이션 할 수 있습니다. 단일 인터페이스는 모든 캠페인 및 커뮤니케이션을 일정 계획, 오케스트레이션, 구성, 개인화, 자동화, 실행 및 측정하는 데 필요한 모든 기능을 제공합니다. 캠페인 일정 예약 및 실행에 대한 자세한 내용은 [이 페이지](../../campaign/using/setting-up-marketing-campaigns.md)를 참조하십시오.
+Adobe Campaign lets you design and orchestrate targeted and personalized campaigns on multiple channels: email, direct mail, SMS, push notification. A single interface provides you with all the functions required to schedule, orchestrate, configure, personalize, automate, execute, and measure all your campaigns and communications. For more on scheduling and executing campaigns, refer to [this page](../../campaign/using/setting-up-marketing-campaigns.md).
 
-### Personalization 및 실시간 상호 작용 {#personalization-and-real-time-interaction}
+### Personalization and real-time interaction {#personalization-and-real-time-interaction}
 
-고객 프로필과 기본 설정을 기반으로 한 메시지 콘텐츠와 헤더의 고급 개인화 덕분에 고객의 관심을 유도하고 응답률을 향상시킬 수 있습니다. 메시지 콘텐츠 관리 및 개인화에 대한 자세한 내용은 [이 페이지](../../delivery/using/about-personalization.md)를 참조하십시오. 콘텐츠, 알림 및 승인 회로의 공동 관리 기능은 [이 섹션](../../mrm/using/about-marketing-resource-management.md)에 자세히 설명되어 있습니다.
+Attract your customers' attention and improve response rates thanks to the advanced personalization of message content and headers based on customer profiles and preferences. For more on message content management and personalization, refer to [this page](../../delivery/using/about-personalization.md). Collaborative management of content, notification and approval circuits are detailed in [this section](../../mrm/using/about-marketing-resource-management.md).
 
-### 분석 및 보고 {#analysis-and-reporting}
+### Analysis and reporting {#analysis-and-reporting}
 
-Adobe Campaign을 사용하면 데이터와 프로필을 단계적으로 강화하여 고객의 동작을 모니터링하고 해석할 수 있습니다. 보고 및 분석 도구를 사용하면 각각의 새로운 캠페인을 활용할 수 있고, 마케팅 이니셔티브를 더 잘 타겟팅할 수 있으며, 마케팅 활동의 영향과 투자 수익률을 최적화할 수 있습니다. 자세한 내용은 [이 페이지를](../../reporting/using/delivery-reports.md) 참조하십시오.
+Adobe Campaign lets you monitor and interpret the behavior of your customers by gradually enriching their data and profiles. The reporting and analysis tools let you capitalize on each new campaign, target your marketing initiatives better, and optimize their impact and return on investment. Refer to [this page](../../reporting/using/delivery-reports.md) for more information.
 
-### Adobe Experience Cloud 통합 {#adobe-experience-cloud-integrations}
+### Adobe Experience Cloud integrations {#adobe-experience-cloud-integrations}
 
-Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 경험을 개인화할 수 있도록 만들어진 솔루션 세트를 결합할 수 있습니다. 예를 들어 Adobe Experience Manager, Adobe Analytics, Adobe Target 또는 Adobe Experience Cloud 트리거를 사용할 수 있습니다. 또한 Adobe IMS에 통합하고 Adobe ID로 Campaign에 로그인할 수 있습니다. 솔루션 간 및 인증 통합에 대한 자세한 내용은 [이 섹션](../../integrations/using/about-adobe-id.md)을 참조하십시오.
+You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience: Adobe Experience Manager, Adobe Analytics, Adobe Target or Adobe Experience Cloud triggers for example. You can also integrate to Adobe IMS and login to Campaign with your Adobe ID. For more on cross-solution and authentication integrations, refer to [this section](../../integrations/using/about-adobe-id.md).
 
-## 핵심 기능 및 추가 기능 {#core-capabilities-and-add-ons}
+## Core capabilities and add-ons {#core-capabilities-and-add-ons}
 
-Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 기능을 구현하고 최적화하는 데 도움이 되는 기능의 집합을 제공합니다. 일부는 핵심 기능이며 일부는 패키지 설치 및 구성에 따라 다릅니다. 자세한 제품 설명은 [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}에서 확인할 수 있습니다.
+Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-다음 기능을 사용할 수 있습니다. 사용권 계약에 따라 이러한 기능 중 일부를 사용자 인스턴스에 사용하거나 사용하지 않을 수 있습니다.
+The following capabilities are available. Depending on your license agreement, some of these capabilities can be available or not in your instance.
 
-* [채널](../../delivery/using/steps-about-delivery-creation-steps.md) - 다양한 채널에서 게재를 디자인 및 전송합니다. 전자 메일, SMS, Line, 모바일 앱, DM,
-* [캠페인](../../campaign/using/designing-marketing-campaigns.md) - 크로스 채널 캠페인 오케스트레이션,
-* [MRM](../../mrm/using/about-marketing-resource-management.md) - 마케팅 리소스 및 예산 관리,
-* [상호 작용](../../interaction/using/interaction-and-offer-management.md) - 캠페인으로 오퍼 관리,
-* [메시지 센터](../../message-center/using/about-transactional-messaging.md) - 전자 메일, SMS 또는 모바일 앱으로 트랜잭션 메시지를 보낼 수 있습니다.
-* [소셜 마케팅](../../social/using/about-social-marketing.md) - 소셜 미디어에서 커뮤니케이션: Facebook, X(이전 Twitter),
-* [워크플로](../../workflow/using/about-workflows.md) /데이터 관리 - 워크플로를 통해 프로세스 자동화 및 데이터 관리
-* [웹 애플리케이션](../../web/using/about-web-applications.md) - 웹 페이지 및 양식 만들기,
-* [설문 조사 관리자](../../surveys/using/about-surveys.md) - 온라인 설문 조사 및 투표 만들기,
-* [Content Manager](../../delivery/using/about-content-management.md) - 전자 메일 콘텐츠 관리,
-* [분산 마케팅](../../distributed/using/about-distributed-marketing.md) - 중앙/지방 에이전시의 캠페인 조정
-* [응답 관리자](../../response/using/about-response-manager.md) - 고객 응답 관리,
-* [커넥터](../../platform/using/about-connectors.md) - 커넥터를 사용하여 외부 솔루션 및 데이터베이스 엔진과 커뮤니케이션합니다.
-* [웹 서비스](../../configuration/using/about-web-services.md) - API/웹 서비스를 통해 캠페인 사용,
-* [보고](../../reporting/using/about-adobe-campaign-reporting-tools.md) - 기본 제공 보고서에 액세스하고 데이터를 분석하며 보고서를 디자인할 수 있습니다.
+* [Channels](../../delivery/using/steps-about-delivery-creation-steps.md) - design and send deliveries on various channels: email, SMS, Line, mobile app, direct mail,
+* [Campaign](../../campaign/using/designing-marketing-campaigns.md) - orchestrate cross-channel campaigns,
+* [MRM](../../mrm/using/about-marketing-resource-management.md) - manage marketing resources and budgets,
+* [Interaction](../../interaction/using/interaction-and-offer-management.md) - managing offers with Campaign,
+* [Message Center](../../message-center/using/about-transactional-messaging.md) - send transactional messages by email, SMS or on mobile app,
+* [Social Marketing](../../social/using/about-social-marketing.md) - communicate on social media: Facebook, X (formerly known as Twitter),
+* [Workflow](../../workflow/using/about-workflows.md) / Data Management - automate processes and manage data with workflows,
+* [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
+* [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
+* [Content Manager](../../delivery/using/about-content-management.md) - manage email content,
+* [Distributed Marketing](../../distributed/using/about-distributed-marketing.md) - coordinate campaigns for central/local agencies,
+* [Response Manager](../../response/using/about-response-manager.md) - manage customer response,
+* [Connectors](../../platform/using/about-connectors.md) - use connectors to communicate with external solutions and database engines,
+* [Web Services](../../configuration/using/about-web-services.md) - use Campaign through APIs/Web Services,
+* [Reporting](../../reporting/using/about-adobe-campaign-reporting-tools.md) - access built-in reports, analyze data and design your own reports.
 
-## 튜토리얼 비디오 {#video}
+## Tutorial video {#video}
 
-이 비디오에서는 Campaign Classic의 주요 기능을 설명합니다.
+This video presents Campaign Classic main features and capabilities.
 
->[!VIDEO](https://video.tv.adobe.com/v/39520?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
-추가 Campaign Classic 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+
+-->

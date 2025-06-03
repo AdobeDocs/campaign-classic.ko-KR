@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 10%
 
 ---
 
@@ -30,113 +30,117 @@ Adobe Campaign에서 쿼리를 작성하는 단계는 다음과 같습니다.
 
 >[!NOTE]
 >
->이러한 모든 단계는 일반 쿼리 편집기에서 사용할 수 있습니다. 쿼리가 다른 컨텍스트에서 작성되면 일부 단계를 생략할 수 있습니다.\
+>* 이러한 모든 단계는 일반 쿼리 편집기에서 사용할 수 있습니다. 쿼리가 다른 컨텍스트에서 작성되면 일부 단계를 생략할 수 있습니다.\
 >쿼리 활동이 [이 섹션](../../workflow/using/query.md)에 표시됩니다.
+>* 쿼리 및 쿼리 만들기 방법에 대한 자세한 내용은 [Campaign v8 설명서](../../workflow/using/query.md)를 참조하세요.
 
-## 1단계 - 표 선택 {#step-1---choose-a-table}
+<!--
+## Step 1 - Choose a table {#step-1---choose-a-table}
 
-**[!UICONTROL Document type]** 창에서 쿼리할 데이터가 포함된 테이블을 선택하십시오. 필요한 경우 필터 필드 또는 **[!UICONTROL Filters]** 단추를 사용하여 데이터를 필터링합니다.
+Select the table containing the data you want to query in the **[!UICONTROL Document type]** window. If necessary, filter the data using the filter field or the **[!UICONTROL Filters]** button.
 
 ![](assets/query_editor_nveau_21.png)
 
-## 2단계 - 추출할 데이터 선택 {#step-2---choose-data-to-extract}
+## Step 2 - Choose data to extract {#step-2---choose-data-to-extract}
 
-**[!UICONTROL Data to extract]** 창에서 표시할 데이터를 선택하십시오. 이러한 필드는 출력 열을 구성합니다.
+In the **[!UICONTROL Data to extract]** window, select the data to display: these fields will make up the output columns.
 
-예를 들어 **[!UICONTROL Age]**, **[!UICONTROL Primary key]**, **[!UICONTROL Email domain]** 및 **[!UICONTROL City]**&#x200B;을(를) 선택합니다. 이 선택 항목을 기반으로 결과가 구성됩니다. 창 오른쪽에 있는 파란색 화살표를 사용하여 열 순서를 변경합니다.
+For example, select **[!UICONTROL Age]**, **[!UICONTROL Primary key]**, **[!UICONTROL Email domain]** and **[!UICONTROL City]**. The results will be organized based on this selection. Use the blue arrows to the right of the window to change the column order.
 
 ![](assets/query_editor_nveau_01.png)
 
-수식을 식에 삽입하거나 집계 함수에서 프로세스를 실행하여 표현식을 편집할 수 있습니다. 이렇게 하려면 **[!UICONTROL Expression]** 열 필드를 클릭한 다음 **[!UICONTROL Edit expression]**&#x200B;을(를) 선택합니다.
+You can edit an expression by inserting a formula into it or running a process on an aggregate function. To do this, click the **[!UICONTROL Expression]** column field, then select **[!UICONTROL Edit expression]**.
 
 ![](assets/query_editor_nveau_97.png)
 
-출력 열 데이터를 그룹화할 수 있습니다. 이렇게 하려면 **[!UICONTROL Data to extract]** 창의 **[!UICONTROL Group]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 확인하십시오. 이 함수는 확인된 그룹화 축에 대한 결과를 생성합니다. 그룹화가 있는 쿼리의 예는 [이 섹션](../../workflow/using/querying-delivery-information.md)에서 사용할 수 있습니다.
+It is possible to group output column data: to do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. This function generates a result around the checked grouping axis. An example of a query with grouping is available in [this section](../../workflow/using/querying-delivery-information.md).
 
 ![](assets/query_editor_nveau_56.png)
 
-* **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** 함수를 사용하면 &quot;그룹화 기준&quot;을 사용하고 그룹화된 항목(&quot;있음&quot;)을 선택할 수 있습니다. 이 함수는 출력 열의 모든 필드에 적용됩니다. 예를 들어, 이 옵션을 사용하면 출력 열의 모든 선택 항목을 그룹화하고 35에서 50 사이의 수신자와 같은 특정 유형의 정보를 복구할 수 있습니다.
+* The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** function lets you "group by" and select what has been grouped ("having"). This function applies to all fields in the output column. For example, this option lets you group all choices of an output column and recover a specific type of information, such as recipients between 35 and 50.
 
-  이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/querying-using-grouping-management.md)을 참조하십시오.
+  For more on this, refer to [this section](../../workflow/using/querying-using-grouping-management.md).
 
-* **[!UICONTROL Remove duplicate rows (DISTINCT)]** 함수를 사용하면 출력 열에서 얻은 동일한 결과를 중복 제거할 수 있습니다. 예를 들어, 출력 열에서 성, 이름 및 이메일 필드를 선택하여 인구 조사를 수행하면 동일한 연락처가 데이터베이스에 여러 번 입력되었음을 의미하므로 동일한 데이터를 가진 사람은 제거됩니다. 단 하나의 결과만 고려됩니다.
+* The **[!UICONTROL Remove duplicate rows (DISTINCT)]** function lets you deduplicate identical results obtained in the output column. For example, if you take a census by selecting the Last name, First name and Email fields in the output column, those with identical data will be eliminated, since it means the same contact has been entered several times in the database: only one result will be taken into account.
 
-## 3단계 - 데이터 정렬 {#step-3---sort-data}
+## Step 3 - Sort data {#step-3---sort-data}
 
-**[!UICONTROL Sorting]** 창을 사용하면 열 내용을 정렬할 수 있습니다. 화살표를 사용하여 열 순서를 변경합니다.
+The **[!UICONTROL Sorting]** window lets you sort column content. Use the arrows to change the column order:
 
-* **[!UICONTROL Sorting]** 열을 사용하면 열 내용을 A부터 Z까지 또는 오름차순으로 간단히 정렬하고 정렬할 수 있습니다.
-* **[!UICONTROL Descending sort]**&#x200B;은(는) 콘텐츠를 Z부터 A까지 내림차순으로 정렬합니다. 예를 들어 가장 높은 수치가 목록 맨 위에 표시되는 것과 같이 레코드 매출을 볼 때 유용합니다.
+* The **[!UICONTROL Sorting]** column enables a simple sort and arranges column content from A to Z or in ascending order.
+* The **[!UICONTROL Descending sort]** arranges the content from Z to A and in descending order. This is useful for viewing record sales for example: the highest figures are shown at the top of the list.
 
-이 예제에서 데이터는 수신자 연령을 기준으로 오름차순으로 정렬됩니다.
+In this example, the data is sorted in ascending order based on recipient age.
 
 ![](assets/query_editor_nveau_57.png)
 
-## 4단계 - 데이터 필터링 {#step-4---filter-data}
+## Step 4 - Filter data {#step-4---filter-data}
 
-쿼리 편집기를 사용하여 데이터를 필터링하여 검색을 개선할 수 있습니다.
+The query editor lets you filter data to refine your search.
 
-제공되는 필터는 쿼리의 고려 사항에 따른 테이블에 따라 다릅니다.
+The filters offered depend on the table which the query concerns.
 
 ![](assets/query_editor_nveau_09.png)
 
-**[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택하면 **[!UICONTROL Target elements]** 섹션에 액세스합니다. 이를 통해 수집할 데이터를 필터링하는 방법을 정의할 수 있습니다.
+Once you select the **[!UICONTROL Filtering conditions]** you will access the **[!UICONTROL Target elements]** section: this lets you define how to filter the data to collect.
 
-* 새 필터를 만들려면 데이터를 선택하기 위해 확인할 수식을 만드는 데 필요한 필드, 연산자 및 값을 선택합니다. 여러 조건을 결합할 수 있습니다. 자세한 내용은 [필터 조건 정의](../../platform/using/defining-filter-conditions.md)를 참조하세요.
-* 이전에 저장한 필터를 사용하려면 **[!UICONTROL Add]** 단추를 클릭하여 드롭다운 목록을 열고 **[!UICONTROL Predefined filter]**&#x200B;을(를) 클릭한 다음 원하는 필터를 선택하십시오.
+* To create a new filter, select the fields, operators and values required for creating the formula to be verified in order for data to be selected. It's possible to combine several conditions (for more on this, refer to [Defining filter conditions](../../platform/using/defining-filter-conditions.md)).
+* To use previously saved filters, open the drop-down list by clicking the **[!UICONTROL Add]** button, click **[!UICONTROL Predefined filter]** and select the one you want.
 
   ![](assets/query_editor_15.png)
 
-* **[!UICONTROL Generic query editor]**&#x200B;에서 만든 필터는 다른 쿼리 응용 프로그램에서 사용할 수 있으며 그 반대의 경우도 가능합니다. 필터를 저장하려면 **[!UICONTROL Save]** 아이콘을 클릭합니다.
+* The filters created in the **[!UICONTROL Generic query editor]** are available in other query applications and vice versa. To save a filter, click the **[!UICONTROL Save]** icon.
 
   >[!NOTE]
   >
-  >필터를 만들고 사용하는 방법에 대한 자세한 내용은 [필터링 옵션](../../platform/using/filtering-options.md)을 참조하세요.
+  >For more on creating and using filters, refer to [Filtering options](../../platform/using/filtering-options.md).
 
-다음 예제와 같이 모든 영어권 수신자를 복구하려면 &quot;받는 사람 언어 **같음** EN&quot;을 선택하십시오.
+As shown in the following example, to recover all English-speaking recipients, select: "recipient language **equal to** EN".
 
 ![](assets/query_editor_nveau_89.png)
 
 >[!NOTE]
 >
->**값** 필드에 다음 공식을 입력하여 옵션에 직접 액세스할 수 있습니다. **$(options:OPTION_NAME)**.
+>You can directly access an option by typing the following formula in the **Value** field: **$(options:OPTION_NAME)**.
 
-필터링 조건의 결과를 보려면 **[!UICONTROL Preview]** 탭을 클릭하십시오. 이 경우 모든 영어권 수신자는 이름, 이름 및 이메일 주소와 함께 표시됩니다.
+Click the **[!UICONTROL Preview]** tab to view the result of the filtering condition. In this case, all English-speaking recipients are displayed with their name, first name and email address.
 
 ![](assets/query_editor_nveau_98.png)
 
-SQL 언어에 익숙한 사용자는 **[!UICONTROL Generate SQL query]**&#x200B;을(를) 클릭하여 SQL에서 쿼리를 볼 수 있습니다.
+Users familiar with SQL language can click **[!UICONTROL Generate SQL query]** to view the query in SQL.
 
 ![](assets/query_editor_nveau_99.png)
 
-## 5단계 - 데이터 서식 지정 {#step-5---format-data}
+## Step 5 - Format data {#step-5---format-data}
 
-제한 필터를 구성하면 **[!UICONTROL Data formatting]** 창에 액세스합니다. 이 창에서는 출력 열을 다시 정렬하고, 데이터를 변환하고, 열 레이블의 대/소문자를 변경할 수 있습니다. 또한 계산된 필드를 사용하여 최종 결과에 공식을 적용할 수 있습니다.
+Once you have configured the restriction filters, you will access the **[!UICONTROL Data formatting]** window. This window lets you re-arrange output columns, transform data, and change the upper/lower case of the column labels. It also lets you apply a formula to the final result using a calculated field.
 
 >[!NOTE]
 >
->계산된 필드의 형식에 대한 자세한 내용은 [계산된 필드 만들기](../../platform/using/defining-filter-conditions.md#creating-calculated-fields)를 참조하세요.
+>For more information on the types of calculated fields, refer to [Creating calculated fields](../../platform/using/defining-filter-conditions.md#creating-calculated-fields).
 
-선택하지 않은 열은 데이터 미리 보기 창에 표시되지 않습니다.
+Unchecked columns will not be shown in the data preview window.
 
 ![](assets/query_editor_nveau_10.png)
 
-**[!UICONTROL Transformation]** 열을 사용하면 열 레이블을 대문자 또는 소문자로 변경할 수 있습니다. 열을 선택하고 **[!UICONTROL Transformation]** 열을 클릭합니다. 다음을 선택할 수 있습니다.
+The **[!UICONTROL Transformation]** column lets you change a column label to upper or lower case. Select the column and click in the **[!UICONTROL Transformation]** column. You can choose:
 
 * **[!UICONTROL Switch to lower case]**,
-* **[!UICONTROL Switch to upper case]**,
+* **[!UICONTROL Switch to upper case]**, 
 * **[!UICONTROL First letter in upper case]**.
 
 ![](assets/query_editor_nveau_42.png)
 
-## 6단계 - 데이터 미리보기 {#step-6---preview-data}
+## Step 6 - Preview data {#step-6---preview-data}
 
-**[!UICONTROL Data preview]** 창이 마지막 단계입니다. 쿼리 결과를 가져오려면 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭하십시오. 열 또는 XML 형식으로 사용할 수 있습니다. 쿼리를 SQL 형식으로 보려면 **[!UICONTROL Generated SQL queries]** 탭을 클릭하십시오.
+The **[!UICONTROL Data preview]** window is the last stage. Click **[!UICONTROL Start the preview of the data]** to get your query result. It is available in columns or in XML format. Click the **[!UICONTROL Generated SQL queries]** tab to view the query in SQL format.
 
-이 예제에서 데이터는 수신자 연령을 기준으로 오름차순으로 정렬됩니다.
+In this example, data is sorted in ascending order based on recipient age.
 
 ![](assets/query_editor_nveau_11.png)
 
 >[!NOTE]
 >
->기본적으로 **[!UICONTROL Data preview]** 창에는 처음 200줄만 표시됩니다. 변경하려면 **[!UICONTROL Lines to display]** 상자에 숫자를 입력하고 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭합니다.
+>By default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**.
+
+-->

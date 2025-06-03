@@ -1,10 +1,12 @@
 ---
 product: campaign
 title: Campaign - Salesforce CRM 커넥터
-description: Campaign과 Salesforce를 연결하는 방법 알아보기
+description: Campaign과 Salesforce을 연결하는 방법 알아보기
 feature: Salesforce Integration
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+hide: true
+hidefromtoc: true
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 
 
-이 페이지에서는 Campaign Classic을 **Salesforce**&#x200B;에 연결하는 방법에 대해 알아봅니다.
+이 페이지에서는 Campaign Classic을 **Salesforce**&#x200B;에 연결하는 방법을 배웁니다.
 
 데이터 동기화는 전용 워크플로우 활동을 통해 수행됩니다. [자세히 알아보기](../../platform/using/crm-data-sync.md).
 
@@ -32,7 +34,7 @@ Salesforce용 CRM 커넥터를 구성하려면 아래 단계를 따르십시오.
    Adobe Campaign에서 작동하도록 Salesforce CRM 외부 계정을 구성하려면 다음 세부 정보를 제공해야 합니다.
 
    * **[!UICONTROL Account]**
-Salesforce CRM에 로그인하는 데 사용되는 계정입니다.
+Salesforce CRM에 로그인하는 데 사용되는 계정.
 
    * **[!UICONTROL Password]**
 Salesforce CRM 로그인에 사용되는 암호입니다.
@@ -88,4 +90,4 @@ Adobe Campaign 데이터와 SFDC 간에 데이터를 동기화하려면 워크�
 
 ![](assets/crm_connectors_sfdc_wf.png)
 
-이 페이지[&#128279;](../../platform/using/crm-data-sync.md)에서 데이터 동기화 에 대해 자세히 알아보세요.
+이 페이지](../../platform/using/crm-data-sync.md)에서 데이터 동기화 [에 대해 자세히 알아보세요.

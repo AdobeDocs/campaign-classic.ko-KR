@@ -5,124 +5,141 @@ description: 여러 채널에서 개인화된 메시지를 보낼 수 있는 게
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 61%
+source-wordcount: '182'
+ht-degree: 28%
 
 ---
 
 # 커뮤니케이션 채널{#communication-channels}
 
-Adobe Campaign을 사용하면 이메일, SMS, LINE 메시지, 푸시 알림 및 DM을 비롯한 크로스 채널 캠페인을 보내고, 다양한 전용 [보고서](../../reporting/using/delivery-reports.md)를 사용하여 효과를 측정할 수 있습니다. 이러한 메시지는 게재를 통해 디자인되고 전송되며 각 수신자에 대해 개인화할 수 있습니다.
+Adobe Campaign에서는 이메일, SMS, 푸시 알림 및 DM 등 크로스 채널 캠페인을 보내고, 다양한 전용 보고서를 사용하여 캠페인의 효과를 측정할 수 있습니다. 이러한 메시지는 게재를 통해 디자인되고 전송되며 각 수신자에 대해 개인화할 수 있습니다.
 
-핵심 기능에는 타기팅, 정의 및 메시지 개인화, 커뮤니케이션 실행 및 관련 운영 보고서가 포함됩니다. 주요 기능 액세스 포인트는 게재 도우미입니다. 이 액세스 포인트는 Adobe Campaign에서 다루는 다양한 기능으로 이어집니다.
+핵심 기능에는 타기팅, 정의 및 메시지 개인화, 커뮤니케이션 실행 및 관련 운영 보고서가 포함됩니다.
+
+Campaign v8 설명서에서 게재 만들기와 관련된 주요 단계를 알아봅니다.
+
+* [게재 만들기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}: 일회성 단일 게재를 만드는 방법을 알아봅니다.
+* [콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#content-of-the-delivery){target="_blank"}: 각 채널별로 게재 콘텐츠를 구성합니다.
+* [대상 지정](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}: 주 대상, 증명 대상, 시드 주소 및 컨트롤 그룹 등 여러 유형의 대상을 정의합니다.
+* [게재 유효성 검사](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#validate-the-delivery){target="_blank"}: 기본 대상으로 보내기 전에 게재의 유효성을 검사하는 방법을 알아봅니다.
+* [게재 보내기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#configuring-and-sending-the-delivery){target="_blank"}: 게재 설정을 구성하고 메시지를 보내는 방법을 정의합니다.
+* [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}: Campaign 게재 기능 관련 모범 사례를 참조하세요.
+
+또한 이 [페이지](delivery-settings.md)를 참조하여 특정 Campaign Classic 게재 설정에 대해 알아보십시오.
+
+<!--
+
+   Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
+
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >
->Adobe Campaign은 게재 능력을 모니터링하고 이메일 전송을 최적화하는 도구 세트를 제공합니다. [이 섹션](about-deliverability.md)에서 자세히 알아보십시오.
+>Adobe Campaign offers a set of tools to monitor your deliverability and optimize email sending. Learn more in [this section](about-deliverability.md).
 
-게재를 준비하거나 워크플로우 프로세스에서 게재를 보내어 게재 전송을 자동화할 수 있습니다. 워크플로우의 게재 유형 활동에 대한 자세한 내용은 [이 섹션](../../workflow/using/about-action-activities.md)을 참조하세요.
+Delivery sending can be automated by preparing a delivery and/or sending it in the process of a workflow. For more on delivery-type activities in workflows, refer to [this section](../../workflow/using/about-action-activities.md).
 
-Adobe Campaign은 다음과 같은 게재 채널을 제공합니다.
+Adobe Campaign offers the following delivery channels:
 
-1. **이메일 채널**: 이메일 게재를 통해 대상 집단에 개인화된 이메일을 전송할 수 있습니다. [전자 메일 채널 정보](about-email-channel.md)를 참조하세요.
-1. **다이렉트 메일 채널**: 다이렉트 메일 게재를 통해 대상 집단의 데이터가 있는 추출 파일을 생성할 수 있습니다. [DM 채널 정보](about-direct-mail-channel.md)를 참조하세요.
-1. **모바일 채널**: 모바일 채널 게재는 개인화된 SMS 또는 LINE 메시지를 대상 모집단으로 보낼 수 있습니다. [SMS 채널](sms-channel.md)을 참조하세요.
-1. **모바일 응용 프로그램 채널**: 모바일 앱 게재를 사용하면 iOS 및 Android 시스템에 알림을 보낼 수 있습니다. [모바일 앱 채널](about-mobile-app-channel.md) 장을 참조하세요.
+1. **Email channel**: email deliveries let you send personalized emails to the target population. Refer to [About email channel](about-email-channel.md).
+1. **Direct mail channel**: direct mail deliveries let you generate an extraction file which contains data on the target population. Refer to [About direct mail channel](about-direct-mail-channel.md).
+1. **Mobile channel**: deliveries on mobile channels let you send personalized SMS or LINE messages to the target population. Refer to [SMS channel](sms-channel.md).
+1. **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems. Refer to the [Mobile app channel](about-mobile-app-channel.md) chapter.
 
-   다른 채널은 [이 섹션](#other-channels)에서 설명합니다.
+   Other channels are described on [this section](#other-channels).
 
    >[!NOTE]
    >
-   >사용 가능한 채널 수는 계약에 따라 다릅니다. 사용권 계약을 확인하십시오.
+   >The number of available channels depends on your contract. Please check your license agreement.
 
-게재는 **온라인**(전자 메일, 모바일 채널 및 푸시 알림 중 하나)과 **오프라인**(다이렉트 메일 채널)을 통해 수행할 수 있습니다.
+Deliveries can be carried out **online** (via email, one of the mobile channels and push notifications), and **offline** (direct mail channel).
 
-채널에 따라 게재 모드는 다음과 같을 수 있습니다.
+Depending on the channel, delivery modes can be:
 
-* Adobe Campaign을 통한 직접 대량 게재(이메일 채널의 기본 모드).
-* 배달 도우미에서 생성한 출력 파일이 제공되는 전문 운영자를 통한 외부 배달(DM 채널의 기본 모드).
+* Direct mass delivery via Adobe Campaign (default mode for email channel).
+* External delivery via a specialist operator who is given the output file generated by the delivery assistant (default mode for direct mail channel).
 
-외부 계정은 **[!UICONTROL Administration > Platform > External accounts]** 노드를 통해 구성됩니다. 이 구성은 전문가 사용자만 수행해야 합니다.
+External accounts are configured via the **[!UICONTROL Administration > Platform > External accounts]** node. This configuration should be performed by expert users only.
 
-## 이메일 게재 {#email-deliveries}
+## Email deliveries {#email-deliveries}
 
-[이메일 채널](about-email-channel.md)은 Adobe Campaign의 핵심 채널 중 하나로, 이 채널을 통해 특정 대상에게 개인화된 이메일을 예약하고 전송할 수 있습니다.
+The [Email channel](about-email-channel.md) is one of the core channels in Adobe Campaign, allowing you to schedule and send personalized emails to specific targets.
 
-다음과 같이 다양한 유형의 이메일을 보낼 수 있습니다.
+You can send different types of emails:
 
-* 단일 전송 이메일: 정의한 대상에게 한 번 전송할 수 있는 이메일. 일반적으로 한 번만 작성하여 전송하는 특정 콘텐츠(뉴스레터, 프로모션 이메일 등)를 홍보하는 데 사용됩니다.
-* 반복 이메일: 캠페인에서 동일한 이메일을 정기적으로 보내고 각 전송 작업 및 그에 따른 보고서를 정기적으로 집계합니다. 동일한 이메일이 전송되지만 일반적으로 전송하는 날에 적격한 대상이 누구냐에 따라 다른 대상에게 전송됩니다. 일반적인 예로는 생일 이메일이 있습니다. 자세한 내용은 [반복 게재](../../workflow/using/recurring-delivery.md)를 참조하십시오.
-* 트랜잭션 이메일: 고객의 행동에 따라 트리거되는 단일 이메일. [트랜잭션 메시지](../../message-center/using/about-transactional-messaging.md)를 참조하십시오.
+* Single-send emails: emails that you can send once to a defined target. They are usually used to promote a specific content that would be prepared and sent only once (newsletter, promotional email, etc.).
+* Recurring emails: in a campaign, send the same email regularly and aggregate each send and its reports on a periodic basis. The same email is sent, but usually to a different target, based on the eligible target for the day of the send. A common example is a birthday email. For more on this, refer to [Recurring deliveries](../../workflow/using/recurring-delivery.md).
+* Transactional emails: unitary emails that are triggered based on your customers' behavior. Refer to [Transactional messaging](../../message-center/using/about-transactional-messaging.md).
 
-게재 사용 및 권장 사항에 대해 알아보려면 Campaign [게재 모범 사례](delivery-best-practices.md)를 참조하세요.
+To learn about delivery usage and recommendations, consult Campaign [Delivery best practices](delivery-best-practices.md).
 
-게재의 다양한 유형에 자세한 내용은 [이 섹션](#types-of-deliveries)을 참조하십시오.
+For more on the different types of deliveries, refer to [this section](#types-of-deliveries).
 
-## 모바일 게재 {#mobile-deliveries}
+## Mobile deliveries {#mobile-deliveries}
 
-Adobe Campaign에서는 모바일로 [SMS](sms-channel.md) 및 [LINE](line-channel.md) 메시지를 게재할 수 있습니다.
+Adobe Campaign allows you to deliver [SMS](sms-channel.md) and [LINE](line-channel.md) messages on mobiles.
 
-SMS 메시지의 경우 텍스트 포맷으로만 메시지를 만들고 수정하고 개인화할 수 있습니다. SMS 메시지를 보내기 전에 미리 볼 수도 있습니다.
+For SMS messages, you can create, modify, and personalize messages in text format only. You can also preview your SMS messages before they are sent.
 
-LINE 메시지의 경우 텍스트나 이미지 및 링크를 보낼 수 있습니다.
+For LINE messages, you can send text or images and links.
 
-SMS나 LINE 메시지를 만들어 휴대폰에 전송하려면 다음 항목이 필요합니다.
+To deliver SMS or LINE messages to a mobile phone you need:
 
-* **[!UICONTROL Mobile (SMS)]** 채널 또는 **[!UICONTROL LINE]** 채널에 구성된 외부 계정.
-* 이 외부 계정에 올바르게 연결된 SMS 또는 LINE 게재 템플릿.
+* An external account configured on the **[!UICONTROL Mobile (SMS)]** channel or on the **[!UICONTROL LINE]** channel. 
+* An SMS or LINE delivery template that is correctly linked to this external account.
 
-## 푸시 알림 {#push-notifications}
+## Push notifications {#push-notifications}
 
-Adobe Campaign을 사용하면 전용 앱을 통해 iOS 및 Android 모바일 장치에서 개인화되고 세그먼트화된 [푸시 알림](about-mobile-app-channel.md)을 보낼 수 있습니다. 구성 및 통합 단계를 수행하면 iOS 및 Android 게재를 만들고 보낼 수 있습니다. 이미지 또는 비디오로 풍부한 알림을 디자인할 수도 있습니다.
+Adobe Campaign allows you to send personalized and segmented [push notifications](about-mobile-app-channel.md) on iOS and Android mobile devices, through dedicated apps. Once configuration and integration steps have been performed, iOS and Android deliveries can be created and sent. You can also design rich notifications with images or videos.
 
-## DM {#direct-mail}
+## Direct mail {#direct-mail}
 
-[DM](about-direct-mail-channel.md)은(는) DM 공급자가 요구하는 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다. DM을 통해 고객 여정의 온오프라인 채널을 혼합하여 운영할 수 있습니다.
+[Direct mail](about-direct-mail-channel.md) is an offline channel that allows you to personalize and generate the file required by direct mail providers. It gives you the possibility to mix online and offline channels in your customer journeys.
 
-온라인 채널을 사용하면 메시지(이메일, SMS, 모바일 앱 게재 등)를 만들고 Adobe Campaign에서 직접 대상자에게 보낼 수 있습니다. 하지만 오프라인 채널에서는 다릅니다. Adobe Campaign은 DM 게재 준비 시 타겟팅 프로필과 선택한 연락처 정보(예를 들면 우편 주소)가 있는 파일을 생성합니다. 그러면 이 파일을 DM 공급자에게 보내어 실제 전송을 처리하도록 할 수 있습니다.
+Online channels allow you to create your messages (email, SMS, mobile app delivery, etc.) and send them to your audience directly from Adobe Campaign. With offline channels, it is different. When you prepare a direct mail delivery, Adobe Campaign generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.
 
-## 기타 채널 {#other-channels}
+## Other channels {#other-channels}
 
-Adobe Campaign은 외부 게재를 만드는 데 사용되는 전화 게재 템플릿을 제공합니다. 이 채널을 사용하면 출력 파일을 처리하는 전용 방법론을 설정할 수 있습니다. 구성 단계는 [다이렉트 메일 채널](about-direct-mail-channel.md)과 동일합니다.
+Adobe Campaign offers Telephone delivery template, which is used to create external deliveries. Using this channel implies you set up dedicated methodologies to process output files. Configuration steps are the same as for [Direct mail channel](about-direct-mail-channel.md).
 
 >[!NOTE]
 >
->전화 채널은 즉시 사용할 수 없습니다. 구현하려면 Adobe Consulting 서비스를 받거나 Adobe 파트너가 참여해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>The Telephone channel is not available out-of-the-box. Its implementation requires Adobe Consulting or an Adobe Partner to be engaged. Please reach out to your Adobe representative for more information.
 
-또한 &#39;기타&#39; 유형 게재는 프로세스를 실행하지 않는 특정 기술 템플릿을 사용합니다. 이렇게 하면 Adobe Campaign 플랫폼 외부에서 실행되는 마케팅 작업을 관리할 수 있습니다.
+In addition, 'Other' type deliveries use a specific technical template which does not execute a process: this lets them manage marketing actions executed outside of the Adobe Campaign platform.
 
-이 채널에 특수한 메커니즘이 있는 것은 아닙니다. Adobe Campaign에서 사용할 수 있는 다른 통신 채널과 마찬가지로 자체 외부 계정 라우팅 옵션, 게재 템플릿 유형 및 캠페인 워크플로우 활동이 있는 일반 채널입니다.
+This channel has no specific mechanism. It is a generic channel that has its own external account routing option, delivery template type and campaign workflow activity, just like any other communication channel available in Adobe Campaign.
 
-이 채널은 단순 설명 목적으로 설계되었습니다. 예를 들어 Adobe Campaign 이외의 도구에서 수행한 캠페인의 대상을 추적하기 위한 게재를 정의하는 데 사용할 수 있습니다.
+This channel is designed for descriptive purposes only, for example to define deliveries for which you want to keep a trace of the target of a campaign performed in a tool other than Adobe Campaign.
 
-## 게재 유형{#types-of-deliveries}
+## Types of deliveries{#types-of-deliveries}
 
-Campaign에는 세 가지 유형의 게재 개체가 있습니다.
+There are three types of delivery objects in Campaign:
 
-### 단일 게재 {#single-delivery}
+### Single delivery {#single-delivery}
 
-**게재**&#x200B;는 한 번 실행되는 독립 실행형 게재 개체입니다. 복제하여 다시 준비할 수도 있지만, 최종 상태(취소됨, 중지됨, 완료됨)에서는 재사용할 수 없습니다.
+A **delivery** is a standalone delivery object that is executed once. It can be duplicated, prepared again, but as long as it is in its final state (canceled, stopped, finished), it cannot be reused.
 
-게재를 만들려면 게재 목록에서 만들거나, [게재](../../workflow/using/delivery.md) 활동을 통해 워크플로 내에서 만들 수 있습니다.
+Deliveries can be created either from the list of deliveries, or within a workflow via a [Delivery](../../workflow/using/delivery.md) activity.
 
-또한 워크플로는 사용할 채널 유형에 따라 특정한 게재 활동을 제공합니다. 이 활동에 대한 자세한 정보는 [이 섹션](../../workflow/using/cross-channel-deliveries.md)을 참조하십시오.
+Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
 
-### 반복 게재 {#recurring-delivery}
+### Recurring delivery {#recurring-delivery}
 
-**반복 게재**&#x200B;를 사용하면 활동이 실행될 때마다 새 게재를 만들 수 있습니다. 이를 통해 반복 작업을 위해 새 게재를 만들 필요가 없습니다.
+A **recurring delivery** lets you create a new delivery each time the activity is executed. This avoids you having to create a new delivery for recurring tasks.
 
-예를 들어, 한 달에 한 번 이 유형의 활동을 실행하면 1년 후에는 게재가 12개 존재하게 됩니다.
+As an example, if you run this type of activity once a month, you will end up with 12 deliveries after a year.
 
-반복 게재는 [반복 게재 활동](../../workflow/using/recurring-delivery.md)을 통해 워크플로 내에 만들어집니다. 이 활동을 사용하는 예시는 [타기팅 워크플로에서 반복 게재 만들기](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow) 섹션에 나와 있습니다.
+Recurring deliveries are created within workflows via the [Recurring delivery activity](../../workflow/using/recurring-delivery.md). An example of this activity being used is presented in this section: [Creating a recurring delivery in a targeting workflow](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
-### 지속적인 게재 {#continuous-delivery}
+### Continuous delivery {#continuous-delivery}
 
-**연속 게재**&#x200B;를 사용하면 기존 게재에 새 수신자를 추가할 수 있으므로 실행할 때마다 새 게재를 만들 필요가 없습니다.
+A **continuous delivery** lets you add new recipients to an existing delivery, which avoids having to create a new delivery each time it is executed.
 
-게재에 있는 정보(콘텐츠, 이름 등)가 변경되면 게재 실행 시 새 게재 개체를 만듭니다. 변경된 정보가 없으면 동일한 게재 개체를 재사용하고 게재 및 추적 로그를 동일한 개체에 추가합니다.
+If an information in the delivery changes (content, name, etc.), a new delivery object is created at the delivery execution. If no information was changed, the same delivery object is reused and the delivery and tracking logs are added in the same object.
 
-예를 들어 한 달에 한 번 이 유형의 활동을 실행하면 1년 후에도 게재가 한 개만 존재합니다(게재를 변경하지 않은 경우).
+As an example, if you run this type of activity once a month, you will end up with a single delivery after a year (provided you did not make any change to the delivery).
 
-지속적인 게재는 워크플로 내에서 [지속적인 게재 활동](../../workflow/using/continuous-delivery.md)을 통해 만들어집니다.
+Continuous deliveries are created within workflows via the [Continuous delivery activity](../../workflow/using/continuous-delivery.md).-->

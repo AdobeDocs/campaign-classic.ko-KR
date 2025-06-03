@@ -4,11 +4,13 @@ title: Adobe Campaign의 게재 만들기 단계 기본 정보
 description: Adobe Campaign의 주요 게재 만들기 단계 살펴보기
 feature: Channel Configuration
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
-source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 12%
+ht-degree: 22%
 
 ---
 
@@ -18,7 +20,7 @@ ht-degree: 12%
 
 1. **게재를 만들고 식별**. [자세히 알아보기](steps-create-and-identify-the-delivery.md)
 
-1. **게재 콘텐츠 정의**. 게재 콘텐츠 정의는 각 채널에 따라 다릅니다. 자세한 내용은 전용 섹션 을 참조하십시오.
+1. **게재 콘텐츠를 정의합니다**.  게재 콘텐츠 정의는 각 채널에 따라 다릅니다. 자세한 내용은 해당 섹션을 참조하십시오.
 
    * [이메일 채널](defining-the-email-content.md)
    * [SMS 채널](sms-create.md#defining-the-sms-content)

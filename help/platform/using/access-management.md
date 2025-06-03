@@ -5,10 +5,10 @@ description: Campaign 기능에 대한 액세스 권한을 부여하는 방법 �
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: 2759d65150299e4fa679ea986df8136cd9525370
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 5%
+source-wordcount: '309'
+ht-degree: 6%
 
 ---
 
@@ -42,25 +42,29 @@ Adobe Campaign을 사용하면 다양한 연산자에 할당된 권한을 정의
 
 >[!NOTE]
 >
->Adobe 사용 권한 정의를 시작하기 전에 [보안 구성 검사 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html)을 읽는 것이 좋습니다.
+> * Adobe 사용 권한 정의를 시작하기 전에 [보안 구성 검사 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html)을 읽는 것이 좋습니다.
+> * 권한에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}의 자세한 설명을 참조하십시오.
 
-액세스 권한 부여 및 권한 설정 방법은 다음 섹션에서 알아봅니다.
+<!--
 
-* [운영자 만들기](access-management-operators.md)
+Learn how to grant access and set up permissions in these sections:
 
-* [그룹 정의](access-management-groups.md)
+* [Create operators](access-management-operators.md)
 
-* [명명된 권한 추가](access-management-named-rights.md)
+* [Define groups](access-management-groups.md)
 
-* [Campaign 폴더 액세스 관리](access-management-folders.md)
+* [Add Named rights](access-management-named-rights.md)
 
-* [액세스 권한 지표](access-management-named-rights.md#access-rights-matrix)
+* [Manage Campaign folder access](access-management-folders.md)
+
+* [Access rights matrix](access-management-named-rights.md#access-rights-matrix)
 
 
-다음도 참조하십시오.
+See also:
 
-* [워크플로우에 대한 권한 관리](../../workflow/using/managing-rights.md)
-* [분산 마케팅에 대한 권한 관리](../../distributed/using/about-distributed-marketing.md#operators-and-entities)
-* [상호 작용 모듈에 대한 권한 관리](../../interaction/using/operator-profiles.md)
-* [스키마에 대한 액세스 필터링](../../configuration/using/filtering-schemas.md)
-* [PI 보기 제한](../../configuration/using/restricting-pii-view.md)
+* [Manage permissions for workflows](../../workflow/using/managing-rights.md)
+* [Manage permissions for distributed marketing](../../distributed/using/about-distributed-marketing.md#operators-and-entities)
+* [Manage permissions for the interaction module](../../interaction/using/operator-profiles.md)
+* [Filter access to schemas](../../configuration/using/filtering-schemas.md)
+* [Restricting PI view](../../configuration/using/restricting-pii-view.md)
+-->

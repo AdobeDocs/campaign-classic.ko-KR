@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 0%
+source-wordcount: '134'
+ht-degree: 2%
 
 ---
 
@@ -28,24 +28,28 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->데이터베이스에 있는 모든 수신자 목록을 표시하려면 뷰를 만들어야 합니다. [폴더 및 보기](../../platform/using/access-management-folders.md)에서 자세히 알아보세요.
+> * 데이터베이스에 있는 모든 수신자 목록을 표시하려면 뷰를 만들어야 합니다. [폴더 및 보기](../../platform/using/access-management-folders.md)에서 자세히 알아보세요.
+> * 프로필 관리 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}를 참조하세요.
 
-## 수신자 이동 {#moving-recipients}
 
-수신자를 한 명 이상 선택하고 수신자 목록에서 드래그하여 원하는 폴더에 놓을 수 있습니다. 이 작업을 확인하라는 경고 메시지가 표시됩니다.
+<!--
+## Move recipients {#moving-recipients}
 
-## 수신자 복사 {#copying-a-recipient}
+You can select one or more recipients, drag them from the recipient list, and drop them in the desired folder. A warning message asks you to confirm this action.
 
-원하는 받는 사람을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Copy]**&#x200B;을(를) 선택하여 같은 폴더에 있는 받는 사람을 복사할 수 있습니다.
+## Copy a recipient {#copying-a-recipient}
 
-## 수신자 삭제 {#deleting-recipients}
+You can copy a recipient in the same folder by right-clicking the desired recipient and selecting **[!UICONTROL Copy]**.
 
-수신자를 삭제하려면 수신자를 특정 폴더로 이동한 다음 이 폴더의 콘텐츠를 제거하십시오. 이 경우 **[!UICONTROL Delete]** 옵션을 **사용하지 않는 것이 좋습니다**.
+## Delete recipients {#deleting-recipients}
 
-폴더를 제거하려면 원하는 폴더를 마우스 오른쪽 단추로 클릭하여 액세스할 수 있는 **[!UICONTROL Actions > Purge folder]** 메뉴를 사용합니다.
+To delete recipients, move them to a specific folder and then purge the content of this folder. It is **strongly recommended not to use** the **[!UICONTROL Delete]** option in this case.
+
+To purge a folder, use the **[!UICONTROL Actions > Purge folder]** menu, accessed by right-clicking the desired folder.
 
 ![](assets/s_ncs_user_purge_folder.png)
 
-**[!UICONTROL Start]**&#x200B;을(를) 클릭하여 작업을 시작합니다. 창의 중간 섹션에는 진행률 상태가 아래와 같이 표시됩니다.
+Click **[!UICONTROL Start]** to launch the operation. The middle section of the window displays the progress status, as shown below:
 
 ![](assets/s_ncs_user_purge_folder_start.png)
+-->

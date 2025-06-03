@@ -7,10 +7,10 @@ feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 66%
+source-wordcount: '203'
+ht-degree: 57%
 
 ---
 
@@ -26,6 +26,8 @@ Adobe Campaign 쿼리 도구를 사용하면 전용 도우미(일반 쿼리 편�
 
 쿼리는 선택한 테이블의 필드를 사용하거나 공식을 사용하여 만들어집니다.
 
-Campaign 쿼리 편집기를 검색하려면 [여기를 클릭](../../workflow/using/query.md)하십시오.
+>[!NOTE]
+>
+>쿼리 및 쿼리 만들기 방법에 대한 자세한 내용은 [Campaign v8 설명서](../../workflow/using/query.md)를 참조하세요.
 
-![](assets/query_recipients_4.png)
+![쿼리의 예제를 보여 주는 스크린샷입니다.](assets/query_recipients_4.png)

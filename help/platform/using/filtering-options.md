@@ -8,7 +8,9 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+hide: true
+hidefromtoc: true
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -52,7 +54,7 @@ ht-degree: 3%
 
 ![](assets/d_ncs_user_interface_filter_delivery.png)
 
-## 정렬 기준 {#order-by}
+## 주문 기준 {#order-by}
 
 &#39;폴더별&#39; 필터링 필드 오른쪽에 있는 드롭다운 목록을 통해 페이지에 제공된 데이터의 정렬 순서를 선택할 수 있습니다. 이 필드의 내용은 페이지에 있는 데이터 유형에 따라 다릅니다.
 

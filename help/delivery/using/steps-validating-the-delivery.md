@@ -4,25 +4,27 @@ title: 게재 유효성 검사
 description: 게재 유효성 검사 방법 알아보기
 feature: Deliverability, Email Rendering, Proofs
 role: User
+hide: true
+hidefromtoc: true
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 # 게재 유효성 검사 {#validating-the-delivery}
 
-게재를 만들고 구성한 경우 기본 타겟에게 보내기 전에 먼저 게재의 유효성을 검사해야 합니다.
+게재를 만들고 구성한 뒤에는 주 대상에게 보내기 전에 먼저 게재의 유효성을 검사해야 합니다.
 
 방법은 다음과 같습니다.
 
-1. **게재 분석**: 이 단계에서는 전달할 메시지를 준비할 수 있습니다. [자세히 알아보기](#analyzing-the-delivery).
+1. **게재 분석**: 이 단계에서는 게재할 메시지를 준비할 수 있습니다. [자세히 알아보기](#analyzing-the-delivery).
 
    분석 중에 적용된 규칙은 [이 섹션](#validation-process-with-typologies)에 표시됩니다. 사용 가능한 유효성 검사 모드는 [승인 모드 변경](#changing-the-approval-mode) 섹션에 자세히 설명되어 있습니다.
 
-1. **증명 보내기**: 이 단계에서는 콘텐츠, URL, 개인화 등을 제어할 수 있습니다. [증명 보내기](steps-validating-the-delivery.md#sending-a-proof) 및 [특정 증명 대상 정의](steps-defining-the-target-population.md#defining-a-specific-proof-target)에서 자세히 알아보세요.
+1. **증명 보내기**: 이 단계에서는 내용, URL, 개인화 등을 제어할 수 있습니다. [증명 보내기](steps-validating-the-delivery.md#sending-a-proof) 및 [특정 증명 대상 정의](steps-defining-the-target-population.md#defining-a-specific-proof-target)에서 자세히 알아보세요.
 
 >[!IMPORTANT]
 >
@@ -94,7 +96,7 @@ ht-degree: 8%
 * **[!UICONTROL Prepare the personalization data with a workflow]** : 이 옵션을 사용하면 게재에 포함된 개인화 데이터를 자동 워크플로우로 준비할 수 있으므로 개인화 실행 성능을 크게 향상시킬 수 있습니다. 자세한 내용은 [개인화 최적화](personalization-fields.md#optimizing-personalization)를 참조하세요.
 * **[!UICONTROL Start job in a detached process]** : 이 옵션을 사용하면 배달 분석을 별도의 프로세스에서 시작할 수 있습니다. 분석 함수는 기본적으로 Adobe Campaign 애플리케이션 서버 프로세스(web nlserver)를 사용합니다. 이 옵션을 선택하면 애플리케이션 서버에 장애가 발생하더라도 분석이 완료됩니다.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : 이 옵션은 분석 단계 동안 SQL 쿼리 로그를 게재 저널에 추가합니다.
-* **[!UICONTROL Ignore personalization scripts during sending]** : 이 옵션을 사용하면 HTML 콘텐츠에 있는 JavaScript 지시문을 해석하지 않아도 됩니다. 전달된 콘텐츠에 있는 그대로 표시됩니다. 이러한 지시문은 **&lt;%=** 태그와 함께 도입됩니다.
+* **[!UICONTROL Ignore personalization scripts during sending]** : 이 옵션을 사용하면 HTML 컨텐츠에 있는 JavaScript 지시문을 해석하지 않아도 됩니다. 전달된 콘텐츠에 있는 그대로 표시됩니다. 이러한 지시문은 **&lt;%=** 태그와 함께 도입됩니다.
 
 ### 게재 분석 성능 개선 {#improving-delivery-analysis}
 
@@ -125,9 +127,9 @@ ht-degree: 8%
 >
 >더 큰 게재 분석으로 워크플로우의 진행 속도가 느려지지 않도록 **[!UICONTROL Schedule execution for a time of low activity]**&#x200B;을(를) 클릭하여 실행을 예약할 수 있습니다.
 
-## 증명 보내기 {#sending-a-proof}
+## 교정쇄 보내기 {#sending-a-proof}
 
-메시지 구성에서 발생할 수 있는 오류를 탐지하기 위해 Adobe에서는 게재 유효성 검사 주기를 설정할 것을 강력히 권장합니다. 필요한 만큼 자주 테스트 내용을 수신자에게 보내서 콘텐츠가 승인되었는지 확인합니다. 콘텐츠를 승인하려면 변경 사항이 있을 때마다 증명을 보내야 합니다.
+메시지 구성에서 발생할 수 있는 오류를 탐지하기 위해 Adobe에서는 게재 유효성 검사 주기를 설정할 것을 강력히 권장합니다. 필요한 만큼 자주 테스트 내용을 수신자에게 보내서 콘텐츠가 승인되었는지 확인합니다. 콘텐츠를 승인하려면 변경 사항이 있을 때마다 교정쇄를 보내야 합니다.
 
 >[!NOTE]
 >

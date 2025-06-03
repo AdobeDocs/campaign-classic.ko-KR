@@ -5,8 +5,10 @@ description: 이메일 게재와 관련된 옵션 및 설정에 대해 알아보
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email
 role: User, Developer, Data Engineer
+hide: true
+hidefromtoc: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 09b79849fa9db15dd53d1ed56630a34915aa32ad
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 10%
@@ -63,7 +65,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 BCC 이메일 주소를 추�
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
-  메시지에는 텍스트 및 HTML 두 가지 형식이 모두 포함되어 있습니다. 수신에 표시되는 형식은 수신자의 메일 소프트웨어(다중 파트 대체)의 구성에 따라 다릅니다.
+  메시지에는 텍스트 및 HTML의 두 형식 모두가 포함됩니다. 수신에 표시되는 형식은 수신자의 메일 소프트웨어(다중 파트 대체)의 구성에 따라 다릅니다.
 
   >[!IMPORTANT]
   >

@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 100%
+source-wordcount: '189'
+ht-degree: 92%
 
 ---
 
@@ -37,43 +37,46 @@ Adobe Campaign은 데이터 컨트롤러에게 개인 정보 보호 액세스 �
 
 >[!NOTE]
 >
->개인 데이터 및 데이터를 관리하는 다른 엔터티(데이터 컨트롤러, 데이터 프로세서 및 데이터 주체)에 대한 자세한 내용은 [개인 데이터 및 가상 사용자](privacy-and-recommendations.md#personal-data)를 참조하십시오.
+>* 개인 데이터 및 데이터를 관리하는 다른 엔터티(데이터 컨트롤러, 데이터 프로세서 및 데이터 주체)에 대한 자세한 내용은 [개인 데이터 및 가상 사용자](privacy-and-recommendations.md#personal-data)를 참조하십시오.
+>* 개인 정보 보호 요청에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy){target=_blank}를 참조하세요.
 
-## 필수 구성 요소 {#prerequesites}
+<!--
+## Prerequisites {#prerequesites}
 
-Adobe Campaign은 저장된 데이터에 대한 개인 정보 요청을 만들고 처리할 수 있는 데이터 컨트롤러 도구를 제공합니다. 하지만 데이터 주체(이메일, 고객 지원 센터 또는 웹 포털)와의 관계를 처리하는 것은 데이터 컨트롤러의 책임입니다.
+Adobe Campaign offers Data Controllers tools to create and process Privacy requests for data stored in Adobe Campaign. However, it is the Data Controller's responsibility to handle the relationship with the Data Subject (email, customer care or a web portal).
 
-따라서 요청을 하는 데이터 주체의 ID를 확인하고 요청자에게 반환되는 데이터가 데이터 주체의 정보임을 확인하는 것은 데이터 컨트롤러로서의 책임입니다.
+It is therefore your responsibility as a Data Controller to confirm the identity of the Data Subject making the request and to confirm that the data returned to the requester is about the Data Subject.
 
-## 개인 정보 보호 패키지 설치 {#install-privacy-package}
+## Installing the Privacy package {#install-privacy-package}
 
-이 기능을 사용하려면 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** > **[!UICONTROL Adobe Campaign Package]**&#x200B;메뉴를 통해&#x200B;**[!UICONTROL Privacy Data Protection Regulation]** 패키지를 설치해야 합니다. 패키지 설치 방법에 대한 자세한 내용은 [자세한 설명서](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
+In order to use this feature, you need to install the **[!UICONTROL Privacy Data Protection Regulation]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** > **[!UICONTROL Adobe Campaign Package]** menu. For more information on how to install packages, refer to the [detailed documentation](../../installation/using/installing-campaign-standard-packages.md).
 
-[개인 정보]에만 해당하는 2개의 새 폴더가 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** 아래에 만들어집니다.
+Two new folders, specific to Privacy, are created under **[!UICONTROL Administration]** > **[!UICONTROL Platform]**:
 
-* **[!UICONTROL Privacy Requests]**: 여기에서 개인 정보 보호 요청을 만들고 진행 상황을 추적할 수 있습니다.
-* **[!UICONTROL Namespaces]**: 여기에서 Adobe Campaign 데이터베이스의 데이터 주체를 식별하는 데 사용될 필드를 정의할 수 있습니다.
+* **[!UICONTROL Privacy Requests]**: this is where you will create your Privacy requests and track their evolution.
+* **[!UICONTROL Namespaces]**: this is where you will define the field that will be used to identify the Data Subject in the Adobe Campaign database.
 
 ![](assets/privacy-folders.png)
 
-**[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**&#x200B;에서 개인 정보 보호 요청을 처리하기 위해 매일 3개의 기술 워크플로우가 실행됩니다.
+In **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**, three technical workflows run every day to process Privacy requests.
 
 ![](assets/privacy-workflows.png)
 
-* **[!UICONTROL Collect privacy requests]**: 이 워크플로우는 Adobe Campaign에 저장된 수신자의 데이터를 생성하여 개인 정보 보호 요청의 화면에서 다운로드할 수 있도록 합니다.
-* **[!UICONTROL Delete privacy requests data]**: 이 워크플로우에서는 Adobe Campaign에 저장된 수신자 데이터를 삭제합니다.
-* **[!UICONTROL Privacy request cleanup]**: 이 워크플로우에서는 90일 이전의 액세스 요청 파일을 삭제합니다.
+* **[!UICONTROL Collect privacy requests]**: this workflow generates the recipient's data stored in Adobe Campaign and makes it available for download in the privacy request's screen.
+* **[!UICONTROL Delete privacy requests data]**: this workflow deletes the recipient's data stored in Adobe Campaign.
+* **[!UICONTROL Privacy request cleanup]**: this workflow erases the access request files that are older than 90 days.
 
-**[!UICONTROL Administration]** > **[!UICONTROL Access Management]** > **[!UICONTROL Named rights]**&#x200B;의 **[!UICONTROL Privacy Data Right]** 명명된 권한이 추가되었습니다. 데이터 컨트롤러가 개인 정보 보호 도구를 사용하려면 이 명명된 권한이 필요합니다. 이를 통해 새로운 요청을 만들고 진행 상황을 추적하며 API를 사용하는 등의 작업을 할 수 있습니다.
+In **[!UICONTROL Administration]** > **[!UICONTROL Access Management]** > **[!UICONTROL Named rights]**, the **[!UICONTROL Privacy Data Right]** named right has been added. This named right is required for Data Controllers in order for them to use privacy tools. This allows them to create new requests, track their evolution, use the API, etc.
 
 ![](assets/privacy-right.png)
 
-## 네임스페이스 {#namesspaces}
+## Namespaces {#namesspaces}
 
-개인 정보 보호 요청을 만들기 전에 사용할 네임스페이스를 정의해야 합니다. 이 필드는 Adobe Campaign 데이터베이스의 데이터 주체를 식별하는 데 사용됩니다.
+Before creating Privacy requests, you need to define the namespace you will use. This is the key that will be used to identify the Data Subject in the Adobe Campaign database.
 
-기본적으로 제공되는 네임스페이스 3개(이메일, 전화 및 휴대폰)가 있습니다. 다른 네임스페이스(예: 수신자 사용자 정의 필드)가 필요한 경우 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**&#x200B;에서 새 네임스페이스를 만들 수 있습니다.
+Three namespaces are available out-of-the-box: email, phone and mobile phone. If you need a different namespace (a recipient custom field, for example), you can create a new one from **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
 
 >[!NOTE]
 >
->최적의 성능을 위해서는 바로 사용할 수 있는 네임스페이스를 사용하는 것이 좋습니다.
+>For optimal performance, it is recommended to use out-of-the-box namespaces.
+-->

@@ -5,8 +5,10 @@ description: Adobe Campaign에서 AMP를 사용하여 인터랙티브하고 다�
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email Design
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 3%
@@ -85,7 +87,7 @@ AMP 형식을 사용하여 이메일을 작성하려면 아래 단계를 따르�
 
    예를 들어 AMP 템플릿의 제품 목록 구성 요소를 사용하고 서드파티 시스템 또는 Adobe Campaign 내부에서의 제품 목록을 유지 관리할 수 있습니다. 가격 또는 다른 요소를 조정할 때마다 수신자가 사서함에서 전자 메일을 열면 자동으로 반영됩니다.
 
-1. HTML Adobe Campaign에서 일반적으로 수행하는 개인화 필드 및 개인화 블록과 같이 필요에 따라 AMP 콘텐츠를 개인화합니다.
+1. Adobe Campaign의 HTML 포맷과 마찬가지로 개인화 필드 및 개인화 블록을 사용하여 필요에 따라 AMP 콘텐츠를 개인화합니다.
 
    ![](assets/amp_tab_perso.png)
 
@@ -206,6 +208,6 @@ AMP 콘텐츠와 대체 항목이 준비되고 호환되는 타겟을 정의하�
 
 아래 비디오에서는 Adobe Campaign에서 AMP를 활성화하는 방법을 설명하고 사용 사례를 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/36393?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

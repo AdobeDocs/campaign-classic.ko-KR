@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: 프로필 시작
+title: 프로필 시작하기
 description: Adobe Campaign에서 프로필 작업
 feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 17%
+source-wordcount: '234'
+ht-degree: 37%
 
 ---
 
-# 프로필 시작{#about-profiles}
+# 프로필 시작하기{#about-profiles}
 
 
 
@@ -23,100 +23,107 @@ ht-degree: 17%
 
 Adobe Campaign에서 수신자는 게재(전자 메일, SMS 등)를 보낼 타겟팅된 기본 프로필입니다. 데이터베이스에 저장된 수신자 데이터를 사용하면 지정된 게재를 받을 대상을 필터링하고 게재 콘텐츠에 개인화 데이터를 추가할 수 있습니다. 데이터베이스에 다른 유형의 프로필이 있습니다. 다양한 용도로 디자인되어 있습니다. 예를 들어 최종 대상으로 전송되기 전에 시드 프로필을 테스트하여 게재를 테스트합니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오의 프로필 개념 이해](#create-profiles-video)
-
-## 프로필 유형 {#profile-types}
-
-Adobe Campaign을 사용하면 생성, 가져오기, 타깃팅, 작업 추적, 업데이트 등 전체 라이프사이클에서 프로필을 관리할 수 있습니다.
-
-각 프로필은 데이터베이스 항목과 일치합니다. 여기에는 개인에 대한 타겟팅, 자격 부여 및 추적에 필요한 모든 정보가 포함됩니다.
-
-저장 공간을 기반으로 프로필을 식별할 수 있습니다. 이는 프로필이 수신자, 방문자, 운영자, 구독자, 잠재 고객 등과 일치할 수 있음을 의미합니다.
-
-## 수신자 프로필 {#recipient-profiles}
-
-게재 수신자는 데이터베이스에 성, 이름, 주소, 구독, 게재 등 연결된 정보가 포함된 프로필로 저장됩니다. 캠페인을 만들 때 단순 또는 고급 기준에 따라 베이스의 프로필 선택에 대한 게재 대상을 정의할 수 있습니다.
-
-또한 프로필이 데이터베이스가 아닌 파일에 저장된 수신자를 대상으로 하는 캠페인을 만들 수도 있습니다. 이를 &quot;외부&quot; 게재라고 합니다. 이 게재 유형에 대한 자세한 내용은 [이 페이지](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients)를 참조하세요.
-
-수신자 프로필을 만드는 주요 방법은 다음과 같습니다.
-
-* 그래픽 인터페이스 화면에 직접 입력,
-* 수신자 목록 가져오기,
-* 웹 양식을 통한 온라인 수집
+![프로필의 정의와 작동 방식을 보여 주는 비디오](assets/do-not-localize/how-to-video.png) [비디오에서 프로필의 개념을 이해](#create-profiles-video)
 
 >[!NOTE]
 >
->파일 및 웹 양식을 가져오는 방법을 알아보려면 [일반 가져오기 및 내보내기](../../platform/using/get-started-data-import-export.md)를 참조하십시오.
+>프로필과 프로필을 만들고 편집하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}의 상세 설명서를 참조하십시오.
 
-## 프로필 및 대상 {#profiles-and-targets}
+<!--
+## Profile types {#profile-types}
 
-**[!UICONTROL Profiles and targets]** 링크를 사용하여 Adobe Campaign 데이터베이스에 저장된 수신자를 표시할 수 있습니다. 새 수신자를 만들고 기존 수신자를 편집한 다음 해당 프로필에 액세스할 수 있습니다. 자세한 정보는 이 [페이지](../../platform/using/editing-a-profile.md)를 참조하십시오.
+Adobe Campaign lets you manage profiles throughout their entire lifecycle: creation, import, targeting, action tracking, updates, etc.
+
+Each profile matches a database entry. They contain all the information required for targeting, qualifying and tracking individuals.
+
+Profiles can be identified based on storage space. This means that a profile can match: a recipient, a visitor, an operator, a subscriber, a prospect, etc.
+
+## Recipient profiles {#recipient-profiles}
+
+Delivery recipients are stored in the database as profiles containing the information linked to them: last name, first name, address, subscriptions, deliveries, etc. When you create campaigns, you can define the target of the deliveries to a selection of the profiles in the base according to simple or advanced criteria.
+
+You can also create campaigns aimed at recipients whose profiles are stored not in the database, but in files. These are known as "external" deliveries. For more information about this type of delivery, refer to [this page](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+
+The main methods for creating recipient profiles are as follows:
+
+* direct input in the graphical interface screens,
+* importing recipient lists,
+* on-line collection via web forms.
+
+>[!NOTE]
+>
+>To find out how files and web forms are imported, refer to [Generic imports and exports](../../platform/using/get-started-data-import-export.md).
+
+## Profiles and targets {#profiles-and-targets}
+
+The **[!UICONTROL Profiles and targets]** link lets you display recipients stored in Adobe Campaign database. You can create new recipient, edit an existing recipient and access its profile. For more on this, refer to [this page](../../platform/using/editing-a-profile.md).
 
 ![](assets/d_ncs_user_interface_target_link.png)
 
-또한 다음에 대한 액세스 권한을 제공합니다.
+It also gives you access to:
 
-* 목록 - [자세히 알아보기](../../platform/using/creating-and-managing-lists.md)
-* 구독 서비스 - [자세히 알아보기](../../delivery/using/managing-subscriptions.md)
-* 웹 응용 프로그램 - [자세히 알아보기](../../web/using/about-web-applications.md)
-* 가져오기 및 내보내기(작업) - [자세히 알아보기](../../platform/using/about-generic-imports-exports.md)
-* 타겟팅 워크플로우 - [자세히 알아보기](../../workflow/using/building-a-workflow.md#implementation-steps-)
+* lists - [Learn more](../../platform/using/creating-and-managing-lists.md)
+* subscription services - [Learn more](../../delivery/using/managing-subscriptions.md)
+* web applications - [Learn more](../../web/using/about-web-applications.md)
+* imports and exports (jobs) - [Learn more](../../platform/using/about-generic-imports-exports.md)
+* targeting workflows - [Learn more](../../workflow/using/building-a-workflow.md#implementation-steps-)
 
-수신자 페이지에서는 프로필에 대해 편집, 업데이트, 추가, 삭제, 정렬 등의 작업을 자주 수행할 수 있습니다.
+The recipients page lets you perform frequent operations on profiles: edits, updates, adds, deletions, sorts.
 
-고급 프로필 조작의 경우 Adobe Campaign 트리를 편집해야 합니다. 이렇게 하려면 Adobe Campaign 홈 페이지에서 **[!UICONTROL Explorer]** 링크를 클릭하십시오.
+For more advanced profile manipulations, you need to edit the Adobe Campaign tree. To do this, click the **[!UICONTROL Explorer]** link on the Adobe Campaign home page.
 
-기본적으로 수신자는 트리의 **[!UICONTROL Profiles and Targets > Recipients]** 노드에 저장됩니다. 이 보기에서 수신자를 만들 수 있을 뿐만 아니라 다음과 같은 작업도 수행할 수 있습니다.
+By default, recipients are stored in the **[!UICONTROL Profiles and Targets > Recipients]** node of the tree. You can create recipients from this view, as well as:
 
-* 데이터베이스의 프로필 정렬 및 필터링 - [자세히 알아보기](../../platform/using/filtering-options.md)
-* 데이터베이스에서 프로필을 이동, 복사 또는 삭제합니다. - [자세히 알아보기](../../platform/using/managing-profiles.md),
-* 프로필 업데이트 - [자세히 알아보기](../../platform/using/updating-data.md)
-* 받는 사람 내보내기 - [자세히 알아보기](../../platform/using/exporting-and-importing-profiles.md)
-* 받는 사람 그룹 만들기 - [자세히 알아보기](../../platform/using/creating-and-managing-lists.md)
+* sort and filter the profiles of the database - [Learn more](../../platform/using/filtering-options.md)
+* move, copy or delete profiles from the database - [Learn more](../../platform/using/managing-profiles.md),
+* update profiles - [Learn more](../../platform/using/updating-data.md)
+* export recipients - [Learn more](../../platform/using/exporting-and-importing-profiles.md)
+* create recipient groups - [Learn more](../../platform/using/creating-and-managing-lists.md)
 
-고급 기능 및 구성에 액세스하려면 **[!UICONTROL Explorer]** 아이콘을 클릭합니다.
+To access advanced functionalities and configurations, you need to click the **[!UICONTROL Explorer]** icon. 
 
 ![](assets/d_ncs_user_interface01.png)
 
-Adobe Campaign 탐색기의 일반 레이아웃은 [이 페이지](../../platform/using/adobe-campaign-explorer.md)에 표시됩니다.
+The general layout of the Adobe Campaign explorer is presented in [this page](../../platform/using/adobe-campaign-explorer.md).
 
 >[!NOTE]
 >
->**[!UICONTROL Profiles and targets > Recipients]** 링크를 클릭하여 Adobe Campaign 트리에서 이 목록의 고급 보기를 표시할 수도 있습니다. 사용자의 요구 사항에 맞게 목록 표시를 구성할 수 있습니다. 열을 추가 또는 삭제하고, 열 순서를 정의하고, 데이터를 정렬하는 등의 작업을 수행할 수 있습니다. 목록 표시 구성은 [이 페이지](../../platform/using/adobe-campaign-ui-lists.md)에 설명되어 있습니다.
+>You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [this page](../../platform/using/adobe-campaign-ui-lists.md).  
 >
->수신자 보기를 정의할 수도 있습니다. 이 기능에 대한 자세한 내용은 [이 섹션](../../platform/using/access-management-folders.md)을 참조하세요.
+>You can also define recipient views. For further information about this functionality, refer to [this section](../../platform/using/access-management-folders.md).
 
-## 활성 프로필 {#active-profiles}
+## Active profiles {#active-profiles}
 
-활성 프로필은 고객이 지난 12개월 동안 모든 채널을 통해 통신하려고 시도한 프로필입니다.
+An active profile is a profile that customer has attempted to communicate with during the past 12 months via any channel.
 
-계약에 따라 각 캠페인 인스턴스에는 청구 용도로 계산되는 특정 양의 활성 프로필이 제공됩니다. 구입한 활성 프로필 수에 대한 자세한 내용은 최신 계약을 참조하십시오. [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}에서 자세히 알아보세요.
+According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-Campaign Campaign 컨트롤 패널에서 직접 인스턴스의 활성 프로필 수를 모니터링할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ko){target="_blank"}를 참조하세요.
+You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
-다음과 같은 보호 기능 및 제한 사항이 적용됩니다.
+The following guardrails and limitations apply:
 
-* 여러 게재에서 타겟팅한 프로필은 한 번만 카운트됩니다.
-* X의 소셜 마케팅(Twitter) 또는 Facebook에서 타겟팅한 프로필은 활성 프로필로 고려하지 않습니다.
-* 활성 프로필 수는 **마케팅 인스턴스**&#x200B;에만 사용할 수 있습니다. 실행 인스턴스에는 사용할 수 없습니다. 즉, MID(중간 소싱) 및 RT(메시지 센터/실시간 메시징) 인스턴스를 의미합니다.
-* 카운트는 수신자 기본 키를 기반으로 합니다. 따라서 프로필이 두 개의 서로 다른 수신자 테이블에 있으면 활성 프로필로 두 번 계산될 수 있습니다.
+* A profile that has been targeted by several deliveries is counted only once. 
+* Profiles targeted in the context of Social marketing on X (Twitter) or Facebook are not taken into account as active profiles.
+* The count of active profiles is available for **Marketing instances** only. It is not available for Execution instances, meaning MID (mid sourcing) and RT (Message Center / Real-time messaging) instances.
+* The count is based on the recipient primary key. As a consequence, if a profile is present in two different recipient tables, it can be counted twice as an active profile.
 
 
-## 튜토리얼 비디오 {#create-profiles-video}
+## Tutorial video {#create-profiles-video}
 
-프로필 데이터에 액세스하고, 프로필을 정렬 및 필터링하고, 프로필을 수동으로 만들고 관리하는 방법을 알아봅니다.
+Learn how to access profile data, sort and filter profiles and manually create and manage profiles.
 
-이 비디오에서는 Adobe Campaign Classic의 일반 데이터 보호 규정 준수에 대해서도 설명합니다.
+This video also explains the compliance of Adobe Campaign Classic with General Data Protection Regulations. 
 
->[!VIDEO](https://video.tv.adobe.com/v/326755?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
 
-추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
-**참조 항목**
+**See also**
 
-* [Campaign의 개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html)
+* [Privacy management in Campaign](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
 
-* [워크플로우에서 쿼리 및 세그먼트 데이터 만들기](../../workflow/using/targeting-data.md)
+* [Create queries and segment data in workflows](../../workflow/using/targeting-data.md)
 
-* [대상 매핑 선택](../../delivery/using/steps-defining-the-target-population.md#select-a-target-mapping)
+* [Select target mapping](../../delivery/using/steps-defining-the-target-population.md#select-a-target-mapping)
+
+-->

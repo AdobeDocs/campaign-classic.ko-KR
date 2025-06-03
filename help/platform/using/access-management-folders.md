@@ -7,9 +7,9 @@ feature: Application Settings, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 1%
 
 Explorer 탐색 트리의 각 폴더에는 읽기, 쓰기 및 삭제 액세스 권한이 첨부되어 있습니다. 파일에 액세스하려면 연산자 또는 연산자 그룹은 최소한 파일에 대한 읽기 액세스 권한을 가져야 합니다.
 
+>[!NOTE]
+>
+>폴더 권한에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}를 참조하세요.
+
+
 ## 폴더 및 보기 {#folders-and-views}
 
 ### 폴더란? {#about-folders}
@@ -28,7 +33,7 @@ Explorer 탐색 트리의 각 폴더에는 읽기, 쓰기 및 삭제 액세스 �
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 및 모범 사례를 이 섹션[&#128279;](adobe-campaign-workspace.md)에서 알아봅니다.
+Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 및 모범 사례를 이 섹션](adobe-campaign-workspace.md)에서 [알아봅니다.
 
 ### 보기란 무엇입니까? {#about-views}
 

@@ -5,8 +5,10 @@ description: 일본어 모바일에서 읽을 이메일을 구성, 디자인 및
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email, Email Design
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -37,7 +39,7 @@ Adobe Campaign은 모바일에서 이메일에 대한 세 가지 특정 일본�
 * 10,000바이트보다 엄격히 낮은 텍스트 및 HTML 섹션으로 게재를 만듭니다(KDDI AU 및 DoCoMo의 경우).
 * 총 크기(인코딩 전)가 100KB보다 작은 이미지 사용
 * 메시지당 20개 이상의 이미지를 사용하지 않음
-* 축소된 크기 HTML 형식 사용(각 연산자에 대해 제한된 수의 태그를 사용할 수 있음)
+* 축소된 크기의 HTML 형식 사용(각 연산자에 대해 제한된 수의 태그를 사용할 수 있음)
 
 >[!NOTE]
 >
@@ -54,7 +56,7 @@ Adobe Campaign을 사용하면 메시지 형식이 일본어 모바일로 전송
 
 콘텐츠 편집 창의 **[!UICONTROL Preview]** 탭에서 **[!UICONTROL More... > Deco-mail diagnostic]**&#x200B;을(를) 클릭하면 다음 작업을 수행할 수 있습니다.
 
-* HTML 컨텐츠 태그가 일본어 형식 제한을 준수하는지 확인합니다
+* HTML 컨텐츠 태그가 일본어 형식 제한 사항을 준수하는지 확인합니다
 * 메시지의 이미지 수가 형식에 지정된 제한을 초과하지 않는지 확인합니다(이미지 20개).
 * 총 메시지 크기 확인(100kB 미만)
 

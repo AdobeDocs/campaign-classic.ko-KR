@@ -6,10 +6,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: befa8948-ef2e-4f4d-a002-3f26d8516a0d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 13%
+source-wordcount: '61'
+ht-degree: 16%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 13%
 
 ![](assets/s_ncs_user_profile_add.png)
 
-이 프로필에 대한 정보를 입력합니다. 완료할 탭과 필드는 [프로필 편집](../../platform/using/editing-a-profile.md)에 설명되어 있습니다.
+>[!NOTE]
+>
+>Adobe Campaign 콘솔에서 프로필을 만드는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}를 참조하세요.
 
-프로필 만들기의 유효성을 검사하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오. 그런 다음 프로필이 Adobe Campaign 데이터베이스에 추가됩니다.
+
+<!--
+Enter the information for this profile. The tabs and fields to be completed are described in [Editing a profile](../../platform/using/editing-a-profile.md).
+
+Click **[!UICONTROL Save]** to validate profile creation. The profile is then added in Adobe Campaign database.
+-->
