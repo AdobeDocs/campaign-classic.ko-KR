@@ -19,7 +19,7 @@ ht-degree: 2%
 >[!CAUTION]
 >
 >* Campaign Classic v7.3.1부터 모든 연산자는 [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 사용하여 Campaign에 연결해야 합니다.
->  >보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로, Adobe Campaign은 모든 기존 운영자 인증 모드를 로그인/암호 기본 인증에서 Adobe Identity Management System(IMS)으로 마이그레이션할 것을 강력히 권장합니다. [이 페이지](../../technotes/using/migrate-users-to-ims.md)에서 연산자를 마이그레이션하는 방법에 대해 알아보세요.
+>  &#x200B;>보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로, Adobe Campaign은 모든 기존 운영자 인증 모드를 로그인/암호 기본 인증에서 Adobe Identity Management System(IMS)으로 마이그레이션할 것을 강력히 권장합니다. [이 페이지](../../technotes/using/migrate-users-to-ims.md)에서 연산자를 마이그레이션하는 방법에 대해 알아보세요.
 > 
 >* 이 마이그레이션 후에는 다음 섹션이 더 이상 적용되지 않습니다.  [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ko){target="_blank"}에서 Adobe IMS를 사용하여 권한을 설정하는 방법에 대해 알아봅니다.
 
