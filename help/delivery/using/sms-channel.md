@@ -18,13 +18,13 @@ Adobe Campaign을 사용하여 모바일 장치에서 고객에게 문자 메시
 
 Campaign v8 설명서에서 SMS 게재 만들기와 관련된 주요 단계를 알아봅니다.
 
-* [SMS 채널 개요](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html){target="_blank"}: 모바일 장치에서 고객에게 문자 메시지를 보내는 방법을 알아봅니다.
-* [SMS 게재 만들기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/create-sms.html){target="_blank"}: 새 SMS 게재를 만드는 데 필요한 여러 단계를 살펴봅니다.
-* [콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-content.html){target="_blank"}: SMS 메시지의 콘텐츠를 개인화하는 방법을 알아봅니다.
-* [대상 선택](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-audience.html){target="_blank"}: 기본 대상은 Adobe Campaign 데이터베이스에서 추출되거나 외부 파일에도 저장될 수 있습니다.
-* [SMS 증명 보내기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-proofs.html): 게재 유효성 검사 주기를 설정해야 합니다. 대상자에게 콘텐츠를 보내기 전에 콘텐츠가 승인되었는지 확인하십시오.
+* [SMS 채널 개요](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ko){target="_blank"}: 모바일 장치에서 고객에게 문자 메시지를 보내는 방법을 알아봅니다.
+* [SMS 게재 만들기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/create-sms.html?lang=ko){target="_blank"}: 새 SMS 게재를 만드는 데 필요한 여러 단계를 살펴봅니다.
+* [콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-content.html?lang=ko){target="_blank"}: SMS 메시지의 콘텐츠를 개인화하는 방법을 알아봅니다.
+* [대상 선택](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-audience.html?lang=ko){target="_blank"}: 기본 대상은 Adobe Campaign 데이터베이스에서 추출되거나 외부 파일에도 저장될 수 있습니다.
+* [SMS 증명 보내기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-proofs.html?lang=ko): 게재 유효성 검사 주기를 설정해야 합니다. 대상자에게 콘텐츠를 보내기 전에 콘텐츠가 승인되었는지 확인하십시오.
 * [대상자에게 보내기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html?lang=ko): 이제 SMS의 유효성을 검사하면 대상자에게 보낼 수 있습니다.
-* [SMS 모니터링 및 추적](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms-monitor.html): 마케팅 캠페인이 효율적으로 수행되도록 SMS 게재를 모니터링합니다.
+* [SMS 모니터링 및 추적](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms-monitor.html?lang=ko): 마케팅 캠페인이 효율적으로 수행되도록 SMS 게재를 모니터링합니다.
 
 구성에 대한 자세한 내용은 다음 페이지를 참조하십시오.
 

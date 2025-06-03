@@ -23,7 +23,7 @@ Adobe Campaign을 사용하면 대화형 마케팅 캠페인 만들기를 조정
 >
 >* 이 컬렉션의 도움말 자료는 [최신 빌드](../../rn/using/latest-release.md)의 Campaign Classic v7에 적용됩니다. 특정 배지는 Campaign v8에도 섹션이 적용되는 경우 사용할 수 있습니다.
 >
->* Adobe Campaign 및 시작 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/get-started){target=_blank}를 참조하세요.
+>* Adobe Campaign 및 시작 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/get-started){target=_blank}를 참조하세요.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 기본 기능 살펴보기](#video)
 
@@ -69,7 +69,7 @@ You can combine the delivery functionalities and advanced campaign management fu
 
 ## Core capabilities and add-ons {#core-capabilities-and-add-ons}
 
-Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign product description](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 The following capabilities are available. Depending on your license agreement, some of these capabilities can be available or not in your instance.
 
@@ -95,6 +95,6 @@ This video presents Campaign Classic main features and capabilities.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).
 
 -->

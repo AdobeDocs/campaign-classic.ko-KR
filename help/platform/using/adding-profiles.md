@@ -23,7 +23,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->Adobe Campaign 콘솔에서 프로필을 만드는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}를 참조하세요.
+>Adobe Campaign 콘솔에서 프로필을 만드는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}를 참조하세요.
 
 
 <!--

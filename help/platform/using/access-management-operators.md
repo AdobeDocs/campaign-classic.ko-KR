@@ -28,7 +28,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 절차는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 [이 설명서](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank)를 참조하세요.
+>이 절차는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 [이 설명서](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html#_blank)를 참조하세요.
 
 운영자는 로그인하고 작업을 수행할 수 있는 권한이 있는 Adobe Campaign 사용자입니다.
 

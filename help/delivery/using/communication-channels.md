@@ -20,12 +20,12 @@ Adobe Campaign에서는 이메일, SMS, 푸시 알림 및 DM 등 크로스 채�
 
 Campaign v8 설명서에서 게재 만들기와 관련된 주요 단계를 알아봅니다.
 
-* [게재 만들기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}: 일회성 단일 게재를 만드는 방법을 알아봅니다.
-* [콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#content-of-the-delivery){target="_blank"}: 각 채널별로 게재 콘텐츠를 구성합니다.
-* [대상 지정](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}: 주 대상, 증명 대상, 시드 주소 및 컨트롤 그룹 등 여러 유형의 대상을 정의합니다.
-* [게재 유효성 검사](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#validate-the-delivery){target="_blank"}: 기본 대상으로 보내기 전에 게재의 유효성을 검사하는 방법을 알아봅니다.
-* [게재 보내기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#configuring-and-sending-the-delivery){target="_blank"}: 게재 설정을 구성하고 메시지를 보내는 방법을 정의합니다.
-* [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}: Campaign 게재 기능 관련 모범 사례를 참조하세요.
+* [게재 만들기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#create-the-delivery){target="_blank"}: 일회성 단일 게재를 만드는 방법을 알아봅니다.
+* [콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#content-of-the-delivery){target="_blank"}: 각 채널별로 게재 콘텐츠를 구성합니다.
+* [대상 지정](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#target-population){target="_blank"}: 주 대상, 증명 대상, 시드 주소 및 컨트롤 그룹 등 여러 유형의 대상을 정의합니다.
+* [게재 유효성 검사](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#validate-the-delivery){target="_blank"}: 기본 대상으로 보내기 전에 게재의 유효성을 검사하는 방법을 알아봅니다.
+* [게재 보내기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#configuring-and-sending-the-delivery){target="_blank"}: 게재 설정을 구성하고 메시지를 보내는 방법을 정의합니다.
+* [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ko){target="_blank"}: Campaign 게재 기능 관련 모범 사례를 참조하세요.
 
 또한 이 [페이지](delivery-settings.md)를 참조하여 특정 Campaign Classic 게재 설정에 대해 알아보십시오.
 
@@ -33,7 +33,7 @@ Campaign v8 설명서에서 게재 만들기와 관련된 주요 단계를 알�
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}. 
 
 >[!NOTE]
 >
