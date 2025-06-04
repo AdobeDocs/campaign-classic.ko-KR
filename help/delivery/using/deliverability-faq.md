@@ -2,13 +2,12 @@
 product: campaign
 title: Adobe Campaign Classic의 게재 기능 관리 시 주요 사항
 description: Adobe Campaign에서 게재 능력을 관리할 때 확인할 주요 사항 알아보기
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Deliverability, Troubleshooting
 role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -40,7 +39,7 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우 ISP에서
 * 가입 양식을 업데이트하여 입력한 도메인 이름의 오류를 감지합니다(예: gmaul.com 또는 yaho.com).
 * 메시지가 스팸으로 선언되거나 메시지가 계속 차단된다는 오류가 표시되면 지난 12개월 동안 메시지 중 하나를 열거나 클릭하지 않은 수신자를 대상에서 제외해 보십시오.
 
-문제가 계속되면 상업용 또는 게재 기능 서비스, [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하세요.
+문제가 지속되면 상업용 또는 게재 서비스, [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
 ## 차단 목록에 추가하다 격리 대 격리 {#denylist-versus-quarantine}
 

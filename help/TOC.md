@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
 workflow-type: tm+mt
-source-wordcount: '2574'
-ht-degree: 89%
+source-wordcount: '2573'
+ht-degree: 86%
 
 ---
 
@@ -125,27 +125,26 @@ ht-degree: 89%
          + [적합한 대상자 정의](delivery/using/define-the-right-audience.md)
          + [보내기 전 확인](delivery/using/check-before-sending.md)
          + [추적 및 모니터링](delivery/using/track-and-monitor.md)
-   + 이메일 보내기 {#sending-emails}
-      + [이메일 채널 정보](delivery/using/about-email-channel.md)
-      + [이메일 게재 만들기](delivery/using/creating-an-email-delivery.md)
-      + [이메일 콘텐츠 정의](delivery/using/defining-the-email-content.md)
-      + [대화형 콘텐츠 정의](delivery/using/defining-interactive-content.md)
-      + [향상된 MTA로 보내기](delivery/using/sending-with-enhanced-mta.md)
-      + 이메일 게재 보내기 {#sending-an-email}
-         + [이메일을 보내는 주요 단계](delivery/using/sending-messages.md)
-         + [이메일 매개 변수](delivery/using/email-parameters.md)
-         + [일본어 모바일에서 보내기](delivery/using/sending-emails-on-japanese-mobiles.md)
-      + [파일 첨부](delivery/using/attaching-files.md)
-   + SMS 보내기 {#sending-messages-on-mobiles}
-      + [SMS 시작](delivery/using/sms-channel.md)
-      + SMS 채널 구성 {#sms-set-up}
-         + [독립형 인스턴스에서 SMS 구성](delivery/using/sms-set-up.md)
-         + [중간 소싱 인프라에 SMS 구성](delivery/using/sms-set-up-mid.md)
-         + [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)
-         + [추가 구성](delivery/using/sms-send.md)
-         + [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
-      + [SMS 만들기](delivery/using/sms-create.md)
-      + [Extended Generic SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
++ 이메일 보내기 {#sending-emails}
++ [전자 메일 게재 만들기](delivery/using/creating-an-email-delivery.md)
++ [전자 메일 콘텐츠 정의](delivery/using/defining-the-email-content.md)
++ [대화형 콘텐츠 정의](delivery/using/defining-interactive-content.md)
++ 이메일 게재 {#sending-an-email} 보내기
++ [이메일을 보내는 주요 단계](delivery/using/sending-messages.md)
++ [전자 메일 매개 변수](delivery/using/email-parameters.md)
++ [일본어 모바일에서 보내기](delivery/using/sending-emails-on-japanese-mobiles.md)
++ [파일 첨부](delivery/using/attaching-files.md)
++ [이메일 보내기](delivery/using/about-email-channel.md)
++ SMS 보내기 {#sending-messages-on-mobiles}
++ [SMS 시작](delivery/using/sms-channel.md)
++ SMS 채널 구성 {#sms-set-up}
++ [독립 실행형 인스턴스에서 SMS 구성](delivery/using/sms-set-up.md)
++ [중간 소싱 인프라에서 SMS 구성](delivery/using/sms-set-up-mid.md)
++ [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)
++ [추가 구성](delivery/using/sms-send.md)
++ [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
++ [SMS 만들기](delivery/using/sms-create.md)
++ [Extended Generic SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
    + [LINE 메시지 보내기](delivery/using/line-channel.md)
    + 푸시 알림 보내기 {#sending-push-notifications}
       + [모바일 앱 채널 시작](delivery/using/about-mobile-app-channel.md)
@@ -841,6 +840,7 @@ ht-degree: 89%
       + [2023년 시스템 업그레이드](technotes/using/tech-stack-upgrade.md)
       + [IMS 업데이트](technotes/using/ims-updates.md)
       + [TLS 1.0 및 1.1 수명 종료](technotes/using/eol-tls-support.md)
+      + [향상된 MTA로 보내기](delivery/using/sending-with-enhanced-mta.md)
    + 이메일 및 푸시 알림{#technotes-email}
       + [Apple iOS의 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)
       + [잘못된 하드 바운스를 업데이트하는 방법](delivery/using/update-bounce-qualification.md)

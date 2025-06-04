@@ -2,13 +2,12 @@
 product: campaign
 title: Adobe Campaign Classic에서 Enhanced MTA로 보내기
 description: Adobe Campaign Enhanced MTA로 이메일 전송 범위 및 특성에 대해 알아봅니다
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1368'
 ht-degree: 1%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Adobe Campaign Enhanced MTA는 호스팅된 Campaign Classic 또는 하이브리드 고객만 사용할 수 있습니다. 향상된 MTA를 사용하도록 Campaign Classic 온-프레미스 설치를 업그레이드할 수 없습니다.
+>Adobe Campaign Enhanced MTA는 Campaign Classic 호스팅 또는 하이브리드 고객만 사용할 수 있습니다. 향상된 MTA를 사용하도록 Campaign Classic 온-프레미스 설치를 업그레이드할 수 없습니다.
 
 2018년 9월 이후에 Campaign Classic 인스턴스가 프로비저닝된 경우 Enhanced MTA를 사용하고 있습니다. 다른 모든 Campaign Classic 고객의 경우 아래의 [자주 묻는 질문](#enhanced-mta-faq)을 참조하십시오.
 
@@ -78,7 +77,7 @@ No, there is no extra fee associated with the upgrade process to enable the use 
 
 호스팅된 인스턴스의 전체 프로세스를 수행하려면 몇 분 정도의 다운타임이 필요합니다. Adobe은 업그레이드 후 최대 24시간 동안 이메일 처리량 및 게재 가능성을 모니터링하여 이메일 게재에 미치는 영향을 평가합니다.
 
-문제가 발견되는 경우, Adobe은 빠르고 일시적으로 인스턴스를 다시 기본 Adobe Campaign MTA로 되돌릴 수 있습니다.
+문제가 발견되면 Adobe은 인스턴스를 빠르고 일시적으로 기본 Adobe Campaign MTA로 되돌릴 수 있습니다.
 
 현재 Enhanced MTA는 이메일 채널에만 영향을 줍니다. 푸시 알림 및 SMS 게재는 기본 Campaign MTA를 계속 사용하며 업그레이드에 의해 어떠한 영향도 받지 않습니다.
 
@@ -136,8 +135,8 @@ Campaign 게재의 유효 기간 설정은 **3.5일 이하**(으)로 설정된 �
 
 ### DKIM 서명
 
-DKIM(DomainKeys Identified Mail) 전자 메일 인증 서명은 Enhanced MTA에서 수행합니다. 기본 Campaign MTA에 의한 DKIM 서명은 Enhanced MTA 업그레이드의 일부로 도메인 관리 테이블 내에서 해제됩니다.
-DKIM에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#authentication)를 참조하세요.
+DKIM(DomainKeys Identified Mail) 전자 메일 인증 서명은 Enhanced MTA에서 수행합니다. 기본 Campaign MTA에 의한 DKIM 서명은 Enhanced MTA 업그레이드의 일부로 도메인 관리 테이블 내에서 꺼집니다.
+DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)를 참조하세요.
 
 ### 게재 성공 보고
 
@@ -159,9 +158,9 @@ DKIM에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](htt
 
 | 전송 프로세스의 단계 | KPI 요약 | 전송 로그 상태 |
 |--- |--- |--- |
-| 메시지가 Campaign에서 Enhanced MTA로 성공적으로 릴레이 | **[!UICONTROL Success]** 백분율이 100%에서 시작 | 보냄 |
+| 메시지가 Campaign에서 Enhanced MTA로 성공적으로 릴레이 | **[!UICONTROL Success]** 백분율이 100%에서 시작 | 전송됨 |
 | 하드 바운싱 메시지가 Enhanced MTA에서 다시 보고됨 | **[!UICONTROL Success]** 비율이 이에 따라 감소함 | 실패 |
-| 소프트 바운싱 메시지는 Enhanced MTA에서 다시 보고됨 | **[!UICONTROL Success]** 백분율 변경 없음 | 보냄 |
-| 소프트 바운싱 메시지 다시 시도 성공 | **[!UICONTROL Success]** 백분율 변경 없음 | 보냄 | **[!UICONTROL Success]** 비율이 이에 따라 증가함 | 보냄 |
+| 소프트 바운싱 메시지는 Enhanced MTA에서 다시 보고됨 | **[!UICONTROL Success]** 백분율 변경 없음 | 전송됨 |
+| 소프트 바운싱 메시지 다시 시도 성공 | **[!UICONTROL Success]** 백분율 변경 없음 | 전송됨 | **[!UICONTROL Success]** 비율이 이에 따라 증가함 | 전송됨 |
 | 소프트 바운싱 메시지 다시 시도 실패 | **[!UICONTROL Success]** 비율이 이에 따라 감소함 | 실패 |
 
