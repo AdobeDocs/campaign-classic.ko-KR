@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
+source-git-commit: 67e5a52666b7a57d1fc17d308a124948bf81f432
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2572'
 ht-degree: 86%
 
 ---
@@ -125,11 +125,11 @@ ht-degree: 86%
          + [적합한 대상자 정의](delivery/using/define-the-right-audience.md)
          + [보내기 전 확인](delivery/using/check-before-sending.md)
          + [추적 및 모니터링](delivery/using/track-and-monitor.md)
-+ 이메일 보내기 {#sending-emails}
++ 이메일 {#sending-emails}
 + [전자 메일 게재 만들기](delivery/using/creating-an-email-delivery.md)
 + [전자 메일 콘텐츠 정의](delivery/using/defining-the-email-content.md)
 + [대화형 콘텐츠 정의](delivery/using/defining-interactive-content.md)
-+ 이메일 게재 보내기 {#sending-an-email}
++ 이메일 게재 {#sending-an-email} 보내기
 + [이메일을 보내는 주요 단계](delivery/using/sending-messages.md)
 + [전자 메일 매개 변수](delivery/using/email-parameters.md)
 + [일본어 모바일에서 보내기](delivery/using/sending-emails-on-japanese-mobiles.md)
