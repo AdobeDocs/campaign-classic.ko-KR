@@ -131,7 +131,7 @@ ht-degree: 86%
 + [이메일 게재 만들기](delivery/using/creating-an-email-delivery.md)
 + [전자 메일 콘텐츠 정의](delivery/using/defining-the-email-content.md)
 + [대화형 콘텐츠 정의](delivery/using/defining-interactive-content.md)
-+ 이메일 게재 {#sending-an-email} 보내기
++ 이메일 게재 보내기 {#sending-an-email}
 + [이메일을 보내는 주요 단계](delivery/using/sending-messages.md)
 + [전자 메일 매개 변수](delivery/using/email-parameters.md)
 + [일본어 모바일에서 보내기](delivery/using/sending-emails-on-japanese-mobiles.md)
