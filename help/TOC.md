@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: d2292711cf67332eda3fe9bed78248ab62ca1818
+source-git-commit: 1e88021c9209bd23c3c949380f553473e890a9ce
 workflow-type: tm+mt
-source-wordcount: '2575'
-ht-degree: 86%
+source-wordcount: '2571'
+ht-degree: 89%
 
 ---
 
@@ -52,13 +52,13 @@ ht-degree: 86%
          + [개발](platform/using/faq-developers.md)
          + [튜토리얼](platform/using/tutorials.md)
       + [용어집](platform/using/ac-glossary.md)
-   + 개인 정보 보호 {#privacy}
-      + [개인 정보 보호 및 동의](platform/using/privacy-and-recommendations.md)
-      + [개인 정보 보호 관리](platform/using/privacy-management.md)
-      + 개인 정보 보호 요청 {#privacy-requests}
-         + [개인 정보 보호 요청 정보](platform/using/privacy-requests.md)
-         + [개인 정보 보호 요청 생성 및 관리](platform/using/privacy-requests-ui.md)
-         + [자동 개인 정보 보호 요청 프로세스](platform/using/privacy-requests-api.md)
+      + 개인 정보 보호 {#privacy}
+         + [개인 정보 보호 및 동의](platform/using/privacy-and-recommendations.md)
+         + [개인 정보 보호 관리](platform/using/privacy-management.md)
+         + 개인 정보 보호 요청 {#privacy-requests}
+            + [개인 정보 보호 요청 정보](platform/using/privacy-requests.md)
+            + [개인 정보 보호 요청 생성 및 관리](platform/using/privacy-requests-ui.md)
+            + [자동 개인 정보 보호 요청 프로세스](platform/using/privacy-requests-api.md)
          + [개인 정보 판매 옵트아웃](platform/using/privacy-requests-ccpa.md)
    + 프로필 관리 {#profile-management}
       + [프로필 정보](platform/using/about-profiles.md)
@@ -67,7 +67,7 @@ ht-degree: 86%
       + [프로필 관리](platform/using/managing-profiles.md)
       + [데이터 업데이트](platform/using/updating-data.md)
       + [프로필 가져오기 및 내보내기](platform/using/exporting-and-importing-profiles.md)
-      + [목록 만들기 및 관리](platform/using/creating-and-managing-lists.md)
+   + [목록 만들기 및 관리](platform/using/creating-and-managing-lists.md)
    + 데이터 가져오기 및 내보내기 {#importing-and-exporting-data}
       + [데이터 가져오기 및 내보내기 시작](platform/using/get-started-data-import-export.md)
       + [워크플로를 사용하여 데이터 가져오기 및 내보내기](platform/using/import-export-workflows.md)
@@ -111,41 +111,41 @@ ht-degree: 86%
 + 메시지 만들기 및 보내기 {#sending-messages}
    + [메시지 시작하기](delivery/using/communication-channels.md)
    + [게재 설정](delivery/using/delivery-settings.md)
-   + 게재를 만들 때 주요 단계 {#key-steps-when-creating-a-delivery}
+   + 빠른 시작 {#key-steps-when-creating-a-delivery}
       + [게재 시작](delivery/using/steps-about-delivery-creation-steps.md)
       + [게재 만들기 및 식별](delivery/using/steps-create-and-identify-the-delivery.md)
       + [대상자 정의](delivery/using/steps-defining-the-target-population.md)
       + [게재 유효성 검사](delivery/using/steps-validating-the-delivery.md)
       + [게재 보내기](delivery/using/steps-sending-the-delivery.md)
       + [게재 모범 사례](delivery/using/delivery-best-practices.md)
-      + 게재 모범 사례 {#delivery-bestpractices}
-         + [게재 최적화](delivery/using/optimize-delivery.md)
-         + [템플릿 사용](delivery/using/use-templates.md)
-         + [개인화된 콘텐츠 작성](delivery/using/design-and-personalize.md)
-         + [적합한 대상자 정의](delivery/using/define-the-right-audience.md)
-         + [보내기 전 확인](delivery/using/check-before-sending.md)
-         + [추적 및 모니터링](delivery/using/track-and-monitor.md)
-+ 이메일 보내기 {#sending-emails}
-+ [전자 메일 시작](delivery/using/about-email-channel.md)
-+ [고급 MTA로 보내기](delivery/using/sending-with-enhanced-mta.md)
-+ [이메일 게재 만들기](delivery/using/creating-an-email-delivery.md)
-+ [전자 메일 콘텐츠 정의](delivery/using/defining-the-email-content.md)
-+ [대화형 콘텐츠 정의](delivery/using/defining-interactive-content.md)
-+ 이메일 게재 보내기 {#sending-an-email}
-+ [이메일을 보내는 주요 단계](delivery/using/sending-messages.md)
-+ [전자 메일 매개 변수](delivery/using/email-parameters.md)
-+ [일본어 모바일에서 보내기](delivery/using/sending-emails-on-japanese-mobiles.md)
-+ [파일 첨부](delivery/using/attaching-files.md)
-+ SMS 보내기 {#sending-messages-on-mobiles}
-+ [SMS 시작](delivery/using/sms-channel.md)
-+ SMS 채널 구성 {#sms-set-up}
-+ [독립 실행형 인스턴스에서 SMS 구성](delivery/using/sms-set-up.md)
-+ [중간 소싱 인프라에서 SMS 구성](delivery/using/sms-set-up-mid.md)
-+ [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)
-+ [추가 구성](delivery/using/sms-send.md)
-+ [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
-+ [SMS 만들기](delivery/using/sms-create.md)
-+ [Extended Generic SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
+   + 게재 모범 사례 {#delivery-bestpractices}
+      + [게재 최적화](delivery/using/optimize-delivery.md)
+      + [템플릿 사용](delivery/using/use-templates.md)
+      + [개인화된 콘텐츠 작성](delivery/using/design-and-personalize.md)
+      + [적합한 대상자 정의](delivery/using/define-the-right-audience.md)
+      + [보내기 전 확인](delivery/using/check-before-sending.md)
+      + [추적 및 모니터링](delivery/using/track-and-monitor.md)
+   + 이메일 보내기 {#sending-emails}
+      + [이메일 시작](delivery/using/about-email-channel.md)
+      + [향상된 MTA로 보내기](delivery/using/sending-with-enhanced-mta.md)
+      + [이메일 게재 만들기](delivery/using/creating-an-email-delivery.md)
+      + [이메일 콘텐츠 정의](delivery/using/defining-the-email-content.md)
+      + [대화형 콘텐츠 정의](delivery/using/defining-interactive-content.md)
+      + 이메일 게재 보내기 {#sending-an-email}
+         + [이메일을 보내는 주요 단계](delivery/using/sending-messages.md)
+         + [이메일 매개 변수](delivery/using/email-parameters.md)
+         + [일본어 모바일에서 보내기](delivery/using/sending-emails-on-japanese-mobiles.md)
+      + [파일 첨부](delivery/using/attaching-files.md)
+   + SMS 보내기 {#sending-messages-on-mobiles}
+      + [SMS 시작](delivery/using/sms-channel.md)
+      + SMS 채널 구성 {#sms-set-up}
+         + [독립형 인스턴스에서 SMS 구성](delivery/using/sms-set-up.md)
+         + [중간 소싱 인프라에 SMS 구성](delivery/using/sms-set-up-mid.md)
+         + [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)
+         + [추가 구성](delivery/using/sms-send.md)
+         + [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
+      + [SMS 만들기](delivery/using/sms-create.md)
+      + [Extended Generic SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
    + [LINE 메시지 보내기](delivery/using/line-channel.md)
    + 푸시 알림 보내기 {#sending-push-notifications}
       + [모바일 앱 채널 시작](delivery/using/about-mobile-app-channel.md)
@@ -209,9 +209,9 @@ ht-degree: 86%
       + [게재 상태](delivery/using/delivery-statuses.md)
       + [게재 실패 이해](delivery/using/understanding-delivery-failures.md)
       + [격리 관리 이해](delivery/using/understanding-quarantine-management.md)
-   + 메시지 추적 {#tracking-messages}
-      + [메시지 추적 정보](delivery/using/about-message-tracking.md)
-      + [추적되는 링크를 구성하는 방법](delivery/using/how-to-configure-tracked-links.md)
+      + 메시지 추적 {#tracking-messages}
+         + [메시지 추적 정보](delivery/using/about-message-tracking.md)
+         + [추적되는 링크를 구성하는 방법](delivery/using/how-to-configure-tracked-links.md)
       + 개인화된 링크 추적 {#tracking-personalized-links}
          + [개인화된 링크 추적 시작](delivery/using/tracking-personalized-links.md)
          + [추적 URL 감지](delivery/using/detecting-tracking-urls.md)
@@ -477,28 +477,28 @@ ht-degree: 86%
          + [게재 콘텐츠 로드](workflow/using/loading-delivery-content.md)
          + [크로스 채널 게재 워크플로](workflow/using/cross-channel-delivery-workflow.md)
          + [사용자 정의 날짜 필드를 통한 이메일 강화](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + 모니터링 {#monitoring}
-         + [목록으로 보고서 보내기](workflow/using/sending-a-report-to-a-list.md)
-         + [워크플로 관리](workflow/using/supervising-workflows.md)
-         + [운영자에게 개인화된 경고 보내기](workflow/using/sending-personalized-alerts-to-operators.md)
-      + 데이터 관리 {#data-management}
-         + [데이터 업데이트 조정](workflow/using/coordinating-data-updates.md)
-         + [요약 목록 만들기](workflow/using/creating-a-summary-list.md)
-         + [데이터 강화](workflow/using/enriching-data.md)
-         + [집계 사용](workflow/using/using-aggregates.md)
-         + [중복 제거 활동의 병합 기능 사용](workflow/using/deduplication-merge.md)
-         + [가져오기 반복 워크플로 설정](workflow/using/recurring-import-workflow.md)
-      + 쿼리 디자인 {#designing-queries}
-         + [증분 쿼리를 사용한 분기별 목록 업데이트](workflow/using/quarterly-list-update.md)
-      + 쿼리 및 필터 {#designing-queries}
-         + [수신자 테이블 쿼리](workflow/using/querying-recipient-table.md)
-         + [쿼리 게재 정보](workflow/using/querying-delivery-information.md)
-         + [집계 컴퓨팅 수행](workflow/using/performing-aggregate-computing.md)
-         + [그룹 관리를 사용한 쿼리](workflow/using/querying-using-grouping-management.md)
-         + [다대다 관계를 사용한 쿼리](workflow/using/querying-using-many-to-many-relationship.md)
-         + [열거형 계산 필드 추가](workflow/using/adding-enumeration-type-calculated-field.md)
-         + [필터 만들기](workflow/using/creating-a-filter.md)
-         + [중복 수신자 필터링](workflow/using/filtering-duplicated-recipients.md)
+   + 모니터링 {#monitoring}
+      + [목록으로 보고서 보내기](workflow/using/sending-a-report-to-a-list.md)
+      + [워크플로 관리](workflow/using/supervising-workflows.md)
+      + [운영자에게 개인화된 경고 보내기](workflow/using/sending-personalized-alerts-to-operators.md)
+   + 데이터 관리 {#data-management}
+      + [데이터 업데이트 조정](workflow/using/coordinating-data-updates.md)
+      + [요약 목록 만들기](workflow/using/creating-a-summary-list.md)
+      + [데이터 강화](workflow/using/enriching-data.md)
+      + [집계 사용](workflow/using/using-aggregates.md)
+      + [중복 제거 활동의 병합 기능 사용](workflow/using/deduplication-merge.md)
+      + [가져오기 반복 워크플로 설정](workflow/using/recurring-import-workflow.md)
+   + 쿼리 디자인 {#designing-queries}
+      + [증분 쿼리를 사용한 분기별 목록 업데이트](workflow/using/quarterly-list-update.md)
+   + 쿼리 및 필터 {#designing-queries}
+      + [수신자 테이블 쿼리](workflow/using/querying-recipient-table.md)
+      + [쿼리 게재 정보](workflow/using/querying-delivery-information.md)
+      + [집계 컴퓨팅 수행](workflow/using/performing-aggregate-computing.md)
+      + [그룹 관리를 사용한 쿼리](workflow/using/querying-using-grouping-management.md)
+      + [다대다 관계를 사용한 쿼리](workflow/using/querying-using-many-to-many-relationship.md)
+      + [열거형 계산 필드 추가](workflow/using/adding-enumeration-type-calculated-field.md)
+      + [필터 만들기](workflow/using/creating-a-filter.md)
+      + [중복 수신자 필터링](workflow/using/filtering-duplicated-recipients.md)
    + 워크플로 모니터링 {#monitoring-workflows}
       + [워크플로 실행 모니터링](workflow/using/monitoring-workflow-execution.md)
       + [기술 워크플로 모니터링](workflow/using/monitoring-technical-workflows.md)
@@ -625,12 +625,12 @@ ht-degree: 86%
          + [웹 서버에 통합](installation/using/integration-into-a-web-server-for-linux.md)
       + [표준 시간대 관리](installation/using/time-zone-management.md)
       + [중간 소싱 서버 설치](installation/using/mid-sourcing-server.md)
-   + 캠페인 배포(온-프레미스) {#initial-configuration}
-      + [주요 단계](installation/using/about-initial-configuration.md)
-      + [인스턴스 만들기 및 로그온](installation/using/creating-an-instance-and-logging-on.md)
-      + [데이터베이스 만들기 및 구성](installation/using/creating-and-configuring-the-database.md)
-      + [인스턴스 배포](installation/using/deploying-an-instance.md)
-      + [기본 제공 패키지 설치](installation/using/installing-campaign-standard-packages.md)
+      + 캠페인 배포(온-프레미스) {#initial-configuration}
+         + [주요 단계](installation/using/about-initial-configuration.md)
+         + [인스턴스 만들기 및 로그온](installation/using/creating-an-instance-and-logging-on.md)
+         + [데이터베이스 만들기 및 구성](installation/using/creating-and-configuring-the-database.md)
+         + [인스턴스 배포](installation/using/deploying-an-instance.md)
+         + [기본 제공 패키지 설치](installation/using/installing-campaign-standard-packages.md)
    + Campaign 구성 {#additional-configurations}
       + [Campaign 서버 구성](installation/using/configuring-campaign-server.md)
       + [보안 영역 정의](installation/using/security-zones.md)
@@ -670,10 +670,10 @@ ht-degree: 86%
             + [Sybase IQ 구성](installation/using/configure-fda-sybase.md)
             + [Teradata 구성](installation/using/configure-fda-teradata.md)
             + [Vertica Analytics 구성](installation/using/configure-fda-vertica.md)
-         + [원격 액세스 권한](installation/using/remote-database-access-rights.md)
-         + [데이터베이스에 연결](installation/using/connecting-to-database.md)
-         + [데이터 스키마 만들기](installation/using/creating-data-schema.md)
-         + [데이터 매핑 정의](installation/using/defining-data-mapping.md)
+      + [원격 액세스 권한](installation/using/remote-database-access-rights.md)
+      + [데이터베이스에 연결](installation/using/connecting-to-database.md)
+      + [데이터 스키마 만들기](installation/using/creating-data-schema.md)
+      + [데이터 매핑 정의](installation/using/defining-data-mapping.md)
    + 부록 {#appendices}
       + [서버 구성 파일](installation/using/the-server-configuration-file.md)
       + [Campaign 네트워크 엔드포인트](installation/using/campaign-network-endpoints.md)
