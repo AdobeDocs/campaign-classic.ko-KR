@@ -7,10 +7,10 @@ feature: Application Settings, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: 6e83067cef2b08b5bee37610bfef515714756ada
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 1%
+source-wordcount: '517'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Explorer 탐색 트리의 각 폴더에는 읽기, 쓰기 및 삭제 액세스 �
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 및 모범 사례를 이 섹션[&#128279;](adobe-campaign-workspace.md)에서 알아봅니다.
+Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 및 모범 사례를 이 섹션](adobe-campaign-workspace.md)에서 [알아봅니다.
 
 ### 보기란 무엇입니까? {#about-views}
 
@@ -55,16 +55,21 @@ Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 �
 
 ### 폴더 추가 및 보기 만들기 {#adding-folders-and-creating-views}
 
+>[!IMPORTANT]
+>
+>기본 제공 폴더는 보기로 표시해서는 안 됩니다.
+
+
 아래 예에서는 특정 데이터를 표시하는 새 폴더를 만들겠습니다.
 
 1. 새 **[!UICONTROL Deliveries]** 유형 폴더를 만들고 이름을 **Deliveries France**&#x200B;로 지정합니다.
 1. 이 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Properties...]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/s_ncs_user_add_folder_exple.png)
+   ![속성을 마우스 오른쪽 단추로 클릭하는 스크린샷](assets/s_ncs_user_add_folder_exple.png)
 
 1. **[!UICONTROL Restriction]** 탭에서 **[!UICONTROL This folder is a view]**&#x200B;을(를) 선택합니다. 그러면 데이터베이스의 모든 게재가 표시됩니다.
 
-   ![](assets/s_ncs_user_add_folder_exple01.png)
+   ![확인 중인 보기 상자를 표시하는 화면](assets/s_ncs_user_add_folder_exple01.png)
 
 1. 창의 중간 섹션에 있는 쿼리 편집기에서 게재 필터 기준을 정의합니다. 그러면 정의된 필터에 해당하는 캠페인이 표시됩니다.
 
@@ -74,7 +79,7 @@ Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 �
 
    다음 필터 조건 사용:
 
-![](assets/s_ncs_user_add_folder_exple00.png)
+![다른 필터 조건을 보여 주는 스크린샷](assets/s_ncs_user_add_folder_exple00.png)
 
 보기에 다음 게재가 표시됩니다.
 
@@ -84,46 +89,48 @@ Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 �
 >
 >[트랜잭션 메시지](../../message-center/using/about-transactional-messaging.md) 이벤트를 관리할 때 액세스 권한 문제로 이어질 수 있으므로 **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 폴더를 실행 인스턴스의 보기로 설정하지 않아야 합니다. 이벤트 컬렉션에 대한 자세한 내용은 [이 섹션](../../message-center/using/about-event-processing.md#event-collection)을 참조하세요.
 
-## 폴더에 대한 권한
+<!--
+## Permissions on a folder
 
-### 폴더에 대한 권한 편집 {#edit-permissions-on-a-folder}
+### Edit permissions on a folder {#edit-permissions-on-a-folder}
 
-트리의 특정 폴더에 대한 권한을 편집하려면 아래 단계를 따르십시오.
+To edit permissions on a specific folder of the tree, follow the steps below:
 
-1. 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Properties...]**&#x200B;을(를) 선택합니다.
+1. Right-click on the folder and select **[!UICONTROL Properties...]**.
 
    ![](assets/s_ncs_user_folder_properties.png)
 
-1. 이 폴더에 대한 권한을 보려면 **[!UICONTROL Security]** 탭을 클릭하십시오.
+1. Click the **[!UICONTROL Security]** tab to view authorizations on this folder.
 
    ![](assets/s_ncs_user_folder_properties_security.png)
 
-### 권한 수정 {#modify-permissions}
+### Modify permissions {#modify-permissions}
 
-권한을 수정하려면 다음을 수행합니다.
+To modify permissions, you can:
 
-* **그룹 또는 연산자 바꾸기**. 이렇게 하려면 폴더에 대한 권한이 있는 그룹(또는 연산자) 중 하나를 클릭하고 드롭다운 목록에서 새 그룹(또는 새 연산자)을 선택합니다.
+* **Replace a group or an operator**. To do this, click one of the groups (or operators) with rights to the folder, and select a new group (or a new operator) from the drop-down list:
 
   ![](assets/s_ncs_user_folder_properties_security02.png)
 
-* **그룹 또는 연산자 승인**. 이렇게 하려면 **[!UICONTROL Add]** 단추를 클릭하고 이 폴더에 권한을 할당할 그룹 또는 연산자를 선택하십시오.
-* **그룹 또는 연산자 입찰 금지**. 이렇게 하려면 **[!UICONTROL Delete]**&#x200B;을(를) 클릭하고 이 폴더에 대한 권한 부여를 제거할 그룹 또는 연산자를 선택하십시오.
-* **그룹 또는 연산자에 할당된 권한을 선택하십시오**. 이렇게 하려면 관련 그룹 또는 연산자를 클릭한 다음 부여할 액세스 권한을 선택하고 나머지 권한은 선택 해제합니다.
+* **Authorize a group or an operator**. To do this, click the **[!UICONTROL Add]** button and select the group or operator to which you want to assign authorizations for this folder.
+* **Forbid a group or an operator**. To do this, click **[!UICONTROL Delete]** and select the group or operator from which you want to remove authorization for this folder.
+* **Select the rights assigned to a group or an operator**. To do this, click the group or operator concerned, then select the access rights you want to grant and deselect the others.
 
   ![](assets/s_ncs_user_folder_properties_security03.png)
 
-### 권한 전파 {#propagate-permissions}
+### Propagate permissions {#propagate-permissions}
 
-권한 부여 및 액세스 권한을 전파할 수 있습니다. 이렇게 하려면 폴더 속성에서 **[!UICONTROL Propagate]** 옵션을 선택합니다.
+You can propagate authorizations and access rights. To do this, select the **[!UICONTROL Propagate]** option in the folder properties.
 
-이 창에서 정의된 권한이 현재 노드의 모든 하위 폴더에 적용됩니다. 그런 다음 각 하위 폴더에 대해 이러한 권한을 오버로드할 수 있습니다.
+The authorizations defined in this window will then be applied to all the sub-folders of the current node. You can then overload these authorizations for each of the sub-folders.
 
 >[!NOTE]
 >
->폴더에 대해 이 옵션을 지우면 하위 폴더에 대해 자동으로 지워지지 않습니다. 각 하위 폴더에 대해 명시적으로 지워야 합니다.
+>Clearing this option for a folder does not automatically clear it for the sub-folders. You must clear it explicitly for each of the sub-folders.
 
-### 모든 운영자에게 액세스 권한 부여 {#grant-access-to-all-operators}
+### Grant access to all operators {#grant-access-to-all-operators}
 
-**[!UICONTROL Security]** 탭에서 **[!UICONTROL System folder]** 옵션을 선택하면 모든 연산자가 권한에 관계없이 이 데이터에 액세스할 수 있습니다. 이 옵션을 선택하지 않은 경우 운영자(또는 해당 그룹)가 액세스할 수 있도록 승인 목록에 명시적으로 추가해야 합니다.
+In the **[!UICONTROL Security]** tab, if the **[!UICONTROL System folder]** option is selected, all operators will have access to this data, regardless of their rights. If this option is cleared, you must explicitly add the operator (or their group) to the list of authorizations in order for them to have access.
 
 ![](assets/s_ncs_user_folder_properties_security03b.png)
+-->
