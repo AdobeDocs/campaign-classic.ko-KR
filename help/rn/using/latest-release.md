@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: cdbcfc5aa0614e41ce76cb777fec58fbd01797d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 
 [!BADGE 제한 공개]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
-_2025년 5월 12일 화요일_
+_2025년 5월 12일_
 
 이 빌드에는 다음 수정 사항이 포함되어 있습니다.
 
