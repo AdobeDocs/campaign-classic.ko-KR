@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 1e88021c9209bd23c3c949380f553473e890a9ce
+source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2569'
 ht-degree: 99%
 
 ---
@@ -125,9 +125,8 @@ ht-degree: 99%
       + [적합한 대상자 정의](delivery/using/define-the-right-audience.md)
       + [보내기 전 확인](delivery/using/check-before-sending.md)
       + [추적 및 모니터링](delivery/using/track-and-monitor.md)
+   + [이메일 보내기](delivery/using/about-email-channel.md)
    + 이메일 보내기 {#sending-emails}
-      + [이메일 시작](delivery/using/about-email-channel.md)
-      + [향상된 MTA로 보내기](delivery/using/sending-with-enhanced-mta.md)
       + [이메일 게재 만들기](delivery/using/creating-an-email-delivery.md)
       + [이메일 콘텐츠 정의](delivery/using/defining-the-email-content.md)
       + [대화형 콘텐츠 정의](delivery/using/defining-interactive-content.md)
@@ -827,6 +826,7 @@ ht-degree: 99%
    + [롤백 절차](migration/using/about-rollback.md)
 + 기술 노트 {#technotes}
    + [하드웨어 크기 조정 권장 사항](technotes/using/hardware-sizing.md)
+   + [향상된 MTA로 보내기](delivery/using/sending-with-enhanced-mta.md)
    + [중간 소싱 인프라에 대한 인바운드 SMS 워크플로 활동](technotes/using/inbound-sms-wf.md)
    + IMS로 업그레이드{#ims}
       + [Adobe IMS로 전환](technotes/using/ac-ims.md)

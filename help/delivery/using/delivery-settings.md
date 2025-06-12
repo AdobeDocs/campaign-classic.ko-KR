@@ -4,7 +4,10 @@ title: 게재 설정 기본 정보
 description: 특정 v7 게재 설정 살펴보기
 feature: Channel Configuration
 role: User
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+hide: true
+hidefromtoc: true
+exl-id: 66250817-f829-4b8b-92dd-2daa92a97fe0
+source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 12%
@@ -13,7 +16,7 @@ ht-degree: 12%
 
 # 게재 설정 {#about-delivery-settings}
 
-다음 설정은 Campaign Classic에만 적용됩니다. 다른 게재 설정은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ko){target="_blank"}를 참조하세요.
+다음 설정은 Campaign Classic에만 적용됩니다. 다른 게재 설정은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target="_blank"}를 참조하세요.
 
 ## 게재 분석 {#delivery-analysis}
 
