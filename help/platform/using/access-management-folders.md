@@ -35,7 +35,7 @@ Explorer 탐색 트리의 각 폴더에는 읽기, 쓰기 및 삭제 액세스 �
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 및 모범 사례를 이 섹션](adobe-campaign-workspace.md)에서 [알아봅니다.
+Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 및 모범 사례를 이 섹션[&#128279;](adobe-campaign-workspace.md)에서 알아봅니다.
 
 ### 보기란 무엇입니까? {#about-views}
 
