@@ -5,10 +5,10 @@ description: Campaign 기능에 대한 액세스 권한을 부여하는 방법 �
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: b27b85b126e002c0ea8b5d71da1ed60e1e817980
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 6%
+source-wordcount: '202'
+ht-degree: 9%
 
 ---
 
@@ -30,22 +30,37 @@ Adobe Campaign을 사용하면 다양한 연산자에 할당된 권한을 정의
 * 특정 레코드에 대한 액세스,
 * 레코드(작업, 연락처, 캠페인, 그룹 등)의 생성, 수정 및/또는 삭제.
 
-권한은 운영자 프로필 또는 운영자 그룹에 적용됩니다.
+>[!BEGINTABS]
 
-운영자의 Adobe Campaign 연결 모드에 연결된 안전 매개 변수에 의해 완료됩니다. [이 페이지](../../installation/using/security-zones.md)의 보안 영역에 대한 자세한 정보.
+>[!TAB 사용 권한 설명서]
 
-사용자에게 부여할 수 있는 권한은 두 가지 유형이 있습니다.
+Adobe Campaign의 권한에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}를 참조하세요.
 
-* 권한을 지정할 연산자 그룹을 정의한 다음 연산자를 하나 이상의 그룹과 연결할 수 있습니다. 이렇게 하면 권한을 재사용하고 운영자 프로필을 보다 일관되게 만들 수 있습니다. 또한 프로필 관리 및 유지 관리를 용이하게 합니다. 그룹 생성 및 관리가 [이 섹션](access-management-groups.md)에 표시됩니다.
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}
 
-* 명명된 권한을 사용자에게 직접 지정할 수 있으며, 경우에 따라 그룹을 통해 할당된 권한을 오버로드할 수 있습니다. 이러한 권한은 [이 페이지](access-management-named-rights.md)에 표시됩니다.
+>[!TAB 폴더 액세스 관리]
+
+폴더 액세스 및 관리 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions?lang=en#_blank){target=_blank}를 참조하세요.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)]([![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}){target=_blank}
+
+>[!ENDTABS]
+
+<!--
+The permissions apply to operator profiles or operator groups.
+
+They are completed by safety parameters linked to the operator's connection mode to Adobe Campaign. For more about security zones in [this page](../../installation/using/security-zones.md).
+
+There are two types of permissions you can grant to a user:
+
+* You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. Group creation and management are presented in [this section](access-management-groups.md).
+
+* You can attribute named rights directly to users, in some cases to overload the rights allocated via groups. These rights are presented in [this page](access-management-named-rights.md).
 
 >[!NOTE]
 >
-> * Adobe 사용 권한 정의를 시작하기 전에 [보안 구성 검사 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html)을 읽는 것이 좋습니다.
-> * 권한에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}의 자세한 설명을 참조하십시오.
-
-<!--
+> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
+> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
 
 Learn how to grant access and set up permissions in these sections:
 

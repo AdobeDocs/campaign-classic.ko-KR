@@ -7,7 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+hide: true
+hidefromtoc: true
+source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 3%
@@ -26,7 +28,7 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 
 >[!NOTE]
 >
-> Adobe Campaign을 설치하고 로그온하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect){target=_blank}의 자세한 연습을 참조하십시오.
+> Adobe Campaign을 설치하고 로그온하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}의 자세한 연습을 참조하십시오.
 
 <!--
 ## Start Adobe Campaign {#starting-adobe-campaign}
@@ -111,6 +113,6 @@ Whenever you reach out to Adobe Customer Care team, you need to provide the vers
 
 * [Adobe Campaign Help and Support options](../../support.md)
 * [Adobe Campaign Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
-* [Adobe Experience Cloud Support and Expert sessions](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* [Adobe Experience Cloud Support and Expert sessions](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 -->

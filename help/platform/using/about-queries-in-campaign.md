@@ -7,10 +7,10 @@ feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 57%
+source-wordcount: '222'
+ht-degree: 53%
 
 ---
 
@@ -26,8 +26,22 @@ Adobe Campaign 쿼리 도구를 사용하면 전용 도우미(일반 쿼리 편�
 
 쿼리는 선택한 테이블의 필드를 사용하거나 공식을 사용하여 만들어집니다.
 
->[!NOTE]
->
->쿼리 및 쿼리 만들기 방법에 대한 자세한 내용은 [Campaign v8 설명서](../../workflow/using/query.md)를 참조하세요.
+>[!BEGINTABS]
+
+>[!TAB 쿼리 설명서]
+
+쿼리에 대한 자세한 내용은 [Campaign v8 설명서를 참조하세요.](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+
+
+>[!TAB 쿼리 만들기]
+
+[Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}에서 쿼리 만들기와 관련된 주요 단계를 알아봅니다.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
+
+>[!ENDTABS]
 
 ![쿼리의 예제를 보여 주는 스크린샷입니다.](assets/query_recipients_4.png)
