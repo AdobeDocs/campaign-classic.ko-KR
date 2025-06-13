@@ -30,17 +30,17 @@ Adobe Campaign 쿼리 도구를 사용하면 전용 도우미(일반 쿼리 편�
 
 >[!TAB 쿼리 설명서]
 
-쿼리에 대한 자세한 내용은 [Campaign v8 설명서를 참조하세요.](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+쿼리에 대한 자세한 내용은 [Campaign v8 설명서를 참조하세요.](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
 
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
 
 
 >[!TAB 쿼리 만들기]
 
-[Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}에서 쿼리 만들기와 관련된 주요 단계를 알아봅니다.
+[Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}에서 쿼리 만들기와 관련된 주요 단계를 알아봅니다.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 
 >[!ENDTABS]
 
