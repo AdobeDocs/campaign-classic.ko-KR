@@ -21,7 +21,7 @@ ht-degree: 5%
 
 ## 변경 사항
 
-Adobe IMS(Identity Management Service)가 **2021년 6월 30일**&#x200B;에 이전 Internet Explorer 버전 지원을 중지했습니다. [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
+Adobe IMS(Identity Management Service)가 **2021년 6월 30일**&#x200B;에 이전 Internet Explorer 버전 지원을 중지했습니다. [자세히 알아보기](https://helpx.adobe.com/kr/x-productkb/global/update-operating-system-and-browser.html).
 
 Adobe은 2021년 6월 30일 이전의 모든 고객을 위해 IMS 기능을 유지하려고 합니다. IMS는 사용자가 클라이언트 콘솔에 로그인할 수 있도록 하는 보안 프레임워크의 일부입니다. 따라서 Adobe Campaign입니다.
 
@@ -78,7 +78,7 @@ Adobe ID을 통해 [IMS(Adobe Identity Management Service)를 통해 ](../../int
 
 ![](../../integrations/using/assets/do-not-localize/errorMsg.png)
 
-이러한 경고가 표시되면 사용 중인 운영 체제의 최신 업데이트를 설치해야 합니다. [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
+이러한 경고가 표시되면 사용 중인 운영 체제의 최신 업데이트를 설치해야 합니다. [자세히 알아보기](https://helpx.adobe.com/kr/x-productkb/global/update-operating-system-and-browser.html)
 
 Internet Explorer 버전을 업데이트하지 않으면 다음 메시지가 표시되어 더 이상 Adobe Campaign에 연결할 수 없습니다.
 
