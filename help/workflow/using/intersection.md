@@ -6,10 +6,10 @@ feature: Workflows, Targeting Activity
 hide: true
 hidefromtoc: true
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 3ffa32fbaa588904b79a1343c39f5b5b5f2b134f
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 13%
+source-wordcount: '432'
+ht-degree: 12%
 
 ---
 
@@ -19,10 +19,6 @@ ht-degree: 13%
 >id="ac_workflow_intersection"
 >title="교차 활동"
 >abstract="교차 유형 활동은 수신된 대상의 교차점에서 대상을 만듭니다. 교차를 통해 모든 인바운드 활동 결과에 공통인 모집단만 추출할 수 있습니다."
->additional-url="https://video.tv.adobe.com/v/341375?captions=kor" text="데모 비디오 시청"
-
-
-
 
 **교차** 유형 활동은 수신된 대상의 교차에서 대상을 만듭니다.
 
