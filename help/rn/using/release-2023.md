@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
 source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2336'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ _2023년 9월 7일_
 * BigQuery 외부 계정이 GCloud SDK를 설정하는 데 사용되는 새로운 옵션으로 향상되었습니다. (NEO-63879) [자세히 보기](../../installation/using/configure-fda-google-big-query.md#google-external)
 * 새 `cusHeader` 섹션이 서버 구성 파일(serverConf.xml)에 추가되었습니다. 외부 서버에서 파일을 업로드할 때 사용자 정의 헤더를 추가할 수 있습니다. (NEO-58339) [자세히 보기](../../installation/using/the-server-configuration-file.md#cusheaders).
 * lastMsgId에 대한 부정적인 ID를 방지하기 위해 추적 로그 관리가 개선되었습니다. int32에서 int64로 변경되었습니다. (NEO-52290)
-* 중간 소싱(게재 통계) 워크플로가 즉시 추가되었습니다. 이 새 워크플로는 게재 통계 데이터(nms:deliveryStat)를 mid에서 마케팅 인스턴스로 동기화합니다. (NEO-36802)
+* 중간 소싱(게재 통계) 워크플로가 즉시 추가되었습니다. 이 새 워크플로는 게재 통계 데이터(nms:deliveryStat)를 중간에서 마케팅 인스턴스로 동기화합니다. (NEO-36802)
 
 ### 패치 {#release-7-3-4-patches}
 
