@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
-workflow-type: ht
-source-wordcount: '2569'
+source-git-commit: faed7f54dc72937b24ee1ece80d17150a513fa39
+workflow-type: tm+mt
+source-wordcount: '2565'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,7 @@ ht-degree: 100%
          + [Campaign UI 시작](platform/using/adobe-campaign-workspace.md)
          + [Campaign 탐색기 사용](platform/using/adobe-campaign-explorer.md)
          + [목록 찾아보기 및 사용자 지정](platform/using/adobe-campaign-ui-lists.md)
+         + [열거형](platform/using/managing-enumerations.md)
       + [Campaign 커넥터](platform/using/about-connectors.md)
       + 자주 묻는 질문 {#faq}
          + [주요 질문](platform/using/common-questions.md)
@@ -99,9 +100,6 @@ ht-degree: 100%
       + [그룹 만들기 및 관리](platform/using/access-management-groups.md)
       + [명명된 권한을 사용하여 사용 권한 설정](platform/using/access-management-named-rights.md)
       + [폴더 액세스 관리](platform/using/access-management-folders.md)
-   + 데이터 패키지 및 열거형 {#administration-basics}
-      + [데이터 패키지](platform/using/working-with-data-packages.md)
-      + [열거형](platform/using/managing-enumerations.md)
    + CRM 커넥터 {#connectors}
       + [CRM 커넥터 시작](platform/using/crm-connectors.md)
       + [Microsoft Dynamics 365와 연결](platform/using/crm-ms-dynamics.md)
@@ -738,6 +736,7 @@ ht-degree: 100%
          + [JSP 동작](production/using/jsp-behavior.md)
          + [Tomcat 버전 찾기](production/using/locate-tomcat-version.md)
 + 개발자 안내서 {#configuring-campaign-classic}
+   + [데이터 패키지](platform/using/working-with-data-packages.md)
    + 데이터 모델 {#data-model}
       + [데이터 모델 정보](configuration/using/about-data-model.md)
       + [데이터 모델 설명](configuration/using/data-model-description.md)
