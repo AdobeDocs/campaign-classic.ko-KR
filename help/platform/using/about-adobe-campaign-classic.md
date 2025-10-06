@@ -100,6 +100,7 @@ The following capabilities are available. Depending on your license agreement, s
 * [Reporting](../../reporting/using/about-adobe-campaign-reporting-tools.md) - access built-in reports, analyze data and design your own reports.
 
 -->
+
 ## 튜토리얼 비디오 {#video}
 
 이 비디오에서는 Campaign Classic의 주요 기능 및 성능을 소개합니다.
