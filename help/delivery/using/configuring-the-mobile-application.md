@@ -5,8 +5,10 @@ description: iOS용 모바일 애플리케이션을 설정하는 방법 알아�
 feature: Push
 role: User, Developer
 level: Intermediate, Experienced
+hide: true
+hidefromtoc: true
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 3%
@@ -32,12 +34,12 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 이 커넥터를 구성하려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL Administration > Platform > External accounts]**(으)로 이동합니다.
-1. **[!UICONTROL iOS routing]** 외부 계정 선택
+1. **[!UICONTROL iOS routing]** 외부 계정을 선택하십시오.
 1. **[!UICONTROL Connector]** 탭에서 **[!UICONTROL Access URL of the connector]** 필드를 다음 URL로 채웁니다. ```http://localhost:8080/nms/jsp/iosHTTP2.jsp```
 
    ![](assets/nmac_connectors.png)
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 이제 iOS 커넥터가 구성되었습니다. 서비스 만들기를 시작할 수 있습니다.
 
@@ -80,12 +82,12 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 
    ![](assets/nmac_ios_2.png)
 
-1. 필요한 경우 **[!UICONTROL Application variables]**&#x200B;을(를) 사용하여 푸시 메시지 콘텐츠를 보강할 수 있습니다. 이는 완전히 맞춤화가 가능하며 모바일 디바이스로 전송되는 메시지 페이로드의 일부입니다.
+1. 필요한 경우 **[!UICONTROL Application variables]**을(를) 사용하여 푸시 메시지 콘텐츠를 보강할 수 있습니다. 이는 완전히 맞춤화가 가능하며 모바일 디바이스로 전송되는 메시지 페이로드의 일부입니다.
 다음 예제에서는 **mediaURl** 및 **mediaExt**&#x200B;을 추가하여 리치 푸시 알림을 만든 다음 응용 프로그램에 알림 내에 표시할 이미지를 제공합니다.
 
    ![](assets/nmac_ios_3.png)
 
-1. 이 **[!UICONTROL Subscription parameters]** 탭 사용하면 스키마 확장을 사용하여 매핑을 정의할 수 있습니다 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** .
+1. **[!UICONTROL Subscription parameters]** 탭에서 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 스키마의 확장으로 매핑을 정의할 수 있습니다.
 
    >[!NOTE]
    >
@@ -122,6 +124,6 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 프로덕션 응용 프로그램 구성을 시작하고 위에 설명된 것과 동일한 단계를 수행합니다.
 
 
-1. **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
 이제 iOS 애플리케이션을 Campaign Classic에서 사용할 준비가 되었습니다.

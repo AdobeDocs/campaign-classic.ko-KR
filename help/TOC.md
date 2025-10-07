@@ -6,10 +6,10 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: faed7f54dc72937b24ee1ece80d17150a513fa39
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
-source-wordcount: '2565'
-ht-degree: 100%
+source-wordcount: '2561'
+ht-degree: 99%
 
 ---
 
@@ -144,8 +144,8 @@ ht-degree: 100%
       + [SMS 만들기](delivery/using/sms-create.md)
       + [Extended Generic SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
    + [LINE 메시지 보내기](delivery/using/line-channel.md)
+   + [푸시 알림 보내기](delivery/using/about-mobile-app-channel.md)
    + 푸시 알림 보내기 {#sending-push-notifications}
-      + [모바일 앱 채널 시작](delivery/using/about-mobile-app-channel.md)
       + [모바일 애플리케이션에 Campaign SDK 통합](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + 모바일 애플리케이션 구성{#configure-the-mobile-app}
          + [앱 구성 시작](delivery/using/get-started-app-config.md)
@@ -155,9 +155,9 @@ ht-degree: 100%
          + [iOS용 푸시 메시지 만들기](delivery/using/create-notifications-ios.md)
          + [Android용 푸시 메시지 만들기](delivery/using/create-notifications-android.md)
       + [문제 해결](delivery/using/troubleshooting.md)
+   + [DM 보내기](delivery/using/about-direct-mail-channel.md)
    + 다이렉트 메일 보내기 {#sending-direct-mail}
-      + [DM 채널 정보](delivery/using/about-direct-mail-channel.md)
-      + [DM 게재 만들기](delivery/using/creating-a-direct-mail-delivery.md)
+      + [다이렉트 메일(DM) 게재 만들기](delivery/using/creating-a-direct-mail-delivery.md)
       + [DM 콘텐츠 정의](delivery/using/defining-the-direct-mail-content.md)
       + [유효성 검사](delivery/using/validating.md)
    + 게재 템플릿 사용 {#using-delivery-templates}

@@ -4,8 +4,10 @@ title: 게재 템플릿 작업
 description: 게재 템플릿 시작
 feature: Delivery Templates
 role: User
+hide: true
+hidefromtoc: true
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
-source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 4%
@@ -25,4 +27,4 @@ ht-degree: 4%
 1. 사전 정의된 게재 템플릿 - Adobe Campaign 관리자는 새 게재 템플릿을 만들 수 있습니다. 운영자(적절한 액세스 권한이 있는 사람)가 사용하거나 서버 프로세스에 의해 자동으로 재사용할 수 있습니다. 예를 들어 이메일 게재 템플릿을 구성할 수 있으며, 사용자가 이 템플릿을 사용하여 게재를 만들 때 텍스트 또는 HTML 콘텐츠를 입력한 다음 게재하면 됩니다. 다른 선택 사항은 관리자가 이미 정의했습니다.
 
 
-[Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/create-templates){target="_blank"}에서 게재 템플릿을 만들고 사용하는 방법을 알아봅니다.
+[Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates){target="_blank"}에서 게재 템플릿을 만들고 사용하는 방법을 알아봅니다.

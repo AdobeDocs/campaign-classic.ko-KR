@@ -5,11 +5,13 @@ description: Android용 모바일 애플리케이션을 설정하는 방법 알�
 feature: Push
 role: User, Developer
 level: Intermediate, Experienced
+hide: true
+hidefromtoc: true
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 10%
+source-wordcount: '843'
+ht-degree: 9%
 
 ---
 
@@ -48,7 +50,7 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
    >[!NOTE]
    >
-   > https://localhost:8080/nms/jsp/androidPushConnector.js에 따라 구성할 수도 있지만 커넥터 버전 2를 사용하는 것이 좋습니다.
+   > https://localhost:8080/nms/jsp/androidPushConnector.js과 같이 구성할 수도 있지만, 커넥터 버전 2를 사용하는 것이 좋습니다.
 
    ![](assets/nmac_connectors3.png)
 
@@ -58,7 +60,7 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
 ## Android 서비스 구성 {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 서비스를 구성하는 방법에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ko#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
+![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 서비스를 구성하는 방법에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
 
 1. **[!UICONTROL Profiles and Targets > Services and subscriptions]** 노드로 이동하여 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
@@ -103,7 +105,7 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
 1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 이제 Android 애플리케이션을 Campaign Classic에서 사용할 준비가 되었습니다.
 
-기본적으로 Adobe Campaign은 **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** 테이블의 **[!UICONTROL User identifier]**(@userKey) 필드에 키를 저장합니다. 이 키를 사용하면 구독을 수신자에게 연결할 수 있습니다. 추가 데이터(예: 복잡한 조정 키)를 수집하려면 다음 구성을 적용해야 합니다.
+기본적으로 Adobe Campaign은 **[!UICONTROL User identifier]**)**[!UICONTROL Subscriber applications (nms:appSubscriptionRcp테이블의]**(@userKey) 필드에 키를 저장합니다. 이 키를 사용하면 구독을 수신자에게 연결할 수 있습니다. 추가 데이터(예: 복잡한 조정 키)를 수집하려면 다음 구성을 적용해야 합니다.
 
 ### API 버전 구성{#select-api-version}
 
@@ -115,7 +117,7 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
 HTTP v1 API 버전을 구성하려면 아래 단계를 수행합니다.
 
-1. **[!UICONTROL Mobile application creation wizard]** 창의 **[!UICONTROL API version]** 드롭다운에서 **[!UICONTROL HTTPV1]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Mobile application creation wizard]** 창의 **[!UICONTROL HTTPV1]** 드롭다운에서 **[!UICONTROL API version]**&#x200B;을(를) 선택합니다.
 
 1. JSON 키 파일을 직접 로드하려면 **[!UICONTROL Load project json file to extract project details...]**&#x200B;을(를) 클릭하십시오. JSON 파일을 추출하는 방법에 대한 자세한 내용은 [이 페이지](https://firebase.google.com/docs/admin/setup#initialize-sdk)를 참조하세요.
 
@@ -147,7 +149,7 @@ HTTP v1 API 버전을 구성하려면 아래 단계를 수행합니다.
 
 ## appsubscriptionRcp 스키마 확장 {#extend-subscription-schema}
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 appsubscriptionRcp 스키마를 확장하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html?lang=ko#extending-the-app-subscription-schema-to-personalize-push-notifications)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 appsubscriptionRcp 스키마를 확장하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html#extending-the-app-subscription-schema-to-personalize-push-notifications)
 
 앱의 매개 변수를 Campaign 데이터베이스에 저장하려면 **appsubscriptionRcp**&#x200B;을(를) 확장하여 새 추가 필드를 정의해야 합니다. 이러한 필드는 예를 들어 개인화에 사용됩니다. 방법은 다음과 같습니다.
 

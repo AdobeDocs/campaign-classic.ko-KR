@@ -4,8 +4,10 @@ title: iOS 장치에 대한 푸시 알림 만들기
 description: iOS용 푸시 알림을 만드는 방법 알아보기
 feature: Push
 role: User, Developer, Data Engineer
+hide: true
+hidefromtoc: true
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 8%
@@ -42,7 +44,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 따르십시
 
    ![](assets/nmac_delivery_ios_3.png)
 
-1. **[!UICONTROL General notification (Alert, Sound, Badge)]**&#x200B;과(와) **[!UICONTROL Silent notification]** 중 **[!UICONTROL Notification type]**&#x200B;을(를) 선택하세요.
+1. **[!UICONTROL Notification type]**&#x200B;과(와) **[!UICONTROL General notification (Alert, Sound, Badge)]** 중 **[!UICONTROL Silent notification]**&#x200B;을(를) 선택하세요.
 
    ![](assets/nmac_delivery_ios_4.png)
 
@@ -140,11 +142,11 @@ iOS 10 이상을 사용하면 풍부한 알림을 생성할 수 있습니다. Ad
 
 1. **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**(으)로 이동합니다.
 
-1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/nmac_android_3.png)
 
-1. **[!UICONTROL Delivery template]** 드롭다운에서 **[!UICONTROL Deliver on iOS (ios)]** 선택. 게재에 **[!UICONTROL Label]** 추가
+1. **[!UICONTROL Deliver on iOS (ios)]** 드롭다운에서 **[!UICONTROL Delivery template]** 선택. 게재에 **[!UICONTROL Label]** 추가
 
 1. 타깃팅할 모집단을 정의하려면 **[!UICONTROL To]**&#x200B;을(를) 클릭하십시오. 기본적으로 **[!UICONTROL Subscriber application]** 대상 매핑이 적용됩니다. 이전에 만든 서비스를 선택하려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭하십시오.
 

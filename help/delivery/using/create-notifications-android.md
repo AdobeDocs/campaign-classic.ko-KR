@@ -4,8 +4,10 @@ title: Android 장치에 대한 푸시 알림 만들기
 description: Android용 푸시 알림을 만드는 방법 알아보기
 feature: Push
 role: User, Developer, Data Engineer
+hide: true
+hidefromtoc: true
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -35,11 +37,11 @@ Firebase 클라우드 메시징 메시지 유형에 대한 자세한 내용은 [
 
 1. **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**(으)로 이동합니다.
 
-1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/nmac_android_3.png)
 
-1. **[!UICONTROL Delivery template]** 드롭다운에서 **[!UICONTROL Deliver on Android (android)]** 선택. 게재에 **[!UICONTROL Label]** 추가
+1. **[!UICONTROL Deliver on Android (android)]** 드롭다운에서 **[!UICONTROL Delivery template]** 선택. 게재에 **[!UICONTROL Label]** 추가
 
 1. 타깃팅할 모집단을 정의하려면 **[!UICONTROL To]**&#x200B;을(를) 클릭하십시오. 기본적으로 **[!UICONTROL Subscriber application]** 대상 매핑이 적용됩니다. 서비스를 선택하려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭하십시오.
 
@@ -47,7 +49,7 @@ Firebase 클라우드 메시징 메시지 유형에 대한 자세한 내용은 [
 
 1. **[!UICONTROL Target type]** 창에서 **[!UICONTROL Subscribers of an Android mobile application]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Service]** 드롭다운에서 이전에 만든 서비스를 선택한 다음 응용 프로그램을 선택하고 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Service]** 드롭다운에서 이전에 만든 서비스를 선택한 다음 응용 프로그램을 선택하고 **[!UICONTROL Finish]**을(를) 클릭합니다.
 구성 단계 중에 추가된 내용에 따라 **[!UICONTROL Application variables]**&#x200B;이(가) 자동으로 추가됩니다.
 
    ![](assets/nmac_android_6.png)
@@ -68,15 +70,15 @@ Firebase 클라우드 메시징 메시지 유형에 대한 자세한 내용은 [
 
 ## 알림 메시지 만들기 {#creating-notification-message}
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 푸시 알림을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=ko#additional-resources){target="_blank"}.
+![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 푸시 알림을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html#additional-resources){target="_blank"}.
 
 1. **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**(으)로 이동합니다.
 
-1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/nmac_android_3.png)
 
-1. **[!UICONTROL Delivery template]** 드롭다운에서 **[!UICONTROL Deliver on Android (android)]** 선택. 게재에 **[!UICONTROL Label]** 추가
+1. **[!UICONTROL Deliver on Android (android)]** 드롭다운에서 **[!UICONTROL Delivery template]** 선택. 게재에 **[!UICONTROL Label]** 추가
 
 1. 타깃팅할 모집단을 정의하려면 **[!UICONTROL To]**&#x200B;을(를) 클릭하십시오. 기본적으로 **[!UICONTROL Subscriber application]** 대상 매핑이 적용됩니다. 서비스를 선택하려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭하십시오.
 
