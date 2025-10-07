@@ -5,8 +5,10 @@ description: 조건부 콘텐츠를 추가하는 방법 알아보기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Personalization, Multilingual Messages
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: a1e9fec0e9c85bf25b79e24a7432dfb45bd1a0cb
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 7%
@@ -80,7 +82,7 @@ ht-degree: 7%
 아래 예에서는 다국어 이메일을 만드는 방법을 배웁니다. 콘텐츠는 수신자의 선호 언어에 따라 하나의 언어 또는 다른 언어로 표시됩니다.
 
 1. 이메일을 만들고 대상 모집단을 선택합니다. 이 예제에서 한 버전 또는 다른 버전을 표시하는 조건은 받는 사람 프로필의 **Language** 값을 기반으로 합니다. 이 예제에서는 이러한 값이 **EN**, **FR**, **ES**(으)로 설정됩니다.
-1. 전자 메일 HTML 콘텐츠에서 **[!UICONTROL Source]** 탭을 클릭하고 다음 코드를 붙여넣습니다.
+1. 이메일 HTML 콘텐츠에서 **[!UICONTROL Source]** 탭을 클릭하고 다음 코드를 붙여넣습니다.
 
    ```
    <% if (language == "EN" ) { %>
@@ -111,6 +113,6 @@ ht-degree: 7%
 
 다중 언어 뉴스레터의 예에 따라 게재에 조건부 콘텐츠를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31880?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

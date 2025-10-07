@@ -5,11 +5,13 @@ description: 개인화 필드를 사용하는 방법 알아보기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Personalization
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: a1e9fec0e9c85bf25b79e24a7432dfb45bd1a0cb
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -29,7 +31,7 @@ ht-degree: 8%
 
 개인화 필드는 선택한 게재 모드에 따라 두 가지 유형의 데이터 소스에서 가져올 수 있습니다.
 
-* Adobe Campaign 데이터베이스가 데이터 소스입니다. 예를 들어 &#39;수신자 개인화 필드&#39;와 같은 가장 일반적인 경우입니다. 다음은 수신자 표에 정의된 모든 필드이며 표준 필드(일반적으로 성, 이름, 주소, 도시, 생년월일 등)가 이러한 필드입니다. 또는 사용자 정의 필드.
+* Adobe Campaign 데이터베이스가 데이터 소스입니다. 예를 들어 &#39;수신자 개인화 필드&#39;와 같은 가장 일반적인 경우입니다. 이러한 필드는 수신자 표에 정의된 모든 필드로, 표준 필드(예: 성, 이름, 주소, 도시, 생년월일 등)나 사용자 정의 필드입니다.
 * 외부 파일이 데이터 소스입니다. 외부 파일에 있는 데이터를 사용하여 게재 중에 입력으로 표시되는 파일의 열에 정의된 모든 필드입니다.
 
 >[!NOTE]
@@ -75,7 +77,7 @@ ht-degree: 8%
 
 ## 개인화 최적화 {#optimizing-personalization}
 
-게재 속성의 **[!UICONTROL Analysis]** 탭에서 사용할 수 있는 전용 옵션 **[!UICONTROL Prepare the personalization data with a workflow]**&#x200B;을(를) 사용하여 개인화를 최적화할 수 있습니다. 게재 분석에 대한 자세한 내용은 [이 섹션](steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하세요.
+게재 속성의 **[!UICONTROL Prepare the personalization data with a workflow]** 탭에서 사용할 수 있는 전용 옵션 **[!UICONTROL Analysis]**&#x200B;을(를) 사용하여 개인화를 최적화할 수 있습니다. 게재 분석에 대한 자세한 내용은 [이 섹션](steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하세요.
 
 게재 분석 중에 이 옵션은 FDA에 연결된 테이블의 데이터를 포함하여 대상에 연결된 모든 데이터를 임시 테이블에 저장하는 워크플로우를 자동으로 만들고 실행합니다.
 
@@ -88,7 +90,7 @@ ht-degree: 8%
 1. 캠페인을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
 1. 캠페인의 **[!UICONTROL Targeting and workflows]** 탭에서 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](../../workflow/using/query.md)을 참조하세요.
 1. 워크플로우에 **[!UICONTROL Email delivery]** 활동을 추가하고 엽니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](../../workflow/using/delivery.md)을 참조하세요.
-1. **[!UICONTROL Delivery properties]**&#x200B;의 **[!UICONTROL Analysis]** 탭으로 이동하여 **[!UICONTROL Prepare the personalization data with a workflow]** 옵션을 선택합니다.
+1. **[!UICONTROL Analysis]**&#x200B;의 **[!UICONTROL Delivery properties]** 탭으로 이동하여 **[!UICONTROL Prepare the personalization data with a workflow]** 옵션을 선택합니다.
 
    ![](assets/perso_optimization.png)
 
@@ -106,7 +108,7 @@ ht-degree: 8%
 
 게재 보호를 개선하기 위해 개인화 단계에 대한 시간 제한 기간을 설정할 수 있습니다.
 
-**[!UICONTROL Delivery properties]**&#x200B;의 **[!UICONTROL Delivery]** 탭에서 **[!UICONTROL Maximum personalization run time]** 옵션의 최대값(초)을 선택합니다.
+**[!UICONTROL Delivery]**&#x200B;의 **[!UICONTROL Delivery properties]** 탭에서 **[!UICONTROL Maximum personalization run time]** 옵션의 최대값(초)을 선택합니다.
 
 미리보기 또는 전송 중에 개인화 단계가 이 필드에서 설정한 최대 시간을 초과하는 경우 프로세스가 중단되고 오류 메시지가 표시되며 게재가 실패합니다.
 
@@ -140,6 +142,6 @@ ht-degree: 8%
 
 제목 줄과 이메일 전달 컨텐츠에 개인화 필드를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31879?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
-추가 Campaign Classic 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

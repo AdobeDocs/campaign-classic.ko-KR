@@ -5,11 +5,13 @@ description: 개인화 블록을 사용하는 방법 알아보기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Personalization
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: a1e9fec0e9c85bf25b79e24a7432dfb45bd1a0cb
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -114,8 +116,8 @@ HTML 소스 코드는 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
   >이 블록은 방문자를 타겟팅하는 게재에만 사용할 수 있습니다.
 
 * **[!UICONTROL Registration confirmation]** : 구독을 확인할 수 있는 링크를 삽입합니다.
-* **[!UICONTROL Social network sharing links]** : 수신자가 이메일 클라이언트, Facebook, X(이전의 Twitter) 및 LinkedIn과 미러 페이지 콘텐츠에 대한 링크를 공유할 수 있는 단추를 삽입합니다([바이럴 마케팅: 친구에게 전달](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend) 참조).
-* **[!UICONTROL Style of content emails]** 및 **[!UICONTROL Notification style]** : 미리 정의된 HTML 스타일을 사용하여 전자 메일의 서식을 지정하는 코드를 생성합니다. 이러한 블록은 **[!UICONTROL ...]** 섹션의 게재 소스 코드에 **`<style>...</style>`** 태그에 삽입되어야 합니다.
+* **[!UICONTROL Social network sharing links]** : 받는 사람이 전자 메일 클라이언트, Facebook, X(이전 Twitter) 및 LinkedIn과 미러 페이지 콘텐츠에 대한 링크를 공유할 수 있는 단추를 삽입합니다([Viral marketing: forward to a friend](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend) 참조).
+* **[!UICONTROL Style of content emails]** 및 **[!UICONTROL Notification style]** : 미리 정의된 HTML 스타일로 전자 메일의 서식을 지정하는 코드를 생성합니다. 이러한 블록은 **[!UICONTROL ...]** 섹션의 게재 소스 코드에 **`<style>...</style>`** 태그에 삽입되어야 합니다.
 * **[!UICONTROL Offer acceptance URL in unitary mode]** : 상호 작용 오퍼를 **[!UICONTROL Accepted]**(으)로 설정할 수 있는 URL을 삽입합니다([이 섹션](../../interaction/using/offer-analysis-report.md) 참조).
 
 ## 사용자 지정 개인화 블록 정의 {#defining-custom-personalization-blocks}
@@ -134,16 +136,16 @@ HTML 소스 코드는 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
    * 개인화 필드 삽입 아이콘에서 이 블록에 액세스할 수 있도록 하려면 **[!UICONTROL Visible in the customization menus]**&#x200B;을(를) 선택하십시오.
    * 필요한 경우 **[!UICONTROL The content of the personalization block depends upon the format]**&#x200B;을(를) 선택하여 HTML 형식의 전자 메일과 텍스트 형식의 전자 메일에 대해 두 개의 개별 블록을 정의합니다.
 
-     그런 다음 이 편집기의 아래 섹션에 해당 콘텐츠를 정의할 수 있는 두 개의 탭(HTML 콘텐츠 및 텍스트 콘텐츠)이 표시됩니다.
+     그런 다음 이 편집기의 아래 섹션(HTML 컨텐츠 및 텍스트 컨텐츠)에 해당 컨텐츠를 정의할 수 있는 두 개의 탭이 표시됩니다.
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * 컨텐츠 입력(HTML, 텍스트, JavaScript 등) 을(를) 클릭하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+   * 개인화 블록의 콘텐츠(HTML, 텍스트, JavaScript 등)를 입력하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 튜토리얼 비디오 {#personalization-blocks-video}
 
 다이내믹 콘텐츠 블록을 만드는 방법과 이 블록을 사용하여 이메일 게재의 콘텐츠를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31878?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
-추가 Campaign Classic 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.
