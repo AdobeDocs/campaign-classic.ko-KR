@@ -2,11 +2,13 @@
 product: campaign
 title: 필터 만들기
 description: 필터 만들기
+hide: true
+hidefromtoc: true
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 3%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -16,13 +18,7 @@ ht-degree: 3%
 
 홈 페이지의 **[!UICONTROL Explorer]** 메뉴에서 Adobe Campaign 트리를 탐색하면 데이터베이스에 포함된 데이터가 목록에 표시됩니다. 이러한 목록은 연산자가 필요로 하는 데이터만 표시하도록 구성할 수 있다. 그런 다음 필터링된 데이터에 대해 작업을 실행할 수 있습니다. 필터 구성을 통해 **[!UICONTROL dynamically]** 목록에서 데이터를 선택할 수 있습니다. 데이터가 수정되면 필터링된 데이터가 업데이트됩니다.
 
->[!NOTE]
->
->사용자 인터페이스 구성 설정은 장치 수준에서 로컬로 정의됩니다. 특히 데이터를 새로 고칠 때 문제가 발생하는 경우 이 데이터를 정리해야 하는 경우가 있습니다. 이렇게 하려면 **[!UICONTROL File > Clear the local cache]** 메뉴를 사용합니다.
-
->[!NOTE]
->
->필터 및 사용 방법에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}를 참조하세요.
+**Campaign v8(콘솔) 설명서**&#x200B;에서 [필터 및 사용 방법](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}에 대해 자세히 알아보세요.
 
 
 <!--

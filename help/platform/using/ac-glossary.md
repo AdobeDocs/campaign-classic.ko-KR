@@ -6,9 +6,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
 workflow-type: tm+mt
-source-wordcount: '6002'
+source-wordcount: '6010'
 ht-degree: 2%
 
 ---
@@ -345,7 +345,7 @@ An engine call is a server call that starts real-time processing on server side 
 
 열거형은 필드에 대한 올바른 입력 값을 정의하는 스키마 또는 플랫폼 수준에서 정의된 데이터 형식입니다. 열거형은 사용자 인터페이스 및 쿼리 빌더에 선택 목록으로 표시됩니다.
 
-**Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
+**Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
 +++
 
 +++**탐색기 보기**
@@ -353,7 +353,7 @@ An engine call is a server call that starts real-time processing on server side 
 Explorer 보기는 Adobe Campaign 아티팩트와 데이터를 포함하는 폴더의 계층 구조 표시입니다. Adobe Campaign의 폴더 시스템은 각 폴더에 게재, 워크플로우 또는 오퍼와 같은 특정 유형의 데이터가 저장되므로 일반적인 트리뷰처럼 작동하지 않습니다.
 
 
-[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
+[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
 
 +++
 
@@ -400,7 +400,7 @@ Federated Data Access는 타사 데이터베이스를 포함하도록 클라이�
 
 폴더는 특정 데이터 유형의 데이터베이스 레코드를 포함하는 Explorer 보기 항목입니다. 단, 구성 요소로 사용되며 데이터 자체는 포함되지 않고 다른 폴더만 포함하는 일반 폴더 유형은 예외입니다.
 
-[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
+[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
 
 +++
 
@@ -408,7 +408,7 @@ Federated Data Access는 타사 데이터베이스를 포함하도록 클라이�
 
 폴더 보기는 데이터 유형이 속한 폴더와 관계없이 선택한 데이터 유형의 모든 레코드를 표시하는 데 사용되는 특수 Explorer 폴더 유형입니다. 폴더 보기는 여러 폴더에 분산된 데이터 또는 분할된 데이터를 관리하는 관리 도구로 사용됩니다.
 
-[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
+[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
 +++
 
 +++**Forms**
@@ -561,7 +561,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 탐색 트리는 Adobe Campaign의 Explorer 보기에서 기본 탐색입니다. 탐색 트리는 파일 브라우저(예: Windows 탐색기)처럼 작동합니다. 폴더에는 하위 폴더가 포함될 수 있습니다. 노드를 선택하면 해당 노드에 해당하는 보기가 표시됩니다. 표시된 보기는 선택한 줄을 편집하기 위한 스키마 및 입력 양식과 관련된 목록입니다. 탐색 트리를 사용자 정의하고 폴더에 대한 권한을 설정할 수 있습니다.
 
-[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
+[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
 
 +++
 
@@ -795,7 +795,7 @@ Personalization 변수는 수신자의 정보에 따라 수신자마다 다른 �
 
 사전 정의된 필터는 다시 사용하기 위해 저장된 쿼리입니다. 사전 정의된 필터를 사용하면 생산성을 높이고(한 번만 만들어지기 때문에), 일관성을 구축하는 데 도움을 주고(모든 마케터가 사용할 수 있기 때문에), 자신을 만들지 못할 수 있는 코드나 논리를 사용할 수 있기 때문에 마케터에게 필요한 기술을 낮출 수 있습니다.
 
-[사전 정의된 필터](../../platform/using/creating-filters.md#filtering-recipients)에 대해 자세히 알아보세요.
+필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
 +++
 
 <!--
@@ -913,7 +913,7 @@ Adobe Campaign을 사용하면 뉴스레터 또는 제품 업데이트와 같은
 
 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 컨트롤 패널에서는 스토리지 용량 모니터링, IP 주소 관리 허용 목록 및 공개 SSH 키 관리와 같은 작업을 SFTP 서버에 수행할 수 있습니다.
 
-[SFTP 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko)에 대해 자세히 알아보세요.
+[SFTP 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)에 대해 자세히 알아보세요.
 +++
 
 +++**구독 서비스 활동**

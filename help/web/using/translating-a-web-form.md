@@ -5,10 +5,10 @@ description: 웹 양식 번역
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 1%
+source-wordcount: '1549'
+ht-degree: 0%
 
 ---
 
@@ -70,13 +70,13 @@ Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의�
 
 ### 문자열 필터링 {#filtering-strings}
 
-기본적으로 웹 애플리케이션의 각 번역 언어가 표시됩니다. 기본 필터에는 언어와 상태, 이렇게 두 가지가 있습니다. **[!UICONTROL Filters]** 단추를 클릭한 다음 **[!UICONTROL By language or status]**&#x200B;을(를) 클릭하여 일치하는 드롭다운 상자를 표시합니다. 고급 필터를 만들 수도 있습니다. 자세한 정보는 이 [페이지](../../platform/using/creating-filters.md#creating-an-advanced-filter)를 참조하십시오.
+기본적으로 웹 애플리케이션의 각 번역 언어가 표시됩니다. 기본 필터에는 언어와 상태, 이렇게 두 가지가 있습니다. **[!UICONTROL Filters]** 단추를 클릭한 다음 **[!UICONTROL By language or status]**&#x200B;을(를) 클릭하여 일치하는 드롭다운 상자를 표시합니다. 고급 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 
 번역 언어를 선택하려면 **[!UICONTROL Language]** 드롭다운 상자로 이동하십시오.
 
-번역되지 않은 문자열만 표시하려면 **[!UICONTROL Status]** 드롭다운 상자에서 **[!UICONTROL To translate]**&#x200B;을(를) 선택합니다. 번역되거나 승인된 문자열만 표시할 수도 있습니다.
+번역되지 않은 문자열만 표시하려면 **[!UICONTROL To translate]** 드롭다운 상자에서 **[!UICONTROL Status]**&#x200B;을(를) 선택합니다. 번역되거나 승인된 문자열만 표시할 수도 있습니다.
 
 ### 문자열 번역 {#translating-strings}
 

@@ -6,9 +6,9 @@ feature: Workflows
 hide: true
 hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2019'
 ht-degree: 2%
 
 ---
@@ -133,7 +133,7 @@ Adobe Campaign 탐색기에서 기본적으로 워크플로 목록에 **[!UICONT
 
 ![](assets/wf-notification_error-console.png)
 
-오류 발생 시 실행을 일시 중지하지 않고 계속하도록 워크플로를 구성할 수 있습니다. 이렇게 하려면 **[!UICONTROL Properties]** 워크플로우를 편집하고 **[!UICONTROL Error management]** 섹션에서 **[!UICONTROL In case of error]** 필드의 **[!UICONTROL Ignore]** 옵션을 선택합니다. 그런 다음에는 프로세스가 일시 중지되기 전에 무시할 수 있는 연속 오류 수를 지정할 수 있습니다.
+오류 발생 시 실행을 일시 중지하지 않고 계속하도록 워크플로를 구성할 수 있습니다. 이렇게 하려면 **[!UICONTROL Properties]** 워크플로우를 편집하고 **[!UICONTROL Error management]** 섹션에서 **[!UICONTROL Ignore]** 필드의 **[!UICONTROL In case of error]** 옵션을 선택합니다. 그런 다음에는 프로세스가 일시 중지되기 전에 무시할 수 있는 연속 오류 수를 지정할 수 있습니다.
 
 이 경우 오류 작업이 중단됩니다. 이 모드는 나중에 캠페인을 다시 시도하도록 설계된 워크플로우(주기적 작업)에 특히 적합합니다.
 
@@ -207,7 +207,7 @@ Adobe Campaign 탐색기에서 기본적으로 워크플로 목록에 **[!UICONT
 >
 >**isRunning**&#x200B;은(는) 이 예제에 대해 선택한 변수 이름입니다. 기본 제공 변수가 아닙니다.
 
-**yes** 분기에서 **[!UICONTROL Test]**&#x200B;을(를) 바로 다음에 오는 작업은 해당 **초기화 스크립트**&#x200B;에서 인스턴스 변수를 설정해야 합니다.
+**[!UICONTROL Test]** yes **분기에서**&#x200B;을(를) 바로 다음에 오는 작업은 해당 **초기화 스크립트**&#x200B;에서 인스턴스 변수를 설정해야 합니다.
 
 ```
 instance.vars.isRunning = true
@@ -281,7 +281,4 @@ Campaign Classic 인터페이스를 사용하면 사전 정의된 **보기**&#x2
 
 ![](assets/workflow-monitoring-filter.png)
 
-자세한 내용은 다음 섹션을 참조하십시오.
-
-* [고급 필터 만들기](../../platform/using/creating-filters.md#creating-an-advanced-filter)
-* [필터 저장 중](../../platform/using/creating-filters.md#saving-a-filter)
+필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.

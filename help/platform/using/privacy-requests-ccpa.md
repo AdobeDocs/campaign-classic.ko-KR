@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
-source-git-commit: ec774cc10a69a694b3c2bf5a6f662afd12a1435a
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 98%
+source-wordcount: '569'
+ht-degree: 94%
 
 ---
 
@@ -73,7 +73,7 @@ Adobe Campaign이 제공하는 [동의 관리](privacy-management.md#consent-man
 
 값을 채우려면 다음과 같은 몇 가지 방법을 사용할 수 있습니다.
 
-* 수신자의 세부 정보를 편집하여 Campaign의 인터페이스 사용
+* 수신자의 세부 사항을 편집하여 Campaign 인터페이스 사용
 * API 사용
 * 데이터 가져오기 워크플로를 통해
 
@@ -87,6 +87,7 @@ Adobe Campaign이 제공하는 [동의 관리](privacy-management.md#consent-man
 
    ![](assets/privacy-ccpa-6.png)
 
-1. 이 열을 클릭하여 옵트아웃 정보에 따라 수신자를 정렬할 수 있습니다. 옵트아웃한 수신자만 표시하는 필터를 만들 수도 있습니다. 필터를 만드는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/creating-filters.md)을 참조하십시오.
+1. 이 열을 클릭하여 옵트아웃 정보에 따라 수신자를 정렬할 수 있습니다. 옵트아웃한 수신자만 표시하는 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+
 
    ![](assets/privacy-ccpa-7.png)
